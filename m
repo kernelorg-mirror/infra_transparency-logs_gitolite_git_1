@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8836302723961900931=="
+Content-Type: multipart/mixed; boundary="===============7901093446253096280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 May 2026 10:52:51 -0000
-Message-Id: <177797837158.968771.3266385132056007786@gitolite.kernel.org>
+Date: Tue, 05 May 2026 10:54:26 -0000
+Message-Id: <177797846697.969848.8740680788393608143@gitolite.kernel.org>
 
---===============8836302723961900931==
+--===============7901093446253096280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,69 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 78cde54ea5f03398f1cf6656de2472068f6da966
-    new: 4ac4d6549a6563878d7c19c154e017f6cb7114d3
-    log: revlist-78cde54ea5f0-4ac4d6549a65.txt
+  - ref: refs/heads/objtool/core
+    old: 1735858caa4bbb8b923860c0833d463b5d9c5f79
+    new: 2d3bb398861ad3ddbf87959cc2e34a7001f0b3ad
+    log: revlist-1735858caa4b-2d3bb398861a.txt
 
---===============8836302723961900931==
+--===============7901093446253096280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78cde54ea5f0-4ac4d6549a65.txt
+Content-Disposition: attachment; filename=revlist-1735858caa4b-2d3bb398861a.txt
 
-b8c03b7f4558219ca09693b5fa4f5e068041d2c2 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
-f5f035a724235f6dbef428ca54a3e9f25becc10e userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
-a5bb8669872b6b8463b8777a7a259a8305060016 userfaultfd: move vma_can_userfault out of line
-0f48947c4232c934885711dde0b49066f9d8ee87 userfaultfd: introduce vm_uffd_ops
-dfc4d771820a171bd701d06252fcf920d0ede25c shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
-ad9ac3081332e955bc4b513018a1e0e86683bfb5 userfaultfd: introduce vm_uffd_ops->alloc_folio()
-f74991b4e3836dd38f3adb41b146994b283942a1 shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
-6ab703034f145ef8e1a705b1630cc317ec8dd8a2 userfaultfd: mfill_atomic(): remove retry logic
-fb0fca46b9b460f7ac60f66d92ac6276fce9d9e9 selftests/mm/guard-regions: skip collapse test when thp not enabled
-929d5fbf1a00ed86e02348a0a26dfddc301ababd selftests/mm: soft-dirty: skip two tests when thp is not available
-710d2f307945e892aaa147ae98232fafebe0be33 selftests/mm: move write_file helper to vm_util
-a784a3a39cc58b45807083b6447fa13028fd47e7 selftests/mm/vm_util: robust write_file()
-dad4964a34c20cb86dcbedfe64ef7fe0728346df selftests/mm: split_huge_page_test: skip the test when thp is not available
-cfe9a446f519f355f2e3741e2d63944e6064c4cc selftests/mm: transhuge_stress: skip the test when thp not available
-df620ec4d4d703f11f3b0adecd4450c34489e0f1 mm/page_io: use sio->len for PSWPIN accounting in sio_read_complete()
-77c368f057e17b59b23899a1907ee9d4f4d7a532 mm/sparse: fix comment for section map alignment
-19999e479c2a38672789e66b4830f43c645ca1f2 mm: remove '!root_reclaim' checking in should_abort_scan()
-3bc181c1436373e42220baaa0d8c9b45fa18afe1 mm/mprotect: move softleaf code out of the main function
-89e613bc0b2d6d4a18a09b161131ce4ca5c70f2a mm/mprotect: special-case small folios when applying permissions
-9a8ea3c1cb251d4fc354d031e649da099140c4f4 docs: proc: document ProtectionKey in smaps
-2f529e73d72048743b6eaa241da6ac2bcb28099e zram: reject unrecognized type= values in recompress_store()
-c45b354911d01565156e38d7f6bc07edb51fc34c mm/hugetlb: fix early boot crash on parameters without '=' separator
-2b19bf05719b73f7d04d7d27ec423b459b868852 mm/vmstat: fix vmstat_shepherd double-scheduling vmstat_update
-161ce69c2c89781784b945d8e281ff2da9dede9c userfaultfd: allow registration of ranges below mmap_min_addr
-d432e8847f58f825dada827eb492c34f65cdc82a selftests: mm: skip charge_reserved_hugetlb without killall
-57294a97bdd115b06ac05486e0e4a4f50a21ab7b mm/migrate_device: remove dead migration entry check in migrate_vma_collect_huge_pmd()
-60087b49f8e7289681586609fc1d012615354754 MAINTAINERS: update kexec/kdump maintainers entries
-320c7234d1d1d3552cbbf58886f4219cc1a5ba48 MAINTAINERS: update KHO and LIVE UPDATE maintainers
-de61e40bcbb84546972191fb70ef64c5aecdda68 MAINTAINERS: drop include/linux/kho/abi/ from KHO
-b5a9ac2bb0e4f8a2a03c395c5176a85cea273c15 MAINTAINERS: drop include/linux/liveupdate from LIVE UPDATE
-e86ffbe7dfdd869498f1c44edd9ff230286d514e MAINTAINERS: update Dave's kdump reviewer email address
-3de705a43a465fa92a45c0a494ec13bf0bad2642 mm/vmscan: avoid false-positive -Wuninitialized warning
-0b5e8d7999076ac3c490fc18376a404e2626abff MAINTAINERS: add page cache reviewer
-f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
-57b3ec396dd898aadc073bb16f3d05ee64b2c8af sh: Include <linux/io.h> in dac.h
-222717d642ca98f6e72107621ab37d1aa4f26966 sh: Fix typo in SPDX license ID lines
-44ab0a3ee21830178a289de8d713225bedc319ef sh: Remove CONFIG_VSYSCALL reference from UAPI
-647b43f65357673a9ee4fe8a99247a7549bdb368 sh: Drop CONFIG_FIRMWARE_EDID from defconfig files
-df8f6181ab57d65a99e61fcfc5be22a42df58642 Merge tag 'perf-tools-for-v7.1-2026-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-1e769656963e0329b91d32ec76955e077966b603 Merge tag 'for-linus-7.1-1' of https://github.com/cminyard/linux-ipmi
-fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-6551300dc452ac16a855a83dbd1e74899542d3b3 smb: server: fix active_num_conn leak on transport allocation failure
-d6a6aa81eac2c9bff66dc6e191179cb69a14426b ksmbd: validate response sizes in ipc_validate_msg()
-d07b26f39246a82399661936dd0c853983cfade7 ksmbd: require minimum ACE size in smb_check_perm_dacl()
-ce23158bfe584bd90d1918f279fdf9de57802012 smb: server: fix max_connections off-by-one in tcp accept path
-3e4e2ea2a781018ed5d75f969e3e5606beb66e48 ksmbd: validate num_aces and harden ACE walk in smb_inherit_dacl()
-1baff47b81f94f9231c91236aa511420d0e266b9 ksmbd: fix use-after-free in smb2_open during durable reconnect
-299f962c0b02d048fb45d248b4da493d03f3175d ksmbd: use check_add_overflow() to prevent u16 DACL size overflow
-30010c952077a1c89ecdd71fc4d574c75a8f5617 ksmbd: fix out-of-bounds write in smb2_get_ea() EA alignment
-c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
-a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
-267bf3cf9a6f0ffb98b8afd983c1950e835f07c9 tcp: annotate data-races in tcp_get_info_chrono_stats()
 21e92a38cfd891538598ba8f805e0165a820d532 tcp: add data-race annotations around tp->data_segs_out and tp->total_retrans
 829ba1f329cb7cbd56d599a6d225997fba66dc32 tcp: add data-races annotations around tp->reordering, tp->snd_cwnd
 fd571afb05ebaeac5d8f09460a0640d4cf6755f8 tcp: annotate data-races around tp->snd_ssthresh
@@ -1049,6 +997,58 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
-4ac4d6549a6563878d7c19c154e017f6cb7114d3 sched: Use trace_call__<tp>() to save a static branch
+84c304a534b844703d3437811e8f072166e3f116 objtool/klp: Fix is_uncorrelated_static_local() for Clang
+ff529864e738f447ff4c019956319930fc274a23 objtool/klp: Fix .data..once static local non-correlation
+8edec016255dcc74146b0486639f756f0ce75bf5 objtool/klp: Don't correlate __ADDRESSABLE() symbols
+710c4c254688c37478fb72a0e870afad1f54715f objtool/klp: Don't correlate absolute symbols
+0a7823d1d70dd17fbf0e9771d9afd5067a69ded0 objtool/klp: Don't correlate __initstub__ symbols
+76eb0f8639fbc6bcc0e7c1ca649c456bfebc4d5c objtool/klp: Don't report uncorrelated functions as new
+e872b3f13922ecd746f907e20261dfc11c9a9f28 objtool/klp: Improve local label check
+3de711fba73ad93b8b3fbe09cf681cefed5d573d objtool/klp: Fix create_fake_symbols() skipping entsize-based sections
+0333b7399587ee0aaa863ed0d13a00a6c7c64068 objtool: Replace iterator callback with for_each_sym_by_mangled_name()
+def5b60dcd2256efab0e66f598419b17c425b8f5 objtool/klp: Fix --debug-checksum for duplicate symbol names
+c4c02d4450b5b7e2fbde578252f71a5697180112 objtool/klp: Fix handling of zero-length .altinstr_replacement sections
+98377f3ba7c02d6eb34e203c9f9823bc62b0d231 objtool/klp: Fix cloning of zero-length section symbols
+479ac5260e7ea717f1ea7b1e74dfe807d3b46eda objtool/klp: Fix XXH3 state memory leak
+62a7a01fde87c99926cd7e9670b4226c4c79ebaf objtool/klp: Fix extraction of text annotations for alternatives
+da4326573ae8d00a00a6015c8c3886812cd0adb4 objtool/klp: Fix kCFI trap handling
+3787e82a4e3a0a04aeb5543580ee90bed3a36e55 objtool/klp: Fix relocation conversion failures for R_X86_64_NONE
+3e01ab44af207a2d8c197653e7278083b039a274 objtool: Move mark_rodata() to elf.c
+8fdc3585b3b09f2c55d8573edc6a1dbfeb728f03 objtool/klp: Simplify reloc symbol conversion
+d5b0f025281f287759820f57b7ba1bac7827b338 objtool/klp: Fix pointer comparisons for rodata objects
+51e1dfce24c8f4b1cdfa614a43ee195088901eca objtool/klp: Don't correlate .rodata.cst* constant pool objects
+5f49ec82b9f65507c262a6e3f1b53663f79eedce objtool/klp: Fix reloc corruption in convert_reloc_sym_to_secsym()
+a375e327b63e0da29b82a92b569bfdf4628fa38a objtool: Fix reloc hash collision in find_reloc_by_dest_range()
+cc39ccce7d5bc623100f07dcda070cef1bf690f6 klp-build: Fix hang on out-of-date .config
+ba77fe55781a2464f68b6c13b4b31d05abd2abcf klp-build: Fix checksum comparison for changed offsets
+946d3510fe19dca5cf8c1ea5d5eedff47a72ddc3 klp-build: Don't use errexit
+b3ece3019e8ebcda5e8451580e34bfbc97ef33e3 klp-build: Validate patch file existence
+96524543740ead39a79cf36bb4361f93cde1629c klp-build: Suppress excessive fuzz output by default
+f3048888ea62ac1c573db91e74e0dcabe058e89f klp-build: Fix patch cleanup on interrupt
+d8c3e262361b04984f0322ce5b88ea52dab37318 klp-build: Reject patches to vDSO
+df0d7bb04a27e48a0fb5fd32223f5ab248876cab klp-build: Reject patches to realmode
+e950d2a10a30aa5f3ebb92d4bf807d1d5dd96de1 klp-build: Print "objtool klp diff" command in verbose mode
+b6480aaedf3cbdd0a8e4b75c77434423eb52e3b8 klp-build: Remove redundant SRC and OBJ variables
+8d4cbb6d0caf03b0a22be4d6d2198a9edac46517 objtool/klp: Don't set sym->file for section symbols
+ac999926774a71e30c2e2e2eb48d5419dc167781 objtool: Include libsubcmd headers directly from source tree
+9e4512d7de5ab27c1b0c3891f7a0e9202a5a2eef objtool/klp: Create empty checksum sections for function-less object files
+ff0cf5efef40e3b60e7bb27a6072f9a0c6e4c5ce objtool/klp: Handle Clang .data..Lanon anonymous data sections
+8eebd573113362ef3a3c75f166a83ee060dae11b objtool: Add is_alias_sym() helper
+6282e9f46b4fa3ac554852bb1aef17843fc47ee2 objtool: Add is_cold_func() helper
+30cae58cdc13b91035faae3dcc8a96fe8a2daae3 objtool/klp: Extricate checksum calculation from validate_branch()
+a5b6612332622d809e5c0a4f5637eef92dc06c06 objtool: Consolidate file decoding into decode_file()
+e10764614ad634071d3bc8cfbf8bce43285d458d objtool/klp: Add "objtool klp checksum" subcommand
+d4888d58041d1a61d66f2c81cb398f9685bc7576 klp-build: Use "objtool klp checksum" subcommand
+3b8e56b86faa3e44745aa764c2e1fd9dbbd16104 objtool/klp: Remove "objtool --checksum"
+225d16dd510d92c8eaba8e6496cfaa7881a24827 klp-build: Validate short-circuit prerequisites
+873a2208ea31e822e0a5eea86b8a3fd07208db45 objtool/klp: Calculate object checksums
+6016dd33a10a89d7db9509124d678d38916ab337 objtool/klp: Rewrite symbol correlation algorithm
+5d6a03eeb7173179ef3c64e31806d21966a99875 objtool/klp: Add correlation debugging output
+3ee67629b2b7fbe270f6c21d9a95219bbd214630 objtool: Add insn_sym() helper
+cca84cb12908f1cfcecaef80a7692017e2d6a945 objtool/klp: Fix position-dependent checksums for non-relocated jumps/calls
+fc0bb9915bce0c333f918ca76958d804ccd79f89 objtool: Grow __cfi_* prefix symbols for all CFI+CALL_PADDING
+f7ceffd21a8a59ba1e92078750eef86e628dea80 objtool/klp: Fix kCFI prefix finding/cloning
+fe6a87e0abac45b20664377545760901d4537ea8 objtool: Improve and simplify prefix symbol detection
+2d3bb398861ad3ddbf87959cc2e34a7001f0b3ad objtool/klp: Cache dont_correlate() result
 
---===============8836302723961900931==--
+--===============7901093446253096280==--
