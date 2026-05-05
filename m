@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Tue, 05 May 2026 14:06:37 -0000
-Message-Id: <177798999738.1179977.10425988631713681205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 05 May 2026 14:07:58 -0000
+Message-Id: <177799007805.1180800.16044265509461757097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/rust-sync
-    old: 25f8ae3956f6e747f0eedaca70ed975a79068ec4
-    new: 082cc4c201e4450ff9456c9bd093fd70d103595a
+  - ref: refs/heads/sched/urgent
+    old: 3ed412adc88d914acf45c5a304366be0b30cfd0a
+    new: 0c0cf14be490975a7431e9d49fcd7b190fff337f
     log: |
-         40c3e04e2248c0e5d78d23e6767a1c58d5678eac preempt: x86: Avoid tracking NMI separately when 64BIT=y
-         1ceae358bb3ffe0abebe6a34143537d1447e95b1 locking/lockdep: Replace snprintf with strscpy in seq_stats
-         11a8fbc125d1b74770bf7e2a3747ad921c128cff rust: sync: completion: Mark inline complete_all and wait_for_completion
-         082cc4c201e4450ff9456c9bd093fd70d103595a MAINTAINERS: Add RUST [SYNC] entry
+         b9eac6a9d93c952c4b7775a24d5c7a1bbf4c3c00 rseq: Revert to historical performance killing behaviour
+         02b44d943b3adddc3a15c1da97045e205b7d14c1 selftests/rseq: Skip tests if time slice extensions are not available
+         d97cb2ef0b221b068e90b6058aa97faa0626bdab selftests/rseq: Make registration flexible for legacy and optimized mode
+         3cc32166b3e3c9a333a011619d9676bc1024b22c selftests/rseq: Validate legacy behavior
+         867d5e3305886b78109e68983783a8688341ec31 rseq: Implement read only ABI enforcement for optimized RSEQ V2 mode
+         22a92dbd6083581c6b8b8a3fa90f9f96ea91af44 rseq: Reenable performance optimizations conditionally
+         e5adc76278565ee3b5a5863b830231e37b83b3bc selftests/rseq: Expand for optimized RSEQ ABI v2
+         13abe4ce230f22a522facdaba87d1c137054c3a6 sched/fair: Fix overflow in vruntime_eligible()
+         0c0cf14be490975a7431e9d49fcd7b190fff337f sched/fair: Fix wakeup_preempt_fair() for not waking up task
          
