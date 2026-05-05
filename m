@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 05 May 2026 09:26:40 -0000
-Message-Id: <177797320017.878818.5838252944876950002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 05 May 2026 09:29:56 -0000
+Message-Id: <177797339674.880711.2914596788650653390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 315c48f81c56bf3d375f28a4d18f93f7af254d90
-    new: e5fc7d89012aaeb697cedd0f9afca302c34ca868
+  - ref: refs/heads/testing
+    old: 440c14da1af1cc6cc9bb18841603711d845ed900
+    new: 05a216d7492a5b37a6f73ddf01cb4b8aac6b00e6
     log: |
-         e5fc7d89012aaeb697cedd0f9afca302c34ca868 docs: install meson and ninja for the readthedocs build
+         b3b4660be92408c0f9baffb70b3e8c426dbc2b7a iio: light: stk3310: Replace uint32_t with u32 and reorder members to eliminate padding
+         05a216d7492a5b37a6f73ddf01cb4b8aac6b00e6 iio: light: stk3310: Use sizeof() for regmap_bulk_read/write count parameter
          
