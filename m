@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0495108075622672597=="
+Content-Type: multipart/mixed; boundary="===============7840516458394059222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 05 May 2026 22:54:58 -0000
-Message-Id: <177802169804.1735857.10203472734889822753@gitolite.kernel.org>
+Date: Tue, 05 May 2026 22:55:03 -0000
+Message-Id: <177802170372.1737433.1480086885461645847@gitolite.kernel.org>
 
---===============0495108075622672597==
+--===============7840516458394059222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d40831b016b4986e70d20d0ad14e6a0c62318986
     new: 95084f1883a760e0d4290698346759d58e2b944a
     log: revlist-d40831b016b4-95084f1883a7.txt
 
---===============0495108075622672597==
+--===============7840516458394059222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aa69918bd418e700309fdd08509dba324fb24296 openvswitch: vport: fix self-deadlock o
 44b550d88b267320459d518c0743a241ab2108fa net/rds: handle zerocopy send cleanup before the message is queued
 95084f1883a760e0d4290698346759d58e2b944a net: mana: Fix crash from unvalidated SHM offset read from BAR0 during FLR
 
---===============0495108075622672597==--
+--===============7840516458394059222==--
