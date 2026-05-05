@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 05 May 2026 16:10:01 -0000
-Message-Id: <177799740135.1316695.7543305117124415967@gitolite.kernel.org>
+Date: Tue, 05 May 2026 16:11:55 -0000
+Message-Id: <177799751581.1320597.13776862474893805549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/dinguyen/linux
 user: dinguyen
 changes:
   - ref: refs/heads/for-next
-    old: b5a0814a2cbb91e9376937f6b7de6ddff5eae14a
-    new: 5af72902dec76fc0cac564febf83297a6ce7a2f9
+    old: 5af72902dec76fc0cac564febf83297a6ce7a2f9
+    new: 49a2a555a14920a1c9e3175c6ebb7d65eb06cf34
     log: |
-         7b618efca86a8fba3fd9b390ced9756f366afb56 arm64: dts: socfpga: agilex5: set alias for i3c controllers
-         5af72902dec76fc0cac564febf83297a6ce7a2f9 arm64: dts: socfpga: agilex3: set alias for i3c controller
+         5b80089b47f8307c2265357e4d3ae90cb40ac0d6 arm64: dts: socfpga: agilex5: set alias for i3c controllers
+         49a2a555a14920a1c9e3175c6ebb7d65eb06cf34 arm64: dts: socfpga: agilex3: set alias for i3c controller
          
