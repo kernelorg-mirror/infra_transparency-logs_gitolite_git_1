@@ -1,106 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6033707411027100177=="
+Content-Type: multipart/mixed; boundary="===============6287756648741164539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 05 May 2026 08:19:26 -0000
-Message-Id: <177796916614.805847.7662184580052338711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Tue, 05 May 2026 08:19:36 -0000
+Message-Id: <177796917601.806062.12583991962330959012@gitolite.kernel.org>
 
---===============6033707411027100177==
+--===============6287756648741164539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
-    old: 5db6ef9847717329f12c5ea8aba7e9f588a980c0
-    new: d1fa83ecac31093a550534a79a33bc7f4ba8fc10
-    log: revlist-5db6ef984771-d1fa83ecac31.txt
+    old: 8879a3c110cb8ca5a69c937643f226697aa551d9
+    new: 6e05c3cd9fa066fdaa9da97e45ed129426d53126
+    log: revlist-8879a3c110cb-6e05c3cd9fa0.txt
 
---===============6033707411027100177==
+--===============6287756648741164539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5db6ef984771-d1fa83ecac31.txt
+Content-Disposition: attachment; filename=revlist-8879a3c110cb-6e05c3cd9fa0.txt
 
-e2e0b826d37419536b91b25fa51ecc0565d27726 userfaultfd: introduce mfill_establish_pmd() helper
-b8c03b7f4558219ca09693b5fa4f5e068041d2c2 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
-f5f035a724235f6dbef428ca54a3e9f25becc10e userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
-a5bb8669872b6b8463b8777a7a259a8305060016 userfaultfd: move vma_can_userfault out of line
-0f48947c4232c934885711dde0b49066f9d8ee87 userfaultfd: introduce vm_uffd_ops
-dfc4d771820a171bd701d06252fcf920d0ede25c shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
-ad9ac3081332e955bc4b513018a1e0e86683bfb5 userfaultfd: introduce vm_uffd_ops->alloc_folio()
-f74991b4e3836dd38f3adb41b146994b283942a1 shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
-6ab703034f145ef8e1a705b1630cc317ec8dd8a2 userfaultfd: mfill_atomic(): remove retry logic
-fb0fca46b9b460f7ac60f66d92ac6276fce9d9e9 selftests/mm/guard-regions: skip collapse test when thp not enabled
-929d5fbf1a00ed86e02348a0a26dfddc301ababd selftests/mm: soft-dirty: skip two tests when thp is not available
-710d2f307945e892aaa147ae98232fafebe0be33 selftests/mm: move write_file helper to vm_util
-a784a3a39cc58b45807083b6447fa13028fd47e7 selftests/mm/vm_util: robust write_file()
-dad4964a34c20cb86dcbedfe64ef7fe0728346df selftests/mm: split_huge_page_test: skip the test when thp is not available
-cfe9a446f519f355f2e3741e2d63944e6064c4cc selftests/mm: transhuge_stress: skip the test when thp not available
-df620ec4d4d703f11f3b0adecd4450c34489e0f1 mm/page_io: use sio->len for PSWPIN accounting in sio_read_complete()
-77c368f057e17b59b23899a1907ee9d4f4d7a532 mm/sparse: fix comment for section map alignment
-19999e479c2a38672789e66b4830f43c645ca1f2 mm: remove '!root_reclaim' checking in should_abort_scan()
-3bc181c1436373e42220baaa0d8c9b45fa18afe1 mm/mprotect: move softleaf code out of the main function
-89e613bc0b2d6d4a18a09b161131ce4ca5c70f2a mm/mprotect: special-case small folios when applying permissions
-9a8ea3c1cb251d4fc354d031e649da099140c4f4 docs: proc: document ProtectionKey in smaps
-2f529e73d72048743b6eaa241da6ac2bcb28099e zram: reject unrecognized type= values in recompress_store()
-c45b354911d01565156e38d7f6bc07edb51fc34c mm/hugetlb: fix early boot crash on parameters without '=' separator
-2b19bf05719b73f7d04d7d27ec423b459b868852 mm/vmstat: fix vmstat_shepherd double-scheduling vmstat_update
-161ce69c2c89781784b945d8e281ff2da9dede9c userfaultfd: allow registration of ranges below mmap_min_addr
-d432e8847f58f825dada827eb492c34f65cdc82a selftests: mm: skip charge_reserved_hugetlb without killall
-57294a97bdd115b06ac05486e0e4a4f50a21ab7b mm/migrate_device: remove dead migration entry check in migrate_vma_collect_huge_pmd()
-60087b49f8e7289681586609fc1d012615354754 MAINTAINERS: update kexec/kdump maintainers entries
-320c7234d1d1d3552cbbf58886f4219cc1a5ba48 MAINTAINERS: update KHO and LIVE UPDATE maintainers
-de61e40bcbb84546972191fb70ef64c5aecdda68 MAINTAINERS: drop include/linux/kho/abi/ from KHO
-b5a9ac2bb0e4f8a2a03c395c5176a85cea273c15 MAINTAINERS: drop include/linux/liveupdate from LIVE UPDATE
-e86ffbe7dfdd869498f1c44edd9ff230286d514e MAINTAINERS: update Dave's kdump reviewer email address
-3de705a43a465fa92a45c0a494ec13bf0bad2642 mm/vmscan: avoid false-positive -Wuninitialized warning
-0b5e8d7999076ac3c490fc18376a404e2626abff MAINTAINERS: add page cache reviewer
-f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
-57b3ec396dd898aadc073bb16f3d05ee64b2c8af sh: Include <linux/io.h> in dac.h
-222717d642ca98f6e72107621ab37d1aa4f26966 sh: Fix typo in SPDX license ID lines
-44ab0a3ee21830178a289de8d713225bedc319ef sh: Remove CONFIG_VSYSCALL reference from UAPI
-647b43f65357673a9ee4fe8a99247a7549bdb368 sh: Drop CONFIG_FIRMWARE_EDID from defconfig files
-df8f6181ab57d65a99e61fcfc5be22a42df58642 Merge tag 'perf-tools-for-v7.1-2026-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-1e769656963e0329b91d32ec76955e077966b603 Merge tag 'for-linus-7.1-1' of https://github.com/cminyard/linux-ipmi
-fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-6551300dc452ac16a855a83dbd1e74899542d3b3 smb: server: fix active_num_conn leak on transport allocation failure
-d6a6aa81eac2c9bff66dc6e191179cb69a14426b ksmbd: validate response sizes in ipc_validate_msg()
-d07b26f39246a82399661936dd0c853983cfade7 ksmbd: require minimum ACE size in smb_check_perm_dacl()
-ce23158bfe584bd90d1918f279fdf9de57802012 smb: server: fix max_connections off-by-one in tcp accept path
-3e4e2ea2a781018ed5d75f969e3e5606beb66e48 ksmbd: validate num_aces and harden ACE walk in smb_inherit_dacl()
-1baff47b81f94f9231c91236aa511420d0e266b9 ksmbd: fix use-after-free in smb2_open during durable reconnect
-299f962c0b02d048fb45d248b4da493d03f3175d ksmbd: use check_add_overflow() to prevent u16 DACL size overflow
-30010c952077a1c89ecdd71fc4d574c75a8f5617 ksmbd: fix out-of-bounds write in smb2_get_ea() EA alignment
-c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
-a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
-267bf3cf9a6f0ffb98b8afd983c1950e835f07c9 tcp: annotate data-races in tcp_get_info_chrono_stats()
-21e92a38cfd891538598ba8f805e0165a820d532 tcp: add data-race annotations around tp->data_segs_out and tp->total_retrans
-829ba1f329cb7cbd56d599a6d225997fba66dc32 tcp: add data-races annotations around tp->reordering, tp->snd_cwnd
-fd571afb05ebaeac5d8f09460a0640d4cf6755f8 tcp: annotate data-races around tp->snd_ssthresh
-faa886ad3ce5fc8f5156493491fe189b2b726bc9 tcp: annotate data-races around tp->delivered and tp->delivered_ce
-124199444de467767175a9004e1574dc42523e62 tcp: add data-race annotations for TCP_NLA_SNDQ_SIZE
-ee43e957ce2ec77b2ec47fef28f3c0df6ab01a31 tcp: annotate data-races around tp->bytes_sent
-5efc7b9f7cbd43401f1af81d3d7f2be00f93390d tcp: annotate data-races around tp->bytes_retrans
-a984705ca88b976bf1087978fd98b7f3993da88c tcp: annotate data-races around tp->dsack_dups
-62585690e6b2a112c408fe25f142b246ac833c42 tcp: annotate data-races around tp->reord_seen
-290b693ce7c9d48588d88b15a782a3efc6fa036b tcp: annotate data-races around tp->srtt_us
-71c675358b711bbfd8528949249419dc2dfa4ce1 tcp: annotate data-races around tp->timeout_rehash
-3a63b3d160560ef51e43fb4c880a5cde8078053c tcp: annotate data-races around (tp->write_seq - tp->snd_nxt)
-dd9aa1f269000d679f4ec12b32abacfc8d921413 mailbox: mailbox-test: handle channel errors consistently
-88ebadbf0deefdaccdab868b44ff70a0a257f473 mailbox: mailbox-test: don't free the reused channel
-bbcf9af68bfedb3d9cc3c7eae62f5c844d8b78b9 mailbox: mailbox-test: initialize struct earlier
-9e89b9d03a2d2e30dcca166d5af52f9a8eceab25 tcp: annotate data-races around tp->plb_rehash
-6e937f4e769e60947909e3525965f0137b9039e8 mailbox: mailbox-test: make data_ready a per-instance variable
-f3a0e90d4deb6386b90a9d5233028259c441cbc1 Merge branch 'tcp-take-care-of-tcp_get_timestamping_opt_stats-races'
-9055c64567e9fc2a58d9382205bf3082f7bea141 Merge tag 'memblock-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-0916664f99381c0cecbf69d7951b2ca529b8fabb Merge tag 'ovpn-net-20260417' of https://github.com/OpenVPN/ovpn-net-next
-885c5e57924dc040b23d0ad0d8388f0e35772159 ice: fix 'adjust' timer programming for E830 devices
 05567e4052732d70c7ff9655217b3d14d25f639a ice: update PCS latency settings for E825 10G/25Gb modes
 9aab1c3d7299285e2569cbc0ed5892d631a241b2 ice: fix double free in ice_sf_eth_activate() error path
 1a303baa715e6b78d6a406aaf335f87ff35acfcd ice: fix double-free of tx_buf skb
@@ -153,6 +78,8 @@ cf1f976aee444af0143c3a2fa6cf0f8bf9bd938e dt-bindings: input: add debounce-delay-
 2ca45e57ea027fffe3350ae5e21ad9cecb0dce74 Input: charlieplex_keypad - add GPIO charlieplex keypad
 f4b369c6fe0ceaba2da2daff8c9eb415f85926dd Merge branch 'next' into for-linus
 ae974ca6f0f3138a835d0ed38bedc87dec85b3b2 fanotify: Fix spelling mistake "enforecement" -> "enforcement"
+5aa58c3a572b3e3b6c786953339f7978b845cc52 crypto: algif_aead - snapshot IV for async AEAD requests
+3bfbf5f0a99c991769ec562721285df7ab69240b crypto: krb5enc - fix async decrypt skipping hash verification
 5cd9c6d332f46d1de8b68117fe2a3f1b08ee80ff gpio: rockchip: Fix GPIO regression after conversion to dynamic base allocation
 e31eee4a961077d60ef2362507240c6743c1c2ae gpio: aspeed: fix AST2700 debounce selector bit definitions
 314f6179e370988ac00dadf373a4f6166eb3db15 drm/i915/psr: Init variable to avoid early exit from et alignment loop
@@ -513,6 +440,7 @@ a8f5192809caf636d05ba47c144f282cfd0e3839 net/sched: sch_red: annotate data-races
 6ef04707e8eee09360f70812c0ac63c712460bd0 LoongArch: BPF: Introduce emit_store_stack_imm64() helper
 e815df29b6a5e59293500085a010d5882374cb3e LoongArch: BPF: Add fsession support for trampolines
 7939f96f26e96b69db1fe4e7c18537a679696358 selftests/bpf: Enable CAN_USE_LOAD_ACQ_STORE_REL for LoongArch
+5db6ef9847717329f12c5ea8aba7e9f588a980c0 crypto: authencesn - reject short ahash digests during instance creation
 a6fe8bd56f7344b0c42f287c4b744d4d43e31ebe Merge tag 'drm-intel-next-fixes-2026-04-22' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
 f329924bb49458c65297f1361f545816a5b90998 net: airoha: Move ndesc initialization at end of airoha_qdma_init_tx()
 3309965fe44c00fd65af7cef5016e9e782c021a7 net: airoha: Add missing bits in airoha_qdma_cleanup_tx_queue()
@@ -1050,5 +978,77 @@ f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://g
 09ae540e1d5c02210795911bf5459282d7af04e9 rhashtable: drop ht->mutex in rhashtable_free_and_destroy()
 dad0d91cc2c3e6b6fb285ccfe7ddf71525797198 mm/slab: Add kvfree_atomic() helper
 d1fa83ecac31093a550534a79a33bc7f4ba8fc10 rhashtable: Add bucket_table_free_atomic() helper
+ffa13d4fdb0dedbde009df10a8af485c123566eb keys: cleanup dead code in Kconfig for FIPS_SIGNATURE_SELFTEST
+52d167bb09181452a8358163b034bb038b1d26dc dt-bindings: crypto: qcom-qce: Document the Milos crypto engine
+2e96024632b386c86860aa78639940fc96d6fcc9 crypto: qat - fix heartbeat error injection
+1b475aaee4cbf4d2f7d8ac69ce84ff2e22953d30 dt-bindings: crypto: qcom-qce: Add Qualcomm Eliza QCE
+a3cb733d6c069928ba80e5883535cf0571c4d5e2 arm64: dts: qcom: eliza: Add QCE crypto
+5c0be26cc11f820bc58883379864c08c39bffaed crypto: ecc - Unbreak the build on arm with CONFIG_KASAN_STACK=y
+9150d598391a62b294fc87c15e6d5853658279d5 crypto: ccp - Reverse the cleanup order in psp_dev_destroy()
+51620f6c06603070b280e85e9f9271f2a00367b3 crypto: ccp - Fix snp_filter_reserved_mem_regions() off-by-one
+6992d4f41cfd540b5c540662ea9f03e78490ef76 crypto: ccp - Check for page allocation failure correctly in TIO
+1dbeefaf59502c680b79370ab0fc9a4cb883c74b crypto: ccp - Initialize data during __sev_snp_init_locked()
+513464a1bc7989cf7bcb316f296e0830049789f5 crypto: atmel-ecc - add support for atecc608b
+38357c58b592641aa379f02b824e2cd45b5916f6 dt-bindings: trivial-devices: add atmel,atecc608b
+d21c001371d6b8091426f24fa9a79b34b59d6358 dt-bindings: crypto: qcom,ice: Fix missing power-domain and iface clk
+7f20ce572a0a860ce74c74f764f6f4dd53e6df7b dt-bindings: crypto: qcom-qce: Document the Glymur crypto engine
+5f871f0c1bf42b4d8e146de9297c7e515c3209f2 crypto: drbg - Fix returning success on failure in CTR_DRBG
+45cd8f870d87b4b93061bb894e3e2410287bd9e6 crypto: drbg - Fix misaligned writes in CTR_DRBG and HASH_DRBG
+b64e24859efed1896e5840d3abd2c1a7f6401ab2 crypto: drbg - Fix ineffective sanity check
+79d5df3942849487f14994478992e350488b4907 crypto: drbg - Fix drbg_max_addtl() on 64-bit kernels
+30cc484c8675ef46094863ade569ca25fe734d09 crypto: drbg - Fix the fips_enabled priority boost
+1040c854e338d9808d4978c3e0b26737b55df41b crypto: drbg - Remove always-enabled symbol CRYPTO_DRBG_HMAC
+a6fa9cede5e7ab1839b277d55d6ae39c271731ba crypto: drbg - Remove broken commented-out code
+85c3c4b91f63e56578726586a97dc1a20d62cff3 crypto: drbg - Remove unhelpful helper functions
+4a84cd6dd144d37dcb2662772552efd58bc6ba13 crypto: drbg - Remove obsolete FIPS 140-2 continuous test
+e09b77630f80a92254be0ca71e0e3b16edd695af crypto: drbg - Fold include/crypto/drbg.h into crypto/drbg.c
+d972c9089368889849a4cef55cb45be3a83fddfb crypto: drbg - Remove import of crypto_cipher functions
+6b59296a2bc2bc1d71fa29da095ff9ab51df9440 crypto: drbg - Remove support for CTR_DRBG
+27ccc5141b8db74e686ce0b7bec0d177704ddd86 crypto: drbg - Remove support for HASH_DRBG
+cead9348e3cef0bfcea0cba388c113882965294d crypto: drbg - Flatten the DRBG menu
+4d30f24f894f03516dd494267f7fb5dc8f87946d crypto: testmgr - Add test for drbg_pr_hmac_sha512
+8cc7a56d7b2cf8fd5766391c101ffcf395860ba8 crypto: testmgr - Update test for drbg_nopr_hmac_sha512
+6af7d66c0d5a52502b9310fad61e0582a6914208 crypto: drbg - Remove support for HMAC-SHA256 and HMAC-SHA384
+976078a9d23dd52a27d0b13961e95d5b8b7579eb crypto: drbg - Simplify algorithm registration
+6874bcfb117fccb13bd6f0f11eec6270452f2176 crypto: drbg - De-virtualize drbg_state_ops
+0bc84d47f181b1a823558b76c459559c80338517 crypto: drbg - Move fixed values into constants
+a95a0ffaa3ded4063348480b7d4e490b5219a83d crypto: drbg - Embed V and C into struct drbg_state
+044759c191dd2630ed66df2b5193ed40150b3248 crypto: drbg - Use HMAC-SHA512 library API
+42e9f53a98ce8a26bb4f48fb377a62957bf4fb45 crypto: drbg - Remove drbg_core
+ef75bf630bf91e015e9010e4e521763033f8d664 crypto: drbg - Install separate seed functions for pr and nopr
+4e3feaaccadaddca1fde0dcc2bd4951a50b2bda1 crypto: drbg - Move module aliases to end of file
+c4dcdde00fc58ff2b4e22bb408931297012b92a3 crypto: drbg - Consolidate "instantiate" logic and remove drbg_state::C
+d4784e3f5bb462cc3180985898e87b348dc5f903 crypto: drbg - Eliminate use of 'drbg_string' and lists
+6e52af6d2859ecb7ed1a74cf01caf78c772676b2 crypto: drbg - Simplify drbg_generate_long() and fold into caller
+178d8ac0c176e4c92cee08b779ea5645b9350ec8 crypto: drbg - Put rng_alg methods in logical order
+a61824ca69b2cdb4b3dd64d48d1159fb99941174 crypto: drbg - Fold drbg_instantiate() into drbg_kcapi_seed()
+dd65b92b418fa791068dc7950e3ad8099b0b6e4a crypto: drbg - Separate "reseed" case in drbg_kcapi_seed()
+678ed0d74e6cb5bc2959f25b647f1ec4f1409a5d crypto: drbg - Fold drbg_prepare_hrng() into drbg_kcapi_seed()
+61d8299cb906c312595f8c013540c79d106436e1 crypto: drbg - Simplify "uninstantiate" logic
+c6706707eb274181af1e48d8a0c1b3fcc2664648 crypto: drbg - Include get_random_bytes() output in additional input
+b696bc67c164ed3820646a8aeca266b5518e0552 crypto: drbg - Change DRBG_MAX_REQUESTS to 4096
+3e794576fa0769663d44f6561ccef1f50c0ec8c5 crypto: drbg - Remove redundant reseeding based on random.c state
+258ffd29f2ae4629d1452ae35b24924434017501 crypto: drbg - Clean up generation code
+b3c1089f8039fff4b82095e48b3d10343446f171 crypto: drbg - Clean up loop in drbg_hmac_update()
+ac322a618c90c8ca62dfc764af9f633925b46519 crypto: crypto_null - Drop unused cipher_null crypto_alg
+8e505f183f1854a44187db996cd5e1523951a6a9 dt-bindings: rng: mtk-rng: fix style problems in example
+ab72d10e10bde67b49e6428882bdab110e0856a2 dt-bindings: rng: mtk-rng: add SMC-based TRNG variants
+b12cbb38d28324ef2546e5e2ef5dea2ffacbaf27 hwrng: mtk - add support for hw access via SMCC
+0c5a9b99983efdce476f4eb796aec80904e28c68 crypto: sun8i-ss - avoid hash and rng references
+7bb86d5e0bd24ca3c956c7ea07867a401ad892aa crypto: ixp4xx - fix buffer chain unwind on allocation failure
+b5c64e14faac2a861c33dc3a4a1ddafa6f1f9cd6 crypto: testmgr - disallow RSA PKCS#1 SHA-1 sig algs in FIPS mode
+c2823d57fbaca129af4f810fad881b660a085598 dt-bindings: crypto: qcom,prng: Document Glymur TRNG
+741197c2a530a805d243803a4940b5e4314357e3 crypto: cesa - allocate engines with main struct
+0759d1ea5d6f110962656014f6210095e6c99fc0 crypto: atmel-sha204a - fix blocking and non-blocking rng logic
+fe4468e583915b2d03808e64fde574ab5c5018c0 crypto: caam - use print_hex_dump_devel to guard key hex dumps
+8eb07060c5f366a972b2313bc5d5ff52b3dfba78 crypto: caam - use print_hex_dump_devel to guard key hex dumps
+88d9a4db1fc734160300abad728576b73bd3a937 crypto: omap - add omap_aes_unregister_algs helper
+e55d876f8c5d974f697a3853a5b720edbbdb1b14 crypto: omap - add omap_des_unregister_algs helper
+10cc308720524301b7c85848d204e4c38f0cd786 crypto: omap - add omap_sham_unregister_algs helper
+5caa16e2cf7074d12b2e37ca336499d15953d4de crypto: starfive - use list_first_entry_or_null to simplify cryp_find_dev
+a37bde15896bd7ea0ba0ead06f9b1b46be88a64a crypto: atmel-sha204a - drop hwrng quality reduction for ATSHA204A
+7ddae050e4bd6626c4ec12a192632a653b9ff822 crypto: af_alg - Document the deprecation of AF_ALG
+5c7143bf6a690f55f7be88b2354b0892c893a5c0 crypto: authencesn - Use memcpy_from/to_sglist
+6e05c3cd9fa066fdaa9da97e45ed129426d53126 crypto: ecrdsa - fix unknown OID check in ecrdsa_param_curve
 
---===============6033707411027100177==--
+--===============6287756648741164539==--
