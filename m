@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3177819432633534135=="
+Content-Type: multipart/mixed; boundary="===============5680196040691969444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 05 May 2026 00:18:48 -0000
-Message-Id: <177794032830.316668.16774160197238592626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 May 2026 00:18:55 -0000
+Message-Id: <177794033507.316886.13721377642720867406@gitolite.kernel.org>
 
---===============3177819432633534135==
+--===============5680196040691969444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
-    old: 8c0f9cd1df41ee029711baca839b99d9592c5dd4
+  - ref: refs/heads/spi-7.1
+    old: 8d0189c1ea98b56481eb809e3d1bdbf85557e819
     new: 4b50e6cc2aff1688b66da3847c85f3ce9786ff40
-    log: revlist-8c0f9cd1df41-4b50e6cc2aff.txt
+    log: revlist-8d0189c1ea98-4b50e6cc2aff.txt
 
---===============3177819432633534135==
+--===============5680196040691969444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777940325 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1777940324-e1ab2090719802d5b56172c5985efd649fec71a7
+pusher C3F436CA30F5D8EB 1777940332 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777940332-9c8c06021105d7a190683345081c2e481fd23d6a
 
-8c0f9cd1df41ee029711baca839b99d9592c5dd4 4b50e6cc2aff1688b66da3847c85f3ce9786ff40 refs/heads/for-7.1
+8d0189c1ea98b56481eb809e3d1bdbf85557e819 4b50e6cc2aff1688b66da3847c85f3ce9786ff40 refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5N2UACgkQJNaLcl1U
-h9BZngf+PkOKlYg8j/ej+Frg5ljLPSppe0chq08JN961gEOhhNJect9RK9j7Vu/b
-bwhs8YXPD9T1zklTfhmGqggmF11M1xBMsj8udAHn6hNHliGxbLhh4x3CzEwVJpar
-lpwdqlv7gXL4VjNf9CArDTZJPV0gNU4D1KSL3DvVri2V+g4/RGPUhh5A52TRsoic
-ZKST+dr0MSuPmjOJjwDgCiI+RTjp5sjS4gnrlSdedrcZkO4oboEyALoUV/vXwTkd
-5hO/ZreEpusgEOqFrKEAgoF0wUR2MscKiBoeSoaSC+6NbKbk1fKhe1WCy/xB6iOl
-sJO/Z6r1VkM+8PutYlfi4/wdKCP8Hw==
-=1gAv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5N2wACgkQJNaLcl1U
+h9DikQf/cCTZC4k1vKB/P6g8edgUKI+oYNLoWVvWK4G4Q0eoI73TZPFuq+qEWoMo
+UzHcOsGhwmUcDeBCUj6eLuoMN5T5KULMtNayjYNmtb0u8OnwoaXyB3cAJDA0akZQ
+6D6YRa8ozUeVw1jV50ekU3VFaFId0tuYRabeA0rFymj6/B2aPErQBqhNv4IJoPJS
+QHj7CyTkn4ahZhTEW1mbGAFatKUrA58V+4/TOhro2CpF6XJMOUh274ca0p8tNv9y
+EJl0PPUP0jUHCW0mCHcYSbytGZ2O+8fZ2CogUT6/0bvhAwwM8p9zNwt6HkGePY0o
+zoiUZt4nNwVw4eRw/KpbKNPztmD4vQ==
+=UAvf
 -----END PGP SIGNATURE-----
 
---===============3177819432633534135==
+--===============5680196040691969444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c0f9cd1df41-4b50e6cc2aff.txt
+Content-Disposition: attachment; filename=revlist-8d0189c1ea98-4b50e6cc2aff.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -208,6 +208,12 @@ b0f6f4ac7d5d04fe2adcdd63ed1cd1ad505b8958 ASoC: amd: acp: Add DMI quirk for Valve
 c7ecb6a61908c2604dda6e42da66724d256de7b9 ASoC: tas2770: Fix order of operations for temperature calculation
 dad701bdb74368e6da30177b1d9e5529e3381591 ASoC: tegra: Remove stale snd-soc-tegra-utils composite module definition
 74c876bfd71b1023029a483d7213015201f62b53 ASoC: codecs: wcd937x: fix AUX PA sequencing and mixer controls
+5b1689a41f02955c5361944f748a4812a6ff9307 spi: cadence: fix unclocked access on unbind
+ecea4f0e9db2fb6ab4a68a59c5aba0d8f59a9566 spi: cadence: fix clock imbalance on probe failure
+5ff4d5d1af0c7517bd8db83c95c4247a9729a548 spi: cadence-quadspi: fix runtime pm disable imbalance on probe failure
+cba53fe20c18688c17ca668ad0e4ec05e31c70d3 spi: cadence-quadspi: fix clock imbalance on probe failure
+233db2cb14db8b1935dda52a6affd97276462b82 spi: cadence-quadspi: fix unclocked access on unbind
+5e8bb0cc72f1d52d8ac2a88f4c952e2e98056aed spi: cadence-quadspi: fix runtime pm and clock imbalance on unbind
 8ed3311131077712cdd0b3afec6909b9388ad3e4 ASoC: ES8389: convert to devm_clk_get_optional() to get clock
 0cbc300257d9b399491909806777f504ec687c1d smb/client: remove unused smb3_parse_opt()
 620b46ed6ae17c8438d889c8c0cfddab36a1476c mm/page_alloc: return NULL early from alloc_frozen_pages_nolock() in NMI on UP
@@ -488,6 +494,8 @@ bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before r
 74b54e9b1084cc51e2b655500a174214d3c38c0e Merge tag 'v7.1-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 cae4ef6f9a3ac71094da2b1083f6e2db699a2c1e Merge tag 'acpi-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 26fd6bff2c050196005312d1d306889220952a99 Merge tag 'mtd/fixes-for-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+4f12ee0a4d06ba777adc840b22350020dfd35fcf spi: cadence-quadspi: Probe and unbind fixes
+8c0f9cd1df41ee029711baca839b99d9592c5dd4 spi: cadence: Probe and unbind fixes
 b006ef5fd643898b7cf77091a786d98544b95f4a Merge tag 'amd-drm-fixes-7.1-2026-04-30' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 f0997a06e3e32898bcae667d6807fc46ebfd0eec Merge tag 'drm-xe-fixes-2026-04-30' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 bb7235e226888607e6aac1288062fcb1ac105589 kselftest/arm64: Include <asm/ptrace.h> for user_gcs definition
@@ -522,4 +530,4 @@ eb56deaabf127e8985fc91fa6c97bf8a3b062844 spi: microchip-core-qspi: don't attempt
 0b2eb1f8473eddeff5317e521498329581432f89 spi: microchip-core-qspi: remove some inline markings
 4b50e6cc2aff1688b66da3847c85f3ce9786ff40 spi: microchip core-qspi gpio-cs fixes + cleanup
 
---===============3177819432633534135==--
+--===============5680196040691969444==--
