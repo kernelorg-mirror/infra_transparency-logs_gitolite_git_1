@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0231105988220150846=="
+Content-Type: multipart/mixed; boundary="===============0080190457551939396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 May 2026 10:48:00 -0000
-Message-Id: <177797808016.962303.3465015758390806913@gitolite.kernel.org>
+Date: Tue, 05 May 2026 10:49:12 -0000
+Message-Id: <177797815273.963375.1212372585856612609@gitolite.kernel.org>
 
---===============0231105988220150846==
+--===============0080190457551939396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 16bcbe6738bea7b4aee0a29324ce12c21c4b0ea0
-    new: aa4384bc8f4360167f3c3d5322121fe892289ea2
-    log: revlist-16bcbe6738be-aa4384bc8f43.txt
+  - ref: refs/heads/perf/core
+    old: 5a84b600050c5f16b8bba25dd0e7aea845880407
+    new: 5c3cdc74af25fc7f64a3ed260b4f6eb8313a3b75
+    log: revlist-5a84b600050c-5c3cdc74af25.txt
 
---===============0231105988220150846==
+--===============0080190457551939396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16bcbe6738be-aa4384bc8f43.txt
+Content-Disposition: attachment; filename=revlist-5a84b600050c-5c3cdc74af25.txt
 
-dfc4d771820a171bd701d06252fcf920d0ede25c shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
 ad9ac3081332e955bc4b513018a1e0e86683bfb5 userfaultfd: introduce vm_uffd_ops->alloc_folio()
 f74991b4e3836dd38f3adb41b146994b283942a1 shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
 6ab703034f145ef8e1a705b1630cc317ec8dd8a2 userfaultfd: mfill_atomic(): remove retry logic
@@ -1050,5 +1049,6 @@ c69df06e4e26e50611190ce04eab92c5cc261b61 perf/core: Fix deadlock in perf_mmap() 
 8ba0b706a485b1e607594cf4210786d517ad1611 perf/x86/intel: Always reprogram ACR events to prevent stale masks
 1271aeccc307066315b2d3b0d5af2510e27018b5 perf/x86/intel: Disable PMI for self-reloaded ACR events
 aa4384bc8f4360167f3c3d5322121fe892289ea2 perf/x86/intel: Enable auto counter reload for DMR
+5c3cdc74af25fc7f64a3ed260b4f6eb8313a3b75 perf/x86/intel: Consolidate MSR_IA32_PERF_CFG_C tracking
 
---===============0231105988220150846==--
+--===============0080190457551939396==--
