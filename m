@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5116533904964641494=="
+Content-Type: multipart/mixed; boundary="===============6451183939179846819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 05 May 2026 01:07:20 -0000
-Message-Id: <177794324023.370789.14048792511091115571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 May 2026 01:07:26 -0000
+Message-Id: <177794324616.371055.10531875916425099729@gitolite.kernel.org>
 
---===============5116533904964641494==
+--===============6451183939179846819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: dfa2186f3f4da01c5867c8d0e388c2b221875af5
     new: 6ed1af3ba6d18c8decb8df39d7558102260896ee
     log: revlist-dfa2186f3f4d-6ed1af3ba6d1.txt
 
---===============5116533904964641494==
+--===============6451183939179846819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777943238 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1777943237-1c6c1d6604510027f3b732ceb90af43b64376d31
+pusher C3F436CA30F5D8EB 1777943244 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777943244-1a3097dc61590e79e2a70ea3859cb747d0fb4bf3
 
-dfa2186f3f4da01c5867c8d0e388c2b221875af5 6ed1af3ba6d18c8decb8df39d7558102260896ee refs/heads/for-7.2
+dfa2186f3f4da01c5867c8d0e388c2b221875af5 6ed1af3ba6d18c8decb8df39d7558102260896ee refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5QsYACgkQJNaLcl1U
-h9CPwAf+LUWv+XVq7FkCv1Y+Q/zOVkFqR0KJg8MR1cOQYzq7CsrehGfA+ejIc6Pq
-s9sIMjmYcSq3NRxBcCLd3FM6gmks9q9VkjUsDjrYCTPrKRIdEbZzGv5SDbjqt+i4
-SrAMLRBJYIT029OPzl7q5NvH2uXXqGxjDSv04JLo554+gaXsMlcrnXmpXBJOYpip
-1PvZx6MdyPkec44yVCvIMKNEGGhqkzO6QJrKglhIqJ/+i0lBFpaYju2YKH47t4sQ
-YplbyDoKehF4G7dALrWwiTyy3UW7DkOQERRYhrnoPcoEaGCxxenJlInYZA6cA6dz
-WUuKQDlv4ZodU5vLnAVgpcCZpiOimw==
-=wJmh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5QswACgkQJNaLcl1U
+h9B0Gwf9EJgDBpgURXokgAsah6LfUDpjFh6WNcMnSFABHj2wqb6mBHR4QByBguZm
+sZT9Pie4JH1AX7PGwlxdGWSE71UWrLv/ogVX5GAVyNrKm97r4XuKa0gKKtMuVq1R
+hPg1E9ZjJ/XukIEVhi0m4yRsILB923yi8xn8z0F73M0hHN4MK95/3kpwRUqqmaR8
+HK15RphGy1HVGsa4K/4hvn0U9N6ClcIOTDUrrIcu+oaf9yDVI3P4Ace7ZD444klC
+rXoEsw9xIR0Nbmy1g3D7zRLa6OJtzrWQ4SW9+Ea52tT4GWoDjFhl1e3SD/8hshGo
+LXcm0mjBUH+CnluxNLFM0VEsOPs6Lw==
+=6fT7
 -----END PGP SIGNATURE-----
 
---===============5116533904964641494==
+--===============6451183939179846819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -530,4 +530,4 @@ f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://g
 abc004841af8f19e301bd372415b53fd184d8710 regulator: qcom_smd: Add PM8150 regulators
 6ed1af3ba6d18c8decb8df39d7558102260896ee regulator: Add PM8150 PMIC support
 
---===============5116533904964641494==--
+--===============6451183939179846819==--
