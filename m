@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6783306337023433757=="
+Content-Type: multipart/mixed; boundary="===============3311960885731336034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 05 May 2026 00:26:31 -0000
-Message-Id: <177794079128.325985.15266896805912536569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 May 2026 00:26:38 -0000
+Message-Id: <177794079869.326210.13435471965376804809@gitolite.kernel.org>
 
---===============6783306337023433757==
+--===============3311960885731336034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/spi-7.2
     old: 54dac8230d9cbc26391ca61b45e1d6c2407c4daf
     new: efcd8b9d111177d48c841d09beca43b15d5b9e5f
     log: revlist-54dac8230d9c-efcd8b9d1111.txt
 
---===============6783306337023433757==
+--===============3311960885731336034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777940788 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1777940787-1658fcf09aeccf9930d32dfa632d5821d1356007
+pusher C3F436CA30F5D8EB 1777940796 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777940795-dc868e0f87ddc5c52790984f308dba76e81f4df2
 
-54dac8230d9cbc26391ca61b45e1d6c2407c4daf efcd8b9d111177d48c841d09beca43b15d5b9e5f refs/heads/for-7.2
+54dac8230d9cbc26391ca61b45e1d6c2407c4daf efcd8b9d111177d48c841d09beca43b15d5b9e5f refs/heads/spi-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5OTQACgkQJNaLcl1U
-h9DSsgf+KWHofA2KDa4LYfvmpIJG+BE9G7tf1COAPNvD1BvRbeGK7tBLm7NDucrf
-XuqM4CmOedefCbfJ5CFGdJc/u8tlkyoaLU4vM9wcFwV3usg/PVG4Y0J7CqBdWAm8
-yYA16c1cscNzDwmlj1JbpfbBanXFhIAjlo5efZiaHRWZOZlIPqCDRJjawz9zCDdn
-fGcICv6nnhdFoUSfqtev5EuS5uonkjS+fFqQIUqqsBpnkqPX2ctHXWiAD9UyZHef
-Va05ECGFEL40Ds5emulp/ncP1mJl/mNkmOPWPRjuzrnhxXHfdLVqxKQL4Z3/f9Tm
-+7ssLsTWOAMk0UQroXETsD2H5OXEeQ==
-=8VU1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5OTwACgkQJNaLcl1U
+h9Cp7Af+LxuBHPu9+yy/96CYtt49uRpgVrDAH8ZsOxHatMjgFxgmiwWU7GJBLAdi
+NfGaaxjEMRRRKlf9RFqst+VxncHRJ+x1NEqMgmLc9NUZKJgHtHkY6TfUCoxXIbZm
+FGWgIWumdbcKOrn/ca8UsYxpxNTNyxbfFx3VE1J2/WpR5i1BMBwb5LltTXd+ga3v
+oAW7wcg8y2C1uDSaw1mUXyolV2fVQa+2vPT1tiaCuwtgwUHq5zBQ5kGeibIVZ9Rk
+7kxCPpZn2ytPCLK32ydznh3mGGvn85auOI1qPbEEVaxu0lpsS8ons2uUnawqyT2A
+bxQJ0OY8n/Z11TjRj+yGLTi8l5UM6w==
+=UWfG
 -----END PGP SIGNATURE-----
 
---===============6783306337023433757==
+--===============3311960885731336034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -549,4 +549,4 @@ d283d5d4d9f6d081ddb65e371be26fffeb611c42 spi: spi-qcom-qspi: Fix incomplete erro
 b610d5333c4b93389240b62d1b6299e7e2ee2e65 spi: dt-bindings: add SpacemiT K1 SPI support
 efcd8b9d111177d48c841d09beca43b15d5b9e5f spi: spacemit: introduce SpacemiT K1 SPI controller driver
 
---===============6783306337023433757==--
+--===============3311960885731336034==--
