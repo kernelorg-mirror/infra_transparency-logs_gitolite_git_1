@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5524279438852723376=="
+Content-Type: multipart/mixed; boundary="===============4207426127471531500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Tue, 05 May 2026 16:00:55 -0000
-Message-Id: <177799685568.1308644.14871703638321124197@gitolite.kernel.org>
+Date: Tue, 05 May 2026 16:00:57 -0000
+Message-Id: <177799685794.1308730.8236376615605607541@gitolite.kernel.org>
 
---===============5524279438852723376==
+--===============4207426127471531500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/fixes
-    old: 42a9f5a16328ed78a88e0498556965b6c6ec515c
+  - ref: refs/heads/imx/soc
+    old: 1b7c834dedf9933447c424bfa01348f9dc3db4d1
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-42a9f5a16328-254f49634ee1.txt
+    log: revlist-1b7c834dedf9-254f49634ee1.txt
 
---===============5524279438852723376==
+--===============4207426127471531500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42a9f5a16328-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-1b7c834dedf9-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============5524279438852723376==--
+--===============4207426127471531500==--
