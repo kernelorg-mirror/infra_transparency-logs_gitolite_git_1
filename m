@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5680196040691969444=="
+Content-Type: multipart/mixed; boundary="===============6783306337023433757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 May 2026 00:18:55 -0000
-Message-Id: <177794033507.316886.13721377642720867406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 05 May 2026 00:26:31 -0000
+Message-Id: <177794079128.325985.15266896805912536569@gitolite.kernel.org>
 
---===============5680196040691969444==
+--===============6783306337023433757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 8d0189c1ea98b56481eb809e3d1bdbf85557e819
-    new: 4b50e6cc2aff1688b66da3847c85f3ce9786ff40
-    log: revlist-8d0189c1ea98-4b50e6cc2aff.txt
+  - ref: refs/heads/for-7.2
+    old: 54dac8230d9cbc26391ca61b45e1d6c2407c4daf
+    new: efcd8b9d111177d48c841d09beca43b15d5b9e5f
+    log: revlist-54dac8230d9c-efcd8b9d1111.txt
 
---===============5680196040691969444==
+--===============6783306337023433757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777940332 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1777940332-9c8c06021105d7a190683345081c2e481fd23d6a
+pusher C3F436CA30F5D8EB 1777940788 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1777940787-1658fcf09aeccf9930d32dfa632d5821d1356007
 
-8d0189c1ea98b56481eb809e3d1bdbf85557e819 4b50e6cc2aff1688b66da3847c85f3ce9786ff40 refs/heads/spi-7.1
+54dac8230d9cbc26391ca61b45e1d6c2407c4daf efcd8b9d111177d48c841d09beca43b15d5b9e5f refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5N2wACgkQJNaLcl1U
-h9DikQf/cCTZC4k1vKB/P6g8edgUKI+oYNLoWVvWK4G4Q0eoI73TZPFuq+qEWoMo
-UzHcOsGhwmUcDeBCUj6eLuoMN5T5KULMtNayjYNmtb0u8OnwoaXyB3cAJDA0akZQ
-6D6YRa8ozUeVw1jV50ekU3VFaFId0tuYRabeA0rFymj6/B2aPErQBqhNv4IJoPJS
-QHj7CyTkn4ahZhTEW1mbGAFatKUrA58V+4/TOhro2CpF6XJMOUh274ca0p8tNv9y
-EJl0PPUP0jUHCW0mCHcYSbytGZ2O+8fZ2CogUT6/0bvhAwwM8p9zNwt6HkGePY0o
-zoiUZt4nNwVw4eRw/KpbKNPztmD4vQ==
-=UAvf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5OTQACgkQJNaLcl1U
+h9DSsgf+KWHofA2KDa4LYfvmpIJG+BE9G7tf1COAPNvD1BvRbeGK7tBLm7NDucrf
+XuqM4CmOedefCbfJ5CFGdJc/u8tlkyoaLU4vM9wcFwV3usg/PVG4Y0J7CqBdWAm8
+yYA16c1cscNzDwmlj1JbpfbBanXFhIAjlo5efZiaHRWZOZlIPqCDRJjawz9zCDdn
+fGcICv6nnhdFoUSfqtev5EuS5uonkjS+fFqQIUqqsBpnkqPX2ctHXWiAD9UyZHef
+Va05ECGFEL40Ds5emulp/ncP1mJl/mNkmOPWPRjuzrnhxXHfdLVqxKQL4Z3/f9Tm
++7ssLsTWOAMk0UQroXETsD2H5OXEeQ==
+=8VU1
 -----END PGP SIGNATURE-----
 
---===============5680196040691969444==
+--===============6783306337023433757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d0189c1ea98-4b50e6cc2aff.txt
+Content-Disposition: attachment; filename=revlist-54dac8230d9c-efcd8b9d1111.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -201,19 +201,16 @@ c0e8ddc76d54402171787414b1b8eb387812f1f6 sched_ext: Align cgroup #ifdef guards w
 ea7c716a24aebe887e0990649ab697bd698cc325 sched_ext: Refuse cross-task select_cpu_from_kfunc calls
 05b4a9a9bc37f1fa289a8f07b4fbfc3ae681b650 sched_ext: Reject NULL-sch callers in scx_bpf_task_set_slice/dsq_vtime
 deb7b2f93d0129b79425f830a1e5e7e1bb2c4973 sched_ext: Release cpus_read_lock on scx_link_sched() failure in root enable
+54900126ae0a2671f8790a7f95706b9ea95fac4e spi: rzv2h-rspi: Fix silent failure in clock setup error path
 4b7774eeab8d66c22f02f5c120602df154a87e12 regmap: sdw-mbq: Fix spelling mistake "undeferable" -> "undeferrable"
 b0f6f4ac7d5d04fe2adcdd63ed1cd1ad505b8958 ASoC: amd: acp: Add DMI quirk for Valve Steam Deck OLED
 3c6f06a200796ae7b2b1065e8a6499b138e27a50 ASoC: SOF: Intel: add an empty adr_link
+b4683a239a409d65f88052f5630c748a8ba070cd spi: rockchip: Read ISR, not IMR, to detect cs-inactive IRQ
+7643978722aac3a012783ce12dc534eba7c51698 spi: rockchip: Drop unused and broken CR0 macros
 4cfb5971c2fbfac061c23fb4224a3a008199de81 ASoC: tas2764: Mark die temp register as volatile
 c7ecb6a61908c2604dda6e42da66724d256de7b9 ASoC: tas2770: Fix order of operations for temperature calculation
 dad701bdb74368e6da30177b1d9e5529e3381591 ASoC: tegra: Remove stale snd-soc-tegra-utils composite module definition
 74c876bfd71b1023029a483d7213015201f62b53 ASoC: codecs: wcd937x: fix AUX PA sequencing and mixer controls
-5b1689a41f02955c5361944f748a4812a6ff9307 spi: cadence: fix unclocked access on unbind
-ecea4f0e9db2fb6ab4a68a59c5aba0d8f59a9566 spi: cadence: fix clock imbalance on probe failure
-5ff4d5d1af0c7517bd8db83c95c4247a9729a548 spi: cadence-quadspi: fix runtime pm disable imbalance on probe failure
-cba53fe20c18688c17ca668ad0e4ec05e31c70d3 spi: cadence-quadspi: fix clock imbalance on probe failure
-233db2cb14db8b1935dda52a6affd97276462b82 spi: cadence-quadspi: fix unclocked access on unbind
-5e8bb0cc72f1d52d8ac2a88f4c952e2e98056aed spi: cadence-quadspi: fix runtime pm and clock imbalance on unbind
 8ed3311131077712cdd0b3afec6909b9388ad3e4 ASoC: ES8389: convert to devm_clk_get_optional() to get clock
 0cbc300257d9b399491909806777f504ec687c1d smb/client: remove unused smb3_parse_opt()
 620b46ed6ae17c8438d889c8c0cfddab36a1476c mm/page_alloc: return NULL early from alloc_frozen_pages_nolock() in NMI on UP
@@ -288,6 +285,7 @@ a7cc308da5f78eee8d94bf666c026671a180d7e5 Merge tag 'mailbox-v7.1' of git://git.k
 1e5a8eed7821e7a43a31b4c1b3675a91be6bc6f6 selinux: don't reserve xattr slot when we won't fill it
 d762a96e3dc2c82b551f0cc3506e89c904880cf9 Merge tag 'for-7.1/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 73082fbdb10aba317e8469f51e3411814f2e65b4 Merge tag 'for-7.1-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+f5c6a272b699b9a0698535e1a56e683207e50030 spi: axiado: replace usleep_range() with udelay() in IRQ path
 53b6156308e5ec9f4440e7cd3e84c6d1775167b1 Merge tag 'fsnotify_for_v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 a1a671092d29455a890af272f0702925adafdf59 Merge tag 'fs_for_v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 3b3bea6d4b9c162f9e555905d96b8c1da67ecd5b Merge tag 'cgroup-for-7.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
@@ -309,6 +307,7 @@ d3aeb889dcbd78e95f500d383799a23d949796e0 net/sched: sch_choke: annotate data-rac
 9e6bf146b55999a095bb14f73a843942456d1adc ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
 23f0e34c64acba15cad4d23e50f41f533da195fa net: usb: rtl8150: fix use-after-free in rtl8150_start_xmit()
 adbe2cdf75461891e50dbe11896ac78e9af1f874 net: usb: rtl8150: free skb on usb_submit_urb() failure in xmit
+8d0189c1ea98b56481eb809e3d1bdbf85557e819 spi: amlogic-spisg: initialize completion before requesting IRQ
 a9bc28aa4e64320668131349436a650bf42591a5 NFC: trf7970a: Ignore antenna noise when checking for RF field
 dca922e019dd758b4c1b4bec8f1d509efddeaab4 Merge tag 'xsa48x-7.1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 3d07ca5c0fae311226f737963984bd94bb159a87 net/sched: taprio: fix NULL pointer dereference in class dump
@@ -521,13 +520,33 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
-24e0fd8b852062d5e8a740f7945eaa26818adce8 spi: imx: Fix precedence bug in spi_imx_dma_max_wml_find()
-f5b5548255040ec3bef05bcb1e9c9c3614dfa7db spi: imx: Fix UAF on package-1 prepare failure in spi_imx_dma_data_prepare()
-894e04b7116297a6529e0c4ed90e3eb160939805 spi: imx: Propagate prepare_transfer() error from spi_imx_setupxfer()
-5b33b756aba9237813216476538abcc8afe8af8b spi: imx: Three fixes for the i.MX SPI driver
-7672749e1496215e8683ce57cf323119033954cf spi: microchip-core-qspi: control built-in cs manually
-eb56deaabf127e8985fc91fa6c97bf8a3b062844 spi: microchip-core-qspi: don't attempt to transmit during emulated read-only dual/quad operations
-0b2eb1f8473eddeff5317e521498329581432f89 spi: microchip-core-qspi: remove some inline markings
-4b50e6cc2aff1688b66da3847c85f3ce9786ff40 spi: microchip core-qspi gpio-cs fixes + cleanup
+ae4ccd216dd3a9fa89a87a295380f6d62c4832ed spi: at91-usart: drop dead runtime pm support
+5113e23077103e6e92b21133065e5a4b5fd09c47 spi: at91-usart: switch to managed controller allocation
+ebf99aebc458391893c598f1caddd42bfcc97fc5 spi: atmel: switch to managed controller allocation
+414c359e7295d383e6bf2321eb7499f95008f1a8 spi: bcm63xx: switch to managed controller allocation
+fe010594a8575715b879956dfb970894431dd69f spi: bcm63xx-hsspi: switch to managed controller allocation
+83c4ded3917d0cf5bcb1899c2747cede8dc6ab14 spi: cadence: switch to managed controller allocation
+eab6ce941217cf12190945d6f8068306ccd4f6eb spi: octeon: switch to managed controller allocation
+fcca78c086383c8b22aa1e529963eebab46d3f0c spi: cavium-thunderx: switch to managed controller allocation
+079c7a626c7d2a7f3841ce1195e4da09b8ca365b spi: coldfire-qspi: switch to managed controller allocation
+6bd505e710aa612cf57f7894a10d00c99d600226 spi: dln2: switch to managed controller allocation
+01500b2cb05ab60b6eb7b8a24a56bad45296227c spi: ep93xx: switch to managed controller allocation
+6afe041c2ce9068b2b6c64eddb5537911752050c spi: fsl: switch to managed controller allocation
+9979501afa4a94e71e0c127bbbcd70bcdf397dbc spi: fsl-espi: switch to managed controller allocation
+8015cac85a698d471f100ca8602c27448bee146b spi: img-spfi: switch to managed controller allocation
+8cecd707d5358b88bcd0ae49f2f38e143d6bf7da spi: lantiq-ssc: switch to managed controller allocation
+69fb8784c81e0699fbea2ee81f65d1a23bd11649 spi: meson-spicc: switch to managed controller allocation
+f7c857559eb20a73d2ec6fe79808cdb1f4afabfa spi: mxs: switch to managed controller allocation
+c0c6875f0b7de6094f15ffd5b1dcebb3cebe53e1 spi: npcm-pspi: switch to managed controller allocation
+bdab3707ddfdf89a054b2372a984316c84d3ce43 spi: orion: switch to managed controller allocation
+caf2fd997bf36728661612c03a74bd2bf23de9e4 spi: omap2-mcspi: switch to managed controller allocation
+186fda6ee1ac5f61b847ab8d65560252c8eae06f spi: omap2-mcspi: clean up error labels
+46bd1fafc494744cd099f605b364f6fbb097069e spi: omap2-mcspi: clean up probe return value
+abdecf7489738dc839daa0bf43550cd4222f4a0f spi: omap2-mcspi: switch to managed controller allocation
+0065dc1fed2a87f815065b1348732ba45469ea83 spi: dt-bindings: qcom,spi-qcom-qspi: Add qcom,qcs615-qspi compatible
+d283d5d4d9f6d081ddb65e371be26fffeb611c42 spi: spi-qcom-qspi: Fix incomplete error handling in runtime PM
+104b5e9b85c00c3fe552032164bf5bbd78e0f0b4 spi: spi-qcom-qspi: Add interconnect support for memory path
+b610d5333c4b93389240b62d1b6299e7e2ee2e65 spi: dt-bindings: add SpacemiT K1 SPI support
+efcd8b9d111177d48c841d09beca43b15d5b9e5f spi: spacemit: introduce SpacemiT K1 SPI controller driver
 
---===============5680196040691969444==--
+--===============6783306337023433757==--
