@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5474181905636356933=="
+Content-Type: multipart/mixed; boundary="===============5060273467527460268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 05 May 2026 02:45:42 -0000
-Message-Id: <177794914282.476769.2149929902411987638@gitolite.kernel.org>
+Date: Tue, 05 May 2026 02:46:02 -0000
+Message-Id: <177794916246.477075.10105905621722697922@gitolite.kernel.org>
 
---===============5474181905636356933==
+--===============5060273467527460268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 8655a4e35cda5534f93303af393eac4e71704701
-    new: 58d0379d29db10cf382d0b368c8da183f43e612b
-    log: revlist-8655a4e35cda-58d0379d29db.txt
+  - ref: refs/heads/opp/linux-next
+    old: 3d2398f44a2d48fb1c575a6e0bc6b38f3e689e22
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-3d2398f44a2d-254f49634ee1.txt
 
---===============5474181905636356933==
+--===============5060273467527460268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8655a4e35cda-58d0379d29db.txt
+Content-Disposition: attachment; filename=revlist-3d2398f44a2d-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
@@ -1049,6 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-58d0379d29db10cf382d0b368c8da183f43e612b cpufreq: qcom: Unify user-visible "Qualcomm" name
 
---===============5474181905636356933==--
+--===============5060273467527460268==--
