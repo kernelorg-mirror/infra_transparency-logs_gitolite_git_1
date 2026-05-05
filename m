@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2399314056540642758=="
+Content-Type: multipart/mixed; boundary="===============4191407718126586307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 05 May 2026 22:56:18 -0000
-Message-Id: <177802177836.1740692.12661200661350750477@gitolite.kernel.org>
+Date: Tue, 05 May 2026 22:56:20 -0000
+Message-Id: <177802178071.1740953.6227220646143779086@gitolite.kernel.org>
 
---===============2399314056540642758==
+--===============4191407718126586307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 98878ed91b68a3150126fccef125ee7b1bb86ab2
     new: 8c699be3dad7bba87cdda485dc099226cfc2f706
     log: revlist-98878ed91b68-8c699be3dad7.txt
 
---===============2399314056540642758==
+--===============4191407718126586307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ d7dbf00b4a5503def75487ed803698042ba1965d net: eth: fbnic: Consolidate register r
 3877097c3c9e0356ad5ed8411f417a100090be9c net: eth: fbnic: Add pma read and write access
 8c699be3dad7bba87cdda485dc099226cfc2f706 Merge branch 'first-series-for-xpcs-based-rsfec-configuration'
 
---===============2399314056540642758==--
+--===============4191407718126586307==--
