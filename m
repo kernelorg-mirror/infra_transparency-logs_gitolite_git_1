@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0942666030115126542=="
+Content-Type: multipart/mixed; boundary="===============5811670892531667896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 05 May 2026 22:56:26 -0000
-Message-Id: <177802178608.1741144.13345118279801002572@gitolite.kernel.org>
+Date: Tue, 05 May 2026 22:56:32 -0000
+Message-Id: <177802179232.1741353.17154793195278527778@gitolite.kernel.org>
 
---===============0942666030115126542==
+--===============5811670892531667896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 2e6f4bb8608c9f66ccb8f815ac699b77a581a3b2
-    new: 382b8e58438ea5da3f11d63d7c036cd1e31dadf6
-    log: revlist-2e6f4bb8608c-382b8e58438e.txt
+  - ref: refs/heads/200GbE
+    old: 16de9af7ca6ea424469aaabe15d66d1d809faad2
+    new: 18095fadc3678fd7fa1a3592cbb15d3080c204fd
+    log: revlist-16de9af7ca6e-18095fadc367.txt
 
---===============0942666030115126542==
+--===============5811670892531667896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e6f4bb8608c-382b8e58438e.txt
+Content-Disposition: attachment; filename=revlist-16de9af7ca6e-18095fadc367.txt
 
 c4994aee029294cf7ab460a4f7f71027e9ea64f2 net/sched: taprio: prepare taprio_dump() for RTNL removal
 d3aae4d954f92a273388439ab015763e0cdea1e0 net: phy: realtek: Add support for PHY LEDs on RTL8221B
@@ -48,10 +48,19 @@ ca283942e5b91894d3a9228eaf789837f66c986f net: mdio: Add support for RSFEC Contro
 d7dbf00b4a5503def75487ed803698042ba1965d net: eth: fbnic: Consolidate register reads for ids and devs
 3877097c3c9e0356ad5ed8411f417a100090be9c net: eth: fbnic: Add pma read and write access
 8c699be3dad7bba87cdda485dc099226cfc2f706 Merge branch 'first-series-for-xpcs-based-rsfec-configuration'
-c73f38b5fddcc7f9d2ebadc3a891ac0435064d11 libeth: pass Rx queue index to PP when creating a fill queue
-47211b54bdf10daaad2a9a1cb01fe4ab1a984717 libeth: handle creating pools with unreadable buffers
-837d4769a6e2f963fb93a62cb3d560053d82ff5e ice: migrate to netdev ops lock
-5462e8f5c70b19867a0d0c12aebf1c08699838f3 ice: implement Rx queue management ops
-382b8e58438ea5da3f11d63d7c036cd1e31dadf6 ice: add support for transmitting unreadable frags
+3ac4b4a246f3f9f459491a97266c6bda32a16239 virtchnl: create 'include/linux/intel' and move necessary header files
+8e2153dedccdeadeb6f24c8531e774e03a5a3e36 libie: add PCI device initialization helpers to libie
+b3113ffac7e2db77cccfc12ce8a326824aebf78b libeth: allow to create fill queues without NAPI
+7203f0f7dadd7883e01a5ef7ea70f61f58475528 libie: add control queue support
+069085b6505c60752885f00e21a7c4c4bdf8823d libie: add bookkeeping support for control queue messages
+f9bf9327cce05e24f448b27f74e5a2dd552681d6 idpf: remove 'vport_params_reqd' field
+cd84149616fdba075c75b4711be0ef800879d072 idpf: refactor idpf to use libie_pci APIs
+2dad951df873e8a4054dbf9eff5d6a04c5922e45 idpf: refactor idpf to use libie control queues
+d613a8f77777eb49e6db6f498bdf8d136a0fbf2f idpf: make mbx_task queueing and cancelling more consistent
+16b6bcc1d46d1030be8f66f1e09085c814852acc idpf: print a debug message and bail in case of non-event ctlq message
+6639baa14ae311eaf5a6a7b4fc3f0909561a3514 ixd: add basic driver framework for Intel(R) Control Plane Function
+e6f8709b79a0dc867ca1f8d6006822d3bfe2cfbd ixd: add reset checks and initialize the mailbox
+a706f36679f45f8316e6783a448c89d45aa6dcd3 ixd: add the core initialization
+18095fadc3678fd7fa1a3592cbb15d3080c204fd ixd: add devlink support
 
---===============0942666030115126542==--
+--===============5811670892531667896==--
