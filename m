@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 06 May 2026 15:35:19 -0000
-Message-Id: <177808171951.2854600.18208321817669041778@gitolite.kernel.org>
+Date: Wed, 06 May 2026 15:35:23 -0000
+Message-Id: <177808172389.2854879.6442734096355287062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-proxy-exec
+  - ref: refs/heads/scx-proxy-exec-v2
     old: 6e658faad5d651b61f18ad6436c519255e12c120
     new: 3b7e45707e97145616cf649bc451d688a2baaff5
     log: |
