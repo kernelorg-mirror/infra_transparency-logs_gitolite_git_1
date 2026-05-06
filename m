@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 06 May 2026 01:02:29 -0000
-Message-Id: <177802934958.1875472.11978427959165752655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 06 May 2026 01:11:39 -0000
+Message-Id: <177802989914.1886491.8923112386072172065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: 40aa9fcea0721f5b885eec2fb9aa526145e83797
-    new: f83e07b29246f468bc7c99f98ca1897843fa8167
+  - ref: refs/heads/dt/next
+    old: 63353810c08499476efc1e1e85ca7b8e33d54ef7
+    new: 0f2280c8e89423fc2e762725536f8388d3e3029d
     log: |
-         f83e07b29246f468bc7c99f98ca1897843fa8167 net/sched: sch_fq_codel: annotate data-races from fq_codel_dump_class_stats()
+         cdd5ffcec0dd8320969623e3acd36811bc05852a docs: dt: writing-bindings: Extend compatible fallbacks guideline
+         e4de139ceda4ea5004af8bca4da202dfbcc5349e dt-bindings: misc: fsl,qoriq-mc: drop trailing whitespace
+         0f2280c8e89423fc2e762725536f8388d3e3029d dt-bindings: drop tab characters from DTS examples
+         
+  - ref: refs/heads/for-next
+    old: 63353810c08499476efc1e1e85ca7b8e33d54ef7
+    new: 0f2280c8e89423fc2e762725536f8388d3e3029d
+    log: |
+         cdd5ffcec0dd8320969623e3acd36811bc05852a docs: dt: writing-bindings: Extend compatible fallbacks guideline
+         e4de139ceda4ea5004af8bca4da202dfbcc5349e dt-bindings: misc: fsl,qoriq-mc: drop trailing whitespace
+         0f2280c8e89423fc2e762725536f8388d3e3029d dt-bindings: drop tab characters from DTS examples
          
