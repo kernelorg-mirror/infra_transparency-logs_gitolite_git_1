@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3330680805929689553=="
+Content-Type: multipart/mixed; boundary="===============5617881668030631631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 06 May 2026 17:23:12 -0000
-Message-Id: <177808819207.2969773.12933476104162571537@gitolite.kernel.org>
+Date: Wed, 06 May 2026 17:23:24 -0000
+Message-Id: <177808820437.2970097.6395501046792760010@gitolite.kernel.org>
 
---===============3330680805929689553==
+--===============5617881668030631631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: 7889b194a15eeef0f4c3b27a597ae0e1175ba007
-    new: e0abb8a515cdb7613a15ce54910405ce8110e4f5
-    log: revlist-7889b194a15e-e0abb8a515cd.txt
+  - ref: refs/heads/fixes
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============3330680805929689553==
+--===============5617881668030631631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7889b194a15e-e0abb8a515cd.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
@@ -1048,7 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-2bc564f46b00dc4f4331fc337277ff3f5fac8a4e ARM: dts: am335x-sl50: Fix audio bitclock and frame master endpoint
-e0abb8a515cdb7613a15ce54910405ce8110e4f5 ARM: dts: ti/omap: omap4-epson-embt2ws: fix typo in iio device property
 
---===============3330680805929689553==--
+--===============5617881668030631631==--
