@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============8300443709925304058=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 06 May 2026 18:28:44 -0000
-Message-Id: <177809212448.3037541.12308239645681981825@gitolite.kernel.org>
+Date: Wed, 06 May 2026 18:32:18 -0000
+Message-Id: <177809233886.3042395.9686792445858460404@gitolite.kernel.org>
+
+--===============8300443709925304058==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,13 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 1e1c7961c037b60ed9093f2053badad5d0df8d62
-    new: 1a27af12503afbc6ed5c39d898f9ec09eb7fc8a3
-    log: |
-         536d310345837b8adb4b7f47900a1596e042ff21 iio: magnetometer: rm3100: Modernize locking and refactor control flow
-         bb33ab0b34fde20bcda4e12a8cdf718d0dfe51ca iio: adc: mcp3422: rewrite mask macros with help of bits.h APIs
-         0fa20ace01924ee95a52c848761c57b0fd20cac9 iio: adc: mcp3422: write bit operations using bitfield.h APIs
-         d68d2b24e0d2d7a8d66586787edebdfe30f416f9 iio: light: iqs621-als: use lock guards
-         1a27af12503afbc6ed5c39d898f9ec09eb7fc8a3 iio: light: iqs621-als: prefer early error handling over if (!ret)
-         
+  - ref: refs/heads/testing
+    old: 981e6c193a08bffd902898af06cb5ed8676f6d4c
+    new: 74d173f29572951629d1e0b7456b424006e51b87
+    log: revlist-981e6c193a08-74d173f29572.txt
+
+--===============8300443709925304058==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-981e6c193a08-74d173f29572.txt
+
+536d310345837b8adb4b7f47900a1596e042ff21 iio: magnetometer: rm3100: Modernize locking and refactor control flow
+bb33ab0b34fde20bcda4e12a8cdf718d0dfe51ca iio: adc: mcp3422: rewrite mask macros with help of bits.h APIs
+0fa20ace01924ee95a52c848761c57b0fd20cac9 iio: adc: mcp3422: write bit operations using bitfield.h APIs
+d68d2b24e0d2d7a8d66586787edebdfe30f416f9 iio: light: iqs621-als: use lock guards
+1a27af12503afbc6ed5c39d898f9ec09eb7fc8a3 iio: light: iqs621-als: prefer early error handling over if (!ret)
+cf1aafdee81da8945a4ed1041aab4490c33aabb2 iio: adxl313: fix typos in documentation
+a368b1669a0718e983345f77bd1c183e8ae04c6d iio: ABI: Add DAC 500ohm, 3.85kohm, and 16kohm powerdown modes
+8dfc7f2b881f2e087bf0009bd7945e7ead3952d0 iio: magnetometer: ak8975: Add missed pm_runtime_put_autosuspend() call
+3f9bb3825e8d36e42305a21ec372b23802447c5a iio: magnetometer: ak8975: sort headers alphabetically
+772a8c039d4ff0def39e58b45e54a281db3e8fe9 iio: magnetometer: ak8975: update headers per IWYU principle
+bfc384644e43187a720933bc49ea39caf1c3e72c iio: magnetometer: ak8975: replace usleep_range() with fsleep()
+ba7748f08e4b8c14ba461e39b4e0728dfdb213e3 iio: magnetometer: ak8975: change 'u8*' to 'u8 *' in cast
+4615f57bb10ee46151090c8b692652f8100644a2 iio: magnetometer: ak8975: fix wrong errno on return
+bb4cb90a37d749f444ed25d3b164b9effe599c7b iio: magnetometer: ak8975: pass conversion timeouts as arguments
+5e1c66c01f685d1c46a42e8f8c766973cd82f6f9 iio: magnetometer: ak8975: avoid using temporary variable
+9e227a2cef840e9f629236f520c9c5e7b006ba8c iio: magnetometer: ak8975: drop duplicate NULL check
+196413108aa39a1cd055eb635996737fed476f20 iio: magnetometer: ak8975: remove duplicate error message
+57751de3a6d71ff73208590e193983308c903fba iio: magnetometer: ak8975: reduce usage of magic lengths of the buffer
+72cae05b53c8d6d0f89b52b45a0fb1bd94819a30 iio: magnetometer: ak8975: unify return code variable name
+95af5e057b3752ab0fb74b5bc12ddf01b24241b3 iio: adc: ingenic-adc: rename ingenic_adc_enable_unlocked() function
+93df88612859e8e19dec93c69d563b4b73e9bd4b iio: adc: ingenic-adc: refactor ingenic_adc_read_chan_info_raw()
+74d173f29572951629d1e0b7456b424006e51b87 iio: adc: ingenic-adc: use guard()() and scoped_guard() to handle synchronisation
+
+--===============8300443709925304058==--
