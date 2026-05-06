@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 06 May 2026 15:35:23 -0000
-Message-Id: <177808172389.2854879.6442734096355287062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 06 May 2026 15:36:06 -0000
+Message-Id: <177808176628.2855507.700160817565060538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/scx-proxy-exec-v2
-    old: 6e658faad5d651b61f18ad6436c519255e12c120
-    new: 3b7e45707e97145616cf649bc451d688a2baaff5
+  - ref: refs/heads/main
+    old: 52bfa67504661a9fcdd2e58e0a07714c36e7e38d
+    new: 14d99bd40a8e3a80398dc597375fc7516ca488dd
     log: |
-         02582883a297be2809feea3563b6c668d7a13b66 sched/ext: Split curr|donor references properly
-         858d084f9e773a9590f85976f8dc7381d5b3b34c sched/ext: Avoid migrating blocked tasks with proxy execution
-         67443715eb7b5150eb97be6a49adab5e242a10a8 sched_ext: Fix TOCTOU race in consume_remote_task()
-         439dc65e07697206e266237fb3a95aa206fed875 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-         6ece55cce9b5f8668dfe468cccf40ae21795d8eb sched_ext: Save/restore kf_tasks[] when task ops nest
-         8034f8727e0da90dc28d6eeb58ee2f9daece61ae sched_ext: Skip ops.runnable() when nested in SCX_CALL_OP_TASK
-         9f3b2602f4c7cf4b5c027e3e83161d996757cb8b sched/core: Disable proxy-exec context donation under sched_ext by default
-         3b7e45707e97145616cf649bc451d688a2baaff5 sched: Allow enabling proxy exec with sched_ext
+         283fc9e44ff5b5ac967439b4951b80bd4299f4e4 wifi: mac80211: remove station if connection prep fails
+         0f3c0a197309717d74729568f88957d448847937 wifi: nl80211: fix NL80211_PMSR_FTM_REQ_ATTR_FTMS_PER_BURST usage
+         15994bb0cbb8fc4879da7552ddd08c1896261c39 wifi: nl80211: require CAP_NET_ADMIN over the target netns in SET_WIPHY_NETNS
+         79240f3f6d766b342b57c32397d643e1cfa26b81 wifi: nl80211: re-check wiphy netns in nl80211_prepare_wdev_dump() continuation
+         b1729aa0017c3705ebfed936af9b8eb32c711068 Merge branch 'ath-next'
+         97a48f53e576e94d51ea291978e16eb98347cc21 Merge branch 'ath-current'
+         14d99bd40a8e3a80398dc597375fc7516ca488dd Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202605061528
+    old: 0000000000000000000000000000000000000000
+    new: 14d99bd40a8e3a80398dc597375fc7516ca488dd
