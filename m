@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8896016574593799709=="
+Content-Type: multipart/mixed; boundary="===============5380170235935205603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 May 2026 21:50:44 -0000
-Message-Id: <177810424453.3251951.184237925913744119@gitolite.kernel.org>
+Date: Wed, 06 May 2026 21:50:49 -0000
+Message-Id: <177810424953.3252048.13546880652005602914@gitolite.kernel.org>
 
---===============8896016574593799709==
+--===============5380170235935205603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 8c699be3dad7bba87cdda485dc099226cfc2f706
-    new: 2281958e60079e063bd6e9e5e46e8786a9853ea8
-    log: revlist-8c699be3dad7-2281958e6007.txt
+  - ref: refs/heads/100GbE
+    old: 382b8e58438ea5da3f11d63d7c036cd1e31dadf6
+    new: 105900fe246d11f61315d8c1e3b3a67d45687dc2
+    log: revlist-382b8e58438e-105900fe246d.txt
 
---===============8896016574593799709==
+--===============5380170235935205603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c699be3dad7-2281958e6007.txt
+Content-Disposition: attachment; filename=revlist-382b8e58438e-105900fe246d.txt
 
 0814869dc26e7f82b31683fdfc5d43dcf3331f9f wifi: cfg80211: fix max_channel_switch_time documentation unit
 829b815e910b8cc7bf36c85005abc3e66b59303b wifi: cfg80211: indicate (Re)Association frame encryption to userspace
@@ -139,5 +139,10 @@ fcc5432df6b5532d8d555f9c185cf0f44d8bb7df wifi: mac80211_hwsim: claim HT STBC cap
 82a55ac4e399670900426797570145636ad9f0f3 wifi: iwlwifi: don't blindly start the responder upon BSS_CHANGED_FTM_RESPONDER
 89e367a90c1a877ca9c5d75d3848582d80fd0e60 wifi: mac80211: explicitly disable FTM responder on AP stop
 2281958e60079e063bd6e9e5e46e8786a9853ea8 Merge tag 'wireless-next-2026-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+7dd4c51f0eeb1e04581fb959ef6e0589e68c1fd6 libeth: pass Rx queue index to PP when creating a fill queue
+200b75f2383c16219d81836bdd65d668856766fb libeth: handle creating pools with unreadable buffers
+9ffd8c484c99d1dccef66274f0acf3f7da6648de ice: migrate to netdev ops lock
+1cd4f7730d83b423ccab291b15afe8ed1024659f ice: implement Rx queue management ops
+105900fe246d11f61315d8c1e3b3a67d45687dc2 ice: add support for transmitting unreadable frags
 
---===============8896016574593799709==--
+--===============5380170235935205603==--
