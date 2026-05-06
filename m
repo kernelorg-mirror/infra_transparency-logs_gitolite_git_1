@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Wed, 06 May 2026 06:03:49 -0000
-Message-Id: <177804742985.2184413.3982383599579575614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 06 May 2026 06:04:14 -0000
+Message-Id: <177804745475.2184934.11790690913152808530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/tags/kbuild-fixes-7.1-2-rc2-2026-05-06
-    old: 0000000000000000000000000000000000000000
-    new: 4888dc0bb5047311e9427ed84461c7caaaa225eb
+  - ref: refs/heads/kbuild-fixes-for-next
+    old: 7db93134a4e7809c3562899d9f108e313f4c73cd
+    new: bdb0ab9747193e990d382d6a635a8011b8e65be0
+    log: |
+         bdb0ab9747193e990d382d6a635a8011b8e65be0 modpost: prevent stack buffer overflow in do_input_entry() and do_dmi_entry()
+         
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: 7db93134a4e7809c3562899d9f108e313f4c73cd
+    new: bdb0ab9747193e990d382d6a635a8011b8e65be0
+    log: |
+         bdb0ab9747193e990d382d6a635a8011b8e65be0 modpost: prevent stack buffer overflow in do_input_entry() and do_dmi_entry()
+         
