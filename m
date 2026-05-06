@@ -1,20 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 06 May 2026 08:09:22 -0000
-Message-Id: <177805496206.2375048.14098722983716741818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 06 May 2026 08:09:50 -0000
+Message-Id: <177805499078.2375439.18207562084555218656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 3a33394e8a5bc10ae4cbe9a35177fef714513e2e
-    new: cb77f8933467d08c8896674cd39ca98550a70fd6
+  - ref: refs/heads/for-linus
+    old: 320e55722ca466a7d40dd69e1aea982cb6189006
+    new: 2bcbb163162789d3488562073dbb99d9bd71a762
     log: |
-         d6e1a94888f5a4306c9998944a0f29f7bcd49411 dt-bindings: gpio: fairchild,74hc595: add lines-initial-states property
-         cb77f8933467d08c8896674cd39ca98550a70fd6 gpio: 74x164: support lines-initial-states for boot-time output state
+         92429ca999db99febced82f23362a71b2ba4c1d8 ALSA: seq: Fix UMP group 16 filtering
+         01801e20d69346e1e6cec0d908f1cea3a49e51b5 ALSA: hda/realtek: Add mute LED fixup for HP Pavilion 15-cs1xxx
+         5337213381df578058e2e41da93cbd0e4639935f ALSA: core: Serialize deferred fasync state checks
+         2bcbb163162789d3488562073dbb99d9bd71a762 ALSA: sparc/dbri: add missing fallthrough
+         
+  - ref: refs/heads/master
+    old: 0d672ef050d4e1c3891c9944f72c85769978bbee
+    new: 568f839caf903203943553d889a848fb70561137
+    log: |
+         92429ca999db99febced82f23362a71b2ba4c1d8 ALSA: seq: Fix UMP group 16 filtering
+         01801e20d69346e1e6cec0d908f1cea3a49e51b5 ALSA: hda/realtek: Add mute LED fixup for HP Pavilion 15-cs1xxx
+         5337213381df578058e2e41da93cbd0e4639935f ALSA: core: Serialize deferred fasync state checks
+         2bcbb163162789d3488562073dbb99d9bd71a762 ALSA: sparc/dbri: add missing fallthrough
+         568f839caf903203943553d889a848fb70561137 Merge branch 'for-linus'
          
