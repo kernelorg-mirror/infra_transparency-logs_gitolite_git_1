@@ -1,68 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============3828586179418035113=="
+Content-Type: multipart/mixed; boundary="===============5820954783175572384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 06 May 2026 14:31:42 -0000
-Message-Id: <177807790289.2784462.826765242430791678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 06 May 2026 14:34:48 -0000
+Message-Id: <177807808899.2786113.17625455386978934734@gitolite.kernel.org>
 
---===============3828586179418035113==
+--===============5820954783175572384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/nova/mm
-    old: 1910bba22d882338ff7ef53ff9b5087091c75705
-    new: 94c1c9a3687ff84f37d3d11f833f48d695c88ee9
-    log: revlist-1910bba22d88-94c1c9a3687f.txt
+  - ref: refs/heads/main
+    old: 7e0cccae6b45b12eaf71fc3ab8eb133bb50b28ad
+    new: 2281958e60079e063bd6e9e5e46e8786a9853ea8
+    log: revlist-7e0cccae6b45-2281958e6007.txt
 
---===============3828586179418035113==
+--===============5820954783175572384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1910bba22d88-94c1c9a3687f.txt
+Content-Disposition: attachment; filename=revlist-7e0cccae6b45-2281958e6007.txt
 
-b12eb20c7909daf79a581b828325fc6588f31d80 gpu: nova-core: gsp: Expose total physical VRAM end from FB region info
-fff819e5436c872d205322dee5d7e5144a312989 gpu: nova-core: mm: Add support to use PRAMIN windows to write to VRAM
-eb29492e5186b7fdb473cba912f6ec6ff56c691f docs: gpu: nova-core: Document the PRAMIN aperture mechanism
-5f97f1950e5f58a3cddde1e7dc49304852a10c6c gpu: nova-core: mm: Add common memory management types
-3cce52fa9d16cc6b0ca299fbdb5a0414e1acd12e gpu: nova-core: mm: Add TLB flush support
-3ae738bb345e9ddbb0d8eb44a7f0b9403c2afb4f gpu: nova-core: mm: Add GpuMm centralized memory manager
-139424de7132797590ad9fed024a9f6f5e11f3c5 gpu: nova-core: mm: Add common types for all page table formats
-f2a4055c64aab91ea370f18e6523ac6d61aaef53 gpu: nova-core: mm: Add MMU v2 page table types
-24c40789154470c1b6248ad22191ba7c3fbeb15d gpu: nova-core: mm: Add MMU v3 page table types
-a5ca6dab6a9d1f2d7a612126cd941f731ca8979c gpu: nova-core: mm: Add page table entry operation traits
-e77e21e6cf7c97de60f07049552fdacf30274226 gpu: nova-core: mm: Add page table walker for MMU v2/v3
-2f0b3e627401588133bfc47f266828219d9a51dd gpu: nova-core: mm: Add Virtual Memory Manager
-fae027958ce1dc388f0cc5ad826d54a8c83291d0 gpu: nova-core: mm: Add virtual address range tracking to VMM
-9934b37f83ba22fa6fb578b39b3ec17e8cb535c8 gpu: nova-core: mm: Add multi-page mapping API to VMM
-a4539b641481f67efa83547ab4d1a95fcf48ddd6 rust: pci: add resource_flags accessor
-0269d296cf5eb31b387a372b895dc86e60432ad2 gpu: nova-core: Add BAR1 aperture type and size constant
-6de07b4288a06950f54eb654b1b930855bf453c2 gpu: nova-core: mm: Add BAR1 user interface
-5b9041d8bc0152bb4d5fa62fb9b8c9bff283cb67 gpu: nova-core: mm: Add BAR1 memory management self-tests
-a1177610d2d7e6a56711dac25249c9ef21d8cb83 gpu: nova-core: mm: Add PRAMIN aperture self-tests
-be5d3e5c9d07af848074a7219b890cee0cae0328 gpu: nova-core: mm: pramin: drop useless as_ref() in run_self_test
-1e897c933f413fb0fa125ea0c011acba7baddb21 rust: maple_tree: implement Send and Sync for MapleTree
-8527a47e05bbe26f2cddca14e5501abda11046a0 [REFERENCE] Hopper/Blackwell reference code needed for MMU v3.
-7e2382043b052d2431356d8bb975a7dd760703a4 gpu: nova-core: mm: add PRAMIN support for Hopper+
-00bf23c232adfff592026df842998e777fc9e616 gpu: nova-core: mm: vmm: allow MMU v3 initialization for Blackwell
-39d1f7e6010f44f6fc39369b838351647d25d8f6 gpu: nova-core: mm: pagetable: silence too_many_arguments on install_mappings
-75fc5661a419c4176de421aecb1b1e05fd89de8a [EXTRA] objtool/rust: recognize panic_const_{div,rem}_by_zero as noreturn
-252034f18512afa1f584f013ac624fe64e22328b [EXTRA] kbuild: rust: bump minimum supported rustc to 1.84.0
-7de9447cabc18b1ab3eb5784b39ec846899e57c9 fixup! gpu: nova-core: gsp: Extract usable FB region from GSP
-6741aa88dc594cc98b5e6552a2ea9828ee66b4ab rust: sizes: add SizeConstants trait for device address space constants
-c858eb4528af8750c0ac38f4456f334aa3abdfa0 gpu: nova-core: use SizeConstants trait for u64 size constants
-b0d28aad025ee75fe018ea16091aa877c0b8bb76 fixup! gpu: nova-core: mm: Add support to use PRAMIN windows to write to VRAM
-21661d5cbc3bff719ef387a00136cdab9fd44ca7 fixup! gpu: nova-core: mm: Add support to use PRAMIN windows to write to VRAM
-ab47b75bf87ef7f125b413328b7b29ad8ef9a816 fixup! gpu: nova-core: mm: Add support to use PRAMIN windows to write to VRAM
-b4d03b3abb54b93d9e4cf35849f723ab9e840ec4 gpu: nova-core: regs: declare PRAMIN window-address fields as Bounded<u64, _>
-bab6a36c744e795a0bafb8a149508b3e41eea210 gpu: nova-core: regs: simplify PRAMIN window_base getters using <<
-20de5bc707c24a872752be01be224c2e2b253c12 gpu: nova-core: regs: drop redundant .into() at PRAMIN window-base call sites
-f783073ac74394f556117aa3db19ca20b7568aae rust: num: implement From between Bounded values of different backing types
-94c1c9a3687ff84f37d3d11f833f48d695c88ee9 rust: num: implement Shr and Shl operator traits for Bounded
+0814869dc26e7f82b31683fdfc5d43dcf3331f9f wifi: cfg80211: fix max_channel_switch_time documentation unit
+829b815e910b8cc7bf36c85005abc3e66b59303b wifi: cfg80211: indicate (Re)Association frame encryption to userspace
+e2ae5b19ac56afb00ca40b4a1768d7fe182f18c8 wifi: mac80211: set assoc_encrypted for EPP associations
+43ef5856bdab300acc90ea2c3c437f5535a5f66f wifi: mac80211: track the id of the NAN cluster we joined
+5f244f17eceba1522948702ab5e4ca160982c672 wifi: mac80211: allow userspace TX/RX over NAN Data interfaces
+fe553d240df608feb629890c71b84bfb7e3ba30a wifi: mac80211: accept protected frames for NAN device
+4bcf276e4a508db76671451def7e723ccc9c689c wifi: mac80211: Allow setting MAC address on interface creation
+ad3d4d3d897f4013b4c050aa2b2aac27edd37420 wifi: mac80211: Fix a kernel panic in ieee80211_encrypt_tx_skb()
+03c41203ee5a833a9d7a7630be190830cede29d8 wifi: mac80211: avoid out-of-bounds access in monitor
+42c9de58d990337a8848671591252f71d0db18c8 wifi: mac80211: add NAN channel evacuation support
+2d9dd73bb57e67eca827dd596c14e5eb628baafc wifi: mac80211_hwsim: remove unused nan_vif struct member
+183683f8dcb1dca605450ae0ae4b14a56edbad04 wifi: mac80211_hwsim: move NAN related variables into a struct
+340f2ab83a5c9fc76a045cac737a1533d19188ef wifi: mac80211_hwsim: split NAN handling into separate file
+1926f4e06dcebe2d220d1a80a7cc88fd8a82a0c8 wifi: mac80211_hwsim: rename and switch simulation time to boottime
+e75129031f1ca727b029bf33afdc544f0e81d5ac wifi: mac80211_hwsim: move timestamp writing later in the datapath
+933f5bec98a123be286825e27e1186f829883519 wifi: mac80211_hwsim: register beacon timer by calculating TBTT
+df0cb6e2446f55472260af6463e9ec4cd25a2cfa wifi: mac80211_hwsim: refactor NAN timer handling
+efaadc1ae36f8312e1893aad7c1fa15f58f54521 wifi: mac80211_hwsim: switch to use TXQs
+bef9d5e378f07ccdf967b929897de84a9931d1e3 wifi: cfg80211: restrict LMR feedback check to TB and non-TB ranging
+4dbd1829045ee4146ae16b0e1ad122d855a694cb wifi: cfg80211: Add MAC address filter to remain_on_channel
+55f23d68f93a4cce394885886cdcd4015c35e951 wifi: cfg80211/mac80211: Add NL80211_IFTYPE_PD for PD PASN and PMSR operations
+b47a6e4d662976efbe53518cb22cf7df86d19c75 wifi: cfg80211: add start/stop proximity detection commands
+18709c618d3b4b2990f202a436784f4c36e2c193 wifi: cfg80211: add proximity detection capabilities to PMSR
+8823a9b0e7af5395cbfa06bf23806197d59cd124 wifi: cfg80211: add NTB continuous ranging and FTM request type support
+4e901e99edd2c289e6917cb79027e39c98d711e2 wifi: cfg80211: extend PMSR FTM response for proximity ranging
+ea996c2c036df21fbd3b195e6c5c42c11eadb6c4 wifi: cfg80211: add role-based peer limits to FTM capabilities
+99529edd28df505576366753e204ba78a406659b wifi: cfg80211: add ingress/egress distance thresholds for FTM
+5733daa670dc1e1464be59dfcacaa76597201b3e wifi: cfg80211: add PD-specific preamble and bandwidth capabilities
+410aa47fd9d308029f3520e97eec71a8eb508622 wifi: cfg80211: allow suppressing FTM result reporting for PD requests
+4bb6e58bc29ab772c26c5eb471ab255fe2e044d8 wifi: cfg80211: add LTF keyseed support for secure ranging
+3acaadfe91a3c7afb52b2eb7f7995767b819a47e wifi: mac80211_hwsim: Add support for extended FTM ranging
+49e62ec6eb060f86abbb1d88663a51340e512aba wifi: mac80211: move frame RX handling to type files
+f6310f043fb4f45f0027da842e46fcddf9c859fe wifi: mac80211: update UHR capabilities field order
+32ae6c6f7b8f85ad403d9606d27b03d8d7e03fec wifi: ieee80211: define UHR ML-PM extended MLD capability
+6765bc7429f8d9fa1984430b86c71a17237fd86a wifi: mac80211: track AP's extended MLD capa/ops
+793ccb743282f162598d3da51801e8c6dd234918 wifi: cfg80211: ensure UHR ML-PM flag is consistent
+fb19b4d67d81fb91d3c0dce0ddea7fc393a37b2e wifi: cfg80211: allow devices to advertise extended MLD capa/ops
+b22aa70212364ffe54316b7ddcf0e98be1325873 wifi: mac80211: mlme: advertise driver's extended MLD capa/ops
+c5254002ca4bd9f80c35fc521c6f577bb044844e wifi: mac80211: use struct for ieee80211_determine_ap_chan() args
+f6ced3745ad1a0e5691b9323651e39e05371fe2f wifi: mac80211: move ieee80211_chandef_usable() up
+881b246709db5129fa81daf7301dcf04306e4be9 wifi: mac80211: carry element parsing frame type/from_ap
+1cf1d06e956dfbb05a7f69f64ab3c8938117eabe wifi: cfg80211: allow representing NPCA in chandef
+3ca884399be1bcb04baec264a75133cf7a422b52 wifi: cfg80211: add helper for parsing NPCA to chandef
+ee52966a00a902cdc62ceeabf728b9a661e4805c wifi: mac80211: use NPCA in chandef for validation
+8d66c383ed6c1ec9cdffb77dbd4fc350b6c41efb wifi: mac80211: remove NPCA during chandef downgrade
+30c7b3ed15941aa00dd139647b255e6b2228fd5e wifi: mac80211: add NPCA to chandef tracing
+a731e2fc26b68c0af61de7138e4b468091668a55 wifi: mac80211: allow only AP chanctx sharing with NPCA
+5af8f06349d85824a32aa15949cb66b174e0f713 wifi: mac80211: mlme: use NPCA chandef if capable
+12efcd79d6db52fd75fafada75f6505be529f65b wifi: mac80211: set AP NPCA parameters in bss_conf
+07f3e2174606202f7954e3a0454dd59064148610 wifi: cfg80211: separate NPCA validity from chandef validity
+0a621df46d5544f1b4f1c0572f07e1286b68c66a wifi: mac80211: don't parse full UHR operation from beacons
+d2ffdadd4aca41d120e25f6a675dd6a4d77ce360 wifi: mac80211: check AP using NPCA has NPCA capability
+7b9b2dd69b568172479ee6c9b680edd7b1b8f012 wifi: cfg80211: don't allow NAN DATA on multi radio devices
+f9aeb3a234ebc1205fcb9eafc792a1049193d709 wifi: mac80211_hwsim: limit TX of frames to the NAN DW
+61de252f994b7973080ffbcc97dce65f663c4a23 wifi: mac80211_hwsim: select NAN TX channel based on current TSF
+4f4b0f4eed556c921614457f17fb7359e9504643 wifi: mac80211_hwsim: only RX on NAN when active on a slot
+d7b0798fc83be3b46d2ddd4c7dd257c271210296 wifi: mac80211_hwsim: protect tsf_offset using a spinlock
+42d3002bc323e2a87501e704350dd40c78a2d30f wifi: mac80211_hwsim: implement NAN synchronization
+29de2775e040a82398245d53c39eca4f7c45f74c wifi: mac80211_hwsim: add NAN_DATA interface limits
+408f38d1e3071a9813bf1a760c1a465b80230c7e wifi: mac80211_hwsim: add NAN PHY capabilities
+a6ea8948e3c3ebec6146655e868e85b8613260eb wifi: mac80211_hwsim: implement NAN schedule callbacks
+60e33987268c637f0ed5458f0f81ea865fed369f wifi: mac80211_hwsim: set HAS_RATE_CONTROL when using NAN
+2c8ec5a9b1ddbad23398e22403560b5a59392d93 wifi: mac80211_hwsim: add NAN data path TX/RX support
+09d1ff616a7a0974a9338e937249726e54d34dc6 wifi: mac80211_hwsim: Declare support for secure NAN
+34cbd0a27d0f45e3c8d4e31eb8c5b4f901fee609 wifi: mac80211_hwsim: Do not declare support for NDPE
+55eaca33b4cd6b032b687d8f4b20489957604ab1 wifi: mac80211_hwsim: Support Tx of multicast data on NAN
+2c7c70ee7ceeecb5dc8c8bef8676aa9d5d99a15e wifi: mac80211_hwsim: enable NAN_DATA interface simulation support
+fcc5432df6b5532d8d555f9c185cf0f44d8bb7df wifi: mac80211_hwsim: claim HT STBC capability
+82a55ac4e399670900426797570145636ad9f0f3 wifi: iwlwifi: don't blindly start the responder upon BSS_CHANGED_FTM_RESPONDER
+89e367a90c1a877ca9c5d75d3848582d80fd0e60 wifi: mac80211: explicitly disable FTM responder on AP stop
+2281958e60079e063bd6e9e5e46e8786a9853ea8 Merge tag 'wireless-next-2026-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 
---===============3828586179418035113==--
+--===============5820954783175572384==--
