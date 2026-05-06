@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6045596581748340371=="
+Content-Type: multipart/mixed; boundary="===============7803627801917655440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 06 May 2026 13:52:44 -0000
-Message-Id: <177807556435.2740982.3201640936381905276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 06 May 2026 13:52:50 -0000
+Message-Id: <177807557079.2741252.14222993677945305442@gitolite.kernel.org>
 
---===============6045596581748340371==
+--===============7803627801917655440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: fe5b168884917e33e6727427e5e048d0de8ab73c
     new: 36645381b864b53ae976221854bbfc23da6abba3
     log: |
@@ -27,28 +27,28 @@ changes:
          36645381b864b53ae976221854bbfc23da6abba3 ASoC: tegra: Add per-stream Mixer Fade controls
          
 
---===============6045596581748340371==
+--===============7803627801917655440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778075562 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1778075562-8636eebe203c8fa04163427680cdc7757eb935a9
+pusher C3F436CA30F5D8EB 1778075569 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1778075568-04079f95eb3659854e16c5f02cfb475bf7647cef
 
-fe5b168884917e33e6727427e5e048d0de8ab73c 36645381b864b53ae976221854bbfc23da6abba3 refs/heads/for-7.2
+fe5b168884917e33e6727427e5e048d0de8ab73c 36645381b864b53ae976221854bbfc23da6abba3 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn7R6oACgkQJNaLcl1U
-h9BC+wf/Qs3U8VbZ+nZLLc8yceuYCzKlvAyzeavkAB3dmI2bp7UrE9MiLaTDbfxh
-196P5HsB7LXudRDAX3exIyx0+yXVPL8ks9V4pKu+scLbOludxpkrhcMeG8cCUHgP
-z91RDv2KAe88E3sK9W2xw9omLfx9fQ7v9E6HYfJxrcdw4x69H0GgxTiw6ujtJ74l
-/cnEN6rRD4C0xodq5c7R4FjKBB99NRlo8jcO3nISd+OIX1GQsccSLaQQOK9/gS67
-xrAZByxhoqKmsO4CuDJOThhdr2Gxziu5dtw5mdbM72RDRriYaIeU2Dq0lMQuXSfz
-kBOZMOlY77QREqq198QGzxiITEcvoQ==
-=ccgZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn7R7EACgkQJNaLcl1U
+h9BQ5gf/d1w8nRtK6t3hQEWTpIR8LdxUZq9rmliN4za5SjHCZudOal0uwzI+KQUt
+6/pkeLgmOW4c/L8PffwcacNSqebi/OB0npI8Zs++6WFK6C3Psx9daVG3TcyZ3bZI
+LLbNO4kjjr4yhYbXGf00eXtBelgkO9RNeBRMJWNCGgAnhvUA4rQt3PFvDEC54Ov1
+hBKt5ljr+ZXdU4ihDAQjMyWFrKCDjDPrARH6wrUn08DXQwLsomAPrPPdR1WEeYh3
++AGGQ2v6L4ar8gWzlCqsv01OXuoLgitKkA6MpiYcPBFzsK/l0R5hnzcAlYD5OA+Z
+baK4224P1wYmDzl46+96ZhlDYgDtNg==
+=I9YF
 -----END PGP SIGNATURE-----
 
---===============6045596581748340371==--
+--===============7803627801917655440==--
