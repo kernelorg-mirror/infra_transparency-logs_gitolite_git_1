@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 06 May 2026 01:15:16 -0000
-Message-Id: <177803011615.1891498.11979446310247162295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 06 May 2026 01:16:00 -0000
+Message-Id: <177803016084.1892300.7008688110725272598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: fe5b168884917e33e6727427e5e048d0de8ab73c
-    new: 42f67e1d1cba52d22291d18f85d34bb5cf61c7d2
+  - ref: refs/heads/main
+    old: ed36fad2cdcd620130b159be383d74a59097ea50
+    new: 78ced08039a176c5111647d75eb138fb5200297c
     log: |
-         5f1752afb464a82bdc372281ed7313aa4663b269 ASoC: nau8825: Fix typos in comments
-         087623676248f5f91c5a592870369a2fe856b0b9 ASoC: arm: pxa2xx: remove platform_data processing
-         a11fbb793ab4843549840571036bf042897d3a76 ASoC: pxa2xx: push gpio usage into arch code
-         42f67e1d1cba52d22291d18f85d34bb5cf61c7d2 ASoC: pxa: integrate sound/arm/pxa2xx into sound/soc/pxa2xx
+         9c7d567358cc71d3330c245b7db14935490e7ab0 net: dsa: mv88e6xxx: remove unused .port_max_speed_mode()
+         17099a2f86cbbcde762f67d629696aaa61b34fb7 atm: solos-pci: Simplify initialisation of pci_device_id array
+         d9c1e7dc4adab28e07774ed23b137319b1c75241 selftests: net: py: support cmd verifying expected failure
+         49bf9e5e7c7c47e21d8a082bbb311fb17b414d54 selftests: net: py: add tc utility
+         5c6baef3885c0e16e63d432fe31aa6f7e98e18dc selftests: drv-net: convert so_txtime to drv-net
+         78ced08039a176c5111647d75eb138fb5200297c Merge branch 'selftests-drv-net-convert-so_txtime-to-drv-net'
          
