@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 06 May 2026 21:24:18 -0000
-Message-Id: <177810265834.3220524.14177420009866150155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+Date: Wed, 06 May 2026 21:28:21 -0000
+Message-Id: <177810290137.3225220.837256441632002514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: 164f88cd7e0c0fcb950e8b4ba5d8c26404334c88
-    new: b6aefeea7b4aa9158c1dcec8c050a678af7bf9b0
+  - ref: refs/heads/master
+    old: 025f00454fec8fd0816607a28c1ee6cd9a54b134
+    new: a998407747005ea7e4e0258d96f105c97241e1d3
     log: |
-         b6aefeea7b4aa9158c1dcec8c050a678af7bf9b0 ARM: dts: dm8168-evm: Set stdout-path to uart3
+         a998407747005ea7e4e0258d96f105c97241e1d3 wg-quick: darwin: properly parse netstat -nr output
          
