@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8441657808894131394=="
+Content-Type: multipart/mixed; boundary="===============2103777040534943726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 May 2026 21:50:39 -0000
-Message-Id: <177810423964.3251615.6318391851986615836@gitolite.kernel.org>
+Date: Wed, 06 May 2026 21:50:42 -0000
+Message-Id: <177810424211.3251726.5940427010193698210@gitolite.kernel.org>
 
---===============8441657808894131394==
+--===============2103777040534943726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 12892726400694825f74e4555eabcc55f05d3797
-    new: db77f100043053dd761cfe834fc727e8f5df4d21
-    log: revlist-128927264006-db77f1000430.txt
+  - ref: refs/heads/10GbE
+    old: 8c699be3dad7bba87cdda485dc099226cfc2f706
+    new: 2281958e60079e063bd6e9e5e46e8786a9853ea8
+    log: revlist-8c699be3dad7-2281958e6007.txt
 
---===============8441657808894131394==
+--===============2103777040534943726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-128927264006-db77f1000430.txt
+Content-Disposition: attachment; filename=revlist-8c699be3dad7-2281958e6007.txt
 
 0814869dc26e7f82b31683fdfc5d43dcf3331f9f wifi: cfg80211: fix max_channel_switch_time documentation unit
 829b815e910b8cc7bf36c85005abc3e66b59303b wifi: cfg80211: indicate (Re)Association frame encryption to userspace
@@ -139,18 +139,5 @@ fcc5432df6b5532d8d555f9c185cf0f44d8bb7df wifi: mac80211_hwsim: claim HT STBC cap
 82a55ac4e399670900426797570145636ad9f0f3 wifi: iwlwifi: don't blindly start the responder upon BSS_CHANGED_FTM_RESPONDER
 89e367a90c1a877ca9c5d75d3848582d80fd0e60 wifi: mac80211: explicitly disable FTM responder on AP stop
 2281958e60079e063bd6e9e5e46e8786a9853ea8 Merge tag 'wireless-next-2026-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
-aaadc4f9ef2cffc41d1c52e370d4df9e905ed5fa igc: Call netif_queue_set_napi() with rtnl locked
-cde52bbc41bbfdb942757ac8cfc13deb21942c34 igc: Let the PCI core deal with the PM resume flow
-b26c58fde783d36f28a8c846d755ea250fa203ee igc: Don't reset the hardware on suspend path
-e9024346f8e69c23df7e724b5981ff182801b8e2 igc: prepare for RSS key get/set support
-2d3cc0a03d212374bc32ce3dba2c08e95b0b34d2 igc: expose RSS key via ethtool get_rxfh
-70dae0e2a56b77ecf05c3f7547867970c5f77778 igc: allow configuring RSS key via ethtool set_rxfh
-6bcbeb2605dfcae7f590a1dd68f5afdb308d7ee2 igb: prepare for RSS key get/set support
-ec31ff5ce57d3ba95ee3e2eeaee1a3528e14df96 igb: expose RSS key via ethtool get_rxfh
-1d7adc33bdee956c6b361421f597c63c9cf81f0d igb: allow configuring RSS key via ethtool set_rxfh
-9f6d01aa2ea4ce2b2d0d6145d65bad8925417089 igb: set skb hash type from RSS_TYPE
-a3f918fc2af3b75d2c4bff922a760e5e747910fd igb: fix typos in comments
-48757d32c282aa0df5e2c9517d7223b717d88848 igc: fix typos in comments
-db77f100043053dd761cfe834fc727e8f5df4d21 ice: add support for unmanaged DPLL on E830 NIC
 
---===============8441657808894131394==--
+--===============2103777040534943726==--
