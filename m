@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 06 May 2026 11:43:17 -0000
-Message-Id: <177806779733.2608231.16068023294595914448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Wed, 06 May 2026 11:47:40 -0000
+Message-Id: <177806806088.2613128.8216067937761687416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/master
-    old: be02fd3824a64fb8f2dc82e6f863e397a513eeff
-    new: 41c1ea4e56753aa98d36a10a1b74a3954eb38db2
-    log: |
-         b27f133451e447c16c298598fda1ea9b1b1e025a tests: (findmnt) add more tests
-         e48eabb7e84046b811a02e277f51e4e03cb37554 build: (testcoverage) enable single tool testcoverage check
-         41c1ea4e56753aa98d36a10a1b74a3954eb38db2 Merge branch 'findmnt_tests' of https://github.com/cgoesche/util-linux-fork
-         
+  - ref: refs/heads/usdt_fix
+    old: 0000000000000000000000000000000000000000
+    new: ca5ac0c48d1058ef6b8dc4c36cd5c403e1fb6e0e
