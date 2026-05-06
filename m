@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8473014773287563921=="
+Content-Type: multipart/mixed; boundary="===============4872094930174583659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 May 2026 00:51:13 -0000
-Message-Id: <177802867309.1859502.17741887455159212985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 06 May 2026 00:52:33 -0000
+Message-Id: <177802875316.1860375.17100286828853738542@gitolite.kernel.org>
 
---===============8473014773287563921==
+--===============4872094930174583659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
     old: 8c699be3dad7bba87cdda485dc099226cfc2f706
     new: ed36fad2cdcd620130b159be383d74a59097ea50
     log: revlist-8c699be3dad7-ed36fad2cdcd.txt
 
---===============8473014773287563921==
+--===============4872094930174583659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ fe57adbe0dacd00905f40db78468ac05f14cc419 pfcp: Store struct sock in struct pfcp_
 72d3b9a4c2b137b32fdf5342699d16229e2ac75e udp_tunnel: Remove synchronize_rcu() in udp_tunnel_sock_release().
 ed36fad2cdcd620130b159be383d74a59097ea50 Merge branch 'udp_tunnel-speed-up-udp-tunnel-device-destruction-part-i'
 
---===============8473014773287563921==--
+--===============4872094930174583659==--
