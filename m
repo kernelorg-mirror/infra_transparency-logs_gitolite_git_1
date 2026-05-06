@@ -1,132 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============7821195220438512698=="
+Content-Type: multipart/mixed; boundary="===============0037295995795670646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 06 May 2026 07:15:41 -0000
-Message-Id: <177805174117.2263008.8684739793602401137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 06 May 2026 07:15:46 -0000
+Message-Id: <177805174685.2263524.18051328892285379451@gitolite.kernel.org>
 
---===============7821195220438512698==
+--===============0037295995795670646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6d35786de28116ecf78797a62b84e6bf3c45aa5a
-    new: 74fe02ce122a6103f207d29fafc8b3a53de6abaf
-    log: revlist-6d35786de281-74fe02ce122a.txt
+  - ref: refs/heads/staging-next
+    old: 4e2475038cba7681fb1a92ba5cafdf4e93764e4c
+    new: 81f55766523e5293604cb96c5e98d10da345ff33
+    log: revlist-4e2475038cba-81f55766523e.txt
 
---===============7821195220438512698==
+--===============0037295995795670646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778051738 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1778051737-c08dc112baaaadc5219cc3a5289eff6ca70bc220
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778051746 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1778051745-056a9e3c224a6c494ee2e4178969ce13bfb0d7fd
 
-6d35786de28116ecf78797a62b84e6bf3c45aa5a 74fe02ce122a6103f207d29fafc8b3a53de6abaf refs/heads/master
+4e2475038cba7681fb1a92ba5cafdf4e93764e4c 81f55766523e5293604cb96c5e98d10da345ff33 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn66pobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9m0QALl6wJkVtbF+lleMP7rT
-ET2h/JnOZ1uajj4IA+CReT31xHMDiZQfndtm52KZN9+d34TYm9erAgXb0cbe+jHn
-scSwgHIqimVmVIvopt1LoLTHJI3o8Riym2WHG3RnhbCl5aSPjClQRopQ65zInC19
-JkkyLlFWM3XFFyKvqg0EYPftd3zFvZAzgpPHdmido8PCcdemAB/iYaVVlbcfC+zh
-bXo7Q067unEkDleig+W5v6xBOZHRHE6vtvlOnGTYFXpq7aUnKgmQL6YlKv7/Nbww
-k33jx7zrl59AZlvxqE/bgzbqvnnz+1AdHI9Ra7uToAAmHla7aOn7XVFj9fcjLUrB
-MNhxF8ZOXCZChsQwuek/J+hpD+jA4tTmQ9heis8X2Wphwp5HI133HsP3iK6WGJTW
-D6/0HrNSkGdXHT04dDJjQOHaQGWtxwSmsoh6/gRhNXungfKu97Fq7K2xlTMR8q3c
-QRY7vr4NdRn4nlkqCSnEF4VYXBI5g5raWp38yDaGIuznjr0+38wUsPtaz0s6bzxi
-I2YwT4TBQhQdophzGQZ34iaq0OpRo5zrOVf4tcQi64JHXi+jwZMwIU8NKWtLLeRl
-plJchM/thVoZ7Qtik0m2E0P8YvVs5oPqIsNbCikh/azxczYgQ50LyMp36AE01wi3
-y6leDgBtGTKKlrw7LhuZTmNG
-=xvR+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn66qIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wysP/31lkkuFhYf/utCUvC0C
+DdMM5ixKwgQNo//1B5BjAhct646WOnbVHXPVWIRNmqEWR2Q+tT8d3c/TA7oTsUSj
+Gy+cNAQNMVF3WMakR0uF4/d2hfBWEage/WDHp+KitOekXY9oCpXv0sI1PVfaxIqe
+id7eTcoA3TEyILtxLsXXXFMpMUiqFWq1isJyiovgRUkQjxqFEq5ks5j7Y3RDBNuS
+gK9tdBHVwqaLjol330DQ56bPBHQQqUj3Gtp5S+fTUF/XtLOXDQv4hZrYmd/tW5TD
+j+h4Wxp0NQWsJEUG2etlQlgv1yNB9vimyqYEcPy01TWWbqvU3n4lIaORzmYKZyDE
+pW+KHhMJtYYUO0ZQoSRiAMAKZ056ki/9iYUFiCDGKgyNO6pz2mVN8NLRFC5RfWFP
+Zr/UqwP/RVuN0vd0gFHXqk0BK8Px9LYv+k19pOaWTCUWmwZvk7hdB2ar5XJ18cms
+xaldI7DbDnBn9Pfmcr0uwkYHe5Ihde9EBzI2SRZBlmWj/UN+Qu6tEQdOR1XaTEzH
+qKQxaruy2sHcGSBLY9Ug4Ari86CXJKqkHbA2ifnRD2FKVCpPkcVMkc+dPNk693WZ
+aHTl46n+i9RKJvcxZSzrzhwNNGcSmGt7LB+fsNaox/n7s6Q2+7L1l9750FQf4e50
+QsCG1j9TglgUR/rG+tmWN07y
+=Ekda
 -----END PGP SIGNATURE-----
 
---===============7821195220438512698==
+--===============0037295995795670646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d35786de281-74fe02ce122a.txt
+Content-Disposition: attachment; filename=revlist-4e2475038cba-81f55766523e.txt
 
-772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
-7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
-04631f55afc543d5431a2bdee7f6cc0f2c0debe7 scsi: mpt3sas: Limit NVMe request size to 2 MiB
-d65efdf467ff935e35dfe6aa9a7ab93f17ac07ee scsi: smartpqi: Silence a recursive lock warning
-68c3a65a5a8e85643745fdde02cb63904e165620 scsi: scsi_dh_alua: Increase default ALUA timeout to maximum spec value
-1dc39ed655750d6c679d3ada4adf4a937f2a63fc scsi: pmcraid: Fix typo in comments
-47e66bec3edaebd7c52d8ee981065a4c83b3072f scsi: hisi_sas: Fix sparse warnings in prep_ata_v3_hw()
-36920f30e78e69df01f9691c470b6f3ba8aebf98 ipmi: Check event message buffer response for bad data
-b06cf63d83d3b3744d3aefdd2f3ced25e99d7ec1 scsi: ufs: core: Fix bRefClkFreq write failure in HS-LSS mode
-2f3835771dff512750205aa5f5f61aec0f2b8cb7 scsi: target: iscsi: reject invalid size Extended CDB AHS
-98f69975d4c0434ca2e6e8cfa1d8d51647a20593 Merge branch '7.1/scsi-queue' into 7.1/scsi-fixes
-aa23c94cc433b145d1ce93820ecdfe16d8940e28 media: venus: fix QCOM_MDT_LOADER dependency
-a297c5165f91366cbc3490e630aabd1c0f70efb8 media: iris: fix QCOM_MDT_LOADER dependency
-f27cfdcfc916bb59297825805f4c3499f89f9e76 media: iris: Fix use-after-free in iris_release_internal_buffers()
-4a49ae56b0e4268d48fd96babe0cc68596bc301a media: iris: Fix dma_free_attrs() size in iris_hfi_queues_init()
-95a337f92f0a602d4f935315bfbc8bf07f475e65 media: iris: switch to hardware mode after firmware boot
-3d9593ad1a58c5acc3e5fa2a48222bb7632e6812 media: iris: fix use-after-free of fmt_src during MBPF check
-3e0b2053751657ed2924adfe3ff25b1450231e33 media: qcom: iris: increase H265D_MAX_SLICE to fix H.265 decoding on SC7280
-dd1b373941079cc102cc18bc68884e18245f5912 media: qcom: camss: Fix csid IRQ offset for sa8775p
-fe56c674118aa46da1a3e65aa22ca709ebd7d812 media: qcom: camss: Fix csid clock configuration for sa8775p
-d31fac47b39f5e1ed85a587688ca70b793e421b4 media: qcom: camss: Add missing clocks for VFE lite on sa8775p
-23c39cb598977f10909a2387c5e5f34afc1d6933 media: qcom: camss: avoid format string warning
-74f192205c48333de054620a79d7ce9f4515fb0b selftests: kselftest: fix wrong test number in ksft_exit_skip
-465b05bae5ac553c13315681c1490dc565337771 selftests: harness: Restore order of test functions
-f1fb23a0a0fcbdb66672da51d7d63a259f6396ca fbdev: ipu-v3: clean up kernel-doc warnings
-0b996ae54d876b41c52dd7cfc512eb008a47d781 fbdev: defio: Remove duplicate include of linux/module.h
-d237f719b2726c0e6d62bfa1543f53b624471929 lib/fonts: Fix bit position when rotating by 180 degrees
-76b48a70b16b4036814964b039cde413e0164416 IB/hfi1: Fix potential use-after-free in PIO and SDMA map teardown
-4c6f86d85d03cdb33addce86aa69aa795ca6c47a RDMA/rxe: Reject unknown opcodes before ICRC processing
-1114c87aa6f195cf07da55a27b2122ae26557b26 RDMA/rxe: Reject non-8-byte ATOMIC_WRITE payloads
-c488df06bd552bb8b6e14fa0cfd5ad986c6e9525 RDMA/mlx5: Fix error path fall-through in mlx5_ib_dev_res_srq_init()
-0de4cb473aed57ee4ba7e0551ad27bddc19fc519 workqueue: fix devm_alloc_workqueue() va_list misuse
-c4cca236968683eb0d59abfb12d5c7e4d8514227 ipmi: Add limits to event and receive message requests
-09dd798270ff582d7309f285d4aaf5dbebae01cb ipmi:si: Return state to normal if message allocation fails
-a8aebe93a4938c0ca1941eeaae821738f869be3d ipmi:ssif: NULL thread on error
-38694f4639c45599161860e828dc4ac77abf8cea RDMA/mlx5: Fix UAF in SRQ destroy due to race with create
-9bee81cc5e8811c8bbe67fbf5214a7998457324b RDMA/mlx5: Fix UAF in DCT destroy due to race with create
-610771c62e2ac5bca851fc5a6f8af1cdd83f189a IB/core: Fix IPv6 netlink message size in ib_nl_ip_send_msg()
-1f3b337af2231b1e83c9052f771b201f5cbb9997 RDMA/core: Fix rereg_mr use-after-free race
-6009cca96fcb01182cede725ad61e9e3810f3932 RDMA/mlx5: Fix null-ptr-deref in Raw Packet QP creation
-20e81c64c905bd765e69ef07920d2b1130dc79b6 workqueue: Annotate alloc_workqueue_va() with __printf(1, 0)
-70f780edcd1e86350202d8a409de026b2d2e2067 RDMA/ionic: Fix typo in format string
-641858d52f2372124d9312a407e2124915d846ee RDMA/mlx5: Restore zero-init to mlx5_ib_modify_qp() ucmd
-45e8ebc9ede73543c55d597bb53b6bbb7e8b7327 RDMA/mlx5: Add missing store/release for lock elision pattern
-6dd2d4ad9c8429523b1c220c5132bd551c006425 RDMA/mana: Validate rx_hash_key_len
-159f2efabc89d3f931d38f2d35876535d4abf0a3 RDMA/mana: Remove user triggerable WARN_ON() in mana_ib_create_qp_rss()
-34ecf795692ee57c393109f4a24ccc313091e137 RDMA/mana: Fix mana_destroy_wq_obj() cleanup in mana_ib_create_qp_rss()
-6aaa978c6b6218cfac15fe1dab17c76fe229ce3f RDMA/mana: Fix error unwind in mana_ib_create_qp_rss()
-ea4e4b168a531c522d2850719816b6f583b1738b RDMA/ocrdma: Clarify the mm_head searching
-34fbf48cf3b410d2a6e8c586fa952a36331ca5ba RDMA/ocrdma: Don't NULL deref uctx on errors in ocrdma_copy_pd_uresp()
-e38e86995df27f1f854063dab1f0c6a513db3faf RDMA/vmw_pvrdma: Fix double free on pvrdma_alloc_ucontext() error path
-c54c7e4cb679c0aaa1cb489b9c3f2cd98e63a44c RDMA/mlx4: Fix resource leak on error in mlx4_ib_create_srq()
-c9341307ea16b9395c2e4c9c94d8499d91fe31d0 RDMA/mlx4: Fix mis-use of RCU in mlx4_srq_event()
-48973c6c938737bb900d15dc82b91dfe3586cb0f RDMA/hns: Fix xarray race in hns_roce_create_srq()
-7d51783d82fea000a9ce96fa1dcf3e0a8cedc4fb RDMA/hns: Fix xarray race in hns_roce_create_qp_common()
-0c99acbc8b6c6dd526ae475a48ee1897b61072fb RDMA/hns: Fix unlocked call to hns_roce_qp_remove()
-8de779dc40d35d39fa07387b6f921eb11df0f511 fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free
-93618edf753838a727dbff63c7c291dee22d656b cgroup: Defer css percpu_ref kill on rmdir until cgroup is depopulated
-60f21a2649308bbd84919ba6656d5ccd660953cf cgroup, sched_ext: Include exiting tasks in cgroup iter
-ff9eda4ea906b1f02fc260ddc42d2d9bd736a49c sched_ext: Skip past-sched_ext_dead() tasks in scx_task_iter_next_locked()
-c7e4e4d5f7dc2daa439303d1b5bf6bdfaa249f49 Merge tag 'for-linus-7.1-2' of https://github.com/cminyard/linux-ipmi
-b34c82777a2c0648ee053595f4b290fd5249b093 sched_ext: idle: Recheck prev_cpu after narrowing allowed mask
-d8769544bde51b0ac980d10f8fe9f9fed6c95995 docs: cgroup-v1: Update charge-commit section
-a293ec25d59dd96309058c70df5a4dd0f889a1e4 Merge tag 'linux_kselftest-fixes-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-4e386547138864d4ded1c39ff75517b89e187964 Merge tag 'media/v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-9207d47f966be9f4d52e7e0119ac2b7a7e366f3e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-13ad98eaabef611f042d49a9077be060ad03284d Merge tag 'fbdev-for-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-50fb0bcc9d7da23e0f0fd5359b4f9ceb0aa337d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-de95ad90fb19e4b7778a0c27115a4639c7c8b186 Merge tag 'sched_ext-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-11f00074f72a977274c64c100372764eb04e6a3f Merge tag 'cgroup-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-74fe02ce122a6103f207d29fafc8b3a53de6abaf Merge tag 'wq-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+9a3f9b3c47d8f071b0eb9e63906ac0448058278d staging: rtl8723bs: fix stainfo check in rtw_aes_decrypt
+13d883fa23289979f9fe28f28c6505bea5e0393c staging: rtl8723bs: reduce nesting in rtw_security.c
+2381baa4a9a0fe96007933084bc05fa4e40258f4 staging: sm750fb: return -ETIMEDOUT on timeout in de_wait functions
+785ad91332236e968ce63444baa460be2ea99ef9 staging: sm750fb: propagate error codes from de_wait()
+070e099a403bc848461088764de87cccbfe33787 staging: sm750fb: fix typo in comment
+26813881181deb3a32fbb59eadb2599cbe8423f6 staging: nvec: fix use-after-free in nvec_rx_completed()
+fb2ae75b1ae5cffa11309b9ebf27aa4a2ceff9bd staging: nvec: fix unconditional pm_power_off teardown
+b6c1f5d3ff6bbfc32cfff2e8792e98f0b57ac9e1 staging: most: video: remove filename from the top-of-file comment
+593df953f6f50e82f8d653619b69288450fb6898 staging: sm750fb: remove double space in fb_ops entries
+24b42bcd064b02a88f73e6163c2db2c8e4ef7100 staging: greybus: fix typo in sysfs-bus-greybus
+4776aefb5aa5c2c5250597b95ab8d490e6b783cf staging: most: dim2: remove filename from comment blocks
+4f44225a9b7aa99325fc0f4ea399b3f2f9595737 staging: octeon: convert cvmx_spi_mode_t from typedef to plain enum
+1397bb27f46ede6b03942b506d3e777b89634841 staging: octeon: convert cvmx_helper_interface_mode_t from typedef to plain enum
+3711d19ae08b455d9f5e3613685bb41554d79a27 staging: octeon: convert cvmx_pow_wait_t from typedef to plain enum
+8b804dad84c2df382f1fa45484487dfd75100a4a staging: octeon: convert cvmx_pko_lock_t from typedef to plain enum
+95147c0f62dcdec92ca8955f783d477a73b1f2be staging: octeon: convert cvmx_pko_status_t from typedef to plain enum
+32c681e669fd5002ea2b5f5aed2509d6f9ed4739 staging: octeon: convert cvmx_pko_port_status_t from typedef to plain struct
+90a7073e8af3f779d43d85e34e6ff383c9a6cbd8 staging: octeon: convert cvmx_pip_port_status_t from typedef to plain struct
+7b07c48f8e944c1fdc1630a88f07e285018e562f staging: rtl8723bs: replace NULL comparison with NOT operator
+fa093d85bd7f66c31edd97af0c98f37356f57cad staging: rtl8723bs: fix typo in rtw_pwrctrl.c
+0752f1f4dbee06a3b13f25bdb068840ad110d02f staging: rtl8723bs: remove blank line in rtw_btcoex.h
+e045a83f980a9c07461590041a65a28e784014c0 staging: rtl8723bs: add function definition arg names to rtw_btcoex.h
+b55686cb84a1733200c7647711f79edfe8f9486f staging: rtl8723bs: rename rtw_btcoex_MediaStatusNotify()
+5b7921d3859d0234240887f498be30709b1e1be6 staging: rtl8723bs: rename rtw_btcoex_media_status_notify definition arg
+c8e50e93c019904c950135da55d494a169fbf088 staging: rtl8723bs: rtw_btcoex_HaltNotify() -> rtw_btcoex_halt_notify()
+3018c9102689c957c686f0b3b7ba988dfe8a6693 staging: rtl8723bs: rename rtw_btcoex_RejectApAggregatedPacket()
+45b3b8bffa5a4f3d0331aa8c35671aeb7d323b2c staging: rtl8723bs: rtw_btcoex_LPS_Enter() -> rtw_btcoex_lps_enter()
+d845a187463e579eb0631cc927c73f72e41fe62b staging: rtl8723bs: rename rtw_btcoex_LPS_Leave to rtw_btcoex_lps_leave
+617a446d0e80ffe41189cc90ae462b4e9e956b8b staging: fbtft: remove unused function fbtft_write_gpio16_wr_latched
+1dd3d7febbba0c7c9162859fc5af63f982ec1fe2 staging: rtl8723bs: simplify NULL pointer comparisons in rtw_recv.h
+e5855f8a4728038bd3732092e2758653252213e3 staging: rtl8723bs: remove wrapper rtw_hal_disable_interrupt()
+52a6ca2c869304bd898e5147b3e68c858b31282f staging: rtl8723bs: rename DisableInterrupt8723BSdio() to snake_case
+1376b1880465a4b2dcc30d446dc3ec0ed47b5212 staging: rtl8723bs: remove unnecessary blank lines in rtw_ioctl_set.c
+c5a1b68c804ae1719c36b0a3b9cb91561d45c93d staging: rtl8723bs: drop blank line before close brace in rtw_ieee80211.c
+2e078c0a5c6a6d9892bef62a36387cbb683ba032 staging: rtl8723bs: fix block comment alignment in hal_pwr_seq.c
+1d14738fa178c023bd9877b119c4a8ec6dfb6c5f staging: rtl8723bs: core: simplify boolean comparisons
+577ae917d4afc1c934d2f7c29a886dc8cb19aceb staging: rtl8723bs: hal: simplify boolean comparisons
+fa74eafdceb722c7987fde7f9d2e74105987c73a staging: rtl8723bs: os_dep: simplify boolean comparisons
+367966fd02fc8e231b5a097ad2fb0ff49c4be6a2 staging: rtl8723bs: add spaces around bitwise OR operators
+866fb5a3ac41fbcc8e250981c0a28a293c850d2b staging: rtl8723bs: remove redundant braces for single-statement block
+d893a67a64250e4b6c8451ce69b129db3a2747b6 staging: rtl8723bs: move logical operators to previous line
+95f63d435590e1abeddedaf1c5a9b0768a0a1d99 staging: rtl8723bs: fix alignment of continued conditions
+b684a14b7198e79fcc8e432d5847b10f64952e74 staging: rtl8723bs: wrap lines exceeding 100 characters
+062d449caebb026bb608890e9febac1d83d0f230 staging: rtl8723bs: add braces to if/else arms in HalBtc8723b1Ant.c
+fd8b39b77613dcf2c5cd953be87ba397dc58e6f6 staging: rtl8723bs: fix unbalanced braces in if/else statements
+d4be72aad7dcd0a9ba96799e92171ca035d89d79 staging: rtl8723bs: rename ChipType of struct hal_version to snake_case
+6d168099f1b10d8046681040ccf2ad6fa9b8685d staging: rtl8723bs: replace type and rename the chip_type field
+4874c05c4732abb9ea70a371eac7dced1f0022f7 staging: rtl8723bs: remove unused macros from include/HalVerDef.h
+acca1dcd9f567562c143316012e3f018b5b9ed9b staging: rtl8723bs: remove unused ICType from struct hal_version
+6d9e3c5ac7279d82814a6b6ac0c6aeab489a74fa staging: rtl8723bs: remove unused VendorType from struct hal_version
+12a431a95d65c9d2ff3b38f3e1fcc1821a597446 staging: rtl8723bs: remove unused CUTVersion from struct hal_version
+faf9f114a82001fe3a4b38e4650f3bc203622ae0 staging: rtl8723bs: remove unused ROMVer from struct hal_version
+3778b29eaa1b5587b540b86daeb84d42c72d1697 staging: rtl8723bs: move normal_chip field to struct hal_com_data
+2e0ebca1c0103d2f8f54771e3caaa3caf9487dbd staging: rtl8723bs: remove struct hal_version from include/HalVerDef.h
+4917266aa30aba1eb28d7edc77449cacbf813487 staging: rtl8723bs: remove include/HalVerDef.h file
+e7a88f7e7aa1065c97d85bb151397d4b89671ee6 staging: rtl8723bs: Fix spelling mistakes in comments
+abd79fe84da72eb9e132f6d1ad1987b3f800930f staging: rtl8723bs: Remove unnecessary braces in rtl8723bs_xmit.c
+9669767409c66ff434a74c20bc1cbdf162779dd0 staging: rtl8723bs: Remove commented-out dead code in hal_btcoex.c
+81f55766523e5293604cb96c5e98d10da345ff33 staging: rtl8723bs: remove blank line after open brace in hal_com.c
 
---===============7821195220438512698==--
+--===============0037295995795670646==--
