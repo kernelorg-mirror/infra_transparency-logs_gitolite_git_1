@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Wed, 06 May 2026 13:26:23 -0000
-Message-Id: <177807398311.2714459.8455250190521254260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Wed, 06 May 2026 13:28:05 -0000
+Message-Id: <177807408541.2715459.10956843449841596836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-user: andrea
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/main
-    old: 38c45bdf669e935ea88d483c8745182a5e235bfb
-    new: ac9e53c9f77016ae62bbdd3e1392269175b39c33
-    log: |
-         ac9e53c9f77016ae62bbdd3e1392269175b39c33 Switch to triple_accel for restricted Damerau-Levenshtein
-         
+  - ref: refs/heads/rv_ha_fix
+    old: 0000000000000000000000000000000000000000
+    new: a30b420b45bc4ba2578e46da1547249716a138a7
