@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5269932578570447491=="
+Content-Type: multipart/mixed; boundary="===============4636727439326027410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 06 May 2026 06:55:21 -0000
-Message-Id: <177805052198.2240807.12180224005226429383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 06 May 2026 06:55:40 -0000
+Message-Id: <177805054033.2241382.14301239731922553929@gitolite.kernel.org>
 
---===============5269932578570447491==
+--===============4636727439326027410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
   - ref: refs/heads/master
-    old: e8429d363cdf2f7500aeb577c8ea1b24ba3c4c04
-    new: 9ac356e6e307b6f8aee54f53219e39c54eede927
-    log: revlist-e8429d363cdf-9ac356e6e307.txt
-  - ref: refs/heads/tip/urgent
-    old: 0b4e810ba24d63a1ddc4ff1a622862d53434ed94
-    new: d760f58b324cf60d2c949be683ae5888a0ac21d7
-    log: |
-         bd3c45dd01283ada23b0a388c578dcf5600deb8a timers/migration: Fix another hotplug activation race
-         878b26e8d12b0a6f6b664f51734a97fd17417b1e Merge branch into tip/master: 'perf/urgent'
-         c54ffa7496b93d53f17bead5100f5bd464ed9e84 Merge branch into tip/master: 'sched/urgent'
-         af278d45cd42ac76e5371edc65524f5902187694 Merge branch into tip/master: 'timers/urgent'
-         d760f58b324cf60d2c949be683ae5888a0ac21d7 Merge branch into tip/master: 'x86/urgent'
-         
+    old: 9207d47f966be9f4d52e7e0119ac2b7a7e366f3e
+    new: 74fe02ce122a6103f207d29fafc8b3a53de6abaf
+    log: revlist-9207d47f966b-74fe02ce122a.txt
 
---===============5269932578570447491==
+--===============4636727439326027410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8429d363cdf-9ac356e6e307.txt
+Content-Disposition: attachment; filename=revlist-9207d47f966b-74fe02ce122a.txt
 
-878b26e8d12b0a6f6b664f51734a97fd17417b1e Merge branch into tip/master: 'perf/urgent'
-c54ffa7496b93d53f17bead5100f5bd464ed9e84 Merge branch into tip/master: 'sched/urgent'
-af278d45cd42ac76e5371edc65524f5902187694 Merge branch into tip/master: 'timers/urgent'
-d760f58b324cf60d2c949be683ae5888a0ac21d7 Merge branch into tip/master: 'x86/urgent'
-91e6a4f3761bb9cd49824117671c0df8946a5c1b Merge branch into tip/master: 'irq/drivers'
-792bb44cb2b23f37d4d0825667a77c599b789892 Merge branch into tip/master: 'locking/core'
-cfdc7ff2dd18f3ab8e63b44d4f8dadfa3b10bcb5 Merge branch into tip/master: 'objtool/core'
-f561cace235dc1dd090a3e5be31444063b4612d0 Merge branch into tip/master: 'perf/core'
-e2f04e4a9cd5a83b41f817dcf1264431a2727c29 Merge branch into tip/master: 'sched/core'
-591a94b410c4f20481463389bd6287bb3dab842b Merge branch into tip/master: 'timers/clocksource'
-e92fe5c12de9ac8adf97abdbc4ddc5e82f622536 Merge branch into tip/master: 'timers/core'
-e1fef9c51a78bd0718b168993d41f0d72a075386 Merge branch into tip/master: 'x86/cleanups'
-d367cffe8a375ef84250366099447cec3ecdb105 Merge branch into tip/master: 'x86/cpu'
-76950a1296765b0851b90c497b482c4eb18e8b9e Merge branch into tip/master: 'x86/microcode'
-6053e840c4c60be81cb2ad227bbe8a56331a7394 Merge branch into tip/master: 'x86/misc'
-848eb650b592d5a62e4e12d86c9d116a3fa1bded Merge branch into tip/master: 'x86/sev'
-9ac356e6e307b6f8aee54f53219e39c54eede927 Merge branch into tip/master: 'x86/tdx'
+772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
+7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
+04631f55afc543d5431a2bdee7f6cc0f2c0debe7 scsi: mpt3sas: Limit NVMe request size to 2 MiB
+d65efdf467ff935e35dfe6aa9a7ab93f17ac07ee scsi: smartpqi: Silence a recursive lock warning
+68c3a65a5a8e85643745fdde02cb63904e165620 scsi: scsi_dh_alua: Increase default ALUA timeout to maximum spec value
+1dc39ed655750d6c679d3ada4adf4a937f2a63fc scsi: pmcraid: Fix typo in comments
+47e66bec3edaebd7c52d8ee981065a4c83b3072f scsi: hisi_sas: Fix sparse warnings in prep_ata_v3_hw()
+b06cf63d83d3b3744d3aefdd2f3ced25e99d7ec1 scsi: ufs: core: Fix bRefClkFreq write failure in HS-LSS mode
+2f3835771dff512750205aa5f5f61aec0f2b8cb7 scsi: target: iscsi: reject invalid size Extended CDB AHS
+98f69975d4c0434ca2e6e8cfa1d8d51647a20593 Merge branch '7.1/scsi-queue' into 7.1/scsi-fixes
+f1fb23a0a0fcbdb66672da51d7d63a259f6396ca fbdev: ipu-v3: clean up kernel-doc warnings
+0b996ae54d876b41c52dd7cfc512eb008a47d781 fbdev: defio: Remove duplicate include of linux/module.h
+d237f719b2726c0e6d62bfa1543f53b624471929 lib/fonts: Fix bit position when rotating by 180 degrees
+0de4cb473aed57ee4ba7e0551ad27bddc19fc519 workqueue: fix devm_alloc_workqueue() va_list misuse
+20e81c64c905bd765e69ef07920d2b1130dc79b6 workqueue: Annotate alloc_workqueue_va() with __printf(1, 0)
+8de779dc40d35d39fa07387b6f921eb11df0f511 fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free
+93618edf753838a727dbff63c7c291dee22d656b cgroup: Defer css percpu_ref kill on rmdir until cgroup is depopulated
+60f21a2649308bbd84919ba6656d5ccd660953cf cgroup, sched_ext: Include exiting tasks in cgroup iter
+ff9eda4ea906b1f02fc260ddc42d2d9bd736a49c sched_ext: Skip past-sched_ext_dead() tasks in scx_task_iter_next_locked()
+b34c82777a2c0648ee053595f4b290fd5249b093 sched_ext: idle: Recheck prev_cpu after narrowing allowed mask
+d8769544bde51b0ac980d10f8fe9f9fed6c95995 docs: cgroup-v1: Update charge-commit section
+13ad98eaabef611f042d49a9077be060ad03284d Merge tag 'fbdev-for-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+50fb0bcc9d7da23e0f0fd5359b4f9ceb0aa337d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+de95ad90fb19e4b7778a0c27115a4639c7c8b186 Merge tag 'sched_ext-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+11f00074f72a977274c64c100372764eb04e6a3f Merge tag 'cgroup-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+74fe02ce122a6103f207d29fafc8b3a53de6abaf Merge tag 'wq-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 
---===============5269932578570447491==--
+--===============4636727439326027410==--
