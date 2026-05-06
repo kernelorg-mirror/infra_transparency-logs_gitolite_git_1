@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9028718474197927514=="
+Content-Type: multipart/mixed; boundary="===============5094293644698807078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 May 2026 21:37:31 -0000
-Message-Id: <177810345133.3235954.2047205790225720507@gitolite.kernel.org>
+Date: Wed, 06 May 2026 21:37:33 -0000
+Message-Id: <177810345363.3236065.5741765777727537151@gitolite.kernel.org>
 
---===============9028718474197927514==
+--===============5094293644698807078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 95084f1883a760e0d4290698346759d58e2b944a
     new: b89e0100a5f6885f9748bbacc3f4e3bcff654e4c
     log: revlist-95084f1883a7-b89e0100a5f6.txt
 
---===============9028718474197927514==
+--===============5094293644698807078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ e0f229025a8e774a695017a376c4a01279c0e66e xsk: fix xsk_addrs slab leak on multi-b
 79240f3f6d766b342b57c32397d643e1cfa26b81 wifi: nl80211: re-check wiphy netns in nl80211_prepare_wdev_dump() continuation
 b89e0100a5f6885f9748bbacc3f4e3bcff654e4c Merge tag 'wireless-2026-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 
---===============9028718474197927514==--
+--===============5094293644698807078==--
