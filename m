@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2963300335759511173=="
+Content-Type: multipart/mixed; boundary="===============8068701150242932251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Wed, 06 May 2026 09:44:30 -0000
-Message-Id: <177806067073.2479148.1255450594123247874@gitolite.kernel.org>
+Date: Wed, 06 May 2026 09:45:19 -0000
+Message-Id: <177806071954.2482145.1993617671497883213@gitolite.kernel.org>
 
---===============2963300335759511173==
+--===============8068701150242932251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 51ab33fc0a8bef9454849371ef897a1241911b37
+  - ref: refs/heads/for-next
+    old: 712c0756828becbfc629ff8d8b82deff5d1115e4
     new: d3d9443f8bac799340bb04db51ef4ababc4f7267
-    log: revlist-51ab33fc0a8b-d3d9443f8bac.txt
+    log: revlist-712c0756828b-d3d9443f8bac.txt
 
---===============2963300335759511173==
+--===============8068701150242932251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51ab33fc0a8b-d3d9443f8bac.txt
+Content-Disposition: attachment; filename=revlist-712c0756828b-d3d9443f8bac.txt
 
 63584d76765bb3e212f70c4c3951ea785fabef1b hfsplus: fix logic of alloc/free b-tree node
 732af3aa6337fd56025c0548a9e54d6231052144 hfsplus: rework logic of map nodes creation in xattr b-tree
@@ -1051,4 +1051,4 @@ f0bf3eac92b2be5f34b944cb82f1c23db642c7f5 Merge tag 'vfio-v7.1-rc1' of https://gi
 090748e62f57a80286b2fcc32fe2be069f891200 Merge tag 'm68k-for-v7.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 d3d9443f8bac799340bb04db51ef4ababc4f7267 Merge tag 'livepatching-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============2963300335759511173==--
+--===============8068701150242932251==--
