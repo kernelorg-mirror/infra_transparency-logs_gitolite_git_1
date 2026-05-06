@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Wed, 06 May 2026 11:36:41 -0000
-Message-Id: <177806740134.2601483.365903845561918843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Wed, 06 May 2026 11:38:17 -0000
+Message-Id: <177806749735.2602562.9767963160566135968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/for-next
-    old: 49a2a555a14920a1c9e3175c6ebb7d65eb06cf34
-    new: 90d083b05f057c3107a7344f652d3a1ae1a2536e
+  - ref: refs/heads/ntfs-next
+    old: aa0c3a1269d214a3791ddcbb67740991716ab365
+    new: 9d3d8fc62d4f2a35ae72b6544bfd35a1860fd3c5
     log: |
-         90d083b05f057c3107a7344f652d3a1ae1a2536e arm64: dts: socfpga: agilex5: update data-width for dmac
+         53b50ad042556512f3b04a05cae70be83ce54fa5 ntfs: fix variable dereferenced before check ni in ntfs_attr_add()
+         9d3d8fc62d4f2a35ae72b6544bfd35a1860fd3c5 ntfs: fix variable dereferenced before check ni in ntfs_attr_open()
          
