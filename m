@@ -1,94 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============0649491518872107330=="
+Content-Type: multipart/mixed; boundary="===============8364891305354374134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 May 2026 21:37:35 -0000
-Message-Id: <177810345596.3236156.9575683676395413857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Wed, 06 May 2026 21:39:08 -0000
+Message-Id: <177810354857.3237264.2917816404185007141@gitolite.kernel.org>
 
---===============0649491518872107330==
+--===============8364891305354374134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/200GbE
-    old: 95084f1883a760e0d4290698346759d58e2b944a
-    new: b89e0100a5f6885f9748bbacc3f4e3bcff654e4c
-    log: revlist-95084f1883a7-b89e0100a5f6.txt
+  - ref: refs/heads/driver-lifetime
+    old: becba7355d1c6a73c9476443b975d29e4818fb42
+    new: 1185445aa045cbbffb6393e6b0355d581655f11f
+    log: revlist-becba7355d1c-1185445aa045.txt
 
---===============0649491518872107330==
+--===============8364891305354374134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95084f1883a7-b89e0100a5f6.txt
+Content-Disposition: attachment; filename=revlist-becba7355d1c-1185445aa045.txt
 
-4a1b534177395627579c1fb9e7f9100ee88955dd wifi: ath12k: prepare REO update element only for primary link
-f3ba9e05cc7b65f41f58bb4808f6c3a8f7894bb1 wifi: ath12k: fix OF node refcount imbalance in WSI graph traversal
-c4b6ad0e14f5df942eed5ebadaff84b468bd2496 wifi: ath10k: snoc: select POWER_SEQUENCING
-4498664e2d5888efabb96428196a926acdaa25ed wifi: ath12k: use lockdep_assert_in_rcu_read_lock() for RCU assertions
-711a9c018ad252b2807f85d44e1267b595644f9b wifi: mac80211: skip ieee80211_verify_sta_ht_mcs_support check in non-strict mode
-c623b63580880cc742255eaed3d79804c1b91143 wifi: brcmfmac: Fix potential use-after-free issue when stopping watchdog task
-1f4f78bf8549e6ac4f04fba4176854f3a6e0c332 wifi: b43: enforce bounds check on firmware key index in b43_rx()
-a035766f970bde2d4298346a31a80685be5c0205 wifi: b43legacy: enforce bounds check on firmware key index in RX path
-3994b4afd521d60e47e012fe2ed7b606aaec370b wifi: libertas: fix integer underflow in process_cmdrequest()
-381cd547bc6e35a610c5dfebe554d891eea40f03 wifi: nl80211: require admin perm on SET_PMK / DEL_PMK
-9b55d5c1f5e481e391957f9096d798ca331c461b wifi: mac80211: check ieee80211_rx_data_set_link return in pubsta MLO path
-7a5b81e0c87a075afd572f659d8eb68c9c4cd2ba wifi: mac80211: drop stray 'static' from fast-RX rx_result
-db57a1aa54ff68669781976e4edb045e09e2b65b wifi: rsi: fix kthread lifetime race between self-exit and external-stop
-d997c32157d2ca06e9f3f00ba6c4bf06593b49e7 Merge tag 'ath-current-20260427' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-0cfff13c94cb5fa818bb374945ff280e08dc1bb9 wifi: mac80211: tests: mark HT check strict
-65493f27a6008bf84bd11bd41c5e1ea6b0bf3c3d wifi: cw1200: Revert "Fix locking in error paths"
-05c5078de822148e7cb84968a8783ddfcb6c9ef1 wifi: ath12k: fix leak in some ath12k_wmi_xxx() functions
-81594a12d5cecb3ab35b603a00037c7c3ee87ab2 wifi: ath12k: initialize RSSI dBm conversion event state
-0e1308803d2c3fd365a6d21e6be355ec1e28eaaf wifi: ath12k: fix peer_id usage in normal RX path
-d748603f12baff112caa3ab7d39f50100f010dbd wifi: ath5k: do not access array OOB
-afbd961305eb483515650ccfcb7743608e7add78 ipvs: fixes for the new ip_vs_status info
-f2da9a96abb4b7a64626e931cedd85f05d5498ca ipvs: fix races around the conn_lfactor and svc_lfactor sysctl vars
-d493d9de1c21313cf62be0f6e1a4d48385fa7beb ipvs: fix the spin_lock usage for RT build
-fbe1e01e818ee6db86ff947599bf0bea96de7e71 ipvs: do not leak dest after get from dest trash
-2fd109238925d53c44ea409df0558844af7877b8 ipvs: fix races around est_mutex and est_cpulist
-4ee52b7021a7cb9356f8b9aff5631c68512a9e1b ipvs: fix shift-out-of-bounds in ip_vs_rht_desired_size
-aa6065206987278291c09d0c6aebed687114c925 ipvs: Guard access of HK_TYPE_KTHREAD cpumask with RCU
-8f78b749f3da0f43990490b4c1193b5ede3eec0a sched/isolation: Make HK_TYPE_KTHREAD an alias of HK_TYPE_DOMAIN
-4a142520d166f91627f27a7017525a228137c808 wifi: libertas: notify firmware load wait on disconnect
-714ae274e869e197fef21c037156fe6e37ce9e7a Merge tag 'ath-current-20260505' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-ac8eb3e18f41e2cc8492cc1d358bcb786c850270 wifi: mac80211: use safe list iteration in radar detect work
-901a7d9e2f280a9e76e6c58406a519cb11ad5ff8 ipv6: default IPV6_SIT to m
-5ad509c1fdad4bf0993b72d1b3d462f036d8a0d8 ipv6: Fix null-ptr-deref in fib6_mtu().
-07f44433355f70fa97d4c44b4c0d2e86adc082fb bnxt_en: Delay for 5 seconds after AER DPC for all chips
-54c28fab2fa5afd681c9c4b10f4f6da1efdd397a bnxt_en: Set bp->max_tpa according to what the FW supports
-16517bc98a56004274472cc9949194cb4d2ad0b7 bnxt_en: Check return value of bnxt_hwrm_vnic_cfg
-bd279e104e5f5400307d56116a36756b35ab345a bnxt_en: Use absolute target ns from ptp_clock_request
-561a22d979a42f8c58f7757145e06d30bc2fa4ae Merge branch 'bnxt_en-bug-fixes'
-40aa9fcea0721f5b885eec2fb9aa526145e83797 Merge tag 'nf-26-05-05' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-f83e07b29246f468bc7c99f98ca1897843fa8167 net/sched: sch_fq_codel: annotate data-races from fq_codel_dump_class_stats()
-0e7c074cfcd9bd93765505f9eb8b42f03ed2a744 net: wwan: t7xx: validate port_count against message length in t7xx_port_enum_msg_handler
-ae9582cd0b9ccc4a121af300df68fd27f72e9822 net/mlx5e: psp: Fix invalid access on PSP dev registration fail
-50690733db59fbb3de9fa811b606af324eeb4e37 net/mlx5e: psp: Expose only a fully initialized priv->psp
-c4a5c46199b5addf0157934da3aa89c33eb02a6d net/mlx5e: psp: Hook PSP dev reg/unreg to profile enable/disable
-af0e9b26b9667d765d71a7f53b7ed242eb1ba671 Merge branch 'net-mlx5e-psp-fixes'
-3abcedfdfd3125431ed404fa75724118beac630b net/mlx5: SD: Serialize init/cleanup
-05217e4ffbb229e7218cf318e0033780abadb624 net/mlx5: SD, Keep multi-pf debugfs entries on primary
-3564222cfdde83a2d760b80192155a3ada1c9bdd net/mlx5e: SD, Fix missing cleanup on probe error
-d466ddda5500b6b8ae060909d2317811f2c32a6a net/mlx5e: SD, Fix race condition in secondary device probe/remove
-22675f07260ca26423851a42b553b0ea669228d1 Merge branch 'net-mlx5-fixes-for-socket-direct'
-d73a9a63f9f7f7c17637731fd28daf3665992d1e xsk: reject sw-csum UMEM binding to IFF_TX_SKB_NO_LINEAR devices
-0bb7a9caf5c1d6e25ba376ea6b39261ad28550f4 xsk: free the skb when hitting the upper bound MAX_SKB_FRAGS
-8cd3c1c6e7d9a1f0954159ec5f2fdaa7f6a48bd8 xsk: handle NULL dereference of the skb without frags issue
-0f3776583d282550dbafe6082a914efcf9094d59 xsk: fix use-after-free of xs->skb in xsk_build_skb() free_err path
-3dec153ae484e3b2ddac841156e197ba54c8df94 xsk: prevent CQ desync when freeing half-built skbs in xsk_build_skb()
-8c2cff50afdd2b53c7cc2ca2297301c0ffd3e802 xsk: avoid skb leak in XDP_TX_METADATA case
-e0f229025a8e774a695017a376c4a01279c0e66e xsk: fix xsk_addrs slab leak on multi-buffer error path
-203cee647f551abc87b992045cd920b117ff990a xsk: fix u64 descriptor address truncation on 32-bit architectures
-3e8ec3440b3731576f0e71a01121445e66c26bfd Merge branch 'xsk-fix-bugs-around-xsk-skb-allocation'
-283fc9e44ff5b5ac967439b4951b80bd4299f4e4 wifi: mac80211: remove station if connection prep fails
-0f3c0a197309717d74729568f88957d448847937 wifi: nl80211: fix NL80211_PMSR_FTM_REQ_ATTR_FTMS_PER_BURST usage
-15994bb0cbb8fc4879da7552ddd08c1896261c39 wifi: nl80211: require CAP_NET_ADMIN over the target netns in SET_WIPHY_NETNS
-79240f3f6d766b342b57c32397d643e1cfa26b81 wifi: nl80211: re-check wiphy netns in nl80211_prepare_wdev_dump() continuation
-b89e0100a5f6885f9748bbacc3f4e3bcff654e4c Merge tag 'wireless-2026-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+2690d071584ed8f488f2336f93272817b6999484 rust: ACPI: fix missing match data for PRP0001
+c9447f101315bcec9b6603de0be59ca0e6b8b505 Documentation: update deferred_probe_timeout cmdline parameter documentation
+e9506871a8ea304cde48ff4a57226df2aadddae3 driver core: use READ_ONCE() for dev->driver in dev_has_sync_state()
+9db268212e0d7c7e3c4aef3494e55afbc1695b1f driver core: move dev_has_sync_state() to drivers/base/base.h
+580a795105dae2ef1622df72a27a8fb0605e2f6b driver core: faux: fix root device registration
+1a262c768f5b5a1ebbdec8cfa588f75d3a825a8d driver core: faux: clean up init error handling
+36f35b8df6972167102a1c3d4361e0afb6a84534 driver core: reject devices with unregistered buses
+627e28455578d2faef6552cd15d241b20e27e423 driver core: class: fix typo in struct class documentation
+30c878ed169983190f77940594f8ba8948debe6b isa: switch to dynamic root device
+4694a7b91a3009c1d54aa9eb290592790bd5dc4a rust: alloc: add Box::zeroed()
+1b255a8cc09789636554cd832907cd1645ed77fc rust: auxiliary: add registration data to auxiliary devices
+dbee52e2531b84a28e735b8913d555e2a4f796d3 rust: driver core: remove drvdata() and driver_type
+0f1284cb41fc7b54c0baa04b22070f1fc2e3d398 rust: driver core: drop drvdata before devres release
+e8207cb4f9c2297d12862e9deb4291adaff5be45 rust: types: add `ForLt` trait for higher-ranked lifetime support
+3b6a0eaa4036e66e6c75a763ed9966f1f2bf91d4 rust: device: generalize drvdata methods over ForLt
+6cf295e47c760d3a5c0c0612c37a3229fbda2eb6 rust: driver: make Adapter trait lifetime-parameterized
+43ed0e7cf3cf1eccf3fed250381d280dd57f8c84 rust: pci: implement Sync for Device<Bound>
+83070c89443f40ca3cfb4e764d1cf8199d41f0d1 rust: platform: implement Sync for Device<Bound>
+ef88687d88c3234399a31d640889564b5fdb3235 rust: auxiliary: implement Sync for Device<Bound>
+32a4f790f8c2adaa7c90f92cdb5624b49caf5bdf rust: usb: implement Sync for Device<Bound>
+d6bc619b2f9bb6dd6de1fec91ca9075bcd1dcc7a rust: device: implement Sync for Device<Bound>
+b1c40ec0415f3a6a062663ad05f180cc63434cab rust: pci: make Driver trait lifetime-parameterized
+95474c59b341eff8250d09c21853e6db1ae247df rust: platform: make Driver trait lifetime-parameterized
+9ac24162b73b6fe1d6a30017e768693e93d0ba8e rust: auxiliary: make Driver trait lifetime-parameterized
+8c6d384ba8d7e71b5d53bad523ed4c98cff39635 rust: auxiliary: generalize Registration over ForLt
+0a4e6da1a4b7a621149a990a16d01acfe0d6991a samples: rust: rust_driver_auxiliary: showcase lifetime-bound registration data
+4da5f71e7393f50f1cd8111eb736c07113e33708 rust: usb: make Driver trait lifetime-parameterized
+e663dbe08c78abc718c04a6828618da9f32447f3 rust: i2c: make Driver trait lifetime-parameterized
+98327132edfed7fd1738d166ab92cd9bb3f89489 rust: pci: make Bar lifetime-parameterized
+30a320e34e23394ddd4d043c07188d689d2f7baa rust: io: make IoMem and ExclusiveIoMem lifetime-parameterized
+581fcd20f9fb3d4958ac3629e2a5d9c0ad84f33f samples: rust: rust_driver_pci: use HRT lifetime for Bar
+4c1b80025bae4ec75b6e36ac02e9148d5be53137 rust: driver-core: rename 'a lifetime to 'bound
+e93d283840f95135ad55edd93ebc5250121bd977 gpu: nova-core: rename 'a lifetime to 'bound
+0579054b131dd636401b792b5766003fa8c8c6f6 gpu: nova-core: use HRT lifetime for Bar
+d92383c6bdf9dff1ecafea302844083d7e192034 gpu: nova-core: unregister sysmem flush page from Drop
+a559eddc7137cf9bcd735b5279a6e076fdec3282 gpu: nova-core: replace ARef<Device> with &'bound Device in SysmemFlush
+8baee2e08e0698e4ea60a07bb51a6c67762c0432 gpu: drm: tyr: use HRT lifetime for IoMem
+d99d43422d7efdd0587be1c2f5a054f85c7f8f72 rust: devres: add DevresLt for ForLt-aware device resource access
+fb5cb752b37dd4caf5b8af178bf2d5bdffe670bc rust: pci: return DevresLt from Bar::into_devres()
+1185445aa045cbbffb6393e6b0355d581655f11f rust: io: mem: return DevresLt from IoMem/ExclusiveIoMem::into_devres()
 
---===============0649491518872107330==--
+--===============8364891305354374134==--
