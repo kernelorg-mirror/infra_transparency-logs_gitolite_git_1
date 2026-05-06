@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2103777040534943726=="
+Content-Type: multipart/mixed; boundary="===============8896016574593799709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 06 May 2026 21:50:42 -0000
-Message-Id: <177810424211.3251726.5940427010193698210@gitolite.kernel.org>
+Date: Wed, 06 May 2026 21:50:44 -0000
+Message-Id: <177810424453.3251951.184237925913744119@gitolite.kernel.org>
 
---===============2103777040534943726==
+--===============8896016574593799709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8c699be3dad7bba87cdda485dc099226cfc2f706
     new: 2281958e60079e063bd6e9e5e46e8786a9853ea8
     log: revlist-8c699be3dad7-2281958e6007.txt
 
---===============2103777040534943726==
+--===============8896016574593799709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -140,4 +140,4 @@ fcc5432df6b5532d8d555f9c185cf0f44d8bb7df wifi: mac80211_hwsim: claim HT STBC cap
 89e367a90c1a877ca9c5d75d3848582d80fd0e60 wifi: mac80211: explicitly disable FTM responder on AP stop
 2281958e60079e063bd6e9e5e46e8786a9853ea8 Merge tag 'wireless-next-2026-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 
---===============2103777040534943726==--
+--===============8896016574593799709==--
