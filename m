@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 06 May 2026 20:29:15 -0000
-Message-Id: <177809935518.3160514.1869313063756948811@gitolite.kernel.org>
+Date: Wed, 06 May 2026 20:29:19 -0000
+Message-Id: <177809935918.3160724.14822551991569871969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.19.13/nfsd-testing-canary
-    old: 570f6a3dfd0967baa14c2522e00e20b92e4892ff
-    new: 3ed884350054d8f4be363bc21ad70921b9f05701
+  - ref: refs/heads/kernel-6.19.14/changelog
+    old: 6c6b7cd6288db30c329d90da8fe541e4a19a994f
+    new: e46cdd0690ea6aeaf80a334f41b254bad47fa652
     log: |
-         3ed884350054d8f4be363bc21ad70921b9f05701 svcrdma: bound per-xprt sc_send_ctxts cache and apply backpressure on _get
+         e46cdd0690ea6aeaf80a334f41b254bad47fa652 kernel-6.19.14-2
          
