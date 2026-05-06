@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Wed, 06 May 2026 15:55:40 -0000
-Message-Id: <177808294018.2877144.14075719332891208582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 06 May 2026 15:57:56 -0000
+Message-Id: <177808307692.2878632.12617720741679517094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/rv_ha_fix
-    old: a30b420b45bc4ba2578e46da1547249716a138a7
-    new: 93f72bc3acaf8a2cc6e8bad23ffa004457993a41
+  - ref: refs/heads/scx-proxy-exec
+    old: 3b7e45707e97145616cf649bc451d688a2baaff5
+    new: 51848315e6a22f266592c98ffa6cf46854d26354
     log: |
-         e38c00056108a9c4b45c7e81444f293523a0d907 rv: Ensure synchronous cleanup for HA monitors
-         88deed5676cf6a2f7df086eb6669a555b4d7752f rv: Schedule synchronous cleanup on per-obj deallocation
-         31388d905d4ef88f533784de1dbb4c79227ad382 rv: Mandate deallocation for per-obj monitors
-         93f72bc3acaf8a2cc6e8bad23ffa004457993a41 rv: Add automatic cleanup handlers for per-task HA monitors
+         311cb82ea8f3245ae6285255ee63cee8b6ddef4b sched/ext: Avoid migrating blocked tasks with proxy execution
+         1db33dd80c536d6b3936db69c4457aeea0262485 sched_ext: Fix TOCTOU race in consume_remote_task()
+         4e38607c99967d9a4e1d5a4eafdcc82d7382b101 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+         e53d5dc0d93652aed840ceaf2e9b54e0b06c7753 sched_ext: Save/restore kf_tasks[] when task ops nest
+         189fbaa44e15d5ee0b0f258fba7fafcc85a6aac3 sched_ext: Skip ops.runnable() when nested in SCX_CALL_OP_TASK
+         60adaf5330bdb1c7fc7ed728fa6444fca21c182b sched/core: Disable proxy-exec context switch under sched_ext by default
+         51848315e6a22f266592c98ffa6cf46854d26354 sched: Allow enabling proxy exec with sched_ext
          
