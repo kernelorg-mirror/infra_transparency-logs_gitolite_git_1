@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 06 May 2026 10:50:44 -0000
-Message-Id: <177806464483.2550260.12363437253660632422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 06 May 2026 10:54:44 -0000
+Message-Id: <177806488440.2552397.1306722053251351601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/io_uring-reg-buffers
-    old: 76cd0a94b24f131231e6c80a567077a76d9e730a
-    new: 90f22c16e71724a783606f3d1c7acf308154f2c4
+  - ref: refs/heads/master
+    old: aedc7c73b9e0e09382cfd376f000635d1fef1a4f
+    new: be02fd3824a64fb8f2dc82e6f863e397a513eeff
     log: |
-         90f22c16e71724a783606f3d1c7acf308154f2c4 io_uring/rsrc: raise registered buffer 1GB limit
+         f16e58c1cb5ccc7105c3b05afe386cb01826f080 tests: (flock) adjust commands to better track test coverage
+         be02fd3824a64fb8f2dc82e6f863e397a513eeff Merge branch 'flock' of https://github.com/cgoesche/util-linux-fork
          
