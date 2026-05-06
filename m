@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 06 May 2026 02:16:34 -0000
-Message-Id: <177803379448.1955473.3888411997836344788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 06 May 2026 02:20:16 -0000
+Message-Id: <177803401644.1959914.1644766048758802257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-7.1
-    old: 168e4b208ca8c2e04de20cc6cb7e2fb035dc1ec8
-    new: 525cb7ba6661074c1c5cc3772bccc6afab6791ef
+  - ref: refs/heads/main
+    old: af0e9b26b9667d765d71a7f53b7ed242eb1ba671
+    new: 22675f07260ca26423851a42b553b0ea669228d1
     log: |
-         525cb7ba6661074c1c5cc3772bccc6afab6791ef platform/chrome: cros_ec_typec: Init mutex in Thunderbolt registration
-         
-  - ref: refs/heads/for-next
-    old: 0fd0fea2525d979c6de4ae546ac2ea1801849ae5
-    new: a1d39fce42f6a6075615aea138065dff65723629
-    log: |
-         525cb7ba6661074c1c5cc3772bccc6afab6791ef platform/chrome: cros_ec_typec: Init mutex in Thunderbolt registration
-         a1d39fce42f6a6075615aea138065dff65723629 Merge branch 'for-7.1' into for-next
+         3abcedfdfd3125431ed404fa75724118beac630b net/mlx5: SD: Serialize init/cleanup
+         05217e4ffbb229e7218cf318e0033780abadb624 net/mlx5: SD, Keep multi-pf debugfs entries on primary
+         3564222cfdde83a2d760b80192155a3ada1c9bdd net/mlx5e: SD, Fix missing cleanup on probe error
+         d466ddda5500b6b8ae060909d2317811f2c32a6a net/mlx5e: SD, Fix race condition in secondary device probe/remove
+         22675f07260ca26423851a42b553b0ea669228d1 Merge branch 'net-mlx5-fixes-for-socket-direct'
          
