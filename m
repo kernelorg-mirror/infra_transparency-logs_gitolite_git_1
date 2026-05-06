@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1452719761258166723=="
+Content-Type: multipart/mixed; boundary="===============0782928758210669152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 06 May 2026 08:21:44 -0000
-Message-Id: <177805570416.2394482.16268323424761103118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
+Date: Wed, 06 May 2026 08:22:13 -0000
+Message-Id: <177805573354.2394945.12133183460487527955@gitolite.kernel.org>
 
---===============1452719761258166723==
+--===============0782928758210669152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/peter.chen/cix
+user: peter.chen
 changes:
-  - ref: refs/heads/next
-    old: 971f3474f8898ae8bbab19a9b547819a5e6fbcf1
+  - ref: refs/heads/cix/dt
+    old: 64b00da69ef6e2cb113868c3ecdccd9bbc1fc91d
     new: 7fd2df204f342fc17d1a0bfcd474b24232fb0f32
-    log: revlist-971f3474f889-7fd2df204f34.txt
+    log: revlist-64b00da69ef6-7fd2df204f34.txt
 
---===============1452719761258166723==
+--===============0782928758210669152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-971f3474f889-7fd2df204f34.txt
+Content-Disposition: attachment; filename=revlist-64b00da69ef6-7fd2df204f34.txt
 
 e2e0b826d37419536b91b25fa51ecc0565d27726 userfaultfd: introduce mfill_establish_pmd() helper
 b8c03b7f4558219ca09693b5fa4f5e068041d2c2 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
@@ -1051,4 +1051,4 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 
---===============1452719761258166723==--
+--===============0782928758210669152==--
