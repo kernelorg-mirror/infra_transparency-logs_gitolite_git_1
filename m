@@ -1,52 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============1123776787309518408=="
+Content-Type: multipart/mixed; boundary="===============6045596581748340371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 06 May 2026 13:52:25 -0000
-Message-Id: <177807554518.2740614.836993600227701137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 06 May 2026 13:52:44 -0000
+Message-Id: <177807556435.2740982.3201640936381905276@gitolite.kernel.org>
 
---===============1123776787309518408==
+--===============6045596581748340371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 027ef9a9297c6ae8be11681e0fa485c1829d0572
-    new: 5776bcdf4dccac8edc1160482792b512da5c08b4
+  - ref: refs/heads/for-7.2
+    old: fe5b168884917e33e6727427e5e048d0de8ab73c
+    new: 36645381b864b53ae976221854bbfc23da6abba3
     log: |
-         bee87cf0f1248c0f20710d7a79df41fe892d9f88 ASoC: cs35l56: Don't use devres to unregister component
-         fd4d83e1437d6395021b21531e187c8a67ac21b0 ASoC: cs35l56: Destroy workqueue in probe error path
-         5776bcdf4dccac8edc1160482792b512da5c08b4 ASoC: cs35l56: Fixes for driver cleanup
+         5f1752afb464a82bdc372281ed7313aa4663b269 ASoC: nau8825: Fix typos in comments
+         087623676248f5f91c5a592870369a2fe856b0b9 ASoC: arm: pxa2xx: remove platform_data processing
+         a11fbb793ab4843549840571036bf042897d3a76 ASoC: pxa2xx: push gpio usage into arch code
+         42f67e1d1cba52d22291d18f85d34bb5cf61c7d2 ASoC: pxa: integrate sound/arm/pxa2xx into sound/soc/pxa2xx
+         36645381b864b53ae976221854bbfc23da6abba3 ASoC: tegra: Add per-stream Mixer Fade controls
          
 
---===============1123776787309518408==
+--===============6045596581748340371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778075543 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1778075542-fde3ac55a389e7cec3e9e95f97c9066cd50320ef
+pusher C3F436CA30F5D8EB 1778075562 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1778075562-8636eebe203c8fa04163427680cdc7757eb935a9
 
-027ef9a9297c6ae8be11681e0fa485c1829d0572 5776bcdf4dccac8edc1160482792b512da5c08b4 refs/heads/asoc-7.1
+fe5b168884917e33e6727427e5e048d0de8ab73c 36645381b864b53ae976221854bbfc23da6abba3 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn7R5cACgkQJNaLcl1U
-h9DUOAf/epC0sc60ri0tQs6H/C9rm7+e6lMzwkVWYlQQahQ8YUFmkvAghfL35Xz8
-k7wZpKUAjAMmEfqzfGpzGrhRVa/YvLurjqL6RjvqlL/lwvuTGFmfF7BRwNZmtAz/
-9F8Z+K6VXp1aEy3mNIzmQJFVzrztlVjjfMmQ1sOar9eAQVuwFWgcXIiOKYAC7APn
-iHMoKa1XB7oEOR0fwfN7jzmNApqOSpHFnW0X65mDW5qKwXdZl1/yopF+zIHCvyso
-iY11L7Agqz4ZmaxhwJQL5hNJm9j3YTHhda2rz7H8KtWiVOzRlGDQn/lUWWqQUmQh
-bLsSXAhipQV7tThA49N3te3o7HO8fA==
-=Y6uv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn7R6oACgkQJNaLcl1U
+h9BC+wf/Qs3U8VbZ+nZLLc8yceuYCzKlvAyzeavkAB3dmI2bp7UrE9MiLaTDbfxh
+196P5HsB7LXudRDAX3exIyx0+yXVPL8ks9V4pKu+scLbOludxpkrhcMeG8cCUHgP
+z91RDv2KAe88E3sK9W2xw9omLfx9fQ7v9E6HYfJxrcdw4x69H0GgxTiw6ujtJ74l
+/cnEN6rRD4C0xodq5c7R4FjKBB99NRlo8jcO3nISd+OIX1GQsccSLaQQOK9/gS67
+xrAZByxhoqKmsO4CuDJOThhdr2Gxziu5dtw5mdbM72RDRriYaIeU2Dq0lMQuXSfz
+kBOZMOlY77QREqq198QGzxiITEcvoQ==
+=ccgZ
 -----END PGP SIGNATURE-----
 
---===============1123776787309518408==--
+--===============6045596581748340371==--
