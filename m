@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 06 May 2026 13:25:39 -0000
-Message-Id: <177807393928.2713617.9071444861687657973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Wed, 06 May 2026 13:26:23 -0000
+Message-Id: <177807398311.2714459.8455250190521254260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/watchdog-next
-    old: c5b473e381d3c72dc5325c9218544951e7769746
-    new: 49cd801127333f9aa2289fdd85b304a654ebbe2c
+  - ref: refs/heads/main
+    old: 38c45bdf669e935ea88d483c8745182a5e235bfb
+    new: ac9e53c9f77016ae62bbdd3e1392269175b39c33
     log: |
-         49cd801127333f9aa2289fdd85b304a654ebbe2c watchdog: convert the Kconfig dependency on OF_GPIO to OF
+         ac9e53c9f77016ae62bbdd3e1392269175b39c33 Switch to triple_accel for restricted Damerau-Levenshtein
          
