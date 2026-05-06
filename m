@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5059662786481743221=="
+Content-Type: multipart/mixed; boundary="===============5605315993575695893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 06 May 2026 13:53:18 -0000
-Message-Id: <177807559885.2741741.16019374412224210278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 06 May 2026 13:53:26 -0000
+Message-Id: <177807560665.2742022.18418985226877739741@gitolite.kernel.org>
 
---===============5059662786481743221==
+--===============5605315993575695893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/regulator-7.1
     old: 7dfc0063022078a80fe5774815723c185e4b7b57
     new: 628497e6d925d43efb56e3ffecef0a9d217926b3
     log: revlist-7dfc00630220-628497e6d925.txt
 
---===============5059662786481743221==
+--===============5605315993575695893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778075597 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1778075595-b51ec219b9801ac663c4f604ad02c3181dc62911
+pusher C3F436CA30F5D8EB 1778075604 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1778075602-947fb075bbd3ef6e47791b3889583bab1351cc7d
 
-7dfc0063022078a80fe5774815723c185e4b7b57 628497e6d925d43efb56e3ffecef0a9d217926b3 refs/heads/for-7.1
+7dfc0063022078a80fe5774815723c185e4b7b57 628497e6d925d43efb56e3ffecef0a9d217926b3 refs/heads/regulator-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn7R80ACgkQJNaLcl1U
-h9CS9gf9GtQ4uvvenyi2ej0ckGPnG900OXxizGVQSyWBlGPSGrKZ73tvXLilqjm+
-UPoMkPEAXq1/A9rLIHQAxov46tQ2XikLXNEsqgMEbrhgZDIVgMRRBqLjEWduNNUq
-SHdWqutmlDmCyc4IgQdfbWdq5DfMwg6IQnweGE5moKs4ihDb9DjuPnOmB6vWF/ws
-1SIQc0MHALmuhxkeYOWZX5GEWc81zaRgA2ulg9FHZu9ZZXiZh2+cPSEINr/+0X4k
-xlSKLEaVJYOy5Iae+EDGmL8++gR4TSxsqUYjfla6A1p7+CaRzHjOHj/TWXdG2/JV
-jd91efl2vk2463IxVKCMFDqeLmnrGg==
-=+jbA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn7R9QACgkQJNaLcl1U
+h9CVlAf/ZK10dIHZemyoWzJnoPH874pkGEYh1j0DfjzSV0FKZBpW34kIdjzMRi/0
+NuOmyGGz41ahMv7g5X9d20S+xRKvdqaEFiJLtIQAXoI60VGxTCzHI99HfrU+VRgq
+zs5ydnEaJIx35L1YOZVRGCuBaCt7pFZGpnCyXbNuK9Wk4uU0cEbSsyhSkpk2bX/V
+ApcHH5CYdl0wd5lpPDKSxpNMkXKQWAPpelJukiZPH3c2QK38a7MORGm772OyYYmP
+duoc97+p+5ZiOIxKQYnZk1iikFj9+C7rJzUQIs1J4GO+1aJjNVORiqlpvK8GPzoX
+cUd+mIZe2Y/w91b6bPmz6W/5Wja8oQ==
+=SpYw
 -----END PGP SIGNATURE-----
 
---===============5059662786481743221==
+--===============5605315993575695893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -527,4 +527,4 @@ f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://g
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 628497e6d925d43efb56e3ffecef0a9d217926b3 regulator: qcom-rpmh: Fix index for pmh0101 ldo16
 
---===============5059662786481743221==--
+--===============5605315993575695893==--
