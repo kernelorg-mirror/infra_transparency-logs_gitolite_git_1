@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 06 May 2026 11:17:09 -0000
-Message-Id: <177806622946.2578258.16954432712261661192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 06 May 2026 11:19:30 -0000
+Message-Id: <177806637025.2579753.6433062507170839017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 030e8a40fff65ca6ac1c04a4d3c08afe72438922
-    new: 5cbb61bf4168859d97c068d88d364f4f1f440325
+  - ref: refs/heads/features
+    old: 58d50cad63e85daae032924ecc3d457fb1ec02fb
+    new: 1f5ea7ade1bfb315ddec17814be31d21bfa28bc3
     log: |
-         5cbb61bf4168859d97c068d88d364f4f1f440325 arm64/fpsimd: ptrace: zero target's fpsimd_state, not the tracer's
-         
-  - ref: refs/heads/for-next/fixes
-    old: 030e8a40fff65ca6ac1c04a4d3c08afe72438922
-    new: 5cbb61bf4168859d97c068d88d364f4f1f440325
-    log: |
-         5cbb61bf4168859d97c068d88d364f4f1f440325 arm64/fpsimd: ptrace: zero target's fpsimd_state, not the tracer's
+         1f5ea7ade1bfb315ddec17814be31d21bfa28bc3 s390/sclp: Allow user-space to provide PCI reports for NVMe SMART data
          
