@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Wed, 06 May 2026 11:47:40 -0000
-Message-Id: <177806806088.2613128.8216067937761687416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Wed, 06 May 2026 12:24:25 -0000
+Message-Id: <177807026511.2648702.11696334031701353595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/usdt_fix
+  - ref: refs/heads/for-7.2-selftests
     old: 0000000000000000000000000000000000000000
-    new: ca5ac0c48d1058ef6b8dc4c36cd5c403e1fb6e0e
+    new: 8f7168335cb2e438668c5d94eea76621c9a10edd
