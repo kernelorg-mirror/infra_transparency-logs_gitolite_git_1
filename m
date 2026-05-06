@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9223174567061339373=="
+Content-Type: multipart/mixed; boundary="===============6222726020663905763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 06 May 2026 05:51:59 -0000
-Message-Id: <177804671953.2172750.3645022160240828677@gitolite.kernel.org>
+Date: Wed, 06 May 2026 05:56:01 -0000
+Message-Id: <177804696124.2177575.14705738332842416058@gitolite.kernel.org>
 
---===============9223174567061339373==
+--===============6222726020663905763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0891c3a0da4af58ec570301dd41f7f93fff0c4fc
-    new: d75e690e63bdad12b69fd53f1b3e721ec81eab66
-    log: revlist-0891c3a0da4a-d75e690e63bd.txt
+    old: d75e690e63bdad12b69fd53f1b3e721ec81eab66
+    new: 00d08aa6499886a3be2c837537c62aa73699c805
+    log: revlist-d75e690e63bd-00d08aa64998.txt
+  - ref: refs/heads/tip/urgent
+    old: a83a201543fd71b6d11ae48932209f379e1812bc
+    new: 82c96e1bcd11979a1493a1f5d648d1cb30c05dbb
+    log: revlist-a83a201543fd-82c96e1bcd11.txt
 
---===============9223174567061339373==
+--===============6222726020663905763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0891c3a0da4a-d75e690e63bd.txt
+Content-Disposition: attachment; filename=revlist-d75e690e63bd-00d08aa64998.txt
+
+7d732b50c234755038f70729060d2f638b0b2123 Merge branch into tip/master: 'perf/urgent'
+c73cf0e6d4a239050a033e7d0d714e654721163e Merge branch into tip/master: 'sched/urgent'
+82c96e1bcd11979a1493a1f5d648d1cb30c05dbb Merge branch into tip/master: 'x86/urgent'
+36ab6c0ae820b09f0d4a0d01eb59c9097337eb4b Merge branch into tip/master: 'irq/drivers'
+a95f7db983e9929207fdbf88e8a2efcf97a973f1 Merge branch into tip/master: 'locking/core'
+5f66c33f2448a06c299a6654dd3fc57e0876fdf3 Merge branch into tip/master: 'objtool/core'
+668a546d20f112727d047bba4ef2c977fd4a3e2f Merge branch into tip/master: 'perf/core'
+19eb2d24abdd3c5d97e834b8036bc79e85d8b317 Merge branch into tip/master: 'sched/core'
+249aedddb7da3ef6586649c765b7fc7913c8a773 Merge branch into tip/master: 'timers/clocksource'
+bd54184026aaebbc0d367d90bf26bb0f199bf2e6 Merge branch into tip/master: 'timers/core'
+bb94dbd04dbf1fbf20a8a8f8fa31b4989a4ff074 Merge branch into tip/master: 'x86/cleanups'
+3b6cb3c19c428f00a4ee40b046047243335145ed Merge branch into tip/master: 'x86/cpu'
+74fb86508fccff019a0d5a0543f06d8ccc955602 Merge branch into tip/master: 'x86/microcode'
+e68f08eeea2220db8342e23ec4c9153c711c9dae Merge branch into tip/master: 'x86/misc'
+edb11f44ad2f10577efa3f602dbfa25a022cbd48 Merge branch into tip/master: 'x86/sev'
+00d08aa6499886a3be2c837537c62aa73699c805 Merge branch into tip/master: 'x86/tdx'
+
+--===============6222726020663905763==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a83a201543fd-82c96e1bcd11.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
@@ -61,6 +88,10 @@ c488df06bd552bb8b6e14fa0cfd5ad986c6e9525 RDMA/mlx5: Fix error path fall-through 
 1f3b337af2231b1e83c9052f771b201f5cbb9997 RDMA/core: Fix rereg_mr use-after-free race
 6009cca96fcb01182cede725ad61e9e3810f3932 RDMA/mlx5: Fix null-ptr-deref in Raw Packet QP creation
 20e81c64c905bd765e69ef07920d2b1130dc79b6 workqueue: Annotate alloc_workqueue_va() with __printf(1, 0)
+cb48828f06afa232cc330f0f4d6be101067810b3 selftests/rseq: Don't run tests with runner scripts outside of the scripts
+2cb68e45120dfc66404c7547d95b8ac6ff0b25ce rseq: Set rseq::cpu_id_start to 0 on unregistration
+e9766e6f7d330dce7530918d8c6e3ec96d6c6e24 rseq: Protect rseq_reset() against interrupts
+010b7723c0a3b9ad58f50b715dbe2e7781d29400 rseq: Don't advertise time slice extensions if disabled
 70f780edcd1e86350202d8a409de026b2d2e2067 RDMA/ionic: Fix typo in format string
 641858d52f2372124d9312a407e2124915d846ee RDMA/mlx5: Restore zero-init to mlx5_ib_modify_qp() ucmd
 45e8ebc9ede73543c55d597bb53b6bbb7e8b7327 RDMA/mlx5: Add missing store/release for lock elision pattern
@@ -82,6 +113,20 @@ c9341307ea16b9395c2e4c9c94d8499d91fe31d0 RDMA/mlx4: Fix mis-use of RCU in mlx4_s
 ff9eda4ea906b1f02fc260ddc42d2d9bd736a49c sched_ext: Skip past-sched_ext_dead() tasks in scx_task_iter_next_locked()
 b34c82777a2c0648ee053595f4b290fd5249b093 sched_ext: idle: Recheck prev_cpu after narrowing allowed mask
 d8769544bde51b0ac980d10f8fe9f9fed6c95995 docs: cgroup-v1: Update charge-commit section
+c69df06e4e26e50611190ce04eab92c5cc261b61 perf/core: Fix deadlock in perf_mmap() failure path
+5ad732a56be46aabf158c16aa0c095291727aaef perf/x86/intel: Improve validation and configuration of ACR masks
+8ba0b706a485b1e607594cf4210786d517ad1611 perf/x86/intel: Always reprogram ACR events to prevent stale masks
+1271aeccc307066315b2d3b0d5af2510e27018b5 perf/x86/intel: Disable PMI for self-reloaded ACR events
+aa4384bc8f4360167f3c3d5322121fe892289ea2 perf/x86/intel: Enable auto counter reload for DMR
+b9eac6a9d93c952c4b7775a24d5c7a1bbf4c3c00 rseq: Revert to historical performance killing behaviour
+02b44d943b3adddc3a15c1da97045e205b7d14c1 selftests/rseq: Skip tests if time slice extensions are not available
+d97cb2ef0b221b068e90b6058aa97faa0626bdab selftests/rseq: Make registration flexible for legacy and optimized mode
+3cc32166b3e3c9a333a011619d9676bc1024b22c selftests/rseq: Validate legacy behavior
+867d5e3305886b78109e68983783a8688341ec31 rseq: Implement read only ABI enforcement for optimized RSEQ V2 mode
+22a92dbd6083581c6b8b8a3fa90f9f96ea91af44 rseq: Reenable performance optimizations conditionally
+e5adc76278565ee3b5a5863b830231e37b83b3bc selftests/rseq: Expand for optimized RSEQ ABI v2
+13abe4ce230f22a522facdaba87d1c137054c3a6 sched/fair: Fix overflow in vruntime_eligible()
+0c0cf14be490975a7431e9d49fcd7b190fff337f sched/fair: Fix wakeup_preempt_fair() for not waking up task
 4e386547138864d4ded1c39ff75517b89e187964 Merge tag 'media/v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 9207d47f966be9f4d52e7e0119ac2b7a7e366f3e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 13ad98eaabef611f042d49a9077be060ad03284d Merge tag 'fbdev-for-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
@@ -89,6 +134,8 @@ d8769544bde51b0ac980d10f8fe9f9fed6c95995 docs: cgroup-v1: Update charge-commit s
 de95ad90fb19e4b7778a0c27115a4639c7c8b186 Merge tag 'sched_ext-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 11f00074f72a977274c64c100372764eb04e6a3f Merge tag 'cgroup-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 74fe02ce122a6103f207d29fafc8b3a53de6abaf Merge tag 'wq-for-7.1-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-d75e690e63bdad12b69fd53f1b3e721ec81eab66 Merge branch 'linus'
+7d732b50c234755038f70729060d2f638b0b2123 Merge branch into tip/master: 'perf/urgent'
+c73cf0e6d4a239050a033e7d0d714e654721163e Merge branch into tip/master: 'sched/urgent'
+82c96e1bcd11979a1493a1f5d648d1cb30c05dbb Merge branch into tip/master: 'x86/urgent'
 
---===============9223174567061339373==--
+--===============6222726020663905763==--
