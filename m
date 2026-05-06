@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 06 May 2026 18:12:16 -0000
-Message-Id: <177809113695.3021846.9422679776309838458@gitolite.kernel.org>
+Date: Wed, 06 May 2026 18:28:44 -0000
+Message-Id: <177809212448.3037541.12308239645681981825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 1da9779c24ee24902367e799760847dd5ceda941
-    new: 981e6c193a08bffd902898af06cb5ed8676f6d4c
+  - ref: refs/heads/togreg
+    old: 1e1c7961c037b60ed9093f2053badad5d0df8d62
+    new: 1a27af12503afbc6ed5c39d898f9ec09eb7fc8a3
     log: |
-         4c08a5481aed728ef820824cdd05e15097a5dc19 iio: adc: ingenic-adc: rename ingenic_adc_enable_unlocked() function
-         e6278153cfab1f8317a9b636a8956a4b823e95a7 iio: adc: ingenic-adc: refactor ingenic_adc_read_chan_info_raw()
-         981e6c193a08bffd902898af06cb5ed8676f6d4c iio: adc: ingenic-adc: use guard()() and scoped_guard() to handle synchronisation
+         536d310345837b8adb4b7f47900a1596e042ff21 iio: magnetometer: rm3100: Modernize locking and refactor control flow
+         bb33ab0b34fde20bcda4e12a8cdf718d0dfe51ca iio: adc: mcp3422: rewrite mask macros with help of bits.h APIs
+         0fa20ace01924ee95a52c848761c57b0fd20cac9 iio: adc: mcp3422: write bit operations using bitfield.h APIs
+         d68d2b24e0d2d7a8d66586787edebdfe30f416f9 iio: light: iqs621-als: use lock guards
+         1a27af12503afbc6ed5c39d898f9ec09eb7fc8a3 iio: light: iqs621-als: prefer early error handling over if (!ret)
          
