@@ -1,47 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8640603367245973146=="
+Content-Type: multipart/mixed; boundary="===============4329060752565853666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 06 May 2026 21:08:34 -0000
-Message-Id: <177810171447.3204043.15768934410049581688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
+Date: Wed, 06 May 2026 21:21:50 -0000
+Message-Id: <177810251045.3218568.18260314252577095441@gitolite.kernel.org>
 
---===============8640603367245973146==
+--===============4329060752565853666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/fustini/linux
+user: fustini
 changes:
-  - ref: refs/heads/dt/linus
-    old: 81122fba08fa3ccafab6ed272a5c6f2203923a7e
-    new: 4b0a3ff9f4178a0765d54c0dd09e9839526b08ba
-    log: revlist-81122fba08fa-4b0a3ff9f417.txt
+  - ref: refs/heads/b4/ssqosid-cbqri-rqsc
+    old: 83a51bdea8eef02331efdbe692eedebb3d506c96
+    new: 3d2d80b5665de5948e1b9422e005c08f7a751c5f
+    log: revlist-83a51bdea8ee-3d2d80b5665d.txt
 
---===============8640603367245973146==
+--===============4329060752565853666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81122fba08fa-4b0a3ff9f417.txt
+Content-Disposition: attachment; filename=revlist-83a51bdea8ee-3d2d80b5665d.txt
 
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
-b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
-dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
-ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
-d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
-eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
-20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
-b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
-5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
-b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
-89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
-4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
-84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
-03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
 dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
 f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
 dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
@@ -1049,6 +1033,22 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-4b0a3ff9f4178a0765d54c0dd09e9839526b08ba of: cpu: add check in __of_find_n_match_cpu_property()
+81b1935ad4cbb0944fd1866c1cd99aae191c8947 RISC-V: QoS: add CBQRI resctrl interface
+a51622c788ccdfd3b4c8779da7873bc14a0c6ba1 dt-bindings: riscv: Add Ssqosid extension description
+40c85fcd20832edb1d813cf12d2e02a9b52fca56 RISC-V: Detect the Ssqosid extension
+9ffbf9f148beef4673c4f93f62606cca4bb160a9 RISC-V: Add support for srmcfg CSR from Ssqosid extension
+5754d4b847902960d481baa66db8969e09dc67d1 fs/resctrl: add RDT_RESOURCE_MB_MIN and RDT_RESOURCE_MB_WGHT
+dea5f4aabdbd09a090d22766c044fb84c7b5fb72 RISC-V: QoS: add CBQRI driver scaffolding
+f1492bb2db12d438907619476cecdda003f7a61e RISC-V: QoS: add CBQRI cache allocation support
+50487576ead4c046356f0bfae627adbf81c8fe62 RISC-V: QoS: add CBQRI cache occupancy monitoring
+87ffaf024ae6d601e747f088ab8d6160c31e98fc RISC-V: QoS: add CBQRI bandwidth allocation support
+f1bbfbfb2fcb76da580c0cad67c5b32dd9bfa0dc RISC-V: QoS: add CBQRI bandwidth monitoring (mbm_total_bytes)
+7158b1ac9e942bcf78a207ed4cdd2aeaf95e7828 ACPI: RISC-V: Parse RISC-V Quality of Service Controller (RQSC) table
+83fe6055e4e69e1af887935c0a6684788d11c53a ACPI: RISC-V: Add support for RISC-V Quality of Service Controller (RQSC)
+4399390e91edf4cf02f8e68bda0146a0f9f29706 RISC-V: QoS: enable resctrl filesystem for Ssqosid
+2366ac1ec6456ffda20c4c33ab0a420077739175 Documentation: resctrl: describe MB_MIN and MB_WGHT schemata
+43f1ad0961f222f94b292c224f3447d5ca281f56 selftests/resctrl: look up domain ID from schemata for non-cache resources
+32f2ce62738262049b97bd5ff1515dbea2cb968f selftests/resctrl: add MB_MIN and MB_WGHT interface tests
+3d2d80b5665de5948e1b9422e005c08f7a751c5f selftests/resctrl: add CBQRI mbm_total_bytes interface test
 
---===============8640603367245973146==--
+--===============4329060752565853666==--
