@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5716559929618922650=="
+Content-Type: multipart/mixed; boundary="===============6141215005393133589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 07 May 2026 10:32:19 -0000
-Message-Id: <177814993956.149809.8276320147850236464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 07 May 2026 10:32:46 -0000
+Message-Id: <177814996601.150330.1322129805843976277@gitolite.kernel.org>
 
---===============5716559929618922650==
+--===============6141215005393133589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 896df22ee57648b0c505bd76ddbc6b2341834696
-    new: f71cc65c01bdac1bc7705b1aad34f0023b41ec4d
+  - ref: refs/heads/master
+    old: 9adc4b3e19b14ca7f855f41eac7adb502a79be9f
+    new: 673cb8c4454d1f7531e4f1bb95f8139f258cb7e1
     log: |
-         f71cc65c01bdac1bc7705b1aad34f0023b41ec4d sysfs: upgrade OOB write by buggy .show hook into WARNing
+         673cb8c4454d1f7531e4f1bb95f8139f258cb7e1 7.0-stable patches
          
 
---===============5716559929618922650==
+--===============6141215005393133589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778149937 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1778149936-143ba54afb2bb424197f10b222539fc14bb67d57
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778149964 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1778149963-7e5c0bec81d2c2cf199a49be158c4066d43c61d2
 
-896df22ee57648b0c505bd76ddbc6b2341834696 f71cc65c01bdac1bc7705b1aad34f0023b41ec4d refs/heads/driver-core-testing
+9adc4b3e19b14ca7f855f41eac7adb502a79be9f 673cb8c4454d1f7531e4f1bb95f8139f258cb7e1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn8ajEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hsAQAI3Wcs5/vtdFMWnz2x2V
-8g47ln8Xblx6OzUQdt3XcA7lGzjsZQikYc59CbzYME8j2IwlFKWRZMXZsSptIC3p
-mCmSjt7jYPwb2wlRWSlIA85EzNKYakQMigF2FshFZ8KigZxYcKJI2FvYUhyo7Yw6
-qTHHV1Z9VN3wcbSgHb+qz1hqVYfFnob6OSPxcplusFMNaDBrQQQmRNE450TK6lhZ
-f20jNBv2sNz1PTUAsKIYRolgYYcfinSBpDNTw1R6OcLGmPtcLeOULsYwNxYTx9R1
-1Xic7AUCIuBxxYTVyfsEKzmt4YMttRI2e6cSXgzeDGBMnB2sKa9soMQZortO+OfB
-UJ1xj0+GISRXngYGBwPsKdoCdUZL2R5w60k2dxDU2luMiIVKvg4Xe6JfEjCho1Mo
-g07gGUUumdjH+s12L8ct4IflPrd6Wes64dV88BGeAlYno79pyqagrGqyps/kky18
-L6HAAma7Eu0DoccbpekOea8LmedVXljHnryPE4Gr1ZcJ4mh8dpKBBgvPCOv7vPNC
-XWUmj3ab4tAvZq/l9Ov8goL/k8FWw95paRz7kRNohCuOA/NTdtIyfBsH6R0ze7cs
-oJ1/vKQFuVU+7CacRjUHx0OD8ma6HmobGUw5rTBB9ceAJMk0chAg3KONTDHQ5dS6
-s8vmBv+Cttj63ZvFcvFz0bik
-=kCjK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn8akwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XaUP/R3K5xWi4GfUV1YSpaZD
+m+V1r+lFx05hrIPfHn2TIjsuUni64hgn4kurQYAScvDSzgQUPjHUKMedZqGtGBFI
+Ru0Ws8ipb1Gq5VWfmqtJX4dNVvAaKquIyr0cAueHsMGhB6PsQR1XJ3vJ+9hq+jQ0
+P/q4N4kngMrIa+QHj8/fvDJFYtP4UrUSwRQCavdtEfmMOQAmfqe+iA/uMlhUC2T8
+48BrBO/+/bKjDTP8IOyaAzFnQe8hYZs/cxKhZtXOZ1IeovtAQKthRj+G8Tm5LCUD
+NjZdH3/cEX8elJ03WueY419MxhRFR6ypSuXWCAxcpjbw2r5gfHlhxwlOWPvu2VRR
+VAb+cC1gE1FU/yFfPaJTMaqYHDJ+b9U1nc0H08bJ+cRc0TQOsMbrjPsI8+I0fcRC
+Rp+dozhkQihVz+nq+l2s8Ahc+X9GsI75/ZsSl95PEaFDyIeep2epu0W+uuPNyHLX
+dqDFNIZ3Fl0YCX66zQKUlo2bXabSsRcKWceOaHPArehXn09+rhHB428OJu57cwwG
+GWZaa7yqBZ1IwaXv9fz8Tminz4CcxdTtlT/GXu+eb9NjypVkWXqPVHcecjyH8wAN
+kbLeVKC/R5EWGoMGDRI0rRCXW/dUgvd21a+37pptPZy2cP/SEIV+iDtIESL2ZEOQ
+Wj9zNrhScA0GRmMcqC8DmRwS
+=FGQa
 -----END PGP SIGNATURE-----
 
---===============5716559929618922650==--
+--===============6141215005393133589==--
