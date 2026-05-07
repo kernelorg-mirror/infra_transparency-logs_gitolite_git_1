@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5783627145130649776=="
+Content-Type: multipart/mixed; boundary="===============4237746222790782615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 07 May 2026 20:32:51 -0000
-Message-Id: <177818597160.828739.6901951113448396236@gitolite.kernel.org>
+Date: Thu, 07 May 2026 20:32:53 -0000
+Message-Id: <177818597322.828824.1613306311394233810@gitolite.kernel.org>
 
---===============5783627145130649776==
+--===============4237746222790782615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.2
+  - ref: refs/heads/for-next
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: f0b64466e2896020ff2bcaa512bbcc4fea847635
-    log: revlist-254f49634ee1-f0b64466e289.txt
-  - ref: refs/heads/clk-for-7.2
-    old: 0000000000000000000000000000000000000000
-    new: 3df6b9dbd24e1610854c17a8ec4ac146481b8e42
+    new: ef5930fa9d5d5a1734e9e065d3e29bf1a064cbc3
+    log: revlist-254f49634ee1-ef5930fa9d5d.txt
 
---===============5783627145130649776==
+--===============4237746222790782615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-f0b64466e289.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-ef5930fa9d5d.txt
 
 63b35a29d7ad2cafb0076f8b002b30fb74df053a dt-bindings: net: bluetooth: qualcomm: Fix WCN6855 regulator names
 493cb869874cd301c370adf9a3f9577942c4f0f1 arm64: dts: qcom: sm6125-xiaomi-laurel-sprout: Enable MDSS and add panel
@@ -54,6 +51,8 @@ b379bb1470d864659ae9522b72f241a15255dce6 arm64: dts: qcom: sdm845-oneplus: Drop 
 2eae029f7d38c5fc03a778f483b5079d0e355472 arm64: dts: qcom: sdm845-samsung-starqltechn: Convert fb to use memory-region
 66fb209e6035ed90cbff71c48c60124803da5c63 arm64: dts: qcom: milos-fairphone-fp6: Add vibrator support
 2552d5f2e51bd7e449b495d518e1f2e5252baf56 arm64: dts: qcom: sm8750: Enable cpufreq cooling devices
+e628f6a6c33ac647bb904c35a674a0f664c99efe dt-bindings: clock: qcom: document the Milos GX clock controller
+3df6b9dbd24e1610854c17a8ec4ac146481b8e42 clk: qcom: Add support for GXCLK for Milos
 cd66b6d256f94e40922941e14d7f9390d35d072b arm64: dts: qcom: glymur: Fix USB simple_bus_reg warning
 46eccc1034c3740b07b58c125190bbb99247c9de arm64: dts: qcom: glymur: Fix cache and SRAM simple_bus_reg warnings
 864fde494aa1dd26c68254661f2ce973e9f03832 arm64: dts: qcom: ipq5424: Fix USB simple_bus_reg warnings
@@ -77,5 +76,6 @@ dd1316efdbc5a998b901b1c5f27da73d45060795 arm64: dts: qcom: Add Motorola Edge 30 
 3e6cd0c43cdf678622c19210bd1a70b04c8a79af arm64: dts: qcom: lemans: add mdss1 display device nodes
 fcc1a19f5bd5623c448e54b2ea6d50249abea77a arm64: dts: qcom: lemans-ride: Enable mdss1 display Port
 f0b64466e2896020ff2bcaa512bbcc4fea847635 arm64: dts: qcom: lemans-evk-ifp-mezzanine: Enable mdss1 display Port
+ef5930fa9d5d5a1734e9e065d3e29bf1a064cbc3 Merge branches 'arm64-for-7.2' and 'clk-for-7.2' into for-next
 
---===============5783627145130649776==--
+--===============4237746222790782615==--
