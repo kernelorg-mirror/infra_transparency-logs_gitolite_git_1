@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 07 May 2026 22:32:46 -0000
-Message-Id: <177819316682.958041.16735638407490605531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 07 May 2026 22:47:33 -0000
+Message-Id: <177819405333.973047.14926357299507880861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/next-fixes
-    old: fcc6790ed71ca7f280cc4d5564af9fd53947550b
-    new: 238cee9efdb735409e6bed0cb0d9280231481fb8
+  - ref: refs/heads/io_uring-io-slots
+    old: ab70430633bb78053f56417cb4780c95b189297e
+    new: 5568ff1c74fde7d744729f93afe4771bc1f6e987
     log: |
-         fc51cba3ebae67f967120e27162e94cfb8594479 btrfs: fix check_chunk_block_group_mappings() to iterate all chunk maps
-         4822703b150fc25f7bdb8cf266a482619881a97e btrfs: always pass __GFP_NOWARN from add_ra_bio_pages()
-         c73370c677646e86fc4b1780fb07027bdf847375 btrfs: tracepoints: fix sleep while in atomic context in btrfs_sync_file()
-         4066c55e109475a06d18a1f127c939d551211956 btrfs: only release the dirty pages io tree after successful writes
-         c562ba61fc5e11798720acc1b172862158f1fa0b btrfs: fix incorrect i_size after remount caused by KEEP_SIZE prealloc gap
-         238cee9efdb735409e6bed0cb0d9280231481fb8 Merge branch 'misc-7.1' into next-fixes
+         e3349dfae8f013c9397ce335066718139e3f3b23 block: add submit_bio_noacct_fast() and BIO_REGISTERED
+         61d56c943173f9e6820ff6162d25e8fce26059dc io_uring: add IORING_OP_SLOT_RW and wire up slot completion
+         520d5352ff2ee5fdb1e705c13a2ac0edd85a43d9 io_uring: add registered IO slot infrastructure
+         c59d29dc01a349dfc9f8cefac0dbe9ef0f198e47 io_uring/slot: support partitions
+         ab0c7364f73bec2f3fab11034acc133d51e4f1b4 io_uring/slot: add persistent DMA mapping for registered slots
+         39cc630262e662067ec01f6b0dd5486605d0728a io_uring/slot: share persistent DMA mapping across slots
+         06dc3a1589d9787825fdb51b0f34c9d6dd293658 io_uring: move struct io_slot_dma to public io_uring header
+         852dce56221debef81bd00f5afcfe048df278eee block: add bio_persistent_dma() helper
+         5568ff1c74fde7d744729f93afe4771bc1f6e987 nvme-pci: support BIO_REGISTERED persistent DMA mapping
          
