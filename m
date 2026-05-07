@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 07 May 2026 17:45:59 -0000
-Message-Id: <177817595974.657780.16906517688111695772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 07 May 2026 17:51:14 -0000
+Message-Id: <177817627418.663401.11730779493561300250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: e3dec62da2a5170f7c4f94d1eba567f30068f502
-    new: d45fd43a1cc3ba791858f11c144112c518a9ad84
-    log: |
-         d45fd43a1cc3ba791858f11c144112c518a9ad84 bap: Fix typo in QoS D-Bus dictionary entry names
-         
+  - ref: refs/tags/riscv-dt-fixes-for-v7.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5b8637228d95b53d6812a459b3590273f6f7ca34
