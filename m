@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 07 May 2026 21:48:52 -0000
-Message-Id: <177819053205.909107.17357865015221269916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Thu, 07 May 2026 21:58:54 -0000
+Message-Id: <177819113442.919414.5556901920111866037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/aspm
-    old: 6aabe0e72ecd3de8e8c37d0bcd48d639fe5d72e9
-    new: c855c9921da72e535c24737c748f603a52d03f7e
+  - ref: refs/heads/for-7.1-fixes
+    old: d8769544bde51b0ac980d10f8fe9f9fed6c95995
+    new: dde2f938d02f2c740d49bb5113dea941f941026a
     log: |
-         c855c9921da72e535c24737c748f603a52d03f7e PCI/ASPM: Don't reconfigure ASPM entering low-power state
+         dde2f938d02f2c740d49bb5113dea941f941026a cgroup/cpuset: move PF_EXITING check before __GFP_HARDWALL in cpuset_current_node_allowed()
+         
+  - ref: refs/heads/for-next
+    old: 655ae569a21dc09368f5fdeca5d499c50c3d686a
+    new: c8c84430640e5210140eb0b6d7b4ae06883c0bd1
+    log: |
+         dde2f938d02f2c740d49bb5113dea941f941026a cgroup/cpuset: move PF_EXITING check before __GFP_HARDWALL in cpuset_current_node_allowed()
+         c8c84430640e5210140eb0b6d7b4ae06883c0bd1 Merge branch 'for-7.1-fixes' into for-next
          
