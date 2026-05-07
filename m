@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Thu, 07 May 2026 08:06:22 -0000
-Message-Id: <177814118244.4190407.8895757930421084874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 07 May 2026 08:06:25 -0000
+Message-Id: <177814118518.4190523.8575736901818618694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/next
-    old: 45c7bda7b7440183850012153988e40b300f40d0
-    new: 35a5ab8ef7f0f00b30eab9d917f3f0f4a2bec5d6
+  - ref: refs/heads/x86/urgent
+    old: 5f8719945244dd65b5fa06195f4600db62581610
+    new: 5772f6535227ebd104065d80afa8ed3478d34c5c
     log: |
-         c368dd5cbd61ffab2b6f8a89b0d5775e2e16cde6 soundwire: don't program SDW_SCP_BUSCLOCK_SCALE on a unattached Peripheral
-         f772ff5a0e6758fd412803c09e03ba3bca5f5878 soundwire: fix bug in sdw_add_element_group_count found by syzkaller
-         654a7ae10b2ee6b07d5d9193c1c5465410781908 soundwire: increase group->max_size after allocation
-         35a5ab8ef7f0f00b30eab9d917f3f0f4a2bec5d6 soundwire: use krealloc_array to prevent integer overflow
+         5772f6535227ebd104065d80afa8ed3478d34c5c x86/boot/e820: Re-enable BIOS fallback if e820 table is empty
          
