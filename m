@@ -1,48 +1,106 @@
-Content-Type: multipart/mixed; boundary="===============8646341221719944405=="
+Content-Type: multipart/mixed; boundary="===============6288094006217229985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Thu, 07 May 2026 20:19:27 -0000
-Message-Id: <177818516789.813123.14549086095323893444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 07 May 2026 20:25:25 -0000
+Message-Id: <177818552568.821541.9701821789375161295@gitolite.kernel.org>
 
---===============8646341221719944405==
+--===============6288094006217229985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: a1d05209a925519ffe9d0360d29a08a98d9b8665
-    new: 92d5ecd7f13ae6178737bb30da3f01ad3af12ad0
-    log: revlist-a1d05209a925-92d5ecd7f13a.txt
+  - ref: refs/heads/bleeding-edge
+    old: 39a9cc4e779b800a21df3b0eb818587ed5862c3c
+    new: 3dda17d8701a8aa01fb888bdaf702e581bab656a
+    log: revlist-39a9cc4e779b-3dda17d8701a.txt
+  - ref: refs/heads/experimental/acpi-driver-conversion
+    old: 75df0182526b9c65254c8c0f408e2aa03aaf9045
+    new: 4b9b94dad818a89d1e92f1874646ff588f9df871
+    log: revlist-75df0182526b-4b9b94dad818.txt
+  - ref: refs/heads/testing
+    old: 3d6ebd026be6c11e0ac2b53010cfab29d04d1aba
+    new: f93df7cb88eb227ea0020ff84bd0bbe37186da56
+    log: revlist-3d6ebd026be6-f93df7cb88eb.txt
 
---===============8646341221719944405==
+--===============6288094006217229985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1d05209a925-92d5ecd7f13a.txt
+Content-Disposition: attachment; filename=revlist-39a9cc4e779b-3dda17d8701a.txt
 
-adada24616693bb5a3b3a80fe8e316937d649d63 rteval: Clean timestamped test run directories in make clean
-fec7d638d991f79691b432b3d00f73cbc024f6f6 rteval: Remove executable permission from cpuset.py
-1d5ba50f88ba50dac4f2c91301f814bb92b0d1db rteval: Add cpuset integration infrastructure (WIP)
-e695df0ebae7378d5c70d6caa0a2dbde52d8b847 rteval: Add --cleanup-cpusets flag to remove leftover cpusets
-74f0518f656e13ff03e4e671f74c1ab252c822b6 rteval: Reorganize command-line arguments into logical groups
-2768796181caa8fa493c7fc42b3e596961037c94 rteval: Simplify cpuset implementation to match isolcpus philosophy
-5aa88a7a38c84024574282ba75f47667f8c14439 rteval: Add local/ directory to .gitignore for development files
-c9c9da2823deca8ca95c6f3fb83f948eb181f0c6 rteval: Update cpuset documentation to reflect simplified implementation
-6dcc7de6092f016d13aca8908ef7e6d1365cdc39 rteval: Warn when all CPUs isolated and loads have no CPUs
-f5a1164b8ee4473b49608b3f224581c46de22461 rteval: Fix timerlat error handling to prevent hangs
-b202ea46068b5720580c866f0bc364e9e2836e44 rteval: Fix cyclictest error handling to prevent hangs
-0bfcc9737fefa9ec8038e9900c06f4a607bdb1fa rteval: Update config files to clarify measurement module selection
-0ba70deb911b5522a58797619f172a3d6e0b74a6 rteval: Add regression tests for measurement module error handling
-05f3333bb8053ebdcb94fee6b53699e0b60eb50b rteval: Fix e2e test patterns for current rteval behavior
-9a3015cc6d97c4126d769db7e7e7db3585506a03 rteval: Refactor core sharing validation test into proper unittest
-b48dc8905c9cd6f2e39fbc7ca8e928f4338b2989 rteval: Rename unittest target to unit-tests for consistency
-35b14162c2c10ba9759607b0829da069252e5ff5 rteval: Organize cpuset tests and make core sharing tests skip gracefully
-92d5ecd7f13ae6178737bb30da3f01ad3af12ad0 rteval: Move run_tests.sh to tests/ and remove obsolete test scripts
+de8da40cee397c4354344119271d5dd38545ab3e platform/x86: classmate-laptop: Address memory leaks on driver removal
+114f62946c6d993386935b4a9344d27a83762c0a platform/x86: classmate-laptop: Unify probe rollback and remove code
+4e8d82ef0b9f6076c2a05fb3e542ddb7102eb26d platform/x86: classmate-laptop: Pass struct device pointer to helpers
+cf87d453f2bedfe1eaee221a92a0479345f23733 platform/x86: classmate-laptop: Rename two helper functions
+8edea73f03b2fa5201d02946bbbb700f85302f1e platform/x86: classmate-laptop: Register ACPI notify handlers directly
+1b9fdd4ccb8d7d2791d205ae6f8e71d27c39154a platform/x86: classmate-laptop: Convert v4 accel driver to a platform one
+5167b3319fac41eeee70bb4d20cc91090673abe5 platform/x86: classmate-laptop: Convert accel driver to a platform one
+fd47439debdf874d1ad8208421e7d8e60c7735ae platform/x86: classmate-laptop: Convert tablet driver to a platform one
+2b889ee55967c10975136d4efb31879a480ecd89 platform/x86: classmate-laptop: Convert ipml driver to a platform one
+14a06c27c5e0b7985606f4f7ffd29cce97bf2a83 platform/x86: classmate-laptop: Convert keys driver to a platform one
+f93df7cb88eb227ea0020ff84bd0bbe37186da56 Merge branch 'test/acpi-driver-conversion' into testing
+736eab83dc87eed0aba16c7541b1d98b4ba68792 platform/x86: xo15-ebook: Clean up GPE and wakeup source on removal
+ef102cb27daf9a6abbd64ac7cccf0038434d9c71 platform/x86: xo15-ebook: Remove spaces preceding labels
+99bcfd452d6adf888bc0bc96e488a95b0490b633 platform/x86: xo15-ebook: Register ACPI notify handler directly
+afb6fe4efd4620352790b7fa7558964600d2c862 platform/x86: xo15-ebook: Convert ACPI driver to a platform one
+e7be2224c157151a6b3b62dc97a46d66e6cf293c x86/platform/olpc: xo15: Drop wakeup source on driver removal
+8b74a2ef3f05544f31ad7013aaaaae1ffa4b2ff7 x86/platform/olpc: xo15: Convert ACPI driver to a platform one
+0854020e2ec888f56670382ad76a4e358f215722 ACPI: bus: Eliminate struct acpi_driver
+92b12ddddd04badf4015eedc1fbe6794d7d00eb6 driver core/ACPI: Make it possible to register a fake bus type
+ec67c77ea7f5de3ad74c7a7128dd383ad3a685f8 ACPI: scan: Set power.no_pm for all struct acpi_device objects
+4b9b94dad818a89d1e92f1874646ff588f9df871 ACPI: Documentation: Remove driver-api/acpi/acpi-drivers.rst
+aebc1dcbcb11cf632b5e82d88c5143bee92e4560 Merge branch 'testing' into bleeding-edge
+3dda17d8701a8aa01fb888bdaf702e581bab656a Merge branch 'experimental/acpi-driver-conversion' into bleeding-edge
 
---===============8646341221719944405==--
+--===============6288094006217229985==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-75df0182526b-4b9b94dad818.txt
+
+de8da40cee397c4354344119271d5dd38545ab3e platform/x86: classmate-laptop: Address memory leaks on driver removal
+114f62946c6d993386935b4a9344d27a83762c0a platform/x86: classmate-laptop: Unify probe rollback and remove code
+4e8d82ef0b9f6076c2a05fb3e542ddb7102eb26d platform/x86: classmate-laptop: Pass struct device pointer to helpers
+cf87d453f2bedfe1eaee221a92a0479345f23733 platform/x86: classmate-laptop: Rename two helper functions
+8edea73f03b2fa5201d02946bbbb700f85302f1e platform/x86: classmate-laptop: Register ACPI notify handlers directly
+1b9fdd4ccb8d7d2791d205ae6f8e71d27c39154a platform/x86: classmate-laptop: Convert v4 accel driver to a platform one
+5167b3319fac41eeee70bb4d20cc91090673abe5 platform/x86: classmate-laptop: Convert accel driver to a platform one
+fd47439debdf874d1ad8208421e7d8e60c7735ae platform/x86: classmate-laptop: Convert tablet driver to a platform one
+2b889ee55967c10975136d4efb31879a480ecd89 platform/x86: classmate-laptop: Convert ipml driver to a platform one
+14a06c27c5e0b7985606f4f7ffd29cce97bf2a83 platform/x86: classmate-laptop: Convert keys driver to a platform one
+736eab83dc87eed0aba16c7541b1d98b4ba68792 platform/x86: xo15-ebook: Clean up GPE and wakeup source on removal
+ef102cb27daf9a6abbd64ac7cccf0038434d9c71 platform/x86: xo15-ebook: Remove spaces preceding labels
+99bcfd452d6adf888bc0bc96e488a95b0490b633 platform/x86: xo15-ebook: Register ACPI notify handler directly
+afb6fe4efd4620352790b7fa7558964600d2c862 platform/x86: xo15-ebook: Convert ACPI driver to a platform one
+e7be2224c157151a6b3b62dc97a46d66e6cf293c x86/platform/olpc: xo15: Drop wakeup source on driver removal
+8b74a2ef3f05544f31ad7013aaaaae1ffa4b2ff7 x86/platform/olpc: xo15: Convert ACPI driver to a platform one
+0854020e2ec888f56670382ad76a4e358f215722 ACPI: bus: Eliminate struct acpi_driver
+92b12ddddd04badf4015eedc1fbe6794d7d00eb6 driver core/ACPI: Make it possible to register a fake bus type
+ec67c77ea7f5de3ad74c7a7128dd383ad3a685f8 ACPI: scan: Set power.no_pm for all struct acpi_device objects
+4b9b94dad818a89d1e92f1874646ff588f9df871 ACPI: Documentation: Remove driver-api/acpi/acpi-drivers.rst
+
+--===============6288094006217229985==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3d6ebd026be6-f93df7cb88eb.txt
+
+de8da40cee397c4354344119271d5dd38545ab3e platform/x86: classmate-laptop: Address memory leaks on driver removal
+114f62946c6d993386935b4a9344d27a83762c0a platform/x86: classmate-laptop: Unify probe rollback and remove code
+4e8d82ef0b9f6076c2a05fb3e542ddb7102eb26d platform/x86: classmate-laptop: Pass struct device pointer to helpers
+cf87d453f2bedfe1eaee221a92a0479345f23733 platform/x86: classmate-laptop: Rename two helper functions
+8edea73f03b2fa5201d02946bbbb700f85302f1e platform/x86: classmate-laptop: Register ACPI notify handlers directly
+1b9fdd4ccb8d7d2791d205ae6f8e71d27c39154a platform/x86: classmate-laptop: Convert v4 accel driver to a platform one
+5167b3319fac41eeee70bb4d20cc91090673abe5 platform/x86: classmate-laptop: Convert accel driver to a platform one
+fd47439debdf874d1ad8208421e7d8e60c7735ae platform/x86: classmate-laptop: Convert tablet driver to a platform one
+2b889ee55967c10975136d4efb31879a480ecd89 platform/x86: classmate-laptop: Convert ipml driver to a platform one
+14a06c27c5e0b7985606f4f7ffd29cce97bf2a83 platform/x86: classmate-laptop: Convert keys driver to a platform one
+f93df7cb88eb227ea0020ff84bd0bbe37186da56 Merge branch 'test/acpi-driver-conversion' into testing
+
+--===============6288094006217229985==--
