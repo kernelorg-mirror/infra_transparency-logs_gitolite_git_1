@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4213357284510976862=="
+Content-Type: multipart/mixed; boundary="===============4757346101490425786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 07 May 2026 07:28:00 -0000
-Message-Id: <177813888047.4146295.10360380833414545395@gitolite.kernel.org>
+Date: Thu, 07 May 2026 07:28:54 -0000
+Message-Id: <177813893454.4147138.4751974483468963186@gitolite.kernel.org>
 
---===============4213357284510976862==
+--===============4757346101490425786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: f4c50a4034e62ab75f1d5cdd191dd5f9c77fdff4
     new: b266bacba796ff5c4dcd2ae2fc08aacf7ab39153
     log: revlist-f4c50a4034e6-b266bacba796.txt
 
---===============4213357284510976862==
+--===============4757346101490425786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c6d395e2de1306b5fef0344a3c3835fbbfaa18be mptcp: pm: ADD_ADDR rtx: skip inactive 
 2b1f48cc0f31abd1115a8c4b74b6425aba46eae4 Merge branch 'mptcp-pm-misc-fixes-for-v7-1-rc3'
 b266bacba796ff5c4dcd2ae2fc08aacf7ab39153 net: ethernet: cortina: Drop half-assembled SKB
 
---===============4213357284510976862==--
+--===============4757346101490425786==--
