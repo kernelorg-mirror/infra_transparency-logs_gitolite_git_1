@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 07 May 2026 07:40:13 -0000
-Message-Id: <177813961354.4160746.7607769105530630184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 07 May 2026 07:44:16 -0000
+Message-Id: <177813985677.4163341.7186067931907334939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: e77793475d92398152fe24cb3c37880965bea97b
-    new: bda239723d02989de380b54b682930f56fd0d346
+  - ref: refs/heads/testing
+    old: b266bacba796ff5c4dcd2ae2fc08aacf7ab39153
+    new: 7e2a4f7ca0952820731ef7bdadfc9a9e9d3571b4
     log: |
-         bda239723d02989de380b54b682930f56fd0d346 tools: provide and use die_oom()
+         7e2a4f7ca0952820731ef7bdadfc9a9e9d3571b4 xfrm: route MIGRATE notifications to caller's netns
          
