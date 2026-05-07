@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 07 May 2026 11:44:49 -0000
-Message-Id: <177815428963.268690.1403397663778620957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Thu, 07 May 2026 11:51:51 -0000
+Message-Id: <177815471199.277955.988559162800013934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/master
-    old: 9b0f29b25b454323e1297b09f85b260d63af3f3d
-    new: 4fb65baa0c05aa058d15abab42bc7b8df2a66756
+  - ref: refs/heads/alloc-token
+    old: c47355d787a002e547a32b1dfbbcee53c6054555
+    new: 2af02f11a1200f3c1f476b125db6125f5d20993c
     log: |
-         5cba9f09e84a5195fa68389a57cea7ed97115015 tests: skip fallocate/zero-range test when /proc/sys/vm/drop_caches is not writable
-         4fb65baa0c05aa058d15abab42bc7b8df2a66756 Merge branch 'fix/drop_caches_container' of https://github.com/echoechoin/util-linux
+         5ad47618af3f7b4e19b0a4fb55a209bae733d10a slab: support for compiler-assisted type-based slab cache partitioning
+         2af02f11a1200f3c1f476b125db6125f5d20993c slab: fix kernel-docs for mm-api
          
