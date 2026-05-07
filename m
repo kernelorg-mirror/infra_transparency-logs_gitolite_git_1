@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 07 May 2026 22:07:04 -0000
-Message-Id: <177819162453.930287.1954372912627736702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Thu, 07 May 2026 22:07:48 -0000
+Message-Id: <177819166819.930739.15047959441440297416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/dev
-    old: 346e31b4971d2bb4401ea4c398e4cf817b0ee61f
-    new: c2e6a63ac168107454d5fe595c1213e5760d642f
+  - ref: refs/heads/for-next
+    old: 3f95e2661574ff13f099dd13456751933c280628
+    new: d67aadee19ffdf3cc8520c5a4f4d5b2916d30baf
     log: |
-         c2e6a63ac168107454d5fe595c1213e5760d642f rcutorture: Test RCU readers from hardware interrupt handlers
+         966cb76fb2857a4242cab6ea2ea17acf818a3da7 hfs/hfsplus: fix u32 overflow in check_and_correct_requested_length
+         d67aadee19ffdf3cc8520c5a4f4d5b2916d30baf hfs/hfsplus: zero-initialize buffer in hfs_bnode_read
          
