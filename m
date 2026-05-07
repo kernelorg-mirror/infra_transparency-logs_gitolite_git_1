@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 07 May 2026 01:48:36 -0000
-Message-Id: <177811851674.3513774.17286859001110909993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 07 May 2026 01:50:39 -0000
+Message-Id: <177811863963.3517629.2054270671657478143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 938b6b8a180c75b6e4c7728d315090c52ea474cc
-    new: e90068917fd369a668f57f43cc7552ce2b85c54d
+  - ref: refs/heads/main
+    old: 2b1f48cc0f31abd1115a8c4b74b6425aba46eae4
+    new: b266bacba796ff5c4dcd2ae2fc08aacf7ab39153
     log: |
-         88f731e7962945614a477a8a86c2517d87fd6b02 spi: s3c64xx: fix all kernel-doc warnings
-         e90068917fd369a668f57f43cc7552ce2b85c54d Merge remote-tracking branch 'spi/for-7.2' into spi-next
+         b266bacba796ff5c4dcd2ae2fc08aacf7ab39153 net: ethernet: cortina: Drop half-assembled SKB
          
