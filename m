@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8158662592897827812=="
+Content-Type: multipart/mixed; boundary="===============3405595999004879133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 07 May 2026 11:08:58 -0000
-Message-Id: <177815213875.186902.5803389206411032624@gitolite.kernel.org>
+Date: Thu, 07 May 2026 11:09:48 -0000
+Message-Id: <177815218855.187603.12466879616024355394@gitolite.kernel.org>
 
---===============8158662592897827812==
+--===============3405595999004879133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.19.y-st
-    old: 0631c1e38d2e8c93ee48fb94e3f542a355dd9b92
-    new: 876d63e0b577aa811bbd7c07d9443d68cbb14e36
-    log: revlist-0631c1e38d2e-876d63e0b577.txt
+  - ref: refs/heads/linux-4.19.y-cip
+    old: 7aeff6c7984c582f96916d12bd33eefbd746459c
+    new: a0cf0e1623b28b1d20f9626f32809952b7a40f15
+    log: revlist-7aeff6c7984c-a0cf0e1623b2.txt
 
---===============8158662592897827812==
+--===============3405595999004879133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0631c1e38d2e-876d63e0b577.txt
+Content-Disposition: attachment; filename=revlist-7aeff6c7984c-a0cf0e1623b2.txt
 
 78584249289c37c5fb7974b9c8baa8571bd2cff6 ARM: clean up the memset64() C wrapper
 d6932fd3332d3a9d3e546014eedd9d4414fbb4a2 ARM: OMAP2+: add missing of_node_put before break and return
@@ -302,5 +302,7 @@ b5d57015561ade938edb4fdb75989a7f58c4923a ext4: convert inline data to extents wh
 bff91509dcf1b8fa2c1fb2f4c1fb126215a6800e seg6: separate dst_cache for input and output paths in seg6 lwtunnel
 06f864b3a1d94dc7dc26fc1f2bac010647947f90 x86/CPU: Fix FPDSS on Zen1
 876d63e0b577aa811bbd7c07d9443d68cbb14e36 Update localversion-st, tree is up-to-date with 5.10.254.
+78593aa917d2990bc701a4b198b2ff912f5e7682 Merge branch 'linux-4.19.y-st' into linux-4.19.y-cip
+a0cf0e1623b28b1d20f9626f32809952b7a40f15 CIP: Bump version suffix to -cip132 after merge from cip/linux-4.19.y-st tree
 
---===============8158662592897827812==--
+--===============3405595999004879133==--
