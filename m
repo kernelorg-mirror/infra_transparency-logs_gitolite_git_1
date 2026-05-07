@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8661184572149748967=="
+Content-Type: multipart/mixed; boundary="===============2235675807117618934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Thu, 07 May 2026 14:27:44 -0000
-Message-Id: <177816406431.439591.3181232066529950044@gitolite.kernel.org>
+Date: Thu, 07 May 2026 14:28:00 -0000
+Message-Id: <177816408092.439889.12333456201909423257@gitolite.kernel.org>
 
---===============8661184572149748967==
+--===============2235675807117618934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 68637b68afcc3cb4d56aca14a3a1d1b47b879369
+  - ref: refs/heads/pwm/for-nexxt
+    old: e14fc60777f1b451df1ca1e8e7f4b7f4bc6098a6
     new: 210511a158674183790f8077277885832b321b93
-    log: revlist-68637b68afcc-210511a15867.txt
+    log: revlist-e14fc60777f1-210511a15867.txt
 
---===============8661184572149748967==
+--===============2235675807117618934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68637b68afcc-210511a15867.txt
+Content-Disposition: attachment; filename=revlist-e14fc60777f1-210511a15867.txt
 
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
@@ -129,6 +127,7 @@ aa43bb2c0fc0d928bb120f853349c8affcfeb8b4 smb: smbdirect: remove unused SMBDIRECT
 3892007f2bbf8ae2df5374de708282d6895402e9 smb: smbdirect: fix copyright header of smbdirect.h
 25c2e34931c5f2a02baefd111a4eb7fa31158059 smb: smbdirect: fix the logic in smbdirect_socket_destroy_sync() without an error
 d09a040c186a2083b1cfa9c3c112782ce4b1f6d4 smb: smbdirect: let smbdirect_connection_deregister_mr_io unlock while waiting
+5d087c485b6ecf200a9ebb2a032bf8571d330250 pwm: stm32: Fix rounding issue for requests with inverted polarity
 9a683fe0a00d2684ae874fd9eb58e6c1864fdf36 Merge tag 'v7.0-rc6' into perf-tools
 0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b fs/ntfs3: validate rec->used in journal-replay file record check
 819bd270abf9de3b7f306e233054b85a07c47820 fs/ntfs3: fix Smatch warnings
@@ -759,6 +758,7 @@ b1137e0b3d4bad1cad73fa9bac763c74ddd1813d ceph: add subvolume metrics collection 
 1967f0b1cafdde37aa9e08e6021c14bcc484b7a5 io_uring/poll: ensure EPOLL_ONESHOT is propagated for EPOLL_URING_WAKE
 beaba8bfbb91e3bb3133eacacd62fd6fea515e34 Merge tag 'probes-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 d0be8884f56b0b800cd8966e37ce23417cd5044e io_uring: take page references for NOMMU pbuf_ring mmaps
+68637b68afcc3cb4d56aca14a3a1d1b47b879369 pwm: atmel-tcb: Cache clock rates and mark chip as atomic
 cfc42685e5700e33bb25911d556b2727479de97c mshv: Add tracepoint for GPA intercept handling
 3c42b33433796b73ddecd8f60bda419b1648d997 Drivers: hv: vmbus: fix hyperv_cpuhp_online variable shadowing
 f7ce370b525a02127527b0f54ee877413705a709 x86/hyperv: move stimer cleanup to hv_machine_shutdown()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 8881a19b8976c628e9984a4c28e37d5e0ca294a4 dt-bindings: pwm: add IPQ6018 binding
 210511a158674183790f8077277885832b321b93 pwm: driver for qualcomm ipq6018 pwm block
 
---===============8661184572149748967==--
+--===============2235675807117618934==--
