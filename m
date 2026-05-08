@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1426993082229602812=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 08 May 2026 20:47:35 -0000
-Message-Id: <177827325557.2757989.15480622968289588523@gitolite.kernel.org>
-
---===============1426993082229602812==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 08 May 2026 20:50:30 -0000
+Message-Id: <177827343085.2762568.14026200504777005109@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 5dff7fd8e09b72ee10303ba80a730408f58a1ff8
-    new: 1821b3b45fe8cfd5ea5a47ed19b43729b6438400
+  - ref: refs/heads/for-linus
+    old: cede9116c5e1572d38b9d357f35556d480867822
+    new: 9ef40a09c5de18f0d275a451f5c2a7fd4f07158b
     log: |
-         1821b3b45fe8cfd5ea5a47ed19b43729b6438400 Update 1EB31E020EAC2FC8 (Eugen Hristev)
+         909f7bf9b080c10df3c3b38533906dbf09ff1d8b PCI: Update saved_config_space upon resource assignment
+         f45a49a2380a47332817b7248c61a0ebbc6f0d00 PCI: Initialize temporary device in new_id_store()
+         bf5421b3d8d3d9216d045af89d4f7e2f75375554 MAINTAINERS: Update Marek Vasut email for PCIe R-Car
+         78e115d806b0eea83a0e4df182a689823aa80511 MAINTAINERS: Update Hans Zhang email for PCIe CIX Sky1
+         9ef40a09c5de18f0d275a451f5c2a7fd4f07158b MAINTAINERS: Add Aksh Garg as PCIe CADENCE reviewer
          
-
---===============1426993082229602812==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1778273254 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1778273254-aff0bd05ea6b98943e2a0570dd8b164646303ca7
-
-5dff7fd8e09b72ee10303ba80a730408f58a1ff8 1821b3b45fe8cfd5ea5a47ed19b43729b6438400 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaf5L5gAKCRC2xBzjVmSZ
-bAZjAP9EybqJFka4Yk005GrbCRMgGp4vSQlfFFWmrpSQk1joNwD8CzNOi8+d4MlF
-kF4d6uF60wSG2Zye3WwVPTVYN7NuzAw=
-=OEm7
------END PGP SIGNATURE-----
-
---===============1426993082229602812==--
