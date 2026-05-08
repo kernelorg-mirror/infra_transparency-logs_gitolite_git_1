@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 May 2026 22:33:09 -0000
-Message-Id: <177827958907.2867977.6737036961461426822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 08 May 2026 22:37:21 -0000
+Message-Id: <177827984164.2873095.6567059110240103403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4374fc0b89ff2f941ec7bcaeea47f3bc4f42f153
-    new: 04ae0d54c1b11a622b8b0f502675135c7d9dab61
+    old: 4908f1395fb1b832ceec11584af649874a2732ea
+    new: f2ab4fd02777c4081be38c35f939e4dc529b8952
     log: |
-         04ae0d54c1b11a622b8b0f502675135c7d9dab61 bnxt_en: Drop pci_save_state() after pci_restore_state()
+         f2ab4fd02777c4081be38c35f939e4dc529b8952 net: nsh: fix incorrect header length macros
          
