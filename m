@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7954693459954914637=="
+Content-Type: multipart/mixed; boundary="===============7381240716067308936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 08 May 2026 06:39:47 -0000
-Message-Id: <177822238779.1517979.9595945673370267059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 08 May 2026 06:39:56 -0000
+Message-Id: <177822239609.1518309.1440310787825712710@gitolite.kernel.org>
 
---===============7954693459954914637==
+--===============7381240716067308936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.12.87
-    old: 0000000000000000000000000000000000000000
-    new: 29c24b84ec72c47a215e410d10d616425f46ec1c
+  - ref: refs/heads/linux-6.12.y
+    old: bf89928ffeb731c623a15ee7327261131a80ddcb
+    new: 8bf2f55ef536982e44802d99340119dac6f50636
+    log: |
+         b54edf1e9a3fd3491bdcb82a21f8d21315271e0d xfrm: esp: avoid in-place decrypt on shared skb frags
+         8bf2f55ef536982e44802d99340119dac6f50636 Linux 6.12.87
+         
 
---===============7954693459954914637==
+--===============7381240716067308936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778222387 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1778222386-ba637f91222cda164eaf98f5df43fb166a4483ab
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778222395 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1778222394-86ddccfc0999b113340db0b3569312fd8565bbde
 
-0000000000000000000000000000000000000000 29c24b84ec72c47a215e410d10d616425f46ec1c refs/tags/v6.12.87
+bf89928ffeb731c623a15ee7327261131a80ddcb 8bf2f55ef536982e44802d99340119dac6f50636 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn9hTMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2G4QAISMX2XPCWmvRrQFk0Bh
-lGNJJLnUWzYTEmAiDU5LGf3badLwECJOscSPmQDW3itNZchXmFbBrPJ9S8y7Jamm
-OroEWgyGDRHxFs7PNvbRSW6KZcFIxPe+5t4baIJRFDZKl6ry82M6FF8bGoc1Gurz
-olMwoewAE0INVTIM5T1vwvu1a8xsevJLBChoOqpAUx4bB+m/Nh0scq87hw02vj6d
-p+hy/8aCYL/S51Xg4Nq/OGMRs+47Rjqzh30ibPHMISIC8ec1VRG2UcOBb5UAkjif
-ucKli8UCzmH7Q0xV1zx+KHM/AimiFHcPIkklAmqrSHXs1EfDcQwfbE1HAVr68FFG
-l+Bv1HwJuCVEzA8tsY9Q4hnED84Ew3coVXBB/W+BR538LcbLoqR2JBV35Zz2maTt
-nKoeM/xj+C64kvGnYNzQZurVaZn+kBPTWzWkleDJAkQ3s931HFf/zr4+0YoAntr1
-DnZzLOwKAT96KBVtXO6uSoMMzwtDBZjCAxGnL7QDSrlmS+/xhq5n/aTSBfKCKr66
-Fz+kamce2LbuJHVfGHufQLIwcyQ1dD+G3SQupkOm/nEAGn8u3gmaB7N3BS3w5QXZ
-+6q9niTB1Hmyv3sImFvYJtE/Do9u/DSKgUrkq3+YFGDuFtt+qQG1N0jDK58bE9bC
-OjCa+cbJ3h394MjEsjPnbhgJ
-=8sbw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn9hTsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iHQP/0+vZnbXDcYPtl6ogcBU
+/BDDYic/HT6w9mUmRY9bOdbPkxg0cZ5tZJM0G50j5XQgygkxgBuqZ+Zc6SLw/MLN
+lV8I0WxvqnuGnFYi+kxdTQ+5gxj1Mr/S3uT6qVrJrybArQLs6QkzMbPiBFdQEb1p
+eQQ7jUT5t2GTGYRGT/JyQGwxmFDdj9jubPyobVkoiyePKqDd4srrU8kChx2irKby
+zNimNcvFU+VEbSnF6dPL4M+GU+zFXEcabSu7Xs47kd//t0Gi95khuHb7kCi2ZCHs
+k1hbfrc6IO4uJfm3N2aGD40w6g1QExDOt2Ob2gNd2LG8FC5Ji7/FjRG9fiJdGo/y
+qQ+WZ0AwbUW5oBbZE+oj697ZH25H4ZNXgCv/2u9/X1oAW/RKtD7Fv75mr1iZM7Aw
+we12UKOxlcLEZGh+ov17rwVezn5Z6aVUDtNEDu+VhJERFPd2r1lx4Z5kLB80ftZ9
+pV1nLvXrnWyvGECsWQxJM9Lz7yk2f8qCCoIKrdkupFsu/sbrceOdws654lFKNAQJ
+cTBUR5FR5EqGswyguIGXWbXnPvW3CWLqVotdhsjvuak42DjspQ+LCbnv+Q+f+iY5
+PreSckWPxIAI3nRSzInEbBf5Pwiut2YT4HzZl2LLSAH1H9VnGJAXmw/bq/ndL7b9
+ejymxfovYUA55LF4IJCvXQxd
+=J26l
 -----END PGP SIGNATURE-----
 
---===============7954693459954914637==--
+--===============7381240716067308936==--
