@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4712095976662608852=="
+Content-Type: multipart/mixed; boundary="===============2293178274326874992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 08 May 2026 13:50:23 -0000
-Message-Id: <177824822356.2192305.8155318115101684245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 08 May 2026 13:50:25 -0000
+Message-Id: <177824822555.2192393.8521349889094539290@gitolite.kernel.org>
 
---===============4712095976662608852==
+--===============2293178274326874992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 917719c412c48687d4a176965d1fa35320ec457c
     log: revlist-254f49634ee1-917719c412c4.txt
 
---===============4712095976662608852==
+--===============2293178274326874992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -877,4 +877,4 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 917719c412c48687d4a176965d1fa35320ec457c Merge tag 'selinux-pr-20260507' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 
---===============4712095976662608852==--
+--===============2293178274326874992==--
