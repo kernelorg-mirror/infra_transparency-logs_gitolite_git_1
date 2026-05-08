@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Fri, 08 May 2026 01:22:23 -0000
-Message-Id: <177820334388.1141975.17992402826761120847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 08 May 2026 04:00:14 -0000
+Message-Id: <177821281426.1300324.4140279896501568973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-user: andrea
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: e6b064fd6477fe808c426fe37b5e3db7235b1722
-    new: 6696cdef69f0f551dbaadf790e20d4499aa8de8d
+  - ref: refs/heads/kernel-6.12.85/configs
+    old: b6fb1103acf1b3b536e5793bbb0701d176936c4e
+    new: 1034490f190707e3aecc2a3770cf408dabba574e
     log: |
-         eb11bb3840e063e7c13b876d827ae44212aa2112 Switch to triple_accel for restricted Damerau-Levenshtein
-         6696cdef69f0f551dbaadf790e20d4499aa8de8d Refactor tests to use assert_cmd and predicates
+         de2a46a99f13f7f5f26d0543053ac712d1fe0842 redhat/configs: disable esp4 and esp6 modules
+         1034490f190707e3aecc2a3770cf408dabba574e redhat/configs: disable rxrpc and AFS which depends on it
          
