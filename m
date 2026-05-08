@@ -1,67 +1,109 @@
-Content-Type: multipart/mixed; boundary="===============3253125628413887951=="
+Content-Type: multipart/mixed; boundary="===============6480067545174230834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 08 May 2026 08:05:26 -0000
-Message-Id: <177822752687.1718641.7153644518995728931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 08 May 2026 08:06:18 -0000
+Message-Id: <177822757887.1719836.12156175447467091830@gitolite.kernel.org>
 
---===============3253125628413887951==
+--===============6480067545174230834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-lts
-    old: 27997aca820b6a3ccdddc0fe522bb5c5e5e07d48
-    new: 6e85ae150e53ccb02069b1a308dbb661fa788f63
-    log: |
-         71a1d9d985d26716f74d21f18ee8cac821b06e97 xfrm: esp: avoid in-place decrypt on shared skb frags
-         c31b94a4231c974dca12e6b83f2af1d1d95dfc5e Linux 6.18.28
-         6e85ae150e53ccb02069b1a308dbb661fa788f63 Merge v6.18.28
-         
-  - ref: refs/heads/linux-rolling-stable
-    old: 87243017ceeebafc53b57e1aa588f5b5a4ec6cf1
-    new: b76d4ff95d69e115996bfdaa3fb24a676b58f661
-    log: |
-         52646cbd00e765a6db9c3afe9535f26218276034 xfrm: esp: avoid in-place decrypt on shared skb frags
-         3fd2ca34a3e7d1f52e7deaa27016379935ae0845 Linux 7.0.5
-         b76d4ff95d69e115996bfdaa3fb24a676b58f661 Merge v7.0.5
-         
+  - ref: refs/tags/v5.10.254
+    old: 0000000000000000000000000000000000000000
+    new: d9c52472d26301b42c623dbdfa6317f387360b45
+  - ref: refs/tags/v5.15.204
+    old: 0000000000000000000000000000000000000000
+    new: db25853f974f4e34fce16cbedb9fe8d6ee98a795
+  - ref: refs/tags/v6.1.170
+    old: 0000000000000000000000000000000000000000
+    new: 02d4d51a937120cc924e3df214b1ff271234f020
+  - ref: refs/tags/v6.12.85
+    old: 0000000000000000000000000000000000000000
+    new: 219386cfdf6f0bcc3d1fcc87ed72af0ad4c6bbc4
+  - ref: refs/tags/v6.12.86
+    old: 0000000000000000000000000000000000000000
+    new: a533beb1007af5bd6b3e3b452a6029b76ebf27f7
+  - ref: refs/tags/v6.12.87
+    old: 0000000000000000000000000000000000000000
+    new: 669dc96e243e422e7404bb98be00d527bafc0a96
+  - ref: refs/tags/v6.18.26
+    old: 0000000000000000000000000000000000000000
+    new: 0d7ab9b63556acccfb5e30d091b1e702b93725cc
+  - ref: refs/tags/v6.18.27
+    old: 0000000000000000000000000000000000000000
+    new: e78bb35f34dac6dcbf40fc9388d36cf052a5f09e
+  - ref: refs/tags/v6.18.28
+    old: 0000000000000000000000000000000000000000
+    new: a9e961213e550979391f6b296888c3310f284a75
+  - ref: refs/tags/v6.6.137
+    old: 0000000000000000000000000000000000000000
+    new: cae5627a9111bb0634ef724e31460de925184d23
+  - ref: refs/tags/v6.6.138
+    old: 0000000000000000000000000000000000000000
+    new: 6a68f44d91fe83e54f8ecb96723aa67636d5d69f
+  - ref: refs/tags/v7.0.3
+    old: 0000000000000000000000000000000000000000
+    new: 9d0263b7446c985ffec3eb48a17104dfe4bc1115
+  - ref: refs/tags/v7.0.4
+    old: 0000000000000000000000000000000000000000
+    new: 323d064dd4c4fd8de97e74e22595329472c70a35
+  - ref: refs/tags/v7.0.5
+    old: 0000000000000000000000000000000000000000
+    new: f9c7b79f2c8b978778872de396936bf003852330
+  - ref: refs/tags/v7.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
 
---===============3253125628413887951==
+--===============6480067545174230834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778227525 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1778227525-583956867785d723237cfce27c8a4ded43eb4c32
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778227575 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1778227574-80511f09154c07a243e96d653f49fbd9259361d3
 
-27997aca820b6a3ccdddc0fe522bb5c5e5e07d48 6e85ae150e53ccb02069b1a308dbb661fa788f63 refs/heads/linux-rolling-lts
-87243017ceeebafc53b57e1aa588f5b5a4ec6cf1 b76d4ff95d69e115996bfdaa3fb24a676b58f661 refs/heads/linux-rolling-stable
+0000000000000000000000000000000000000000 d9c52472d26301b42c623dbdfa6317f387360b45 refs/tags/v5.10.254
+0000000000000000000000000000000000000000 db25853f974f4e34fce16cbedb9fe8d6ee98a795 refs/tags/v5.15.204
+0000000000000000000000000000000000000000 02d4d51a937120cc924e3df214b1ff271234f020 refs/tags/v6.1.170
+0000000000000000000000000000000000000000 219386cfdf6f0bcc3d1fcc87ed72af0ad4c6bbc4 refs/tags/v6.12.85
+0000000000000000000000000000000000000000 a533beb1007af5bd6b3e3b452a6029b76ebf27f7 refs/tags/v6.12.86
+0000000000000000000000000000000000000000 669dc96e243e422e7404bb98be00d527bafc0a96 refs/tags/v6.12.87
+0000000000000000000000000000000000000000 0d7ab9b63556acccfb5e30d091b1e702b93725cc refs/tags/v6.18.26
+0000000000000000000000000000000000000000 e78bb35f34dac6dcbf40fc9388d36cf052a5f09e refs/tags/v6.18.27
+0000000000000000000000000000000000000000 a9e961213e550979391f6b296888c3310f284a75 refs/tags/v6.18.28
+0000000000000000000000000000000000000000 cae5627a9111bb0634ef724e31460de925184d23 refs/tags/v6.6.137
+0000000000000000000000000000000000000000 6a68f44d91fe83e54f8ecb96723aa67636d5d69f refs/tags/v6.6.138
+0000000000000000000000000000000000000000 9d0263b7446c985ffec3eb48a17104dfe4bc1115 refs/tags/v7.0.3
+0000000000000000000000000000000000000000 323d064dd4c4fd8de97e74e22595329472c70a35 refs/tags/v7.0.4
+0000000000000000000000000000000000000000 f9c7b79f2c8b978778872de396936bf003852330 refs/tags/v7.0.5
+0000000000000000000000000000000000000000 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a refs/tags/v7.1-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn9mUUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dtUP/AjqyFYed8IlG7/CnDvk
-RqydxkxUuM4E+qj2HhgcJIFNmbi4jn7+mB6PGXOFCez0p4vYc1wFQZeRr6/npxql
-4bhoVaj7x/s1oVEsm70VkCAdE0RiCQ+uWmdDSgu53smtOYXFuvNdso/MHc+Cg77Q
-y3l6iQ3iOsMhNxYfl+cRMfxVoumCSKmOvbd646lnYVE7Gb0VHU9+zsVYScNx+JW/
-cvH07uL06BV2Eh/bHSQ6C4GaJdjom/iNr7ksSJ8z7e+FuQWtV5uiUhGv3e6Esi8c
-6MWOXIAV3hQ+JsXww1/Nk8l7TPYLnLdTW4Qttiyzb6RXzXfmNyiZwmC91jkF7vXw
-OryWotE7RauB3d6s2fFhsA5pdacZC7pQyY/0o68HIjvgMNAyVDViS0e8Vvm4CW1h
-SkpyQORPzFyMMkHXrUn4Fh2rQfrKfhbbdpHy0VrjEITER07862SecCiRpGm+Amnx
-WxAktWtYSeM9ors3JAY8nSQINuaPkXrwxdyhFPDb9khCwzu82eW1iHETVp8i/vSp
-53qRfGNeeQL4yH++DfkFj5KUKkada2ZQVUk74Twm4I3jJWZTnll0BfkWvMcbmqlV
-ylZXfOJZInL4QPZuPiYpVOkM2fsJLpwdd3FsUO65um0tOtznw0KJJbZHwY2z0KI4
-Q06wHrVBJXSr75L+JYAdf4GH
-=9mmB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn9mXcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TL0QAJM54J2/2m7omQELjSHc
+yi1N30f+qAVWRWy6m1O0eD/4mGxuNA4GYty7IKz3VisgDDpM3n/+51gZlPMVGIH7
+IaMzmpyHgY3qflwsqyqA+uTSGyxbd+wGY1eIE014TuhileoDxLacHN/pnPp4jEuX
+5QJi5M6J9PaHcOpzOsrOM4Cf7VMJtPpncKAMubcx1sj2M8EOcDeBWSMbquAr0aXm
+UfKSwKi0YUwaY8ujlQ0NFBuKbfC7ZZpvfb56XPkRvjKnh0fBZS8+4bSfQowWzHaF
+f5tqsuw19nM5ypRo5H7Eqar1D9v5X9VeG3rGHQHhBeRJ4TtWidfSjQYStt074425
+uGEVcFBlW7AutfB9v6iY3byKQIq519yBB6mggByzykDqrU9WSOrjiRCwP7aad+Qa
+NG+T84x8wenor9+BXqhs6FSVKn9/EurqCPa2YqbwYekOTVa6cy2GhqxBGVC+b+2p
+fBOgiCBxqDsZVNkqEf8wJaBhq4ZIOu6n9dxm2YGlfPMeYwPVgNUdXTzbOggz7k1K
+fRP6ewMYQOeFPxlfOSMBLhm791PZNB4LyleaOuQFshNwA4QlJVdjldVEREaj8zAF
+sP6zNdHwwHGgyhnaBaRisVfvUp11Q9uWqW7gISWC6/7TxPJwun9Z9wdERBI2k/MW
+3qRfpDOECyqCVskP5rsaaJMD
+=xIjs
 -----END PGP SIGNATURE-----
 
---===============3253125628413887951==--
+--===============6480067545174230834==--
