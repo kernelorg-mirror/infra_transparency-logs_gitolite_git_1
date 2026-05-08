@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 08 May 2026 22:04:20 -0000
-Message-Id: <177827786053.2835290.10511845893453430538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 08 May 2026 22:06:04 -0000
+Message-Id: <177827796402.2839370.12639718402957027632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 1821b3b45fe8cfd5ea5a47ed19b43729b6438400
-    new: ecdd3e6cb2ab7aa40fb670bbd2c2fd3b36ff2ead
+  - ref: refs/heads/main
+    old: ce3d4a67a076f04c40afb1b0ce7c211de9fc4697
+    new: ae5c3718aeecc2b17f925255220b24e8ef10ee60
     log: |
-         2ba9ff54f6cafc256880272beb00a07800ef2145 Resigned keys from 085F3EBD8EE4E115
-         ecdd3e6cb2ab7aa40fb670bbd2c2fd3b36ff2ead Resigned keys for khilman
+         ae5c3718aeecc2b17f925255220b24e8ef10ee60 net: ethernet: atheros: atl2: remove kernel backward-compatibility code
          
