@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4958057195541474342=="
+Content-Type: multipart/mixed; boundary="===============1745356785173091316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 08 May 2026 06:45:20 -0000
-Message-Id: <177822272093.1581212.8056046721821696951@gitolite.kernel.org>
+Date: Fri, 08 May 2026 06:45:26 -0000
+Message-Id: <177822272647.1581445.5354301160968957459@gitolite.kernel.org>
 
---===============4958057195541474342==
+--===============1745356785173091316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-7.0.y
-    old: 7e95b21b3c5177b34c86c46e3128bd3a7311429f
-    new: 3fd2ca34a3e7d1f52e7deaa27016379935ae0845
-    log: |
-         52646cbd00e765a6db9c3afe9535f26218276034 xfrm: esp: avoid in-place decrypt on shared skb frags
-         3fd2ca34a3e7d1f52e7deaa27016379935ae0845 Linux 7.0.5
-         
+  - ref: refs/tags/v7.0.5
+    old: 0000000000000000000000000000000000000000
+    new: f9c7b79f2c8b978778872de396936bf003852330
 
---===============4958057195541474342==
+--===============1745356785173091316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778222719 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778222724 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1778222718-f7c58179d7929037577c0590b1fc93533656ea04
+nonce 1778222723-fad87243efa7a780f4720fb26ddfe5aebc6bfc78
 
-7e95b21b3c5177b34c86c46e3128bd3a7311429f 3fd2ca34a3e7d1f52e7deaa27016379935ae0845 refs/heads/linux-7.0.y
+0000000000000000000000000000000000000000 f9c7b79f2c8b978778872de396936bf003852330 refs/tags/v7.0.5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn9hn8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f4kQAJKSIhhwWGj9pyhledFu
-BYhxHJcXS6I3AJ+sc6fioljyLCKJc9jms6227ODtpdECYQZr7qTP/O78stnw6La/
-FlohTPaVSJBpIXtcaTSWSqa4o07TVu2qdz3iqZaBN3OUYaZXMcA7T665fMGdyO7b
-T68o9d3ncWyVGuN1hH6pdoa8jd8a1yeCZUd9MV5LxjiiiFEPfM6zOLclFRFeYPvt
-ixfwZi85ovHHCJCgt4Zwk9abQA1d1qyEk7O5lacCxHLteeHSWZk3uoGM6kX7kjRB
-HfxyVwxXWvBS19O168rPbBbbG5u/exnXZxh//W+bz9mZlnGrES07iHUl0zCM5/kT
-vq6038VK3HUoZerGswJRKLN+YhHRBf/bjjlQPGSBRzEneoKjJvDtYxoElIyeIMJd
-ubSVsxqJz0zPyS1TLA/pMsnkDSil8kwJ+66mv+VTAX4R7tNpQXU35b9PJD2zREei
-371VUvzMHBE7Cr/Ygrx3UkZ/Bdc98wNTNL8E2HPZ6ZpxELlSmJdpYD5CQP5H9xfa
-GXvoNBZbIp0WjGfSpvv6bibi9/bGJv8zhUUwnytN9Z6wa3c31goVVDCfWpr2d1nk
-JlGJ4IETKb1efa6S/PrEB0NRk0KyiWwrBVRN/MPeonJMLO4iX/7w77gv0Q02xpWp
-Y/LQaoba2rTCfZdmhhBgKmPy
-=bNPX
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn9hoQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IVMP/35GW0csweY1q978efLy
+MUF2HXR8ZHWe3lBjCLUcaEzFcFDN64aI6Lp+Ya/7eBvbmbEtbKIDfH4Gpq/c93rz
+HkoCbKRFyAbTYKQQdTNr6foJHurezJE1odrB8pTNd0dR7LoBoYadaxcLiGoA559k
+OIgEAiKAW2fWnqp7QL1iiKBZ/ymFPhLYsDy2FBgYdT0VcUzE3qrc5DWVvo+VPHRw
+Z7lf5a46jpfWqfSY1QRAJnWOfsX+zjsfcB4h1Yqe4PZtiUm2tjpHT+OydXsqB6jr
+heZpMjyyiJ6IsjmZdwGoyysYkQiBPiUU/SaXrQ1/bhNhbZitHWkgsh2Gi0c1cu65
+slZthB9xuDBLdy7aCvUpZOySckjpOXcfxNgBXCHYHCuNtF4I8jc2vyzWa5XmVDad
+cZYECBWnzKHhUa6HEZgXmBgUZpAdelWTEebIOCuKSA/ivUh663wu81ZLhhgDdt7z
+cUHSupSZr9bd9C3FylOD6jRZOATIz2M1cLkf87dQaVOdj5RBdmqiFomRx5yHaRlQ
+/TMvw+rrpu6mWjyKbSazHtl5W4kXSH3GZPYEYigoyLiPYuiPUZlxhcq09AlDMewh
+mugGc8kV6Dvg+BbyefAGxl0Yl8yOY6NDJ74rHcYqOs/+BKXthSWmdzOxXLibJHM3
+coUcXNwHBWI8ZgdYW3cO1jZz
+=tBCu
 -----END PGP SIGNATURE-----
 
---===============4958057195541474342==--
+--===============1745356785173091316==--
