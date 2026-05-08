@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3505800103068546810=="
+Content-Type: multipart/mixed; boundary="===============2878719666303922515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 May 2026 00:17:34 -0000
-Message-Id: <177819945490.1067520.9448467248355037122@gitolite.kernel.org>
+Date: Fri, 08 May 2026 00:17:37 -0000
+Message-Id: <177819945776.1067773.1678538197523140193@gitolite.kernel.org>
 
---===============3505800103068546810==
+--===============2878719666303922515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2281958e60079e063bd6e9e5e46e8786a9853ea8
     new: 6a4c4656b0d2d4056a1f0c35442db4e8a5cf8021
     log: revlist-2281958e6007-6a4c4656b0d2.txt
 
---===============3505800103068546810==
+--===============2878719666303922515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -647,4 +647,4 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6a4c4656b0d2d4056a1f0c35442db4e8a5cf8021 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3505800103068546810==--
+--===============2878719666303922515==--
