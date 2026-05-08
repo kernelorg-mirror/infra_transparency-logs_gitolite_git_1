@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Fri, 08 May 2026 10:43:27 -0000
-Message-Id: <177823700752.1934969.8003982006549698426@gitolite.kernel.org>
+Date: Fri, 08 May 2026 10:43:35 -0000
+Message-Id: <177823701502.1935182.17850609762296770291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvms390/linux
 user: borntraeger
 changes:
-  - ref: refs/heads/53_pv
-    old: cb89195caf34ddf14dc688ae062bbed4f236230f
+  - ref: refs/heads/54_pv
+    old: 467b25f3a4b08f49825712fd1132cc203218067f
     new: 0000000000000000000000000000000000000000
