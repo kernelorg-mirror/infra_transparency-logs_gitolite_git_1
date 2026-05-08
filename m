@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/next-utils/tools
-Date: Fri, 08 May 2026 13:46:20 -0000
-Message-Id: <177824798090.2186489.13180584999229917567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Fri, 08 May 2026 13:47:14 -0000
+Message-Id: <177824803424.2187102.4994037135474969388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/next-utils/tools
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/etc
-    old: 11d9479aca5d968f4fc9644a8697ef045a4c6b92
-    new: 9490ca131a8be4c2a6c0b3516c704bb25d0e16bf
+  - ref: refs/heads/ntfs-next
+    old: 788ac190a6a916f31ff5ba0ad7bf7f98fa997c46
+    new: 0815f7abd7a8b2264505ad7973f16edec4230d17
     log: |
-         9490ca131a8be4c2a6c0b3516c704bb25d0e16bf Add modularized git configuration
+         0815f7abd7a8b2264505ad7973f16edec4230d17 ntfs: avoid leaking uninitialised bytes in new security descriptors
          
