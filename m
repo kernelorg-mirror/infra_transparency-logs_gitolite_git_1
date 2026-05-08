@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4120028683697766165=="
+Content-Type: multipart/mixed; boundary="===============0753803573270656649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 May 2026 00:17:52 -0000
-Message-Id: <177819947228.1068518.9948134980138373996@gitolite.kernel.org>
+Date: Fri, 08 May 2026 00:17:59 -0000
+Message-Id: <177819947914.1068762.3602569520833477784@gitolite.kernel.org>
 
---===============4120028683697766165==
+--===============0753803573270656649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 105900fe246d11f61315d8c1e3b3a67d45687dc2
-    new: 96ad134fe38780bc13f4e134fa00beea83ab3a10
-    log: revlist-105900fe246d-96ad134fe387.txt
+  - ref: refs/heads/200GbE
+    old: 349ceb8eac704c0c1773bf899e7f257b4718280d
+    new: 785efbfbedf0f511d8f371affa1c7753e1271e26
+    log: revlist-349ceb8eac70-785efbfbedf0.txt
 
---===============4120028683697766165==
+--===============0753803573270656649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-105900fe246d-96ad134fe387.txt
+Content-Disposition: attachment; filename=revlist-349ceb8eac70-785efbfbedf0.txt
 
 4606467a75cfc16721937272ed29462a750b60c8 nvmet-tcp: check INIT_FAILED before nvmet_req_uninit in digest error path
 723277b15ed97185ce6f75abbf19f06e00f0a6f5 nvme: add missing MODULE_ALIAS for fabrics transports
@@ -646,10 +646,19 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 41ae14071cd7f6a7770e2fe1f8a0859d4c2c6ba4 net: sparx5: configure serdes for 1000BASE-X in sparx5_port_init()
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6a4c4656b0d2d4056a1f0c35442db4e8a5cf8021 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-75dabe7587a1396534cc660263e528c95e7d86d2 libeth: pass Rx queue index to PP when creating a fill queue
-892c432279f89b7a7a410822b2a66c9042f97c28 libeth: handle creating pools with unreadable buffers
-941b123a43678310a577a235e45dee03537c02ee ice: migrate to netdev ops lock
-bdedc03c7d20c3020004d6e995725a86fe43fe4a ice: implement Rx queue management ops
-96ad134fe38780bc13f4e134fa00beea83ab3a10 ice: add support for transmitting unreadable frags
+489b7a9c0d8098d1871779faeb65b453191ab6fa virtchnl: create 'include/linux/intel' and move necessary header files
+90ae0372327806d5a5aff4ead3a70b93d5cbc9db libie: add PCI device initialization helpers to libie
+cb6b6e2622bf6c5c60c594c360a31e197d7d902a libeth: allow to create fill queues without NAPI
+d8afd196b58f542f20bfe871290a72993ff77256 libie: add control queue support
+963fcdeddffc6df12bf25131b7cb6bce445c0c30 libie: add bookkeeping support for control queue messages
+049438379bbaf4e4eff63c0ff46e568238d49d19 idpf: remove 'vport_params_reqd' field
+bba588806ccc381a1ee1fffa989cc152775e218d idpf: refactor idpf to use libie_pci APIs
+de0286565af0f612e6a90f18b00f75a9c75d28ab idpf: refactor idpf to use libie control queues
+f518047f78256b956932705ff83892d4f9018b82 idpf: make mbx_task queueing and cancelling more consistent
+4d04168efe8115273271c37e65bf3cbf558c5510 idpf: print a debug message and bail in case of non-event ctlq message
+76accdf98c2fb39993f42f7dfdbba4c8f0e2359a ixd: add basic driver framework for Intel(R) Control Plane Function
+3f6e1a5857373262aada1006d03dad164df9f015 ixd: add reset checks and initialize the mailbox
+128f3a5e8c00a72a493c62383165324df4d328c1 ixd: add the core initialization
+785efbfbedf0f511d8f371affa1c7753e1271e26 ixd: add devlink support
 
---===============4120028683697766165==--
+--===============0753803573270656649==--
