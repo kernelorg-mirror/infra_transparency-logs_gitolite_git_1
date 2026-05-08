@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1174527009882761555=="
+Content-Type: multipart/mixed; boundary="===============6233117603552472984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 08 May 2026 13:30:41 -0000
-Message-Id: <177824704147.2168495.13096855998304393306@gitolite.kernel.org>
+Date: Fri, 08 May 2026 13:30:54 -0000
+Message-Id: <177824705459.2169018.4397178474663615887@gitolite.kernel.org>
 
---===============1174527009882761555==
+--===============6233117603552472984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/ffa_plat_dev
-    old: f575a5968b0ea3e24777e2ae46526dae8f1437d5
-    new: 31a257a75354e02a9ebb93693b19d9cd1ff3b557
-    log: revlist-f575a5968b0e-31a257a75354.txt
+  - ref: refs/heads/master
+    old: 74fe02ce122a6103f207d29fafc8b3a53de6abaf
+    new: 917719c412c48687d4a176965d1fa35320ec457c
+    log: revlist-74fe02ce122a-917719c412c4.txt
 
---===============1174527009882761555==
+--===============6233117603552472984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f575a5968b0e-31a257a75354.txt
+Content-Disposition: attachment; filename=revlist-74fe02ce122a-917719c412c4.txt
 
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
 ec54093e6a8f87e800bb6aa15eb7fc1e33faa524 xfrm: ah: account for ESN high bits in async callbacks
@@ -325,9 +325,5 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 41ae14071cd7f6a7770e2fe1f8a0859d4c2c6ba4 net: sparx5: configure serdes for 1000BASE-X in sparx5_port_init()
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 917719c412c48687d4a176965d1fa35320ec457c Merge tag 'selinux-pr-20260507' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-ee40be1fb5052d753e1328feca84229beb4ec2a2 Revert "firmware: arm_ffa: Change initcall level of ffa_init() to rootfs_initcall"
-0217212a0e94e05a65f473febd2eaa45ec64c7f8 firmware: arm_ffa: Register core as a platform driver
-0ccad44a2930fc8c4e98775bb6fcffbd922d5138 firmware: arm_ffa: Set the core device as FF-A device parent
-31a257a75354e02a9ebb93693b19d9cd1ff3b557 firmware: arm_ffa: Defer probe until pKVM is initialized
 
---===============1174527009882761555==--
+--===============6233117603552472984==--
