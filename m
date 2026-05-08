@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2278498560190308128=="
+Content-Type: multipart/mixed; boundary="===============6292946706729531372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 08 May 2026 00:22:58 -0000
-Message-Id: <177819977878.1074155.5679564470850895179@gitolite.kernel.org>
+Date: Fri, 08 May 2026 00:23:01 -0000
+Message-Id: <177819978173.1074313.5761867234018082601@gitolite.kernel.org>
 
---===============2278498560190308128==
+--===============6292946706729531372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b89e0100a5f6885f9748bbacc3f4e3bcff654e4c
     new: fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0
     log: revlist-b89e0100a5f6-fcee7d82f27d.txt
 
---===============2278498560190308128==
+--===============6292946706729531372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -479,4 +479,4 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 41ae14071cd7f6a7770e2fe1f8a0859d4c2c6ba4 net: sparx5: configure serdes for 1000BASE-X in sparx5_port_init()
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2278498560190308128==--
+--===============6292946706729531372==--
