@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 08 May 2026 20:21:32 -0000
-Message-Id: <177827169280.2731036.10858758602755150659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Fri, 08 May 2026 20:30:00 -0000
+Message-Id: <177827220059.2737729.13624890766817928537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: d1c29a34fe35c1eb9331cab0537c7bb583692187
-    new: 3b67f146a05724d37784e54cdd4302edf9128448
+  - ref: refs/heads/dma-mapping-for-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: a34bd60bdaebb1db4631cad45ff87dcabf4fc962
     log: |
-         6a7c7e4d8051dde8cfa2f88318f6acf60a68c2df svcrdma: Release write chunk resources without re-queuing
-         e541af30195d62080c36bfecba3527ec2a2be706 svcrdma: Defer send context release to xpo_release_ctxt
-         ad5cbff6907541da31456bf4d354ef8f88bb553e [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         3b67f146a05724d37784e54cdd4302edf9128448 siw: Enable try_gso
+         da6d997ac556479c112554ab5d95cbd04683eb11 ntb: Store original DMA address for future release
+         9d625aa2ebd445868955719e0abcf695b43f9318 ntb: Use consistent DMA attributes when freeing DMA mappings
+         5da80b8fb38006c7e79b06cba711c28219f17ab2 dma-debug: Remove unused DMA attribute parameter
+         04d492ab964a6256a93ed11cdf99b126281e793a dma-debug: Record DMA attributes in debug entry
+         c8411b1d1e524cbe4a12aacad7bf2163fb2be062 dma-debug: Feed DMA attribute for unmapping flows too
+         a34bd60bdaebb1db4631cad45ff87dcabf4fc962 dma-debug: Ensure mappings are created and released with matching attributes
          
