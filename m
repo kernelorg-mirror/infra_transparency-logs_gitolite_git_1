@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9172338926369649368=="
+Content-Type: multipart/mixed; boundary="===============3505800103068546810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 May 2026 00:17:32 -0000
-Message-Id: <177819945212.1067429.16750595527359957854@gitolite.kernel.org>
+Date: Fri, 08 May 2026 00:17:34 -0000
+Message-Id: <177819945490.1067520.9448467248355037122@gitolite.kernel.org>
 
---===============9172338926369649368==
+--===============3505800103068546810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: db77f100043053dd761cfe834fc727e8f5df4d21
-    new: 612b8aca47d1ca52c59fe4a28b6a8bd8c7d6c77e
-    log: revlist-db77f1000430-612b8aca47d1.txt
+  - ref: refs/heads/10GbE
+    old: 2281958e60079e063bd6e9e5e46e8786a9853ea8
+    new: 6a4c4656b0d2d4056a1f0c35442db4e8a5cf8021
+    log: revlist-2281958e6007-6a4c4656b0d2.txt
 
---===============9172338926369649368==
+--===============3505800103068546810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db77f1000430-612b8aca47d1.txt
+Content-Disposition: attachment; filename=revlist-2281958e6007-6a4c4656b0d2.txt
 
 4606467a75cfc16721937272ed29462a750b60c8 nvmet-tcp: check INIT_FAILED before nvmet_req_uninit in digest error path
 723277b15ed97185ce6f75abbf19f06e00f0a6f5 nvme: add missing MODULE_ALIAS for fabrics transports
@@ -646,18 +646,5 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 41ae14071cd7f6a7770e2fe1f8a0859d4c2c6ba4 net: sparx5: configure serdes for 1000BASE-X in sparx5_port_init()
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6a4c4656b0d2d4056a1f0c35442db4e8a5cf8021 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-a0dfe8632c298d8f9a8f999b515ce78a80407c46 igc: Call netif_queue_set_napi() with rtnl locked
-0f7acacf7cf607c1f0463c59d0da6f6ad4b82eb9 igc: Let the PCI core deal with the PM resume flow
-fc2fa4abb2b5feb2d22b5571020d9535c2a30e10 igc: Don't reset the hardware on suspend path
-be5046fa5b5186da5956d4204ca33ca330f44a71 igc: prepare for RSS key get/set support
-e4945d814325c5bc643e21c18a454168c9b99f43 igc: expose RSS key via ethtool get_rxfh
-4bbb026d3c04cea069f30154144c5d63a7d41790 igc: allow configuring RSS key via ethtool set_rxfh
-c151cc27f8b7d3f4df9ded74b13b70cc9f079aa7 igb: prepare for RSS key get/set support
-fa84965dd7f9c31be8d777be9213a1797e927041 igb: expose RSS key via ethtool get_rxfh
-da36cb42ac8a830b3821740fbdc79a429974ecaa igb: allow configuring RSS key via ethtool set_rxfh
-db7a1240751ffa94239b2416b742af5a64268367 igb: set skb hash type from RSS_TYPE
-3da55bd0cec0b8ad4d2251a96a3eedc83db39ed3 igb: fix typos in comments
-e3f1fec608642e0e344d6594c1471f03bc6d4a7b igc: fix typos in comments
-612b8aca47d1ca52c59fe4a28b6a8bd8c7d6c77e ice: add support for unmanaged DPLL on E830 NIC
 
---===============9172338926369649368==--
+--===============3505800103068546810==--
