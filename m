@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9089067868898429329=="
+Content-Type: multipart/mixed; boundary="===============2577713883530516300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 08 May 2026 05:23:45 -0000
-Message-Id: <177821782528.1440084.10860909711541116220@gitolite.kernel.org>
+Date: Fri, 08 May 2026 05:24:09 -0000
+Message-Id: <177821784905.1440584.5925588042892091607@gitolite.kernel.org>
 
---===============9089067868898429329==
+--===============2577713883530516300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f4ba99aca634b89077d2ca4d0055e95211b0dd26
-    new: 4001e2d26bf5d49df956c8d89fde7b74acd48736
-    log: revlist-f4ba99aca634-4001e2d26bf5.txt
+    old: 4001e2d26bf5d49df956c8d89fde7b74acd48736
+    new: 4035587c3afc20ad3b8db5db20cacf408dc8f7df
+    log: revlist-4001e2d26bf5-4035587c3afc.txt
+  - ref: refs/heads/tip/urgent
+    old: 2fedeb50efa29422f916bd32817e436a76f197fc
+    new: f2bb7a8bb95d893e2966a868ddcad0e23370267b
+    log: revlist-2fedeb50efa2-f2bb7a8bb95d.txt
 
---===============9089067868898429329==
+--===============2577713883530516300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4ba99aca634-4001e2d26bf5.txt
+Content-Disposition: attachment; filename=revlist-4001e2d26bf5-4035587c3afc.txt
+
+ed97cb92d4eb8476b28f55a9abdeb760f8a650b5 Merge branch into tip/master: 'perf/urgent'
+9c3b4c8060218d47f8c116febf041162875ed015 Merge branch into tip/master: 'sched/urgent'
+f63540f3ba89df5fb70c64b2ebae07e48ca1b094 Merge branch into tip/master: 'timers/urgent'
+f2bb7a8bb95d893e2966a868ddcad0e23370267b Merge branch into tip/master: 'x86/urgent'
+b62027e85bd956735bcb69d3a3c9a164ac180f08 Merge branch into tip/master: 'irq/drivers'
+f2bace82b95abbd7d8047375cf36c2d758f79458 Merge branch into tip/master: 'locking/core'
+01de0ab3a8cb784c3422927ef9042e461a77592a Merge branch into tip/master: 'objtool/core'
+736340d8e83c64d0074a728d35f5da87ba8d799f Merge branch into tip/master: 'perf/core'
+be9591f37411020a0cb98e5f23017fa975dc139d Merge branch into tip/master: 'sched/core'
+356ea4232a630fb832eab57141ae7c6f0eaf0509 Merge branch into tip/master: 'timers/clocksource'
+4f0f398a41204edcdffab9dde5269de1df4b03a2 Merge branch into tip/master: 'timers/core'
+6e69df9721f026ff5883f8a79787a1ad0e093327 Merge branch into tip/master: 'x86/cleanups'
+461115cad5a6352d1b691429bf48ebfd714eaaac Merge branch into tip/master: 'x86/cpu'
+5ea7db498f045f9f4c5c575b91e4820064922c90 Merge branch into tip/master: 'x86/microcode'
+13a870ad9687903f29d0e7b34b3c3548930ecb90 Merge branch into tip/master: 'x86/misc'
+28d4450eccb15837f525efe338805bf85319c91c Merge branch into tip/master: 'x86/sev'
+4035587c3afc20ad3b8db5db20cacf408dc8f7df Merge branch into tip/master: 'x86/tdx'
+
+--===============2577713883530516300==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2fedeb50efa2-f2bb7a8bb95d.txt
 
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
 ec54093e6a8f87e800bb6aa15eb7fc1e33faa524 xfrm: ah: account for ESN high bits in async callbacks
@@ -284,6 +312,9 @@ b131dc93f7bf1b1461f5bde0c06c4c2384aa5b58 net: sparx5: fix wrong chip ids for TSN
 41ae14071cd7f6a7770e2fe1f8a0859d4c2c6ba4 net: sparx5: configure serdes for 1000BASE-X in sparx5_port_init()
 fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0 Merge tag 'net-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 917719c412c48687d4a176965d1fa35320ec457c Merge tag 'selinux-pr-20260507' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-4001e2d26bf5d49df956c8d89fde7b74acd48736 Merge branch 'linus'
+ed97cb92d4eb8476b28f55a9abdeb760f8a650b5 Merge branch into tip/master: 'perf/urgent'
+9c3b4c8060218d47f8c116febf041162875ed015 Merge branch into tip/master: 'sched/urgent'
+f63540f3ba89df5fb70c64b2ebae07e48ca1b094 Merge branch into tip/master: 'timers/urgent'
+f2bb7a8bb95d893e2966a868ddcad0e23370267b Merge branch into tip/master: 'x86/urgent'
 
---===============9089067868898429329==--
+--===============2577713883530516300==--
