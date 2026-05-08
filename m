@@ -1,46 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7245706221647410465=="
+Content-Type: multipart/mixed; boundary="===============4827811543258917980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 08 May 2026 18:09:14 -0000
-Message-Id: <177826375429.2589113.15988079641018109552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 08 May 2026 18:15:01 -0000
+Message-Id: <177826410100.2594863.6523780412706378755@gitolite.kernel.org>
 
---===============7245706221647410465==
+--===============4827811543258917980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 46a9140655840a9f97c8ffbb3ad097293201bdb8
-    new: 5dff7fd8e09b72ee10303ba80a730408f58a1ff8
+  - ref: refs/heads/review-ilpo-next
+    old: 6cf1c1e9f21ba2e44e05e691d5241290c7d6c41a
+    new: 1448c2d2ca5cc7f4ea6694e6bc809946de0a751c
     log: |
-         5dff7fd8e09b72ee10303ba80a730408f58a1ff8 Add 0652C73F32294072 (DeXuan Cui)
+         49133d4ae0c9ceb63fa042c0b46b34e26e1c6676 platform/x86: barco-p50-gpio: attach software node to its target GPIO device
+         fa84425e53c43c8a17ac2af2c8f99202f4e1ee7e platform/x86: pcengines-apuv2: reduce indiraction in swnode assignment
+         083a59e05db9203c346e87d822c0c12a0f7a7c85 ACPI: provide acpi_bus_find_device_by_name()
+         1448c2d2ca5cc7f4ea6694e6bc809946de0a751c platform/x86: x86-android-tablets: enable fwnode matching of GPIO chips
          
 
---===============7245706221647410465==
+--===============4827811543258917980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1778263753 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1778263753-16e4576c292984a4dd3d238fd57fa55a5bec1ce3
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1778264097 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1778264096-2633a2aa6381aea6a86a14d7c7274f744451b55d
 
-46a9140655840a9f97c8ffbb3ad097293201bdb8 5dff7fd8e09b72ee10303ba80a730408f58a1ff8 refs/heads/master
+6cf1c1e9f21ba2e44e05e691d5241290c7d6c41a 1448c2d2ca5cc7f4ea6694e6bc809946de0a751c refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaf4myQAKCRC2xBzjVmSZ
-bKpxAQC9QQ5+y1NvKDMwqeHKF3M6ZdZYbaEY60hryETHeQswewD+Nv3a/mWSDEPz
-TfKQvG2E54AuCQKyDNu8vJaeA2M3ZQ4=
-=YwUV
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaf4oIwAKCRBZrE9hU+XO
+Mcm5AP9F8VkcXhOtho5Rf06/jeLvepKxlLPQFzHAPlyotzVidQEAryDzmStVP3a9
+Ttv4puSorv6EmqohdT2ZCzkJzvKWXAo=
+=Yew3
 -----END PGP SIGNATURE-----
 
---===============7245706221647410465==--
+--===============4827811543258917980==--
