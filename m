@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 08 May 2026 14:16:05 -0000
-Message-Id: <177824976523.2221146.10411145510652392916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Fri, 08 May 2026 14:16:46 -0000
+Message-Id: <177824980697.2221612.13410016406107217066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/io_uring-io-slots
-    old: 181e63d611784296209494224c88d0a33d30c3ae
-    new: 93f63e045b7a0136b5e881763c112fdda9c5d4ba
+  - ref: refs/heads/sunxi/for-next
+    old: 8245c3d4c6710c0db85d66c6b0c7e693a84ba4be
+    new: 6365449724b52fdb293b5840391f3c67d1e15938
     log: |
-         d23d15b62812d2b1523fe83ab3ecab89e4107bc3 io_uring: add IORING_OP_SLOT_RW and wire up slot completion
-         fc62a96194f0e2f83cb0feb9d7c133a6e3a4437c io_uring: add registered IO slot infrastructure
-         bf668f679c8edde95be7cdeb8b6054c81dc5479f io_uring/slot: support partitions
-         bf749e8aee84d66bc52095183b378bf6d5d5078d io_uring/slot: support concurrent IO via overflow bios
-         0d2d46903ab76a94b08e12555230fe87fb99aaf9 io_uring/slot: share persistent DMA mapping across slots
-         b0206b55a3510ac9d96192c3148f7e748b4441c1 block: add bio_persistent_dma() helper
-         93f63e045b7a0136b5e881763c112fdda9c5d4ba nvme-pci: support BIO_REGISTERED persistent DMA mapping
+         7c86694a7b8c9a0b2e29b312b21fcaf61d54b474 riscv: dts: allwinner: d1s-t113: add hstimer node
+         fee10a33d08ae73c87a87d464f29198b6de687d0 arm64: dts: allwinner: h616: add hstimer node
+         c6895beaf5eab889ebdaffeb6210ad1111f3e72e arm: dts: allwinner: t113s: enable watchdog for reboot
+         6365449724b52fdb293b5840391f3c67d1e15938 Merge branch 'sunxi/dt-for-7.2' into sunxi/for-next
          
