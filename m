@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 08 May 2026 16:40:58 -0000
-Message-Id: <177825845871.2494408.5515176563794590586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 08 May 2026 16:44:54 -0000
+Message-Id: <177825869439.2496849.7358273865841429884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 16e3f29035728f65cd1b5f8c74a86e0709602c92
-    new: a8f209b46850cbc44d74cae81685ca1d2b0f18d8
+  - ref: refs/heads/x86/cpu
+    old: 435ef16e69b9d7f9cdf460a4c2edd20bb47d51fa
+    new: 21ff606db9c57bdd670708d5e08f5a6b98841c9a
     log: |
-         a8f209b46850cbc44d74cae81685ca1d2b0f18d8 watchdog: rzn1: remove now obsolete interrupt support
+         21ff606db9c57bdd670708d5e08f5a6b98841c9a Documentation: core-api/cpu_hotplug: Remove stale cpu0_hotplug docs
          
