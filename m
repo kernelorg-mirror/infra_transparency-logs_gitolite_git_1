@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8071389297653001829=="
+Content-Type: multipart/mixed; boundary="===============4732442940749750187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 09 May 2026 02:06:18 -0000
-Message-Id: <177829237835.3099033.7726771954535634349@gitolite.kernel.org>
+Date: Sat, 09 May 2026 02:06:44 -0000
+Message-Id: <177829240497.3099484.3400539342364762287@gitolite.kernel.org>
 
---===============8071389297653001829==
+--===============4732442940749750187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,44 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: bfa30ec0c23385e0143a53f0149ce25585ac411c
-    new: dc7d595c56f5b42494bd55d20df009b1ef8cc137
-    log: revlist-bfa30ec0c233-dc7d595c56f5.txt
+    old: dc7d595c56f5b42494bd55d20df009b1ef8cc137
+    new: 8c4f5448768bdc880a7c68649c538eddd39bca54
+    log: revlist-dc7d595c56f5-8c4f5448768b.txt
+  - ref: refs/heads/tip/urgent
+    old: 304ca1ddeb53a9a2c19f426e0f714961344e93cc
+    new: 39e6dd834612290320c9451689bf55b105fbadfd
+    log: revlist-304ca1ddeb53-39e6dd834612.txt
 
---===============8071389297653001829==
+--===============4732442940749750187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfa30ec0c233-dc7d595c56f5.txt
+Content-Disposition: attachment; filename=revlist-dc7d595c56f5-8c4f5448768b.txt
+
+543d4067560ee8a59b06987a6f3885b511fbd79f Merge branch into tip/master: 'perf/urgent'
+ae238fae3203a51a9ad369d0bc24e41efeac4b00 Merge branch into tip/master: 'sched/urgent'
+9cdafc7c3f1d453fc7c682631aad25990961a8fb Merge branch into tip/master: 'timers/urgent'
+39e6dd834612290320c9451689bf55b105fbadfd Merge branch into tip/master: 'x86/urgent'
+0086e52bfeaac71e8497efee69661438e4008553 Merge branch into tip/master: 'irq/drivers'
+0ee15d8f31e0e1408c01c97036695d3f3781bc4b Merge branch into tip/master: 'locking/core'
+5c52166dbac047610ac82cae9c9ba092588b6d60 Merge branch into tip/master: 'objtool/core'
+e072e05643096688c95a223b4b2340bfaa04d79f Merge branch into tip/master: 'perf/core'
+eb15a5352477a90474aced19fa2ae18db046566e Merge branch into tip/master: 'sched/core'
+73b053360f14ccd0ecde8b69228d650b22af8d27 Merge branch into tip/master: 'timers/clocksource'
+ac84e13feabecd11ea50732c9042f703dd82f4b5 Merge branch into tip/master: 'timers/core'
+cc30160ff9f4514037337df2ef742005853002cf Merge branch into tip/master: 'x86/cache'
+fb8bb479697cdae1bd992743f689ee76860b31bd Merge branch into tip/master: 'x86/cleanups'
+9b8b77c693ba5e0912e8ff054ab1b46803275124 Merge branch into tip/master: 'x86/cpu'
+036c1f47ad8db45b47a1d0abd6a583cb72523c05 Merge branch into tip/master: 'x86/microcode'
+d29e4f4bc58d0d1ebca3b123175c9000236cec86 Merge branch into tip/master: 'x86/misc'
+509a4f312fd5b3e5512f5a9f08e76f6b1f45e815 Merge branch into tip/master: 'x86/sev'
+8c4f5448768bdc880a7c68649c538eddd39bca54 Merge branch into tip/master: 'x86/tdx'
+
+--===============4732442940749750187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-304ca1ddeb53-39e6dd834612.txt
 
 5f69165b7e4215f02247b0c64052c71b2f66d73a rust/drm: import ARef from sync crate
 15e8bae5d930c91b8739a87d75db0a6efca3cb32 MAINTAINERS: nova: update mailing list
@@ -99,6 +128,8 @@ f98b48151cc502ada59d9778f0112d21f2586ca3 smb: client: validate dacloffset before
 d8a70292c3e1759804dcc1a60e53ead86b466a3a Merge tag 'amd-drm-fixes-7.1-2026-05-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 5e28b7b94408897e41c63477aabc9e1db439bc8c drm: Set old handle to NULL before prime swap in change_handle
 f7700a4415afb3ac1767a556094e4ef8bd440e41 ublk: fix use-after-free in ublk_cancel_cmd()
+786a45757dcdf8f2beb9d4a6db605db16c18b2b4 x86/kexec: Push kjump return address even for non-kjump kexec
+411c1cf430392c905e39f12bc305dd994da0b426 arm64/entry: Fix arm64-specific rseq brokenness
 fa7431eb99245e0a283d470101e44be1d2c2aeb3 Merge tag 'iommu-fixes-v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 51d24842acb9b8d643046c71314cc3d7a846a3cf Merge tag 'drm-fixes-2026-05-08-1' of https://gitlab.freedesktop.org/drm/kernel
 4bdbce450f4273fcda6d5c2e22df7083421332cf Merge tag 'regulator-fix-v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
@@ -113,6 +144,9 @@ bf5421b3d8d3d9216d045af89d4f7e2f75375554 MAINTAINERS: Update Marek Vasut email f
 9ef40a09c5de18f0d275a451f5c2a7fd4f07158b MAINTAINERS: Add Aksh Garg as PCIe CADENCE reviewer
 678ede852f918581fbc43c61f4c4737a3df99cac Merge tag 'pci-v7.1-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 27a26ccfd528da725a999ea1e3102503c61eb655 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-dc7d595c56f5b42494bd55d20df009b1ef8cc137 Merge branch 'linus'
+543d4067560ee8a59b06987a6f3885b511fbd79f Merge branch into tip/master: 'perf/urgent'
+ae238fae3203a51a9ad369d0bc24e41efeac4b00 Merge branch into tip/master: 'sched/urgent'
+9cdafc7c3f1d453fc7c682631aad25990961a8fb Merge branch into tip/master: 'timers/urgent'
+39e6dd834612290320c9451689bf55b105fbadfd Merge branch into tip/master: 'x86/urgent'
 
---===============8071389297653001829==--
+--===============4732442940749750187==--
