@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 09 May 2026 23:17:13 -0000
-Message-Id: <177836863398.259830.17287457442126056268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Sat, 09 May 2026 23:18:28 -0000
+Message-Id: <177836870897.260617.13250714203558326498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: 512809bb8a370d071f66fc53abe67368e171dec5
-    new: bf6d507f7e3c65751d52fd8caf1ea4e003922624
-    log: |
-         bf6d507f7e3c65751d52fd8caf1ea4e003922624 xskmap: reject TX-only AF_XDP sockets
-         
+  - ref: refs/tags/v7.0
+    old: 0000000000000000000000000000000000000000
+    new: ea5656f4f215b5962127ed3b073d9eefad23c543
