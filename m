@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6780905757881395648=="
+Content-Type: multipart/mixed; boundary="===============0381075072325366312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 09 May 2026 15:40:34 -0000
-Message-Id: <177834123416.3987429.13929333281427371702@gitolite.kernel.org>
+Date: Sat, 09 May 2026 15:40:36 -0000
+Message-Id: <177834123633.3987539.12854976433030671495@gitolite.kernel.org>
 
---===============6780905757881395648==
+--===============0381075072325366312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 830829a264f444b59a708d94915242e961bccc97
-    new: 7505bb13a9bb1f214310915ccc06643119fdafc9
-    log: revlist-830829a264f4-7505bb13a9bb.txt
+  - ref: refs/heads/mm-unstable
+    old: ede0ea131b32ef5d953d879030f8102b7c42adf2
+    new: e9dd96806dbc2d50a66770b6a86962bd5d601153
+    log: revlist-ede0ea131b32-e9dd96806dbc.txt
 
---===============6780905757881395648==
+--===============0381075072325366312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-830829a264f4-7505bb13a9bb.txt
+Content-Disposition: attachment; filename=revlist-ede0ea131b32-e9dd96806dbc.txt
 
 53ca174322f06d9b992580f2efb490974a5b7448 mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
 42c80d861d6f915a721d615388f7a0c47b23105e mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
@@ -192,42 +192,5 @@ fc88bfd03980c3b83b4a71fc578e86812b999b2d mm/damon/stat: add a parameter for read
 89b1597b8821f61d9bbc74faa0a3a29f5d688642 mm/swap: remove redundant swap device reference in alloc/free
 0d3949828ccaa6dedc7c0d244be6a47e0c7466e0 mm/swap, PM: hibernate: atomically replace hibernation pin
 e9dd96806dbc2d50a66770b6a86962bd5d601153 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
-f1f37b362416ab7aacfe3f392193a717ac2c636a mm/khugepaged: generalize hugepage_vma_revalidate for mTHP support
-acd97ef8e67d596c6dba8817cc264fa0cfcaed4e mm/khugepaged: generalize alloc_charge_folio()
-a02e1f1018bad7c4cf83d1366aed3813f6e65060 mm/khugepaged: rework max_ptes_* handling with helper functions
-6d22bd87a3a71534ba5572e9e0fa56c3edad9532 mm/khugepaged: generalize __collapse_huge_page_* for mTHP support
-0f32d387e30bc3fb45595b65dc5ffc0677e3ab18 mm/khugepaged: generalize collapse_huge_page for mTHP collapse
-b826f1ac2bd4e7af0556a6b65ad374bf14f68bea mm/khugepaged: skip collapsing mTHP to smaller orders
-593e1bf90f6d6fe7e0f259c1f4d3a9213bdd305f mm/khugepaged: add per-order mTHP collapse failure statistics
-fe79a624234b029c1e6004cd98e33bee8bd0838a mm/khugepaged: improve tracepoints for mTHP orders
-d5a743ce07f0688a8e63b21892ae815dadb4b39d mm/khugepaged: introduce collapse_allowable_orders helper function
-1dfc255c1d4a876d7b1b6c35f70b965904ebc9fe mm/khugepaged: introduce mTHP collapse support
-780dd3c0dc949004c822b506bdf5d8329d856c1d mm/khugepaged: avoid unnecessary mTHP collapse attempts
-26f45ae6bb346da38448c79f831e6a9f74bf3e48 mm/khugepaged: run khugepaged for all orders
-c16a80281f91088a0cd584df76df7dd2ce1c6e4b Documentation: mm: update the admin guide for mTHP collapse
-47176ae5089786b76d94dac5e7d7f42aba8868eb mm/khugepaged: remove READ_ONLY_THP_FOR_FS check
-ffd662da9d23e4e893e7e00573d3d7b05b1f0b2c fix mapping_pmd_folio_support() to represent its exact meaning
-09de0163e69f7feee3e3ef386b7bebd60cc5d92e mm/khugepaged: add folio dirty check after try_to_unmap()
-55af22fdcbafa85da2e6db5e329784f45ff07711 mm/huge_memory: remove READ_ONLY_THP_FOR_FS from file_thp_enabled()
-3564f21e40fd906c655170916f7702ba057e3d88 mm/khugepaged: remove READ_ONLY_THP_FOR_FS check in hugepage_enabled()
-68bb1fc961d8a9801bf1240e2cf4ee2a06d82585 mm: remove READ_ONLY_THP_FOR_FS Kconfig option
-3af2f78456d1f24dee8e09ee0586c44819d4e200 mm: fs: remove filemap_nr_thps*() functions and their users
-2bf9f29b6ca687d620a75a93d65c274a44debcfe fs: remove nr_thps from struct address_space
-c024124616c3563aa6c5853ecd79ffbcd4fcee58 mm/huge_memory: remove folio split check for READ_ONLY_THP_FOR_FS
-067a0f098315bab064dc0ba64c6775ea228ed2ca mm/truncate: use folio_split() in truncate_inode_partial_folio()
-64617d0a2a6587e518ed901e16f6b190a2242e0f fs/btrfs: remove a comment referring to READ_ONLY_THP_FOR_FS
-9ebfd618331989371027313dd175216183edb685 selftests/mm: remove READ_ONLY_THP_FOR_FS in khugepaged
-91c45843adde223b56e7eb1526a780d6c9aaa7fe selftests/mm: khugepaged perror fixup
-25212fcd6349a531d9dc927b14c4e5f0a2f9c807 fix run_vmtests.sh to only print SKIP when khugepaged is selected
-8c38307c333013d3c93082be6e53ff6c354df490 selftests/mm: remove READ_ONLY_THP_FOR_FS code from guard-regions
-47556d0abdd9592a6a1cccce6f9b2e701b4cef3f mm/khugepaged: enable clean pagecache folio collapse for writable files
-0711b27807abc48cf0d2132fdc191c6159bfc9e9 selftests/mm: add writable-file collapse tests for khugepaged
-410998cb4e02fef1e8986166355dbfcd337fa958 proc/meminfo: expose per-node balloon pages in node meminfo
-0299d9a74544cfac9c1c44d4e2238b4549d1c342 mm/swap: add cond_resched() in swap_reclaim_full_clusters to prevent softlockup
-4ddb631d098370bb6b6bac4b92f8d4c5023941a5 mm/kmemleak: dedupe verbose scan output by allocation backtrace
-87b2da0ca5b9c660cd2957a5c8622fc006c1b3d5 selftests/mm: add kmemleak verbose dedup test
-62004f891295ddfc1c7e27da989dfb9ede330f48 mm/alloc_tag: replace fixed-size early PFN array with dynamic linked list
-8b7c38eb9621c71d288eca45c8dd4dc92357dc07 mm/damon: replace damon_rand() with a per-ctx lockless PRNG
-7505bb13a9bb1f214310915ccc06643119fdafc9 gcov: use atomic counter updates to fix concurrent access crashes
 
---===============6780905757881395648==--
+--===============0381075072325366312==--
