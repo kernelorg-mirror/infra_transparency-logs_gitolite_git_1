@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 09 May 2026 19:06:56 -0000
-Message-Id: <177835361664.10861.10645813432307655840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 09 May 2026 20:04:02 -0000
+Message-Id: <177835704215.66731.1371122027693777227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: a903749bd94f79ba1d366b74e7ff3bff58a7fcb1
-    new: 44bd97559c26bb4d7abac09d29e58a4152d88567
-    log: |
-         44bd97559c26bb4d7abac09d29e58a4152d88567 tpm: restore timeout for key creation commands
-         
+  - ref: refs/heads/crc-pending
+    old: 0000000000000000000000000000000000000000
+    new: af6e40604b00cb67810f0a29297814e118171d0e
