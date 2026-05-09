@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 09 May 2026 00:42:52 -0000
-Message-Id: <177828737215.3007180.16611073362866578134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Sat, 09 May 2026 00:47:20 -0000
+Message-Id: <177828764042.3012389.12988468719528877342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: 48429d46a91916f2317f623c3af2859d0727301f
-    new: 3381f2496a545e0bee0a1ee16087c803ec2464c4
+    old: ecdd3e6cb2ab7aa40fb670bbd2c2fd3b36ff2ead
+    new: c42158f408d9ebd289ec6cb7f9ad1094f7367b1f
     log: |
-         3381f2496a545e0bee0a1ee16087c803ec2464c4 foo
+         c42158f408d9ebd289ec6cb7f9ad1094f7367b1f Resigned keys from James Bottomley
          
