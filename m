@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 09 May 2026 12:46:58 -0000
-Message-Id: <177833081851.3809836.11311047876920324254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 09 May 2026 13:30:28 -0000
+Message-Id: <177833342875.3854284.6816684674708573211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/security/vulns
 user: sashal
 changes:
   - ref: refs/heads/master
-    old: a6b995c90dafcfc141af73e4ab9a7f7b700aa1b9
-    new: e76aeea95a0ec7c3bda9ebaa21a2c54c4dc252a7
+    old: a2581f3950f1d6812657057a460765193c65dcbd
+    new: 5f7375b9e950f408cec6fb48ebf85e6ed7a952b3
     log: |
-         e76aeea95a0ec7c3bda9ebaa21a2c54c4dc252a7 Fixes for all trees
+         5f7375b9e950f408cec6fb48ebf85e6ed7a952b3 sasha: review v7.0.4
          
