@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 09 May 2026 01:49:43 -0000
-Message-Id: <177829138311.3078739.17969796956787787996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 09 May 2026 01:55:35 -0000
+Message-Id: <177829173558.3086784.12484659429486936118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 28d006063253bf055291f62b0a48934cd5872dc0
-    new: 496c0c4c53bbe1bad97e82cd12103df61a6e459d
-    log: |
-         496c0c4c53bbe1bad97e82cd12103df61a6e459d net: wan: fsl_ucc_hdlc: free tx_skbuff in uhdlc_memclean
-         
+  - ref: refs/tags/sched-urgent-2026-05-09
+    old: 0000000000000000000000000000000000000000
+    new: 590f4e70234ba5cfe7bed0dd8d9013a24043b8c0
