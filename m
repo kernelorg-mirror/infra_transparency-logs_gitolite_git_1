@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 10 May 2026 20:03:16 -0000
-Message-Id: <177844339650.1523285.10385307417619722579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 10 May 2026 20:16:53 -0000
+Message-Id: <177844421321.1537512.14639910920203297979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71
-    new: afaa0a477099cb7256e26fe11289c753a225ac97
+    old: 44bd97559c26bb4d7abac09d29e58a4152d88567
+    new: 5e25076e8f58385855dca2ed1c0e9be56baa215a
     log: |
-         8cf5dd235eff6008cb04c3d8064d2acfa90616f1 EDAC/versalnet: Fix device name memory leak
-         afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+         5e25076e8f58385855dca2ed1c0e9be56baa215a tpm: Initialize name_size_alg for non-NULL name in tpm_buf_append_name()
          
