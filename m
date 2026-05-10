@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sun, 10 May 2026 01:08:36 -0000
-Message-Id: <177837531616.371805.6384640759426766646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Sun, 10 May 2026 05:02:39 -0000
+Message-Id: <177838935914.605007.11357163752274221367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
 changes:
-  - ref: refs/heads/fixes
-    old: db909bd7986c10da074917af3dae83a60fa65093
-    new: 41337097f2823e99478d7cbe68d4893582ed0b18
+  - ref: refs/heads/master
+    old: 4dcf210a746df7590faa28d01464e5c1bd4a59cd
+    new: cb70ad8c2be01ad13739e83c89367596185c557c
     log: |
-         41337097f2823e99478d7cbe68d4893582ed0b18 riscv: cpufeature: Use pre-defined ISA ext macros to index isa2hwcap
+         cb70ad8c2be01ad13739e83c89367596185c557c Resigned keys from 2EA76B9C2B466D9D
          
