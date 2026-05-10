@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6810801215188273422=="
+Content-Type: multipart/mixed; boundary="===============4233679089723700388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 10 May 2026 08:12:32 -0000
-Message-Id: <177840075233.794958.11225659233108909858@gitolite.kernel.org>
+Date: Sun, 10 May 2026 08:12:53 -0000
+Message-Id: <177840077371.795276.347685592207573539@gitolite.kernel.org>
 
---===============6810801215188273422==
+--===============4233679089723700388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ea83b087cb941f0dc7d385ecc30b7dcdfc53eb18
-    new: af53a90820d95ff2aed1e10ce576fc44115126e7
-    log: revlist-ea83b087cb94-af53a90820d9.txt
+    old: af53a90820d95ff2aed1e10ce576fc44115126e7
+    new: 6a4d5246fc32a7316cb8522402955a11d1269026
+    log: revlist-af53a90820d9-6a4d5246fc32.txt
+  - ref: refs/heads/tip/urgent
+    old: 16860bc49f374bb4db781bb77a4233557128a682
+    new: 6bd11a4ff8a719a7abb5fc5eeeeeddf9809f613f
+    log: revlist-16860bc49f37-6bd11a4ff8a7.txt
 
---===============6810801215188273422==
+--===============4233679089723700388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea83b087cb94-af53a90820d9.txt
+Content-Disposition: attachment; filename=revlist-af53a90820d9-6a4d5246fc32.txt
+
+fbe9dac63bb2ccef53671ae4094eebf04e1b7654 Merge branch into tip/master: 'sched/urgent'
+6bd11a4ff8a719a7abb5fc5eeeeeddf9809f613f Merge branch into tip/master: 'x86/urgent'
+1466cea0632758159500d0ac570c9bc1522761af Merge branch into tip/master: 'irq/drivers'
+d46cc2be01e08db35f73e885c7fde375c956aac3 Merge branch into tip/master: 'locking/core'
+86b4d3260293437b2843f8032cdf5fbe2953ebe8 Merge branch into tip/master: 'objtool/core'
+55acf6d95496a4688e7aa27f42f5b09c62c287f9 Merge branch into tip/master: 'perf/core'
+193c1959576bed992f668b98949f5e2686314f4a Merge branch into tip/master: 'sched/core'
+8027be3ab9e3acd406cee06ec26c54c2b384bd1a Merge branch into tip/master: 'timers/clocksource'
+29208391cf5a41a7df5cb1d465d16a2a18a8dbd8 Merge branch into tip/master: 'timers/core'
+bc7ad58e03f638c294b968aeabf257fca4455981 Merge branch into tip/master: 'x86/cache'
+78f528f9400d8a8931ba0c6deb7e6b9ea3b87476 Merge branch into tip/master: 'x86/cleanups'
+2882475c531c8bf8db283f26b9081796d8f45887 Merge branch into tip/master: 'x86/cpu'
+ed7725eb0af09f30ab4f5313a670f20ec418048d Merge branch into tip/master: 'x86/microcode'
+383a07b0f72a6feeecae17ed7c85669d07fb7128 Merge branch into tip/master: 'x86/misc'
+d0af36d84556c9dbc0924d4300dcaa361515700f Merge branch into tip/master: 'x86/sev'
+6a4d5246fc32a7316cb8522402955a11d1269026 Merge branch into tip/master: 'x86/tdx'
+
+--===============4233679089723700388==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-16860bc49f37-6bd11a4ff8a7.txt
 
 3f91484f6c13c434bd573ca6b6779c26adb0ddab USB: omap_udc: DMA: Don't enable burst 4 mode
 0b9fcab1b8608d429e5f239afb197de928d4de7d usb: ulpi: fix memory leak on ulpi_register() error paths
@@ -90,6 +117,7 @@ fe3e5bc9e3c280017d4ba05d7fcc8997029e53cd Merge tag 'usb-7.1-rc3' of git://git.ke
 ec89572766744e844df24c27d31c97b4c00f4e07 Merge tag 'hwmon-for-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 e92b2872d0b198a77c0a438c5cdb1c5510762c1b Merge tag 'rust-fixes-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 1bfaee9d3351b9b32a99766bbfb1f5baed60ddef Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-af53a90820d95ff2aed1e10ce576fc44115126e7 Merge branch 'linus'
+fbe9dac63bb2ccef53671ae4094eebf04e1b7654 Merge branch into tip/master: 'sched/urgent'
+6bd11a4ff8a719a7abb5fc5eeeeeddf9809f613f Merge branch into tip/master: 'x86/urgent'
 
---===============6810801215188273422==--
+--===============4233679089723700388==--
