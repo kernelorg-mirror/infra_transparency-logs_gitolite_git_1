@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 10 May 2026 22:44:16 -0000
-Message-Id: <177845305696.1689940.17852778882848149463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sun, 10 May 2026 22:46:22 -0000
+Message-Id: <177845318249.1693586.7219780107634454548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/master
-    old: e72c28766272c75717be79bcb879f6f2eb539186
-    new: cf48b66262b43645470f6220e3ee5a8407d9292c
-    log: |
-         228000084edea5084828275671b990acbefe136c patches/next: fix damon_filter
-         cf48b66262b43645470f6220e3ee5a8407d9292c patches/next: attrs monitoring category cleanup
-         
+  - ref: refs/tags/riscv-for-linus-7.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: ea94c9e2675dfe49f702acafc8f4d6662e39ab9a
