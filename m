@@ -1,106 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============6044054822003163585=="
+Content-Type: multipart/mixed; boundary="===============6606037795523405857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vegard/linux-kbuild
-Date: Sun, 10 May 2026 12:26:42 -0000
-Message-Id: <177841600235.1052809.13275375705023433921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Sun, 10 May 2026 12:33:12 -0000
+Message-Id: <177841639220.1058715.732064898399379762@gitolite.kernel.org>
 
---===============6044054822003163585==
+--===============6606037795523405857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vegard/linux-kbuild
-user: vegard
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/topics/kbuild/make-n-kbuild-next
-    old: 2a21fe10599230457d99d7ddb2d26a1c1788f7d8
-    new: a6e87c92b4df20828be026525d87171544cd0ca4
-    log: revlist-2a21fe105992-a6e87c92b4df.txt
-  - ref: refs/heads/topics/kbuild/make-n-v7.0
-    old: 8b4d798d7087557314eba67cc94da82a56d66085
-    new: d9de87a71cc225966fb896f414bdf64c326b215f
-    log: revlist-8b4d798d7087-d9de87a71cc2.txt
-  - ref: refs/heads/topics/kbuild/make-n-v7.1-rc2
-    old: 359ba465e79b6255f48ce91983dc581b82ed0976
-    new: d8cbe5fe991af7801a4815e11a847cec861cebf9
-    log: revlist-359ba465e79b-d8cbe5fe991a.txt
+  - ref: refs/heads/fixes
+    old: 519a228ee40d1be3453d1da339b4577c3785e333
+    new: a4058c09dd6e28ec33316fd6eb45ddae4cab1f31
+    log: |
+         91ddf6f722084383fb05be731c0107814b055c0c phy: marvell: mvebu-a3700-utmi: fix incorrect USB2_PHY_CTRL register access
+         da110228b54f2e2143d97ea7151e0dc22e539d67 phy: tegra: xusb: Fix per-pad high-speed termination calibration
+         5a759b120e31aa3ed914d98b51eb1755235250f2 phy: exynos5-usbdrd: fix USB 2.0 HS PHY tuning values for Exynos7870
+         80305760d7a55b884fb9023c490b75568d1ea0b1 phy: qcom-qmp-ufs: Fix kaanapali PHY PLL lock failure after SM8650 G4 fix
+         c2cd08e8f150738515c8df415ad7ecfa3d38124a phy: eswin: Fix incorrect error check in probe()
+         a4058c09dd6e28ec33316fd6eb45ddae4cab1f31 phy: spacemit: Remove incorrect clk_disable() in spacemit_usb2phy_init()
+         
+  - ref: refs/heads/next
+    old: f67ab4706ab72af29c331b21f431c463b00d447a
+    new: 9cfeef97f21be61372d718f7ee430ea65536bb08
+    log: revlist-f67ab4706ab7-9cfeef97f21b.txt
 
---===============6044054822003163585==
+--===============6606037795523405857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a21fe105992-a6e87c92b4df.txt
+Content-Disposition: attachment; filename=revlist-f67ab4706ab7-9cfeef97f21b.txt
 
-90f0cd5627973ab4035835bdb0fc52d84fd1e5c9 kbuild: ignore .config rule for make --always-make
-c016a4bd325fe217e9ec1ed09304f4fa6ba38761 kbuild: document some prerequisites
-900dccb304de4c3883bee5ba47e9f4040f8d3486 kbuild: pass KERNELVERSION and LOCALVERSION explicitly to setlocalversion
-1615d43157004c8a70142d2dd109ecc3c7c82a18 kbuild: don't execute .ko recipe in --dry-run mode
-305a43ac2e785145faf80ad1e52de6af206021b9 kbuild: execute modules.order recipe in --dry-run mode
-9037c40a6377b5011e74d82fa954b8a6532973d1 kbuild: set $dry_run when running in --dry-run mode
-4987246364a0b9e598cbe61bfd4606070d8379ab kbuild: define 'make' as a no-op in --dry-run mode
-84be6bdf6a8e2b51bc89737e7ec5f4da47d61488 kbuild: suppress echoing of commands in --dry-run mode
-f9aa4236a53734d478dab73daae5dc34f0593232 kbuild: make link-vmlinux.sh respect $dry_run
-93e5287510c5dee063a3983bfb718ae492e0bbe1 kbuild: simplify commands in --dry-run mode
-61b71ed9029170ccee9da5fb53f145dd228eebe9 kbuild: don't require missing modpost inputs in dry-run mode
-73aefb1147acd5de39a87ccebe9a5832a04cd2e4 kbuild: fix dry-run script generation on v7.0
-69c863957cc41067a49d813e9601010e20954d31 docs: document kbuild dry-run scripts
-8b535cda20c0e81310ed7a95d3f8ea6368d301e8 kbuild: read kernel.release when generating utsrelease.h
-7110bdee4536d8cc06b25a46dc594fca5c32ff76 kbuild: handle defconfig dry-run script prerequisites
-d81db90d6ab95b9b89a11a950664133ea4b9f9d8 kbuild: support modversions in dry-run scripts
-d5a26cbd253630bd3c2edde464596d1ab537215f kbuild: do not execute Rust recipes in dry-run mode
-a6e87c92b4df20828be026525d87171544cd0ca4 kbuild: export BTF helper variables in dry-run scripts
+059f1a4c9e3aa44d888c0e7cf4559403eece0438 dt-bindings: phy: ti: phy-j721e-wiz: Add ti,j722s-wiz-10g compatible
+567b3c62a7eb51db4cb562b416ec220132d524c9 dt-bindings: phy: ti: phy-gmii-sel: Add ti,j722s-phy-gmii-sel compatible
+61849b7afb579630fc45dbeaf5449b42b33cc70e phy: ti: phy-j721e-wiz: add support for J722S SoC family
+d39cf00e7daea64889dda9abb0b7e6da04a69d04 phy: ti: gmii-sel: add support for J722S SoC family
+ad8fdebd40fd25e86331886f4fc6951531691319 dt-bindings: phy: spacemit: k3: add USB2 PHY support
+056ee8b37bc91e3230afa11ec1018fa898b983b8 phy: k1-usb: k3: add USB2 PHY support
+6d6ff64e01ddeb579bf0078e5b6d50c04035541e dt-bindings: phy: qcom,sc8280xp-qmp-ufs-phy: Document Nord QMP UFS PHY
+78a6a90a5c4ac29d06fc8119885b80f919950d00 dt-bindings: phy: qcom,snps-eusb2: Document the Eliza Synopsys eUSB2 PHY
+d67a337d28a2d852ff539e983ad6790caf9c95f5 dt-bindings: phy: qcom,sc8280xp-qmp-usb43dp-phy: Add Eliza QMP PHY
+1a75ecefa4fbedefc1600e43445de4e1e7f03b55 dt-bindings: phy: axiado,ax3000-emmc-phy: add Axiado eMMC PHY
+9e7dfa4bcd4e2c3541c4ee954ea5e66edab94d3f phy: axiado: add Axiado eMMC PHY driver
+13ee293a904b7b7b0507aaa8c71f7be7e683800e MAINTAINERS: Add Axiado AX3000 eMMC PHY driver
+18af47764d75bf2cd6297289255fd7f83967e7cf phy: tegra: xusb: Make USB_CONN_GPIO select conditional on GPIOLIB
+52595824b0027d075470f7f08afe805844c1b079 phy: qcom-qmp: Add missing QSERDES COM v2 registers
+764f409b840ab400253215e765a72b903feb6afd phy: qcom-qmp: Use explicit QSERDES COM v2 register definitions
+9dfdd6e7bebd63eeef0ba57493adee91c34ae338 phy: qcom-qmp-usbc: Use register definitions in qserdes-txrx-v3
+c834f0a69051e5db52172262dadf8f7b5ff58bd0 phy: qcom-qmp-usbc: Rename QCS615 DP PHY variables and functions
+9b1270d2b85bb7ce6bbc71232375b21d8be0b799 phy: qcom-qmp: Drop unused register headers
+c7cd4798fafa84581502094d0be282072851c9b7 phy: qcom-qmp: Make QSERDES TXRX v2 registers explicit
+0cc64561b03d755bba54cbd0cf05e9210ab40a13 dt-bindings: phy: qcom-edp: Add reference clock for sa8775p eDP PHY
+a62bfbcf2db4ae6eb7a544a40b1075a81784ea41 phy: qcom: m31-eusb2: Make USB repeater optional
+905780855a320ab3dcf0e4eaebf544cb3e7b55f8 phy: lynx-28g: use timeouts when waiting for lane halt and reset
+5d38f693f16a0e9470fda530e01994f35fed8644 phy: lynx-28g: truly power the lanes up or down
+0ee5cc59c0ee679e1a3a749cfc47834041763494 phy: lynx-28g: implement phy_exit() operation
+53f60930e3d20883364fc01fd46b6099acb8127a phy: renesas: phy-rzg3e-usb3: Fix malformed MODULE_AUTHOR string
+b6e33443876d0ca7e93cf949455e3c1a1a0aae24 phy: Add driver for EyeQ5 Ethernet PHY wrapper
+cc68a1728abfcbde12d36015f244046ae74ddd44 phy: miphy28lp: add COMPILE_TEST
+f3508a61c892c592e4e893a3681e568a5c671027 phy: miphy28lp: kzalloc + kcalloc to single kzalloc
+057c81a17fffb17f66e5b4524d49b7caad3fe627 phy: freescale: imx8qm-hsio: provide regmap names
+9cfeef97f21be61372d718f7ee430ea65536bb08 phy: renesas: rzg3e-usb3: Convert to FIELD_MODIFY()
 
---===============6044054822003163585==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b4d798d7087-d9de87a71cc2.txt
-
-778ddc3102404adac927f32f3b2bb295f2eb55a3 kbuild: ignore .config rule for make --always-make
-578ff4d044f155c5cf42809c05c3604fee9344fd kbuild: document some prerequisites
-a1e350566548721703a5455facb711537d75f21c kbuild: pass KERNELVERSION and LOCALVERSION explicitly to setlocalversion
-7ae1218eaccb4ea203205dc4c76caa99b9cb7e87 kbuild: don't execute .ko recipe in --dry-run mode
-7da5336b87d91d3ccd0b1c9659dc12ab2540980a kbuild: execute modules.order recipe in --dry-run mode
-ec1263dc54ed49752529a93fbf40523209e4472c kbuild: set $dry_run when running in --dry-run mode
-08cbe28d4b856924e85716476f8e41808d8126cd kbuild: define 'make' as a no-op in --dry-run mode
-75dd9dffb8964a660e3e08a09f78ff3789280df1 kbuild: suppress echoing of commands in --dry-run mode
-4ac3f15ff647c03cd8092ce92adc6d20f9ab6ea7 kbuild: make link-vmlinux.sh respect $dry_run
-2191055e43143e48ce8d9f7a3181c981fb8a5a95 kbuild: simplify commands in --dry-run mode
-996a4ec85d621fb0f5547344a5df78005c82f6d4 kbuild: don't require missing modpost inputs in dry-run mode
-f757e364aa6a9e9b09a6e9634e518b2f0cbf366a kbuild: fix dry-run script generation on v7.0
-51e20cf0a5f9fd4b6813cc31db6e76167a52f11c docs: document kbuild dry-run scripts
-0b33fc60f69afadfd1af0b2cad57b773b40247f0 kbuild: read kernel.release when generating utsrelease.h
-51df08ab7cef634897816672e44fafff57dbc5dc kbuild: handle defconfig dry-run script prerequisites
-d62da05d889aa2b2b3181c0f115fe2306dd9dd60 kbuild: support modversions in dry-run scripts
-b05e6c0a08301fc8dac93165c3fa48755d8fedc6 kbuild: do not execute Rust recipes in dry-run mode
-d9de87a71cc225966fb896f414bdf64c326b215f kbuild: export BTF helper variables in dry-run scripts
-
---===============6044054822003163585==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-359ba465e79b-d8cbe5fe991a.txt
-
-4ce22a5632f72aeb30ab0ea56c9b50c8047512d4 kbuild: ignore .config rule for make --always-make
-6ee846c76f903934848e7d809d26bfadad7e9c60 kbuild: document some prerequisites
-52b737c9acd410045d47ff7461e4cfd36a2c48a2 kbuild: pass KERNELVERSION and LOCALVERSION explicitly to setlocalversion
-71bc4732dd957d67f300f1d196a965fdf779ab2b kbuild: don't execute .ko recipe in --dry-run mode
-37a44cbfd98827c756954c871d84e80dd9110dbc kbuild: execute modules.order recipe in --dry-run mode
-7ce2e8e1b0febfd7cd0e7b26122f754269a92ba1 kbuild: set $dry_run when running in --dry-run mode
-77d34ca7d708a232dd771cde5b3472149ff8a6d6 kbuild: define 'make' as a no-op in --dry-run mode
-18d1886cd5e1ad1e803e89a306cddd2ec136871d kbuild: suppress echoing of commands in --dry-run mode
-47e005ba8fadaa18806ba018cfc40c8e0c39ea5a kbuild: make link-vmlinux.sh respect $dry_run
-cfd7a9bc153a4d7801eeaa1f9299f8cc0f7fb8a4 kbuild: simplify commands in --dry-run mode
-c5cd8dd3cba082af789befcd34c1ceb5f648a157 kbuild: don't require missing modpost inputs in dry-run mode
-88ef544d92bca06f31b3b4e297d364b8dc691c0f kbuild: fix dry-run script generation on v7.0
-04ef49569564e5cb67183f66a5116d666cd7db7a docs: document kbuild dry-run scripts
-c21dba6c09540b88b0657e1b3bb10feb0efa3047 kbuild: read kernel.release when generating utsrelease.h
-c8c1c5d3ee753d0804417ba0b1db137925aba67d kbuild: handle defconfig dry-run script prerequisites
-11620b5ef8f9299e48a144b90bc21884d68a9151 kbuild: support modversions in dry-run scripts
-f102151bff0885e420a71c9082c5b7449212ab73 kbuild: do not execute Rust recipes in dry-run mode
-d8cbe5fe991af7801a4815e11a847cec861cebf9 kbuild: export BTF helper variables in dry-run scripts
-
---===============6044054822003163585==--
+--===============6606037795523405857==--
