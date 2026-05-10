@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0106272721322448542=="
+Content-Type: multipart/mixed; boundary="===============2805434702259202537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 10 May 2026 10:27:45 -0000
-Message-Id: <177840886598.932829.14046139052208952565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 10 May 2026 10:27:52 -0000
+Message-Id: <177840887299.933050.16490920043414671034@gitolite.kernel.org>
 
---===============0106272721322448542==
+--===============2805434702259202537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7fd2df204f342fc17d1a0bfcd474b24232fb0f32
     log: revlist-7aaa8047eafd-7fd2df204f34.txt
 
---===============0106272721322448542==
+--===============2805434702259202537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 
---===============0106272721322448542==--
+--===============2805434702259202537==--
