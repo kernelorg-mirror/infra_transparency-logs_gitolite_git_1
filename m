@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2718182892852539347=="
+Content-Type: multipart/mixed; boundary="===============3991622502216765443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 10 May 2026 20:28:37 -0000
-Message-Id: <177844491726.1549541.15494287873585627827@gitolite.kernel.org>
+Date: Sun, 10 May 2026 20:28:44 -0000
+Message-Id: <177844492453.1549807.5244022077033463706@gitolite.kernel.org>
 
---===============2718182892852539347==
+--===============3991622502216765443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 2ca6723a5f7b68c739dba47b2639e3eaa7884b09
+  - ref: refs/heads/for-next
+    old: 9f5b3ffc3f1dac7204e32eeeff84bc5cc55c393e
     new: 7e033543a2ab4c72319201298ed458e3bbddd82f
-    log: revlist-2ca6723a5f7b-7e033543a2ab.txt
+    log: revlist-9f5b3ffc3f1d-7e033543a2ab.txt
 
---===============2718182892852539347==
+--===============3991622502216765443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ca6723a5f7b-7e033543a2ab.txt
+Content-Disposition: attachment; filename=revlist-9f5b3ffc3f1d-7e033543a2ab.txt
 
-ac33733b10b484d666f97688561670afd5861383 rxrpc: Fix missing validation of ticket length in non-XDR key preparsing
-27ae4bcf4df480eb7588e01de8f3c4fb74b11d30 Merge branch 'rxrpc-miscellaneous-fixes'
 55b2984c96c37f909bbfe8851f13152693951382 rxrpc: Fix rxrpc_input_call_event() to only unshare DATA packets
 0422e7a4883f25101903f3e8105c0808aa5f4ce9 rxrpc: Fix re-decryption of RESPONSE packets
 3476c8bb960f48e49355d6f93fb7673211e0163f rxrpc: Fix error handling in rxgk_extract_token()
@@ -534,6 +532,8 @@ bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before r
 1a41b58fd4dc80dca16c717e6e77c88b9d4e83a7 ice: fix missing dpll notifications for SW pins
 9e5dead140af10e8b5f975b8f04e46197d48d274 ice: add dpll peer notification for paired SMA and U.FL pins
 47888597a3b41b5088e758ab8ca36bf624d46327 Merge branch 'intel-wired-lan-update-2026-04-27-ice-iavf'
+f603e84ab7918db6470c0b06b46ece7fbdb71e9a bpf: Print breakdown of insns processed by subprogs
+2ca6723a5f7b68c739dba47b2639e3eaa7884b09 selftests/bpf: Test insns processed breakdown
 58689498ca3384851145a754dbb1d8ed1cf9fb54 net: tls: fix strparser anchor skb leak on offload RX setup failure
 051ffb001b8a232cfa6e72f38bb5f51c4270a60b sfc: fix error code in efx_devlink_info_running_versions()
 1e01abec856593e02cd69fd95b784c10dd46880c net/sched: cls_flower: revert unintended changes
@@ -1051,4 +1051,4 @@ aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packe
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 7e033543a2ab4c72319201298ed458e3bbddd82f Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.1-rc3
 
---===============2718182892852539347==--
+--===============3991622502216765443==--
