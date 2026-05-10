@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2805434702259202537=="
+Content-Type: multipart/mixed; boundary="===============2186137970559708548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 10 May 2026 10:27:52 -0000
-Message-Id: <177840887299.933050.16490920043414671034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 10 May 2026 10:28:20 -0000
+Message-Id: <177840890030.933618.14190393318950165742@gitolite.kernel.org>
 
---===============2805434702259202537==
+--===============2186137970559708548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/master
-    old: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
+  - ref: refs/heads/wip/leon-for-next
+    old: 654a27f25530d052eeedf086e6c3e2d585c203bd
     new: 7fd2df204f342fc17d1a0bfcd474b24232fb0f32
-    log: revlist-7aaa8047eafd-7fd2df204f34.txt
+    log: revlist-654a27f25530-7fd2df204f34.txt
 
---===============2805434702259202537==
+--===============2186137970559708548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7aaa8047eafd-7fd2df204f34.txt
+Content-Disposition: attachment; filename=revlist-654a27f25530-7fd2df204f34.txt
 
 e2e0b826d37419536b91b25fa51ecc0565d27726 userfaultfd: introduce mfill_establish_pmd() helper
 b8c03b7f4558219ca09693b5fa4f5e068041d2c2 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
@@ -1051,4 +1051,4 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 
---===============2805434702259202537==--
+--===============2186137970559708548==--
