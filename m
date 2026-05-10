@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 10 May 2026 22:02:07 -0000
-Message-Id: <177845052718.1645741.1870939369503421952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sun, 10 May 2026 22:23:40 -0000
+Message-Id: <177845182065.1667045.5894424699375675860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/next
-    old: ede5a7bcba2d6f6d2368f43c1bee9f9cc871f62c
-    new: 818c7e395add7f320fa406c8b62a4a53122aa0af
+  - ref: refs/heads/for-7.2
+    old: 03d958da4f355c380819a3baf339123c25db8e54
+    new: 1be3b6ff007ec1289818a4956efbddb86766b74f
     log: |
-         818c7e395add7f320fa406c8b62a4a53122aa0af damo_report_access: add '<probe hits>' region formatter
+         1be3b6ff007ec1289818a4956efbddb86766b74f sched_ext: Add scx_task_iter_relock() and use it in scx_root_enable_workfn()
          
