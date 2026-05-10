@@ -1,88 +1,127 @@
-Content-Type: multipart/mixed; boundary="===============5702007187616871714=="
+Content-Type: multipart/mixed; boundary="===============7002605643594944538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
-Date: Sat, 09 May 2026 23:29:12 -0000
-Message-Id: <177836935268.272115.6547033846073354764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 10 May 2026 00:56:44 -0000
+Message-Id: <177837460458.360108.4972665764115167741@gitolite.kernel.org>
 
---===============5702007187616871714==
+--===============7002605643594944538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
-user: kdave
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: fa79dbea32d39ac0ae41a88a079013c7ad2a8a58
-    new: 9c5987432906daebde23f9703c0f6f90c35fa9da
-    log: revlist-fa79dbea32d3-9c5987432906.txt
+  - ref: refs/heads/damon/next
+    old: 93d6b6372a29e712ae14eda4a13ab90392617484
+    new: e86d9892b7edfe0e68485f393e77f26e444df114
+    log: revlist-93d6b6372a29-e86d9892b7ed.txt
 
---===============5702007187616871714==
+--===============7002605643594944538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa79dbea32d3-9c5987432906.txt
+Content-Disposition: attachment; filename=revlist-93d6b6372a29-e86d9892b7ed.txt
 
-ea3858b53d7d94fb46c30629f4b4464aa215fbca btrfs-progs: add offline conversion to remap tree
-5130bc1f2dc45211724ec47a7c502efe90643097 btrfs-progs: add test for `btrfstune --convert-to-remap-tree`
-26e7f881bcacbf38938a6a231b4f100b6b2bffc5 btrfs-progs: ci: build ARM64 static binaries
-cca757a715909fca97c6cc7db8cffb1900c9422b btrfs-progs: ci: enable paralleld build
-72187ecf0940c2474b5fd9c655036f21830d16e4 btrfs-progs: ci: add ARM build and test for devel workflow
-ff0294e107011ed94105b2193258997182736926 btrfs-progs: check: recognize verity item keys in original mode
-08f5e8318cffc877a10df55671eeb0961b3ed4fd btrfs-progs: add convenience print helpers
-28492e11119604d9084d46094513d3d0e86fb860 btrfs-progs: use pr_default() everywhere
-19a15c3333893530046fb71f4718340d36501d2e btrfs-progs: use pr_info() everywhere
-e279476081670d4a3378c279c385be216af60e3d btrfs-progs: use pr_debug() everywhere
-ee143f8e79e6e6a2aa52c14bf977c2d2fdd5b97c btrfs-progs: check: lowmem: recognize verity item keys
-cff7728611e91f18340d88db32f6afd82303df2d btrfs-progs: test: add a check test case for verity items
-975d74db3e2543fc7aaf72ef57b5c0acb0f39f56 btrfs-progs: mkfs: add hole detection to --rootdir
-bd96a899991c2d397f8e24133893fdc0d2c57a35 btrfs-progs: tests: add a mkfs test case for mkfs hole detection
-c0e6c8aa7dfd75085afdfe3180308e30368a81bb btrfs-progs: docs: add USER_NS to fstests config
-ab14bec6a1660a6b0c3948d61e84f72ec4edd8c4 btrfs-progs: docs: add FS_VERITY_BUILTIN_SIGNATURES to fstests config
-f0801917d20774f4aac4b5296b4850d17d70de68 btrfs-progs: fix corruption when doing mkfs.btrfs with -O ^no-holes
-2c1f18594d73900890ba17fdfe8b331c37a70cc0 btrfs-progs: tests: add the missing binary image for fsck/071
-5c9772970e4041916a77cd7f0c8f683ce640052e btrfs-progs: docs: add kernel changelog for 7.0
-a225d9dab31738f1f233f6f6f0d3059f724493b9 btrfs-progs: docs: update kernel features for 7.0
-a69b945249764c491212ad7ac17e32e5c17b4907 btrfs-progs: docs: add 7.0 kernel development statistics
-f15c03e7e9bbd8a3a58b1fd60657fb03a1594d95 btrfs-progs: docs: update Status page
-545ba2c67b655ec8c7687d5cbbb3c45fc1e9fefe btrfs-progs: mkfs: update help format
-08e24bc55bdd84e8bd20942097a200654f534542 btrfs-progs: update help format of 'btrfs'
-9fd1e53e186cbce1b49af09e0443982c56b8aa72 btrfs-progs: corrupt-block: update help format
-e551ff07c0547d5519b3ac05f67d2dc3a0e70480 btrfs-progs: cmds: update help format
-cf2e923e2f6a7a30046af97bb74269c8b290a8b7 btrfs-progs: update help format of global options
-a82ebd3707e7ef18c7f0ec513150cf0f6d31b69b btrfs-progs: check: update help format
-a83c276a2f5b0c8927318c82cb405f8d3b5aaa7c btrfs-progs: convert: update help format
-781c28aabd0f214ce9f3c720ebc6e62a8d1d675a btrfs-progs: unify parameter references
-ec8324cc4b8b61d498897f7bafa70df52962773c btrfs-progs: help: adjust alignment of text
-907705e385d626b8943162a5014675a29b2dab1d btrfs-progs: docs: update unlikely() annotations
-3cf2d7609ac986cc1a511921ee27768c8e014ac1 btrfs-progs: hash-speedtest: add CRC32C SSE4.2 to contestants
-2fd2ec02a9f4abd2f7dc039582cf9f4a51a70bce btrfs-progs: hash-vectest: add CRC32C SSE4.2 to tests
-d9d94aa1536319a943210071dfc5eec8c520c729 btrfs-progs: crypto: enable PCLMUL implementation of CRC32C on Musl again
-bf04561c523b4585ebd9b75e14ab14b3b42f4068 btrfs-progs: reorder CPU flags PCLMUL and SSE-4.2
-64b7f8cf1661d5bda4b6321574fbc7b1e7bebb8d btrfs-progs: check: fix typo in error message in print_data_backref_error()
-e27bca122686676ac8e6f49ba7053403b7b922f1 btrfs-progs: print-tree: fix the format string for EXTENT_OWNER_REF_KEY
-6ce35c87065824ab058cb382c5de88a6563c475a btrfs-progs: check: lowmem, fix false alerts about EXTENT_OWNER
-1f4ece445147d9297fe6d4922226fa42ce180c84 btrfs-progs: tests: add test case for squota lowmem false alerts
-dde71e2be9bdfdd822a25735a6fad10a03c030a4 btrfs-progs: reject writes if the fs has running replace/balance
-f353da082ebc5b73d0db2d6ce1c5ba828f181be6 btrfs-progs: tests: also test mkfs hole-deteciton without no-holes
-2476279636bc31bff10fccff3363471cd224fb07 btrfs-progs: tests: add mkfs test case to verify the content of rootdir
-981d0d4fb4b300d6e29a318f7f1d6ec4ebbe400b btrfs-progs: implement the missing btrfs_insert_hole_extent()
-c9c8d64acd17896d35004d2cf4e55ae6f950c364 btrfs-progs: mkfs/rootdir: factor out compressed write path from add_file_item_extent()
-0dd659b197d76a7386ebd99017d06f08045458d8 btrfs-progs: mkfs/rootdir: use stat.st_blocks for size estimation
-9e44e0d9292655705f6b987cd0f516708415f521 btrfs-progs: ci: enable gcc 16 on Tumbleweed image
-a60ba4b0f82eb489253b927df7b33a50dce08205 btrfs-progs: ci: update extended build test deps for crypto libraries
-0368ee267d3ed0df9d17b13223e6a49a0f11129e btrfs-progs: add missing error handling for strdup()
-6684d23a8fdcd588a3dadb831111cdb7cc57fd39 btrfs-progs: drop const from struct config_param key/value
-9eac85f2f0bc2d735815ccb120234d56b9787238 btrfs-progs: handle allocation errors in bconf parameters
-6dbdd804c2311ba8ad03b181cdd3302ba589a6f3 btrfs-progs: docs: document SHUTDOWN ioctl
-a36b51e8dc921de46c6eb3131d2c8fb72869dfc4 btrfs-progs: docs: update the operations affected by swapfiles
-7b9979b42b028c37ae6c6cd1b02c15d419eb78b7 btrfs-progs: balance: most filters can only be specified once
-8f1f9f7c673341837550f384f17ce4fa635771a4 btrfs-progs: kerncompat: add fallback for static_assert
-edae8a0ca52c93fc8dea6625c69fb3a5d8b1d79e btrfs-progs: docs: fix typos
-5da34e6ff6b807515628277722194f88d0ff6339 btrfs-progs: update CHANGES for 7.0
-9c5987432906daebde23f9703c0f6f90c35fa9da Btrfs progs v7.0
+6fe22236e290b4baa2463e61404705df7007a255 mm/damon: s/DAMON_TEST_TYPE/DAMON_FILTER_TYPE/
+4b0386c1cb4ec8fcbc1ec9918030514758559595 mm/damon/paddr: put folio on damon_pa_filter_pass()
+f9caea7289be4a74df7fc6d1d850f465619c6ba9 mm/damon/paddr: reduce damon_get_folio() in damon_pa_filter_pass()
+4857c68c6ece643272f0c23552a21424473888be mm/damon/core: introduce DAMON_FILTER_TYPE_MEMCG
+714206e70a6a3f30138f91452990fc131a8e915a mm/damon/paddr: support DAMON_FILTER_TYPE_MEMCG
+e3cd55dd513e68e31879d56ef1e4bfe2d8545f03 mm/damon/sysfs: add filters/<F>/path file
+0cb42fb962dd77e9c52bf91c2963327341a49165 mm/damon/sysfs-schemes: move memcg_path_to_id() to sysfs-common
+aad0069a10697773c545f68ac8df340026941706 mm/damon/sysfs: rename t to filter in damon_sysfs_set_probes
+462350288cafaacde54e5c69ab5e762f4573edf4 mm/damon/sysfs: setup filter->memcg_id
+5dfbcbf617390b8c9eeacc49562385690f3b4314 Docs/admin-guide/mm/damon/usage: update probe_hits interface
+dca36aaf36b320aaf34b5e6efd4671f10b0fa9db mm/damon/sysfs-schemes: implement tried_regions/<r>/probes/
+486194623cef5aa46654a99c91da8e263125cd57 mm/damon/sysfs-schemes: implement probe dir
+c4e65cf9db7072feb7263450f74c0c7f17636e8b mm/damon/sysfs-schemes: implement probe/hits file
+43dfca55890569202c5469011ffd297a548edb9c mm/damon/sysfs-schemes: remove obsolete probe_hits file
+ca285d97c88037c545b1c7c1817bddfaa2e38293 mm/damon: update damon_aggregated_v2 tracepoint format
+bfd9fd2fa110e6c0f0d0b7728d287c26ce820961 ==== fault/report-based monitoring for per-cpu and write ====
+99afac42e6d8554ecfc2f154c092def8a48d9222 mm/damon/core: implement damon_report_access()
+e71e0e1770eed7682fd404d0d8559ee31992ce65 mm/damon: (fixup) fix typos
+08883e8c004122dfc1de865de477a955d72433dd mm/damon: define struct damon_sample_control
+fb83265c9010b9218c73a0c1a943b5707d6dd785 mm/damon/core: commit damon_sample_control
+6ac709a2736618cd46c527050242a8787807f061 mm/damon/core: implement damon_report_page_fault()
+375a4d428857a96d8124ccefda9c52d237af376d mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
+f7373a9fef690e7c87f25ea4a8bf5550f932d682 mm/damon/paddr: support page fault access check primitive
+688ed7604e1ab03f72715af9798560b292f8a09b mm/damon/core: apply access reports to high level snapshot
+e86de691fd1339fe781e8492f4a7ac94d5e1c3b8 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
+500f6f2ca428ac30fe89c02e04ecb1dc5d3c9584 mm/damon/sysfs: implement sample/primitives/ dir
+c8faec2818d3133cb3b59afe4a94e3024396fcb6 mm/damon/sysfs: connect primitives directory with core
+a342a8eea46ca9a2578b13d5f21f29d9f5afb1b8 Docs/mm/damon/design: document page fault sampling primitive
+63e7658df207920ec7006d456a69d3d39cf23b1b Docs/admin-guide/mm/damon/usage: document sample primitives dir
+70fcc290051e30dcf89fbd6d3eba1aba7e4d53a7 mm/damon: extend damon_access_report for origin CPU reporting
+6253866e60fbd9edb0ea19d38e3a6b6e88fb11ad mm/damon/core: report access origin cpu of page faults
+38a28ef242e83c5be5549ec1bafe35e6f5d6e893 mm/damon: implement sample filter data structure for cpus-only monitoring
+e311b04e5f2dd23d37b3da69716f0bdd32b87783 mm/damon/core: implement damon_sample_filter manipulations
+3b235b69fd86866b4c07fee1aca969c5d88b90e9 mm/damon/core: commit damon_sample_filters
+52e17d76e1d5472483a284eb6f8b3fe557c960fe mm/damon/core: apply sample filter to access reports
+eb1227f7e8e567fcae2b656a3a6960796fdf0fee mm/damon/sysfs: implement sample/filters/ directory
+a7837734c2c8d46aab8f54fa1fb83e0415bd29c0 mm/damon/sysfs: implement sample filter directory
+bd61287b5b2c6d9c54849fa4ed8c08d90f96a426 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
+bc08e60a1741815043cec591b335d3b6d95e8089 mm/damon/sysfs: implement cpumask file under sample filter dir
+7e7765b7e3df15de4eccbfdcb5d83b47f36df604 mm/damon/sysfs: connect sample filters with core layer
+d7737214331c9ee3510a62f739e808039188fd6f Docs/mm/damon/design: document sample filters
+bc69bf929820bdccc95cbb13913e85fdca0cbc03 Docs/admin-guide/mm/damon/usage: document sample filters dir
+a67f71fb73bef656d280ebd68920d353eafcf891 mm/damon: extend damon_access_report for access-origin thread info
+71dae73e1aaeeb678cd6e6a26c34ecb86ff7aa54 mm/damon/core: report access-generated thread id of the fault event
+221363a9113f022a08c89f3ee55d21e0c04fe8fc mm/damon: extend damon_sample_filter for threads
+f9017583e4f571aea68085a4bd14c528b81dcf9d mm/damon/core: support threads type sample filter
+400899d15d9a1d94a8ce59cbca665dc2a3776da0 mm/damon/sysfs: support thread based access sample filtering
+1ea8d796bbb38d36ba21ef95e63e2118b553fcad Docs/mm/damon/design: document threads type sample filter
+d176fe7d36a4e7f441351308a9208e0d1dff81ab Docs/admin-guide/mm/damon/usage: document tids_arr file
+ceafcb62be90e38243862be5c364a097ac8e41a1 mm/damon: support reporting write access
+836e6b837bdfd407969d91188465017005dce02e mm/damon/core: report whether the page fault was for writing
+7d322475bd7f10fa4ae1a00f1e6c03f31c89554a mm/damon/core: support write access sample filter
+c04e58bdc505497e23c0957134b71af7a74bf3d3 mm/damon/sysfs: support write-type access sample filter
+8060518ebdfa611d0af8017158f23c97eb250fee Docs/mm/damon/design: document write access sample filter type
+93fe6eb2fd0348edd77fdd4db9450632bebe501b mm/damon/core: elaborate access reports dropping behavior
+aefd4df24aa3e3fc3b61f9631cbf7d63e93d84ca ===== fault-based vaddr monitoring =====
+c5294846cfed1c00e4c2cf75711ba77500d25a43 mm/damon: rename damon_access_report->addr to ->paddr
+c66c697e0b442727efadb88399d94c40c698f627 mm/damon: extend damon_access_report for virtual address
+45ffeff06adf41c60d7c4a7ec7ac3c2ec9027bd0 mm/damon/core: set damon_access_report->vaddr from page fault report
+bc34f398ee4cb1ac963dcd0843d4e4fcd1d63d7b mm/damon/core: support vaddr reports
+95016dee9990590238141423fc9548750849d8ad mm/damon/sysfs: move sample directory code to sysfs-sample.c
+2651f68fd5765aedfd6e2a3f91f0fe8623311be2 ==== docs for DAMON and mm ====
+406bbbe7eb8a96d521f6601287679c5e920cab05 Docs/mm/damon/design: add table of contents for overall and DAMOS
+461cd43309304df363919a180087fef654d75e9e Docs/process/2.Process: Update mm tree URL
+14fe2012994338fd782b1f2cb12d890c8e17643e Docs/mm/damon/design: add API link to damon_ctx
+9b42e47cc3948a6db88c13b3eae33a1331446385 ==== ACMA ====
+45e0913124e783905b0ec23dd183f98ca2064adb mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+44039f6c69563d29eea62e0078b2d60a7fa29fac mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+6489227b00f923243eedde7cc13d0fbdddffc296 mm/page_reporting: implement a function for reporting specific pfn range
+dd7727d538e1a0531ee84d315718b7d01d063809 mm/damon/acma: implement scale down feature
+d82517d0250452460cb0901c7cdf1cfc73691d05 mm/damon/acma: implement scale up feature
+3abaf80bf51b6d29d76c148d8824f20e028af149 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+c01ccc1e44a0adc7ab76abc6cb0489a3e3df4d88 === commits aiming not to be posted ===
+0a2754afa8027932b6b37034a55044c7afb020e7 mm/damon/core: add debugging log for intervals auto-tuning
+e88420293f8f31122e9078d2530921f0faec111d mm/damon/core: add todo for DAMOS interval validation
+9dd1845ff189715699e899d51650b9784b016658 mm/damon/core: add debugging-purpose log of tuned esz
+1eb7cef05b67fcd7c065da517454d5adb8ea9da5 Add debug log for PSI
+85a107d5c80193a59762418a64ed244e37d9c182 ==== uncategorized ====
+eb3fc6c37b4012d6ee087b0a461987fe0892620c mm/damon/core: add an hacking idea concept interface prototype
+4cf38eec43b9853d844a40e486b4bc58309c889a mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+972572c4788836ce6ebd2a1c7d4092ac7f39de00 mm/memory: implement functions and data structures for page faults monitoring
+f715fb235bb550f2c2dba7720a4cf965778a74c1 mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
+bf8d5a3737759aa6c4f6cf98b96baeab15bda84d mm/memory: mark faults_monitor_controls_lock as static
+2b68e66961a16244abbb7c8ee435a06e73b941df Docs/mm: add a maintainer-profile
+32498e3a466af48530a1e19fa02d971dbd27d0dc mm/damon: mark kdamond_lock as __private
+36b582fc54f1d97da5a46b14a136c856f992cc58 mm/damon/core: verify regions right after merge operation
+2fd7ae43e4d6ed7235c8d91ab0abc67e434d9a42 mm/damon/core: remove damon_verify_nr_regions()
+5f05dc21a8af038aa6befa600baa412111992da7 Docs/mm/index: link maitnainer-profile
+f2600a420cf08ca3b010a4388e6dd2443f4b35ed mm/damon: add damon_call_control->cleanup_fn
+9ca18dcfd182bfef9ad22df70ebf350497c221e0 mm/damon/core: call cleanup_fn()
+71d3c3c9a607e7917454ffbd4c361672ffceffef mm/damon/sysfs: use per-context next_update_jiffies
+a52b192fc57f4e25b5db41121be0b249ca914f24 Revert "mm/damon/sysfs: use per-context next_update_jiffies"
+ec5aa12810ac7b2e571b71b64736bb5f642ad447 mm/damon/reclaim: handle init failure
+e2f0e678ff516cb802ad8afca9205ca438224296 selftets/damon/sysfs.sh: test monitoring intervals dir
+c8445c1c89cabd968a42136829e44710c3026b34 selftests/damon/sysfs.sh: test addr_unit file existence
+66722327864b93f03bb481eee8d57b3615fcabea selftests/damon/sysfs.sh: test pause file existence
+e86d9892b7edfe0e68485f393e77f26e444df114 MAINTAINERS: add ABI documents for mm
 
---===============5702007187616871714==--
+--===============7002605643594944538==--
