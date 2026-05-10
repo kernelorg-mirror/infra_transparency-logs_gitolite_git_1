@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sun, 10 May 2026 22:43:29 -0000
-Message-Id: <177845300925.1688915.13788795949683680804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 10 May 2026 22:44:16 -0000
+Message-Id: <177845305696.1689940.17852778882848149463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/for-7.2
-    old: 1be3b6ff007ec1289818a4956efbddb86766b74f
-    new: f25ad1e3cbaa4c87bb2b11496786f79db54c294f
+  - ref: refs/heads/master
+    old: e72c28766272c75717be79bcb879f6f2eb539186
+    new: cf48b66262b43645470f6220e3ee5a8407d9292c
     log: |
-         f25ad1e3cbaa4c87bb2b11496786f79db54c294f sched_ext: Add scx_task_iter_relock() and use it in scx_root_enable_workfn()
+         228000084edea5084828275671b990acbefe136c patches/next: fix damon_filter
+         cf48b66262b43645470f6220e3ee5a8407d9292c patches/next: attrs monitoring category cleanup
          
