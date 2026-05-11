@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6647220668630042077=="
+Content-Type: multipart/mixed; boundary="===============5641949131420970311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Mon, 11 May 2026 17:31:07 -0000
-Message-Id: <177852066745.3083276.13643098808441268909@gitolite.kernel.org>
+Date: Mon, 11 May 2026 17:31:31 -0000
+Message-Id: <177852069110.3083648.15310777337232131715@gitolite.kernel.org>
 
---===============6647220668630042077==
+--===============5641949131420970311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iommu/linux
 user: joro
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/amd/amd-vi
     old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: b6312d187c0d16e36adb46ab8e099f475b7befd5
-    log: revlist-5d6919055dec-b6312d187c0d.txt
-  - ref: refs/heads/next
+    new: c6580699ffcd44941eaec895d6b5cc2c338d27bd
+    log: |
+         b30e046cfdcc883c627a1d0ede7e2d10d5c1a22c iommu/amd: Explicitly bail from enable_iommus_vapic() when in legacy mode
+         4bf53c2d0c08bbdaa32f2114281f1ddab61902bf iommu/amd: Fix a stale comment about which legacy mode is user visible
+         45ccfdd3b577f3f0a9e86fe3f37132798dfbb2a1 iommu/amd: Remove dead code for exclusion ranges in IVMD
+         5beda8cadb1f072140e58b1edb7604444a42d955 iommu/amd: Add support for Hygon family 18h model 4h IOAPIC
+         c6580699ffcd44941eaec895d6b5cc2c338d27bd iommu/amd: Remove unused IOMMU_IN/OUT_ADDR_BIT_SIZE macros
+         
+  - ref: refs/heads/fixes
     old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: b6312d187c0d16e36adb46ab8e099f475b7befd5
-    log: revlist-5d6919055dec-b6312d187c0d.txt
+    new: 79ea2feb917b05366b49d85573c9c5331f043b2c
+    log: revlist-5d6919055dec-79ea2feb917b.txt
+  - ref: refs/heads/riscv
+    old: 5d6919055dec134de3c40167a490f33c74c12581
+    new: 6c21eb174c6c7aebdecaf5c39e3100e6beb35faa
+    log: |
+         f196a86687974cfcc1e8cade99ffca4605141860 iommu/riscv: Advertise Svpbmt support to generic page table
+         6c21eb174c6c7aebdecaf5c39e3100e6beb35faa iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits
+         
+  - ref: refs/heads/verisilicon
+    old: 0000000000000000000000000000000000000000
+    new: 187029b922d0e7974ec59bf5708d04b207f7f969
 
---===============6647220668630042077==
+--===============5641949131420970311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d6919055dec-b6312d187c0d.txt
+Content-Disposition: attachment; filename=revlist-5d6919055dec-79ea2feb917b.txt
 
-b30e046cfdcc883c627a1d0ede7e2d10d5c1a22c iommu/amd: Explicitly bail from enable_iommus_vapic() when in legacy mode
-4bf53c2d0c08bbdaa32f2114281f1ddab61902bf iommu/amd: Fix a stale comment about which legacy mode is user visible
-45ccfdd3b577f3f0a9e86fe3f37132798dfbb2a1 iommu/amd: Remove dead code for exclusion ranges in IVMD
-5beda8cadb1f072140e58b1edb7604444a42d955 iommu/amd: Add support for Hygon family 18h model 4h IOAPIC
 8dfd3d8d74435344ee8dc9237596959c8b2a6cbe iommu/amd: Remove latent out-of-bounds access in IOMMU debugfs
-90d50734815a227fa26563ec6ee3388a69d35843 dt-bindings: iommu: verisilicon: Add binding for VSI IOMMU
-917ace84b7702ab067572e3e9bff03a4e4dce7b9 iommu: Add verisilicon IOMMU driver
-6ddfbec80077eca7b7e5a4298750d3dac82997ff arm64: dts: rockchip: Add verisilicon IOMMU node on RK3588
-187029b922d0e7974ec59bf5708d04b207f7f969 arm64: defconfig: enable Verisilicon IOMMU for Rockchip RK3588
-f196a86687974cfcc1e8cade99ffca4605141860 iommu/riscv: Advertise Svpbmt support to generic page table
-6c21eb174c6c7aebdecaf5c39e3100e6beb35faa iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits
-c6580699ffcd44941eaec895d6b5cc2c338d27bd iommu/amd: Remove unused IOMMU_IN/OUT_ADDR_BIT_SIZE macros
 07d0f496fe7ec5abe3bee7e38be709521567bb33 iommu/amd: Bounds-check devid in __rlookup_amd_iommu()
 d769711fcddd005f1e654b3bde547140917fe696 iommu: Fix NULL group->domain dereference in pci_dev_reset_iommu_done()
 834ab85aa96656f87bb215a8285d34af870f4b66 iommu: Fix kdocs of pci_dev_reset_iommu_done()
@@ -54,6 +59,5 @@ fc3523b16d2b4b88e61e69504b0ae0b18b869c8f iommu: Fix ATS invalidation timeouts du
 2cda2e10dc8343ae01eae9e999a876b7e7d37861 iommu/vt-d: Disable DMAR for Intel Q35 IGFX
 a6dea58d8625c06b9654c0555f101742481335c3 iommu/vt-d: Fix oops due to out of scope access
 79ea2feb917b05366b49d85573c9c5331f043b2c iommu/vt-d: Avoid NULL pointer dereference or refcount corruption
-b6312d187c0d16e36adb46ab8e099f475b7befd5 Merge branches 'fixes', 'verisilicon', 'riscv' and 'amd/amd-vi' into next
 
---===============6647220668630042077==--
+--===============5641949131420970311==--
