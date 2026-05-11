@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7831547605304535940=="
+Content-Type: multipart/mixed; boundary="===============8441557983029508454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 11 May 2026 01:17:42 -0000
-Message-Id: <177846226214.1853216.8702187438477213658@gitolite.kernel.org>
+Date: Mon, 11 May 2026 01:18:25 -0000
+Message-Id: <177846230522.1853869.10873562286660202374@gitolite.kernel.org>
 
---===============7831547605304535940==
+--===============8441557983029508454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 8ac8f70798fcae207c14249fed6cb6972d6fb78e
-    new: dc7a9c0a4a32ea2abab9daf1a541fa99a6d3749c
-    log: revlist-8ac8f70798fc-dc7a9c0a4a32.txt
+  - ref: refs/heads/nfsd-testing
+    old: 3b67f146a05724d37784e54cdd4302edf9128448
+    new: b26490baad0b7318d763b5ad6e5ca2addb20b314
+    log: revlist-3b67f146a057-b26490baad0b.txt
 
---===============7831547605304535940==
+--===============8441557983029508454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ac8f70798fc-dc7a9c0a4a32.txt
+Content-Disposition: attachment; filename=revlist-3b67f146a057-b26490baad0b.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -629,5 +629,40 @@ ee1ca4e109a08983b9c80210554c5f75423a320d sunrpc: add SUNRPC_CMD_CACHE_FLUSH netl
 1ab514af2a8b679c611f54cd0599dcf6bf17c082 nfsd: add NFSD_CMD_CACHE_FLUSH netlink command
 3df414fedfe4f3d1441114c1d8abebbed9d31aba NFSD: Put cache get-reqs dump attrs under reply
 dc7a9c0a4a32ea2abab9daf1a541fa99a6d3749c NFSD: Update my maintainer email addresses
+1a6edb210ef6cceb605c4137a65b8e1ea6d71d41 NFSD: Fix infinite loop in layout state revocation
+cae2f2e2459febc1fd5cf8c6d591e3633b29412a NFSD: Handle layout stid in nfsd4_drop_revoked_stid()
+577a61f8d6c2f5c1a1025a5bf69d69dff163e692 NFSD: Extract revoke_one_stid() utility function
+dc4651eb5041a797d08facba436173cbb99f009b NFSD: Add NFSD_CMD_UNLOCK_IP netlink command
+ea73cb6b1a226830c20996e063722a559b299a8a NFSD: Add NFSD_CMD_UNLOCK_FILESYSTEM netlink command
+5b9e713b74bc0f0f66d001fb033513c7cfb09185 NFSD: Replace idr_for_each_entry_ul in find_one_sb_stid()
+8ccbe529945dc929b7057c40253ae1c9c582922d NFSD: Track svc_export in nfs4_stid
+2812da39f698705bdadf9b64aba40a92ed1d930c NFSD: Add NFSD_CMD_UNLOCK_EXPORT netlink command
+4ad29be4e3caa3d537975624e50163769ac82545 NFSD: Close cached file handles when revoking export state
+f503db04b182aaf4ce511df96e95a9edf8a28437 NFSD: Increase the default max_block_size to 4MB
+c0a99f2fd96d536c3b9a54d420beade092007035 sunrpc: prevent out-of-bounds read in __cache_seq_start()
+daffe2800bb501336940fe371f1a121e9a34962b NFSD: Report whether fh_key was actually updated
+efa8c950c445f8a375866b0a151f1297d9ad4770 lockd: fix TEST handling when not all permissions are available.
+8401a6550e621ccc0d9cad73948fcef4bae56bae SUNRPC: Add Kconfig dependency on CRYPTO_KRB5
+c8efcd5b7727d9aa1f32152553f4f3348d3d529f SUNRPC: Add crypto/krb5 enctype lookup to krb5_ctx
+bcb53f8eaca10a9676bee4dc1abf1a9fcf2ba690 SUNRPC: Add helpers to convert xdr_buf byte ranges to scatterlists
+135c3b4e0f3f1a78af68e6d9d3f25dd0516ecbf9 SUNRPC: Add errno-to-GSS status conversion helper
+5b4b1fc7092c59d3b5866c5f08faef9b5c8e6f59 SUNRPC: Prepare crypto/krb5 encryption and checksum handles
+106f6145b7b43f2b0a0ddf15e8f0fac9bb211f5c SUNRPC: Switch wrap token encryption to crypto/krb5
+64ad7a220d3d671c5964e1c74d5ca444e4622a92 SUNRPC: Switch wrap token decryption to crypto/krb5
+60ded67c688e7e96f02707a6fa40ca20bac917c2 SUNRPC: Switch Camellia decrypt to crypto/krb5
+4693cf6acf1cc2ee273a4db35a58a53e71abe735 SUNRPC: Switch MIC token generation to crypto/krb5
+232ec39751ccdaa406e082f785a8630c0a6e99b9 SUNRPC: Switch MIC token verification to crypto/krb5
+a1cec43bce1df5d20825768d19df607b04aca713 SUNRPC: Remove get_mic/verify_mic function pointers from enctype table
+0d206375fdedf6718569206ae1ff750cd4f8d174 SUNRPC: Remove wrap/unwrap function pointers from enctype table
+ba6ae9a8dde0f306038cf95527f1d1a53e38ad4d SUNRPC: Remove encrypt/decrypt function pointers from enctype table
+457dbe84e43f922cc8eb5f669a63546e534830ee SUNRPC: Remove legacy skcipher/ahash handles from krb5_ctx
+5f232a56d0a9f4a53fcfd89389476132e2b4323b SUNRPC: Remove dead code from rpcsec_gss_krb5
+4173f52d7b102b35658e09aeb11912e6e5750906 SUNRPC: Remove per-enctype Kconfig options
+92b8add956fb1288ffe60ebb899e380e740f3e39 SUNRPC: Remove redundant crypto Kconfig dependencies
+f493afe61749ceaf10016f74223eccba85d95cc4 SUNRPC: Remove dead rpcsec_gss_krb5 definitions
+56c33e76cf64dad526f5b1ca54361e14c6b95a50 svcrdma: Release write chunk resources without re-queuing
+1e7ca674473c8d6e5865e0a0a18a32df67e6de0c svcrdma: Defer send context release to xpo_release_ctxt
+48f2ca450e8402398d13091647a22919d56ec15d [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+b26490baad0b7318d763b5ad6e5ca2addb20b314 siw: Enable try_gso
 
---===============7831547605304535940==--
+--===============8441557983029508454==--
