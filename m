@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6284729197529480887=="
+Content-Type: multipart/mixed; boundary="===============1265872970096066994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 11 May 2026 07:43:21 -0000
-Message-Id: <177848540113.2424495.10742115679278612553@gitolite.kernel.org>
+Date: Mon, 11 May 2026 07:43:49 -0000
+Message-Id: <177848542941.2424825.17702800798766252301@gitolite.kernel.org>
 
---===============6284729197529480887==
+--===============1265872970096066994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 39dd66516b71354c6e0c59c37c546c2314005fe5
-    new: 9e818c391338eeb3e8369050c88d90a36de94baf
-    log: revlist-39dd66516b71-9e818c391338.txt
+  - ref: refs/heads/rndis
+    old: 3910ba4cd9ad7c17b32ac02447d07a90fc1c859e
+    new: b49f43153d4360f78e14861d23940aabb80bcffe
+    log: revlist-3910ba4cd9ad-b49f43153d43.txt
 
---===============6284729197529480887==
+--===============1265872970096066994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778485375 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778485403 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1778485374-308dca55e66c7a53d02e86647c899190c85a041e
+nonce 1778485402-a6cf97adff25601331651eab373e66fddffcf10d
 
-39dd66516b71354c6e0c59c37c546c2314005fe5 9e818c391338eeb3e8369050c88d90a36de94baf refs/heads/module_version_removal
+3910ba4cd9ad7c17b32ac02447d07a90fc1c859e b49f43153d4360f78e14861d23940aabb80bcffe refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBiH8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AsgP/2IoRVlYNG+hYUNU768D
-vKa/80gnSBvivovjtSaHWuAevuhsBaMM82GB8GbjeB0zxkWhsQVcREZdcUTtMkzT
-PUf5nH0lZ2AqnSShAyyClI4TLJ3Iotee8mZedk9ISFvTk4IFninC8h28Z8MaN/Dt
-Cv+idXhiSq5hjr1QMorG/X2trVaTwPxP/X3kyR8cmb1IHafKRd4YcmanOFSjJ/Ge
-514CVW7xyJY3dEB1G4WBgu+/O57ZE/Znhc0gV3X8DyWET9rFLs+STxK2GhWmA7IK
-Hs0u6QtBBweRWeNrTz3JBxoZ/DiWEZZCR+avL9X/L/7NugwJDbNw7bxoe7JJQI4o
-vKBUQzSP+wQWClygPnE+dPuBDbuCPth+/bAwwu0BgRE63I+Woq4kwfQ7yrQtV9jA
-f/IUCwcsyApaDFkCg//r14BItRgudUCDPwNzO07KI8UVSArsOzx4ytIGPgrctV+r
-5/AznTs/idMTHUxVYZkM/mOuLeg76ukCq6ENtlkbZPRv8R93imNbWp9qevj3mwjR
-H+AZZKeBZr4j9GrswFqB30n/eDaUIta0iMTLkTGriCD5rMWBsa7bTBgtYAsPXXLb
-hewjWiWlylugoNCL7/XNcAaZehSERX3tXiqxUZ5hFmJdkyxGSewNFH4W9J+vm2+E
-SKj3M8yIDlgqiPqfz916JFGE
-=BeD/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBiJsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XB0QAKUfptryt7uMqeJze+PO
+VMdMnRO11h5GokCWokIOw7pc3+Akc56zT8KM0M2Fh1pMjbp56QqPp9T/utSD3eoA
+nNuIewx/bbKs7TEy/LiVQr0WHutMKRtnprTDMXebzMO5QuN9Z9GSfyx4H2ixgLB7
+YEwyUEBwWVskOf5j2/xYGEZCyn6FpGmNQnglpLb2qvPRzX9NHiq3flSkFG6sDsnk
+suSNFlwnJWf0LJSuCXsPfXg3GefGYUjJrk/B3SNhbF9bjZtD2sGW8KdYueuu8Chi
+akX1oPSse2yoy1gJb4TdfHOVT2CZd2fwYIComhLyiVcyPISM/1okyUKgMXONt9UZ
+iXY2pWmTN0OFKtDBLuwUgMGHIzxjOMxjzFzefMdDXSe7WxTfA+jTY4KoKLnjeeMb
+6IPwCAy3fqXqkw5bQFBu5j44vVTb7mZ9KKPFwLrLCk3AeydJdQw4K6wXSLgmzQz7
+pkbAOhuXxyO9xKnHP9dkprcj4NzP5gvWmlpmgbK5pHITFOSqUpt6XSbn8zSNzucX
+r+jDAb0VQSs+U6JXcflX8DCLpthG/UnVSDdzFQFNOnRGbrht45r44HzqnpDUbhrU
+XnxT+4+/JI52fHI59Pbe6tjq1bNcJAfAngZYdFFBrcSpYPIJZTwVk3LQlluoKjGm
+5RFz2UP5VKoeD3oaR+nk4Q07
+=fk8w
 -----END PGP SIGNATURE-----
 
---===============6284729197529480887==
+--===============1265872970096066994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39dd66516b71-9e818c391338.txt
+Content-Disposition: attachment; filename=revlist-3910ba4cd9ad-b49f43153d43.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -636,6 +636,7 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-9e818c391338eeb3e8369050c88d90a36de94baf module: remove MODULE_VERSION()
+539e76438a063ffb9771f951469af1b18c8628c0 USB: disable all RNDIS protocol drivers
+b49f43153d4360f78e14861d23940aabb80bcffe USB: potential rndis host fix
 
---===============6284729197529480887==--
+--===============1265872970096066994==--
