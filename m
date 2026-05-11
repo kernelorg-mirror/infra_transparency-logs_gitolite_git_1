@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 11 May 2026 01:55:03 -0000
-Message-Id: <177846450303.1893204.10993863987460309742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 11 May 2026 02:03:30 -0000
+Message-Id: <177846501010.1902164.5718543662423026630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.1-fixes
-    old: 796ad622040f7f955ccc3973085e953415920496
-    new: 2a3d7256faf06d1a15bb5b07e851ac4e1680c26d
+    old: d3e73a0808ddfb91ac36cd548643cbbeb00ad4db
+    new: 3788e32516530dee66cf9186f846480a16799b05
     log: |
-         e32e6f02168f2ad7991eb5d160d312d2001520c8 selftests/cgroup: Fix cg_read_strcmp() empty string comparison
-         2a3d7256faf06d1a15bb5b07e851ac4e1680c26d selftests/cgroup: Fix string comparison in write_test
+         3788e32516530dee66cf9186f846480a16799b05 selftests/sched_ext: Fix build error in dequeue selftest
          
   - ref: refs/heads/for-next
-    old: ec73262b0405f77a72ca3f7f8e85156ac6137418
-    new: 65f3d2abe1fba39abd66200e71d9c12082282219
+    old: 354122492dfe47389edec53c21b02ea3ded3f3cd
+    new: 4bded1a16792c257c18bb16cd2c837c4fdbc24b8
     log: |
-         e32e6f02168f2ad7991eb5d160d312d2001520c8 selftests/cgroup: Fix cg_read_strcmp() empty string comparison
-         2a3d7256faf06d1a15bb5b07e851ac4e1680c26d selftests/cgroup: Fix string comparison in write_test
-         65f3d2abe1fba39abd66200e71d9c12082282219 Merge branch 'for-7.1-fixes' into for-next
+         3788e32516530dee66cf9186f846480a16799b05 selftests/sched_ext: Fix build error in dequeue selftest
+         4bded1a16792c257c18bb16cd2c837c4fdbc24b8 Merge branch 'for-7.1-fixes' into for-next
          
