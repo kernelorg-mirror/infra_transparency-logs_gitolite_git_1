@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8107064615645403933=="
+Content-Type: multipart/mixed; boundary="===============0113145172744836076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 11 May 2026 15:37:23 -0000
-Message-Id: <177851384332.2954557.5715163600543104809@gitolite.kernel.org>
+Date: Mon, 11 May 2026 15:37:44 -0000
+Message-Id: <177851386426.2954901.9306178013163830350@gitolite.kernel.org>
 
---===============8107064615645403933==
+--===============0113145172744836076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 52957cdad30f8011da1f4ef1338ba0339ca4c158
-    new: ee06a067864b0be72cb3c3d2b43bb39b94524eb1
-    log: revlist-52957cdad30f-ee06a067864b.txt
-  - ref: refs/tags/v7.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
-  - ref: refs/tags/v7.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
-  - ref: refs/tags/v7.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
+  - ref: refs/heads/fixes
+    old: 8f4d20a710225ec7a565f6a0459862d3b1f32330
+    new: 5a52c5701a67d5176eb1afbf1bdaf7d6dfeec597
+    log: revlist-8f4d20a71022-5a52c5701a67.txt
 
---===============8107064615645403933==
+--===============0113145172744836076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52957cdad30f-ee06a067864b.txt
+Content-Disposition: attachment; filename=revlist-8f4d20a71022-5a52c5701a67.txt
 
+27ae4bcf4df480eb7588e01de8f3c4fb74b11d30 Merge branch 'rxrpc-miscellaneous-fixes'
+55b2984c96c37f909bbfe8851f13152693951382 rxrpc: Fix rxrpc_input_call_event() to only unshare DATA packets
+0422e7a4883f25101903f3e8105c0808aa5f4ce9 rxrpc: Fix re-decryption of RESPONSE packets
+3476c8bb960f48e49355d6f93fb7673211e0163f rxrpc: Fix error handling in rxgk_extract_token()
+5e6391da4539c35422c0df1d1d2d9a9bb97cd736 Merge branch 'rxrpc-miscellaneous-fixes'
+4cf42f9c3e3624fedf4f6c38c3d81d80c8b3cbd6 net: packetengines: remove obsolete hamachi driver
+aec3202247b4ab41c5bf3b9f704a2d9a323a051b net: packetengines: remove obsolete yellowfin driver and vendor dir
+fc5f996bfb7576f8cffbba09cb02432622ffea61 Merge branch 'net-packetengines-remove-obsolete-pci-drivers'
+c03ce4173c7bffe1e7477f905a09b015d4000d3c fs: aio: set VMA_DONTCOPY_BIT in mmap to fix NULL-pointer-dereference error
+6689f01d6740cf358932b3e97ee968c6099800d9 writeback: Fix use after free in inode_switch_wbs_work_fn()
+51a8de6c50bf947c8f534cd73da4c8f0a13e7bed fuse: reject oversized dirents in page cache
+3adf7ae18bf42601246031002287c103a27df307 fs: aio: reject partial mremap to avoid Null-pointer-dereference error
+43eb354ecb471426e97b0ce6a0c922ec20f82027 nstree: fix func. parameter kernel-doc warnings
+9a466382c5e1ab706e155914e5532c80c2f3f76c fs: Handle multiply claimed blocks more gracefully with mmb
+3d9fd0abc94d8cd430cc7cd7d37ce5e5aae2cd2b eventpoll: use hlist_is_singular_node() in __ep_remove()
 0f7bdfd413000985de09fc39eb9efa1e091a3ce0 eventpoll: split __ep_remove()
 e9e5cd40d7c403e19f21d0f7b8b8ba3a76b58330 eventpoll: kill __ep_remove()
 0feaf644f7180c4a91b6b405a881afbfd958f1cf eventpoll: drop vestigial __ prefix from ep_remove_{file,epi}()
@@ -1043,21 +1049,6 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-3e0483e93a8be320f70a1ff68d835f7f015af311 mmc: core: Add validation for host-provided max_segs
-915b559f7aca7612ab943f7905011e3e1bd131a2 mmc: dw_mmc: Move misplaced comment
-4bac6b89e3cc8bd728aa40c3879e31ff85b8217e mmc: dw_mmc: implement option for configuring DMA threshold
-65c132fa8c93a75b27860c3f03593937d8dc2c41 mmc: dw_mmc: exynos: increase DMA threshold value for exynos7870
 5a52c5701a67d5176eb1afbf1bdaf7d6dfeec597 mmc: core: Fix host controller programming for fixed driver type
-eb0ff5d010cf451deb810f9628396d43ad119147 dt-bindings: mmc: renesas,sdhi: Document R-Car M3Le support
-2c7210ded06da18b439b3a08b8a3caa42f2f1f72 mmc: renesas_sdhi: add R-Car M3Le compatibility string
-4a3e92e8cfb9741cb687b14fc6ca81714b4c2c26 mmc: host: Move MODULE_DEVICE_TABLE next to the table itself
-5808ef063b5e9342cb223bb9d07a6d5f6ac8711d memstick: Constify the driver id_table
-4f28846aaf8db9668e338b8987973f8935edff34 mmc: davinci: avoid NULL deref of host->data in IRQ handler
-d11f110c4ad2d431f4440baba9afb5b8e4190977 mmc: via-sdmmc: Simplify initialisation of pci_device_id array
-04a8ddc39e5cfebffb06f383350a6ee393ba89a6 dt-bindings: mmc: spacemit,sdhci: add pinctrl support for voltage switching
-f87b273e4b6dfe57dcd63c24cbe3764d1f6954ae mmc: sdhci-of-k1: enable essential clock infrastructure for SD operation
-00a97fc57c09ff1cf71107753d9b5629caeb8c8a mmc: sdhci-of-k1: add regulator and pinctrl voltage switching support
-e9cb83c10071808aa7db4582e007a650aa6aa183 mmc: sdhci-of-k1: add comprehensive SDR tuning support
-ee06a067864b0be72cb3c3d2b43bb39b94524eb1 mmc: Merge branch fixes into next
 
---===============8107064615645403933==--
+--===============0113145172744836076==--
