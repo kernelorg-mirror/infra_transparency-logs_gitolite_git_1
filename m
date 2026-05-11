@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 11 May 2026 12:57:32 -0000
-Message-Id: <177850425282.2771669.4642858769130932824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 11 May 2026 13:07:12 -0000
+Message-Id: <177850483240.2782046.8224849187338112986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/probes/fixes
-    old: 307abfac04a254c09c5705d816b33354acee97a0
-    new: 657b594b2084b39a4bc6d8493aa2140cb00cea49
+  - ref: refs/heads/irq/urgent
+    old: 512718bbc51b851140380b7068ec7365bd039cba
+    new: e8d3dcdf9f576c7527f0a088b953abfaa601ae68
     log: |
-         ef5581bb30efb939cc2bf093475c6cc85258e5cd test_kprobes: clear kprobes between test runs
-         657b594b2084b39a4bc6d8493aa2140cb00cea49 fprobe: Fix unregister_fprobe() to wait for RCU grace period
+         0fa10fb77069fb67aa51384868ef3702b7791465 irqchip/ath79-cpu: Remove unused function
+         e8d3dcdf9f576c7527f0a088b953abfaa601ae68 irqchip/meson-gpio: Use the correct register in meson_s4_gpio_irq_set_type()
          
