@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8744603372649082822=="
+Content-Type: multipart/mixed; boundary="===============7583879327771340242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 11 May 2026 11:36:20 -0000
-Message-Id: <177849938086.2682190.17716972093103532024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 May 2026 11:36:27 -0000
+Message-Id: <177849938740.2682438.12203962243936642978@gitolite.kernel.org>
 
---===============8744603372649082822==
+--===============7583879327771340242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: ee05c329c0487c86d37635a7503ba989c6aa7636
     new: 42d99857d6f08a40a8bde7b9e68d330f18b159a0
     log: revlist-ee05c329c048-42d99857d6f0.txt
 
---===============8744603372649082822==
+--===============7583879327771340242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778499379 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1778499378-2e82bd783ddc9d719a076d2935587fe631a970a8
+pusher C3F436CA30F5D8EB 1778499385 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1778499384-de2e7e0326fe5443de38416bd73426551ac69f66
 
-ee05c329c0487c86d37635a7503ba989c6aa7636 42d99857d6f08a40a8bde7b9e68d330f18b159a0 refs/heads/for-7.2
+ee05c329c0487c86d37635a7503ba989c6aa7636 42d99857d6f08a40a8bde7b9e68d330f18b159a0 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBvzMACgkQJNaLcl1U
-h9DHLggAgVWf4phbu9pqTlFZF9vwhrZo5KZOMwVC2g/tmQQnxlnL+xPTp0krjOgq
-FbXFsV+BEf+CqKwLytySiRwkOwZpwlnSUhwTlSN+rEkXP8ufCBkSUqgU4vjkLRiC
-Zykej/T2XVA33MKVo9cDrVs4KO9AH8NzSPjM3I1Ch8G3JmUfILm99Ol46agiJlK+
-HoJB1dXYSs7NeK7Fn7bs6p1ZvRP7BjAqLcIKFvdsipTpUlFVTM4AxKtwcH84yAT/
-BNQJrojLhNqyigBo8rSi6HFzy9ac7TVsczkc5ja61kIfPjjCSuUAu7+j4BLT3ok1
-+4iIVJsKgc3VUeVA74oQTI2G18nJWA==
-=sMis
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBvzkACgkQJNaLcl1U
+h9ByiAf/R6Nawbj9qwbMKgnl2E1U2nspDHYx41K36kIiArje+UOgWxZVjOYw0mBM
+vzOp97M+9+KQPlv6fURbqPjtNS8wrYkrUNURtoMZfHFNFTb8EBflHPEprZJRzTqe
+Df9bYUVEZbl4iC2q0cnA7fJ7EkpJFFSHrg7R3h3tCoD/QZ83tAliGvNrgi5AxSQ5
+za3tC4Og0ABsOBzb4rGcGIhsdjPer5q6QoG9jBFvxIU/qP9rI88eydlECozsyQ2+
+m99YTkCGFBD7ZmUQa87StT2eN1fmRPxRqT0GtZw5DPdIQvp9yZTn09Y2A55udywz
+A3nWoLuH2zfVIMbPPrwn6ZfYGQJ72A==
+=Fx91
 -----END PGP SIGNATURE-----
 
---===============8744603372649082822==
+--===============7583879327771340242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -650,4 +650,4 @@ f86caf5ff6a408efda76ee2c6183d8f450d064d4 ASoC: ti: Cleanup locking code using gu
 56ba969925acee25954bac7efe2ab41f18d8c543 ASoC: soc_sdw_utils: skip aux device if it is not present
 42d99857d6f08a40a8bde7b9e68d330f18b159a0 ASoC: core: Move all users to deferrable card binding
 
---===============8744603372649082822==--
+--===============7583879327771340242==--
