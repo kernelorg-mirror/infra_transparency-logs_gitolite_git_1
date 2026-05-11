@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5587552705343452339=="
+Content-Type: multipart/mixed; boundary="===============4399697531323349098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 11 May 2026 07:24:49 -0000
-Message-Id: <177848428934.2401866.17827645307398712819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Mon, 11 May 2026 07:24:58 -0000
+Message-Id: <177848429836.2402086.15756982505064701448@gitolite.kernel.org>
 
---===============5587552705343452339==
+--===============4399697531323349098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 100201d349edd226ca3470c894c92dccc67ee7a8
+  - ref: refs/heads/master
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: 5d6919055dec134de3c40167a490f33c74c12581
-    log: revlist-100201d349ed-5d6919055dec.txt
+    log: revlist-254f49634ee1-5d6919055dec.txt
 
---===============5587552705343452339==
+--===============4399697531323349098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-100201d349ed-5d6919055dec.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-5d6919055dec.txt
 
-c802f460dd485c1332b5a35e7adcfb2bc22536a2 cgroup/rdma: fix integer overflow in rdmacg_try_charge()
 41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
 c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
@@ -522,6 +521,7 @@ e75a43c7cec459a07d91ed17de4de13ede2b7758 Merge tag 'trace-v7.1-rc1' of git://git
 8bedb6c46945752a688d9b0cf2021e0e68b1876c netfilter: xt_CT: fix usersize for v1 and v2 revision
 63bac027860308d1344f761cb47aabb3b30973fd netfilter: nf_tables: fix netdev hook allocation memleak with dormant tables
 e6a650acbd991bba279f2580853aed9a8d166e6f parisc: Fix build failure for 32-bit kernel with PA2.0 instruction set
+100201d349edd226ca3470c894c92dccc67ee7a8 USB: serial: option: add Telit Cinterion LE910Cx compositions
 70d62b669f1f9080a25278fc90b64309f4ae8959 iavf: rename IAVF_VLAN_IS_NEW to IAVF_VLAN_ADDING
 f2ce65b9b917474a1a6ce68d357e15fac2aca0f2 iavf: stop removing VLAN filters from PF on interface down
 bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before removing VLAN filters
@@ -1051,4 +1051,4 @@ aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packe
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 
---===============5587552705343452339==--
+--===============4399697531323349098==--
