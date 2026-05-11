@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1465100696137451400=="
+Content-Type: multipart/mixed; boundary="===============0733592583502758898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 11 May 2026 09:34:45 -0000
-Message-Id: <177849208530.2545250.3705705403750366640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 11 May 2026 09:34:52 -0000
+Message-Id: <177849209254.2545492.4175749622550353598@gitolite.kernel.org>
 
---===============1465100696137451400==
+--===============0733592583502758898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
   - ref: refs/heads/renesas-r9a08g046-dt-binding-defs
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5ad309b9b305d292398b3e68c68d6a71578a58b3
 
---===============1465100696137451400==
+--===============0733592583502758898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 9c45ef9a84bd18cbd2052d5e64b2144018f5bb32 dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Document reset-names
 43d2cd6f61ffc04be19f4c7542554e4d28786a17 dt-bindings: pinctrl: renesas: Document RZ/G3L SoC
 
---===============1465100696137451400==--
+--===============0733592583502758898==--
