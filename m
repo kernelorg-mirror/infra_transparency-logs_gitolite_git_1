@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3526595052191923622=="
+Content-Type: multipart/mixed; boundary="===============5170290856829202168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 11 May 2026 11:46:53 -0000
-Message-Id: <177850001374.2694112.2787228568564175144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 May 2026 11:47:00 -0000
+Message-Id: <177850002049.2694316.2878503323877119961@gitolite.kernel.org>
 
---===============3526595052191923622==
+--===============5170290856829202168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/spi-7.2
     old: 54725e3049e1684bc77e0cf892ab1d194c515121
     new: ca15b1d15bf66e93c4caf5a3a950e26053bb24d4
     log: revlist-54725e3049e1-ca15b1d15bf6.txt
 
---===============3526595052191923622==
+--===============5170290856829202168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778500011 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1778500010-5bd62c03106487ae1435c93624700cf5c2c9b6c2
+pusher C3F436CA30F5D8EB 1778500018 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1778500018-eb8c5aea4b2d04e08561f47c9779b40e655e3513
 
-54725e3049e1684bc77e0cf892ab1d194c515121 ca15b1d15bf66e93c4caf5a3a950e26053bb24d4 refs/heads/for-7.2
+54725e3049e1684bc77e0cf892ab1d194c515121 ca15b1d15bf66e93c4caf5a3a950e26053bb24d4 refs/heads/spi-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBwasACgkQJNaLcl1U
-h9BWjQf+NIpWeEGBXDFUPJNOFn1zv544iuu4dLhGdOPL+2m+m6TIUqbdRWCVS86z
-NHU5VxERTCLWkuA+HErq9UiV3KbpfeO1efZr/Nf7QGiJ4BBbQwFjv6K86OkEdErn
-mSrhY14Qc+EzGMKVEhqX+9r+MXdfLKIORwK418mg+TcaLTCkGp5EAMhsojaSJnK8
-j8SYt9BP36KduW+JLyy3Mq72ro/tiNQuZFVJi6CQ/pNga9SErxkZjyVyrZkbZ9Ob
-4OW8E0dQ11yozEL/+TiKtqrvdCt//oSS93Jj2fNaRvOOEnq8amGXoNdPssa0K73N
-n+tgM/E9oH2HfPEZp/mY+PoOpPvsag==
-=087N
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBwbIACgkQJNaLcl1U
+h9CGlAf+NMhimTL3749uOKgr0ezlAv4jGnkcwn8vCWADU2tDbpqrvdeVnsnkQQAE
+0AGFkGBa64DHv2NkqII19eG/ZOd5tbS1JOiI2/E94h+e5Aj+uxCSa3Wu3Yo6gpP4
+KP7Bb1+OVIkYyG3II21h0brrBi6fl0TaRbyc8I72nvGcprmEOmhLv1VzBsakSGUN
+fGTPeUz50FDIAFhZ9krcy5YzkFz/7HXtdz7le3vbP/2Ghp0DSR/tUKteGIKoZg3T
+aiNVNdreRPAuGnl3bt3eF+EpJWvc68151rMspQP6hl5yzyBXB/6HTHx0P0srXazT
+LTHSyEBfd2SkQrnKHDSPw77+GDTZ3A==
+=x14m
 -----END PGP SIGNATURE-----
 
---===============3526595052191923622==
+--===============5170290856829202168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -657,4 +657,4 @@ f8689d5a9ee44a7cdd0ff469e5ee943c933fc830 spi: ti-qspi: cleanup registration erro
 be552efa43eec9972b490fce9a3dd9cb0da92a3c spi: zync-qspi: switch to managed controller allocation
 ca15b1d15bf66e93c4caf5a3a950e26053bb24d4 spi: switch to managed controller allocation (part 2/3)
 
---===============3526595052191923622==--
+--===============5170290856829202168==--
