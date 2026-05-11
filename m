@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1992924818973966357=="
+Content-Type: multipart/mixed; boundary="===============5521422313192364700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 11 May 2026 07:18:49 -0000
-Message-Id: <177848392978.2395857.9718664599975220003@gitolite.kernel.org>
+Date: Mon, 11 May 2026 07:24:37 -0000
+Message-Id: <177848427769.2401621.165658230417890100@gitolite.kernel.org>
 
---===============1992924818973966357==
+--===============5521422313192364700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: b9ea81ec1fd62a3371fe6f9b4c3340a6b2c3daea
-    log: revlist-254f49634ee1-b9ea81ec1fd6.txt
+    new: 5d6919055dec134de3c40167a490f33c74c12581
+    log: revlist-254f49634ee1-5d6919055dec.txt
 
---===============1992924818973966357==
+--===============5521422313192364700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-b9ea81ec1fd6.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-5d6919055dec.txt
 
+41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
 c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
 a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
@@ -1049,6 +1050,5 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-b9ea81ec1fd62a3371fe6f9b4c3340a6b2c3daea USB: serial: mxuport: update number-of-ports encoding
 
---===============1992924818973966357==--
+--===============5521422313192364700==--
