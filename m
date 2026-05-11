@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0720150866353337627=="
+Content-Type: multipart/mixed; boundary="===============0193209392944590849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 11 May 2026 11:28:48 -0000
-Message-Id: <177849892891.2672554.4133501044175497855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 11 May 2026 11:28:57 -0000
+Message-Id: <177849893718.2672851.13090499113223272189@gitolite.kernel.org>
 
---===============0720150866353337627==
+--===============0193209392944590849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/regulator-7.1
     old: 628497e6d925d43efb56e3ffecef0a9d217926b3
     new: cbdbfba9e8907bea923874d05d6a35ff429a5544
     log: revlist-628497e6d925-cbdbfba9e890.txt
 
---===============0720150866353337627==
+--===============0193209392944590849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778498926 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1778498924-0563cf14fa9fe4dd85abbf5036b6a42be7fc841f
+pusher C3F436CA30F5D8EB 1778498935 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1778498933-c531ef7696ab3b636469e348994c80366c3b945b
 
-628497e6d925d43efb56e3ffecef0a9d217926b3 cbdbfba9e8907bea923874d05d6a35ff429a5544 refs/heads/for-7.1
+628497e6d925d43efb56e3ffecef0a9d217926b3 cbdbfba9e8907bea923874d05d6a35ff429a5544 refs/heads/regulator-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBvW4ACgkQJNaLcl1U
-h9C2TQf/aoaiM2CGnx3GGULgIJCoT8yjHqcA9KkLBXnjR8z4xbLTgtpvttS5g0UK
-+kujywsA1CeOAVtVcdVdRqYmUjjakfVxFTGP5edWco3neTPritdQRBpWrJj9Ru+K
-RCj6cNzrzs+6ddfT5orRNn55cmViE0vz+L6J7hzyYvoztw1Afpd5QRvd5WqkXREJ
-+Dr7Y1K8zM7RV/zhESSXRnISJnCWnUWbIqslVnonFnLEq94YIw9l7qORu/YWvKXl
-mC3VnF/XggKKzmebhtmYt1euvsPVQEO7W/XC1PPtekEd1IrFRYXc3jtKllFxLVII
-k6xAH7O2Op2kTja+19fzN8+MSagxqQ==
-=jiJj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBvXcACgkQJNaLcl1U
+h9BX8Af/V0SIBb+wN9p9dU6bCwwuRo6PWVc84ESg1uQwWZT1c1i2V04C1Skmg3kS
+c1GyC/ng48k4mp13r5wTrTXo0AW+0n6rIoeaCRcuErhGryo4aJVGQGsxm7O2L8xB
+l7C6BOR6/+O6LBmLZVZCPpLBOl/r+3BkUPMZ3IPV4aKtbkXC1XJgm8JmGKctzzgG
+UOnKxe4GJKsyO39QvfW5SDRy85USiEQ1/8bq4oJm9ucSzoHhSQ5AWDWmFaA8H3Mv
+osJerpe332fltmR/vYFSTJV2Dmy5lK68EfygTUiJNSRDG69N0BbxHyj+Cw/xxfeY
+Het0jUwhskOV2dxYXExKgpVheJGkBg==
+=48e6
 -----END PGP SIGNATURE-----
 
---===============0720150866353337627==
+--===============0193209392944590849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -636,4 +636,4 @@ afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 cbdbfba9e8907bea923874d05d6a35ff429a5544 regulator: Kconfig: fix a typo in help
 
---===============0720150866353337627==--
+--===============0193209392944590849==--
