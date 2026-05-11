@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2414710952726216506=="
+Content-Type: multipart/mixed; boundary="===============5079849077962941517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 11 May 2026 06:47:47 -0000
-Message-Id: <177848206712.2361936.10208723992941735705@gitolite.kernel.org>
+Date: Mon, 11 May 2026 06:47:56 -0000
+Message-Id: <177848207693.2362229.11799903903013808547@gitolite.kernel.org>
 
---===============2414710952726216506==
+--===============5079849077962941517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4fd44d47e8ab760eef11968d093200cce6752d95
-    new: 5d6919055dec134de3c40167a490f33c74c12581
-    log: revlist-4fd44d47e8ab-5d6919055dec.txt
+  - ref: refs/heads/usb-next
+    old: 25bd55f46032656012eecdc6eabd62f2685a2ccc
+    new: e18b0dbb6ec6030e3369e5dfb2520d7bdbde20d1
+    log: revlist-25bd55f46032-e18b0dbb6ec6.txt
 
---===============2414710952726216506==
+--===============5079849077962941517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778482066 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778482072 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1778482065-63307ad2315a2572de0857af5381fa8566e151fe
+nonce 1778482072-77dfc335b985e1b20921efe5fcae1a2010d31d10
 
-4fd44d47e8ab760eef11968d093200cce6752d95 5d6919055dec134de3c40167a490f33c74c12581 refs/heads/usb-linus
+25bd55f46032656012eecdc6eabd62f2685a2ccc e18b0dbb6ec6030e3369e5dfb2520d7bdbde20d1 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBe5IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NOgQAI/uykgOb/7Q56okYU4d
-XkQdkkdEh/RdAHB3UecdDzo7q+ZQTGN5YxAtepUxMU9Xdgqz2m/hgLRMTs/QKzWk
-D932t3F5AlTr1nUMM4MiLXtX6hnho0RrbnS+NbkkA7asuBHhjwNDaT/wsHdKVovz
-gidMXopEN5ZsG3d3KhOahnUrvEqeHhOrCsoqFc95TAOmaNskbIGwTiWlIpuUUncd
-E51rIjL21YRKpqO0FHYXyvTwMJ8Co2m6FnfF5F0Zn8sjrG9x1tBE2b36sStQWOhn
-RpiYW/NslAYq5P9XsAhV4Hvq95yZfZeHqAgqOtVzvzlW67UqOBlbgGW2/SccXCad
-gTL/ivKzPtaaJlgrINOJTQUFzhGDSCWW7MJ0fgV6pYrodpwY7qDxlaTV8CE+dTqT
-+yWunAfsOrIvQc+yRAgGok2VTULmf4BmQvypRv1OeLW6EHDoKD5G3ymcob9JevY7
-Ev0By2+dYvrVdkeeYYdi4EDyoGa3fxe9xqMnvCQCh1McB6CzHnBO+HUvoQMS+f5G
-o0TzEzjBV3Zt2qD6a6cb8z0knHf6yeWY4iC/Tds8Us4N+kceHmz5/RqUs3MUdndt
-tyugQWXwi3km7h/jGeQ5uuZMNG4RFYfiRuA9825NO3znb1shU17ypmiBj3nO7I2P
-4XUZXm4rTRTMS9q5pRIZjE4Q
-=44XD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBe5gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7jQQAL2NogR4lWD3/L8DXv9W
+OU1/uheOhmTgtamMHgbUvZlfVheyo/qhpK3gZDatray3L0Qe/c7pxekcub/7RBhH
+452bDxzPobCpgllnL/oDoVWWIsqf25Qbn8xl3Y0b5hKaBb34kYS78HXjh4nuKO8a
+kuEGome9DeEyLwfE/4FPifU0xOoqXuNzCBg+QuP5+v0I/P438u9P7mv1KejYqRy6
+j8t+3qopaIYCjfCPVzl9u5pnlHD+SXlGMwiJvXHhQaZyIV8BshUaMlEQIotWIlHD
+W5pwu6rZxbeFR7ZRDyaW4iXjKnJ4msGocLf23fXH0srbLzyzCRb42IugZEQRo/P9
+HsLLNE62KuthThwW8VTucskAuZTS0Mya8BKRkDkfFOQdMLC9tw9pRooJIRRu/YT6
+/GPm4NSiCviUOKdJZ4iPKt6flsnrQgFjMyhrTIAyKFKRQ09WPv1SZHei9qlDu2Fh
+kJvVisw3ThNBRr5/2LWkIgcqo5ZFvVklFsISHtjZgVObnumgizaiJOk673A7Qccr
+/CTZWv1MDgeFRLgGww+8gs7OaLjx/m29fN7H6XYUZbGlR3IGELUd+CENXmfOViCj
+Qu32OXW1hBsHSSYxfM3FQnzGy206p8UkGsIsWiOdMwN8GR0wEycyZ0PkDMf16wCJ
+fF0u7vMMikRR5h8gbYntD9Vi
+=krsu
 -----END PGP SIGNATURE-----
 
---===============2414710952726216506==
+--===============5079849077962941517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fd44d47e8ab-5d6919055dec.txt
+Content-Disposition: attachment; filename=revlist-25bd55f46032-e18b0dbb6ec6.txt
 
-e80e39f25567310c1c7392eed886890b5c6788ba nvme-core: fix parameter name in comment
-ba9d308ccd6732dd97ed8080d834a4a89e758e14 nvme-apple: drop invalid put of admin queue reference count
-20925812de7bf5e6fdc133c691ef52b33f700fbc nvme: expose TLS mode
-3f150f0f010f234f34a67897344f18e68fe803f7 nvme-multipath: put module reference when delayed removal work is canceled
-cf92d78a4aa2adbc2b1e687776aabe63c5b97f3f nvme-pci: add quirk for Memblaze Pblaze5 (0x1c5f:0x0555)
-bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
-ccab51d69b1478b549ad0bbb38f556ab3bfb47ab KVM: arm64: Re-allow hyp tracing HVCs for [nh]VHE
-a5b98009f16d8a5fb4a8ff9a193f5735515c38fa sched/psi: fix race between file release and pressure write
-c802f460dd485c1332b5a35e7adcfb2bc22536a2 cgroup/rdma: fix integer overflow in rdmacg_try_charge()
-41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
 c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
 a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
@@ -305,6 +295,13 @@ b5198fcdc195fa531adff7bbfbe40dd27c8d0e89 ntfs: fix NULL dereference in ntfs_inde
 2dd8c1662e38f7bb68a102f1acad9b518c09aeab ntfs: fix WSL symlink target leak on reparse failure
 cad7c6f0a5147680dd2081256cf8da54fb445d94 ntfs: fix VCN overflow in ntfs_mapping_pairs_decompress()
 785bc568161d96fdbd4326294d427a48e66fe60f ntfs: fix error handling in ntfs_write_iomap_end_resident()
+3f91484f6c13c434bd573ca6b6779c26adb0ddab USB: omap_udc: DMA: Don't enable burst 4 mode
+0b9fcab1b8608d429e5f239afb197de928d4de7d usb: ulpi: fix memory leak on ulpi_register() error paths
+2909f0d4994fb4306bf116df5ccee797791fce2c usb: typec: tcpm: reset internal port states on soft reset AMS
+f6ec9bb4acc7182b25a793ad094a764e1cb819a7 usb: typec: tcpm: fix debug accessory mode detection for sink ports
+aad35f9c926ec220b0742af1ada45666ae667956 usb: dwc3: Move GUID programming after PHY initialization
+7a400c6fe3617e31e690e3f7ca37bb335e0498f3 usb: usblp: fix heap leak in IEEE 1284 device ID via short response
+b38e53cbfb9d84732e5984fbd73e128d592415c5 usb: usblp: fix uninitialized heap leak via LPGETSTATUS ioctl
 74f192205c48333de054620a79d7ce9f4515fb0b selftests: kselftest: fix wrong test number in ksft_exit_skip
 465b05bae5ac553c13315681c1490dc565337771 selftests: harness: Restore order of test functions
 981cd338614c96070cf9854679014fd027c1fb1d docs: cgroup: fix typo 'protetion' -> 'protection'
@@ -554,6 +551,7 @@ e75a43c7cec459a07d91ed17de4de13ede2b7758 Merge tag 'trace-v7.1-rc1' of git://git
 8bedb6c46945752a688d9b0cf2021e0e68b1876c netfilter: xt_CT: fix usersize for v1 and v2 revision
 63bac027860308d1344f761cb47aabb3b30973fd netfilter: nf_tables: fix netdev hook allocation memleak with dormant tables
 e6a650acbd991bba279f2580853aed9a8d166e6f parisc: Fix build failure for 32-bit kernel with PA2.0 instruction set
+100201d349edd226ca3470c894c92dccc67ee7a8 USB: serial: option: add Telit Cinterion LE910Cx compositions
 70d62b669f1f9080a25278fc90b64309f4ae8959 iavf: rename IAVF_VLAN_IS_NEW to IAVF_VLAN_ADDING
 f2ce65b9b917474a1a6ce68d357e15fac2aca0f2 iavf: stop removing VLAN filters from PF on interface down
 bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before removing VLAN filters
@@ -1041,6 +1039,7 @@ d8a70292c3e1759804dcc1a60e53ead86b466a3a Merge tag 'amd-drm-fixes-7.1-2026-05-06
 5e28b7b94408897e41c63477aabc9e1db439bc8c drm: Set old handle to NULL before prime swap in change_handle
 f7700a4415afb3ac1767a556094e4ef8bd440e41 ublk: fix use-after-free in ublk_cancel_cmd()
 fa7431eb99245e0a283d470101e44be1d2c2aeb3 Merge tag 'iommu-fixes-v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+4fd44d47e8ab760eef11968d093200cce6752d95 Merge tag 'usb-serial-7.1-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 51d24842acb9b8d643046c71314cc3d7a846a3cf Merge tag 'drm-fixes-2026-05-08-1' of https://gitlab.freedesktop.org/drm/kernel
 481c2265286ef302327c93403a8cf7b3fe4506d0 bpf: tcp: Fix type confusion in bpf_tcp_sock().
 4bdbce450f4273fcda6d5c2e22df7083421332cf Merge tag 'regulator-fix-v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
@@ -1081,5 +1080,6 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
+e18b0dbb6ec6030e3369e5dfb2520d7bdbde20d1 Merge tag 'v7.1-rc3' into usb-next
 
---===============2414710952726216506==--
+--===============5079849077962941517==--
