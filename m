@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7171201423785388802=="
+Content-Type: multipart/mixed; boundary="===============2488315841787843896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 11 May 2026 06:49:10 -0000
-Message-Id: <177848215054.2363985.15321988676567836480@gitolite.kernel.org>
+Date: Mon, 11 May 2026 06:49:14 -0000
+Message-Id: <177848215404.2364242.1840629550484034758@gitolite.kernel.org>
 
---===============7171201423785388802==
+--===============2488315841787843896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/staging-linus
+    old: bc851db06045a40c18233dd76ef0562d7f8bb6db
     new: 5d6919055dec134de3c40167a490f33c74c12581
-    log: revlist-254f49634ee1-5d6919055dec.txt
+    log: revlist-bc851db06045-5d6919055dec.txt
 
---===============7171201423785388802==
+--===============2488315841787843896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778482149 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778482153 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1778482149-b286e1ad034958fdb5ed97a4635b0cee4009dfd6
+nonce 1778482152-d2ec411bb1ade567bbe6ba4ccfee86342cf72414
 
-254f49634ee16a731174d2ae34bc50bd5f45e731 5d6919055dec134de3c40167a490f33c74c12581 refs/heads/main
+bc851db06045a40c18233dd76ef0562d7f8bb6db 5d6919055dec134de3c40167a490f33c74c12581 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBe+UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mjcQALqSqioRbdww6X3Ax62O
-7IDCkRGoUcl2h0Nx22XAmlwPxVqIry5EE1vqbDYSypja8jvjyPxO5ODs+C5A9LBM
-ZqJuVVeQq1uXXH5tQhUKyqdFQ6Z80YGvEXYWQAWirtNIm0gKGtrFa+zTUJXNqEqp
-iN9GArRgGp0iqOcOWNGM0mXdcK42XfrAyKogrxE+H6y8xooZ0j0KC+yCH1QIXYyN
-AHoCe5DgWhZ3k0PDrRzMi6Dq12nFWpwZfAe9Y1jhYELIp+ugCdwGjgaNiMOphnhc
-uVRC3hsQFpMmzYhQuHnNIvUB1HA2M0BOQ62EBbs1jivy5DyoJNFjxwpXx/qf2ZEi
-+doaoNePdB+wjg9am/3kusA4GB0L7O7Rg6kFZXzRkDWp2KI3wljr+9mki06Avy7K
-xB5LkV/jPWAFd2nJ6THuYwayFQHEm4AW/Os1BoTr2rSjMvNysaJlvBbocZEnx5R1
-bOboUNzh8f2oLxT6+NELJ/eHjimrWMGXsj43apK3rv1e6sH2pCRz2CFzICXoLne/
-zEZp2B6VtFWxI1S/xDW9LY0HA0fNbfsZ09E6ielOzImzhJZjRi8TnykSgr7VwQ8V
-8vvZJEiML9sfHKDjvZzXbLi5KKHtO0V0j6xKZIUbhm0UMI9QX4PCvHBTW4SMLpuB
-zRHeEee8AptEBEDkeL8OLBmL
-=bWe1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBe+kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GaAP+wej8XESMtpQSU2vMlVs
+99WM+UTgDwfGYY3D0lw9ePMfpvrmNYJBKrgrc/BFHg8gvNFAjv8nDoGj9D5pQPUa
+hqBIM3fG54vIc+Ko6iZuC4FNDMqVkgKJWjwM6VRQ8d7AV/l/mMbi9CHTCAQkaboy
+VfZCLc+moylyAM01NAeiHIwBpxKhPwSsK59/znQaFLZpPJ0ioAxLXJI6NyuKdbjv
+won1ykbWyLMORaCmedigJzZ0KHWB1io2sBBsKUXeF//nwMrkIqIrEYsMnHcSEbFh
+hlHl3V+ZVGU9YbtIdMsmOrvWAYcMDDRzBst5HF90t1YZxllqt1Eql4IyaczYAmFu
+Uu6gJdh4CcGZVnqtAP4p6s1Fyihkoc85sHW5bKiJlDSr6vLqJ/2ck9a8ymF1pR2L
+Ong+fswKCwBPtd3yFu3DRb8AlTdfq8n8sUa6QyvXsLm5rXOTOUvIiBzzuCWK8Grg
+8I36p+qyJvzs5FHFfwg8TINBkgi+ljiGLRvc1fr0fRcZFsGILrPPp4BBk2yNWxRT
+E04Gd+aR5ssgrXKmpwBBhYZ2lFJOO5jP+jTEJuTABILk3p8WR6pLcykrJi4SJZcL
+NmMtbDHfNLFW5MQL96txGwZvM/VEGOLczNelNfSBre57TE37inJ82a3aqqRbGStd
+qwCbeeeqKZOeSW4rITEQLgk4
+=OO/M
 -----END PGP SIGNATURE-----
 
---===============7171201423785388802==
+--===============2488315841787843896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-5d6919055dec.txt
+Content-Disposition: attachment; filename=revlist-bc851db06045-5d6919055dec.txt
 
+a5b98009f16d8a5fb4a8ff9a193f5735515c38fa sched/psi: fix race between file release and pressure write
+c802f460dd485c1332b5a35e7adcfb2bc22536a2 cgroup/rdma: fix integer overflow in rdmacg_try_charge()
 41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
 c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
@@ -742,9 +744,7 @@ b8c2e9e27636b92dc96c12f16894cbc60c58a306 io_uring/napi: clear tracked NAPI entri
 c5f25f5800f56f1754d9eeb3ced7c1e08c29119a dt-bindings: i2c: apple,i2c: Add t8122 compatible
 8de779dc40d35d39fa07387b6f921eb11df0f511 fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free
 9998e388be9930c106eb5904c23ecf2162407527 i2c: acpi: Add ELAN0678 to i2c_acpi_force_100khz_device_ids
-32c91e8ee039777d0b95b914633fc6a42607959c staging: vme_user: fix root device leak on init failure
 617eb7c0961a8dfcfc811844a6396e406b2923ea i2c: dev: prevent integer overflow in I2C_TIMEOUT ioctl
-bc851db06045a40c18233dd76ef0562d7f8bb6db staging: rtl8723bs: os_dep: avoid NULL pointer dereference in rtw_cbuf_alloc
 37b0dc5e279f35036fb638d1e187197b6c05a76d parisc: Fix IRQ leak in LASI driver
 b47bc7c022ddab7c79a84dd5f3f0d07fe09ec786 i2c: Compare the return value of gpiod_get_direction against GPIO_LINE_DIRECTION_OUT
 088f65e206087bf903743bd18417261d7a4c9644 x86/efi: Fix graceful fault handling after FPU softirq changes
@@ -1082,4 +1082,4 @@ aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packe
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 
---===============7171201423785388802==--
+--===============2488315841787843896==--
