@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 11 May 2026 07:45:00 -0000
-Message-Id: <177848550065.2425974.77103906925107660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 11 May 2026 07:53:29 -0000
+Message-Id: <177848600966.2435829.12877717153089612220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-7.1-fixes
-    old: 3788e32516530dee66cf9186f846480a16799b05
-    new: bbf30b383cf6e87f2fe57c292fbd640b1d88b4c3
+  - ref: refs/heads/pwrseq/for-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 513f49c33e91e58975ada7967b44512179f0e703
     log: |
-         bbf30b383cf6e87f2fe57c292fbd640b1d88b4c3 sched_ext: Fix ops->priv clobber on concurrent attach/detach
-         
-  - ref: refs/heads/for-next
-    old: 4bded1a16792c257c18bb16cd2c837c4fdbc24b8
-    new: d79eca2021435140c79828e45cdad54b24c0b145
-    log: |
-         bbf30b383cf6e87f2fe57c292fbd640b1d88b4c3 sched_ext: Fix ops->priv clobber on concurrent attach/detach
-         d79eca2021435140c79828e45cdad54b24c0b145 Merge branch 'for-7.1-fixes' into for-next
+         513f49c33e91e58975ada7967b44512179f0e703 power: sequencing: print power sequencing device parent in debugfs
          
