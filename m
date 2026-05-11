@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hare/scsi-devel
-Date: Mon, 11 May 2026 08:05:50 -0000
-Message-Id: <177848675037.2450365.13481569635353325624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 11 May 2026 08:06:19 -0000
+Message-Id: <177848677939.2450918.3203018382482632507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hare/scsi-devel
-user: hare
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/configfs-ns.v1
-    old: 0000000000000000000000000000000000000000
-    new: c924e1daab3eb4efc26275918155673d5e90c6ba
+  - ref: refs/heads/wip/leon-for-next
+    old: cb28405b38c55f375a3913c62a702cea05114542
+    new: 74ec3fb0ab079f006f3d41cb5ef393276d3dd948
+    log: |
+         74ec3fb0ab079f006f3d41cb5ef393276d3dd948 RDMA/efa: Add checksum support for admin responses
+         
