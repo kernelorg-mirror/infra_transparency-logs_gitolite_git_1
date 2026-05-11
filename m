@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7095809931312739462=="
+Content-Type: multipart/mixed; boundary="===============6945327310959208993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 11 May 2026 15:00:23 -0000
-Message-Id: <177851162355.2911731.2428466059004702422@gitolite.kernel.org>
+Date: Mon, 11 May 2026 15:01:03 -0000
+Message-Id: <177851166355.2912690.12837895377166697829@gitolite.kernel.org>
 
---===============7095809931312739462==
+--===============6945327310959208993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: a2083fd1fa7aa0ef5cd8fd92396da0de2d0654b0
-    new: bf558715d91cfa28f283de7105a879a92da31fb7
+    old: bf558715d91cfa28f283de7105a879a92da31fb7
+    new: 4a9a0b1a82a8b23eb68032dd19b120e82cd67004
     log: |
-         f785606039fdc8c4de2908dfe9bd672de15a76ce serial: 8250_mtk: Add ACPI support
-         455d4ed5ea5dbdd690f96b5e0582d760cbfc9e8d serial: mxs-auart: replace hardcoded 1 with predefined macro GPIO_LINE_DIRECTION_IN
-         a23907d034dbe92915b7af2de18c5d7faac0c0b1 dt-bindings: serial: Add compatible for Qualcomm SA8797P SoC
-         49fa670efdfdd27e29145cbd2beef065c08717ef serial: 8250_port: recognize UPIO_AU
-         61848e9799f2543a3ea144e277b17aaec9707566 tty: synclink_gt: remove broken driver
-         44e55f1f3088e4a471a943fbcf087ea7783a0199 serial: 8250_pci: Consistently define pci_device_ids using named initializers
-         88af183a135ccdd004bdeebf4e0c99383b530a66 serial: jsm: Drop unused driver_data assigment and redundant zeros
-         430a1386df5c98e65f6b943c15366e4ca92e3328 serial: sh-sci: Remove plat_sci_port.flags
-         9c7eb1c9c3e3bfecb556fc8fa1b68939385444de serial: core: Add dedicated uart_port field for console flow
-         bf558715d91cfa28f283de7105a879a92da31fb7 serial: Replace driver usage of UPF_CONS_FLOW
+         6d7f4890bbb6fc8b70f618aa0407043b32bc738a serial: 8250_dwlib: move DesignWare register definitions to header
+         07bb8459c443b840c55293cee1c726431dd749cf serial: 8250_dw: build Renesas RZN1 CPR value from DW_UART_CPR_* definitions
+         d22d2e54f660eeb64e06f2cb6db068dac66a5733 dt-bindings: serial: snps-dw-apb-uart: Add UltraRISC DP1000 UART
+         4a9a0b1a82a8b23eb68032dd19b120e82cd67004 serial: 8250_dw: Use a fixed CPR value for UltraRISC DP1000 UART
          
 
---===============7095809931312739462==
+--===============6945327310959208993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778511620 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778511661 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1778511620-5763d333039f11c591927a605e9737dc7e143880
+nonce 1778511660-3eae8e893b47700f5cec38b46a47b8ef282758fa
 
-a2083fd1fa7aa0ef5cd8fd92396da0de2d0654b0 bf558715d91cfa28f283de7105a879a92da31fb7 refs/heads/tty-testing
+bf558715d91cfa28f283de7105a879a92da31fb7 4a9a0b1a82a8b23eb68032dd19b120e82cd67004 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoB7wQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DmwP/3rNTagXaff4RNxpawxK
-hiFgL+m9HpzRrLfiRHtmhKLgLcyIR54kq1yM4x8qPfmpEArGc/eIIjp8cDbilgFY
-hNGpn/JPq90vPCnfFLLGziJBhD/1qmol4jdnVy68jR2jsfB3bTmuYT7JpMybMHNO
-QAU0OgTmCggkb84EhuT85nLALwW2ypiZcAU8dk1ZkLkdwSrdEpbjmQ8ZT84HLQbA
-SAjD2mLZW95l6F/ZoBX89j3zaWYmR7tWUNwpjgilO/JEDHOZEZQXpjkgBsSWyVDx
-XSLckJVv+mN6tth4FVDKbLh9IO6v0WICaaqey+V//OTKsy2bFx3pvEooyolynCGD
-W9EdcnYaSYyGXcCKS1EdwZ63C9oDKRETq/YpxWOqYupyKyF6dQskVe3pBp4eYI8H
-moMNL5x2Z3jImkuz43jy1KMk9so3KMt4w0K5DCupIdn94sdsd4T9Vs9APFxZT0wP
-Th/18wqf5NrztBEtkvLMJiDmlx6KMVd7SSb1xc3eEyFeM4f92uwRUuUsUdDcXEVT
-RZDmA9vDXAjRCxaynI2Zv6FoVcf5WNXKczyKxyvKhBlERbDbYuZ/YcUOxtNboHGm
-+B0q5l9GiknEi3ANzlUdCRcHkZizPOny3NcLvU4Z+43vn0FOxGYBVm7PhrTFhNP/
-e9pdE2paiegWcKvSQ4b3s2oM
-=ErDB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoB7y0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kTMQAKGjMdaKFJg2kSSAlPV1
+cfi6ru6BfsbohVRuvfj2cmc0agygU/p2DYqwYcSdtSjhL2SXiQi60ntSzdn/dlqc
+b8VnyfbKbyWAsuu2IlomZaU/Ga82QhNvMo/E6HFByudlcGGEq9NWw9HgduxGZEUu
+NcBbH8rRW6pjkjBoPKQfzLL+NF+Qe48kA+z9T7iKNTN+amy9BaxpSWLMho8OlLY1
+/u8lY5pEB9nfxKnO3z2IUdrM39U4jhDCRD84qpDYlgjRgx/6hN/oG9hSA0CEfvdi
+1DXt3uJZn9bSn0n1MKF5XAxfIJLPCr1HpoVwKv9bWAGqDA0CR764WAicn91rBANR
+GFkKWoluOci78ydnSIgIWDI580PB0EFybFjJw+1E6PWAKlAEwGdlNzesHKGPVHT3
+41Ux9mpKttDE2Ne6qJolRj+WU7BSh2U4q2A+3mCYOPp0gysKeweOHfX6CH9pcwfX
+59LFkuqCgkh7fn6Ru/A5841Pwvo2qv5sQsM8WdEF7fUDAZjha++Ma2T8pMN3f2HK
+xnPDedLybsVJKNnEY6AovwxxBc1owYUlSy6IgMG/2YTdOyFZaJjPaJkqxam50oth
++QSJdSK63cGr4TRhi0SjDrQtEnfWbJclATD0KEGWh25p11sx/+aCMQiv1B/BZjmw
+krve90cD9XH5rPZS+wl+DPxh
+=oHsT
 -----END PGP SIGNATURE-----
 
---===============7095809931312739462==--
+--===============6945327310959208993==--
