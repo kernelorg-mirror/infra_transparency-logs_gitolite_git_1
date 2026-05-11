@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 11 May 2026 07:44:42 -0000
-Message-Id: <177848548227.2425685.1177092131717855710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 11 May 2026 07:45:00 -0000
+Message-Id: <177848550065.2425974.77103906925107660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 784e12a8c45571b255e0b69a63dbc87600f2b2aa
-    new: cb28405b38c55f375a3913c62a702cea05114542
+  - ref: refs/heads/for-7.1-fixes
+    old: 3788e32516530dee66cf9186f846480a16799b05
+    new: bbf30b383cf6e87f2fe57c292fbd640b1d88b4c3
     log: |
-         e53d362c30c4932bdde39750a2d9f8d72c30521b RDMA/rxe: remove rxe_ib_device_get_netdev() and RXE_PORT
-         951d18014e232b0f41435f5a39f3e00c1ecd13ad RDMA/rxe: add SENT/RCVD bytes
-         d3268aa057e710f45260f522f0b2ef39a65cf988 RDMA/rxe: support perf mgmt GET method
-         cb28405b38c55f375a3913c62a702cea05114542 selftest/rxe: Add selftests for perf
+         bbf30b383cf6e87f2fe57c292fbd640b1d88b4c3 sched_ext: Fix ops->priv clobber on concurrent attach/detach
+         
+  - ref: refs/heads/for-next
+    old: 4bded1a16792c257c18bb16cd2c837c4fdbc24b8
+    new: d79eca2021435140c79828e45cdad54b24c0b145
+    log: |
+         bbf30b383cf6e87f2fe57c292fbd640b1d88b4c3 sched_ext: Fix ops->priv clobber on concurrent attach/detach
+         d79eca2021435140c79828e45cdad54b24c0b145 Merge branch 'for-7.1-fixes' into for-next
          
