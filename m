@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1313034077377760461=="
+Content-Type: multipart/mixed; boundary="===============0098297878322074541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 11 May 2026 23:05:36 -0000
-Message-Id: <177854073643.3433989.1327480330760425292@gitolite.kernel.org>
+Date: Mon, 11 May 2026 23:05:38 -0000
+Message-Id: <177854073883.3434078.18109303618881943742@gitolite.kernel.org>
 
---===============1313034077377760461==
+--===============0098297878322074541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: fcee7d82f27d6a8b1ddc5bbefda59b4e441e9bc0
     new: a450063ef86b9967234ca1f896c0d77400c74f11
     log: revlist-fcee7d82f27d-a450063ef86b.txt
 
---===============1313034077377760461==
+--===============0098297878322074541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ e42c755582f0960e684298762f0ab927b3778376 net: ena: PHC: Fix potential use-after-
 69754da484bdd9a6fc223d939298d656d7e13489 Merge tag 'batadv-net-pullrequest-20260508' of https://git.open-mesh.org/batadv
 a450063ef86b9967234ca1f896c0d77400c74f11 net: xgene: fix mdio_np leak in xgene_mdiobus_register()
 
---===============1313034077377760461==--
+--===============0098297878322074541==--
