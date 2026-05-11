@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1969963759521144202=="
+Content-Type: multipart/mixed; boundary="===============3656639424182002417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 11 May 2026 10:16:04 -0000
-Message-Id: <177849456468.2595160.14746304841106433691@gitolite.kernel.org>
+Date: Mon, 11 May 2026 10:27:58 -0000
+Message-Id: <177849527810.2606581.6698105756954154539@gitolite.kernel.org>
 
---===============1969963759521144202==
+--===============3656639424182002417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,80 +15,56 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export-net
-    old: 292cba7c4eb827d0bf79fa02422e6c3daacf8229
-    new: 8321348f481e28ed1c993245b3d095b59514bfa4
-    log: revlist-292cba7c4eb8-8321348f481e.txt
+  - ref: refs/heads/export
+    old: 8cdb2eb14f4baa2562848d970769b3007153177b
+    new: 52f68f13d42a1c3752de7a776b6f873988f48401
+    log: revlist-8cdb2eb14f4b-52f68f13d42a.txt
 
---===============1969963759521144202==
+--===============3656639424182002417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-292cba7c4eb8-8321348f481e.txt
+Content-Disposition: attachment; filename=revlist-8cdb2eb14f4b-52f68f13d42a.txt
 
-0799e5943611006b346b8813c7daf7dd5aa26bfd batman-adv: fix integer overflow on buff_pos
-3243543592425beec83d453793e9d27caa0d8e66 batman-adv: reject new tp_meter sessions during teardown
-3d3cf6a7314aca4df0a6dde28ce784a2a30d0166 batman-adv: stop tp_meter sessions during mesh teardown
-8e72510db9fa2d41f2b06d5c01fe9020e076fee4 netfilter: x_tables: allow initial table replace without emitting audit log message
-b62eb8dcf2c47d4d676a434efbd57c4f776f7829 netfilter: x_tables: allocate hook ops while under mutex
-527d6931473b75d90e38942aae6537d1a527f1fd netfilter: x_tables: add and use xt_unregister_table_pre_exit
-d338693d778579b676a61346849bebd892427158 netfilter: x_tables: unregister the templates first
-b4597d5fd7d2f8cebfffd40dffb5e003cc78964c netfilter: x_tables: add and use xtables_unregister_table_exit
-b7f0544d86d439cb946515d2ef6a0a75e8626710 netfilter: ebtables: move to two-stage removal scheme
-92c603fa07bc0d6a17345de3ad7954730b8de44b netfilter: ebtables: close dangling table module init race
-16bc4b6686b2c112c10e67d6b493adc3607256d3 netfilter: x_tables: close dangling table module init race
-27414ff1b287ea9a2a11675149ec28e05539f3cc netfilter: bridge: eb_tables: close module init race
-dcb0f9aefdd604d36710fda53c25bd7cf4a3e37a netfilter: nf_conntrack_expect: restore helper propagation via expectation
-d8ef54c83ad70b81735b506431affadd2f720aa1 netfilter: ctnetlink: check tuple and mask in expectations created via nfqueue
-eb6317739b1ea3ab28791e1f91b24781905fa815 netfilter: nf_conntrack_sip: get helper before allocating expectation
-19f94b6fee75b3ef7fbc06f3745b9a771a8a19a4 netfilter: nft_ct: fix missing expect put in obj eval
-f03e8583532941b07761c5429de7d50766fa3110 batman-adv: stop caching unowned originator pointers in BAT IV
-ce425dd05d0fe7594930a0fb103634f35ac47bb6 batman-adv: tp_meter: fix tp_num leak on kmalloc failure
-4ae1709a314060a196981b344610d023ea841e57 batman-adv: bla: prevent use-after-free when deleting claims
-cf6b604011591865ae39ac82de8978c1120d17af batman-adv: bla: only purge non-released claims
-ba9d20ee9076dac32c371116bacbe72480eb356c batman-adv: bla: put backbone reference on failed claim hash insert
-97c8a3c1f73d828de43a5a88e8a9a143efb2b661 tcp: Fix potential UAF in reqsk_timer_handler().
-7eca3292cac7c26dad4c236f51ba225c39a0523f tcp: Fix imbalanced icsk_accept_queue count.
-4378bf612482c24731b661c544ce178965fb3422 Merge branch 'tcp-two-fixes-for-socket-migration-in-reqsk_timer_handler'
-e539acf9f9c2550452914fb85aeb8fda67dd762f MAINTAINERS: Add self for the 3c509 network driver
-7ce5556f255a680d80daa31b1cedecf7f89e2c22 ipv6: flowlabel: take ip6_fl_lock across mem_check and fl_intern
-e68eadffb724b36ffd3d5619e0efcaf29ec2a175 ipv6: flowlabel: enforce per-netns limit for unprivileged callers
-dffddaa0cea5849e2bd1f357d166a86c2f6cded4 Merge branch 'ipv6-flowlabel-per-netns-budget-for-unprivileged-callers'
-58e2330bd45572a6e3d46ea94cf7a9641f43591a net: napi: Avoid gro timer misfiring at end of busypoll
-0a549298f452a83ae57e6582e6ca389357f9355d MAINTAINERS: change maintainers for macb Ethernet driver
-4908f1395fb1b832ceec11584af649874a2732ea net: ethtool: fix NULL pointer dereference in phy_reply_size
-f2ab4fd02777c4081be38c35f939e4dc529b8952 net: nsh: fix incorrect header length macros
-efda25ee84325385f859d10872590e90ce837243 genetlink: free the skb on 'group >= family->n_mcgrps'
-a77d5a069d959dc45f5f472d48cba37d8cba0f1c net: shaper: Reject reparenting of existing nodes
-1619553b0a6ba7a966b17b0226f3acb9dd4d5380 i40e: Cleanup PTP registration on probe failure
-678b713ece1e853f11e670a84cb887c35e1381b7 i40e: Cleanup PTP pins on probe failure
-da4f76b6a84ede14a71282ef841768299ead0221 idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
-6c77b9510829a424d1b74409b7db9456e3522871 idpf: fix double free and use-after-free in aux device error paths
-b3cda96feb60d91fe88d52b974ff110dcfa91239 ice: fix setting RSS VSI hash for E830
-0ded1f36ba4021cba50513e80be6b6e173710168 ice: fix locking in ice_dcb_rebuild()
-cce709d8df6ba6d2a0a0dbf34acc2cdd9e23bd46 ice: dpll: fix rclk pin state get for E810
-30f1658fc5387384c7a60b9d15c79cb959512c1a ice: dpll: fix misplaced header macros
-f149471f4e9aa7b5d4ee0220e57262bd81b42db0 Merge branch 'intel-wired-lan-driver-updates-2026-05-04-i40e-ice-idpf'
-c4f3d6eb1fcf6cd9ce4644f604d5aad1ce594dfc net: lan966x: avoid unregistering netdev on register failure
-6635fa84403c3a59455b66007c019a7cc632db30 net: ti: icssm-prueth: fix eth_ports_node leak in probe
-abb5f36771cc4c05899b34000829a787572a8817 sctp: revalidate list cursor after sctp_sendmsg_to_asoc() in SCTP_SENDALL
-28d006063253bf055291f62b0a48934cd5872dc0 Merge tag 'nf-26-05-08' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-496c0c4c53bbe1bad97e82cd12103df61a6e459d net: wan: fsl_ucc_hdlc: free tx_skbuff in uhdlc_memclean
-46e9b0224475abc739612ef72c35b7c90211a0c1 tools/ynl: add missing uapi header deps in Makefile.deps
-e42c755582f0960e684298762f0ab927b3778376 net: ena: PHC: Fix potential use-after-free in get_timestamp
-69754da484bdd9a6fc223d939298d656d7e13489 Merge tag 'batadv-net-pullrequest-20260508' of https://git.open-mesh.org/batadv
-a450063ef86b9967234ca1f896c0d77400c74f11 net: xgene: fix mdio_np leak in xgene_mdiobus_register()
-0abd54c7a0cffb148040a2989a0ddcf7726b3076 DO-NOT-MERGE: git markup: net
-de6b3f1dbb6853e2d7a3aa57f0307c1ad7b7086b DO-NOT-MERGE: git markup: fixes other trees
-e1cc8a3ed1a4390736cd590af0681e58ad489ef5 mptcp: update window_clamp on subflows when SO_RCVBUF is set
-63e27616134da681a8550bb59c04d40d3c45f77a mptcp: reset rcv wnd on disconnect
-0b3feac98e836aee81285bbc3e08c94908ca02f2 mptcp: pm: fix ADD_ADDR timer infinite retry on option space insufficient
-c429900cc7723909f8a916b72029d90e1c9613f3 selftests: mptcp: join: cover ADD_ADDR tx drop and list progress
-f7f9d8d31f764accd127dc6a4b457391dd92b065 DO-NOT-MERGE: git markup: fixes net
-ee260597c9bc53f6cd72ed24b58fe539f55a42b5 DO-NOT-MERGE: mptcp: add CI support
-22ba79770ef1f99096da168e53c37d057ef601d8 DO-NOT-MERGE: git markup: end common net net-next
-12fc610466bf1f91517fd5a2e325578a03628707 DO-NOT-MERGE: git markup: fixes net only
-fa56234cc819eaa8957a263993562363fb9b7cd7 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-8321348f481e28ed1c993245b3d095b59514bfa4 DO-NOT-MERGE: mptcp: enabled by default (net)
+34578d83b748c4281b8ef9c751401d2660e97186 DO-NOT-MERGE: git markup: net
+c1794080a33893ac9923d75b19b8867487a13f27 DO-NOT-MERGE: git markup: fixes other trees
+c9c69a727d95fded37a1b665885006084d7b84a6 mptcp: update window_clamp on subflows when SO_RCVBUF is set
+5d539c094b83ab2c1d1fc5e4a85f7e4571af423e mptcp: reset rcv wnd on disconnect
+5b26444b0e10d9149fdfbc24c1a242b205e730e3 mptcp: pm: fix ADD_ADDR timer infinite retry on option space insufficient
+eb956a464eb381bbde73a9f33167003cc28016a3 selftests: mptcp: join: cover ADD_ADDR tx drop and list progress
+a380f7ea958b7d7836aefe0075e2a1ab753f890f mptcp: do not drop partial packets
+c4b30b3ddf888a5aaa4250aafd7c738dfba07265 DO-NOT-MERGE: git markup: fixes net
+cae9d314e2f02b39711f739bacb951a172b964dc DO-NOT-MERGE: mptcp: add CI support
+4fd65a3ee8365c10b0f015517db6d4aa6e749792 DO-NOT-MERGE: git markup: end common net net-next
+c29d3232ba6100e8fd36bae35f790b09bf87b315 TopGit-driven merge of branches:
+7d5ffe30259afb2ea4513553af81c1c5d71544c8 DO-NOT-MERGE: git markup: net-next
+5bc5b5d92dd1bc1829416a9724c34f4791a7acaf DO-NOT-MERGE: git markup: fixes net-next
+0d38dfc04f8bca85af55b3b0a39b4a2bf340b6c0 mptcp: pm: init and release mptcp_pm_ops
+62b35acd03780502ce3e6da892ae4f4970b8eecf mptcp: pm: add get_local_id() interface
+c26073b22794ad2b0cdee122f1431b1ba84335ad mptcp: pm: add get_priority() interface
+44e6ddaad68a831a996696857296043117ec5a9f mptcp: pm: in-kernel: explicitly limit batches to array size
+476062e48a343f01ee9eb02b56839f43488ee313 mptcp: pm: in-kernel: increase all limits to 64
+cbd101a079aceefbc6420941fd3acb9f5f7b72d6 mptcp: pm: kernel: allow flushing more than 8 endpoints
+32569a11754ff78945e322447fa9a3f99d739247 mptcp: pm: in-kernel: increase endpoints limit
+f73c5714fd4ed70e5946adaaffbfecd33a88be9f selftests: mptcp: join: allow changing ifaces nr per test
+ae3f8b7826278b2cac7dfef5f70e7486f4bfa3ff selftests: mptcp: join: validate 8x8 subflows
+a7ff41f90a011a17f4fb1cfb907081f8ad40ab3d selftests: mptcp: pm: validate new limits
+74dc80e6731036001155564004ec55710f0c602b selftests: mptcp: pm: use simpler send/recv forms
+7879146510e6f3da071677b8db9015ff37031389 DO-NOT-MERGE: git markup: features net-next
+d20582b7264427b73b769f756ab37abb4b345bb2 DO-NOT-MERGE: git markup: features net-next-next
+b9e4da4bffbe43bf4f64629015ba2d8badb2653c bpf: Add mptcp_subflow bpf_iter
+db8ec2046d24bcb600351cea27c9eb4f38009100 selftests/bpf: More endpoints for endpoint_init
+e193f0c08cd28b432f3942c019a103b00b430412 selftests/bpf: Drop cgroup_fd of run_mptcpify
+7594e97a50b4ae3e858ceff47a00f89560e4dbd3 bpf: Add mptcp packet scheduler struct_ops
+72e98351d130a87197fa944d52ba6af1e631ffee bpf: Export mptcp packet scheduler helpers
+c984981c22e87c762d6170387f64efbd459a9ce2 selftests/bpf: Add bpf scheduler test
+51a1317001cc97fc0a35ecb7aeb9effb7b4c7393 selftests/bpf: Add bpf_first scheduler & test
+e8583acb76b440606fc9e135408bab8f232eeca0 selftests/bpf: Add bpf_bkup scheduler & test
+1ba75914f877be3524b308d2790a5b0795bddd30 selftests/bpf: Add bpf_rr scheduler & test
+7cd89632bf619477cda189029db69805778f7beb selftests/bpf: Add bpf_red scheduler & test
+c3e8be6b5de735ac0b9c271ae6bb82e4222e6cac selftests/bpf: Add bpf_burst scheduler & test
+dafc8de6beacc7f2e3850b3b64bec7546866e694 DO-NOT-MERGE: git markup: features other trees
+202f9ce13a03eed623d36ef881a516685cd8afdb DO-NOT-MERGE: mptcp: improve code coverage for CI
+52f68f13d42a1c3752de7a776b6f873988f48401 DO-NOT-MERGE: mptcp: enabled by default
 
---===============1969963759521144202==--
+--===============3656639424182002417==--
