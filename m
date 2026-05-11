@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4824039357297816715=="
+Content-Type: multipart/mixed; boundary="===============6381177429870881484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 May 2026 01:08:09 -0000
-Message-Id: <177846168986.1841782.2533527654309359831@gitolite.kernel.org>
+Date: Mon, 11 May 2026 01:08:21 -0000
+Message-Id: <177846170188.1842262.18372705450213583593@gitolite.kernel.org>
 
---===============4824039357297816715==
+--===============6381177429870881484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.1
-    old: 628497e6d925d43efb56e3ffecef0a9d217926b3
-    new: cbdbfba9e8907bea923874d05d6a35ff429a5544
-    log: revlist-628497e6d925-cbdbfba9e890.txt
+  - ref: refs/heads/spi-7.2
+    old: 54725e3049e1684bc77e0cf892ab1d194c515121
+    new: ca15b1d15bf66e93c4caf5a3a950e26053bb24d4
+    log: revlist-54725e3049e1-ca15b1d15bf6.txt
 
---===============4824039357297816715==
+--===============6381177429870881484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-628497e6d925-cbdbfba9e890.txt
+Content-Disposition: attachment; filename=revlist-54725e3049e1-ca15b1d15bf6.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -474,6 +474,7 @@ bd3c45dd01283ada23b0a388c578dcf5600deb8a timers/migration: Fix another hotplug a
 bee87cf0f1248c0f20710d7a79df41fe892d9f88 ASoC: cs35l56: Don't use devres to unregister component
 fd4d83e1437d6395021b21531e187c8a67ac21b0 ASoC: cs35l56: Destroy workqueue in probe error path
 5776bcdf4dccac8edc1160482792b512da5c08b4 ASoC: cs35l56: Fixes for driver cleanup
+628497e6d925d43efb56e3ffecef0a9d217926b3 regulator: qcom-rpmh: Fix index for pmh0101 ldo16
 4bacec2317527ba04b7172145848f1c206999ea1 spi: ch341: correct company name in MODULE_DESCRIPTION
 06bc7ff0a1e0f2b0102e1314e3527a7ec0997851 Merge tag 'asoc-fix-v7.1-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 adc1e5c6203cf13fe05a1ead08edcb3d3a3baae8 Merge tag 'efi-fixes-for-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -609,6 +610,26 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-cbdbfba9e8907bea923874d05d6a35ff429a5544 regulator: Kconfig: fix a typo in help
+4af89d7d8552a1f0437521acf89fa51601bce973 spi: pic32: switch to managed controller allocation
+dda3a77e1a32b329d3c543a1ac236106acf64ec5 spi: pic32-sqi: switch to managed controller allocation
+02efc5557c8e4202b1c5d260ec532986e9769897 spi: pl022: switch to managed controller allocation
+86e8160240af1143e0a9f185e45ac300fe0d93a6 spi: qup: switch to managed controller allocation
+368d0e6c6f82a090b3fb080929f4478217e597e8 spi: rspi: switch to managed controller allocation
+042414e4da73e67d0e1e77ac1292e6aa15a54928 spi: sh-hspi: switch to managed controller allocation
+354b0a4ad4eb50a947b1b7b143c01a01a37489e7 spi: sh-msiof: switch to managed controller allocation
+fd260013577d0a6f3b6a8b07d059c34fb710efac spi: sifive: switch to managed controller allocation
+cd1cd2ff56bf106a71d3170d6b74d08386d99428 spi: slave-mt27xx: switch to managed controller allocation
+d68627cc76cd895d07363c795a198d1edd687107 spi: sprd: switch to managed controller allocation
+d3cf5ebdf1c9fa909ae8de5be041eac2658c0c68 spi: st-ssc4: switch to managed controller allocation
+02b36d644ded410e8f70cdd78d0c5d523252bafd spi: sun4i: switch to managed controller allocation
+9864636b1cd95dd2b3c702a2ff22e9d169f6523a spi: sun6i: switch to managed controller allocation
+5d5bbf177d18bdec01b9356f85d5883cbc6acf29 spi: syncuacer: switch to managed controller allocation
+3068e7063cc42032b30e3eaef34066a86cb0aa68 spi: tegra114: switch to managed controller allocation
+3a14bf4f5453121cae3cbdfb6180317c5d74f424 spi: tegra20-sflash: switch to managed controller allocation
+76a24627b98ca712df8724985a4601c502b7875f spi: ti-qspi: switch to managed controller allocation
+f8689d5a9ee44a7cdd0ff469e5ee943c933fc830 spi: ti-qspi: cleanup registration error path
+789986b1456497837c542f64b1a0c7d9dafd1b2a spi: uniphier: switch to managed controller allocation
+be552efa43eec9972b490fce9a3dd9cb0da92a3c spi: zync-qspi: switch to managed controller allocation
+ca15b1d15bf66e93c4caf5a3a950e26053bb24d4 spi: switch to managed controller allocation (part 2/3)
 
---===============4824039357297816715==--
+--===============6381177429870881484==--
