@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2271775341895131236=="
+Content-Type: multipart/mixed; boundary="===============5862733118229503442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 11 May 2026 10:36:18 -0000
-Message-Id: <177849577816.2617349.5105743153563415472@gitolite.kernel.org>
+Date: Mon, 11 May 2026 10:36:34 -0000
+Message-Id: <177849579471.2617668.4721262544519954458@gitolite.kernel.org>
 
---===============2271775341895131236==
+--===============5862733118229503442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: ec1fcddb3117d9452210e838fd37389ee61e10e8
     new: 5d6919055dec134de3c40167a490f33c74c12581
     log: revlist-ec1fcddb3117-5d6919055dec.txt
-  - ref: refs/tags/v7.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
 
---===============2271775341895131236==
+--===============5862733118229503442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packe
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 
---===============2271775341895131236==--
+--===============5862733118229503442==--
