@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4059414608633412263=="
+Content-Type: multipart/mixed; boundary="===============4824039357297816715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 11 May 2026 01:07:57 -0000
-Message-Id: <177846167741.1841341.4013583969825109893@gitolite.kernel.org>
+Date: Mon, 11 May 2026 01:08:09 -0000
+Message-Id: <177846168986.1841782.2533527654309359831@gitolite.kernel.org>
 
---===============4059414608633412263==
+--===============4824039357297816715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: ee05c329c0487c86d37635a7503ba989c6aa7636
-    new: 42d99857d6f08a40a8bde7b9e68d330f18b159a0
-    log: revlist-ee05c329c048-42d99857d6f0.txt
+  - ref: refs/heads/regulator-7.1
+    old: 628497e6d925d43efb56e3ffecef0a9d217926b3
+    new: cbdbfba9e8907bea923874d05d6a35ff429a5544
+    log: revlist-628497e6d925-cbdbfba9e890.txt
 
---===============4059414608633412263==
+--===============4824039357297816715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee05c329c048-42d99857d6f0.txt
+Content-Disposition: attachment; filename=revlist-628497e6d925-cbdbfba9e890.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -360,6 +360,8 @@ c69df06e4e26e50611190ce04eab92c5cc261b61 perf/core: Fix deadlock in perf_mmap() 
 8ba0b706a485b1e607594cf4210786d517ad1611 perf/x86/intel: Always reprogram ACR events to prevent stale masks
 1271aeccc307066315b2d3b0d5af2510e27018b5 perf/x86/intel: Disable PMI for self-reloaded ACR events
 aa4384bc8f4360167f3c3d5322121fe892289ea2 perf/x86/intel: Enable auto counter reload for DMR
+78538047717bdeabe8481ef611c9131e455e61df ASoC: wm_adsp_fw_find_test: Redirect wm_adsp_release_firmware_files()
+af64f790969973b325efda7264d6860167623cdd ASoC: wm_adsp_fw_find_test: Clear searched_fw_files in find-by-index test
 027ef9a9297c6ae8be11681e0fa485c1829d0572 ASoC: wm_adsp_fw_find_test: Fix a couple of bugs
 50987d4e6c55929aa2d4d3976e74ccbae22d5017 drm/panel: himax-hx83121a: Fix incorrect error check for devm_drm_panel_alloc()
 defab7b01e0848e004077d7d8dcc04d305ea1a27 drm/panel: hx83121a: select DRM_DISPLAY_DSC_HELPER
@@ -472,7 +474,6 @@ bd3c45dd01283ada23b0a388c578dcf5600deb8a timers/migration: Fix another hotplug a
 bee87cf0f1248c0f20710d7a79df41fe892d9f88 ASoC: cs35l56: Don't use devres to unregister component
 fd4d83e1437d6395021b21531e187c8a67ac21b0 ASoC: cs35l56: Destroy workqueue in probe error path
 5776bcdf4dccac8edc1160482792b512da5c08b4 ASoC: cs35l56: Fixes for driver cleanup
-628497e6d925d43efb56e3ffecef0a9d217926b3 regulator: qcom-rpmh: Fix index for pmh0101 ldo16
 4bacec2317527ba04b7172145848f1c206999ea1 spi: ch341: correct company name in MODULE_DESCRIPTION
 06bc7ff0a1e0f2b0102e1314e3527a7ec0997851 Merge tag 'asoc-fix-v7.1-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 adc1e5c6203cf13fe05a1ead08edcb3d3a3baae8 Merge tag 'efi-fixes-for-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -608,21 +609,6 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-3760befa5c08b229df76ab458520beeb26024716 ASoC: fsl: eukrea-tlv320: update board checks to use the DT
-45f7d7af0eeb3e59141a2197e796d675ad5416c0 ASoC: cs42l43: Move long delayed work on system_dfl_long_wq
-11b92ac8df4418d553ba7d4656e6284fa54737c2 ASoC: codecs: rt5640: Move long delayed work on system_dfl_long_wq
-e3cc335cdcd5715427864791514c5d28a2ede884 ASoC: Move system_long_wq to system_dfl_long_wq
-6f4cf77320ae0a39f251cd0e4398efafac154dfb ASoC: ti: j721e-evm: Use guard() for mutex locks
-bc59728f93499b2c8655b2379df93f1fd92bc7e3 ASoC: ti: omap-dmic: Use guard() for mutex locks
-59115f79acd2132d1ee92ff30d63a3f2113e3c6d ASoC: ti: omap-hdmi: Use guard() for mutex locks
-70031e9ad601591cff5562df2b9b9412a700e949 ASoC: ti: omap-mcpdm: Use guard() for mutex locks
-a8217778be47b648163dd6e78537b7aace5f0271 ASoC: ti: ams-delta: Use guard() for spin locks
-d94e794e8294382dd438b1d7ae6cd1958b4af1c3 ASoC: ti: omap-mcbsp-st: Use guard() for spin locks
-822f67bc269d6c393a978fad9915a28ac272738f ASoC: ti: omap-mcbsp: Simplify lock and resource handling
-f86caf5ff6a408efda76ee2c6183d8f450d064d4 ASoC: ti: Cleanup locking code using guard() helpers
-954222bb686d22f4359b7014cbce16bca2470927 ASoC: soc_sdw_utils: skip aux device if it is not present
-21bcd34e70afbe998e143d173d80a02ccace9fe0 ASoC: soc_sdw_utils: Change comment into proper kernel doc
-56ba969925acee25954bac7efe2ab41f18d8c543 ASoC: soc_sdw_utils: skip aux device if it is not present
-42d99857d6f08a40a8bde7b9e68d330f18b159a0 ASoC: core: Move all users to deferrable card binding
+cbdbfba9e8907bea923874d05d6a35ff429a5544 regulator: Kconfig: fix a typo in help
 
---===============4059414608633412263==--
+--===============4824039357297816715==--
