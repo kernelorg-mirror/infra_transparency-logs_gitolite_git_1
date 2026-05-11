@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8843256994786650331=="
+Content-Type: multipart/mixed; boundary="===============7085003419971062171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 11 May 2026 09:54:22 -0000
-Message-Id: <177849326246.2569007.17649027917499185092@gitolite.kernel.org>
+Date: Mon, 11 May 2026 09:54:42 -0000
+Message-Id: <177849328286.2569375.17924098710839058581@gitolite.kernel.org>
 
---===============8843256994786650331==
+--===============7085003419971062171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: e3d3f289a4ebd4ede448b2fa63e11b6a28698269
-    new: 71894112e68b305b7fffdbf044354e4d77725c30
-    log: revlist-e3d3f289a4eb-71894112e68b.txt
+  - ref: refs/heads/m68k-queue
+    old: c2034055f00e5577089ad087dfb7aa2614847e41
+    new: 9e5819c8382d4abbe6988350ee7bc1664e15b720
+    log: revlist-c2034055f00e-9e5819c8382d.txt
 
---===============8843256994786650331==
+--===============7085003419971062171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3d3f289a4eb-71894112e68b.txt
+Content-Disposition: attachment; filename=revlist-c2034055f00e-9e5819c8382d.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -610,6 +610,12 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-71894112e68b305b7fffdbf044354e4d77725c30 Merge tag 'v7.1-rc3'
+e829840cbc41be696ec15eadbeb1835a7fad4ad2 zorro: sysfs: Replace sprintf() by sysfs_emit()
+f4ca5668146d68a8080c80939ab61afcb30abc50 nubus: switch to dynamic root device
+d93dfa054ddebd1f3493d034b66325dce3d4edb2 drivers: dio: replace deprecated strcpy with strscpy in dio_init
+5b0dae88fca4f034601c8fc85cab49ca89dfea51 drivers: dio: use tabs and avoid continuation logging in dio_init
+31f6686a1b8c934f4a615beb20fb872334db859e m68k: atari: usb: Add ISP1160 USB host controller support
+3751b6b433c59b21d5d5276158a47ac489e7c336 m68k: atari: Update Kconfig.bus help text
+9e5819c8382d4abbe6988350ee7bc1664e15b720 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8843256994786650331==--
+--===============7085003419971062171==--
