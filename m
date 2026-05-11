@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 11 May 2026 18:15:35 -0000
-Message-Id: <177852333541.3129894.16073372514762745651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 11 May 2026 18:16:17 -0000
+Message-Id: <177852337789.3130751.16169884953895774489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/fix_frame_id
-    old: a96f4d878655e4b9463510422480915f9f8cc62c
-    new: 784ef4c1b514a1cc781a5bf94724caa070e13bb8
+  - ref: refs/heads/wip/leon-for-next
+    old: 59d29eb26889b540d83116d2850a634cc3a827f1
+    new: f4b27971e6e7d55678f8c3fa8bcfd0cc704e27d5
     log: |
-         784ef4c1b514a1cc781a5bf94724caa070e13bb8 xhci: fix frame id calculation for isoc transfer
+         f4b27971e6e7d55678f8c3fa8bcfd0cc704e27d5 IB/mlx5: Reduce spinlock contention by moving free operations outside
          
