@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5664616219392013724=="
+Content-Type: multipart/mixed; boundary="===============7641970264961069361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 11 May 2026 06:22:26 -0000
-Message-Id: <177848054657.2226440.615705230956857655@gitolite.kernel.org>
+Date: Mon, 11 May 2026 06:22:29 -0000
+Message-Id: <177848054914.2226553.18202944032888805315@gitolite.kernel.org>
 
---===============5664616219392013724==
+--===============7641970264961069361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-7.0.y
-    old: 3fd2ca34a3e7d1f52e7deaa27016379935ae0845
-    new: 5d83f95062a860326fd9c69a9d7a1f01063270c1
-    log: |
-         d45179f8795222ce858770dc619abe51f9d24411 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
-         5d83f95062a860326fd9c69a9d7a1f01063270c1 Linux 7.0.6
-         
+  - ref: refs/tags/v7.0.6
+    old: 0000000000000000000000000000000000000000
+    new: ae405e3d2bb39200581acebf5013d5f38090ac22
 
---===============5664616219392013724==
+--===============7641970264961069361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778480545 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778480548 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1778480544-d5ac77e61bbb54d2d32a9bc3606f0327c38366f2
+nonce 1778480547-afd5c8c2a35ad7074d7421425f6e6a1b14d093af
 
-3fd2ca34a3e7d1f52e7deaa27016379935ae0845 5d83f95062a860326fd9c69a9d7a1f01063270c1 refs/heads/linux-7.0.y
+0000000000000000000000000000000000000000 ae405e3d2bb39200581acebf5013d5f38090ac22 refs/tags/v7.0.6
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBdaEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tPUQAI2ML6/GYNafrHpSBpkJ
-nEtaq4wTHbFOiQ8nJeZS+0gJViyFcpuu8lVsGStNUFWP0cb/SESd+JLiyB1oUXYh
-oh0iA+g5uujuRlMabZBhi0XcnSLilLg4X6Wp4gKAjxdObMW67VHVtFCrtOGNx5Rq
-A+cMCaUd8wnrAQBmEd6MWNV8LLPRG55KbRiEaPKMDrrNsd6ZQVIj3YoLLitX6gNs
-itWhYNhe+DAMISRJg+rlDUyap7r8r6sdBJ7CL5+x5mlhexTSQpeO97f9rhYz6wHi
-/3ndNxD5cO4yXAgdOtIqAGtft1V19qdAF62RaHJiAiETpBwJar41l+6L7jtZVmRc
-uVPrYdDrxWkPM4MlBiSIiAB6kfb/hwQ3yxtL4PUstHLEAKG76vMyFERg4XP006Th
-wKpCk7ez2VSr1zernh2x4OeTQTqW9Mndu2bMEJx+MEExnzwyvEKSwmOIetK7ki9e
-swP4idqKxHrcnctrsPMwGbdI0DeqSGMX2S1woKz6g32F8C75sRq3Jk0HUQ1wD+Ev
-CknOHEM4ufDXG3LJSCINzh4kD6xfvhQRRc2dHtp6LVPYjZpf1f5gurhWN2gU8vht
-IwKfW9JhxAn+OFb5aQAZoT+qogmfa6hIHJ1EXK/ChfcBONkMVNB1boLZQIZbdf9X
-LVfT/RIX3UipFGm2mDuctPSF
-=HGne
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBdaQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aR8P/1P5E1qfS3vU8PwEp696
+0O0bkRB1OBhjVGtFfQREqW3k+1cwfjxLitGLJkAXB0zw7IGg406UXCplr2msjr6A
+0dG2smJ5pOhmrAqk22zuxKEHEhQppmYiHn19EYVEIQCpB8HH9b6R6990o4E/BNLU
+2kJNeWkZdpgnQCMCGJ62/bFmJ5KaKuSvykdhN+zGQCSf0nyGh1yt6syFwvh6Pf+V
+uC83M420iJ1TnEie5YEp/HNxZZ9XDhvHhUmahsgq0P3BRxYoMDLi5aVP/o3kTWOU
+TbUsyRsnzWtr0/sYPy/uZEnr98V6ue4CKz78IdOhgHvEywumfBlVs90awNsGa9q7
++AXtMPEoDR5DmQ+Rbpy6BMEtVjdYLnNHFqMUGhhBvAfQXI9kdKwyCZuHYN8zoZN0
+yut4I0W29g9GFJtNeeeTKaiyVAdMsxqkR2jzbIdC8GoZ8x0XQBOSPo9+vHqcDtpF
+PTmEQgc1JFVPFSzDDgy5sDQYPZwdkq0TZASdg0e305kOMNvFD2JmGbge5D4E1ju6
+geviIcQu1C3EFxjGBUhK07B0BGtBWSfQRsWmUVhsNo9+f+DG2mB/2/EjtKWRp3/l
+/9LjX/9F1Knv6EQjv7xZ1PHoGnMGjedhZwu6Ep2nXdv61GPHFz1qUZ5B2ZWw+eBU
+PnCQS71Du5TrHQ15mQdee47G
+=/lBK
 -----END PGP SIGNATURE-----
 
---===============5664616219392013724==--
+--===============7641970264961069361==--
