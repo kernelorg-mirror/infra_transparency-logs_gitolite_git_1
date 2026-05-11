@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2488315841787843896=="
+Content-Type: multipart/mixed; boundary="===============5049847253449802801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 11 May 2026 06:49:14 -0000
-Message-Id: <177848215404.2364242.1840629550484034758@gitolite.kernel.org>
+Date: Mon, 11 May 2026 06:49:23 -0000
+Message-Id: <177848216360.2364618.7734644152932155652@gitolite.kernel.org>
 
---===============2488315841787843896==
+--===============5049847253449802801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: bc851db06045a40c18233dd76ef0562d7f8bb6db
-    new: 5d6919055dec134de3c40167a490f33c74c12581
-    log: revlist-bc851db06045-5d6919055dec.txt
+  - ref: refs/heads/staging-next
+    old: 81f55766523e5293604cb96c5e98d10da345ff33
+    new: ea09c82fbc53aad867541cd2f0bde96c6b228ba0
+    log: revlist-81f55766523e-ea09c82fbc53.txt
 
---===============2488315841787843896==
+--===============5049847253449802801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778482153 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778482158 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1778482152-d2ec411bb1ade567bbe6ba4ccfee86342cf72414
+nonce 1778482158-e25a3d31f01c66713252c40c790174bea5ab9fae
 
-bc851db06045a40c18233dd76ef0562d7f8bb6db 5d6919055dec134de3c40167a490f33c74c12581 refs/heads/staging-linus
+81f55766523e5293604cb96c5e98d10da345ff33 ea09c82fbc53aad867541cd2f0bde96c6b228ba0 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBe+kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GaAP+wej8XESMtpQSU2vMlVs
-99WM+UTgDwfGYY3D0lw9ePMfpvrmNYJBKrgrc/BFHg8gvNFAjv8nDoGj9D5pQPUa
-hqBIM3fG54vIc+Ko6iZuC4FNDMqVkgKJWjwM6VRQ8d7AV/l/mMbi9CHTCAQkaboy
-VfZCLc+moylyAM01NAeiHIwBpxKhPwSsK59/znQaFLZpPJ0ioAxLXJI6NyuKdbjv
-won1ykbWyLMORaCmedigJzZ0KHWB1io2sBBsKUXeF//nwMrkIqIrEYsMnHcSEbFh
-hlHl3V+ZVGU9YbtIdMsmOrvWAYcMDDRzBst5HF90t1YZxllqt1Eql4IyaczYAmFu
-Uu6gJdh4CcGZVnqtAP4p6s1Fyihkoc85sHW5bKiJlDSr6vLqJ/2ck9a8ymF1pR2L
-Ong+fswKCwBPtd3yFu3DRb8AlTdfq8n8sUa6QyvXsLm5rXOTOUvIiBzzuCWK8Grg
-8I36p+qyJvzs5FHFfwg8TINBkgi+ljiGLRvc1fr0fRcZFsGILrPPp4BBk2yNWxRT
-E04Gd+aR5ssgrXKmpwBBhYZ2lFJOO5jP+jTEJuTABILk3p8WR6pLcykrJi4SJZcL
-NmMtbDHfNLFW5MQL96txGwZvM/VEGOLczNelNfSBre57TE37inJ82a3aqqRbGStd
-qwCbeeeqKZOeSW4rITEQLgk4
-=OO/M
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBe+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p2wP/21vG9NuG69fAUUk+cY0
+K4eKjTcmx0Vz8b9Z1TgroYA3H72hEmEkEANnjpLOa6X8K5TH4ErayFmHlKgh5k2v
+IY+pAuukkZGQM3KGmlW/U5svz2Vgbn0LhJ0iAiq6zqF23VWE60biJ9Y+G9tvVMjI
+Aa0yY8bpNVthf1L3nH1NkRzDCOEBfjn8SPfadY86W8SY9/yXHQoC6APefv3mzWgg
+9DZ4rC2V6iyeVf/slf9Qe1GbQruKWEYGwbMiCXlRDvWk9XaO2p0akBWXFmPVmI75
+erCkcf+2OzNypQHUXGH/bz9AcAHUhhHf5s6C2ArI7Vdn8HkXWiqLZoVtCLJKZGyv
+LIurldSwZEcy+K2nLxlJXuygTrQohxDDptQwQsiN+vCSDahMw14yk2Mo7Z6ylckC
+wl+cxncfLstuSES1KLhnhph9eAAM7wpbG73JLmWsMofz9yZorU4cZTrOIOLQIyaT
+29dBe21QJKzjdxymDSYqGLape/hc1TK/DtOrb5sZK3dkU/UEiXT+saY32aGiGIuF
+MuESvltVjOYms30qDjO4u5lqQ3TzWNh/nyz4t2brPZb3tEuxG0OPO1BqvUh6zXMf
+EQKZ9V6gH06qBf8OOBssatWNRwrNQd0qDTnWxcIgQW3T8mZfub36OWp45cIE11IQ
+T8dPSq4ahQ1W9vTay1yzN5+U
+=jkL4
 -----END PGP SIGNATURE-----
 
---===============2488315841787843896==
+--===============5049847253449802801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc851db06045-5d6919055dec.txt
+Content-Disposition: attachment; filename=revlist-81f55766523e-ea09c82fbc53.txt
 
-a5b98009f16d8a5fb4a8ff9a193f5735515c38fa sched/psi: fix race between file release and pressure write
-c802f460dd485c1332b5a35e7adcfb2bc22536a2 cgroup/rdma: fix integer overflow in rdmacg_try_charge()
-41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
 c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
 a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
@@ -744,7 +741,9 @@ b8c2e9e27636b92dc96c12f16894cbc60c58a306 io_uring/napi: clear tracked NAPI entri
 c5f25f5800f56f1754d9eeb3ced7c1e08c29119a dt-bindings: i2c: apple,i2c: Add t8122 compatible
 8de779dc40d35d39fa07387b6f921eb11df0f511 fbdev: udlfb: add vm_ops to dlfb_ops_mmap to prevent use-after-free
 9998e388be9930c106eb5904c23ecf2162407527 i2c: acpi: Add ELAN0678 to i2c_acpi_force_100khz_device_ids
+32c91e8ee039777d0b95b914633fc6a42607959c staging: vme_user: fix root device leak on init failure
 617eb7c0961a8dfcfc811844a6396e406b2923ea i2c: dev: prevent integer overflow in I2C_TIMEOUT ioctl
+bc851db06045a40c18233dd76ef0562d7f8bb6db staging: rtl8723bs: os_dep: avoid NULL pointer dereference in rtw_cbuf_alloc
 37b0dc5e279f35036fb638d1e187197b6c05a76d parisc: Fix IRQ leak in LASI driver
 b47bc7c022ddab7c79a84dd5f3f0d07fe09ec786 i2c: Compare the return value of gpiod_get_direction against GPIO_LINE_DIRECTION_OUT
 088f65e206087bf903743bd18417261d7a4c9644 x86/efi: Fix graceful fault handling after FPU softirq changes
@@ -1081,5 +1080,6 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
+ea09c82fbc53aad867541cd2f0bde96c6b228ba0 Merge tag 'v7.1-rc3' into staging-next
 
---===============2488315841787843896==--
+--===============5049847253449802801==--
