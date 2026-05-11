@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8594815636508215563=="
+Content-Type: multipart/mixed; boundary="===============8217623752345156620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 11 May 2026 07:25:06 -0000
-Message-Id: <177848430641.2405054.6589008285715504916@gitolite.kernel.org>
+Date: Mon, 11 May 2026 07:25:12 -0000
+Message-Id: <177848431295.2405392.3660018048027572779@gitolite.kernel.org>
 
---===============8594815636508215563==
+--===============8217623752345156620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: 5d6919055dec134de3c40167a490f33c74c12581
     log: revlist-254f49634ee1-5d6919055dec.txt
 
---===============8594815636508215563==
+--===============8217623752345156620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packe
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 
---===============8594815636508215563==--
+--===============8217623752345156620==--
