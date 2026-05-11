@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7173399621315286026=="
+Content-Type: multipart/mixed; boundary="===============3526595052191923622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 11 May 2026 11:46:34 -0000
-Message-Id: <177849999437.2693818.407923929404991819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 11 May 2026 11:46:53 -0000
+Message-Id: <177850001374.2694112.2787228568564175144@gitolite.kernel.org>
 
---===============7173399621315286026==
+--===============3526595052191923622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 5776bcdf4dccac8edc1160482792b512da5c08b4
-    new: d743974248e8aa45d88fcbc7b0bf13064d286f63
-    log: revlist-5776bcdf4dcc-d743974248e8.txt
+  - ref: refs/heads/for-7.2
+    old: 54725e3049e1684bc77e0cf892ab1d194c515121
+    new: ca15b1d15bf66e93c4caf5a3a950e26053bb24d4
+    log: revlist-54725e3049e1-ca15b1d15bf6.txt
 
---===============7173399621315286026==
+--===============3526595052191923622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778499992 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1778499991-dccb4892916cf919a57690e3bfaf5cba158449af
+pusher C3F436CA30F5D8EB 1778500011 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1778500010-5bd62c03106487ae1435c93624700cf5c2c9b6c2
 
-5776bcdf4dccac8edc1160482792b512da5c08b4 d743974248e8aa45d88fcbc7b0bf13064d286f63 refs/heads/asoc-7.1
+54725e3049e1684bc77e0cf892ab1d194c515121 ca15b1d15bf66e93c4caf5a3a950e26053bb24d4 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBwZgACgkQJNaLcl1U
-h9DJnAf/VGqQU+OQbn2hij3yYlkPMeO28Ih6eGwIWQOpYFCZvRTyQxZC/UIPfsu2
-gjmqqJa2CEy8UWZ+IgK0wfaC4RI5jz4SwKT3XkmfNTb1o9YQlpWZL6p1YtCr418E
-UvYgWYLA5ZBDRK23hm5pgFE8cUP596wiEnwE1MNBMbxo/Ic2UQSrpHHJ76W1sa3i
-XdUTg9pmuUvyHnXVB8mPButY/IVBzNUhJ6lTzMXbL+WIm+DCXIBmRTlh0m09dDUx
-mAtnwOFPLfFOK7EHDr3xJV7kQDFO0zFtDXxfAy3TPq4QEdTkRKQiznqPG7uajH14
-xS6mnHEsGA2L7q9bpuWdlu5W4s1ojQ==
-=Mvn0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoBwasACgkQJNaLcl1U
+h9BWjQf+NIpWeEGBXDFUPJNOFn1zv544iuu4dLhGdOPL+2m+m6TIUqbdRWCVS86z
+NHU5VxERTCLWkuA+HErq9UiV3KbpfeO1efZr/Nf7QGiJ4BBbQwFjv6K86OkEdErn
+mSrhY14Qc+EzGMKVEhqX+9r+MXdfLKIORwK418mg+TcaLTCkGp5EAMhsojaSJnK8
+j8SYt9BP36KduW+JLyy3Mq72ro/tiNQuZFVJi6CQ/pNga9SErxkZjyVyrZkbZ9Ob
+4OW8E0dQ11yozEL/+TiKtqrvdCt//oSS93Jj2fNaRvOOEnq8amGXoNdPssa0K73N
+n+tgM/E9oH2HfPEZp/mY+PoOpPvsag==
+=087N
 -----END PGP SIGNATURE-----
 
---===============7173399621315286026==
+--===============3526595052191923622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5776bcdf4dcc-d743974248e8.txt
+Content-Disposition: attachment; filename=revlist-54725e3049e1-ca15b1d15bf6.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -304,8 +304,16 @@ b47bc7c022ddab7c79a84dd5f3f0d07fe09ec786 i2c: Compare the return value of gpiod_
 088f65e206087bf903743bd18417261d7a4c9644 x86/efi: Fix graceful fault handling after FPU softirq changes
 6036b5067a8199ba7a2dc7b377d4b9dd276d5f9e i2c: stub: Reject I2C block transfers with invalid length
 359b626d362127451dbe8a687ac5c240f896ae2e ALSA: pcmtest: Return -EFAULT on pattern read copy failure
+e366ce8b22ec68189ffea2bb8009f7b20d549b0f ASoC: codecs: ab8500: Remove suspicious code
 8acd2d7e0889ac62bc102bd7b648cd7bee04f902 drm/qxl: Fix missing KMS poll cleanup
 c28c22c8cfbd43f2ad71a157324d9fbebc0d0f2e drm/fb-helper: Fix clipping when damage area spans a single scanline
+ec0611868f2fcf29e4c2bebdc6702d3e1f272fec ASoC: spacemit: fix RX DMA params not set when TX is running
+c64e77490b7e5d9dec738850f18878edb07e0f13 ASoC: cs35l56: Fix hibernate write in runtime resume error path
+0e60d96616640ffcf51b81a87c71e30d92385a93 ASoC: amd: yc: Add DMI quirk for MSI Bravo 15 C7VE
+0f9bfb84b3f0fe1406b2555fc11b45283ea21644 ASoC: cs35l56: Fix out-of-bounds in dev_err() in cs35l56_read_onchip_spkid()
+d63c219b7ff39f897da10c160a2edef76320f16c ASoC: amd: yc: Add HP OMEN Gaming Laptop 16-ap0xxx product line in quirk table
+56d5a9eaf60af5c824a33a83e1468aa143627a62 ASoC: sdw_utils: avoid the SDCA companion function not supported failure
+e8446a4a574d19f0fb39c06af15dbc5165079474 ASoC: fsl_xcvr: Fix event generation for cached controls
 24e0fd8b852062d5e8a740f7945eaa26818adce8 spi: imx: Fix precedence bug in spi_imx_dma_max_wml_find()
 f5b5548255040ec3bef05bcb1e9c9c3614dfa7db spi: imx: Fix UAF on package-1 prepare failure in spi_imx_dma_data_prepare()
 894e04b7116297a6529e0c4ed90e3eb160939805 spi: imx: Propagate prepare_transfer() error from spi_imx_setupxfer()
@@ -348,6 +356,8 @@ aa6065206987278291c09d0c6aebed687114c925 ipvs: Guard access of HK_TYPE_KTHREAD c
 8f78b749f3da0f43990490b4c1193b5ede3eec0a sched/isolation: Make HK_TYPE_KTHREAD an alias of HK_TYPE_DOMAIN
 d82ba05263c69fa2437fe93e4e561cc40f4c03af af_unix: Set gc_in_progress to true in unix_gc().
 76b93a8107574006b25495664304ea9237494d70 netpoll: pass buffer size to egress_dev() to avoid MAC truncation
+915f9860fe1c9f7eb6c48c299b2db64fd57ef32f ASoC: tas2764: Deal with bogus initial temperature register value
+d0771f4995d3285756bf496cf6e346df99481f83 ASoC: tas2770: Deal with bogus initial temperature value
 36bdc0e815b4e8a05b9028d8ef8a25e1ead35cc1 net: usb: asix: ax88772: re-add usbnet_link_change() in phylink callbacks
 059b7dbd20a6f0c539a45ddff1573cb8946685b5 vsock/virtio: fix potential unbounded skb queue
 c4a99a921949cddc590b22bb14eeb23dffcc3ba6 mptcp: use MPJoinSynAckHMacFailure for SynAck HMAC failure
@@ -375,6 +385,9 @@ c69df06e4e26e50611190ce04eab92c5cc261b61 perf/core: Fix deadlock in perf_mmap() 
 8ba0b706a485b1e607594cf4210786d517ad1611 perf/x86/intel: Always reprogram ACR events to prevent stale masks
 1271aeccc307066315b2d3b0d5af2510e27018b5 perf/x86/intel: Disable PMI for self-reloaded ACR events
 aa4384bc8f4360167f3c3d5322121fe892289ea2 perf/x86/intel: Enable auto counter reload for DMR
+78538047717bdeabe8481ef611c9131e455e61df ASoC: wm_adsp_fw_find_test: Redirect wm_adsp_release_firmware_files()
+af64f790969973b325efda7264d6860167623cdd ASoC: wm_adsp_fw_find_test: Clear searched_fw_files in find-by-index test
+027ef9a9297c6ae8be11681e0fa485c1829d0572 ASoC: wm_adsp_fw_find_test: Fix a couple of bugs
 50987d4e6c55929aa2d4d3976e74ccbae22d5017 drm/panel: himax-hx83121a: Fix incorrect error check for devm_drm_panel_alloc()
 defab7b01e0848e004077d7d8dcc04d305ea1a27 drm/panel: hx83121a: select DRM_DISPLAY_DSC_HELPER
 c67e8787f6743101c90c7a9c4bb7cf6f1f739f83 drm/panel: feiyang-fy07024di26a30d: return display-on error
@@ -483,6 +496,9 @@ bd3c45dd01283ada23b0a388c578dcf5600deb8a timers/migration: Fix another hotplug a
 9cc6bac1bebf8310d2950d1411a91479e86d69a1 io_uring/timeout: honour caller's time namespace for IORING_TIMEOUT_ABS
 45d2b37a37ab98484693533496395c610a2cab96 io_uring/wait: honour caller's time namespace for IORING_ENTER_ABS_TIMER
 5cbb61bf4168859d97c068d88d364f4f1f440325 arm64/fpsimd: ptrace: zero target's fpsimd_state, not the tracer's
+bee87cf0f1248c0f20710d7a79df41fe892d9f88 ASoC: cs35l56: Don't use devres to unregister component
+fd4d83e1437d6395021b21531e187c8a67ac21b0 ASoC: cs35l56: Destroy workqueue in probe error path
+5776bcdf4dccac8edc1160482792b512da5c08b4 ASoC: cs35l56: Fixes for driver cleanup
 628497e6d925d43efb56e3ffecef0a9d217926b3 regulator: qcom-rpmh: Fix index for pmh0101 ldo16
 4bacec2317527ba04b7172145848f1c206999ea1 spi: ch341: correct company name in MODULE_DESCRIPTION
 06bc7ff0a1e0f2b0102e1314e3527a7ec0997851 Merge tag 'asoc-fix-v7.1-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -619,15 +635,26 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-b9d16482bebdeded6e61891a5158b51f4ef04f5f MAINTAINERS: ASoC/ti: Remove myself and add Sen Wang as maintainer
-cb196d50a78ddae227f09b3cd0b145f74a70d241 ASoC; dt-bindings: mediatek,mt8173-rt5650-rt5514: Fix mediatek,audio-codec constraints
-422bd00b71ab42163aa3b8f8370276fe4c1581e7 spi: amd: Set correct bus number in ACPI probe path
-ac2f21ceddeec5553285e9fc4837a1f23d5e6a37 ASoC: Intel: soc-acpi-intel-arl-match: Reorder ACPI machine tables
-242200c297030d9bab62c0ea65f2094981bcf013 ASoC: soc-acpi-intel-arl-match: add rt712_l0_rt1320_l3 support
-d55bf7ce1e62d1d88f4687e8591561809ea0d6ab ASoC: soc-acpi-intel-arl-match: add rt712_l0_rt1320_l3 support
-d714913b61d55b936e9060e51e7b78216d34f6b1 ASoC: Intel: soc-acpi: add LG Gram 16Z90U RT713 + single RT1320 quirk
-9c37daee7c17fa17e8d41089ee1f658b06cb672a ASoC: sdw_utils: Add quirk to ignore RT712 CODEC_MIC
-fa749a77bdc50f0d695aaf81f1bd55967d77d10f ASoC: sdw_utils: Add quirk to ignore RT721 CODEC_MIC
-d743974248e8aa45d88fcbc7b0bf13064d286f63 ASoC: sdw_utils: make RT712/RT721 CODEC_MIC be optional
+4af89d7d8552a1f0437521acf89fa51601bce973 spi: pic32: switch to managed controller allocation
+dda3a77e1a32b329d3c543a1ac236106acf64ec5 spi: pic32-sqi: switch to managed controller allocation
+02efc5557c8e4202b1c5d260ec532986e9769897 spi: pl022: switch to managed controller allocation
+86e8160240af1143e0a9f185e45ac300fe0d93a6 spi: qup: switch to managed controller allocation
+368d0e6c6f82a090b3fb080929f4478217e597e8 spi: rspi: switch to managed controller allocation
+042414e4da73e67d0e1e77ac1292e6aa15a54928 spi: sh-hspi: switch to managed controller allocation
+354b0a4ad4eb50a947b1b7b143c01a01a37489e7 spi: sh-msiof: switch to managed controller allocation
+fd260013577d0a6f3b6a8b07d059c34fb710efac spi: sifive: switch to managed controller allocation
+cd1cd2ff56bf106a71d3170d6b74d08386d99428 spi: slave-mt27xx: switch to managed controller allocation
+d68627cc76cd895d07363c795a198d1edd687107 spi: sprd: switch to managed controller allocation
+d3cf5ebdf1c9fa909ae8de5be041eac2658c0c68 spi: st-ssc4: switch to managed controller allocation
+02b36d644ded410e8f70cdd78d0c5d523252bafd spi: sun4i: switch to managed controller allocation
+9864636b1cd95dd2b3c702a2ff22e9d169f6523a spi: sun6i: switch to managed controller allocation
+5d5bbf177d18bdec01b9356f85d5883cbc6acf29 spi: syncuacer: switch to managed controller allocation
+3068e7063cc42032b30e3eaef34066a86cb0aa68 spi: tegra114: switch to managed controller allocation
+3a14bf4f5453121cae3cbdfb6180317c5d74f424 spi: tegra20-sflash: switch to managed controller allocation
+76a24627b98ca712df8724985a4601c502b7875f spi: ti-qspi: switch to managed controller allocation
+f8689d5a9ee44a7cdd0ff469e5ee943c933fc830 spi: ti-qspi: cleanup registration error path
+789986b1456497837c542f64b1a0c7d9dafd1b2a spi: uniphier: switch to managed controller allocation
+be552efa43eec9972b490fce9a3dd9cb0da92a3c spi: zync-qspi: switch to managed controller allocation
+ca15b1d15bf66e93c4caf5a3a950e26053bb24d4 spi: switch to managed controller allocation (part 2/3)
 
---===============7173399621315286026==--
+--===============3526595052191923622==--
