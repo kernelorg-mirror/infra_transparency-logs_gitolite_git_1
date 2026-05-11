@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7750221582781312064=="
+Content-Type: multipart/mixed; boundary="===============5664616219392013724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 11 May 2026 06:22:19 -0000
-Message-Id: <177848053922.2226108.5198970465363328902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 11 May 2026 06:22:26 -0000
+Message-Id: <177848054657.2226440.615705230956857655@gitolite.kernel.org>
 
---===============7750221582781312064==
+--===============5664616219392013724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v7.0.6
-    old: 0000000000000000000000000000000000000000
-    new: f4aaeff85c79f7ad4b042e2917744ae7911dd961
+  - ref: refs/heads/linux-7.0.y
+    old: 3fd2ca34a3e7d1f52e7deaa27016379935ae0845
+    new: 5d83f95062a860326fd9c69a9d7a1f01063270c1
+    log: |
+         d45179f8795222ce858770dc619abe51f9d24411 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
+         5d83f95062a860326fd9c69a9d7a1f01063270c1 Linux 7.0.6
+         
 
---===============7750221582781312064==
+--===============5664616219392013724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778480538 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1778480538-948ae48ce7d7e1dceb7508512a396749cbad4949
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778480545 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1778480544-d5ac77e61bbb54d2d32a9bc3606f0327c38366f2
 
-0000000000000000000000000000000000000000 f4aaeff85c79f7ad4b042e2917744ae7911dd961 refs/tags/v7.0.6
+3fd2ca34a3e7d1f52e7deaa27016379935ae0845 5d83f95062a860326fd9c69a9d7a1f01063270c1 refs/heads/linux-7.0.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBdZobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fwYQALOQ/wBaczRcox6ngzeX
-iElocTvG0eshB9We5sDi0HEVYiJEI0c7YdcB6ZOZJ38mDVTV5bdmVCNeTTxnRgqg
-vWVBJWMHun93QKvka/VkJE4Gyv5Na0iXdItCnEwaQqi2TjFPyUix1UER2yEI/hTB
-0matalCfnhGZCTe78EB14eyhmOdfODAVo4fT412e80WVZSiWyY6g9+hm64oqzbco
-bOa2zpbiDwhFM3TvjnrDHS9I2yNhs4WP17lZYWPlk48gs9kptjEi8ZzBiIyW6pwd
-lMdMvAxciXUYD+Vaj/cpU5RnTCFGAsUpxpiKotdqXBEI00azC3XIL9639Ix4NB8u
-8rhMn1G0PbvwlG+V9TenR3bs+p1M2mEtwNHdzlpQ3ssC1sUW+n8CwuN7z3XhJkXc
-s8esAdIaN/aAgwcDH4YNCsK6FVvwmd0/fImVoYHO2lj753E6AyX5EeGltHpKAJPM
-yvBvhRml/jqIk5Xdme8elJfrU9h+atO+2uYPG7AfShmoXoSCk3Iqin+mu2fauehZ
-Bvxy1HwBV/5zKdVT4oTKRXURg8NEyzk+8/pLQD2ashiulfRBU7KyZ3s6iv19AcFJ
-fQtUFaAOAaRmCbBgfL+jwAl0keW5YdVDysdKFtxxiYwLzYjTx1ibA2ZZ4q3QJiVX
-YK9RAj/XHc1msnqRXA72t/Mg
-=G1pZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoBdaEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tPUQAI2ML6/GYNafrHpSBpkJ
+nEtaq4wTHbFOiQ8nJeZS+0gJViyFcpuu8lVsGStNUFWP0cb/SESd+JLiyB1oUXYh
+oh0iA+g5uujuRlMabZBhi0XcnSLilLg4X6Wp4gKAjxdObMW67VHVtFCrtOGNx5Rq
+A+cMCaUd8wnrAQBmEd6MWNV8LLPRG55KbRiEaPKMDrrNsd6ZQVIj3YoLLitX6gNs
+itWhYNhe+DAMISRJg+rlDUyap7r8r6sdBJ7CL5+x5mlhexTSQpeO97f9rhYz6wHi
+/3ndNxD5cO4yXAgdOtIqAGtft1V19qdAF62RaHJiAiETpBwJar41l+6L7jtZVmRc
+uVPrYdDrxWkPM4MlBiSIiAB6kfb/hwQ3yxtL4PUstHLEAKG76vMyFERg4XP006Th
+wKpCk7ez2VSr1zernh2x4OeTQTqW9Mndu2bMEJx+MEExnzwyvEKSwmOIetK7ki9e
+swP4idqKxHrcnctrsPMwGbdI0DeqSGMX2S1woKz6g32F8C75sRq3Jk0HUQ1wD+Ev
+CknOHEM4ufDXG3LJSCINzh4kD6xfvhQRRc2dHtp6LVPYjZpf1f5gurhWN2gU8vht
+IwKfW9JhxAn+OFb5aQAZoT+qogmfa6hIHJ1EXK/ChfcBONkMVNB1boLZQIZbdf9X
+LVfT/RIX3UipFGm2mDuctPSF
+=HGne
 -----END PGP SIGNATURE-----
 
---===============7750221582781312064==--
+--===============5664616219392013724==--
