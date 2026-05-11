@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7803679042908214299=="
+Content-Type: multipart/mixed; boundary="===============0578681520813991145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 11 May 2026 23:24:12 -0000
-Message-Id: <177854185296.3449903.10537941791214496813@gitolite.kernel.org>
+Date: Mon, 11 May 2026 23:24:15 -0000
+Message-Id: <177854185538.3449994.8644706927578660050@gitolite.kernel.org>
 
---===============7803679042908214299==
+--===============0578681520813991145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 6a4c4656b0d2d4056a1f0c35442db4e8a5cf8021
     new: 63751099502d10f0aa6bb35273e56c5800cc4e3a
     log: revlist-6a4c4656b0d2-63751099502d.txt
 
---===============7803679042908214299==
+--===============0578681520813991145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ e3ec1570895bcf81f443e8ac60059edc61dbfca3 net/mlx5: HWS, Check if device is down 
 6316d40b850964d9388cc572551ae0275ff6db85 net/mlx5: DR, Remove unused field of struct mlx5dr_matcher_rx_tx
 63751099502d10f0aa6bb35273e56c5800cc4e3a Merge branch 'net-mlx5-steering-misc-enhancements'
 
---===============7803679042908214299==--
+--===============0578681520813991145==--
