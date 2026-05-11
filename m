@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
-Date: Mon, 11 May 2026 10:57:39 -0000
-Message-Id: <177849705977.2640035.120557538706398585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 11 May 2026 10:59:09 -0000
+Message-Id: <177849714978.2640937.10834416797797002931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/android-os
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/nan-core105-2026-05-11
+  - ref: refs/heads/gpio/add-fwnode-gpiod-get
     old: 0000000000000000000000000000000000000000
-    new: 641acbd3c3878a411bae7fa2a81e4b496bd65161
+    new: 8a46bd2638f1ad6d1ed73dc3ab10919e67274738
+  - ref: refs/tags/ib-gpio-add-fwnode-gpiod-get-for-v7.2
+    old: 0000000000000000000000000000000000000000
+    new: 2fa194e9c9c9f4ada878a701a715d05b33a747ee
