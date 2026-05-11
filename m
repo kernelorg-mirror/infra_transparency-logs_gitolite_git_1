@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 11 May 2026 19:25:14 -0000
-Message-Id: <177852751440.3204679.6575249069130433536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 11 May 2026 19:26:53 -0000
+Message-Id: <177852761359.3205877.17175113434853979218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 89129814c8f7344aca6b012848730da3c96dae17
-    new: a67de87a3d4ea52d0e2ebcb9ea6c28530af73c36
+    old: 82b794a4b4df11ae58c2368f551f4310725ebf52
+    new: c2f0079e8c42fd6814c8d6b1491e3ce0a0e3b3fa
     log: |
-         c19f9470e3798d1466e5825ab2bd4cd2e61f2888 scripts: emit multi-line gpg recipes for easier review
-         a67de87a3d4ea52d0e2ebcb9ea6c28530af73c36 Add .gitignore for Python caches and resign-modern-hash outputs
+         c2f0079e8c42fd6814c8d6b1491e3ce0a0e3b3fa Bluetooth: hci_qca: Convert timeout from jiffies to ms
          
