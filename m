@@ -1,33 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 12 May 2026 17:58:53 -0000
-Message-Id: <177860873341.198290.3653652659445903893@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2312037963337272490=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 12 May 2026 18:07:21 -0000
+Message-Id: <177860924143.205319.13852165584044210432@gitolite.kernel.org>
+
+--===============2312037963337272490==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 74d695fd6f9d70df849c555f358ddfd26e2d85bf
-    new: 6f89d96fff65aec1ff12bc566fca0eb1bb59e16e
-    log: |
-         baa0210fb6a9dc3882509a9411b6d284d88fe30e Input: atmel_mxt_ts - fix boundary check in mxt_prepare_cfg_mem
-         a5fd88a5d63f812422e69682f3cb663d9d7f3e9c Input: atmel_mxt_ts - check mem_size before calculating config memory size
-         6f89d96fff65aec1ff12bc566fca0eb1bb59e16e Input: atlas - check ACPI_COMPANION() against NULL
-         
   - ref: refs/heads/master
-    old: 7b9b6b34a6474e6f0e4e7c48e33e824131ed46d5
-    new: b7710233c16c1f42e0b58a1f0485658fc4fa61c1
+    old: a67de87a3d4ea52d0e2ebcb9ea6c28530af73c36
+    new: 7099308934704400ea958f4abe3b67c2ac609675
     log: |
-         b7710233c16c1f42e0b58a1f0485658fc4fa61c1 Input: atmel_mxt_ts - use __free() for obuf in mxt_object_show
+         7099308934704400ea958f4abe3b67c2ac609675 Resigned keys for 8DCE35563022E57A
          
-  - ref: refs/heads/next
-    old: 7b9b6b34a6474e6f0e4e7c48e33e824131ed46d5
-    new: b7710233c16c1f42e0b58a1f0485658fc4fa61c1
-    log: |
-         b7710233c16c1f42e0b58a1f0485658fc4fa61c1 Input: atmel_mxt_ts - use __free() for obuf in mxt_object_show
-         
+
+--===============2312037963337272490==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1778609240 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1778609240-077638dbf99f1d27b84f474e99c6dd50018a4ba6
+
+a67de87a3d4ea52d0e2ebcb9ea6c28530af73c36 7099308934704400ea958f4abe3b67c2ac609675 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCagNsWAAKCRC2xBzjVmSZ
+bJ8yAPoCEq3Dnpa7FgaCMjpgU1NVnq51tvT55dX/SITN4IfGxAEA+spGQqWgIEhm
+ZHbPMBQ4PqNG/1zyTlhQoEOuHeOORQY=
+=eMci
+-----END PGP SIGNATURE-----
+
+--===============2312037963337272490==--
