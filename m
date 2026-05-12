@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 12 May 2026 10:41:34 -0000
-Message-Id: <177858249467.3956893.1830258444800791136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Tue, 12 May 2026 10:51:22 -0000
+Message-Id: <177858308268.3964251.3477960354257077417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 8b2a66cb49546cb07ab726daf5b5ea5381b1f2d5
-    new: 3f716b34c639f603faa937e5cfa8891b83afd1cf
+  - ref: refs/heads/master
+    old: cadfccff020045b1a190b8402d7c60737a58b053
+    new: 5eed939e0d544afa311a4dd6dac90833d38d7d29
     log: |
-         3f716b34c639f603faa937e5cfa8891b83afd1cf RDMA/srpt: fix integer overflow in immediate data length check
+         5eed939e0d544afa311a4dd6dac90833d38d7d29 build: use int as the type of soversion variables
          
