@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8527301555479923167=="
+Content-Type: multipart/mixed; boundary="===============8311068842004693149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 12 May 2026 03:45:27 -0000
-Message-Id: <177855752728.3655072.2435442829862581720@gitolite.kernel.org>
+Date: Tue, 12 May 2026 03:45:29 -0000
+Message-Id: <177855752973.3655166.12602474358260629283@gitolite.kernel.org>
 
---===============8527301555479923167==
+--===============8311068842004693149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7505bb13a9bb1f214310915ccc06643119fdafc9
-    new: 30424114b17dd65c098749cedcaef301c1dd2f86
-    log: revlist-7505bb13a9bb-30424114b17d.txt
+  - ref: refs/heads/mm-unstable
+    old: e9dd96806dbc2d50a66770b6a86962bd5d601153
+    new: 972c53e0ec3abfc6f5fe2cb503640710fb23cf95
+    log: revlist-e9dd96806dbc-972c53e0ec3a.txt
 
---===============8527301555479923167==
+--===============8311068842004693149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7505bb13a9bb-30424114b17d.txt
+Content-Disposition: attachment; filename=revlist-e9dd96806dbc-972c53e0ec3a.txt
 
 884ed86a04f7b3b4c6f9eab2979d08cecdf94ccb mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
 ecf1af653a989bc57b0e196f599733da24a16cc5 mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
@@ -192,98 +192,5 @@ d858fb7ae6346f98b41cd67075bac0f4451ad393 mm/swap, PM: hibernate: fix swapoff rac
 ca02bd4d2100ec3e5736f50616646118f18ac64f mm/swap: remove redundant swap device reference in alloc/free
 8edda7c319d9a0dec494914d05ee60107a2b9e4c mm/swap, PM: hibernate: atomically replace hibernation pin
 972c53e0ec3abfc6f5fe2cb503640710fb23cf95 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
-db184a12921fc78f9ab37a5d16213b8fd99810a7 mm/khugepaged: generalize hugepage_vma_revalidate for mTHP support
-202dea488c160b438d200527d9f462b17244ebcc mm/khugepaged: generalize alloc_charge_folio()
-fc6b8aa69eaca96e93f9a888616e723423f63b9a mm/khugepaged: rework max_ptes_* handling with helper functions
-602842abb64f2c2cd0a7941d503e2d8832c8554e mm/khugepaged: generalize __collapse_huge_page_* for mTHP support
-bb420b678092eb36c59ed1fef423a456a8adae56 mm/khugepaged: require collapse_huge_page to enter/exit with the lock dropped
-20b470e8358ea7fc2de31a407dd5ece9af94917e mm/khugepaged: generalize collapse_huge_page for mTHP collapse
-f4787136eb58d378040f72b88c8eac1ce2eab0c2 mm/khugepaged: skip collapsing mTHP to smaller orders
-7d0b48b40d0ad900fe96d5feb5c2e45d72f945d8 mm/khugepaged: add per-order mTHP collapse failure statistics
-94734d069f73c11f9c2bfe80abf55117f37dfb6a mm/khugepaged: improve tracepoints for mTHP orders
-30bc244f387498a4298520c1641dde97e3a0492f mm/khugepaged: introduce collapse_allowable_orders helper function
-891652af17721b1cdafee2177d307301db0a14bc mm/khugepaged: Introduce mTHP collapse support
-2f19442c974f91a850d7bd3261cc9acc4c2c4d29 mm/khugepaged: avoid unnecessary mTHP collapse attempts
-d0c251fcb75d84e8839faf2f2e6bad35d41775b4 mm/khugepaged: run khugepaged for all orders
-a235ce2e33b2defb31d2e6fab2306a081cd32048 Documentation: mm: update the admin guide for mTHP collapse
-347ace6b63acd4719ee8e16f6088988c6d5d73c8 mm/khugepaged: remove READ_ONLY_THP_FOR_FS check
-8da6db40a39d50a26236a3d5c81fbd3da5ded37e fix mapping_pmd_folio_support() to represent its exact meaning
-66a2c3e58db11b3745c13fdd730579440ea8ec8a mm/khugepaged: add folio dirty check after try_to_unmap()
-247e2271317d686153128da484a30466172b053f mm/huge_memory: remove READ_ONLY_THP_FOR_FS from file_thp_enabled()
-94d3154b1ec8022842825cf586922b4a67b4a84c mm/khugepaged: remove READ_ONLY_THP_FOR_FS check in hugepage_enabled()
-f2bcab5873067cd08dcbdaef95895b9c212f078c mm: remove READ_ONLY_THP_FOR_FS Kconfig option
-7d7a521598c1e9d3924ef060557a417129cc86f1 mm: fs: remove filemap_nr_thps*() functions and their users
-49f66e088ae544a6815219db742ce05fb6e6f34a fs: remove nr_thps from struct address_space
-dfdd180c105faee18c1105382aec4ac76528581c mm/huge_memory: remove folio split check for READ_ONLY_THP_FOR_FS
-7ae55fb6de9ece93397bfd43fa313f3b316afaaf mm/truncate: use folio_split() in truncate_inode_partial_folio()
-9b8aa1f5c361f9fd732daa0eac5d0d028e3a8b64 fs/btrfs: remove a comment referring to READ_ONLY_THP_FOR_FS
-0c3255915f0917472eefde8dda4438c88b91898a selftests/mm: remove READ_ONLY_THP_FOR_FS in khugepaged
-e98aeabe13271e2bdb6702d8ad1e1c253dc8a67b selftests/mm: khugepaged perror fixup
-ca17328cf809b40250099d4ffecac22320214200 fix run_vmtests.sh to only print SKIP when khugepaged is selected
-3a001bb759bf920691108cbaf353a7548fde88b4 selftests/mm: remove READ_ONLY_THP_FOR_FS code from guard-regions
-474f3e89a3ffec9f8806c7e4b696016ade452241 mm/khugepaged: enable clean pagecache folio collapse for writable files
-42a096b987e02a22ba225eef20eb18ed42b9859b selftests/mm: add writable-file collapse tests for khugepaged
-343ce894a98e1248645101cf5117f55a0adcd9a8 proc/meminfo: expose per-node balloon pages in node meminfo
-52c22dfe399a8cbe8cee87903c5f8a8621030a51 mm/swap: add cond_resched() in swap_reclaim_full_clusters to prevent softlockup
-b0cc0e830b52fb5bd979e9ac24607e694e18dabf mm/kmemleak: dedupe verbose scan output by allocation backtrace
-5dd31d8ad6eacdc1ee6bb95e293952e4b7f256ad selftests/mm: add kmemleak verbose dedup test
-267bc1914513943cd51401cccd0236f7999be171 mm/alloc_tag: replace fixed-size early PFN array with dynamic linked list
-5d8720447b14f20189836cc2c38c62cea2afc5fb mm/damon: replace damon_rand() with a per-ctx lockless PRNG
-718e0ccb71fdc8790e31170090265575e8ac98c5 selftests/mm: hugetlb-read-hwpoison: add SIGBUS handler
-8a1da78b7eac2d0b69cf3058b96f78c715861fa7 selftests/mm: migration: don't assume huge page is TWOMEG
-7db9880c7dbda041ace964088fa71825ae51e214 selftests/mm: migration: make nthreads represent number of working threads
-e07d8aaf69e578bd6c293f3c194353598239bd90 selftests/mm: migration: properly cleanup fork()ed processes
-ec7addf234d4c0da939faced355bcf0e9b7aa079 selftests/mm: run_vmtests.sh: don't gate THP and KSM tests on HAVE_HUGEPAGES
-a79468718eabfc26efa2f44594e9015477ac984d selftests/mm: merge map_hugetlb into hugepage-mmap
-a9885e9ddf1f5d5704a3ee9a5b6e17cad69eb5d3 selftests/mm: rename hugepage-* tests to hugetlb-*
-a9c0c65de38d4580f6206725ff34a5a71388a2c3 selftests/mm: hugetlb-shm: use kselftest framework
-2d11356219963f90fca175694ac057813f663f32 selftests/mm: hugetlb-vmemmap: use kselftest framework
-e912892b2dd08991186e54eee37bd7e584b1409a selftests/mm: hugetlb-madvise: use kselftest framework
-54b896c69c29ecd718a51e9c863a4ff96be40c9c selftests/mm: hugetlb_madv_vs_map: use kselftest framework
-15088b8202ccf144fe81195bfe4ed0a19d0d9b5f selftests/mm: hugetlb-read-hwpoison: use kselftest framework
-c349a1270e82b615f31c7da8eeaad34d373b809f selftests/mm: khugepaged: group tests in an array
-fcb0107bd5dca81fb9c6eadee902c3fd0d261d9c selftests/mm: khugepaged: use kselftest framework
-91760bd33a2bb8010c44df9135a4fecbb3102cc0 selftests/mm: ksm_tests: use kselftest framework
-9bac94bc5c77fb785ba88ce4d0f6c609e04182d8 selftests/mm: protection_keys: use descriptive test names in the output
-bd35c379212ff16aff40eed1d4e6554bebe28f17 selftests/mm: protection_keys: use kselftest framework
-b0061d50d4cada2f09716bca13b80b4e6ac56d4d selftests/mm: uffd-common: use kselftest framework
-6d90956e5f91b9d6929c586b01a6898cdd7c31e9 selftests/mm: uffd-stress: use kselftest framework
-5c9ffd969b2a4442a8558dfce1471531462f2668 selftests/mm: uffd-unit-tests: use kselftest framework
-273cb3c0cd450b7602729777404eb550fd6951b4 selftests/mm: va_high_addr_switch: use kselftest framework
-fbfc42fe7a546d1b0f8d2a089ff4487022b33a6a selftests/mm: add atexit() and signal handlers to thp_settings
-b27628f33a863db2e243299b928c4c3b5f9ff2b9 selftests/mm: rename thp_settings.[ch] to hugepage_settings.[ch]
-9e3b9c28578e72bcc9418245086f27b4cb6cff4f selftests/mm: move HugeTLB helpers to hugepage_settings
-53ee403c3cd47e62efcb49ff06a0c38ec30464c0 selftests/mm: hugepage_settings: use unsigned long in detect_hugetlb_page_size
-1bdb0ecb043ac2311614a0b75057bdc10e1f590c selftests/mm: hugepage_settings: add APIs to get and set nr_hugepages
-795ba5b15f4586b1182f6336e8c44a69618c515c selftests/mm: hugepage_settings: rename and rework get_free_hugepages()
-4b12575a6c87957408dce4100140482036d68091 selftests/mm: hugepage_settings: add APIs for HugeTLB setup and teardown
-3dcfe2f6afdbe0c4b1a3dc4a01ae01c1fe7d1afb selftests/mm: move read_file(), read_num() and write_num() to vm_util
-ec22e0dd839d6bf4cb9ae4812bb8fa193c1beac8 selftests/mm: vm_util: add helpers to set and restore shm limits
-1f8963a0f0dcb91defc0037e6379c7f3e6a961da selftests/mm: compaction_test: use HugeTLB helpers ...
-1f159e3ff53869993aed38afd733fe0b0571d98e selftests/mm: cow: add setup of HugeTLB pages
-3884297663c174b33288ca119d2ad16b3d45f38c selftests/mm: gup_longterm: add setup of HugeTLB pages
-56607370e17e1a98264a09889c3ef7303fd735f3 selftests/mm: gup_test: add setup of HugeTLB pages
-6b12e344720a8b55d090941b770da30d9427ce1a selftests/mm: hmm-tests: add setup of HugeTLB pages
-e0037944d4db98e7d0371afe5619097d2ed5c09b selftests/mm: hugepage_dio: add setup of HugeTLB pages
-57189d44878a07f962dce2917bc30d7123389f78 selftests/mm: hugetlb_fault_after_madv: add setup of HugeTLB pages
-9a1a4aa3554f874c9baa8f772b1cdaa5906a1545 selftests/mm: hugetlb-madvise: add setup of HugeTLB pages
-eeeb8f3831bca1d61d4b9629a126aeeeaa5b525c selftests/mm: hugetlb_madv_vs_map: add setup of HugeTLB pages
-fd830b09259c137cba3279afb937d88d96f0657c selftests/mm: hugetlb-mmap: add setup of HugeTLB pages
-0c50622011c1a539462d180f87d1cc517204dd18 selftests/mm: hugetlb-mremap: add setup of HugeTLB pages
-83efaccf084ac046c7f841602cede07976e2ab29 selftests/mm: hugetlb-shm: add setup of HugeTLB pages
-3db46125b91d2ff6b3bb161834f95b16bc2fe0b7 selftests/mm: hugetlb-soft-offline: add setup of HugeTLB pages
-9883b641a652adea0a6ecd26031c4e3823a5063f selftests/mm: hugetlb-vmemmap: add setup of HugeTLB pages
-6c6175be4bef78fd76e23761ac4e6185aa32614e selftests/mm: migration: add setup of HugeTLB pages
-069a81db8d1ce39ccd400709e8f6c63bf3570911 selftests/mm: pagemap_ioctl: add setup of HugeTLB pages
-4a0335b46acb1204512a6491cebd9ec6350197e4 selftests/mm: protection_keys: use library code for HugeTLB setup
-681610bde30b7acc2a13d78b6a4146e4ba308871 selftests/mm: thuge-gen: add setup of HugeTLB pages
-feb616a2baf2be68bbf7597e301e21afa9641b5b selftests/mm: uffd-stress: use hugetlb_save and alloc huge pages
-cf0e0c9e33ff22ac2017ac7345602a8667e3b2ce selftests/mm: uffd-unit-tests: add setup of HugeTLB pages
-27d56f9647dc137d5bb665a7c1b255af5b2b42f6 selftests/mm: uffd-wp-mremap: add setup of HugeTLB pages
-4eb8e147d0d668cefa69402a74d5d03072af5893 selftests/mm: va_high_addr_switch: add setup of HugeTLB pages
-3d182d3cd536b5cc06cc6d67da9ac979d4449cf3 selftests/mm: va_high_addr_switch.sh: drop huge pages setup
-74019da258fd020fd285a95c555b2b729a0ad597 selftests/mm: run_vmtests.sh: free memory if available memory is low
-aa0dd4c0c77c7b25718bf11a06be123beff07d5f selftests/mm: run_vmtests.sh: drop detection and setup of HugeTLB
-30424114b17dd65c098749cedcaef301c1dd2f86 mm/memory_hotplug: factor out altmap freeing checks
 
---===============8527301555479923167==--
+--===============8311068842004693149==--
