@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 12 May 2026 19:45:19 -0000
-Message-Id: <177861511947.277030.2852500047815036191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 12 May 2026 19:46:21 -0000
+Message-Id: <177861518100.277538.8376636598170830236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/testing/wfamnae-next20260507
-    old: 3f5086f83661760934067787b2935c0ef32441f4
-    new: e70529339a746e4aafd689784b021e5be97a16c7
+  - ref: refs/heads/driver-core-next
+    old: c393ef0741d4bb8848e3e1f77a66404eaf174298
+    new: 7eba000621fff223dd7bab484d48918c7c77a307
     log: |
-         10bfdb404b21226365efa63cf13cc00f01cf403d stddef: Document designated initializer semantics for __TRAILING_OVERLAP()
-         e70529339a746e4aafd689784b021e5be97a16c7 stddef: Fix kernel-doc/Sphinx warnings for __TRAILING_OVERLAP()
+         7eba000621fff223dd7bab484d48918c7c77a307 device property: initialize the remaining fields of fwnode_handle in fwnode_init()
          
