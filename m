@@ -1,46 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4426703445463160280=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 12 May 2026 15:22:36 -0000
-Message-Id: <177859935620.76602.16894729705935242453@gitolite.kernel.org>
-
---===============4426703445463160280==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 12 May 2026 15:27:24 -0000
+Message-Id: <177859964402.80433.1200039895455588491@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 3c74955937520e6aabc0ec921b1bfe01734c6abc
-    new: 730cc6f553ecaf8def4849018c411644ef46c72c
+  - ref: refs/heads/block-7.1
+    old: 1860c2f85922917d8a46f16a6f4bd2298ffa0fb5
+    new: 8582792cf23b3d94674d4d838f7cde9a28d0fcaf
     log: |
-         730cc6f553ecaf8def4849018c411644ef46c72c stddef: Document designated initializer semantics for __TRAILING_OVERLAP()
+         637ad3a56a3b889527d1dacea6fea2a8bd648140 block: don't overwrite bip_vcnt in bio_integrity_copy_user()
+         2c6e6a18a37b905cb584eb0dda3ae482162a81ca block: recompute nr_integrity_segments in blk_insert_cloned_request
+         8582792cf23b3d94674d4d838f7cde9a28d0fcaf block: bio-integrity: Fix null-ptr-deref in bio_integrity_map_user()
          
-
---===============4426703445463160280==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1778599354 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1778599343-7439c323351872be0792eafdc07375d1d9649bda
-
-3c74955937520e6aabc0ec921b1bfe01734c6abc 730cc6f553ecaf8def4849018c411644ef46c72c refs/heads/for-next/hardening
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCagNFuwAKCRA2KwveOeQk
-u/CJAP9Rf72qvd/+EBApI9361/8LABIBkqcFh51OmB8HYqa3AAEA47X2y5RkM9VI
-6TCYJrnVSpAZJe4MFXDobyfQS1iwUQE=
-=ivW4
------END PGP SIGNATURE-----
-
---===============4426703445463160280==--
+  - ref: refs/heads/for-next
+    old: 446d6aab1b13d13589ca45ccd928eb42db393ab7
+    new: c2020f57bec05e708ef3de3f6b22c7413dcd978f
+    log: |
+         637ad3a56a3b889527d1dacea6fea2a8bd648140 block: don't overwrite bip_vcnt in bio_integrity_copy_user()
+         2c6e6a18a37b905cb584eb0dda3ae482162a81ca block: recompute nr_integrity_segments in blk_insert_cloned_request
+         8582792cf23b3d94674d4d838f7cde9a28d0fcaf block: bio-integrity: Fix null-ptr-deref in bio_integrity_map_user()
+         c2020f57bec05e708ef3de3f6b22c7413dcd978f Merge branch 'block-7.1' into for-next
+         
