@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8118527371000495349=="
+Content-Type: multipart/mixed; boundary="===============5823307386334406902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 12 May 2026 09:58:05 -0000
-Message-Id: <177857988502.3922948.3116950935146909701@gitolite.kernel.org>
+Date: Tue, 12 May 2026 09:58:49 -0000
+Message-Id: <177857992986.3923409.2438486696010399082@gitolite.kernel.org>
 
---===============8118527371000495349==
+--===============5823307386334406902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,48 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: a59e45221df82e8a6246c617615c1ccc12e3545d
-    new: 2997606dd17729404cef9821ce66dd037b6019eb
-    log: revlist-a59e45221df8-2997606dd177.txt
+  - ref: refs/heads/for-next
+    old: 41354f4c8a791d3059f4355945e550693ac87ce8
+    new: 165e81354eefd5551358112773f24027aac59d5a
+    log: revlist-41354f4c8a79-165e81354eef.txt
 
---===============8118527371000495349==
+--===============5823307386334406902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1778579878 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1778579927 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1778579877-a92e1de8f016a59cc95b4c2c5ad7001e5958d751
+nonce 1778579926-45dd74d85f08e1d192505f40f9a19f9c5c98406f
 
-a59e45221df82e8a6246c617615c1ccc12e3545d 2997606dd17729404cef9821ce66dd037b6019eb refs/heads/fixes
+41354f4c8a791d3059f4355945e550693ac87ce8 165e81354eefd5551358112773f24027aac59d5a refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCagL5rAAKCRBZrE9hU+XO
-MUkMAP0Y+EAXzWWX36Tudf5qTNqmar3zIcfpZMBp5mNvqYfYugEA2v5RdT/N24yO
-XvqPTmIaJaTshxHo2IerM9MmRdxF7wk=
-=ldn5
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCagL52QAKCRBZrE9hU+XO
+MdbTAQDIo0dCHw/ca6TuKYlRPypKECUel5b6OYDDClsmcCefiAD/c4+aCWJvc7Ga
+LlnRfE0UKSrHkZ4j0nLvLtSjulp6ugk=
+=Ft/O
 -----END PGP SIGNATURE-----
 
---===============8118527371000495349==
+--===============5823307386334406902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a59e45221df8-2997606dd177.txt
+Content-Disposition: attachment; filename=revlist-41354f4c8a79-165e81354eef.txt
 
-0c3887a134f191723b53e2a47e501b534c8723ee platform/x86: lenovo-wmi-helpers: Fix memory leak in lwmi_dev_evaluate_int()
-55a279ae819adaea99a94c609f31970b70e0ec0c platform/x86: lenovo-wmi-other: Balance IDA id allocation and free
-2fe2504abcfa4f82a4208e8d0c21ec0f22baca43 platform/x86: lenovo-wmi-other: Balance component bind and unbind
-816fbd5dacee977ca56bab79bf97f71f2f7ac24e platform/x86: lenovo-wmi-other: Zero initialize WMI arguments
-71f3843e0f81e3c097a088c1121154bb9a44da0a platform/x86: lenovo-wmi-other: Fix tunable_attr_01 struct members
-e8d5460ad3fd22409f2566ecbe2c82d94aabc246 platform/x86: lenovo: Decouple lenovo-wmi-gamezone and lenovo-wmi-other
-7e27896e16a1c450085c3fe020eeb1b223880f37 platform/x86: lenovo-wmi-helpers: Move gamezone enums to wmi-helpers
-30a4ad208a7f7bdb790cd31d368595890045334f platform/x86: lenovo-wmi-other: Add Attribute ID helper functions
-03bb5147da083cb91e5c8c2599fcb2f8fd05cb8f platform/x86: lenovo-wmi-other: Limit adding attributes to supported devices
-2997606dd17729404cef9821ce66dd037b6019eb platform/x86: asus-nb-wmi: add DMI quirk for ASUS Zenbook Duo UX8407AA
+cc966553e6ff0849978b5754531b768b0ff54985 x86/platform/olpc: xo15: Drop wakeup source on driver removal
+75c7d3d76b78b568969316224c8ae25c0224cc9a x86/platform/olpc: xo15: Convert ACPI driver to a platform one
+5c44f48e91deefdd42e567a2779d331937c97cd0 platform: arm64: Add driver for EC found on Qualcomm reference devices
+3b95f36464ec161bcf14c5d1e5f9d5d5e9464582 platform/x86: pmc_atom: Use named initializer for pci_device_id array
+b2fc2c6ebbd2d49935c8960755d8170faead2159 platform/x86: xo15-ebook: Fix wakeup source and GPE handling
+826264e0b02dc856979bdd230d96969e93fe41ed platform/x86: xo15-ebook: Fix formatting of labels
+60e68011d8ecdb3071cc7713e05750e6b08aec12 platform/x86: xo15-ebook: Register ACPI notify handler directly
+b82c2e30cf8edca7052d020f278b461a0ef657c5 platform/x86: xo15-ebook: Convert ACPI driver to a platform one
+18bc6ce6bb618e1dff4473d7dd528d22519abbd7 platform/x86: sel3350-platform: Retain LED state on load and unload
+a3d0dbd18ce908292607bb6cf37c978ece8a33d4 platform/x86: panasonic-laptop: simplify allocation of sinf
+8ef6b01cee44803691c0a0c95b36f8ec710e2afb platform/x86/intel/vsec: allocate res with intel_vsec_dev
+165e81354eefd5551358112773f24027aac59d5a platform/x86: thinkpad_acpi: Add debugfs entry to display HWDD raw
 
---===============8118527371000495349==--
+--===============5823307386334406902==--
