@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4153703988215220459=="
+Content-Type: multipart/mixed; boundary="===============2189301414133444695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 12 May 2026 22:37:58 -0000
-Message-Id: <177862547886.405416.2255627686042612022@gitolite.kernel.org>
+Date: Tue, 12 May 2026 22:38:24 -0000
+Message-Id: <177862550477.405870.2419446242452471537@gitolite.kernel.org>
 
---===============4153703988215220459==
+--===============2189301414133444695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/ftrace/for-next
-    old: 93e8fd1a565eb5d0c0bbcb18d00095ad255b6ecb
+  - ref: refs/heads/latency/for-next
+    old: 4245bf4dc58f58b7042c29d7b04d4e403a0379bc
     new: 7fd2df204f342fc17d1a0bfcd474b24232fb0f32
-    log: revlist-93e8fd1a565e-7fd2df204f34.txt
+    log: revlist-4245bf4dc58f-7fd2df204f34.txt
 
---===============4153703988215220459==
+--===============2189301414133444695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93e8fd1a565e-7fd2df204f34.txt
+Content-Disposition: attachment; filename=revlist-4245bf4dc58f-7fd2df204f34.txt
 
 e2e0b826d37419536b91b25fa51ecc0565d27726 userfaultfd: introduce mfill_establish_pmd() helper
 b8c03b7f4558219ca09693b5fa4f5e068041d2c2 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
@@ -1051,4 +1051,4 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 
---===============4153703988215220459==--
+--===============2189301414133444695==--
