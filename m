@@ -1,46 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============9222400812495026796=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 12 May 2026 18:14:49 -0000
-Message-Id: <177860968917.210257.4604086442529187513@gitolite.kernel.org>
-
---===============9222400812495026796==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 12 May 2026 18:39:43 -0000
+Message-Id: <177861118313.228392.18446514216061238857@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 20d4f35fda77c129a3028863a73bb2756f062372
-    new: 1512180ea8f4504f342e67437bc1728deb7df395
+  - ref: refs/heads/hwmon
+    old: 5d6919055dec134de3c40167a490f33c74c12581
+    new: f06035ab324e52a845079c2e5f2380fa3cebde9b
     log: |
-         1512180ea8f4504f342e67437bc1728deb7df395 Resigned keys from FF98A38DA80834DA
+         793d2a057f7e7bc647c5401413f7bf7d4f08b969 hwmon: (acpi_power_meter) Check ACPI_COMPANION() against NULL
+         f06035ab324e52a845079c2e5f2380fa3cebde9b hwmon: (asus_atk0110) Check ACPI_COMPANION() against NULL
          
-
---===============9222400812495026796==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1778609688 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1778609688-60a7c190e57e6efcfca712a8da1cef2050150c18
-
-20d4f35fda77c129a3028863a73bb2756f062372 1512180ea8f4504f342e67437bc1728deb7df395 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCagNuGAAKCRC2xBzjVmSZ
-bNztAP4mF77WIJRW2p51ubAaxGNbeOy6NxtL7bFvqkPIMEAp1AEAkYLqvD8Jf6kp
-jmwAgCO1+nejuOLp0b5el5IRR1M/Kwk=
-=74MO
------END PGP SIGNATURE-----
-
---===============9222400812495026796==--
+  - ref: refs/heads/hwmon-next
+    old: 4853839232e719842e19f8bb7b84d310b7e68e42
+    new: 55ea5d62974311ef7a34a70a5e512ab72c0c4f56
+    log: |
+         165592cc672e74ea28b137ed7124775140920330 hwmon: (pmbus/mp2869) Remove unused driver data
+         55ea5d62974311ef7a34a70a5e512ab72c0c4f56 hwmon: (pmbus/mp2869) Drop unjustified __maybe_unused
+         
+  - ref: refs/heads/watchdog
+    old: dfead2ca1592bf1a987eb42daa883473721d1193
+    new: 367937951ffcaf5bd02c446c443407dfe8877886
+    log: |
+         367937951ffcaf5bd02c446c443407dfe8877886 watchdog: ni903x_wdt: Check ACPI_COMPANION() against NULL
+         
