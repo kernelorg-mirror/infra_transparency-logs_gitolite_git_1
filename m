@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 12 May 2026 19:48:49 -0000
-Message-Id: <177861532991.278700.11095625094788150892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 12 May 2026 20:03:06 -0000
+Message-Id: <177861618633.289322.14514514299309199108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 25bb05dd06ccffd209c26465f84851f1fd344c8c
-    new: 6318f11d53a3caabea5337ccf83612e52d1bd55a
+  - ref: refs/heads/bleeding-edge
+    old: 058e4d5b32310dd86599cf20911bae0a01c05a0c
+    new: 08703536d5f6def3e4e6ebeefedf2dac241e4ca1
     log: |
-         f28771c0691bcb7f477a0f35550b17b88c32dea8 bpf: Extend BPF syscall with common attributes support
-         b1bff40809429bcf80c201255a2bcdf1c5eec06e libbpf: Add support for extended BPF syscall
-         503c039ffeca7530ce9d6446a07b4bb776180b45 bpf: Refactor reporting log_true_size for prog_load
-         ac89d33fdd8183df39fe92ffa525be7af6feb9d1 bpf: Add syscall common attributes support for prog_load
-         ceeb7eda94a3548958b30818495ef7eb12898727 bpf: Add syscall common attributes support for btf_load
-         49f9b2b2a18c5ce06b21fc2b3399352d80dee0c6 bpf: Add syscall common attributes support for map_create
-         702259006f9303c8773f99a06d1b698f05f082ac libbpf: Add syscall common attributes support for map_create
-         f675483cac1d762e11f134be1bbd80f876bf2e2f selftests/bpf: Add tests to verify map create failure log
-         6318f11d53a3caabea5337ccf83612e52d1bd55a Merge branch 'bpf-extend-bpf-syscall-with-common-attributes-support'
+         8c5281c91e1f6c719ee6db9e18ef5efb618425e7 thermal: core: Remove dead code from two functions
+         9e12b7be7f051f639b79a8c449c81519c975cd50 thermal: core: Simplify unregistration of governors
+         a298d2441a3bb01dfb4ca09b7f4270245171c432 thermal/core: Add dedicated release callback for cooling devices
+         a2d46c527a316ef3d880a8f47d20b9813af1087b thermal/core: Add dedicated release callback for thermal zones
+         f03076706fe57745069b3569a7d54d49a6a0cb05 thermal/core: Allocate the thermal class dynamically
+         3c039ba8f9a38b7f29f6a82e7d039e3f28a90d2c thermal/core: Use the thermal class pointer as init guard
+         75fd93cb74f9f7cfba55eefbdda3af4c0deeba05 thermal: hwmon: Fix critical temperature attribute removal
+         58cd4f32fdee9921ae3540c762b4af7ad67ddcef thermal: hwmon: Register a hwmon device for each thermal zone
+         902c7d02a1960c2479e46af7801eac622dba82c1 thermal: hwmon: Use extra_groups for adding temperature attributes
+         08703536d5f6def3e4e6ebeefedf2dac241e4ca1 Merge branch 'thermal-core' into bleeding-edge
          
