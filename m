@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Tue, 12 May 2026 15:58:57 -0000
-Message-Id: <177860153719.103441.7980108515969496965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 12 May 2026 16:21:18 -0000
+Message-Id: <177860287842.120829.3702819274105435848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/linux-next
-    old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: 00951dad37791e4ccb4d789be80370f48a6c51aa
+  - ref: refs/heads/master
+    old: 72156dca3d41df7d05ea4e5a4e59623c2d393a92
+    new: 3ea531dfc54aaccb6a5846f37e6cfefedd7ff60e
     log: |
-         11f152c0acaa924d93339000cb785d34e003aff5 xen/arm: Replace __ASSEMBLY__ with __ASSEMBLER__ in interface.h
-         99cf26a6143c22ee6c5b940a0e5e027a99e5524a x86/asm, x86/boot: Expose inline memcmp
-         41a8ae18f561199f2480597695ba5909816caf4c x86/cpuid: fix unbootable VMs by really inlining memcmp() in hypervisor_cpuid_base()
-         a77eb86f5f24dba3579caebdb30e8d2d9dd948a1 x86/pvh: fix unbootable VMs by really inlining memset() in xen_prepare_pvh()
-         00951dad37791e4ccb4d789be80370f48a6c51aa x86/xen: Fix xen_e820_swap_entry_with_ram()
+         95b7f86508c1e76449d4c52623e7a9dff415360e t/io_uring: add --hugetlb option for hugetlbfs IO buffers
+         3ea531dfc54aaccb6a5846f37e6cfefedd7ff60e Merge branch 't_io_uring_htlb' of https://github.com/ming1/fio
          
