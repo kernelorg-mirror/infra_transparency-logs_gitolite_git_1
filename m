@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 12 May 2026 13:07:29 -0000
-Message-Id: <177859124939.4133532.2714185050975939700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 12 May 2026 13:10:30 -0000
+Message-Id: <177859143099.4154601.12249886399875716555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 2e53310a66d884cf4e236c2e8750a29dda62eaa9
-    new: 804a8844e9a92ab1352918bba215b5a6e101cca8
+  - ref: refs/heads/master
+    old: 5d06b77ceee7f02478998fd7b7e5c8e5c44633ee
+    new: 1cb08177bfe32102bc0bfac6a3160d8c7b8f7e07
     log: |
-         804a8844e9a92ab1352918bba215b5a6e101cca8 Notes added by 'git notes add'
+         1cb08177bfe32102bc0bfac6a3160d8c7b8f7e07 tests: (getino) skip namespace subtests when unshare is not supported
          
