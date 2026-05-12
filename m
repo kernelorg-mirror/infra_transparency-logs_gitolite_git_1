@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3313016553254494067=="
+Content-Type: multipart/mixed; boundary="===============7570340330142932732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 12 May 2026 09:41:50 -0000
-Message-Id: <177857891041.3910915.11006262826401303962@gitolite.kernel.org>
+Date: Tue, 12 May 2026 09:42:11 -0000
+Message-Id: <177857893179.3911243.16617507363900178274@gitolite.kernel.org>
 
---===============3313016553254494067==
+--===============7570340330142932732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,77 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: 514ab98364595007d4557ecc85d7e5f012c504d3
-    log: |
-         514ab98364595007d4557ecc85d7e5f012c504d3 staging: rtl8723bs: fix buffer over-read in rtw_update_protection
-         
+  - ref: refs/heads/staging-next
+    old: ea09c82fbc53aad867541cd2f0bde96c6b228ba0
+    new: 6abf0b2df0b1c2205a4c0591425e6461afa62edb
+    log: revlist-ea09c82fbc53-6abf0b2df0b1.txt
 
---===============3313016553254494067==
+--===============7570340330142932732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778578907 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778578931 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1778578907-3b61a54c1936020d0f4f8d9c6093e065a3ee9760
+nonce 1778578930-fa65adb4e9d186fc74517b6f91386ae6d25e68c9
 
-5d6919055dec134de3c40167a490f33c74c12581 514ab98364595007d4557ecc85d7e5f012c504d3 refs/heads/staging-linus
+ea09c82fbc53aad867541cd2f0bde96c6b228ba0 6abf0b2df0b1c2205a4c0591425e6461afa62edb refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoC9dsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s0wQAIWFqfhciOqdrtFU+KLq
-k+ztIAhe6x+WYph06SZIzQPuCldBniwTIuHCQvpofVUSYdvsxbtcuTZyhF2FonmR
-mKheTWj5LGgi5H80t0ZoXD25pKLqNYKM7Ah4oNImlmb2OjeFy9BeW9MnQKC0I+hQ
-VwMAUq2Yk/dLRK4RWMFjiWXjhmKUt0qN/LqbLd4NlghYlR3ofRPCJeIdY4eM565U
-PndoIBKSCY+1fNn0PnJe3uF8uifvq21h3hEb0gONQJMjpvWlB/KTQe+6FRgmKMaS
-dvi77r+F5L9ap4nI0vSCfB0Yc7c1V3vbe+mnuVtNR/CCkdJvt4ut2EByDcrcexpp
-/c4cCyFhyr/Q2tOL/lQBzDiiGRoKnAziD2tTifMlq1d6d36lppU8oSxQwkHcLAph
-sB55zGqn1ZsYPCwd2lcHT2dGpQ/loaTX70w9xxGPD2f5r2bk0fesXtD8W6oj2QfP
-Hl2HGF+6qlaJMWRtF2Dh9Ll1bTjdWa1zLFPyexY/OFJiOOS5CpXwTqrR8SKxnrL9
-jiCow4nHE7B3Y0QNSWmGL74mNLD3/C5oumh9OYBpU3LY+PO8CGp9ly70dkM8CnnX
-AjMu+7ysKv0vu5EVsJ3lnnv0BxkHarwMWvDM4cu5tJC2S1yb+pC7S4Siu59I8qHr
-1jy+ejV2UwQvAVD9c8NS4sVB
-=sajW
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoC9fMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AVsQAK4OiUIc5YBFlzBVOKnj
+fKAX59WX9at/MNDgpVsV+W4LWQpmuS4dxLG7yy73YiS6P96KDCHyZnLhGVQP3MCi
+OY2Tjbyc7awKPK+cJLdFjhPAdRZzu6Q/tEQtp1I6JNaZP+VTtXgfZZGfsGErhsld
+nKXKf5//I+SXg3pcARJ66N4eJW1BBhS+oUGtuig/oUdadFM6E8cIMiWWsFFpwOmn
+qI1j1LMJ+jtfRUUxVurzHe+RxAEXMImYfGRtEHJ+f30jw0ftJ9cUFChzFK+s8+3e
+oSobEYJnygPfW2wIup9hN5av5Nm5baQIZWD5ya77BksJAKrX6lyNZ9+6SJtf67PH
+U2ASUrHnAprvsHm56ooMOy2rDEDaza6uQb6JqoZShedOpaJPfuCwIPJkgG9HckEV
+AR4KJEXqck/+IIFHLI1BWfbxO7QLqTrHDMrFD85p6RpY75Gwq+aEPadRnSTXL8c8
+5Oqaru+v7CQqSWKTXqKcJrJURwA5lhs8ugEfuuNKpjFlcUmcZi2j2kBWey+wkfhe
+hDdLGZlQ6RKgRHk7W96o5o0udkTZAZoKT7LhEGuBozk+tt9rp9UDGB36AlR/eO76
+4HgmyIK9OUtbdNFZ/B0oDX77e3Nwe1jTMy+w7iE5xzRaLKKgiuXd7FXKMrHdS3mu
+iQK/vO7XGLu36EEJsV4D3Bf5
+=a5q+
 -----END PGP SIGNATURE-----
 
---===============3313016553254494067==--
+--===============7570340330142932732==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ea09c82fbc53-6abf0b2df0b1.txt
+
+718fc81de0cfd3751465062deda01b8ec5560d00 staging: vme_user: remove unnecessary NULL initialization before list iteration
+9bfa3674d9632648db96b5a883ee4209a9213333 staging: vme_user: simplify boolean comparisons
+bd2e75c827340bb91a5ce7056402779e26938424 staging: sm750fb: remove unnecessary initializations
+a5b28f0d8f7c323d3e2184599f438f01af3308a8 staging: most: net: replace pr_err with netdev_err
+f50b4602fea62feb7757ad479041e9436f1de361 staging: sm750fb: rename CamelCase variable and drop prefix
+45a337c12624fc0506a35beb713a6b8bce7a7c7b staging: sm750fb: change 2 CamelCase variables to snake_case
+0551fd8a1ce2e2fdfb6c0f69b096555053cf3af9 staging: rtl8723bs: remove unnecessary block comment
+99b168d35438e2b609a3486ca2fa3f099f9adf9e staging: rtl8723bs: remove commented out enum values from odm_types.h
+b325af6c49c7998f558255e1bfabc19c50ac1bd3 staging: rtl8723bs: fix block comment alignment in hal/ header files
+acfb6a467f63985ca1ac2d36355efb9d48e7ce52 staging: rtl8723bs: fix block comment alignment in hal/ source files
+87480e2a97c0ecbb471b2fa8c1864d9b997c590f staging: rtl8723bs: move block comment terminator to new line
+23fe711a431ddc178549f0e931d01bee7554b4a7 staging: rtl8723bs: remove commented out code from odm.c
+ec09be88d1a33afd3e4d1bbbe7963cc25dffe031 staging: rtl8723bs: remove unnecessary blank lines in rtw_recv.c
+d7d9af4cc305d6f5a59c05d167d56d4564be7c84 staging: rtl8723bs: Replace uint with unsigned int in core
+c87a4d3344094ddac866b2a02397d26817c3a647 staging: rtl8723bs: remove unnecessary braces
+3fb7c93716d36395ffec52d4c2d50f85fd5b451c staging: rtl8723bs: Replace __attribute__((packed)) with __packed in wifi.h
+b36ddb456fe18696dca7aeb11e4936d55446f8a0 staging: rtl8723bs: Replace __attribute__((__packed__)) with __packed in rtl8723b_hal.h
+cade7188314e922edb43bcd3e5b60f005ff5ea9b staging: rtl8723bs: Remove multiple blank lines in include headers
+9f9ed6afa6e45bea9906c87086b353877f6b5083 staging: rtl8723bs: Replace __attribute__((packed)) with __packed in ieee80211.h
+8ba61dec20e56883bc782c8f062b2362432a5774 staging: rtl8723bs: Fix block comment style in ieee80211.h
+6caa63431a2a2dcab3256148c88ab893eb7ccf0d staging: rtl8723bs: remove unused DBG_FIXED_CHAN code
+7493412df4ec2eb38d78570aeceed30d9df07cb6 staging: rtl8723bs: remove unused DBG_RX_DUMP_EAP code
+d7d9eda56b1e6a5889199aab9fb10005fb38a477 staging: rtl8723bs: remove unused CONSISTENT_PN_ORDER code
+a9142fdd5898dfc5ff949ba7a9825c92ee1c3764 staging: rtl8723bs: remove unused DBG_CH_SWITCH code
+c91429207162d146d5e6bed5836f9c4f5ea625e6 staging: rtl8723bs: remove unused REMOVE_PACK code
+1ea2b0b62b336e287f4c893b2e404f0f0c56144a staging: rtl8723bs: remove unused RTW_DVOBJ_CHIP_HW_TYPE code
+4fc90c9f94984adbce00cc42d3746d00df51d103 staging: rtl8723bs: remove unused RTW_MLME_EXT_C_ code
+acda662a0aa3c4f8bd6f1820b7c08ef0ebd501b9 staging: rtl8723bs: remove commented out code in rtw_mlme_ext.c
+3a7def187dcd8b004c99dc00b7b8e40072eefe7e staging: rtl8723bs: simplify if-else blocks in rtw_mlme_ext.c
+6a620bb2f4c1b40d9240b86bfc8e893eec876c8b staging: rtl8723bs: replace non-standard BITn macros with BIT(n)
+6abf0b2df0b1c2205a4c0591425e6461afa62edb staging: rtl8723bs: fix type issue in DYNAMIC_BB_DYNAMIC_TXPWR
+
+--===============7570340330142932732==--
