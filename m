@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Tue, 12 May 2026 08:23:02 -0000
-Message-Id: <177857418232.3849902.6168925985118679694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Tue, 12 May 2026 08:28:18 -0000
+Message-Id: <177857449838.3853874.13559729982894414859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
   - ref: refs/heads/master
-    old: 838893724a780554c3e73110d8b06294140ad0e3
-    new: edb119b465853321fd5f7b60bf08029c5107c607
+    old: 433c3c7f7ec72ddc66860b34b8f0d1f68bd1a184
+    new: 78d5ae119742e87baa7dbe0f5c4107e7533fd698
     log: |
-         edb119b465853321fd5f7b60bf08029c5107c607 pcilmr: Add PCIe Gen 6 (64 GT/s) support
+         78d5ae119742e87baa7dbe0f5c4107e7533fd698 openvt: make -u process matching more conservative
          
