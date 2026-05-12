@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 May 2026 00:32:16 -0000
-Message-Id: <177854593650.3503364.13357668507502423902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 12 May 2026 00:43:06 -0000
+Message-Id: <177854658667.3510803.2503448980787317852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: e174929793195e0cd6a4adb0cad731b39f9019b4
-    new: 24a08d7d6218d60c033015cf4870b6096446e734
-    log: |
-         24a08d7d6218d60c033015cf4870b6096446e734 net: ena: PHC: Check return code before setting timestamp output
-         
+  - ref: refs/heads/sasha-msgs
+    old: 1bf5948edf894b0c3c1c54a43e47cbbbe21289e4
+    new: 0000000000000000000000000000000000000000
