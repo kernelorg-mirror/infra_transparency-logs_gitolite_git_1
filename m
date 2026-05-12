@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 12 May 2026 11:01:07 -0000
-Message-Id: <177858366741.3972454.13498557978826211663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 12 May 2026 11:02:20 -0000
+Message-Id: <177858374068.3972927.12482881660854706562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/main
-    old: 911f54771ca97947cfdca360e9e9b4147a330740
-    new: 93d809adc13001e9d3a3ceb8d1e60fae2fb740d6
+  - ref: refs/heads/for-next
+    old: 857737787c1e62913a2269c6a226ebdf0479f971
+    new: 2770cd4c7af7240b295773f696b4c9aff311f180
     log: |
-         5f344d809e015fba3709e5219428c00b8ac5d7df vsock/virtio: fix length and offset in tap skb for split packets
-         3a3e3d90cbc79600544536723911657730759af3 vsock/virtio: fix empty payload in tap skb for non-linear buffers
-         93d809adc13001e9d3a3ceb8d1e60fae2fb740d6 Merge branch 'vsock-virtio-fix-vsockmon-tap-skb-construction'
+         e7f57d2c47e265ef64e1dab84fc8f70dae2dd150 dm-inlinecrypt: add target for inline block device encryption
+         076da6be28f9093e580207b5f69cb9bb9a3bfa4c dm: add documentation for dm-inlinecrypt target
+         ddc740b63e5593d741082f78e1da9107664d9adf dm-inlinecrypt: initialize blk-crypto key as HW-wrapped key
+         2770cd4c7af7240b295773f696b4c9aff311f180 dm-ioctl: report an error if a device has no table
          
