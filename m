@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 12 May 2026 12:07:25 -0000
-Message-Id: <177858764531.4062280.10299767898137000885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 12 May 2026 12:08:22 -0000
+Message-Id: <177858770271.4062845.1179531540586896461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/controller/qcom
-    old: 0000000000000000000000000000000000000000
-    new: 44ec2e81ab3758718105b62cb8623060c0aca7bb
+  - ref: refs/heads/for-next
+    old: 87e63466c9fc30c3d95b8741c3df1f1ff01d7f23
+    new: 509fdeb3326be0db055e88d0f689a3888f147f90
+    log: |
+         5082d8835070fe63f3c61fe574cbb5319bd94575 xfs: fix the "limiting open zones" message
+         509fdeb3326be0db055e88d0f689a3888f147f90 xfs: Fix typo in comment
+         
