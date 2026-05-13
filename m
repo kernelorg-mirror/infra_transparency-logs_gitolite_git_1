@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 13 May 2026 02:09:41 -0000
-Message-Id: <177863818188.569295.16519658916364120244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 13 May 2026 02:20:53 -0000
+Message-Id: <177863885354.579016.6661741825972077704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/main
-    old: f9e2342046ef1560d35bcd4a4b1197648ffd151d
-    new: f5b2772d14884f4be9e718644f1203d4d0e6f0d6
+  - ref: refs/heads/for-next
+    old: 422072b8bd4fea650d549929861b0cba55f33429
+    new: 51dcff9796fd486d7abf01081ca62e4072789e9d
     log: |
-         a3fdd924d88c30b9f488636ce0e4696012cf5511 net/smc: fix sleep-inside-lock in __smc_setsockopt() causing local DoS
-         7bf563badd37cb796df5477d2b78bb64148a1268 net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint
-         3d042592ebd4c7e44974d556de0b727cb7db4dab ethtool: fix ethnl_bitmap32_not_zero() bit interval semantics
-         f5b2772d14884f4be9e718644f1203d4d0e6f0d6 net: ethernet: ravb: Do not check URAM suspension when WoL is active
+         8a4a217f617b1ac2f8c095f33efd67d947ddb2cf platform/chrome: chromeos_privacy_screen: Check ACPI_COMPANION()
+         c15dbae7c856fb53cc6ffb86c6c64ebb816d07c8 platform/chrome: chromeos_tbmc: Check ACPI_COMPANION()
+         51dcff9796fd486d7abf01081ca62e4072789e9d platform/chrome: wilco_ec: event: Check ACPI_COMPANION()
          
