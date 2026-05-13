@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3812235050946520958=="
+Content-Type: multipart/mixed; boundary="===============7692035028809784068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Wed, 13 May 2026 21:08:53 -0000
-Message-Id: <177870653394.1473152.13053763232945887888@gitolite.kernel.org>
+Date: Wed, 13 May 2026 21:08:57 -0000
+Message-Id: <177870653736.1473348.14422056331541663844@gitolite.kernel.org>
 
---===============3812235050946520958==
+--===============7692035028809784068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 027be1e3d20125b338581e7e32629741888609c4
+  - ref: refs/heads/dev-queue
+    old: a3c0473208eb204624a38fd6ebc8dad8c33f2b05
     new: b3ed53e0cb528221d9e21b7842846c3ae3db7512
-    log: revlist-027be1e3d201-b3ed53e0cb52.txt
+    log: revlist-a3c0473208eb-b3ed53e0cb52.txt
 
---===============3812235050946520958==
+--===============7692035028809784068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-027be1e3d201-b3ed53e0cb52.txt
+Content-Disposition: attachment; filename=revlist-a3c0473208eb-b3ed53e0cb52.txt
 
 f233a517c46eae6c0e542e584d23a4542a47ee42 amdgpu: update aldebaran firmware
 baa74997c0816526ab971f05bfe33f666e57b640 amdgpu: update renoir firmware
@@ -104,4 +104,4 @@ d2e0a05bbbd1db311383369ddb84bd80e09969ed qcom: Add cdsp1r.jsn for sa8775p platfo
 1290919565f9428f1fb0b8eba5138d30dd16ed07 lt*_fw.bin: move to Lontium subdir
 b3ed53e0cb528221d9e21b7842846c3ae3db7512 Merge branch 'lontium' into 'main'
 
---===============3812235050946520958==--
+--===============7692035028809784068==--
