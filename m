@@ -1,51 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============9176390678627962354=="
+Content-Type: multipart/mixed; boundary="===============7375227218737505643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 13 May 2026 01:28:50 -0000
-Message-Id: <177863573038.537182.16392658437992968829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 13 May 2026 01:30:30 -0000
+Message-Id: <177863583027.540198.17325400173791650529@gitolite.kernel.org>
 
---===============9176390678627962354==
+--===============7375227218737505643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.1
+  - ref: refs/heads/for-linus
     old: 4bacec2317527ba04b7172145848f1c206999ea1
     new: 5e121a81667a83e9a01d62b429e340f5a4a84abc
     log: revlist-4bacec231752-5e121a81667a.txt
+  - ref: refs/heads/for-next
+    old: fe46080cc0a73b05b1fb6a18dc519664999cb0be
+    new: f850dc86c6c312a394c4b227d47964b10f00893c
+    log: |
+         5e121a81667a83e9a01d62b429e340f5a4a84abc spi: ep93xx: fix error pointer deref after DMA setup failure
+         f850dc86c6c312a394c4b227d47964b10f00893c Merge remote-tracking branch 'spi/for-7.2' into spi-next
+         
 
---===============9176390678627962354==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1778635728 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1778635727-4cef81b5c65dfb949b434b4e9479945a15264f7e
-
-4bacec2317527ba04b7172145848f1c206999ea1 5e121a81667a83e9a01d62b429e340f5a4a84abc refs/heads/spi-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoD09AACgkQJNaLcl1U
-h9C7MAf9F/tqCyLkLb+Zo26S2qoo15lXFxGoS9kCYpcTJCQwHtvmwDDRkduM6VFw
-xHOxU16WFuFQ3Ce1OS7v6kEwHdbjuHm30PDnU8hLswNn93m8Hex0GRBsJRcbXGAA
-WzKtukhPr2lQ0P+/dkIBtan0iBOnU+c2B5juIXJM6Xvsc6gIuvMZkBja4kNZD4Pu
-cCXc6jlf0IPTh9e5IeyQl62QtGd7LMk0nfmSS1OpWvMirOUZ+Pj+TbAwZkZ/sPiC
-zdarpiHi9bT3KpWOSxsZq/ZLxT4ODrr65plXwd/DKSxHRMRVg1ZkllqpdMPeco0n
-CbrBhw7GPh9fkFbn4pgMat22++ZjVg==
-=+NvP
------END PGP SIGNATURE-----
-
---===============9176390678627962354==
+--===============7375227218737505643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -628,4 +610,4 @@ afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 5e121a81667a83e9a01d62b429e340f5a4a84abc spi: ep93xx: fix error pointer deref after DMA setup failure
 
---===============9176390678627962354==--
+--===============7375227218737505643==--
