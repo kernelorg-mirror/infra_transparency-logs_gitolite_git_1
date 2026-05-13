@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2905056135286310815=="
+Content-Type: multipart/mixed; boundary="===============5855906188194868110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 13 May 2026 21:52:46 -0000
-Message-Id: <177870916687.1505974.10725612612306728018@gitolite.kernel.org>
+Date: Wed, 13 May 2026 21:52:50 -0000
+Message-Id: <177870917026.1506091.17410849790083305942@gitolite.kernel.org>
 
---===============2905056135286310815==
+--===============5855906188194868110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 5d6919055dec134de3c40167a490f33c74c12581
-    log: revlist-254f49634ee1-5d6919055dec.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: beec6b0a30da08f4d872736e1261f1213da82da6
+    new: 26c647b71880b588630676f776ea76875f1adb59
+    log: revlist-beec6b0a30da-26c647b71880.txt
 
---===============2905056135286310815==
+--===============5855906188194868110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-5d6919055dec.txt
+Content-Disposition: attachment; filename=revlist-beec6b0a30da-26c647b71880.txt
 
-41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
 c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
 a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
@@ -1050,5 +1049,6 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
+26c647b71880b588630676f776ea76875f1adb59 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============2905056135286310815==--
+--===============5855906188194868110==--
