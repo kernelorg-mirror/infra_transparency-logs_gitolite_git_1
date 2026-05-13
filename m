@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8480881556253990186=="
+Content-Type: multipart/mixed; boundary="===============1511997431338872651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 13 May 2026 05:43:14 -0000
-Message-Id: <177865099440.725519.6161991332669594730@gitolite.kernel.org>
+Date: Wed, 13 May 2026 05:43:16 -0000
+Message-Id: <177865099665.725630.2197209533403088763@gitolite.kernel.org>
 
---===============8480881556253990186==
+--===============1511997431338872651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 30424114b17dd65c098749cedcaef301c1dd2f86
-    new: 2c3f468717231305523ddcd94d91c0d5e4a72419
-    log: revlist-30424114b17d-2c3f46871723.txt
+  - ref: refs/heads/mm-unstable
+    old: 972c53e0ec3abfc6f5fe2cb503640710fb23cf95
+    new: e34b9050cc8ac5a1cf5c5ecc29eb7339b2354a82
+    log: revlist-972c53e0ec3a-e34b9050cc8a.txt
 
---===============8480881556253990186==
+--===============1511997431338872651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30424114b17d-2c3f46871723.txt
+Content-Disposition: attachment; filename=revlist-972c53e0ec3a-e34b9050cc8a.txt
 
 8fe04b1b7fa633c4574e21fc21027a4dd0e58d0a mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
 e198585bc96be6dc55e9ce51e73f6c19bb885421 mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
@@ -234,92 +234,5 @@ b9f3ab6279e23b576e4ede9c680a33596e0a31c9 mm/swap: add cond_resched() in swap_rec
 a5330ec63027efaa958a2bba7bd5b703c0fb151b mm/swap: remove redundant swap device reference in alloc/free
 d93a4de34245050331b02d3fd4d9149065de948d mm/swap, PM: hibernate: atomically replace hibernation pin
 e34b9050cc8ac5a1cf5c5ecc29eb7339b2354a82 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
-b1a07381d4ea138b5addad409edabeed889d3f4c selftests/mm: hugetlb-read-hwpoison: add SIGBUS handler
-f9cf3f99a9c2e707b7d812110cfb3c0e472bbb13 selftests/mm: migration: don't assume huge page is TWOMEG
-28b7c1922ffbf5c260d21e6213bc54f58e07a936 selftests/mm: migration: make nthreads represent number of working threads
-1d4cf8059a65ef7657094b332697bbedaec1f683 selftests/mm: migration: properly cleanup fork()ed processes
-cf5a8c7234f988d398dc672d80c229cc09a936c1 selftests/mm: run_vmtests.sh: don't gate THP and KSM tests on HAVE_HUGEPAGES
-15657c0e7f3bfb894a0cc1163b85c8c3767222c0 selftests/mm: merge map_hugetlb into hugepage-mmap
-7cdc5ae7e0c06d475fe91556f3cbc1cebce0e566 selftests/mm: rename hugepage-* tests to hugetlb-*
-3d6819747b1d4990dc97aafdacfd8074c2ff6da2 selftests/mm: hugetlb-shm: use kselftest framework
-8a42568e99408dd82778bae5976f0b7f2b31a71b selftests/mm: hugetlb-vmemmap: use kselftest framework
-e0b97b8e50e7cc12a1d73f5569901d2103866cd8 selftests/mm: hugetlb-madvise: use kselftest framework
-8c14ebf9730a7c791f4be83c616ac2930cac0d0d selftests/mm: hugetlb_madv_vs_map: use kselftest framework
-8e5f198a14bc4f10c28b25cb1474daa5ee3543c2 selftests/mm: hugetlb-read-hwpoison: use kselftest framework
-453091d67cba115216b169b6d5d2215ba40e18cc selftests/mm: khugepaged: group tests in an array
-45b1dabcdde89b7fe501861e52bbf56f439c9eeb selftests/mm: khugepaged: use kselftest framework
-01200b18b2562ff5d3c23fe1a5df273fb0bd7b68 selftests-mm-khugepaged-use-ksefltest-framework-fix
-efade2d7bd7a66da0c603daa6ba2dadb5d5631db selftests/mm: ksm_tests: use kselftest framework
-83673916a9ee1e25a9eacc8a115a77bdfe52424f selftests/mm: protection_keys: use descriptive test names in the output
-2be379286a9317c3aeaf532ebf958626b4430fd6 selftests/mm: protection_keys: use kselftest framework
-f1203070513bc29ab0d496d08cacf4bf03e4988a selftests/mm: uffd-common: use kselftest framework
-00db62c9503664465a621a48893ef4dbcc997952 selftests/mm: uffd-stress: use kselftest framework
-97d30c3f6a1556b25b2bb294dc26bf9ab83b4a18 selftests/mm: uffd-unit-tests: use kselftest framework
-fe0b95b335b1f80d8dfaad871fb78724d4ac77dc selftests/mm: va_high_addr_switch: use kselftest framework
-c57a09da15440949233242ea0946978a4daa0740 selftests/mm: add atexit() and signal handlers to thp_settings
-eb033b158588426ec543fbde70aa0d633a023d9f selftests/mm: rename thp_settings.[ch] to hugepage_settings.[ch]
-c1c6353eb4ce20eaeaf4b4a477831e6d76ac36f3 selftests/mm: move HugeTLB helpers to hugepage_settings
-7a7286870c253ccdc885396d4f891d159b949ade selftests/mm: hugepage_settings: use unsigned long in detect_hugetlb_page_size
-db2bdb4ceab554ef390682363da7bb1a9c465bea selftests/mm: hugepage_settings: add APIs to get and set nr_hugepages
-890db925a225850a728a6c42283942e5b35c365e selftests/mm: hugepage_settings: rename and rework get_free_hugepages()
-7d60f129d6205958005d546523da911650b4e7bd selftests/mm: hugepage_settings: add APIs for HugeTLB setup and teardown
-6903bec1160e13536f01ac3840bc282eeedd4ddc selftests/mm: move read_file(), read_num() and write_num() to vm_util
-99a7cd11c265d473f2f50c90f1828cc9d3cfe919 selftests/mm: vm_util: add helpers to set and restore shm limits
-dd24bdb9668675377f19442c798722c8ada55f8a selftests/mm: compaction_test: use HugeTLB helpers ...
-efa3ea9e5e350a66fbf9c35ce06173ea714dfec6 selftests/mm: cow: add setup of HugeTLB pages
-456bd630a18283ff5f087308668ad0bc0cdd97c4 selftests/mm: gup_longterm: add setup of HugeTLB pages
-5d6e24924747a081caafd9e6e40cd37af7ff6ae9 selftests/mm: gup_test: add setup of HugeTLB pages
-975ed03e8b23ad9bc32a6ce2eff4fec3ba1bd50b selftests/mm: hmm-tests: add setup of HugeTLB pages
-c1f6136b9588ad0e2bcd35572172e5dc6ad5326d selftests/mm: hugepage_dio: add setup of HugeTLB pages
-2ca436ae741f7c2f3b25406b0e5533f1acd14af4 selftests/mm: hugetlb_fault_after_madv: add setup of HugeTLB pages
-733e1e1411a1cd01b8ce28bb2b7ae01cb8d07608 selftests/mm: hugetlb-madvise: add setup of HugeTLB pages
-1529a33b77ef3b9d7e2799dfbe3121038df8e350 selftests/mm: hugetlb_madv_vs_map: add setup of HugeTLB pages
-03593075a550c9e45cb325bc7b93aedd621af6ad selftests/mm: hugetlb-mmap: add setup of HugeTLB pages
-9db7b8e4d026c4d6b5e800b430ae660fb3e51df0 selftests/mm: hugetlb-mremap: add setup of HugeTLB pages
-71212d021367a00112325eb33ea576a84e4fab7b selftests/mm: hugetlb-shm: add setup of HugeTLB pages
-1991b17f2f68a144f7c77de24aabb92309de0304 selftests/mm: hugetlb-soft-offline: add setup of HugeTLB pages
-72d0d948daecd20721b8ef24f8452bc0cba52e32 selftests/mm: hugetlb-vmemmap: add setup of HugeTLB pages
-ad0823ef712a56bf2174bb1ca76b2ad18f539938 selftests/mm: migration: add setup of HugeTLB pages
-71ba71f86b7c9e7dc5eb16600174fae4845e1656 selftests/mm: pagemap_ioctl: add setup of HugeTLB pages
-8e64dbfa315c856bdaf907490d40d3906d66cd7b selftests/mm: protection_keys: use library code for HugeTLB setup
-7793141fb5a682f43f274f315ab6a2397831f17f selftests/mm: thuge-gen: add setup of HugeTLB pages
-fb026313430205d7fbaf3af21aa340ac9a90b478 selftests/mm: uffd-stress: use hugetlb_save and alloc huge pages
-0d358166f17e2192a40b079e07f48627b31eaf89 selftests/mm: uffd-unit-tests: add setup of HugeTLB pages
-01af2d607dbc1bee17f6307e4ef818648e658773 selftests/mm: uffd-wp-mremap: add setup of HugeTLB pages
-a6d4ca5c9c2cfff32581a8031d8a75369bb6a650 selftests/mm: va_high_addr_switch: add setup of HugeTLB pages
-de38e88b8c3343c76aa5fae7d4ddbe698d703391 selftests/mm: va_high_addr_switch.sh: drop huge pages setup
-1979210cce6e9a68788b811fc7a46019cc35f7c1 selftests/mm: run_vmtests.sh: free memory if available memory is low
-9a495d6a769518f7128c09e1e45eb457d29a9e77 selftests/mm: run_vmtests.sh: drop detection and setup of HugeTLB
-4062d7bae68ffe8edcfdc75d974499742b957929 mm/memory_hotplug: factor out altmap freeing checks
-a2e0411fc5412f152dcecb84bb5c0b6af1ee1044 selftests/mm: fix mmap() return value check in run_migration_benchmark
-36980073423002e694f3654854f2058ff200c0c3 sparc/mm: remove register_page_bootmem_info()
-48f2de2e48d2ff05767b831d62af13403ede4bc6 mm/bootmem_info: drop initialization of page->lru
-161ecd67cde91235adbf39326b6ff7857f77b60c mm/bootmem_info: stop using PG_private
-86173e8efdd3e24707009893a012268e04b29ff9 mm/bootmem_info: remove call to kmemleak_free_part_phys()
-fa2b72f3b1c6883193c6ec34004334bb2ddc033a mm/bootmem_info: stop marking the pgdat as NODE_INFO
-617ee84acec9d4d06c95d8d2d1b7fa52d279428d mm/bootmem_info: stop marking mem_section_usage as MIX_SECTION_INFO
-7d8dd682c45d73a5d50adf25719c4d1467580ac4 s390/mm: use free_reserved_page() in vmem_free_pages()
-87f4e4be3caf75ef23fa6d087b1fbb355a86590e powerpc/mm: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
-5e352abadcdeac292774fcc9957f49b29252b69e selftests/mm: check file initialization writes in split_huge_page_test
-3c5495bebe33772ce6e93656f3a9c86ea033840c selftests-mm-check-file-initialization-writes-in-split_huge_page_test-fix
-18fafd0ead3764837dbcef40e4e7c49a5752dbf7 drivers/base/memory: make memory block get/put explicit
-b6f994c2e8e38b4739cbc19b03a7ccb3284adc47 mm/damon/sysfs-schemes: fix double increment of nr_regions
-8cfb9ed945e76e461864344f78dd70a7a954203e mm/damon/lru_sort: validate min_region_size to be power of 2
-d8fe582fdd24667734f2f61ab8c25b0d1cdebf03 mm/damon/reclaim: validate min_region_size to be power of 2
-def36547cd98fa3f7ecac1bf860479f500bc6b1e mm: process_mrelease: introduce PROCESS_MRELEASE_REAP_KILL flag
-eee269e8d76c89e68e9b537ce1de47588fe2c37a mm/percpu-internal.h: optimise pcpu_chunk struct to save memory
-5fdad177b16f72515051a36f765792e9c660961d mm/khugepaged: fix inconsistent MMF_VM_HUGEPAGE flag due to allocation failure order
-21377bfe423987c43886d5b5f9263ab7be99f4a9 mm/shrinker: avoid out-of-bounds read in set_shrinker_bit()
-f5725696f5816a792bbba0493f121a7d6fe899d7 percpu: fix wrong chunk hints update
-716d4bf455cbe0d75361ebebd95473d0b62d4bd3 percpu: do not trust hint starts when they are not set
-c1312709216ba5df46b7d49836b42050d8324594 percpu: introduce struct pcpu_region
-74d0d9b599101a5960480b1391913f84b1a49859 percpu: fix hint invariant breakage
-fb71ba7eff6730d41f3ce809a1b1d60f11067f90 maple_tree: document that "last" in mtree_insert_range() is inclusive
-249e272974274faa247bf135f021ba8db816356d mm/readahead: add kerneldoc for read_pages
-70fb6f0a46115d42aaba2e7867721a5aec6ffc65 mm/readahead: simplify page_cache_ra_unbounded loop counter reset
-ae29079300e214f1b563630775e2e29f7b492369 lib/test_meminit: use && for bools
-83cd35bde7d1921ee7f7dfd8a05af273a26316e5 selftests/mm: ksm-functional-tests: fix partial write handling
-177b45244abfe1b47097889805cce2c94af80f1e mm/mseal: use min/max in mseal_apply
-2c3f468717231305523ddcd94d91c0d5e4a72419 mm/hugetlb_cma: restrict hugetlb_cma parameter to gigantic-page alignment
 
---===============8480881556253990186==--
+--===============1511997431338872651==--
