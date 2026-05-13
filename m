@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 13 May 2026 18:42:07 -0000
-Message-Id: <177869772785.1363335.16588107013747724384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 13 May 2026 18:51:28 -0000
+Message-Id: <177869828851.1370379.3818042319234466767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-7.1-fixes
-    old: 5dd74441cbf42c22e874450eb6a6bbb19390a216
-    new: 7d8f3158a51cb40fc710d2a781549141a139b796
+  - ref: refs/heads/wip/leon-for-next
+    old: 79678bea399052f96ae414ba87448e4afe47042d
+    new: 9dd3e17173bfb8a430e24d40c1efd14d81142231
     log: |
-         7d8f3158a51cb40fc710d2a781549141a139b796 selftests/cgroup: Fix error path leaks in test_percpu_basic
-         
-  - ref: refs/heads/for-next
-    old: d3b0a7f21119f5a66cb76aa28fb8cc13206aaf7d
-    new: 73b586d41601e1972afeff5d326c03d0a1a2a204
-    log: |
-         7d8f3158a51cb40fc710d2a781549141a139b796 selftests/cgroup: Fix error path leaks in test_percpu_basic
-         73b586d41601e1972afeff5d326c03d0a1a2a204 Merge branch 'for-7.1-fixes' into for-next
+         9dd3e17173bfb8a430e24d40c1efd14d81142231 RDMA/hns: Use named initializer for pci_device_id array
          
