@@ -1,19 +1,75 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
-Date: Wed, 13 May 2026 01:38:08 -0000
-Message-Id: <177863628895.545372.1268108415390602240@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2396157872827534892=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 13 May 2026 01:39:40 -0000
+Message-Id: <177863638017.546151.17960749371366098890@gitolite.kernel.org>
+
+--===============2396157872827534892==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/harry/linux
-user: harry
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab-kmalloc-nolock-without-cmpxchg-double-rfc-v1r1-wip
-    old: 94a40277d1f72873fcdb0fa677d2e20a7ea409db
-    new: 0b105dc0e05df267ad157b43542196f8e42741eb
-    log: |
-         0b105dc0e05df267ad157b43542196f8e42741eb mm/slab: support re-entrancy for __slab_update_freelist()
-         
+  - ref: refs/heads/for-7.2
+    old: b613e2b4075038501fadc1c2d1a5c2ce0f801655
+    new: 7d572b75d54edeb48135f8b029cfdec41277e30f
+    log: revlist-b613e2b40750-7d572b75d54e.txt
+
+--===============2396157872827534892==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1778636378 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1778636378-9f14b8b9696294f29d7e540e53a430c301ad1a41
+
+b613e2b4075038501fadc1c2d1a5c2ce0f801655 7d572b75d54edeb48135f8b029cfdec41277e30f refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoD1loACgkQJNaLcl1U
+h9AXrAf+LlzOS+Lesv4VZY+GZ4w8MhIXnces2K9DPkXwO03PzDNJ/TBRIQ9pzP/U
+nAQa2jDat3X30JLxX7Z0i+xzSVMGaSd4AePE5QNigNcvCYLseEOesiy6ZWynwAlW
+7Y6MhuWgwbjBCvPee8UbDEVH2J4A/0K/kab77FAN5R28WHVcugCAWEAbdPwB71aM
+oPb1wvFymSy87CFFgRcdOZTx7jhn0VlpwB4GpHOJ1GTu+PddX6pFuqBE3ecHCs6e
+zNP0VkeE3gETAB/RVRMv63dshKdRGt7XDJTqpoDJGI9r7wGXRL+rJ1xCLNnmqLe9
+9EQNp53NcTnCnMRg5duOdoWzTRyoaA==
+=O2is
+-----END PGP SIGNATURE-----
+
+--===============2396157872827534892==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b613e2b40750-7d572b75d54e.txt
+
+3492e8b494c18028044d4a2e03db5c7331fbd789 soundwire: Add a helper function to wait for device initialisation
+9dc2b0d599c6e89379bed40f23fdb72a088503f2 ASoC: cs35l56: Use new SoundWire enumeration helper
+47e2f687b0c50102d487c06f11157389d28846ba ASoC: cs42l42: Use new SoundWire enumeration helper
+7fa0ff88f88203e137aed8dea9a497b611e5be82 ASoC: max98363: Use new SoundWire enumeration helper
+8e5768eb4eaaaaa2703c456e8e96a3c4391d1e21 ASoC: max98373: Use new SoundWire enumeration helper
+c5b0783d18a693546ab1a6736e39b0361c527c2b ASoC: rt700: Use new SoundWire enumeration helper
+953ee481561b56d099a0fead0c644273e7d9b672 ASoC: rt711: Use new SoundWire enumeration helper
+d5bd2f7239f601821bfb24c81b4caeda276c7e30 ASoC: rt712: Use new SoundWire enumeration helper
+e154b2472f6b99e1f56df6ccdad4606b79563970 ASoC: rt715: Use new SoundWire enumeration helper
+cc05ab0a664ed8aa055ec41515d1be3da0679353 ASoc: rt721: Use new SoundWire enumeration helper
+0b64017495866d8e8b8ca4269294aa677c233188 ASoC: rt722: Use new SoundWire enumeration helper
+ab579acef4bf10460630d85041f5ff465ffaefbb ASoC: rt1017: Use new SoundWire enumeration helper
+1ab950b47b3ae7fe10634044b7fc3e5c080bf4f3 ASoC: rt1308: Use new SoundWire enumeration helper
+b7997fcacf94dbb332339b7a9ceb4caeba70aa47 ASoC: rt1316: Use new SoundWire enumeration helper
+210f109efdfdd60fd6bec0e3b60af9a53fe998d6 ASoC: rt1318: Use new SoundWire enumeration helper
+4461603eda139f72708cf69e77396655294a3f5e ASoC: rt1320: Use new SoundWire enumeration helper
+fee0a8b4f0da44c7218144d57b72f1035c4ba782 ASoC: rt5682: Use new SoundWire enumeration helper
+ac6d4f298160bebf6979e63c2758414af5266f28 ASoC: tas2783: Use new SoundWire enumeration helper
+ca1063ae03dcbf893dcd196ff073f9e7b5df8ccf ASoC: Add a new SoundWire enumeration helper
+7d572b75d54edeb48135f8b029cfdec41277e30f ASoC: cs35l56: Abort TDM mask loop at maximum channel shift
+
+--===============2396157872827534892==--
