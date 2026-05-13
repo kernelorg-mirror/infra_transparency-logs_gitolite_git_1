@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0928544648768252692=="
+Content-Type: multipart/mixed; boundary="===============7309392738592448279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 13 May 2026 16:31:36 -0000
-Message-Id: <177868989678.1209697.13036992576722747379@gitolite.kernel.org>
+Date: Wed, 13 May 2026 16:31:43 -0000
+Message-Id: <177868990330.1209947.1745563207640615928@gitolite.kernel.org>
 
---===============0928544648768252692==
+--===============7309392738592448279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6318f11d53a3caabea5337ccf83612e52d1bd55a
     new: cd59fa185a031417d2699c68172676f4671153d8
     log: revlist-6318f11d53a3-cd59fa185a03.txt
 
---===============0928544648768252692==
+--===============7309392738592448279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ cb6af5314056cb06456cfa8774aa158d61929bcd bpf: Disable private stack for x86_64 i
 90e43f1b47535cc7aceef3add1a61ba3260b7aee selftests/bpf: Enable stack argument tests for arm64
 cd59fa185a031417d2699c68172676f4671153d8 Merge branch 'bpf-support-stack-arguments-for-bpf-functions-and-kfuncs'
 
---===============0928544648768252692==--
+--===============7309392738592448279==--
