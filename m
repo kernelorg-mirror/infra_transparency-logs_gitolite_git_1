@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3128718448830932233=="
+Content-Type: multipart/mixed; boundary="===============9176390678627962354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 May 2026 01:28:43 -0000
-Message-Id: <177863572375.536962.14172144463118205370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 May 2026 01:28:50 -0000
+Message-Id: <177863573038.537182.16392658437992968829@gitolite.kernel.org>
 
---===============3128718448830932233==
+--===============9176390678627962354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/spi-7.1
     old: 4bacec2317527ba04b7172145848f1c206999ea1
     new: 5e121a81667a83e9a01d62b429e340f5a4a84abc
     log: revlist-4bacec231752-5e121a81667a.txt
 
---===============3128718448830932233==
+--===============9176390678627962354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1778635722 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1778635721-6c64ffcd8d56920e75b1db9456e7b865be8304dc
+pusher C3F436CA30F5D8EB 1778635728 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1778635727-4cef81b5c65dfb949b434b4e9479945a15264f7e
 
-4bacec2317527ba04b7172145848f1c206999ea1 5e121a81667a83e9a01d62b429e340f5a4a84abc refs/heads/for-7.1
+4bacec2317527ba04b7172145848f1c206999ea1 5e121a81667a83e9a01d62b429e340f5a4a84abc refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoD08oACgkQJNaLcl1U
-h9ChXwf/Z9+Gsl/zmTTyIJgwoux9MUFZ1W9t4CzkPDGBvUWZI8gzn+kdn3LZHIew
-ZdiKSkeg3zOfxZzIssOlG80ZthvIiKYH8guLNKwQ54iQHImQX0bxGPTk9WB0eZ7X
-I6LCKb6GN1AVjRLaqAQ7VMM6oaseujEwfcsKnDzUPFtgIUckHVXoivKKDJcXqt9j
-DQ0mGSEeF9eSTueWOQ7nMXObtRomBoMeeh+CKOVWeIDSjRRhksd5gqgfwh2Mz1/c
-vtLQt1KddWygRCpcPG6CzM2Sr+L1xO8erMpZfaCquQQXNm1QcdRujcKXno+Dv65l
-9VxIvTUrz0xr2gr0WIFhBg4yr4cE/A==
-=Ikhb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoD09AACgkQJNaLcl1U
+h9C7MAf9F/tqCyLkLb+Zo26S2qoo15lXFxGoS9kCYpcTJCQwHtvmwDDRkduM6VFw
+xHOxU16WFuFQ3Ce1OS7v6kEwHdbjuHm30PDnU8hLswNn93m8Hex0GRBsJRcbXGAA
+WzKtukhPr2lQ0P+/dkIBtan0iBOnU+c2B5juIXJM6Xvsc6gIuvMZkBja4kNZD4Pu
+cCXc6jlf0IPTh9e5IeyQl62QtGd7LMk0nfmSS1OpWvMirOUZ+Pj+TbAwZkZ/sPiC
+zdarpiHi9bT3KpWOSxsZq/ZLxT4ODrr65plXwd/DKSxHRMRVg1ZkllqpdMPeco0n
+CbrBhw7GPh9fkFbn4pgMat22++ZjVg==
+=+NvP
 -----END PGP SIGNATURE-----
 
---===============3128718448830932233==
+--===============9176390678627962354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -628,4 +628,4 @@ afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
 5e121a81667a83e9a01d62b429e340f5a4a84abc spi: ep93xx: fix error pointer deref after DMA setup failure
 
---===============3128718448830932233==--
+--===============9176390678627962354==--
