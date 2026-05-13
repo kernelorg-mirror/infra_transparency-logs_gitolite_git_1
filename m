@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Wed, 13 May 2026 05:43:37 -0000
-Message-Id: <177865101789.725930.2673773940805663841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Wed, 13 May 2026 05:44:02 -0000
+Message-Id: <177865104230.726359.11153116482505457008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/next
-    old: 2c8349ec44ffea5b691d99300dd64a04126500a0
-    new: 4b0a454d539efc9203fc5aea32dfdcbf5abbd6f4
+  - ref: refs/heads/master
+    old: 3a0086bb46795094e0606a33a5a57726e52ab1df
+    new: 1a005252eb402cb267f7953401b3c30b4f4f2468
     log: |
-         9c475f51cf49d3e9e5149389b9186fa92f72d524 _damon_args: fix wrong --probe_filter usage warning
-         4b0a454d539efc9203fc5aea32dfdcbf5abbd6f4 _damon_args: add trailing new line to feature warnings
+         471102d6bbc9cae33981be39ecf36879d3afe593 patches/mm: update
+         1a005252eb402cb267f7953401b3c30b4f4f2468 patches/next: rebase to latest mm-new
          
