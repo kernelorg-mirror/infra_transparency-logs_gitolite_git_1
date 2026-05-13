@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9019866669565696584=="
+Content-Type: multipart/mixed; boundary="===============6507809408410387814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 May 2026 21:43:47 -0000
-Message-Id: <177870862747.1497944.6298650905551487137@gitolite.kernel.org>
+Date: Wed, 13 May 2026 21:43:49 -0000
+Message-Id: <177870862998.1498033.765238877353608493@gitolite.kernel.org>
 
---===============9019866669565696584==
+--===============6507809408410387814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 63751099502d10f0aa6bb35273e56c5800cc4e3a
     new: 8ebd24a7822cbae25beeafba49b2159d6a68a5f2
     log: revlist-63751099502d-8ebd24a7822c.txt
 
---===============9019866669565696584==
+--===============6507809408410387814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ b588019e85f490696bf19f0747e93f14b1563927 rtnetlink: add RTEXT_FILTER_NAME_ONLY s
 54e65df8cf18a741745645aed7ae91514d437b43 dpll: zl3073x: report FFO as DPLL vs input reference offset
 8ebd24a7822cbae25beeafba49b2159d6a68a5f2 Merge branch 'dpll-rework-fractional-frequency-offset-reporting'
 
---===============9019866669565696584==--
+--===============6507809408410387814==--
