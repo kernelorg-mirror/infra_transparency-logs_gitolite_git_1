@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9074124687167449205=="
+Content-Type: multipart/mixed; boundary="===============6686139858468906838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 13 May 2026 04:49:54 -0000
-Message-Id: <177864779401.686483.4999290492675172117@gitolite.kernel.org>
+Date: Wed, 13 May 2026 05:22:30 -0000
+Message-Id: <177864975014.710313.6619743819880929938@gitolite.kernel.org>
 
---===============9074124687167449205==
+--===============6686139858468906838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: e0142e0de50ade58e49decc788c512fda305672a
-    new: 97d272699e06bb60883333447cb628b6e846cbcf
-    log: revlist-e0142e0de50a-97d272699e06.txt
+  - ref: refs/heads/for-linus/hardening
+    old: 7a618ca9b9c4769fc5adf7344bb1dd98f823da22
+    new: ee725c30e3c01ae3506d0fd75595894d15c095e0
+    log: revlist-7a618ca9b9c4-ee725c30e3c0.txt
 
---===============9074124687167449205==
+--===============6686139858468906838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1778647792 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1778649748 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1778647790-a19b234a17c6826258b2485e11ec196c7ef0bc8c
+nonce 1778649746-8e035650ccb956303e061e1de247f0893edcc1b6
 
-e0142e0de50ade58e49decc788c512fda305672a 97d272699e06bb60883333447cb628b6e846cbcf refs/heads/for-next/kspp
+7a618ca9b9c4769fc5adf7344bb1dd98f823da22 ee725c30e3c01ae3506d0fd75595894d15c095e0 refs/heads/for-linus/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCagQC8AAKCRA2KwveOeQk
-u0AFAP998gIjGbHHCJNXly4UcPL3Wv5Enn1Eipi1zaevpAl4QQEAxIHAHIb7sBk/
-3wzmt4ot7afkcHpTxNBe3TfPAAFSnww=
-=7Joz
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCagQKlAAKCRA2KwveOeQk
+uy2EAQDcfmXUC8NQzhbvcQCI/0WW45kaR7ZqEENffWjZhwygGgEAg4P8eG4e8sr2
+N5Iw1gVJtrxS2xE5b3ZP5DHn2Zi56wk=
+=shq7
 -----END PGP SIGNATURE-----
 
---===============9074124687167449205==
+--===============6686139858468906838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0142e0de50a-97d272699e06.txt
+Content-Disposition: attachment; filename=revlist-7a618ca9b9c4-ee725c30e3c0.txt
 
 b8c03b7f4558219ca09693b5fa4f5e068041d2c2 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
 f5f035a724235f6dbef428ca54a3e9f25becc10e userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
@@ -1070,6 +1070,6 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
-97d272699e06bb60883333447cb628b6e846cbcf stddef: Document designated initializer semantics for __TRAILING_OVERLAP()
+ee725c30e3c01ae3506d0fd75595894d15c095e0 gcc-plugins: Always define CONST_CAST_GIMPLE and CONST_CAST_TREE
 
---===============9074124687167449205==--
+--===============6686139858468906838==--
