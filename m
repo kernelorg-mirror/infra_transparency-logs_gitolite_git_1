@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 13 May 2026 01:09:17 -0000
-Message-Id: <177863455783.520667.4005628816849673605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
+Date: Wed, 13 May 2026 01:15:53 -0000
+Message-Id: <177863495309.527487.8011501099870885551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/harry/linux
+user: harry
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 7eba000621fff223dd7bab484d48918c7c77a307
-    new: 8d3bea93f483cb8f92b9f85d1528268a6469af28
+  - ref: refs/heads/slab-kmalloc-nolock-without-cmpxchg-double-rfc-v1r1-wip
+    old: a074f6ca512fc4e1b65348fd265f5ed7a6ed5053
+    new: 028a0026084aac71e022548dda0568d4dac71b1c
     log: |
-         abb21500e7e5dcf2d1b1a4a02b2ee77b3d5061b6 rust: alloc: add Box::zeroed()
-         fd3b87ff0232f46e1ad53a48609a3853c8757c6c rust: auxiliary: add registration data to auxiliary devices
-         95ade775c4ab9b9b3d7cfa2d45283e93fbfa4e7a rust: driver core: remove drvdata() and driver_type
-         8d3bea93f483cb8f92b9f85d1528268a6469af28 Merge patch series "rust: auxiliary: replace drvdata() with registration data"
+         028a0026084aac71e022548dda0568d4dac71b1c mm/slub: support re-entrancy for __slab_update_freelist()
          
