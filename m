@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8346116848056218172=="
+Content-Type: multipart/mixed; boundary="===============9034716552286755765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 13 May 2026 21:44:05 -0000
-Message-Id: <177870864538.1498750.4455273389822080060@gitolite.kernel.org>
+Date: Wed, 13 May 2026 21:44:09 -0000
+Message-Id: <177870864960.1498889.14396022937202635526@gitolite.kernel.org>
 
---===============8346116848056218172==
+--===============9034716552286755765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: a450063ef86b9967234ca1f896c0d77400c74f11
     new: f5b2772d14884f4be9e718644f1203d4d0e6f0d6
     log: revlist-a450063ef86b-f5b2772d1488.txt
 
---===============8346116848056218172==
+--===============9034716552286755765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a3fdd924d88c30b9f488636ce0e4696012cf5511 net/smc: fix sleep-inside-lock in __smc
 3d042592ebd4c7e44974d556de0b727cb7db4dab ethtool: fix ethnl_bitmap32_not_zero() bit interval semantics
 f5b2772d14884f4be9e718644f1203d4d0e6f0d6 net: ethernet: ravb: Do not check URAM suspension when WoL is active
 
---===============8346116848056218172==--
+--===============9034716552286755765==--
