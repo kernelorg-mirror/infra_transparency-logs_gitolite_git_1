@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 13 May 2026 07:42:39 -0000
-Message-Id: <177865815906.811711.8967121617502973789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Wed, 13 May 2026 07:48:57 -0000
+Message-Id: <177865853728.815934.6565978005186389674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: rppt
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 806e7acf7f331008637b4f8ecf211eb0a082e6eb
-    new: eeb1d6dfd89344b17afe845d4839b79e37fdd547
-    log: |
-         3eb639ef8da2d418ae69f3c8840c4e815036adc6 dt-bindings: gpio: zynq: Sort compatible strings alphabetically
-         18409d06b4a002cb8550ad7c20273bedc77851df dt-bindings: gpio: Add EIO GPIO compatible to gpio-zynq
-         eeb1d6dfd89344b17afe845d4839b79e37fdd547 gpio: zynq: Add eio gpio support
-         
+  - ref: refs/heads/fixes
+    old: eaf3933ec58da601cf0008afbcca7cf5433321e8
+    new: 7b0b68b2b95606e65594958686833e53423f58f2
