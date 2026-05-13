@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1536533849081309596=="
+Content-Type: multipart/mixed; boundary="===============7798793187228087850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 13 May 2026 01:39:46 -0000
-Message-Id: <177863638625.546397.2255014293036862200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 13 May 2026 01:39:59 -0000
+Message-Id: <177863639921.546647.2615320508703758076@gitolite.kernel.org>
 
---===============1536533849081309596==
+--===============7798793187228087850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: b613e2b4075038501fadc1c2d1a5c2ce0f801655
-    new: 7d572b75d54edeb48135f8b029cfdec41277e30f
-    log: revlist-b613e2b40750-7d572b75d54e.txt
+  - ref: refs/heads/for-next
+    old: b69796b4e3f78b1c41c0e6f558e882ec095469fc
+    new: 81c337a2d8fed3d208037993fb4b656c621b2761
+    log: revlist-b69796b4e3f7-81c337a2d8fe.txt
 
---===============1536533849081309596==
+--===============7798793187228087850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1778636384 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1778636383-bbe41a7b757ab8676c5ccecb6c5c46703e547822
-
-b613e2b4075038501fadc1c2d1a5c2ce0f801655 7d572b75d54edeb48135f8b029cfdec41277e30f refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoD1mAACgkQJNaLcl1U
-h9BI0wf/XCPd9ldW6O5bedu82aF0UQoGM9IDbeJTwncL0B/bZY3Pxg54X9eVet3O
-aoPcneo3/sDM4ArsJ5QCXK+W+oZDZ9nfDcdq0ZIpG+x8QGYVDSTAl7TpD/YDFS5B
-oWk846x5iZ9x5i4YfknXXw/lk8RlK6vgAfJqkZTHYonQOxc2xUrJOlxU2kDlkmYm
-caKsA3vfkHVue7qxMcAFoNE3qOGXCO5WS/W2E3ZZZBSm6S8Iqjx0z8bAij4fMteT
-HrqhSte3zgqHg1wFe29WyltR7mXLRTU1V5x7cwcAhMcoO6+ijSo35Yie0oFDE1Id
-GZviIVQyw6IXlTuOnZ3Cqmxd1cMGzQ==
-=vq+V
------END PGP SIGNATURE-----
-
---===============1536533849081309596==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b613e2b40750-7d572b75d54e.txt
+Content-Disposition: attachment; filename=revlist-b69796b4e3f7-81c337a2d8fe.txt
 
 3492e8b494c18028044d4a2e03db5c7331fbd789 soundwire: Add a helper function to wait for device initialisation
 9dc2b0d599c6e89379bed40f23fdb72a088503f2 ASoC: cs35l56: Use new SoundWire enumeration helper
@@ -71,5 +46,6 @@ fee0a8b4f0da44c7218144d57b72f1035c4ba782 ASoC: rt5682: Use new SoundWire enumera
 ac6d4f298160bebf6979e63c2758414af5266f28 ASoC: tas2783: Use new SoundWire enumeration helper
 ca1063ae03dcbf893dcd196ff073f9e7b5df8ccf ASoC: Add a new SoundWire enumeration helper
 7d572b75d54edeb48135f8b029cfdec41277e30f ASoC: cs35l56: Abort TDM mask loop at maximum channel shift
+81c337a2d8fed3d208037993fb4b656c621b2761 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============1536533849081309596==--
+--===============7798793187228087850==--
