@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 13 May 2026 13:59:59 -0000
-Message-Id: <177868079913.1087821.112835288229739541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 13 May 2026 14:07:35 -0000
+Message-Id: <177868125537.1094433.2089950804357447832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: ee4a4775bc4f8348e2a860dc44bcdd7570279908
-    new: c4789506455f639a330ece6016912b93c9a419b8
+  - ref: refs/heads/nfsd-testing
+    old: b26490baad0b7318d763b5ad6e5ca2addb20b314
+    new: 520ec51fb7218cc02e994f52df3a219aa46d7c59
     log: |
-         c4789506455f639a330ece6016912b93c9a419b8 monitor: Add decoding for Microsoft defined event
+         ef4e34669aa1a15d2f5ba86fd433fcac9aee81c9 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+         db85224d38e555eee7aae762783a4f6d6c297520 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         520ec51fb7218cc02e994f52df3a219aa46d7c59 siw: Enable try_gso
          
