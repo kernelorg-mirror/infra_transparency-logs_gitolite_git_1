@@ -1,23 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 13 May 2026 15:28:49 -0000
-Message-Id: <177868612934.1159609.9226934479503772821@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4676035029698091708=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 13 May 2026 15:31:58 -0000
+Message-Id: <177868631855.1163053.13414581595244936703@gitolite.kernel.org>
+
+--===============4676035029698091708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1d5dcaa3bd65f2e8c9baa14a393d3a2dc5db7524
-    new: 1f63dd8ca0dc05a8272bb8155f643c691d29bb11
+    old: 25fa7f2310efd14b43cd26de5588eb9816e2698d
+    new: 1bb20a6cbfa899e05f76d439ecd5295f162a8e41
     log: |
-         a6715d7ec472a476db17787697a4abda62962284 kho: skip KHO for crash kernel
-         0fb1daf0b78d0e23b63b6b65de56d4a3fd83bc14 mm/memfd_luo: report error when restoring a folio fails mid-loop
-         d581fc99d3b958cb6e363104e9aab57f36aee6f3 mm/memfd_luo: reject memfds whose page count exceeds UINT_MAX
-         7b0b68b2b95606e65594958686833e53423f58f2 mm/memfd_luo: document preservation of file seals
-         1f63dd8ca0dc05a8272bb8155f643c691d29bb11 Merge tag 'fixes-2026-05-13' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+         e66469b1dc0cf5bd6d3eb52f0ec6222f762c8cb5 fix up a crypto patch in 6.12
+         1bb20a6cbfa899e05f76d439ecd5295f162a8e41 6.1-stable patches
          
+
+--===============4676035029698091708==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778686324 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1778686316-cd23af3c08a5a2b73bfb21d7a7482439d44f82e7
+
+25fa7f2310efd14b43cd26de5588eb9816e2698d 1bb20a6cbfa899e05f76d439ecd5295f162a8e41 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoEmXQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l44QALEwqI0oyXgaTLsQbjHM
+shLM66gkj0fFOApb7uGhMKDsk2gjfb9QqA+RF/Y62Lqn8uuwlZg94+ieXvOkGRIc
+stEUKIBmRJAMlbQUWgasq2zYKaKC1dzdA4/VozsdKewgVKgsV+mQYI537JYsYgPW
+lFKEuuGIC7TyTpJLJJhl3D23bCUwywZFKDRly+bGTZUZLYg1BTsiK0hirXhJ/lvD
+1FD0fJwaST2fPYdyF6HuwryiHuJXDK8GzZxj/0EdEtQit3MpPlcbosAQNL7BQkEt
+HARVFphUQY3qedV7T2ZnirrDiFcN4zTWNfSOTmW9E0vimIZsJGRNgwBYgA7THLTc
+YZWcPloiUQm4aosk3LBWByTgPRzkDkMOe/W+h3AnNJoN7I3Ztsc5MICPUG+sIYD7
+MAWjysKVXg/YpqO9wNspLzHWBawTAHk34HxpGZtp153APgosiJU6FMC4aAu9uvhu
+Lww3AARVyTsD7Nmh8EOkgOm4sAW09kjAdvdgB+d2i30K/mFzEzZlke9rpzkFBYvk
+eGqYZj0C6f4EFTkT6ejM0jJ6EZ97CoxSzA0XkxFXNlC13/Nfj6KUlCRaVLBrQ2bb
+nu+tlHZQcC9aY4GAOoS2WItkh25FchxtCMgE/u0MdOEhox1V5JOQH5Bb58Wn8EBe
++b4i1EVlilDCXAPons3PNhL0
+=ZkY5
+-----END PGP SIGNATURE-----
+
+--===============4676035029698091708==--
