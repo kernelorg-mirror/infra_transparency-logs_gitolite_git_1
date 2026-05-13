@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 13 May 2026 15:28:48 -0000
-Message-Id: <177868612822.1159526.1238475675528609725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 13 May 2026 15:28:49 -0000
+Message-Id: <177868612934.1159609.9226934479503772821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linux-next
-    old: 00951dad37791e4ccb4d789be80370f48a6c51aa
-    new: 67d618348f8f1ce11b1d76f3303a28097f165ac9
+  - ref: refs/heads/master
+    old: 1d5dcaa3bd65f2e8c9baa14a393d3a2dc5db7524
+    new: 1f63dd8ca0dc05a8272bb8155f643c691d29bb11
     log: |
-         67d618348f8f1ce11b1d76f3303a28097f165ac9 x86/xen: Tolerate nested XEN_LAZY_MMU entering/leaving
+         a6715d7ec472a476db17787697a4abda62962284 kho: skip KHO for crash kernel
+         0fb1daf0b78d0e23b63b6b65de56d4a3fd83bc14 mm/memfd_luo: report error when restoring a folio fails mid-loop
+         d581fc99d3b958cb6e363104e9aab57f36aee6f3 mm/memfd_luo: reject memfds whose page count exceeds UINT_MAX
+         7b0b68b2b95606e65594958686833e53423f58f2 mm/memfd_luo: document preservation of file seals
+         1f63dd8ca0dc05a8272bb8155f643c691d29bb11 Merge tag 'fixes-2026-05-13' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
          
