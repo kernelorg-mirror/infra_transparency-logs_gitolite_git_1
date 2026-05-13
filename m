@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 13 May 2026 16:23:36 -0000
-Message-Id: <177868941667.1202003.11284255745031421613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 13 May 2026 16:29:54 -0000
+Message-Id: <177868979462.1206205.1373260611703274110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 202311a754d4208ef156bc23b7ac310feccdea3b
-    new: 32e3732c0325385d389792bbe494434b3efae485
+  - ref: refs/heads/master
+    old: ef7e0c51d9c4b029d2f9b20bee1a94ba1b3356d5
+    new: 2d5d3fc593c9b7e41bee86175d7b9e11f470072e
     log: |
-         3aa8f9fce8602d722948df641c7ca2828ee0a2f5 x86/cpu: Introduce a centralized CPUID data model
-         fa6dcbc69ad495eeea315870278100a554a4ca18 x86/cpuid: Introduce a centralized CPUID parser
-         32e3732c0325385d389792bbe494434b3efae485 x86/cpu: Rescan CPUID table after disabling PSN
+         2d5d3fc593c9b7e41bee86175d7b9e11f470072e KVM: VMX: introduce module parameter to disable CET
+         
+  - ref: refs/tags/for-linus
+    old: 7e284022d88201323f26b7be86b35b211b70be13
+    new: 36106c8ec73afcf76510de53ab0981435c198782
+    log: |
+         2d5d3fc593c9b7e41bee86175d7b9e11f470072e KVM: VMX: introduce module parameter to disable CET
          
