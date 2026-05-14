@@ -1,22 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 14 May 2026 21:40:13 -0000
-Message-Id: <177879481336.2853754.10360843485458574378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 14 May 2026 21:49:53 -0000
+Message-Id: <177879539335.2859168.2338901103066255553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/kunit
-    old: c12222dcce91170a8031e03559c3e88916475f14
-    new: 5c1553dd5db306d84d539f84fa184d4694d6d050
+  - ref: refs/heads/for-7.2
+    old: 1503043fd75e29ad49c7d506232e272f6951d07d
+    new: d54f144085c9c40a0324272a4921386fe36546db
     log: |
-         85347718ab0dd7ede9c3e1dcff2d604c7073df05 bug/kunit: Core support for suppressing warning backtraces
-         bbc960d009a6315f484944506bbb13165069ccc8 kunit: Add backtrace suppression self-tests
-         a5eefd0726b16b04eebabb17619a08f2703d13f9 drm: Suppress intentional warning backtraces in scaling unit tests
-         5c1553dd5db306d84d539f84fa184d4694d6d050 kunit: Add documentation for warning backtrace suppression API
+         d54f144085c9c40a0324272a4921386fe36546db ath6kl: add WQ_PERCPU to alloc_workqueue users
+         
+  - ref: refs/heads/for-7.2-wq-percpu
+    old: 7fcb7afb9b5eecb85904b16747b6eb04b0880c3b
+    new: d54f144085c9c40a0324272a4921386fe36546db
+    log: |
+         dfca46365afc030fb09bb40226514c500202dcdc workqueue: drop apply_wqattrs_lock()/unlock() wrappers
+         1503043fd75e29ad49c7d506232e272f6951d07d workqueue: forbid TEST_WORKQUEUE from being built-in
+         d54f144085c9c40a0324272a4921386fe36546db ath6kl: add WQ_PERCPU to alloc_workqueue users
+         
+  - ref: refs/heads/for-next
+    old: 2ccd533ef91537db4a9c38bf5b45242e987b8089
+    new: 85720eb478e38144de83f2eefa367f96ca8d64ac
+    log: |
+         d54f144085c9c40a0324272a4921386fe36546db ath6kl: add WQ_PERCPU to alloc_workqueue users
+         85720eb478e38144de83f2eefa367f96ca8d64ac Merge branch 'for-7.2' into for-next
          
