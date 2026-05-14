@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 14 May 2026 10:32:16 -0000
-Message-Id: <177875473699.2071628.6525024318600353966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 14 May 2026 10:41:12 -0000
+Message-Id: <177875527234.2079021.4618103092850528671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/main
-    old: cc21150cdea8813fc9677ff61a3cbe9995801aa0
-    new: 277740023def559a4a2ddc3e8e784ee37a0f16a9
+  - ref: refs/heads/timers/vdso
+    old: 7138a8698a39e81eb153e05500823fff76d5b3bd
+    new: 034779fb06aba5bc45faf366922bd77e4d36543a
     log: |
-         277740023def559a4a2ddc3e8e784ee37a0f16a9 net/smc: reject CHID-0 ACCEPT that matches an empty ism_dev slot
+         034779fb06aba5bc45faf366922bd77e4d36543a vdso/datastore: Mark vdso_k_*_data pointers as __ro_after_init
          
