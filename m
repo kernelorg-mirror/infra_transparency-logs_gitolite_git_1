@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Thu, 14 May 2026 15:11:24 -0000
-Message-Id: <177877148453.2559022.14235547903418715398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 14 May 2026 15:20:33 -0000
+Message-Id: <177877203329.2566336.16913772525472166463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/next
-    old: 35a5ab8ef7f0f00b30eab9d917f3f0f4a2bec5d6
-    new: acf676b9de0c86bc735a7f04962d3d688e156ffc
+  - ref: refs/heads/master
+    old: d25e65a8b89725e9745bfc3acd738cdec3818a07
+    new: 593980175389a05793f6060aa20e626330960395
     log: |
-         4e90368e8680d9ddcb06f82f2e63cbbcf21cef2c soundwire: intel_auxdevice: Add es9356 to wake_capable_list
-         acf676b9de0c86bc735a7f04962d3d688e156ffc soundwire: intel: Move suspend tracking from trigger to pm suspend
+         593980175389a05793f6060aa20e626330960395 bpf: Use array_map_meta_equal for percpu array inner map replacement
          
