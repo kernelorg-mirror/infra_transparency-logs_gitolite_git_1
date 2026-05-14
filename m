@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Thu, 14 May 2026 13:48:46 -0000
-Message-Id: <177876652666.2439607.264383791238288528@gitolite.kernel.org>
+Date: Thu, 14 May 2026 13:50:58 -0000
+Message-Id: <177876665800.2441211.7732229993932542323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f9f16835d4dc46113c0a72625ffbf61f1aa95e5c
-    new: e4e9b7b38d5db2cc6a8770bc0596bb8b36b92b1f
-    log: |
-         e4e9b7b38d5db2cc6a8770bc0596bb8b36b92b1f cpufreq/amd-pstate: Drop Kconfig option for dynamic EPP
-         
+  - ref: refs/tags/amd-pstate-v7.1-2026-05-14
+    old: 0000000000000000000000000000000000000000
+    new: 2edf5bbe3ea20bfe929d186190a5cc161e65d7b8
