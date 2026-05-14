@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0701731285630182652=="
+Content-Type: multipart/mixed; boundary="===============2674634321012547119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 14 May 2026 17:10:27 -0000
-Message-Id: <177877862759.2650977.9311177100883950099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Thu, 14 May 2026 17:10:32 -0000
+Message-Id: <177877863201.2651139.15663670087210498306@gitolite.kernel.org>
 
---===============0701731285630182652==
+--===============2674634321012547119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/t1000
-    old: e9608c00d1f1d4397ee39138037f32cc4f3ab47b
-    new: 2c1b23d08feabca5c6ba0d3fb3a3176acaa85730
+  - ref: refs/heads/clanker
+    old: fc6b58536371becef0651cd5b6dab49726efeebf
+    new: 6f173bf736c6be8ab985b1135c56f826487b47ca
     log: |
-         2c1b23d08feabca5c6ba0d3fb3a3176acaa85730 usb: typec: ucsi: ccg: reject firmware images without a ':' record header
+         6f173bf736c6be8ab985b1135c56f826487b47ca usb: typec: ucsi: ccg: reject firmware images without a ':' record header
          
 
---===============0701731285630182652==
+--===============2674634321012547119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778778632 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1778778625-40a580e9d76277bd07decc0a09ee6b609270cc3d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778778622 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1778778615-bf4b3df9ff1186a88436c7d191d9507584a330f9
 
-e9608c00d1f1d4397ee39138037f32cc4f3ab47b 2c1b23d08feabca5c6ba0d3fb3a3176acaa85730 refs/heads/t1000
+fc6b58536371becef0651cd5b6dab49726efeebf 6f173bf736c6be8ab985b1135c56f826487b47ca refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoGAggbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+468P/0gcyDMTanvvdxTB3n6J
-ekJaBhmuKmsuE5iGIvyO0H5Szbi2JFQjINi33eTrbvWDfykE5qN26Tpj0qH68iPC
-bBBIOnQ1TY/Sg1Pdm8/J+Qydg3QHdLuMJvZPnifNGVsKUVjQxXmLZp+mhcvio3CI
-nQbn75tUijhtGuaq5VNxpZvNeuQGQR8MehRYaAuvNT2lDZxDe3pU2nacTQVRYw9O
-rPT3DNhbhKX21YAdJM4B+DzSbj3ej3kHjR2+0SdOaPXZteDOmJLEtfMps+/YjP8e
-TpFJCQ8a81WmntIgq660ETczJb3LMFVNbr/W5MRkrqgrCU50gsNLa6UilBgp4NUc
-6jiUKeTSTz2wE4oOQgRc51emtqLmhUhZRR+QymF3QTZRKitDH6Jdphe8PqK+BJOY
-oGXp+KI/16Ak57/PtM8Q+YmcIgIyVlf4/yNCD/x10LRZLiwiibYEc9yvISH/Ekzo
-2yszbYvGzD8U86CEGAtSPqyPFmmFRddR0C319eF2ROZWN4TeP1RYdog0wlXXPH9r
-7rg7rKGWIiD3He1aj1kQnUa5E7p7z+VxNQox0yU238CHraRkQQxIzVP+sTWGJkQG
-m7muEMQTom+gAUMVcC4i1aZvYtXXYoAjsAG2RCFdQ0IBsJrLmeZHmJ3D4TkiqJTb
-ZA1IyiPHcLYSlZJF5C+JX8rl
-=kqvK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoGAf4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7G4P/RT3jbxAhftJHDjoCqqT
+XvoYeQhsyk+mlDnxcAU/HGFG/D9xVFWFYB9MA+oFmbdFyFTwJx8LtVqWzRcmGz5A
+klnKFwe5brzKCUIX6951gi2dm8kQDXEWsyatUWSP/0AjE0gsqIFKMTsuJ+/tkYtg
+rDrdiFRYJhLdSgDJUH6MCdbc73qjRz6hxnbqaUBP4zYYDE1WH89SKchFSbvKMzsf
+f2DW3dnafNdODmUyvhAjrw6B9qqQxj29pc1HKwnOylm53fhQQDkdTNL01jCcmd3X
+YiwP4JUusEs0BTcPM2UqbCubUEPSEo+mwxnZPcA6MgmaEkNIVB+JyscazRogVlCt
+0jjLLAv8KSApBP+8oyKvYybVMtsd4VYePAJ1Lewsr7uC0kEL2ImjssoGoykew0AM
+BgmZxZpbnT9jdixvy7mcSoQBHqe5KsBjJhIHkCcMgaULTH231DcxeFdXhh2m7Qhb
+d3fWLzovve+3HM4XaqWgADikJlT7vVFT7oTef86vvj25WG6IqboN6O6ZBiS1LZwd
+Tj3EU3/FPUbBLwYJKMWWe5dVgoYwOR1o2UopDxYbfijMMbediLRS2NDSumYgvdot
+iFUFNrRDzFbFw4d/iNISmce2Gqth4GfUsUj74wAlsHtx2ldLR8ZbboIkQduYn+LD
+Teut0k5b/x8H2RaTpbAM3/Ur
+=sZh6
 -----END PGP SIGNATURE-----
 
---===============0701731285630182652==--
+--===============2674634321012547119==--
