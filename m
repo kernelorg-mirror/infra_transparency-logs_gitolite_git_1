@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Thu, 14 May 2026 12:25:16 -0000
-Message-Id: <177876151637.2155266.9075424456053701421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 14 May 2026 12:28:01 -0000
+Message-Id: <177876168182.2156371.7957044481817983800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/docs-next
-    old: 24e580381c8ca0b97f25d2a51f303ed0bf1b29a9
-    new: 80898bfea18d158bad12c579f2acc5470a7069b6
+  - ref: refs/heads/for-next/scmi/updates
+    old: d2488ff1a257342111e1be1348d52e8b4ecfaa36
+    new: b79d9b5747d961516c35ef4d5e91efa579fd3e9a
     log: |
-         561458db0d6b08b4e4956c6e4456d7781b18676f docs: security-bugs: add a link to the threat-model documentation
-         f2e65e4e5b4b4b9ecf43f03c3fdbe8c9a8a43a9e docs: threat-model: don't limit root capabilities to CAP_SYS_ADMIN
-         80898bfea18d158bad12c579f2acc5470a7069b6 Merge branch 'docs-fixes' into docs-next
+         b79d9b5747d961516c35ef4d5e91efa579fd3e9a clk: scpi: Unregister child clock providers on remove
          
