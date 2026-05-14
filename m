@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8429810537332287380=="
+Content-Type: multipart/mixed; boundary="===============1812184240288230296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 14 May 2026 20:34:14 -0000
-Message-Id: <177879085485.2799334.2419572399438222457@gitolite.kernel.org>
+Date: Thu, 14 May 2026 20:34:17 -0000
+Message-Id: <177879085750.2799499.14958415306156617711@gitolite.kernel.org>
 
---===============8429810537332287380==
+--===============1812184240288230296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: f5b2772d14884f4be9e718644f1203d4d0e6f0d6
     new: 66182ca873a4e87b3496eca79d57f86b76d7f52d
     log: revlist-f5b2772d1488-66182ca873a4.txt
 
---===============8429810537332287380==
+--===============1812184240288230296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -330,4 +330,4 @@ c78bdba7b9666020c0832150a4fc4c0aebc7c6ac net: phy: DP83TC811: add reading of abi
 eb5441518fba295bd97b59dc54914f89dfaa107d Merge tag 'audit-pr-20260513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 66182ca873a4e87b3496eca79d57f86b76d7f52d Merge tag 'net-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8429810537332287380==--
+--===============1812184240288230296==--
