@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Thu, 14 May 2026 05:38:10 -0000
-Message-Id: <177873709034.1857250.10250751934660429148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 14 May 2026 05:39:01 -0000
+Message-Id: <177873714172.1857792.14451427627089167377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/rust-sync
-    old: 36ecc93a1e1c704e92d6d5eba703c381b8442a8e
-    new: e3b20c2bf93e830edae90a4ec55711ce326cecd2
+  - ref: refs/heads/for-next
+    old: 4d957f6055768d232d7c7c420bada06ec20bdf05
+    new: 9dd3e17173bfb8a430e24d40c1efd14d81142231
     log: |
-         ae3d55c97761655f61896d85d39706535e2d4ae2 irq & spin_lock: Add counted interrupt disabling/enabling
-         3cac74bd08ca36269bc6a7e1b9ddc68d73c44515 irq: Add KUnit test for refcounted interrupt enable/disable
-         b4010cf050069fb641b3df48dd7cca8fc08f86dc locking: Switch to _irq_{disable,enable}() variants in cleanup guards
-         f573028d02826489320c7892f6cb16d6f61e5c9a sched: Remove the unused preempt_offset parameter of __cant_sleep()
-         d9e41caeab8ec5502cab6ae8ff54f0b8fc163f74 sched: Avoid signed comparison of preempt_count() in __cant_migrate()
-         8150e52c04a088320c9ea2aedeb413237b4c9bb3 preempt: Introduce PREEMPT_COUNT_64BIT
-         8ca4d77d7b1530dd83d1ea504574401ca2998b1f arm64: sched/preempt: Enable PREEMPT_COUNT_64BIT
-         e3b20c2bf93e830edae90a4ec55711ce326cecd2 s390/preempt: Enable PREEMPT_COUNT_64BIT
+         06e00315ca73928bb8c81fa1f9e369a37c61320e RDMA/hns: Initialize seqfile before creating file
+         ac1c5387287939cbf64c9fff9a806fd1d4fcd077 RDMA/hns: Add write support to debugfs
+         d0c4051a6830d924ccb3e9ec61d279655c2e5127 RDMA/hns: Support congestion control algorithm parameter configuration
+         4d575fcf8fdbae5c10ccf646ef13fe65df83bef9 RDMA/bng_re: Remove unused variable rc
+         79678bea399052f96ae414ba87448e4afe47042d RDMA/siw: use kzalloc_flex
+         9dd3e17173bfb8a430e24d40c1efd14d81142231 RDMA/hns: Use named initializer for pci_device_id array
          
