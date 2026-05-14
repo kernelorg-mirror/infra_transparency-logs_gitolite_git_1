@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5423505996863495410=="
+Content-Type: multipart/mixed; boundary="===============3095392775152348276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 14 May 2026 04:29:46 -0000
-Message-Id: <177873298644.1806331.2474889477006325120@gitolite.kernel.org>
+Date: Thu, 14 May 2026 04:29:49 -0000
+Message-Id: <177873298927.1806421.17910054377188134985@gitolite.kernel.org>
 
---===============5423505996863495410==
+--===============3095392775152348276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,49 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2c3f468717231305523ddcd94d91c0d5e4a72419
-    new: 0cec77cfd5314c0b3b03530abe1a4b32e991f639
-    log: revlist-2c3f46871723-0cec77cfd531.txt
+  - ref: refs/heads/mm-unstable
+    old: e34b9050cc8ac5a1cf5c5ecc29eb7339b2354a82
+    new: 444fc9435e57157fcf30fc99aee44997f3458641
+    log: revlist-e34b9050cc8a-444fc9435e57.txt
 
---===============5423505996863495410==
+--===============3095392775152348276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c3f46871723-0cec77cfd531.txt
+Content-Disposition: attachment; filename=revlist-e34b9050cc8a-444fc9435e57.txt
 
+4185701fcce6b426b6c3630b25330dddd9c47b0d net/sched: netem: fix queue limit check to include reordered packets
+986afaf809940577224a99c3a08d97a15eb37e93 net/sched: netem: only reseed PRNG when seed is explicitly provided
+01801c359a74737b9b1aa28568b60374d857241a net/sched: netem: validate slot configuration
+51e94e1e2fef351c74d69eb53666df808d26af95 net/sched: netem: fix slot delay calculation overflow
+90be9fedb218ee95a1cf59050d1306fbfb0e8b87 net/sched: netem: check for negative latency and jitter
+5bd6252b9df1030b31095f9f5d34f92a0ea5db78 Merge branch 'netem-bug-fixes'
+2d9f5a118205da2683ffcec78b9347f1f01a820e net: airoha: fix BQL imbalance in TX path
+3854de7b38be742cf7558476956d12414cb274f2 net: airoha: stop net_device TX queue before updating CPU index
+e070aac63b42bf81f4dc565f9f841ff47e6c992f net: airoha: Do not wake all netdev TX queues in airoha_qdma_wake_netdev_txqs()
+bde34e84edc8b5571fbde7e941e175a4293ee1eb net: airoha: Do not read uninitialized fragment address in airoha_dev_xmit()
+d3aeb889dcbd78e95f500d383799a23d949796e0 net/sched: sch_choke: annotate data-races in choke_dump_stats()
+59b145771c7982cfe9020d4e9e22da92d6b5ae31 net/sched: sch_fq_pie: annotate data-races in fq_pie_dump_stats()
+2674d603a9e6970463b2b9ebcf8e31e90beae169 vrf: Fix a potential NPD when removing a port from a VRF
+9e6bf146b55999a095bb14f73a843942456d1adc ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
+23f0e34c64acba15cad4d23e50f41f533da195fa net: usb: rtl8150: fix use-after-free in rtl8150_start_xmit()
+adbe2cdf75461891e50dbe11896ac78e9af1f874 net: usb: rtl8150: free skb on usb_submit_urb() failure in xmit
+8d0189c1ea98b56481eb809e3d1bdbf85557e819 spi: amlogic-spisg: initialize completion before requesting IRQ
+a9bc28aa4e64320668131349436a650bf42591a5 NFC: trf7970a: Ignore antenna noise when checking for RF field
+dca922e019dd758b4c1b4bec8f1d509efddeaab4 Merge tag 'xsa48x-7.1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+3d07ca5c0fae311226f737963984bd94bb159a87 net/sched: taprio: fix NULL pointer dereference in class dump
+a469feed399da791f890b3448622121e97a07f3b selftests/tc-testing: add taprio test for class dump after child delete
+c4047e7075b303b952a595f901b0f022c2403206 Merge branch 'net-sched-taprio-fix-null-pointer-dereference-in-class-dump'
+5b0c911bcdbd982f7748d11c0b39ec5808eae2de net: phonet: do not BUG_ON() in pn_socket_autobind() on failed bind
+b3b6babf47517fde6b6de2493dea28e8831b9347 ipmr: Free mr_table after RCU grace period.
+4438113be604ee67a7bf4f81da6e1cca41332ce4 neigh: let neigh_xmit take skb ownership
+cc427d24ac6442ffdeafd157a63c7c5b73ed4de4 ibmveth: Disable GSO for packets with small MSS
+2b9f6f7065d4cfb65ba19126e0b35ac4544c3f3a tcp: make probe0 timer handle expired user timeout
+3bc179bc7146c26c9dff75d2943d10528274e301 netpoll: fix IPv6 local-address corruption
+241ee17ecb6be210f7b231b2a81bfb68871950d0 ASoC: aw88395: Fix kernel panic caused by invalid GPIO error pointer
+ada95e5e603bc6e353ee029f2ba7a7d9a42ad018 tools/selftests: Use a sensible timeout value for iperf3 client
+e64e03b478e2da7093564819e903932fca2ddfa1 tools/selftests: Add a VXLAN+IPsec traffic test
+fa90a3145c0340c3f624206a81637c542254ea1d xfrm: Don't clobber inner headers when already set
 0a7b5221b5b51cc798fcfc3be00d02eade149d69 ALSA: caiaq: Fix potentially leftover ep1_in_urb at error path
 b32ae47a2b0a1fb4bd4942242847966d9b178222 ALSA: caiaq: Don't abort when no input device is available
 c39f0bc03f84ba64c9144c95714df1dc36150f6d ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
@@ -1018,37 +1050,5 @@ f9de478463bd6a9b7a7f278db496133a2eecdff2 mm/swap, PM: hibernate: fix swapoff rac
 58e9842b4e01ff318a7472d054ad7b8992c9083f mm/swap: remove redundant swap device reference in alloc/free
 b82af7706794b32cf69de72e1fe4ba3866186c0d mm/swap, PM: hibernate: atomically replace hibernation pin
 444fc9435e57157fcf30fc99aee44997f3458641 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
-0b232bad3e5f66f5da61c2f3c41b6764fa9c5e6e drivers/base/memory: make memory block get/put explicit
-3f1fd84dcb934dd54eb4abbee696079ca9c4eb69 mm/damon/sysfs-schemes: fix double increment of nr_regions
-51ac39145569c099eaafdea4406101feedfbd0fe mm/damon/lru_sort: validate min_region_size to be power of 2
-b722b00e2a915aa15c5adb863ec527d865f6ece5 mm/damon/reclaim: validate min_region_size to be power of 2
-18b984123d030de9b13f7ad9225fc4998c642225 mm: process_mrelease: introduce PROCESS_MRELEASE_REAP_KILL flag
-61e3370a4f3a98c66aaf04f3992797b48f130e34 mm-process_mrelease-introduce-process_mrelease_reap_kill-flag-fix
-e392ef72a530ca344dc2bd5201526cd6192067f3 mm/percpu-internal.h: optimise pcpu_chunk struct to save memory
-e0400157b6b7c76fcdd018fb43dfc8f34c9aa1be mm/khugepaged: fix inconsistent MMF_VM_HUGEPAGE flag due to allocation failure order
-19e9b39f0cec5270f7b859fd392f65088a230dcf mm/shrinker: avoid out-of-bounds read in set_shrinker_bit()
-84cd900683c93e82ea22a5722ae393d3678a862e percpu: fix wrong chunk hints update
-de8d6fe9e7aedc3dfb800bb00732621d22055db6 percpu: do not trust hint starts when they are not set
-56ebffb307ed4685271f11a255e3a46cb6bc9e8f percpu: introduce struct pcpu_region
-82821162508b920354ff3fb577cd9a600874569e percpu: fix hint invariant breakage
-13d44a7bdd6701bef65e1c40f02c4e3ace7175b9 maple_tree: document that "last" in mtree_insert_range() is inclusive
-c069b6179774600352eb64d560e6a1c0ab2b4e19 mm/readahead: add kerneldoc for read_pages
-8b5c9f504336adb3679a9469f5aae5e671417269 mm/readahead: simplify page_cache_ra_unbounded loop counter reset
-91c9e540ec558350c1f39c501754d083b49342a7 lib/test_meminit: use && for bools
-0a85293e72c1be132e645eea57bb30369cd25657 selftests/mm: ksm-functional-tests: fix partial write handling
-ac68435cec0747e44ae8292cd3237c0ab2a48afc mm/mseal: use min/max in mseal_apply
-cbd7b985bb1012bd70852ef1bbed119f51e8b090 mm/hugetlb_cma: restrict hugetlb_cma parameter to gigantic-page alignment
-592ebf65b60d2fe4f5124c1972d35b18b498c159 mm/mmu_notifier: fix a begin vs. start typo in the invalidate range comment
-2ac3a373dc90175cba35e286f194f39cb6b1f168 mm/readahead: no PG_readahead on EOF
-e4fa38488dc0f5f2829c295f491c162f228e29cf mm, swap: avoid leaving unused extend table after alloc race
-79da2b9f5bf22869eab97e463dac0016a581b90a lib/test_hmm: use kvfree() to free kvcalloc() allocations
-5a142532e12b67f8e5dbbf6a9f7a5beba50e5cc5 userfaultfd: ensure mremap_userfaultfd_fail() releases mmap_changing
-c2f0405f01005b979dd65d77c10c99d78d2dcffa mm/shrinker: simplify shrinker_memcg_alloc() using guard()
-1b0a7e55a55b55cadd4477f6a8f9edfb8fa0f2bf mm/khugepaged: avoid underflow in madvise_collapse for sub-PMD MADV_COLLAPSE
-4815c1a8e3df5438088c25461e7c1d5b559feca4 selftests/mm: fix incorrect mmap() error handling with NULL instead of MAP_FAILED
-02a10af80a5bc7190db522a9b566f5ff85e4e728 tools/mm/page-types: fix typo in madvise() error message
-7ceaf0525b3709087e0c50ed0b97c2d41008a8c9 tools/mm/page-types: fix ternary operator precedence in sigbus handler
-76aebccb9b22b6bd949c2a2f7175059e013db440 tools/mm/page-types: fix kpageflags option argument in getopt_long
-0cec77cfd5314c0b3b03530abe1a4b32e991f639 mm/filemap: fix page_cache_prev_miss() when no hole is found
 
---===============5423505996863495410==--
+--===============3095392775152348276==--
