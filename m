@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 14 May 2026 08:23:37 -0000
-Message-Id: <177874701727.1977632.11442256366978443122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Thu, 14 May 2026 08:35:19 -0000
+Message-Id: <177874771989.1987257.16327433170116735194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
   - ref: refs/heads/testing
-    old: 7dbac7680eb629b3b4dc7e98c34f943b8814c0c8
-    new: 742b04d0550b0ec89dcbc99537ec88653bd1ad90
+    old: a77d172177f3754ebd70123c78c75a6efa9eec2a
+    new: 41c4d3b26f5e23609cd4b5ca561a399a097daabe
     log: |
-         742b04d0550b0ec89dcbc99537ec88653bd1ad90 xfrm: Check for underflow in xfrm_state_mtu
+         41c4d3b26f5e23609cd4b5ca561a399a097daabe xfrm: Reject excessive values for XFRMA_TFCPAD
          
