@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5910298721459843616=="
+Content-Type: multipart/mixed; boundary="===============6011097625304329945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 14 May 2026 16:58:50 -0000
-Message-Id: <177877793036.2639740.16392767414661678851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 14 May 2026 17:00:54 -0000
+Message-Id: <177877805467.2642886.3206722938917767223@gitolite.kernel.org>
 
---===============5910298721459843616==
+--===============6011097625304329945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 5e797c5d07038c724d4ed85a10d1016f575a39e5
-    new: 446ccff1b11b73a53cf35c4c15b1d5a8225d8dee
+  - ref: refs/heads/t1000
+    old: d54878433b77819fb954f578169b5e7a14c8f6b8
+    new: e9608c00d1f1d4397ee39138037f32cc4f3ab47b
     log: |
-         44984aaf1aa727ff944dd4b72fcf069d08b0056d clk: samsung: exynos850: mark APM I3C clocks as critical
-         446ccff1b11b73a53cf35c4c15b1d5a8225d8dee Merge branch 'next/clk' into for-next
+         091b4c86c0310f93ccc384062eb205fb1daa4e42 iio: adc: ti-ads1298: add bounds check to pga_settings index
+         a19e0d230ff56db05937e177b55ffee7a7dc9724 iio: light: veml6075: add bounds check to veml6075_it_ms index
+         e9608c00d1f1d4397ee39138037f32cc4f3ab47b iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
          
 
---===============5910298721459843616==
+--===============6011097625304329945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1778777928 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1778777928-e92deecb6a3835c3708ffd31cb72426de77668ff
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778778059 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1778778052-0895e4c656595066e841d1d8d26c339f5df30521
 
-5e797c5d07038c724d4ed85a10d1016f575a39e5 446ccff1b11b73a53cf35c4c15b1d5a8225d8dee refs/heads/for-next
+d54878433b77819fb954f578169b5e7a14c8f6b8 e9608c00d1f1d4397ee39138037f32cc4f3ab47b refs/heads/t1000
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmoF/0gQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15nDD/wO22doA3NPBVRBic9G2PYl5nRUOZAoqBSj
-qBss1zfBr62nuyYXxCncDRyf+rcNxlwixUMFxk/dcocg5sqp3dcazaAX4JcFCjUZ
-toO8QMiejtk2ASOQ/21f/f+EMeZ2WLmcq4EjHKBRKINOQqpRAmo1fSVOWLuGSuTF
-umyAjj0Vugmc2GgKPIZR9kT5DUgDo9KThA734DKMY7uV7pS/03Tw+qOkl+n5XVi9
-WW0SlYjZnxu0LnwRDGDPBDwHh4z0E2pvmxiaj3/0T7ricwQ8ZFDW9m8cbb5trIlO
-aQh3SlpmBXWITdzpaYrmRl4w9SE8zfjznPF1h2JVRPRk0+S0UYHSjiDq5wqwKD7Z
-jaT38mpSxXdJRZ5mvwcjEaQMYr7l2D7KHlZZ6s5EmSaC8CqfUGOhkgni9E3Au8cQ
-g6XtAGEKcaJLrHpxQleS1cl8qPrq/lgjnRkHszqC+2qhY95gErgxjV6DzTCA24yE
-uPgit4mP2PySOntNQS/+K9XbwnatAo0fTYuu0Fp/bdKHUs1OWW92rMXV8z/fAEtU
-XNt3MCHb0yqN3ot+C3PCEQxqVZgcuErv11IB35om146OC14i5+fFqlu3+ApgLXBj
-erELnKuAur+h0f4boz34oUHIzHfni+Nc5CJM/0FgPB4iRAnvgoO3tnnDzXP2jBye
-jdPNcdaj6Q==
-=RuEI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoF/8sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JWQP/R2ET8vGemwaxcYp7LDc
+YvoSvfuP6CAA5vMoYhIaTn6ycKF3mE5ZE+sgxDlwarXWmwsPqs4bSgRLFQyyLSrI
+HynxVoC9CB+TXGQWc4suZK3J7JRf+2EQrp+mGP10Pk4syegf/EHEALWv9sUfWCo9
+hNuurFbGtZ6C0ASsdA6Ck80bWphWGk9x380hlio20W1RVXxPSRbV890fK1V8kF7j
+F69RyTN38qsbcPaDXXrh2axRBzwEyGLmjKjpMrUDxEfikhH00EtG6zLZHpwL8uco
+8qkf83+qisWYY/Zx9K1CSJ1R9HePrFTUpQGmxxySbLz3U0QpLw9GbjI2RxRl7FGe
+KQPqyc7UnQm4sRO/S8vGuAhhi9SzvbzkGhScvVRT8MzwXemDPzPZymnflkPTx7ab
+elQguQQl1fjSVtPBvVST1C8/lq7O6N/1crVNFi1Y5Tc6lBCJn/vHjLWj1uEa84o9
+a/Hm/4QpRbbLNxwVFMNXJmtjMVXz+xrXj0IwBh0Dwe21i7ERQUzDuDu4+Ovn8BjM
+lRq3i+bW62kH8q36ocBK0rZt66v/40BNK9c9xVH5Rp6pjnqE40/AkNA+pLCE/V/F
+1zrgegDHEFhcXs+0yhxLU0NMfOyTzq3gvpMjN2wDqUJbq/A/oH+6CmGa9AfQWf3D
+hf8Zz0HArfZsX4D6iSBCVuNa
+=efZR
 -----END PGP SIGNATURE-----
 
---===============5910298721459843616==--
+--===============6011097625304329945==--
