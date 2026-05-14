@@ -1,51 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2211913898427277633=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 14 May 2026 13:00:06 -0000
-Message-Id: <177876360620.2183272.9284249621990285433@gitolite.kernel.org>
-
---===============2211913898427277633==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 14 May 2026 13:13:16 -0000
+Message-Id: <177876439692.2191854.3857251220412795469@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: 5b31044e649e3e54c2caef135c09b371c2fbcd08
-    new: 67ea9d353d0ba12bdbc9183ff568dead9e949b80
+  - ref: refs/heads/dt/next
+    old: 76b86d050bd53e0c89e19d8f78b241c4527dac9e
+    new: 0b6b12c5dcce16e604d4cde953bef46531b98571
     log: |
-         67ea9d353d0ba12bdbc9183ff568dead9e949b80 mm/slub: hold cpus_read_lock around flush_rcu_sheaves_on_cache()
+         1e54c31b9cbbb42162e2e4317c18c8a8b350a79d drivers/of: validate live-tree string properties before string use
+         0b6b12c5dcce16e604d4cde953bef46531b98571 drivers/of: validate status properties in reconfig state changes
          
-
---===============2211913898427277633==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1778763601 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1778763601-de7a7f86e58d9d3ab2db3f7e5d58b08c803f2a70
-
-5b31044e649e3e54c2caef135c09b371c2fbcd08 67ea9d353d0ba12bdbc9183ff568dead9e949b80 refs/heads/slab/for-next-fixes
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmoFx1IbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaJOQH/jRfkIIzvhJ5lmJ0mkJh
-UDKkIFNihSvFbf8GDG/lE/iOg4Ow1B45wXvSn7oExhKw8553vvfLNWvk66W42Evg
-ggJNyEAAsRZspMThuM3HmITUihLjfVhaJtMPoOCSRfquxbzWMuQ1OsaxjWoiH5C/
-s/HSG3VsbM4JAtZQdomuIqkNbnhC+OV+w3ACMNgSYLCVqyFZuikp3vNkMafKdxyt
-14dbc6aq2pzvtD7uxYdzE+P5EaYFT5nioFHgm/sgAd4kTCOd4G7WBGQONvaouanY
-9zyFBjxBEyvSyxHzO0N/nEvYhd3AY3LYPpzkhNaCdhgAHaCEgl3lq/+HLpGqn2n7
-DHg=
-=fdlM
------END PGP SIGNATURE-----
-
---===============2211913898427277633==--
+  - ref: refs/heads/for-next
+    old: 76b86d050bd53e0c89e19d8f78b241c4527dac9e
+    new: 0b6b12c5dcce16e604d4cde953bef46531b98571
+    log: |
+         1e54c31b9cbbb42162e2e4317c18c8a8b350a79d drivers/of: validate live-tree string properties before string use
+         0b6b12c5dcce16e604d4cde953bef46531b98571 drivers/of: validate status properties in reconfig state changes
+         
