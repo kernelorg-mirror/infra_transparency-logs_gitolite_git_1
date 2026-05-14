@@ -1,65 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============2629957800889478031=="
+Content-Type: multipart/mixed; boundary="===============3678374726929053222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 14 May 2026 16:58:08 -0000
-Message-Id: <177877788897.2639010.5773335521031476410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 14 May 2026 16:58:32 -0000
+Message-Id: <177877791249.2639396.9585385973137788759@gitolite.kernel.org>
 
---===============2629957800889478031==
+--===============3678374726929053222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
+  - ref: refs/heads/fixes
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: dce77afa1e18f32624c431de494bad670f624338
+    log: |
+         78ee734b36284d82454e87a92094fdb926985b47 clk: samsung: gs101: Fix missing USI7_USI DIV clock in peric0_clk_regs
+         f133bd4b5daf71bccdde0ad1a4f47fac76a6bfb1 firmware: samsung: acpm: Fix cross-thread RX length corruption
+         b66829b17f6385cc9ffbcbe2476d532d2e3121ad firmware: samsung: acpm: Fix mailbox channel leak on probe error
+         b4a38606991c0fad165f754db554961aadac247d firmware: samsung: acpm: Fix dummy stubs to return ERR_PTR
+         9dadf5a788164dc460a4f25e4e8798de510d63d5 firmware: samsung: acpm: Add memory barrier before advancing RX pointer
+         5ae6310453c7b1bc7848196a9acbd33584c4be75 firmware: samsung: acpm: Fix false timeouts and Use-After-Free in polling
+         a7569019007a448826571f880d0010b7f1945e12 firmware: samsung: acpm: Fix missing LKMM barriers in sequence allocator
+         10313b4cca783ef2e38b2a76dc42dda481d7ebf3 firmware: samsung: acpm: Fix infinite loop on sequence number exhaustion
+         dce77afa1e18f32624c431de494bad670f624338 Merge branch 'fixes-clk' into fixes
+         
   - ref: refs/heads/for-next
-    old: 4eda0dac7a2807c0bb628a1931b4f67d945c3758
-    new: 0a783a6686c96847d74874dbea38fa0e6b1f6c12
+    old: 16d9141005c9c4bbf90c7cdc80c77b4b629bb012
+    new: 5e797c5d07038c724d4ed85a10d1016f575a39e5
+    log: revlist-16d9141005c9-5e797c5d0703.txt
+  - ref: refs/heads/next/clk
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 44984aaf1aa727ff944dd4b72fcf069d08b0056d
     log: |
-         67de69ef2a780efd71b222652a048ee6aaf45e42 memory: tegra114-emc: Do not print error on icc_node_create() failure
-         0a783a6686c96847d74874dbea38fa0e6b1f6c12 memory: tegra114-emc: Simplify tegra114_emc_interconnect_init() error message
+         44984aaf1aa727ff944dd4b72fcf069d08b0056d clk: samsung: exynos850: mark APM I3C clocks as critical
          
-  - ref: refs/heads/mem-ctrl-next
-    old: 4eda0dac7a2807c0bb628a1931b4f67d945c3758
-    new: 0a783a6686c96847d74874dbea38fa0e6b1f6c12
+  - ref: refs/heads/next/dt64
+    old: 47d4dc90181c8ffa9ebcbd058e312873a46aeaca
+    new: ae326b14b2a5a5e426bea0210b984ee8dc5ed0bb
     log: |
-         67de69ef2a780efd71b222652a048ee6aaf45e42 memory: tegra114-emc: Do not print error on icc_node_create() failure
-         0a783a6686c96847d74874dbea38fa0e6b1f6c12 memory: tegra114-emc: Simplify tegra114_emc_interconnect_init() error message
+         14b0c168c7038f1d9e50f27e47d8e285f52cd2a3 arm64: dts: exynosautov920: Add syscon hsi2 node
+         ae326b14b2a5a5e426bea0210b984ee8dc5ed0bb arm64: dts: exynosautov920: enable support for ufs controller
          
+  - ref: refs/heads/fixes-clk
+    old: 0000000000000000000000000000000000000000
+    new: 78ee734b36284d82454e87a92094fdb926985b47
 
---===============2629957800889478031==
+--===============3678374726929053222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1778777887 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1778777886-28e417affcee3ee0e6c5fddb117c36eba5838342
+pusher krzk@kernel.org 1778777909 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1778777909-ec017732734877fc9395fa3c88e2f79ed774e3ec
 
-4eda0dac7a2807c0bb628a1931b4f67d945c3758 0a783a6686c96847d74874dbea38fa0e6b1f6c12 refs/heads/for-next
-4eda0dac7a2807c0bb628a1931b4f67d945c3758 0a783a6686c96847d74874dbea38fa0e6b1f6c12 refs/heads/mem-ctrl-next
+254f49634ee16a731174d2ae34bc50bd5f45e731 dce77afa1e18f32624c431de494bad670f624338 refs/heads/fixes
+16d9141005c9c4bbf90c7cdc80c77b4b629bb012 5e797c5d07038c724d4ed85a10d1016f575a39e5 refs/heads/for-next
+254f49634ee16a731174d2ae34bc50bd5f45e731 44984aaf1aa727ff944dd4b72fcf069d08b0056d refs/heads/next/clk
+47d4dc90181c8ffa9ebcbd058e312873a46aeaca ae326b14b2a5a5e426bea0210b984ee8dc5ed0bb refs/heads/next/dt64
+0000000000000000000000000000000000000000 78ee734b36284d82454e87a92094fdb926985b47 refs/heads/fixes-clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmoF/x8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18xrD/9TTC+tkBhB7/o1zhBbo5NvImrAWg9xJgKh
-irgR4Cb8k6keBbh/i7E7lqWM0ponUjvhBKSPjodkCzyEGUA777eQzsU8TlH/g0nB
-4J7eOh7Eq4wOkAtmneLImI7r1VQd1JUyZ7pf/AOxPBGgqGOFNKL3Hkyj6RQMkC5S
-gezCpjkzKly0bujBftLkG+qc6iIUOuT8DOnWca+sJB49oV0tYQZbIOaguOsdnVJY
-/myaUd1rhmiUIfQ973PaoraRgVPdKA+ygwhRhT4Xyfjd75YvPhNo8eAqtDYrDRlj
-1zdKIPHnNNv5h95CGSaLCh8lTgz08Xmhqi7mtmPmrDwCZ9JtOymdciYqw+8le4Qk
-Jfw6TGNPW7FAMsUk9No53iCcF/z6M6Bfr0QGgicYKouy0EmjHqaGNFiCCVhu/3en
-20uIA5gkWwSnPGPl/Bi+5sPdLEdmHUgPcoqLEKSZF6TpT7y1BFzs5DK09fUFZpvC
-iknibsHauXKinq62OVhqU4HzEMo5sDQ74rhZ8mVn2KsEzjxbwjtPmkVfNpFZ/Hwn
-LRcfzFrXik2ebR3K/2dFGVfIiwYsQ6hEH3DSn/LJ4tHishsOdKvjPPZ9yHZtE/Hb
-Wa11CETyWWxQ90b8oeXHumxI4chU5ZlfPRih1f5deo5neYQXKugZ0t+3bdljdmSh
-jp5KsraVVg==
-=VBjh
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmoF/zUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+UKD/0VMPrlnnoWKXp83Pj0VTzz7YZODQjTpbJX
+rRR36u0TVXHqC7VcEJ767O0WtfRiBDF6T3XG0YbHvNLrZ4ZQS4VzwGAkHDKRok5c
+KQEXgpdeBYm7BJY2jSkSyq/6pPCqxD5kpT0V/ODrjM0NDmseM5UXMjnbk89ZwxmT
+Hot0T6u0ZSjXw/d/cUR3y2Y60bbOwSrOaIuojK2Vcye8bDZSbl2YRPg10UMgKZgH
+4fEo3WHW/J6sW5LI9TAhYTP24+xy7SvffmxtMHLr1aKcwQ4He5I/QvJAYzkEjCaS
+mlkOF+TkIAFR1ORnOx4ICdVaa9ljxC/oJnlBygd/khGVgwXjpI1WxsHAcWJa07FW
+a5O9hvRXkMHmBBfGdBHKUys6FwUba2NefZhv/4SqzSSYnuUXk5f8oz08PZo7xOy9
+ETzTYnyy2NxHt0goKagVZBHd6Bv/bzzcO2HLtqVwHhR7dOFilHo2jR0mZwZj6XjS
+K3soiYe3bJaUGJoa8kwJ21hREx8JqLmVsTw/awJC+AZdU7iVWJgrXAXVDfpgu45P
+R/bA2pU15SwExY100JGh/huqwUxemdH7E8wBXi4Zg0lvwjT+NgbP9WFjIljuKGXS
+XrXZZdhoTNwymtYwx6ZnmJNTGvJEPvhRWSX4JcDVBZrR4U2aECZb2gmq5KVO2fD2
+kxpZMbwwvw==
+=jDPa
 -----END PGP SIGNATURE-----
 
---===============2629957800889478031==--
+--===============3678374726929053222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-16d9141005c9-5e797c5d0703.txt
+
+14b0c168c7038f1d9e50f27e47d8e285f52cd2a3 arm64: dts: exynosautov920: Add syscon hsi2 node
+ae326b14b2a5a5e426bea0210b984ee8dc5ed0bb arm64: dts: exynosautov920: enable support for ufs controller
+78ee734b36284d82454e87a92094fdb926985b47 clk: samsung: gs101: Fix missing USI7_USI DIV clock in peric0_clk_regs
+f133bd4b5daf71bccdde0ad1a4f47fac76a6bfb1 firmware: samsung: acpm: Fix cross-thread RX length corruption
+b66829b17f6385cc9ffbcbe2476d532d2e3121ad firmware: samsung: acpm: Fix mailbox channel leak on probe error
+b4a38606991c0fad165f754db554961aadac247d firmware: samsung: acpm: Fix dummy stubs to return ERR_PTR
+9dadf5a788164dc460a4f25e4e8798de510d63d5 firmware: samsung: acpm: Add memory barrier before advancing RX pointer
+5ae6310453c7b1bc7848196a9acbd33584c4be75 firmware: samsung: acpm: Fix false timeouts and Use-After-Free in polling
+a7569019007a448826571f880d0010b7f1945e12 firmware: samsung: acpm: Fix missing LKMM barriers in sequence allocator
+10313b4cca783ef2e38b2a76dc42dda481d7ebf3 firmware: samsung: acpm: Fix infinite loop on sequence number exhaustion
+dce77afa1e18f32624c431de494bad670f624338 Merge branch 'fixes-clk' into fixes
+5e797c5d07038c724d4ed85a10d1016f575a39e5 Merge branches 'fixes' and 'next/dt64' into for-next
+
+--===============3678374726929053222==--
