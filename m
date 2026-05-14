@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7773766742514964482=="
+Content-Type: multipart/mixed; boundary="===============5158542981990888812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 14 May 2026 06:58:34 -0000
-Message-Id: <177874191493.1913950.13470268898576348788@gitolite.kernel.org>
+Date: Thu, 14 May 2026 06:58:58 -0000
+Message-Id: <177874193843.1914230.11319408499146711532@gitolite.kernel.org>
 
---===============7773766742514964482==
+--===============5158542981990888812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4d034938b6b1bdfb8319daea0c33bdf0356fe149
-    new: f9d1d8203d9a4546db1ce98a8cb3e85f19d0a706
-    log: revlist-4d034938b6b1-f9d1d8203d9a.txt
+    old: f9d1d8203d9a4546db1ce98a8cb3e85f19d0a706
+    new: 1196e304db58189264bb5953b4e8da7e90cda615
+    log: revlist-f9d1d8203d9a-1196e304db58.txt
+  - ref: refs/heads/tip/urgent
+    old: 8dfad97705278ab4f09b6ff22337059fd89c8566
+    new: fadcc60e933c0aeb704e818d1f3e7a5d303a9563
+    log: revlist-8dfad9770527-fadcc60e933c.txt
 
---===============7773766742514964482==
+--===============5158542981990888812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d034938b6b1-f9d1d8203d9a.txt
+Content-Disposition: attachment; filename=revlist-f9d1d8203d9a-1196e304db58.txt
+
+2dd1dccd4d098eb04acda3a6b5ed923f4dfdb4c8 Merge branch into tip/master: 'irq/urgent'
+38d9c0377c3fd549f73c782336db6531b3d57883 Merge branch into tip/master: 'sched/urgent'
+fadcc60e933c0aeb704e818d1f3e7a5d303a9563 Merge branch into tip/master: 'x86/urgent'
+fa1cd9a6c240409c478610254dede46f3a9f2936 Merge branch into tip/master: 'irq/core'
+570039d7125548c735c65b743b879d1c89d62146 Merge branch into tip/master: 'irq/drivers'
+9fafcf4cb1a5820161f9c03c72749c1bab79d096 Merge branch into tip/master: 'irq/msi'
+3649ce506acc6efbb29d8510520ed8bca7362518 Merge branch into tip/master: 'locking/core'
+648a15603fdf1fe7e613af855c70bd5036b66b5a Merge branch into tip/master: 'objtool/core'
+3baef02890a73a5952f247143872ba6552bbe022 Merge branch into tip/master: 'perf/core'
+bcfff6b1f61958738f8a68c35fca7341e1677b3e Merge branch into tip/master: 'sched/core'
+a6be7e849dd3bb0db42de05f83846b997a6629f7 Merge branch into tip/master: 'timers/clocksource'
+f0f491a70f08d7ae4426cf2c394e2b4a229a2e52 Merge branch into tip/master: 'timers/core'
+e171c5411ed057460112b0caf8e092648fefc828 Merge branch into tip/master: 'x86/cache'
+062e128650368dad06a9c5f868f1d2ac3d4777a0 Merge branch into tip/master: 'x86/cleanups'
+0c2f14621fac372870b4c0aef28210888b56b82a Merge branch into tip/master: 'x86/cpu'
+df34e96d27321e327844ab0a6be11d35de2d595b Merge branch into tip/master: 'x86/microcode'
+8e373bb070a60ce3688abd733d5f8f6533b52d3e Merge branch into tip/master: 'x86/misc'
+81a634e993f047502739daaf97d3aaafd54eff79 Merge branch into tip/master: 'x86/mm'
+0bbbd370710435e94d8a9777a1a1786f85eb0e0b Merge branch into tip/master: 'x86/sev'
+1196e304db58189264bb5953b4e8da7e90cda615 Merge branch into tip/master: 'x86/tdx'
+
+--===============5158542981990888812==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8dfad9770527-fadcc60e933c.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 0cfe660559e857d7c00ab86c73e4510ce069086f KVM: s390: pci: Fix aisb calculation
@@ -44,8 +75,6 @@ d4d215e5b81ba5acb17752cab12c514a8062bada KVM: arm64: Fix __deactivate_fgt macro 
 5130d450d1488e62e1b5310f41910a3c7320e827 KVM: arm64: Seed pkvm_ownership_selftest vcpu memcache
 8234409ffb656970e2f5b29e416f041419980bef KVM: arm64: Pre-check vcpu memcache for host->guest share
 effc0a39b8e0f30670fe24f51e44329d4324e566 KVM: arm64: Pre-check vcpu memcache for host->guest donate
-3aa8f9fce8602d722948df641c7ca2828ee0a2f5 x86/cpu: Introduce a centralized CPUID data model
-fa6dcbc69ad495eeea315870278100a554a4ca18 x86/cpuid: Introduce a centralized CPUID parser
 577a8d3bae0531f0e5ccfac919cd8192f920a804 KVM: Reject wrapped offset in kvm_reset_dirty_gfn()
 2b72f1674e427c56e3772c5ccf785fdda2138820 KVM: x86: Fix Xen hypercall tracepoint argument assignment
 5bd1ddb7911ba7e94b61cf429970963f1b22dd76 KVM: nSVM: Never use L0's PAUSE loop exiting while L2 is running
@@ -58,9 +87,8 @@ ef7e0c51d9c4b029d2f9b20bee1a94ba1b3356d5 Merge tag 'kvm-s390-master-7.1-1' of gi
 2d5d3fc593c9b7e41bee86175d7b9e11f470072e KVM: VMX: introduce module parameter to disable CET
 1f63dd8ca0dc05a8272bb8155f643c691d29bb11 Merge tag 'fixes-2026-05-13' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 e1914add2799225a87502051415fc5c32aeb02ae Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-5d330d652d7a455b2215c38e7b0c6149c6f8225d hrtimer: Fix the bogus return type of __hrtimer_start_range_ns()
-5a6238c98a266438b3cd63e10c4364e660fd0187 Merge branch into tip/master: 'timers/core'
-88c443c2e239abf5a1e111eebe1cc88f1807386b Merge branch into tip/master: 'x86/cpu'
-f9d1d8203d9a4546db1ce98a8cb3e85f19d0a706 Merge branch 'linus'
+2dd1dccd4d098eb04acda3a6b5ed923f4dfdb4c8 Merge branch into tip/master: 'irq/urgent'
+38d9c0377c3fd549f73c782336db6531b3d57883 Merge branch into tip/master: 'sched/urgent'
+fadcc60e933c0aeb704e818d1f3e7a5d303a9563 Merge branch into tip/master: 'x86/urgent'
 
---===============7773766742514964482==--
+--===============5158542981990888812==--
