@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 14 May 2026 11:57:42 -0000
-Message-Id: <177875986295.2134608.15679528907433962186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 14 May 2026 12:11:07 -0000
+Message-Id: <177876066791.2144939.16289746012513552386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: dbf314940adce0c6bc1f73a27fa09b2b1236b51a
-    new: 7557d67a6057362a65ad03a03cbefe7f03523003
+  - ref: refs/heads/timers/core
+    old: 5d330d652d7a455b2215c38e7b0c6149c6f8225d
+    new: c8d32a0389fb97873285327ef4543a1431e54733
     log: |
-         7557d67a6057362a65ad03a03cbefe7f03523003 ARM: dts: socfpga: arria10: Increase JFFS2 rootfs partition size
+         c8d32a0389fb97873285327ef4543a1431e54733 timers: Fix flseep() typo in kernel-doc comment
          
