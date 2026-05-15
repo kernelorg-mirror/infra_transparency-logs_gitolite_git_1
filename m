@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1262291726292333366=="
+Content-Type: multipart/mixed; boundary="===============0773173560856567459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Fri, 15 May 2026 10:39:06 -0000
-Message-Id: <177884154603.3498705.5269250633498217616@gitolite.kernel.org>
+Date: Fri, 15 May 2026 10:39:34 -0000
+Message-Id: <177884157422.3499024.16330277578114913225@gitolite.kernel.org>
 
---===============1262291726292333366==
+--===============0773173560856567459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nathan/linux
 user: nathan
 changes:
-  - ref: refs/heads/clang-fixes
+  - ref: refs/heads/clang-fixes-for-next
     old: 4f96b7c68a9904e01049ef610d701b382dca9574
-    new: 5d6919055dec134de3c40167a490f33c74c12581
-    log: revlist-4f96b7c68a99-5d6919055dec.txt
+    new: c2ce0c7ca3f05632d11ee5b30a9eb9c883c4684e
+    log: revlist-4f96b7c68a99-c2ce0c7ca3f0.txt
 
---===============1262291726292333366==
+--===============0773173560856567459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f96b7c68a99-5d6919055dec.txt
+Content-Disposition: attachment; filename=revlist-4f96b7c68a99-c2ce0c7ca3f0.txt
 
-ac33733b10b484d666f97688561670afd5861383 rxrpc: Fix missing validation of ticket length in non-XDR key preparsing
 27ae4bcf4df480eb7588e01de8f3c4fb74b11d30 Merge branch 'rxrpc-miscellaneous-fixes'
 55b2984c96c37f909bbfe8851f13152693951382 rxrpc: Fix rxrpc_input_call_event() to only unshare DATA packets
 0422e7a4883f25101903f3e8105c0808aa5f4ce9 rxrpc: Fix re-decryption of RESPONSE packets
@@ -1050,5 +1049,6 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
+c2ce0c7ca3f05632d11ee5b30a9eb9c883c4684e Disable -Wattribute-alias for clang-23 and newer
 
---===============1262291726292333366==--
+--===============0773173560856567459==--
