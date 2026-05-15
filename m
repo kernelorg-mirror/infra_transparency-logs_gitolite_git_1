@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1767608752807395924=="
+Content-Type: multipart/mixed; boundary="===============5041991113032437965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 15 May 2026 12:33:59 -0000
-Message-Id: <177884843987.3603299.8477138896713115930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 15 May 2026 12:48:18 -0000
+Message-Id: <177884929854.3613545.6513976390218536042@gitolite.kernel.org>
 
---===============1767608752807395924==
+--===============5041991113032437965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8166921b85eb5560c8f4ce6023bfb5da6b6a3787
-    new: 7f886b6e0e52a0f5b738838d446534bcc1a32edb
+    old: 7f77a409592092557ee6c62f62c29d8fabeaeead
+    new: 3fb24ed1923fac4073c416f13fa46800ecd7f999
     log: |
-         7f886b6e0e52a0f5b738838d446534bcc1a32edb mark CVE-2026-46333 as assigned to a git id already
+         2cfaae96209b2ddd76ef98c6ccb65fb49d2fbf12 move queues off to the side
+         35a9f4d523c7e4358519852012dc873f4bd1700e copy some patches back
+         3fb24ed1923fac4073c416f13fa46800ecd7f999 Linux 5.10.256
          
 
---===============1767608752807395924==
+--===============5041991113032437965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778848443 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1778848436-d52743801173df008f41e31c1235f45d0562332f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849304 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1778849296-c7de1c2ea347687aff04e7dd534d884447fbb74c
 
-8166921b85eb5560c8f4ce6023bfb5da6b6a3787 7f886b6e0e52a0f5b738838d446534bcc1a32edb refs/heads/master
+7f77a409592092557ee6c62f62c29d8fabeaeead 3fb24ed1923fac4073c416f13fa46800ecd7f999 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHErsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6TUQAMWLrWxO2nc1OvWnxggO
-ec5EQC2ADAT3DBj/dcE7NPvtUM7vS+nVE/fRwXxfG6jXwpHkMxg6YfrBPzGJMRg2
-ZoUd1Lf6iXiuc3rsxO3pbtCo16VSGsZpm5B6CX9o16Jrq3qR0uVAIivy/eVIgviz
-7P3/7E0q2AesybjBkD9+QvFEkzKOpWofKjnN4HAmaqhwtx3NGrITZDqE1ubK9H2k
-G4Z/XbQRXy3/OM1Uh0lhifpea0A/HrLl7fzkF2xpf6THX+71d58qBOGw3poFRo9Y
-kUgm9P76VIhlvK868z5Chz+As2EIFI02GLgjg4uXLkPGvnl+CuZOURr01DJAlp+G
-iksvNM4dTRyHmxWg2ph6l8MynJ03SCuI8vSuRE2igF7NZvBovt6QgVfbIZ6sN6DQ
-NG8XJ+hHkn/pRQ3j//VbMjQ60PA+Z39bzCYZiZ4ErXdcsYy9o3e2rU1RHY5iVfsa
-ZruF26CCbhK+E/6G321t07D/8z+penzCTX+zOsW7q5wNVD6KiH6ntk8UgibUQpFv
-p4VmWquys8sVmlDLuTe3Aaji3NaPzKKw0fqDJEDArtCvQdeQhhxIH3Qpr66Iin+B
-OMvUpjONA/pAIH58TXcMdDYW3KdHX7Tm2FE5XmYuBeRT1PSG6kjnfaRBYmDa8hF9
-JN04B5T7spK/zqwxYgHmAdTH
-=RH05
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFhgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mKUP/0UqzQl8V7wNbI9wGkje
+tHEoIy8GUqzRFjPAWscxxVmj6rKrHg+v9kByownVQ72Aocc+yCDrnnYO7088lvGx
+uMrjhB4RSNL/Kv4pUOEtL9nx4Iily/gaF7AhKDsWLTbYISpbhlJ8KroapioFGzbw
+H64VMOP8QdrbvIyLRDfPnRaSN/pxY2x1GM+Ienhbp7RuPsb+rk6BkPLeeVw4AJUO
+O3dYymO9B/A3Z4xw8FemTCom06xjVi8gi1/ii28rMUSUAucewa3AYWbzMjWSbirw
+LoXCHPzwa4SWJPkTFw5lBVkRhFTLm5NZww44qS+H9WcrIBFPbD7+1C0WMr45JVOC
+VQRClWrkY2WZt685JzLhQcnGLt4EckhZy9x1tsWPUoW185WR8SJ5iSMY45uQUazY
+trh1H8DPa1ovfp2c+Qup7LfLDHN/fPbzOsBOQSoog3lNBTDmfRkGcMBtp7h4iVM7
+gYgcM4YcFIgk7kYI3Q+Xab3ExbHBB9hjYAsBmxzPvhs2NuBWydcuvL/HHvyeQ58x
+ODB/mtqCbwmY7ItG9HLdVqIBJMe1zz2AVHQo4f6cgf7FmXRTyZrS/at3XXfkLTtd
+UVIosOSeBVITmsBFYprgNv4xp7Rgd1weEjFewu+zyYqqbZ0ibSKrEs9yW4VwR/7P
+xLrsvMcluM/7HN7Srj/vv2gG
+=xqNJ
 -----END PGP SIGNATURE-----
 
---===============1767608752807395924==--
+--===============5041991113032437965==--
