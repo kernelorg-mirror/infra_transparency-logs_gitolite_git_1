@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 15 May 2026 16:49:56 -0000
-Message-Id: <177886379604.163478.12894667416310644545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 15 May 2026 16:51:19 -0000
+Message-Id: <177886387989.166280.17399737373709265203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 593980175389a05793f6060aa20e626330960395
-    new: a828abbb897657451d96ad7bf20f1893ac983bb9
+  - ref: refs/heads/riscv-dt-for-next
+    old: 48c7771b3c792b153872a2eff67e4cbcb77e4054
+    new: 3869417f8996fb076998342d0db560fdd795a3a6
     log: |
-         a828abbb897657451d96ad7bf20f1893ac983bb9 bpf: make bpf_session_is_return() reference optional
+         3869417f8996fb076998342d0db560fdd795a3a6 riscv: dts: microchip: remove redudant enabling of syscontroller
          
