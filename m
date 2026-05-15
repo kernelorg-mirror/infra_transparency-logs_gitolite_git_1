@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 15 May 2026 09:47:06 -0000
-Message-Id: <177883842627.3457125.6969319967907713827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Fri, 15 May 2026 09:47:37 -0000
+Message-Id: <177883845710.3457417.16066497718807709524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
   - ref: refs/heads/renesas-r8a73a4-dt-binding-defs
