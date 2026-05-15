@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1090196585167426924=="
+Content-Type: multipart/mixed; boundary="===============0166866111876017681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 15 May 2026 12:50:50 -0000
-Message-Id: <177884945005.3643121.18126378005858808336@gitolite.kernel.org>
+Date: Fri, 15 May 2026 12:50:52 -0000
+Message-Id: <177884945251.3645528.5473153486432380822@gitolite.kernel.org>
 
---===============1090196585167426924==
+--===============0166866111876017681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 3b9f64db049687c0d38b4b3ef2f297f0642179af
-    new: 4d922539ad7df6e3c64e4a0c246d976e4e1f8d41
-    log: |
-         8f907d345bae8f4b3f004c5abc56bf2dfb851ea7 ptrace: slightly saner 'get_dumpable()' logic
-         ff6fc65b3bf73acc5ee71919154d830ad5431362 x86/CPU/AMD: Prevent improper isolation of shared resources in Zen2's op cache
-         4d922539ad7df6e3c64e4a0c246d976e4e1f8d41 Linux 6.6.139
-         
+  - ref: refs/tags/v6.6.139
+    old: 0000000000000000000000000000000000000000
+    new: fd5f16489cafd676242f1416801a2922d32b482b
 
---===============1090196585167426924==
+--===============0166866111876017681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849455 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849458 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1778849448-f60961b9056b594a97f13ec7350bbb35c5bb6e90
+nonce 1778849451-247d57c0b7f85dec00db8b9c9bb332dbaea897c3
 
-3b9f64db049687c0d38b4b3ef2f297f0642179af 4d922539ad7df6e3c64e4a0c246d976e4e1f8d41 refs/heads/linux-6.6.y
+0000000000000000000000000000000000000000 fd5f16489cafd676242f1416801a2922d32b482b refs/tags/v6.6.139
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFq8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1VkQANNPNlWZncT4WoW6TuY6
-i03q7sWMIDIxYWqUQ1kpMQaTKRPeXlQmESl5YExm+kdII95JOQYmN2nDZQF+LE3Q
-tA8xxP4jPMvo3MiNIS68FALvbd5jd4bj7td6VvDWxpFM4Ashvg11XzkB2zIAQLeG
-seL2fbZmQWJlS3EEUoYsRSye9l0qUyu6R4nyWu4Ia7QKXeXO6FOqJ/a7uKWpN9za
-is4uOT1VyJ7Zirh/XToQBGPKBG6XKBT8s/Ecx72FwI6Js0RiOwxno1Dt2biRk/QC
-yo6BQcrp3nBReKN3ypfrJl2EcTrzjPnkSCBHHtaNDZZ0OU/U23Yo7AWIcvpb5ao3
-uqw+rS4USo782Muc+7NbABmeJ3wVF1bpzff3zCnhk9d8/M5yvea0kOYXvzHrDIRr
-kv2ABcF4A7MS8cyuSnWwM8J+BQOpill0d102hl2/hS1mdzG74Nq1h3zI6ahKOp1u
-2rCYZ7MRgCovYC0jkbP226Rye1tzbL2YSemsKtntCwZ6oFqK1f7zvkk93RRSDgOq
-PytL7kZYawC50XOSbfRDDUnk2NpQMQcTAKlF+Xb045YM38G1KtiiMZDYGr/9CNLu
-3uQL/Db9BqynF+BQKGrf7i5FujlqBhuioFVr/zIs6mgCt69Q7mt2v+DlnLcRYEJE
-/osE6fLtPJ2om8kvZQef9OJr
-=rdh+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFrIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5REP/39VZMXkd9lfBHq9bDLf
+G2bfH7SMUtN3xTNK9D0T6Krn5Z+rLCHsJsRBgdXepc8vc2YGp3H/QL7cbuPg2SwX
+Glvj3YjAvX5xVthdDbSWxPQqac5SAPuMjV1BVqKMS+SMNur6HrYIVsCaLEUHwfho
+sjZvNs9UNtRpQsh+GGVdeZAHYxl84TyME/7JP7zB7vxrJVzxaEqUPJ/5o1YXSxvx
+xoxQtRrG9aX4zWgZ4knxVqdzERZUaEjORNmrZ0S5WR2DryU3o8Hp5FgV3alvZzvL
+JdHCYH+LyD1BIHzwtGo5e4jZOUIPD8Ms9uxn859/cz9Asv/dgx7Kh5XfYjZjpnXE
+M6UpXQyk+N+DAXTmrTbjyXdZpe4m9UOlkeuDjdLH9gbgk2JF9k1h1cEGswwQTuaA
+YGJ+8FJTI0AnRizk9IGRVd3sJBm5PQYjc3iyVtSE+zrftWHRuJRlwcdbKL8gj+0E
+8Bj3CKx1Myy3DJswKXXZvBjzP+v/OaZq8yMqv8yi5skAqALdhpXYm/ZmwqRNi8n+
+WmRfosl1mBDC575vCvDZ9r7Lxf4nNbdo/KwgPm51CprOzxiYTyxKaqH/E9hJchAv
+i6mDner1U3WB8e1c/nt36DllpD7y1x+XKOiRYzmxkMS3vqJh/X7EScZrGhinwd+u
+sn7U6yfhgGpj8jnzJvMT1GpR
+=N46Z
 -----END PGP SIGNATURE-----
 
---===============1090196585167426924==--
+--===============0166866111876017681==--
