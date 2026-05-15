@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 15 May 2026 22:58:07 -0000
-Message-Id: <177888588729.458760.17777846337586113588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 15 May 2026 22:59:04 -0000
+Message-Id: <177888594480.459158.3509660566600184124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: 5db89c99566fc4728cc92e941d8e1975711e24b5
-    new: 915fab69823a14c170dbaa3b41978768e0fe62fc
+  - ref: refs/heads/master
+    old: a0b1df86b0c951beb896d468f200be7fd44631e3
+    new: 0d5f7e6c8cda159a19dda198ec37d961dcdfbe1a
     log: |
-         915fab69823a14c170dbaa3b41978768e0fe62fc ipv4: raw: reject IP_HDRINCL packets with ihl < 5
+         4df3a7eb1742c6c7792cfe5c33fc3ab430d014e5 share/mk/configure/build-depends/gcc/cc.mk: $CLANG_FLAGS: Add -Wno-pedantic
+         51c694bca3417be5ddab93e95c7ff16025c42695 man/man3/dlopen.3: EXAMPLES: Simplify use of dlsym(3)
+         fd592de472fd192eb041f74459642537d0e9c0ce man/man7/landlock.7: Adapt compatibility in code example to ABI v8
+         0d5f7e6c8cda159a19dda198ec37d961dcdfbe1a man/man7/landlock.7: Simplify references to ABI versions
          
