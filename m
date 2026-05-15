@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1378191686273134373=="
+Content-Type: multipart/mixed; boundary="===============8074508113525284127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Fri, 15 May 2026 14:51:45 -0000
-Message-Id: <177885670540.57560.12227197272815045327@gitolite.kernel.org>
+Date: Fri, 15 May 2026 14:51:46 -0000
+Message-Id: <177885670666.57643.6059321152217246369@gitolite.kernel.org>
 
---===============1378191686273134373==
+--===============8074508113525284127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
-    old: 709061c5d234851b7697b324829156d846cd5f35
-    new: e27108800bb8a8be08300ce14d532f7225e4c50f
-    log: revlist-709061c5d234-e27108800bb8.txt
+  - ref: refs/heads/docs-next
+    old: 80898bfea18d158bad12c579f2acc5470a7069b6
+    new: 4f07ec51d453a00358f627263768a987a05cf046
+    log: revlist-80898bfea18d-4f07ec51d453.txt
 
---===============1378191686273134373==
+--===============8074508113525284127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-709061c5d234-e27108800bb8.txt
+Content-Disposition: attachment; filename=revlist-80898bfea18d-4f07ec51d453.txt
 
-aed3c3346765e4317bb2ec6ff872e1c952e128ab Documentation: security-bugs: do not systematically Cc the security team
-a03ef333fbd6cd861c8457c3d055ee3643a9baad Documentation: security-bugs: explain what is and is not a security bug
-4bf85afb9f3ecd7c3b5d15a85b0902f8e725cd06 Documentation: security-bugs: clarify requirements for AI-assisted reports
-561458db0d6b08b4e4956c6e4456d7781b18676f docs: security-bugs: add a link to the threat-model documentation
-f2e65e4e5b4b4b9ecf43f03c3fdbe8c9a8a43a9e docs: threat-model: don't limit root capabilities to CAP_SYS_ADMIN
 99a71b06441bc1b0f38c67e66ec89f7185972413 Merge branch 'docs-fixes' into docs-mw
 17a92946d7c06ed07b77d4fb1873d68eac28ae08 docs: sphinx-static: fix typo "wich" -> "which"
 8d624d687d1b6f7f913e28ec4bcc73e7ac59e9fa docs: reporting-issues: replace "these advices" with "all of this advice"
@@ -61,5 +56,6 @@ d848b1b099111c3b905a690e7e1a2600302e3b94 docs: admin-guide: fix typos in workloa
 6e13c0aac620ec418f1a47f6a3bb9230a6677e3f docs: admin-guide: fix stress-ng command examples
 7fb658ede0404e8dac52bb196bc0457c5db03f19 docs: admin-guide: clarify perf bench all behavior
 e27108800bb8a8be08300ce14d532f7225e4c50f docs: admin-guide: add IGNORE_DIRS example for cscope
+4f07ec51d453a00358f627263768a987a05cf046 Merge branch 'docs-mw' into docs-next
 
---===============1378191686273134373==--
+--===============8074508113525284127==--
