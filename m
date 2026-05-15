@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 15 May 2026 01:38:30 -0000
-Message-Id: <177880911087.3033209.4406308087159540520@gitolite.kernel.org>
+Date: Fri, 15 May 2026 01:38:56 -0000
+Message-Id: <177880913602.3033513.14400172532001148301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 679b7a57fda5543b447cb17503d4a8a26f0725e1
-    new: f83da91c7e038c8753c44a85dc9fe2fcf68db17a
+  - ref: refs/heads/hwmon-next
+    old: e187896fd2fc7f803da2f751c4bbf38268956369
+    new: 50d515d1630571c0074fa2500cc5284eabb0bd5f
     log: |
-         f83da91c7e038c8753c44a85dc9fe2fcf68db17a dt-bindings: watchdog: qcom-wdt: Document IPQ9650 watchdog
+         9bff31df7ba4c6bec712b639fa02a187b3d1d96d hwmon: Drop unused i2c driver_data
+         1f8408330a1d14a4a5c7f3cde17a0fb21a2f6edb hwmon: Use named initializers for arrays of i2c_device_data
+         50d515d1630571c0074fa2500cc5284eabb0bd5f hwmon: (nct7802) Add time step attributes for tweaking responsiveness
          
