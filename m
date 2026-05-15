@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4264368673391472310=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 15 May 2026 16:29:14 -0000
-Message-Id: <177886255471.146256.5899480408229120476@gitolite.kernel.org>
-
---===============4264368673391472310==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 15 May 2026 16:31:44 -0000
+Message-Id: <177886270417.149187.14315074654797327469@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/tags/hardening-v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f456ebc66fca648424b3b818411e01d62e82b183
-
---===============4264368673391472310==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1778862553 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1778862552-bacc73ab9dde5e3c651487d4c7b0fca322f199ae
-
-0000000000000000000000000000000000000000 f456ebc66fca648424b3b818411e01d62e82b183 refs/tags/hardening-v7.1-rc4
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCagdJ2QAKCRA2KwveOeQk
-uwyNAP9xDsKqopIe4/pSu6njCSJrm2c4VDutRntgYR62ZXUJ2wD/XP7Pz65+ZUYE
-Lrhw6yIo/hbEPomH748+b1vye1lArQs=
-=r4BE
------END PGP SIGNATURE-----
-
---===============4264368673391472310==--
+  - ref: refs/heads/1GbE
+    old: 66182ca873a4e87b3496eca79d57f86b76d7f52d
+    new: 5db89c99566fc4728cc92e941d8e1975711e24b5
+    log: |
+         d2bfdbb69cf87676981b1043010b6224d84c6d3a rds_tcp: close NULL deref window in rds_tcp_set_callbacks
+         7d260c5d2d89eb2c8c528d54b576b3aae3e20231 net/mlx5e: Fix use-after-free in mlx5e_tx_reporter_timeout_recover
+         f84eca5817390257cef78013d0112481c503b4a3 net: skbuff: preserve shared-frag marker during coalescing
+         e8fb3de2a8effcaf62bec2c56b93d8bb480371d1 octeontx2-pf: fix double free in rvu_rep_rsrc_init()
+         f508262ae9f21fe0e6c0749948b9dc7dd5a62a70 tls: Preserve sk_err across recvmsg() when data has been copied
+         c9d08c8c4c5006d71b3c3c3c0dc41ebc46931951 net/mlx5e: Don't leak RSS context in case of error
+         8d0a5af8b1ba598e7340761729801624e7a9330e net/mlx5: Do not restore destination-less TC rules
+         c6df9a65cbb0fe7808a4b2872095f4c849b3196a net/mlx5: Skip disabled vports when setting max TX speed
+         5db89c99566fc4728cc92e941d8e1975711e24b5 net: ifb: report ethtool stats over num_tx_queues
+         
