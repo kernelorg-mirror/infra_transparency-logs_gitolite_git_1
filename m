@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Fri, 15 May 2026 07:22:28 -0000
-Message-Id: <177882974872.3345803.10429088363476841686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 15 May 2026 07:24:27 -0000
+Message-Id: <177882986755.3346646.10713525665850414786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/icc-next
-    old: 086a754f433793e48d7adf8153a70d3a064475a1
-    new: a24b55c5c084f6bf5a808ec1525f25d6c6a4ebe1
+  - ref: refs/heads/pwm/for-next
+    old: bc4518f9a9a8af95f10d6d8d09c5666cd4e86805
+    new: dbf7ba2de3afdb0e41ed960225f3acaaf1ca2d13
     log: |
-         8549642259cdb405e9815c4d55a7bb32114d42e6 dt-bindings: interconnect: qcom,eliza-rpmh: Add SDCC1 slave
-         caeab82fbe533711715242fc0c3f381c0e22ed21 interconnect: qcom: eliza: Add SDCC1 slave node
-         a24b55c5c084f6bf5a808ec1525f25d6c6a4ebe1 Merge branch 'icc-eliza' into icc-next
+         93e7e91dcce9c4be3b697168958c9da225a8d6a7 dt-bindings: pwm: marvell,pxa-pwm: Add SpacemiT K3 PWM support
+         dbf7ba2de3afdb0e41ed960225f3acaaf1ca2d13 pwm: pxa: Add optional bus clock
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: bc4518f9a9a8af95f10d6d8d09c5666cd4e86805
+    new: dbf7ba2de3afdb0e41ed960225f3acaaf1ca2d13
+    log: |
+         93e7e91dcce9c4be3b697168958c9da225a8d6a7 dt-bindings: pwm: marvell,pxa-pwm: Add SpacemiT K3 PWM support
+         dbf7ba2de3afdb0e41ed960225f3acaaf1ca2d13 pwm: pxa: Add optional bus clock
          
