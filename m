@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 15 May 2026 01:32:25 -0000
-Message-Id: <177880874546.3028992.17069593416773253057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 15 May 2026 01:38:30 -0000
+Message-Id: <177880911087.3033209.4406308087159540520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: 674822432a88e06583ab1c3834823055a4824fe5
-    new: 822d4a8e390a08ccfaf2abb347ae670b230b196f
+  - ref: refs/heads/watchdog-next
+    old: 679b7a57fda5543b447cb17503d4a8a26f0725e1
+    new: f83da91c7e038c8753c44a85dc9fe2fcf68db17a
     log: |
-         822d4a8e390a08ccfaf2abb347ae670b230b196f net: usb: usbnet: use proper ep number macros
+         f83da91c7e038c8753c44a85dc9fe2fcf68db17a dt-bindings: watchdog: qcom-wdt: Document IPQ9650 watchdog
          
