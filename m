@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8185561638658579588=="
+Content-Type: multipart/mixed; boundary="===============6585284597156522295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 15 May 2026 12:53:20 -0000
-Message-Id: <177884960059.3675495.7423453078481717026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 15 May 2026 12:53:28 -0000
+Message-Id: <177884960871.3675615.13720316027305325132@gitolite.kernel.org>
 
---===============8185561638658579588==
+--===============6585284597156522295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.18.31
-    old: 0000000000000000000000000000000000000000
-    new: 004a408af1cffb3c4c5afee5004df509cc1199f9
+  - ref: refs/heads/linux-6.18.y
+    old: 52dc660c85dbab60c07c8f1a716d68a4b7d4fc7e
+    new: 6c1de6e6aa8cf45b3b3dba510ad0f72df7c61618
+    log: |
+         2a93a4fac7b6051d3be7cd1b015fe7320cd0404d ptrace: slightly saner 'get_dumpable()' logic
+         6c1de6e6aa8cf45b3b3dba510ad0f72df7c61618 Linux 6.18.31
+         
 
---===============8185561638658579588==
+--===============6585284597156522295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849606 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1778849598-409044c6317248fbb0fcb119655952abc1692b7f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849613 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1778849606-b4773817a9ea9401cb6e8d69161bfff65ab7b3ac
 
-0000000000000000000000000000000000000000 004a408af1cffb3c4c5afee5004df509cc1199f9 refs/tags/v6.18.31
+52dc660c85dbab60c07c8f1a716d68a4b7d4fc7e 6c1de6e6aa8cf45b3b3dba510ad0f72df7c61618 refs/heads/linux-6.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHF0YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYgP/i5Y+fIps3HRs7XPaB0G
-0LQWbACjonOlY2HIqN5dJdn6xA5ok3oTVGnXGl48apBcyvNEJhTvHDilHyGvV89m
-ubgibx7cae//T6GjjZpUgSOo7f6ZTQUnWH3ZKOz7O4FDmpwwxspZOosA3JgibqJ6
-zD2weekpBblEHSVw3Mr9d3a4vMpbNEEXGIZNpKoabWTchPVtRGSHHESNv2BqxS9h
-o4EnyRLDk6aGSduK/W6WCIMmkDoWseIE7uRSZOrCOkwBOfIbD5EfnoK/hVUJ88nl
-RwY3xIUJDnbGpkBSnNKDz5vRsbMJsXkeAL5+bnQFZtINGXjYFYA69BpBh/Do2not
-CUOkB5FP2GE9RuwY+wD+snopRC3Bs2wZsa8Cjm22P5Vt3TD6mYgMPB7VXtZHBO6v
-EIo2/uuw/0PbHUzXTg+X0VWvRRPpvST41JFdGW6qh/adtLSQlfQ7Gl0QsWeM4DLd
-TfUueTjy2M2Tf+k4j9inqHMAroTBDubgHpBHtKtqPz9+/M8GKPv/2ks5APu7xgVF
-riGFEoDDMBUd9/U4LhYZ1qaS7f8aHZjE4+kZgh/sENcflge8PHJhlgalvk5q1Zzc
-TInEw3psPU3dJE5sOWRCD2KZyupRsoL9VGMI4TayjnlmoVbRzHWnvL+5tcwVqV5i
-lARqKG8ljR0m0oYLhy0rAu5Z
-=8+Ef
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHF00bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fk4QAJFRrb7Fmqu/weHD+d94
+7oY4D4QgG4i/+6obncUPmDXdEVh3hpu0b1CyHEQQYmbWznTRLyDSjE9uyexHVGrJ
+LUPkT98ud0yynJ6O2emHH1siBFpYYsTkkL5MRqFZM09Z9XTxOSg4xifReNL2b/29
+jSXDddVjdIeVWxyCUCnMx7cfA5aQ9vuZTlpZQMEtjB3KIw+4X577C7AiRAV7m2vy
+Ez+SxdtxeK60Xb9uXP91QJLugt8BdSa+cow2MOyfTl2IOgwbB9/WHCbt5zqOzkgu
+ijCrEdUqb0XtGLecZUWM2hhq0c0G7BLZTfDOg3EXn+93rwpyDpwYD3JfK3iaJQsU
+K5EdUM2pa0KAdkyQZmQ3VuSwHe5kDC3X+APvxQ8aUiR4+dmA5dbtKTQaxryNwul9
+z7gHnmN3bf3aakWur1/2k78155yAe+EnuxvOhAkGXuuIADeXeERxobBWk5qOEohb
+dMV6dPaHgjZcAB52YIJhCdl6Fj8kwnMyn/7KeZ9WCx4KEhX7iVtwKuDmcFEUwSho
+e74TR9PmbqUPwhjefEm+DPYEyPbZcvWbLFyf9vcmM96cua3JJbudthb3v6zyMc8b
+aaYyKxw5yWK0+Rxd1mGcF8zz468sPvkn7kCDCYS0z1FXLedaadxzgEzWYTb8esOj
+ATiRMkTc3r4ncgVBNbXzjEA8
+=xOOo
 -----END PGP SIGNATURE-----
 
---===============8185561638658579588==--
+--===============6585284597156522295==--
