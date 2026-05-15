@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 May 2026 02:30:23 -0000
-Message-Id: <177881222329.3074834.15278970988701048049@gitolite.kernel.org>
+Date: Fri, 15 May 2026 02:31:07 -0000
+Message-Id: <177881226752.3075353.456227278393333885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 5a30862dec5a70da0a9d259de3f87a7542cc95b2
-    new: 0d435a7ebcd4e97e47673c1ab6fb27f973a053ec
+  - ref: refs/heads/asoc-7.2
+    old: 4ff4fc6fea57c0fcf301bf8591ed337cd27dce64
+    new: f1e35606d618e9de98f08f305a06c18f74aae216
     log: |
-         b96fe527935b0671194bc436d7d78d3b0f87b2e1 ASoC: cs35l56: Drop malformed default N from Kconfig
-         c996a4418dd4ee45cd086586c04a1103e8160308 ASoC: ti: omap-dmic: Fix IS_ERR() vs NULL check bug in omap_dmic_select_fclk()
-         9c0f5bbff146f09f449dd528addeabfb68aef997 ASoC: cs35l56: Log SoundWire status updates only on changes
-         0d435a7ebcd4e97e47673c1ab6fb27f973a053ec ASoC: codecs: fs210x: fix possible buffer overflow
+         ab50528ab5b5dd282c43384d3e246068048e0840 ASoC: tac5xx2-sdw: Use new SoundWire enumeration helper
+         7c0acb8f766a5c861595d6de45b6751444c2680d ASoC: ti: omap-mcbsp: Remove mixed goto/scoped cleanup handling
+         5d9cb740cd38fa17247b4a62af135901fa5c4d9c ASoC: es9356-sdca: Add ES9356 SDCA driver
+         25b905940832c95674d2f11f40e6cea60ccb5a4d ASoC: Intel: soc-acpi: arl: Add es9356 support
+         f1e35606d618e9de98f08f305a06c18f74aae216 ASoC: Intel: sof_sdw: add es9356 support
          
