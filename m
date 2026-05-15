@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 15 May 2026 16:51:19 -0000
-Message-Id: <177886387989.166280.17399737373709265203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 15 May 2026 16:52:05 -0000
+Message-Id: <177886392504.166718.3862474629824196454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 48c7771b3c792b153872a2eff67e4cbcb77e4054
-    new: 3869417f8996fb076998342d0db560fdd795a3a6
+  - ref: refs/heads/pending
+    old: f69734ee2f0495b2d0fc88a227cd17806793064d
+    new: 5d1feff31f6479eea5599b4ffcda72c37d5aa7d4
     log: |
-         3869417f8996fb076998342d0db560fdd795a3a6 riscv: dts: microchip: remove redudant enabling of syscontroller
+         5d1feff31f6479eea5599b4ffcda72c37d5aa7d4 wifi: ath11k: fix use after free in ath11k_dp_rx_msdu_coalesce()
          
