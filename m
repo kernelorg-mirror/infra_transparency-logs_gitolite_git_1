@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 15 May 2026 17:10:38 -0000
-Message-Id: <177886503826.182572.4721013084804657194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 15 May 2026 17:12:11 -0000
+Message-Id: <177886513165.183370.1589942822874239107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/controller/mediatek-gen3
-    old: 3e30e7320a7bcdbc292cbfa3a20ce3f24a31d1a9
-    new: 2b16d6b9de2f00fd8ecc433b15205c18f8276b3e
+  - ref: refs/heads/master
+    old: 5e25076e8f58385855dca2ed1c0e9be56baa215a
+    new: 4b0ba3a0599ffda3a65dce14cee9557bd7791ba3
     log: |
-         2b16d6b9de2f00fd8ecc433b15205c18f8276b3e PCI: mediatek-gen3: Do full device power down on removal
+         4b0ba3a0599ffda3a65dce14cee9557bd7791ba3 tpm: tpm_tis_spi: Use wait_woken() in wait_for_tmp_stat()
          
