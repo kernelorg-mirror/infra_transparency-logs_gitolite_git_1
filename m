@@ -1,53 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============0138877195617030578=="
+Content-Type: multipart/mixed; boundary="===============0571325285789949972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 15 May 2026 12:49:17 -0000
-Message-Id: <177884935745.3614952.13843149733076198200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 15 May 2026 12:49:23 -0000
+Message-Id: <177884936306.3615198.14517115087081325551@gitolite.kernel.org>
 
---===============0138877195617030578==
+--===============0571325285789949972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.207
-    old: 0000000000000000000000000000000000000000
-    new: 98be275e9c082a8f055f07501476a2d2a78dd390
+  - ref: refs/heads/linux-5.15.y
+    old: de8dfb3f0278dbf02ec63612f0ebdf7b92870d58
+    new: 93741761e5e3fa630ddc1fc19a460ac42baece80
+    log: |
+         15b828a46f305ae9f05a7c16914b3ce273474205 ptrace: slightly saner 'get_dumpable()' logic
+         5da56147ff9af6822f138d6f6f6eed6b32973cbf x86/CPU/AMD: Add ZenX generations flags
+         dee88fdb249f8690d38c64f8002e8dd83b10c322 x86/CPU/AMD: Call the spectral chicken in the Zen2 init function
+         b9524a0996022d039bbe92f163a1de8c48050430 x86/CPU/AMD: Rename init_amd_zn() to init_amd_zen_common()
+         48b4a4c96e491ae4657d514b036f406bf2431a71 x86/CPU/AMD: Add X86_FEATURE_ZEN1
+         f5bc3aef7df46eaaf423d7413ab8833f704ae576 x86/CPU/AMD: Prevent improper isolation of shared resources in Zen2's op cache
+         93741761e5e3fa630ddc1fc19a460ac42baece80 Linux 5.15.207
+         
 
---===============0138877195617030578==
+--===============0571325285789949972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849363 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1778849356-2d8e6f629fbdabaaece343d5ad7989159d51d7f1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849368 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1778849361-b9207a688ceb721b1660d6a3c2e6f564701889ee
 
-0000000000000000000000000000000000000000 98be275e9c082a8f055f07501476a2d2a78dd390 refs/tags/v5.15.207
+de8dfb3f0278dbf02ec63612f0ebdf7b92870d58 93741761e5e3fa630ddc1fc19a460ac42baece80 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFlMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NEIQALlAMJognkVBh0nY+9LT
-6FlIiA3izJ9YPW7CI2+SqpvT6K9vsFuGZlvQx9UAb2OFUE2zzjJ1v4s4vYL/SA2M
-2CA/5GCEk72dgEWDZ5OKRD8SymKnOqB9Vhs1h6xZz/ajlpYQuJIQ2EC4goVlSVg/
-Nn9usyMXGbbHxAJlP7vpdjmME/BrAKwfIvTL+XkIOY6cT+vyjlhqldjKjU99vRh/
-Rpj14EYkXg61/+FZbM3JsNxxx2FA2jssxeqpJluBu6r0/9w6/MY8bLiMu5t08Qei
-Ox83E0RhPzERAPphd2s3MD7IOK7Ja6/uysJ9dGrCAoOYOHt+JDztt4DHDc9tFPVC
-X2zaR2vlRMFV0MAoUri2PgKTMYgorb8uwjRmxP/r1TQ99jZWqWVTvw2C/4FJW+rF
-KGcH1Lph2xTrfQvuTbD1C4CD/xVp+bUKNfMfsl0LvxI84MyUlEpmtmiUI0fZIucP
-zxGizJi0RkgpwLXciZdUmi0zTxTgnQLUe2ctEMRjLrLv95aofmQy5RdV0jnMXRVf
-xntFzjsHZQ/rr8Bau15S7dZUjHomYFk62Wt6gfoAe2oBDSnoZk60ztAEwOQYPRqJ
-ATV3jCw54osLHjnfs4qOt4mV5yyAM7JtvBwwOFyl8XHM6wlNZrvZW2e0xpYgtY3b
-O6r4gaHqZ6VP/rhr4r8Rblqj
-=eHj0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFlgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QMUQAKGcDJ8i6jk+6RrHJamT
+gfmCODvmzFUGjqn39M3etROCGNDSDyB2sg4xrDtyuDH0H5dqKIDacgGpJu+U+nkb
+lGpOMYgrarxQ2qk5QDIFX/esx0gPbihBeQDhRevOLtq7IvyIa9ZGgHbyOcLwWhbO
+vvClLWzn/y4sUdjdEJYiY2rf/nGk22U/o44s/Vd9fXJbmCyE5PuxVdallXNlcPka
+ZI6hhg68YShW8gfOsZmQM32k5o3mBOjZbzRAK4SArwipizsJ3TJ++YK2e0ub/H30
+1v1tkjG4pgfAyqGb/+F3k0AM4Cv7Zrgh84YuKOhLMV/ys51IKjOO2B7hrJ+Iru3J
+8TAGSLupc/6f5f5jR9LQjUocR7BCOA+jRpjG9/DkfTTxyKPtFM0GvZwG62YXw0VC
+IzPHRJf+j+5ph+9tW33v2amhfgAI3KvUbqOwnIDCQZzcNlFcKoY4/NtOavQlMg7H
+CouNiZUrvGI+hm3rUujIMPxRdky37v7kvIRKXILV3U5vJaHxYT0ePDnc3VSL0Ru3
+B3fE97VZ8VWrC0v+qyB0aoLRBTd1HqQGCrz7EMZbMzydU8rnbaFIIKzNgOIu0OVI
+YZG5C0dCS1gnC8qVVVNk+Yo8KiwtQxNnNIERZTr3BwIQoQJQkl/axwA9b4kpjv0b
+LaDhXTw+O9vZilgEhS3LGZAo
+=Hkjg
 -----END PGP SIGNATURE-----
 
---===============0138877195617030578==--
+--===============0571325285789949972==--
