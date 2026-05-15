@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7117006752069471284=="
+Content-Type: multipart/mixed; boundary="===============3478966481797806276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 15 May 2026 20:23:10 -0000
-Message-Id: <177887659014.327596.15117931651032145349@gitolite.kernel.org>
+Date: Fri, 15 May 2026 20:23:12 -0000
+Message-Id: <177887659246.327683.17851944382797182973@gitolite.kernel.org>
 
---===============7117006752069471284==
+--===============3478966481797806276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 878492af7d503f4b093ea903173500be00e9cbe7
     new: 822d4a8e390a08ccfaf2abb347ae670b230b196f
     log: revlist-878492af7d50-822d4a8e390a.txt
 
---===============7117006752069471284==
+--===============3478966481797806276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ ede165ba0bd0b91f388f43ff0df89afd34dd24c1 net: dsa: microchip: bypass dev_ops for
 674822432a88e06583ab1c3834823055a4824fe5 Merge branch 'net-dsa-microchip-remove-unnecessary-ksz_dev_ops-callbacks'
 822d4a8e390a08ccfaf2abb347ae670b230b196f net: usb: usbnet: use proper ep number macros
 
---===============7117006752069471284==--
+--===============3478966481797806276==--
