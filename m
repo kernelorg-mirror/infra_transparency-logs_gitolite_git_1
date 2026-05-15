@@ -1,23 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 15 May 2026 02:31:07 -0000
-Message-Id: <177881226752.3075353.456227278393333885@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3975073523727048760=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Fri, 15 May 2026 02:33:20 -0000
+Message-Id: <177881240064.3076169.2618533320867270678@gitolite.kernel.org>
+
+--===============3975073523727048760==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 4ff4fc6fea57c0fcf301bf8591ed337cd27dce64
-    new: f1e35606d618e9de98f08f305a06c18f74aae216
+  - ref: refs/tags/mkp-scsi-fixes
+    old: bbcd65bcae16b2b8ffaffbcfa730558156c0af7c
+    new: 1695ee4f378f0c6ab751bd0d7fa72814de858001
     log: |
-         ab50528ab5b5dd282c43384d3e246068048e0840 ASoC: tac5xx2-sdw: Use new SoundWire enumeration helper
-         7c0acb8f766a5c861595d6de45b6751444c2680d ASoC: ti: omap-mcbsp: Remove mixed goto/scoped cleanup handling
-         5d9cb740cd38fa17247b4a62af135901fa5c4d9c ASoC: es9356-sdca: Add ES9356 SDCA driver
-         25b905940832c95674d2f11f40e6cea60ccb5a4d ASoC: Intel: soc-acpi: arl: Add es9356 support
-         f1e35606d618e9de98f08f305a06c18f74aae216 ASoC: Intel: sof_sdw: add es9356 support
+         6ea68a8dc7d2711504d944811981a5304af7d7a9 scsi: sd: Fix return code handling in sd_spinup_disk()
+         b52a8d52c3125ec9a93106ed816582368de34426 scsi: isci: Fix use-after-free in device removal path
+         b71cb088b2e3427924a470fc43e7aedb8a40d2e3 scsi: target: tcm_loop: Fix NULL ptr dereference
          
+
+--===============3975073523727048760==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 75C5DE3D 1778812372 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1778812372-6c4414cabcf0b2f7fb0527cc698c1072df96c26b
+
+bbcd65bcae16b2b8ffaffbcfa730558156c0af7c 1695ee4f378f0c6ab751bd0d7fa72814de858001 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoGhdQACgkQ7ulgGnXF
+3j1Drg/+LDgGgBcCLnEZFbXXzLOH2hmLM41Kh6KoDIlN+KO4Atf7pllACalDdZkJ
+3+f+VM18mTJLIoiyouQZh+hmq36pUxNRjzUlTSkXNi3ixsClOCdsSgrttPEHwoQT
+fs263ISGmqnJC0jut1lE/KwCYNFvlLZvpO/m9El+8xoHJ7gef5jITuzorH1D9zVZ
+YK1wTSw5ws0BoC2Ya37q+cJ6VJ3k+HqdiJnh0qGibj9bthcTa9SaBSdVN1T+Bhot
+jIxW/VzJ5/gTCX685O88LmDb2R/JzA900feWaT8DKo+l9A9/vESfhxb61cK++TaY
+Rh86TwXMrCMRMDqkumIlk4dsSTcfW3LFQ0Segykz+cMQqJd4Zh8DduOz7DHzoK1T
+xCYNRYtNes6CEPlWxdYFtqR0OnI+WdL0ySIB6QzGJHyLwOOXd6RXSo+2O71kNB3F
+yFb1QY/6l38VoeZEAAMmuTlWegujAujWkbwccyAUtqglaBSAtQ76xdbNoS/O//fj
+y50bRrq6fDFxVlflQB2JbEULh/iWRoDyI3bLpJg+sV1WclcntUgVDV3k9ljwUj7Q
+EYaPLAMpWdE5A+iY4oyLzQBy1vvPx9lVk/fa/9K3Iw4VTqDFHGQN8ZVU49m8TNLL
+8dARXw2iyenhy8pNs2AIUb3aLfEmIQ5YXRSV6lnuiyHPrjM3Px4=
+=rSYi
+-----END PGP SIGNATURE-----
+
+--===============3975073523727048760==--
