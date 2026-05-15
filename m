@@ -1,61 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Fri, 15 May 2026 14:26:33 -0000
-Message-Id: <177885519368.38685.5149970531111113890@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6122134305868229994=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 15 May 2026 14:32:04 -0000
+Message-Id: <177885552436.42533.13562481956459696857@gitolite.kernel.org>
+
+--===============6122134305868229994==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/b4/hsr_ptp
-    old: 0000000000000000000000000000000000000000
-    new: 77c84fb75d2a53056b3eb0ee1f535e7df991e62c
-  - ref: refs/tags/v2.6.34-401.0
-    old: 0000000000000000000000000000000000000000
-    new: 687a1b8d0b959acfc2c6e315bd1ac5dc1fedc2b4
-  - ref: refs/tags/v2.6.36_rc3
-    old: 0000000000000000000000000000000000000000
-    new: ffa29b999bd6be9219b54abec5ca814e7f9c3432
-  - ref: refs/tags/v6.19
-    old: 0000000000000000000000000000000000000000
-    new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
-  - ref: refs/tags/v6.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
-  - ref: refs/tags/v6.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4ff7d63728ef2315d402a608cef1376248aa5c56
-  - ref: refs/tags/v7.0
-    old: 0000000000000000000000000000000000000000
-    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
-  - ref: refs/tags/v7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 559f264e403e4d58d56a17595c60a1de011c5e20
-  - ref: refs/tags/v7.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
-  - ref: refs/tags/v7.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f
-  - ref: refs/tags/v7.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
-  - ref: refs/tags/v7.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
-  - ref: refs/tags/v7.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
-  - ref: refs/tags/v7.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
-  - ref: refs/tags/v7.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
-  - ref: refs/tags/v7.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
+  - ref: refs/heads/timers/el2-vtimer
+    old: e793e78f4ead18e3dfe5a3a1be912a7ec5bc55d8
+    new: 68f053db5f31333d06942ebb297bc836f98ad062
+    log: revlist-e793e78f4ead-68f053db5f31.txt
+
+--===============6122134305868229994==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e793e78f4ead-68f053db5f31.txt
+
+f4d729be638093738e0b89fcf9de3a9f8135d806 ACPI: GTDT: Account for GTDTv3 size when walking the platform timer descriptors
+17f891779d0d4af26856369b4fb2dc1931565054 ACPI: GTDT: Parse information related to the EL2 virtual timer
+f403f3fae18517264253c8f7df84ce3e285d588e clocksource/drivers/arm_arch_timer: Default to EL2 virtual timer when running VHE
+8fc0d2cae71e5a5021a23d40b88c762eb065f58f dt-bindings: timer: arm,arch_timer: Fix requirements for interrupt description
+1f6acc6b4e1e49abf42728d80808b9ac681210fd arm64: dts: allwinner: Add EL2 virtual timer interrupt
+8660760495fe7aee58c55b9700b655fdc849a887 arm64: dts: amlogic: Add EL2 virtual timer interrupt
+89528a274cea15218f52c79a55c9876409aa4ff9 arm64: dts: bst: Add EL2 virtual timer interrupt
+c998126e66f928d9fc42fc6ac03f975f073c1960 arm64: dts: exynos: Add EL2 virtual timer interrupt
+2c1e5970bd9549b191cbca97a1d27dd2e67bd41b arm64: dts: freescale: Add EL2 virtual timer interrupt
+4642d993dd667dd38ddf559212ddfce7d2b2830d arm64: dts: intel: Add EL2 virtual timer interrupt
+3c87c61dddbe871d306481f9090939a8ef246c51 arm64: dts: mediatek: Add EL2 virtual timer interrupt
+6761334c6ef84e3a5c0c9094ace310b0a4aa8248 arm64: dts: nvidia: Add EL2 virtual timer interrupt
+5e21b2cb8c903cf34c99ec4c590c47048761b084 arm64: dts: qcom: Add EL2 virtual timer interrupt
+00f041149e646290be3a056eaf283466ecd025f6 arm64: dts: realtek: Add EL2 virtual timer interrupt
+d8612c03376732f827701decaf036f54d150d488 arm64: dts: rockchip: Add EL2 virtual timer interrupt
+cecc61b08dfa89ffb1040964879b7c158573e33e arm64: dts: sprd: Add EL2 virtual timer interrupt
+02adda1723fd55ba6911b840772ae86d40bb3897 arm64: dts: xilinx: Add EL2 virtual timer interrupt
+68f053db5f31333d06942ebb297bc836f98ad062 arm64: dts: qcom: Add missing EL2 physical timer interrupt
+
+--===============6122134305868229994==--
