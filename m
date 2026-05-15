@@ -1,20 +1,61 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 15 May 2026 14:24:35 -0000
-Message-Id: <177885507572.35684.9980982909142509542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Fri, 15 May 2026 14:26:33 -0000
+Message-Id: <177885519368.38685.5149970531111113890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/testing
-    old: 2d169cf19d712b0140966edcb3d85d3c9f095f52
-    new: 72b433287a88b4c8cb3c42f804c53d384a935452
-    log: |
-         75f8c56108883ea2e81fb32e4811e920a4912995 dt-bindings: iio: chemical: sensirion,scd30: Update maintainers field
-         72b433287a88b4c8cb3c42f804c53d384a935452 iio: light: vcnl4000: use lock guard()
-         
+  - ref: refs/heads/b4/hsr_ptp
+    old: 0000000000000000000000000000000000000000
+    new: 77c84fb75d2a53056b3eb0ee1f535e7df991e62c
+  - ref: refs/tags/v2.6.34-401.0
+    old: 0000000000000000000000000000000000000000
+    new: 687a1b8d0b959acfc2c6e315bd1ac5dc1fedc2b4
+  - ref: refs/tags/v2.6.36_rc3
+    old: 0000000000000000000000000000000000000000
+    new: ffa29b999bd6be9219b54abec5ca814e7f9c3432
+  - ref: refs/tags/v6.19
+    old: 0000000000000000000000000000000000000000
+    new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
+  - ref: refs/tags/v6.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
+  - ref: refs/tags/v6.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4ff7d63728ef2315d402a608cef1376248aa5c56
+  - ref: refs/tags/v7.0
+    old: 0000000000000000000000000000000000000000
+    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
+  - ref: refs/tags/v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 559f264e403e4d58d56a17595c60a1de011c5e20
+  - ref: refs/tags/v7.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
+  - ref: refs/tags/v7.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f
+  - ref: refs/tags/v7.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+  - ref: refs/tags/v7.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/tags/v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+  - ref: refs/tags/v7.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
+  - ref: refs/tags/v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
+  - ref: refs/tags/v7.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
