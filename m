@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2410481484234900868=="
+Content-Type: multipart/mixed; boundary="===============1272602210168547301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 15 May 2026 12:50:06 -0000
-Message-Id: <177884940615.3617036.14784591790052277843@gitolite.kernel.org>
+Date: Fri, 15 May 2026 12:50:10 -0000
+Message-Id: <177884941084.3617893.9585228549208051786@gitolite.kernel.org>
 
---===============2410481484234900868==
+--===============1272602210168547301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: ad16b162f21d970235ced0c7e36e960c227317e8
-    new: c27210688955656e93e26cffab0a82bbca4e5d2b
-    log: |
-         4709234fd1b95136ceb789f639b1e7ea5de1b181 ptrace: slightly saner 'get_dumpable()' logic
-         c4994f1311e390da3dc3d2a1a5eecfb6c81b174e x86/CPU/AMD: Add ZenX generations flags
-         8e88f24b17f0633647c3c5418840bb10accd5afa x86/CPU/AMD: Call the spectral chicken in the Zen2 init function
-         025ded6faf0533f51f83d1a5ba9fc7ede0d552ea x86/CPU/AMD: Rename init_amd_zn() to init_amd_zen_common()
-         63ff3e406c414da4ba901bae260b1210ae38e206 x86/CPU/AMD: Add X86_FEATURE_ZEN1
-         251497955f2314cd39d43191e81c6151dead4c7b x86/CPU/AMD: Prevent improper isolation of shared resources in Zen2's op cache
-         c27210688955656e93e26cffab0a82bbca4e5d2b Linux 6.1.173
-         
+  - ref: refs/tags/v6.1.173
+    old: 0000000000000000000000000000000000000000
+    new: 3abea44f78129ce55c2701422f316245a4426de6
 
---===============2410481484234900868==
+--===============1272602210168547301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849410 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778849415 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1778849403-c86175c8553a8b9735dfc83563837f7cfce6c5ca
+nonce 1778849408-c8f818259a632c168d5044c30d212f4a2a534da6
 
-ad16b162f21d970235ced0c7e36e960c227317e8 c27210688955656e93e26cffab0a82bbca4e5d2b refs/heads/linux-6.1.y
+0000000000000000000000000000000000000000 3abea44f78129ce55c2701422f316245a4426de6 refs/tags/v6.1.173
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jnwQAKE4+GdTcpiO1lwd4tC4
-iViuufcVk5DyGg7julqWTzpdtVQzYZw2F1Lq8Z0vnadh70QU4VN2gI28KuR5/kGq
-LOKj6GSogeZi5xjnahibLxm6Ownh8VVf24tOKZ+K8Zw8ELHO5vwfMuIPeFQArdvo
-FE9twxNXwuIgbcvrO92ilcW2srBMvboZk1LtC0opUSxBDNGRXRE4EF+d644DCVeU
-wrQY8Ok9tOruS3TDrCLWONRFuEhXSNA1DyC7Wp0n64C7pVv9Fwqo641fqkdEzb+0
-Q/8dgL57CE9jX9HIiVd+58PNlg98YpxHpQAAfmfla2IceIR15FSC6cnQUPvSUqoN
-qLtnrE5AmUVLyMjxyUC3TP/Z3tbzh16KEkDMAL8OKyPqwA+/qpnWW/tqJtZNMa39
-Dta4CGEx+tLEJj0Ev7dnjd2zfmT3EGyYgVFFmUiffj8yoln4a+rbSztHQ758IvWX
-90usCu66fIPjlcpih0cIxzFb/diGg2rdq7f6CWo4TpPLFAENGH2kp16tDCvIeaAf
-PhCT86/RJ40yczvK/aiTnHQs/YRIRt9RmvGCd7m06qnHzc4utU1Bqvdbj27O0jsK
-8b2Xxqya1mGF4MhJ9WMJEpgV5tPS9UHBmBBlUrkW+UDufclQe5ZLPH7PUbVgwC0T
-GCDaoXbzdOPhH8K0P6emcWGA
-=/H+x
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoHFocbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WkoP/1JGvmAKlJ3MZ+J2iD3/
+WlJ5UAiQekTX1zPTqGy8SnMKeMTEcSB6For2xFP+3ZlqB6dz4rz9sRyu9aBhUt3w
+slnvvXtQPZrDkvJnucOPv+YTtmAPhZE2CQLnmlqLqoIRGL2/OlEY3Tb4TeM+Y2oR
+DnwUOwUs2qGCLWpG//qsrqSuRa5P6490Q7mMpc/6cAsgRSeOX1/hiBMc6MwCzNbq
+5HUh6mjs0UKb1kgyvJxOIdzl+sM31WFLh994ZKO9JELzfSIDJ0vti6pO/64H9jzc
+Xt8tTXI59o0fTM9CZxapnaPpzB1u8Re6ajJ7EW0NAC17eszPx+37cIj8tbKNGMNS
+lOVAcmAkplkMXFClzT/KPoEI2cBB6k317oC4SHreX/G8pAbacGm8tPYX6AgA6OTu
+qPITLRKa8djMYK47td6+f0eo5S6ERpInGdT8vDZozhWpJ1kiBsxtX2DPydhDjfs3
+jzjdhguFeI+5weYG/glxLOOOJYA9G1Q6iM1VUEJK0ImjNSfjIIos8+6n0p9WVPHJ
+OCyL6Ahqh4eFOhXanDmu+yiQO59F69W7PGRj/GMGD1/w5BryrXZV5Ck/DPs78Zeu
+w7jn1XN3LLaxpV+MarvPDa96UEhaPw9yKG9IoWgNQF0d0hON6NK3bYilSGz/UHr+
+zdFugSrS1qWJkoE6JczVGtpQ
+=ju38
 -----END PGP SIGNATURE-----
 
---===============2410481484234900868==--
+--===============1272602210168547301==--
