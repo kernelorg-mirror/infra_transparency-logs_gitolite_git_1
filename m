@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 15 May 2026 09:47:37 -0000
-Message-Id: <177883845710.3457417.16066497718807709524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Fri, 15 May 2026 09:53:05 -0000
+Message-Id: <177883878560.3461475.977882692183197228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/renesas-r8a73a4-dt-binding-defs
+  - ref: refs/heads/b_rev
     old: 0000000000000000000000000000000000000000
-    new: 2abdc3dcf9780d070e55a99fdf8f93440c798b84
-  - ref: refs/tags/renesas-r8a73a4-dt-binding-defs-tag1
-    old: 0000000000000000000000000000000000000000
-    new: 974562eb328af0a3bb3df55a2c7b23571de9cc9b
+    new: e6b62cb6881cd650e9222fae6a0e9760a8e2d3cd
