@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6202599883420843113=="
+Content-Type: multipart/mixed; boundary="===============0434483060427914052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 15 May 2026 02:33:50 -0000
-Message-Id: <177881243088.3076780.1172965347337489841@gitolite.kernel.org>
+Date: Fri, 15 May 2026 02:34:19 -0000
+Message-Id: <177881245927.3077095.4105457753845390970@gitolite.kernel.org>
 
---===============6202599883420843113==
+--===============0434483060427914052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,70 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 98f69975d4c0434ca2e6e8cfa1d8d51647a20593
-    new: b71cb088b2e3427924a470fc43e7aedb8a40d2e3
-    log: |
-         6ea68a8dc7d2711504d944811981a5304af7d7a9 scsi: sd: Fix return code handling in sd_spinup_disk()
-         b52a8d52c3125ec9a93106ed816582368de34426 scsi: isci: Fix use-after-free in device removal path
-         b71cb088b2e3427924a470fc43e7aedb8a40d2e3 scsi: target: tcm_loop: Fix NULL ptr dereference
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: 123761bf6c80fd8857d8904a99d2c87c20f90c1d
+    new: e83659dbc03ab00c788330beae720459242ab5f2
+    log: revlist-123761bf6c80-e83659dbc03a.txt
 
---===============6202599883420843113==
+--===============0434483060427914052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1778812429 -0400
+pusher 75C5DE3D 1778812434 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1778812429-85e7cfe0fe557a9584e3f400ac69d341628df3f6
+nonce 1778812434-a84bd06312cc2b9b0bd721948cd24e1a6fad3065
 
-98f69975d4c0434ca2e6e8cfa1d8d51647a20593 b71cb088b2e3427924a470fc43e7aedb8a40d2e3 refs/heads/fixes
+123761bf6c80fd8857d8904a99d2c87c20f90c1d e83659dbc03ab00c788330beae720459242ab5f2 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoGhg0ACgkQ7ulgGnXF
-3j3sDhAAn97LL4qhVfDWsRUoku5ftnH3sCvqjQNwONuu4Rxuk0D7mO4qCKD89lOu
-IXqkEsZ/rhTlp3bWD2CAbTERiKyzw4nIa//LYSN3vgsdKWfF1XQOi4PAjNm5PMzv
-9iieGgOci7bYNHcjQ7q8eFR1cQrE8/PDeo/lqj14B3cp0t0d/JU4U3MbOjDhQOAN
-wXwXH5J3ohq8s/ju4SCqx9Rs69xBH67A7B+N583ov7xaZMNH53VT1m8M3bNU40kY
-Qy0vc3dGluCw3Cg2FXNjNQxLHsHliydIzXQUtqU8WWxVyHly+m8k6eQ/boJVVOWE
-269qZ8w7Py5ga2WbahL4+i6VDBu7LK37ukKg+ASkGCkpwO35XfXKK64kTftw/BvB
-U95oGlNcDPyhb24Z6mh4YlmIqIVqeutMIkbJVvorpYQoyQ5dfyNvnCM+Y9wlCXHl
-z/DJZfHxMn1oldgcw2ogbNmW+uF/12Is+P4NJARy5a408FgEc/ir1KBPyNY44hwn
-ii+3VRoIAu2RTAD+vn8v0DxWJJkjMW+/ZSdUTZOanhBrJrFiByIq9w8P6A6rSR+i
-wOvswYXvC6Oh5uSDEu8ptYdlCt+uQ5YmtDCFm8JhPgKWxgvqGxD+lUukSyuayA5J
-6/4u6Bl3XXk4RlJmhwVt9XJSosGqLgJcp+dh+CcjZ5qFhyzvbgk=
-=Thg9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoGhhIACgkQ7ulgGnXF
+3j0WMQ//WmVhuHhqMdKpBYSlzYPtSuTZaP9MUokN+eCCb3petElz3snFw/p9xBRr
+60683th/9/P3ppc46nNXLqd/CVE/CQ1QS2Wsv+jLE2KcfBu7qPhpsrxvrtAdPTCM
+aIvdW9NfWVp85qM6UHtyQsk7dHalzDM7nw5W5dMF+oBrSHIsDXxN6BNtV3pxy/vt
+sPlgesexXxUs/Vd45E75Es667SzDaPZF8Jd2AFX5k91/L+0HzLKZbLfKLJDlWkV6
+pTDd96nVHr54dyTDBgFCVAFefuTraG1vc9noenMajH6nTPBBuoGbAqJXD4gkDIQT
+DP8LAH7Y0Ot6zOc7P3AQIaFb5D0OLK1cG/t8YNf+QVviQs/8YZoS5k+xhE4j9Rhz
+NUZX7fB6KROA5QYHf9cQ9/IfeysHMuhU5DefUr2dhEW6K5sutv7Jg9/yA7KrExcw
+jXIWVz1UepQkan6aTBd0S+ZoX/H2PIr3LXd3QIdyQG0zwlLJXDoeeLZo7MNqDxFP
+jX7UC/PDaKeAqJZm4m6SN6aamz/I4R8GLCugM/LBINAMmBHcRBLXgXZO1knsJRm6
+OwqCwv8BRWjV/XWWiaQ4GkfVHmjL9mCYFb7d4VOdH62iasz3LyOxTcqc+OJVWZ/0
+54gs6/8vgDMZigtLFiGO5T0VgJuk4M+D1bQjUGgMzh4bjVF7PAs=
+=nFKj
 -----END PGP SIGNATURE-----
 
---===============6202599883420843113==--
+--===============0434483060427914052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-123761bf6c80-e83659dbc03a.txt
+
+0bdf7d7ee75da076eabcfa9b5fadd0ed0524df43 scsi: ufs: qcom: Unify user-visible "Qualcomm" name
+c7233b3d99db9760daf07c4e95daa9675c6c0cba scsi: advansys: Drop ISA_DMA_API remnants
+7787588db949a6caa7ca40bd6b67ecb75b68c932 scsi: ncr53c8xx: Drop CONFIG_ prefix from Zalon-specific compiler defines
+c9ee94c7e2fb65a433b505d7bcf4c2b6ee81b86c scsi: ufs: dt-bindings: Add compatible for Nord UFS Host Controller
+7030e16247dc9fb044371141c513581067c8e574 scsi: ufs: dt-bindings: Add compatible for SA8797P UFS Host Controller
+45c9dee6d6531bf1d0e0dbf577fb59850e34f6d0 scsi: ufs: exynos: dt-bindings: Add ExynosAutov920 compatible string
+50349bd5d0ab6d6f7e106a6cb1cdbf2bcfb75e08 scsi: ufs: exynos: Add support for ExynosAutov920 SoC
+f2cb7c01f48caffb38e12481949dea4f9beb65dc scsi: ufs: core: Introduce function ufshcd_query_attr_qword()
+949af038b6d2a41c54502179c5a8ddfb3d57dd17 scsi: ufs: core: Add support to retrieve and store TX Equalization settings
+877073467dd6bc33aa0fe851356ba589d942e006 Merge patch series "scsi: ufs: Add persistent TX Equalization settings support"
+195254adeddc30c5a892a1cc9528a6ed5e841224 scsi: snic: vnic_dev: Remove dead store in vnic_dev_discover_res()
+2a18c57560f454e2e63373ecf00e4a6fb0265600 scsi: ufs: tc-dwc-g210-pci: Simplify initialization of pci_device_id array
+8ef4c72dbbfda41b8f83a9b5a275feaf4a30ea21 scsi: ufs: ufshcd-pci: Use PCI_VDEVICE and named initializers for pci array
+036218473a8467493860df84602a7825b71385af scsi: core: scsi_scan: Fix typo in comment
+73322071418ec3ad5e4d9cdf783890d7f2ae9777 scsi: storvsc: Replace symbolic permissions with octal
+1039939c52f27667c819537ce5ca231805ca40b8 scsi: scsi_transport_srp: Move long delayed work to system_dfl_long_wq
+53f5cce2efc7af85a15ca224c660c397332f19e1 scsi: st: Fix typo in documentation
+250ba648f42d571e08e0bd95fa32953e7577001d scsi: libiscsi: Fix spelling and format errors
+2cc8a6cf8a801065b68550d5af33f62999ce15f0 scsi: mvsas: Don't emit __LINE__ in debug messages
+67b85a88265df19f049241d8c00571a5408f4eeb scsi: hisi_sas: Add slave_destroy interface for v3 hw
+2a8fbcfb04aa9db189bfa3842d4f586aecd0e631 scsi: pm8001: Reject firmware update in fatal error state
+aa3b8f56ef27ed72394a752820abdec4608b731c scsi: pm8001: Reject non-fatal dump when controller is crashed
+e72323f3b09f9c890fa93a74197bbc290d39d981 scsi: ufs: core: Configure only active lanes during link
+76417038c4d61fc3d407625c0b9332942f13e142 scsi: ufs: ufs-qcom: Enable Auto Hibern8 clock request support
+016d484531e3169cd7bcb26e0ac2c5523080809f scsi: isci: Remove unused macro scu_get_command_request_logical_port()
+
+--===============0434483060427914052==--
