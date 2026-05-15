@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 15 May 2026 14:12:09 -0000
-Message-Id: <177885432983.27745.110593461658517798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Fri, 15 May 2026 14:24:35 -0000
+Message-Id: <177885507572.35684.9980982909142509542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 2a936fa1c5ea7e757c35d4bb4756b85a3c6fb945
-    new: 2ae049801a89a09b28eb650e59e2594233d454a3
+  - ref: refs/heads/testing
+    old: 2d169cf19d712b0140966edcb3d85d3c9f095f52
+    new: 72b433287a88b4c8cb3c42f804c53d384a935452
     log: |
-         b6b029fbfcf7f032b363b46f3b881d75040d6966 sasha: review v7.0.7
-         2ae049801a89a09b28eb650e59e2594233d454a3 CVE-2026-46333: Add .vulnerable file
+         75f8c56108883ea2e81fb32e4811e920a4912995 dt-bindings: iio: chemical: sensirion,scd30: Update maintainers field
+         72b433287a88b4c8cb3c42f804c53d384a935452 iio: light: vcnl4000: use lock guard()
          
