@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Fri, 15 May 2026 19:21:28 -0000
-Message-Id: <177887288833.282739.14925055330358969318@gitolite.kernel.org>
+Date: Fri, 15 May 2026 19:24:51 -0000
+Message-Id: <177887309103.284065.5684548854353947662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,20 @@ repo: pub/scm/network/iproute2/iproute2-next
 user: dsahern
 changes:
   - ref: refs/heads/main
-    old: b9345a8850efb5e8e271064615cfd1701e0e5e15
-    new: dde3f17bc311a38e02cc4f0e1a51d44cfbe059f1
+    old: dde3f17bc311a38e02cc4f0e1a51d44cfbe059f1
+    new: 1ffc5715b9a7e140d6b44935531912a4cab79d86
     log: |
-         7579d9faeaf15b115539feedec891eec39284b36 Update kernel headers
-         55cbf807b378e876db8091b58ebecfcca8dd6962 dpll: add pin operstate attribute support
-         dde3f17bc311a38e02cc4f0e1a51d44cfbe059f1 dpll: add fractional-frequency-offset to parent-device
+         d6a1612bacfe2bf559325610e32a137aa0705598 namespace: Add fallback to netns by pid
+         22061a6354c08002254003d4e6f7d9e1129371b6 iplink: Drop pid fallback code for netns
+         2a8b53446ff5636b0f412eb3665f83378d1cb5b2 rdma: Allow netns to be specified by pid
+         1ffc5715b9a7e140d6b44935531912a4cab79d86 devlink: Drop now duplicate pid fallback for netns
          
   - ref: refs/heads/master
-    old: b9345a8850efb5e8e271064615cfd1701e0e5e15
-    new: dde3f17bc311a38e02cc4f0e1a51d44cfbe059f1
+    old: dde3f17bc311a38e02cc4f0e1a51d44cfbe059f1
+    new: 1ffc5715b9a7e140d6b44935531912a4cab79d86
     log: |
-         7579d9faeaf15b115539feedec891eec39284b36 Update kernel headers
-         55cbf807b378e876db8091b58ebecfcca8dd6962 dpll: add pin operstate attribute support
-         dde3f17bc311a38e02cc4f0e1a51d44cfbe059f1 dpll: add fractional-frequency-offset to parent-device
+         d6a1612bacfe2bf559325610e32a137aa0705598 namespace: Add fallback to netns by pid
+         22061a6354c08002254003d4e6f7d9e1129371b6 iplink: Drop pid fallback code for netns
+         2a8b53446ff5636b0f412eb3665f83378d1cb5b2 rdma: Allow netns to be specified by pid
+         1ffc5715b9a7e140d6b44935531912a4cab79d86 devlink: Drop now duplicate pid fallback for netns
          
