@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 15 May 2026 17:02:36 -0000
-Message-Id: <177886455684.175941.468754556910672492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 15 May 2026 17:10:38 -0000
+Message-Id: <177886503826.182572.4721013084804657194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/for-next
-    old: 80b4ee34a2e577ddbb0b0c0e22afcff76f68b154
-    new: 28dff53dd9e071b2963080ba11616bc4fb2ec84b
+  - ref: refs/heads/controller/mediatek-gen3
+    old: 3e30e7320a7bcdbc292cbfa3a20ce3f24a31d1a9
+    new: 2b16d6b9de2f00fd8ecc433b15205c18f8276b3e
     log: |
-         ccd25890f73c082fe2657ed227b497d6ac5fdc40 io_uring/net: punt IORING_OP_BIND async if it needs file create
-         28dff53dd9e071b2963080ba11616bc4fb2ec84b Merge branch 'io_uring-7.1' into for-next
-         
-  - ref: refs/heads/io_uring-7.1
-    old: f44d38a31f1802b7222adaea9ee69f9d280f698a
-    new: ccd25890f73c082fe2657ed227b497d6ac5fdc40
-    log: |
-         ccd25890f73c082fe2657ed227b497d6ac5fdc40 io_uring/net: punt IORING_OP_BIND async if it needs file create
+         2b16d6b9de2f00fd8ecc433b15205c18f8276b3e PCI: mediatek-gen3: Do full device power down on removal
          
