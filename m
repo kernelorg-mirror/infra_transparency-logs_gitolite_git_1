@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Sat, 16 May 2026 03:35:11 -0000
-Message-Id: <177890251110.683273.8885703942421911751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 16 May 2026 03:36:08 -0000
+Message-Id: <177890256831.684253.6221136870272600050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: b0109370e8f7e39cedaf2912aac2ae7312f9f099
-    new: beddf144abe8f77853a1eedc0c844995cff77ba8
+  - ref: refs/heads/tpm2-asymmetric
+    old: 04cb47a67a2d7ffb9aeed7cba061c469440ce941
+    new: b4c513e2df160611a19317ddf51e48656471b885
     log: |
-         fc4f61424bf533de05d97a2f7a430eeaa9cf6592 build: Rename targets as tpmdd_{amd64,arm64}
-         2db0a46fe16f650418a28ec90a20205cf317e68c build: Set default shell to bash
-         e4ec64780cf28ec14dc61e720fc5444d89642025 amd64: Enable SSP
-         8835dbbd019f81a4a0897c7863cab7cbb012ae55 package: amd64: Add tpm2-tss
-         f68b69c439e79aec880cf2af2242418ae76d21ab package: arm64: Add linux-tools-selftests
-         beddf144abe8f77853a1eedc0c844995cff77ba8 package: arm64: Add libopenssl-bin
+         4b0ba3a0599ffda3a65dce14cee9557bd7791ba3 tpm: tpm_tis_spi: Use wait_woken() in wait_for_tmp_stat()
+         fd1ac8d2bae6801ef83d5c4de3ccfc86803266cb tpm_crb: Check ACPI_COMPANION() against NULL during probe
+         ce95c6d823891ecfd9fbc714e2b8cde035364177 lib/asn1_encoder: Add asn1_encode_integer_bytes()
+         dedf4c9992261896c1aad709e6f2a3f2c250429b crypto: Migrate TPMKey ASN.1 objects from trusted-keys
+         b4c513e2df160611a19317ddf51e48656471b885 keys: asymmetric: Asymmetric TPM2 key type
          
