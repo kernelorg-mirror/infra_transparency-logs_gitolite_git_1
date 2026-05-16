@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 16 May 2026 02:34:27 -0000
-Message-Id: <177889886714.637939.4285657068115199842@gitolite.kernel.org>
+Date: Sat, 16 May 2026 02:34:41 -0000
+Message-Id: <177889888108.638343.924448234344426919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 0d435a7ebcd4e97e47673c1ab6fb27f973a053ec
-    new: 6e4bfd9da8851f562f04503d8e43221957f96eeb
+  - ref: refs/heads/asoc-7.2
+    old: c84179a1d36bebe99d9694502737ae9f3a90d2bc
+    new: e0014849e9af1e08aaaf2b7bc26b1918d8275f24
     log: |
-         7e68ba282165b8880d11eac8a816d54d449b7d80 ASoC: qcom: q6apm-dai: Allocate an extra page for PCM buffers
-         1afd8f06dcb1d561af3b239c5b14a88b87c13454 ASoC: amd: acp-sdw-legacy: check CPU DAI name before logging
-         6e4bfd9da8851f562f04503d8e43221957f96eeb ASoC: amd: acp: Add DMI quirk for ASUS Zenbook S16 UM5606GA
+         fea3df9eab74863b6d388fc71357342e25c5e877 ASoC: pcm6240: Use flexible array for config blocks
+         e0014849e9af1e08aaaf2b7bc26b1918d8275f24 ASoC: sigmadsp: Use flexible array for control cache
          
