@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6628816615674068779=="
+Content-Type: multipart/mixed; boundary="===============9093989147825080510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 16 May 2026 15:46:00 -0000
-Message-Id: <177894636061.1214255.2285036652537665697@gitolite.kernel.org>
+Date: Sat, 16 May 2026 15:46:02 -0000
+Message-Id: <177894636298.1214554.15856893122442991223@gitolite.kernel.org>
 
---===============6628816615674068779==
+--===============9093989147825080510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-dt
-    old: 7d7a9fc1310a0ade8ea61c5eb4d8b29456f8d604
+  - ref: refs/heads/at91-fixes
+    old: 907150bbe566e23714a25d7bcb910f236c3c44c0
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-7d7a9fc1310a-254f49634ee1.txt
+    log: revlist-907150bbe566-254f49634ee1.txt
 
---===============6628816615674068779==
+--===============9093989147825080510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d7a9fc1310a-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-907150bbe566-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============6628816615674068779==--
+--===============9093989147825080510==--
