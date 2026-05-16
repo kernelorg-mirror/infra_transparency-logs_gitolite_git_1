@@ -1,44 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1872293545457287533=="
+Content-Type: multipart/mixed; boundary="===============3595055401639194466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 16 May 2026 21:06:53 -0000
-Message-Id: <177896561323.1441860.7399728513552141737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Sat, 16 May 2026 21:18:46 -0000
+Message-Id: <177896632620.1449579.3127349650249052685@gitolite.kernel.org>
 
---===============1872293545457287533==
+--===============3595055401639194466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/dev
-    old: 83916d8b67d6c3dacf75907fdad7e817070ba718
-    new: e9c5b5b6bbffdf159923179491fc29c33361a275
-    log: revlist-83916d8b67d6-e9c5b5b6bbff.txt
-  - ref: refs/heads/dev.2026.05.08a
-    old: 0000000000000000000000000000000000000000
-    new: 86ed69edce527e32495da86900fe50b9ca3266d9
+  - ref: refs/heads/irq/proc
+    old: 5233c5982cba9a3a71013abef4ddce2835d3e493
+    new: 5e45089ba81ee7dccae6a0464bfc59b1e76c20f8
+    log: revlist-5233c5982cba-5e45089ba81e.txt
 
---===============1872293545457287533==
+--===============3595055401639194466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83916d8b67d6-e9c5b5b6bbff.txt
+Content-Disposition: attachment; filename=revlist-5233c5982cba-5e45089ba81e.txt
 
-ea00ac7ef74e383f3eb3c283fc711d2820645173 rcutorture: Test RCU readers from hardware interrupt handlers
-696a49b4441d0adf9b930de5bf084a5fdc695132 rcu-tasks: TASKS_TRACE_RCU doesn't need IRQ_WORK
-f88d600f852ea9b5328743be0f0c9118010bfef4 rcu: Make rcu_preempt_has_tasks() account for ->dqs_blkd_tasks
-4adb10df2bd8ae9731d9f00f4aa01d6f06b7f616 rcu: Make sync_rcu_exp_done() account for ->dqs_blkd_tasks
-4f045d8fe8ec31510862e6270613335d4d9be0c8 rcu: Make rcu_unlock_needs_exp_handling() account for ->dqs_blkd_tasks
-452eec3f08195584affb9ce6822e016eae93d6d0 rcu: Make rcu_preempt_blocked_readers_cgp() account for ->dqs_blkd_tasks
-564ab55231ea45219e86f0f5d9600edbd2e5edd5 rcu: Make rcu_print_task_exp_stall() dump ->dqs_blkd_tasks
-03773a4eba8f1b248fb9dd074b08fe7aaf428396 rcu: Make rcu_exp_print_detail_task_stall_rnp() dump ->dqs_blkd_tasks
-a29cedf51f637b50e503e01337e53cf2fa078d94 rcu: Make dump_blkd_tasks() dump ->dqs_blkd_tasks
-e7cc1cc2ca28c9ae52cbb764386026aa45467bf9 cu: Make rcu_print_detail_task_stall_rnp() dump ->dqs_blkd_tasks
-e9c5b5b6bbffdf159923179491fc29c33361a275 rcu: Make rcu_print_task_stall() dump ->dqs_blkd_tasks
+4c82bdc129452cbfc4a035f74c91ebd091268865 x86/irq: Optimize interrupts decimals printing
+ea626fa63a4a2ac6c1f9c99597b535cc7eacd55a genirq/proc: Avoid formatting zero counts in /proc/interrupts
+bd9d853a45ad3d7a76e2984816e04733d59dee06 genirq/proc: Utilize irq_desc::tot_count to avoid evaluation
+532ec27521271b946d5089040b19294831f12c07 x86/irq: Make irqstats array based
+1fa8bdd095ae91667c4e2947de660a5eb72faf7e x86/irq: Suppress unlikely interrupt stats by default
+dea918228b3ce5a1b9f46ed1b73b6cb9fc6078b3 x86/irq: Move IOAPIC misrouted and PIC/APIC error counts into irq_stats
+495bdfc9d3b6744e4bdf677947682558e2c7065a scripts/gdb: Update x86 interrupts to the array based storage
+ae778af2fcbd983e2d1764449ebd782597d61456 genirq: Expose nr_irqs in core code
+8b44a1620b4142b1c69d919a5e22b7277f07193c genirq/manage: Make NMI cleanup RT safe
+5e92fabdeb7fcc037725726908bf31ff7abfc88b genirq: Cache the condition for /proc/interrupts exposure
+462c7248c629be3a55ae9381c49b7f7accad7fa2 genirq: Calculate precision only when required
+51b95246c383f3c55852ada2bedffc3467eb554f genirq/proc: Increase default interrupt number precision to four
+3672e39015166b7afa6713c37119be13e9d40836 genirq: Add rcuref count to struct irq_desc
+5ab9c8d804d3eb9baf8c37e895a4daf3d521ea64 genirq: Expose irq_find_desc_at_or_after() in core code
+56b90541e52ae37b845149ed71967aca2310bdc5 genirq/proc: Runtime size the chip name
+5e45089ba81ee7dccae6a0464bfc59b1e76c20f8 genirq/proc: Speed up /proc/interrupts iteration
 
---===============1872293545457287533==--
+--===============3595055401639194466==--
