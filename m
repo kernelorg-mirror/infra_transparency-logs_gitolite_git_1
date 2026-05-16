@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3113647807945657614=="
+Content-Type: multipart/mixed; boundary="===============6351868846992093536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 16 May 2026 11:32:56 -0000
-Message-Id: <177893117672.1030959.6820305661412863600@gitolite.kernel.org>
+Date: Sat, 16 May 2026 11:33:08 -0000
+Message-Id: <177893118837.1031407.6429783239404172841@gitolite.kernel.org>
 
---===============3113647807945657614==
+--===============6351868846992093536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
-    new: 6916d5703ddf9a38f1f6c2cc793381a24ee914c6
-    log: revlist-591cd656a1bf-6916d5703ddf.txt
+  - ref: refs/heads/pmu_bus
+    old: 1f3abcee779a876fdc4a9671b3f65b0383bace30
+    new: bd361e4957d0261fc046e0e86591eb951424cc1e
+    log: revlist-1f3abcee779a-bd361e4957d0.txt
 
---===============3113647807945657614==
+--===============6351868846992093536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778931177 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778931191 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1778931171-57f24fb799934b19b91e47b3b88f0e8ad70267ba
+nonce 1778931185-0ba45b65447e6684ba1521cf19778f1c2c524377
 
-591cd656a1bf5ea94a222af5ef2ee76df029c1d2 6916d5703ddf9a38f1f6c2cc793381a24ee914c6 refs/heads/main
+1f3abcee779a876fdc4a9671b3f65b0383bace30 bd361e4957d0261fc046e0e86591eb951424cc1e refs/heads/pmu_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoIVekbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uuEP/2eFsskfU8wFoQY8FtZp
-S/Fhdj0VNwIHAxZC466wwBhauiTWRJYstjWC7hWp6ES+88dIDwH4hH95R0MWqne5
-5A7m88rM2bSNeKLnkOlBCbpQ23wfRDTrM4x6gBIK640TY7xyE6DCvJZI2UITiUWW
-VAFWEOJcW5pwH9dMAgQa8cWNuBQFeKa31CXFLuCAXWqtVxuyQywWAVTKU9fNj8wi
-iwsKDstjs9vbm/IG3kPLC920SRdQvSt+KyHH/04WPn9EkkoLqjdxpXJe6G9neXaF
-ta1bAAhDC205qPYu/F0JL2JRpNiz3w4EPOOSiB/Qt0TVRO9udImiWSjTILjLiLhZ
-seboFFJyqlTSzZoPfhiIw1qPhSApWbxtbjDOmizwJpkvFkou8+GxnCp3horvWcZ/
-B3vj0UKloQqexybcYzFWPJLidqtl/Hp14KgY9URrXgLsflbFKEzjDDTVfVWz3PO+
-WrfirkfHb2TiW02is//HsWDLuPbJYy6pKMW2P7ERjExtUl4o8ht3BYbKgHkKXIib
-3NXieQM4JXg+Kjg/i44gPklSJOpCLs8d9Bz2rkN2HZY0Jrv5U5o85Qki7s5+YZTH
-CtlAdPX5m7GF72Vpg9naf5pN37RZkL8pfqW4dn3DaNxTrSamwufoUnzCkqzpF7Xa
-XA+C0863n3Tel0++d9X2aXeA
-=E+S+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoIVfgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EAYQALJLObfPC1CH2Ld3HNgz
+9Tf81wnuIpHOLJrwgYn4fnj8FhAu9pQLtYooUWFKaCwcyqC1HBASkQYEhjuJTzGv
+Ih/G4smC7mEwQ5oyQEANLzfvDcdHE0SN5ipR4gngKjJhABxOY10cWrJu12Z4Tfq0
+Ub68qZ3Rw4Pgph1VbrfrW5HkDNxEhAer8lrzYvWuysLw3erNSHvSWYRXLOkrmMR+
+LrSVX/dACv9MQAAhX0xx2yeXNbbmakdkP/LGnq8Rt5rMrlJi94G7dowBR44m1y/9
+t8USGlVpERPX3GnsZLfZDpDfIq2QTb1Eu5rlQBduA51dDIT/oXUXwy1/hksghMLV
+ZyJlQ+WMA2+5lsBclLAiolk9mSHD3mSFeBp7dxyO+BAdWa8wBNtcnb1LJreVDnDu
+IkzCSeHXDghRRxtha52kIRLxo1LFEMpdgpldPhlzBHyCjX/c+zQ5x3ifTd4oNfBO
++EVqSp0X9qtw4jPT4artwp/eR9fc4r3k+Mt9OID9CQ1zKzyf4wjunS7HCUXOOPrC
+IwR8Ay2qRp9G46BeRLQpoQo/njGy2HktTJnXMvHrBh14nTef9zcWJJ/MABAElAPB
+kj8pAGnfJs95b1r9euh5392t+jIpRzSQUD003W58cCYVAKGs5yY08D60j1Xx9N3i
+PRBKy+JWKJYwTWW6zl9MBsuP
+=pz2d
 -----END PGP SIGNATURE-----
 
---===============3113647807945657614==
+--===============6351868846992093536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-591cd656a1bf-6916d5703ddf.txt
+Content-Disposition: attachment; filename=revlist-1f3abcee779a-bd361e4957d0.txt
 
-b8425ceefee5df2b8490fa70a07e4e402c752492 parisc: drivers: switch to dynamic root device
 0de4cb473aed57ee4ba7e0551ad27bddc19fc519 workqueue: fix devm_alloc_workqueue() va_list misuse
 278dd0487907112de8e34e1a97ac6145a8081523 HID: sony: fix incorrect force-feedback check in sony_suspend()
 80c4bbb2b38513e9c3d84805fa61a0ee16d79c45 HID: ft260: validate i2c input report length
@@ -1081,5 +1080,6 @@ b0662be9131d87d8858d34d6134500e109dff958 Merge tag 'v7.1-rc4-smb3-client-fixes' 
 36343a8ff328efd3eb5604e3567d63e6c7906deb Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 dc366607c41c45fd0ae6f3db090f31dd611b644a drm: Replace old pointer to new idr
 6916d5703ddf9a38f1f6c2cc793381a24ee914c6 Merge tag 'drm-fixes-2026-05-16' of https://gitlab.freedesktop.org/drm/kernel
+bd361e4957d0261fc046e0e86591eb951424cc1e perf/core: move all of the pmu devices into their own location
 
---===============3113647807945657614==--
+--===============6351868846992093536==--
