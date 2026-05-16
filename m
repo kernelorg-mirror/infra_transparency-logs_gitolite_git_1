@@ -1,50 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1663313998094233138=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 16 May 2026 04:11:58 -0000
-Message-Id: <177890471839.716505.10320216462504311698@gitolite.kernel.org>
-
---===============1663313998094233138==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 16 May 2026 04:12:26 -0000
+Message-Id: <177890474638.716928.8334839282398819454@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 59b991990a04b1d1ce95373983b7c8b65bdf7acc
-    new: d3873c5f4d6e86852dee427832105b36fb06aef8
+  - ref: refs/heads/for-linus
+    old: 0d435a7ebcd4e97e47673c1ab6fb27f973a053ec
+    new: 6e4bfd9da8851f562f04503d8e43221957f96eeb
     log: |
-         d3873c5f4d6e86852dee427832105b36fb06aef8 spi: rspi: Simplify reset control handling
+         7e68ba282165b8880d11eac8a816d54d449b7d80 ASoC: qcom: q6apm-dai: Allocate an extra page for PCM buffers
+         1afd8f06dcb1d561af3b239c5b14a88b87c13454 ASoC: amd: acp-sdw-legacy: check CPU DAI name before logging
+         6e4bfd9da8851f562f04503d8e43221957f96eeb ASoC: amd: acp: Add DMI quirk for ASUS Zenbook S16 UM5606GA
          
-
---===============1663313998094233138==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1778904716 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1778904716-edd3fcb786fa54a0a2a595ad94188cfa0927e248
-
-59b991990a04b1d1ce95373983b7c8b65bdf7acc d3873c5f4d6e86852dee427832105b36fb06aef8 refs/heads/spi-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoH7owACgkQJNaLcl1U
-h9BVOgf7Bq7wHYoDxNKz0AgqDqZ4NyFZRXFVfW24C0KezJR7DsWNTY7pDCLKpQzX
-OMlWW74MUoz2ToDXIW/g6UDSXJcPbcOxwGuSLhT6etqAxBubyJ8W+4DLo/dKj6ML
-y5XzZJVEhz7glTlE1Z90m9vQhTNdTQjVSECp7Y7Bs2/T2Z4eoZhl2Wk7zpT1muE5
-UNQVYyZyg5bfRwPUJimADq7TnB2w2DGNfx4QSYCJFAs+HAublx5u3jGC7C/atJRg
-vu5LrW9FWky4wyzB9hpULys+qnYr4vYv3AJ4R8hlyi5u2JvHdWIWSmlDifBmBk+g
-djrUlfxaOJEC9K6UrQbpY1DJGWYzlg==
-=gy2j
------END PGP SIGNATURE-----
-
---===============1663313998094233138==--
+  - ref: refs/heads/for-next
+    old: c84179a1d36bebe99d9694502737ae9f3a90d2bc
+    new: 2be19ed9535043fe6abd7ccfc9aac6b7ecaac842
+    log: |
+         7e68ba282165b8880d11eac8a816d54d449b7d80 ASoC: qcom: q6apm-dai: Allocate an extra page for PCM buffers
+         1afd8f06dcb1d561af3b239c5b14a88b87c13454 ASoC: amd: acp-sdw-legacy: check CPU DAI name before logging
+         6e4bfd9da8851f562f04503d8e43221957f96eeb ASoC: amd: acp: Add DMI quirk for ASUS Zenbook S16 UM5606GA
+         fea3df9eab74863b6d388fc71357342e25c5e877 ASoC: pcm6240: Use flexible array for config blocks
+         e0014849e9af1e08aaaf2b7bc26b1918d8275f24 ASoC: sigmadsp: Use flexible array for control cache
+         2be19ed9535043fe6abd7ccfc9aac6b7ecaac842 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
+         
