@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Sat, 16 May 2026 06:27:28 -0000
-Message-Id: <177891284833.813991.9072554890788954437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Sat, 16 May 2026 06:37:16 -0000
+Message-Id: <177891343635.821034.18135021927317983635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: rppt
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/fixes
-    old: ae7e30a46aa39aeacef9dc6c5a001185fc253293
-    new: d13dfb48dfa369fb2745116c0bc6f215517a351f
+  - ref: refs/heads/main
+    old: 47d7c01ba8a1241e919ab56dd01ba245b38fef8e
+    new: 2164019f84832099643acc2ff7d296daacbee236
     log: |
-         d13dfb48dfa369fb2745116c0bc6f215517a351f kho: fix KHO_TREE_MAX_DEPTH for non-4KB page sizes
+         2164019f84832099643acc2ff7d296daacbee236 checks: Add missing phandle_references prereq to interrupts_property
+         
+  - ref: refs/heads/master
+    old: 47d7c01ba8a1241e919ab56dd01ba245b38fef8e
+    new: 2164019f84832099643acc2ff7d296daacbee236
+    log: |
+         2164019f84832099643acc2ff7d296daacbee236 checks: Add missing phandle_references prereq to interrupts_property
          
