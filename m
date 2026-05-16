@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 16 May 2026 13:45:16 -0000
-Message-Id: <177893911687.1128001.11474753386404605020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Sat, 16 May 2026 13:59:13 -0000
+Message-Id: <177893995330.1136548.16743225952543899572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/for-linus
-    old: d0afd2cd356a2c337589ef8dfa2a224636600575
-    new: 0aacce7c32e4631c3634df5d19d30c72a3614ec9
+  - ref: refs/heads/chardev_uaf
+    old: da36460777e4dad48144396cc3f1e53d8e29318c
+    new: 05076a2a81aa3383dc0e76b30a2ed47ad7b8c5b1
     log: |
-         0aacce7c32e4631c3634df5d19d30c72a3614ec9 ALSA: hda: Avoid quirk matching with zero PCI SSID
+         05076a2a81aa3383dc0e76b30a2ed47ad7b8c5b1 platform/chrome: cros_ec_chardev: Introduce rwsem for protecting ec_dev
          
-  - ref: refs/heads/master
-    old: 23e9285b10b7de78d8096527bd775b65f58bbc99
-    new: c865578de288877491bb96ce56cf908315d6c723
-    log: |
-         0aacce7c32e4631c3634df5d19d30c72a3614ec9 ALSA: hda: Avoid quirk matching with zero PCI SSID
-         c865578de288877491bb96ce56cf908315d6c723 Merge branch 'for-linus'
-         
+  - ref: refs/heads/rev2
+    old: 0000000000000000000000000000000000000000
+    new: 935b6514fc8e3780305b655ae6c18881d28b1896
