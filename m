@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 16 May 2026 01:27:39 -0000
-Message-Id: <177889485957.589277.16184690833385092233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sat, 16 May 2026 01:29:44 -0000
+Message-Id: <177889498434.590181.18374714845717169789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/main
-    old: ae38d9179190a956e2a87a69ef1dd6f451b51c4d
-    new: aaec7096f9961eb223b5b149abe9495525c205d9
+  - ref: refs/heads/for-rc
+    old: 0ce1bc9e46ecabe84772bb561e373c0d9876d6f2
+    new: 65b044cee9fb117144f11ab68a318d0055cfbc1b
     log: |
-         aaec7096f9961eb223b5b149abe9495525c205d9 net: hsr: defer node table free until after RCU readers
+         65b044cee9fb117144f11ab68a318d0055cfbc1b RDMA/core: Move the _ib_copy_validate_udata* functions to ib_core_uverbs
          
