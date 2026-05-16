@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1412957062249595998=="
+Content-Type: multipart/mixed; boundary="===============0658776524605359369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 16 May 2026 11:33:52 -0000
-Message-Id: <177893123251.1032140.13475713432827929307@gitolite.kernel.org>
+Date: Sat, 16 May 2026 11:34:00 -0000
+Message-Id: <177893124017.1032393.9379899330409356177@gitolite.kernel.org>
 
---===============1412957062249595998==
+--===============0658776524605359369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,65 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: fd72ddaa7245601d5c4a5d21a3f23cfe6c390c28
-    new: 5cabed5d811609cdded199ad645af1bc8e4001a8
-    log: revlist-fd72ddaa7245-5cabed5d8116.txt
+  - ref: refs/heads/bus_cleanup
+    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+    new: 6916d5703ddf9a38f1f6c2cc793381a24ee914c6
+    log: revlist-591cd656a1bf-6916d5703ddf.txt
 
---===============1412957062249595998==
+--===============0658776524605359369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778931236 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778931245 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1778931229-f35fa214a07e84d3248a9bd65d4d2f4c648fcfa2
+nonce 1778931238-94049a81fff9b457010dbd63218c8df6ff51f1df
 
-fd72ddaa7245601d5c4a5d21a3f23cfe6c390c28 5cabed5d811609cdded199ad645af1bc8e4001a8 refs/heads/class_cleanup
+591cd656a1bf5ea94a222af5ef2ee76df029c1d2 6916d5703ddf9a38f1f6c2cc793381a24ee914c6 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoIViQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1zMQAIli5oo3DoOoA1UaH09m
-S/nCXfZtcnJ/RIqLsdsu0THR3jBB7EhTuQMf8TEwZczA9/Hg2kJDS+1rd4AO7J3C
-4VjhxihaH4XAInM/9YLOp6fcohraxwDs1jlgrUg1MtZf9sbj3tH8ydAtQCLD4MJm
-Lf02CV8OOhax0Ax30SdzFw9ZqtGgN/LOJw1AwgdlGeUq6j6Fv3oaSN5bQeENUK0s
-qRQ+JEoLJtcCb9evZuIZYxSUAr5uXRSxWnfYh2cx6d+kvoqpoGm4CbiEs1owbu2X
-2DztPhgVSzdt1JFpnFgGnQpMwGbMukAPWvktOwQGw264XOuFlKaxrD6pKbN+m+EL
-GV3PRV3JHj/HHXWxVa67/w8UQXr0pMvfwibEA/jIuVyV/KnR+88zfGTmBOSIF4/O
-hEGzgwyzRlAi+P4v3niDto0XYCwImpPZs98VYdJ6PZO1sNw8iVCVft6/A9aCgERD
-Y31MZCyu6wE2lyCM2y2n6hVp50cJ4hBQCImGJ8VIdYLLgSs1QobCnu3iD/iNL43a
-8MsJSsKOkVrG0M8D0psHpSqaTXOzaCriI0Jj7/qI94sBA2hwlc3drjVFFG6gh8NN
-CQWsFt7jFQhINKEYyEdg4YS7cduRhsdnVSUIIshInWd5cBOUatNlKX7mjKV5wjSW
-Tuly5118kygTZ9VXSI3d17OB
-=mChF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoIVi0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZV4QALTnGr83zGdgiN7cuwf3
+G/RJAbphTnPPc1c3Oh6bo29NmynvSYfimhdb8uum+rTNmWdYFMJfLbuAH6d/mP39
+WyX02iV0W1Yt9SLLSljwexSpQD+MkeQkRODnQOOhM1Qs3Akmg5rDvclG3GZdIq46
+oo+qOKV7iqudzjlHJs4RGOAysuDwJI+nmfP0FU0hmViIYH1pAQFOR5TeYLgu/jYR
+p3Dbe7GKZ1wAUNrAT8zN6Q97yMv1rqn69ZYigsrFYPVJFMkBWIsbn2MvlD9WKckg
+S5nmVctzKML7Z7xyvngdgL1ApouO9EUNBiQRDSaYtRiCn67H71dWpkU+swRE1Ukh
+WK9HZCPe4y8iqI9DlKG5+SY59OtApYG7vRg70vckyclJ/zsfpis3iurPxZUKDi9h
+CW+3fbUbZUcHiOtZOyjqgJ4AuFZCjtGDvSmpvb6jBjNp4M/NekXETAfqz34j17mJ
+/dQwJd5xCksCIMLlD+swNAKkFkHGP3zDa22ZmEC/GslTUW2sSq/aTzvZZlRfEB2A
+GFlG3yOnRGEeuqOkOL5b9e1x+US15zheJZrmNHfXwuDLBXsdVrNuKfYLIbJ4tkSf
+ztq0r3j+FyIzpeUgYM9tdPp2eWyWVAovtuIEAoRUttWBz0HqbKlXrKLXH2N6+Dsa
+f+1q3IAaHtB18PK+WJP3RJol
+=MBob
 -----END PGP SIGNATURE-----
 
---===============1412957062249595998==
+--===============0658776524605359369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd72ddaa7245-5cabed5d8116.txt
+Content-Disposition: attachment; filename=revlist-591cd656a1bf-6916d5703ddf.txt
 
+b8425ceefee5df2b8490fa70a07e4e402c752492 parisc: drivers: switch to dynamic root device
+0de4cb473aed57ee4ba7e0551ad27bddc19fc519 workqueue: fix devm_alloc_workqueue() va_list misuse
+278dd0487907112de8e34e1a97ac6145a8081523 HID: sony: fix incorrect force-feedback check in sony_suspend()
+80c4bbb2b38513e9c3d84805fa61a0ee16d79c45 HID: ft260: validate i2c input report length
+0f2b8466fb744a8b3313a9c1e2008f8cd53b2db7 HID: sony: remove unneeded WARN_ON() in sony_leds_init()
+a4170b63eda999d20ad6dc39ddc3ce5c1ac619e6 HID: sony: add missing size validation for SMK-Link remotes
+12bd440b66ed8968afffc46928233967b5b79b98 HID: sony: add missing size validation for Rock Band 3 Pro instruments
+163f8b7f9a84086c67c76aeadc04e6d43e32df6e sched_ext: Call wakeup_preempt() in local_dsq_post_enq()
+55ce1858848132ed074fe907f00b5ce1ccab0ce1 HID: elan: Add support for ELAN SB974D touchpad
+3524900cc571bd922a1a6b6a0eb0c2705cdb3559 HID: hid-lenovo-go-s: restore OS_TYPE after resume from s2idle
+ae4ac077332ea3341a0f4c0973556c6b7ac5b7a1 HID: intel-thc-hid: Intel-quickspi: Fix some error codes
+487359284509a6745e14b8c0518768bc277809b0 HID: uclogic: Fix regression of input name assignment
+d99f7a32f09dccbe396187370ec1a74a31b73d7e sched_ext: Fix scx_flush_disable_work() UAF race
+c4cca236968683eb0d59abfb12d5c7e4d8514227 ipmi: Add limits to event and receive message requests
+09dd798270ff582d7309f285d4aaf5dbebae01cb ipmi:si: Return state to normal if message allocation fails
+a8aebe93a4938c0ca1941eeaae821738f869be3d ipmi:ssif: NULL thread on error
+3b75dd76e64a04771861bb5647951c264919e563 tracing: branch: Fix inverted check on stat tracer registration
+5ec07d5204b4544271f32f6261ee097fe53cb081 tracepoint: Fix typo in tracepoint.h comment
 927011b65a875302d08709bbe82eaf4d0d96c5d5 drm/amdgpu: fix build for CONFIG_DRM_FBDEV_EMULATION=n
 d2f272a36e1b4b857165021cfb2689a92efff2f5 drm/amdgpu: rework userq fence signal processing
 ec3e3976f626d9845a228d78d8a371ddc18edec8 drm/amd/display: Update MCIF_ADDR macro to address IGT DWB regression
@@ -1063,23 +1081,5 @@ b0662be9131d87d8858d34d6134500e109dff958 Merge tag 'v7.1-rc4-smb3-client-fixes' 
 36343a8ff328efd3eb5604e3567d63e6c7906deb Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 dc366607c41c45fd0ae6f3db090f31dd611b644a drm: Replace old pointer to new idr
 6916d5703ddf9a38f1f6c2cc793381a24ee914c6 Merge tag 'drm-fixes-2026-05-16' of https://gitlab.freedesktop.org/drm/kernel
-c4a25d9c12332f0e9e576c4f3a7f70471142ce2d drm/dp: make drm_dp_aux_dev_class constant
-672d7d9ef6df33798263a9254979a870b0e9af4d drm/sysfs: make drm_class constant
-5b306bda044edf23f99bdb7c14ab124ad0106099 drm/fbdev/core: make fb_class constant
-432e073fcb3859ae4a1e3c9bd94080cc1802e73b dma-buf: heaps: make dma_heap_class constant
-acd38503e5a823c8571502199a2f565e8a19b098 media: dvbdev: make dvb_class constant
-0c239f6580de48b27e07f8616376eda6650fb035 drm/dp: constify the struct device_type usage
-6c64eaf8ac33f668c0a04e6e7fe18dc7b46ed5bd drm/privacy_screen: constify the struct device_type usage
-2edf53c337eacf07828557f859653e066df793c4 drm/sysfs: constify the struct device_type usage
-65771e775bed763fc1df6a7d5774f2a69cfc5462 rapidio: make rio_mport_class constant
-ee32d5d5d6998874362fa5533b6f875353fd44a3 parport: constify the struct device_type usage
-278b19a70841a35cdc512bd9875b57810f936ebe coda: psdev: make coda_psdev_class a static const structure
-1913d72430d2759601e6bd4d94fa06354e344151 cuse: make cuse_class a static const structure
-3f4dce5aac184e0f8a9bb84e5814755b5c4fc974 pstore: pmsg: make pmsg_class a static const structure
-a5ca7496d36d36781e9bd03e8ebf6bb616a8cf45 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-05b8ab606386c37bcf1fd39326f7db50736995a2 PM: wakeup: make wakeup_class a static const structure
-aae0a28af299485f99c2ccb03f287c057030fa4c gnss: make gnss_class a static const structure
-414f7f22e0563a4d1db68790709304f16505bae5 extcon: make extcon_class a static const structure
-5cabed5d811609cdded199ad645af1bc8e4001a8 misc: c2port: core: make c2port_class a static const structure
 
---===============1412957062249595998==--
+--===============0658776524605359369==--
