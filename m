@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 16 May 2026 22:52:36 -0000
-Message-Id: <177897195699.1516143.7097851233952352543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Sat, 16 May 2026 23:00:56 -0000
+Message-Id: <177897245691.1522831.14254877795620449855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 9c2cf2d52ada36b113ea6846fac0e392ea0907c8
-    new: aac6e1146802906f2d87b7fd5eb7c8f4ace2b672
-    log: |
-         aac6e1146802906f2d87b7fd5eb7c8f4ace2b672 Documentation: hwmon: fix typo in heading for max31730
-         
+  - ref: refs/tags/riscv-for-linus-7.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 6cfef547a6fd5768747474771c407599b5764279
