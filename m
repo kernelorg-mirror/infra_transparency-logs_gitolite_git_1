@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8496912049337420927=="
+Content-Type: multipart/mixed; boundary="===============5606859511996671461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 16 May 2026 10:21:46 -0000
-Message-Id: <177892690676.978297.15691260063691599051@gitolite.kernel.org>
+Date: Sat, 16 May 2026 10:22:10 -0000
+Message-Id: <177892693047.978657.536039859495822467@gitolite.kernel.org>
 
---===============8496912049337420927==
+--===============5606859511996671461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,189 +17,189 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-6.12.y
-    old: d79bec4888efe661b1a402b3d8b3f2ec568537e9
-    new: 4d5e6a3131c542b7384eda3a6a1c1535871dca94
-    log: revlist-d79bec4888ef-4d5e6a3131c5.txt
+    old: 4d5e6a3131c542b7384eda3a6a1c1535871dca94
+    new: b82aebd59f80062d53171c66e81a1243c80db6f7
+    log: revlist-4d5e6a3131c5-b82aebd59f80.txt
 
---===============8496912049337420927==
+--===============5606859511996671461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778926908 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1778926935 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1778926900-ce331f0d30d5dc0c39e6a37518d6d7b0ff30694d
+nonce 1778926927-32d976c673587a1d7b1b5191f3303aa0297da48e
 
-d79bec4888efe661b1a402b3d8b3f2ec568537e9 4d5e6a3131c542b7384eda3a6a1c1535871dca94 refs/heads/linux-6.12.y
+4d5e6a3131c542b7384eda3a6a1c1535871dca94 b82aebd59f80062d53171c66e81a1243c80db6f7 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoIRTwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xQ8QAKKUSybJgjVQjDIpzQfB
-TW8FKMvACTyX95bSyyPDvXQStQI0+SuMrgZcny1/gNCuFGCtxAD16fkpEMdDZx6c
-ZI7P6H5FUervLIwTa4PFgGzXDnBiQjTAEEHnc6IeCVgc+aYz5zvQ96keNvZcgrME
-oh1z6A7P/4yIUioGI2XnnofQU/Ir0QNn3B72E/G8K5HBJcE7/34qkCv/z+t6Rmst
-yAKpRmpdG8UQL6/l8rCZLVhBd/ML83immE3YQL2LDMcJJKV3SEAUrOKknYhUX1cd
-9R32dHBaMxbBC2EnNA7NlflUxaWE2iazZAhrMUt49Zdp/UG9a84we0OXm6ZUHenR
-aFVgrVpKfxdtjAYqNjn8OPKOjrfHH6VS7ApJnJG606uT31mdBMb4+dmt+CBCi78L
-2Txxf1utUAtTlAvLywifMVW0rkEndh5eeCwi2D90aduzslhfo0AQbQcYJYr0Ycrl
-WLxrpmNUD8B0WhbX6wNGRDMQniKdoTYQetdbGv5aLU8vNHsk87jo29ByqyFkXXHa
-2SttJGFqlcS9IsFtN/WxeE+yKnQxZoE8Y8/Zhfdw+YEoMk9JXj8WboBOVQjmFLrs
-+GpYfF3yIktyfaSSGpCojerLhgNqjXjf0VvXzXVvwNvGDoGTanAXTvcET3Hz9pwk
-oCy/aBDF/o0k1ITTTz8lkvtq
-=cn1q
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoIRVcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ygkQAKjkBEgfhk5HF+zNV/h7
+oKGmYJJ0KZcy4QI9DswFcn8jhDiCvyO10hCzBQcMx7q4wNGMVZyTYb+AxthdlsC2
+s5apNczx+Un0dGZlDP9SnRdJKWbxcf+YeDazY4CVf+S9r2d/RudjPJ0wHusgH71V
++o+/Eq3V35U3ECti5dwkFQkcdJ0CiQR+D4Gbw8RMDbfykmeeMeHrqGWnHvykn7HS
+Yd8aW9WPp41wjXDlFoFo3sLvswPOQgFfSV66XgLBKNOu1VyZmqZOqfrlHYpv+CV9
+ZsX70qun4+AZyt+dzhFPhZkwXq4FLV6zSJhAUWbp10xwfXx5eXba7UoxzHHMtl1D
+klLEiNSSpDWLwqSyMjAz804jxG7/89tuQbA72z4J0hF6s0Kz3atKg20VZekxI5Sy
+7wDwhopFeQPXEKr1txacSkO9ckmEgAmiPxpntMzKTvo5ncLfOQmzOxo9CAzQxPUW
+GXyHdhjg8U652gHFvnDbFE/GPXMqFn5GUCGwGGAr4uQEffBq6LmvUNEYOwjr8v3t
+D1SkgBphsqdR6wYffpWey/rkRuUqvvmYaX7LsUYblUZTrbTkrVG6hEQrbPaNMOgy
+6i6d/jJAXj4beCO5BOJiTCZfVrLQ3nwLhZNZfPtmiwMnf3aKoFiQtZyjiRRFhW3U
+yct0jwHXjcwXhCJJeoKoO/rl
+=7KFt
 -----END PGP SIGNATURE-----
 
---===============8496912049337420927==
+--===============5606859511996671461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d79bec4888ef-4d5e6a3131c5.txt
+Content-Disposition: attachment; filename=revlist-4d5e6a3131c5-b82aebd59f80.txt
 
-396c3707e05be6dd85f4860f1b7087de55d839a3 HID: playstation: Clamp num_touch_reports
-8096825e42acf20b00e64c47f1108824c5f540dd media: uvcvideo: Enable VB2_DMABUF for metadata stream
-3c9195467b43dbe4bf3fb040632be40da34ec42a media: nxp: imx8-isi: Reduce minimum queued buffers from 2 to 0
-b4ab64902bde801bf5e161166cf7519fb76f5750 media: i2c: ov8856: free control handler on error in ov8856_init_controls()
-6e64b443f5792595d568f748cdcdeca263c35068 media: chips-media: wave5: fix a potential memory leak in wave5_vdi_init()
-6dc095f183f3e2495c7c59fdc63bd1f16c455084 media: chips-media: wave5: add missing spinlock protection for send_eos_event()
-bae803f60d932ca0b738e32fd90af98c7713e0c5 media: chips-media: wave5: add missing spinlock protection for handle_dynamic_resolution_change()
-0d0885dc85e2f9c7d9caa23ee20392f4a5f70aba spi: bcm63xx: fix controller deregistration
-90600c59ee470f20bdfae0730f984cc247b0bbc7 spi: atmel: fix controller deregistration
-1ed0a2ec4c2fedb68a1e8592ebcef249ba88e9e1 arm64: dts: lx2160a-cex7/lx2162a-sr-som: fix usd-cd & gpio pinmux
-353b11aa5067146f9d6e59bb58ce6fc122ac413e staging: media: atomisp: Disallow all private IOCTLs
-c1ffb4aa4097c7255b3bc0865ba84379f2d28b99 regulator: mt6357: fix OF node reference imbalance
-96815862091bbe79316f53dbb1689fdedee6f655 spi: st-ssc4: fix controller deregistration
-653e959067b644d36b44780b461bdaa6fcc6e780 regulator: max77650: fix OF node reference imbalance
-380f54401656ce8d55306ce54aab5746414a9b44 media: rc: xbox_remote: heed DMA restrictions
-cb9a405b4e6c6a63f464a09a66a1a2c6c4df2134 media: rc: streamzap: Error handling in probe
-c716fc5f3cc4260c6fe1fc3a94619dfd785e892f media: i2c: imx283: Enter full standby when stopping streaming
-8f550a9192669a22f736849616bcaf2a1e08ad6b regulator: rk808: fix OF node reference imbalance
-c82daa835cef414d00cc50196472bd30a6326c9b media: videobuf2: Set vma_flags in vb2_dma_sg_mmap
-ca13f8c52ed62d7a9e97ca8cc4b18faa99b323b1 media: intel/ipu6: fix error pointer dereference
-082fd78c8a43d82eaca4cf06e5bca926c2bc6db6 media: i2c: imx283: Fix hang when going from large to small resolution
-1e3003af9c322e6060b39e5cbca9bb3c237d5578 regulator: act8945a: fix OF node reference imbalance
-a5ce0e4295e2dc800637631d34266505cb6575d5 regulator: bd9571mwv: fix OF node reference imbalance
-ad517070f7548c836789a37a568c95914e4fb6d1 spi: lantiq-ssc: fix controller deregistration
-676829c880d143f5d2bd217b84793c5fd4948a17 spi: meson-spicc: fix controller deregistration
-44d41ee89b197773618970d9358419d6e7b58346 spi: qup: fix controller deregistration
-d2579da55edbdfae7daccd6d0f27d07f80e89db9 spi: at91-usart: fix controller deregistration
-112f8be3b80b6da22660a160fbabe34917c046d8 media: saa7164: add ioremap return checks and cleanups
-4bad96cc1903805c12f8c95c6d14f3cbf3665882 spi: aspeed-smc: fix controller deregistration
-00264c8d6c3ae83e66e6797d871455258db1e0c9 platform/x86: hp-wmi: Ignore backlight and FnLock events
-591835a23d0d92b620a3ca23ea2ac80877c642fc vsock/virtio: fix MSG_PEEK ignoring skb offset when calculating bytes to copy
-95d8673209d34d8183f175d269196087f90c3364 media: pci: zoran: fix potential memory leak in zoran_probe()
-4c40ea8320709ae4360fd5ad3ac2081913537159 media: dib8000: avoid division by 0 in dib8000_set_dds()
-b0445b7eaf2bfc8161eed0bd874c2e722f65bef2 media: i2c: imx412: Assert reset GPIO during probe
-5b9eed2e2404625728fe13f1774564c7100d7081 media: staging: imx: request mbus_config in csi_start
-d929c3f09f53e67e667a4e74899c00a4d8594ea7 media: i2c: ov08d10: fix image vertical start setting
-053038a4aaab3f30b34414052bf25316f54d16b4 media: omap3isp: drop the use count of v4l2 pipeline
-858c9b9c0c1050f2c5307349e2216d0430adf5b1 spi: mxs: fix controller deregistration
-e1f30d6df2dbfc0f1648658a1fc6b32cc79f1ac1 spi: dln2: fix controller deregistration
-e1e13f7f6dbc6f70df9bde2d179dfb69d4c590ce spi: s3c64xx: fix controller deregistration
-8d134f73618622e9fc1c16d1b41d0e6c529141b6 spi: fsl-espi: fix controller deregistration
-09f44c51e2e8d3c6f963aff41def8aeb5861d843 spi: omap2-mcspi: fix controller deregistration
-98dd62793b070dc5d386c2e1aac103d954359d59 spi: pic32: fix controller deregistration
-a2aa15d1fd6f7bb376c3cc9d6b254e9d36b56e3b spi: mtk-nor: fix controller deregistration
-05a16c677c5fa692fac5f761480959d481b2fcb0 spi: pl022: fix controller deregistration
-f9d2aa8ec4c18c2e1318b69a81230b70dfec4c14 spi: sh-hspi: fix controller deregistration
-fd73f38dc888974bcb07c16e8a764f1bee7c9e82 spi: fsl: fix controller deregistration
-663b8ae109b023d64b816e370debd6e96b2f4917 spi: bcmbca-hsspi: fix controller deregistration
-6554f461a9a2fd61bd7bdd5228c6eaee68e19952 spi: coldfire-qspi: fix controller deregistration
-b37f8eefadcf3d687f41c1922ad84d033fb39c88 spi: npcm-pspi: fix controller deregistration
-5995324827b535bac8d7d8807a8bfd74012d7b3e spi: pic32-sqi: fix controller deregistration
-41a085a415d2cb5137d438f03a2d253057041c3d spi: sprd: fix controller deregistration
-502b1f7b92a549f26bbf95024432fbb9eadf4367 spi: rspi: fix controller deregistration
-c57df37c297cb370a11a75f43e2e50355ca162a2 spi: img-spfi: fix controller deregistration
-bfce0fbb80d9a74baa79943ca1951e77d6576d0d spi: imx: fix runtime pm leak on probe deferral
-8e525f79169a1ff05056c13b76b20e6ab99ce4b8 spi: mxic: fix controller deregistration
-9340b4a6b118c3a78bb474d536f03fb02a470152 spi: orion: fix controller deregistration
-1e8256d3f702f022bcc3fb97cf1302f8e81fc816 spi: orion: fix runtime pm leak on unbind
-71ca01a8e975a10aa8ac23c14df709ba4200c603 spi: orion: fix clock imbalance on registration failure
-fd35aef7fdcb513d099bf98830f957f3b216978a spi: mpc52xx: fix use-after-free on registration failure
-18b286b9799750f7fa0b6e0cb604bf55d4c53343 spi: mpc52xx: fix controller deregistration
-c26cd0813ee0309c0ab1a88badd277730db2228f spi: mpc52xx: fix use-after-free on unbind
-c5d2ae1fabd9cde0bf560e1df0f77ff65082ece0 spi: cadence: fix controller deregistration
-78e10140c36ab7921925ed2d2452a557c8bb75ce spi: cadence: fix unclocked access on unbind
-0979b59ac6966fa3b19b449979811cfe327d3e82 drm/msm/gem: fix error handling in msm_ioctl_gem_info_get_metadata()
-2a4616fe2ea78ea29f247d8ccbead00c4010daa3 drm/i915/psr: Init variable to avoid early exit from et alignment loop
-02cf65a40d1b1da515417336c1728017e989c1ed drm/amdkfd: Clear VRAM on allocation to prevent stale data exposure
-3d67da805de239467a52ae94f02ac7e11ecbf835 drm/amdgpu: Use SMUIO 15.0.0 offsets for TSC upper and lower count.
-0b4d5a9466294eeaec2d5f417fb545195e7b9bb1 drm/amdgpu: gate VM CPU HDP flush on reset lock
-9955f299be0fae19ff1d305cc41a5a1bc700370f drm/amd/pm: fix incorrect FeatureCtrlMask setting on smu v14.0.x
-59dda5f86e750f9c52df6eef6f7d57b1732db81e drm/amdkfd: Add upper bound check for num_of_nodes
-4062688add652385dd282ffdcae00c25ee8c02ad drm/amdgpu: Add bounds checking to ib_{get,set}_value
-ffac6281f0fede6543981977cb0a48ae5fdeeaaf drm/amdgpu/vcn4: Prevent OOB reads when parsing IB
-1ac410c5c54716a9841a36381e2a317a55b8727a drm/amdgpu/vce: Prevent partial address patches
-56ad3b9f53eb1e26edbf7febc5aed3021a5f2fd9 drm/amdgpu/vcn4: Prevent OOB reads when parsing dec msg
-a47cf2e8352c0254edbe4d8a059ea8b67a60816e drm/amdgpu/vcn3: Prevent OOB reads when parsing dec msg
-3ddd39e6f0bf274aea448a8827ee4d97f03e5cfe drm/amd/display: Change dither policy for 10 bpc output back to dithering
-1ce69942fecd9e37385ca41d87fb6288f26d200e drm/gem: Fix inconsistent plane dimension calculation in drm_gem_fb_init_with_funcs()
-cf4813566f9f10938e1c100bde5ae922c06bf929 drm/amdkfd: validate SVM ioctl nattr against buffer size
-4e8018ae93af8fd9c5db62502052314f3336d9f3 drm/xe/bo: Fix bo leak on GGTT flag validation in xe_bo_init_locked()
-dea02f598e7da56b5f04168ab7b287c1c93c8889 drm/xe: Fix dma-buf attachment leak in xe_gem_prime_import()
-68944d2586fb760041afb072b36204f7996f5056 drm/xe/bo: Fix bo leak on unaligned size validation in xe_bo_init_locked()
-469ec226c7538b908d19419dd7bb90d40f0dfe98 drm/radeon: add missing revision check for CI
-483b9853ae6466676cd69f0f40bd686b632fe4f9 drm/amdgpu: zero-initialize GART table on allocation
-2fe690189b34d49da1fcad2b063aefc2d23bafe9 drm/exynos: remove bridge when component_add fails
-d6531fc639121a2371107638bc1c6db4e368b5b0 drm/panel: himax-hx83102: restore MODE_LPM after sending disable cmds
-74855059e19c21d595c292e4d5e1168ebeede2bb drm/amdgpu/gfx9: drop unnecessary 64-bit fence flag check in KIQ
-2cde21b8b437e69736d1bcddff996137de0b4a4d drm/panel: boe-tv101wum-nl6: restore MODE_LPM after sending disable cmds
-26c58652a47f72a09595b13bd75fbf087bf4bef6 drm/amdkfd: Make all TLB-flushes heavy-weight
-de2756ae5ad1bfe7caa5a47225623a507e864f3d drm/amdgpu/sdma4: replace BUG_ON with WARN_ON in fence emission
-d67232fc87e056b335a0400180b12b1c05ced3ac drm/amdgpu/pm: add missing revision check for CI
-4a8e210a14cf25b67d485c7c33ba84d53a8ea268 drm/amdgpu/pm: align Hawaii mclk workaround with radeon
-53031233f24a39007999932219b430f89f5542e3 arm64: dts: ti: k3-am62a7-sk: Fix pin name in comment from M19 to N22
-94c6e447076c254857c2dcd889368622fcd4c7c0 sctp: revalidate list cursor after sctp_sendmsg_to_asoc() in SCTP_SENDALL
-dd92070f322456d407cecd992a3dadcf895bcc52 batman-adv: fix integer overflow on buff_pos
-836153de2977fc8ba2ba54ee0598088dcbf13e25 batman-adv: reject new tp_meter sessions during teardown
-0969814e2dd27138896e4bae02c67411d12f573d batman-adv: stop caching unowned originator pointers in BAT IV
-296f4eac31a018033d707c735ab2a703cfdeefab batman-adv: bla: prevent use-after-free when deleting claims
-f2f61b3c2195b390f02ce62ddb56391dbd9bb1bd batman-adv: bla: only purge non-released claims
-18f2e87755b1784ada1cc099107bd822022b26aa batman-adv: bla: put backbone reference on failed claim hash insert
-7e036e3520bf0391b618f68ee2ed36ef6a8050fb usb: typec: tcpm: reset internal port states on soft reset AMS
-18ce585dcf12e1511d2d7d7d7c16c62aeb632785 usb: dwc3: Move GUID programming after PHY initialization
-1d8c0dbe1d8eab5ea2666d53252a074af1aa3bfd ALSA: hda: cs35l56: Propagate ASP TX source control errors
-ccd96dcb825ff2c41705bd06450324e5ae1cc033 ALSA: misc: Use guard() for spin locks
-2e05bf67da478c300b51048d2f4313dcf4ca3c94 ALSA: core: Serialize deferred fasync state checks
-8fb78d7e40af0db086a5944a140cce0c23692ce5 ALSA: seq: Notify client and port info changes
-66cf4fb8ffa696099bf8dea89b69835713d89002 ALSA: seq: Fix UMP group 16 filtering
-b4fcee454fe035eae4b1a6ed77b2b4c5cb269750 Bluetooth: hci_conn: fix potential UAF in create_big_sync
-41e85f1656c80230031bc0a7d996259686f33663 spi: zynq-qspi: Simplify clock handling with devm_clk_get_enabled()
-d2ef04e509d73b0571e5352955c6b2e9920841e9 spi: zynq-qspi: fix controller deregistration
-e8397015d551daa64a387758f08178e132466e9d spi: tegra20-sflash: fix controller deregistration
-de5dbf83a5ba58aaac736ee2a10c71b21aab997b spi: tegra114: fix controller deregistration
-fd44fd546f8bc7e079fdab81eee999e435e5f2d0 spi: uniphier: Simplify clock handling with devm_clk_get_enabled()
-03daad5e540f4bf1aada45a091ae8524bbac6646 spi: uniphier: fix controller deregistration
-e6dc474fbb9a2509bcc81f8ab76ff7f67d582359 mm/hugetlb_cma: round up per_node before logging it
-171060e7797df87eb2bf1fb70dfb21936d3db4d2 block: cleanup blkdev_report_zones()
-4c7613a1d5e00e665cff6a1f6c2d2a090183b937 block: reorganize struct blk_zone_wplug
-40a87f546ebfdea41c7dea98eaa6d7f5353cd0ab block: fix zone write plug removal
-f94131a0ecf4487fd97d38d7a5f36d6a88a6bf7b tracefs: Fix default permissions not being applied on initial mount
-c5b41b8bfa813b962e4d35b369c047a014407289 fbcon: Avoid OOB font access if console rotation fails
-2f6de978ef849b1aec8d7d429694c03949d70b1e rust: pin-init: fix incorrect accessor reference lifetime
-d58d526ece8774bb8da2d445f8ae57af064f1f2e mm/damon/core: disallow time-quota setting zero esz
-756a88328353acbd34af3569caf34255b6790b78 mm/damon/core: implement damon_kdamond_pid()
-83dfd2fb042fdfea06c631bb4d0a9fa579fe32df mm/damon/lru_sort: detect and use fresh enabled and kdamond_pid values
-39569914c10b2239617847f07d2bea6c588798c4 mm/damon/reclaim: detect and use fresh enabled and kdamond_pid values
-4d3a8680a7cf0a5c9a4864b1b6aa276cd1119f2e rust: allow `clippy::collapsible_match` globally
-32655d15ebc8ea1da321b26df31434cb15faf417 rust: allow `clippy::collapsible_if` globally
-b7166a509f61922cd46478a701618f8b5b82a2bb bonding: fix use-after-free due to enslave fail after slave array update
-05b097252a73b1f71f80d56f9bd062a69ece10e7 io_uring/kbuf: support min length left for incremental buffers
-5c0bd95102df0b9b7c3644506532da11b5132821 Bluetooth: L2CAP: Fix null-ptr-deref in l2cap_sock_get_sndtimeo_cb()
-b700bd11c6f0703e772882a0704f212bd33be04c btrfs: remove fs_info argument from btrfs_sysfs_add_space_info_type()
-fe596c21bf45b1019b70e16066d6e700a0f88245 btrfs: fix double free in create_space_info_sub_group() error path
-956fe68f614a702cc7d4663b51ec9b5c306dfd5a btrfs: fix btrfs_ioctl_space_info() slot_count TOCTOU which can lead to info-leak
-a6eca9ce21769bf5a1617188e9e743d435d08c0e tracing/probes: Limit size of event probe to 3K
-293e865c6eb3a3478c6fea23cb8157633900a42f batman-adv: stop tp_meter sessions during mesh teardown
-c42a583a6fc2c0e5b7480a269943ab54364120f3 batman-adv: tp_meter: fix tp_num leak on kmalloc failure
-e369d4387d72f2a7d6679f0008570649cbd70e84 vsock: fix buffer size clamping order
-24519fd7c42dde30ea26849b92771ac64d896b25 vsock/virtio: fix length and offset in tap skb for split packets
-19dffee6555f008602d25866250509b9abb63f8f vsock/virtio: fix empty payload in tap skb for non-linear buffers
-90f143410fb8447e15585550064a9274fa16cf6c vsock/virtio: fix potential unbounded skb queue
-d7bc5a284756a00f6c40866f5d0249203b316a4e vsock/virtio: fix accept queue count leak on transport mismatch
-ddbee22d9159ac2fc48210ce0ffb8f4d73579b43 drm/amdgpu/vcn3: Avoid overflow on msg bound check
-5b7bdb831563b33bb43a7250ec9ec4f5e79fac90 drm/amdgpu/vcn4: Avoid overflow on msg bound check
-4d5e6a3131c542b7384eda3a6a1c1535871dca94 Linux 6.12.90-rc2
+2402ff0912f502254be3628dd274febbc12c407e HID: playstation: Clamp num_touch_reports
+c6a57b262baaadef00432560ad0b8375871a792e media: uvcvideo: Enable VB2_DMABUF for metadata stream
+7ecba908cee62e825f7e334feaf0c1dce828a825 media: nxp: imx8-isi: Reduce minimum queued buffers from 2 to 0
+6fbc211ead401364d84650b370cb4b5a08d4d275 media: i2c: ov8856: free control handler on error in ov8856_init_controls()
+b23ce4fafa53946a4c26617b369c340c217df473 media: chips-media: wave5: fix a potential memory leak in wave5_vdi_init()
+7678931a0d00ff937a546fcd654f9172965ded5b media: chips-media: wave5: add missing spinlock protection for send_eos_event()
+f9291a1d20ed200011eb6fc72d886a75c9c16de3 media: chips-media: wave5: add missing spinlock protection for handle_dynamic_resolution_change()
+46506da0f10073b4fc387eaa714a611d2f9b8ca3 spi: bcm63xx: fix controller deregistration
+c49cc0ab02c0cb15e92658f9a74c4631d4b950fe spi: atmel: fix controller deregistration
+202eaec3541d3e30fa999a7f5d8f8a491fb6bb46 arm64: dts: lx2160a-cex7/lx2162a-sr-som: fix usd-cd & gpio pinmux
+e7fdfbeb0b7727e8175ce95ce17607ada4734516 staging: media: atomisp: Disallow all private IOCTLs
+d59bcce2539092cc79b7f038afe9d534371046b2 regulator: mt6357: fix OF node reference imbalance
+9b753d29830d21a5f00e4354bdce9d8f2cef9537 spi: st-ssc4: fix controller deregistration
+62b7ed996864e6083ed7f4a500316ca114618cfb regulator: max77650: fix OF node reference imbalance
+5473bb8f68a0a5a71709f394fee206fbab16fadf media: rc: xbox_remote: heed DMA restrictions
+dcde819a9c91a378ff54bcbf5afec92cdfbd85c3 media: rc: streamzap: Error handling in probe
+659c35f423610911acd9635d1f9e1c1508cc8061 media: i2c: imx283: Enter full standby when stopping streaming
+ba34776a216ae9dc90ba4b0f910bbf7197cf2671 regulator: rk808: fix OF node reference imbalance
+9fd5f33a0740bf916d4a1187fc7be779d1caf218 media: videobuf2: Set vma_flags in vb2_dma_sg_mmap
+aef2e87981728276ee131462575525bf7c28b283 media: intel/ipu6: fix error pointer dereference
+733bca186fc1f5f51acda825a0cd3aa5b27b65c4 media: i2c: imx283: Fix hang when going from large to small resolution
+78542656ec2967ebc2fac7f5cad138fd297ae688 regulator: act8945a: fix OF node reference imbalance
+46b142e79918222ce5e5c98a6051ca2b5c3b374a regulator: bd9571mwv: fix OF node reference imbalance
+b74e15b0c838faf23d43160b1fbdff9119e5dd64 spi: lantiq-ssc: fix controller deregistration
+f857df89f2f23703d10575320a698eca88529e47 spi: meson-spicc: fix controller deregistration
+955ea731b0a3e3fce852cee7cf79112bddea6779 spi: qup: fix controller deregistration
+2bc02846fb218bda09cc1a59faa8b12a16ee14c0 spi: at91-usart: fix controller deregistration
+eeace89fdb9de75c29437c44eb66c0a299eccffd media: saa7164: add ioremap return checks and cleanups
+8b4252e142e47c8a16c4b64632f22ad5e62cc7f7 spi: aspeed-smc: fix controller deregistration
+ede6e8217f4cc2490dac932a10009df7acd5217f platform/x86: hp-wmi: Ignore backlight and FnLock events
+cbf2adebc98951c2430309b6df5dc127ce14abb5 vsock/virtio: fix MSG_PEEK ignoring skb offset when calculating bytes to copy
+e7a9d3f47162921453fc47bab389cd6a42cb32d6 media: pci: zoran: fix potential memory leak in zoran_probe()
+911eaa628234232b4eaf467dbf9fc6170c12d7f5 media: dib8000: avoid division by 0 in dib8000_set_dds()
+a915f6d9ceadb53ad957ac555531c8c4a29fa9b9 media: i2c: imx412: Assert reset GPIO during probe
+e4b575cd05c2e03df05d85d94a3c17814d7cd5f8 media: staging: imx: request mbus_config in csi_start
+3e48b68c4796919195e470f8f80c2d73eb1e4108 media: i2c: ov08d10: fix image vertical start setting
+1a0b80dcbbbf6525a16ba69b6b89798fdc596cef media: omap3isp: drop the use count of v4l2 pipeline
+6a4cb74658cbeebba794733c2dba8389350df00c spi: mxs: fix controller deregistration
+eb209ea688f56293a5843bff7d6f15a42e82b164 spi: dln2: fix controller deregistration
+73d4b35cda507010e65a645b20f8766a34256dc0 spi: s3c64xx: fix controller deregistration
+2de1bb3d17bedaf66e39743e719b2b20cce16138 spi: fsl-espi: fix controller deregistration
+fe67f5dbdd96a23730b50711bbd95d8ce91228ca spi: omap2-mcspi: fix controller deregistration
+904261fe55a43c3797772a284dbfc50b47557627 spi: pic32: fix controller deregistration
+b24645612bed2c056590b50b01684612fe639cf5 spi: mtk-nor: fix controller deregistration
+b71714a641a9ddec20c9e5d5d55dd8c9293bdb34 spi: pl022: fix controller deregistration
+5f6bb15d0f94ccf376fa1368c8a0c09e6a6c4330 spi: sh-hspi: fix controller deregistration
+578ffbe74ba3b10b38629ddb7e7aa98c70b6389c spi: fsl: fix controller deregistration
+6ff23d5cc69f4ec5cda06b7a282c90d936c64a18 spi: bcmbca-hsspi: fix controller deregistration
+68cb9e0b9cd122c1c900038b9d92525557701fc3 spi: coldfire-qspi: fix controller deregistration
+457ed37a23cdb5167b3ea06680d34e0b293089a8 spi: npcm-pspi: fix controller deregistration
+b29ba956f45d55b95cd8d50a869739fbdc588611 spi: pic32-sqi: fix controller deregistration
+09adaf7721030523ea0a159a99ca9793548e7464 spi: sprd: fix controller deregistration
+edc8c85544a883959450f7ec633da9b95e20024c spi: rspi: fix controller deregistration
+c3abb3c60e5c60380f48082e7d2f36c8a9a623ff spi: img-spfi: fix controller deregistration
+c7035d6f9542fdfbe7506819d8c6c722edd59cc7 spi: imx: fix runtime pm leak on probe deferral
+24bf92df70a2e879c9273ae839ea68397a84e52b spi: mxic: fix controller deregistration
+d9d997d2df322a9ce6b54aa0947439003fe2c39c spi: orion: fix controller deregistration
+464f2450c0dc1bdcdf4aeb66f84d62ba7deade99 spi: orion: fix runtime pm leak on unbind
+36683f20556c7ecf6cfb7f111dd6595718968269 spi: orion: fix clock imbalance on registration failure
+cc4dffe731160ee1418701ed743b05c58c30872b spi: mpc52xx: fix use-after-free on registration failure
+eda79c720d8d0d764161e2bf90b871e17ffe0e5a spi: mpc52xx: fix controller deregistration
+05547dcc7c52d6aedc9bccf987b962313dd4a503 spi: mpc52xx: fix use-after-free on unbind
+b6203c312db4b6dae664611492795b48fbee7b8e spi: cadence: fix controller deregistration
+91267160aabe5c60d86f948d921d4844b630f342 spi: cadence: fix unclocked access on unbind
+7bcc13c681eaec5c9990ca417d0b49f66f2ac865 drm/msm/gem: fix error handling in msm_ioctl_gem_info_get_metadata()
+d3745fb6fa9af6d4bcd9d10bf42ebe32b48a960b drm/i915/psr: Init variable to avoid early exit from et alignment loop
+9e70fad0b2e062724cf7344ca6358d60bb1db077 drm/amdkfd: Clear VRAM on allocation to prevent stale data exposure
+ca4d7e3c049ce3f5563a55d50a720d4c83bfec77 drm/amdgpu: Use SMUIO 15.0.0 offsets for TSC upper and lower count.
+0ced7301485e4ceb1478d39a22946eda84db433a drm/amdgpu: gate VM CPU HDP flush on reset lock
+240e222df668715e3344386216aa96b1f26288d0 drm/amd/pm: fix incorrect FeatureCtrlMask setting on smu v14.0.x
+21c5f89d8aa433180d6b4a6ed8b8ea4ae57ad6cb drm/amdkfd: Add upper bound check for num_of_nodes
+c0653554f33f344ae84272b01f842bb59a4ac791 drm/amdgpu: Add bounds checking to ib_{get,set}_value
+8f8a7976a4ad401f76229a2bd0fd4a3320862546 drm/amdgpu/vcn4: Prevent OOB reads when parsing IB
+6da21f1c7718ecb825774a7a7ba803fd9c107c89 drm/amdgpu/vce: Prevent partial address patches
+2b27d7d976b27905bf8d0037d541d02a90b82a96 drm/amdgpu/vcn4: Prevent OOB reads when parsing dec msg
+5e33f8ce60c6de9bc725297285a4155413787f81 drm/amdgpu/vcn3: Prevent OOB reads when parsing dec msg
+a1cce31d93cc03fe1fc48a69cfdd2cb62da53467 drm/amd/display: Change dither policy for 10 bpc output back to dithering
+e128961e9335575830336a197ed63628c7ffc62a drm/gem: Fix inconsistent plane dimension calculation in drm_gem_fb_init_with_funcs()
+8524bd4d8864f6cd58399eba966c2f1bb91ff3e8 drm/amdkfd: validate SVM ioctl nattr against buffer size
+97141a0fb480223202eb2e576fb53da741586f7d drm/xe/bo: Fix bo leak on GGTT flag validation in xe_bo_init_locked()
+fb41ae0271e852d2dbe56dbf33a3a35365d4aa13 drm/xe: Fix dma-buf attachment leak in xe_gem_prime_import()
+3cd08e2461a3479fd9129a7d8bdd0e749927f340 drm/xe/bo: Fix bo leak on unaligned size validation in xe_bo_init_locked()
+38b939d8ca2eb055c7e1734d0803ac6248cc96dc drm/radeon: add missing revision check for CI
+e78917a54a3ff365ea1e04bdadbefc35f6150396 drm/amdgpu: zero-initialize GART table on allocation
+40d8e387d6600b32ec22839b35ca598f2e7fb8c3 drm/exynos: remove bridge when component_add fails
+fdd047044c8b566b33b5c1bfa3b3b76870debf47 drm/panel: himax-hx83102: restore MODE_LPM after sending disable cmds
+0e234a1cedc1f77fd89951624885caf82e08904a drm/amdgpu/gfx9: drop unnecessary 64-bit fence flag check in KIQ
+4fbebfcf92d5ebe05986e2f7c5b3b4f0060ee392 drm/panel: boe-tv101wum-nl6: restore MODE_LPM after sending disable cmds
+4ca4937deea7fc161d269e84331cfd36f2a59400 drm/amdkfd: Make all TLB-flushes heavy-weight
+fb1f0376153a615fc49ab90e6176a4ee3685194b drm/amdgpu/sdma4: replace BUG_ON with WARN_ON in fence emission
+f5fada44f6693e5cc1805925bb6b4dff8a399c36 drm/amdgpu/pm: add missing revision check for CI
+698a964bb38bb22d792ec78ff2040ddda52b2612 drm/amdgpu/pm: align Hawaii mclk workaround with radeon
+43776894da3daf786cb37f2db28fbc79effc0149 arm64: dts: ti: k3-am62a7-sk: Fix pin name in comment from M19 to N22
+04f50debf8f623f8177b1a73ce8a1253224ba2de sctp: revalidate list cursor after sctp_sendmsg_to_asoc() in SCTP_SENDALL
+e08b768b89225ad166fe10702ee76e6030200749 batman-adv: fix integer overflow on buff_pos
+2d225bf12140492d19f85b4805f391ba797dd0a9 batman-adv: reject new tp_meter sessions during teardown
+c60e9d7e7e455b184a5059895700f69a22392f9f batman-adv: stop caching unowned originator pointers in BAT IV
+4a3b47df0c0a381621ceef013eb6a48517aa8baa batman-adv: bla: prevent use-after-free when deleting claims
+740ccf69a998c98ebf18740da8bd3c6c8d2b9f60 batman-adv: bla: only purge non-released claims
+99c7b012b8441f80302ec326f48d558228ab9b44 batman-adv: bla: put backbone reference on failed claim hash insert
+dd93f114a629467055bf50d857a6b1ef2cc91d1a usb: typec: tcpm: reset internal port states on soft reset AMS
+f25fa0949117ec254a6a20e4d0dec222618b9259 usb: dwc3: Move GUID programming after PHY initialization
+4776ab104c791e615e1a0cda79ad5c69a9460d9a ALSA: hda: cs35l56: Propagate ASP TX source control errors
+f0a132c788c67a102826594959e84cb11f3eb5f9 ALSA: misc: Use guard() for spin locks
+e41b3f031e2e1ad6f1216e59708bbeb3bb48e2b2 ALSA: core: Serialize deferred fasync state checks
+e4ce43ce7dd97f2e387a5b26b1c1563420c4eff1 ALSA: seq: Notify client and port info changes
+cac04a336fe3ef930b133544b6b287646f29ee08 ALSA: seq: Fix UMP group 16 filtering
+d7bb1d75ade51cae4ae4a123e323674eeb8d6ef8 Bluetooth: hci_conn: fix potential UAF in create_big_sync
+5a583c8ea29780dcac815c834228fe3bee4899ee spi: zynq-qspi: Simplify clock handling with devm_clk_get_enabled()
+cb988ccb4a28a1437324a09f28df121380f21f16 spi: zynq-qspi: fix controller deregistration
+6ce84599750aaeed398bc45f52ed9b42650d9a21 spi: tegra20-sflash: fix controller deregistration
+c1ec9428b7e297ad7ce38223ebb448abe1ee9fe0 spi: tegra114: fix controller deregistration
+221bcad04176332ce24cb3562478961efa02e8db spi: uniphier: Simplify clock handling with devm_clk_get_enabled()
+ee35c9c16fa2b21adfbdf2d7f03452dfd6326578 spi: uniphier: fix controller deregistration
+99a416354981142860836e96292d0ce17a817ff3 mm/hugetlb_cma: round up per_node before logging it
+3ff3b94a779cde0d6406427d9d3b47c38ad72ff5 block: cleanup blkdev_report_zones()
+b3e48331960e345e3a9f7b5481ede2b272957b05 block: reorganize struct blk_zone_wplug
+9e13c1184c7f375d0eba285bbb0118b574a9e050 block: fix zone write plug removal
+1ee5818693a7920eb975b97052b99bbbd3c548a7 tracefs: Fix default permissions not being applied on initial mount
+48f560c4fa5f073decc32481fd0fb1efae4a946d fbcon: Avoid OOB font access if console rotation fails
+f7bc1a5ef00055510f0f23251b0a663feaf40daf rust: pin-init: fix incorrect accessor reference lifetime
+147a792a13448a702890599ff13aa51103e4378d mm/damon/core: disallow time-quota setting zero esz
+8c1735322ee510210fd3a63b2b1bb9e1f1ce52f3 mm/damon/core: implement damon_kdamond_pid()
+b5bdfd32c0bdd2f3a762bfb57bc8483ef3a40357 mm/damon/lru_sort: detect and use fresh enabled and kdamond_pid values
+a7bc340d9abbb524a96d72642984a76bafc9f55b mm/damon/reclaim: detect and use fresh enabled and kdamond_pid values
+c4477d5a939dafdcd4cfe36654d70ed37b7077c4 rust: allow `clippy::collapsible_match` globally
+43b124df38cd465ee86465ec37b0cb6fdb074021 rust: allow `clippy::collapsible_if` globally
+f5518154a4c3f3c687a754f22d30160c41c54790 bonding: fix use-after-free due to enslave fail after slave array update
+8389cb668c340fe4155a2370af8d83366fa470a4 io_uring/kbuf: support min length left for incremental buffers
+568c8c3dcab6d43c36ae3e640e9632a49c32a9b0 Bluetooth: L2CAP: Fix null-ptr-deref in l2cap_sock_get_sndtimeo_cb()
+3030c9af4b54c0eab08c5325c6f54358aacfd935 btrfs: remove fs_info argument from btrfs_sysfs_add_space_info_type()
+84deffa55ba62c3f136c1e46c270500edf041cd8 btrfs: fix double free in create_space_info_sub_group() error path
+fa81388989bdac88cf0d7d4e4554c0d6cbee285a btrfs: fix btrfs_ioctl_space_info() slot_count TOCTOU which can lead to info-leak
+0e754cc7d2c5d69304895f19dd3a4628b0efb17d tracing/probes: Limit size of event probe to 3K
+e333ca9510609184d9e9a808e697914a14f33ec4 batman-adv: stop tp_meter sessions during mesh teardown
+186a342858654f5c22f9f694316226446f609f79 batman-adv: tp_meter: fix tp_num leak on kmalloc failure
+e3b7297bc4d8552b02123e62a28af3f3de8aeb08 vsock: fix buffer size clamping order
+a1ff1d17a37e736d6dd121191ddcc832ef98d063 vsock/virtio: fix length and offset in tap skb for split packets
+7baaf65be344adb94dcd7d5fbbf0238326811bca vsock/virtio: fix empty payload in tap skb for non-linear buffers
+b252392955ee97bc35c75398016364f40c476426 vsock/virtio: fix potential unbounded skb queue
+478a81a9dd54ddb24b0601d495685314634c5d6f vsock/virtio: fix accept queue count leak on transport mismatch
+731ccabfbcadb73d31643b5954573201c7e598b9 drm/amdgpu/vcn3: Avoid overflow on msg bound check
+d410445f283fd059e2362b583f227c29e4cfd390 drm/amdgpu/vcn4: Avoid overflow on msg bound check
+b82aebd59f80062d53171c66e81a1243c80db6f7 Linux 6.12.90-rc2
 
---===============8496912049337420927==--
+--===============5606859511996671461==--
