@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 16 May 2026 10:56:19 -0000
-Message-Id: <177892897929.1005228.10854550862251781458@gitolite.kernel.org>
+Date: Sat, 16 May 2026 11:02:50 -0000
+Message-Id: <177892937070.1009544.8090772372532747761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 72b433287a88b4c8cb3c42f804c53d384a935452
-    new: 5121e711f5da58d04f99041e444d805c55427e62
+  - ref: refs/heads/fixes-togreg
+    old: 9bf58c7cf1bc2102337f439f2fc300780b8dcffa
+    new: 0eb0ac8b282b273c254dcda52d29b06a92840252
     log: |
-         794e5feeb174f4a45ff1ec0935d724806f0a5e8e iio: light: vcnl4000: use lock guard()
-         5121e711f5da58d04f99041e444d805c55427e62 iio: adc: ad7192: fix GPOCON register access annotation
+         0eb0ac8b282b273c254dcda52d29b06a92840252 iio: resolver: ad2s1210: notify trigger and clear state on fault read error
          
