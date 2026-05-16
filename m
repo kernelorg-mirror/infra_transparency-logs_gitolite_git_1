@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Sat, 16 May 2026 11:39:28 -0000
-Message-Id: <177893156875.1036881.5691687107935935958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 16 May 2026 11:42:42 -0000
+Message-Id: <177893176257.1040195.11502997330065754627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/nf-26-05-08
-    old: 0000000000000000000000000000000000000000
-    new: 263d81fff0f9e042629ef07c327fdbcfb57e21bf
-  - ref: refs/tags/nf-26-05-16
-    old: 0000000000000000000000000000000000000000
-    new: 70a655a6f43c12cbd965c774bf2d58d9e4c0b412
-  - ref: refs/tags/v7.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
+  - ref: refs/heads/testing
+    old: 5121e711f5da58d04f99041e444d805c55427e62
+    new: 0d003b7e6bacf7e6ae0b50fdcd2a5caa79747977
+    log: |
+         1d9b33b18f8ab6fd5c4e7c5b759678c77e89d63e Documentation: iio: fix typo in triggered-buffers example
+         ef2c1e6e6e8e027b26e628fe53b96b4e9f9ea0c4 Documentation: iio: make ADXL Y-axis calibbias description consistent
+         4ccca4cce47a28fa6b13200807e590a7ec480c43 dt-bindings: iio: magnetometer: add MEMSIC MMC5983MA
+         0d003b7e6bacf7e6ae0b50fdcd2a5caa79747977 iio: magnetometer: add driver for MEMSIC MMC5983MA
+         
