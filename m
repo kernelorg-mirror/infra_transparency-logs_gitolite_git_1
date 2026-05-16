@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 16 May 2026 14:20:32 -0000
-Message-Id: <177894123233.1152949.6055641796152502720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 16 May 2026 15:10:57 -0000
+Message-Id: <177894425779.1187487.10595942656333286468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-linus
-    old: 0aacce7c32e4631c3634df5d19d30c72a3614ec9
-    new: d04a0047d619ddbc50e023aa76e4dddf86e5da3f
+  - ref: refs/heads/hwmon
+    old: ba77717054b39cafd47c6a5e34b26792284f3481
+    new: 873e919e3101063a7a75989510ccfc125a4391cf
     log: |
-         d04a0047d619ddbc50e023aa76e4dddf86e5da3f ALSA: pcm_drm_eld: rate-limit ELD parsing errors
-         
-  - ref: refs/heads/master
-    old: c865578de288877491bb96ce56cf908315d6c723
-    new: c4a265e2fe2f9ea89f313cbfbc2ebb0dfc775f06
-    log: |
-         d04a0047d619ddbc50e023aa76e4dddf86e5da3f ALSA: pcm_drm_eld: rate-limit ELD parsing errors
-         c4a265e2fe2f9ea89f313cbfbc2ebb0dfc775f06 Merge branch 'for-linus'
+         b09a45601094c7f4ec4db8090b825fa61e169d93 hwmon: (lm90) Stop work before releasing hwmon device
+         873e919e3101063a7a75989510ccfc125a4391cf hwmon: (lm90) Add lock protection to lm90_alert
          
