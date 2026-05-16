@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7381515456271828146=="
+Content-Type: multipart/mixed; boundary="===============6728310608658997643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 16 May 2026 15:46:07 -0000
-Message-Id: <177894636786.1214801.10693753104085248579@gitolite.kernel.org>
+Date: Sat, 16 May 2026 15:46:10 -0000
+Message-Id: <177894637032.1214963.14367325979686203489@gitolite.kernel.org>
 
---===============7381515456271828146==
+--===============6728310608658997643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-soc
-    old: f3ae0049ff8a3d2cbd8c05857705744435629d0c
+  - ref: refs/heads/clk-microchip-fixes
+    old: 2f7ae8ab6aa73daaf080d5332110357c29df9c36
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-f3ae0049ff8a-254f49634ee1.txt
+    log: revlist-2f7ae8ab6aa7-254f49634ee1.txt
 
---===============7381515456271828146==
+--===============6728310608658997643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3ae0049ff8a-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-2f7ae8ab6aa7-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============7381515456271828146==--
+--===============6728310608658997643==--
