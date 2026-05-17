@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3872790844334818978=="
+Content-Type: multipart/mixed; boundary="===============1013000554866109350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 17 May 2026 14:52:28 -0000
-Message-Id: <177902954853.2248985.13648379547053949686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 17 May 2026 15:14:07 -0000
+Message-Id: <177903084763.2263626.7052066230318051041@gitolite.kernel.org>
 
---===============3872790844334818978==
+--===============1013000554866109350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 9dd3e17173bfb8a430e24d40c1efd14d81142231
-    new: f5cb0630444b7353c8c471b52e006b90fa6d5aa1
-    log: revlist-9dd3e17173bf-f5cb0630444b.txt
+  - ref: refs/heads/master
+    old: fb3e7408ba424c64fa7dbcc52c9c0a45e78aa032
+    new: db1394ae7a4238e833280f62a0beddaa2a3c653e
+    log: |
+         db1394ae7a4238e833280f62a0beddaa2a3c653e Linux 6.6.140
+         
 
---===============3872790844334818978==
+--===============1013000554866109350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9dd3e17173bf-f5cb0630444b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8138bc70885293c83a319ee8f03bce132365a528 RDMA/siw: use kzalloc_flex
-37e0dba4a0c434def2d091cb2a163de8aeaa18ab RDMA/hns: Use named initializer for pci_device_id array
-8ead15066e8257f032920f470148164c99a85375 RDMA: Use ib_is_udata_in_empty() for places calling ib_is_udata_cleared()
-a35b9b01142cbd4b21cc8980ed939900f2969efa IB/rdmavt: Don't abuse udata and ib_respond_udata()
-271746ec81325d347c57559c94fbaa23311cd9fe RDMA: Convert drivers using min to ib_respond_udata()
-22d072b3bcc59ef93939496b4f0133f611eaf985 RDMA: Convert drivers using sizeof() to ib_respond_udata()
-9e521f351488f6baeec3ec234d5912c057819241 RDMA/cxgb4: Convert to ib_respond_udata()
-43a023891b05c719570332c188186d99f39ed20b RDMA/qedr: Replace qedr_ib_copy_to_udata() with ib_respond_udata()
-d7464e18fc9db7bf5d04045e4832bb9d199db962 RDMA/mlx: Replace response_len with ib_respond_udata()
-23a45206d20de44a94dcb40ef7e5c783593e9b72 RDMA: Use proper driver data response structs instead of open coding
-fe3ccbd3e7b59f425642f7bf49a6cc5bd86c7b12 RDMA: Add missed = {} initialization to uresp structs
-f5cb0630444b7353c8c471b52e006b90fa6d5aa1 RDMA: Replace memset with = {} pattern for ib_respond_udata()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779030852 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1779030845-15386c83206b923009fc11da395c7d91f9c384ed
 
---===============3872790844334818978==--
+fb3e7408ba424c64fa7dbcc52c9c0a45e78aa032 db1394ae7a4238e833280f62a0beddaa2a3c653e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoJ20UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tsYQALkZqPR7/pXBxR/VU4g0
+6THuGlWd5xarnjFLM7NfzmifkNJbhoWwbXQwU2LIGlNFE5EQvXzL5/mW9s/CczAO
+B/Fn+z95DaBkcDy/AEfn9vNtMoqjqNLHEwt4PNd0mWXct9xzR4w4QnA9560VAO2D
+d86E69/5EGM876mzAxiWQbZs+SIVmudL+LE1FNgeTLb+gcVpmEzSkJZL1ZHl6pA2
+Aody+P9/JKSE7prm5nqdTo07ofBUTvzVnYdWz/vOHHoQDLfvFsienAgwKAqKEfjN
+sSnZAhRF7V1o9Wx5f69wjC2OcGUbvnllOxlc+QLrBoeWRuFuVsig+K6XvgczH8Xk
+4cBt8grKJI7bLWik3qN9fJZnaebjx3jHPonpXHs+clY0xPNX2S1SQ7Uay6PluKhq
+nOUWxqPobruTzxyniXpv8srbPVD4J6L+SpzrCtcUqTh+Pa5xhM8oBsO1EMdN+KQI
+DqQEHv+YV0DPW4nCpY7zCYIWH9TobYpXRHLjCLbdnhMnxlfvtY6hWjj1qaYL7hYo
+B/aZo9DpMQP8M5dLj9qVcfv68xv2b/qPla6OLNeseFPkkqo9syq7IRHBC8h60zQ+
+R3Uo78vSeeHg0tbICgpYQL6Cyf/dQqKQ+lx1xGh6+AZAvDe+q9ZPEeKB0177H4Zo
+mqo/ShfpbLE3ZrqWKXNKdX6d
+=KnHw
+-----END PGP SIGNATURE-----
+
+--===============1013000554866109350==--
