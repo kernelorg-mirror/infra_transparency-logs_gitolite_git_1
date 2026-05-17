@@ -1,112 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sun, 17 May 2026 10:56:36 -0000
-Message-Id: <177901539688.2025451.3792200161376765066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 17 May 2026 11:01:25 -0000
+Message-Id: <177901568537.2029319.11638006052510936799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/sent/20251022-fix-mcde-drm-regression-c9ac0cc20bae-v2
-    old: 0000000000000000000000000000000000000000
-    new: 7290fc70e028b2883fe37ec4bfd811a2f00a02c4
-  - ref: refs/tags/sent/20251027-fix-bmc150-7e568122b265-v1
-    old: 0000000000000000000000000000000000000000
-    new: bbdb0febc0f5972919188655b546cf61042a5cad
-  - ref: refs/tags/sent/20251027-fix-bmc150-7e568122b265-v2
-    old: 0000000000000000000000000000000000000000
-    new: b9b7d1d60a5fbbb79a32efbd4b60f6904f2082fa
-  - ref: refs/tags/sent/20251118-mcde-drm-regression-33deb78a968f-v1
-    old: 0000000000000000000000000000000000000000
-    new: 3c01481980cf0ffe0348ea2d739c9f30f0cd1f3b
-  - ref: refs/tags/sent/20251118-mcde-drm-regression-33deb78a968f-v2
-    old: 0000000000000000000000000000000000000000
-    new: 5859778f37f82f4d0e92a84f75016edeb1d54f1b
-  - ref: refs/tags/sent/20251120-mcde-drm-regression-thirdfix-1b0abfb52209-v3
-    old: 0000000000000000000000000000000000000000
-    new: d9668c4fa33eb7a8a6da95720923f0f5aa0d0f25
-  - ref: refs/tags/sent/20251120-mcde-drm-regression-thirdfix-1b0abfb52209-v4
-    old: 0000000000000000000000000000000000000000
-    new: 10e3a7f33c9b6f2c0ed8021fef0efd7fba14dbcd
-  - ref: refs/tags/sent/20251120-mcde-drm-regression-thirdfix-1b0abfb52209-v5
-    old: 0000000000000000000000000000000000000000
-    new: 93602add380b8d61c594901a0956d1acece95f58
-  - ref: refs/tags/sent/20251120-mcde-drm-regression-thirdfix-1b0abfb52209-v6
-    old: 0000000000000000000000000000000000000000
-    new: 38dad5386879291f07c4f3d273191b8531802a2f
-  - ref: refs/tags/v6.18
-    old: 0000000000000000000000000000000000000000
-    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
-  - ref: refs/tags/v6.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0edde068997bc3c41f122c9941143a39d604a0dc
-  - ref: refs/tags/v6.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
-  - ref: refs/tags/v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 62ad2b01b0c7dba966c6843b77e99b06a3b12d27
-  - ref: refs/tags/v6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
-  - ref: refs/tags/v6.19
-    old: 0000000000000000000000000000000000000000
-    new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
-  - ref: refs/tags/v6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
-  - ref: refs/tags/v6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 82791741762a870f5f2ede9f909301770f66f867
-  - ref: refs/tags/v6.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f10c325a345fef0a688a2bcdfab1540d1c924148
-  - ref: refs/tags/v6.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d0e305301e82474223bf26185e86e7dc2eb85350
-  - ref: refs/tags/v6.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: c8a4a774a9b0d2c86593492625874e27e9cbc9a9
-  - ref: refs/tags/v6.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
-  - ref: refs/tags/v6.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4ff7d63728ef2315d402a608cef1376248aa5c56
-  - ref: refs/tags/v7.0
-    old: 0000000000000000000000000000000000000000
-    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
-  - ref: refs/tags/v7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 559f264e403e4d58d56a17595c60a1de011c5e20
-  - ref: refs/tags/v7.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
-  - ref: refs/tags/v7.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f
-  - ref: refs/tags/v7.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
-  - ref: refs/tags/v7.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
-  - ref: refs/tags/v7.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
-  - ref: refs/tags/v7.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
-  - ref: refs/tags/v7.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
+  - ref: refs/heads/wip/leon-for-rc
+    old: 0bf1b4dda2d0c89980eab816778722cf51aa404c
+    new: 805d474dd67e54af68409d7e5ee0396c505b2cca
+    log: |
+         f6b079629becfa977f9c51fe53ad2e6dcc55ef44 RDMA/bnxt_re: zero shared page before exposing to userspace
+         0ce1bc9e46ecabe84772bb561e373c0d9876d6f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
+         65b044cee9fb117144f11ab68a318d0055cfbc1b RDMA/core: Move the _ib_copy_validate_udata* functions to ib_core_uverbs
+         805d474dd67e54af68409d7e5ee0396c505b2cca RDMA/core: Do not read wild stack memory in uverbs_get_handler_fn()
+         
