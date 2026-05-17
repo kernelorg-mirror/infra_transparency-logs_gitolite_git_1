@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7661537662352896727=="
+Content-Type: multipart/mixed; boundary="===============4764885307059437001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 17 May 2026 05:54:37 -0000
-Message-Id: <177899727782.1806911.9676093130724976681@gitolite.kernel.org>
+Date: Sun, 17 May 2026 05:55:53 -0000
+Message-Id: <177899735380.1809578.9618797329917845633@gitolite.kernel.org>
 
---===============7661537662352896727==
+--===============4764885307059437001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c991e3897ead0c0622df2c5170b48b4dcf587921
-    new: 77502f2e398aaf7f58c46dba373a18e18aa1f5aa
-    log: revlist-c991e3897ead-77502f2e398a.txt
+    old: 77502f2e398aaf7f58c46dba373a18e18aa1f5aa
+    new: ed9fd257fd4509b3142c3d86d44de89ff0c9e99d
+    log: revlist-77502f2e398a-ed9fd257fd45.txt
+  - ref: refs/heads/tip/urgent
+    old: 046142cbe6f6ef1679259e80db1f1d577a9e6403
+    new: 150e35bf7787cb3aff04ca521bc02b75b237ba61
+    log: revlist-046142cbe6f6-150e35bf7787.txt
 
---===============7661537662352896727==
+--===============4764885307059437001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c991e3897ead-77502f2e398a.txt
+Content-Disposition: attachment; filename=revlist-77502f2e398a-ed9fd257fd45.txt
+
+34807d983ff82fa3faec550b3cc1891cf4415e8f Merge branch into tip/master: 'irq/urgent'
+1f59a0a88da823b8fc7e4eac779414c9bdfc5cd1 Merge branch into tip/master: 'ras/urgent'
+c540b2495cfe5399247eb88057c21c62dd59b2e4 Merge branch into tip/master: 'sched/urgent'
+2731673845c9a819395243384057012637960f3e Merge branch into tip/master: 'timers/urgent'
+150e35bf7787cb3aff04ca521bc02b75b237ba61 Merge branch into tip/master: 'x86/urgent'
+d089d923fbcf27627a40a9731c75500511a50725 Merge branch into tip/master: 'irq/core'
+cc820c5943d36f751e7adc85da4bb2ea87150d39 Merge branch into tip/master: 'irq/drivers'
+fc878f49aeca5dadcff7e0fd95217273d9ccd08e Merge branch into tip/master: 'irq/msi'
+28ee54cd06cfa1242236d9cab9a5299fa368fa91 Merge branch into tip/master: 'locking/core'
+0859aeaa067cdbd11bd3879e8db3d4cf59d08bbb Merge branch into tip/master: 'objtool/core'
+60b719616a84cbf4344b25246d029bb4bf8563e0 Merge branch into tip/master: 'perf/core'
+522e341766255a14b32d854d3a72a9ba4a1263a7 Merge branch into tip/master: 'sched/core'
+f96a66a197254a94c354bd3c89f11db641e1b40d Merge branch into tip/master: 'timers/clocksource'
+1658cb1ee220e309950872402ed7705895e5d577 Merge branch into tip/master: 'timers/core'
+4aa9ab016ad5e88d2d0f2a46e72adf27cee7c107 Merge branch into tip/master: 'timers/vdso'
+8d907fcd651e6ea1716de91aafc462e90fde95d1 Merge branch into tip/master: 'x86/cache'
+3ae4410752044506ae3fb5d226962d5218385f31 Merge branch into tip/master: 'x86/cleanups'
+5a4ac3e73a72e15d599d23518baa3fd1a49476f3 Merge branch into tip/master: 'x86/cpu'
+46b3b9b6697f1b4072498a78791168287641401a Merge branch into tip/master: 'x86/microcode'
+84f99beeba6485a0a1606878f375321da19f8b3e Merge branch into tip/master: 'x86/misc'
+e9250b5ab263a656bb03c845344d609c08509e28 Merge branch into tip/master: 'x86/mm'
+7588a75b3d65c2eb60c982b7dad7b484f8293573 Merge branch into tip/master: 'x86/sev'
+ed9fd257fd4509b3142c3d86d44de89ff0c9e99d Merge branch into tip/master: 'x86/tdx'
+
+--===============4764885307059437001==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-046142cbe6f6-150e35bf7787.txt
 
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
 bfb4dc533d0abaca07013dd71e6b5c6f182232b3 xfs: remove the meaningless XFS_ALLOC_FLAG_FREEING
@@ -188,6 +222,10 @@ b0662be9131d87d8858d34d6134500e109dff958 Merge tag 'v7.1-rc4-smb3-client-fixes' 
 36343a8ff328efd3eb5604e3567d63e6c7906deb Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 dc366607c41c45fd0ae6f3db090f31dd611b644a drm: Replace old pointer to new idr
 6916d5703ddf9a38f1f6c2cc793381a24ee914c6 Merge tag 'drm-fixes-2026-05-16' of https://gitlab.freedesktop.org/drm/kernel
-77502f2e398aaf7f58c46dba373a18e18aa1f5aa Merge branch 'linus'
+34807d983ff82fa3faec550b3cc1891cf4415e8f Merge branch into tip/master: 'irq/urgent'
+1f59a0a88da823b8fc7e4eac779414c9bdfc5cd1 Merge branch into tip/master: 'ras/urgent'
+c540b2495cfe5399247eb88057c21c62dd59b2e4 Merge branch into tip/master: 'sched/urgent'
+2731673845c9a819395243384057012637960f3e Merge branch into tip/master: 'timers/urgent'
+150e35bf7787cb3aff04ca521bc02b75b237ba61 Merge branch into tip/master: 'x86/urgent'
 
---===============7661537662352896727==--
+--===============4764885307059437001==--
