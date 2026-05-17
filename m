@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3436903398341789290=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sun, 17 May 2026 11:10:23 -0000
-Message-Id: <177901622313.2037119.6904053944438751985@gitolite.kernel.org>
-
---===============3436903398341789290==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 17 May 2026 11:34:48 -0000
+Message-Id: <177901768850.2052626.7350757014402332049@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/bugfix/common
-    old: b62d056706cbe4569437f2ba22a42203ee9f92b6
-    new: 58ceffa211a401573636e9e1f3b1113e5119aa9d
-    log: revlist-b62d056706cb-58ceffa211a4.txt
-
---===============3436903398341789290==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b62d056706cb-58ceffa211a4.txt
-
-a6e8f1f3a455d17fc3e169f734cf913a28c079df f2fs: fix to do sanity check on f2fs_get_node_folio_ra()
-16af43d1551ac42b3fe6dc977f9d986f88b77fbf f2fs: fix to do sanity check on node footer in read_node_folio()
-3b39a2e60c7bf65b6bf7502b3e578b575f58929f f2fs: fix to pass folio->index to f2fs_sanity_check_node_footer()
-a7ad701ddf9877b286ff8974a7053b8edf207be2 f2fs: fix wrong description in printed log
-ac3a9a1532a4341f08a9bccc6b474c762c595a24 f2fs: add logs in f2fs_disable_checkpoint()
-4acd7634e4ae02e0b3d300b566b3fe96448a709f f2fs: fix to avoid grabbing large folio in move_data_block()
-a5328be0e2ad7c7f45bbbfea9397d2310eee7885 f2fs: use killable function to be aware of SIGKILL
-a9ee60fb18a62719deea00f6219b05935b02319e f2fs: introduce trace_f2fs_enable_checkpoint()
-bd26c1bcf1484c299d69bb1d4ecd8c00de5c49cf f2fs: introduce trace_f2fs_map_lock()
-a1db0d0907dbe3aef3fecdd635efc6ccb21cc832 Revert: "f2fs: check in-memory block bitmap"
-79fd487d391d1a70c229d4bb5f783833616c24e7 Revert: "f2fs: check in-memory sit version bitmap"
-fb8c937222c19ab7621a481708444efd89b7cf1f f2fs: misc cleanup in f2fs_record_stop_reason()
-a9f1ab77643adf2357b50a79a83fa1a3403719a0 f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode
-fdd73747916ea1ebaaf51a4c02bf8d7167d2d231 f2fs: introduce errors=ignore mount option
-442eb3b76dbc845510d626acd30c3164dc00bc86 f2fs: avoid unnecessary sanity check on ckpt_valid_blocks
-58ceffa211a401573636e9e1f3b1113e5119aa9d f2fs: support to detect inconsistent type of segments in large section
-
---===============3436903398341789290==--
+  - ref: refs/heads/testing
+    old: 6b4b23f7a707b6658d1e568189ffbccb60b48edc
+    new: 9e84763d36931d798f2e74aaf1cc6e5f136c4e45
+    log: |
+         ba3bce62846423ccf603d39c8a6966bb290ad102 iio: magnetometer: add driver for MEMSIC MMC5983MA
+         e809f5c26ce94fd30a27104c7f0451e518bed3fa iio: light: opt3001: make headers conform to iwyu
+         0a4b57afef4e5b41099d4cac9570d30ed1c5b101 iio: light: opt3001: use macros from bits.h header
+         f3fdb4b256041e8f533ef6d66df8be2503413e69 iio: adc: xilinx-ams: fix out-of-bounds channel lookup in event handling
+         6e7667773f622d63097c8309397cbf5372793e14 iio: adc: xilinx-ams: use guard(mutex) for automatic locking
+         c05c83ed39298abc8f618458c48908b90418ef3b iio: adc: xilinx-ams: refactor alarm mapping to table-driven approach
+         051c3c4ef180f7ee8ec1461e5f8573a60b9b5558 iio: light: veml6030: remove unnecessary read of IT index
+         e439934f32acb66a39b4738eddcf3525580afee1 dt-bindings: iio: adc: Add GPADC for Allwinner A523
+         70f48020f38ce7b2d166a14e2d22e6535d987390 iio: adc: sun20i-gpadc: add A523 gpadc support
+         9e84763d36931d798f2e74aaf1cc6e5f136c4e45 iio: adc: sun20i-gpadc: support non-contiguous channel lookups
+         
