@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 17 May 2026 16:07:40 -0000
-Message-Id: <177903406046.2410364.1741642811599241512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Sun, 17 May 2026 16:20:47 -0000
+Message-Id: <177903484701.2420886.16329136088462313999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: f5cb0630444b7353c8c471b52e006b90fa6d5aa1
-    new: 7b2e9a338a5875faa7fd4f7c8052c922c19f9060
+  - ref: refs/heads/next
+    old: acf676b9de0c86bc735a7f04962d3d688e156ffc
+    new: 8a7fe10eec64bfb7cf4091bca540de4c55d56bfa
     log: |
-         7b2e9a338a5875faa7fd4f7c8052c922c19f9060 RDMA/cma: Constify struct configfs_item_operations and configfs_group_operations
+         8a7fe10eec64bfb7cf4091bca540de4c55d56bfa soundwire: intel_ace2x: release bpt_stream when close it
          
