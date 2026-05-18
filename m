@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7327683177376049458=="
+Content-Type: multipart/mixed; boundary="===============6687169037949015931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 18 May 2026 09:35:05 -0000
-Message-Id: <177909690504.3226501.6955040091360979946@gitolite.kernel.org>
+Date: Mon, 18 May 2026 09:36:56 -0000
+Message-Id: <177909701604.3227447.6081510333411332401@gitolite.kernel.org>
 
---===============7327683177376049458==
+--===============6687169037949015931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 71894112e68b305b7fffdbf044354e4d77725c30
-    new: 69ec6318a56180180081da5a38695b136e9ce932
-    log: revlist-71894112e68b-69ec6318a561.txt
+  - ref: refs/heads/for-next
+    old: 0ad7ed2f5a29cb5b23cbfeeb714768e5e043d33e
+    new: e321561b915378d2e9eacd1bc4d7fb2338d09961
+    log: |
+         bcb685e15ee66daec68025a40be3b54156ad0410 nubus: Switch to dynamic root device
+         c62a693d8d6b052e562bd471df59b8ec05da3fbd dio: Replace deprecated strcpy with strscpy in dio_init
+         334cad0401514611ecdd468a54c1bc902c3c30a6 dio: Use tabs and avoid continuation logging in dio_init
+         e321561b915378d2e9eacd1bc4d7fb2338d09961 dio: Update DIO_SCMAX comment
+         
+  - ref: refs/heads/for-v7.2
+    old: 0ad7ed2f5a29cb5b23cbfeeb714768e5e043d33e
+    new: e321561b915378d2e9eacd1bc4d7fb2338d09961
+    log: |
+         bcb685e15ee66daec68025a40be3b54156ad0410 nubus: Switch to dynamic root device
+         c62a693d8d6b052e562bd471df59b8ec05da3fbd dio: Replace deprecated strcpy with strscpy in dio_init
+         334cad0401514611ecdd468a54c1bc902c3c30a6 dio: Use tabs and avoid continuation logging in dio_init
+         e321561b915378d2e9eacd1bc4d7fb2338d09961 dio: Update DIO_SCMAX comment
+         
+  - ref: refs/heads/m68k-queue
+    old: 9e5819c8382d4abbe6988350ee7bc1664e15b720
+    new: 945d3a7ae1d364efd4f9e21466173fd8e7dc917f
+    log: revlist-9e5819c8382d-945d3a7ae1d3.txt
 
---===============7327683177376049458==
+--===============6687169037949015931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71894112e68b-69ec6318a561.txt
+Content-Disposition: attachment; filename=revlist-9e5819c8382d-945d3a7ae1d3.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
@@ -454,7 +472,13 @@ e7f24a388e703e505a7f8d014a428308b35e8f94 Merge tag 'x86-urgent-2026-05-17' of gi
 23e6a1ca04ae44806439a5a446e62e4d42e80bb4 virt: sev-guest: Do not use host-controlled page order in cleanup path
 e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5200f5f493f79f14bbdc349e402a40dfb32f23c8 Linux 7.1-rc4
-d6bbfdff80ba7112fbdc83120e74e2fdfed231c6 Merge tag 'v7.1-rc4'
-69ec6318a56180180081da5a38695b136e9ce932 dio: Update DIO_SCMAX comment
+bf9d0ab648c91a02615c5849f99aeeec98d50d58 zorro: sysfs: Replace sprintf() by sysfs_emit()
+ec9d15461f6dfb421a1dfe7a80bd831a99c1e9e3 nubus: Switch to dynamic root device
+94409a03c550a9e626959ee55e00ab1500df0ed7 dio: Replace deprecated strcpy with strscpy in dio_init
+071683c2f08531e500d1d39bbab7f10482000063 dio: Use tabs and avoid continuation logging in dio_init
+9033eb1a705fed1361130e78c788aedc53ba7a59 dio: Update DIO_SCMAX comment
+d508743ee58801f0f0013ef53d170f14256f6c27 m68k: atari: usb: Add ISP1160 USB host controller support
+14691c626d8dd4d12866c7fc81aa7c49adedbf55 m68k: atari: Update Kconfig.bus help text
+945d3a7ae1d364efd4f9e21466173fd8e7dc917f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7327683177376049458==--
+--===============6687169037949015931==--
