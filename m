@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5233159378373647063=="
+Content-Type: multipart/mixed; boundary="===============4393413292443210071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 18 May 2026 08:17:08 -0000
-Message-Id: <177909222820.3167591.12667071677356243902@gitolite.kernel.org>
+Date: Mon, 18 May 2026 08:17:31 -0000
+Message-Id: <177909225106.3167913.9660993021800533012@gitolite.kernel.org>
 
---===============5233159378373647063==
+--===============4393413292443210071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ed9fd257fd4509b3142c3d86d44de89ff0c9e99d
-    new: 1cb09817a66b1eca1e04406f67a7fbd7d9ae19a8
-    log: revlist-ed9fd257fd45-1cb09817a66b.txt
+    old: 1cb09817a66b1eca1e04406f67a7fbd7d9ae19a8
+    new: 78d50750b69aacda79230f98ed3c30c86ccdea89
+    log: revlist-1cb09817a66b-78d50750b69a.txt
+  - ref: refs/heads/tip/urgent
+    old: 150e35bf7787cb3aff04ca521bc02b75b237ba61
+    new: 5200f5f493f79f14bbdc349e402a40dfb32f23c8
+    log: revlist-150e35bf7787-5200f5f493f7.txt
+  - ref: refs/tags/v7.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
 
---===============5233159378373647063==
+--===============4393413292443210071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed9fd257fd45-1cb09817a66b.txt
+Content-Disposition: attachment; filename=revlist-1cb09817a66b-78d50750b69a.txt
+
+fbfe4fbfebe293471b3ae9b0d930d2a179d15980 Merge branch into tip/master: 'irq/core'
+af5e438debb773d9a4f6403133b9af48368a3a7b Merge branch into tip/master: 'irq/drivers'
+086e2be281506ba524e17a63449a8735234f5867 Merge branch into tip/master: 'irq/msi'
+7168c51a96c41abd8d101aa7417a7360df80280d Merge branch into tip/master: 'locking/core'
+2aa0fc7a62fe5d6d9da08875e7de970aa1f8967d Merge branch into tip/master: 'objtool/core'
+801558cff11f6dc0d77b1f4c7be1bf13637e6d8b Merge branch into tip/master: 'perf/core'
+1d409cc52f3511f7ed65920b7948ab76c8f2fadd Merge branch into tip/master: 'sched/core'
+e3a8236923b4c4726557938c560276823ba18d89 Merge branch into tip/master: 'timers/clocksource'
+fbe01d0f424bbf0706afd522d11d9fc7d38611e3 Merge branch into tip/master: 'timers/core'
+83550b27840abfaa6a7d60432ba7220588f5bdd7 Merge branch into tip/master: 'timers/vdso'
+6243dab0a0e10bf68d1ddee272d52946d0e356d1 Merge branch into tip/master: 'x86/cache'
+ca6234e05d571c33f47575e18aae4eb7c0519636 Merge branch into tip/master: 'x86/cleanups'
+54a813a4a812903ab200f35f565f94dce2328bce Merge branch into tip/master: 'x86/cpu'
+090879a344ba5206bd7ac41a0755886fc78c3475 Merge branch into tip/master: 'x86/microcode'
+8f4ac2fdec66cf6d746e5af14277d43940689ba6 Merge branch into tip/master: 'x86/misc'
+75aeec01d5655e3c2316b3d1d119887fce4e05f8 Merge branch into tip/master: 'x86/mm'
+5ab23030aaf2a1eee3e5cd001a12bc2a805da30b Merge branch into tip/master: 'x86/sev'
+78d50750b69aacda79230f98ed3c30c86ccdea89 Merge branch into tip/master: 'x86/tdx'
+
+--===============4393413292443210071==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-150e35bf7787-5200f5f493f7.txt
 
 f2abc305aa93f5b12d5c929d7a9c1cf7d7fee8af riscv: Define __riscv_copy_{,vec_}{words,bytes}_unaligned() using SYM_TYPED_FUNC_START
 d272b8d2dd132de8579e3f79a77bc6ae58214a93 riscv: cpufeature: Drop this_hwcap clear in T-Head vector workaround
@@ -80,6 +112,5 @@ e7f24a388e703e505a7f8d014a428308b35e8f94 Merge tag 'x86-urgent-2026-05-17' of gi
 23e6a1ca04ae44806439a5a446e62e4d42e80bb4 virt: sev-guest: Do not use host-controlled page order in cleanup path
 e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5200f5f493f79f14bbdc349e402a40dfb32f23c8 Linux 7.1-rc4
-1cb09817a66b1eca1e04406f67a7fbd7d9ae19a8 Merge branch 'linus'
 
---===============5233159378373647063==--
+--===============4393413292443210071==--
