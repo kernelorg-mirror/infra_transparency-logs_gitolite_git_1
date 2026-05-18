@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 18 May 2026 21:34:54 -0000
-Message-Id: <177914009492.3786309.6009298454405255371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 18 May 2026 21:48:45 -0000
+Message-Id: <177914092597.3796822.6139394125446231647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 607f43c8a245cba5a789c3344535ecf2f92103ad
-    new: f67b4a7a86644745fe81956a6f64c3a458c6d171
+  - ref: refs/heads/master
+    old: 6aba94a49bc9cc5477e56053bfe5d70a123f9aed
+    new: 8f5b6b4b198ed661ae851daaf9cb94fe285b2648
     log: |
-         06a6d89f6781d8249626aaee1bdd18a015e47149 nfsd: release layout stid on setlease failure
-         4255d5bb13d0b67ec1fe693845c35bdb56c97e4d [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         f67b4a7a86644745fe81956a6f64c3a458c6d171 siw: Enable try_gso
+         5daf96ab8398e91cfa02565b75bf39f8f84bb3df Bluetooth: btmtk: fix urb->setup_packet leak in error paths
+         8f5b6b4b198ed661ae851daaf9cb94fe285b2648 Bluetooth: MGMT: validate Add Extended Advertising Data length
          
