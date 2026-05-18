@@ -1,31 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Mon, 18 May 2026 14:54:11 -0000
-Message-Id: <177911605196.3491600.16638188133624903406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 18 May 2026 14:58:25 -0000
+Message-Id: <177911630517.3495240.16350782899521804712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/v5.10-rt-next
-    old: 5fbc557d2372ab6bc1378057fe91379fc1133785
-    new: c6fcc03330fde184543f0cd3435516580a6da16d
+  - ref: refs/heads/soc/dt
+    old: b133e22edd5c4d43398b0656063457e7ccf32778
+    new: 6cf3cf025848f2b13ddf1db0577a5f178492a3ff
     log: |
-         f890d3d2d43123238f1102e6c8ea96d75103cac9 Linux 5.10.255-rt151
-         93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6 ptrace: slightly saner 'get_dumpable()' logic
-         dcadd6bf9090faf593f31319b02e4bc61814dc5c x86/CPU/AMD: Add ZenX generations flags
-         af2d0b615d82a4ef66d962e55fc7b45f61d5090f x86/CPU/AMD: Call the spectral chicken in the Zen2 init function
-         c9a96bc8c878f44437c7367b41c204f5f60c3777 x86/CPU/AMD: Rename init_amd_zn() to init_amd_zen_common()
-         e1a52d9d02dc819912c81d7e3bcd526602776340 x86/CPU/AMD: Add X86_FEATURE_ZEN1
-         1e23b30a80b14e5764657401ee2cca030525ae8e x86/CPU/AMD: Prevent improper isolation of shared resources in Zen2's op cache
-         6b2498787ec6803cf0d0a983321796babe5392d4 Linux 5.10.256
-         f20b387788e2010b773a8f21424f31177f24a7ee Merge tag 'v5.10.256' into v5.10-rt
-         c6fcc03330fde184543f0cd3435516580a6da16d Linux 5.10.256-rt152-rc1
+         4da515eca1b8de56c9e8a17866626f99d9bccbc7 arm64: dts: marvell: samsung-coreprimevelte: Increase touchscreen voltage
+         cfb4346423eb5dab498546d617a8c444b878bff3 arm64: dts: marvell: samsung,coreprimevelte: Use memory-region for framebuffer
+         e93abeef9267a9c3e063e594571d46b3d9461efc arm64: dts: marvell: pxa1908: Add PSCI function IDs
+         52c47f734f934fdd83659e1a7b096597cca14522 arm64: dts: marvell: samsung-coreprimevelte: Add missing SDIO properties
+         6cf3cf025848f2b13ddf1db0577a5f178492a3ff Merge tag 'pxa1908-dt-for-7.2' of https://codeberg.org/pxa1908-mainline/linux into soc/dt
          
-  - ref: refs/tags/v5.10.256-rt152-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ef31d2a1c85c8cc14278e7418c1b647c5728053c
