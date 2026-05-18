@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 18 May 2026 14:59:52 -0000
-Message-Id: <177911639263.3495797.8593766251371286206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Mon, 18 May 2026 15:00:48 -0000
+Message-Id: <177911644882.3498329.6022131203745584657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
   - ref: refs/heads/for-next
-    old: 0acb1308bbb07b7a2bb79e306bc3b6bed9f50b21
-    new: a8cafdf8c949f17c92eca0045532e88ac0dac30d
+    old: 24da2324f8d2679a1a6b2ad72910e6a43bf344fa
+    new: a11359b81f2d6035f996f9a1320deb06f8122513
     log: |
-         cf18e36455603d65d4745de83e2d1743c54ada47 io_uring: propagate array_index_nospec opcode into req->opcode
-         a8cafdf8c949f17c92eca0045532e88ac0dac30d Merge branch 'io_uring-7.1' into for-next
-         
-  - ref: refs/heads/io_uring-7.1
-    old: 93d93f5f8da791e98159795c6ef683f45bd95d13
-    new: cf18e36455603d65d4745de83e2d1743c54ada47
-    log: |
-         cf18e36455603d65d4745de83e2d1743c54ada47 io_uring: propagate array_index_nospec opcode into req->opcode
+         8d278fc2a7ddbe5c1342bdd2253a5f5fce19328a dt-bindings: fpga: altr,a10-pr-ip: convert to DT schema
+         a11359b81f2d6035f996f9a1320deb06f8122513 dt-bindings: fpga: altr,socfpga-fpga-mgr: convert to DT schema
          
