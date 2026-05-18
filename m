@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 18 May 2026 15:29:54 -0000
-Message-Id: <177911819481.3519577.8479460773615733017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 18 May 2026 15:47:58 -0000
+Message-Id: <177911927813.3532933.10919037009467389205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 0c83ba4b749eaa0bef78ea46eaa4376ad2492358
-    new: 3345f7095e54e6fdc5e5cef363b35e7865b536bf
+  - ref: refs/heads/fixes-togreg
+    old: f40e8f101e148482af3c8d212dbd1a10716aa6c1
+    new: bbc109ae655c8a5d4db117fea01947eb6bf51e71
     log: |
-         7b053f9c95ca26dff68375dd78e343f6be545bc0 patches/posted: add damos tried region uaf fix v1
-         6121d94d2d64ce66cca930073923d307a06c811c patches/posted: add msgid for damos trid region uaf fix
-         3345f7095e54e6fdc5e5cef363b35e7865b536bf patches/next: damos tried region uaf: add proactive changelog
+         ed635d927c537eac30e912331469f055b8382787 iio: buffer: hw-consumer: free scan_mask on buffer release
+         bbc109ae655c8a5d4db117fea01947eb6bf51e71 iio: temperature: tmp006: use devm_iio_trigger_register
          
