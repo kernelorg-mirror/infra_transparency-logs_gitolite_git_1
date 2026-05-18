@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Mon, 18 May 2026 15:00:48 -0000
-Message-Id: <177911644882.3498329.6022131203745584657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 18 May 2026 15:08:26 -0000
+Message-Id: <177911690663.3502823.9643678404648687099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 24da2324f8d2679a1a6b2ad72910e6a43bf344fa
-    new: a11359b81f2d6035f996f9a1320deb06f8122513
+  - ref: refs/heads/for-linus
+    old: cbdbfba9e8907bea923874d05d6a35ff429a5544
+    new: f9b2d3b703d13df50c630997dfdc25648e96db0d
     log: |
-         8d278fc2a7ddbe5c1342bdd2253a5f5fce19328a dt-bindings: fpga: altr,a10-pr-ip: convert to DT schema
-         a11359b81f2d6035f996f9a1320deb06f8122513 dt-bindings: fpga: altr,socfpga-fpga-mgr: convert to DT schema
+         f9b2d3b703d13df50c630997dfdc25648e96db0d regulator: tps65219: fix irq_data.rdev not being assigned
+         
+  - ref: refs/heads/for-next
+    old: 3a6a4bd03196acc7b298adeafec762529a3ed89d
+    new: 5f955dc1084a8528e03077fd4c70834158d1150f
+    log: |
+         f9b2d3b703d13df50c630997dfdc25648e96db0d regulator: tps65219: fix irq_data.rdev not being assigned
+         5f955dc1084a8528e03077fd4c70834158d1150f Merge remote-tracking branch 'regulator/for-7.2' into regulator-next
          
