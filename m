@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0674252071032142563=="
+Content-Type: multipart/mixed; boundary="===============7327683177376049458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 18 May 2026 09:34:18 -0000
-Message-Id: <177909685860.3224177.312463635207445451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 18 May 2026 09:35:05 -0000
+Message-Id: <177909690504.3226501.6955040091360979946@gitolite.kernel.org>
 
---===============0674252071032142563==
+--===============7327683177376049458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 4896f293b687e5acbbb7747e5dcc509bca39818a
-    new: eb70cfbcbe91e7d54d404d9147baf3df328b0e27
-    log: revlist-4896f293b687-eb70cfbcbe91.txt
-  - ref: refs/tags/renesas-devel-2026-05-18-v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7557cbc65a4d633bdcbaba9a325c1671178db1df
-  - ref: refs/tags/v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
+    old: 71894112e68b305b7fffdbf044354e4d77725c30
+    new: 69ec6318a56180180081da5a38695b136e9ce932
+    log: revlist-71894112e68b-69ec6318a561.txt
 
---===============0674252071032142563==
+--===============7327683177376049458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4896f293b687-eb70cfbcbe91.txt
+Content-Disposition: attachment; filename=revlist-71894112e68b-69ec6318a561.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
@@ -460,6 +454,7 @@ e7f24a388e703e505a7f8d014a428308b35e8f94 Merge tag 'x86-urgent-2026-05-17' of gi
 23e6a1ca04ae44806439a5a446e62e4d42e80bb4 virt: sev-guest: Do not use host-controlled page order in cleanup path
 e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5200f5f493f79f14bbdc349e402a40dfb32f23c8 Linux 7.1-rc4
-eb70cfbcbe91e7d54d404d9147baf3df328b0e27 Merge tag 'v7.1-rc4' into renesas-devel
+d6bbfdff80ba7112fbdc83120e74e2fdfed231c6 Merge tag 'v7.1-rc4'
+69ec6318a56180180081da5a38695b136e9ce932 dio: Update DIO_SCMAX comment
 
---===============0674252071032142563==--
+--===============7327683177376049458==--
