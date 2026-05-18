@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0281638393720682010=="
+Content-Type: multipart/mixed; boundary="===============5970069892015864119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Mon, 18 May 2026 18:59:32 -0000
-Message-Id: <177913077293.3671831.16562828169611231023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 18 May 2026 19:00:23 -0000
+Message-Id: <177913082397.3674111.6826867439348604799@gitolite.kernel.org>
 
---===============0281638393720682010==
+--===============5970069892015864119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 6e937f4e769e60947909e3525965f0137b9039e8
-    new: 5e4907c4908bff6570f48aff86fef424e74c051f
-    log: revlist-6e937f4e769e-5e4907c4908b.txt
+  - ref: refs/heads/stable-7.1
+    old: f9e1c1324b4d98d591a6f7568fdebf5cf456dfc2
+    new: 5200f5f493f79f14bbdc349e402a40dfb32f23c8
+    log: revlist-f9e1c1324b4d-5200f5f493f7.txt
 
---===============0281638393720682010==
+--===============5970069892015864119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e937f4e769e-5e4907c4908b.txt
+Content-Disposition: attachment; filename=revlist-f9e1c1324b4d-5200f5f493f7.txt
 
+a6c95b833dc17e84d16a8ac0f40fd0931616a52d net/sched: sch_cake: annotate data-races in cake_dump_stats() (V)
+403e7e34cc2ea75a2546c94176271591211b3334 Merge branch 'net-sched-sch_cake-annotate-data-races-in-cake_dump_stats-series'
+d62c6f2df5c0e1390b9a1f45b1b52689e3f234f0 netconsole: return count instead of strnlen(buf, count) from store callbacks
+e6dd94252b0fa7b4fcc00577c6898432c5d97a08 netconsole: avoid clobbering userdatum value on truncated write
+92ceb7bff62c2606f664c204750eca0b85d44112 netconsole: propagate device name truncation in dev_name_store()
+869cd6490fafe09c89a15d01610e8a03932d79f0 netconsole: restore userdatum value on update_userdata() failure
+21a7bb5cde5585aded53a47f21d6534d7da2ae48 Merge branch 'netconsole-configfs-store-callback-fixes'
+5f95c21fc23a7ef22b4d27d1ed9bb55557ffb926 mptcp: sockopt: set timestamp flags on subflow socket, not msk
+b5c52908d52c6c8eb8933264aa6087a0600fd892 mptcp: fix scheduling with atomic in timestamp sockopt
+f14d6e9c3678a067f304abba561e0c5446c7e845 mptcp: fastclose msk when linger time is 0
+1774d3cf3cf17baaf30c095606cda496268283b3 mptcp: pm: kernel: reset fullmesh counter after flush
+0c7a5ba011d336df4fcd1f667fcc16ea5549be12 Merge branch 'mptcp-misc-fixes-for-v7-1-rc2'
+3e75021f615ceee8562e6455c335936b39929ffb clk: spacemit: k3: mark top_dclk as CLK_IS_CRITICAL
+79a1886be1564a009cd2a003bada15ed6153f819 clk: eyeq: use the auxiliary device creation helper
+a25ab518f355e1f0dcbea24ee26418dfcd6944b5 clk: eyeq: add EyeQ5 children auxiliary device for generic PHYs
 4ac170432cf74b753cf59bcd0d449dced48585da reset: eyeq: drop device_set_of_node_from_dev() done by parent
 6b4afbaaa342eaa52172e0be5ef8d1fcbf9ff460 ASoC: spacemit: move hw constraints from hw_params to startup
 03dcb5b68a96b51157ec2d17042fa2f0106828ae ASoC: spacemit: adjust FIFO trigger threshold to half FIFO size
@@ -891,8 +906,6 @@ a03ef333fbd6cd861c8457c3d055ee3643a9baad Documentation: security-bugs: explain w
 f06035ab324e52a845079c2e5f2380fa3cebde9b hwmon: (asus_atk0110) Check ACPI_COMPANION() against NULL
 d289478cfc0bcf81c7914200d6abdcb78bd04ded libceph: handle rbtree insertion error in decode_choose_args()
 28b0a2ab8c82d0bbdeb8013029c67c978ce6e4bf libceph: Fix potential null-ptr-deref in decode_choose_args()
-e4a640475e43f406fdfd56d370b1f34b0cbbc18d audit: fix incorrect inheritable capability in CAPSET records
-f9e1c1324b4d98d591a6f7568fdebf5cf456dfc2 audit: enforce AUDIT_LOCKED for AUDIT_TRIM and AUDIT_MAKE_EQUIV
 577a8d3bae0531f0e5ccfac919cd8192f920a804 KVM: Reject wrapped offset in kvm_reset_dirty_gfn()
 2b72f1674e427c56e3772c5ccf785fdda2138820 KVM: x86: Fix Xen hypercall tracepoint argument assignment
 5bd1ddb7911ba7e94b61cf429970963f1b22dd76 KVM: nSVM: Never use L0's PAUSE loop exiting while L2 is running
@@ -1037,18 +1050,5 @@ e7f24a388e703e505a7f8d014a428308b35e8f94 Merge tag 'x86-urgent-2026-05-17' of gi
 23e6a1ca04ae44806439a5a446e62e4d42e80bb4 virt: sev-guest: Do not use host-controlled page order in cleanup path
 e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5200f5f493f79f14bbdc349e402a40dfb32f23c8 Linux 7.1-rc4
-e30d8b2730a33e5e8789371e947c3529789a6070 mailbox: mpfs: fix check for syscon presence in mpfs_mbox_inbox_isr()
-388f16c9372d15585b594998f34542ed00fddebf dt-bindings: mailbox: qcom: Document Nord CPUCP mailbox controller
-0edda639ba13d9da37447586b5480582a2581e2b mailbox: qcom-cpucp: Add support for Nord CPUCP mailbox controller
-3931aaac040921931e6d97c3c1a836e864386642 dt-bindings: mailbox: qcom: Add Shikra APCS compatible
-c19bb923b5bcb077aebcb06ce164f6f4c6b3072c dt-bindings: mailbox: qcom,cpucp-mbox: Add Hawi compatible
-cfba87b3875dd0d78ec6ca75d2446412030133fa dt-bindings: mailbox: qcom: Add IPCC support for Hawi Platform
-7caa16023b14dee4aa791f1a298474db02a791fd mailbox: exynos: Drop unused register definitions
-7bcfb7e65457f784b9495b10743f2c9db409b5b7 mailbox: qcom: Unify user-visible "Qualcomm" name
-b57d1a40bc43258372fa1f4d39305e093947a262 mailbox: mtk-adsp: fix UAF during device teardown
-c96c8a7404ef8ce434ffd0f07b00e1a493fff42d mailbox: Clarify multi-thread is not supported in blocking mode
-96a3d2f3167f5644b30e60171898e67123c3c2c6 mailbox: Make mbox_send_message() return error code when tx fails
-4f176444dcc977d1888fd9220c357a4d32338ee0 mailbox: don't free the channel if the startup callback failed
-5e4907c4908bff6570f48aff86fef424e74c051f mailbox: add list of used channels to debugfs
 
---===============0281638393720682010==--
+--===============5970069892015864119==--
