@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Mon, 18 May 2026 11:47:31 -0000
-Message-Id: <177910485152.3330418.892708116975476377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 18 May 2026 11:51:52 -0000
+Message-Id: <177910511256.3334039.11453751872051393794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 05c3bc1499da6a0b99ad2547f3c99c737ebc9f06
-    new: b30fa0e0eceb34c9866095c30adb9ee667984b32
+  - ref: refs/heads/master
+    old: 96d60c24aea40c806ab5ce3ab71ebc8e453db020
+    new: 90b037e9e9cda63e8f8eb90eeef46eeb8badcea5
     log: |
-         e4768ff3c6e2bc939938be5d51a756856f7b9dd2 ARM: dts: aspeed: anacapa: Add interrupt properties for PDB PCA9555
-         b30fa0e0eceb34c9866095c30adb9ee667984b32 Merge branches 'aspeed/drivers', 'aspeed/arm/dt' and 'aspeed/fixes/drivers' into for-next
+         90b037e9e9cda63e8f8eb90eeef46eeb8badcea5 Fixes for all trees
          
