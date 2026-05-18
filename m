@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 18 May 2026 04:40:20 -0000
-Message-Id: <177907922055.2952023.6081434863467414538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Mon, 18 May 2026 04:51:45 -0000
+Message-Id: <177907990541.2959930.11765244075687638223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/tags/v7.0.9
-    old: 0000000000000000000000000000000000000000
-    new: 02d12836df65df4c4a2ab377332d84cc5d8c78b3
+  - ref: refs/heads/aspeed/arm/dt
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 91b9aed7381c898758d70fac5aaa4bfa6173761a
+    log: |
+         46ed8942abf52f5929945419ae25be43d50afb1d ARM: dts: aspeed-g6: move i2c controllers directly into apb node
+         91b9aed7381c898758d70fac5aaa4bfa6173761a ARM: dts: aspeed-g6: Add nodes for i3c controllers
+         
