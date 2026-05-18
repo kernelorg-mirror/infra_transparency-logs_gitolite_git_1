@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5596089947044960491=="
+Content-Type: multipart/mixed; boundary="===============3427423713881149486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 18 May 2026 10:02:07 -0000
-Message-Id: <177909852707.3248040.1552278091974584481@gitolite.kernel.org>
+Date: Mon, 18 May 2026 10:02:46 -0000
+Message-Id: <177909856602.3248392.18383633025423041746@gitolite.kernel.org>
 
---===============5596089947044960491==
+--===============3427423713881149486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 9e818c391338eeb3e8369050c88d90a36de94baf
-    new: 14b24d73db5929cff07af8d2579bb871ae7bca79
-    log: revlist-9e818c391338-14b24d73db59.txt
+  - ref: refs/heads/readfile
+    old: fcab9a031c2d4a5df636920e017beeb3b4d264fc
+    new: 53490607afe9ff46b1a991e63900cc976f279ac5
+    log: revlist-fcab9a031c2d-53490607afe9.txt
 
---===============5596089947044960491==
+--===============3427423713881149486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779098443 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779098485 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1779098485-35cf65dd3913f68e95fe35bd166f59638ba1e5d6
+nonce 1779098528-1a3533bcfa879b89d32aa1be9e92a1bc587eb838
 
-9e818c391338eeb3e8369050c88d90a36de94baf 14b24d73db5929cff07af8d2579bb871ae7bca79 refs/heads/module_version_removal
+fcab9a031c2d4a5df636920e017beeb3b4d264fc 53490607afe9ff46b1a991e63900cc976f279ac5 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoK40sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VBUQAJoXiQszlLPizSwRm/fd
-d9yVwq/S4N/CM9PgpJV1l9n7lOtqfBk6gPReSpELSGZqhjz0ODTTLV7RkqJFGr7O
-IApPG2ojqINz7Y7obLkNxqocs560wzgY4Vuif4azyMEOYf+hss7X5iq7o0U5fezA
-rdPGPYgdnepV9CujUjAUXITYklF+KhQ4LKsXGyIK1DGpPad3qo69xw4fKdMzoXXb
-o/aUdF1Ld6aa223YD06qt7inNBb3OrnVh1D+1CozEj35AtJx9unSb60whk6HRwmM
-WOKvl1CLi3WrBl7AwEkp3mrkNPgoVai/Vcp79LIA+3qKhw6y215kLeiI6G8gZzuX
-OVpBVfdoUomq7AZHhB5ywZCVT5gcLcfMdGXk9wvdpKRg8s4Cv58JEbsJNy3PQ+DY
-YPDXjkenxcorWL2SuWo9r847HCEQrNJ24IkT2H/oEangzbWiN7cEBKe6hfDEORQf
-rIVxfd33QurbH4AxDEOblwnu6nNLDgcn9S8REu1sAOd4bHuQ87s0zyNUm8JOLSqP
-vSeETw3Ey30KxpYMWGZMh2C1adLrrcNc4IEfHbpry1FPRWO/X5K/29q912PjJ8v1
-p4oUDsGGYKrSCd4H4ha/i7rTMsXe3X9d0NwTvRDJAVB0vyGeQXxXFhDO1au3dzmM
-jtSlrF7A6CfFFbXvEk9Ql2VX
-=u4gt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoK43UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WSEQAJpA5obZ9p7s3fudvDiE
+f2VaOu6goWD8CZJYo5BwSdntklLm3ePeHwSojAYHa9lX/R4GHegCEZgWKnA1sDi5
+4OpGpQXcDUbU4fqEcOk2pLz0YPIzA7J1Q8gTQkZN3nquM74HSe2f+4lP9cAt5jKs
+GbdXhPHg66TwP44sSz2+LAaJDO7rMSoBNy103quEJRAGQ+dsICksZNBCMa6fihaG
+phx1JqkWL2UsIMmbr1EE3g5sl3yoziWHABt9nMNfD8oPYXEt7CKUBuX4PpXi23eU
+BKonPe06C7BfZeBeqrHSAWBuPMeNzKbM8A1FnGXKhS87OFhJD//fNWDYD+qIi6tK
+nNSAFl+9/9o0yGMJ14Zafw+QhAqg0fr1nSVP/mgrTnSWOg7ORGMgKDNhv8TwPOXn
+h0PhqTns5Z6z/y4u9VAK0fxrZBCLWqxEHurP8aEe1veUOMuL3uocOlrTzK6egiF6
+aJL7HB7P7DZ1EtVJmaO9mpz8YyU+QmSzZBjB3jQF3sMlhXYZwsw9YsOWeP7TBm0j
+edmn8PuszqiHrgLZv2MWDXawpV4+2ocdiBQZQfnvg0sX/UHjO7upnz4M+hCiOGHF
+Rxh7c8Y+WE/txw+Iszcx4+O5L5IJc/yZjAJJ2jyW+H7fqAvZoZk/Duxg5CmHUI9e
+cCuWSflmxWPcNg6NnAp+hW18
+=t4eM
 -----END PGP SIGNATURE-----
 
---===============5596089947044960491==
+--===============3427423713881149486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e818c391338-14b24d73db59.txt
+Content-Disposition: attachment; filename=revlist-fcab9a031c2d-53490607afe9.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
@@ -485,6 +485,9 @@ e7f24a388e703e505a7f8d014a428308b35e8f94 Merge tag 'x86-urgent-2026-05-17' of gi
 23e6a1ca04ae44806439a5a446e62e4d42e80bb4 virt: sev-guest: Do not use host-controlled page order in cleanup path
 e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5200f5f493f79f14bbdc349e402a40dfb32f23c8 Linux 7.1-rc4
-14b24d73db5929cff07af8d2579bb871ae7bca79 module: remove MODULE_VERSION()
+e246518b242bf25c63fc2d65514b5250ccfe7872 readfile: implement readfile syscall
+ea0bba2c04978a14e80cb4614231027c183bf5d4 arch: wire up the readfile syscall
+8afcfd284e98666a5be61762e205d061131a8f71 readfile.2: new page describing readfile(2)
+53490607afe9ff46b1a991e63900cc976f279ac5 selftests: add readfile(2) selftests
 
---===============5596089947044960491==--
+--===============3427423713881149486==--
