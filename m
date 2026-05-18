@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0998638493289008647=="
+Content-Type: multipart/mixed; boundary="===============1515385432733024189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 18 May 2026 08:59:10 -0000
-Message-Id: <177909475049.3197897.3026968905187709979@gitolite.kernel.org>
+Date: Mon, 18 May 2026 08:59:25 -0000
+Message-Id: <177909476527.3198175.2313441669811936748@gitolite.kernel.org>
 
---===============0998638493289008647==
+--===============1515385432733024189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 7b2e9a338a5875faa7fd4f7c8052c922c19f9060
+  - ref: refs/heads/for-next
+    old: f5cb0630444b7353c8c471b52e006b90fa6d5aa1
     new: 67464f388d52ec172be62c99fc43697437ffa384
-    log: revlist-7b2e9a338a58-67464f388d52.txt
+    log: revlist-f5cb0630444b-67464f388d52.txt
 
---===============0998638493289008647==
+--===============1515385432733024189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b2e9a338a58-67464f388d52.txt
+Content-Disposition: attachment; filename=revlist-f5cb0630444b-67464f388d52.txt
 
 e79389115b9d27287ff6230a9750675106ed7668 IB/mlx5: Fix transport-domain rollback and initialize lb mutex earlier
 194762e6e436acde0f8f6aef44200b0058c36791 RDMA/mlx5: Use QP port when decoding responder CQEs
@@ -58,4 +58,4 @@ eff628f3bb2f2bd95c0b9718f80e046d153d8abc RDMA: Add missed = {} initialization to
 9492e70dc915b8717f6a2b6cf37ee45cee0b2f54 RDMA: Replace memset with = {} pattern for ib_respond_udata()
 67464f388d52ec172be62c99fc43697437ffa384 RDMA/cma: Constify struct configfs_item_operations and configfs_group_operations
 
---===============0998638493289008647==--
+--===============1515385432733024189==--
