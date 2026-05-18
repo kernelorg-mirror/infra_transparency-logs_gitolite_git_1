@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0519508100641605313=="
+Content-Type: multipart/mixed; boundary="===============4447401454642508470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 18 May 2026 01:04:53 -0000
-Message-Id: <177906629324.2793777.16612110161478512782@gitolite.kernel.org>
+Date: Mon, 18 May 2026 01:05:22 -0000
+Message-Id: <177906632292.2796008.11590953813438554633@gitolite.kernel.org>
 
---===============0519508100641605313==
+--===============4447401454642508470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: bf92df36c693c71c7d20a42c39492c1e3ad7ea03
-    new: 1b7b378e36da46465441e8873bfc57de74103220
-    log: revlist-bf92df36c693-1b7b378e36da.txt
+  - ref: refs/heads/export-net
+    old: d3218264037efc171c3a4f63b4602cb3407ad024
+    new: 6c7a815d6a7192e42bb1875202df1d48c3a83e64
+    log: revlist-d3218264037e-6c7a815d6a71.txt
 
---===============0519508100641605313==
+--===============4447401454642508470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf92df36c693-1b7b378e36da.txt
+Content-Disposition: attachment; filename=revlist-d3218264037e-6c7a815d6a71.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 846c76ecc02973b05ae909dd4248c11bfa277fc1 bpf: Reject TCP_NODELAY in TCP header option callbacks
@@ -325,27 +325,12 @@ ef7e0c51d9c4b029d2f9b20bee1a94ba1b3356d5 Merge tag 'kvm-s390-master-7.1-1' of gi
 b273b75b8d677aea06dd06d80b61b3bb06e94680 sched_ext: INIT_LIST_HEAD() &sch->all in scx_alloc_and_add_sched()
 cceb874eee46fe4b3d3c6c496f19125d9a3a9a8f sched_ext: Defer sub_kset base put to scx_sched_free_rcu_work
 2c308cf34284420963607d677d576a2b4124d8bd net: atlantic: preserve PCI wake-from-D3 on shutdown when WOL enabled
-543bdc1578cd380631558a884318551a0e9fdab2 selftests: drv-net: cope with slow env in so_txtime.py test
 e3adf69f8eb121a9128c2b0029efd050d3649153 net: ethtool: phy: avoid NULL deref when PHY driver is unbound
-6c9d76eec482b2bab22cdccc6a00bc87a2280cd0 net: phy: intel-xway: fix typo in Kconfig description
-46444df9ff474b6edc4fa55dd23b238ad8662ff4 net: phy: intel-xway: add PHY-level statistics via ethtool
 f9e2342046ef1560d35bcd4a4b1197648ffd151d net: atm: fix skb leak in sigd_send() default branch
-0f5b8332b0b2c2973a80821a851c9bc5ddde35f8 net: nfp: Drop PCI class entries with .class_mask = 0
-733334d6bdafaaf1575ce09a04f1a40d2d46d0d3 net: Consistently define pci_device_ids using named initializers
-9edbdd2c9d02667b3953997440036ea2ba932b4d Merge branch 'rework-pci_device_id-initialisation'
-b588019e85f490696bf19f0747e93f14b1563927 rtnetlink: add RTEXT_FILTER_NAME_ONLY support
-5c4b709b5fc1929ed3e9d3ef48c089d7df8b8dff net: constify sk_skb_reason_drop() sock parameter
-254084223f938b15e9b7a2707005096eecb3c3c2 tcp: use SKB_DROP_REASON_IP_OUTNOROUTES in tcp_v6_send_response()
-4a64f97325776cdab5ec35c0e78b2bdd1468d90a ipv6: use SKB_DROP_REASON_IP_OUTNOROUTES in inet6_csk_xmit()
-34c78dff59a25110a4ce50c208e42a91490fe615 Merge branch 'net-use-ip_outnoroutes-drop-reason'
-28702a215c96917d85558ad6309a57ab224808c0 net: dsa: realtek: rtl8365mb: add support for RTL8367SB
 a3fdd924d88c30b9f488636ce0e4696012cf5511 net/smc: fix sleep-inside-lock in __smc_setsockopt() causing local DoS
 7bf563badd37cb796df5477d2b78bb64148a1268 net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint
 3d042592ebd4c7e44974d556de0b727cb7db4dab ethtool: fix ethnl_bitmap32_not_zero() bit interval semantics
 f5b2772d14884f4be9e718644f1203d4d0e6f0d6 net: ethernet: ravb: Do not check URAM suspension when WoL is active
-9c11fcb2e9a54d0f1467380831e2e4bb68f7498d dpll: add fractional frequency offset to pin-parent-device
-54e65df8cf18a741745645aed7ae91514d437b43 dpll: zl3073x: report FFO as DPLL vs input reference offset
-8ebd24a7822cbae25beeafba49b2159d6a68a5f2 Merge branch 'dpll-rework-fractional-frequency-offset-reporting'
 2d5d3fc593c9b7e41bee86175d7b9e11f470072e KVM: VMX: introduce module parameter to disable CET
 1f63dd8ca0dc05a8272bb8155f643c691d29bb11 Merge tag 'fixes-2026-05-13' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 7d8f3158a51cb40fc710d2a781549141a139b796 selftests/cgroup: Fix error path leaks in test_percpu_basic
@@ -356,126 +341,45 @@ e1914add2799225a87502051415fc5c32aeb02ae Merge tag 'for-linus' of git://git.kern
 0913b580f8490caaaf08dd1591e0bc07ac2720cb Merge tag 'cgroup-for-7.1-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 59a62ea4583e0f740bb3576ec210b23f39754327 Merge tag 'sched_ext-for-7.1-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 4694efc4164123580f19467141cdcfb73f7a740a FDDI: defza: Sanitise the reset safety timer
-d4c22d70d7253dd727c71484c58d504f6c630343 tun/tap: add ptr_ring consume helper with netdev queue wakeup
-baf808fe4fcd35767ab732b4ab2ea80dabfd97a6 vhost-net: wake queue of tun/tap after ptr_ring consume
-fba362c17d9d9211fc51f272156bb84fc23bdf98 ptr_ring: move free-space check into separate helper
-1d6e569b7d0c0b2736636749e4be0a27f3cefcb3 tun/tap & vhost-net: avoid ptr_ring tail-drop when a qdisc is present
-3803065cd6b0630d4161d86aa04e2d1db0f3a0b5 Merge branch 'tun-tap-vhost-net-apply-qdisc-backpressure-on-full-ptr_ring-to-reduce-tx-drops'
 320fb29ea23cfa1aeef32563da8748247db896ea net/sched: sch_cbs: Call qdisc_reset for child qdisc
 59afae20080a9681014bdc87897cbfd30bedd261 selftests/tc-testing: Add QFQ/CBS qlen underflow test
-d0273dbe8be1640e597552f81faf1d6c9997d3e3 ipvlan: use netif_receive_skb() in ipvlan_process_multicast()
-1f8fd0fe56412db6a1a84317ce5856bdbef1fca3 net: usb: pegasus: replace simple_strtoul with kstrtouint
-06baf87e219fa7f396c7dc149d6f5ffde922dfa2 netpoll: expose UDP packet builder helpers for netconsole
-d3345a61e4ae50119d20cfa6a54cb8df0cc47dfa netconsole: move netpoll_send_udp() from netpoll
-c411baa463e85a779a7e68a00ba6298770b58c4c netconsole: move push_ipv6() from netpoll
-5664c3908b7083e5905bbaff2dd6566a81c367b1 netconsole: move push_ipv4() from netpoll
-6a44c82a48c74bf98b3d5adf8c4e9ef7a7dfe300 netconsole: move push_eth() from netpoll
-df82899714b125172702437ad8bd066c565a98e9 netconsole: move push_udp() from netpoll
-597bfa943131511e668235f112c70e806ca36e5d netconsole: move netpoll_udp_checksum() from netpoll
-7bb1daff3612276357b28d0dee2a32301be97dfd netpoll: rename and export netpoll_zap_completion_queue()
-f35422ed3664d2a40161c38f53ba69cb99387af7 netconsole: move find_skb() from netpoll
-6bbc313bcbe994432ebab5d17fa65d11af0b5cf9 Merge branch 'netpoll-move-out-netconsole-specific-functions'
 9a390d34d55cb4ecbca4981c660dd95440827c70 MAINTAINERS: update atlantic driver maintainer
 b84c5632c7b31f8910167075a8128cfb9e50fcfe net: net_failover: Fix the deadlock in slave register
 c6690a9030d784d3f099850800b6d5323771ca37 macsec: introduce dedicated workqueue for SA crypto cleanup
 6624bba469a325ecd699feae400b77cd11c76b98 macsec: use rcu_work to defer RX SA crypto cleanup out of softirq
 552cc2306c3d87632f44a655737d1d367c2a3295 macsec: use rcu_work to defer TX SA crypto cleanup out of softirq
 cc21150cdea8813fc9677ff61a3cbe9995801aa0 Merge branch 'macsec-use-rcu_work-to-fix-crypto-cleanup-in-softirq-context'
-f7c35c668576b454f458352411a10f0dabddb12d net/mlx5e: remove channel count limit for XOR8 RSS hash
-05ebdbaded052595fc1718128b52f0199c570aa6 net/mlx5e: advertise max RSS indirection table size to ethtool
-6bf1c27586b641eca081ebf04f34085679789f83 net/mlx5e: resize non-default RSS indirection tables on channel change
-4f59c22f26f7723ab2ca6d787d7997b1314ff4f2 net/mlx5e: resize configured default RSS context table on channel change
-c75e7e599c62c57d210eebb91140802dd81f2b70 net/mlx5e: increase RSS indirection table spread factor
-4ad2d53a88ed79e2596eac92f18561039bab10f5 Merge branch 'net-mlx5e-improve-rss-indirection-table-sizing-and-resizing'
-f0de88303d5e7e04a1224bc7a00512b5a1c4fe7a net: make is_skb_wmem() available to modules
-150061a2065192d77a4f6518b6238be81dfb8321 net/sched: fq_codel: local packets no longer count against memory limit
-18dc8e6d15d7a30888beec46a1e01ca0f98508fa Merge branch 'net-sched-refine-fq_codel-memory-limits'
-9371b229a1ced41ab6372f8a2fc33fe6af21efe9 net/sched: netem: reorder struct netem_sched_data
-4398429a5ff4bc8b38c6c57e78debc565a089672 net/sched: netem: remove useless VERSION
-675f6f1968a6710f357ac2ab65b0cf6180b8f400 net/sched: netem: replace pr_info with netlink extack error messages
-e8be7cdedc41ff28876d66b566770929d03acbb8 net/sched: netem: handle multi-segment skb in corruption
-a2f6ed7b4873288d9e90e69199012857bed4bfa4 net/sched: netem: add per-impairment extended statistics
-84f817c1c86e36f7b8ebd39fb0fe4446cb0628b5 Merge branch 'net-sched-netem-enhancements'
 277740023def559a4a2ddc3e8e784ee37a0f16a9 net/smc: reject CHID-0 ACCEPT that matches an empty ism_dev slot
-0c32db0761fef3d98d6e4d6d8ce02c40e914f4d8 bridge: uapi: Add neigh_forward_grat netlink attributes
-3a28ccb9dd47d1b6f64c64a94c958a968299aa1d bridge: Add internal flags for neigh_forward_grat
-27c082c600b1df749cafa57edf5815e951655a3c bridge: Add selective forwarding of gratuitous neighbor announcements
-2c75c438b9d9db40d4c64b6437eaca67d57a0ee1 bridge: Add port-level netlink handling for neigh_forward_grat
-e65cf8815932c4c06f30cd34db213f45ba2f2a60 bridge: Add per-VLAN netlink handling for neigh_forward_grat
-4620aa6527d3ef452b7b3eb1123cbdf2fa7d82e2 selftests: net: Add tests for neigh_forward_grat option
-f3f7760afe65292e83f182696130efb983278d04 Merge branch 'bridge-add-selective-forwarding-of-gratuitous-neighbor-announcements'
 285943c6e7ca309bbea84b253745154241d9788a net: tls: fix off-by-one in sg_chain entry count for wrapped sk_msg ring
 ff26a0e8377dec07e4a7230db7675bed1b9a6d03 net: tls: prevent chain-after-chain in plain text SG
 c78bdba7b9666020c0832150a4fc4c0aebc7c6ac net: phy: DP83TC811: add reading of abilities
 31e62c2ebbfdc3fe3dbdf5e02c92a9dc67087a3a ptrace: slightly saner 'get_dumpable()' logic
 eb5441518fba295bd97b59dc54914f89dfaa107d Merge tag 'audit-pr-20260513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 66182ca873a4e87b3496eca79d57f86b76d7f52d Merge tag 'net-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-878492af7d503f4b093ea903173500be00e9cbe7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ff205bf8c55451f95300bceed9779b647205a850 netlink: add one debug check in nla_nest_end()
-f65d40643e425d2346d1fd7e1bbaa2efeeb8b70f ptp: vmw: Drop ptp_vmw_acpi_device
-72a1795999df1a5cb9296343202f8679151a5ea2 net/sched: qdisc_qstats_qlen_backlog() runs locklessly
-d3f3c8a4d1f671b5d661097e0c80517d523c9f61 net: ioam6: no longer acquire qdisc spinlock while calling qdisc_qstats_qlen_backlog()
-e300c7d470ad2726d6abf7d11b31b5d9912d9cf0 net/sched: sch_hfsc: annotate data-races in hfsc_dump_class_stats()
-8ee838c8888da88e27ef30739fefc882eb30478d Merge branch 'net-sched-changes-around-qdisc_qstats_qlen_backlog'
 d2bfdbb69cf87676981b1043010b6224d84c6d3a rds_tcp: close NULL deref window in rds_tcp_set_callbacks
-db30e412b7f543d00396ab27f690608cad06aa97 selftests: openvswitch: add vlan() and encap() flow string parsing
-2476e005b13ab6b47617858e0c54e789195c848a selftests: openvswitch: add pop_vlan test
-1b2ba91c4505091e7d7270fb519500edd3b1c205 rds: tcp_listen: fix typos in comments
-d2dc0c5c4c42be30f8e9883c76f541466d9c2805 Documentation: networking: ip-sysctl: fix typo in tcp_ecn_option
-e54fe8200a1c72c624846d22ad9c2820f8ab06c3 Documentation: networking: devlink: stmmac: fix typo in phc_coarse_adj
 7d260c5d2d89eb2c8c528d54b576b3aae3e20231 net/mlx5e: Fix use-after-free in mlx5e_tx_reporter_timeout_recover
 f84eca5817390257cef78013d0112481c503b4a3 net: skbuff: preserve shared-frag marker during coalescing
-4987a5763fd5ab72afde7493216d944d976a0b15 net: block MSG_NO_SHARED_FRAGS in sendmsg()
-83ea7fd73b11dd8cbf4416507a5eac3890b49fb0 net: dsa: microchip: remove unused phylink_mac_link_up() callback
-f27ae140c8da251b72d8eea53efd172ac1682faf net: dsa: microchip: bypass dev_ops for FDB ageing operations
-9f16bc5c737d0eefda9c4e231decc960c8c51080 net: dsa: microchip: bypass dev_ops for change_mtu() operation
-e439c7871efb424ad65ccea221973d9ef78208cc net: dsa: microchip: bypass dev_ops for VLAN operations
-ede165ba0bd0b91f388f43ff0df89afd34dd24c1 net: dsa: microchip: bypass dev_ops for FDB and MDB operations
-5973ddcc1765cfb325747eb4bab7c504e1f282bd net: dsa: microchip: bypass dev_ops for mirror operations
-82e5193a4e506793629aea461904cffda251b5b1 net: dsa: microchip: bypass dev_ops for phylink_get_caps()
-674822432a88e06583ab1c3834823055a4824fe5 Merge branch 'net-dsa-microchip-remove-unnecessary-ksz_dev_ops-callbacks'
 e8fb3de2a8effcaf62bec2c56b93d8bb480371d1 octeontx2-pf: fix double free in rvu_rep_rsrc_init()
-822d4a8e390a08ccfaf2abb347ae670b230b196f net: usb: usbnet: use proper ep number macros
 f508262ae9f21fe0e6c0749948b9dc7dd5a62a70 tls: Preserve sk_err across recvmsg() when data has been copied
 c9d08c8c4c5006d71b3c3c3c0dc41ebc46931951 net/mlx5e: Don't leak RSS context in case of error
 8d0a5af8b1ba598e7340761729801624e7a9330e net/mlx5: Do not restore destination-less TC rules
 c6df9a65cbb0fe7808a4b2872095f4c849b3196a net/mlx5: Skip disabled vports when setting max TX speed
 5db89c99566fc4728cc92e941d8e1975711e24b5 net: ifb: report ethtool stats over num_tx_queues
-bfccad9ffec4c97d340607099a16178a65fa1f00 DO-NOT-MERGE: git markup: net
-e0a09e4c20ad53ec6935f80c14d4896070c927be DO-NOT-MERGE: git markup: fixes other trees
-a2ad6cc661d9b585222caecdbcc8719925fd1e5f mptcp: update window_clamp on subflows when SO_RCVBUF is set
-d271e8f37bdce09bf2e67287269840fcd46b1e2d mptcp: reset rcv wnd on disconnect
-46ee3fd1ad0a6d62034a4528134049df0e18924a mptcp: pm: fix ADD_ADDR timer infinite retry on option space insufficient
-1491c6c260c4ae6c8c34dab6a6c493c6369f99a2 selftests: mptcp: join: cover ADD_ADDR tx drop and list progress
-b44c641ea563488655febe2190140e6ca8259d73 mptcp: do not drop partial packets
-c73e3786311630512e033c4e59681de06ce17411 selftests: mptcp: simult_flows: disable GSO
-5761384644424be7710d53197f15a891d26deb5f selftests: mptcp: simult_flows: adapt limits
-837710b61fb1e5efbb481ddbbc47ae7db42ec392 selftests: mptcp: drop nanoseconds width specifier
-06903b453791c7680f92659b947c3d86bd13542b DO-NOT-MERGE: git markup: fixes net
-03139785eadecf67fb2543dd8c23149daefebd4a DO-NOT-MERGE: mptcp: add CI support
-ae4be0447457c418e8812289aa2a0a04706b8795 DO-NOT-MERGE: git markup: end common net net-next
-3250d6af8d319cc96d738de4a05172ffc52142f7 TopGit-driven merge of branches:
-dd1d83bed5c9a5cd49aa92539c58189051dd7063 DO-NOT-MERGE: git markup: net-next
-c698c36e03e5195016bbb4ce71ab42b26b820dad DO-NOT-MERGE: git markup: fixes net-next
-0f54de38d6db81df7ccd05a54e6e69e5dc84d8a8 mptcp: pm: init and release mptcp_pm_ops
-74907f0c8e7cc5fcd9e0e57426296372cf7d2078 mptcp: pm: add get_local_id() interface
-06e091319394cc7d51b623603b7f59b1df99a6a4 mptcp: pm: add get_priority() interface
-506dda25a86ec9050a14e2d2b4b5d0f1669221b1 selftests: mptcp: simult_flows: disable 'flaky' mark
-f4efc8f23cc07037d382cdf91acb972daa312ab9 DO-NOT-MERGE: git markup: features net-next
-da47847b27e39d2858a9a3851f22d8448d0b6caf DO-NOT-MERGE: git markup: features net-next-next
-78f01a548ea6c19b59b87227e058a8869016bb5f bpf: Add mptcp_subflow bpf_iter
-b38344a6d6d77615f0535f657940c6bc4602b4c2 selftests/bpf: More endpoints for endpoint_init
-88f155fb1f64d7ab0901ef17158ab8a2082054ae selftests/bpf: Drop cgroup_fd of run_mptcpify
-98896e7bab790d98f72117d4f3e44190fd20a381 bpf: Add mptcp packet scheduler struct_ops
-6f0433b6d6546727cf33b3dff6c5a59025d919ec bpf: Export mptcp packet scheduler helpers
-cbd6749aee4bdb5f74b4ce2a2248fa3506748e2a selftests/bpf: Add bpf scheduler test
-d6b68d876d8a8c785e99e9a0c2bddc1a281c95bd selftests/bpf: Add bpf_first scheduler & test
-4c38cec5a274de0e1f89bea799ea556ccc78cfde selftests/bpf: Add bpf_bkup scheduler & test
-0c50ca15d47d31a6a88719110fc011985605b920 selftests/bpf: Add bpf_rr scheduler & test
-d52663356865a2b8fcb6a7c2925ca08917d83923 selftests/bpf: Add bpf_red scheduler & test
-2b95ddea6eeec945efd66f26972c98aea538c98e selftests/bpf: Add bpf_burst scheduler & test
-2f156ba70a9d76d962e69ce5de9c5b79ee1a2fa6 DO-NOT-MERGE: git markup: features other trees
-77725960210372ac20e8b3c46611aea7e87b8797 DO-NOT-MERGE: mptcp: improve code coverage for CI
-1b7b378e36da46465441e8873bfc57de74103220 DO-NOT-MERGE: mptcp: enabled by default
+8a1c6a4afd2f3d5dea851e80acaaf9cebec605f2 DO-NOT-MERGE: git markup: net
+3d7d5e5674d359a4ec44b94925ab0c2ba73bcb6a DO-NOT-MERGE: git markup: fixes other trees
+5601b4f22220f240caf1371a0128c45230d8b895 mptcp: update window_clamp on subflows when SO_RCVBUF is set
+dc6c889b13264cafdfbe3944462a75e8dad5ce1f mptcp: reset rcv wnd on disconnect
+55cdc6f93ccdea2bfd38cebc34edd39ae5267fd8 mptcp: pm: fix ADD_ADDR timer infinite retry on option space insufficient
+ceb1083757730bb4b8560b3136775080b53b5320 selftests: mptcp: join: cover ADD_ADDR tx drop and list progress
+8184a144cecb6d95b1b0c56452ba3016e9dba018 mptcp: do not drop partial packets
+9e6ecfd7592238fd7bfeb98c962f3e5cc17ed04c selftests: mptcp: simult_flows: disable GSO
+4aa02efc6710f9c12a49b4d49f5ed13dcc6ba326 selftests: mptcp: simult_flows: adapt limits
+9fb490193c5bacd640bebabedc0eb3584b91d175 selftests: mptcp: drop nanoseconds width specifier
+2c538f27fd1f2e9b32b7093874045df19152c89e DO-NOT-MERGE: git markup: fixes net
+be50289dc4bb9f9f3999ed6a73b7fd311573082c DO-NOT-MERGE: mptcp: add CI support
+103b68ce0a081a3a9cc92b3b76c536ffea6985b6 DO-NOT-MERGE: git markup: end common net net-next
+59a61719fd1a2b094acce110a013c309f30f19fa DO-NOT-MERGE: git markup: fixes net only
+0436ce0ab4217cab8894df4975673dd004a7adc2 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+6c7a815d6a7192e42bb1875202df1d48c3a83e64 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============0519508100641605313==--
+--===============4447401454642508470==--
