@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2642527435131066675=="
+Content-Type: multipart/mixed; boundary="===============3053529934258789934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 18 May 2026 09:14:43 -0000
-Message-Id: <177909568332.3209485.8839037554062565920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 18 May 2026 09:17:25 -0000
+Message-Id: <177909584547.3212523.3456843541301079393@gitolite.kernel.org>
 
---===============2642527435131066675==
+--===============3053529934258789934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/arm64-sve-trap-mitigation
-    old: 1ceddeaa08a5ff1c8b69b68d046c7da4d3886624
-    new: 93cc415b2bbb8e35b70ed5020afa22e085efe1c1
-    log: revlist-1ceddeaa08a5-93cc415b2bbb.txt
+  - ref: refs/heads/for_next
+    old: 38b4aa1a24f086c911188c4ad5557a0d5c00d91e
+    new: 5f0419457f89dce1a3f1c8e62a3adf2f39ab8168
+    log: revlist-38b4aa1a24f0-5f0419457f89.txt
 
---===============2642527435131066675==
+--===============3053529934258789934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ceddeaa08a5-93cc415b2bbb.txt
+Content-Disposition: attachment; filename=revlist-38b4aa1a24f0-5f0419457f89.txt
 
-0422e7a4883f25101903f3e8105c0808aa5f4ce9 rxrpc: Fix re-decryption of RESPONSE packets
 3476c8bb960f48e49355d6f93fb7673211e0163f rxrpc: Fix error handling in rxgk_extract_token()
 5e6391da4539c35422c0df1d1d2d9a9bb97cd736 Merge branch 'rxrpc-miscellaneous-fixes'
 4cf42f9c3e3624fedf4f6c38c3d81d80c8b3cbd6 net: packetengines: remove obsolete hamachi driver
@@ -215,7 +214,6 @@ a035766f970bde2d4298346a31a80685be5c0205 wifi: b43legacy: enforce bounds check o
 381cd547bc6e35a610c5dfebe554d891eea40f03 wifi: nl80211: require admin perm on SET_PMK / DEL_PMK
 9b55d5c1f5e481e391957f9096d798ca331c461b wifi: mac80211: check ieee80211_rx_data_set_link return in pubsta MLO path
 7a5b81e0c87a075afd572f659d8eb68c9c4cd2ba wifi: mac80211: drop stray 'static' from fast-RX rx_result
-13917f71a95a6ee6132ecb9a544cd5bc7197c68d docs: isofs: replace dead ECMA-119 FTP link
 4023b7424ecd5d38cc75b650d6c1bf630ef8cb40 arm64/scs: Fix potential sign extension issue of advance_loc4
 0faacc0841d66f3cf51989c10a83f3a82d52ff2c ALSA: hda: cs35l56: Propagate ASP TX source control errors
 58c0ac6125d89bf6ec65a521eaeb52a0e8e20a9f iommu/amd: Use maximum Event log buffer size when SNP is enabled on Family 0x19
@@ -746,6 +744,8 @@ db4cd7d6c571c5ec6b52a6e80ec59ad99c4aa1d6 ALSA: usb-audio: Add quirk flags for JB
 dc1e0172be54e742bccb28d5f14c0c395e28c098 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP Envy X360 15-fh0xxx
 f3c57c9c2a49a21d784b7c04a2c883bffc070659 ALSA: usb-audio: midi2: Restart output URBs on resume
 320e55722ca466a7d40dd69e1aea982cb6189006 ALSA: usb-audio: add clock quirk for Motu 1248
+17e4c68ff35090d8cb743e3c82c09f92fda1ebda kunit: config: Enable KUNIT_DEBUGFS by default
+8f80b5b227ef9ea422080487715c841856339aed kunit: config: KUNIT_DEBUGFS should depend on DEBUG_FS
 93618edf753838a727dbff63c7c291dee22d656b cgroup: Defer css percpu_ref kill on rmdir until cgroup is depopulated
 360f61bc29085d65a24dbaaf707c802553a239fd MAINTAINERS: Update mail for Peter Rosin
 60f21a2649308bbd84919ba6656d5ccd660953cf cgroup, sched_ext: Include exiting tasks in cgroup iter
@@ -1047,8 +1047,8 @@ a1a10cdbc6551ba359169a3033f193b7f8c1b95d Merge tag 'clk-fixes-for-linus' of git:
 aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71 rxrpc: Also unshare DATA/RESPONSE packets when paged frags are present
 afaa0a477099cb7256e26fe11289c753a225ac97 Merge tag 'edac_urgent_for_v7.1_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 5d6919055dec134de3c40167a490f33c74c12581 Linux 7.1-rc3
-7e81ff896f78e040253fa1ef874bb4abe084862d arm64/sve: Performance improvements with SVE state saving
-a47200871e1308ee87fdd10de9e401212be8d2c1 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
-93cc415b2bbb8e35b70ed5020afa22e085efe1c1 arm64/sve: Disable TIF_SVE on syscall once per second
+c1fa0bb633e4a6b11e83ffc57fa5abe8ebb87891 exit: prevent preemption of oopsing TASK_DEAD task
+50897c955902c93ae71c38698abb910525ebdc89 Merge tag 'linux_kselftest-kunit-fixes-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+5f0419457f89dce1a3f1c8e62a3adf2f39ab8168 udf: validate free block extents against the partition length
 
---===============2642527435131066675==--
+--===============3053529934258789934==--
