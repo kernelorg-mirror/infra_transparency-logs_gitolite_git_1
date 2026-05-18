@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 18 May 2026 07:02:23 -0000
-Message-Id: <177908774314.3111465.9885639738144311232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Mon, 18 May 2026 07:06:43 -0000
+Message-Id: <177908800361.3115015.1978704981449285075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/review-andy
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 2b9ef70d3abe1eaa9b37253fd7765cf40ff2a5ad
+  - ref: refs/heads/dma-mapping-fixes
+    old: 22d0213e55fbb723c2c00dd5aa855a6eaad95b23
+    new: af0c3f05866237f7592219bfe05387bc3bfc99b5
     log: |
-         2b9ef70d3abe1eaa9b37253fd7765cf40ff2a5ad pinctrl: intel: move PWM base computation past feature check
+         af0c3f05866237f7592219bfe05387bc3bfc99b5 dma-mapping: move dma_map_resource() sanity check into debug code
          
