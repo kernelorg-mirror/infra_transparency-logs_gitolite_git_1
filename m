@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 18 May 2026 06:22:20 -0000
-Message-Id: <177908534021.3081570.15098425169068939635@gitolite.kernel.org>
+Date: Mon, 18 May 2026 06:22:22 -0000
+Message-Id: <177908534268.3081678.1178690394654048361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.0.9/main
+  - ref: refs/tags/v7.0.9-1
     old: 3ad6fdc340264ddef7cb42f0f0c28a00fb9f3f03
     new: 4b6aacc1f14af8b68f5b81dfa1cfa76b0359c4a8
     log: |
