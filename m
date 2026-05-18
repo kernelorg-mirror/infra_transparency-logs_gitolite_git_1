@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Mon, 18 May 2026 04:51:45 -0000
-Message-Id: <177907990541.2959930.11765244075687638223@gitolite.kernel.org>
+Date: Mon, 18 May 2026 04:52:04 -0000
+Message-Id: <177907992408.2960303.15413697582808852655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
-  - ref: refs/heads/aspeed/arm/dt
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 91b9aed7381c898758d70fac5aaa4bfa6173761a
+  - ref: refs/heads/for-next
+    old: b333a0f1c857411d83a02aa6f1d9ecc7666d6179
+    new: efa0bf0272afe785e7ada43169fc6be6e01f4218
     log: |
          46ed8942abf52f5929945419ae25be43d50afb1d ARM: dts: aspeed-g6: move i2c controllers directly into apb node
          91b9aed7381c898758d70fac5aaa4bfa6173761a ARM: dts: aspeed-g6: Add nodes for i3c controllers
+         efa0bf0272afe785e7ada43169fc6be6e01f4218 Merge branches 'aspeed/arm/dt' and 'aspeed/fixes/drivers' into for-next
          
