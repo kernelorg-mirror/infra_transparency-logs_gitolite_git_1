@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 19 May 2026 15:36:41 -0000
-Message-Id: <177920500197.433744.5507224131731938138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 19 May 2026 15:37:22 -0000
+Message-Id: <177920504271.434187.3164770352010749004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: fb32caffd962a38e51bc54ed0306d0e6293c678b
-    new: 51da702cffae793c200690c616c3a2b3503156e8
+  - ref: refs/heads/work.configfs
+    old: 0f0a9217167490dc6cc73c206ed1c0520d0c533b
+    new: 2b3fc930d2ab6a4c4fca9d0d61938c8b50f6f832
     log: |
-         095fa8fc3d9328c9dc4da62ee7c4cfeed18e993e patches/next: move misc fixup patches to the category
-         51da702cffae793c200690c616c3a2b3503156e8 patches/next: writeup misc fixes commit messages
+         85863f5773c15f02ff6518ad034e3b380b78ca53 kill configfs_drop_dentry()
+         2b3fc930d2ab6a4c4fca9d0d61938c8b50f6f832 configfs_create(): lift parent timestamp updates into callers
          
