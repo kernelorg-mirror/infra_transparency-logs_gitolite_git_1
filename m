@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1172450110827655397=="
+Content-Type: multipart/mixed; boundary="===============2267166993782011061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Tue, 19 May 2026 14:06:46 -0000
-Message-Id: <177919960646.361248.16421810977774583012@gitolite.kernel.org>
+Date: Tue, 19 May 2026 14:06:54 -0000
+Message-Id: <177919961474.361463.7419220120431384331@gitolite.kernel.org>
 
---===============1172450110827655397==
+--===============2267166993782011061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/slim-fixes
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============1172450110827655397==
+--===============2267166993782011061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============1172450110827655397==--
+--===============2267166993782011061==--
