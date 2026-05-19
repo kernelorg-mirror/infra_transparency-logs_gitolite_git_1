@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============4242576342910107396=="
+Content-Type: multipart/mixed; boundary="===============2692718834104802117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Tue, 19 May 2026 10:31:40 -0000
-Message-Id: <177918670002.188904.5098649587385659741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Tue, 19 May 2026 10:32:33 -0000
+Message-Id: <177918675371.189340.17200306666655401300@gitolite.kernel.org>
 
---===============4242576342910107396==
+--===============2692718834104802117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
   - ref: refs/heads/kbuild-fixes-unstable
-    old: 7db93134a4e7809c3562899d9f108e313f4c73cd
+    old: f2be8dd21b3f4d8674478aeea33b9d072be41abf
     new: 202550713128da20d9381d6d2dc0f6b73839f434
-    log: revlist-7db93134a4e7-202550713128.txt
+    log: revlist-f2be8dd21b3f-202550713128.txt
+  - ref: refs/tags/kbuild-fixes-7.1-2
+    old: 0000000000000000000000000000000000000000
+    new: 5cdca3704734199a5e1f1c4fc0fc49c4eda57e11
 
---===============4242576342910107396==
+--===============2692718834104802117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7db93134a4e7-202550713128.txt
+Content-Disposition: attachment; filename=revlist-f2be8dd21b3f-202550713128.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 bc0fcb9823cd0894934cf968b525c575833d7078 ipv6: xfrm6: release dst on error in xfrm6_rcv_encap()
@@ -1041,4 +1044,4 @@ e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git
 49f8fcde68898f5033082e8155cd344dd54ef232 modpost: prevent stack buffer overflow in do_input_entry() and do_dmi_entry()
 202550713128da20d9381d6d2dc0f6b73839f434 kbuild: pacman-pkg: make "rc" releases adhere to pacman versioning scheme
 
---===============4242576342910107396==--
+--===============2692718834104802117==--
