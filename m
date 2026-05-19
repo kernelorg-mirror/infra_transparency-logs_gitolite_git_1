@@ -1,55 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============3915528741414323886=="
+Content-Type: multipart/mixed; boundary="===============8968164160722787522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 19 May 2026 08:17:23 -0000
-Message-Id: <177917864335.81152.16894310782438025425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 19 May 2026 08:17:44 -0000
+Message-Id: <177917866475.81449.6807355063548197041@gitolite.kernel.org>
 
---===============3915528741414323886==
+--===============8968164160722787522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: e0014849e9af1e08aaaf2b7bc26b1918d8275f24
-    new: e76ccf19e22a74309bb9c14e64bb97ade3c5fee8
-    log: revlist-e0014849e9af-e76ccf19e22a.txt
+  - ref: refs/heads/for-linus
+    old: 6e4bfd9da8851f562f04503d8e43221957f96eeb
+    new: fd3b95866d86844ae747fce9b3438d73ed5f1e7a
+    log: |
+         fd3b95866d86844ae747fce9b3438d73ed5f1e7a ASoC: fsl_sai: Eliminate possible interrupt storm during probe
+         
+  - ref: refs/heads/for-next
+    old: 2be19ed9535043fe6abd7ccfc9aac6b7ecaac842
+    new: de75ff7d6cf16c0b7a6210f2198a05927de2a9d5
+    log: revlist-2be19ed95350-de75ff7d6cf1.txt
 
---===============3915528741414323886==
+--===============8968164160722787522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1779178641 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1779178640-200deb3dc21eb95fbd047dcfbd6de11723e473c4
-
-e0014849e9af1e08aaaf2b7bc26b1918d8275f24 e76ccf19e22a74309bb9c14e64bb97ade3c5fee8 refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoMHJEACgkQJNaLcl1U
-h9AGxgf+O4BN1QqRI14hMbZdCmzjrNt7HP8pVwXC8eUMyvNa5Vlq6HEfVKI6M1eb
-SMCEvqRngxAgrYes7tIik4iJNVYXfFFUo7z+dCWsZ9KmDQmTM7XMxLVAT/sF3iIw
-1nNAB5lnzOsymwbl0jmzCvAxNAdVH8pmZL0xexeyMAurriNaIlvwRMe0vrH6fzXL
-NFED+FA4ajL1AdPazDMt3dcdiFSSphvHZ6+5qjxMxuXitAmZwa2FnXHl0nVXEGWi
-IxorH2kFx2mRWWLSPMP10Dr79ffDYKhtrTt8HmgT5XU3F4KSv68jm8SYYNvHsL0o
-iJIIi7iFC5aK6NH8YPdzCXKEqA04Fg==
-=/LO7
------END PGP SIGNATURE-----
-
---===============3915528741414323886==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0014849e9af-e76ccf19e22a.txt
+Content-Disposition: attachment; filename=revlist-2be19ed95350-de75ff7d6cf1.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
@@ -480,6 +461,7 @@ e7f24a388e703e505a7f8d014a428308b35e8f94 Merge tag 'x86-urgent-2026-05-17' of gi
 e5d505e3664bb31f59776b7b3873965228fe944f Merge tag 'trace-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5200f5f493f79f14bbdc349e402a40dfb32f23c8 Linux 7.1-rc4
 e38353138a091554242f0a3da883250fdc4696b5 ASoC: mediatek: mt8196: Fix probe resource cleanup
+fd3b95866d86844ae747fce9b3438d73ed5f1e7a ASoC: fsl_sai: Eliminate possible interrupt storm during probe
 37dba38ac8d0910f31788368bce4d93aa4059040 of: Introduce of_property_read_s32_index()
 04a1fe8e6582ac2417c6d68258db5dc47f4dae3e ASoC: dt-bindings: Add support for the GPIOs driven amplifier
 28188a6d8869d2350f9e271e1b25e85077c70cee ASoC: simple-amplifier: Remove DRV_NAME defined value
@@ -498,5 +480,6 @@ fb757dfa039fd2adaab5bf0de2df1530531b4060 ASoC: simple-amplifier: gpio-audio-amp:
 7b295a6fc63254381504b4abd37ff150eec19bea ASoC: simple-amplifier: Update author and copyright
 5bd8c4b7d3bbe03a56f915f5da95330cb74fa3f6 MAINTAINERS: Add the ASoC gpio audio amplifier entry
 e76ccf19e22a74309bb9c14e64bb97ade3c5fee8 ASoC: Add support for GPIOs driven amplifiers
+de75ff7d6cf16c0b7a6210f2198a05927de2a9d5 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============3915528741414323886==--
+--===============8968164160722787522==--
