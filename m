@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 May 2026 11:52:41 -0000
-Message-Id: <177919156122.256362.13007120872366634670@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2076465178606786070=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 19 May 2026 12:09:03 -0000
+Message-Id: <177919254307.267704.9845905317937826664@gitolite.kernel.org>
+
+--===============2076465178606786070==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 35f0f0a2536a4d604b4dbad92c85c4a8fdebb870
-    new: 956aa1ec975fcdcaec896d7698bdb78892bec1de
+  - ref: refs/heads/master
+    old: c4805cb3c65948778762a4defd8af4972ffeae95
+    new: 45842f93b43b178af7f22882846c6d78356025f7
     log: |
-         7f114497784661b887f1097c440221b18e2914e9 selftests: ovpn: reduce remaining ping flood counts
-         775d8d7ad02aa345e1588424a6a8b9ae49fb9012 ovpn: tcp - use cached peer pointer in ovpn_tcp_close()
-         1fef6614673ff0846d30acdeeaf3cf98bb5f6116 ovpn: respect peer refcount in CMD_NEW_PEER error path
-         982422b11e6f95f766a8cd2c2b1cbdb77e234a61 ovpn: fix race between deleting interface and adding new peer
-         0c0dddc07d272a8d25922e48041e8e4d2434df7e ovpn: disable BHs when updating device stats
-         956aa1ec975fcdcaec896d7698bdb78892bec1de Merge tag 'ovpn-net-20260514' of https://github.com/OpenVPN/ovpn-net-next
+         45842f93b43b178af7f22882846c6d78356025f7 6.12-stable patches
          
+
+--===============2076465178606786070==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779192497 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1779192541-0da10f52cdff8f75201ff1346fc70d9f8917c49a
+
+c4805cb3c65948778762a4defd8af4972ffeae95 45842f93b43b178af7f22882846c6d78356025f7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoMUrEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9DIP/3BoS8RAqxej+522H7K7
+Vr2LBgVWKTpsckx7LjAdxrvHn6uAGv8JiyeIXvaJDki9kUDuZHaekJcSe140XDkA
+l8fpnjHTj6xVrI1/F02Lx2UBIy4aHfCm6LWciOkLzUocgqk5T+0Vw10WSrCUhJ92
+7/BG2uCDLZePdfFxLhcYRbTzC3L7Mwq1okbJIHD9qKqT5xwoYWNnU5Wzn0EmrzlT
+3lN7eCPqwvrDgEh9W+1VAljVSht6cQkwTNrI/8uN2ANeJR9y0jgJn5ET/J9AWhr0
+ORlQdRTX6zy91OqUIACdfJGscAL8GtbIi3g2MLJ1ZDnkL0IWsvx9s2XTiT30KICy
+tmCc7s6i0bJO2qULkbrxnXLBRTsOFdq7RuGOKQ/yirivWum75qf/vFV4gIvB+MLj
+POdpjCpycxpy7lhl3kCSEfjtijF+r2eOE7DbBo+AcIujD4oDxSwKtAb/YrbmJb0c
+WgIXBIS80tobZ+GOdOeL6MJAVmQSx5F9PNKf9CvOy62kv35k8O/bvvCA8RFWUFN/
+S22BQwKmabK4F8QErgcsPPd574ifW4GPF4msJrUQA9FRq9p0WAQDv1M464fcYl70
+YSHk1ZCB3QmBWBcHGoPmOgMbwgGo+5biTXVjm9dMhv7lK2eh9he+63q7ex+n9BmE
+likXJWoEyO4U7Yb9AYSgDh6n
+=KoIV
+-----END PGP SIGNATURE-----
+
+--===============2076465178606786070==--
