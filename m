@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8821524591266899068=="
+Content-Type: multipart/mixed; boundary="===============3053814738800563298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Tue, 19 May 2026 13:42:21 -0000
-Message-Id: <177919814106.340514.7175586515154550273@gitolite.kernel.org>
+Date: Tue, 19 May 2026 13:43:01 -0000
+Message-Id: <177919818127.340992.13773321821990876639@gitolite.kernel.org>
 
---===============8821524591266899068==
+--===============3053814738800563298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,29 @@ repo: pub/scm/linux/kernel/git/mripard/linux
 user: mripard
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/drm/no-more-plane-reset
+  - ref: refs/heads/drm/mode-config-init
     old: 0000000000000000000000000000000000000000
-    new: ff0d18b99dbb0d68a08b6a9f7e578604caaf5826
+    new: 178c04a04d9269a8485ccbc723f15c7253e10194
 
---===============8821524591266899068==
+--===============3053814738800563298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1779198138 +0200
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1779198151 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1779198138-7bc0f61cbc418ded8fdc17d77f7dd3fe46f87eb4
+nonce 1779198151-84ccbbcd38b1d54d541753233c046ebd59fd0c7e
 
-0000000000000000000000000000000000000000 ff0d18b99dbb0d68a08b6a9f7e578604caaf5826 refs/heads/drm/no-more-plane-reset
+0000000000000000000000000000000000000000 178c04a04d9269a8485ccbc723f15c7253e10194 refs/heads/drm/mode-config-init
 -----BEGIN PGP SIGNATURE-----
 
-iJUEABMJAB0WIQTkHFbLp4ejekA/qfgnX84Zoj2+dgUCagxougAKCRAnX84Zoj2+
-dsa5AYCnIUv1wLvPTju30NBAxMmTnrCOHMIbkqJQ8c/ZdgRDCkJkxPy9pJVARkBu
-E6GhjPQBgOdw9MPiuzG0LxFLHwZTeb0HE3zSrUdnVmllhBIvgODF576cYJZGD5wS
-jPsjozKnsA==
-=uJ8O
+iJUEABMJAB0WIQTkHFbLp4ejekA/qfgnX84Zoj2+dgUCagxoxwAKCRAnX84Zoj2+
+diHmAYCxAsqYA3l5lrkfxJheG+ksKWfCo14vwiv6Nvx4eQcBIjqu6ysJaVUUwv+E
+RRYrKzsBgKNZCiwbOcIDAyvwIOrvMNbqtDgpMwGj7KMu5eaemiBqc52JIZKoQtIP
+uR3kv7BTvw==
+=bSyq
 -----END PGP SIGNATURE-----
 
---===============8821524591266899068==--
+--===============3053814738800563298==--
