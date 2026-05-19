@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 19 May 2026 19:25:07 -0000
-Message-Id: <177921870767.610252.2687762840572799706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 19 May 2026 19:27:33 -0000
+Message-Id: <177921885326.611473.6155920548914635238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 805cf86f19d7424b2dff995bed5b5f0b95584b27
-    new: 28d8111dae0db498dc1a9190006e927bcbcb6f8c
+  - ref: refs/heads/main
+    old: 99cbe93754b29b22d9ff4e25bc584f99705e892d
+    new: be9efe24c3c0902234ee1d0a36be4f7f60780048
     log: |
-         28d8111dae0db498dc1a9190006e927bcbcb6f8c Fixes for all trees
+         e7f9be2c7bfff07b5aba1e6eac3452cd729ad214 wifi: ath12k: Add support for handling incumbent signal interference in 6 GHz
+         afa1bd86eddd9f395bfa3d5cb3c7b5158e1383e0 wifi: ath12k: Add debugfs support to simulate incumbent signal interference
+         00b7232ba2bcd2647e9f9c31d218fdf19a793610 Merge remote-tracking branch 'wireless/main'
+         d7d200e1d97c4723c35938319dbb1a50c6aa7dd9 Merge remote-tracking branch 'wireless-next/main'
+         4edda5318281a055b59cded03ff5b2651cb62c94 Merge branch 'ath-next'
+         53971030d5ecac0321f72559b7adabb86abc2bb0 Merge branch 'ath-current'
+         cdc182365c158122099ba544c19d58735e73391b Merge remote-tracking branch 'mhi/mhi-next'
+         be9efe24c3c0902234ee1d0a36be4f7f60780048 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202605191916
+    old: 0000000000000000000000000000000000000000
+    new: be9efe24c3c0902234ee1d0a36be4f7f60780048
