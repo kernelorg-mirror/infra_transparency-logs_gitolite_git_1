@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1851452376508379149=="
+Content-Type: multipart/mixed; boundary="===============5608752572077811800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 19 May 2026 20:11:16 -0000
-Message-Id: <177922147631.646522.14823934190015713668@gitolite.kernel.org>
+Date: Tue, 19 May 2026 20:11:18 -0000
+Message-Id: <177922147864.646636.12526947902819616292@gitolite.kernel.org>
 
---===============1851452376508379149==
+--===============5608752572077811800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 822d4a8e390a08ccfaf2abb347ae670b230b196f
     new: 9bf93cb2e180a58d5984ba13daee95903ff4fc14
     log: revlist-822d4a8e390a-9bf93cb2e180.txt
 
---===============1851452376508379149==
+--===============5608752572077811800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ f2dfcc4b4bc28ba8ad45bce43ad76fa9575e27f5 Merge branch 'eea-add-basic-driver-fram
 794cd1c77f53309f5eb8c05b4b833ad3723eccff net/ethtool: drop duplicate TSCONFIG HWTSTAMP BUILD_BUG_ON from SET handler
 9bf93cb2e180a58d5984ba13daee95903ff4fc14 pps: bump PPS device count
 
---===============1851452376508379149==--
+--===============5608752572077811800==--
