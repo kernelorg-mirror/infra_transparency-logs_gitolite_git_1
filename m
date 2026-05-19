@@ -1,309 +1,586 @@
-Content-Type: multipart/mixed; boundary="===============1356876160852399693=="
+Content-Type: multipart/mixed; boundary="===============7030217522173841102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/e2fsprogs
-Date: Tue, 19 May 2026 22:04:52 -0000
-Message-Id: <177922829201.731714.12860281310895721361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/libfuse
+Date: Tue, 19 May 2026 22:05:08 -0000
+Message-Id: <177922830818.734091.783764645704285433@gitolite.kernel.org>
 
---===============1356876160852399693==
+--===============7030217522173841102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/e2fsprogs
+repo: pub/scm/linux/kernel/git/djwong/libfuse
 user: djwong
 changes:
-  - ref: refs/heads/fuse2fs-caching
-    old: e5d3ab9ed60af5f92199220088e17c1bca670074
-    new: 35db741652c346d6cce7f8f514c3ebb43033c8ec
-    log: revlist-e5d3ab9ed60a-35db741652c3.txt
-  - ref: refs/heads/fuse2fs-iomap-attrs
-    old: 3905127ef4501691468c36df381c4a39f02972b7
-    new: 0e937b3f09fc50d6e67667f646447a070ccebfc6
-    log: revlist-3905127ef450-0e937b3f09fc.txt
-  - ref: refs/heads/fuse2fs-iomap-cache
-    old: 72e068d037bf391308cc6add4c186028ef240616
-    new: 54bcde8b843c0f68ae5c6941cb400bc5725cd537
-    log: revlist-72e068d037bf-54bcde8b843c.txt
-  - ref: refs/heads/fuse2fs-iomap-fileio
-    old: 1ed39a534a6c324b161d27cddd067b69f7f4f8c4
-    new: f8d17ed0338fbbf9d66a945d062d94aba26b5604
+  - ref: refs/heads/djwong-wtf
+    old: 87a3a98629a8e4ebe8d26bc5d1f290c1f87b79d3
+    new: 333d9d420b93a7a6d57ca6e0b9743785413ea0b1
+    log: revlist-87a3a98629a8-333d9d420b93.txt
+  - ref: refs/heads/fuse-iomap-attrs
+    old: 742bb971ad6478f3938345f1996c60ce2309838a
+    new: fb77b4aa8c60ee9efa7512fe8eea46fa86673b6f
+    log: revlist-742bb971ad64-fb77b4aa8c60.txt
+  - ref: refs/heads/fuse-iomap-cache
+    old: e028ac2ffcbdd7b390fd855fe41a6861d72f32bd
+    new: 13cee7c2c413c9b40989065c01be145a1f349967
+    log: revlist-e028ac2ffcbd-13cee7c2c413.txt
+  - ref: refs/heads/fuse-iomap-config
+    old: b7d2cb11de5403a0e849dd4700e68c08650b97ed
+    new: 4cba6bd0edb071c92b931e9c22515fac5c57c4c7
+    log: revlist-b7d2cb11de54-4cba6bd0edb0.txt
+  - ref: refs/heads/fuse-iomap-examples
+    old: c4c2c619a2753ede30f000943825e44920459cad
+    new: 48ff683bc40e2b935d3895a15e3ca04fcd676354
+    log: revlist-c4c2c619a275-48ff683bc40e.txt
+  - ref: refs/heads/fuse-iomap-extra-fileio
+    old: 689922f3cd380ba2a2e8118bf74bc685d35392f2
+    new: aac53382f9f98edb1cbaa401853da09c0a1f150a
+    log: revlist-689922f3cd38-aac53382f9f9.txt
+  - ref: refs/heads/fuse-iomap-fileio
+    old: 2f7354cfe14e5547c9a1e9fa624d2e9c3943ae85
+    new: 74f0db08e7552443bf13bde3d277d6af741b3375
+    log: revlist-2f7354cfe14e-74f0db08e755.txt
+  - ref: refs/heads/fuse-iomap-new-fs-features
+    old: 97cc07c29989f14210a6ef9b353d6e01670dbf1c
+    new: 8459c9eecd51876416aa81b18069920fd94c8041
+    log: revlist-97cc07c29989-8459c9eecd51.txt
+  - ref: refs/heads/fuse-iomap-striping
+    old: ca598f04bd249ca97a952c70bba04293b29e0751
+    new: 276f3ac99124698696b36e1df78351a4011e8818
+    log: revlist-ca598f04bd24-276f3ac99124.txt
+  - ref: refs/heads/fuse-root-nodeid
+    old: 13aca93b2208d47afdc77fc549c9fd9daf088a40
+    new: ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb
+    log: revlist-13aca93b2208-ec77aeff3e74.txt
+  - ref: refs/heads/fuse-service-container-fixes
+    old: 7211953256526f634298ae79f38cf401900a7a53
+    new: 93892e469ddb9f5bd3b0923d95410a9d5dba65f7
     log: |
-         3da679560e135c0953cb03a78a1348ba62dbf77e fuse2fs: register block devices for use with iomap
-         b4f931ecbbd91746d46964ae3351299c6ad71770 fuse2fs: implement directio file reads
-         6abf8d1fe5ebffa76dedb19757b10339d663c717 fuse2fs: add extent dump function for debugging
-         8ccb8e8607090c2b409399a49bd56e5bb852214f fuse2fs: implement direct write support
-         e33afd88b6a75169d04509b51d18f63c91267719 fuse2fs: turn on iomap for pagecache IO
-         58d835cad339d40d0013f6605406a9e1005204ae fuse2fs: don't zero bytes in punch hole
-         f49f589622779dd45419355351dfe2b9574aa4ea fuse2fs: don't do file data block IO when iomap is enabled
-         957dc9f9fb66fa10614cb07e311c5b2bb9a72ec1 fuse2fs: enable file IO to inline data files
-         f8d17ed0338fbbf9d66a945d062d94aba26b5604 fuse2fs: set iomap-related inode flags
+         0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+         d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+         c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+         93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
          
-  - ref: refs/heads/fuse2fs-root-nodeid
-    old: a416a30376da365ef9174e20dbb5eab77ec68aaf
-    new: 1dffec95ced7cec8775cd29ecc350086fcecca0f
-    log: revlist-a416a30376da-1dffec95ced7.txt
-  - ref: refs/heads/fuse4fs-memory-reclaim
-    old: 5f0ca326046b70358d11b82392e337bf3361402a
-    new: c100853bd2411e52e88a3e152d10220e4f191844
-    log: revlist-5f0ca326046b-c100853bd241.txt
-  - ref: refs/tags/origin/next_2026-05-19
+  - ref: refs/heads/master
+    old: 7e950ba1d6106ccd350470b2aa710e0d81c0dbe6
+    new: c708a0ce1c5c91027fa7b442b576f03217e91cfd
+    log: |
+         0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+         3b24f207ca4f3773c4424bb4483e7bee326214f1 mount_fsmount: fix signature of ms_flags_to_mount_attrs
+         7211953256526f634298ae79f38cf401900a7a53 mount_service: use the fsmount API helpers from mount_fsmount.c
+         d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+         c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+         
+  - ref: refs/tags/origin/master_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: b975c62fba7b51a3c85440fc2362a0019bcfae0b
-  - ref: refs/tags/libext2fs-flushing-fixes_2026-05-19
+    new: 370b4b3bc8148d94b25eb778c1ee76e9296acced
+  - ref: refs/tags/fuse-service-container-fixes_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 19029dc6e1af0f4b0f30a4219c696a7009517d9d
-  - ref: refs/tags/fuse4fs-service-container_2026-05-19
+    new: dc8b0e5dedaff9dcd96611ba9996a3ec8edbcd20
+  - ref: refs/heads/fuse-iomap-plumbing
     old: 0000000000000000000000000000000000000000
-    new: fb8b036aa61a4b4a2c0c63de85f92fa1d156323d
-  - ref: refs/tags/libext2fs-iomap-prep_2026-05-19
+    new: ac801f061461aab666a7a5d8f19cb6969517eb74
+  - ref: refs/tags/fuse-iomap-plumbing_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 94c63d348bb378ee5c91677c610fabe1e1fd7d7d
-  - ref: refs/tags/fuse2fs-iomap-fileio_2026-05-19
+    new: 976b92ec076f5fed8884dc631660182f57507c12
+  - ref: refs/tags/fuse-iomap-fileio_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 81ce4b86b5ed5e7a4394991848c101312e917c9c
-  - ref: refs/heads/fuse2fs-iomap-config
+    new: 75ee95b2bf90ac775713d2968fbaffa872404b53
+  - ref: refs/tags/fuse-iomap-config_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 7b3491e08b87c8595dd7d8729434335858baaee6
-  - ref: refs/tags/fuse2fs-iomap-config_2026-05-19
+    new: 668dc74c1bf5b6815a88c9b252483e28f96e2c14
+  - ref: refs/tags/fuse-iomap-extra-fileio_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 94cae62736e23e44b599374c4aeb62e836503d61
-  - ref: refs/heads/fuse2fs-iomap-extra-fileio
+    new: ab6a2f3bba4cc30c45e138d523a11aefad203455
+  - ref: refs/tags/fuse-iomap-new-fs-features_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 4c798e587027141b692f0ef94ff93155d8a9265d
-  - ref: refs/tags/fuse2fs-iomap-extra-fileio_2026-05-19
+    new: 86c7f3bc6f1e7e5f2b43ec06af6d10e5901b4477
+  - ref: refs/tags/fuse-root-nodeid_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: e1dedc3b34279a48456600ad7575f3aec497ede6
-  - ref: refs/heads/fuse2fs-new-fs-features
+    new: aeb1014039986be5764423554423817ed1ae3132
+  - ref: refs/tags/fuse-iomap-attrs_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: d437b9e156fcb55fd79ceb2c43917f5b4e789daf
-  - ref: refs/tags/fuse2fs-new-fs-features_2026-05-19
+    new: 9f39fc70996e406f5c802eaaa0a1a4b4f6245f2c
+  - ref: refs/tags/fuse-iomap-examples_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 779ce13ffbf3f993c12f6d5a8cbb064011f0b6b8
-  - ref: refs/tags/fuse2fs-root-nodeid_2026-05-19
+    new: 99a4d8374216171ff6098c7c604d0ed96fa1195a
+  - ref: refs/tags/fuse-iomap-cache_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 0148f40291047efc58d17dd62bcc74609111b30e
-  - ref: refs/tags/fuse2fs-iomap-attrs_2026-05-19
+    new: 94f32b9e3c5243d63879550046d7a504ad7a8170
+  - ref: refs/tags/fuse-iomap-striping_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: 5f46e75e3e989c5383f7d0df750d9b447d46b928
-  - ref: refs/tags/fuse2fs-iomap-cache_2026-05-19
+    new: 500ff9c5cb540373a5356e12669a6d4179e4aab6
+  - ref: refs/tags/djwong-wtf_2026-05-19
     old: 0000000000000000000000000000000000000000
-    new: a15c460e6a5ffffe0013032075635ca831290c71
-  - ref: refs/tags/fuse2fs-caching_2026-05-19
-    old: 0000000000000000000000000000000000000000
-    new: 0494ca3d6c4dc0959575aa65033973dd37c9cc8d
-  - ref: refs/tags/fuse4fs-memory-reclaim_2026-05-19
-    old: 0000000000000000000000000000000000000000
-    new: 4b24b6c014282f3ea1c17d6c87c9cdbebe2ece54
+    new: 3221ce7f80a92dcad5d7513d74f1bff2450b59d7
 
---===============1356876160852399693==
+--===============7030217522173841102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5d3ab9ed60a-35db741652c3.txt
+Content-Disposition: attachment; filename=revlist-87a3a98629a8-333d9d420b93.txt
 
-3da679560e135c0953cb03a78a1348ba62dbf77e fuse2fs: register block devices for use with iomap
-b4f931ecbbd91746d46964ae3351299c6ad71770 fuse2fs: implement directio file reads
-6abf8d1fe5ebffa76dedb19757b10339d663c717 fuse2fs: add extent dump function for debugging
-8ccb8e8607090c2b409399a49bd56e5bb852214f fuse2fs: implement direct write support
-e33afd88b6a75169d04509b51d18f63c91267719 fuse2fs: turn on iomap for pagecache IO
-58d835cad339d40d0013f6605406a9e1005204ae fuse2fs: don't zero bytes in punch hole
-f49f589622779dd45419355351dfe2b9574aa4ea fuse2fs: don't do file data block IO when iomap is enabled
-957dc9f9fb66fa10614cb07e311c5b2bb9a72ec1 fuse2fs: enable file IO to inline data files
-f8d17ed0338fbbf9d66a945d062d94aba26b5604 fuse2fs: set iomap-related inode flags
-b9a6c35f10e375b3ad23214424318a23253eb04b fuse2fs: implement iomap configuration
-664e8024a2fc2ff00055d1223024748d1e82616a fuse2fs: try to create loop device when ext4 device is a regular file
-58b37196b4fc49e9e31c70529648a207c3817f7b fuse2fs: configure block device block size
-bd22a7039956ef7714aeb94d8c7f0517432c8b05 fuse4fs: separate invalidation
-db3bfd2b1e87428d4532e7fd73cb1c207e3c34ed fuse4fs: disable fs reclaim and write throttling
-e97cc7c660212b0f1cf9cf4b9cce3b666a6c85ae fuse4fs: configure iomap when running as a service
-42f9f6b163c62f444b2433f9de5a302a30be9045 fuse4fs: set iomap backing device blocksize
-7b3491e08b87c8595dd7d8729434335858baaee6 fuse4fs: ask for loop devices when opening via fuservicemount
-28c6a1aa3ce3b9e7408681af206674ecc49e8ea1 fuse2fs: implement statx
-4c798e587027141b692f0ef94ff93155d8a9265d fuse2fs: enable atomic writes
-d437b9e156fcb55fd79ceb2c43917f5b4e789daf fuse2fs: implement freeze and shutdown requests
-1dffec95ced7cec8775cd29ecc350086fcecca0f fuse4fs: don't use inode number translation when possible
-6a0fb4f910c736ebb42e1c218f5637252b73fffe fuse2fs: add strictatime/lazytime mount options
-6d58c6f3fe0a70daa4a1b508be625abeea8769ca fuse2fs: skip permission checking on utimens when iomap is enabled
-0232f169b43708a623ae6aa48f7390bebf7a568c fuse2fs: let the kernel tell us about acl/mode updates
-01ecabd6fd1ce31ba98483bda1e217c54c165e02 fuse2fs: better debugging for file mode updates
-4eb5131bbc024ee43916d3a09a6dc11c5b7b75d0 fuse2fs: debug timestamp updates
-3ef0b706d74497af5a27589ae3b0da5390547339 fuse2fs: use coarse timestamps for iomap mode
-f8ac76666b2bbbebbdd6fafbc1a88f0b117c3650 fuse2fs: add tracing for retrieving timestamps
-63f7d069b0c88a8c49846e4f9aea7bd76a912e91 fuse2fs: enable syncfs
-1f56bceb572f4de02e402637b685be2ea3e195e0 fuse2fs: set sync, immutable, and append at file load time
-0e937b3f09fc50d6e67667f646447a070ccebfc6 fuse4fs: increase attribute timeout in iomap mode
-e588463f5d4a3f8776d84bd71a48edcbb082a7d2 fuse2fs: enable caching of iomaps
-209c0ed3278dc14fb6c09f3c068329d0e1179505 fuse2fs: constrain iomap mapping cache size
-fafeb0142cd4e4d9b3c4488ecb2b7e828ad80038 fuse4fs: upsert first file mapping to kernel on open
-54bcde8b843c0f68ae5c6941cb400bc5725cd537 fuse2fs: enable iomap
-63a0d5dab8079931fb6cc2c3db300c752e6898db libsupport: add caching IO manager
-4fd1f879d2778b83cb018f17f1f5c29e948aa86a iocache: add the actual buffer cache
-8c7302c094d926b9c168f0f40bde134739b7ec52 iocache: bump buffer mru priority every 50 accesses
-391da72e7ec33adb99411e56900819167245b02c fuse2fs: enable caching IO manager
-deee55710ccd8927aa08fae94993db60014b1464 fuse2fs: increase inode cache size
-35db741652c346d6cce7f8f514c3ebb43033c8ec libext2fs: improve caching for inodes
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb libfuse: allow root_nodeid mount option
+f24ef1354f633b89be772dc92bcdbc95189b6fac libfuse: add strictatime/lazytime mount options
+fb77b4aa8c60ee9efa7512fe8eea46fa86673b6f libfuse: set sync, immutable, and append when loading files
+f549768a945dfbc6afcba564d1d3604e2c701dba example/iomap_ll: create a simple iomap server
+56942d4aff0df58cfdfd7c539856e10d28306494 example/iomap_ll: track block state
+bfacf5612fd29759c7e08f698f867deecee7f432 example/iomap_ll: implement atomic writes
+b248cd7a6b406aea1b0b821a2914f31a2c2b01e2 example/iomap_inline_ll: create a simple server to test inlinedata
+0c3243ff65a06b59cb95765c10359ff72f58efdc example/iomap_ow_ll: create a simple iomap out of place write server
+31b4cf14ce45a6430800d71aab364306c8651794 example/iomap_ow_ll: implement atomic writes
+48ff683bc40e2b935d3895a15e3ca04fcd676354 example/iomap_service_ll: create a sample systemd service fuse server
+cc12f8831437ef22046fa266830d15b739a3f459 libfuse: enable iomap cache management for lowlevel fuse
+ae577483f46b1b634face85568034383b68384f2 libfuse: add upper-level iomap cache management
+2f017d28837c13cce3963cd871bb8f93de90a1bb libfuse: allow constraining of iomap mapping cache size
+f804f25bf5232bb11ed70563f2673f5fb98da715 libfuse: add upper-level iomap mapping cache constraint code
+964ec896c228ff30bd3875c6456919dd6f1f9bd8 libfuse: enable iomap
+98e357f12fd57de057df0bf014e1ab1b15f683b6 example/iomap_ll: cache mappings for later
+9727f7c20e25b67c06a6490afb373b33ec54906f example/iomap_inline_ll: cache iomappings in the kernel
+58f82692680ed5576fcc3d58e632d707c4c0cb41 example/iomap_ow_ll: cache iomappings in the kernel
+13cee7c2c413c9b40989065c01be145a1f349967 example/iomap_service_ll: cache iomappings in the kernel
+da0bf607e867250e3b579c06056e542d672de131 libfuse: enable iomap stripes for lowlevel fuse
+276f3ac99124698696b36e1df78351a4011e8818 example/iostripe_ll: create a simple iomap stripe server
+564a6847f5ae2e4c8da03b4947c12a91bf6aaf67 libfuse: import packaging
+333d9d420b93a7a6d57ca6e0b9743785413ea0b1 libfuse: modify debian packaging for development tree
 
---===============1356876160852399693==
+--===============7030217522173841102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3905127ef450-0e937b3f09fc.txt
+Content-Disposition: attachment; filename=revlist-742bb971ad64-fb77b4aa8c60.txt
 
-3da679560e135c0953cb03a78a1348ba62dbf77e fuse2fs: register block devices for use with iomap
-b4f931ecbbd91746d46964ae3351299c6ad71770 fuse2fs: implement directio file reads
-6abf8d1fe5ebffa76dedb19757b10339d663c717 fuse2fs: add extent dump function for debugging
-8ccb8e8607090c2b409399a49bd56e5bb852214f fuse2fs: implement direct write support
-e33afd88b6a75169d04509b51d18f63c91267719 fuse2fs: turn on iomap for pagecache IO
-58d835cad339d40d0013f6605406a9e1005204ae fuse2fs: don't zero bytes in punch hole
-f49f589622779dd45419355351dfe2b9574aa4ea fuse2fs: don't do file data block IO when iomap is enabled
-957dc9f9fb66fa10614cb07e311c5b2bb9a72ec1 fuse2fs: enable file IO to inline data files
-f8d17ed0338fbbf9d66a945d062d94aba26b5604 fuse2fs: set iomap-related inode flags
-b9a6c35f10e375b3ad23214424318a23253eb04b fuse2fs: implement iomap configuration
-664e8024a2fc2ff00055d1223024748d1e82616a fuse2fs: try to create loop device when ext4 device is a regular file
-58b37196b4fc49e9e31c70529648a207c3817f7b fuse2fs: configure block device block size
-bd22a7039956ef7714aeb94d8c7f0517432c8b05 fuse4fs: separate invalidation
-db3bfd2b1e87428d4532e7fd73cb1c207e3c34ed fuse4fs: disable fs reclaim and write throttling
-e97cc7c660212b0f1cf9cf4b9cce3b666a6c85ae fuse4fs: configure iomap when running as a service
-42f9f6b163c62f444b2433f9de5a302a30be9045 fuse4fs: set iomap backing device blocksize
-7b3491e08b87c8595dd7d8729434335858baaee6 fuse4fs: ask for loop devices when opening via fuservicemount
-28c6a1aa3ce3b9e7408681af206674ecc49e8ea1 fuse2fs: implement statx
-4c798e587027141b692f0ef94ff93155d8a9265d fuse2fs: enable atomic writes
-d437b9e156fcb55fd79ceb2c43917f5b4e789daf fuse2fs: implement freeze and shutdown requests
-1dffec95ced7cec8775cd29ecc350086fcecca0f fuse4fs: don't use inode number translation when possible
-6a0fb4f910c736ebb42e1c218f5637252b73fffe fuse2fs: add strictatime/lazytime mount options
-6d58c6f3fe0a70daa4a1b508be625abeea8769ca fuse2fs: skip permission checking on utimens when iomap is enabled
-0232f169b43708a623ae6aa48f7390bebf7a568c fuse2fs: let the kernel tell us about acl/mode updates
-01ecabd6fd1ce31ba98483bda1e217c54c165e02 fuse2fs: better debugging for file mode updates
-4eb5131bbc024ee43916d3a09a6dc11c5b7b75d0 fuse2fs: debug timestamp updates
-3ef0b706d74497af5a27589ae3b0da5390547339 fuse2fs: use coarse timestamps for iomap mode
-f8ac76666b2bbbebbdd6fafbc1a88f0b117c3650 fuse2fs: add tracing for retrieving timestamps
-63f7d069b0c88a8c49846e4f9aea7bd76a912e91 fuse2fs: enable syncfs
-1f56bceb572f4de02e402637b685be2ea3e195e0 fuse2fs: set sync, immutable, and append at file load time
-0e937b3f09fc50d6e67667f646447a070ccebfc6 fuse4fs: increase attribute timeout in iomap mode
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb libfuse: allow root_nodeid mount option
+f24ef1354f633b89be772dc92bcdbc95189b6fac libfuse: add strictatime/lazytime mount options
+fb77b4aa8c60ee9efa7512fe8eea46fa86673b6f libfuse: set sync, immutable, and append when loading files
 
---===============1356876160852399693==
+--===============7030217522173841102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72e068d037bf-54bcde8b843c.txt
+Content-Disposition: attachment; filename=revlist-e028ac2ffcbd-13cee7c2c413.txt
 
-3da679560e135c0953cb03a78a1348ba62dbf77e fuse2fs: register block devices for use with iomap
-b4f931ecbbd91746d46964ae3351299c6ad71770 fuse2fs: implement directio file reads
-6abf8d1fe5ebffa76dedb19757b10339d663c717 fuse2fs: add extent dump function for debugging
-8ccb8e8607090c2b409399a49bd56e5bb852214f fuse2fs: implement direct write support
-e33afd88b6a75169d04509b51d18f63c91267719 fuse2fs: turn on iomap for pagecache IO
-58d835cad339d40d0013f6605406a9e1005204ae fuse2fs: don't zero bytes in punch hole
-f49f589622779dd45419355351dfe2b9574aa4ea fuse2fs: don't do file data block IO when iomap is enabled
-957dc9f9fb66fa10614cb07e311c5b2bb9a72ec1 fuse2fs: enable file IO to inline data files
-f8d17ed0338fbbf9d66a945d062d94aba26b5604 fuse2fs: set iomap-related inode flags
-b9a6c35f10e375b3ad23214424318a23253eb04b fuse2fs: implement iomap configuration
-664e8024a2fc2ff00055d1223024748d1e82616a fuse2fs: try to create loop device when ext4 device is a regular file
-58b37196b4fc49e9e31c70529648a207c3817f7b fuse2fs: configure block device block size
-bd22a7039956ef7714aeb94d8c7f0517432c8b05 fuse4fs: separate invalidation
-db3bfd2b1e87428d4532e7fd73cb1c207e3c34ed fuse4fs: disable fs reclaim and write throttling
-e97cc7c660212b0f1cf9cf4b9cce3b666a6c85ae fuse4fs: configure iomap when running as a service
-42f9f6b163c62f444b2433f9de5a302a30be9045 fuse4fs: set iomap backing device blocksize
-7b3491e08b87c8595dd7d8729434335858baaee6 fuse4fs: ask for loop devices when opening via fuservicemount
-28c6a1aa3ce3b9e7408681af206674ecc49e8ea1 fuse2fs: implement statx
-4c798e587027141b692f0ef94ff93155d8a9265d fuse2fs: enable atomic writes
-d437b9e156fcb55fd79ceb2c43917f5b4e789daf fuse2fs: implement freeze and shutdown requests
-1dffec95ced7cec8775cd29ecc350086fcecca0f fuse4fs: don't use inode number translation when possible
-6a0fb4f910c736ebb42e1c218f5637252b73fffe fuse2fs: add strictatime/lazytime mount options
-6d58c6f3fe0a70daa4a1b508be625abeea8769ca fuse2fs: skip permission checking on utimens when iomap is enabled
-0232f169b43708a623ae6aa48f7390bebf7a568c fuse2fs: let the kernel tell us about acl/mode updates
-01ecabd6fd1ce31ba98483bda1e217c54c165e02 fuse2fs: better debugging for file mode updates
-4eb5131bbc024ee43916d3a09a6dc11c5b7b75d0 fuse2fs: debug timestamp updates
-3ef0b706d74497af5a27589ae3b0da5390547339 fuse2fs: use coarse timestamps for iomap mode
-f8ac76666b2bbbebbdd6fafbc1a88f0b117c3650 fuse2fs: add tracing for retrieving timestamps
-63f7d069b0c88a8c49846e4f9aea7bd76a912e91 fuse2fs: enable syncfs
-1f56bceb572f4de02e402637b685be2ea3e195e0 fuse2fs: set sync, immutable, and append at file load time
-0e937b3f09fc50d6e67667f646447a070ccebfc6 fuse4fs: increase attribute timeout in iomap mode
-e588463f5d4a3f8776d84bd71a48edcbb082a7d2 fuse2fs: enable caching of iomaps
-209c0ed3278dc14fb6c09f3c068329d0e1179505 fuse2fs: constrain iomap mapping cache size
-fafeb0142cd4e4d9b3c4488ecb2b7e828ad80038 fuse4fs: upsert first file mapping to kernel on open
-54bcde8b843c0f68ae5c6941cb400bc5725cd537 fuse2fs: enable iomap
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb libfuse: allow root_nodeid mount option
+f24ef1354f633b89be772dc92bcdbc95189b6fac libfuse: add strictatime/lazytime mount options
+fb77b4aa8c60ee9efa7512fe8eea46fa86673b6f libfuse: set sync, immutable, and append when loading files
+f549768a945dfbc6afcba564d1d3604e2c701dba example/iomap_ll: create a simple iomap server
+56942d4aff0df58cfdfd7c539856e10d28306494 example/iomap_ll: track block state
+bfacf5612fd29759c7e08f698f867deecee7f432 example/iomap_ll: implement atomic writes
+b248cd7a6b406aea1b0b821a2914f31a2c2b01e2 example/iomap_inline_ll: create a simple server to test inlinedata
+0c3243ff65a06b59cb95765c10359ff72f58efdc example/iomap_ow_ll: create a simple iomap out of place write server
+31b4cf14ce45a6430800d71aab364306c8651794 example/iomap_ow_ll: implement atomic writes
+48ff683bc40e2b935d3895a15e3ca04fcd676354 example/iomap_service_ll: create a sample systemd service fuse server
+cc12f8831437ef22046fa266830d15b739a3f459 libfuse: enable iomap cache management for lowlevel fuse
+ae577483f46b1b634face85568034383b68384f2 libfuse: add upper-level iomap cache management
+2f017d28837c13cce3963cd871bb8f93de90a1bb libfuse: allow constraining of iomap mapping cache size
+f804f25bf5232bb11ed70563f2673f5fb98da715 libfuse: add upper-level iomap mapping cache constraint code
+964ec896c228ff30bd3875c6456919dd6f1f9bd8 libfuse: enable iomap
+98e357f12fd57de057df0bf014e1ab1b15f683b6 example/iomap_ll: cache mappings for later
+9727f7c20e25b67c06a6490afb373b33ec54906f example/iomap_inline_ll: cache iomappings in the kernel
+58f82692680ed5576fcc3d58e632d707c4c0cb41 example/iomap_ow_ll: cache iomappings in the kernel
+13cee7c2c413c9b40989065c01be145a1f349967 example/iomap_service_ll: cache iomappings in the kernel
 
---===============1356876160852399693==
+--===============7030217522173841102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a416a30376da-1dffec95ced7.txt
+Content-Disposition: attachment; filename=revlist-b7d2cb11de54-4cba6bd0edb0.txt
 
-3da679560e135c0953cb03a78a1348ba62dbf77e fuse2fs: register block devices for use with iomap
-b4f931ecbbd91746d46964ae3351299c6ad71770 fuse2fs: implement directio file reads
-6abf8d1fe5ebffa76dedb19757b10339d663c717 fuse2fs: add extent dump function for debugging
-8ccb8e8607090c2b409399a49bd56e5bb852214f fuse2fs: implement direct write support
-e33afd88b6a75169d04509b51d18f63c91267719 fuse2fs: turn on iomap for pagecache IO
-58d835cad339d40d0013f6605406a9e1005204ae fuse2fs: don't zero bytes in punch hole
-f49f589622779dd45419355351dfe2b9574aa4ea fuse2fs: don't do file data block IO when iomap is enabled
-957dc9f9fb66fa10614cb07e311c5b2bb9a72ec1 fuse2fs: enable file IO to inline data files
-f8d17ed0338fbbf9d66a945d062d94aba26b5604 fuse2fs: set iomap-related inode flags
-b9a6c35f10e375b3ad23214424318a23253eb04b fuse2fs: implement iomap configuration
-664e8024a2fc2ff00055d1223024748d1e82616a fuse2fs: try to create loop device when ext4 device is a regular file
-58b37196b4fc49e9e31c70529648a207c3817f7b fuse2fs: configure block device block size
-bd22a7039956ef7714aeb94d8c7f0517432c8b05 fuse4fs: separate invalidation
-db3bfd2b1e87428d4532e7fd73cb1c207e3c34ed fuse4fs: disable fs reclaim and write throttling
-e97cc7c660212b0f1cf9cf4b9cce3b666a6c85ae fuse4fs: configure iomap when running as a service
-42f9f6b163c62f444b2433f9de5a302a30be9045 fuse4fs: set iomap backing device blocksize
-7b3491e08b87c8595dd7d8729434335858baaee6 fuse4fs: ask for loop devices when opening via fuservicemount
-28c6a1aa3ce3b9e7408681af206674ecc49e8ea1 fuse2fs: implement statx
-4c798e587027141b692f0ef94ff93155d8a9265d fuse2fs: enable atomic writes
-d437b9e156fcb55fd79ceb2c43917f5b4e789daf fuse2fs: implement freeze and shutdown requests
-1dffec95ced7cec8775cd29ecc350086fcecca0f fuse4fs: don't use inode number translation when possible
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
 
---===============1356876160852399693==
+--===============7030217522173841102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f0ca326046b-c100853bd241.txt
+Content-Disposition: attachment; filename=revlist-c4c2c619a275-48ff683bc40e.txt
 
-3da679560e135c0953cb03a78a1348ba62dbf77e fuse2fs: register block devices for use with iomap
-b4f931ecbbd91746d46964ae3351299c6ad71770 fuse2fs: implement directio file reads
-6abf8d1fe5ebffa76dedb19757b10339d663c717 fuse2fs: add extent dump function for debugging
-8ccb8e8607090c2b409399a49bd56e5bb852214f fuse2fs: implement direct write support
-e33afd88b6a75169d04509b51d18f63c91267719 fuse2fs: turn on iomap for pagecache IO
-58d835cad339d40d0013f6605406a9e1005204ae fuse2fs: don't zero bytes in punch hole
-f49f589622779dd45419355351dfe2b9574aa4ea fuse2fs: don't do file data block IO when iomap is enabled
-957dc9f9fb66fa10614cb07e311c5b2bb9a72ec1 fuse2fs: enable file IO to inline data files
-f8d17ed0338fbbf9d66a945d062d94aba26b5604 fuse2fs: set iomap-related inode flags
-b9a6c35f10e375b3ad23214424318a23253eb04b fuse2fs: implement iomap configuration
-664e8024a2fc2ff00055d1223024748d1e82616a fuse2fs: try to create loop device when ext4 device is a regular file
-58b37196b4fc49e9e31c70529648a207c3817f7b fuse2fs: configure block device block size
-bd22a7039956ef7714aeb94d8c7f0517432c8b05 fuse4fs: separate invalidation
-db3bfd2b1e87428d4532e7fd73cb1c207e3c34ed fuse4fs: disable fs reclaim and write throttling
-e97cc7c660212b0f1cf9cf4b9cce3b666a6c85ae fuse4fs: configure iomap when running as a service
-42f9f6b163c62f444b2433f9de5a302a30be9045 fuse4fs: set iomap backing device blocksize
-7b3491e08b87c8595dd7d8729434335858baaee6 fuse4fs: ask for loop devices when opening via fuservicemount
-28c6a1aa3ce3b9e7408681af206674ecc49e8ea1 fuse2fs: implement statx
-4c798e587027141b692f0ef94ff93155d8a9265d fuse2fs: enable atomic writes
-d437b9e156fcb55fd79ceb2c43917f5b4e789daf fuse2fs: implement freeze and shutdown requests
-1dffec95ced7cec8775cd29ecc350086fcecca0f fuse4fs: don't use inode number translation when possible
-6a0fb4f910c736ebb42e1c218f5637252b73fffe fuse2fs: add strictatime/lazytime mount options
-6d58c6f3fe0a70daa4a1b508be625abeea8769ca fuse2fs: skip permission checking on utimens when iomap is enabled
-0232f169b43708a623ae6aa48f7390bebf7a568c fuse2fs: let the kernel tell us about acl/mode updates
-01ecabd6fd1ce31ba98483bda1e217c54c165e02 fuse2fs: better debugging for file mode updates
-4eb5131bbc024ee43916d3a09a6dc11c5b7b75d0 fuse2fs: debug timestamp updates
-3ef0b706d74497af5a27589ae3b0da5390547339 fuse2fs: use coarse timestamps for iomap mode
-f8ac76666b2bbbebbdd6fafbc1a88f0b117c3650 fuse2fs: add tracing for retrieving timestamps
-63f7d069b0c88a8c49846e4f9aea7bd76a912e91 fuse2fs: enable syncfs
-1f56bceb572f4de02e402637b685be2ea3e195e0 fuse2fs: set sync, immutable, and append at file load time
-0e937b3f09fc50d6e67667f646447a070ccebfc6 fuse4fs: increase attribute timeout in iomap mode
-e588463f5d4a3f8776d84bd71a48edcbb082a7d2 fuse2fs: enable caching of iomaps
-209c0ed3278dc14fb6c09f3c068329d0e1179505 fuse2fs: constrain iomap mapping cache size
-fafeb0142cd4e4d9b3c4488ecb2b7e828ad80038 fuse4fs: upsert first file mapping to kernel on open
-54bcde8b843c0f68ae5c6941cb400bc5725cd537 fuse2fs: enable iomap
-63a0d5dab8079931fb6cc2c3db300c752e6898db libsupport: add caching IO manager
-4fd1f879d2778b83cb018f17f1f5c29e948aa86a iocache: add the actual buffer cache
-8c7302c094d926b9c168f0f40bde134739b7ec52 iocache: bump buffer mru priority every 50 accesses
-391da72e7ec33adb99411e56900819167245b02c fuse2fs: enable caching IO manager
-deee55710ccd8927aa08fae94993db60014b1464 fuse2fs: increase inode cache size
-35db741652c346d6cce7f8f514c3ebb43033c8ec libext2fs: improve caching for inodes
-3c3ab82832bc25c9cd54dfb0b2e047513da5b7bd libsupport: add pressure stall monitor
-dc0b264891796f815fedb706d6b8f1759f293c88 fuse2fs: only reclaim buffer cache when there is memory pressure
-55b2736e85c95b3ad095dd4694db0313d6932cbd fuse4fs: enable memory pressure monitoring with service containers
-c100853bd2411e52e88a3e152d10220e4f191844 fuse2fs: flush dirty metadata periodically
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb libfuse: allow root_nodeid mount option
+f24ef1354f633b89be772dc92bcdbc95189b6fac libfuse: add strictatime/lazytime mount options
+fb77b4aa8c60ee9efa7512fe8eea46fa86673b6f libfuse: set sync, immutable, and append when loading files
+f549768a945dfbc6afcba564d1d3604e2c701dba example/iomap_ll: create a simple iomap server
+56942d4aff0df58cfdfd7c539856e10d28306494 example/iomap_ll: track block state
+bfacf5612fd29759c7e08f698f867deecee7f432 example/iomap_ll: implement atomic writes
+b248cd7a6b406aea1b0b821a2914f31a2c2b01e2 example/iomap_inline_ll: create a simple server to test inlinedata
+0c3243ff65a06b59cb95765c10359ff72f58efdc example/iomap_ow_ll: create a simple iomap out of place write server
+31b4cf14ce45a6430800d71aab364306c8651794 example/iomap_ow_ll: implement atomic writes
+48ff683bc40e2b935d3895a15e3ca04fcd676354 example/iomap_service_ll: create a sample systemd service fuse server
 
---===============1356876160852399693==--
+--===============7030217522173841102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-689922f3cd38-aac53382f9f9.txt
+
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+
+--===============7030217522173841102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2f7354cfe14e-74f0db08e755.txt
+
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+
+--===============7030217522173841102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-97cc07c29989-8459c9eecd51.txt
+
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+
+--===============7030217522173841102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ca598f04bd24-276f3ac99124.txt
+
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb libfuse: allow root_nodeid mount option
+f24ef1354f633b89be772dc92bcdbc95189b6fac libfuse: add strictatime/lazytime mount options
+fb77b4aa8c60ee9efa7512fe8eea46fa86673b6f libfuse: set sync, immutable, and append when loading files
+f549768a945dfbc6afcba564d1d3604e2c701dba example/iomap_ll: create a simple iomap server
+56942d4aff0df58cfdfd7c539856e10d28306494 example/iomap_ll: track block state
+bfacf5612fd29759c7e08f698f867deecee7f432 example/iomap_ll: implement atomic writes
+b248cd7a6b406aea1b0b821a2914f31a2c2b01e2 example/iomap_inline_ll: create a simple server to test inlinedata
+0c3243ff65a06b59cb95765c10359ff72f58efdc example/iomap_ow_ll: create a simple iomap out of place write server
+31b4cf14ce45a6430800d71aab364306c8651794 example/iomap_ow_ll: implement atomic writes
+48ff683bc40e2b935d3895a15e3ca04fcd676354 example/iomap_service_ll: create a sample systemd service fuse server
+cc12f8831437ef22046fa266830d15b739a3f459 libfuse: enable iomap cache management for lowlevel fuse
+ae577483f46b1b634face85568034383b68384f2 libfuse: add upper-level iomap cache management
+2f017d28837c13cce3963cd871bb8f93de90a1bb libfuse: allow constraining of iomap mapping cache size
+f804f25bf5232bb11ed70563f2673f5fb98da715 libfuse: add upper-level iomap mapping cache constraint code
+964ec896c228ff30bd3875c6456919dd6f1f9bd8 libfuse: enable iomap
+98e357f12fd57de057df0bf014e1ab1b15f683b6 example/iomap_ll: cache mappings for later
+9727f7c20e25b67c06a6490afb373b33ec54906f example/iomap_inline_ll: cache iomappings in the kernel
+58f82692680ed5576fcc3d58e632d707c4c0cb41 example/iomap_ow_ll: cache iomappings in the kernel
+13cee7c2c413c9b40989065c01be145a1f349967 example/iomap_service_ll: cache iomappings in the kernel
+da0bf607e867250e3b579c06056e542d672de131 libfuse: enable iomap stripes for lowlevel fuse
+276f3ac99124698696b36e1df78351a4011e8818 example/iostripe_ll: create a simple iomap stripe server
+
+--===============7030217522173841102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-13aca93b2208-ec77aeff3e74.txt
+
+0c9fd619851018f7f552efa50b09eb0954fc3853 fuse_lowlevel: disable SPLICE_READ when pipe can't reach bufsize
+d999bd63afee30949443dc237e3a1f210d0c43e0 checkpatch.pl: update to linux 7.0
+c708a0ce1c5c91027fa7b442b576f03217e91cfd Merge branch 'master' into fuse-service-container
+93892e469ddb9f5bd3b0923d95410a9d5dba65f7 libfuse: fix cppcheck warnings in the new mount service code
+9fa15c85bf747630c9067c89656f219e39e24fe6 libfuse: bump kernel and library ABI versions
+8e61e77d720a1ee38ada2b47acdc311c9ed6df0e libfuse: store the kernel opcode in the fuse request object
+bcbc89daca09258126d5959bc78e40f79a503651 libfuse: wait in do_destroy until all open files are closed
+7ba6ca2087590dba3e7177aa6c91b766fdc087a0 libfuse: add kernel gates for FUSE_IOMAP
+dfabf0889bb5f81a7760b5ae5afd0172f0e77f0a libfuse: clean up fuse_req_check_allow_root
+538eea6be07224120e6212aba95fcbca4650f9d1 libfuse: add fuse commands for iomap_begin and end
+4e8d702411ddb3fb3a0062dc4e0279105f6bc09d libfuse: add upper level iomap commands
+288c1d8f45a41d5343294954875e7bf8825e76a3 libfuse: add a lowlevel notification to add a new device to iomap
+d02bf93b7241cc2fdbb314a16cb44f11187ff38f libfuse: add upper-level iomap add device function
+f116ef747780301473241be5b333f4b9317a3d51 libfuse: add iomap ioend low level handler
+9498fbbcb4a171cd5283df8fa24467d2878354c0 libfuse: add upper level iomap ioend commands
+4f21c1ef1225cea3dd60a83f2c9e89c88ca9fe09 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+cd6383b8893d94ccaa6688ed9eee2cc9079f1738 libfuse: connect high level fuse library to fuse_reply_attr_iflags
+6f6b7538a0119f03e7261e18961bdcc996aa866f libfuse: support enabling exclusive mode for files
+ac801f061461aab666a7a5d8f19cb6969517eb74 libfuse: create a per-inode flag for toggling iomap
+74f0db08e7552443bf13bde3d277d6af741b3375 libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+def94fd5796ca05bf3bd83219144f9ce96dba5f1 libfuse: allow discovery of the kernel's iomap capabilities
+417e715f32e7bbd6383ffb2df07b3e6827a2dbdc libfuse: add lower level iomap_config implementation
+f9ce2517764a7d60bb19c6a5e27da9f4b12ad535 libfuse: add upper level iomap_config implementation
+694b9279df8635e8ad08c4972d0fd827d610b473 libfuse: add low level code to invalidate iomap backing device ranges
+2adfe6aa3fa057bc39e6aac37277ca02aafcdfdb libfuse: add upper-level API to invalidate parts of an iomap block device
+add5a798424a718eb13dbc93a5a07fe262ca4af5 libfuse: allow disabling of fs memory reclaim and write throttling
+6f21fc9ce40ed36708e7a87cb6b41ccc7fb593a1 libfuse: create a helper to transform an open regular file into an open loopdev
+b2c6faf97c66fe457bfa9e6a13826951ac2b567b mount_service: delegate iomap privilege from mount.service to fuse services
+76c23281c21003a71a1f7eb3839c938b83d5d654 libfuse: enable setting iomap block device block size
+4cba6bd0edb071c92b931e9c22515fac5c57c4c7 mount_service: create loop devices for regular files
+aac53382f9f98edb1cbaa401853da09c0a1f150a libfuse: add swapfile support for iomap files
+aad10893a0f9772e90000dd98f93dba7bc74ff2b libfuse: add atomic write support
+713dd2fa78b51e1c5ed8b7c65186c282960ee643 libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+8459c9eecd51876416aa81b18069920fd94c8041 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+ec77aeff3e74b6ca4cdcb7007d79c6aa9f963cbb libfuse: allow root_nodeid mount option
+
+--===============7030217522173841102==--
