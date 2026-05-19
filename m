@@ -1,17 +1,22 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 19 May 2026 08:45:15 -0000
-Message-Id: <177918031566.104966.3448432341159406526@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5179810494239521788=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 19 May 2026 09:19:54 -0000
+Message-Id: <177918239457.127273.6664873294709933354@gitolite.kernel.org>
+
+--===============5179810494239521788==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.2
+  - ref: refs/heads/for-7.2
     old: 963d7698c2e48a57bc9953c5ac6546e27133012e
     new: 58c7f6a2c3459d5af5770c0c70db8c59dfedfb16
     log: |
@@ -22,3 +27,29 @@ changes:
          ea6ec3343e05f7937a53eb6d7617b3abdb4abc19 spi: ti-qspi: fix use-after-free after DMA setup failure
          58c7f6a2c3459d5af5770c0c70db8c59dfedfb16 spi: Merge up fixes
          
+
+--===============5179810494239521788==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1779182393 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1779182392-7f2349eb4f2a37df6ed801b71637b33a2e3a56de
+
+963d7698c2e48a57bc9953c5ac6546e27133012e 58c7f6a2c3459d5af5770c0c70db8c59dfedfb16 refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoMKzkACgkQJNaLcl1U
+h9BW4wf/a3/k+KblFf4tjJQZwKZCGf01uBviVtFfo+79keGt4REz96OYkOqtKt8i
+Q1jku7yjUy2UaGzbC7C+n/rrHDlVINf4QRfnGnKZCjJNW/YWwCeG7veqcDa5BEk9
+DKhG0Iy88gwxzMmYXGdT5ogU+yp7iinB9Rqq445MMjwqyXbI9L8eZUgaCTomzS8v
+1Wqtb9kKsN8mfCKiTi8op1l/IOwOdQPze+/VnSz5mInE8Sbvk5yJgxGeKDfZ8oqE
+EUVtBAoo2BSLfFF0UbKsdfA3pR0gufz0jAHV10/NcUtHw6FjXDd2hhHEau2/xaUo
+ER/wmWeeVBG1Vb8NkETyEHap6qGeWQ==
+=yVPP
+-----END PGP SIGNATURE-----
+
+--===============5179810494239521788==--
