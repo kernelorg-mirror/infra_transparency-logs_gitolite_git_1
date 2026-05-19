@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6445245581690858610=="
+Content-Type: multipart/mixed; boundary="===============5381835400622763223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 19 May 2026 20:42:21 -0000
-Message-Id: <177922334174.669070.17087294774156652531@gitolite.kernel.org>
+Date: Tue, 19 May 2026 20:42:42 -0000
+Message-Id: <177922336278.669469.7243677574203263479@gitolite.kernel.org>
 
---===============6445245581690858610==
+--===============5381835400622763223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 07f0c6f2576b9e23bf5ec9d1116a1e7a5e15db56
-    new: 996ac191cb6230e689a60f4d7ed79d844a0df671
-    log: revlist-07f0c6f2576b-996ac191cb62.txt
+    old: 996ac191cb6230e689a60f4d7ed79d844a0df671
+    new: 2fb123664e61027830a6752a8e9235e7f7712504
+    log: revlist-996ac191cb62-2fb123664e61.txt
+  - ref: refs/heads/tip/urgent
+    old: b3a189de2c4945d568a6fe4e057cedf1974a9f92
+    new: 71beefb4557dc78c322c96a013fe1ce3742f77fb
+    log: revlist-b3a189de2c49-71beefb4557d.txt
 
---===============6445245581690858610==
+--===============5381835400622763223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07f0c6f2576b-996ac191cb62.txt
+Content-Disposition: attachment; filename=revlist-996ac191cb62-2fb123664e61.txt
+
+98fc093215135205faf89f95591c77726ff338ad Merge branch into tip/master: 'core/urgent'
+71beefb4557dc78c322c96a013fe1ce3742f77fb Merge branch into tip/master: 'x86/urgent'
+5b62335850f0bc3077741c37c6dd2887a1a55ca1 Merge branch into tip/master: 'timers/merge'
+2e98d9e613f45e12b863ddf86fdf03f28eea8a55 Merge branch into tip/master: 'irq/core'
+fbff704d3b5e4b074cd46bbb7c27da9b72e83ec2 Merge branch into tip/master: 'irq/drivers'
+f0d926ba21b43d629c5255e7b68529b29d001d6c Merge branch into tip/master: 'irq/msi'
+89e18b6f5a8b88189983af60a10639ed29e17465 Merge branch into tip/master: 'locking/core'
+76d79f85e987e88dd370f13c1d85c81fe57c8c83 Merge branch into tip/master: 'objtool/core'
+8d065c1ee93f060491bdbae9ef4a4eb3e918e2ab Merge branch into tip/master: 'perf/core'
+02e043fc9fca6c87523ee69b8a5ce28dfb5016fd Merge branch into tip/master: 'sched/core'
+eb3bf93c6909b3c2c134955bb23ff974a3be1f69 Merge branch into tip/master: 'timers/vdso'
+a3b8a4ff517a5f84c2778dac312e969371780f0e Merge branch into tip/master: 'x86/cache'
+56fa850d01fa64cfa75d4ee2399cfcce6b426547 Merge branch into tip/master: 'x86/cleanups'
+e73ab6a1ec1af08f2e32b59d112ef09dd4b569b0 Merge branch into tip/master: 'x86/cpu'
+6a2d706d6576d87ef12a040ea3cab7e45a550b21 Merge branch into tip/master: 'x86/microcode'
+d321a0fc066d67243fa5e084659447c1c230cb82 Merge branch into tip/master: 'x86/misc'
+6fe084047660b023dd8c3eb58d3918e4792c81c8 Merge branch into tip/master: 'x86/mm'
+90c5fe5b12161bbe7363024a16f378a8e4c6d17f Merge branch into tip/master: 'x86/sev'
+2fb123664e61027830a6752a8e9235e7f7712504 Merge branch into tip/master: 'x86/tdx'
+
+--===============5381835400622763223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b3a189de2c49-71beefb4557d.txt
 
 d3894e4e09085bc6450aae6e3d30d13f1b1c8691 ntfs: fix variable dereferenced before check ni and attr in ntfs_attrlist_entry_add()
 47773fa85e470e9896a22a99ccd5b5930d469680 ntfs: use base mft_no when looking up base inode for extent record
@@ -68,11 +98,15 @@ f233124fb36cd57ef09f96d517a38ab4b902e15e ata: libata-scsi: do not use the deferr
 759e8756da00aa115d504a18155b1d1ee1cc12e8 ata: libata-scsi: do not needlessly defer commands when using PMP with FBS
 49f8fcde68898f5033082e8155cd344dd54ef232 modpost: prevent stack buffer overflow in do_input_entry() and do_dmi_entry()
 202550713128da20d9381d6d2dc0f6b73839f434 kbuild: pacman-pkg: make "rc" releases adhere to pacman versioning scheme
+b088fe35019433541225d315263d8477899e0657 x86/vdso: Fix incorrect size in munmap() on map_vdso() failure
 c6e99c10fd9855082568cbd71bb2cc5dc90eda53 Merge tag 'mm-hotfixes-stable-2026-05-18-21-07' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 650d21334c4fbbdbf085b9f542cc530a7d5cd4fd Merge tag 'kbuild-fixes-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 0c0b282d502b1fc5a67740ea1d88b90c042d5727 Merge tag 'ntfs-for-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 1a2ab0feaa23147e347b4d4cb79cb3fc392118eb Merge tag 'v7.1-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+0701c9e17bd903d95b2ddf7dd2e1d8be5027f331 x86/kvm/vmx: Move IRQ/NMI dispatch from KVM into x86 core
+5fcc48d521877c5d83828d715c81f4d169ef97f3 x86/kvm/vmx: Fix VMX vs hrtimer_rearm_deferred()
 27fa82620cbaa89a7fc11ac3057701d598813e87 Merge tag 'ata-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-996ac191cb6230e689a60f4d7ed79d844a0df671 Merge branch 'linus'
+98fc093215135205faf89f95591c77726ff338ad Merge branch into tip/master: 'core/urgent'
+71beefb4557dc78c322c96a013fe1ce3742f77fb Merge branch into tip/master: 'x86/urgent'
 
---===============6445245581690858610==--
+--===============5381835400622763223==--
