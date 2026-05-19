@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 19 May 2026 00:57:42 -0000
-Message-Id: <177915226228.3935087.15560868086662831970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Tue, 19 May 2026 01:01:28 -0000
+Message-Id: <177915248892.3942554.3399984917005497665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: 8cf8b5ae8e093132b0dce0a932af10c9ef077936
-    new: ab5fce87a778cb780a05984a2ca448f2b41aafbf
+  - ref: refs/heads/dev-test
+    old: 70cb1b04715911386bb8306084ba9bde108de17a
+    new: 27eb6827903e502518634d71fa8a3528f383b059
     log: |
-         aa13e4b120f9cf238ad141d8419851f3a7a3fb5f perf trace: Sync linux/socket.h with the kernel source
-         b30e1493e3e27b6795244a472f0bbd07d0dc58fd perf trace: Sync uapi/linux/fs.h with the kernel source
-         ca706027b5bdb37337e1b99752134d592f42f0ea perf trace: Sync uapi/linux/mount.h with the kernel source
-         ad2cd6f9def4899591a75a96f71752e3aadb7579 perf trace: Sync uapi/linux/sched.h with the kernel source
-         be81aed3f7492caa522493f7c67b9c4d3c8924a6 perf build: Add make check-headers target
-         552636b9317c8a843dd4496d77e56976ab48c76b perf trace: Add beautifier script for fsmount flags
-         5a433107fab621f4e7379ccba6e52b5b1601046c perf trace: Update beautifier script for clone flags
-         9a424b62f771a759b040b9be2f3762bad0da283f Merge branch 'perf-upstream'
-         ab5fce87a778cb780a05984a2ca448f2b41aafbf Merge tag 'perf-tools-fixes-for-v7.1-2026-05-18' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+         5b251d2579491174f2950bb4c2e7d1b889bb35e8 f2fs_io: fix length for setxattr
+         1527dbffa936a382d7c4c49a2c1f6acc92ae36ec f2fs_io: support xattr(large_folio)
+         5a51baa8ff8ccd56668ea680b5b11e805bc5a2d5 f2fs_io: use O_RDONLY for fadvise
+         6b123c4d35ba3567d02291d3c1b4c3bd4f105efd fsck.f2fs: add a sanity check in update_data_blkaddr()
+         8b0c58b4e40e1fc23e8ee868f4a3eaec4f7d547b dump.f2fs: macOS does not support lsetxattr
+         27eb6827903e502518634d71fa8a3528f383b059 fsck.f2fs: support to fix inconsistent sit->type of segments in large section
          
