@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 19 May 2026 21:31:49 -0000
-Message-Id: <177922630927.708147.3393138685904251924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 19 May 2026 21:41:28 -0000
+Message-Id: <177922688843.715283.12529951057112050596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/pending
-    old: 0f8d84c51c2fd53235b604472763c18e66bbb30e
-    new: 6b5d7620f9f844b62d553539232cf2bd98b9e913
+  - ref: refs/heads/master
+    old: 9b8176c3788faab876411c2c6ba04f8180e995e3
+    new: 8c0e0d01a548090efa703588e9fd2b5f7c4d4e52
     log: |
-         6b5d7620f9f844b62d553539232cf2bd98b9e913 wifi: ath10k: update outdated comment for renamed ieee80211_tx_status()
+         8c0e0d01a548090efa703588e9fd2b5f7c4d4e52 foo
          
