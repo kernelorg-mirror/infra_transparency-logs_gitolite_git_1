@@ -1,53 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1159500947481382576=="
+Content-Type: multipart/mixed; boundary="===============5285975150682147782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Tue, 19 May 2026 15:01:54 -0000
-Message-Id: <177920291477.404556.4997453034006430255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 19 May 2026 15:04:02 -0000
+Message-Id: <177920304231.405547.4230356753445088302@gitolite.kernel.org>
 
---===============1159500947481382576==
+--===============5285975150682147782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/arm/smmu/bindings
-    old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: 75949eb0265387ba004744320e9bfbc0b918be5e
-    log: |
-         c3f9dabf58bbbd594d9476e241074b607680d89f dt-bindings: arm-smmu: qcom: Add Hawi compatible for Application processor
-         5091bfe5d4c674990e7272ad35616915802842f9 dt-bindings: arm-smmu: qcom: Add compatible for Qualcomm Shikra SoC
-         23bc2dd17b2000912b7ee3a92090ec67e4e572d7 dt-bindings: arm-smmu: Update the description for Glymur GPU SMMU
-         75949eb0265387ba004744320e9bfbc0b918be5e dt-bindings: arm-smmu: Constrain clocks for newer Qualcomm variants
-         
-  - ref: refs/heads/arm/smmu/updates
-    old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: 74fa4c177ad09800b007cba043370c887bb1b4e3
-    log: revlist-5d6919055dec-74fa4c177ad0.txt
+  - ref: refs/heads/master
+    old: ab5fce87a778cb780a05984a2ca448f2b41aafbf
+    new: c6e99c10fd9855082568cbd71bb2cc5dc90eda53
+    log: revlist-ab5fce87a778-c6e99c10fd98.txt
 
---===============1159500947481382576==
+--===============5285975150682147782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d6919055dec-74fa4c177ad0.txt
+Content-Disposition: attachment; filename=revlist-ab5fce87a778-c6e99c10fd98.txt
 
-a6e1618a65d453d4e739e5898c662ccb1e3de6c0 iommu/arm-smmu-qcom: Fix fastrpc compatible string in ACTLR client match table
-8bcad9e3a6742f15d3a8569a987b9ccbefeb4f55 iommu/arm-smmu-qcom: Add glymur MDSS to ACTLR client table
-8a0aab012b52b5c044ca3bec523e91f95dd40765 iommu: arm-smmu-qcom: Ensure smmu is powered up in set_ttbr0_cfg
-2b9f593dad4666998d2440f4a8a6905c90b805dd iommu/arm-smmu-v3: Limit queue allocation retry boundary to PAGE_SIZE
-bf00a29234a46d10b3f6890343f7a6755e5809aa iommu/arm-smmu-v3: Add struct arm_smmu_cmd to represent the HW format command
-f59c5b6858d8a0baa8a0895ec78457ae64770d82 iommu/arm-smmu-v3: Use the HW arm_smmu_cmd in cmdq selection functions
-d455e3a7bf0a7499ec8bcf1b43b1ee14e6e35876 iommu/arm-smmu-v3: Use the HW arm_smmu_cmd in cmdq submission functions
-27e02ca615528866ba98166888cd701b299c0b33 iommu/arm-smmu-v3: Convert arm_smmu_cmdq_batch cmds to struct arm_smmu_cmd
-c5758947cb7b375303cf8f6f7600a445cb992e7d iommu/arm-smmu-v3: Remove CMDQ_OP_CFGI_CD_ALL from arm_smmu_cmdq_build_cmd()
-6e771be45e8a49ae3099607850f3965cfcf952e4 iommu/arm-smmu-v3: Directly encode simple commands
-2eedb906f9c605aa789758f9aa172a930c88944f iommu/arm-smmu-v3: Directly encode CMDQ_OP_ATC_INV
-c3f84707ad4fe9bf579e7fb0785f155a8a52c7e8 iommu/arm-smmu-v3: Directly encode CMDQ_OP_SYNC
-be0d0b8588613e27f7c41f6e7a176842135427f4 iommu/arm-smmu-v3: Directly encode TLBI commands
-74fa4c177ad09800b007cba043370c887bb1b4e3 iommu/arm-smmu-v3-sva: Enable Hardware Access and Hardware Dirty bits
+63451de16e0a08be40f9ab5e7c5c8f5c79676fb1 mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
+d4e7b5c4cc353f154d5ab8bb2e1ce7714d77a6e9 mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
+620072fd783290ad92c2d445a47b0a61b161f352 mm/damon: fix damos_stat tracepoint format for sz_applied
+c416aee7e7d04fec2d2d30786b3c8393108b85d2 scripts/gdb: mm: cast untyped symbols in x86_page_ops
+228e25e33325865ebe589da5366449a8ecf7d0da scripts/gdb: slab: update field names of struct kmem_cache
+3432cbb291aabf85f8af4b9d1ec37179168ff999 selftests/mm: run_vmtests.sh: fix destructive tests invocation
+77dcdff56d0b52947f110e9e43a1fc846ee8d94a MAINTAINERS: add tree for KDUMP and KEXEC
+ec9f2ee9a4046b2d5e5a6b6fa6a2ed1542250e73 MAINTAINERS: add kexec@ list to LIVE UPDATE ENTRY
+6a288a4ddb4a994490505ab5f41c445f8e6b6467 mm/page_alloc: fix initialization of tags of the huge zero folio with init_on_free
+efdadbc180e53fe257a6e85f6bc706cb58088653 lib: kunit_iov_iter: fix test fail on powerpc
+93866f55f7e292fe3d47d36c9efe5ee10213a06b mm/memory_hotplug: fix memory block reference leak on remove
+03a2cc1756a0570f887d624cd6c535ea0cbd4951 drivers/base/memory: fix memory block reference leak in poison accounting
+c0c6ccd9828c3a1950623b546fa57292a77b5c73 mm: fix __vm_normal_page() to handle missing support for pmd_special()/pud_special()
+be3f38d05cc5a7c3f13e51994c5dd043ab604d28 mm/memory: fix spurious warning when unmapping device-private/exclusive pages
+c6e99c10fd9855082568cbd71bb2cc5dc90eda53 Merge tag 'mm-hotfixes-stable-2026-05-18-21-07' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============1159500947481382576==--
+--===============5285975150682147782==--
