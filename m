@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 19 May 2026 01:48:57 -0000
-Message-Id: <177915533700.3980036.5103194132843208162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 19 May 2026 01:55:06 -0000
+Message-Id: <177915570653.3984564.6895260637625789922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 086abf9da661e3da9a9ef40b36963b230ec58112
-    new: f79a0466a46f81e5b42458fcbec033280c841293
+  - ref: refs/heads/master
+    old: 576482b55c19e7ec00e162a0fde4c4f1a95128c7
+    new: 3fc9a70a14d04af603deafa8ba1e42abf542fcd0
     log: |
-         cc199cd1b912dfe30bb1673fb040f6464be00fa1 net/mlx5e: Reduce branches in napi poll
-         425d0e2df5c205db07b2b903ac575044ca948d5b net/mlx5e: Let kTLS RX get async ICOSQ param in napi poll
-         f79a0466a46f81e5b42458fcbec033280c841293 Merge branch 'net-mlx5e-simplify-and-optimize-napi-poll-flow'
+         f05ddc6771c4a2eb1801dfdd0f7a212a78fa18a7 bpf: Check tail zero of bpf_common_attr using offsetofend
+         b4844cb6d1ecff732c99b70998749973c6f50591 libbpf: Add OPTS_VALID() for log_opts in bpf_map_create
+         652f0c2c999d28d820bbe2e1aa16d8e0fea369ea selftests/bpf: Use -1 as token_fd in map create failure test
+         7732ad2412fd402913976e490921f7e792a0a33b selftests/bpf: Add test to verify checking padding bytes for BPF syscall common attributes
+         3fc9a70a14d04af603deafa8ba1e42abf542fcd0 Merge branch 'bpf-follow-up-fixes-for-bpf-syscall-common-attributes'
          
