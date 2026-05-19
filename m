@@ -1,30 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 19 May 2026 10:55:57 -0000
-Message-Id: <177918815745.207869.9392264272396760285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 19 May 2026 11:00:45 -0000
+Message-Id: <177918844553.211693.14404248469523103134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/fixes
-    old: 1854082fe0ddb81bc93d1f8e8a00554217fd09d1
-    new: ea17fc4d7dc2ba6459b1a318962960520201baf1
+  - ref: refs/heads/main
+    old: 5b2bc2e7d14c56e14c59a3d6e7b5b0641dc45c88
+    new: 6b4dd0377487101d15c443ad96675d6832ab7295
     log: |
-         ea17fc4d7dc2ba6459b1a318962960520201baf1 phy: qcom: qmp-usbc: Fix out-of-bounds array access in dp swing config
-         
-  - ref: refs/heads/next
-    old: fd6cd05ceabdf67635a4cef5145f79d1217bf11b
-    new: 293e19f416fa3f233a2fb013258f7abcb39ad6ed
-    log: |
-         f546912bcac6463a22c5825e27a7952f8b48c887 phy: qcom: qmp-combo: Move pipe_clk on/off to common
-         0b31f297557fff0941769e8257198151a0fbe8bf phy: rockchip: naneng-combphy: Consolidate SSC configuration
-         a62d9440ebbce3d9f0bd6c346a7fda2a53726850 dt-bindings: phy: add PHY bindings for the TI DS125DF111 Retimer PHY
-         711f64979e500799b27b33a8f030e2fd939fd07f phy: ti: alphabetically sort Kconfig and Makefile
-         9bf5c16a6e63ebf2803deb32ba984a7fcf2c5ed7 phy: ti: add PHY driver for TI DS125DF111 Dual-Channel Retimer
-         293e19f416fa3f233a2fb013258f7abcb39ad6ed MAINTAINERS: Hand over phy-zynqmp to Tomi Valkeinen
+         87e59b4701ddacdcd56d1133a7a3d0e3269666ae amdgpu: DMCUB updates for various ASICs
+         e2f767553f029b3140a33f954a8f8102ff0dee33 Merge branch 'amd-staging' into 'main'
+         a21fb799c4965557bb4aae6a8edc18b532f5f65e qcom: add CDSP firmware for shikra platform
+         6b4dd0377487101d15c443ad96675d6832ab7295 Merge branch 'robot/pr-0-1779118795' into 'main'
          
