@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 19 May 2026 08:20:54 -0000
-Message-Id: <177917885430.85482.4813588696882257839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 19 May 2026 08:24:11 -0000
+Message-Id: <177917905103.86822.1229978575371145892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: d2529a99eb786122d37f119db6866c788dedb19e
+  - ref: refs/heads/dev
+    old: 8cd872d284e349309504fcee86cd679eb7639884
+    new: 3166f1deef7e9c198425df61c2597085f1b2480c
+    log: |
+         d94880a945af9e7ab2f7b71387a2c7b0ad13f941 erofs-utils: fix unchecked strdup() and harden erofs_fspath()
+         3166f1deef7e9c198425df61c2597085f1b2480c erofs-utils: lib: tar: fix fractional PAX mtime parsing
+         
