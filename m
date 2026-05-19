@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 19 May 2026 14:54:05 -0000
-Message-Id: <177920244565.397696.17783961077921375447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 19 May 2026 14:54:28 -0000
+Message-Id: <177920246885.397951.12420587650202235050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/sched/proxy
-    old: 0000000000000000000000000000000000000000
-    new: bae6202a24c74be2432ecdaeea5c7457aa099858
+  - ref: refs/heads/master
+    old: 8f5b6b4b198ed661ae851daaf9cb94fe285b2648
+    new: 7db62a762f613961a9ed0582902abd0295a385e9
+    log: |
+         7db62a762f613961a9ed0582902abd0295a385e9 Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths
+         
