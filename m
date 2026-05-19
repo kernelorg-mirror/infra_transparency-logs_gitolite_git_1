@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 19 May 2026 01:46:19 -0000
-Message-Id: <177915517918.3978868.16412650442795977952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 19 May 2026 01:48:57 -0000
+Message-Id: <177915533700.3980036.5103194132843208162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 24de2c871272cd5ee05891eeb2802018da292900
-    new: 27930eb32162a5448054008efa75aa88b6101011
+  - ref: refs/heads/main
+    old: 086abf9da661e3da9a9ef40b36963b230ec58112
+    new: f79a0466a46f81e5b42458fcbec033280c841293
     log: |
-         27930eb32162a5448054008efa75aa88b6101011 foo
+         cc199cd1b912dfe30bb1673fb040f6464be00fa1 net/mlx5e: Reduce branches in napi poll
+         425d0e2df5c205db07b2b903ac575044ca948d5b net/mlx5e: Let kTLS RX get async ICOSQ param in napi poll
+         f79a0466a46f81e5b42458fcbec033280c841293 Merge branch 'net-mlx5e-simplify-and-optimize-napi-poll-flow'
          
