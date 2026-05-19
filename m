@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Tue, 19 May 2026 20:46:16 -0000
-Message-Id: <177922357640.672918.9711064721027713751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Tue, 19 May 2026 20:47:38 -0000
+Message-Id: <177922365811.673712.16325085638819197066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: boqun
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/tags/rcu-fixes.v7.1-20260519a
-    old: 0000000000000000000000000000000000000000
-    new: 691c47dddaf6af6d8dd403196f48ef7410ca01bc
+  - ref: refs/heads/patches-in-queue
+    old: ffc8bad17e5b2f56e48dbac43f7c5ae8ac368fe5
+    new: 727e5ab6fb9626ef8c8bf07f396b53ed126776e4
+    log: |
+         748ae5ab407610b1e3fa706c354016cf035e82ec btrfs/340: add support for older kernels/progs
+         727e5ab6fb9626ef8c8bf07f396b53ed126776e4 generic: add a test that stresses metadata eviction
+         
