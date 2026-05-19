@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1685354712015963984=="
+Content-Type: multipart/mixed; boundary="===============9134203456129423707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
-Date: Tue, 19 May 2026 14:07:38 -0000
-Message-Id: <177919965816.362422.17886078029995883873@gitolite.kernel.org>
+Date: Tue, 19 May 2026 14:07:40 -0000
+Message-Id: <177919966096.362531.4167656941653177041@gitolite.kernel.org>
 
---===============1685354712015963984==
+--===============9134203456129423707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
-  - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/for-fixes
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-6de23f81a5e0-254f49634ee1.txt
+    log: revlist-8f0b4cce4481-254f49634ee1.txt
 
---===============1685354712015963984==
+--===============9134203456129423707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============1685354712015963984==--
+--===============9134203456129423707==--
