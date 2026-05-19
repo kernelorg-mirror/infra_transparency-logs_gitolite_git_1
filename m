@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1603258276526962158=="
+Content-Type: multipart/mixed; boundary="===============1171199265116495776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 19 May 2026 20:03:32 -0000
-Message-Id: <177922101212.638197.15255797539493408711@gitolite.kernel.org>
+Date: Tue, 19 May 2026 20:03:34 -0000
+Message-Id: <177922101450.638338.7868988567733482102@gitolite.kernel.org>
 
---===============1603258276526962158==
+--===============1171199265116495776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5db89c99566fc4728cc92e941d8e1975711e24b5
     new: edc502717be153674b0b3eefb8b40734c747c138
     log: revlist-5db89c99566f-edc502717be1.txt
 
---===============1603258276526962158==
+--===============1171199265116495776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ fc5ef4331810b160427ad2d0165dff713e968e9b selftests: mptcp: join: cover ADD_ADDR 
 01ff78e4b3d98689184c52d97f9575dfbdc3b10f selftests: mptcp: drop nanoseconds width specifier
 edc502717be153674b0b3eefb8b40734c747c138 Merge branch 'mptcp-misc-fixes-for-v7-1-rc4'
 
---===============1603258276526962158==--
+--===============1171199265116495776==--
