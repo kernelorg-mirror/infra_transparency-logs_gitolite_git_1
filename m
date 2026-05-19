@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 19 May 2026 09:35:56 -0000
-Message-Id: <177918335631.142269.4027870108897862502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 19 May 2026 09:38:20 -0000
+Message-Id: <177918350036.143624.10874298833689053687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/spacemit-pinctrl
-    old: 77fff9b861f009f94927bf77c147571af2c69250
-    new: e91676b359f4c7241f4ee7b31b2f4854b97f9b7f
+  - ref: refs/heads/stm32-next
+    old: 7ebbcbbee79e66da142dad678ee4b17e730e2b1f
+    new: 9c2be60e829e6661ebfaccef7fd6381387789265
     log: |
-         8ec0798f9fe0ff7fade556516e51b7cfd29d9e69 pinctrl: spacemit: delete spacemit_pctrl_check_power()
-         e91676b359f4c7241f4ee7b31b2f4854b97f9b7f pinctrl: spacemit: move over to generic pinmux dt_node_to_map implementation
+         9c2be60e829e6661ebfaccef7fd6381387789265 ARM: dts: stm32: add board pin documentation stm32mp135f-dk
          
