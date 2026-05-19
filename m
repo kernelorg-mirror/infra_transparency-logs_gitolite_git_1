@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 19 May 2026 18:05:04 -0000
-Message-Id: <177921390404.551520.7600257104283744359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 19 May 2026 18:26:26 -0000
+Message-Id: <177921518671.566529.1281439081659728112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: 5650e15ede6924207bb5ddf42682ab7451b360bb
-    new: 01b9cae706161a39452a2cce0f281d4369344c51
+  - ref: refs/heads/x86/urgent
+    old: b088fe35019433541225d315263d8477899e0657
+    new: 5fcc48d521877c5d83828d715c81f4d169ef97f3
     log: |
-         01b9cae706161a39452a2cce0f281d4369344c51 firmware: arm_ffa: Honor partition info descriptor size
+         0701c9e17bd903d95b2ddf7dd2e1d8be5027f331 x86/kvm/vmx: Move IRQ/NMI dispatch from KVM into x86 core
+         5fcc48d521877c5d83828d715c81f4d169ef97f3 x86/kvm/vmx: Fix VMX vs hrtimer_rearm_deferred()
          
