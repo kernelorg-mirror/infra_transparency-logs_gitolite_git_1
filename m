@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Tue, 19 May 2026 20:30:08 -0000
-Message-Id: <177922260827.660846.13675532226389556631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 19 May 2026 20:42:05 -0000
+Message-Id: <177922332534.668816.8035816295687250939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 2984702b77ea5f073bf7d08ee287658295a1ab96
-    new: 19dd01792e32930b6b776c4b83e3429f690df881
+  - ref: refs/heads/master
+    old: a20d3235c1d7caadaa4ea0e171a7f4fe1235f822
+    new: 07f0c6f2576b9e23bf5ec9d1116a1e7a5e15db56
     log: |
-         19dd01792e32930b6b776c4b83e3429f690df881 tuna: Fix setuptools deprecation warnings for license field
+         b088fe35019433541225d315263d8477899e0657 x86/vdso: Fix incorrect size in munmap() on map_vdso() failure
+         0701c9e17bd903d95b2ddf7dd2e1d8be5027f331 x86/kvm/vmx: Move IRQ/NMI dispatch from KVM into x86 core
+         5fcc48d521877c5d83828d715c81f4d169ef97f3 x86/kvm/vmx: Fix VMX vs hrtimer_rearm_deferred()
+         07f0c6f2576b9e23bf5ec9d1116a1e7a5e15db56 Merge branch into tip/master: 'x86/urgent'
          
