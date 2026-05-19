@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 19 May 2026 07:27:47 -0000
-Message-Id: <177917566730.32633.13179927189110500832@gitolite.kernel.org>
+Date: Tue, 19 May 2026 07:37:05 -0000
+Message-Id: <177917622578.39762.2441145403782731464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/for-next
-    old: ff924be62bd22672e0f0953c707ca16cd0b0af96
-    new: ec113b642a755353fc398414c35d4bc2f36e9765
+    old: ec113b642a755353fc398414c35d4bc2f36e9765
+    new: 34823b524b5fd6f422862f4922fd5c568e02124a
     log: |
-         0d575a4b7388cdf57b80abe2e72dce7b5fef5e73 fbdev: sm712: Fix operator precedence in big_swap macro
-         ec113b642a755353fc398414c35d4bc2f36e9765 fbdev: matroxfb/ssd1307fb: Use named initializers for struct i2c_device_id
+         34823b524b5fd6f422862f4922fd5c568e02124a fbdev: chipsfb: add missing MODULE_DESCRIPTION() macro
          
