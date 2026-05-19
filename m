@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1114160631252797873=="
+Content-Type: multipart/mixed; boundary="===============3438272648340689840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Tue, 19 May 2026 14:07:09 -0000
-Message-Id: <177919962904.361828.13223151206940494718@gitolite.kernel.org>
+Date: Tue, 19 May 2026 14:07:17 -0000
+Message-Id: <177919963743.362136.10993314331192359996@gitolite.kernel.org>
 
---===============1114160631252797873==
+--===============3438272648340689840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-fixes
-    old: 93a1b86f51c8c552db86216f065af42cadf5595d
+  - ref: refs/heads/for-next
+    old: 8d48419d141cb39679a3a01782db3241660704a5
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-93a1b86f51c8-254f49634ee1.txt
+    log: revlist-8d48419d141c-254f49634ee1.txt
 
---===============1114160631252797873==
+--===============3438272648340689840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93a1b86f51c8-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-8d48419d141c-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============1114160631252797873==--
+--===============3438272648340689840==--
