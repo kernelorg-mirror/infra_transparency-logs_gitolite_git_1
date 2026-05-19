@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2834375318679999276=="
+Content-Type: multipart/mixed; boundary="===============3915528741414323886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 19 May 2026 08:17:19 -0000
-Message-Id: <177917863974.80953.10191430830470496049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 19 May 2026 08:17:23 -0000
+Message-Id: <177917864335.81152.16894310782438025425@gitolite.kernel.org>
 
---===============2834375318679999276==
+--===============3915528741414323886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: e0014849e9af1e08aaaf2b7bc26b1918d8275f24
     new: e76ccf19e22a74309bb9c14e64bb97ade3c5fee8
     log: revlist-e0014849e9af-e76ccf19e22a.txt
 
---===============2834375318679999276==
+--===============3915528741414323886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1779178637 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1779178637-daba1c2a4c8edd0db8194cba8d689eeda03c3828
+pusher C3F436CA30F5D8EB 1779178641 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1779178640-200deb3dc21eb95fbd047dcfbd6de11723e473c4
 
-e0014849e9af1e08aaaf2b7bc26b1918d8275f24 e76ccf19e22a74309bb9c14e64bb97ade3c5fee8 refs/heads/for-7.2
+e0014849e9af1e08aaaf2b7bc26b1918d8275f24 e76ccf19e22a74309bb9c14e64bb97ade3c5fee8 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoMHI0ACgkQJNaLcl1U
-h9Cc6gf+I5rvANye90ajrq4ALslIvGIyJQGwbUM1XTzSXI2Qb5mGJD9ll5bpmLbQ
-mlyF78V4pU6709mzJ/cyN+IOWV/vSyTboeu7h8GBprpllssDSURxzQH5y9j8jgZZ
-0KNI2fv/kMhwJ1JNLY4B0jUSyrUfvtgxp746GTlKQPyUld1k0H2FqVNlqr0sn2x4
-yXNqbWGLVDXvms9c2F2EZjrJK9bR35GN5xLWEobNDnLFePGMMS4xQtOXd5EajE/8
-EHidlkamOY5PW3U26Cs5f1EmodUTcL4JI7/Oh5pjgwmdIIds0aiC6UX2QXK9DHa+
-CcUUYvQVd5BZqQTcNGFAqSnJdDkFsA==
-=8QDR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoMHJEACgkQJNaLcl1U
+h9AGxgf+O4BN1QqRI14hMbZdCmzjrNt7HP8pVwXC8eUMyvNa5Vlq6HEfVKI6M1eb
+SMCEvqRngxAgrYes7tIik4iJNVYXfFFUo7z+dCWsZ9KmDQmTM7XMxLVAT/sF3iIw
+1nNAB5lnzOsymwbl0jmzCvAxNAdVH8pmZL0xexeyMAurriNaIlvwRMe0vrH6fzXL
+NFED+FA4ajL1AdPazDMt3dcdiFSSphvHZ6+5qjxMxuXitAmZwa2FnXHl0nVXEGWi
+IxorH2kFx2mRWWLSPMP10Dr79ffDYKhtrTt8HmgT5XU3F4KSv68jm8SYYNvHsL0o
+iJIIi7iFC5aK6NH8YPdzCXKEqA04Fg==
+=/LO7
 -----END PGP SIGNATURE-----
 
---===============2834375318679999276==
+--===============3915528741414323886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -499,4 +499,4 @@ fb757dfa039fd2adaab5bf0de2df1530531b4060 ASoC: simple-amplifier: gpio-audio-amp:
 5bd8c4b7d3bbe03a56f915f5da95330cb74fa3f6 MAINTAINERS: Add the ASoC gpio audio amplifier entry
 e76ccf19e22a74309bb9c14e64bb97ade3c5fee8 ASoC: Add support for GPIOs driven amplifiers
 
---===============2834375318679999276==--
+--===============3915528741414323886==--
