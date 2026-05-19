@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2386089905799598141=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 19 May 2026 12:09:18 -0000
-Message-Id: <177919255822.268182.7270879252412033139@gitolite.kernel.org>
-
---===============2386089905799598141==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Tue, 19 May 2026 12:11:19 -0000
+Message-Id: <177919267926.271221.16973220437684631545@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
   - ref: refs/heads/master
-    old: 26bb51349c38775477f8280fefe3777ea74f8875
-    new: bbcdd24ef260276a9e2192aa9adb35e6bb039d25
+    old: 5a3d01a7ea635ce6897cd6cb442e2b555b1569d0
+    new: 37aeb67b036b6e4f6e2ba40e46e1ac710292336b
     log: |
-         bbcdd24ef260276a9e2192aa9adb35e6bb039d25 7.0-stable patches
+         6699adc22a220e2a43bb3ec85814f6114fca5b70 wifi: iwlwifi: fix a typo
+         db8b3e19459276756c2df2a5f1e09ceb63f20901 [BUGFIX] wifi: mac80211: recalculate rx_nss on IBSS peer capability update
+         7266689cda9966950462b099647f31fee57bfa55 wifi: mac80211: Route (Re)association req/response to per-STA queue
+         ce2f8b7e1a11a98026e53c0a6730f50e12f4fe8e wifi: iwlwifi: remove orphaned DC2DC config enum
+         37aeb67b036b6e4f6e2ba40e46e1ac710292336b [BUGFIX] wifi: iwlwifi: pcie: simplify the resume flow if fast resume is not used
          
-
---===============2386089905799598141==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779192512 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1779192556-615eac5ae89b210fe1d6626c7e396f3f50ef9373
-
-26bb51349c38775477f8280fefe3777ea74f8875 bbcdd24ef260276a9e2192aa9adb35e6bb039d25 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoMUsAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QrcP/39znzRODIBE42R3kh6Z
-KPbEX2/bxvjwA4jCN7SDh46MO2VXfVwuvJm6bFK6e0EqDXiyRig6bgp4I+qplC6a
-yePh/ws5z+d695BSot0XAHJmJPhQOFfFBSOtksF6XSy8JiUt1ZdlBv35Rj5rndH8
-87IuMzjB22Eo2tvRAV311Jp3KrvFfHc3bcVDXRTGTV+kXW52aBdDySU/gsywJBa1
-1XzvtqQC8OpmQWQheIJrBosdvyGOrEdEgeSs87FdpllXlG4yFnrysAkCdlzcelT7
-dnaQQ6v2shVCRL5uM2XvEKKvx7wnezlbfHXBJE0L6h6j2LwCWvQGp/1NP/vhh85A
-HVr2cpJreLywCrNgFzkmL7/esJF/HFjorSYy8Ls12SGKGkd8eChbJzO5xmQS4jcX
-3a5BDB7IqEiaU4RQlTZ4skvjjfJB/euFL7uXdhd+bIsCzn33t5zloh47706pTcNc
-UEjfi58SXR/YI9Ob1ldEw/WkOhR5q/yvBAgWx/NDGLTgdGrq/i3rIpXry5e6+mEB
-QcWhCMDU2z95BdGNUJyDgayPJVLzfPNt52bBGIWWXs+zv3Xuc/O0Mbh0SjnaqHYh
-z/Kf1algjJWr4cYg6fKVYHgpwX8798bdXgmeMcy9Qq0ONBNXvFNPCsauuvJ5yEoc
-wB4lpZ9NxbXtOFloqOL+XTOp
-=xJ1/
------END PGP SIGNATURE-----
-
---===============2386089905799598141==--
