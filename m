@@ -1,67 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============5479416219099315593=="
+Content-Type: multipart/mixed; boundary="===============5728051585566899056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 20 May 2026 10:08:49 -0000
-Message-Id: <177927172953.1279154.2751098098374147434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Wed, 20 May 2026 10:09:08 -0000
+Message-Id: <177927174875.1279566.13497734600828522685@gitolite.kernel.org>
 
---===============5479416219099315593==
+--===============5728051585566899056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+user: chao
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 841ff62aa5f85b13771b33e7b9c102cbaf87432f
-    new: 53a8f95cbb407608ef77a864ad4a59f25ddd906c
-    log: revlist-841ff62aa5f8-53a8f95cbb40.txt
+  - ref: refs/heads/wip
+    old: e718c5d7c2cea56b01b8261910cdf713bfa227f8
+    new: bd436e65b36d7a29a01cc56114548c2f01350790
+    log: revlist-e718c5d7c2ce-bd436e65b36d.txt
 
---===============5479416219099315593==
+--===============5728051585566899056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e718c5d7c2ce-bd436e65b36d.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779271727 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1779271725-6f92347c627bde5063128521d18957af94e1ec6e
+63e248baf25ef0d98a06a70c6601e163706ae870 f2fs-tools: fix heap-buffer-overflow of reading SSA from checkpoint area
+773302099d1cb07289be4ba315a3196a781dc2d1 fsck.f2fs: Check and clear invalid dent flag during recovery
+7d488957b24f00e9d8d85d1052421273fe76b0f1 f2fs-tools: optimize the addrs_per_block/inode loop
+83903116f5f3516c1d3ffe41c844b44f518a966f f2fs-tools: handle total_sectors is zero
+e6d9091c89851a2d7740669d368e50ecb1d4a15a f2fs-tools: fix division-by-zero exception during formatting of undersized devices
+70d62b1bf76f14a72e1023338503db6926a0b1f7 f2fs_io: defrag_file supports automatic file length handling
+f987479b129d6000dddb710ed35e9b3f64348070 resize.f2fs: fix to avoid zeroing main area blocks in migrate_ssa()
+973f7c1cbb4b9012ec86e053081530b13a00f323 resize.f2fs: clean up the code in migrate_ssa()
+726048fb68142df27b4a89c9a1ad9cd7f94b1e3d resize.f2fs: add more logs in migrate_ssa()
+44ba8327c9991d01e0aa1f42671bc522b5213fe4 f2fs-tools: fix to use HDIO_GETGEO instead of HDIO_GETGIO
+c949acc29a5a8705285263f630a7d830adba772c f2fs-tools: fix to avoid uninitialized variable access
+c188a3e303d9c158b0b6fd2536872a9d79e9e8f9 f2fs-tools: invalidate block device page cache before reading metadata
+77ac51a2859f7c172f7b71b022ebebe566ef019e f2fs_io: add flags parameter to fiemap subcommand
+952551eabadc302141daf0a900951497d200dd9a fsck.f2fs: recognize STOP_CP_REASON_READ_{META,NODE,DATA}
+5b251d2579491174f2950bb4c2e7d1b889bb35e8 f2fs_io: fix length for setxattr
+1527dbffa936a382d7c4c49a2c1f6acc92ae36ec f2fs_io: support xattr(large_folio)
+5a51baa8ff8ccd56668ea680b5b11e805bc5a2d5 f2fs_io: use O_RDONLY for fadvise
+6b123c4d35ba3567d02291d3c1b4c3bd4f105efd fsck.f2fs: add a sanity check in update_data_blkaddr()
+8b0c58b4e40e1fc23e8ee868f4a3eaec4f7d547b dump.f2fs: macOS does not support lsetxattr
+bd436e65b36d7a29a01cc56114548c2f01350790 fsck.f2fs: support to fix inconsistent sit->type of segments in large section
 
-841ff62aa5f85b13771b33e7b9c102cbaf87432f 53a8f95cbb407608ef77a864ad4a59f25ddd906c refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCag2IMAAKCRBZrE9hU+XO
-MTKnAQD/BQjcU4dxWeI7nmSlAbxMjFl2xS+1Xxa58O5Ulee0eAD/a3O3krGdCSOZ
-qogTDD1x392cFWauLKjvBVnuWF3Hzwg=
-=Pu5X
------END PGP SIGNATURE-----
-
---===============5479416219099315593==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-841ff62aa5f8-53a8f95cbb40.txt
-
-dc334b9bf9d28070f7a3e413fead759abdce19ba platform/x86: acer-wireless: Check ACPI_COMPANION() against NULL
-08f29dc34d1cf39696d04bc1ff31538dc2d74c72 platform/x86: asus-laptop: Check ACPI_COMPANION() against NULL
-8a17c62b02fc4baa02300b57a2ad882c7a06a984 platform/x86: dell/dell-rbtn: Check ACPI_COMPANION() against NULL
-814830394764cef79c506629edd55f072e0207d1 platform/x86: eeepc-laptop: Check ACPI_COMPANION() against NULL
-e99829a15989d58ffe1ee3e283e0a5eb8e41ee8b platform/x86: fujitsu: Check ACPI_COMPANION() against NULL
-ab743c6d7b118235f6d48a513a6560afbc5e615a platform/x86: fujitsu-tablet: Check ACPI_COMPANION() against NULL
-51e91ad0a0ccb0906306c653f9e8b97a180d8608 platform/x86: intel/rst: Check ACPI_COMPANION() against NULL
-922952f2bbcfe21375973d0ea0e662a1a4837b10 platform/x86: intel/smartconnect: Check ACPI_HANDLE() against NULL
-7e169326c2263ebc4878baae536c956fa3118eff platform/x86: lg-laptop: Check ACPI_COMPANION() against NULL
-f15b0a3043f193677903be52d7dbef3d5c8df282 platform/x86: panasonic-laptop: Check ACPI_COMPANION() against NULL
-f2ec69363fb52fbb2010e5edbec2b8ca0951aadf platform/x86: sony-laptop: Check ACPI_COMPANION() against NULL
-840bcd6bd5bcbc807b679e367ae7a148a1f07370 platform/x86: system76: Check ACPI_COMPANION() against NULL
-0978824a64f160f1d2e8dc821a522ad91e7b4215 platform/x86: toshiba_acpi: Check ACPI_COMPANION() against NULL
-48b06fffb16901237dc0acbb0474a54b3cc5730f platform/x86: toshiba_bluetooth: Check ACPI_COMPANION() against NULL
-4840f8bb3e9aad183e707950f24f829fd220eb07 platform/x86: toshiba_haps: Check ACPI_COMPANION() against NULL
-53a8f95cbb407608ef77a864ad4a59f25ddd906c platform/x86: wireless-hotkey: Check ACPI_COMPANION() against NULL
-
---===============5479416219099315593==--
+--===============5728051585566899056==--
