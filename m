@@ -1,50 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5728051585566899056=="
+Content-Type: multipart/mixed; boundary="===============6702698382658445121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Wed, 20 May 2026 10:09:08 -0000
-Message-Id: <177927174875.1279566.13497734600828522685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 20 May 2026 10:20:17 -0000
+Message-Id: <177927241714.1289036.2084524134312974412@gitolite.kernel.org>
 
---===============5728051585566899056==
+--===============6702698382658445121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/f2fs-tools
-user: chao
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/wip
-    old: e718c5d7c2cea56b01b8261910cdf713bfa227f8
-    new: bd436e65b36d7a29a01cc56114548c2f01350790
-    log: revlist-e718c5d7c2ce-bd436e65b36d.txt
+  - ref: refs/heads/timers/el2-vtimer
+    old: 68f053db5f31333d06942ebb297bc836f98ad062
+    new: fa80be22991e2695b984adff2b3a08774f6cf114
+    log: revlist-68f053db5f31-fa80be22991e.txt
 
---===============5728051585566899056==
+--===============6702698382658445121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e718c5d7c2ce-bd436e65b36d.txt
+Content-Disposition: attachment; filename=revlist-68f053db5f31-fa80be22991e.txt
 
-63e248baf25ef0d98a06a70c6601e163706ae870 f2fs-tools: fix heap-buffer-overflow of reading SSA from checkpoint area
-773302099d1cb07289be4ba315a3196a781dc2d1 fsck.f2fs: Check and clear invalid dent flag during recovery
-7d488957b24f00e9d8d85d1052421273fe76b0f1 f2fs-tools: optimize the addrs_per_block/inode loop
-83903116f5f3516c1d3ffe41c844b44f518a966f f2fs-tools: handle total_sectors is zero
-e6d9091c89851a2d7740669d368e50ecb1d4a15a f2fs-tools: fix division-by-zero exception during formatting of undersized devices
-70d62b1bf76f14a72e1023338503db6926a0b1f7 f2fs_io: defrag_file supports automatic file length handling
-f987479b129d6000dddb710ed35e9b3f64348070 resize.f2fs: fix to avoid zeroing main area blocks in migrate_ssa()
-973f7c1cbb4b9012ec86e053081530b13a00f323 resize.f2fs: clean up the code in migrate_ssa()
-726048fb68142df27b4a89c9a1ad9cd7f94b1e3d resize.f2fs: add more logs in migrate_ssa()
-44ba8327c9991d01e0aa1f42671bc522b5213fe4 f2fs-tools: fix to use HDIO_GETGEO instead of HDIO_GETGIO
-c949acc29a5a8705285263f630a7d830adba772c f2fs-tools: fix to avoid uninitialized variable access
-c188a3e303d9c158b0b6fd2536872a9d79e9e8f9 f2fs-tools: invalidate block device page cache before reading metadata
-77ac51a2859f7c172f7b71b022ebebe566ef019e f2fs_io: add flags parameter to fiemap subcommand
-952551eabadc302141daf0a900951497d200dd9a fsck.f2fs: recognize STOP_CP_REASON_READ_{META,NODE,DATA}
-5b251d2579491174f2950bb4c2e7d1b889bb35e8 f2fs_io: fix length for setxattr
-1527dbffa936a382d7c4c49a2c1f6acc92ae36ec f2fs_io: support xattr(large_folio)
-5a51baa8ff8ccd56668ea680b5b11e805bc5a2d5 f2fs_io: use O_RDONLY for fadvise
-6b123c4d35ba3567d02291d3c1b4c3bd4f105efd fsck.f2fs: add a sanity check in update_data_blkaddr()
-8b0c58b4e40e1fc23e8ee868f4a3eaec4f7d547b dump.f2fs: macOS does not support lsetxattr
-bd436e65b36d7a29a01cc56114548c2f01350790 fsck.f2fs: support to fix inconsistent sit->type of segments in large section
+f80cf897d2e3b7507a953efc3b24012cff52f85e arm64: dts: allwinner: Add EL2 virtual timer interrupt
+c5d56e90e1a04b1512185a476f5a0d77b0bebbff arm64: dts: amlogic: Add EL2 virtual timer interrupt
+03fb21719d2caf5f9e92f1b1898f937b849a8b7f arm64: dts: bst: Add EL2 virtual timer interrupt
+68480dfa238e5f16f97114636870ff6dcc3e9524 arm64: dts: exynos: Add EL2 virtual timer interrupt
+23cd29b5b89bb8bf3371c0d3b95ab6759381246a arm64: dts: freescale: Add EL2 virtual timer interrupt
+74f2e6e488e4f10c8ef6381bc8b26e3ed0880055 arm64: dts: intel: Add EL2 virtual timer interrupt
+3ffaa4aa21d7af0d1c7bb1225f80a58c6de38a4c arm64: dts: mediatek: Add EL2 virtual timer interrupt
+723ef85b9ecd434bdd381996eb267d6deb24d7ed arm64: dts: nvidia: Add EL2 virtual timer interrupt
+c6073e6175b44abd18ed765d470bfd46b1d44d75 arm64: dts: qcom: Add EL2 virtual timer interrupt
+1433071d9568f5933b57b3608a80afeccff1b30c arm64: dts: realtek: Add EL2 virtual timer interrupt
+8fbc3d0827bf0fcf3d895e0929e9f7f82e4e4159 arm64: dts: rockchip: Add EL2 virtual timer interrupt
+fec7a391760a8d36adf8c7c490b63190b0415696 arm64: dts: sprd: Add EL2 virtual timer interrupt
+d3dc3e3a21f1366d5158ce21585fe3a340d98eea arm64: dts: xilinx: Add EL2 virtual timer interrupt
+fa80be22991e2695b984adff2b3a08774f6cf114 arm64: dts: qcom: Add missing EL2 physical timer interrupt
 
---===============5728051585566899056==--
+--===============6702698382658445121==--
