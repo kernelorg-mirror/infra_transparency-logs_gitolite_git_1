@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8101749354900410622=="
+Content-Type: multipart/mixed; boundary="===============5479416219099315593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 20 May 2026 10:08:41 -0000
-Message-Id: <177927172152.1278932.1237376354987728787@gitolite.kernel.org>
+Date: Wed, 20 May 2026 10:08:49 -0000
+Message-Id: <177927172953.1279154.2751098098374147434@gitolite.kernel.org>
 
---===============8101749354900410622==
+--===============5479416219099315593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,52 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: d1f01dfa7f1fda58a95846dc2c5ce50a71e18580
-    new: 5fdac9983681f743cfaa89414ea154a2c5fd39c4
-    log: revlist-d1f01dfa7f1f-5fdac9983681.txt
+  - ref: refs/heads/review-ilpo-fixes
+    old: 841ff62aa5f85b13771b33e7b9c102cbaf87432f
+    new: 53a8f95cbb407608ef77a864ad4a59f25ddd906c
+    log: revlist-841ff62aa5f8-53a8f95cbb40.txt
 
---===============8101749354900410622==
+--===============5479416219099315593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779271718 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779271727 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1779271716-4776a49816422e94ce215f8b4779e33beec4ed92
+nonce 1779271725-6f92347c627bde5063128521d18957af94e1ec6e
 
-d1f01dfa7f1fda58a95846dc2c5ce50a71e18580 5fdac9983681f743cfaa89414ea154a2c5fd39c4 refs/heads/review-ilpo-next
+841ff62aa5f85b13771b33e7b9c102cbaf87432f 53a8f95cbb407608ef77a864ad4a59f25ddd906c refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCag2IKAAKCRBZrE9hU+XO
-MUuvAQC61mvO7BHb1ZLjuSyyhJqTWSrTY+V3jpepBwNvKnjViAD/fnVngRhb/ig7
-1Z8DCAwBq4aXlbI9kf/3VDysFhTajwE=
-=gxiF
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCag2IMAAKCRBZrE9hU+XO
+MTKnAQD/BQjcU4dxWeI7nmSlAbxMjFl2xS+1Xxa58O5Ulee0eAD/a3O3krGdCSOZ
+qogTDD1x392cFWauLKjvBVnuWF3Hzwg=
+=Pu5X
 -----END PGP SIGNATURE-----
 
---===============8101749354900410622==
+--===============5479416219099315593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1f01dfa7f1f-5fdac9983681.txt
+Content-Disposition: attachment; filename=revlist-841ff62aa5f8-53a8f95cbb40.txt
 
-5cfb132da0afd3a711e2d5279243100102d2e836 platform/x86: xo15-ebook: Use devres-based resource management
-a4173887605121f61a5222911b11ac598336618e docs: fix typo in uniwill-laptop.rst
-4baf44b4051940ba1abc68ef5136d25cb1806521 platform/x86: classmate-laptop: Address memory leaks on driver removal
-87b3892ddc3ac5c62eaa97a1662f6f996d6d4870 platform/x86: classmate-laptop: Unify probe rollback and remove code
-daca81d9ead06d85b749d6036ea8c4940e7ac128 platform/x86: classmate-laptop: Pass struct device pointer to helpers
-5658770e6eb5d9cf8d077054120545a98d7316ee platform/x86: classmate-laptop: Rename two helper functions
-b32123a11dd706c3d0eaa48306a6000666ec11fe platform/x86: classmate-laptop: Register ACPI notify handlers directly
-1588b83ad9b95dfa0bc3b9c22eb2608b64e1a3c5 platform/x86: classmate-laptop: Convert v4 accel driver to a platform one
-e51effb3cefe1bffa1afdee6ee5e93ded1746606 platform/x86: classmate-laptop: Convert accel driver to a platform one
-0fd6639706b79c0fbb5c0205aebfbbfd40ec44b0 platform/x86: classmate-laptop: Convert tablet driver to a platform one
-069b06f8dfc9821fa54f0c5109ebbde891ea363a platform/x86: classmate-laptop: Convert ipml driver to a platform one
-5fdac9983681f743cfaa89414ea154a2c5fd39c4 platform/x86: classmate-laptop: Convert keys driver to a platform one
+dc334b9bf9d28070f7a3e413fead759abdce19ba platform/x86: acer-wireless: Check ACPI_COMPANION() against NULL
+08f29dc34d1cf39696d04bc1ff31538dc2d74c72 platform/x86: asus-laptop: Check ACPI_COMPANION() against NULL
+8a17c62b02fc4baa02300b57a2ad882c7a06a984 platform/x86: dell/dell-rbtn: Check ACPI_COMPANION() against NULL
+814830394764cef79c506629edd55f072e0207d1 platform/x86: eeepc-laptop: Check ACPI_COMPANION() against NULL
+e99829a15989d58ffe1ee3e283e0a5eb8e41ee8b platform/x86: fujitsu: Check ACPI_COMPANION() against NULL
+ab743c6d7b118235f6d48a513a6560afbc5e615a platform/x86: fujitsu-tablet: Check ACPI_COMPANION() against NULL
+51e91ad0a0ccb0906306c653f9e8b97a180d8608 platform/x86: intel/rst: Check ACPI_COMPANION() against NULL
+922952f2bbcfe21375973d0ea0e662a1a4837b10 platform/x86: intel/smartconnect: Check ACPI_HANDLE() against NULL
+7e169326c2263ebc4878baae536c956fa3118eff platform/x86: lg-laptop: Check ACPI_COMPANION() against NULL
+f15b0a3043f193677903be52d7dbef3d5c8df282 platform/x86: panasonic-laptop: Check ACPI_COMPANION() against NULL
+f2ec69363fb52fbb2010e5edbec2b8ca0951aadf platform/x86: sony-laptop: Check ACPI_COMPANION() against NULL
+840bcd6bd5bcbc807b679e367ae7a148a1f07370 platform/x86: system76: Check ACPI_COMPANION() against NULL
+0978824a64f160f1d2e8dc821a522ad91e7b4215 platform/x86: toshiba_acpi: Check ACPI_COMPANION() against NULL
+48b06fffb16901237dc0acbb0474a54b3cc5730f platform/x86: toshiba_bluetooth: Check ACPI_COMPANION() against NULL
+4840f8bb3e9aad183e707950f24f829fd220eb07 platform/x86: toshiba_haps: Check ACPI_COMPANION() against NULL
+53a8f95cbb407608ef77a864ad4a59f25ddd906c platform/x86: wireless-hotkey: Check ACPI_COMPANION() against NULL
 
---===============8101749354900410622==--
+--===============5479416219099315593==--
