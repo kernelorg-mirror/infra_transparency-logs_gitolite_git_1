@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 20 May 2026 11:11:46 -0000
-Message-Id: <177927550695.1349500.2987725119580636336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 20 May 2026 11:14:15 -0000
+Message-Id: <177927565540.1350577.10605788380912319040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/for-linus
-    old: a69b677e47a80319ce148d61cc29a2b57006e78d
-    new: 60a1969fae6209644698fca91c185d153674f631
+  - ref: refs/heads/for-mfd-next
+    old: ed93d92f820c621cd74d87cc890440a4605dcc5a
+    new: 686d9ac6244c93b00ba2eb929292b128506b87c4
     log: |
-         60a1969fae6209644698fca91c185d153674f631 ALSA: seq: Serialize UMP output teardown with event_input
-         
-  - ref: refs/heads/master
-    old: ee1db6c1b699f2a7002334d0d5b641500e619072
-    new: 38c607c673155d6335591cdbd9c785fb2b7550e5
-    log: |
-         60a1969fae6209644698fca91c185d153674f631 ALSA: seq: Serialize UMP output teardown with event_input
-         38c607c673155d6335591cdbd9c785fb2b7550e5 Merge branch 'for-linus'
+         0aac47aa41a1f73752fe3993526494c6df013eac dt-bindings: mfd: aspeed,ast2x00-scu: Describe AST2700 SCU0
+         889c2b08ceebe680ebb6e61a09663ac69cd4304b mfd: cros_ec: Delay dev_set_drvdata() until probe success
+         686d9ac6244c93b00ba2eb929292b128506b87c4 mfd: qcom: Unify user-visible "Qualcomm" name
          
