@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 20 May 2026 18:20:12 -0000
-Message-Id: <177930121270.1682558.15674506445679229338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Wed, 20 May 2026 18:21:08 -0000
+Message-Id: <177930126809.1683460.2852580057344901183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
-  - ref: refs/heads/linux-next
-    old: 40020b79622538a195502e7edeab40994e184899
-    new: 1aea1ee0c2672fa68ebee3610433835f89548a8c
+  - ref: refs/heads/for-next
+    old: 665f192a2a11384cb7dc1be5f87d16438522a4ed
+    new: e5925f33e4fa9ee313d481557607adce8e30ed2e
     log: |
-         0a4a73111ea4d661669d062a04288c12b2d8f1a8 thermal/core: Populate max_state before setting up cooling dev sysfs
-         1aea1ee0c2672fa68ebee3610433835f89548a8c Merge branch 'thermal-core' into linux-next
-         
-  - ref: refs/heads/testing
-    old: b9571439b00af3cca58d468f77a6ac1502f33eab
-    new: 1271e2aa2b0e5eab74be6e2612cdb5ec5c0086d1
-    log: |
-         0a4a73111ea4d661669d062a04288c12b2d8f1a8 thermal/core: Populate max_state before setting up cooling dev sysfs
-         1aea1ee0c2672fa68ebee3610433835f89548a8c Merge branch 'thermal-core' into linux-next
-         1271e2aa2b0e5eab74be6e2612cdb5ec5c0086d1 Merge branch 'test/acpi-driver' into testing
+         e5925f33e4fa9ee313d481557607adce8e30ed2e nilfs2: Fix return in nilfs_mkdir
          
