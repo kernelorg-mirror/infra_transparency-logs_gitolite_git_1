@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 20 May 2026 16:26:05 -0000
-Message-Id: <177929436569.1595292.1152708535797202946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 20 May 2026 16:28:55 -0000
+Message-Id: <177929453560.1596313.15642582686372139111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 523d2f42b406f5be2989f436b03eacebf3679835
-    new: 3db0419c0147c3b91e2df475a1d34bcf0f645930
+  - ref: refs/heads/main-pending
+    old: 283cb400f7c04765f995723ecb00b525a8580551
+    new: 3884d7a8a02cc26d5e02e846d87b334ebb043447
     log: |
-         fa747e9f843ba3a0fa4d3fabaf50c9e11aaf963f selftests/bpf: Fix cold_lru producing zero batch_hash in XDP LB benchmark
-         12e896b9794bbd88f56aeac2a5807ae8d4bb5ad8 selftests/bpf: Fix expired UDP LRU entries in XDP LB benchmark
-         abac8acb633a9448369d658889ac2bcfbd96f54b selftests/bpf: Filter timing outliers with IQR in batch-timing library
-         3db0419c0147c3b91e2df475a1d34bcf0f645930 Merge branch 'selftests-bpf-xdp-lb-benchmark-fixes'
+         6b5d7620f9f844b62d553539232cf2bd98b9e913 wifi: ath10k: update outdated comment for renamed ieee80211_tx_status()
+         3884d7a8a02cc26d5e02e846d87b334ebb043447 Merge branch 'pending' into main-pending
          
+  - ref: refs/tags/ath-pending-202605192132
+    old: 0000000000000000000000000000000000000000
+    new: 3884d7a8a02cc26d5e02e846d87b334ebb043447
