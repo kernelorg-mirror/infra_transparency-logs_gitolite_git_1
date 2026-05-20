@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0954967132357040361=="
+Content-Type: multipart/mixed; boundary="===============7788255409965820591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 20 May 2026 15:13:45 -0000
-Message-Id: <177929002506.1532461.8293630690614786263@gitolite.kernel.org>
+Date: Wed, 20 May 2026 15:15:35 -0000
+Message-Id: <177929013599.1535194.3580872320829916117@gitolite.kernel.org>
 
---===============0954967132357040361==
+--===============7788255409965820591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 50030d63b4d3deda4cbea85bb43cfc1785267621
-    new: 237557b8a81ab948e8332f7c0058e758f081c0a3
+  - ref: refs/heads/driver-core-testing
+    old: 8d3bea93f483cb8f92b9f85d1528268a6469af28
+    new: 454257f6d124a92342dcbb7710c03dd6ef96c731
     log: |
-         237557b8a81ab948e8332f7c0058e758f081c0a3 sysfs: don't remove existing directory on update failure
+         454257f6d124a92342dcbb7710c03dd6ef96c731 sysfs: clamp show() return value in sysfs_kf_read()
          
 
---===============0954967132357040361==
+--===============7788255409965820591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779290028 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779290139 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1779290022-58722abe05c00518addd182d28795ed82aa038f1
+nonce 1779290133-fbba3ffb4ad06a7856b6f0634e12c0936fcfe22b
 
-50030d63b4d3deda4cbea85bb43cfc1785267621 237557b8a81ab948e8332f7c0058e758f081c0a3 refs/heads/driver-core-linus
+8d3bea93f483cb8f92b9f85d1528268a6469af28 454257f6d124a92342dcbb7710c03dd6ef96c731 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoNz60bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9t8QAMZET7NOLqjADTSa6Uo4
-oSxNENFiMEE9DAtwTxe2E48RZzM4AlzUSdYYmDsELjHJMIY4M8e2bG07NGohJEUi
-IQG+gL1pRjcD1vdNlvNZ3FQCxvpvCjb2L6qeBFow1ZCrUqLH0rz9LDbKtsJx0hlP
-c7WOAkfuqZ0sw1HvO6zEHl7NKlLsw3qfDX9SkgyKUvp5ceoIO17k4PrXlA2QVeNH
-nJwqC+GqSgr3zh1DW/uRoo1+KzfCG2UPSlWc8grgtc72Wyjly9y95jZ+nx2AbbN8
-pGH/xe0lygg1fJCYf9kPit7NS5BQtyOKmagKSSHUHbj5Q6Jh3HHE8uXXWK0mNn4V
-eAy16DBr9xlsubkISWNZt57Bqui4zRpkcjblkzSMSc0gUxt7JtM9ge/Jp43tvLB2
-CD4a2rVH0yjtYlv2fo5uko3gnyuxSi971flC71RHJi88JniVOEZ9c9w9909HKYY9
-4cgkHXs+bWVkeihI0GNDiN5lEw0h35MHcDVb5Bi39OmBzyrvlJD8nU1vL9PVi5Jz
-k4RLZ7PSSK+coPCJCyIP9HU1pKLx499DXPvO3yaE6CoFwifZtp0/rzxLp7J8a2ik
-SUOuZ9m9XrvatH8nMhMi0LfICZeVKrjFITRW8HyiDULozUt01leEn3KegP6heTbS
-6ZfbDqygGy4qz+QRJDPWbcjp
-=qUWV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoN0BwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dEwP/Rvkjb3yLbwAk99sKdos
+zKPnelX51+O962GWRyLWXSxzi6Wub5bC4cgNr5hCVb7Z3tKFR2uv3znRJqQ2FJuG
+uejXI4WqysKG0UFh+/Vk4mk4OxfD0D/hfCo4KBdKYsE6awvI+zLXartXUFqG/5fM
+fyrKoKK5f9Pn7vo0XtTVQwp3nQAAXxO+iMN/PQKF3ARHKsaP5kxXER1JMqBagzGi
+JkZcAOAIYKPBCRNO4EmQX8wCK9DWxvWn+8BSRzTsPJ6ZieXiadP3Ym7Gm99mxJUb
+rH1SWSctCv/jUQk+jKupdQtmrWc+XLq0W9r1zQ262bZOhnDTK1NSfwceNwnsv/Id
+MNfEEqfN1qDJ5KjCV18ieAa6Bv6REPHUknCsxi+A1oQm4EMS7hjaVS5zKTkb3H/s
+itYo7jOQbNAfjmPWuV7vAbHbu+YA/Ys0kVoP2DVUPcPPia6/8PFUGM2gOpVH2P1h
+TOWWhX8fGKHctwQF5RYTebbypPbsZmMFJ3d66yVNgHxAmc9zGu1umAzPl4dMq2Wr
+Ndx2A6Oekn972NwY45G5u60mBd/xbraHLBvp/UqXodZ5tLKGZpJdjfQHU6KC0EXQ
+Q/XVlS7/Pf+XvkLHyh3k8hhIlaLnYnFRZ5ZaU5OCGmmrGU1i/MVILzuXPiZACG4T
+HW5HDjn5aQMFzkyV4qiN2Y1e
+=x41f
 -----END PGP SIGNATURE-----
 
---===============0954967132357040361==--
+--===============7788255409965820591==--
