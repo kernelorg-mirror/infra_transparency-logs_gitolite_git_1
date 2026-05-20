@@ -1,67 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============1346041051518116853=="
+Content-Type: multipart/mixed; boundary="===============6536078372437125923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 20 May 2026 05:52:03 -0000
-Message-Id: <177925632369.1086709.18084828730048191011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 20 May 2026 06:14:46 -0000
+Message-Id: <177925768679.1101463.4106058089186691587@gitolite.kernel.org>
 
---===============1346041051518116853==
+--===============6536078372437125923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-linus
-    old: b59d5c51bb328a60749b4dd5fe7e649bfb4089b4
-    new: a69b677e47a80319ce148d61cc29a2b57006e78d
-    log: |
-         e36a88b33cbe3dcbb90ac2245ba6149dd5793370 ALSA: hda: Move irq pending work into hda-intel stream
-         33d3b6f0d86b539680bbda3300b2581cd62a3f18 ALSA: hda/intel: Make sure to cancel irq-pending work at closing PCM stream
-         12b1b4f5653d9a14980c0d881f4ac1af2e1d6b05 ALSA: hda/realtek: Add LED quirk for HP ProBook 430 G6
-         a69b677e47a80319ce148d61cc29a2b57006e78d ALSA: scarlett2: Allow flash writes ending at segment boundary
-         
-  - ref: refs/heads/for-next
-    old: 18977c0dd722f52217027ff75de2811c53cce2cc
-    new: 2ee646353cd5fadc42b002e54ed7e4fc19676689
-    log: revlist-18977c0dd722-2ee646353cd5.txt
-  - ref: refs/heads/master
-    old: 9b14f636834630e5473ee5020c8289823a481a7c
-    new: ee1db6c1b699f2a7002334d0d5b641500e619072
-    log: |
-         160781cda19b7831b54d7af2f05af1a8fee091c2 Merge branch 'for-linus' into for-next
-         2ee646353cd5fadc42b002e54ed7e4fc19676689 ALSA: seq: Register kernel port with full information
-         b8d836922a50b411046134dd6f0799c694363ac0 Merge branch 'for-next'
-         e36a88b33cbe3dcbb90ac2245ba6149dd5793370 ALSA: hda: Move irq pending work into hda-intel stream
-         33d3b6f0d86b539680bbda3300b2581cd62a3f18 ALSA: hda/intel: Make sure to cancel irq-pending work at closing PCM stream
-         12b1b4f5653d9a14980c0d881f4ac1af2e1d6b05 ALSA: hda/realtek: Add LED quirk for HP ProBook 430 G6
-         a69b677e47a80319ce148d61cc29a2b57006e78d ALSA: scarlett2: Allow flash writes ending at segment boundary
-         ee1db6c1b699f2a7002334d0d5b641500e619072 Merge branch 'for-linus'
-         
+  - ref: refs/heads/seen
+    old: 15bd84f255634a343d53e1088b808219f5ecaa6d
+    new: 9a9158a3efd2c180d4888f7c1c3df9fcf54c1d6c
+    log: revlist-15bd84f25563-9a9158a3efd2.txt
 
---===============1346041051518116853==
+--===============6536078372437125923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18977c0dd722-2ee646353cd5.txt
+Content-Disposition: attachment; filename=revlist-15bd84f25563-9a9158a3efd2.txt
 
-6fd9f6e870ea285f05102e8e00e6a7f4495a9a02 ALSA: hda/ca0132: Disable auto-detect on manual output select
-7b7d6572145c1dab2dd9bfb550b188e5f0ff3c3f ALSA: asihpi: Fix potential OOB array access at reading cache
-4372286ac774536e8e68bc6dfa0f0b0152b31fce ALSA: hda/realtek: Use ALC287_FIXUP_TXNW2781_I2C for ASUS Strix Gxx5
-d0afd2cd356a2c337589ef8dfa2a224636600575 ALSA: hda/realtek: Add quirk for HP 250 G10 (103c:8b34)
-0aacce7c32e4631c3634df5d19d30c72a3614ec9 ALSA: hda: Avoid quirk matching with zero PCI SSID
-d04a0047d619ddbc50e023aa76e4dddf86e5da3f ALSA: pcm_drm_eld: rate-limit ELD parsing errors
-608d76ec371406045c7686677870a54ccbf83eb6 ALSA: hda/realtek: Add mute LED quirk for HP Pavilion Plus 14
-e4d3386b74fba8e01280484b67ee481ece00201e ALSA: pcm: Don't setup bogus iov_iter for silencing
-532d06c646a6ed5c8701eb483dd64c7002c87f71 ALSA: hda/realtek: Add quirk for HP Z66 G6 14 laptop
-34ed2395613b23f8645e320abdcab6d688dc7a80 ALSA: timer: avoid past-the-end iterator in snd_timer_dev_register()
-92b62b7416af11fcfaab7373b15a32a471500bab ALSA: seq: avoid past-the-end iterator in snd_seq_create_port()
-9e5fb6098d21e1f9be9982b46c3e5b8329d4e7d2 ALSA: hda/realtek: Fix mute and mic-mute LEDs for HP 16 Piston OmniBook X
-b59d5c51bb328a60749b4dd5fe7e649bfb4089b4 ALSA: ua101: Reject too-short USB descriptors
-160781cda19b7831b54d7af2f05af1a8fee091c2 Merge branch 'for-linus' into for-next
-2ee646353cd5fadc42b002e54ed7e4fc19676689 ALSA: seq: Register kernel port with full information
+0bd4545d6900cd708a3a7d874b9f0a1e7993421a SQUASH??? test portability and other fixes
+e39c4e271b088fc1ea8d33ceebce7a46e44b51d3 Merge branch 'tb/bitmap-build-performance' into seen
+deee4d0f91bb1b03ca46c3d5eeaa30632fa79e31 Merge branch 'kk/tips-reachable-from-bases-optim' into seen
+635ad29057967a464b647327b3fe945179999b8c Merge branch 'ta/approxidate-noon-fix' into seen
+307c856cbf9f5778b4acb7a4f4d2933d8bd5c909 Merge branch 'tc/generate-configlist-fix-for-older-ninja' into seen
+1260522d25c5348889ab53d520198c3b40a803f4 Merge branch 'ed/check-connected-close-err-fd-2.53' into seen
+a76964e36822ba26bf93d34e05902d501c086f4d Merge branch 'ed/check-connected-close-err-fd' into seen
+059c1224d8f898b0adb9877c5945a669729dc0c6 Merge branch 'ps/maintenance-daemonize-lockfix' into seen
+e8162323d09ab95e575321a9f32084f918301430 Merge branch 'jd/unpack-trees-wo-the-repository' into seen
+2e2be30d4fc54e2d273186f5135c51a35367048e Merge branch 'cl/conditional-config-on-worktree-path' into seen
+4c5364510039c944b2ce6f48b3dfd94d80d71b08 Merge branch 'th/promisor-quiet-per-repo' into seen
+10a32d863f4e23e679161abdc6fb74c0fa66c7fe Merge branch 'cs/subtree-split-recursion' into seen
+69e9e360068c565880bfb7c55255885f2230dfb1 Merge branch 'jr/bisect-custom-terms-in-output' into seen
+64d75c27911fbb6d6ada9e976f13e923ee16ca5b Merge branch 'ps/graph-lane-limit' into seen
+710e3a794319e9f1ed74e12160edc31cb8ca5213 Merge branch 'pt/fsmonitor-linux' into seen
+66623aff5972a2f7ebe5a63f9da5f868c1a26906 Merge branch 'lp/repack-propagate-promisor-debugging-info' into seen
+3fcea2cee719d136e0e00cf85fba4694370b0878 Merge branch 'pw/status-rebase-todo' into seen
+505d0cd49b4b048a00a9541ffe359877d5033b60 Merge branch 'js/parseopt-subcommand-autocorrection' into seen
+8fa936b65379e8a64f5fcb3ed6539f8087befff4 Merge branch 'ua/push-remote-group' into seen
+346eacb0afad19aff6f781f73b444791dd08cc67 Merge branch 'cc/promisor-auto-config-url-more' into seen
+cbe78b1250780da5f309145c20b2215e3cff8845 Merge branch 'mm/line-log-cleanup' into seen
+9b2d8905ec3fb2915bd4f926c98bb78be9896639 Merge branch 'ds/path-walk-filters' into seen
+b2c06915bdcd504cd26015835a7f5767050ba6a2 Merge branch 'st/daemon-sockaddr-fixes' into seen
+493948c689e8831b2967023c4b70ac3ec3ac503d Merge branch 'rs/strbuf-add-uint' into seen
+25943d18fbf3662ea9454ebd19a54d77b14be1d7 Merge branch 'mm/doc-word-diff' into seen
+da703c91cf7bbb76b69401ce60b1a46fc79e5959 Merge branch 'rs/strbuf-add-oid-hex' into seen
+6e3833850c81ea6a618504f1e1e1d14efaef557d Merge branch 'ja/doc-synopsis-style-again' into seen
+14e6e3e3540f33a4fcb7d5edf05fcd50c7f069fe Merge branch 'jt/config-lock-timeout' into seen
+50377c9d25a138f21d0748afa47816ccd341dec5 Merge branch 'hn/checkout-track-fetch' into seen
+94f741a7335f4f2fdd6dca890f272da5371ceb6f Merge branch 'hn/branch-prune-merged' into seen
+e7991597e815a9399fe90ad553c67fde217f4bee Merge branch 'hn/status-pull-advice-qualified' into seen
+121864a7ec6c99b9048861787e252819231b9934 Merge branch 'hn/config-typo-advice' into seen
+4a21c7a77aeadce1ec7fb4eea56b9f82b7fbc7a1 Merge branch 'jk/commit-graph-lazy-load-fallback' into seen
+f9c94c13c3382637b2b3e77173da7020d3cdb052 Merge branch 'aj/stash-patch-optimize-temporary-index' into seen
+9a9158a3efd2c180d4888f7c1c3df9fcf54c1d6c Merge branch 'mf/revision-max-count-oldest' into seen
 
---===============1346041051518116853==--
+--===============6536078372437125923==--
