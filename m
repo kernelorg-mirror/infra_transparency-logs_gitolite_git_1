@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 20 May 2026 13:25:45 -0000
-Message-Id: <177928354530.1448816.4113146058418594035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 20 May 2026 13:45:11 -0000
+Message-Id: <177928471136.1462715.1747857542338060239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 8ac12d8b7099cdebff19aed78a81f61d8042c6be
-    new: c010a78304a648fd13556aff63e60a83f35d23c9
+  - ref: refs/heads/main
+    old: 162675c38b9d10e4956531b755a9c015a569daa6
+    new: c4e4f2099f32ae642eafb72b4235a196e17446a7
     log: |
-         c7b929fe289d6e5118954f8327c143f8ad707a63 gpio: xgene: allow COMPILE_TEST builds
-         292e7cab58e2ce1f9213a6a326eb314e18756459 gpio: en7523: allow COMPILE_TEST builds
-         c010a78304a648fd13556aff63e60a83f35d23c9 gpio: Initialize all i2c_device_id arrays using member names
+         d0bf0bc94f2d1c58d814b9c2672f97f2429d7362 rtw89: 8852bt: update fw to v0.29.122.2
+         f97831a2895009967c50f94f6591787e6fbe3bd7 rtw89: 8852b: update fw to v0.29.29.18
+         c4e4f2099f32ae642eafb72b4235a196e17446a7 Merge branch 'main' into 'main'
          
