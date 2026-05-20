@@ -1,68 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5399653333643131007=="
+Content-Type: multipart/mixed; boundary="===============8770867253422256959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 20 May 2026 10:30:12 -0000
-Message-Id: <177927301220.1298898.3686159537781751056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 20 May 2026 10:45:49 -0000
+Message-Id: <177927394963.1309989.12308804336444153326@gitolite.kernel.org>
 
---===============5399653333643131007==
+--===============8770867253422256959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/fixes
-    old: 841ff62aa5f85b13771b33e7b9c102cbaf87432f
-    new: 2a9ca96225ccc0bacb81f152482fe23175d37ac3
-    log: revlist-841ff62aa5f8-2a9ca96225cc.txt
+  - ref: refs/heads/master
+    old: 5683ed6320e00205146cbb3d0c76462733530eca
+    new: eee2e7f2cfb158599609fad8d831105d68a6ed8d
+    log: revlist-5683ed6320e0-eee2e7f2cfb1.txt
 
---===============5399653333643131007==
+--===============8770867253422256959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5683ed6320e0-eee2e7f2cfb1.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779273010 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1779273009-0be73534582d33ce026aaca2df354366cf2f91e1
+c85e5f560cb3f079e0a74fa6e06cea2895b87f7d license: switch from BSD 4-clause to 3-clause
+77d06080d94ffd7e9c1154a43cd888cafe52e535 libblkid: (dasd) use rtrim_whitespace() for EBCDIC string trimming
+2e5da71d446831f6c814d6533830c5f87a892660 libblkid: (dasd) add buffer size guards to helper functions
+4bc4c316da4c87218a7abf10a8b8ec7422208799 libblkid: (dasd) guard against uint64 underflow in LDL size calculation
+da633e98174500bb3b11d64f189922108644788a libblkid: (dasd) remove unnecessary 'rc' variable
+9b8d21b1fc9852f91127183888b79aecce8a12ab tests: (cramfs) restore umask after creating test input files
+35de43211295370544bc0edc37f9972477524de7 libmount: (tests) skip btrfs test if btrfs support is not enabled
+b610224fd38d7a525fe5ca897fee3c86e98864ec tests: fold ts_skip_subtest into ts_skip
+69f82d15e00b434fc63f71057ed11ccabb1cef88 tests: fold ts_failed_subtest into ts_failed
+726b38c5f955f2f92ff650e5999fbe4e931b9637 tests: use ts_skip_config where appropriate
+ea8f99c00f2b55b6fa2b31b68c74a6f652d2eca4 lsfd: (tests) drop suffix variable in lsfd_check_sockdiag
+e054c2969310ad9b29b05a6e4f88355230824f81 Merge branch 'tests/cramfs_fix_umask' of https://github.com/lRespublica/util-linux
+618ef24a662b1fe8a19f9f7e9cd4630f28a8d601 Merge branch 'PR/libblkid-dasd' of https://github.com/karelzak/util-linux-work
+eee2e7f2cfb158599609fad8d831105d68a6ed8d Merge branch 'bsd-4-to-3-clause' of https://github.com/ionmeo/util-linux
 
-841ff62aa5f85b13771b33e7b9c102cbaf87432f 2a9ca96225ccc0bacb81f152482fe23175d37ac3 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCag2NMwAKCRBZrE9hU+XO
-McnDAP4nX2xJCiuWgrhe+YLNr0AgS+uty/ncOqNZe5kbC6RKwQEAp83WWYBbGseE
-UPpwOlrhGpdq6KtH17eWV7UXuAcRaAQ=
-=Qgl8
------END PGP SIGNATURE-----
-
---===============5399653333643131007==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-841ff62aa5f8-2a9ca96225cc.txt
-
-dc334b9bf9d28070f7a3e413fead759abdce19ba platform/x86: acer-wireless: Check ACPI_COMPANION() against NULL
-08f29dc34d1cf39696d04bc1ff31538dc2d74c72 platform/x86: asus-laptop: Check ACPI_COMPANION() against NULL
-8a17c62b02fc4baa02300b57a2ad882c7a06a984 platform/x86: dell/dell-rbtn: Check ACPI_COMPANION() against NULL
-814830394764cef79c506629edd55f072e0207d1 platform/x86: eeepc-laptop: Check ACPI_COMPANION() against NULL
-e99829a15989d58ffe1ee3e283e0a5eb8e41ee8b platform/x86: fujitsu: Check ACPI_COMPANION() against NULL
-ab743c6d7b118235f6d48a513a6560afbc5e615a platform/x86: fujitsu-tablet: Check ACPI_COMPANION() against NULL
-51e91ad0a0ccb0906306c653f9e8b97a180d8608 platform/x86: intel/rst: Check ACPI_COMPANION() against NULL
-922952f2bbcfe21375973d0ea0e662a1a4837b10 platform/x86: intel/smartconnect: Check ACPI_HANDLE() against NULL
-7e169326c2263ebc4878baae536c956fa3118eff platform/x86: lg-laptop: Check ACPI_COMPANION() against NULL
-f15b0a3043f193677903be52d7dbef3d5c8df282 platform/x86: panasonic-laptop: Check ACPI_COMPANION() against NULL
-f2ec69363fb52fbb2010e5edbec2b8ca0951aadf platform/x86: sony-laptop: Check ACPI_COMPANION() against NULL
-840bcd6bd5bcbc807b679e367ae7a148a1f07370 platform/x86: system76: Check ACPI_COMPANION() against NULL
-0978824a64f160f1d2e8dc821a522ad91e7b4215 platform/x86: toshiba_acpi: Check ACPI_COMPANION() against NULL
-48b06fffb16901237dc0acbb0474a54b3cc5730f platform/x86: toshiba_bluetooth: Check ACPI_COMPANION() against NULL
-4840f8bb3e9aad183e707950f24f829fd220eb07 platform/x86: toshiba_haps: Check ACPI_COMPANION() against NULL
-53a8f95cbb407608ef77a864ad4a59f25ddd906c platform/x86: wireless-hotkey: Check ACPI_COMPANION() against NULL
-2a9ca96225ccc0bacb81f152482fe23175d37ac3 platform/x86: bitland-mifs-wmi: add CONFIG_LEDS_CLASS dependency
-
---===============5399653333643131007==--
+--===============8770867253422256959==--
