@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3034055131336360248=="
+Content-Type: multipart/mixed; boundary="===============5543303694347967259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 20 May 2026 00:00:46 -0000
-Message-Id: <177923524651.820360.9778741036257416080@gitolite.kernel.org>
+Date: Wed, 20 May 2026 00:00:48 -0000
+Message-Id: <177923524884.820532.8442002218039338909@gitolite.kernel.org>
 
---===============3034055131336360248==
+--===============5543303694347967259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a277a07d19bffcad38dea57bc234d0810a328657
-    new: 4c6512d033e5e9469cc76d07512c24a0ee0ac207
-    log: revlist-a277a07d19bf-4c6512d033e5.txt
+  - ref: refs/heads/mm-unstable
+    old: ffe64def0071989cff47b5525d38f5e558c637c3
+    new: e9add7501ad3297dad9b90ce201266830a68ab47
+    log: revlist-ffe64def0071-e9add7501ad3.txt
 
---===============3034055131336360248==
+--===============5543303694347967259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a277a07d19bf-4c6512d033e5.txt
+Content-Disposition: attachment; filename=revlist-ffe64def0071-e9add7501ad3.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
@@ -836,66 +836,5 @@ e4a7843dd9643385845eeff1ebf475f0800450d7 mm/page_alloc: drop a misleading __alwa
 399f3dbf5c74aca6be1073b0cf86db6fc5d65bc1 tools/mm/slabinfo: remove dead assignment in get_obj_and_str()
 6bcd1019461e49170924f2f70af7736c6813399b tools/mm/slabinfo: remove redundant slab->partial assignment
 e9add7501ad3297dad9b90ce201266830a68ab47 mm/page_alloc: document that alloc_pages_nolock() uses RCU
-5eff99ff657a0ba52163e66ce213a3c010c5c031 mm, swap: simplify swap cache allocation helper
-5171b36d99df84d3c465932daa475aa066086561 mm, swap: move common swap cache operations into standalone helpers
-bb18676e2a7166b5bb8849ee7beff04d4b3519cd mm/huge_memory: move THP gfp limit helper into header
-543d8c9c783ad773ccf48eff681ff8b5bc4e9682 mm, swap: add support for stable large allocation in swap cache directly
-51905a6ed3d4cade67a88a29d6b0df1dc13d555b mm, swap: unify large folio allocation
-52f211a2de44c7f5bce7bd42aa3ac07885bdfac6 mm/memcg, swap: tidy up cgroup v1 memsw swap helpers
-9dce131488c22797fce77865df9a9913db2f7023 mm, swap: support flexible batch freeing of slots in different memcgs
-1ce80c5afb02b1ca61aee6d9e8d474e2c2c83add mm, swap: delay and unify memcg lookup and charging for swapin
-8ba1cbc2d7d589fe92db0821f42bc6ce84067880 mm, swap: consolidate cluster allocation helpers
-759e429fbc686b5ede5cfaf7deff373371fe68ec mm/memcg, swap: store cgroup id in cluster table directly
-8022294d154a88ed8669359934aef979c7a1bce4 mm-memcg-swap-store-cgroup-id-in-cluster-table-directly-fix
-a13f04e82c722f1b0ec5a0abf6ce67b63bf9c1f0 mm/memcg: remove no longer used swap cgroup array
-3a27e39b9cef5b1f82a221ca39c7ffc4239aba98 mm, swap: merge zeromap into swap table
-3568bdb2c5b0404b91f7a3f27a94c1ad90904971 mm-swap-merge-zeromap-into-swap-table-fix
-62ed1cb4f93e94248ef5bc2e31719358127e374d docs/mm: fix typo in process_addrs.rst
-729fb6e5b3a648f9dd2e97adca93a6986f0c0902 kasan/test: only do kmalloc_double_kzfree for generic mode
-4838896f866b62101e7683ca58ed92603a05ee99 lib/test_hmm: fix error path in dmirror_devmem_fault()
-a2f091c222e909e394d8dc541f8218fb31a746df mm/memory-failure: remove hugetlb output parameter from try_memory_failure_hugetlb()
-d5cd9f7beceb44f55fface1aa7aa4a1e3e363f07 mm/damon/core: introduce struct damon_probe
-e51f7286f707ab4c176a95c8b2c4dc1c32a9247d mm/damon/core: embed damon_probe objects in damon_ctx
-8aa4aa568fb222945f489408d00bdd09a2cea6d9 mm/damon/core: introduce damon_filter
-b9b8007ea4991bb1f804925a0440b81dcf1ebed2 mm/damon/core: commit probes
-93e0dbcb496405b16ff60d9932f04cc469b15b17 mm/damon/core: introduce damon_region->probe_hits
-503c530d1293201c0f2c30ed2ce76126cb3f07ce mm/damon/core: introduce damon_ops->apply_probes
-ad6b01dca2aa3911c68279db78b843e1540b1c81 mm/damon/core: do data attributes monitoring
-fc0362e1da9921baf5e132462fb1bcdce2662a4d mm/damon/paddr: support data attributes monitoring
-cf3402d20abe85e50d065b294dee7a1598a979c9 mm/damon/sysfs: implement probes dir
-4923d037668a1a0c61cbdf7d722f411b57eff1af mm/damon/sysfs: implement probe dir
-116e0a20e0242151b9840e7b9838ffbb7acc8e34 mm/damon/sysfs: implement filters directory
-02ac2fbc012a74a0d3ba4825ed91ffaf63ffa498 mm/damon/sysfs: implement filter dir
-71bff3abb9f7961c805fb8bbd632e77ec679f271 mm/damon/sysfs: implement filter dir files
-7c40e34aef64c2c0320a286ef3de06eae0ddd75e mm/damon/sysfs: setup probes on DAMON core API parameters
-895d23407a494bebb6e14c5e318be490e20ccf96 mm/damon/sysfs-schemes: implement tried_regions/<r>/probes/
-f08cadb12f1767cbc228ec7c8daf6a28ace5d7c6 mm/damon/sysfs-schemes: implement probe dir
-7b4b1568100f35965e7ab55e571df7f13dc5dc2e mm/damon/sysfs-schemes: implement probe/hits file
-26c6d886fef8c52659b448218db2cb2b85b8b11e mm/damon: trace probe_hits
-604d26ddeb88b9bfdc5f69b29e389671d06758fe selftests/damon/sysfs.sh: test probes dir
-84c3d42099d41a39c6781a03a2f02fd029602ca8 Docs/mm/damon/design: document data attributes monitoring
-062e2fc92db6c4b58b39090efbdcecf1d210772c Docs/admin-guide/mm/damon/usage: document data attributes monitoring
-6ff9a156e159495baf59b460020246f6fb3ccc30 mm/damon/core: introduce DAMON_FILTER_TYPE_MEMCG
-49a520ed3c53df9c1b3818bc66e9827850262917 mm/damon/paddr: support DAMON_FILTER_TYPE_MEMCG
-16126e3e073d3d822cfe777b1a8da5040c8d2f5a mm/damon/sysfs: add filters/<F>/path file
-84b8085dce999852cdcb999331b39555e2866e86 mm/damon/sysfs-schemes: move memcg_path_to_id() to sysfs-common
-91dc790484d396f019ae5691435d2d1e103fc0a0 mm/damon/sysfs: setup damon_filter->memcg_id from path
-1622154e78e1759539ec707b30817dbfb803e2c9 Docs/mm/damon/design: update for memcg damon filter
-580146cae497c72fd01cf6dd5a2f35fa94135a62 Docs/admin-guide/mm/damon/usage: update for memcg damon filter
-a6be932d89e892feda4416c546d4a07554e6e812 mm/page_alloc: fix defrag_mode for non-reclaimable allocations
-e1c0255ff30af43db587a7f3ddd21bcf11e16974 mm/vmalloc: extract vm_area_free_pages() helper from vfree()
-8270707845799c8b2c1c30c147cb535c93e10246 mm/vmalloc: use physical page count for vrealloc() grow-in-place check
-58bea26137c63b9af6e4e1a1ec9ab9895aea9167 mm/vmalloc: use physical page count in vread_iter() for VM_ALLOC areas
-b40e858aae6151a66889aba55ddb01404f55d708 mm/vmalloc: free unused pages on vrealloc() shrink
-249b21a675d59aaa36e65d6d32e6f3628b9b57b8 lib/test_vmalloc: add vrealloc test case
-8d301ebfcf2d01a96b62a4fd8a1944dd56eb72e8 mm: shmem: refactor thpsize_shmem_enabled_store() with sysfs_match_string()
-719ef76a43eff84c07b0e6462fc1827dcd50f887 mm: shmem: refactor thpsize_shmem_enabled_show() with helper arrays
-065d1bc2e6d03d4338d5a5298644bd93b8d008e2 drivers/base/memory: set mem->altmap after successful device registration
-3359621fec302dbb4e82f4071addbf727d17e853 mm/memory-failure: use zone_pcp_disable() for poison handling
-ee689562554cd0cd09a97716446839b144705d29 mm/damon/vaddr: attempt per-vma lock during page table walk
-55b59a7be46329ced7042e6929f871aecb109f78 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-0eb66246ce6a565a9cd46a05bac7f891696e4faa mm/swap: remove redundant swap device reference in alloc/free
-9310dcec359eda657cbafade976ae6db98b8745a mm/swap, PM: hibernate: atomically replace hibernation pin
-4c6512d033e5e9469cc76d07512c24a0ee0ac207 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============3034055131336360248==--
+--===============5543303694347967259==--
