@@ -1,55 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============6076001519751463912=="
+Content-Type: multipart/mixed; boundary="===============8101749354900410622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Wed, 20 May 2026 10:06:51 -0000
-Message-Id: <177927161182.1278078.7179185023488880846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 20 May 2026 10:08:41 -0000
+Message-Id: <177927172152.1278932.1237376354987728787@gitolite.kernel.org>
 
---===============6076001519751463912==
+--===============8101749354900410622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/iw
-user: jberg
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 38eb16d2a54cdc532a84a33966f02c1be88df03a
-    new: 13cbdf77f4cc861abb49a055fc33283d44cfec7a
-    log: |
-         13cbdf77f4cc861abb49a055fc33283d44cfec7a iw: channels: show CAC ongoing time
-         
+  - ref: refs/heads/review-ilpo-next
+    old: d1f01dfa7f1fda58a95846dc2c5ce50a71e18580
+    new: 5fdac9983681f743cfaa89414ea154a2c5fd39c4
+    log: revlist-d1f01dfa7f1f-5fdac9983681.txt
 
---===============6076001519751463912==
+--===============8101749354900410622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1779271607 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1779271607-93b3d943521128d700d5d9703dcae6fd8b3f0747
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779271718 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1779271716-4776a49816422e94ce215f8b4779e33beec4ed92
 
-38eb16d2a54cdc532a84a33966f02c1be88df03a 13cbdf77f4cc861abb49a055fc33283d44cfec7a refs/heads/main
+d1f01dfa7f1fda58a95846dc2c5ce50a71e18580 5fdac9983681f743cfaa89414ea154a2c5fd39c4 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmoNh7cACgkQ10qiO8sP
-aAC2IQ/9E3Aj6PYwTrCM0t7UFYxqLhT31wBarELFspSfqJaLws4jWVB1Hhs+CBfR
-eL7QH3yf3UOgU7TT42NSstpYuj3nUwhnD2aGUyJK7sZ54QkFAxrevZeI+Z+7cKqn
-QZuCXzoSCy7Ou3YfW64Lz+Q7Iy/K8q9pVmfrtgsKIxYllBB8fTNYQmRSVc7ngcXl
-wKH5n3MkqrV1xOK69sUH0z4wqFz2Uv2RDQ1u1R2wHTEyPwe9RmlVjgsUDwjnhPon
-HtmQ3m7BMnhhNpV448xT1EU/6rdU2s7vUMeNbF1M23vDbxVNwHqnXFBYlWjn/J/m
-D9fWbwvaRmTR7wgW1Ay5+eh+Ad5L+J9OM4wBnLOsNOD6BnvCaWLdUS9LVTKLRs57
-gyMXUbWTmscWyArKD5h75ZlaioG4d9AJIyhY9XiWBGFzHwWyoYLAH/+unEfK90zB
-n8gItG4gakDwFR9bHxrNduQe7PA9kP5z6lN/pkobOpv5H2cjwbA4SMDMPwWq7r8d
-Js53IjPGu6TDRzUbFg0D5wScFu7Ms+Q+q0KNflE1q65EzIWpFlved4a79DfoBX3O
-8tPLb7wW8NFuBLs8LOF0vAxiAp++rRrev377aHSdvlLiE/8MCb1liHsisBKm6ewv
-cF02YRUHiGdurEGE5tCOt1oj592UyyuEY7m6elPm+8w7QTNuZNA=
-=QeND
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCag2IKAAKCRBZrE9hU+XO
+MUuvAQC61mvO7BHb1ZLjuSyyhJqTWSrTY+V3jpepBwNvKnjViAD/fnVngRhb/ig7
+1Z8DCAwBq4aXlbI9kf/3VDysFhTajwE=
+=gxiF
 -----END PGP SIGNATURE-----
 
---===============6076001519751463912==--
+--===============8101749354900410622==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d1f01dfa7f1f-5fdac9983681.txt
+
+5cfb132da0afd3a711e2d5279243100102d2e836 platform/x86: xo15-ebook: Use devres-based resource management
+a4173887605121f61a5222911b11ac598336618e docs: fix typo in uniwill-laptop.rst
+4baf44b4051940ba1abc68ef5136d25cb1806521 platform/x86: classmate-laptop: Address memory leaks on driver removal
+87b3892ddc3ac5c62eaa97a1662f6f996d6d4870 platform/x86: classmate-laptop: Unify probe rollback and remove code
+daca81d9ead06d85b749d6036ea8c4940e7ac128 platform/x86: classmate-laptop: Pass struct device pointer to helpers
+5658770e6eb5d9cf8d077054120545a98d7316ee platform/x86: classmate-laptop: Rename two helper functions
+b32123a11dd706c3d0eaa48306a6000666ec11fe platform/x86: classmate-laptop: Register ACPI notify handlers directly
+1588b83ad9b95dfa0bc3b9c22eb2608b64e1a3c5 platform/x86: classmate-laptop: Convert v4 accel driver to a platform one
+e51effb3cefe1bffa1afdee6ee5e93ded1746606 platform/x86: classmate-laptop: Convert accel driver to a platform one
+0fd6639706b79c0fbb5c0205aebfbbfd40ec44b0 platform/x86: classmate-laptop: Convert tablet driver to a platform one
+069b06f8dfc9821fa54f0c5109ebbde891ea363a platform/x86: classmate-laptop: Convert ipml driver to a platform one
+5fdac9983681f743cfaa89414ea154a2c5fd39c4 platform/x86: classmate-laptop: Convert keys driver to a platform one
+
+--===============8101749354900410622==--
