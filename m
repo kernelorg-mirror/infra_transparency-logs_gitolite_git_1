@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 20 May 2026 01:55:00 -0000
-Message-Id: <177924210065.915644.9383748784626900189@gitolite.kernel.org>
+Date: Wed, 20 May 2026 02:11:23 -0000
+Message-Id: <177924308372.929007.18241498979590898788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d4ea0dfd75011b78cebf3808f98ac4c4f51a6fb9
-    new: be309f8eae8b474a4a617eaae01324da996fc719
+    old: be309f8eae8b474a4a617eaae01324da996fc719
+    new: 0cb5a74faa3bdcfa3b18735d554e12c0f615e35d
     log: |
-         be309f8eae8b474a4a617eaae01324da996fc719 af_unix: Fix UAF read of tail->len in unix_stream_data_wait()
+         0cb5a74faa3bdcfa3b18735d554e12c0f615e35d net: airoha: Fix NPU RX DMA descriptor bits
          
