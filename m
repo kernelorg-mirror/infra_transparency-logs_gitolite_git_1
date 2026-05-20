@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5237891640630662980=="
+Content-Type: multipart/mixed; boundary="===============5718090668148800918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 20 May 2026 17:33:44 -0000
-Message-Id: <177929842498.1647401.8221079400124675235@gitolite.kernel.org>
+Date: Wed, 20 May 2026 17:33:47 -0000
+Message-Id: <177929842751.1647548.13279059452651292704@gitolite.kernel.org>
 
---===============5237891640630662980==
+--===============5718090668148800918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: edc502717be153674b0b3eefb8b40734c747c138
     new: dc416e32baaeb620b9809e9e25fc7b30889686e9
     log: revlist-edc502717be1-dc416e32baae.txt
 
---===============5237891640630662980==
+--===============5718090668148800918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ be309f8eae8b474a4a617eaae01324da996fc719 af_unix: Fix UAF read of tail->len in u
 0e46b6635b03d29807f810c3b415c4755a3f958d pds_core: fix error handling in pdsc_devcmd_wait
 dc416e32baaeb620b9809e9e25fc7b30889686e9 pds_core: fix debugfs_lookup dentry leak and error handling
 
---===============5237891640630662980==--
+--===============5718090668148800918==--
