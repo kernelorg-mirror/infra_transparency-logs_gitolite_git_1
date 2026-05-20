@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 20 May 2026 13:25:24 -0000
-Message-Id: <177928352457.1448576.6204631079760614476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 20 May 2026 13:25:45 -0000
+Message-Id: <177928354530.1448816.4113146058418594035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
-    old: 202550713128da20d9381d6d2dc0f6b73839f434
-    new: e3658d2b30fc6341dafc13b2e56c484dbbafab94
+  - ref: refs/heads/gpio/for-next
+    old: 8ac12d8b7099cdebff19aed78a81f61d8042c6be
+    new: c010a78304a648fd13556aff63e60a83f35d23c9
     log: |
-         e3658d2b30fc6341dafc13b2e56c484dbbafab94 kconfig: Fix repeated include selftest expectation
+         c7b929fe289d6e5118954f8327c143f8ad707a63 gpio: xgene: allow COMPILE_TEST builds
+         292e7cab58e2ce1f9213a6a326eb314e18756459 gpio: en7523: allow COMPILE_TEST builds
+         c010a78304a648fd13556aff63e60a83f35d23c9 gpio: Initialize all i2c_device_id arrays using member names
          
