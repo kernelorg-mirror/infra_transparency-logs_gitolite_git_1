@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 21 May 2026 12:30:30 -0000
-Message-Id: <177936663000.2524155.17911758554242514399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Thu, 21 May 2026 12:31:07 -0000
+Message-Id: <177936666782.2524836.3395488926676082244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 74de8dcc0566d6059315641ef52848c0050474ef
-    new: 5a717e8c387c2a3ccd372a1b34005c1dcedee297
+  - ref: refs/heads/next
+    old: e24f3c0df48378214d9a67c5048d0faca144b163
+    new: 15bcac35ba045a9a459144901443210d8b1df7a3
     log: |
-         6a2d9601f36ac180cc6c24ae97d72bcfe7c48ac5 ntfs: remove unnecessary ternary boolean conversion
-         5a717e8c387c2a3ccd372a1b34005c1dcedee297 ntfs: remove unnecessary NULL checks before kfree
+         8c3ff7c5ae15cc71000f10f4d0f26669b9471faa thunderbolt: Move pci_device out of tb_nhi
+         e241d98e04ef0513b78de2d87d8d1eb2993d9d34 thunderbolt: Separate out common NHI bits
+         dd60fb487e55445656284dbc9dc0c865ff9fb34c thunderbolt: Require nhi->ops be valid
+         15bcac35ba045a9a459144901443210d8b1df7a3 thunderbolt: Add some more descriptive probe error messages
          
