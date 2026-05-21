@@ -1,38 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 21 May 2026 07:26:31 -0000
-Message-Id: <177934839149.2265667.17438382952862566370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 21 May 2026 07:40:41 -0000
+Message-Id: <177934924137.2275932.3341908884789744326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/for-7.2
-    old: c9017d335aab23c4514daed79c939af52a9aa7f6
-    new: f31e89a8f583cb8b1b68002cedb77ce444d6f7d2
+  - ref: refs/heads/controller/dwc-qcom
+    old: c697b92348979e4228dba7eaece1635ddfec31e4
+    new: 861d0de63885c21b57b36f0d48a78a5f978221b1
     log: |
-         39e25a2100604320e8d9df54c6c31258f7a3df29 sched_ext: Drop NONE early return in scx_disable_and_exit_task()
-         b273b75b8d677aea06dd06d80b61b3bb06e94680 sched_ext: INIT_LIST_HEAD() &sch->all in scx_alloc_and_add_sched()
-         cceb874eee46fe4b3d3c6c496f19125d9a3a9a8f sched_ext: Defer sub_kset base put to scx_sched_free_rcu_work
-         6ae315d37924435516d697ea7dde0b799a5928e0 sched_ext: Use HK_TYPE_DOMAIN_BOOT to detect isolcpus= domain isolation
-         515e3996a4c26e7f955c13b3b19522a2c8642af9 sched_ext: Fix deadlock between scx_root_disable() and concurrent forks
-         1136fb1213d108f4776d4d8649ea96c57e93b41d Merge branch 'for-7.1-fixes' into for-7.2
-         d6236d5b2391cfdfa14d8acf7e29cc48068adc2a sched_ext: Rename scx_cmask.nr_bits to nr_cids
-         a0b48fd7fe2854211eadb5056e72bce3946140c1 sched_ext: Track bits[] storage size in struct scx_cmask
-         f31e89a8f583cb8b1b68002cedb77ce444d6f7d2 sched_ext: Add cmask mask ops
-         
-  - ref: refs/heads/for-next
-    old: d83f90561532aebb4b26bcb6fa3905187285648f
-    new: 8ad190500ea5410b46904a1f7419c78a8afc037a
-    log: |
-         1136fb1213d108f4776d4d8649ea96c57e93b41d Merge branch 'for-7.1-fixes' into for-7.2
-         6bba15a185bebc3f1a6b452594ef680671aa60d7 Merge branch 'for-7.2' into for-next
-         d6236d5b2391cfdfa14d8acf7e29cc48068adc2a sched_ext: Rename scx_cmask.nr_bits to nr_cids
-         a0b48fd7fe2854211eadb5056e72bce3946140c1 sched_ext: Track bits[] storage size in struct scx_cmask
-         f31e89a8f583cb8b1b68002cedb77ce444d6f7d2 sched_ext: Add cmask mask ops
-         8ad190500ea5410b46904a1f7419c78a8afc037a Merge branch 'for-7.2' into for-next
+         82b358d77e1ba40d299dda37ce57af263cdf5204 PCI: host-common: Add pci_host_common_d3cold_possible() helper
+         f110f86c841c37c6b8aeb577746bab0c9a1e317a PCI: qcom: Add .get_ltssm() callback to query LTSSM status
+         6beb1bd601c4a931d81802afb816d6ee6ead3fb0 PCI: qcom: Power down PHY via PARF_PHY_CTRL before disabling rails/clocks
+         07ba5af3b90bd67515912b2903ca9fbdb508fbf0 PCI: dwc: Use common D3cold eligibility helper in suspend path
+         c8b5fb72b0e5eac7a005e0a044f6f3df925a6a92 PCI: qcom: Add D3cold support
+         d32d8833a47e3681ca76413c5da88b97acfc1a08 PCI: qcom: Handle mixed PERST#/PHY DT configuration
+         d028a808b6f237c18c2adb6887a56115527555ea PCI/ASPM: Add pcie_encode_t_power_on() helper to encode L1SS T_POWER_ON fields
+         ad618278013c57c61ea9c878ee839862f6a25243 PCI: dwc: Add dw_pcie_program_t_power_on() to program T_POWER_ON
+         861d0de63885c21b57b36f0d48a78a5f978221b1 PCI: qcom: Program T_POWER_ON
          
