@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 21 May 2026 16:29:38 -0000
-Message-Id: <177938097808.2724086.13424989959952008592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 21 May 2026 16:33:18 -0000
+Message-Id: <177938119824.2727588.10050177639785298830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 52b2e449f0701d51b39d0670d638eeaa8e1315c7
-    new: 5321136165be23734d39ab432975c24d17cb0a96
+  - ref: refs/heads/for-next/scmi/updates
+    old: 627f5a2d2c5e038498acc8ed02a721fe975714c9
+    new: 524abd2fa6907ebe2762342be339afcc5b227dc4
     log: |
-         a0921d3c9662077fb370d19ab87c9e39ebe66efd ASoC: SOF: Intel: hda-mlink/lnl: Convert offload enable functions to void
-         49a75a3e39cda3621343ef6f83cacc6fa08d121e ASoC: SOF: Intel: lnl: Enable offload for UAOL link
-         bc100e50e5d8d44ffcf7ca1cdc0819ed68b8f434 ASoC: SOF: Intel: Enable offload for UAOL for LNL+
-         5321136165be23734d39ab432975c24d17cb0a96 ASoC: dt-bindings: imx-card: Complete the full list of supported DAI formats
+         f9ef3f66f4b18078e464b7606f9497e4dbeb9905 firmware: arm_scmi: Fix OOB in scmi_power_name_get()
+         9dfae7d2edb4422c2c11fb6f0198691ec58e1d79 firmware: arm_scmi: Add transport instance handles
+         ab6eb28a47d48c0c9edd885eca60fa5a39cc80b7 firmware: arm_scmi: Add a generic transport supplier
+         c08051901a55f8574968b606f960a70415be303c firmware: arm_scmi: virtio: Rework transport probe sequence
+         524abd2fa6907ebe2762342be339afcc5b227dc4 firmware: arm_scmi: optee: Rework transport probe sequence
          
