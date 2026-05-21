@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 21 May 2026 10:14:52 -0000
-Message-Id: <177935849257.2415843.3646599836863601772@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8981350415694164619=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 21 May 2026 10:20:28 -0000
+Message-Id: <177935882878.2421746.1930415979082620443@gitolite.kernel.org>
+
+--===============8981350415694164619==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 830d8771ae3c7bc90a62dde76a6556e612529fbc
-    new: 33fb2e2bc7a43c79f02dad79c39ff04ae6dc224f
+  - ref: refs/heads/for-next/hardening
+    old: 8f64fb098a5b1dfea57989fdf732b6168f0e1c35
+    new: a34039981e6deb0580cf3215bfda02731596eada
     log: |
-         920fdc4d21e3bbab10f4abe9294933c5eac38835 net/mlx5: Use helper to parse host PF info
-         a4f75c4238b07bcf5aa3b7e26eca4fa42444fd89 net/mlx5: Use v1 response layout for query_esw_functions
-         3fefa7e7c14b0714708c90a36f6429c4cba733cf net/mlx5: Use mlx5_eswitch_is_vf_vport() for IPsec VF checks
-         62af408fd772ba0194c007170f9e930ea71e01ea net/mlx5: Switch vport HCA cap helpers to kvzalloc
-         9244a323125cc56ac4a3062709bd0a00134a1c23 net/mlx5: Add mlx5_vport_set_other_func_general_cap macro
-         fa2852a28c5bb05b9ce7b0f6227d0b276b78c07e net/mlx5: Refactor mlx5_set_msix_vec_count() SET_HCA_CAP
-         d7ec361003fab246bd7b70e92096c4bbfee949ab net/mlx5: Use vport helper for IPsec eswitch set caps
-         4a3b5efee2e5ed06604268e1de399dec454290c9 net/mlx5: Generalize enable/disable HCA for any PF vport
-         33fb2e2bc7a43c79f02dad79c39ff04ae6dc224f Merge branch 'net-mlx5-prepare-eswitch-infrastructure-for-satellite-pf-support'
+         a34039981e6deb0580cf3215bfda02731596eada lkdtm: Add case to provoke a crash in EFI runtime services
          
+
+--===============8981350415694164619==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1779358827 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1779358817-3b088d8f77a3e459f37edbb8357555ac18ee6e2b
+
+8f64fb098a5b1dfea57989fdf732b6168f0e1c35 a34039981e6deb0580cf3215bfda02731596eada refs/heads/for-next/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCag7cawAKCRA2KwveOeQk
+uzOdAQC2YULb3b2qDNFFY0VI3gyoNkCFggC07p5sxCIokaNiQAD9HHorqcgG7qea
+xLmFmF2kbh9Euw4x5SBXU8C30bzirgk=
+=aU0L
+-----END PGP SIGNATURE-----
+
+--===============8981350415694164619==--
