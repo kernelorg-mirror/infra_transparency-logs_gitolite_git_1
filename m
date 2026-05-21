@@ -1,50 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============0861885113319693896=="
+Content-Type: multipart/mixed; boundary="===============8651791032414264013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 21 May 2026 09:17:02 -0000
-Message-Id: <177935502227.2349569.9138853971816239297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 21 May 2026 09:23:00 -0000
+Message-Id: <177935538070.2353498.2768976571054298050@gitolite.kernel.org>
 
---===============0861885113319693896==
+--===============8651791032414264013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kernel-7.2.task_exec_state
-    old: 0936d4bd4cce2626c479846b1734b48a1f20ca1e
-    new: f69c1300369967fe13b9baf2f231045524b53c72
-    log: |
-         f69c1300369967fe13b9baf2f231045524b53c72 Merge patch series "exec: introduce task_exec_state for exec-time metadata"
-         
-  - ref: refs/heads/vfs.all
-    old: a19bb315d89f2dbfc7f2c0c88200b05a7133c0d5
-    new: afa5946f37988213f6d43aa5f7388431463e2560
-    log: revlist-a19bb315d89f-afa5946f3798.txt
+  - ref: refs/heads/staging-testing
+    old: 6abf0b2df0b1c2205a4c0591425e6461afa62edb
+    new: 632b69132cd55e17e3efc84b9be947e8c59c8a43
+    log: revlist-6abf0b2df0b1-632b69132cd5.txt
 
---===============0861885113319693896==
+--===============8651791032414264013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a19bb315d89f-afa5946f3798.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f69c1300369967fe13b9baf2f231045524b53c72 Merge patch series "exec: introduce task_exec_state for exec-time metadata"
-9841f0665b2a1f3f371180ca3a7ba414d3273515 Merge branch 'vfs.fixes' into vfs.all
-00b72985ec548c186ac83ba5fa9690a9a48a22ce Merge branch 'vfs-7.2.kfunc' into vfs.all
-1752c32537c5139cf1f8d081f728d7b1a672575c Merge branch 'vfs-7.2.procfs' into vfs.all
-c8d28ce73841a8e4a3660971fa958d6bf446e0e1 Merge branch 'vfs-7.2.exportfs' into vfs.all
-53756d5e3310e456cad42637cf572f72dddd91f5 Merge branch 'vfs-7.2.inode' into vfs.all
-204764c00d5fd76d27daf8d878e870ddce3ba7e4 Merge branch 'kernel-7.2.misc' into vfs.all
-2018093d44fb9895f3e804e276bcd439e9745b0e Merge branch 'vfs-7.2.eventpoll' into vfs.all
-a8fe1bf612e0217f1593740bd29c41e719dcf17d Merge branch 'vfs-7.2.directory.delegations' into vfs.all
-7be8e9d170f207220643709e872ff4275f4711ae Merge branch 'vfs-7.2.casefold' into vfs.all
-c718b761caf0d9a0049093ed976f0d5abf47f6c5 Merge branch 'vfs-7.2.iomap' into vfs.all
-4407705a8517391d7efbd15bf65eba4838f9b7c1 Merge branch 'vfs-7.2.misc' into vfs.all
-fbc5ba84afc1a14eef4ada2f22830e9c28c28648 Merge branch 'kernel-7.2.task_exec_state' into vfs.all
-afa5946f37988213f6d43aa5f7388431463e2560 Merge branch 'vfs-7.2.openat2' into vfs.all
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779355383 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1779355377-87a7f1dc069bf49827f92e9fcb072837141b17d7
 
---===============0861885113319693896==--
+6abf0b2df0b1c2205a4c0591425e6461afa62edb 632b69132cd55e17e3efc84b9be947e8c59c8a43 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoOzvcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1x4P/Ahgi9AktLRN4zLUzRbY
+/qLH4Tk0njYe7tu+Q4D4C6k9ndlGIMnGVdRxL4lHQNB6lpoNm//Gycv03ESlOJBf
+MOfRDmzUyM2L/yK8zRO+2K3PPzCY0t1KGhzUjSDGwxGcE+yF3RwOWc0tJgNjRBkc
+WgCbckJFIB5zemvSoa1v/0VHlO5S66ibkneDdpv+ero8plvEBO6MS8Psef7y7J2D
+nbAm6f4sQqSea7ZzisKHmAokIPP2DSRWLrDPdz+QQMFLEDBNgq1LhqnHW2zOp6A3
+F/rB6+kXRmhHt5SN+FUhumwwCGNa4dbUe4/13T9Y/X2OVNNRW9Exj4s7L0V9om4n
+BWQvtq8Qhr4KWRys7A1y413Yxg1YFqFT4U+MGG0zbgKtoPYqfC66m2A0IyGHSn4m
+Lev9negz2EkC8wfCnmY/SpYf5eW3umqWFMWYXd3sz2g6Naz+jwEmotH2jli4Im4V
+bd9a+0P4YxJALy4vKrreuYCRwVH2byNmt3zR9WhhsSWtnDL2EmLg4KXjYTYyXgE9
+4fiNxadGZDCGct8SaFsxTGpG6THGg+iGNgObW+M36FsbNCGWxaJu+I3oBTwsylw2
+v3TmKEO2kNBXv8paL0e10LvlwN8NKkSwsCoHqYnMw2pEKKM5hbgY/Uff25U3kUK0
+7yRJ9OukQOhzeHomdJyaFwv6
+=iOQV
+-----END PGP SIGNATURE-----
+
+--===============8651791032414264013==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6abf0b2df0b1-632b69132cd5.txt
+
+be5e8d5f61b31105e0ed7f51cd591653aea5054f staging: octeon: ethernet-mem: replace pr_warn with dev_warn in free functions
+91442512943b50329f8f20ffc5db28e53782aff7 staging: octeon: ethernet: replace pr_err and pr_info with dev_err and netdev_err
+2191a8dfd1f5a3091e9f388899beb137686c6532 staging: octeon: replace pr_warn with dev_warn in fill and rx paths
+0007c790711717319977dc14cdf18b8fbce6d7ae staging: sm750fb: remove unnecessary initializations
+6602a11fdb2d9b23e0334b96ce77c0c343e9c913 staging: rtl8723bs: remove unnecessary blank lines in rtw_mlme_ext.c
+9f7da7b1f29d70f33272448ba9be773421be534d staging: rtl8723bs: remove unnecessary blank lines in rtw_security.c
+75f9613aef20b2e4d7b2677e71ab4be0bb4ec5be staging: rtl8723bs: fix unbalanced braces in rtw_recv.c
+9893f32976b5dd8ca6ed43a97794531d8d49981e staging: rtl8723bs: fix unbalanced braces in 3 files
+2014f38e4afa61e5925c0830fa00ef42be1c7adc staging: rtl8723bs: fix line lengths in rtw_cmd.c
+ed2b7541e7db47e589be6d20d8e6e9a9620addac staging: rtl8723bs: fix CamelCase of DelayLPSLastTimeStamp
+ab6148c24213771b86444f1e224c1f28946c6b73 staging: rtl8723bs: remove unused SysIntrMask from struct hal_com_data
+591e09e74971bbbba5dd825fd8130e98af8e12bd staging: rtl8723bs: remove empty InitSysInterrupt8723BSdio()
+a00e23438d608c9e9710781f69cbb447672a50f1 staging: rtl8723bs: remove overwriting of current IMR settings
+6ddafcd8c8d028c23ecbda6b08db33868f65eaf1 staging: rtl8723bs: remove unused SysIntrStatus from struct hal_com_data
+632b69132cd55e17e3efc84b9be947e8c59c8a43 staging: rtl8723bs: remove READ_AND_CONFIG_MP macro
+
+--===============8651791032414264013==--
