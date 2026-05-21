@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Thu, 21 May 2026 09:44:05 -0000
-Message-Id: <177935664530.2368612.13488137078124721288@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5812186154545492858=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 21 May 2026 09:46:15 -0000
+Message-Id: <177935677533.2371816.18259348632665035276@gitolite.kernel.org>
+
+--===============5812186154545492858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 8208d94f149a53311ac7687c051cb3a6d58063f7
-    new: 21e163988c87219b3973efe9ca934b7acf0e4fe8
+  - ref: refs/heads/review-ilpo-fixes
+    old: 53a8f95cbb407608ef77a864ad4a59f25ddd906c
+    new: 2a9ca96225ccc0bacb81f152482fe23175d37ac3
     log: |
-         7cc812e634bdea9958606eaa9d5ba3e5ec52e6b7 firewire: core: minor code refactoring for case-dependent parameters of iso resources management
-         9e38ee1c5522b1b6ba62e0766202bcc9979d6ae3 firewire: core: rename member name for channel mask of isoc resource
-         21e163988c87219b3973efe9ca934b7acf0e4fe8 firewire: core: cancel using delayed work for iso_resource_once management
+         2a9ca96225ccc0bacb81f152482fe23175d37ac3 platform/x86: bitland-mifs-wmi: add CONFIG_LEDS_CLASS dependency
          
+
+--===============5812186154545492858==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779356770 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1779356769-efecc8b58706fb8c933fa42f958646fa62adf032
+
+53a8f95cbb407608ef77a864ad4a59f25ddd906c 2a9ca96225ccc0bacb81f152482fe23175d37ac3 refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCag7UZgAKCRBZrE9hU+XO
+MYDUAQCuQrG3sa4Fsy8gD+qGzpPgZG3L3hExTXjx+NFi2pIFuQD9EsyKjk871ESK
+oABA+Lm29eqUU8AyEirmqVRE+PICCQY=
+=Giqx
+-----END PGP SIGNATURE-----
+
+--===============5812186154545492858==--
