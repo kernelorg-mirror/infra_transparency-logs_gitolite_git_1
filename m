@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7815583610751238711=="
+Content-Type: multipart/mixed; boundary="===============5499991008742066873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 21 May 2026 08:34:18 -0000
-Message-Id: <177935245849.2315587.14543153247577325344@gitolite.kernel.org>
+Date: Thu, 21 May 2026 08:34:55 -0000
+Message-Id: <177935249558.2315933.7886342600467790266@gitolite.kernel.org>
 
---===============7815583610751238711==
+--===============5499991008742066873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 329db447f8f02e82ff3acf130c892e1a4063d493
-    new: 542f5248cb481073203e0dadab5bcbd28aeae308
+  - ref: refs/heads/char-misc-testing
+    old: 5d6919055dec134de3c40167a490f33c74c12581
+    new: 570ff5c850e71b0d038758b91b5bbccea534d877
     log: |
-         8a3bee801d420be8a7a0bae4a26547b353b8fe22 comedi: comedi_test: Fix limiting of convert_arg in waveform_ai_cmdtest()
-         542f5248cb481073203e0dadab5bcbd28aeae308 comedi: comedi_test: fix check for valid scan_begin_src in waveform_ai_cmdtest()
+         570ff5c850e71b0d038758b91b5bbccea534d877 comedi: Consistently define pci_device_ids using named initializers
          
 
---===============7815583610751238711==
+--===============5499991008742066873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779352461 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779352498 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1779352456-ec9298cbf261565c4ef22cdd5db46c78cc474079
+nonce 1779352492-a96276942417f58ed4e15203770a126a2bfd65ef
 
-329db447f8f02e82ff3acf130c892e1a4063d493 542f5248cb481073203e0dadab5bcbd28aeae308 refs/heads/char-misc-linus
+5d6919055dec134de3c40167a490f33c74c12581 570ff5c850e71b0d038758b91b5bbccea534d877 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoOw44bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PTsQANA15MOWYJiUACXYZWf+
-yNFmNcuxIIB/Nkmey0b4s6SO3PqLAea0OkJIrKDrnw9QAi5xSJGLIh9YQO9qf4q/
-zJf4sD0TM4rX9dXVLtysxpF9f+YlcGCdIpunSL68JxZ3T7hFyp7pu/8cdT/IidMP
-qdHXp5H74dIzONbPHUsv0Vbm2ce7hQ2/XhH7X/YjahQ+K6H8fDnEonBbi0fjONti
-wlFelagZRoh9w1bcLuOpLFlw3VStIM9N16+/J5uxoApN6DDKKKuhd35EN+tGiL1t
-ntbaSxfeTZzlOqDiYw59OfNxNF4DQc3fmFjg2PlVWb3ey5nCI8VSkqCuN+dspneg
-LKHXxJFDCB8P2KD+13PEfYnqQVhUM0yQfju2lpWVF9vb9MQm6eorKx1PXDZHR/7T
-40qvs5o8v6bFJXZwCA8JWMwEMvWfVqbrfAGKwHI5ah/8LL0sl552vh+gqK7EptY9
-ihl97GwtqY526oQGvQz5UxJ704sIb2+TeESdxsnIp4vu6I2zMgLmpPX7rN1bXwnL
-CX92VnAADc9aUSSdbsUeRafYt0ylI2pC1kZPPQ9YjmXdCcUKufeR2qXcInwkdUd9
-wenGPN3YIlSRlJS38Cm9mRrE6klBUmir0hURUP3C4JcQzdJL4P71viwL+C5s4Oi/
-zGSIcDUMJ7QcSYwALXvNZr2y
-=JN36
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoOw7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WkYQAL1g/Lx1d9fL2CNWcXog
+WPVNNQ+dEp+sc/cyk/VxXzxMHQ/Nqqc0+s+f8jiUPvqz7rm9SYIo/V8xn2QJjsUR
+c9VVw0VFnz3oz3oe/tVLXkpATs30TVp+TGpoW1ajwA16wudjSHaVqZlmPwRCgGi4
+wZK1g022GGYolvvdtnGD3aMc3lU1FjYM/t170LSDN4qWQgBrriwCEv7PhibSyaW7
+N8xysD4EB++Hureh0JhoWJeKm0bG4Uu52/79sHxPxa+CFV3ZkfHvbc5WF2ly6t2K
+KGhBj8OzNLln5ZN4Jfy4O2dLFQDQ2mH25gdDeYA95JnpiyzKATl/YXLOwAj8foq5
+W5SyrM3z2UK+a2JiaNO6MkkjHGs/npKI5NRiw7i98e1q0Bw7YqMmPFfOKN807+TC
+nNyW94OQ0nhp3Cqm9rZpVlcbS1qzh7BcWrIAF3mYmBYJk+Du0qJmeuf8Mzc1yo00
+iDNkpXSpndChrQLWT+XIXVZDKz46B/7CEECDkyF5tBE8uTuhUpVVYQb5b05ugVnG
+0hxUwGGpwR1p9XUHsMFEcILiCxoJCGMKqax/HnSBCJ0wPXOiyzn7nYK6bSJhvANP
+FCvRg5HVeccjx4bw37qTq5cv+EaTUQC2nTbR9QndmsGd8TjnmFhbm1jZeHzXKx+o
+gYTpuy8lrgTrUSuoskVr6ieK
+=A0na
 -----END PGP SIGNATURE-----
 
---===============7815583610751238711==--
+--===============5499991008742066873==--
