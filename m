@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 21 May 2026 05:54:37 -0000
-Message-Id: <177934287781.2195098.15475747231066984116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 21 May 2026 05:55:18 -0000
+Message-Id: <177934291826.2197484.15961624959620737456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 27fa82620cbaa89a7fc11ac3057701d598813e87
-    new: 8bc67e4db64aa72732c474b44ea8622062c903f0
+    old: e59458ba6bae568ed568dfe6d47a57ed0c246cd0
+    new: 79b55ae6cadd973bb3515f6f3ab11adb7f076028
     log: |
-         4a9b16541ad3faf8bccb398532bf3f8b6bbf1188 lsm: hold cred_guard_mutex for lsm_set_self_attr()
-         593889c401426004bd0ea0f6d4fcece728b03420 srcu: Don't queue workqueue handlers to never-online CPUs
-         e312f536f647156ac55e2f12d021cf887af274aa Merge tag 'lsm-pr-20260519' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-         649932fc3815eda2f24eb4de4b3a5e94886ee0b9 erofs: fix managed cache race for unaligned extents
-         79b09c54c6563df9846ca3094bcfd72082c3e1d7 erofs: fix metabuf leak in inode xattr initialization
-         df685633c3dbc67441cc86f1c3fee58de4652ba2 Merge tag 'rcu-fixes.v7.1-20260519a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
-         8bc67e4db64aa72732c474b44ea8622062c903f0 Merge tag 'erofs-for-7.1-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+         464a6a9a724d57f6df0fad77b4a4610955361b7f patches/next: misc improves: squash fixups
+         531ffce38535ef9af4ba99f238738acdb60786af patches/posted: add minor improves rfc v1.1
+         de38f0113c18c285d2cf4de0f06af64bec2c80a1 patches/posted: add msgids for minor improves rfc v1.1
+         2a35fde205618c5e5282582cc44097d5d084bffb patches/next: minor improves: add proactive changelog
+         e5eb4e1ece520512f00811cd1a69d6614a0912b9 patches/next: minor improves: add vaddr target leak fixup
+         79b55ae6cadd973bb3515f6f3ab11adb7f076028 patches/next: minor improves: squash fixup and update changelog
          
