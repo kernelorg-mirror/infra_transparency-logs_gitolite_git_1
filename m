@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Thu, 21 May 2026 15:05:22 -0000
-Message-Id: <177937592212.2655671.14727347446072973469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 21 May 2026 15:11:57 -0000
+Message-Id: <177937631769.2660286.11645524339077942482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/fix_frame_id
-    old: c667ff3002d2dc2d7032437ffa5e01ca9b82b155
-    new: 27eadde7a6f691fccd5d2e7bc8c1ecb9b18658e2
+  - ref: refs/heads/main
+    old: 85fac50b58ca0e96dc8bfa649705cb901400877f
+    new: c367b9082194d01cb38bdefac6e887ebf1ab017d
     log: |
-         27eadde7a6f691fccd5d2e7bc8c1ecb9b18658e2 xhci: tune urb->start_frame in ring overrun and underrun cases
+         c5d93b2c40355e999715262a824965aac025a427 net: wwan: iosm: fix potential memory leaks in ipc_imem_init()
+         c367b9082194d01cb38bdefac6e887ebf1ab017d netpoll: normalize skb->dev to the netpoll device
          
