@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 21 May 2026 13:21:35 -0000
-Message-Id: <177936969524.2563737.17916375766971638269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 21 May 2026 13:23:53 -0000
+Message-Id: <177936983360.2564480.15700604820568213430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 72db52e0fa66ceb3adf70a2fa8bed4e7bf9708bf
-    new: 34e7117fc7abdc26caa02b4a83c006516e4b217a
+  - ref: refs/heads/master
+    old: 757cd98f4186e6e1e38b0a36539b78a20e93b5bf
+    new: 588a0267d8fabf146a0f35c85f30e06394fb526f
     log: |
-         03d8273542146f228c0019f08b57545fdee79704 efi/loongarch: Randomize kernel preferred address for KASLR
-         08ade00fbb088b8f5a1af706ee970c26cf842bf0 LoongArch: Skip relocation-time KASLR if already applied
-         5b710aa89343c5217889b7788e279565b36e0e5e LoongArch: Avoid initrd overlap during kernel relocation
-         0ccc9d47cf020994097ff51827cebd04aa2b0bf4 LoongArch: Remove unused code to avoid build warning
-         6b7bd407753676c43014171e2f1f19124608e477 LoongArch: kprobes: Use larch_insn_text_copy() to patch instructions
-         31483f9e99c3ebdcda70d290ec6a18c352f84819 LoongArch: kprobes: Fix handling of fatal unrecoverable recursions
-         34e7117fc7abdc26caa02b4a83c006516e4b217a LoongArch: KVM: Move some variable declarations to paravirt.h
+         2470448ed9d7ddff2347215a91b28de3a4565b0c tester.config: add missing CRYPTO_AES
+         0e55974d713b699166fe56f11974e8520596076b client/btpclient: refactor read-commands bitmap building
+         9074d38c5fed33cd6b611b9663f600c4f68bb741 client/btpclient: Replace advertising defines by shared ones
+         588a0267d8fabf146a0f35c85f30e06394fb526f client/btpclient: Add BTP_OP_GAP_SET_EXTENDED_ADVERTISING support
          
