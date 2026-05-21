@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3072933710224411699=="
+Content-Type: multipart/mixed; boundary="===============6484985833375859287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 21 May 2026 23:32:32 -0000
-Message-Id: <177940635253.3042413.5684172183561106118@gitolite.kernel.org>
+Date: Thu, 21 May 2026 23:39:56 -0000
+Message-Id: <177940679683.3066343.11290744230210208154@gitolite.kernel.org>
 
---===============3072933710224411699==
+--===============6484985833375859287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: fdb821a4c1ec0b772fcb433fb653749292ad424e
-    new: d1ef14060e80d140ce53f8b197bb6c38de70d3bf
-    log: revlist-fdb821a4c1ec-d1ef14060e80.txt
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 73835a6169657d71475c528d5808f05975fc81c0
+    new: ae955083b554ac3b4ffa4d1a6875dce58b301198
+    log: revlist-73835a616965-ae955083b554.txt
 
---===============3072933710224411699==
+--===============6484985833375859287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdb821a4c1ec-d1ef14060e80.txt
+Content-Disposition: attachment; filename=revlist-73835a616965-ae955083b554.txt
 
-6f36cac6e905796bf27ba8d594d7fc39917ca86b clk: renesas: r9a09g047: Add PCIe clocks and reset
-32b1a8f287d5ba86efecd0d9db3b8f392e57b131 bitfield: Add less-checking __FIELD_{GET,PREP}()
-10566a8001e0ba39aa3955cc950772614822f1a9 bitfield: Add non-constant field_{prep,get}() helpers
-d5115e9d964b5d284db66c00b1f31454765e1276 PCI: rzg3s-host: Fix reset handling in probe error path
-cfb874b7943747fd320cbc761401e74375ad33ae PCI: rzg3s-host: Reorder reset assertion during suspend
-e696e1e0d2b3246862d288fb875353399972ec96 PCI: rzg3s-host: Rework inbound window algorithm for supporting RZ/G3E SoC
-7ebdcd3d49817f5fcfe99928a15218ad674bef77 dt-bindings: PCI: renesas,r9a08g045s33-pcie: Fix naming properties
-744b516a42e7c7cc0f6acf56ca328559ad478496 dt-bindings: PCI: renesas,r9a08g045s33-pcie: Document RZ/G3E SoC
-7d9eef084a72af8587f9cf3e459c51c9335f39ae PCI: rzg3s-host: Make SYSC register offsets SoC-specific
-9d15d6884ad4f2ddce9dafbde87bf72f9ebdc2ac PCI: rzg3s-host: Make configuration reset lines optional
-15a976caa6e8c79631445a1204903ec85d8d9860 PCI: rzg3s-host: Add SoC-specific configuration and initialization callbacks
-187a7ac2ba9698b68632706d1fdea2b7a508b519 PCI: rzg3s-host: Explicitly set class code for RZ/G3E compatibility
-1cf81629e8b435171ba75cc0aea564d1eae1fb18 PCI: rzg3s-host: Add PCIe Gen3 (8.0 GT/s) link speed support
-022bac9de2a3d00a482fe26246c7922c4fa9a141 PCI: rzg3s-host: Add support for RZ/G3E PCIe controller
-260fa380bcced0310a121d136c059e88d7e6e1b3 arm64: dts: renesas: r9a09g047: Add PCIe node
-7be836584db210db319a840b8cb21d06a521951d arm64: dts: renesas: r9a09g047e57-smarc-som: Add PCIe reference clock
-d1ef14060e80d140ce53f8b197bb6c38de70d3bf arm64: dts: renesas: r9a09g047e57-smarc: Enable PCIe
+7b8e1764a7543ecee224cfceae1358fc735ccd08 clk: renesas: r9a09g047: Add PCIe clocks and reset
+8f685ab55408f5f34002cb4925ef832119eb38c4 bitfield: Add less-checking __FIELD_{GET,PREP}()
+bd9b74372900a95feff8560bea80763c73e90ebd bitfield: Add non-constant field_{prep,get}() helpers
+3466d40c63432b23ae3e9edf2df7d07aefa5a9a2 PCI: rzg3s-host: Fix reset handling in probe error path
+4f84f46a637cae6d49d14faa508b23ee5cb77baa PCI: rzg3s-host: Reorder reset assertion during suspend
+0c0dd0f35ad0d8067b3e8f57291b0e47a55eb01a PCI: rzg3s-host: Rework inbound window algorithm for supporting RZ/G3E SoC
+694c04774994cecfe60cb4d0e49be1b96f42ba98 dt-bindings: PCI: renesas,r9a08g045s33-pcie: Fix naming properties
+0d98727386aa34cdb7b0f070bf0a3341d456553f dt-bindings: PCI: renesas,r9a08g045s33-pcie: Document RZ/G3E SoC
+027c70a4648264052e7e95122730d922f47ae644 PCI: rzg3s-host: Make SYSC register offsets SoC-specific
+dca3735ece95c76baba77cbb0895d6be0add3052 PCI: rzg3s-host: Make configuration reset lines optional
+be3beb4ce198deb918cc6b75fa303239f7fc2a3d PCI: rzg3s-host: Add SoC-specific configuration and initialization callbacks
+9eca777ed27f60306c94fd5075a7f03bc9ff3841 PCI: rzg3s-host: Explicitly set class code for RZ/G3E compatibility
+b52c0309b0042b054f8a441ca625b1d132899823 PCI: rzg3s-host: Add PCIe Gen3 (8.0 GT/s) link speed support
+8c2b01a766ada7d5452b6744c2207c425db163d5 PCI: rzg3s-host: Add support for RZ/G3E PCIe controller
+14ad932a7d1f9962fe934f808a058650d4ebc56a arm64: dts: renesas: r9a09g047: Add PCIe node
+a7a973e4073da816a5c844cfcc94a704f3abd59e arm64: dts: renesas: r9a09g047e57-smarc-som: Add PCIe reference clock
+ae955083b554ac3b4ffa4d1a6875dce58b301198 arm64: dts: renesas: r9a09g047e57-smarc: Enable PCIe
 
---===============3072933710224411699==--
+--===============6484985833375859287==--
