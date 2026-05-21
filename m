@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1479060226437242837=="
+Content-Type: multipart/mixed; boundary="===============4010738720714040444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 21 May 2026 21:12:54 -0000
-Message-Id: <177939797407.2933739.6284784231035224689@gitolite.kernel.org>
+Date: Thu, 21 May 2026 21:13:31 -0000
+Message-Id: <177939801146.2934204.15282908601922111212@gitolite.kernel.org>
 
---===============1479060226437242837==
+--===============4010738720714040444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: dc7a9c0a4a32ea2abab9daf1a541fa99a6d3749c
-    new: 8df6d7b58e8c9e80377ee7f68843263561008ecd
-    log: revlist-dc7a9c0a4a32-8df6d7b58e8c.txt
+  - ref: refs/heads/nfsd-testing
+    old: a5bfe6b931a90df39cad2e9c9672488ac6cacd0b
+    new: 33e9ab952a864ae00bce7e47c3e9add1c4b3d3a3
+    log: revlist-a5bfe6b931a9-33e9ab952a86.txt
 
---===============1479060226437242837==
+--===============4010738720714040444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc7a9c0a4a32-8df6d7b58e8c.txt
+Content-Disposition: attachment; filename=revlist-a5bfe6b931a9-33e9ab952a86.txt
 
 16d990a15491cf76cd6eef0846e1b4100e63261a KVM: s390: pci: fix GAIT table indexing due to double-scaling pointer arithmetic
 b0bf14546bcefa4ea49f5efcd7db2a99f0cabde9 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
@@ -677,5 +677,82 @@ f5a82d890832df7d2827863273503ba5be732ff8 NFSD: Replace idr_for_each_entry_ul in 
 e2120e6bb7597922217a380d1802fa46e9ef6fd3 NFSD: Add NFSD_CMD_UNLOCK_EXPORT netlink command
 ed9cbf7cecec70ecadfaaea686e6a0aa90b3585b NFSD: Close cached file handles when revoking export state
 8df6d7b58e8c9e80377ee7f68843263561008ecd NFSD: Increase the default max_block_size to 4MB
+5e74837ae709be8c3eaae5c4629f1a8556e1e7ab sunrpc: prevent out-of-bounds read in __cache_seq_start()
+c7524fc5311449a1f8894b5168c2fb82cb76ce8e NFSD: Report whether fh_key was actually updated
+886a911749277491a4077d0fc928a1b679280594 lockd: fix TEST handling when not all permissions are available.
+e390d5794e73378bbde1eb8c265191b803eb69bc SUNRPC: Add Kconfig dependency on CRYPTO_KRB5
+ea6efffd59a3cebd1a86bdf4ed714cb429c7a495 SUNRPC: Add crypto/krb5 enctype lookup to krb5_ctx
+2caa33924732a0038da603bb49e750702487f084 SUNRPC: Add helpers to convert xdr_buf byte ranges to scatterlists
+7f6c2faf5f1cc13a40abc1020164383c579d29de SUNRPC: Add errno-to-GSS status conversion helper
+d42062093482c5ebcb8fd65bebe374d2b07927ff SUNRPC: Prepare crypto/krb5 encryption and checksum handles
+cb5dffd86bfcf52026acdcb00bb73a671f2cead6 SUNRPC: Switch wrap token encryption to crypto/krb5
+68569f5393eeae77893c128a32910e9295fa40ab SUNRPC: Switch wrap token decryption to crypto/krb5
+1269cb69ebacaca0637b2dc0246ed10a30571edb SUNRPC: Switch Camellia decrypt to crypto/krb5
+a51ec818de2fa8adb3e95b6b3865046490dab390 SUNRPC: Switch MIC token generation to crypto/krb5
+ae8299428903d2c1486962b2f854658012c5c28f SUNRPC: Switch MIC token verification to crypto/krb5
+c301a5c00e23e754cc2723eb37e1d79777a128e0 SUNRPC: Remove get_mic/verify_mic function pointers from enctype table
+406ec04fb1be2c18ce31eb2dcd343491a9994e98 SUNRPC: Remove wrap/unwrap function pointers from enctype table
+c0f3dffadb14fa13627aac13968c3845a7debb5b SUNRPC: Remove encrypt/decrypt function pointers from enctype table
+2feecefa052eb26347056683c7270108c811f37d SUNRPC: Remove legacy skcipher/ahash handles from krb5_ctx
+82de4dcc749c6e5788a63cef02792299cd337372 SUNRPC: Remove dead code from rpcsec_gss_krb5
+2b579f47326e0e3182506ae278ea8ac29be55764 SUNRPC: Remove per-enctype Kconfig options
+8eaa5d93f062a9b38e8ee726e7af7e4420879275 SUNRPC: Remove redundant crypto Kconfig dependencies
+cda5019dee5203e355268ea019f16059c48d166a SUNRPC: Remove dead rpcsec_gss_krb5 definitions
+178b94acc759f9f887f6670cf0781a0e7c3a3943 svcrdma: Release write chunk resources without re-queuing
+fe1b30add34599621afbbbb583f0658504c37ab1 svcrdma: Defer send context release to xpo_release_ctxt
+09340757d5bd17634f974a07bc540ff9c3c62ed8 lockd: Stop warning on nlm__int__drop_reply in !V4 cast_status
+98c2949af5e04f7c12440dc021c819166d79f81a lockd: Correct kernel-doc status descriptions for NLMv4 GRANTED
+f576d7719796fd1af7c1eee5763f2946bfdf87b0 lockd: Drop locks_init_lock() from nlm4_lock_to_lockd_lock()
+81f239357d0b2e73f2735083e046b8afec3fd18d lockd: Translate nlm__int__deadlock in __nlm4svc_proc_lock_msg()
+779f7bfc7fc78a4466281966e37e2619cd1e58c1 lockd: Do not monitor when looking up the LOCK_MSG callback host
+296c9cd32cd62da83a578f1fb7bbcf4a91663580 Documentation: Add the RPC language description of NLM version 3
+e997fa86183d567b382fe646a98cc61968745ac1 lockd: Rename struct nlm_cookie to lockd_cookie
+1f193a1bb9ece392f478416fb9c8bccde2f8fdc6 lockd: Rename struct nlm_lock to lockd_lock
+84f5a236bbb87fe6708a5317f83519dd5f879d62 lockd: Rename struct nlm_args to lockd_args
+e7d105d3946a9fb57e4ecc86f7966c43aec9a65a lockd: Rename struct nlm_res to lockd_res
+4337cf988ca53d85686476be8bfe2c96391e694b lockd: Rename struct nlm_reboot to lockd_reboot
+08bec9b7161205d18be5c7c520b7d23577bb57a5 lockd: Rename struct nlm_share to lockd_share
+c8cda44a3ba4595cfa5816697735e0c38ec0a2ae lockd: Use xdrgen XDR functions for the NLMv3 NULL procedure
+af3ddc2b353882eb0fbdb24609ab6cc49f1fad32 lockd: Use xdrgen XDR functions for the NLMv3 TEST procedure
+67044f40569490860fd960a48729180474e44aff lockd: Use xdrgen XDR functions for the NLMv3 LOCK procedure
+87c4e6c86fead64d1ccf571d7ec5b7321653a707 lockd: Use xdrgen XDR functions for the NLMv3 CANCEL procedure
+76346150747c291491450547795f8da3a72696e7 lockd: Use xdrgen XDR functions for the NLMv3 UNLOCK procedure
+a067ea9277f7d3df6dc58991d67ebd13eccd0790 lockd: Use xdrgen XDR functions for the NLMv3 GRANTED procedure
+bd118f9f8bed47621541adcf4db75c06a44f8fd6 lockd: Refactor nlmsvc_callback()
+919bd9d775ed0810773c4e609a4ae9c7285dd143 lockd: Use xdrgen XDR functions for the NLMv3 TEST_MSG procedure
+5733b19f2468b8c045b6750a891512fffec191a5 lockd: Use xdrgen XDR functions for the NLMv3 LOCK_MSG procedure
+5ab5341da4dcd85892da0dc43c516aac422fe6a5 lockd: Use xdrgen XDR functions for the NLMv3 CANCEL_MSG procedure
+ebe07ccb9bd807ae80a61a7b9f86527a543f217a lockd: Use xdrgen XDR functions for the NLMv3 UNLOCK_MSG procedure
+d96201dbb81d42ec0295657a9809110d16e52285 lockd: Use xdrgen XDR functions for the NLMv3 GRANTED_MSG procedure
+b0e76857bab1222e7cfc58f0e79a0f444785eeb0 lockd: Use xdrgen XDR functions for the NLMv3 TEST_RES procedure
+a90af81276765ca186a05e3e1fdbbb67d13d693f lockd: Use xdrgen XDR functions for the NLMv3 LOCK_RES procedure
+11e17af32a372741fc31f83b410899597aa3b585 lockd: Use xdrgen XDR functions for the NLMv3 CANCEL_RES procedure
+bc034a088a1a5b710193d78824f7aa76238de478 lockd: Use xdrgen XDR functions for the NLMv3 UNLOCK_RES procedure
+b902e57622dcd89f8479f31ff64d51e10e971af4 lockd: Use xdrgen XDR functions for the NLMv3 GRANTED_RES procedure
+a604f3d15ac04f1c8a699b6936a0438685dfa86e lockd: Use xdrgen XDR functions for the NLMv3 SM_NOTIFY procedure
+023a1855c686b4df360e4d90923fb10ea8fbf649 lockd: Convert NLMv3 server-side undefined procedures to xdrgen
+f462398336d3b7c1a2201143637533c461b1189c lockd: Use xdrgen XDR functions for the NLMv3 SHARE procedure
+c901dad1023255e22a02b78b754333243ce3f461 lockd: Use xdrgen XDR functions for the NLMv3 UNSHARE procedure
+266980bfe68ce59cf91e1d63b27ab24e165a03ad lockd: Use xdrgen XDR functions for the NLMv3 NM_LOCK procedure
+729428fe279d5a3e3b7db7156a156fd421780f97 lockd: Use xdrgen XDR functions for the NLMv3 FREE_ALL procedure
+982db6b3fb538aa336da1f5c15196e0783bf876b lockd: Remove C macros that are no longer used
+1895f22db91833c2e5af5ae3b8522774b63f71bc lockd: Remove dead code from fs/lockd/xdr.c
+99702ce80c5b690a9252c237823306c005ccbaba lockd: Unify cast_status
+66f89c4102b66b139fb47a2814c4ce21c5d93508 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+cdfbc23a51c7893c543ead3198f643fca2f89d70 lockd: Plug nlm_file leak when nlm_do_fopen() fails
+d3ccfe9724f2ded75028b58b67d593f391c29461 lockd: Plug nlm_file refcount leak on cached nlm_do_fopen() failure
+03fa9a8a6e4b4d3c8ba3c1cb434cba3b63e36810 lockd: Avoid hashing uninitialized bytes in nlm4svc_lookup_file()
+1e3c330639bc68e3760e88548d25b26602cd9730 nfsd: release layout stid on setlease failure
+d151428bbc9550c995a1bf4278f0cea7fada5354 SUNRPC: Bound-check xdr_buf_to_bvec() stores before writing
+fffa4575cfac8bd00533739007703d62ebeb47db SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
+ab23e7afdb9effb2b9d577885c63efecdff5db28 sunrpc: harden rq_procinfo lifecycle to prevent double-free
+13f11412a3cba30d4143b5663e275cf5981810cd NFSD: Fix SECINFO_NO_NAME decode error cleanup
+7a52009d67405f8d0189a89c95f5044315d11036 nfsd: fix dead ACL conflict guard in nfsd4_create
+b0485f8b0c56f39933622fbf3e85edf85fca6355 nfsd: fix inverted cp_ttl check in async copy reaper
+007371f5caab6802be78e6b0ab8d4606e415b173 nfsd: check get_user() return when reading princhashlen
+5e4e6423291a8cf99e103e453347687a3a6c89a3 nfsd: fix posix_acl leak and ignored error in nfsd4_create_file
+70fc0bf21190ed69d13291172ea7c4c688dd2d0f nfsd: fix posix_acl leak on SETACL decode failure
+116c1924f92df2b4e4d11e51b1f0c221ad52f845 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+33e9ab952a864ae00bce7e47c3e9add1c4b3d3a3 siw: Enable try_gso
 
---===============1479060226437242837==--
+--===============4010738720714040444==--
