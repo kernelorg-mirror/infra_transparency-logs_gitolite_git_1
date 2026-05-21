@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1585120375314404440=="
+Content-Type: multipart/mixed; boundary="===============7042210053504609203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 21 May 2026 17:43:21 -0000
-Message-Id: <177938540100.2778957.4299654792796591241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 21 May 2026 17:43:49 -0000
+Message-Id: <177938542995.2779354.16777691643203027924@gitolite.kernel.org>
 
---===============1585120375314404440==
+--===============7042210053504609203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 290c7560dd332cc87af89833bbed6de14be7730b
     log: revlist-85cc481af5ff-290c7560dd33.txt
 
---===============1585120375314404440==
+--===============7042210053504609203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dd3802fc4f6b52201a93330d44981a66bd6ef883 Merge tag 'soc-fixes-7.1' of git://git.
 f8d0db39bcc536ef652968c45ca23f8f27f58997 perf build: Fix fsmount.o build
 290c7560dd332cc87af89833bbed6de14be7730b Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============1585120375314404440==--
+--===============7042210053504609203==--
