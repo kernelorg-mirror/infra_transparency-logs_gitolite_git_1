@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 21 May 2026 13:49:26 -0000
-Message-Id: <177937136671.2586634.16056547615042223425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 21 May 2026 13:50:15 -0000
+Message-Id: <177937141583.2589050.9365917449247234292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 910a469edfa98eb15e2a5f7d5f668d19da7b2e6a
-    new: 53ae44709c35375f97bf44f12601099535b7cd22
+  - ref: refs/heads/master
+    old: 564844fbd167a335c5698579362b0d3fea8890ee
+    new: 7838c4c32eae5e90e28dd7b97377753ff7d4b09d
     log: |
-         53c815c8232482cbd8ebe688c886a09b649d1590 sunrpc: harden rq_procinfo lifecycle to prevent double-free
-         90db0ef740184dc3d8a0c0295580b097a0860a4d [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         53ae44709c35375f97bf44f12601099535b7cd22 siw: Enable try_gso
+         96031b31a4b3b6ec836b9fe7be8f6e6ebcfe8d67 irqchip/exynos-combiner: Switch to raw_spinlock
+         91f742be16497a435c929b3350d58b12acb16ce5 irqchip/renesas-rzv2h: Unwind on setup error
+         b3b8fce2173a6e9c07a67e69b032e72564c3ccff irqchip/renesas-rzt2h: Use pm_runtime_put_sync() in probe error path
+         7838c4c32eae5e90e28dd7b97377753ff7d4b09d Merge branch into tip/master: 'irq/urgent'
          
