@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 21 May 2026 14:42:13 -0000
-Message-Id: <177937453355.2634570.11866685775621312321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 21 May 2026 14:42:27 -0000
+Message-Id: <177937454726.2634827.6876656653570390997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/pending
-    old: 30d516006fa1f72f957c18c6171f5680dcdebfb0
-    new: 7aa7cd56aa2fb32de2fb266a557bde666ec6bcd9
+  - ref: refs/heads/main
+    old: 42734af6632ebebf90552f0e2dce4d8e72dbb9be
+    new: 92cc6708f4a2ce15433b8355f363d446429ba88c
     log: |
-         7aa7cd56aa2fb32de2fb266a557bde666ec6bcd9 wifi: ath12k: fix error unwind on arch_init() failure in PCI probe
+         dbc81608e3a653dea6cf403f20cae35468b8ab9c phonet/pep: disable BH around forwarded sk_receive_skb()
+         92cc6708f4a2ce15433b8355f363d446429ba88c selftests: rds: config: disable modules
          
