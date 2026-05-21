@@ -1,41 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4109746794253628363=="
+Content-Type: multipart/mixed; boundary="===============3713106237484925847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 21 May 2026 11:50:45 -0000
-Message-Id: <177936424543.2492730.11439127043936258635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 21 May 2026 11:50:59 -0000
+Message-Id: <177936425950.2493273.3548006894052817095@gitolite.kernel.org>
 
---===============4109746794253628363==
+--===============3713106237484925847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 687da68900cd1a46549f7d9430c7d40346cb86a0
     new: 550604d6c9b9efc8d068aff94dc301694a7afdee
     log: revlist-687da68900cd-550604d6c9b9.txt
-  - ref: refs/heads/stable
-    old: 27fa82620cbaa89a7fc11ac3057701d598813e87
-    new: 8bc67e4db64aa72732c474b44ea8622062c903f0
-    log: |
-         4a9b16541ad3faf8bccb398532bf3f8b6bbf1188 lsm: hold cred_guard_mutex for lsm_set_self_attr()
-         593889c401426004bd0ea0f6d4fcece728b03420 srcu: Don't queue workqueue handlers to never-online CPUs
-         e312f536f647156ac55e2f12d021cf887af274aa Merge tag 'lsm-pr-20260519' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-         649932fc3815eda2f24eb4de4b3a5e94886ee0b9 erofs: fix managed cache race for unaligned extents
-         79b09c54c6563df9846ca3094bcfd72082c3e1d7 erofs: fix metabuf leak in inode xattr initialization
-         df685633c3dbc67441cc86f1c3fee58de4652ba2 Merge tag 'rcu-fixes.v7.1-20260519a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
-         8bc67e4db64aa72732c474b44ea8622062c903f0 Merge tag 'erofs-for-7.1-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-         
   - ref: refs/tags/next-20260521
     old: 0000000000000000000000000000000000000000
     new: 1e45adb287ae5d431afc9900b4d387f4e73d9406
 
---===============4109746794253628363==
+--===============3713106237484925847==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1022,4 +1010,4 @@ ab3fb6e76c046796df59d89be6db352e7e45398e Merge branch 'next' of https://git.kern
 fc9000290da45d7ff5a0d9ffb8e1381de91aa9b4 Merge branch 'for-next' of https://codeberg.org/linux-nfc/linux.git
 550604d6c9b9efc8d068aff94dc301694a7afdee Add linux-next specific files for 20260521
 
---===============4109746794253628363==--
+--===============3713106237484925847==--
