@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7599013921664010886=="
+Content-Type: multipart/mixed; boundary="===============4881362074528421788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 21 May 2026 12:50:52 -0000
-Message-Id: <177936785212.2539883.2953468130749513461@gitolite.kernel.org>
+Date: Thu, 21 May 2026 12:51:19 -0000
+Message-Id: <177936787945.2540588.2476298873795113782@gitolite.kernel.org>
 
---===============7599013921664010886==
+--===============4881362074528421788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 5a873d77ba792410a796595a917be6a440f9b7d2
     new: 72db52e0fa66ceb3adf70a2fa8bed4e7bf9708bf
     log: revlist-5a873d77ba79-72db52e0fa66.txt
 
---===============7599013921664010886==
+--===============4881362074528421788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1032,4 +1032,4 @@ c790f00d8ecafc85c7c833d0318ae5002d63bcce LoongArch: Remove unused code to avoid 
 6fc0c2463697d04539ee0f603c6866ab4ddc8149 LoongArch: kprobes: Fix handling of fatal unrecoverable recursions
 72db52e0fa66ceb3adf70a2fa8bed4e7bf9708bf LoongArch: KVM: Move some variable declarations to paravirt.h
 
---===============7599013921664010886==--
+--===============4881362074528421788==--
