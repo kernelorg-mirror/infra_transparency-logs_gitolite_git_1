@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 21 May 2026 15:23:40 -0000
-Message-Id: <177937702067.2670405.8797624237559791180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 21 May 2026 15:26:25 -0000
+Message-Id: <177937718556.2673558.13851837632573738061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: bddc09212c24934643bd44fc794748d2bbb3b6cd
-    new: 4db79a322db8c97f7b73b8a347395ef4d685eb40
+  - ref: refs/heads/master
+    old: 0b580042a1a5478b2cf5f1ff66372b75392ad2a4
+    new: 3c2c428f25e25d18a496d7b04926451cb03652aa
     log: |
-         e46e6bc97fb1f339730ff1ba74267fbf48e7a422 ipv6: ioam: refresh hdr pointer before ioam6_event()
-         985d4a55e64e43bd86eeb896b81ceba453301989 net: airoha: Disable GDM2 forwarding before configuring GDM2 loopback
-         3d4432d34c1992701289cbe12df9fd024f315998 pds_core: ensure null-termination for firmware version strings
-         4db79a322db8c97f7b73b8a347395ef4d685eb40 net: gro: don't merge zcopy skbs
+         6dbf781d088546ba922a9a7baf97502365660a6e Bluetooth: hci_conn: Fix memory leak in hci_le_big_terminate()
+         628669434306e90870bdd2014ca742332f59301c Bluetooth: L2CAP: fix chan ref leak in l2cap_chan_timeout() on !conn
+         75780ca4c6a874eb820f4133ee468fe8a6d3624b Bluetooth: L2CAP: use chan timer to close channels in cleanup_listen()
+         6522ecbcd122083c8dfdc07e383fdd7056094530 Bluetooth: HIDP: fix missing length checks in hidp_input_report()
+         b3e1ce1381485cbbfc355285f91f53e5573d3e05 Bluetooth: btmtk: remove extra copy in cmd array init
+         3c2c428f25e25d18a496d7b04926451cb03652aa Bluetooth: btusb: Allow firmware re-download when version matches
          
