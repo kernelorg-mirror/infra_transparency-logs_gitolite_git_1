@@ -1,42 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1758147140068461418=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 21 May 2026 02:10:50 -0000
-Message-Id: <177932945053.2036321.4144511691721258129@gitolite.kernel.org>
-
---===============1758147140068461418==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 21 May 2026 02:12:21 -0000
+Message-Id: <177932954134.2036904.16074304732437406252@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/bugfix/common
-    old: c406ca4284e0d1469d66dbc9e6d4ccfd035759cf
-    new: 9f426aa7959c496e120d376e8833164480f89e94
-    log: revlist-c406ca4284e0-9f426aa7959c.txt
-
---===============1758147140068461418==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c406ca4284e0-9f426aa7959c.txt
-
-a984c9985f7a7e1ea70dc885ee547a55ab956b9c f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode
-dadafb6a47da9dc6a3dde7fd70ae9ca44d748a8b f2fs: add logs in f2fs_disable_checkpoint()
-5ab79d7cc24d71c7e1e67145f398a7aeb203718f f2fs: fix to avoid grabbing large folio in move_data_block()
-2f2c8e61a9caff1bef1750913a144e38a8f567b4 f2fs: use killable function to be aware of SIGKILL
-de64fdea67443ecd5230fdf5bf4ab654a38417f7 f2fs: introduce trace_f2fs_enable_checkpoint()
-c49559a9940a9a024e874d05908d7b9c93d73acb f2fs: introduce trace_f2fs_map_lock()
-aae63966bc5b00a73adcf6d4b227988695488596 Revert: "f2fs: check in-memory block bitmap"
-8d06023ea186308d80b0ca34f415c2e750e9f40e Revert: "f2fs: check in-memory sit version bitmap"
-8ade10ae299c381c2f6837d732c991ff49c1b662 f2fs: misc cleanup in f2fs_record_stop_reason()
-95ae999e5419160bfa23f515fb251bf7415d28fc f2fs: introduce errors=ignore mount option
-cf3065b1704a67c9159d26bfcbfd74227b49df01 f2fs: avoid unnecessary sanity check on ckpt_valid_blocks
-9f426aa7959c496e120d376e8833164480f89e94 f2fs: support to detect inconsistent type of segments in large section
-
---===============1758147140068461418==--
+  - ref: refs/heads/main
+    old: 24117f2f1dd4a254dee510bef54b23389fb862c7
+    new: 25ae123db10ba9ab890b56bcdb0a4363aee8529a
+    log: |
+         c67b104fd7982162885c5e43057ca761006748e2 net/sched: sch_drr: annotate data-races around cl->deficit
+         a4d880b85089e12a5f2e8e2fee386310cec5b99a net/sched: sch_drr: make cl->quantum lockless
+         0d8ba909a94fb49fd5f18de6f15e265d5b5187fc Merge branch 'net-sched-sch_drr-lockless-cl-deficit-and-cl-quantum'
+         25ae123db10ba9ab890b56bcdb0a4363aee8529a net: bridge: remove stale rcu_barrier() in br_multicast_dev_del()
+         
