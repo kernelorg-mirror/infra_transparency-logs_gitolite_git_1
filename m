@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Thu, 21 May 2026 17:55:59 -0000
-Message-Id: <177938615905.2789709.4524006552679513026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Thu, 21 May 2026 17:56:13 -0000
+Message-Id: <177938617363.2790078.17330482224771398118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/tags/kbuild-fixes-7.1-3-rc2-2026-05-21
-    old: 0000000000000000000000000000000000000000
-    new: ff163d64da10a13b7513cd00bd523f8fe14119e0
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: e3658d2b30fc6341dafc13b2e56c484dbbafab94
+    new: ff969bc41e9ad9b99c7a547ccd857638c498ad44
+    log: |
+         ff969bc41e9ad9b99c7a547ccd857638c498ad44 kconfig: Fix repeated include selftest expectation
+         
