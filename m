@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5678460576061298138=="
+Content-Type: multipart/mixed; boundary="===============7815583610751238711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 21 May 2026 08:29:24 -0000
-Message-Id: <177935216430.2311835.9619854289242377713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 21 May 2026 08:34:18 -0000
+Message-Id: <177935245849.2315587.14543153247577325344@gitolite.kernel.org>
 
---===============5678460576061298138==
+--===============7815583610751238711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 8d3bea93f483cb8f92b9f85d1528268a6469af28
-    new: 454257f6d124a92342dcbb7710c03dd6ef96c731
+  - ref: refs/heads/char-misc-linus
+    old: 329db447f8f02e82ff3acf130c892e1a4063d493
+    new: 542f5248cb481073203e0dadab5bcbd28aeae308
     log: |
-         454257f6d124a92342dcbb7710c03dd6ef96c731 sysfs: clamp show() return value in sysfs_kf_read()
+         8a3bee801d420be8a7a0bae4a26547b353b8fe22 comedi: comedi_test: Fix limiting of convert_arg in waveform_ai_cmdtest()
+         542f5248cb481073203e0dadab5bcbd28aeae308 comedi: comedi_test: fix check for valid scan_begin_src in waveform_ai_cmdtest()
          
 
---===============5678460576061298138==
+--===============7815583610751238711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779352169 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1779352163-512fc512b43d38a7d4ab552b0faf9f51e89abda1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779352461 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1779352456-ec9298cbf261565c4ef22cdd5db46c78cc474079
 
-8d3bea93f483cb8f92b9f85d1528268a6469af28 454257f6d124a92342dcbb7710c03dd6ef96c731 refs/heads/driver-core-next
+329db447f8f02e82ff3acf130c892e1a4063d493 542f5248cb481073203e0dadab5bcbd28aeae308 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoOwmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IsUP/1Dtb9vymxX/yzRfEjAZ
-ZvYS/nh5zI8Z0s4qUBliDDmaW8MeCsWHe5gjZVqv16l1BJl0s+7ZsE557qxhbzXi
-Cp7C4MEis5JNIlexAHooK88deEsjJIE2Vo9ryvO/68sP9bBdH2mIK0B73Xyk37NT
-B9J/zeHMh7GnBWRqnwfymsKYYR8bktEESb3/qr/4fjD+wSgaYqmuk9L+0KdzmLxl
-SEPQw3muVLrbydMvG4DhR92BRRhOvRjPpoP5j1vPKQunFuiLcmbg88pk5L5Yf+xT
-N/692WHUIwAZOD9thwZ1N+3EZzEDLc7PFaztgco6rf1gb42THAm9/NCwg3FlGIKQ
-u9aYsYqLSuBjkS/0mkJ9uP7tz9RzO7ZcKVDdkq8EfX9Z807THy9D7nGKQBM7W+iZ
-NvBvr+kFhQzPtmjAHgrk0tewi7sQDG696Qa3HMKXd47yRgmlY5bB7oJ1YoDb9zja
-Otx7eHn2bh0Z74ZpsmX1nwl9hXN3ncgIq2gPlwOAyuUCOb7eKyHiwNKf6yETbRel
-w31lNGXKPxv5qk0RuacMIZj/utghZV4LZCevqhTYbX36oKbBvGaS6+BCrwwOI9G1
-mbz519lFCHBKxtNBaMFjf1ehiIcSzRzH4609fgMtY2nV2L9uog7fKdzdlniyyAW1
-Vs/k7QNK4WEwviwTz4bk03ZY
-=jdWI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoOw44bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PTsQANA15MOWYJiUACXYZWf+
+yNFmNcuxIIB/Nkmey0b4s6SO3PqLAea0OkJIrKDrnw9QAi5xSJGLIh9YQO9qf4q/
+zJf4sD0TM4rX9dXVLtysxpF9f+YlcGCdIpunSL68JxZ3T7hFyp7pu/8cdT/IidMP
+qdHXp5H74dIzONbPHUsv0Vbm2ce7hQ2/XhH7X/YjahQ+K6H8fDnEonBbi0fjONti
+wlFelagZRoh9w1bcLuOpLFlw3VStIM9N16+/J5uxoApN6DDKKKuhd35EN+tGiL1t
+ntbaSxfeTZzlOqDiYw59OfNxNF4DQc3fmFjg2PlVWb3ey5nCI8VSkqCuN+dspneg
+LKHXxJFDCB8P2KD+13PEfYnqQVhUM0yQfju2lpWVF9vb9MQm6eorKx1PXDZHR/7T
+40qvs5o8v6bFJXZwCA8JWMwEMvWfVqbrfAGKwHI5ah/8LL0sl552vh+gqK7EptY9
+ihl97GwtqY526oQGvQz5UxJ704sIb2+TeESdxsnIp4vu6I2zMgLmpPX7rN1bXwnL
+CX92VnAADc9aUSSdbsUeRafYt0ylI2pC1kZPPQ9YjmXdCcUKufeR2qXcInwkdUd9
+wenGPN3YIlSRlJS38Cm9mRrE6klBUmir0hURUP3C4JcQzdJL4P71viwL+C5s4Oi/
+zGSIcDUMJ7QcSYwALXvNZr2y
+=JN36
 -----END PGP SIGNATURE-----
 
---===============5678460576061298138==--
+--===============7815583610751238711==--
