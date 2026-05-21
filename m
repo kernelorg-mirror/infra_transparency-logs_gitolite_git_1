@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Thu, 21 May 2026 22:20:14 -0000
-Message-Id: <177940201465.2985751.3920573138252892484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 21 May 2026 22:20:58 -0000
+Message-Id: <177940205895.2986353.11451396712268331689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 2ce1f1f568a482cbfb1ce2bbf946046f0b226c79
-    new: fe38067406f040d0b30006f87cd5a183c68a0658
+  - ref: refs/heads/tvs
+    old: a8e63a4eb29267ba6d666e969ae0d6ddae1a6bd4
+    new: 731f0eba48504bc0c90120cf434bb660f8a7d37a
     log: |
-         fe38067406f040d0b30006f87cd5a183c68a0658 Add support for reading energy meters over suspend
+         731f0eba48504bc0c90120cf434bb660f8a7d37a hwmon: add a driver for the temp/voltage sensor on PolarFire SoC
          
