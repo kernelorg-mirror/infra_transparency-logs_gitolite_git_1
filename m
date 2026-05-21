@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 21 May 2026 14:15:12 -0000
-Message-Id: <177937291211.2611278.3318477986889312730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Thu, 21 May 2026 14:15:39 -0000
+Message-Id: <177937293967.2611887.7332248499140803162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/main
-    old: c4e4f2099f32ae642eafb72b4235a196e17446a7
-    new: 0b3d2f91df7cf5da3dbd15decaf01e8d849f4a2b
+  - ref: refs/heads/for-7.2
+    old: b66cb4f156fe47f52065e70eb1b2f12ccd0c2884
+    new: 4d56efe69decb086796b68826aad2a4eeb9b788d
     log: |
-         72a09795db6545946f1ea2d6955c9bfb9e02d89d cirrus: cs35l56: Update firmware for Cirrus Amps for some Dell laptops
-         0b3d2f91df7cf5da3dbd15decaf01e8d849f4a2b Merge branch 'robot/pr-0-1779371264' into 'main'
+         d1c9b60b6d7bb6ac973e9fb3f430618ab237ea9b vsprintf: Only export no_hash_pointers to test module
+         4d56efe69decb086796b68826aad2a4eeb9b788d vsprintf: Add test for restricted kernel pointers
          
