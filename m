@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0854448468931018565=="
+Content-Type: multipart/mixed; boundary="===============8746357716141623432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 22 May 2026 16:17:13 -0000
-Message-Id: <177946663386.3919147.11375804244101865601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 22 May 2026 16:17:17 -0000
+Message-Id: <177946663723.3919287.5833774120470758925@gitolite.kernel.org>
 
---===============0854448468931018565==
+--===============8746357716141623432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: caa7a3711862615c5f0be9e8196518b823ae227a
     new: 4de16aa84229011a3f4139b37f7525ee1804c771
     log: |
@@ -29,28 +29,28 @@ changes:
          4de16aa84229011a3f4139b37f7525ee1804c771 ASoC: stm: Use guard() for mutex & spin locks
          
 
---===============0854448468931018565==
+--===============8746357716141623432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1779466632 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1779466631-10c2f5ccf8823695ca4dd8cdae2fca90c6f41807
+pusher C3F436CA30F5D8EB 1779466635 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1779466635-a7138bbdd5d357eecb1c85577156eec403734161
 
-caa7a3711862615c5f0be9e8196518b823ae227a 4de16aa84229011a3f4139b37f7525ee1804c771 refs/heads/for-7.2
+caa7a3711862615c5f0be9e8196518b823ae227a 4de16aa84229011a3f4139b37f7525ee1804c771 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoQgYgACgkQJNaLcl1U
-h9Dizgf9HbNQO1f6fnm9pkJrCLo5ixZhCNfkfRqihtUqBZOIlpvNfK+FL46HOR0O
-ZxoKwlAvuRZ7+zMCzYwNOba/rPYcP3foMCATZ1V58i2LgLUcJSRNtNuzxi2n3OLq
-qkByILvS6v/V2Jy8fpqRW5hBNmS1sVoP8ycqEh7UxW/4w3Hv/mk6w8Nsp/A6M8MZ
-wnKOF2MfFUU7uFMyrMNlkN/BqRcKhF34q5iMya8FGBShEFLgVokY5YnIRXF1Affx
-WHTs41lPr9sIGghryKKK7Y/icyx5O3QBaDSxeZLfW0aZ+p2c+Hjyutt8JXF0HcXe
-IjMEM+e0FZ1r7wHtytQBnmy5r3fsgQ==
-=0hEc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoQgYsACgkQJNaLcl1U
+h9Dwzwf9FdhcEN7rFn3akgS8lEjIlYkOeGZT4Ila7hb4EwDYX1pwKh6hpJ/0FTQ6
+JYB5n+DEf98mdwOAT0x0P/1/1iK5YR0DJD63lcQ6RFfVZx6fx2+HjJPrDwcTA0/v
+YUFy2b0PBZ3a7IT6UxMGcaGnsc0GtB6CMX4TMXlCDWvuhGTZKleJmHLF/3woVy0U
+Y98HZTopmrvJS4aZIkJ7TPGOVC1UrfPW0WEjFMgsmZU9ELUqZgJOV/RKa8aQ+zWW
+OJ9Z5MbrT4hbbR4aRlwn9ONjFTBO+m+n51d2yfMwZX06YcjnEshHdcAlFCFR4LXZ
+vFpQLd/urYEyUD9gh1n/A2s8d8EoKA==
+=P6br
 -----END PGP SIGNATURE-----
 
---===============0854448468931018565==--
+--===============8746357716141623432==--
