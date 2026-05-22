@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4353114369264965536=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 22 May 2026 07:38:36 -0000
-Message-Id: <177943551652.3515582.884454508988332543@gitolite.kernel.org>
-
---===============4353114369264965536==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 22 May 2026 07:42:57 -0000
+Message-Id: <177943577791.3519232.11521055213842620707@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: 570ff5c850e71b0d038758b91b5bbccea534d877
+  - ref: refs/heads/icc-next
+    old: a24b55c5c084f6bf5a808ec1525f25d6c6a4ebe1
+    new: 94fe92d2f662b990da2ef9788bbe3bdcfe086731
     log: |
-         570ff5c850e71b0d038758b91b5bbccea534d877 comedi: Consistently define pci_device_ids using named initializers
+         981b834302a177b9707700ba08d2cbf3ad0523f9 Merge branch 'icc-shikra' into icc-next
+         21f951515a55565904a0f7b2e70ff915d11938f9 Merge branch 'icc-nord' into icc-next
+         67a4412db03d9b653791179069ec71a54051e398 Merge branch 'icc-eliza' into icc-next
+         e15836e4aa684d4f8d84376c54d3fd202e1bad50 dt-bindings: interconnect: qcom-bwmon: Add Hawi llcc-bwmon compatible
+         07548b04dc36678898f1d1274c2e1731ce264701 dt-bindings: interconnect: qcom: document the RPMh NoC for Hawi SoC
+         ffaa88a08486f6703434fd5ad81da6775f5c984f interconnect: qcom: add Hawi interconnect provider driver
+         0d0a40e3f86ddf4ee364d806b863b53bb825ac7d Merge branch 'icc-hawi' into icc-next
+         94fe92d2f662b990da2ef9788bbe3bdcfe086731 Merge branch 'icc-misc' into icc-next
          
-
---===============4353114369264965536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779435521 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1779435515-0b8f2695dc52987ea1a1bc2c6b986d1c8c7efb0d
-
-5d6919055dec134de3c40167a490f33c74c12581 570ff5c850e71b0d038758b91b5bbccea534d877 refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQCAEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IW4P/2XvJbqn/5iVPF2cgp6C
-IutxDHuCnyBjLQtK6++t3+/1Wwl4fI6TOR7b6AnbSeLKwgDRwd2TiDMysoQ8c62F
-GVsfdsGHAP4kIDPprLTKgwY4CoaIhpMok34nazkBZzT6ddBmgL/g3jZ6GExlrSWO
-UbyMRAjY9NboDRyjdZGxC/W8XANf1GBNugishZXyEJ4yIydF0Yy/rhwlOBSOZQ82
-Xq11x0vzVQLIgxnVpsdtF0JTuYoEcKBhUqLg6sVXhmxeq6OzV3zhCO1A0vVwZaiH
-LxhIx+0VBwnUYWj1emgYzqNB+vI/rKzycJfi1emHBMj5SQetKnGlegEeLy0SezGq
-J6Tp3XjKV6UEmBJnESR3BeNbbefNdE/Y9I5TjjNE5fswBOecFIU43pDBmF5QGbtq
-7TkCOCjebEn+ii28mSvgfp1IyaY/ybPUcPDrNlfXqG1Be5gej0VEcsBU/XTY9g4M
-YxyDRq9HtUCuxa+uGINKW6OBunZN66tqViHziXHAx46oWPkjaTUf+uU5OB6d9xRo
-X1M0xlYqJrDghliFGEtJaVZ1iHmex5h0pnO1N/mjXxVa/lf8gpmRfbnc+jUfVf4n
-cJUxdmXFTweJkbJJTBUlr1davijIndEUMe2g+yKr/tvxN8on4IneQGLmxP1L+Oqy
-nMXXrwolowPPjrvrJr9PsctZ
-=y+Pz
------END PGP SIGNATURE-----
-
---===============4353114369264965536==--
