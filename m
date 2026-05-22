@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8406091157778638968=="
+Content-Type: multipart/mixed; boundary="===============7407592663868366393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 22 May 2026 09:27:47 -0000
-Message-Id: <177944206774.3601557.17781759281518001747@gitolite.kernel.org>
+Date: Fri, 22 May 2026 09:28:16 -0000
+Message-Id: <177944209666.3601956.8067973910801948800@gitolite.kernel.org>
 
---===============8406091157778638968==
+--===============7407592663868366393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 9ea06a3fbf9f16e0d98c52cb3b99642be15ec281
-    new: 5eb070769ea5e18405535609d1d3f6886f3755bd
+  - ref: refs/heads/usb-testing
+    old: 16abda69f44099626a972589f163c108bdb99cfb
+    new: dd0c03d685225cb8fc60c477417d1b9c3b05ba9d
     log: |
-         5eb070769ea5e18405535609d1d3f6886f3755bd USB: cdc-acm: Fix bit overlap and move quirk definitions to header
+         a3fe1408e801b3406d2786557bcea8838973c036 usb: chipidea: udc: add a helper ci_udc_enable_vbus_irq()
+         dd0c03d685225cb8fc60c477417d1b9c3b05ba9d usb: chipidea: udc: support dynamic gadget add/remove
          
 
---===============8406091157778638968==
+--===============7407592663868366393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779442070 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779442100 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1779442065-dbb8fe2053af96e41ec40bf7d545cf42d1e4110e
+nonce 1779442094-8dd2f2c64e689b444370f9a9f5ccdc35a4d7a5eb
 
-9ea06a3fbf9f16e0d98c52cb3b99642be15ec281 5eb070769ea5e18405535609d1d3f6886f3755bd refs/heads/usb-linus
+16abda69f44099626a972589f163c108bdb99cfb dd0c03d685225cb8fc60c477417d1b9c3b05ba9d refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQIZYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J0YP/ilJDZRATfWAUbplGCvn
-OeRKMEsNrEm4UJmRJkPjUTJv876lOU6aPQolXHlLIGYZQCCxSyWX7xdjPCGdM+Fm
-VxwgsUWJVgPV1wXjM82Qj9TxKQHx5F6LYUSQB69mCSerwZIZe/CoRQHtGkzBeSZG
-inOIE5aqX4angfiUgtmkVDrSWhYi6bNBkjERlXp2zaZsNQT3pUpnDNxWN5EL6BFd
-0YXtUtULBrqoAdalOL3ROu4IklBWh1u1/ARLjr6DSWhu3nvG64kGziPPueo+pQrQ
-cxQEGuzzB01Rm3tDkHRGbIFYhZD0ywfeGXeJIQC5zWjyqBUTR6XrHipGFIWysMDA
-/vrW1wc936Pwbv4dIer1NJAwnDdX0YrDb1i6yqjugIVMLuqMo2YpTe+JK4Xx6ZZN
-hNPll+EAOpitmS5+cgJBeGPattz6usJOiDhoq7ixXWEDaSHxXT1A0cHUTLli9Y1h
-yDuKY7J9fFV4IhwG1O9c8k8q4ErXQ+ToFl97CzrdE+yf/OhtvJI9pTv31qs3GxJ7
-sWR2N6l1CVrYyp/1EfNsrjRHU/frx87RqEwRiFvjQ4ARqOjmh6n8kO3w/Rw1X2Jw
-VN00oczX5TDTnGmysLCTMir749JJUqs8zRUsSmQ3qnkLY+B10RIzQJjPQ+7qsraW
-zBEaZx6P819J3kD7KTkTVlXh
-=7yRg
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQIbQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P8sQAIxn97KH/1XgbDSsQM4g
+opuiFwruq2frDN4bpYfMXNXs7gs4QTZqW5CB73c04TmT0TvSXzSuXfZl71sRPV2G
+36vCCvNjHvaE+5adkQq8HuWAq8WTYBgOfCf31wVCCeH0j/6eS45m2J7f4eiEZ2BX
+K1f1kKmUh3KsVVSSGKCvOnZp9sWSelX7LdrHoY5u4fIHmEeunHlsY9DNeMuVlpY7
+UcEAyjs1YYIGMJpcuQE3YY8kj91lzfGKn6OFU+Uw+zB7MTZibbsDTA6OGBcaU50g
+8zC87d+XKYPqCQdm7Tt/eNAx3xXPKoiIBSmVfEzHCycl44PMkErXR08GmqoHbETk
+LYVZ85HN6XKVKXjDM6Tc8Xq6AwXH+UvEZ6wGLpu7Gcn3EeY+Q6Yd38KYRXyzRseq
+oNfanvYDSCd9+Ld22hUj2kFGFKJXmsGgWk3EOqQUzAJehm4uTxinq6B9UptJ+4Mh
+WsVj9O+6TIXTIvnAsNO2NUdPPV8FnWIvC4lvAFgSGieH9SOBSctlCyoArMCmXyMl
+JalRvZoy51LfY5OBAeLlS5GdTH5JU2sQLYJwSVBlADO0nRlgapm5tmkHGJaNb0Jq
+AlRvS7pZ6sg7CPmx8arXNuf2pHv9w1BhPYLcrQ346CQa61vMtbv81qSGbOY4Oa9O
+kkMVLs2vRgSQD+n05w07pkjE
+=Ig81
 -----END PGP SIGNATURE-----
 
---===============8406091157778638968==--
+--===============7407592663868366393==--
