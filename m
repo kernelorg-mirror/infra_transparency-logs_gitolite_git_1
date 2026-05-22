@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7096417954428341915=="
+Content-Type: multipart/mixed; boundary="===============8437509157791724412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 22 May 2026 10:11:51 -0000
-Message-Id: <177944471119.3636167.2330372050592642514@gitolite.kernel.org>
+Date: Fri, 22 May 2026 10:15:56 -0000
+Message-Id: <177944495651.3639845.4629359027206198682@gitolite.kernel.org>
 
---===============7096417954428341915==
+--===============8437509157791724412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 570ff5c850e71b0d038758b91b5bbccea534d877
-    new: cd2f90cc4c27993d9e4bc531b601c13a98c2a7c1
+    old: cd2f90cc4c27993d9e4bc531b601c13a98c2a7c1
+    new: b993a10142842fe21b3d226bf2506057c0682390
     log: |
-         69704a062f61d6ceb79b7e5487091997c0d2dfb1 rust: poll: use kfree_rcu() for PollCondVar
-         8062c98440aff5406cc6a523207db2f0f60384f3 rust_binder: move (e)poll wait queue to Process
-         620c160990c5620de6ee3a8ef2c6008df3aefb9a rust_binder: use lock_vma_under_rcu() in shrinker
-         cd2f90cc4c27993d9e4bc531b601c13a98c2a7c1 binder: Use LIST_HEAD() to initialize on stack list head
+         8a62e1cfa0931b2031e7a08645d059cbb880d6be rust: miscdevice: use vertical import style
+         3c983666edfc3ccb106521b05703af8b9b6bf79b samples: rust_misc_device: use vertical import style
+         b993a10142842fe21b3d226bf2506057c0682390 rust: miscdevice: remove redundant imports
          
 
---===============7096417954428341915==
+--===============8437509157791724412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779444714 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779444960 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1779444708-2728ac4128d7244fe4769b2a39a3192c571582fd
+nonce 1779444954-2732e30b431fcf504d09818e50f40fb390733177
 
-570ff5c850e71b0d038758b91b5bbccea534d877 cd2f90cc4c27993d9e4bc531b601c13a98c2a7c1 refs/heads/char-misc-testing
+cd2f90cc4c27993d9e4bc531b601c13a98c2a7c1 b993a10142842fe21b3d226bf2506057c0682390 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQK+obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yP4P/0Zo6FlX4r8RbUCfTDAg
-0l4Md19JFlqif1av7qGoCH8KvdkM2tY7lotV5fFrOlaLu0VBXUOs8V7xNXMLHE8f
-pJGRBqOcXslcSmTXNJlDMBqLyzcYxMD1iSYp02PHpqTgLRiXFdarcojVqs3NoxkN
-G3Um9ZbUn7mmlD1nhOBGqKWl/OJiyGFlEStwVkMk/LlctWY1WZW5BEZhStz5BeB0
-DdBeFalK5h9MiLQKKygnHh/+iQ4TCKafKmo/3b9xA5rIffRAgxKbG0Q6QJFaHluT
-OW4CNqzG2b6zJ+uNWt757EVCJgJEI4IvrKakZfjke+/g6QAHUS9o7xezJRIj8xod
-qZOzFt9GtkSId+eEjB0Fng7Ns4EJwRkbW5VDXIGpxHpYYpcx7mm8/Bsyq9mjpLkT
-ND/NVaQKBRNq/J3AtCCikDwqAnwVTgxC3IHxhLI23bU8gDSv8QgjtLa0sWiYJlxz
-hHF8F+tLULnSwNfYz9xNZb2ekaZYiah0LbnPSd/0QqVLlZGupxzLmjkDE7odeCq5
-6KAbp9itd40haLR23Dh/1I6bfjJCZmiwo2Y4boN+J0HyOij+np4wWbwSzcPS1OlW
-+swKDPHDn/3t9f/YSzlEI/JptLpSspK0aRiwoRJ34msEp+l0xlJ6m5YpyxSoRL3S
-SQXoXmyQJrM90oSu8SCXt1i2
-=0VfG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQLOAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AToQAJGch3FfPRRO0PBQvr8y
++yXvt3+Cquom9GDOBwJzs1hIQSRS4PPn0JVQJO6I/i46j7pwGTmoThAaC7OC8a/R
+frFR+tkbS2TlgX4HvfdwumgkLgkNi5C9QwmRekl33RHt3l2BGyIwieIObA5sxrTb
+uMal4Y9rUEXWKa7/c4mlp8nfZopw7YY/axabGrB4NWgm/oTfUMBHws+TLKJIGzok
+fadGQYFDjyH79ndij84wuxqSnOPthY0qdxxAc9RkwicfebNNAXd02EjrKKBmv1kU
+x9CJqdUX2P2xRyEP7VoGWAuW9Ke6odMOJmXNn9DvFtlXGL1/YIpNygO6zkAjPJYE
+dnN906f9o7KCK1UksWMuZ/fGq5WXS1QCFAtGCDo18d4epA8VhrRIoza8SlDpKqrG
+KZUvvk4i25mCnlKBdUP5LucJUIaZIcaOBxCJELNZwViVFmR2ZfigicXsAeY4SWCo
+raM+9GKsLmQpREbpDtXgorH5+SygquxJm79gfGAeKAHw0uyQFf9Un1bnOh9uM9ke
+yqwqZZ5UMTJpLZ2pq+tcOsC1jV50p5JdffELGT8//IQ6YEiIx6ZotzeRkxSuSF+i
+ulie3QOrAxO+lDcLNe4lMBVIwKfFYPiO0h/l/5DoPDPLHQbQEfeGBwA2Lq6BdheC
+Yn24z0qnAVLKU1WPcmyI0N31
+=1Yse
 -----END PGP SIGNATURE-----
 
---===============7096417954428341915==--
+--===============8437509157791724412==--
