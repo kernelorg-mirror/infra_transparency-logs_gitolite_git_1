@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 22 May 2026 17:15:16 -0000
-Message-Id: <177947011638.3966352.9980280591337048096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 22 May 2026 17:21:02 -0000
+Message-Id: <177947046262.3972152.14319798612244249103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/main
-    old: a04b42c670f854228ebee835e21ce13eb4873081
-    new: a679b0399f6ad1c2e1921130c7b5572358281d84
+  - ref: refs/heads/tdx-module-update
+    old: 4ddc83a14305445581392b0b6c9e51c7fc40b705
+    new: b5862fedb97f53deff196fa9657597116e3086da
     log: |
-         9357f2b5010a27f7be52f706403707e8fa5f0016 i915: Xe3p_LPD DMC v2.37
-         a679b0399f6ad1c2e1921130c7b5572358281d84 Merge branch 'intel/dmc/xe3p_lpd/2.37' into 'main'
+         6693d4c89e884a1e277cac31a396afbfb3210327 x86/virt/seamldr: Add module update locking
+         4df1ae579749ccc85ee46cc0caad04eb908ddd41 coco/tdx-host: Lock out module updates when reading version
+         6e49a980dea9ca6ca12ca78e33578d11b6752fcd x86/virt/tdx: Refresh TDX module version after update
+         b5862fedb97f53deff196fa9657597116e3086da x86/virt/tdx: Enable TDX module runtime updates
          
