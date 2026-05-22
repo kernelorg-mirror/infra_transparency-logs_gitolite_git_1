@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3672046534904172827=="
+Content-Type: multipart/mixed; boundary="===============5038943859712591696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 22 May 2026 04:25:07 -0000
-Message-Id: <177942390706.3322217.1546971026842234965@gitolite.kernel.org>
+Date: Fri, 22 May 2026 04:25:32 -0000
+Message-Id: <177942393264.3322674.1171986221039621299@gitolite.kernel.org>
 
---===============3672046534904172827==
+--===============5038943859712591696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: ee08959723aaefbec4456017787c7f7826d8afd2
-    new: e10b499e702c365ed78c2b874970333fbe221fab
-    log: revlist-ee08959723aa-e10b499e702c.txt
+  - ref: refs/heads/dev-test
+    old: 520760b9f9156bf9698de38dc44c614fad68a1f9
+    new: b28ca68cf9fc859ea72f0980fe297fd9c05a398e
+    log: revlist-520760b9f915-b28ca68cf9fc.txt
 
---===============3672046534904172827==
+--===============5038943859712591696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee08959723aa-e10b499e702c.txt
+Content-Disposition: attachment; filename=revlist-520760b9f915-b28ca68cf9fc.txt
 
+e6c8140bd06d7dd8ee1e3c690445d3cfcaf1d892 f2fs: map data writes to FDP streams
+ccc6436abb847352b8ed2de7a8ab2df45bb06622 f2fs: support to report fserror
+1f70ddb28a3c71df124da5fa4040c808116d6bb9 f2fs: fix incorrect FI_NO_EXTENT handling in __destroy_extent_node()
+cac16750e5a8856addb0385b207cff03cd012018 f2fs: doc: fix the wrong description for critical_task_priority
+dd3114870771562036fdcf5abe813956f36d224d f2fs: fix potential deadlock in f2fs_balance_fs()
 065a6f8cd23a9297b543dcec913feb3cb787a25e f2fs: initialize ino_entry_info before checkpoint load
 73069f0a5597cc0018d788ab29d68ba6304cd35f f2fs: annotate lockless last_time[] accesses
 87dcd5be728009e79746478b8e7f610782a5f480 f2fs: annotate lockless NAT counter reads
@@ -39,5 +44,6 @@ cf69827e772caf138c8fcf64fade5a9f36c0ec11 f2fs: fix potential deadlock in gc_merg
 8fdfd2d4ec985fbd42e27cea0c86ac76348ae5d7 f2fs: pass correct iostat type for single node writes
 753d254d6a1c33dd91f321601135ad8be0542474 f2fs: validate compress cache inode only when enabled
 e10b499e702c365ed78c2b874970333fbe221fab f2fs: avoid false shutdown fserror reports
+b28ca68cf9fc859ea72f0980fe297fd9c05a398e f2fs: another way to set large folio by remembering inode number
 
---===============3672046534904172827==--
+--===============5038943859712591696==--
