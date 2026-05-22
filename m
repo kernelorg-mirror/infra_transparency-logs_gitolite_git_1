@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0881623302404129434=="
+Content-Type: multipart/mixed; boundary="===============6366281655387569581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 May 2026 09:51:58 -0000
-Message-Id: <177944351838.3621072.4674868706393547850@gitolite.kernel.org>
+Date: Fri, 22 May 2026 09:52:58 -0000
+Message-Id: <177944357881.3621553.7400403597197762758@gitolite.kernel.org>
 
---===============0881623302404129434==
+--===============6366281655387569581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: a3bb136bff5e6a5e48cdd813246c9c4686feaaa9
-    new: 2e211723953f7740e54b53f3d3a0d5e351a5e223
+    old: 2e211723953f7740e54b53f3d3a0d5e351a5e223
+    new: e4240d8845445d58b4b96f7066adfe175a61bd0c
     log: |
-         c3cce2e67bb22a223f5b8ef05db0fcde70994068 serial: core: introduce guard(uart_port_lock_check_sysrq_irqsave)
-         71f42b2149a1307a97165b409493665579462ea0 serial: 8250: dispatch SysRq character in serial8250_handle_irq()
-         2e211723953f7740e54b53f3d3a0d5e351a5e223 serial: 8250_dw: dispatch SysRq character in dw8250_handle_irq()
+         ca904f4b42355287bc5ce8b7550ebe909cda4c2c serial: dz: Fix bootconsole message clobbering at chip reset
+         7f127b2208e5e2b817243cad41fe4211a6d5a7a3 serial: dz: Fix bootconsole handover lockup
+         6c05cf72e13314ce9b770b5951695dc5a2152920 serial: zs: Fix bootconsole handover lockup
+         8572955630f30948837088aa98bcbe0532d1ceac serial: zs: Switch to using channel reset
+         5d7a49d60b8fda66da60e240fd7315232fa1754f serial: dz: Convert to use a platform device
+         7cac59d08a73cb866ec51a483a6f3fe0f531947c serial: zs: Convert to use a platform device
+         e4240d8845445d58b4b96f7066adfe175a61bd0c serial: dz: Enable modular build
          
 
---===============0881623302404129434==
+--===============6366281655387569581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779443521 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779443582 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1779443515-8906720605663ae4fdfea5697a0b94ea6f864ea2
+nonce 1779443576-91ce030e9b330df53daebdc4f219df05af70b77d
 
-a3bb136bff5e6a5e48cdd813246c9c4686feaaa9 2e211723953f7740e54b53f3d3a0d5e351a5e223 refs/heads/tty-linus
+2e211723953f7740e54b53f3d3a0d5e351a5e223 e4240d8845445d58b4b96f7066adfe175a61bd0c refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQJ0EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZLQQAIp1IJFgD5sz0RK/3hGY
-clB4uuQua0fQcwmLyjjR3/hIV8a+ySayCUDerdcbcHDxmaAQxOaT6OlVQcGl7SVp
-NiTT47Rt2viFnh9hiS0KS/wKBwTbXvHw+MK0XMek8Ip+V7uHc8nb6h9o6HmPk00a
-WrfQhAM+pB+N/seVTVzPct4LgBOayNgfHJEVE81A42Q4cIK+2qQ4hsecK8oaw2QT
-P4U8OZklbNtom/eWPSUmLTIzwbQ1Un4rcamQLQ3hkbiJ89btLGLhgAo5c/FKEEcD
-FDvN5sFvE8mnzmc11K6rZeCuJHSFZUw+fezOFtnjYjuOOVlsG/LZaVT98hRpIImm
-Dyfv5ZtGVcR+xkeed7AAF2xYWBQAF6VxmwLbJXaEYoUaLCpz6EfCNJ7oc7E3oKS0
-8faFrbOffBM1es8DNTXv3zpFDqP+R3tiw3u0c0dYM48RvT7VDsrqmJoJHfdYpC8c
-yhPPy7cN/T901dWNjMTBRHyM0mxn+WuwM+oRbumop7QZp77Ey8h/TqaSToo9oubT
-KeTZhAIKxhuWxn+6fKw9PFtVlKH5k22lFmlggKfpFbOcLVpJAkN/hr0UYL5WOaxH
-uYHBk6Yf0R6NOAqMmWb5cnwLPiz+5IRu2ILU3ZNqMorKpuPNQZMxhbSzSNhsdf3k
-CskIK889qsJlLr3V370WgtN/
-=cQqh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQJ34bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TJAP/jxsFD0t9kROyY3sR8gD
+Qu2+bu4GCwNXTrhZyGVXI5qRWWeNHbh//kOlzuQL+vOrxXmr24+oIJd4Dl3YBhk3
+AiY8OxoG3bxhiTNGnzMrCP2Z9ptNJPECLOYCO4elZdX8xQJJNMlrZoMYfnGUEiqh
+S7b+rqLbZKpKXgQvTpgTfNf6rWu8PlSi+uNneiFxrr87CFKnnclwKDodaRbVG9SB
+3me0wprjXpzVwRFtNX0+43Nlcez3fdNkg0RBUeDz9TtlwYk3ZsfGlfkCizlb2iao
+R/AyDHENz9v9O6zbfCWPoPUnwd8osjdWRyWpBcVcJYB6ypcKNbp61/vold0zAD98
+CVdpzvfYG3gWVoBJ2sMKlOAGQ/qpHfLTGgR44qT7XsILlljq0WXPscXVMduhZKcU
+zZl7ahaFbg1IYlD4KQ3z5rndpETL3TZCElcjAz+dSbEIIV6d0LQDeh/caVdFv83+
+9M0n9IzTFo2+cQEcMgrDoICkFoRzM8I68lWgDBJRTLNuPuRZMhpyLmFwtuEF65sJ
+CVUvlHod0mwCovWWo25yBBP/rOORCFKi5aEGSWPdRDqgvL9AxGi8QneQPklFxbOR
+nijdhZbTGQzr3y3+CjGqnkGMnyA4XRBtXd4MlCwmwaGCgWdcXmVQG8LgWdevDIDF
+mnb3Hz8FrwzNwSyqSqha0xjV
+=T6FH
 -----END PGP SIGNATURE-----
 
---===============0881623302404129434==--
+--===============6366281655387569581==--
