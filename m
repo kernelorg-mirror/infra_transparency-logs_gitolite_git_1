@@ -1,56 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1957282070398323477=="
+Content-Type: multipart/mixed; boundary="===============4393810775182750464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 22 May 2026 10:20:24 -0000
-Message-Id: <177944522444.3643879.8482549003163058774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 22 May 2026 10:20:52 -0000
+Message-Id: <177944525200.3644324.9057068102370634506@gitolite.kernel.org>
 
---===============1957282070398323477==
+--===============4393810775182750464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 456aae6c963e4c63b571249869e6cd7366546504
-    new: caa7a3711862615c5f0be9e8196518b823ae227a
-    log: revlist-456aae6c963e-caa7a3711862.txt
+  - ref: refs/heads/for-next
+    old: 40cc9602caf2539369bd3dd7d66ee67e204e75ef
+    new: 63cc94e4c050968e52873be3fa4d02311fa35b63
+    log: revlist-40cc9602caf2-63cc94e4c050.txt
 
---===============1957282070398323477==
+--===============4393810775182750464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-40cc9602caf2-63cc94e4c050.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1779445222 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1779445221-88c10fa6c1cec0d4e9e52bbc917c93031238f892
-
-456aae6c963e4c63b571249869e6cd7366546504 caa7a3711862615c5f0be9e8196518b823ae227a refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoQLeYACgkQJNaLcl1U
-h9DL5Qf/ZzTg+b4TJCGTJvlpNGajTquustOgtfqFnDCTDCHtYF6dQ5NZ6j0TMYkj
-1enyYyW7Uv5h8Za7CBErzQP0KovBXfbZg0eL/+jTV1WXJvnWtaP34x/LfHD7C9Sz
-uFs04tyrLDbFe00JbsOP3rY500TDntCAc6tuemUvMO1Gy8Vw6xUceO6zARgCJFWf
-l2KTdC6GjmxQ37r4ZFPaBYYIYcn8DC/9ZCpJhk+cH4iO9ZCz6bfA+HAL5qcwe42V
-VhXyyg2OLbt55giZCEu8/H7VendCytAEBGThCJdm74mIZUudcDaJAiv3OkVDC5Vz
-viJM7HGCFqAov0QOzrM9SMcVDKOGCw==
-=+8bM
------END PGP SIGNATURE-----
-
---===============1957282070398323477==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-456aae6c963e-caa7a3711862.txt
-
+3d1b78a6119f58c22730ae2aff3e6065ca3f043a ASoC: SOF: ipc4-topology: Handle SOF_DBG_DISABLE_MULTICORE flag for pipelines
+d9265a36f4be6f322814e0eb255e4e29b39dd5cc ASoC: SOF: Validate and correct the core id against the number of cores of the DSP
+bdb78dbd21211c8c3728305e0993fb86de7cab0b ASoC: SOF: DSP core count handling updates
+aff152a02481c044ea5f52b08e16cc4fca893e64 ASoC: SOF: ipc4-control: Use local copy of IPC message for sending
+2e0389f3689c42091ec153beadc4056ede448a34 ASoC: Drop empty i2c remove callbacks
+910714d4e79ba654d8a4e8103bb624d4f62e57f8 ASoC: Use named initializers for arrays of i2c_device_data
+456aae6c963e4c63b571249869e6cd7366546504 ASoC: Rework initialization of i2c_device_ids
 44d16948af557175e37209349cf3aa87167b823f include: sound: add register header file for acp7.x series
 1da6f798eda86348f2b141727eb174ed681d69b2 ASoC: amd: acp7x: add ACP PCI driver probe/remove sequence
 b5a2fdc5e7d2bd3d4dd143baa6d278aefdd35582 ASoC: amd: acp7x: add helper functions and hw ops
@@ -66,5 +48,6 @@ cb9a52b3ab2b34c56913e774c6404c6436c14c69 ASoC: cs35l56-shared-test: Subtract reg
 4c433607b69d29be1de038b8ea008dd83c17e0c3 ASoC: cs35l56: Replace open-coded SoundWire regmap with generic regmap-sdw
 6320b644515116ed9d073060884ac145b8cd30b8 ASoC: SOF: ipc4-topology: Print for format type in dbg_audio_format
 caa7a3711862615c5f0be9e8196518b823ae227a ASoC: dt-bindings: imx-card: Complete the full list of supported DAI formats
+63cc94e4c050968e52873be3fa4d02311fa35b63 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============1957282070398323477==--
+--===============4393810775182750464==--
