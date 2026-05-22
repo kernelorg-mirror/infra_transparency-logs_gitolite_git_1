@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0883549878654700704=="
+Content-Type: multipart/mixed; boundary="===============6022089393188240644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 22 May 2026 11:35:10 -0000
-Message-Id: <177944971095.3700531.5085004459522963159@gitolite.kernel.org>
+Date: Fri, 22 May 2026 11:38:42 -0000
+Message-Id: <177944992250.3702015.5284228226425397594@gitolite.kernel.org>
 
---===============0883549878654700704==
+--===============6022089393188240644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,55 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: b2c885b362719cb114c6b2d46a295116abeb4848
-    new: 36d74f17e03f7e60e1b08fbe16cfad6e69cc3aa9
-    log: revlist-b2c885b36271-36d74f17e03f.txt
+    old: 36d74f17e03f7e60e1b08fbe16cfad6e69cc3aa9
+    new: 024480bf8d75bd16894c5b0eb6082b6e6dae4970
+    log: |
+         cdd4c98d5a0e320b18fcdbd37a30a732aec624da driver core: Delete DEVICE_ATTR_PREALLOC()
+         56e733f78c223032368e500af58402840a56e243 driver core: Add low-level macros for device attributes
+         13443fbf62414e42afb1675ab2d3b767c6466915 driver core: Stop using generic sysfs macros for device attributes
+         434506b86a6cde84a0ef19daa9e3b1926e2f96a9 driver core: Allow the constification of device attributes
+         024480bf8d75bd16894c5b0eb6082b6e6dae4970 driver core: Constify core device attributes
+         
 
---===============0883549878654700704==
+--===============6022089393188240644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779449713 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779449925 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1779449708-583b136d6d5e460768acb575cdd7f6d97cdaa4eb
+nonce 1779449919-67da9fbf832fa8ddde8d72d338bc229456ed8de9
 
-b2c885b362719cb114c6b2d46a295116abeb4848 36d74f17e03f7e60e1b08fbe16cfad6e69cc3aa9 refs/heads/driver-core-testing
+36d74f17e03f7e60e1b08fbe16cfad6e69cc3aa9 024480bf8d75bd16894c5b0eb6082b6e6dae4970 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQP3EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CSoP/jncJYfyD8TM4SMknpCk
-1QuXcbqs0geq8tAEEahGVNzFrrEtX2UePc2KSmubBqe2XN8Oxqa6UHs0z1oFiAfI
-H7Udgw+Gj7xYscTBYTEgkIbcGoxpyAC1YeVSfY7saC/mB+anYySQBtPM2HIWcw07
-ERgrBf1qNgYQHbR2JriSDIVYFZkw7C/98hFczQP4+bT/JGjlK5kZdo/oLzr9gvUp
-Fdi/aB9yxY6mHdEDwL7W2oC8PLKhBDfMPYmyOyjHkKWBiM8qOiD+otFuKd3n0TH3
-1lmHlYov2TG0Wtp6s6m528jth4/ksxik4gvdO0W8ayRzGLoeZhK7yimv+S/8LK3z
-v/d6NmuvEBRPaHZyoEkVOhifyNNT3Dgoy5/ESw8Z+PEy6cS5UXvkjW9JcMST91O+
-kekHsWJjIdqr3qohdxrhtePk7HF1i37Ds9DulvJPk4pDAsQ0lG6ul8n1ySRg4Rwr
-24EBD75btFqzdO6cNqWxQT+yJLLQGnoYBQtaLk26mCgxaBDaHPbynAdg8asdg8u1
-HiqHKA5eovmxAl9UB3IvzKSPskLgcxxUnMBLzaTITZDV2WZqjknlG9hdI5WjyQC4
-3QQ7mStzHgT7ZugNU/o6s5zBNeqrgXFr3Pci2yMYDaDk2Us7zcN0SwqEAt4+NmcL
-9CAXSWdg4CF44AZIfKC7aE8F
-=cPmV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQQEUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RsAP/ArL3DicPn989hLghCcf
+yT+tqMIQoldEBEOl5lCspwfnDqgWQTx6dELfXMUHEh9lJYG/i1HhsJ6C/LvUneAU
+1s36SMKgHqhX9SqWVxDFh18C8stUH5AN+glGD+LYaH86gnhrsXCugOTy01jNlvSo
+mRwYjzlGkyuEFXhby9VuxAjs109pzf9fWidwwxu6p7VVD7C/HimtaxOUwsDpIQE9
+mN5Zf6Cpk5DIaiGrr5irZiUyfD2Q0hMpWv/MejXHp05mNr6ax67hXRlEXW8cCt4m
+bm5PcV5x3pL4qyg5OuGgTbMmD4dlmNRFdqTbkSV2ZKrWvOt80//pImbXfL14F2bC
++Jz9j5QhPhdiXB7x3yOLB4c3RHi+WDZUzoO+ZBMaGWfz7oK/dRZZErEwKZduq7Qw
+eBk411jo2HyocXMSLFrjJox8rFdrIhWQoy3j0T4YdjyP+pXKdfApkXNjsf90cEY9
+dYS63Nt3aDC03Kvg8CrnvYprzE0U+3nxRHVf6e9KHvtmhq/+XaIRvErr2DA49q/v
+zw6HYMziNbjwRHK4zNgPkEPIKzNPc+3RV02H3eOQ0rAEYtsGUWTYnYF2lKIZjQF4
+Dyth6e7zCezblB2mlOg0LlgiPemamTzQhUaM8PYQv92STbDYIPdrLyffIphnyHuz
+lLpPEIA7RVd0WrekwOiHe4+D
+=yojI
 -----END PGP SIGNATURE-----
 
---===============0883549878654700704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2c885b36271-36d74f17e03f.txt
-
-bea3649af1293144172a20e0b33a319e5221db28 devfreq: change devfreq_event_class to a const struct
-b382754793b1af27899164a5b412ff2f49eb24d5 driver core: delete useless forward declaration of "struct class"
-9ecab063e9821b23c82907d7889302c22f197e1e driver core: constify group arrays arguments in driver_add_groups and driver_remove_groups
-f1462b97684b5d0cef0a4d026c7c9c9c42cd192c driver core: make struct bus_type groups members constant arrays
-a9c12b783cc711de3ac7f188bed07d529bb818af device core: make struct device_driver groups members constant arrays
-9582485a65eacfd7245ec7f0a9d7e2c34749d669 device property: fix fwnode reference leak in fwnode_graph_get_endpoint_by_id()
-1137838865bfc9a7cd5869c1dc5c22aa45ec12c8 driver core: Use mod_delayed_work to prevent lost deferred probe work
-aaf08c52df9a19148731d4a3cfd85d98455db901 Revert "treewide: Fix probing of devices in DT overlays"
-81e7c6befa36cecdcbf7244393bd67e8f8c59bf5 of: dynamic: Fix overlayed devices not probing because of fw_devlink
-36d74f17e03f7e60e1b08fbe16cfad6e69cc3aa9 driver core: Avoid warning when removing a device while its supplier is unbinding
-
---===============0883549878654700704==--
+--===============6022089393188240644==--
