@@ -1,49 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6339991140583071146=="
+Content-Type: multipart/mixed; boundary="===============4584625550550968055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 22 May 2026 09:17:22 -0000
-Message-Id: <177944144225.3593923.15186455556502956790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 22 May 2026 09:21:20 -0000
+Message-Id: <177944168029.3597508.188106660001300243@gitolite.kernel.org>
 
---===============6339991140583071146==
+--===============4584625550550968055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 9b46f887829f7d220f7ebb2640b2a183c3ae1dfe
-    new: ff6647f2d738b9abbaed90b55db51820d0dc1d4a
-    log: revlist-9b46f887829f-ff6647f2d738.txt
+  - ref: refs/heads/usb-linus
+    old: 7d9633528dd40e33964d2dc74a5abbf5c4d116ce
+    new: 9ea06a3fbf9f16e0d98c52cb3b99642be15ec281
+    log: |
+         4e036c10e7f4df5d951c69cc3697bc8e209c6d02 usb: gadget: f_fs: copy only received bytes on short ep0 read
+         2796646f6d892c1eb6818c7ca41fdfa12568e8d1 usb: gadget: f_fs: serialize DMABUF cancel against request completion
+         8f6aa392653e52a45858cff5c063df550028836b usb: chipidea: core: convert ci_role_switch to local variable
+         9ea06a3fbf9f16e0d98c52cb3b99642be15ec281 usb: dwc2: Fix use after free in debug code
+         
 
---===============6339991140583071146==
+--===============4584625550550968055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b46f887829f-ff6647f2d738.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-09a4b56100f8667f192f8a6aa4eae190331066c9 KVM: arm64: vgic-v5: Add for_each_visible_v5_ppi() iterator
-2e83ac3b3b1a1b3b248a4af07efb19a1acb29845 KVM: arm64: vgic-v5: Move PPI caps into kvm_vgic_global_state
-2295f5eca95d86b98225795a9d4c529796615d53 KVM: arm64: vgic-v5: Remove use of __assign_bit() with a constant
-e6fdea20cffb0108e3d4b5af1c850cccc8e8866c KVM: arm64: vgic-v5: Drop pointless ARM64_HAS_GICV5_CPUIF check
-c4a1191f802792fe22fc261fa0e918d048915911 KVM: arm64: vgic: Constify struct irq_ops usage
-849fbc130627663b4f7c8c4468025e4babc7a65a KVM: arm64: vgic: Consolidate vgic_allocate_private_irqs_locked()
-319c1ceef7d236e80f8a8e048cda1f986457d834 KVM: arm64: vgic-v5: Drop defensive checks from vgic_v5_ppi_queue_irq_unlock()
-8f5dd53590b8a810a4004494bd2b07ad587464ed KVM: arm64: vgic: Rationalise per-CPU irq accessor
-35a4f8d151d6aabb5e74fea4e67993dcad7b526b KVM: arm64: vgic-v5: Limit support to 64 PPIs
-f82189e1862c93be7c6b23f726d3198d8b65e4e4 KVM: arm64: vgic-v5: Add missing trap handing for NV triage
-881533d518d65995bf9128fc69c48f0a027fe5f4 KVM: arm64: vgic-v5: Atomically assign bits to PPI DVI bitmap
-2ccee100406dd95d8a3f0e7512f89b2aad5c175a KVM: arm64: selftests: Add missing GIC CDEN to no-vgic-v5 selftest
-15d13d623c5914e643e2bbc8ed6b9cff5d975976 KVM: arm64: selftests: Cleanup unused vars in GICv5 PPI selftest
-48b5b82cc01754efbabfb3f6d20b973d5718f259 KVM: arm64: selftests: Improve error handling for GICv5 PPI selftest
-3b1b7e99bfcd16cded249da26d74ac17160d83a9 Documentation: KVM: Fix typos in VGICv5 documentation
-76190aa60d747b5b85fde466708d50e405efd994 Documentation: KVM: Clarify that PMU_V3_IRQ IntID requirements for GICv5
-7b14c8e2fdba5cf74f506c69cf90718aa12d3960 irqchip/gic-v5: Immediately exec priority drop following activate
-650cd56f34db8dca081fdd625f94b7793393ee4f KVM: arm64: Fix arch timer interrupts for GICv3-on-GICv5 guests
-ff6647f2d738b9abbaed90b55db51820d0dc1d4a Merge branch kvm-arm64/vgic-v5-PPI-fixes into kvmarm-master/next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779441683 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1779441677-23af0cd84d1d369ce0f515c1b5e1f0b97fe38bef
 
---===============6339991140583071146==--
+7d9633528dd40e33964d2dc74a5abbf5c4d116ce 9ea06a3fbf9f16e0d98c52cb3b99642be15ec281 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQIBMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q7YP/1PpdyaJLswfr3mPpH9Z
+IVLBDAh3xT+WtGlF1ONR6d0K//Sz9wbEQmaH9YbKe35YfEQ+wbUeIcrblmwVihb4
+jcBuWf95NFKJD8FMeFvYZ3v+Acr0g70DfnTzEHEpGNRYlRjEmiBC39+VgYlTf/IN
+fHAbslj2LgdNx1gntGH6mU8rHkVC4gsOa/tV8A3T78n3ysRIcOQQ2R3RltVwRcG/
+WWaTwYUhUlvCBarZePN47XXtCiOz2u3zl+hA9uNgS7pj1GpjlDlZ7YIUuk+dpIh+
+PNSHPBAzZvMORilgCj1mzyCTXGBJs1K5zfbq5Mv19WqZt0rzLepjVmeMKMb+tQmn
+FoH8u3MG6WWKaHJ2dZTCNDg4AgKfyPj6UUBy091F+GgMUUlpiGZ6k6BnAX1FW9wv
+JZgmMnVPeR5fJA2O0ROH4xOMQEMF6I081yKrxuTq7yrr5MGwle+OZVdEXnLjINmQ
+Pk2zx6Ild6Od0WLvZCGXprl2n2kq5CM3etFBIYogbfBrYvvr6Fc4xXCvyCk7p3pr
+KcrrMaTvHUib4z1ooiyLPQ3HChWK91EMI07qVAMSpH5VS+ANnxH+qDSjyo6rZrFr
+eC92+kSgzuo9vOLBuCNIQWm4Z9JqtGrOwR1TwHzW/oEeNcgnqgAffzlu/h/DBmNj
+5AFJKfTe7+7H4GcCrwJQCSk7
+=EbVQ
+-----END PGP SIGNATURE-----
+
+--===============4584625550550968055==--
