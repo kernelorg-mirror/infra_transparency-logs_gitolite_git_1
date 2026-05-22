@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4110445725611064397=="
+Content-Type: multipart/mixed; boundary="===============8406091157778638968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 22 May 2026 09:27:15 -0000
-Message-Id: <177944203509.3601229.17972621450912393851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 22 May 2026 09:27:47 -0000
+Message-Id: <177944206774.3601557.17781759281518001747@gitolite.kernel.org>
 
---===============4110445725611064397==
+--===============8406091157778638968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 082cda7519108dfded65c86aa031a5b90c9b7c62
-    new: 5ffb022a62c6d0ecb81accddd5cffdd03f5368b3
+  - ref: refs/heads/usb-linus
+    old: 9ea06a3fbf9f16e0d98c52cb3b99642be15ec281
+    new: 5eb070769ea5e18405535609d1d3f6886f3755bd
     log: |
-         5ffb022a62c6d0ecb81accddd5cffdd03f5368b3 drop patch
+         5eb070769ea5e18405535609d1d3f6886f3755bd USB: cdc-acm: Fix bit overlap and move quirk definitions to header
          
 
---===============4110445725611064397==
+--===============8406091157778638968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779442039 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1779442033-c3510775775970c8f2f62066d4c6e3ce8dab9b3d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779442070 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1779442065-dbb8fe2053af96e41ec40bf7d545cf42d1e4110e
 
-082cda7519108dfded65c86aa031a5b90c9b7c62 5ffb022a62c6d0ecb81accddd5cffdd03f5368b3 refs/heads/master
+9ea06a3fbf9f16e0d98c52cb3b99642be15ec281 5eb070769ea5e18405535609d1d3f6886f3755bd refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQIXcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7Q8P/AxhqQhK7lT7UHRQFJ2O
-vHpkJdZYDrflqRPS3RCHb8UwZofiXlaW2Obn06kvu0TjNTaKuf+4a5VCMLcXehUu
-WhFUJGW7/3gmDOeWC+kqF9FmuSV+b5iPJmRtFaj8U5q+w0OcMU+Y4WDZMiHtbehd
-juTvG91qUCU3GS0WeLjTsKKaTeEtfUt2w9inFKb2N21iI2nBos0Fxi2pY86suRO1
-+wxsmA15WxTyUdXOpxohyJGkaqy5UolfayS8xI8+FXvX3z7TJqsLBabAf9ymc4A4
-4JecM9Hl5xtCRnT69XmMWIS7htsF1U9FfpO90SyOPm/mQya6kcU159Y8lELGYgyO
-ATBKTj7noKnbfTVhcCRoR1ZAb3Blx37tSPZ27Khg/Vrv6zAefmzckUAmwmnLkpqE
-TeWkz4AILB93mxXi6VStN+GMwHl8hpco+AA+zkIsBX4B/HuTBqzZrwshr1fDZTA3
-G+nGS8RaUOw0sN4L5ceXseidkzAv1ZGzZHiyZZGf+GUKFdLbF9+hD9VYmGZAcpPy
-nHovn6BkPGxl/KwyJSzR6tmOWBz+RUgt2Shu0DJ2II6imwGEf2xxXsdNl7Icqfk7
-guYvnlNu6MJPYn/wqm01H+D4+gRaVyPb2BjliPuctF1E/tgI7YYvn7ahYr/1dY+7
-RJOaFu8Vnhej6yILo4tmCYVq
-=Iknf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQIZYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J0YP/ilJDZRATfWAUbplGCvn
+OeRKMEsNrEm4UJmRJkPjUTJv876lOU6aPQolXHlLIGYZQCCxSyWX7xdjPCGdM+Fm
+VxwgsUWJVgPV1wXjM82Qj9TxKQHx5F6LYUSQB69mCSerwZIZe/CoRQHtGkzBeSZG
+inOIE5aqX4angfiUgtmkVDrSWhYi6bNBkjERlXp2zaZsNQT3pUpnDNxWN5EL6BFd
+0YXtUtULBrqoAdalOL3ROu4IklBWh1u1/ARLjr6DSWhu3nvG64kGziPPueo+pQrQ
+cxQEGuzzB01Rm3tDkHRGbIFYhZD0ywfeGXeJIQC5zWjyqBUTR6XrHipGFIWysMDA
+/vrW1wc936Pwbv4dIer1NJAwnDdX0YrDb1i6yqjugIVMLuqMo2YpTe+JK4Xx6ZZN
+hNPll+EAOpitmS5+cgJBeGPattz6usJOiDhoq7ixXWEDaSHxXT1A0cHUTLli9Y1h
+yDuKY7J9fFV4IhwG1O9c8k8q4ErXQ+ToFl97CzrdE+yf/OhtvJI9pTv31qs3GxJ7
+sWR2N6l1CVrYyp/1EfNsrjRHU/frx87RqEwRiFvjQ4ARqOjmh6n8kO3w/Rw1X2Jw
+VN00oczX5TDTnGmysLCTMir749JJUqs8zRUsSmQ3qnkLY+B10RIzQJjPQ+7qsraW
+zBEaZx6P819J3kD7KTkTVlXh
+=7yRg
 -----END PGP SIGNATURE-----
 
---===============4110445725611064397==--
+--===============8406091157778638968==--
