@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8773529128114922019=="
+Content-Type: multipart/mixed; boundary="===============7956930921913848419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 22 May 2026 03:06:26 -0000
-Message-Id: <177941918669.3264938.7875760146338797294@gitolite.kernel.org>
+Date: Fri, 22 May 2026 03:06:29 -0000
+Message-Id: <177941918956.3265074.13099900117729864199@gitolite.kernel.org>
 
---===============8773529128114922019==
+--===============7956930921913848419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4c6512d033e5e9469cc76d07512c24a0ee0ac207
-    new: 953263a7166c40047878879aab2926231aa67e3d
-    log: revlist-4c6512d033e5-953263a7166c.txt
+  - ref: refs/heads/mm-unstable
+    old: e9add7501ad3297dad9b90ce201266830a68ab47
+    new: 686099898049e501ebc60c22c183267548bf7644
+    log: revlist-e9add7501ad3-686099898049.txt
 
---===============8773529128114922019==
+--===============7956930921913848419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c6512d033e5-953263a7166c.txt
+Content-Disposition: attachment; filename=revlist-e9add7501ad3-686099898049.txt
 
 614ab9b1b4b0a4d088f0390b40b3a73455f17b51 MAINTAINERS: .mailmap: Update after GEHC spin-off
 b1254709069c95ec3dc7977cb3ad7d7ce05e49fc Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare"
@@ -394,28 +394,5 @@ bea202d9025145d3540b569131e032d56190f026 drivers/base/memory: set mem->altmap af
 3cbe8f7ca7203d532df7fabb9c53d8249d1f808c mm/damon/core: clarify next_intervals_tune_sis update path
 a721e0bb4e98a4f7907348f5c536e0bbae880bfb Docs/mm/damon/design: fix three typos
 686099898049e501ebc60c22c183267548bf7644 Docs/{ABI,admin-guide}/damon: fix various typoes
-66994e25feae247738bd0935d8b11585a67622fc selftests/mm: restore default nr_hugepages value via exit trap in charge_reserved_hugetlb.sh
-df67fb19a5be98388e30a3cc562f79417227ed92 selftests/mm: fix hugetlb pathname construction in charge_reserved_hugetlb.sh
-828bde4ca1b59a188c4a323741a6b14fa68d908c selftests/mm: restore default nr_hugepages value via exit trap in hugetlb_reparenting_test.sh
-5c028cd99d88b5409f549f7e700bc4fe6b233926 selftests/mm: fix hugetlb pathname construction in hugetlb_reparenting_test.sh
-9d4a3acf7fc2975368cddb26d7ef5980b8cb5091 selftests/mm: fix cgroup task placement and drop memory.current checks in hugetlb_reparenting_test.sh
-67032026a36fd476d4469935d10c7235ba96de53 selftests/mm: size tmpfs according to PMD page size in split_huge_page_test
-1f07737efac9a8a9f387e3aa27ed1ba72436e1bb selftests/mm: free dynamically allocated PMD-sized buffers in split_huge_page_test
-85e4cce8ff32c47df6ff05c47ed195eeab3f5b5a selftest/mm: register existing mapping with userfaultfd in hugetlb-mremap
-6048a674ecbe9e755aea7dace07b9c912de3fa2f selftests/mm: ensure destination is hugetlb-backed in hugetlb-mremap
-c27000b3cd1f80e246db840d7ceaba77974f4cfe selftests/mm: skip uffd-wp-mremap if UFFD write-protect is unsupported
-9148a02be20c2e1a44c5c80e7ff5690dc0e9f61d selftests/mm: skip uffd-stress test when nr_pages_per_cpu is zero
-afb528c7692d032f85e0a04704aa46d042ad1055 selftests/mm: use ksft_exit_skip() instead of KSFT_SKIP in uffd-stress
-b5924a35b58b842d70b2368f7233453d0bf5e6e0 selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
-b251e156999687d017f66902538449c40fbb9183 selftests/mm: clarify alternate unmapping in compaction_test
-edcaf698a13ba756ed344cc67424492a33d4c63e lib/test_hmm: check alloc_page_vma() return value and handle OOM
-b5850cc11bdfa38d4c060ba23a9012c922dc398b MAINTAINERS: add more files to PAGE CACHE section
-aecd5ec5a315225efa8b312d8d9648922834db64 mm/page_alloc: fix defrag_mode for non-reclaimable allocations
-0a8aeebce5010340cbef706ef5a78e15d78ecda4 selftests/mm/split_huge_page_test.c: close fd on write error
-e668912ef83fe8bbbeab6cf49ab1db9c7b1741e4 mm/compaction: cap compact_gap() at COMPACT_CLUSTER_MAX
-133d8a8bf43931b4f9f4d22b2a9002798dd24948 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-4a6037454ff60d23075ba5db6b8fe1c6bf34d026 mm/swap: remove redundant swap device reference in alloc/free
-c619f1422dfa50fda49f04b3c1e9a13c71b5f1f2 mm/swap, PM: hibernate: atomically replace hibernation pin
-953263a7166c40047878879aab2926231aa67e3d mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============8773529128114922019==--
+--===============7956930921913848419==--
