@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0135042974730397973=="
+Content-Type: multipart/mixed; boundary="===============1604315499003430594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 22 May 2026 01:25:55 -0000
-Message-Id: <177941315563.3171157.12914589164657909412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 22 May 2026 01:26:18 -0000
+Message-Id: <177941317837.3171578.1028837901770255185@gitolite.kernel.org>
 
---===============0135042974730397973==
+--===============1604315499003430594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-data-validation
-    old: f8433419a8cc67d01274e20e3496d080c70b2ce9
+    old: 439d8e7a56978624276ba9d6e96b0d628ae4359f
     new: 4201e24c8232150a1ce32133ae12764752040e5a
-    log: revlist-f8433419a8cc-4201e24c8232.txt
+    log: revlist-439d8e7a5697-4201e24c8232.txt
 
---===============0135042974730397973==
+--===============1604315499003430594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8433419a8cc-4201e24c8232.txt
+Content-Disposition: attachment; filename=revlist-439d8e7a5697-4201e24c8232.txt
 
 12bd440b66ed8968afffc46928233967b5b79b98 HID: sony: add missing size validation for Rock Band 3 Pro instruments
 55ce1858848132ed074fe907f00b5ce1ccab0ce1 HID: elan: Add support for ELAN SB974D touchpad
@@ -1051,4 +1051,4 @@ a44e4f37d96e0cc32bc43d0e5695240bc5fe756c perf session: Fix swap_sample_id_all() 
 2a10ff626b8bba25ed3b9b1eb132001a8b6611c1 perf kwork: Bounds check work->cpu before indexing cpus_runtime[]
 4201e24c8232150a1ce32133ae12764752040e5a perf test: Add truncated perf.data robustness test
 
---===============0135042974730397973==--
+--===============1604315499003430594==--
