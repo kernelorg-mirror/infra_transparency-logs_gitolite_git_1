@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
 Date: Fri, 22 May 2026 13:48:30 -0000
-Message-Id: <177945771027.3803492.13521718674783150495@gitolite.kernel.org>
+Message-Id: <177945771075.3803531.14132110086477839290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/rcu-dqs-stuck-rfc-v1-20260522
+  - ref: refs/heads/arm64-elf-hwcaps-sve-cleanup
     old: 0000000000000000000000000000000000000000
-    new: 9f18a069659c0b886b4de3931e3d437da195b05f
+    new: 64ff1359ec7669b223739d18ffa41a834fd4ff9c
