@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 22 May 2026 16:27:19 -0000
-Message-Id: <177946723958.3928339.3167343719128134550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 22 May 2026 16:36:21 -0000
+Message-Id: <177946778109.3935475.18368145024204090636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: d167d3409e94440da7fb021d7d6d4601b65a83b5
-    new: f818e9d0c9df2537c3415fe9ff45701084dbe012
+  - ref: refs/heads/testme
+    old: d059ef1701cd6d14878737165406817f230e4360
+    new: 57f3f0cb6bed8fe22a73b4d8b3c9870dcbed6030
     log: |
-         f818e9d0c9df2537c3415fe9ff45701084dbe012 shared/bap: set QoS state when CIS is lost
+         fd11f26f764f13211bb8d07886b27e4b38563da1 coco/tdx-host: Lock out module updates when reading version
+         57f3f0cb6bed8fe22a73b4d8b3c9870dcbed6030 x86/virt/tdx: Enable TDX module runtime updates
          
