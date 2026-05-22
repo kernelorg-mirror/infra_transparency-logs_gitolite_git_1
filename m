@@ -1,49 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============5038943859712591696=="
+Content-Type: multipart/mixed; boundary="===============1714882248883662859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 22 May 2026 04:25:32 -0000
-Message-Id: <177942393264.3322674.1171986221039621299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 22 May 2026 04:30:47 -0000
+Message-Id: <177942424719.3326554.6143979309348410320@gitolite.kernel.org>
 
---===============5038943859712591696==
+--===============1714882248883662859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev-test
-    old: 520760b9f9156bf9698de38dc44c614fad68a1f9
-    new: b28ca68cf9fc859ea72f0980fe297fd9c05a398e
-    log: revlist-520760b9f915-b28ca68cf9fc.txt
+  - ref: refs/heads/merge
+    old: d850c9d4d46e1c3f70922e048815ce8bc0235cec
+    new: 3af068d1f05b10756292a435d6e90bdba83747d7
+    log: |
+         baa590018fbfc3e7384b604c7a7951eecf10a523 powerpc: rename arch_irq_disabled_regs
+         dec63ea6fafffb91811381d9a4686d4bc39f01ae powerpc: Prepare to build with generic entry/exit framework
+         09a9d3a8499db606563eb5e75a993419f4d1901e powerpc: introduce arch_enter_from_user_mode
+         02565a782c1ee7e8ada38ad24a698e01d6ea9ff8 powerpc: Introduce syscall exit arch functions
+         d7a6797e0bc1ee7bddb8a298f2d1acddb300efb3 powerpc: add exit_flags field in pt_regs
+         893082ac769ba92a1338e7552d97de769f352a3e powerpc: Prepare for IRQ entry exit
+         bee25f97ad24641df55cb3887eb5bfcb2b9d8fbc powerpc: Enable GENERIC_ENTRY feature
+         6ed60999d33d49251b42976a5511f1bb089797ed powerpc: Remove unused functions
+         3af068d1f05b10756292a435d6e90bdba83747d7 Automatic merge of 'next' into merge (2026-05-22 09:59)
+         
+  - ref: refs/heads/next
+    old: 5200f5f493f79f14bbdc349e402a40dfb32f23c8
+    new: 6ed60999d33d49251b42976a5511f1bb089797ed
+    log: |
+         baa590018fbfc3e7384b604c7a7951eecf10a523 powerpc: rename arch_irq_disabled_regs
+         dec63ea6fafffb91811381d9a4686d4bc39f01ae powerpc: Prepare to build with generic entry/exit framework
+         09a9d3a8499db606563eb5e75a993419f4d1901e powerpc: introduce arch_enter_from_user_mode
+         02565a782c1ee7e8ada38ad24a698e01d6ea9ff8 powerpc: Introduce syscall exit arch functions
+         d7a6797e0bc1ee7bddb8a298f2d1acddb300efb3 powerpc: add exit_flags field in pt_regs
+         893082ac769ba92a1338e7552d97de769f352a3e powerpc: Prepare for IRQ entry exit
+         bee25f97ad24641df55cb3887eb5bfcb2b9d8fbc powerpc: Enable GENERIC_ENTRY feature
+         6ed60999d33d49251b42976a5511f1bb089797ed powerpc: Remove unused functions
+         
 
---===============5038943859712591696==
+--===============1714882248883662859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-520760b9f915-b28ca68cf9fc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e6c8140bd06d7dd8ee1e3c690445d3cfcaf1d892 f2fs: map data writes to FDP streams
-ccc6436abb847352b8ed2de7a8ab2df45bb06622 f2fs: support to report fserror
-1f70ddb28a3c71df124da5fa4040c808116d6bb9 f2fs: fix incorrect FI_NO_EXTENT handling in __destroy_extent_node()
-cac16750e5a8856addb0385b207cff03cd012018 f2fs: doc: fix the wrong description for critical_task_priority
-dd3114870771562036fdcf5abe813956f36d224d f2fs: fix potential deadlock in f2fs_balance_fs()
-065a6f8cd23a9297b543dcec913feb3cb787a25e f2fs: initialize ino_entry_info before checkpoint load
-73069f0a5597cc0018d788ab29d68ba6304cd35f f2fs: annotate lockless last_time[] accesses
-87dcd5be728009e79746478b8e7f610782a5f480 f2fs: annotate lockless NAT counter reads
-00560519c1176d6d5e1c3c0f4daeeecb633a591c f2fs: Add trace_f2fs_fault_report
-c57b51849ef9277ab9aa11f649469fa154d8cb43 f2fs: optimize representative type determination in GC
-31b7ed851d744c4276d0daf069f181a3e29da26f f2fs: add iostat latency tracking for direct IO
-ae4d4e24eb6d5e0b50bb314351ab71c51270481d f2fs: add logs in f2fs_disable_checkpoint()
-cf69827e772caf138c8fcf64fade5a9f36c0ec11 f2fs: fix potential deadlock in gc_merge path of f2fs_balance_fs()
-6a59aa5442e3350d70f2c82277e433c49a583094 f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode
-2c42600e1491c31fbd329ab2a105bc9927f13c67 f2fs: fix missing read bio submission on large folio error
-8fdfd2d4ec985fbd42e27cea0c86ac76348ae5d7 f2fs: pass correct iostat type for single node writes
-753d254d6a1c33dd91f321601135ad8be0542474 f2fs: validate compress cache inode only when enabled
-e10b499e702c365ed78c2b874970333fbe221fab f2fs: avoid false shutdown fserror reports
-b28ca68cf9fc859ea72f0980fe297fd9c05a398e f2fs: another way to set large folio by remembering inode number
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1779424241 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1779424240-9e0bbf025bc53b4446b918226869fb02f6f60195
 
---===============5038943859712591696==--
+d850c9d4d46e1c3f70922e048815ce8bc0235cec 3af068d1f05b10756292a435d6e90bdba83747d7 refs/heads/merge
+5200f5f493f79f14bbdc349e402a40dfb32f23c8 6ed60999d33d49251b42976a5511f1bb089797ed refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmoP2/EACgkQpnEsdPSH
+ZJSnDQ/+MikQaGemXDKyyWeaI9VvFDLcaudH7SLDW6j61C6Ubhz6tDfp/Dggz/KE
+eOxH78Drp18jLjvZuD3XvhJdoTLp2p50krPwSqxA/veBefeZdz6sZWKEJNbVGRMi
+tCW3bQ35fJe2EnXUurXAPfEGHrgvlw4MgzyMGiwrNRJ3+6be74zlk8LH9f0+oqWB
+3BmHyLcrIksnDNz+b/fxWFtlVUTGx1mmKfH/pWioac4avo8+7I/f01964tVhVqeg
+JYb8w0buhX0hQJ9jodPC4c4ddHibaxOEVYvpesJK6nEHY5NggBrjYL/GY4+r4Ib1
+kzrSfuPIxiIv6k3U4uHpdDpgx24icGOCM3zlk94DjIdsfPA5HYtcemYnO9KejXGm
+3paLFB48bD8t4gTFIFk+tou2Ycm/E0hER3L1IGw5gMOtc0KFaFcCtcaM5wZKF74L
+waNc9ua8jgFRqImij0a9ZmELwSxXSiBlSOcHdIDJMvwioobh2yltfK+I14eQJZix
+QFyT04TnEUvzCta55fLYSxSXSZkn0rJuyHzqGxITtIJswqkK5CcAVvbQwHcVor17
+MHgnBiLEumf/qBUf2n6jDrg9Gd+zYtyBnJT9nidxq3zSiaNCpNt2v//t1y6nEq4v
+aJ9dBRWEaBsR1zSN7cVoOk+gFxVpPLQ1eSDroy3rsGDjvVhult4=
+=vjjq
+-----END PGP SIGNATURE-----
+
+--===============1714882248883662859==--
