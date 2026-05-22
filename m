@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 22 May 2026 17:44:14 -0000
-Message-Id: <177947185437.3988749.10933119897746572077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Fri, 22 May 2026 17:49:08 -0000
+Message-Id: <177947214837.3992680.5896017685567530571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: b00674d21a02170098c0f2b44aed8997e5094e81
-    new: 67ea064151e10a896c84b6f72899a30dbd0d5b8b
+  - ref: refs/heads/dev
+    old: e10b499e702c365ed78c2b874970333fbe221fab
+    new: c0b65f6129c7fbb526e921dd60261650f1b2bef9
     log: |
-         5c3091e23f8fc2bdb6d85ca23b6097f05f3f0467 spi: aspeed: Fix missing __iomem annotation in output transfer path
-         94f5efbaa7518cfa0f9c684be85d66bd005cfbe3 spi: aspeed: Replace VLA parameter with flat pointer in calibration helper
-         ae14c160f4bd6713d2910e86218ff4da8892c9e3 spi: aspeed: Fix __iomem annotation and VLA parameter
-         84bfaa6ceed629cbaeaccf03c4b287c719663284 spi: Use named initializers for arrays of i2c_device_data
-         67ea064151e10a896c84b6f72899a30dbd0d5b8b Merge remote-tracking branch 'spi/for-7.2' into spi-next
+         4ae625bb5a410b96e71da0c86385059b3333d480 f2fs: fix potential deadlock in gc_merge path of f2fs_balance_fs()
+         58b17244049f1bce970647c88d36d39c235e95df f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode
+         349079bcb632742c7c7f9126e58325902447eb61 f2fs: fix missing read bio submission on large folio error
+         33be52ec24086696d766756f12d285ef106b371c f2fs: pass correct iostat type for single node writes
+         ad9d0233f11b7b515a0eb11f469b01d5110c7b5e f2fs: validate compress cache inode only when enabled
+         c0b65f6129c7fbb526e921dd60261650f1b2bef9 f2fs: avoid false shutdown fserror reports
          
