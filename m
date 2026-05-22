@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5777578485780893125=="
+Content-Type: multipart/mixed; boundary="===============2210329339606036707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 May 2026 10:43:06 -0000
-Message-Id: <177944658634.3660296.16222303083055176183@gitolite.kernel.org>
+Date: Fri, 22 May 2026 10:43:31 -0000
+Message-Id: <177944661130.3660695.86894170259157354@gitolite.kernel.org>
 
---===============5777578485780893125==
+--===============2210329339606036707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b07a332d9cbbd9cc9cfa923a21bd061cfb69bea5
-    new: 6faf74e2f429b78be812bb0d4adf884ee26d89f4
-    log: revlist-b07a332d9cbb-6faf74e2f429.txt
+    old: 6faf74e2f429b78be812bb0d4adf884ee26d89f4
+    new: 8e741c746fcd1c9450b0486f613a13526aa4f488
+    log: revlist-6faf74e2f429-8e741c746fcd.txt
+  - ref: refs/heads/tip/urgent
+    old: 82f9da0a2cd48ba459b98c6078661f21eebf4427
+    new: 9865c16ccbcfffec67dd5dbcb5014ddc93ec66b2
+    log: revlist-82f9da0a2cd4-9865c16ccbcf.txt
 
---===============5777578485780893125==
+--===============2210329339606036707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b07a332d9cbb-6faf74e2f429.txt
+Content-Disposition: attachment; filename=revlist-6faf74e2f429-8e741c746fcd.txt
+
+42625f988fdd69cc77f20282626fafecad5a7f49 Merge branch into tip/master: 'core/urgent'
+93c55a0eee05b868042758dbc387b78e43c5f1be Merge branch into tip/master: 'irq/urgent'
+9865c16ccbcfffec67dd5dbcb5014ddc93ec66b2 Merge branch into tip/master: 'x86/urgent'
+72e30ddc07c4265ea970c586e2ae92fceb9dc21b Merge branch into tip/master: 'timers/merge'
+b4d47184c88a0f218126fdd55d59d2e0878f40be Merge branch into tip/master: 'irq/core'
+c104046e6ea07e9306cfd0e46fba8aac986ec61b Merge branch into tip/master: 'irq/drivers'
+f8306ccf1d23ea275887e5127a345f0959a4a44a Merge branch into tip/master: 'irq/msi'
+572c755aca9c2b1c5d0591a000872d38e128e2af Merge branch into tip/master: 'locking/core'
+88b737baed9207f853149631dc8115d60621a52a Merge branch into tip/master: 'objtool/core'
+5144d1764659139732d6bbd3563615379612980a Merge branch into tip/master: 'perf/core'
+80ff661edbf27a72039c273ea6ca499c31939920 Merge branch into tip/master: 'sched/core'
+1ae453556a53934e3f4cb388a94af860dbffb20f Merge branch into tip/master: 'timers/vdso'
+ce67477850115c97103ed2f2710b981aeca68111 Merge branch into tip/master: 'x86/cache'
+91701537cd6c10f6821792dc045dd04aee03c46b Merge branch into tip/master: 'x86/cleanups'
+1076eb07259b7944a896663adb2cb0c9b9613258 Merge branch into tip/master: 'x86/cpu'
+652e6652fa35ad52d5df3c29da4ea84e676719b0 Merge branch into tip/master: 'x86/microcode'
+1bb684ab773ab141cf7dbea51372fbf4bdb4787e Merge branch into tip/master: 'x86/misc'
+0e28bc3528e2961888db64d658b29ccef6dbf661 Merge branch into tip/master: 'x86/mm'
+a3052cb4583b59f113dcdf0694df326e2af3fcd6 Merge branch into tip/master: 'x86/sev'
+8e741c746fcd1c9450b0486f613a13526aa4f488 Merge branch into tip/master: 'x86/tdx'
+
+--===============2210329339606036707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-82f9da0a2cd4-9865c16ccbcf.txt
 
 86637727c11a105499e9faa38f3422dfcf4d211d arm64: dts: renesas: r8a78000: Fix SCIF brg_int clocks
 d289b5f56ab7fe939dc5bfc87c856b46fe5def38 arm64: dts: renesas: draak/ebisu-panel: Fix missing cells and reg in DTO
@@ -283,13 +314,12 @@ c33f944a33d63c65f3506eee6f2ca3771b68454f Merge branch 'net-enetc-sr-iov-robustne
 758c807bb943138f887d42d986b645e12446ba9c Merge tag 'efi-fixes-for-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 0e3c08f1b7b79b2e9635e70fde3a2f053c99eff1 Merge tag 'wireless-2026-05-21' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 c9b7598eb013c6dbf2526dc050364bd8dc24f0d3 irqchip/renesas-rzt2h: Use pm_runtime_put_sync() in probe error path
-dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2 x86/cpu: Add Intel CPU model number for rugged Panther Lake
 7acfa2c5f4366d63653380646ffa7dbd1bfaccc0 Merge tag 'trace-ringbuffer-v7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6d3b2673e1fd553395933b6f2bc88c9e9d2a2bc5 Merge tag 'ceph-for-7.1-rc5' of https://github.com/ceph/ceph-client
 68993ced0f618e36cf33388f1e50223e5e6e78cc Merge tag 'net-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6779b50faa562e6cca1aa6a4649a4d764c6c7e28 Merge tag 'pci-v7.1-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-7059e218f4118f8740e08bb1fb7b1f43992b72f3 Merge branch into tip/master: 'irq/urgent'
-e4302f79e8b4107fd7d5fb37db5b6f358ddca4a0 Merge branch into tip/master: 'x86/cpu'
-6faf74e2f429b78be812bb0d4adf884ee26d89f4 Merge branch 'linus'
+42625f988fdd69cc77f20282626fafecad5a7f49 Merge branch into tip/master: 'core/urgent'
+93c55a0eee05b868042758dbc387b78e43c5f1be Merge branch into tip/master: 'irq/urgent'
+9865c16ccbcfffec67dd5dbcb5014ddc93ec66b2 Merge branch into tip/master: 'x86/urgent'
 
---===============5777578485780893125==--
+--===============2210329339606036707==--
