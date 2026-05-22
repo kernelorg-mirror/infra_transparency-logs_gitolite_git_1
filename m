@@ -1,48 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0605879785386668680=="
+Content-Type: multipart/mixed; boundary="===============2853154862973512490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 22 May 2026 09:48:37 -0000
-Message-Id: <177944331775.3617186.6840028923612957392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 22 May 2026 09:48:50 -0000
+Message-Id: <177944333008.3617381.4724792462051959394@gitolite.kernel.org>
 
---===============0605879785386668680==
+--===============2853154862973512490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/slab-for-7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f6f2872eb1ee17b336f3c62e30ad51828208c2d0
+  - ref: refs/heads/tty-linus
+    old: 452d6fa37ae9b021f4f6d397dbae077f7296f6f4
+    new: a3bb136bff5e6a5e48cdd813246c9c4686feaaa9
+    log: |
+         ea66be25f0e934f49d24cd0c5845d13cdba3520b serial: altera_jtaguart: handle uart_add_one_port() failures
+         a3bb136bff5e6a5e48cdd813246c9c4686feaaa9 tty: serial: samsung: Remove redundant port lock acquisition in rx helpers
+         
 
---===============0605879785386668680==
+--===============2853154862973512490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1779443313 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1779443313-554c1dceb530a96f7e0171e42f2611651ea6a483
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779443333 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1779443327-70e6384df08274d0acc7d089f30e9bc87577dce6
 
-0000000000000000000000000000000000000000 f6f2872eb1ee17b336f3c62e30ad51828208c2d0 refs/tags/slab-for-7.1-rc4
+452d6fa37ae9b021f4f6d397dbae077f7296f6f4 a3bb136bff5e6a5e48cdd813246c9c4686feaaa9 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmoQJnEbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaJQ8H/jv2nk5esft+ladHdIf0
-Sqo7cmoROAIIR5kpUnnIcvYBEjL5qtqtLs2oFQijnXl9EC5ScncqAjv9agQLBIOT
-MzSm7uzrwwixiKZloJ4RMYOYoBBvo8tL0wzCULUJ+0KvUdgeUs2zlGi3dZSIvLLK
-Zq4OtnKVDdUe5nN0bUMeoA0VN60Tuex3nt3N3ljmny9arigzGVBA7uQ4UuNbpFTy
-MFJ0LtMf5PA/JhhPF1cBeo2ckgzpN87mQCnwV/Ic3/rBD1/0a6CF8g7dcwscwiTV
-Esh15tI0N+yw5B635ODORfkggMvj+n1NIk/uq6rqL6NrdhY5KBEXIVo6wpixhm7m
-FSA=
-=ikJi
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQJoUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P7kP/R6ax2IF6j8/Pk/ky2q8
+UIHEpJ1TiXgDFBE7qMdAv/JNKilT9/4XjdOodQolYRyh5roDl2/4JNLZb6WZCtBq
+j0ILVIRPin4EbTKSf7iMUo4z+N9H/00lsMlYFRuggyb/OSLulDVO6+JV14mHE9NL
+dm1t82Jip7Rs8j2VDDKHG02HX3yoqKBC8A6ZPO+im6rn8fEvs5LUymJlEh3A9BVc
+fxK3li5zHOSqQIJTMRig0Np8tABQaX3xpKWdaFkKJTP5h2pMlJqS1zClMSuWJy90
+U1i7w4zcAs72uP7IKiFUaoCgZDChLKSbwIfl3+DRHbNKIZJxY4rt8FvR3N+pTpgb
+LTYD12CXok4tuafIgfFm+K+fUaneQgmgJwczXpJlUjGUuAVUu8/6iy9CCLrxKtXu
+yYeOmSnGNAykJUK3pDApTkq6Ov8oyJU2W0iqeUJdOp/ch10LTS6AUq3zU5OBlnIM
+JKEhGZFzD0Yuzz77hbrRGpVjjl3L9z4N7adRq37HSjAnV+7I/8Pwm37AgTOJVf1y
+DdFIJogShaJkgln6GZ2wzvoDFsozyudGY+KyynGXZCHHBT2dD3COEIjm8YKuejR2
+ZhO50y9gOUyweguBTWwkZsM9CVQusnspxEVIHmC7RSRTApgRCPJpqxPDyesqYTyb
+9Y9PZlJLtrPDd2WAq/ZXgjdo
+=5wYX
 -----END PGP SIGNATURE-----
 
---===============0605879785386668680==--
+--===============2853154862973512490==--
