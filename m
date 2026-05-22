@@ -1,62 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6366281655387569581=="
+Content-Type: multipart/mixed; boundary="===============5552856570184500331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 22 May 2026 09:52:58 -0000
-Message-Id: <177944357881.3621553.7400403597197762758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 22 May 2026 09:56:22 -0000
+Message-Id: <177944378297.3624808.17188091625024511807@gitolite.kernel.org>
 
---===============6366281655387569581==
+--===============5552856570184500331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 2e211723953f7740e54b53f3d3a0d5e351a5e223
-    new: e4240d8845445d58b4b96f7066adfe175a61bd0c
+  - ref: refs/heads/char-misc-linus
+    old: 542f5248cb481073203e0dadab5bcbd28aeae308
+    new: f6d8fea9e3953151a4adb4f603503dc3dc9c69da
     log: |
-         ca904f4b42355287bc5ce8b7550ebe909cda4c2c serial: dz: Fix bootconsole message clobbering at chip reset
-         7f127b2208e5e2b817243cad41fe4211a6d5a7a3 serial: dz: Fix bootconsole handover lockup
-         6c05cf72e13314ce9b770b5951695dc5a2152920 serial: zs: Fix bootconsole handover lockup
-         8572955630f30948837088aa98bcbe0532d1ceac serial: zs: Switch to using channel reset
-         5d7a49d60b8fda66da60e240fd7315232fa1754f serial: dz: Convert to use a platform device
-         7cac59d08a73cb866ec51a483a6f3fe0f531947c serial: zs: Convert to use a platform device
-         e4240d8845445d58b4b96f7066adfe175a61bd0c serial: dz: Enable modular build
+         4c19719eb8b8df08c5bec7c499f73ddaea6f09fc rust_binder: avoid calling pending_oneway_finished() on TF_UPDATE_TXN
+         f6d8fea9e3953151a4adb4f603503dc3dc9c69da rust_binder: Avoid holding lock when dropping delivered_death
          
 
---===============6366281655387569581==
+--===============5552856570184500331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779443582 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1779443576-91ce030e9b330df53daebdc4f219df05af70b77d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779443786 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1779443780-0a7cca39be303796f8121389756d53e1e0210860
 
-2e211723953f7740e54b53f3d3a0d5e351a5e223 e4240d8845445d58b4b96f7066adfe175a61bd0c refs/heads/tty-linus
+542f5248cb481073203e0dadab5bcbd28aeae308 f6d8fea9e3953151a4adb4f603503dc3dc9c69da refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQJ34bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TJAP/jxsFD0t9kROyY3sR8gD
-Qu2+bu4GCwNXTrhZyGVXI5qRWWeNHbh//kOlzuQL+vOrxXmr24+oIJd4Dl3YBhk3
-AiY8OxoG3bxhiTNGnzMrCP2Z9ptNJPECLOYCO4elZdX8xQJJNMlrZoMYfnGUEiqh
-S7b+rqLbZKpKXgQvTpgTfNf6rWu8PlSi+uNneiFxrr87CFKnnclwKDodaRbVG9SB
-3me0wprjXpzVwRFtNX0+43Nlcez3fdNkg0RBUeDz9TtlwYk3ZsfGlfkCizlb2iao
-R/AyDHENz9v9O6zbfCWPoPUnwd8osjdWRyWpBcVcJYB6ypcKNbp61/vold0zAD98
-CVdpzvfYG3gWVoBJ2sMKlOAGQ/qpHfLTGgR44qT7XsILlljq0WXPscXVMduhZKcU
-zZl7ahaFbg1IYlD4KQ3z5rndpETL3TZCElcjAz+dSbEIIV6d0LQDeh/caVdFv83+
-9M0n9IzTFo2+cQEcMgrDoICkFoRzM8I68lWgDBJRTLNuPuRZMhpyLmFwtuEF65sJ
-CVUvlHod0mwCovWWo25yBBP/rOORCFKi5aEGSWPdRDqgvL9AxGi8QneQPklFxbOR
-nijdhZbTGQzr3y3+CjGqnkGMnyA4XRBtXd4MlCwmwaGCgWdcXmVQG8LgWdevDIDF
-mnb3Hz8FrwzNwSyqSqha0xjV
-=T6FH
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoQKEobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lv4P/RCvFHrh/i/Ajr9XXwpP
+HztQYF9YmkqYzyS7FjSgCNf+tHxVdHJ2C9n314114SrrTzDS3k8wzga/K5/yQTPA
+KAHUSaqRrNd5V7DZqf+i0TWcVSPHH9LIaiF/aQsh0LkZNlkpfCMcIN/xeSdCs3HR
+ZYHg5yNvtmJ46AGZvqFTcxFpJoAftNmfAffhx1tT7nPMi36fhZi5ku8QxZ896k82
+WfAgpOmaGEaiM/ZWoiozZWeTQRURI1FkMWAaQQDPYNrp50lHH5V2EkwtVjTHOtQp
+5qIRpcTNs7H6Bx0ECjN8lfJWmsjSHS+lri5fHc6pUHlvh80FyJF9Y/kg3sJdrOHH
+0WP2zmGiwqVElSQ4/23ZzZ1g4jzevDIw67OwIjlw9ZA17CD9FvmBJxh3awICkZrc
+Rp2pDDmYEVZQWBEAyKN2XuiQNxqBJMh7XRPLR3f4BToMnFMGPnqla3KKRLu8m8gf
++ylHsdgCMGRKxQfYI8NNmXgLa3xTEw87F4/aD1r5U35W7V1Fd+ELs0pfMYshf7Qh
+V/PWjCTYFzIQEN7lIh1TQ0T3yOzRPujYuOEypMnNFA3KoonRgUliiVvS29G86BBE
+iAo5GBZHnqkv08+DelovcLauZ8ajiLFp7NfxFfcJq7k76MM5bHLrCFSxqkzPc+m5
+VJtTSKtqhAIGp6HBcBGPpjVY
+=PraP
 -----END PGP SIGNATURE-----
 
---===============6366281655387569581==--
+--===============5552856570184500331==--
