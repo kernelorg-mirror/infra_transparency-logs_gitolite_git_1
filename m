@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8783052091364630230=="
+Content-Type: multipart/mixed; boundary="===============0863136505415725297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 23 May 2026 11:41:29 -0000
-Message-Id: <177953648988.762890.12330046009073750274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 23 May 2026 11:41:36 -0000
+Message-Id: <177953649620.763006.4768457646100309517@gitolite.kernel.org>
 
---===============8783052091364630230==
+--===============0863136505415725297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1.174
-    old: 0000000000000000000000000000000000000000
-    new: d2d1d7937352ef024a6af01e8437756f72f2ff58
+  - ref: refs/heads/linux-6.1.y
+    old: c27210688955656e93e26cffab0a82bbca4e5d2b
+    new: dcbcab9d707928cd1679eba21ef0697fbb73b88a
+    log: |
+         9d3e5fd19fe1063bf607219e8562fbd567b8e8d5 net: skbuff: preserve shared-frag marker during coalescing
+         12401fcfb01f53ccc63ab0a3246570fe8f3105ee net: skbuff: propagate shared-frag marker through frag-transfer helpers
+         dcbcab9d707928cd1679eba21ef0697fbb73b88a Linux 6.1.174
+         
 
---===============8783052091364630230==
+--===============0863136505415725297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779536494 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1779536488-ba634eea83f9cff3d2cf936fe41260f478fa9c6d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779536500 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1779536494-3baab42f190d20df77aa1610d77f13b144a7e9e1
 
-0000000000000000000000000000000000000000 d2d1d7937352ef024a6af01e8437756f72f2ff58 refs/tags/v6.1.174
+c27210688955656e93e26cffab0a82bbca4e5d2b dcbcab9d707928cd1679eba21ef0697fbb73b88a refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRkm4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RZMP/ROkZCRUYp7CxpJ2Owv/
-Hp98Cb34EoVm9USySoXTDf0wpUIbgEFyp4XugGvbJS24UJgUsHZ5gITMn2jTt30h
-83PPieqb40US9rw/ot8JX8VxWM7ccSmIcoN8Zq21fbfB3mTjpYCS9CEd1xfYBKqD
-6L1wF8C4uoWdLYhGJRQzERWHtvkDMUzdw8zk4YkA2WMJ8l4GxzJdaD4bIjKrkkce
-/+5wubyNXh53OE86NScmc9318UC3CwP/ApclPZAbaerpZh4OpY2gpJAHwktylthH
-YC9/01coJtc1LtUHEnPgyL7uCloue+5qZRsjxwyvEi2jZVuAblzl+BHOl6FRT+UL
-ehUA2aQaWiODE8xkC5q3mBDKAZNDigX1LmCVRRyJznxV7zX7QHugQOgsQhqNt7oo
-Z9gjQg12pdIBWyQaiATJh/k0DKryN14jQw+0ueFeKg/MTI753IBeAUsH/ncRHVC2
-MN3jUJh7J6sZtLULNVzVOfT6iya3JpQTZOdOcxneSHF9ndviQGncZggHal5+4I5O
-nLkvJLaD1P/ETJ7Hl0vaQYTegeOEWUeINLSydv7FEr2+vapwb11J2rgjo3maJARz
-CswaxI9IeqhssTRYf661yjiBoUGFTuZvVZ7FFXIkfTlPIbT/33CteOhLrYhP4U3S
-bFGigmR1E0TVJgn0GbjIULGn
-=U7lO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRknQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3HAP/1Id8KbkgwEROoRRZt+6
+272l4MIYBzSWiZmFIG0S8nN5iva7mJtCGBnP2K/xKfd8Dv4+HjNmGYROihYkkpbv
+NI8LChbzwGeds9VEBTfHJsIJwB4w6IKthC8toT6/rerPPPokzQDe49/+XX3Ajkft
+KnUFV/kFByFY/llz5VI7qMe+khDfdW7piOIyp4Hzsd1rIuzHul6KxiPCWoKwUct3
+S+TMvt+vLJa9Ej6vMv2a+ZPbx10JVlaBIuidARJwRM1XQ/IlsbxvmFHl8JBgRDP3
+i7YCYtHEgCA124pqH09B7Q+ZS6zCn5zpTX2hnpIWOuyxpNqRDGeyRcZoOWZ6QrSk
+qwTcVEEYwQBcQoDt6kTSBkLpE5QWnxBCDizFoHtmfdrZI+qVy5ge+yiywEfE+91P
+tfv9XJlaOsk8K62H7f9oYMCoV4mwlT7qMd9Ndtq4GbOIbTHvhYhyLt3nNqCW4wBq
+8/911CScBBP+Fn0IRvSaWkRGiYaD6U1imRQZW22OxmsR0YGolwrALa8zxmvb2tCf
++w11x2IX1OmY8IKL0pqEhHxKlOcYaS7OhPtLNSH9UdwQjOkG4NY8PoMzSi6Vh9Kl
+k6F5kd9NZgFVthb2zuWxa1GzjYn4vGGyXMGx8z+ewRD8KTCpYXV9hlMuOTllSBZ6
+EU6l0x7xCSfahOJ9T6NuRtqy
+=Ay2E
 -----END PGP SIGNATURE-----
 
---===============8783052091364630230==--
+--===============0863136505415725297==--
