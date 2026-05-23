@@ -1,20 +1,78 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 23 May 2026 02:17:02 -0000
-Message-Id: <177950262266.176752.11173374294282454654@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0420955801028624545=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 23 May 2026 02:17:30 -0000
+Message-Id: <177950265017.177249.12353770012992087530@gitolite.kernel.org>
+
+--===============0420955801028624545==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 3589d20a666caf30ad100c960a2de7de390fce88
-    new: 87a1e0fe7776da7ab411be332b4be58ac8840d10
+  - ref: refs/heads/arm64-for-7.2
+    old: 4bd073e00fd79c0aead74ad64ade48c904221245
+    new: f3919fa784a3e6dd557dfe2c41072f55742e013f
+    log: revlist-4bd073e00fd7-f3919fa784a3.txt
+  - ref: refs/heads/clk-fixes-for-7.1
+    old: bc27dbefae6ed11376d991a2921eff806ffef67c
+    new: 5285b046757844435d1db96c1b5c3a6621b2979a
     log: |
-         4157501b9a8ff1bbe32ff5a7d8aece7ab18eff40 vsock/virtio: fix skb overhead overflow on 32-bit builds
-         87a1e0fe7776da7ab411be332b4be58ac8840d10 ipv4: free net->ipv4.sysctl_local_reserved_ports after unregister_net_sysctl_table()
+         5285b046757844435d1db96c1b5c3a6621b2979a clk: qcom: dispcc-sc8280xp: Don't park mdp_clk_src at registration time
          
+  - ref: refs/heads/clk-for-7.2
+    old: 25b8f50b0622689cd1f7233e452407ce777a479e
+    new: 9bee0a0a33e56122834a18e865fa83fdd2c99ebd
+    log: |
+         d62b0e3104cfd2171281867196cb1365098a25e0 dt-bindings: clock: qcom: add the definition for the USB2 PHY reset
+         9bee0a0a33e56122834a18e865fa83fdd2c99ebd clk: qcom: nord: negcc: add support for the USB2 PHY reset
+         
+  - ref: refs/heads/drivers-fixes-for-7.1
+    old: 06b2e78c45028aadb220db8f72554884c422a825
+    new: 462a85f9f887a4fef36550bb76c7f7d7a0fa296c
+    log: |
+         462a85f9f887a4fef36550bb76c7f7d7a0fa296c soc: qcom: ice: Fix the error code when 'qcom,ice' property is not found
+         
+  - ref: refs/heads/drivers-for-7.2
+    old: 0a4d53ae2cb68cbfe3c69e14d8cfc0acc7c37bda
+    new: 23cee0d07a412f1fadb236358e0d834fabf0efcc
+    log: |
+         db0ec1ad723187a3428145b05d4a230d5b6f7e32 soc: qcom: llcc-qcom: Fix NULL vs IS_ERR() bug in qcom_llcc_get_fw_config()
+         e231930279b038ddd3274a4819b4bc2bf0dbab37 soc: qcom: geni-se: Refactor geni_icc_get() and make qup-memory ICC path optional
+         f746fedb892872cbcee698696303609f0ea76fd7 soc: qcom: geni-se: Add geni_icc_set_bw_ab() function
+         5b8a39dcf909a4723a58e424ae1b0595d6f5032d soc: qcom: geni-se: Introduce helper API for resource initialization
+         e5f54cda9d75b21baa0e07616b5d662b55e7ff76 soc: qcom: geni-se: Handle core clk in geni_se_clks_off() and geni_se_clks_on()
+         8f4ce470ff8c0d7d820d319f64f05ed9a239a240 soc: qcom: geni-se: Add resources activation/deactivation helpers
+         f1a325d2812797166c744ff7ffb2ccbafbac20ad soc: qcom: geni-se: Introduce helper API for attaching power domains
+         c012e28e9a4a84b0fe7bf9ef7db334a9a4f31687 soc: qcom: geni-se: Introduce helper APIs for performance control
+         23cee0d07a412f1fadb236358e0d834fabf0efcc Merge branch '20260227061544.1785978-1-praveen.talari@oss.qualcomm.com' into drivers-for-7.2
+         
+
+--===============0420955801028624545==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4bd073e00fd7-f3919fa784a3.txt
+
+85abff1549515c453dd113c4a4e3dd75ef3cd30d arm64: dts: qcom: Drop unused remoteproc_adsp_glink label
+ecabfe832b817bd1c1fdb8841d7bc706bf621ef1 arm64: dts: qcom: glymur: Fix wrong interrupt number for i2c19
+89e77275b55eac3d3b8027c9806eb32b24b05023 arm64: dts: qcom: lemans-evk: Enable CAN RX via I2C GPIO expander
+f6dd5665d8e525484c2d0ebdb7004319024ee640 arm64: dts: qcom: qcs6490-rb3gen2: add rmtfs node
+1f7d0c42a08d157294b8dce4ac162c2853f287d0 arm64: dts: qcom: glymur: add coresight nodes
+b39a174a535841e71c59661cc92408b710e0fe6a arm64: dts: qcom: milos: Add qfprom efuse node
+db9900e518b2992cbbcbfb7572c2d436ec0feb6d arm64: dts: qcom: glymur: Add qfprom efuse node
+0299c007e6f34a2a5b724c332b86be77409ea729 arm64: dts: qcom: monaco-arduino-monza: Add Bluetooth UART node
+f3cd85f60c5eb2d817af6c62465018dd941ce4f3 arm64: dts: qcom: sdm845-xiaomi-beryllium: Correct IPA FW path
+7a473107f9785700a5c57cee69f60c19a9703f95 arm64: dts: qcom: ipq5210: add watchdog node
+6ba85ffe796ab4eff37e3229999b34a99954fb49 arm64: dts: qcom: sc8280xp: drop unused polling-delay-passive properties
+1daf54d8100e0e92c826ac8a2b888008b2571cc0 arm64: dts: qcom: sm8750: allow mode-switch events to reach the QMP Combo PHY
+181bef739979466b6ede95b34d6c94d0250b1c0e arm64: dts: qcom: hamoa-iot-evk: add MCP2518FD CAN on spi18
+fe9f4a46895dc3062cedcdd38772dd578de9e62f arm64: dts: qcom: sdm670-google: add common device tree include
+f3919fa784a3e6dd557dfe2c41072f55742e013f arm64: dts: qcom: add support for pixel 3a xl with the tianma panel
+
+--===============0420955801028624545==--
