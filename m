@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5052398953892777355=="
+Content-Type: multipart/mixed; boundary="===============1118473029237693395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sat, 23 May 2026 11:18:34 -0000
-Message-Id: <177953511441.688748.6576355484156663486@gitolite.kernel.org>
+Date: Sat, 23 May 2026 11:18:53 -0000
+Message-Id: <177953513326.689046.8245292982693297526@gitolite.kernel.org>
 
---===============5052398953892777355==
+--===============1118473029237693395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 1a1f055318d82e64485a6ff8420e5f70b4267998
-    new: c0aa5f13826dcb035bec3d6b252e6b2020fa5f88
-    log: revlist-1a1f055318d8-c0aa5f13826d.txt
+  - ref: refs/heads/testing
+    old: 4e10f7c430ac01a13dcb78c076a4043a446712f1
+    new: eb2775e248706e6be61d8629bb2b0e65be7e1912
+    log: revlist-4e10f7c430ac-eb2775e24870.txt
 
---===============5052398953892777355==
+--===============1118473029237693395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a1f055318d8-c0aa5f13826d.txt
+Content-Disposition: attachment; filename=revlist-4e10f7c430ac-eb2775e24870.txt
 
 4177fd4469824b7cb58ef197ede868f9228f4fa7 selftests/tc-testing: Add support for ifb devices
 bde2a04d9b6fd0e6442353416cf0de27d6925f0f selftests/tc-testing: Adapt idempotent qdisc notify callback tests to recent fq_codel changes
@@ -61,5 +61,18 @@ aa6902098914bd863fda7d22ccf84edf623d0685 net: dsa: microchip: bypass dev_ops for
 932fc72b9849ddc85eb7865b038e83c0e2b8696d net: dsa: microchip: call DSA's phy_{read/write} to do mdio {read/write}
 2b0c672543cd98c4fa07c35b599623651fff07e7 net: dsa: microchip: bypass dev_ops for phy_read()/phy_write()
 c0aa5f13826dcb035bec3d6b252e6b2020fa5f88 Merge branch 'net-dsa-microchip-remove-unnecessary-ksz_dev_ops-callbacks'
+806f89d689446be0ec1748f6576258830eaac50c netfilter: x_tables: disable 32bit compat interface in user namespaces
+52ee59869380dfca4ed0f51fbc8b678803818e78 netfilter: add option for GCOV profiling
+6a855b00eb5efbcb10df50dd338fe6aa749ec5f1 netfilter: allow nfnetlink built-in only
+fa204e75d15039d075248b8d273ab113b729461c netfilter: nf_conncount: use per-rule hash initval
+54123270ebd75361ddd26ae003365ed75c4e3523 netfilter: ctnetlink: use nf_ct_exp_net() in expectation dump
+b0123e1ab010f9c3761f436ddcdbeed05b56187e netfilter: nft_set_rbtree: remove dead conditional
+b2bfaa36e6b8954f0f10bde71bc6200093d29353 netfilter: nfnl_cthelper: apply per-class values when updating policies
+4b367ef1e896d5777ed0d819b419cedf4b15de99 netfilter: nf_conntrack_irc: fix parse_dcc() off-by-one OOB read
+f77700f88ea33df1f960b6174ba426caffe70cae netfilter: nf_conntrack_proto_tcp: fix typos in comments
+475b1b1ceacb4f3a51b149717536b83aa1fe190c netfilter: nft_set_pipapo_avx2: restore performance optimization
+b567229a0a76656b6f0e4641eb3bd8dce2b9e942 netfilter: nft_byteorder: remove multi-register support
+da14cf55858adcd4f8b68007133532185b67d799 netfilter: xt_NFQUEUE: prefer raw_smp_processor_id
+eb2775e248706e6be61d8629bb2b0e65be7e1912 netfilter: nf_conntrack_ftp: avoid u16 overflows
 
---===============5052398953892777355==--
+--===============1118473029237693395==--
