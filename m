@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6844558378376439383=="
+Content-Type: multipart/mixed; boundary="===============2520640935201306766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 23 May 2026 15:20:58 -0000
-Message-Id: <177954965838.982619.15108252681436764504@gitolite.kernel.org>
+Date: Sat, 23 May 2026 15:21:40 -0000
+Message-Id: <177954970047.983047.15267129446340798699@gitolite.kernel.org>
 
---===============6844558378376439383==
+--===============2520640935201306766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 14b24d73db5929cff07af8d2579bb871ae7bca79
-    new: bd70eb26ceee37894840ac97f081dfcdf8f1e462
-    log: revlist-14b24d73db59-bd70eb26ceee.txt
+  - ref: refs/heads/readfile
+    old: 53490607afe9ff46b1a991e63900cc976f279ac5
+    new: 4f0da5b0b16aef75b886c48a8a6c74941b325e96
+    log: revlist-53490607afe9-4f0da5b0b16a.txt
 
---===============6844558378376439383==
+--===============2520640935201306766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779549635 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779549665 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1779549629-21b0d654b75956cd42141feaf6c062b1ba316107
+nonce 1779549660-18ae63e917156636b8ced342eb02dd986764635b
 
-14b24d73db5929cff07af8d2579bb871ae7bca79 bd70eb26ceee37894840ac97f081dfcdf8f1e462 refs/heads/module_version_removal
+53490607afe9ff46b1a991e63900cc976f279ac5 4f0da5b0b16aef75b886c48a8a6c74941b325e96 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRxcMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+27kP/RZvjJKK2U0uO0bCfYW/
-9UEu5zCVUNee6QOS4lgIKvWYvyVcRcnRG3APmM5YZ+ZwOMAElOsjwI7reSg4mrsm
-0W2jGpp9s3eJy78JcCWeI+rKxxdE5/mIBb2QJvl1hulVw2OXaiua/TOMw2D96jb0
-eAvakwQeP7frHf+vbaTfEJ8hcmT3n6yaLoUaQmjNIUoe8CcRT5r5kealxrp12Chv
-WfY1U6cotFGWRacXycdQWwSVWoa1Yxxvlxii5oM/bfkxN6DF6uWyIw1xpmPihiyT
-9BlmmpUR7OrAShYohV2/c3kEXD6DmR8/SSC6LjchbE2QDEoiVw+Y+fDRe35yx842
-RohqYEEvFQ8KHzt5D3ao0kTaLesgDLX+Gyj+UlAphVdTIlzidkWvcUj8UAMv2NCY
-6S3lPcnTglT1FQwcd5kSLdyV+7q6vtshm9SM6amvTTLVw5CVH1VsooBbZNfjqZAx
-PAFM0vK7XZV3LnIS/+6HcpCAO+88Sly0+L2yVO7QN121E0cZgQPufSSLdtP3QQmM
-WCt2BiavREtxEDddbfqVwa+2ByIeNAsU7SzR0wr6VZUZKB6x+CsRUQOjNQ0Q4/0Z
-jXNkaQLemXNAc0M+7IXoVX4f6Ang+Xr7BWPySqSWhaCK6SJocm8NqRgyu43wa210
-mYpYdXcosFb8OtNqtQY3aYxq
-=52ud
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRxeEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nJwQAKDvjbAtFsmC8yLo3SZ+
+H/b7n1dnEo3spkjEpcHTX6/4K6Iy2BI0R2yLkUWOGNP4XKb+coCfyRNi9E+38j18
+jMoo7YRIOxB/6Gm4txntdE2yryzoXIVgA65pBbfit4edtmtF7dCQaA4zVT6Y3q3R
+b7OODVlkcPERanbRmjj3zYgirCgvzKh6xyEeA1iNPV34LobJsZJFkxAR7FoIIdg9
+WkkXqcEpct527PtQTCR/Y7jhG5KDa/yoqfVMnLsFT7MmGP0Zcsgd3v2wAaiznx5F
+Cm1p75919mYASsuZ5uBEhYKyLX32fjylgU0ZxS8iunceCnv/szHt0Wr+zr1tnfCT
+vLWNstYthPY3REKlCf6Se19myPtnMaLZrKQ0A7Gvzws2bSV24qZSQJ41m5ZtiNhP
+N7I8ZRWGlSgqCbdBa9bvyp5YDkrRUPDRlnDFLnoVkBLKSfmsYPO9ekjz9qUxBEV1
+EOFCauPCdHQ1GKz2cEBQ88/rfn7jrCeU3A1vgVEwKWndstFh1MdPVU9oa51V7s0c
+zkiqexxPoDg5fpSYBCkXZm7ZoEqp81ck+jtopzfIDSul0yHE6qLfbNHnG1NDrBZn
+Z2OwMZm/7JQ6bz7tEZX4U7sgBIDM0w6eeK0TVCAyrdAAbaaeotT+RnxIq5UWsgg5
+qo5vpASNdfTNK9JErfxM2SUu
+=fZ0b
 -----END PGP SIGNATURE-----
 
---===============6844558378376439383==
+--===============2520640935201306766==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-14b24d73db59-bd70eb26ceee.txt
+Content-Disposition: attachment; filename=revlist-53490607afe9-4f0da5b0b16a.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -697,6 +697,9 @@ cca95436be15d00ddac02d73054b612649485495 Merge tag 'phy-fixes-7.1' of git://git.
 4a5860ea6098bc6c0a966bb415d5dfe96adb4a86 Merge tag 'drm-fixes-2026-05-23' of https://gitlab.freedesktop.org/drm/kernel
 de37e502a315677138009d2965f87e2c0721e76f Merge tag 'cgroup-for-7.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 79bd2dded182b1d458b18e62684b7f82ffc682e5 Merge tag 'sched_ext-for-7.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-bd70eb26ceee37894840ac97f081dfcdf8f1e462 module: remove MODULE_VERSION()
+e09fca091caa47cc792aee95d4c948802cc27b50 readfile: implement readfile syscall
+3e32ca047756a2886b6321b988b59876264f5128 arch: wire up the readfile syscall
+f4522e8a1bb2de9995b1eb6567c841b1e0bc9f05 readfile.2: new page describing readfile(2)
+4f0da5b0b16aef75b886c48a8a6c74941b325e96 selftests: add readfile(2) selftests
 
---===============6844558378376439383==--
+--===============2520640935201306766==--
