@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5595903403041063482=="
+Content-Type: multipart/mixed; boundary="===============5324330575504312512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 23 May 2026 08:15:33 -0000
-Message-Id: <177952413384.442256.16671069692983306732@gitolite.kernel.org>
+Date: Sat, 23 May 2026 08:15:58 -0000
+Message-Id: <177952415830.442825.4165895424656705144@gitolite.kernel.org>
 
---===============5595903403041063482==
+--===============5324330575504312512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8e741c746fcd1c9450b0486f613a13526aa4f488
-    new: 1a7fce83eebf4e0511e16f54a12027e7488eb53a
-    log: revlist-8e741c746fcd-1a7fce83eebf.txt
+    old: 1a7fce83eebf4e0511e16f54a12027e7488eb53a
+    new: 5f9b29706a06b1de8145ee8e6008683287ed184c
+    log: revlist-1a7fce83eebf-5f9b29706a06.txt
+  - ref: refs/heads/tip/urgent
+    old: 9865c16ccbcfffec67dd5dbcb5014ddc93ec66b2
+    new: 53c34d5bf6158bc13ea34200e16a88a0f276a583
+    log: revlist-9865c16ccbcf-53c34d5bf615.txt
 
---===============5595903403041063482==
+--===============5324330575504312512==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1a7fce83eebf-5f9b29706a06.txt
+
+9be39ce10e3186f5cbbcb9cff4314f4192713630 Merge branch into tip/master: 'core/urgent'
+c3b50f347348ef4e8830a6cad391b271636a4541 Merge branch into tip/master: 'irq/urgent'
+53c34d5bf6158bc13ea34200e16a88a0f276a583 Merge branch into tip/master: 'x86/urgent'
+f84a699a11a792cc8bc0d4a6fc46722c9c3ad327 Merge branch into tip/master: 'timers/merge'
+57ec39c69a8b3b4447c96e5cd5e7037291530be0 Merge branch into tip/master: 'irq/core'
+84d0bd8d0a9a9f529015ee8351ff9e769df03f5e Merge branch into tip/master: 'irq/drivers'
+5e76551d31a9c31514fe32514bca47b2d2f3b366 Merge branch into tip/master: 'irq/msi'
+020f126d4b87e2b46de4521e26e0ad5fb21163b2 Merge branch into tip/master: 'locking/core'
+059813b366b2a32bab7033d093e7d47a92dec08e Merge branch into tip/master: 'objtool/core'
+3987509c5c869674b9c2c59a3d4082ba1b99d0b9 Merge branch into tip/master: 'perf/core'
+25614715dd2393163ca43edd3ae037788711a40b Merge branch into tip/master: 'sched/core'
+2e144e98186f09215aa47ffab3588f063f7ee129 Merge branch into tip/master: 'timers/vdso'
+05bc737cdcecc1b94386039faee450b9e257ec29 Merge branch into tip/master: 'x86/cache'
+a31e3ceda1ceee0f4ffa97b24d2db77e1bd3c711 Merge branch into tip/master: 'x86/cleanups'
+1540f39c16be4d98a13e596319cf641c18d5cf7e Merge branch into tip/master: 'x86/cpu'
+9f7607f5f6e4d61461ff5ef8033135b0569447f1 Merge branch into tip/master: 'x86/microcode'
+1c2bcf045627b1defc9df46b6a3d69494ae78cf2 Merge branch into tip/master: 'x86/misc'
+a1d73021b10bd92f02ccf5bf567ece4d0273db6f Merge branch into tip/master: 'x86/mm'
+a441e4b3173b4791f290ca21fa5a26c62a9a6499 Merge branch into tip/master: 'x86/sev'
+5f9b29706a06b1de8145ee8e6008683287ed184c Merge branch into tip/master: 'x86/tdx'
+
+--===============5324330575504312512==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8e741c746fcd-1a7fce83eebf.txt
+Content-Disposition: attachment; filename=revlist-9865c16ccbcf-53c34d5bf615.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -243,26 +274,6 @@ f2ec69363fb52fbb2010e5edbec2b8ca0951aadf platform/x86: sony-laptop: Check ACPI_C
 22572dbcd3486e6c4dced877125bbf50e4e24edf cgroup: rstat: relax NMI guard after switch to try_cmpxchg
 a67f3113331d9fb3eb0664602d9b581cb2df7294 Merge tag 'amd-pstate-v7.1-2026-05-14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux into pm-cpufreq-fixes
 576ec047d20b368b43c4d5db98c4f2e0f3c101ec tracing: Avoid NULL return from hist_field_name() on truncation
-394d7f52d8449099af57aed156ccc3cec446ce03 x86/virt/tdx: Clarify try_init_module_global() result caching
-2f410fa074fb12167b9788263b4862a5ffc5a6d7 x86/virt/tdx: Move TDX global initialization states to file scope
-332d5758bbad876d6e1c0ff4f4a2a65b3ceac1b2 x86/virt/tdx: Consolidate TDX global initialization states
-2818e8c8a46d96866d29a63e2ecddc11c7e74591 x86/virt/tdx: Move TDX_FEATURES0 bits to asm/tdx.h
-0a7808c1b5ff7ad71b6af19cdb389df9ebdab0fe x86/virt/tdx: Move low level SEAMCALL helpers out of <asm/tdx.h>
-c6a2ea2cfa6a23a6c5f55bdd6190e772338f63b4 coco/tdx-host: Introduce a "tdx_host" device
-e4afd39aefd8f41b85fd38463cc50903620e8cc9 coco/tdx-host: Expose TDX module version
-b434b916fed3e18c19ecc5636d472b00f824abc6 x86/virt/seamldr: Introduce a wrapper for P-SEAMLDR SEAMCALLs
-fcbc30f0d66fed9a484a723d22702e704b02656c x86/virt/seamldr: Add a helper to retrieve P-SEAMLDR information
-b094b1684fef88edc23ad7134022c59e4cef0e21 coco/tdx-host: Expose P-SEAMLDR information via sysfs
-56b46fe202f8078b05ce86853ab190b505c7a0e3 coco/tdx-host: Don't expose P-SEAMLDR information on CPUs with erratum
-000c293c24bc40ecfe9083000a0d8369920e65a9 coco/tdx-host: Implement firmware upload sysfs ABI for TDX module updates
-35621312a061ff785a38c209ab05ccd1e4989382 x86/virt/seamldr: Allocate and populate a module update request
-e16ce07a9053deb235e6d7a5702ba19ecbc27c67 x86/virt/seamldr: Introduce skeleton for TDX module updates
-c507e80de9471234536953ee2605e569a7de2306 x86/virt/seamldr: Abort updates after a failed step
-146ac22b2b9665b62e54abba8f2c5a2e1ceeadfe x86/virt/seamldr: Shut down the current TDX module
-522bacc2fbac65fdf2a91fdb5835f832b7aba31e x86/virt/tdx: Reset software states during TDX module shutdown
-d909333bf65507cf94b0d2cdb8c837eddd3e2ac1 x86/virt/seamldr: Install a new TDX module
-ae1b7dc35a2309b5493eeb2e56275617f1de8e13 x86/virt/seamldr: Initialize the newly-installed TDX module
-541af19884a5929dc3261ec3bd3eee926e8bf9ea x86/virt/tdx: Restore TDX module state
 5b4a47dc547f999f42a29a7fe4a7dd7e09441d1e Merge tag 'drm-msm-fixes-2026-05-17' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 30afd245e24a73dbe0451877244ef1dd5154fcf1 Merge tag 'drm-intel-fixes-2026-05-20' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 aee43aaf26c7f162780ab77ce952bae6a1b354bd Merge tag 'amd-drm-fixes-7.1-2026-05-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
@@ -310,10 +321,6 @@ ef7f594f5d291a98a4da2cc95e7713d3971bedaa Merge tag 'arm64-fixes' of git://git.ke
 f6982769910ecddabdb5b8b9afdab0bb8b6668ac block: avoid use-after-free in disk_free_zone_resources()
 28222dcdad2181e3b153b2300ac4cb9cb3304fd7 Merge tag 'acpi-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 45255ea1ca096b11b1303c9b54502a28f3a31dd1 Merge tag 'pm-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-6693d4c89e884a1e277cac31a396afbfb3210327 x86/virt/seamldr: Add module update locking
-4df1ae579749ccc85ee46cc0caad04eb908ddd41 coco/tdx-host: Lock out module updates when reading version
-6e49a980dea9ca6ca12ca78e33578d11b6752fcd x86/virt/tdx: Refresh TDX module version after update
-b5862fedb97f53deff196fa9657597116e3086da x86/virt/tdx: Enable TDX module runtime updates
 632360e8f5fce2eee720e952fd84e8cefb5749b6 Merge tag 'zonefs-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
 558c3eca715ea0110fe6fce38b063a6f9936188c Merge tag 'v7.1-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 dbae42cfa618abc57f0bc3c28cc140292f4f7410 Merge tag 'io_uring-7.1-20260522' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
@@ -330,7 +337,8 @@ cca95436be15d00ddac02d73054b612649485495 Merge tag 'phy-fixes-7.1' of git://git.
 4a5860ea6098bc6c0a966bb415d5dfe96adb4a86 Merge tag 'drm-fixes-2026-05-23' of https://gitlab.freedesktop.org/drm/kernel
 de37e502a315677138009d2965f87e2c0721e76f Merge tag 'cgroup-for-7.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 79bd2dded182b1d458b18e62684b7f82ffc682e5 Merge tag 'sched_ext-for-7.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-eb548314fde4b90bf0eea303ba65622a9c52adb8 Merge branch into tip/master: 'x86/tdx'
-1a7fce83eebf4e0511e16f54a12027e7488eb53a Merge branch 'linus'
+9be39ce10e3186f5cbbcb9cff4314f4192713630 Merge branch into tip/master: 'core/urgent'
+c3b50f347348ef4e8830a6cad391b271636a4541 Merge branch into tip/master: 'irq/urgent'
+53c34d5bf6158bc13ea34200e16a88a0f276a583 Merge branch into tip/master: 'x86/urgent'
 
---===============5595903403041063482==--
+--===============5324330575504312512==--
