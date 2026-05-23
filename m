@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4123336653287177056=="
+Content-Type: multipart/mixed; boundary="===============2725963715467922021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 23 May 2026 17:32:53 -0000
-Message-Id: <177955757387.1080209.3158683689152498611@gitolite.kernel.org>
+Date: Sat, 23 May 2026 17:32:56 -0000
+Message-Id: <177955757620.1080315.17536306311613764714@gitolite.kernel.org>
 
---===============4123336653287177056==
+--===============2725963715467922021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 953263a7166c40047878879aab2926231aa67e3d
-    new: 4b9e0e1f8c4b5c163abf189fff522846ad72ab23
-    log: revlist-953263a7166c-4b9e0e1f8c4b.txt
+  - ref: refs/heads/mm-unstable
+    old: 686099898049e501ebc60c22c183267548bf7644
+    new: 7f077167feb6e403ef039d6009d785d596ed8070
+    log: revlist-686099898049-7f077167feb6.txt
 
---===============4123336653287177056==
+--===============2725963715467922021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-953263a7166c-4b9e0e1f8c4b.txt
+Content-Disposition: attachment; filename=revlist-686099898049-7f077167feb6.txt
 
 83ec6eeb74a592e6568cb0723bac99fb8b3810b4 MAINTAINERS: .mailmap: update after GEHC spin-off
 83f9efcce93f8574be2279090ee2aec58b86cda7 Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare"
@@ -397,52 +397,5 @@ ff20760c01c2a60ec5ba6f6305f7e80cc0df2947 Documentation/admin-guide/mm: fix typos
 a8b46ebe1e92a8c063470de2d787f2b7dd24ad4b mm/damon/core: clarify next_intervals_tune_sis update path
 69f0ead90a7595b767558ec17ee9b7c363426252 Docs/mm/damon/design: fix three typos
 7f077167feb6e403ef039d6009d785d596ed8070 Docs/{ABI,admin-guide}/damon: fix various typoes
-243f839dd6fb630310f052a635473ae9cfdbddad selftests/mm: restore default nr_hugepages value via exit trap in charge_reserved_hugetlb.sh
-97f1c13b4b7d362ce43811d0bcb20effa10aaf14 selftests/mm: fix hugetlb pathname construction in charge_reserved_hugetlb.sh
-ef8de9c8ae72d12d0ab8e7e2d6bd6c1b68ed4436 selftests/mm: restore default nr_hugepages value via exit trap in hugetlb_reparenting_test.sh
-45f16fb0fc6b04713d68ba0f2d2f1eab9d59ff5e selftests/mm: fix hugetlb pathname construction in hugetlb_reparenting_test.sh
-e441e12363afa146b3195e9a6f65d231c3530022 selftests/mm: fix cgroup task placement and drop memory.current checks in hugetlb_reparenting_test.sh
-a9ae49035c2bd2bc34827a83c22195c236fe86cc selftests/mm: size tmpfs according to PMD page size in split_huge_page_test
-9cc75191baa5a3bcc5e26f28d2f8cdac8d126367 selftests/mm: free dynamically allocated PMD-sized buffers in split_huge_page_test
-5d1718bd12fb5fb0c438fac6f7ffed409933477c selftest/mm: register existing mapping with userfaultfd in hugetlb-mremap
-9707fc55ace4055a07ab3611e630b25604a15c7c selftests/mm: ensure destination is hugetlb-backed in hugetlb-mremap
-72300f38b72571f48044ee6787cf1edda7f60067 selftests/mm: skip uffd-wp-mremap if UFFD write-protect is unsupported
-9f4266df921f22b4c9c1d15430f2687b2c0d1974 selftests/mm: skip uffd-stress test when nr_pages_per_cpu is zero
-e2bc47a65038bab0dd54cb66c5eadce169ed6d3f selftests/mm: use ksft_exit_skip() instead of KSFT_SKIP in uffd-stress
-52aef089fd82d7ca4ced5aa65aa7d9bde3254d7f selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
-5ab0dc343ffae7092ec34b30026382d48c54e9ef selftests/mm: clarify alternate unmapping in compaction_test
-07a956523531413732c0cb60fbc394dbf4383dce lib/test_hmm: check alloc_page_vma() return value and handle OOM
-1b226844c64325e6c225e940be73d62dea752b3c MAINTAINERS: add more files to PAGE CACHE section
-9c2bf97496d1e973a870ba2f184609d4579f0e29 mm/page_alloc: fix defrag_mode for non-reclaimable allocations
-25c42f962483a078226858b2fd7becf582b1a9d0 selftests/mm/split_huge_page_test.c: close fd on write error
-a315086aada18ad2d392ec515618518fbff7d589 mm/compaction: cap compact_gap() at COMPACT_CLUSTER_MAX
-ffe1a6ec5412a60ef4dcd523a26a675d6ad98918 drivers/char/mem: eliminate unnecessary use of success_hook
-6418070398a3a524acce444b97c3f04470dfc595 mm/vma: remove mmap_action->success_hook
-75f6a1d62dad07173119a6d72e6376e1b0886215 mm/vma: eliminate mmap_action->error_hook, introduce error_filter
-c2c42875fb7f3f0dae145d6dc30773a92ad047f6 mm/damon/core: safely handle no region case in damon_set_regions()
-aef0e6167c5b4c1c6f529f27b5a485c71511fd98 mm/damon/core: do not use region out of a loop in damon_set_regions()
-a71e13ed9e5eb53f5a72449572014990a26e34dc samples/damon/mtier: replace damon_add_region() with damon_set_regions()
-2e0da24d8d9eda153c65dd5af93217ff1f8d2225 mm/damon/tests/vaddr-kunit: replace damon_add_region() with damon_set_regions()
-17834da7eb3abb5da6c015339cfb5241a2b8297e mm/damon/core: hide damon_add_region()
-b00eb56791163785cde985b75b76c005eea11bbe mm/damon/core: hide damon_insert_region()
-b98724759ab6e10c9cb8430da06eba1f7c581447 mm/damon/core: hide damon_destroy_region()
-b97305041eafc16728924bd2662cc62a32c23875 mm/damon/core: add kdamond_call() debug_sanity check
-3ef47e3249829dfd0baa81b3cb3d4c671b687a4e mm/damon/core: remove damon_verify_nr_regions()
-2255e0ab5f35fbfcdc75d1b2a2382b9bf9e44dab mm/damon/tests/core-kunit: add damon_set_regions() test cases
-e7507ed274f75aac8edad56eff7fb1f063057b19 selftests/damon/sysfs.py: stop kdamonds before failing
-92541a38fd5970a31fa68f824014779fba14a7bd selftests/damon/sysfs.sh: test monitoring intervals goal dir
-f3c1bc0ba4a4d571c8326760be8562696f081145 selftests/damon/sysfs.sh: test addr_unit file existence
-cdb9be04c180a088ffba41606807f01c270cafb3 selftests/damon/sysfs.sh: test pause file existence
-e1c81eb99a48ce8b1df892c6e1e0a17a87fa4ee7 memcg: store node_id instead of pglist_data pointer
-3a0ff4aa3145b33aac75d7bdd67973088e891b2b memcg: uint16_t for nr_bytes in obj_stock_pcp
-31f7b184e1f638d7885f63133b2e5401ab5a9b97 memcg: int16_t for cached slab stats
-3599c5ee90e8bb1389c9b70a2ad9eb0a57eb78c2 memcg: multi objcg charge support
-19704fedae1601be73251e3859e7b0a5e44d3487 mm/damon: fix missing parens in macro arguments
-deb247c90caf3005bafe82a6da5f22d2c3df8178 Docs/admin-guide/mm/damon/usage: clarify current_value of quota goals
-c9323a9bf619377123de2ee27d74461ec84ef8fa mm/damon/core: trace esz at first setup
-627df28acae8b798778e1b03a597c0fce2d139f9 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-0212a3c946f73ee33375223109bd1079b160c9c0 mm/swap: remove redundant swap device reference in alloc/free
-326b9f7de3ef0b64bf84f1a7a49f2483c84596ec mm/swap, PM: hibernate: atomically replace hibernation pin
-4b9e0e1f8c4b5c163abf189fff522846ad72ab23 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============4123336653287177056==--
+--===============2725963715467922021==--
