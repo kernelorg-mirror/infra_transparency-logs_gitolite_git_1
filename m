@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0183089589545110490=="
+Content-Type: multipart/mixed; boundary="===============5561741334349129528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 23 May 2026 15:20:25 -0000
-Message-Id: <177954962548.981464.10498910422184973206@gitolite.kernel.org>
+Date: Sat, 23 May 2026 15:20:28 -0000
+Message-Id: <177954962840.981806.1656799514033148787@gitolite.kernel.org>
 
---===============0183089589545110490==
+--===============5561741334349129528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 0448238f27b7d1db288ecdb133af821cd89192a2
-    new: 0220ff45137a90896de01aef9aeaa85570ed3ac4
-    log: revlist-0448238f27b7-0220ff45137a.txt
+  - ref: refs/heads/main
+    old: 5200f5f493f79f14bbdc349e402a40dfb32f23c8
+    new: 79bd2dded182b1d458b18e62684b7f82ffc682e5
+    log: revlist-5200f5f493f7-79bd2dded182.txt
 
---===============0183089589545110490==
+--===============5561741334349129528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779549610 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779549632 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1779549604-6fa5ae99697b24cadab1796b5e6cf8df00cf8590
+nonce 1779549626-ed4645704921a30b3d0d409c1fdd727b27ab5f1f
 
-0448238f27b7d1db288ecdb133af821cd89192a2 0220ff45137a90896de01aef9aeaa85570ed3ac4 refs/heads/clanker
+5200f5f493f79f14bbdc349e402a40dfb32f23c8 79bd2dded182b1d458b18e62684b7f82ffc682e5 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRxaobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JTkP/R+PiYfMXQnWgNgz5xE/
-hc4vri5QHBdaXXlICa5Wt7tom8YyK6DcojFw6VVog9QAQW/s0ybe7om9ght2EDO8
-jGPx1J4FKupEvZirNszjdkjD+YpL5sLkJWDr0lYzr2WtoOW/eQxtruR8znJlcm6g
-T8+V6Vr8I/GDxyddvAVZ4Pc+73xc66/XgWfrM2FWBL8PbcoXZvUbLBlyd7WnNQP8
-TbE1YHvjm+M6foVcl14qoDoaM6C865Ic9QokA9FVjEB7Fsj7xnFUKNCdMs24uJZX
-M2oFD3d92ZKk2+o3qxr5/bJbLUfHtyhKlE24TUwqnccTTEyMbVUZWdXcK/zpBLe0
-lq67mWqiuRMpfc1hmbzSGBk4/WC6ZrtM0vApiej57QA4hjlxNspsYfBiuZf1Epm1
-RaOuvhB3Fs99MIu5mUIjlMs5j2AjiVtd6giTkEzYxyoC0ZUy8528yLuxEbLxwv9y
-1tdIunQwYE3s+gvbvVjLayRPz6UrCm43KG48gCx5ELX++pMv8Aj4CwOuDBZbJpGF
-ShLfVhYJhOU2b+bkNSeqCRbKPXM/CD4eHpO7OpQc5+qRqpiggAuWc15x7mfgoAGf
-3L7RGc1t0Fl01YKJv0bEae1pd18zsavGKQtolbFT1+6bc9s9RPJHthR7nlJp3mYe
-Jr+r0C1Kg0Dz1UHLdf8/KzkF
-=lEnn
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRxcAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B1YP/0UkmL1jFrVW6yT5lHkb
+0kAiYiRmf58HyE9sBOXKTSqXFCUTDOVoO5j9Ph8ZIdQ3nT1H+sFQ4vAC2/Pyev8R
+r9k4Wco0l3hY66jAOEK1xVXR75ylPCNi1lwNQcWpOs2rXJ6WLb+HthKlqYpIBf5o
+SJ3GUqqcR+0cigoEB1pEoZLVWY2RtnmpqD2DAAWFyusNffjEKe5izuq7AycawloJ
+qhbg08UsocDistrYfK3TtpprxzVTXGOQqAnd5rXNlxRNtu7r3yI5UJ9cCNXt8369
+IyjJKI3IJamXMHvRG40Hd4XGBZ5NweNbYVLrQFzzPK1B3t5bcqRjq0+/ciOwKtxH
+PnkfHp7GugPDGhFPvZ/J4sFzwOssfnFCQ15zB3vJNuBldq8IDz6SBA0hmnBpGgx3
+tfJ5JLn30BX3qm3BKcgMBDC5FH20h3+jSebvnAWEjCB8j1ZuAeYopl8anRoKKP86
+nN1Fj9R2BGyh7+/b92NatF+QsK00D0A8gQX0s91rQXfoZMckDRv51X8h7APOyldi
+LYeqOjMHRJLAJJ24PjOaXczrAX7aCV0majzg2wrxLRjF2EdqVHU+oIo0fdxsozHg
+WWCiDScHy7t6CCrdVjsVf0Bc4LmwtpdS38r45bg2VuKYilGNzp8752XqKGx9Ln5s
++T2k36lzqC2nLGj6rq06zDfR
+=GKE/
 -----END PGP SIGNATURE-----
 
---===============0183089589545110490==
+--===============5561741334349129528==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0448238f27b7-0220ff45137a.txt
+Content-Disposition: attachment; filename=revlist-5200f5f493f7-79bd2dded182.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -697,42 +697,5 @@ cca95436be15d00ddac02d73054b612649485495 Merge tag 'phy-fixes-7.1' of git://git.
 4a5860ea6098bc6c0a966bb415d5dfe96adb4a86 Merge tag 'drm-fixes-2026-05-23' of https://gitlab.freedesktop.org/drm/kernel
 de37e502a315677138009d2965f87e2c0721e76f Merge tag 'cgroup-for-7.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 79bd2dded182b1d458b18e62684b7f82ffc682e5 Merge tag 'sched_ext-for-7.1-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-1a7c80be8b474421383e000fabc272e7643bec8a net: mctp: usb: properly drop the usb interface on probe error
-ad78e12235ec54f1bbf3eff7e8c7402cf2948687 wifi: rtw88: properly drop usb interface reference on error
-d251b1a3f7754bec4282b2b9d4e8c4e905276229 mmc: moxart: fix potential use-after-free on remove path.
-dc473981c45f4b906a53f636d237722c1700f6e2 mmc: meson-gx: fix potential use-after-free on remove path.
-d4c22e013a4a4f146736963f1c792b11cbcb621e f2fs: fix potential deadlock in f2fs_convert_inline_inode
-a785b56d875746f08cd0c0593a62c1dabc707509 drm/amdkfd: stop speculation on the kfd_ioctl path
-e6e9d7cd0ff3bcdc011dc7cbc82c48670396dc84 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
-d7ca4af4f63d3994b9736622e6b7b29220b2721f iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
-64e556092e5a8b03b1a2ab33c4405bd0ef85d321 iio: imu: adis16550: fix stack leak in trigger handler
-6422de81437834b13b8f9c783c706ec849641a7a media: adv7604: avoid negative array index in log_status when cp_read fails
-91d0a118bf8b7b019908aedab96d176d680f6f48 media: stv090x: bound DiSEqC reply length to msg[] size
-c63b59727444644ea05e97b9885c759e2d49bc99 media: stv0900: bound DiSEqC reply length to msg[] size
-96a3b9ce5bf0fddf96336285386864552c3df3e1 NFC: digital: Bounds check Felica response before sensf_res memcpy
-3c5eb2dd324b32daac7546f13860623146c6b2f7 net: usb: cdc_ncm: reject negative chained NDP offsets
-e96c8c67dd14be5661d13f99d95eb04a76f4acb5 net: sched: em_text: require NUL-terminated algo name
-2cc88894a08ecfd598e8c00a5678880f36d49cf7 staging: rtl8723bs: fix OOB write in HT_caps_handler()
-e0e4dbb0b2959f8f2647d25dbaf7fdd9ae2c9c72 Input: xpad - reject short Xbox One packets before len-relative share-button index
-8624746d9dd2fe7d67cacd4667fe5771586da0fa Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
-f2b58549fb912dec1becf980892f15738dff2b34 Input: synaptics-rmi4 - validate register descriptor structure against its declared size
-3b5cce1c3346e59556206b09cdfbe7f71319dfc6 Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
-3e95ad7d21fc6e4ad6a0185fce61dafdd908503d ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-7e0e7da10c9de56271ba3d4d6000483f5409482e io_uring: depend on MMU
-efefc1475c9420274d18629878ed8a39d8d54a9e mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-32b257e80d8b55f47daf978ba893c6b7771efa3a usb: typec: wcove: don't write past struct pd_message in wcove_read_rx_buffer()
-a84f521a5f00283d5c4d0b51092a1156fdaee7dd usb: typec: altmodes/displayport: validate count before reading Status Update VDO
-56e2426aa39468432b59dbcdfc0fc1418f271a07 usb: typec: tcpm/tcpci_maxim: validate header NDO against RX_BYTE_CNT
-79f604dca5c4685d8112963236d2d06b0277b270 usb: typec: tcpm: validate VDO count in Discover Identity ACK handlers
-e14a38be824bd7cd2589fa415d2b31c4c3093a1c usb: typec: tcpm: validate VDO count before reading Attention status VDO
-bcf739cc49e65a2af0eaa5effeb5ed7dd6e1611f usb: typec: tcpm: bound altmode_desc[] per iteration in svdm_consume_modes()
-1feae0a94634a7322f056d50c1f9d3723be77157 usb: typec: ucsi: displayport: NAK DP_CMD_CONFIGURE without a payload VDO
-ccd2d4d7ccf96ca040e6341290f09ff58aedb0cf usb: typec: ucsi: validate connector number in ucsi_connector_change()
-3d6b3a7fc053632e77bf7a450d5cc8027430d22e iio: adc: ti-ads1298: add bounds check to pga_settings index
-2790cb1ddf6e6524e8dfadc2d50116cca5513c62 iio: light: veml6075: add bounds check to veml6075_it_ms index
-96e35a269e8ca370f7220c184b02d2f3ccc1ad9b iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
-7b58c58bfa446e36400dafb3ff6af89d1fc4a665 usb: typec: ucsi: ccg: reject firmware images without a ':' record header
-fefcd4d69b6d00a24b6eb2e5f5cfb1311abfb2c0 sysfs: don't remove existing directory on update failure
-0220ff45137a90896de01aef9aeaa85570ed3ac4 sysfs: clamp show() return value in sysfs_kf_read()
 
---===============0183089589545110490==--
+--===============5561741334349129528==--
