@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2484495399173859496=="
+Content-Type: multipart/mixed; boundary="===============7724177976357964897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 23 May 2026 11:34:35 -0000
-Message-Id: <177953607554.699985.4210794726349505695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 23 May 2026 11:34:49 -0000
+Message-Id: <177953608931.700202.7189340123853752240@gitolite.kernel.org>
 
---===============2484495399173859496==
+--===============7724177976357964897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-data-validation
@@ -20,7 +20,7 @@ changes:
     new: 3185552ede67e8661617993b0b3892386bddb291
     log: revlist-53904a2e8d39-3185552ede67.txt
 
---===============2484495399173859496==
+--===============7724177976357964897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ e457e561f65dfc153c9e9959d363bbc44c1e57c5 perf session: Check for decompression b
 1e59d6bb9cf00133faf0d3c0cd0be7081c1359b7 perf kwork: Bounds check work->cpu before indexing cpus_runtime[]
 3185552ede67e8661617993b0b3892386bddb291 perf test: Add truncated perf.data robustness test
 
---===============2484495399173859496==--
+--===============7724177976357964897==--
