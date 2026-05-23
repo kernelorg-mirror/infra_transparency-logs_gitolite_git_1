@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Sat, 23 May 2026 19:32:08 -0000
-Message-Id: <177956472867.1163345.7694165506825056700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 23 May 2026 21:43:21 -0000
+Message-Id: <177957260172.1255178.3467509884683827211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 82826b89cf7bc7cd02cd184452a7004b1f7cce43
-    new: 068cfd53a0401c116a9462004a2e049b7102ec39
+  - ref: refs/heads/master
+    old: 2fcde2178b11d020847b0f0455bc52848ec1bf2b
+    new: b3d19e34a03a461cc9a99b342ce1967a5cd1b828
     log: |
-         068cfd53a0401c116a9462004a2e049b7102ec39 board: Add CONFIG_ECDSA to configs/tpmdd_amd64_efi
+         789ca6e01d4d34e2cfefa4b4eac53d25d0d9792f foo
+         b3d19e34a03a461cc9a99b342ce1967a5cd1b828 foo
          
