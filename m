@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1574650422711571619=="
+Content-Type: multipart/mixed; boundary="===============7826807575008755097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 23 May 2026 03:12:48 -0000
-Message-Id: <177950596867.216559.3788569652842277163@gitolite.kernel.org>
+Date: Sat, 23 May 2026 03:12:53 -0000
+Message-Id: <177950597307.216755.11721254004049491756@gitolite.kernel.org>
 
---===============1574650422711571619==
+--===============7826807575008755097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: ba3fbba1d40c71bd805a98d36f744e8709cb5f53
-    new: 9492a58de2b133d8f23ff15ab061caf2be0804ea
-    log: revlist-ba3fbba1d40c-9492a58de2b1.txt
+  - ref: refs/heads/7.2/scsi-queue
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 016d484531e3169cd7bcb26e0ac2c5523080809f
+    log: revlist-254f49634ee1-016d484531e3.txt
 
---===============1574650422711571619==
+--===============7826807575008755097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1779505939 -0400
+pusher 75C5DE3D 1779505971 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1779505939-5f85b3a3b6899f9129fb954935b9537a4a0d5438
+nonce 1779505971-30e28821a562f96b2574e82d529e4ca3d23d0459
 
-ba3fbba1d40c71bd805a98d36f744e8709cb5f53 9492a58de2b133d8f23ff15ab061caf2be0804ea refs/tags/mkp-scsi-queue
+254f49634ee16a731174d2ae34bc50bd5f45e731 016d484531e3169cd7bcb26e0ac2c5523080809f refs/heads/7.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoRGxMACgkQ7ulgGnXF
-3j0rTw//bO30sqlgNzKMALkukw43uq/fiAWJ+pZCLkYBhMYTN8aJY8MdXPv8TZUm
-gBJhzMRhmD5ipFWVlKuEbydoT7O6oZ42x6rN6XBe4ZeuMLSfmYNE5J+TVpoKDKgq
-eRkE85t9wccxTccxEU8hc+17Fqd7CpMZ/J+GN6kH0ctZ5qpQ7npq1fUp6r1T9F+Q
-LZQMW6pg26b+XFoy23I0Ar7y1ZgrdnOgszXpJBRWUhaiyDKpF8c3b7w6IWOTB4pp
-fBzlMHEDKhnRb6GWieFHzSRUnasVcxpYxWgrvWJzdu8YlL1xVITiLTXzPESTXnhC
-oND5jhhphQDY36zGjYkOLs3Xtq+ik4k3cX/ED3Z0C8QkSYlo2HatSRHvt60rzQPa
-ytOXhEpCu1qTGOB8JRKKEg8fMw0HPI4gWMVtcxfMvXewRc76Pp5Ojqld7imRYlaa
-gQTvV3FlnxtlGxKRLmKqGeGxXkFnhfrMzEhm6HDqpBpHqGXCXa5DJ5OoC+RdYzq/
-qVfVmZF9ZIXg9Y9m2o/WVd+nYl8AL2pFBGrfHrxotxuKfanWc2Phzyz+++G8nRE/
-IyhtsUGC2pda00v8wbNtjEU3L7Fs6eMzvqNJzIgMos8Hf8IAyb9EE5pavdR8ZzV4
-F2l+KM/jhoVU1Numb/rTjg9rvd9/hZvUmrqWYfp9QngvsRriKg8=
-=cwGo
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoRGzMACgkQ7ulgGnXF
+3j3vThAAk8YYnclGz7Otu8IrDtu8Qp+p3cdDKkG0BuwLFeyIcKI0Po+GZ0KCN0uZ
+ejz2RQO/6Uix317lQ8eLv7zpaSbBuabh+qKvbA4tb1/Q0ibMVcZZdUANNzPa8UYv
+YEcRbHMjp/rarszActSkuV40MLeaS0j8Y9M6EWBz9TaQ6g03RwMDXKsRFJQty5gl
+7DPSEwxDKZDITz/zeXamN5vqmdglPsVv21QV5Li8O7o77tm6OL4Gs9l5t6ZqNbOJ
+3iz/cJr/gadBRNhvhByHTRDp4hxf6ievyQ+vf7s6ZkHPMVkWsp7JcZy7ukY0vb7l
+DIvWJr7oMsEx7syEY7vQzFDfVSdnGGx3Z2/WJ0E7PRnb3R6xv4oqcWiFCqHnnSKI
+rtFgqP6Jlj9/zK3O9G5J9FJS0HPjndA7UV1MhWZfma6Jspx6AP3f8mPQT2mhb75R
+ZMbi/bNlrDRs377biIrgnTVGGTbtSn8COMvYOCnW0/Bv7DxTohimaumy5G6cJBRH
+NTSlsBxu2nbu+OG9niiTJr0oGmaHJV1UB8XBZ2MVxTBXJzmVOgNJ00JYJg/5tyOd
+ggv0RnHWDLcxNDteyKdEhL/lS5Yyb5VojfciurDVdEjXrhw9gX1661WbCu5yG1JZ
+DCcNp9gTL5QKjWpAj/qncTcvnJVuk1zwjNpBPLIVA/B0tFT4nd8=
+=VYbl
 -----END PGP SIGNATURE-----
 
---===============1574650422711571619==
+--===============7826807575008755097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba3fbba1d40c-9492a58de2b1.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-016d484531e3.txt
 
 0bdf7d7ee75da076eabcfa9b5fadd0ed0524df43 scsi: ufs: qcom: Unify user-visible "Qualcomm" name
 c7233b3d99db9760daf07c4e95daa9675c6c0cba scsi: advansys: Drop ISA_DMA_API remnants
@@ -82,4 +82,4 @@ e72323f3b09f9c890fa93a74197bbc290d39d981 scsi: ufs: core: Configure only active 
 76417038c4d61fc3d407625c0b9332942f13e142 scsi: ufs: ufs-qcom: Enable Auto Hibern8 clock request support
 016d484531e3169cd7bcb26e0ac2c5523080809f scsi: isci: Remove unused macro scu_get_command_request_logical_port()
 
---===============1574650422711571619==--
+--===============7826807575008755097==--
