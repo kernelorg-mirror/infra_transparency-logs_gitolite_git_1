@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4065309645532337411=="
+Content-Type: multipart/mixed; boundary="===============1039964397815544373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 23 May 2026 11:40:29 -0000
-Message-Id: <177953642931.761452.5157577520895448787@gitolite.kernel.org>
+Date: Sat, 23 May 2026 11:40:31 -0000
+Message-Id: <177953643181.761591.6519789187140518399@gitolite.kernel.org>
 
---===============4065309645532337411==
+--===============1039964397815544373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 6b2498787ec6803cf0d0a983321796babe5392d4
-    new: 7adbe121223f7e32ab7e2592a72093f80f4e11a8
-    log: |
-         3599e6b3cc1ada96883d496a50a210d3afbb6987 net: skbuff: preserve shared-frag marker during coalescing
-         fbeab9555564a1b98e8582cd106dfe46c4606991 net: skbuff: propagate shared-frag marker through frag-transfer helpers
-         7adbe121223f7e32ab7e2592a72093f80f4e11a8 Linux 5.10.257
-         
+  - ref: refs/tags/v5.10.257
+    old: 0000000000000000000000000000000000000000
+    new: eb94b677e80c3bb594bef02c212789306ba30ae3
 
---===============4065309645532337411==
+--===============1039964397815544373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779536433 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779536435 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1779536427-5a0af1544fc814394a3faaee9fa1503d3482b6da
+nonce 1779536430-83a2b13f0c6a0cc47891c6ec50ee3e376593d225
 
-6b2498787ec6803cf0d0a983321796babe5392d4 7adbe121223f7e32ab7e2592a72093f80f4e11a8 refs/heads/linux-5.10.y
+0000000000000000000000000000000000000000 eb94b677e80c3bb594bef02c212789306ba30ae3 refs/tags/v5.10.257
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRkjEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oAUP/il1no493PtPCG1qhtuj
-NY37yI7x+sagr562EJL0y6CcSu5ze6eblyb4yIMakMdVWU4QSBbvMDxQf1w+pQm/
-k2MtLbgsDmid5dKUvApN2knHlziFj+nP2wwuTZHbun2vmdjcx46cpsxQmQcQBRC3
-yBZugrabrAu2jb/OQFGcS6OH//5lVZJ1GmCf4j3Y77apEKNLGEXLA1GLFjlp3cwh
-260f8RKFxirGlKH4Z4EKFbhXXeq6MscCQDFJIUhg/xaJ78Jiw4S6pLznIAGMddKl
-h0i4+Scnx7HQl9SIHxNh7j5H65FPNagbDKznRisHunrF52tmBFv2vRX/LPE8L7hI
-kaLBJOIQ6iO6NGOJQsm12rB1WTxGqGqxPdTni3Twg6GhkBoNMXJSlSH/a6cwwMZj
-jVNdvc3u05RjVqfwAwBDuK5v6qIUGeJfkpl75mx9FNX7UM54SqxQtDPPKXydU9cX
-zhqa3ACa8uMDDlCL/N0xA3DVCMm3aQIuW9bmpQTstjS3pFDw+EEUfTejzRlxZjnQ
-3OywBtoMW7d4lKHRyPMsKuwbPsEsc0PGbFAfEn9G0JajaZR42JpKJ4dRV5zuWwVS
-0NxowO9xgKlE0mZt2HpxwGHsIdZMZjYYtqNvH2Hu46ibl4gbWnf/A3So0fjl4tcN
-IfhE2HrxmNMT7c9/bl50cgUs
-=ow4M
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoRkjMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hpoQAJ1Tq/ZRdOdstvAxm0i3
+sgs3siXkkLMuFtBGvFCq4oJXUBTtkjXISKCTPgusdimQcegKJ+gGuq4fpoFYyVnK
+h6afKi7LZde+GrfGRSd20joBGQdZKe1uUXVs+lKKQYsT8PN9Z0hDfQ7iz1qW5Fep
+X48jmcNuP1+SXNizZpLZxt2dCWhSO6sA2ReudxF5Ekh5fWLAbMNcccpkv3wlthqR
+Q8Rm4Epqco3RUkl8dQzy9Hy97HEqOKedzF92yFJmMZErQWc34pNIIwxpU/R515j0
+H6boQ+5MNu0YWfYdZ7oWmeSzqp+/kNYod3wLWIPH88Cr0SZimhJK0N38s9tsbgtY
+TS10FIrmKPWdvU71dm0zQqn7pkjip27BEH2YkSXg8VNdGBM+bT5X8fOz4VtlQRpF
+I/bM9RGLc4jgtATGYmpa7M6YsJards7shpyQoYgh7KGnThQo6aU5XIkedKZS5UoU
+AaRhvjksBbIHsUMSPAHBBclWwHcaro9l05dpYN8CL90MVXSSL9+aBUuJuWWnL9k3
+xVXHpgwC3STDCC97M8R7IPVqJGbj6js+JHz00POEpZG6yNSrCP+KlgrIM0ZzuN7l
+RpozgClLMNaC0gWn+DmYyDuTKn60r60rH/peauVGU4zvmG24b4L+Nz/AWk6AVOr5
+c+2krJHmoefUXCFM9rZPA6Bw
+=Ric3
 -----END PGP SIGNATURE-----
 
---===============4065309645532337411==--
+--===============1039964397815544373==--
