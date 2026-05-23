@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sat, 23 May 2026 07:39:20 -0000
-Message-Id: <177952196021.414764.1320106670274999839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Sat, 23 May 2026 07:44:15 -0000
+Message-Id: <177952225552.418755.1707340437980285597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/testing
-    old: 478a7e315fe4363d09880451f2c902aee4996c7c
-    new: 4e10f7c430ac01a13dcb78c076a4043a446712f1
+  - ref: refs/heads/usb-linus
+    old: 438061ed1ad85e6743e2dce826671772d81089ec
+    new: 9f9bfc80c67f35a275820da7e83a35dface08281
     log: |
-         583ea2ce7e261aebc9395d4d4d9f0f8608c8edce netfilter: nft_byteorder: remove multi-register support
-         4e10f7c430ac01a13dcb78c076a4043a446712f1 netfilter: xt_NFQUEUE: prefer raw_smp_processor_id
+         9f9bfc80c67f35a275820da7e83a35dface08281 USB: serial: cypress_m8: validate interrupt packet headers
          
