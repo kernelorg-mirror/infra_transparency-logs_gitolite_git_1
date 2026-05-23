@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6689838572202963317=="
+Content-Type: multipart/mixed; boundary="===============1194154271108030130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 23 May 2026 00:43:31 -0000
-Message-Id: <177949701198.107094.6221680000898026678@gitolite.kernel.org>
+Date: Sat, 23 May 2026 00:43:37 -0000
+Message-Id: <177949701708.107377.3149292358871674062@gitolite.kernel.org>
 
---===============6689838572202963317==
+--===============1194154271108030130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 6c1b9c1ed6699298fdf7889874dc033f1cc5c8a7
     new: f83deb058025d1b6eb0ff297422634a5a11ef87b
     log: revlist-6c1b9c1ed669-f83deb058025.txt
 
---===============6689838572202963317==
+--===============1194154271108030130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a31423e67c0e8c716c9ecdf0d4836dd7049ad78b perf doc: Document new IBS capabilities
 0b18bced5444f4fc54ba4500c377f2e88d31ea09 perf tool_pmu: Make tool PMU events respect enable/disable
 f83deb058025d1b6eb0ff297422634a5a11ef87b perf tests: Add test for stat delay option with duration_time
 
---===============6689838572202963317==--
+--===============1194154271108030130==--
