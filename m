@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6683043738837519780=="
+Content-Type: multipart/mixed; boundary="===============1044011957426212004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 24 May 2026 18:43:23 -0000
-Message-Id: <177964820331.2212826.190366387041008572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 24 May 2026 18:46:19 -0000
+Message-Id: <177964837979.2216247.18215368801653864274@gitolite.kernel.org>
 
---===============6683043738837519780==
+--===============1044011957426212004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 0a783a6686c96847d74874dbea38fa0e6b1f6c12
-    new: 83c1d176fbac3c3ffbeaddbc37e11e083f19cebc
-    log: |
-         83c1d176fbac3c3ffbeaddbc37e11e083f19cebc memory: omap-gpmc: Silence W=1 kerneldoc warnings
-         
+  - ref: refs/tags/samsung-clk-fixes-7.1
+    old: 0000000000000000000000000000000000000000
+    new: 249c40ce1105d77b4963c4217e010a27153b9ad7
 
---===============6683043738837519780==
+--===============1044011957426212004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1779648201 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1779648201-99c901487b116eb4a22004946dc7346520126ad2
+pusher krzk@kernel.org 1779648378 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1779648377-86c31f47c0bfced6d75eca203c058036ca9f203a
 
-0a783a6686c96847d74874dbea38fa0e6b1f6c12 83c1d176fbac3c3ffbeaddbc37e11e083f19cebc refs/heads/mem-ctrl-next
+0000000000000000000000000000000000000000 249c40ce1105d77b4963c4217e010a27153b9ad7 refs/tags/samsung-clk-fixes-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmoTRskQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wIsD/wI65z/rG8fFQZxbF560+NAjSJvbn01moNd
-kBY+BYwWnAowEth9htLhrerIAxMYmkq9EpkFMx+SD1Ear5+M5+jjq9w7LcfjjWuH
-cvM6gCd8k7I6bJVwmvYu5cVHAL0u6ERsiAGKf7Uby/yenuOmwxWcQ7jeKVDFdLm+
-qqXl39l1wiDyHPfKZ0TTxZjeuOQHHlHE7nwACR3SrhR5JBPBqkN1VAL74Cwowwsp
-VKoaLOw4379jRtlPRD1cK1mvIwZtNZwonS/t6xkmfgEi8s2kv4HWgy89Tn94MvF4
-R8arXxKHNqb0dxx/q0tCdC/UKIKdpnp7LyNevfX822pO9uc/Y1XdaMWok/d5Q+nh
-RnfhldgtdbCwld44edEI3l8ytQCdtKA6EpJvYaAamfRvU0YfFhdncDLtW7MSVTx5
-XUHVSEJJwUjiZho6U1l7JCY7lrfjWJ5EQ/7u/dv6xtsmH2QV212PQSmHExTpvT73
-ATGkeX9HfWlk8bOvSr+ZeV2oJ4Cv8ekBBemvivEpoi1FITyXPLCfY37+EgAbqhJx
-3XzlHplVlTGVS05w0gj3rt99ODq4UL6VZYszcwwFNpfNDyALWwmQwPd5tgF/6tcz
-HpHCW0B9cKiRpBgbxBZXGwRHuBOT5bf1B8LlTHLNolx+DMrbYrn14lAlYgXikFUT
-hmYAxd4wrw==
-=cJcs
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmoTR3oQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18ohD/9epRNjU+IaW+J9RC2cg84t0xIFxBxKlpVm
+MeBbAktCqCHoM5FcZQf5fHwK2zZLETYUTyZOfvF+PnjZ9JJwgEFKCBHPocKpjEhx
+6cWIxoGjrXzW6QIwQW3ItdTU+CavmTRPMbCyI5PJjR1JkGrfzw//fZaNny+ijp8W
+LsqEA9qsjAfcX98MBqf+KYM8UCuSZ/V3MCnAVwF3VEv5DrbbtdKDndjXPcGd9Sig
+1biyXEwTXYisWgAwGMYc2s3bu3A4QclHHC/c1g3pnZvKaD59SsdaHt3jPK4UdcBp
+BPEZuFPVDqRtUPDrzXoaSKYByDktjqMchlg8TsO8UlY3FiOY1b2y1Dy8OKvsSwwV
+WjAeMOgaY6m3WX5A0SNKzVE9GTwhlNiFoppfrbi+joR94MVWgbbJQGJa/0zC99II
+ZydCiTp8cxf7cuKkDH2Is9okaJ9WSMm3UW+Vi6srZ15SEH2UI64pURGn8l1dzMlC
+ceVr6hEdPcnlOc9/stpsKK1Iv3EGg21L9x+EBZ5VXaad/GJUHp2fNyazVaCPlCRs
+ZHKQ5GFYNWQ0gpuI6LiTx3IiJbrjyTxnlRqRb4DLHFG9khjXTscVf4g1djrBAd2R
+Ycsw8NPZ4XXwA4iolH8US5vw/EZSaV4VzG3qX7BgScCW5mb92StW5s7fOTltUqET
+gIEKp60Lzw==
+=/5ZD
 -----END PGP SIGNATURE-----
 
---===============6683043738837519780==--
+--===============1044011957426212004==--
