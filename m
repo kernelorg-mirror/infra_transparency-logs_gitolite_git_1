@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4973418235230464790=="
+Content-Type: multipart/mixed; boundary="===============8126407168510619970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 24 May 2026 06:36:45 -0000
-Message-Id: <177960460579.1640724.5532522066896712985@gitolite.kernel.org>
+Date: Sun, 24 May 2026 06:37:08 -0000
+Message-Id: <177960462814.1641187.17595071502340813139@gitolite.kernel.org>
 
---===============4973418235230464790==
+--===============8126407168510619970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5f9b29706a06b1de8145ee8e6008683287ed184c
-    new: 28d888eb472c0e8951135de01cc40b0143b5c1c3
-    log: revlist-5f9b29706a06-28d888eb472c.txt
+    old: 28d888eb472c0e8951135de01cc40b0143b5c1c3
+    new: ce691183d67d901777f1c20eea2a0cdb318c0edf
+    log: revlist-28d888eb472c-ce691183d67d.txt
+  - ref: refs/heads/tip/urgent
+    old: 53c34d5bf6158bc13ea34200e16a88a0f276a583
+    new: 202d4249ff633a3db9f00e2958b1e1dd4bdd6bd5
+    log: revlist-53c34d5bf615-202d4249ff63.txt
 
---===============4973418235230464790==
+--===============8126407168510619970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f9b29706a06-28d888eb472c.txt
+Content-Disposition: attachment; filename=revlist-28d888eb472c-ce691183d67d.txt
+
+6b1950b5e8c60d1f28318a90e70d6db3308792cf Merge branch into tip/master: 'core/urgent'
+90de4554b6be2eaa427abd7c818889eccb17061b Merge branch into tip/master: 'irq/urgent'
+202d4249ff633a3db9f00e2958b1e1dd4bdd6bd5 Merge branch into tip/master: 'x86/urgent'
+1c4acb3a2afab8aafe398eb945c408e0cb0bbe65 Merge branch into tip/master: 'timers/merge'
+b514645d8f821b82b1b1da17a11a4f2668b6b149 Merge branch into tip/master: 'irq/core'
+423c1afa5d85aa98c2950fbc4c76bdda20740cb0 Merge branch into tip/master: 'irq/drivers'
+d74632fa19288f3eb0f9770a551f95a0aa137e6e Merge branch into tip/master: 'irq/msi'
+9672e6267875fbd5e8ece239beb4ae584ad51e08 Merge branch into tip/master: 'locking/core'
+fe3d453ce9b8a9249508462264d2ddc53f17ef4b Merge branch into tip/master: 'objtool/core'
+f21b16e8e0522c47d2fbc0f2f4c5d0c6b875d123 Merge branch into tip/master: 'perf/core'
+512fd72468500faf1d689f57cf2cf2bcd7ef994d Merge branch into tip/master: 'sched/core'
+4ecbbc3826a904faeb1ae34e3d0f5189f11af40f Merge branch into tip/master: 'timers/vdso'
+ed4d85e113b568fcac4a09c369181be0898013cf Merge branch into tip/master: 'x86/cache'
+e58821b7b44203750faedc897d0065a2aa53c72d Merge branch into tip/master: 'x86/cleanups'
+5e7395b614fe7f5d6e6997f600b475ac8534accd Merge branch into tip/master: 'x86/cpu'
+d1bc2b63fc4785e878458a8ffa80a61a1b035ea3 Merge branch into tip/master: 'x86/microcode'
+a8009d45f6d566fb6d2c10adeaad22d556bae791 Merge branch into tip/master: 'x86/misc'
+c74dbefef7c51b56774ee9a60f43d1032ab66db9 Merge branch into tip/master: 'x86/mm'
+eab8d578915210f3eacf895ab4c68aef0ab87bed Merge branch into tip/master: 'x86/sev'
+ce691183d67d901777f1c20eea2a0cdb318c0edf Merge branch into tip/master: 'x86/tdx'
+
+--===============8126407168510619970==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-53c34d5bf615-202d4249ff63.txt
 
 0b28000b64f40dd29a730507aa0447231960cfb8 RDMA/nldev: Add mutual exclusion in nldev_dellink()
 0bf1b4dda2d0c89980eab816778722cf51aa404c selftests/rdma: explicitly skip tests when required modules are missing
@@ -71,6 +102,8 @@ eed108edc1170404bbef9e7d0189d18a3cc354f5 Merge tag 'nios2_updates_for_v7.2' of g
 f83ef5bca211a1bdc1ea661c11543712f96a6cea Merge tag 'xfs-fixes-7.1-rc5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 400544639d2a11a9c1e276a912a9dff8fe4107dc Merge tag 'for-7.1-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 4cbfe4502e3d4bda48eb4b83dfad8d7da3b22e90 Merge tag 'v7.1-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-28d888eb472c0e8951135de01cc40b0143b5c1c3 Merge branch 'linus'
+6b1950b5e8c60d1f28318a90e70d6db3308792cf Merge branch into tip/master: 'core/urgent'
+90de4554b6be2eaa427abd7c818889eccb17061b Merge branch into tip/master: 'irq/urgent'
+202d4249ff633a3db9f00e2958b1e1dd4bdd6bd5 Merge branch into tip/master: 'x86/urgent'
 
---===============4973418235230464790==--
+--===============8126407168510619970==--
