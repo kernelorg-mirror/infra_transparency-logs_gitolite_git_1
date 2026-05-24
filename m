@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sun, 24 May 2026 21:12:40 -0000
-Message-Id: <177965716042.2325911.10891512187646862086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 24 May 2026 21:35:57 -0000
+Message-Id: <177965855702.2342992.1449603364806854847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/edac-misc
-    old: 2c6a0994e9f15da5aba8cb108df35a257a792030
-    new: 9de7d8a7f56df40d88642846aa997c49f3101a5b
+  - ref: refs/heads/sunxi/for-next
+    old: 0a853edea857eb24746a2c091a07fc463e4255e8
+    new: f8dbc2bc7424d440a1ef78f6f0c2de8b348cfd30
     log: |
-         9de7d8a7f56df40d88642846aa997c49f3101a5b EDAC: Consistently define pci_device_ids using named initializers
+         44cf19e41c769720750dbb8752aca75c247e565f arm64: dts: allwinner: a523: add gpadc node
+         f8dbc2bc7424d440a1ef78f6f0c2de8b348cfd30 Merge branch 'sunxi/dt-for-7.2' into sunxi/for-next
          
