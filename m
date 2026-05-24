@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0363079691605502410=="
+Content-Type: multipart/mixed; boundary="===============6595490224619527310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 24 May 2026 22:15:46 -0000
-Message-Id: <177966094657.2372223.1142266751355773112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 24 May 2026 22:26:58 -0000
+Message-Id: <177966161808.2379981.15758358016442634748@gitolite.kernel.org>
 
---===============0363079691605502410==
+--===============6595490224619527310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
-    log: revlist-254f49634ee1-e7ae89a0c97c.txt
+  - ref: refs/heads/regulator-7.2
+    old: fb6a6297acfad9810dea91a67185a90ba7a7bfbd
+    new: 234d5992d62fb66fdf63705e183e46687832c7eb
+    log: revlist-fb6a6297acfa-234d5992d62f.txt
 
---===============0363079691605502410==
+--===============6595490224619527310==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-e7ae89a0c97c.txt
+Content-Disposition: attachment; filename=revlist-fb6a6297acfa-234d5992d62f.txt
 
-e539acf9f9c2550452914fb85aeb8fda67dd762f MAINTAINERS: Add self for the 3c509 network driver
-7ce5556f255a680d80daa31b1cedecf7f89e2c22 ipv6: flowlabel: take ip6_fl_lock across mem_check and fl_intern
-e68eadffb724b36ffd3d5619e0efcaf29ec2a175 ipv6: flowlabel: enforce per-netns limit for unprivileged callers
 dffddaa0cea5849e2bd1f357d166a86c2f6cded4 Merge branch 'ipv6-flowlabel-per-netns-budget-for-unprivileged-callers'
 58e2330bd45572a6e3d46ea94cf7a9641f43591a net: napi: Avoid gro timer misfiring at end of busypoll
 0a549298f452a83ae57e6582e6ca389357f9355d MAINTAINERS: change maintainers for macb Ethernet driver
@@ -1050,5 +1047,8 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 3526d7462355c4df269d4a87eed53dbd48a1df02 Merge tag 'x86-urgent-2026-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
+dbd092155a4b24b1768247278eaa67507ae209bb regulator: dt-bindings: document the SGM3804 Dual Output regulator
+2b2e78ab21189870cc5786aafdb98e38ed5fb126 regulator: add SGM3804 Dual Output driver
+234d5992d62fb66fdf63705e183e46687832c7eb regulator: add support for SGM3804 Dual Output driver
 
---===============0363079691605502410==--
+--===============6595490224619527310==--
