@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 24 May 2026 23:16:31 -0000
-Message-Id: <177966459137.2416925.9023821881319660454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 24 May 2026 23:17:15 -0000
+Message-Id: <177966463538.2417455.7141043352259378539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/regulator-7.2
-    old: 234d5992d62fb66fdf63705e183e46687832c7eb
-    new: 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d
+  - ref: refs/heads/master
+    old: 53f5028bbc0404884a1c70119387d1ec559c6bca
+    new: 4755a6113029cef0e914f009544e168638966fe6
     log: |
-         8480ea35d715995a7261da045b8f3d9340c79f21 regulator: dt-bindings: document the SGM3804 Dual Output regulator
-         0c47e1a8cf5d0052745553a0aeb2c8c4ab1b5453 regulator: add SGM3804 Dual Output driver
-         4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d regulator: add support for SGM3804 Dual Output driver
+         4755a6113029cef0e914f009544e168638966fe6 TODO: add item
          
