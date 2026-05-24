@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6940479708068906861=="
+Content-Type: multipart/mixed; boundary="===============5184874147077495660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 24 May 2026 15:30:36 -0000
-Message-Id: <177963663623.2076977.3610869238384065330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Sun, 24 May 2026 15:30:51 -0000
+Message-Id: <177963665173.2077314.4060597455867576191@gitolite.kernel.org>
 
---===============6940479708068906861==
+--===============5184874147077495660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 4cbfe4502e3d4bda48eb4b83dfad8d7da3b22e90
     log: revlist-cca95436be15-4cbfe4502e3d.txt
 
---===============6940479708068906861==
+--===============5184874147077495660==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -203,4 +203,4 @@ f83ef5bca211a1bdc1ea661c11543712f96a6cea Merge tag 'xfs-fixes-7.1-rc5' of git://
 400544639d2a11a9c1e276a912a9dff8fe4107dc Merge tag 'for-7.1-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 4cbfe4502e3d4bda48eb4b83dfad8d7da3b22e90 Merge tag 'v7.1-rc5-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 
---===============6940479708068906861==--
+--===============5184874147077495660==--
