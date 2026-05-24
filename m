@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 24 May 2026 04:31:40 -0000
-Message-Id: <177959710036.1551534.2570130674489927182@gitolite.kernel.org>
+Date: Sun, 24 May 2026 04:56:56 -0000
+Message-Id: <177959861689.1570286.10600171539739466878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm2-asymmetric
-    old: d7c1958097d13972d52ec163b0167643cbd3040b
-    new: 351cfae667071169054d7f949c8cb30b605d3f60
+    old: 351cfae667071169054d7f949c8cb30b605d3f60
+    new: cce363493618ff2f4d1154ca61c6c3a9098f00a7
     log: |
-         351cfae667071169054d7f949c8cb30b605d3f60 keys: asymmetric: tpm2_asymmetric
+         cce363493618ff2f4d1154ca61c6c3a9098f00a7 keys: asymmetric: tpm2_asymmetric
          
