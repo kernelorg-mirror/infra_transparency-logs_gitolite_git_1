@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7872747466694126256=="
+Content-Type: multipart/mixed; boundary="===============0121711623674415541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Sun, 24 May 2026 01:16:53 -0000
-Message-Id: <177958541319.1410820.6069299304709800251@gitolite.kernel.org>
+Date: Sun, 24 May 2026 01:17:11 -0000
+Message-Id: <177958543155.1411227.4277325678636126744@gitolite.kernel.org>
 
---===============7872747466694126256==
+--===============0121711623674415541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fustini/linux
 user: fustini
 changes:
-  - ref: refs/heads/thead-dt-for-next
-    old: 74ec3d52c0035b662ec295bef2bbffad68446391
+  - ref: refs/heads/thead-dt-fixes
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-74ec3d52c003-254f49634ee1.txt
+    log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============7872747466694126256==
+--===============0121711623674415541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74ec3d52c003-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============7872747466694126256==--
+--===============0121711623674415541==--
