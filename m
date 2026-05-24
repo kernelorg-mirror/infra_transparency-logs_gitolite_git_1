@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1626718443689872164=="
+Content-Type: multipart/mixed; boundary="===============4978247738581455236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 24 May 2026 02:42:39 -0000
-Message-Id: <177959055966.1471440.16416854859818585517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sun, 24 May 2026 02:42:48 -0000
+Message-Id: <177959056856.1471683.11748614804646417554@gitolite.kernel.org>
 
---===============1626718443689872164==
+--===============4978247738581455236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-data-validation
@@ -20,7 +20,7 @@ changes:
     new: dc07c17bedd817afd8df42adb2363981475d41f6
     log: revlist-3185552ede67-dc07c17bedd8.txt
 
---===============1626718443689872164==
+--===============4978247738581455236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ a4d03f72fd1ab81e344f688a8071a53860c1b2e3 perf tools: Harden compressed event pro
 4d7b24396245fa155ba2e6b84da13880e99c7b21 perf session: Snapshot event->header.size in process_user_event()
 dc07c17bedd817afd8df42adb2363981475d41f6 perf test: Add truncated perf.data robustness test
 
---===============1626718443689872164==--
+--===============4978247738581455236==--
