@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0373485437753199941=="
+Content-Type: multipart/mixed; boundary="===============7950119149040263119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 25 May 2026 11:47:52 -0000
-Message-Id: <177970967286.3059524.10830872972433212680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 25 May 2026 11:48:02 -0000
+Message-Id: <177970968297.3059782.16736305691344080105@gitolite.kernel.org>
 
---===============0373485437753199941==
+--===============7950119149040263119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-data-validation
@@ -20,7 +20,7 @@ changes:
     new: c41341cad62676234258503a00a248d5dab546a9
     log: revlist-dc07c17bedd8-c41341cad626.txt
 
---===============0373485437753199941==
+--===============7950119149040263119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ b0f46bc511973ab455a1db07f4811a489a05432d perf session: Bound nr_cpus_avail and v
 9bb026e718a3a21cbf6dcdca8311d83955bfb254 perf session: Snapshot event->header.size in process_user_event()
 c41341cad62676234258503a00a248d5dab546a9 perf test: Add truncated perf.data robustness test
 
---===============0373485437753199941==--
+--===============7950119149040263119==--
