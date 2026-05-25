@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0297636628793742472=="
+Content-Type: multipart/mixed; boundary="===============0653378055122942148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 25 May 2026 10:12:06 -0000
-Message-Id: <177970392675.2948926.7478741882341606333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 May 2026 10:12:13 -0000
+Message-Id: <177970393328.2949144.15673799102834798445@gitolite.kernel.org>
 
---===============0297636628793742472==
+--===============0653378055122942148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: fb6a6297acfad9810dea91a67185a90ba7a7bfbd
     new: 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d
     log: revlist-fb6a6297acfa-4bd7e2c200b2.txt
 
---===============0297636628793742472==
+--===============0653378055122942148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1779703922 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1779703924-cd2a2b36aaffe3758dda5a2682b43a50b1573a45
+pusher C3F436CA30F5D8EB 1779703929 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1779703930-c58ab67f1d630679dfbb71df30dc8b8115b729e5
 
-fb6a6297acfad9810dea91a67185a90ba7a7bfbd 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d refs/heads/for-7.2
+fb6a6297acfad9810dea91a67185a90ba7a7bfbd 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoUIHIACgkQJNaLcl1U
-h9ALrAf/aFSaeWG3Dk4KUkp+n9MliRpsqFWC4N8EZXlk8tH48TPZ3jXZZO0whVMp
-E+HGfgxFGANE+X/9SEBb6POfQRY065vQLJQJmaoK/tCefLAQUd1Hyjm1AKw3xBWQ
-/8HY/lW7cnHxOzBAglgybcx2sDkB/VYDHqIsCLLB+8UpWuid4Z+hgkcOqoH+qkPE
-Fky/RcPWL8P0F/IlZPAZybux7Lr+haSK1f2b6S2Uq2NFxAKuNcpxjruyUqxzvxUW
-+fZJzVaXMRJJ9urZRauwq0LIY5ahA7el5qb/2cJAUgd11ivHcCu9O5SgNp/vM9Z3
-5JsNaPPp2IRg7nGXbQRNWpOhTXblMA==
-=0rKt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoUIHkACgkQJNaLcl1U
+h9ByoAf/en+Fk9M4IJMOsP0xqeE0L4ZTmMXh3c53MKUYB1vP8BnipjADgYynFeVd
+5cRzabBgkIExWIdrbJmj4/JsaYnuEh4pfHE6BKdV2rz0aKTcrwZkAuJTTa6CPXut
+F4Iaj0atlAH2bmarbLW3v3Bybjodcia8jEGyMkUYdbhavF9ZbFfaqLWJMh0ufrE8
+BD6eBJJV1C8S97BqeqNL+uMxFgwoEhrpAmLAh2Sgh78MyGgkBXfKphiHBLwbUGKG
+gMchs/+YwostgXTNg9eIXzGLU6KMaVojm9djkbCNrUGlxCrQKKyKo0hIwtiVi8At
+LooNEjnf71uH51VltOBoaEDLlfOmkg==
+=TnqS
 -----END PGP SIGNATURE-----
 
---===============0297636628793742472==
+--===============0653378055122942148==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1076,4 +1076,4 @@ e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 0c47e1a8cf5d0052745553a0aeb2c8c4ab1b5453 regulator: add SGM3804 Dual Output driver
 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d regulator: add support for SGM3804 Dual Output driver
 
---===============0297636628793742472==--
+--===============0653378055122942148==--
