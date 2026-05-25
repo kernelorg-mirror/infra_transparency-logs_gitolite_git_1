@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5088007563361282363=="
+Content-Type: multipart/mixed; boundary="===============0754200819689757158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 May 2026 11:52:40 -0000
-Message-Id: <177970996010.3064220.13034485070740909955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Mon, 25 May 2026 11:59:11 -0000
+Message-Id: <177971035183.3068673.12941374611678406818@gitolite.kernel.org>
 
---===============5088007563361282363==
+--===============0754200819689757158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
+user: jgg
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 945d3a7ae1d364efd4f9e21466173fd8e7dc917f
-    new: 071abffe5bfd5255db73803f7ae803bca641fc1c
-    log: revlist-945d3a7ae1d3-071abffe5bfd.txt
+  - ref: refs/heads/for-rc
+    old: e7537735028c3ad4b0bfc02ff8fa2a1a28aa04fe
+    new: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
+    log: revlist-e7537735028c-e7ae89a0c97c.txt
 
---===============5088007563361282363==
+--===============0754200819689757158==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-945d3a7ae1d3-071abffe5bfd.txt
+Content-Disposition: attachment; filename=revlist-e7537735028c-e7ae89a0c97c.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -421,7 +421,6 @@ fc5ef4331810b160427ad2d0165dff713e968e9b selftests: mptcp: join: cover ADD_ADDR 
 3a543ae0e2092d5c2085d5f21f7a7dbafdffea3c mptcp: update window_clamp on subflows when SO_RCVBUF is set
 01ff78e4b3d98689184c52d97f9575dfbdc3b10f selftests: mptcp: drop nanoseconds width specifier
 edc502717be153674b0b3eefb8b40734c747c138 Merge branch 'mptcp-misc-fixes-for-v7-1-rc4'
-e7537735028c3ad4b0bfc02ff8fa2a1a28aa04fe fwctl: pds: Validate RPC input size before parsing
 00c9753435e8a800761feeeea029a83c4c4847c4 hp-wmi: fix support for thermal profile Omen 16-с0xxx laptops
 e7a9a6ea40e352cd7977f6a8c80bdeadf65ad838 platform/x86: adv_swbutton: Check ACPI_HANDLE() against NULL
 abfbe5ee8ae89f1f5449790423d5dd3e423545bd platform/x86: hp_accel: Check ACPI_COMPANION() against NULL
@@ -774,13 +773,5 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 3526d7462355c4df269d4a87eed53dbd48a1df02 Merge tag 'x86-urgent-2026-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
-03dfceec78a188af9a475b52ce85bdf1377f9e4b zorro: sysfs: Replace sprintf() by sysfs_emit()
-a588cafa2cb8f1589e1b31209b8fa5daeba8c4a5 nubus: Switch to dynamic root device
-388c1ee9bb2e39b45436917d5932c0b42d40db00 dio: Replace deprecated strcpy with strscpy in dio_init
-3d08a1592f99d767142146c477453b702850a38a dio: Use tabs and avoid continuation logging in dio_init
-428563299d30056e7dd75889414244f1f883ef52 dio: Update DIO_SCMAX comment
-240ad8e3010f4ee9267fb09217f011417e8b0ee7 m68k: atari: usb: Add ISP1160 USB host controller support
-ba29c371bc74d45e640afaeda167a8dda08a850c m68k: atari: Update Kconfig.bus help text
-071abffe5bfd5255db73803f7ae803bca641fc1c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5088007563361282363==--
+--===============0754200819689757158==--
