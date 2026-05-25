@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 25 May 2026 18:09:53 -0000
-Message-Id: <177973259349.3348935.3267792663718618200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Mon, 25 May 2026 18:18:09 -0000
+Message-Id: <177973308958.3355746.3658139221705487400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: f6f1bfc1980a08a8d1eb8eaf161b79c7c67095ba
-    new: d47548a36639095939f4747d4c43f2271366f565
-    log: |
-         f7b52afe3592eae66e160586b45a3f2242972c63 ipv6: exthdrs: refresh nh after handling HAO option
-         d47548a36639095939f4747d4c43f2271366f565 ipv6: exthdrs: refresh nh pointer after ipv6_hop_jumbo()
-         
+  - ref: refs/tags/nf-next-26-05-25
+    old: 0000000000000000000000000000000000000000
+    new: 7b73ba1a628758542c3972103a6c9a23acae3e63
