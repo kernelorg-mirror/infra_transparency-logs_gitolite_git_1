@@ -1,51 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============7852428803416777343=="
+Content-Type: multipart/mixed; boundary="===============2884446415227365183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 25 May 2026 15:37:34 -0000
-Message-Id: <177972345432.3235737.875942744249427777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 25 May 2026 15:37:50 -0000
+Message-Id: <177972347005.3236206.10462164194941762855@gitolite.kernel.org>
 
---===============7852428803416777343==
+--===============2884446415227365183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
+  - ref: refs/heads/for-linus
     old: 09e8f9a9aa19aa8c1b0cc7a0ebc68f6ecf86a660
     new: 500eb0203cd1a7b8feea0443f5add9a47444a7b2
     log: revlist-09e8f9a9aa19-500eb0203cd1.txt
+  - ref: refs/heads/for-next
+    old: b0ffc4b644de2442ad7826720b87a345815704ef
+    new: 8cd773d4f8235aaf0b04927b3c9d2d0326def09b
+    log: |
+         afb2a3a9d8369d18122a0d7cd294eba9a98259c6 ASoC: Intel: bytcht_es8316: Fix MCLK leak on init errors
+         cee3e63e7106c3c81b2053371fdf14240bfba2fc ASoC: qcom: q6asm-dai: do not set stream state in event and trigger callbacks
+         048c540ee76ded666bda74f9dae1ca3254e0633c ASoC: qcom: q6asm-dai: close stream only when running
+         4b4db09f283df65d780bc7cee66cb4a7e9bf4770 ASoC: qcom: q6asm-dai: fix error handling in prepare and set_params
+         c92d880cde739a3fb6346f42fc5feb2f093c063c ASoC: qcom: q6asm-dai: remove unnecessary braces
+         909595c288af2304d0902488698e91c8aeee36a3 ASoC: qcom: q6asm-dai: use pointer type with kzalloc_obj()
+         500eb0203cd1a7b8feea0443f5add9a47444a7b2 ASoC: qcom: q6asm-dai: fix error handling
+         8cd773d4f8235aaf0b04927b3c9d2d0326def09b Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
+         
 
---===============7852428803416777343==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1779723452 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1779723452-e835f2b395cb9dd526e54a0028b27c0f77fbe07c
-
-09e8f9a9aa19aa8c1b0cc7a0ebc68f6ecf86a660 500eb0203cd1a7b8feea0443f5add9a47444a7b2 refs/heads/asoc-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoUbLwACgkQJNaLcl1U
-h9Bjcwf+MToRlcRHX3tSbKmaQPROCFsJTXzA4CYs2c7aDTQF8mEXhZGYy0oxZ+kq
-brNLNJzZCAsp7daCWg0+3LMRpwP8g2prVvDewMvQvUGCHjJOQXsF/8jX7SSEh1gb
-Js8Cdl9Sa+a2CUZ0JMAW2anmor3vnQSQrfwXS/tL41olPcxTjNQi0KHGuPPWVs/r
-a480UGSvYDrLi4if5SqEwrosCcqJClm/dnjaTgYfT3C63RGA4r6RKBmFXUCxE02c
-muJ3sRdz23OwPVyzvZf+h1JZVJCSRHc20xjiglZu4t4Ua4aKxknUvITv63qd8c1q
-jvBZe7YqpPTkg6zobvQLwPMkze//Pw==
-=CJqj
------END PGP SIGNATURE-----
-
---===============7852428803416777343==
+--===============2884446415227365183==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -774,4 +762,4 @@ c92d880cde739a3fb6346f42fc5feb2f093c063c ASoC: qcom: q6asm-dai: remove unnecessa
 909595c288af2304d0902488698e91c8aeee36a3 ASoC: qcom: q6asm-dai: use pointer type with kzalloc_obj()
 500eb0203cd1a7b8feea0443f5add9a47444a7b2 ASoC: qcom: q6asm-dai: fix error handling
 
---===============7852428803416777343==--
+--===============2884446415227365183==--
