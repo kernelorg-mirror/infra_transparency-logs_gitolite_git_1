@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3115141137999222087=="
+Content-Type: multipart/mixed; boundary="===============8262924909957232648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 25 May 2026 11:41:54 -0000
-Message-Id: <177970931488.3054303.15187038002608396048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 25 May 2026 11:41:56 -0000
+Message-Id: <177970931664.3054388.2281083264103668556@gitolite.kernel.org>
 
---===============3115141137999222087==
+--===============8262924909957232648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
     log: revlist-4cbfe4502e3d-e7ae89a0c97c.txt
 
---===============3115141137999222087==
+--===============8262924909957232648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 
---===============3115141137999222087==--
+--===============8262924909957232648==--
