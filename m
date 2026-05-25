@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2499482790792996053=="
+Content-Type: multipart/mixed; boundary="===============7135627536417558367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 May 2026 08:41:44 -0000
-Message-Id: <177969850446.2885155.8370919367198608990@gitolite.kernel.org>
+Date: Mon, 25 May 2026 08:42:07 -0000
+Message-Id: <177969852723.2885560.9515888738087439961@gitolite.kernel.org>
 
---===============2499482790792996053==
+--===============7135627536417558367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ce691183d67d901777f1c20eea2a0cdb318c0edf
-    new: 4c254717bd2ff1fea9aa98090620c3934db7890d
-    log: revlist-ce691183d67d-4c254717bd2f.txt
+    old: 4c254717bd2ff1fea9aa98090620c3934db7890d
+    new: 0562db332cd80f18e5d1b3101da8ef5de5688cc2
+    log: revlist-4c254717bd2f-0562db332cd8.txt
+  - ref: refs/heads/tip/urgent
+    old: 202d4249ff633a3db9f00e2958b1e1dd4bdd6bd5
+    new: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
+    log: revlist-202d4249ff63-e7ae89a0c97c.txt
+  - ref: refs/tags/v7.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
 
---===============2499482790792996053==
+--===============7135627536417558367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce691183d67d-4c254717bd2f.txt
+Content-Disposition: attachment; filename=revlist-4c254717bd2f-0562db332cd8.txt
+
+18143e11c8813514572c46336e9027c1b9a10f92 Merge branch into tip/master: 'timers/merge'
+8af82c28188ff6b1677c862c9984368dd12b91db Merge branch into tip/master: 'irq/core'
+46c4bc033900bc70c62b40ee136ad07c527af845 Merge branch into tip/master: 'irq/drivers'
+be1c41a5211d2489c6c5d1038138cb183a0c237a Merge branch into tip/master: 'irq/msi'
+c812440a3e18d1a00bf31fab5c182b288c74b00c Merge branch into tip/master: 'locking/core'
+9917e5379392eaddab1f11e2410f5aaaa803dcc3 Merge branch into tip/master: 'objtool/core'
+4213def7e60920b5f6dcbdd4b894265c760eda9f Merge branch into tip/master: 'perf/core'
+03c4cd3ab2eeecd12d192a4be38ddfbc6a6c7bfa Merge branch into tip/master: 'sched/core'
+86fc4985c93a060bcb978a0e6281e755673af5fd Merge branch into tip/master: 'timers/vdso'
+9c2d4d07afd0e538878a3665580fb7838bb4943c Merge branch into tip/master: 'x86/cache'
+368505256e1ed1c8116ffbd82ee805dd1593ddcb Merge branch into tip/master: 'x86/cleanups'
+08a653f1c5bf76196996ae023710578f4cdc09ab Merge branch into tip/master: 'x86/cpu'
+e593db60f3cfe83445df7731b6dc3c407491ffd5 Merge branch into tip/master: 'x86/microcode'
+4e3c5bf5cc831c80c7f13d6426a903fac20d19c4 Merge branch into tip/master: 'x86/misc'
+5807efd9967f6d18df7b253f462f9159e31f5350 Merge branch into tip/master: 'x86/mm'
+99bd07d115acd837e595d455a395eb981058cf09 Merge branch into tip/master: 'x86/sev'
+0562db332cd80f18e5d1b3101da8ef5de5688cc2 Merge branch into tip/master: 'x86/tdx'
+
+--===============7135627536417558367==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-202d4249ff63-e7ae89a0c97c.txt
 
 4314a44564eb1565349fed7a4192344c5f46fc85 bpf: Fix out-of-bounds read in bpf_patch_call_args()
 58a8f3e2501dc14b8e00e883d6aaf0600a239da7 bpf: Fix s16 truncation for large bpf-to-bpf call offsets
@@ -81,8 +112,5 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 3526d7462355c4df269d4a87eed53dbd48a1df02 Merge tag 'x86-urgent-2026-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
-648fb97ee908b602f507e8b1f1ae98dd6342f05d x86/tlb: Convert copy_from_user() + kstrtouint() to kstrtouint_from_user()
-fdd25efd3a7ec0ef9fdb20dac5d53dfc4196476e Merge branch into tip/master: 'x86/cleanups'
-4c254717bd2ff1fea9aa98090620c3934db7890d Merge branch 'linus'
 
---===============2499482790792996053==--
+--===============7135627536417558367==--
