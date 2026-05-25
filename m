@@ -1,50 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4270827556571257869=="
+Content-Type: multipart/mixed; boundary="===============0701840973153432107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 25 May 2026 13:54:12 -0000
-Message-Id: <177971725283.3156041.17180393608250900781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 25 May 2026 13:54:47 -0000
+Message-Id: <177971728747.3156578.79007477702282941@gitolite.kernel.org>
 
---===============4270827556571257869==
+--===============0701840973153432107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 84bfaa6ceed629cbaeaccf03c4b287c719663284
-    new: 82056957e5c42c4060a1d8b1576aad2dfe54e568
+  - ref: refs/heads/master
+    old: ccfce6661ea1fac84ed5236c4e28697baac16934
+    new: df053899121481091e708902e3c161cb9b37a877
     log: |
-         82056957e5c42c4060a1d8b1576aad2dfe54e568 spi: omap2-mcspi: Use of_device_get_match_data()
+         df053899121481091e708902e3c161cb9b37a877 Update 058AA48E72962CCF (Uladzislau Rezki)
          
 
---===============4270827556571257869==
+--===============0701840973153432107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1779717251 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1779717250-3d8bdfdf1051e0b6607cba82a64183b4c452f774
+pusher B6C41CE35664996C! 1779717286 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1779717286-bb34edf2242cba640314e3a04257210550181ea0
 
-84bfaa6ceed629cbaeaccf03c4b287c719663284 82056957e5c42c4060a1d8b1576aad2dfe54e568 refs/heads/spi-7.2
+ccfce6661ea1fac84ed5236c4e28697baac16934 df053899121481091e708902e3c161cb9b37a877 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoUVIMACgkQJNaLcl1U
-h9ARegf/YO0gODpgLyZlU8cudHAWQ6IUYRgbtrR5exNrf+QJ2hyKSOI93UuaORbJ
-DuKrwVXH98SMhSmvKVPg5IbIbsMmUdnO53IsxRnrlX8zfYHIaG3zwkslAJhxQXVA
-uwrUIJAkcT95dE0Wdav9M5EkK93XBqrrksIVJBVl99FIMECkFg/jFPCVIo/qwp5S
-jOmLOYuNMd62x/OwO3PMSzEAJ2UvyMiXlcYj4SWfDp9tLMGVqtiK2Ob8DmZjm/S/
-PPbfx1CVDHCpXiezFqIeSYZsVtpg8dzQyOZAo1f+k986LDDlXc5bv1j37nkFqtyP
-G0aNwpA2Z8xikYAwF0Erm6DWW/9ODg==
-=INKe
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCahRUpgAKCRC2xBzjVmSZ
+bNIUAP9VXNhcRLoCBKvy603CXm5eOHHqM+sg1o8aPlcEBXoNuAEA4fLprKT+MQj+
+J9d5MJC1xwj52w8OBA3Cq5rpmrICfww=
+=PYhy
 -----END PGP SIGNATURE-----
 
---===============4270827556571257869==--
+--===============0701840973153432107==--
