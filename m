@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0305779133030773242=="
+Content-Type: multipart/mixed; boundary="===============4819614936928690441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 25 May 2026 13:34:22 -0000
-Message-Id: <177971606279.3140235.1352502543146013271@gitolite.kernel.org>
+Date: Mon, 25 May 2026 13:34:29 -0000
+Message-Id: <177971606913.3140604.1041054435062731007@gitolite.kernel.org>
 
---===============0305779133030773242==
+--===============4819614936928690441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b1fcdf9aa9f562d0768f59ae178ed4e67fd7f370
     new: eb19eead368bb0f0ef06a4125d03ed661cd23d36
     log: revlist-b1fcdf9aa9f5-eb19eead368b.txt
 
---===============0305779133030773242==
+--===============4819614936928690441==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 eb19eead368bb0f0ef06a4125d03ed661cd23d36 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.1-rc5
 
---===============0305779133030773242==--
+--===============4819614936928690441==--
