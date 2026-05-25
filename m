@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0066313772248950704=="
+Content-Type: multipart/mixed; boundary="===============4885991813389268012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 25 May 2026 01:21:53 -0000
-Message-Id: <177967211314.2511683.15424774518580643976@gitolite.kernel.org>
+Date: Mon, 25 May 2026 01:22:07 -0000
+Message-Id: <177967212772.2512050.7218072406885067512@gitolite.kernel.org>
 
---===============0066313772248950704==
+--===============4885991813389268012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 024480bf8d75bd16894c5b0eb6082b6e6dae4970
     new: 56785dcb2ef6d3cff82ac33f2e34db94377416a3
     log: revlist-024480bf8d75-56785dcb2ef6.txt
 
---===============0066313772248950704==
+--===============4885991813389268012==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 56785dcb2ef6d3cff82ac33f2e34db94377416a3 Merge tag 'v7.1-rc5' into driver-core-next
 
---===============0066313772248950704==--
+--===============4885991813389268012==--
