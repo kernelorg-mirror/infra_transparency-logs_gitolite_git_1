@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6401856762979471134=="
+Content-Type: multipart/mixed; boundary="===============5088007563361282363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 25 May 2026 11:52:27 -0000
-Message-Id: <177970994785.3063988.17232974756100426968@gitolite.kernel.org>
+Date: Mon, 25 May 2026 11:52:40 -0000
+Message-Id: <177970996010.3064220.13034485070740909955@gitolite.kernel.org>
 
---===============6401856762979471134==
+--===============5088007563361282363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: e321561b915378d2e9eacd1bc4d7fb2338d09961
-    new: 01793374319cdb685bd487633bbd8bd57f416172
-    log: |
-         01793374319cdb685bd487633bbd8bd57f416172 m68k: defconfig: Update defconfigs for v7.1-rc1
-         
-  - ref: refs/heads/for-v7.2
-    old: e321561b915378d2e9eacd1bc4d7fb2338d09961
-    new: 01793374319cdb685bd487633bbd8bd57f416172
-    log: |
-         01793374319cdb685bd487633bbd8bd57f416172 m68k: defconfig: Update defconfigs for v7.1-rc1
-         
-  - ref: refs/heads/master
-    old: 69ec6318a56180180081da5a38695b136e9ce932
-    new: 26b3f6c06bb2e4c5e933736324b70b732c06ba64
-    log: revlist-69ec6318a561-26b3f6c06bb2.txt
+  - ref: refs/heads/m68k-queue
+    old: 945d3a7ae1d364efd4f9e21466173fd8e7dc917f
+    new: 071abffe5bfd5255db73803f7ae803bca641fc1c
+    log: revlist-945d3a7ae1d3-071abffe5bfd.txt
 
---===============6401856762979471134==
+--===============5088007563361282363==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-69ec6318a561-26b3f6c06bb2.txt
+Content-Disposition: attachment; filename=revlist-945d3a7ae1d3-071abffe5bfd.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -786,6 +774,13 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 3526d7462355c4df269d4a87eed53dbd48a1df02 Merge tag 'x86-urgent-2026-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
-26b3f6c06bb2e4c5e933736324b70b732c06ba64 Merge tag 'v7.1-rc5'
+03dfceec78a188af9a475b52ce85bdf1377f9e4b zorro: sysfs: Replace sprintf() by sysfs_emit()
+a588cafa2cb8f1589e1b31209b8fa5daeba8c4a5 nubus: Switch to dynamic root device
+388c1ee9bb2e39b45436917d5932c0b42d40db00 dio: Replace deprecated strcpy with strscpy in dio_init
+3d08a1592f99d767142146c477453b702850a38a dio: Use tabs and avoid continuation logging in dio_init
+428563299d30056e7dd75889414244f1f883ef52 dio: Update DIO_SCMAX comment
+240ad8e3010f4ee9267fb09217f011417e8b0ee7 m68k: atari: usb: Add ISP1160 USB host controller support
+ba29c371bc74d45e640afaeda167a8dda08a850c m68k: atari: Update Kconfig.bus help text
+071abffe5bfd5255db73803f7ae803bca641fc1c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6401856762979471134==--
+--===============5088007563361282363==--
