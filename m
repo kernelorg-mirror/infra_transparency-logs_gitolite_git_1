@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6146036517173071927=="
+Content-Type: multipart/mixed; boundary="===============1961421841558094943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 25 May 2026 12:35:50 -0000
-Message-Id: <177971255080.3097835.3460551432626729571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 25 May 2026 12:35:54 -0000
+Message-Id: <177971255446.3098301.6483616056956652327@gitolite.kernel.org>
 
---===============6146036517173071927==
+--===============1961421841558094943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: 4de16aa84229011a3f4139b37f7525ee1804c771
     new: 3bd860dcf90213e59cb36cbed0b7d7870a248c9d
     log: revlist-4de16aa84229-3bd860dcf902.txt
 
---===============6146036517173071927==
+--===============1961421841558094943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1779712548 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1779712548-037aa93a44635941ca06662c0fcd0203ef09adb8
+pusher C3F436CA30F5D8EB 1779712552 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1779712551-6b79e36d9e4719c57671e3285eb8db7846babc75
 
-4de16aa84229011a3f4139b37f7525ee1804c771 3bd860dcf90213e59cb36cbed0b7d7870a248c9d refs/heads/for-7.2
+4de16aa84229011a3f4139b37f7525ee1804c771 3bd860dcf90213e59cb36cbed0b7d7870a248c9d refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoUQiQACgkQJNaLcl1U
-h9BppAf5ATyX3V8YKzBh4CUC9A95YR61NvMN/LbXsnjLgH1YjHb/a0NNb6j5SwTd
-SP4edj1QpR5/mryXBPjpGKPuVkJ+A0U27R8CatNIvq/9duyGOgIb3DAtNd+NpKdD
-z8Hz8ZPwMB+Esy9TyTsHeeZuf9JVjIQMqdJmI5MibFOnFuaerxTwZB+gcsckH/Jo
-XlGuYHir4ZkIGEWNZrHWJo8y6Lgv/wQh+8R/RJwRqE+WHjoTxSvxIa3hDzgdFfGV
-5oAAVcfll4Fl5XToTNmjTnwpoOkoCHeE2jzqe2/HaWxQtRh3h/S6E7buNVs4gsoN
-a1mapkVxc8Py1m61FLvJ/FCU9dwyhw==
-=0vqf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoUQigACgkQJNaLcl1U
+h9AD2gf8Dynz67l+KRdFAk93rSwtFgWtwKajYfp19UAwNxjDey9lbd1YIY+crLPU
+rG7QP2Te7KwVaIRqXgD75zUh14eS0iFAogeZJ7j1u4AoBhmEllFprwLvdHq9/Mf+
+T9wCGYc6AgQtrIubD56nWOlQPTlQfPufJNU1rEZGxo4eR1ZrmQSuCgZhdKq8BAku
+9hXl6aquo4/K39dwW2UPRo3JX8CsBegLw2Hwp40KsSs+vDmLe4w8tewaAy4eCvo0
+CiHo5ZSR41WC8fKp61S+Llyp2bNyRBRLiiRmsFOQyNQE7rR0nNbrbHD/hXn4xBss
+6wwhYTiNPPLtDffTrf1w3339k6mVqw==
+=TYrm
 -----END PGP SIGNATURE-----
 
---===============6146036517173071927==
+--===============1961421841558094943==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -787,4 +787,4 @@ e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 c8c2ffd722a6e497b9c6bb9961a7afb6ee5e2c28 ASoC: soc-pcm: constrain hw_params when DAIs share the same BCLK
 3bd860dcf90213e59cb36cbed0b7d7870a248c9d ASoC: add shared BCLK rate constraint for cross-DAI coordination
 
---===============6146036517173071927==--
+--===============1961421841558094943==--
