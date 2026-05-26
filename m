@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 26 May 2026 15:29:36 -0000
-Message-Id: <177980937680.142449.6517808415677725976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 26 May 2026 15:34:27 -0000
+Message-Id: <177980966767.146163.15311931020885756634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/x86/tdx
-    old: b5862fedb97f53deff196fa9657597116e3086da
-    new: d4516dcf9cd5d41238222a2a1b542a62ef7ed056
+  - ref: refs/heads/master
+    old: f818e9d0c9df2537c3415fe9ff45701084dbe012
+    new: b493164ffbff277bdb540f6d779ba4b4645b3679
     log: |
-         80ea6a2442e14d98f6bb093fa2a6e32da88f77fb x86/virt/seamldr: Initialize the newly-installed TDX module
-         2c7d8ff2ef03cf3c3a70e91fcf1ee182fe58f8d3 x86/virt/tdx: Restore TDX module state
-         d34f37c3101c0364dba0d561e4911bc6496a2d0a x86/virt/seamldr: Add module update locking
-         9d84a61321b76f393ad06919065ca5fd11d433aa coco/tdx-host: Lock out module updates when reading version
-         451223436f1cbb8122be0ec9ea1d16446c019a34 x86/virt/tdx: Refresh TDX module version after update
-         d4516dcf9cd5d41238222a2a1b542a62ef7ed056 x86/virt/tdx: Enable TDX module runtime updates
+         b8d42b282b3c17f1f4838039fa23ba24f07db723 test-mesh-crypto: Don't attempt to run test if AF_ALG is not available
+         b493164ffbff277bdb540f6d779ba4b4645b3679 monitor: Add support for HCI Event Encryption Change v2
          
