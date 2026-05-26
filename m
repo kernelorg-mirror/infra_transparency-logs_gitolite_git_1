@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5673539795619889599=="
+Content-Type: multipart/mixed; boundary="===============3943986395974657368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 26 May 2026 00:07:40 -0000
-Message-Id: <177975406092.3647807.945209804200389781@gitolite.kernel.org>
+Date: Tue, 26 May 2026 00:07:43 -0000
+Message-Id: <177975406332.3647940.8410303349781171496@gitolite.kernel.org>
 
---===============5673539795619889599==
+--===============3943986395974657368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4b9e0e1f8c4b5c163abf189fff522846ad72ab23
-    new: da0a06486ac3ce47c6ffb603d2fd332229d41592
-    log: revlist-4b9e0e1f8c4b-da0a06486ac3.txt
+  - ref: refs/heads/mm-unstable
+    old: 7f077167feb6e403ef039d6009d785d596ed8070
+    new: 4aedd91eef75addec6eb2702aa0d94625d01458d
+    log: revlist-7f077167feb6-4aedd91eef75.txt
 
---===============5673539795619889599==
+--===============3943986395974657368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9e0e1f8c4b-da0a06486ac3.txt
+Content-Disposition: attachment; filename=revlist-7f077167feb6-4aedd91eef75.txt
 
 d68266e777948bf265ace071b6b216340e4bc56f device-dax: fix refcount leak in __devm_create_dev_dax() error path
 bf9221f4d1f214174d2b59826c8f9b90441a064a ipc/shm: serialize orphan cleanup with shm_nattch updates
@@ -426,21 +426,5 @@ aae9026d8cfbf054ff07f30f53e7b4adfe5dccba mm/damon: fix missing parens in macro a
 47c8411a5db978c21e284636bf17cb7308c5cc54 Docs/admin-guide/mm/damon/usage: clarify current_value of quota goals
 40c3face4ce177e3ad71054ee367b24b2695a887 mm/damon/core: trace esz at first setup
 4aedd91eef75addec6eb2702aa0d94625d01458d kasan/test: only do kmalloc_double_kzfree for generic mode
-52f82eb5e7267fef13c019e25abd4b6e07ef4cab userfaultfd: merge fs/userfaultfd.c into mm/userfaultfd.c
-7ac6c22053998bfba4bd97ba0fef7329007e9040 userfaultfd: make functions that are not used outside uffd static
-796dce21a62d36906be58b911ca42372cb6c58be mm: make mmap_miss accounting symmetric for VM_SEQ_READ
-cde2455eecdd567e5ad08ded10c0d6e1ee9a4be7 mm: shmem: refactor thpsize_shmem_enabled_store() with sysfs_match_string()
-186ee5ec079e4997bce8f2e219a255640b6c20ab mm: shmem: refactor thpsize_shmem_enabled_show() with helper arrays
-a02ed2d24199fe881114165e8f06a41f8b00bcb5 alloc_tag: fix use-after-free in /proc/allocinfo after module unload
-db9045fc517521d179b6d248944c3acd872818ef zram: do not leak blk idx at the end of writeback
-f2490ce36352f4cd12747917cd247e8424caedd0 zram: clear trailing bytes of compressed writeback pages
-5e78ae07289b8c34f89c7c6579076e943df1c98f selftests/memfd: fix -Wmaybe-uninitialized warning in memfd_test
-63f164a7a0675a69d7b93e4ba962c7ca4c76961f selftests/memfd: remove unused variable 'sig' in fuse_test
-c06c9ec79108ad773304faa7b845b646c8620b53 mm/dmapool: use static key for boot-time debug enablement
-0c8f4875b5f8719397e9d9ce2d9b7736c48c39a5 lib: split codetag_lock_module_list()
-1e8f88961ce82baaa4e90358b3da821fc9bca6e6 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-777edd162bc088b7f35a87064c709101d79e3ea2 mm/swap: remove redundant swap device reference in alloc/free
-fd4f2493496b97ec47dcae5c98837b649bc9552d mm/swap, PM: hibernate: atomically replace hibernation pin
-da0a06486ac3ce47c6ffb603d2fd332229d41592 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============5673539795619889599==--
+--===============3943986395974657368==--
