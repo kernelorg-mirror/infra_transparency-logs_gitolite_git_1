@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 26 May 2026 20:19:56 -0000
-Message-Id: <177982679625.366721.16246370604039339931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 26 May 2026 20:19:57 -0000
+Message-Id: <177982679770.366806.5491835179984957739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/io_uring-bpf-poll-gate
-    old: d963a8bb5eb56c9d2cdc5571ef329dde1d674459
-    new: 305c4f9ac61be0b4e9d93c57bfe1ccb126a468ec
+  - ref: refs/heads/nfsd-testing
+    old: 2107bcece3ef4f774e7381e1084499767b89b6fe
+    new: b69fc3eaa867d0caa904634ea7a1b4569411b163
     log: |
-         3c6bbf2b0ee867d6774f05cf33d0108b64370cc5 io_uring: wire BPF poll_gate to recv operations
-         ab3fdb7c3381c7787db1fd7f05ba13dd3b84a8d9 io_uring/bpf-ops: expose bpf_io_uring_tcp_inq kfunc
-         305c4f9ac61be0b4e9d93c57bfe1ccb126a468ec io_uring/bpf-ops: expose bpf_io_uring_sock_peek kfunc
+         a6a67f4010de2424ae856d5e857079fe89f1178d SUNRPC: always drain cache_cleaner before destroying a cache_detail
+         4a54d9c032a901c9306f5b3be8bab36a4edbf053 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         b69fc3eaa867d0caa904634ea7a1b4569411b163 siw: Enable try_gso
          
