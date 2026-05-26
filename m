@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5427662093023170529=="
+Content-Type: multipart/mixed; boundary="===============0126703595327600641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 26 May 2026 20:57:23 -0000
-Message-Id: <177982904301.399464.16647029566455951095@gitolite.kernel.org>
+Date: Tue, 26 May 2026 20:57:30 -0000
+Message-Id: <177982905061.399685.2876003985293909777@gitolite.kernel.org>
 
---===============5427662093023170529==
+--===============0126703595327600641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/200GbE
     old: dc416e32baaeb620b9809e9e25fc7b30889686e9
     new: c66d7c3c1f173cf73a2a2f8302666d86beafff22
     log: revlist-dc416e32baae-c66d7c3c1f17.txt
 
---===============5427662093023170529==
+--===============0126703595327600641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -596,4 +596,4 @@ fb7f511d62692661846c47f199e0afe25c2982db ethtool: module: avoid leaking a netdev
 d5551f4c1800dc714cec86647bdd651ae0de923e ethtool: cmis: validate fw->size against start_cmd_payload_size
 c66d7c3c1f173cf73a2a2f8302666d86beafff22 Merge branch 'ethtool-module-fix-a-handful-of-small-bugs'
 
---===============5427662093023170529==--
+--===============0126703595327600641==--
