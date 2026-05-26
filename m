@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8893454019964610398=="
+Content-Type: multipart/mixed; boundary="===============4455961880203894715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Tue, 26 May 2026 16:55:09 -0000
-Message-Id: <177981450972.214114.7296245236768311580@gitolite.kernel.org>
+Date: Tue, 26 May 2026 16:55:36 -0000
+Message-Id: <177981453628.214793.8549819451622986735@gitolite.kernel.org>
 
---===============8893454019964610398==
+--===============4455961880203894715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/heads/timers/ptp/timekeeping
+  - ref: refs/tags/timekeeping-ptp-extend-v1
     old: b1a5b05b1da512260cdb14418c407c42d4bf2e74
     new: 64d30af81f4fe76642ae10d36fd4b3567e5b33c6
     log: revlist-b1a5b05b1da5-64d30af81f4f.txt
 
---===============8893454019964610398==
+--===============4455961880203894715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ db38df9eb9db0f9a15f248eac8250adc30cd3c4e ALSA: hda/common: Use system_device_cro
 8ac438449ebcfb4cfad3dff1e07dc4d21b4dbebd timekeeping: Add support for AUX clock cross timestamping
 64d30af81f4fe76642ae10d36fd4b3567e5b33c6 ptp: Switch to ktime_get_snapshot_id() for pre/post timestamps
 
---===============8893454019964610398==--
+--===============4455961880203894715==--
