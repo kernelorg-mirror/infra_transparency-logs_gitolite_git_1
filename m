@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 26 May 2026 08:37:00 -0000
-Message-Id: <177978462037.4020593.1424659830774577728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 26 May 2026 08:46:09 -0000
+Message-Id: <177978516956.4027608.844332779885435111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/testing
-    old: dfa0d7b0ff1eb6b2c416b8fdb9b4f2cefba57a40
-    new: c16f74dc1d75d0e2e7670076d5375deda110ebeb
+  - ref: refs/heads/for-next
+    old: 12e53eb041a53db8e53067722c2c08d4b33eaadc
+    new: 11883fdc73a1c123f795be3cc0f512aee0c49d1e
     log: |
-         7f83d174073234839aea176f265e517e0d50a1d2 xfrm: iptfs: reset runtime state when cloning SAs
-         3e52417318473782012b236d0325bf7d2266a597 xfrm: move policy_bydst RCU sync from per-netns .exit to .pre_exit
-         c16f74dc1d75d0e2e7670076d5375deda110ebeb xfrm: input: hold netns during deferred transport reinjection
+         9897c586b09f79ebcf2e67a888743c046b20d254 arm64: dts: mediatek: add LED and key support on Xiaomi AX3000T
+         11883fdc73a1c123f795be3cc0f512aee0c49d1e Merge branch 'v7.1-next/dts64' into for-next
          
