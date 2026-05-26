@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8354773470544814709=="
+Content-Type: multipart/mixed; boundary="===============2925558809731957990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 26 May 2026 23:06:38 -0000
-Message-Id: <177983679819.497071.3038841145357338367@gitolite.kernel.org>
+Date: Tue, 26 May 2026 23:06:42 -0000
+Message-Id: <177983680261.497306.17908505405260160112@gitolite.kernel.org>
 
---===============8354773470544814709==
+--===============2925558809731957990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 30792d12842901f5276f466a960962d5bfa15cc8
-    new: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
-    log: revlist-30792d128429-e7ae89a0c97c.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 027fd160e1013d03a3ac0cdb15c629e47c3e80e6
+    new: 5b9820ce3858cc24547517efbb548b4089341f0a
+    log: revlist-027fd160e101-5b9820ce3858.txt
 
---===============8354773470544814709==
+--===============2925558809731957990==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-30792d128429-e7ae89a0c97c.txt
+Content-Disposition: attachment; filename=revlist-027fd160e101-5b9820ce3858.txt
 
-1fcf4149418e7a8f8253dd74059d56340795503f Merge tag 'riscv-dt-fixes-for-v7.1-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
 47773fa85e470e9896a22a99ccd5b5930d469680 ntfs: use base mft_no when looking up base inode for extent record
 49c12bee2bb2604e82a997521175b85ca5421685 ntfs: redirty folio when ntfs_write_mft_block() runs out of memory
 618c991cdf031925b09cbb1117f613abdb068680 ntfs: capture mft mirror sync errors in ntfs_write_mft_block()
@@ -1050,5 +1049,6 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 3526d7462355c4df269d4a87eed53dbd48a1df02 Merge tag 'x86-urgent-2026-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
+5b9820ce3858cc24547517efbb548b4089341f0a Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============8354773470544814709==--
+--===============2925558809731957990==--
