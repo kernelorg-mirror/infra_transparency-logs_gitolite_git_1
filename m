@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 26 May 2026 06:59:06 -0000
-Message-Id: <177977874605.3948588.95364263132356227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 26 May 2026 07:37:29 -0000
+Message-Id: <177978104974.3976065.8845432720043061223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/b4/sysfs-const-attr-kobj-attr-prep
-    old: 9a65e23a4242d82534b03d6ddfda720e9fb3bf76
-    new: 9e2160493e9eb5b2b2b7f35d01309d8c89df0a0b
+  - ref: refs/heads/dl-server-bw-v2
+    old: 18885d9e76d4e9c6ad59cb9981192d1beacf77b4
+    new: ef62188df9d91442ee7bd2e280874880d2f1610e
     log: |
-         a104304744eb20a9ae6e4aebf9b3b43db9ebda2e enable
-         9e2160493e9eb5b2b2b7f35d01309d8c89df0a0b sample
+         d69afac705c1a54be8c4500f12208f2f55f6eb6a sched_ext: Auto-register/unregister dl_server reservations
+         ef62188df9d91442ee7bd2e280874880d2f1610e selftests/sched_ext: Validate dl_server attach/detach in total_bw test
          
