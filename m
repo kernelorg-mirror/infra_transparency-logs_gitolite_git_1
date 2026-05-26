@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3904881821257872215=="
+Content-Type: multipart/mixed; boundary="===============5083884733750855412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 26 May 2026 17:10:49 -0000
-Message-Id: <177981544926.226762.16557212879054792252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 26 May 2026 17:10:52 -0000
+Message-Id: <177981545243.226872.10046360982449696320@gitolite.kernel.org>
 
---===============3904881821257872215==
+--===============5083884733750855412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/regulator-7.1
     old: f9b2d3b703d13df50c630997dfdc25648e96db0d
     new: 29d87434cb91b7689de2917830ca82acfd2770f5
     log: revlist-f9b2d3b703d1-29d87434cb91.txt
 
---===============3904881821257872215==
+--===============5083884733750855412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1779815447 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1779815447-f87af3174e65286453c5fce099151d5db30103e9
+pusher C3F436CA30F5D8EB 1779815450 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1779815450-2f540507b7b5e1d5c0c6a6ceeb44c38c01bf0ae7
 
-f9b2d3b703d13df50c630997dfdc25648e96db0d 29d87434cb91b7689de2917830ca82acfd2770f5 refs/heads/for-7.1
+f9b2d3b703d13df50c630997dfdc25648e96db0d 29d87434cb91b7689de2917830ca82acfd2770f5 refs/heads/regulator-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoV1BcACgkQJNaLcl1U
-h9AKXgf/YtzdPo30Q9UsipkleCzAHLzdfpYcVs688u+EZ7/OQGv34WVxgEM1adKf
-objHYYiIThlCd7I7NtHhkh06ZwGi5hWirJ2MHKofZJlyUXlcC4bDka7F2P+sU4qn
-kTs7IGfP/ri38IadpO0yYAYDNyJ9iN5OOKY6UaHLksWwUtFbksBmubzwQ8zV/bQZ
-TryypCcNmvxu7T5iT5CTBtoEHpogMG9hKqhOsjrS0lGgAAEvD8hG7JotS//MY9f3
-ZbVT4w6iBNQJJR35wZ5YTXRvjLNv2SBcSZgfwDjo6lQUYvZSVeWvL2XntbU3HhKv
-V5Pc3IsC1tmlj9qhTbbEcjSIbyNu7Q==
-=Yz6X
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoV1BoACgkQJNaLcl1U
+h9DumQf/RGSOoArhbyvkcSyj+Z7OIqDLgWHENSmlUTOFJYPP88TgntpBRnNGm0BI
+1++bfmr2kFc3SfjuYP68jNquBiz01vmsa6+uLXKQO9b0dOnTZo36DdPS7gizMiof
+o/vzErvgR52Zvn68foBgKGAH18C/ayNXGlYibadWPXQFiOASyQaMZbkSroEVEih0
+Op1oWOrXdnaTo368MFMzQ/Mhdn3hcliqwX/nPFRWODRZyTeSzhHs4Q5f0OaDmBhs
+sNx3+aeBPT7Sx47ANyFoxEOPhPotuIl/0ZBZZwnyQ4EvJ6f6AgJPwpvk88Me0FxT
+VNHuJ7vQDw7ubpQRehhxSRuPnMStXQ==
+=G3fC
 -----END PGP SIGNATURE-----
 
---===============3904881821257872215==
+--===============5083884733750855412==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1076,4 +1076,4 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 29d87434cb91b7689de2917830ca82acfd2770f5 regulator: mt6363: select CONFIG_IRQ_DOMAIN
 
---===============3904881821257872215==--
+--===============5083884733750855412==--
