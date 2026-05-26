@@ -1,50 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6564333873109282309=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 26 May 2026 16:41:05 -0000
-Message-Id: <177981366522.202132.6232384887981070534@gitolite.kernel.org>
-
---===============6564333873109282309==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 26 May 2026 16:42:12 -0000
+Message-Id: <177981373219.202740.9161617091326625536@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: b0ffc4b644de2442ad7826720b87a345815704ef
-    new: 4fa26292e8dcfd6f466cb7d62067b037b006190e
+  - ref: refs/heads/for-7.2/block
+    old: 6b24446bee489e90f7ea843fbc0473393c73cbf9
+    new: 363b4ebe8ab848924d3908d1cfb021ddd2da7ce6
     log: |
-         4fa26292e8dcfd6f466cb7d62067b037b006190e ASoC: cs35l56-shared-test: Fix possible null pointer dereference
+         363b4ebe8ab848924d3908d1cfb021ddd2da7ce6 block: remove blkdev_write_begin() and blkdev_write_end()
          
-
---===============6564333873109282309==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1779813663 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1779813662-3f6bcbc9cb16176654d574bfde301ba94a8860a5
-
-b0ffc4b644de2442ad7826720b87a345815704ef 4fa26292e8dcfd6f466cb7d62067b037b006190e refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoVzR8ACgkQJNaLcl1U
-h9B93gf/WWK1+klLtwxVriN97TCjS1BtEp/wXTqcAXkFUwEeRQ22/JIwljiOR+6o
-vL9m53e0g1wBSiY5REaQxT5NXLcMJ+UBFk3zx4MGWJGqbvM/2wn473jcpJHQgrSQ
-Sl9JskjzhKC2GX5/+XWDdHm+xK3u61Bnluqy47YYDeC8OxnCgQfkc3obUGdditHX
-SEw+AEVJkMwYIH63FWt8K9DMWfir6cEI8GGh4sKW95gvzTbWP0p9MLaRcSZI4hUn
-zLBsoc2KN/YwdhrfB7d4SwPNBEigFwml3Sd04kKJ3rZzLgAQzVY3K2loUcwPDoE7
-lLwFrzeszVJfePUvDWtdONGqI4XUVA==
-=j9EL
------END PGP SIGNATURE-----
-
---===============6564333873109282309==--
+  - ref: refs/heads/for-7.2/io_uring
+    old: 67ee1f021a9b74ef289934be5e7a474e20031add
+    new: 6935f631465f5f60205978a59228a26db4723d51
+    log: |
+         74fc9a9b50d43ed473ea2449682000da43e17175 io_uring/zcrx: make scrubbing more reliable
+         e57b44039bc54bbdf3d1511021458356858a4a12 io_uring/zcrx: poison pointers on unregistration
+         98f07b0f74b65284ebe0d021505b461d4be6bf07 io_uring/zcrx: remove extra ifq close
+         84f7d0931c42cb0690615a431738cf6913d265f2 io_uring/zcrx: reorder fd allocation in zcrx_export()
+         8503f2de11f7fe78a7fdb87746255c8d02897279 io_uring/zcrx: add ctx pointer to zcrx
+         0719e10d826aa0ba4840917d0261986eaead9a51 io_uring/zcrx: notify user when out of buffers
+         255180f7034f48aa5b0c8df70228307394bddbb9 io_uring/zcrx: notify user on frag copy fallback
+         6935f631465f5f60205978a59228a26db4723d51 io_uring/zcrx: add shared-memory notification statistics
+         
+  - ref: refs/heads/for-next
+    old: 06db435c3f2bf8fb9d5670cc3305c8589b5eff01
+    new: ec29164a6c1c2971efff67c8118044b55e9e8f3f
+    log: |
+         74fc9a9b50d43ed473ea2449682000da43e17175 io_uring/zcrx: make scrubbing more reliable
+         e57b44039bc54bbdf3d1511021458356858a4a12 io_uring/zcrx: poison pointers on unregistration
+         98f07b0f74b65284ebe0d021505b461d4be6bf07 io_uring/zcrx: remove extra ifq close
+         84f7d0931c42cb0690615a431738cf6913d265f2 io_uring/zcrx: reorder fd allocation in zcrx_export()
+         8503f2de11f7fe78a7fdb87746255c8d02897279 io_uring/zcrx: add ctx pointer to zcrx
+         0719e10d826aa0ba4840917d0261986eaead9a51 io_uring/zcrx: notify user when out of buffers
+         255180f7034f48aa5b0c8df70228307394bddbb9 io_uring/zcrx: notify user on frag copy fallback
+         6935f631465f5f60205978a59228a26db4723d51 io_uring/zcrx: add shared-memory notification statistics
+         ec29164a6c1c2971efff67c8118044b55e9e8f3f Merge branch 'for-7.2/io_uring' into for-next
+         
