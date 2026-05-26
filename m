@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 26 May 2026 13:12:32 -0000
-Message-Id: <177980115206.33547.8710325833831964613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 26 May 2026 13:13:49 -0000
+Message-Id: <177980122914.34238.2798761908835165195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/testing
-    old: 0e7dbde323808f28c5220295bfc1c5bc6f08c3f4
-    new: 9b1549ccb4389bd9223080b9b6d97c3eaf8de692
+  - ref: refs/heads/master
+    old: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
+    new: e8c2f9fdadee7cbc75134dc463c1e0d856d6e5c7
     log: |
-         76e6b7226dc3ebaab63ea05936290a5f3cf37172 iio: tcs3472: power down chip on probe failure
-         e0860656e54df1744a3705f942563bd8817f10db iio: tcs3472: sort headers alphabetically
-         b8d03623c6ba66c432136b3a757b87a353e9bdd1 iio: tcs3472: convert remaining locking to guard(mutex)
-         03a2c26387bd1f1fb0d05fa8a11d46ffec0750d1 iio: tcs3472: use ! instead of explicit NULL check
-         c21940258af8435ec9764eaecef349c005b65d8e iio: tcs3472: use devm for resource management
-         1b42b23c18a85873f1b7f8c50c2c9c2006da7c38 iio: tcs3472: use local struct device * for remaining cases
-         9b1549ccb4389bd9223080b9b6d97c3eaf8de692 iio: tcs3472: move standalone return to default case
+         fb7415f2ab0e3c818254cbf5fb0afda71bef4333 dm vdo: use GFP_NOIO for blkdev_issue_zeroout on format path
+         f42d01aadcedd7bbf4f9a466cabe25c1781dedad tools/bootconfig: Fix buf leaks in apply_xbc
+         974820a59efde7c1a7e1260bcfe9bb81f833cc9f hpfs: fix a crash if hpfs_map_dnode_bitmap fails
+         c112662a0e734129985cf3386250cfa59f6b7aa0 Merge tag 'bootconfig-fixes-v7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         13e4d2579eb34e9731bcc5ca73205708355e5d99 Merge tag 'for-7.1/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+         e8c2f9fdadee7cbc75134dc463c1e0d856d6e5c7 Merge tag 'for-7.1/hpfs-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
          
