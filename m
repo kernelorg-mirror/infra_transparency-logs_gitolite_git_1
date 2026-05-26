@@ -1,26 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 26 May 2026 17:30:58 -0000
-Message-Id: <177981665827.242136.9543478185245747406@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2025751677773687739=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 26 May 2026 17:32:23 -0000
+Message-Id: <177981674356.242814.10246278999507297956@gitolite.kernel.org>
+
+--===============2025751677773687739==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/arm64-remap-linear-data-alias-v6
-    old: e2dae06842a483ce319d331740b0f11106828cc8
-    new: 71102e4863fceab203f60dcdae3a4881eb2dad08
+  - ref: refs/heads/review-ilpo-fixes
+    old: 654ddf855bebd8d45a6e707f5dc2344921f5e0cf
+    new: e150894beba614ed56d372b99aef224d06941aa6
     log: |
-         8f7529315113a5b1f4bb7f5a8000eda2e839bc99 arm64: Move fixmap and kasan page tables to end of kernel image
-         ce6299113a9c7450296fe9daba6913a26a5acc77 arm64: mm: Don't abuse memblock NOMAP to check for overlaps
-         3e8d1c821ffa4b24d0a735aa47787ffd643f8f8e arm64: mm: Map the kernel data/bss read-only in the linear map
-         9d48065526c34cb01c91daf549f867017635bedc powerpc/code-patching: Avoid r/w mapping of the zero page
-         46fabf1f365057994c0fef4486ff2bcf395d0702 sh: cast away constness from the zero page when flushing it from the cache
-         e16c2e2a031a929ae0db0900dea0354f2bff8e49 arm64: mm: Map the linear alias of text/rodata as tagged
-         4894980fa425037c216cd0302f0b4b541d0110e0 mm: Make empty_zero_page[] const
-         71102e4863fceab203f60dcdae3a4881eb2dad08 arm64: mm: Unmap kernel data/bss entirely from the linear map
+         51be655c307a3e6c8bce16f01c51393eea2d23c2 platform/x86: oxpec: add support for OneXPlayer Super X
+         6b2f633dbf134e5a9db44dc45c494ba829a7686e platform/x86/intel/tpmi: use cleanup helpers in mem_write()
+         4cc1969633992128fef05ba7d4911f753f6d0b58 platform/x86: hp-wmi: Add thermal support for board 8B2F
+         4c7f5762cc5baf2819e8868da6571fb40bfea969 platform/x86/intel/pmc: rate-limit LTR scale-factor warning
+         de648236278c7045c782b1d9dfb80539faf30fc9 platform/x86: hp-wmi: Add support for Omen 16-ap0xxx (8D26)
+         e150894beba614ed56d372b99aef224d06941aa6 platform/x86: dell-laptop: add Inspiron N5110 to touchpad LED quirk table
          
+
+--===============2025751677773687739==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1779816739 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1779816739-121ea8df6ea8bcd4c7435c8c36338c04662c6c84
+
+654ddf855bebd8d45a6e707f5dc2344921f5e0cf e150894beba614ed56d372b99aef224d06941aa6 refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCahXZJgAKCRBZrE9hU+XO
+MaFgAQC2U0iOGLXo2RJTU1/0NZ15sVogJPzuq3GPD7kYlWnhNQD/aeoWEaJLxrRE
+HM6WTxS1bNc0PRK0GPALn5hSQ/o5vgs=
+=tb5m
+-----END PGP SIGNATURE-----
+
+--===============2025751677773687739==--
