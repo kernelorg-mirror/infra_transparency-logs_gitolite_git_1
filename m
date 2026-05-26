@@ -1,41 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2998776452582717919=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 26 May 2026 23:01:26 -0000
-Message-Id: <177983648671.492848.2508547207264232609@gitolite.kernel.org>
-
---===============2998776452582717919==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Tue, 26 May 2026 23:03:16 -0000
+Message-Id: <177983659689.493520.9961077970271521580@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: d124ad10fc58fec9e0f548d228604b6e7345d6a6
-    new: 012ffdc39d932159d6631721bfa94f09fecbfc9d
-    log: revlist-d124ad10fc58-012ffdc39d93.txt
-
---===============2998776452582717919==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d124ad10fc58-012ffdc39d93.txt
-
-e4c4b837d65d6d3bba04d1d1ce20a0b68cfdff32 ASoC: qcom: audioreach: use cached shared memory module IID
-f3493007b7bbd15d31b5b58ab2a285dba881d90a ASoC: qcom: q6apm: return error code to consumers on failures
-47ce092cde64d784ad4707a833b84a707dacf19b ASoC: qcom: q6apm: remove shared memory IID helpers
-f08ce3bf4133e6eec029ecb7c47d48596e1a7c53 ASoC: qcom: audioreach: Add support for shared memory push/pull modules
-f257ed401cfc2519ad161b44992475672c4e2d22 ASoC: qcom: q6apm: add watermark event support
-0fd22bfd3af2c7fe8fde482f3731263f9d19c698 ASoC: qcom: q6apm-dai: add push-pull and watermark event support
-d2c0c06f9e4681bbe66dcae920ded0ced841f771 ASoC: qcom: qdsp6: add push/pull module support
-0eb827875fcbefaca858cc3b3e6c7069ed3e8910 ASoC: SDCA: Make CONFIG_SND_SOC_SDCA a user selectable symbol
-c73be330f4753a069e49fcf014324408ae7bb963 ASoC: codecs: Adjust indentation in CONFIG_SND_SOC_ES9356 definition
-51d82ef5ee4c6e7b43ab777ab3df6254ad0d9373 ASoC: es9356-sdca: Depend on CONFIG_SND_SOC_SDCA
-012ffdc39d932159d6631721bfa94f09fecbfc9d ASoC: Address es9356 build failures without CONFIG_SND_SOC_SDCA
-
---===============2998776452582717919==--
+  - ref: refs/heads/dev
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 84470b80b7b0ded9a6b071a211a028fe5fec7e44
+    log: |
+         8b226771014beab1292081151a99530886ce54b4 audit: use 'unsigned int' instead of 'unsigned'
+         888a0396e154524f4027f27da84bdbec9eb68916 audit: fix removal of dangling executable rules
+         84470b80b7b0ded9a6b071a211a028fe5fec7e44 audit: fix recursive locking deadlock in audit_dupe_exe()
+         
+  - ref: refs/heads/next
+    old: 5200f5f493f79f14bbdc349e402a40dfb32f23c8
+    new: 82bc8394b1aa74aedb9827da7730cfa6639716fd
+    log: |
+         8b226771014beab1292081151a99530886ce54b4 audit: use 'unsigned int' instead of 'unsigned'
+         888a0396e154524f4027f27da84bdbec9eb68916 audit: fix removal of dangling executable rules
+         84470b80b7b0ded9a6b071a211a028fe5fec7e44 audit: fix recursive locking deadlock in audit_dupe_exe()
+         82bc8394b1aa74aedb9827da7730cfa6639716fd Automated merge of 'dev' into 'next'
+         
