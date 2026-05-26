@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Tue, 26 May 2026 08:55:52 -0000
-Message-Id: <177978575235.4034679.14005689966295860930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 26 May 2026 08:56:22 -0000
+Message-Id: <177978578230.4035082.6596982111440297827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 83cdc93ca900e61b203e07198740668cb07a5f06
-    new: b1337df19598b27efd8f90023b071e0aae7933db
+  - ref: refs/heads/gpio/for-next
+    old: d01bf517cbbd5a4b0c16ba2d5107bda0e361b00c
+    new: b12e12ee4138e30d786eda02223e87044c989bb1
     log: |
-         b1337df19598b27efd8f90023b071e0aae7933db Bump version to v1.8.0
-         
-  - ref: refs/heads/master
-    old: 83cdc93ca900e61b203e07198740668cb07a5f06
-    new: b1337df19598b27efd8f90023b071e0aae7933db
-    log: |
-         b1337df19598b27efd8f90023b071e0aae7933db Bump version to v1.8.0
+         820017813b818a9b6411e481fcc98f5260b6e6c1 dt-bindings: gpio: meson-axg: Fix whitespace issue
+         b12e12ee4138e30d786eda02223e87044c989bb1 gpiolib: Mark gpio_devt, gpiolib_initialized and gpio_stub_drv as __ro_after_init
          
