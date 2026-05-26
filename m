@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 26 May 2026 14:52:29 -0000
-Message-Id: <177980714901.111415.3604529911957471561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Tue, 26 May 2026 14:54:58 -0000
+Message-Id: <177980729809.112620.1569281874361796020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/tags/qcom-arm64-fixes-for-7.1
-    old: 0000000000000000000000000000000000000000
-    new: 31456e7a11a14baace41384f6902b17f5cfa5e3f
+  - ref: refs/heads/for-next
+    old: 040d71ac647099f7bb5e480fcd74ba68abc3cb18
+    new: 2dcf16d41cc04472a4f9bc6e99d0ab26cfb1afb1
+    log: |
+         3634f6a86add4406afb46d428a4bb3c79828a34c fuse: re-lock request before replacing page cache folio
+         2dcf16d41cc04472a4f9bc6e99d0ab26cfb1afb1 fuse: re-lock request before returning from fuse_ref_folio()
+         
