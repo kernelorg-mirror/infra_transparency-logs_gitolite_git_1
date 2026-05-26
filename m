@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2844483032987893086=="
+Content-Type: multipart/mixed; boundary="===============9217494839544366349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 26 May 2026 21:19:09 -0000
-Message-Id: <177983034948.417063.14207058136861028989@gitolite.kernel.org>
+Date: Tue, 26 May 2026 21:19:12 -0000
+Message-Id: <177983035256.417176.1311284903723792497@gitolite.kernel.org>
 
---===============2844483032987893086==
+--===============9217494839544366349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bf53bf33206137c2337bd8aacf0ef4c348b97a36
     new: 18b9f739d3f292925ca7f67ad63f3a4c0bbfad3d
     log: revlist-bf53bf332061-18b9f739d3f2.txt
 
---===============2844483032987893086==
+--===============9217494839544366349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -803,4 +803,4 @@ c55a33014b52b8c0c2f2fdc99dd805b8fc913949 net: enetc: use MADDR_TYPE for MAC filt
 da1ab4ec5542e0bc314a911d9410a6094b302ce0 Merge branch 'net-enetc-prepare-for-enetc-v4-vf-support'
 18b9f739d3f292925ca7f67ad63f3a4c0bbfad3d s390/ism: Drop superfluous zeros in pci_device_id array
 
---===============2844483032987893086==--
+--===============9217494839544366349==--
