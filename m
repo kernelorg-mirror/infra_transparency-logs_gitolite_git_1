@@ -1,22 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 26 May 2026 15:51:51 -0000
-Message-Id: <177981071114.162182.14255928135196892578@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1785396354668276066=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 26 May 2026 15:53:45 -0000
+Message-Id: <177981082518.163060.14981496840307183924@gitolite.kernel.org>
+
+--===============1785396354668276066==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 54dacf6efe7196c1cd8ae4b5c691579d0510a8bd
-    new: 90de217305800ff32df4c0308e240925c8deb385
-    log: |
-         0590420c2f90de497d342c9a41a618f46f4d09ab remoteproc: Move resource table data structure to its own header
-         49abb5d6e1ac8169cdfc0c3aa4408e0d90ee5696 remoteproc: use rsc_table_for_each_entry() in rproc_handle_resources()
-         2e7a8ad7980dce462e557c9ce7f66e8e168ed5b8 remoteproc: imx_rproc: Use device node name as processor name
-         90de217305800ff32df4c0308e240925c8deb385 Merge branch 'rproc-next' into for-next
-         
+  - ref: refs/heads/master
+    old: e8c2f9fdadee7cbc75134dc463c1e0d856d6e5c7
+    new: d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8
+    log: revlist-e8c2f9fdadee-d60ec36cab33.txt
+
+--===============1785396354668276066==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e8c2f9fdadee-d60ec36cab33.txt
+
+83ec6eeb74a592e6568cb0723bac99fb8b3810b4 MAINTAINERS: .mailmap: update after GEHC spin-off
+83f9efcce93f8574be2279090ee2aec58b86cda7 Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare"
+fa0b9b2b7ae3539908d69c2b9ac0d144d9bc5139 ipc: limit next_id allocation to the valid ID range
+3b041514cb6eae45869b020f743c14d983363222 memfd: deny writeable mappings when implying SEAL_WRITE
+bf62f69574b19720ae5fbbbcdf24a0c4e3e05e43 zram: fix use-after-free in zram_writeback_endio
+3f8968e9cbf95d5d87d32218906cab0b9b9eddbe mm/rmap: initialize nr_pages to 1 at loop start in try_to_unmap_one
+441f92f7d386b85bad16de49db95a307cba048a2 mm/damon/sysfs-schemes: delete tried region in regions_rmdirs()
+e16f17a9c5af50221184d1ef4be4056bf3c4209e mm: memcontrol: propagate NMI slab stats to memcg vmstats
+09e7827e785729f391c8d46dc71becce70d296ab kernel/fork: validate exit_signal in kernel_clone()
+2c6f81d58741349298f51ff697d988cb42881453 mm/migrate_device: fix pgtable leak in migrate_vma_insert_huge_pmd_page
+f0af98ff6b3077278974a460becbd05bbc710e60 MAINTAINERS, mailmap: change email for Eugen Hristev
+04aa71da5f35aacdc9ae9cb5150947daa624f641 mm/vmalloc: do not trigger BUG() on BH disabled context
+54cf41c969da6637cce790b7400da1451609db9b Revert "mm: introduce a new page type for page pool in page type"
+d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8 Merge tag 'mm-hotfixes-stable-2026-05-25-16-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+
+--===============1785396354668276066==--
