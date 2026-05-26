@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2290472173196015152=="
+Content-Type: multipart/mixed; boundary="===============7022836817992025659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 26 May 2026 13:46:00 -0000
-Message-Id: <177980316025.62149.6142557426000728168@gitolite.kernel.org>
+Date: Tue, 26 May 2026 13:46:12 -0000
+Message-Id: <177980317228.62438.13839164589815448759@gitolite.kernel.org>
 
---===============2290472173196015152==
+--===============7022836817992025659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
+  - ref: refs/heads/master
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
     log: revlist-254f49634ee1-e7ae89a0c97c.txt
 
---===============2290472173196015152==
+--===============7022836817992025659==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
 
---===============2290472173196015152==--
+--===============7022836817992025659==--
