@@ -1,42 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============8266699750751568309=="
+Content-Type: multipart/mixed; boundary="===============3698467924749775297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 27 May 2026 20:39:53 -0000
-Message-Id: <177991439342.1477584.16445960596459532081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 27 May 2026 20:45:57 -0000
+Message-Id: <177991475730.1483798.5274874284314553702@gitolite.kernel.org>
 
---===============8266699750751568309==
+--===============3698467924749775297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 0a39e3eccf85a94433dea4217b360d7adc84fecf
-    new: a92f90568cc9eec665f47040445290d4b18a7bb5
-    log: revlist-0a39e3eccf85-a92f90568cc9.txt
+  - ref: refs/heads/topic/dd-lifetimes
+    old: 76ef84e8cd0800e90933686e11b1ac22bdbc0937
+    new: d18f3646184fc805d213fc049fc3b5d9fb9a6a27
+    log: revlist-76ef84e8cd08-d18f3646184f.txt
 
---===============8266699750751568309==
+--===============3698467924749775297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a39e3eccf85-a92f90568cc9.txt
+Content-Disposition: attachment; filename=revlist-76ef84e8cd08-d18f3646184f.txt
 
-1b75eb35f32ea8df92c18db9805c0b527e52a51e Bluetooth: hci_sync: Add support for HCI_LE_Set_Host_Feature [v2]
-3aaf0066caba19096c78f5f340ff1e9e7d25760f Bluetooth: 6lowpan: check skb_clone() return value in send_mcast_pkt()
-e0b8ca0f9f75a3112566a9eb9477e5fc60f6a3e7 Bluetooth: btusb: Add USB ID 2c4e:0128 for Mercusys MA60XNB
-ff4b897195fa093b4be2b71d44519d30379c0644 Bluetooth: hci_sync: fix UAF in hci_le_create_cis_sync
-34c27938d3dc0d93975aaba0c31a6b61206feb78 Bluetooth: hci_qca: Use 100 ms SSR delay for rampatch and NVM loading
-4fe5ea11ac728b12b5a139742ed9f561ccd2707e Bluetooth: l2cap: clear chan->ident on ECRED reconfiguration success
-1403053c428f6ef054b0bfb0f62d0cb578f93b4d Bluetooth: L2CAP: Fix possible crash on l2cap_ecred_conn_rsp
-7e3545cc3d1abcc4669145369f0208c9352d80a8 Bluetooth: ISO: fix UAF in iso_recv_frame
-7978ae58aafb7d9e3993a14557380436a7afa60c Bluetooth: ISO: serialize iso_sock_clear_timer with socket lock
-54f93846b7a8189d57324d34643e8489c957baa1 Bluetooth: hci_core: Rework hci_dev_do_reset() to use hci_sync functions
-db6e813f578907b960c218c0e428db73620499a7 Bluetooth: hci_sync: Set HCI_CMD_DRAIN_WORKQUEUE during device close
-a92f90568cc9eec665f47040445290d4b18a7bb5 Bluetooth: hci_sync: Reset device counters in hci_dev_close_sync()
+e566a9e17f3774c962b6d2522750f227f027edc6 rust: pci: use 'static lifetime for PCI BAR resource names
+e9df918d61e08f4281c3bcd42486f1505f396b1d rust: alloc: remove `'static` bound on `ForeignOwnable`
+c8a43666bade4683640dc835f92cd456d29cee55 rust: driver: move 'static bounds to constructor
+7fdffdda630ee61ae0e09ef8f1ace52bbf70e2b0 rust: driver: decouple driver private data from driver type
+be31fcf5af751815457102575b816a2bd31b4562 rust: driver core: drop drvdata before devres release
+0b9a29c3a4e2a1f0d0b73ad4c4a4175212bacf21 rust: pci: implement Sync for Device<Bound>
+a89111c00b68ff78cae7981a67601571e365d13b rust: platform: implement Sync for Device<Bound>
+5bbcefe8db74fe07681a9ded7c13362e3eaae54a rust: auxiliary: implement Sync for Device<Bound>
+3bb1655192aeed68b761891eabdc97d9f2f7fc38 rust: usb: implement Sync for Device<Bound>
+de12e48a1be3e9edc0f8bc6e37bad8f7b6f32d54 rust: device: implement Sync for Device<Bound>
+24799831d631239ff21ea1bf7feee832df48b81f rust: device: make Core and CoreInternal lifetime-parameterized
+16c2b8fdab7c0808ff36430b2f49569029a8f484 rust: pci: make Driver trait lifetime-parameterized
+81fdc788144348f295cfaa4b1e1edf6c74441c15 rust: platform: make Driver trait lifetime-parameterized
+46f651d88662ef931555cd135f09382af206295a rust: auxiliary: make Driver trait lifetime-parameterized
+a3f09f8e47c4262510c979b384d6f85d376d91f5 rust: usb: make Driver trait lifetime-parameterized
+71e6b6a80b5158323be56e0a776e9fa3cc77d061 rust: i2c: make Driver trait lifetime-parameterized
+d31a349a7fd88c4cc7ba85bce6491c398408997a rust: driver: update module documentation for GAT-based Data type
+8ea0b6d5bef5e4f4637964c3b2cf732d9bf4f408 rust: pci: make Bar lifetime-parameterized
+89f55d04c6028fa15800a4887faf51bdeebfa431 rust: io: make IoMem and ExclusiveIoMem lifetime-parameterized
+e397d405c4c6117b4eeeeecb8170c17c604ee6cc samples: rust: rust_driver_pci: use HRT lifetime for Bar
+bb1cf43f2fa85beba82a0d9bbea21013cf94d7a0 gpu: nova-core: separate driver type from driver data
+e189bdb687a56bcf389798f1d3a2f261fff2ef54 rust: types: add `ForLt` trait for higher-ranked lifetime support
+4555291ddae9abe2c40a7eae192b1976b07a1fad rust: auxiliary: generalize Registration over ForLt
+d18f3646184fc805d213fc049fc3b5d9fb9a6a27 samples: rust: rust_driver_auxiliary: showcase lifetime-bound registration data
 
---===============8266699750751568309==--
+--===============3698467924749775297==--
