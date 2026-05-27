@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 27 May 2026 00:26:20 -0000
-Message-Id: <177984158030.558749.676153305834347233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 27 May 2026 00:29:28 -0000
+Message-Id: <177984176820.559957.6981202658159384945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 713faccf703a91bba15071500c6cac0646eb6d93
-    new: 0d0ebe687e11cfd37e3a2ff6e0ca29570c14728a
+  - ref: refs/heads/main
+    old: a1940775c5e465e931372b3e442d89c0b89d9809
+    new: 29fb4a26416d851333be909fc313db9147b7099c
     log: |
-         ae053a595c6a043e59465f8e95c2036222a109d8 Bibliography update
-         0d0ebe687e11cfd37e3a2ff6e0ca29570c14728a defer/rcuapi.tex: Add "RCU in Userspace Applications?"
+         0b13c6a618d09b20dbb1a33bc354764cbac6f2bd llc: Add SPDX id lines to some llc source files
+         29fb4a26416d851333be909fc313db9147b7099c llc: Add SPDX id lines to llc header files
          
