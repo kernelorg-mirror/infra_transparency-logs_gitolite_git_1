@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 27 May 2026 18:22:23 -0000
-Message-Id: <177990614322.1379717.10001203682371288289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Wed, 27 May 2026 18:23:58 -0000
+Message-Id: <177990623802.1380347.13243794326788290364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/for-7.2
-    old: abdc2516f100d8f9e637a49e4fdfd2d09a318680
-    new: 6bf8973ddeeec0ead87b0dfe9a3ae6072432e334
+    old: 1503043fd75e29ad49c7d506232e272f6951d07d
+    new: 611583a76ea97991b0f65ec1ff099eac7fe0bae4
     log: |
-         6bf8973ddeeec0ead87b0dfe9a3ae6072432e334 sched_ext: idle: Fix errno loss in scx_idle_init()
+         611583a76ea97991b0f65ec1ff099eac7fe0bae4 workqueue: drop spurious '*' from print_worker_info() fn declaration
          
   - ref: refs/heads/for-next
-    old: cecd7a03b9d2eeb615900cc591d5e76006159068
-    new: c66b0bfeb12df10c1ccf368bba94615f5e1f892d
+    old: 2ccd533ef91537db4a9c38bf5b45242e987b8089
+    new: b41190945f1ff372f1ff5238fad758bd60c32f49
     log: |
-         6bf8973ddeeec0ead87b0dfe9a3ae6072432e334 sched_ext: idle: Fix errno loss in scx_idle_init()
-         c66b0bfeb12df10c1ccf368bba94615f5e1f892d Merge branch 'for-7.2' into for-next
+         611583a76ea97991b0f65ec1ff099eac7fe0bae4 workqueue: drop spurious '*' from print_worker_info() fn declaration
+         b41190945f1ff372f1ff5238fad758bd60c32f49 Merge branch 'for-7.2' into for-next
          
