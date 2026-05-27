@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1090958871233225013=="
+Content-Type: multipart/mixed; boundary="===============6100553511800798133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 May 2026 01:25:33 -0000
-Message-Id: <177984513351.612648.10716938376831966236@gitolite.kernel.org>
+Date: Wed, 27 May 2026 01:25:59 -0000
+Message-Id: <177984515948.613020.10976576010789152236@gitolite.kernel.org>
 
---===============1090958871233225013==
+--===============6100553511800798133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 1695ee4f378f0c6ab751bd0d7fa72814de858001
-    new: b97fa5945a5a8ca4423fad6985004c6860d7ba08
+  - ref: refs/heads/7.1/scsi-fixes
+    old: b71cb088b2e3427924a470fc43e7aedb8a40d2e3
+    new: 85db7391310b1304d2dc8ae3b0b12105a9567147
     log: |
          7205b58702273baf21d6ba7992e6ba15852325f7 scsi: core: Run queues for all non-SDEV_DEL devices from scsi_run_host_queues
          adda8a44e1e43aceba058839f56fa1c599f6f99b scsi: devinfo: Add BLIST_NO_RSOC for Promise VTrak E310f
@@ -31,33 +31,33 @@ changes:
          85db7391310b1304d2dc8ae3b0b12105a9567147 scsi: target: iscsi: Validate CHAP_R length before base64 decode
          
 
---===============1090958871233225013==
+--===============6100553511800798133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1779845049 -0400
+pusher 75C5DE3D 1779845136 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1779845049-756743d1ac5118226590c4844a8f108f699bd076
+nonce 1779845136-76a21f303979e1d3fcbacc82c39037372a2cccfd
 
-1695ee4f378f0c6ab751bd0d7fa72814de858001 b97fa5945a5a8ca4423fad6985004c6860d7ba08 refs/tags/mkp-scsi-fixes
+b71cb088b2e3427924a470fc43e7aedb8a40d2e3 85db7391310b1304d2dc8ae3b0b12105a9567147 refs/heads/7.1/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoWR7kACgkQ7ulgGnXF
-3j2s4g/+L3BhkpehAViMbs7/Tb3k8VK2dfL6G22p/wIQ6oZ2gJXio7/ADfUzwhu9
-wSizoFeUoSvW5Ez+mYaIV2mGCx3C6F9RNBQOQQVZQxdnw6nBSnteMwZMPqmXRmhb
-4n0EwK0VcU5EpTglpBCxd+I4fMfEKHPswYBLkk00aM/Weyc40gAlH6CCmY4B3NcR
-KTOA0RYM2hOwARLmehb6ldYSy2JCjvH5VjEi/4IzIND8kzCdqDU8N2HA+wkhMJ49
-diTMfwKXPsEzyFcxMhCiaPJ/xH+f6bM4eHxTVIjUur9KsLHL9V/vxTZHMwWvBq+I
-C/mNe/JocbPY7Qudx+/a/LvELJ7o2HCtQKJTHBAPp4f4sOgmdIClTX8QcNWaT96x
-b/7fQ0oj4U98AdpPXG6I+ewrhXF/HuL7AoTyTnRH6bhvnWP3LfNUg1R1LF96H9DC
-9zG+Qhu2P1GlugI6SDPhOCrY7xYNSEjuZwE+jbjqBUkMos88OLzSkeE1axU7yyAd
-1nOIO/ILCevf4YRwHcTHfxt094pvZb9juZPlLztcsivv9jbMaGuTCxq+ismoNuA+
-+87l6sAiEBvO3SfNOeSlVZpJUpwV9NHYD4SxBkbdkWo+NWQrqGHD4/dctfB/UjjB
-NWJ4QZdrKiMm0/PeWFnJJcwLVAmBYQjXm8gG0x/M0iChVXmTLEk=
-=QuLL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoWSBAACgkQ7ulgGnXF
+3j09ZQ//Xc2O9bYuBG8RDWsVs48G4wmucs2OJPNFBQCgiBzz9m4qWFwozT38Eq4y
+N44ZhaH/sQWQbMv/MMQqvVn4u+e0N/HO+x+mNxl3NggVz0A6Ercee3SmGYkDB/Wh
+7hIE9TkKM9Peqi7bf6NuZE5uG5AN+Yi0Jv8uhT0KsFdU642wt7wTgjrPeh99V2CX
+UnAsbYCoJX5tX5bKPd6EbT4j08qdAWQLOXiYy9R/qa1/efuNGwVl/M4mmLTumLqi
+TctPTI8BaVeTWNXHR9EshSJHJB7aXU2ESv/T8ynayW5hc8sW6IsJFYEPzW8lATmY
+xgN1EsPFnooQFcr/p3aw8nNdeAfvnnnm0PFE0Q1XGkq3HbQeZLPKJG5i9cUdRpat
+waJ0TZpqd2E+89xNPgTm3PswGgjSETPEfZQbiHNhpdqQ/JPKKGhF7SZzhpHVblul
+9CW3P/tEVWe+rf2xrZbRMpEJGb6zF3OihiOPKo9OxdRs6MIC4Ehc/vII5jDXI0Qf
+FkSlV3vXnapYCGUFXOGcG+xeVEkk1m8SfSeHPR1D35WIk4MTHpkeVMLVL53sgIA6
+Z1Qt4FgNNnYcZcHB6mDA40j7pWrveY+XOWIPBg63NkLcOj4/H9cdhO50p2Dgr1Qv
+XDwBdEg/mSryUTqVWBDnWY+ZW83ILhnVFmrqRtr30h6LUPnt/MU=
+=Z2JB
 -----END PGP SIGNATURE-----
 
---===============1090958871233225013==--
+--===============6100553511800798133==--
