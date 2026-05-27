@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/linux-stk
-Date: Wed, 27 May 2026 09:13:44 -0000
-Message-Id: <177987322473.956410.10343236934089824750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 27 May 2026 09:14:56 -0000
+Message-Id: <177987329643.956929.7889472119334422094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/linux-stk
-user: klassert
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/ipsec-next-merge-esp46-v5
-    old: b41d244bdb9d477816c58796fbbcd4347952d4d4
-    new: 4370f72a4b5187cfbe8645dabf8099840e272f08
+  - ref: refs/heads/for-next/ffa/updates
+    old: 47f104ea800f34a08c06a16406331dee7419b974
+    new: 18706ea68fc4344049bf693b702cb311a7c27ca7
     log: |
-         4370f72a4b5187cfbe8645dabf8099840e272f08 esp: Consolidate esp4 and esp6
+         18706ea68fc4344049bf693b702cb311a7c27ca7 firmware: arm_ffa: Treat missing FF-A feature on a platform as a probe miss
          
