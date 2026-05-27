@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 27 May 2026 00:26:15 -0000
-Message-Id: <177984157583.558509.396306636787628449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 27 May 2026 00:26:20 -0000
+Message-Id: <177984158030.558749.676153305834347233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: 18b9f739d3f292925ca7f67ad63f3a4c0bbfad3d
-    new: a1940775c5e465e931372b3e442d89c0b89d9809
+  - ref: refs/heads/master
+    old: 713faccf703a91bba15071500c6cac0646eb6d93
+    new: 0d0ebe687e11cfd37e3a2ff6e0ca29570c14728a
     log: |
-         b82bfddc46e20d3ebb57c23bc8b8c831b7ca9f88 netlink: specs: add OVS packet family specification
-         b74e71b6a986650ea04d99ef443c6b3b18da52c5 tools: ynl: add unicast notification receive support
-         a1940775c5e465e931372b3e442d89c0b89d9809 Merge branch 'add-ovs-packet-family-ynl-spec-and-unicast-notification-support'
+         ae053a595c6a043e59465f8e95c2036222a109d8 Bibliography update
+         0d0ebe687e11cfd37e3a2ff6e0ca29570c14728a defer/rcuapi.tex: Add "RCU in Userspace Applications?"
          
