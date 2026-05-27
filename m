@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 27 May 2026 11:49:24 -0000
-Message-Id: <177988256474.1075746.18027161059925457361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/next-utils/tools
+Date: Wed, 27 May 2026 11:58:41 -0000
+Message-Id: <177988312171.1082724.4263239709761931596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/next-utils/tools
+user: broonie
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 91e4f8dc98af7e7be3e161a5327694442b4bab09
-    new: 91469e850d8b8514f0dcadcb02e32b4dc8f8fc02
+  - ref: refs/heads/main
+    old: 0e231c7933478657890619f2a4afc8c8f841459e
+    new: e4336cee9cf531bc5a0e6f302e8ac85d60cfe733
     log: |
-         c01576a7f5a0f4501cc9db060335b4b5ab281b36 ACPI: video: Do not initialise device_id_scheme directly
-         91469e850d8b8514f0dcadcb02e32b4dc8f8fc02 Merge branch 'acpi-video' into bleeding-edge
+         e4336cee9cf531bc5a0e6f302e8ac85d60cfe733 do_build: Use LLVM for KUnit
          
