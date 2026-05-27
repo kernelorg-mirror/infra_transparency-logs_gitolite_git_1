@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7846867790993078653=="
+Content-Type: multipart/mixed; boundary="===============1021071662402640303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 27 May 2026 11:23:06 -0000
-Message-Id: <177988098643.1054731.18120256344663457317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 27 May 2026 11:23:13 -0000
+Message-Id: <177988099398.1054944.15968995555912923489@gitolite.kernel.org>
 
---===============7846867790993078653==
+--===============1021071662402640303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/master
-    old: c369299895a591d96745d6492d4888259b004a9e
+    old: 8934827db5403eae57d4537114a9ff88b0a8460f
     new: eb3f4b7426cfd2b79d65b7d37155480b32259a11
-    log: revlist-c369299895a5-eb3f4b7426cf.txt
+    log: revlist-8934827db540-eb3f4b7426cf.txt
 
---===============7846867790993078653==
+--===============1021071662402640303==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c369299895a5-eb3f4b7426cf.txt
+Content-Disposition: attachment; filename=revlist-8934827db540-eb3f4b7426cf.txt
 
 496c0c4c53bbe1bad97e82cd12103df61a6e459d net: wan: fsl_ucc_hdlc: free tx_skbuff in uhdlc_memclean
 e5cf0260a7472b4f34a46c418c14bec272aac404 Merge tag 'perf-urgent-2026-05-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8 Merge tag 'mm-hotfixes-stable-2026-05-2
 e909cedf6800ef493063f18a089f3632817a8c2d Merge tag 'linux_kselftest-kunit-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 eb3f4b7426cfd2b79d65b7d37155480b32259a11 Merge tag 'nfsd-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 
---===============7846867790993078653==--
+--===============1021071662402640303==--
