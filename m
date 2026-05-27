@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 27 May 2026 08:18:09 -0000
-Message-Id: <177986988983.914530.1100003601420661194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Wed, 27 May 2026 08:19:39 -0000
+Message-Id: <177986997999.915287.1635001545528412077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/endpoint
-    old: 9985e6ea0c227de2027210dc45dfc33139203f72
-    new: d2942f5fc787c5e327ede76e0aea2cf41949e500
-    log: |
-         dfd986796037ce31af73d8be416d98944ec84551 PCI: endpoint: pci-epf-vntb: Add check to detect 'db_count' value of 0
-         d2942f5fc787c5e327ede76e0aea2cf41949e500 PCI: endpoint: pci-epf-ntb: Add check to detect 'db_count' value of 0
-         
+  - ref: refs/heads/counter-fixes
+    old: abeabb5fc6a7d4c347d494dfe5bc9449c4535226
+    new: f981309937538ca7425fbf65fe4c339c00e50eca
