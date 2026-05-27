@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Wed, 27 May 2026 01:02:38 -0000
-Message-Id: <177984375870.592480.15386681734461554383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 27 May 2026 01:03:42 -0000
+Message-Id: <177984382217.592990.9091952977913114389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/arena_slab
-    old: d6751376293091059ebb3649b8008cf49cf070d0
-    new: 70008257e5677caf5bc74898eb92ca7531eb795e
+  - ref: refs/heads/main
+    old: 2b9cceb061d63d64ec11186ebb4fc93a1dcb2c17
+    new: 10006ad04b74a81ba15f63e94f6310773b45b043
     log: |
-         70008257e5677caf5bc74898eb92ca7531eb795e bpf,slab: Add slub-backed allocator for bpf_arena
+         10006ad04b74a81ba15f63e94f6310773b45b043 net: dsa: netc: fix unmet Kconfig dependencies for NET_DSA_NETC_SWITCH
          
