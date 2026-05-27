@@ -1,30 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 27 May 2026 07:42:42 -0000
-Message-Id: <177986776283.885959.954681728205535507@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5909491894815655354=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 27 May 2026 07:55:47 -0000
+Message-Id: <177986854732.895948.11431036910669403012@gitolite.kernel.org>
+
+--===============5909491894815655354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/sched/flat
-    old: 407cc6e3e77191ee06e4f480c2db90f5ca8d9584
-    new: 23fba1dcdf9bcbe582e4f3a6cab60b1c3680c36f
-    log: |
-         25139c11693afed894db46d1a44e2b6e015b804d sched/fair: Fix RCU usage in NOHZ exit path on CPU offline
-         333f6f0e11acc20d036f94f94709874f76d0b430 sched/debug: Use char * instead of char (*)[]
-         77557002234546a4fb46ebf517d6cb1d515535a9 sched: Use {READ,WRITE}_ONCE() for preempt_dynamic_mode
-         e05777c44e53df8ab41d930510a384d65a34aafa sched/debug: Collapse subsequent CONFIG_SCHED_CLASS_EXT sections
-         b3a2dfa8b42e5b97dd144aa59374f4e045725cac sched/fair: Add newidle balance to pick_task_fair()
-         5ad278dd20bdf59714443894d7b3044471af97d0 sched: Remove sched_class::pick_next_task()
-         35f17b9654d7797708781b5a6ff4eaef36cad4e5 Merge branch 'tip/sched/urgent'
-         7d771a8205e12ed74cbb464329104537043ddf90 sched/fair: Add cgroup_mode switch
-         551e332f763287a8e462efb3b7599437aacc9b8c sched/fair: Add cgroup_mode: UP
-         c8fda897afd692c032bc8fefe960be24975d02d8 sched/fair: Add cgroup_mode: MAX
-         b892db75407a954d243566ebc6698c5674f17e1a sched/fair: Add cgroup_mode: CONCUR
-         23fba1dcdf9bcbe582e4f3a6cab60b1c3680c36f sched/eevdf: Move to a single runqueue
-         
+  - ref: refs/heads/mips-next
+    old: 8b498817d62c3e6c4ded294e8822159ea9a9a1f0
+    new: 6d96cc123ce33cd74e799c5434440393ed022bb7
+    log: revlist-8b498817d62c-6d96cc123ce3.txt
+
+--===============5909491894815655354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8b498817d62c-6d96cc123ce3.txt
+
+c62cdd3e919bdf84c37ec46810f87cdb1736e822 MIPS: ip22-gio: fix kfree() of static object
+7de9a1b45f5a95b58145653c525c8fb80292d9ab MIPS: ip22-gio: fix gio device memory leak
+b82930a4c5dbc5c4df39c0f93d968c239f2c6885 MIPS: ip22-gio: fix device reference leak in probe
+b8f0962b3f4e603d76e610484b0ef81c5e3325fe MIPS: ip22-gio: switch to dynamic root device
+4d9dd68708f814ddeef4015bc67f2b13d192d0be MIPS: ip22-gio: do not export device release function
+e2f48710459487341a70b5c433b87046da861ac9 MIPS: alchemy: platform: add missing include
+d9a316fd994ee3c43ea1dedf76d9f452da79fc2c MIPS: alchemy: provide visible function prototypes to board files
+054f568e0515fef01e3ee71728763aff7eb4623b MIPS: alchemy: mtx1: attach software nodes to GPIO chips
+dc26a10ef98f3dabd9dd9420c5d615891d3321cd MIPS: alchemy: db1000: use nodes attached to GPIO chips in properties
+28c4800dd5db722b27034fc192ba544e82217a14 MIPS: alchemy: gpr: switch to static device properties
+6d96cc123ce33cd74e799c5434440393ed022bb7 MIPS: alchemy: db1300: switch to static device properties
+
+--===============5909491894815655354==--
