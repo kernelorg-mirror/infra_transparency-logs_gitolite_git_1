@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 27 May 2026 19:02:27 -0000
-Message-Id: <177990854764.1409320.18236414229196135128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 27 May 2026 19:13:38 -0000
+Message-Id: <177990921893.1416774.13292613840194556650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.1-fixes
-    old: 22572dbcd3486e6c4dced877125bbf50e4e24edf
-    new: 645c3b7ef1a7eed9627664bd11d7a8eb4519ee15
+    old: 0c1a9dce208b4dc265925898e5da98934f7f9266
+    new: b565a73baec275a3f4b49c1300ab396daf4a748e
     log: |
-         0a68853de27b522bca2b9934127277185374a24f cgroup/cpuset: Use effective_xcpus in partcmd_update add/del mask calculation
-         645c3b7ef1a7eed9627664bd11d7a8eb4519ee15 cgroup/cpuset: Add test cases for sibling CPU exclusion on partition update
+         b565a73baec275a3f4b49c1300ab396daf4a748e tools/sched_ext: Fix scx_show_state per-scheduler state reads
          
   - ref: refs/heads/for-next
-    old: d7c9ab883c90f370eee13b865367a4890d52a050
-    new: 1463bc64cd54731028a30baa292a2b5f4d7fc478
+    old: c66b0bfeb12df10c1ccf368bba94615f5e1f892d
+    new: 1c24a913b8ebd4e7ef86e1259f3a77b06b4911b9
     log: |
-         0a68853de27b522bca2b9934127277185374a24f cgroup/cpuset: Use effective_xcpus in partcmd_update add/del mask calculation
-         645c3b7ef1a7eed9627664bd11d7a8eb4519ee15 cgroup/cpuset: Add test cases for sibling CPU exclusion on partition update
-         1463bc64cd54731028a30baa292a2b5f4d7fc478 Merge branch 'for-7.1-fixes' into for-next
+         b565a73baec275a3f4b49c1300ab396daf4a748e tools/sched_ext: Fix scx_show_state per-scheduler state reads
+         1c24a913b8ebd4e7ef86e1259f3a77b06b4911b9 Merge branch 'for-7.1-fixes' into for-next
          
