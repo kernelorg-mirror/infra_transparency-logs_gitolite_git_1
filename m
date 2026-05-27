@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6133538229568889128=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 27 May 2026 09:42:29 -0000
-Message-Id: <177987494998.980475.10588677761874892158@gitolite.kernel.org>
-
---===============6133538229568889128==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Wed, 27 May 2026 09:42:41 -0000
+Message-Id: <177987496112.980754.6449763089736126182@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/master
-    old: 16bdc8e1266709f5a49956f794499be6c4994ce6
-    new: 8d70fbd6576dbe934ff0c80454daf8c3ab81fab7
+  - ref: refs/heads/at91-next
+    old: 9a6b14b29aa2a8fb2ec45eb6eb3ffe7c0ff42e14
+    new: be8b6fbc1274ead39cfa8cfddb7e866ec167074f
     log: |
-         8d70fbd6576dbe934ff0c80454daf8c3ab81fab7 mark 6.19.9 review as completed
+         871cb269cd43b5d90f4e59d1458f8c09204759d4 clk: at91: sama7d65: add peripheral clock for I3C
+         96b33938cf783c790036e35860b206cf029f2e2a ARM: dts: microchip: add I3C controller
+         ac75ae436723e5fe68dcc8e806f66d0358dd56f7 ARM: configs: at91: sama7: add sama7d65 i3c-hci
+         8071815790141d3f05e32b972a6c79fdbbb88cfa arm64: dts: microchip: lan969x: add OTP node
+         840e6c0eb4f325053f45e7f0e13e3a43176a649b Merge branch 'clk-microchip' into at91-next
+         e83ec7052d7915fb7e9c66a55dcf4a2ad0e4b111 Merge branch 'at91-dt' into at91-next
+         b2278d6a57a2d73e5fbe0ddf16daa49fec070853 Merge branch 'microchip-dt64' into at91-next
+         be8b6fbc1274ead39cfa8cfddb7e866ec167074f Merge branch 'at91-defconfig' into at91-next
          
-
---===============6133538229568889128==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779874897 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1779874946-98e160763d97a8084c0f7225112ae82786f36aad
-
-16bdc8e1266709f5a49956f794499be6c4994ce6 8d70fbd6576dbe934ff0c80454daf8c3ab81fab7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoWvFEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XD8QAMizwBZ2e+JGmxk0Dset
-gwWeZIMvX1p3WdKyLytk1qUn7bAdUhhRbMrYnGiS/av18KGo2EJhO9MA4zCKgWmM
-sHt0fBT8r/5wBek9KomXsvESCRc9ZtWe6CWe00ci/PewTRaZD0z+LNwEAXycrSBY
-cFQp06za3QwNBtJY4g/KaNSdZAZqPftZCOf4RvquHb1+BLife16wAeuG7Jk4X/R0
-REBzukHT8wlfu6Xj0jy7hkq9eUUFobZEOf/Wa/ZxtGbDWVkF7jOFvBqA07yjskr/
-RA47nJca4T7Ed4oa/n/68Dilt9pmMaBWUR9gSxKOcBF8R9jzwJbUvCr4E1wb2Lx3
-37kwETVeGBF/ZT0qmDKR9oyEsz9Llln1jq/dBeJSJi//9w3t0ySpJHIrA0RCZPDx
-vnOVZ3VWePwDn2bwFFhH5QnEpOldtEgtqZPD/HwcZWNvndd8DGjU5b8NdvTBDBcL
-X9h6O6NM73teUmZRXc2tJkcmTRCcgAis6xDRKxXq9pXtiRnkqS/ONLtBsrDmCsVZ
-z1Qvb+sbzVBWMVkWgQcMS0JO28EYzCOLFgasGwh6bfEFGcXD/HOjyRHHVSYy0mUi
-xhRbj2ngTZTBfis8E94HtWipjo7+xboO2Stg8COZYfHW6pbjnOUMP5KJu2SbBNfy
-BNdciNj3bDKhMO/aoqem0WBf
-=yjH4
------END PGP SIGNATURE-----
-
---===============6133538229568889128==--
