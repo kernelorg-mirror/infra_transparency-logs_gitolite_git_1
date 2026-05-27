@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 27 May 2026 00:58:18 -0000
-Message-Id: <177984349882.584862.17027824152813374172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Wed, 27 May 2026 01:02:38 -0000
+Message-Id: <177984375870.592480.15386681734461554383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: c66d7c3c1f173cf73a2a2f8302666d86beafff22
-    new: 05f95729ca844704d15e49ce14868af4b403b32b
+  - ref: refs/heads/arena_slab
+    old: d6751376293091059ebb3649b8008cf49cf070d0
+    new: 70008257e5677caf5bc74898eb92ca7531eb795e
     log: |
-         05f95729ca844704d15e49ce14868af4b403b32b l2tp: use refcount_inc_not_zero in l2tp_session_get_by_ifname
+         70008257e5677caf5bc74898eb92ca7531eb795e bpf,slab: Add slub-backed allocator for bpf_arena
          
