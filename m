@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 27 May 2026 08:18:04 -0000
-Message-Id: <177986988487.914334.1579939170196113826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 27 May 2026 08:18:09 -0000
+Message-Id: <177986988983.914530.1100003601420661194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 39785f2b3e9fb8f3375dde1e3e4c94ff953871af
-    new: 9c95f4b920e15c183ebbb15b0a011ba32fcb6d59
+  - ref: refs/heads/endpoint
+    old: 9985e6ea0c227de2027210dc45dfc33139203f72
+    new: d2942f5fc787c5e327ede76e0aea2cf41949e500
     log: |
-         d4573b270d934c35eb77fc348866384fcb4e8eeb gpio: rockchip: convert bank->clk to devm_clk_get_enabled()
-         9c95f4b920e15c183ebbb15b0a011ba32fcb6d59 gpio: rockchip: teardown bugs and resource leaks
+         dfd986796037ce31af73d8be416d98944ec84551 PCI: endpoint: pci-epf-vntb: Add check to detect 'db_count' value of 0
+         d2942f5fc787c5e327ede76e0aea2cf41949e500 PCI: endpoint: pci-epf-ntb: Add check to detect 'db_count' value of 0
          
