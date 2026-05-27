@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5351163357100429937=="
+Content-Type: multipart/mixed; boundary="===============2119845632385246641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 27 May 2026 11:39:35 -0000
-Message-Id: <177988197579.1067329.11776765902869556447@gitolite.kernel.org>
+Date: Wed, 27 May 2026 11:44:05 -0000
+Message-Id: <177988224502.1071069.12311737648562699773@gitolite.kernel.org>
 
---===============5351163357100429937==
+--===============2119845632385246641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,53 +16,54 @@ repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
   - ref: refs/heads/export
-    old: c556587fb705370c99b07b8eae2f23e16e6bb145
-    new: 02fc64d2cebb020984c74fb4950be7a46909b4d9
-    log: revlist-c556587fb705-02fc64d2cebb.txt
+    old: 02fc64d2cebb020984c74fb4950be7a46909b4d9
+    new: 8b808b715575367c7e00bcd76a597b7b57d674b8
+    log: revlist-02fc64d2cebb-8b808b715575.txt
 
---===============5351163357100429937==
+--===============2119845632385246641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c556587fb705-02fc64d2cebb.txt
+Content-Disposition: attachment; filename=revlist-02fc64d2cebb-8b808b715575.txt
 
-8cf6060090419212ec21bfa22e52850061830b65 DO-NOT-MERGE: git markup: net
-0141dad93cad8544c52b92e63e2b2c9e064ae184 DO-NOT-MERGE: git markup: fixes other trees
-af84781f9b3444ab29109206298c099d1dd6af2a selftests: mptcp: simult_flows: disable GSO
-5b5e5acc888a60620c269e3668b119bfd5572937 selftests: mptcp: simult_flows: adapt limits
-bd7e48c1c38c74fa496aa0f6c2c3ef75f53c0d60 mptcp: fix missing wakeups in edge scenarios
-de300517d3281e2df4f0bead9799b8ba7652d6b4 mptcp: fix retransmission loop when csum is enabled
-48f6266e09307a6afff60f715c128de6b714a315 mptcp: close TOCTOU race while computing rcv_wnd
-65a2bf190b0142c8cb193ad338665fccbd9280c3 mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
-c9859923c241f84b24216d3517f2e866ed65eaec selftests: mptcp: add test for extra_subflows underflow on userspace PM
-c08da28f165fa4f4372940689bb7e964f02474c8 DO-NOT-MERGE: git markup: fixes net
-cba1f7731516f26232871a523a81bbfaefd5e556 DO-NOT-MERGE: mptcp: add CI support
-b15ad60fed8b5a23524a968c278b3f239e07ba1c DO-NOT-MERGE: git markup: end common net net-next
-ef597a808d22826a0e552b3658817196d0342356 TopGit-driven merge of branches:
-3f926b287546977bbe53f68052b38bc13a5bd604 DO-NOT-MERGE: git markup: net-next
-36e3d8f1bc5bc2d974099f6a4d2a244229faa477 DO-NOT-MERGE: git markup: fixes net-next
-285b7c1dfede31893d7aa98bc717eed5f9f5f734 mptcp: pm: init and release mptcp_pm_ops
-f64485b118b43074e7112bc10e055dbc9046922e mptcp: pm: add get_local_id() interface
-774445c1b106ff91e2aeb81a7e68748e3a691986 mptcp: pm: add get_priority() interface
-9ca2109045a9305e5108ad66b228fdb3d2c46db3 selftests: mptcp: connect: test name in pcap file
-f52738fd8df7a91a58b563201151202ce2707577 selftests: mptcp: simult_flow: test name in pcap file
-d2bf889f8ad8ffdb60f8e0f7b6a45e3ab4d95d2b selftests: mptcp: pcap: drop most of the payload
-8a28034fb3fa1e0353eee4b89c839af005734ac8 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-865cf641c37975672dcf3a800635210e5e26f248 DO-NOT-MERGE: git markup: features net-next
-dc92473ed9eaeb782651c74f5521caa06976ec03 DO-NOT-MERGE: git markup: features net-next-next
-98ff81e273bd55c9354d57d48c22b22ca59dcca2 bpf: Add mptcp_subflow bpf_iter
-e74d4497124acca5408fd2e585817fbf4a840512 selftests/bpf: More endpoints for endpoint_init
-c0b228e3af1395cdd1ae60ea5c67c72ed446e59e selftests/bpf: Drop cgroup_fd of run_mptcpify
-fbd515e25830624c04d55073af56ba11f498d2b6 bpf: Add mptcp packet scheduler struct_ops
-118852eefe762505170f92be9d1b122e47642d0d bpf: Export mptcp packet scheduler helpers
-d03272082e7a1fe3140da0d86ef9a8addfb7c4b5 selftests/bpf: Add bpf scheduler test
-c9da97ebde867b8e6140713dbd103f4716c0686a selftests/bpf: Add bpf_first scheduler & test
-ba9595926ccfdc8fd5f398282f146a0fc5009092 selftests/bpf: Add bpf_bkup scheduler & test
-d67a8b6b4a28a334424ccbda237b3e012682a382 selftests/bpf: Add bpf_rr scheduler & test
-aed466e295ba855fe719b767a5201c97e7e57963 selftests/bpf: Add bpf_red scheduler & test
-5db7302a52a22ec20b4548f1ba418c57a91d94be selftests/bpf: Add bpf_burst scheduler & test
-aaa66aa0ab064530a8b7c1ccfcca1d6cadaab12c DO-NOT-MERGE: git markup: features other trees
-8646271b5600d0741a5d92e500ae04bff80b4541 DO-NOT-MERGE: mptcp: improve code coverage for CI
-02fc64d2cebb020984c74fb4950be7a46909b4d9 DO-NOT-MERGE: mptcp: enabled by default
+6263508a2dd672d443970dbe4f2a6100bb7b5c3f DO-NOT-MERGE: git markup: net
+401476706c285fb2748db5eb788020bba5e50e6c DO-NOT-MERGE: git markup: fixes other trees
+7ef2f5816f244e8576b21c3c5778b0740e462f32 selftests: mptcp: simult_flows: disable GSO
+001451cc78bedcbfc7102837a6b8325dd92dc3a7 selftests: mptcp: simult_flows: adapt limits
+5c3417e0c3344900d1ac03bb904a915bb8fb7803 mptcp: fix missing wakeups in edge scenarios
+785de93f99a11b59fbf2d4fcadd29d0d94ba3adb mptcp: fix retransmission loop when csum is enabled
+4d9d8df5be972ca7d4e06ceee17e62e8de1c23e2 mptcp: close TOCTOU race while computing rcv_wnd
+8da505d8911bdd570768a2ba6c7b4a47d1792321 mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
+913bb39daacbe679078639ffb6f33ae124d9c497 selftests: mptcp: add test for extra_subflows underflow on userspace PM
+b108bb089f2613a98c7b680a3e30d673de74b196 DO-NOT-MERGE: git markup: fixes net
+bd9c17622b172b2a8a12b65689daa50f5c7a1704 DO-NOT-MERGE: mptcp: add CI support
+c87ea2224c1022cb7ddfc0f537ec504d918fee74 DO-NOT-MERGE: git markup: end common net net-next
+d2df21e29009e7b333800c2e64ff3c37b8fa40ee TopGit-driven merge of branches:
+12cb0e627df71be3232270f75627719b99c82cbe DO-NOT-MERGE: git markup: net-next
+adb7286de1000e798cc85d70e237d91cd283da3f DO-NOT-MERGE: git markup: fixes net-next
+a8f8dd9e4371cf7d4d843b214ebeff84f717d24d mptcp: pm: init and release mptcp_pm_ops
+0cce6b5dca7e3ae70a8c4e289fa9a9875be45d53 mptcp: pm: add get_local_id() interface
+ffe32e2ecb554791fe75efd7a97ca531958626fc mptcp: pm: add get_priority() interface
+12a2e3ae61e3a753649119164722bc820c4ea3b8 selftests: mptcp: connect: test name in pcap file
+55b555544aced139f3c916e9114a44bf0deab232 selftests: mptcp: simult_flow: test name in pcap file
+f0a9bed82a16947a7ae23012965c7e26ae1184c9 selftests: mptcp: pcap: drop most of the payload
+abf96c778c84f4fa8b4278223d9fea4f8558f96f mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+8e07c2bcb98a1f164492555f57f4f867167ba913 mptcp: remove unused data_ack from struct mptcp_ext
+1d0a38fbac130c155ca890c8ba9936aaae8fd261 DO-NOT-MERGE: git markup: features net-next
+7ff35ad9583419ccf917ba09b1e23a07355ca629 DO-NOT-MERGE: git markup: features net-next-next
+3efc448fded4ebf63ebbdf7191fb6d22bd7eb8d4 bpf: Add mptcp_subflow bpf_iter
+2cdbeced3f75ab3ed08385469d5d6ff3c525d61f selftests/bpf: More endpoints for endpoint_init
+35db6444e9c23eee6b2465ebd2f171325e4cf2dd selftests/bpf: Drop cgroup_fd of run_mptcpify
+a953fc3780d0dce1823e172ff978d756026ae9f0 bpf: Add mptcp packet scheduler struct_ops
+477697e045cef2c07fade16d296d3f771322bfea bpf: Export mptcp packet scheduler helpers
+ba8b50451e94e3372c735fd6b729de3e6c08eaa4 selftests/bpf: Add bpf scheduler test
+bca540f133ca750840bde7096a3c7f8f57b3c13b selftests/bpf: Add bpf_first scheduler & test
+7857d3e6bddfd93c497f2e52b2d5078531bb5a34 selftests/bpf: Add bpf_bkup scheduler & test
+fc81701270a7751ca62294eb99c0b9f3bea198aa selftests/bpf: Add bpf_rr scheduler & test
+177457dd57116df8bc656dcaa2f9a5c82eddb2c9 selftests/bpf: Add bpf_red scheduler & test
+8ae192222fc1a6f6e3d19ed2f18ad1eebe08e088 selftests/bpf: Add bpf_burst scheduler & test
+ecec97ecd12961935a7a2e7e2cf0bad591a8c160 DO-NOT-MERGE: git markup: features other trees
+4ab71c1ae61b888645d781e9c1218b3ad7f53748 DO-NOT-MERGE: mptcp: improve code coverage for CI
+8b808b715575367c7e00bcd76a597b7b57d674b8 DO-NOT-MERGE: mptcp: enabled by default
 
---===============5351163357100429937==--
+--===============2119845632385246641==--
