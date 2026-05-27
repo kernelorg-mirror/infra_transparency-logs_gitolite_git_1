@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 27 May 2026 05:40:36 -0000
-Message-Id: <177986043642.797534.9781693933168025035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 27 May 2026 05:42:32 -0000
+Message-Id: <177986055202.798859.8939167685806140487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-linus
-    old: 82908b445f2d6b4d63dacf43bfbe9576d8469cb6
-    new: 14912d497188283f5a0aa5daaa161e52f79c7f34
+  - ref: refs/heads/damon/next
+    old: a736a10b874fcd3d7a2f029a2adc91cac007c4c4
+    new: e8a080b13456402e886a58a3b74107f0947f3dde
     log: |
-         0a10faad5ca58332ad70f7663ba82611f4daf736 ALSA: hda/realtek: add quirk for HP Dragonfly Folio G3 2-in-1
-         4db42e5fb9327c27b41f26bb9427ba0b97ecec30 ALSA: hda/cs420x: Add CS4208 fixup for iMac16,1
-         14912d497188283f5a0aa5daaa161e52f79c7f34 ALSA: usb-audio: Add iface reset and delay quirk for TAE1160 USB Audio
+         f4c6594cd9d7f9d05a80286a98e5f34c3d0bcebb selftests/damon/sysfs.sh: test multiple probe dirs creation
+         1a8894cf14d67a91d95bbebec2cc5968cf9219bc selftests/damon/sysfs.sh: test {core,ops}_filters/ directories
+         bdcada9c80635b8d7e74ddbfc0f0df5d3ebd6c49 selftets/damon/sysfs.sh: test dests dir
+         5d291deda2dab6aeadf7c4a10a9b833dc7c98c3b selftets/sysfs.sh: fixup core,ops filters testing
+         5905d23d0a736ecf2c591584c715464dfa33bb69 selftets/damon/sysfs.sh: test all files in quota goal dir
+         e8a080b13456402e886a58a3b74107f0947f3dde mm/damon/sysfs[-schemes]: putt kobjects for all nr_something store
          
