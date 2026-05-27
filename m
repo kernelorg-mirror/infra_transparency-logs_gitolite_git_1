@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 27 May 2026 10:37:11 -0000
-Message-Id: <177987823106.1021589.136122933742760150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 27 May 2026 11:13:51 -0000
+Message-Id: <177988043124.1046288.2594687335211065006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/arm64/fpsimd/asm-cleanup
-    old: b7ba41f6299d450c52c2411b895d44e63bb02195
-    new: 13ce5dc0957ffbf27a2faf109e4efd20b15923c1
+  - ref: refs/heads/io_uring-bpf-poll-gate
+    old: 91e51239dd442296ae6ca42ed2ee398e3a079607
+    new: 96bed86e4dd4ac28b77312a0116aa2df85e23b9b
     log: |
-         ae20f68fa6f803fc12bcffc9bf99233456d65391 arm64: sysreg: Add FPCR and FPSR
-         7b92e65b56b93de9b9f6d2dd49c6a924d4eb6d01 arm64: fpsimd: Split FPSR/FPCR from SVE save/restore
-         bfc8abe066c51412cf4d1917c3113d0370990a88 arm64: fpsimd: Move fpsimd save/restore inline
-         5ab59e27081438ef6ac8cc30c3bd2aa8a05dbeda arm64: fpsimd: Use opaque type for SVE state
-         818673ea0e97523d67778db7006e94ed4437affb arm64: fpsimd: Use opaque type for SME state
-         42af1b725c4b7613c5aebb3f350443416d9adb89 arm64: fpsimd: Move SVE save/restore inline
-         c476d77b61548476dd8bbd8b3768e98d48cb16c7 arm64: fpsimd: Move sve_flush_live() inline
-         46996399cf105384d73a896c32dd4daec8a62f19 arm64: fpsimd: Move SME save/restore inline
-         13ce5dc0957ffbf27a2faf109e4efd20b15923c1 arm64: fpsimd: Remove <asm/fpsimdmacros.h>
+         e9955e3c597ce2ac9107e4d89f1f8ddb138e3966 io_uring/bpf-ops: introduce poll_gate struct_ops callback
+         01f95422848c29b6d5702b341a4dbd604133d190 io_uring/poll: invoke BPF poll_gate from io_poll_wake
+         d198d4637b146aa8ed82ce416988d92e4871a98e io_uring/bpf-ops: expose bpf_io_uring_tcp_inq kfunc
+         312409b11d184b4e81537195d7d50487e26aef40 io_uring/bpf-ops: expose bpf_io_uring_sock_peek kfunc
+         96bed86e4dd4ac28b77312a0116aa2df85e23b9b io_uring/net: wire IORING_RECV_POLL_BPF to recv operations
          
