@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7814554533216026156=="
+Content-Type: multipart/mixed; boundary="===============7815061892706528533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 27 May 2026 12:08:31 -0000
-Message-Id: <177988371106.1091984.6184427370246189266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 27 May 2026 12:11:36 -0000
+Message-Id: <177988389672.1095329.18288950680138545282@gitolite.kernel.org>
 
---===============7814554533216026156==
+--===============7815061892706528533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f9866b5d3130f2160e14691956865eaaee4063c5
-    new: f55a7479f643fae855de26ea28d9277fadfb0bc4
+  - ref: refs/heads/for-7.2
+    old: 2fd19f0d589e703c767949b1861b2cf8c2a6de12
+    new: 05b9c152045ed90a1f88dac6bbb05ea0db30aef3
     log: |
-         f55a7479f643fae855de26ea28d9277fadfb0bc4 actually move the 7.0.8 review files...
+         344a4c96b29282c03e45f3b81021a2c83398e3b5 ASoC: mediatek: mt2701: allocate i2s_path with priv
+         64172fa3088d20eb0dc91a8a45ff29fae63c3936 ASoC: SDCA: Make CONFIG_SND_SOC_SDCA a user selectable symbol
+         bf6dfd0e6c9123658fbf3217779ad7396960f2ea ASoC: codecs: Adjust indentation in CONFIG_SND_SOC_ES9356 definition
+         74baa9df1d3d590e4aaab3ac78cba5bbf826d8b6 ASoC: es9356-sdca: Depend on CONFIG_SND_SOC_SDCA
+         05b9c152045ed90a1f88dac6bbb05ea0db30aef3 ASoC: Address es9356 build failures without CONFIG_SND_SOC_SDCA
          
 
---===============7814554533216026156==
+--===============7815061892706528533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779883660 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1779883710-dd87bc33fb21f27c62a5ec0f957506d339b785fe
+pusher C3F436CA30F5D8EB 1779883895 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1779883894-8221e9c560d204eac1ef1dd68883d8a076e9faf9
 
-f9866b5d3130f2160e14691956865eaaee4063c5 f55a7479f643fae855de26ea28d9277fadfb0bc4 refs/heads/master
+2fd19f0d589e703c767949b1861b2cf8c2a6de12 05b9c152045ed90a1f88dac6bbb05ea0db30aef3 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoW3owbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u3IQAKbGD9beJWBYgxupTX37
-gVf2QcrZt/QopXB0Ic+YwCDICW5KMILUrvWPO9Axys3xx6iAxY7P1jTbDHeoNBFX
-Da0QTu0tjfP+tBONFt62jCeaiqAe+P9ak7/CBQ2vS9XREgnJyse2ghYz74jKWiKi
-9mbp17Ch1jvcZA3SwBHuaEcO6L2O9DE3MCRQ7RsDNUFBTM8tLBtdTyQPtkAjoipG
-Ok2jPyGVwCgc78WzOW6XXWpgxegcjnt89mb0UtTTLraJZV1cy1fyS1gX5u5xpHqL
-Bssx8JfSj7zn2GG5sW2KrN85I+HlvzS85nFJGa9bf6knHKaojfCjdq2Mdi+KymcJ
-ofhIqKgJX8P1CzZ0djPEDAXrs68IF6HdIsT45AeW1khxBkk3jXQ23g9KOZC4RY4q
-+1IA7K0mkUxLFFinS1TcyP9PaMEzeNLoqo4HdnNUGL6Wg5EohJup5AIvQtvcUT7I
-RfswuovcsBo6cF0Hts465UuOJDEI6yUY6J3skEo5cdH3HVBXWHjbdkD0/jA8IVaO
-oylrbMM8b9m5o8Q3fk9NIGbJmQtTYYC/5g/3tG/jQU8RzkNiCpr9dO9Qvw4lIE19
-wd+1ddMaTyE3xsP2bvmxGizhL5/3i8XPp/7a5X8W2vL7hHte8qat6uVfyXBGQlpN
-+BfNcz3aLAYx0PNHzkVJdova
-=GdoI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoW33cACgkQJNaLcl1U
+h9C8sAf/dRYRXMFUp/n4t7C6nBARRncx1wi0Z7kklp+FlpOUyQtMbRd9+ct2hjpo
+De08Gx9dLGkf5f3lu7fZAtqaaxcRmLOwysHKajRLWSJAQf1EnafxkbEeMxLvD7u9
+JT47Lcs9ahDq6A7hJy8evWYseJk6sNNYRM9k90vwQ/wb5ibFSPA4WjU6r5BqeZ/R
+XFJ/fGnOjMCRWNJdYTkT83UdsZZBIHn3HS3tKakeN+gvM6N7wpkZcKUrHWqnL/xv
+N3KXU/FJM13skVnBOHKGuv+1EBQC2bgu658jHVylq2OGiTxrW1sxH3qJJ1lTTOxQ
+Q2ge73U5x6Tasx4QRbInkCgi7/uiqw==
+=X1yu
 -----END PGP SIGNATURE-----
 
---===============7814554533216026156==--
+--===============7815061892706528533==--
