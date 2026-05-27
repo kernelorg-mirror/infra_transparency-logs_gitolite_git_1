@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8671846190928006826=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 27 May 2026 16:08:08 -0000
-Message-Id: <177989808842.1278509.12241210131009644162@gitolite.kernel.org>
-
---===============8671846190928006826==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Wed, 27 May 2026 16:15:22 -0000
+Message-Id: <177989852244.1285188.9474590244208115943@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 500eb0203cd1a7b8feea0443f5add9a47444a7b2
-    new: f63ad68e18d774a5d15cd7e405ead63f6b322679
+  - ref: refs/heads/edac-drivers
+    old: 3cefc74798473a1ded010646241147cb18f48f99
+    new: a250fc8edf0045f71a14949b760b6a6d2a4489e8
     log: |
-         f63ad68e18d774a5d15cd7e405ead63f6b322679 ASoC: codecs: simple-mux: Fix enum control bounds check
+         6f98af00f4da4f70cd6d1dbb1f512912cadfab26 EDAC/{skx_common,i10nm,imh}: Move MC register access helpers to skx_common
+         b0594316a948e0cc6c11923456abcb313a18a4a0 EDAC/{skx_common,skx,i10nm}: Split skx_set_decode()
+         dfa53cfd967b35d28b3a4e32678c9a6f919df47b EDAC/{skx_common,i10nm}: Rename rrl_mode to rrl_source_type
+         dc841a8fb3e1c4309f3f51d4320008f6c7a31291 EDAC/{skx_common,i10nm}: Introduce rrl_ctrl_mode
+         466a5dc1d3ded36b42452fcd6df18e80894874d2 EDAC/{skx_common,i10nm}: Move RRL handling to common code
+         2ec513205746239736ede99cc829e903d0088a59 EDAC/skx_common: Add SubChannel support to ADXL decode
+         c8d28b0229db4f7bae7f6bc3b30ebbeaa770280d EDAC/{skx_common,i10nm}: Prepare RRL for sub-channel granularity
+         5c5db9c51310c0368e6e9e4805200e8b135281f2 EDAC/imh: Add RRL support for Intel Diamond Rapids server
+         9ae91b8de28ad0fc393962deeae8cd7852be1bb6 EDAC/igen6: Make registers for detecting IBECC configurable
+         a250fc8edf0045f71a14949b760b6a6d2a4489e8 EDAC/igen6: Add Intel Nova Lake-H SoC support
          
-
---===============8671846190928006826==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1779898086 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1779898086-603f14ffa03df66575e75c4cb83233d3593128b3
-
-500eb0203cd1a7b8feea0443f5add9a47444a7b2 f63ad68e18d774a5d15cd7e405ead63f6b322679 refs/heads/asoc-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoXFuYACgkQJNaLcl1U
-h9BlLAf9FpgvUU377Mme0rgY/OFUYGT8Uj81msbe21wpU1aXLwgPkPt0N/AkT+nB
-DtHIHp4iBHMRvWQvkJSMdJyyCzprmxA3UVLr4Z3aW2DJYRgUulCNwJ0Dp7EOdtO4
-FyRNCJo9JukRuDzGnT3ZPxvAFZGRU6A6+WK9TcLXX47PmxqSOT7i15DBZ751cTre
-5wgR1QaHCJDLjj1NxNvmLm1sIo5lEYD7s/o5m9szic4FNAarEVeF3jtyiAjJrIct
-3GhkPYu99CLFeHShWUoW99dm4S9JdeDiBvB158XQ44fj6UwP+3q+ss9ApOKko6SX
-2Ezy5qK5HPYNywAyBH5sXSWcvqKyBQ==
-=xg9z
------END PGP SIGNATURE-----
-
---===============8671846190928006826==--
