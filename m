@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 27 May 2026 23:21:16 -0000
-Message-Id: <177992407638.1595101.3859287703405982334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Wed, 27 May 2026 23:25:14 -0000
+Message-Id: <177992431458.1598271.737766178307940613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/x86/urgent
-    old: cda64169bade79427f264e43d0f422eaed9dc116
-    new: a17dc12bfed8868e6a86f3b45c16065a70641acb
+  - ref: refs/heads/dev
+    old: 84470b80b7b0ded9a6b071a211a028fe5fec7e44
+    new: 78e3417e5f7c8b25234baadc3875ce7de109bb37
     log: |
-         a17dc12bfed8868e6a86f3b45c16065a70641acb x86/ftrace: Relocate %rip-relative percpu refs in dynamic trampolines
+         78e3417e5f7c8b25234baadc3875ce7de109bb37 audit: fix recursive locking deadlock in audit_dupe_exe()
+         
+  - ref: refs/heads/next
+    old: 82bc8394b1aa74aedb9827da7730cfa6639716fd
+    new: 7aefee0518c3b9b22fcca270586465dcdd164dbc
+    log: |
+         78e3417e5f7c8b25234baadc3875ce7de109bb37 audit: fix recursive locking deadlock in audit_dupe_exe()
+         7aefee0518c3b9b22fcca270586465dcdd164dbc Automated merge of 'dev' into 'next'
          
