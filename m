@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 27 May 2026 01:03:42 -0000
-Message-Id: <177984382217.592990.9091952977913114389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 27 May 2026 01:03:47 -0000
+Message-Id: <177984382777.593217.10053582674605215413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2b9cceb061d63d64ec11186ebb4fc93a1dcb2c17
-    new: 10006ad04b74a81ba15f63e94f6310773b45b043
+    old: 05f95729ca844704d15e49ce14868af4b403b32b
+    new: d895767c337814cf4b97d5ad5375e5ed7e12018d
     log: |
-         10006ad04b74a81ba15f63e94f6310773b45b043 net: dsa: netc: fix unmet Kconfig dependencies for NET_DSA_NETC_SWITCH
+         d895767c337814cf4b97d5ad5375e5ed7e12018d net: phy: air_en8811h: add AN8811HB MCU assert/deassert support
          
