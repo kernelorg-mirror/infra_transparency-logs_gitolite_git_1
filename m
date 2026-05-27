@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4462703436876140450=="
+Content-Type: multipart/mixed; boundary="===============1745382622047126668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 27 May 2026 14:35:59 -0000
-Message-Id: <177989255921.1204772.4609795127453022151@gitolite.kernel.org>
+Date: Wed, 27 May 2026 14:36:01 -0000
+Message-Id: <177989256160.1204966.12164939319367719452@gitolite.kernel.org>
 
---===============4462703436876140450==
+--===============1745382622047126668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ed0d177fc486280a8034cecf9d4ad596814e0fd2
-    new: 938bf00744a1b82cefd551f848a927cc24d5fb2f
-    log: revlist-ed0d177fc486-938bf00744a1.txt
+  - ref: refs/heads/mm-unstable
+    old: 7ee53380e730228e7c2739c2097f9469ecc3cfa2
+    new: 43eedcbb989c80b579989ea70da27b52505c88ee
+    log: revlist-7ee53380e730-43eedcbb989c.txt
 
---===============4462703436876140450==
+--===============1745382622047126668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed0d177fc486-938bf00744a1.txt
+Content-Disposition: attachment; filename=revlist-7ee53380e730-43eedcbb989c.txt
 
 a0a2f7f8cef502a041d7407ea680990d177a6271 device-dax: fix refcount leak in __devm_create_dev_dax() error path
 908bc10fab151a3d46e71effb12c9f2db04730a9 ipc/shm: serialize orphan cleanup with shm_nattch updates
@@ -434,26 +434,5 @@ c01859df6d3d0a98648caae8a9cf1ff50bf2e285 mm/damon/core: trace esz at first setup
 9d613dc7176d83119df7933b2aefb5739f274180 mm/page_alloc: remove VM_BUG_ON()s from pindex helpers
 28e91ca5c0c7b661737a48eb4465278bdf256efa userfaultfd: merge fs/userfaultfd.c into mm/userfaultfd.c
 43eedcbb989c80b579989ea70da27b52505c88ee userfaultfd: make functions that are not used outside uffd static
-386b2122b655b7ce86f6b3471a68b9148c9f3804 mm: make mmap_miss accounting symmetric for VM_SEQ_READ
-0d52b079045782239f753623caca2fd9a266d40c mm: shmem: refactor thpsize_shmem_enabled_store() with sysfs_match_string()
-bc3d248b2174df57392f550244ada6a6d2e3fc3e mm: shmem: refactor thpsize_shmem_enabled_show() with helper arrays
-19e3326399735f0a283ce59c146f271b2918b974 alloc_tag: fix use-after-free in /proc/allocinfo after module unload
-d3b1fcc087dfc2bafe447f535ba73e35c436a22a selftests/memfd: fix -Wmaybe-uninitialized warning in memfd_test
-1a43dfaec382f1ffde3d92ff4da8ab13c4cc5e71 selftests/memfd: remove unused variable 'sig' in fuse_test
-154ba6688c572d2acf225091abfa34b04a3f533f mm/dmapool: use static key for boot-time debug enablement
-7a9e8dff2239dc3350f1978cfe44f401f166265a lib: split codetag_lock_module_list()
-9f586d1663da2510b6347d91336e27ce504a7912 memcg: store node_id instead of pglist_data pointer
-639b05c460cf5430172d0fda167f52dc41d959ec memcg: uint16_t for nr_bytes in obj_stock_pcp
-908c817581aa051f63595630ef207c1c87c5ecac memcg: int16_t for cached slab stats
-0dfe3f06482e5f8e572f628720440d79a9ec4f1d memcg: multi objcg charge support
-44a31a93ed2f8e36544f93050d277a16e98aaa1b zram: do not leak blk idx at the end of writeback
-9e17e1fb2bce15b524b3eb0c13451ef716864604 zram: clear trailing bytes of compressed writeback pages
-9329f05ed03bcb41cf26bc8395f48d8b2ddae93b mm: remove mentions of PageWriteback
-3dc041f0238391de2412e3743b55abb06e17f49d mm: document the folio refcount a little better
-6be631caeb5570a802abf7b220f9a4557b8c0fdb mm/migrate: find_mm_struct: fix race between security checks and suid exec
-e24f4da052e070cbd55652da790a9beb108142f0 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-0e0e7802126c39108568279d5c4393dbace7f404 mm/swap: remove redundant swap device reference in alloc/free
-feae9b57e4d10bd9a6376607613b992c4a06bd5c mm/swap, PM: hibernate: atomically replace hibernation pin
-938bf00744a1b82cefd551f848a927cc24d5fb2f mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============4462703436876140450==--
+--===============1745382622047126668==--
