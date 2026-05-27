@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Wed, 27 May 2026 00:40:04 -0000
-Message-Id: <177984240430.570827.16458656379871066241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 27 May 2026 00:45:19 -0000
+Message-Id: <177984271911.574955.9534636402145779427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/bcain/boot_qemu
-    old: 35eb04372bf7b3ef31afcde7c3336a0ff690d16c
-    new: eb926854dde4adbf24e0d346645a873c089de7c4
+  - ref: refs/heads/main
+    old: 29fb4a26416d851333be909fc313db9147b7099c
+    new: 7599c13dbe7a2dc49e33f4c6581c6f1287d9410e
     log: |
-         241ac17acd5874b4c01d6b7c10a0f9d1935f207d hexagon: add QEMU boot documentation
-         6bc4f9a6c8a52024f5cdc0509be0cff80e6adfe8 hexagon: add hwcap
-         b2d0f8ad0e6effa40af51e2a90c275fbee51e0c4 hexagon: pass DTB address from bootloader via R1:0
-         eb926854dde4adbf24e0d346645a873c089de7c4 nolibc: add hexagon architecture support
+         7599c13dbe7a2dc49e33f4c6581c6f1287d9410e net: napi: Skip last poll when arming gro timer in busy poll
          
