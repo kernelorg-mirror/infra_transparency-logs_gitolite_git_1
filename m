@@ -1,23 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Wed, 27 May 2026 14:37:15 -0000
-Message-Id: <177989263583.1206404.8214019033259625440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 27 May 2026 14:38:09 -0000
+Message-Id: <177989268971.1206930.16761644892424622103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 25025253476a64c186592d952c27f24bc3490e42
-    new: 1795fd2dbe84ef4d393b69a0b2a3b371f810bde5
+  - ref: refs/heads/for-7.2/block
+    old: fb0eeeed91f3236133383445fee5cc8f20330e6e
+    new: 6235ea3f8b8ffca0333ade0863992f3cd69592ea
     log: |
-         db01b61ed4602a081d35c9458a522b58fca44b7a leds: core: Fix race condition for software blink
-         a794673949f1aa1dd948ce3ea436af48ea83d7b2 dt-bindings: leds: Document Samsung S2M series PMIC flash LED device
-         f0878c58430c378c47aaece1b29484e4ae8d7faf leds: flash: Add support for Samsung S2M series PMIC flash LED device
-         366ed7a6d22e682e6dfd4d64d8f543bc70c6b58e leds: rgb: Add support for Samsung S2M series PMIC RGB LED device
-         1795fd2dbe84ef4d393b69a0b2a3b371f810bde5 Documentation: leds: Document pattern behavior of Samsung S2M series PMIC RGB LEDs
+         17d7492a50251d913ae7101f898cf30ede856cde block: partitions: replace __get_free_page() with kmalloc()
+         6b2f3e4970e48e70c10111366f59f908f2ea6f96 rust: block: mq: align init_request numa_node arg with C signature
+         6235ea3f8b8ffca0333ade0863992f3cd69592ea blk-throttle: schedule parent dispatch in tg_flush_bios()
+         
+  - ref: refs/heads/for-next
+    old: 072afc5d25354584a9888455c2fb3a8d21bdc754
+    new: 640c36aabd80a4bac72dd690e8792efc2f637198
+    log: |
+         17d7492a50251d913ae7101f898cf30ede856cde block: partitions: replace __get_free_page() with kmalloc()
+         6b2f3e4970e48e70c10111366f59f908f2ea6f96 rust: block: mq: align init_request numa_node arg with C signature
+         6235ea3f8b8ffca0333ade0863992f3cd69592ea blk-throttle: schedule parent dispatch in tg_flush_bios()
+         640c36aabd80a4bac72dd690e8792efc2f637198 Merge branch 'for-7.2/block' into for-next
          
