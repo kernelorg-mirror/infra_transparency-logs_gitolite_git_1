@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1062706150876403522=="
+Content-Type: multipart/mixed; boundary="===============7975833588294661322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 27 May 2026 00:18:31 -0000
-Message-Id: <177984111191.551094.13411494430714117387@gitolite.kernel.org>
+Date: Wed, 27 May 2026 00:18:34 -0000
+Message-Id: <177984111440.551244.453471064355547502@gitolite.kernel.org>
 
---===============1062706150876403522==
+--===============7975833588294661322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: da0a06486ac3ce47c6ffb603d2fd332229d41592
-    new: ed0d177fc486280a8034cecf9d4ad596814e0fd2
-    log: revlist-da0a06486ac3-ed0d177fc486.txt
+  - ref: refs/heads/mm-unstable
+    old: 4aedd91eef75addec6eb2702aa0d94625d01458d
+    new: 7ee53380e730228e7c2739c2097f9469ecc3cfa2
+    log: revlist-4aedd91eef75-7ee53380e730.txt
 
---===============1062706150876403522==
+--===============7975833588294661322==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-da0a06486ac3-ed0d177fc486.txt
+Content-Disposition: attachment; filename=revlist-4aedd91eef75-7ee53380e730.txt
 
+79524bed532bc7acd7d5209a6cdd0a17dbb8e65b ARM: realtek: MAINTAINERS: Include pin controller drivers
+d1f29ea139b50c779422db49790f2fd6c0e128f1 Merge tag 'ffa-fixes-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+7602c0ec0bbfd3985d49f4f0cad281c1414008c9 firmware: psci: Set pm_set_resume/suspend_via_firmware() for SYSTEM_SUSPEND
+9228169d2ae055ed09a163887fc59a710a5eb73b cpufreq/amd-pstate: Grab "amd_pstate_driver_lock" when toggling dynamic_epp
+87d2a8dec0f02b200eb3527da0ab11ba4d4e7deb cpufreq/amd-pstate: Return -ENOMEM on failure to allocate profile_name
+c5eed6ddc757e477f52b3d99bfde9e59975c72ca cpufreq/amd-pstate: Allow writes to dynamic_epp when state isn't modified
+f3acf7ff113007557538b278ccb0e4ab7ae513ea cpufreq/amd-pstate: Reorder notifier unregistration and floor perf reset
+caa822d312be54e3fe1a3b52c887e0888e149c12 cpufreq/amd-pstate: Use "epp_default_dc" as default when dynamic_epp is disabled
+f9f16835d4dc46113c0a72625ffbf61f1aa95e5c cpufreq/amd-pstate-ut: Drop policy reference before driver switch
+7666dbb1bacc4ba522b96740cba7283d243d16e1 wifi: cfg80211: advance loop vars in cfg80211_merge_profile()
+1fcf4149418e7a8f8253dd74059d56340795503f Merge tag 'riscv-dt-fixes-for-v7.1-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+91ddf6f722084383fb05be731c0107814b055c0c phy: marvell: mvebu-a3700-utmi: fix incorrect USB2_PHY_CTRL register access
+da110228b54f2e2143d97ea7151e0dc22e539d67 phy: tegra: xusb: Fix per-pad high-speed termination calibration
+5a759b120e31aa3ed914d98b51eb1755235250f2 phy: exynos5-usbdrd: fix USB 2.0 HS PHY tuning values for Exynos7870
+80305760d7a55b884fb9023c490b75568d1ea0b1 phy: qcom-qmp-ufs: Fix kaanapali PHY PLL lock failure after SM8650 G4 fix
+c2cd08e8f150738515c8df415ad7ecfa3d38124a phy: eswin: Fix incorrect error check in probe()
+a4058c09dd6e28ec33316fd6eb45ddae4cab1f31 phy: spacemit: Remove incorrect clk_disable() in spacemit_usb2phy_init()
+b9d16482bebdeded6e61891a5158b51f4ef04f5f MAINTAINERS: ASoC/ti: Remove myself and add Sen Wang as maintainer
+cb196d50a78ddae227f09b3cd0b145f74a70d241 ASoC; dt-bindings: mediatek,mt8173-rt5650-rt5514: Fix mediatek,audio-codec constraints
+422bd00b71ab42163aa3b8f8370276fe4c1581e7 spi: amd: Set correct bus number in ACPI probe path
+cbdbfba9e8907bea923874d05d6a35ff429a5544 regulator: Kconfig: fix a typo in help
 ac2f21ceddeec5553285e9fc4837a1f23d5e6a37 ASoC: Intel: soc-acpi-intel-arl-match: Reorder ACPI machine tables
 242200c297030d9bab62c0ea65f2094981bcf013 ASoC: soc-acpi-intel-arl-match: add rt712_l0_rt1320_l3 support
 d55bf7ce1e62d1d88f4687e8591561809ea0d6ab ASoC: soc-acpi-intel-arl-match: add rt712_l0_rt1320_l3 support
@@ -1029,26 +1050,5 @@ a57ba712fb4290f7816abc471cf8621f873074ab selftests/damon/sysfs.sh: test monitori
 a945efe1da0c7a68a69ff37e0c4e0e45878b075c mm/page_alloc: remove VM_BUG_ON()s from pindex helpers
 65e25c42e14c7c1269b594ada3294febd6f2b09b userfaultfd: merge fs/userfaultfd.c into mm/userfaultfd.c
 7ee53380e730228e7c2739c2097f9469ecc3cfa2 userfaultfd: make functions that are not used outside uffd static
-cdb17ca60ffb6208112049b64738b84a47b488fa mm: make mmap_miss accounting symmetric for VM_SEQ_READ
-f00de0d7a9a590619b21c572287ba68eeaad3f18 mm: shmem: refactor thpsize_shmem_enabled_store() with sysfs_match_string()
-6e1de252c3f215420b8d30dcc53b5687d28a9991 mm: shmem: refactor thpsize_shmem_enabled_show() with helper arrays
-ebaf1f5beb02da8ebd411b2504ee6fee3f9f936b alloc_tag: fix use-after-free in /proc/allocinfo after module unload
-40c86fa9ca58df7be9d1b89def5e21348b49b172 selftests/memfd: fix -Wmaybe-uninitialized warning in memfd_test
-dfa7e3ded17987aaf2545d293c2c55362d7457d0 selftests/memfd: remove unused variable 'sig' in fuse_test
-10cefa65a27a1b8d4b5be7bf5e30d39782dd5fbe mm/dmapool: use static key for boot-time debug enablement
-83a7dae1236cdcadf93efb9da904e3a463422909 lib: split codetag_lock_module_list()
-5b1161053d8e38adbb4fdc93a913bc9c002094ee memcg: store node_id instead of pglist_data pointer
-4c4d98ce017156478a71c30309b18168530f8eec memcg: uint16_t for nr_bytes in obj_stock_pcp
-ccd8bce7c2fe1bf77d1e21654cd23796c0af00e3 memcg: int16_t for cached slab stats
-0cb89420f4737e9fa85ea3d5f30f1118ae14724a memcg: multi objcg charge support
-a83acca6ef721ef2bc3627575dfab258676fc215 zram: do not leak blk idx at the end of writeback
-a81b1dc6ad7122c04ba8c1d254f4449cf279e604 zram: clear trailing bytes of compressed writeback pages
-8fbe7e7069f061fd7be9486e52697ed456c5687e mm: remove mentions of PageWriteback
-2e77b6c943d963a66b316c1a5be28a96cf1da64e mm: document the folio refcount a little better
-81870b0040d32b8601445c8db6708c078347c626 mm/migrate: find_mm_struct: fix race between security checks and suid exec
-8bae470e6bdafdff8af216e6f3447532926797f7 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-50c4f3f5c2fcdc2003c5b8eb72288cdb368e87b2 mm/swap: remove redundant swap device reference in alloc/free
-aa72e23f853d0085f80254e52078f63197e46f89 mm/swap, PM: hibernate: atomically replace hibernation pin
-ed0d177fc486280a8034cecf9d4ad596814e0fd2 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============1062706150876403522==--
+--===============7975833588294661322==--
