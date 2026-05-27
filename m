@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Wed, 27 May 2026 02:38:10 -0000
-Message-Id: <177984949097.667179.15074402952123003662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 27 May 2026 02:52:42 -0000
+Message-Id: <177985036240.677681.563309069143946896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-next
-    old: 54c1f308d2e90a741059c2ab2706a70d586e4825
-    new: 633e605f12a99d85cedc009e5174e42138f59ea5
+  - ref: refs/heads/fixes-base
+    old: 98f69975d4c0434ca2e6e8cfa1d8d51647a20593
+    new: b71cb088b2e3427924a470fc43e7aedb8a40d2e3
     log: |
-         6b3a3c10cede25222aa2f15af2f3a588c7beb763 ARM: dts: aspeed: Enable networking for Asus Kommando IPMI Card
-         633e605f12a99d85cedc009e5174e42138f59ea5 Merge branches 'aspeed/drivers', 'aspeed/arm/dt', 'aspeed/fixes/drivers' and 'nuvoton/arm64/dt' into for-next
+         6ea68a8dc7d2711504d944811981a5304af7d7a9 scsi: sd: Fix return code handling in sd_spinup_disk()
+         b52a8d52c3125ec9a93106ed816582368de34426 scsi: isci: Fix use-after-free in device removal path
+         b71cb088b2e3427924a470fc43e7aedb8a40d2e3 scsi: target: tcm_loop: Fix NULL ptr dereference
          
