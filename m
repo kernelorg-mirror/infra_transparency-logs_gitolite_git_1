@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 27 May 2026 02:23:20 -0000
-Message-Id: <177984860055.655066.17168458734180607246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/storage/autofs/autofs
+Date: Wed, 27 May 2026 02:24:10 -0000
+Message-Id: <177984865023.655544.6854034348321273781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/storage/autofs/autofs
+user: raven
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 80501dff814eeccebf44a59340c3fe3a205eb120
-    new: cda64169bade79427f264e43d0f422eaed9dc116
+  - ref: refs/heads/master
+    old: 4da861e195df0147056e4136cae7a6493dad73ed
+    new: dec0b32389b670398ef1351193977daa629a6dea
     log: |
-         cda64169bade79427f264e43d0f422eaed9dc116 x86/microcode: Do not access MSR_IA32_PLATFORM_ID when running as a guest
+         dec0b32389b670398ef1351193977daa629a6dea autofs-5.1.9 - fix handling of direct mount path in command handler
          
