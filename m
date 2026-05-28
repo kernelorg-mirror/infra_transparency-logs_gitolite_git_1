@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5814310807911546903=="
+Content-Type: multipart/mixed; boundary="===============7286758425717742241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 28 May 2026 22:38:24 -0000
-Message-Id: <178000790417.2771167.6781279141003255835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 28 May 2026 22:38:37 -0000
+Message-Id: <178000791768.2771401.12855850939294818593@gitolite.kernel.org>
 
---===============5814310807911546903==
+--===============7286758425717742241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 5f0ca6b80b12bab1ce06839cdffb6148bb650ff4
     log: revlist-bd2a5be1fe73-5f0ca6b80b12.txt
 
---===============5814310807911546903==
+--===============7286758425717742241==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -682,4 +682,4 @@ ce882779433583d50e5e1b9e19d71f3ea3412f97 perf session: Add byte-swap handler for
 f6c5bb97a08fca8b0ebe99d3d163a7cb527162fc perf session: Snapshot event->header.size in process_user_event()
 5f0ca6b80b12bab1ce06839cdffb6148bb650ff4 perf test: Add truncated perf.data robustness test
 
---===============5814310807911546903==--
+--===============7286758425717742241==--
