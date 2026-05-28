@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0682432438292587230=="
+Content-Type: multipart/mixed; boundary="===============2892250875487521142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 28 May 2026 09:52:17 -0000
-Message-Id: <177996193719.2137869.11760996406826726486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 28 May 2026 09:52:41 -0000
+Message-Id: <177996196150.2138190.10829043682200953575@gitolite.kernel.org>
 
---===============0682432438292587230==
+--===============2892250875487521142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: adff9de1b6cac4f74f3eb21e5d84d9cd189a657b
-    new: 5850ba39fa4fbaf2d5b221272b4ee5aabf2a0794
+  - ref: refs/heads/master
+    old: 53f199fa11e3b99dfc2dbbe4bc6e5a6f550669c4
+    new: 049e682496e9d59a4524e14ef20f139660fd15ba
     log: |
-         ba742531260782a2646bc031f9a12cafebc22594 mm, slab: add an optimistic __slab_try_return_freelist()
-         93a51a74d7de4c2e25829caadc49547117de333a mm, slab: simplify returning slab in __refill_objects_node()
-         c996bad23b9164cfbdd6881f51316622e2a32210 mm/slub: fix typo in sheaves comment
-         a57522b29e8125502d5bf6b8b519036cbfe5b9e7 Merge branch 'slab/for-7.2/alloc_token' into slab/for-next
-         5850ba39fa4fbaf2d5b221272b4ee5aabf2a0794 Merge branch 'slab/for-7.2/tools' into slab/for-next
+         049e682496e9d59a4524e14ef20f139660fd15ba 6.12-stable patches
          
 
---===============0682432438292587230==
+--===============2892250875487521142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1779961933 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1779961933-18d2c99b7d35ab617249e4b4aff0a492e81606e8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779961910 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1779961946-bb3e1a5f81dd325a272e0ac03101d106939e0857
 
-adff9de1b6cac4f74f3eb21e5d84d9cd189a657b 5850ba39fa4fbaf2d5b221272b4ee5aabf2a0794 refs/heads/slab/for-next
+53f199fa11e3b99dfc2dbbe4bc6e5a6f550669c4 049e682496e9d59a4524e14ef20f139660fd15ba refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmoYEE4bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaTnwH/0jAM0UK9M1T3HNoBVq8
-7T/V6AhMRmLqpYhvKVjqXNtORw2ySVGoHhXIEykXUePrz48ojqD2gRKTp1Pudjbp
-shRvR2yXf59MMYK+yqve41Z+c/zOf4W82U58n3naWxCRMazL7Zi1R1Jtvf0p/bqT
-DYZt9R4QM3tB7l6r2GagfZRHVIg28AqrKuSCfBEJ2B2hRmrFR9aA90GdCVIMR5nH
-ZJQcIXm/0KTkiKT4oiuIBdbptlXMdOT829ujFpRQ8rpyumGH5vaqiAmPNhqvIt7q
-XYjQZl0uwInPP5sYmpjd9nQOc32pmhFIMAFbSa8DHPLzQnlOgqpDxvw97BcsMIb1
-wuk=
-=157u
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoYEDYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tzAQAKX/o6+p7EfqslpB5uSx
+RYGtIOt/7PhD9rCx+0/dwiJc0FjrS7ZDeUGWLkb5NhI/5KO6ILeGqDuPjAhnzIzx
+7Cwc4KH53UKmGgthdJMnCk+GEWGIbBQdbnExwlzOtyzkkO6N+GLqmmqy+EQwwyFu
+9SZsYPVBU6le34sJKxZplO2krI0BzThPZfEymeI+m5EjIgK0klxe9Hl9OCg96s3p
+K/HPO7ienABVw7jf27O20IG5tjmXloP7a7wvWc5MgW8ZXVs/IG/qQ5TRWgkcWHsH
+ur26WreMHQ8vZOiGwqccyJVLdFH36vJCEVVwn46xzzHhw2U+bsgRct5Xz55IZM+P
+wfv7AKndjDqW+YRfE2cvbYnjw4wY915DRAtOg/CZC2ydCcr8GpHDrpT19JAt9Exf
+KginIqeTJPf9iRhYQC2/QZv6O0epqIfZ6cUOsNmgdazeeSECHLJMMjlr5mlJdduX
+mng35sr7i/11MNh913/A783v0HyiIAFIt0IZyxRn4Fzg1SCF1mZGAPasHK3lGv6z
+mDTwBFH62587J4IcFUenCmKtFWMh0IR/USJ7YGVA0bL+gnd7jcoeQGGKVKSjQH0G
+hfG5FNChoBnD9+cFRylFXcyTdSOTptHmTDt7cXBWz/w0eFoNIZ2hLjqhAIswXHXJ
+z5sKcDlvlA+q7cmKkD1aajet
+=DemX
 -----END PGP SIGNATURE-----
 
---===============0682432438292587230==--
+--===============2892250875487521142==--
