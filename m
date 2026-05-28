@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 28 May 2026 03:22:27 -0000
-Message-Id: <177993854795.1781147.17880506082361758492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Thu, 28 May 2026 04:28:05 -0000
+Message-Id: <177994248543.1827383.5209232575166890685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/edac-misc
-    old: 9de7d8a7f56df40d88642846aa997c49f3101a5b
-    new: 2c6a0994e9f15da5aba8cb108df35a257a792030
+  - ref: refs/heads/for-next
+    old: 77750c0d8d837f59ad6ecde0157fd245ff3f3421
+    new: 4178de898c341e6c259851a2be1c7649ac4f40ad
+    log: |
+         4178de898c341e6c259851a2be1c7649ac4f40ad platform/chrome: cros_ec_chardev: Introduce rwsem for protecting ec_dev
+         
