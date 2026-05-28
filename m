@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 28 May 2026 08:35:50 -0000
-Message-Id: <177995735008.2051176.3841086609798329811@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1667564090213647210=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 28 May 2026 08:41:40 -0000
+Message-Id: <177995770045.2055418.10431792009694845877@gitolite.kernel.org>
+
+--===============1667564090213647210==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/xfs-7.1-fixes
-    old: c69439a891ccb37ede5d68539636337c6bd92fab
-    new: c1b17bee804a4ccd7cdc46873b48d60c78d621bb
+  - ref: refs/heads/master
+    old: a9580111f9b37b8357e1f197383627c424ececc2
+    new: 533e8adf18e6443e3976600ab3221059218c6a23
     log: |
-         6f4d98bb8b4d4fe4e15e8ca4e7718c799186efcf xfs: handle racing deletions in xfs_zone_gc_iter_irec
-         ed47e798adcc2d761b40ac5182a62bb09f689411 xfs: fix use of uninitialized imap in xfs_fs_map_blocks error path
-         92ad95ab8dc748b917a37f216e0b76cbc31b70d0 xfs: fix overlapping extents returned for pNFS LAYOUTGET
-         f92659c50b76ea24d0f8dc7e4d2824e93b566096 xfs: fix error returns in CoW fork repair
-         c734e8bf321dd5280d6681af79dbf6d9f3abdbdc xfs: fix rtgroup cleanup in CoW fork repair
-         32da0ae8defd1d4dc30be66bb9b27911aa13b36c xfs: drop the RTG reference later in xfs_ioc_rtgroup_geometry
-         2c5bcddde423927c90b58f21e4fe50fe5b393984 xfs: factor rtgroup geom write pointer reporting into a helper
-         c53f9b627a6cee58d43767d3b5c22a38234989ee xfs: abort mount if xfs_fs_reserve_ag_blocks fails
-         c1b17bee804a4ccd7cdc46873b48d60c78d621bb xfs: Remove mention of PageWriteback
+         533e8adf18e6443e3976600ab3221059218c6a23 5.10-stable patches
          
+
+--===============1667564090213647210==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779957649 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1779957698-8d1ee9ce9566d50791d8354e9cfe46e12f594bde
+
+a9580111f9b37b8357e1f197383627c424ececc2 533e8adf18e6443e3976600ab3221059218c6a23 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoX/5EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W3EQAJm09V79glGWo1x4j+j/
+lMHzAUA9bq8khdZM7SAPDxHQGCOrwfxKQnFzW4sUSKitP+I3rIXtbqrSF7EGexTS
+73WArnf6e4r1cJeKViQSG5j8vRE7oZpzkOhdYRln4lsLaMqLEwEaZ4hwbprgJegB
+eicn3Pc14kvvkdhRN6y5xwGgb/vAdaUVHC8iejY0gxL7PTcVqdbPvmE/J2ZWST+q
+1I2Ax/XW1PzUBJCVoNw4KqV8yC3/M7R+9AK5MXIsqD/Mz7GhjQWywzyF1EObgP03
+ieB5586CUvDEnU8aS1KSZeW5QyOZxiAZFLJWldxQuE8FT+g4EwpAKdK74OoKU7jD
+V13AzMJ8kA1gy6MQCva7pEkjpCFkxUOgd4Xg0UY5sn1F9ZV1hv0aVMT/W58xk4MA
+8KHO80zcL4hOmi4JE/UAcFz640W63bwnvh13H4xd7WGNYt4ccbRuocemDgbdQgoo
+rcgagUqb0Wi5Z7nFKzi0sa7PE6U4wHz7Bmp4466SiXqGJaop0GlavYeWH5oUgF4F
+d963kh1vqUGc3PMnUbh2ZINqTRuzEeevumWkYlY5J+Fq4G0VHWbwWlHEatwjs9Ba
+pO+pQrCi8bQKOxkLRzf74I/aG3kzKqYRNhDNiaIqmpkF5U9qWfnwhr6uMp9rl90B
+KbAfo6kgwp9P7N9NymiWh50Y
+=cswQ
+-----END PGP SIGNATURE-----
+
+--===============1667564090213647210==--
