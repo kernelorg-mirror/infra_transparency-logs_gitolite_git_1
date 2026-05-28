@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 27 May 2026 23:59:59 -0000
-Message-Id: <177992639958.1622942.12103368584491370535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 28 May 2026 00:05:21 -0000
+Message-Id: <177992672145.1628703.15203947720317611821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: dd433671fef381fdaf7b530c631e6b782d66e224
-    new: 8ba68464e4787b6a7ec938826e16124df20fd23d
+    old: aa064a614efcfa4c300609d1f01134e99a12ad10
+    new: 56ed77ff6022271e172f043b44193889226e42b0
     log: |
-         8ba68464e4787b6a7ec938826e16124df20fd23d bonding: refuse to enslave CAN devices
+         f289c0664f64578355d10a85a6e0108fd182043c net/dns_resolver: consolidate namelen checks in dns_query
+         56ed77ff6022271e172f043b44193889226e42b0 ipv6: mcast: annotate data-races around mca_users
          
