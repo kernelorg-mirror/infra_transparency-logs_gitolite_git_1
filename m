@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5394091364919639803=="
+Content-Type: multipart/mixed; boundary="===============7796253626995944288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 28 May 2026 22:02:29 -0000
-Message-Id: <178000574912.2722719.12709157931794231188@gitolite.kernel.org>
+Date: Thu, 28 May 2026 22:03:07 -0000
+Message-Id: <178000578797.2723160.932779788838256722@gitolite.kernel.org>
 
---===============5394091364919639803==
+--===============7796253626995944288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 8dbb80525730a16c7b38b07c2400df36e11ed605
-    new: 9318b3b22e833b5edcd378d28c64b4f88a801b7b
-    log: revlist-8dbb80525730-9318b3b22e83.txt
+  - ref: refs/heads/arm/fixes
+    old: 1fcf4149418e7a8f8253dd74059d56340795503f
+    new: 04e12996daf13eaa8e16c6312c02c7d71d96800a
+    log: revlist-1fcf4149418e-04e12996daf1.txt
 
---===============5394091364919639803==
+--===============7796253626995944288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dbb80525730-9318b3b22e83.txt
+Content-Disposition: attachment; filename=revlist-1fcf4149418e-04e12996daf1.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 2c6821657ce3b3c85f92719ea81ec9f9ff27df11 soc: imx8m: Fix match data lookup for soc device
@@ -56,7 +56,5 @@ d1b903651393881d3016d04abd9fbcdad0c082ff Merge tag 'qcom-arm64-fixes-for-7.1' of
 acbfa4ed973a20ae6d1419ad10b0290d700b7683 Merge tag 'qcom-arm64-defconfig-fixes-for-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
 66ac2df408ede627aaae588d4ce7e611dd25b4f9 ARM: dts: gemini: Fix partition offsets
 04e12996daf13eaa8e16c6312c02c7d71d96800a Merge tag 'imx-soc-fixes-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
-337939908090c46f6a5cd1b8931da1ed45211312 Merge branch 'arm/fixes' into for-next
-9318b3b22e833b5edcd378d28c64b4f88a801b7b soc: document merges
 
---===============5394091364919639803==--
+--===============7796253626995944288==--
