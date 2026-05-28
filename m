@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 28 May 2026 06:50:05 -0000
-Message-Id: <177995100595.1932188.12986678604748515836@gitolite.kernel.org>
+Date: Thu, 28 May 2026 06:53:58 -0000
+Message-Id: <177995123854.1933827.5019091015281798683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
   - ref: refs/heads/for-next
-    old: 6e0ce12388ea871f82af9e7d40be8c2ae076fa19
-    new: dd2a81f6812fad2880cf9bec6a8a35cd8a389a9c
+    old: dd2a81f6812fad2880cf9bec6a8a35cd8a389a9c
+    new: b7ed008e12c9ba647daa0bd1487a8b7e283294a4
     log: |
-         dd2a81f6812fad2880cf9bec6a8a35cd8a389a9c ata: libata: Fix ata_exec_internal()
+         b7ed008e12c9ba647daa0bd1487a8b7e283294a4 ata: ahci: use hweight_long() to count port_map bits
          
