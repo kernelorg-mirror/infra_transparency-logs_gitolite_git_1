@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 28 May 2026 15:20:58 -0000
-Message-Id: <177998165806.2405253.10801200885038751127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 28 May 2026 15:30:04 -0000
+Message-Id: <177998220483.2412257.11127603487538411775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 87a014bb4f5c74a55d78bcfa1145a300d1673939
-    new: 3fd8927b2d63b2430202cff0b65750859b33e156
-    log: |
-         3fd8927b2d63b2430202cff0b65750859b33e156 Fixes for all trees
-         
+  - ref: refs/heads/vfs-7.2-merge
+    old: 0000000000000000000000000000000000000000
+    new: 77c7b9d5221c640b55568b20dc2bbcc1f77afd17
