@@ -1,34 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 28 May 2026 14:01:15 -0000
-Message-Id: <177997687511.2337680.16666011652168261390@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8037870760607020467=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 28 May 2026 14:01:16 -0000
+Message-Id: <177997687648.2337767.7130610813302495500@gitolite.kernel.org>
+
+--===============8037870760607020467==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2/block
-    old: 1133b93fc7f63defaa2c07d5f49873c14bb74681
-    new: a7d8eaee7fafe2e2c58aef9579bdef778c144029
+  - ref: refs/heads/master
+    old: 481db1a8ba5d47c0e0c8cda36459169962f8a7ea
+    new: fcdbce9c4809b2a7df2aff9ded6bf9439211ea5c
     log: |
-         353c85082a82fa6d78cbb3821749d5982ffed9f4 block: mark biovec_init_pool static
-         7dea9029721675d475e093116cef569253960e06 loop: cleanup lo_rw_aio
-         adf3a5cef1a839e388dc382b3e07623f52746322 nvme-tcp: cleanup nvme_tcp_init_iter
-         f6fe52a7b18675d76d7f7dae0c16f412a4e33f9a bvec: make the bvec_iter helpers inline functions
-         a7d8eaee7fafe2e2c58aef9579bdef778c144029 block: add a bio_endio_status helper
+         fcdbce9c4809b2a7df2aff9ded6bf9439211ea5c drop some patches
          
-  - ref: refs/heads/for-next
-    old: 09ee7ec734cadd1d09740057dba1d8b5ee79f532
-    new: f6a81df79703486bb78087d3feed76b7f99378ba
-    log: |
-         353c85082a82fa6d78cbb3821749d5982ffed9f4 block: mark biovec_init_pool static
-         7dea9029721675d475e093116cef569253960e06 loop: cleanup lo_rw_aio
-         adf3a5cef1a839e388dc382b3e07623f52746322 nvme-tcp: cleanup nvme_tcp_init_iter
-         f6fe52a7b18675d76d7f7dae0c16f412a4e33f9a bvec: make the bvec_iter helpers inline functions
-         a7d8eaee7fafe2e2c58aef9579bdef778c144029 block: add a bio_endio_status helper
-         f6a81df79703486bb78087d3feed76b7f99378ba Merge branch 'for-7.2/block' into for-next
-         
+
+--===============8037870760607020467==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779976825 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1779976874-d55f95cdeda06c7d8b631d3e04c84eead56ceeaa
+
+481db1a8ba5d47c0e0c8cda36459169962f8a7ea fcdbce9c4809b2a7df2aff9ded6bf9439211ea5c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoYSnkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N80P/16Ky7fwyF3Lo4edSQ24
+4zFI10bhZoQivEW6rYmtYLvF+RYkHztAaqaOf0tdUgibuovlQ5XhwM863Sh41odg
+dtSaLX3UBt9v9C2U2gosgOYm+8XLHDI1rvR0QkaFROOgpJGMDToWQ7XF0D49ArFM
+BbI6CvZlbaQWjIMYK5um5GimyVlqjgyoV2iLhDQtdbsU2YQt5/5nTL7E3Ep+n2Nm
+3flnmXp79YyJf8NrxzhHyb1B8CtmIB3fGXsnSju+nwrmsc27Lr4jVPoSb2Cgv0BT
+Ccw2sxx4PA/OsSKhN/hKjCfV3d+a7S4gc9UJoxmXolvLAYSKX0NiaC2zmAf4FPQI
+6DRIEGm1d6OYhD4XwFYzGke2cXsyLAT9RVh0+qpdYlR/fIVkq8wPYOEQpnImbsJL
+idz6EnzApKDHeZuXQ/dWDCVMVmWVWbqkzg3KqHtuxX3R2JTW0T2YsrFkuR+uaJAB
+D7qFjIga+N8bxlArCDSiA/g4DT9mGRtZbrhvBkDGbXkY0WqwqfZ81XZBCdzog8sD
+K1gdmgHyAoZdVMHPBQrgJiZf/uEbnriWrjB2NiB6681u2NfJJTOtbwoCQaiHlcHe
+gtOfSrtFDpHsyaaCD9Eu8DvFiaCMfsY2CFOADIA2ZQHD/gL6hJ3ECc3wrjKWid6E
+b2i/YrFHvXWBEwuHS+YgwgTo
+=I6U+
+-----END PGP SIGNATURE-----
+
+--===============8037870760607020467==--
