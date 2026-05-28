@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5983176576360758345=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 28 May 2026 09:38:22 -0000
-Message-Id: <177996110267.2125396.12194768724528342820@gitolite.kernel.org>
-
---===============5983176576360758345==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 28 May 2026 09:39:21 -0000
+Message-Id: <177996116166.2126079.5554251348811698386@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 30cb6ba8abe7a963987455c1a43ac07a149069e2
-    new: 8e4aadfb4571fdac6f858edfb945d169d45fb13e
+  - ref: refs/heads/sched/core
+    old: 9e005ed21152d4a4bb0ceea71045ff8a642a6feb
+    new: 5ad278dd20bdf59714443894d7b3044471af97d0
     log: |
-         8e4aadfb4571fdac6f858edfb945d169d45fb13e strip the new mbox files
+         25139c11693afed894db46d1a44e2b6e015b804d sched/fair: Fix RCU usage in NOHZ exit path on CPU offline
+         333f6f0e11acc20d036f94f94709874f76d0b430 sched/debug: Use char * instead of char (*)[]
+         77557002234546a4fb46ebf517d6cb1d515535a9 sched: Use {READ,WRITE}_ONCE() for preempt_dynamic_mode
+         e05777c44e53df8ab41d930510a384d65a34aafa sched/debug: Collapse subsequent CONFIG_SCHED_CLASS_EXT sections
+         b3a2dfa8b42e5b97dd144aa59374f4e045725cac sched/fair: Add newidle balance to pick_task_fair()
+         5ad278dd20bdf59714443894d7b3044471af97d0 sched: Remove sched_class::pick_next_task()
          
-
---===============5983176576360758345==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779961051 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1779961101-77c607625a3941cff76f0d772134d72cfdbe3e3d
-
-30cb6ba8abe7a963987455c1a43ac07a149069e2 8e4aadfb4571fdac6f858edfb945d169d45fb13e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoYDNsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+thsP/20Ct+N4z7//OT8AKCWu
-t4s3LCvKpbYZs6o9/0BYGEe9Utwzj9MDbxjKhGqUnzQGBAtvqLuhBxQapf1EBOox
-CuzU2cSBVs3hDbAQBYtlQExFxhvRDFBSGNjFBg6XsolIaLkPEBhoZ4H2e0dPNgzw
-8YZpjw2NXDjb9LMtv/FRRFG5cTG5+1i8p5J400dmAFogztvHbkdW1ZrOjzVaQjaq
-AP5QaHzR2errgpjoJ86Ky5a+ehO+S1rRD/qbr+rwxemIDRcgmTACLNgShN9ROVnH
-fAe2SIdf6oAJVu6iSBHWIUxXUS+Skgq9F7oB16sqQg2oOI09eSXcKff7AfSCtDCx
-EpzdPhEtTCkf3RxhLnRG9OKHxfeoA5HXoQX/zrsICfD6uTS6vh7579EgZjE3WBHy
-OwEKqS3xYT9+iRLfv+DjfeNSdBKyfjR+TQizhasWwSnr+wDkhox2/iDwzmqHklnT
-fWox3SPBL7Z9DA03x/f8pUwjhuRr1mGL+aGWyf8ysVm7Y5OUtwDypKsz1TQ4jpDi
-If3IlpcOGCYPqXnh0h/J66K2NxOa06XTDik1RUPmqIRXo/MNUJ1MNvn3NvvjRuAT
-CAqINvqiRqQOnNmxTlx2Qxq/tewc1rpz+n0OfqXQ47tgDYa5K/oZYMUWbtw9yazB
-6dXVu80Can3ZKoE7zJo3l+3j
-=Yhzy
------END PGP SIGNATURE-----
-
---===============5983176576360758345==--
