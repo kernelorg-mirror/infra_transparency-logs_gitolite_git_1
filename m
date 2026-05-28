@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1024770153823706100=="
+Content-Type: multipart/mixed; boundary="===============7774388044383781073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 28 May 2026 22:11:27 -0000
-Message-Id: <178000628766.2749982.4705634610180031002@gitolite.kernel.org>
+Date: Thu, 28 May 2026 22:11:31 -0000
+Message-Id: <178000629159.2750220.7743257999172676154@gitolite.kernel.org>
 
---===============1024770153823706100==
+--===============7774388044383781073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 70dc84bd48dccc711261c4abfd96da4aa0f2eecf
-    new: b371250b986abc4065c3e627a8911ea89f634423
-    log: revlist-70dc84bd48dc-b371250b986a.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 7fa87207d2d0b57e10ff5202bf3c7a2ad985026f
+    new: b11ddf9941aa077e8223e991613d4b1578fe9651
+    log: revlist-7fa87207d2d0-b11ddf9941aa.txt
 
---===============1024770153823706100==
+--===============7774388044383781073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70dc84bd48dc-b371250b986a.txt
+Content-Disposition: attachment; filename=revlist-7fa87207d2d0-b11ddf9941aa.txt
 
 8314eea93e25b8756e6d70bbf3ef5dbe7ba4cbe4 i2c: tiny-usb: Replace dev_err() with dev_err_probe() in probe function
 c2b2bf9989568f9430e1f3dc06f56fd68452a311 i2c: tegra: Replace dev_err() with dev_err_probe() in probe function
@@ -36,5 +36,6 @@ fa08414db666a178e52f5ed7e1f538301bf0767a i2c: st: Replace dev_err() with dev_err
 229b32371e22688362eebf38d00f8abc4b7ead40 i2c: sprd: Replace dev_err() with dev_err_probe() in probe function
 9013a0c9bac5d3bbdda52817f2d5d685b741fd85 i2c: sis96x: Replace dev_err() with dev_err_probe() in probe function
 b371250b986abc4065c3e627a8911ea89f634423 i2c: sis630: Replace dev_err() with dev_err_probe() in probe function
+b11ddf9941aa077e8223e991613d4b1578fe9651 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============1024770153823706100==--
+--===============7774388044383781073==--
