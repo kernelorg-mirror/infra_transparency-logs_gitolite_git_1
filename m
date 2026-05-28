@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1092551179120381117=="
+Content-Type: multipart/mixed; boundary="===============2653646899090015901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 28 May 2026 22:43:56 -0000
-Message-Id: <178000823685.2775272.14336814945638572936@gitolite.kernel.org>
+Date: Thu, 28 May 2026 22:44:03 -0000
+Message-Id: <178000824339.2775509.12176053149072970623@gitolite.kernel.org>
 
---===============1092551179120381117==
+--===============2653646899090015901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 557495bc879013c3d5e21d667e987e7ce3a514de
     new: 2c7c65933600e8db2ec1a78dec5008de876dd3ad
     log: revlist-557495bc8790-2c7c65933600.txt
 
---===============1092551179120381117==
+--===============2653646899090015901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ e189bdb687a56bcf389798f1d3a2f261fff2ef54 rust: types: add `ForLt` trait for high
 d18f3646184fc805d213fc049fc3b5d9fb9a6a27 samples: rust: rust_driver_auxiliary: showcase lifetime-bound registration data
 2c7c65933600e8db2ec1a78dec5008de876dd3ad Merge patch series "rust: device: Higher-Ranked Lifetime Types for device drivers"
 
---===============1092551179120381117==--
+--===============2653646899090015901==--
