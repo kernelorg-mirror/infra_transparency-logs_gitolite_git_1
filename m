@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1390207409193278037=="
+Content-Type: multipart/mixed; boundary="===============5380446261835476314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 28 May 2026 07:41:54 -0000
-Message-Id: <177995411461.1970174.15563644602359940980@gitolite.kernel.org>
+Date: Thu, 28 May 2026 07:42:25 -0000
+Message-Id: <177995414573.1970559.14123450014448199476@gitolite.kernel.org>
 
---===============1390207409193278037==
+--===============5380446261835476314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 79bd2dded182b1d458b18e62684b7f82ffc682e5
-    new: eb3f4b7426cfd2b79d65b7d37155480b32259a11
-    log: revlist-79bd2dded182-eb3f4b7426cf.txt
+  - ref: refs/heads/clanker
+    old: 0220ff45137a90896de01aef9aeaa85570ed3ac4
+    new: 8db901432dd4cb7397296e9605390ea269a1c511
+    log: revlist-0220ff45137a-8db901432dd4.txt
 
---===============1390207409193278037==
+--===============5380446261835476314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779954061 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1779954079 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1779954109-c012d3027fa3dde1152531cec096e5d61be8df07
+nonce 1779954128-9d481a713f614b48b4686803a4f30f97ace512be
 
-79bd2dded182b1d458b18e62684b7f82ffc682e5 eb3f4b7426cfd2b79d65b7d37155480b32259a11 refs/heads/main
+0220ff45137a90896de01aef9aeaa85570ed3ac4 8db901432dd4cb7397296e9605390ea269a1c511 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoX8Y0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8FwQAIsuWL1c7pqSmICet2/A
-9X8Hbw0peQ4+rzknzLkJVIJHAvterI0j+zFooImHHmc+Y4ZiIgu8q57f88pN+vEP
-/T0IHpZw8WCxhWrWkos0uIOZADwl7PN8ZvHF9LEcrCLK1w1bf50jVbVbMiOTt1KP
-ObYvGbTC5PanrLwpsTXhKouRxi+oT2y0ff2uRJcH2YST27eC1MHA0ZyLwJ9HFp6u
-lYUWNbYa4m/71be+MJOcgcHvWQrEkZSV+JFO26+xh+ZrJ6M+49/SsNGCiBuxMxR2
-K51Wrzn34DTZuP85Qa6BiW63f6WIrbnPMSlUNC8eqvpBSvvt1R26mhe8rP48DFNG
-TgR0eoRMXmtBAZSzWll9DyM2RDx8xIOCOaqZjre2jMP0isT3ML2tA3vAzh3SSlHw
-xcCqgWHrDQwjMJq+bw3evh8VSAaJk7P8VYt5Yi2o8tRZ1keX48rrfFO6FMQ2Vp9e
-D0RLQMnV3HEjSzfkfF1As+hoDQrsX0XNnVlDc2Sc2eK4qHAGSbiQloCxJi5uQejS
-taY2Ha1adiphBe5e2hiB3BtdGCCLFN/FTWp0LQ07OGvlMhP/sLKl41Fwby3DEYvq
-oigrQMJlBqRZbG+3n57EHQ+nua4GHFy72iX1kanpVbqt+NKJRCN0XaCzVTvW0MlT
-YZMpvqXY1hQhkfyKMIUhGtK2
-=TR78
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoX8Z8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wK0P/2Yn+S57Zf+Q2qBDOvcF
+uoTlFroiQoV8DFgO0fIPrTN3NrekYk8JvvPgP3WI4pJyhc1T8V8j9XKNjbY7ujrQ
+TG1Cqh/Oru3phUkDQG6RPkHhuTtJlAzcAboMIsDxLgwW1TBg1dItpZJ6FQ+TUpE9
+6/tItU9Jw7naoT66pGT9fYNeLLAG+LryOTfCdfu6z06ygPg7LU/WH9TIVKyLSz2v
+TWcs4N+Ll/y16/cPJDHhitVzCZEy5KGOUzDtm6pIbvIQJ8uVscAfIbWYmA8EaB79
+y6FcGnaLZDZXTwaFnH0EHUmldD5pW/nq7XtXMQ5VGt/zzcrWaRQCL9VZP8j323hX
+Aakipax0xr0Hd7EX6bac4YGLH36Jh7xEgK2i7wObNt6Q5RSaHot/BZ99j5iFzA1Y
+Iv6+U8xclzq+TTnGIxzvtMhjlN5vNEqKxVcIWgmtI0AhR0DXnFuitBc1o0vwpAb/
+Y7T0M//drX/TbY18mBRysviB7dZ8jI3xL08b7xnF+gtngOuq0j1+H66w1c/gruSp
+zZyGuWnCVsQSiC7Q7ATarzCkoKlLwIG7K6Z2lQQKIbnYxKgsYc4UevOSe2dsq3c6
+MViUS6aUYTCNmt8G8OWB6ahpMSkQqFXBskJ3bnXfk7Km39lpnfDPZN/494R3Gmoo
+Ry9+okb3y/2VVQrHYHGzNHa9
+=Lutp
 -----END PGP SIGNATURE-----
 
---===============1390207409193278037==
+--===============5380446261835476314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79bd2dded182-eb3f4b7426cf.txt
+Content-Disposition: attachment; filename=revlist-0220ff45137a-8db901432dd4.txt
 
 fb7415f2ab0e3c818254cbf5fb0afda71bef4333 dm vdo: use GFP_NOIO for blkdev_issue_zeroout on format path
 4314a44564eb1565349fed7a4192344c5f46fc85 bpf: Fix out-of-bounds read in bpf_patch_call_args()
@@ -191,5 +191,40 @@ e8c2f9fdadee7cbc75134dc463c1e0d856d6e5c7 Merge tag 'for-7.1/hpfs-fixes' of git:/
 d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8 Merge tag 'mm-hotfixes-stable-2026-05-25-16-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e909cedf6800ef493063f18a089f3632817a8c2d Merge tag 'linux_kselftest-kunit-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 eb3f4b7426cfd2b79d65b7d37155480b32259a11 Merge tag 'nfsd-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+b3562a8c8c9a2492ae6ced25d3d94efa2c1c5d69 net: mctp: usb: properly drop the usb interface on probe error
+07582f028aa8bd475d1347300aab5063dc544466 wifi: rtw88: properly drop usb interface reference on error
+9447c85ade9a5e2dbc087a7d3544d6e15921bd60 mmc: moxart: fix potential use-after-free on remove path.
+3edb83d50a09cb7f1d609fdf6cb4b74970c33b4a mmc: meson-gx: fix potential use-after-free on remove path.
+0c7d8a6b07977b26cc2e9f82d63634ab3ad07be3 f2fs: fix potential deadlock in f2fs_convert_inline_inode
+1e09926a5d979058dd7cd53823c46d903c51bf95 drm/amdkfd: stop speculation on the kfd_ioctl path
+3e03a6c0fc5c72940bf790a4061e10e3f9bf0b6c iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+15b6fa34419363d559d2ade1b863052c2639778f iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+20de9f5a7a995ba21ec2aed4a4835cd5e2db35ab iio: imu: adis16550: fix stack leak in trigger handler
+9f693edd71d6764d339753d59ed38c70b2650dc8 media: adv7604: avoid negative array index in log_status when cp_read fails
+0b1417a41f3544ca2b23e97ebeb4ce3abb43858d media: stv090x: bound DiSEqC reply length to msg[] size
+93dca5f62601ba833cdf16469b7548edf277b995 media: stv0900: bound DiSEqC reply length to msg[] size
+eae0cfb762254bd43d88d37f02ad9bcc4035286c NFC: digital: Bounds check Felica response before sensf_res memcpy
+338adc4421c062876eb3219ee5f5c783c1e279f9 net: usb: cdc_ncm: reject negative chained NDP offsets
+e7e2f584490230eae16ddb90ef2ec106df31d7a2 net: sched: em_text: require NUL-terminated algo name
+b733812fb5a42363e3d6cba4e5254e858c87a939 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+b1a5b0d70cc8e8f5595a5a6613076d146e9ace37 Input: xpad - reject short Xbox One packets before len-relative share-button index
+e944cc33f4e8945080b08b0aa1e220488958be11 Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
+76c633fae6e28bf2736f339f534cb152e9436b02 Input: synaptics-rmi4 - validate register descriptor structure against its declared size
+eac7fdb8759ccd294b20de7f905c05dbf96f9512 Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
+0c739850a146e2b616b23647318b3f6d8daa14fd ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+91908356181c78a8d1afc6c1a85a07fbdaf7bd6c io_uring: depend on MMU
+e039d673dc916b2329125025e2ec5673ec171264 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
+44f316b223de830995c4264d4c5503e65ef69721 usb: typec: wcove: don't write past struct pd_message in wcove_read_rx_buffer()
+9c29353b9fcbe2ac525e9ec4ae0d09075e3ac177 usb: typec: altmodes/displayport: validate count before reading Status Update VDO
+06702373b58e6109c23086ce011e43e8e65df4d1 usb: typec: tcpm/tcpci_maxim: validate header NDO against RX_BYTE_CNT
+50974cb07041bd2920fd5d9da515f3bc89750cb6 usb: typec: tcpm: validate VDO count in Discover Identity ACK handlers
+1a5f8f65410c9f831f4ffadc3ff270525e8c3792 usb: typec: tcpm: validate VDO count before reading Attention status VDO
+36b7444e2d0c7c4d1e028b1a880cc11e15e7433b usb: typec: tcpm: bound altmode_desc[] per iteration in svdm_consume_modes()
+943a323a02622b1c4c48c3fec731bb7e1e080f10 usb: typec: ucsi: displayport: NAK DP_CMD_CONFIGURE without a payload VDO
+494abc4e61f36ae0551a1c71fdf75bb9895d661a usb: typec: ucsi: validate connector number in ucsi_connector_change()
+3c8ec10be388ded5d65f0456b761545fe5402853 iio: adc: ti-ads1298: add bounds check to pga_settings index
+029a040c44c564816c00c6a3d1e69e79d3068ea1 iio: light: veml6075: add bounds check to veml6075_it_ms index
+4de33fc26adfe249584a6fbd7422f706754f3425 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+8db901432dd4cb7397296e9605390ea269a1c511 usb: typec: ucsi: ccg: reject firmware images without a ':' record header
 
---===============1390207409193278037==--
+--===============5380446261835476314==--
