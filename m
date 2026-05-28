@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 28 May 2026 18:13:27 -0000
-Message-Id: <177999200749.2538218.1432052427154580224@gitolite.kernel.org>
+Date: Thu, 28 May 2026 18:13:31 -0000
+Message-Id: <177999201181.2538338.9987672866234758246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.2
-    old: 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d
-    new: b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d
+  - ref: refs/heads/spi-7.1
+    old: 60474437af5fe12abd20607766c809e0ad4e7245
+    new: 79378db6a86c7014cce40b65252e6c18f5b8bcc2
     log: |
-         b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d regulator: remove used pcap regulator driver
+         79378db6a86c7014cce40b65252e6c18f5b8bcc2 spi: spi-mem: avoid mutating op template in spi_mem_supports_op()
          
