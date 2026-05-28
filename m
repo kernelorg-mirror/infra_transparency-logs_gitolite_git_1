@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5989687835875443719=="
+Content-Type: multipart/mixed; boundary="===============6126970531368470765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 28 May 2026 17:27:00 -0000
-Message-Id: <177998922056.2503271.8725610254831514367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 28 May 2026 17:27:17 -0000
+Message-Id: <177998923715.2503748.13195253557809006968@gitolite.kernel.org>
 
---===============5989687835875443719==
+--===============6126970531368470765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: c89215948ca2f716b323fad9cbe2f5bdbc37b56e
 
---===============5989687835875443719==
+--===============6126970531368470765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ dd52746d3d155d43d14e545ac7904da42239167f Merge branch 'next' of https://git.kern
 fd34495312f1bca06add15a805e920d5f271ec2b Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 f7af91adc230aa99e23330ecf85bc9badd9780ad Add linux-next specific files for 20260528
 
---===============5989687835875443719==--
+--===============6126970531368470765==--
