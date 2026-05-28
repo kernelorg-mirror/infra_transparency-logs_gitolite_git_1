@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3245678922252500502=="
+Content-Type: multipart/mixed; boundary="===============2094230665058917193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 28 May 2026 19:58:18 -0000
-Message-Id: <177999829821.2622528.423476568883300873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Thu, 28 May 2026 20:04:35 -0000
+Message-Id: <177999867536.2626820.12573822795358168580@gitolite.kernel.org>
 
---===============3245678922252500502==
+--===============2094230665058917193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: dexuan
 changes:
-  - ref: refs/heads/rootns
-    old: 0026164101f5eaeb1e2394b381d1c3863faeb79d
-    new: a7fde1280c1b227b71c5104a5d1fd909e0cb77cf
-    log: revlist-0026164101f5-a7fde1280c1b.txt
+  - ref: refs/heads/decui/hyperv-next/tdx-acpi-mailbox
+    old: f992d63d779ed0c1fcc9ea3d115c64889f2eeb62
+    new: 7a035678fc2bdee81881170764ef08a91a076147
+    log: revlist-f992d63d779e-7a035678fc2b.txt
 
---===============3245678922252500502==
+--===============2094230665058917193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0026164101f5-a7fde1280c1b.txt
+Content-Disposition: attachment; filename=revlist-f992d63d779e-7a035678fc2b.txt
 
-74ab8cdaa5cfc80af6be7db31058c65bfcb015ed nsproxy: Export create_new_namespaces()
-c5c28d254c0a8634cb0d920af3e645e0250dc22a nsproxy: Replace task_struct with nsproxy in create_new_namespaces()
-86dbb169cb57c74be68e3028ae2c04345e804001 rootns: Add core infrastructure for root namespaces
-9369af0f7fb3182759b3f36a9c8c0793c2aeab9a fork: Handle copy_process() and do_exit()
-7ad9da7f9c73aadef64a739763c87f1d713d8e0d rootns: Implement rootns_create()
-f3b0998d3585d2ee64e0c1d3cd022f9e182d8496 rootns: Implement rootns_wait()
-3a2764d4cd08266b6a230561cc5548577a56babc rootns: Implement rootns_kill()
-6fa215db4a106f789daab97434430442d73880dc rootns: Implement rootns_enter()
-1390244f17a378a81c8846db3a64236a88958954 rootns, fs: Create a superblock in fsopen()
-a805e259151ab1dbe3ac1bfc1cc3fbaa8aae98ee rootns, vfs: Install and populate rootns mount trees
-47ecf8eca02a013a706edcaf561005e0dc9183f5 security: Add rootns LSM hooks
-d3df947d0da259b0aaffca97c209763458238f6d docs: Document root namespace uAPI
-ab673f5574601442d5ad6420460a61b5dd44d83b MAINTAINERS: Add entry for ROOT NAMESPACE
-a7fde1280c1b227b71c5104a5d1fd909e0cb77cf rootns: kselftest
+bdf5eb306c4d07a3bfdd4e2ab8f2acc7ff824940 x86/topology: Add missing struct declaration and attribute dependency
+a746607df24b4b01fef380390c0b499b84fc7863 x86/acpi: Add functions to setup and access the wakeup mailbox
+b7c8992aea5e0aca6f5c3d1e57ed568eeddfe9a0 dt-bindings: reserved-memory: Wakeup Mailbox for Intel processors
+12d58799c19572b98ec84c12ec34a228fe3e8c5c x86/dt: Parse the Wakeup Mailbox for Intel processors
+7e4c083ece42ed6c90e4071772847db595081e0e x86/hyperv/vtl: Set real_mode_header in hv_vtl_init_platform()
+a7ac1ea1f06314f6690ac772e9a31d6e2db977fa x86/realmode: Make the location of the trampoline configurable
+aa7719039bd9e378c8c134b8ce5fa5f4e13cda73 x86/hyperv/vtl: Setup the 64-bit trampoline for TDX guests
+12584a89c9172ed5c2718612314a2d6f87260896 x86/acpi: Add a helper to get the address of the wakeup mailbox
+80200341197a799fe39da4e9da61bde4d23ec7ec x86/hyperv/vtl: Mark the wakeup mailbox page as private
+7a035678fc2bdee81881170764ef08a91a076147 x86/hyperv/vtl: Use the wakeup mailbox to boot secondary CPUs
 
---===============3245678922252500502==--
+--===============2094230665058917193==--
