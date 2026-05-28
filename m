@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Thu, 28 May 2026 13:14:57 -0000
-Message-Id: <177997409755.2296294.11143558184922692882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 28 May 2026 13:23:22 -0000
+Message-Id: <177997460221.2304683.103965411828706060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/for-net-2026-05-28
-    old: 0000000000000000000000000000000000000000
-    new: e36edd9a769986aa4b35d667f67a5c1da0669bfe
+  - ref: refs/heads/gpio/for-next
+    old: 5974454ab26a5351abe4897f7110a68120d170fa
+    new: 9de94681ee48770ec7e2062451a572b557bf9298
+    log: |
+         9de94681ee48770ec7e2062451a572b557bf9298 gpio: mxc: use BIT() macro
+         
