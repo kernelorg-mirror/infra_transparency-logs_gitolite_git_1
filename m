@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 28 May 2026 09:32:42 -0000
-Message-Id: <177996076235.2120402.642336115506888694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 28 May 2026 09:34:12 -0000
+Message-Id: <177996085201.2121086.1106484479385487707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/x86/urgent
-    old: a17dc12bfed8868e6a86f3b45c16065a70641acb
-    new: 8aeb879baf12fe64889f019da9a4f8347c604e91
+  - ref: refs/heads/gpio/for-next
+    old: 61442e46fb9de57718a36f54c9ce1ce66ff7750b
+    new: 5974454ab26a5351abe4897f7110a68120d170fa
     log: |
-         8aeb879baf12fe64889f019da9a4f8347c604e91 x86/kvm/vmx: Fix x86_64 CFI build
+         516e4d886941568174f46985fbb7c960c516ada9 gpio: cros-ec: Drop unused assignment of platform_device_id driver data
+         2d43fb71f4ecbd10649a277e8790e7ca27acfdfe gpio: Use named initializers for platform_device_id arrays
+         a8754838f83a9905af516f38dd2633744a94f71a gpio: max77620: Unify usage of space and comma in platform_device_id array
+         5974454ab26a5351abe4897f7110a68120d170fa gpio: realtek-otto: fix kernel-doc warnings
          
