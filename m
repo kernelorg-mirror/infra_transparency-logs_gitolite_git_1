@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0827197557458451843=="
+Content-Type: multipart/mixed; boundary="===============5048289471673544064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 28 May 2026 11:10:04 -0000
-Message-Id: <177996660479.2198038.8825324075029065642@gitolite.kernel.org>
+Date: Thu, 28 May 2026 11:10:15 -0000
+Message-Id: <177996661584.2198283.4448722706205989609@gitolite.kernel.org>
 
---===============0827197557458451843==
+--===============5048289471673544064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/for-next
     old: b7ed008e12c9ba647daa0bd1487a8b7e283294a4
     new: d114b8432030113f466cfe6a27244f6f68cd0f26
     log: revlist-b7ed008e12c9-d114b8432030.txt
 
---===============0827197557458451843==
+--===============5048289471673544064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -510,4 +510,4 @@ dd6bd1567467991e4ac606bc356d46af98f7c5b5 ata: libata-scsi: Move long delayed wor
 fd330b8522b4aff128026933cee307238c2f7b51 ata: libata: Fix ata_exec_internal()
 d114b8432030113f466cfe6a27244f6f68cd0f26 ata: ahci: use hweight_long() to count port_map bits
 
---===============0827197557458451843==--
+--===============5048289471673544064==--
