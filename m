@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 28 May 2026 23:49:05 -0000
-Message-Id: <178001214550.2825715.10180669285298995134@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5110095543780037893=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Thu, 28 May 2026 23:56:59 -0000
+Message-Id: <178001261934.2832394.16610363219426206309@gitolite.kernel.org>
+
+--===============5110095543780037893==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/modules/linux
+user: sami
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: ab4ac5a93b1b76aa6b12cadcba30450868d21a6f
-    new: f14fe6395a8b3d961a61e138ad7b36ba3626dd4e
+  - ref: refs/heads/modules-next
+    old: 3537d8d21112c2fc664cc09895bbef01fa64d34f
+    new: 98e884826e1aaeb3a59b133cfc42a5a751ae7813
     log: |
-         f14fe6395a8b3d961a61e138ad7b36ba3626dd4e sctp: fix race between sctp_wait_for_connect and peeloff
+         98e884826e1aaeb3a59b133cfc42a5a751ae7813 rust: module_param: add missing newline to pr_warn_once
          
+
+--===============5110095543780037893==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1780012618 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
+nonce 1780012618-2ce3a758cee14d517af477d28e164a145eca7ae5
+
+3537d8d21112c2fc664cc09895bbef01fa64d34f 98e884826e1aaeb3a59b133cfc42a5a751ae7813 refs/heads/modules-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCahjWSgAKCRBaByWrOaGn
+eoNYAP9Z7fQlzHdSG99j28a6AGNpKHhP3Ne+3H6/T5qEOBzVYwD+M601Ik8gmLWd
+UPNsD8pmihzmesxt4GBoxkDdf/uu9ww=
+=FW4H
+-----END PGP SIGNATURE-----
+
+--===============5110095543780037893==--
