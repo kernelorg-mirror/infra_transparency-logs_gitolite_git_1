@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4090413177176622238=="
+Content-Type: multipart/mixed; boundary="===============0756776346640912518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 28 May 2026 00:05:57 -0000
-Message-Id: <177992675749.1629361.18309833413384996363@gitolite.kernel.org>
+Date: Thu, 28 May 2026 00:05:59 -0000
+Message-Id: <177992675986.1629627.3802877811006616052@gitolite.kernel.org>
 
---===============4090413177176622238==
+--===============0756776346640912518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 18b9f739d3f292925ca7f67ad63f3a4c0bbfad3d
     new: aa064a614efcfa4c300609d1f01134e99a12ad10
     log: revlist-18b9f739d3f2-aa064a614efc.txt
 
---===============4090413177176622238==
+--===============0756776346640912518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ e896e5c0734b559b5b58f356ebf100ccf5fcd16e rtnetlink: do not acquire RTNL in rtnl_
 d628604f7ea75a4dfe7ee3792f3c79c29ca81c04 rtnetlink: add RTEXT_FILTER_NAME_ONLY support to rtnl_dump_ifinfo()
 aa064a614efcfa4c300609d1f01134e99a12ad10 Merge branch 'rtnetlink-rtnl-avoidance-in-rtnl_getlink-and-rtnl_dump_ifinfo'
 
---===============4090413177176622238==--
+--===============0756776346640912518==--
