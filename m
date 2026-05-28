@@ -1,45 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Thu, 28 May 2026 11:54:24 -0000
-Message-Id: <177996926455.2233383.10544101334501197924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 28 May 2026 12:03:37 -0000
+Message-Id: <177996981772.2240536.13399886756664524836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/amd/amd-vi
-    old: c6580699ffcd44941eaec895d6b5cc2c338d27bd
-    new: 283d245468a2b61c41aa8b582f25ed5615d1c304
+  - ref: refs/heads/rootns
+    old: e5a6a778f0cd5584723651f07f5e46f765b4b2f5
+    new: 25255867356235007874bbffc87d7c6ba9bc0340
     log: |
-         283d245468a2b61c41aa8b582f25ed5615d1c304 iommu/amd: Fix premature break in init_iommu_one()
+         5c733546f1b230249117c303ba5c9e20c5aadaa5 rootns: Implement internal plumbing for root namespaces
+         1965b62403420b1908f4f4f50127b1a75ab49f36 fork: Handle copy_process() and do_exit()
+         fcdf12f96b427680525b61a6856223e0a9e2578e rootns: Implement rootns_create()
+         8710d9d659d550ee7c168080918296350dffed11 rootns: Implement rootns_wait()
+         83d1e1aaa1edfc55a84af17b31d5e7a22105b841 rootns: Implement rootns_kill()
+         96a53900fdbfc0ed7957725a11fa1f68e36b93e9 rootns: Implement rootns_enter()
+         9b5d24f308f442ede6a88f6c0ddfa3cd1907f0e5 rootns, fs: Create a superblock in fsopen()
+         578021fc176cdf0d945599e81051ddaac06c7b09 rootns, vfs: Install and populate rootns mount trees
+         c89c6ee40cadd32099c90495e11bd77b21bd3a3f security: Add rootns LSM hooks
+         a8530b7ccd7ffbeb5903698c18ddb5694df4a3ec docs: Document root namespace uAPI
+         0f5c23a25ee4884e5324bd93117e57a98cf9f77b MAINTAINERS: Add entry for ROOT NAMESPACE
+         25255867356235007874bbffc87d7c6ba9bc0340 rootns: kselftest
          
-  - ref: refs/heads/core
-    old: adb77e757680dcfa79ccc554ec51d42cf56ef69a
-    new: 5ff98a0da6b48d8722eac0080e4185c417925d05
-    log: |
-         91561e1dc94b8a33857370ef3c5b5523c4461d5b PCI: Add pci_ats_required() for CXL.cache capable devices
-         073e6381252541fb2e0f3d36e96605b7f945b362 PCI: Allow ATS to be always on for pre-CXL devices
-         5ff98a0da6b48d8722eac0080e4185c417925d05 iommu/arm-smmu-v3: Allow ATS to be always on
-         
-  - ref: refs/heads/fixes
-    old: 9785df3fd67083ac10f6bde83a316286044a66f1
-    new: 00c257948900fae69dae2a055b378edf09aacf6e
-    log: |
-         4c9ad387aa2d6785299722e54224d34764edaeb3 iommu, debugobjects: avoid gcc-16.1 section mismatch warnings
-         2e4eed207cb4ba513e4a1fdcecbb3732e98f4914 MAINTAINERS: Add Vasant Hegde to reviewers of AMD IOMMU
-         00c257948900fae69dae2a055b378edf09aacf6e MAINTAINERS: Add my employer to my entries
-         
-  - ref: refs/heads/verisilicon
-    old: 6ddfbec80077eca7b7e5a4298750d3dac82997ff
-    new: 3040784f872133836cfa63c58c7e0ca329476d25
-    log: |
-         80b0d3546ce18c5bbae7cebec014beb2fbe81580 iommu: vsi: avoid -Wformat-security warning
-         3040784f872133836cfa63c58c7e0ca329476d25 iommu/vsi: Use list_for_each_entry()
-         
-  - ref: refs/tags/v7.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
