@@ -1,30 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 28 May 2026 12:03:37 -0000
-Message-Id: <177996981772.2240536.13399886756664524836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 28 May 2026 12:07:47 -0000
+Message-Id: <177997006774.2244424.15523754980174758554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/rootns
-    old: e5a6a778f0cd5584723651f07f5e46f765b4b2f5
-    new: 25255867356235007874bbffc87d7c6ba9bc0340
+  - ref: refs/heads/main
+    old: 1af2af707f772f7f7ae7853ebe6d2695354fe85e
+    new: 8d26955ea5a4697c1e21a3869ceb36b90389b051
     log: |
-         5c733546f1b230249117c303ba5c9e20c5aadaa5 rootns: Implement internal plumbing for root namespaces
-         1965b62403420b1908f4f4f50127b1a75ab49f36 fork: Handle copy_process() and do_exit()
-         fcdf12f96b427680525b61a6856223e0a9e2578e rootns: Implement rootns_create()
-         8710d9d659d550ee7c168080918296350dffed11 rootns: Implement rootns_wait()
-         83d1e1aaa1edfc55a84af17b31d5e7a22105b841 rootns: Implement rootns_kill()
-         96a53900fdbfc0ed7957725a11fa1f68e36b93e9 rootns: Implement rootns_enter()
-         9b5d24f308f442ede6a88f6c0ddfa3cd1907f0e5 rootns, fs: Create a superblock in fsopen()
-         578021fc176cdf0d945599e81051ddaac06c7b09 rootns, vfs: Install and populate rootns mount trees
-         c89c6ee40cadd32099c90495e11bd77b21bd3a3f security: Add rootns LSM hooks
-         a8530b7ccd7ffbeb5903698c18ddb5694df4a3ec docs: Document root namespace uAPI
-         0f5c23a25ee4884e5324bd93117e57a98cf9f77b MAINTAINERS: Add entry for ROOT NAMESPACE
-         25255867356235007874bbffc87d7c6ba9bc0340 rootns: kselftest
+         20040b2a3cb992f84d3db4c086b909eb9b906b31 dpll: export __dpll_device_change_ntf() for use under dpll_lock
+         d733f519f6443540f8359461a34e3b0042099bbe dpll: zl3073x: use __dpll_device_change_ntf() and remove change_work
+         c1224569cef038b040db0459510cd7948ecd467b dpll: zl3073x: make frequency monitor a per-device attribute
+         8d26955ea5a4697c1e21a3869ceb36b90389b051 Merge branch 'dpll-zl3073x-various-fixes'
          
