@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4280906373337165283=="
+Content-Type: multipart/mixed; boundary="===============0376962415188469121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 28 May 2026 07:10:20 -0000
-Message-Id: <177995222061.1947629.11018662343602736436@gitolite.kernel.org>
+Date: Thu, 28 May 2026 07:10:22 -0000
+Message-Id: <177995222285.1947749.14672518514108064328@gitolite.kernel.org>
 
---===============4280906373337165283==
+--===============0376962415188469121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 938bf00744a1b82cefd551f848a927cc24d5fb2f
-    new: d7d405cc33d6e3eeba2d6ec8f0b595da2a5c600a
-    log: revlist-938bf00744a1-d7d405cc33d6.txt
+  - ref: refs/heads/mm-unstable
+    old: 43eedcbb989c80b579989ea70da27b52505c88ee
+    new: 8a74e22643189e0ae339afc91110ddb4cab1941b
+    log: revlist-43eedcbb989c-8a74e2264318.txt
 
---===============4280906373337165283==
+--===============0376962415188469121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-938bf00744a1-d7d405cc33d6.txt
+Content-Disposition: attachment; filename=revlist-43eedcbb989c-8a74e2264318.txt
 
 07ab28851d1e5d02f4d84dae8384dd475061c010 device-dax: fix refcount leak in __devm_create_dev_dax() error path
 d699e1b27bf2d8c0ff9974857b89997855d8c6d2 ipc/shm: serialize orphan cleanup with shm_nattch updates
@@ -446,18 +446,5 @@ dc41bb7393939c6098ede93133bd38ea0e8e3c76 zram: do not leak blk idx at the end of
 4ecf236301a75ef1ce112c07894fc3f97b5036c7 mm: remove mentions of PageWriteback
 53078f98b00cf85171fbc7b69b40293837867d1f mm: document the folio refcount a little better
 8a74e22643189e0ae339afc91110ddb4cab1941b mm/migrate: find_mm_struct: fix race between security checks and suid exec
-8537843e8fe6c1e06c9b12aa89bb4a70838e9742 mm: list_lru: fix set_shrinker_bit() call during race with cgroup deletion
-550ef747fda8196131486a4db53cf78e5e37f87c mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-17dcc2bed85cc128eff938a41abd2516ad5eb8a4 mm: list_lru: deduplicate unlock_list_lru()
-74c02ab5065da3c6182868397db21514823ab861 mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-74481dd7e0cdbf93fd93817e8409c92ffdbeec3e mm: list_lru: deduplicate lock_list_lru()
-809c58040b643f2381a47718cbb20da8e3da1f05 mm: list_lru: introduce caller locking for additions and deletions
-72aa328c900920cccf014ef27857891328ed5b21 mm: list_lru: introduce folio_memcg_list_lru_alloc()
-7d5925eeb2de29af269405fca7d084d901a13633 mm: memory: flatten alloc_anon_folio() retry loop
-a5e62d9e00dac6f96174c397a82da30e7ae53064 mm: switch deferred split shrinker to list_lru
-5d157ef9ba225d3102c53f887eccba2edfb7a739 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-d846373440fb120bbbb1a313e9942199a8ff29a3 mm/swap: remove redundant swap device reference in alloc/free
-2131da30d4eeabe68efb88930de67fa9d8d860d5 mm/swap, PM: hibernate: atomically replace hibernation pin
-d7d405cc33d6e3eeba2d6ec8f0b595da2a5c600a mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============4280906373337165283==--
+--===============0376962415188469121==--
