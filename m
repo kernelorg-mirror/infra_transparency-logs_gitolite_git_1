@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 28 May 2026 09:24:21 -0000
-Message-Id: <177996026157.2111638.17406719916982519837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 28 May 2026 09:25:11 -0000
+Message-Id: <177996031150.2114022.10995360456898038975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/next
-    old: b4d1896c717a48fc4b9c9fdaee04d7d603fd1da2
-    new: 6c3bda3efca7ea321d73c2d4df822e736a00c5a3
+  - ref: refs/heads/master
+    old: e47f586dfb54773b641833bd86be6cd51faadf1c
+    new: e42173b86ba7c1d8e9f34b8853b29b8fd20c4b85
     log: |
-         a878096e0e86b44e758aafc6b26af97e8f548673 KVM: arm64: nv: Rename vtcr_to_walk_info() to setup_s2_walk()
-         d7768b4f718503e79e7c626d29e9131b747148ee KVM: arm64: Factor out TG0/1 decoding of VTCR and TCR
-         b154da8288add1f6fb958797d0b3462800f9fc77 KVM: arm64: nv: Use literal granule size in TLBI range calculation
-         8853566dfbab1a255ae72676ab5ec43e1631ddb7 KVM: arm64: Fallback to a supported value for unsupported guest TGx
-         6c3bda3efca7ea321d73c2d4df822e736a00c5a3 Merge branch kvm-arm64/nv-granule-sizes into kvmarm-master/next
+         39406c05f8f150f1685839acd38ffdd69ff92031 x86/mm: Fix freeing of PMD-sized vmemmap pages
+         a17dc12bfed8868e6a86f3b45c16065a70641acb x86/ftrace: Relocate %rip-relative percpu refs in dynamic trampolines
+         5d0ebe9a142f9dcd5e35a599b4aa9a7cf4129065 Merge branch into tip/master: 'x86/urgent'
+         e42173b86ba7c1d8e9f34b8853b29b8fd20c4b85 Merge branch into tip/master: 'x86/mm'
          
