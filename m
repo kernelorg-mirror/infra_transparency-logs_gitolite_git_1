@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 28 May 2026 08:52:21 -0000
-Message-Id: <177995834177.2086205.13460928645077130222@gitolite.kernel.org>
+Date: Thu, 28 May 2026 08:54:50 -0000
+Message-Id: <177995849062.2087289.15288003860781463458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,13 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: 3901ca111fbcb30487b5aead8da511df9e30af34
-    new: 9ca5d70d5a9e4f12742dfd52a7066fb39c350192
+    old: 9ca5d70d5a9e4f12742dfd52a7066fb39c350192
+    new: 5735d2dd685522f561b137460e8043ead3b90bf9
     log: |
-         9e9c1ff84cf40ddf046205cc039b7d5ecc3a8628 getino: split operation type and namespace type
-         46e83b9a33d3290c24fd27b00cadffc6ac8a49d0 getino: rename GETINO_*_NAMESPACE to GETINO_NS_*
-         dc202dd979f7bd250fcc364a01e6f9d01c501a8b getino: cleanup whitespace
-         9ca5d70d5a9e4f12742dfd52a7066fb39c350192 Merge branch 'PR/getino-op-types' of https://github.com/karelzak/util-linux-work
+         f0231c85d094c10290d1cf700e2caf43b95e4311 chmem: add a new --sysroot command line option
+         0599e6a1bc3cf622343e6df8853c5bfe79286c65 tests: (chmem) add missing tests
+         3f53e5d2d5dae65538465210da8dbb0380ede62a chmem: add helper function to sensibly detect the 'valid_zones' attribute
+         c3244a8a5c9df5a3b9f67f97b0ac1e3f7ef78841 tests: (chmem) add tests for aarch64 16K 16G memory layout
+         d6b9d835f7318545fb7332f0652af791986f9777 Merge branch 'chmem_tests' of https://github.com/cgoesche/util-linux-fork
+         5735d2dd685522f561b137460e8043ead3b90bf9 chmem: simplify have_mem_blk_zones()
          
