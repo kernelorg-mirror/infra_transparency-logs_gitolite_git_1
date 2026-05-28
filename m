@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6628359249485759604=="
+Content-Type: multipart/mixed; boundary="===============2470970788753328507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 28 May 2026 15:36:49 -0000
-Message-Id: <177998260935.2418218.1095127051505999876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 28 May 2026 15:37:26 -0000
+Message-Id: <177998264632.2418746.1218796075741711881@gitolite.kernel.org>
 
---===============6628359249485759604==
+--===============2470970788753328507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: bbe29ec5b789b9e613170cf0d869260c9128e1e0
-    new: 4d4d6605de5f91a40335729b6a7cc15e83b280f3
-    log: revlist-bbe29ec5b789-4d4d6605de5f.txt
+  - ref: refs/heads/io_uring-io-slots
+    old: 2c044c4a8f311f786079e57627ee4036abf1b1e8
+    new: 45eb96f492060e930d309d313f7337ee7228de46
+    log: revlist-2c044c4a8f31-45eb96f49206.txt
 
---===============6628359249485759604==
+--===============2470970788753328507==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bbe29ec5b789-4d4d6605de5f.txt
+Content-Disposition: attachment; filename=revlist-2c044c4a8f31-45eb96f49206.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -61,7 +61,7 @@ fd672888cccd6b855154efe0ac78e7ce3e8ab088 phy: qcom: edp: Unify generic DP/eDP sw
 3d22594d6f842814b7718600486fe3ce9453abf0 phy: qcom: edp: Add SC7280/SC8180X swing/pre-emphasis tables
 bf237a9fcbbf9d658522f7315ffc04bf2d49be42 phy: qcom: edp: Fix AUX_CFG8 programming for DP mode
 519a228ee40d1be3453d1da339b4577c3785e333 phy: qcom: edp: Add PHY-specific LDO config for eDP low vdiff
-646ebdd3105809d84ed04aa9e92e47e89cc44502 media: rc: ttusbir: fix inverted error logic
+fb7415f2ab0e3c818254cbf5fb0afda71bef4333 dm vdo: use GFP_NOIO for blkdev_issue_zeroout on format path
 52ac35b8a151446481496404af3a8e5e889b3c5a pinctrl: qcom: Fix wakeirq map by removing disconnected irqs for sm8150
 7cf4846a2a5b7408440584cbbc97dc476b1c52d3 Merge tag 'renesas-pinctrl-fixes-for-v7.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into fixes
 3974ea1938406f9bfa7c1f48d4e43533f447bb08 firmware: arm_ffa: Bound PARTITION_INFO_GET_REGS copies
@@ -235,7 +235,6 @@ d5487249a81ea658717614009c8f46acc5b7101a batman-adv: tp_meter: directly shut dow
 439e16c91aeeff2c7b503b317ccce2458a021191 MAINTAINERS: Remove Jianjun Wang as PCIe mediatek maintainer
 3392291fc509d8ad6e4ad90f15b0a193f721cbc9 drm/msm: Fix shrinker deadlock
 a828abbb897657451d96ad7bf20f1893ac983bb9 bpf: make bpf_session_is_return() reference optional
-ccd25890f73c082fe2657ed227b497d6ac5fdc40 io_uring/net: punt IORING_OP_BIND async if it needs file create
 ed831e7ea1a860bdbab3eadeb95f7f73e9d212df PCI: brcmstb: Assign pcie->gen from of_pci_get_max_link_speed()
 915fab69823a14c170dbaa3b41978768e0fe62fc ipv4: raw: reject IP_HDRINCL packets with ihl < 5
 cfd08f09723c5408eb3025b945fff08a99343911 IB/IPoIB: ndo_set_rx_mode_async conversion
@@ -270,7 +269,6 @@ d0afd2cd356a2c337589ef8dfa2a224636600575 ALSA: hda/realtek: Add quirk for HP 250
 0aacce7c32e4631c3634df5d19d30c72a3614ec9 ALSA: hda: Avoid quirk matching with zero PCI SSID
 76824d2467feb1828b745d6add2541918d7be3da drm/msm/snapshot: fix dumping of the unaligned regions
 d04a0047d619ddbc50e023aa76e4dddf86e5da3f ALSA: pcm_drm_eld: rate-limit ELD parsing errors
-93d93f5f8da791e98159795c6ef683f45bd95d13 io_uring/waitid: clear waitid info before copying it to userspace
 0039ac8305064e455f04d412ec3896c4fe41d04f batman-adv: fix batadv_skb_is_frag() kernel-doc
 92cee08dc4f00e77fd1317e4343c5d458b0abab7 wifi: iwlwifi: mld: fix TSO segmentation explosion when AMSDU is disabled
 2becb38a3e217ef2b2f42fddd7db7a25905ec291 wifi: iwlwifi: mld: stop TX during firmware restart
@@ -317,9 +315,6 @@ e9f5e8da29762df1111a58ae0b4a83091595d834 drm/mediatek: mtk_hdmi_ddc_v2: Fix non-
 dc245d9a7f1b06f86271d4e524d6e5634c5ce312 drm/mediatek: mtk_hdmi_v2: Fix non-static global variable
 571f00a5fb725984049bd532ee8193cc34ff2994 drm/mediatek: mtk_cec: Fix non-static global variable
 87ed4e845d5a90bba1a56c0a5c580a13982e8648 drm/mediatek: mtk_hdmi_ddc: Fix non-static global variable
-5dfa01ef37a8b944773aef8dee747cd76dec4234 Merge tag 'vfs-7.1-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-cf18e36455603d65d4745de83e2d1743c54ada47 io_uring: propagate array_index_nospec opcode into req->opcode
-4bf5d3da79c48e1df4bab82c9680c53adeff7820 Merge tag 'media/v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 a7e8f3efd50a165ba0189f6dc57f7e51a7d149db spi: qup: fix error pointer deref after DMA setup failure
 fd3b95866d86844ae747fce9b3438d73ed5f1e7a ASoC: fsl_sai: Eliminate possible interrupt storm during probe
 3d67fffb74267772d461c02c67f1eff893ad547d spi: sprd: fix error pointer deref after DMA setup failure
@@ -327,7 +322,6 @@ ea6ec3343e05f7937a53eb6d7617b3abdb4abc19 spi: ti-qspi: fix use-after-free after 
 593889c401426004bd0ea0f6d4fcece728b03420 srcu: Don't queue workqueue handlers to never-online CPUs
 8817005efbdfdf5d4e4814cb5dc52b53d12917d7 cgroup/rstat: validate cpu before css_rstat_cpu() access
 9a424b62f771a759b040b9be2f3762bad0da283f Merge branch 'perf-upstream'
-4d3a2a466b8d68d852a1f3bbf11204b718428dc4 HID: core: Fix size_t specifier in hid_report_raw_event()
 b0fe80c0b9250b35e2211bf3117e7aca814a21b0 drm/v3d: Fix use-after-free of CPU job query arrays on error path
 6eb6e5acafa46854d4363e6c34981289995f3ace drm/v3d: Release indirect CSD GEM reference on CPU job free
 c326f9c68921e2f14dfcecb2f6b4216313d50248 net/mlx5e: xsk: Fix unlocked writing to ICOSQ
@@ -559,6 +553,7 @@ e4bdef4d320b2fe73b8ebfc0cc0507fa9dc4a3b7 ipv4: use WARN_ON_ONCE() in ip_rt_bug()
 fa997ddef508b1b37b2fe4d2dad7c4b70958335e dpll: zl3073x: fix memory leak on pin registration failure
 99e22ddf4edb63dc8382bc028af928056d3450cf vsock/vmci: fix UAF when peer resets connection during handshake
 1bbf0ced1d9db73ac7893c2187f3459288603e0d tcp: fix stale per-CPU tcp_tw_isn leak enabling ISN prediction
+f42d01aadcedd7bbf4f9a466cabe25c1781dedad tools/bootconfig: Fix buf leaks in apply_xbc
 aee43aaf26c7f162780ab77ce952bae6a1b354bd Merge tag 'amd-drm-fixes-7.1-2026-05-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 be460cedb67ab803c1bebceac19b1d44acb85d30 gpio: pca953x: propagate regulator_enable() error from resume
 48f6a5356a33dd78e7144ae1faef95ffc990aae0 net: skbuff: propagate shared-frag marker through frag-transfer helpers
@@ -659,6 +654,7 @@ c33f944a33d63c65f3506eee6f2ca3771b68454f Merge branch 'net-enetc-sr-iov-robustne
 d1ebfce2c1d161186a82e77590bf7da2ea1bce91 smb: client: require net admin for CIFS SWN netlink
 dcd4313f0987d69c4134c12bbe3a8cdf795f6c1e smb: client: change allocation requirements in DUP_CTX_STR macro
 0c1a9dce208b4dc265925898e5da98934f7f9266 sched_ext: Fix spurious WARN on stale ops_state in ops_dequeue()
+fb6988b83b4cafe8db63999c1ddff1b7c66d2ff5 kunit: fix use-after-free in debugfs when using kunit.filter
 e97ff8b62d4690c69297f0f6de874f0564cc01a4 io_uring/nop: pass all errors to userspace
 0e3c08f1b7b79b2e9635e70fde3a2f053c99eff1 Merge tag 'wireless-2026-05-21' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 c9b7598eb013c6dbf2526dc050364bd8dc24f0d3 irqchip/renesas-rzt2h: Use pm_runtime_put_sync() in probe error path
@@ -671,6 +667,9 @@ dc278e9bf2b9513a763353e6b9cc21e0f532954e blk-mq: pop cached request if it is usa
 27cd2dde35b2c3b8659fa18f6a935c61fedee5c1 spi: dt-bindings: fsl-qspi: support SpacemiT K3
 71d9e1561aab0a506f6c783a6c3e16042fd27dff Merge tag 'drm-misc-fixes-2026-05-21' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 7acfa2c5f4366d63653380646ffa7dbd1bfaccc0 Merge tag 'trace-ringbuffer-v7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ea25e3c7915b24e0ef93ee85190f3fada037dfb1 sunrpc: prevent out-of-bounds read in __cache_seq_start()
+fc151100098d2899b7aed99aa1bcfe27bf00d58d NFSD: Report whether fh_key was actually updated
+0b474240327cebeff08ad429e8ed3cfc6c8ee816 lockd: fix TEST handling when not all permissions are available.
 6d3b2673e1fd553395933b6f2bc88c9e9d2a2bc5 Merge tag 'ceph-for-7.1-rc5' of https://github.com/ceph/ceph-client
 68993ced0f618e36cf33388f1e50223e5e6e78cc Merge tag 'net-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 6779b50faa562e6cca1aa6a4649a4d764c6c7e28 Merge tag 'pci-v7.1-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
@@ -680,6 +679,19 @@ dc278e9bf2b9513a763353e6b9cc21e0f532954e blk-mq: pop cached request if it is usa
 4ec9c8e023c79f613fe4d5ad8cc737112efb2e44 smb/server: promote S_DEL_ON_CLS to S_DEL_PENDING when close
 7734b168cad167a43e5bda19bc8ccc65669ec964 MAINTAINERS: arch/nios2: Add Simon Schuster as co-maintainer
 e90ef85ada857819313000cc50c6edfcddec6850 nios2: Implement _THIS_IP_ using inline asm
+83ec6eeb74a592e6568cb0723bac99fb8b3810b4 MAINTAINERS: .mailmap: update after GEHC spin-off
+83f9efcce93f8574be2279090ee2aec58b86cda7 Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare"
+fa0b9b2b7ae3539908d69c2b9ac0d144d9bc5139 ipc: limit next_id allocation to the valid ID range
+3b041514cb6eae45869b020f743c14d983363222 memfd: deny writeable mappings when implying SEAL_WRITE
+bf62f69574b19720ae5fbbbcdf24a0c4e3e05e43 zram: fix use-after-free in zram_writeback_endio
+3f8968e9cbf95d5d87d32218906cab0b9b9eddbe mm/rmap: initialize nr_pages to 1 at loop start in try_to_unmap_one
+441f92f7d386b85bad16de49db95a307cba048a2 mm/damon/sysfs-schemes: delete tried region in regions_rmdirs()
+e16f17a9c5af50221184d1ef4be4056bf3c4209e mm: memcontrol: propagate NMI slab stats to memcg vmstats
+09e7827e785729f391c8d46dc71becce70d296ab kernel/fork: validate exit_signal in kernel_clone()
+2c6f81d58741349298f51ff697d988cb42881453 mm/migrate_device: fix pgtable leak in migrate_vma_insert_huge_pmd_page
+f0af98ff6b3077278974a460becbd05bbc710e60 MAINTAINERS, mailmap: change email for Eugen Hristev
+04aa71da5f35aacdc9ae9cb5150947daa624f641 mm/vmalloc: do not trigger BUG() on BH disabled context
+54cf41c969da6637cce790b7400da1451609db9b Revert "mm: introduce a new page type for page pool in page type"
 2519003dd5fb6f89f10f031e3a97ecb7c9d1b816 Merge tag 'asoc-fix-v7.1-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 e3ef9a28f558d1cbf0b42d6dcd16c60da557562b LoongArch: kprobes: Use larch_insn_text_copy() to patch instructions
 1c856e158fd34ef2c4475a81c1dc386329989938 LoongArch: kprobes: Fix handling of fatal unrecoverable recursions
@@ -742,172 +754,40 @@ a674bf74b31079782d7d8f333c8d832374f0b65c Merge tag 'irq-urgent-2026-05-24' of gi
 3526d7462355c4df269d4a87eed53dbd48a1df02 Merge tag 'x86-urgent-2026-05-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6a97c4d5262d02f04d1f41113b0d090ea51f08dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 e7ae89a0c97ce2b68b0983cd01eda67cf373517d Linux 7.1-rc5
-77c7b9d5221c640b55568b20dc2bbcc1f77afd17 Merge remote-tracking branches 'vfs/vfs-7.2.casefold', 'vfs/vfs-7.2.directory.delegations' and 'vfs/vfs-7.2.exportfs' into vfs-7.2-merge
-1d5075e36d4e238bdbae344817ffe4f261da8d65 sunrpc: skip svc_xprt_enqueue when no work is pending
-491efd53855b3d92f46b8e9ac5df66a93f59447e sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
-c9f3f22ab7a9549dfa76f173f3c75b684e103a08 sunrpc: skip svc_xprt_enqueue when transport is busy
-dda027301d634b6f0da021467c9e42c28f22de40 NFSD: Fix delegation reference leak in nfsd4_revoke_states
-db2422ef18ebb0a67fade0af9884691a068ef59d nfsd: move struct nfsd_genl_rqstp to nfsctl.c
-f6bb7ee5e921aa98bfc753ebdbdcc8749d406c46 sunrpc: rename sunrpc_cache_pipe_upcall() to sunrpc_cache_upcall()
-574aff6b0769e832eb505a075dad7a8df47ca6e4 sunrpc: rename sunrpc_cache_pipe_upcall_timeout()
-705e1f1cc2c7813a01a5b71c87a1bfa74ed7dbd5 sunrpc: rename cache_pipe_upcall() to cache_do_upcall()
-47d8afe229023f642bb4e33512012e5afe837203 sunrpc: add a cache_notify callback
-f64c462a041c5b87c1945eb3f3f6e4fc8035c594 sunrpc: add helpers to count and snapshot pending cache requests
-1ca10c4eb275e90a487106fdc3cc9f59a43754c4 sunrpc: add a generic netlink family for cache upcalls
-823515ebaaf15a741a2098612cbed246682c16f2 sunrpc: add netlink upcall for the auth.unix.ip cache
-59302fe702de9d4b77aeea06c864145312eecc6e sunrpc: add netlink upcall for the auth.unix.gid cache
-9a5ed8d15664d92f9274d58f07a90aee0f8202df nfsd: add netlink upcall for the svc_export cache
-e46fb7920a0b4f61caf137a65496eae5607c54c6 nfsd: add netlink upcall for the nfsd.fh cache
-6ba255c4321f962f03786c5e2d179b076af2cd10 sunrpc: add SUNRPC_CMD_CACHE_FLUSH netlink command
-33d6f6f19d81607203c95f7cfb4abb297ed95746 nfsd: add NFSD_CMD_CACHE_FLUSH netlink command
-ea2c285bdde20388431295aa0c6813d978d5136c NFSD: Put cache get-reqs dump attrs under reply
-51311d85bcb827dc2322f67cca006e0cd755d494 NFSD: Update my maintainer email addresses
-349da748fa7ef80aef74d4f7737477862bbd916d NFSD: Handle layout stid in nfsd4_drop_revoked_stid()
-5d48a744df70b5c8b54b1900439a8b25edc82b47 NFSD: Extract revoke_one_stid() utility function
-36643445f95472d58d0eda166df64ae99ed56e24 NFSD: Add NFSD_CMD_UNLOCK_IP netlink command
-00c37441a2be6b8f02dddf8fa8d0edaced4353b8 NFSD: Add NFSD_CMD_UNLOCK_FILESYSTEM netlink command
-8326af5cde512f0bcf43b670b5042bb405b4bccd NFSD: Replace idr_for_each_entry_ul in find_one_sb_stid()
-6433e35f3632fe6dbf18ad62c9a704f8996471a1 NFSD: Track svc_export in nfs4_stid
-083eabeaf4c707909cd07187f4bf49ccd0d3c4f1 NFSD: Add NFSD_CMD_UNLOCK_EXPORT netlink command
-e654b5a8c968f54323ffeaa1e1a796e3bf40b2bf NFSD: Close cached file handles when revoking export state
-45945c979e5a002850f8965d335d7b3c92cd11c4 NFSD: Increase the default max_block_size to 4MB
-f5cbf04d843a2c2d685f96dbc2631571478a993b SUNRPC: Add Kconfig dependency on CRYPTO_KRB5
-bbe0eed9df4fcea3ed9115aeab66a648cbe1c735 SUNRPC: Add crypto/krb5 enctype lookup to krb5_ctx
-50aaf5f60a89c1624f0c208b719998e98f6b498c SUNRPC: Add helpers to convert xdr_buf byte ranges to scatterlists
-cd5fd31d236a92a029f62fad2f88c1a9e8a07ce7 SUNRPC: Add errno-to-GSS status conversion helper
-165eb3e5f000370f09741e8afdf52c5632b07d1e SUNRPC: Prepare crypto/krb5 encryption and checksum handles
-04c31e1513d0edebded3a5665d7f6c3f0c02f75e SUNRPC: Switch wrap token encryption to crypto/krb5
-246511bce334587142903e5ed52bd1e0ad13f797 SUNRPC: Switch wrap token decryption to crypto/krb5
-c622f2134b43ec6dcc980d4bf33b1f5b8536d3fe SUNRPC: Switch Camellia decrypt to crypto/krb5
-bfc12047f7f090c0cbc6a985a1f07bee5c93a9f1 SUNRPC: Switch MIC token generation to crypto/krb5
-5fcc7b2e3bb3ece9bbb1071cd2f66edd29f5e866 SUNRPC: Switch MIC token verification to crypto/krb5
-81089e434b3258cac2988107b977d3e951d833e9 SUNRPC: Remove get_mic/verify_mic function pointers from enctype table
-fecac367b089be86ba241e66a54a0a74e9316823 SUNRPC: Remove wrap/unwrap function pointers from enctype table
-07c12fba67cd7eb007db9421f28e3dee3e42cf67 SUNRPC: Remove encrypt/decrypt function pointers from enctype table
-870e3e413526f21154b4b65d085a950f589753e3 SUNRPC: Remove legacy skcipher/ahash handles from krb5_ctx
-10c13173c509dacc1a95b66df990eb930c8bdb75 SUNRPC: Remove dead code from rpcsec_gss_krb5
-15963be1bad441f3f3e91cd07ed33b6f6923064e SUNRPC: Remove per-enctype Kconfig options
-0c47b23dd7e3953e066bbc8760b3886a46a24983 SUNRPC: Remove redundant crypto Kconfig dependencies
-aa54f6f1a8011a8df40d07a3cc2d3a85d7aae581 SUNRPC: Remove dead rpcsec_gss_krb5 definitions
-0c6e7d85577b3052d5f8755684eaec379c4d92e2 svcrdma: Release write chunk resources without re-queuing
-1f4cc4fcb11c640a3ef5bd1a75136111551fdf9a svcrdma: Defer send context release to xpo_release_ctxt
-457018e68e00007a3a6090455f5fec411402df05 sunrpc: prevent out-of-bounds read in __cache_seq_start()
-7aac008e01af35cbafdc7a71839260b1646a6dc8 NFSD: Report whether fh_key was actually updated
-6cf4c495656d4ded9669aeed22b7f329d49fc271 lockd: fix TEST handling when not all permissions are available.
-baab80f5ec549ab8c994ff303ab2c9ad1721d382 lockd: Stop warning on nlm__int__drop_reply in !V4 cast_status
-1f86eac2c3e6d83ef83aa7f5a0172fc28af77ee8 lockd: Correct kernel-doc status descriptions for NLMv4 GRANTED
-bfa20c2b7c4df4d7b3b3c2513a9b3bd56bb1d1bf lockd: Drop locks_init_lock() from nlm4_lock_to_lockd_lock()
-13e06e60d0cdd9e7803a1772ed4f42038522d143 lockd: Translate nlm__int__deadlock in __nlm4svc_proc_lock_msg()
-1a893a257825f95d76f5b199b1a68a09dfd920c1 lockd: Do not monitor when looking up the LOCK_MSG callback host
-5f1ffa354f9140a7ec36ba580124231b97659563 Documentation: Add the RPC language description of NLM version 3
-d5987ca4319dcd5ee3ad01712172209d892fab6d lockd: Rename struct nlm_cookie to lockd_cookie
-80c9f73deb04c323ede7d7a7896d06ddaae9701c lockd: Rename struct nlm_lock to lockd_lock
-9014f8f1058364393d2c771605841808d1d63699 lockd: Rename struct nlm_args to lockd_args
-956dabf5a50ec970646ac3bddaa6dcf6e1e14aa8 lockd: Rename struct nlm_res to lockd_res
-ffae2b4f0b45910fc8630e430f9e03ac45b56e3a lockd: Rename struct nlm_reboot to lockd_reboot
-efcf5655f4e6e9e6f2955d5bff79cca675d2cb51 lockd: Rename struct nlm_share to lockd_share
-d19c3a3f4fb1a8012b2de2952e7d4366e30cd821 lockd: Use xdrgen XDR functions for the NLMv3 NULL procedure
-fa135c04024b55b5e941520d88881c2c04573101 lockd: Use xdrgen XDR functions for the NLMv3 TEST procedure
-82357bc09b0f0ed4a89063087bb653a2fb02d961 lockd: Use xdrgen XDR functions for the NLMv3 LOCK procedure
-9c616d66321c0f1ee5c32987c5ecebb8fca3816f lockd: Use xdrgen XDR functions for the NLMv3 CANCEL procedure
-f7668f3dc1c11674fa543761b1747838f99b703b lockd: Use xdrgen XDR functions for the NLMv3 UNLOCK procedure
-2dfa748f1445e9ba4ac30abdd5bef04f8412add5 lockd: Use xdrgen XDR functions for the NLMv3 GRANTED procedure
-849d77e656b9c1063a3e1120756e26a5dd8ac62f lockd: Refactor nlmsvc_callback()
-bd6dd550b2679c56393ee78184f2bb375bf502f9 lockd: Use xdrgen XDR functions for the NLMv3 TEST_MSG procedure
-268d83db045115a0d9f2081ef64d01feafe19b9c lockd: Use xdrgen XDR functions for the NLMv3 LOCK_MSG procedure
-68f45dd885c39062e4bbeca643230bd5049b7228 lockd: Use xdrgen XDR functions for the NLMv3 CANCEL_MSG procedure
-31925decc37598af3336887319d90c2cfa8f884f lockd: Use xdrgen XDR functions for the NLMv3 UNLOCK_MSG procedure
-3209617142cfc3d69e12d51e85bcac535beba9e4 lockd: Use xdrgen XDR functions for the NLMv3 GRANTED_MSG procedure
-ebaf405b36a48ab57dea30a6024f8773d7132fd1 lockd: Use xdrgen XDR functions for the NLMv3 TEST_RES procedure
-3656e97034f6eb6e471d765d2581242c57e37fde lockd: Use xdrgen XDR functions for the NLMv3 LOCK_RES procedure
-f18e193a2a55d09efd3328374357693ca32aaaf4 lockd: Use xdrgen XDR functions for the NLMv3 CANCEL_RES procedure
-82471a9c97d4e3e4f209ff1defc012fe20d593eb lockd: Use xdrgen XDR functions for the NLMv3 UNLOCK_RES procedure
-672a3b84db24be269be4d63487f39786c705c040 lockd: Use xdrgen XDR functions for the NLMv3 GRANTED_RES procedure
-e89e4b74426918a01c190145a064b65f19258f1a lockd: Use xdrgen XDR functions for the NLMv3 SM_NOTIFY procedure
-c7500acea1476cfcb6eb04c55b7164f0e6063d51 lockd: Convert NLMv3 server-side undefined procedures to xdrgen
-1c6cfb23adb82914e2ce2b51237144e410dbc101 lockd: Use xdrgen XDR functions for the NLMv3 SHARE procedure
-cbb21763da84c05ac187405e9f2690709a73788b lockd: Use xdrgen XDR functions for the NLMv3 UNSHARE procedure
-1a26136328973bf37f71350d40427b89058e3cbf lockd: Use xdrgen XDR functions for the NLMv3 NM_LOCK procedure
-ab0ee174005657513b17a5997ea9cde52cd023c1 lockd: Use xdrgen XDR functions for the NLMv3 FREE_ALL procedure
-ebe25cbbd598529fe4cf232739fb496912787d99 lockd: Remove C macros that are no longer used
-84e53291e0d28200f03136cd506b2fe0fbc30709 lockd: Remove dead code from fs/lockd/xdr.c
-2da29fb812657732d9ceb169f100a030d85f1146 lockd: Unify cast_status
-4303ae6afc6c4294c84d72712caf686d1612b66c Revert "NFSD: Defer sub-object cleanup in export put callbacks"
-1661575d240a3b5dced431c26ff0ec11aa9d8cca lockd: Plug nlm_file leak when nlm_do_fopen() fails
-8a1ed1c1a3c5b6bf5ed5745dc8f904009e6ccdaa lockd: Plug nlm_file refcount leak on cached nlm_do_fopen() failure
-5e6b1b1bbd9bf53bff0dfdefb470215c3a81d5e2 lockd: Avoid hashing uninitialized bytes in nlm4svc_lookup_file()
-96ed0c006c380d1f4f0dfad772187df011791349 nfsd: release layout stid on setlease failure
-808e03f2d8477acf1ab296b46a4f969eb9be850b SUNRPC: Bound-check xdr_buf_to_bvec() stores before writing
-2dccf43c4820dba9e50a006d107066c33aa5511e SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
-c9f73ddbf60d03ddfa1f9ac82d91de62389a61e1 sunrpc: harden rq_procinfo lifecycle to prevent double-free
-f18ff1623927c4bc5700f1008d0069efaedfd7ab NFSD: Fix SECINFO_NO_NAME decode error cleanup
-7a0f64ca8fb600819e00015001eb86a0d8ef154d nfsd: fix dead ACL conflict guard in nfsd4_create
-7d7c0f0c83cb782a6733c2d6bb96200a4d19f242 nfsd: fix inverted cp_ttl check in async copy reaper
-b90d07deba4c079b28dd9be37a194f0da5963e75 nfsd: check get_user() return when reading princhashlen
-690ce86b7cd627a22102e8ce7b18cf6c9bfdf6eb nfsd: fix posix_acl leak and ignored error in nfsd4_create_file
-bf8c5b839346f34c2fc444e75c2c33192381ad05 nfsd: fix posix_acl leak on SETACL decode failure
-8a172c69d0533fe5e7bccdfa6e392c158a86adaf sunrpc: pin svc_xprt across the asynchronous TLS handshake callback
-6b8debb74d22b2fee9f6ae21565e1e0c63046f5b sunrpc: wait for in-flight TLS handshake callback when cancel loses race
-5448ba5171e8f38d51cbb81b5e16c28825b13248 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
-48e69957f1de6dc329fd5edcca5e2c1b490c6b2e nfsd: reset write verifier on deferred writeback errors
-31ef92498f38a79384aef4ac50892e703fd5d7d1 svcrdma: wake sq waiters when the transport closes
-5a490733a7dc023c2c698a36a6335c58b0decd8f nfsd: check fl_lmops in nfsd_breaker_owns_lease()
-5f0244b9b83e4c91b51c785c9ec2700bf8f559e4 nfsd: add protocol support for CB_NOTIFY
-8b3918c018a9963b7d3273f3304cdea35c8fa2fc nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
-66b4d459a553ac1e7b618781d6fc86178c728727 nfsd: allow nfsd to get a dir lease with an ignore mask
-0682b9a01e4207c15dcfa2b80d87e03c28d633f9 nfsd: update the fsnotify mark when setting or removing a dir delegation
-10ea77868de99ed03625beef12b48e389bcb0a6b nfsd: make nfsd4_callback_ops->prepare operation bool return
-bc5de4bc7d46933706ebddeb1b028244af9e6ca8 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
-266f5b2b483e43a219328cd1ebec07db1304e74d nfsd: use RCU to protect fi_deleg_file
-68b37cbf4e4ea650abc23cc33c1dc2451f29a972 nfsd: add data structures for handling CB_NOTIFY
-50c7b4d57b832c75434b74536b12a0e1b7f51135 nfsd: add notification handlers for dir events
-3c4356987cfa50cfabdec42630923f3535a6bd4a nfsd: add tracepoint to dir_event handler
-19c13c3f20580d7614250d01271d976c061eba41 nfsd: apply the notify mask to the delegation when requested
-810d6c6cd3c3766939eba6bf23224f758da81d12 nfsd: add helper to marshal a fattr4 from completed args
-e4988652251894d0958f4bb00b4bdb84f3714c0a nfsd: allow nfsd4_encode_fattr4_change() to work with no export
-4d53e30f96f8f18365b4c56031f1f6c37aab775f nfsd: send basic file attributes in CB_NOTIFY
-c3de43b167b9bf0bd4fa4b8fb304667593a315c6 nfsd: allow encoding a filehandle into fattr4 without a svc_fh
-7e62e888e9cb6d052fbd7333953b3f1f5fdce2a5 nfsd: add a fi_connectable flag to struct nfs4_file
-a9f8fa9cb99444e1433e7719d7e187123f0fd522 nfsd: add the filehandle to returned attributes in CB_NOTIFY
-e56e9338315a3c506c3d73a2c3c7c99f26ce4c93 nfsd: properly track requested child attributes
-87eb85f7dfeebc9033abb61dff5e5472b307a8e8 nfsd: track requested dir attributes
-50ac6212fcdbd6d3525fcabe7e0372f442e45025 nfsd: add support to CB_NOTIFY for dir attribute changes
-360b94e8284a895d80c4af233fe5fef8e56cc3da nfsd: Reset write verifier when async COPY writeback fails
-19b18909540dd1690148779f64bf64fbf84de38b nfsd: sample writeback error cursor before async COPY loop
-0b7793f3261b223bb77b1a06ba1c288bc90fa16b nfsd: check for FILEID_INVALID in setup_notify_fhandle
-0f5cfbc1b15d66b92944874a214115edc66b0e2e nfsd: use empty string for directory name in NOTIFY4_CHANGE_DIR_ATTRS
-35eb24891bb584c04fcdd0f0edad36a133cb6fe7 nfsd: check delegation status in nfsd4_cb_notify_done
-0c807b431eff7f5e5e35ade070f4d1de9c331741 nfsd: fix ino_t format specifier in nfsd_handle_dir_event tracepoint
-25e9c6073a457517f2ccf7fa165df27b5a7f4bdb SUNRPC: Reject short RFC 4121 MIC tokens in gss_krb5_verify_mic_v2
-3ab552b610fc0b987d0ae0ac86ae257eeaad77ba SUNRPC: svcauth_gss: enforce krb5 token minimum length
-1727c9277edc9fe2e153e3ec0b53e2f7315bbed0 SUNRPC: harden gss_unwrap_resp_priv length checks
-2dd0d3a14d8107364c0715e234c5a673e6cbd761 SUNRPC: xdr_buf_trim: clamp buf->len to avoid underflow
-35378c02198b1770b3d4349e73c6c6528242d0cf SUNRPC: harden gss_krb5_unwrap_v2 against short tokens
-de5b24072bb1836cbff7abad85848993e45766ee lockd: pin next file across nlm_inspect_file lock-drop
-07ce7cf08ca610b80a3f831e449586af75b3d170 NFSD: restart ssc_expire_umount walk after dropping nfsd_ssc_lock
-da8787e1b1c3648ccf955c0d15928f3ff407eb3c nfsd: set SC_STATUS_FREED in nfsd4_drop_revoked_stid for delegations
-38111c2b1ef681d7fac91a5d12869fa473140613 svcrdma: Validate Read chunk positions before reconstruction
-db80ea0e58f2c5ffde1b5199e49c4e0c60b2e5ea svcrdma: Fix offset arithmetic in read_chunk_range
-94efa0d84e3bdb225e1ffd4e0db293dcbc8b8c74 svcrdma: Reject oversized Read segments at decode time
-8ce7b4ab581ecc84be8afb64485ea69c8e219bbb svcrdma: Fix pcl_for_each_segment for empty chunks
-f12d43d83c6e788e1734908a892574d8f1a8732a svcrdma: Reject Write/Reply chunks with segcount 0
-8b8ef2067ada57984c5d10a395d6d6f720f0f33b svcrdma: Validate Read chunk positions at decode time
-4aad3ff709d9c8927c0f43ed5ddaca2df5fe9fd9 nfsd: don't free session slots that are still in use
-0e25dd00086959d8e3901c38682e0ddd1c1eace4 nfsd: defer setting NFSD4_CALLBACK_RUNNING in deleg_reaper
-74748c5f53d9c96627647ffa5a409f11cf33778d nfsd: clear CALLBACK_RUNNING on failed delegation recall queue
-2be9f32c7d835f4fa94ea7d28a4ad1f2c681c8ef svcrdma: Reject Read lists that exceed the page budget
-35ebc23a0a04300925b30004ae9665b114910c13 SUNRPC: always drain cache_cleaner before destroying a cache_detail
-06469f34db44ef5f82594afa571969d7ebe4d301 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
-5b702add8be6a10c1d0d46972875a20f1e31f50c nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
-c02df426121d436a7099d59d4c3390a6809f01b4 nfsd: block non-SAVEFH ops after FOREIGN PUTFH to prevent NULL deref
-0dc117893c070805f24eca25517ec068096bd1d6 svcrdma: Fix unmatched rn_unregister on failed accept
-19aeb3a9f0437ed691ca95ddb5976447012fe510 svcrdma: Reorder rpcrdma_rn_unregister before rdma_destroy_id
-6dc875b14c78caa48cbe459318a37eadd1158e85 svcrdma: Use svc_xprt_put to free listener on create failure
-5a05a382f356012594172c769d86741ed9181207 svcrdma: Reject connection when transport allocation fails
-12b6910d8579141335f90a4aa853ad5d6efbc479 svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
-4547f962f37b1f668c85c72d3ad2f8c6bca5d055 nfsd: fix XDR padding calculation in ff_encode_getdeviceinfo
-e535613aac89382bc12a6f1d547da539d8ce289a nfsd: fix XDR length calculation in nfsd4_ff_encode_layoutget
-c7c61036efffc741d14d758749d49046701dea95 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-4d4d6605de5f91a40335729b6a7cc15e83b280f3 siw: Enable try_gso
+974820a59efde7c1a7e1260bcfe9bb81f833cc9f hpfs: fix a crash if hpfs_map_dnode_bitmap fails
+c112662a0e734129985cf3386250cfa59f6b7aa0 Merge tag 'bootconfig-fixes-v7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+13e4d2579eb34e9731bcc5ca73205708355e5d99 Merge tag 'for-7.1/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+e8c2f9fdadee7cbc75134dc463c1e0d856d6e5c7 Merge tag 'for-7.1/hpfs-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8 Merge tag 'mm-hotfixes-stable-2026-05-25-16-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+74fc9a9b50d43ed473ea2449682000da43e17175 io_uring/zcrx: make scrubbing more reliable
+e57b44039bc54bbdf3d1511021458356858a4a12 io_uring/zcrx: poison pointers on unregistration
+98f07b0f74b65284ebe0d021505b461d4be6bf07 io_uring/zcrx: remove extra ifq close
+84f7d0931c42cb0690615a431738cf6913d265f2 io_uring/zcrx: reorder fd allocation in zcrx_export()
+8503f2de11f7fe78a7fdb87746255c8d02897279 io_uring/zcrx: add ctx pointer to zcrx
+0719e10d826aa0ba4840917d0261986eaead9a51 io_uring/zcrx: notify user when out of buffers
+255180f7034f48aa5b0c8df70228307394bddbb9 io_uring/zcrx: notify user on frag copy fallback
+6935f631465f5f60205978a59228a26db4723d51 io_uring/zcrx: add shared-memory notification statistics
+e909cedf6800ef493063f18a089f3632817a8c2d Merge tag 'linux_kselftest-kunit-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+eb3f4b7426cfd2b79d65b7d37155480b32259a11 Merge tag 'nfsd-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+ca55f98d6ff1ecb31a07b668a8d105b4e0829c6a io_uring/kbuf: align legacy buffer add limit with MAX_BIDS_PER_BGID
+29bef9934b2521f787bb15dd1985d4c0d12ae02a io_uring/io-wq: re-check IO_WQ_BIT_EXIT for each linked work item
+221702948daa5785d8d442588e22ab1a9f36e1df Merge branch 'for-7.2/io_uring' into io_uring-io-slots
+e1d31a0b33838e58796ce62ef33de0c2855714ec io_uring: lift REQ_F_IOPOLL set into io_init_req()
+0db32b56695a2b6bf6b048f9dfd2ad4352ff8ab5 io_uring: check def->plug separately
+a4fe1845112de2f5f53eacdcbf0d465045a4c5e2 io_uring/rsrc: factor out io_imu_offset_to_bvec() helper
+a8e1f975864185b0139859de27c3c2f065ad4fd4 block: add submit_bio_noacct_fast() and BIO_REGISTERED
+ee6cf008ec2f31b1e4bb24fcad783e319eb47c24 io_uring: add IORING_OP_SLOT_RW and wire up slot completion
+95f76e6cd9a4ed6dd6ec160de17549edc57a21fa io_uring: add registered IO slot infrastructure
+cbd1ea7fdbfc6beefbf2736d1530554777b86e5b io_uring/slot: support partitions
+511f678600b35178caecc477ec4dc481a635113f io_uring/slot: support concurrent IO via overflow bios
+b32e5b06826a04b08bacb1c853ce4d9edc71067f io_uring/slot: add persistent DMA mapping for registered slots
+ad22fe3c45f5fa4d138e8af4ccf93f3a8c3b255e io_uring/slot: share persistent DMA mapping across slots
+f611be91cb9fb48edc7663f42f514b8ae81064a4 block: add bio_persistent_dma() helper
+614039c115f9821d65899ba99123b698f43a7423 block: add RQF_REGISTERED, mirror BIO_REGISTERED into the request
+45c3ef3e79a31c8d29827b54de144b7f3a4aeb14 nvme-pci: add support for registered IO with persistent DMA mappings
+42c6ed407800d99f341210d6441913bbf84b28c1 nvme-pci: use SGL fast path for any-size registered IO
+8184d7ecc495781a2b78af0cb89c3aab4236f80c block: add ->persistent_dma_setup() hook to struct request_queue
+b68ac5c01d81212815a681487ffd76d1a33dbe22 io_uring/slot: add support for persistent driver DMA mappings
+45eb96f492060e930d309d313f7337ee7228de46 nvme-pci: precompute persistent PRP list for registered slots
 
---===============6628359249485759604==--
+--===============2470970788753328507==--
