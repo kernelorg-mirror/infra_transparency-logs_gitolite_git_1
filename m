@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4403376795092308357=="
+Content-Type: multipart/mixed; boundary="===============6677212935458383742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 28 May 2026 23:31:42 -0000
-Message-Id: <178001110224.2813429.6917452632190637072@gitolite.kernel.org>
+Date: Thu, 28 May 2026 23:32:23 -0000
+Message-Id: <178001114381.2813909.5300482901024205863@gitolite.kernel.org>
 
---===============4403376795092308357==
+--===============6677212935458383742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 6394b9805eeb481113927da4d259c2798685114a
-    new: 1d6f943ed3490f16add0480f17e511622438d803
-    log: revlist-6394b9805eeb-1d6f943ed349.txt
+  - ref: refs/heads/export-net
+    old: b581e1e5e4658bbef17e336e94acea9a7062244c
+    new: 90bde04ac12294478c01028db67d38b800d50ecb
+    log: revlist-b581e1e5e465-90bde04ac122.txt
 
---===============4403376795092308357==
+--===============6677212935458383742==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6394b9805eeb-1d6f943ed349.txt
+Content-Disposition: attachment; filename=revlist-b581e1e5e465-90bde04ac122.txt
 
 b560d414239232c6ed7205d3795d3f588034d69b pinctrl: mediatek: moore: implement gpio_chip::get_direction()
 b51d33ea8a164bb5f0eec8ad817fa9730ac2b577 pinctrl: qcom: ipq4019: mark gpio as a GPIO pin function
@@ -446,17 +446,10 @@ d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8 Merge tag 'mm-hotfixes-stable-2026-05-2
 e909cedf6800ef493063f18a089f3632817a8c2d Merge tag 'linux_kselftest-kunit-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 eb3f4b7426cfd2b79d65b7d37155480b32259a11 Merge tag 'nfsd-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 8ba68464e4787b6a7ec938826e16124df20fd23d bonding: refuse to enslave CAN devices
-f289c0664f64578355d10a85a6e0108fd182043c net/dns_resolver: consolidate namelen checks in dns_query
-56ed77ff6022271e172f043b44193889226e42b0 ipv6: mcast: annotate data-races around mca_users
 5eec4427b89c2fb2beac54920101e55a2f1c0c21 bridge: Fix sleep in atomic context in netlink path
 6d34594cc619d0d4b07d5afcad8b5984f3526dcf bridge: Fix sleep in atomic context in sysfs path
 147f3b1f23cbd74f1022cc5689570a06f6bc47c8 selftests: rtnetlink: Add bridge promiscuity tests
 ce1e33020a5f365823e9a0bfd18d6b3f20e206c6 Merge branch 'bridge-fix-sleep-in-atomic-context'
-5af067bf8a64dac896f120a98fe2ca656df92562 net: sfp: add quirk for OEM 2.5G optical modules
-507541c2a8eeb76c02bd2511958f73a8cfa3e1bc ipv6: guard against possible NULL deref in __in6_dev_stats_get()
-331d846a717243cec2d0708d30926efe97bb6294 ipv6: frags: cleanup __IP6_INC_STATS() confusion
-3cefa8d5e798c4e21a7ea48bf6370247fca3aa9d Merge branch 'ipv6-frags-adopt-__in6_dev_stats_get-a-bit-more'
-36d0d876c45f7ee7935edfce7f5687a2969a2249 net: page_pool: silence static analysis warnings in page_pool_nl_stats_fill()
 7281b096b072f6c6e30420e3467d738f2e4c4b57 ethtool: coalesce: cap profile updates at NET_DIM_PARAMS_NUM_PROFILES
 a888bbd43940cada72f7686337741ce86d1cf869 ethtool: tsconfig: fix reply error handling
 596c51ed9e125b12c4d85b4530dfd4c7847634b7 ethtool: linkstate: fix unbalanced ethnl_ops_complete() on PHY lookup error
@@ -468,20 +461,7 @@ a8d8bef6b45bf7cc0b1f6110c5cd8d0160a9bad7 ethtool: strset: fix header attribute i
 2376586f85f972fefe701f095bb37dcfe7405d21 ethtool: eeprom: add missing ethnl_ops_begin() / _complete() during fallback
 67cfdd9210b99f260b3e0afeb9525e0acc7be31e ethtool: eeprom: add more safeties to EEPROM Netlink fallback
 d07e5b20f1c81f53d6e99a666b1944c6edf5be71 Merge branch 'ethtool-more-bug-fixes'
-27db54b90bcc7c37867fe664107fa25ea6a116e4 net/sched: cls_bpf: prevent unbounded recursion in offload rollback
-ed28bd094db3e9e257355285c8e415e6160f7197 dt-bindings: net: Add support for Airoha AN8801R GbE PHY
-dddfadd75197e018c4ef30ebb2488aefc75e02d0 net: phy: Add Airoha phy library for shared code
-5226bb6634cdfc8dc1460321b4440d0e6565e9a6 net: phy: air_phy_lib: Factorize BuckPBus register accessors
-e08f0ea6daf2e5ffdb38844460bfd2db3b091015 net: phy: Rename Airoha common BuckPBus register accessors
-fdb9bf7f1658709dd1a6f85f07e18393efd569e9 net: phy: Introduce Airoha AN8801R Gigabit Ethernet PHY driver
-f6465e36353f4bc03ccb68834527655a25187d81 net: phy: air_an8801: ensure maximum available speed link use
-56edbedb74ac8c99ef693a344cb8834885d4bdac Merge branch 'introduce-airoha-an8801r-series-gigabit-ethernet-phy-driver'
-fabcf8cad67b4e2aa51b4c3f79f26fd215b50c8c net: sch_fq: update flow delivery time on earlier EDT packet
 9d5e7a46a9f6d8f503b41bfefef70659845f1679 ipv6: rpl: fix hdrlen overflow in ipv6_rpl_srh_decompress()
-7116ffb48ad0af7a6d066c3e80329270920858fe net: wangxun: introduce WX_STATE_DOWN to serialize device shutdown state
-58ac2f8eb050be93484f154d40f17511cd87164c net: wangxun: avoid statistics updates during device teardown
-f67aead16e85f7bae5b4c2546f8972e867cd0873 net: txgbe: rework service event handling
-0cf905cb9a12dbfb5d14896729b74508f83f73df Merge branch 'wangxun-improve-service-task-synchronization'
 98b34f3e8c3492cfc89ff943c9d92b4d52863d1d net: Introduce skb tc depth field to track packet loops
 eda0b7f203bb166c98d1418b204135bd566ac83b net/sched: Revert "net/sched: Restrict conditions for adding duplicating netems to qdisc tree"
 b213a4c6074fc4ee4f1cdef9a73b34732606b637 Revert "selftests/tc-testing: Add tests for restrictions on netem duplication"
@@ -519,64 +499,22 @@ a1b836607304f71051f9f9dcccf8b5097b86a1fb gpio: shared: fix deadlock on shared pr
 43a1e3744548e6fd85873e6fb43e293eb4010694 security/keys: fix missed RCU read section on lookup
 b0f908d785e19d53f0c41cb5d83639b038d2e489 Merge tag 'gpio-fixes-for-v7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 3e20009988e2470063824c58b19d1c80816cc46d Merge tag 'net-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-d44646fc9eeb423ad50f3043f11f66f491d908a7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ea50122e4520b05e45e3366cc4a8a9942f0c5ab9 docs: net: netdevices: small fixes and clarifications
-c801a207794eee9c62bca3f4ca636231dc1b9bff docs: net: fix minor issues with driver guide
-73ac86c5845d85164ec729dbc66b7bd28ed8be9b docs: net: statistics: fix kernel-internal stats list
-427837e5fd85f49ca7cde8ff32544e1c9864ec84 docs: net: update devmem code examples
-33cd2d395cb49f13f28810198b1eb1243d8f9177 docs: net: fix minor issues with the NAPI guide
-f7d7d7e2a53c320503823748e8a28ddd9b01ef70 docs: net: refresh netdev feature guidance
-f94874c38886b4e1adbd3233a313f320966d30ff docs: net: fix minor issues with checksum offloads
-6686e7f03f42c9476770e06e0a030b7267018e71 docs: net: add Rx notes to the checksum guide
-25bfb3a8edcbadf4d9d27450c547a631e7513f14 docs: net: render the checksum comment in checksum-offloads.rst
-1255733f2f32bf4c4f64ee2261fc4d8ca577e785 docs: net: fix minor issues with segmentation offloads
-1f03da8aea6e8d29533f0aa334f173759daac771 Merge branch 'docs-net-updates-for-old-and-cobwebbed-docs'
-e03f0b53b4bd51b70e48e3548bd1163e8496ff9e Revert "vsock/virtio: fix skb overhead overflow on 32-bit builds"
-f635b0c91275cae4021d6274155c994edc52a845 net: ethtool: don't take rtnl_lock for global string dump
-31eedfbaa2b8312e89b0fc973c8044dbb7163677 net: remove SIOCSHWTSTAMP and SIOCGHWTSTAMP from ndo_eth_ioctl comment
-2a9ef63d66fbd4576f1a2638ffa846457396f223 DO-NOT-MERGE: git markup: net
-262eeee0bef9566d5283189f91a4033e03293d81 DO-NOT-MERGE: git markup: fixes other trees
-47071017e41917e9c80ae90e4a52cdb80a2bcce3 selftests: mptcp: simult_flows: disable GSO
-6088cef7e43e4b607983dd8a16929d7a28847c33 selftests: mptcp: simult_flows: adapt limits
-4f11d9ab5dbc6fe8bb6c75e90180b1b3eaebdd8c mptcp: fix missing wakeups in edge scenarios
-d83f631e3293f7264476e374cebeab987647c09d mptcp: fix retransmission loop when csum is enabled
-1566d3d9c0bb464e09948a0e6b13c5e7c7c6add3 mptcp: close TOCTOU race while computing rcv_wnd
-9204faddeff875dd87ad9ea6f7d374374ae1bdaa mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
-983ab33f35e4bd9faeb43bce8447246a2f5f664e selftests: mptcp: add test for extra_subflows underflow on userspace PM
-7a6e901b4bfdf7bb1117930fcd465bdac6cb7653 selftests: mptcp: sockopt: set EXIT trap earlier
-98271f6e66885cae8f4cf5b6662e96def6457116 mptcp: allow subflow rcv wnd to shrink
-0e09f660e0618a2ec9c15146599094addbb8fd6a DO-NOT-MERGE: git markup: fixes net
-ed90571a2abbf34abfa48021ca3d2f65cabd6bc1 DO-NOT-MERGE: mptcp: add CI support
-7b4d6d0bbac92d66c15bb0611f082051836b1546 DO-NOT-MERGE: git markup: end common net net-next
-e6c78ad97eba4b41660fe9c76b1364f6d2dc3f0f TopGit-driven merge of branches:
-d996fe2d250351a547df8690906ec0a50747afad DO-NOT-MERGE: git markup: net-next
-d02f4f9a795226ede9d256968202eafe6090cb22 DO-NOT-MERGE: git markup: fixes net-next
-76bb328357d6587c8770a4805d3ef47be22bacd8 mptcp: pm: init and release mptcp_pm_ops
-24cd3bf6b40f7eacae789753b41b8211eb4d1e9c mptcp: pm: add get_local_id() interface
-dd58308bef0ccea022c70ff6d05018dc32582071 mptcp: pm: add get_priority() interface
-ff1cab40665d648ce9b04875fc28492f9f755659 selftests: mptcp: connect: test name in pcap file
-aeb7b13beab2ef13c91e868b22b90a25103334e4 selftests: mptcp: simult_flow: test name in pcap file
-09d6909639e39cfdbf1ae124c91c071eb073ebf4 selftests: mptcp: pcap: drop most of the payload
-9f9e47d4698813aff284c624c880b9d3453fef9f mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-c58dc6e0cd9a7b77866407298cfbaeb10030e692 mptcp: remove unused data_ack from struct mptcp_ext
-c41a057dc4a763f56ccc6218e176b6b8e32359b5 mptcp: explicitly drop over memory limits
-36de55961687f183319c0dd15f3c602d53e084a0 mptcp: enforce hard limit on backlog flushing
-66994f954f824261229632cc37b7b8ab58f60dd1 mptcp: implemented OoO queue pruning
-fcd0e44fa7c2477f72e815b12198e554bc74e2cb DO-NOT-MERGE: git markup: features net-next
-77d81d1bc0bdd03c82afa5aebdd9b5b1fcca245a DO-NOT-MERGE: git markup: features net-next-next
-88f975d9633db1b3f84e15606b317a8c713ea638 bpf: Add mptcp_subflow bpf_iter
-4c5cce70cbcb3425d798e54195d212c75bddd1b5 selftests/bpf: More endpoints for endpoint_init
-83d02d1c36fc8c1c08f0bca2e4f84895494446d0 selftests/bpf: Drop cgroup_fd of run_mptcpify
-c572f60f111e052aa7ddd61f8b6541f34342dfcf bpf: Add mptcp packet scheduler struct_ops
-90b05afa8ec49926fc27e3d7f61fc81785d2991b bpf: Export mptcp packet scheduler helpers
-bad7344a4e36f1540aca031c547f9efc3518cbeb selftests/bpf: Add bpf scheduler test
-2d68dd47953a151466656eb50f7ef6eb9a915403 selftests/bpf: Add bpf_first scheduler & test
-3aba86e5241c466a5310d2e7b0e6ae2cacca611d selftests/bpf: Add bpf_bkup scheduler & test
-6ec44daa32b4104377a6c67a37a5229a05d67db8 selftests/bpf: Add bpf_rr scheduler & test
-38b3774ced1e9426aed8101bf4161c715efe8a1b selftests/bpf: Add bpf_red scheduler & test
-38b0a96fcbac94468055a55317602f723efae357 selftests/bpf: Add bpf_burst scheduler & test
-02527ead2e0da4d5fe46743df2d40ef3b2ca963e DO-NOT-MERGE: git markup: features other trees
-e6df0983b5cf70ef2cc14b723b3ee2c8dfd0423c DO-NOT-MERGE: mptcp: improve code coverage for CI
-1d6f943ed3490f16add0480f17e511622438d803 DO-NOT-MERGE: mptcp: enabled by default
+2875a59bd1298ccdb5b61825351926a6365a3cef DO-NOT-MERGE: git markup: net
+e6bb31b25ad5f7e4ea038011c37dc9ec4aad562a DO-NOT-MERGE: git markup: fixes other trees
+9eeeb72d7e3599f7cd32927cad0916ec585cfa4c selftests: mptcp: simult_flows: disable GSO
+58821d8fe5a2c6f768226714c6cf96d9349f6a46 selftests: mptcp: simult_flows: adapt limits
+b4a20754f7ff517a63639e879e1e7e1592c85b42 mptcp: fix missing wakeups in edge scenarios
+897cb53a43ff419e3c7b9e2e30e3424672d3105b mptcp: fix retransmission loop when csum is enabled
+aab710226f6543b3589aa34c7f8d3bf4d8ed9bec mptcp: close TOCTOU race while computing rcv_wnd
+8270d57024ef460f8c3b2fd19b5b009df4390f0c mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
+68631706e26ead1d32e82cf6261197ecfb094ea5 selftests: mptcp: add test for extra_subflows underflow on userspace PM
+1be579d6fab8a8bc4daa318e35e5b367c5ebd378 selftests: mptcp: sockopt: set EXIT trap earlier
+b2c434595857a92b34acc9059dfbd739f8b216f2 mptcp: allow subflow rcv wnd to shrink
+6ada5110f95d000134340f140738242af8ded29a DO-NOT-MERGE: git markup: fixes net
+9ed2a805aa409c3c5bff0f9b9b42a63a295b77fa DO-NOT-MERGE: mptcp: add CI support
+142f2eaa579d4a162d1ffbc9c99f67feeaed9761 DO-NOT-MERGE: git markup: end common net net-next
+737909c9e1763a51d394cf160e5a29df63f3ce79 DO-NOT-MERGE: git markup: fixes net only
+c023fb93efee5376071df0922babb02621277f2d DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+90bde04ac12294478c01028db67d38b800d50ecb DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============4403376795092308357==--
+--===============6677212935458383742==--
