@@ -1,26 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Fri, 29 May 2026 19:53:31 -0000
-Message-Id: <178008441165.3741359.5099216689987385886@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6544246305401016752=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 29 May 2026 20:05:58 -0000
+Message-Id: <178008515899.3751483.14982428746336107573@gitolite.kernel.org>
+
+--===============6544246305401016752==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/master
-    old: 3ce20923b3efa60d417da7acc8a327615fbd1419
-    new: f35c3b04f30c6368413ceede2a27a5dc90f3ea7c
+  - ref: refs/heads/ti-k3-dts-next
+    old: 2bdc0ea4e7304f6aa7e87089609fd902d9de7a2d
+    new: 837c7dbc5bee260768333c1f985dd0688b5aff8a
     log: |
-         6cca77e6cdab53616599fa20644f3730b1079c46 libtracecmd: Fix rb-tree deletion
-         c38c0618cd2d32f99faed2dae8a051319892a01b trace-cmd library: Fix virtual memory leak in tracecmd_close()
-         cbb5d034b9ba1dcbcb774bbffec832d855cfcc7d trace-cmd: Fix extracting instance in RO directory
-         74c7570f16f04a2c121eef40390071c3db932d26 trace-cmd report: Keep a separator before long timestamps
-         895f0f71831f2687aada03f6614803337ea11e4e trace-cmd report: Add spacing before raw data flags
-         8b8a9263a9f8d47f0ca095e2ebaaf20a438d8234 trace-cmd record: Mention '-l' if '-f' is used with function tracer and without events
-         9fb25371afbce9779af129bb418f214e8d849688 libtracecmd: Print call offset in parent function for funcgraph-retaddr
-         f35c3b04f30c6368413ceede2a27a5dc90f3ea7c libtracecmd: Have the rbtree check be more elaborate
+         ff4427a465a018fedaadd607c8166588a28a79d1 arm64: dts: ti: k3-am62-verdin: Add Toradex DSI to LVDS adapter with 10.1" display
+         38d01a245e66c30e7372a4a67d310fbcd8319649 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 10.1" LVDS
+         8e76e1539c440c3070e4004bd20392588f870010 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 10.1" DSI
+         8a637725ad7cb29434bba0deb6b530d3116429b3 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 7" DSI
+         a8891ba79990aded756e8bb92ebb690a4da6dab2 arm64: dts: ti: k3-am62-verdin: Add NAU8822 Bridge Tied Load
+         ca61bcec3e8a52ad2bf8b02f9244df1d47447ffa arm64: dts: ti: k3-am62-verdin: Reserve UART_4 for Cortex-M4F
+         f63de43a0d6f13874b6c20af0ca4726f7a5327f8 arm64: dts: ti: k3-am62-verdin: Add Toradex OV5640 CSI Cameras
+         a63211b0b7c9cea098ab954bbafec31982c89f57 arm64: dts: ti: k3-am62-verdin: Add Toradex Verdin Mezzanine CAN
+         837c7dbc5bee260768333c1f985dd0688b5aff8a arm64: dts: ti: k3-am62-verdin: Add Mezzanine with Toradex Display 10.1" LVDS
          
+  - ref: refs/heads/ti-next
+    old: 003f1f35ba4d5ca7a1041f14d66f87428f4d691b
+    new: 49f1e6789408e972fcae6aa75b76bfb66b6bc3df
+    log: revlist-003f1f35ba4d-49f1e6789408.txt
+
+--===============6544246305401016752==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-003f1f35ba4d-49f1e6789408.txt
+
+ff4427a465a018fedaadd607c8166588a28a79d1 arm64: dts: ti: k3-am62-verdin: Add Toradex DSI to LVDS adapter with 10.1" display
+38d01a245e66c30e7372a4a67d310fbcd8319649 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 10.1" LVDS
+8e76e1539c440c3070e4004bd20392588f870010 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 10.1" DSI
+8a637725ad7cb29434bba0deb6b530d3116429b3 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 7" DSI
+a8891ba79990aded756e8bb92ebb690a4da6dab2 arm64: dts: ti: k3-am62-verdin: Add NAU8822 Bridge Tied Load
+ca61bcec3e8a52ad2bf8b02f9244df1d47447ffa arm64: dts: ti: k3-am62-verdin: Reserve UART_4 for Cortex-M4F
+f63de43a0d6f13874b6c20af0ca4726f7a5327f8 arm64: dts: ti: k3-am62-verdin: Add Toradex OV5640 CSI Cameras
+a63211b0b7c9cea098ab954bbafec31982c89f57 arm64: dts: ti: k3-am62-verdin: Add Toradex Verdin Mezzanine CAN
+837c7dbc5bee260768333c1f985dd0688b5aff8a arm64: dts: ti: k3-am62-verdin: Add Mezzanine with Toradex Display 10.1" LVDS
+49f1e6789408e972fcae6aa75b76bfb66b6bc3df Merge branch 'ti-k3-dts-next' into ti-next
+
+--===============6544246305401016752==--
