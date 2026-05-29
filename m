@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Fri, 29 May 2026 15:54:04 -0000
-Message-Id: <178007004476.3560179.15417232145361610482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 29 May 2026 16:21:20 -0000
+Message-Id: <178007168098.3581214.3342437768667646692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/imx_mbox_rproc
-    old: 0000000000000000000000000000000000000000
-    new: 99099c20869939f882e259fe6c86d5b22bbdc168
+  - ref: refs/heads/driver-core-next
+    old: 2c7c65933600e8db2ec1a78dec5008de876dd3ad
+    new: 016267b521b18529c977c9eca9597a1669c3d73c
+    log: |
+         016267b521b18529c977c9eca9597a1669c3d73c rust: devres: add 'static bound to Devres<T>
+         
