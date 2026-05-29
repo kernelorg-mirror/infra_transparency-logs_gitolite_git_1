@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4261869729406659561=="
+Content-Type: multipart/mixed; boundary="===============7510408499701670766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 29 May 2026 14:11:20 -0000
-Message-Id: <178006388017.3477074.9713035526612448844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 29 May 2026 14:11:27 -0000
+Message-Id: <178006388740.3477415.5460798420125330083@gitolite.kernel.org>
 
---===============4261869729406659561==
+--===============7510408499701670766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-7.2
-    old: 4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d
-    new: b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d
+  - ref: refs/heads/for-7.1
+    old: 60474437af5fe12abd20607766c809e0ad4e7245
+    new: 79378db6a86c7014cce40b65252e6c18f5b8bcc2
     log: |
-         b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d regulator: remove used pcap regulator driver
+         79378db6a86c7014cce40b65252e6c18f5b8bcc2 spi: spi-mem: avoid mutating op template in spi_mem_supports_op()
          
 
---===============4261869729406659561==
+--===============7510408499701670766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1780063878 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1780063878-23245c97629655f5508b800d206d2af7a23ce09d
+pusher C3F436CA30F5D8EB 1780063885 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1780063885-a8673d86677eddd16c057076b5c58e4a7c54f865
 
-4bd7e2c200b2d3634d459ad918c4fb79e2d6cb8d b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d refs/heads/regulator-7.2
+60474437af5fe12abd20607766c809e0ad4e7245 79378db6a86c7014cce40b65252e6c18f5b8bcc2 refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoZnoYACgkQJNaLcl1U
-h9DPeAf/RrdU9B2mnyruXalabhO4tSzSfAwKgHEWmrAXfezXpAA6hyu/mqyTNKB+
-nUt5kS7Q0Tu7idCqvF69iCsbdCAjZVEtyWhYFSx3ehv51wJbo5zpRXjsPF3VujQi
-ht8Ye0Jt5hUjv3rU0pqrantN2ehJUuYelq2ms2YwIKgf1qtuoKoPL78OQylHvuCj
-ey9TqCgZCHnrazNT1IRQMuIStlOUJcwlItEGNYUQ3e/4/CBXYRHX4KAsPtTyokj3
-p5Bh7xVKMaYFnjF2JOkPA0cMEj0GBuQQKMtKYbC7lCKJv5lqJpi7OYHzIFX4U8Zy
-ucwbLK78xrxooouc24ObF9AlqKxgGQ==
-=IEed
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoZno0ACgkQJNaLcl1U
+h9Awpwf9Hijk5+GW+FHN1YXOCCE4jLT1h8jTaUY+nzxbOqsQxs+SZ73CuF65Acf0
+lkFjtJMq3c4uu/XsEGcJa0fk7ZyEsQi1EMsVS588NyW13gMIrfxAucLgUR1LAYBc
+0Vza3aPQ9NLeixC9PcXOMtLUud4mBoG33B+gwFevWQtAQGjN9bgWL/B9HfdvXl57
+imxffpEjI2bvCdkU2Yd1YTNMCGEDyqx+S363v1S/F+ROGC0XymWs++rYHLZv1XBV
+DJc6uJWBXjWBl4SbbUwx9ToxPuymQmxMM3unNUNWFKuP8hYKZqXW5ob7eh93G0Sd
+drEwncPt7P1Oa3zgQ4/RuOAK8ewrRQ==
+=o0Qm
 -----END PGP SIGNATURE-----
 
---===============4261869729406659561==--
+--===============7510408499701670766==--
