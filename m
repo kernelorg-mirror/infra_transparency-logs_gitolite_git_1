@@ -1,67 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============0532050919078663635=="
+Content-Type: multipart/mixed; boundary="===============3401622691973892916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 29 May 2026 01:53:31 -0000
-Message-Id: <178001961110.2928304.5260576075547921916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Fri, 29 May 2026 01:59:03 -0000
+Message-Id: <178001994302.2932163.17939587251541170044@gitolite.kernel.org>
 
---===============0532050919078663635==
+--===============3401622691973892916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/clk-next
-    old: ce171093156e66828b483ab8c144a6d2c30833e0
-    new: 5f7092aabf492fbc95a4cba1cc6c0d64c62a9abb
-    log: revlist-ce171093156e-5f7092aabf49.txt
-  - ref: refs/heads/clk-renesas
-    old: 0000000000000000000000000000000000000000
-    new: c0fb3bd3e46655251d6068d641612fd543a920df
+  - ref: refs/heads/export
+    old: 1d6f943ed3490f16add0480f17e511622438d803
+    new: 64a0f10e355310447acda9767d4fde746159172f
+    log: revlist-1d6f943ed349-64a0f10e3553.txt
 
---===============0532050919078663635==
+--===============3401622691973892916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce171093156e-5f7092aabf49.txt
+Content-Disposition: attachment; filename=revlist-1d6f943ed349-64a0f10e3553.txt
 
-79b5d6970b4e5b7b7ee4d7fdb18e950086b72bde clk: renesas: rzg2l: Drop always-false check in rzg3s_cpg_pll_clk_recalc_rate()
-78db1faa6b681da20ec167268b28778ebb0f98b7 clk: renesas: rzg2l: Add support for enabling PLLs
-f232745679fe1b8dfc545d2bbb4b5cd1c50b3237 clk: renesas: r8a08g046: Add support for PLL6
-d55a0dfec40b6b820a0a391904daf8e74d6f0ec9 clk: renesas: r9a08g046: Add GBETH clocks and resets
-da000c4d5f1de7e83778cc0fb3974d2a9af2933c clk: renesas: r9a08g046: Add GPIO clocks/resets
-4ea266768a258e94a0e2376f5345d4303ab8074f clk: renesas: r9a08g046: Add CA55 core clocks
-c03f83f2a36291acca0b6638e91ab384fc319945 clk: renesas: r9a08g046: Add WDT clocks and reset
-6b99bb5e6ebec07815c0ad742862bafa386797ff clk: renesas: r9a08g046: Add SCIF{1..5} clocks and resets
-f34ad4b0b4678d20697f93a79f013d0b6b1d7136 clk: renesas: r9a08g046: Add I2C clocks and resets
-38acb2a1a0ced15f61342347bba8aa57775802ea clk: renesas: r9a09g077: Add MTU3 module clock
-c9c008754abd66d48cb04a9045cc12714ce2d720 dt-bindings: clock: renesas,cpg-clocks: Document ZT/ZTR trace clock on R-Mobile A1
-70f479cbbf248df86f4a6085b83ac8f04cdc444f Merge tag 'renesas-r8a7740-dt-binding-defs-tag1' into renesas-clk-for-v7.2
-f924a4041f4ad6f6772f437596f0249e46edfb79 clk: renesas: r8a7740: Add ZT/ZTR trace clocks
-3afccee4a3b88b4ba370916bbb8ab7027221b810 clk: renesas: rzv2h: Add PLLDSI clk mux support
-d394d8342d61a22dca00ce87045926d8e046f974 clk: renesas: r9a09g047: Add CLK_PLLETH_LPCLK support
-6913a6159688edee07185a6ed0f1c4ad57c881e5 clk: renesas: r9a09g047: Add CLK_PLLDSI{0,1} clocks
-0e1597c688880c2b916401c88afcd476a4e912a2 clk: renesas: r9a09g047: Add CLK_PLLDSI{0,1}_DIV7 clocks
-7a9e1c485ce8040a6fe1ac8712e57860fe486cb3 clk: renesas: r9a09g047: Add CLK_PLLDSI{0,1}_CSDIV clocks
-8a6ccb522858e196e0e89a602f4dd4624b7f6e7a clk: renesas: r9a09g047: Add support for SMUX2_DSI{0,1}_CLK
-fe9a5541f096da191a153e92e04a1887307e4186 clk: renesas: r9a09g047: Add support for DSI clocks and resets
-272a6e2ad164094045af520299b5df3ce1763061 clk: renesas: r9a09g047: Add support for LCDC{0,1} clocks and resets
-6edb69b808042eca12d4be7b923833c1dd94681e Merge tag 'clk-renesas-rzg3e-plldsi-tag' into renesas-clk-for-v7.2
-01a20f1c46ed8fdbc9c4c97de60fae1a49f81b48 clk: renesas: r9a08g046: Add IA55_PCLK to critical module clocks
-44c1733331eb691493c29839520ed31edda34d8d clk: renesas: rzg2l: Consolidate DEF_MUX() and DEF_MUX_FLAGS()
-33cd08ac6200a8f96ff26183433affc10bead0ed clk: renesas: rzg2l: Refactor rzg3l_cpg_pll_clk_endisable()
-7f0c422c7fbfd9294ff9321ada0c63561e5c6ea0 clk: renesas: cpg-mssr: Add number of clock cells check
-9bec6a9dc213aa0134d672f70d6afa363f4b3c88 clk: renesas: r9a08g046: Add RSCI clocks and resets
-29c46057d55648d88805e0412deb8729d806bf97 clk: renesas: r9a08g046: Add SSIF-2 clocks and resets
-5fcbbc1fcc4fa78bb5a184caa2c32db423676577 clk: renesas: r9a08g046: Add RSPI clocks and resets
-2abdc3dcf9780d070e55a99fdf8f93440c798b84 dt-bindings: clock: renesas,cpg-clocks: Document ZT/ZTR trace clock on R-Mobile APE6
-fbe9822423b2a933307a4b58f6490625c97f4e25 Merge tag 'renesas-r8a73a4-dt-binding-defs-tag1' into renesas-clk-for-v7.2
-4f42053949324867dc40d67829f18a01539e6322 clk: renesas: r8a73a4: Add ZT/ZTR trace clocks
-c0fb3bd3e46655251d6068d641612fd543a920df Merge tag 'renesas-clk-for-v7.2-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
-5f7092aabf492fbc95a4cba1cc6c0d64c62a9abb Merge branch 'clk-renesas' into clk-next
+a90af68a4a5cf60f0c83866ade231ca452fa8613 DO-NOT-MERGE: git markup: net
+6fb350072de0a12112b134ad1995a41720f256f5 DO-NOT-MERGE: git markup: fixes other trees
+84742cd929837e61066f3e579ba94b685c4e8b16 selftests: mptcp: simult_flows: disable GSO
+ee476cb22aaf22bfa8dc4ce31a0d27fd550d654e selftests: mptcp: simult_flows: adapt limits
+3f79479f084f38181d8c5babb665b7e6ef213c0f mptcp: fix missing wakeups in edge scenarios
+372a5f18247c6d50037feb973ee6cb2778367388 mptcp: fix retransmission loop when csum is enabled
+1104eaa4c0711ff0fce94f4a416a63a656567186 mptcp: close TOCTOU race while computing rcv_wnd
+f98d1f8877e91a94c8aebb92eac49be11b423c47 mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
+f0ae7cf133df68014b3b483e376eb0753bf9db56 selftests: mptcp: add test for extra_subflows underflow on userspace PM
+127de091e2dccb321591676f8587f03be7ff3e19 selftests: mptcp: sockopt: set EXIT trap earlier
+3545e2f99a9a33e6bc552a6fa9ca21416c0ba7dd mptcp: allow subflow rcv wnd to shrink
+ad224c8b5365a1f0ca84b8df37d4d0c9915b101b mptcp: sockopt: check timestamping ret value
+e12092686adcde3aec66b483d2aa6771c8bab5f7 mptcp: sockopt: set sockopt on all subflows
+a227040d9ec2c6bf14208997588c6359d0d65d69 DO-NOT-MERGE: git markup: fixes net
+906f81357a04bdc651b0a998add992b3e4bef07a DO-NOT-MERGE: mptcp: add CI support
+77c70d1878850ece5518e7f0dee2abdefcb501cd DO-NOT-MERGE: git markup: end common net net-next
+2a6da321f711d802af6ce747e84b16bcc502bb15 TopGit-driven merge of branches:
+52bb675e62db0bb20daa7eb56d34645a6a29bd67 DO-NOT-MERGE: git markup: net-next
+21520f27e1fdfc981ee33ad92d4ff262dfe593f2 DO-NOT-MERGE: git markup: fixes net-next
+824242adfc0d54a48088f7b856ed1bbcbbb77836 mptcp: pm: init and release mptcp_pm_ops
+8245192d936439a58a2bbefccf5a13f38e5db249 mptcp: pm: add get_local_id() interface
+5347026911424aeb83631f2b80f65dd3552c3350 mptcp: pm: add get_priority() interface
+f0209a16a0f983303afe2c2d8e7e55f8ab01c321 selftests: mptcp: connect: test name in pcap file
+d7df8c6b248d03816d7c398da5beefd6d115bb81 selftests: mptcp: simult_flow: test name in pcap file
+3c48a7aaa85170caaf55781abe6db532d49cee7a selftests: mptcp: pcap: drop most of the payload
+018603ba73df8dd4e9781fba80d1e75f1d824acf mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+df0c6c8cfdf39253af3fbe7d561cb0dacadc3708 mptcp: remove unused data_ack from struct mptcp_ext
+71ca6cfba733fe66e3f2a7a2186b69e393c79424 mptcp: explicitly drop over memory limits
+7cb8d6f572cb1664e3f1e4051abca38cb508d72d mptcp: enforce hard limit on backlog flushing
+302bae23000b70dcff85b95efce6958a12c18095 mptcp: implemented OoO queue pruning
+386be28979a4466a320cea00f5d69d8a316815a3 DO-NOT-MERGE: git markup: features net-next
+8645dd5118f6c0b3a482dc5f6dc6f6d92e252098 DO-NOT-MERGE: git markup: features net-next-next
+8cb29adadc0cca3e4bec115139155ea82be8cc2d bpf: Add mptcp_subflow bpf_iter
+3e19a20120b0001cef30b422241f638db83f7595 selftests/bpf: More endpoints for endpoint_init
+515c17c29f0aaecdabeb48adf4b764e1cb8d8dc8 selftests/bpf: Drop cgroup_fd of run_mptcpify
+381d531ed66293b6b76302641b46f45866fff939 bpf: Add mptcp packet scheduler struct_ops
+66ea51d271c4c31f5e13556c7294b116f4e1643f bpf: Export mptcp packet scheduler helpers
+2c7b3454b7372ee4c61a7c507b5f38cd747c7dd5 selftests/bpf: Add bpf scheduler test
+264306bd2d603116d67d413e2a9fc07806380bf1 selftests/bpf: Add bpf_first scheduler & test
+0158e5559af90b084e28a8ed5f89daacea3bf2ef selftests/bpf: Add bpf_bkup scheduler & test
+de19927b1d5a2c3e68807b6ffd3b6183eaadc3c6 selftests/bpf: Add bpf_rr scheduler & test
+1b37e0018a5c0fe9040bd7a19e5b08837a47f021 selftests/bpf: Add bpf_red scheduler & test
+471f3d660f5e92b872b9b87a080f831ef324f12c selftests/bpf: Add bpf_burst scheduler & test
+7861b7fe0820a1077f8faaaf7e69427b7fe7c0ac DO-NOT-MERGE: git markup: features other trees
+894cad8fc7e324fed90a76f1e9a08638f52d69b2 DO-NOT-MERGE: mptcp: improve code coverage for CI
+64a0f10e355310447acda9767d4fde746159172f DO-NOT-MERGE: mptcp: enabled by default
 
---===============0532050919078663635==--
+--===============3401622691973892916==--
