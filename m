@@ -1,61 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============9054492770651987072=="
+Content-Type: multipart/mixed; boundary="===============4669999297241915939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Fri, 29 May 2026 20:53:55 -0000
-Message-Id: <178008803574.3786746.14750813018252255312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Fri, 29 May 2026 20:57:44 -0000
+Message-Id: <178008826402.3790226.3844242494810859052@gitolite.kernel.org>
 
---===============9054492770651987072==
+--===============4669999297241915939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/dev
-    old: 6658fb2e7812b91a30d83abf0bede51660d19a07
-    new: 579011070ce009cd149f401de341c9e7589acb7e
-    log: |
-         f99011158208cad852486258924b7d3984bca418 hornet: fix TOCTOU in signed program verification
-         9dccdce1b363e2236cd05a5b1006b7b391e34d9f hornet: invert map set check logic
-         8c5861f3dd0cff13e4088702f5a0d6dd6a247d3c hornet: fix off-by-one bug in max used maps check
-         aca591bbc9c8d2e7e78d2e563e6524e959faa8f4 selftests: hornet: handle cross compilation and test skipping
-         29aa7d6f092dadeed8c7f7067d1bf9d076078ede hornet: gen_sig: fix off-by-one check for used maps
-         a66be1c50381d60ccf5e330efffe7e9bc3ca873e hornet: gen_sig: fix error string allocations
-         c7c540d539331989f33a72f3ba3c2d32e61e45bd hornet: gen_sig: check for bad allocations
-         d08238bc79468aad2a3a649b4374f49c3cb09fed hornet: gen_sig: fix missing command line switches
-         ce2258ccae4f960298240d071115b34accbe4968 hornet: scripts: set a non-zero error code for usage
-         77d948022534ad3d9efe0d55224c464c0b36d56f hornet: scripts: harden scripts to handle trailing whitespace
-         579011070ce009cd149f401de341c9e7589acb7e hornet: scripts: Improve argument handling and error messages
-         
-  - ref: refs/heads/dev-staging
-    old: 502a77d5b69d2309ebda5584411615d1b9ab9105
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-  - ref: refs/heads/next
-    old: c67f6e6d2c141f202211fa9fea844f577eb233a8
-    new: 454d7e08e556c98196339948d32e2f90cd3ec4ab
-    log: revlist-c67f6e6d2c14-454d7e08e556.txt
+  - ref: refs/heads/thermal/bleeding-edge
+    old: 3929405c64376a8a54c794e8a4485023b108a97e
+    new: 100e27ef9a645f07881160256b7131fb40885215
+    log: revlist-3929405c6437-100e27ef9a64.txt
 
---===============9054492770651987072==
+--===============4669999297241915939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c67f6e6d2c14-454d7e08e556.txt
+Content-Disposition: attachment; filename=revlist-3929405c6437-100e27ef9a64.txt
 
-f99011158208cad852486258924b7d3984bca418 hornet: fix TOCTOU in signed program verification
-9dccdce1b363e2236cd05a5b1006b7b391e34d9f hornet: invert map set check logic
-8c5861f3dd0cff13e4088702f5a0d6dd6a247d3c hornet: fix off-by-one bug in max used maps check
-aca591bbc9c8d2e7e78d2e563e6524e959faa8f4 selftests: hornet: handle cross compilation and test skipping
-29aa7d6f092dadeed8c7f7067d1bf9d076078ede hornet: gen_sig: fix off-by-one check for used maps
-a66be1c50381d60ccf5e330efffe7e9bc3ca873e hornet: gen_sig: fix error string allocations
-c7c540d539331989f33a72f3ba3c2d32e61e45bd hornet: gen_sig: check for bad allocations
-d08238bc79468aad2a3a649b4374f49c3cb09fed hornet: gen_sig: fix missing command line switches
-ce2258ccae4f960298240d071115b34accbe4968 hornet: scripts: set a non-zero error code for usage
-77d948022534ad3d9efe0d55224c464c0b36d56f hornet: scripts: harden scripts to handle trailing whitespace
-579011070ce009cd149f401de341c9e7589acb7e hornet: scripts: Improve argument handling and error messages
-454d7e08e556c98196339948d32e2f90cd3ec4ab Automated merge of 'dev' into 'next'
+b53a2513c393235482b0b69483cf4c090cfa6496 thermal/drivers/samsung: Enable TMU by default
+4af5e21c0972989780365ade80d5d4c55680f7c1 thermal/core: Introduce non-OF thermal_cooling_device_register()
+dfc4781569ee1181a49f6e214fbd67e10ff7193d thermal/core: Add devm_thermal_cooling_device_register()
+fe809a49f5cd6e2e0b24bf3c1b1af588b1a19760 hwmon: Use non-OF thermal cooling device registration API
+06f53fafe3cccbb83d6d6f0812e4d5c8d46bbb63 thermal/of: Move cooling device OF helpers out of thermal core
+1390c4da1de1e06b884f8820a85234dbf0d51823 thermal/core: Make cooling device OF node conditional on CONFIG_THERMAL_OF
+35ec039ba8ba3d29960bae6b2333754792e3f32c thermal/of: Rename the devm_thermal_of_cooling_device_register() function
+c2adb941c61010bb67d02849efdbca39c2c778b9 thermal/of: Add cooling device ID support
+5b7488e4d2cde55cee3bde3fa45ee2849282f439 thermal/of: Pass cdev_id and introduce devm registration helper
+c381d71077a5a67fd3503a4f6e48abc0d4581270 thermal/of: Support cooling device ID in cooling-spec
+100e27ef9a645f07881160256b7131fb40885215 dt-bindings: thermal: cooling-devices: Update support for 3 cells cooling device
 
---===============9054492770651987072==--
+--===============4669999297241915939==--
