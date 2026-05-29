@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3471310846506256066=="
+Content-Type: multipart/mixed; boundary="===============0321022275503530621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/git/git
-Date: Fri, 29 May 2026 03:36:12 -0000
-Message-Id: <178002577207.3004207.9842071761587154131@gitolite.kernel.org>
+Date: Fri, 29 May 2026 04:14:30 -0000
+Message-Id: <178002807039.3029872.2706279966387562390@gitolite.kernel.org>
 
---===============3471310846506256066==
+--===============0321022275503530621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,87 +15,141 @@ service: git-receive-pack
 repo: pub/scm/git/git
 user: junio
 changes:
+  - ref: refs/heads/jch
+    old: a369722cd295250021848e5cf56cdbb2fc8b38e2
+    new: 9d901a57fcd3c17a67ac8d93fc743cc20b0be1c7
+    log: revlist-a369722cd295-9d901a57fcd3.txt
   - ref: refs/heads/seen
-    old: 7821a69c291f51a237fda8691f6d772cf132eab9
-    new: 0b8be46eb5de1454a652fd484b500a3606a3abff
-    log: revlist-7821a69c291f-0b8be46eb5de.txt
-  - ref: refs/notes/amlog
-    old: 191d99ec7c6ddf192bb3ace7610a22611deec0b2
-    new: 92812c29bd52515959934e05630e4cf58afbf2b1
-    log: |
-         92812c29bd52515959934e05630e4cf58afbf2b1 amlog
-         
+    old: 0b8be46eb5de1454a652fd484b500a3606a3abff
+    new: 60cdfc993edca86c2b9b9d478a4a3df9b99bdfa2
+    log: revlist-0b8be46eb5de-60cdfc993edc.txt
 
---===============3471310846506256066==
+--===============0321022275503530621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7821a69c291f-0b8be46eb5de.txt
+Content-Disposition: attachment; filename=revlist-a369722cd295-9d901a57fcd3.txt
 
-4ed1ffe680d1ad0fe7436c9816262b6abb518629 t5710: simplify 'mkdir X' followed by 'git -C X init'
-ee7ea4907ccef604f764df5e223640ad04192f6d urlmatch: change 'allow_globs' arg to bool
-58880c82feb460015153575dc02b9959e4d8a8a0 urlmatch: add url_normalize_pattern() helper
-53951298515ad26728175182c9103eea71885220 promisor-remote: add 'local_name' to 'struct promisor_info'
-78e0d9b0e4649659cc38545450174d293cb1ec0c promisor-remote: introduce promisor.acceptFromServerUrl
-5dd8043581ca331dcb59ab721aefb5881128e124 promisor-remote: trust known remotes matching acceptFromServerUrl
-7a56394fc6c28572925b00c4fe3b1ff78b5f4322 promisor-remote: auto-configure unknown remotes
-8f32e6f343b451f04e57dfda31bef04cb23f65a1 doc: promisor: improve acceptFromServer entry
-e3959cc78c968d8f029daa48d4aadcb486da0629 pack-bitmap: pass object position to `fill_bitmap_tree()`
-1760c372589af09ff0b986c57bfe0b9101275674 pack-bitmap: check subtree bits before recursing
-3ea5fe8482e44fe8636b2725edffcadc81b22161 pack-bitmap: reuse stored selected bitmaps
-ece3465d44157157a03eb7cd5de955e552e7831c pack-bitmap: consolidate `find_object_pos()` success path
-c720bbcc53f223236220c7a879f0a0e73e5d3739 pack-bitmap: cache object positions during fill
-dcccd997462e2130bcc35f933285ff087454275e pack-bitmap: sort bitmaps before XORing
-b04d26607de35b88cf9c62ca11931d4f8cc4ac05 pack-bitmap: remember pseudo-merge parents
-49633dc88c14008f9a405f215b60994362b36d6c pack-bitmap: build pseudo-merge bitmaps after regular bitmaps
-4a1c74e2dad0d3a1f112c381fc279bbd7ea163a7 daemon: fix IPv6 address corruption in lookup_hostname()
-93a64929c0b654a4eb84458cb10cd9f469b7ee89 daemon: fix IPv6 address truncation in ip2str()
-44c3f0fa1dead378527559ea89ba571e30ccd291 daemon: guard NULL REMOTE_PORT in execute() logging
+7c9b38d267129625adeced9f66140e802c345261 SubmittingPatches: proactively monitor GHCI pages
+50cd5219d2b63f4896a3d142f83fadf8e47a6c3b doc: convert git-bisect to synopsis style
+ed31e2872a7306f52de1e2b9ab0065b9d91f3338 doc: git bisect: clarify the usage of the synopsis vs actual command
+25d5d60958f1486cb8439863062f66ffef605f18 doc: convert git-grep synopsis and options to new style
+242d3aa317ccaa3e7c5f6bf2218ccbdd8a0a26e9 doc: convert git-am synopsis and options to new style
+ba1c516edabccd3e195746a8be842a70cdea6502 doc: convert git-apply synopsis and options to new style
+2ef248ae45bdcfbb027108bf87fcc3375cb5daba doc: convert git-imap-send synopsis and options to new style
+85a30b5b26c2953aa836c554af5fc58eed707e4a object.h: fix stale entries in object flag allocation table
+f767dae3e6c8359128d0ec83acd009751e92e419 commit-reach: deduplicate queue entries in paint_down_to_common
+a186b7797a8bd4b9ca09b9cb326a2dccee00f90e commit-reach: replace queue_has_nonstale() scan with O(1) tracking
+a6969f90a502a83d53af5a293e203ac5b41996d2 revision: move -L setup before output_format-to-diff derivation
+2b240d4281b8d517c23b6f163103c91f32fa34ff line-log: integrate -L output with the standard log-tree pipeline
+91e26211aa8d1afa64959b506422a8085e6b19b5 line-log: allow non-patch diff formats with -L
+96d1225ad904bf865fecc89ddfde62e1f4281c19 completion: hide dotfiles for selected path completion
+ca7b9ae3403b1a46fffbdae312092c4029470eee t1092: test 'git restore' with sparse index
+105aacd072e41c55948d016b46f86f75db2487b3 restore: avoid sparse index expansion
 9f4e170dfc3bd8cdd284f1c4411b25ce1d09737f pack-objects: call release_revisions() after cruft traversal
 d877b1af507a6aaf55e8643eb73277a30d3a800b revision: introduce rev_walk_mode to clarify get_revision_1()
 dd4bc01c0a8fc871a68a5027ed5ac953fa47fc6e revision: use priority queue for non-limited streaming walks
 7dd898a92ddc2318c3516c06fb6769c3e64216ed *: replace deprecated free_commit_list
 83e7f3bd2bac934c21f39175b965c37810a41ea5 commit: remove deprecated functions
-8c84e6802c0e23503bfe655dadcdc4a15de7373a t3070: skip ls-files tests with backslash patterns on Windows
-7be2099ee9ae9d81618dcce65b3aa302a87078d2 t3404: add failing branch symref test
-1b40f3abf97445d22099c33b1c822204bc0962f1 rebase: skip branch symref aliases
 1ec041bebb46159562c4beeb2e6980284e0f9a28 doc: clarify that --word-diff operates on line-level hunks
-4eca056fe741e2884bd074a93eed19aafa5dabcf Merge branch 'tb/bitmap-build-performance' into seen
-a39e597bdb7c175828c60da6d2417a0006e90f89 Merge branch 'jd/unpack-trees-wo-the-repository' into seen
-c64e74b82c17c1ce16e30e781040ee23d972570a Merge branch 'th/promisor-quiet-per-repo' into seen
-37429ef07adb0b4f624c749b487c78d8091a6300 Merge branch 'cs/subtree-split-recursion' into seen
-09c82ca9160e59517e719018edc2f789f5d59f7e Merge branch 'lp/repack-propagate-promisor-debugging-info' into seen
-e060edfbb1be9c9196c4a3a71958e4f71f7351e6 Merge branch 'pw/status-rebase-todo' into seen
-1d555f48952d3a12a9292abe6fc37e51825a7f6e Merge branch 'js/parseopt-subcommand-autocorrection' into seen
-a3f86e95ca51dc6b800b35c071b703fccf694b13 Merge branch 'ua/push-remote-group' into seen
-20359edd36903737a4424a9a744890ef42b143be Merge branch 'mm/line-log-cleanup' into seen
-7f50f4da017f03a0a82c23aeb3058a9b6d9709f1 Merge branch 'st/daemon-sockaddr-fixes' into seen
-6d88fe2ddebe504fb34191218cd2d2ad7cd4956d Merge branch 'rs/strbuf-add-uint' into seen
-15015acb231659c62efe7518c9d5fd4f1549d2f0 Merge branch 'mm/doc-word-diff' into seen
-4f4f12c16de0cfecd1c87838a73561c9aee1f9c0 Merge branch 'rs/strbuf-add-oid-hex' into seen
-b4884cc1b98a6774dbafe4ac8dde046f69625199 Merge branch 'jt/config-lock-timeout' into seen
-d7628e04d29d51136b5e0daa71b26c349f8b4e73 Merge branch 'hn/checkout-track-fetch' into seen
-b1e279a3cb2962065a94f064c45db3f8b2fb5f5b Merge branch 'hn/branch-prune-merged' into seen
-c199bf0b5aa32f7677de35fee02b5b2dcaca5b5b Merge branch 'hn/status-pull-advice-qualified' into seen
-eb3d6d9f3c69d8f0bbc0827a04f709ebe28c993f Merge branch 'hn/config-typo-advice' into seen
-db263ef60c1e43d5ee874d3386175200305246ed Merge branch 'mf/revision-max-count-oldest' into seen
-6c8f0015dbe8a37d57a3c003b719fe451e63c9af Merge branch 'gh/jump-auto-mode' into seen
-c6d36d01964bab022e6f66b9c69a500b5f211d88 Merge branch 'ps/odb-source-loose' into seen
-1604d95078c0997164648fe05f8d1b174957d666 Merge branch 'ps/setup-centralize-odb-creation' into seen
-e876741597dee3198316c19fce6598611f29ee6a Merge branch 'kh/doc-replay-config' into seen
-b084ff46af6f93d5725ced4946836b37a3ca59d6 Merge branch 'kk/fetch-store-ref-optimization' into seen
-4a2896009133289075c35910cabb7ee799ee6c38 Merge branch 'ds/restore-sparse-index' into seen
-46b5d7bb14ec5ff6a8025ca60586cc24bce82936 Merge branch 'kk/commit-reach-optim' into seen
-c8f66d8c946770650e7aca43e6b712aa5e0ec0b2 Merge branch 'jc/doc-monitor-ghci' into seen
-9dda1cc1c4fd2f6cf526b88ac5a32ba08105cf96 Merge branch 'cl/conditional-config-on-worktree-path' into seen
-626fc6933b72470c7061ae3072c5dfd697db2814 Merge branch 'ja/doc-synopsis-style-again' into seen
-b45f645476ffeb2df591a35cf3c1249b4920492b Merge branch 'ib/doc-push-default-simple' into seen
-a460b712b04beda45733b57e15105dfa77e628b8 Merge branch 'ec/commit-fixup-options' into seen
-110863ce3da6aa030265d4595d25a4d8e2db9cdc Merge branch 'za/completion-hide-dotfiles' into seen
-c571979ac7f52b715df1b976d264ae77c1e79c2f Merge branch 'kk/streaming-walk-pqueue' into seen
-aa243f63003a0ab9ac585d9173b3f14667856997 Merge branch 'kh/free-commit-list' into seen
-98a1f9c2206d480b199a771bd500b0be99e8378a Merge branch 'kk/wildmatch-windows-ls-files-prereq' into seen
-596b5b342622b702a383cb3ecc3c536d7a7c08e1 Merge branch 'sn/rebase-update-refs-symrefs' into seen
-0b8be46eb5de1454a652fd484b500a3606a3abff Merge branch 'cc/promisor-auto-config-url-more' into seen
+5d2102bf9ca1ed233373dd4b048223f3c7785679 Merge branch 'ed/check-connected-close-err-fd-2.53' into jch
+f0a2ebda9c3cde9204a66ec4d6a56ca3dde0ad2e Merge branch 'ed/check-connected-close-err-fd' into jch
+ae5c77c5b84f460b5e8fe3bb5f537f06ce87ab5e Merge branch 'kk/tips-reachable-from-bases-optim' into jch
+faed441de39a14fe857b4073c3fdfae8eefd371f Merge branch 'tc/generate-configlist-fix-for-older-ninja' into jch
+6d9f4f08bf206653c701a7e9eeef12709bfd6e8b Merge branch 'jr/bisect-custom-terms-in-output' into jch
+9dc41da462e3d88694709b1462c7790577cb46eb Merge branch 'ps/graph-lane-limit' into jch
+6dd3413b32e8179d62116025e6136020e24f572d Merge branch 'pt/fsmonitor-linux' into jch
+f36a93b44622ec78c27d4c8d5b2a8fb64e031e2f Merge branch 'jk/commit-graph-lazy-load-fallback' into jch
+abcd83aeb7fd5f5a7542acde2c4df0488240507d Merge branch 'sa/cat-file-batch-mailmap-switch' into jch
+e1ce94d0c4577a6ce0e41ddbbaa1a383ce14c4bc Merge branch 'ps/gitlab-ci-macOS-improvements' into jch
+bcb35cf84325d33bac0748a8f1e9aa1b1bfeb931 Merge branch 'sp/doc-range-diff-takes-notes' into jch
+81dd4cb7eaae82480500da2b43e3321feff90fd1 Merge branch 'jk/connect-service-enum' into jch
+5f7fc9fdc5ae4512f53696a50d2e544b6ff09391 Merge branch 'ta/approxidate-noon-fix' into jch
+3e13ce890e080591393e4f5c5ab41460d5502eab Merge branch 'ds/path-walk-filters' into jch
+ef3af42d414d1e198ff47f8b12b1bb0b69aaaad7 Merge branch 'kh/doc-hook' into jch
+e6fbcc3360fd4089dce9f916d9ef16059135cd86 Merge branch 'ar/receive-pack-worktree-env' into jch
+92f4c35d77761b8da508c5d7b279521f7701b2e1 ### match next
+c4546ef86c37ae625e45bbb6cd619151d1ca435c Merge branch 'ds/restore-sparse-index' into jch
+516bd5c52c92b2a8618771785042df3dd5e7ba8a Merge branch 'kh/free-commit-list' into jch
+524532e861772ca02f574b01870983dca498d0da Merge branch 'aj/stash-patch-optimize-temporary-index' into jch
+09f9932077801bbc98d19c2094caf982dd5fda62 Merge branch 'mm/line-log-cleanup' into jch
+818b9453e79ea63a4d00deb6de0e5aca3e3ed9f7 Merge branch 'mm/doc-word-diff' into jch
+031c245d10dd23dd4d267ccaea45a49c5bdfd6b8 Merge branch 'kk/commit-reach-optim' into jch
+e655ccb2dab13baf4fbc82a4bca43eddc0fb8e9c Merge branch 'jc/doc-monitor-ghci' into jch
+50b428317e25503dae9b0f1f41252c9f51b626be Merge branch 'ja/doc-synopsis-style-again' into jch
+03bfc8bd862c736974c878b2d089535895cc9e0d Merge branch 'za/completion-hide-dotfiles' into jch
+df1d720d498641058efd95d6f8af7b5ade6caf98 Merge branch 'kk/streaming-walk-pqueue' into jch
+816e4f5195791961b1f05391aa9e37f9e077f58e Merge branch 'ps/shift-root-in-graph' into jch
+44ca2ba4fe2705cd2470206552a291ada5113366 Merge branch 'jc/neuter-sideband-post-3.0' into jch
+aa5ed85e985e7c4b722e90e8598f29c3d05e51b2 Merge branch 'kh/doc-trailers' into jch
+0e818b55169bbd0a2b06f327892d3cc7cb3e8245 Merge branch 'en/ort-harden-against-corrupt-trees' into jch
+9d901a57fcd3c17a67ac8d93fc743cc20b0be1c7 Merge branch 'ob/more-repo-config-values' into jch
 
---===============3471310846506256066==--
+--===============0321022275503530621==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0b8be46eb5de-60cdfc993edc.txt
+
+5d2102bf9ca1ed233373dd4b048223f3c7785679 Merge branch 'ed/check-connected-close-err-fd-2.53' into jch
+f0a2ebda9c3cde9204a66ec4d6a56ca3dde0ad2e Merge branch 'ed/check-connected-close-err-fd' into jch
+ae5c77c5b84f460b5e8fe3bb5f537f06ce87ab5e Merge branch 'kk/tips-reachable-from-bases-optim' into jch
+faed441de39a14fe857b4073c3fdfae8eefd371f Merge branch 'tc/generate-configlist-fix-for-older-ninja' into jch
+6d9f4f08bf206653c701a7e9eeef12709bfd6e8b Merge branch 'jr/bisect-custom-terms-in-output' into jch
+9dc41da462e3d88694709b1462c7790577cb46eb Merge branch 'ps/graph-lane-limit' into jch
+6dd3413b32e8179d62116025e6136020e24f572d Merge branch 'pt/fsmonitor-linux' into jch
+f36a93b44622ec78c27d4c8d5b2a8fb64e031e2f Merge branch 'jk/commit-graph-lazy-load-fallback' into jch
+abcd83aeb7fd5f5a7542acde2c4df0488240507d Merge branch 'sa/cat-file-batch-mailmap-switch' into jch
+e1ce94d0c4577a6ce0e41ddbbaa1a383ce14c4bc Merge branch 'ps/gitlab-ci-macOS-improvements' into jch
+bcb35cf84325d33bac0748a8f1e9aa1b1bfeb931 Merge branch 'sp/doc-range-diff-takes-notes' into jch
+81dd4cb7eaae82480500da2b43e3321feff90fd1 Merge branch 'jk/connect-service-enum' into jch
+5f7fc9fdc5ae4512f53696a50d2e544b6ff09391 Merge branch 'ta/approxidate-noon-fix' into jch
+3e13ce890e080591393e4f5c5ab41460d5502eab Merge branch 'ds/path-walk-filters' into jch
+ef3af42d414d1e198ff47f8b12b1bb0b69aaaad7 Merge branch 'kh/doc-hook' into jch
+e6fbcc3360fd4089dce9f916d9ef16059135cd86 Merge branch 'ar/receive-pack-worktree-env' into jch
+92f4c35d77761b8da508c5d7b279521f7701b2e1 ### match next
+c4546ef86c37ae625e45bbb6cd619151d1ca435c Merge branch 'ds/restore-sparse-index' into jch
+516bd5c52c92b2a8618771785042df3dd5e7ba8a Merge branch 'kh/free-commit-list' into jch
+524532e861772ca02f574b01870983dca498d0da Merge branch 'aj/stash-patch-optimize-temporary-index' into jch
+09f9932077801bbc98d19c2094caf982dd5fda62 Merge branch 'mm/line-log-cleanup' into jch
+818b9453e79ea63a4d00deb6de0e5aca3e3ed9f7 Merge branch 'mm/doc-word-diff' into jch
+031c245d10dd23dd4d267ccaea45a49c5bdfd6b8 Merge branch 'kk/commit-reach-optim' into jch
+e655ccb2dab13baf4fbc82a4bca43eddc0fb8e9c Merge branch 'jc/doc-monitor-ghci' into jch
+50b428317e25503dae9b0f1f41252c9f51b626be Merge branch 'ja/doc-synopsis-style-again' into jch
+03bfc8bd862c736974c878b2d089535895cc9e0d Merge branch 'za/completion-hide-dotfiles' into jch
+df1d720d498641058efd95d6f8af7b5ade6caf98 Merge branch 'kk/streaming-walk-pqueue' into jch
+816e4f5195791961b1f05391aa9e37f9e077f58e Merge branch 'ps/shift-root-in-graph' into jch
+44ca2ba4fe2705cd2470206552a291ada5113366 Merge branch 'jc/neuter-sideband-post-3.0' into jch
+aa5ed85e985e7c4b722e90e8598f29c3d05e51b2 Merge branch 'kh/doc-trailers' into jch
+0e818b55169bbd0a2b06f327892d3cc7cb3e8245 Merge branch 'en/ort-harden-against-corrupt-trees' into jch
+9d901a57fcd3c17a67ac8d93fc743cc20b0be1c7 Merge branch 'ob/more-repo-config-values' into jch
+8b5f554ce3b48f50d6b0521982844b79bc7264b2 Merge branch 'tb/bitmap-build-performance' into seen
+10f7223ebc6abb4fa5eef449be4136e29968a7d2 Merge branch 'jd/unpack-trees-wo-the-repository' into seen
+86ac964ca3fddae66cb3dc4226eec1082512d77a Merge branch 'th/promisor-quiet-per-repo' into seen
+c71994f009ab83c71df1bd77bf4d9d3cbbf018d2 Merge branch 'cs/subtree-split-recursion' into seen
+e34ed71295447bc10698e31289cf81c506e943c6 Merge branch 'lp/repack-propagate-promisor-debugging-info' into seen
+fa5ce2bf4db85afc1ded621e9326e4d7978044f4 Merge branch 'pw/status-rebase-todo' into seen
+b0d077f28488ea7ecd61a34cbe3cd783b7ca88b9 Merge branch 'js/parseopt-subcommand-autocorrection' into seen
+70a56eb2513833c6a0496ad804a9a0ff5219a85b Merge branch 'ua/push-remote-group' into seen
+7869a9d702754c55f0372e00a3a3db1c93408a73 Merge branch 'st/daemon-sockaddr-fixes' into seen
+08f39aab92ed3527dac59889b2d86204290ac196 Merge branch 'rs/strbuf-add-uint' into seen
+e45f074d38f9b368dfb46f476a60335fa6d37c65 Merge branch 'rs/strbuf-add-oid-hex' into seen
+d8bb0c9c9f6144cc695224dfa80721c0089ccaec Merge branch 'jt/config-lock-timeout' into seen
+2dd74ca41823e3b7eb74db85c8608bd74445050a Merge branch 'hn/checkout-track-fetch' into seen
+5bd5299bd4714c01094a7677b5712607ca161bfb Merge branch 'hn/branch-prune-merged' into seen
+f9f53096b9706da37a3e412553c65cd4cc1514bc Merge branch 'hn/status-pull-advice-qualified' into seen
+73f6be6f48bcf23ae219bff20229582a04c4f389 Merge branch 'hn/config-typo-advice' into seen
+46e023c29f25edcd7780c4677ccac6cee591e233 Merge branch 'mf/revision-max-count-oldest' into seen
+f237268ed775662c93c1887428619838ad3ac2c4 Merge branch 'gh/jump-auto-mode' into seen
+260c19179fc9fa3b9c7c4bf15d2803695908322b Merge branch 'ps/odb-source-loose' into seen
+b0574b5faf70f1e65aa1bcf8fae5f442aef33bef Merge branch 'ps/setup-centralize-odb-creation' into seen
+69083c5bb387ec87ecaf3570b43463136bcbcc87 Merge branch 'kh/doc-replay-config' into seen
+268fbd3d1b935cf3fac7659c1fe57401f720f58d Merge branch 'kk/fetch-store-ref-optimization' into seen
+912bf33d49cf79aebddd141c469a55f6f7756139 Merge branch 'cl/conditional-config-on-worktree-path' into seen
+7a0027f7ccdd53c0df1ae44ee2f3e3f60687bbd1 Merge branch 'ib/doc-push-default-simple' into seen
+96e2e01b57edd9d9956339e4a276ffa67bcc4a47 Merge branch 'ec/commit-fixup-options' into seen
+07b73d634a6298995b1ac6d56ac3926a0ef83ed5 Merge branch 'kk/wildmatch-windows-ls-files-prereq' into seen
+d871d4328f112f6004da70a2d45b449a4b946b9a Merge branch 'sn/rebase-update-refs-symrefs' into seen
+60cdfc993edca86c2b9b9d478a4a3df9b99bdfa2 Merge branch 'cc/promisor-auto-config-url-more' into seen
+
+--===============0321022275503530621==--
