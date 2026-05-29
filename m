@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 29 May 2026 03:03:26 -0000
-Message-Id: <178002380643.2980067.17435371502064330941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tatashin/linux
+Date: Fri, 29 May 2026 03:18:35 -0000
+Message-Id: <178002471598.2990599.15030089959582416516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tatashin/linux
+user: tatashin
 changes:
-  - ref: refs/heads/for-next
-    old: 9b435d23f51e55b62dda3a345a9f8931248ca514
-    new: 9a720e090eb5155fbd584a3f7eca18f82610a2b3
-    log: |
-         9a720e090eb5155fbd584a3f7eca18f82610a2b3 bpf: replace pop/push emptiness check with bpf_list_empty()
-         
+  - ref: refs/heads/luo-remove-max-files-sessions-limits/v3
+    old: 0000000000000000000000000000000000000000
+    new: e690a036b8d8dba3bae93ad6425e24e9f2cb3433
