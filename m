@@ -1,42 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6324007243942414017=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Fri, 29 May 2026 15:19:51 -0000
-Message-Id: <178006799105.3531505.7215785748978578756@gitolite.kernel.org>
-
---===============6324007243942414017==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Fri, 29 May 2026 15:24:32 -0000
+Message-Id: <178006827200.3536170.1483574046111176965@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/superm1/backlight-property-v5
-    old: c5b55cde17d304a1ed06e256ca6375ee541d94a8
-    new: 4e1c35dea9f890f06ed889791d677695807ea721
-    log: revlist-c5b55cde17d3-4e1c35dea9f8.txt
-
---===============6324007243942414017==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5b55cde17d3-4e1c35dea9f8.txt
-
-576c7cd4b62f9c12f13f930c54da8893c518db95 Revert "backlight: Remove notifier"
-a157cd4daf236cd079a7d30aae68d44e548f7381 backlight: add kernel-internal backlight API
-ce9b4afb21c7c3b7d717a5f8ada36829070a550e drm: link connectors to backlight devices
-ee592372ff9f807fed8d916787d202f1e5812d61 DRM: Add support for client and driver indicating support for luminance
-134a1c7dd9446ba5c7c5dac094799abf4e394bc2 drm/amd/display: Pass up errors reading actual brightness
-40d51af644024054af1109c794ff1655f2124efb drm/amd: Indicate driver supports luminance
-1b30bad6eebce2f7c942af3999973b35ee716d80 drm/amd/display: Allow backlight registration to fail
-6b8cbb35f2997e0486681f7ac798300e00eb219e drm/amd/display: use drm backlight
-03f02912f8380fe45f914bc29ca7bb66c681d918 drm/bridge: auto-link panel backlight in bridge connector
-7d032e2a794f5a7b08630d887826dcf30030e799 drm/xe: Indicate support for luminance on the connector
-f333cf2e1597b8f58ea14c78218ab3b4d79fd17c drm/i915: Indicate support for luminance on the connector
-4e1c35dea9f890f06ed889791d677695807ea721 drm/i915/display: use drm backlight
-
---===============6324007243942414017==--
+  - ref: refs/heads/for-7.2/arm/dt
+    old: 4cc90d4c043e73a88f28145a6713d336506da53f
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/for-7.2/arm64/dt
+    old: f0fbedccae9e16624977cca02216ab2399f5a3ab
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/for-7.2/dt-bindings
+    old: 1f1471284e9b5c2317b4dd8710270aa33c2fd2fe
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/for-7.2/firmware
+    old: 55ee4d297e3929beac865714b681a4f25759868f
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/for-7.2/pmc
+    old: 2f6de0e6535ca48555b1bd0fc8f3c8191f71c75c
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/for-7.2/soc
+    old: 8a3571618c2e3f339b5b6fee5841143face58a2b
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/for-next
+    old: d6c3060f8c5df453d92216fcf629a23ee0852d37
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
