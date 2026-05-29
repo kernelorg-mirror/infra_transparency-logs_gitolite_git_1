@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2220700208056171191=="
+Content-Type: multipart/mixed; boundary="===============6107607136236224052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 29 May 2026 17:49:41 -0000
-Message-Id: <178007698151.3646306.4514314095362452053@gitolite.kernel.org>
+Date: Fri, 29 May 2026 17:49:48 -0000
+Message-Id: <178007698848.3646551.3140310809046797504@gitolite.kernel.org>
 
---===============2220700208056171191==
+--===============6107607136236224052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/200GbE
     old: dd433671fef381fdaf7b530c631e6b782d66e224
     new: 422b5233b607476ac7176bfa2a101b9a103d7653
     log: revlist-dd433671fef3-422b5233b607.txt
 
---===============2220700208056171191==
+--===============6107607136236224052==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -521,4 +521,4 @@ f14fe6395a8b3d961a61e138ad7b36ba3626dd4e sctp: fix race between sctp_wait_for_co
 2412591cfe66e681374c5265e691695cd913d099 Merge tag 'for-net-2026-05-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 422b5233b607476ac7176bfa2a101b9a103d7653 net: pcs: pcs-mtk-lynxi: fix bpi-r3 serdes configuration
 
---===============2220700208056171191==--
+--===============6107607136236224052==--
