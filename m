@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 29 May 2026 22:19:06 -0000
-Message-Id: <178009314670.3848411.14219258639779306212@gitolite.kernel.org>
+Date: Fri, 29 May 2026 22:25:10 -0000
+Message-Id: <178009351091.3854393.17885302551809783346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/firmware/ffa
+  - ref: refs/heads/firmware/amdtee
     old: 0000000000000000000000000000000000000000
-    new: 18706ea68fc4344049bf693b702cb311a7c27ca7
+    new: 84a1e6179bd24dc10e47f6fa2b36f0ed345e68d8
