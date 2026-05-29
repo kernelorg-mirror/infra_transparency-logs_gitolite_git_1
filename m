@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 29 May 2026 23:34:00 -0000
-Message-Id: <178009764020.3903843.8388805266316997554@gitolite.kernel.org>
+Date: Fri, 29 May 2026 23:34:24 -0000
+Message-Id: <178009766474.3904462.13649030769549652852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.0.10/configs
-    old: 4d5a35995258a3af605ddd3319e1c82f77ea4718
-    new: a418856ee93fe9d288b9fb00b64ff3b569d389a0
+  - ref: refs/heads/kernel-7.0.10/changelog
+    old: 5ba716cbd79cd88695518ea8958465ecf01c195c
+    new: c9081ab5d5b58b888fde98ad8df466170e92e96c
     log: |
-         a418856ee93fe9d288b9fb00b64ff3b569d389a0 Revert "[redhat] configs: Compress UEFI/PE kernels with zstd"
+         c9081ab5d5b58b888fde98ad8df466170e92e96c kernel-7.0.10-2
          
