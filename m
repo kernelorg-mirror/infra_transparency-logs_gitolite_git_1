@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8402258487182344776=="
+Content-Type: multipart/mixed; boundary="===============3081512306512992970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 29 May 2026 14:45:37 -0000
-Message-Id: <178006593707.3505403.15314729831653970617@gitolite.kernel.org>
+Date: Fri, 29 May 2026 14:45:42 -0000
+Message-Id: <178006594206.3505568.11269618405066027755@gitolite.kernel.org>
 
---===============8402258487182344776==
+--===============3081512306512992970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 5f0ca6b80b12bab1ce06839cdffb6148bb650ff4
     new: ee9c0fa95cd89a98c9e60fd40f9e50a9fd95fdff
     log: revlist-5f0ca6b80b12-ee9c0fa95cd8.txt
 
---===============8402258487182344776==
+--===============3081512306512992970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ ea46abcbbd844ab91a710994555d807b0bd2e660 perf header: Propagate feature section 
 e50ce6831d23255c65a738e722bd542c91cfdb4e perf session: Snapshot event->header.size in process_user_event()
 ee9c0fa95cd89a98c9e60fd40f9e50a9fd95fdff perf test: Add truncated perf.data robustness test
 
---===============8402258487182344776==--
+--===============3081512306512992970==--
