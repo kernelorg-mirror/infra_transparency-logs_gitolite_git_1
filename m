@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3388919207448562298=="
+Content-Type: multipart/mixed; boundary="===============1254336131697890626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 29 May 2026 18:41:30 -0000
-Message-Id: <178008009024.3687858.12111044588741623490@gitolite.kernel.org>
+Date: Fri, 29 May 2026 18:41:33 -0000
+Message-Id: <178008009356.3687948.281126499391741877@gitolite.kernel.org>
 
---===============3388919207448562298==
+--===============1254336131697890626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: aa064a614efcfa4c300609d1f01134e99a12ad10
     new: 8415598365503ced2e3d019491b0a2756c85c494
     log: revlist-aa064a614efc-841559836550.txt
 
---===============3388919207448562298==
+--===============1254336131697890626==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -760,4 +760,4 @@ ac0056e4f14b03eb3e933c857aef080a2b8dfdf4 docs: page_pool: drop the mention of th
 81a4d039537a89e7619aa94c5b6db051ae0b180c net: make page_pool_get_stats() void
 8415598365503ced2e3d019491b0a2756c85c494 Merge branch 'docs-page_pool-tweaks-and-updates'
 
---===============3388919207448562298==--
+--===============1254336131697890626==--
