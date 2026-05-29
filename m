@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 29 May 2026 19:48:47 -0000
-Message-Id: <178008412793.3736752.9389212539380754421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Fri, 29 May 2026 19:52:35 -0000
+Message-Id: <178008435568.3740387.15990289557947024638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/main
-    old: 422b5233b607476ac7176bfa2a101b9a103d7653
-    new: 9c7da87c2dc860bb17ca1ece942495d28b1ce3b9
+  - ref: refs/heads/libtraceevent
+    old: 13701b5532e0c3295bf5670361692b0d0044228d
+    new: 51d47b0eb2b40d4273fb461782fe9a01db0f901c
     log: |
-         1e584c304cfb94a759417130b1fc6d30b30c4cce vsock/virtio: bind uarg before filling zerocopy skb
-         f72eed9b84fb771019a955908132410a9ba9ea3f bpf: sockmap: fix tail fragment offset in bpf_msg_push_data
-         9f72412bcf60144f252b0d6205106abf14344abc ipv6: fix possible infinite loop in rt6_fill_node()
-         9c7da87c2dc860bb17ca1ece942495d28b1ce3b9 ipv6: fix possible infinite loop in fib6_select_path()
+         5b44859765fc10920cfde68f8e327e6c92fc23ee libtraceevent utest: Read btf file in utest if mmap fails
+         7f9698364b2617ed343e7736904b75cff943132a libtraceevent utest: Fix type of args in test_btf_read
+         ad28a726c7bc02a8098d26e8450c18ebc53ea28b libtraceevent: Pretty print function parameters of enum-type
+         51d47b0eb2b40d4273fb461782fe9a01db0f901c libtraceevent: Parse %pB and %pa address specifiers
          
