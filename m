@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 29 May 2026 11:09:16 -0000
-Message-Id: <178005295694.3335199.9063140631091526571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Fri, 29 May 2026 11:10:38 -0000
+Message-Id: <178005303867.3338030.15886926465430500431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 5ca125f422496909d4a9ce4d3aa222c2f1983e34
-    new: a00c9f5a6a0330e514639500699d674ef1f24265
-    log: |
-         a00c9f5a6a0330e514639500699d674ef1f24265 nfsd: validate symlink target length in NFSv4 CREATE
-         
+  - ref: refs/tags/iommu-fixes-v7.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: c38c56dd0752fc51faa027c4d12efc777c4c09a0
