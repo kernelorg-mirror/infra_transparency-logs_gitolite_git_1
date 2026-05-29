@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 29 May 2026 14:16:47 -0000
-Message-Id: <178006420709.3482044.2997812878208593139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 29 May 2026 14:16:56 -0000
+Message-Id: <178006421616.3482217.9422140802696594423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e678def2785c15b81b6f08ca90d9475854e16858
-    new: a9d81325bedfc88d392128d295ae67a9385121c1
+  - ref: refs/heads/for-linus
+    old: 60474437af5fe12abd20607766c809e0ad4e7245
+    new: 79378db6a86c7014cce40b65252e6c18f5b8bcc2
     log: |
-         b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d regulator: remove used pcap regulator driver
-         a9d81325bedfc88d392128d295ae67a9385121c1 Merge remote-tracking branch 'regulator/for-7.2' into regulator-next
+         79378db6a86c7014cce40b65252e6c18f5b8bcc2 spi: spi-mem: avoid mutating op template in spi_mem_supports_op()
+         
+  - ref: refs/heads/for-next
+    old: b3364b4db89d52122228ebf183df46c5e8345a6b
+    new: 011cd366a4c6d821d8b46d4ebeb2e3d8b7860856
+    log: |
+         79378db6a86c7014cce40b65252e6c18f5b8bcc2 spi: spi-mem: avoid mutating op template in spi_mem_supports_op()
+         011cd366a4c6d821d8b46d4ebeb2e3d8b7860856 Merge remote-tracking branch 'spi/for-7.2' into spi-next
          
