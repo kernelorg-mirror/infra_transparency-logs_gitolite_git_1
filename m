@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0136617141526645169=="
+Content-Type: multipart/mixed; boundary="===============3637579409470594549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 29 May 2026 14:51:30 -0000
-Message-Id: <178006629076.3510322.7202842188344984535@gitolite.kernel.org>
+Date: Fri, 29 May 2026 14:51:32 -0000
+Message-Id: <178006629296.3510509.7443798218361529415@gitolite.kernel.org>
 
---===============0136617141526645169==
+--===============3637579409470594549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3b6272e4da1b60445d505b94753325c546a6a690
-    new: a4316353f0e3e9dff78d8a7582915117ec01e359
-    log: revlist-3b6272e4da1b-a4316353f0e3.txt
+  - ref: refs/heads/mm-unstable
+    old: 2a1daa177de30466a469a9a5a3ef4a50136d7cd9
+    new: 404fb4f38e8f38469dfff4df0205c9d18eeb1f57
+    log: revlist-2a1daa177de3-404fb4f38e8f.txt
 
---===============0136617141526645169==
+--===============3637579409470594549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b6272e4da1b-a4316353f0e3.txt
+Content-Disposition: attachment; filename=revlist-2a1daa177de3-404fb4f38e8f.txt
 
 b4aea43cd37afad714b5684fe9fdfcb0e78dba26 mm/hugetlb: avoid false positive lockdep assertion
 c0cafe24d3f6534294c4b2bc2d47734ff7cbd313 memcg: use round-robin victim selection in refill_stock
@@ -446,26 +446,5 @@ e29473907ba025f6a3d6e627bd02e0f828f00350 zram: clear trailing bytes of compresse
 f6d90277bc97e74933c00b7122fd2cf65da77469 mm/migrate: find_mm_struct: fix race between security checks and suid exec
 cae28ae57e3fa559ec994262974d8b285d4d0174 MAINTAINERS: add vm.rst to memory management core
 404fb4f38e8f38469dfff4df0205c9d18eeb1f57 docs: mm: clarify that user_reserve_kbytes has no effect when overcommit_memory is set to 0 or 1
-58fb958c027e3e4f5b2cff27a343aeb2d9717a35 mm: list_lru: fix set_shrinker_bit() call during race with cgroup deletion
-e081d9c182007110eecade6f6827fe307c92e7e5 mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-def05d27d44642f5b240c81110377b5daf410867 mm: list_lru: deduplicate unlock_list_lru()
-816a5165153f33fc84f528d230b2f2795e78a36f mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-35cdac63b723d8bdf45ef6f20c1a644ff18d77b3 mm: list_lru: deduplicate lock_list_lru()
-6c78e8c5cdeed22197dcaf58005e94628ec8d1fd mm: list_lru: introduce caller locking for additions and deletions
-1eeb2ec26707fcb2f3c312904d65071e7489c44a mm: list_lru: introduce folio_memcg_list_lru_alloc()
-c3a06c639362ef4072b4d539cbd6bc9aa01b2550 mm: memory: flatten alloc_anon_folio() retry loop
-ba15d429aac1e3007a17713e44be1f4f72fb4d95 mm: switch deferred split shrinker to list_lru
-9bc2ed20b5334f9907d4536d3a78dd9ea7b401f9 mm-switch-deferred-split-shrinker-to-list_lru-fix
-191a0754eab488ecaca063244737f2b474038ee6 mm/compaction: respect cpusets when checking retry suitability
-6c23a4d2fd1b17e5aedad5662dc8f83853f7a1ca mm: bypass mmap_miss heuristic for VM_EXEC readahead
-4ae2d937b57b1b015248dfe4a2c3c1539b0a94fe mm: use mapping_max_folio_order() for force_thp_readahead order
-5faef070c76e94ab974b8297ca469c2b535e9283 mm/page_alloc: fix deferred compaction accounting
-319df3f85baef59932a70ac2039b0c69f959e66a mm/page_vma_mapped_walk: use ptep_get_lockless() for lockless access
-8be5905b60a382749626d4acbfd2c5add06e0d36 zram: drop unused bio parameter from write helpers
-62dd9121e138603ec8b653d39e649ffe4da0e220 lib/test_hmm: fix memory leak in dmirror_migrate_to_system()
-8f42b8b298b57647bde4f3dc0d22573773309244 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-6f4383ad486844b9c9bea6f7a25337e0de3cb4d1 mm/swap: remove redundant swap device reference in alloc/free
-27b1de42a805f42a43d65bdfd4ad6c4897354e0d mm/swap, PM: hibernate: atomically replace hibernation pin
-a4316353f0e3e9dff78d8a7582915117ec01e359 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============0136617141526645169==--
+--===============3637579409470594549==--
