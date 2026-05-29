@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglozar/linux
-Date: Fri, 29 May 2026 12:17:16 -0000
-Message-Id: <178005703625.3389748.1606119201502721232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 29 May 2026 12:44:02 -0000
+Message-Id: <178005864200.3407623.13684357156743176924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglozar/linux
-user: tglozar
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/rtla-v7.2
-    old: 0000000000000000000000000000000000000000
-    new: b68f283c5cb00f745b967421d9ddd22a2e386dc8
+  - ref: refs/heads/master
+    old: 4ba0d5dc6810f4e00c9407bb9f1365add2380412
+    new: 3c5a29559fdc121cdd9570ba1a9947cdcee412ff
+    log: |
+         3c5a29559fdc121cdd9570ba1a9947cdcee412ff Drop accidentally added net-usb-lan78xx and landlock patches
+         
