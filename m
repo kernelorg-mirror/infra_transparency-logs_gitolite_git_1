@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1823983598417888558=="
+Content-Type: multipart/mixed; boundary="===============7088105184584812970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 29 May 2026 07:49:15 -0000
-Message-Id: <178004095555.3185985.15154143352946079099@gitolite.kernel.org>
+Date: Fri, 29 May 2026 07:51:18 -0000
+Message-Id: <178004107891.3189109.2201868481979634704@gitolite.kernel.org>
 
---===============1823983598417888558==
+--===============7088105184584812970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ab63874f0240a6ec3902a4e23baf5c2031675434
-    new: 34bda9623a90d86429fb72e0190ad484ee961e0b
-    log: revlist-ab63874f0240-34bda9623a90.txt
+    old: 34bda9623a90d86429fb72e0190ad484ee961e0b
+    new: ddfd3966d0d4f0a8a3cf4d01d31ebba5fd689e33
+    log: revlist-34bda9623a90-ddfd3966d0d4.txt
+  - ref: refs/heads/tip/urgent
+    old: d483ea3a2e3880f1557fbb07db08bb53aa7a784e
+    new: af9ae836224a746a9bba3a155b7035b60ebd29ce
+    log: revlist-d483ea3a2e38-af9ae836224a.txt
 
---===============1823983598417888558==
+--===============7088105184584812970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab63874f0240-34bda9623a90.txt
+Content-Disposition: attachment; filename=revlist-34bda9623a90-ddfd3966d0d4.txt
+
+45a13ba52c82dbec9715222c51e629e85daa37d7 timers/migration: Update stale @online doc to @available
+af9ae836224a746a9bba3a155b7035b60ebd29ce Merge branch into tip/master: 'x86/urgent'
+ee5ce6e9ef0dff9f58c182509212f26dd634b3f7 Merge branch into tip/master: 'x86/merge'
+83358dec92a4c05c1bbdefa29d677db8a2a2799f Merge branch into tip/master: 'timers/merge'
+5927866c9a25fdc5178b8ace5188f1636b9a9c6e Merge branch into tip/master: 'irq/core'
+bd504f4dd55b58a60929aa6d864aca7bfedc0ca8 Merge branch into tip/master: 'irq/drivers'
+d351e375440284891fd5993fb01a6bf9df5fb7cc Merge branch into tip/master: 'irq/msi'
+174bead9f0d8eedb5881963b30ec11fbd0a76b9d Merge branch into tip/master: 'locking/context'
+54f230a8b725c4e2c4099d11b01d8d696491855a Merge branch into tip/master: 'locking/core'
+fd9afb57ee2c5ca503204d9ad6fddd688867842e Merge branch into tip/master: 'objtool/core'
+304066b13928c677a9b653c79927f9af0f20077f Merge branch into tip/master: 'perf/core'
+7867d5a9c97cb4e1e96507218bb1d226bf489537 Merge branch into tip/master: 'sched/core'
+ca7cc929afe54f5a197a8fa7a1dfecfb7a6be305 Merge branch into tip/master: 'timers/core'
+ca392db855e9a95a0ed48167ae2da289bdeb74a0 Merge branch into tip/master: 'timers/vdso'
+bdcde1764874073dbb728313f80ec4c05b371247 Merge branch into tip/master: 'x86/cache'
+2b7958209b958e7d43ad0ffd57765a7adfb02324 Merge branch into tip/master: 'x86/cleanups'
+80a37f0ed3a15ec2c59759194cfc3cac46c828f0 Merge branch into tip/master: 'x86/cpu'
+bbb9b66f22ecf7ad18387f0b315967255b594100 Merge branch into tip/master: 'x86/misc'
+1407e54f8c5bd91c82cfae165f73bb7d71487a15 Merge branch into tip/master: 'x86/mm'
+4f9cae71cef55e792f5ba7383908e446d2643843 Merge branch into tip/master: 'x86/sev'
+ddfd3966d0d4f0a8a3cf4d01d31ebba5fd689e33 Merge branch into tip/master: 'x86/tdx'
+
+--===============7088105184584812970==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d483ea3a2e38-af9ae836224a.txt
 
 f4268b466190dae95a7585f69b4f1f8ad097632c nfc: llcp: Fix use-after-free in llcp_sock_release()
 b493ea2765cc17cb8aa7e7544a4b6dcb05b6ed77 nfc: llcp: Fix use-after-free race in nfc_llcp_recv_cc()
@@ -149,6 +181,6 @@ b0f908d785e19d53f0c41cb5d83639b038d2e489 Merge tag 'gpio-fixes-for-v7.1-rc6' of 
 3e20009988e2470063824c58b19d1c80816cc46d Merge tag 'net-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 de85416e95c9cc9b18a3710e2554630f842b8334 Merge tag 'pm-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 8fde5d1d47f69db6082dfa34500c27f8485389a5 Merge tag 'acpi-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-34bda9623a90d86429fb72e0190ad484ee961e0b Merge branch 'linus'
+af9ae836224a746a9bba3a155b7035b60ebd29ce Merge branch into tip/master: 'x86/urgent'
 
---===============1823983598417888558==--
+--===============7088105184584812970==--
