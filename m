@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8037676617195876928=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 29 May 2026 14:11:30 -0000
-Message-Id: <178006389055.3477554.5479816066080877873@gitolite.kernel.org>
-
---===============8037676617195876928==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 29 May 2026 14:16:27 -0000
+Message-Id: <178006418749.3481542.17561336140367668964@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 60474437af5fe12abd20607766c809e0ad4e7245
-    new: 79378db6a86c7014cce40b65252e6c18f5b8bcc2
+  - ref: refs/heads/for-next
+    old: 985ad4170c1887e359d5bfb12a2c0b4a9810a82f
+    new: 9617ce6798f8eee61d8068f0ea03a08ce051932e
     log: |
-         79378db6a86c7014cce40b65252e6c18f5b8bcc2 spi: spi-mem: avoid mutating op template in spi_mem_supports_op()
+         ec4489c43efe434a132f27ff9298345de1cfacd8 ASoC: soc-card: add snd_soc_card_set_topology_name()
+         3b28b14b794cb95427028d55122eeff0787315ca ASoC: cs-amp-lib: Simplify overcomplicated error return
+         7e5d59f407bc39d43b350cc45f7880647429eb5d ASoC: Intel: catpt: Complete coredump handling
+         0ee392ea75c7e5dc172c769dd16b55b314f93208 ASoC: Intel: catpt: Add pretty-trace for large IPC payloads
+         45cf3e0cb4ca0f01269c73f71a53a570ae342471 ASoC: Intel: catpt: Print error code if board-registration fails
+         214206d8a332593814b4ab0ce88bf2cf6da5af35 ASoC: Intel: catpt: Error handling and debug improvements
+         9617ce6798f8eee61d8068f0ea03a08ce051932e Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
          
-
---===============8037676617195876928==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1780063889 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1780063888-3f8ece0095a72016ef33a867e59c2515a79eb861
-
-60474437af5fe12abd20607766c809e0ad4e7245 79378db6a86c7014cce40b65252e6c18f5b8bcc2 refs/heads/spi-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoZnpEACgkQJNaLcl1U
-h9DT+Af9GB3xM4T0Y0KB5g7v3/5aM6VqjEv7tqwUVVx85shg3LOFpz/aHPwSHum8
-5igSJ7AofjCuun856AxnysjvVkjbWF7HG6+mtN3hIiLPQRGZ8x9McdxVPurwWzBP
-SgDYmoGhV8pzNs8WeO/OC9zoyKt12mk3ApBBV5mU5BEHrCOsFmte40YaXGiBsGT2
-6BoqgPSVYc9PFR8bkDhoPI4QbD7c+VnRfN0RgvdYZKDJF0pc8BigvEs+h/qqGLy6
-TcvseChWTx6F5TKjiqkjBOQ+XwChLD7zWHsda+PAe3aTIyMdT1DP3snnSgUxGnIe
-bocrNutl+55OqBOVe3kRuUkP0ZGtYg==
-=Wubn
------END PGP SIGNATURE-----
-
---===============8037676617195876928==--
