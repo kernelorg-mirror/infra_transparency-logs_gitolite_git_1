@@ -1,52 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6697210030511850656=="
+Content-Type: multipart/mixed; boundary="===============4636259469374891355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 29 May 2026 11:56:09 -0000
-Message-Id: <178005576988.3374493.14356574229902183904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Fri, 29 May 2026 12:14:12 -0000
+Message-Id: <178005685225.3386298.17883188049499678630@gitolite.kernel.org>
 
---===============6697210030511850656==
+--===============4636259469374891355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/slab/for-next
-    old: a4852fb5b25f83ee914a19b5accdd0628b357f53
-    new: 1d8f40ed9011a5a660e952235a0e8db991de509a
-    log: |
-         90720e61fb7377b4ce1a3315b6382f8acc11d6d2 mm/slab: improve kmem_cache_alloc_bulk
-         1d8f40ed9011a5a660e952235a0e8db991de509a Merge branch 'slab/for-7.2/alloc_bulk' into slab/for-next
-         
+  - ref: refs/tags/samsung-drivers-fixes-7.1
+    old: 077ed729d2f0da3c25bb3d3cfd76e30a6d3a92df
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/samsung-drivers-fixes-7.1-2
+    old: 0000000000000000000000000000000000000000
+    new: f1a78bf048f9ae7ab21f49daa50681b5ce735392
 
---===============6697210030511850656==
+--===============4636259469374891355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1780055766 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1780055765-f908ea54832b4ebbcb0e36819b945abcaaa9d1b1
+pusher krzk@kernel.org 1780056850 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1780056849-2ee76a1f9bf81d5a48b3672beac69ec19452fa53
 
-a4852fb5b25f83ee914a19b5accdd0628b357f53 1d8f40ed9011a5a660e952235a0e8db991de509a refs/heads/slab/for-next
+077ed729d2f0da3c25bb3d3cfd76e30a6d3a92df 0000000000000000000000000000000000000000 refs/tags/samsung-drivers-fixes-7.1
+0000000000000000000000000000000000000000 f1a78bf048f9ae7ab21f49daa50681b5ce735392 refs/tags/samsung-drivers-fixes-7.1-2
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmoZftYbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia3MEH/juIN5jXHqvvJYaMy7s9
-vuSWb34zLPExTxK30txdXb5KGJNdZz0YSNLDOsw6ddtFchPLtEvw95Ay/uZRi8nS
-qVzyyVc72p8RmSiIU42X11Ds8f4d6CRCcUxY0oL3zy1qazeU+ELfdidSpLlUASLZ
-FSa8QBwTauRngvdIN0qcqFmz9qazPS4v8+Yb3Y+XKbBdscNsjndxj4tHETUNCvTo
-Kg9fHjwbsAKWivGXzWBzVkkStlWsQxGACNFzrfo6owBeuyes9+KIcvLoUixtfxYj
-Nhbp5eD0CKPvwjW3/yF+tL/E8vJzUnzjFRqdvwwAjUf5nPoVjA5Ku/mxa0S9TEYG
-6xw=
-=yicY
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmoZgxIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD187+D/9PpFZg3WTTyV4rzis3y7WXGSwzc1cpFRPe
+gLxs0DBBdjeSjkOKGz2CCR9UQQBNJAubPxt4m+0gfd/EHPtEekJx5mB3lCZ++Tr/
+va1tohPomMVBtY8M/oDlJqsLF3PlIqtoaXCwFay6u2ei1IUG7MOAAFsAWJihPbnA
+ZypU4ksjRvzr5cpH+0jXC9WEdLh3jYoQ9il6JkqNg/IJRIIrdnYLsnTRff73EEwf
+5yaahaNRBmR3vCAL/IzEYrOnMfTQfNf7qTqlOpk6SS61PEFmllf6BRBz5kp6UTkI
+a23Z9A6UKEakzcb7hP1O090p3jcR5WYUwhYANg7mKHbFVO8x2ohyaZ7o/7ndg+uq
+MKNcqmY41MlJlCWwV8gLUPFYmyMRfrewsTOAPhjjfq0mJDe9VTie9XUIHwfvJ+Hr
+y3OA7ukASIE2K5fPE9ZxX3rIhWm6ABABIdhDDfENPaBEBHVHRz3/MYJvmR5uHYpS
+4WODstPghf93lnGTVQ8tPiFulpuIRUHsCsHBjvfGqIl9vfTFmpcCHWjFihU1NHS6
+HjP2/DIUqFQu3RkuLibm20CqUmqWY/fp16V8OcCkgqdbZ8W6+KSHraM5BqnEE8Te
+KLpiPsybuZLbleMtGGl7XGYgxewl+qcte+q3CcmizhMnZ5H2qAFdv43Y0MciWSvf
+annO9iXuxA==
+=nRAa
 -----END PGP SIGNATURE-----
 
---===============6697210030511850656==--
+--===============4636259469374891355==--
