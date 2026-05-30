@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6911523884788787727=="
+Content-Type: multipart/mixed; boundary="===============5609894386713955062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 30 May 2026 10:28:14 -0000
-Message-Id: <178013689410.192526.1086884647582042625@gitolite.kernel.org>
+Date: Sat, 30 May 2026 10:30:25 -0000
+Message-Id: <178013702534.195439.576415570314357057@gitolite.kernel.org>
 
---===============6911523884788787727==
+--===============5609894386713955062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 36770417153644bc88281c7284730ef1d14d8d3c
-    new: 05d5d79440c2cc0784f91b61f2012753e66be472
+  - ref: refs/heads/char-misc-testing
+    old: 5ad28496055858166eb2268344c8fda2c26d3561
+    new: 285ecb7d9e1b2401c2eccca4d0f26615f4d651eb
     log: |
-         05d5d79440c2cc0784f91b61f2012753e66be472 Revert "gpib: cb7210: Fix region leak when request_irq fails"
+         285ecb7d9e1b2401c2eccca4d0f26615f4d651eb Revert "gpib: cb7210: Fix region leak when request_irq fails"
          
 
---===============6911523884788787727==
+--===============5609894386713955062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780136839 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780136970 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1780136890-f8cb8a818ab1e252ce543d14d6873d18388b28a4
+nonce 1780137021-f690921b659a03f645d9622852e49af5e9a3f2f7
 
-36770417153644bc88281c7284730ef1d14d8d3c 05d5d79440c2cc0784f91b61f2012753e66be472 refs/heads/char-misc-linus
+5ad28496055858166eb2268344c8fda2c26d3561 285ecb7d9e1b2401c2eccca4d0f26615f4d651eb refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoau4cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ST8QAMI9l5miggYEVD4BVA+A
-xoBPfhV0X9z142aACbhE4+281WytDUmdQwdBC/Ph+BlYzC7m3bS/3IVT8wibOa8x
-RKbBnndjRdId1B6NNzpgp108y6pDuQKtJuTw5yEvctLw2sCAAqqCAUQcnJQE6ss3
-fEw8tj48NIYiV7XQVRPBhFvRB4WRIBUlbm9C+7T//V7/bntJV9PZoPewf+hF1Ohw
-DX2W0IUKOBBtCyu8a/yQf6Dj+NqxqY7cvHJ+3jDHNBRY5QbYQxX0sdGWg/DyWZjk
-GikClQ8IXQcvtVgkcpDfHQDWYS/GHoLxI8ZmlXljyj9/MVFDlN2lUT+0IRyrHwY9
-CpYquz3kq0ndAXWs0TaAus2SPxGiySVB4TMlsPCrBOvMZBIoTG+J0TGMf/oRrkSX
-OqbGaB9nZMOUaP9Ue2wsUHWYFDdNq+MLcTGSjqRWnIU6U8FTrEnUDg9RNd6HRzq8
-SRqtIZ6v9LRnqhZfEL2+qq+a3FWaW87GXJ+0sU9BVgYI6dLwyKLMju2+34BXJF9F
-G2mQvBYwkl2PGlkD1iAdgYh2CgdiiSz7F5jNjcF6YU7fE3+ket/xTpJY5ckhjxw9
-j6nYRgtOXQf4/y/Skyq0MmfIbiNC18ElNfe3JL7hRmilUL9B4VGrdxVytiy/L7eI
-CNUbHQ9k/7MZqyta/3FUzXDd
-=/Le2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoavAobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TZMP/1lB6150FLMMMQd06HgN
+6oYvBJ4tc325eHq+KgtYZ8TPyvS565DLUlJRmeMgGWzSeIPEhd+xesZdgppdB6Pb
++Zl5KuwNm3WPodCU9C3YjXwVPXxtWkZXgRI4tm5iQGFFfv56co+ijA1/iEpc1EF4
+UH37CgbKtb4oxfTUC6VH8F62ktAVbWq4kHKXF4INwEi45Erd7gSbr23fteb+nkn/
+Na/VO2OqKLaPyyI4OrbVu1XEwprucdRjT/ZvedhwBKwEVGYY/D0Z9Suf5mjDGmAM
+hZfoXfDC5tv86bei2roLx+MSZt+07XFLeN9nn/j5G7sqMg/5KwdlTf6vrVgSABMJ
+8qG7bJupXhintqE+jgBdvS0N3uGjy1cGpCjNGKYrw5hoi5zmMmm1KTAJPeNQ1P50
+uQwAmR+lgm2ZPE5VZ6mrZW+zm5wNR/Jsw74W4fcRmPZN/EPowNLwwlZHWL45cdn7
+h6Ai01/HGE+u/gVvr0hflvJgiB6XsKlOng8eXs4FM/gF8xJB3xivLLw+Neb201tj
+00P2lIp5QVFEGLOlAs3eKNMxikqB9NIISL8GARdwMbbQuNHV+fUgGmYOVCmq5Tvb
+hi/xq7jIsf7JW7L3XwYVLeAoIxtZ0lTW4kMzigWJiDbYlhN+1oJHUF4nsOISskaq
+JfuelSfGEoKbbOFGwHxTfN0n
+=irKM
 -----END PGP SIGNATURE-----
 
---===============6911523884788787727==--
+--===============5609894386713955062==--
