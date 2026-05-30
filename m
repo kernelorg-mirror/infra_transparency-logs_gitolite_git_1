@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 30 May 2026 15:37:15 -0000
-Message-Id: <178015543509.417966.5056660818939322971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Sat, 30 May 2026 15:45:26 -0000
+Message-Id: <178015592659.424621.13209996895553507600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/pending
-    old: b3cef195b51e91a14fc3aac89df30821a7f2c834
-    new: c95579c5d78d33194730002d215898ecb7948321
+  - ref: refs/heads/master
+    old: 63d0d6b6aa47bda5850ef58db69112fc7bf392b7
+    new: b488e68eb1ca0a0dcdf742c7f4195c7678eafdc5
     log: |
-         c95579c5d78d33194730002d215898ecb7948321 wifi: ath11k: raise max vdevs to 4 on hardware with P2P and dual-station support
+         b488e68eb1ca0a0dcdf742c7f4195c7678eafdc5 wireless-regdb: update regulatory database based on preceding changes
          
