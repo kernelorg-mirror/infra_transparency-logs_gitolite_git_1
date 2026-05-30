@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
-Date: Sat, 30 May 2026 20:16:28 -0000
-Message-Id: <178017218814.620379.2957284192486925822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Sat, 30 May 2026 20:50:38 -0000
+Message-Id: <178017423874.644588.10029377807525339226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/fastrpc
-user: srini
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
-  - ref: refs/heads/for-fixes
-    old: 8d712bcdd1ef73bf790f01039508fb4e9c076bb1
-    new: c1c32b021c0991c4da70c97cb7ec97a2e54b41cd
+  - ref: refs/heads/next
+    old: b7fbe9a1bf9ee6c967ef77d366ca58c35fcf1887
+    new: ffb83b98357658b44a8a3b617a42d7ae48514ffd
     log: |
-         c1c32b021c0991c4da70c97cb7ec97a2e54b41cd misc: fastrpc: fix use-after-free race in fastrpc_map_create
+         c3029c38175b66b8ed8713f6c6c028a1de998b0d KVM: VMX: Macrofy GPR swapping in __vmx_vcpu_run()
+         8d4fb56794aa5c614574a678db679b2d407d8d3c KVM: SVM: Macrofy GPR swapping in __svm_vcpu_run()
+         e2e664812f7558e5a999271db7d17a391862d701 KVM: SEV: Macrofy GPR swapping in __svm_sev_es_vcpu_run()
+         ffb83b98357658b44a8a3b617a42d7ae48514ffd Merge commit 'kvm-vmenter-load-store-regs' into HEAD
          
