@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6899603920869512461=="
+Content-Type: multipart/mixed; boundary="===============8085503768810828637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 30 May 2026 17:16:18 -0000
-Message-Id: <178016137871.495903.6246426344794140344@gitolite.kernel.org>
+Date: Sat, 30 May 2026 17:16:21 -0000
+Message-Id: <178016138126.495986.15539602776844412804@gitolite.kernel.org>
 
---===============6899603920869512461==
+--===============8085503768810828637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a4316353f0e3e9dff78d8a7582915117ec01e359
-    new: d97bc98dadda29f23540b8490592962ebcf545ff
-    log: revlist-a4316353f0e3-d97bc98dadda.txt
+  - ref: refs/heads/mm-unstable
+    old: 404fb4f38e8f38469dfff4df0205c9d18eeb1f57
+    new: e1af79f3291a268adf4e149e1faba3052743e898
+    log: revlist-404fb4f38e8f-e1af79f3291a.txt
 
---===============6899603920869512461==
+--===============8085503768810828637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4316353f0e3-d97bc98dadda.txt
+Content-Disposition: attachment; filename=revlist-404fb4f38e8f-e1af79f3291a.txt
 
 1a11d90dc49430397e160c9bbd51b471055b406b device-dax: fix refcount leak in __devm_create_dev_dax() error path
 285587254a3fbeba38bad01304e31018e8190bcc ipc/shm: serialize orphan cleanup with shm_nattch updates
@@ -317,34 +317,5 @@ fe7017c6b02cdbe4a007871414a29442b0831011 mm/compaction: cap compact_gap() at COM
 43007cf4ee7be4b47bfa0a3479db82ed3588b970 alloc_tag: fix use-after-free in /proc/allocinfo after module unload
 8948dd52d7f1f7fd94b716fd081574865f7f0526 lib: split codetag_lock_module_list()
 e1af79f3291a268adf4e149e1faba3052743e898 mm/nodemask: correctly describe nodemask operation return types
-8ab58fa8439834300bf16ead913b94595c7a5c2e mm: list_lru: fix set_shrinker_bit() call during race with cgroup deletion
-203cfce5a37dee684a63b872902fe9eed85e110e mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-f3c70882207cf5a1d208aa0debe4cf5d35ed5fbd mm: list_lru: deduplicate unlock_list_lru()
-a46ad3a94ca3bf8752500db1164239da3ded5a1e mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-42078a8403807e70d2e62a1c9036b47d2e624caf mm: list_lru: deduplicate lock_list_lru()
-c164536cce487185c8788fff10604f4816482e5a mm: list_lru: introduce caller locking for additions and deletions
-cf0463b844c0821287c63e59371e6254f741acef mm: list_lru: introduce folio_memcg_list_lru_alloc()
-d576e31f2fe7a396028f0ad307a85cf8db869545 mm: memory: flatten alloc_anon_folio() retry loop
-318b652423b6e9615a2a73f1597c4b045ad8a84f mm: switch deferred split shrinker to list_lru
-3b8147e795359ca032fbf308ce193fbf260213de mm-switch-deferred-split-shrinker-to-list_lru-fix
-819beb29b65c770a88cccfc080a08cc9ca018648 mm/compaction: respect cpusets when checking retry suitability
-e4d5cfe0c7469fb44c1f4986fa534850791dde8b mm: bypass mmap_miss heuristic for VM_EXEC readahead
-2594a90abb84b534dc8d5453a7638bf8469887db mm: use mapping_max_folio_order() for force_thp_readahead order
-380c38979f9b0c05c0f71259d31d5281ce52d391 add comment explaining design decision
-ce09aa1818ada10aeb1a23df59f73ad1762828ae mm/page_alloc: fix deferred compaction accounting
-ac4c0402ed5df006ac217d286d39fdcc3461509a mm/page_vma_mapped_walk: use ptep_get_lockless() for lockless access
-2f6c4f8cdd795aed5e75729cf145d5b73c56ad2f zram: drop unused bio parameter from write helpers
-af1810173ecb1229803ea703dec68ad6632886f7 lib/test_hmm: fix memory leak in dmirror_migrate_to_system()
-550d7f835284e974b9625ce6dd2b1634614e3d68 fs/proc/task_mmu: fix make_uffd_wp_huge_pte() prot-update race
-a3783f0e09b4eecc73970a5bfa49be2b09d7d664 fs/proc/task_mmu: use huge_page_size() in pagemap_scan_hugetlb_entry()
-060c08490317c2174455b887facdc85c3109e127 fs/proc/task_mmu: fix hugetlb self-deadlock in pagemap_scan_pte_hole()
-4cafbf9025231cb57cc0495f3aa15afcdb1fa612 mm/huge_memory: preserve pmd_swp_uffd_wp on device-private PMD downgrade
-a1e7d9313c40183e013bd362be6bb78f63105d36 userfaultfd: gate must_wait writability check on pte_present()
-6d0b3e2ab6a123705fdd8425bc58765e5d51000b userfaultfd: build __VMA_UFFD_FLAGS from config-gated masks
-ec9a7d1fa266a6635346d2f9bcf42d13030f8d33 rust: page: mark Page::nid as inline
-a03a42f72b6e11c7809411f32861dac008d87633 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-268beebda09a112b8d1aee10ae572d1ee212667f mm/swap: remove redundant swap device reference in alloc/free
-45918c488d6c4019e4eb2eafafeede54f4f3a6d3 mm/swap, PM: hibernate: atomically replace hibernation pin
-d97bc98dadda29f23540b8490592962ebcf545ff mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============6899603920869512461==--
+--===============8085503768810828637==--
