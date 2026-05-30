@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sat, 30 May 2026 11:29:26 -0000
-Message-Id: <178014056695.242666.16570759767588237337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Sat, 30 May 2026 13:18:27 -0000
+Message-Id: <178014710748.318786.9802333245150115046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/b4/cros-big-endian
-    old: 0000000000000000000000000000000000000000
-    new: c9ef4809081436896c4ebfc7d0646089dcf1ce02
+  - ref: refs/heads/master
+    old: 8eff1ed9100ed14e455f5438101037d6320474bd
+    new: 85011c479f11ce1761b6f9fc0d3cb8c143687221
+    log: |
+         85011c479f11ce1761b6f9fc0d3cb8c143687221 docs: Document XKB keymap conversion
+         
