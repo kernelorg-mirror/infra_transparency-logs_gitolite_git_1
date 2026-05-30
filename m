@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 30 May 2026 16:49:46 -0000
-Message-Id: <178015978681.472888.5396765034264835519@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0962140907725184664=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 30 May 2026 16:51:22 -0000
+Message-Id: <178015988228.475792.17277477401891221621@gitolite.kernel.org>
+
+--===============0962140907725184664==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pending
-    old: 88efb81acd54e9b22ce975db8622e05c4bf0c35f
-    new: 68ddc70ce49ce42b19613bb7f98334dd0b918843
+  - ref: refs/heads/next/clk
+    old: 44984aaf1aa727ff944dd4b72fcf069d08b0056d
+    new: e11560b050ce867bd7d3ccea138231db54e2250a
     log: |
-         11bdd4ec0d2fbd7a434d5dbdd6f1fb179b022e31 wifi: ath12k: fix TLV32 length mask
-         bbf055229be9248ecc29181f6867941da0263dd4 wifi: ath12k: refactor HAL TLV32/64 decode helpers
-         5c90598467ac18b79696c82dba68b257c37d5260 wifi: ath12k: add HAL ops for monitor TLV header decode and alignment
-         b194865aed0300d9ca7c2393d93a20443f6b9b98 wifi: ath12k: add dp_mon support 32-bit TLV headers
-         68ddc70ce49ce42b19613bb7f98334dd0b918843 wifi: ath12k: tighten RX monitor TLV bounds check
+         e11560b050ce867bd7d3ccea138231db54e2250a clk: samsung: exynos990: Fix PERIC0/1 USI clock types
          
+
+--===============0962140907725184664==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1780159880 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1780159880-ee6b6071a09e8dd4aa51a01cf445c19fbc3509dd
+
+44984aaf1aa727ff944dd4b72fcf069d08b0056d e11560b050ce867bd7d3ccea138231db54e2250a refs/heads/next/clk
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmobFYgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14RyD/0VJV+hm+tUx/Oc2AtnDfDTy8vuOcdsjKR0
+CYsh/k6+B0gKiArF/Tgx1jhw1KUWbadn1RlI55o6XXuiOJ3SibKFkOxFyDpc0EgK
+XW0MV+KOGnKAJDeMFkrV+krkYzol7Pb5T2E4XjMwxUcyJDX0LZis2sYTlNBj4IBk
+y9COUc0gXo8IKamuvWkwNdd8ZXH3VR7j3IrfPRZCQ6jxyDRk9ncNYHsNRQvpJZIi
+ubqwLhEvLnU0IpgFEY5DuryyqIduh6IcnzoI/agLAGe2RLaI3ZLWJeojGPiY3uML
+h808RYOM42Ml7/R7MmTz0OCsE3rySPdF9PKIEVHzFwZGg2CDC82rvo4O0Vf3u73n
+rZeebqtAAsFyxAdhfvHWgEnB9B2oBkMJ8n9NBpQM9J1RPdX1kY99f1kZ4T+ypd6E
+6n+lyLmKjW1KT7nCu+pg7u4al4woTGGehT7ENyeVI1aO5TeQ5z2TntKPbAtCwVFT
+N0p1v9aAapxIYmyGCZWKqdZMIaGGHqsuWIfaHv5IqjJTt676cQaPLuQ37SjOCfat
+HNiLhX2FGKOaPouJ821BvzFS7kyfDY98mXuxoU6DBRp9hQnu0CMBodoVZ7qGxsh+
+wNABuIWm1hx0mZsLqB5Qpr0fMiK83kLYkVhUPi0MsD0YLqLCF4XPAOo/dF6BzrbN
+XUWlGjAw9w==
+=H8GU
+-----END PGP SIGNATURE-----
+
+--===============0962140907725184664==--
