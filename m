@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 30 May 2026 17:17:23 -0000
-Message-Id: <178016144343.496525.2678807804103877183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 30 May 2026 17:20:42 -0000
+Message-Id: <178016164220.499681.3755015761485588758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/hkml
 user: sj
 changes:
   - ref: refs/heads/master
-    old: f75e171f1fdb2cb8aa5f65455974df2688082efa
-    new: a9a79d8d2405730956ac74dcbe37ab67cbc54b1f
+    old: 4755a6113029cef0e914f009544e168638966fe6
+    new: f7ff005727dcc19f8dfbf324ab66a645e79fd96b
     log: |
-         b874f19e714a39f69b49ae11b96c4b297f17f401 patches/next: add mm-numa ABI doc to MAINTAINERS
-         5aed2875682364c7cae92117ba7af61bf33648cd patches/next: move MAINTAINERS ABI adding patch to for-submit category
-         1ac2140cf6ad0ccc9b6f730ed70ab4789ae8787c patches/next: MAINTAINERS ABI adding: clarify limited recipients
-         6e95039c06e5883e9fdd0ca551d7e4511c64adee patches/next: add mm ABI docs to MAINTAINERS: add proactie changelog
-         92f31151ce2feb4bc65763d05233a7a39c10ae88 patches/mm: update
-         a9a79d8d2405730956ac74dcbe37ab67cbc54b1f patches/next: rebase to latest mm-new
+         0a29762a86319b615a0d77d0ad46236d34dd504c TODO: add an item for pinned mails
+         df02998b016f602e2a565a1d523ca473522c1aa9 TODO: Add more items
+         8f5bfadb1e1eba9bf6e1e41c8a1912b138f375b0 hkml_list: hide pinned mails listing feature
+         54f0f51cea00483872c67331cb16cd5b2c0ed245 USAGE: remove pinned tags part
+         f7ff005727dcc19f8dfbf324ab66a645e79fd96b release_note: update for pinned tag mails feature hiding
          
+  - ref: refs/tags/v1.5.9
+    old: 0000000000000000000000000000000000000000
+    new: 70c0f722849c6d28d01d3ee0a6c1002ff993e06c
