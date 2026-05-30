@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Sat, 30 May 2026 03:26:18 -0000
-Message-Id: <178011157819.4077620.15987298317038989077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 30 May 2026 03:35:31 -0000
+Message-Id: <178011213102.4084738.9112089198887685171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/bcain/boot_qemu
-    old: a81283ca24aeced3d15724ecb99d91190babce5a
-    new: a2a98cd08700b29ee25458e078d1c20cc3cb4131
+  - ref: refs/heads/master
+    old: 94f73a6d3c6b5411d6b041bf0a7a6a16ecc5a660
+    new: 3a7fbea297f312eda86683c808c42013846888f4
     log: |
-         91d903b7c9d59faf26c939ddc0698f91107e514c hexagon: update QEMU boot documentation
-         a2a98cd08700b29ee25458e078d1c20cc3cb4131 mm: guard pageblock init against missing pageblock_flags
+         3a7fbea297f312eda86683c808c42013846888f4 foo
          
