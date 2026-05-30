@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 30 May 2026 15:17:04 -0000
-Message-Id: <178015422418.402842.7319328410062003225@gitolite.kernel.org>
+Date: Sat, 30 May 2026 15:25:46 -0000
+Message-Id: <178015474671.410361.8664527644132026165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: e7d6bd24e883bf7c328d73c99bf6bcde19bf5e61
-    new: 1bbeffeb0889d9957fd8bdb7002fa2cf1af1c7e0
+    old: 1bbeffeb0889d9957fd8bdb7002fa2cf1af1c7e0
+    new: b3cef195b51e91a14fc3aac89df30821a7f2c834
     log: |
-         1bbeffeb0889d9957fd8bdb7002fa2cf1af1c7e0 wifi: ath11k: use kzalloc_flex
+         e36f52776cd5692a88baba198814cc59210b1418 wifi: ath11k: fix invalid data access in ath11k_dp_rx_h_undecap_nwifi
+         b3cef195b51e91a14fc3aac89df30821a7f2c834 wifi: ath11k: add MSDU length validation for TKIP MIC error
          
