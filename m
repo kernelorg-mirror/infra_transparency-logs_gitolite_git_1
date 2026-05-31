@@ -1,190 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============6607923605111918253=="
+Content-Type: multipart/mixed; boundary="===============6177245354409030548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Sun, 31 May 2026 05:45:58 -0000
-Message-Id: <178020635838.1024682.10014369191077208240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Sun, 31 May 2026 05:46:27 -0000
+Message-Id: <178020638780.1025055.3417021890385380897@gitolite.kernel.org>
 
---===============6607923605111918253==
+--===============6177245354409030548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/for-7.2/arm/dt
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 774bc2764647cfd6b65727cfa978d809f11df392
-    log: revlist-254f49634ee1-774bc2764647.txt
-  - ref: refs/heads/for-7.2/arm64/dt
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: e1215cd6d3b9338e72573cc1cc60922b5bd34da4
-    log: |
-         8f0cc929a4bad534c5a860a53d88912cf16d9c9c arm64: tegra: Fix Tegra234 MGBE PTP clock
-         d60ed99f1c9e0bdf1fcd713426f6213abe592c83 arm64: tegra: Add aspm-l1-entry-delay-ns to PCIe nodes
-         7f2eeae12690aaee6195f85ed129a29c17f156d1 arm64: tegra: Fix address of Tegra264 main GPIO controller
-         36532a9a22589a375556e16b103ae8275a4affc0 arm64: tegra: Enable PCIe for Jetson AGX Thor
-         00b5b4e5d3c235950a80a7c5ca9297233640cbe9 arm64: tegra: Mark MAX77620 as system power controller on Smaug
-         bba8eefb56480c7b06a25e99632b1b6510a25473 arm64: tegra: Fix aspm-l1-entry-delay-ns L1 latency cells
-         f0fbedccae9e16624977cca02216ab2399f5a3ab arm64: tegra: Add #{address,size}-cells to Chromium-based /firmware
-         3b7b80753c1f1a2e0d5f901d3ea1b75f258bb9de Revert "arm64: tegra: Disable ISO SMMU for Tegra194"
-         e1215cd6d3b9338e72573cc1cc60922b5bd34da4 arm64: tegra: Enable SMMU on Tegra194 display controllers
-         
-  - ref: refs/heads/for-7.2/dt-bindings
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 1f1471284e9b5c2317b4dd8710270aa33c2fd2fe
-    log: |
-         2fcb272b0e6d60b3d0de7f7af9e652ea9514802d dt-bindings: reserved-memory: Change maintainer for BPMP SHMEM
-         1f1471284e9b5c2317b4dd8710270aa33c2fd2fe dt-bindings: tegra: pmc: Add Tegra238 compatible
-         
-  - ref: refs/heads/for-7.2/firmware
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 040eeafee0146b9d046caef501f387e107a59960
-    log: |
-         55ee4d297e3929beac865714b681a4f25759868f firmware: tegra: Make TEGRA_IVC a hidden Kconfig symbol
-         7ba53a3d1c4dae0124b2c141ae551ab9d9d7f1f9 firmware: tegra: bpmp: Propagate debugfs errors
-         040eeafee0146b9d046caef501f387e107a59960 firmware: tegra: bpmp: Add support for multi-socket platforms
-         
-  - ref: refs/heads/for-7.2/pmc
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 2cee7da9743396aff1fd13124109c78975c92ad8
-    log: revlist-254f49634ee1-2cee7da97433.txt
-  - ref: refs/heads/for-7.2/soc
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 8b8ee2e56f951ccf41d98eebe73195cea487cd48
-    log: |
-         36df0ef3b4187c69c271af7a1d56f7abb788655e bus: tegra-aconnect: Use dev_err_probe for probe error paths
-         912f0e6f274d5e1e0bfb241ae826f5522e0d49e8 MAINTAINERS: Move Peter De Schrijver to CREDITS
-         18c620ff671004a356b174e5f6d494fa449ce57c Documentation: ABI: Take over as contact for sysfs-driver-tegra-fuse
-         8a3571618c2e3f339b5b6fee5841143face58a2b soc/tegra: fuse: Register nvmem lookups at probe
-         8b8ee2e56f951ccf41d98eebe73195cea487cd48 soc/tegra: Use ARM SMCCC to get chip ID, revision, and platform info
-         
-  - ref: refs/heads/for-next
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: d26e0427259afafa0e89bfa0bcabc27d49049d4e
-    log: revlist-254f49634ee1-d26e0427259a.txt
-  - ref: refs/tags/tegra-for-7.2-dt-bindings
-    old: 0000000000000000000000000000000000000000
-    new: 99f2bae04bef71322d48185850fa11a195d776de
-  - ref: refs/tags/tegra-for-7.2-soc
-    old: 0000000000000000000000000000000000000000
-    new: ed2d08e40496af40bc603611ad43ffe504f8d6be
-  - ref: refs/tags/tegra-for-7.2-pmc
-    old: 0000000000000000000000000000000000000000
-    new: 97a09deebbfbba5fab95965d282d6613bb03d71d
-  - ref: refs/tags/tegra-for-7.2-firmware
-    old: 0000000000000000000000000000000000000000
-    new: 2b6f6a2a4f5c037b4bed11b77665d4870fe2104d
-  - ref: refs/tags/tegra-for-7.2-arm-dt
-    old: 0000000000000000000000000000000000000000
-    new: cfbd7d6552b20a5b30f0af63952fac1e33c5093a
-  - ref: refs/tags/tegra-for-7.2-arm64-dt
-    old: 0000000000000000000000000000000000000000
-    new: 5e683992d2f5c7c8d5c0e270494e32aadc1fb024
+  - ref: refs/heads/export
+    old: 228692121494a157d7050d141422c9b49c19ca25
+    new: 8ff849807e07f5c503bab6d7b953b6eccd97c667
+    log: revlist-228692121494-8ff849807e07.txt
 
---===============6607923605111918253==
+--===============6177245354409030548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-774bc2764647.txt
+Content-Disposition: attachment; filename=revlist-228692121494-8ff849807e07.txt
 
-b0822a883408f32d494ce9cdc26f4266774cf3f1 dt-bindings: memory: Document Tegra114 Memory Controller
-a4f97f9467661602bd6bf614bcee884502794d43 dt-bindings: memory: Document Tegra114 External Memory Controller
-e468ef1fc72f052c442cadd473a285ca5f789501 Merge tag 'memory-controller-drv-tegra-dt-bindings-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into for-7.2/arm/dt
-1fe27b10dc97c85821dfae1e4e6f9db4472287aa ARM: tegra: Add #{address,size}-cells to Chromium-based /firmware
-bdc80b3246f18f8f9f94af78c3c9f3c22c62fad3 ARM: tegra: Add EMC OPP and ICC properties to Tegra114 EMC and ACTMON device-tree nodes
-88627b26bad4a4486f75fbcf6fb5ee99ded27704 ARM: tegra: Add DC interconnections for Tegra114
-4cc90d4c043e73a88f28145a6713d336506da53f ARM: tegra: Configure Tegra114 power domains
-8399055d9f98e94c33608fe9d61afc09a43cc4df ARM: tegra: lg-x3: Complete video device graph
-61cf0112f79d6c6de2a002874b8618e802b664f2 ARM: tegra: lg-x3: Set PMIC's RTC address
-ece4229e457de4ceeec80890c5c760f0c858eeea ARM: tegra: p880: Lower CPU thermal limit
-a5acde8adb4d4d921a004b8df995d50255253afa ARM: tegra: grouper: Add support for front camera
-34d89435081d07b052dd522a57054132dada5400 ARM: tegra: transformer: Add support for front camera
-5333a49e51c2d0d5fe1615f721898036733ed5b0 ARM: tegra: transformers: Add connector node for common trees
-2ecff0cda80b9ba0e513620003d156cfef7394df ARM: tegra: tf600t: Configure panel
-d9c890d753034adcae0f74de578deed60d58233a ARM: tegra: tf600t: Drop backlight regulator
-774bc2764647cfd6b65727cfa978d809f11df392 ARM: tegra: tf600t: Invert accelerometer calibration matrix
+38f98bf21437c0a22e101fabbd6c8cee43edcb47 DO-NOT-MERGE: git markup: net
+d00d5e17aa2765d5f5f86e7be645c52dd2aee9d5 DO-NOT-MERGE: git markup: fixes other trees
+1c5cb1c936a701d2c6869109889da22b74a8cc0c selftests: mptcp: simult_flows: disable GSO
+f52c5b8eca96aceae2a0010f6a6f072f73169925 selftests: mptcp: simult_flows: adapt limits
+7351f94588e929784a857554d8fa1f89bb4115aa mptcp: fix missing wakeups in edge scenarios
+641357e3d8ccd39ee3eb377770668e1923b2cfaa mptcp: fix retransmission loop when csum is enabled
+c6061af4f55e6bc001fcedfeb6e66f3401c4332c mptcp: close TOCTOU race while computing rcv_wnd
+c2741ef31da4599da7f05b52fb39a2f805ea998c mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
+2ac7fde659169db0a6ac8e7384a6ada8bc121567 selftests: mptcp: add test for extra_subflows underflow on userspace PM
+46516afa457666b2728075da5670fedcfbf09cc7 selftests: mptcp: sockopt: set EXIT trap earlier
+28a8f2214729258a4aeefbcdf990134e58dfa3af mptcp: allow subflow rcv wnd to shrink
+9704de39435d2c1aa9c8930d69685f8388f1f461 mptcp: sockopt: check timestamping ret value
+afc621ffc4900609fd126e68e272f633374d3059 mptcp: sockopt: set sockopt on all subflows
+d0988c3ea00b16c7c3cf245eeb80998dcec76754 mptcp: pm: avoid sleeping while holding rcu_read_lock
+dea16c83eb139c57ba298e35c3bfe0f75a002ca5 DO-NOT-MERGE: git markup: fixes net
+4eb6eb2c455ceec5276a94974f393ec820264662 DO-NOT-MERGE: mptcp: add CI support
+ccce5142b28927c4860ac506b0c91d51eba57f8d DO-NOT-MERGE: git markup: end common net net-next
+1db1232bf7c39628ec8e55b786d2f458d1b02ee1 TopGit-driven merge of branches:
+264e82ad255e8d2718120a586cb3e5f5326ca891 DO-NOT-MERGE: git markup: net-next
+7f43f24cf0db1001accbc36f8aa3be70e7836f25 DO-NOT-MERGE: git markup: fixes net-next
+f1802be84941e2223f95c1cb7a728e346c9fe9cc mptcp: pm: init and release mptcp_pm_ops
+a04d56749cb11437e10b1a2e4c10fab76fe679f6 mptcp: pm: add get_local_id() interface
+acf36e9fda9010624390d80e88089cbbb63dcca2 mptcp: pm: add get_priority() interface
+6a78482715c8a034674ea6d8e940a7dd94a55902 selftests: mptcp: connect: test name in pcap file
+8ae388509be22f09b700bfe469fac5f86e1a8bc5 selftests: mptcp: simult_flow: test name in pcap file
+fc868bddcb5c9ae14a151811ac1101d5fb84fdf2 selftests: mptcp: pcap: drop most of the payload
+c94566c1cdf8dd5e753274c4f576f2766f60e9cf mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+09bd12e0dae9bd720b10dbd9eedb12c9d5ee2e05 mptcp: remove unused data_ack from struct mptcp_ext
+c43411c9a91fe7ef8a3c2d213d7c3b0ec1f3c2c3 mptcp: explicitly drop over memory limits
+5a3b42342b939e2f71d76cc43051e22fc4bf41a4 mptcp: enforce hard limit on backlog flushing
+f25c37473baaa3e1ef74bb9e95eb0abd39cc36f5 mptcp: implemented OoO queue pruning
+9033787af723a5948050092786a7aa35b4249c79 mptcp: options: suboptions sizes can be negative
+c079892628318aa0c2a13604c3f92de9adf1c1bb mptcp: pm: avoid computing rm_addr size twice
+f3b3d8896b61ca23720e10d7ee04197ec91108c4 mptcp: pm: avoid computing add_addr size twice
+6fb591c0be6fe1a53e83da120f27d61fcd62b423 mptcp: introduce add_addr_v6_port_drop_ts sysctl knob
+1af981e9ad0f53ab628acf235ab6d963cfa6b90a tcp: allow mptcp to drop TS for some packets
+fe88af8f59c916e390af6a0c0befd6ccef029483 mptcp: pm: drop TCP TS with ADD_ADDRv6 + port
+633e536a1de082653be1a698ae0174a8d2f30056 selftests: mptcp: validate ADD_ADDRv6 + TS + port
+26f2f684d52d314ace6f7d0bcdf6178754893d90 selftests: mptcp: always check sent/dropped ADD_ADDRs
+9c1c8d3c4d042633b7ebeb1a7f725f842a0343f8 mptcp: pm: use for_each_subflow helper
+6a0518e050173ec83c2b9befad1be507263b0d89 mptcp: pm: rename add_entry structure to add_addr
+33bc0503c5b4f1f77fe3be2fb3a196bc8b587bb6 mptcp: pm: uniform announced addresses helpers
+25f05cb6e932c347c084914dfbd3bef881e1e539 mptcp: pm: remove add_ prefix from timer
+37d3610feb084b8b14d5c26e1e224b8d912d3ef4 mptcp: pm: make mptcp_pm_add_addr_send_ack static
+3bbd9af778d6496dee04350c1842e50c217004ff mptcp: pm: avoid using del_timer directly
+6a6fd79bbca71c0b9bcceedef9d3834db129cab3 DO-NOT-MERGE: git markup: features net-next
+6602ab6cf40ea7ca474f6d132641413191c4ce93 DO-NOT-MERGE: git markup: features net-next-next
+e8c194c3b350a6418ba9c80542288a30cdb8afbb bpf: Add mptcp_subflow bpf_iter
+645f305b56819e061f3a858003cb95986ef7a266 selftests/bpf: More endpoints for endpoint_init
+936b81fd242afa80ef8be6a20a932256bc4d3f69 selftests/bpf: Drop cgroup_fd of run_mptcpify
+56f38fddc8481ad9526c70acd276d03d822777e4 bpf: Add mptcp packet scheduler struct_ops
+ecb64861814e306496ecd5eb444e4a14dab8bcb2 bpf: Export mptcp packet scheduler helpers
+7b6f6d0dee47354adc38866a36753451e0bbde6e selftests/bpf: Add bpf scheduler test
+afe69cf704cfd588ba086552d69d2a2f8d0dc3fb selftests/bpf: Add bpf_first scheduler & test
+97691dae76b1621c0bae2d16240961e588c14e9a selftests/bpf: Add bpf_bkup scheduler & test
+db981831fb2f32ce4f2f8bdb4ee56e382e56d0d4 selftests/bpf: Add bpf_rr scheduler & test
+96693e8091d433d3d10a16734dfacafc974e315b selftests/bpf: Add bpf_red scheduler & test
+a14ec5051e4e4cc4cf8d47b3a31aabfcf849c510 selftests/bpf: Add bpf_burst scheduler & test
+66ae7b792069522e8217e200644c827c4ae9e95e DO-NOT-MERGE: git markup: features other trees
+f4ddddf99ee2640410cb20d4f117d9dbe87790c0 DO-NOT-MERGE: mptcp: improve code coverage for CI
+8ff849807e07f5c503bab6d7b953b6eccd97c667 DO-NOT-MERGE: mptcp: enabled by default
 
---===============6607923605111918253==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-2cee7da97433.txt
-
-64e609f9299d457a88dec0bce68b42a434a78502 ata: ahci_tegra: Explicitly specify PMC instance to use
-3ef27f1ad5ed0e36c2dac82876ef7dde33a588f2 drm/nouveau: tegra: Explicitly specify PMC instance to use
-e68c4244136b8e9c2a9fc3aaa4d748be83afddef drm/tegra: Explicitly specify PMC instance to use
-c4d22e0d4458b79c716c64b57bee4022cead2b5e media: vde: Explicitly specify PMC instance to use
-5f726aeb505c9e5dde87530c78a11b88a44b9edd PCI: tegra: Explicitly specify PMC instance to use
-258cff9857918615897bd5b57c588dc13c0058b6 usb: xhci: tegra: Explicitly specify PMC instance to use
-4d61f03426892b14d498e160be245edcb9dd8359 soc/tegra: pmc: Create PMC context dynamically
-72a2a9023c329aca7e7f8d3997c9a26aa317a1fd soc/tegra: pmc: Remove unused legacy functions
-8318af5dd29c819d95ec5b878e7dab6090a9ed2b soc/tegra: pmc: Move legacy code behind CONFIG_ARM guard
-e9bfdf06fb05168e72d3d9d6163b04e2316e0aa2 soc/tegra: pmc: Populate powergate debugfs only when needed
-2545b16e3ea049a266ec8b0e509d4e093b26b906 soc/tegra: pmc: Restrict power-off handler to Nexus 7
-2cee7da9743396aff1fd13124109c78975c92ad8 soc/tegra: pmc: Add Tegra238 support
-
---===============6607923605111918253==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-d26e0427259a.txt
-
-8f0cc929a4bad534c5a860a53d88912cf16d9c9c arm64: tegra: Fix Tegra234 MGBE PTP clock
-d60ed99f1c9e0bdf1fcd713426f6213abe592c83 arm64: tegra: Add aspm-l1-entry-delay-ns to PCIe nodes
-36df0ef3b4187c69c271af7a1d56f7abb788655e bus: tegra-aconnect: Use dev_err_probe for probe error paths
-b0822a883408f32d494ce9cdc26f4266774cf3f1 dt-bindings: memory: Document Tegra114 Memory Controller
-a4f97f9467661602bd6bf614bcee884502794d43 dt-bindings: memory: Document Tegra114 External Memory Controller
-7f2eeae12690aaee6195f85ed129a29c17f156d1 arm64: tegra: Fix address of Tegra264 main GPIO controller
-36532a9a22589a375556e16b103ae8275a4affc0 arm64: tegra: Enable PCIe for Jetson AGX Thor
-912f0e6f274d5e1e0bfb241ae826f5522e0d49e8 MAINTAINERS: Move Peter De Schrijver to CREDITS
-18c620ff671004a356b174e5f6d494fa449ce57c Documentation: ABI: Take over as contact for sysfs-driver-tegra-fuse
-2fcb272b0e6d60b3d0de7f7af9e652ea9514802d dt-bindings: reserved-memory: Change maintainer for BPMP SHMEM
-64e609f9299d457a88dec0bce68b42a434a78502 ata: ahci_tegra: Explicitly specify PMC instance to use
-3ef27f1ad5ed0e36c2dac82876ef7dde33a588f2 drm/nouveau: tegra: Explicitly specify PMC instance to use
-e68c4244136b8e9c2a9fc3aaa4d748be83afddef drm/tegra: Explicitly specify PMC instance to use
-c4d22e0d4458b79c716c64b57bee4022cead2b5e media: vde: Explicitly specify PMC instance to use
-5f726aeb505c9e5dde87530c78a11b88a44b9edd PCI: tegra: Explicitly specify PMC instance to use
-258cff9857918615897bd5b57c588dc13c0058b6 usb: xhci: tegra: Explicitly specify PMC instance to use
-00b5b4e5d3c235950a80a7c5ca9297233640cbe9 arm64: tegra: Mark MAX77620 as system power controller on Smaug
-1f1471284e9b5c2317b4dd8710270aa33c2fd2fe dt-bindings: tegra: pmc: Add Tegra238 compatible
-8a3571618c2e3f339b5b6fee5841143face58a2b soc/tegra: fuse: Register nvmem lookups at probe
-bba8eefb56480c7b06a25e99632b1b6510a25473 arm64: tegra: Fix aspm-l1-entry-delay-ns L1 latency cells
-55ee4d297e3929beac865714b681a4f25759868f firmware: tegra: Make TEGRA_IVC a hidden Kconfig symbol
-e468ef1fc72f052c442cadd473a285ca5f789501 Merge tag 'memory-controller-drv-tegra-dt-bindings-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into for-7.2/arm/dt
-1fe27b10dc97c85821dfae1e4e6f9db4472287aa ARM: tegra: Add #{address,size}-cells to Chromium-based /firmware
-bdc80b3246f18f8f9f94af78c3c9f3c22c62fad3 ARM: tegra: Add EMC OPP and ICC properties to Tegra114 EMC and ACTMON device-tree nodes
-88627b26bad4a4486f75fbcf6fb5ee99ded27704 ARM: tegra: Add DC interconnections for Tegra114
-4cc90d4c043e73a88f28145a6713d336506da53f ARM: tegra: Configure Tegra114 power domains
-f0fbedccae9e16624977cca02216ab2399f5a3ab arm64: tegra: Add #{address,size}-cells to Chromium-based /firmware
-3b7b80753c1f1a2e0d5f901d3ea1b75f258bb9de Revert "arm64: tegra: Disable ISO SMMU for Tegra194"
-e1215cd6d3b9338e72573cc1cc60922b5bd34da4 arm64: tegra: Enable SMMU on Tegra194 display controllers
-8399055d9f98e94c33608fe9d61afc09a43cc4df ARM: tegra: lg-x3: Complete video device graph
-61cf0112f79d6c6de2a002874b8618e802b664f2 ARM: tegra: lg-x3: Set PMIC's RTC address
-ece4229e457de4ceeec80890c5c760f0c858eeea ARM: tegra: p880: Lower CPU thermal limit
-a5acde8adb4d4d921a004b8df995d50255253afa ARM: tegra: grouper: Add support for front camera
-34d89435081d07b052dd522a57054132dada5400 ARM: tegra: transformer: Add support for front camera
-5333a49e51c2d0d5fe1615f721898036733ed5b0 ARM: tegra: transformers: Add connector node for common trees
-2ecff0cda80b9ba0e513620003d156cfef7394df ARM: tegra: tf600t: Configure panel
-d9c890d753034adcae0f74de578deed60d58233a ARM: tegra: tf600t: Drop backlight regulator
-774bc2764647cfd6b65727cfa978d809f11df392 ARM: tegra: tf600t: Invert accelerometer calibration matrix
-8b8ee2e56f951ccf41d98eebe73195cea487cd48 soc/tegra: Use ARM SMCCC to get chip ID, revision, and platform info
-4d61f03426892b14d498e160be245edcb9dd8359 soc/tegra: pmc: Create PMC context dynamically
-72a2a9023c329aca7e7f8d3997c9a26aa317a1fd soc/tegra: pmc: Remove unused legacy functions
-8318af5dd29c819d95ec5b878e7dab6090a9ed2b soc/tegra: pmc: Move legacy code behind CONFIG_ARM guard
-e9bfdf06fb05168e72d3d9d6163b04e2316e0aa2 soc/tegra: pmc: Populate powergate debugfs only when needed
-2545b16e3ea049a266ec8b0e509d4e093b26b906 soc/tegra: pmc: Restrict power-off handler to Nexus 7
-2cee7da9743396aff1fd13124109c78975c92ad8 soc/tegra: pmc: Add Tegra238 support
-7ba53a3d1c4dae0124b2c141ae551ab9d9d7f1f9 firmware: tegra: bpmp: Propagate debugfs errors
-040eeafee0146b9d046caef501f387e107a59960 firmware: tegra: bpmp: Add support for multi-socket platforms
-0d04ab4e9db02547b4fa1e9844490a8b320d12bd Merge branch for-7.2/dt-bindings into for-next
-3791121271c0784497d961d21e0036b7d5bf8f3a Merge branch for-7.2/soc into for-next
-e85f295fc9fe372deadccbf3c273d8cb2984eb9b Merge branch for-7.2/pmc into for-next
-ddc09eada0e16acea400133b5febdb64bd71a049 Merge branch for-7.2/firmware into for-next
-68ab8ffbdab078778a281ba2c85f69210f01f470 Merge branch for-7.2/arm/dt into for-next
-d26e0427259afafa0e89bfa0bcabc27d49049d4e Merge branch for-7.2/arm64/dt into for-next
-
---===============6607923605111918253==--
+--===============6177245354409030548==--
