@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 31 May 2026 14:04:56 -0000
-Message-Id: <178023629660.1434939.7136019524215635399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Sun, 31 May 2026 14:13:46 -0000
+Message-Id: <178023682623.1441848.9277829009244039398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/for-linus
-    old: 6b15c5d5539806d34e269b5a35599e5b9541cf3b
-    new: 2c142b63c8ee982cdfdba49a616027c266294838
-  - ref: refs/heads/for-next
-    old: 97d607adfdbc9924e9489f8059a1afe7c7a7ca71
-    new: 17065203e1bc7e7f2786998d532cd93a06265156
-  - ref: refs/heads/master
-    old: 450929d03026de4c920e615ee8501c6017e92959
-    new: c784d0e6a62abbd2af58bbbe2d20f88dd550e3eb
+  - ref: refs/heads/fixes
+    old: e0c121d545134af886b28c4c26d91abf5dd39c17
+    new: 093305d801fae6ff9b8bb531fd78b579794c4f80
+    log: |
+         093305d801fae6ff9b8bb531fd78b579794c4f80 wifi: iwlwifi: pcie: simplify the resume flow if fast resume is not used
+         
