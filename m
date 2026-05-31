@@ -1,31 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 31 May 2026 15:49:51 -0000
-Message-Id: <178024259159.1511299.2461418554724325524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 31 May 2026 15:52:28 -0000
+Message-Id: <178024274877.1514600.11887001213195069827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: f52b1b0506c6a209c10a741d031944d1ed19548c
-    new: 635b5c6622f317a06c11ee050c2665c1085b68a0
+  - ref: refs/heads/nfsd-testing
+    old: d9f35aa8be6e05deded63f92b153292518bd60a4
+    new: 6c0004650ba248a12937ada16f9ba961b35ce2b5
     log: |
-         ad2c7d2c42af943a3e711bdc1e4fd55b76fcbe55 ALSA: usb-audio: Add QUIRK_FLAG_MIXER_GET_CUR_BROKEN
-         3207ed0f704987d412ac6a7fb32a9ed65b995882 ALSA: usb-audio: Add quirk flag for Sennheiser MOMENTUM 3
-         635b5c6622f317a06c11ee050c2665c1085b68a0 ALSA: usb-audio: Add quirk flag for Edifier MF200
-         
-  - ref: refs/heads/master
-    old: 4fb0a7b737a400e0ce3a92a6aca1965933b63ea3
-    new: 5fa82dd6492e9ac3ab27d2c15d73b601b4e6a87d
-    log: |
-         f52b1b0506c6a209c10a741d031944d1ed19548c Merge branch 'for-linus' into for-next
-         ad2c7d2c42af943a3e711bdc1e4fd55b76fcbe55 ALSA: usb-audio: Add QUIRK_FLAG_MIXER_GET_CUR_BROKEN
-         3207ed0f704987d412ac6a7fb32a9ed65b995882 ALSA: usb-audio: Add quirk flag for Sennheiser MOMENTUM 3
-         635b5c6622f317a06c11ee050c2665c1085b68a0 ALSA: usb-audio: Add quirk flag for Edifier MF200
-         5fa82dd6492e9ac3ab27d2c15d73b601b4e6a87d Merge branch 'for-next'
+         46723437b2d0bbf1348ee970ab4532689a865bf1 sunrpc: init gssp_lock before publishing proc entry
+         34e548c23db6a700539985c156eb0fa7b556d2fe SUNRPC: Check svc pool percpu counter allocation
+         bbbc993f3932be9428ebf81009d0d1a4aed26d00 nfsd: size fh_verify server sockaddr slot by xpt_locallen
+         41c9073b511fe70d5e3b03f039c409d2060de06b nfsd: release path refs on follow_down() error
+         b55429cfce784ffcbaed2960d66b7c5db90ceec3 nfsd: fix nfsd_file leak on inter-server COPY setup failure
+         657c7e3082589c35695f77821f1dfa31bf4c6a34 nfsd: fix dentry ref leak on V4ROOT export filehandle lookup
+         4faa69d7158a4436d340b7324aa34fa672362b5c nfsd: fix layout fence worker double-reference race
+         d08df65d9abf44a87dc70d8ba67a47f4e7bc0246 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         6c0004650ba248a12937ada16f9ba961b35ce2b5 siw: Enable try_gso
          
