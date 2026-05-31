@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1965266661714815990=="
+Content-Type: multipart/mixed; boundary="===============6177237194242285569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 31 May 2026 06:13:44 -0000
-Message-Id: <178020802472.1044236.17757813374594560060@gitolite.kernel.org>
+Date: Sun, 31 May 2026 06:14:33 -0000
+Message-Id: <178020807390.1044699.15794369366850328127@gitolite.kernel.org>
 
---===============1965266661714815990==
+--===============6177237194242285569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6fee94ce16732e5e71c4972fa50ba26ac4f40e09
-    new: c9ac4d9956ecfbf7948894547161a7e5c3a81c48
-    log: revlist-6fee94ce1673-c9ac4d9956ec.txt
+    old: c9ac4d9956ecfbf7948894547161a7e5c3a81c48
+    new: d5f9a3600f7ea0fff320cd887939acb9ddf3ee73
+    log: revlist-c9ac4d9956ec-d5f9a3600f7e.txt
+  - ref: refs/heads/tip/urgent
+    old: 9b139bf1fe043738b2fcbadef63af444c40c0b36
+    new: 8288eff308b753a429fbc585f90f26bb721ef80a
+    log: revlist-9b139bf1fe04-8288eff308b7.txt
 
---===============1965266661714815990==
+--===============6177237194242285569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fee94ce1673-c9ac4d9956ec.txt
+Content-Disposition: attachment; filename=revlist-c9ac4d9956ec-d5f9a3600f7e.txt
+
+8288eff308b753a429fbc585f90f26bb721ef80a Merge branch into tip/master: 'x86/urgent'
+287daef7454785c0a7ea49eef33d1cc094ddfeff Merge branch into tip/master: 'x86/merge'
+a5c0c85da76b7f70ddf6d2f9bf65d2d8101b499f Merge branch into tip/master: 'timers/merge'
+a0efd7dde6aa5939486174d55c0ea802170e2938 Merge branch into tip/master: 'irq/core'
+adb0871d242abefac4df70b6ed0c6fd038d4117c Merge branch into tip/master: 'irq/drivers'
+66d19a0bae8a1eb171e40a36c5fd347a6b804b75 Merge branch into tip/master: 'irq/msi'
+0e815e595543c31c4844dd2e2f5ce1de66c6a22d Merge branch into tip/master: 'locking/context'
+a3ca064632eaa62dca44b78bb49a8a3fc3d41155 Merge branch into tip/master: 'locking/core'
+11ff30b4737fa2151802aaebe1af3cee1f454f95 Merge branch into tip/master: 'objtool/core'
+9e91924d9879e88061edf70add698ebd48abd534 Merge branch into tip/master: 'perf/core'
+8a9598498898832f74d13faf8f27721267e96a3e Merge branch into tip/master: 'sched/core'
+e5932461887a05b5be93cea097fb74d87d156def Merge branch into tip/master: 'timers/core'
+4087e222390bb92ab8ed9154a29abe389f0c90c7 Merge branch into tip/master: 'timers/vdso'
+1cb874911d5255a749f8c1f362549e8c7d12262a Merge branch into tip/master: 'x86/cache'
+e1c85ad7f74e0af06cfa3e3b4701c5f48c217b93 Merge branch into tip/master: 'x86/cleanups'
+ba02c2c8540bfb8276ef939b877bccffc6ae300d Merge branch into tip/master: 'x86/cpu'
+8960d50aab2624809d3fb4d0a0a88d281974730d Merge branch into tip/master: 'x86/misc'
+8e721344cb8b8e534c31cd7d7d36266140b5d9d7 Merge branch into tip/master: 'x86/mm'
+fa9348f6c9efa2894f8938e26e61e5b3fab768b9 Merge branch into tip/master: 'x86/sev'
+d5f9a3600f7ea0fff320cd887939acb9ddf3ee73 Merge branch into tip/master: 'x86/tdx'
+
+--===============6177237194242285569==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9b139bf1fe04-8288eff308b7.txt
 
 852534744c2d35626a604f128ff0b8ec12805591 iio: adc: xilinx-xadc: Fix sequencer mode in postdisable for dual mux
 673478bc29cf72010faaf293c1c8c667393335a0 iio: chemical: mhz19b: reject oversized serial replies
@@ -197,6 +228,6 @@ e81d3b59f7288a7ffa81175586c2148dfa9d7dd9 Merge tag 'amd-drm-fixes-7.1-2026-05-28
 a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 9d87d0fc8c8e0a2a2b5026a169db2f270b4828c1 Merge tag 'liveupdate-fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 174914ea551314c52a61713b9c4bde9e42d48073 Merge tag 'v7.1-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-c9ac4d9956ecfbf7948894547161a7e5c3a81c48 Merge branch 'linus'
+8288eff308b753a429fbc585f90f26bb721ef80a Merge branch into tip/master: 'x86/urgent'
 
---===============1965266661714815990==--
+--===============6177237194242285569==--
