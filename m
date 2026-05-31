@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 31 May 2026 16:18:13 -0000
-Message-Id: <178024429365.1532318.1133530999182471127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Sun, 31 May 2026 16:30:59 -0000
+Message-Id: <178024505910.1543100.5930946873206255778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 9a720e090eb5155fbd584a3f7eca18f82610a2b3
-    new: b573cf651bea3e7926819b4fc6fae47b41810ee7
+  - ref: refs/heads/for-7.2
+    old: 390f2d73bc99a888469f789f274c162da33bafe5
+    new: 6935f0496c2eb74dd3f57228a799d2db1a8a9ac8
     log: |
-         21c4b99b27f3f85b89256e81b3e997dec0a460d0 bpf: fix BPF_PROG_QUERY OOB write and cgroup backward compat
-         5add3a4ad1a3bc15404e8bd338813ed0a636f5c9 selftests/bpf: add verification for BPF_PROG_QUERY attr size boundaries
-         b573cf651bea3e7926819b4fc6fae47b41810ee7 Merge branch 'bpf-align-syscall-writeback-behavior-with-user-declared-size'
+         6935f0496c2eb74dd3f57228a799d2db1a8a9ac8 docs: cgroup: Fix stale source file paths
+         
+  - ref: refs/heads/for-next
+    old: ebc50c66b365d3046c7741195224d2aa7809c9b5
+    new: 9e27aaab61c2c36a13008f16ca56db8e7fe20bf0
+    log: |
+         6935f0496c2eb74dd3f57228a799d2db1a8a9ac8 docs: cgroup: Fix stale source file paths
+         9e27aaab61c2c36a13008f16ca56db8e7fe20bf0 Merge branch 'for-7.2' into for-next
          
