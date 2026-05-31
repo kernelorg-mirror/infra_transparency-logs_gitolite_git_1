@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 31 May 2026 18:03:26 -0000
-Message-Id: <178025060609.1606236.10677326646251534380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sun, 31 May 2026 18:05:13 -0000
+Message-Id: <178025071330.1609043.17233521015115633775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/crypto-pending
-    old: c5907e7d9a8f178e67f367efd6fd6aa7c2f030a4
-    new: 020a3c619b33d5babb48407403c16bd84c7b7d60
+  - ref: refs/heads/for-7.2
+    old: 6bf8973ddeeec0ead87b0dfe9a3ae6072432e334
+    new: a73aa3a5685e648e55787b461f6ee0558db4b0c8
     log: |
-         020a3c619b33d5babb48407403c16bd84c7b7d60 crypto: exynos-rng - Remove exynos-rng driver
+         a73aa3a5685e648e55787b461f6ee0558db4b0c8 sched_ext: Guard BPF arena helper calls to fix 32-bit build
+         
+  - ref: refs/heads/for-next
+    old: 1c24a913b8ebd4e7ef86e1259f3a77b06b4911b9
+    new: 07c5574a1d1b81ea2a7e753ca5ec4bbfb5f6438f
+    log: |
+         a73aa3a5685e648e55787b461f6ee0558db4b0c8 sched_ext: Guard BPF arena helper calls to fix 32-bit build
+         07c5574a1d1b81ea2a7e753ca5ec4bbfb5f6438f Merge branch 'for-7.2' into for-next
          
