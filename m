@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4248875474484195022=="
+Content-Type: multipart/mixed; boundary="===============4547892012560508076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 31 May 2026 11:53:20 -0000
-Message-Id: <178022840032.1284333.11253769974139570713@gitolite.kernel.org>
+Date: Sun, 31 May 2026 11:57:52 -0000
+Message-Id: <178022867236.1287930.12531652044074904312@gitolite.kernel.org>
 
---===============4248875474484195022==
+--===============4547892012560508076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/tags/samsung-drivers-7.2
-    old: 0000000000000000000000000000000000000000
-    new: c49680619fc5f87387a086de51c86d3ceaa535cd
+  - ref: refs/heads/for-next
+    old: 848dfe61ba6d196b380a2424a40dd85489a848e4
+    new: a1c3227fc1a1cd83cd7fceb93406da4e37fe06eb
+    log: |
+         e11560b050ce867bd7d3ccea138231db54e2250a clk: samsung: exynos990: Fix PERIC0/1 USI clock types
+         a1c3227fc1a1cd83cd7fceb93406da4e37fe06eb Merge branch 'next/clk' into for-next
+         
 
---===============4248875474484195022==
+--===============4547892012560508076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1780228398 +0200
+pusher krzk@kernel.org 1780228670 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1780228398-1289c3fe621ae7838ce5bf226f5d966e725f8e74
+nonce 1780228670-1c1dd7afda1c62baba09174128edcf1dfee62cca
 
-0000000000000000000000000000000000000000 c49680619fc5f87387a086de51c86d3ceaa535cd refs/tags/samsung-drivers-7.2
+848dfe61ba6d196b380a2424a40dd85489a848e4 a1c3227fc1a1cd83cd7fceb93406da4e37fe06eb refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmocIS4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17b2D/9/+rOyrRjQ6Dh2XnOPOzBGFhtzS0YGzTkK
-UUeF3h4Q4xQJ6YaGoAOG7UX9Eovc8O/qY7wLD7k33wVUgSGlQrpOFCz6A2SjtN8X
-X1MKFnKLVlgAIQk1TOW51Ovb8EjkmDS3Sl473f2df42PQ+QyTtmKt59kyJPUaT2C
-tQk72BzKO1qvSPRTeHi6l261ONkjs7mKjR57cQL7DpTmpEwQjkPUiSu4mudz+jWM
-dtDY7QLeMdeBBV9+YNkljJ2vRT5XO4/MsSNe9AWWUPxYWtPVOz3KkTKgCTkTkgDE
-6VcI3s1fb6gbD3H8tsd6jKGX6zyerO+iN64ZD5Kmg9K7MNMtVe0XP6ZgxHH/wXqT
-HeISQ57g3VcUM7b4WU0UXkkz15tMFMy8EKa5cSytgBGSKAf9w6cw0O5U7XSjUAAQ
-NiD2ACVBq24ZAwhcGIfbT4Cu023WsKzTNMZAXedjDuraiv/TxPMBWsb5Z1qObpJ7
-MvJp8pACcJ6M2uAN4AkVVQT2/xGxyuyZ5ctYNFYkgLdwmonzsWAzrodk5b7jPx5w
-CbVMixru1S97uZcRCVsgsccZanKd+Dg/mSSjPfZrVVoREAdnzXH3fJdqTFFBg3KZ
-rwUXDucmxSwpdMtJG2g0ZHt2wjFebXqOMKT1AggAE/RJWSMBGnm39jpeZf9etuHr
-oA76ytCjRQ==
-=YdgU
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmocIj4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1149EACDmEzsBgBfhKg3EMKPUg65y5msUU6CDeOr
+bBbsGqhi17uOkKkBWiO7/Vy2uJxKmPvYnG2YvLUjlYWvpw9qPT3k3dOgFIlCi/Zs
+U5oW1jTfcrtuporCHDDrYyxdxHFlqdYumIszpgDcv5ah18eOeuNZTdhXqDDBaTdg
+wXIJRss+k10raOUFcptCYmXqSsVt0n161eARkNbp3s3afdygjNCE687sKhUcoUJG
+6+v+VGYoW0clzn7UozLdz+rg7WgYlTRoNmpj1mctcYF2bhjgjuajfGx8JDM5BUEh
+8W82lVILq6a77eHAAwpAqoTBts0tHZPcEgO5dcJOEvpoUskIppJ548Tmf3tRsCd+
+fV2uoUPYoj/hHdHb2SE6qqIL3fluSp0JqBJ2e98P04re8myj13Gc1jj0RCOGKH5/
+uH+EyblXCG0/WEnVp80sjaRkpiHMtYgRPiE2CSdKyWaAA7CFgBtOMhwPdmSnXXsz
+PuDblNEQRhyjRaHylxxSMpbwtWbkrLcMM9fGHlwh/FCvQAY7FopE5fmqPwCxZpvE
+68ZJ5/G15csGZrtw+aQDQ+D40drBC6FfLJEv37C3HBPJ3mlRpErokKtRyujVjrLB
+oLl4O0rO5wPqDXN8mQoL8OJgCd8nS0HTZjn1e7/ony6b63qT6w4kbN84qHpnDEA1
+A42O2PeiNA==
+=BoPB
 -----END PGP SIGNATURE-----
 
---===============4248875474484195022==--
+--===============4547892012560508076==--
