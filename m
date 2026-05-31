@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8507555151242089920=="
+Content-Type: multipart/mixed; boundary="===============6336637348596688102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 31 May 2026 12:40:19 -0000
-Message-Id: <178023121910.1331956.5370066956231184892@gitolite.kernel.org>
+Date: Sun, 31 May 2026 12:40:39 -0000
+Message-Id: <178023123903.1351780.876191782088273379@gitolite.kernel.org>
 
---===============8507555151242089920==
+--===============6336637348596688102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 4f0da5b0b16aef75b886c48a8a6c74941b325e96
-    new: 3d90f41e0dc73f4639da856d99bef60215b6bd13
-    log: revlist-4f0da5b0b16a-3d90f41e0dc7.txt
+  - ref: refs/heads/module_version_removal
+    old: bd70eb26ceee37894840ac97f081dfcdf8f1e462
+    new: 4dffb88384fd33974ae45bacf9f6c5b9457e4202
+    log: revlist-bd70eb26ceee-4dffb88384fd.txt
 
---===============8507555151242089920==
+--===============6336637348596688102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780231150 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780231170 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1780231201-02be36f62033b36a68761b5d0668da53846482e8
+nonce 1780231220-a1c188eb4d5746bfac812be667834b2f84217cc5
 
-4f0da5b0b16aef75b886c48a8a6c74941b325e96 3d90f41e0dc73f4639da856d99bef60215b6bd13 refs/heads/readfile
+bd70eb26ceee37894840ac97f081dfcdf8f1e462 4dffb88384fd33974ae45bacf9f6c5b9457e4202 refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmocK+4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1aIQAI5Sk5msqSrKP5/b27kh
-em7fqMJBe9NRKEYX7gfUb/PeKZjSKziIruc5i2RrhnJjA/HDTRfPptm9HqE9ukPP
-1zYlwRyzdZuONpVAnyp5jOmlSXCyVW9LEMK97h8WjQCvACkqc1h9FneU+G8PNC69
-zdXWVkzNdZvNQ8POs0SqKPqmZrr6l7Z3OIN9OoouADJQKSG3gcYhQQIU8TqmTeq3
-jiTmeYJtb34A0beU0yveajRrvSvnMmiAarEnPO6ozH7Zh21NUPoZLRYjLwkatUkV
-dKSRx8TgOGyfqrssfhYF7Ei3DDw5EFrJcoJMzEalOfv8kbR2mc+zj4UiKAbh7zbb
-E5gnRhr8dg3JQ6Q4hSSbsDfgZ8/BzrEUmwy8G+l16M6OcsJZ2NFN4qC1bZhEpHcL
-oJ4AJQ7rSX/7TMHvmqZohtBhnkt2xxC1LFiE2Fz6/ySb5tnYyAH80vt+rFxx/YCy
-U+VXtZpXT+WAf5xTiYk74BqmgxCBvACkgR3tGemysTZHChSBg8/Fcz2fwgxXEY8A
-A1CoDUCwZ/GzWLlmJS9tIu+z2UrXKvjRqu9fTeVfRI1nCLcRuQy4+MvPq4m2abhg
-1TGr7U2aHheFCAO54XtG3E0FUeHBTDu7uZV7Z+bCDTYF67NTw1F1KIuOJbZyCPUk
-zVPQMrTRC7RyqBsj9qWjJX5E
-=BVe0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmocLAIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QIYQAJYtmgM8UBk2lq3zd1FN
+kn3BMtSM20ULY28S96JM15KiZggx2fquwsCZPrhCrbeSQuv6QB9YEDVxuPrTrbFI
+JuOPClL0jtMCnaxZE+d4S39iSc10pVuzpTFjYasEAYkXsOFQMZpX3wmaXLZnJJHK
+2mkui2ijQqNGjvMob2XD2Iyu7VqYGmBVh17oEVk6CTSPJP+E3ySlOzEYQ8jT6v1R
+CqlWoaDvLWTg+/WqnRlLCWAOkxaVE2amyqQxtioBU3wyWChBmBcaSCCaZ9rFxSvk
+McP57NC16xIasry1vtIE7WuB4u2GfErfH74IGS15saHofTMk+ywM3nZ5566HVw0I
+C+roJmHiQbUcFx+dmb/2WI23DT2W7t0PwKbsxutnxHiWdDTrzyqaSwDnfcOFHVAJ
+XFT0pk2w6+m+1416Ts5UZ4K04tPZwhPPAND1CnzHD0tUipeDpK+ey99tX/A6gh00
+B4wNI+USCARCpUBtsLl8RYIxWSlzbmq3Tlk3xRmGU/kNFDbbk3/Hypr2TM/M+VrY
+W5yXkHYPxEAFsT03doHMnZ42BYoGxbFbmDEixLKwhK408C0DyNmOqs4TR2g2HwdJ
+eyelX5MQONJkLDpXso34zT15bgtuq4k+BqLTzviIfgD78ZEw8y5ktfC539XjMo1G
+82jtw8qhhbCC5CUKDJUYjF/2
+=6xzD
 -----END PGP SIGNATURE-----
 
---===============8507555151242089920==
+--===============6336637348596688102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f0da5b0b16a-3d90f41e0dc7.txt
+Content-Disposition: attachment; filename=revlist-bd70eb26ceee-4dffb88384fd.txt
 
 852534744c2d35626a604f128ff0b8ec12805591 iio: adc: xilinx-xadc: Fix sequencer mode in postdisable for dual mux
 673478bc29cf72010faaf293c1c8c667393335a0 iio: chemical: mhz19b: reject oversized serial replies
@@ -599,9 +599,6 @@ f5e5d3509bffb95c6648eb9795f7f236852ae62d Merge tag 'spi-fix-v7.1-rc5' of git://g
 a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 9d87d0fc8c8e0a2a2b5026a169db2f270b4828c1 Merge tag 'liveupdate-fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 174914ea551314c52a61713b9c4bde9e42d48073 Merge tag 'v7.1-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-92595e4589756ab78e12df2e78767b4758cfaa5c readfile: implement readfile syscall
-0796d6feb47a286377b1800b4a9a7177dbe38c13 arch: wire up the readfile syscall
-e8640aac3dd5fd2815553c5e8b277216efe95009 readfile.2: new page describing readfile(2)
-3d90f41e0dc73f4639da856d99bef60215b6bd13 selftests: add readfile(2) selftests
+4dffb88384fd33974ae45bacf9f6c5b9457e4202 module: remove MODULE_VERSION()
 
---===============8507555151242089920==--
+--===============6336637348596688102==--
