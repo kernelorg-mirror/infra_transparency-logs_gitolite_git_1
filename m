@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 31 May 2026 00:14:47 -0000
-Message-Id: <178018648770.787429.11776050851368499031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 31 May 2026 00:31:05 -0000
+Message-Id: <178018746537.800491.5808043716627464194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 9d87d0fc8c8e0a2a2b5026a169db2f270b4828c1
-    new: 174914ea551314c52a61713b9c4bde9e42d48073
+  - ref: refs/heads/crypto-pending
+    old: d42b77880720940d975ea7895d97cdcf062a14b8
+    new: c5907e7d9a8f178e67f367efd6fd6aa7c2f030a4
     log: |
-         426a35d7530722ffa2d89d759c39f5157e0e500d smb: client: detect short folioq copy in cifs_copy_folioq_to_iter()
-         9d2491197a00acf8c423512078458c2855102b66 smb: client: fix uninitialized variable in smb2_writev_callback
-         174914ea551314c52a61713b9c4bde9e42d48073 Merge tag 'v7.1-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         80e8cd755fa80d469d25c6d7b45f53c5a64e9060 crypto: hisi-trng - Remove crypto_rng interface
+         c5907e7d9a8f178e67f367efd6fd6aa7c2f030a4 hwrng: hisi-trng - Move hisi-trng into drivers/char/hw_random/
          
