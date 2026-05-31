@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8210054107665709594=="
+Content-Type: multipart/mixed; boundary="===============4400499880816044828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 31 May 2026 12:30:32 -0000
-Message-Id: <178023063277.1313771.12605595725344254445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 31 May 2026 12:39:52 -0000
+Message-Id: <178023119244.1318721.9433891840809076704@gitolite.kernel.org>
 
---===============8210054107665709594==
+--===============4400499880816044828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 8db901432dd4cb7397296e9605390ea269a1c511
-    new: d0be10ac6b0af4be3d10b159ad1caa3a4ef833cd
-    log: revlist-8db901432dd4-d0be10ac6b0a.txt
+  - ref: refs/heads/master
+    old: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
+    new: 174914ea551314c52a61713b9c4bde9e42d48073
+    log: revlist-e7ae89a0c97c-174914ea5513.txt
 
---===============8210054107665709594==
+--===============4400499880816044828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780230565 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1780230615-f7750eb8c64d595bf737bceddf800c8157a5870c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780231138 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1780231189-89bf64ff53f233745a513413a9f9cdb8497d9fc4
 
-8db901432dd4cb7397296e9605390ea269a1c511 d0be10ac6b0af4be3d10b159ad1caa3a4ef833cd refs/heads/clanker
+e7ae89a0c97ce2b68b0983cd01eda67cf373517d 174914ea551314c52a61713b9c4bde9e42d48073 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmocKaUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8+UQAMk8yOe+4pmKwOHt3B/h
-Fd0kx/+aLuTrys7MY2b41wMyeOU4RZO+CVP4LCwFBy1CboIrf+YV+i6VogQT4la1
-PvzlGUjyYMiBfAvjr0T1F26MS1BI1zzGeojynDRxdX1tOaDM+riuh8bJ09knjkRj
-Fh1Eu7GLhEwDNSITBjI+I+XgsC3mq1qQ/0GlRa2PrgQHo0NlrVOgK4oMt821LdmM
-nQwzCwPMhRrAwyZ4gh27b6NKmRErdkA1D8k2UmxFsLR77BKxQS6wMi3WrJrWXuW4
-+nxYcCMCAiOowiALHCHM3ePDkWooy+tnPh2e9DIfierTJ2fSOe5oTZeafFQwtSJI
-i04A2zoJN0s9lc5oizW0KOzuJy58lquSPtvrmxekE+N1YWEL5oSh28zQeDH8Xcr1
-cunZ7deTDQJEw7yINh0nSCmxZVNs0eKhXRUlEzPBAwSZiyhUAqI5tMn0knpcQL3w
-M6inIl0hBt6112tKqYc5s9PbF07CtUAv+Nfa8jfYlFgw4PuumdrKAww/ATsxluBX
-cVcOK54z/5wfiapizmPq6fKF0xZDtBRD7DQ/ScavG3PYY9IGso4/7aJsiZ2mqna4
-BE0JZkKlBDSBcaICMrMtRheiaKhD2YEUjp4dB8dbSwDy11deFdDBkQxal/FxmaWh
-AAT6YlMd/XJuiJ0y0dyLVVtZ
-=3WnC
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmocK+IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ljoQANXkWXx2CodyxakjoVuR
+pj4USny/3hlixdZP4555hgADS8rXZzf0L/6mUniZGOz2cdGzv8FxMRmSyGBUQSG+
+5lU+EUdmKK01GhIJun8iHjWIOfvXYYN3XKmUqVPrHIu3a9iNH0lp7qn7XoItP8Qi
+CRABCA6YsZza1xoSbI0QkmPd8SyJmr2PszbTEE33DqNJV3gIII08XNLc4fmbIMBk
+LfcIQMlM/3gyRtP6/doTriUaM3Q7gD45O3DalQZMvz9BQ3urZLbOHkXUPUy619oD
+0+g5vVsUNPmBYpqW10Lqw0u6lt9uIXla0WQcqH+ubpq7ioj6MUWpBfWOALuDrvSc
+Vd9RKAVcTWMlZ8qlTJOFcyN4LANuiklBUmwjiYD9WLE0WH0xfbL8DSxSumce2MXs
++kRVSVIjYVEp6Rsemw5amDaft52PxHTWCVW5AD3hRb5zLL7GzaaJtBVPRozlqjZ5
+vCPEkKpW672zsjA3fFRVJWx0ZMOixvDLaNVsdzPQ7WHjrbjmHugWRljSkps+Q5uX
+UqdNBjRyNW0eeVdom6tKxB5JB6Vdcc/EtJJOOVKIFpzkxjudfTiI1+RR2K6rIfnc
+iIYZ16vHCzFDFr/XUCzTCzdtALxCeDRFOUjxMRnrgvGkVoeGKuheNGgL0JKQt+8G
+alKhlPuDndxfpsthcgVZMmT6
+=RwfS
 -----END PGP SIGNATURE-----
 
---===============8210054107665709594==
+--===============4400499880816044828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8db901432dd4-d0be10ac6b0a.txt
+Content-Disposition: attachment; filename=revlist-e7ae89a0c97c-174914ea5513.txt
 
 852534744c2d35626a604f128ff0b8ec12805591 iio: adc: xilinx-xadc: Fix sequencer mode in postdisable for dual mux
 673478bc29cf72010faaf293c1c8c667393335a0 iio: chemical: mhz19b: reject oversized serial replies
@@ -67,6 +67,7 @@ bb21ee31f5753a7972148798fd7dfb841dd33bdb iio: Fix iio_multiply_value use in iio_
 0d42e2c0bd6ceb89e44c6e065f9bdf9b1df3ef0c iio: adc: npcm: fix unbalanced clk_disable_unprepare()
 5aba4f94b225617a55fed442a70329b2ee19c0a5 iio: chemical: scd30: fix division by zero in write_raw
 d9eeb0ea0d2de658663bfaa9c26eccdd8fd64440 counter: Fix refcount leak in counter_alloc() error path
+fb7415f2ab0e3c818254cbf5fb0afda71bef4333 dm vdo: use GFP_NOIO for blkdev_issue_zeroout on format path
 f4268b466190dae95a7585f69b4f1f8ad097632c nfc: llcp: Fix use-after-free in llcp_sock_release()
 b493ea2765cc17cb8aa7e7544a4b6dcb05b6ed77 nfc: llcp: Fix use-after-free race in nfc_llcp_recv_cc()
 7e2a4f7ca0952820731ef7bdadfc9a9e9d3571b4 xfrm: route MIGRATE notifications to caller's netns
@@ -133,6 +134,7 @@ cb3560e8eab1dfa1cac1ed52631adf8ec6ff2cd5 USB: serial: digi_acceleport: fix memor
 ab8336a7e414f018430aa1af3a46944032f7ff96 USB: serial: keyspan: fix missing indat transfer sanity check
 915b36d701950503c4ea0f6e314b10868e59fce3 USB: serial: mct_u232: fix memory corruption with small endpoint
 245aba83e3c288e176ed037a1f6b618b09e92ed8 USB: serial: mct_u232: fix missing interrupt-in transfer sanity check
+f42d01aadcedd7bbf4f9a466cabe25c1781dedad tools/bootconfig: Fix buf leaks in apply_xbc
 7d2b37d3e42d19071b62f4ddbee6e16e905efbf1 USB: serial: option: add MeiG SRM813Q
 689f2facc689c8add11d7ff69fbbad17d65ee596 USB: serial: option: add missing RSVD(5) flag for Rolling RW135R-GL
 8a3bee801d420be8a7a0bae4a26547b353b8fe22 comedi: comedi_test: Fix limiting of convert_arg in waveform_ai_cmdtest()
@@ -152,10 +154,27 @@ d98d413ca65d0790a8f3695d0a5845538958ab84 usb: typec: ucsi: Don't update power_su
 c7ee0b73c8c4dfb7eafa49aaef5247890862a948 HID: lenovo: Fix buffer over-read and unaligned access in X12 Tab raw_event handler
 2ee7e632405b022319f42c01635eb6fbbd86414a HID: lenovo-go: reject non-USB transports in probe
 da7f96a68c39de9eb1c351a261e7fbf716375c91 HID: lenovo-go: drop dead NULL check on to_usb_interface()
+fb6988b83b4cafe8db63999c1ddff1b7c66d2ff5 kunit: fix use-after-free in debugfs when using kunit.filter
 f706e6a4ce75585af979aec3dcbdce68bc76306b accel/rocket: fix UAF via dangling GEM handle in create_bo
 a8878e19d2f5205ad1f170fc230c2cc25a3b9390 accel/amdxdna: Block running when IOMMU is off
+ea25e3c7915b24e0ef93ee85190f3fada037dfb1 sunrpc: prevent out-of-bounds read in __cache_seq_start()
+fc151100098d2899b7aed99aa1bcfe27bf00d58d NFSD: Report whether fh_key was actually updated
+0b474240327cebeff08ad429e8ed3cfc6c8ee816 lockd: fix TEST handling when not all permissions are available.
 b60621c5121c9435eda99af7dc2100f5c0f88695 KVM: x86: Fix ERAPS RAP clear on INVPCID single-context invalidation
 a9e18aa3263f356edae305e29830e5fe63d8597a KVM: SVM: Flush the current TLB when transitioning from xAVIC => x2AVIC
+83ec6eeb74a592e6568cb0723bac99fb8b3810b4 MAINTAINERS: .mailmap: update after GEHC spin-off
+83f9efcce93f8574be2279090ee2aec58b86cda7 Revert "mm/hugetlbfs: update hugetlbfs to use mmap_prepare"
+fa0b9b2b7ae3539908d69c2b9ac0d144d9bc5139 ipc: limit next_id allocation to the valid ID range
+3b041514cb6eae45869b020f743c14d983363222 memfd: deny writeable mappings when implying SEAL_WRITE
+bf62f69574b19720ae5fbbbcdf24a0c4e3e05e43 zram: fix use-after-free in zram_writeback_endio
+3f8968e9cbf95d5d87d32218906cab0b9b9eddbe mm/rmap: initialize nr_pages to 1 at loop start in try_to_unmap_one
+441f92f7d386b85bad16de49db95a307cba048a2 mm/damon/sysfs-schemes: delete tried region in regions_rmdirs()
+e16f17a9c5af50221184d1ef4be4056bf3c4209e mm: memcontrol: propagate NMI slab stats to memcg vmstats
+09e7827e785729f391c8d46dc71becce70d296ab kernel/fork: validate exit_signal in kernel_clone()
+2c6f81d58741349298f51ff697d988cb42881453 mm/migrate_device: fix pgtable leak in migrate_vma_insert_huge_pmd_page
+f0af98ff6b3077278974a460becbd05bbc710e60 MAINTAINERS, mailmap: change email for Eugen Hristev
+04aa71da5f35aacdc9ae9cb5150947daa624f641 mm/vmalloc: do not trigger BUG() on BH disabled context
+54cf41c969da6637cce790b7400da1451609db9b Revert "mm: introduce a new page type for page pool in page type"
 2982e599fff6faa21c8df147d96fc7af6c1a2f24 esp: fix page frag reference leak on skb_to_sgvec failure
 dfa0d7b0ff1eb6b2c416b8fdb9b4f2cefba57a40 xfrm: esp: restore combined single-frag length gate
 e194ce048f5a6c549b3a23a8c568c6470f40f772 usb: musb: omap2430: Fix use-after-free in omap2430_probe()
@@ -242,12 +261,16 @@ cee3e63e7106c3c81b2053371fdf14240bfba2fc ASoC: qcom: q6asm-dai: do not set strea
 c92d880cde739a3fb6346f42fc5feb2f093c063c ASoC: qcom: q6asm-dai: remove unnecessary braces
 909595c288af2304d0902488698e91c8aeee36a3 ASoC: qcom: q6asm-dai: use pointer type with kzalloc_obj()
 500eb0203cd1a7b8feea0443f5add9a47444a7b2 ASoC: qcom: q6asm-dai: fix error handling
+974820a59efde7c1a7e1260bcfe9bb81f833cc9f hpfs: fix a crash if hpfs_map_dnode_bitmap fails
 86f1d0f063e423a5c1982db1e5e7a8eac511e603 net/mlx5: HWS: Reject unsupported remove-header action
 f6f1bfc1980a08a8d1eb8eaf161b79c7c67095ba Merge tag 'nf-26-05-22' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 7c2eee9c136734825ff524dd8b2146438a4f8250 memblock: don't touch memblock arrays when memblock_free() is called late
 f7b52afe3592eae66e160586b45a3f2242972c63 ipv6: exthdrs: refresh nh after handling HAO option
 d47548a36639095939f4747d4c43f2271366f565 ipv6: exthdrs: refresh nh pointer after ipv6_hop_jumbo()
+c112662a0e734129985cf3386250cfa59f6b7aa0 Merge tag 'bootconfig-fixes-v7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e68842b3356471ba56c882209f324613dac47f64 macsec: fix replay protection at XPN lower-PN wrap
+13e4d2579eb34e9731bcc5ca73205708355e5d99 Merge tag 'for-7.1/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+e8c2f9fdadee7cbc75134dc463c1e0d856d6e5c7 Merge tag 'for-7.1/hpfs-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 2156a29aecfffa2eb7c558255690084efbe9f3b0 octeontx2-af: validate body pcifunc in rvu_mbox_handler_rep_event_notify
 f229426072fc865654a60978bb7fda790a051ff3 net: hsr: fix potential OOB access in supervision frame handling
 20587302f8d700f26ee2c8a60ffb0a69ae0edf16 ALSA: hda/realtek: Fix speaker output on ASUS ROG Strix G615LP
@@ -286,7 +309,10 @@ fb7f511d62692661846c47f199e0afe25c2982db ethtool: module: avoid leaking a netdev
 12c2496a71f82f63617971ca9b730dffa05cf58b ethtool: cmis: validate start_cmd_payload_size from module
 d5551f4c1800dc714cec86647bdd651ae0de923e ethtool: cmis: validate fw->size against start_cmd_payload_size
 c66d7c3c1f173cf73a2a2f8302666d86beafff22 Merge branch 'ethtool-module-fix-a-handful-of-small-bugs'
+d60ec36cab338dfe2ae40d73e9c8d6c4af70d2b8 Merge tag 'mm-hotfixes-stable-2026-05-25-16-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 60474437af5fe12abd20607766c809e0ad4e7245 spi: dt-bindings: spi-qpic-snand: Add ipq5210 compatible
+e909cedf6800ef493063f18a089f3632817a8c2d Merge tag 'linux_kselftest-kunit-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+eb3f4b7426cfd2b79d65b7d37155480b32259a11 Merge tag 'nfsd-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 d90f236f8b9e354848bd226f581db27755ab901d cxl/test: Update mock dev array before calling platform_device_add()
 b051bb6bf0a231117036aa607cadf55be8e63910 blk-mq: reinsert cached request to the list
 05f95729ca844704d15e49ce14868af4b403b32b l2tp: use refcount_inc_not_zero in l2tp_session_get_by_ifname
@@ -465,29 +491,5 @@ f5e5d3509bffb95c6648eb9795f7f236852ae62d Merge tag 'spi-fix-v7.1-rc5' of git://g
 a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 9d87d0fc8c8e0a2a2b5026a169db2f270b4828c1 Merge tag 'liveupdate-fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 174914ea551314c52a61713b9c4bde9e42d48073 Merge tag 'v7.1-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-2ecd4d3a20424d35f36382edbc2ade89e3c971da net: mctp: usb: properly drop the usb interface on probe error
-51c4fa7e7b0b734660a8cff00ddcb83b955c867f wifi: rtw88: properly drop usb interface reference on error
-c4dd5a88b3891427fca563e30c9b0455232e11bf mmc: moxart: fix potential use-after-free on remove path.
-58b701f23f4d42c9966ef65d4e807faddc44d0ca mmc: meson-gx: fix potential use-after-free on remove path.
-6b9c71ce6712484a74c647e02b95a60fefe40d2f f2fs: fix potential deadlock in f2fs_convert_inline_inode
-ddf4430e733c9909ab0296a752c92a19c0fa6214 drm/amdkfd: stop speculation on the kfd_ioctl path
-c8e304416f65429ac502b7f0f74d13b90c4757a8 media: adv7604: avoid negative array index in log_status when cp_read fails
-8c80fbca640c388eec695a80402448d57b8c920e media: stv090x: bound DiSEqC reply length to msg[] size
-3be456bbdcaf8d541808b9b38ed6ee9bba1d040d media: stv0900: bound DiSEqC reply length to msg[] size
-982da6ec858c2b92e51beeac67b117da844f5c58 NFC: digital: Bounds check Felica response before sensf_res memcpy
-a13660bf8d714fdeeeef510618596fc1ff0a1001 net: usb: cdc_ncm: reject negative chained NDP offsets
-269b3117b4241cf7b3936e32b523d60637893829 net: sched: em_text: require NUL-terminated algo name
-b64fe785e08fcfe2edc8d8ef2a6e612ce37a54db staging: rtl8723bs: fix OOB write in HT_caps_handler()
-93ed392cc8f38d5a120eb136fff1d282ef544f2b Input: xpad - reject short Xbox One packets before len-relative share-button index
-0295e3f1bf6e3dca46395f6e11cd75dbc324ce5f Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
-025a29d4e6d4c1269994f276ac0346697646d1a4 Input: synaptics-rmi4 - validate register descriptor structure against its declared size
-a492e6667f48c2465d8527e4ab06f4a3934b34ac Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
-9b541e1d841dc699bfb72f2169864314747b3477 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-5830c0fb29d2a919761548f857739f59f984ae56 io_uring: depend on MMU
-3246925f094bdfddcdb33c2ec2bca79dee7f6605 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-7a082be9ad473920d5775557815edc28ee19c4f9 usb: typec: tcpm: validate VDO count before reading Attention status VDO
-9060ff2af4ea00d5ec4dd3ddbc777267fbf96eec iio: adc: ti-ads1298: add bounds check to pga_settings index
-1a6e36a6219d98499ef76ea20ca08adf1c80fda6 iio: light: veml6075: add bounds check to veml6075_it_ms index
-d0be10ac6b0af4be3d10b159ad1caa3a4ef833cd iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
 
---===============8210054107665709594==--
+--===============4400499880816044828==--
