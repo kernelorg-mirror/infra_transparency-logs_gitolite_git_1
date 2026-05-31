@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7177998445911311158=="
+Content-Type: multipart/mixed; boundary="===============8507555151242089920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 31 May 2026 12:39:59 -0000
-Message-Id: <178023119930.1318914.5899003009673866585@gitolite.kernel.org>
+Date: Sun, 31 May 2026 12:40:19 -0000
+Message-Id: <178023121910.1331956.5370066956231184892@gitolite.kernel.org>
 
---===============7177998445911311158==
+--===============8507555151242089920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 7af9e83222e6aa3f1915265b61c0804854a71a14
-    new: 3fba7a624c07eb9b4056c3187db9d583d4871d7f
-    log: revlist-7af9e83222e6-3fba7a624c07.txt
+  - ref: refs/heads/readfile
+    old: 4f0da5b0b16aef75b886c48a8a6c74941b325e96
+    new: 3d90f41e0dc73f4639da856d99bef60215b6bd13
+    log: revlist-4f0da5b0b16a-3d90f41e0dc7.txt
 
---===============7177998445911311158==
+--===============8507555151242089920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780231133 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780231150 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1780231183-99c8d22fd606fee091d959d7aa15a92dcbf924ae
+nonce 1780231201-02be36f62033b36a68761b5d0668da53846482e8
 
-7af9e83222e6aa3f1915265b61c0804854a71a14 3fba7a624c07eb9b4056c3187db9d583d4871d7f refs/heads/rndis
+4f0da5b0b16aef75b886c48a8a6c74941b325e96 3d90f41e0dc73f4639da856d99bef60215b6bd13 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmocK90bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s+AP/1OKLrXPPh9iM9geHVQA
-ocbNjaT9ZJ1LTmMNjDgYyHCc41Qy2tvoWOfL8LAe4DWzfNeS791r+qKAwXm5k1xR
-Be5jQ5ap18Zpkg6mJ1v3w80WlU8FCSsCJfuVR0P1fPi5EK3uHJInScMNjZlSmS8z
-yO3felRQr1napzqxSC8OYwBeAbgJc8/Y6RX5goAg6wCHlrZ79kc+r+Xr8uKTeW7P
-aot+xpf0bq+SpL3F8aHLUvi7HF+YixWhr+Fj84hMI8onQmuLGyf/4Fm1FLNKoVbn
-JJZi88O+JcneBadsNQr8yjONyqmKBmG0I/sMpnZ+KgVOYtzHYxF2s0r/3R04v1i6
-0GJquXLa722E6UiiU45ff/84PGqcNBoEqCLNopYa2m4yQn9KNtFqgDBk1SfVkprr
-61cCsfBq/zqlTT3fT+U9B1NtxCe2lmDFvDtt+o/fand8z5kAutDhAgezTmGApewu
-CUwE98Ca47FYiBiDVBG791SL1vPq8elqDU0hezeLcqJFVyqo6OR5uKYMBn/C4XjG
-95/SuIxPxamay0/W8s1F/9N2W9i3m1t+B/6tiVCQkYheBflEjLR75h8WbizWqvad
-fnmDRt2bMJRWwDGEv3PcWb7mzf/pebMxXFtM3hoSoTfoj6/9oZh2fOxnBwuD6Mgn
-SS7C6Wpfj0R1dZS57nt/+MRY
-=fifH
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmocK+4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1aIQAI5Sk5msqSrKP5/b27kh
+em7fqMJBe9NRKEYX7gfUb/PeKZjSKziIruc5i2RrhnJjA/HDTRfPptm9HqE9ukPP
+1zYlwRyzdZuONpVAnyp5jOmlSXCyVW9LEMK97h8WjQCvACkqc1h9FneU+G8PNC69
+zdXWVkzNdZvNQ8POs0SqKPqmZrr6l7Z3OIN9OoouADJQKSG3gcYhQQIU8TqmTeq3
+jiTmeYJtb34A0beU0yveajRrvSvnMmiAarEnPO6ozH7Zh21NUPoZLRYjLwkatUkV
+dKSRx8TgOGyfqrssfhYF7Ei3DDw5EFrJcoJMzEalOfv8kbR2mc+zj4UiKAbh7zbb
+E5gnRhr8dg3JQ6Q4hSSbsDfgZ8/BzrEUmwy8G+l16M6OcsJZ2NFN4qC1bZhEpHcL
+oJ4AJQ7rSX/7TMHvmqZohtBhnkt2xxC1LFiE2Fz6/ySb5tnYyAH80vt+rFxx/YCy
+U+VXtZpXT+WAf5xTiYk74BqmgxCBvACkgR3tGemysTZHChSBg8/Fcz2fwgxXEY8A
+A1CoDUCwZ/GzWLlmJS9tIu+z2UrXKvjRqu9fTeVfRI1nCLcRuQy4+MvPq4m2abhg
+1TGr7U2aHheFCAO54XtG3E0FUeHBTDu7uZV7Z+bCDTYF67NTw1F1KIuOJbZyCPUk
+zVPQMrTRC7RyqBsj9qWjJX5E
+=BVe0
 -----END PGP SIGNATURE-----
 
---===============7177998445911311158==
+--===============8507555151242089920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7af9e83222e6-3fba7a624c07.txt
+Content-Disposition: attachment; filename=revlist-4f0da5b0b16a-3d90f41e0dc7.txt
 
 852534744c2d35626a604f128ff0b8ec12805591 iio: adc: xilinx-xadc: Fix sequencer mode in postdisable for dual mux
 673478bc29cf72010faaf293c1c8c667393335a0 iio: chemical: mhz19b: reject oversized serial replies
@@ -599,7 +599,9 @@ f5e5d3509bffb95c6648eb9795f7f236852ae62d Merge tag 'spi-fix-v7.1-rc5' of git://g
 a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 9d87d0fc8c8e0a2a2b5026a169db2f270b4828c1 Merge tag 'liveupdate-fixes-2026-05-30' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 174914ea551314c52a61713b9c4bde9e42d48073 Merge tag 'v7.1-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-04be7e6524780dd2f262b0c1139d2526ab00c329 USB: disable all RNDIS protocol drivers
-3fba7a624c07eb9b4056c3187db9d583d4871d7f USB: potential rndis host fix
+92595e4589756ab78e12df2e78767b4758cfaa5c readfile: implement readfile syscall
+0796d6feb47a286377b1800b4a9a7177dbe38c13 arch: wire up the readfile syscall
+e8640aac3dd5fd2815553c5e8b277216efe95009 readfile.2: new page describing readfile(2)
+3d90f41e0dc73f4639da856d99bef60215b6bd13 selftests: add readfile(2) selftests
 
---===============7177998445911311158==--
+--===============8507555151242089920==--
