@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4547892012560508076=="
+Content-Type: multipart/mixed; boundary="===============4567419403325833980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 31 May 2026 11:57:52 -0000
-Message-Id: <178022867236.1287930.12531652044074904312@gitolite.kernel.org>
+Date: Sun, 31 May 2026 12:06:14 -0000
+Message-Id: <178022917431.1294653.8010291510620069321@gitolite.kernel.org>
 
---===============4547892012560508076==
+--===============4567419403325833980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 848dfe61ba6d196b380a2424a40dd85489a848e4
-    new: a1c3227fc1a1cd83cd7fceb93406da4e37fe06eb
-    log: |
-         e11560b050ce867bd7d3ccea138231db54e2250a clk: samsung: exynos990: Fix PERIC0/1 USI clock types
-         a1c3227fc1a1cd83cd7fceb93406da4e37fe06eb Merge branch 'next/clk' into for-next
-         
+  - ref: refs/tags/samsung-dt64-7.2
+    old: 0000000000000000000000000000000000000000
+    new: 29f43da00d080be425a6ca428021f50080505df5
+  - ref: refs/tags/samsung-soc-7.2
+    old: 0000000000000000000000000000000000000000
+    new: d5d070099d98f000617b61a64ba3b9612c0ab049
 
---===============4547892012560508076==
+--===============4567419403325833980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1780228670 +0200
+pusher krzk@kernel.org 1780229172 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1780228670-1c1dd7afda1c62baba09174128edcf1dfee62cca
+nonce 1780229171-058e66ad16dc6f4aab08fff5daa68c0ba3f073b5
 
-848dfe61ba6d196b380a2424a40dd85489a848e4 a1c3227fc1a1cd83cd7fceb93406da4e37fe06eb refs/heads/for-next
+0000000000000000000000000000000000000000 29f43da00d080be425a6ca428021f50080505df5 refs/tags/samsung-dt64-7.2
+0000000000000000000000000000000000000000 d5d070099d98f000617b61a64ba3b9612c0ab049 refs/tags/samsung-soc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmocIj4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1149EACDmEzsBgBfhKg3EMKPUg65y5msUU6CDeOr
-bBbsGqhi17uOkKkBWiO7/Vy2uJxKmPvYnG2YvLUjlYWvpw9qPT3k3dOgFIlCi/Zs
-U5oW1jTfcrtuporCHDDrYyxdxHFlqdYumIszpgDcv5ah18eOeuNZTdhXqDDBaTdg
-wXIJRss+k10raOUFcptCYmXqSsVt0n161eARkNbp3s3afdygjNCE687sKhUcoUJG
-6+v+VGYoW0clzn7UozLdz+rg7WgYlTRoNmpj1mctcYF2bhjgjuajfGx8JDM5BUEh
-8W82lVILq6a77eHAAwpAqoTBts0tHZPcEgO5dcJOEvpoUskIppJ548Tmf3tRsCd+
-fV2uoUPYoj/hHdHb2SE6qqIL3fluSp0JqBJ2e98P04re8myj13Gc1jj0RCOGKH5/
-uH+EyblXCG0/WEnVp80sjaRkpiHMtYgRPiE2CSdKyWaAA7CFgBtOMhwPdmSnXXsz
-PuDblNEQRhyjRaHylxxSMpbwtWbkrLcMM9fGHlwh/FCvQAY7FopE5fmqPwCxZpvE
-68ZJ5/G15csGZrtw+aQDQ+D40drBC6FfLJEv37C3HBPJ3mlRpErokKtRyujVjrLB
-oLl4O0rO5wPqDXN8mQoL8OJgCd8nS0HTZjn1e7/ony6b63qT6w4kbN84qHpnDEA1
-A42O2PeiNA==
-=BoPB
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmocJDQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12qZD/9OxWbyVZRun5LsQrCcpPlMAZc/jVE2z3bp
+SDWU8igxWPUg/I9tXbgi6cneitgeUZKwTUwgWWH+x6BzfLbmVDnXZu5KoPwlZPzI
+xFTnVbMvzzwzGR1WDj51xtuP2xeS/JT4MXNo8Ojj2+8OLL/Wnl4GwwO10EO1/KXs
+78RlGCofYO22foOIV/vhJuRfHR5WyRo9VFTiBVnIKbIoYX18FwR8X3iUOWMHMY8b
+ipJRvF0zFdNbANuWjbWD92qJSL3BNQKssna6LURQpi8w4iRCO4dVgTdJyQotxMWl
+tXYwVp+sAWx+6GZ23g9U8JWN80kXSRl6z2h8csUvhQkRO6uvdFHz+Khs20buOE1j
+rnUNB6zfDqLZwntyY4ffUyRU6YR+Gc1CQSEmW3cqJvVxuiIhizyvozy8kSW8pcoa
+NyeDbHnqKbMkHOOAdft4TiYjT+1G+CiY4Wql4mjYDljAx5pwWXgZjnG2T6d5AUzB
+tUnCovXs6FiKoMCNfgCJjBYnGfkxRcDF1mJIo9dP3YKOSTf4drLMRvZNPP6svcbu
+Pr0SIrnnyboRzmY0fFQr/McRMCvqt0VFYBfyX+OBUy7FPTS3PAbsldhaD3Y2MTUE
+Va6D5Is1JZedWt1iQC9F4glAQm8WJhk3W53kLRuCnztyJHy7hJLkCDYGt0KV6OYU
+eqrkBErJlw==
+=HEYE
 -----END PGP SIGNATURE-----
 
---===============4547892012560508076==--
+--===============4567419403325833980==--
