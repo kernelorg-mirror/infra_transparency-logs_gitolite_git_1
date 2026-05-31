@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7361739198248404382=="
+Content-Type: multipart/mixed; boundary="===============5898922461689301881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 31 May 2026 03:20:04 -0000
-Message-Id: <178019760469.919770.17955596565335425102@gitolite.kernel.org>
+Date: Sun, 31 May 2026 03:20:33 -0000
+Message-Id: <178019763315.920249.3768010650527318564@gitolite.kernel.org>
 
---===============7361739198248404382==
+--===============5898922461689301881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
+  - ref: refs/heads/master
     old: 35b5af2e561f3b3db7be32288ae833be52ac99dc
     new: 04171ebc4a4e51a07d64521d89ad9c1dcf773cb4
     log: revlist-35b5af2e561f-04171ebc4a4e.txt
 
---===============7361739198248404382==
+--===============5898922461689301881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ a58e9e89cb7035e2a781f9b81dc27966e99b46a2 tpm: Initialize name_size_alg for non-N
 d425c9dda33cf16db10f2dc704c4a9bfbdc37dfe tpm: tpm_tis_spi: Use wait_woken() in wait_for_tmp_stat()
 04171ebc4a4e51a07d64521d89ad9c1dcf773cb4 tpm_crb: Check ACPI_COMPANION() against NULL during probe
 
---===============7361739198248404382==--
+--===============5898922461689301881==--
