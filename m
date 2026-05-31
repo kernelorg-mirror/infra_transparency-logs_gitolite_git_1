@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 31 May 2026 22:24:28 -0000
-Message-Id: <178026626855.1790583.16142379309817928844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Sun, 31 May 2026 22:26:16 -0000
+Message-Id: <178026637698.1793437.5215975723162292431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/master
-    old: 8d9c51eac648ec953ea534b536d62337be3744b7
-    new: e43ffb69e0438cddd72aaa30898b4dc446f664f8
+  - ref: refs/heads/counter-next
+    old: ee4133b921a17b239ca617e9b0c16cad1277e9fd
+    new: ca815bb87064a8f68b00eaf8872ef0d4a33a5bf7
     log: |
-         e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
+         b400c076fe4b63576fa22fbb59078b030000970c counter: ftm-quaddec: use devm_mutex_init()
+         4d9a902be374aea023f2193f729c26612e56b542 counter: interrupt-cnt: use devm_mutex_init()
+         ca815bb87064a8f68b00eaf8872ef0d4a33a5bf7 counter: intel-qep: Use devm_mutex_init()
          
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
