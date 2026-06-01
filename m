@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 01 Jun 2026 20:12:19 -0000
-Message-Id: <178034473946.3164944.7565524276582322264@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 20:13:02 -0000
+Message-Id: <178034478240.3165536.10445754783138398823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: dc20277af1e078dfc63efed8fbeac80390ad9309
+  - ref: refs/heads/for-next-tpm
+    old: 04171ebc4a4e51a07d64521d89ad9c1dcf773cb4
     new: 2d877745d2756750a3813bc02e8499de480bb9bd
     log: |
          d5de961edc366d5c3df19abe0cedd3321f0d731c KEYS: fix overflow in keyctl_pkey_params_get_2()
