@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Jun 2026 20:45:50 -0000
-Message-Id: <178034675073.3192027.16888556601900585095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 01 Jun 2026 21:05:44 -0000
+Message-Id: <178034794450.3205886.3022965930134467323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 648fb97ee908b602f507e8b1f1ae98dd6342f05d
-    new: 1df61a8b2d01c560822a0421f2a76af7fda34c1f
+  - ref: refs/heads/soc/arm
+    old: 36464f3653239daa618f4e2805b60ffa4c1e7cd6
+    new: 30b1e0a47af83f413c7da4eaa9485e91f96651a2
     log: |
-         1df61a8b2d01c560822a0421f2a76af7fda34c1f x86/cpu: Keep the PROCESSOR_SELECT menu together
+         7afbe21e94a439874f2df071265a8105efae1244 arm: boot: ep93xx: don't rely on machine_is_*() for removed board files
+         30b1e0a47af83f413c7da4eaa9485e91f96651a2 Merge tag 'ep93xx-20260529' of https://git.kernel.org/pub/scm/linux/kernel/git/asv/linux into soc/arm
          
