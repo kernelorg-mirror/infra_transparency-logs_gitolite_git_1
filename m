@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3134587706309456647=="
+Content-Type: multipart/mixed; boundary="===============6079087795044091364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 01 Jun 2026 19:13:44 -0000
-Message-Id: <178034122412.3121712.16580049550639355632@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 19:13:45 -0000
+Message-Id: <178034122551.3121897.9994595811372661959@gitolite.kernel.org>
 
---===============3134587706309456647==
+--===============6079087795044091364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
-    old: d7391997ea9c93137bc855fd2b55392acbb7ef63
-    new: 5c48ecedf7769f67c1e5592c1ef5202a4a967a34
-    log: revlist-d7391997ea9c-5c48ecedf776.txt
+  - ref: refs/heads/docs-next
+    old: d6dd61121cff3aaec3d444e2489c8cc66220c400
+    new: 738bb6e6c8d992f33335b3cbcce051ab118a33dc
+    log: revlist-d6dd61121cff-738bb6e6c8d9.txt
 
---===============3134587706309456647==
+--===============6079087795044091364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7391997ea9c-5c48ecedf776.txt
+Content-Disposition: attachment; filename=revlist-d6dd61121cff-738bb6e6c8d9.txt
 
 73cfdd6800b27bc7fabdcbeb177823e2226d9e7c docs: pt_BR: add translation for kernel development process guides
 344cc3d79494935e5ed1c5b2f2359022ff34fedc docs: pt_BR: update maintainer-handbooks
@@ -39,5 +39,6 @@ ef4c0f7aee482459205149e52a8ab770e85b7f63 docs: kgdb: Fix stale source file paths
 3c2edee3a40ee5fe0bb219c7401fa9ff57009334 docs: kernel-parameters: Fix stale sticore file paths
 c76934b3f4c8ed075971d171892895deb506667b docs/dyndbg: update examples \012 to \n
 5c48ecedf7769f67c1e5592c1ef5202a4a967a34 docs/dyndbg: explain flags parse 1st
+738bb6e6c8d992f33335b3cbcce051ab118a33dc Merge branch 'docs-mw' into docs-next
 
---===============3134587706309456647==--
+--===============6079087795044091364==--
