@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2587297242300851146=="
+Content-Type: multipart/mixed; boundary="===============2628078167653848520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 01 Jun 2026 16:17:23 -0000
-Message-Id: <178033064367.2978328.1485888577919639578@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 16:17:26 -0000
+Message-Id: <178033064618.2978534.6446142414395708497@gitolite.kernel.org>
 
---===============2587297242300851146==
+--===============2628078167653848520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: d97bc98dadda29f23540b8490592962ebcf545ff
-    new: 415489ef1cdfe586b4992662bee65286d50232e6
-    log: revlist-d97bc98dadda-415489ef1cdf.txt
+  - ref: refs/heads/mm-unstable
+    old: e1af79f3291a268adf4e149e1faba3052743e898
+    new: 6bb9014e347a15dfa837cbc52451035466d86ddf
+    log: revlist-e1af79f3291a-6bb9014e347a.txt
 
---===============2587297242300851146==
+--===============2628078167653848520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d97bc98dadda-415489ef1cdf.txt
+Content-Disposition: attachment; filename=revlist-e1af79f3291a-6bb9014e347a.txt
 
 d6b8b02a27b3dd09ec12144322b3dac46d9bc9ef mm/damon/ops-common: call folio_test_lru() after folio_get()
 c7bde43f6daf70e05a64fbca7efdf6fa93e057dc mm/hugetlb_vmemmap: fix incorrect vmemmap restore in rollback
@@ -316,36 +316,5 @@ b45e54486b7cdbd21b79fa9bb5c703636e0ebc8a selftests/mm: ensure destination is hug
 90c0d73e28be1482186eb12fdea0751cc94ea32c alloc_tag: fix use-after-free in /proc/allocinfo after module unload
 157198b6b78737e8990cd45e7d75f9e056fc4e0e lib: split codetag_lock_module_list()
 6bb9014e347a15dfa837cbc52451035466d86ddf mm/nodemask: correctly describe nodemask operation return types
-02863537e4669928d4c46e7008b2cd1838870f0d mm: list_lru: fix set_shrinker_bit() call during race with cgroup deletion
-c03c2123981a7ce7500eb5aa419df5363ae03dc7 mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-249997da7e2f17c707362b81fe48e62895814c3c mm: list_lru: deduplicate unlock_list_lru()
-4b2a111743b705536d0277613d1bc175d17c6f7c mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-07a257e7c574223c79f6b9639402f6caabeae724 mm: list_lru: deduplicate lock_list_lru()
-462174c1fd3881a5419e6ee2106f431f9faeae00 mm: list_lru: introduce caller locking for additions and deletions
-3edc7a211d0090cfd9ee16c36f86db0fed98509e mm: list_lru: introduce folio_memcg_list_lru_alloc()
-e51c83ae2922247870f3ae384a9c73746be125f7 mm: memory: flatten alloc_anon_folio() retry loop
-939f28866de4bf27e5ed1d87a4403f19715bdf11 mm: switch deferred split shrinker to list_lru
-c18ec69352951d7109429d62a657ce7a0cb71fb5 mm-switch-deferred-split-shrinker-to-list_lru-fix
-d5fb1b00952b445024d113dc421159146c799811 mm/compaction: respect cpusets when checking retry suitability
-0ccd8adc820127a6025954dec295077997656bfd mm: bypass mmap_miss heuristic for VM_EXEC readahead
-ca8921cf591f5e5dd7b80ebc5bf2c744dbb2c824 mm: use mapping_max_folio_order() for force_thp_readahead order
-d3175274e4f69f3ce54e3953a7bf98d1979439f3 add comment explaining design decision
-e544782aeeb8467fd4781d07a9c85e62a76c0dd8 mm/page_alloc: fix deferred compaction accounting
-030f97ee59d23c08462411016462d88165b03ba5 mm/page_vma_mapped_walk: use ptep_get_lockless() for lockless access
-e39299464051d87467d81648223ff62d8ba98657 zram: drop unused bio parameter from write helpers
-17cc79ca6a3732cfe5c33734b211483347cfbf17 lib/test_hmm: fix memory leak in dmirror_migrate_to_system()
-b0c79351856e0397e361deddbb6fe8d4b1228190 fs/proc/task_mmu: fix make_uffd_wp_huge_pte() prot-update race
-f711366252f832dfe4348f85fc088710cacf5d93 fs/proc/task_mmu: use huge_page_size() in pagemap_scan_hugetlb_entry()
-459bd394d969a0439f44ebf309c360b75241365d fs/proc/task_mmu: fix hugetlb self-deadlock in pagemap_scan_pte_hole()
-53cadde510b1e60d49672d6a1ed67384b5b2772a mm/huge_memory: preserve pmd_swp_uffd_wp on device-private PMD downgrade
-a67e7b51e42e4d3edf0ddf56a2b03e032d062498 userfaultfd: gate must_wait writability check on pte_present()
-28c27b828a9b89d75a1963734cb2508315c19c61 userfaultfd: build __VMA_UFFD_FLAGS from config-gated masks
-1c501c022de9e4b423995bdcb78f1b248ab1ea20 rust: page: mark Page::nid as inline
-05147ea61c494ba646d266c77ea6b7dbb3ab65d9 fs/proc/task_mmu: do not warn on seeing non-migration pmd entry
-909f847291d7718b130019b29ecc409931ca2525 selftests/mm/hmm-tests: test pagemap reads of PMD device-private entries
-08dff22b46aa7b894a61e401b300c0ab81a4e93d mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-0581139414d39f50c2a2d3239a908fea79b3866e mm/swap: remove redundant swap device reference in alloc/free
-c1ef0f0b6423ab192a827f3cecbac02a9aa2284e mm/swap, PM: hibernate: atomically replace hibernation pin
-415489ef1cdfe586b4992662bee65286d50232e6 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============2587297242300851146==--
+--===============2628078167653848520==--
