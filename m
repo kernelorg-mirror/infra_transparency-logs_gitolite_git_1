@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7584482803710775666=="
+Content-Type: multipart/mixed; boundary="===============4959738987448273776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 01 Jun 2026 16:20:52 -0000
-Message-Id: <178033085250.2982959.10640499550311127137@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 16:21:02 -0000
+Message-Id: <178033086208.2983561.4516138576322155671@gitolite.kernel.org>
 
---===============7584482803710775666==
+--===============4959738987448273776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: f63ad68e18d774a5d15cd7e405ead63f6b322679
-    new: c9c64820a48dcc739311fd7a9138511888539d02
-    log: revlist-f63ad68e18d7-c9c64820a48d.txt
+  - ref: refs/heads/asoc-7.2
+    old: 98d08b2e0e92ea39ac6743dcfdda1af676514c4b
+    new: 3ef902c9609966f66d6e0f42917e6beacda3798e
+    log: revlist-98d08b2e0e92-3ef902c96099.txt
 
---===============7584482803710775666==
+--===============4959738987448273776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f63ad68e18d7-c9c64820a48d.txt
+Content-Disposition: attachment; filename=revlist-98d08b2e0e92-3ef902c96099.txt
 
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
 8f9d6cd6d3916add4c47a9dd1622e4fc057f877b Input: elan_i2c - increase device reset wait timeout after update FW
@@ -245,6 +245,13 @@ a004b8f0d3bc5d82d3f2c91ff93f4b4b7ccb8f76 ACPI: button: Enable wakeup GPEs for AC
 3109f9f38800841e46769e95e1ba11f1f8c7b230 ACPI: button: Add missing device class clearing on probe failures
 13d33b9ef67066c77c84273fac5a1d3fde3533d1 drm/hyperv: validate resolution_count and fix WIN8 fallback
 7f87763f47a3c22fb50265a00619ef10f2394b18 drm/hyperv: validate VMBus packet size in receive callback
+afb2a3a9d8369d18122a0d7cd294eba9a98259c6 ASoC: Intel: bytcht_es8316: Fix MCLK leak on init errors
+cee3e63e7106c3c81b2053371fdf14240bfba2fc ASoC: qcom: q6asm-dai: do not set stream state in event and trigger callbacks
+048c540ee76ded666bda74f9dae1ca3254e0633c ASoC: qcom: q6asm-dai: close stream only when running
+4b4db09f283df65d780bc7cee66cb4a7e9bf4770 ASoC: qcom: q6asm-dai: fix error handling in prepare and set_params
+c92d880cde739a3fb6346f42fc5feb2f093c063c ASoC: qcom: q6asm-dai: remove unnecessary braces
+909595c288af2304d0902488698e91c8aeee36a3 ASoC: qcom: q6asm-dai: use pointer type with kzalloc_obj()
+500eb0203cd1a7b8feea0443f5add9a47444a7b2 ASoC: qcom: q6asm-dai: fix error handling
 974820a59efde7c1a7e1260bcfe9bb81f833cc9f hpfs: fix a crash if hpfs_map_dnode_bitmap fails
 86f1d0f063e423a5c1982db1e5e7a8eac511e603 net/mlx5: HWS: Reject unsupported remove-header action
 f6f1bfc1980a08a8d1eb8eaf161b79c7c67095ba Merge tag 'nf-26-05-22' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
@@ -316,6 +323,7 @@ dd433671fef381fdaf7b530c631e6b782d66e224 ipv6: validate extension header length 
 4db42e5fb9327c27b41f26bb9427ba0b97ecec30 ALSA: hda/cs420x: Add CS4208 fixup for iMac16,1
 14912d497188283f5a0aa5daaa161e52f79c7f34 ALSA: usb-audio: Add iface reset and delay quirk for TAE1160 USB Audio
 1750ad1388e03fb27068cd1f22c9c8b4590fe936 KVM: arm64: PMU: Preserve AArch32 counter low bits
+f63ad68e18d774a5d15cd7e405ead63f6b322679 ASoC: codecs: simple-mux: Fix enum control bounds check
 0f7abb6eaa3c3965f925e231c18409dac4f5a0c1 KVM: arm64: Fix meta-page unsharing in pKVM hyp tracing
 a23780ea9db3f3cadbb52ff6151384bff89d95d2 KVM: arm64: Fix rollback in hyp_trace_buffer_share_hyp()
 adae9996c04fea3b1791099b6d79e1df76d50849 KVM: arm64: Fix memory leak in hyp_trace_unload()
@@ -491,7 +499,46 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
-fc12cf16df9af867e1455b011cdd9310474a612e ASoC: amd: acp: Add DMI quirk for Lenovo Yoga Pro 7 15ASH11
-c9c64820a48dcc739311fd7a9138511888539d02 ASoC: amd: yc: Enable internal mic on MSI Bravo 17 C7VF
+6c52e58dbdaed2eea6cd10461e6b7fb3de4c99d5 ASoC: mediatek: mt2701: fix snprintf bounds
+caba9259a22b4da6beeeb48c84292870dbcff978 ASoC: dt-bindings: nau8822: Add supply regulators
+f8e7cd48e5b3b38ec5e1542b73b670a7770d2d7c ASoC: codecs: nau8822: add support for supply regulators
+a67c554dbc0fdd7e3c5909cb9f0fff41c51b2e9d ASoC: nau8822: add support for supply regulators
+a86fd3c202189876e8bc244c6e0be16a61f39d32 ASoC: dt-bindings: sound: Add DT binding for RZ/G3E sound
+c0758279367e9d82eb7d7b4959718d7d32e96b7d ASoC: rsnd: Fix RSND_SOC_MASK width to single nibble
+83c9631e974f54106957b23ce30c04f1faa37b57 ASoC: rsnd: Add reset controller support to rsnd_mod
+22622faf8120f2a9887839691743dddb89989499 ASoC: rsnd: Support hyphen or dot in indexed clock and reset names
+948b075ebc95ccce630765bb30f42ae774b20bfc ASoC: rsnd: Add RZ/G3E SoC probing and register map
+fb859f6fc43b30ce80e9428f79865b5fe8373418 ASoC: rsnd: Add audmapp clock and reset support for RZ/G3E
+e870c10f8bb6ae636af72e167833433bf423ae57 ASoC: rsnd: Refactor DMA address tables with named structs
+1cd10dab6702a1003e4ff6d1490271b0d977bad5 ASoC: rsnd: Add RZ/G3E DMA address calculation support
+b4ef837a28a100dfafff05463e11ff00d52fb411 ASoC: rsnd: ssiu: Add shared SSI reset controller support
+80f43c5217715641a3147eb223677e3c1600e65b ASoC: rsnd: ssiu: Add RZ/G3E BUSIF support
+692f03422f0e79365e33e7518e994bf7d3d12595 ASoC: rsnd: Add SSI reset support for RZ/G3E platform
+9267b89985de699a6bf721d90c319b7568391890 ASoC: rsnd: Add ADG reset support for RZ/G3E
+47899d53f86f5ab8a65a8d7bfa53d4ba79fa9e82 ASoC: rsnd: adg: Add per-SSI ADG and SSIF supply clock management
+16593532c47ad6c1bab3af18fb7b0a5423c05cca ASoC: rsnd: adg: Look up RZ/G3E clkin under audio-clk{a,b,c,i}
+799836bc37ac9d31beb9effb4d02318f45e53b8f ASoC: rsnd: src: Acquire shared SCU clocks for RZ/G3E
+33a3500a34b87f370e4d6af73adc2efe8fffc84f ASoC: rsnd: src: Add SRC reset support for RZ/G3E
+ec1b5ebf6d8b379effb6167316555a8efeac5eef ASoC: rsnd: Support unprefixed DT node names for RZ/G3E
+ef19ecf042b448a69ee3bd9b3e35689b0b7892ac ASoC: rsnd: Add system suspend/resume support
+debea6d6bce8abdb6f0dac6755936f48ababc7bb ASoC: rsnd: Add RZ/G3E audio driver support
+bb3c847523f951315f212047ab26363f9928d569 ASoC: codecs: pcm3168a: Prevent regulator double-disable in S4
+2c734439be9ca5968f39a3c5c10b65986f41d766 ASoC: codecs: pcm3168a: Drop redundant pm_runtime_idle()
+eb7107264da8545ba7381a76818bae553e1fd1e4 ASoC: codecs: pcm3168a: Drop CONFIG_PM-conditional preproc directive
+3a129981440fbba4ce0219069fdf257fa2fbc2ab ASoC: codecs: pcm3168a: Fix and updates for power management
+36cf16513f9dfc6dc5eee7ed5ca5fd4f649e1f1a ASoC: aw88395: use struct_size() and __counted_by() for aw_container
+6bc6b28c031484092ce1f829f59e4768e12b268e ASoC: dt-bindings: add SpacemiT K3 SoC compatible
+1c6ca2ca5c1bdc97912cf3f9b4a1e186919a6a98 ASoC: spacemit: add K3 SoC support with additional clocks
+054f183fb307174055caef0e5373b9f2ea32b65d ASoC: spacemit: add K3 SoC support
+205cc2a7eff0f4bec00fd705d72b6faba88c14a7 ASoC: sti: uniperif_reader: Use guard() for spin locks
+96166a8def7488dc3354830cfa0b77df52de9a15 ASoC: sti: uniperif_player: Use guard() for mutex & spin locks
+6d2359028c5baf27a96a75f70b46caa5bf82b969 ASoC: sti: Use guard() for mutex & spin locks
+525fa5f30c8358d467584c9d3991a7eb3aaa3c65 ASoC: qcom: audioreach: use cached shared memory module IID
+3075ae5abbc370d2a9a01bd6d554a412d406f5bd ASoC: qcom: q6apm: return error code to consumers on failures
+240286ecf1a243238d3aaeb500f474dcdd14e5be ASoC: qcom: q6apm: remove shared memory IID helpers
+7c1ac23b178a52c427e66a14acdbd87182f72499 ASoC: qcom: audioreach: Add support for shared memory push/pull modules
+ed56ac9e5e96e048eb1a98618908539a02431b46 ASoC: qcom: q6apm: add watermark event support
+4cfbd3a8d5961c30fefaae543ea67fc7b048480a ASoC: qcom: q6apm-dai: add push-pull and watermark event support
+3ef902c9609966f66d6e0f42917e6beacda3798e ASoC: qcom: qdsp6: add push/pull module support
 
---===============7584482803710775666==--
+--===============4959738987448273776==--
