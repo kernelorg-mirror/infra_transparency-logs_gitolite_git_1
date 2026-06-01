@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 01 Jun 2026 09:46:28 -0000
-Message-Id: <178030718866.2293673.11783841062613010626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 01 Jun 2026 09:46:33 -0000
+Message-Id: <178030719360.2293911.1335293758424006199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 71fb990a295b78c8fdab6bb7a86b4aabc579e8f7
-    new: 767e7337d558f67d4663d4791f8ef2977d3a8791
-    log: |
-         767e7337d558f67d4663d4791f8ef2977d3a8791 thermal/core: Fix missing stub for devm_thermal_cooling_device_register
-         
+  - ref: refs/tags/v7.1-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3bc831df9ee16fceee851872315161377ca1417d
