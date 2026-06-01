@@ -1,32 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 01 Jun 2026 10:19:26 -0000
-Message-Id: <178030916697.2316055.17500992036726365495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 01 Jun 2026 10:29:41 -0000
+Message-Id: <178030978185.2323091.13658257259426942243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: cc9fabb2f9e111e8fd4f15bf4325e175749d8af5
-    new: c0e01f16133e198b103978af8b57a7cf0fd893c6
+  - ref: refs/heads/master
+    old: 8be7153f5b0239da057e39baea338b3dea2397c0
+    new: 19814f164e75307883fdacf4765635c9f097ae35
     log: |
-         ab1375e25ea3fef62a4a5a93abf5d03d67aaf99c arm64: dts: rockchip: Fix EEPROM compatible on rk3399-nanopi-r4s-enterprise
-         8333fe46b0010d110b36f1628dd8dfc77d2c389a arm64: dts: rockchip: Disable removed devices from rk3399-nanopi-r4s
-         720fe68fd9f138ada2936ffcf3dd0129a889455a arm64: dts: rockchip: Enable USB for Khadas Edge 2L
-         ef81db2fdd5a75e3834a4726dc7837f6d2a7229d arm64: dts: rockchip: Add Bluetooth support for Khadas Edge 2L
-         c0e01f16133e198b103978af8b57a7cf0fd893c6 Merge branch 'v7.2-armsoc/dts64' into for-next
+         e01e38b24346a21f1d01498c265486a12c009e61 lib/fileutils: add ul_open_no_symlinks()
+         119d23f1e3f55cf10e3c66dab80fc308c9f26456 loopdev: use openat2(RESOLVE_NO_SYMLINKS) for backing file
+         f6381d7c695a13eab1407475b93f58385ea28691 tests: use tar --no-same-owner for sysfs dump extraction
+         afddc763ff9b7a1f87c8f5e490a785f0593e6713 Merge branch 'PR/tests-tar-no-same-owner' of https://github.com/karelzak/util-linux-work
+         19814f164e75307883fdacf4765635c9f097ae35 Merge branch 'PR/libmount-no-symlinks' of https://github.com/karelzak/util-linux-work
          
-  - ref: refs/heads/v7.2-armsoc/dts64
-    old: a34ae4f44c9ff4f4170dd21cdb22efad63710af4
-    new: ef81db2fdd5a75e3834a4726dc7837f6d2a7229d
+  - ref: refs/heads/stable/v2.42
+    old: 16958cb74bf18b109ea8a25d1763e0893b968cef
+    new: 8eda6a43262a0e98cd1caa07a8da78523e178575
     log: |
-         ab1375e25ea3fef62a4a5a93abf5d03d67aaf99c arm64: dts: rockchip: Fix EEPROM compatible on rk3399-nanopi-r4s-enterprise
-         8333fe46b0010d110b36f1628dd8dfc77d2c389a arm64: dts: rockchip: Disable removed devices from rk3399-nanopi-r4s
-         720fe68fd9f138ada2936ffcf3dd0129a889455a arm64: dts: rockchip: Enable USB for Khadas Edge 2L
-         ef81db2fdd5a75e3834a4726dc7837f6d2a7229d arm64: dts: rockchip: Add Bluetooth support for Khadas Edge 2L
+         f0118f97075d583df457734c111fc04c91e4aa42 lib/fileutils: add ul_open_no_symlinks()
+         8eda6a43262a0e98cd1caa07a8da78523e178575 loopdev: use openat2(RESOLVE_NO_SYMLINKS) for backing file
          
