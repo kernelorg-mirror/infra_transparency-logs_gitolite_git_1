@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3283782109056713050=="
+Content-Type: multipart/mixed; boundary="===============5148020957215384243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 01 Jun 2026 18:27:13 -0000
-Message-Id: <178033843349.3086584.13401655046213514081@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 18:27:22 -0000
+Message-Id: <178033844267.3086875.911458639310433324@gitolite.kernel.org>
 
---===============3283782109056713050==
+--===============5148020957215384243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-7.2
     old: d9893ad67e6505b0006598f0fc5510120aa6d131
     new: 042f5526cf2c44eac17ed2fa57a9a6e8d30d6279
     log: revlist-d9893ad67e65-042f5526cf2c.txt
 
---===============3283782109056713050==
+--===============5148020957215384243==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ad66912899d511a29508f83982e8d892a461f1cb Merge remote-tracking branch 'tip/locki
 b2412353ad10c480531055dac1f3c5f60c189331 ata: libata: Pass ap parameter directly to functions in the issuing path
 042f5526cf2c44eac17ed2fa57a9a6e8d30d6279 ata: Annotate functions in the issuing path with __must_hold()
 
---===============3283782109056713050==--
+--===============5148020957215384243==--
