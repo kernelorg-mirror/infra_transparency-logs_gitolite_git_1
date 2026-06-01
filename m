@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 01 Jun 2026 23:52:58 -0000
-Message-Id: <178035797899.3327272.4307456156757463924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 01 Jun 2026 23:57:19 -0000
+Message-Id: <178035823918.3330974.6350398734089806797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0906c117f81c2ae6e6dbfa82719f79c75e1c9325
-    new: 4490516d2109e105daf732681435c5c075b5d61b
+    old: 02896a7fa4cd3ec61d60ba30136841e4f04bdeac
+    new: 5057e1aca011e51ef51498c940ef96f3d3e8a305
     log: |
-         4490516d2109e105daf732681435c5c075b5d61b tcp_bbr: fix SPDX-License-Identifier to be GPL-2.0 OR BSD-3-Clause
+         5057e1aca011e51ef51498c940ef96f3d3e8a305 net/sched: act_api: use RCU with deferred freeing for action lifecycle
          
+  - ref: refs/tags/net-7.1-rc6-2
+    old: 0000000000000000000000000000000000000000
+    new: 34ead2b8acecbd5e48eae838796a18a163dea426
