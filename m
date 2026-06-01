@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 01 Jun 2026 15:18:44 -0000
-Message-Id: <178032712476.2593008.7900838216144736731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 01 Jun 2026 15:19:50 -0000
+Message-Id: <178032719030.2593493.8299765270457567477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/dm-7.2
-    old: 5aa0f9231cbacade065cedd8e9b5ebd067231171
-    new: f9f57971da38afbcfa82a9502fb3eb5f1f100e73
+  - ref: refs/heads/driver-core-next
+    old: 016267b521b18529c977c9eca9597a1669c3d73c
+    new: 46def663dd34da36464ba059f7cfeacf29d98e5e
     log: |
-         f9f57971da38afbcfa82a9502fb3eb5f1f100e73 dm-inlinecrypt: add support for hardware-wrapped keys
+         1947229f5f2a8d4ecf8c971aca68a1242bb7b37c amba: use generic driver_override infrastructure
+         d541aa1897f67f4f14c805785bff894bcc61dca1 cdx: use generic driver_override infrastructure
+         331d8900121a1d74ecd45cd2db742ddcb5a0a565 Drivers: hv: vmbus: use generic driver_override infrastructure
+         55ced13c42921714e90f8fae94b6ed803330dc6a rpmsg: use generic driver_override infrastructure
+         46def663dd34da36464ba059f7cfeacf29d98e5e driver core: remove driver_set_override()
          
