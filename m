@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0993250711987172252=="
+Content-Type: multipart/mixed; boundary="===============3445276729923764582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 01 Jun 2026 16:12:15 -0000
-Message-Id: <178033033526.2973290.475774144168684717@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 16:12:30 -0000
+Message-Id: <178033035050.2973549.18439266503171134635@gitolite.kernel.org>
 
---===============0993250711987172252==
+--===============3445276729923764582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 05d5d79440c2cc0784f91b61f2012753e66be472
-    new: e43ffb69e0438cddd72aaa30898b4dc446f664f8
-    log: revlist-05d5d79440c2-e43ffb69e043.txt
+  - ref: refs/heads/char-misc-next
+    old: 285ecb7d9e1b2401c2eccca4d0f26615f4d651eb
+    new: da61573f783897ae5a96c8f1c71aad6242344feb
+    log: revlist-285ecb7d9e1b-da61573f7838.txt
 
---===============0993250711987172252==
+--===============3445276729923764582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780330282 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780330293 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1780330329-ffd96d61d2bb8d0d0d15173cc7155fe0664a39bb
+nonce 1780330342-65f2df06b83fd71f127e2204fe3b1b08d07918f3
 
-05d5d79440c2cc0784f91b61f2012753e66be472 e43ffb69e0438cddd72aaa30898b4dc446f664f8 refs/heads/char-misc-linus
+285ecb7d9e1b2401c2eccca4d0f26615f4d651eb da61573f783897ae5a96c8f1c71aad6242344feb refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmodryobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mdgQAKTZ45fKlR7H1aLvsfcz
-3uhnkN2coShmXD3d8RF/cmJIkOPWpzJFTeiZNIjQk6xZGK+GSl+ncAF6P8sKWUCl
-rxP/vzP7POscnGba/aS73D67sb+bWrSK0qrOk0tM8UavFjVlv/auc0QLRvsNtQt8
-vWCYr5gyCYadI8qH7JPGKeKtLdY58dYwS4zQgToKrILYX0L71IGyc3sEoTuyy9sp
-Bv3OlJwnoLv5gEjB2CspLvzfgg4CGY8xzxS52CVFg7cme54Tksc3yvHR5GjUi2Mj
-46f9E3S3htQMihuQvqaj576gb2Wz9l3IzHbeTVLAwXgzIuOOZslXIECsN3bqY6mT
-BXe/cRPMqSmn5qAarlfxFMPDlT1pjVS7XSkp9dwVHIdmosYeBaNHoHevTeeRFtVL
-ShT30j77nfq4aJ3M/ypj1hYcgo52c4XONd2sya1Ud7OX1cg8vOFmB521PqmFXdmb
-J7Nrg1SNnx8pmf4kdJXn6TKfqXBNJdY76GrEkSrGU190u4/08EWrqQtWRZpGDl3e
-RkhpTEDPDhcW54guluF+xSlv3vVNglNKalkv7eKzwxVjFzcwjXQF/RBj5BLT0IDI
-LsioxIJnzJNYWHhSTIP0w+MtxelME0GNtJD6DCg2xQ1Q7f1x8xJctGyDgK/x4ZkS
-B06qe76UwGdvi8xuXh5HoiZK
-=ETAd
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmodrzUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wWAQANFgUlsLN+/CXryz9II+
+NRTf76cb4jR3OFPGvrEjz7EDGYCTArUJe/FU9tyN9UarkCE0jNTStZDc9DWjGjCk
+w7GSeVfZ5xrRRWh7cWHwlDPmfkfCvQ6425SjWbCAEILU4jKHO+/cuq4NPEK5ptbr
+PfKJDuwkfTcnlKPn+Di2w2WcFQHUs7Ei1Z1WlYmlGZYohGEbbWAMYqjAxzQB6OTW
+aNXHBpMuQb4lUgjWTOzbpj7gAnI44Ez+q3LvQ57/GMAm+DAEhOLWTKqokffbiGPm
+t90YUjjDZjIW3W8dqmGXu9d2NQKJ3FKesm+JMWOu6OLRwPYlIpbLgS7jhDHYNYgY
+cT9RO719kCqYhplVS1DWgeIOaVAvZ3jDwnEMjlh/L+Bv2RNEAvP/SyXT2J2+gZdz
+6WteZIUg+i2qCFh4qnE+2nl2bua1TpV2Dxveo+cs5ek2hkeuNcGaiQRgmqhUVSr4
+u1Uj9k0FpmaCBJMVN9y62TSPE7TXPxtEGA3CBbrbD15/8cDbN8wGVDJWdRfaPqJt
+dz15bFHOy3SlTXPRbioseMtPUPMqz4kJSifQFi5vLNu3N8x89ExIMMqWqiuv27yL
+F4OcdgT8Gqjutrwsx+ibLiW2x0LsvfvEyLPwGqitPJIXiiWgXocmm/arpsWgE0Z0
+7Gw1v86uMm9OtB6hx9H59qCv
+=uDn/
 -----END PGP SIGNATURE-----
 
---===============0993250711987172252==
+--===============3445276729923764582==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-05d5d79440c2-e43ffb69e043.txt
+Content-Disposition: attachment; filename=revlist-285ecb7d9e1b-da61573f7838.txt
 
-e83f5e24da741fa9405aeeff00b08c5ee7c37b88 Bluetooth: serialize accept_q access
-e3ac0d9f1a205f33a43fba3b79ef74d2f604c78b Bluetooth: btmtk: accept too short WMT FUNC_CTRL events
-3374ef8cf99368a40f7efd51a2a375a4c5dc6f0d Bluetooth: L2CAP: ecred_reconfigure: send packed pdu, not stack pointer
-375ba7484132662a4a8c7547d088fb6275c00282 Bluetooth: hci_qca: Convert timeout from jiffies to ms
-7f114497784661b887f1097c440221b18e2914e9 selftests: ovpn: reduce remaining ping flood counts
-775d8d7ad02aa345e1588424a6a8b9ae49fb9012 ovpn: tcp - use cached peer pointer in ovpn_tcp_close()
-1fef6614673ff0846d30acdeeaf3cf98bb5f6116 ovpn: respect peer refcount in CMD_NEW_PEER error path
-982422b11e6f95f766a8cd2c2b1cbdb77e234a61 ovpn: fix race between deleting interface and adding new peer
-7d9a7f1f96cd617ee9e75bb22217c709038e26b8 smb/client: fix possible infinite loop and oob read in symlink_data()
-a6ab75639e23169a741b0b2e12191fd8acb32c73 nvme-apple: Reset q->sq_tail during queue init
-ab26dfeba278b0efbcea012f1698cf524d9b5695 cifs: client: stage smb3_reconfigure() updates and restore ctx on failure
-593980175389a05793f6060aa20e626330960395 bpf: Use array_map_meta_equal for percpu array inner map replacement
-31e62c2ebbfdc3fe3dbdf5e02c92a9dc67087a3a ptrace: slightly saner 'get_dumpable()' logic
-1854082fe0ddb81bc93d1f8e8a00554217fd09d1 phy: apple: atc: Fix typec switch/mux leak on unbind
-eb5441518fba295bd97b59dc54914f89dfaa107d Merge tag 'audit-pr-20260513' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-81a874233c305d29e37fdb70b691ff4254294c0b smb: client: avoid integer overflow in SMB2 READ length check
-66182ca873a4e87b3496eca79d57f86b76d7f52d Merge tag 'net-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-905c559e51497b8bfdbb68df8be56d2f70f0de8e gcc-plugins: Always define CONST_CAST_GIMPLE and CONST_CAST_TREE
-28e03f78e69cf6628b81f24777799778528a84c1 x86/xen: Fix xen_e820_swap_entry_with_ram()
-4594437880ce347ac8438758fd91543f70da1aa9 x86/xen: Tolerate nested XEN_LAZY_MMU entering/leaving
-9cd3f16c320bfdadd4509358122368deb56a5741 batman-adv: fix fragment reassembly length accounting
-a340a51ed801eab7bb454150c226323b865263cc batman-adv: clear current gateway during teardown
-05f2a68b407a6817fe141dd64972c6ab8725312d vfio/pci: Set up BAR resources and maps in vfio_pci_core_enable()
-702809dabdecca807bdd50cfdcc1c980feb2ba62 vfio/pci: Check BAR resources before exporting a DMABUF
-2d8826a2d3657cea66fb0370f9e521575a673871 batman-adv: dat: handle forward allocation error
-6c65cf23d4c6170fcf5714c32aa64689718cb142 batman-adv: tp_meter: avoid use of uninit sender vars
-c207f1d785044667f87cc8c72355e33f3981f2d6 smbdirect: Fix error cleanup in smbdirect_map_sges_from_iter()
-0ce1bc9e46ecabe84772bb561e373c0d9876d6f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
-af149b667b9472bf981591a6d27efdecd331005a Merge branch 'acpi-cppc'
-4a9b16541ad3faf8bccb398532bf3f8b6bbf1188 lsm: hold cred_guard_mutex for lsm_set_self_attr()
-48f76a12713253f3abaa39c4ff7606d6fed05a7e Merge tag 'acpi-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-70eda68668d1476b459b64e69b8f36659fa9dfa8 Merge tag 'hid-for-linus-2026051401' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-aa13e4b120f9cf238ad141d8419851f3a7a3fb5f perf trace: Sync linux/socket.h with the kernel source
-b30e1493e3e27b6795244a472f0bbd07d0dc58fd perf trace: Sync uapi/linux/fs.h with the kernel source
 ca706027b5bdb37337e1b99752134d592f42f0ea perf trace: Sync uapi/linux/mount.h with the kernel source
 ad2cd6f9def4899591a75a96f71752e3aadb7579 perf trace: Sync uapi/linux/sched.h with the kernel source
 be81aed3f7492caa522493f7c67b9c4d3c8924a6 perf build: Add make check-headers target
@@ -134,9 +100,33 @@ fd87b510f5f543125ecf51e7c706a9f4bc3352be ALSA: hda/realtek: Add quirk for Samsun
 9921941929ab014038c357b30567d93d20393a94 ALSA: hda: Fix NULL pointer dereference in snd_hda_ctl_add()
 83dca2530fb3ba63f47bad339d890bc30aa06ab5 ALSA: hda/realtek: ALC269 fixup for Lenovo Yoga Pro 7 15ASH111 audio
 7d1051ad68df3d584b5f24bfa1fb19f3a24db278 ALSA: hda/realtek: Add mute LED quirk for HP Pavilion Laptop 16-ag0xxx
+b27bb2bf7711b028a86c2cfff4ac7a9b48b425c8 Merge tag 'counter-fixes-for-7.1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 bc62216dc8e221e3781afa14430f45208bfa9af9 batman-adv: frag: disallow unicast fragment in fragment
 d5487249a81ea658717614009c8f46acc5b7101a batman-adv: tp_meter: directly shut down timer on cleanup
 6fd9f6e870ea285f05102e8e00e6a7f4495a9a02 ALSA: hda/ca0132: Disable auto-detect on manual output select
+a9aba21a539c668a66b58eeb08ad3909e5a54c2a iio: adc: nxp-sar-adc: fix division by zero in write_raw
+a093999355084bdbfe6e97f1dd232e58a1525f0b iio: buffer: Fix DMA fence leak in iio_buffer_enqueue_dmabuf()
+49f79cd28f1e3333cbe0d616ce59ead0b24bf34e iio: magnetometer: st_magn: fix default DRDY pin selection for LIS2MDL
+1f4f0bcc5255dec5c4c3a1551bf49d8c33b69b20 iio: light: cm3323: fix reg_conf not being initialized correctly
+8ce176501f836634f9c0419c0820140f968e9dc5 iio: adc: nxp-sar-adc: zero-initialize dma_slave_config
+387c86b582e0782ab332e7bfcd4e6e3f93922961 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+c9d8e9adaa63150ef7e833480b799d0bab83a276 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+474f8928d50b09f7dcf507049f08732640b88b49 iio: imu: adis16550: fix stack leak in trigger handler
+5ace794c3ded38038a1f97f9ea26b9a8c835c111 iio: adc: qcom-spmi-adc5-gen3: Fix off by one in adc5_gen3_get_fw_channel_data()
+f9bbd943c34a9ad60e593a4b99ce2394e4e2381b iio: adc: mt6359: fix unchecked return value in mt6358_read_imp
+d0a228d903425e653f18a4341e60c0538afb6d41 iio: dac: max5821: fix return value check in powerdown sync
+ba121d7582361fe74405f32724976aeff5c35177 iio: adc: meson-saradc: fix calibration buffer leak on error
+eedf7602fbd929e97e0c480da501dc7a34beb2a8 iio: ssp_sensors: cancel delayed work_refresh on remove
+ecae2ae606d493cf11457946436335bd0e726663 iio: dac: ad5686: fix ref bit initialization for single-channel parts
+d01220ee5e43c65a206df827b39bf5cf5f7b9dce iio: dac: ad5686: fix input raw value check
+6f5ed4f2c7c83f33344e0ba179f72a12e5dad4a4 iio: buffer: hw-consumer: fix use-after-free in error path
+ebd250c2581ec46c64c73fdfa918c9a7f757505e iio: dac: ad3530r: Fix AD3531/AD3531R powerdown mode strings
+4701e471c16866e7aa8f5e6a3a6b0d31e097e2c9 iio: temperature: tsys01: fix broken PROM checksum validation
+5237c3175cae5ab05f18878cec3301a04403859e iio: dac: ad5686: acquire lock when doing powerdown control
+8aeaf25a85263a7a43357e16ad78ab969f6f8aeb iio: dac: ad5686: fix powerdown control on dual-channel devices
+6bdc3023d62ed5c7d591f0eb27a5adb37fb892ae iio: gyro: itg3200: fix i2c read into the wrong stack location
+422b5bbf333f75fb486855ad0eedc23cf21f3277 iio: adc: viperboard: Fix error handling in vprbrd_iio_read_raw
+329db447f8f02e82ff3acf130c892e1a4063d493 Merge tag 'iio-fixes-for-7.1a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 8a220d1c312c66194f4a33dd52d1fba42bc2b341 cachefiles: Fix error return when vfs_mkdir() fails
 3f9ed5f5aa9ecffd284218fffd6abc29617f51d5 drm/msm: Don't use UTS_RELEASE directly
 439e16c91aeeff2c7b503b317ccce2458a021191 MAINTAINERS: Remove Jianjun Wang as PCIe mediatek maintainer
@@ -528,6 +518,8 @@ aee43aaf26c7f162780ab77ce952bae6a1b354bd Merge tag 'amd-drm-fixes-7.1-2026-05-20
 7d2b37d3e42d19071b62f4ddbee6e16e905efbf1 USB: serial: option: add MeiG SRM813Q
 689f2facc689c8add11d7ff69fbbad17d65ee596 USB: serial: option: add missing RSVD(5) flag for Rolling RW135R-GL
 be460cedb67ab803c1bebceac19b1d44acb85d30 gpio: pca953x: propagate regulator_enable() error from resume
+8a3bee801d420be8a7a0bae4a26547b353b8fe22 comedi: comedi_test: Fix limiting of convert_arg in waveform_ai_cmdtest()
+542f5248cb481073203e0dadab5bcbd28aeae308 comedi: comedi_test: fix check for valid scan_begin_src in waveform_ai_cmdtest()
 48f6a5356a33dd78e7144ae1faef95ffc990aae0 net: skbuff: propagate shared-frag marker through frag-transfer helpers
 96031b31a4b3b6ec836b9fe7be8f6e6ebcfe8d67 irqchip/exynos-combiner: Switch to raw_spinlock
 c36069c6f46c52458bb86fa8eb4803f1e0b70fb0 dt-bindings: ethernet: eswin: add optional TXD and RXD delay register offsets
@@ -724,7 +716,13 @@ ca904f4b42355287bc5ce8b7550ebe909cda4c2c serial: dz: Fix bootconsole message clo
 5d7a49d60b8fda66da60e240fd7315232fa1754f serial: dz: Convert to use a platform device
 7cac59d08a73cb866ec51a483a6f3fe0f531947c serial: zs: Convert to use a platform device
 e4240d8845445d58b4b96f7066adfe175a61bd0c serial: dz: Enable modular build
+4c19719eb8b8df08c5bec7c499f73ddaea6f09fc rust_binder: avoid calling pending_oneway_finished() on TF_UPDATE_TXN
+f6d8fea9e3953151a4adb4f603503dc3dc9c69da rust_binder: Avoid holding lock when dropping delivered_death
 c2ff4764e03e7a8d758352f4aceb8fe1be6ac971 arm64: tlb: Flush walk cache when unsharing PMD tables
+f74c8696f14149d5e43cc28b015326a759c48f00 uio: uio_pci_generic_sva: fix double free of devm_kzalloc() memory
+ef15ccbb3e8640a723c42ad90eaf81d66ae02017 parport: Fix race between port and client registration
+2eae90a457baa0048a96ed38ad93090ee38c8b2f gpib: cb7210: Fix region leak when request_irq fails
+36770417153644bc88281c7284730ef1d14d8d3c misc: rp1: Send IACK on IRQ activate to fix kdump/kexec
 215c90ee656114f5e8c32408228d97082f8e0eef device property: set fwnode->secondary to NULL in fwnode_init()
 bed6e04be8e6b9133d8b16d5a42d0e0ce674fa9a netfilter: conntrack: tcp: do not force CLOSE on invalid-seq RST without direction check
 92170e6afe927ab2792a3f71902845789c8e31b1 netfilter: synproxy: refresh tcphdr after skb_ensure_writable
@@ -1066,6 +1064,7 @@ f3be0c984ecbcb82b0bec408022c4ef738cb3843 Merge tag 'net-7.1-rc6-2' of git://git.
 f5e5d3509bffb95c6648eb9795f7f236852ae62d Merge tag 'spi-fix-v7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 2765233a483febb1bf56f0abdcc5aa06d25633d7 Merge tag 'drm-fixes-2026-05-30' of https://gitlab.freedesktop.org/drm/kernel
 1246c246d9f684599e1dd7498043062c89fb0a36 Merge tag 'v7.1-rc6-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+05d5d79440c2cc0784f91b61f2012753e66be472 Revert "gpib: cb7210: Fix region leak when request_irq fails"
 e2aecff95bc6d59030332959a18f8c9f654961be Merge tag 'i2c-host-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 1d774589f924056b8403e271fdecaf9a803a50fc i2c: virtio: mark device ready before registering the adapter
 25447851777a53bd4b501e7f2cb418332ad584cc Merge tag 'char-misc-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
@@ -1081,5 +1080,6 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
+da61573f783897ae5a96c8f1c71aad6242344feb Merge tag 'v7.1-rc6' into char-misc-next
 
---===============0993250711987172252==--
+--===============3445276729923764582==--
