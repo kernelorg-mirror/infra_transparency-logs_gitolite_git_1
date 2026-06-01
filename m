@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 01 Jun 2026 00:48:39 -0000
-Message-Id: <178027491942.1895975.10507696395966543878@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 00:49:32 -0000
+Message-Id: <178027497236.1896642.5990413414511025105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: d2f7bd066ed492aeaf82864fbf1f06770f9d9f9d
-    new: 41300d032a1b1d91a3ed996ad21905463e344beb
+  - ref: refs/heads/master
+    old: 41300d032a1b1d91a3ed996ad21905463e344beb
+    new: 44cee8dd8b6fad5a823ce11696a6e41748853678
     log: |
-         41300d032a1b1d91a3ed996ad21905463e344beb libbpf: Skip endianness swap when loader generation failed
+         12a585e607fa6e3fbe2c02158c7ad284cbf75792 bpf, arm64: Fix redundant MOV and clarify stack arg comments
+         157317ba662a7c476320fdb334216154eaa8b856 selftests/bpf: Use at least 10 args in stack argument tests
+         44cee8dd8b6fad5a823ce11696a6e41748853678 Merge branch 'bpf-arm64-stack-argument-fixes'
          
