@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2779790375388078461=="
+Content-Type: multipart/mixed; boundary="===============5353309563579291706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 01 Jun 2026 12:29:05 -0000
-Message-Id: <178031694599.2413410.2493110978903936438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 01 Jun 2026 12:29:14 -0000
+Message-Id: <178031695481.2413627.10588927126688654477@gitolite.kernel.org>
 
---===============2779790375388078461==
+--===============5353309563579291706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 7aa258538c4434e49d33ee0360fced8493b2e4c1
     log: revlist-ee9c0fa95cd8-7aa258538c44.txt
 
---===============2779790375388078461==
+--===============5353309563579291706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ ad6602b3a01ea4ec45002ebf44e403d4306e38d9 perf arm-spe: Don't warn about the disc
 5693f7fdb4063de01d834bb4e8a41b5f0b2f2ea0 perf script: Fix missing '+' indicator when branch counter reaches upper limit
 7aa258538c4434e49d33ee0360fced8493b2e4c1 perf annotate: Fix missing branch counter column in TUI mode
 
---===============2779790375388078461==--
+--===============5353309563579291706==--
