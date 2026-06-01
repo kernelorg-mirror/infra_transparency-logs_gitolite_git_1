@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8693506787771178960=="
+Content-Type: multipart/mixed; boundary="===============1590889102814500056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 01 Jun 2026 16:10:16 -0000
-Message-Id: <178033021620.2924011.16354871794986253526@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 16:10:28 -0000
+Message-Id: <178033022831.2935743.9171771207490401435@gitolite.kernel.org>
 
---===============8693506787771178960==
+--===============1590889102814500056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: e4240d8845445d58b4b96f7066adfe175a61bd0c
-    new: e43ffb69e0438cddd72aaa30898b4dc446f664f8
-    log: revlist-e4240d884544-e43ffb69e043.txt
+  - ref: refs/heads/tty-next
+    old: 255dc0ec0b79c354bff017f6d6202adaa092a1c9
+    new: b586d69177b5fc92450a5f37a3bb1ce50aa87e39
+    log: revlist-255dc0ec0b79-b586d69177b5.txt
 
---===============8693506787771178960==
+--===============1590889102814500056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780330163 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780330171 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1780330213-02a9b540b5555d8ad79924ce788c6b559de7054b
+nonce 1780330221-2f3111b6629c8d22e98cd4536843028d2435a9d6
 
-e4240d8845445d58b4b96f7066adfe175a61bd0c e43ffb69e0438cddd72aaa30898b4dc446f664f8 refs/heads/tty-linus
+255dc0ec0b79c354bff017f6d6202adaa092a1c9 b586d69177b5fc92450a5f37a3bb1ce50aa87e39 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmodrrMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qnYP/2GtjqxB8QhAbaLeUH8j
-O+nAZ30o2sMKmg9Z/YeBXRC9blap/0A2LDOQFYkZ1BvIG+nyzEQKnjm6Zl5Q54oq
-0swEUh4aHo/1wdNKycNfA4WPebecSUwM8A5D3TfeFpmLbDJ6mY5drAQ+ZXna2FOf
-hZQcJEapPycafk7qkMOkSpD3iQzSa0ELa9n07VGgVA8rf0rMMsWaf9SUwSzuxsLp
-S53TreIuBqNk6GbN4W+sDm4GNbVKbuCFhDUzpI4JZMah8Aktyna0Gs/FZdXO76K4
-LCJJMlT0r8Jv7q2eqCw5i8PgFr/q9xoBavsqHMqkbjd/dCcukVcrroP/0nPiSB7Z
-OD5F95k0k9o1LR3HmxOU0NoZCxvnnjCgH2j9416tg8fiBP12UMcdQ9EgjGsAC/99
-8tpabuqelRHVW6r2eDs6eb2f4z/DucpMBs6e9jipa6bsh4YRS15aVuDY88aMqDE1
-4DW+xFa9RM4q1Dpgl9J+YfL7XZoeWzZ9pdX6BdmiiNSKmUvxhhb3MLC4YYvl9vov
-6uvz7lIlGR/k1hDSsiwf6AFBKh7FAhQqfALhqKwxjr10GR3BEbxe//Vk7k1Qd54b
-u45lNFom2qCanyyGEF+PQzZuHnSmFwqefIIJcUIwiKV+aPL160rSjxm8ZCnHqssk
-kfPbErdVx0ZI9rbfIdzdSjW6
-=P8wA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmodrrsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PZ4QAIJUro0s0JzcFFVfFLKF
+hUTIZm3cZSjPoAudbK0QW1K9zj0RDs+I5keYu0GzPTrJ3+Mp8dhBEQDai7S0tnAV
+BE8Z0/QLeL1n/j/xIeDG7HVs0hC37RtmVC8wATnuLggBF0TRJsHHzFYN5BdikKD0
+o8hOqaP+J13BnHi8RuDEj+tM3SOxOgWKLp45xDbI/dngjo40t0OYyb/y1JpjS5+L
+ZYU2/5F+cwU+qpzT+KW+YiwJak6bgPt8raNo/Bzn2jQpEEHpi8uTfg6MhUobZM4L
+/pVfI0vkQVZ+3nWkio7YNxsphvQfhP63e7W4PqJyBH6gkEgK5eeepDArA1Bg8D7E
+iIQWVqnUoonDv3Fd+tu4syaDI7W6DvGYY3MTSP1vN7PS6FfFAG1RDxUVdLpKHqOP
+DdrDka1uhHwaoVAWo9XEUHoXdClm03upQabF2wl5xi3+aj41wU9TUeY+4Qyhe6bL
+Ub42aHvHwi6RUwsD2/hnUkiEoq4zayoSdKSioQLHJPUvXsaWfVf819cSPX8gS7Du
+aFZJ8fSFcb34OlQGD3iINm5g3tKzGw6aghPAufA8CZslN0yXUo4UaoITn+MeLWyx
+ab5xJCflt4Dxo6IqjrD1rfIw2QFfuoXBwNjDe0TkxLVYOY0AsTM1TSEPcOgmS2qf
+kPWdXuGGwuWYPQFn7in4GWJZ
+=mre8
 -----END PGP SIGNATURE-----
 
---===============8693506787771178960==
+--===============1590889102814500056==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e4240d884544-e43ffb69e043.txt
+Content-Disposition: attachment; filename=revlist-255dc0ec0b79-b586d69177b5.txt
 
-a340a51ed801eab7bb454150c226323b865263cc batman-adv: clear current gateway during teardown
-05f2a68b407a6817fe141dd64972c6ab8725312d vfio/pci: Set up BAR resources and maps in vfio_pci_core_enable()
-702809dabdecca807bdd50cfdcc1c980feb2ba62 vfio/pci: Check BAR resources before exporting a DMABUF
-2d8826a2d3657cea66fb0370f9e521575a673871 batman-adv: dat: handle forward allocation error
-6c65cf23d4c6170fcf5714c32aa64689718cb142 batman-adv: tp_meter: avoid use of uninit sender vars
-c207f1d785044667f87cc8c72355e33f3981f2d6 smbdirect: Fix error cleanup in smbdirect_map_sges_from_iter()
-0ce1bc9e46ecabe84772bb561e373c0d9876d6f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
-af149b667b9472bf981591a6d27efdecd331005a Merge branch 'acpi-cppc'
-4a9b16541ad3faf8bccb398532bf3f8b6bbf1188 lsm: hold cred_guard_mutex for lsm_set_self_attr()
-48f76a12713253f3abaa39c4ff7606d6fed05a7e Merge tag 'acpi-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-70eda68668d1476b459b64e69b8f36659fa9dfa8 Merge tag 'hid-for-linus-2026051401' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-aa13e4b120f9cf238ad141d8419851f3a7a3fb5f perf trace: Sync linux/socket.h with the kernel source
-b30e1493e3e27b6795244a472f0bbd07d0dc58fd perf trace: Sync uapi/linux/fs.h with the kernel source
 ca706027b5bdb37337e1b99752134d592f42f0ea perf trace: Sync uapi/linux/mount.h with the kernel source
 ad2cd6f9def4899591a75a96f71752e3aadb7579 perf trace: Sync uapi/linux/sched.h with the kernel source
 be81aed3f7492caa522493f7c67b9c4d3c8924a6 perf build: Add make check-headers target
@@ -717,6 +704,18 @@ d0f2eb4493d1c3c8fecb5eadb5c1382074873ef9 KVM: s390: vsie: Fix memory leak when u
 a488e753de5853bec2e2e4d0c5a73f25d464bd2e KVM: s390: vsie: Fix redundant rmap entries
 9029496abfae3c208336855ae6f3e1f5f881ef76 KVM: s390: Properly reset zero bit in PGSTE
 5eb070769ea5e18405535609d1d3f6886f3755bd USB: cdc-acm: Fix bit overlap and move quirk definitions to header
+ea66be25f0e934f49d24cd0c5845d13cdba3520b serial: altera_jtaguart: handle uart_add_one_port() failures
+a3bb136bff5e6a5e48cdd813246c9c4686feaaa9 tty: serial: samsung: Remove redundant port lock acquisition in rx helpers
+c3cce2e67bb22a223f5b8ef05db0fcde70994068 serial: core: introduce guard(uart_port_lock_check_sysrq_irqsave)
+71f42b2149a1307a97165b409493665579462ea0 serial: 8250: dispatch SysRq character in serial8250_handle_irq()
+2e211723953f7740e54b53f3d3a0d5e351a5e223 serial: 8250_dw: dispatch SysRq character in dw8250_handle_irq()
+ca904f4b42355287bc5ce8b7550ebe909cda4c2c serial: dz: Fix bootconsole message clobbering at chip reset
+7f127b2208e5e2b817243cad41fe4211a6d5a7a3 serial: dz: Fix bootconsole handover lockup
+6c05cf72e13314ce9b770b5951695dc5a2152920 serial: zs: Fix bootconsole handover lockup
+8572955630f30948837088aa98bcbe0532d1ceac serial: zs: Switch to using channel reset
+5d7a49d60b8fda66da60e240fd7315232fa1754f serial: dz: Convert to use a platform device
+7cac59d08a73cb866ec51a483a6f3fe0f531947c serial: zs: Convert to use a platform device
+e4240d8845445d58b4b96f7066adfe175a61bd0c serial: dz: Enable modular build
 4c19719eb8b8df08c5bec7c499f73ddaea6f09fc rust_binder: avoid calling pending_oneway_finished() on TF_UPDATE_TXN
 f6d8fea9e3953151a4adb4f603503dc3dc9c69da rust_binder: Avoid holding lock when dropping delivered_death
 c2ff4764e03e7a8d758352f4aceb8fe1be6ac971 arm64: tlb: Flush walk cache when unsharing PMD tables
@@ -1081,5 +1080,6 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
+b586d69177b5fc92450a5f37a3bb1ce50aa87e39 Merge tag 'v7.1-rc6' into tty-next
 
---===============8693506787771178960==--
+--===============1590889102814500056==--
