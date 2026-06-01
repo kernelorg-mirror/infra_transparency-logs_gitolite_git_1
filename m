@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7420422956385462132=="
+Content-Type: multipart/mixed; boundary="===============2164719017861363744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 01 Jun 2026 18:23:15 -0000
-Message-Id: <178033819522.3082842.15216840932947890673@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 18:23:17 -0000
+Message-Id: <178033819779.3082931.16474717534993838676@gitolite.kernel.org>
 
---===============7420422956385462132==
+--===============2164719017861363744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8415598365503ced2e3d019491b0a2756c85c494
     new: 0906c117f81c2ae6e6dbfa82719f79c75e1c9325
     log: revlist-841559836550-0906c117f81c.txt
 
---===============7420422956385462132==
+--===============2164719017861363744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -144,4 +144,4 @@ f3be0c984ecbcb82b0bec408022c4ef738cb3843 Merge tag 'net-7.1-rc6-2' of git://git.
 c2c0486c56800ce276e79c40a6e576ffd672f2a9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 0906c117f81c2ae6e6dbfa82719f79c75e1c9325 net: ibm: emac: Reserve VLAN header in MJS limit
 
---===============7420422956385462132==--
+--===============2164719017861363744==--
