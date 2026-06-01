@@ -1,71 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8880383599699028614=="
+Content-Type: multipart/mixed; boundary="===============6919785610391672013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Mon, 01 Jun 2026 17:05:56 -0000
-Message-Id: <178033355648.3021727.510279729618167584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 01 Jun 2026 17:10:32 -0000
+Message-Id: <178033383256.3025410.2309804473678078868@gitolite.kernel.org>
 
---===============8880383599699028614==
+--===============6919785610391672013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
-user: tnguy
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/dev-queue
-    old: b3ed53e0cb528221d9e21b7842846c3ae3db7512
-    new: d953ad875636676424a622ab91cab51b97a0f50c
-    log: revlist-b3ed53e0cb52-d953ad875636.txt
+  - ref: refs/heads/main
+    old: d4577726914222bcc6f38299acfbcd88d1b0a974
+    new: e1c8fcfd37f76b46a581b794e27765258c9a537d
+    log: revlist-d45777269142-e1c8fcfd37f7.txt
+  - ref: refs/tags/ath-202606011701
+    old: 0000000000000000000000000000000000000000
+    new: e1c8fcfd37f76b46a581b794e27765258c9a537d
 
---===============8880383599699028614==
+--===============6919785610391672013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3ed53e0cb52-d953ad875636.txt
+Content-Disposition: attachment; filename=revlist-d45777269142-e1c8fcfd37f7.txt
 
-321c5c3195b8f2d39db1687186191ed099c16677 qcom: update ADSP firmware for x1e80100 platform
-5b2bc2e7d14c56e14c59a3d6e7b5b0641dc45c88 Merge branch 'robot/pr-0-1778742898' into 'main'
-87e59b4701ddacdcd56d1133a7a3d0e3269666ae amdgpu: DMCUB updates for various ASICs
-e2f767553f029b3140a33f954a8f8102ff0dee33 Merge branch 'amd-staging' into 'main'
-a21fb799c4965557bb4aae6a8edc18b532f5f65e qcom: add CDSP firmware for shikra platform
-6b4dd0377487101d15c443ad96675d6832ab7295 Merge branch 'robot/pr-0-1779118795' into 'main'
-4ea6552ba82d75e26e3f8ddb011b6df08fc86126 ti: Add PCM6240 firmware with multiple audio profiles support
-e5bd0226ef5cbbd25086a855d947f59379579002 Merge branch 'robot/patch-0-1778046423' into 'main'
-1b9b0fbf2d859728c39c2b08362abe17d1cf91e2 Add HP ISH firmware for Intel Panther Lake systems
-b63cce8300005e6427cc5978c4023b0077a2736c Merge branch 'add-hp-ish-firmware' into 'main'
-238e3a14b64bb43814cc338ced682134d6ea33d6 linux-firmware: add firmware for MT7927 WiFi device
-2f90f4fe5c67f51a8410907aedf911dabb7120ca ASoC: tas2783: Add Firmware files for tas2783A projects
-d962a6a309b78778f458dc94713845eee105be14 Merge branch 'mediatek' into 'main'
-d531e213dea885a7f615b98c6d53c1aae80b18af amdgpu: Update gc 11.0.1 microcode
-162675c38b9d10e4956531b755a9c015a569daa6 Merge branch 'amd-staging' into 'main'
-d0bf0bc94f2d1c58d814b9c2672f97f2429d7362 rtw89: 8852bt: update fw to v0.29.122.2
-f97831a2895009967c50f94f6591787e6fbe3bd7 rtw89: 8852b: update fw to v0.29.29.18
-c4e4f2099f32ae642eafb72b4235a196e17446a7 Merge branch 'main' into 'main'
-72a09795db6545946f1ea2d6955c9bfb9e02d89d cirrus: cs35l56: Update firmware for Cirrus Amps for some Dell laptops
-0b3d2f91df7cf5da3dbd15decaf01e8d849f4a2b Merge branch 'robot/pr-0-1779371264' into 'main'
-ef77d60eebbacc4abeb266e0615d60af2229bd32 qcom: Add gpu firmwares for Shikra chipset
-7bf283bcc2947c74fc32e78a6a689ce203380a67 Merge branch 'robot/pr-0-1779391380' into 'main'
-dd7b12f0d458e6e3cd6e8b19ab972882f20eaa0a cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Lenovo laptops
-542ad48830f642ebe5ebcb1be7904ac1fe968b15 cirrus: cs42l45: Update CS42L45 SDCA codec firmware for Lenovo laptops
-df472a73b917abafe34169b91c7428c54d6c5d7e cirrus: cs35l56: Add firmware for Cirrus Amps for some Lenovo laptops
-a04b42c670f854228ebee835e21ce13eb4873081 Merge branch 'robot/pr-0-1779445726' into 'main'
-9357f2b5010a27f7be52f706403707e8fa5f0016 i915: Xe3p_LPD DMC v2.37
-a679b0399f6ad1c2e1921130c7b5572358281d84 Merge branch 'intel/dmc/xe3p_lpd/2.37' into 'main'
-563b533d4f56a2e5363f6370d2a1229d467cafab i915: Xe3LPD_3002 DMC v2.31
-4ba8d9db9ae5bd342ebb6c3dba33854bd147d4c9 Merge branch 'intel/dmc/xe3lpd_3002/2.31' into 'main'
-830ba56b93d3e6cca6ead64924337b409b29b1e4 i915: Xe3LPD DMC v2.36
-adb6dceb45b98c4149e1ce68fc1a5f394fd67695 Merge branch 'intel/dmc/xe3lpd/2.36' into 'main'
-831ea4af30e1bd9788000fa974cbacf5925cebe7 cirrus: cs35l56: Add Cirrus CS35L56 firmware mappings for two Dell laptops
-927bba2a460caf5b4a40bb6f5eb7af5acd5fdcf8 Merge branch 'robot/pr-0-1779973145' into 'main'
-4f6efdd350e487a219281993f8286c3cbb16f7c7 rtl_nic: add firmware rtl8261c.bin for RTL8261c
-34971bd6799e4917927fe3f2a4ebc28c6e99e798 Merge branch 'robot/patch-0-1779954528' into 'main'
-c8c796dcdd3b8d1ec71de2c7a71d3d7b1c8f7a68 amdgpu: DMCUB updates for various ASICs
-6979eafec0da581d08c6c80a6793799ae0c29529 Merge branch 'amd-staging' into 'main'
-5ce19c7bb06f758757625120dae447cef609949a QCA: Update Bluetooth firmware for QCC2072 UART interface
-282d83cf7a32df1b87fabea9100b7bbb5b7c4a46 QCA: Add BCS calibration binary for QCC2072
-d953ad875636676424a622ab91cab51b97a0f50c Merge branch 'orn-btfw-1.1.0' into 'main'
+c7427f297ddb01f593217c21b2416f1093b80194 wifi: ath11k: use kzalloc_flex for struct scan_req_params
+6b471e9aefee9ed73278eb1141e0d8530a56fae9 wifi: ath11k: fix invalid data access in ath11k_dp_rx_h_undecap_nwifi
+4d8af936b4fe377f3d7700540f301d8e45e8759b wifi: ath11k: add MSDU length validation for TKIP MIC error
+209887467581116a93490e6122b87b6fe0787627 wifi: ath11k: raise max vdevs to 4 on hardware with P2P and dual-station support
+10085a654a4c2331d5f0cdc20bfc839a49fbb886 wifi: ath12k: fix incorrect HT/VHT/HE/EHT MCS reporting in monitor mode
+98d4f92ab6a1af2ea2ab590d7e2801b203110981 wifi: ath12k: fix memory leak in ath12k_wifi7_dp_rx_h_verify_tkip_mic()
+51d510589f5cb54b9251f4ecf4c13f219dead928 wifi: ath12k: allow peer_id 0 in dp peer lookup
+c972636efc63f0f43d725b59805dd1ae5bc4b31e wifi: ath12k: fix inconsistent arvif state in vdev_create error paths
+47809a7c8348bc4a332ccc26a37c7145a5f609f8 wifi: ath12k: fix NULL deref in change_sta_links for unready link
+05337d0b9c5a7ab3b60473490705ebe90d5316aa wifi: ath12k: add hardware parameters for maximum supported clients
+675aa75bfc29fb18c6e4d58904a91c1d37228217 wifi: ath12k: Prevent incorrect vif chanctx switch when handling multi-radio contexts
+e1125b0ab6fdda21dde19f7be631a477d14b684c wifi: ath12k: Set WDS vdev parameter for 4-address station interface
+2f57f737dbf3005951a045eb9d1daaff0095f6c1 wifi: ath12k: Add support for 4-address mode
+729cad3c3c9e09ca9900744fe2a02b25e23cdab5 wifi: ath12k: Add 4-address mode support for eth offload
+6d0572f61539c5d4e2971139e7b501e37b7632d6 wifi: ath12k: Add support for 4-address NULL frame handling
+f818260ac66b2971a2a587ea08b171b135a2c1e6 wifi: ath12k: Add support for 4-address frame notification
+565257a857690244211d85593b2cd490ce86783a wifi: ath12k: Handle 4-address EAPOL frames from WBM error path
+03b4ba8d9bc705a46671baf4aa6497d93f48b0cf Merge remote-tracking branch 'wireless/main'
+1f8f3f882eda5ca4ccb32516e0cf6934fc9b91b6 Merge remote-tracking branch 'wireless-next/main'
+86bbe79d850b00ab31e4f3542d308e3599653ea8 Merge branch 'ath-next'
+021e7c8775a3fbf887d08a3bb70a39d38609f989 Merge remote-tracking branch 'mhi/mhi-next'
+e1c8fcfd37f76b46a581b794e27765258c9a537d Add localversion-wireless-testing-ath
 
---===============8880383599699028614==--
+--===============6919785610391672013==--
