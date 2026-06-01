@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6598289978822583739=="
+Content-Type: multipart/mixed; boundary="===============5260321866956226637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 01 Jun 2026 08:06:43 -0000
-Message-Id: <178030120399.2217314.16707021647101828522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 01 Jun 2026 08:07:49 -0000
+Message-Id: <178030126903.2218118.3182696693341035194@gitolite.kernel.org>
 
---===============6598289978822583739==
+--===============5260321866956226637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 82fcca5f06a468bff003e3310cc733409761a6f4
-    new: 76cfa1b9a689df00c7526a9389bd55c8e472f454
-    log: revlist-82fcca5f06a4-76cfa1b9a689.txt
-  - ref: refs/tags/renesas-devel-2026-06-01-v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 6a00faae8909579e9d6a9f6cd7fcb621cc477def
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
+    old: 26b3f6c06bb2e4c5e933736324b70b732c06ba64
+    new: e327c906a9810830d3e7752e40fa6c61c0600abd
+    log: revlist-26b3f6c06bb2-e327c906a981.txt
 
---===============6598289978822583739==
+--===============5260321866956226637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82fcca5f06a4-76cfa1b9a689.txt
+Content-Disposition: attachment; filename=revlist-26b3f6c06bb2-e327c906a981.txt
 
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
 8f9d6cd6d3916add4c47a9dd1622e4fc057f877b Input: elan_i2c - increase device reset wait timeout after update FW
@@ -505,6 +499,6 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
-76cfa1b9a689df00c7526a9389bd55c8e472f454 Merge tag 'v7.1-rc6' into renesas-devel
+e327c906a9810830d3e7752e40fa6c61c0600abd Merge tag 'v7.1-rc6'
 
---===============6598289978822583739==--
+--===============5260321866956226637==--
