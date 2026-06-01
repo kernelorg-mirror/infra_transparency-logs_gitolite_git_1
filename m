@@ -1,27 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 01 Jun 2026 10:06:52 -0000
-Message-Id: <178030841281.2308109.10538000059426505041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 01 Jun 2026 10:19:26 -0000
+Message-Id: <178030916697.2316055.17500992036726365495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: d968218c72c6a66d792610cf47a52b79f9bc8363
-    new: 8be7153f5b0239da057e39baea338b3dea2397c0
+  - ref: refs/heads/for-next
+    old: cc9fabb2f9e111e8fd4f15bf4325e175749d8af5
+    new: c0e01f16133e198b103978af8b57a7cf0fd893c6
     log: |
-         01a424f502cf87f4cbd1c88bb10714b9f87154d4 dmesg: fix off-by-one read buffer size
-         b01a596237ecdfb779251ad01897651a4acbf7a3 fix: (bash-completion) remove --bit option from bits completion
-         8be7153f5b0239da057e39baea338b3dea2397c0 Merge branch 'fix-remove-bits-bash-completion' of https://github.com/add-uos/util-linux
+         ab1375e25ea3fef62a4a5a93abf5d03d67aaf99c arm64: dts: rockchip: Fix EEPROM compatible on rk3399-nanopi-r4s-enterprise
+         8333fe46b0010d110b36f1628dd8dfc77d2c389a arm64: dts: rockchip: Disable removed devices from rk3399-nanopi-r4s
+         720fe68fd9f138ada2936ffcf3dd0129a889455a arm64: dts: rockchip: Enable USB for Khadas Edge 2L
+         ef81db2fdd5a75e3834a4726dc7837f6d2a7229d arm64: dts: rockchip: Add Bluetooth support for Khadas Edge 2L
+         c0e01f16133e198b103978af8b57a7cf0fd893c6 Merge branch 'v7.2-armsoc/dts64' into for-next
          
-  - ref: refs/heads/stable/v2.42
-    old: 0e3274777be95704d5edd32c0bf847d2f36fd72a
-    new: 16958cb74bf18b109ea8a25d1763e0893b968cef
+  - ref: refs/heads/v7.2-armsoc/dts64
+    old: a34ae4f44c9ff4f4170dd21cdb22efad63710af4
+    new: ef81db2fdd5a75e3834a4726dc7837f6d2a7229d
     log: |
-         16958cb74bf18b109ea8a25d1763e0893b968cef tests: mkswap file-existing subtest add explicit page size
+         ab1375e25ea3fef62a4a5a93abf5d03d67aaf99c arm64: dts: rockchip: Fix EEPROM compatible on rk3399-nanopi-r4s-enterprise
+         8333fe46b0010d110b36f1628dd8dfc77d2c389a arm64: dts: rockchip: Disable removed devices from rk3399-nanopi-r4s
+         720fe68fd9f138ada2936ffcf3dd0129a889455a arm64: dts: rockchip: Enable USB for Khadas Edge 2L
+         ef81db2fdd5a75e3834a4726dc7837f6d2a7229d arm64: dts: rockchip: Add Bluetooth support for Khadas Edge 2L
          
