@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5411287181263235858=="
+Content-Type: multipart/mixed; boundary="===============2176944097560163656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 01 Jun 2026 06:09:10 -0000
-Message-Id: <178029415027.2128810.9653893605506614035@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 06:09:56 -0000
+Message-Id: <178029419647.2129176.10325324255675377356@gitolite.kernel.org>
 
---===============5411287181263235858==
+--===============2176944097560163656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6851161feb01cea41358c9ec304bd2f981fc8505
     new: 78ef59e7a6459b16f8102e0ee1c718443323d1af
     log: revlist-6851161feb01-78ef59e7a645.txt
 
---===============5411287181263235858==
+--===============2176944097560163656==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c84ff04def255edb51e57c9f969efdfade0da16a Merge tag 'ipsec-2026-05-29' of git://g
 f75e3eb08fe31d30a9af6ed80cdd22e6772837e2 wireguard: send: append trailer after expanding head
 78ef59e7a6459b16f8102e0ee1c718443323d1af Merge branch 'wireguard-fixes-for-7-1-rc6'
 
---===============5411287181263235858==--
+--===============2176944097560163656==--
