@@ -1,55 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============6919785610391672013=="
+Content-Type: multipart/mixed; boundary="===============6450236446957353215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 01 Jun 2026 17:10:32 -0000
-Message-Id: <178033383256.3025410.2309804473678078868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 01 Jun 2026 17:23:03 -0000
+Message-Id: <178033458387.3033689.16081133171418310587@gitolite.kernel.org>
 
---===============6919785610391672013==
+--===============6450236446957353215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: d4577726914222bcc6f38299acfbcd88d1b0a974
-    new: e1c8fcfd37f76b46a581b794e27765258c9a537d
-    log: revlist-d45777269142-e1c8fcfd37f7.txt
-  - ref: refs/tags/ath-202606011701
-    old: 0000000000000000000000000000000000000000
-    new: e1c8fcfd37f76b46a581b794e27765258c9a537d
+  - ref: refs/heads/bleeding-edge
+    old: 5670a3647387eaa30d121ebf997a1715a48a90a7
+    new: 4f00a2e1a534123c0f611a7207db6bc6bdc6d2f9
+    log: revlist-5670a3647387-4f00a2e1a534.txt
+  - ref: refs/heads/testing
+    old: 30c7ee0ccbd521c04f608bba3a1236ea4f8d02ec
+    new: 992d33383806d419ea8d6a7cd8df72a8f1e15b71
+    log: revlist-30c7ee0ccbd5-992d33383806.txt
 
---===============6919785610391672013==
+--===============6450236446957353215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d45777269142-e1c8fcfd37f7.txt
+Content-Disposition: attachment; filename=revlist-5670a3647387-4f00a2e1a534.txt
 
-c7427f297ddb01f593217c21b2416f1093b80194 wifi: ath11k: use kzalloc_flex for struct scan_req_params
-6b471e9aefee9ed73278eb1141e0d8530a56fae9 wifi: ath11k: fix invalid data access in ath11k_dp_rx_h_undecap_nwifi
-4d8af936b4fe377f3d7700540f301d8e45e8759b wifi: ath11k: add MSDU length validation for TKIP MIC error
-209887467581116a93490e6122b87b6fe0787627 wifi: ath11k: raise max vdevs to 4 on hardware with P2P and dual-station support
-10085a654a4c2331d5f0cdc20bfc839a49fbb886 wifi: ath12k: fix incorrect HT/VHT/HE/EHT MCS reporting in monitor mode
-98d4f92ab6a1af2ea2ab590d7e2801b203110981 wifi: ath12k: fix memory leak in ath12k_wifi7_dp_rx_h_verify_tkip_mic()
-51d510589f5cb54b9251f4ecf4c13f219dead928 wifi: ath12k: allow peer_id 0 in dp peer lookup
-c972636efc63f0f43d725b59805dd1ae5bc4b31e wifi: ath12k: fix inconsistent arvif state in vdev_create error paths
-47809a7c8348bc4a332ccc26a37c7145a5f609f8 wifi: ath12k: fix NULL deref in change_sta_links for unready link
-05337d0b9c5a7ab3b60473490705ebe90d5316aa wifi: ath12k: add hardware parameters for maximum supported clients
-675aa75bfc29fb18c6e4d58904a91c1d37228217 wifi: ath12k: Prevent incorrect vif chanctx switch when handling multi-radio contexts
-e1125b0ab6fdda21dde19f7be631a477d14b684c wifi: ath12k: Set WDS vdev parameter for 4-address station interface
-2f57f737dbf3005951a045eb9d1daaff0095f6c1 wifi: ath12k: Add support for 4-address mode
-729cad3c3c9e09ca9900744fe2a02b25e23cdab5 wifi: ath12k: Add 4-address mode support for eth offload
-6d0572f61539c5d4e2971139e7b501e37b7632d6 wifi: ath12k: Add support for 4-address NULL frame handling
-f818260ac66b2971a2a587ea08b171b135a2c1e6 wifi: ath12k: Add support for 4-address frame notification
-565257a857690244211d85593b2cd490ce86783a wifi: ath12k: Handle 4-address EAPOL frames from WBM error path
-03b4ba8d9bc705a46671baf4aa6497d93f48b0cf Merge remote-tracking branch 'wireless/main'
-1f8f3f882eda5ca4ccb32516e0cf6934fc9b91b6 Merge remote-tracking branch 'wireless-next/main'
-86bbe79d850b00ab31e4f3542d308e3599653ea8 Merge branch 'ath-next'
-021e7c8775a3fbf887d08a3bb70a39d38609f989 Merge remote-tracking branch 'mhi/mhi-next'
-e1c8fcfd37f76b46a581b794e27765258c9a537d Add localversion-wireless-testing-ath
+f8600e0d1ac60e6eac34bc9c7e8cf78f7a4c368f ACPI: button: Fix lid_device value leak past driver removal
+c64db50c13719a38e0ea290f686aa9cf79dc0342 ACPI: button: Pass ACPI handle to acpi_lid_evaluate_state()
+21d822d603ab2a84211651aa39b65e6118add51b ACPI: button: Improve warning message regarding lid state
+c0e0b84d9e6fd74f9390aa4014dd265947f1c0d7 ACPI: button: Use bool for representing boolean values
+a2a3659829b1062fa86eeecb7cb575fd3ba0338e ACPI: button: Eliminate ternary operator from acpi_lid_evaluate_state()
+06bc0064ad53be6b8f13b166b2fccbebe9eb6735 ACPI: button: Change return type of two functions to void
+d9fa7b95d11d7cdf2930ebac155f7ee8f2d6ebdd ACPI: button: Eliminate redundant conditional statement
+1ad8cdd308da9f9ff044ac49cbe1a375f96c3404 ACPI: button: Use local pointer to platform device dev field in probe
+378ed2c6480767d7f8521e6fbe646663c08c9b1e ACPI: button: Rework device verification during probe
+c6a184ffd5038c71ce00d016f9de4e108a271daf ACPI: button: Drop redundant variable from acpi_button_probe()
+8cc1a6ebeba2c3f9c0e4769cb65c6509609474d2 ACPI: button: Merge two switch () statements in acpi_button_probe()
+5b9607c21b3501d9ed4b0825e36b840eaf6686e1 ACPI: button: Clean up adding and removing lid procfs interface
+4b57967afa35f4c8de2b8edd574e7121199c561c ACPI: button: Use string literals for generating netlink messages
+f410d63546dce48988fffd3653cc8fe57f3286f2 ACPI: button: Reorganize installing and removing event handlers
+78b2b8e5915c7ff256a85abc1d7fce76c0ab9e25 ACPI: button: Switch over to devres-based resource management
+992d33383806d419ea8d6a7cd8df72a8f1e15b71 Merge branch 'acpi-button' into testing
+4f00a2e1a534123c0f611a7207db6bc6bdc6d2f9 Merge branch 'experimental/acpi-driver-work' into bleeding-edge
 
---===============6919785610391672013==--
+--===============6450236446957353215==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-30c7ee0ccbd5-992d33383806.txt
+
+f8600e0d1ac60e6eac34bc9c7e8cf78f7a4c368f ACPI: button: Fix lid_device value leak past driver removal
+c64db50c13719a38e0ea290f686aa9cf79dc0342 ACPI: button: Pass ACPI handle to acpi_lid_evaluate_state()
+21d822d603ab2a84211651aa39b65e6118add51b ACPI: button: Improve warning message regarding lid state
+c0e0b84d9e6fd74f9390aa4014dd265947f1c0d7 ACPI: button: Use bool for representing boolean values
+a2a3659829b1062fa86eeecb7cb575fd3ba0338e ACPI: button: Eliminate ternary operator from acpi_lid_evaluate_state()
+06bc0064ad53be6b8f13b166b2fccbebe9eb6735 ACPI: button: Change return type of two functions to void
+d9fa7b95d11d7cdf2930ebac155f7ee8f2d6ebdd ACPI: button: Eliminate redundant conditional statement
+1ad8cdd308da9f9ff044ac49cbe1a375f96c3404 ACPI: button: Use local pointer to platform device dev field in probe
+378ed2c6480767d7f8521e6fbe646663c08c9b1e ACPI: button: Rework device verification during probe
+c6a184ffd5038c71ce00d016f9de4e108a271daf ACPI: button: Drop redundant variable from acpi_button_probe()
+8cc1a6ebeba2c3f9c0e4769cb65c6509609474d2 ACPI: button: Merge two switch () statements in acpi_button_probe()
+5b9607c21b3501d9ed4b0825e36b840eaf6686e1 ACPI: button: Clean up adding and removing lid procfs interface
+4b57967afa35f4c8de2b8edd574e7121199c561c ACPI: button: Use string literals for generating netlink messages
+f410d63546dce48988fffd3653cc8fe57f3286f2 ACPI: button: Reorganize installing and removing event handlers
+78b2b8e5915c7ff256a85abc1d7fce76c0ab9e25 ACPI: button: Switch over to devres-based resource management
+992d33383806d419ea8d6a7cd8df72a8f1e15b71 Merge branch 'acpi-button' into testing
+
+--===============6450236446957353215==--
