@@ -1,97 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============4711387019686834680=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Jun 2026 07:25:05 -0000
-Message-Id: <178029870566.2186892.15202767816029459276@gitolite.kernel.org>
-
---===============4711387019686834680==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 01 Jun 2026 07:39:47 -0000
+Message-Id: <178029958799.2195574.17429392620022597178@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/master
-    old: 64358fbe7ffa3145f8bc92d55a6655d671981284
-    new: 0f209c35c625b9bd62c98fe386ce582b546e7567
-    log: revlist-64358fbe7ffa-0f209c35c625.txt
-  - ref: refs/heads/tip/urgent
-    old: 8288eff308b753a429fbc585f90f26bb721ef80a
-    new: e43ffb69e0438cddd72aaa30898b4dc446f664f8
-    log: revlist-8288eff308b7-e43ffb69e043.txt
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-
---===============4711387019686834680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64358fbe7ffa-0f209c35c625.txt
-
-b339ae6825bf29c47a98ed3101521a473b52256d Merge branch into tip/master: 'x86/merge'
-f59d07a289eb877c8a9953cf4c2186a87e667efc Merge branch into tip/master: 'timers/merge'
-514b5e800f3cca6d8470c4123405277dff9a57f7 Merge branch into tip/master: 'irq/core'
-7783f54479c5939286cc9358a87583719c932235 Merge branch into tip/master: 'irq/drivers'
-817a359253693c329de9843f9bc25fc690cfcfa5 Merge branch into tip/master: 'irq/msi'
-a5f2ae459cc90aeec9e711ff8d46a19f33cd8830 Merge branch into tip/master: 'locking/context'
-aa92801a7fef98ecdd64128ea5696f7d00537c86 Merge branch into tip/master: 'locking/core'
-abb57215f3b5a6e0cc185f24f68b941a92bce8fc Merge branch into tip/master: 'objtool/core'
-e6594962443ba01d2896e3ba3a672988742bb52e Merge branch into tip/master: 'perf/core'
-938eb888a06f3938d63897ebe68f23b0cd8d261c Merge branch into tip/master: 'sched/core'
-ea30a8ad1381a7c3bcd00c76972429adb3481125 Merge branch into tip/master: 'timers/core'
-aa3039108f18e7d72b5a6442a8af7aece0f46e73 Merge branch into tip/master: 'timers/vdso'
-af22cbf6b8b08762d7a3e377298ccd6b11047f02 Merge branch into tip/master: 'x86/cache'
-59bde93d94c4f554f48c93c5422581c9391cfc4b Merge branch into tip/master: 'x86/cleanups'
-6928cc0a0774d3c09ef2efd2efb2145c72fbf2ae Merge branch into tip/master: 'x86/cpu'
-9121c36f9065dbb866dc6b75d4d99ea2703ba40e Merge branch into tip/master: 'x86/misc'
-4f03b35b10bc7d821dbded61c3aa64cf96014143 Merge branch into tip/master: 'x86/mm'
-55d26e0010547c59c96b32d3c20b4f349ef97f10 Merge branch into tip/master: 'x86/sev'
-0f209c35c625b9bd62c98fe386ce582b546e7567 Merge branch into tip/master: 'x86/tdx'
-
---===============4711387019686834680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8288eff308b7-e43ffb69e043.txt
-
-96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
-8f9d6cd6d3916add4c47a9dd1622e4fc057f877b Input: elan_i2c - increase device reset wait timeout after update FW
-2905281cbda52ec9df540113b35b835feb5fafd3 Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
-6cdc46b38cf146ce81d4831b6472dbf7731849a2 Input: xpad - fix out-of-bounds access for Share button
-76b0d0baa9ae9c60e726bbe1b6ff0bec2c993634 Input: elan_i2c - validate firmware size before use
-c897cf120696b94f56ed0f3197ba9a77071a59ec Input: xpad - add support for ASUS ROG RAIKIRI II
-1f6ac0f8441c48c4cc250141e1da8486c13512ba Input: xpad - add "Nova 2 Lite" from GameSir
-74d695fd6f9d70df849c555f358ddfd26e2d85bf Input: fm801-gp - simplify initialisation of pci_device_id array
-baa0210fb6a9dc3882509a9411b6d284d88fe30e Input: atmel_mxt_ts - fix boundary check in mxt_prepare_cfg_mem
-a5fd88a5d63f812422e69682f3cb663d9d7f3e9c Input: atmel_mxt_ts - check mem_size before calculating config memory size
-6f89d96fff65aec1ff12bc566fca0eb1bb59e16e Input: atlas - check ACPI_COMPANION() against NULL
-16ca52bc209fa4bf9239cd9e5643e95533476b58 Input: synaptics - add LEN2058 to SMBus passlist for ThinkPad E490
-dab48a7e74e6a394f3aa0461a2b1fb0c7b38fcb8 Input: ims-pcu - fix usb_free_coherent() size in ims_pcu_buffers_free()
-7205b58702273baf21d6ba7992e6ba15852325f7 scsi: core: Run queues for all non-SDEV_DEL devices from scsi_run_host_queues
-adda8a44e1e43aceba058839f56fa1c599f6f99b scsi: devinfo: Add BLIST_NO_RSOC for Promise VTrak E310f
-a4719ae23fb5b1b6229120c7ea4b6143a501a62e scsi: megaraid_sas: Fix NULL pointer dereference on firmware duplicate completion
-e4bb73bf3ac11b4a93634660345b9d764a4a80df scsi: scsi_debug: Add missing newline in scsi_debug_device_reset()
-a9a39233ec1fc9f97ea1340a4d09bb7ec2be5153 scsi: scsi_transport_fc: Widen FPIN pname walker counter to u32
-9eed1bd59937e6828b00d2f2dfef631d964f3636 scsi: fcoe: Reject FIP descriptors with zero fip_dlen in CVL walker
-778c2ab142c625a8a8afa570e0f9b7873f445d99 scsi: target: iscsi: Fix CRC overread and double-free in iscsit_handle_text_cmd()
-bf33e01f88388c43e285492a63e539df6ffed64c scsi: target: iscsi: Bound iscsi_encode_text_output() appends to rsp_buf
-85db7391310b1304d2dc8ae3b0b12105a9567147 scsi: target: iscsi: Validate CHAP_R length before base64 decode
-030675aa54cf757769b3db65642433d626b3ed7c i2c: davinci: fix division by zero on missing clock-frequency
-a0d8f7ac03e387634c5a7efe3dc162f7d605e2cd Revert "media: renesas: vsp1: Initialize format on all pads"
-f78073e84c800ae146ce62447e7a685a5ceeb92d Revert "media: renesas: vsp1: brx: Fix format propagation"
-e2aecff95bc6d59030332959a18f8c9f654961be Merge tag 'i2c-host-fixes-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-1d774589f924056b8403e271fdecaf9a803a50fc i2c: virtio: mark device ready before registering the adapter
-171022c7d594c133a45f92357a2a91475edabe20 media: rc: igorplugusb: fix control request setup packet
-227abb780c68687d6800cf9eafaff0cbeca4bf45 Merge tag 'input-for-v7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-9cf1afe6de1dc9dfced6070328626830794bac9d Merge tag 'i2c-for-7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-13bd441bb98e9cc91f9fb4449415e0519a0de7a9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
-
---===============4711387019686834680==--
+  - ref: refs/heads/for-7.2
+    old: 28cee4cb852c2c8c27925c65bc612be2acb7d7ca
+    new: d9893ad67e6505b0006598f0fc5510120aa6d131
+    log: |
+         374a9cb4bd6a02ddc405997b12ce34bfa4c4a2d3 ata: libata: Pass ap parameter directly to functions in the issuing path
+         d9893ad67e6505b0006598f0fc5510120aa6d131 ata: Annotate functions in the issuing path with __must_hold()
+         
