@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0332508122052399641=="
+Content-Type: multipart/mixed; boundary="===============4711387019686834680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Jun 2026 07:22:14 -0000
-Message-Id: <178029853452.2183890.3195281691951878630@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 07:25:05 -0000
+Message-Id: <178029870566.2186892.15202767816029459276@gitolite.kernel.org>
 
---===============0332508122052399641==
+--===============4711387019686834680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d5f9a3600f7ea0fff320cd887939acb9ddf3ee73
-    new: 64358fbe7ffa3145f8bc92d55a6655d671981284
-    log: revlist-d5f9a3600f7e-64358fbe7ffa.txt
+    old: 64358fbe7ffa3145f8bc92d55a6655d671981284
+    new: 0f209c35c625b9bd62c98fe386ce582b546e7567
+    log: revlist-64358fbe7ffa-0f209c35c625.txt
+  - ref: refs/heads/tip/urgent
+    old: 8288eff308b753a429fbc585f90f26bb721ef80a
+    new: e43ffb69e0438cddd72aaa30898b4dc446f664f8
+    log: revlist-8288eff308b7-e43ffb69e043.txt
+  - ref: refs/tags/v7.1-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3bc831df9ee16fceee851872315161377ca1417d
 
---===============0332508122052399641==
+--===============4711387019686834680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5f9a3600f7e-64358fbe7ffa.txt
+Content-Disposition: attachment; filename=revlist-64358fbe7ffa-0f209c35c625.txt
+
+b339ae6825bf29c47a98ed3101521a473b52256d Merge branch into tip/master: 'x86/merge'
+f59d07a289eb877c8a9953cf4c2186a87e667efc Merge branch into tip/master: 'timers/merge'
+514b5e800f3cca6d8470c4123405277dff9a57f7 Merge branch into tip/master: 'irq/core'
+7783f54479c5939286cc9358a87583719c932235 Merge branch into tip/master: 'irq/drivers'
+817a359253693c329de9843f9bc25fc690cfcfa5 Merge branch into tip/master: 'irq/msi'
+a5f2ae459cc90aeec9e711ff8d46a19f33cd8830 Merge branch into tip/master: 'locking/context'
+aa92801a7fef98ecdd64128ea5696f7d00537c86 Merge branch into tip/master: 'locking/core'
+abb57215f3b5a6e0cc185f24f68b941a92bce8fc Merge branch into tip/master: 'objtool/core'
+e6594962443ba01d2896e3ba3a672988742bb52e Merge branch into tip/master: 'perf/core'
+938eb888a06f3938d63897ebe68f23b0cd8d261c Merge branch into tip/master: 'sched/core'
+ea30a8ad1381a7c3bcd00c76972429adb3481125 Merge branch into tip/master: 'timers/core'
+aa3039108f18e7d72b5a6442a8af7aece0f46e73 Merge branch into tip/master: 'timers/vdso'
+af22cbf6b8b08762d7a3e377298ccd6b11047f02 Merge branch into tip/master: 'x86/cache'
+59bde93d94c4f554f48c93c5422581c9391cfc4b Merge branch into tip/master: 'x86/cleanups'
+6928cc0a0774d3c09ef2efd2efb2145c72fbf2ae Merge branch into tip/master: 'x86/cpu'
+9121c36f9065dbb866dc6b75d4d99ea2703ba40e Merge branch into tip/master: 'x86/misc'
+4f03b35b10bc7d821dbded61c3aa64cf96014143 Merge branch into tip/master: 'x86/mm'
+55d26e0010547c59c96b32d3c20b4f349ef97f10 Merge branch into tip/master: 'x86/sev'
+0f209c35c625b9bd62c98fe386ce582b546e7567 Merge branch into tip/master: 'x86/tdx'
+
+--===============4711387019686834680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8288eff308b7-e43ffb69e043.txt
 
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
 8f9d6cd6d3916add4c47a9dd1622e4fc057f877b Input: elan_i2c - increase device reset wait timeout after update FW
@@ -60,6 +93,5 @@ e2aecff95bc6d59030332959a18f8c9f654961be Merge tag 'i2c-host-fixes-7.1-rc6' of g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
-64358fbe7ffa3145f8bc92d55a6655d671981284 Merge branch 'linus'
 
---===============0332508122052399641==--
+--===============4711387019686834680==--
