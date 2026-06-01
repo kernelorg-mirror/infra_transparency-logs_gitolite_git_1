@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 01 Jun 2026 20:31:53 -0000
-Message-Id: <178034591338.3181649.6153406529932085140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 01 Jun 2026 20:45:50 -0000
+Message-Id: <178034675073.3192027.16888556601900585095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: linusw
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 972260ed6d56b0fba88c11709304275c3855fe3d
-    new: d386336244de1b00e489535fe88dfd314a570a74
+  - ref: refs/heads/x86/cleanups
+    old: 648fb97ee908b602f507e8b1f1ae98dd6342f05d
+    new: 1df61a8b2d01c560822a0421f2a76af7fda34c1f
     log: |
-         05836235e5412310057ea14e41e24dbc45a429bd ARM: zte: clean up zx297520v3 doc. warnings
-         36464f3653239daa618f4e2805b60ffa4c1e7cd6 Merge tag 'zx29-docfix-for-7.2' of https://gitlab.com/stefandoesinger/zx297520-kernel into soc/arm
-         c4d4ffa0b1ca54fa729dba6cbc6ae3121884584d Merge branch 'soc/arm' into for-next
-         d386336244de1b00e489535fe88dfd314a570a74 soc: document merges
-         
-  - ref: refs/heads/soc/arm
-    old: b4e49a4a38fd737f927defb2e9a6562f9ee62f0a
-    new: 36464f3653239daa618f4e2805b60ffa4c1e7cd6
-    log: |
-         05836235e5412310057ea14e41e24dbc45a429bd ARM: zte: clean up zx297520v3 doc. warnings
-         36464f3653239daa618f4e2805b60ffa4c1e7cd6 Merge tag 'zx29-docfix-for-7.2' of https://gitlab.com/stefandoesinger/zx297520-kernel into soc/arm
+         1df61a8b2d01c560822a0421f2a76af7fda34c1f x86/cpu: Keep the PROCESSOR_SELECT menu together
          
