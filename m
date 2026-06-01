@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6837759918274419814=="
+Content-Type: multipart/mixed; boundary="===============6624126466664433149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 01 Jun 2026 18:06:25 -0000
-Message-Id: <178033718596.3068170.1873125998505973329@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 18:06:28 -0000
+Message-Id: <178033718859.3068270.12246353468041009689@gitolite.kernel.org>
 
---===============6837759918274419814==
+--===============6624126466664433149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 422b5233b607476ac7176bfa2a101b9a103d7653
     new: 02896a7fa4cd3ec61d60ba30136841e4f04bdeac
     log: revlist-422b5233b607-02896a7fa4cd.txt
 
---===============6837759918274419814==
+--===============6624126466664433149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -122,4 +122,4 @@ d0ee290071b475410476b4126c72da4bf6a2194c Merge tag 'for-linus' of git://git.kern
 f3be0c984ecbcb82b0bec408022c4ef738cb3843 Merge tag 'net-7.1-rc6-2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 02896a7fa4cd3ec61d60ba30136841e4f04bdeac net/mlx5: Reorder completion before putting command entry in cmd_work_handler
 
---===============6837759918274419814==--
+--===============6624126466664433149==--
