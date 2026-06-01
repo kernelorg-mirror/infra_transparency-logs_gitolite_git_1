@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 01 Jun 2026 20:28:31 -0000
-Message-Id: <178034571128.3178404.280152373138193665@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 20:31:53 -0000
+Message-Id: <178034591338.3181649.6153406529932085140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,14 +9,21 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+user: linusw
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 930c88202003f6c0bab08ba064250316eead17de
-    new: fce4668a01227abb2c60e3202cf866137fbfcef2
+  - ref: refs/heads/for-next
+    old: 972260ed6d56b0fba88c11709304275c3855fe3d
+    new: d386336244de1b00e489535fe88dfd314a570a74
     log: |
-         765aaba18413a66f6c8fe8416336ca9b3dd98a79 ARM: dts: microchip: sam9x7: fix GMAC clock configuration
-         63838c323924fe4a78b2323bd45aa1030f72ca60 ARM: socfpga: Fix OF node refcount leak in SMP setup
-         d4715546cc4c77faf445a34b5826c78c328b1d18 Merge tag 'at91-fixes-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
-         fce4668a01227abb2c60e3202cf866137fbfcef2 Merge tag 'socfpga_fix_for_v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
+         05836235e5412310057ea14e41e24dbc45a429bd ARM: zte: clean up zx297520v3 doc. warnings
+         36464f3653239daa618f4e2805b60ffa4c1e7cd6 Merge tag 'zx29-docfix-for-7.2' of https://gitlab.com/stefandoesinger/zx297520-kernel into soc/arm
+         c4d4ffa0b1ca54fa729dba6cbc6ae3121884584d Merge branch 'soc/arm' into for-next
+         d386336244de1b00e489535fe88dfd314a570a74 soc: document merges
+         
+  - ref: refs/heads/soc/arm
+    old: b4e49a4a38fd737f927defb2e9a6562f9ee62f0a
+    new: 36464f3653239daa618f4e2805b60ffa4c1e7cd6
+    log: |
+         05836235e5412310057ea14e41e24dbc45a429bd ARM: zte: clean up zx297520v3 doc. warnings
+         36464f3653239daa618f4e2805b60ffa4c1e7cd6 Merge tag 'zx29-docfix-for-7.2' of https://gitlab.com/stefandoesinger/zx297520-kernel into soc/arm
          
