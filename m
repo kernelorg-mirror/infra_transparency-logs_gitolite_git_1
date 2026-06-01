@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5289998841774909968=="
+Content-Type: multipart/mixed; boundary="===============1069097898891824353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 01 Jun 2026 16:59:44 -0000
-Message-Id: <178033318474.3014401.12104755715888483072@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 16:59:56 -0000
+Message-Id: <178033319605.3014713.16573038811316623139@gitolite.kernel.org>
 
---===============5289998841774909968==
+--===============1069097898891824353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: e7d6bd24e883bf7c328d73c99bf6bcde19bf5e61
+  - ref: refs/heads/pending
+    old: 9c5fd9cfdda332b71d1fdb5b862e7a8d30c2c9f7
     new: 565257a857690244211d85593b2cd490ce86783a
-    log: revlist-e7d6bd24e883-565257a85769.txt
+    log: revlist-9c5fd9cfdda3-565257a85769.txt
 
---===============5289998841774909968==
+--===============1069097898891824353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7d6bd24e883-565257a85769.txt
+Content-Disposition: attachment; filename=revlist-9c5fd9cfdda3-565257a85769.txt
 
 c7427f297ddb01f593217c21b2416f1093b80194 wifi: ath11k: use kzalloc_flex for struct scan_req_params
 6b471e9aefee9ed73278eb1141e0d8530a56fae9 wifi: ath11k: fix invalid data access in ath11k_dp_rx_h_undecap_nwifi
@@ -44,4 +44,4 @@ e1125b0ab6fdda21dde19f7be631a477d14b684c wifi: ath12k: Set WDS vdev parameter fo
 f818260ac66b2971a2a587ea08b171b135a2c1e6 wifi: ath12k: Add support for 4-address frame notification
 565257a857690244211d85593b2cd490ce86783a wifi: ath12k: Handle 4-address EAPOL frames from WBM error path
 
---===============5289998841774909968==--
+--===============1069097898891824353==--
