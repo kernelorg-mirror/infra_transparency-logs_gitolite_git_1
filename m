@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5260321866956226637=="
+Content-Type: multipart/mixed; boundary="===============3834963866998504517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 01 Jun 2026 08:07:49 -0000
-Message-Id: <178030126903.2218118.3182696693341035194@gitolite.kernel.org>
+Date: Mon, 01 Jun 2026 08:08:01 -0000
+Message-Id: <178030128134.2218361.2083775396370660472@gitolite.kernel.org>
 
---===============5260321866956226637==
+--===============3834963866998504517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 26b3f6c06bb2e4c5e933736324b70b732c06ba64
-    new: e327c906a9810830d3e7752e40fa6c61c0600abd
-    log: revlist-26b3f6c06bb2-e327c906a981.txt
+  - ref: refs/heads/m68k-queue
+    old: 071abffe5bfd5255db73803f7ae803bca641fc1c
+    new: 1fae2899c157b972f2f3b711f19a8691a540e803
+    log: revlist-071abffe5bfd-1fae2899c157.txt
 
---===============5260321866956226637==
+--===============3834963866998504517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26b3f6c06bb2-e327c906a981.txt
+Content-Disposition: attachment; filename=revlist-071abffe5bfd-1fae2899c157.txt
 
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
 8f9d6cd6d3916add4c47a9dd1622e4fc057f877b Input: elan_i2c - increase device reset wait timeout after update FW
@@ -499,6 +499,13 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
-e327c906a9810830d3e7752e40fa6c61c0600abd Merge tag 'v7.1-rc6'
+340e1c6ba0f43575a0bea05988567270549b14b1 zorro: sysfs: Replace sprintf() by sysfs_emit()
+9be0dda6037458bedbaec2bb764819ce690daecd nubus: Switch to dynamic root device
+5fa04f36c139b66f545a9d49647bc46f96875ba3 dio: Replace deprecated strcpy with strscpy in dio_init
+1effbe6cd34764a92b243d68fd84c320e9527d3d dio: Use tabs and avoid continuation logging in dio_init
+29ac7df93652e14fd5908529531ae73caa078ad6 dio: Update DIO_SCMAX comment
+fe8cc5f0130051e684b77096420fb2a196dc3cdf m68k: atari: usb: Add ISP1160 USB host controller support
+90d84e737df28d8d53542b2fbc2429757995fce9 m68k: atari: Update Kconfig.bus help text
+1fae2899c157b972f2f3b711f19a8691a540e803 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5260321866956226637==--
+--===============3834963866998504517==--
