@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 02 Jun 2026 14:12:12 -0000
-Message-Id: <178040953216.3981689.2274068262689893962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 02 Jun 2026 14:22:33 -0000
+Message-Id: <178041015321.3989188.12739708067698570443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/tags/iio-fixes-for-7.1b
-    old: 0000000000000000000000000000000000000000
-    new: ad2d6a03d3e8ae413b1fa5f0f6195870b0170155
+  - ref: refs/heads/ntfs-next
+    old: 990319fe6bfbd0e3da3a777052a48f8f22636404
+    new: 52c5708f666e2639c1819429720c2e4b62eca606
+    log: |
+         52c5708f666e2639c1819429720c2e4b62eca606 ntfs: serialize volume label accesses
+         
