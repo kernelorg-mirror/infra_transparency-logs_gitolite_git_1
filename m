@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5120739962459930999=="
+Content-Type: multipart/mixed; boundary="===============2158083794895188997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Tue, 02 Jun 2026 06:49:12 -0000
-Message-Id: <178038295275.3645585.11151870965114472241@gitolite.kernel.org>
+Date: Tue, 02 Jun 2026 06:59:01 -0000
+Message-Id: <178038354141.3652858.8468598754294796404@gitolite.kernel.org>
 
---===============5120739962459930999==
+--===============2158083794895188997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,76 @@ repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
   - ref: refs/heads/export
-    old: e05cbdb611ff815528cdf90e29a96663b9af48c6
-    new: c7e8a9cddd2beb5eae02e8af51de83483f6b25aa
-    log: revlist-e05cbdb611ff-c7e8a9cddd2b.txt
+    old: c7e8a9cddd2beb5eae02e8af51de83483f6b25aa
+    new: 3c61701c6140a3b53e64a488ba135da8470d5de4
+    log: revlist-c7e8a9cddd2b-3c61701c6140.txt
 
---===============5120739962459930999==
+--===============2158083794895188997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e05cbdb611ff-c7e8a9cddd2b.txt
+Content-Disposition: attachment; filename=revlist-c7e8a9cddd2b-3c61701c6140.txt
 
-75ac711fe9036b8e8e1d6d0f508b877bb8d1459e DO-NOT-MERGE: git markup: net
-b19c3cc54745336cdd818976598f5dc969c8bbd9 DO-NOT-MERGE: git markup: fixes other trees
-eda19611aad30bd9b3f6240da5d11adfa9702f9f mptcp: fix missing wakeups in edge scenarios
-c6684291b749ad25cb50c9cc42e03bcd1e71510a mptcp: fix retransmission loop when csum is enabled
-4fa0f518bf0c0b8bdfeefb6786d136da427df3f7 mptcp: close TOCTOU race while computing rcv_wnd
-ae3dcf7eed0047a5d94eb5049d6b8e3c18dd7f7a mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
-7321b0ef037548c35368810a05a975da92985a56 selftests: mptcp: add test for extra_subflows underflow on userspace PM
-51b8a47f349d6218f2f8260db5a0a589b7e8757e mptcp: allow subflow rcv wnd to shrink
-24fd5084497844d45b2a518e9bff8c2b53514781 mptcp: sockopt: check timestamping ret value
-4774b67b520503e97bbd93b7052028cfadb44740 mptcp: sockopt: set sockopt on all subflows
-404f7d07eaad6a9669f68d0aec9197769b8b6598 mptcp: pm: avoid sleeping while holding rcu_read_lock
-9a9c708de311df16d990a9938f7792b2d1a0fda5 mptcp: fix uninit-value in mptcp_established_options
-c0e7e48d9ec31b43302f87dfbd3cc902b29af339 mptcp: check desc->count in read_sock
-515f737ac8d742d3bb1ba541749727dd3da4b8f1 DO-NOT-MERGE: git markup: fixes net
-bb39d5038b655aa6c29e08013069127588f17218 DO-NOT-MERGE: mptcp: add CI support
-55271f6395325c168f46c5767037415bc3ba50b2 DO-NOT-MERGE: git markup: end common net net-next
-3cc3589b4cbceef3b9d6f1de1ca9b331d4d748e7 TopGit-driven merge of branches:
-fad6b1e674c3906cc21e8546f63756745a61e1d2 DO-NOT-MERGE: git markup: net-next
-62f66570dccc646182a5d6aeea5344eeafb83eed DO-NOT-MERGE: git markup: fixes net-next
-729d31b27b0be080d8da1e9e2400f09de895f028 mptcp: change mptcp_established_options() to return opt_size
-97b506951dbf89d3137fb3007d4990504a02fb1d mptcp: pm: init and release mptcp_pm_ops
-b941266345e40add0c8ff1913e5a9ec7d0517f74 mptcp: pm: add get_local_id() interface
-a0d448166357c857c5aea1db5ba9f9789d7769c5 mptcp: pm: add get_priority() interface
-97f7081c7e51687c3116046886f0f752d98cc43b selftests: mptcp: connect: test name in pcap file
-a810fac16afb11d2c7960468872115abfd7d36bd selftests: mptcp: simult_flow: test name in pcap file
-148517d791c35095fb8ef1913851f29cbee9547e selftests: mptcp: pcap: drop most of the payload
-ef1e5d02ee0f4620bca65cf45122251993bafbcc mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-0fcc03e98e5f188387b36729862f692fd87e66fe mptcp: remove unused data_ack from struct mptcp_ext
-e718c6592ea4a7e41cdce9a5a698e5d9f698ed81 mptcp: explicitly drop over memory limits
-425e87bd9f9c5f224d9dd32c17d18f3c185e9ef5 mptcp: enforce hard limit on backlog flushing
-21c2ab05863cbb6213962fd62d1808396bb0d29f mptcp: implemented OoO queue pruning
-2428bfe1b11c596e82449b7a1811f22cc1411638 mptcp: options: suboptions sizes can be negative
-2922974de982343cb64dec3b15b95b554d950fd3 mptcp: pm: avoid computing rm_addr size twice
-fad60a7bc8b59c49d16bff34e68df319e0afe0a1 mptcp: pm: avoid computing add_addr size twice
-d20015e639962bb390c16c82bc805800f6c84d11 mptcp: introduce add_addr_v6_port_drop_ts sysctl knob
-a0c2896c96b2681b6882bc5a15667cf312385677 tcp: allow mptcp to drop TS for some packets
-570e6162a2707492893f83e1173a7a3d23ee0936 mptcp: pm: drop TCP TS with ADD_ADDRv6 + port
-ef2b0841c9ed37def9f3f4e838460ba9e09fabff selftests: mptcp: validate ADD_ADDRv6 + TS + port
-0dd7796c1e637b00ce33c398499137779e60aec7 selftests: mptcp: always check sent/dropped ADD_ADDRs
-264ab7dd45e554afaa145c64b4884962bf95a512 mptcp: pm: use for_each_subflow helper
-2fe460e99b0ff12d5fb9fb54898f1899198235b7 mptcp: pm: rename add_entry structure to add_addr
-0b2a74c9c62734f82988f94d776b4103776937fb mptcp: pm: uniform announced addresses helpers
-bdfbef2c84f6c501ab2087bb7dbfccf23d88cb5f mptcp: pm: remove add_ prefix from timer
-0333659cfe7fd192eece03a7109100d11e015ead mptcp: pm: make mptcp_pm_add_addr_send_ack static
-63c1cd17d675cc9b6b9a3aca75bf84e80117ad50 mptcp: pm: avoid using del_timer directly
-0872007d07d01b1dd2e53dec3437e72f82299611 DO-NOT-MERGE: git markup: features net-next
-f60b67e84cecc992e3cbcea8183cdcf28539ee4a DO-NOT-MERGE: git markup: features net-next-next
-4dd3ddfbc99b37251f844443d6bb798c4d0c5ae0 bpf: Add mptcp_subflow bpf_iter
-9ee50b737b7b16d2c81e0491f6c78f0534e5068a selftests/bpf: More endpoints for endpoint_init
-082baea0fcfde275cb45e65670d1d6da282ea55d selftests/bpf: Drop cgroup_fd of run_mptcpify
-b983abdb63d910da6f486a816331acfcd5f5ba38 bpf: Add mptcp packet scheduler struct_ops
-02db6653a3dd742adea5aeb81ef2781f924c14fc bpf: Export mptcp packet scheduler helpers
-97a7de4bdc524d26cf296c7ce03c45f48f4641e7 selftests/bpf: Add bpf scheduler test
-b7f2baa87318f3ab89296cced2ad8d914d12b9cd selftests/bpf: Add bpf_first scheduler & test
-cb0f56d7271072f424ab8e54d1237eab592f64cb selftests/bpf: Add bpf_bkup scheduler & test
-a396b89811ada41715e57b70ff33cf43dee814b8 selftests/bpf: Add bpf_rr scheduler & test
-9e19cfb4c502ae5efdf6b6fe4d3fe8da6872a9d1 selftests/bpf: Add bpf_red scheduler & test
-bdd1d2e2d8b0acf668272946f75b4b98906d35c9 selftests/bpf: Add bpf_burst scheduler & test
-2481a16ea3101fe919b5414d7900ce5450b2f658 DO-NOT-MERGE: git markup: features other trees
-c4dc981cf3983478003114bdc6546ee9f1073028 DO-NOT-MERGE: mptcp: improve code coverage for CI
-c7e8a9cddd2beb5eae02e8af51de83483f6b25aa DO-NOT-MERGE: mptcp: enabled by default
+03ff6fa91fd2664ec363d1025a54c00efa5a6e5a DO-NOT-MERGE: git markup: net
+7282e0657594c3940c606dc565bd52bc93814b0e DO-NOT-MERGE: git markup: fixes other trees
+09e3af56adadd358ef76aa46128ab7a2fbcf42a8 mptcp: fix missing wakeups in edge scenarios
+fdf22d6a639c3fc377bec4dd1f39d114cd203409 mptcp: fix retransmission loop when csum is enabled
+a14954d18eba3efa23e0633b06ff72e5459b4f00 mptcp: close TOCTOU race while computing rcv_wnd
+f51365d12df6d34e2d9cf84d89ebd10d7784a3f6 mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
+6603a46d9e1229ea7c689f6a8d097c6bd7a16891 selftests: mptcp: add test for extra_subflows underflow on userspace PM
+29c184251dd50d43e38d2b2c019a2ad312b75c0c mptcp: allow subflow rcv wnd to shrink
+c33a925961fa521b03a05e7a02742431a1ff341e mptcp: sockopt: check timestamping ret value
+6705f70b75b21d71f42d6b3f19d2944a3e99f08a mptcp: sockopt: set sockopt on all subflows
+9c523cb017fcedd3575f6ad2668ef5a1eed62603 mptcp: pm: avoid sleeping while holding rcu_read_lock
+5e0c00d8a5a45939f6be7e45b3f7496a26312045 mptcp: fix uninit-value in mptcp_established_options
+211351bf47b7a4a865d0149109166524b76898e6 mptcp: check desc->count in read_sock
+d087d21abaa61383e8989a1bed37d5dd54c39696 DO-NOT-MERGE: git markup: fixes net
+09ceb524003b0bbe5d081c03cd1430dff2d4306a DO-NOT-MERGE: mptcp: add CI support
+38543e15a26aa489511f2272441e88534d34b434 DO-NOT-MERGE: git markup: end common net net-next
+ef174e843ba32b95b24918e31acb0a50f30edffc TopGit-driven merge of branches:
+c3465186fe7c716db447634d5afa16c750507140 DO-NOT-MERGE: git markup: net-next
+89a9e912ac7c8b7ddc618834d4c4d1a5ef61f41f DO-NOT-MERGE: git markup: fixes net-next
+62fa190ef7cb3ad530d133c3e69695d8e03e24f8 mptcp: change mptcp_established_options() to return opt_size
+a26e0226a74656dcfcd2db4267aa670f691ebfbb mptcp: pm: init and release mptcp_pm_ops
+2a977dd0d40d940753ddfd635b6b285586010994 mptcp: pm: add get_local_id() interface
+488abf19f3683447f9407c4a7de0f9a11cbe7167 mptcp: pm: add get_priority() interface
+c61956af1a955940af723b93e797296cc707bd09 selftests: mptcp: connect: test name in pcap file
+e4a0ecb1e251c78f23ffa14c34df3b497e78ee54 selftests: mptcp: simult_flow: test name in pcap file
+32223e164a65db28a83ddbc2b6635c3ee61b717a selftests: mptcp: pcap: drop most of the payload
+dcdb8620faee0f9e99b00982379a3f1df3eb9d32 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+d652cff5269395cabc974205d6beefd6a1e472db mptcp: remove unused data_ack from struct mptcp_ext
+8c4a6737fe730d727e7cdef0d33587c4f0c130f4 mptcp: explicitly drop over memory limits
+47c28228d1e982ea5aa8617dc99e658e96a76a8a mptcp: enforce hard limit on backlog flushing
+a7d6c4cc328da88846cde0d7286186d1db7f97b4 mptcp: implemented OoO queue pruning
+17d0740eb31e5331c9e6d3f3f0762f2612c15334 mptcp: options: suboptions sizes can be negative
+ab2c81dce2487f0af602bdc4fa8b7f82071048c6 mptcp: pm: avoid computing rm_addr size twice
+8f94a00f778b26d7184739f2ca817dd50a59d835 mptcp: pm: avoid computing add_addr size twice
+d7fcad5d8afef6dbb571f3b8ca8e05b097c94922 mptcp: introduce add_addr_v6_port_drop_ts sysctl knob
+0ee56e52ddbc614a7d23f05b85ce6c11e3cf799e tcp: allow mptcp to drop TS for some packets
+bcc8244e6109c373bdff84de51859ab48979001f mptcp: pm: drop TCP TS with ADD_ADDRv6 + port
+7ad1287423b2a3c8209a8ed6be0b19a9686f513e selftests: mptcp: validate ADD_ADDRv6 + TS + port
+325305f4f045a78b88ba54e6da46d7af73b61b40 selftests: mptcp: always check sent/dropped ADD_ADDRs
+33f349633932f0cbc71ed04761a1b2d9bfff4810 mptcp: pm: use for_each_subflow helper
+c7cc7e41648396bcbcd3d51aa7d1dd0193ffa6bf mptcp: pm: rename add_entry structure to add_addr
+baa82c580db9e3927bad4e3d76fe6310360dc679 mptcp: pm: uniform announced addresses helpers
+d4f3622372081c1b9d02d905287e8ea7b0544d74 mptcp: pm: remove add_ prefix from timer
+6c9bbfb4419c1e2c9bf200b687f98880fa7a0ea3 mptcp: pm: make mptcp_pm_add_addr_send_ack static
+6e5a0f85dbbbb449c4c68872e6192a861751ce87 mptcp: pm: avoid using del_timer directly
+f059335da1a33b39ee2c2d3982c3487f8c2bd895 DO-NOT-MERGE: git markup: features net-next
+fccb977db2cc6cb63bb1bb8b30c22c1570a50c39 DO-NOT-MERGE: git markup: features net-next-next
+3bb5ef6af92c51513ba61ba17ca9e689ed069302 bpf: Add mptcp_subflow bpf_iter
+fc0bfa7aba52adf764fd4dbcdb72a57393ca7a3b selftests/bpf: More endpoints for endpoint_init
+22a3f0131479b1b1af1aae3e0b14a07a4a859f42 selftests/bpf: Drop cgroup_fd of run_mptcpify
+481f5e9996e2e070d4577413d14223ca799ec741 bpf: Add mptcp packet scheduler struct_ops
+06b970a609dd9ec73b96f9ce3939748c08210f4d bpf: Export mptcp packet scheduler helpers
+7673e9ed3b4c8706902f83f1736341eeeca4dacc selftests/bpf: Add bpf scheduler test
+f63ad05e286c5d5d4a3922826b09c371e1760b06 selftests/bpf: Add bpf_first scheduler & test
+2f9e14ade400c1b9ea46e2ce63cf30464756b81e selftests/bpf: Add bpf_bkup scheduler & test
+92c1f1feaabab02581b00e5b173ef7782f7304aa selftests/bpf: Add bpf_rr scheduler & test
+b69edfe2a7946a0bdca5fe6fc976252c4c6a9cfc selftests/bpf: Add bpf_red scheduler & test
+485ea0ec8410d66dd5e9e285e5e32ffe8b6df0f3 selftests/bpf: Add bpf_burst scheduler & test
+10cff39ef3670d1e3223b40776c4b449cb62ea29 DO-NOT-MERGE: git markup: features other trees
+9b3de8b89636737eeea3cbc736f956213fd95fd8 DO-NOT-MERGE: mptcp: improve code coverage for CI
+3c61701c6140a3b53e64a488ba135da8470d5de4 DO-NOT-MERGE: mptcp: enabled by default
 
---===============5120739962459930999==--
+--===============2158083794895188997==--
