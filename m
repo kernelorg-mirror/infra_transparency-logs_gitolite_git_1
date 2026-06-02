@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Tue, 02 Jun 2026 15:02:21 -0000
-Message-Id: <178041254147.4019296.14073690981577873267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 02 Jun 2026 15:09:04 -0000
+Message-Id: <178041294437.4024078.17666416997625882624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 122b8d2ac6314e1f2c97738313a92c9f4216be52
-    new: 1f438642465156a43cabbde267953ab51e92bedb
+  - ref: refs/heads/ntfs-next
+    old: 44c8ba16276364996621426902cc42243b907b46
+    new: a973db772248f9155ba721b12cd17ebe59944913
     log: |
-         a49d38546e661f6d9128387d3f5be7cc103ef713 hkml_list: avoid adding pinned mails twice
-         4ab646c2b10fbaab41d501246418453a92846319 hkml_view_mails: completely generate MailsListData except mail_idx_key_map
-         1f438642465156a43cabbde267953ab51e92bedb hkml_view_mails: Writeback list cache from refresh_list()
+         a973db772248f9155ba721b12cd17ebe59944913 ntfs: Add WQ_PERCPU to alloc_workqueue users
          
