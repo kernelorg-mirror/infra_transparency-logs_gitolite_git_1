@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Tue, 02 Jun 2026 15:10:23 -0000
-Message-Id: <178041302374.4026815.3169562832269091577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 02 Jun 2026 15:38:50 -0000
+Message-Id: <178041473058.4046159.2699436983369346708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/sdei-nmi
-    old: 98b6640100fe06910bd559dcba1b40819fa9c6f9
-    new: ed306236255d9457e041970f6ecf94c6c1bee913
+  - ref: refs/heads/main
+    old: 02896a7fa4cd3ec61d60ba30136841e4f04bdeac
+    new: 3522b21fd7e1863d0734537737bd59f1b90d0190
     log: |
-         994a70607c81d756f30a2bdf2cd2999295de3389 firmware: arm_sdei: add SDEI_EVENT_SIGNAL support
-         ec49cb93fd3fe20731e2f8761adff186c47e2c1c drivers/firmware: add SDEI cross-CPU NMI service for arm64
-         6c5d8a4b9ce7deecdaa8f3b605e4d5254c9c2f20 arm64: wire SDEI NMI into the hardlockup watchdog
-         ed306236255d9457e041970f6ecf94c6c1bee913 arm64: route crash_smp_send_stop() last resort through SDEI
+         5057e1aca011e51ef51498c940ef96f3d3e8a305 net/sched: act_api: use RCU with deferred freeing for action lifecycle
+         2a58899d11009bffc7b4b32a571858f381121837 6lowpan: fix off-by-one in multicast context address compression
+         a213a8950414c684999dcf03edeea6c46ede172e l2tp: pppol2tp: hold reference to session in pppol2tp_ioctl()
+         3522b21fd7e1863d0734537737bd59f1b90d0190 devlink: Release nested relation on devlink free
          
