@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 02 Jun 2026 17:44:36 -0000
-Message-Id: <178042227648.4143616.9805007820754188669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Tue, 02 Jun 2026 17:44:37 -0000
+Message-Id: <178042227753.4143674.3101584372904467338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: urezki
 changes:
-  - ref: refs/tags/amd-pstate-v7.1-2026-06-02
-    old: 0000000000000000000000000000000000000000
-    new: 59d80bdf7925cde1642e7ff13be74c59cd70c8f0
+  - ref: refs/heads/misc.2026.05.24
+    old: 580228c15e78e021a508c80aa2aa6c40e97cd907
+    new: 002668809b068c528838c1ab1ff46c87bdbb095d
+    log: |
+         002668809b068c528838c1ab1ff46c87bdbb095d rcu/nocb: reduce stack usage in nocb_gp_wait()
+         
