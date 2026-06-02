@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1832307726388958005=="
+Content-Type: multipart/mixed; boundary="===============3127053114818376662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 02 Jun 2026 11:09:41 -0000
-Message-Id: <178039858100.3841849.2880854282128245988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 02 Jun 2026 11:09:47 -0000
+Message-Id: <178039858723.3842089.6618889732856846253@gitolite.kernel.org>
 
---===============1832307726388958005==
+--===============3127053114818376662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: f63ad68e18d774a5d15cd7e405ead63f6b322679
     new: c9c64820a48dcc739311fd7a9138511888539d02
     log: revlist-f63ad68e18d7-c9c64820a48d.txt
 
---===============1832307726388958005==
+--===============3127053114818376662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1780398579 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1780398577-de13db15b3fc86c3c26491fd1344e2b071bda965
+pusher C3F436CA30F5D8EB 1780398585 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1780398582-e903a78658098c29820b363f762396b1834e9480
 
-f63ad68e18d774a5d15cd7e405ead63f6b322679 c9c64820a48dcc739311fd7a9138511888539d02 refs/heads/for-7.1
+f63ad68e18d774a5d15cd7e405ead63f6b322679 c9c64820a48dcc739311fd7a9138511888539d02 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoeufMACgkQJNaLcl1U
-h9B12Af5ATujo4+/6Vm1tQiGgwZpcNkkD0g3CcHpuT1Sum9JSJe8noqkdnW62wFj
-smRaC54UvuFait8T+A111cTT/iSqx2Bu74cI6nq32RV5F2yGTD8IFObsoP4Vgyt0
-VmCXeAZtoRSU2KAvoPO9ICenAWWbaMnr3JAsLVZyFM0S8GptpYxYFfTYc0ZXHeLc
-JrSQ/KbcjuEvQFxAHSu5LuR23XX7wuz4/WQBd7aOhWB4oH/orSWUN0A0qDzze2m6
-tScpFNKpugqni5pJ10+JgKQDJ95qYH58Ne1B+6OFDZVBO/q8musvdHY8LmM6GnWn
-1lvqW60O/dqYu3l/PREUX/85RemQSQ==
-=k5iA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoeufkACgkQJNaLcl1U
+h9BchAf/c27J7BDF7qg6kSSfRREv6Ur/z5lE76veiIdJhkpQ2U9PkM+dyIfJIcR8
+vov52z2a+rWosUXpN6oLq3U+nDKHhXmCpE8EPFkY3ljoBhljI2RDwhx/L2GkKDfO
+unzISt1ywjsucGfcq8l0ThRrAMk6JrG4OAN8HHpRi7c0vmp+4uqDlQWm3vNFZ4rM
+4OZ06FQJvtA0A92awYcIz0SR298KQguOHvbYwIRCbAYGRq9p4UPviePlOwjno/rJ
+zbtro5dkbE6cu64AKkTinWoYMIo1fS/92WdMkWY8Sz99uOHAiE6bKAXR92MOeu5u
+4NtotgwklvUe8FvBnT2N+4UgCEAI6Q==
+=l2rl
 -----END PGP SIGNATURE-----
 
---===============1832307726388958005==
+--===============3127053114818376662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -519,4 +519,4 @@ e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
 fc12cf16df9af867e1455b011cdd9310474a612e ASoC: amd: acp: Add DMI quirk for Lenovo Yoga Pro 7 15ASH11
 c9c64820a48dcc739311fd7a9138511888539d02 ASoC: amd: yc: Enable internal mic on MSI Bravo 17 C7VF
 
---===============1832307726388958005==--
+--===============3127053114818376662==--
