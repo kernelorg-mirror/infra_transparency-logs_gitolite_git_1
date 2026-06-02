@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc-tools
-Date: Tue, 02 Jun 2026 12:18:23 -0000
-Message-Id: <178040270333.3897243.9185671292792715316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Tue, 02 Jun 2026 12:23:57 -0000
+Message-Id: <178040303730.3901150.11234690691679956086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc-tools
-user: linusw
+repo: pub/scm/utils/mdadm/mdadm
+user: mtkaczyk
 changes:
-  - ref: refs/heads/master
-    old: f6a8d63f069e619806358695fe75f7453f7ea133
-    new: aeb431941322ae03f877c26a87df93d138ce5771
+  - ref: refs/heads/main
+    old: 8b414a0d4753693d67b9a5822994e5f0c91b0b0a
+    new: 2accfdfccd5170ccfda8385daebf0bcd60ebdb25
     log: |
-         aeb431941322ae03f877c26a87df93d138ce5771 document-merges: Bump to v7.1-rc1 and fix grep moans
+         0c1a6ca85ff1562280a48420e11c247d1c3273cf Fix typo in lockless bitmap warning
+         2accfdfccd5170ccfda8385daebf0bcd60ebdb25 udev: Use LUKS label if present
          
