@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 02 Jun 2026 01:04:48 -0000
-Message-Id: <178036228852.3382962.11980500318759763471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Tue, 02 Jun 2026 01:08:33 -0000
+Message-Id: <178036251385.3387271.9274553058745992755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: 024bf68761861f7575b32b46a07cc684eedea888
-    new: c8acdda0669d46d04b409bf0157aee1c9b34aeca
+  - ref: refs/heads/main
+    old: a74b952f94c85a1b522f93e4cefc4e385f879061
+    new: d245851f0629ab5cbf3e6caad7d2c3ce753ac23c
     log: |
-         c8acdda0669d46d04b409bf0157aee1c9b34aeca foo
+         d245851f0629ab5cbf3e6caad7d2c3ce753ac23c tests: Avoid -Wconstant-logical-operand warnings in integer-expressions.c
+         
+  - ref: refs/heads/master
+    old: a74b952f94c85a1b522f93e4cefc4e385f879061
+    new: d245851f0629ab5cbf3e6caad7d2c3ce753ac23c
+    log: |
+         d245851f0629ab5cbf3e6caad7d2c3ce753ac23c tests: Avoid -Wconstant-logical-operand warnings in integer-expressions.c
          
