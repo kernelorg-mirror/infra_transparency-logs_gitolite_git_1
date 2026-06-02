@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 02 Jun 2026 23:04:44 -0000
-Message-Id: <178044148486.199290.17781555762859908234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 02 Jun 2026 23:08:00 -0000
+Message-Id: <178044168049.202714.7386050811482283301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 6ab5db7722674e48fef38a424d4461c285579685
-    new: 0dde7dc656e22ec080e31b0ce98eb45a74dc484b
+  - ref: refs/heads/x86/cleanups
+    old: 1df61a8b2d01c560822a0421f2a76af7fda34c1f
+    new: d022ff2557accbc7e169e4812bd9899e7c77fb5c
     log: |
-         0dde7dc656e22ec080e31b0ce98eb45a74dc484b foo
+         d022ff2557accbc7e169e4812bd9899e7c77fb5c x86/platform/uv: Use str_enabled_disabled() in uv_nmi_setup_hubless_intr()
          
