@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3445718070409159787=="
+Content-Type: multipart/mixed; boundary="===============0003751748102489616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 02 Jun 2026 18:32:30 -0000
-Message-Id: <178042515066.4183700.2089321900925534416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 02 Jun 2026 18:32:34 -0000
+Message-Id: <178042515447.4183864.11975700754942496563@gitolite.kernel.org>
 
---===============3445718070409159787==
+--===============0003751748102489616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d
     new: d6621c9beecb72ed7598b718741c8c11539e3bd4
     log: revlist-b282e237ee4c-d6621c9beecb.txt
 
---===============3445718070409159787==
+--===============0003751748102489616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1780425148 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1780425148-202ed6c24b138bf36302328180c4453cf43ccbe1
+pusher C3F436CA30F5D8EB 1780425152 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1780425151-2efec091c155384e222410d58a455539d33e4a7b
 
-b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d d6621c9beecb72ed7598b718741c8c11539e3bd4 refs/heads/for-7.2
+b282e237ee4c3b0cbab762ef2e9a08a5d4a21b6d d6621c9beecb72ed7598b718741c8c11539e3bd4 refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmofIbwACgkQJNaLcl1U
-h9AR5Af/YxL7wLCTbn9c9xZfGoL8V7bPVT2z04yTh4ENYMrK01a4+gluqYsSjJYn
-FBGgJCTYe93z/I2H4xooLmxgd8+Pl7qjBQ+TLOh7t6kiNkVMqkg5Fpebnq8vjma2
-uK8bGEta9WiPay1j4spEUN0PI8RAW/itbi3rfiHwgZJYwll0OsON9C59NhOa5aFo
-zL49cf3F1Ka9zHevkn6h5svvmZMwyucQyxdXiLuvjwZMNxylfMfAkVcjgnbLhDec
-2BsebXGTzSySmrqxIsCpuAFt2shaZtgLugbp4vDPz294KYVbWMSD+hJ8w9aqO2cl
-rexPj1RMzptW9hPRH384YmTBu8aUSA==
-=uddA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmofIcAACgkQJNaLcl1U
+h9B4xQf/Rh9o+7qlscagUCZ90LQt1wwqqgEYYEliQBFKKRPvZ+LLGHxY4QDxXS/q
+RakX+UVjweazfl+Ong/8hzG2S+5zOSXWNw3cVld8MPi5+r+aHnokhv7XoCjTwTqi
+YokGcF2PnBacOMVsqaD5JA6JOHCzeP1pXdqguVxCh3OBx0ATQ3gx/875gcdw14xP
+fj3aIqgeZ5l8lcEherxpBM0eeUDAFQnph1cKr9WRKw2mv/RGBLTo87sHW4OoQfpK
+Twp5bfRxlJY2IQEb7LkLizQPTcvz265+/2ZH3OtLXipSk7pUKUhg7+5R04BMKbcd
+PovI66ArjKLgBxxH9nlKgDBhnw6OeA==
+=S1fn
 -----END PGP SIGNATURE-----
 
---===============3445718070409159787==
+--===============0003751748102489616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -530,4 +530,4 @@ d35028340d751c352234438bfa9a9c58ead74853 regulator: Use named initializers for p
 0eb17367814a3b7d3ad75a9f5c25cfd9976993e3 regulator: Unify usage of space and comma in platform_device_id arrays
 d6621c9beecb72ed7598b718741c8c11539e3bd4 regulator: Use named initializers for platform_device_id arrays
 
---===============3445718070409159787==--
+--===============0003751748102489616==--
