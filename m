@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7517789616381062961=="
+Content-Type: multipart/mixed; boundary="===============7560200186320526602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 02 Jun 2026 02:58:44 -0000
-Message-Id: <178036912472.3475636.6037981094233670828@gitolite.kernel.org>
+Date: Tue, 02 Jun 2026 02:59:00 -0000
+Message-Id: <178036914052.3476141.2874171084431634714@gitolite.kernel.org>
 
---===============7517789616381062961==
+--===============7560200186320526602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 016d484531e3169cd7bcb26e0ac2c5523080809f
-    new: 20fd1648f35399f114351b67c14ff8d3233a30e2
-    log: revlist-016d484531e3-20fd1648f353.txt
+  - ref: refs/heads/for-next
+    old: 1747233ee1af0b89d39995ad09506cbadd3d3e50
+    new: 1f8c54719ece6b830f44dfd8a939b83892f24d5c
+    log: revlist-1747233ee1af-1f8c54719ece.txt
 
---===============7517789616381062961==
+--===============7560200186320526602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-016d484531e3-20fd1648f353.txt
+Content-Disposition: attachment; filename=revlist-1747233ee1af-1f8c54719ece.txt
 
 09be9d404f42fd2e7d4d378cae07499879f837f4 scsi: scsi_ioctl: Use strnlen() in scsi_ioctl_get_pci()
 8933fa6695aaea6559d3469581139a4c1f427369 scsi: ufs: core: Add a quirk for extended TX EQTR Adapt L0L1L2L3 length
@@ -37,5 +37,6 @@ f8380c57dcff5ac3b32393a05ff6a6ff0108bf3e scsi: ufs: core: Optimize ufshcd_add_ui
 b1968f46509e077d3241ac509e41fd14ec2395db scsi: core: target: Add INQUIRY-related constants to scsi_common.h
 28ff38b9d8e1a189606e36319401dc98419a3746 scsi: core: Use the INQUIRY-related constants
 20fd1648f35399f114351b67c14ff8d3233a30e2 scsi: core: Convert INQUIRY information
+1f8c54719ece6b830f44dfd8a939b83892f24d5c Merge branch 'misc' into for-next
 
---===============7517789616381062961==--
+--===============7560200186320526602==--
