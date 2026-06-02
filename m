@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Tue, 02 Jun 2026 21:30:14 -0000
-Message-Id: <178043581481.130971.2806143605819563242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 02 Jun 2026 21:30:34 -0000
+Message-Id: <178043583410.131257.2005306669066845870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-7.1-fixes
-    old: 645c3b7ef1a7eed9627664bd11d7a8eb4519ee15
-    new: 57aff991119693e09b414aff3267c0eae5e81da0
+  - ref: refs/heads/master
+    old: 7f3d1befa2c8a182f477989e9bdfaf2a8ac9bcd0
+    new: 7eb2388ddaf4b7368b19594a12b49f06adc256f0
     log: |
-         57aff991119693e09b414aff3267c0eae5e81da0 cgroup/cpuset: Change Ridong's email
-         
-  - ref: refs/heads/for-next
-    old: d3e8f44cf2c258699092c7d23d475c496bb7c355
-    new: 3e0d2ffb1ae163aa8e97e4ddd7aafa9b7162b5d5
-    log: |
-         57aff991119693e09b414aff3267c0eae5e81da0 cgroup/cpuset: Change Ridong's email
-         3e0d2ffb1ae163aa8e97e4ddd7aafa9b7162b5d5 Merge branch 'for-7.1-fixes' into for-next
+         89c77e7d65d248b356a3d366abb2ea8fc2e50c7d foo
+         7eb2388ddaf4b7368b19594a12b49f06adc256f0 foo
          
