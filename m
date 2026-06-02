@@ -1,31 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3996536686944426879=="
+Content-Type: multipart/mixed; boundary="===============6304996389409447694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 02 Jun 2026 10:11:43 -0000
-Message-Id: <178039510348.3799507.11222457927278771605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Tue, 02 Jun 2026 10:16:03 -0000
+Message-Id: <178039536336.3803196.7269644867658819038@gitolite.kernel.org>
 
---===============3996536686944426879==
+--===============6304996389409447694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-usb-next
-    old: a23a85592f01bbcd1051b24cc7048b8f9b54de8a
-    new: 15e5ed88e7d6999a10c971c3e4a6d2afb002c804
-    log: revlist-a23a85592f01-15e5ed88e7d6.txt
+  - ref: refs/heads/usb-linus
+    old: 9f9bfc80c67f35a275820da7e83a35dface08281
+    new: 0fd2b00b2d3d05e3eaa13342b3dfb0fa85c226ae
+    log: revlist-9f9bfc80c67f-0fd2b00b2d3d.txt
 
---===============3996536686944426879==
+--===============6304996389409447694==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a23a85592f01-15e5ed88e7d6.txt
+Content-Disposition: attachment; filename=revlist-9f9bfc80c67f-0fd2b00b2d3d.txt
 
+702809dabdecca807bdd50cfdcc1c980feb2ba62 vfio/pci: Check BAR resources before exporting a DMABUF
+2d8826a2d3657cea66fb0370f9e521575a673871 batman-adv: dat: handle forward allocation error
+6c65cf23d4c6170fcf5714c32aa64689718cb142 batman-adv: tp_meter: avoid use of uninit sender vars
+c207f1d785044667f87cc8c72355e33f3981f2d6 smbdirect: Fix error cleanup in smbdirect_map_sges_from_iter()
+0ce1bc9e46ecabe84772bb561e373c0d9876d6f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
+af149b667b9472bf981591a6d27efdecd331005a Merge branch 'acpi-cppc'
+4a9b16541ad3faf8bccb398532bf3f8b6bbf1188 lsm: hold cred_guard_mutex for lsm_set_self_attr()
+48f76a12713253f3abaa39c4ff7606d6fed05a7e Merge tag 'acpi-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+70eda68668d1476b459b64e69b8f36659fa9dfa8 Merge tag 'hid-for-linus-2026051401' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+aa13e4b120f9cf238ad141d8419851f3a7a3fb5f perf trace: Sync linux/socket.h with the kernel source
+b30e1493e3e27b6795244a472f0bbd07d0dc58fd perf trace: Sync uapi/linux/fs.h with the kernel source
+ca706027b5bdb37337e1b99752134d592f42f0ea perf trace: Sync uapi/linux/mount.h with the kernel source
+ad2cd6f9def4899591a75a96f71752e3aadb7579 perf trace: Sync uapi/linux/sched.h with the kernel source
+be81aed3f7492caa522493f7c67b9c4d3c8924a6 perf build: Add make check-headers target
+552636b9317c8a843dd4496d77e56976ab48c76b perf trace: Add beautifier script for fsmount flags
+5a433107fab621f4e7379ccba6e52b5b1601046c perf trace: Update beautifier script for clone flags
+0c0dddc07d272a8d25922e48041e8e4d2434df7e ovpn: disable BHs when updating device stats
+51f57607e30bee282a1d40845f89a311cbb26481 docs: hwmon: sy7636a: fix temperature sysfs attribute name
+d2bfdbb69cf87676981b1043010b6224d84c6d3a rds_tcp: close NULL deref window in rds_tcp_set_callbacks
+7d260c5d2d89eb2c8c528d54b576b3aae3e20231 net/mlx5e: Fix use-after-free in mlx5e_tx_reporter_timeout_recover
+f84eca5817390257cef78013d0112481c503b4a3 net: skbuff: preserve shared-frag marker during coalescing
+4141f46daa4cf1f8caa14129f8b6db86f17452f5 Merge tag 'nvme-7.1-2026-05-14' of git://git.infradead.org/nvme into block-7.1
+e8fb3de2a8effcaf62bec2c56b93d8bb480371d1 octeontx2-pf: fix double free in rvu_rep_rsrc_init()
+f508262ae9f21fe0e6c0749948b9dc7dd5a62a70 tls: Preserve sk_err across recvmsg() when data has been copied
+b96fe527935b0671194bc436d7d78d3b0f87b2e1 ASoC: cs35l56: Drop malformed default N from Kconfig
 c9d08c8c4c5006d71b3c3c3c0dc41ebc46931951 net/mlx5e: Don't leak RSS context in case of error
 8d0a5af8b1ba598e7340761729801624e7a9330e net/mlx5: Do not restore destination-less TC rules
 c6df9a65cbb0fe7808a4b2872095f4c849b3196a net/mlx5: Skip disabled vports when setting max TX speed
@@ -420,11 +445,6 @@ f2ec69363fb52fbb2010e5edbec2b8ca0951aadf platform/x86: sony-laptop: Check ACPI_C
 4840f8bb3e9aad183e707950f24f829fd220eb07 platform/x86: toshiba_haps: Check ACPI_COMPANION() against NULL
 53a8f95cbb407608ef77a864ad4a59f25ddd906c platform/x86: wireless-hotkey: Check ACPI_COMPANION() against NULL
 60a1969fae6209644698fca91c185d153674f631 ALSA: seq: Serialize UMP output teardown with event_input
-4ce058df2ee02cc2a0f0fd5cd64ce6f1482a0b65 USB: serial: belkin_sa: validate interrupt status length
-cb3560e8eab1dfa1cac1ed52631adf8ec6ff2cd5 USB: serial: digi_acceleport: fix memory corruption with small endpoints
-ab8336a7e414f018430aa1af3a46944032f7ff96 USB: serial: keyspan: fix missing indat transfer sanity check
-915b36d701950503c4ea0f6e314b10868e59fce3 USB: serial: mct_u232: fix memory corruption with small endpoint
-245aba83e3c288e176ed037a1f6b618b09e92ed8 USB: serial: mct_u232: fix missing interrupt-in transfer sanity check
 9af1b6e175c82daf4b423da339a722d8e67a735a drm/virtio: use uninterruptible resv lock for plane updates
 237557b8a81ab948e8332f7c0058e758f081c0a3 sysfs: don't remove existing directory on update failure
 df685633c3dbc67441cc86f1c3fee58de4652ba2 Merge tag 'rcu-fixes.v7.1-20260519a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
@@ -470,8 +490,6 @@ fa997ddef508b1b37b2fe4d2dad7c4b70958335e dpll: zl3073x: fix memory leak on pin r
 1bbf0ced1d9db73ac7893c2187f3459288603e0d tcp: fix stale per-CPU tcp_tw_isn leak enabling ISN prediction
 f42d01aadcedd7bbf4f9a466cabe25c1781dedad tools/bootconfig: Fix buf leaks in apply_xbc
 aee43aaf26c7f162780ab77ce952bae6a1b354bd Merge tag 'amd-drm-fixes-7.1-2026-05-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-7d2b37d3e42d19071b62f4ddbee6e16e905efbf1 USB: serial: option: add MeiG SRM813Q
-689f2facc689c8add11d7ff69fbbad17d65ee596 USB: serial: option: add missing RSVD(5) flag for Rolling RW135R-GL
 be460cedb67ab803c1bebceac19b1d44acb85d30 gpio: pca953x: propagate regulator_enable() error from resume
 8a3bee801d420be8a7a0bae4a26547b353b8fe22 comedi: comedi_test: Fix limiting of convert_arg in waveform_ai_cmdtest()
 542f5248cb481073203e0dadab5bcbd28aeae308 comedi: comedi_test: fix check for valid scan_begin_src in waveform_ai_cmdtest()
@@ -697,7 +715,6 @@ cbadb98b7cb017b6b7376940781cb108f7baac71 Merge tag 's390-7.1-3' of git://git.ker
 ef7f594f5d291a98a4da2cc95e7713d3971bedaa Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 f6982769910ecddabdb5b8b9afdab0bb8b6668ac block: avoid use-after-free in disk_free_zone_resources()
 28222dcdad2181e3b153b2300ac4cb9cb3304fd7 Merge tag 'acpi-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e1a9d791fd66ab2431b9e6f6f835823809869047 USB: serial: cypress_m8: fix memory corruption with small endpoint
 45255ea1ca096b11b1303c9b54502a28f3a31dd1 Merge tag 'pm-7.1-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 f4feb1e20058e407cb00f45aff47f5b7e19a6bbf tun: free page on short-frame rejection in tun_xdp_one()
 dab48a7e74e6a394f3aa0461a2b1fb0c7b38fcb8 Input: ims-pcu - fix usb_free_coherent() size in ims_pcu_buffers_free()
@@ -737,10 +754,6 @@ a9a39233ec1fc9f97ea1340a4d09bb7ec2be5153 scsi: scsi_transport_fc: Widen FPIN pna
 778c2ab142c625a8a8afa570e0f9b7873f445d99 scsi: target: iscsi: Fix CRC overread and double-free in iscsit_handle_text_cmd()
 bf33e01f88388c43e285492a63e539df6ffed64c scsi: target: iscsi: Bound iscsi_encode_text_output() appends to rsp_buf
 85db7391310b1304d2dc8ae3b0b12105a9567147 scsi: target: iscsi: Validate CHAP_R length before base64 decode
-4085f0dbb1ce2251c9a5938d693de6593f0ab2bd USB: serial: mxuport: fix memory corruption with small endpoint
-60df93d30f9bdd27db17c4d80ed80ef718d7226b USB: serial: omninet: fix memory corruption with small endpoint
-438061ed1ad85e6743e2dce826671772d81089ec USB: serial: safe_serial: fix memory corruption with small endpoint
-9f9bfc80c67f35a275820da7e83a35dface08281 USB: serial: cypress_m8: validate interrupt packet headers
 e23844b2ddbdd004285f14bdc672b4d854ad4c4e Merge tag 'kvmarm-fixes-7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 37f32d5ab83968d63cfba6092ecaae3e582db964 Merge tag 'kvm-s390-master-7.1-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 06c4f99526784938663a5e82b1ea1b67a4794491 Merge tag 'kvm-riscv-fixes-7.1-1' of https://github.com/kvm-riscv/linux into HEAD
@@ -1035,20 +1048,7 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
-91d58ca956f36839adae863bceff36e97f2f5d87 usb: xhci: fix typo in xhci_set_port_power() comment
-26965a0d6b8d9cea9e43c294cba5fc0bdfb2e611 usb: xhci: remove legacy 'num_trbs_free' tracking
-16e547e2a3e9dbebea14609a6a26fe4d3df46e80 usb: xhci: Simplify xhci_quiesce()
-9213a33892e9e545796cb1e259bdb6bdebd5e4bf usb: xhci: Remove skip_isoc_td()
-9ae4133daf1f8e1bb2c6d0f3c00f20287b6c66fb usb: xhci: Remove isochronous URB_SHORT_NOT_OK handling
-3f5c9331e4d0a5ced23b60777ac3b4ba9004f252 usb: xhci: Improve Soft Retries after short transfers
-63e6efb48cc85ec1eb1dbeee298c2c95f6a69caa xhci: dbc: Fix sysfs ABI Documentation for xhci dbc states
-1580c662baa73770790eeb39847a6fdd1cb9d78f xhci: dbc: serialize enabling and disabling dbc
-c7ebea61c042f61de1ffdd5bca1e362ae8b5bc12 xhci: dbc: add helper to set and clear DbC DCE enable bit
-68a30d4547168c9889cd34ed3d300ed3f169ac50 xhci: dbc: add timestamps to DbC state changes in a new helper.
-ca0b1ec8c7317e05bd7fb5a62e705bf5c75b0000 xhci: dbc: detect and recover hung DbC during enumeraton
-43e7a36fa64e4b0a5d09a4a1789db60913bad2cd xhci: Prevent queuing new commands if xhci is inaccessible
-3ddd7f1c7ab6fe34de6e25571bc07ba6c46d693c usb: xhci: refactor DCBAA struct
-0007a3db9d55ff72c4f02ca4b57657201f9883db usb: xhci: allocate DCBAA based on host controller max slots
-15e5ed88e7d6999a10c971c3e4a6d2afb002c804 usb: xhci: allocate internal DCBAA mirror dynamically
+183c1076eca43bbb3e7bdf597456f91d81c73e74 USB: serial: io_ti: fix heap overflow in get_manuf_info()
+0fd2b00b2d3d05e3eaa13342b3dfb0fa85c226ae USB: serial: io_ti: fix heap overflow in build_i2c_fw_hdr()
 
---===============3996536686944426879==--
+--===============6304996389409447694==--
