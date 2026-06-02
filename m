@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 02 Jun 2026 18:21:30 -0000
-Message-Id: <178042449046.4175313.5799867807756628426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jun 2026 18:27:17 -0000
+Message-Id: <178042483757.4179484.17669152240083456192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 0f4583566204c873742ca1b918bf686ceccc297f
-    new: 6c55b6cc3e4aa09233a3bd9e62ecffc0ff13cebc
+  - ref: refs/heads/main
+    old: c0b3005e32ce78e6cef53a61216fedfb268762bc
+    new: ceac8dbce6c30f1eda0534b7dea91bfb4d050145
     log: |
-         6c55b6cc3e4aa09233a3bd9e62ecffc0ff13cebc Fixes for all trees
+         ceac8dbce6c30f1eda0534b7dea91bfb4d050145 tcp: change bpf_skops_hdr_opt_len() signature
          
