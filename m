@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Tue, 02 Jun 2026 17:44:37 -0000
-Message-Id: <178042227753.4143674.3101584372904467338@gitolite.kernel.org>
+Date: Tue, 02 Jun 2026 17:46:45 -0000
+Message-Id: <178042240544.4146960.13395281640561126143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: urezki
 changes:
-  - ref: refs/heads/misc.2026.05.24
-    old: 580228c15e78e021a508c80aa2aa6c40e97cd907
-    new: 002668809b068c528838c1ab1ff46c87bdbb095d
+  - ref: refs/heads/rcu-merge.2026.05.24
+    old: 76817ad9e7eb0a4806a6495be26247585d24d4e4
+    new: e853c1b28580ea93fda3cd729e440a3fc16fa647
     log: |
          002668809b068c528838c1ab1ff46c87bdbb095d rcu/nocb: reduce stack usage in nocb_gp_wait()
+         e853c1b28580ea93fda3cd729e440a3fc16fa647 Merge branches 'rcutorture.2026.05.24' and 'misc.2026.05.24' into rcu-merge.2026.05.24
          
