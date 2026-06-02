@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 02 Jun 2026 07:14:46 -0000
-Message-Id: <178038448661.3664636.9699693420945830792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Tue, 02 Jun 2026 07:24:34 -0000
+Message-Id: <178038507470.3671808.16257861917562041510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/experimental
-    old: a0b0616315de352863892abd3a54dbf49b788576
-    new: 84f014a522fe57e0d08e1cd4db42bbb5da10ea0f
+  - ref: refs/heads/kvm-arm64/nv-hafdbs
+    old: bf1b577350ed043036bc6e934fa9e3d324257ab3
+    new: 1ac50aa13372f0b3e0aff6272cdff06911f0f983
     log: |
-         6e94b999521f3be2b3fe44a300aa14c4f35612b1 erofs-utils: mount: extract reusable source-opening and recovery helpers
-         82a588d03b49598bd151c307da8bc750533654e9 erofs-utils: add ublk userspace block device backend
-         84f014a522fe57e0d08e1cd4db42bbb5da10ea0f erofs-utils: mount: integrate ublk backend
+         1ac50aa13372f0b3e0aff6272cdff06911f0f983 KVM: arm64: selftests: Test that AT emulation for FEAT_HAFT
          
