@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3711009872037196013=="
+Content-Type: multipart/mixed; boundary="===============5710835774546420499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 02 Jun 2026 04:22:57 -0000
-Message-Id: <178037417723.3538086.5777320057759672988@gitolite.kernel.org>
+Date: Tue, 02 Jun 2026 04:23:00 -0000
+Message-Id: <178037418036.3538189.9831216041048714544@gitolite.kernel.org>
 
---===============3711009872037196013==
+--===============5710835774546420499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 415489ef1cdfe586b4992662bee65286d50232e6
-    new: 6463301cef14035e583f91263ee7b7e9f9d0a181
-    log: revlist-415489ef1cdf-6463301cef14.txt
+  - ref: refs/heads/mm-unstable
+    old: 6bb9014e347a15dfa837cbc52451035466d86ddf
+    new: d17fe8a046a24f0341c2b395ef719d8dd45ee4ee
+    log: revlist-6bb9014e347a-d17fe8a046a2.txt
 
---===============3711009872037196013==
+--===============5710835774546420499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-415489ef1cdf-6463301cef14.txt
+Content-Disposition: attachment; filename=revlist-6bb9014e347a-d17fe8a046a2.txt
 
 04d4f388ab9901f0d653880058986ff8bcb5cc5b device-dax: fix refcount leak in __devm_create_dev_dax() error path
 4b5de9aafa9b549adc3e2741692eb3e1a1da6fa4 ipc/shm: serialize orphan cleanup with shm_nattch updates
@@ -332,25 +332,5 @@ e08e473f97d4403a7a0f3a89d21abb3a899ef2bd mm-switch-deferred-split-shrinker-to-li
 de73e82311012a76cb87816f65d35b11892ffe8c lib/test_hmm: fix memory leak in dmirror_migrate_to_system()
 4dfed62a2fbec2a3d11b16e25a913556cb94ed1a mm: delete stale comment about cachelines
 d17fe8a046a24f0341c2b395ef719d8dd45ee4ee MAINTAINERS: add testing ABI documents for mm
-81ece46eca2335b398ed753791afdda21fce00eb fs/proc/task_mmu: fix make_uffd_wp_huge_pte() prot-update race
-4f8a30000d6e092147a0d8620ec42a03c9cd6e87 fs/proc/task_mmu: use huge_page_size() in pagemap_scan_hugetlb_entry()
-bf42bc46a9cc8db4c781169a9b78234c3bd6ed0c fs/proc/task_mmu: fix hugetlb self-deadlock in pagemap_scan_pte_hole()
-614212473111f44e86f72412d5b12cd41c936be0 mm/huge_memory: preserve pmd_swp_uffd_wp on device-private PMD downgrade
-ca4ab33684bab090ab3151ffcf44da91b23a7304 userfaultfd: gate must_wait writability check on pte_present()
-7f928a67051ea35d78c869850412bcaa02c9d9c7 userfaultfd: build __VMA_UFFD_FLAGS from config-gated masks
-1e799d26d657bd53c6f9087305aef7d1f546d778 rust: page: mark Page::nid as inline
-416fe7035fc403c644dfa22de09b26311e2dcde4 fs/proc/task_mmu: do not warn on seeing non-migration pmd entry
-49bcef5826bf9f485988269e78260cf4d81cfaac selftests/mm/hmm-tests: test pagemap reads of PMD device-private entries
-f768c803ce99d26be92e01ac8bfe883784b28dd1 mm/sparse-vmemmap: provide generic vmemmap_set_pmd() and vmemmap_check_pmd()
-47ad095b64cd65407f4fcebf8b462f1e15ec01e5 arm64/mm: drop vmemmap_pmd helpers and use generic code
-1eace8a8431c0cda8f7d77b05041d3aa7a3c520f riscv/mm: drop vmemmap_pmd helpers and use generic code
-9ec633df1365cbc4583bdd3a0557f8d47735e193 loongarch/mm: drop vmemmap_check_pmd helper and use generic code
-ebcfd1d1135eefd0ef3adaafa68d2c8be570c39d sparc/mm: drop vmemmap_check_pmd helper and use generic code
-20174af1f40aafaa05e7a71b9693e6b01fe7aabc vmalloc: fix NULL pointer dereference in is_vm_area_hugepages()
-adce636b0d5c56ef4d21fc8cfcaed02f15fb95ab mm/filemap: use folio_next_index() for start
-099d2278207464721b198bf5c2d4bc8de7225db1 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-03fdb20dc6f79f93cf81322999f802db09c682f2 mm/swap: remove redundant swap device reference in alloc/free
-6ba30559010de7211684549769c121fdf5982dbb mm/swap, PM: hibernate: atomically replace hibernation pin
-6463301cef14035e583f91263ee7b7e9f9d0a181 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
 
---===============3711009872037196013==--
+--===============5710835774546420499==--
