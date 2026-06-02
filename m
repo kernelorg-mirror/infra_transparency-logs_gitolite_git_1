@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 02 Jun 2026 21:35:50 -0000
-Message-Id: <178043615079.135469.11194994477012007930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 02 Jun 2026 21:36:07 -0000
+Message-Id: <178043616743.136126.13184074230424751438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b736e34b963d7b05ee78fd3f0e7eb53a2edef7b9
-    new: d20687818f46206fa7a63bc01901ac2074982b57
+    old: 8173d22b211f615015f7b35f48ab11a6dd78dc99
+    new: 5eba3e48d78edd7551b992cb7ba687019b3a78da
     log: |
-         d6f6d7123355388f2f41c1b6c108bfdba18b0cfc selftests: openvswitch: add dec_ttl action support and test
-         d20687818f46206fa7a63bc01901ac2074982b57 net: fec_mpc52xx: add missing kernel-doc for @may_sleep
+         b455410146bf723c7ebcb49ecd5becc0d6611482 net: fec: fix pinctrl default state restore order on resume
+         5eba3e48d78edd7551b992cb7ba687019b3a78da sctp: diag: reject stale associations in dump_one path
          
