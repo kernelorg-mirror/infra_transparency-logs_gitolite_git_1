@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Tue, 02 Jun 2026 00:28:27 -0000
-Message-Id: <178036010724.3353678.16546358932010695198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 02 Jun 2026 00:58:23 -0000
+Message-Id: <178036190324.3374231.97078132719290503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: aschofie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: 8d4b989d9c9afe5f185aa5853b666fc4617afe9e
-    new: 1e7afc906f2ffb0ef1ee58c44510f8e9e263048e
+  - ref: refs/heads/master
+    old: 0192dcfaab865c7655e50e53ace485743d4922e5
+    new: 024bf68761861f7575b32b46a07cc684eedea888
     log: |
-         13fe4cd9ddd0aacb7777812328be525a11ea3fea nvdimm/btt: Free arena sub-allocations on discover_arenas() error path
-         1a6b6442a982d0ca5fb6a1a39b6f6dfd760eda57 nvdimm/btt: Free arenas on btt_init() error paths
-         cd1a8d788763bb6c0af3c53fbbd9abb555e18953 dax/bus: Upgrade resource conflict message to dev_err() in alloc_dax_region()
-         1e7afc906f2ffb0ef1ee58c44510f8e9e263048e nvdimm: Use sysfs_emit() for cpumask show callback
+         dc2a4d24bbb38d9f2d59615488078852d59f784e foo
+         4f12aec2df2626f3163d4d6bad2b19ff364e0a64 foo
+         8c944cfbff86223d9ebba1b5e2c7accfeffe3e67 foo
+         1221b87f38ed77243fd2c612932377e450cc572f foo
+         024bf68761861f7575b32b46a07cc684eedea888 foo
          
