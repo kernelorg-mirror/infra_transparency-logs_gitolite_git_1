@@ -1,42 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7560200186320526602=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 02 Jun 2026 02:59:00 -0000
-Message-Id: <178036914052.3476141.2874171084431634714@gitolite.kernel.org>
-
---===============7560200186320526602==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jun 2026 03:01:59 -0000
+Message-Id: <178036931930.3479397.8034084506124050786@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 1747233ee1af0b89d39995ad09506cbadd3d3e50
-    new: 1f8c54719ece6b830f44dfd8a939b83892f24d5c
-    log: revlist-1747233ee1af-1f8c54719ece.txt
-
---===============7560200186320526602==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1747233ee1af-1f8c54719ece.txt
-
-09be9d404f42fd2e7d4d378cae07499879f837f4 scsi: scsi_ioctl: Use strnlen() in scsi_ioctl_get_pci()
-8933fa6695aaea6559d3469581139a4c1f427369 scsi: ufs: core: Add a quirk for extended TX EQTR Adapt L0L1L2L3 length
-0f51fd84684316375d5c191a1ec5e18743fb1601 scsi: ufs: ufs-qcom: Use quirk EXTENDED_TX_EQTR_ADAPT_LENGTH_L0L1L2L3
-f199cee401f7dc7280c8ed070d2433478253b665 scsi: scsi_debug: Remove unused variable sdebug_any_injecting_opt
-c1f7275b613b5bb140efe22071167ed6c68c9a05 scsi: megaraid_mbox: Reduce stack usage in megaraid_cmm_register()
-727e78887e62e16be30ec7ecf62017f0a86d53bd scsi: ufs: core: Inline two functions related to UIC commands
-9fb4c793223b618da6bee50840746522a7da226e scsi: ufs: core: Complain if UIC argument 2 is invalid
-f8380c57dcff5ac3b32393a05ff6a6ff0108bf3e scsi: ufs: core: Optimize ufshcd_add_uic_command_trace()
-b1968f46509e077d3241ac509e41fd14ec2395db scsi: core: target: Add INQUIRY-related constants to scsi_common.h
-28ff38b9d8e1a189606e36319401dc98419a3746 scsi: core: Use the INQUIRY-related constants
-20fd1648f35399f114351b67c14ff8d3233a30e2 scsi: core: Convert INQUIRY information
-1f8c54719ece6b830f44dfd8a939b83892f24d5c Merge branch 'misc' into for-next
-
---===============7560200186320526602==--
+  - ref: refs/heads/main
+    old: 9c89f975e66922f346d92d60c9d51d07274a7f3b
+    new: 51e4eca2d360b8610fdc2b71ebfea3c0c4038a70
+    log: |
+         e3c6508a46f56ece0c1550a4fdf1e005afe3d563 net: lan743x: avoid netdev-based logging before netdev registration
+         3b09ff54114566864eea59020f6b69c5bb325b9d net: qrtr: fix node refcount leak on ctrl packet alloc failure
+         106ce4a01c179b8de664767cf5c7367210b66dba dt-bindings: net: starfive,jh7110-dwmac: Remove jh8100
+         64772e4d06a574e2359547d97f79674c28f07f75 dt-bindings: net: starfive,jh7110-dwmac: Add jhb100 support
+         98182c748125d453945d6f4246d2706aae718285 net: stmmac: starfive: Add jhb100 SGMII interface
+         7e9ea8de277a24750626d2a14264775e7796be04 net: stmmac: starfive: Add STMMAC_FLAG_SPH_DISABLE flag
+         51e4eca2d360b8610fdc2b71ebfea3c0c4038a70 Merge branch 'add-starfive-jhb100-soc-sgmii-gmac-support'
+         
