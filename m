@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 02 Jun 2026 21:30:34 -0000
-Message-Id: <178043583410.131257.2005306669066845870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 02 Jun 2026 21:33:20 -0000
+Message-Id: <178043600041.132572.11350548924337187984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 7f3d1befa2c8a182f477989e9bdfaf2a8ac9bcd0
-    new: 7eb2388ddaf4b7368b19594a12b49f06adc256f0
+  - ref: refs/heads/for-7.1-fixes
+    old: b565a73baec275a3f4b49c1300ab396daf4a748e
+    new: 02e545c4297a26dbbc41df81b831e7f605bcd306
     log: |
-         89c77e7d65d248b356a3d366abb2ea8fc2e50c7d foo
-         7eb2388ddaf4b7368b19594a12b49f06adc256f0 foo
+         02e545c4297a26dbbc41df81b831e7f605bcd306 sched_ext: Don't warn on NULL cgrp_moving_from in scx_cgroup_move_task()
+         
+  - ref: refs/heads/for-next
+    old: c6d87754163c7f019c0dca4792c415a93363840f
+    new: 7a506742e7c04d904531d5330caafd150106b87e
+    log: |
+         02e545c4297a26dbbc41df81b831e7f605bcd306 sched_ext: Don't warn on NULL cgrp_moving_from in scx_cgroup_move_task()
+         7a506742e7c04d904531d5330caafd150106b87e Merge branch 'for-7.1-fixes' into for-next
          
