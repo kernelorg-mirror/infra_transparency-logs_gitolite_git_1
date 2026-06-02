@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 02 Jun 2026 21:42:50 -0000
-Message-Id: <178043657005.140496.14047673066427285490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Tue, 02 Jun 2026 21:49:38 -0000
+Message-Id: <178043697800.144727.3705958173208456592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: aschofie
 changes:
-  - ref: refs/heads/main
-    old: d20687818f46206fa7a63bc01901ac2074982b57
-    new: cfa5274a5dc2a23b957da5dc806d2ac0c7a66af0
+  - ref: refs/heads/pending
+    old: bbd403a03fa2a1551c1a10bbf78f32027c718758
+    new: 5fcbbee57319e718bf522436ea6595bd0f71296c
     log: |
-         cfa5274a5dc2a23b957da5dc806d2ac0c7a66af0 net: dsa: sja1105: flower: reject cross-chip redirect
+         27383974df7d91738c33fddd36d217cf96c7b269 daxctl: Add support for famfs mode
+         5fcbbee57319e718bf522436ea6595bd0f71296c test/daxctl-famfs.sh: Add nfit_test famfs mode-transition test
          
