@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 02 Jun 2026 21:22:57 -0000
-Message-Id: <178043537778.123591.7798176187322062511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Jun 2026 21:23:15 -0000
+Message-Id: <178043539581.123933.8374702228295015165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 767e7337d558f67d4663d4791f8ef2977d3a8791
-    new: 93af00e3e882007c7a2691d7902b68c1cf1cf3e8
+  - ref: refs/heads/main
+    old: cbadf6015e6b7920065b9cc53e8d0088a66b3a34
+    new: b736e34b963d7b05ee78fd3f0e7eb53a2edef7b9
     log: |
-         1deb1ca0d6054ed041b2b0c1370e6869b2666944 thermal/core: Fix missing stub for devm_thermal_cooling_device_register
-         ad65e04e53857cf7792faf5cac539376684d2a46 thermal/drivers/qcom/tsens: Switch wake IRQ handling to PM callbacks
-         0c2fc49243a3cdc6c9a35afb6e3b3fa352953ecd thermal/drivers/qcom/tsens: Disable wakeup interrupt setup on automotive targets
-         93af00e3e882007c7a2691d7902b68c1cf1cf3e8 thermal: amlogic: add missing dependency on MESON_SM
+         34d8c91a3d39e65c1709f741028c4f39a4c103ed net/mlx5e: DMA-sync earlier in mlx5e_skb_from_cqe_mpwrq_nonlinear
+         399f030cd6123f1b3539d1557a6e956eb1cd7da7 net/mlx5e: Avoid copying payload to the skb's linear part
+         b736e34b963d7b05ee78fd3f0e7eb53a2edef7b9 Merge branch 'net-mlx5-avoid-payload-in-skb-s-linear-part-for-better-gro-processing'
          
