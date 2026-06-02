@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Tue, 02 Jun 2026 01:08:33 -0000
-Message-Id: <178036251385.3387271.9274553058745992755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Tue, 02 Jun 2026 01:14:35 -0000
+Message-Id: <178036287544.3391590.5835161140381963724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: aschofie
 changes:
-  - ref: refs/heads/main
-    old: a74b952f94c85a1b522f93e4cefc4e385f879061
-    new: d245851f0629ab5cbf3e6caad7d2c3ce753ac23c
+  - ref: refs/heads/libnvdimm-for-next
+    old: 1e7afc906f2ffb0ef1ee58c44510f8e9e263048e
+    new: 86e411b6ec277dbb8ac1f1d855dc337181a62a29
     log: |
-         d245851f0629ab5cbf3e6caad7d2c3ce753ac23c tests: Avoid -Wconstant-logical-operand warnings in integer-expressions.c
-         
-  - ref: refs/heads/master
-    old: a74b952f94c85a1b522f93e4cefc4e385f879061
-    new: d245851f0629ab5cbf3e6caad7d2c3ce753ac23c
-    log: |
-         d245851f0629ab5cbf3e6caad7d2c3ce753ac23c tests: Avoid -Wconstant-logical-operand warnings in integer-expressions.c
+         e3fc08f4ab66da6226f5e34b87bcbcf35ddebe56 MAINTAINERS: Add maintainer info for libnvdimm and DAX
+         a6e0072cfa82f84557961dc13d552de69fff85b1 MAINTAINERS: Update address for Ira Weiny
+         86e411b6ec277dbb8ac1f1d855dc337181a62a29 MAINTAINERS: nvdimm: Include maintainer profile
          
