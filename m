@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 02 Jun 2026 05:56:33 -0000
-Message-Id: <178037979332.3607447.7471906661939134181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 02 Jun 2026 06:24:52 -0000
+Message-Id: <178038149215.3626497.13034327113199685175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/experimental
-    old: 1d5bacbb815bb7aa4294c3158e0daca19d00a69c
-    new: a0b0616315de352863892abd3a54dbf49b788576
+  - ref: refs/heads/for-next
+    old: e9c82f767f0f46ef90eeefccc0a8006cc86aff40
+    new: af31e980def6cd6554ad4d7f266ecf5c4ebce4e3
     log: |
-         a868757be8140c50d7a84473d97daf4eed044045 erofs-utils: mount: extract reusable source-opening and recovery helpers
-         ef3a7dc2deab867980b482dcf510ae7792c56286 erofs-utils: add ublk userspace block device backend
-         a0b0616315de352863892abd3a54dbf49b788576 erofs-utils: mount: integrate ublk backend
+         af31e980def6cd6554ad4d7f266ecf5c4ebce4e3 ALSA: oxygen: add HT-Omega eClaro (7284:9783) support
+         
+  - ref: refs/heads/master
+    old: b641e25c7a06dac52914ccc60a9b4ac68e9aa3b3
+    new: 96d4780e9ff5168195e891c474a85bb0d510fe9f
+    log: |
+         af31e980def6cd6554ad4d7f266ecf5c4ebce4e3 ALSA: oxygen: add HT-Omega eClaro (7284:9783) support
+         96d4780e9ff5168195e891c474a85bb0d510fe9f Merge branch 'for-next'
          
