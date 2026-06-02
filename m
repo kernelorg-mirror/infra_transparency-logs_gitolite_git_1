@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2059382974251941141=="
+Content-Type: multipart/mixed; boundary="===============3578304075951671452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 02 Jun 2026 02:11:48 -0000
-Message-Id: <178036630822.3438068.13295528185244594629@gitolite.kernel.org>
+Date: Tue, 02 Jun 2026 02:11:52 -0000
+Message-Id: <178036631274.3438310.9245838541661551566@gitolite.kernel.org>
 
---===============2059382974251941141==
+--===============3578304075951671452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 9492a58de2b133d8f23ff15ab061caf2be0804ea
-    new: 916a9226e90d264c2d8ae70dc60d882ff70cd733
-    log: revlist-9492a58de2b1-916a9226e90d.txt
+  - ref: refs/heads/7.2/scsi-queue
+    old: 016d484531e3169cd7bcb26e0ac2c5523080809f
+    new: 20fd1648f35399f114351b67c14ff8d3233a30e2
+    log: revlist-016d484531e3-20fd1648f353.txt
 
---===============2059382974251941141==
+--===============3578304075951671452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1780366223 -0400
+pusher 75C5DE3D 1780366311 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1780366223-7349011c0d37a1f9899eff724888181c8707663d
+nonce 1780366310-fe28eabf155ffcfc84ffc8f295d6c6b408a7ae8e
 
-9492a58de2b133d8f23ff15ab061caf2be0804ea 916a9226e90d264c2d8ae70dc60d882ff70cd733 refs/tags/mkp-scsi-queue
+016d484531e3169cd7bcb26e0ac2c5523080809f 20fd1648f35399f114351b67c14ff8d3233a30e2 refs/heads/7.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoeO48ACgkQ7ulgGnXF
-3j22Fw//Z126KxY9EuRqAl3vsvegrAn+p/TXvvCYIQ2la/F9W4B3cYXL389weNBa
-Mblk2Nm/+sTDcBlDvz6UfKCy56kPTM8AkU7QDubtu0RRym/swPqMcLQeL/dcDpcD
-Wvr/jzRpxglK/71ZjxmT1tamSEEHvEx5W123fO+0HdOtjTrZ+46lt4B672nVn67I
-48C+7AZjrK7E++1Rdvv4sHSEorDIHxjGI0jNvEcTstKGcUaLeBVACRi1oHo/JJCY
-VZHvKZEWhoK0QViSet8BjAPbV7IrTvQnMuj1VwJ0X+wo7EWAYt8GgFyQzTVFWDRt
-AMSG10TJjT1z1BjcHv/Kp51f9Wrdn8ITyI/p9E4sX0eA2F4yHfv3Uvbx9bysMr9L
-ySDFqvAtHpK2rkbrM6DYAyv8qYBrZZRa2lVf3whQzWztqiN5iPuRrCYtGbU6qFOq
-qt9X+FE492OryTXnWg0A675jqVxosGEJHjso0zCUv4VMbF9ESPXBODtaZvJ4o9ku
-K1oj2R4jh/ie7zH8TSonvZiYTMx0eMzd4wc28JkoNkYEle9QNZA/lGnI0lpBpQuD
-NmJ663UPAgS+2Zun7dflTMCxToXTDsg69G1+p5F0tQEiVp0vaCmg8BQOfVH7P8nY
-n4xWHEMQHTTsHANDe8hLAculBWVKnp1dT8hA34SkX9AwypOChFw=
-=DxeE
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmoeO+cACgkQ7ulgGnXF
+3j3UHg//cI6xWw2+GsXG6khenbUbwTCtMCDhjEuHcWGNopITCXr+8qDZtX5AHH82
+iP3FdeNWqdEEqBxkwPp2EZU2yGQ+wwPOQ8uyXe3xaGhLOOjqe4TWWMFp4ZC+kSWG
+35qHmFQisMh8Jb/k8C3DmGC+ALb6BH26riQKDAWlxsKCCC7kcLwHx7qusOki2D/1
+599gig4kKoH5pEzH5+nWZpbqBQ/hy0gPfjR35CUnAoARuEmEdFhESFs1FHgKetQV
+R2jq+JZAAbEwPk3XjIU/EcHH0Nv1mf8klCKoLDWuSQMnXxlie+O/m7DFb3QqDczw
+dPG7ifzc/O7iPj5z7hMXzTMTsLitXXoSWsvyKH+OyFAkkNdN1N21Tg+sYiC5cip6
+uQrQvcVUzYGco85YWLkSrF8N+/Ge60OCZCsFJgwe53gGA/87yayE0zw8PeaGmYPs
+MMcXAZr8YFz60MKc2Fu7na+bBCt3L7Aa2uQBQegesx5de83Y0bDUIAClgbElaAJh
+1xG7GfqDeOysqAJxIGb+WoF4VkP1N929iLpRBzVTHA38T9OjI3rmWjzR8DpOYV1i
+CFmHhviy6SMAlOBi/0d04JYY/9yG8LMig3yL9p1uaH/Onh3iXy54TZDqdcM1wn+3
+TuGtV9oaR5g7OXipa2IVi9FPq2dU1jhv+Yw/MOseoHnNLwwl1S0=
+=jMMD
 -----END PGP SIGNATURE-----
 
---===============2059382974251941141==
+--===============3578304075951671452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9492a58de2b1-916a9226e90d.txt
+Content-Disposition: attachment; filename=revlist-016d484531e3-20fd1648f353.txt
 
 09be9d404f42fd2e7d4d378cae07499879f837f4 scsi: scsi_ioctl: Use strnlen() in scsi_ioctl_get_pci()
 8933fa6695aaea6559d3469581139a4c1f427369 scsi: ufs: core: Add a quirk for extended TX EQTR Adapt L0L1L2L3 length
@@ -68,4 +68,4 @@ b1968f46509e077d3241ac509e41fd14ec2395db scsi: core: target: Add INQUIRY-related
 28ff38b9d8e1a189606e36319401dc98419a3746 scsi: core: Use the INQUIRY-related constants
 20fd1648f35399f114351b67c14ff8d3233a30e2 scsi: core: Convert INQUIRY information
 
---===============2059382974251941141==--
+--===============3578304075951671452==--
