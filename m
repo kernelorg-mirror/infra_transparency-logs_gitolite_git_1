@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7665382005130452864=="
+Content-Type: multipart/mixed; boundary="===============5720075544929408874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 02 Jun 2026 01:35:14 -0000
-Message-Id: <178036411405.3410630.15343610085367854984@gitolite.kernel.org>
+Date: Tue, 02 Jun 2026 01:35:24 -0000
+Message-Id: <178036412449.3410888.399854756149533174@gitolite.kernel.org>
 
---===============7665382005130452864==
+--===============5720075544929408874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 868d43cf8f970b456fd93334bee40f792cf27e4d
     new: 3d781fffdc5dbb08bde8412c88e6f330ce7a4409
     log: revlist-868d43cf8f97-3d781fffdc5d.txt
 
---===============7665382005130452864==
+--===============5720075544929408874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ fbcc68af60479c4beebe411c1ee5e3c873e3adcf selftests/bpf: Test creating dynptr fro
 60c7c3b880c8b3ad7fe025bb68b13bfbc440ceaf selftests/bpf: Test using dynptr after freeing the underlying object
 3d781fffdc5dbb08bde8412c88e6f330ce7a4409 Merge branch 'refactor-verifier-object-relationship-tracking'
 
---===============7665382005130452864==--
+--===============5720075544929408874==--
