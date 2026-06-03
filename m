@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 03 Jun 2026 13:59:34 -0000
-Message-Id: <178049517426.863036.17523596585322236702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
+Date: Wed, 03 Jun 2026 14:08:56 -0000
+Message-Id: <178049573693.869997.18387086657842942888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/bcain/linux
+user: bcain
 changes:
-  - ref: refs/heads/for-7.1/upstream-fixes
-    old: a0a9eeae9f71e71c0d8ed686ec0727f68453e7ed
-    new: 73fde0cbff7d9d618591774a12c23434232752c1
-  - ref: refs/heads/for-next
-    old: c11576be107ea20fd87480642101db06c6d46dab
-    new: 6dfdaeea9392b734df642e1d08da8f44ccbc5935
+  - ref: refs/heads/bcain/boot_qemu
+    old: d99deb935033fad4dc63395a63498a77613df72a
+    new: c850792455fb50ac41c7100e7d6f5f834d3141ee
+    log: |
+         bdd721ef7955b07ea40dbb3babd1b9e7beae2c01 mm: guard pageblock init against missing pageblock_flags
+         e4b36f468f44bad8500420f8096ad84b47718cda mm: fix page zone mismatch when freeing bootmem pages
+         51bbd26f52f2ed72ef188098e946aafa58868a84 hexagon: fix clockevent cpumask to avoid broadcast mode
+         4465f02475ce4932d9068d33e21cd8ef4bf46c4e hexagon: always disable packetizer to fix invalid instruction encoding
+         c850792455fb50ac41c7100e7d6f5f834d3141ee hexagon: remove stale hexagon_dma_init() declaration
+         
