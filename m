@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Jun 2026 20:12:06 -0000
-Message-Id: <178051752673.1139779.394562243718661637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Wed, 03 Jun 2026 20:13:27 -0000
+Message-Id: <178051760724.1140307.7848532120071967854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 74e144274af39935b0f410c0ee4d2b91c3730414
-    new: 40a25d59e85b3c8709ac2424d44f65610467871e
+  - ref: refs/heads/master
+    old: b25d0aebcdc3d56c4dbd613fb540899d995dc6bc
+    new: 10a71c6db0c771b64529349c81614e394509e446
     log: |
-         40a25d59e85b3c8709ac2424d44f65610467871e locking/rtmutex: Skip remove_waiter() when waiter is not enqueued
+         10a71c6db0c771b64529349c81614e394509e446 setup-buildchroot: add liburing-dev to chroot
          
