@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4120506452576363682=="
+Content-Type: multipart/mixed; boundary="===============7915736595689762554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 03 Jun 2026 06:58:23 -0000
-Message-Id: <178046990397.544060.16723462176737071686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 03 Jun 2026 07:01:30 -0000
+Message-Id: <178047009056.547517.11634207113413256260@gitolite.kernel.org>
 
---===============4120506452576363682==
+--===============7915736595689762554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 3ef902c9609966f66d6e0f42917e6beacda3798e
-    new: d1712cd69d2163e20dc4c1bd269a3130b6c454ca
-    log: revlist-3ef902c96099-d1712cd69d21.txt
+  - ref: refs/heads/for-next
+    old: 3c9e23488ff4447f66b48479be25eb28e693a9e7
+    new: bb451bc01ea42c9e47557638400708e20df34178
+    log: revlist-3c9e23488ff4-bb451bc01ea4.txt
 
---===============4120506452576363682==
+--===============7915736595689762554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1780469902 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1780469901-2e62c4053a6301f2c08829e45a546141780c7986
-
-3ef902c9609966f66d6e0f42917e6beacda3798e d1712cd69d2163e20dc4c1bd269a3130b6c454ca refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmof0I4ACgkQJNaLcl1U
-h9D7GAf+LgTAYnjskHp7tdMaoKCU4nUEbOCij6yTLyO0ozQw9DBnl+tj2A59ZTE9
-uAXNqAX/jvtsM1UY/u/u2L22nIomFZoHUi1MNvl6N68Qv8jJjmOZqODxVbrCTjxg
-IAmzr9IWtmKKNPF+xBG7zrQNsyusCv9+C2yGLuEi/TTvwez+dyIK0SWJxgMWcAfY
-RZ/nH+gt1nNRRRiIPn4vxX3hg+9CHihetTlcIvh5R3u9E96Tw1j1z3ltAvTyOv2y
-42AX73XGfM0GfRm7bwtTmKejfvT5vFIGqR/AReDgX3mjAdvDrCdtDFVwNTdzAlaZ
-OY902UqWtBDSTPu8uInOpNISKNi/YA==
-=U9RR
------END PGP SIGNATURE-----
-
---===============4120506452576363682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ef902c96099-d1712cd69d21.txt
+Content-Disposition: attachment; filename=revlist-3c9e23488ff4-bb451bc01ea4.txt
 
 cab82caa2d37124659637ffc1eed2d1c4f231fbc ASoC: cs35l56: Share common SoundWire interrupt enable/disable code
 2d90ecdfa32660f9f4f4b36440755c5388690209 ASoC: rockchip: i2s: Use managed hclk and runtime PM cleanup
@@ -66,5 +41,6 @@ aec0d8c8869424645560c773418d6b8752027278 ASoC: es9356: Use new SoundWire enumera
 353530ece8523bb1fc65eac7fe2665e1090ef3e1 ASoC: loongson: Use the `idma` identifier for internal DMA variables
 767a1b50c1f0d5d2090cab52a08dc794b9830938 ASoC: loongson: Separate external shared DMA from the platform interface
 d1712cd69d2163e20dc4c1bd269a3130b6c454ca ASoC: loongson: Refactor DMA and regmap handling
+bb451bc01ea42c9e47557638400708e20df34178 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============4120506452576363682==--
+--===============7915736595689762554==--
