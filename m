@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5500886310941723810=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Wed, 03 Jun 2026 18:30:37 -0000
-Message-Id: <178051143776.1065582.7181396522770084575@gitolite.kernel.org>
-
---===============5500886310941723810==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 03 Jun 2026 18:42:10 -0000
+Message-Id: <178051213007.1073627.9213852320457755296@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/b4/slab_alloc_flags
-    old: 7bd20c754ce1b2746468b18313094cc614769418
-    new: c7926af97cd80a8fbf931527b2606037126bcfd2
+  - ref: refs/heads/wip/jgg-for-next
+    old: d6ab440240a04b8737ee4c7bb21af9182e451733
+    new: bad4e98893afdfe0b1a03433d3af53972bafc67c
     log: |
-         c7926af97cd80a8fbf931527b2606037126bcfd2 mm: remove the __GFP_NO_OBJ_EXT flag
+         ba7c4912f7abb0e30b920faf86b32ffb9e5e8b14 RDMA/hns: drop dead empty check in setup_root_hem()
+         b548a6c4eee5c428663f3944e173e6c92e2e8d6f RDMA/irdma: Fix typo in SQ completions generation
+         43b57d73ebbe5e7964a8b3ee3ffde0948fae6e2e RDMA/core: Don't make a dummy ib_udata on the stack in create_qp
+         bad4e98893afdfe0b1a03433d3af53972bafc67c RDMA: Update the query_device() op
          
-
---===============5500886310941723810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1780511433 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1780511433-b4b21e019f3792d164e0d540b8fcdf3511aa6672
-
-7bd20c754ce1b2746468b18313094cc614769418 c7926af97cd80a8fbf931527b2606037126bcfd2 refs/heads/b4/slab_alloc_flags
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmogcskbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia7XgH/3S6pJkbYzL2t56IEjvZ
-tlhn+8n60Oh4h8TzKhgAKu9VgutujKTEkEWE6hP/kfC1Feh9IRgkFywtciXndElB
-FsVH0QHZ86hlNLcdWa++zEIMGsxJjoKMgrp5tUUtJSdk2AL2zyZdyc5q2WN/i3k7
-nPlFTv6Oq98aYlzuLY7GdoXhmbrx3o3W+1OyvyoqkIryJqRgrj6nT2l7dW5YDd6k
-tGICprYtM3lvG4i0r4OvE1roy9o4pxq82EB5GnchURlVs2+QSzx4bkSObONdG81S
-D03m6XrRwR+oxRQMdXxrvllFypCABKzHWFEgl/wp2cgEbMHASsjIbwuWmzUsjuqr
-UAE=
-=SUNr
------END PGP SIGNATURE-----
-
---===============5500886310941723810==--
