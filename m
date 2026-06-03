@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1221591266362154446=="
+Content-Type: multipart/mixed; boundary="===============5422861656966769655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 03 Jun 2026 00:11:13 -0000
-Message-Id: <178044547369.250924.11071796140299282661@gitolite.kernel.org>
+Date: Wed, 03 Jun 2026 00:11:16 -0000
+Message-Id: <178044547606.251038.4010243979376168934@gitolite.kernel.org>
 
---===============1221591266362154446==
+--===============5422861656966769655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 6463301cef14035e583f91263ee7b7e9f9d0a181
-    new: fc377d16533a55945dd0c03405faebe58f855654
-    log: revlist-6463301cef14-fc377d16533a.txt
+  - ref: refs/heads/mm-unstable
+    old: d17fe8a046a24f0341c2b395ef719d8dd45ee4ee
+    new: 53ec7095e352471187404bc07829fc418b1dd266
+    log: revlist-d17fe8a046a2-53ec7095e352.txt
 
---===============1221591266362154446==
+--===============5422861656966769655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6463301cef14-fc377d16533a.txt
+Content-Disposition: attachment; filename=revlist-d17fe8a046a2-53ec7095e352.txt
 
 1cbe003b631d905d1b9da10cda6111f4263622e0 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up the series "userfaultfd: verify VMA state across UFFDIO_COPY retry", which is a prerequisite for mm-unnstable's series "userfaultfd: merge fs/userfaultfd.c into mm/userfaultfd.c".
 9012c4e647df9a3c5450dcccd766877a3efebc46 mm/damon: replace damon_rand() with a per-ctx lockless PRNG
@@ -349,11 +349,5 @@ f7d4bf1693bac149b1f0eab5035ec637f8a504e0 selftests/mm: skip uffd-stress test whe
 c00dd1daa7202d949f34a5c93f63bfdf2b1222c1 selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
 6f3daf67fcaf0f4c8ce58a91022ac5997abfeb6b selftests/mm: clarify alternate unmapping in compaction_test
 53ec7095e352471187404bc07829fc418b1dd266 mm/alloc_tag: replace fixed-size early PFN array with dynamic linked list
-82a1b73c8b7324a2f71bed2308e7aad92532a709 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1fa760193c91b1e100e0bc6c8c6e511379bd82bc mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-2be2918b3700a7b508c0e2a602f4d8c815293916 mm/swap: remove redundant swap device reference in alloc/free
-a6eed42b92e742ac08c6a85cb20fae2ada13b43e mm/swap, PM: hibernate: atomically replace hibernation pin
-d52e683915d6f10e92cd5b9ee4e71a3beb4fb118 mm-swap-pm-hibernate-atomically-replace-hibernation-pin-checkpatch-fixes
-fc377d16533a55945dd0c03405faebe58f855654 mm: page_isolation: avoid unsafe folio reads while scanning compound pages
 
---===============1221591266362154446==--
+--===============5422861656966769655==--
