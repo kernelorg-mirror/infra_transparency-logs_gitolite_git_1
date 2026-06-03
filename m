@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4512001807015579278=="
+Content-Type: multipart/mixed; boundary="===============0662395495909489003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Jun 2026 06:32:26 -0000
-Message-Id: <178046834605.525458.18360919914662839088@gitolite.kernel.org>
+Date: Wed, 03 Jun 2026 06:32:57 -0000
+Message-Id: <178046837717.525887.4030661916199923298@gitolite.kernel.org>
 
---===============4512001807015579278==
+--===============0662395495909489003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ece2008b4e765af6c2c7ca78bdab47de05e516e4
-    new: 84270b5a2b0f9ea78b064e8ed9c9e3c42401e61b
-    log: revlist-ece2008b4e76-84270b5a2b0f.txt
+    old: 84270b5a2b0f9ea78b064e8ed9c9e3c42401e61b
+    new: d23ad302e9609cb74c052215abd1ebdc3ab75a01
+    log: revlist-84270b5a2b0f-d23ad302e960.txt
+  - ref: refs/heads/tip/urgent
+    old: 7ed19e8842757f5a3d49034be4043e2c9e4bfb68
+    new: c2583ebdbd4568baf9606afd2257c221c0b582ae
+    log: revlist-7ed19e884275-c2583ebdbd45.txt
 
---===============4512001807015579278==
+--===============0662395495909489003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ece2008b4e76-84270b5a2b0f.txt
+Content-Disposition: attachment; filename=revlist-84270b5a2b0f-d23ad302e960.txt
+
+93f918ba787a6e6c3599ee9ab15b7668599e0d74 Merge branch into tip/master: 'locking/urgent'
+d1c7266a4ee8b42d5e2663b6ac7a12ec1be4e621 Merge branch into tip/master: 'sched/urgent'
+da015450b70c75c527c188b62ef21cd1436f398b Merge branch into tip/master: 'timers/urgent'
+c2583ebdbd4568baf9606afd2257c221c0b582ae Merge branch into tip/master: 'x86/urgent'
+85df61c147a152afc0f95cc9540a3a0f000a7c9c Merge branch into tip/master: 'x86/merge'
+43b8cb4cfe42847f0ebbcd6c6f2b2f7b13d18e38 Merge branch into tip/master: 'timers/merge'
+4b7b4a7ebaf283ae0310b41f947fd397b25b73cd Merge branch into tip/master: 'core/rseq'
+2299c4eaa5263ac7db59874bb14f7ddf7f59483d Merge branch into tip/master: 'irq/core'
+ade9fab54f99d06367d360745b252ed4c9a3344c Merge branch into tip/master: 'irq/drivers'
+463c48ec01c84f5d75846f5ddf6c04c117a116f0 Merge branch into tip/master: 'irq/msi'
+f2cdb87ee3ee5320925b7a295babe12dede1a335 Merge branch into tip/master: 'locking/context'
+af9c19f9f2588bcb1a2553de968d4df1128b4ac5 Merge branch into tip/master: 'locking/core'
+570725267e63f78e5c59bf5318f16e886ddb363e Merge branch into tip/master: 'objtool/core'
+061acc445a84313422ca245741bb3f10b08d1323 Merge branch into tip/master: 'perf/core'
+ec563f067b15123d36a7789c0c05261146a4494e Merge branch into tip/master: 'sched/core'
+94642df9cac41de283f4f8c666f2d125f964d821 Merge branch into tip/master: 'timers/core'
+310e3d305f72bc138edd4e156efc255bd83cc193 Merge branch into tip/master: 'timers/nohz'
+b5c8eeb6d6d2a2c710b23ebe4d5c2abc1495899f Merge branch into tip/master: 'timers/ptp'
+0253ed39ddb7d1030e4e550cd9012b6ea41b3b47 Merge branch into tip/master: 'timers/vdso'
+5672388b0367204d3f9ffe7f98531079a1c032a7 Merge branch into tip/master: 'x86/cache'
+f4d0498cd393faa20d3b1da3274159428b7f7a40 Merge branch into tip/master: 'x86/cleanups'
+afdab550289fac47d658e9981c8849fbb56e0d4b Merge branch into tip/master: 'x86/cpu'
+7de75c5554349bcf5f4befe90f2a6daf61dbe83e Merge branch into tip/master: 'x86/misc'
+006839ca47c266133fceeeb0578518fadeebb314 Merge branch into tip/master: 'x86/mm'
+9ea2772de3985eb7a423e26b7e59f1564e2fad68 Merge branch into tip/master: 'x86/sev'
+d23ad302e9609cb74c052215abd1ebdc3ab75a01 Merge branch into tip/master: 'x86/tdx'
+
+--===============0662395495909489003==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7ed19e884275-c2583ebdbd45.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 754d60ad1c91895be0bc7d771fbf9fb3c9448640 memory: atmel-ebi: Allow deferred probing
@@ -81,72 +118,16 @@ df3ee3b3bbc327f570c5451666bbaf6cf8b4436a userfaultfd: refuse to __mfill_atomic_p
 9d7bea186ba5a002456471edf36cc9b69f809397 userfaultfd: remove redundant check in vm_uffd_ops()
 d4715546cc4c77faf445a34b5826c78c328b1d18 Merge tag 'at91-fixes-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
 fce4668a01227abb2c60e3202cf866137fbfcef2 Merge tag 'socfpga_fix_for_v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
-eba302268a019275fd6ff452d4ff0b94fef11c76 timekeeping: Provide ktime_get_snapshot_id()
-ef22786707e3967b539c3b1e6b5c7ea8b408430f timekeeping: Use system_time_snapshot::systime/monoraw instead of ::real/raw
-fe1159fe49b40f73de88d2c29200c813952e061f pps: generators: Use ktime_get_real_ts64() instead of ktime_get_snapshot()
-d5becddf8a0f18bcc18129efa086530b5263c6b4 pps: Convert to ktime_get_snapshot_id()
-d09439210441efbadd8b0aa32c1ddb1eab2f3abd KVM: arm64: Use ktime_get_snapshot_id() to retrieve CLOCK_BOOTTIME
-48efaad67a8d18b75512aa3ab5bbfe661866020f KVM: arm64: Use ktime_get_snapshot_id() to snapshot CLOCK_REALTIME
-d3dae55436460830abb99e0519a093469ad08416 ptp: ptp_vmclock: Convert to ktime_get_snapshot_id()
-0a87dc71524f30e0c2df1171044201d78d6b0c55 timekeeping: Remove system_time_snapshot::real/boot/raw
-a19658b83784d305ceed5bee3fdf5fdb955a5d1a timekeeping: Add CLOCK_AUX support for ktime_get_snapshot_id()
-44e3ae4396f982f84a24d8c7d2b8f613a78ef34a timekeeping: Add system_counterval_t to struct system_device_crosststamp
-98a8a67b497263441c0b6562d95fe01e80527fd1 timekeeping: Add CLOCK ID to system_device_crosststamp
-6a5d1d6b447f4ead15133730b92141707c61832b wifi: iwlwifi: Adopt PTP cross timestamps to core changes
-db9e2147563fc7a19b2f187a95ddd890d374f40e ice/ptp: Use provided clock ID for history snapshot
-7beb75ca0c231c2f129f5e8e4a7b45980ec4d8c5 igc: Use provided clock ID for history snapshot
-001b4d0c82580e56fd7b39317fb07c0a463db3da net/mlx5: Use provided clock ID for history snapshot
-babe4b6d03be8fe7787490d7b93f593134abc51e virtio_rtc: Use provided clock ID for history snapshot
-bfa570d832ea4bec2cb715339c34154f493887fd timekeeping: Remove ktime_get_snapshot()
-9ff027f820c3a86368572b5123b13f61bf1a8108 timekeeping: Prepare for cross timestamps on arbitrary clock IDs
-4204722943d357a7c7b71e96e3d501ac011e1d00 ptp: Use system_device_crosststamp::sys_systime
-c5566c29ad23e1d5b17c64ac2b605f6d3821bab0 wifi: iwlwifi: Use system_device_crosststamp::sys_systime
-2ee8af24ff1daaf630a69046cfaf3a6e97254915 ALSA: hda/common: Use system_device_crosststamp::sys_systime
-acc25f921f405350a3b30787a7660922b24649ba timekeeping: Remove system_device_crosststamp::sys_realtime
-7a58ec6a456cad02345cfbd949d8da6d5eaedd1d timekeeping: Add support for AUX clock cross timestamping
-1ed6bf4c4ea99a0b1cdc16621cd15fb2b559f9d4 ptp: Switch to ktime_get_snapshot_id() for pre/post timestamps
-571287cd351fcda7df3050009786f110cfd30bd9 timekeeping: Add clocksource read_snapshot() method and hw_cycles to snapshot
 6d99479799c69c3cb588fcda19c81d8f61d64ecd rseq: Fix using an uninitialized stack variable in rseq_exit_user_update()
 4a694a77c3d60bc974c6ef7fb98cdb872b5330ea Merge tag 'mm-hotfixes-stable-2026-06-01-20-58' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ba3e43a9e601636f5edb54e259a74f96ca3b8fd8 Merge tag 'soc-fixes-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-766e828b011ca5f971554001611b4acab7c244c1 time/namespace: Export init_time_ns and do_timens_ktime_to_host()
-180a232ea78003d1dc869b217b4e49106fd58e8f ntsync: Honour caller's time namespace for absolute MONOTONIC timeouts
 c1ca14ca227e92101c7ae597213275b60f4212c6 clockevents: Fix duplicate type specifier in stub function parameter
 ce4abda5e12622f33450159e76c8f56d28d7f03d time: Fix off-by-one in settimeofday() usec validation
-86db4084b4b5d1a074bcc66c108a4c9d266812d4 tick/sched: Fix TOCTOU in nohz idle time fetch
-0236aaf07b406100c8c3a6b78dba211f32449f49 sched/idle: Handle offlining first in idle loop
-080b5c6d95034e46f5ed1abe98c06218a1386aef sched/cputime: Remove superfluous and error prone kcpustat_field() parameter
-650a59805a9baeff76379ea9309df1395eb15a46 sched/cputime: Correctly support generic vtime idle time
-c8ba971cf8567d49eb5f43ee90c4e50424331c18 powerpc/time: Prepare to stop elapsing in dynticks-idle
-ad5a9e14ec8b4a868fea13a9dfa1fb38b2c35354 s390/time: Prepare to stop elapsing in dynticks-idle
-cf6444c3e1bb7dd5974441bbd74840e9821d36f9 tick/sched: Unify idle cputime accounting
-bd0c77cd46c63d02bc33dacdba56133ec1fe44a0 tick/sched: Remove nohz disabled special case in cputime fetch
-a5fe724e206ec7ff3ceb15b285d94316c7fe6c41 tick/sched: Move dyntick-idle cputime accounting to cputime code
-29807c524d66e27762cdc8992c2cac89b4c3fda9 tick/sched: Remove unused fields
-6a1f6a9dd0736257f5e5af32dd955d186cdc075d tick/sched: Account tickless idle cputime only when tick is stopped
-127b2eb44f36d5d7059f1af425b5800cb27440f9 tick/sched: Consolidate idle time fetching APIs
-3b45b4f188f3a0ebd16ab71efd2ffcc7a16ad861 sched/cputime: Provide get_cpu_[idle|iowait]_time_us() off-case
-7198e3927a14535475a24cce559f41f97e6c0b66 sched/cputime: Handle idle irqtime gracefully
-6199f9999a9b62b2b84a1bf5b52a9fd0bb8de5af sched/cputime: Handle dyntick-idle steal time correctly
-e4a70f5fbd43f55b474028a2cee3d78e4b443dd7 timers/migration: Fix hotplug migrator selection target on asymetric capacity machines
-d4f198c13611257f7f29d3c614721d0ac5d362f5 timers/migration: Deactivate per-capacity hierarchies under nohz_full
-45b49d7e3ab6490a9b957a4075344093c43d1f7e timers/migration: Turn tmigr_hierarchy level_list into a flexible array
 3f7fbde4cdd4a25c199a60849897459a63907ca5 vdso/datastore: Mark vdso_k_*_data pointers as __ro_after_init
-91d2a1a916a96bc0ed542704c4e20a84ff2cf554 riscv: vdso: Drop CONFIG_GENERIC_TIME_VSYSCALL guard around syscall fallbacks
-bf8f968a63159661acc20254ccdf0dc3c9f1bac2 vdso/vsyscall: Gate update_vsyscall() behind CONFIG_GENERIC_GETTIMEOFDAY
-96942092d5e67c71af246fa3bc1422cdf80a5dc9 vdso/treewide: Drop GENERIC_TIME_VSYSCALL
 74e144274af39935b0f410c0ee4d2b91c3730414 futex/requeue: Prevent NULL pointer dereference in remove_waiter() on self-deadlock
-d022ff2557accbc7e169e4812bd9899e7c77fb5c x86/platform/uv: Use str_enabled_disabled() in uv_nmi_setup_hubless_intr()
-5a0daaff6ed9c1177d58b7367451ef9714dac81d selftests/rseq: Add config fragment
-03fab65a049462b02b5f1ab1441c078af651f6f6 Merge branch 'timers/vdso'
-4e5ae6a8a1992c88e825d1eb2c7e16951d026950 Merge branch into tip/master: 'locking/urgent'
-ddfabd55cd1abe51e24af0854c9e3896a4290c0a Merge branch into tip/master: 'sched/urgent'
-1e55a6d823816c2b85783173702d86a8a313a162 Merge branch into tip/master: 'timers/urgent'
-aa97478c554cf789462adacd0f822fd074cb543a Merge branch into tip/master: 'core/rseq'
-7f4a151364bc19307cc3d7cb00ea60d0885a32e2 Merge branch into tip/master: 'timers/core'
-10aa21c4813f3a75b164a74b5e02f43830e24053 Merge branch into tip/master: 'timers/nohz'
-3c15327c6ed8c54537077fa9794a24e64d2bd565 Merge branch into tip/master: 'timers/ptp'
-63e914b2ebd954014ef3c5fc4dfffc4efa4164ab Merge branch into tip/master: 'x86/cleanups'
-84270b5a2b0f9ea78b064e8ed9c9e3c42401e61b Merge branch 'linus'
+93f918ba787a6e6c3599ee9ab15b7668599e0d74 Merge branch into tip/master: 'locking/urgent'
+d1c7266a4ee8b42d5e2663b6ac7a12ec1be4e621 Merge branch into tip/master: 'sched/urgent'
+da015450b70c75c527c188b62ef21cd1436f398b Merge branch into tip/master: 'timers/urgent'
+c2583ebdbd4568baf9606afd2257c221c0b582ae Merge branch into tip/master: 'x86/urgent'
 
---===============4512001807015579278==--
+--===============0662395495909489003==--
