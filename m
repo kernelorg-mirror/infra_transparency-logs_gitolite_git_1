@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 03 Jun 2026 20:48:49 -0000
-Message-Id: <178051972916.1168122.3058101876827532386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 03 Jun 2026 20:50:51 -0000
+Message-Id: <178051985181.1170808.8669998474886361563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 0bc4338663511725f13f143e11682cb7da031c9c
-    new: 5c81b0a5dbc726d76d71f00108f6052224c60c05
+    old: 6dc25d797b129cd6bebb4ea170f5e344eeb54392
+    new: 05e328d2a214a97838f9284e6aa93aaec4b0a75a
     log: |
-         5c81b0a5dbc726d76d71f00108f6052224c60c05 Add 35A3939FFC78776D (Breno Leitao)
+         05e328d2a214a97838f9284e6aa93aaec4b0a75a foo
          
