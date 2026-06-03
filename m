@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 03 Jun 2026 12:41:31 -0000
-Message-Id: <178049049189.803767.2681053682391887712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Wed, 03 Jun 2026 12:48:41 -0000
+Message-Id: <178049092125.808291.6251244413405689914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/for-rc
-    old: 4a1b1ac2744694a2ecd66a84bdb1445f4ef24bee
-    new: 15fe76e23615f502d051ef0768f86babaf08746c
-    log: |
-         b230b57bd6f242aaac3b8e62c7d18c69e1e30392 RDMA/efa: Validate SQ ring size against max LLQ size
-         15fe76e23615f502d051ef0768f86babaf08746c RDMA/umem: Fix truncation for block sizes >= 4G
-         
+  - ref: refs/tags/rv-fixes-7.1
+    old: 0000000000000000000000000000000000000000
+    new: f2f0d8721eb363e9dba49fde4bc271da01055a42
