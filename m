@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Wed, 03 Jun 2026 01:32:45 -0000
-Message-Id: <178045036528.315229.6162335227484551033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 03 Jun 2026 01:32:47 -0000
+Message-Id: <178045036733.315321.10338107113201360472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/aspeed/drivers
-    old: 577bc2354726fe96969a10821bcdc61a6c0aeeb8
-    new: bc13f14f5cd3d15054de38dc1232b49343d36297
+  - ref: refs/heads/master
+    old: 6c55b6cc3e4aa09233a3bd9e62ecffc0ff13cebc
+    new: c79decdda23c7b7581a8d1815477f5d99b1217fe
     log: |
-         bc13f14f5cd3d15054de38dc1232b49343d36297 soc: aspeed: cleanup dead default for ASPEED_SOCINFO
+         c79decdda23c7b7581a8d1815477f5d99b1217fe Fixes for all trees
          
