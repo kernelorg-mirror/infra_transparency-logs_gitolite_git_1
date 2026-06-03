@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Wed, 03 Jun 2026 13:09:27 -0000
-Message-Id: <178049216735.824120.17199192527539044019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Wed, 03 Jun 2026 13:10:04 -0000
+Message-Id: <178049220449.826332.6391156231194050460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: tatashin
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/remotes/liveupdate/kexec-next
-    old: 0000000000000000000000000000000000000000
-    new: 459a08d029bf6f026b25063708a63bdaa8ccc0b1
+  - ref: refs/heads/for-7.2-selftests
+    old: 8f7168335cb2e438668c5d94eea76621c9a10edd
+    new: ed8f317671d9a6bd1daf2f0cb152e126eae2bf10
+    log: |
+         ed8f317671d9a6bd1daf2f0cb152e126eae2bf10 selftests: livepatch: set LC_ALL=C to fix locale-dependent test failure
+         
