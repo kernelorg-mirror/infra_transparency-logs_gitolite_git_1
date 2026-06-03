@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 03 Jun 2026 10:48:01 -0000
-Message-Id: <178048368153.716593.8259415726616858120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Wed, 03 Jun 2026 10:50:35 -0000
+Message-Id: <178048383564.719336.11160106274643253583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/master
-    old: e9096a5a170e7ecd6467bc2e08668ec39897cda7
-    new: eb48730bb827d1550401a5d391903f9d90b493c8
-    log: |
-         eb48730bb827d1550401a5d391903f9d90b493c8 xfrm: iptfs: fix use-after-free on first_skb in __input_process_payload
-         
+  - ref: refs/heads/sysctls-v1
+    old: 0000000000000000000000000000000000000000
+    new: 7c8f50dd793cb0314002e78bb70e3bfd0346e606
