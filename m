@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 03 Jun 2026 14:38:26 -0000
-Message-Id: <178049750637.894544.2033899995884542139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 03 Jun 2026 14:50:34 -0000
+Message-Id: <178049823468.904416.14053165739666687905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/tags/v7.0.10-3
-    old: 0000000000000000000000000000000000000000
-    new: 643eb8fa6f7dcff0b81c61f24ececef1a72367c0
+  - ref: refs/heads/master
+    old: 07b6fc156348bb515ac0a876d49644312c9476d6
+    new: 2a6968b40378dca5650e18e03ad0407738c47be5
+    log: |
+         2a6968b40378dca5650e18e03ad0407738c47be5 advertising: Fix sending extra bytes with MGMT_OP_ADD_EXT_ADV_DATA
+         
