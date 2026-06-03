@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Wed, 03 Jun 2026 13:10:37 -0000
-Message-Id: <178049223704.826733.15826576982726004540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Wed, 03 Jun 2026 13:13:23 -0000
+Message-Id: <178049240395.828101.12697993924247726287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: tatashin
 changes:
-  - ref: refs/heads/for-next
-    old: 8f7168335cb2e438668c5d94eea76621c9a10edd
-    new: ed8f317671d9a6bd1daf2f0cb152e126eae2bf10
+  - ref: refs/heads/kexec-next
+    old: 459a08d029bf6f026b25063708a63bdaa8ccc0b1
+    new: 7eb5f7c5b5d58b4abe78f6a1b0817391c291f199
     log: |
-         ed8f317671d9a6bd1daf2f0cb152e126eae2bf10 selftests: livepatch: set LC_ALL=C to fix locale-dependent test failure
+         7eb5f7c5b5d58b4abe78f6a1b0817391c291f199 kexec_file: skip checksum verification when safe
          
