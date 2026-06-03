@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2613928473744821348=="
+Content-Type: multipart/mixed; boundary="===============4591860379648636629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 03 Jun 2026 21:35:07 -0000
-Message-Id: <178052250761.1207041.14691098163264052296@gitolite.kernel.org>
+Date: Wed, 03 Jun 2026 21:35:10 -0000
+Message-Id: <178052251001.1207130.8777105084286570095@gitolite.kernel.org>
 
---===============2613928473744821348==
+--===============4591860379648636629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0906c117f81c2ae6e6dbfa82719f79c75e1c9325
     new: dfcc2ff12925d99e858eaf539eaa4aaaf81fe2a6
     log: revlist-0906c117f81c-dfcc2ff12925.txt
 
---===============2613928473744821348==
+--===============4591860379648636629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -99,4 +99,4 @@ e23d7c8c1d4ba435c457d7ffb2669175ec819b07 dpaa2-switch: fix handling of NAPI on t
 edceeba4af3df39ec7e446e86ead50bbbbc85849 net: stmmac: Improve Tx timer arm logic further
 dfcc2ff12925d99e858eaf539eaa4aaaf81fe2a6 selftests/net: bind_bhash: fix memory leak in bind_socket
 
---===============2613928473744821348==--
+--===============4591860379648636629==--
