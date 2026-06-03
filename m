@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0748266727382653065=="
+Content-Type: multipart/mixed; boundary="===============6507693513234485217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 03 Jun 2026 15:51:45 -0000
-Message-Id: <178050190556.950021.13275813249224235585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Wed, 03 Jun 2026 16:12:02 -0000
+Message-Id: <178050312278.964231.6211217151803225181@gitolite.kernel.org>
 
---===============0748266727382653065==
+--===============6507693513234485217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: cdc25de481cacafd85a0a471bbeca560c3e98c33
-    new: 33e15a56796392e0ef24ace7af60bad5f0749fb9
-    log: |
-         33e15a56796392e0ef24ace7af60bad5f0749fb9 strip the mbox files
-         
+    old: cdf88b35e06f1b385f7f6228060ae541d44fbb72
+    new: 149324fc762c2a7acef9c26790566f81f475e51f
+    log: revlist-cdf88b35e06f-149324fc762c.txt
 
---===============0748266727382653065==
+--===============6507693513234485217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cdf88b35e06f-149324fc762c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780501852 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1780501904-671548b6029451444f88f2eaa434e6511a037cda
+43c441edacf953b39517a44f5e5e10a93618b226 Bluetooth: RFCOMM: hold listener socket in rfcomm_connect_ind()
+de23fb62259aa01d294f77238ae3b835eb674413 Bluetooth: MGMT: validate advertising TLV before type checks
+23882b828c3c8c51d0c946446a396b10abb3b16b Bluetooth: RFCOMM: validate skb length in MCC handlers
+dd214733544427587a95f66dbf3adff072568990 Bluetooth: L2CAP: reject BR/EDR signaling packets over MTUsig
+5c65b96b549ea2dcfde497436bf9e048deb87758 Bluetooth: hci_sync: reject oversized Broadcast Announcement prepend
+6770d3a8acdf9151769180cc3710346c4cfbe6f0 Bluetooth: bnep: reject short frames before parsing
+37b3009bf5976e8ab77c8b9a9bc3bbd7ff49e37f Bluetooth: fix memory leak in error path of hci_alloc_dev()
+5cbf290b79351971f20c7a533247e8d58a3f970c Bluetooth: ISO: Fix not releasing hdev reference on iso_conn_big_sync
+f50331f2a1441ec49988832c3a95f2edacc47322 Bluetooth: ISO: Fix a use-after-free of the hci_conn pointer
+9ca7053d6215d89c33f28893bfd1625a32919d3f Bluetooth: ISO: Fix data-race on iso_pi fields in hci_get_route calls
+4847c5bca22227100ae69e96af86618b6fd2671f Bluetooth: SCO: Fix data-race on sco_pi fields in sco_connect
+149324fc762c2a7acef9c26790566f81f475e51f Bluetooth: MGMT: Fix backward compatibility with userspace
 
-cdc25de481cacafd85a0a471bbeca560c3e98c33 33e15a56796392e0ef24ace7af60bad5f0749fb9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmogTVwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pIAP/0G4Ofh3rKeifbkjgh3o
-ebMDxD/hkjMLa+qilHokjhUYxnnei7dL4+yZKCHS3sbSaURvGAZQ3gi3GZPNPNri
-wF44wdKae43oxQJdcz56GaqOqxywukCqNFSXBAeOkf8qATXrYIdCd4rY9U/qPzoX
-Zy4ELp8Jro/aaCMsPwXch414vO+9S5vuz5Ds1xzGEq2zbi+O893m7Lz2lWnTS9Yd
-JQ45ylaUMRd8GtRugbtClqDn07JKgsurAX6IK2tTJgX6UYovhGCEg0F2wSTdIJVM
-cGqQfXwIb0wCcSsWKV6D9Kw/NzkkbwbO9PKhJdqObrWK2V0hqKsqeC5q4ozgwAO0
-W+W6Qvs1XMJgnrqxemIjjSBgzrXd8L1beqpyfiuNY6lyGTTO7XDRJzX6Vn+gtwyo
-2t2X2ibcJa1leW7TXtiZ3zlDbUbFQfdVzf25U97agpmqmW9k7rKM82VQnqwbnziw
-x1XTdfAD2WsWBwMs8d87v7CfALcuaDzDwSUm6zzIMJCIcd1InUPP3SJuPWhGox1G
-3F3+mfaKTA/pZLwpc4jQjHOc7rmyXCs1o+/Mm2ot9MzS9dSogL8hQAz6+yyKnV4M
-PN17EKs8ovzPTCoZ3GfVxWtyEYCJ3OiQYB1K3upwEbY3curmLncSZgTiHq5EalnC
-e4Yid3hitcHngdrS8pTEeGhz
-=UzdI
------END PGP SIGNATURE-----
-
---===============0748266727382653065==--
+--===============6507693513234485217==--
