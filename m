@@ -1,34 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 02 Jun 2026 23:44:08 -0000
-Message-Id: <178044384890.227748.9060102556958292292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 03 Jun 2026 00:01:09 -0000
+Message-Id: <178044486948.241129.9461569052121304688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/for-7.2/block
-    old: aa528cd12ca6e7fda15f855b6d2095fd34d167e0
-    new: 3f1eccd37282de91efd0575ee8e212af4bde39b1
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 7aa258538c4434e49d33ee0360fced8493b2e4c1
+    new: 956bf6745503f84c5279d586eba9b95c6799901c
     log: |
-         3f1eccd37282de91efd0575ee8e212af4bde39b1 n64cart: use strscpy in n64cart_probe
-         
-  - ref: refs/heads/for-7.2/io_uring
-    old: ec02fe217fa66d79f8a65e8d28be9295c7f85093
-    new: 1f826f2db9991b4b625448fce14bbb2108f6bd07
-    log: |
-         3979840cd858f30f43ea9f4e7f7f1f56de82d698 io_uring/net: Avoid msghdr on op_connect/op_bind async data
-         4305fcf9c315e36e8ed05057fd9b170df92f2adc io_uring/net: Remove async_size for OP_LISTEN
-         1f826f2db9991b4b625448fce14bbb2108f6bd07 io_uring/nop: Drop a wrong comment in struct io_nop
-         
-  - ref: refs/heads/for-next
-    old: bc34e778b2b165b70ec63b564819a382419a0799
-    new: aaf12721ba5ead3ec0077896202e6de272435714
-    log: |
-         3f1eccd37282de91efd0575ee8e212af4bde39b1 n64cart: use strscpy in n64cart_probe
-         aaf12721ba5ead3ec0077896202e6de272435714 Merge branch 'for-7.2/block' into for-next
+         f67b24754734f7e61458e09f63fca63eacc58b9a perf sample: Add file_offset field to struct perf_sample
+         aa74b31c148cf4aab86c30f05a8afe91907ef676 perf session: Include file offset in event skip/stop messages
+         786cae495eebbe2a7de786a183e002779dea2a9e perf sched: Include file offset in event skip messages
+         56d5f8c889942cf3285d9f2e1dd76572678c0c2a perf timechart: Include file offset in CPU bounds check messages
+         022a6e1f7fef4ee839f82a70d6e13359d8fc457a perf tools: Include file offset and event type name in skip messages
+         3d544958aeed80af62ab6f4b273c800168984bf0 perf timechart: Fix cat_backtrace() use-after-free on corrupted callchain
+         6c91798a4f185c5fb23d02b8131c3585b412b700 perf sched: Replace BUG_ON on invalid CPU with graceful skip
+         956bf6745503f84c5279d586eba9b95c6799901c perf test: Add file offset diagnostic test for corrupted perf.data
          
