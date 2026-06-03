@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0233681159939683015=="
+Content-Type: multipart/mixed; boundary="===============1732148523522288068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 03 Jun 2026 19:20:06 -0000
-Message-Id: <178051440610.1102237.12216223932227904871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 03 Jun 2026 19:20:10 -0000
+Message-Id: <178051441037.1102449.1126367427817920095@gitolite.kernel.org>
 
---===============0233681159939683015==
+--===============1732148523522288068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: 19b79397c0e780d7a26243e8e34553fdc4ef5f20
     new: 95e34a9015cafd2c1b257ad9e68cea2228459b13
     log: |
@@ -26,28 +26,28 @@ changes:
          95e34a9015cafd2c1b257ad9e68cea2228459b13 ASoC: amd: remove unused machine
          
 
---===============0233681159939683015==
+--===============1732148523522288068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1780514404 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1780514403-3de0591793af2e7ccccfbf5ef530a74c07fcc406
+pusher C3F436CA30F5D8EB 1780514408 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1780514407-12107ce6d3bb7c601f36979bf3cca47cf72bd8f0
 
-19b79397c0e780d7a26243e8e34553fdc4ef5f20 95e34a9015cafd2c1b257ad9e68cea2228459b13 refs/heads/for-7.2
+19b79397c0e780d7a26243e8e34553fdc4ef5f20 95e34a9015cafd2c1b257ad9e68cea2228459b13 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmogfmQACgkQJNaLcl1U
-h9CifQf/W7/0NAnTFQP35/GeSWAf9GgAqrZjJSETR6Rf5wAjPlrrlOiNiW5DIlkR
-DP8FFPaN3p/9VYN+GO71cSPkLAzBbIlerN417iu/m2DbsCSAfSuf8H15AhbrVTk8
-d9VMXFQwE+uW+3jDhhEh2d0B4ipoMY31NWLEWbnPsX5G4cgNSBKHuSXEy/v28fet
-IN+KA1ddDQx3o9JXB704vCdK8N8akw1Kfd41lvC4u0kFVKN/04QJ8cDEp0YkKI4y
-9IuUPQ1EqQRDQhg5TTXqEPcMj9Y+wt/1X8otbvrhQm6flJIDPHemuRtDV3z5H+28
-wzJkO3vvwheGy3e+27cLbAfmNCel+A==
-=kS1m
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmogfmgACgkQJNaLcl1U
+h9B07wf+Mo+FxXfo+Yc/2X3b2N27YYJkAh4miSKiX6fFp93rE2sAaI2PDN1X+LS4
+n42YCYUBIWUbBmzPOaSCtKTrJ2E4vIE2M9be278di+yTGS506xH+oS1qQCQ15wzq
+3snpvLTJ68newcgmxhOhmg9eSKxo7EetskLm6CZZ0gcCg51Go+TR3/NFpeiP3Yt8
+3X5Ao2sklc/ypkAQs3KP9yaq5a7Y9jLPPMl1FC6ADCDAe9FxnYM8oQrsy9QlrOqw
+4AkSQkdme0lZPNatPOy5KFaW7t5nXk2QFqYYZGlv4zFovWoErrbrFM0SiLiOLHBF
+Rbm7avbDlqDTcPvn7VHgL0U4xzaFJg==
+=CpIs
 -----END PGP SIGNATURE-----
 
---===============0233681159939683015==--
+--===============1732148523522288068==--
