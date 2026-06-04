@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 04 Jun 2026 02:34:24 -0000
-Message-Id: <178054046452.1436115.3101271418713343507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 04 Jun 2026 02:51:51 -0000
+Message-Id: <178054151133.1449819.3664258823685431450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/todo
-    old: 388f8b0ec31fbb880f137b54ea05a84f4a8369b0
-    new: 166c839387e1bacf8172270c86055e5975f27004
+  - ref: refs/heads/x86/cpu
+    old: 111cbb4596e336373ab93e202918f4cdbf78a4c3
+    new: eabf869d795173a107ad8965e4fb1711d82544b6
     log: |
-         166c839387e1bacf8172270c86055e5975f27004 What's cooking (2026/06 #02)
+         bdf4d8280616308b5bb42babad1432ff4575cb8b tools/x86/kcpuid: Update bitfields to x86-cpuid-db v3.1
+         eabf869d795173a107ad8965e4fb1711d82544b6 x86/cpuid: Update bitfields to x86-cpuid-db v3.1
          
