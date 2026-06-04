@@ -1,69 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============0525139629614611229=="
+Content-Type: multipart/mixed; boundary="===============2964299397016869578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 04 Jun 2026 09:59:33 -0000
-Message-Id: <178056717309.1824118.4763422938968720152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Thu, 04 Jun 2026 10:10:34 -0000
+Message-Id: <178056783493.1833805.2128127390875205194@gitolite.kernel.org>
 
---===============0525139629614611229==
+--===============2964299397016869578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/export-net
-    old: bff650038db1d776c36d629a4331c1aa728b3e8e
-    new: bdc3b7adbb26f2a6197071feb7bcf84ea89b3459
-    log: revlist-bff650038db1-bdc3b7adbb26.txt
+  - ref: refs/heads/b4/slab_alloc_flags
+    old: c7926af97cd80a8fbf931527b2606037126bcfd2
+    new: 4f23093dea59b3fc85ca6f93cee752561b86b031
+    log: revlist-c7926af97cd8-4f23093dea59.txt
 
---===============0525139629614611229==
+--===============2964299397016869578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bff650038db1-bdc3b7adbb26.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c6c5327dd18bec1e1bbf139b2cf5ae53608a9d30 netfilter: xt_NFQUEUE: prefer raw_smp_processor_id
-193989cc6d80dd8e0460fb3992e69fa03bf0ff9b ipvs: clear the svc scheduler ptr early on edit
-36d29ceec32c8206a12dc2810cf65fd394e45baa netfilter: nft_fib_ipv6: bail out of sibling walk if rt got unlinked
-2fcba19caaeb2a33017459d3430f057967bb91b6 netfilter: synproxy: add mutex to guard hook reference counting
-66eba0ffce3b7e11449946b4cbbef8ea36112f56 netfilter: conntrack_irc: fix possible out-of-bounds read
-c32b26aaa2f9216520a38b3f4bfeec846eb3eb8a netfilter: nft_tunnel: fix use-after-free on object destroy
-3027ecbdb5fdf9200251c21d4818e4c447ef78e1 netfilter: nft_ct: bail out on template ct in get eval
-67ba971ae02514d85818fe0c32549ab4bfa3bf49 netfilter: bridge: make ebt_snat ARP rewrite writable
-bb061d3de41707415269be75ebf700efb03ec212 netfilter: nft_byteorder: remove multi-register support
-73bf3cca7de6a73f53b6a52dc3b1c82ae5667a4d pcnet32: stop holding device spin lock during napi_complete_done
-b748765019fe9e9234660327090fc1a9665cdbdd net: Annotate sk->sk_write_space() for UDP SOCKMAP.
-e10902df24488ca722303133acfc82490f7d59ad tcp: Add preempt_{disable,enable}_nested() in reqsk_queue_hash_req().
-9de5cbbe707d1dec14355b5214ae6a9e7f392311 Merge tag 'nf-26-06-01' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-afd0f17ca46258cec3a5cc48b8df9327fe772490 hsr: Remove WARN_ONCE() in hsr_addr_is_self().
-16e408e607a94b646fb14a2a98422c6877ae4b3c net: garp: fix unsigned integer underflow in garp_pdu_parse_attr
-20cf0fb715c41111469577e85e35d15f099473e0 net: rds: clear i_sends on setup unwind
-8173d22b211f615015f7b35f48ab11a6dd78dc99 net: lan743x: permit VLAN-tagged packets up to configured MTU
-b455410146bf723c7ebcb49ecd5becc0d6611482 net: fec: fix pinctrl default state restore order on resume
-5eba3e48d78edd7551b992cb7ba687019b3a78da sctp: diag: reject stale associations in dump_one path
-f723ccaff2fb72b71ae8a9fd283f0dee4d9ae7a3 ipv6: anycast: insert aca into global hash under idev->lock
-b4f26a95848096fc474778be2faf53bb02c74a5f DO-NOT-MERGE: git markup: net
-573d3d71e0a8671e6dde99748aed0830835800b3 DO-NOT-MERGE: git markup: fixes other trees
-af3f93ad1909f2d6889ab4e95984fa76a955533c mptcp: fix missing wakeups in edge scenarios
-ccc4a36a8478923e9e6bedbc545fc89cf09c8337 mptcp: fix retransmission loop when csum is enabled
-e99feb2a84a24b8e28d6d2a4fb08608d2652ee7e mptcp: close TOCTOU race while computing rcv_wnd
-9b2ada4d9febd630379e4da35fd70041dc12331d mptcp: pm: fix extra_subflows underflow on userspace PM subflow creation
-8ca8018accf6a3d81c37ff397c5915be1f08bef9 selftests: mptcp: add test for extra_subflows underflow on userspace PM
-dee55ee795cd7e46ba8db36572deef7aadf2208c mptcp: allow subflow rcv wnd to shrink
-97bfede8655281defb003dd9c46303572648e250 mptcp: sockopt: check timestamping ret value
-f26cf7d093de8d449759e2214ed57262d2a1ea91 mptcp: sockopt: set sockopt on all subflows
-70cb02320641a3a6e0019fac80e05956093d5b10 mptcp: fix uninit-value in mptcp_established_options
-b64259bb3dcb58a6762b7c43f745fab5fec88d48 mptcp: check desc->count in read_sock
-fefff5aace46218d39f69cc6197a9f02bfb10288 mptcp: add-addr: always drop other suboptions
-4a9c28766937a31e67f3ceac174f1e2ad7262452 DO-NOT-MERGE: git markup: fixes net
-ed6f3a0b03d7e28ace33a68352d346a8553f15cb DO-NOT-MERGE: mptcp: add CI support
-5d618d3968f06a058c25a94e59719efcb78065c9 DO-NOT-MERGE: git markup: end common net net-next
-8f883374c650b56929fec52b44a5c9a15b9686e0 DO-NOT-MERGE: git markup: fixes net only
-2828cdb394f8df7ec08c41398b877bbbef85bf74 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-bdc3b7adbb26f2a6197071feb7bcf84ea89b3459 DO-NOT-MERGE: mptcp: enabled by default (net)
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1780567830 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1780567830-ba0d3cf18d7341a3f7f8ebbf30826f4d66cef30a
 
---===============0525139629614611229==--
+c7926af97cd80a8fbf931527b2606037126bcfd2 4f23093dea59b3fc85ca6f93cee752561b86b031 refs/heads/b4/slab_alloc_flags
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmohTxYbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaua4H/jUon1UdRw6g+5oI6CAp
+8AYa60ijJ2S7JSv0DGm6dJWyHfW+PRDo6mo8kfhuyfdUjXRp3vwB5Kf9JmoC6Jej
+6RtXsDdQ2DwxIEA9MIy8qBwX8lycKK2SyN6D1uHsWkIKQz9I9CB2Ujwvbqw/kSW0
+EOiiggF54t++/ROJaHOtYYNr91xbECrz68PGAER3/45vSUkZKarPHsZ5oUGBY16V
+OOuENOphjWpVRP5QJTZ1/Ntxwiv5YvST1t5ooq7apjAZiqUJPK/1VQ9ut1ngoI8u
+1uToOYwIL/osN7qlIfXOVHAxbA9LwXJbkc0bMcUUEUAtPDARBBAN5QoAT13QQMcQ
+WuM=
+=IPO6
+-----END PGP SIGNATURE-----
+
+--===============2964299397016869578==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c7926af97cd8-4f23093dea59.txt
+
+bf469b642f0a2988c6b777ed21cbfc64edaf6ff5 mm/slab: always zero only requested size on alloc
+1fe27c0637170e4a01aa46a5517ee85e50ff1036 mm/slab: introduce slab_alloc_context
+68f272726064f140171eebcb63c7071ed81b9262 mm/slab: introduce alloc_flags
+ba2c8667254e926046953cb58f42db32da577654 mm/slab: add alloc_flags to slab_alloc_context
+33a01d9cff87b2fe580e63c8ed7014312834cd1e mm/slab: refactor get_partial* functions
+d2abf47261a25e8a21848a2f624396db2cc2caba mm/slab: pass alloc_flags to slab allocation
+a1ba1ec6e3b4959342ea3a148fa82bc1883121ea mm/slab: pass alloc_flags to slab_post_alloc_hook()
+93dcf82ed097e5ef5503cbaacafa19c7f1642ef1 mm/slab: pass alloc_flags to alloc_slab_obj_exts()
+3a7d15a1dc52ae04304af43b088f11897924e6bd mm/slab: allow kmem_cache_alloc_bulk() with any gfp flags
+91d5a9a2b2849107523ad3139d9a350862ae53cf mm/slab: pass slab_alloc_context to slab_alloc_node()
+4aae5aa723770e4d28665141cc73107b9645e4e0 mm/slab: pass slab_alloc_context to __do_kmalloc_node()
+ae67dfed0968096b7b128c1eb3b179aeea3fdc0f mm/slab: introduce kmalloc_flags()
+e6a9f02d52e83245a72338481398deb6e43714ef mm/slab: remove __GFP_NO_OBJ_EXT usage from alloc_slab_obj_exts()
+c29303743fe4e25507038900417ff4f20ce26dc2 mm/slab: replace __GFP_NO_OBJ_EXT with SLAB_ALLOC_NO_RECURSE for sheaves
+4f23093dea59b3fc85ca6f93cee752561b86b031 mm: remove the __GFP_NO_OBJ_EXT flag
+
+--===============2964299397016869578==--
