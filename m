@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 04 Jun 2026 20:38:18 -0000
-Message-Id: <178060549895.2321270.1309643262939560752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 04 Jun 2026 20:44:24 -0000
+Message-Id: <178060586458.2325298.5976525724667639191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 9154c4af7829b6f82712b4d1a2a720adddacdb8d
-    new: 6a08076f009e3d9460bebae9f209c1dc1d8a46b7
+  - ref: refs/heads/tmp.perf-tools-next
+    old: b14c8e41187766256bfb9589759c1bd6ca30aa7d
+    new: 7717c9bafcfdde290bf86b313b94c1be994c1dab
     log: |
-         539b7cf1f77a5135241f410777b3c780c6e23994 s390/configs: Enable IOMMUFD and VFIO cdev in defconfigs
-         3daad7f60aa92d0307fa2b2edd38c886a09902f2 s390/bug: Always emit format word in __BUG_ENTRY
-         7c6535c37dbc03c1c35926b7420d66fb122b513a s390: Implement _THIS_IP_ using inline asm
-         6a08076f009e3d9460bebae9f209c1dc1d8a46b7 Merge tag 's390-7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+         e58c0085ae259bbc6538d9002e63034bbab73115 perf lock contention: Allow 'mmap_lock' in -L/--lock-filter
+         55f16bc5dca484eaa54d459255d6112484ca082b perf data ctf: replace libbabeltrace with babeltrace2-ctf-writer
+         3381bcd293c4f3bad0a697c90293c99dc799e34e perf pmu: Recognize 'default_core' as a core PMU and document matching
+         0271382250cf552d3e492a2bfed30dd0786b8928 perf lock contention: Enable end-timestamp accounting for cgroup aggregation
+         f3e17c809f4dceff56f4649520d8f49c19979db7 perf tools: Guard test_bit from out-of-bounds sample CPU
+         2e22d315140ebe23015abd5749bbd156aaa28859 perf sched: Fix thread reference leak in latency_switch_event
+         b5be332dee963a7d3a50ba29f57dc86315c59704 perf sched: Fix NULL dereference in latency_runtime_event
+         7717c9bafcfdde290bf86b313b94c1be994c1dab perf sched: Fix comp_cpus heap overflow with cross-machine recordings
          
