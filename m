@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5116307450696936111=="
+Content-Type: multipart/mixed; boundary="===============5399220614773021706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 04 Jun 2026 23:13:37 -0000
-Message-Id: <178061481738.2436126.6403679548600164675@gitolite.kernel.org>
+Date: Thu, 04 Jun 2026 23:13:40 -0000
+Message-Id: <178061482053.2436379.17987385997658497132@gitolite.kernel.org>
 
---===============5116307450696936111==
+--===============5399220614773021706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 030675aa54cf757769b3db65642433d626b3ed7c
-    new: e43ffb69e0438cddd72aaa30898b4dc446f664f8
-    log: revlist-030675aa54cf-e43ffb69e043.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 73601c9c02c5a35502dc05514fa52ee1410e76c8
+    new: dec84badbd64e52955cb72f808c93ada55666562
+    log: revlist-73601c9c02c5-dec84badbd64.txt
 
---===============5116307450696936111==
+--===============5399220614773021706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-030675aa54cf-e43ffb69e043.txt
+Content-Disposition: attachment; filename=revlist-73601c9c02c5-dec84badbd64.txt
 
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
 8f9d6cd6d3916add4c47a9dd1622e4fc057f877b Input: elan_i2c - increase device reset wait timeout after update FW
@@ -498,5 +498,8 @@ a29c0b0cafc78a45f44ac4a98efee0c11dd7996d Merge tag 'fixes-2026-05-30' of git://g
 968966c2823a4b426a1c71101cb682faa0982892 Merge tag 'x86-urgent-2026-05-31' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d9c51eac648ec953ea534b536d62337be3744b7 Merge tag 'media/v7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 e43ffb69e0438cddd72aaa30898b4dc446f664f8 Linux 7.1-rc6
+2d61e7cf4d338e51a6a6f4ab14fa6bef1596b8a8 i2c: Use named initializers for arrays of i2c_device_data
+66a5552873510b1f81bbccd6eb72eef38db4ea12 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+dec84badbd64e52955cb72f808c93ada55666562 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============5116307450696936111==--
+--===============5399220614773021706==--
