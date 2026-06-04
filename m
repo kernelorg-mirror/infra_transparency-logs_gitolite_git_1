@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4931086246212410660=="
+Content-Type: multipart/mixed; boundary="===============5105676644923741047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 04 Jun 2026 11:02:29 -0000
-Message-Id: <178057094985.1878194.4233197523960727972@gitolite.kernel.org>
+Date: Thu, 04 Jun 2026 11:04:56 -0000
+Message-Id: <178057109681.1879171.13585509694930008086@gitolite.kernel.org>
 
---===============4931086246212410660==
+--===============5105676644923741047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d2cba7afcfdbb0e718c9f3a76a042117e9d9bb36
-    new: 35dde532c7dddb799a8864fd87aa5b15dbeb89cb
+    old: 35dde532c7dddb799a8864fd87aa5b15dbeb89cb
+    new: 0aa8643f9f6c3fc8d9e496c5d9eb18e54c311ca3
     log: |
-         35dde532c7dddb799a8864fd87aa5b15dbeb89cb 6.6-stable patches
+         e10ab602458ebab8cfb0c35f16521613806b4f78 6.12-stable patches
+         dbc49057d6232d89338a42901f3e66c048a0eb40 6.18-stable patches
+         cd6066fe45131e81fa3adba84d43b2946efc3b22 7.0-stable patches
+         0aa8643f9f6c3fc8d9e496c5d9eb18e54c311ca3 drop queue-6.12/x86-ftrace-relocate-rip-relative-percpu-refs-in-dynamic-trampolines.patch
          
 
---===============4931086246212410660==
+--===============5105676644923741047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780570894 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780571041 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1780570947-66c394dc26078502772226373f940cee8d21314a
+nonce 1780571094-63d6e831c54654277c24d2bc96e8131830b8f9a2
 
-d2cba7afcfdbb0e718c9f3a76a042117e9d9bb36 35dde532c7dddb799a8864fd87aa5b15dbeb89cb refs/heads/master
+35dde532c7dddb799a8864fd87aa5b15dbeb89cb 0aa8643f9f6c3fc8d9e496c5d9eb18e54c311ca3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmohWw4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WuIQALrA9bg55qgQmV3agSlF
-WR+95JbZvrgSB/QXehA65yMLJ/e9029VI77MqufIaXllvfem0cwt6uw6VDJEh36F
-OcsLgpzNnEjh37r775VWM77dtEnbzgpBorIvmd+Dt8k8BnqzWBOcE/YTImuqi1ZK
-7YnQ6HxsM8fsvrSkp8dMeeJk4ZasUrLnEg76IQsR9C/OrslckLDW+ETyGwuZvljz
-OQ1fZWtjt/buXqiRod3mUhZw9iCZ96ZGG0bNYgFaW3nW2izJ/CW2xIyH7pWykktQ
-UJItSUfq0uPlZu/T2Cl4ZTVLXxViR0FID6S4Li1x5NFAuCray2xnt//kX8VOWhJ5
-xPVypy70jxAldIFfhyd+OGXqXCe/FRuHTmDbiNusYgpwlo3GDRWUedWg8Ib1j23e
-TYNfeoEJ5fTThH7mR6aw5LKtaNgmq8XLLUOX4LJ3Ivxy8+uy51LXCcYTh9nmRsHD
-4WLSAOmdaMERP8KyjG1XOhSv4xfwY0w7Dp0M6qQ40SCdn5ZS5tqD09o2MxiqHeHG
-ANCAdlwEXnkPybE5unmPCFJoEciTT6LR9QNVT8p+BWBB5AwUxAj9M4foN2O3yixp
-pnGh7PE/vExbLzIKn8SZH1bIln4fA6ACOCaVvEonxj5eDMmxrfhim/+za96AAJuD
-QOMNcguuIvi6MfSigqxKptAv
-=oJi4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmohW6EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/HsP/As9+mSl3knW7ztdb6xM
+KM57AJ1tCtSd+2dP2OMnWfilYVplQrwcgg9pdJRsFCuK5jZVAK4sscpyHzfVtwfo
+os5ezuD4LcDG+hk0xFA8ttKiByjxwLy66rJeIFQYmMdsJNGW/oo2CzJTeYuB5Rkr
+/iZx5brdrnU8ypdmqISwgw2d/J4ZBxJ/8OOZSeCjVwnCGUBbq5ypxSXbYopGjk6d
+9FT9v6hmryEL1Tpk0V+/nay0Ok99DvsuTgP/+F0Sszhm9yGHAJE3MlIGnp/pNWou
+j/FZVvoPzT7sb5mGifdgskqzm2NdOSR5QR7h/y/m1UfR/CJWYkEOQmRT1fbj25HN
+8BNtZ88xHwG7Q7QO8IqANjXaaoCynDtAetEkm7UZjCjeGW4j8ARjXktkWp2ve1Su
+1EjSWK23vmPaP/ksuW6evTmvQ87VTug7lPloaBcZmf1oflMkA/pULNODUmOGclco
+Cw01RedFjpfEtPOE/KfnkAkPshAlqwwsPVahem+dCy3ZZZoVImWk9Q4HIv7M77+k
+xnK5jKtA6ueHt25mBwD5aQtWjoepNjsPh3Dri2KDskRPIS8pJbdpVhQvQWew0VNf
+7GmSuS328PKJoE7etYVlDicvObVahZPEj4NGOpL1FB4gfBOjXgJotFkk2fO84XUf
+DFBncWNf1rk58sAzEaVoBNpN
+=3B1S
 -----END PGP SIGNATURE-----
 
---===============4931086246212410660==--
+--===============5105676644923741047==--
