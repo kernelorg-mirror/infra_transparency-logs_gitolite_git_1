@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 04 Jun 2026 20:19:09 -0000
-Message-Id: <178060434957.2307191.13477848852656158194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 04 Jun 2026 20:38:18 -0000
+Message-Id: <178060549895.2321270.1309643262939560752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: bf779ac281603eec02cb195bdb28382d2f1bc5e7
-    new: ee1f92eec952b298dc07a3492b33bb0294a80d5a
+    old: 9154c4af7829b6f82712b4d1a2a720adddacdb8d
+    new: 6a08076f009e3d9460bebae9f209c1dc1d8a46b7
     log: |
-         6f2443d865f6d7a96bf8effe0b465c4dcffea4e6 foo
-         e84bfbd27aa9b4dab86988d5e7ae7aab2dc05533 foo
-         63f29fcb37d393fad2d5dd9784a6296b116f2878 foo
-         31aac79f435b99551d94b16ae1a174b072de241d foo
-         ee1f92eec952b298dc07a3492b33bb0294a80d5a foo
+         539b7cf1f77a5135241f410777b3c780c6e23994 s390/configs: Enable IOMMUFD and VFIO cdev in defconfigs
+         3daad7f60aa92d0307fa2b2edd38c886a09902f2 s390/bug: Always emit format word in __BUG_ENTRY
+         7c6535c37dbc03c1c35926b7420d66fb122b513a s390: Implement _THIS_IP_ using inline asm
+         6a08076f009e3d9460bebae9f209c1dc1d8a46b7 Merge tag 's390-7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
          
