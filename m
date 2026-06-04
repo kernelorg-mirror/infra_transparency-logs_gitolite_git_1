@@ -1,51 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2877291472767352060=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 04 Jun 2026 13:15:43 -0000
-Message-Id: <178057894348.1977485.12179958723375884561@gitolite.kernel.org>
-
---===============2877291472767352060==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 04 Jun 2026 13:17:52 -0000
+Message-Id: <178057907282.1978455.13371244245585158165@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 95e34a9015cafd2c1b257ad9e68cea2228459b13
-    new: ce3d971735bbcb50c43c670c98fac0bfd20f8304
+  - ref: refs/heads/for-linus
+    old: c9c64820a48dcc739311fd7a9138511888539d02
+    new: d2dcd85f9e09fe3566d4cdcd357856a42ac73f93
     log: |
+         4790af1cc2e8871fb31f28c66e42b9a949a23992 ASoC: fsl_sai: Fix 32 slots TDM broken by integer shift UB in xMR write
+         cad530a8371124da988608f11df30b7dd82391ef ASoC: amd: yc: Add MSI Raider A18 HX A9WJG to quirk table
+         d2dcd85f9e09fe3566d4cdcd357856a42ac73f93 ASoC: amd: acp70: add standalone RT721 SoundWire machine
+         
+  - ref: refs/heads/for-next
+    old: b2a71527074f5e4d273a25f6c89fb159172b2877
+    new: aba8729073391aae3f49beb52b0c6bf7c92915e6
+    log: |
+         4790af1cc2e8871fb31f28c66e42b9a949a23992 ASoC: fsl_sai: Fix 32 slots TDM broken by integer shift UB in xMR write
+         cad530a8371124da988608f11df30b7dd82391ef ASoC: amd: yc: Add MSI Raider A18 HX A9WJG to quirk table
          66c75c7e04983f96f6b2f467305eea404aa096d7 ASoC: soc-core: remove card->dmi_longname
          ce3d971735bbcb50c43c670c98fac0bfd20f8304 ASoC: tegra: ADX: use of_device_get_match_data
+         d2dcd85f9e09fe3566d4cdcd357856a42ac73f93 ASoC: amd: acp70: add standalone RT721 SoundWire machine
+         aba8729073391aae3f49beb52b0c6bf7c92915e6 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
          
-
---===============2877291472767352060==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1780578941 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1780578941-4fc05db5ddb01e91fc03808b77ab2006814f79b3
-
-95e34a9015cafd2c1b257ad9e68cea2228459b13 ce3d971735bbcb50c43c670c98fac0bfd20f8304 refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmohen4ACgkQJNaLcl1U
-h9C5mgf+Lyq8jItnAzuBj6Yo2Vu/gC8vEba7viHUm8IvH1z6EqgCaqZZRz54oZKQ
-CoIcxbbRwQgAkQpvaCKqOie/dLRyKHNjZN5Mw2ylh/uwgV9Xg9ZtID1HrdWHpILS
-l7cQEB0tckHIbTYvcGCMCJeMcxVmbyAwA0pcv0DOlnDQbv59eNdDPp9a2Vn6Deze
-zUJVBILjnf2Xy0SC8fpk7vViP8VriJkAhJgPL90p5cfmFxS6oYev3YAQh1ID1Mq5
-F2NiEbYdfMNWw3X/DxcZxYL+VjQG37woJwG3GFiAEgQMCjvnhqjsx1y2KuazyHym
-iWQ2lc0aiKzTFR/R9L5R49k+hhBoAw==
-=H3+p
------END PGP SIGNATURE-----
-
---===============2877291472767352060==--
