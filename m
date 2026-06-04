@@ -1,53 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1637755207482570935=="
+Content-Type: multipart/mixed; boundary="===============1310129572457814775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 04 Jun 2026 11:34:42 -0000
-Message-Id: <178057288272.1902979.3702119612710738096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Thu, 04 Jun 2026 11:34:51 -0000
+Message-Id: <178057289114.1903220.13112252513088824413@gitolite.kernel.org>
 
---===============1637755207482570935==
+--===============1310129572457814775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/sasha-cvss-important
-    old: a2522015283a16b7353d36f32e9febf7ae3dc479
-    new: 17085f4d980f29c017d2f2e0dcdb884043588a65
-    log: revlist-a2522015283a-17085f4d980f.txt
+  - ref: refs/heads/for-next
+    old: 8d1e63387f7cc8cdfd030f8d5b94f0092d31c11e
+    new: eee3f1a62405d1dd90c507215d4f059c29f1f917
+    log: revlist-8d1e63387f7c-eee3f1a62405.txt
 
---===============1637755207482570935==
+--===============1310129572457814775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2522015283a-17085f4d980f.txt
+Content-Disposition: attachment; filename=revlist-8d1e63387f7c-eee3f1a62405.txt
 
-fefd4c868b427fe843a1287ebda6ac5be72de57b proposed: Add Lee's v6.19.4 results
-abe50a9de8453879e762259504379bbec6632138 sasha: review v7.0.11
-c98cafa76cd4341a5e75a4ca3dd0da11308689e8 assign a cve on request
-cdc25de481cacafd85a0a471bbeca560c3e98c33 assign some 6.19.4 cve ids
-33e15a56796392e0ef24ace7af60bad5f0749fb9 strip the mbox files
-01e6262d8ad30279f316286a2ec521e210cf196d assign a new cve id on request
-398ab05528e2acf20a9f2a42afc9f52e5ae3e8fe CVE-2026-46242: Add CVSS 3.1 score (7.8 HIGH)
-e95ef9e88493c61cb319cda545a2811834749b1e CVE-2026-45956: Add CVSS 3.1 score (7.8 HIGH)
-35a2ab59fa26866f93e56d758a383c8bc8660a7b CVE-2026-45955: Add CVSS 3.1 score (7.1 HIGH)
-250ef8f7fd60851a877d87c5c4d12a256d5938bc CVE-2026-46243: Add CVSS 3.1 score (7.1 HIGH)
-ef19442ed5d32bfb4e81dff4f2ccc65296551b89 CVE-2026-46271: Add CVSS 3.1 score (7.8 HIGH)
-bff814b876af00b8790d77426f0337b32d427286 CVE-2026-46273: Add CVSS 3.1 score (8.6 HIGH)
-0f6a28ba95caf60ffa0ee6dacdca646ce6bc48ff CVE-2026-46270: Add CVSS 3.1 score (8.4 HIGH)
-caa9dc6f3df2bb11e51d3c11e94ba20764215d15 CVE-2026-46266: Add CVSS 3.1 score (9.1 CRITICAL)
-23b4abc2b81139639bb61e1afb5f238895a277a1 CVE-2026-46265: Add CVSS 3.1 score (7.5 HIGH)
-b8796254fdf43fdc539eb42b24860b6a473b8a6c CVE-2026-46264: Add CVSS 3.1 score (8.8 HIGH)
-9c672269bc10a1790d8229a82374b52aa5e62191 CVE-2026-46263: Add CVSS 3.1 score (7.8 HIGH)
-a305744f84f11d5a67aedc5165702fb7b7ad9916 CVE-2026-46260: Add CVSS 3.1 score (7.8 HIGH)
-791da7f19997b2e4716902e9dad596f5cfb931a8 CVE-2026-46253: Add CVSS 3.1 score (7.8 HIGH)
-886a6e86eb4408d0ecbc3e9586db73b2f2a67510 CVE-2026-46259: Add CVSS 3.1 score (7.8 HIGH)
-9f28e7ca49fc126d6a6d9193ea256ac9a0ff0452 CVE-2026-46251: Add CVSS 3.1 score (8.4 HIGH)
-29b651a0a3095e5194dca86af752a076e3dba1b4 CVE-2026-46250: Add CVSS 3.1 score (7.3 HIGH)
-17085f4d980f29c017d2f2e0dcdb884043588a65 CVE-2026-46244: Add CVSS 3.1 score (9.1 CRITICAL)
+2bbf12f038cd8a600a4ba6e13c96786f987a04b0 fuse: alloc pqueue before installing fch in fuse_dev
+e65c71de497dc10abcbbdb81b91a081528988b90 fuse: simplify fuse_dev_ioctl_clone()
+9200c271f75d8a2770fc6748d2d35178285fcd30 fuse: {io-uring} drop kernel-doc notation for a comment
+04774e678f09c7888a5953cf6a326b79e0ecb3b0 fuse: fuse_dev_i.h: clean up kernel-doc warnings
+a7237e3d41d888b8902d5f42012498ee95878495 fuse: fuse_i.h: clean up kernel-doc comments
+d1900d13329a5f6c78dd59294e82236db792b5c1 fuse: drop redundant err assignment in fuse_create_open()
+746ddad223a864e64c07f9d4e5033cb004d23b72 fuse: reduce attributes invalidated on directory change
+276df63e0382ae709a11307b9ef89ec0ac248139 fuse: drop redundant check in fuse_sync_bucket_alloc()
+4cff78f6873cef293a6275c2f6ec418a25dbdf62 fuse: remove redundant buffer size checks for interrupt and forget requests
+e5dd54d417300a015283296854d58650433b7ae2 fuse: expand MAINTAINERS with subsystem info, update mailing list
+24a841a93902e1cf0f3bb312de1b0e353d42224e fuse: use current creds for backing files
+e5a80522bde4b48e5b9e9bafc3552f349ba09672 fuse: re-lock request before replacing page cache folio
+8178612b1532296b2f5111ec454a6cefec2de4c0 fuse: re-lock request before returning from fuse_ref_folio()
+72c74e842540555dadde3540acde8073b77156f6 virtiofs: fix UAF on submount umount
+2fc6b18955ff1f386c811350f7f159cb81cc9878 fuse: convert page array allocation to kcalloc()
+eee3f1a62405d1dd90c507215d4f059c29f1f917 fuse: use QSTR() instead of QSTR_INIT() in fuse_get_dentry
 
---===============1637755207482570935==--
+--===============1310129572457814775==--
