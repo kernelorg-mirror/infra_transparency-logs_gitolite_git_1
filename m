@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 04 Jun 2026 18:04:37 -0000
-Message-Id: <178059627713.2205624.17628694539236204082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 04 Jun 2026 18:07:33 -0000
+Message-Id: <178059645367.2209240.5566417441790457721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 85842b61f64cac93d28e129d35193e329d463fd1
-    new: e55ef792b2a257299083fe241c7624407716c987
+  - ref: refs/heads/kernel-7.0.10/changelog
+    old: 0bd4d0b21e7de785a32f6b752ea6b8fe46cc7c9c
+    new: a044d91e9684ca8660babd509fcd1fbae981298a
     log: |
-         1ff3f528e67d20e2b1483dcaba899dc7832b2e6b rpmsg: char: Fix use-after-free on probe error path
-         e55ef792b2a257299083fe241c7624407716c987 Merge branches 'rproc-next' and 'rpmsg-next' into for-next
+         a044d91e9684ca8660babd509fcd1fbae981298a kernel-7.0.10-4
          
