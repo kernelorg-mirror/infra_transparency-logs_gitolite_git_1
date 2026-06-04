@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7981873906909498749=="
+Content-Type: multipart/mixed; boundary="===============5374890173522641844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 04 Jun 2026 18:10:19 -0000
-Message-Id: <178059661966.2212632.8615675798885330962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 04 Jun 2026 18:10:29 -0000
+Message-Id: <178059662940.2213232.10019663511834499691@gitolite.kernel.org>
 
---===============7981873906909498749==
+--===============5374890173522641844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 0dd7ec3196c280ebd8743216405e76281acd59df
     log: revlist-7aa258538c44-0dd7ec3196c2.txt
 
---===============7981873906909498749==
+--===============5374890173522641844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ e634d479a1b55fad61d984654b01bd50c6d1d51a perf test: Add -j/--junit option for JU
 815ef82fe6663dbc909c7f2f83ea99ce0f4b2a26 perf test: Add shell test to validate JUnit XML reporting output
 0dd7ec3196c280ebd8743216405e76281acd59df perf test: Remove /usr/bin/cc dependency from Intel PT shell test
 
---===============7981873906909498749==--
+--===============5374890173522641844==--
