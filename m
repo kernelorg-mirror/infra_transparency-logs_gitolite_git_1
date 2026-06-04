@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2281939435916562313=="
+Content-Type: multipart/mixed; boundary="===============1314898358004566319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 04 Jun 2026 00:20:17 -0000
-Message-Id: <178053241748.1329038.9944500943199614817@gitolite.kernel.org>
+Date: Thu, 04 Jun 2026 00:20:19 -0000
+Message-Id: <178053241964.1329248.13241615542727027135@gitolite.kernel.org>
 
---===============2281939435916562313==
+--===============1314898358004566319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: fc377d16533a55945dd0c03405faebe58f855654
-    new: ef1eb514592727ba417fac3916155c530f189264
-    log: revlist-fc377d16533a-ef1eb5145927.txt
+  - ref: refs/heads/mm-unstable
+    old: 53ec7095e352471187404bc07829fc418b1dd266
+    new: 7f981ca4cef222e26fc2b4ceb2d2bfe7a6153d3a
+    log: revlist-53ec7095e352-7f981ca4cef2.txt
 
---===============2281939435916562313==
+--===============1314898358004566319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc377d16533a-ef1eb5145927.txt
+Content-Disposition: attachment; filename=revlist-53ec7095e352-7f981ca4cef2.txt
 
 2e5c6f4fd4001562781e99bbfc7f1f0127187542 ipc/shm: serialize orphan cleanup with shm_nattch updates
 0ade3a8d83a8f5bc274e1ace776c1a26aa7a0308 mm/cma_sysfs: skip inactive CMA areas in sysfs
@@ -188,8 +188,5 @@ f83f716af09b3961df31ec752386aa692b37c354 selftests/mm: use ksft_exit_skip() inst
 43b36bcef37bd3870d4d4f969d08a7ed32e90d41 alloc_tag: fix use-after-free in /proc/allocinfo after module unload
 7e8452fd46fb4e997304f0e668fdf6d0e1179266 mm/alloc_tag: replace fixed-size early PFN array with dynamic linked list
 7f981ca4cef222e26fc2b4ceb2d2bfe7a6153d3a lib: split codetag_lock_module_list()
-ec383fff98f3216a4103edf598dad9f3a69d6926 mm: page_isolation: avoid unsafe folio reads while scanning compound pages
-ce28d714011d080582f95252786dc88e86c046f1 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-ef1eb514592727ba417fac3916155c530f189264 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2281939435916562313==--
+--===============1314898358004566319==--
