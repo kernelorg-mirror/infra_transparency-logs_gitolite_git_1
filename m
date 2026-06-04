@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 04 Jun 2026 15:10:09 -0000
-Message-Id: <178058580921.2066874.2410545444345916993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 04 Jun 2026 15:17:10 -0000
+Message-Id: <178058623062.2071435.14434538512588726881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/main
-    old: 83ba195fa4f6e9004f59a0121dfb034fa911f65b
-    new: fdb064bf64e5df738f5f823a11f315340679d336
+  - ref: refs/heads/controller/dwc-qcom
+    old: 29f692985819f4089f02a86e151a72f6d4cdd90d
+    new: e0779713a1e2f891aeec53e629dbbd33f423c629
     log: |
-         fdb064bf64e5df738f5f823a11f315340679d336 iplink: add support for setting IPv4 devconf parameters
-         
-  - ref: refs/heads/master
-    old: 83ba195fa4f6e9004f59a0121dfb034fa911f65b
-    new: fdb064bf64e5df738f5f823a11f315340679d336
-    log: |
-         fdb064bf64e5df738f5f823a11f315340679d336 iplink: add support for setting IPv4 devconf parameters
+         e0779713a1e2f891aeec53e629dbbd33f423c629 PCI: qcom: Initialize DWC MSI lock for firmware-managed ECAM hosts
          
