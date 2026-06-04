@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 04 Jun 2026 02:13:16 -0000
-Message-Id: <178053919672.1419584.3255148867570553161@gitolite.kernel.org>
+Date: Thu, 04 Jun 2026 02:19:54 -0000
+Message-Id: <178053959456.1423653.3057370545038795092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a02a765bd5c2ae7705144829b2911c96c29db6ba
-    new: 1681cb1bde051c3b9ebbd337c0bfdd3e74167b2f
+    old: 1681cb1bde051c3b9ebbd337c0bfdd3e74167b2f
+    new: bd3beb5c8691318048043d6d2c78d78189d66bdd
     log: |
-         1681cb1bde051c3b9ebbd337c0bfdd3e74167b2f net: ibm: emac: fix unchecked platform_get_irq return value
+         ee5aee77bcba421fd2830e5036a18c206f7c2844 ipv6: exthdrs: recompute network header pointer once
+         bd3beb5c8691318048043d6d2c78d78189d66bdd eth: bnxt: disable rx-copybreak by default
          
