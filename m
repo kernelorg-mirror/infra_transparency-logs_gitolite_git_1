@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6405765345371722708=="
+Content-Type: multipart/mixed; boundary="===============7888051571760399788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 04 Jun 2026 14:46:55 -0000
-Message-Id: <178058441566.2046195.8331991136014956534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 04 Jun 2026 14:47:10 -0000
+Message-Id: <178058443009.2046548.2037528138432420703@gitolite.kernel.org>
 
---===============6405765345371722708==
+--===============7888051571760399788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 4762ace31ed81008a6cb00dfc708bdf18ae936cf
     log: revlist-956bf6745503-4762ace31ed8.txt
 
---===============6405765345371722708==
+--===============7888051571760399788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ e634d479a1b55fad61d984654b01bd50c6d1d51a perf test: Add -j/--junit option for JU
 0dd7ec3196c280ebd8743216405e76281acd59df perf test: Remove /usr/bin/cc dependency from Intel PT shell test
 4762ace31ed81008a6cb00dfc708bdf18ae936cf perf pmu: Recognize 'default_core' as a core PMU and document matching
 
---===============6405765345371722708==--
+--===============7888051571760399788==--
