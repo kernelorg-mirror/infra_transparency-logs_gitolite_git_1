@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 04 Jun 2026 18:03:44 -0000
-Message-Id: <178059622461.2205018.9385903590697594963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Thu, 04 Jun 2026 18:04:37 -0000
+Message-Id: <178059627713.2205624.17628694539236204082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 2a6968b40378dca5650e18e03ad0407738c47be5
-    new: 646014a6a246fe99df27da12d2de7bcd2e04d0df
+  - ref: refs/heads/for-next
+    old: 85842b61f64cac93d28e129d35193e329d463fd1
+    new: e55ef792b2a257299083fe241c7624407716c987
     log: |
-         e60d07255327db3fc4e3a28d7fcc792cd42c34d0 build: Support libical 4.0
-         646014a6a246fe99df27da12d2de7bcd2e04d0df profile: Set L2CAP IMTU for OBEX profile listeners
+         1ff3f528e67d20e2b1483dcaba899dc7832b2e6b rpmsg: char: Fix use-after-free on probe error path
+         e55ef792b2a257299083fe241c7624407716c987 Merge branches 'rproc-next' and 'rpmsg-next' into for-next
          
