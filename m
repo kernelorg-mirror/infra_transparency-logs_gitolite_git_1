@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 04 Jun 2026 19:41:45 -0000
-Message-Id: <178060210561.2280402.18113734286169513628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tyhicks/ecryptfs
+Date: Thu, 04 Jun 2026 19:50:20 -0000
+Message-Id: <178060262073.2287300.17929853114354187452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tyhicks/ecryptfs
+user: tyhicks
 changes:
-  - ref: refs/heads/for-next
-    old: 0c1b852f13e207d642cef5c22002a91c8f07673e
-    new: e1686ca81dbf3edbde589b7daf312b45cbf76e03
+  - ref: refs/heads/next
+    old: 4d97a37e2cedb008eb39354b2a4e2af9ae8bdbe7
+    new: 95ce5ffd54cf66098f91892f98606c3bd33846fe
     log: |
-         e1686ca81dbf3edbde589b7daf312b45cbf76e03 of: reserved_mem: avoid post-init UAF when alloc_reserved_mem_array() fails
+         95ce5ffd54cf66098f91892f98606c3bd33846fe ecryptfs: use kasprintf in ecryptfs_crypto_api_algify_cipher_name
          
