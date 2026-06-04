@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Thu, 04 Jun 2026 14:59:33 -0000
-Message-Id: <178058517360.2056638.17783539342124509235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 04 Jun 2026 14:59:58 -0000
+Message-Id: <178058519853.2056970.228286770585859680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/virtio/msg-dnu
-    old: a740cbc324fe03aa50a114359192fadf06404c76
-    new: aafcdab19302d3a678d588a6ad52a3a3e0a2e33a
+  - ref: refs/heads/master
+    old: 48e9184047659b6b51a16c5fe6547e1122372878
+    new: 43f57907f00580ee5553de2088948597f5145beb
     log: |
-         8564d4480510b4412a5d7eb4f0a4e56c2d58f1e2 DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
-         0c5972ef3d787a669361b3c2d1a4fbee090a4d31 DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
-         99b970e042d3e75d68f12d72d76ec3e3482be7eb DNU: defconfig: arm64: Reset to baseline
-         c1935e700a4d86b8c459138c5fd278dea085921b DNU: defconfig: arm64: Enable virtio-msg and qemu/xen options
-         aafcdab19302d3a678d588a6ad52a3a3e0a2e33a DNU: defconfig: arm64: Enable built-in initramfs for guest testing
+         3474e5608b36af90c03b8da60b415ae024602dde patches/next: commit_target() failure pid leak fix: wordsmith   for rfc v1.1
+         441297b051e1df2ca38b45be73774e276ad29cf1 patches/posted: add target commit failure pid leak rfc v1.1
+         8a6716f85a0a202d1b7de56a1df097f7c24ac402 patches/posted: add msgid for commit_target() failure pid leak
+         43f57907f00580ee5553de2088948597f5145beb patches/next: target commit failure pid leak: add proactive changelog
          
