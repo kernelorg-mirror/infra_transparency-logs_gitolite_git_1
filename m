@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8013802158695719225=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/docsko/korg
-Date: Thu, 04 Jun 2026 14:51:36 -0000
-Message-Id: <178058469661.2050616.12953995368943017997@gitolite.kernel.org>
-
---===============8013802158695719225==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Thu, 04 Jun 2026 14:52:57 -0000
+Message-Id: <178058477732.2051266.3675290251532903728@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/docsko/korg
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: c332ef4898f567a654ff71f952f1b1364b1ed5a1
-    new: 338ffbb96977962e3931c7d6d5676d51f3dcd2e9
+    old: 73e34a70ff4ea902ae016037d1136522e448ec00
+    new: 406909b825c9645a434e6e16d781b40c0aa9d053
     log: |
-         338ffbb96977962e3931c7d6d5676d51f3dcd2e9 Add a few alternative providers to Fastmail
+         ca5c5e9600544ccba240323a11ad7a1db9688b7c TODO: add another bug to fix
+         1a99deaa36caf0d521ffeec78069da8572bc7836 hkml_view_mails: writeback mails cache after refresh
+         406909b825c9645a434e6e16d781b40c0aa9d053 TODO: add an item for removing untagged mails from the list
          
-
---===============8013802158695719225==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1780584695 -0400
-pushee gitolite.kernel.org:pub/scm/docs/docsko/korg
-nonce 1780584695-6b51423c965f4f097c5aef1fc75d6db092ab3ce7
-
-c332ef4898f567a654ff71f952f1b1364b1ed5a1 338ffbb96977962e3931c7d6d5676d51f3dcd2e9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaiGQ9wAKCRC2xBzjVmSZ
-bPBeAQCbWWR4ave4r0CvZ9iuBVF3tYGH9mnyUBevhBA1eMwfFQEAx3p7UC6tWrKN
-QPJk1EzSzToKS7Cufm+kiqOtVlM0DwI=
-=UVti
------END PGP SIGNATURE-----
-
---===============8013802158695719225==--
