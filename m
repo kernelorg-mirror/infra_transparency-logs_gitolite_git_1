@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 04 Jun 2026 20:12:30 -0000
-Message-Id: <178060395016.2302849.16582082453892641168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 04 Jun 2026 20:19:09 -0000
+Message-Id: <178060434957.2307191.13477848852656158194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 0dd7ec3196c280ebd8743216405e76281acd59df
-    new: b14c8e41187766256bfb9589759c1bd6ca30aa7d
+  - ref: refs/heads/master
+    old: bf779ac281603eec02cb195bdb28382d2f1bc5e7
+    new: ee1f92eec952b298dc07a3492b33bb0294a80d5a
     log: |
-         978d6a30cf017a1f4e7d153ec7a6f5b6ff64d8dd perf tools: Guard test_bit from out-of-bounds sample CPU
-         902b30ab886261ec00698441cf27234004f5eb4a perf sched: Fix thread reference leak in latency_switch_event
-         8956aeffea48c82db9c8b94d8abe481dc4ce00b4 perf sched: Fix NULL dereference in latency_runtime_event
-         b14c8e41187766256bfb9589759c1bd6ca30aa7d perf sched: Fix comp_cpus heap overflow with cross-machine recordings
+         6f2443d865f6d7a96bf8effe0b465c4dcffea4e6 foo
+         e84bfbd27aa9b4dab86988d5e7ae7aab2dc05533 foo
+         63f29fcb37d393fad2d5dd9784a6296b116f2878 foo
+         31aac79f435b99551d94b16ae1a174b072de241d foo
+         ee1f92eec952b298dc07a3492b33bb0294a80d5a foo
          
