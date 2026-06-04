@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 04 Jun 2026 09:14:28 -0000
-Message-Id: <178056446805.1790201.13210836122456301522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 04 Jun 2026 09:24:30 -0000
+Message-Id: <178056507064.1797514.16706964618771010773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/tags/trace-v7.1-rc6
+  - ref: refs/tags/v7.1-rockchip-arm32fixe
     old: 0000000000000000000000000000000000000000
-    new: f9504915379aa495293ca8adc857a1ee27407952
+    new: f1d0f1cf35edd55cc6e7cbf144644854728559bc
