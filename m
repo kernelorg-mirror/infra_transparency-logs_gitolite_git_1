@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 04 Jun 2026 15:03:12 -0000
-Message-Id: <178058539293.2060566.2855346009756372214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Thu, 04 Jun 2026 15:10:09 -0000
+Message-Id: <178058580921.2066874.2410545444345916993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/master
-    old: 01e6262d8ad30279f316286a2ec521e210cf196d
-    new: 1cadb0a2f5d8c54d998518fd8f57d87e4c9dce45
+  - ref: refs/heads/main
+    old: 83ba195fa4f6e9004f59a0121dfb034fa911f65b
+    new: fdb064bf64e5df738f5f823a11f315340679d336
     log: |
-         23696e4e73127df1ce102f2e7e6d378c2dbcbac1 proposed: Add Lee's v7.0.4 results
-         6f0714bb9248d2973fd197f3fd8aa9ca2ecc4fa6 proposed: Add Lee's v7.0.7 results
-         1cadb0a2f5d8c54d998518fd8f57d87e4c9dce45 proposed: Add Lee's v7.0.9 results
+         fdb064bf64e5df738f5f823a11f315340679d336 iplink: add support for setting IPv4 devconf parameters
+         
+  - ref: refs/heads/master
+    old: 83ba195fa4f6e9004f59a0121dfb034fa911f65b
+    new: fdb064bf64e5df738f5f823a11f315340679d336
+    log: |
+         fdb064bf64e5df738f5f823a11f315340679d336 iplink: add support for setting IPv4 devconf parameters
          
