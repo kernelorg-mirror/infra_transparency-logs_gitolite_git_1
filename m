@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 04 Jun 2026 02:01:36 -0000
-Message-Id: <178053849643.1409783.2625917004967762534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 04 Jun 2026 02:02:41 -0000
+Message-Id: <178053856154.1410319.17425891332201221213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: d3915a1f5a4bc0ac911032903c3c6ab8df9fcc7c
-    new: 672bd0519e27c357c43b7f8c0d653fce3817d06e
+  - ref: refs/heads/dt/next
+    old: e6744a3fefcea709d46f7a1c507d588cb841c919
+    new: 0c1b852f13e207d642cef5c22002a91c8f07673e
     log: |
-         672bd0519e27c357c43b7f8c0d653fce3817d06e ptp: vclock: Switch from RCU to SRCU
+         0c1b852f13e207d642cef5c22002a91c8f07673e drivers/of: fdt: Make ibm,phandle logic only happen on pseries
          
