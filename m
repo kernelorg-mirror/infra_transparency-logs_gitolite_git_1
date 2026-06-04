@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Thu, 04 Jun 2026 17:43:38 -0000
-Message-Id: <178059501877.2188599.17005984059314070138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 04 Jun 2026 17:56:21 -0000
+Message-Id: <178059578123.2199392.6880534541771818167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: da4e1b30e48b02864c22dc557d33cac52a7804d2
-    new: 12225d69c5b8656c28003ef345340881712b45b6
+  - ref: refs/heads/kernel-7.0.10/nfsd-testing-canary
+    old: 4544f895e637e24a3f752d801f9b829d29004c00
+    new: e3c3b1bb3ac2b347fe7fc2c68fd9080d6db7fad8
     log: |
-         12225d69c5b8656c28003ef345340881712b45b6 Create rteval-3.11
+         e3c3b1bb3ac2b347fe7fc2c68fd9080d6db7fad8 Revert "svcrdma: Use contiguous pages for RDMA Read sink buffers"
          
