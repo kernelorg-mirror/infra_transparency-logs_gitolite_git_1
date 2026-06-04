@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 04 Jun 2026 19:33:46 -0000
-Message-Id: <178060162663.2273396.15701378727271247007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 04 Jun 2026 19:41:39 -0000
+Message-Id: <178060209961.2280129.8219660166092675795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: c6bc42d696610bfae4e5dc193e1d39371c6b3e0c
-    new: 42b2c543a70c882ed12efa06334588b0c45ae0f3
+  - ref: refs/heads/dt/next
+    old: 0c1b852f13e207d642cef5c22002a91c8f07673e
+    new: e1686ca81dbf3edbde589b7daf312b45cbf76e03
     log: |
-         bc5713d69e1e4ef87bc097ecbe941a2162bf0eac shared/rap: Add client ranging registration and notification parsing
-         42b2c543a70c882ed12efa06334588b0c45ae0f3 profiles/ranging: Fix measured_freq_offset
+         e1686ca81dbf3edbde589b7daf312b45cbf76e03 of: reserved_mem: avoid post-init UAF when alloc_reserved_mem_array() fails
          
