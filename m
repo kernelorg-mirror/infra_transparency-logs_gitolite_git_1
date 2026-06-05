@@ -1,68 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3284774391031808697=="
+Content-Type: multipart/mixed; boundary="===============6613493306206354472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 05 Jun 2026 10:09:48 -0000
-Message-Id: <178065418807.2928135.16436560327245603761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 05 Jun 2026 10:09:49 -0000
+Message-Id: <178065418900.2928194.16835765505088765082@gitolite.kernel.org>
 
---===============3284774391031808697==
+--===============6613493306206354472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d1452d8e03fde322546ba941763250bc97179400
-    new: 70971c203bf081cd7ac2e7dec8a6fe9f6451cd44
-    log: revlist-d1452d8e03fd-70971c203bf0.txt
-  - ref: refs/heads/tip/urgent
-    old: 2731cfbd6e621520f42d9e13fd3b134df3c16cdb
-    new: 300e7fa76e1b692f428068e8a7d3d3c4a5f8fd28
+  - ref: refs/heads/for-7.2
+    old: ce3d971735bbcb50c43c670c98fac0bfd20f8304
+    new: 38b75d81a066789dc98404c1387731074c103119
     log: |
-         dcc58d56260ca3eea8120d31d044d8e4fdb16caf Merge branch into tip/master: 'locking/urgent'
-         c4c323eaf6a04c5235312ffafbed0359b142d1b2 Merge branch into tip/master: 'sched/urgent'
-         a45bce2c01f4c6631ba5886a8eb801175a3793c7 Merge branch into tip/master: 'timers/urgent'
-         300e7fa76e1b692f428068e8a7d3d3c4a5f8fd28 Merge branch into tip/master: 'x86/urgent'
+         36685d0b05d91e13df5cb65726b7cb4c026e41d0 ASoC: Intel: catpt: Utilize lock-guard helper
+         a88cd88eee750383be83013e1875fc0a6509d5bd ASoC: Intel: catpt: Replace RAM-helpers with resource_xxx()
+         fa55ad6079b0cd4a974bc32ea2dcb98162f29c25 ASoC: Intel: catpt: Simplify the RAM-navigation code
+         f40e7873cd85604ab36a7facf3a5a675ff0d2e67 ASoC: Intel: catpt: Simplify catpt_stream_find()
+         89f7afd3e26e678e52e2cc8e85a75b6c5491bb2a ASoC: Intel: catpt: Remove unused WAVES controls
+         f95ac7d0c7bdd2082fb97b2d32dda0e751e2683f ASoC: Intel: catpt: Drop manipulation of the obsolete direction flag
+         06152e33686112d5d49a44301eb0d55d0012d48d ASoC: Intel: catpt: Cleanup components_kcontrols[]
+         38b75d81a066789dc98404c1387731074c103119 ASoC: Intel: catpt: Code cleanup
          
 
---===============3284774391031808697==
+--===============6613493306206354472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1452d8e03fd-70971c203bf0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-dcc58d56260ca3eea8120d31d044d8e4fdb16caf Merge branch into tip/master: 'locking/urgent'
-c4c323eaf6a04c5235312ffafbed0359b142d1b2 Merge branch into tip/master: 'sched/urgent'
-a45bce2c01f4c6631ba5886a8eb801175a3793c7 Merge branch into tip/master: 'timers/urgent'
-300e7fa76e1b692f428068e8a7d3d3c4a5f8fd28 Merge branch into tip/master: 'x86/urgent'
-17f280ecd9228f280d1c22d01f2ee5d64ccf4696 Merge branch into tip/master: 'x86/merge'
-221d7ed935f008ec85a246121d9e2c1f59fae5e7 Merge branch into tip/master: 'timers/merge'
-9f95f5577974eb4484e4cef91a1984a77e6d1897 Merge branch into tip/master: 'core/rseq'
-ba470f9c110201fab3e01d1ae73cc766d5409a4b Merge branch into tip/master: 'irq/core'
-868e5017176dc96574d0b1428f4a10dbcf27292b Merge branch into tip/master: 'irq/drivers'
-8321a1c5300c27adf5f3922c146b2bfe57a8dcd4 Merge branch into tip/master: 'irq/msi'
-3e6afd87f19f4781d4394b19b4760f93776aa733 Merge branch into tip/master: 'locking/context'
-a9a5bdf27c22e4bf4437942304698e74a928f131 Merge branch into tip/master: 'locking/core'
-51ff4754e745991acb2afcc7e0b731a8da658ccd Merge branch into tip/master: 'objtool/core'
-437dc43281c72fcc8bf1197665f2445d27932971 Merge branch into tip/master: 'perf/core'
-4dc8349f898b2d07bec92124cc34d1d99ce6252d Merge branch into tip/master: 'sched/core'
-d6d3ec9218f5f2513149e71d1648a317bbbbe385 Merge branch into tip/master: 'smp/core'
-b13f1b0587d21fbdfb3fc374dd987e426f3b2834 Merge branch into tip/master: 'timers/core'
-28e2d5af3c20798253d7019d09019aedaae1dcc4 Merge branch into tip/master: 'timers/nohz'
-6c9fc9d97f21939e523f0dce2dd1e3a6bc004b38 Merge branch into tip/master: 'timers/ptp'
-00f7348dba564a19642f30c0376e37f3e05fcef7 Merge branch into tip/master: 'timers/vdso'
-dd9f2de09b4ffbab4dc73df10de7e9017e5908e0 Merge branch into tip/master: 'x86/cache'
-b8f49690009d885c8804b979c855905e249a72e0 Merge branch into tip/master: 'x86/cleanups'
-6a20d46ea4766f2569f1608e0a2ce48105040e5a Merge branch into tip/master: 'x86/cpu'
-7592fc011eb13f31b4bd0e4ec39e0d051356a47d Merge branch into tip/master: 'x86/microcode'
-73e2fc5a26d4d9414f2783141ba6b65a5887b8af Merge branch into tip/master: 'x86/misc'
-80b28028191ed9fac8fee7cd9a5972070cf3f98a Merge branch into tip/master: 'x86/mm'
-0c7fa2e3f7d4807afc4a5f6defd9f68d17fb1c19 Merge branch into tip/master: 'x86/msr'
-1aeee1e5f87cc1e0fe5cf3ad0c9982fb26e9fee6 Merge branch into tip/master: 'x86/sev'
-70971c203bf081cd7ac2e7dec8a6fe9f6451cd44 Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1780654187 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1780654186-643a51080d75e752108677722081459223785bfd
 
---===============3284774391031808697==--
+ce3d971735bbcb50c43c670c98fac0bfd20f8304 38b75d81a066789dc98404c1387731074c103119 refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoioGsACgkQJNaLcl1U
+h9Ajngf/W+Oqy80AiyT5kp0ORfb98bjf+8TPlJkFweQNt8Hu3IkuRuvha7f6RbDl
+JaSxD+nAUlTWRXHZFS6k/pKVvxtlMv9wwYdNr9trAva+exAcgWPhS0nBzu71eM2I
+SYrDqMFpTBloOBcZ+/GzBmzF55cFksGRFEs+vZ1Hi69EMSRw4lSlPw4AdRoXphGI
+xwt53ntgOw4F8f3XPpmQuUWi3TO99sjH1NLAqT5fSL/Lv4cFlP0VapaRllZLxyoS
+RjcOVtqF4w6Dc2wb0eg3UPpUBjuvtkWoI56pNNxTilK8eyujIJkzoNs9df3h/fYi
+hA75Oi/HmKRGU21FzogNNFwo6f0pXg==
+=Yx9k
+-----END PGP SIGNATURE-----
+
+--===============6613493306206354472==--
