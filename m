@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 05 Jun 2026 12:25:16 -0000
-Message-Id: <178066231634.3033089.4535726045172094701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglozar/linux
+Date: Fri, 05 Jun 2026 12:40:52 -0000
+Message-Id: <178066325272.3044273.3918160830470219936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tglozar/linux
+user: tglozar
 changes:
-  - ref: refs/heads/timers/ptp
-    old: ca1ec8bfac8c95d0fed9e3611ea21400d1f37262
-    new: bc484a5096732cd858771cccd3164ec985bdc03d
+  - ref: refs/heads/rtla-for-next
+    old: db956bcf8d681b5a01ebe04c79f6a7b29b9934f9
+    new: 930645785902d5830f9c41862d21af651b8e5371
     log: |
-         c51100f9e26857f2b2376d5cd657a15f52b9e05c clocksource/hyperv: Implement read_snapshot() for TSC page clocksource
-         19fa3e50644d2d47fca713b0df640f67dcd26634 x86/kvmclock: Implement read_snapshot() for kvmclock clocksource
-         bc484a5096732cd858771cccd3164ec985bdc03d ptp: vmclock: Use hw_cycles from snapshot for precise TSC pairing
+         bc9fc8242c2af70f491446e6f2bfe5e4ed79dd41 rtla: Fix and clean up .gitignore
+         930645785902d5830f9c41862d21af651b8e5371 rtla/tests: Fix pgrep filter in get_workload_pids.sh
          
