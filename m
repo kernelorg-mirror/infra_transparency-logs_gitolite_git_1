@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3570980313855381753=="
+Content-Type: multipart/mixed; boundary="===============1691344508740708830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 05 Jun 2026 07:35:59 -0000
-Message-Id: <178064495954.2814370.15053479050535929583@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 07:36:28 -0000
+Message-Id: <178064498822.2814820.17215856453017932553@gitolite.kernel.org>
 
---===============3570980313855381753==
+--===============1691344508740708830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,54 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0f525d827b3fdd4bd18c2e23ffea84e523e07ab2
-    new: 778962056bfe32df7a9716d092dec1efad6642de
-    log: revlist-0f525d827b3f-778962056bfe.txt
+    old: 778962056bfe32df7a9716d092dec1efad6642de
+    new: 582bb6cf0a1f44ace36997318dc7437a860379c6
+    log: revlist-778962056bfe-582bb6cf0a1f.txt
+  - ref: refs/heads/tip/urgent
+    old: 600c7f071fa660cd4914ee5371aad61d7a2684e3
+    new: 8620558d268988bb52661875f4f600a483e58063
+    log: revlist-600c7f071fa6-8620558d2689.txt
 
---===============3570980313855381753==
+--===============1691344508740708830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f525d827b3f-778962056bfe.txt
+Content-Disposition: attachment; filename=revlist-778962056bfe-582bb6cf0a1f.txt
+
+9f40c9b287dc54564d2f0e253cb7340c3800bcf0 Merge branch into tip/master: 'locking/urgent'
+3e01145f637dd640275d0d86250c8ff7e210f1c4 Merge branch into tip/master: 'sched/urgent'
+35610c47cebd421338e8237c1ba6adc4adb6a027 Merge branch into tip/master: 'timers/urgent'
+8620558d268988bb52661875f4f600a483e58063 Merge branch into tip/master: 'x86/urgent'
+dde97fbb3cf816b9e6d9d272a2c98af28143b4fb Merge branch into tip/master: 'x86/merge'
+3598a22e14efc6f26ed43d139756e248742d5445 Merge branch into tip/master: 'timers/merge'
+352f76fe127f841e8e4c13901991b785eb65a947 Merge branch into tip/master: 'core/rseq'
+05211e56a73565d62fd8229809076dfb582ca9ff Merge branch into tip/master: 'irq/core'
+6a1c00ef132f9bb9fd71fb172a451dccb0a9bc15 Merge branch into tip/master: 'irq/drivers'
+f90ae0d357ef9bfa38591f51d6442722267f91a5 Merge branch into tip/master: 'irq/msi'
+42cc6651f0b2f4bc922e4d668b5dd67a5563b9f9 Merge branch into tip/master: 'locking/context'
+58187f5c4774bc24d1045268042b059bb8aa2c80 Merge branch into tip/master: 'locking/core'
+e9b0e29843b7d5f782e47654e23fc8573e41e4db Merge branch into tip/master: 'objtool/core'
+9902124f1a3b41408c9aad10e78349d4c2e68f0c Merge branch into tip/master: 'perf/core'
+6ec3801a77e8e2145049704f164f6d38146de21f Merge branch into tip/master: 'sched/core'
+1fdc66ce0ecf951b3ba26a98debf70e956a14a8c Merge branch into tip/master: 'smp/core'
+219262b4740a3d89a5654b133b8bbcb596e89051 Merge branch into tip/master: 'timers/core'
+8891c87e2a9d50d2fde245c39d9f2b60d2713be8 Merge branch into tip/master: 'timers/nohz'
+b6172f6e8171ccd75fea942944433f3cbd1e9123 Merge branch into tip/master: 'timers/ptp'
+ea46bbd36c1a06046642e9da9145240dbc11e13e Merge branch into tip/master: 'timers/vdso'
+3e9dfe891731ad7325a4ff078651458d5c7b348f Merge branch into tip/master: 'x86/cache'
+36601fdaad4bb09efc96bddd31cbda8cc196faf6 Merge branch into tip/master: 'x86/cleanups'
+eff64a9b4e18971c58c72804b918a136baad12f6 Merge branch into tip/master: 'x86/cpu'
+76dab1094c463bb38df19733b15737e216ea56ca Merge branch into tip/master: 'x86/microcode'
+9155fb923d79e0e121eecd20491a696a258ec65b Merge branch into tip/master: 'x86/misc'
+62d6fba78215a5bef1000caa23fad7b15810e9fa Merge branch into tip/master: 'x86/mm'
+371b949927eb151dc947ee2d7d16ce0bd5190525 Merge branch into tip/master: 'x86/sev'
+582bb6cf0a1f44ace36997318dc7437a860379c6 Merge branch into tip/master: 'x86/tdx'
+
+--===============1691344508740708830==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-600c7f071fa6-8620558d2689.txt
 
 5a52c5701a67d5176eb1afbf1bdaf7d6dfeec597 mmc: core: Fix host controller programming for fixed driver type
 539b7cf1f77a5135241f410777b3c780c6e23994 s390/configs: Enable IOMMUFD and VFIO cdev in defconfigs
@@ -57,32 +96,6 @@ bb061d3de41707415269be75ebf700efb03ec212 netfilter: nft_byteorder: remove multi-
 2a58899d11009bffc7b4b32a571858f381121837 6lowpan: fix off-by-one in multicast context address compression
 a213a8950414c684999dcf03edeea6c46ede172e l2tp: pppol2tp: hold reference to session in pppol2tp_ioctl()
 3522b21fd7e1863d0734537737bd59f1b90d0190 devlink: Release nested relation on devlink free
-933d248532ece821a7c028a928979493f26c3f45 Merge branch 'tip/sched/urgent'
-bdaf235913e1f31453c6e0e109d797269f9f0a37 locking: mutex: Fix proxy-exec potentially deactivating tasks marked TASK_RUNNING
-7a3a6bfbd62a2ba3e0ef1e92d6b71abb66890825 sched: Rework prev_balance() to avoid stale prev references
-96a6988fb595ab1d77f60b33ea392b2e15b68605 sched: deadline: Add some helper variables to cleanup deadline logic
-cd8e62c85861bcfbbefedce11a6f8eb00c774312 sched: deadline: Add dl_rq->curr pointer to address issues with Proxy Exec
-f0c1ecde6447079505f1d4557d30401136218ae0 sched: Rework block_task so it can be directly called
-f13beb010e4ab0735c9e46802cbcc820a8bd6467 sched: Have try_to_wake_up() handle return-migration for PROXY_WAKING case
-4c2a20413d7fb3fc3dd7adf233a4f82bb203fb58 sched: Add is_blocked task flag
-1628b25248d0742b2ce9c7cfa59cd183e35f37e1 sched: Add blocked_donor link to task for smarter mutex handoffs
-abc40cca0efdf5ba28b7bc37f1db445a8cc840bd sched/proxy: Optimize try_to_wake_up()
-708024b575b4ea58c5956e7c09f2d2f48facd478 sched: Be more strict about p->is_blocked
-7918cf3693614c9f96bc9e43daff6fc72c01b81a sched/proxy: Only return migrate when needed
-be365ce2bc20b8970bed350f82c3b760256b6945 sched/proxy: Switch proxy to use p->is_blocked
-ec9d4f1c424134bbf30965075df78d02a5d021dc sched/proxy: Remove PROXY_WAKING
-c0404dd88d124714351f7a961d3313ee0f2f036b sched/proxy: Remove superfluous clear_task_blocked_in()
-56e50ff567810db208cc37d9e17b8df044a9158c sched: Simplify ttwu_runnable()
-85358f0c6d590318539e657b0b3090871211193f MAINTAINERS: Fix spelling mistake in Peter's name
-63c1a12bc0e09af7dee919c4fb4a300a719d5125 sched: restore timer_slack_ns when resetting RT policy on fork
-dfcfc97b6df0ea8e1b7d3b590022782abbec3389 sched/fair: Co-locate cfs_rq and sched_entity in cfs_tg_state
-89e1f67186baca353b68115bb98bd0bfed9f80c8 sched/fair: Remove task_group->se pointer array
-b8fea7af0e40feb6d9cbbd60b66ff0ec265e868f sched/fair: Allocate cfs_tg_state with percpu allocator
-1abbecd1d2d2fdd96e52f541f07ee2b163631bee sched/fair: Convert cfs bandwidth throttling to use guards
-253edcf5436c916f2fbf7b880443c7f1ed76101d sched/fair: Use throttled_csd_list for local unthrottle
-28ad5427682bccf06074366f347a6083d6730c1e sched/fair: Call update_curr() before unthrottling the hierarchy
-102a28344a60e637934ffca62d50ff8319b11165 sched/fair: Move the throttled tasks to a local list in tg_unthrottle_up()
-f666241e6bd5d9a494beca982e1953208dce531c sched/fair: Unify cfs_rq throttling via account_cfs_rq_runtime()
 4cd92957e8f8cc4ebfe8a5d4203c14c592fde6b1 wifi: nl80211: reject oversized EMA RNR lists
 6c0cf89f36ac0c0fd8687a4ccdce2efb23a9c663 wifi: mac80211: limit injected antenna index in ieee80211_parse_tx_radiotap
 73bf3cca7de6a73f53b6a52dc3b1c82ae5667a4d pcnet32: stop holding device spin lock during napi_complete_done
@@ -151,7 +164,6 @@ d486b4934a8e504376b85cdb3766f306d57aff5b timers/migration: Fix livelock in tmigr
 899ee91156e57784090c5565e4f31bd7dbffbc5a net/sched: fix pedit partial COW leading to page cache corruption
 0861615c28de668669d748ef4eb913ea9262d13b sctp: validate cached peer INIT chunk length in COOKIE_ECHO processing
 1232b3104b4b2c0267f31608fe0f8a8758428f28 dt-bindings: ethernet: eswin: fix hsp-sp-csr backward compatibility
-17b22e7a389e02e72912ab2904eac08da613c49e x86/pmem: Check for platform_device_alloc() retval
 1d31eb27e570daa04f5373345f9ac98c95863be9 octeontx2-af: npc: Fix CPT channel mask in npc_install_flow
 ab1ecaabe74b7d86c38ab2ab44bd56cdcc33645a rtase: Reset TX subqueue when clearing TX ring
 aa6ca1c5c338907817374b59f7551fd855a88754 vxlan: vnifilter: send notification on VNI add
@@ -162,29 +174,16 @@ aa6ca1c5c338907817374b59f7551fd855a88754 vxlan: vnifilter: send notification on 
 3a5f3f7aff18bcc36a57839cf50cf0cc8de707f3 ieee802154: 6lowpan: only accept IPv6 packets in lowpan_xmit()
 9fc237f8d49f06d05f0f8e80361047b718894e81 rtase: Avoid sleeping in get_stats64()
 7561c7fbc694308da73300f036719e63e42bf0b4 net/802/mrp: fix vector attribute parsing in mrp_pdu_parse_vecattr
-098bcea71b8d257d80b0037b97b66070806600a5 x86/microcode/AMD: Move the no-revision fixup to get_patch_level()
 b47ff80f280e18ad2310f44293cc057d9b64ff11 bonding: annotate data-races arcound churn variables
 e374b22e9b07b72a25909621464ff74096151bfb sctp: purge outqueue on stale COOKIE-ECHO handling
 3c94f241f776562c489876ff506f366224565c21 udp: clear skb->dev before running a sockmap verdict
 b6197b386677ae5268d4702e23849d9ad53051ad Reapply "bnxt_en: bring back rtnl_lock() in the bnxt_open() path"
-1d453fff35806b1108ae7709de0521bd42770b13 vdso/gettimeofday: Rename __arch_get_vdso_u_timens_data()
-facdd1b82a41092f7f7c69f2881b946d74ede997 MAINTAINERS: Add include/linux/vdso_datastore.h to vDSO block
-551f209164c4d2cb8d5542351f145e8257c44702 vdso/datastore: Always provide symbol declarations
-60ad2f1158577b4923987f0a410456cfccd0fd23 MIPS: Introduce Kconfig MIPS_GENERIC_GETTIMEOFDAY
-8ea920c48d82a0ef031bedfb649d4d8c77ef3d1c MIPS: VDSO: Only map the data pages when the vDSO is used
-0ebac10c9f1020963dd803f871a9b413979c76b8 MIPS: csrc-r4k: Only use VDSO_CLOCKMODE_R4K when it is a available
-a7d9141d5ddf08fa3cd50a079be4bd93a8aa42fe clocksource/drivers/mips-gic-timer: Only use VDSO_CLOCKMODE_GIC when it is a available
-2db1ec80dfd5f9f1200acc90ec04a9c8ea47701a MIPS: VDSO: Fold MIPS_DISABLE_VDSO into MIPS_GENERIC_GETTIMEOFDAY
-0f63c3fbdc06eeac48eb6beb437270722a5aa50e MIPS: VDSO: Gate microMIPS restriction on GCC version
-13f6218e6fe79dc64aed76d738b765b45f62492b MIPS: VDSO: Fold MIPS_CLOCK_VSYSCALL into MIPS_GENERIC_GETTIMEOFDAY
 6a08076f009e3d9460bebae9f209c1dc1d8a46b7 Merge tag 's390-7.1-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 44ed32d16c9d0e0f3a4b594982a2bb168d2f56ea Merge tag 'trace-v7.1-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ddd664bbff63e09e7a7f9acae9c43605d4cf185f Merge tag 'net-7.1-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0fadc059c2fd914b3df0a3fc7b8759fb49cee8ac Merge branch into tip/master: 'timers/urgent'
-61295b8cb8e64cf03d7057ec90041d8ed76d3c44 Merge branch into tip/master: 'sched/core'
-5abd0e505a922c4c922f28d611c4fcb9dac3eacd Merge branch into tip/master: 'timers/vdso'
-f0c2a10936f7303a3be2c7e6d1c3015341ec4b49 Merge branch into tip/master: 'x86/cleanups'
-ca00ff3246f07c08fcd1a2f6fc54375b8d821556 Merge branch into tip/master: 'x86/microcode'
-778962056bfe32df7a9716d092dec1efad6642de Merge branch 'linus'
+9f40c9b287dc54564d2f0e253cb7340c3800bcf0 Merge branch into tip/master: 'locking/urgent'
+3e01145f637dd640275d0d86250c8ff7e210f1c4 Merge branch into tip/master: 'sched/urgent'
+35610c47cebd421338e8237c1ba6adc4adb6a027 Merge branch into tip/master: 'timers/urgent'
+8620558d268988bb52661875f4f600a483e58063 Merge branch into tip/master: 'x86/urgent'
 
---===============3570980313855381753==--
+--===============1691344508740708830==--
