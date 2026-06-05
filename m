@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Jun 2026 22:26:33 -0000
-Message-Id: <178069839325.3499991.1443181178255359048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 05 Jun 2026 22:28:12 -0000
+Message-Id: <178069849271.3500881.5200107106142351241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: a1f1acf6a1491394d57e9635e47ccfcf8381f265
-    new: b9845290525cf19d29f3a0d06ae3feb923f60e4c
+  - ref: refs/heads/master
+    old: 451e17b26ade16dbdc9094222f32af113833899d
+    new: 78a404cb88786f4cfc2b8d51c01a6192c98139d0
     log: |
-         557d0cc3f2520feba45360beeafb93203b3230e0 selftests/bpf: use host CPU features in JIT disassembler
-         6d13ddb1d46525931d2324d9358721eb3c495d72 bpf, riscv: inline bpf_get_current_task() and bpf_get_current_task_btf()
-         b9845290525cf19d29f3a0d06ae3feb923f60e4c Merge branch 'risc-v-jit-support-for-bpf_get_current_task-_btf'
+         78a404cb88786f4cfc2b8d51c01a6192c98139d0 man/man2/{clone,clone2,__clone2}.2: Split [__]clone2() from clone(2)
          
