@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 05 Jun 2026 12:58:47 -0000
-Message-Id: <178066432791.3056718.1214594815046199436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 05 Jun 2026 13:06:03 -0000
+Message-Id: <178066476383.3063279.4820099010107821479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 6503c1442388389c0c377d90ff61d303a4fbd198
-    new: eaa88a1b35e3214e5c4a1e7aa9d9b94796ccfded
+  - ref: refs/heads/locking/core
+    old: 608323bf7bb85bbb647eca4373acef247f105e67
+    new: a40e0f8eadd44d7b0f856b54c876aea1b93415f4
     log: |
-         fcd596cdaf02d2c2395a53f4a5baa71d0a366d18 iio: adc: ti-ads1119: fix PM reference leak in buffer preenable
-         eaa88a1b35e3214e5c4a1e7aa9d9b94796ccfded iio: dac: mcp47feb02: Fix passing uninitialized vref1_uV for no Vref1 case
+         a40e0f8eadd44d7b0f856b54c876aea1b93415f4 cleanup: Specify nonnull argument index
          
