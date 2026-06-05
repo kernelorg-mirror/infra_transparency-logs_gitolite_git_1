@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5040020822803124288=="
+Content-Type: multipart/mixed; boundary="===============8234935515595429667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Jun 2026 15:00:20 -0000
-Message-Id: <178067162042.3149445.7394479269383578147@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 15:00:26 -0000
+Message-Id: <178067162637.3149721.3039667582736258850@gitolite.kernel.org>
 
---===============5040020822803124288==
+--===============8234935515595429667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: bf29346fc39355cc57118e4e825109f66ac3542d
     new: 87d119abc42fa9b4a0acd3b0c038a8584d62568e
     log: revlist-bf29346fc393-87d119abc42f.txt
 
---===============5040020822803124288==
+--===============8234935515595429667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ a996794fda8463afbc2bc70fbc7f6a2a9c1547ef selftests/bpf: Add BPF iterator tests f
 84f7a49e76ec8e0a1e18f3758e89800f8cf8cfc6 selftests/bpf: Add resizable hashmap to benchmarks
 87d119abc42fa9b4a0acd3b0c038a8584d62568e Merge branch 'bpf-introduce-resizable-hash-map'
 
---===============5040020822803124288==--
+--===============8234935515595429667==--
