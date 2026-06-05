@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1348844261746192858=="
+Content-Type: multipart/mixed; boundary="===============0950359824331422870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 05 Jun 2026 02:04:37 -0000
-Message-Id: <178062507778.2574087.16262628510292519569@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 02:04:39 -0000
+Message-Id: <178062507996.2574288.5325328819468888756@gitolite.kernel.org>
 
---===============1348844261746192858==
+--===============0950359824331422870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1b44fc526761aa00fc3c6c42983157996e355d7b
-    new: 02481b69330676d3468dc662afff6f2f30ea36fa
-    log: revlist-1b44fc526761-02481b693306.txt
+  - ref: refs/heads/mm-unstable
+    old: 2a819f9664643991d44964b6ed4aa173c350b327
+    new: e178a530a81621a29efbca49b3b78202a18236e4
+    log: revlist-2a819f966464-e178a530a816.txt
 
---===============1348844261746192858==
+--===============0950359824331422870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b44fc526761-02481b693306.txt
+Content-Disposition: attachment; filename=revlist-2a819f966464-e178a530a816.txt
 
 7a3aeb271668e57be1b8f550f1a77ff64895a67f arch,x86: skip setting align_offset for hugetlb mappings
 00e185aa09c04a6b8fa441b87d5fb76a7a3ffd89 device-dax: fix refcount leak in __devm_create_dev_dax() error path
@@ -179,8 +179,5 @@ b41c2569c733ce7825bf2b84250bb8b1c041007f selftests/mm: skip uffd-wp-mremap if UF
 ab65ed9f40c992cae36d50a6cb5fe97e465fb8ed selftests/mm: use ksft_exit_skip() instead of KSFT_SKIP in uffd-stress
 3f2f94909a7b83f8fd0f416b2a2f5a43b3f85aee selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
 e178a530a81621a29efbca49b3b78202a18236e4 selftests/mm: clarify alternate unmapping in compaction_test
-6fcbbf228f5a8585de2d26f4dc999c5cd77f96d3 mm: page_isolation: avoid unsafe folio reads while scanning compound pages
-cb9c3b8f14672dc2d5b91d8223726cfee5b948cc mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-02481b69330676d3468dc662afff6f2f30ea36fa mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1348844261746192858==--
+--===============0950359824331422870==--
