@@ -1,42 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2321143804198986688=="
+Content-Type: multipart/mixed; boundary="===============0189865092118951633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Jun 2026 21:23:47 -0000
-Message-Id: <178069462754.3452582.12236327129606803922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 05 Jun 2026 21:34:33 -0000
+Message-Id: <178069527364.3459816.5117074519815260352@gitolite.kernel.org>
 
---===============2321143804198986688==
+--===============0189865092118951633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 4a7910ee060d8ce55612f5b3cc267f3a265a3cec
-    new: bbb5e2e31a5476d376ce1d0004c6168585fe1a7f
-    log: revlist-4a7910ee060d-bbb5e2e31a54.txt
+  - ref: refs/heads/master
+    old: 4de5b267a716a9b7b71b212e0b948743f70c4d54
+    new: 5e65f4f03c67016e09111c5cd7b2f5137c126106
+    log: revlist-4de5b267a716-5e65f4f03c67.txt
 
---===============2321143804198986688==
+--===============0189865092118951633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a7910ee060d-bbb5e2e31a54.txt
+Content-Disposition: attachment; filename=revlist-4de5b267a716-5e65f4f03c67.txt
 
-a6850fa388f6f6ff365b3b72cb71e6d9a8a614ed selftests/bpf: Add BPF_STRICT_BUILD toggle
-9779193e871b144e34ec4a3e50109b3778a51a69 selftests/bpf: Fix test_kmods KDIR to honor O= and distro kernels
-c476bdf27657c6ea4a447c18de169c7bdcdd419d selftests/bpf: Tolerate BPF and skeleton generation failures
-a97bfc9aae076f49f0bcad713bde02b87553b995 selftests/bpf: Avoid rebuilds when running emit_tests
-5498e47741c8a742f730bf9996234bdae1c08ccc selftests/bpf: Make skeleton headers order-only prerequisites of .test.d
-9c4de137a9a5280c95515e83e97838826603ea93 selftests/bpf: Tolerate test file compilation failures
-aeb73a9f301de4f0df7c858ea465a7a9f5d09fd7 selftests/bpf: Skip tests whose objects were not built
-af490669fd339988765d87de9dd1b25e62ec64cf selftests/bpf: Allow test_progs to link with a partial object set
-f813a4d6877e9197f6e85120c144738e3c1c3b80 selftests/bpf: Tolerate benchmark build failures
-b85e63cb65f96df373b034cc347b0e18231cb0d5 selftests/bpf: Provide weak definitions for cross-test functions
-3ca6543464f8f396eee018399b5e266196b0a9a7 selftests/bpf: Tolerate missing files during install
-bbb5e2e31a5476d376ce1d0004c6168585fe1a7f Merge branch 'selftests-bpf-tolerate-partial-builds-across-kernel-configs'
+2495bd8bb1a54367d9f77e69a5bbe155bab90462 ci: run all non-QEMU tests on push/PR/schedule
+7d3192b52ac7701cd5780089b3ce0f5c460e3000 verify: skip errored WRITE offset in verify
+d569883e281076e0dec5f5768b828ef44392a11a Merge branch 'skip-errored-offset' of https://github.com/minwooim/fio
+a84eece62edd46c1f4c8047f1052ac6181fc8b3e backend: remove linux/prctl.h include to fix musl conflict
+6a66cccb6cb2b321e107b97733faac4db4d95ebc Merge branch 'fix-musl-prctl-conflict' of https://github.com/lucashecht/fio
+6aefd22b08e4c2db32c95c07f107f2d3ff184664 engines/nvme: fix addr/data_len for no data nvme commands
+a2d8ee2e9f41a1508c066e618289bc3b4e0d5eda Merge branch 'fio_5_27' of https://github.com/swarnagh6/fio
+2e6d2eed0daab71e24d9945599badc130566b225 t/nvmept_write_mode.py: test script for io_uring_cmd write modes
+e682f9b3406e35a28a87f39789e3a0c6138b30b4 ci: add nvmept_write_mode.py to test harness
+c55d29efc7cbe91c438d0c273445df1497a193a8 blktrace: fix three bugs in merge_blktrace_iologs path
+5b476c918091ff15705f3cd26a6a30a2084cd880 Merge branch 'master' of https://github.com/wangxp006/fio
+a840d4621fec0c52ea5b2b1a5dd9990cbfec5a0b doc: indicate that metadata options are supported with io_uring
+5e65f4f03c67016e09111c5cd7b2f5137c126106 Merge branch 'fix/metadata-io_uring-doc' of https://github.com/calebsander/fio
 
---===============2321143804198986688==--
+--===============0189865092118951633==--
