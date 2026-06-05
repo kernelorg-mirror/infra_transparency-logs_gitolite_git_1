@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7279788554712140774=="
+Content-Type: multipart/mixed; boundary="===============4515928354025380411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 05 Jun 2026 20:30:39 -0000
-Message-Id: <178069143997.3408856.2563227234108255351@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 20:31:05 -0000
+Message-Id: <178069146553.3409284.12774735272216773502@gitolite.kernel.org>
 
---===============7279788554712140774==
+--===============4515928354025380411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3522b21fd7e1863d0734537737bd59f1b90d0190
-    new: 4aacf509e537a711fa71bca9f234e5eb6968850e
-    log: revlist-3522b21fd7e1-4aacf509e537.txt
+  - ref: refs/heads/dev-queue
+    old: 2d72c95ac8e2d1abccf671d95b94532a8b2abb24
+    new: eedd10d7e2c4d97ba476640d71984a2ecadb4a5c
+    log: revlist-2d72c95ac8e2-eedd10d7e2c4.txt
 
---===============7279788554712140774==
+--===============4515928354025380411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3522b21fd7e1-4aacf509e537.txt
+Content-Disposition: attachment; filename=revlist-2d72c95ac8e2-eedd10d7e2c4.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
@@ -416,5 +416,64 @@ b6197b386677ae5268d4702e23849d9ad53051ad Reapply "bnxt_en: bring back rtnl_lock(
 ddd664bbff63e09e7a7f9acae9c43605d4cf185f Merge tag 'net-7.1-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 32594b09854970d7ba83eb2dc8c69a2edd158c8e inet: frags: fix use-after-free caused by the fqdir_pre_exit() flush
 4aacf509e537a711fa71bca9f234e5eb6968850e net: mv643xx: fix OF node refcount
+a0a735b1498384e36ca2508a4a1d4ca45e9034dc ice: Fix enable_cnt imbalance on resume
+f113f9f3f4920c7786872c00a00cf126983ad66a ice: Fix enable_cnt imbalance on PCIe error recovery
+0f736fc589820dc8bf1476a0ab9cc40edee61678 i40e: Fix enable_cnt imbalance on PCIe error recovery
+5266031a73751eac625ad727911abd869aef798e ice: fix FDB deletion
+ae0e32bce9531830f09ffd45aab3821f56d848a6 ice: init desired_dcbx_cfg in default DCB config
+762403704f381afc27145be071d238470c8832e4 ice: prevent integer overflow
+3444ca20c50b13b0e5391c5d294caeef1131d33a ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+ac68df1fb4e2922399856037f8ced68341dba6ff ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
+15614d5df72e4af661bd699e2cee663af2a35d6f ice: fix AQ error code comparison in ice_set_pauseparam()
+7c9ea3038a80edb36f958f3b76c111f230a34359 ice: call netif_keep_dst() once when entering switchdev mode
+c278fe3dc6554402812680c70892f1f7fc5d2315 ice: check cross-timestamp timeout bits
+31b2540098bc5cf98a64dfbd9e9ab13c83336c36 ice: fix PTP Call Trace during PTP release
+fcfcb4fbe5410dcf2939e097a995a379281af2ea ice: use READ_ONCE() to access cached PHC time
+a6d525e82426881401a58ef14b09ba84c8fcdb43 i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+21c6d3996540c55dbd578593e4b164231fbabf56 ice: fix null-ptr dereference on false-positive tx timeout
+8460c3ee78948dd3f6aefc617be7869205765cb0 ice: fix ice_init_link() error return preventing probe
+f8ae91d955409f21940302072305b752d2a84067 iavf: fix null pointer dereference in iavf_detect_recover_hung
+a5d07f3c710525352eba00c9293ea5dae5c9f7b4 iavf: fix error path in iavf_request_misc_irq
+1086e68429fbb907dac83d3b547d8ebcd6a6323e iavf: prevent VSI corruption when ring params changed during reset
+bdddfc1d8f890858fc15a1df661841f7115ccce3 iavf: fix TC boundary check in iavf_handle_tclass
+e4e71494408c189a6dd040448fa86fd7297f68af iavf: return 0 when TC flower filter not found after qdisc teardown
+6a8f331037ae56fae5613566844020e3eee73fd1 igbvf: Fix leak in TX DMA error cleanup
+725ea7263aa20a5690b11384aae2733b95462d44 ice: fix asymmetric pause negotiation reporting in ethtool
+f992ec010b490e8308c8258b034d0ffc55338daa ice: fix autoneg disable when link partner doesn't support AN
+3411b436d832694d214b04e5b2a57bcd83a24d92 ice: support RDMA on 4+-port E830 devices
+19fc65bc267777164268ac7997592a603a9ee736 ice: report EIPE checksum errors to the OS on E830
+6992f7a1800816325cf0cc92fcc03b16088b32c8 e1000e: Reconfigure PLL clock gate timeout and re-enable K1 on Meteor Lake
+a9b950a12165c669f8413c06a4c4b00b4a73705d iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
+1c7ad55852d2c08c31bc679082f06ca7200b42e3 ixgbe: fix SWFW semaphore timeout for X550 family
+5dcc7b8b7ac72e75566f43bb788ee3f84e0a2614 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
+753ec9f6272c61bfc8c49cff3078f5e5484e694c ixgbe: fix ITR value overflow in adaptive interrupt throttling
+00b9bbc47cf0774be1a6e7ce33998deee71ce454 ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
+bf1116f9bef9dec4e9aedf98860421b9068d525f ice: only free LL TS IRQ when the handler is present
+c74d8a493f8091b2fb7140e254c5aacdd44fd1a1 igc: skip RX timestamp header for frame preemption verification
+94566a73994b8358ff9633e29268b39a6824ab85 ice: always do GCS if hardware supports it
+055226fa2e87b98a4c715b9a55b054a77c72d416 ice: use NETIF_F_HW_CSUM instead of IP/IPV6
+9ba46f6e5cce56a906c377a56898192c091c41a2 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
+45a210b306a3d33f58fb6846e8fd3b9ba702de27 ice: wait for reset completion in ice_resume()
+61aa2e972a7c9b61df214de74c63911cb4a0ca7b igb: Return state in pm_runtime_idle instead of power-down
+9c6d3fb5f748058802dfbd88f7ee76da2ef0fafb ice: fix missing priority callbacks for U.FL DPLL pins
+d893266e71b58e460136a2520dd77a140f99605d i40e: Fix i40e_debug() to use struct i40e_hw argument
+02cc95ca948c587c3f5279c7c43065b85792e93a idpf: fix mailbox capability for set device clock time
+aad561434a5fbe28908332a71a86e43f7ca123a1 ice: fix VF interrupts cleanup
+7c6410cdeb85a9b5f86ba439669ae716c5c9919b ice: add missing xa_destroy for sched_node_ids
+b0c41a863e4c3420fa549e5adf2fc4d092dac3d5 idpf: handle NULL adev in idpf_idc_vdev_mtu_event
+e1a951369c1c6990d03514bb69fb2ee850742ce4 ixgbe: do not configure xps for XDP queues
+8750ce1455fb120d94a12d81e09ab03140c8be38 iavf: validate num_vsis in VIRTCHNL_OP_GET_VF_RESOURCES response
+2ebb963d020d3376071f85f270d58afa0eec8bac i40e: keep q_vectors array in sync with channel count changes
+df3ed08de0b12b34655bcffdbe0e132243fea820 ice: fix LAG recipe to profile association
+e4ef85e47bbc2e16e33d59e93f952cdbc5153012 ice: support SBQ posted writes with non-posted support for CGU
+ad27ad5a996b5ed112c6507a0e5ef73741810a24 ice: suppress DPLL errors during reset recovery
+c4e515a144b3a288943e525a5ee15a62633b7ece idpf: add padding to PTP virtchnl structures
+f6944e19bc632295619cc9af4b4b1e624bd7203f ice: prevent tstamp ring allocation for non-PF VSI types
+da9df5e621e02981d777beea0f6f03134f849a28 ice: dpll: set pointers to NULL after kfree in ice_dpll_deinit_info
+56fcd5cc66a13c0481c3adb918700548295013aa ice: dpll: fix memory leak in ice_dpll_init_info error paths
+56b23a66fd365a68fac97b5552b57a902daa0cf4 ice: reject out-of-range ptype in ice_parser_profile_init
+8d7ddbbde17eb433ff2ede11abe2eb14835bef71 ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
+dc3c4a18d6f03b444d5891f75f236a5c6d8aba23 ice: Zero out the PTP control PF pointer at ice_adapter cleanup
+eedd10d7e2c4d97ba476640d71984a2ecadb4a5c ice: Cache struct ice_hw pointer for split register reads
 
---===============7279788554712140774==--
+--===============4515928354025380411==--
