@@ -1,25 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 05 Jun 2026 10:41:20 -0000
-Message-Id: <178065608042.2953410.11745026945099093317@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1350838225300886505=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 05 Jun 2026 10:57:56 -0000
+Message-Id: <178065707653.2964401.3478940615241177423@gitolite.kernel.org>
+
+--===============1350838225300886505==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/flat
-    old: 407a91d3b39d0f3beba9e9cbe6d7fc99f1c588de
-    new: 48b20b30f2ea60b0210145e8b8b05319d4dbfda7
+  - ref: refs/heads/for-7.2
+    old: d6621c9beecb72ed7598b718741c8c11539e3bd4
+    new: e727fe9be1738ebc0caa5cc901f0299404b6bbe6
     log: |
-         98455f3dc0411291d099c6cd344bc729f6ae9e2d sched/fair: Add cgroup_mode switch
-         9629a7ba662a4cfa879b0083abc4e069b30e45f2 sched/fair: Add cgroup_mode: up
-         787b719dc2af2f7e865befc3b9e3679e7ecead0f sched/fair: Add cgroup_mode: max
-         9a4bab9a0e0db931e2aafa68b42a3b3f9ceb4667 sched/fair: Add cgroup_mode: concur
-         aeed092557acefbd539a3a9c5697aba6fded9193 sched/fair: Add cgroup_mode: tasks
-         c427d4f081279c1bec22d155737f1e504cfd16b6 sched/fair: Change the default cgroup_mode to concur
-         48b20b30f2ea60b0210145e8b8b05319d4dbfda7 sched/eevdf: Move to a single runqueue
+         e727fe9be1738ebc0caa5cc901f0299404b6bbe6 regulator: bq257xx: drop confusing configuration of_node
          
+
+--===============1350838225300886505==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1780657075 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1780657074-ac2b7724e3a853029e74d4b06f0fd8889838d389
+
+d6621c9beecb72ed7598b718741c8c11539e3bd4 e727fe9be1738ebc0caa5cc901f0299404b6bbe6 refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoiq7MACgkQJNaLcl1U
+h9CBPgf9GGhryVpYa2oOwvnG3wSmcYlqzSEnXlY8c3jkkVLwRUy8yI3es1WvxWaH
+dGm9f7GjKyRVc1aaH/4YXLATsZw2TZDGjXS8RKmG6H8dZS8iSgzs3uC391E12K2y
+phVgOCPGYLtdGnoXMRL1rhfk5gyYR5IpjGuJr+NtwHviq7n3Tp38Xf7ajp1/HYTT
+MqnBSeZleSbjmT+cI7/MEH13dhvlQXITzV/XofUkaDz4vm5qgGbT7lHRq08nLFTk
+c/QwmwQtR6ujv/743y2UHIxMr4CXpEPzVkFFqiO+uO1fO1dAuDwdV0AtMUIlZO3b
+FTcdX/ju1YZNwjvLDVD7hoXCr+mznw==
+=9c8H
+-----END PGP SIGNATURE-----
+
+--===============1350838225300886505==--
