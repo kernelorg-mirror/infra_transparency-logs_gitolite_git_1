@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Fri, 05 Jun 2026 14:27:32 -0000
-Message-Id: <178066965292.3125389.12443464648486492429@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 14:39:08 -0000
+Message-Id: <178067034868.3133190.14554371043605454761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/boqun/linux
 user: boqun
 changes:
   - ref: refs/heads/rust-rcu
-    old: 1e4d65727c917356c55f164e706fb7a06d52f3df
-    new: 0cd575c5bde93704a2f49f079b94caa7a4c60354
+    old: 0cd575c5bde93704a2f49f079b94caa7a4c60354
+    new: 6a0d6ac5275370713e0f065de1047a3a5fd6985b
     log: |
-         3b779544027162d27e16e541223fc1a31de5a53f rust: rcu: Add RcuBox type
-         68dff70c317772bd42d62e60a6c224637984a95d rust: maple_tree: Add load_rcu()
-         0cd575c5bde93704a2f49f079b94caa7a4c60354 rust: rcu: Introduce RcuFreeBox
+         8adc0055f52ff4e667cfd252f7db6071e217412a rust: rcu: Add RcuBox type
+         33134ec05f58b3bf216f13788bb3a26e0502d52e rust: maple_tree: Add load_rcu()
+         6a0d6ac5275370713e0f065de1047a3a5fd6985b rust: rcu: Introduce RcuFreeBox
          
