@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 05 Jun 2026 21:56:53 -0000
-Message-Id: <178069661307.3477675.2438073282579729349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 05 Jun 2026 22:14:12 -0000
+Message-Id: <178069765201.3488785.6196718465618310623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 2d6c48b188cfc3ece21f6757074f003a60126d9e
-    new: 451e17b26ade16dbdc9094222f32af113833899d
+    old: 06121e12c27aef6e1a09b4cdec809b9c91f6eb59
+    new: c10130c234c81f4a7a143edbf413080235f8d8ce
     log: |
-         451e17b26ade16dbdc9094222f32af113833899d man/: Update references to _exit(3) and _Exit(3)
+         ed46f39c47eb5530a9c161481a2080d3a869cfaf io_uring/net: inherit IORING_CQE_F_BUF_MORE across bundle recv retries
+         c10130c234c81f4a7a143edbf413080235f8d8ce Merge tag 'io_uring-7.1-20260605' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
          
