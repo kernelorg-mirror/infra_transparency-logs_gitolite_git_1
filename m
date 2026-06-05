@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1779630760924367904=="
+Content-Type: multipart/mixed; boundary="===============1008673968403346752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 05 Jun 2026 20:45:43 -0000
-Message-Id: <178069234338.3422105.10687540695191319193@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 20:45:46 -0000
+Message-Id: <178069234613.3422221.15636365004518095139@gitolite.kernel.org>
 
---===============1779630760924367904==
+--===============1008673968403346752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: dfcc2ff12925d99e858eaf539eaa4aaaf81fe2a6
     new: bfa3d89cc15c09f7d1581c834a5ed725189ec19f
     log: revlist-dfcc2ff12925-bfa3d89cc15c.txt
 
---===============1779630760924367904==
+--===============1008673968403346752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -499,4 +499,4 @@ f646f464d5eb6ffac9be5c721dadb23891ccdb58 Merge branch 'selftests-rds-roce-suppor
 6ce66868d1a62cacecfec7ce628df3227c1808c2 net/dns_resolver: use kasprintf + kmemdup_nul to simplify dns_query
 bfa3d89cc15c09f7d1581c834a5ed725189ec19f Merge tag 'batadv-next-pullrequest-20260603' of https://git.open-mesh.org/batadv
 
---===============1779630760924367904==--
+--===============1008673968403346752==--
