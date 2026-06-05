@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6887529740503731628=="
+Content-Type: multipart/mixed; boundary="===============2809970060843023053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 05 Jun 2026 20:43:24 -0000
-Message-Id: <178069220439.3417944.834469825403245245@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 20:43:30 -0000
+Message-Id: <178069221069.3418183.10854334377858660578@gitolite.kernel.org>
 
---===============6887529740503731628==
+--===============2809970060843023053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/100GbE
     old: 3522b21fd7e1863d0734537737bd59f1b90d0190
     new: 4aacf509e537a711fa71bca9f234e5eb6968850e
     log: revlist-3522b21fd7e1-4aacf509e537.txt
 
---===============6887529740503731628==
+--===============2809970060843023053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -417,4 +417,4 @@ ddd664bbff63e09e7a7f9acae9c43605d4cf185f Merge tag 'net-7.1-rc7' of git://git.ke
 32594b09854970d7ba83eb2dc8c69a2edd158c8e inet: frags: fix use-after-free caused by the fqdir_pre_exit() flush
 4aacf509e537a711fa71bca9f234e5eb6968850e net: mv643xx: fix OF node refcount
 
---===============6887529740503731628==--
+--===============2809970060843023053==--
