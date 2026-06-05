@@ -1,26 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 05 Jun 2026 14:13:01 -0000
-Message-Id: <178066878136.3114549.3592339330329671938@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6263938567851288216=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 05 Jun 2026 14:15:50 -0000
+Message-Id: <178066895054.3117847.4647139390697806226@gitolite.kernel.org>
+
+--===============6263938567851288216==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 0dd7ec3196c280ebd8743216405e76281acd59df
-    new: 7717c9bafcfdde290bf86b313b94c1be994c1dab
+  - ref: refs/heads/main
+    old: dfb67ae569bf0726187725b1ef8d89377778861e
+    new: 4cc0cc0b297c17c2b106d6892bd13d9c32fe66ce
     log: |
-         e58c0085ae259bbc6538d9002e63034bbab73115 perf lock contention: Allow 'mmap_lock' in -L/--lock-filter
-         55f16bc5dca484eaa54d459255d6112484ca082b perf data ctf: replace libbabeltrace with babeltrace2-ctf-writer
-         3381bcd293c4f3bad0a697c90293c99dc799e34e perf pmu: Recognize 'default_core' as a core PMU and document matching
-         0271382250cf552d3e492a2bfed30dd0786b8928 perf lock contention: Enable end-timestamp accounting for cgroup aggregation
-         f3e17c809f4dceff56f4649520d8f49c19979db7 perf tools: Guard test_bit from out-of-bounds sample CPU
-         2e22d315140ebe23015abd5749bbd156aaa28859 perf sched: Fix thread reference leak in latency_switch_event
-         b5be332dee963a7d3a50ba29f57dc86315c59704 perf sched: Fix NULL dereference in latency_runtime_event
-         7717c9bafcfdde290bf86b313b94c1be994c1dab perf sched: Fix comp_cpus heap overflow with cross-machine recordings
+         303f11fda2fa4c6f7aa86b8fa54aaee5e1ef181b wifi: mac80211: Add sta pointer sanity check in ieee80211_8023_xmit()
+         2307b36ce34fd2166509ea2aeef0de5768ed03b7 wifi: mac80211: Add multicast to unicast support for 802.3 path
+         4cc0cc0b297c17c2b106d6892bd13d9c32fe66ce wifi: mac80211: Add 802.3 multicast encapsulation offload support
          
+
+--===============6263938567851288216==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1780668892 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1780668891-d43bff01bba758a5cd35f3191c1bbe795546dda5
+
+dfb67ae569bf0726187725b1ef8d89377778861e 4cc0cc0b297c17c2b106d6892bd13d9c32fe66ce refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmoi2dwACgkQ10qiO8sP
+aACrag//cOvgeV0HQnf7WZuRnumviBpHrMjHJlg5MB9Pc2qRVBjqWLQCHQAKt2Pb
+TMvQZmm8zSldac7w4dgIXed5SjlwvPvLo0Itx4LBKUassDCdNcQ+YOlVtGbNxStP
+uxQIu8tRvTA+pV/W0P6JSGIVDGQMQGQnY13Dk9tv5ezLFRKsiRrVRU8kj06UcJXx
+TO26t2XczEX0L2/Q77ihLbI+gyqnpuSechnvhQbrRqAsIICBR1WbPYz6kJ7OjSpc
+Z5yqrod0x5vWmUG3t4Zd5XpKkkRJAT24CVc5TjmqrHS7lmy9XJXKS/ZaoJiFooFy
+1c1PNg8l5nNdQwu2Rgtvt7hZw8b/Xz+RlNPc2AqJVhLB3upqUKjVW+Aryzx+tsHT
+hVzytAXMnduYLvCVSro0AM16s4ia0cntEfq6yEtpn1DmnnIHAhtz0AOKkZLsi8AJ
+y/m9WFskvYVLi8tHAMn5W6Tt/vJJEUJKapANsogZ948TXkAPffZ+RyDaynLLQEl5
+z0YJn8fB87mNaUpQAkKPRJ/9Jdv/iyQHU5PXZEl2DEajxDumXhncRx11yTNxD0ai
+0pq0gTZrAVTVZcVRLvnR+Ct6DLWK/Vmkq4fRPMpGuyqCf4WyFeQE/jDmD3JTIggV
+sfGAU7b/LMFimHstVXeW9p+rxsD1XZe27a7MiRmPtclo87Fe/jQ=
+=l2DX
+-----END PGP SIGNATURE-----
+
+--===============6263938567851288216==--
