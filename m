@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2925404737225688011=="
+Content-Type: multipart/mixed; boundary="===============8265111738832799285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 05 Jun 2026 06:19:21 -0000
-Message-Id: <178064036148.2757687.9988028434950127857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Fri, 05 Jun 2026 06:24:39 -0000
+Message-Id: <178064067987.2761571.8355329338860500324@gitolite.kernel.org>
 
---===============2925404737225688011==
+--===============8265111738832799285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: f5dc13f88855557ab7e0ec917d744a5d5f6f5a0d
-    new: ca1e0358d97e8693d7879baac29681de55055afe
-    log: |
-         ca1e0358d97e8693d7879baac29681de55055afe drop usb-typec-ucsi-don-t-update-power_supply-on-power-role-change-if-not-connected.patch from 6.12
-         
+  - ref: refs/heads/testing
+    old: 41c4d3b26f5e23609cd4b5ca561a399a097daabe
+    new: c13c0cc6f52e491186f6521dc80031c35737162d
+    log: revlist-41c4d3b26f5e-c13c0cc6f52e.txt
 
---===============2925404737225688011==
+--===============8265111738832799285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-41c4d3b26f5e-c13c0cc6f52e.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780640306 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1780640358-6dfcd4c168e35f8c489ad870c650789efbbb2ced
+440bf355d32e14115b16d2869fc4e8e98e4a012a xfrm: remove redundant assignments
+231a1744dc433e8f39871a8fd0f5eab78202e136 xfrm: add extack to xfrm_init_state
+b8addb8884f2dc1b13cf3e4fa0265ecd0bc58b69 xfrm: allow migration from UDP encapsulated to non-encapsulated ESP
+364e165e0b63e8142e76de83e96ae8e36c3b955a xfrm: fix NAT-related field inheritance in SA migration
+e2e92714d08117d18f0e560673206717d10edbd4 xfrm: rename reqid in xfrm_migrate
+8de53883a4bf807a628f0d150a7ca7ddf56a5cc3 xfrm: split xfrm_state_migrate into create and install functions
+b2cb192b95e591b7c14af94aa0763b99149a3742 xfrm: check family before comparing addresses in migrate
+bac7a60e267831471ecdf54881fc62a2c80c446c xfrm: add state synchronization after migration
+15e5d32de6bf008eff2b6f60db0c7c3e2cef5a3b xfrm: add error messages to state migration
+1d97daee303847bd9f0ff97dc257380fc156206d xfrm: move encap and xuo into struct xfrm_migrate
+92550d30c69b22e34653a03c142433980688465b xfrm: refactor XFRMA_MTIMER_THRESH validation into a helper
+38d400e5d0fd8d8ef394b8ebea3088e6482528f8 xfrm: extract address family and selector validation helpers
+8eed5ba25734bfeec766f9518515be7cf6d1de2a xfrm: make xfrm_dev_state_add xuo parameter const
+a9d155ea9b44d9b979796506bec518222f10b9e6 xfrm: add XFRM_MSG_MIGRATE_STATE for single SA migration
+c4460171d78a75282a760c0b5f39f59bb044e61d xfrm: restrict netlink attributes for XFRM_MSG_MIGRATE_STATE
+c13c0cc6f52e491186f6521dc80031c35737162d xfrm: add documentation for XFRM_MSG_MIGRATE_STATE
 
-f5dc13f88855557ab7e0ec917d744a5d5f6f5a0d ca1e0358d97e8693d7879baac29681de55055afe refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoiajIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QrIP/0SHh+et5v68RQhkpSS4
-Bm5keJa5CoYTR4qwEFR8lWBFdDz9n1nk/0YOXW+BLVyMut3lreAm8Lhh9anMUi/C
-gj6bqsRkmWPQBCyLruYUbpXXOhuiUkXoom91Dt4Z5nrcFGviPyHG45WPUdMgUPAk
-DDjgTltfK3RZ2E9gVcgA6QYsGn2McmOZ9NS7V1Et+yjwXAxr55TYkXM8wTYYFRTe
-TapUHcjSAFDiqQbGvw5y3OFMwZcYiVNMfPvUF/Gjc+XbkYbNKNXo36MVeb6Zleed
-lkLSxh83LXiTuPMvM/6z+CFC9axUXj/DgRjXYesIvNtLatNVcQ6WGYIEXMi/dNUb
-jlpW9lYZ0khTZxBwW7HtxWpSXfc+KEUDjZ+p2yWb0B0/QRN/4tnXq63cu+G+UGTh
-1t8L8iJ0AeXrH9JgIhqHnVeeRSwhmRWpFtf7dggF/Vn2eCDPoU+eukcPXf2415AH
-mEkpzKgl/icLsh2UDC7WZ4q+PHr3PsQCo0072aqTXDkxET4gOzvZQro6bRRrUNcN
-NUJ/Z9QKY4YfX6GlLh2KPOw3w8LbSucBLm1lxa81Ur8247lvmfAwDifcdBkoC69F
-tXQ9dUnrG8TpoTkpCq0jJlEx71KMXGFVznW062kBH0ThIUcu5J/B5A8NaoMDVYrt
-WTTXoWs3cpDLDDfPxB2/Nd3j
-=TrU6
------END PGP SIGNATURE-----
-
---===============2925404737225688011==--
+--===============8265111738832799285==--
