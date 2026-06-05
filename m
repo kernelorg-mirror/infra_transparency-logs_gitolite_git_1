@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8085063278175336362=="
+Content-Type: multipart/mixed; boundary="===============2321143804198986688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 05 Jun 2026 21:23:42 -0000
-Message-Id: <178069462224.3452334.13223079696994791839@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 21:23:47 -0000
+Message-Id: <178069462754.3452582.12236327129606803922@gitolite.kernel.org>
 
---===============8085063278175336362==
+--===============2321143804198986688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 4a7910ee060d8ce55612f5b3cc267f3a265a3cec
     new: bbb5e2e31a5476d376ce1d0004c6168585fe1a7f
     log: revlist-4a7910ee060d-bbb5e2e31a54.txt
 
---===============8085063278175336362==
+--===============2321143804198986688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b85e63cb65f96df373b034cc347b0e18231cb0d5 selftests/bpf: Provide weak definitions
 3ca6543464f8f396eee018399b5e266196b0a9a7 selftests/bpf: Tolerate missing files during install
 bbb5e2e31a5476d376ce1d0004c6168585fe1a7f Merge branch 'selftests-bpf-tolerate-partial-builds-across-kernel-configs'
 
---===============8085063278175336362==--
+--===============2321143804198986688==--
