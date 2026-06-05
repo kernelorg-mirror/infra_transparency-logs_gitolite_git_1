@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 05 Jun 2026 21:55:52 -0000
-Message-Id: <178069655272.3477165.10166870463655110701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Fri, 05 Jun 2026 21:56:53 -0000
+Message-Id: <178069661307.3477675.2438073282579729349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dt/next
-    old: e1686ca81dbf3edbde589b7daf312b45cbf76e03
-    new: 722f0707782b098d7423ff03094f174c0ad655e7
+  - ref: refs/heads/master
+    old: 2d6c48b188cfc3ece21f6757074f003a60126d9e
+    new: 451e17b26ade16dbdc9094222f32af113833899d
     log: |
-         ffda432eb1503a6002c823094310ab2b887e4fa7 dt-bindings: soc: ti,omap-dmm: Convert to DT schema
-         722f0707782b098d7423ff03094f174c0ad655e7 dt-bindings: display: panel: Describe Samsung SOFEF01-M DDIC
+         451e17b26ade16dbdc9094222f32af113833899d man/: Update references to _exit(3) and _Exit(3)
          
