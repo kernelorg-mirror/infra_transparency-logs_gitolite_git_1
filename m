@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1514258879335234964=="
+Content-Type: multipart/mixed; boundary="===============3805637425215614605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 05 Jun 2026 00:17:06 -0000
-Message-Id: <178061862604.2482850.12197776824602878976@gitolite.kernel.org>
+Date: Fri, 05 Jun 2026 00:17:08 -0000
+Message-Id: <178061862843.2482955.6690521751645077003@gitolite.kernel.org>
 
---===============1514258879335234964==
+--===============3805637425215614605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ef1eb514592727ba417fac3916155c530f189264
-    new: 1b44fc526761aa00fc3c6c42983157996e355d7b
-    log: revlist-ef1eb5145927-1b44fc526761.txt
+  - ref: refs/heads/mm-unstable
+    old: 7f981ca4cef222e26fc2b4ceb2d2bfe7a6153d3a
+    new: 2a819f9664643991d44964b6ed4aa173c350b327
+    log: revlist-7f981ca4cef2-2a819f966464.txt
 
---===============1514258879335234964==
+--===============3805637425215614605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef1eb5145927-1b44fc526761.txt
+Content-Disposition: attachment; filename=revlist-7f981ca4cef2-2a819f966464.txt
 
 6414f790f21d2ba648d4d2a713d61f9014123fcf MAINTAINERS: add more files to PAGE CACHE section
 4c0ed883e0516aee79496b6277cbea63a08b2676 mm/page_alloc: fix defrag_mode for non-reclaimable allocations
@@ -241,8 +241,5 @@ d950b3b5a3c96aa5f0126559b878b1dd37a7cc8f alloc_tag: fix use-after-free in /proc/
 488cf185e8c21b51108537bd9f9bdfeee2c01ea3 lib: split codetag_lock_module_list()
 cc00fb98052eb6128f271c5b4d50dddfdacedccc zsmalloc: simplify data output in zs_stats_size_show()
 2a819f9664643991d44964b6ed4aa173c350b327 mm/page_alloc: only update NUMA min ratios on sysctl write
-890153ef07a1f69124bda77bd35c701654f602fa mm: page_isolation: avoid unsafe folio reads while scanning compound pages
-c82b75cab108f9013e930ac57e17f4f41489c78b mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1b44fc526761aa00fc3c6c42983157996e355d7b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1514258879335234964==--
+--===============3805637425215614605==--
