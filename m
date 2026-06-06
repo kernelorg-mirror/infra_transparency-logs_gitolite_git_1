@@ -1,68 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4713315492614092689=="
+Content-Type: multipart/mixed; boundary="===============1947955894326324005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 06 Jun 2026 22:15:53 -0000
-Message-Id: <178078415351.334954.5838362437668420829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
+Date: Sat, 06 Jun 2026 22:28:09 -0000
+Message-Id: <178078488911.342851.15272526154901781938@gitolite.kernel.org>
 
---===============4713315492614092689==
+--===============1947955894326324005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/kwilczynski/linux
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 267a13d89589dc4aa6782eb155d80678ce81f325
-    new: a4897190ecbbdc5f4d7da70676228ed5e30b54c0
-    log: revlist-267a13d89589-a4897190ecbb.txt
+  - ref: refs/heads/next
+    old: b299aafc7499e15ff7a57f1f8ce70e1dd0383e5f
+    new: 6073579e0801aa35ea4f1e41e2180780719b3b23
+    log: revlist-b299aafc7499-6073579e0801.txt
 
---===============4713315492614092689==
+--===============1947955894326324005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-267a13d89589-a4897190ecbb.txt
+Content-Disposition: attachment; filename=revlist-b299aafc7499-6073579e0801.txt
 
-3670d59781fe2343ce98ce010b58e253df3aa091 hkml_list: add a class for mail item on the mail list
-2a2f76d0ad8755352fb17a56beea0592894a8dd5 hkml_list: implement MailListItem to/from kvpairs converter
-2b1875125e92262bfb6bd01ef2de76eb059d95d5 hkml_list: implment MailListItem.__eq__()
-caa8394e63351eb41cad53f53dfde1bfc57dd807 hkml_list: add MailsListData.mail_items
-3b16bc2e74a66df2e089c62409ce5fab414f42bb hkml_list: generate MailsListData.items in mails_to_list_data()
-f846e0ba46aca90b4a9aab5c93d9d386a8113358 _hkml_list_cache: save MailsLListData.items to cache
-a092fb48847b6bf73b9546b4c93cd7e914dd5157 _hkml_list_cache: return MailsListData having mail_items field from get_list_for()
-d4f434e2fe2c89d77d245171581e26f49916b3c2 _hkml_list_cache: return MailsListData from get_last_list()
-8ae46663f09105a62a488774978e204f75f7d0f7 hkml_view_mails: set MailsListData.mail_items from refresh_list()
-47918f47e7c5e1c17f1a2dfcbcec6d858ae245cf hkml_view_mails: use mail_items for cache writeback check in refresh_list()
-648706b64abfc6e27acf1d9977e73a254d012a5f hkml_view_mails: use mail_items if available in get_mails()
-64d0bc47d015efb955d273003afd5a2be333693b _hkml_list_cache: always return single value from get_last_list()
-a0c5e5241f57958a8e5f558ad7395b28d6d58e6c hkml_view_mails: use _hkml_list_cache.get_last_list()
-b1897a4fa80b435b0c5b5b7227393a92f8500912 _hkml_list_cache: remove unused get_last_mails_list()
-d21e6f84eabdb2c1d9a457a89c3363b01e9e38d0 hkml_view_mails: use mail_items in after_input_handle_callback()
-2497921b276d85a15180fd53df3284a3e293400d _hkml_list_cache: use mail_items for change detection
-b6164dcdf20c4123c9a0085959532b2f9af684b8 hkml_list: receive mail items on fmt_mails_text()
-5924afd5806b56446f8ef6d3394cb90fb6dabfda hkml_list: use mail itemss more on fmt_mails_text()
-ae5e08af8dd23cb75d2eb187ea5a2483eae006a8 hkml_list: receive mail item on format_entry()
-ec4c687cbae83fbb8761a6e7d1f2ae31ddf8bcaf hkml_list: pass and use mail item on fmt_entry()
-6d4867ffd17574cc573fd881bb9ceff3bcfa8abe hkml_list: remove unused orig_subject_formatted()
-23da4e2cd0b403f9181a6c8938b59fd0c54e6117 hkml_list: pass mail items to sort_filter_mails()
-6ae8913ffbd005ae7aaebf4bbe0e14ad2d0f1787 hkml_list: add MailListMailItem.replies
-ef364fa91ac9263a90098881689cb46245d023df hkml_list: implement thread_items_of()
-434c6c6165a03c0aeea35cd43e804041a9d1678d hkml_list: implement find_ancestor_items_from_cache()
-859b6e469f65a9d31fb58d12a23e3c8ba8cabc85 hkml_list: implement a few mail item version functions
-fff733ad885aa849484aba891e21e535581aabd3 hkml_list: extend for mail items based filtering
-a58a72617221d0fe2a2ac1c49253652bcdd35f7f hkml_list: update sort_filter_mails() to use mail items
-575b81f889ef9a5543f320841ed8196967071b78 hkml_list: extend tagged mails adding functions for mail items
-c445dbfa5f45a7890ebabc99c61ed86e81bc0c1d hkml_list: extend stat formatting for mail items
-562ed44d50c1e91f2885ec4f3ca099f1d87a12f9 hkml_list: use only mail items in mails_to_list_data()
-6c09cf409b3775b297bc8ab9c342148611bc4818 hkml_list: use filtered mail items
-bcd54075b53cb8aa4015cae006f3f3aee1c4d824 hkml_list: remove unnecessary mail items reconstruction in mails_to_list_data()
-1ef2bce489b0a79b30ccca50b5ec9f8181c9307d hkml_view_mails: setup mail item parent/replies in get_mails()
-09af95e516952382e4e5cfee783c0712f3f76a1c hkml_list: remove unused get_filtered_mails()
-eacfe29a3c31661ab64bc0ad8ca677ef22386dbb hkml_list: remove unused format_stat_lines()
-5325994abe1605d9ed7516fccd246536975c9dfa hkml_list: remove unused format_stat()
-a4897190ecbbdc5f4d7da70676228ed5e30b54c0 release_note: update for next release
+9a83bf16239c6f11d0c0c2dcdae077ef7bc029e6 Merge branch 'aspm'
+0120e83817e06ac3fd95727aaf317920add1cbbc Merge branch 'enumeration'
+8437339c535a3538e7446c0c0008ba12d0483cea Merge branch 'p2pdma'
+14c766d09a2c56e83d2fef8e906cf9d05b1e2aa9 Merge branch 'pm'
+d9d6a5807b035d476fb967c13d5ac871e14dac92 Merge branch 'pwrctrl'
+3ff08258e79970ea9be5efa52fd59b814f85af28 Merge branch 'reset'
+2b29f37288e6ff65a4288bf6fa62eaa60e7fe509 Merge branch 'resource'
+14d1090a538838fe8820868e16814966d68d6f9e Merge branch 'rom'
+dc1a88a0d03f592d6354885c7ec6f6a4b189cde4 Merge branch 'procfs'
+09c4928ebcc492c44e031447141a0d7ab3319345 Merge branch 'sysfs'
+7b693b32ac9d4242c022242e64af2acd1bd4b786 Merge branch 'switchtec'
+4ed13f928c4442c4e17f9c10f8e3751d0af5e3f5 Merge branch 'dt-binding'
+9cd50f95bb93e11f029822b1919a99acc3fad351 Merge branch 'endpoint'
+ca1c06345b384e5d3bd352cf5c3f9e27d9fc43eb Merge branch 'controller/host-common'
+31ac813ece47ed3e560296fea9556910a17075f4 Merge branch 'controller/altera'
+d406219f5e59ea72d649201478436a013e8b5a1a Merge branch 'controller/dwc'
+119033eb6ca2259fb0b601ad955c3dc7c670b2a6 Merge branch 'controller/dwc-amd-mdb'
+51ffaae18eb4a59256fbbbf2c7d99ec407cdd810 Merge branch 'controller/dwc-imx6'
+ba38e155f2c15975db8f22c79a031bfd0dc700af Merge branch 'controller/dwc-intel-gw'
+90ffb8035d1c4c641e649091c067e650e4aed89d Merge branch 'controller/dwc-qcom'
+af9ce330f4442f71bd3ba2bc34104e34a379a913 Merge branch 'controller/dwc-tegra194'
+4530642f491de55adff9e2e0c39135012d257bc0 Merge branch 'controller/dwc-ultrarisc'
+454f4f0f595ac8fabf688f60f2b5c53f191377ad Merge branch 'controller/iproc-bcma'
+3eb677ef861322ece2c4d0bc8557958346e9fef0 Merge branch 'controller/loongson'
+4c80c6df81226aa21f006d6fd3c32183288e4d1d Merge branch 'controller/mediatek-gen3'
+898e1ef0e7aa3f336fc13dc7fe7d6a0b86105b9c Merge branch 'controller/misc'
+6073579e0801aa35ea4f1e41e2180780719b3b23 Merge branch 'misc'
 
---===============4713315492614092689==--
+--===============1947955894326324005==--
