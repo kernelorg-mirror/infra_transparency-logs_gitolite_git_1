@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Sat, 06 Jun 2026 00:33:35 -0000
-Message-Id: <178070601569.3592280.16971489138610717168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 06 Jun 2026 00:33:54 -0000
+Message-Id: <178070603461.3592509.10262102827662257391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/cxl-fixes
-    old: 0000000000000000000000000000000000000000
-    new: d90f236f8b9e354848bd226f581db27755ab901d
+  - ref: refs/heads/main
+    old: bfa3d89cc15c09f7d1581c834a5ed725189ec19f
+    new: 2eb9a81a7f73fb2582192547915a6c87dcd59574
+    log: |
+         b64f763b607426ac97e44b114f0b8844ac3b86dd net: cpsw_new: unregister devlink on port registration failure
+         2eb9a81a7f73fb2582192547915a6c87dcd59574 selftests: net: do not detect PPPoX loopback
+         
