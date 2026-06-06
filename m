@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 06 Jun 2026 00:13:29 -0000
-Message-Id: <178070480900.3578113.17104018286467942744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Sat, 06 Jun 2026 00:33:35 -0000
+Message-Id: <178070601569.3592280.16971489138610717168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/pending
-    old: 98985c92efde8e5f36eb726a855001f53ef1aa04
-    new: c6345aef79bf1f7ca3570270632392fd1b89f464
-    log: |
-         c6345aef79bf1f7ca3570270632392fd1b89f464 wifi: wcn36xx: allocate chan_surveys with main struct
-         
+  - ref: refs/heads/cxl-fixes
+    old: 0000000000000000000000000000000000000000
+    new: d90f236f8b9e354848bd226f581db27755ab901d
