@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4329143428753922043=="
+Content-Type: multipart/mixed; boundary="===============6367120685772918494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Jun 2026 08:54:39 -0000
-Message-Id: <178073607911.3954900.15734921401428652088@gitolite.kernel.org>
+Date: Sat, 06 Jun 2026 08:55:08 -0000
+Message-Id: <178073610824.3957364.7343551802453525918@gitolite.kernel.org>
 
---===============4329143428753922043==
+--===============6367120685772918494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,55 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3c2c5fca293c9cdcf2103331808c0e18ee8b6ad8
-    new: ba5127a3d0f22db1791e2a787d2e4ccd123f48c7
-    log: revlist-3c2c5fca293c-ba5127a3d0f2.txt
+    old: ba5127a3d0f22db1791e2a787d2e4ccd123f48c7
+    new: 2ba06712c89e8599d89c4315f73a377b7bf6de02
+    log: revlist-ba5127a3d0f2-2ba06712c89e.txt
+  - ref: refs/heads/tip/urgent
+    old: 6a35fb5a8de8a3ad301eeb33d445de46ea8a8ee5
+    new: e9acc69614141ea8478eed97bd9f5deabe6bfcd2
+    log: revlist-6a35fb5a8de8-e9acc6961414.txt
 
---===============4329143428753922043==
+--===============6367120685772918494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c2c5fca293c-ba5127a3d0f2.txt
+Content-Disposition: attachment; filename=revlist-ba5127a3d0f2-2ba06712c89e.txt
+
+8d8bd94ea7c3fdd160668a2372d481566c109a1f Merge branch into tip/master: 'locking/urgent'
+37703d821958dba975e2bcc0a4746011476f5b59 Merge branch into tip/master: 'sched/urgent'
+0ee2db76dab380159f3d118140ae05210bb169a4 Merge branch into tip/master: 'timers/urgent'
+e9acc69614141ea8478eed97bd9f5deabe6bfcd2 Merge branch into tip/master: 'x86/urgent'
+fc5658d8b71890627ebd89403a93ee38b909dc81 Merge branch into tip/master: 'x86/merge'
+26d428c6a357d082c331710d463139aa51704500 Merge branch into tip/master: 'timers/merge'
+01a5509c5a02d526b7abbad8bad0394715bea2ae Merge branch into tip/master: 'core/rseq'
+90c6bc96c1c8e6fbee3bf778afc11e048d54c8f3 Merge branch into tip/master: 'irq/core'
+b7f5cb2e383f88ce1410cc78dc4e077008a54c92 Merge branch into tip/master: 'irq/drivers'
+f2d3c6a71d0691450f2ef31003582f42a39ea48c Merge branch into tip/master: 'irq/msi'
+2cef8dbc5b038c39e577a891995c572e86150ae2 Merge branch into tip/master: 'locking/context'
+6e5dbf001b156c7438dd6fb79f19e7dedd0e1e55 Merge branch into tip/master: 'locking/core'
+d491ca83b024ada65122a9f9c2b33b296f02cd62 Merge branch into tip/master: 'objtool/core'
+eccd5dcc0a49b59ab61f07f972c591636c3b2a5d Merge branch into tip/master: 'perf/core'
+46bfe5edf5288dddff1e74bd312e51729a07cfa7 Merge branch into tip/master: 'sched/core'
+25b8d1c6d171875b5e6e61e4a96a5338cf72e826 Merge branch into tip/master: 'smp/core'
+ec1ec0a0dc5edb4646c292f747c9f5ddc59b3e9e Merge branch into tip/master: 'timers/core'
+d9103a604df78e1d397ef3676aa1e110cd70ebac Merge branch into tip/master: 'timers/nohz'
+c4566b88f97324045cfa35b7bccdd5daa1fc7f65 Merge branch into tip/master: 'timers/ptp'
+74944849501c7c8fc186d6b98d2e35cd84319b8c Merge branch into tip/master: 'timers/vdso'
+7b3d5ad016b9be0affa6e5b2cd17197924ad43ed Merge branch into tip/master: 'x86/cache'
+5f9ca3bd464d755af1e0d74685d13bb517c55909 Merge branch into tip/master: 'x86/cleanups'
+799566bc684e24b19d0e08093af3e13cdda345f2 Merge branch into tip/master: 'x86/cpu'
+9273cda4f053a3edfef7840a10c506855dc1b4b2 Merge branch into tip/master: 'x86/microcode'
+257e185adfd017159e00870af7db74da4c659c27 Merge branch into tip/master: 'x86/misc'
+f09a34ff5a82cedc66c5a0efcd3e3dfc4f7bd819 Merge branch into tip/master: 'x86/mm'
+fcfcbec02e3bc7693428ccc8f0e8bcaac9660926 Merge branch into tip/master: 'x86/msr'
+9177aca7bd127374e85342d19a95de192367e30b Merge branch into tip/master: 'x86/sev'
+2ba06712c89e8599d89c4315f73a377b7bf6de02 Merge branch into tip/master: 'x86/tdx'
+
+--===============6367120685772918494==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6a35fb5a8de8-e9acc6961414.txt
 
 1aee05e814d292064bf5fa15733741040cdc48ba erofs: fix use-after-free on sbi->sync_decompress
 bc95fa240a1b8ae64d3dabe87cbe103b912afc45 xfs: handle racing deletions in xfs_zone_gc_iter_irec
@@ -132,6 +172,9 @@ f80cbe57ec4169c6e9eafa4f1d31feced32177d3 Merge tag 'drm-misc-fixes-2026-06-05' o
 8ff3adc8c322a9b5a987bf29f52ba727f8b5c406 Merge tag 'drm-intel-fixes-2026-06-05' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 1a4f03d22fb655e5f192244fb2c87d8066fcfca2 drm/gem: Try to fix change_handle ioctl, attempt 4
 8e65320d91cdc3b241d4b94855c88459b91abf66 Merge tag 'drm-fixes-2026-06-06' of https://gitlab.freedesktop.org/drm/kernel
-ba5127a3d0f22db1791e2a787d2e4ccd123f48c7 Merge branch 'linus'
+8d8bd94ea7c3fdd160668a2372d481566c109a1f Merge branch into tip/master: 'locking/urgent'
+37703d821958dba975e2bcc0a4746011476f5b59 Merge branch into tip/master: 'sched/urgent'
+0ee2db76dab380159f3d118140ae05210bb169a4 Merge branch into tip/master: 'timers/urgent'
+e9acc69614141ea8478eed97bd9f5deabe6bfcd2 Merge branch into tip/master: 'x86/urgent'
 
---===============4329143428753922043==--
+--===============6367120685772918494==--
