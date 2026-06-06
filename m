@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 06 Jun 2026 15:49:12 -0000
-Message-Id: <178076095221.58417.795505583908228407@gitolite.kernel.org>
+Date: Sat, 06 Jun 2026 15:49:41 -0000
+Message-Id: <178076098141.58788.4406515585133659253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: a26c2a22e7e88b2b5afb1349f3994fc564c988b1
+  - ref: refs/heads/pending
+    old: f3d10fec4b529763aca9e8a6e7b3681a7cc9bb11
     new: 38b2fb7d2df16f5801f7d88a4739942b95a5f6aa
     log: |
          88a240d86d3d64521f9194abe185ac71cc74d0bd wifi: wcn36xx: fix heap overflow from oversized firmware HAL response
