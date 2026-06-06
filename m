@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sat, 06 Jun 2026 12:24:32 -0000
-Message-Id: <178074867287.4101968.3308148030007180925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 06 Jun 2026 12:27:35 -0000
+Message-Id: <178074885526.4105482.14338106587126994644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 5624ea54f3ba5c83d2e5503411a31a8be0278c1e
-    new: 79bbe453e5bfa6e1c6aa2e8329bfc8f152b81c9b
+  - ref: refs/heads/tmp.perf-tools-next
+    old: a6ec14450dd8d6b661af71e63e0b9c48c4e1efc8
+    new: 8d1bc1da00d5ee7783cd2e241a7896ba5697d138
     log: |
-         214f94e56423f4097bb62692fe63d217d02a443d dt-bindings: crypto: qcom,prng: Document Hawi TRNG
-         d273b258d8d582626f2270809874b94c71a27bf5 dt-bindings: crypto: qcom,inline-crypto-engine: Document Hawi ICE
-         4e67f504ee9ded15e256b64f4fde150e917381d7 crypto: nx - fix nx_crypto_ctx_exit argument
-         ed459fe319376e876de433d12b6c6772e612ca36 crypto: pcrypt - restore callback for non-parallel fallback
-         fb98254a5eb9c5ddd22e9bffdd8ae709769bee9f crypto: qat - add KPT support for GEN6 devices
-         265b861bece38318b8e0fc8fac0643d4ef906d31 crypto: chacha20poly1305 - validate poly1305 template argument
-         b2b24a98863fee9a495c8afb602fe75b964a1a84 crypto: powerpc/aes - use min in ppc_{ecb,cbc,ctr,xts}_crypt
-         79bbe453e5bfa6e1c6aa2e8329bfc8f152b81c9b crypto: qat - simplify adf_service_mask_to_string helper
+         66223a241be266a6297064cac3da81c41471951d perf mmap: Guard cpu__get_node() return in aio_bind()
+         a9eb7fd0641b3fc36123635e241a72e6ed340586 perf stat: Bounds-check CPU index in topology aggregation callbacks
+         3c3fff7318541b1a87a24195d37ec9edeb46dbb0 perf c2c: Bounds-check CPU and node IDs before bitmap and array access
+         0e90f74fa67c52aaf22f3378d7a99fd43d74e6b0 perf c2c: Bounds-check CPU IDs in setup_nodes() topology loop
+         962ee10cd00465c3ea5e3454127bfca91cbcb01b perf sched: Clean up idle_threads entry on init failure
+         49b5e1bf7827e40d76490de09fab7d5e981954d4 perf sched: Use is_idle_sample() for idle thread runtime cast guard
+         c67e2de4597d6740669092d1e9cb5a22983a597a perf sched: Fix thread reference leak in idle hist processing
+         8af51df70f471957389199b943772c9dd56e6266 perf sched: Use thread__put() in free_idle_threads()
+         8d1bc1da00d5ee7783cd2e241a7896ba5697d138 perf sched: Replace BUG_ON and add NULL checks in replay event helpers
          
