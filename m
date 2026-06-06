@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 06 Jun 2026 03:34:01 -0000
-Message-Id: <178071684165.3727285.11598782575824060676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 06 Jun 2026 04:20:02 -0000
+Message-Id: <178071960280.3764717.2389224473713817799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/for-next
-    old: ba033497f16c24be2f8ee8c162895d686885f66f
-    new: 8ddce416797b7454ba1df855821b02c6e43b5a0e
+  - ref: refs/heads/kbuild-next-unstable
+    old: f58316a441b4626324993db585fa4b7b7c780fac
+    new: 2566fa7b2f2402a77dae6a5e9b28a1bae1c20793
     log: |
-         63a673e8a4112af267106264f50584947786845a bpf: Expose signature verdict via bpf_prog_aux
-         8ddce416797b7454ba1df855821b02c6e43b5a0e selftests/bpf: Inspect the signature verdict exposed to BPF LSM
+         29c52907334a8e50ba1ee5fbaa53407dec28d876 modpost: Add __llvm_covfun and __llvm_covmap to section_white_list
+         e88b2fe8b9993c9cae856019b1c31c14b63cad7a kconfig: Remove the architecture specific config for AutoFDO
+         2566fa7b2f2402a77dae6a5e9b28a1bae1c20793 kconfig: Remove the architecture specific config for Propeller
          
