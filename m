@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 06 Jun 2026 13:40:30 -0000
-Message-Id: <178075323035.4162158.18425579362958400764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 06 Jun 2026 14:15:23 -0000
+Message-Id: <178075532366.4186995.12536519176264704830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 3bae52dba9d7ae0caf3166726fac6aa30d7b6370
-    new: 79fed4c6e8a92e6117ae9d26a7f6476d2ce0643d
+  - ref: refs/heads/kwilczynski/procfs-attach-device-rescan-lock-v2
+    old: 7cdf61db16525128d7837d6c330da5292d09d9f1
+    new: 65cea4744ae902fffa31a435e616d3c9411c38d2
     log: |
-         79fed4c6e8a92e6117ae9d26a7f6476d2ce0643d Drop xfrm-hold-dev-ref-until-after-transport_finish-nf_ho.patch
+         65cea4744ae902fffa31a435e616d3c9411c38d2 PCI/proc: Fix race between pci_proc_init() and pci_bus_add_device()
          
