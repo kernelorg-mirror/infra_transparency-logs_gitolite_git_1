@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5311119466826076649=="
+Content-Type: multipart/mixed; boundary="===============7124063747423956068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 06 Jun 2026 16:26:26 -0000
-Message-Id: <178076318626.89537.16666275943057713901@gitolite.kernel.org>
+Date: Sat, 06 Jun 2026 16:26:28 -0000
+Message-Id: <178076318891.89635.14320978406767687990@gitolite.kernel.org>
 
---===============5311119466826076649==
+--===============7124063747423956068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 02481b69330676d3468dc662afff6f2f30ea36fa
-    new: 626acb37cd445144f321f1b64cac9a93760fa716
-    log: revlist-02481b693306-626acb37cd44.txt
+  - ref: refs/heads/mm-unstable
+    old: e178a530a81621a29efbca49b3b78202a18236e4
+    new: 4d9d63fb74a0b5c068995ed0f0ed8347b5d85f46
+    log: revlist-e178a530a816-4d9d63fb74a0.txt
 
---===============5311119466826076649==
+--===============7124063747423956068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02481b693306-626acb37cd44.txt
+Content-Disposition: attachment; filename=revlist-e178a530a816-4d9d63fb74a0.txt
 
 3a586252b434b5cd1deac6e47c603c50e9729dc2 mm/memory-failure: trace: change memory_failure_event to ras subsystem
 09a12c621393806631fd114ae53ba0cd7dfe462a arch,x86: skip setting align_offset for hugetlb mappings
@@ -176,10 +176,5 @@ e80f646e22b939db08c88733a0979fbbab77a33c selftests/mm: skip uffd-stress test whe
 5576c08ced044fb08013a44f9d1a7b5a453a251c selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
 f1dc0ce8832499df8b65e87d97a49ffa8f260f4a selftests/mm: clarify alternate unmapping in compaction_test
 4d9d63fb74a0b5c068995ed0f0ed8347b5d85f46 MAINTAINERS: add Hao Ge as reviewer for codetag and alloc_tag
-88bf7fa8f9cbdde9bf8f9100c29dcf26054ed318 mm: page_isolation: avoid unsafe folio reads while scanning compound pages
-81a2720de2da20c7266a8c34bdf85566a0cd4857 mm/damon/core: always put unsuccessfully committed target pids
-011f09a11f435c2b378167dcf65265e22953b217 mm/page_frag: reject invalid CPUs in page_frag_test
-fc85e9ee79411fc592e051a42eb8bad1494be3f3 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-626acb37cd445144f321f1b64cac9a93760fa716 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5311119466826076649==--
+--===============7124063747423956068==--
