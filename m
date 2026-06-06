@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 06 Jun 2026 01:01:07 -0000
-Message-Id: <178070766772.3614722.7365880171658164788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 06 Jun 2026 01:14:34 -0000
+Message-Id: <178070847473.3622713.117926342401680685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/pending
-    old: e441efa23e24bc489e29cd51d132e4b4c1277098
-    new: f3d10fec4b529763aca9e8a6e7b3681a7cc9bb11
+  - ref: refs/heads/next
+    old: 2eef00753806b65aefe4a7ac91fd7bf889bf97d1
+    new: afb1cfc9d4999c5d8690b68af68d70473aa9fa66
     log: |
-         f3d10fec4b529763aca9e8a6e7b3681a7cc9bb11 wifi: ath9k_htc: allocate tx_buf and buf together
+         368b1c04f2beb7efd61b5031442a3b88931c3abe _damo_sysinfo: handle unusable perf in get_perf_path_version()
+         afb1cfc9d4999c5d8690b68af68d70473aa9fa66 _damo_records: locate timestamp field instead of assuming column index
          
