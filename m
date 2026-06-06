@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sat, 06 Jun 2026 11:16:24 -0000
-Message-Id: <178074458408.4055004.2031408482473806205@gitolite.kernel.org>
+Date: Sat, 06 Jun 2026 11:22:16 -0000
+Message-Id: <178074493650.4059049.16705122233857667713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
   - ref: refs/heads/b4/vdso-arch-clockmodes
-    old: 1b1c323824ccf946f485c54ed34d3a73a9e92651
-    new: f3ef9af2a8f8241f76ec486aa31cf7c988219aab
+    old: f3ef9af2a8f8241f76ec486aa31cf7c988219aab
+    new: 9a949a63a8b066c75c8a6efa28cda2b3e7fecb19
     log: |
-         d27f9ba220177a2b2db7a96276539f04c302ec81 msg
-         1069dabb275c3dc5decfa4d09929455122b10e85 recursive
-         f3ef9af2a8f8241f76ec486aa31cf7c988219aab vDSO: Make clockmode constants available without CONFIG_GENERIC_GETTIMEOFDAY
+         ff6270d723df5895f0242fe7843afed8b5836bd2 recursive
+         9a949a63a8b066c75c8a6efa28cda2b3e7fecb19 vDSO: Make clockmode constants available without CONFIG_GENERIC_GETTIMEOFDAY
          
