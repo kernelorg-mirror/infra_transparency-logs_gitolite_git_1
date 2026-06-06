@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 06 Jun 2026 01:15:52 -0000
-Message-Id: <178070855201.3625511.14253623396838529938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 06 Jun 2026 01:21:37 -0000
+Message-Id: <178070889769.3629478.15697237094055642880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 406909b825c9645a434e6e16d781b40c0aa9d053
-    new: 267a13d89589dc4aa6782eb155d80678ce81f325
+  - ref: refs/heads/main
+    old: 9410fb4da2d42a75c0fdbc04c4e74f3a2c42793f
+    new: 50d578d639b8de2d23b8052138b92a1b9c33dcfb
     log: |
-         267a13d89589dc4aa6782eb155d80678ce81f325 release_note: update
+         e302aa3d00fb1bcbc1137a42615b1c54ca51d785 net: devmem: allow bind-rx from non-init user namespaces
+         78c1930198fc63f2d4761848cbe148c5b2958b01 selftests: drv-net: add userns devmem RX test
+         50d578d639b8de2d23b8052138b92a1b9c33dcfb Merge branch 'net-devmem-allow-bind-rx-from-non-init-user-namespaces'
          
-  - ref: refs/tags/v1.6.0
-    old: 0000000000000000000000000000000000000000
-    new: 7a1380c42d464b8322040923875280be51ee07f3
