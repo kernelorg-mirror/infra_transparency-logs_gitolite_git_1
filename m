@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6057780971981799978=="
+Content-Type: multipart/mixed; boundary="===============6311337155200510488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 07 Jun 2026 18:13:22 -0000
-Message-Id: <178085600208.1241784.5532294048498489262@gitolite.kernel.org>
+Date: Sun, 07 Jun 2026 18:13:27 -0000
+Message-Id: <178085600799.1242015.6467287453694923115@gitolite.kernel.org>
 
---===============6057780971981799978==
+--===============6311337155200510488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 5b038319be442c620f774e6fc9e9283deeca1c75
+  - ref: refs/heads/for-next
+    old: f6cd665c10f1577eca9eef643c9d10ec0435fd61
     new: c49f336dbcf30ff8622d3725c54fe1c90e8ccd9c
-    log: revlist-5b038319be44-c49f336dbcf3.txt
+    log: revlist-f6cd665c10f1-c49f336dbcf3.txt
 
---===============6057780971981799978==
+--===============6311337155200510488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b038319be44-c49f336dbcf3.txt
+Content-Disposition: attachment; filename=revlist-f6cd665c10f1-c49f336dbcf3.txt
 
+5b038319be442c620f774e6fc9e9283deeca1c75 bpf: Reject sleepable BPF_LSM_CGROUP programs at load time
 e57f13eaab259ece7c9e8d81ba2c40c4f057ca2c ftrace: Add ftrace_hash_count function
 af7c32365090a1a8ff981f85d7c24b344a2eaa75 ftrace: Add ftrace_hash_remove function
 2cd298c106e00ba1d8799b022594f131703f32fa ftrace: Add add_ftrace_hash_entry function
@@ -57,4 +58,4 @@ f2aa370dfe571abf51631c1ac27bb58d5d0e3466 libbpf: Add support to create tracing m
 b349efe49a123f032e54d7e894d708ea5daa10d2 selftests/bpf: Add tracing multi attach rollback tests
 c49f336dbcf30ff8622d3725c54fe1c90e8ccd9c Merge branch 'bpf-tracing_multi-link'
 
---===============6057780971981799978==--
+--===============6311337155200510488==--
