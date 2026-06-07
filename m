@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2082401996646920073=="
+Content-Type: multipart/mixed; boundary="===============7644336239266795084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sun, 07 Jun 2026 14:39:13 -0000
-Message-Id: <178084315384.1085573.14515335563827531462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 07 Jun 2026 15:03:54 -0000
+Message-Id: <178084463411.1103256.3841938330327704217@gitolite.kernel.org>
 
---===============2082401996646920073==
+--===============7644336239266795084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: dd8d018c454073c30e25afdb3fa84b27efc4ae3b
-    new: 406f0c31f47877db036e885f15830106b89ca950
-    log: revlist-dd8d018c4540-406f0c31f478.txt
+  - ref: refs/heads/master
+    old: 4f45454fd738f2f1ad59072e851d19b412b3634c
+    new: 04cb6b8e131f4ad8f0063853c359125e35ac85f0
+    log: |
+         04cb6b8e131f4ad8f0063853c359125e35ac85f0 5.10-stable patches
+         
 
---===============2082401996646920073==
+--===============7644336239266795084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd8d018c4540-406f0c31f478.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e8042f6e1d7befb2fb6b10a75918642bcd0acf9a KVM: arm64: Clear __hyp_running_vcpu when flushing the pKVM hyp vCPU
-8cc8bbbfab14c22c5551d0dd19b208a44b141c76 KVM: arm64: Bound used_lrs when flushing the pKVM hyp vCPU
-832dfa237f836549b202d3eebc0bc29b8a719608 KVM: arm64: Flush HCR_EL2.VSE to deliver SErrors to pKVM guests
-63336d57a26904f58e4ff2cf584ef9958564a7c6 KVM: arm64: Free hyp-share tracking node when share hypercall fails
-bd2618780ab4584a33ab1049338294a50690d149 KVM: arm64: Avoid host/hyp share desync on unshare hypercall failure
-f4411f9308c0187c211577b7c489545b0bdae455 KVM: arm64: Roll back partial shares on kvm_share_hyp() failure
-6bef47288ce1cb8302c84753164b8f8f6d63e0b3 KVM: arm64: Fix block mapping validity check in stage-1 walker
-56afee2157ac8b1ff4b5d4bdc49d573c1627d29e Merge branch kvm-arm64/nv-mmu-7.2 into kvmarm-master/next
-b99d2ed76eaffd4e160390c897a92298d41941a6 Merge branch kvm-arm64/pkvm-fixes-7.2 into kvmarm-master/next
-d90bd98ce7142d45df5d5a5e646b436b1f355476 KVM: arm64: vgic-its: Make ABI commit helpers return void
-406f0c31f47877db036e885f15830106b89ca950 Merge branch kvm-arm64/vgic-misc-7.2 into kvmarm-master/next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780844577 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1780844632-89dd651fadbe2daeb0f1e7a08b1b191649e7777c
 
---===============2082401996646920073==--
+4f45454fd738f2f1ad59072e851d19b412b3634c 04cb6b8e131f4ad8f0063853c359125e35ac85f0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoliCEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+icQP/R1oev/ZkIPPdQMrsCZs
+ETPd3yXLkRtng9OGOT+PbZRucTWf+00dws+R4XQxC58wPtFTGNh31Hz3yRpAmeDY
+h/W+zZiGI3o5TQzTD7hQjgzBUgzJDTMSko43s5hR7qZ1H+ER8AR+nglVjOu6IMWh
+dZAHKmPG0R6BO7WsoCzqIufcjTSwcM1v717f6NJoSVmle1omDXI9QpAYILXpiu8L
+V5TmjgtPN37PAnR0mnLTk473k5s/GwnEABb7oxQsdXuQ8lCLUehRHuor+iH+u135
+cqkrBAbLQooIhNy0h7hrIg2n80EFUM1Ez2tKxMjJ75hgp6lKbnwmAFZ0BrY468U5
+r00eoy7IilZ0iVkg1CQj/ZvqBkVQNN3GtsKoGy9TS94QY4E6Web/4bGtbX+9wqic
+U42YeJfaQOVJV+rKK3eYmVBn4rNDlXOiSDfTMA8AMe9HuYHqNcFnpx1gUMjKTsjX
+uzThAhKO2Id5sL7Whdfe599GzjahKbDpJOk0UuMo9XA0jv1bZ2i+WKvD02f4EYxi
+WNXDAFzG3ulEoHFM/X9TqgKtmVEAuvyeV15r6lihg1q10Bq/1vBQnW/biy0gmewq
+MxdfmhS9DRT7eAao7n5uG7+FLjUdyV/AEwJ4x5q4kBucnv23R5C2tAGl/2Zz9LRv
+GPGPcD0CxKk19MKkyC0liynb
+=Vhg0
+-----END PGP SIGNATURE-----
+
+--===============7644336239266795084==--
