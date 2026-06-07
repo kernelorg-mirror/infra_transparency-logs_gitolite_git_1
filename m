@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sun, 07 Jun 2026 19:29:28 -0000
-Message-Id: <178086056884.1295066.10005740300723981248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 07 Jun 2026 19:36:23 -0000
+Message-Id: <178086098315.1301655.17257073283507773115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 61be6931ec4629c3fbb1badac17139ee958866be
-    new: 2640cb60d80c99cd31c7c5754ce065e2f427a8c7
+    old: c49f336dbcf30ff8622d3725c54fe1c90e8ccd9c
+    new: 1444ee886e6fedf20b9c5bc74a273c6b7d100fdc
     log: |
-         2640cb60d80c99cd31c7c5754ce065e2f427a8c7 hkml_cache: remove unnecessary 'global archived_caches'
+         1444ee886e6fedf20b9c5bc74a273c6b7d100fdc rhashtable: Fix rhashtable_next_key() build warnings
          
