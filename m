@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7292341223843654037=="
+Content-Type: multipart/mixed; boundary="===============0273812666440612609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 07 Jun 2026 15:05:40 -0000
-Message-Id: <178084474053.1106912.11628295220231731572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Sun, 07 Jun 2026 15:16:50 -0000
+Message-Id: <178084541097.1114599.8689190301846295081@gitolite.kernel.org>
 
---===============7292341223843654037==
+--===============0273812666440612609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/master
-    old: ef7365f2815a86a5dafebc868ce7a6c002e2ade5
-    new: 2b6f8b367082c3aa788e81cdf5ca434ab4234e9d
-    log: |
-         2b6f8b367082c3aa788e81cdf5ca434ab4234e9d 6.12-stable patches
-         
+  - ref: refs/tags/thermal-v7.2-rc1
+    old: 34fe36440ed057ecc4bc3257fe90d76432886db7
+    new: b4aac46239ce66b903a84f675b48701c4875f12e
+    log: revlist-34fe36440ed0-b4aac46239ce.txt
 
---===============7292341223843654037==
+--===============0273812666440612609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-34fe36440ed0-b4aac46239ce.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780844684 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1780844738-74236ac9db76cdb0bbc49c10dd5bccf8d5c8f773
+5f1e4f65d3002a814c690434f1dd37facc1df6ca thermal/drivers/amlogic: Add missing dependency on MESON_SM
+18d65de8157c93666b2d42f1d46330ee4cb030b7 thermal/drivers/amlogic: Add support for secure monitor calibration readout
+4bb840492cedf89d5bed72ede6e0f8e848141977 thermal/drivers/qcom: Fix typo in comment
+fc4ad576cb836b0538d214b789adf7e89287fb78 dt-bindings: thermal: qcom-tsens: Document the Shikra Temperature Sensor
+dc10bb3cd2e9b44dbb7602e4f5bb96cdd9d62e25 dt-bindings: thermal: qcom-tsens: Document the Hawi Temperature Sensor
+e28ef2f3ccea276436bd0f30c93f99e764ba492b thermal/drivers/qcom/tsens: Atomic temperature read with hardware-guided retries
+375a4a81968cc8bb56685c99bf1153bc70eb3b29 thermal/of: Fix trailing whitespace and repeated word
+4f5130427e678f7cb8e78c1c18c9485e126469c0 thermal/drivers/imx: Do not split quoted string across lines
+0309075e080306ad2e3b3148a3495b10dd252ef2 dt-bindings: thermal: Add SpacemiT K1 thermal sensor
+296a977f2bac45759a427dc57a21edb628f5c86c thermal/drivers/spacemit/k1: Add thermal sensor support
+2086b040c3d22e0c70e731047b013e31ef83ae10 dt-bindings: thermal: qoriq: Add compatible string for imx93
+e058b025906ee13b1cb3755073abe6ac3b297de1 thermal/drivers/qoriq: Add i.MX93 tmu support
+50e72d6dc427228b62d2ebce6fb0e3107527180a thermal/driver/qoriq: Workaround unexpected temperature readings from tmu
+de4483d4447981292c68d45ea643158bb8ca92b9 thermal/drivers/samsung: Enable TMU by default
+298a2d461f1ffd75e4ac06774f42e1f018c3a840 thermal/core: Introduce non-OF thermal_cooling_device_register()
+876bb45f36939307c1e376243d862ad1b1a5f0cd thermal/core: Add devm_thermal_cooling_device_register()
+61e7550fe8b26c2b132eff2ced57c6b2dd93ca7f hwmon: Use non-OF thermal cooling device registration API
+27559121b2e3ffbdfdbb77b528ba1015e2617daa thermal/of: Move cooling device OF helpers out of thermal core
+5fa8b4225bec1fde0862a2d19964429662841384 thermal/core: Make cooling device OF node conditional on CONFIG_THERMAL_OF
+8e1529e79385608002e126730d32bd91d7427795 thermal/of: Rename the devm_thermal_of_cooling_device_register() function
+37324803f049bee0d2b97941e3fbdf35db9a66b3 thermal/of: Add cooling device ID support
+3570cb58e3171c8a65d2cedc0371ed412e0caff6 thermal/of: Pass cdev_id and introduce devm registration helper
+2baee1cc03c65a35f0d053e5c5e646a3bdf6ed85 thermal/of: Support cooling device ID in cooling-spec
+6d0c207c0a95bc4832fe0189973f64734ef5bfc0 dt-bindings: thermal: cooling-devices: Update support for 3 cells cooling device
+995b736ad46a80af84e58596c5e23ce94035bddf thermal/core: Fix missing stub for devm_thermal_cooling_device_register
+c665de5eeb85d1a2b87c1bb4bf4d3dbd8c1c4c37 thermal/drivers/qcom/tsens: Switch wake IRQ handling to PM callbacks
+968098b4ca5219b0d2e0a981aed1dacfbd5adc69 thermal/drivers/qcom/tsens: Disable wakeup interrupt setup on automotive targets
 
-ef7365f2815a86a5dafebc868ce7a6c002e2ade5 2b6f8b367082c3aa788e81cdf5ca434ab4234e9d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmoliIwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UowP+wWREbqAa63u+I7XgRva
-BJzpbrdb0x3rpQeLtUGIzfu5yIcHr0AJF2Z/1EuouzMetsj/h2M65LPAkTAhtRkY
-NCWVXZV1qSBxaoO5jijw9IJI2ZNd31pVCzSfxpvyNLp4fwGRjP2Zxr4aI6zv7ONQ
-669K2rhS4jWZ6np0Gq4vWJoX9YA3qVQnHJ/gzMQamnJU7eTq8MnsVmJ/uLSz4QcA
-4lomOsFIQrGZhKIvlZ6INz3vL7pZWjn5rh8qQPnR2B3V8vzpnh3ZuUgny0Mudfvj
-dqxVjj5WaQBnUTbz7uPgsgvXWP6MrVcrW4Mp70jFEaHIaVkUQb/Ow/A0MU/b95c2
-OIxbJrt5uQJPsJ6KVT6fCv5fhvevxxV0dPBJn/tm4yeuGmbiONc7sASmpmoWQ89G
-swdaqwDd2b1Jv9vHZaR17wMufv6AEBaciV46nlaEmj6lWHT4IdlR8QYDfzSEphhr
-sFqjDVGNBiiubFWuUa9MegxNVy/ATU/PIPMFHwUnLF9IyrwsoE0o0cb+lCZHbYO7
-RfV8GniJd0IE33nbbYLuhQTQqlKEORFGAlzfYtwedXvmOD6s7rvy8BgXe/MZTdgE
-auzGFfecwzINVTmBc8/3Mau6aJGsxL4iifVor/oFMV8QfzL2n7RCZ5zcePGz08LH
-4XLocG5wT80yLTyP4zAr/cBK
-=pFxT
------END PGP SIGNATURE-----
-
---===============7292341223843654037==--
+--===============0273812666440612609==--
