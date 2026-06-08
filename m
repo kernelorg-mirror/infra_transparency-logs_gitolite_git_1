@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6075269092501172580=="
+Content-Type: multipart/mixed; boundary="===============8187528949979369493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 08 Jun 2026 12:42:21 -0000
-Message-Id: <178092254134.2145988.16523494821740598954@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 12:42:23 -0000
+Message-Id: <178092254362.2146095.17822617102232107190@gitolite.kernel.org>
 
---===============6075269092501172580==
+--===============8187528949979369493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: e43ffb69e0438cddd72aaa30898b4dc446f664f8
-    new: 4549871118cf616eecdd2d939f78e3b9e1dddc48
-    log: revlist-e43ffb69e043-4549871118cf.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 991ae9183017982018812923ffa98070f3c5f1f0
+    new: 280a58ea9202f737aa33caef6151b1724be527b0
+    log: revlist-991ae9183017-280a58ea9202.txt
 
---===============6075269092501172580==
+--===============8187528949979369493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e43ffb69e043-4549871118cf.txt
+Content-Disposition: attachment; filename=revlist-991ae9183017-280a58ea9202.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 754d60ad1c91895be0bc7d771fbf9fb3c9448640 memory: atmel-ebi: Allow deferred probing
@@ -358,5 +358,6 @@ e2264c52e18bd54a4f762c393e341cb27fd5e5cd Merge tag 'regulator-fix-v7.1-rc6' of g
 09feffa073d8a5362739ecf0509c29ca7f6d9991 Merge tag 'timers-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c68691dc1dcacbdaaef04edcf7639ce68e3eb58c Merge tag 'x86-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4549871118cf616eecdd2d939f78e3b9e1dddc48 Linux 7.1-rc7
+280a58ea9202f737aa33caef6151b1724be527b0 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============6075269092501172580==--
+--===============8187528949979369493==--
