@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0979804998268646115=="
+Content-Type: multipart/mixed; boundary="===============6075269092501172580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/linux
-Date: Mon, 08 Jun 2026 12:36:48 -0000
-Message-Id: <178092220826.2141807.422548312529400470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 08 Jun 2026 12:42:21 -0000
+Message-Id: <178092254134.2145988.16523494821740598954@gitolite.kernel.org>
 
---===============0979804998268646115==
+--===============6075269092501172580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/linux
-user: joro
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/kvm-planes-v7.1
-    old: 6178e58a611b46b2b13858e17f590e97d857e368
-    new: 7299f8c6eee92c659c098bf37e311daca5909943
-    log: revlist-6178e58a611b-7299f8c6eee9.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: e43ffb69e0438cddd72aaa30898b4dc446f664f8
+    new: 4549871118cf616eecdd2d939f78e3b9e1dddc48
+    log: revlist-e43ffb69e043-4549871118cf.txt
 
---===============0979804998268646115==
+--===============6075269092501172580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6178e58a611b-7299f8c6eee9.txt
+Content-Disposition: attachment; filename=revlist-e43ffb69e043-4549871118cf.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 754d60ad1c91895be0bc7d771fbf9fb3c9448640 memory: atmel-ebi: Allow deferred probing
@@ -358,65 +358,5 @@ e2264c52e18bd54a4f762c393e341cb27fd5e5cd Merge tag 'regulator-fix-v7.1-rc6' of g
 09feffa073d8a5362739ecf0509c29ca7f6d9991 Merge tag 'timers-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c68691dc1dcacbdaaef04edcf7639ce68e3eb58c Merge tag 'x86-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4549871118cf616eecdd2d939f78e3b9e1dddc48 Linux 7.1-rc7
-e44bfc99b27e4a779b795214c41baac48083b35a x86/sev: Define the #HV doorbell page structure
-93035376a031d850c0b1249c04a08de9de33f47c KVM: SVM: Add support for the SEV-SNP #HV doorbell page NAE event
-419c1a30f35fff3474848fc628315965e6bfe9bc KVM: SVM: Inject #HV when Restricted Injection is active
-b8ab0dfa021789b4c3f87972a7e4cef43a6f9163 KVM: SVM: Inject NMIs when Restricted Injection is active
-2179eef8e69d43a039030a8de7f573d3b91c6c8f KVM: SVM: Inject MCEs when Restricted Injection is active
-ec4d16664edd51a1fa41a71d198c157c35e66341 KVM: SVM: Enable Restricted Injection for an SEV-SNP guest
-df032d55bd7afd00a75fbfce3355b4ef78b66584 KVM: SVM: Add support for the SEV-SNP #HV IPI NAE event
-52a5068c1f6139bff0046a57b42864fea31eb4dd Documentation: kvm: introduce "VM plane" concept
-77d516822a1fd94c869b4569952495691fd675eb kvm: Introduce struct kvm_plane
-898739fb15cea9f66c163c99df5b70c0a7dda627 kvm: Move vcpu_array to struct kvm_plane
-e94a722be29913da2f8736dfb3db0581d9d4ca3e kvm: Introduce struct kvm_vcpu_common
-0ed5ef487d274bf4db7fae6d413276d01f48469f kvm: Move vcpu accounting to struct kvm_vcpu_common
-ca2fcbb55e8ffce9db05f9ad8d6ede1f7004497a kvm: Add read accessors for kvm_vcpu scheduling state
-51cbe16852968575f918017b7439ae3711df466f kvm: Make kvm_running_vcpus point to struct kvm_vcpu_common
-4541a02b7348b13b0462d44c656a6a191c400366 kvm: Move VCPU scheduling state to struct kvm_vcpu_common
-667934b8843ccf1b480721c2a5c5746f14c40b36 kvm: Add accessors for kvm_vcpu->mutex
-ab9c11e59f4d75aff57324b4d36cab2bbbe3d6f2 kvm: Move VCPU locking to struct kvm_vcpu_common
-0b5cdd592ce83569f2f73c4264d4493840c9251a kvm: Move kvm_vcpu->rcuwait to struct kvm_vcpu_common
-49bbaa318cb67e2865345dcc2c90a775dd3388ba kvm: Introduce accessors for kvm_vcpu->mode
-63ffb15871e2067fe428eabedfeb7d2378119300 kvm: Move kvm_vcpu mode and requests field to struct kvm_vcpu_common
-8222df1443bc6fcb76555f81a14ec50d0489a09c kvm: Introduce per-plane VCPU requests
-f38b9ab51b82734b1e31b5ce970672f3be6d6f1a kvm: Move kvm_vcpu pid members to struct kvm_vcpu_common
-d6b7362cfd1e1d53be569693b5f20875543641a3 kvm: Move kvm_vcpu sigset members to struct kvm_vcpu_common
-9a3986d3122fbf068a88547161f11766cf5a6f58 kvm: Move kvm_vcpu spinloop members to struct kvm_vcpu_common
-4a62d745a0bc8db6b3c084db980f2e8fbd3f826f kvm: Move kvm_vcpu->dirty_ring to struct kvm_vcpu_common
-ea2ff2e355d08d23ab33251e62dc0a9e96c1f45e kvm: Introduce arch-specific plane state
-b28f04d355e0df155fd54d32ee8f9310d8114dfb kvm: Introduce arch-specific part of struct kvm_vcpu_common
-45716d49e0390d1ee81a9a8dcd8dc8984f300e41 kvm: Implement KVM_CAP_PLANES
-5be7e342d1746176919979e4e9a9badac5c3de63 kvm: Implement KVM_CREATE_PLANE ioctl
-fc98b215a16c7aa3e15f988dbbdbe4fb97527264 kvm: Add KVM_EXIT_PLANE_EVENT
-cc24fb81a3397b08a231fc9c56c741a3fc4a1c49 kvm: Allocate struct kvm_plane in architecture code
-99103f3e9541a0fcf9a97f1819db1e98458db432 kvm: Allocate struct kvm_run only for struct kvm_vcpu_common
-21d7ad7e2ba836c57946f9d78c56402589f40c16 KVM: Implement KVM_CREATE_VCPU ioctl for planes
-b242233236df1f6430f1b5b4409f2a64adc6450e kvm: Keep track of plane VCPUs in struct kvm_vcpu_common
-94394ca8bef06e87c502faf096b83f3588ebd7b7 kvm: Add VCPU plane-scheduling state and helpers
-4d75596f5cd9b315fada3d9dca5fbb0e63c67146 kvm: Add plane_level to kvm_kernel_irq_routing_entry
-160b03400daf1dc9a548ed8a19da1dea1f8f66ac kvm: Pass plane_level to kvm_set_routing_entry()
-147fee6ebd7dfe15047b4b5c577c7cccd1892230 kvm: Make KVM_SIGNAL_MSI per plane
-3a8a01745f9a3f17ed530b205c6af495961d2a7f kvm: Make KVM_SET_GSI_ROUTING per plane
-f2f4d3a5959fe6b886434121696c343c3596d470 kvm: x86: Handle IOAPIC EOIs per plane
-f4f773d67cb5c5001ad695d75c339b3d74d1cc6d kvm: x86: Make apic_map per plane
-543fb1cbbf97d9bfc8156d49fea257cab20df9a1 kvm: x86: Make local APIC code aware of planes
-24e96215915ef4d994264fe66a0795b2ddf8f1f7 kvm: x86: Move CPUID state to struct kvm_vcpu_arch_common
-ee66a8770f7da7f2efdbcec1494c29ce1514469e kvm: x86: Move cpu_caps to struct kvm_vcpu_arch_common
-afa6fb5c74a3a71caae8a182a4477bea14db91e4 kvm: x86: Update state for all plane VCPUs after CPUID update
-ea8c5c6fce02abd4a7d917141b3ea3cbbad6565e kvm: x86: Share MTRR state across planes
-3130ba5c246ba03e456e82e62a65f9254d93b713 kvm: x86: Select a plane to run
-7dc7510ac9c6f8110494b64eabb9043ab959a69e kvm: x86: Make event injection VCPU requests per-plane
-849bd5ed1075c5943219e099ca62602835d3151e kvm: x86: Allow hardware backend to overwrite struct kvm_plane allocation
-1d76f7af2e24ae3adc712c545d3c50b7af28d4fd kvm: x86: Make KVM_REQ_UPDATE_PROTECTED_GUEST_STATE per plane
-1b423a6bea6a270246501625f412e18bb20cb16b kvm: x86: Share pio_data across planes
-94df9bc1e0a4d4599f39bdcf24a37e9b5890d4bc kvm: x86: Switch to plane0 if it has events
-c093fcf73d18d42462e4de3a204196746cb7d71a kvm: x86: Introduce max_planes x86-op
-2ba88247b121d112bfbe448c2ce8fcc3b644b79d kvm: x86: Restrict KVM planes support to KVM_IRQCHIP_SPLIT
-89ef51aabf00db967f88924d2c59db6fa15237f1 kvm: svm: Track vmsa_features per plane
-fafecb3a269fe8bdb3c653e39db437cfe91362ce kvm: svm: Implement GET_AP_APIC_IDS NAE event
-809240cb7a88969b13ae2a77b0f9ba254e7a02bc kvm: sev: Allow for VMPL level specification in AP create
-d7a813989389c6551294a031da6a756b7121b56a kvm: svm: Invoke a specified VMPL level VMSA for the vCPU
-6adb2d2016db17dd677db3d4aa4d2281d8570966 kvm: svm: Implement max_planes x86 operation
-7299f8c6eee92c659c098bf37e311daca5909943 kvm: svm: Advertise full multi-VMPL support to the SNP guest
 
---===============0979804998268646115==--
+--===============6075269092501172580==--
