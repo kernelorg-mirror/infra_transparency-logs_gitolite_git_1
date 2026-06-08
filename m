@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 08 Jun 2026 14:00:50 -0000
-Message-Id: <178092725041.2211976.6026673286768191706@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 14:03:18 -0000
+Message-Id: <178092739882.2213024.9598598041148223675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/kernel/pgpkeys
 user: mricon
 changes:
   - ref: refs/heads/master
-    old: bbc9f0506873e5eef6c2db7240f45dc498f8677c
-    new: fd46aca4aa8d5bdd8c1dbb30bb7c3f7918f66abb
+    old: fd46aca4aa8d5bdd8c1dbb30bb7c3f7918f66abb
+    new: 929b96ada002dba6cd7c5caf858af7bed7305d4a
     log: |
-         fd46aca4aa8d5bdd8c1dbb30bb7c3f7918f66abb Resigned keys from 7EF4F96F2BE9962A
+         929b96ada002dba6cd7c5caf858af7bed7305d4a Resigned keys from 4E2415A9A1BD2F80
          
