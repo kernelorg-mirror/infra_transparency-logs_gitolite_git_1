@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2260895276846621440=="
+Content-Type: multipart/mixed; boundary="===============4515084649760747846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 08 Jun 2026 20:20:26 -0000
-Message-Id: <178095002672.2523003.5596084136434088851@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 20:20:29 -0000
+Message-Id: <178095002913.2523140.524940140488402777@gitolite.kernel.org>
 
---===============2260895276846621440==
+--===============4515084649760747846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bfa3d89cc15c09f7d1581c834a5ed725189ec19f
     new: 903db046d5579bef0ea699eae4b279dd6455fc9f
     log: revlist-bfa3d89cc15c-903db046d557.txt
 
---===============2260895276846621440==
+--===============4515084649760747846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ ecc4aa6f41c7f00498f1c4bb4c5ec46794ab0aa8 Merge branch 'net-airoha-support-multip
 46e50367338702abe3df661df7795bdada40fef7 net: microchip: sparx5: clean up PSFP resources on flower setup failure
 903db046d5579bef0ea699eae4b279dd6455fc9f net: stmmac: xgmac: report L3/L4 filter match count in ethtool stats
 
---===============2260895276846621440==--
+--===============4515084649760747846==--
