@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 08 Jun 2026 17:38:29 -0000
-Message-Id: <178094030990.2392925.942016595970376333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 08 Jun 2026 17:41:33 -0000
+Message-Id: <178094049364.2396093.2914758963739087600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 35d6f5e788dae0dcc4c42d1280360f19aef9ab52
-    new: 37585e803f97b8ead95c370abf1fdc8675cf66d6
+  - ref: refs/heads/i2c/i2c-host
+    old: afd9ada24bdaf1fd12456ac5f8efaadcad10634c
+    new: 252123e295da7abcce7a5caea816d0bf12ce5c46
     log: |
-         a28c40d78f35d9bc8b8463cc71cff319493718d9 security: lsm: allow LSMs to register for late_initcall_sync init
-         a78de8cb962048cf5ab31d1578e569dd64a73467 security: ima: introduce IMA_INIT_LATE_SYNC option
-         37585e803f97b8ead95c370abf1fdc8675cf66d6 security: ima: rename boot_aggregate when ima is initialised at late_sync
+         b4c01497688528fc04c717842f8f310569f52629 eeprom: at24: Use named initializers for arrays of i2c_device_data
+         252123e295da7abcce7a5caea816d0bf12ce5c46 Merge tag 'at24-updates-for-v7.2-rc1' into i2c/i2c-host
          
