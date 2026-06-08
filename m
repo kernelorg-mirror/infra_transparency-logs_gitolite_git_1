@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5826417204562541934=="
+Content-Type: multipart/mixed; boundary="===============0520044002862629009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 08 Jun 2026 05:55:40 -0000
-Message-Id: <178089814013.1749058.17635261797282368147@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 05:56:25 -0000
+Message-Id: <178089818555.1749951.14344490513465192133@gitolite.kernel.org>
 
---===============5826417204562541934==
+--===============0520044002862629009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 5d6919055dec134de3c40167a490f33c74c12581
+  - ref: refs/heads/linux-next
+    old: 4594437880ce347ac8438758fd91543f70da1aa9
     new: 4549871118cf616eecdd2d939f78e3b9e1dddc48
-    log: revlist-5d6919055dec-4549871118cf.txt
+    log: revlist-4594437880ce-4549871118cf.txt
 
---===============5826417204562541934==
+--===============0520044002862629009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d6919055dec-4549871118cf.txt
+Content-Disposition: attachment; filename=revlist-4594437880ce-4549871118cf.txt
 
 00907da2126ed785451b2a2f0fef282246dad104 drm/xe/multi_queue: Fix secondary queue error case
 4d8690dace005a38e6dbde9ecce2da3ad85c7c41 smb: client: protect tc_count increment in smb2_find_smb_sess_tcon_unlocked()
@@ -1051,4 +1051,4 @@ e2264c52e18bd54a4f762c393e341cb27fd5e5cd Merge tag 'regulator-fix-v7.1-rc6' of g
 c68691dc1dcacbdaaef04edcf7639ce68e3eb58c Merge tag 'x86-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4549871118cf616eecdd2d939f78e3b9e1dddc48 Linux 7.1-rc7
 
---===============5826417204562541934==--
+--===============0520044002862629009==--
