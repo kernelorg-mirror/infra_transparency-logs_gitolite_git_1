@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1194308319294717680=="
+Content-Type: multipart/mixed; boundary="===============4787998577312136312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 08 Jun 2026 15:45:04 -0000
-Message-Id: <178093350418.2302951.2056073733179020278@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 15:46:38 -0000
+Message-Id: <178093359854.2304469.10301379504229404030@gitolite.kernel.org>
 
---===============1194308319294717680==
+--===============4787998577312136312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 4c628e2e6b00c64c68d02a67cf8ff96cb33e5a06
+  - ref: refs/heads/next-integrity
+    old: 11143a19f5b8dc8f414deab87571134f9f447313
     new: 35d6f5e788dae0dcc4c42d1280360f19aef9ab52
-    log: revlist-4c628e2e6b00-35d6f5e788da.txt
+    log: revlist-11143a19f5b8-35d6f5e788da.txt
 
---===============1194308319294717680==
+--===============4787998577312136312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c628e2e6b00-35d6f5e788da.txt
+Content-Disposition: attachment; filename=revlist-11143a19f5b8-35d6f5e788da.txt
 
 a01183bd6fc66910e2837830aa21dd8da2b7795e ima: Remove ima_h_table structure
 7bc01800a7739972626e366766f54c3e76cc3e69 ima: Replace static htable queue with dynamically allocated array
@@ -39,4 +39,4 @@ c26d9d9246cc66e3472a2bbd186152d0572d7aab ima: Add support for flushing the hash 
 fcb0318a29696c13c9f8af0109855793a34371e6 ima: Support staging and deleting N measurements records
 35d6f5e788dae0dcc4c42d1280360f19aef9ab52 doc: security: Add documentation of exporting and deleting IMA measurements
 
---===============1194308319294717680==--
+--===============4787998577312136312==--
