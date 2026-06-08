@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4787998577312136312=="
+Content-Type: multipart/mixed; boundary="===============4649911030978605530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 08 Jun 2026 15:46:38 -0000
-Message-Id: <178093359854.2304469.10301379504229404030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 08 Jun 2026 15:47:13 -0000
+Message-Id: <178093363327.2304816.8084166636789241149@gitolite.kernel.org>
 
---===============4787998577312136312==
+--===============4649911030978605530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-integrity
-    old: 11143a19f5b8dc8f414deab87571134f9f447313
-    new: 35d6f5e788dae0dcc4c42d1280360f19aef9ab52
-    log: revlist-11143a19f5b8-35d6f5e788da.txt
+  - ref: refs/heads/master
+    old: 3e2a9b33c5afaa410784c9e32112b89b20ca884f
+    new: b44cb1bc70833add953892406e876e49bfc0510b
+    log: |
+         b44cb1bc70833add953892406e876e49bfc0510b assign some more 7.0.7 cve ids
+         
 
---===============4787998577312136312==
+--===============4649911030978605530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11143a19f5b8-35d6f5e788da.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a01183bd6fc66910e2837830aa21dd8da2b7795e ima: Remove ima_h_table structure
-7bc01800a7739972626e366766f54c3e76cc3e69 ima: Replace static htable queue with dynamically allocated array
-2fcebcd2aad24c13c27a6881a0866629f3ec57b2 ima: Introduce per binary measurements list type ima_num_records counter
-8f19da70f794f380a4b5aacfec681315a0a325c5 ima: Introduce per binary measurements list type binary_runtime_size value
-cb431ff6a92fc62d91ba64f04c7af3bb54017a1d ima: Introduce _ima_measurements_start() and _ima_measurements_next()
-51bedcd803e0f140ee39e70a930d01223e1afb58 ima: Mediate open/release method of the measurements list
-56275ec7667adda1eea102911f76fb822dbfebc4 ima: Use snprintf() in create_securityfs_measurement_lists
-292bc492f3d31ffd858600a331d599f1956bf612 ima: Introduce ima_dump_measurement()
-e9b491e27bf6b9401e2e521955787a7a6e2bf808 ima: Add support for staging measurements with prompt
-c26d9d9246cc66e3472a2bbd186152d0572d7aab ima: Add support for flushing the hash table when staging measurements
-fcb0318a29696c13c9f8af0109855793a34371e6 ima: Support staging and deleting N measurements records
-35d6f5e788dae0dcc4c42d1280360f19aef9ab52 doc: security: Add documentation of exporting and deleting IMA measurements
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1780933576 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1780933632-19a80c62f1a82bc23739351a7f45d73faf5a5597
 
---===============4787998577312136312==--
+3e2a9b33c5afaa410784c9e32112b89b20ca884f b44cb1bc70833add953892406e876e49bfc0510b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmom48gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SwkQALVovsXURlIVV4RGJJz7
+rY6fwxi9bIoPl86Yo2EArNcX6fG/dJoCcUd2c0rlAZ5C2+/XnavggEkVU8ljqLji
+/TuX7u+4JJadzeXQACMYK1Nn7Lho+ZxDHxOMU8cmSx0a4FCIB8RbmGvNy2ksj8zn
+2WHtuEpUumpUjX9+HEVv4kSbe0c6LUJc8DmMLmkgIHOKIkXsdWNguHjIAJF/LnTT
+P7b+0I4h5RXJiR795zbrk8Bf0TXEy0cvWoF25Afko5ZVHLXlRB57bH7EYSc6xSa1
+aH3YV8Q+a0iIgw4Kl3O/HEqFTwSciGZ6mCRUVAMgg34WZhoonGs93/53smU/8aaV
+77dN7Fdi4kbQYpQT9KMAoXqFf+oMOq4nKybx2ni/qf8Wx1plwHCkKcQKQDU8l14B
+19mrCptTbi/CUEl/Maet++KuW+66L8SVbHDeFgaR4+xjb77Fphw22RoVn0z/OIH7
+dK2xg7Tht3bGLbO78IKyyR4ma6qF3U4q9hfo5YsJf3IujkTLdgIc/k1GlTsKzlee
+c1QOhYnnTPpgIbaBiPTrYxu/9U4lMXOIUmiBUpqp9uCswv/djwnBRxzO62uCTBAu
+ei6TQEo/KKpBt3PFaHy5DNcSZhSo6iPpeStQ+h0ZM5X4djDPvn4/y21YcjiGxvdn
+BsNxnTDG1H1o9CELssdnPhY2
+=7Efn
+-----END PGP SIGNATURE-----
+
+--===============4649911030978605530==--
