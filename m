@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5622412162446983406=="
+Content-Type: multipart/mixed; boundary="===============0148913493054126696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 08 Jun 2026 08:51:02 -0000
-Message-Id: <178090866264.1878742.14541343126288675817@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 08:51:12 -0000
+Message-Id: <178090867259.1879007.7927280267525366292@gitolite.kernel.org>
 
---===============5622412162446983406==
+--===============0148913493054126696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/juno/updates
-    old: 87599f1843d3baa4083dc9dd01c95826b536de24
+  - ref: refs/heads/for-next/smccc/updates
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: 4549871118cf616eecdd2d939f78e3b9e1dddc48
-    log: revlist-87599f1843d3-4549871118cf.txt
+    log: revlist-254f49634ee1-4549871118cf.txt
 
---===============5622412162446983406==
+--===============0148913493054126696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87599f1843d3-4549871118cf.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-4549871118cf.txt
 
 00907da2126ed785451b2a2f0fef282246dad104 drm/xe/multi_queue: Fix secondary queue error case
 4d8690dace005a38e6dbde9ecce2da3ad85c7c41 smb: client: protect tc_count increment in smb2_find_smb_sess_tcon_unlocked()
@@ -1051,4 +1051,4 @@ e2264c52e18bd54a4f762c393e341cb27fd5e5cd Merge tag 'regulator-fix-v7.1-rc6' of g
 c68691dc1dcacbdaaef04edcf7639ce68e3eb58c Merge tag 'x86-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4549871118cf616eecdd2d939f78e3b9e1dddc48 Linux 7.1-rc7
 
---===============5622412162446983406==--
+--===============0148913493054126696==--
