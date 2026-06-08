@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 08 Jun 2026 11:22:22 -0000
-Message-Id: <178091774224.1989067.10711684106110534745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 08 Jun 2026 11:23:51 -0000
+Message-Id: <178091783131.1989685.6418134648850161510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: 0000ca30646d03f9dfbab9f62a5ce21a939c1018
-    new: 27279d4ab2431e1afb3a125ae7306eb2323b86b7
+  - ref: refs/heads/x86/msr
+    old: cdd2c4133ad2f5b655fa47ac43e6bcaa5b48434d
+    new: b5884070f9da9ffecd5141b5811cfdbaa274809a
     log: |
-         27279d4ab2431e1afb3a125ae7306eb2323b86b7 lib/path: avoid double free() for cpusets
+         72ac0e45c2a386d73a579565727da748269697e6 x86/msr: Switch rdmsrl() users to rdmsrq()
+         666a5742b72133e219e989855e87d32fd8c95677 x86/msr: Remove rdmsrl()
+         2232959db26d45593c545d7e6b89ebaef4999085 x86/msr: Switch wrmsrl() users to wrmsrq()
+         b5884070f9da9ffecd5141b5811cfdbaa274809a x86/msr: Remove wrmsrl()
          
-  - ref: refs/heads/stable/v2.41
-    old: e147e16fa9a9d3b3ad5968bf42280966ac3a8529
-    new: 1e4b0ec69d4a017436278a204b27224a8e07fd9e
-    log: |
-         c8d0af0421f6491ab1cb2301d2e197315289d34c pam_lastlog2: fix libpam linking in autotools build
-         1e4b0ec69d4a017436278a204b27224a8e07fd9e liblastlog2: wait on busy SQLite connections
-         
+  - ref: refs/heads/perf/merge
+    old: 0000000000000000000000000000000000000000
+    new: 33cda6c1162f7f12bbc93ee770c988f04f964fba
