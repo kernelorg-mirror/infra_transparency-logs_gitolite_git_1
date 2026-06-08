@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 08 Jun 2026 01:45:18 -0000
-Message-Id: <178088311894.1569627.4876788150531144707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 08 Jun 2026 01:51:04 -0000
+Message-Id: <178088346457.1574013.17135571886963984889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dpm
-    old: 3635dbf3c773e9fdaf915bad96f472c56e6be199
-    new: 06d94db4e523e918130a12c2ce12a1a88670b394
+  - ref: refs/heads/master
+    old: 1444ee886e6fedf20b9c5bc74a273c6b7d100fdc
+    new: 63a6f3bc62308a491c63d0de1c537d7c9bc60859
     log: |
-         c6c91ac6a1098ffcb3a3b8bff88a1101f28b3880 PM: dpm_watchdog: Allow disabling DPM watchdog by default
-         06d94db4e523e918130a12c2ce12a1a88670b394 PM: dpm_watchdog: Add sysctl interface for DPM watchdog timeouts
+         89edbdfc5d0308cef57b71359331de5c4ddbf763 bpf: Fix NMI/tracepoint re-entry deadlock on lru locks
+         8f6802d26d96ef424fc9fc9e2e68c43b6cf0fa59 Documentation/bpf: Refresh map_lru_hash_update.dot for rqspinlock
+         6e1e4a9d60edb0e12d373fb6f2b55d90d20a363b selftests/bpf: Stress LRU rqspinlock recovery paths
+         63a6f3bc62308a491c63d0de1c537d7c9bc60859 Merge branch 'bpf-fix-lru-nmi-tracepoint-re-entry-deadlock'
          
