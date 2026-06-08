@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0378835395632203040=="
+Content-Type: multipart/mixed; boundary="===============3657585323134984500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 08 Jun 2026 13:53:24 -0000
-Message-Id: <178092680412.2202345.2005936026397751970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 08 Jun 2026 13:53:31 -0000
+Message-Id: <178092681191.2203264.18393740726091227287@gitolite.kernel.org>
 
---===============0378835395632203040==
+--===============3657585323134984500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 38b75d81a066789dc98404c1387731074c103119
-    new: f88580407f99fac9ce83422f329a73de2677c53c
+  - ref: refs/heads/for-7.2
+    old: 4954d4eca469419339452cb5fea26dd0fc678c54
+    new: 2fb242e4f375b682c800ab40dd4fbbcde1711528
     log: |
-         f88580407f99fac9ce83422f329a73de2677c53c ASoC: dt-bindings: cdns,xtfpga-i2s: Convert to dt-schema
+         2fb242e4f375b682c800ab40dd4fbbcde1711528 spi: cadence-xspi: Revert COMPILE_TEST support
          
 
---===============0378835395632203040==
+--===============3657585323134984500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1780926802 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1780926801-e57079c1f8bac49c80b7c2bbbcbb2b4806ed0151
+pusher C3F436CA30F5D8EB 1780926810 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1780926809-acb00b6453fd937da53ab761c47a851d10e413d5
 
-38b75d81a066789dc98404c1387731074c103119 f88580407f99fac9ce83422f329a73de2677c53c refs/heads/asoc-7.2
+4954d4eca469419339452cb5fea26dd0fc678c54 2fb242e4f375b682c800ab40dd4fbbcde1711528 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmomyVIACgkQJNaLcl1U
-h9D3vggAgTjTeiAQJbUbDW6VsmQ4ae7DybCmwmXvOItjR1j7HINrxGT4mtpMbKaT
-2YyoFbINID/zfsqb+g7+QuXsLdyFAKn8yHLMshqhwLn0cl98W7slqi0BUv6bXugz
-txAAIYKYcsXZcZVDH3UkOCYvqS680ncioRuimEBa5KevhsMhvb7zR9CI0/XkXneJ
-5qBq88ZnAiaGPwMqAvPCBXSjrB4IczJPOsM3rVwAE751tgmbll973Y2/hI0sk4t1
-0pvUw5ykQMa4FyojvRyGVoahmOy3JMAXx2QRDsRYycIoTsnHLWvBLFTXo0VggS9/
-RW+xLEg/6DmusMAr43h846Bh3P0JbA==
-=jGh4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmomyVoACgkQJNaLcl1U
+h9B76gf+IfZoz8NfGhwY7yKaB9XIyqkNvosA9z9Y1kCuMc689yfjZgO0eL52YOUj
+bXDy5gKTUiiO4VEkyL1pTf6K/OMMVxHRgNJsxkUyP8iepCDkZtEudIIpVCP1t4Lm
+OW14GRhiY5aHXqvQOcLYWp0OCX7ErfzyvVhpE3kIhr9CPuQb7bXJ5ZiHleoKB0Wq
+pcBjUnrlwjcK8gF4u3lx5L6tDDK5yopVU1a4qEiGZE+LvZpRKBdKHmdiUBZTiEuh
+lepvFyiJ889dcw/OvV8BE8G2LirBL7koIp+ioTOVv9CVuMxVheHvJ9lzrmRvCQKN
+kLiWipAKPrtbDBxkbWADU/LsHtAMuw==
+=Ebcf
 -----END PGP SIGNATURE-----
 
---===============0378835395632203040==--
+--===============3657585323134984500==--
