@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 08 Jun 2026 17:04:44 -0000
-Message-Id: <178093828416.2363973.662351929809735177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 08 Jun 2026 17:07:31 -0000
+Message-Id: <178093845177.2367388.12494612692461905569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-7.2/io_uring
-    old: ad46c2b63dee9daedba8bd2f1638cf6c73ecbac7
-    new: 46800585ae04863c623b1563b03d12e9381089f1
+  - ref: refs/heads/bleeding-edge
+    old: c63203485d991767fcca6c8fcc2c1594fbd074bd
+    new: 1ab5107b40adb0e0d4d6605621f61d4d70b16da1
     log: |
-         46800585ae04863c623b1563b03d12e9381089f1 io_uring/kbuf: validate ring provided buffer addresses with access_ok()
-         
-  - ref: refs/heads/for-next
-    old: b0b5b1715bdbec0b8941ffdc50a7ec37b41d6ed0
-    new: dbca6a2f945950076403d9fa6539e034ce5db304
-    log: |
-         46800585ae04863c623b1563b03d12e9381089f1 io_uring/kbuf: validate ring provided buffer addresses with access_ok()
-         dbca6a2f945950076403d9fa6539e034ce5db304 Merge branch 'for-7.2/io_uring' into for-next
+         9eaa37ff453419afefceff39b61cec5d16b58823 tpm_crb: Check ACPI_COMPANION() against NULL during probe
+         1ab5107b40adb0e0d4d6605621f61d4d70b16da1 Merge branch 'acpi-driver' into bleeding-edge
          
