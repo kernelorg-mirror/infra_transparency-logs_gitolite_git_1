@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 08 Jun 2026 17:46:06 -0000
-Message-Id: <178094076642.2400711.15462162263246388550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 08 Jun 2026 18:06:05 -0000
+Message-Id: <178094196593.2415318.6208091759629599913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: ceeb44b97b67abe5183bb1cc62f564f3ecbd6ea7
-    new: cec56cc07f29258d904d2c90133c136075cd230c
+  - ref: refs/heads/kernel-7.0.10/changelog
+    old: a044d91e9684ca8660babd509fcd1fbae981298a
+    new: ecdf2010250fd6b2170c50a6c1382dfecda57ca4
     log: |
-         8783fb8031799f1230997c16df8c8dce9fcd1841 i2c: imx: fix clock and pinctrl state inconsistency in runtime PM
-         cec56cc07f29258d904d2c90133c136075cd230c Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         ecdf2010250fd6b2170c50a6c1382dfecda57ca4 kernel-7.0.10-5
          
