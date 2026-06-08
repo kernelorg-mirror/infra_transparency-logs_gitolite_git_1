@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 08 Jun 2026 17:07:31 -0000
-Message-Id: <178093845177.2367388.12494612692461905569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 08 Jun 2026 17:09:54 -0000
+Message-Id: <178093859440.2368302.1188714688076741101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: c63203485d991767fcca6c8fcc2c1594fbd074bd
-    new: 1ab5107b40adb0e0d4d6605621f61d4d70b16da1
+  - ref: refs/heads/for-rc
+    old: d68bcb095063634dbe1b13b7d53db114aa7c1013
+    new: 13e91fd076306f5d0cdfa14f53d69e37274723c4
     log: |
-         9eaa37ff453419afefceff39b61cec5d16b58823 tpm_crb: Check ACPI_COMPANION() against NULL during probe
-         1ab5107b40adb0e0d4d6605621f61d4d70b16da1 Merge branch 'acpi-driver' into bleeding-edge
+         badad6fad60def1b9805559dd81dbab3d97b82aa RDMA: During rereg_mr ensure that REREG_ACCESS is compatible
+         29e7b925ae6df64894e82ab6419994dc25580a8a IB/isert: Reject login PDUs shorter than ISER_HEADERS_LEN
+         13e91fd076306f5d0cdfa14f53d69e37274723c4 RDMA/srp: bound SRP_RSP sense copy by the received length
          
