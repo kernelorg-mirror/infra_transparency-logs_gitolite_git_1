@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 08 Jun 2026 13:39:39 -0000
-Message-Id: <178092597920.2189626.11604829360643620512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Mon, 08 Jun 2026 13:45:30 -0000
+Message-Id: <178092633070.2195568.1667817290102917811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 7aaf5ced8050818315323f4662a0e495fe01c510
-    new: cb50c2706dc6e869252ed67235f8390cfeb55cd3
+  - ref: refs/heads/socfpga_firmware_for_v7.2
+    old: 4daded3c1fe90142d5a0741071b2e2efde9d17fe
+    new: 71e6a19fe2669faf7dcb96ba8a4fde927485e60e
     log: |
-         f2f2ebd675c5518115286969d6daa3ff45306d83 thermal: intel: intel_tcc_cooling: Add Arrow Lake CPU models
-         cb50c2706dc6e869252ed67235f8390cfeb55cd3 Merge branch 'thermal-intel' into bleeding-edge
+         30b1f763bfc1b0db42f58904ec378066cc886c44 firmware: stratix10-rsu: avoid blocking reboot_image sysfs when busy
+         71e6a19fe2669faf7dcb96ba8a4fde927485e60e firmware: stratix10-svc: Add support to query Arm Trusted Firmware (ATF) version
          
