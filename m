@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 08 Jun 2026 15:36:11 -0000
-Message-Id: <178093297119.2295748.10606948589085565967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 08 Jun 2026 15:37:40 -0000
+Message-Id: <178093306084.2296422.1516339859038928343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/for-7.2/io_uring
-    old: 57ed21fad4022d595c6654d3b4d2b2083a79ee25
-    new: ad46c2b63dee9daedba8bd2f1638cf6c73ecbac7
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 4549871118cf616eecdd2d939f78e3b9e1dddc48
+    new: 9c37eac31c559b079d55890d1dbe70072fec0435
     log: |
-         ad46c2b63dee9daedba8bd2f1638cf6c73ecbac7 io_uring/kbuf: validate ring provided buffer addresses with access_ok()
-         
-  - ref: refs/heads/for-next
-    old: cea1476f1914b6a9470af0b4c006221e1752e7e8
-    new: b0b5b1715bdbec0b8941ffdc50a7ec37b41d6ed0
-    log: |
-         ad46c2b63dee9daedba8bd2f1638cf6c73ecbac7 io_uring/kbuf: validate ring provided buffer addresses with access_ok()
-         b0b5b1715bdbec0b8941ffdc50a7ec37b41d6ed0 Merge branch 'for-7.2/io_uring' into for-next
+         9c37eac31c559b079d55890d1dbe70072fec0435 i2c: riic: fix refcount leak in riic_i2c_resume_noirq()
          
