@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 08 Jun 2026 18:20:31 -0000
-Message-Id: <178094283106.2427756.14093616453767205148@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 18:20:51 -0000
+Message-Id: <178094285173.2428500.15233178363815141740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.87/nfs-for-7.1-2
-    old: 0000000000000000000000000000000000000000
-    new: c5280bbb7bf9be12d4c47fc20060c8cb53802fe9
+  - ref: refs/heads/kernel-6.12.87/changelog
+    old: b772e2c7c91a449695a4295961f6e1bf5942fcb6
+    new: bde5aaab44c458cc859fd0a3a24b8263879434f2
+    log: |
+         bde5aaab44c458cc859fd0a3a24b8263879434f2 kernel-6.12.87-3
+         
