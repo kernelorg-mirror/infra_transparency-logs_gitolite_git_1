@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0265244120121745782=="
+Content-Type: multipart/mixed; boundary="===============8336675553586307628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 08 Jun 2026 09:17:27 -0000
-Message-Id: <178091024707.1898710.12834811109953748022@gitolite.kernel.org>
+Date: Mon, 08 Jun 2026 09:17:47 -0000
+Message-Id: <178091026794.1898993.13876537232067611752@gitolite.kernel.org>
 
---===============0265244120121745782==
+--===============8336675553586307628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 01793374319cdb685bd487633bbd8bd57f416172
-    new: 5346a166b29cd4d74dab877b34f01fc1b13216ad
-    log: |
-         5346a166b29cd4d74dab877b34f01fc1b13216ad m68k: hash: Use lower_16_bits() helper
-         
-  - ref: refs/heads/for-v7.2
-    old: 01793374319cdb685bd487633bbd8bd57f416172
-    new: 5346a166b29cd4d74dab877b34f01fc1b13216ad
-    log: |
-         5346a166b29cd4d74dab877b34f01fc1b13216ad m68k: hash: Use lower_16_bits() helper
-         
-  - ref: refs/heads/master
-    old: e327c906a9810830d3e7752e40fa6c61c0600abd
-    new: cad73cc983b523309017ac816f5b15a2693d0808
-    log: revlist-e327c906a981-cad73cc983b5.txt
+  - ref: refs/heads/m68k-queue
+    old: 1fae2899c157b972f2f3b711f19a8691a540e803
+    new: 4625eb32b371ececcb4acb0a2847dd6c28342272
+    log: revlist-1fae2899c157-4625eb32b371.txt
 
---===============0265244120121745782==
+--===============8336675553586307628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e327c906a981-cad73cc983b5.txt
+Content-Disposition: attachment; filename=revlist-1fae2899c157-4625eb32b371.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 754d60ad1c91895be0bc7d771fbf9fb3c9448640 memory: atmel-ebi: Allow deferred probing
@@ -370,7 +358,14 @@ e2264c52e18bd54a4f762c393e341cb27fd5e5cd Merge tag 'regulator-fix-v7.1-rc6' of g
 09feffa073d8a5362739ecf0509c29ca7f6d9991 Merge tag 'timers-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c68691dc1dcacbdaaef04edcf7639ce68e3eb58c Merge tag 'x86-urgent-2026-06-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4549871118cf616eecdd2d939f78e3b9e1dddc48 Linux 7.1-rc7
-dbe4de7f63c7da3049c36dcc538db11172e5760c Merge tag 'v7.1-rc7'
-cad73cc983b523309017ac816f5b15a2693d0808 m68k: hash: Use lower_16_bits() helper
+a086bffe8ffab510118126e5ab9750b5df6373e5 zorro: sysfs: Replace sprintf() by sysfs_emit()
+1b33534fcd6d8ec39b9b55be0229e714badc62c0 nubus: Switch to dynamic root device
+7689d1da1fa856c6d4dcef37bc03a49cbdf2bea6 dio: Replace deprecated strcpy with strscpy in dio_init
+5edacae8d6aa7cc992ed1f3e17b8752b8782e98a dio: Use tabs and avoid continuation logging in dio_init
+82c03d0f6663c71be444bf9a913bf8ce16be27d3 dio: Update DIO_SCMAX comment
+e0c8a37e13a6040488bf3a12a3c051340d24e418 m68k: hash: Use lower_16_bits() helper
+54860b15bda2753aa7c425bc6bb25c07d11325ae m68k: atari: usb: Add ISP1160 USB host controller support
+3f56f612a29019eee2c232d67a40c6407a38a7bf m68k: atari: Update Kconfig.bus help text
+4625eb32b371ececcb4acb0a2847dd6c28342272 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0265244120121745782==--
+--===============8336675553586307628==--
