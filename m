@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 08 Jun 2026 17:45:50 -0000
-Message-Id: <178094075060.2400239.3995181300523277654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 08 Jun 2026 17:46:04 -0000
+Message-Id: <178094076433.2400627.4388531168846385826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 9c37eac31c559b079d55890d1dbe70072fec0435
+    new: 8783fb8031799f1230997c16df8c8dce9fcd1841
+    log: |
+         8783fb8031799f1230997c16df8c8dce9fcd1841 i2c: imx: fix clock and pinctrl state inconsistency in runtime PM
+         
