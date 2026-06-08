@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 08 Jun 2026 11:52:33 -0000
-Message-Id: <178091955335.2013027.8321958428522333848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Mon, 08 Jun 2026 12:05:20 -0000
+Message-Id: <178092032017.2022903.10906844048636240853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
   - ref: refs/heads/master
-    old: 63a6f3bc62308a491c63d0de1c537d7c9bc60859
-    new: 50dff00615522f3ec03449680ca23beb4cfc549c
+    old: edb119b465853321fd5f7b60bf08029c5107c607
+    new: 2c24fbf8bf88c297db991a0b45c1926309dc6145
     log: |
-         71385b78dbc290328e3b04ebd9b27786642afaca arm64: mm: Complete the PTE store in ptep_try_set()
-         53040a81ae57cdca8af8ac36fe4e661730cf7c6b bpf: Keep dynamic inner array lookups nullable
-         a3847994b4d20c0701ccc54fe110920ea78e73dc selftests/bpf: Cover dynamic inner array lookup nullability
-         af5cb68eed4030823c0940ad4b7e3d3b6a316b45 Merge branch 'keep-dynamic-inner-array-lookups-nullable'
-         50dff00615522f3ec03449680ca23beb4cfc549c bpf: Fix NULL pointer dereference in bpf_task_from_vpid()
+         d013205d39eaff1b98bd22956bd2405f52dc07dc windows: Fix inverted version check in win32_is_vista_system()
+         2c24fbf8bf88c297db991a0b45c1926309dc6145 names-hwdb: Do now crash when hwdb.bin is not available
          
