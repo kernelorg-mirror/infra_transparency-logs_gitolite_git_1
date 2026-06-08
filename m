@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 08 Jun 2026 05:56:29 -0000
-Message-Id: <178089818966.1750213.5485348206996912888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 08 Jun 2026 05:56:30 -0000
+Message-Id: <178089819009.1750251.7759063127043319662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/tags/cpufreq-arm-updates-7.2
+  - ref: refs/heads/for-linus-7.2
     old: 0000000000000000000000000000000000000000
-    new: 5d7ff65c28a02382ab545318c2e4e4be772aef91
+    new: 4549871118cf616eecdd2d939f78e3b9e1dddc48
