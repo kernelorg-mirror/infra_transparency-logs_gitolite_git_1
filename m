@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jun 2026 16:00:14 -0000
-Message-Id: <178102081482.3585631.1732743906001518120@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 16:01:37 -0000
+Message-Id: <178102089745.3586244.12304982733162451059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/apple/dt
+  - ref: refs/heads/imx/dt
     old: 0000000000000000000000000000000000000000
-    new: c65ab4905e5874a1a489c72da4d6e78a6c9b5943
+    new: 8772e1f64c7d69986821d71d8e58fd10594c9aa1
