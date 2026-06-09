@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Tue, 09 Jun 2026 20:26:10 -0000
-Message-Id: <178103677077.3793122.18386294336144035593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jun 2026 20:26:32 -0000
+Message-Id: <178103679259.3793408.5517410514287260992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/dma-mapping-fixes
-    old: 9bfaa86b405381326c971984fd6da184c289713f
-    new: 6ec91df8aff77e2e8fe3179c1f3fc15b43a40ba3
+  - ref: refs/heads/soc/defconfig
+    old: f044d8021c0cd215d60cdea4075705b421464d45
+    new: 512cef2af615cf0a4c9b0529a2aa36390240ecb7
     log: |
-         6ec91df8aff77e2e8fe3179c1f3fc15b43a40ba3 iommu/dma: Do not try to iommu_map a 0 length region in swiotlb
+         512cef2af615cf0a4c9b0529a2aa36390240ecb7 arm64: configs: Update defconfig for AST2700 platform support
          
