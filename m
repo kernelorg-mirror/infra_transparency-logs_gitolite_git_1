@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3112327609800462291=="
+Content-Type: multipart/mixed; boundary="===============2887416511390733458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 09 Jun 2026 18:34:08 -0000
-Message-Id: <178103004842.3708214.13532764199296686589@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 18:34:34 -0000
+Message-Id: <178103007493.3708615.9544329558094007844@gitolite.kernel.org>
 
---===============3112327609800462291==
+--===============2887416511390733458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 56bd75867f26ef97af2b7e3663b36975062e894e
-    new: 6fcfd4cdc14f629ca02389af9917b17884e5ada0
-    log: revlist-56bd75867f26-6fcfd4cdc14f.txt
-  - ref: refs/tags/renesas-drivers-2026-06-09-v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d4b9d0784dd8dc84fe67a11829b1fba08ffb354b
-  - ref: refs/tags/renesas-devel-2026-06-08-v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 0716f3d41b2ae6677d4823680e277a49b2ae3d22
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+  - ref: refs/heads/topic/rcar-x5h-ironhide-scmi-cpg-mdlc-remapping-v2-wip
+    old: 2ae96ff0d766272a299be17d71e4bf702682440a
+    new: 5df1ef4b9870c212436ec3130bcdf5d002091628
+    log: revlist-2ae96ff0d766-5df1ef4b9870.txt
 
---===============3112327609800462291==
+--===============2887416511390733458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56bd75867f26-6fcfd4cdc14f.txt
+Content-Disposition: attachment; filename=revlist-2ae96ff0d766-5df1ef4b9870.txt
 
+2baee1cc03c65a35f0d053e5c5e646a3bdf6ed85 thermal/of: Support cooling device ID in cooling-spec
+6d0c207c0a95bc4832fe0189973f64734ef5bfc0 dt-bindings: thermal: cooling-devices: Update support for 3 cells cooling device
+995b736ad46a80af84e58596c5e23ce94035bddf thermal/core: Fix missing stub for devm_thermal_cooling_device_register
+c665de5eeb85d1a2b87c1bb4bf4d3dbd8c1c4c37 thermal/drivers/qcom/tsens: Switch wake IRQ handling to PM callbacks
+968098b4ca5219b0d2e0a981aed1dacfbd5adc69 thermal/drivers/qcom/tsens: Disable wakeup interrupt setup on automotive targets
+e8694f7cc29287e843648d1075177b9a2000d957 wifi: fix leak if split 6 GHz scanning fails
+7752c543536d614bfad7ada731bcee90bd214a52 Merge tag 'iwlwifi-fixes-2026-05-31' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+002dcb3a893627fcedf12692063b80c720869ea5 ACPI: GTDT: Account for GTDTv3 size when walking the platform timer descriptors
+fe15af3e75298533056ce73f8e66cd3da31f2b4a ACPI: GTDT: Parse information related to the EL2 virtual timer
+d87773de9efe1df6fe2ba379926f9df92f1a5913 clocksource/drivers/arm_arch_timer: Default to EL2 virtual timer when running VHE
+6951e870868d0b4bc385cbc851b871effa595330 dt-bindings: timer: arm,arch_timer: Fix requirements for interrupt description
 8ee4e6dc8b960122b4c8504978d20774634b6633 clocksource/drivers/timer-ti-dm: Fix property name in comment
 b8eeeca5545659c5d67264b151784e74b18c8254 clocksource/drivers/timer-ti-dm: Add clocksource support
 e393cca0388c2fe6f67d4658b2e05f57e244285b clocksource/drivers/timer-ti-dm: Add clockevent support
@@ -597,9 +599,6 @@ a1a35c09241f0577cc40f65d7372fed01138619d irqchip/irq-realtek-rtl: Add multicore 
 13031fb6b8357fbbcded2a7f4cba73e4781ee594 KVM: arm64: vgic-its: Drop the translation cache reference only for the erased entry
 f2ca45b50d4216c9cc7ffabf50d9ad1932209251 KVM: arm64: Take the SRCU lock for page table walks in fault injection and AT emulation
 14270179806b876fecefcbf35905e512b56a5867 pinctrl: renesas: rzg2l: Use raw_spinlock_irqsave() on power source update
-d81fa6c25e4eac71e14e5bbcdf2964e8c1a12ecb pinctrl: renesas: rza2: Embed pins in the priv struct
-be78fd45269bcff106546ab6af9b0cc53e9d1dac dt-bindings: clock: renesas: Add audio clock inputs for RZ/V2H family
-ed0c053a699863795a6523b0bf664179ff2fcab5 clk: renesas: r9a09g047: Add audio clock and reset support
 2914709c914101eb704e01bed2351070d4161ccf Revert "drm/i915/backlight: Remove try_vesa_interface"
 9c9094d5d889e6259683d9afbd4b578ccea0b700 arm64: dts: renesas: rzv2h: Add audio clock inputs
 f7bacadaf539b90a02ba1de6a598804cd00b90f3 arm64: dts: renesas: rzg3e-smarc-som: Add I2C1 support
@@ -1051,13 +1050,5 @@ a7c1e69d7dbdc3a859cd0b6e299a8fdae5d6c64f clk: renesas: Add R-Car X5H CPG SCMI re
 dbb8a83461777f7b85a303bd3d5747d9b781e480 pmdomain: renesas: Add R-Car X5H MDLC SCMI remapping driver
 5fc02659f513ddf706ae0297deee329b90662531 arm64: dts: renesas: r8a78000: Add CPG/MDLC nodes
 5df1ef4b9870c212436ec3130bcdf5d002091628 arm64: dts: renesas: ironhide: Add CPG/MDLC firmware properties
-b0c6317ee2838d166f2c9c0ea2b20eb09bb712ae Merge branch 'renesas-clk-for-v7.2' into renesas-drivers
-ebe59d592731a8923440c514a705c3986d47e283 Merge branch 'renesas-clk-for-v7.3' into renesas-drivers
-2ef0148d1039f6fa17341b7a8212b5226de5c1d4 Merge branch 'renesas-pinctrl-for-v7.3' into renesas-drivers
-c4b3096ef0e64afd2cbb699e70c3584b2df1f0f8 Merge branch 'topic/rcar-x5h-ironhide-scmi-cpg-mdlc-remapping-v2-wip' into renesas-drivers
-6244a5b8b294e3150d837d65e99fbeef2b74098b [TEST] soc: renesas: rcar-rst: Enable WDT reset on early R-Car V4M
-cd2a43422c057c55a1fc5005ada895aade480d07 ARM: shmobile: defconfig: Update for renesas-drivers
-a555c9f613bd131062ee6a42e311e38b8d1116e7 [LOCAL] arm64: renesas: defconfig: Update for renesas-drivers
-6fcfd4cdc14f629ca02389af9917b17884e5ada0 [LOCAL] riscv: rzfive: defconfig: Update for renesas-drivers
 
---===============3112327609800462291==--
+--===============2887416511390733458==--
