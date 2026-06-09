@@ -1,58 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============4449522544915060589=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jun 2026 11:46:24 -0000
-Message-Id: <178100558448.3366765.14361408894925142990@gitolite.kernel.org>
-
---===============4449522544915060589==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 09 Jun 2026 11:48:38 -0000
+Message-Id: <178100571879.3367602.4415938146201150126@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+user: arnd
 changes:
-  - ref: refs/heads/soc/dt
-    old: 91ee0f80cfbea6c2f206d42a5c5fdeb048c30cc7
-    new: 6b2b89b1bcd2c8dfe1f45d0771628cd495ff3f9a
-    log: |
-         0e400da642d2b9830b0d41b431dbf12cd7921b52 riscv: dts: tenstorrent: Add PMU node to blackhole for Linux perf support
-         33583baeb1ba7d328e6a9775d889036900b74cdb dt-bindings: iommu: riscv: Add bindings for Tenstorrent RISC-V IOMMU
-         6b2b89b1bcd2c8dfe1f45d0771628cd495ff3f9a Merge tag 'tenstorrent-dt-for-v7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/tenstorrent/linux into soc/dt
-         
-
---===============4449522544915060589==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1781005583 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1781005582-295ffa68beb2db5303290be0abf3d209cd6b6558
-
-91ee0f80cfbea6c2f206d42a5c5fdeb048c30cc7 6b2b89b1bcd2c8dfe1f45d0771628cd495ff3f9a refs/heads/soc/dt
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmon/Q8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1352D/9W3DzIXVRD4s6pRRa+uEZdxYS/grvzEuK8
-DDDNrwyX7TXY0tPcTkBmgYfgnbdx/2PEfiARmbpq5OCkjS7ATA8YNFdna10tlHYi
-JdB0oUx9FtFqPxU+flvuOYXkk3pumEtDiX86pLRDLYeIY/bB+Ysv0Nsc7fzPq5o0
-lIzc2yBtI3IBe6V4zwCTN2xc/z9WVeLM8KzNlqM1tavHIdr18YS2g7fLu2aTkNcY
-zFwYzTaKMqrmTckJX7nETk7hFiLC6//I3AzsTEXFCkA/y/mUYw2t37vA0j83/OTa
-cpOZMdSlGEsG6ZAbY4JNtTU4YA/2QZfN0r6MwLthv7vwNZ1i447QHo0H1CWmIxfH
-hajP4CeCD//RQbKNuIi8aLMdpqjgWATF0JnNLSdcuKl9A+WdshoiHvShdRkdmaz8
-eWF4pAggUwBHYA8xXN1TwZomhexazndmFcZWrJ1se8a95y3BCulaQJiKbCbb1j+/
-OM1B0JpSaledLpEdo4gfLYVu9KMju6HTt2IWqx4ke9jy4Fo6uRDAs4SNiJWqggY6
-pIyoCM7dK7s8DEXtxp5LD44NL33sdgxO/GvnzYbQ1EzPra3JUf3cZNTjBznZdmRN
-onRXsjovdu+ENn7wEcKXaonp6c8OBeWj1rUMz4p+E3BN60ECDdpLipHMEgVyjaYi
-xNtjKhlfDA==
-=k4Kh
------END PGP SIGNATURE-----
-
---===============4449522544915060589==--
+  - ref: refs/heads/qcom/dt
+    old: 0000000000000000000000000000000000000000
+    new: f3919fa784a3e6dd557dfe2c41072f55742e013f
+  - ref: refs/heads/rockchip/dt
+    old: 0000000000000000000000000000000000000000
+    new: 98461edf564a35ee00a97a64f5463eaece586546
+  - ref: refs/heads/qcom/dt64
+    old: 0000000000000000000000000000000000000000
+    new: eb24b60553e0692cbbec2863ca31d2a56bff098d
+  - ref: refs/heads/gemini/dt
+    old: 0000000000000000000000000000000000000000
+    new: 1f1471284e9b5c2317b4dd8710270aa33c2fd2fe
+  - ref: refs/heads/tegra/dt-bindings
+    old: 0000000000000000000000000000000000000000
+    new: 774bc2764647cfd6b65727cfa978d809f11df392
+  - ref: refs/heads/tegra/dt
+    old: 0000000000000000000000000000000000000000
+    new: 20550601bf4c23effa013a5f37e5250618869e87
+  - ref: refs/heads/stm32/dt
+    old: 0000000000000000000000000000000000000000
+    new: fba4a31a7f3b6b29b01c83180f83e7ed4c398738
+  - ref: refs/heads/socfpga/dt
+    old: 0000000000000000000000000000000000000000
+    new: 7557d67a6057362a65ad03a03cbefe7f03523003
