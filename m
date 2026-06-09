@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Jun 2026 00:42:06 -0000
-Message-Id: <178096572674.2718628.9835295745287176063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 09 Jun 2026 00:47:03 -0000
+Message-Id: <178096602315.2722470.14446143576111875824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 71de0177b28da751f407581a4515cf4d762f6296
-    new: c849de7d8757a7af801fc4a4058f71d481d367f2
+  - ref: refs/heads/master
+    old: 5d2b2eab6a7bc8632e031a7e2ed9850a938c6781
+    new: 31253a59faec4da3b7c650a16b10a606e69cc21d
     log: |
-         c849de7d8757a7af801fc4a4058f71d481d367f2 netdev: fix double-free in netdev_nl_bind_rx_doit()
+         31253a59faec4da3b7c650a16b10a606e69cc21d Fixes for all trees
          
