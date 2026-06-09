@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 09 Jun 2026 15:46:17 -0000
-Message-Id: <178101997757.3572765.13261723103387429279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 09 Jun 2026 15:47:08 -0000
+Message-Id: <178102002898.3573265.8856334910173282217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: 250eea5c06f5291603612cdf0c60326db4e19141
-    new: 9dda3f83ba677b9cc2613cecd9120123000ae50f
+  - ref: refs/heads/master
+    old: dd0f9684d2f7d3f99aee63f5fa80562f2207b964
+    new: f1a660bbd12dd855fce6cf13f144008c4e45e7c7
     log: |
-         0c26b1c34d12d4debfb5363cc0be6cdf68e87ba2 PCI: imx6: Configure REF_USE_PAD before PHY reset for i.MX95
-         9dda3f83ba677b9cc2613cecd9120123000ae50f PCI: imx6: Assert ref_clk_en after reference clock stabilizes on i.MX95
+         fa75b7c85b0d2b6ab1c3ee0f06d35e2b98078c45 bpf: Enforce write checks for BTF pointer helper access
+         af8c3f170f7314d316023efc0ae670384e220b09 selftests/bpf: Cover writable BTF field global subprog args
+         f1a660bbd12dd855fce6cf13f144008c4e45e7c7 Merge branch 'bpf-enforce-btf-pointer-write-checks-for-global-args'
          
