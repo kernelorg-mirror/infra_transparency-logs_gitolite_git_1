@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1487812046616350861=="
+Content-Type: multipart/mixed; boundary="===============8171889744823485967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 09 Jun 2026 12:32:54 -0000
-Message-Id: <178100837408.3409624.6360348067690316333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 09 Jun 2026 12:34:38 -0000
+Message-Id: <178100847829.3410488.4164070973865445063@gitolite.kernel.org>
 
---===============1487812046616350861==
+--===============8171889744823485967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: df69c0304f5635ae7b5bffaa61609d8b4ce7ffa6
-    new: 1e2895000e389b2188eb4ed82ebe50492604e051
-    log: revlist-df69c0304f56-1e2895000e38.txt
+  - ref: refs/heads/master
+    old: 124b31825976b5025bced62242a8eb50867c2863
+    new: e0d12ee722d875810d1895c4f71fc7cb86c7f73d
+    log: |
+         e0d12ee722d875810d1895c4f71fc7cb86c7f73d update the 7.0.4 review from greg
+         
 
---===============1487812046616350861==
+--===============8171889744823485967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df69c0304f56-1e2895000e38.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8ce19524e4cc2462685f596a6402fbd8fb984ab2 i2c: core: fix irq domain leak on adapter registration failure
-3c7e164344e5bcf6f274bbf59a3274f5caad9bc1 i2c: core: fix hang on adapter registration failure
-2295d2bb101faa663fbc45fadbb3fec45f107441 i2c: core: fix NULL-deref on adapter registration failure
-158efa411c57111d87bf265a3776614f32d70007 i2c: core: fix adapter probe deferral loop
-07d5fb537928aad4369aaff0cbae73ba38a719af i2c: core: fix adapter debugfs creation
-3e2041ea586ae37fcea918ecb505ab9972a1201d i2c: core: disable runtime PM on adapter registration failure
-ba14d7cf2fe7284610a29854bdff22b2537d3ce6 i2c: core: fix adapter registration race
-b1a58ed9eab146b36f41a55db8f5d7ce9fdedf3f i2c: core: fix adapter deregistration race
-a378a2bc73e3b71ed2e2bfccaaee81199de0f49f i2c: core: clean up bus id allocation
-1640403fd38e9c0a1d9d70965d36410b263b6e2c i2c: core: clean up adapter registration error label
-233644f6d4da72ca5afb7d9b1478a170d3aacbf7 Merge remote-tracking branch 'wsa/i2c/fix-registration' into i2c/i2c-host
-1e2895000e389b2188eb4ed82ebe50492604e051 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781008421 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1781008477-1b667e7f4b7a69ea83f88dbc3427d6891ffa6c58
 
---===============1487812046616350861==--
+124b31825976b5025bced62242a8eb50867c2863 e0d12ee722d875810d1895c4f71fc7cb86c7f73d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmooCCUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w54QAMJPgOWwDUqn3P97pApp
+wwUYVicbv7M33a/x7cfq1IewPLF7lbZXbfLdCqiWMCrOKoDqgcDnKbBHpozcfomk
+rYwTl4WWcqL/dfVoxzCAuP7gw6tdw18o5KqxdjZFkW+b4CpAkJ5F4YXQNONZ4U76
+o2kjiHPkFFE8RfMldwcD/j5C3FiVKjn0i3PXkp28DiFO3RSDd3XaXqMXIYRFctKY
+T8XTJ3tKR5Ix65SWLmIymdPgrf6SwCh/wb3rEPMyjIDafNo8SkP7nifo2oomDBuZ
+snnLirVwXVBIqJJMO8lsLbHBkhY0FY5zFmhcMagy838lUYuK+6/fbykLEAGn9O+i
+2zzm7VRaDTC3FcYE/tO1GgLqN995UYfBzzsZuHz06yXwmyAobvTkit8Gm38eUD2F
+Ulk+b2JHPBNUYpG6TfvFFuuhcEAbTvnRzryGenkMk7ALCTZVlHUC+ZDUrmcNNOva
+Yqn48wvTWjrpBbKkLXjjtuL92KFtsMNnPOg4HnBvLkuNmwaxKujngZ0nT4nhHtk/
+WbFSvAPqYhgKOQenYYsZ4gpZh6p4LWQWgyjEKFxjjEdv2Aq0JmwAxYJMkkbEfZcU
+j6bqaFzLPpzzZm2UT4fdfVIzeD3vvEi5XDf41BwI6Gsj69I2ke7ztyM6itegF31p
+HNPduNJicGkPAWexEPjcq5Cr
+=H6XX
+-----END PGP SIGNATURE-----
+
+--===============8171889744823485967==--
