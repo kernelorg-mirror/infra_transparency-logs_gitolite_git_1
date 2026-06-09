@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 09 Jun 2026 16:41:27 -0000
-Message-Id: <178102328705.3620855.4143203442652228177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jun 2026 16:42:49 -0000
+Message-Id: <178102336901.3621635.10182100595871671240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/controller/dwc-meson
-    old: b12341b98d5ac52f48ca1390e1e371aed81346c8
-    new: 4b0dc84b293984f75598881809fb2d3daf54a2a8
-    log: |
-         4b0dc84b293984f75598881809fb2d3daf54a2a8 PCI: meson: Add missing remove callback
-         
+  - ref: refs/heads/mvebu/arm
+    old: 0000000000000000000000000000000000000000
+    new: bf4ad3be0679460585ab17dbcf298d085cf23429
