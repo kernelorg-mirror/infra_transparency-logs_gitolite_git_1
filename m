@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 09 Jun 2026 18:01:16 -0000
-Message-Id: <178102807690.3684148.1767971267563493613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 09 Jun 2026 18:10:53 -0000
+Message-Id: <178102865395.3691382.16670395909996676691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/regulator-7.2
-    old: e727fe9be1738ebc0caa5cc901f0299404b6bbe6
-    new: 9aeba1351a22bd8c90515cd8e1462934d766932a
+  - ref: refs/heads/master
+    old: f1a660bbd12dd855fce6cf13f144008c4e45e7c7
+    new: 68f4e480b089abae26fbab0c38c3df3cbac3d79d
     log: |
-         9aeba1351a22bd8c90515cd8e1462934d766932a regulator: mt6359: Fix vbbck default internal supply name
+         68f4e480b089abae26fbab0c38c3df3cbac3d79d selftests/bpf: Avoid spurious spmc parallel selftest errors in libarena
          
