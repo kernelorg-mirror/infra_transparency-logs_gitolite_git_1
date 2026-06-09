@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0994750041387229945=="
+Content-Type: multipart/mixed; boundary="===============2877563120759628947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 09 Jun 2026 11:53:14 -0000
-Message-Id: <178100599470.3372333.3755812649352338560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jun 2026 11:54:42 -0000
+Message-Id: <178100608213.3373139.5428806419252541196@gitolite.kernel.org>
 
---===============0994750041387229945==
+--===============2877563120759628947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: efdc55fb0d59dc221f7c79e30ea0c7c4a0339825
-    new: b0632c81f2f7a8bed9ed6f36aa5ad97a71a61284
+  - ref: refs/heads/soc/dt
+    old: 6b2b89b1bcd2c8dfe1f45d0771628cd495ff3f9a
+    new: d7f82a3fd19a2fb3bfed1151ca520a8aa28e8c08
     log: |
-         b0632c81f2f7a8bed9ed6f36aa5ad97a71a61284 actually add the new cve ids...
+         2f60e351633044dee88b63fb1600e284d2476e9c riscv: dts: thead: Add TH1520 I2C1 controller
+         a20241c08385c875c4d0deb6c8ffc15f13f5b388 riscv: dts: thead: Enable WiFi on Lichee Pi 4A
+         3a5791956edbfa84d7256224167941931cbc46e7 riscv: dts: thead: Enable wifi on the BeagleV-Ahead
+         d7f82a3fd19a2fb3bfed1151ca520a8aa28e8c08 Merge tag 'thead-dt-for-v7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/fustini/linux into soc/dt
          
+  - ref: refs/heads/thead/dt
+    old: 0000000000000000000000000000000000000000
+    new: 3a5791956edbfa84d7256224167941931cbc46e7
 
---===============0994750041387229945==
+--===============2877563120759628947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781005938 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1781005994-35ad16c3d640b4d1985fdd11396a7b8b4b08c49c
+pusher krzk@kernel.org 1781006080 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
+nonce 1781006080-9d21f8969fbd0da86aa18741bb797be53937b5f3
 
-efdc55fb0d59dc221f7c79e30ea0c7c4a0339825 b0632c81f2f7a8bed9ed6f36aa5ad97a71a61284 refs/heads/master
+6b2b89b1bcd2c8dfe1f45d0771628cd495ff3f9a d7f82a3fd19a2fb3bfed1151ca520a8aa28e8c08 refs/heads/soc/dt
+0000000000000000000000000000000000000000 3a5791956edbfa84d7256224167941931cbc46e7 refs/heads/thead/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmon/nIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6SQP/3NBmloV6qAtEU4b3VDN
-xOqJ9LepEsWk6Rjo9ARPjemVJkqHQRnPlyydLDyKQDQkhXKnyAJzLItguu89l8yf
-oWKqwEO8QnkSA5TnfN/5AejXBZESSKDrDjCDA97QH2u6PU2fRWzNPTwJ/Hshg0pD
-E2B/5rd7SgNZ4yJOSiawuHLsvxzFRiHn9r02tH5WVqVGkwXygw9aPAkw1XD8llvL
-+saGfCB2s6qSEQciYjswXmrI+4J+CFqk38vggRaR6QsqqVZnCHQORUkaT5NpGYs1
-aCXqxJpgbZong7YhbIuhg5Z9n+PLYxHBvPutFrBSzFDtALQ6c3A0ccn/7DIyjPKb
-ZgLX/85g2J0FvU2yFOQgywha5ZRNLRGE0A1bi6YqS+o86dZ+gfrczH/9d5byz3rW
-dpLlf8W8pu5pSTNXuXTOnDUEPN8cRoOgCMTldHnS8i207DwGWquKTIb1IFBkQKPK
-8jy2BilkCXva03GWu6EHo8FkJAPAiYJqdW5k9NLndGgs+V1d2iIIy3mWy0rBXiQL
-6+IwRZBtWRs4XIK8I6KdBT2V7rGNkeWCQJWNFnuMQiqa0AiaXkx5scIrRwiKG+sH
-jFtbi5+3SZRCtDS9GkuzcMY656G6j2KoSpvmMJNhUH32XbnF0j+cxdSarYSk19AT
-qzJbZ7F5zwIF/jn272reoSYx
-=QViL
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmon/wAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15FtD/9Qmj8AbpC4V58VFCTjz0qa1bbnFDutJ7b2
+tWeYl4hJdu4UljCGuEnWF0QckkwRpOAa6RXmIENQdp/qwDNgYwnecNMW//SuwiLd
+LvUek8Tdg61WJyTxubG5PFtoj2uHzUYDtHTsz9UhRIe1QjT28bYFO5TP5UtG1oiK
+HCRR+veCF23sOz5uKDuKhsyO/tQgGDkGbo1OCM+J4NGOkpEJbN9uurw9Entmc2j3
+SMcK7yBWYHI/ANScSCp+w7Qa/F7sl2q0iuRsUUUi2KeduGMu10WbmGz/TCzgfRMP
+COpoiRJGz3365MjhC9EBWSfq9iOBuBvgPRbKJHzvkE8gSL+nZoEqe8lO7qAmnQLy
+Pw5zM+7PBqiII/D8srnOE+/pP2TE0uoW5IakQGts2svMgWMrWIK/yUfexs1f/RVF
+P/r/jD/yYXe4cDViJ7M/TaW43Fh5R5sduZhWAQk0/kOvDaRv86oXpS0z77EerDNR
+LAvRKvzpBRB4LFkLvK3bRVw7xMC7q/srUDW1kjid2biLYeAPdv10rbdEhgKZCHsT
+4Cmat9e7oWZhZDBvkdMmLTfdow7NI7EPVjff/ZDMJ5IkXytSNa7Nz70iLYhN39rB
+76W4oAbZ9kpoDrI/a7RUoGX2aGmCKLEwIQvIx/HbgDIPKYLFp5M6PZU3mGfqo8tl
+Q6Fza6tGaQ==
+=RWGG
 -----END PGP SIGNATURE-----
 
---===============0994750041387229945==--
+--===============2877563120759628947==--
