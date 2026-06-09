@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3179405756601337090=="
+Content-Type: multipart/mixed; boundary="===============4984159260168905537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Jun 2026 01:38:28 -0000
-Message-Id: <178096910895.2766166.2409586233252846407@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 01:38:33 -0000
+Message-Id: <178096911357.2766382.3077248801990639259@gitolite.kernel.org>
 
---===============3179405756601337090==
+--===============4984159260168905537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 916a9226e90d264c2d8ae70dc60d882ff70cd733
-    new: c8b3e91e9084ff07a67a4c8c18223ca8d0d45c8b
-    log: revlist-916a9226e90d-c8b3e91e9084.txt
+  - ref: refs/heads/7.2/scsi-queue
+    old: 20fd1648f35399f114351b67c14ff8d3233a30e2
+    new: 0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb
+    log: revlist-20fd1648f353-0600eec09ad6.txt
 
---===============3179405756601337090==
+--===============4984159260168905537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1780969085 -0400
+pusher 75C5DE3D 1780969112 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1780969085-4da3c1911c479ec7f081641d678e624ccba0fe4c
+nonce 1780969111-3a38c265a772b2d0786a5bfb2d5a4de5cd8b7fee
 
-916a9226e90d264c2d8ae70dc60d882ff70cd733 c8b3e91e9084ff07a67a4c8c18223ca8d0d45c8b refs/tags/mkp-scsi-queue
+20fd1648f35399f114351b67c14ff8d3233a30e2 0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb refs/heads/7.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmonbn0ACgkQ7ulgGnXF
-3j1jWw//RLg3IAVikzxMtMQBKkR4Xml60JVbgoCAYZ2LmPYhPf4ln8FMTTQzYFew
-9JpSGeJun2tcsu+0CETYH8V4jgF70ObIl6W0N2Wak97ZMEQqq6pIeCuvtEsqKZ8A
-iBB6auR8+iJMydIqXUcnhEScNOVSYm7VR0Ea23kdAFe0doBJ+HH+IY6JeFqFB/GP
-U585e7K/qKz2UnSg//0TjEph9dL7q66ndWjH8mcynu8WDKxpT3viZBuTyMXsCFz5
-EVPKHByXquYn33Lxcxo4emc741L3bptAeqEhKFFdUjHGxyHLuOBofL1UoRFxAV06
-YeeKZtfgGTUt21yBY83v5nkUD1QZYAEZorYIfPqu9PYtAmtUfv+AbhROLgTgKCCG
-drPHtvYqmb/7OZ61W4NoTviuheNMlfBMnIZVP2XlwclksUID5oe3UmlHBsP0tnNZ
-Xq+jTFTkonH2VyJ02r7P61kc4ihfnoieCOHxV8cmD2kPka/xbvJvvOmtCwripLHR
-ydHlNS+qHpBUYxOGXQuQuojtDR7n7uJPSrf163Y8CoO41EwSxTo/Z5dzfjkMEYMe
-q+RMwsHpbIuaMhXDq/DSZg+2hruFEL77rKiFtHFrOsy/hTw2a9qvoIFgIc0VJ1HR
-DI6Y5e9cL49WKaIJxiejOZcTpOiP0Q+Cc2nOcqB+C5fkGIMaFy0=
-=Naar
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmonbpgACgkQ7ulgGnXF
+3j3/Ew/+KTxXh3+4fVS9/LtijKcjWkWFPbDpzl5ejmsrdaCeDMjsI4kS00W+ZTBs
+yMbmCuu8uB0jBNR80kmbi6stTe9ztbqLeBFm7sANI1FEvgW3CXVRWEolw2l2Nwl+
+xiPypmjWuddhkF51Ela2RMXuGjGwkX3vXpQ5SkxRc6vumTXNBDaFtaX+juT5bzJm
+QOtjevBm9+v1Yh2PmiPc072GrRn4ilA0mzxpDsGhVkCitWevISvKG39HP1JIAbz1
+Gyr8jU5i4nMNceSGnP++GalUPXN0qCoK2toiyLWLiRqifWBvf3C9l4jmQ6CmzG7w
+GwnXz6YuI2OwklKGSkcQNCsRt+a7iam61JFdmh+UvekeHcD7kTIHSQ0pbTkM0rGG
+OY1Sc6Gva6yZPqPa7vO+68si0uVURGITHyVdNTJp/fJV74RD8pgBzSHfa754gHv6
+R8WJoBqhEJO+qO6Ru4K080WoReVVDdQUAfZvKbd1FFCkDgw70vIRI8k3sK42sxaV
+iQNHyHnD+XwXeDR1wWoPfGoh97IFl9Chv8/yaXVbT3ZvYm5VTrg9TuvkK5zQWIdi
+W/vn9G47vqa09RZbg+VxmS5GZuO63KJW25ilESgLoJYLMUQo6DsGHXG+wZlQOpsl
+f0l6RzqAzQBTcduB3cVaJbU/r5fexWS0wRZ1/0MIvUtLDHNlv1Y=
+=iQcp
 -----END PGP SIGNATURE-----
 
---===============3179405756601337090==
+--===============4984159260168905537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-916a9226e90d-c8b3e91e9084.txt
+Content-Disposition: attachment; filename=revlist-20fd1648f353-0600eec09ad6.txt
 
 57db1307afb1f83d45f5ff53b93f8d040100d13e scsi: smartpqi: Use shost_to_hba() in pqi_scan_finished()
 8c292e89bd831c8a13e92f3429ef66bbe0b83677 scsi: Revert "scsi: Fix sas_user_scan() to handle wildcard and multi-channel scans"
@@ -68,4 +68,4 @@ c39a9a02bc5d841c116dc03c264eb9ceecde806e scsi: megaraid_mbox: Avoid double kfree
 6bfc4bfd041d7ddeab9791f0592284585e960be4 scsi: ufs: Remove unnecessary return in void vops wrappers
 0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb scsi: ufs: Remove redundant vops NULL check and trivial wrapper
 
---===============3179405756601337090==--
+--===============4984159260168905537==--
