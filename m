@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 09 Jun 2026 18:00:31 -0000
-Message-Id: <178102803118.3683302.7257490502179214136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 09 Jun 2026 18:01:16 -0000
+Message-Id: <178102807690.3684148.1767971267563493613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: b29bca555ca052b5cdad350f059977f88cc32ffa
-    new: 72afdd8181219f459142e571999b3b44ef7b85fb
+  - ref: refs/heads/regulator-7.2
+    old: e727fe9be1738ebc0caa5cc901f0299404b6bbe6
+    new: 9aeba1351a22bd8c90515cd8e1462934d766932a
     log: |
-         1e1edc973c64307821ee22049908e7ded8f973c2 cxl/region: Avoid variable shadowing in region attach paths
-         72afdd8181219f459142e571999b3b44ef7b85fb Merge branch 'for-7.2/cxl-misc' into cxl-for-next
+         9aeba1351a22bd8c90515cd8e1462934d766932a regulator: mt6359: Fix vbbck default internal supply name
          
