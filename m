@@ -1,74 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6259772759848373803=="
+Content-Type: multipart/mixed; boundary="===============0838391764527921909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Tue, 09 Jun 2026 00:07:28 -0000
-Message-Id: <178096364885.2689824.13672130352915257020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jun 2026 00:13:28 -0000
+Message-Id: <178096400857.2693882.6362908158152223798@gitolite.kernel.org>
 
---===============6259772759848373803==
+--===============0838391764527921909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 2eef00753806b65aefe4a7ac91fd7bf889bf97d1
-    new: 857360c0b1d7028723ad48c8640532c5c0c706b7
-    log: revlist-2eef00753806-857360c0b1d7.txt
-  - ref: refs/heads/next
-    old: d7f47fa897a1ff4e6ac4c944035eff0f6c071a15
-    new: 857360c0b1d7028723ad48c8640532c5c0c706b7
-    log: |
-         0d68f41c4eca241f2665576613e9c5666ff01ceb document known versions of trace-cmd for output format variance
-         857360c0b1d7028723ad48c8640532c5c0c706b7 Update the version
-         
-  - ref: refs/tags/v3.2.7
-    old: 0000000000000000000000000000000000000000
-    new: 3aa6772011de4bf876d5910515a2d631f46d8e18
+  - ref: refs/heads/main
+    old: 1e127c94fa11cd55c8495c4b13bb255094683b4c
+    new: b8e40c907bd201ee90524b8a8da6d2ab8cc7c004
+    log: revlist-1e127c94fa11-b8e40c907bd2.txt
 
---===============6259772759848373803==
+--===============0838391764527921909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eef00753806-857360c0b1d7.txt
+Content-Disposition: attachment; filename=revlist-1e127c94fa11-b8e40c907bd2.txt
 
-368b1c04f2beb7efd61b5031442a3b88931c3abe _damo_sysinfo: handle unusable perf in get_perf_path_version()
-afb1cfc9d4999c5d8690b68af68d70473aa9fa66 _damo_records: locate timestamp field instead of assuming column index
-0a494d9e234ae773162faebf80e4ef0d3d353943 _damo_ascii_color: fix typo on error message
-d5e6bacd1dd4633844041403c1ed64126aa854b9 _damo_records: fix wrong variable uses in convert_perf_to_damon_data()
-5069e31fa874c588c0b99435c331ef7d569ebcf5 _damo_records: fix typos: s/kvapirs/kvpairs/g
-949ddd3319958246046aefc8db21d04dd44afe7e _damo_sysinfo: fix typos
-c95f91178e3fab4982beb557ed2d5e2a03826864 _damon: fix a typo: s/kvpiars/kvpairs/
-c66173835956ff719824eec2140bbd2f024d29c0 damo_features: fix a typo: s/sysfs/sysinfo/
-d6c499b7108c71aa799812d52775a1121e4a58ea damo_record_info: fix a typo: s/line.s/lines./
-a1b92bfb018556a060c2adf765819836dffd9ab8 damo_report_record_info: fix a typo: s/line.s/lines./
-65dbdbd9f19e609ed1a5178982508cd5050863c9 damo_report_trace: fix wrong line variable name
-b8d123fcc3602711126eef87545dbe1d18df43e2 damo_validate: fix wrong variable names
-ce7a635d141c08c1e6aa165270731b36defc5291 damo_record: remove unused for_damon_stat_snapshot() and its usage
-c2603f8d2c0f93cb7f862af02268a8f16b57f77a damo_record: pass kdamonds to snapshot_requests_from_args()
-ebd2331186f8b790d89b6df7e844688c8db11399 _damo_fmt_str: drop python2 support
-1d702e09c36cf0233494bdee9ca3980e6f906d33 tests: run flake
-9af1b335459515a9a44cb7f10062d51ce77a0292 treewide: remove unused imports
-b9b47658c172d666ad18a6b928756cf602b2ef27 _damon_dbgfs: return the error from write_schemes()
-de8a552a47761ef6c960fe307b3e0527e4af2c8d treewide: remove unused variables
-cd8ca2c155800e70b2b4b8cc68b9415b32734a87 _damo_sysinfo: add exceptions to error messages
-e9c6af0aa609176aa54991ad77f0c3da0d51c21e treewide: use _ for intended unused return values
-349a5ca67c403892de00143481e3a5a069b75fee tests/flake8: select all pyflake.
-668ff66a192466a39e20c9247e1aa00fa5f0e83f tests/flake8: make fail message consistent
-492d90da7cfd65227826d0a24bbe5d7a1d512641 damo_record_info: mark as deprecated
-2ba6b8f699bfb002ce5c160aae9d9666547f5273 damo_pa_layout: mark as deprecated
-d9269104d15f65476ea9ab938988d34ab27c8b00 _damo_records: update damon_trace_fields() comment
-7116c791639bbcc4a3455b60881f59d5932d2b14 _damo_records: optimize damon_trace_fields() for only known formats
-396f0e3e40071a6c00207e6c0a7e5c60920e67cb damo_report_trace: support trace-cmd outputs that omit the flags
-69975a8a76649e4d3f75f8281e3730b7a5675d79 tests/unit/test_damo_report_trace: test flags omitted trace-cmd report output parsing
-342f49a7a25dfa5b4cc349b96738e9618f07391d release_note: update for next release
-54b312969dca2f454c0dcdbda3190d8e6be5f770 TODO: add items
-d7f47fa897a1ff4e6ac4c944035eff0f6c071a15 tests/run: ensure the user has root permission.
-0d68f41c4eca241f2665576613e9c5666ff01ceb document known versions of trace-cmd for output format variance
-857360c0b1d7028723ad48c8640532c5c0c706b7 Update the version
+e02bf5e7aa4af4e5e063d6a1bf1de6dded69fe5b selftest: net: Extend ipmr.c for IP6MR.
+364568de4e7f8a5a0f0e12a0ba8812377f53c07a ip6mr: Annotate access to mrt->mroute_do_{pim,assert,wrvifwhole}.
+36be7d7c5ded0d70c3384e4730664e25b8d076fc ip6mr: Use MAXMIFS in mr6_msgsize().
+c2f5fd21aca4c7d002bbf264da4464509674ee78 ip6mr: Allocate skb earlier in ip6mr_rtm_getroute().
+76ea2ba2297e0bbd9ddecc971edff93039def6f2 ip6mr: Convert ip6mr_rtm_getroute() to RCU.
+3bcf206012b27737ececc40096f18423dffabd43 ip6mr: Convert ip6mr_rtm_dumproute() to RCU.
+a543cb49e603f88917e3258bbcb59a60d9c3c2fa net: Remove rtnl_held of struct fib_dump_filter.
+2c309a863dd6e609b10caa55a362dc48d2e04564 ip6mr: Free mr_table after RCU grace period.
+4becf012467511e9f3e21b641054f85711f4e187 ip6mr: Call fib_rules_unregister() without RTNL.
+7395fccf6b4c2a351f2d29ff905ae71bf644cc60 ip6mr: Move unregister_netdevice_many() out of mroute_clean_tables().
+33e6984fe5d49eecba404141b0ef0f305ad0a3b3 ip6mr: Move unregister_netdevice_many() out of ip6mr_free_table().
+2a798e8c71b569b3adca009ceb558ff2a936c4d9 ip6mr: Convert ip6mr_net_exit_batch() to ->exit_rtnl().
+2290727b2fdb9f56f6fa2e06b4c5061c4f28e2df ip6mr: Remove RTNL in ip6mr_rules_init() and ip6mr_net_init().
+a4c98421720a79587ad6c528f81fe7976a45976b ip6mr: Replace RTNL with a dedicated mutex for MFC.
+5499868699eebf14ff143495766264964b3a2e9e ip6mr: Define net->ipv6.{ip6mr_notifier_ops,ipmr_seq} under CONFIG_IPV6_MROUTE.
+b8e40c907bd201ee90524b8a8da6d2ab8cc7c004 Merge branch 'ip6mr-no-rtnl-for-rtnl_family_ip6mr-rtnetlink'
 
---===============6259772759848373803==--
+--===============0838391764527921909==--
