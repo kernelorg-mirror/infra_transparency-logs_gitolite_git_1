@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 09 Jun 2026 23:37:17 -0000
-Message-Id: <178104823716.3939166.14922932559086951092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Tue, 09 Jun 2026 23:59:27 -0000
+Message-Id: <178104956780.3953916.10945737291777934605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/spi-7.2
-    old: fc82dda1dcc61a4e48c1511d0a3beefc9dc77312
-    new: 606c0826bd90384a54571c0c5475ca41f50164ea
+  - ref: refs/heads/kbuild-next
+    old: 2566fa7b2f2402a77dae6a5e9b28a1bae1c20793
+    new: 1a1e62a5a48494cdf33e3bfb82fb8f408da7c4cc
     log: |
-         606c0826bd90384a54571c0c5475ca41f50164ea spi: meson-spifc: fix runtime PM leak on remove
+         1a1e62a5a48494cdf33e3bfb82fb8f408da7c4cc kconfig: tests: fix typo in comment
          
