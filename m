@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2311538868602935545=="
+Content-Type: multipart/mixed; boundary="===============1983347979184011512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 09 Jun 2026 08:36:58 -0000
-Message-Id: <178099421879.3096508.5912903800592620579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 09 Jun 2026 08:37:05 -0000
+Message-Id: <178099422561.3096820.18435515965473223728@gitolite.kernel.org>
 
---===============2311538868602935545==
+--===============1983347979184011512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/spi-7.2
     old: 2fb242e4f375b682c800ab40dd4fbbcde1711528
     new: af4310929afcd500df6b75a5fccff85ce13cc90d
     log: |
@@ -24,28 +24,28 @@ changes:
          af4310929afcd500df6b75a5fccff85ce13cc90d spi: dw-pci: remove redundant pci_free_irq_vectors() calls
          
 
---===============2311538868602935545==
+--===============1983347979184011512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1780994216 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1780994216-40baca7ca679039755488b829aa32536fe0dc708
+pusher C3F436CA30F5D8EB 1780994224 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1780994223-416548f1f9d7ddfe283e46254009d4b6cde40cfb
 
-2fb242e4f375b682c800ab40dd4fbbcde1711528 af4310929afcd500df6b75a5fccff85ce13cc90d refs/heads/for-7.2
+2fb242e4f375b682c800ab40dd4fbbcde1711528 af4310929afcd500df6b75a5fccff85ce13cc90d refs/heads/spi-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmon0KgACgkQJNaLcl1U
-h9D8wwf8CcOelAahqXDKmQGkStSd7iCERt6I1zistZInTPW7w5TNJD/8rJ1WBsuq
-Puvd/HPinZ0MqPaySta28h/0kQVSep0srO4NuWYKvNUjcAN4LzDwf1fiLdsp/knZ
-Gg8/cZ6wbh/EhfNAQl2c6ug1WeIiI3buMboRIS7zEMDHAAjj053csuS0QDYKHiOM
-BGmGBsKDjvKWg6gY4BYHFjA8HaiNJBOMB4Ro1jtvyUasSUGDv0gRQyHH7RWhnnVN
-gAGeLgmZcrXPt9PKrUTU3pU97vVffbwWnHAZGFbLorSCDhyEwrzuiOBzehHkI0Ps
-CVX5aSIi8e6mrUMHrlsHbdFJvZRHGg==
-=X9/2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmon0LAACgkQJNaLcl1U
+h9Aoxgf/XRcId3+ynzQo2dG8wvUgu0ed/D0Ok2c/UwYM7d/maeIcnHy+xs5gu6fp
+7UYXv/so66wN3fc+7L8B7x0CpGQ9vaxnJR8IPdpiSU3DAupOa4hGAYNSUorOmsMh
+w0jaxbkq3nphO6WTnD6obsobMuzfoQEPEaBoOiP8hnVYG6D3dTfWM9Df9s8URFKz
++HZcK9TJinNf8KlI0ME1XSePZKX9OUa2Z5hawq1uPgEpbGs6KI7BmV7ULtPLBisd
+Kk6tbkX7W+phv6Sk7DMsl9xG2JrTJ9jm6Fk/i5Vf3fpB38ZZ/ycvnylBcIABmfbi
+viOEGdcIa+yGD/Kud4BC2K+9KG5+Zw==
+=A02c
 -----END PGP SIGNATURE-----
 
---===============2311538868602935545==--
+--===============1983347979184011512==--
