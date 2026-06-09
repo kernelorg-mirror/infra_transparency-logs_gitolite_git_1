@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 09 Jun 2026 13:54:19 -0000
-Message-Id: <178101325978.3471926.15529071438726162138@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 13:54:30 -0000
+Message-Id: <178101327030.3472243.2016533346121027458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 38b2fb7d2df16f5801f7d88a4739942b95a5f6aa
+  - ref: refs/heads/pending
+    old: a8ec68a98e6440946b77ab447ac1a69bb5ee1e3a
     new: 63abe299b12b317dfee5bcd09037da4668a4431a
     log: |
          1c316d02c399e5efb1279666c078f99b3f72b0ca wifi: ath12k: Update Qualcomm copyrights
