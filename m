@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Jun 2026 09:29:45 -0000
-Message-Id: <178099738515.3137792.18123141178304556405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 09 Jun 2026 09:31:50 -0000
+Message-Id: <178099751041.3140795.2504462458749563284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 19440600e729d4f74a42591a872099cf25c7d28a
-    new: 333b6d5bb9f87827ac2639c737bf9613dbae7253
+  - ref: refs/heads/master
+    old: ceb6a7effbd32966d8c046cdcef2821038c26a1d
+    new: 8d253272c8975894e56fd64a4c6029bb0b2e5612
     log: |
-         333b6d5bb9f87827ac2639c737bf9613dbae7253 rxrpc: Fix the ACK parser to extract the SACK table for parsing
+         fd1ac00b2782b29945d00d7705ac7d982317ead1 lsblk: truncate long ID-LINK columns
+         8d253272c8975894e56fd64a4c6029bb0b2e5612 Merge branch 'fix/issue-4336-lsblk-id-link-width' of https://github.com/wyu71/util-linux
          
