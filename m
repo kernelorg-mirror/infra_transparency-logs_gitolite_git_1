@@ -1,56 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============6655467986602965691=="
+Content-Type: multipart/mixed; boundary="===============2403102210378022151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 09 Jun 2026 10:44:14 -0000
-Message-Id: <178100185446.3308089.1419634962265531735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jun 2026 10:44:26 -0000
+Message-Id: <178100186637.3308369.12642424256750258777@gitolite.kernel.org>
 
---===============6655467986602965691==
+--===============2403102210378022151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 0ddf217fa3c979b3e3c6de78b3d065796e3c2dbf
-    new: b9aa300038699bd37a5eca9327cc9b861ac773a3
+  - ref: refs/heads/soc/dt
+    old: 7b93c5b05877bc5df662d4edd827936fa2d39fc4
+    new: 9179b2ba070c60026e6954d1987f823c2f1654e7
     log: |
-         b9aa300038699bd37a5eca9327cc9b861ac773a3 7.0 staging is now real
+         2a5d54507c68c2a8de9d6f6746f23771d38f4dbc arm: dts: mediatek: mt6589: Add Arm Generic Timer node
+         23d304b97e8e20b8d786b82b4d56257dde95139c arm: dts: mediatek: mt7623: fix pinctrl child node names
+         85fdc6458535d234e54d0968cc816dec9003d341 arm: dts: mediatek: mt7623: fix pinctrl controller node name
+         ba6afff1d9b70028a5fc3df2d3acbee501c20a53 arm: dts: mediatek: mt8135: fix pinctrl node name
+         9179b2ba070c60026e6954d1987f823c2f1654e7 Merge tag 'mtk-dts32-for-v7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mediatek/linux into soc/dt
          
+  - ref: refs/heads/mediatek/dt32
+    old: 0000000000000000000000000000000000000000
+    new: ba6afff1d9b70028a5fc3df2d3acbee501c20a53
 
---===============6655467986602965691==
+--===============2403102210378022151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781001797 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1781001850-3722aea470a11c3b46d9bcbcdf7e3e3c113e3808
+pusher krzk@kernel.org 1781001864 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
+nonce 1781001863-9a6853ab362e45df9ab3252643ee273462d74c46
 
-0ddf217fa3c979b3e3c6de78b3d065796e3c2dbf b9aa300038699bd37a5eca9327cc9b861ac773a3 refs/heads/master
+7b93c5b05877bc5df662d4edd827936fa2d39fc4 9179b2ba070c60026e6954d1987f823c2f1654e7 refs/heads/soc/dt
+0000000000000000000000000000000000000000 ba6afff1d9b70028a5fc3df2d3acbee501c20a53 refs/heads/mediatek/dt32
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmon7kUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YiUP/3NoCk1GnoAX50k6hrQb
-Vr8d64ubEljuzyBMDKeQBDWu7VIJ+ocBoEJMV5FkJMwlDk+Y+LQwiZIlIVV5YqNx
-RhxtAr7tjyBecy80bVlZOcHmM2wrpGPVX4UlRCuK/UPUpF45Ipx0kBqi0lT4tylI
-+QVSH1HzJCQwpC22AYGA5OBPJ1Uhd7DLzRoS5nqqDUWAQ6HcvjAduEXKEdpy0mFR
-EFB+oy0UqM4ICOot+ypGSw+JqwEKOLhzj3vX3ZPWqHjJgqFOq2HASksMCE88IveV
-wm0ZrhQu8lb2tBwb4NgQMBYeFc4KWe+RXU1AnftsjJ0AY38rvnWkNHPhRTLSwaS9
-lc7Pv5MYQeH36DCb+7l+dPkC86MMGewTRpolk7gHPW8kJnY1bAoCbzCdYoE+q9xS
-Qnf/Iamw+ZgI/oRJA0NG93HwzZm6Cq5Pz6ebZcDHGH30wWHzVndpORyWpZQMRzZC
-6MP0RSG/6TdSBJ5Mo/e8EH4dy2bO4KXBUJOM76UPL//EQr45Z+C4X2M8ekDnvnOI
-jHBKSPzG85jv4vhgO8fXftYI8It11nOz8fz52hIskG98KULlKyc4qtBODEZpE6zG
-Rq2poUOI2T1FSwv7r9P3oybdK19iTWHJX/vJ6ooF1yRmK6RjKzXrAkBZisP4IDCS
-ge1wHtfIfhzSisGq2qrMeW4N
-=Ql4t
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmon7ogQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14zvD/49+KS9rz5AGMGpfaUQ4suPULliiUdpXt5F
+3dRrwfzpQ1UMLrd7Hnmt843AGyO7Ua+2I/bM6dadshz2MTnfB+Y6pkd8a1VJ/fxB
+NRcnO5tjmRT1BduB0EGocsYzHGBu13ehCKLT4/z7OJt/WrUWTGRdXHclJ1CaFVMF
+DFDX/sUwsmDoa2zBO7NK3Se5EhqpJUgnDKRl57e2UukFnGd+ai7YjzGKQ4TPQjzu
+eWrTl2UxAv8O/Zi8IH5mWvFvt4/AwXmg4tVkhIfinbDqfYoD+1VB11iKGTwiDeqv
+pqKJdko4Ju5Poahd6L4/TE2J00wx2C2cz7ccTeNkvgVrQbHAtjJ31vUobSlj8UK4
+KQI+u8KC+FBRJjgbk1uY4vxNm07drcRcT1t9KCjrKhpgpZsIUAoa3DHxZwktoCEH
+rwDMwqkThbDAYo//dq14HOzpu85Bwqk0p0gW7F5tup7gBbrkT0YVHS6DZe+UILxi
+clCabOVOHft/PC9x+zW55ia3/Sd5S4BfFxcns5xHaJS/W87x7z4aHQHgLyvOiuBE
+kVOJuT/QLJKUsaMFhOq4rrA3lAe1QFfNZJIux6ja9nYFWvWQkuOkqc+OmKI1GCLF
+8ihojblxMWlh+cuWmjQvEhBLABGo26V7wdC2EC1jsGps+tcCZeH/KJSWCl+hJiCz
+U0ON5XPR2g==
+=o+G+
 -----END PGP SIGNATURE-----
 
---===============6655467986602965691==--
+--===============2403102210378022151==--
