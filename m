@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============8694728041236848445=="
+Content-Type: multipart/mixed; boundary="===============8111738264619226639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 09 Jun 2026 10:51:45 -0000
-Message-Id: <178100230581.3319853.5092923474515976037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jun 2026 10:51:58 -0000
+Message-Id: <178100231868.3320111.15037359385068124140@gitolite.kernel.org>
 
---===============8694728041236848445==
+--===============8111738264619226639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: c03ae08f7596b676dd64937cba8f5a904d74bf1b
-    new: 1877717394b631ac09470dd0dac9abc75d8f7df4
+  - ref: refs/heads/soc/drivers
+    old: adbd66a8f7cf05c5ba3adbbdbb8c5a54993e4028
+    new: a451dd4b4312cb64c4598e980fdfad00e25ba4e9
     log: |
-         1877717394b631ac09470dd0dac9abc75d8f7df4 6.6 patches are now real
+         eaad5f2cb0e3bbbd62c08543fb93ebcfe87c1051 soc: renesas: Identify R-Car R8A779MD M3Le SoC
+         2e9b940f07b518c8a4c69122c5857cae7d2bbae7 dt-bindings: soc: renesas: mfis: Add R-Car V4H/V4M support
+         b4d41ffa750fc3403a4076d17090589d000f13ff soc: renesas: rcar-mfis: Add R-Car V4H/V4M support
+         a451dd4b4312cb64c4598e980fdfad00e25ba4e9 Merge tag 'renesas-drivers-for-v7.2-tag2' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/drivers
          
+  - ref: refs/heads/renesas/drivers-2
+    old: 0000000000000000000000000000000000000000
+    new: b4d41ffa750fc3403a4076d17090589d000f13ff
 
---===============8694728041236848445==
+--===============8111738264619226639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781002248 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1781002303-53dcfcaf3fb8cdb5cf703d067c130d7c0b480129
+pusher krzk@kernel.org 1781002317 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
+nonce 1781002316-62da5a0e56691028c61c9a3bf031bf6396fc3a5b
 
-c03ae08f7596b676dd64937cba8f5a904d74bf1b 1877717394b631ac09470dd0dac9abc75d8f7df4 refs/heads/master
+adbd66a8f7cf05c5ba3adbbdbb8c5a54993e4028 a451dd4b4312cb64c4598e980fdfad00e25ba4e9 refs/heads/soc/drivers
+0000000000000000000000000000000000000000 b4d41ffa750fc3403a4076d17090589d000f13ff refs/heads/renesas/drivers-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmon8AgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OuQP/RxqoJUDPPJ5rdxcNVdz
-0Ojun//FbKMjls6wEJ13+WewOvrkKLGkNodL2r9ozSzKyKXKw7ZzX2I3QBchAgAQ
-+VMpdX5MdEXPCDJK2vmmg4NYA9eNPOA7iJkU0EHJm8Zn8tM0MDwi9ZxCmpgSfk27
-qLj3fOfZg8yJvtJnRmjUhuHwZepC0FtzjJuzWTe23GzwTpXG/JOTyJ9lFhKyz1jq
-QdsBiC/WulTwBwuwd2s0QlUtCsOgeVHn7nNc9q+Pm+Zomu5C6aawchgPgpDn9Uqn
-pYjb2KssvitMrtVjloPN0K5bUnkgDaoVCz4q8TEZ8KUr2RjV0Gir1U4sRwbvVCY/
-ws6b/LshWvb3JCK9qv3/i954DRfA4wkN+YgN7kdMfIEwdz+yKhK6LLcSO8ovwh69
-YPlQwFDA0bLr3GvCeYocfQewkvmMBFlRZxJWTynyOPN/IeHtG0sI93mc5QrDNyDi
-9XqLUnZjG4uHHZCyBkcNHGzLReiFoo+xc98E8tFtrTiQFAJ86JtPNtu4ZRbBx5TG
-EXrsFB/9Wyo41THaY1Prv2ncf6Au6bcFG1pJVblju6Rihq9/dQMIH/KYMm8BMXWY
-DcBvVhg6B71b/DQrm5OUyarSE4UKyskwLOHBN6/5ON3fs9NIvSr78GippaeZBhKa
-5/CR4iv4+pOGE3Dg6T1B48eT
-=Dllb
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmon8E0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/UUD/4nXcLcIXBQRlrlMO4NPhVwqIb7RRO8lI9J
++VJ4m6vA3CStPU8RUxJpprPQjA+U/1MVZZLUBmiA39mBxeH0+xQuNxe12f1t3NDt
+LAqjvTBk2SSIKmucCetb5Eh8sQ/aqSkqaVU/IS8rJCSaETMe0/szEkUhJ3tDhnCk
+hlwW50Z7aGKaQtGEKNLqz7S3c0Ff7q7kAfk+64oSMypq5stTtJvLTsEQaBchbJzR
+L4OCi7WtYB4JrPQzsL3x+wRkcY+HwB6h9jwsPZJbjLhPRtaj682qMafzeY2s+Awb
+NkwmjErrbL66K8vIwXS1A6uE1aWMCE9HtNY+GSphpmPE6qIKJAU/abTzqKPa3Ewx
+ks8Pdpw1gdc3f9I0ayRjjRXZIwGl2O/SZAvGGgt1MCuTS3Dxx2lLJesPc2YRmlUt
+RU4+FphxPcPQNjCxtCsD7lpqtglKA+bqrHXKWbDZ7hJHoK3heoSbFQfXgr2vDq83
+kz8pdpZ5NGNV3I6JpqIJKVIltrI7ULgCsTC1+yIUxzjvlwGyHJGTucc1HFO615ar
+t73oicce9b7IwR4mX01624keDMONQc5T5QDMKcJIdPLJgeGujAt/hwS892PZljml
+i9Kx+PQtpt1co3IhgwNbD34W8srk9ml+cGAgtv/n0lnD3nYSiaXf5VOziVuB4pfR
+Ognzli81AA==
+=sG9R
 -----END PGP SIGNATURE-----
 
---===============8694728041236848445==--
+--===============8111738264619226639==--
