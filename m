@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 09 Jun 2026 15:29:32 -0000
-Message-Id: <178101897215.3556758.13595890470123793755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 09 Jun 2026 15:36:32 -0000
+Message-Id: <178101939269.3563585.10830005488887995088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 1877717394b631ac09470dd0dac9abc75d8f7df4
-    new: d4abd7b3bb28edad0b427d7e5b33e53cb244447f
+  - ref: refs/heads/tvs
+    old: 736a9b6cbf5af55d20c4d5e782ce6a6be7c51341
+    new: 1e0ba6fbdcb3f813757ed8476c7554c1e2404037
     log: |
-         d4abd7b3bb28edad0b427d7e5b33e53cb244447f Fixes for all trees
+         1e0ba6fbdcb3f813757ed8476c7554c1e2404037 hwmon: add a driver for the temp/voltage sensor on PolarFire SoC
          
