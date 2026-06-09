@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 09 Jun 2026 08:15:56 -0000
-Message-Id: <178099295639.3080042.18354538447055002370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Tue, 09 Jun 2026 08:17:10 -0000
+Message-Id: <178099303001.3080702.12011184631707371779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: dbcb345e28cbc7f451554eafcf36e9eb58e5843b
-    new: 0de47a121ec7bce94612b17b3e2aadbb3d119432
+  - ref: refs/heads/afs-fixes
+    old: dd1e6ebb453ab57f130b8c84905367f98b18723c
+    new: c7400113169a64000bb33d551aaa60ee67ba241b
     log: |
-         695fcefd4a81466ef9c529790b4e96f1ea2ba051 i2c: imx-lpi2c: fix resource leaks switching to devm_dma_request_chan()
-         0de47a121ec7bce94612b17b3e2aadbb3d119432 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         6b1ebb37d9b919f5117c4fda72683f788476b7fc afs: Remove setting of AS_RELEASE_ALWAYS for symlinks and mountpoints
+         58702942f8e5a6a0281717fd5250b2687ccd8b23 afs: use kvfree() to free memory allocated by kvcalloc()
+         1bf465888d6e0a411593d7d9a9bc75c1467e03e2 afs: Remove erroneous seq |= 1 in volume lookup loop
+         c7400113169a64000bb33d551aaa60ee67ba241b afs: check for duplicate servers in VL server list
          
