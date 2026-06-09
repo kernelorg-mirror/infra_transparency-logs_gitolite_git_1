@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6738083430865555389=="
+Content-Type: multipart/mixed; boundary="===============5037034524014007455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 09 Jun 2026 04:45:46 -0000
-Message-Id: <178098034649.2902934.1702215181716802386@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 04:45:49 -0000
+Message-Id: <178098034911.2903072.5466695655353906721@gitolite.kernel.org>
 
---===============6738083430865555389==
+--===============5037034524014007455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 6574db9af6984048620a0b0a7a7cab83fdca0430
-    new: 5a7141c422166dc84073b05e4fcea96cb264c454
-    log: revlist-6574db9af698-5a7141c42216.txt
+  - ref: refs/heads/mm-unstable
+    old: db33c3142c49b8262cee1fc7c8ec33ba12acc517
+    new: be18cf77e1e749c6469ff44df00eb026f7c0a365
+    log: revlist-db33c3142c49-be18cf77e1e7.txt
 
---===============6738083430865555389==
+--===============5037034524014007455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6574db9af698-5a7141c42216.txt
+Content-Disposition: attachment; filename=revlist-db33c3142c49-be18cf77e1e7.txt
 
 f5cf8c92a2b9fd176d90b6e217ed50fbb5d1f48d mm/nodemask: correctly describe nodemask operation return types
 79a031583ca5bb3d5484178f579fea97706f1ed6 mm: list_lru: fix set_shrinker_bit() call during race with cgroup deletion
@@ -177,10 +177,5 @@ e2b107c637019a35aba100cc48382645a9fbbd07 selftests/mm: skip uffd-stress test whe
 11776a9846fd8507388ab0afff8b30f13b2c036b selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
 7bfaac4f3bb5597e88cb471ba089623c4b4f2005 selftests/mm: clarify alternate unmapping in compaction_test
 be18cf77e1e749c6469ff44df00eb026f7c0a365 MAINTAINERS: add Hao Ge as reviewer for codetag and alloc_tag
-d832ec1a69e8cb412716e62a4ddfc87d68e3fef9 mm: page_isolation: avoid unsafe folio reads while scanning compound pages
-a818379788550c64d022d351e6e3fb64f8077cd5 mm/damon/core: always put unsuccessfully committed target pids
-0b33d54545d990b9875144cba94378dca779cfd5 mm/page_frag: reject invalid CPUs in page_frag_test
-21c054932d5593f3f58f0e7d18f3176fa7787aea mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-5a7141c422166dc84073b05e4fcea96cb264c454 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6738083430865555389==--
+--===============5037034524014007455==--
