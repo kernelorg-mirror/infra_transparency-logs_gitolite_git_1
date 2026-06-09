@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4117285824811929221=="
+Content-Type: multipart/mixed; boundary="===============3222355319551013175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jun 2026 12:07:31 -0000
-Message-Id: <178100685129.3386551.8007090828687489905@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 12:07:42 -0000
+Message-Id: <178100686287.3386847.13594225618601294834@gitolite.kernel.org>
 
---===============4117285824811929221==
+--===============3222355319551013175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,42 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/nuvoton/dt64
-    old: 0000000000000000000000000000000000000000
-    new: eae82b6e8c2399892e145195cae9aaa0b960fdaf
+  - ref: refs/heads/soc/dt
+    old: a577cc3a46b042a717220ec6244cf28810cd5f94
+    new: d1d7310e2b20735ed876b2aa932eedf6cf600a05
+    log: |
+         eae82b6e8c2399892e145195cae9aaa0b960fdaf arm64: dts: nuvoton: Add Ethernet nodes
+         d1d7310e2b20735ed876b2aa932eedf6cf600a05 Merge tag 'nuvoton-7.2-devicetree-0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/bmc/linux into soc/dt
+         
 
---===============4117285824811929221==
+--===============3222355319551013175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1781006849 +0200
+pusher krzk@kernel.org 1781006861 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1781006849-9132a7d15309d386b5d915d7894d8e6666d3ab98
+nonce 1781006861-aebf2ff59878d5c7870c320cd94332dea07c1aa5
 
-0000000000000000000000000000000000000000 eae82b6e8c2399892e145195cae9aaa0b960fdaf refs/heads/nuvoton/dt64
+a577cc3a46b042a717220ec6244cf28810cd5f94 d1d7310e2b20735ed876b2aa932eedf6cf600a05 refs/heads/soc/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmooAgEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15gYD/4kvjqXyTJVdBRYv+T+ZFUMmaHW7LyV06tk
-qfHzXKciOTBebALSdXQXcoxn5eSrJSrb4Llj5BRWZQ6FPC36xUFX/106i7ypsl0x
-5NBi6FSmS3aWmgVIOlcOiCgMo2kOt6Iddvie26fdxJ+0ZD4cvQ0sU9mBqANAiTQW
-klj2v9pKJGHo90Y1HTZkt1PVyTBPM0Al4rlobLaT6Wo3aaUi0ATTtWWQXk3Wc5YV
-fNk7KrEsb5HAGMWMB4RyXl7OnK6TJt6F+ctYyvSwYiPWBS2KFjCJ5bnIPacZqewv
-DNc/wz6JLSNKb9uobsf0Bj89CRKlPmDnsna5HJ7UrU6aqwn5m+cSC2gdK7Rv506r
-BM7tawNlWHvLexINinTidTSW89elGxlql0IDMIjj7GzlUqPXsOp1bYga4FxsHUOh
-RoCEfJzoysnetDG3ICo7KKLHy4NcDYCxNhJ9wm52tcf9hg2RPwyNLD+CYJCnA8BR
-r4eSMxmj1cRuaBLOlz57ivQVaEsX82i/9RkN3JUTcKu08ZHUbrdW1hlvoFhZU3TL
-xFitICuOvwdRvRDtfebkSV+N+3wGlORt5Z/YWf8/01LYCxSqSU2KrjQMlAmVnA9a
-PzG0ENBpJ79SOCZRlACw52mfjz3WEJzzR9KOBJqDbhnV4Pj8BPWyueCrk8qje2SI
-MB/p5Irm6Q==
-=dIIr
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmooAg0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yS1D/4xPOiO1L7nnmWfQm86oh47bMbFLE2K7e90
+8+mL4yWmSnyaFxBFEyD1NSUi6YV2bNDb6FBJAOXDkn4ppc/cpDcxWb/ZJ+vb6EFt
+CdriyQPhftJH5w4RnSh+yKgyPDj1OLWGzN9DM2szxBGlSepM6mmIWEEh4IcB6K83
++T1E/Ko2tcwtfCX0/2VuNLDkedoTE+GZhxTwTuFWnufMIpapqyfyokflox3cpKJT
+3hnddqoZQ+3NVQDKKlxlo6jsWqnUqIMV+3Up8fm9gtpk//XEEn0Fv7Di+soWnQcA
+55M+hLVrvuYOWd9Izr6RJ02RSlN+4igarrGx668LqVup9vEOppw5hYgoraPwhFOA
+UhFITJia+UrptBntBzSBlDyUJPoTbnd8KXZ/Vhyvgl6p6c/tOgejpH/MRJT/ZAZv
+9sI73pDlc+dbJ9PiEnhbVUkapqHnAFTvrwlw94Y5B2Dpg31qf2hos84VSxGV6OHZ
+IzziOxp/Fi/m0Qnfd78Cpkk3ttNybqE5Xu7VbX/Y7TjJlGeFTGazCYl4jEKeAWzO
+FTsTp5i1wHA2PAVrw6taZEI6x3o/GBJDQIAObkt+AEmUqCf4zlj3SZkobSaXRXrm
+r8KO9rFOwXYtiq9QfFM0HgvX2Ao9Er5NMK23kqxuXR2VmueEiL/Hflme7+smiEfA
+nM7AOTwtVQ==
+=fo02
 -----END PGP SIGNATURE-----
 
---===============4117285824811929221==--
+--===============3222355319551013175==--
