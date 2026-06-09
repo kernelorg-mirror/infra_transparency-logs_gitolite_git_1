@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0962189817686228042=="
+Content-Type: multipart/mixed; boundary="===============3593857406636799335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 09 Jun 2026 16:54:25 -0000
-Message-Id: <178102406512.3630743.16870473886383080705@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 16:54:27 -0000
+Message-Id: <178102406770.3630858.10035799329165659473@gitolite.kernel.org>
 
---===============0962189817686228042==
+--===============3593857406636799335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 903db046d5579bef0ea699eae4b279dd6455fc9f
     new: 9415471e01c1aaac43daa6af3a261dc0c6c3a47c
     log: revlist-903db046d557-9415471e01c1.txt
 
---===============0962189817686228042==
+--===============3593857406636799335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -106,4 +106,4 @@ edcf32b8a48f5882b5b7a91b21c89d233d4aecf2 tls: Flush backlog before waiting for a
 db7a16556f2561bf314a351785b36d7f171f44e7 Merge branch 'ipv4-igmp-annotate-diagnostic-procfs-data-races'
 9415471e01c1aaac43daa6af3a261dc0c6c3a47c selftests/net/openvswitch: guard command substitutions against empty output
 
---===============0962189817686228042==--
+--===============3593857406636799335==--
