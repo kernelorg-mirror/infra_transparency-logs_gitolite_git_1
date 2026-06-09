@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 09 Jun 2026 00:23:37 -0000
-Message-Id: <178096461741.2701573.7364668478193019631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 09 Jun 2026 00:25:59 -0000
+Message-Id: <178096475925.2704678.15747277415901139748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b8e40c907bd201ee90524b8a8da6d2ab8cc7c004
-    new: 8084fc9292c2b9b148c9d19d50710c488652214c
+    old: f2bb3434544454099a5b6dec213567267b05d79d
+    new: a0130d682222ae21afc395aead7cd2d87e1a8358
     log: |
-         6443f4f20bdae726fe01cf5946fba9742a0ffda6 pds_core: quiesce DMA before freeing resources
-         8084fc9292c2b9b148c9d19d50710c488652214c net: ibm: emac: mal: fix unchecked platform_get_irq return values
+         2365343f4aad3e1b1e7a2e87e98cf66d5e590589 net/mlx4: avoid GCC 10 __bad_copy_from() false positive
+         a0130d682222ae21afc395aead7cd2d87e1a8358 net: ibm: emac: Fix use-after-free during device removal
          
