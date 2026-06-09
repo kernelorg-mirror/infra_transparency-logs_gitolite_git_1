@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 09 Jun 2026 14:46:26 -0000
-Message-Id: <178101638649.3520599.3843343802720101839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 09 Jun 2026 14:51:07 -0000
+Message-Id: <178101666766.3524484.16951484856105135180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/virtualization
+  - ref: refs/heads/tegra/firmware
     old: 0000000000000000000000000000000000000000
-    new: 9f22b92259bb5ac43e2b9007103787d4418fec56
+    new: 040eeafee0146b9d046caef501f387e107a59960
