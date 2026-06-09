@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5807527442406504459=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jun 2026 12:32:10 -0000
-Message-Id: <178100833054.3408901.6569842725051207835@gitolite.kernel.org>
-
---===============5807527442406504459==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 09 Jun 2026 12:32:49 -0000
+Message-Id: <178100836911.3409298.2329575475227367713@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/for-next
-    old: 64af727353b44bf9fe7e20a85369958c4f477345
-    new: e59de2ce5407804096bb32185a490a3495711222
+  - ref: refs/heads/i2c/i2c-host
+    old: 7c9474bd4a8d72f159fa97074b7353d514a75dd8
+    new: 233644f6d4da72ca5afb7d9b1478a170d3aacbf7
     log: |
-         e59de2ce5407804096bb32185a490a3495711222 soc: document merges
+         8ce19524e4cc2462685f596a6402fbd8fb984ab2 i2c: core: fix irq domain leak on adapter registration failure
+         3c7e164344e5bcf6f274bbf59a3274f5caad9bc1 i2c: core: fix hang on adapter registration failure
+         2295d2bb101faa663fbc45fadbb3fec45f107441 i2c: core: fix NULL-deref on adapter registration failure
+         158efa411c57111d87bf265a3776614f32d70007 i2c: core: fix adapter probe deferral loop
+         07d5fb537928aad4369aaff0cbae73ba38a719af i2c: core: fix adapter debugfs creation
+         3e2041ea586ae37fcea918ecb505ab9972a1201d i2c: core: disable runtime PM on adapter registration failure
+         ba14d7cf2fe7284610a29854bdff22b2537d3ce6 i2c: core: fix adapter registration race
+         b1a58ed9eab146b36f41a55db8f5d7ce9fdedf3f i2c: core: fix adapter deregistration race
+         a378a2bc73e3b71ed2e2bfccaaee81199de0f49f i2c: core: clean up bus id allocation
+         1640403fd38e9c0a1d9d70965d36410b263b6e2c i2c: core: clean up adapter registration error label
+         233644f6d4da72ca5afb7d9b1478a170d3aacbf7 Merge remote-tracking branch 'wsa/i2c/fix-registration' into i2c/i2c-host
          
-
---===============5807527442406504459==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1781008329 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1781008328-7a2e3db6896cc655b0608230a30a30c005012194
-
-64af727353b44bf9fe7e20a85369958c4f477345 e59de2ce5407804096bb32185a490a3495711222 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmooB8kQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1w7LEACWuL7pvUI8GxzHttyryPAVUEuWeV8nuV+W
-wfhfStZgo8ArRd32jrjJPqWEL3uaiRbxo+y9qTpd1hMkoXXGCy8/XydpEgGIfkq3
-Sjj1IE8y461dHARTxukTVkyEkxxeRlNkMwHpKEtxFFlyUrV6Fx4RyuPj46cI50UA
-NdiEhLyIzjCze5X9Jj1MJl5cccIprRNsJhuTesPdaf70FnBwV12PjAiUOEPyOoSL
-Wl71tIZNNYZLyUGVlbc9Bg2ADQp5qhyzAOnoLtPWSLulc5FPsBqFyJwfmHtf5QRZ
-DwV7uiYeqT3phB8OQPXl5HE3+PFkO+L3QzZWGugL5gGDNkBeuNMienWgxZfOUKQh
-DSALYqQGGVXOc4zKpEFGq/6eejaLkERicqo7HvGLroTCtLh8hY95YIU/RJ43CsOd
-sWk2atmEqd3hsKpaqFcsopyRSLRJHs/hne9bJYXN5Hnz8ESvyPhdGgOitLb4htny
-xiwRVOBxyGTp9g4kGwFhFBB2Yov2TFgsG3BeAQpV9ErfD0toLYTrlqOGUEZaIGm/
-o3L+K80OjNmAgf515HeHaWnniLjbhRlDQGq6GpMVXl9tYPAwWAG2xul/BUIIp77z
-WBlhRElC5DfR4oJRU0OS+wUc1U+vKMSmrHoDqIaruT0H3KLpj4eX/uhU00JYku3w
-YxKY7cYFTw==
-=88M+
------END PGP SIGNATURE-----
-
---===============5807527442406504459==--
