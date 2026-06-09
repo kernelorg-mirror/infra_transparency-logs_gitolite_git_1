@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3222355319551013175=="
+Content-Type: multipart/mixed; boundary="===============7457386785667660379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jun 2026 12:07:42 -0000
-Message-Id: <178100686287.3386847.13594225618601294834@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 12:09:04 -0000
+Message-Id: <178100694433.3387454.1847058177181140905@gitolite.kernel.org>
 
---===============3222355319551013175==
+--===============7457386785667660379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,45 +13,38 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+user: arnd
 changes:
-  - ref: refs/heads/soc/dt
-    old: a577cc3a46b042a717220ec6244cf28810cd5f94
-    new: d1d7310e2b20735ed876b2aa932eedf6cf600a05
-    log: |
-         eae82b6e8c2399892e145195cae9aaa0b960fdaf arm64: dts: nuvoton: Add Ethernet nodes
-         d1d7310e2b20735ed876b2aa932eedf6cf600a05 Merge tag 'nuvoton-7.2-devicetree-0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/bmc/linux into soc/dt
-         
+  - ref: refs/heads/for-next
+    old: fb3fcb406b8882a91d1e51bae97101802fc991e1
+    new: 1d516735dd08fad34c1b9a6f843c8b74f8b9558e
+    log: revlist-fb3fcb406b88-1d516735dd08.txt
 
---===============3222355319551013175==
+--===============7457386785667660379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fb3fcb406b88-1d516735dd08.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1781006861 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1781006861-aebf2ff59878d5c7870c320cd94332dea07c1aa5
+2a7a9e20b9e8b5dc4fdef777e67d390dcb3a8ea4 ARM: omap2: simplify allocation for omap_device
+75ef233975589d9a8c88bc8822a7c725c71ff650 soc: microchip: mpfs-sys-controller: fix resource leak on probe error
+2430f2080f2a4e45b69befba26ef726d62180bba firmware: imx: sm-misc: Make scmi_imx_misc_ctrl_nb variable static
+ac75ae436723e5fe68dcc8e806f66d0358dd56f7 ARM: configs: at91: sama7: add sama7d65 i3c-hci
+6fc5666aa576c6c3bec256fa31d72653210319d5 ARM: rockchip: keep reset control around
+36d46348eb5fc4bc505cd2290ddd70c25fbe6bb3 ARM: imx3: Fix CCM node reference leak
+ccb4b54b8ecf1ebafef96d538cd6c5c8455bb390 ARM: imx31: Fix IIM mapping leak in revision check
+27b93b1a2857586bc422994bf1b9f986841edeb3 arm64: defconfig: Enable DP83822 PHY driver
+2736a790528d916df3d1a9efc15bfd7698cc748d Merge tag 'riscv-soc-fixes-for-v7.1-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+9c648f3554920721d8878807cd794fe2d7f989e8 Merge tag 'v7.1-rockchip-arm32fixe' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+ae371a58117d30a496e3be27cce8d9d13acdd740 ARM: configs: Drop duplicated CONFIG_EXT4_FS
+fcc95f6eb9e73e02e276a08f88b491ffd3dd034c ARM: multi_v7_defconfig: Enable dma-buf heaps
+356b93d11c62c16dd98c73e204347209303bd8c1 Merge tag 'imx-soc-updates-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into soc/arm
+5087338ea4340876e3e3af624cb271b212ed56ff Merge tag 'at91-defconfig-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/defconfig
+f044d8021c0cd215d60cdea4075705b421464d45 Merge tag 'imx-defconfig-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into soc/defconfig
+e9282defad915081a47fc708e7b54eb859999794 Merge tag 'omap-for-v7.2/soc-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap into soc/arm
+3d3fc5f55d66537226e1438478209416cfcec483 Merge branch 'soc/arm' into for-next
+d8982497424f541f466f341ce7b856b70eda146c Merge branch 'soc/defconfig' into for-next
+1f007287f2c3fcb06b4d8ae7409743837499815c Merge branch 'arm/fixes' into for-next
+1d516735dd08fad34c1b9a6f843c8b74f8b9558e soc: document merges
 
-a577cc3a46b042a717220ec6244cf28810cd5f94 d1d7310e2b20735ed876b2aa932eedf6cf600a05 refs/heads/soc/dt
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmooAg0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yS1D/4xPOiO1L7nnmWfQm86oh47bMbFLE2K7e90
-8+mL4yWmSnyaFxBFEyD1NSUi6YV2bNDb6FBJAOXDkn4ppc/cpDcxWb/ZJ+vb6EFt
-CdriyQPhftJH5w4RnSh+yKgyPDj1OLWGzN9DM2szxBGlSepM6mmIWEEh4IcB6K83
-+T1E/Ko2tcwtfCX0/2VuNLDkedoTE+GZhxTwTuFWnufMIpapqyfyokflox3cpKJT
-3hnddqoZQ+3NVQDKKlxlo6jsWqnUqIMV+3Up8fm9gtpk//XEEn0Fv7Di+soWnQcA
-55M+hLVrvuYOWd9Izr6RJ02RSlN+4igarrGx668LqVup9vEOppw5hYgoraPwhFOA
-UhFITJia+UrptBntBzSBlDyUJPoTbnd8KXZ/Vhyvgl6p6c/tOgejpH/MRJT/ZAZv
-9sI73pDlc+dbJ9PiEnhbVUkapqHnAFTvrwlw94Y5B2Dpg31qf2hos84VSxGV6OHZ
-IzziOxp/Fi/m0Qnfd78Cpkk3ttNybqE5Xu7VbX/Y7TjJlGeFTGazCYl4jEKeAWzO
-FTsTp5i1wHA2PAVrw6taZEI6x3o/GBJDQIAObkt+AEmUqCf4zlj3SZkobSaXRXrm
-r8KO9rFOwXYtiq9QfFM0HgvX2Ao9Er5NMK23kqxuXR2VmueEiL/Hflme7+smiEfA
-nM7AOTwtVQ==
-=fo02
------END PGP SIGNATURE-----
-
---===============3222355319551013175==--
+--===============7457386785667660379==--
