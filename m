@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 09 Jun 2026 13:10:15 -0000
-Message-Id: <178101061514.3438809.11327316112502882845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jun 2026 13:18:31 -0000
+Message-Id: <178101111145.3443823.6920541948763976517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 8d253272c8975894e56fd64a4c6029bb0b2e5612
-    new: 6fae5eb9d995bb18b27f6c2023cad704fc765b63
+  - ref: refs/heads/main
+    old: db7a16556f2561bf314a351785b36d7f171f44e7
+    new: 9415471e01c1aaac43daa6af3a261dc0c6c3a47c
     log: |
-         091e08c07c5444fd9179d43fb6c1db377a6ca7e4 libmount: fix subvolid buffer overflow in get_btrfs_fs_root
-         6fae5eb9d995bb18b27f6c2023cad704fc765b63 Merge branch 'libmount-subvolid-overflow' of https://github.com/aizu-m/util-linux
-         
-  - ref: refs/heads/stable/v2.41
-    old: cc6cc7b0ce06d3048863d74126d97530356cd52a
-    new: b8625310b8f4a0760a00da013930365fa70d211a
-    log: |
-         b8625310b8f4a0760a00da013930365fa70d211a libmount: fix subvolid buffer overflow in get_btrfs_fs_root
-         
-  - ref: refs/heads/stable/v2.42
-    old: 0902f9e05a9485262cff45ba29fea227f52e69ad
-    new: b5e07425bf11184b88c6d229495bd1de6610e8b9
-    log: |
-         b5e07425bf11184b88c6d229495bd1de6610e8b9 libmount: fix subvolid buffer overflow in get_btrfs_fs_root
+         9415471e01c1aaac43daa6af3a261dc0c6c3a47c selftests/net/openvswitch: guard command substitutions against empty output
          
