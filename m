@@ -1,67 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============0130274622727294421=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 09 Jun 2026 11:38:33 -0000
-Message-Id: <178100511350.3359145.5555737203931373253@gitolite.kernel.org>
-
---===============0130274622727294421==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 09 Jun 2026 11:42:17 -0000
+Message-Id: <178100533761.3362650.2525895639407672045@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+user: arnd
 changes:
-  - ref: refs/heads/soc/drivers
-    old: a451dd4b4312cb64c4598e980fdfad00e25ba4e9
-    new: a68c459ac6469076afbe45697a47b3a7addc1c29
+  - ref: refs/heads/soc/arm
+    old: f6f84276c6cf2a257a8054137e49b5f37e19f27b
+    new: e9282defad915081a47fc708e7b54eb859999794
     log: |
-         5b7f39687b173f042cb9530bcee5f5805020bffd dt-bindings: sram: Document Allwinner H616 VE SRAM
-         775c75e4ae2b0277b5e55644f9890afef4dedee9 dt-bindings: sram: sunxi-sram: Add H616 SRAM regions
-         7765752f528b5b516d8cdf94faaabcba935dff41 soc: sunxi: sram: Const-ify sunxi_sram_func data and references
-         67890da74dd1b85a47769561bfc6e0c542762d45 soc: sunxi: sram: Allow SRAM to be claimed multiple times
-         be99eb936b4ffffbf87d34c4a202e15c05b30417 soc: sunxi: sram: Support claiming multiple regions per device
-         b708294322745ce30035d960a1118b4b8d857120 soc: sunxi: sram: Add H616 SRAM regions
-         61192938a5870ac36edae81e4775b680dcf02c61 bus: sunxi-rsb: Always check register address validity
-         a68c459ac6469076afbe45697a47b3a7addc1c29 Merge tag 'sunxi-drivers-for-7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/drivers
+         2a7a9e20b9e8b5dc4fdef777e67d390dcb3a8ea4 ARM: omap2: simplify allocation for omap_device
+         2430f2080f2a4e45b69befba26ef726d62180bba firmware: imx: sm-misc: Make scmi_imx_misc_ctrl_nb variable static
+         36d46348eb5fc4bc505cd2290ddd70c25fbe6bb3 ARM: imx3: Fix CCM node reference leak
+         ccb4b54b8ecf1ebafef96d538cd6c5c8455bb390 ARM: imx31: Fix IIM mapping leak in revision check
+         356b93d11c62c16dd98c73e204347209303bd8c1 Merge tag 'imx-soc-updates-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into soc/arm
+         e9282defad915081a47fc708e7b54eb859999794 Merge tag 'omap-for-v7.2/soc-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap into soc/arm
          
-  - ref: refs/heads/sunxi/drivers
-    old: 0000000000000000000000000000000000000000
-    new: 61192938a5870ac36edae81e4775b680dcf02c61
-
---===============0130274622727294421==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1781005111 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1781005111-9d29848ae45347c18efd38cfc92e0ad7df3c6418
-
-a451dd4b4312cb64c4598e980fdfad00e25ba4e9 a68c459ac6469076afbe45697a47b3a7addc1c29 refs/heads/soc/drivers
-0000000000000000000000000000000000000000 61192938a5870ac36edae81e4775b680dcf02c61 refs/heads/sunxi/drivers
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmon+zcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17mrEACK5tSWcmrCEcoiCExZes28VIcZb3w24mmB
-KCfLm/U9FUo5zRE9K8Pggrg7w424WhB4qhbV7WUOd55gbvDxtKeZHAux74lq1oA3
-owyjY6Utbup0IYqt4tfHu1mici7gUoCZztGD5FnvejOwmoMGl5xTmremzQQKt3bY
-1+RY8vFZeVzIIFcfycqTUkLAYOtvDh0BVmxnMRDG1VSm/ug70zKXjnKq1dpj+WJ5
-vg5l5Ml7DtpFe49Nkf9XRYlFW3jXVOx4T7G0/Fv0wIuLHN/8xJxJu+nMKFBhrPnp
-j88vzF4ydzBaGV6/oFLkqfCiBh/8IFsoEus9ezGsAa0rUm2Q4Dqme+a0/li4vSEt
-djPr0HTU2MX/NeP6BR1+ArxU2uAsMcpg8qNKgNQb8l+XmgoEt2JEqv+m6/10HGUT
-PUv9hz9Kq2Ax99FtGFd6BKoMWTQqBXSjaUh1TjuZHoDAnk52ATmm8ZFlsyHRLRcp
-OnCeppXqkT+dG1GZB8W6zIwXiOg2APh6aZtSR3S3tJAVuVhdhPVSoI32rOGYFMj1
-p8ZP1MzVXObwCAQFH90CKXpZB7y35omVnF3NksSAoVKjwp5vnhQq6Q7TfgcT4Is/
-PKlYiXCh88LqF3GqrRYiGRboEHxvnFW0N/R+39sy/KqkkNYSFh1qNdwHRsa8afbf
-y2nlOUe03A==
-=VsVv
------END PGP SIGNATURE-----
-
---===============0130274622727294421==--
+  - ref: refs/heads/soc/defconfig
+    old: 9f86df230e276e5c24f5c6800f3ee63ab33167f7
+    new: f044d8021c0cd215d60cdea4075705b421464d45
+    log: |
+         ac75ae436723e5fe68dcc8e806f66d0358dd56f7 ARM: configs: at91: sama7: add sama7d65 i3c-hci
+         27b93b1a2857586bc422994bf1b9f986841edeb3 arm64: defconfig: Enable DP83822 PHY driver
+         ae371a58117d30a496e3be27cce8d9d13acdd740 ARM: configs: Drop duplicated CONFIG_EXT4_FS
+         fcc95f6eb9e73e02e276a08f88b491ffd3dd034c ARM: multi_v7_defconfig: Enable dma-buf heaps
+         5087338ea4340876e3e3af624cb271b212ed56ff Merge tag 'at91-defconfig-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/defconfig
+         f044d8021c0cd215d60cdea4075705b421464d45 Merge tag 'imx-defconfig-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into soc/defconfig
+         
