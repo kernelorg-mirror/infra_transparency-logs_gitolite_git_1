@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3697154779868806507=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 09 Jun 2026 10:45:49 -0000
-Message-Id: <178100194977.3310179.14170637053555655497@gitolite.kernel.org>
-
---===============3697154779868806507==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jun 2026 10:46:05 -0000
+Message-Id: <178100196516.3310620.9306605715289172031@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: b7b6b3e6411ded4e936e1a54086451cea6a5b544
-    new: f11abae6465b02c86daf4513789df260a4797747
+  - ref: refs/heads/main
+    old: 69a4e74e4cc46bdc65586f600b8552cc10a2811a
+    new: 193b76eb109ed3ed77400c6d493b2f495ca64d9e
     log: |
-         f11abae6465b02c86daf4513789df260a4797747 6.18 staging is now real
+         212a922bd54507ff18057b5872d552f4ef18ba0e netconsole: do not schedule skb pool refill from NMI
+         6c537b845c99e32312a1bd84d4c95cdb26efb577 netconsole: do not dequeue pooled skbs that cannot satisfy len
+         91aeb87f052367a5a2743cc93777dfb4386f2f14 netconsole: take target_cleanup_list_lock in drop_netconsole_target()
+         4cfcd6acc295c6e7cf82ad4f19b1f86f08f3bb78 netconsole: clean up deactivated targets dropped before the cleanup worker
+         0360976d7ed5c69484d873afa34a22db4d04996f netconsole: close netdevice unregister window during target resume
+         193b76eb109ed3ed77400c6d493b2f495ca64d9e Merge branch 'netconsole-fix-reported-problems'
          
-
---===============3697154779868806507==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781001891 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1781001946-aa52dc603a6928211bdd042bac2b0fba640ba530
-
-b7b6b3e6411ded4e936e1a54086451cea6a5b544 f11abae6465b02c86daf4513789df260a4797747 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmon7qMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LcEP/RZ5eNDpjb379LPoz4An
-LG0XfnNkOTJPdZ0GWiiCpAjunhEGcOdMgporpcov/okjuSlIXr0+FQqHvYiDEI6r
-CpsNHRjQYJYQebEmUL9XwQzpyB1unRlybJAN0IXscq1XKlZm3wn6CqqqnbR/qwmE
-G4lvOktluqCbVPspA0PjHueBzNsylKYV8Zwy++ZmVM7pW70k0wsCGsTNV4LhVV/4
-lQcLbh+2Xnl83LjKFXdklLLwhpaSR/Hj7KhHgSdDH7rkwIXeVwjen4lx8cLqJca/
-YHfpQXilhwyZeLRl88AJVuNVv4wFE2GlskuNwHtYJYOw1GwSpztswvEQKLjMY/E1
-5gylcYh9PvCnvu6pxHI3ZEB9F7izFQoyA+k+fkriFh+cP9KUIwaeuoZ46iWaS+UG
-YPLAj9P1+8CHzhcksPasyNwpF3/2FXpVB3AVvAlD2Zkwz3KJJIyDIglZd+9P0tJw
-d1zWmYhvHD8eSeDO2HoER+oisnawQvyfUirGQWwuMWxNxcODGBnuDIokabEMQN0n
-15BmRt7ZEmpvrwWUnyMX64dNXDhtcyHzFrB8wKveUmd5sIDAtHj4n23DeFxcM5JB
-bNfw6/wODetmyuYmikP0ER6c8i48VUYgrBMZnQ0wW1GhAwed9EHsx8AHfiQD9BEj
-vb7N3nnr7KeuKo4mqPN7EOrJ
-=K1Rl
------END PGP SIGNATURE-----
-
---===============3697154779868806507==--
