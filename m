@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2605095799418072678=="
+Content-Type: multipart/mixed; boundary="===============9205502571544044980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 09 Jun 2026 09:14:22 -0000
-Message-Id: <178099646243.3123592.13621744852114536250@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 09:15:07 -0000
+Message-Id: <178099650762.3126030.8755159191912834923@gitolite.kernel.org>
 
---===============2605095799418072678==
+--===============9205502571544044980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: d16f57caa78776e6e8a88b96cb2597797b376138
     new: b3dcc8c608fbb6352bd94932ba935f2078c9090d
     log: revlist-d16f57caa787-b3dcc8c608fb.txt
 
---===============2605095799418072678==
+--===============9205502571544044980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 b3dcc8c608fbb6352bd94932ba935f2078c9090d clk: imx: Add audio PLL debugfs for K-divider control
 
---===============2605095799418072678==--
+--===============9205502571544044980==--
