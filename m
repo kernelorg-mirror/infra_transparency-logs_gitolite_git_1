@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 09 Jun 2026 11:14:52 -0000
-Message-Id: <178100369258.3337479.3336070199778511269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 09 Jun 2026 11:17:55 -0000
+Message-Id: <178100387589.3340935.9012941991957926729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 2c02d56411f34d8beb69a2b4b50edae98816d5ee
-    new: df69c0304f5635ae7b5bffaa61609d8b4ce7ffa6
+  - ref: refs/heads/main
+    old: 09a5bf856aa759513afc4afd233d15bcc711b84e
+    new: 004e9ecfe6c5384f9e0b2f6f6389d42ec22789af
     log: |
-         f105c7a1be20c0e656d3175f5a7b4a4405d4e169 i2c: at91: Add MCHP_LAN966X_PCI dependency
-         5351cf8e96ee149c50fd19a882185907c92934df i2c: acpi: Return -ENOENT when no resources found in i2c_acpi_client_count()
-         3279986bfeb8b3a7727ddec5de3d2bf2e52882a5 i2c: mux: reg: use device property accessors
-         e3a8f83293972069c0da1ed2d69f763a84c77449 dt-bindings: i2c: qcom-cci: Document Shikra compatible
-         7c9474bd4a8d72f159fa97074b7353d514a75dd8 dt-bindings: i2c: qcom-cci: Document Glymur compatible
-         df69c0304f5635ae7b5bffaa61609d8b4ce7ffa6 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         004e9ecfe6c5384f9e0b2f6f6389d42ec22789af hv_netvsc: use kmap_local_page in netvsc_copy_to_send_buf
          
