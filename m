@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2784890016458035518=="
+Content-Type: multipart/mixed; boundary="===============4837090150428860077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Jun 2026 01:39:08 -0000
-Message-Id: <178096914871.2766947.4106876363231836069@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 01:39:35 -0000
+Message-Id: <178096917502.2767201.5900469527373893721@gitolite.kernel.org>
 
---===============2784890016458035518==
+--===============4837090150428860077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: e9d9ecad0878ef0be08b7b5ca1f7a515e947352f
-    new: 3ecd94833ea6df86dbb3420da1762cc62600067f
+  - ref: refs/heads/7.2/scsi-staging
+    old: 0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb
+    new: 7c08d430835a90414cd962e3a9602e5b002dee3b
     log: |
          b65b608eb8ff3507676491b28acaf496b1c347f2 scsi: mailmap: Update Avri Altman's email address
          63977ab3c6a07e5f50c95d0c8fd83d37d56812a8 scsi: ufs: qcom: dt-bindings: Document the Hawi UFS controller
@@ -29,33 +29,33 @@ changes:
          7c08d430835a90414cd962e3a9602e5b002dee3b scsi: target: Remove tcm_loop target reset handling
          
 
---===============2784890016458035518==
+--===============4837090150428860077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1780969122 -0400
+pusher 75C5DE3D 1780969151 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1780969122-8861a76359fe8a79609710aae750170f169d9841
+nonce 1780969151-9b309b17f332b6574e40f23fcfe6af3adc1aaba5
 
-e9d9ecad0878ef0be08b7b5ca1f7a515e947352f 3ecd94833ea6df86dbb3420da1762cc62600067f refs/tags/mkp-scsi-staging
+0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb 7c08d430835a90414cd962e3a9602e5b002dee3b refs/heads/7.2/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmonbqIACgkQ7ulgGnXF
-3j367hAAobHddsOI8NYQ64rq+CdY+ccS1AYuQNsLqsys5CQRkUOB2tOCyA3FEJCI
-aUW7NYE/CSpZhVrj2iiYsqEYBGT9ZxhJSiTCZRvsPVf1JAwx/+aGcehmTWWsinkC
-RiPVW7vN9CDqgpRBrg2vcPD6PsP5w2wH0XeV5P4RBUBc0RanBsG7bHJaPnWsXyoQ
-7n0FTt8OCsgXdzZKAcnUv9DLE9ApwOS4gDy+W9076uYGuZyMGe8djKXDH82rBSsh
-KkaNG/Gd4I/qomTkL1kuR2tCM6LDeCpyi6vvSXuO7u5Yq92hGuUg0w/4IR5PNpnm
-SkkAiEciknSjX82evsMB6oh9+8vqY3zHZK1HNGdctaVorpugjuh9rPaCLGwdPoXE
-nRchHH0JrCT61HYA7yGYgpncCwRtZpHO/4c9cLX1EJxzniYK50NzYNd6zEPHQ9qJ
-/pphCINjcERUrc9deygVViCxG9HsWpw7h9GsJSrbech1kP+j56qH/uRl12kgetyq
-XM6itSe4IS2Kvo8SFoJ7ny0keAKerkh3ol1ZiGiIUMR0+0aJQvSQL09hYN6PBU8j
-puAM2I5YSObXidMaR7x1YmtAiYZnJMdBoGzsI8Lwxr68YF3aAMjskoHxuNc9dG8F
-lsbzZnR5Kj8BHXsduxEJjV1yQ/dfHYIZIDRoqMhL4UeehBQbhDo=
-=KRjk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmonbr8ACgkQ7ulgGnXF
+3j1Fcg//e6kCk6msmdUXC7QNbZrp/Z2/tEk8KjNMU3Gc1H+jYB+BpQK8BkvSn68a
+D0xB8MEY+RyCJM3HCOBnXx9UGUnDyLmEZdurst5hsz1xnEp9qdp9dPP7bQstCXlm
+vzG/LZ9GdyZjSiLmSE77vej89USxE/GD+tUYE3lTMnuA9OKOZNfHriRRt5FH4Pjd
+ZjSA+mUC15hKfv8HzKd7ZjSGES/fYwgNxZy8/jM9wq/sZCvZYznrdH6FrDHzdIV9
+5WGQtD7iR/BZD/ojzS6An139kik0wX5rOjUW426h1cHUv827jxfYI4xiAizVMeD8
+laemd0WWGscyFesTBwjB+0UH+w1z0EHvBJ2abNY9fTFI/yl++ig955plXcOK2RRB
+koa4eTAXbQEu8B345NL+VokC2GxgwbdUXD983gn8u1PwsKZR8ZohSrpPCVXdzpuK
+vFeQr4rLNFzGjD6VzDDcZv73Gnsyc44iYFaL27j1Ptjx8XZ6mX0F0VHppsprHtgL
+fAUnonisv4evM7r2iJGmuNTnQ8GpBe3lfPRZLL2o18cjcP7Az8NRiVz7t+p2q+AO
+sQFXr5fua1sS8m1mEt2BYl+qZKnsbEktMbii1DD6Og6Rcwuh1HwDL8XMsKQIUHiW
+wJ2zeROblxEOQ5GWbub2Z14spKze2nqzoDjmel9+d7uNu+Mnw5M=
+=aMwH
 -----END PGP SIGNATURE-----
 
---===============2784890016458035518==--
+--===============4837090150428860077==--
