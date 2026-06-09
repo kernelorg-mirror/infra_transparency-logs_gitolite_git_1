@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 09 Jun 2026 11:20:09 -0000
-Message-Id: <178100400999.3343638.9472704962731750748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jun 2026 11:22:25 -0000
+Message-Id: <178100414519.3344983.5856726792361881876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 1a25250a42d64aa121264c97583415dac271e5af
-    new: c2a4fe80080235896ffe5dbc03e55fdd6f50de0a
+    old: 193b76eb109ed3ed77400c6d493b2f495ca64d9e
+    new: db7a16556f2561bf314a351785b36d7f171f44e7
     log: |
-         1221848f23764faab10ff63bc5d9ea5d5b39a506 Move firmware licenses to a LICENSES/ directory
-         c2a4fe80080235896ffe5dbc03e55fdd6f50de0a Merge branch 'reuse' into 'main'
+         1719841cab55d9da92b2e55b6e0c701e10201467 ipv4: igmp: annotate data-races around in_dev->mc_count
+         3289d17b7a1321e103b8aec4ad82675c03c4764f ipv4: igmp: annotate data-races around timer-related fields
+         db7a16556f2561bf314a351785b36d7f171f44e7 Merge branch 'ipv4-igmp-annotate-diagnostic-procfs-data-races'
          
