@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5870822640020291999=="
+Content-Type: multipart/mixed; boundary="===============0978639578084077305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 09 Jun 2026 20:33:45 -0000
-Message-Id: <178103722502.3798131.8484300133949238273@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 20:34:31 -0000
+Message-Id: <178103727143.3798509.3911845502982205577@gitolite.kernel.org>
 
---===============5870822640020291999==
+--===============0978639578084077305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: f6124f49c85edbf1a7d1d8a7ddaf37e3e8e3b936
-    new: e5248a7426030db1e126363f72afdb3b71339a5c
-    log: revlist-f6124f49c85e-e5248a742603.txt
+  - ref: refs/heads/nfsd-testing
+    old: dd886cc1628e04a21a34016635b2b833916a1003
+    new: eb930c12db1b967623adfd934febc5c1c79a6c8b
+    log: revlist-dd886cc1628e-eb930c12db1b.txt
 
---===============5870822640020291999==
+--===============0978639578084077305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6124f49c85e-e5248a742603.txt
+Content-Disposition: attachment; filename=revlist-dd886cc1628e-eb930c12db1b.txt
 
 c8ae4aef6d50aca8412a80a7e2d517a233b75dbd NFSD: Update my maintainer email addresses
 86b9898920a6d02b4149f4fef9efd77b8aa3b9ca NFSD: Handle layout stid in nfsd4_drop_revoked_stid()
@@ -114,5 +114,74 @@ d00e32f84ca1a77cb67a3fbf59f58dada95f5a21 sunrpc: wait for in-flight TLS handshak
 57aee7a35bb12753057c5b65d72d1f46c0e95b07 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 2090b05803faab8a9fa62fbff871007862cac1b7 nfsd: reset write verifier on deferred writeback errors
 e5248a7426030db1e126363f72afdb3b71339a5c svcrdma: wake sq waiters when the transport closes
+2b3ad96ca7988387351583ce9239d3510ceb5695 nfsd: Reset write verifier when async COPY writeback fails
+7c728c36bfa1965155dfa43b896100b912762f5d nfsd: sample writeback error cursor before async COPY loop
+1a44e6f29fccb5541dda00e3507302ca9fada351 SUNRPC: Reject short RFC 4121 MIC tokens in gss_krb5_verify_mic_v2
+fe0e316c77d3f3397e66b103b11b1f94add7668e SUNRPC: svcauth_gss: enforce krb5 token minimum length
+ae94c951188b20b4edb6ad31c8856aa69760ec1e SUNRPC: harden gss_unwrap_resp_priv length checks
+92e808fde509fd90491b69f7ab2bdf0a09163a82 SUNRPC: xdr_buf_trim: clamp buf->len to avoid underflow
+3d4c17a15f89e5622536d263468e6f6fc0a1a542 SUNRPC: harden gss_krb5_unwrap_v2 against short tokens
+adb02aa25d5894a5ccaaba1928575ca13174fab7 lockd: pin next file across nlm_inspect_file lock-drop
+816538a705221d58fddb99548a761a420fd4cf1d NFSD: restart ssc_expire_umount walk after dropping nfsd_ssc_lock
+b52ea01268c5e4ff7bdf1ee50c57e29981f75321 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+681d6a915e71e723d36970271edcf9ac12ea3e22 nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+91c2d18a6b7d4126419033692fc475335e78f269 nfsd: set SC_STATUS_FREED in nfsd4_drop_revoked_stid for delegations
+a77a4dac33b236b5623c5e7dc626b738abc43a62 svcrdma: Validate Read chunk positions before reconstruction
+e76e600dee8cd062259b13adcdaf20452432f537 svcrdma: Fix offset arithmetic in read_chunk_range
+a6a32bb17bab6694eb645f44a6d41f33799b928f svcrdma: Reject oversized Read segments at decode time
+7b6196db20e7777237bd2ee63bf3d819cfbfaa10 svcrdma: Fix pcl_for_each_segment for empty chunks
+bf87d4cd0af723403e31aa9c3a45974c70856a48 svcrdma: Reject Write/Reply chunks with segcount 0
+7dd1242d29943a1a3e05face2c4e8c452cc1aee2 svcrdma: Validate Read chunk positions at decode time
+d946adc3729eed36c3ca6ab76b71f4a2e316fc4c nfsd: don't free session slots that are still in use
+8bc40a5f221699f7ed5911a5e817d91416643014 nfsd: defer setting NFSD4_CALLBACK_RUNNING in deleg_reaper
+8ed9ebe39fecfff56b5b0f3acd0f3197bda39a4e nfsd: clear CALLBACK_RUNNING on failed delegation recall queue
+ac4eff843947591016c856ba3bece944c6cce3c2 svcrdma: Reject Read lists that exceed the page budget
+ab355961720c705933943e6113d801f78304db50 SUNRPC: always drain cache_cleaner before destroying a cache_detail
+6f50af9508639abeb8d255a00858ffb6662557da nfsd: block non-SAVEFH ops after FOREIGN PUTFH to prevent NULL deref
+5921a39607bb64a27a9acb87f6e448f83a030728 svcrdma: Fix unmatched rn_unregister on failed accept
+b6ff2366f32213daff338eefc79ef40ee4949f93 svcrdma: Reorder rpcrdma_rn_unregister before rdma_destroy_id
+8036c01bd32a2d9d7fa3303104537a3400d5c840 svcrdma: Use svc_xprt_put to free listener on create failure
+f9c3e0738b325d95b5c11062e3847c13442e2a5d svcrdma: Reject connection when transport allocation fails
+83774b512f1136f084599c5af176f3db90c18efb svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
+b55a409f4930a7b83f8d9f20c07ddf3c925e33bc nfsd: fix XDR padding calculation in ff_encode_getdeviceinfo
+06e96db674cfe00b4226bf9ce3fc1476bcda4152 nfsd: fix XDR length calculation in nfsd4_ff_encode_layoutget
+4ccea13467912d0576096dde642de0ff7c84479b SUNRPC: Reject krb5 v2 wrap tokens with oversized ec field
+d7fc493d6c7248b5964d02882f23d588a8c5e400 SUNRPC: fix gssx_dec_option_array error path bugs
+3862d41a79e8a8e656932bd96ba6eebc8ee6d86f SUNRPC: reject duplicate CREDS_VALUE options
+cfa5641c99edbb513648945dbaa2e30063def1f3 SUNRPC: Guard svcauth_gss_release() dispatch on rq_auth_stat
+3cdfff140702810c4a26980c321521aa0d00fe6b SUNRPC: Zero rpc_gss_wire_cred at svcauth_gss_decode_credbody() entry
+a0d4ad20dbe57336d39442957d66308eeee9e5b9 SUNRPC: close backchannel before destroying callback service
+cb677e87f577b2751cdd403b07c87674e909b3ee nfsd: fix BUG_ON in nfsd4_alloc_layout_stateid on racing delegation revoke
+743471807fc340560f5847220bf806b6f7c4dbcc nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
+6dd03c127b41367f5d796d28f8d9ca2305c97ff4 nfsd: convert nfsd_net boolean flags to unsigned long flags word
+b659c2d06223c9f54857089bf0368f6dc9b136eb nfsd: dedup nfs4_client_to_reclaim inserts
+32a71d410e6d68e38f94f75e8b575ae7b86293b9 nfsd: gate nfs3 setacl by argp->mask
+7134309f3c36391ec120f3512942d00b1169a262 NFSD: check truncate permission under inode lock
+a7f7bed407f84c606daee50595d572ef314fed32 nfsd: fix partial-write detection in nfsd_direct_write
+337960074dd8fbf6cbaaaa32dcef59a3574853be nfsd: cap decoded POSIX ACL count to bound sort cost
+7494c79f5f2a626f887c6fdfa3db03eb6440bf34 nfsd: validate symlink target length in NFSv4 CREATE
+70532cf62d776ba5b03d9f059a01b1333a2c8cfc nfsd: gate nfs2 setacl by argp->mask
+1342ea23fdf586ebc7c09057198942d51f623bfe sunrpc: init gssp_lock before publishing proc entry
+486cefe0444937ad0a3dbc1ee70c626857c48bcd SUNRPC: Check svc pool percpu counter allocation
+e5729a379a689d2d36e9e748c8c1a4dbd3159e25 nfsd: size fh_verify server sockaddr slot by xpt_locallen
+1a69126d6be153c40fa049f9c2ef29171e69a582 nfsd: release path refs on follow_down() error
+7e11e0543932d27545627c4f2b96ad3745fbdcd3 nfsd: fix nfsd_file leak on inter-server COPY setup failure
+861b3d9950a4e088ea1788eb2bb38cfcf43fcb5e nfsd: fix dentry ref leak on V4ROOT export filehandle lookup
+7be5b9b21e719f0a7a1d8dc757e916e2e7b95ef2 nfsd: fix layout fence worker double-reference race
+3146c3cdc65a7cb2da7f2b1c0b18a49b2be8d20c nfsd: release OPEN-decoded posix ACLs via op_release
+7658c3f5b99285f681c8ba6572634c038a612490 rpcrdma: arm rn_done before publishing the notification
+38345664bd8a6dbcb616819ede7027c91e9fd941 nfsd: defer vfree of compound ops to fix rpc_status UAF
+d32d9bbb5796a6b8aa995ec336f0fec04f9bcfd7 nfsd: hold rcu across localio cmpxchg retry
+0147ec4af2ecadd20e740d102ba2f7777b8bc0e6 NFS/localio: fix ref leak on nfs_uuid_add_file failure
+14af3cd37b148c198592bd33db970c0c68e847ec nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
+05a377126e25a13772b1b9cd5519da6ecf7fa1c4 nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage
+b3a3f5199cfcb116888e9b548af4d44edc8639f3 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
+8cd6c6b292e2eabebde1763cf50a02589516d70d nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
+09ba684df3748d46ec6d073268fbee1e98e5b8f4 nfsd: unify cleanups in nfsd_cross_mnt() exits
+089b0ff89f0093a4dab8919e8a58a3381783c329 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+0aadff78c54c62aefecde1bac4614f6bc03d2052 net/sunrpc/svcauth_unix: Use strscpy() to copy strings into arrays
+18c03332b2c6d1c0cc887f36ac9dfba5bebfcf79 NFSD: fix up error returned by write_threads()
+1025d19f670834516ae2bccbc9143b78efa8da91 lockd: Use "%*phN" to dprintk() a cookie
+eb930c12db1b967623adfd934febc5c1c79a6c8b siw: Enable try_gso
 
---===============5870822640020291999==--
+--===============0978639578084077305==--
