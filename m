@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/linux
-Date: Tue, 09 Jun 2026 10:16:14 -0000
-Message-Id: <178100017492.3173774.7820300329368516977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 09 Jun 2026 10:17:54 -0000
+Message-Id: <178100027473.3174471.14489288043443927980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/linux
-user: cem
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/arm64-uaccess
-    old: d31e86ef6377cbd7e4bbf1e8ff472ff48e04c5d8
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 67ad35a58a88c360136d893cbc4c7f5b14100bb9
+    new: 06528596662bf9a34d3691eb5b00bc39b228c994
+    log: |
+         06528596662bf9a34d3691eb5b00bc39b228c994 net/sched: Update function name in TCQ_F_NOPARENT comment
+         
