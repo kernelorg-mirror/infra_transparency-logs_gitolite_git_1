@@ -1,65 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3078002678681892131=="
+Content-Type: multipart/mixed; boundary="===============8968199145672610927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 09 Jun 2026 15:11:40 -0000
-Message-Id: <178101790038.3542709.9386568038003864816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 09 Jun 2026 15:19:45 -0000
+Message-Id: <178101838541.3547693.10856904521218944770@gitolite.kernel.org>
 
---===============3078002678681892131==
+--===============8968199145672610927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/next
-    old: 6073579e0801aa35ea4f1e41e2180780719b3b23
-    new: 336361a318494588b310ddbdd1419eb756ff5a32
-    log: revlist-6073579e0801-336361a31849.txt
+  - ref: refs/heads/vfs-7.2.misc
+    old: 0da79c259ad0554b36761a7135d4f92eb7c46263
+    new: c5d6cac28646b0d5d81ef632be748ae93c1f36c7
+    log: |
+         4bbcff264b678859cc404669bd145bcd6819804b filelock: fix break_lease() stub signature for CONFIG_FILE_LOCKING=n
+         c5d6cac28646b0d5d81ef632be748ae93c1f36c7 vfs: add FS_USERNS_DELEGATABLE flag and set it for NFS
+         
+  - ref: refs/heads/vfs.all
+    old: 4d14e43b656c6ddefa91114975470a6a992b30ee
+    new: e7a6d06e3c3e8263ee22743bb56b305e8e0949d0
+    log: revlist-4d14e43b656c-e7a6d06e3c3e.txt
 
---===============3078002678681892131==
+--===============8968199145672610927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6073579e0801-336361a31849.txt
+Content-Disposition: attachment; filename=revlist-4d14e43b656c-e7a6d06e3c3e.txt
 
-282305d7e9c0e27fd8b4df34b7cd5506a1eccdd6 PCI: mediatek: Fix operator precedence in PCIE_FTS_NUM_L0 macro
-286db45fb7ef5fe950a60a47c963156d6ece356f PCI: Add common TLP type macros and convert aspeed/mediatek
-3136184508d2889a11092dbaa097ed6580bc4214 PCI: dwc: Replace ATU type macros with common TLP type macros
-52015335e5db7e9b0d62d1ee1178de1b601ac7ba PCI: cadence: Use common TLP type macros
-9f22b92259bb5ac43e2b9007103787d4418fec56 PCI: Avoid FLR for MediaTek MT7925 WiFi
-784b50e959dbd6517fd553f36fa8d82f2af35551 Merge branch 'pci/aspm'
-83dd1ac3d3abaab9c4493fdcb24eb05cbacdf43e Merge branch 'pci/enumeration'
-831b6c494a443a5ad5079818d5bf6b80a3afa1b4 Merge branch 'pci/p2pdma'
-de3f31232b2e0620affa021bca1bf697b76c9172 Merge branch 'pci/pm'
-7f5391f3c2231f74dfb883e4ae3f85818bcedab7 Merge branch 'pci/procfs'
-d0531112d0c645e2160927d93ada8082e87a0ed4 Merge branch 'pci/pwrctrl'
-ffd5833243b51677dbc20096685d59c6779307d3 Merge branch 'pci/reset'
-8ea58c99ff5f7dfe519a7fc2098facfc5d2aa7be Merge branch 'pci/resource'
-6e62a3c8cce31c8244e96fd250542a532e297e28 Merge branch 'pci/rom'
-7abfd27d8ea3ba45ee216c5c45126d0789afca1e Merge branch 'pci/sysfs'
-ca2e71970440a335926c0c5c62189f1698903dda Merge branch 'pci/virtualization'
-924f0bee8b574457c139ae040d1d9cdb986e83bc Merge branch 'pci/switchtec'
-2033b33643a9170b0c6a762ccf976b74c020f054 Merge branch 'pci/dt-binding'
-f34db5cc2e9585697a34dbd76c5d7cc75439fb3e Merge branch 'pci/endpoint'
-b85e51d74d86ba1294e383f5284321546558d40b Merge branch 'pci/controller/host-common'
-90bf3d40f92653a7fe4d13f97b36f4d3060e5dde Merge branch 'pci/controller/altera'
-b6a3fbfa4c2eb7534240dc4ee2a0a99c9145216b Merge branch 'pci/controller/dwc'
-31c735fbb8e0d68c5825502b9f5ae4a57136be14 Merge branch 'pci/controller/dwc-amd-mdb'
-07394da736632463d7fc57d23c550cc07f8c40b1 Merge branch 'pci/controller/dwc-imx6'
-d2deb11130e390d77ee4376fd4305e788ee34f0e Merge branch 'pci/controller/dwc-intel-gw'
-0aa5e5a4bbe8b74c4d872291dbaf5a16d4059520 Merge branch 'pci/controller/dwc-qcom'
-64f64134884981efe314ab795fc61f7ab388b4a4 Merge branch 'pci/controller/dwc-tegra194'
-ffa2fe1790b756e1aef14420c32563dfb4a14bd7 Merge branch 'pci/controller/dwc-ultrarisc'
-acdc9d22c07bd3a0ca58601f17652043676a69cb Merge branch 'pci/controller/iproc-bcma'
-df45592085ca7c979792dcaccbd3f6c398b67726 Merge branch 'pci/controller/loongson'
-a875d21930f8c0581547c15d04210687a14d5754 Merge branch 'pci/controller/mediatek'
-343529e5ee9becdfbcdbb00f289f15752831ac5e Merge branch 'pci/controller/mediatek-gen3'
-a6a58330cef4d06b40509488117f55485b9766c7 Merge branch 'pci/controller/tlp_macros'
-a1ecf266aab41bab602a5e7997ecd308c216b9a6 Merge branch 'pci/controller/misc'
-336361a318494588b310ddbdd1419eb756ff5a32 Merge branch 'pci/misc'
+4bbcff264b678859cc404669bd145bcd6819804b filelock: fix break_lease() stub signature for CONFIG_FILE_LOCKING=n
+c5d6cac28646b0d5d81ef632be748ae93c1f36c7 vfs: add FS_USERNS_DELEGATABLE flag and set it for NFS
+f12c0231828609eeb6ccd2aedc07f48786b0827f Merge branch 'vfs.fixes' into vfs.all
+67ba9a678690f27ec569a7d35a1465b9b27f92d7 Merge branch 'vfs-7.2.kfunc' into vfs.all
+0ba504a7da23d291ac26d0b48f63731556a00432 Merge branch 'vfs-7.2.exportfs' into vfs.all
+25a239871660a33bb5ba0cd359ab9f3757376063 Merge branch 'vfs-7.2.inode' into vfs.all
+f49f84447ec7be36336d1c0ebda86882f3773176 Merge branch 'vfs-7.2.directory.delegations' into vfs.all
+178ab93b8720776c7d8b3debec6d6358d6280cc0 Merge branch 'vfs-7.2.casefold' into vfs.all
+2c4485824376cc59b1ca77b62132794bbe3a40f3 Merge branch 'kernel-7.2.task_exec_state' into vfs.all
+97c73958099a4826e2d97030a4f3bf0fe94aa824 Merge branch 'kernel-7.2.misc' into vfs.all
+8210854464676d786cae4910174b00768a64dd0f Merge branch 'vfs-7.2.openat2' into vfs.all
+92761a329cb61c2350f308f218bd5798bd796308 Merge branch 'vfs-7.2.super' into vfs.all
+862125e598da9f8af45211cd4fa593d5c9fb51bd Merge branch 'vfs-7.2.vmsplice' into vfs.all
+bbca2391a1319bed8e7954589eb9ef77e64b8f85 Merge branch 'vfs-7.2.writeback' into vfs.all
+95241c9e25c3f58aaba3065ce5a313a4affc1cee Merge branch 'vfs-7.2.bh' into vfs.all
+db04df5ba8599df22577504c5e99cedd8a419936 Merge branch 'vfs-7.2.eventpoll' into vfs.all
+fd551aad2d7591b18f4519846cf9dad67e91203d Merge branch 'vfs-7.2.procfs' into vfs.all
+05f370612d8ac7cebd642e840b1a6cad0e9fe485 Merge branch 'vfs-7.2.iomap' into vfs.all
+408fd1a1749e8a860800a601f555fe5825b820dd Merge branch 'vfs-7.2.xattr' into vfs.all
+e7a6d06e3c3e8263ee22743bb56b305e8e0949d0 Merge branch 'vfs-7.2.misc' into vfs.all
 
---===============3078002678681892131==--
+--===============8968199145672610927==--
