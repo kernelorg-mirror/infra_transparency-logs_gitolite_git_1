@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2627467175568067927=="
+Content-Type: multipart/mixed; boundary="===============2981949511226538574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 09 Jun 2026 16:33:55 -0000
-Message-Id: <178102283508.3613047.8242529889391546820@gitolite.kernel.org>
+Date: Tue, 09 Jun 2026 16:33:57 -0000
+Message-Id: <178102283766.3613212.15915595132203145323@gitolite.kernel.org>
 
---===============2627467175568067927==
+--===============2981949511226538574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9772589b57e44aedc240211c5c3f7a684a034d3a
     new: 0aa05daef7848a5ac11158949dc73cd741995dc1
     log: revlist-9772589b57e4-0aa05daef784.txt
 
---===============2627467175568067927==
+--===============2981949511226538574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ ee30dd2909d8b98619f4341c70ec8dc8e155ab02 net: openvswitch: fix possible kfree_sk
 881a3113b74964918cdd72747e3bc119c02b0c0c net: mctp: usb: don't fail mctp_usb_rx_queue on a deferred submission
 0aa05daef7848a5ac11158949dc73cd741995dc1 Merge branch 'net-mctp-usb-minor-fixes-for-mctp-over-usb-transport-driver'
 
---===============2627467175568067927==--
+--===============2981949511226538574==--
