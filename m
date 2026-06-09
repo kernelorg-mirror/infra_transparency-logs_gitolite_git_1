@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Jun 2026 11:17:55 -0000
-Message-Id: <178100387589.3340935.9012941991957926729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 09 Jun 2026 11:20:09 -0000
+Message-Id: <178100400999.3343638.9472704962731750748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 09a5bf856aa759513afc4afd233d15bcc711b84e
-    new: 004e9ecfe6c5384f9e0b2f6f6389d42ec22789af
+    old: 1a25250a42d64aa121264c97583415dac271e5af
+    new: c2a4fe80080235896ffe5dbc03e55fdd6f50de0a
     log: |
-         004e9ecfe6c5384f9e0b2f6f6389d42ec22789af hv_netvsc: use kmap_local_page in netvsc_copy_to_send_buf
+         1221848f23764faab10ff63bc5d9ea5d5b39a506 Move firmware licenses to a LICENSES/ directory
+         c2a4fe80080235896ffe5dbc03e55fdd6f50de0a Merge branch 'reuse' into 'main'
          
