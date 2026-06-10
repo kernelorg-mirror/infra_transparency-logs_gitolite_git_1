@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 10 Jun 2026 18:18:20 -0000
-Message-Id: <178111550054.617330.2188667983495443061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Wed, 10 Jun 2026 18:22:00 -0000
+Message-Id: <178111572087.620941.7783274356543113894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: 912d67d1d3a46f5ef946eec2dbe310b97247f085
-    new: 6ea27ab0dcfc1ac38467d8e88ceccb5784494cb5
+  - ref: refs/heads/next
+    old: a1f96cf00827e5c3219cbad7042c83e1a802a5bf
+    new: 0f080679044dd7d563e84612d1e499f0c3c983d5
     log: |
-         ea4b494414f60beda3cf69aef9278354c07b74f1 btio: handle error from broadcast ISO socket
-         6ea27ab0dcfc1ac38467d8e88ceccb5784494cb5 bap: log errors in BIG sync
+         81eafcada109b653977c4dfbd2b6a72470025a01 cxl/test: Fix integer overflow in mock LSA bounds checks
+         60f065dbaf46e65830da62a0041761f0c039e086 cxl/test: Zero out LSA backing memory to avoid leaking to user
+         0f080679044dd7d563e84612d1e499f0c3c983d5 Merge branch 'for-7.2/cxl-misc' into cxl-for-next
          
