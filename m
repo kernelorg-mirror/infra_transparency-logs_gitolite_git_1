@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 10 Jun 2026 22:48:36 -0000
-Message-Id: <178113171682.809192.16526019338672019071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 10 Jun 2026 23:16:58 -0000
+Message-Id: <178113341845.829166.17827182784608937494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 17222f981c16efa201c6806c0308a9d362a2388c
-    new: 856668312685d9a8f32d49a135a89c429d309f81
+    old: 2e8ad1ff712d2a397e407c9fde60901f68d077dc
+    new: 30dee2c176e7954f63d1fa3e52d172f30beb9bfb
     log: |
-         7698e338f49a436072c3800183e7b37394958e58 Input: ads7846 - restore half-duplex support
-         856668312685d9a8f32d49a135a89c429d309f81 Input: ads7846 - don't use scratch for tx_buf when clearing register
-         
-  - ref: refs/heads/next
-    old: 17222f981c16efa201c6806c0308a9d362a2388c
-    new: 856668312685d9a8f32d49a135a89c429d309f81
-    log: |
-         7698e338f49a436072c3800183e7b37394958e58 Input: ads7846 - restore half-duplex support
-         856668312685d9a8f32d49a135a89c429d309f81 Input: ads7846 - don't use scratch for tx_buf when clearing register
+         10627ddc0167aab5c1c390a10ef461e9937aba08 bpf: Tighten cgroup storage cookie checks for prog arrays
+         30dee2c176e7954f63d1fa3e52d172f30beb9bfb selftests/bpf: Cover tail-call cgroup storage prog-array checks
          
