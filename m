@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5348420710950969106=="
+Content-Type: multipart/mixed; boundary="===============5407588846960812293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 10 Jun 2026 05:06:40 -0000
-Message-Id: <178106800040.6559.3796028462353796906@gitolite.kernel.org>
+Date: Wed, 10 Jun 2026 05:06:43 -0000
+Message-Id: <178106800300.6744.13391877969570122264@gitolite.kernel.org>
 
---===============5348420710950969106==
+--===============5407588846960812293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5a7141c422166dc84073b05e4fcea96cb264c454
-    new: ce70d5abbf4f9930a07eddb06f40a0ea3494e33a
-    log: revlist-5a7141c42216-ce70d5abbf4f.txt
+  - ref: refs/heads/mm-unstable
+    old: be18cf77e1e749c6469ff44df00eb026f7c0a365
+    new: d401506a8ee8ac6bc4a7767c17da036e9434a4a3
+    log: revlist-be18cf77e1e7-d401506a8ee8.txt
 
---===============5348420710950969106==
+--===============5407588846960812293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a7141c42216-ce70d5abbf4f.txt
+Content-Disposition: attachment; filename=revlist-be18cf77e1e7-d401506a8ee8.txt
 
 89456ee6ebd3f95fc53a94beed6e51f8b876e70e mm/memory-failure: trace: change memory_failure_event to ras subsystem
 56e738d8834d451beea444cd6fcaead2e302e573 selftests/mm: fix ksft_process_madv.sh test category
@@ -139,12 +139,5 @@ f0bb9d43c67e40b0afa4d5963ac365a3a7ecbf9b selftests/mm: use ksft_exit_skip() inst
 b17b9ade9bb5c1a7682a7dc1ce0cb65b6a5df98b selftests/mm: clarify alternate unmapping in compaction_test
 785e78145df89298b9db5199eb90edcb7224ac56 MAINTAINERS: add Hao Ge as reviewer for codetag and alloc_tag
 d401506a8ee8ac6bc4a7767c17da036e9434a4a3 mm: merge writeout into pageout
-c4b52dfe5640e06c9d7a52879e6c0858153541bf mm: page_isolation: avoid unsafe folio reads while scanning compound pages
-3dfa48063c418925a89dc14661b32c02e63838e9 mm/damon/core: always put unsuccessfully committed target pids
-ef73f7cdf4fcceba212f870b785feaaa17f1aa64 mm/page_frag: reject invalid CPUs in page_frag_test
-b4fb7681b2e3f78ee7075b4ed4f126a9312ae012 mm/gup_test: reject wrapped user ranges
-593ef9363580eb31c108c5d92cf714a793071929 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-db730fe9f2d521c5f8dfabdb52367fd82f24855e mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-ce70d5abbf4f9930a07eddb06f40a0ea3494e33a mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5348420710950969106==--
+--===============5407588846960812293==--
