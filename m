@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 10 Jun 2026 00:53:13 -0000
-Message-Id: <178105279388.3998584.12984873714811022525@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2850108285338077936=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 10 Jun 2026 00:53:20 -0000
+Message-Id: <178105280026.3998884.5811200655291133386@gitolite.kernel.org>
+
+--===============2850108285338077936==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 81a699ccd3091915d00da847df8dac0d1b131693
-    new: 53a65db20a4f3fe6c01b1f789f9eae6b1244910f
+  - ref: refs/heads/master
+    old: b5cefe0edeec51a1d2ee6894e233b1f7b82dec15
+    new: 546b02489abf7bfe19d3ad6381692b544dd95535
     log: |
-         0bfd6c8c959d07804275012415fcb04740dc5f9b net: phy: motorcomm: move mdio lock out from yt8531_set_ds()
-         284975d609d09565e7a381f83ed1e9851dc91322 net: motorcomm: phy: set drive strength in YT8531s RGMII
-         554cfeb72e093102896f3f8b638c81a460f6449b net: phy: motorcomm: Add YT8522 100M RMII PHY support
-         e8b38659decc03392200e082cdf3c57e9a4791b9 Merge branch 'add-motorcomm-8531s-set-ds-func-and-8522-driver'
-         e0a77b1ed9001bdd0c73b99c67abb90f4bd7d7f5 net: dsa: qca8k: Add support for force mode for fixed link topology
-         53a65db20a4f3fe6c01b1f789f9eae6b1244910f net: mana: Add support for PF device 0x00C1
+         546b02489abf7bfe19d3ad6381692b544dd95535 Prevent interpreting usebranch as a path in find_cover_commit
          
+
+--===============2850108285338077936==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1781052799 +0000
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1781052799-3372182dbac735a2b2f9bdb59a5b1fd25a929484
+
+b5cefe0edeec51a1d2ee6894e233b1f7b82dec15 546b02489abf7bfe19d3ad6381692b544dd95535 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaii1fwAKCRC2xBzjVmSZ
+bFGyAQDC7lyYCmGmjhyvvttA7qcFF2eDK8FMQk8cmlzSv9KbQwD8D1LrO2yn3DB2
+JDm0qqlBkBnbbjuhW+hdQSg2qKXUmg4=
+=5UKr
+-----END PGP SIGNATURE-----
+
+--===============2850108285338077936==--
