@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7357783251938261595=="
+Content-Type: multipart/mixed; boundary="===============2775028055499055575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 10 Jun 2026 21:53:16 -0000
-Message-Id: <178112839622.773097.12494631317879694903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 10 Jun 2026 21:53:24 -0000
+Message-Id: <178112840403.773339.16639779034314747311@gitolite.kernel.org>
 
---===============7357783251938261595==
+--===============2775028055499055575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: de5aa22a47bfb8f443490809cd9037b0740c4b1f
     log: revlist-c8a20934f1e2-de5aa22a47bf.txt
 
---===============7357783251938261595==
+--===============2775028055499055575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ a9388a9371ce0fc49dc05cbd25fa4715f460b84f perf test cs-etm: Make disassembly test
 88a9a486a485ed150f3a0cc04d8594c336258783 perf test cs-etm: Move existing tests to coresight folder
 de5aa22a47bfb8f443490809cd9037b0740c4b1f perf jitdump: Fix a build error with ASAN
 
---===============7357783251938261595==--
+--===============2775028055499055575==--
