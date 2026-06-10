@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2671767054669383239=="
+Content-Type: multipart/mixed; boundary="===============2574908894659051751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 10 Jun 2026 14:56:34 -0000
-Message-Id: <178110339434.450538.1010112282260033934@gitolite.kernel.org>
+Date: Wed, 10 Jun 2026 14:57:51 -0000
+Message-Id: <178110347109.451332.1940720437681315288@gitolite.kernel.org>
 
---===============2671767054669383239==
+--===============2574908894659051751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: 7ecac01cf1c094a55c687572bbc874f75e15eb84
-    new: 51746fc082260b0d91fd39315e77cb0863a00136
-    log: revlist-7ecac01cf1c0-51746fc08226.txt
+  - ref: refs/heads/for-next
+    old: b00e6289711f913d19682746aa39b6bb8ed5c82c
+    new: 7b522c2edb5345ed6948cf26802cb1419adc30d0
+    log: revlist-b00e6289711f-7b522c2edb53.txt
 
---===============2671767054669383239==
+--===============2574908894659051751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ecac01cf1c0-51746fc08226.txt
+Content-Disposition: attachment; filename=revlist-b00e6289711f-7b522c2edb53.txt
 
-ba6b328588f7cb7cf4aca33bae565c2914d74786 rust: arch: um: Fix building 32-bit UML with GCC
+332bf7fe9e6370e9ac8d5f0cec9279f4faad76be s390/process: Fix kernel thread function pointer type
 184b8dc8798987ffc889b5927c67b358f769a414 s390/bug: Provide ARCH_WARN_ASM for Rust WARN/BUG support
 6900bec59d0f54dbb94d0799d204bcd44fbdb623 s390/jump_label: Implement ARCH_STATIC_BRANCH_JUMP_ASM and ARCH_STATIC_BRANCH_ASM macros
 fc1118cdc3618bef1433040bf5fa09b438ec3428 rust/bindgen_parameters: Mark s390 types as opaque to prevent repr conflicts
@@ -43,5 +43,7 @@ c3e4b7eb1b981712ebd128825d4ef3b4e9e0ee8b s390/string: Convert memmove() to C
 90d7412cd1ca82528adaf79abffaf12c36ba1b19 s390/string: Convert memset(16|32|64)() to C
 661fd726e0ea8ee6b5ab4b719629cd51a2b836b0 s390/memmove: Optimize backward copy case
 51746fc082260b0d91fd39315e77cb0863a00136 s390/tishift: Convert __ashlti3(), __ashrti3(), __lshrti3() to C
+d85c25af281608b805afcc01b679bf6a6b2af3e2 Merge branch 'features' into for-next
+7b522c2edb5345ed6948cf26802cb1419adc30d0 Merge branch 'fixes' into for-next
 
---===============2671767054669383239==--
+--===============2574908894659051751==--
