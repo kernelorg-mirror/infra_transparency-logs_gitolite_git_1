@@ -1,52 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0127232440393318921=="
+Content-Type: multipart/mixed; boundary="===============7030310738997328434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 10 Jun 2026 08:48:28 -0000
-Message-Id: <178108130868.168065.5134004714910177149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 10 Jun 2026 08:53:09 -0000
+Message-Id: <178108158953.171779.16599056829968173696@gitolite.kernel.org>
 
---===============0127232440393318921==
+--===============7030310738997328434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: a167ae8eace52dd6c80438b77d92450fe12cd4be
-    new: ab7be7ed913086e076bfd8aba79f614f415cd6dc
-    log: |
-         0b6573e23acc7bca808e539e3edea49683f106de platform/x86: oxpec: add support for OneXPlayer Super X
-         a221557958e3a82d8565729d445a7385963f30b6 platform/x86/intel/tpmi: use cleanup helpers in mem_write()
-         abefbbfc71f5ee50f9e549a2d143f23694d65fc2 platform/x86: hp-wmi: Add thermal support for board 8B2F
-         ceb8678adfd68b33d5e8a52cb2e96cfa90d81761 platform/x86/intel/pmc: rate-limit LTR scale-factor warning
-         0aab31d47c2e857ca05028d718d1e0d239e683ad platform/x86: hp-wmi: Add support for Omen 16-ap0xxx (8D26)
-         bfe91a80b13f8068f6fa07aa8c468d284150d4ad platform/x86: dell-laptop: add Inspiron N5110 to touchpad LED quirk table
-         ab7be7ed913086e076bfd8aba79f614f415cd6dc platform/x86: msi-ec: Add support for MSI Pulse GL66 12th Gen
-         
+  - ref: refs/heads/master
+    old: 6fae5eb9d995bb18b27f6c2023cad704fc765b63
+    new: a325aefa05e45719bcf7bec118b7d9ba8acdc8f5
+    log: revlist-6fae5eb9d995-a325aefa05e4.txt
 
---===============0127232440393318921==
+--===============7030310738997328434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6fae5eb9d995-a325aefa05e4.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1781081304 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1781081304-af77313b2e4994182f7e7df16d9e73f05a610ba1
+8c9c5178b8f4f239fe2525f88ba1b8f7c592475b fix(resize_partition): initialize index to avoid undefined behavior
+7d22570ddc7898515b3d91aa48b94700cc9f8ad8 tests: fix lsfd/mkfds-multiplexing coproc PID handling
+77fe5f39cabfb2f21caf2c2edeeeb0ff4607bbce umount: restrict non-root users to mountpoint paths only
+4785da2de365bcc6be02a01ffb314eadc1c8eef9 libblkid: add blkid_evaluate_tag2() with flags
+cd14e75962241d36845c0e0f5fd3ac2f90bf05c7 libmount: disable libblkid probing for non-root users
+5648eb55f06e2dec6f2e2605a957dd01877ca4c7 build: warn when libmount udev support is disabled
+0c3e7bf00213c925ee6b812c0d2c724ab70d7916 bash-completion: fix setsid sub-command completion
+cb2948c2fffd5d6e469ce3ec1ba1e28843987e99 tests: remove loop devices from lsblk bcachefs dump
+2fa83be3e1c1be4935634f22f26fa599bac73239 libfdisk: clamp out-of-range d_npartitions in bsd_readlabel
+f0f73dec728f096c06afff60207a64fc22398def Merge branch 'PR/lsfd-multiplexing-fix' of https://github.com/karelzak/util-linux-work
+aace0ab9ad7161da6021cad348e2012106e53b20 Merge branch 'PR/libmount-more-restrict' of https://github.com/karelzak/util-linux-work
+ed09a43371da67e8c35b9c0b8e9c9f80d450031e Merge branch 'PR/lsblk-tests-fix' of https://github.com/karelzak/util-linux-work
+f3fc599caf6260d4d64db3f5f65debdb02a6e438 Merge branch 'fix/setsid-bash-completion' of https://github.com/lzwind/util-linux
+62f0968c7a4015596e4b4475e2801981ed8c8dda Merge branch 'bsd-npartitions-clamp' of https://github.com/aizu-m/util-linux
+c5d32a254f2f2a30173b6c0c07f808e6037e8b83 Merge branch 'master-branch-5' of https://github.com/Leefancy/util-linux
+a325aefa05e45719bcf7bec118b7d9ba8acdc8f5 fdisk: (resize) avoid redundant error on partnum failure
 
-a167ae8eace52dd6c80438b77d92450fe12cd4be ab7be7ed913086e076bfd8aba79f614f415cd6dc refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaikk2wAKCRBZrE9hU+XO
-MWp3AP43ru859ynsy2vkipQaprrK/RRi1kTG16ZfyEa6nMTGIgEAp29Eso7TXxne
-T8KeErVvahyVmf/+ltGhJNMcvl1+Zw4=
-=mxO8
------END PGP SIGNATURE-----
-
---===============0127232440393318921==--
+--===============7030310738997328434==--
