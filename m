@@ -1,56 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============0877609601491867391=="
+Content-Type: multipart/mixed; boundary="===============3339933446838393891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 10 Jun 2026 10:13:21 -0000
-Message-Id: <178108640199.233118.3684749010418339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 10 Jun 2026 10:13:59 -0000
+Message-Id: <178108643907.233524.6500493514298892074@gitolite.kernel.org>
 
---===============0877609601491867391==
+--===============3339933446838393891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: ff457653ee389af9fe0674e8423be68d1531eddb
-    new: 26deeee42f4f1ab8da7e45808c3050438c577e53
-    log: revlist-ff457653ee38-26deeee42f4f.txt
+  - ref: refs/heads/for-linus
+    old: 25b17c06040fae60518b4ff9c46f2bb12285d538
+    new: 0e152e4126fa14e697d8514cdd1567b18c679f08
+    log: |
+         0e152e4126fa14e697d8514cdd1567b18c679f08 ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
+         
+  - ref: refs/heads/for-next
+    old: 95115fc93a897fcd0412da2fa4de4424e704daa7
+    new: 66c3cb43ac5f9805ab6790380b2f26ebeeccbe70
+    log: revlist-95115fc93a89-66c3cb43ac5f.txt
 
---===============0877609601491867391==
+--===============3339933446838393891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-95115fc93a89-66c3cb43ac5f.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1781086400 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1781086399-bd08288ee4ec7ccd1cc2431bb7e4526568e00a52
-
-ff457653ee389af9fe0674e8423be68d1531eddb 26deeee42f4f1ab8da7e45808c3050438c577e53 refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmopOMAACgkQJNaLcl1U
-h9Ca1AgAg1daCZY+UE9SwCVaIDpiRMYVyOti1q4UG1F4gOn7VfDBOV3aDbNxPC31
-YH0CneOgx38k0T66W59Y5RlRi4PtwPiStseSh99qfLOpVGJ04pO4puBAMcfnn4k2
-dtiUR8lV5hDT2Ps0uSE3Gi1jZDeOs/0t+bVQq9ZahPrCh2xrgKpPUN4eI1ve4AXy
-5DkzYWd9vrSHvS2LsVwL1kBuT7yp7V+c28iRmRZgHWDeJkGfu+sFT0xIGt5wctL9
-3GFGrUvt5CXIi51VwtnZm/xmN73C7uJP8pvjXhphxDR/1SCtTaUO79nmWoNf5X7Q
-AQh0ja9gMvh36ZNXumVbfkBGN+6dXg==
-=URTQ
------END PGP SIGNATURE-----
-
---===============0877609601491867391==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff457653ee38-26deeee42f4f.txt
-
+0e152e4126fa14e697d8514cdd1567b18c679f08 ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
 1b92b0673d5e9a2f68f998194cbc73718358cd72 ASoC: codecs: aw88261: support changing sample rate and bit width
 33f917e18f3905b2bba92a6b8ec80dc9f602e234 ASoC: codecs: aw88261: add TDM support
 d90c361af215a9fa2a986d9f47d554d0cf3401dd ASoC: codecs: aw88261: reduce log spam
@@ -69,5 +51,6 @@ cfa1466e6dfd185aed8d13b9a192657be51d87ec ASoC: renesas: fsi: Move fsi_clk_init()
 39033b278f9c59d5913af89e5de3c3a0d2a9a89e ASoC: renesas: fsi: Add SPU clock support
 05e1ebfeb7264e31a463c11deca66b7d55f7024f ASoC: renesas: fsi: add fsi_clk_prepare/unprepare()
 26deeee42f4f1ab8da7e45808c3050438c577e53 ASoC: renesas: fsi: Add SPU clock control in hw_startup/shutdown
+66c3cb43ac5f9805ab6790380b2f26ebeeccbe70 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============0877609601491867391==--
+--===============3339933446838393891==--
