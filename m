@@ -1,97 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============7898455973916411088=="
+Content-Type: multipart/mixed; boundary="===============6525977795467568947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 10 Jun 2026 14:28:11 -0000
-Message-Id: <178110169153.428387.555745086169955005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Wed, 10 Jun 2026 14:37:24 -0000
+Message-Id: <178110224422.435493.13159520568578288260@gitolite.kernel.org>
 
---===============7898455973916411088==
+--===============6525977795467568947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/sasha-cvss-important
-    old: 17085f4d980f29c017d2f2e0dcdb884043588a65
-    new: 7fc41fbabb9e9d44f3139512a8091eeb3be20911
-    log: revlist-17085f4d980f-7fc41fbabb9e.txt
+  - ref: refs/heads/for-next
+    old: db569675db4f85b9b2061f82bf9e42d06af6251f
+    new: b688ca058eda4b9ede8d2bcf34ee2e9dacb3cb61
+    log: revlist-db569675db4f-b688ca058eda.txt
 
---===============7898455973916411088==
+--===============6525977795467568947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17085f4d980f-7fc41fbabb9e.txt
+Content-Disposition: attachment; filename=revlist-db569675db4f-b688ca058eda.txt
 
-23696e4e73127df1ce102f2e7e6d378c2dbcbac1 proposed: Add Lee's v7.0.4 results
-6f0714bb9248d2973fd197f3fd8aa9ca2ecc4fa6 proposed: Add Lee's v7.0.7 results
-1cadb0a2f5d8c54d998518fd8f57d87e4c9dce45 proposed: Add Lee's v7.0.9 results
-59103b6e19f2e68b97016e5979754dff78456f1d Merge branch 'sasha-cvss-important'
-6e565978630569b90e174ec32129ab70a40995fb update based on new cvss scores
-90ddf2452d5e6a3d8e0370e7b869cee913ff1295 CVE-2026-43073: Provide Google p0 cross-reference
-06f74ac0874786641623a1d8b48a744daf8576cb update after new reference
-225417a653651491145c3c4a3adcd7fc0416a677 assign some cve ids on request.
-96c470ab2bb5ea9f61c8d879ba2f27b67aafc6e2 strip the new mbox files
-3e2a9b33c5afaa410784c9e32112b89b20ca884f assign some more 7.0.4 cve ids
-b44cb1bc70833add953892406e876e49bfc0510b assign some more 7.0.7 cve ids
-fec91c3282cb0f4861534c0890533904e24cde23 assign some more 7.0.9 cve ids
-20f83b9bd35458d8bbdb06463ffe7fa89cd3b71e strip the new mbox files
-b80b66defdd73175479901549b6ce4ded93cd4aa CVE-2025-71315: Add .vulnerable file
-642241f939e4ce105e0dcbd1f7f3aa483ccf1d1d CVE-2026-46250: Add .vulnerable file
-e8bb2737d17bad6d24afec2fbd263950c25939bd CVE-2026-46276: Add .vulnerable file
-9606d59b08695f05095fee21c144b90c62204321 CVE-2026-46286: Add .vulnerable file
-a286a8ee96fa68827a8e5fbe2c12c2ef1f53392a CVE-2026-46294: Add .vulnerable file
-2ab8e982e902fd3c44e7360dc5bcb031b0cdaa62 CVE-2026-46302: Add .vulnerable file
-82739d4d285c68edf1334df2b65fcc8589dbf911 CVE-2026-46311: Add .vulnerable file
-af7a1582110ac6ff2fc84ecf00509477cc9426aa updates based on new .vulnerable files
-c7ba9abee433be6e73eb0b86828de129e7e6e53e assign a CVE id on request
-8c934adcd3e4fe846c2993d4854b5015eee8050b strip the new mbox file
-1c9cd9cfae0169e8cb8c005fb9cc76954b298e7b reserve some more 2026 cve ids
-a1e3de8fbc213024fe5207dd6b8fcace098fa5f4 updates based on new stable releases
-efdc55fb0d59dc221f7c79e30ea0c7c4a0339825 assign some CVE ids on request
-b0632c81f2f7a8bed9ed6f36aa5ad97a71a61284 actually add the new cve ids...
-1a3c8d1c270e1c69fed8bb2c5533adcb0613fe19 strip new mbox files
-218531520f0f62f6da053622f76f455a8a579b32 assign some more CVE ids on request
-a496f2c25c09edb0cba31c1983514ed85f9b1df0 strip the new mbox files
-925318309121b730c6777cf969f1b302ee49e28d update the 6.19.4 reviews from greg
-7cfa45ba5a2cfb128c0de3ce8aeaaf54330441ae assign some more 6.19.4 cve ids
-5d1fc020aa156738767878f68b325f309e6aa2c1 mark 6.19.4 review as completed
-124b31825976b5025bced62242a8eb50867c2863 move 6.19 reviews to their own subdir
-e0d12ee722d875810d1895c4f71fc7cb86c7f73d update the 7.0.4 review from greg
-0524da57752e84d7166509014ecebb8ffbceeff1 some final 7.0.4 cve ids assigned
-98d258a280f715db91eb2a40230523dfc087f2e3 mark 7.0.4 as done
-89bb68d9009996aa05388c91e42c1dbc96bce1de strip the new mbox files
-04e3f6bc4080bdd4a579598fc596f1d3039b4bfe sasha: review v7.0.12
-2623262550ec6f09a716f870bc7096d46131aefe CVE-2026-52907: Add CVSS 3.1 score (7.8 HIGH)
-2d303c149f3530bf31768cbd102a2a9d09ecd9e6 CVE-2026-52906: Add CVSS 3.1 score (7.7 HIGH)
-2f5c8d6dcdace7df5018cd92578d8024ad04a22b CVE-2026-46332: Add CVSS 3.1 score (8.0 HIGH)
-47c71f94ac9e3a3450b756d20fcb656f3de793ff CVE-2026-46330: Add CVSS 3.1 score (7.8 HIGH)
-0087f31ef54d22e27ec5f2996078048329083bb0 CVE-2026-46327: Add CVSS 3.1 score (7.8 HIGH)
-949c544901165dcfd43da0c0c5cc4b908aff072b CVE-2026-46326: Add CVSS 3.1 score (8.4 HIGH)
-1e65403729075bede1065bedd38f4a9d0e0439f7 CVE-2026-46328: Add CVSS 3.1 score (7.3 HIGH)
-f2f4d2d597f4217bcd4113866e6d3a645fddee94 CVE-2026-46324: Add CVSS 3.1 score (7.8 HIGH)
-170d7cba8038d70a4951c5024dd95459ffab622c CVE-2026-46321: Add CVSS 3.1 score (7.1 HIGH)
-e67d5ea2ed6d990cba56e5e7d6248400b93a6ed9 CVE-2026-46322: Add CVSS 3.1 score (7.1 HIGH)
-4c3c0976250fac68cb7a5b4063ad2b79d48e5721 CVE-2026-46325: Add CVSS 3.1 score (9.8 CRITICAL)
-f1147af5ed1e688f1316884504acf9d6f5aeca5c CVE-2026-46320: Add CVSS 3.1 score (7.4 HIGH)
-c3a858cb128bcd96ca48a56ec66e0bf65e8eb42b CVE-2026-46323: Add CVSS 3.1 score (7.8 HIGH)
-6788c36af7f048ab7c8b9135c416eb53c9bc4bfb CVE-2026-46319: Add CVSS 3.1 score (7.8 HIGH)
-11ae7e8136a1ffd989a606cea18ead1431114a5b CVE-2026-46317: Add CVSS 3.1 score (8.8 HIGH)
-7bbeba411cb70e76a6b3611a1906ffbd9627636e CVE-2026-46316: Add CVSS 3.1 score (9.3 CRITICAL)
-993fff3cb01550fd5fb4ddb730470440129abf6e CVE-2026-46311: Add CVSS 3.1 score (7.8 HIGH)
-64c21361734a172f0031147a147af6de2b7b8bb0 CVE-2026-46304: Add CVSS 3.1 score (7.5 HIGH)
-836945e31fb813e4405265a91fbc5434f5d877d8 CVE-2026-46307: Add CVSS 3.1 score (8.3 HIGH)
-3b4499164ce5145e3f876dd66144dd1fa6d3c5ae CVE-2026-46306: Add CVSS 3.1 score (7.5 HIGH)
-fcca0f6c9fea92ac75d6d0ac5817c13ca745ebd2 CVE-2026-46303: Add CVSS 3.1 score (8.2 HIGH)
-5aaeb63df4c60cf3ce489988e7d4e2930502c004 CVE-2026-46299: Add CVSS 3.1 score (7.0 HIGH)
-23882acb053cd1a3d5d48f280caa49b080b6fcba CVE-2026-46288: Add CVSS 3.1 score (8.4 HIGH)
-b3a95e79d646572cc354fd4d378cec6e8c12f2c2 CVE-2026-46289: Add CVSS 3.1 score (9.8 CRITICAL)
-ec9d79cf69756d00273849a05a67c72c77592b05 CVE-2026-46280: Add CVSS 3.1 score (7.8 HIGH)
-dcc3186d3f17ea06efc457e30bac477b9f942a23 CVE-2026-46277: Add CVSS 3.1 score (7.8 HIGH)
-d3fbea9e960fbd021040d14b68cf3056d598a323 CVE-2026-46274: Add CVSS 3.1 score (7.8 HIGH)
-7fc41fbabb9e9d44f3139512a8091eeb3be20911 CVE-2026-46275: Add CVSS 3.1 score (7.8 HIGH)
+7ebb3870b104fdbb1085eeb25eb17b3710bea467 fuse: clear intr_entry in fuse_resend and fuse_remove_pending_req
+cb3f028d8db403d322f8611cb91795a585063943 fuse-uring: remove request-less entries from ent_w_req_queue to fix NULL deref
+d18519f861ce5f3a4b885231a4841153285b6515 fuse: avoid 32-bit prune notification count wrap
+44c859d6ac930bb0333a4d4163cb8c78590504ba fuse: move request timeout code to a new source file
+cb06a65562940b5a1b8cc7d8888c0dc3e1d0d028 fuse: add struct fuse_chan
+b97e9c7d4c63d1aac0af14b12404b6004baee5d6 fuse: move fuse_iqueue to fuse_chan
+26e9b2cdeeda67e22abe6e14691a16e2f830958b fuse: move fuse_dev and fuse_pqueue to dev.c
+cf0ec043a6ac685484684955bd14bced814722d7 fuse: move 'devices' member from fuse_conn to fuse_chan
+1deb51314ce0f6d46458462124b6025dd1ad0816 fuse: move background queuing related members to fuse_chan
+3d8f86275ece5ffead12abb375ae8e44d2e2c373 fuse: move request blocking related members to fuse_chan
+0e1d8cd0d78a9e39af23b0d4d9ddd4d25dc5c86e fuse: move io_uring related members to fuse_chan
+8fd31b8fb17493f5594c797269296f69a6f95465 fuse: move interrupt related members to fuse_chan
+d5a3c38be1875b231e563fe635e039249aa04d57 fuse: split off fch->lock from fc->lock
+7a25739e280ee1df51f363e5342a6f7f2bfaaba2 fuse: add back pointer from fuse_chan to fuse_conn
+9dcabbf7c62dfd39996a5d4d266c25aeb059cc80 fuse: move request timeout to fuse_chan
+d11b5870590e4607d5edd0beb493365de507aee5 fuse: move struct fuse_req and related to fuse_dev_i.h
+0cdf12354ad8b765fe83b4172062adf7da363118 fuse: don't access transport layer structs directly from the fs layer
+c8fa84a25f2633f7b37dba28397644c3ff36e73f fuse: move forget related struct and helpers
+9ef4f9f9d30454e5e18c1500097d811177b20441 fuse: move fuse_dev_waitq to dev.c
+ed6d29d83f90b47be3cecf456a32b735dd034e99 fuse: remove #include "fuse_i.h" from "dev_uring_i.h"
+9099004de4e405f4067064751634092a1f0630d1 fuse: remove #include "fuse_i.h" from "req_timeout.c"
+1c9df7297d540d77a95f1f743f5910b271232ed4 fuse: abort related layering cleanup
+24c3d57190cc614e1d8932dae11910cd55660230 fuse: split off fuse_args and related definitions into a separate header
+13787036e2b6dd2e235022fe9813695f0949b311 fuse: remove fm arg of args->end callback
+6cbff33ab267d2048b7fcf6497926990a3bb9619 fuse: change req->fm to req->chan
+690c6cc188d7b8960d3f2ccfc05e1597381183f2 fuse: split out filesystem part of request sending
+491d5f0076eaa40253a8b00569f5c7abec6a12a4 fuse: change fud->fc to fud->chan
+7d1787e928df49418765a8a1075065e310588d2f fuse: create poll.c
+03186f29819540427e50f6c0297e6480d96b3493 fuse: create notify.c
+d69004f152c9f7cfb279c46323a79453ff5d78b9 fuse: set params in fuse_chan_set_initialized()
+e3a0b58e1a3a24d558d133c8a2798775774e137d fuse: remove fuse_mutex protection from fuse_dev_ioctl_sync_init()
+4855647117991229505298ed9f1f7f0ec77a6e6b fuse: change ring->fc to ring->chan
+4863934470180eb121c1b82a19cbf8b25bcd921d fuse: remove #include "fuse_i.h" from dev.c and dev_uring.c
+8317ffd4d413ac7cc965a369eaa008bd959823b4 fuse: alloc pqueue before installing fch in fuse_dev
+9f18b7b927c42a980de641d0f2413a8aeedb5dfa fuse: simplify fuse_dev_ioctl_clone()
+f4b0333eb00889fdc5af4e3cd17898aad465d08c fuse-uring: drop kernel-doc notation for a comment
+2c7a166a3927031d258a27e30736a79af9341c68 fuse: fuse_dev_i.h: clean up kernel-doc warnings
+bb5cb0ebbdef9dc7ae647d010f928ff81204ac10 fuse: fuse_i.h: clean up kernel-doc comments
+c061959707e09afac286f968f6b6a63f71dfe333 fuse: drop redundant err assignment in fuse_create_open()
+f23e04badf7a97c9b97a746d5f68c5beb81aa899 fuse: reduce attributes invalidated on directory change
+7e2d450930d8b37a5aff3746de4fd29139b471f7 fuse: drop redundant check in fuse_sync_bucket_alloc()
+2f7c83a87857ebb7e44ab5dfe74697c2a25a456b fuse: remove redundant buffer size checks for interrupt and forget requests
+a82f2bee8d999984152e8a6f1878a5f7c8e50226 fuse: expand MAINTAINERS with subsystem info, update mailing list
+b704fc9430b104c1f0ebf30403c4f62d9a8bf3eb fuse: use current creds for backing files
+de892fa7e3190ebb5c93cc43eb1f9549baf41823 fuse: convert page array allocation to kcalloc()
+8053c638543542a39a1607672966a211374605a8 fuse: use QSTR() instead of QSTR_INIT() in fuse_get_dentry
+34d516595269458b7aaf45940b9f3e24c82aa618 fuse: Add SPDX ID lines to some files
+39734bf863831829a80087c43ad9aa954e0d7abb fuse: add fuse_request_sent tracepoint
+1757a9a619f72e74f1b14d4d10e218a7749bb034 fuse: dax: Move long delayed work on system_dfl_long_wq
+b688ca058eda4b9ede8d2bcf34ee2e9dacb3cb61 fuse: use READ_ONCE in fuse_chan_num_background()
 
---===============7898455973916411088==--
+--===============6525977795467568947==--
