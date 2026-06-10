@@ -1,54 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0033270764212430227=="
+Content-Type: multipart/mixed; boundary="===============7076893873301660458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 10 Jun 2026 21:48:44 -0000
-Message-Id: <178112812495.768926.12509736932817844137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 10 Jun 2026 21:49:18 -0000
+Message-Id: <178112815884.769349.9691788378192589874@gitolite.kernel.org>
 
---===============0033270764212430227==
+--===============7076893873301660458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/dev-test
-    old: b28ca68cf9fc859ea72f0980fe297fd9c05a398e
-    new: 4bc176a2433664087fe9c19052f1c6bc252f91fd
-    log: revlist-b28ca68cf9fc-4bc176a24336.txt
+  - ref: refs/heads/locking/core
+    old: 69a217ce9ead005b39507f3028486fea6ac3cc11
+    new: 197a675f0715567d02c00050d87d9b1bfc8e790e
+    log: revlist-69a217ce9ead-197a675f0715.txt
 
---===============0033270764212430227==
+--===============7076893873301660458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b28ca68cf9fc-4bc176a24336.txt
+Content-Disposition: attachment; filename=revlist-69a217ce9ead-197a675f0715.txt
 
-4ae625bb5a410b96e71da0c86385059b3333d480 f2fs: fix potential deadlock in gc_merge path of f2fs_balance_fs()
-58b17244049f1bce970647c88d36d39c235e95df f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode
-349079bcb632742c7c7f9126e58325902447eb61 f2fs: fix missing read bio submission on large folio error
-33be52ec24086696d766756f12d285ef106b371c f2fs: pass correct iostat type for single node writes
-ad9d0233f11b7b515a0eb11f469b01d5110c7b5e f2fs: validate compress cache inode only when enabled
-c0b65f6129c7fbb526e921dd60261650f1b2bef9 f2fs: avoid false shutdown fserror reports
-d99bb310a1348be76f2294c2b2d55311991a5d31 f2fs: stop checkpoint on compressed write IO error
-b7e85aafc96b578241a96be3914c0b3e945d10a8 Revert: "f2fs: check in-memory block bitmap"
-902d57fc5b845b5606e6443ec990a9c554ee3a37 Revert: "f2fs: check in-memory sit version bitmap"
-2267522d817e6d3554f69457bd9ce06aa367919a f2fs: validate ACL entry sizes in f2fs_acl_from_disk()
-79d15657b0f965d83faf8e50db2f96252e7c92eb f2fs: fix to do sanity check on f2fs_get_node_folio_ra()
-eab91fff4c007ed087b1d6ff90c2ee5f28f03405 f2fs: honor per-I/O write streams for direct writes
-9466cc89acf2cda87f58542f83ef614a638a3ab7 f2fs: validate orphan inode entry count
-36f1e91e79eaf1a722999f14d5ad304946ce325a f2fs: keep atomic write retry from zeroing original data
-2e15d10d6b48d233868c82d9994bda227f82ff79 f2fs: skip clean inode update during fsync
-e1cc5857f62d6c3ecf819964307e0b54961c6e18 f2fs: skip inode folio lookup for cached overwrite
-8fb34c6adad31afadad7e4f8d0a4bb6c9c43d79e f2fs: validate inline dentry name lengths before conversion
-3eaaa91b75b5cec9e23b59f89fffed72bcfa0b60 f2fs: validate dentry name length before lookup compares it
-4fed148ecb7370c03b57e5a17e365889e118fe65 f2fs: read COW data with the original inode during atomic write
-da71be74d736d9a871ea7428cf08b0be26838a21 f2fs: reject setattr size changes on large folio files
-41fcab219b9383e630d500b9416f37234a015c63 f2fs: Prepare for supporting delayed bio completion
-6911bc0a7c13c12a5703d402b3a087bf8433ed02 f2fs: Rename f2fs_post_read_wq into f2fs_wq
-aaeb5c931292f17705f6a65b86cf18f22e3ed457 f2fs: Split f2fs_write_end_io()
-4bc176a2433664087fe9c19052f1c6bc252f91fd f2fs: Run f2fs_write_end_io() asynchronously
+cb19b8a9add2ed3774c1276e0a3906e52e8cf39a locking/qspinlock: Clarify pending field layout
+d8c897b20bf4d4cbb1e935a8ceb666bcc0f82580 lockdep/selftests: Restore migrate_disable() state on PREEMPT_RT
+06961d60a0e410bf8df69ccff7eb1bd824912b8f lockdep/selftests: Restore sched_rt_mutex state on PREEMPT_RT
+813e5598e5b551a1fb82b516428ce2f135921122 nvdimm: Convert nvdimm_bus guard to class
+08d4a7837f008ea6031c1292aa839ad881d7b3f1 genirq: Move NULL check into irqdesc_lock guard unlock expression
+22302af28d3f7c3ca38536978c80db51d2a9e283 cleanup: Annotate guard constructors with nonnull
+a13ab9dd6eb2a89f14b466c3884730ea7969253f cleanup: Remove NULL check from unconditional guards
+c06cd66387da92e6cdac44e16c7b5ef9219c53ac percpu: Sanitize __percpu_qual include hell
+c1ffc9c6e4f8a13dd68e97920c9a24d095c6e41a futex: Move futex task related data into a struct
+d7b3f52c861f54ba2fff15696d3798277fb4c19f futex: Make futex_mm_init() void
+1f7f4816b9b05e5110bc1c8a05c3c478e2dae11b futex: Move futex related mm_struct data into a struct
+2cb5251d3d64d57c172185b9b608f704b3015f26 futex: Provide UABI defines for robust list entry modifiers
+6149fc36c09b91050b62e8e68a91027df8df7345 uaccess: Provide unsafe_atomic_store_release_user()
+7b125c44d0b7f617ee81dffd14ce116149d03cb6 x86: Select ARCH_MEMORY_ORDER_TSO
+1fd053d26f0333485cdbaa9d6e7b8cb53f54de95 futex: Cleanup UAPI defines
+3ca9595d9fb6cce6633a5b03d98c2aecb5499838 futex: Add support for unlocking robust futexes
+042df0c1d48609a85580dcbaff498c95ced20a5f futex: Add robust futex unlock IP range
+7010c39d8fc5063af69ee63f905e592e046f8e5d futex: Provide infrastructure to plug the non contended robust futex unlock race
+61cfc8e372d1971e0a96d3f1f8b5ee29916b3385 x86/vdso: Prepare for robust futex unlock support
+a2274cc0091ed4fdce10fad68d08c529b8d3e7dd x86/vdso: Implement __vdso_futex_robust_try_unlock()
+3f63e2545978abda58f2cf7ff0d7a2942965e8cb Documentation: futex: Add a note about robust list race condition
+608323bf7bb85bbb647eca4373acef247f105e67 selftests: futex: Add tests for robust release operations
+a40e0f8eadd44d7b0f856b54c876aea1b93415f4 cleanup: Specify nonnull argument index
+4770880855359b345314ca1d0b28f9be8886eba8 MAINTAINERS: Add RUST [SYNC] entry
+a837dd95e841586c3a6bbe41c41843b392a1b725 rust: sync: completion: Mark inline complete_all and wait_for_completion
+498cfcdb70aaaa6be16b367758dc8f785b00cf1f futex: Optimize futex hash bucket access patterns
+511aef8a15335fa4ac19ddd036905af35f35fff5 tracing/lock: Remove unnecessary linux/sched.h include
+af3bac85476958c1c3e20af8225823238380f4cc locking/percpu-rwsem: Extract __percpu_up_read()
+197a675f0715567d02c00050d87d9b1bfc8e790e locking: Add contended_release tracepoint to sleepable locks
 
---===============0033270764212430227==--
+--===============7076893873301660458==--
