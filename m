@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Wed, 10 Jun 2026 07:11:16 -0000
-Message-Id: <178107547628.95346.3448646804722460289@gitolite.kernel.org>
+Date: Wed, 10 Jun 2026 07:11:20 -0000
+Message-Id: <178107548057.95558.11637205310470292386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 7d4ea0365c8f5d6d685a52ed2ffbfb0c98f002a3
-    new: dc5200f6b1ada318463dd141b041ec9f044b2bf5
+  - ref: refs/heads/m68k-queue
+    old: 4625eb32b371ececcb4acb0a2847dd6c28342272
+    new: 24329a4a53fd3ed896e9f2e398f9b9d34eed8e5f
     log: |
-         dc5200f6b1ada318463dd141b041ec9f044b2bf5 m68k: Correct CONFIG_MVME16x macro name in #endif comment
-         
-  - ref: refs/heads/for-v7.2
-    old: 7d4ea0365c8f5d6d685a52ed2ffbfb0c98f002a3
-    new: dc5200f6b1ada318463dd141b041ec9f044b2bf5
-    log: |
-         dc5200f6b1ada318463dd141b041ec9f044b2bf5 m68k: Correct CONFIG_MVME16x macro name in #endif comment
-         
-  - ref: refs/heads/master
-    old: cad73cc983b523309017ac816f5b15a2693d0808
-    new: 06711a7235a6e2f2bc4499dc1384c0cf3de5b188
-    log: |
-         06711a7235a6e2f2bc4499dc1384c0cf3de5b188 m68k: Correct CONFIG_MVME16x macro name in #endif comment
+         5b0c53526be7949687d4cd6d88206c1eb100c173 m68k: Correct CONFIG_MVME16x macro name in #endif comment
+         eb944d85ceec8796f48f4fa9c899d79da1db3e3f m68k: atari: usb: Add ISP1160 USB host controller support
+         81ab4a7b34abbd7147622973bd669a4544c5272a m68k: atari: Update Kconfig.bus help text
+         24329a4a53fd3ed896e9f2e398f9b9d34eed8e5f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
          
