@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 10 Jun 2026 09:09:13 -0000
-Message-Id: <178108255383.182915.13158929284354338279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 10 Jun 2026 09:11:49 -0000
+Message-Id: <178108270987.186069.721784236535033203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/master
-    old: a325aefa05e45719bcf7bec118b7d9ba8acdc8f5
-    new: 265fd45d2510922b46ea381c714a599913f34e0a
+  - ref: refs/heads/for_next
+    old: 73de60734a089106cd3029a68c1d5792b65bd06b
+    new: 42093d1948d2de3991a8b20ac5d12df13b941aad
     log: |
-         51d349f44c6142a6e615698ed91d87251b126043 docs: clarify unshare --map-users/--map-groups overlap behavior (#3838)
-         505b756b30963706b8cd29a980fde7d28ec9e4e1 Merge branch 'docs/3838-unshare-map-overlap' of https://github.com/mvanhorn/util-linux
-         265fd45d2510922b46ea381c714a599913f34e0a docs: unshare: split --map-users/--map-groups into readable paragraphs
+         17171128513b2e06aa68f8e889dc35f785e800ab fanotify: report thread pidfds for FAN_REPORT_TID
+         82c6dd20479bb6a9625e1d63a650c3be8865e2db fanotify: allow reporting pidfds for reaped tasks
+         42093d1948d2de3991a8b20ac5d12df13b941aad Pull fanotify pidfd reporting for threads and dead tasks.
          
