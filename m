@@ -1,57 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7731690448126224627=="
+Content-Type: multipart/mixed; boundary="===============5711115772983021654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 10 Jun 2026 10:27:00 -0000
-Message-Id: <178108722034.244785.9365825655207983512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 10 Jun 2026 10:30:25 -0000
+Message-Id: <178108742599.247850.16628442408145944999@gitolite.kernel.org>
 
---===============7731690448126224627==
+--===============5711115772983021654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4316acc7ddaaa4572da1a55a2bc561d341c9c2a4
-    new: e47832c73b83ec21e67026726a1c8124697792af
+  - ref: refs/heads/for-next
+    old: ab7be7ed913086e076bfd8aba79f614f415cd6dc
+    new: 6736b1801908acfa64ef2b651c5bb78389a8a4c6
     log: |
-         96d47e40bf9db4a9efd5c8fb53287a508d165f14 USB: serial: kl5kusb105: fix bulk-out buffer overflow
-         e47832c73b83ec21e67026726a1c8124697792af Merge tag 'usb-serial-7.1-rc8' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         56b7981c6f21670c0a1a62e6d2f9afb380e2596d platform/x86: hp-wmi: Add support for Omen 16-ap0xxx (8E35)
+         3b9f95b5a45786f1ca3feff7a736f30f60af08c7 platform: arm64: qcom-hamoa-ec: Fix indentation in comment tables
+         6736b1801908acfa64ef2b651c5bb78389a8a4c6 platform/x86/intel/tpmi: convert mutex in mem_write() to guard
          
 
---===============7731690448126224627==
+--===============5711115772983021654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781087161 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1781087216-a1cb18592489b50f31c5d4a146efc7bf5a9ec794
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1781087423 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1781087423-7d792fa7ecc4b6377f25d41e0e9275e5a9b48032
 
-4316acc7ddaaa4572da1a55a2bc561d341c9c2a4 e47832c73b83ec21e67026726a1c8124697792af refs/heads/usb-linus
+ab7be7ed913086e076bfd8aba79f614f415cd6dc 6736b1801908acfa64ef2b651c5bb78389a8a4c6 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmopO7kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+syQP/jqX461eUbur/dBOgnFt
-6yy9/sWfWx4vLQ5RNstXLfslqZBgCgIndsbopDW2CFcTwurMfLV1OZJOC4d4ABIu
-j6WaE7bC2I0xULUdAb4l+d6MNKQpu1X11mtVH74sDIrCVfd/exrs0GuILW4aVyKd
-t4AFs8tzCEIgtzzc3VdUVERnykGsdeUg+d6GOZN2Sp/ShFZMe4SlGoZ20bTMz4qh
-JW5Ys27Wyb4XBvvXr0E2tQxckTsmFS0q59j5XesdeWOx5GZLaSF1GTrZulc65hyV
-X/SQzR7uYRyx3vDXa0xD4A50yjbG1mlhWvVYmnUkRgcHs9xxIwbkMX36ZQ4KSq6z
-9mo42m2G4Ocysx4SN5nyvpwmGevquiJRc7P8J/CWJP97DDNTlZT/VaXt4OlpdH9r
-79F1jsCE5PrW/6iBcFNG2nSozeAmoYOrrfm9Fyp4snlq4Sl7hwkX8KjmMqYivBzH
-J4AqjjskvlK6pqeNBtPvVianEcxOQBgnFN+IUydoVl1414KTPIYPz0EFA/AECzei
-P2+KKBoYt1HX0d/eZ/geZk+QEz8EuwcSKnZyyyrJlH6caOH+j+7vvhrg9LY4I2MM
-3vReTBvxcxN/lM6SKn/MxgLQfw2ouWQmc5I0Onf7ioY30/KAGHMajQ/QrDHqOFbB
-+BEJmn7Uh945dnllMDMv2xty
-=C+Y+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaik8wQAKCRBZrE9hU+XO
+MWvJAPoDYpCTmyUJNWdew2usqqyFwyUMFr0ZLpF7f59wsv8hWwD/TF+qS85RyCoi
+tXtl84he8IBPQTGg7m/cGOFvL3/2ewE=
+=UM0R
 -----END PGP SIGNATURE-----
 
---===============7731690448126224627==--
+--===============5711115772983021654==--
