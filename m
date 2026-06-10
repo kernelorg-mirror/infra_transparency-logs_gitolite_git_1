@@ -1,43 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8713448456569644827=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 10 Jun 2026 01:47:44 -0000
-Message-Id: <178105606470.4050112.11523108379659368547@gitolite.kernel.org>
-
---===============8713448456569644827==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 10 Jun 2026 01:49:32 -0000
+Message-Id: <178105617268.4050816.13893717758943948707@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/feature/custom-msgid-cmd
-    old: 0000000000000000000000000000000000000000
-    new: c347ae65f72482bd5a8068a5360b93554fd3bea0
-
---===============8713448456569644827==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1781056063 +0000
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1781056063-26ac00a31fac3940220dcb24d772f3361d0cbac5
-
-0000000000000000000000000000000000000000 c347ae65f72482bd5a8068a5360b93554fd3bea0 refs/heads/feature/custom-msgid-cmd
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaijCPwAKCRC2xBzjVmSZ
-bPSDAP0SxqwzhiHhOcyhVeZhQcJtC7R3THyGcnatM1NGlh9dQQD/fhiEhPo6aBo/
-o9sCdMFU0YHBGylsciQ92K3zH+WU0A0=
-=KbLn
------END PGP SIGNATURE-----
-
---===============8713448456569644827==--
+  - ref: refs/heads/main
+    old: 61abe5db23f0799e602352c796de6fcf76d23b41
+    new: f511d2c4e0742ceed4a6e27493b72f9ab1183fa1
+    log: |
+         f511d2c4e0742ceed4a6e27493b72f9ab1183fa1 selftests: net: add getsockopt_iter binary to .gitignore
+         
