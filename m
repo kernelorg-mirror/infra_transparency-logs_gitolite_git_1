@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 10 Jun 2026 15:29:48 -0000
-Message-Id: <178110538880.476117.14592445328845564440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 10 Jun 2026 15:30:36 -0000
+Message-Id: <178110543603.478651.16620539282007159231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 04fc949bd3aad390e61e73549070d00277404d64
-    new: c8459ee2fef502d6ef6c063751c33d9ac7943eab
+  - ref: refs/heads/master
+    old: 06528e2f5fc9339c01261866f237af7075f6fb60
+    new: 559cab24b04e1daf8c3ca274005ba6d05908ce3a
     log: |
-         cf14ed49802ea3d1feedc84c604826ca37c51d27 net: dsa: tag_yt921x: handle ACL tag code
-         8eb9e7520b17abdea1a0308f483990ae019aa1c1 net: dsa: yt921x: Add ACL support
-         1225253dc50ce7154d3c0247c11f1e8b3ec92aeb Merge branch 'net-dsa-yt921x-add-acl-support'
-         c8459ee2fef502d6ef6c063751c33d9ac7943eab sctp: Unwind address notifier registration on failure
+         246dc2ed724b43f82854fb0131ad94a253870a35 Bluetooth: hci: validate codec capability element length
+         801f756504d1bbddb25fbc810fcf326b1184c381 Bluetooth: L2CAP: validate connectionless PSM length
+         850685a031e1429131e7111b82a86e86b46164dd Bluetooth: vhci: validate devcoredump state before side effects
+         559cab24b04e1daf8c3ca274005ba6d05908ce3a Bluetooth: qca: Add BT FW build version to kernel log
          
