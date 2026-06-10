@@ -1,28 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 10 Jun 2026 15:39:21 -0000
-Message-Id: <178110596165.484729.9396146809351074372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 10 Jun 2026 15:39:48 -0000
+Message-Id: <178110598802.485152.852013887317251458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-7.1/upstream-fixes
-    old: 73fde0cbff7d9d618591774a12c23434232752c1
-    new: 4b0f556deb9af714dd87c309dc125f32098aeb9d
+  - ref: refs/bugs/6d1d35ce38a69caf96b7d5f918a924d1f80f167e2cbc032b29558f6e2185b3b2
+    old: e1005505c3f5269d3f0635bef23e40e13b812cc0
+    new: f7486573b1a7f67f18d884baa4d3eddc98a8c396
     log: |
-         df72cacda33f097a6cf891134a411e5fe953b276 HID: lenovo: Add support for ThinkPad X13 Folio keyboard
-         4b0f556deb9af714dd87c309dc125f32098aeb9d HID: lenovo: Use KEY_PERFORMANCE capability for ThinkPad X12 Tab Gen 2
+         f7486573b1a7f67f18d884baa4d3eddc98a8c396 
          
-  - ref: refs/heads/for-next
-    old: 2c1fc1e33689234b6a285635769913ad4c993e00
-    new: 5c1c8ad4a841502bf70a2d32ce1c44ec67a5719f
+  - ref: refs/bugs/a01c5b50f6181ff63e573af697d614e860fe4e6e956fdd642b6c918985d054d0
+    old: 4c508c2cb5941f1856fcb9a62e7325fc06d0b7c7
+    new: dfdc2a3b2513c7c3b704f86cbf238efef997a82f
     log: |
-         df72cacda33f097a6cf891134a411e5fe953b276 HID: lenovo: Add support for ThinkPad X13 Folio keyboard
-         4b0f556deb9af714dd87c309dc125f32098aeb9d HID: lenovo: Use KEY_PERFORMANCE capability for ThinkPad X12 Tab Gen 2
-         5c1c8ad4a841502bf70a2d32ce1c44ec67a5719f Merge branch 'for-7.1/upstream-fixes' into for-next
+         d49655595002abf47aa69837b8493500846be46e 
+         3ce3f00beb9659f6759d9a010266a9fa95ee1539 
+         3e55c61b29b176a20620ac68cd521c55198eeb88 
+         7cf60e85edb4071f9370a4ac3fdc00f9933263ee 
+         dfdc2a3b2513c7c3b704f86cbf238efef997a82f 
          
