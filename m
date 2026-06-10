@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 10 Jun 2026 05:36:08 -0000
-Message-Id: <178106976865.28067.14914693419858647145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 10 Jun 2026 06:07:12 -0000
+Message-Id: <178107163298.49309.9200385892756853951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: c381039ade2e161ab08c0eda73c4f8b9a7115928
-    new: 26aad08a928901296aabfbc7a33ecb951656bb98
+    old: d4579af29e67ca8722db0a1194227f8015c8981d
+    new: ead562291438b5657d7e4d5e8d6d54611b132370
     log: |
-         26aad08a928901296aabfbc7a33ecb951656bb98 esp: fix page frag reference leak on skb_to_sgvec failure
+         ead562291438b5657d7e4d5e8d6d54611b132370 Input: ipaq-micro-keys - simplify allocation
+         
+  - ref: refs/heads/next
+    old: d4579af29e67ca8722db0a1194227f8015c8981d
+    new: ead562291438b5657d7e4d5e8d6d54611b132370
+    log: |
+         ead562291438b5657d7e4d5e8d6d54611b132370 Input: ipaq-micro-keys - simplify allocation
          
