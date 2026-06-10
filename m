@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 10 Jun 2026 17:53:37 -0000
-Message-Id: <178111401790.597146.13058412247232190280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 10 Jun 2026 17:54:40 -0000
+Message-Id: <178111408011.597872.4753838903441303177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: 4c0c9ecb2120891eebc974b7daa9b7c49c47ec04
-    new: a1f96cf00827e5c3219cbad7042c83e1a802a5bf
+  - ref: refs/heads/for-next
+    old: 7bc02ab446d38d8d56c548abcb974dfd6fade147
+    new: 03a10859061b7f6939babd3e9b5d5a891a93c836
     log: |
-         0e7041eb96fa9c07ec57dd8b4088f03b7939cdd3 cxl/port: update reference to removed CONFIG_PROVE_CXL_LOCKING
-         71a1def165267bc0947d4236f7336f490739c379 cxl/test: Verify cmd->size_in before accessing payload
-         33391825cb0bf25bd558ba510c6e9d553a1715d6 cxl/test: Fix integer overflow in mock LSA bounds checks
-         e76e179403da6839508cb883ee31de189e537289 cxl/test: Zero out LSA backing memory to avoid leaking to user
-         a1f96cf00827e5c3219cbad7042c83e1a802a5bf Merge branch 'for-7.2/cxl-misc' into cxl-for-next
+         03a10859061b7f6939babd3e9b5d5a891a93c836 ALSA: 6fire: Use common error handling code in usb6fire_control_init()
+         
+  - ref: refs/heads/master
+    old: a6bb28c8c6bcc7218eb7c978362fc1f40549abd6
+    new: 6ef2560a255e7da360738385244de0fb239609c8
+    log: |
+         03a10859061b7f6939babd3e9b5d5a891a93c836 ALSA: 6fire: Use common error handling code in usb6fire_control_init()
+         6ef2560a255e7da360738385244de0fb239609c8 Merge branch 'for-next'
          
