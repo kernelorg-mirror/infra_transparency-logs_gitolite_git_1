@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 10 Jun 2026 15:56:28 -0000
-Message-Id: <178110698854.504172.18157276912865489668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 10 Jun 2026 15:57:50 -0000
+Message-Id: <178110707078.504698.10649384865402732040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/bugs/6d1d35ce38a69caf96b7d5f918a924d1f80f167e2cbc032b29558f6e2185b3b2
-    old: f7486573b1a7f67f18d884baa4d3eddc98a8c396
-    new: 58918720d5b5623a2fb8aea5345c70d28a2fd53e
+  - ref: refs/heads/driver-core-next
+    old: a7a7dc5c46a036e8a581a4269839d92aded0e0ea
+    new: fe221742e388bea3f5856b5d9b2cb0a037020ea4
     log: |
-         58918720d5b5623a2fb8aea5345c70d28a2fd53e 
+         fe221742e388bea3f5856b5d9b2cb0a037020ea4 software node: allow passing reference args to PROPERTY_ENTRY_REF()
          
