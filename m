@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5784258001313860162=="
+Content-Type: multipart/mixed; boundary="===============5626089163605212584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 10 Jun 2026 09:56:02 -0000
-Message-Id: <178108536244.219021.6847945565527893064@gitolite.kernel.org>
+Date: Wed, 10 Jun 2026 09:56:29 -0000
+Message-Id: <178108538967.219432.13050048068349594711@gitolite.kernel.org>
 
---===============5784258001313860162==
+--===============5626089163605212584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
+  - ref: refs/heads/master
     old: bf6ad2d59441b2b37d38859b599f800fa8001571
     new: a2327a4891a7216308446ee0faceddcbb3fa8d5e
     log: revlist-bf6ad2d59441-a2327a4891a7.txt
 
---===============5784258001313860162==
+--===============5626089163605212584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b7be176c26862e0ad10661cd05f57261815766a8 tpm: tpm_tis: Add settle time for some 
 44fd64ef6f52d655c2e978abefa2073fae772e4a tpm: tpm2-sessions: wait for async KPP completion in tpm_buf_append_salt
 a2327a4891a7216308446ee0faceddcbb3fa8d5e tpm: tpm_crb_ffa: revert defered_probed when tpm_crb_ffa is built-in
 
---===============5784258001313860162==--
+--===============5626089163605212584==--
