@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Wed, 10 Jun 2026 18:28:33 -0000
-Message-Id: <178111611319.626100.8624718962346446348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 10 Jun 2026 18:28:42 -0000
+Message-Id: <178111612220.626361.4036970747285856938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 12225d69c5b8656c28003ef345340881712b45b6
-    new: 6b38190d2d66968b637dada5c8af9226ca8a7a5b
+  - ref: refs/heads/master
+    old: 6ea27ab0dcfc1ac38467d8e88ceccb5784494cb5
+    new: 8c821a150b8f5319b8201b5e7d8fdaa6a67d3bd1
     log: |
-         3abdf7bf7b24d40e862b8df55e1925122e67b765 rteval: cyclictest: Improve handling of truncated histogram output
-         6b38190d2d66968b637dada5c8af9226ca8a7a5b rteval: timerlat: Improve handling of truncated histogram output
+         8c580d30d2655f75796c31ca0d496ffd1578cb46 btio: Handle EOPNOTSUPP from accept() to prevent busy loop
+         abf0911e25ef414f06b895b22a6a9aa05c03360e profile: Check if bearer is enabled on registration
+         7b5895d8063505798ec5988a4b3bb545834afb1a plugins: Check btd_profile_register return value
+         8c821a150b8f5319b8201b5e7d8fdaa6a67d3bd1 bearer: Check btd_opts.mode on btd_bearer_new
          
