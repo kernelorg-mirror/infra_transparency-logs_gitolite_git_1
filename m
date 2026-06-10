@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 10 Jun 2026 19:56:52 -0000
-Message-Id: <178112141262.691784.10050461662669013483@gitolite.kernel.org>
+Date: Wed, 10 Jun 2026 19:59:28 -0000
+Message-Id: <178112156896.692692.17407765134392632303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
   - ref: refs/heads/kbuild-next
-    old: 1a1e62a5a48494cdf33e3bfb82fb8f408da7c4cc
-    new: 9ee7316c26e65f034c797c47ad75d2665811881e
+    old: 9ee7316c26e65f034c797c47ad75d2665811881e
+    new: 7158c5b67e92e52c2ca9a3617a7e768a84031da1
     log: |
-         9ee7316c26e65f034c797c47ad75d2665811881e kbuild: Use ld.lld for linking host programs when LLVM is set
+         7158c5b67e92e52c2ca9a3617a7e768a84031da1 kbuild: Use ld.lld for linking host programs when LLVM is set
          
