@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 10 Jun 2026 05:07:34 -0000
-Message-Id: <178106805418.7276.15153858125150987421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 10 Jun 2026 05:36:08 -0000
+Message-Id: <178106976865.28067.14914693419858647145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: e3bfd46b654429c8e854f00a2888612b941416e5
-    new: cced43a5fce480c06ca818723c9bb150b49409d7
+    old: c381039ade2e161ab08c0eda73c4f8b9a7115928
+    new: 26aad08a928901296aabfbc7a33ecb951656bb98
     log: |
-         db109fe30ee0c3bf313478e91fba13bb1ce7eb31 patches/next: add damon_call() failure handling fixes
-         315747c78ef40ce833f3143bb2f67dbf65d9be08 todo-reported: add items for new Sashiko findings
-         f7128bf7b18a1f234761c55f6fc383327850cde0 patches/mm: update
-         cced43a5fce480c06ca818723c9bb150b49409d7 patches/next: rebase to latest mm-new
+         26aad08a928901296aabfbc7a33ecb951656bb98 esp: fix page frag reference leak on skb_to_sgvec failure
          
