@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8742103911169325819=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 10 Jun 2026 00:46:29 -0000
-Message-Id: <178105238976.3993581.2810301053857639291@gitolite.kernel.org>
-
---===============8742103911169325819==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 10 Jun 2026 00:53:13 -0000
+Message-Id: <178105279388.3998584.12984873714811022525@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 5abcba179fd63c623bef2242753b316d2b2a1c06
-    new: b5cefe0edeec51a1d2ee6894e233b1f7b82dec15
+  - ref: refs/heads/main
+    old: 81a699ccd3091915d00da847df8dac0d1b131693
+    new: 53a65db20a4f3fe6c01b1f789f9eae6b1244910f
     log: |
-         b5cefe0edeec51a1d2ee6894e233b1f7b82dec15 bugs/tui: fix stale label list in bug detail view after label edit
+         0bfd6c8c959d07804275012415fcb04740dc5f9b net: phy: motorcomm: move mdio lock out from yt8531_set_ds()
+         284975d609d09565e7a381f83ed1e9851dc91322 net: motorcomm: phy: set drive strength in YT8531s RGMII
+         554cfeb72e093102896f3f8b638c81a460f6449b net: phy: motorcomm: Add YT8522 100M RMII PHY support
+         e8b38659decc03392200e082cdf3c57e9a4791b9 Merge branch 'add-motorcomm-8531s-set-ds-func-and-8522-driver'
+         e0a77b1ed9001bdd0c73b99c67abb90f4bd7d7f5 net: dsa: qca8k: Add support for force mode for fixed link topology
+         53a65db20a4f3fe6c01b1f789f9eae6b1244910f net: mana: Add support for PF device 0x00C1
          
-
---===============8742103911169325819==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1781052388 +0000
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1781052388-6ad082ae94939b9f44c903545cad8578b8d993f6
-
-5abcba179fd63c623bef2242753b316d2b2a1c06 b5cefe0edeec51a1d2ee6894e233b1f7b82dec15 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaiiz5AAKCRC2xBzjVmSZ
-bPnqAP9qGTpb/nA7qTH9XTsVXPyhBTWCwmk3bpFlRmVlSGEmxAD+ILC2Ae0G2LVl
-x0VB4V2xwUwZkNiGNJIX2NMBfWiO9ws=
-=3HGj
------END PGP SIGNATURE-----
-
---===============8742103911169325819==--
