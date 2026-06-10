@@ -1,61 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1130134276228875261=="
+Content-Type: multipart/mixed; boundary="===============7454961775428643570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 10 Jun 2026 08:29:33 -0000
-Message-Id: <178108017372.152087.2046892347710717315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wtarreau/sec-reports
+Date: Wed, 10 Jun 2026 08:39:41 -0000
+Message-Id: <178108078165.159750.5046540456479248724@gitolite.kernel.org>
 
---===============1130134276228875261==
+--===============7454961775428643570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/wtarreau/sec-reports
+user: wtarreau
 changes:
-  - ref: refs/heads/main
-    old: 4cd243ef30d185e99098d2191302a3dc49bfef58
-    new: 21352612198c83a8441482abbf3bd45e4f128dd0
-    log: |
-         682edc28b91c2f1bba32e1c6815c33ef799ec538 b43: add firmware mappings for rev22
-         ee81dc7636fb808a5f480d2767130a7cf3554f9a b43: add d11 core revision 0x16 to id table
-         2691a1ae6bcc7c8a12ba10af99d1283a0bf69e9d b43: route d11 corerev 22 to 24-bit indirect radio access
-         454518d95d07ce0ea3d9f16cef33fd17e3d8a1f0 b43: support radio 2057 rev 8
-         894f1482b2f9476d23b803c284fa06af31ecd018 b43: add IPA TX gain table for N-PHY r8 + radio 2057 r8
-         631c004e5f4549519f29d1acdb1dd92ac843392d b43: add channel info table for N-PHY r8 + radio 2057 r8
-         21352612198c83a8441482abbf3bd45e4f128dd0 b43: add RF power offset for N-PHY r8 + radio 2057 r8
-         
+  - ref: refs/heads/master
+    old: 90130e9059cb72f093caa933a0928381a97cbbcf
+    new: 405f0d9db9d2bbe2b1941ea45c960b59e5d825d4
+    log: revlist-90130e9059cb-405f0d9db9d2.txt
 
---===============1130134276228875261==
+--===============7454961775428643570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-90130e9059cb-405f0d9db9d2.txt
 
-certificate version 0.1
-pusher 7BF9099A 1781080114 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1781080113-5120aefa424ab091583990903d02fda48c662ae2
+47549a6a9b50aee6c725e50377ad883fd441c9f2 textonly: respect the Content-Length header to delimit the message body
+e30b283e293884a20d657a3df7796788e54bbb56 textonly: emit the produced body length for Content-Length recomputation
+563df873513e45717e8fc1c443f209ebb4e26096 append-lines: cleanup leftover trailing spaces in code
+14fa4e1de4ca055b0d2f34ea640c6057d5c0c1ab append-lines: re-introduce an accurate Content-Length header
+98612ee2c36c814373444941410662a9d11bfeb2 process-mbox: pass content-length between textonly and append2lines
+c8ad0f50cb593c89f578e0c011c9ec1baf8a5039 textonly: centralize Content-Length accounting in consume()
+6d63985f229172206165dcc5244e3c1550e233d0 textonly: centralize MIME boundary detection in boundary_level()
+85f12e299010a0162fe3f653d7606d229350a5a1 textonly: extract leaf body emission into dump_leaf()
+1dcd2004d75a66932ac46063781662cc825ef80d textonly: fix closing-delimiter detection in multipart parsing
+b606f72ce8e93e0b3610f8aeb6381b14e0ad7217 textonly: walk multipart parts recursively
+e6391569f8960d43d57bb3d1a76136311f9c4f8c textonly: add -q to quote the kept body
+d8206d0375579d5d381f256a17b2a5966e250fcf textonly: print usage message when getting -h
+03c16573fc1e4d4a778567e558d232129143d2ee append-lines: parse options in a single switch/case loop
+22e6d277efe542d7d23f294618f1e5caf682384f append-lines: add -h to print a short usage summary
+405f0d9db9d2bbe2b1941ea45c960b59e5d825d4 process-mbox: also request to CC maintainers
 
-4cd243ef30d185e99098d2191302a3dc49bfef58 21352612198c83a8441482abbf3bd45e4f128dd0 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmopIDIACgkQ10qiO8sP
-aADtgA/+N87ltYGwCRzJLVn18hDQUPHCquciSWA1BEzryFXvISA7DgCJdzyQTheE
-OD3KNHK0xFHU9TmMl2/ty2nTrvfeXw6v0Vn1JsDLSjJL3XqNAQBVDVe1gnoae+kR
-mAzBOYgYro+9hbFTE1cAfB0ezzUTYmO8ZptbGfaRIwGbdjl4GzW2XYjxrmHVH19a
-ge/Ni0olDkRVBaz4WGaobIYzJLG0IgiqLtZS4BcdYWn/NcEW9XodfvMVex2KBg94
-IF3nqc0GYYpIHuGJoF5Da7hrZnT+YfAJ9MNuu+gVEwham6h5j6/9bL0yTlfc0R1C
-yF2vWsVMdPG25QSr4KSsDRxXw8f77IVoO8mWwQxUj6ikGdZz/88P0xmrF9UeqjkN
-aDHXvqZ8HLKroImgWLYwZP/25hMHO1BWCvb1sLnm1JVdz/rc+tJGXRuYii5LKiQM
-BojZmJPnuNKHfrEBr72/GREv/BCZR853VEZvg3otTfJi0ISfSh3GorO/B3W50Fwv
-W3AjJ1RgLIfTaYs8zLDhyAVyIEuqUwKS8wmF1hIG6DNFnWrvLkBWz4vy4Pl8i+PY
-eAmPqtsKb5WNGQ57j5uRFOUVepjPIF09EKKxyf8j2uogvjrTAzV+Ql7wHUv2+CHk
-9RKSeK4CyBi4zvt6Hr3y6nTmiHIdHqYg/37hFDPKDnZZ6WmSyNY=
-=2fTp
------END PGP SIGNATURE-----
-
---===============1130134276228875261==--
+--===============7454961775428643570==--
