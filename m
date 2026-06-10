@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 10 Jun 2026 15:35:28 -0000
-Message-Id: <178110572881.482436.1717571526552187268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 10 Jun 2026 15:35:36 -0000
+Message-Id: <178110573693.482961.7715980319029819911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/for-next
-    old: 6dfdaeea9392b734df642e1d08da8f44ccbc5935
-    new: 2c1fc1e33689234b6a285635769913ad4c993e00
+  - ref: refs/heads/xfs-7.2-merge
+    old: 4f16139d8e296ec5403c3ebbe874dcd5c57648ca
+    new: dfac6ba84819bd12535943c4090766bbc6c5ea7e
     log: |
-         c0be05f68a2145d566a44805f22896f141316cf1 HID: cp2112: Add fwnode support
-         efab84c398c17d2575e8a308c243915baae3affa HID: cp2112: Configure I2C bus speed from firmware
-         2c1fc1e33689234b6a285635769913ad4c993e00 Merge branch 'for-7.2/cp2112' into for-next
+         16fc9d358d12e6e9cc553162b4064ad58e7fa869 xfs: factor out a xfs_zone_mark_free helper
+         ae3692c7f440c1ff577aae1a51202415ec4a794b xfs: add newly added RTGs to the free pool in growfs
+         44cccefe65749821d9a13523c8b763bf1262ef73 xfs: only log freed extents for the current RTG in zoned growfs
+         327e58826eb72f8bae9419cf1a4e722b57c85694 xfs: initialize iomap->flags earlier in xfs_bmbt_to_iomap
+         84eec3f7fc73144d1a230c9e8ad92721e37dcaab xfs: fix pointer arithmetic error on 32-bit systems
+         4cb6e89a3d901d4da515977e55f9a9a779238660 xfs: pass back updated nb from xfs_growfs_compute_deltas
+         dfac6ba84819bd12535943c4090766bbc6c5ea7e xfs: cleanup xfs_growfs_compute_deltas
          
-  - ref: refs/heads/for-7.2/cp2112
-    old: 0000000000000000000000000000000000000000
-    new: efab84c398c17d2575e8a308c243915baae3affa
