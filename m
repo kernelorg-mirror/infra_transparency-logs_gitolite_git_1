@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Jun 2026 22:04:50 -0000
-Message-Id: <178121549080.1870403.8598784788427010071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 11 Jun 2026 22:10:57 -0000
+Message-Id: <178121585778.1876660.3534442796885583483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 22e2036479cb77df6281ebbd376ae6c330774790
-    new: 0b7b378ce6cafbb948786cb6f17f406d94016c8c
+    old: dad4d4b92a9b9f0edb8c66deda049da1b62f6089
+    new: 034b95cf69e0b1d5490a00b0305426762938a035
     log: |
-         0b7b378ce6cafbb948786cb6f17f406d94016c8c net: dsa: qca8k: fix led devicename when using external mdio bus
+         034b95cf69e0b1d5490a00b0305426762938a035 bnx2x: fix resource leaks in bnx2x_init_one() error paths
          
