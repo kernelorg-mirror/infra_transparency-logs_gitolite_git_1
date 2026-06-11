@@ -1,114 +1,181 @@
-Content-Type: multipart/mixed; boundary="===============2628103390784873591=="
+Content-Type: multipart/mixed; boundary="===============2223811197357249438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 11 Jun 2026 20:57:22 -0000
-Message-Id: <178121144255.1820247.3488444888769940541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 11 Jun 2026 20:59:12 -0000
+Message-Id: <178121155262.1821186.11618327340601954365@gitolite.kernel.org>
 
---===============2628103390784873591==
+--===============2223811197357249438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 9716c086c8e8b141d35aa61f2e96a2e83de212a7
-    new: 2b414a95b8f7307d42173ba9e580d6d3e2bcbfce
-    log: revlist-9716c086c8e8-2b414a95b8f7.txt
+  - ref: refs/heads/jch
+    old: a57a595f62ed97db4a241f8b4d96dd60bcf62bfb
+    new: 4fd8c0c5aed6820ba7683c7ebae8a00e214dc8f4
+    log: revlist-a57a595f62ed-4fd8c0c5aed6.txt
+  - ref: refs/heads/next
+    old: 7b1980befcad838a440dd908397520459faf403d
+    new: c89a71798aa1c4f36fbb10bd6c1ff6f5264c0512
+    log: |
+         ff7901eca30c308ef5a448ebd56eaf363b58a02e bash-completions: add --max-count-oldest
+         c89a71798aa1c4f36fbb10bd6c1ff6f5264c0512 Merge branch 'mf/revision-max-count-oldest' into next
+         
+  - ref: refs/heads/seen
+    old: 51e971d35c8096d669dcde3bebd70574fae83b2d
+    new: ae8f0c9ae2879417e40e0621dbad833bc47c39e3
+    log: revlist-51e971d35c80-ae8f0c9ae287.txt
+  - ref: refs/notes/amlog
+    old: 46348d665c4c58d5cc8e5b333c1700d6a848e3ca
+    new: 45b713293b7ca6e80ccec4eae6876b670a2a0004
+    log: revlist-46348d665c4c-45b713293b7c.txt
 
---===============2628103390784873591==
+--===============2223811197357249438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9716c086c8e8-2b414a95b8f7.txt
+Content-Disposition: attachment; filename=revlist-a57a595f62ed-4fd8c0c5aed6.txt
 
-e9096a5a170e7ecd6467bc2e08668ec39897cda7 xfrm: iptfs: preserve shared-frag marker in iptfs_consume_frags()
-eb48730bb827d1550401a5d391903f9d90b493c8 xfrm: iptfs: fix use-after-free on first_skb in __input_process_payload
-4db207599acfc9d676340daa2dc6b52bfca17db4 pmdomain: ti_sci: add wakeup constraint to parent devices of wakeup source
-fba0510cd62666951dcc0221527edc0c47ae6599 pmdomain: imx: fix OF node refcount
-7f2d76c9c03257c0782afef9d95321fa04096f60 xfrm: policy: fix use-after-free on inexact bin in xfrm_policy_bysel_ctx()
-32594b09854970d7ba83eb2dc8c69a2edd158c8e inet: frags: fix use-after-free caused by the fqdir_pre_exit() flush
-4aacf509e537a711fa71bca9f234e5eb6968850e net: mv643xx: fix OF node refcount
-c8a8a75b733467b00c08b91a38dbaf207a08ed6e xfrm: iptfs: fix ABBA deadlock in iptfs_destroy_state()
-c381039ade2e161ab08c0eda73c4f8b9a7115928 xfrm: espintcp: do not reuse an in-progress partial send
-f1fa677e428e8873486938086bd934dc18169b47 ice: fix missing priority callbacks for U.FL DPLL pins
-85b0cbc1f38bc1e38956a9e6d7b04d309b435697 idpf: fix mailbox capability for set device clock time
-c93952cc0034dc491cf082d1df11e996513a53ed Merge branch 'intel-wired-lan-driver-updates-2026-06-02-i40e-ice-idpf'
-f9f25118faa4dd2b6e3d14a03d123bbdbd59925d net: airoha: Add NULL check for of_reserved_mem_lookup() in airoha_qdma_init_hfwd_queues()
-954981dbbfbd78f21d2fbac1ac0742dbf38b4e69 net: ena: PHC: Add missing barrier
-3847d94783c0b893c27ff0b26a3325796d9444c6 bnge: fix context mem iteration
-9772589b57e44aedc240211c5c3f7a684a034d3a netlabel: validate unlabeled address and mask attribute lengths
-b9ad50d7505ebd48282ec3630258dc820fc85c81 gpio: mvebu: fix NULL pointer dereference in suspend/resume
-1f57f68c4dd101e5e8ffc9ffa6428f45bcdd776a s390: Remove GENERIC_LOCKBREAK Kconfig option
-5d39580f68e6ddeedd15e587282207489dfb3da2 tcp: restrict SO_ATTACH_FILTER to priv users
-f2bb3434544454099a5b6dec213567267b05d79d net: add pskb_may_pull() to skb_gro_receive_list()
-2365343f4aad3e1b1e7a2e87e98cf66d5e590589 net/mlx4: avoid GCC 10 __bad_copy_from() false positive
-a0130d682222ae21afc395aead7cd2d87e1a8358 net: ibm: emac: Fix use-after-free during device removal
-71de0177b28da751f407581a4515cf4d762f6296 net: phonet: free phonet_device after RCU grace period
-c849de7d8757a7af801fc4a4058f71d481d367f2 netdev: fix double-free in netdev_nl_bind_rx_doit()
-48774e87bbaa0056819d4b52301e4692e50e3252 net: phy: clean the sfp upstream if phy probing fails
-b1e780bb37c641d8291c51d7b4bde33450d18fb4 net: phy: remove phy ports upon probe failure
-4497f5028675b7e51c4aa59c3f4df01f29424277 net: phy: Clean the phy_ports after unregistering the downstream SFP bus
-5a0082ec20a05ef2378410323a5089a8f1786f4a net: phy: don't try to setup PHY-driven SFP cages when using genphy
-83fc67ccbd2339e1beb21c361a92c45b177cf9d7 Merge branch 'net-phy-some-cleanups-following-phy_port-sfp'
-a2171131ecda1ed61a594a1eb715e75fdad0fef5 net: qrtr: fix refcount saturation and potential UAF in qrtr_port_remove
-894e036a24a26a6dd7b17d8d3fb5c53ab48a6074 net/mlx5: Fix slab-out-of-bounds in mlx5_query_nic_vport_mac_list
-b69004f5a6ad32da84d8aa5b23b9c0caafe6252e net/mlx5e: xsk: Fix DMA and xdp_frame leak on XDP_TX xmit failure
-a7767290e77ca2e926b49f8bfa29daa12262c612 net/mlx5: Use effective affinity mask for IRQ selection
-f0e42f0c4337b1f220de1ddd63f47197c7dee4de ipv6: sit: reload inner IPv6 header after GSO offloads
-ee30dd2909d8b98619f4341c70ec8dc8e155ab02 net: openvswitch: fix possible kfree_skb of ERR_PTR
-19440600e729d4f74a42591a872099cf25c7d28a r8152: handle the return value of usb_reset_device()
-333b6d5bb9f87827ac2639c737bf9613dbae7253 rxrpc: Fix the ACK parser to extract the SACK table for parsing
-09a5bf856aa759513afc4afd233d15bcc711b84e octeontx2-af: fix memory leak in rvu_setup_hw_resources()
-004e9ecfe6c5384f9e0b2f6f6389d42ec22789af hv_netvsc: use kmap_local_page in netvsc_copy_to_send_buf
-6edb934de9bda3b7abcec856eaee6fc8b4278dd1 gpio: zynq: fix runtime PM leak on remove
-446e8c31d0fc7f1d92c06c2d2f7e7ed27f55f0c6 gpio: mockup: reject invalid gpio_mockup_ranges widths
-1c1e0fc88d6ef65bf15d517853251f75ab9d18c3 gpio: rockchip: fix generic IRQ chip leak on remove
-54665dce982689e2fd99b32e9a0dcc204fda8a51 net: mctp: usb: fix race between urb completion and rx_retry cancellation
-881a3113b74964918cdd72747e3bc119c02b0c0c net: mctp: usb: don't fail mctp_usb_rx_queue on a deferred submission
-0aa05daef7848a5ac11158949dc73cd741995dc1 Merge branch 'net-mctp-usb-minor-fixes-for-mctp-over-usb-transport-driver'
-26aad08a928901296aabfbc7a33ecb951656bb98 esp: fix page frag reference leak on skb_to_sgvec failure
-a5f8a90ac9f77c678a9781c0a464b635e0d63e49 sctp: stream: fully roll back denied add-stream state
-d930276f2cddd0b7294cac7a8fe7b877f6d9e08d bnxt_en: Fix NULL pointer dereference
-f8373d7090b745728de66308deeecc67e8d319ce sctp: fix uninit-value in __sctp_rcv_asconf_lookup()
-d289d5307762d1838aaece22c6b6fcad9e8865f9 ip6_vti: set netns_immutable on the fallback device.
-6f4c80a2a7e6d06753b89a578b710a2499a5e62b sctp: validate embedded INIT chunk and address list lengths in cookie
-1ee90b77b727df903033db873c75caac5c27ec98 net: guard timestamp cmsgs to real error queue skbs
-34080db3e70ddf94c38512ad2331e3c3afca6cc1 net/rds: fix NULL deref in rds_ib_send_cqe_handler() on masked atomic completion
-7f2fcff15e99bb852f6967396ed12b38376e2c8d tun: zero the whole vnet header in tun_put_user()
-627366c51145a07f675b1800fb5ea2ec960bd900 ptp: ocp: fix resource freeing order
-64911f5aac534191e6b9a52ca1d50ba870a12d86 gpio: fix cleanup path on hog failure
-a23226b7c1f69eafd9ced4e037fb51c9758c0501 gpiolib: handle gpio-hogs only once
-a5c0359f5cbc51a2e2b114d6041e0f3c73f903e9 ip6_vti: fix incorrect tunnel matching in vti6_tnl_lookup()
-512db8267b73a220a64180d95ab5eebe7c4964a8 rds: mark snapshot pages dirty in rds_info_getsockopt()
-ccb9fd4b87538ccf19ccff78ee26700526d94867 netfilter: revalidate bridge ports
-efc542561729a2859397dad51bda1fe41262beb1 netfilter: nf_tables_offload: drop device refcount on error
-c3009418f9fa1dcb3eb86f4d8c92583537b5faa3 netfilter: nf_conntrack: destroy stale expectfn expectations on unregister
-f7f2fbb0e893a0238dc464f8d8c0f5609bec584f netfilter: x_tables: avoid leaking percpu counter pointers
-a84b6fedbc97078788be78dbdd7517d143ad1a77 netfilter: nf_log: validate MAC header was set before dumping it
-772cecf198da732faebb5dcfc46d66a505be8495 netfilter: nft_exthdr: fix register tracking for F_PRESENT flag
-ab185e0c4fb82dfba6fb86f8271e06f931d9c64c netfilter: nft_fib: fix stale stack leak via the OIFNAME register
-c7d573551f9286100a055ef696cde6af54549677 netfilter: nft_meta_bridge: fix stale stack leak via IIFHWADDR register
-180235600934bef6add3be637c296d6cf3272e67 net: mvpp2: sync RX data at the hardware packet offset
-f3c6aa078927e6fe8121c9c591ddee8716c5305a net: mvpp2: limit XDP frame size to the RX buffer
-5e8e2a9624df72fca7c736b2966b2cbf6c9c3ff6 net: mvpp2: refill RX buffers before XDP or skb use
-77a6b90ce56bc982dcfa94229b8e28e6abb16e95 net: mvpp2: build skb from XDP-adjusted data on XDP_PASS
-b59873c9c40d0cbc16df86cf6cb5430330a0ac74 Merge branch 'net-mvpp2-fix-xdp-rx-buffer-handling'
-0487cfca46517ff6699c72dc1a8872b0af3c31a9 net: txgbe: initialize module info buffer
-f2df54ddbfb04a006ee326a5d8270434a414e0af net: txgbe: distinguish module types by checking identifier
-47f848aac4e79bdb197f849fa86e71fff1ad36ef net: txgbe: initialize PHY interface to 0
-0068940907d33217ae01217f84910a5cde606c17 Merge branch 'net-txgbe-fix-module-identification'
-b70c687b7cf267fb08586667a3946c8851cad672 ipv6: Fix a potential NPD in cleanup_prefix_route()
-29899ec61ac6fcc9d46f5f8d0b72117d9a676c2e Merge tag 'ipsec-2026-06-10' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-64ced6c0882756db52cbedf50bc66338de4a4045 Merge tag 'nf-26-06-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-7360b96099806396f4ce15233f6dddcb69248d34 octeontx2-af: fix IP fragment flag corruption on custom KPU profile load
-6e9e0dfc7f2e34627a4280b8e168479018d95732 Merge tag 'gpio-fixes-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-79f2670da86722d075633d20fa57418994ee6940 Merge tag 'pmdomain-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-22e2036479cb77df6281ebbd376ae6c330774790 Merge tag 'net-7.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-2b414a95b8f7307d42173ba9e580d6d3e2bcbfce Merge tag 's390-7.1-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+ff7901eca30c308ef5a448ebd56eaf363b58a02e bash-completions: add --max-count-oldest
+0aa305494944d4caea924ccc33694a4c23ff1c33 Merge branch 'js/win-kill-child-more-gently' into jch
+249ca4a6e9d2442b954cbd2437032c24f2a7c8f9 Merge branch 'jc/submitting-patches-cover-letter' into jch
+e052d60afa06a71274c934a9b2333408a66bcaa0 Merge branch 'ls/doc-raw-timestamp-prefix' into jch
+83e8e51e637a3af8bbe98c57efbb69fff80070a0 Merge branch 'mf/revision-max-count-oldest' into jch
+69a2be00128408838b72104e62cbf7e3a7d2b898 Merge branch 'hn/config-typo-advice' into jch
+c8845076e073817286f8a52e0910004658d6dbe9 Merge branch 'ps/setup-centralize-odb-creation' into jch
+e0e12ba966d9904047de0a1bdd0f63dce44ee378 Merge branch 'lo/doc-format-patch-subject-prefix' into jch
+b43cfb8542d4ab7eddf204c740025bc40f54883c Merge branch 'am/doc-tech-hash-typofix' into jch
+b324eed19bfb705df58a44ca014d9dea40459e84 Merge branch 'ob/more-repo-config-values' into jch
+cdc4b2518ee438b994a5ad95bde9e65c21d99afa Merge branch 'ak/typofixes' into jch
+b4ddcfccc6eba244cbbfacebd14a6df5ec2abb03 Merge branch 'kk/streaming-walk-pqueue' into jch
+0d2ca1932542e5ed24940f465c96cd65c8245d68 Merge branch 'jk/describe-contains-all-match-fix' into jch
+8700ec91882ce7cfca0b379cde1cc7869022ed40 Merge branch 'ps/t7527-fix-tap-output' into jch
+ae1468b60e155e958f185ef6f5cfcc6525eba1dc ### match next
+a6ea48917bd00e86d15d464d398e672d7e1c8218 Merge branch 'jd/unpack-trees-wo-the-repository' into jch
+3d302c13637fb265cad8f5e20c1f3fd569847d7a Merge branch 'wy/docs-typofixes' into jch
+0d9ca670023351c19c2480fdc04d850ab4d018c0 Merge branch 'mm/subprocess-handshake-fix' into jch
+f4d1c3057c8020ca702e74c9111c7a34236c18f3 Merge branch 'ta/typofixes' into jch
+4a8ae2e705c978171ef3f171a03d496e93082bd2 Merge branch 'kh/doc-replay-config' into jch
+5e4dd625ec445cfa7572c00d7734fb241a01da94 Merge branch 'za/completion-hide-dotfiles' into jch
+e48ea47a5186a7388336037b8c62b256df5c2342 Merge branch 'ps/shift-root-in-graph' into jch
+f8f2699f4e623fe194d2d3bcec172ee9d6fad5e9 Merge branch 'kh/doc-trailers' into jch
+4fd8c0c5aed6820ba7683c7ebae8a00e214dc8f4 Merge branch 'en/ort-harden-against-corrupt-trees' into jch
 
---===============2628103390784873591==--
+--===============2223811197357249438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-51e971d35c80-ae8f0c9ae287.txt
+
+6e670b3f0c3b80a9d417d5fef36904a21161587a index-pack: retain child bases in delta cache
+f430c240d7dbf6a049d01a1ec2f7912c278634ee read-cache: split out function to drop unmerged entries to stage 0
+8458d8c34b3a3e15f9b94aa05caddde370eaa986 reset: drop `USE_THE_REPOSITORY_VARIABLE`
+303e0c65e9173e71936af41ba2cffff8a168e61b reset: rename `reset_head()`
+053106f51c80ce54af23300735a49e57e68b0c62 reset: modernize flags passed to `reset_working_tree()`
+b9680a6c52add6ecb065c3e6d4cae4dfc5af5737 reset: introduce dry-run mode
+8665d8f4ce568749e2f440adde3fb9d5cf8b4710 reset: introduce ability to skip updating HEAD
+d2cedcdd8c059dfe36c829e7b97c17903252712c reset: allow the caller to specify the current HEAD object
+033db05809927a44f163a6af29df2cf7029e0df2 reset: stop assuming that the caller passes in a clean index
+fa07f7efbdba56ba2a374161d31384b834aef1c0 builtin/history: split handling of ref updates into two phases
+4deb3898941f51544d43bfef7345114b161e64cc builtin/history: implement "drop" subcommand
+ff7901eca30c308ef5a448ebd56eaf363b58a02e bash-completions: add --max-count-oldest
+3eb61fda62191dc12c2a215a3775bdab2ca7f1a6 doc: config: terminate runaway lists
+042221cccb3e750005f2b7f7002d3637662cb9c6 doc: config/sideband: fix description list delimiter
+4fa2c6e0457c5d00742f0cebded4f122f1dcd81a doc: git-config: escape erroneous highlight markup
+0aa305494944d4caea924ccc33694a4c23ff1c33 Merge branch 'js/win-kill-child-more-gently' into jch
+249ca4a6e9d2442b954cbd2437032c24f2a7c8f9 Merge branch 'jc/submitting-patches-cover-letter' into jch
+e052d60afa06a71274c934a9b2333408a66bcaa0 Merge branch 'ls/doc-raw-timestamp-prefix' into jch
+83e8e51e637a3af8bbe98c57efbb69fff80070a0 Merge branch 'mf/revision-max-count-oldest' into jch
+69a2be00128408838b72104e62cbf7e3a7d2b898 Merge branch 'hn/config-typo-advice' into jch
+c8845076e073817286f8a52e0910004658d6dbe9 Merge branch 'ps/setup-centralize-odb-creation' into jch
+e0e12ba966d9904047de0a1bdd0f63dce44ee378 Merge branch 'lo/doc-format-patch-subject-prefix' into jch
+b43cfb8542d4ab7eddf204c740025bc40f54883c Merge branch 'am/doc-tech-hash-typofix' into jch
+b324eed19bfb705df58a44ca014d9dea40459e84 Merge branch 'ob/more-repo-config-values' into jch
+cdc4b2518ee438b994a5ad95bde9e65c21d99afa Merge branch 'ak/typofixes' into jch
+b4ddcfccc6eba244cbbfacebd14a6df5ec2abb03 Merge branch 'kk/streaming-walk-pqueue' into jch
+0d2ca1932542e5ed24940f465c96cd65c8245d68 Merge branch 'jk/describe-contains-all-match-fix' into jch
+8700ec91882ce7cfca0b379cde1cc7869022ed40 Merge branch 'ps/t7527-fix-tap-output' into jch
+ae1468b60e155e958f185ef6f5cfcc6525eba1dc ### match next
+a6ea48917bd00e86d15d464d398e672d7e1c8218 Merge branch 'jd/unpack-trees-wo-the-repository' into jch
+3d302c13637fb265cad8f5e20c1f3fd569847d7a Merge branch 'wy/docs-typofixes' into jch
+0d9ca670023351c19c2480fdc04d850ab4d018c0 Merge branch 'mm/subprocess-handshake-fix' into jch
+f4d1c3057c8020ca702e74c9111c7a34236c18f3 Merge branch 'ta/typofixes' into jch
+4a8ae2e705c978171ef3f171a03d496e93082bd2 Merge branch 'kh/doc-replay-config' into jch
+5e4dd625ec445cfa7572c00d7734fb241a01da94 Merge branch 'za/completion-hide-dotfiles' into jch
+e48ea47a5186a7388336037b8c62b256df5c2342 Merge branch 'ps/shift-root-in-graph' into jch
+f8f2699f4e623fe194d2d3bcec172ee9d6fad5e9 Merge branch 'kh/doc-trailers' into jch
+4fd8c0c5aed6820ba7683c7ebae8a00e214dc8f4 Merge branch 'en/ort-harden-against-corrupt-trees' into jch
+06a029f9344f5831a1781d5fe8e89a1aafec0df1 Merge branch 'cs/subtree-split-recursion' into seen
+c23df908a6ec406098361bf4b487b2f22fff7f3b Merge branch 'lp/repack-propagate-promisor-debugging-info' into seen
+bfb9b402828ffd1bf91d955f348aef2d5496261d Merge branch 'pw/status-rebase-todo' into seen
+330f0bb7cf1c5b25c0807b0ab09e01780d217348 Merge branch 'js/parseopt-subcommand-autocorrection' into seen
+d2efe2afc61bf1e3f2cc1fc6b40000e8ec46cf31 Merge branch 'jt/config-lock-timeout' into seen
+98e440bad48814a81804d847db602b3f359b071c Merge branch 'hn/checkout-track-fetch' into seen
+10a052cf1078161dddc70652a6d041805729d361 Merge branch 'hn/status-pull-advice-qualified' into seen
+3584698dcce93261b154858e82dd08bc0e7f4ece Merge branch 'kk/fetch-store-ref-optimization' into seen
+5ce0634135843d1171885a157913c0b404e39ac7 Merge branch 'cl/conditional-config-on-worktree-path' into seen
+a56556186ec7550672c41feac9f45ebc26644e0f Merge branch 'ec/commit-fixup-options' into seen
+58a798ff9e461554a9b37a778eb856f4013acc24 Merge branch 'sn/rebase-update-refs-symrefs' into seen
+fa65c8ccff9da3642144e1e7969bb7c86f0f9676 Merge branch 'cc/promisor-auto-config-url-more' into seen
+d420c44a047a2dfb3512f9eab384035433b620f8 Merge branch 'ab/index-pack-retain-child-bases' into seen
+a68dcc1969c14220e25fb896ddb9079f19a4cd05 Merge branch 'tb/pack-path-walk-bitmap-delta-islands' into seen
+7e77e922e184ccc0960f478760df64a15cf53960 Merge branch 'ty/migrate-trust-executable-bit' into seen
+12d294911098c2aecd932c2675cb3b79744630d6 Merge branch 'kk/prio-queue-cascade-sift' into seen
+eba6d721f26a1bf4c1f60bfe32545b449010af4e Merge branch 'jk/repo-info-path-keys' into seen
+fb23c1db17618e38adf8f533d3b598f1e7d316b4 Merge branch 'ps/history-drop' into seen
+03acc4f9a2e36ae662d1413736a454620c8e7166 Merge branch 'jk/setup-gitfile-diag-fix' into seen
+289e06b92f877d256b75a29f4944d439955c8995 Merge branch 'ap/http-redirect-wwwauth-fix' into seen
+d09328798890f7b96c125267cf4adf69009833e6 Merge branch 'ps/doc-recommend-b4' into seen
+c484a22693ec07de8fad3ff605993451d27718f1 Merge branch 'ps/transport-helper-tsan-fix' into seen
+20d8530345b37b39ebf82fbcf79075abffd5ad15 Merge branch 'ps/odb-source-packed' into seen
+535a3c9930e527cc02d8aa3a51a4cb0a9d69c245 Merge branch 'dl/posix-unused-warning-clang' into seen
+ea8e709ce5fbe1133adb9d52d524c08a091b5157 Merge branch 'td/ref-filter-restore-prefix-iteration' into seen
+911d81996dd0eee49a3c7c30eb3b729c4eefd3c3 Merge branch 'ty/move-protect-hfs-ntfs' into seen
+b5b8d20034b72d6022e0aca9e576605abea704a6 Merge branch 'ds/config-no-includes' into seen
+8f1e3083607bef7eb125a203ed0aa514525dbf1c Merge branch 'ps/cat-file-remote-object-info' into seen
+a5e4636443da0b86644b02b6803a1bc6249382c4 Merge branch 'kk/prio-queue-get-put-fusion' into seen
+46887e3e9955373d13adbb7188e0c4730325b76b Merge branch 'hn/branch-prune-merged' into seen
+895e4b0d692acb92d6a4e70e3cae96e5a0dd97eb Merge branch 'kk/remove-get-reachable-subset' into seen
+82a1846ddb937fa0dde3c0ad3b8c70421f3f4e86 Merge branch 'td/ref-filter-memoize-contains' into seen
+84b7013f6514aa56f7f552cd6aab61d17eb2f81d Merge branch 'tc/replay-linearize' into seen
+145f54fa10ac3567d955b9b314d2fb1554956d74 Merge branch 'ps/setup-drop-global-state' into seen
+5807c17524260490501c5d46862c1481fff53b1d Merge branch 'td/describe-tag-iteration' into seen
+47d3b28e80f58b8eaab5515ab1e2240f85352d13 Merge branch 'ta/doc-config-adoc-fixes' into seen
+ee993f76535aeccb0a8ce18514c572ed4165c3f7 Merge branch 'jc/t1400-fifo-cleanup' into seen
+20c3ad4e661a1f7c3b68d17bb544444dd8eaddf5 Merge branch 'ps/refs-avoid-chdir-notify-reparent' into seen
+ae8f0c9ae2879417e40e0621dbad833bc47c39e3 Merge branch 'jc/neuter-sideband-post-3.0' into seen
+
+--===============2223811197357249438==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-46348d665c4c-45b713293b7c.txt
+
+9068b7e2eea52bc69f9b28241471ecf73b82401e Notes added by 'git notes add'
+5446a676362eb64035e5c5c7d9d9b06eb914a476 Notes added by 'git notes add'
+d70e24b5ed8fa1b1faa6a2037b73f9add0f38886 Notes added by 'git notes add'
+d4f162e98cbfca1fdd27c9ab674be140eb302cfc Notes added by 'git notes add'
+6335eacce1d2ef409e1c429bb295df1876ed6839 Notes added by 'git notes add'
+457c2acd1dc268a93a2bd1ae44ed3e8c97006f43 Notes added by 'git notes add'
+ac3141247291d65ad8dc7a7eb8c29dac77fd1153 Notes added by 'git notes add'
+4a4122db00df298881ac12408671906923ab22cd Notes added by 'git notes add'
+c8965f6e93835d2305272aba3a8328499cc5f4f8 Notes added by 'git notes add'
+0da7f07909da8a17fb82927d6dae760112501cbc Notes added by 'git notes add'
+79f2c8d57812534c7a36e67b95c69a7d60766878 Notes added by 'git notes add'
+917bcd6f5de8c0c7f4dacbc0da477c10aaa11643 Notes added by 'git notes add'
+96da00e4febc5197a7b0aaa94a95fd38718375ce Notes added by 'git notes add'
+6b1cbf63e0790c210609a45d98b0d424df6fb090 Notes added by 'git notes add'
+354b9c206df2ab225d1eae9655def7c40f6bcea7 Notes added by 'git notes add'
+35374154605be6ce7a680e089044a522228b3dbf Notes added by 'git notes add'
+f24c33542f214654581996b3b193d3650a7be736 Notes added by 'git notes add'
+abe46108f47dc232f07be33c3ad621eadbaf1c6b Notes added by 'git commit --amend'
+71abaafcec4987c2566f124216f6043884442bf7 Notes added by 'git notes add'
+4d07714a1e56d44106c07c9965bd1336379ec6d1 Notes added by 'git notes add'
+45b713293b7ca6e80ccec4eae6876b670a2a0004 Notes added by 'git notes add'
+
+--===============2223811197357249438==--
