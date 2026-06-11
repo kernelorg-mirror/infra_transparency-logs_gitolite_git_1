@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 11 Jun 2026 18:25:57 -0000
-Message-Id: <178120235706.1705920.14922143522797716361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 11 Jun 2026 18:27:54 -0000
+Message-Id: <178120247428.1706714.7681276940371892033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/for-net-next-2026-06-11
-    old: 0000000000000000000000000000000000000000
-    new: 64f293ab5e4dc82992e5912f3a23d2278b6ed3df
+  - ref: refs/heads/master
+    old: ca536064a8cafcdae084785016dc2123488e7048
+    new: a97dec3772293cca5ac9a9af3728b04beb092c9d
+    log: |
+         a97dec3772293cca5ac9a9af3728b04beb092c9d foo
+         
