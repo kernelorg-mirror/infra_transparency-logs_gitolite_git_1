@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 11 Jun 2026 15:04:51 -0000
-Message-Id: <178119029161.1549710.3463116606016364941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 11 Jun 2026 15:10:32 -0000
+Message-Id: <178119063209.1556228.11582040757551845237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 4fdfe4a956410c7d170ce62aafc0dbb459a77d97
-    new: 1d49646215de1f52077383a614aefe4169d6e7f1
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 8ab2dc6614e27e88520ae0010284254dd7b0e4c2
+    new: 81b78d80441324daac6b0c773841a4ebfa68579a
     log: |
-         d0604a860cd4935283585c5a754a200f85f1f54e patches/next: drop mm core and process patches
-         ef9624ffc1044a233f18fa50b26029605f977f44 todo: update
-         1d49646215de1f52077383a614aefe4169d6e7f1 todo: modify damon_call() error simplification todo goal and status
+         81b78d80441324daac6b0c773841a4ebfa68579a perf test: Truncate printed test descriptions dynamically to avoid terminal wrapping
          
