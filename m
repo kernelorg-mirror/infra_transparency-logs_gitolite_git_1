@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7209321067849716796=="
+Content-Type: multipart/mixed; boundary="===============0529378631217954700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 11 Jun 2026 00:26:48 -0000
-Message-Id: <178113760820.876799.354549068106670855@gitolite.kernel.org>
+Date: Thu, 11 Jun 2026 00:26:55 -0000
+Message-Id: <178113761591.877029.4196054596621435828@gitolite.kernel.org>
 
---===============7209321067849716796==
+--===============0529378631217954700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: c8a20934f1e271696745af968d68ad62ec0a014f
+  - ref: refs/heads/tmp.perf-tools-next
+    old: de5aa22a47bfb8f443490809cd9037b0740c4b1f
     new: 7336514f41e75d44782fee7e0990d4195a3d3161
-    log: revlist-c8a20934f1e2-7336514f41e7.txt
+    log: revlist-de5aa22a47bf-7336514f41e7.txt
 
---===============7209321067849716796==
+--===============0529378631217954700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8a20934f1e2-7336514f41e7.txt
+Content-Disposition: attachment; filename=revlist-de5aa22a47bf-7336514f41e7.txt
 
-61fa0a96e822105f4d018e4d41a32dec4d4a2b81 perf dwarf: Avoid redefinition warnings for REG_DWARFNUM_NAME
-c134b60d80177ad0ce856cc1ffca80f09a72c50d perf riscv: fix register name strings
-f6ec78f3fccb15e60a2b71be7e6e32dcc81835ce perf build: Respect V=1 for Python extension builds
-49e7d21aa674fefed03e432710be850649c4d81b perf build: Do not duplicate CFLAGS in Python extension builds
-dbd38b72b43402036deab84ff8506014670c0adf perf s390: Fix TEXTREL in Python extension by compiling as PIC
-9d0ae36c75b3c2d1d11bbec736d8548cd799dc64 perf data convert json: Fix addr_location leak on time-filtered samples
-5136d392845c9192fa5f4323066849538e397195 perf tools: Fix the check for parameterized field in event term
 c4d32eb7cfde48f4933be66b5829238c4cb48eaf perf pmu: Use scnprintf in buffer offset calculations
 7b0745278d614574b2e4cf6a160953d7f9f2609f perf cs-etm: Queue context packets for frontend
 0b1f114634e1ae2b6762af607734cba4bfc4753f perf test: Add workload-ctl option
@@ -55,4 +48,4 @@ fb85d712a2cab7fe8f4df4b9aa788b539ecb9711 perf test cs-etm: Speed up disassembly 
 dc484e72a5afbcf8c941f3fe24a36a8b809c956c perf test cs-etm: Move existing tests to coresight folder
 7336514f41e75d44782fee7e0990d4195a3d3161 perf jitdump: Fix a build error with ASAN
 
---===============7209321067849716796==--
+--===============0529378631217954700==--
