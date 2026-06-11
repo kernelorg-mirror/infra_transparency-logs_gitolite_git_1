@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hare/scsi-devel
-Date: Thu, 11 Jun 2026 15:24:28 -0000
-Message-Id: <178119146887.1567369.12266900539600328208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 11 Jun 2026 15:26:21 -0000
+Message-Id: <178119158189.1570337.5536506882188090263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hare/scsi-devel
-user: hare
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/configfs-ns.v6
-    old: 0000000000000000000000000000000000000000
-    new: e4cccc46cdbf299ff7bd8ae494fe07fad550b417
+  - ref: refs/heads/master
+    old: 6dbf11cff67cce300dc74d608f57a4a71b42fa79
+    new: 9a42c749a4f2f1dd379da3bb548cb720716f376e
+    log: |
+         9a42c749a4f2f1dd379da3bb548cb720716f376e Fixes for all trees
+         
