@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 11 Jun 2026 22:59:00 -0000
-Message-Id: <178121874085.1913168.3494796423570797683@gitolite.kernel.org>
+Date: Thu, 11 Jun 2026 23:01:02 -0000
+Message-Id: <178121886257.1916077.4431843617586810012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1720db928e5a58ca7d75ac1d514c3b73fd7061a7
-    new: 37314c9dbe95b4d924c7b61aaf563cec4f4e4133
+    old: 37314c9dbe95b4d924c7b61aaf563cec4f4e4133
+    new: 90b662ea25f5e83bb3b8ccec5b93ced810b92fb8
     log: |
-         37314c9dbe95b4d924c7b61aaf563cec4f4e4133 net: Stop leased rxq before uninstalling its memory provider
+         90b662ea25f5e83bb3b8ccec5b93ced810b92fb8 net/sched: sch_hfsc: Don't make class passive twice
          
