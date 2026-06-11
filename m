@@ -1,40 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 11 Jun 2026 19:32:31 -0000
-Message-Id: <178120635156.1755969.11730753612681672782@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1505266027507275548=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/liblore/liblore
+Date: Thu, 11 Jun 2026 19:34:55 -0000
+Message-Id: <178120649567.1756867.4644296836761474210@gitolite.kernel.org>
+
+--===============1505266027507275548==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/liblore/liblore
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 053a401b592be424fea9d57c789f66cd5d8cec11
-    new: b0d1553d51c3d188baae6d77e6f3dfb415a7b623
-    log: |
-         7d3fb78b550301e43fdc60312aed733069694426 ASoC: wm_adsp: Fix NULL dereference when removing firmware controls
-         6042c91df60e825625bc7d5c5c3b5a87b91d5805 ASoC: SOF: amd: fix for ipc flags check
-         25b17c06040fae60518b4ff9c46f2bb12285d538 ASoC: SOF: amd: set ipc flags to zero
-         0e152e4126fa14e697d8514cdd1567b18c679f08 ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
-         310628484ef06f95c5589374fade917a5689787b spi: rzv2h-rspi: Fix SPDR read access width for 16-bit RX
-         6ad3914e06a48a02e362d0df2b1073c7c567c93d ASoC: loongson: Fix invalid position error in ls_pcm_pointer
-         e4c60a1d4b6ccc66aefb3789cd908d4f9482eefd ASoC: SDCA: fix NULL pointer dereference in sdca_dev_unregister_functions
-         b0d1553d51c3d188baae6d77e6f3dfb415a7b623 Merge tag 'asoc-fix-v7.1-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-         
   - ref: refs/heads/master
-    old: 950425465c4e97d699fedb738ea6ffd456a40514
-    new: 0f6f60115bfc536c1935d3d0da66cf1d5c7d6055
+    old: 01023e72d3d0c157fc0de1b1cdcf44ba6a66d312
+    new: 4d9e1ccee3883cf360c91f24b6cba240f4f57b38
     log: |
-         7d3fb78b550301e43fdc60312aed733069694426 ASoC: wm_adsp: Fix NULL dereference when removing firmware controls
-         6042c91df60e825625bc7d5c5c3b5a87b91d5805 ASoC: SOF: amd: fix for ipc flags check
-         25b17c06040fae60518b4ff9c46f2bb12285d538 ASoC: SOF: amd: set ipc flags to zero
-         0e152e4126fa14e697d8514cdd1567b18c679f08 ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
-         310628484ef06f95c5589374fade917a5689787b spi: rzv2h-rspi: Fix SPDR read access width for 16-bit RX
-         6ad3914e06a48a02e362d0df2b1073c7c567c93d ASoC: loongson: Fix invalid position error in ls_pcm_pointer
-         e4c60a1d4b6ccc66aefb3789cd908d4f9482eefd ASoC: SDCA: fix NULL pointer dereference in sdca_dev_unregister_functions
-         b0d1553d51c3d188baae6d77e6f3dfb415a7b623 Merge tag 'asoc-fix-v7.1-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-         0f6f60115bfc536c1935d3d0da66cf1d5c7d6055 Merge branch 'for-linus'
+         1556c987b0097ae2ce855f0b74d10fe2663bcb61 Add request timeouts and cancellable network operations
+         4d9e1ccee3883cf360c91f24b6cba240f4f57b38 Add ci-matrix.sh for multi-interpreter testing
          
+
+--===============1505266027507275548==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1781206494 +0000
+pushee gitolite.kernel.org:pub/scm/utils/liblore/liblore
+nonce 1781206494-a9573e2f760c4da9011b2d7358db91a68c1554c2
+
+01023e72d3d0c157fc0de1b1cdcf44ba6a66d312 4d9e1ccee3883cf360c91f24b6cba240f4f57b38 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaisN3gAKCRC2xBzjVmSZ
+bE9uAP42svdQDPv8XX3E/E17dxL9BGfAEvdk40XW5nYRD71jwgD+J+dELlDITA7R
+nHQULBZVSD1JiLBU51oH6Naw3GDz8g0=
+=4MmN
+-----END PGP SIGNATURE-----
+
+--===============1505266027507275548==--
