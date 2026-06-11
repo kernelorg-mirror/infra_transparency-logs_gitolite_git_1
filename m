@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 11 Jun 2026 05:20:27 -0000
-Message-Id: <178115522767.1087102.5465062432584461605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 11 Jun 2026 05:52:13 -0000
+Message-Id: <178115713315.1108068.13149542501477023889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 5a1aba28f6c79f4bbb7a5361063225030ecd36f3
-    new: 69cbfd708884fa71a1c2353c07ecd8e646bd43a0
+  - ref: refs/heads/damon/next
+    old: 3396f2776dbcf2e08056128300e66599cc7fdc0b
+    new: 700088144c2d362e57bf43b7d3c7353a6ec117a1
     log: |
-         69cbfd708884fa71a1c2353c07ecd8e646bd43a0 hwmon: (gpd-fan) Reject EC PWM value 0 as invalid
+         46e85eaffcfe7301adecefeae3fe57724f4abe29 mm/damon/core: stop DAMON contexts when damon_start() fails
+         2b8a56adf9afbc61e70f153f7a8927b7fc0d8aaf samples/damon/mtier: do not stop partial-started DAMON
+         700088144c2d362e57bf43b7d3c7353a6ec117a1 mm/damon/core: stop ctx in damon_call() before reruning the errror
          
