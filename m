@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8971850011207758116=="
+Content-Type: multipart/mixed; boundary="===============8625593635652377509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 11 Jun 2026 14:07:11 -0000
-Message-Id: <178118683139.1503565.1939740318158461472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 11 Jun 2026 14:07:18 -0000
+Message-Id: <178118683812.1503808.8117889361804720850@gitolite.kernel.org>
 
---===============8971850011207758116==
+--===============8625593635652377509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 8ab2dc6614e27e88520ae0010284254dd7b0e4c2
     log: revlist-7336514f41e7-8ab2dc6614e2.txt
 
---===============8971850011207758116==
+--===============8625593635652377509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ d032bc6fdae7de9ceca522258de9756e8dc98e08 tools lib api: Fix mount_overload() snp
 f76da0b17921fbed4701cc8493f07a7e2c4d5f33 perf symbols: Add bounds checks to elf_read_build_id() note iteration
 8ab2dc6614e27e88520ae0010284254dd7b0e4c2 perf symbols: Add bounds checks to read_build_id() note iteration in minimal build
 
---===============8971850011207758116==--
+--===============8625593635652377509==--
