@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1409938704362803890=="
+Content-Type: multipart/mixed; boundary="===============4256188051984034209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 11 Jun 2026 13:56:08 -0000
-Message-Id: <178118616832.1493738.2953883948749464709@gitolite.kernel.org>
+Date: Thu, 11 Jun 2026 13:56:18 -0000
+Message-Id: <178118617859.1494073.1496051396679904596@gitolite.kernel.org>
 
---===============1409938704362803890==
+--===============4256188051984034209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: ed7b425d7af9687fe463cae2dbbbba187878495c
     new: aeded601d6aceb57cdda4b2701d2ee00c43a8b69
     log: revlist-ed7b425d7af9-aeded601d6ac.txt
 
---===============1409938704362803890==
+--===============4256188051984034209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ ebd50de14f1a06b7e0206083904bcc62b9ba65be LoongArch: KVM: Return full old CSR val
 3474037904c20ff915e3ebab0ab5c1e41bbe549e LoongArch: KVM: Validate irqchip index in irqfd routing
 aeded601d6aceb57cdda4b2701d2ee00c43a8b69 LoongArch: KVM: Add missing slots_lock for device register/unregister
 
---===============1409938704362803890==--
+--===============4256188051984034209==--
