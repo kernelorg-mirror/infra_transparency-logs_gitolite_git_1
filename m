@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 11 Jun 2026 22:55:59 -0000
-Message-Id: <178121855978.1911683.3169476058370970182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 11 Jun 2026 22:56:42 -0000
+Message-Id: <178121860242.1912227.9974773542600542575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/io_uring-tw-mpscq
-    old: 0f5caf8eddc69e9eb85f6231a9cad102c4ef300b
-    new: d68b5745a4b04480e8a77fdff44fd8effb71b12e
+  - ref: refs/heads/main
+    old: 3e9201e4fe8bd78f4601a51212562505bbb60e3a
+    new: 21cf8dc478a49e8de039c2739b1646a774cb1944
     log: |
-         942ba20f17480ca724e3eece356876e386f64b80 io_uring: switch local task_work to a mpscq
-         b43e94604e5fd898779d84c00eec7a4fe6709d2e io_uring: switch normal task_work to a mpscq
-         72d192389eea3b2cbffde8be06cb77884506afb3 io_uring: run the tctx task_work fallback directly
-         d68b5745a4b04480e8a77fdff44fd8effb71b12e io_uring: remove the per-ctx fallback task_work machinery
+         014f0c98cf1d9dd82c3b322fd77fa124aca03c21 net: dsa: microchip: implement KSZ87xx Module 3 low-loss cable errata
+         13655144ddcad532c4e9338788041654a54e5c2f net: ethtool: add KSZ87xx low-loss cable PHY tunables
+         a1ee1b9beb7dbbc1cd52b08471ccaf4b8399d9eb net: phy: micrel: expose KSZ87xx low-loss cable tunables
+         e9bcf842b39a09308e971d3426ea43e9ebaa7d2b Merge branch 'ksz87xx-add-support-for-low-loss-cable-equalizer-errata'
+         41c8c1d65b32beacd8d916a22457b4f6e47f45af mlxsw: fix refcount leak in mlxsw_sp_port_lag_join()
+         21cf8dc478a49e8de039c2739b1646a774cb1944 mlxsw: fix refcount leak in mlxsw_sp_vrs_lpm_tree_replace()
          
