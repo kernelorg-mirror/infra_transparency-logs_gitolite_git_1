@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 11 Jun 2026 08:27:07 -0000
-Message-Id: <178116642707.1222501.15021636582700014466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 11 Jun 2026 08:28:28 -0000
+Message-Id: <178116650873.1223280.444557446011996709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: a46f2e5720f5670feda145709d1f0d20be5c7263
-    new: f953585dafd71ecb0897f9def9c0a3702afc1bf8
+  - ref: refs/heads/x86/cpu
+    old: eabf869d795173a107ad8965e4fb1711d82544b6
+    new: 2bebd986eddb31f9ff1e02e9245a318036280759
     log: |
-         f953585dafd71ecb0897f9def9c0a3702afc1bf8 gpio: nomadik: remove dead DB8540 code from <gpio/gpio-nomadik.h>
+         5c75b98aa9cd5b1725b76999d794dc72ebd7a54a x86/cpu: Remove unused !CONFIG_X86_TSC code
+         2bebd986eddb31f9ff1e02e9245a318036280759 x86/cpu: Make CONFIG_X86_CX8 unconditional
          
