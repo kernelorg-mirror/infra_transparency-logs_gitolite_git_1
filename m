@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 11 Jun 2026 19:20:29 -0000
-Message-Id: <178120562953.1746986.3320072747279460183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 11 Jun 2026 19:21:49 -0000
+Message-Id: <178120570976.1748061.15479253819629930127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 666031fed8f0fdfc29b20d125a628c1b0a04cdaf
-    new: 449ae7927152e46acbe5f19f97eafdae6d3a96b1
+  - ref: refs/heads/asoc-7.2
+    old: 007699d278a655871b07d45a1268761260d03124
+    new: 2e8d4bd24fe2956a6bed3319f6bb1a187873c09f
     log: |
-         d881d60223aac8fdc12b227d89c76e131e92a9cd RDMA/mlx5: Fix undefined shift of user RQ WQE size
-         449ae7927152e46acbe5f19f97eafdae6d3a96b1 RDMA/mlx5: Release the HW‑provided UAR index rather than the SW one
+         64f677121de1ffa6c7d30b01375b34589243f511 ASoC: SOF: Intel: select SND_SOC_SDW_UTILS=y from SND_SOC_SOF_HDA_GENERIC=y
+         2e8d4bd24fe2956a6bed3319f6bb1a187873c09f ASoC: SOF: Intel: hda-sdw-bpt: select SND_SOF_SOF_HDA_SDW_BPT properly
          
