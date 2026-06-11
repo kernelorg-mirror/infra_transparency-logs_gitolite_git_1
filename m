@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7487976650492834424=="
+Content-Type: multipart/mixed; boundary="===============5118743243562027152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/liblore/liblore
-Date: Thu, 11 Jun 2026 21:02:42 -0000
-Message-Id: <178121176246.1825198.16695794583090305671@gitolite.kernel.org>
+Date: Thu, 11 Jun 2026 21:02:46 -0000
+Message-Id: <178121176662.1825425.2960579977227158896@gitolite.kernel.org>
 
---===============7487976650492834424==
+--===============5118743243562027152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,28 @@ repo: pub/scm/utils/liblore/liblore
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4d9e1ccee3883cf360c91f24b6cba240f4f57b38
-    new: a20d90228c111908d1af6f7de583bfcf9197c0ad
-    log: |
-         a20d90228c111908d1af6f7de583bfcf9197c0ad Release v0.8.0
-         
+  - ref: refs/tags/v0.8.0
+    old: 0000000000000000000000000000000000000000
+    new: 92dc5202fded1ba331597873ba06e5ac17db81c3
 
---===============7487976650492834424==
+--===============5118743243562027152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1781211761 +0000
+pusher B6C41CE35664996C! 1781211765 +0000
 pushee gitolite.kernel.org:pub/scm/utils/liblore/liblore
-nonce 1781211761-f263d2db57284d30f60808db47197fa9617c063c
+nonce 1781211765-d9930a4a331806cc8167ea24fe9f4e52c5f3b40e
 
-4d9e1ccee3883cf360c91f24b6cba240f4f57b38 a20d90228c111908d1af6f7de583bfcf9197c0ad refs/heads/master
+0000000000000000000000000000000000000000 92dc5202fded1ba331597873ba06e5ac17db81c3 refs/tags/v0.8.0
 -----BEGIN PGP SIGNATURE-----
 
-iHQEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaisicQAKCRC2xBzjVmSZ
-bOrLAPd9PVEmfVLiL6C1IhRl47LQR9hGCGyIt89IuC7N0CU4AQCVz7qMSuFW5U84
-357h/FR+QIAS+KfcbVqGPfeBBw2qDA==
-=31zb
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaisidQAKCRC2xBzjVmSZ
+bNpZAQClYaPgVXBi17LZHHAHum4nFlfqGwKRwQUGZzx0+mTijQD/WihMQZkPU013
+9GQlGiqpprqsN27NqcUdnNhcHPvnxQg=
+=TxFM
 -----END PGP SIGNATURE-----
 
---===============7487976650492834424==--
+--===============5118743243562027152==--
