@@ -1,59 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0986037896791867580=="
+Content-Type: multipart/mixed; boundary="===============2142687690439499489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 11 Jun 2026 09:22:45 -0000
-Message-Id: <178116976538.1265256.16306634802422028207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 11 Jun 2026 09:22:58 -0000
+Message-Id: <178116977865.1265483.9933113938399410843@gitolite.kernel.org>
 
---===============0986037896791867580==
+--===============2142687690439499489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 26deeee42f4f1ab8da7e45808c3050438c577e53
-    new: 4bc343bd77e399528bc841a3bb520773363fddd5
-    log: revlist-26deeee42f4f-4bc343bd77e3.txt
+  - ref: refs/heads/for-linus
+    old: 0e152e4126fa14e697d8514cdd1567b18c679f08
+    new: 310628484ef06f95c5589374fade917a5689787b
+    log: |
+         310628484ef06f95c5589374fade917a5689787b spi: rzv2h-rspi: Fix SPDR read access width for 16-bit RX
+         
+  - ref: refs/heads/for-next
+    old: 66c3cb43ac5f9805ab6790380b2f26ebeeccbe70
+    new: 45bc3cb73b1ac96f779e2b1d5669f11c3b560c94
+    log: revlist-66c3cb43ac5f-45bc3cb73b1a.txt
 
---===============0986037896791867580==
+--===============2142687690439499489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-66c3cb43ac5f-45bc3cb73b1a.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1781169762 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1781169762-5177ffbe8ae1f4664b24508fad21554a5f526cb2
-
-26deeee42f4f1ab8da7e45808c3050438c577e53 4bc343bd77e399528bc841a3bb520773363fddd5 refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoqfmIACgkQJNaLcl1U
-h9DPOwf/YQmKsEDMgQBVK/rh8W1YN41HjYEfo48jZqJNXATAWTEfVOv2Ki5TnNjq
-bp9+DjJ3DbEDWopdpBayXQ5TAZobOao/eZ7fBkF6cLN/v1zqp7v5KDi9AEzdAfYw
-vumI+82wTbkftiWLD4pjzjjZYUh65g3V9HmBLb6jB9dLWDOorYUu9W1qilE2gTZ/
-iFce6ZVXB/5rAPxUQM5XESRmfG9sQlkB+KGsOqrIZOONhPSVfmCxRuRCShV0ES/W
-AFU43c/v5O1JwVgf4Ng5FfgMOrUTLKafFbxCjcBcxAWAL/2hQpCrYaYhDyR1kQj0
-cvBTH0FW8ftHi7F8QGBhYGe1qfES2w==
-=aKuI
------END PGP SIGNATURE-----
-
---===============0986037896791867580==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26deeee42f4f-4bc343bd77e3.txt
-
-7d3fb78b550301e43fdc60312aed733069694426 ASoC: wm_adsp: Fix NULL dereference when removing firmware controls
-6042c91df60e825625bc7d5c5c3b5a87b91d5805 ASoC: SOF: amd: fix for ipc flags check
-25b17c06040fae60518b4ff9c46f2bb12285d538 ASoC: SOF: amd: set ipc flags to zero
 85f7bf03632bfcdd6cedfb3945b7e387d9487d73 ASoC: cs35l56: Fix missing calls to wm_adsp2_remove()
 344a12ca7ba6e10f9779476780afe9d977d47322 ASoC: cs35l56: Prevent double-free of debugfs
 a0df7522dfb098d56b42560247082d6f5a8581dd ASoC: cs35l56: Cleanup if component_probe fails
@@ -75,5 +53,7 @@ d7c18d15c6d93ffcaaaa0c68c31122293c9d1dde ASoC: stm: stm32_adfsdm: set debugfs_pr
 0cac8e35132fe149f555ba6e4f7d92ce69e0cc5c ASoC: mediatek: mt8173-afe-pcm: set debugfs_prefix via Component driver
 cd849a5fcac849a2c9d9391a2676bf3d0b4443dd ASoC: soc-component: remove .debugfs_prefix from Component
 4bc343bd77e399528bc841a3bb520773363fddd5 ASoC: remove .debugfs_prefix from Component
+310628484ef06f95c5589374fade917a5689787b spi: rzv2h-rspi: Fix SPDR read access width for 16-bit RX
+45bc3cb73b1ac96f779e2b1d5669f11c3b560c94 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============0986037896791867580==--
+--===============2142687690439499489==--
