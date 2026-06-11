@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 11 Jun 2026 11:41:36 -0000
-Message-Id: <178117809628.1392399.13080576026217703950@gitolite.kernel.org>
+Date: Thu, 11 Jun 2026 11:41:48 -0000
+Message-Id: <178117810864.1392660.6126174825602141114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 2edc4945f5b995afc510ad1ce32cff653df02584
-    new: c095741713d1bc317b53e2da2b222e7448b6021f
+  - ref: refs/heads/locking/core
+    old: 197a675f0715567d02c00050d87d9b1bfc8e790e
+    new: 4f070ccb4dc4692e3b6757819fb80655f58b4f12
     log: |
-         29922fdfc2a4008d66418bedd0ebf5038fc54efa sched/fair: Fix cpu_util runnable_avg arithmetic
-         76124a050ddbc8b252172205ab04f10a83c03a4d sched/core: Combine separate 'else' and 'if' statements
-         9ebe5c3c29f6217412ff256134516d4dff0e5624 sched/deadline: Use task_on_rq_migrating() helper
-         c095741713d1bc317b53e2da2b222e7448b6021f sched/fair: Fix newidle vs core-sched
+         a734d9fca84e1d4fa0cb442ef5f84c88f8212d32 futex: Optimize futex hash bucket access patterns
+         76080d81e511f66eeb094b204e1e217bff674922 tracing/lock: Remove unnecessary linux/sched.h include
+         7cfa62cf9432df67b1c95a59984a03a3bc023f98 locking/percpu-rwsem: Extract __percpu_up_read()
+         4f070ccb4dc4692e3b6757819fb80655f58b4f12 locking: Add contended_release tracepoint to sleepable locks
          
