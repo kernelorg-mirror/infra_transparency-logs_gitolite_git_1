@@ -1,23 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
-Date: Thu, 11 Jun 2026 07:23:19 -0000
-Message-Id: <178116259915.1173027.5935962036407318920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 11 Jun 2026 07:34:38 -0000
+Message-Id: <178116327892.1180705.12918148783812854546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/timers/drivers/next
-    old: e393cca0388c2fe6f67d4658b2e05f57e244285b
-    new: a9ac745bc320cbdc2ed3c851eb78f91f22ff975b
+  - ref: refs/heads/for-next
+    old: 03a10859061b7f6939babd3e9b5d5a891a93c836
+    new: ab8f7ffd63d5074c865935ad3720f0d995d2160f
     log: |
-         ca57bf46e7a94f8c53d05c376df9fcfdcb482100 clocksource/drivers/timer-tegra186: Fix support for multiple watchdog instances
-         341305ea9c89a55c55c0d6252541e5d01098a00a clocksource/drivers/timer-tegra186: Correct num_wdts for Tegra186 and Tegra234
-         5eb5d8eaeacf09f924458dacd590b7f9b1607cea clocksource/drivers/timer-tegra186: Register all accessible watchdog timers
-         46fb093b87a0d92e391b6f6cadd63c3ef50a59b2 clocksource/drivers/timer-tegra186: Reserve and service a kernel watchdog
-         a9ac745bc320cbdc2ed3c851eb78f91f22ff975b clocksource: move NXP timer selection to drivers/clocksource
+         dcca9b6064c33c84fbeb9f09814178a206321249 ALSA: Add simple refcount helper functions
+         2fa8d8b6c18b3443b65d42ced33bc9e36683e886 ALSA: core: Use the new helper for the power refcount
+         53af356c45b22c2410b08ad947e62105a137f680 ALSA: hda: Use the new helper for PCM instance refcount
+         c54888c1171e6a03b8325e03011cedc0a9781161 ALSA: aloop: Use the new helper for stop-count refcount
+         ab8f7ffd63d5074c865935ad3720f0d995d2160f ALSA: usb-audio: Use the new helper for shutdown refcount
+         
+  - ref: refs/heads/master
+    old: 6ef2560a255e7da360738385244de0fb239609c8
+    new: 950425465c4e97d699fedb738ea6ffd456a40514
+    log: |
+         dcca9b6064c33c84fbeb9f09814178a206321249 ALSA: Add simple refcount helper functions
+         2fa8d8b6c18b3443b65d42ced33bc9e36683e886 ALSA: core: Use the new helper for the power refcount
+         53af356c45b22c2410b08ad947e62105a137f680 ALSA: hda: Use the new helper for PCM instance refcount
+         c54888c1171e6a03b8325e03011cedc0a9781161 ALSA: aloop: Use the new helper for stop-count refcount
+         ab8f7ffd63d5074c865935ad3720f0d995d2160f ALSA: usb-audio: Use the new helper for shutdown refcount
+         950425465c4e97d699fedb738ea6ffd456a40514 Merge branch 'for-next'
          
