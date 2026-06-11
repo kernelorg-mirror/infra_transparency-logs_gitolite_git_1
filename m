@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Thu, 11 Jun 2026 13:56:29 -0000
-Message-Id: <178118618938.1494300.3199064588881366769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 11 Jun 2026 13:56:31 -0000
+Message-Id: <178118619178.1494387.17769734260161395636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/sunxi/dt-for-7.2
-    old: e53b4d7b3ed109a64e0e3b440518d1b2ac18a05b
-    new: 6b81aa0c8a4f038712fa549e4d44d8279eeb0440
+  - ref: refs/heads/for-7.2/logitech
+    old: f22a5db8a7d38152556f230d6d68e59dbc27971b
+    new: f0866517be9345d8245d32b722574b8aecccb348
     log: |
-         6b81aa0c8a4f038712fa549e4d44d8279eeb0440 arm64: dts: allwinner: a523: Add missing GPIO interrupt
+         f0866517be9345d8245d32b722574b8aecccb348 HID: logitech-hidpp: sync wheel multiplier on wheel mode changes
+         
+  - ref: refs/heads/for-next
+    old: 14546c7bef6c1036fc82e36c1a200b0caccd339a
+    new: 1c7186b3dd58291115bda5e287c12fc35beb411d
+    log: |
+         f0866517be9345d8245d32b722574b8aecccb348 HID: logitech-hidpp: sync wheel multiplier on wheel mode changes
+         1c7186b3dd58291115bda5e287c12fc35beb411d Merge branch 'for-7.2/logitech' into for-next
          
