@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 12 Jun 2026 10:44:57 -0000
-Message-Id: <178126109702.2437948.17671528038417663700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Fri, 12 Jun 2026 10:59:28 -0000
+Message-Id: <178126196850.2448563.7488086726611326867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/soc/dt
-    old: c936d730575fcbf6203bf0f10d37409b33725647
-    new: 9e84fd546dc3f9f97bfbf2717c2d71d878a4f46f
+  - ref: refs/heads/for-7.2
+    old: c62aff1174cf88e10716c7513702443c47551fc6
+    new: 21e7b9710a24bd7688c02f136923c89bee2fda5a
     log: |
-         9e84fd546dc3f9f97bfbf2717c2d71d878a4f46f arm64: dts: aspeed: Fix duplicate pinctrl labels and address scheme
+         3b5b35f28e6e05acc0edb5fe0641317f6fc628c1 ata: Drop unused assignments of pci_device_id driver data
+         21e7b9710a24bd7688c02f136923c89bee2fda5a ata: Use named initializers for pci_device_id arrays
          
