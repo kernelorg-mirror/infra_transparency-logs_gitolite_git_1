@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 12 Jun 2026 23:14:07 -0000
-Message-Id: <178130604758.3008060.327111571676463597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 12 Jun 2026 23:17:23 -0000
+Message-Id: <178130624305.3011380.13644123367578692615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 9bf10032894f429b3e221de63cf95a8544511a90
-    new: e26657fe3b85c068b01f42bb0c602f242d643ba9
+    old: 6213cf54adad2ea1c5d20a10754f941ca42584bd
+    new: 0182b218a0744df05f41fb28d17c92fbbdb0cb10
     log: |
-         e26657fe3b85c068b01f42bb0c602f242d643ba9 bnxt: fix head underflow on XDP head-grow
+         0182b218a0744df05f41fb28d17c92fbbdb0cb10 net: ethernet: sis900: correct CONFIG_VLAN_8021Q macro name in comment
          
