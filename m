@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 12 Jun 2026 20:37:31 -0000
-Message-Id: <178129665167.2886371.15963040200699555730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 12 Jun 2026 20:38:11 -0000
+Message-Id: <178129669182.2886761.8243219492298466444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-7.2/io_uring
-    old: f8c0d3d05b4d05d97d8b2b07335456ccdfbbfd52
-    new: dbee3b34f04d7b8ebaa2e557efcc81f380ef3a87
-    log: |
-         dbee3b34f04d7b8ebaa2e557efcc81f380ef3a87 io_uring/net: make POLL_FIRST receive side checks consistent
-         
-  - ref: refs/heads/for-next
-    old: cba9e10f01800e64e966d2a6452ed85238c7ea3e
-    new: a2254832ce6aee768d48d0efe27b97ad119d7e08
-    log: |
-         dbee3b34f04d7b8ebaa2e557efcc81f380ef3a87 io_uring/net: make POLL_FIRST receive side checks consistent
-         a2254832ce6aee768d48d0efe27b97ad119d7e08 Merge branch 'for-7.2/io_uring' into for-next
-         
+  - ref: refs/tags/pci-v7.1-fixes-3
+    old: 0000000000000000000000000000000000000000
+    new: 680de835cd25c1ea3663fd22ca3b518f2f6600e4
