@@ -1,37 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 12 Jun 2026 15:51:13 -0000
-Message-Id: <178127947322.2672179.2510555255664373650@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9115600088658517247=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 12 Jun 2026 15:53:07 -0000
+Message-Id: <178127958776.2673248.2589282969460683659@gitolite.kernel.org>
+
+--===============9115600088658517247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dt/next
-    old: b6e267e3d3ffb10277bf5ade6f66d5f0d7bde399
-    new: ccb2fd725d411265df8f7ce12a66c226b16014e6
+  - ref: refs/heads/gregkh-fm
+    old: 84aac6518bcd252a51018818113c3bb758e6644a
+    new: f9adce671f7e8a7798f8f86b5d8cb143f85b948a
     log: |
-         8e45719acdd6bf0bb6bf083957b53e40340dcd41 dt-bindings: interrupt-controller: renesas,r9a09g077-icu: Fix reg size in example
-         f638ffe4dbafcd51df1f98fd659e5e672cc7e539 dt-bindings: cache: l2c2x0: Add missing power-domains
-         cfba13a18672415591d4db5320ac56ef67b460f4 of: reserved_mem: handle NULL name in of_reserved_mem_lookup()
-         50a488de5fccfc58eedc6d0525f92dc64a41f806 of: reserved_mem: zero total_reserved_mem_cnt if no valid /reserved-memory entry
-         d4b52f83f198310c871aa71816a26152eb3898c2 of: Add convenience wrappers for of_map_id()
-         f71f07bee9b56b94f7828cf3082ea19ec590de36 of: Factor arguments passed to of_map_id() into a struct
-         ccb2fd725d411265df8f7ce12a66c226b16014e6 of: Respect #{iommu,msi}-cells in maps
+         f9adce671f7e8a7798f8f86b5d8cb143f85b948a tools: fm: initial addition
          
-  - ref: refs/heads/for-next
-    old: b6e267e3d3ffb10277bf5ade6f66d5f0d7bde399
-    new: ccb2fd725d411265df8f7ce12a66c226b16014e6
-    log: |
-         8e45719acdd6bf0bb6bf083957b53e40340dcd41 dt-bindings: interrupt-controller: renesas,r9a09g077-icu: Fix reg size in example
-         f638ffe4dbafcd51df1f98fd659e5e672cc7e539 dt-bindings: cache: l2c2x0: Add missing power-domains
-         cfba13a18672415591d4db5320ac56ef67b460f4 of: reserved_mem: handle NULL name in of_reserved_mem_lookup()
-         50a488de5fccfc58eedc6d0525f92dc64a41f806 of: reserved_mem: zero total_reserved_mem_cnt if no valid /reserved-memory entry
-         d4b52f83f198310c871aa71816a26152eb3898c2 of: Add convenience wrappers for of_map_id()
-         f71f07bee9b56b94f7828cf3082ea19ec590de36 of: Factor arguments passed to of_map_id() into a struct
-         ccb2fd725d411265df8f7ce12a66c226b16014e6 of: Respect #{iommu,msi}-cells in maps
-         
+
+--===============9115600088658517247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781279529 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1781279587-a3534b5df4723b3584c119ce7028ec79ec1b6e09
+
+84aac6518bcd252a51018818113c3bb758e6644a f9adce671f7e8a7798f8f86b5d8cb143f85b948a refs/heads/gregkh-fm
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmosKykbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T2EQAM4ZZzR1vC4K6hu+Kymq
+OsKiHCY2I334vi8TuB+V9wz8UkPA2LGRwOH9VV13+cFosjanhBTSVkPJsqPfasPj
+8A8u0fU+zdF300K2D6SbXqZ9f6PwsrV3/FudsTTugBZEyseI9AyDQXRa+D06N8SJ
+446wWz396QDluqetg49ItrlZx6eR3WUc21FSrufXFxygbq7RkZ0n02VKJcYWOjJw
+n9XAS4vdSb98uWHSsxl4Eq7CBQQnmoRD+pMAfgwzFsKwSBAXFEBSEahhce/epn1A
+xFF3Q6xeZLCyZNAPmUcrE7YOkL6spuqbh/INtWXO/NYFccBKV7WCutozTLGHkLo4
+ECXxm8lIp7IGo2hQbbEEquy1UzBgiIVS/mIeAxDMsSHVRn23y1o0Y4rGQLZx05wv
+J1pBSom0vgX7/cnCYXApZO55iI0crDgPTnXa9FZs4BXCCIYZl8NBs/GNT1sdrQF7
+cqdi+FLl2oYyHcM638AGV2uWVXhWXDzDYFggxDf8Fv/eW2mnMor+kBYyd+jZAZw5
+VKDhXHUlOe4rh5bRPdY+OAsGnElbVXoIFMPznI38BX+b9G2M58QZOt6UQooz4kP8
+WlJOZEidjUlaKZYBVllOMCIY6YXKLlxvJ8uhC5Et41oiL9gasBW3AfYAev76F9tL
++DE/Art4jU9tEMJr08OTnjwH
+=b149
+-----END PGP SIGNATURE-----
+
+--===============9115600088658517247==--
