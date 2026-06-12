@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5602327250228464401=="
+Content-Type: multipart/mixed; boundary="===============6909958683802740356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 12 Jun 2026 16:54:21 -0000
-Message-Id: <178128326102.2718861.7227632472664642497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 12 Jun 2026 16:54:27 -0000
+Message-Id: <178128326784.2719088.16025182140193976921@gitolite.kernel.org>
 
---===============5602327250228464401==
+--===============6909958683802740356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/spi-7.2
     old: 0f95264f49ace739d411fd9149e2b3545d741d06
     new: 47f3b5365536e8c38f264824ab15fdb74454e066
     log: |
@@ -31,28 +31,28 @@ changes:
          47f3b5365536e8c38f264824ab15fdb74454e066 spi: xilinx: use FIFO occupancy register to determine buffer size
          
 
---===============5602327250228464401==
+--===============6909958683802740356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1781283259 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1781283258-f7923c8492acb6633b2cac5905a11c0837058891
+pusher C3F436CA30F5D8EB 1781283265 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1781283265-091a5ecffdbaa539a0be4249a0de92e6678c84e2
 
-0f95264f49ace739d411fd9149e2b3545d741d06 47f3b5365536e8c38f264824ab15fdb74454e066 refs/heads/for-7.2
+0f95264f49ace739d411fd9149e2b3545d741d06 47f3b5365536e8c38f264824ab15fdb74454e066 refs/heads/spi-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmosObsACgkQJNaLcl1U
-h9AwEAf8D3E34vHUZpGc8CysbNysknAU0afRU4WfD1qJ7BCX5tgppzHpUD1PXKvD
-kcm8l3bIyeoJCG1TMzPAm2vbH47wShwIAfrSTRNXVm0oCvEGlVi8cAbiVobbKQb6
-9uvTqXFpAUetWYuYPG7rm/0YJtDO+008LFJfuyI8gzXbSEtYtwiSe1+wj8GnLLJP
-fLhckNj/fMEc1B+Xk/E3q8PSrgOFwixudY8pt/Rszve/VOVyg8WHfSflraAnQymU
-tpxjIa1oDYFNcXIsRofZuoW8R+gkZCeK29zN766GKn2Zaoqx3YedX46gFRk52ysv
-Mym9gZsj42/r2I5RdoordX3OOzFD2A==
-=fwGZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmosOcEACgkQJNaLcl1U
+h9DjYAf/VI5dkf/k/Rzu3Bnm45LeDK7jQtVDGoV3pysP9tX+PxKmpU4cFNUaqr2Q
+9xlH321sgCWC1OU8gALX6iou6yyhllT+FxI/54LaWjh0kSLLrE/J33lsBSPR9Hf3
+ty+e90/62r18oLx7/3na8tll7xveJPzZvr/flXeoSgMYxbbV7XKXT/7Q3iWKxO1g
+d4+6Rei8COwszgFCODeSCCtFws2CXhMXd8R/1viiKscxgxiJ7/h3dT5Yw5ey9oZ0
+QcEAGmZ4k9xF1otr5Kl4WV3boEmdglINRg4gs8hkHLXExZP7vRlwrACwKNymrwNW
+ILYDTWCdaCMJesz8nzrFuq0O9PLoTg==
+=8+E+
 -----END PGP SIGNATURE-----
 
---===============5602327250228464401==--
+--===============6909958683802740356==--
