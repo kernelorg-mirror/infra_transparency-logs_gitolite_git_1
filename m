@@ -1,60 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4029162227328019991=="
+Content-Type: multipart/mixed; boundary="===============8741972636793580318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 12 Jun 2026 14:36:44 -0000
-Message-Id: <178127500430.2614468.1211580768048784134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 12 Jun 2026 14:38:45 -0000
+Message-Id: <178127512500.2615180.8167836727369269616@gitolite.kernel.org>
 
---===============4029162227328019991==
+--===============8741972636793580318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 4bc343bd77e399528bc841a3bb520773363fddd5
-    new: da6899fc88e4105d896798c630e7ef740ec5822a
-    log: revlist-4bc343bd77e3-da6899fc88e4.txt
+  - ref: refs/heads/for-linus
+    old: 6ad3914e06a48a02e362d0df2b1073c7c567c93d
+    new: e4c60a1d4b6ccc66aefb3789cd908d4f9482eefd
+    log: |
+         e4c60a1d4b6ccc66aefb3789cd908d4f9482eefd ASoC: SDCA: fix NULL pointer dereference in sdca_dev_unregister_functions
+         
+  - ref: refs/heads/for-next
+    old: 6ba7d012c28abea957be250fad76e200afedda4a
+    new: 53b37006575441e8e267fbc778a02e74adc7cc96
+    log: revlist-6ba7d012c28a-53b370065754.txt
 
---===============4029162227328019991==
+--===============8741972636793580318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6ba7d012c28a-53b370065754.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1781275001 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1781275000-eafbc49dd5e78ccf3a9186957a85a3e08b78b677
-
-4bc343bd77e399528bc841a3bb520773363fddd5 da6899fc88e4105d896798c630e7ef740ec5822a refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmosGXkACgkQJNaLcl1U
-h9AteQf/eV6xF6hK901pSzHOJxcvVEbfUhoBvTY8MpcF/B3zkQJ/0216gR2lLx3i
-3E/1sJ39PGsQlT7zDE1eTUEVMwqLzWZRxsimfZS+T7xGnI377/CjlK6gsVV80F/Z
-8NtqLadhP7BIL3J1kK1vGrOl4vHlkjtK51uohFcw+fdJOliU8WJ7OtNH5flXxdWt
-QZNnyLoSjW6wzFN6QxOK0bOZn9MjvzpFiuXWKzGNoa9FaUcNgyQOolTx2+HsjkNw
-BaPx+MX59dzX5lLhdEQo+HIIX254+05hbePHpzi3hGMt2fyPbbdlPTBXaBs2BJNx
-X3fTLSN0ZQBKQThrf97jChchNY/6RA==
-=LFek
------END PGP SIGNATURE-----
-
---===============4029162227328019991==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bc343bd77e3-da6899fc88e4.txt
-
-0e152e4126fa14e697d8514cdd1567b18c679f08 ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
-310628484ef06f95c5589374fade917a5689787b spi: rzv2h-rspi: Fix SPDR read access width for 16-bit RX
 79bec463819428912e1cfcb534e4379093b422ce ASoC: sdw_utils: Add missed component_name strings for TI amps
 007699d278a655871b07d45a1268761260d03124 ASoC: cs35l56: Fix possible uninitialized value in cs35l56_spi_system_reset()
+e4c60a1d4b6ccc66aefb3789cd908d4f9482eefd ASoC: SDCA: fix NULL pointer dereference in sdca_dev_unregister_functions
 0f54ce994b23875aad771064b53483f7f791efbf ASoC: soc-core: Create device_link to ensure correct suspend order
 3073eb1f1143deabbda6a043238ab9d99672e7c8 ASoC: cs35l56: Fix wrong error test on simple_write_to_buffer()
 67805f57e5b1a8589f89bd48936c65cbbaeec300 ASoC: SOF: Intel: select SND_SOC_SDW_UTILS=y from SND_SOC_SOF_HDA_GENERIC=y
@@ -102,5 +82,6 @@ befae7299ab468853afc9b8315334dcecdaa38b5 ASoC: mediatek: mt8195: mt8365-afe-clk:
 f07dde7074252653a17905b45bf92150029a47ae ASoC: mediatek: Use guard() for mutex & spin locks
 d46f9f23897261da53ffbeb89d48a13982ba7d28 ASoC: SOF: topology: fix memory leak in snd_sof_load_topology
 da6899fc88e4105d896798c630e7ef740ec5822a ASoC: hisilicon: Use guard() for spin locks
+53b37006575441e8e267fbc778a02e74adc7cc96 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============4029162227328019991==--
+--===============8741972636793580318==--
