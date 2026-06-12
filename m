@@ -1,36 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 12 Jun 2026 12:29:32 -0000
-Message-Id: <178126737225.2516391.9236635427815833623@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8799316480929154068=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 12 Jun 2026 12:59:32 -0000
+Message-Id: <178126917229.2537188.825280254735571413@gitolite.kernel.org>
+
+--===============8799316480929154068==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-7.2/io_uring
-    old: be5167ffb64c9e227914558f7fd7f9f64193503c
-    new: fa9ad76939340fe6f170f91608ed58ee3a9b427f
+  - ref: refs/heads/review-ilpo-next
+    old: 037f0b03c663a247366673a807834389107995b7
+    new: 72dd918bbe008d64a2c2352bdf14671f1ac068c7
     log: |
-         a8742ba66e54bb6460eed5f89d17ea91a72d9025 io_uring: grab RCU read lock marking task run
-         3a39bb3efa6f334c7e6f6eb06db14205e3499f87 io_uring/mpscq: add lockless multi-producer, single-consumer FIFO queue
-         777ac66600cdd33f2aaf6b25f7e21b8300887ea4 io_uring: switch local task_work to a mpscq
-         f2faba30f58d560e3bec95f4b6cfae6c023c3d3d io_uring: switch normal task_work to a mpscq
-         f7a8253d757ca35d9852bd6634dd10c29869c66d io_uring: run the tctx task_work fallback directly
-         fa9ad76939340fe6f170f91608ed58ee3a9b427f io_uring: remove the per-ctx fallback task_work machinery
+         d20457b46eca76b9bb716dd31af591cad21607b5 platform/x86/amd/hsmp: Clamp ioctl/send_message indices (Spectre v1)
+         0b38a42bf59fc3ba97dd6f02bfc257dffa0e1d6d platform/x86: asus-armoury: add support for GA402NJ
+         a0bb64f3170adccb5780cf8778e601392d94f244 platform/x86: asus-armoury: add support for GA403UM
+         72dd918bbe008d64a2c2352bdf14671f1ac068c7 platform/x86: asus-armoury: add support for FX608JPR
          
-  - ref: refs/heads/for-next
-    old: 71825f1e7f279b0c47a4abf144646a6cc433bbc0
-    new: 3975611b23c1d92225dac4672e9de9fab42d2239
-    log: |
-         a8742ba66e54bb6460eed5f89d17ea91a72d9025 io_uring: grab RCU read lock marking task run
-         3a39bb3efa6f334c7e6f6eb06db14205e3499f87 io_uring/mpscq: add lockless multi-producer, single-consumer FIFO queue
-         777ac66600cdd33f2aaf6b25f7e21b8300887ea4 io_uring: switch local task_work to a mpscq
-         f2faba30f58d560e3bec95f4b6cfae6c023c3d3d io_uring: switch normal task_work to a mpscq
-         f7a8253d757ca35d9852bd6634dd10c29869c66d io_uring: run the tctx task_work fallback directly
-         fa9ad76939340fe6f170f91608ed58ee3a9b427f io_uring: remove the per-ctx fallback task_work machinery
-         3975611b23c1d92225dac4672e9de9fab42d2239 Merge branch 'for-7.2/io_uring' into for-next
-         
+
+--===============8799316480929154068==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1781269169 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1781269169-0df526938c6839faa2a2b0ed4999cad086401e0c
+
+037f0b03c663a247366673a807834389107995b7 72dd918bbe008d64a2c2352bdf14671f1ac068c7 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaiwCswAKCRBZrE9hU+XO
+MfbHAPsGJebtSaac5hWm8lUB1tvODLC45b7tQS1iPww2bDLxswD9HRv2ArIZXZyQ
+ds9HdsTlBJp07p8Y/mjzXq02hqRl4ws=
+=4LK4
+-----END PGP SIGNATURE-----
+
+--===============8799316480929154068==--
