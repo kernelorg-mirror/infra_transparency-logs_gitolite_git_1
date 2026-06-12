@@ -1,53 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4950678396880783658=="
+Content-Type: multipart/mixed; boundary="===============2231629052971902272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Jun 2026 09:45:29 -0000
-Message-Id: <178125752940.2394728.11221325479393957845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 12 Jun 2026 09:47:37 -0000
+Message-Id: <178125765796.2395753.12520018228334927175@gitolite.kernel.org>
 
---===============4950678396880783658==
+--===============2231629052971902272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/tags/usb-7.1-final
-    old: 0000000000000000000000000000000000000000
-    new: 6b099d2e7a53cabaf014e0c8f3311b34f46cd46e
+  - ref: refs/heads/perf/core
+    old: 67d27727854def4a7e2b386429941f5c4741ccc4
+    new: 133d9f07e542204324cee934f759b927089aef3d
+    log: revlist-67d27727854d-133d9f07e542.txt
 
---===============4950678396880783658==
+--===============2231629052971902272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-67d27727854d-133d9f07e542.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781257465 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1781257522-daaba5602c9f9a1cafe50fc220bb8211d7e7b58a
+1a05cb540d644f07c22060c10fc67c73fe32f61e perf/x86/intel/uncore: Fix PCI PMU cleanup on setup failure
+0e9a73a44b64ef7fc35a43acacb669794c11c717 perf/x86/intel/uncore: Fix refcnt and other cleanups
+ee0e95fe8ceeb44626495850f84a584d6a682497 perf/x86/intel/uncore: Let init_box() callback report failures
+9f87f215f86b02fab742bddfb95c463ac9a3e67a perf/x86/intel/uncore: Keep PCI PMUs working when MMIO/MSR setup fails
+47fc197c7355ef60fbc583aadf29ab8d3dfbe49d perf/x86/intel/uncore: Factor out box setup code
+cd98317b052517bfd5169cdd3da2933fd308f582 perf/x86/intel/uncore: Introduce PMU flags and broken state
+fdef04ef662755d947663330a44f9c7928973abe perf/x86/intel/uncore: Fix uncore_box ref/unref ordering
+b2abad37a8b89f54b9c3220e2457d372be6a3898 perf/x86/intel/uncore: Implement lazy setup for MSR/MMIO PMUs
+e60cf00312b381c844b4f8a7968829c91828b894 perf/x86/intel: Remove anythread_deprecated bit from perf_capabilities
+890ab4116136a14a878a6d376e10095af81e9e7c perf/x86/intel: Keep cap_user_rdpmc in sync with RDPMC user-disable state
+17eecab2d5b444c6e6f696918a1cd80f1e4691ef perf/x86/intel: Fallback to sw branch type decoding if no hw decoding
+8addd764ce8e3fc3d52eff8e47d680ce873f320c perf/x86/intel: Fix kernel address leakages in LBR stack
+5ce79ba96fe13a2275110933b08d456baae888f1 perf/x86/intel: Validate the return value of intel_pmu_init_hybrid()
+831c013fed260c9370d980e34c49fda68fbf4450 perf/x86/intel: Drop fixed-counter PEBS constraints for baseline PEBS
+5c8488c8a633b35d54f49ce24f00cc0cf21abbd5 perf/core: Fix kernel register info leak via hardware skid
+133d9f07e542204324cee934f759b927089aef3d perf/core: Check kernel access when kernel callchains are requested
 
-0000000000000000000000000000000000000000 6b099d2e7a53cabaf014e0c8f3311b34f46cd46e refs/tags/usb-7.1-final
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmor1PkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kcoP/1E78JtIbXmi5utTsxqX
-wXOhx1qR9YA0LExlgl5+CX+pSqE2ejVwXVRAiJthcnMLowpg2O+WMialEbx1HJpV
-HwcDasOL5+lCooH0mBEgrdRf1PJVcHHFDXEF2HhsMinPHEThmbnC+gmBXL0P9Pnq
-54cetXRqrbMlVifVgzninVz5R84lJaQGXAlhR2ulMI+w0LBbc0HvNCpOyoEEcmrB
-/g/HUCnO2L3r9ERO9LdZM2jqw+AVshYO/kBIZXMX2OkDmvcpSEz1cA+zzctLectj
-QiEl98rx4AwYwOU8ihw+OqZuU+qTF1Rw6ghkwCVuLKnQQT2l2YffnBwCyeR3m7IT
-6uXSiMR/lVkrx7djA2xpNdhxfyYz0sHztO5ZGkh4gmhX3naKDtRbKU98/lpZIzw9
-jAEVZ+aSHYDD34C1olsGG2e6YWBm3mM6a/113uC7K705roeQWhfFaxRAEuvJv8D8
-bnoFBGsjjGUze2D8JzgTCo8aWSNW7zyFJmL+Dz09DFkB1GVmLHSYDE1GNumekxIf
-Y4hawhuXZJMDBvOJUdP8FBhT2eFW+OELiQk+R2vjLH57AFTGdom8OivHLqMpZlX1
-j1t0Hr7sljiEPNCgjxegRocwrLjBmhjNQ9zHpwk900haCWmIc5ikcaXm5t2s22Jk
-Vn8o83P1DY3FWU9m3szWMh9P
-=eGkj
------END PGP SIGNATURE-----
-
---===============4950678396880783658==--
+--===============2231629052971902272==--
