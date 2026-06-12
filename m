@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5028768524651519771=="
+Content-Type: multipart/mixed; boundary="===============4050170924669788242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Jun 2026 16:03:55 -0000
-Message-Id: <178128023591.2681488.12024184181579389063@gitolite.kernel.org>
+Date: Fri, 12 Jun 2026 16:05:19 -0000
+Message-Id: <178128031920.2683889.17577242265866459584@gitolite.kernel.org>
 
---===============5028768524651519771==
+--===============4050170924669788242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: f176a7c3e44f80b4493d22aa12d02673243ec7d8
-    new: 7b4456767fd478ff1dbee55444d5e3e5a7194089
+  - ref: refs/heads/usb-testing
+    old: 7b4456767fd478ff1dbee55444d5e3e5a7194089
+    new: 1c2b66a7d7257d2652aa41f9a860ecb96dde27dd
     log: |
-         b9ea81ec1fd62a3371fe6f9b4c3340a6b2c3daea USB: serial: mxuport: update number-of-ports encoding
-         7a19b158f3c9bfd5cfbb3ed9ac99e2ec6895dfb3 USB: serial: drop unused tty_driver includes
-         718f4416f0dae38d993996b527523fb5f91c76a0 USB: serial: drop unused tty_flip includes
-         02ea02a31e963bf3cb032badfd82d385a6921103 USB: serial: xr: add missing uaccess include
-         1e578ec51cace9dcef961225b72b8da46ade13ae USB: serial: drop unused uaccess includes
-         63c3a1a9be06f8f8c75d54ef9331e35adb2e7919 USB: serial: drop unused moduleparam includes
-         7f5d66d4b458c2141dfe49c6d5961b49079161ba USB: serial: garmin_gps: drop unused atomic include
-         f0fc120c707bf6ccc8f6b8065b25fde4592f104f USB: serial: add missing atomic includes
-         e690592f98c81416c5be5ce65828aa4665abc302 USB: serial: whiteheat: drop termbits include
-         7b4456767fd478ff1dbee55444d5e3e5a7194089 Merge tag 'usb-serial-7.2-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
+         1c2b66a7d7257d2652aa41f9a860ecb96dde27dd usb: ucsi: huawei_gaokun: support mode switching
          
 
---===============5028768524651519771==
+--===============4050170924669788242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781280177 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781280257 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1781280234-e35ef3b3b3ba996840d7e62e3ed888956ae0e4e8
+nonce 1781280315-8fe34bd2b6e577e50455754ff52ff39c063538fc
 
-f176a7c3e44f80b4493d22aa12d02673243ec7d8 7b4456767fd478ff1dbee55444d5e3e5a7194089 refs/heads/usb-next
+7b4456767fd478ff1dbee55444d5e3e5a7194089 1c2b66a7d7257d2652aa41f9a860ecb96dde27dd refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmosLbEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+59QP/23AuXJUbYiFEgLPdsbF
-8PoxXIGYLLRpiVx4IbjcblUCGS8I+hMJo6eQ3dMpk6pwy28np9Hqr6gxPKoQOAYR
-kJoEDMVMaseICyVP4t1iRyWC7l7Z2YPi2JCHnFLqLtUvswQ+bDQA3b8HdHpz/jpl
-zFAHjckDSyp3giZLg7C86I5xgRw+tt7/Xcb8fmofIBC5ShqKk0UYoNcBY6Op0zkP
-wO+jt/sTt2e0yrwtVTSDGjGakU46DDoqLix/vCAGuc6GSe4ozMyYfIcON3NZ7JYn
-F9bx4wq9Lh8rSuhiGwqG43o5pdidmT4vANiURf8BP89ptAqxek+MmLXASbNpREE4
-jOF34H9j8l8KfszgjauLNWYb2sD7y0HHx3MqvohvZIIYa0NBTgCu61e3bs1oEgYy
-JZU2I1hAOwA1qNDCAXl2Q0GPovW0j7Xtp8mLAmEusRP10eY3vB8ym25DqXtqNTwE
-HQ+3v+oVw6CjamyE1GRfZIsuWWQ52IPhIDiMQkszPeOD5iJWcp5wFSQnX4fcK0qP
-tKvIUHb616Nfm9jL7RF4laww0r98hSsk6HNMngLNKrZx4mkwh1MS3QO9rBm2XxdA
-UOWUwLHPmStUIxI8uKBO0iGlVU3To6Ih7/HcnC1MR0HGQRI8jkLP2n+nhszHVv2j
-tvXhCbPyL76Z7nfDbdcERzZX
-=fLtm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmosLgEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+818QAMv2gFTV1gtrnO62X95K
+OVnpU6NKDd1uqCoYKgOv3PtfEWoX6JNhQdRdKHXUnI8M3t8Ose5ylo6bZeW3r8wv
+BmRqlRyC9bUS6LH5gGZYLTC3mZDVZtiidq8i8V5MmIObFqKivf/IbtIK45B3qYtt
+Eav+LFJlIt1zZL4fuer2TsLcAV2c/gHCzDEvf+1lev5mW4vrebgxuLhRmL5b/3sp
+S11Iw51mcZ8Z5j3hhECrPwSw3zDnZhgcLFtId++bdSctd8MxcWT+iDE81v8BRFBc
+puSNU2rjGa6slHHhhfTUgFr53tndijtD7cElhWlD/ByK3mRWGxPUCJ6ZpJucS5+Z
++nWm0zl8JJFXfrglS8wwWkk/jl6Do6dKp9cxS0+oC4f3KQUErRxG6Ia+eJax3k+z
+2S9VSgtNhjwWsVwAoQWljerzMJbnRw5fxKurseTjik7hK4r0D4/FJQNdTPJbMJZt
+eayBzdtkIjJbi6SPd8hLnIOHX7nTgycCfn9mlKj7mIbPP94xPwkFANDNaH6IRh9S
+cSyrYFVvfvIvfhlSu+7VVogrSEHSaZUFWmrI1FZki3ObiEiHmDdymbsfV7pQb9Qp
+/H8rvMj0rMKyE6MDwEUp/kbrWzO/8DYVzGlTZbqeUP5CEEGzwGJSq5IaXas+6KQC
+2RBxbsjVrou9EyfQTUDIJwOz
+=wZYO
 -----END PGP SIGNATURE-----
 
---===============5028768524651519771==--
+--===============4050170924669788242==--
