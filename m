@@ -1,50 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============0406364690291631667=="
+Content-Type: multipart/mixed; boundary="===============6997434871710745184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 12 Jun 2026 15:54:53 -0000
-Message-Id: <178127969336.2674029.5752764331895122827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 12 Jun 2026 16:03:09 -0000
+Message-Id: <178128018979.2680964.8044995145340655231@gitolite.kernel.org>
 
---===============0406364690291631667==
+--===============6997434871710745184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2b414a95b8f7307d42173ba9e580d6d3e2bcbfce
-    new: 1dadb7e7eb5a052a58fb2ec8d60c07186158efc4
-    log: revlist-2b414a95b8f7-1dadb7e7eb5a.txt
+  - ref: refs/heads/usb-testing
+    old: f176a7c3e44f80b4493d22aa12d02673243ec7d8
+    new: 7b4456767fd478ff1dbee55444d5e3e5a7194089
+    log: |
+         b9ea81ec1fd62a3371fe6f9b4c3340a6b2c3daea USB: serial: mxuport: update number-of-ports encoding
+         7a19b158f3c9bfd5cfbb3ed9ac99e2ec6895dfb3 USB: serial: drop unused tty_driver includes
+         718f4416f0dae38d993996b527523fb5f91c76a0 USB: serial: drop unused tty_flip includes
+         02ea02a31e963bf3cb032badfd82d385a6921103 USB: serial: xr: add missing uaccess include
+         1e578ec51cace9dcef961225b72b8da46ade13ae USB: serial: drop unused uaccess includes
+         63c3a1a9be06f8f8c75d54ef9331e35adb2e7919 USB: serial: drop unused moduleparam includes
+         7f5d66d4b458c2141dfe49c6d5961b49079161ba USB: serial: garmin_gps: drop unused atomic include
+         f0fc120c707bf6ccc8f6b8065b25fde4592f104f USB: serial: add missing atomic includes
+         e690592f98c81416c5be5ce65828aa4665abc302 USB: serial: whiteheat: drop termbits include
+         7b4456767fd478ff1dbee55444d5e3e5a7194089 Merge tag 'usb-serial-7.2-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
+         
 
---===============0406364690291631667==
+--===============6997434871710745184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b414a95b8f7-1dadb7e7eb5a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-75ef233975589d9a8c88bc8822a7c725c71ff650 soc: microchip: mpfs-sys-controller: fix resource leak on probe error
-6fc5666aa576c6c3bec256fa31d72653210319d5 ARM: rockchip: keep reset control around
-560000d619ef162568746ce287f0c725e24ea967 dma-mapping: direct: fix missing mapping for THRU_HOST_BRIDGE segments
-9bfaa86b405381326c971984fd6da184c289713f dma-debug: fix physical address retrieval in debug_dma_sync_sg_for_device
-da3039e91d1f835874ed6e9a33ea19ee80c2cb92 ALSA: timer: Forcibly close timer instances at closing
-053a401b592be424fea9d57c789f66cd5d8cec11 ALSA: timer: Fix UAF at snd_timer_user_params()
-7d3fb78b550301e43fdc60312aed733069694426 ASoC: wm_adsp: Fix NULL dereference when removing firmware controls
-2736a790528d916df3d1a9efc15bfd7698cc748d Merge tag 'riscv-soc-fixes-for-v7.1-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
-9c648f3554920721d8878807cd794fe2d7f989e8 Merge tag 'v7.1-rockchip-arm32fixe' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-6042c91df60e825625bc7d5c5c3b5a87b91d5805 ASoC: SOF: amd: fix for ipc flags check
-25b17c06040fae60518b4ff9c46f2bb12285d538 ASoC: SOF: amd: set ipc flags to zero
-6ec91df8aff77e2e8fe3179c1f3fc15b43a40ba3 iommu/dma: Do not try to iommu_map a 0 length region in swiotlb
-0e152e4126fa14e697d8514cdd1567b18c679f08 ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
-310628484ef06f95c5589374fade917a5689787b spi: rzv2h-rspi: Fix SPDR read access width for 16-bit RX
-6ad3914e06a48a02e362d0df2b1073c7c567c93d ASoC: loongson: Fix invalid position error in ls_pcm_pointer
-e4c60a1d4b6ccc66aefb3789cd908d4f9482eefd ASoC: SDCA: fix NULL pointer dereference in sdca_dev_unregister_functions
-b0d1553d51c3d188baae6d77e6f3dfb415a7b623 Merge tag 'asoc-fix-v7.1-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-f51cae6603c05b4b1fac65c773592e5bc8037251 Merge tag 'dma-mapping-7.1-2026-06-11' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
-fd41dc46db5eecf21c9d53fe034a731a2767030a Merge tag 'soc-fixes-7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-1dadb7e7eb5a052a58fb2ec8d60c07186158efc4 Merge tag 'sound-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781280127 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1781280184-3711cc602e2bbf43ee1d07d787851b45ff1e7d95
 
---===============0406364690291631667==--
+f176a7c3e44f80b4493d22aa12d02673243ec7d8 7b4456767fd478ff1dbee55444d5e3e5a7194089 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmosLX8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bnoP/iRFhdHDODoh0V5EEXCN
+JaqgyR1WUuVrf0/IsAFEwB4SGbpSgZxUzLrdBVwkuqNf606Dv1drsBTsBp9NwIJK
+9maHAXRd9C8fwXg8ILqQO1H+bOBtnVhE+UFaSSQ9QswFsyjJj3ynh2wzLk+nwoxc
+9/Ay6JInCz9EfI3mRHt/x9jcEbtkCZYyr+LdiQjvIu57zZnevi1k/a3oWXY7rOkj
+xKnd7oSMnVna0pUo+HnCKfwP4d5MThMgMiEhedYuAJqz83X9UJSgeNS2lOBo7Xxo
+TrxoWWd/RXoahlNDxvDjeSmpRMEhy7BocpuLumLa+yQXMZfK6FtojzI4YhZ1HA5S
+Knw8jjNBt2TXWzSbJ1frI09mSCEB9ok4LzB5z6vyWT845rMuPLla4PH2C8xTy/8c
+enBm2C4GWCsLBbJLLODGInGSLhXhaIGfX/cviLhElA+nJC3cyjG98ri9Rx0vqhry
+tFZ8Bk5SREOvMs3oUPp6tTqTbnLohExVn2Er9V/ItqKdVrHENIBRYTiRcLEbDSQ7
+iUoYwq+E2ni6zhx1WxW33+sNS8OI/WH2f3yS9E21RBNZvYIeMaZNHg1RYKLK0AO7
+YeEMBFVt93HpwL1D0zeWFKGwXY1rB3iJEotp7r0CWyg3nfZBqEgDhpLZwofLXpNH
+dbbtgCNmP8ehyCLB6srg68CT
+=pf91
+-----END PGP SIGNATURE-----
+
+--===============6997434871710745184==--
