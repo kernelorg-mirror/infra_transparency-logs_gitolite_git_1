@@ -1,53 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0834440740624688506=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 12 Jun 2026 10:30:35 -0000
-Message-Id: <178126023512.2428522.10862118499972416078@gitolite.kernel.org>
-
---===============0834440740624688506==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Fri, 12 Jun 2026 10:34:34 -0000
+Message-Id: <178126047415.2429963.18134635552240958705@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/tags/char-misc-7.1-final
-    old: 0000000000000000000000000000000000000000
-    new: 15a3c8622b64fa6f28f7d710897578a08ac5a656
-
---===============0834440740624688506==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781260172 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1781260229-49cdaf52cf5808903c3b77bd9aac12e8e00215d0
-
-0000000000000000000000000000000000000000 15a3c8622b64fa6f28f7d710897578a08ac5a656 refs/tags/char-misc-7.1-final
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmor34wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GwAQAJer4kE61d+zeLSr4GuX
-X0WOdNLXCnhBQlpiujZ0GZMf8AZ2lw3itFeaKNN2nlIblHhpRhaq9mG2qgc/h2Wo
-10fU7JO+p2VcDAqwQDVlzozeNNQxqMxeirUvoq9TvpbPxyT6LTPePgmDnu8XglL8
-rwZEV4XgmvkG7kq3GFDliDZeGjouanRaXR1HkKhGKPmHHdWwDnVHJCrv1J7tlPoF
-m+YcAA0PtiKkw522Cfd6GKlR9QX8fmIYQq/nXP+m0zPh0n/eN81mc30lORydJyty
-jFbWRh25dJjrsUJzyMbgN5RvZUjaVu+MYOgJb031f85RAVMVcn+9NdKVDH64yjR6
-QHJRMi775jFSFSva0aQ5P+fAoybfmjCQF9A2mQwURYULJwe2NpV6ddx1QKufWmOG
-JefXLNW/DGmNyzCeQf4+J1QkvuDVBujDG8VBWMNKraHjPEN6cPBTl1W4x1XwS4q1
-882TqKSidiuNWcc1FLR5uM/5npN46KyG7Aunqx6m2ZHyZ2Gp8rlk4g4Isf+O4y9v
-oX5FczczKpso11Lhmv76a17gTPoBmet5SUNuAZkYp6/9io9cUnorME+r/u/80y9S
-uOcXpT0hqiP+OtjtpxBa/XHMmc5/WNx6FQU1WNeze9+su+AXFx9/zVMJ6Nl33jfa
-wjiYQ9HLDRH6iXdlByu/Ew6h
-=671r
------END PGP SIGNATURE-----
-
---===============0834440740624688506==--
+  - ref: refs/heads/master
+    old: 35e10fa0e546be1e23173f6c5f31762c4319a272
+    new: 3a7f49885ab9e378392caa9a97ad05b17253f6e1
+    log: |
+         144c05d88c7f459c22abafe891ee149692f29734 iommu/amd: Simplify build_inv_address()
+         2e43a291d7a79059ae0cc02be3d3931ae3dad242 iommu/amd: Pass last in through to build_inv_address()
+         cc08ecaf8e584073600abdf71ea4213267387226 iommu/amd: Have amd_iommu_domain_flush_pages() use last
+         17149077e01c9f1a9171928d3ebdaaaf504577a9 iommu/amd: Make CMD_INV_IOMMU_ALL_PAGES_ADDRESS match the spec
+         e4f39d793123d1da3979ce6c749995f1eee337b5 iommu/amd: Control INVALIDATE_IOMMU_PAGES PDE from the gather
+         cae722f72250f9c6124ea8bf65deaf2c01480a52 Merge branches 'apple/dart', 'arm/smmu/updates', 'arm/smmu/bindings', 'rockchip', 'verisilicon', 'riscv', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
+         3a7f49885ab9e378392caa9a97ad05b17253f6e1 Merge branch 'next'
+         
+  - ref: refs/heads/next
+    old: 34ccce97118baa0089f2ebbcb9b8241fa5a86b37
+    new: cae722f72250f9c6124ea8bf65deaf2c01480a52
+    log: |
+         144c05d88c7f459c22abafe891ee149692f29734 iommu/amd: Simplify build_inv_address()
+         2e43a291d7a79059ae0cc02be3d3931ae3dad242 iommu/amd: Pass last in through to build_inv_address()
+         cc08ecaf8e584073600abdf71ea4213267387226 iommu/amd: Have amd_iommu_domain_flush_pages() use last
+         17149077e01c9f1a9171928d3ebdaaaf504577a9 iommu/amd: Make CMD_INV_IOMMU_ALL_PAGES_ADDRESS match the spec
+         e4f39d793123d1da3979ce6c749995f1eee337b5 iommu/amd: Control INVALIDATE_IOMMU_PAGES PDE from the gather
+         cae722f72250f9c6124ea8bf65deaf2c01480a52 Merge branches 'apple/dart', 'arm/smmu/updates', 'arm/smmu/bindings', 'rockchip', 'verisilicon', 'riscv', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
+         
