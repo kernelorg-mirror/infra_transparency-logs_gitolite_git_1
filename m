@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8934937269762648255=="
+Content-Type: multipart/mixed; boundary="===============3771604717072360697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 12 Jun 2026 22:17:57 -0000
-Message-Id: <178130267764.2966885.15438852754212681255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 12 Jun 2026 22:18:19 -0000
+Message-Id: <178130269979.2967251.11413798158882385684@gitolite.kernel.org>
 
---===============8934937269762648255==
+--===============3771604717072360697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: da6899fc88e4105d896798c630e7ef740ec5822a
-    new: fc408ab6e9cd76ad0c9638642d56ba05ab447d79
-    log: revlist-da6899fc88e4-fc408ab6e9cd.txt
+  - ref: refs/heads/for-next
+    old: 53b37006575441e8e267fbc778a02e74adc7cc96
+    new: ecab9d769c2f3764aee4e1933eb14cc453ab5ea4
+    log: revlist-53b370065754-ecab9d769c2f.txt
 
---===============8934937269762648255==
+--===============3771604717072360697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1781302674 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1781302674-9ac02c76c71d7bb459d2c9f6979767de8ccfcdde
-
-da6899fc88e4105d896798c630e7ef740ec5822a fc408ab6e9cd76ad0c9638642d56ba05ab447d79 refs/heads/asoc-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoshZIACgkQJNaLcl1U
-h9CX0Af9HMlIUTOzPw9kwO7Le7YeTk3zjvTjgx9i+V56OOIy7L/W7nvV16035KH0
-aZA2aV5HqPVZSaVGuQD82EGU2IHxWCcnCa/jWIYDHaTcGCuIEAW4wamdbiaLt6Ep
-OLz8CWyBww4kARI9mRdZM6sZ62LOjn5NrJjJwRq/ViW+s5x5T//ecsBI0oj6Cy8l
-pJiL5rSW5HOA5ALw7o1G+0AmQTCwVd3JDoZ4nQyQRRiXfk0fdaTxGShE6orrNuKu
-iHtK6CdffSfVvClywT2wy1amQ6gYE51rjAo+inCGp7ecV5opgKfwTDVxmo+YLQUn
-BjDD/op2YhC26H14ywHsLk00hZ8FhQ==
-=0PU2
------END PGP SIGNATURE-----
-
---===============8934937269762648255==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da6899fc88e4-fc408ab6e9cd.txt
+Content-Disposition: attachment; filename=revlist-53b370065754-ecab9d769c2f.txt
 
 d7d3dc1dd345b505d2f02175464ff0b12e5ea37e ASoC: mediatek: cleanup mtk_sof_dailink_parse_of() param
 1ddd7dcbc858a580449e8afa602df63456ad4c6b ASoC: mediatek: mtk-soundcard-driver: tidyup set_card_codec_info()
@@ -74,5 +49,6 @@ ca446ac6b38bc311d400db7049ada9e9cf1cd109 ASoC: codecs: peb2466: don't use array 
 c6b09cda390496bcc7bbbc4ec7eec26cf43d3f97 ASoC: update auto format selection method
 442cfd58e71260dcd983e393f750e36fe7ab34d0 ASoC: audio-graph-card2: recommend to use auto select DAI format
 fc408ab6e9cd76ad0c9638642d56ba05ab447d79 ASoC: don't use array if single pattern
+ecab9d769c2f3764aee4e1933eb14cc453ab5ea4 Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
 
---===============8934937269762648255==--
+--===============3771604717072360697==--
