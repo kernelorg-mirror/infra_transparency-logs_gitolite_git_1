@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7469454804811332507=="
+Content-Type: multipart/mixed; boundary="===============8906923491003690905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 12 Jun 2026 00:18:44 -0000
-Message-Id: <178122352486.1972529.12798733979011544853@gitolite.kernel.org>
+Date: Fri, 12 Jun 2026 00:18:47 -0000
+Message-Id: <178122352707.1972615.12330593177249420021@gitolite.kernel.org>
 
---===============7469454804811332507==
+--===============8906923491003690905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 801c5efa788952095586d076fed1ea4902facff8
-    new: 57a68dff1fb64022386175e7014e006a92bdfa7b
-    log: revlist-801c5efa7889-57a68dff1fb6.txt
+  - ref: refs/heads/mm-unstable
+    old: 01a87376d94249407343653a63e8ecfbe4c79cda
+    new: ca2351ac6da277a470d4fcf122b53267e02b2716
+    log: revlist-01a87376d942-ca2351ac6da2.txt
 
---===============7469454804811332507==
+--===============8906923491003690905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-801c5efa7889-57a68dff1fb6.txt
+Content-Disposition: attachment; filename=revlist-01a87376d942-ca2351ac6da2.txt
 
 3627cbe6e62f2501924a9c6edd950206ea0b8d7b selftests/mm: fix ksft_process_madv.sh test category
 82367c9e5b651e3979481c98e98422c4e6ff8d61 mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -145,10 +145,5 @@ f5dbe5ffaaa796e86adaaefee4a9db7520339da1 mm/page_frag: reject invalid CPUs in pa
 abe25d95bc0dea2ad1541ef06c56b7f728320d73 mm/gup_test: reject wrapped user ranges
 5f651cf4293e69b089f51f133e0da9bf5993e96f mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
 ca2351ac6da277a470d4fcf122b53267e02b2716 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-4cbce56357ef7ca43fa0be62df7c7aadf8ff28f9 selftests/mm: allow PUD-level entries in compound testcase of hmm tests
-f36f495910e0b64388c4cf870d39fc06c49c48e7 selftests/mm: remove hardcoded THP sizing assumptions in hmm tests
-8e39931308a1db6dd558983f1539aea7b403a284 selftests/mm: fix exclusive_cow test fork() handling
-81cc9ee5d3a393a7fba49c2dd7b1e243b710057d mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-57a68dff1fb64022386175e7014e006a92bdfa7b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============7469454804811332507==--
+--===============8906923491003690905==--
