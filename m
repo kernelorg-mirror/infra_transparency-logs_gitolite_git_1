@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5632882062416932885=="
+Content-Type: multipart/mixed; boundary="===============7555033787478723991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 12 Jun 2026 06:32:29 -0000
-Message-Id: <178124594970.2248006.13557464549031770105@gitolite.kernel.org>
+Date: Fri, 12 Jun 2026 06:38:36 -0000
+Message-Id: <178124631669.2252003.7947552912606142073@gitolite.kernel.org>
 
---===============5632882062416932885==
+--===============7555033787478723991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 238889bd2a572c31303121abb4fe1198f10e516f
-    new: f07faa1d2937694f21a40679d0bf3f15a862c702
-    log: revlist-238889bd2a57-f07faa1d2937.txt
+    old: f07faa1d2937694f21a40679d0bf3f15a862c702
+    new: d254c45220e59b5e89072419c37426dd6561eab8
+    log: revlist-f07faa1d2937-d254c45220e5.txt
+  - ref: refs/heads/tip/urgent
+    old: 46550b654550503fb476e3a0c0bb2a8c7002d476
+    new: 0429384f3c666b104b8eb57745a80c8e91bf2048
+    log: revlist-46550b654550-0429384f3c66.txt
 
---===============5632882062416932885==
+--===============7555033787478723991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-238889bd2a57-f07faa1d2937.txt
+Content-Disposition: attachment; filename=revlist-f07faa1d2937-d254c45220e5.txt
+
+0429384f3c666b104b8eb57745a80c8e91bf2048 Merge branch into tip/master: 'core/urgent'
+8de511bb9aaa2ffa01151d5e7aefad342e1a15fe Merge branch into tip/master: 'x86/merge'
+d669d6d3d826c3db6ed47231a313c2d0195e1995 Merge branch into tip/master: 'perf/merge'
+853904eef0d552f56e211cf26e0aa90606b43055 Merge branch into tip/master: 'timers/merge'
+57863786b5729ab926c265bcf36dcec65ae1178f Merge branch into tip/master: 'core/rseq'
+6f080cda269abc727a5076e94629a2759ba3a083 Merge branch into tip/master: 'irq/core'
+bfd7d8e20c40c506026fa730d23482aef9aea0c1 Merge branch into tip/master: 'irq/drivers'
+e85ad8d065faefcff5c41b3dd6d01e554583dd08 Merge branch into tip/master: 'irq/msi'
+489ac2987027e7ebc39f95ecab473f781fff88e9 Merge branch into tip/master: 'locking/context'
+762497a56046fcc1d9c6bac2e6c5c87bb1999a51 Merge branch into tip/master: 'locking/core'
+d8632588e51cc5f5c9c49da74ff6940a42fba64a Merge branch into tip/master: 'objtool/core'
+eb8ad349ee6d23f4a7281e6088026196c348e22d Merge branch into tip/master: 'perf/core'
+ce98a60d49071abf5d1cd3629bd0b9ab39adb92a Merge branch into tip/master: 'sched/core'
+fda8ca0f18da0f263d3929ac01f43a8aaca31bd2 Merge branch into tip/master: 'smp/core'
+e3bda19d38be0b60213c2b33759802ed3ac85a07 Merge branch into tip/master: 'timers/core'
+aef798c594cf671754f4d8b528ee157cee62d8b4 Merge branch into tip/master: 'timers/nohz'
+6b3d68d48a8c413f0095650f45d0c08526b226e3 Merge branch into tip/master: 'timers/ptp'
+01148700d3e9e2af845679718858655fdf88be3b Merge branch into tip/master: 'timers/vdso'
+7f911bbd130dee1281ef9f2f81929b862e59a7cc Merge branch into tip/master: 'x86/cache'
+ade9d4b28b1f3543c2f27b058350d197ea885e98 Merge branch into tip/master: 'x86/cleanups'
+403db0dd42876443e4172308407fb3d3a70e34a1 Merge branch into tip/master: 'x86/cpu'
+437a0204ee6bafc4dc4bc5a44d378320f51abe30 Merge branch into tip/master: 'x86/microcode'
+1a4cad2e712f3888fd6b3f0f6214d853a7cdc290 Merge branch into tip/master: 'x86/misc'
+123d79909e013c357de11dfbd8d40e0db1702d4d Merge branch into tip/master: 'x86/mm'
+91f80906d1f6861a8a1d0ba9baa67c6bfa340066 Merge branch into tip/master: 'x86/sev'
+d254c45220e59b5e89072419c37426dd6561eab8 Merge branch into tip/master: 'x86/tdx'
+
+--===============7555033787478723991==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-46550b654550-0429384f3c66.txt
 
 e9096a5a170e7ecd6467bc2e08668ec39897cda7 xfrm: iptfs: preserve shared-frag marker in iptfs_consume_frags()
 eb48730bb827d1550401a5d391903f9d90b493c8 xfrm: iptfs: fix use-after-free on first_skb in __input_process_payload
@@ -110,6 +147,6 @@ b70c687b7cf267fb08586667a3946c8851cad672 ipv6: Fix a potential NPD in cleanup_pr
 79f2670da86722d075633d20fa57418994ee6940 Merge tag 'pmdomain-v7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 22e2036479cb77df6281ebbd376ae6c330774790 Merge tag 'net-7.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 2b414a95b8f7307d42173ba9e580d6d3e2bcbfce Merge tag 's390-7.1-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-f07faa1d2937694f21a40679d0bf3f15a862c702 Merge branch 'linus'
+0429384f3c666b104b8eb57745a80c8e91bf2048 Merge branch into tip/master: 'core/urgent'
 
---===============5632882062416932885==--
+--===============7555033787478723991==--
