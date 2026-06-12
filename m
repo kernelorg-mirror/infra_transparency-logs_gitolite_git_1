@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 12 Jun 2026 06:43:55 -0000
-Message-Id: <178124663586.2255961.11826756560062378825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 12 Jun 2026 07:03:53 -0000
+Message-Id: <178124783339.2269884.7066587245645902266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/testing
-    old: 9bf10032894f429b3e221de63cf95a8544511a90
-    new: 8045c0df98d4f14c54e5cb875f1c9c0ce89fe4ff
+  - ref: refs/heads/sched/core
+    old: 9ebe5c3c29f6217412ff256134516d4dff0e5624
+    new: c095741713d1bc317b53e2da2b222e7448b6021f
     log: |
-         355fbcbdc2539cca7890b0d0914d4ce0f985ad74 xfrm: use compat translator only for u64 alignment mismatch
-         d129c3177d7b1138fd5066fcc63a698b3ba415b0 net: af_key: initialize alg_key_len for IPComp states
-         8045c0df98d4f14c54e5cb875f1c9c0ce89fe4ff xfrm: Fix dev use-after-free in xfrm async resumption
+         c095741713d1bc317b53e2da2b222e7448b6021f sched/fair: Fix newidle vs core-sched
          
