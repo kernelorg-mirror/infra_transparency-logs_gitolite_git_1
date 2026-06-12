@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0673588616818328179=="
+Content-Type: multipart/mixed; boundary="===============2964616794804759350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 12 Jun 2026 06:24:34 -0000
-Message-Id: <178124547432.2241099.5714903402714627261@gitolite.kernel.org>
+Date: Fri, 12 Jun 2026 06:25:06 -0000
+Message-Id: <178124550660.2243250.7428275456543851054@gitolite.kernel.org>
 
---===============0673588616818328179==
+--===============2964616794804759350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 26aad08a928901296aabfbc7a33ecb951656bb98
     new: 9bf10032894f429b3e221de63cf95a8544511a90
     log: revlist-26aad08a9289-9bf10032894f.txt
 
---===============0673588616818328179==
+--===============2964616794804759350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -805,4 +805,4 @@ ab3e10b44ba5411779aac7afd2477917dd77750f tipc: prevent snt_unacked underflow on 
 2afb648f7b99216c687db1f89739c995e1144153 tipc: reject inverted service ranges from peer bindings
 9bf10032894f429b3e221de63cf95a8544511a90 Merge branch 'tipc-fix-netlink-gate-and-receive-path-bugs'
 
---===============0673588616818328179==--
+--===============2964616794804759350==--
