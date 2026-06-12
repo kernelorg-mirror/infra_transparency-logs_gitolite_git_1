@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 12 Jun 2026 19:57:24 -0000
-Message-Id: <178129424472.2855410.266527380581845728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 12 Jun 2026 20:19:19 -0000
+Message-Id: <178129555995.2870192.4852667073100727408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 8defc3ed26a2b4c8677ce2106c2c92cd26ef1316
-    new: 9eb9310bfc8d7be6f2abaaaf0ef7ae3b568c951e
+  - ref: refs/heads/for-linus
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: d898796a8e7ed8528c775f33da056e9978c4c248
     log: |
-         4b4af25d320d077102026bf72fa2b73614f2605c NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
-         9eb9310bfc8d7be6f2abaaaf0ef7ae3b568c951e siw: Enable try_gso
+         d898796a8e7ed8528c775f33da056e9978c4c248 MAINTAINERS: Add Frank Li as PCI endpoint reviewer
          
