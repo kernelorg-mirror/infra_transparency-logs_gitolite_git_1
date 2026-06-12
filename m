@@ -1,45 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7846630006364907040=="
+Content-Type: multipart/mixed; boundary="===============9166060982443229917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 12 Jun 2026 21:59:10 -0000
-Message-Id: <178130155008.2950459.6240936125275331402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Fri, 12 Jun 2026 22:00:10 -0000
+Message-Id: <178130161032.2952716.10567358034711135165@gitolite.kernel.org>
 
---===============7846630006364907040==
+--===============9166060982443229917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 4f094084536593c3f35b7a71868a92ec20763a06
-    new: 8cc910ada7747233db06d1cddaf8ab53562f316e
-    log: revlist-4f0940845365-8cc910ada774.txt
+  - ref: refs/heads/for-linus
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 3a270e211595cc350d61330362c8d7409b9cd018
+    log: revlist-254f49634ee1-3a270e211595.txt
 
---===============7846630006364907040==
+--===============9166060982443229917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f0940845365-8cc910ada774.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-3a270e211595.txt
 
-be6498ca1cca9084330bdefb68ad8379d1ac5ea7 hwrng: xilinx - Move xilinx-rng into drivers/char/hw_random/
-b2c41fa9dd8fc740c489e060b199165771f268d1 crypto: sun4i-ss - Remove insecure and unused rng_alg
-1cecde1005399eb4e4069c036dcfcbe3c240b6e0 crypto: amcc - convert irq_of_parse_and_map to platform_get_irq
-51f449308506269ec31a886c83da93f7a7a4d780 MAINTAINERS: make myself the maintainer of the Qualcomm QCE driver
-7891c64c0520519782470ba29bac8a5761e295d8 crypto: marvell/octeontx - fix DMA cleanup using wrong loop index
-9dbf173bd32d5f81b005008b682bfb50aa093455 crypto: cavium/cpt - fix DMA cleanup using wrong loop index
-70fd646ae5ddaae0a7fbbba94b500bde2e1211f0 crypto: atmel-ecc - drop dead code in atmel_ecdh_max_size
-8d13f7a8450206e3f820cdb26e33e91d181071b4 hwrng: jh7110 - fix refcount leak in starfive_trng_read()
-6b7e97752854b1f7bccc41864428ea3b55c53cde crypto: testmgr - allow authenc(hmac(sha{256,384}),cts(cbc(aes))) in FIPS mode
-606ba888b98e0d26a2c4e5c8dc0542e3ad8f0f3a crypto: rng - Free default RNG on module exit
-6ea0ce3a19f9c37a014099e2b0a46b27fa164564 crypto: tegra - fix refcount leak in tegra_se_host1x_submit()
-1d12a1ff99a4b2071cafe723dddbd402ac804948 crypto: qcom-rng - Enable clock in hwrng case
-633ff7eae8eb7fce8fdf3c169908ced139869bda crypto: qcom-rng - Allow zero as a random number
-083f4355e787ea7b45c991471d17537d08906eda crypto: qcom-rng - Remove crypto_rng interface
-8cc910ada7747233db06d1cddaf8ab53562f316e hwrng: qcom - Move qcom-rng.c into drivers/char/hw_random/
+4284c604a6972f233c8a93cdc2f17c67e3c30454 alpha: remove unnecessary architecture-specific <asm/device.h>
+7af84328fe90897b1e123deb5a5fcc686fcb00e6 alpha: marvel: Fix irq_set_status_flags to use correct IRQ number
+64ea2187696d11682b49cafcb7ff66f4926e8b0a alpha: marvel: Fix lock ordering in init_io7_irqs()
+20c6f4183f2e1daf6dc0a2032e85322337223da7 alpha: Fix SMP shutdown hang due to missing memory barriers
+5b2e80600c53312d0a354f890e89d0fdfdf93ccc alpha: enable regset-based ptrace and core dumps
+8b7adf909391d7264c6e486720a99c61afde9ef3 alpha: add ARCH_STACKWALK-based stacktrace support
+9b4979a37184b7548f1000b10dc089b67be4ce83 alpha: make irqflags helpers operate on IPL state
+099cacd989fb3afc226eee11ce17aada703af672 alpha: initialize PCI sysfs bin attributes for lockdep
+b6af2b82a8496af21bbb1e09061ea253d1e1d614 alpha: provide ftrace return address support for lockdep
+70502f9eba093ae66247c62362754cac6da586fa alpha: use raw spinlocks for low-level platform locks
+12f68a42f93881428eb0ecdfd242a6c2ea24ae3c alpha: enable lockdep hardirq state tracking
+3a270e211595cc350d61330362c8d7409b9cd018 alpha: enable GENERIC_ENTRY and GENERIC_IRQ_ENTRY
 
---===============7846630006364907040==--
+--===============9166060982443229917==--
