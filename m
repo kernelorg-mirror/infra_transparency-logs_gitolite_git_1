@@ -1,39 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 12 Jun 2026 07:23:37 -0000
-Message-Id: <178124901746.2284499.9298607565478841003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 12 Jun 2026 07:29:25 -0000
+Message-Id: <178124936565.2288497.3823777504740956130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/for-next
-    old: 42615efeed84624627d559d00ecc2e606a67bcb3
-    new: f9c349592b74e96cecadd7d427f0b3dd6320d489
+  - ref: refs/heads/work.kmem_cache_static
+    old: 7db10b3c8e01646ddb82c0f0475bb479f1c682a8
+    new: 8badbb416eaee7a742cf29c2f27ff880a4f77070
     log: |
-         6191a61ec9d9d8f1d1d1d6bfcb6d303be76c2804 arm64: dts: bst: enable eMMC controller in C1200
-         22ca5df7c9d25077e44e33fb5751583aa79ee21a arm64: defconfig: enable BST SDHCI controller
-         c936d730575fcbf6203bf0f10d37409b33725647 Merge tag 'bst-arm64-emmc-driver-dts-for-v7.2' of https://github.com/BlackSesame-SoC/linux into soc/dt
-         cccde8de2c72068051ff8351ae6f1e2a12718aa0 Merge tag 'bst-arm64-emmc-driver-defconfig-for-v7.2' of https://github.com/BlackSesame-SoC/linux into soc/defconfig
-         dc2595e97374b27d5f2ccc14929b508200925293 Merge branch 'soc/defconfig' into for-next
-         142d466966e2bb17e18033713c51065bf7e36d0c Merge branch 'soc/dt' into for-next
-         f9c349592b74e96cecadd7d427f0b3dd6320d489 soc: document merges
-         
-  - ref: refs/heads/soc/defconfig
-    old: 512cef2af615cf0a4c9b0529a2aa36390240ecb7
-    new: cccde8de2c72068051ff8351ae6f1e2a12718aa0
-    log: |
-         22ca5df7c9d25077e44e33fb5751583aa79ee21a arm64: defconfig: enable BST SDHCI controller
-         cccde8de2c72068051ff8351ae6f1e2a12718aa0 Merge tag 'bst-arm64-emmc-driver-defconfig-for-v7.2' of https://github.com/BlackSesame-SoC/linux into soc/defconfig
-         
-  - ref: refs/heads/soc/dt
-    old: 564edaca14861ba9e58d4e646d272c677296d285
-    new: c936d730575fcbf6203bf0f10d37409b33725647
-    log: |
-         6191a61ec9d9d8f1d1d1d6bfcb6d303be76c2804 arm64: dts: bst: enable eMMC controller in C1200
-         c936d730575fcbf6203bf0f10d37409b33725647 Merge tag 'bst-arm64-emmc-driver-dts-for-v7.2' of https://github.com/BlackSesame-SoC/linux into soc/dt
+         10be988ed61baf8531ea50dda31cd7c1e67090d3 static kmem_cache instances for core caches: infrastructure
+         361f65d278702afc66607981e8b7a1040f021578 static kmem_cache instances for core caches: setup primitives
+         659322a37583f7fcbe9dbe9c3dba21a145b59b7e allow preallocated kmem_cache instances in modules
+         eaea0084c28d7be3a4f09cc798abd1e2784dadcc VFS caches: switch from runtime_const() machinery to slab-static.h
+         0baa078fa92c84af99ae307bf3c0610a56d103f2 make inode_cache statically allocated
+         f9f6dd65526eb0d253bc8ae248a5ba98a404fbce make mnt_cache statically allocated
+         2457972fd37ae249a33823fc76821fce8aa2f684 make bh_cachep statically allocated
+         02ec267f94e692ed387d784a64523775ab932c50 make seq_file_cache statically allocated
+         8476c66267bf71fa8a1d8fc0e46ab3af0dd335b5 make thread component caches (fs_cachep, files_cachep, etc.) statically allocated
+         8badbb416eaee7a742cf29c2f27ff880a4f77070 make ufs_inode_cache statically allocated
          
