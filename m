@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 12 Jun 2026 20:51:56 -0000
-Message-Id: <178129751621.2899089.13327285911627812690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 12 Jun 2026 20:58:00 -0000
+Message-Id: <178129788073.2903456.9486064166573650745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
-  - ref: refs/heads/master
-    old: 28608283615e5e7e92ea79c8ea13507f4b5e0cbe
-    new: 2a2974b5145cdf2f4db134be1a2157e9ca4a1cf0
+  - ref: refs/heads/queue
+    old: e5cb3d465f7d1e7ff08331015ce92db2c54d3285
+    new: f14a0c9e03e4c2e21f86d5104157e672b6449e17
     log: |
-         d898796a8e7ed8528c775f33da056e9978c4c248 MAINTAINERS: Add Frank Li as PCI endpoint reviewer
-         2a2974b5145cdf2f4db134be1a2157e9ca4a1cf0 Merge tag 'pci-v7.1-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+         4a0dcc6a15f94de3dee90bf52234d330cc3aad4e KVM: selftests: access_tracking_perf_test: bump number of NUMA nodes to 32
+         9da8d14c03e5f9d3c61aa969e74eb7b88cf1d6c6 KVM: x86/hyperv: remove unnecessary mmu_is_nested() check
+         e4c5b68d720059e9e7dddccc8d1dcd328c751437 KVM: nVMX: unwind PDPTR load if processor triggers a nested VMFail
+         7f8a4eb426b430b11b77532e3e0a8bd4cb2c31ff KVM: MMU: unconditionally clear MMIO cache on root rebuild
+         f14a0c9e03e4c2e21f86d5104157e672b6449e17 KVM: nVMX: remove unnecessary unload on processor-detected VMFail
          
