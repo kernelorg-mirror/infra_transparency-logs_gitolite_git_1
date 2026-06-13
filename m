@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 13 Jun 2026 17:28:36 -0000
-Message-Id: <178137171607.3808331.12838548575419213903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 13 Jun 2026 17:33:12 -0000
+Message-Id: <178137199229.3811984.7956458874799822505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 53de003f18e6e5ed77fb7282019fbdb2a9b4f777
-    new: fbd5cf465ad9296dfb5f2d05c7b2256ff049b2aa
+  - ref: refs/heads/main
+    old: 5184fd34214fffa6316cee4f90179cf43d956c39
+    new: 0d4bd1c5629a8435538c312e2f4a1f13d0a8bd34
     log: |
-         2298b2da3061fb2bc8b8a26a86b267eeddfcd907 TODO: Remove a fixed bug.
-         fbd5cf465ad9296dfb5f2d05c7b2256ff049b2aa release_note: update for the next release
+         07ca2ab4ce8484a8e743c4a2c63a03b5c437d06d netdevsim: tc: allow to test nf_tables offload control plane code
+         5394aa0bb00da862e8c85c2768cbb12612044d13 selftests: netfilter: add phony nft_offload test
+         0d4bd1c5629a8435538c312e2f4a1f13d0a8bd34 Merge branch 'netdevsim-add-fake-ft-cls_flower-offload'
          
-  - ref: refs/tags/v1.6.1
-    old: 0000000000000000000000000000000000000000
-    new: 104ece6c3f9218cd7da51bda5e1e7f7865c582a2
