@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Sat, 13 Jun 2026 18:57:24 -0000
-Message-Id: <178137704491.3874195.5663418786740743440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 13 Jun 2026 19:03:17 -0000
+Message-Id: <178137739768.3878431.17529172584731975418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: clrkwllms
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/v6.1.175-rt63-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 30b5883e1de11d1256461b15b27ce244becb5f48
+  - ref: refs/heads/irq/msi
+    old: 3661d5f403769b872482b584e658b71bbdb5f55e
+    new: f64e03da0d83cb173743888bff4a7e61476a8fc2
+    log: |
+         f64e03da0d83cb173743888bff4a7e61476a8fc2 Revert "PCI/MSI: Unmap MSI-X region on error"
+         
