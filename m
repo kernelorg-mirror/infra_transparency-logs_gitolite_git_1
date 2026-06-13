@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 13 Jun 2026 12:36:26 -0000
-Message-Id: <178135418643.3594809.4432906397516418081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 13 Jun 2026 13:05:48 -0000
+Message-Id: <178135594890.3615479.15777986560735938415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-7.2/io_uring
-    old: 856950322678906a0947c31205dd652830f9c628
-    new: d9b710f683dc68b5c0b7dd0c6c64aeb5d27a1ac4
+  - ref: refs/heads/hwmon-next
+    old: 83dda7ed185501ba1f8165aeca83ff4a8ef7c263
+    new: 9955c92abe72564a49c293b1c15cd3b4f02ea6a0
     log: |
-         d9b710f683dc68b5c0b7dd0c6c64aeb5d27a1ac4 io_uring/bpf-ops: add a separate maintainer entry
-         
-  - ref: refs/heads/for-next
-    old: 659f40d89f9c1c743b8ee496a473962766b72302
-    new: 4188120f07152ef163a3f7f60c3491d041bbafb6
-    log: |
-         d9b710f683dc68b5c0b7dd0c6c64aeb5d27a1ac4 io_uring/bpf-ops: add a separate maintainer entry
-         4188120f07152ef163a3f7f60c3491d041bbafb6 Merge branch 'for-7.2/io_uring' into for-next
+         9955c92abe72564a49c293b1c15cd3b4f02ea6a0 hwmon: tmp401: Read "ti,n-factor" as signed
          
