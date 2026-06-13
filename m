@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 13 Jun 2026 13:48:23 -0000
-Message-Id: <178135850374.3644796.9275749072029292246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sat, 13 Jun 2026 13:52:33 -0000
+Message-Id: <178135875307.3648432.13521791929653400438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/irq/core
-    old: 171cc0d9eed1cad5de7ce6a212efbeda390edb0f
-    new: 8f727615134abc6382f0ea07b90270d7bdde578f
-    log: |
-         8f727615134abc6382f0ea07b90270d7bdde578f x86/irq: Add missing 's' back to thermal event printout
-         
+  - ref: refs/tags/driver-core-7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 85c38cdd50b7ff1b0345d821f933dc01f48fb7f2
