@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 13 Jun 2026 15:52:07 -0000
-Message-Id: <178136592784.3736148.8179330835441969652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 13 Jun 2026 16:01:28 -0000
+Message-Id: <178136648821.3743318.2751241478579878949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/master
-    old: 7f5de74092633301ae347ae23a05c2fcf04b3f39
-    new: 486e4e0f14be0c34980c16c2146943b5edbb76eb
+  - ref: refs/heads/kbuild-for-next
+    old: 1a1e62a5a48494cdf33e3bfb82fb8f408da7c4cc
+    new: 7158c5b67e92e52c2ca9a3617a7e768a84031da1
     log: |
-         486e4e0f14be0c34980c16c2146943b5edbb76eb Fixes for all trees
+         7158c5b67e92e52c2ca9a3617a7e768a84031da1 kbuild: Use ld.lld for linking host programs when LLVM is set
          
