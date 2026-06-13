@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7224834405298288399=="
+Content-Type: multipart/mixed; boundary="===============2606652428884509336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 13 Jun 2026 17:25:49 -0000
-Message-Id: <178137154976.3806654.5164478027520195296@gitolite.kernel.org>
+Date: Sat, 13 Jun 2026 17:25:52 -0000
+Message-Id: <178137155207.3806769.725349692822106831@gitolite.kernel.org>
 
---===============7224834405298288399==
+--===============2606652428884509336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 57a68dff1fb64022386175e7014e006a92bdfa7b
-    new: 9d335aed8840f6bf83ba93309ae5e185de829c21
-    log: revlist-57a68dff1fb6-9d335aed8840.txt
+  - ref: refs/heads/mm-unstable
+    old: ca2351ac6da277a470d4fcf122b53267e02b2716
+    new: d888de4f85bcad5a7b7b065860e9b4b6cfc7ee21
+    log: revlist-ca2351ac6da2-d888de4f85bc.txt
 
---===============7224834405298288399==
+--===============2606652428884509336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57a68dff1fb6-9d335aed8840.txt
+Content-Disposition: attachment; filename=revlist-ca2351ac6da2-d888de4f85bc.txt
 
 077955bc50635c30cd2247667b1fb49562bff7ef selftests/mm: fix ksft_process_madv.sh test category
 80a4e8e7a277e1779f581472a6ff923c4b724d17 mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -148,8 +148,5 @@ ac8f8129d01160a6688f7aaf74467a51bc4218df selftests/mm: allow PUD-level entries i
 b7e3e5ed0ed496e06180ec1dbfaa990806c0ed71 selftests/mm: remove hardcoded THP sizing assumptions in hmm tests
 2d73919acf122fac2a258c5d5cab8bf615bd7d09 selftests/mm: fix exclusive_cow test fork() handling
 d888de4f85bcad5a7b7b065860e9b4b6cfc7ee21 mm: use mapping_mapped to simplify the code
-32e6e66e25bc42b9f580ee2af24ec025048c4065 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-32681bb8f5181233639e57fbcdf50a58aad2e256 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-9d335aed8840f6bf83ba93309ae5e185de829c21 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============7224834405298288399==--
+--===============2606652428884509336==--
