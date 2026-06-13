@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sat, 13 Jun 2026 12:33:07 -0000
-Message-Id: <178135398784.3591016.7088796258001092514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 13 Jun 2026 12:34:44 -0000
+Message-Id: <178135408425.3591635.5615795147621856641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
+repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 8c3d6065d411211965d09467c651daee88123f2d
-    new: 19a6a29c6ba25ceb2caa89f1a601cc3a08ab981a
+  - ref: refs/heads/for-7.2/block
+    old: e8dcf2d142bd720c8334233ad6cfdf00f0e76b7f
+    new: d532cddb6c6049ced414d64d83c6ce7149a6421a
     log: |
-         19a6a29c6ba25ceb2caa89f1a601cc3a08ab981a engines/io_uring: code style tweak
+         d532cddb6c6049ced414d64d83c6ce7149a6421a nbd: Reclassify sockets to avoid lockdep circular dependency
+         
+  - ref: refs/heads/for-next
+    old: cd52b66d32f8250aaec93a011cfe3865b966396f
+    new: 9cb2f66d7b8580f377ffc12d2572a11aafc3c50c
+    log: |
+         d532cddb6c6049ced414d64d83c6ce7149a6421a nbd: Reclassify sockets to avoid lockdep circular dependency
+         9cb2f66d7b8580f377ffc12d2572a11aafc3c50c Merge branch 'for-7.2/block' into for-next
          
