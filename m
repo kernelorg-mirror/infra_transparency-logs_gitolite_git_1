@@ -1,43 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0692408619714150298=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Fri, 12 Jun 2026 23:55:27 -0000
-Message-Id: <178130852738.3040419.1981241175950615064@gitolite.kernel.org>
-
---===============0692408619714150298==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 13 Jun 2026 00:03:16 -0000
+Message-Id: <178130899694.3045102.5839416321863131196@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: sami
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/tags/modules-7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f832f4557f680984cf8dd4df3e8037ba402dbae7
-
---===============0692408619714150298==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1781308525 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
-nonce 1781308525-d1ffe1bad98ec6425e7243ce828cfcba2d1a3374
-
-0000000000000000000000000000000000000000 f832f4557f680984cf8dd4df3e8037ba402dbae7 refs/tags/modules-7.2-rc1
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCaiycbQAKCRBaByWrOaGn
-etiTAQCMNE+lHdXb+ZpVugUpc2kLeYQKfwg30Gpm+FZ7jts+HQD9FsmuVtPkyzkj
-C/JBl2nZpw1TqIWV73mY3mrpWqn6Sg0=
-=BmeB
------END PGP SIGNATURE-----
-
---===============0692408619714150298==--
+  - ref: refs/heads/io_uring-tw-mpscq-batch
+    old: dc0d19ff9149343f64a939156dcdcb8efb74e804
+    new: 2ac8547b7dc705766796fc2d637f43b7048b2792
+    log: |
+         03d92bb8a8824e5321ae192f0fc956b4be48d881 io_uring: batch local task_work adds from block completion batches
+         38f4677be1c4cfb57846b200654a476d44146150 io_uring/uring_cmd: batch lazy task_work adds from block completion batches
+         2ac8547b7dc705766796fc2d637f43b7048b2792 ublk: open a completion batch window around batch commit processing
+         
