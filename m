@@ -1,80 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============0914506743261324508=="
+Content-Type: multipart/mixed; boundary="===============4163222194950323038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 13 Jun 2026 12:29:39 -0000
-Message-Id: <178135377907.3587325.4119618470059537189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sat, 13 Jun 2026 12:32:04 -0000
+Message-Id: <178135392420.3590504.8475466073118188449@gitolite.kernel.org>
 
---===============0914506743261324508==
+--===============4163222194950323038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
+repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
-  - ref: refs/heads/for-7.2/io_uring
-    old: dbee3b34f04d7b8ebaa2e557efcc81f380ef3a87
-    new: 856950322678906a0947c31205dd652830f9c628
-    log: |
-         ed64f5c546b3d5e3a4840f6c055448ce90edf56c io_uring: grab RCU read lock marking task run
-         50cb44bd0d5f243919a06b17b1d979fdcd72cb2b io_uring/mpscq: add lockless multi-producer, single-consumer FIFO queue
-         d46ab2c98ababa19b41a5709b6921d7b1add7f74 io_uring: switch local task_work to a mpscq
-         de7341ffe49ed30a1d75b254ac8c731b057247bf io_uring: switch normal task_work to a mpscq
-         df58c2161684b2a1d8db752339f0c0629ec68be5 io_uring: run the tctx task_work fallback directly
-         576cce91480a949f5b83578300f37023b933e0a2 io_uring: remove the per-ctx fallback task_work machinery
-         856950322678906a0947c31205dd652830f9c628 io_uring/net: make POLL_FIRST receive side checks consistent
-         
-  - ref: refs/heads/for-7.2/io_uring-fuse
-    old: e2a9be1b1774d0f27423d291f855c17d8b0c91db
-    new: 7bb2e5ebf4f7b572a18a0678ef332431e34d385a
-    log: revlist-e2a9be1b1774-7bb2e5ebf4f7.txt
-  - ref: refs/heads/for-next
-    old: 1d1de892ebda8e18e3b44d80a5a5a1c1d6c3a61a
-    new: cd52b66d32f8250aaec93a011cfe3865b966396f
-    log: revlist-1d1de892ebda-cd52b66d32f8.txt
+  - ref: refs/heads/master
+    old: 5e65f4f03c67016e09111c5cd7b2f5137c126106
+    new: 8c3d6065d411211965d09467c651daee88123f2d
+    log: revlist-5e65f4f03c67-8c3d6065d411.txt
 
---===============0914506743261324508==
+--===============4163222194950323038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2a9be1b1774-7bb2e5ebf4f7.txt
+Content-Disposition: attachment; filename=revlist-5e65f4f03c67-8c3d6065d411.txt
 
-ed64f5c546b3d5e3a4840f6c055448ce90edf56c io_uring: grab RCU read lock marking task run
-50cb44bd0d5f243919a06b17b1d979fdcd72cb2b io_uring/mpscq: add lockless multi-producer, single-consumer FIFO queue
-d46ab2c98ababa19b41a5709b6921d7b1add7f74 io_uring: switch local task_work to a mpscq
-de7341ffe49ed30a1d75b254ac8c731b057247bf io_uring: switch normal task_work to a mpscq
-df58c2161684b2a1d8db752339f0c0629ec68be5 io_uring: run the tctx task_work fallback directly
-576cce91480a949f5b83578300f37023b933e0a2 io_uring: remove the per-ctx fallback task_work machinery
-856950322678906a0947c31205dd652830f9c628 io_uring/net: make POLL_FIRST receive side checks consistent
-733ccc794be11b276e0eda1688fccde1958e466b Merge branch 'for-7.2/block' into for-7.2/io_uring-fuse
-1325f82c96574aa80649b4276310d74fd73aa4b5 io_uring/rsrc: rename io_buffer_register_bvec()/io_buffer_unregister_bvec()
-fc6cdab3e382b9556dc75857a13de2d05f461821 io_uring/rsrc: split io_buffer_register_request() logic
-cb281a92e3f00cd6521e827295841b0ba421e796 io_uring/rsrc: add io_buffer_register_bvec()
-7bb2e5ebf4f7b572a18a0678ef332431e34d385a io_uring/rsrc: rename and export IO_IMU_DEST / IO_IMU_SOURCE
+22b970edc451e56b4b958809e162af417193fa04 verify: introduce crash-aware data verification
+eb87d1b90c37ad306616a88bea01f1f8d8a6b84b backend: mark @td to terminate when no more next verify
+bc4b28f6cb1e61d939211326fe695dac79c23a63 backend: stop outer loop when `verify_only=1`
+3346121eae796f9e2b710b3442031d88f09ab03b backend: log trim @io_u to io_hist even `do_verify=0`
+34fe398b2b261c1f8e458f6ff068f81bbfe2cd1b Merge branch 'verify-policy' of https://github.com/minwooim/fio
+8771d2890fa17eb518d27cc9ef627f21cfc995b1 t/verify_state_save: test verify state save feature
+cf144e06b4f98492f6ca8a17157bcf284b3f64a4 t/run-fio-tests: add verify_state_save.py
+6575d5f2116f5f8bf92765d094e00fb88f0ff892 mem: adjust alloc size for [rand]trimwrite workloads
+b24e3b6332a25c8bfce2401e4269ed82df0ef36d io_uring_cmd: support mixed write_mode with ratio
+e0ddbd25e6ac9579b1d493393f791fd2098d3689 io_u: add zeroed, errored flags to @io_u for verify
+658100403e6e69b2e479423c8bded167917a6fd5 t/nvmept_write_mode: add multiple write_mode tests
+f055bacb90990b96fe9940579b3f7eda3515679f t/nvmept_write_mode: fix fio path
+e103dce9f0493aa7a29aa586c0b596f19123a29c Merge branch 'io_uring/multiple-write-modes' of https://github.com/minwooim/fio
+5549d6a50a49e359503d89a82eb87d07fc3dd7de engines/io_uring_cmd: debug print for write mode
+b2c04305de8c48c9ea9bb49bc937d6dcd333977b verify: debug print for verifying write zeroes
+c06c2f3d9b33bfdc7b6e1f0c4834a4d3efd1b44c t/nvmept_write_mode: check write mode splits
+24520efc41627b1889918959490deebc49f07968 t/nvmept_write_mode: check verify job
+60274d9612bec4823216e888ead59ffb72a41b26 t/nvmept_write_mode: improve formatting
+bd11387aba55e9dc58c0127437c8c6982e6ac32f ci: skip new write uncorrectable tests on QEMU
+d8380abcb6756d7356961ac496904acc12181bf7 Merge branch 'fix/trim-with-do-verify-0' of https://github.com/minwooim/fio
+0c7ce679d32bb00ae4e2c7458ca325097ca2df7f io_uring: consolidate fio_ioring{,_cmd}_queue_init()
+1dd13a5105a62549cbf7f0ff3f8e6e7874c4716b io_uring: consolidate fio_ioring{,_cmd}_post_init()
+cdfab6830ebb55e8a6b7272b45550e3b12fcd0c1 io_uring: try to register ring fd
+8c3d6065d411211965d09467c651daee88123f2d Merge branch 'opt/register-ring-fd' of https://github.com/calebsander/fio
 
---===============0914506743261324508==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d1de892ebda-cd52b66d32f8.txt
-
-ed64f5c546b3d5e3a4840f6c055448ce90edf56c io_uring: grab RCU read lock marking task run
-50cb44bd0d5f243919a06b17b1d979fdcd72cb2b io_uring/mpscq: add lockless multi-producer, single-consumer FIFO queue
-d46ab2c98ababa19b41a5709b6921d7b1add7f74 io_uring: switch local task_work to a mpscq
-de7341ffe49ed30a1d75b254ac8c731b057247bf io_uring: switch normal task_work to a mpscq
-df58c2161684b2a1d8db752339f0c0629ec68be5 io_uring: run the tctx task_work fallback directly
-576cce91480a949f5b83578300f37023b933e0a2 io_uring: remove the per-ctx fallback task_work machinery
-856950322678906a0947c31205dd652830f9c628 io_uring/net: make POLL_FIRST receive side checks consistent
-733ccc794be11b276e0eda1688fccde1958e466b Merge branch 'for-7.2/block' into for-7.2/io_uring-fuse
-1325f82c96574aa80649b4276310d74fd73aa4b5 io_uring/rsrc: rename io_buffer_register_bvec()/io_buffer_unregister_bvec()
-fc6cdab3e382b9556dc75857a13de2d05f461821 io_uring/rsrc: split io_buffer_register_request() logic
-cb281a92e3f00cd6521e827295841b0ba421e796 io_uring/rsrc: add io_buffer_register_bvec()
-7bb2e5ebf4f7b572a18a0678ef332431e34d385a io_uring/rsrc: rename and export IO_IMU_DEST / IO_IMU_SOURCE
-aec788ff5bbc921e021e50ad1ce68c436bf9b2ea Merge branch 'for-7.2/io_uring' into for-next
-aa2a0a9e939997de1e4c7d9062110dd5b925edf9 Merge branch 'for-7.2/block' into for-next
-cd52b66d32f8250aaec93a011cfe3865b966396f Merge branch 'for-7.2/io_uring-fuse' into for-next
-
---===============0914506743261324508==--
+--===============4163222194950323038==--
