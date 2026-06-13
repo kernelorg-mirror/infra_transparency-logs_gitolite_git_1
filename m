@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5954140335969544795=="
+Content-Type: multipart/mixed; boundary="===============4700287153244792485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 13 Jun 2026 21:04:24 -0000
-Message-Id: <178138466447.3966237.12319560106476113003@gitolite.kernel.org>
+Date: Sat, 13 Jun 2026 21:04:59 -0000
+Message-Id: <178138469968.3966731.5605546874245929498@gitolite.kernel.org>
 
---===============5954140335969544795==
+--===============4700287153244792485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 9feb0bb3468e863b2b82a2eabfaeec4c7c44b90c
-    new: e4e6a50ca78886fbe8d2600bd6d4e8e6e71ef3e3
-    log: revlist-9feb0bb3468e-e4e6a50ca788.txt
+  - ref: refs/heads/for-next-tpm
+    old: 0f5121c24da8a9ccdbbbe4122b234236b41471d9
+    new: 2f080c6800e0d40580a0eb9d2918e500c483fac5
+    log: revlist-0f5121c24da8-2f080c6800e0.txt
 
---===============5954140335969544795==
+--===============4700287153244792485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9feb0bb3468e-e4e6a50ca788.txt
+Content-Disposition: attachment; filename=revlist-0f5121c24da8-2f080c6800e0.txt
 
-979c017803c40829b03acd9e5236e354b7622360 l2tp: use list_del_rcu in l2tp_session_unhash
-bdd39576bf50a50bdafe3da968fd271bc674a48f net: bridge: prevent too big nested attributes in br_fill_linkxstats()
-8c84c5ec4aaff6ad7aac49935e050fed6b360a28 net: enetc: fix incorrect mailbox message status returned to VFs
-5027266dea471e140f93dd534845c9c4f43219a3 net: enetc: fix missing error code when pf->vf_state allocation fails
-4a995d37b537f437daa01752d39cf44c6ba9ee2c net: enetc: add ratelimiting to VF mailbox error messages
-c666fa632fe628c34904bcd59aeb96bf08e40d31 net: enetc: fix TOCTOU race and validate VF MAC address
-f262f5d893327a7131ed25ac8dd01ed7024bcc18 net: enetc: fix race condition in VF MAC address configuration
-adb4599979cd00d5d426f26cf78b65264217e35b net: enetc: fix DMA write to freed memory in enetc_msg_free_mbx()
-f8ae63de2a872fa3b68c287c35379f6d73d38a5d net: enetc: fix unbounded loop and interrupt handling in VF-to-PF messaging
 54362b0176080b905dbd0651ee3dbb295da41541 net: enetc: fix init and teardown order to prevent use of unsafe resources
 9e68817f12d5935dbf73f2fe6e6299644f6de1b6 net: enetc: avoid VF->PF mailbox timeout during SR-IOV teardown
 c33f944a33d63c65f3506eee6f2ca3771b68454f Merge branch 'net-enetc-sr-iov-robustness-and-security-fixes'
@@ -1050,5 +1041,14 @@ d2aa06eca25ea44dc66d2ea005c83a9155efb80d KEYS: Use acquire when reading state in
 b6c2918cbb38c640783fd510c47f9ffabce328ce keys: Replace strcpy(derived_buf, "AUTH_KEY") with strscpy(..., HASH_SIZE)
 7af9d786525f54cc9f125f5ccd46ef782dd79308 keys: prevent slab cache merging for key_jar
 e4e6a50ca78886fbe8d2600bd6d4e8e6e71ef3e3 keys: Pin request_key_auth payload in instantiate paths
+589096bb177b770b9c61f0be523bcdf01fe7f9c8 tpm: svsm: constify tpm_chip_ops
+3bdce5aa6a46e9878bd98a80115245c5f695a201 tpm: restore timeout for key creation commands
+e58abb912ad3fe77ec0273eb3a00b424f297e2f8 tpm: Initialize name_size_alg for non-NULL name in tpm_buf_append_name()
+36d62601ed89125bce5175f68107d062d906d522 tpm: tpm_tis_spi: Use wait_woken() in wait_for_tmp_stat()
+f641b6c1a9cff4a8e2d8979ae57083439b128c9c tpm_crb: Check ACPI_COMPANION() against NULL during probe
+9c3827fbb797c29d41ec23383c332ee001b160dd tpm: tpm_tis: store entire did_vid
+d13bdce4fd469182215cb6180d06e8af4a26f9f8 tpm: tpm_tis: Add settle time for some TPMs
+708018168a93a2c205585f72548b3375aec2ec06 tpm: tpm2-sessions: wait for async KPP completion in tpm_buf_append_salt
+2f080c6800e0d40580a0eb9d2918e500c483fac5 tpm: tpm_crb_ffa: revert defered_probed when tpm_crb_ffa is built-in
 
---===============5954140335969544795==--
+--===============4700287153244792485==--
