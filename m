@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sat, 13 Jun 2026 14:10:23 -0000
-Message-Id: <178135982340.3661770.8343923584627869094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sat, 13 Jun 2026 14:12:15 -0000
+Message-Id: <178135993500.3662800.15835652803057119311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/chromebook-hp-11a
-    old: 3f60725aaf6f67ceb899140eceb327ad9143b6cb
-    new: 245dd18e0ef47bcdabf4deaca855c85f5f04232b
-    log: |
-         245dd18e0ef47bcdabf4deaca855c85f5f04232b arm64/config: Enable CONFIG_USB_RTL8152
-         
+  - ref: refs/tags/driver-core-7.2-rc1
+    old: 85c38cdd50b7ff1b0345d821f933dc01f48fb7f2
+    new: 87cffa2fc43294966d89248a021b5cb1fe318000
