@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 13 Jun 2026 02:12:24 -0000
-Message-Id: <178131674425.3147450.14715644716000947655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 13 Jun 2026 03:33:25 -0000
+Message-Id: <178132160566.3203773.10877490068184922315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: f79691b80602347ae3cc59945638a9100d0b76ff
-    new: c2de3e9b91bd67ac2e4b0839233ce80f9fb96292
+    old: 746145bd7aaa3db2d77ef26aa8f3ebe1ca83cef6
+    new: 2ae53824b4462a13c2c773c57b2d2180a11d7fea
     log: |
-         c2de3e9b91bd67ac2e4b0839233ce80f9fb96292 foo
+         4c71303c837449158815c521fcee4ec3b8721dbd bpf: Fix setting retval to -EPERM for cgroup hooks not returning errno
+         cec8423776176eb73429443ecb859789af9602e5 selftests/bpf: Add retval test for bool and errno LSM cgroup hooks
+         2ae53824b4462a13c2c773c57b2d2180a11d7fea Merge branch 'bpf-fix-setting-retval-to-eperm-for-cgroup-hooks-not-returning-errno'
          
