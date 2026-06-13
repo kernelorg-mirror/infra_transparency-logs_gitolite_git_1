@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sat, 13 Jun 2026 02:11:04 -0000
-Message-Id: <178131666424.3146815.6155494215684465047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 13 Jun 2026 02:12:24 -0000
+Message-Id: <178131674425.3147450.14715644716000947655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 21e163988c87219b3973efe9ca934b7acf0e4fe8
-    new: e954726de56963754c8ac9d9e76b3f59d12fef17
+  - ref: refs/heads/master
+    old: f79691b80602347ae3cc59945638a9100d0b76ff
+    new: c2de3e9b91bd67ac2e4b0839233ce80f9fb96292
     log: |
-         e954726de56963754c8ac9d9e76b3f59d12fef17 firewire: core: Open-code topology list walk
+         c2de3e9b91bd67ac2e4b0839233ce80f9fb96292 foo
          
