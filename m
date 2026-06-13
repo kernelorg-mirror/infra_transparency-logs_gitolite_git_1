@@ -1,51 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5433586802243735216=="
+Content-Type: multipart/mixed; boundary="===============0120067035744094382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Sat, 13 Jun 2026 19:17:37 -0000
-Message-Id: <178137825763.3889125.4392873504237323579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 13 Jun 2026 20:27:30 -0000
+Message-Id: <178138245014.3937793.1591440375020575691@gitolite.kernel.org>
 
---===============5433586802243735216==
+--===============0120067035744094382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/next
-    old: 6af280fa643fff3d5f8fe440fe1c76ad4b082cc8
-    new: fd4a4cc3c9e281df3fa70e0e96b9eea6ed6686c6
-    log: revlist-6af280fa643f-fd4a4cc3c9e2.txt
+  - ref: refs/heads/nfsd-testing
+    old: 5a3ffce18a168e924d8ed5ab9ada8405aaa9c01b
+    new: 56d6b74e37708005739ef00bb59db34bffac15a8
+    log: revlist-5a3ffce18a16-56d6b74e3770.txt
 
---===============5433586802243735216==
+--===============0120067035744094382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6af280fa643f-fd4a4cc3c9e2.txt
+Content-Disposition: attachment; filename=revlist-5a3ffce18a16-56d6b74e3770.txt
 
-666acf82f0411681dd30b962e49468c793f49580 landlock: Account all audit data allocations to user space
-70d8eef7a407192bbe1bb7663189f8b9ec24caf9 landlock: Demonstrate best-effort allowed_access filtering
-056e0268014dce0f49b045c7d9509e5b69a76681 landlock: Fix LANDLOCK_SCOPE_SIGNAL bypass on the SIGIO path
-94786f25b1faa3680387d79aee0db6eb981bf473 selftests/landlock: Test SCOPE_SIGNAL on the SIGIO/fowner pgid path
-a15390185b6f57119b76f680945edc82492b3f07 selftests/landlock: Explicitly disable audit in teardowns
-a93addc436b112d242e29f0343a69a0e854c4fcf landlock: Fix unmarked concurrent access to socket family
-db8186d0c6bee7846669b8d1162ba3c5a53c2e85 landlock: Add UDP bind() access control
-c483059b46cb341ff6175970322d963e71e99b28 landlock: Add UDP send+connect access control
-be717634a982ac68d056a154e30151c876b634b5 selftests/landlock: Add tests for UDP bind/connect
-531170c811f0ed1c1af4705193449f12f3673332 selftests/landlock: Add tests for UDP send
-5cf9db3057558637670bf7f31a493283f4638386 samples/landlock: Add sandboxer UDP access control
-61040431ea2fa7844126d17d97ef9321b8b9ae38 landlock: Add documentation for UDP support
-b70968029f167d92c024976292bec7c168988717 landlock: Add a place for flags to layer rules
-2d7db7492a2e513a2c3cf560fabdf03d1399d77f landlock: Add API support and docs for the quiet flags
-6febc847da992f9ac83cd72edcbefacd2651037d landlock: Suppress logging when quiet flag is present
-80ee01b10ae79c798adc3d6825720f6fc1efb2a8 samples/landlock: Add quiet flag support to sandboxer
-60357ced7cd6517f33316bf98f6fcb21c370041e selftests/landlock: Replace hard-coded 16 with a constant
-313529f159c3c73c899963ee75154d9f075e0300 selftests/landlock: Add tests for quiet flag with fs rules
-2e9141dcd6a79a62c6958a691fe3a9dd80d84c03 selftests/landlock: Add tests for quiet flag with net rules
-bb595bc0d3cbd78db9d3faa1f37425f67ad07ebc selftests/landlock: Add tests for quiet flag with scope
-fd4a4cc3c9e281df3fa70e0e96b9eea6ed6686c6 selftests/landlock: Add tests for invalid use of quiet flag
+ef6fe22ee7de0a016bd6b4ec6cf314b9f93cd816 nfsd: clear opcnt on compound arg release to prevent OOB read
+71a715232eff2ff9b8fbb7ad2f9f882187056ac8 nfsd: add missing read barrier to rpc_status_get dumpit seqcount retry
+ef265c50d90fc7e92461668fab69f9a33e935092 nfsd: fix netlink dumpit error handling for rpc_status_get
+5d51eea254f4be0b146bd859384e10723d59bcf8 sunrpc: defer rq_argp and rq_resp free until after RCU grace period
+50c819a3406963f7935a62d81321984b947b5b97 nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
+35450eb04ec5718ef680062da9711f054cacfdb9 nfsd: add filehandle match check to nfsd4_delegreturn()
+387858689eb526681b3fca7d24d3fb18b353356a nfsd: validate nseconds in TIME_DELEG decode paths
+a6a22b9c4135f80b8b1b5c9f7629cddb677c5dad nfsd: fix version mismatch loops in nfsd_acl_init_request()
+fd848bc2582871814762604f3675f1bd139e356e nfsd: fix FL_SLEEP being set unconditionally for all LOCK types
+19a6dd09bf8d22d7af15ef068f57ec279f9051aa nfsd: add fh_want_write() for early-verified SETATTR in nfsd_proc_setattr()
+0fecd3b7c474eedb60ec03716a13a61c93eadec6 nfsd: fix clock domain mismatch in clients_still_reclaiming()
+7f101efd236e14915bf35d5c2b62d10350a63b1c nfsd: use test_and_clear_bit for somebody_reclaimed to prevent lost update
+7a02caf96fac6faa22a93b8bd06d29d6f90318cd nfsd: reject reclaim LOCK after RECLAIM_COMPLETE
+b601157bf2118094708689033921e996e3418e29 lockd, nfsd: RCU-protect nlmsvc_ops dispatch
+bb483d4ed57fd52c21c0f64c126986489d51c9d5 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
+bec760bf8e868cb6e232b4760dac86c0172d17f5 nfsd: initialize DRC hash table before registering shrinker
+f8b2bcada458865af99537ece2b5470417b0143b nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
+402b9e49a8e5da556adbafd21871ea4e8a617372 nfsd: drop the stateid, not the stateowner, on seqid_op replay retry
+56d6b74e37708005739ef00bb59db34bffac15a8 siw: Enable try_gso
 
---===============5433586802243735216==--
+--===============0120067035744094382==--
