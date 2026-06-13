@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 13 Jun 2026 03:45:59 -0000
-Message-Id: <178132235965.3214907.3637319790878458088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Sat, 13 Jun 2026 04:40:00 -0000
+Message-Id: <178132560062.3257121.17121910787657937854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: c2de3e9b91bd67ac2e4b0839233ce80f9fb96292
-    new: 314cd58a2bae898dde7f4d5bd30dced904661abd
+  - ref: refs/heads/main
+    old: d245851f0629ab5cbf3e6caad7d2c3ce753ac23c
+    new: 4ad496846a1214ee55428ea39731bbc4055ac551
     log: |
-         314cd58a2bae898dde7f4d5bd30dced904661abd foo
+         c0e1d0fd58d4524a3667e29a51d2aa7dead57527 livetree: Fix a comparison of integers with different signedness
+         4ad496846a1214ee55428ea39731bbc4055ac551 Set default permissions for workflows
+         
+  - ref: refs/heads/master
+    old: d245851f0629ab5cbf3e6caad7d2c3ce753ac23c
+    new: 4ad496846a1214ee55428ea39731bbc4055ac551
+    log: |
+         c0e1d0fd58d4524a3667e29a51d2aa7dead57527 livetree: Fix a comparison of integers with different signedness
+         4ad496846a1214ee55428ea39731bbc4055ac551 Set default permissions for workflows
          
