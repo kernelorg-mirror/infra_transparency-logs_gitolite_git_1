@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6586579975256654368=="
+Content-Type: multipart/mixed; boundary="===============7033083900544707283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 13 Jun 2026 10:33:53 -0000
-Message-Id: <178134683309.3504612.5580318445930934204@gitolite.kernel.org>
+Date: Sat, 13 Jun 2026 10:34:20 -0000
+Message-Id: <178134686065.3505060.7438000480457649513@gitolite.kernel.org>
 
---===============6586579975256654368==
+--===============7033083900544707283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 606ad3c7de08bcb29ddaf2132c867a7c6a6c04f8
-    new: 807bb59ac039ada200dec485360ef9c85bea45a8
-    log: revlist-606ad3c7de08-807bb59ac039.txt
+    old: 807bb59ac039ada200dec485360ef9c85bea45a8
+    new: 9e7142ee16b82de905f2e26502045c99b3aeb184
+    log: revlist-807bb59ac039-9e7142ee16b8.txt
+  - ref: refs/heads/tip/urgent
+    old: ec088282cda9a80779a3fff57e7221474b1d0c21
+    new: 7cb9574cc50321657b990349974ff67854b3c47e
+    log: revlist-ec088282cda9-7cb9574cc503.txt
 
---===============6586579975256654368==
+--===============7033083900544707283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-606ad3c7de08-807bb59ac039.txt
+Content-Disposition: attachment; filename=revlist-807bb59ac039-9e7142ee16b8.txt
+
+7cb9574cc50321657b990349974ff67854b3c47e Merge branch into tip/master: 'core/urgent'
+b2a0dee18f87594b410e5d5791d5c1fdfad72636 Merge branch into tip/master: 'x86/merge'
+c48abc3d8a0570eb3581c9c95a0f6d6e3f1a54f2 Merge branch into tip/master: 'perf/merge'
+2b15a9d77c2358c7107c14b7e175468e6aab669e Merge branch into tip/master: 'timers/merge'
+3c0196f8f84f962de4fb2332648d7a60bb551841 Merge branch into tip/master: 'core/rseq'
+8a4461e573f9eaea0975beb0c82042fc63905feb Merge branch into tip/master: 'irq/core'
+de9801d59e2b224ae090cd81f4f01f658fd5570a Merge branch into tip/master: 'irq/drivers'
+54fe1bf9a0752d2569122775f9c491b5a37d2cbf Merge branch into tip/master: 'irq/msi'
+ba101da648be8212d212ce0d7f459cbbb7c614a0 Merge branch into tip/master: 'locking/context'
+971f255d27a26a599205643aee24779d62b3695e Merge branch into tip/master: 'locking/core'
+390e10f86f8af116d2ffbc60de93e41449928319 Merge branch into tip/master: 'objtool/core'
+6f0f2b907d919d08fe972d6a70be097752acddd0 Merge branch into tip/master: 'perf/core'
+bc14b1bd237e91feec6c1368920da045b1de2d19 Merge branch into tip/master: 'sched/core'
+7f0ea976a0b1157a1b84d70bb6286aa006b5ef36 Merge branch into tip/master: 'smp/core'
+1e2fbba932c786dd39767cea58a478e0b5526943 Merge branch into tip/master: 'timers/core'
+1db0900138ac5dc661fc0cfa57128bd01190fcc4 Merge branch into tip/master: 'timers/nohz'
+4c05faa32423d4c185fb0df80aa4950ea8248f16 Merge branch into tip/master: 'timers/ptp'
+869a45d03b2f2dae55511f848f388791a4df485a Merge branch into tip/master: 'timers/vdso'
+4ed6cf8efdd6f668e32eb8da24a421c0901c476a Merge branch into tip/master: 'x86/cache'
+8ca7e0de822eab78c6ba93cea2fc326ad7f9618e Merge branch into tip/master: 'x86/cleanups'
+053fdd72194496c37bf5e8223113049f74baaf8d Merge branch into tip/master: 'x86/cpu'
+a85006098a985a3e6026cd14ba85e09aa4cacc5b Merge branch into tip/master: 'x86/microcode'
+689022c0884de6bc9f20bcd497f1ade9c4fde1f0 Merge branch into tip/master: 'x86/misc'
+f7d59e17786ef3280841107519866e8de8309fb1 Merge branch into tip/master: 'x86/mm'
+1963430c6d6b71bf30c22aaca9b560b7226abb42 Merge branch into tip/master: 'x86/sev'
+9e7142ee16b82de905f2e26502045c99b3aeb184 Merge branch into tip/master: 'x86/tdx'
+
+--===============7033083900544707283==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ec088282cda9-7cb9574cc503.txt
 
 514ab98364595007d4557ecc85d7e5f012c504d3 staging: rtl8723bs: fix buffer over-read in rtw_update_protection
 75ef233975589d9a8c88bc8822a7c725c71ff650 soc: microchip: mpfs-sys-controller: fix resource leak on probe error
@@ -122,6 +159,6 @@ d898796a8e7ed8528c775f33da056e9978c4c248 MAINTAINERS: Add Frank Li as PCI endpoi
 7c62657a10625e4e113de248d41f543d5a2f3a1a Merge tag 'drm-misc-fixes-2026-06-12' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 4fa048ed72531d6c2a2147fa9b52b6a5451213a2 Merge tag 'drm-fixes-2026-06-13' of https://gitlab.freedesktop.org/drm/kernel
 062871f1371b2e02a272ff5279c6479aff0a37ef Merge tag 'pinctrl-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-807bb59ac039ada200dec485360ef9c85bea45a8 Merge branch 'linus'
+7cb9574cc50321657b990349974ff67854b3c47e Merge branch into tip/master: 'core/urgent'
 
---===============6586579975256654368==--
+--===============7033083900544707283==--
