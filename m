@@ -1,45 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5334242659892489097=="
+Content-Type: multipart/mixed; boundary="===============8059564174714912610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 14 Jun 2026 20:57:15 -0000
-Message-Id: <178147063536.908913.11127857710500786208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 14 Jun 2026 21:55:37 -0000
+Message-Id: <178147413775.950518.8633797760478541880@gitolite.kernel.org>
 
---===============5334242659892489097==
+--===============8059564174714912610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/testing
-    old: d6c85599112d0e3bbaf1d329d5f2e1f7993dea58
-    new: a50909aa46dec46de3c73235fc15a7d6f763d996
-    log: revlist-d6c85599112d-a50909aa46de.txt
+  - ref: refs/heads/next
+    old: 857360c0b1d7028723ad48c8640532c5c0c706b7
+    new: 2bcf437a28ca137c15a29fd0d57dcf5a42900d56
+    log: revlist-857360c0b1d7-2bcf437a28ca.txt
 
---===============5334242659892489097==
+--===============8059564174714912610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6c85599112d-a50909aa46de.txt
+Content-Disposition: attachment; filename=revlist-857360c0b1d7-2bcf437a28ca.txt
 
-6b87ab6d52d36442f511191fe9a0c78608eef0f4 iio: accel: stk8312: Update includes to match IWYU
-ca26f4316648515b997d66709092265e0ac573fe dt-bindings: iio: frequency: add adf41513
-3008d34c9c31d1b7d6f45811a0803f23d05204c0 lib: kstrtox: Make _parse_integer() take variadic arguments
-c99a1b621faeb4f690a696c18e717b20ca1d9d2c lib: vsprintf: use _parse_integer() instead of _parse_integer_limit()
-f0ae9a5acbde6fb5e1e8b9dac9b464b9565ce0fc lib: kstrtox: add initial value to _parse_integer_limit()
-e88a52eb115ae38c092291c87a5f340f8844d0f6 lib: kstrtox: add kstrtoudec64() and kstrtodec64()
-385b8d4cc94ee1d339cacc68bce08a2acdaa0ff5 lib: test-kstrtox: tests for kstrtodec64() and kstrtoudec64()
-adebf76278116a06166d0b5f8b4112ad5dd6389a lib: math: div64: add div64_s64_rem()
-df06901ea5843a0aa60cd7691023213554c4fa78 iio: core: add decimal value formatting into 64-bit value
-c68b2354eeb1aeca0138599f2f7c4ba07954c3e6 iio: test: iio-test-format: add test case for decimal format
-5400231ee14bb9bf7c7bba4d43181a7bd1fe9d70 iio: frequency: adf41513: driver implementation
-d1e48fa6e78d129447f35a8a0a97028791dcd34e iio: frequency: adf41513: handle LE synchronization feature
-031f27f5ed82a8bd8717df0f9a8276373c0feb1a iio: frequency: adf41513: features on frequency change
-35447dfaf0fb6ba38e1bcaaa106ed620fe8d8f9a docs: iio: add documentation for adf41513 driver
-a50909aa46dec46de3c73235fc15a7d6f763d996 Documentation: ABI: testing: add common ABI file for iio/frequency
+cd64a5cfe00f1c874d3ff341a4cd8607977a915c damo_setup_cli_completion: suggest damon_region_aggregated event
+f64384952f75bee27635415906b4a73308b3b2f7 damo_setup_cli_completion: suggest --raw option for report trace
+2f91bd67578130c3fc9a7a2559ea071c42476df0 damo_setup_cli_completion: suggest --tracer for 'damo report trace'
+c06a6dd3e400b75494c2969e0bd3f399a832aa62 USAGE: document 'damo report trace'
+efca3e4325fe6823a7498125b4698c73c6b7625b damo_report: show trace report type next to holistic
+4086f7a47d0d2f77e98eb3068098990b62f48236 damo_report_trace: do not print non-raw output if --raw is given
+1b1492b91ee8879717ed87d527e7dcb8e687f89a damo_report_trace: do more sanity check for damo report trace output input
+d79e8deaf52ba6f4cd2eb3f66e436f7bbea6923c damo_report_trace: document expected input formats
+9fab3ab9efab2ef287aab76fcaba179d34e12f75 damo_report_trace: receive cmd on parse_trace_line()
+4fb891758b2e5f0e2d90bf5aae70ee0579c61cfb damo_report_trace: fix parse_trace_line() for perf-script
+34de38e395d92d3d28a0620ccb8ea39f9ba47666 tests/unit/test_damo_report_trace: add perf-script test for parse_trace_line()
+ebb81b203252684c9ecb9b45382552348dc50ba9 tests/unit/test_damo_report_trace: add trace-cmd-report test for parse_trace_line()
+9a0d2a45376cf4eaf7bf9476845bf76c405235d6 damo_report_trace: document what parse_trace_line() returns
+07b4c8c64855a36af439fbfa2892a9b0ba296c92 damo_report_trace: support trace-cmd header lines
+6d9fdc09fa53a8eb924513874df79a4bca8054de _damo_records: pass trace command to parse_damon_trace()
+2bcf437a28ca137c15a29fd0d57dcf5a42900d56 _damo_records: use damo_report_trace.parse_trace_line()
 
---===============5334242659892489097==--
+--===============8059564174714912610==--
