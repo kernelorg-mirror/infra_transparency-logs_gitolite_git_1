@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1525726468887846608=="
+Content-Type: multipart/mixed; boundary="===============8294201594949495109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 14 Jun 2026 22:12:59 -0000
-Message-Id: <178147517921.962954.11445953122641168223@gitolite.kernel.org>
+Date: Sun, 14 Jun 2026 22:13:02 -0000
+Message-Id: <178147518211.963169.18392603618732295909@gitolite.kernel.org>
 
---===============1525726468887846608==
+--===============8294201594949495109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-2
-    old: 081f1a8c95c19cdb34c5cac3fa5faf24f0a4d1ff
-    new: 352ce960b735dfdc7602ee8c310415245ca3af54
-    log: revlist-081f1a8c95c1-352ce960b735.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: a82fed0a4eb103decff69bd3917fa82023028f88
+    new: 0bdbb1954d6982936b81c77ee586045d6e4bdbab
+    log: revlist-a82fed0a4eb1-0bdbb1954d69.txt
 
---===============1525726468887846608==
+--===============8294201594949495109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-081f1a8c95c1-352ce960b735.txt
+Content-Disposition: attachment; filename=revlist-a82fed0a4eb1-0bdbb1954d69.txt
 
 48fcc895403cc97aa6c776cb65e6aa11290c0b44 mshv: add a missing padding field
 3fcf923302a8f5c0dc3af3d2ca2657cb5fae4297 hv: utils: handle and propagate errors in kvp_register
@@ -161,8 +161,6 @@ badad6fad60def1b9805559dd81dbab3d97b82aa RDMA: During rereg_mr ensure that REREG
 1f57f68c4dd101e5e8ffc9ffa6428f45bcdd776a s390: Remove GENERIC_LOCKBREAK Kconfig option
 7d3fb78b550301e43fdc60312aed733069694426 ASoC: wm_adsp: Fix NULL dereference when removing firmware controls
 3f26bb732cc136ab20176697c92f32c9c84cb125 drm/virtio: fix dma_fence refcount leak on error in virtio_gpu_dma_fence_wait()
-97d0a9c6e80903d342656ab8a7743a9ec50c92e1 i2c: tegra: Update Tegra410 I2C timing parameters
-656646b3847ac6a21b074a813223feef2aadd6e2 i2c: tegra: Fix NOIRQ suspend/resume
 498cc8f0a93b3e71d186e30d1b93b6f3eca96738 MAINTAINERS: i2c: designware: Remove inactive reviewer
 5d39580f68e6ddeedd15e587282207489dfb3da2 tcp: restrict SO_ATTACH_FILTER to priv users
 f2bb3434544454099a5b6dec213567267b05d79d net: add pskb_may_pull() to skb_gro_receive_list()
@@ -185,7 +183,6 @@ d9faef564438d1e4579c692c046603e7ada7bdf4 accel/ivpu: Fix signed integer truncati
 2673cefa99ca918e7ac5b0388ff578a83656c896 drm/i915/edp: Check supported link rates DPCD read
 2736a790528d916df3d1a9efc15bfd7698cc748d Merge tag 'riscv-soc-fixes-for-v7.1-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
 9c648f3554920721d8878807cd794fe2d7f989e8 Merge tag 'v7.1-rockchip-arm32fixe' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-695fcefd4a81466ef9c529790b4e96f1ea2ba051 i2c: imx-lpi2c: fix resource leaks switching to devm_dma_request_chan()
 19440600e729d4f74a42591a872099cf25c7d28a r8152: handle the return value of usb_reset_device()
 333b6d5bb9f87827ac2639c737bf9613dbae7253 rxrpc: Fix the ACK parser to extract the SACK table for parsing
 f329e8325e054bd6d84d10904f8dd51137281b92 drm/virtio: Fix driver removal with disabled KMS
@@ -274,7 +271,6 @@ b0d1553d51c3d188baae6d77e6f3dfb415a7b623 Merge tag 'asoc-fix-v7.1-rc7' of https:
 f51cae6603c05b4b1fac65c773592e5bc8037251 Merge tag 'dma-mapping-7.1-2026-06-11' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 c7be308858890007b4da9b6498a1c1f3e6647dee Merge tag 'drm-intel-fixes-2026-06-11' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 6fe5552f678bdbb925388ecff30a257b382cb9f6 Merge tag 'drm-xe-fixes-2026-06-11' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-9bffa2a61551da9ac32171f09d556974cb96d70a MAINTAINERS: hand over I2C to Andi Shyti
 5cad752e1e73c326c9d784ceb34c9129285539c5 dt-bindings: i2c: mux-gpio: name correct maintainer
 35ebcfcc9ef29afcf258db854ccf25572c75baef Merge tag 'i2c-host-fixes-7.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 fd41dc46db5eecf21c9d53fe034a731a2767030a Merge tag 'soc-fixes-7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -297,6 +293,8 @@ e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git:
 9d312e19034ecbf433da2f98ea1c40509fd08e0f i2c: qcom-cci: Do not check return value of cci_init()
 b397b1305b3de23d9653e6db076533e8c701b4fd i2c: qcom-cci: Move cci_init() under cci_reset() function
 ba88b342cc0bb5d3a56f869ad7e582c8fe977ea2 i2c: qcom-cci: Remove overcautious disable_irq() calls
+745a45e6b4577a3bce851db0b53e4f2fa8198635 Merge branch 'i2c/i2c-host-2' into i2c/i2c-host-next
 352ce960b735dfdc7602ee8c310415245ca3af54 i2c: davinci: Unregister cpufreq notifier on probe failure
+0bdbb1954d6982936b81c77ee586045d6e4bdbab Merge branch 'i2c/i2c-host-2' into i2c/i2c-host-next
 
---===============1525726468887846608==--
+--===============8294201594949495109==--
