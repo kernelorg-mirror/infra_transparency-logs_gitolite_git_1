@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5220724054910866583=="
+Content-Type: multipart/mixed; boundary="===============1282628773394036331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 14 Jun 2026 03:54:12 -0000
-Message-Id: <178140925247.64944.8355918813210688278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 14 Jun 2026 03:55:19 -0000
+Message-Id: <178140931901.67823.144153063768491544@gitolite.kernel.org>
 
---===============5220724054910866583==
+--===============1282628773394036331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 7b4456767fd478ff1dbee55444d5e3e5a7194089
-    new: 1c2b66a7d7257d2652aa41f9a860ecb96dde27dd
+  - ref: refs/heads/tty-next
+    old: b586d69177b5fc92450a5f37a3bb1ce50aa87e39
+    new: 426e83cab1f5d53069ac7030cb03e2d7c6367ef1
     log: |
-         1c2b66a7d7257d2652aa41f9a860ecb96dde27dd usb: ucsi: huawei_gaokun: support mode switching
+         b93062b6d8a1b2d9bad235cac25558a909819026 serial: qcom_geni: Fix RX DMA stall when SE_DMA_RX_LEN_IN is zero
+         a287620312dc6dcb9a093417a0e589bf30fcf38a vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write
+         426e83cab1f5d53069ac7030cb03e2d7c6367ef1 serial: 8250_pci: Don't specify conflicting values to pci_device_id members
          
 
---===============5220724054910866583==
+--===============1282628773394036331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781409194 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1781409251-9639059df3e42ae0ba9fc736ff7000ca4a9878d1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781409260 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1781409317-248f7d1a42561b1c7ba91eb99f99cc8e459e45bb
 
-7b4456767fd478ff1dbee55444d5e3e5a7194089 1c2b66a7d7257d2652aa41f9a860ecb96dde27dd refs/heads/usb-next
+b586d69177b5fc92450a5f37a3bb1ce50aa87e39 426e83cab1f5d53069ac7030cb03e2d7c6367ef1 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmouJaobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHEQAJVfOZncmG46Ai7rsuw5
-0OSyAOKD1DUj1nfepbHHoZoGsoAy98g6VvN/0rFNkbaySUxhMhomlheAFqm4rkwu
-mfVpaareKrxavoWmtnL9dVBzC1rHWUGJl+kuJ6WLnS/1vdCPSwb/t9cWrik46Upw
-YjxrNn0jK/Lo77IWWHSXSgFHwoSsgCI7mHQeo0p9SSkj1ODAHZgAEHZwN0s9y98M
-0JJKe41ezPE6QS0TvqqJltP8Ocl1Rmqd6bKD2uepvQFJwQ0IzK1vZlc5M1L12Lar
-/ZsuTUc0WQ8cqL6l+SHWdPLxe7J+gms8XkA1Hsc7fcEER99QlNx0ed32l+bt2zhd
-2h/zdtAQ/jalTKaUPqEwhawE45c0pd0e1tLPzPG+WY5SuDNox/H0n3W0TRISC1YX
-X8kV+ud/oZwbuE0KFdTn57TN5mk5uCRALI/BWSVhqhLpfeczD3oXQI54JcTcTDFI
-Q66hkIaLjmjqgSuO3IAOupQY2tgksqOonGf6N4dMmLcQQQJ5FHGxoNpF+IiJ4LiD
-4eMPng6s3UTdCeugQInGYvdI0PzRVR7x68peFFmvpFgu/bRl8xzRqmJwwA1ENCnn
-2JlTgONChdbZlXlMp0pJETwGLPBXlOpR+pfTXFHWvfPTa04hNJuT4XXowz0ZbG2z
-shqz1pzjrCLIhjzeAYt8pHcH
-=W1qw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmouJewbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qnUQAL6cqPljpJ0I703J+4x/
+34v1zzygu1qr+IePWM2Q9CZhLx9ye0NNy0fEPT0iC0YjXK8z2fmYjAHJYChDvHSx
+IUG7i2akY44BQKobaPUbXEvRR20wv26p6VMc90xjVSZgfeXRLBBudniWarb5qI5y
+Z6hgDOS7uBGgnd6g/OKNBv9jADqDIFw7SD7Z/zzTYn20TjQHO7Tj2lZI0ET9J4p6
+Hgd9a+SZbHM03DKDlSGcEnJdWXv5cbiaYJBFc6r6SolrzH4+UxVsV59EeFxpmRw5
+aWw6k2Rfwhl3BVLeJ0O9iz9d5Z4Etym1K89J40lgeWQScHuVGsc3K1/YZ+/XtYHq
+LAWehMlV0D4zKtzIiVZOFFyy/DhGpJNDmJHKlGp8zkwG402uv2STDXUmqyxeZ1HC
+8sxmLdHmof6Nv0x0lLXhnz05cZf4PvCcgri/J0EKPFlCWOsWnN8lW84frlBPwuQM
+W9i3GJf0oDjdTokDjo59bMniQKeoPkZYohF2iHi64VyoHCwk3GhgauZwRmCgjqyM
+ov6Sd1sP2aV7jcCMAHtVFHTY8LxFbuDkrxzcAdEnR5X72yXx2GojIni/+gGEhVJK
+7M6J02Uo0CP9PJy3c53qC+YiLas5XL/wJ8KN6AHrkNxW2y2zk9WGBhosnFgTV4JR
+VnxIRqyCDLxqBxDYcui+CR3C
+=BMdh
 -----END PGP SIGNATURE-----
 
---===============5220724054910866583==--
+--===============1282628773394036331==--
