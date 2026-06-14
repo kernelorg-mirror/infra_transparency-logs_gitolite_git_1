@@ -1,64 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8110128840819620159=="
+Content-Type: multipart/mixed; boundary="===============7337553594049254092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 14 Jun 2026 17:40:05 -0000
-Message-Id: <178145880546.765703.14006914201262021569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 14 Jun 2026 18:06:02 -0000
+Message-Id: <178146036224.784372.7028741424054541143@gitolite.kernel.org>
 
---===============8110128840819620159==
+--===============7337553594049254092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 43ba8e1c0cabec8963293b12092cd9c2c8cdd48f
-    new: 956c0e0ce67e79b43911d187e1d2417f136a4b02
-    log: |
-         fc09650fa7f77932239c2fa7364474a187dc8bc3 5.10-stable patches
-         1e0b516fc72b64ddcdfeb8b0f3c02cc5144821d7 5.15-stable patches
-         9f3d4b131bceebb527097e892fe24a141cb0d11c 6.1-stable patches
-         d764dea025bac20580ef78c6949785ec0caa389b 6.6-stable patches
-         b98add11f8975fe2492b516f4f71637c0594b045 6.12-stable patches
-         2e050a14f5877b7e14a701f8a7e10c416c9ef443 6.18-stable patches
-         07b175a3f2c1ebd9204f7bd386a388b65457065c 7.0-stable patches
-         e0527210f2811a4999fb7f81324350564fec734a Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
-         956c0e0ce67e79b43911d187e1d2417f136a4b02 fix up duplicates
-         
+    old: 1d1e78ec1be43a05bc10fceac25129c4d9d18a2f
+    new: 00db26cd97be58fe1db898cf831039ad1aec9ad4
+    log: revlist-1d1e78ec1be4-00db26cd97be.txt
 
---===============8110128840819620159==
+--===============7337553594049254092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1d1e78ec1be4-00db26cd97be.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781458746 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1781458802-40ad4262b4a9c0d91a015c7a73370a7e8dd5392a
+94e064b73c5c627a6ccc1e19ec07f65e97ce7910 hkml_view_mails: use mail item for review searching
+ae7c05641e902fd392c61e21e6dc9644af94bd98 hkml_view_mails: remove mails and threds setup in menu_search_reviewed_by
+a72681241c1d6f76a09dcdcaa8bcd5181cb25bdc hkml_view_mails: remove mails and threads setup in menu_search_for_reviewer()
+79ed322b6ab1d0b6523fda4d18695ff05ad59f66 hkml_view_text: remove TextViewData.mails_list
+34a965370901b3ef21c89ca52f552a3bc181f92c hkml_view_mails: remove unused get_mails()
+7d018dc7b1653773dd4f254ee6e12a369b4ca894 remove unused get_mails_from_cache_data()
+38accda2310d736142802cb4b257df927fb86d99 hkml_list: remove unused threds_of()
+3403b35f9e05b8ba281a4eac3301dad3c14d3908 hkml_list: remove unused find_ancestors_from_cache()
+596f3e113f9646314457669db3124bfcfb9383e0 _hkml_list_cache: remove unused last_listed_mails()
+c5353804f109fdfb7e6104bda567e9d46d47b109 _hkml_list_cache: use mail items in get_mail()
+4ad5e6a890ec41b4d4f6945cadf0c8c1ba6e1569 _hkml_list_cache: use get_list_for() in get_last_list()
+c0657ff42e78fd1fe2a5b03bb712e4c09083234d _hkml_list_cache: return None from get_list_for() if mail_items is not cached
+17107eb507174e1e6b6372a0499f2c8ec070a165 _hkml_list_cache: do not store/load index_to_cache_key
+f3600582943d9cf3567c70dcb1cd5463bf403249 _hkml_list_cache: remove mails_cache_data from the cache
+9950a78771336adb8cd5fbead3634bf4936b2c99 hkml_list: remove mail_idx_key_map and mails_cache_data from MailsListData
+32e76cdb6a6033d20a4dffe48045bf224d9bbdae hkml_view_mails: remove last_mail
+9ad29a4b07e3b88676b27b90f7441547c0c5e053 _hkml: remove Mail.replies field
+01e68feb773dcd9cd527661cc56d3f135371fe1b hkml_list: add a function for updating mails with special tagged mails
+a1f82f41ce07ce611de83110f63c199ba9a0595c hkml_{list,view_mails}: use update_special_tagged_mail_items()
+5ccd0a9e123846983697fb91532ad0cdf95edf82 hkml_list: remove unused tagged mails adder functions
+616ee9f5f8e6c3d111daf4cff83f178996690cff hkml_view_mails: refresh special-tagged mails for tag updates
+26eadeebfed3925b5096a5817001c7928b5b9ef9 hkml_list: recursively add tagged replies
+aea0e4894ffb2a6eabe7d50965f13e2301de5bde hkml_list: do iterative tagged mails adding only up to 100 times
+d95505df7181de6abb9a8385a54e0a3149d78ccf TODO: remove obsolete items
+00db26cd97be58fe1db898cf831039ad1aec9ad4 release_note: update for the next release
 
-43ba8e1c0cabec8963293b12092cd9c2c8cdd48f 956c0e0ce67e79b43911d187e1d2417f136a4b02 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmou5zobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mpsP/3C8Q3VX0dAjbD48HxNX
-yby+myKzNkjE9g2DZ4SWtACRS+jXV8kY9OKSKqQVMqVUi8n/D6EZRKbaee4X5s76
-D3w3FAtl9oOVehZ3OMrAh/O7ZX3dXWwPKtgShTdiQadjO4eFYR+qDIPIc2jP/eUC
-Nx1Jl6PYVa3v40WAJVamz72dxEEgzMkoTiWUko2Gw33dNl1Eum7b3SpPj7JThEHl
-2mfgMDqy9jYmOVAnjEqOQkCfqkegGBMCDDKg5LwU4vF1f6BGbyAbOnsypPK26wgw
-qqWnQhAnn/tiZe7hMe6U5/dKsM4b8GL9eSATrqznAlTwe4ggYBXA0c7c3lrFIqBV
-bq5x6lJsCrAGX/2fl47+44UEnG9w/g6T539SIFjXZYyscCgb/tFmHlk6g34AE960
-qLCHQ6o21WTu8whsk0aErV/KP54XFazSyg4R7C7mPYjhnS2fhUJP15yBw4DZ28jg
-LCuvBOyertjUkM8nReZlWl9O1N0IchWdXcsclXMkuZDRhODcaxurepUW7Xs7WOqZ
-QPWt5SrLs9ucVlpzkLEif5SEsCXItFHp5b5cKDHm5FNC0PA7iNIgh9PKPdExjGan
-ljP+/Z5dspLLrU0mutU+LQQ9DeA6i0I8C6U1d5Oy09oyhfH4aL+X1gpVElnyhnHl
-J0KTbxPzso0+6WItjqW5Lv3H
-=aZH1
------END PGP SIGNATURE-----
-
---===============8110128840819620159==--
+--===============7337553594049254092==--
