@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
-Date: Sun, 14 Jun 2026 14:15:41 -0000
-Message-Id: <178144654152.507590.17062400654280334581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 14 Jun 2026 14:34:55 -0000
+Message-Id: <178144769520.519820.14668181821863143762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/harry/linux
-user: harry
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/kfree_rcu_nolock-v3-wip-r3
+  - ref: refs/tags/objtool-core-2026-06-14
     old: 0000000000000000000000000000000000000000
-    new: 4a49ba459fe4c5a266edd616f9c7c7f070c0d73d
+    new: 106ba8654e1e922d96aa44fd7d8af041dde8a9e3
