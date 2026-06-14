@@ -1,91 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6257741763394163423=="
+Content-Type: multipart/mixed; boundary="===============2915540786276689184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 14 Jun 2026 04:56:42 -0000
-Message-Id: <178141300207.110326.9914525899982102818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Sun, 14 Jun 2026 05:11:03 -0000
+Message-Id: <178141386340.121072.11046961711103505099@gitolite.kernel.org>
 
---===============6257741763394163423==
+--===============2915540786276689184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/master
-    old: 60a9ef9f13876e9f67afe6fa07cb7bc5a9c85d82
-    new: 5e76d99948575120e59a204fe0402bd765f39195
-    log: revlist-60a9ef9f1387-5e76d9994857.txt
+  - ref: refs/heads/apparmor-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: d0691bd5dcaec2350039ecb04fa70faa91ac142d
+    log: revlist-254f49634ee1-d0691bd5dcae.txt
 
---===============6257741763394163423==
+--===============2915540786276689184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-d0691bd5dcae.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781412941 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1781412998-0a696963234f93ff795f92dec66b6531fc529e05
+c3382d1e69136ce0aa755fbe09512e03cdd95944 apparmor: add Georgia Garcia as co-maintainer of apparmor
+4483efe4f21510b30c24bc97d9fd0e8feab94125 apparmor: fix shadowing of plabel that prevents cache from being updated
+b1aea2c1960771a276d7e68c7424168eccd0c3da apparmor: fix race in unix socket mediation when peer_path is used
+6d25e7b47616cb2db43351210929c8f19dc305a3 apparmor: fix refcount leak when updating the sk_ctx
+f86ee868fd54c372255519284e1c0f4f7707c045 apparmor: add a conditional version of get_newest_label
+d62d9bfe050f44f772d05a32079dba3e3523ab2a security/apparmor/apparmorfs.c: conditionally compile get_loaddata_common_ref()
+a58cafd38b46fb1a2220e2fbbcfe291ea75fa147 apparmor: check label build before no_new_privs test
+654fe7505dc6889724d4094fa64f89991afabfc3 apparmor: aa_label_alloc use aa_label_free on alloc failure
+e7501736405a39fa513625ba1f81909c847e4e70 apparmor: enable differential encoding
+1c8a839442823ce5c627d645730d8c61d828aafa apparmor: propagate -ENOMEM correctly in unpack_table
+1adefbd0d5f5a2dafb3f1ee4537dc1db69fb29d4 apparmor: use __label_make_stale in __aa_proxy_redirect
+ad213bbbc0e3e270ce7df2d9d80d4ce3826993d7 apparmor: fix rawdata_f_data implicit flex array
+32e92764d6f8d251c1bca62be33793287b453a81 apparmor: grab ns lock and refresh when looking up changehat child profiles
+b9b864fc72367ffdbe79b7952518573e9d209844 apparmor: free rawdata as soon as possible
+7b42f95813dc9ceb6bda35afcf914630909a19f9 apparmor: fix potential UAF in aa_replace_profiles
+ed7cc1c6f240a0c2838c0617afb2b0466edd236f apparmor: change fn_label_build() call to not return NULL
+716d384ac7c905b719f3ce11cdb3a3d172c210fb apparmor: make fn_label_build() capable of handling not supported
+7681ca43d2b1c776e62fe77e3167835fb1ab8319 apparmor: fix NULL pointer dereference in unpack_pdb
+59fe6fbc4cd45582bc8893de0a382a36562317b3 apparmor: remove or add symlinks to rawdata according to export_binary
+b7a2b49bba4e5994a476c49d662b796818079e5e apparmor: Fix return in ns_mkdir_op
+45cf568241048e560a81aa2053f06a62069f5640 apparmor: fail policy unpack on accept2 allocation failure
+7306c41672487a6c28430714be063bc6942c28f2 apparmor: release exe file resources on path failure
+e27bfb2ae9ad8522aea82d435fd6d73cccee7e17 apparmor: remove unnecessary goto and associated label
+fea23bf73f0cae8ccb1d0684e4a3003874771f41 apparmor: aa_getprocattr free procattr leak on format failure
+340372688bb87da45ff8d4e2f82ccfd1b64c65ff apparmor: put secmark label after secid lookup
+add2b70038bea194bcdef8a680f9153ee7f93ac0 apparmor: don't audit files pointing to aa_null.dentry
+bcd1b34c21748531a3febaf7440632b89d8deab7 apparmor: fix uninitialised pointer passed to audit_log_untrustedstring()
+5112ed5258b8d5e0769ae7d2bf9c9dea14c59703 apparmor: Fix inverted comparison in cache_hold_inc()
+6f060496d03e4dc560a40f73770bd08335cb7a27 apparmor: fix use-after-free in rawdata dedup loop
+3e4ca50ee4d88642afa38815775e1ffa90e8dd0b security: apparmor: fix two spelling mistakes
+4e905ed27c788fbb9ea4384e93ea85b303000d57 apparmor: replace get_zeroed_page() with kzalloc()
+d0691bd5dcaec2350039ecb04fa70faa91ac142d apparmor: fix kernel-doc warnings
 
-60a9ef9f13876e9f67afe6fa07cb7bc5a9c85d82 5e76d99948575120e59a204fe0402bd765f39195 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmouNE0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+41kQAIzXtW1H8Q6CG1ljBi2i
-CbYJkvS3G6jv7JmCNGJSZls7klJ8WER9t6dZGBksi64LoHzik/XhR10moFu8MhU9
-32h7b4BMeGQimSoAnMxGf2/lEvL9f5Irq2e23PsQGlHzN9LRJR2m6WI4JIZTPv9p
-ETRr8TWJ4auA5dwQAiyCjqc7IKw+PC6i6WRH2KNWRAY2Vj1zxEZeF5yosxVM/TsD
-6Ti7Q75oTYUbTcejZ+RxkQBlrOOhy/dE67wJJC/+1Ro+YymlajAFazAqIaUMQJdM
-aZWYTzELrBV4OySJ4NM3S/vBSukCSTK/WqA9+HXLzu2DlPK+XvB75F3voiw0FgKU
-CC3RdfuBZo4lFzX7W57clYX6jTAUfWAwERc4lmMRWbAe9oimu0LHJsjcbJJt9pP+
-16RLWLSPIC6o5qgcwAUq2lUMevVAQ5oRh3Ohcx+n6+b9jbJSfFCMN32UVM9r66BK
-ctvI30HhVB1V1UdMvYvLxW+RkzwZBuHLNquP60D7ij6UqYwqh/LNd75z+eM8L7DP
-WIIOeQlpBWI+M5hs0MBRJxwEFtyhGizM3dekerB3oFQI2dqq9hvzsu3wwIQwWGEg
-JVmtO98QpLjCthzglvlPcwFp5nuedFOnhVHdCNrO3VimZzLzM5qpHZF+K+T6dw9R
-dAxXcTja/hp7CY8H3V3Wf9Uo
-=nNC7
------END PGP SIGNATURE-----
-
---===============6257741763394163423==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60a9ef9f1387-5e76d9994857.txt
-
-2623262550ec6f09a716f870bc7096d46131aefe CVE-2026-52907: Add CVSS 3.1 score (7.8 HIGH)
-2d303c149f3530bf31768cbd102a2a9d09ecd9e6 CVE-2026-52906: Add CVSS 3.1 score (7.7 HIGH)
-2f5c8d6dcdace7df5018cd92578d8024ad04a22b CVE-2026-46332: Add CVSS 3.1 score (8.0 HIGH)
-47c71f94ac9e3a3450b756d20fcb656f3de793ff CVE-2026-46330: Add CVSS 3.1 score (7.8 HIGH)
-0087f31ef54d22e27ec5f2996078048329083bb0 CVE-2026-46327: Add CVSS 3.1 score (7.8 HIGH)
-949c544901165dcfd43da0c0c5cc4b908aff072b CVE-2026-46326: Add CVSS 3.1 score (8.4 HIGH)
-1e65403729075bede1065bedd38f4a9d0e0439f7 CVE-2026-46328: Add CVSS 3.1 score (7.3 HIGH)
-f2f4d2d597f4217bcd4113866e6d3a645fddee94 CVE-2026-46324: Add CVSS 3.1 score (7.8 HIGH)
-170d7cba8038d70a4951c5024dd95459ffab622c CVE-2026-46321: Add CVSS 3.1 score (7.1 HIGH)
-e67d5ea2ed6d990cba56e5e7d6248400b93a6ed9 CVE-2026-46322: Add CVSS 3.1 score (7.1 HIGH)
-4c3c0976250fac68cb7a5b4063ad2b79d48e5721 CVE-2026-46325: Add CVSS 3.1 score (9.8 CRITICAL)
-f1147af5ed1e688f1316884504acf9d6f5aeca5c CVE-2026-46320: Add CVSS 3.1 score (7.4 HIGH)
-c3a858cb128bcd96ca48a56ec66e0bf65e8eb42b CVE-2026-46323: Add CVSS 3.1 score (7.8 HIGH)
-6788c36af7f048ab7c8b9135c416eb53c9bc4bfb CVE-2026-46319: Add CVSS 3.1 score (7.8 HIGH)
-11ae7e8136a1ffd989a606cea18ead1431114a5b CVE-2026-46317: Add CVSS 3.1 score (8.8 HIGH)
-7bbeba411cb70e76a6b3611a1906ffbd9627636e CVE-2026-46316: Add CVSS 3.1 score (9.3 CRITICAL)
-993fff3cb01550fd5fb4ddb730470440129abf6e CVE-2026-46311: Add CVSS 3.1 score (7.8 HIGH)
-64c21361734a172f0031147a147af6de2b7b8bb0 CVE-2026-46304: Add CVSS 3.1 score (7.5 HIGH)
-836945e31fb813e4405265a91fbc5434f5d877d8 CVE-2026-46307: Add CVSS 3.1 score (8.3 HIGH)
-3b4499164ce5145e3f876dd66144dd1fa6d3c5ae CVE-2026-46306: Add CVSS 3.1 score (7.5 HIGH)
-fcca0f6c9fea92ac75d6d0ac5817c13ca745ebd2 CVE-2026-46303: Add CVSS 3.1 score (8.2 HIGH)
-5aaeb63df4c60cf3ce489988e7d4e2930502c004 CVE-2026-46299: Add CVSS 3.1 score (7.0 HIGH)
-23882acb053cd1a3d5d48f280caa49b080b6fcba CVE-2026-46288: Add CVSS 3.1 score (8.4 HIGH)
-b3a95e79d646572cc354fd4d378cec6e8c12f2c2 CVE-2026-46289: Add CVSS 3.1 score (9.8 CRITICAL)
-ec9d79cf69756d00273849a05a67c72c77592b05 CVE-2026-46280: Add CVSS 3.1 score (7.8 HIGH)
-dcc3186d3f17ea06efc457e30bac477b9f942a23 CVE-2026-46277: Add CVSS 3.1 score (7.8 HIGH)
-d3fbea9e960fbd021040d14b68cf3056d598a323 CVE-2026-46274: Add CVSS 3.1 score (7.8 HIGH)
-7fc41fbabb9e9d44f3139512a8091eeb3be20911 CVE-2026-46275: Add CVSS 3.1 score (7.8 HIGH)
-b9c4575d388ced987cd8dbcc65163241c202c629 Merge branch 'sasha-cvss-important'
-5e76d99948575120e59a204fe0402bd765f39195 updates after cvss merge
-
---===============6257741763394163423==--
+--===============2915540786276689184==--
