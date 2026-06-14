@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8059564174714912610=="
+Content-Type: multipart/mixed; boundary="===============0526422967640707538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 14 Jun 2026 21:55:37 -0000
-Message-Id: <178147413775.950518.8633797760478541880@gitolite.kernel.org>
+Date: Sun, 14 Jun 2026 21:57:12 -0000
+Message-Id: <178147423236.951439.16900740065828196151@gitolite.kernel.org>
 
---===============8059564174714912610==
+--===============0526422967640707538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,32 @@ repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
   - ref: refs/heads/next
-    old: 857360c0b1d7028723ad48c8640532c5c0c706b7
-    new: 2bcf437a28ca137c15a29fd0d57dcf5a42900d56
-    log: revlist-857360c0b1d7-2bcf437a28ca.txt
+    old: 2bcf437a28ca137c15a29fd0d57dcf5a42900d56
+    new: 54ed57b8381d5a5ea8fbec3c6c8650be00fd1ecd
+    log: revlist-2bcf437a28ca-54ed57b8381d.txt
 
---===============8059564174714912610==
+--===============0526422967640707538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-857360c0b1d7-2bcf437a28ca.txt
+Content-Disposition: attachment; filename=revlist-2bcf437a28ca-54ed57b8381d.txt
 
-cd64a5cfe00f1c874d3ff341a4cd8607977a915c damo_setup_cli_completion: suggest damon_region_aggregated event
-f64384952f75bee27635415906b4a73308b3b2f7 damo_setup_cli_completion: suggest --raw option for report trace
-2f91bd67578130c3fc9a7a2559ea071c42476df0 damo_setup_cli_completion: suggest --tracer for 'damo report trace'
-c06a6dd3e400b75494c2969e0bd3f399a832aa62 USAGE: document 'damo report trace'
-efca3e4325fe6823a7498125b4698c73c6b7625b damo_report: show trace report type next to holistic
-4086f7a47d0d2f77e98eb3068098990b62f48236 damo_report_trace: do not print non-raw output if --raw is given
-1b1492b91ee8879717ed87d527e7dcb8e687f89a damo_report_trace: do more sanity check for damo report trace output input
-d79e8deaf52ba6f4cd2eb3f66e436f7bbea6923c damo_report_trace: document expected input formats
-9fab3ab9efab2ef287aab76fcaba179d34e12f75 damo_report_trace: receive cmd on parse_trace_line()
-4fb891758b2e5f0e2d90bf5aae70ee0579c61cfb damo_report_trace: fix parse_trace_line() for perf-script
-34de38e395d92d3d28a0620ccb8ea39f9ba47666 tests/unit/test_damo_report_trace: add perf-script test for parse_trace_line()
-ebb81b203252684c9ecb9b45382552348dc50ba9 tests/unit/test_damo_report_trace: add trace-cmd-report test for parse_trace_line()
-9a0d2a45376cf4eaf7bf9476845bf76c405235d6 damo_report_trace: document what parse_trace_line() returns
-07b4c8c64855a36af439fbfa2892a9b0ba296c92 damo_report_trace: support trace-cmd header lines
-6d9fdc09fa53a8eb924513874df79a4bca8054de _damo_records: pass trace command to parse_damon_trace()
-2bcf437a28ca137c15a29fd0d57dcf5a42900d56 _damo_records: use damo_report_trace.parse_trace_line()
+f95c1b526fa8a87ce61c5a1a72d079a9da4805aa fix: correct typo in random.randrange method
+a840b176d403f78d30ebfa1d99cd205edebabc21 damo_setup_cli_completion: suggest damon_region_aggregated event
+d8fc4cbf8bf22fc099cc51759b266508e9c8490f damo_setup_cli_completion: suggest --raw option for report trace
+b92816d4c2149c49f4cd9a00b07e9cbf4d9ebe04 damo_setup_cli_completion: suggest --tracer for 'damo report trace'
+9d56ea504d42fde0e20d2c33e57ba4c526ccc112 USAGE: document 'damo report trace'
+3f3fa20e266038e5075982fd0117dfbcd600d151 damo_report: show trace report type next to holistic
+0421fa4f435cee600486765830b7815044fad73d damo_report_trace: do not print non-raw output if --raw is given
+7e2fc7abf0285b6eaeec46fb03156732f70fbff2 damo_report_trace: do more sanity check for damo report trace output input
+b066d9ae022a840b673b5a94cbad277d696faf8c damo_report_trace: document expected input formats
+86f8f97201abbe8346ac6597a19d4f5329e6c735 damo_report_trace: receive cmd on parse_trace_line()
+17344079d4b076b3685b280c1ed585cb2f11be8a damo_report_trace: fix parse_trace_line() for perf-script
+8d825030dec909a853895cb33ee2cf37acd52ded tests/unit/test_damo_report_trace: add perf-script test for parse_trace_line()
+8664b8ef2151a924fc18b6f5f1a1a5b357a0fbbb tests/unit/test_damo_report_trace: add trace-cmd-report test for parse_trace_line()
+5d8ce302460c579a2c7466861fbfe76923906da7 damo_report_trace: document what parse_trace_line() returns
+2799fa34225c82928d10d0846e723518fe7872f3 damo_report_trace: support trace-cmd header lines
+ee61786e087c0e0a3276596498babfcac5db7f1f _damo_records: pass trace command to parse_damon_trace()
+54ed57b8381d5a5ea8fbec3c6c8650be00fd1ecd _damo_records: use damo_report_trace.parse_trace_line()
 
---===============8059564174714912610==--
+--===============0526422967640707538==--
