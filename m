@@ -1,24 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 14 Jun 2026 20:54:50 -0000
-Message-Id: <178147049008.905673.15913004713085365914@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5334242659892489097=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 14 Jun 2026 20:57:15 -0000
+Message-Id: <178147063536.908913.11127857710500786208@gitolite.kernel.org>
+
+--===============5334242659892489097==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 9ce8829a566477a6972140bcd32b76e331631fce
-    new: a95b1701fd4c75720406d9e583d91f18ec1028d9
-    log: |
-         5f727fffba3d51da179e56ee63af44e028764113 man/man2/_llseek.2: SYNOPSIS: There *is* a wrapper
-         352c4a839ab6d3573aeb3ca37ed8091b0cb0b669 man/man3/lseek64.3: This function is deprecated
-         ae103ddbab1a85915b988abbcccbf7ed1e270eec man/man3type/off_t.3type: off64_t is deprecated
-         18c4a73df5794ae2cbee0bb5f2d4347fdcfb8d25 man/: Remove some references to deprecated interfaces
-         1dba8ae51b025b433e8cf8a5cf2c790af47639df man/man2/getdents.2: Use loff_t in linux_dirent64
-         a95b1701fd4c75720406d9e583d91f18ec1028d9 man/: lseek64(3) and off64_t are deprecated
-         
+  - ref: refs/heads/testing
+    old: d6c85599112d0e3bbaf1d329d5f2e1f7993dea58
+    new: a50909aa46dec46de3c73235fc15a7d6f763d996
+    log: revlist-d6c85599112d-a50909aa46de.txt
+
+--===============5334242659892489097==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d6c85599112d-a50909aa46de.txt
+
+6b87ab6d52d36442f511191fe9a0c78608eef0f4 iio: accel: stk8312: Update includes to match IWYU
+ca26f4316648515b997d66709092265e0ac573fe dt-bindings: iio: frequency: add adf41513
+3008d34c9c31d1b7d6f45811a0803f23d05204c0 lib: kstrtox: Make _parse_integer() take variadic arguments
+c99a1b621faeb4f690a696c18e717b20ca1d9d2c lib: vsprintf: use _parse_integer() instead of _parse_integer_limit()
+f0ae9a5acbde6fb5e1e8b9dac9b464b9565ce0fc lib: kstrtox: add initial value to _parse_integer_limit()
+e88a52eb115ae38c092291c87a5f340f8844d0f6 lib: kstrtox: add kstrtoudec64() and kstrtodec64()
+385b8d4cc94ee1d339cacc68bce08a2acdaa0ff5 lib: test-kstrtox: tests for kstrtodec64() and kstrtoudec64()
+adebf76278116a06166d0b5f8b4112ad5dd6389a lib: math: div64: add div64_s64_rem()
+df06901ea5843a0aa60cd7691023213554c4fa78 iio: core: add decimal value formatting into 64-bit value
+c68b2354eeb1aeca0138599f2f7c4ba07954c3e6 iio: test: iio-test-format: add test case for decimal format
+5400231ee14bb9bf7c7bba4d43181a7bd1fe9d70 iio: frequency: adf41513: driver implementation
+d1e48fa6e78d129447f35a8a0a97028791dcd34e iio: frequency: adf41513: handle LE synchronization feature
+031f27f5ed82a8bd8717df0f9a8276373c0feb1a iio: frequency: adf41513: features on frequency change
+35447dfaf0fb6ba38e1bcaaa106ed620fe8d8f9a docs: iio: add documentation for adf41513 driver
+a50909aa46dec46de3c73235fc15a7d6f763d996 Documentation: ABI: testing: add common ABI file for iio/frequency
+
+--===============5334242659892489097==--
