@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 14 Jun 2026 16:25:00 -0000
-Message-Id: <178145430056.601724.3442880603023523907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 14 Jun 2026 16:29:31 -0000
+Message-Id: <178145457139.605729.8737400265078176183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 486e4e0f14be0c34980c16c2146943b5edbb76eb
-    new: 43ba8e1c0cabec8963293b12092cd9c2c8cdd48f
-    log: |
-         43ba8e1c0cabec8963293b12092cd9c2c8cdd48f Fixes for all trees
-         
+  - ref: refs/tags/x86-msr-2026-06-14
+    old: 0000000000000000000000000000000000000000
+    new: 2bc67a1127510783f8c85a75ffd9953bbde6b100
