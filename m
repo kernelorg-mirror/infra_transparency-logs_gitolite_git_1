@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sun, 14 Jun 2026 13:55:46 -0000
-Message-Id: <178144534668.493365.17880394091576029888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
+Date: Sun, 14 Jun 2026 14:15:41 -0000
+Message-Id: <178144654152.507590.17062400654280334581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/harry/linux
+user: harry
 changes:
-  - ref: refs/heads/chromebook-hp-11a
-    old: 245dd18e0ef47bcdabf4deaca855c85f5f04232b
-    new: 8eee7aee816e96e8213e0e13ff9aa735aba7231c
-    log: |
-         cbca141b4eb28ec3cecb4a09a5323a4cb2059e8e arch/arm64: defconfig enable CONFIG_USB_RTL8152
-         8eee7aee816e96e8213e0e13ff9aa735aba7231c arch/arm64: defconfig enable SQUASHFS LZ4/LZO/XZ/ZSTD
-         
+  - ref: refs/heads/kfree_rcu_nolock-v3-wip-r3
+    old: 0000000000000000000000000000000000000000
+    new: 4a49ba459fe4c5a266edd616f9c7c7f070c0d73d
