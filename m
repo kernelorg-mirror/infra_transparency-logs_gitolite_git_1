@@ -1,62 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============2915540786276689184=="
+Content-Type: multipart/mixed; boundary="===============3386613948394411621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Sun, 14 Jun 2026 05:11:03 -0000
-Message-Id: <178141386340.121072.11046961711103505099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 14 Jun 2026 05:58:41 -0000
+Message-Id: <178141672103.152674.14470569984376030376@gitolite.kernel.org>
 
---===============2915540786276689184==
+--===============3386613948394411621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jj/linux-apparmor
-user: jj
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/apparmor-next
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: d0691bd5dcaec2350039ecb04fa70faa91ac142d
-    log: revlist-254f49634ee1-d0691bd5dcae.txt
+  - ref: refs/heads/char-misc-testing
+    old: 0560183f91773312aff9855997d27577e7b44729
+    new: b232fc005aec5fa5346d970f8986b8f0046f328b
+    log: revlist-0560183f9177-b232fc005aec.txt
 
---===============2915540786276689184==
+--===============3386613948394411621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-d0691bd5dcae.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c3382d1e69136ce0aa755fbe09512e03cdd95944 apparmor: add Georgia Garcia as co-maintainer of apparmor
-4483efe4f21510b30c24bc97d9fd0e8feab94125 apparmor: fix shadowing of plabel that prevents cache from being updated
-b1aea2c1960771a276d7e68c7424168eccd0c3da apparmor: fix race in unix socket mediation when peer_path is used
-6d25e7b47616cb2db43351210929c8f19dc305a3 apparmor: fix refcount leak when updating the sk_ctx
-f86ee868fd54c372255519284e1c0f4f7707c045 apparmor: add a conditional version of get_newest_label
-d62d9bfe050f44f772d05a32079dba3e3523ab2a security/apparmor/apparmorfs.c: conditionally compile get_loaddata_common_ref()
-a58cafd38b46fb1a2220e2fbbcfe291ea75fa147 apparmor: check label build before no_new_privs test
-654fe7505dc6889724d4094fa64f89991afabfc3 apparmor: aa_label_alloc use aa_label_free on alloc failure
-e7501736405a39fa513625ba1f81909c847e4e70 apparmor: enable differential encoding
-1c8a839442823ce5c627d645730d8c61d828aafa apparmor: propagate -ENOMEM correctly in unpack_table
-1adefbd0d5f5a2dafb3f1ee4537dc1db69fb29d4 apparmor: use __label_make_stale in __aa_proxy_redirect
-ad213bbbc0e3e270ce7df2d9d80d4ce3826993d7 apparmor: fix rawdata_f_data implicit flex array
-32e92764d6f8d251c1bca62be33793287b453a81 apparmor: grab ns lock and refresh when looking up changehat child profiles
-b9b864fc72367ffdbe79b7952518573e9d209844 apparmor: free rawdata as soon as possible
-7b42f95813dc9ceb6bda35afcf914630909a19f9 apparmor: fix potential UAF in aa_replace_profiles
-ed7cc1c6f240a0c2838c0617afb2b0466edd236f apparmor: change fn_label_build() call to not return NULL
-716d384ac7c905b719f3ce11cdb3a3d172c210fb apparmor: make fn_label_build() capable of handling not supported
-7681ca43d2b1c776e62fe77e3167835fb1ab8319 apparmor: fix NULL pointer dereference in unpack_pdb
-59fe6fbc4cd45582bc8893de0a382a36562317b3 apparmor: remove or add symlinks to rawdata according to export_binary
-b7a2b49bba4e5994a476c49d662b796818079e5e apparmor: Fix return in ns_mkdir_op
-45cf568241048e560a81aa2053f06a62069f5640 apparmor: fail policy unpack on accept2 allocation failure
-7306c41672487a6c28430714be063bc6942c28f2 apparmor: release exe file resources on path failure
-e27bfb2ae9ad8522aea82d435fd6d73cccee7e17 apparmor: remove unnecessary goto and associated label
-fea23bf73f0cae8ccb1d0684e4a3003874771f41 apparmor: aa_getprocattr free procattr leak on format failure
-340372688bb87da45ff8d4e2f82ccfd1b64c65ff apparmor: put secmark label after secid lookup
-add2b70038bea194bcdef8a680f9153ee7f93ac0 apparmor: don't audit files pointing to aa_null.dentry
-bcd1b34c21748531a3febaf7440632b89d8deab7 apparmor: fix uninitialised pointer passed to audit_log_untrustedstring()
-5112ed5258b8d5e0769ae7d2bf9c9dea14c59703 apparmor: Fix inverted comparison in cache_hold_inc()
-6f060496d03e4dc560a40f73770bd08335cb7a27 apparmor: fix use-after-free in rawdata dedup loop
-3e4ca50ee4d88642afa38815775e1ffa90e8dd0b security: apparmor: fix two spelling mistakes
-4e905ed27c788fbb9ea4384e93ea85b303000d57 apparmor: replace get_zeroed_page() with kzalloc()
-d0691bd5dcaec2350039ecb04fa70faa91ac142d apparmor: fix kernel-doc warnings
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781416658 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1781416713-58e0f6668641a7400eece1c83d9898b70d52a086
 
---===============2915540786276689184==--
+0560183f91773312aff9855997d27577e7b44729 b232fc005aec5fa5346d970f8986b8f0046f328b refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmouQtIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BkAP/jDIyZr9vI9NG641lWon
+AL/EzcIUZDy2C+qLMoUYcooA0X2gyJ4xEE+3iBL4TgO/VcYdLK8zu8RHagAn8PCO
+i2cBvz5y1nz5NXJDX0qnPfSiMi80bpemts5p6w8HhXPGlxvj+1eIfqkcQBpLtBYz
+v4SK3RVDpjA7H3k79ccGK4jWU4zRmrSQ2SSRTwFU9lzOd8wwBGWs4JpnUvgT/OAW
+ux3ZSEtNUIVi7LtfgiPl4wZKL3FiXNhZYHCWGgmWLM+y8jI9skBycVDJxIu0eKGC
+D6hN7N9evPD4FFPwsafAdvpoVmsSt0xkMaJoAooiljAhtbe6j/WjGrAVsr/Hlzmu
+/f2JLhrRYpA9GCihrcSYabhS9GHSN58ObD7jbyxFnKxVa1wulI0L9cYXU/J+kUVI
+kT/b94wHNQlVJOGa+hLwBmzmpJPCn1y0fuYjDTRxvE+f4A0OT7WgBTzVVF/ugfSP
+s5x4FTMOJADE498vssT3QBnwcohwb7Fm/pcPwGnGZU8YaHYvF5f+WmY5/gbbjRXu
+rdLy0iAmLabI7Q7bth4SmvS3MVr6C0u/8L5gnUglcJHN0g98R04B1/2FAB/mUD7P
+yBzWBCW2wur9An2L2UHPl2jUa0Pm5jzR/fMXhOI1tj3z+dmXwy83k3qdYN1Aoiv0
+lMwda0GRAb8oFNhSHLuENYP7
+=2gnV
+-----END PGP SIGNATURE-----
+
+--===============3386613948394411621==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0560183f9177-b232fc005aec.txt
+
+a5b7991d5a737df71a5e4230554481255af64ed4 iio: adc: ad4062: add GPIOLIB dependency
+307dc4240bd41852d9e0912921e298160db1c109 iio: light: veml6075: add bounds check to veml6075_it_ms index
+95e8a48d7a85d4226934020e57815a3316d3a14b iio: adc: ti-ads1298: add bounds check to pga_settings index
+1172160f2a2de7bade3bec64b8c5ecf945cde5ed iio: pressure: bmp280: zero-init bmp580 trigger handler buffer
+8320c77e67382d5d55d77043a5f60a867d408a2b iio: gyro: bmg160: bail out when bandwidth/filter is not in table
+088fcb9b567f8723074ad9eb1bf5cb46f8a0096b iio: gyro: bmg160: wait full startup time after mode change at probe
+be843b0579f872ec7590d825e2c9a656d4790c4b iio: proximity: vl53l0x: notify trigger and clear IRQ on error paths
+70247658d0e783c93b48fcbc3b81d99e992ff478 iio: resolver: ad2s1210: notify trigger and clear state on fault read error
+ff29241030eb6f4505d903d87c29f51c1866a95d iio: light: acpi-als: Check ACPI_COMPANION() against NULL
+c52bb33b641ebaae3e209f97714cb1758206f7d9 iio: light: veml6030: fix channel type when pushing events
+5a9c90350be4f6f175bdd193e8bd60a7aedfb4d2 iio: adc: ad7768-1: Select GPIOLIB
+6325d6e2204327965b849c0a16efb6ac9202e5a8 iio: buffer: hw-consumer: free scan_mask on buffer release
+3c5eed894efd93d68d7f6a359a81ddef0e928774 iio: temperature: tmp006: use devm_iio_trigger_register
+ee78fae068f52a5582aaf448d9414f826855c106 iio: light: al3010: read both ALS ADC registers again
+744bccc2647c6b2206290e8e40890a23812116b3 iio: light: al3320a: read both ALS ADC registers again
+929fec2964f71d4b1ac664ee963d8226c5cf01c6 iio: adc: qcom-spmi-iadc: balance enable_irq_wake() on driver unbind
+eaaa7eef181892ef7ba56c6295b81f0ae4492c13 iio: dac: ad3552r-hs: fix uninitialized data ni ad3552r_hs_write_data_source()
+a6e8b14a4897d0b6df9744f33d0a30e6b92368eb iio: backend: fix uninitialized data in debugfs
+ab92ed206d41fd171ebd37bc46360d9f2140d043 iio: core: fix uninitialized data in debugfs
+60d877910a43c305b5165131b258a17b1d772d57 iio: chemical: scd30: Cleanup initializations and fix sign-extension bug
+c123ca6ee26ad98f70a866ff428b08145c5a24fe iio: light: opt3001: fix missing state reset on timeout
+c72da0688575e5ef39c36bb44fed53aa18f8ae65 iio: adc: ad_sigma_delta: fix CS held asserted and state leaks
+91bc6767a4f55dc470d8a56b55b9f2ea09094efe iio: adc: ad_sigma_delta: fix clear_pending_event for registerless devices
+b232fc005aec5fa5346d970f8986b8f0046f328b Merge tag 'iio-fixes-for-7.1b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
+
+--===============3386613948394411621==--
