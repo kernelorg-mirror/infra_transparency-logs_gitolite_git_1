@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 14 Jun 2026 01:24:29 -0000
-Message-Id: <178140026922.4154073.3668285854500222621@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5220724054910866583=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 14 Jun 2026 03:54:12 -0000
+Message-Id: <178140925247.64944.8355918813210688278@gitolite.kernel.org>
+
+--===============5220724054910866583==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2b07ea76fd28989bde5993532d7a943a6f90e246
-    new: e21ee273e6fa3879aec9a27251cfce98156e07c4
+  - ref: refs/heads/usb-next
+    old: 7b4456767fd478ff1dbee55444d5e3e5a7194089
+    new: 1c2b66a7d7257d2652aa41f9a860ecb96dde27dd
     log: |
-         bc27dbefae6ed11376d991a2921eff806ffef67c clk: qcom: x1e80100-dispcc: Stop disp_cc_mdss_mdp_clk_src from getting parked
-         78ee734b36284d82454e87a92094fdb926985b47 clk: samsung: gs101: Fix missing USI7_USI DIV clock in peric0_clk_regs
-         5285b046757844435d1db96c1b5c3a6621b2979a clk: qcom: dispcc-sc8280xp: Don't park mdp_clk_src at registration time
-         eec00425d38dbc17ad92217a9f58d91c617c86d2 Merge tag 'samsung-clk-fixes-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-fixes
-         f29a24c94705496254dd9ce7ea8a31efb6eb4358 Merge tag 'qcom-clk-fixes-for-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-fixes
-         e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+         1c2b66a7d7257d2652aa41f9a860ecb96dde27dd usb: ucsi: huawei_gaokun: support mode switching
          
+
+--===============5220724054910866583==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781409194 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1781409251-9639059df3e42ae0ba9fc736ff7000ca4a9878d1
+
+7b4456767fd478ff1dbee55444d5e3e5a7194089 1c2b66a7d7257d2652aa41f9a860ecb96dde27dd refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmouJaobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHEQAJVfOZncmG46Ai7rsuw5
+0OSyAOKD1DUj1nfepbHHoZoGsoAy98g6VvN/0rFNkbaySUxhMhomlheAFqm4rkwu
+mfVpaareKrxavoWmtnL9dVBzC1rHWUGJl+kuJ6WLnS/1vdCPSwb/t9cWrik46Upw
+YjxrNn0jK/Lo77IWWHSXSgFHwoSsgCI7mHQeo0p9SSkj1ODAHZgAEHZwN0s9y98M
+0JJKe41ezPE6QS0TvqqJltP8Ocl1Rmqd6bKD2uepvQFJwQ0IzK1vZlc5M1L12Lar
+/ZsuTUc0WQ8cqL6l+SHWdPLxe7J+gms8XkA1Hsc7fcEER99QlNx0ed32l+bt2zhd
+2h/zdtAQ/jalTKaUPqEwhawE45c0pd0e1tLPzPG+WY5SuDNox/H0n3W0TRISC1YX
+X8kV+ud/oZwbuE0KFdTn57TN5mk5uCRALI/BWSVhqhLpfeczD3oXQI54JcTcTDFI
+Q66hkIaLjmjqgSuO3IAOupQY2tgksqOonGf6N4dMmLcQQQJ5FHGxoNpF+IiJ4LiD
+4eMPng6s3UTdCeugQInGYvdI0PzRVR7x68peFFmvpFgu/bRl8xzRqmJwwA1ENCnn
+2JlTgONChdbZlXlMp0pJETwGLPBXlOpR+pfTXFHWvfPTa04hNJuT4XXowz0ZbG2z
+shqz1pzjrCLIhjzeAYt8pHcH
+=W1qw
+-----END PGP SIGNATURE-----
+
+--===============5220724054910866583==--
