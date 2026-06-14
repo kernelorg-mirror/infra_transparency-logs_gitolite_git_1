@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rmk/linux
-Date: Sun, 14 Jun 2026 13:48:13 -0000
-Message-Id: <178144489326.486159.9679796083621523069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sun, 14 Jun 2026 13:55:46 -0000
+Message-Id: <178144534668.493365.17880394091576029888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rmk/linux
-user: rmk
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/tags/for-linus
-    old: e55e3209d5b363efdce71346a3f107e9f5b6557f
-    new: cebbc9f22723b08a5bedb6a1ff47b93e1d999ac6
+  - ref: refs/heads/chromebook-hp-11a
+    old: 245dd18e0ef47bcdabf4deaca855c85f5f04232b
+    new: 8eee7aee816e96e8213e0e13ff9aa735aba7231c
+    log: |
+         cbca141b4eb28ec3cecb4a09a5323a4cb2059e8e arch/arm64: defconfig enable CONFIG_USB_RTL8152
+         8eee7aee816e96e8213e0e13ff9aa735aba7231c arch/arm64: defconfig enable SQUASHFS LZ4/LZO/XZ/ZSTD
+         
