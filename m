@@ -1,50 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0466058995135347928=="
+Content-Type: multipart/mixed; boundary="===============1570828209383852383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 15 Jun 2026 10:55:54 -0000
-Message-Id: <178152095454.1550341.4985295791652630982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Mon, 15 Jun 2026 10:56:47 -0000
+Message-Id: <178152100763.1550778.2180421206055451330@gitolite.kernel.org>
 
---===============0466058995135347928==
+--===============1570828209383852383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: acb0682a57ac11bed37b0c24a5f11c8854ba726f
-    new: 06d2d840865b64fe915b28c2e45df01b59b2baec
-    log: revlist-acb0682a57ac-06d2d840865b.txt
-  - ref: refs/heads/stable/v2.42
-    old: b5e07425bf11184b88c6d229495bd1de6610e8b9
-    new: 03c605bc3191fee32bb898306c06062837becb44
+  - ref: refs/heads/next-test
+    old: 90b45dbf59d50e32c4f86072545ff44bec9cb28e
+    new: 5c86f1c1f972761a04bf22f4c0618d1aa714185b
     log: |
-         8cd879e417e589caca12e3e6e8a2a8511b9af111 nsenter: Fix invalid fd check in enter_namespaces
-         7aeb072d07dacf49578400e4b6e30345767c7679 fsck.minix: bound namelen guessed in get_dirsize
-         5c9a92e504f7deafb1990d0ccf6b4bde8d29e5be lscpu: free cputype ISA string
-         03c605bc3191fee32bb898306c06062837becb44 lslogins: bound lastlog2 tty/host copy to destination size
+         97f902dd4c99f8d085da5343dc58ae4f6ce7bdd9 powerpc/boot: Allow text relocations for pseries wrapper with binutils 2.46+
+         81e3a86030462824a67d697739cf3f387f4ba350 powerpc/perf: fix preempt count underflow in fsl_emb_pmu_del
+         0ecd26e93e698c8327521910fc6296f5b84a4b92 powerpc/powernv: fix preempt count leak in pnv_kexec_wait_secondaries_down
+         5c86f1c1f972761a04bf22f4c0618d1aa714185b powerpc/kexec: fix double get_cpu() imbalance in kexec_prepare_cpus
          
 
---===============0466058995135347928==
+--===============1570828209383852383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acb0682a57ac-06d2d840865b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-40449fc62d803917bdee0908eab2f174065c5cf9 nsenter: Fix invalid fd check in enter_namespaces
-066980a74733f06d709e39eed605874871f09e56 docs: Refine grammar and clarity in howto-pull-request.txt
-aefd67cc5e73f82ad2b8ba4f9835165df2ec1caa lscpu: free cputype ISA string
-b746c53978bb19b142807b174bc0381fc257c7d4 lscpu: show RISC-V MMU mode
-008f428410a0065e807e3424d402d238453d92e2 lscpu: add RISC-V MMU column support
-1af6ea888a98eb79d9e86a3238b8f8ed4db96521 lslogins: bound lastlog2 tty/host copy to destination size
-9c3565b23c451e6928d62f0aa8827e60ebfefe69 Merge branch 'docs-cleanup' of https://github.com/Broken-Diamond/util-linux
-79b2742dd70c5a8b8374b4e0605330613822ea12 Merge branch 'pr/vriabchun/Fix-incorrect-fd-check' of https://github.com/Frankenween/util-linux
-d4622a9d0229c4905463377ae78924a1a44c5fdc Merge branch 'master' of https://github.com/ZephyrLi-pro/util-linux-c
-2d6320a0bf59e7948a7c34a5e10dbab4d9fa4053 lscpu: remove unnecessary braces around single-line if body
-06d2d840865b64fe915b28c2e45df01b59b2baec Merge branch 'lslogins-lastlog2-overflow' of https://github.com/aizu-m/util-linux
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1781521005 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1781521004-ea19f43f71bf868aad18968f084061b67795803c
 
---===============0466058995135347928==--
+90b45dbf59d50e32c4f86072545ff44bec9cb28e 5c86f1c1f972761a04bf22f4c0618d1aa714185b refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmov2m0ACgkQpnEsdPSH
+ZJSYVRAAmIMJBOIlTvPW5N/aqxw7wFh31rPGg768GQxLpOhe7fNEMef3Vkqjt6Tm
+2BrxLpJjwXTgVcySFlrbLfohES6B2t4JHjXtHFr3jLXwf95LlWAjO8R4DsGOArV1
+/lPd3xyXCoBwsBb0IkgMb6K/WjqDJTdYvXNzuNrhy+4PJZnEaHhgRHaXoWOc5MCD
+KCIhaTbApmUDm7caE8NlEF53gVtRKHAcBJs5Zo0hTC1wySLopt4Z8Iolvfv02yAJ
+TUWyJVhpsxjJMgMVgBzLxhpCAtuwcckIIp9skQzEXyIplzLl45UJB/T9Q+/Ito2b
+TyL7tT1VELi0F4DQ2hn/eQ4dJPewNkMk+ISyD4Uhl/gZFIDC3QPtGwMgZddD8tm7
+Kr39tvagZqYpGPtwdqq8I86+vrmEpw/9YvwvmRCNh1XZJB1nJpiW41zLG450nnM6
+iLAbTrDP1H65uEWadgl0NDZtxWcD4MHjAR6qZ3+9s6cUTWbUDqEbOvGOQAnY414i
+yhFpjRA6iUB7v/Bqx+CBvrHFXaY9YlgajwfQYz4Zylldoo+rS+AwFXfxU02LKrx9
+1w+xC/PB4JBD1jMgvRVthgQ1L3xMVym/knYbvTS2pX4ovd1eXKjAwhf35v0UeC3x
+ENnboTmyCCRMlZMtRfRXYRkkNs3uElmP5MJjrajXFvMs6UigPdY=
+=LUzi
+-----END PGP SIGNATURE-----
+
+--===============1570828209383852383==--
