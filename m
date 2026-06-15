@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4101920465387419357=="
+Content-Type: multipart/mixed; boundary="===============1461436856831877134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Jun 2026 07:15:11 -0000
-Message-Id: <178150771198.1369986.8518152063822413920@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 07:15:48 -0000
+Message-Id: <178150774817.1370519.3706203233167035150@gitolite.kernel.org>
 
---===============4101920465387419357==
+--===============1461436856831877134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,142 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5dfa67b1db7f411df372128ceb8702b21a64037b
-    new: e734f9f79eea81f2a11f39e16de459311088bca1
-    log: revlist-5dfa67b1db7f-e734f9f79eea.txt
+    old: e734f9f79eea81f2a11f39e16de459311088bca1
+    new: 46fbea3045477c0b0bd0c0fab740931567432cd8
+    log: revlist-e734f9f79eea-46fbea304547.txt
+  - ref: refs/heads/tip/urgent
+    old: e21ee273e6fa3879aec9a27251cfce98156e07c4
+    new: 95e56f0f293ef797123eb032f78f5b5d56a035a6
+    log: revlist-e21ee273e6fa-95e56f0f293e.txt
+  - ref: refs/tags/refs/merge-window/0ff315766685b74ebb0b20bf9eb039ef31509057
+    old: 0000000000000000000000000000000000000000
+    new: 31341c445e37d40b48b2dc81fcf8637a38e38a94
+  - ref: refs/tags/refs/merge-window/10665a9025de5dc73a3599a48aa1eaa0134804fc
+    old: 0000000000000000000000000000000000000000
+    new: e6c8efc9bb5df0989fb16429a8f4315b58d2c5c5
+  - ref: refs/tags/refs/merge-window/136e9300e5177580086bece9aaf1dabc9e267b44
+    old: 0000000000000000000000000000000000000000
+    new: 621dee2e323dae821fceca313e8df4a73ea02702
+  - ref: refs/tags/refs/merge-window/1f2df8a15dad238c66ff0b664ad65e635ef4d482
+    old: 0000000000000000000000000000000000000000
+    new: 4fafc90258916e76e54155554d239dc2afe09461
+  - ref: refs/tags/refs/merge-window/2f310bb0cd7d95b7f29ffbffa8e2846aea58a7e4
+    old: 0000000000000000000000000000000000000000
+    new: a8c6a26a6e5e3a04079dafdcedc80cce0ddfe4cb
+  - ref: refs/tags/refs/merge-window/3e57ed20c0db4bc381e695c33b3235c6a948b4f8
+    old: 0000000000000000000000000000000000000000
+    new: 6dd790155331031b74204a0e5734b118b3d3e6f5
+  - ref: refs/tags/refs/merge-window/434fad0bfd31704048031688b14196f088486f6a
+    old: 0000000000000000000000000000000000000000
+    new: 429e9007a164692cdb60491cef220bbe824bc1cd
+  - ref: refs/tags/refs/merge-window/4f3ec96d69ffb78260cd04bd26a65ecfde9de6ff
+    old: 0000000000000000000000000000000000000000
+    new: a52f3422c49a2feb25edcece5e19d4773323ede4
+  - ref: refs/tags/refs/merge-window/5d822687f8e7a9ed508bb5b73fd4fa90a6f526e9
+    old: 0000000000000000000000000000000000000000
+    new: 519f476c7e04f2209666ab7a1eff1ba216e513c9
+  - ref: refs/tags/refs/merge-window/69e5cd1262043a6bfdd55693f1950119f50f0f77
+    old: 0000000000000000000000000000000000000000
+    new: e524b496f72536963ba9b156122b04b2c2c6b9dc
+  - ref: refs/tags/refs/merge-window/78fcd640d0bb2c68b3ce6a3ad583b4428310122b
+    old: 0000000000000000000000000000000000000000
+    new: ce20e990a4155f904a5a8250a389a542c1317e93
+  - ref: refs/tags/refs/merge-window/8dabae51c611444836f2bdf517511a316e46d680
+    old: 0000000000000000000000000000000000000000
+    new: 313935e7712aae6bad896ff0f5b6a77e6aad243a
+  - ref: refs/tags/refs/merge-window/90272c66977cd3593c735fe51cb0a52cc0e89077
+    old: 0000000000000000000000000000000000000000
+    new: 7851c050d359da51c8d5e0c5722256d10789ba8a
+  - ref: refs/tags/refs/merge-window/9533eddc702700a11461d3da0a8f49e3d7d52dd2
+    old: 0000000000000000000000000000000000000000
+    new: bacbdc2add3188f3d49f696488367671790b010a
+  - ref: refs/tags/refs/merge-window/a491e1430a4fbfab275a200b4acfa057f0aab44d
+    old: 0000000000000000000000000000000000000000
+    new: 2f7a88cd58ea60a7dd247bd0290b41761f55fb3d
+  - ref: refs/tags/refs/merge-window/a7e15565268e294de1ce6b56f6eb3e3b6edc43ab
+    old: 0000000000000000000000000000000000000000
+    new: ff570ffb8eeb863de6ec6e8fc294c273a91e96bd
+  - ref: refs/tags/refs/merge-window/b827c43e648e8fb7728896c0eaeb088d89b2cde9
+    old: 0000000000000000000000000000000000000000
+    new: d5a487a8becf33462461f35248aadad70a1406f9
+  - ref: refs/tags/refs/merge-window/c00c858bfaf38e9c7aec8391ba34e0a51ccd96a2
+    old: 0000000000000000000000000000000000000000
+    new: 80a33b3a68d0993af638aa17176934207afd566d
+  - ref: refs/tags/refs/merge-window/c259ae4b4ae025450466b9dc324e64daec2f75db
+    old: 0000000000000000000000000000000000000000
+    new: fbdc1d8b0a4582e3211cee46b1e18a231f34f1fe
+  - ref: refs/tags/refs/merge-window/c4231d23938e5c6e3efb8a84e45e9b41ce42c335
+    old: 0000000000000000000000000000000000000000
+    new: 7b936c817821e50b58fd3639a910c384a8a97d4c
+  - ref: refs/tags/refs/merge-window/ce05216f68127d8642f5e042288f65a554f08fd2
+    old: 0000000000000000000000000000000000000000
+    new: 22cf6aa7fe6f92e947d217b09e76d9e3fc9f7406
+  - ref: refs/tags/refs/merge-window/d125f5c03e2ad0c25ecb026c6c504c1f4f1cbc9a
+    old: 0000000000000000000000000000000000000000
+    new: 6961a9a12e9ca188d5f605218af7365a6ae3b9a8
+  - ref: refs/tags/refs/merge-window/d72f629726433dd34b82ee31359234a9e00e8c98
+    old: 0000000000000000000000000000000000000000
+    new: 7923dc7d03fb3c2741012d47a242197facf6c345
+  - ref: refs/tags/refs/merge-window/df7610115bad68761e38a34648dfd6f5cd161cd6
+    old: 0000000000000000000000000000000000000000
+    new: 6476a5b76c344a30eaf898aacd4cf60c349430b5
+  - ref: refs/tags/refs/merge-window/e2d852f67fe5bf43458749b71ed8658a03563958
+    old: 0000000000000000000000000000000000000000
+    new: 60074660d9778f74abd4ed8cd3f4235293b5f728
+  - ref: refs/tags/refs/merge-window/edf9c19adbc39c9eeef99ad12e7feaf3b434c25c
+    old: 0000000000000000000000000000000000000000
+    new: 63a86c92d1d18565def939c959b61463ea001838
+  - ref: refs/tags/refs/merge-window/feb500dc97ab9fa92ee34b32e661d52d15b9b36a
+    old: 0000000000000000000000000000000000000000
+    new: a2339af1d66ff6d192d7b8dfce3eedd9f1c9b7b8
+  - ref: refs/tags/refs/merge-window/fef1ec39862add142fe2078106ab54ee8563a0a7
+    old: 0000000000000000000000000000000000000000
+    new: 13d279473d7d8557620373392e7b73599f04f696
+  - ref: refs/tags/refs/merge-window/ff01ee92fd1554bdb7e1df2b9532690e425f3b81
+    old: 0000000000000000000000000000000000000000
+    new: 5f5a7bc3c4a2ce71a00a1216d65beef676b6f3fe
+  - ref: refs/tags/v7.1
+    old: 0000000000000000000000000000000000000000
+    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
 
---===============4101920465387419357==
+--===============1461436856831877134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dfa67b1db7f-e734f9f79eea.txt
+Content-Disposition: attachment; filename=revlist-e734f9f79eea-46fbea304547.txt
+
+500e95478f34fe40273d91916a9fd189b4357506 Merge branch into tip/master: 'x86/merge'
+51d86cdd284ea00dd061160d2b07290518d85485 Merge branch into tip/master: 'perf/merge'
+12866f851f0c623a60d5053a4f130fcffa6d120b Merge branch into tip/master: 'timers/merge'
+43e2c163345fbc379d937cf73b59fb549ad20daa Merge branch into tip/master: 'core/rseq'
+221028dcc4b1adeb1c2cffad52bed8f681edbcc0 Merge branch into tip/master: 'irq/core'
+6cd9a78a0cf471b364e32400a1bf5f0d582394bd Merge branch into tip/master: 'irq/drivers'
+168a977e6b5fbf2a01d7645b82ee2cf97fd775f1 Merge branch into tip/master: 'irq/msi'
+8fc90b78b9a9163cf1583c9c4bcc2f55275dee25 Merge branch into tip/master: 'locking/context'
+7041ab0882b3c80c943edc7aa7c78fc206d10564 Merge branch into tip/master: 'locking/core'
+73878f55dce5878101d33f2b49d5481716612270 Merge branch into tip/master: 'objtool/core'
+466367389e4887e8d2d6c609b4a33896e3362ec7 Merge branch into tip/master: 'perf/core'
+20e19aa9b77ad4912e304f2056020eeb4850c906 Merge branch into tip/master: 'sched/core'
+e085e657f84f2a095f0f601f39e4fb76a91ca72d Merge branch into tip/master: 'smp/core'
+05c7bdd8438f18ddb18bbee9411a90159ec99af6 Merge branch into tip/master: 'timers/clocksource'
+5257a2402877129754afd3de53bfe5d086284948 Merge branch into tip/master: 'timers/core'
+9f60dd2fcf1daf246367ab26a793d5cbaa0b8a8b Merge branch into tip/master: 'timers/nohz'
+7a767c17d1c99bad3e260793133dc03ac088b91d Merge branch into tip/master: 'timers/ptp'
+56540b044ff2b06b244281ad5af1863859d8ff66 Merge branch into tip/master: 'timers/vdso'
+2435ff0909742bb102dd38a7c07b01caf92d1d00 Merge branch into tip/master: 'x86/cache'
+75c29bed9c960661f49052e56554252b1e46d4cf Merge branch into tip/master: 'x86/cleanups'
+77c0412906421086844dd4b025a84470aa6a3a49 Merge branch into tip/master: 'x86/cpu'
+22bb8a56f6b1bc88a992f8b978172b8ad7100c8e Merge branch into tip/master: 'x86/microcode'
+bdd166a48098842aa0d2451bcb86adccc39bad3d Merge branch into tip/master: 'x86/misc'
+8575fbb384f6b392affa5e4616132c537703fb25 Merge branch into tip/master: 'x86/mm'
+446f1fa4c59a32acdcbef1fa1bcf663f5ef3710d Merge branch into tip/master: 'x86/sev'
+46fbea3045477c0b0bd0c0fab740931567432cd8 Merge branch into tip/master: 'x86/tdx'
+
+--===============1461436856831877134==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e21ee273e6fa-95e56f0f293e.txt
 
 7c25a0bd4bf7139944c5893ff61211f4b5a3455e eventpoll: expand top-of-file overview / locking doc
 35e7fa083ab25f68c7cd57b9427f65d8794ab7c2 eventpoll: document loop-check / path-check globals
@@ -408,6 +535,5 @@ de02909ae81aa4fda213d16915adb5e1b088a7db Merge tag 'pull-configfs-fixed' of git:
 73f399414a84d715bb1794182aaea852b11d0962 Merge tag 'kbuild-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 2bfc56d9f5e82f6aada2a8d68093aab0b1f00f6a Merge tag 'for-linus-7.2-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 95e56f0f293ef797123eb032f78f5b5d56a035a6 Merge tag 'kcsan-20260612-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux
-e734f9f79eea81f2a11f39e16de459311088bca1 Merge branch 'linus'
 
---===============4101920465387419357==--
+--===============1461436856831877134==--
