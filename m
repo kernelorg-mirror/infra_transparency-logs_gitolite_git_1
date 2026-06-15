@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0646097618518368033=="
+Content-Type: multipart/mixed; boundary="===============5797380348689260400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Jun 2026 08:54:02 -0000
-Message-Id: <178151364292.1451797.7209984794678338942@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 08:54:18 -0000
+Message-Id: <178151365864.1452144.7178998784297648112@gitolite.kernel.org>
 
---===============0646097618518368033==
+--===============5797380348689260400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,50 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/timers/merge
-    old: d494b66dc2c7f5e1d724442ab2314a7456fa1301
-    new: 186d3c4e92242351afc24d9784f31cb4cd08a4b7
-    log: revlist-d494b66dc2c7-186d3c4e9224.txt
+  - ref: refs/heads/master
+    old: 2d83a2631f0478bd6b3d0fc92af49b5fc6a87741
+    new: 7ba5fec3b0c742ba61905620855e27c69c007795
+    log: revlist-2d83a2631f04-7ba5fec3b0c7.txt
+  - ref: refs/heads/tip/urgent
+    old: ddf98130f8caeab4c9bae8a87ac4e6a81eb9bc03
+    new: c82bffa8c414ac965f60971306e6227916ae839c
+    log: revlist-ddf98130f8ca-c82bffa8c414.txt
 
---===============0646097618518368033==
+--===============5797380348689260400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d494b66dc2c7-186d3c4e9224.txt
+Content-Disposition: attachment; filename=revlist-2d83a2631f04-7ba5fec3b0c7.txt
 
+c82bffa8c414ac965f60971306e6227916ae839c Merge branch into tip/master: 'x86/urgent'
+c5a9cec68fe6fb75cb28738422c855f27b8fb2d6 Merge branch into tip/master: 'x86/merge'
+52ed33041147a3dede1b2d3ea6df380a49be538e Merge branch into tip/master: 'perf/merge'
+5b3368f13727bba64cc8b5ef6ea6a6f52e445ffb Merge branch into tip/master: 'irq/msi'
+4fdf44fa68d06c01294a95813746700e30814b22 Merge branch into tip/master: 'locking/context'
+982d62c5ffac8e35cc2df91a532ecd1cc636ad48 Merge branch into tip/master: 'locking/core'
+5e538b9c6965366314476047786ce414a21d1176 Merge branch into tip/master: 'objtool/core'
+51f824aaf34719e9e05718ab5fc5af12da4ee23b Merge branch into tip/master: 'perf/core'
+419dc05bf0e265131b861f9f71d49be89787f3d2 Merge branch into tip/master: 'sched/core'
+9a2af07e2ea016fd5c2cfe81b5aa26212ef871f0 Merge branch into tip/master: 'x86/cache'
+4a858f81e7f78aaafccb19f37a10bed86b9b4139 Merge branch into tip/master: 'x86/cleanups'
+cece1b4ea4ace90506821085edac8f4786c73ddd Merge branch into tip/master: 'x86/microcode'
+6491576231e1216ad8f6a197a3facbd4c0c7b48b Merge branch into tip/master: 'x86/misc'
+bc3ecffde3fdf20533896017a087a6fcb8bb31c3 Merge branch into tip/master: 'x86/mm'
+6d33ca6927882e941d08aa89e41e42cff266c373 Merge branch into tip/master: 'x86/sev'
+7ba5fec3b0c742ba61905620855e27c69c007795 Merge branch into tip/master: 'x86/tdx'
+
+--===============5797380348689260400==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ddf98130f8ca-c82bffa8c414.txt
+
+b385caf918685870cb92d07ca6078d7ed01d45c1 dt-bindings: timer: fsl,imxgpt: add compatible string fsl,imx25-epit
+045a9dac7eb74ce07160d7715b6629c83f3d92c0 clocksource/drivers/timer-rtl-otto: Make rttm_cs variable static
+fed9f727cc3f91dde8278961269419083502b40e clocksource/drivers/sun5i: Handle error returns from devm_reset_control_get_optional_exclusive()
+2423405880c2cd5473c8c4e937e8253b7444f532 clocksource/drivers/mmio: Make the code compatible with modules
+68ed094971b09ba530baf6f75cf1902df880a8d1 clocksource/drivers/timer-of: Make the code compatible with modules
+1655f6895a896eb632ca8a019259bc5d358a9712 Merge tag 'timers-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/daniel.lezcano/linux into timers/clocksource
 52cfe57e40767d7312fd0de736e9e62545e59648 Merge branch into tip/master: 'core/urgent'
 3d02b74bdb753038546b96819c347bb965c4db17 Merge branch into tip/master: 'timers/urgent'
 216fe4b3e06754e73c79a88b1df7e9806e41f29d Merge branch into tip/master: 'timers/clocksource'
@@ -44,6 +77,27 @@ ac2005bba8d938c03c3856a96f20afaa42002635 irqchip/starfive: Rename jh8100 to jhb1
 96c0c9b488502c89e91f32353b853422a45a1646 irqchip/starfive: Implement irq_set_type() and irq_ack() callbacks
 5a59e82f95d3521fa64f24b6450417ee098d8546 irqchip/gic: Replace __ASSEMBLY__ with __ASSEMBLER__
 76841b0ea8be9309f6f9d2f7cf0dbac3af9ec361 irqchip/qcom: Unify user-visible "Qualcomm" name
+bd5956166d20adbde3af0f6f265dc2f0ce5f4df9 hrtimer: Provide hrtimer_start_range_ns_user()
+b40c927345a91e687eac4c3c5ca03a99643cd0c4 hrtimer: Use hrtimer_start_expires_user() for hrtimer sleepers
+6fdb2677a594ab38eade927919bbd4d9688bfa1c posix-timers: Expand timer_[re]arm() callbacks with a boolean return value
+cfb7fe3fdd4ca1d37da1ed15a1897d4a27c47a8a posix-timers: Handle the timer_[re]arm() return value
+acc071343d29c2361619b05ad50ea3de9ef9a3ac posix-timers: Switch to hrtimer_start_expires_user()
+183d00b727139cf3b4be78d66a5602ce71a3acec alarmtimer: Provide alarm_start_timer()
+f4b58f61da79032b03d25f8f1a5a697db84a46f3 alarmtimer: Convert posix timer functions to alarm_start_timer()
+7dda99952cede01e1225f8c4c856369a2cfda6ca fs/timerfd: Use the new alarm/hrtimer functions
+9fa2e38ab749f3966d9141da3c2cb6ce3a9a8e35 power: supply: charger-manager: Switch to alarm_start_timer()
+12e4311aa5b2dda3cb59e42b3f518e1c57fb1469 netfilter: xt_IDLETIMER: Switch to alarm_start_timer()
+ed78a701941999635389c41ddd638e8e7ea2470f alarmtimer: Remove unused interfaces
+86db5e92f2b82eae3b978bba559ae207033357f6 Merge branch 'timers/urgent' into timers/core
+ff65875f80d1a662d2d39e3e36345a0918766b3c timers/migration: Abstract out hierarchy to prepare for CPU capacity awareness
+3ba25488380fd76230442df366c464c6e1fd6485 timers/migration: Track CPUs in a hierarchy
+098cbaad8e573cf6cac9e68e7ca2e7b7363d2434 timers/migration: Split per-capacity hierarchies
+5a7dfbcbbdb683e6f704966e73c02f4ba8eb6014 timers/migration: Handle capacity in connect tracepoints
+cab0cd0130eb6c884982ede3f70aca0392a7fc57 scripts/timers: Add timer_migration_tree.py
+b00385b8d081ce74f36ea178e04e1b106505fb36 selftests/posix_timers: Use CLOCK_THREAD_CPUTIME_ID for ITIMER_PROF measurements
+ed3b3c4976686b63b28e44f9805a88abc20ff18a alarmtimer: Remove stale return description from alarm_handle_timer()
+33d4bfc49613301c8e451a597e377aaa331944bc clocksource: Clean up clocksource_update_freq() functions
+3af1f49f415dcac8c0df8bfc593df0371c219876 hrtimer: Return ktime_t from hrtimer_get_next_event()/hrtimer_next_event_without()
 8b9db67396105f6b95bcc57a354e50ac20705704 irqchip/starfive: Fix error check for devm_platform_ioremap_resource()
 fee410ecff3b9aef22f105e693067610ca27e067 dt-bindings: timer: allwinner,sun5i-a13-hstimer: add H616 and D1
 f182fa740218dec7ead6275b2e096da1642272b5 clocksource/drivers/sun5i: Add D1 hstimer support
@@ -56,6 +110,10 @@ f51c99a0e502dcfd3a1972554ed3f09970a55a07 dt-bindings: interrupt-controller: Add 
 5fd6f2154734f447e83b6de9a08d16848605191e irqchip/gic-v3-its: Use FIELD_MODIFY()
 3661d5f403769b872482b584e658b71bbdb5f55e genirq/msi: Fix typos in msi_domain_ops comment
 c2c7983c93f5d86962318be7e7298f1bc3feb1a6 genirq/proc: Size interrupt directory names for 10-digit interrupt numbers
+5d330d652d7a455b2215c38e7b0c6149c6f8225d hrtimer: Fix the bogus return type of __hrtimer_start_range_ns()
+c8d32a0389fb97873285327ef4543a1431e54733 timers: Fix flseep() typo in kernel-doc comment
+09d6818d3bdc1ea6e49a425040528cbdbc97bc0a Merge branch 'linus' into timers/clocksource
+3eb4923e68511741f3eb3fab55ed1e8ded9e4da8 clocksource: Add devm_clocksource_register_*() helpers
 115bbf0c1b60cb7bed348c64694eb88e21e7d458 x86/irq: Optimize interrupts decimals printing
 95c33a64f203be444954a1e1d855a4820c4f0efa genirq/proc: Avoid formatting zero counts in /proc/interrupts
 0179464391af9a01b911f441d2dda42ea253dfbd genirq/proc: Utilize irq_desc::tot_count to avoid evaluation
@@ -80,6 +138,21 @@ fe1159fe49b40f73de88d2c29200c813952e061f pps: generators: Use ktime_get_real_ts6
 d5becddf8a0f18bcc18129efa086530b5263c6b4 pps: Convert to ktime_get_snapshot_id()
 766e828b011ca5f971554001611b4acab7c244c1 time/namespace: Export init_time_ns and do_timens_ktime_to_host()
 180a232ea78003d1dc869b217b4e49106fd58e8f ntsync: Honour caller's time namespace for absolute MONOTONIC timeouts
+86db4084b4b5d1a074bcc66c108a4c9d266812d4 tick/sched: Fix TOCTOU in nohz idle time fetch
+0236aaf07b406100c8c3a6b78dba211f32449f49 sched/idle: Handle offlining first in idle loop
+080b5c6d95034e46f5ed1abe98c06218a1386aef sched/cputime: Remove superfluous and error prone kcpustat_field() parameter
+650a59805a9baeff76379ea9309df1395eb15a46 sched/cputime: Correctly support generic vtime idle time
+c8ba971cf8567d49eb5f43ee90c4e50424331c18 powerpc/time: Prepare to stop elapsing in dynticks-idle
+ad5a9e14ec8b4a868fea13a9dfa1fb38b2c35354 s390/time: Prepare to stop elapsing in dynticks-idle
+cf6444c3e1bb7dd5974441bbd74840e9821d36f9 tick/sched: Unify idle cputime accounting
+bd0c77cd46c63d02bc33dacdba56133ec1fe44a0 tick/sched: Remove nohz disabled special case in cputime fetch
+a5fe724e206ec7ff3ceb15b285d94316c7fe6c41 tick/sched: Move dyntick-idle cputime accounting to cputime code
+29807c524d66e27762cdc8992c2cac89b4c3fda9 tick/sched: Remove unused fields
+6a1f6a9dd0736257f5e5af32dd955d186cdc075d tick/sched: Account tickless idle cputime only when tick is stopped
+127b2eb44f36d5d7059f1af425b5800cb27440f9 tick/sched: Consolidate idle time fetching APIs
+3b45b4f188f3a0ebd16ab71efd2ffcc7a16ad861 sched/cputime: Provide get_cpu_[idle|iowait]_time_us() off-case
+7198e3927a14535475a24cce559f41f97e6c0b66 sched/cputime: Handle idle irqtime gracefully
+6199f9999a9b62b2b84a1bf5b52a9fd0bb8de5af sched/cputime: Handle dyntick-idle steal time correctly
 e4a70f5fbd43f55b474028a2cee3d78e4b443dd7 timers/migration: Fix hotplug migrator selection target on asymetric capacity machines
 d4f198c13611257f7f29d3c614721d0ac5d362f5 timers/migration: Deactivate per-capacity hierarchies under nohz_full
 45b49d7e3ab6490a9b957a4075344093c43d1f7e timers/migration: Turn tmigr_hierarchy level_list into a flexible array
@@ -164,5 +237,6 @@ a60ce761d99ff2d9eefe33374c5f20726465a140 Merge tag 'timers-core-2026-06-13' of g
 a53fcff8fc7530f59a8171824ed586200df724a0 Merge tag 'timers-nohz-2026-06-13' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
 2d6d57f889f3a5e7d19009c560ea2002cdde9fb8 Merge tag 'timers-ptp-2026-06-13' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
 186d3c4e92242351afc24d9784f31cb4cd08a4b7 Merge tag 'timers-vdso-2026-06-13' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+c82bffa8c414ac965f60971306e6227916ae839c Merge branch into tip/master: 'x86/urgent'
 
---===============0646097618518368033==--
+--===============5797380348689260400==--
