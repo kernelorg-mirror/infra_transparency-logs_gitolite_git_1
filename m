@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 15 Jun 2026 00:41:34 -0000
-Message-Id: <178148409459.1073792.15929146889186603834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Mon, 15 Jun 2026 01:23:42 -0000
+Message-Id: <178148662253.1110090.4430995280882000266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/for-next
-    old: cf750df538b0ee8f18c00a0b7d530399df363215
-    new: c79536c8146951cdad31cbced25d8e6bd1cad6c1
+  - ref: refs/heads/apparmor-next
+    old: d0691bd5dcaec2350039ecb04fa70faa91ac142d
+    new: 1ed40bd525c00d22af666016af9aef7167f8085f
     log: |
-         ca0f587c029afa66227f7b932450b1c417403394 bpf: Fix bpf_get/setsockopt to tos for ipv4-mapped ipv6 socket
-         5cf2c21ab0900b41c0e29c925b9a640a92340d40 selftests/bpf: Add test to verify the fix for bpf_setsockopt() helper
-         c79536c8146951cdad31cbced25d8e6bd1cad6c1 Merge branch 'bpf-fix-bpf_get-setsockopt-to-tos-for-ipv4-mapped-ipv6-socket'
+         1ed40bd525c00d22af666016af9aef7167f8085f apparmor: fix label can not be immediately before a declaration
          
