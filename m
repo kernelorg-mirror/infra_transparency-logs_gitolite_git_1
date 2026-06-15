@@ -1,77 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============2389342104997561831=="
+Content-Type: multipart/mixed; boundary="===============2262075272228578358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 15 Jun 2026 16:09:19 -0000
-Message-Id: <178153975915.1803112.2668743512267920271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 15 Jun 2026 16:09:30 -0000
+Message-Id: <178153977019.1803423.7289749776325762090@gitolite.kernel.org>
 
---===============2389342104997561831==
+--===============2262075272228578358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/export-net
-    old: 848e2cfaada38b718951741563f6b24496e5f587
-    new: 4b14877eade1c6ae620556086bb7448c53ef346d
-    log: revlist-848e2cfaada3-4b14877eade1.txt
+  - ref: refs/heads/dir-deleg
+    old: cee1a52f14c17ed042fd46bfec7e692fff393a1a
+    new: 98f372bdbc04d04c8e09adf5dade5a2200350a31
+    log: revlist-cee1a52f14c1-98f372bdbc04.txt
 
---===============2389342104997561831==
+--===============2262075272228578358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-848e2cfaada3-4b14877eade1.txt
+Content-Disposition: attachment; filename=revlist-cee1a52f14c1-98f372bdbc04.txt
 
-d1e8f9fd6b98307bc8d2863c7baa465d8a5a43be idpf: add padding to PTP virtchnl structures
-7bd4355272de34c2e90e34b72c5613736d03c32b ixgbe: do not configure xps for XDP queues
-38b7a274cf84af9b1f4b602b8e2741565b81947b igc: skip RX timestamp header for frame preemption verification
-e26657fe3b85c068b01f42bb0c602f242d643ba9 bnxt: fix head underflow on XDP head-grow
-990348e5bb457697c2f1f7f7b65154a3334d9d2b tcp: clear sock_ops cb flags before force-closing a child socket
-cdf19f380e46192e7084be559638aab1f6ed86a2 net: atm: reject out-of-range traffic classes in QoS validation
-86c51f0f23136ea5ef5541f607287e07150cd23f virtio_net: do not allow tunnel csum offload for non GSO packets
-16c8ae9735c5bd7e54dd7478d6348e0fc860842d rxrpc: rxrpc_verify_data ensure rx_dec_buffer alloc
-5801cff7d5d7b4e9d877dfb627b23eb63167f02c rxrpc: Don't move a peeked OOB message onto the pending queue
-107a4cb0d47e735830f852d83970d5c81f8e1e08 rxrpc: Fix UAF in rxgk_issue_challenge()
-47694fbc9d24ab6bf210f91e8efe06a10a478064 afs: Fix netns teardown to cancel the preallocation charger
-dc175389b18c29a5303ee83169ec653adfae3e17 rxrpc: serialize kernel accept preallocation with socket teardown
-344873108ca7f342f1a7ffeb81ffca2347fe9535 Merge branch 'rxrpc-miscellaneous-fixes'
-097f6fc7b1ae362dd7a9444b2572162fda73b284 net/sched: sch_fq_codel: Do not call qdisc_tree_reduce_backlog during peek before restoring qlen
-52f1da34c9f4d5bdc1e8b44242da5c7ba8db85f3 net/sched: sch_codel: Do not call qdisc_tree_reduce_backlog during peek before restoring qlen
-15cd0c93bf4f892d66bc7a93667e2357b5673365 net/sched: sch_dualpi2: Do not call qdisc_tree_reduce_backlog during peek before restoring qlen
-101f1047c2f6261d252d68ca3f77e52ed05a8402 selftests/tc-testing: Verify child qdisc will not mistakenly deactivate QFQ parent
-592b792026eaab89efb84bed71b05994645fa790 Merge branch 'avoid-mistaken-parent-class-deactivation-during-peek'
-5985474e1cb4034680fac2145497a94b0860be50 net: mana: initialize gdma queue id to INVALID_QUEUE_ID
-f8fd56977eeea3d6939b1a9cd8bd36f1779b3ad0 net: mana: guard TX wq object destroy with INVALID_MANA_HANDLE check
-56a0b00c5a04cb270f66e20d365526c9ac34a1fe Merge branch 'net-mana-fix-error-path-issues-in-queue-setup'
-8eed5519e496b7a07f441a0f579cb228a33189f7 net: watchdog: fix refcount tracking races
-9192a18f6de2f5e3eb3813ecd2895ac0f5c008a9 net: ethernet: mtk_wed: fix loading WO firmware for MT7986
-ee1ba0add3fbd5a28fa5423be373acd147f1e344 net/sched: sch_dualpi2: Add missing module alias
-d7b0413b35715d7b32cb12d4d424613eff85ed2b net/mlx5: Check max_macs devlink param value against max capability
-20054869770c7df060c5ecee3e8bbf9029c47191 net: qrtr: fix 32-bit integer overflow in qrtr_endpoint_post()
-f9cd6fabe0e7c7f6fc30c6c192c7ed72aba37232 octeontx2-af: npc: Fix size of entry2cntr_map
-05f5368cf3e9922c2459d5f08b90b5b0e4b8d289 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-d7d81b00301398fcd38cf5b5869f0fdb674472ef net: airoha: Fix error handling in airoha_ppe_flush_sram_entries()
-14a8bc41ce9edae42d56466063a7f2c84a16c45c net: ethernet: mtk_wed: debugfs: correct index in wed_amsdu_show()
-05f789fa90d95d5771230e78453cedff2486039d net: wwan: t7xx: check skb_clone in control TX
-fd615abd53110f0f815984e99e7cc51ca6b7d979 net: bcmgenet: Use weighted round-robin TX DMA arbitration
-925551c944a1de3058dc3fb55a517eea7749835d octeontx2-af: fix NPC mailbox codes in mbox.h
-acd7df8d955480a6f6e5bb809da67b1500cc3cf4 tipc: restrict socket queue dumps in enqueue tracepoints
-1402ecccf5630a0b7fa4749d7d2e72abc3f3d73d net: airoha: Fix register index for Tx-fwd counter configuration
-1c3a77471afbb3981af28f7f7c8b2487558e4b00 net: airoha: Fix debugfs new-tuple display for IPv4 ROUTE entries
-9406f6012b7343661efb516a11c62d4db2b62f75 net: ife: require ETH_HLEN to be pullable in ife_decode()
-a4004aa0debf6ba953a023c30e775668eaee4047 selftests/tc-testing: Verify IFE can handle truncated inner Ethernet header
-47186409c092cd7dd70350999186c700233e854d kcm: use WRITE_ONCE() when changing lower socket callbacks
-7862d877c460bddaaddc411ec01aff7a75ec9103 DO-NOT-MERGE: git markup: net
-2c7adbd06855c9f2e5a78ad5510653fabf8cca5a DO-NOT-MERGE: git markup: fixes other trees
-703f543047bfb5c88e21aea13bbc05d2a457e1a9 DO-NOT-MERGE: git markup: fixes net
-4915ea2bd1530d6f276de571107dd65f376ce7fd DO-NOT-MERGE: mptcp: add CI support
-8dcbbff372939b5ba96fcd2f5b0a2d432f260d66 DO-NOT-MERGE: git markup: end common net net-next
-767299896881bf6974034b06ddf4120e2c1eaf39 DO-NOT-MERGE: git markup: fixes net only
-92f97453217bc33e6cc8f6a24249f169bf382fa3 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-4b14877eade1c6ae620556086bb7448c53ef346d DO-NOT-MERGE: mptcp: enabled by default (net)
+3ce53beb9bdeab690f08f4e479b13b990e87b1c4 NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
+059efe79f3fbba4d6334651c6f3d8f9038e1f5b0 nfsd: fix null dereference in nfsd4_setattr for deleg timestamp attrs
+ef6fe22ee7de0a016bd6b4ec6cf314b9f93cd816 nfsd: clear opcnt on compound arg release to prevent OOB read
+71a715232eff2ff9b8fbb7ad2f9f882187056ac8 nfsd: add missing read barrier to rpc_status_get dumpit seqcount retry
+ef265c50d90fc7e92461668fab69f9a33e935092 nfsd: fix netlink dumpit error handling for rpc_status_get
+5d51eea254f4be0b146bd859384e10723d59bcf8 sunrpc: defer rq_argp and rq_resp free until after RCU grace period
+50c819a3406963f7935a62d81321984b947b5b97 nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
+35450eb04ec5718ef680062da9711f054cacfdb9 nfsd: add filehandle match check to nfsd4_delegreturn()
+387858689eb526681b3fca7d24d3fb18b353356a nfsd: validate nseconds in TIME_DELEG decode paths
+a6a22b9c4135f80b8b1b5c9f7629cddb677c5dad nfsd: fix version mismatch loops in nfsd_acl_init_request()
+fd848bc2582871814762604f3675f1bd139e356e nfsd: fix FL_SLEEP being set unconditionally for all LOCK types
+19a6dd09bf8d22d7af15ef068f57ec279f9051aa nfsd: add fh_want_write() for early-verified SETATTR in nfsd_proc_setattr()
+0fecd3b7c474eedb60ec03716a13a61c93eadec6 nfsd: fix clock domain mismatch in clients_still_reclaiming()
+7f101efd236e14915bf35d5c2b62d10350a63b1c nfsd: use test_and_clear_bit for somebody_reclaimed to prevent lost update
+7a02caf96fac6faa22a93b8bd06d29d6f90318cd nfsd: reject reclaim LOCK after RECLAIM_COMPLETE
+b601157bf2118094708689033921e996e3418e29 lockd, nfsd: RCU-protect nlmsvc_ops dispatch
+bb483d4ed57fd52c21c0f64c126986489d51c9d5 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
+bec760bf8e868cb6e232b4760dac86c0172d17f5 nfsd: initialize DRC hash table before registering shrinker
+f8b2bcada458865af99537ece2b5470417b0143b nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
+402b9e49a8e5da556adbafd21871ea4e8a617372 nfsd: drop the stateid, not the stateowner, on seqid_op replay retry
+da7aaaf728fdf6eb67d55f8778e91b95cba2fbb5 NFSD: Prevent post-shutdown use-after-free in unlock_filesystem
+773ccc922f2a67a46f1de55b331d10aca357a6d0 NFSD: Prevent post-shutdown use-after-free in NFSD_CMD_UNLOCK_FILESYSTEM
+9a730ee5a65db979f94eba1215aa378ba8348a0c NFSD: Annotate caller preconditions for the state-table walkers
+332e2f4f37b213f231be1ab5ddc17e2052383b60 siw: Enable try_gso
+d3f6298cfc2a8bd04168342304fdd88eabef9823 nfsd: add support for CB_NOTIFY callbacks in directory delegations
+f5cadfdb27d09d286d1b280ca17125cfd7821c27 nfsd: check fl_lmops in nfsd_breaker_owns_lease()
+9d0aeafb7644092247823e4604f4af8d8636fdb1 nfsd: add protocol support for CB_NOTIFY
+6e31607cd38b23f280299aee968f4daa84c191a8 nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
+8517f88ed98b08eb5d41139602d680952402263f nfsd: allow nfsd to get a dir lease with an ignore mask
+4afdb44dae5c2f50f37203b4586aa965705e78d2 nfsd: update the fsnotify mark when setting or removing a dir delegation
+0c32b93902780dae9bb4413dbc611e0bbf93d884 nfsd: make nfsd4_callback_ops->prepare operation bool return
+ae2002e42f5a159f1d4b98955b57d063be334853 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+5f5b2f3f825cff0c0eb6075cc8c7ae589089e44c nfsd: use RCU to protect fi_deleg_file
+b05a6439e309a7f107ea74e4b797a39eb8dcb1d6 nfsd: add data structures for handling CB_NOTIFY
+69b624a2f2a27a92dff8dcc659789117ffedb2fd nfsd: add notification handlers for dir events
+1fb80d4bc79c4c46f1226d1e94e728190f853054 nfsd: apply the notify mask to the delegation when requested
+60e5488daedca093ee0f94a23102ac77f192ecf4 nfsd: add helper to marshal a fattr4 from completed args
+f4e87fee3737afafc89ec6da73040ca5214ba33a nfsd: allow nfsd4_encode_fattr4_change() to work with no export
+83c9e5def9d770a294be0c10a65eac6c57db7744 nfsd: send basic file attributes in CB_NOTIFY
+140cddd9e8ee2960b813ae040e31e64fa8e402b5 nfsd: allow encoding a filehandle into fattr4 without a svc_fh
+98018010b80adaf9142acec48ea2ba66530dc7a7 nfsd: add the filehandle to returned attributes in CB_NOTIFY
+c75105cbac723d86a9e292279512637fd24c76c3 nfsd: fix reply size estimate for GET_DIR_DELEGATION
+e93b10f8f78f20f70bc44730388e3173eeaa4b26 nfsd: properly track requested child attributes
+4be45a26c8c59832dd7367262627cbc9f2ac83a9 nfsd: track requested dir attributes
+98f372bdbc04d04c8e09adf5dade5a2200350a31 nfsd: add support to CB_NOTIFY for dir attribute changes
 
---===============2389342104997561831==--
+--===============2262075272228578358==--
