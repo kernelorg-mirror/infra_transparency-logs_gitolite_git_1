@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 15 Jun 2026 14:17:42 -0000
-Message-Id: <178153306229.1708880.13744409463956877381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 15 Jun 2026 14:18:07 -0000
+Message-Id: <178153308784.1709274.15080869175756870622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/tags/for-7.2/block-20260615
+  - ref: refs/tags/v7.1
     old: 0000000000000000000000000000000000000000
-    new: 9262b0587a728b0182346c69d4e20f625dfca27d
+    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
