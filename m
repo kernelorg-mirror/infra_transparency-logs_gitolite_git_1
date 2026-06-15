@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 15 Jun 2026 12:03:10 -0000
-Message-Id: <178152499046.1603784.3534132011387795039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 15 Jun 2026 12:04:35 -0000
+Message-Id: <178152507551.1604551.13988421509091773441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 2f080c6800e0d40580a0eb9d2918e500c483fac5
-    new: b0191d39309708860793add1f2d5eafe2cc14493
-    log: |
-         b0191d39309708860793add1f2d5eafe2cc14493 tpm: fix event_size output in tpm1_binary_bios_measurements_show
-         
+  - ref: refs/heads/p2p-vr-v1
+    old: 0000000000000000000000000000000000000000
+    new: 7057a4eb60947d763caa9fb9e0267aab2cd5713b
