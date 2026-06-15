@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6168274773761338583=="
+Content-Type: multipart/mixed; boundary="===============3699370883200407774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 15 Jun 2026 12:19:54 -0000
-Message-Id: <178152599498.1619810.12563007906156823671@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 12:20:23 -0000
+Message-Id: <178152602319.1622351.18141668576607641601@gitolite.kernel.org>
 
---===============6168274773761338583==
+--===============3699370883200407774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
+  - ref: refs/heads/master
     old: 7945c107c58f4c6cf97fb441332d6600a64d2bf5
     new: 67c53887ebcd425f0003e7068de12eab511f80a9
     log: revlist-7945c107c58f-67c53887ebcd.txt
 
---===============6168274773761338583==
+--===============3699370883200407774==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ac397e954165d98844068a1ceedbba29611683f7 tpm: tpm2-sessions: wait for async KPP 
 5ec7710b3195d0189fc9483e93f1aaef06884a78 tpm: tpm_crb_ffa: revert defered_probed when tpm_crb_ffa is built-in
 67c53887ebcd425f0003e7068de12eab511f80a9 tpm: fix event_size output in tpm1_binary_bios_measurements_show
 
---===============6168274773761338583==--
+--===============3699370883200407774==--
