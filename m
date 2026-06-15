@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 15 Jun 2026 12:59:19 -0000
-Message-Id: <178152835976.1650588.8322153059248674364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Mon, 15 Jun 2026 13:02:20 -0000
+Message-Id: <178152854057.1653731.11116075832964736075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-7.1/upstream-fixes
-    old: b7799c3b6aa8f08dd9918eb4637af4ac21cf90f2
-    new: 6df6b1f2c49678211f65647c300bc51dda02893b
+  - ref: refs/heads/devel
+    old: c20cdedb260e701c27e79093b1ae61610a39d602
+    new: 8b2c4f88c6ee86efdbc81bed1684e13e2efebd53
     log: |
-         6df6b1f2c49678211f65647c300bc51dda02893b HID: hidpp: fix potential UAF in hidpp_connect_event()
+         8b2c4f88c6ee86efdbc81bed1684e13e2efebd53 pinctrl: Export pinctrl_get_group_selector()
          
   - ref: refs/heads/for-next
-    old: 1c7186b3dd58291115bda5e287c12fc35beb411d
-    new: cf2fe24797e2065e72c7c0ae33b16cafcf335c74
+    old: 52e80f912d314732903388e0a144fd6ea9a6602f
+    new: 3bd25818aebd8dc6cdc44cb9356a539e98a76c6c
     log: |
-         6df6b1f2c49678211f65647c300bc51dda02893b HID: hidpp: fix potential UAF in hidpp_connect_event()
-         cf2fe24797e2065e72c7c0ae33b16cafcf335c74 Merge branch 'for-7.1/upstream-fixes' into for-next
+         8b2c4f88c6ee86efdbc81bed1684e13e2efebd53 pinctrl: Export pinctrl_get_group_selector()
+         3bd25818aebd8dc6cdc44cb9356a539e98a76c6c Merge branch 'devel' into for-next
          
