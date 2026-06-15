@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1898772399385465412=="
+Content-Type: multipart/mixed; boundary="===============5384658436628624143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Jun 2026 16:14:16 -0000
-Message-Id: <178154005645.1807464.10725223807139994850@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 16:15:30 -0000
+Message-Id: <178154013076.1810618.10135465557186262854@gitolite.kernel.org>
 
---===============1898772399385465412==
+--===============5384658436628624143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c225ab2f2b81bd46c8532fd0beecb9ab6da03290
-    new: 7ea1abe9913a9a218bf49df334bdf4c90d1dc0ed
+    old: 7ea1abe9913a9a218bf49df334bdf4c90d1dc0ed
+    new: 419299367b1ba5b1533f97ae95d56517542d67bf
     log: |
-         4aa179f77f808eb085485ef501dde30497d574c5 6.18-stable patches
-         e91d5e44e403d2276a23aa00f124aaf6e341f678 7.0-stable patches
-         7ea1abe9913a9a218bf49df334bdf4c90d1dc0ed 6.12-stable patches
+         f1dd82198fae9ac97acec96e12bdc229dd242171 5.10-stable patches
+         1bbd74ddad6d005f714657669a0de1a7054ae209 5.15-stable patches
+         5b0d97e977dce38152f53816f1adb303122024ca 6.1-stable patches
+         419299367b1ba5b1533f97ae95d56517542d67bf 6.6-stable patches
          
 
---===============1898772399385465412==
+--===============5384658436628624143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781539992 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781540069 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1781540051-cf75f040693181432031c0cc0e0e153cdcf65d0c
+nonce 1781540128-365e25c854855d609bc26788b2ba999e77dbb762
 
-c225ab2f2b81bd46c8532fd0beecb9ab6da03290 7ea1abe9913a9a218bf49df334bdf4c90d1dc0ed refs/heads/master
+7ea1abe9913a9a218bf49df334bdf4c90d1dc0ed 419299367b1ba5b1533f97ae95d56517542d67bf refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmowJJgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DGEP/iOmOJuopwyWZmE+6gPm
-FKoSNWYFRPOBCp21dxO1r3voMVVV9A2GE2w8TvNBiLQY+5Zogr8LH4CuK/blkKqT
-G0xvBTSV7IfaGjzeZy0A8ziufybXwzOLy+WrczF4760cT7vjTZUBoO1Owma16lJJ
-4J0Dn74rvTQ3l1VGWD10CElJ0HkHXgAMYQZjLHjqmr6Cktw8FWWARd0xDENzmL52
-ZR8Omw0OBeMfWOohXHmy2rWtHF9N+APqvmDp3Vg0FroZUNyJfNSBQ1CdcYcodVZH
-SLCew4L4JohL8NTT4a4qUBSMY8SOpmS5tR/EQGwBL35O9H2e7ng03lQ2Z0fhuA0O
-VkFUIPPF7XTWWtMhKKVR6yun7xK5a6vyxyKLgeAWiLo+3enC7evHAEDGayoVIvNk
-1472VPYPLJgZ5uZI3ct1Cp31515N9sByfMyC3expj+XNWb3zeMlsGT+q7on6Qqon
-DaNMdKmvs34ChAoiuIbodjgxaxMHZh+3WmoQnajGL80L6EmEUzAIaJO23cHy/980
-s1PkHVvnUtBMfn5zZBLxayaY2/qGHwT+dK+ldO13vfhfgxhipU07FUDLK2+u/yO5
-+2P/TZu4ofF+EoIgQxhMkSAXurbvDOs6R66bJ+m8XNrTKPRpbyVKEWGlt9vdT904
-rbXAQqmOb8BmWl3ILQtUZ+3s
-=jh8k
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmowJOUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8+QP/38aqHXCywKEP21QBfCa
+E1FLSl61qzeV9bTVDnMehcBHk/hL1KSj8cbXVScjiXssu0//CqoYPPSs3cxT4yO9
+BB5MZXz45m90ez0lOXrOvDGw94SSAUztWVGuS/ttHnetXKXbo+LIoDuRjz4uJR2x
+pHbDlWNMHKMyn2kP/Gef0ahiddvckU3R9k1Efr+xWCGBJjEyvl6zng5OzF4g5F0U
+bJ103gFtpGf3thSZmwYXlwdbOf6W4n59A4/rDcfDUWi6q8gjed/RF+ir0PS6gFwN
+ziIQw608PuQXH0Nm7druG2xAej6F1drwVCAH9sT6ILYOw0fgwpCgY2hvsXH0gEye
+oHNjtEBZkc4fBLpDYslWuKF7d6gZ0Qt1ZaYNen5NLSbZvIQfi7KlaKAdi5C/Dh4q
+SMvbHGW/4Pe+wJbjbmPiATpC7dgksutNWB9wi/sZ7hbCw85Y9ZQk6XWp9jU/uVrU
+j74+yY1PT7p5yK7ua1ntUbKweIt8oW9tpkWECHAP02gsO9XyiRKxsQJ9Apl6wvax
+BBCkGfIm+z71vayTZwAByP849azNkyIjnxKLXoLgSr1jr/9ltHlN9Y30s9i1GZH2
+OeaWW1HRMkDw3enVaF/k/thvmsHE2qdloYMPRtTCFR5tS3jwiFIafeXm2sa82a/n
+UA2EHp/L5g9MAU+LXmNqol2Q
+=K9oz
 -----END PGP SIGNATURE-----
 
---===============1898772399385465412==--
+--===============5384658436628624143==--
