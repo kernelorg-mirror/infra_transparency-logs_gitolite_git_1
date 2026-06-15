@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8667527563931123442=="
+Content-Type: multipart/mixed; boundary="===============6168274773761338583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 15 Jun 2026 12:19:30 -0000
-Message-Id: <178152597092.1619364.1638543783409417528@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 12:19:54 -0000
+Message-Id: <178152599498.1619810.12563007906156823671@gitolite.kernel.org>
 
---===============8667527563931123442==
+--===============6168274773761338583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 1c01ecb2c8c672b7dbb72f6f76bbbc2affa22d63
-    new: 1b9524250996b1f2f49833a1b2ae21c34e486f85
-    log: revlist-1c01ecb2c8c6-1b9524250996.txt
+  - ref: refs/heads/for-next-tpm
+    old: 7945c107c58f4c6cf97fb441332d6600a64d2bf5
+    new: 67c53887ebcd425f0003e7068de12eab511f80a9
+    log: revlist-7945c107c58f-67c53887ebcd.txt
 
---===============8667527563931123442==
+--===============6168274773761338583==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1c01ecb2c8c6-1b9524250996.txt
+Content-Disposition: attachment; filename=revlist-7945c107c58f-67c53887ebcd.txt
 
-d324c5416a63d7b828e6d6406815cde7d4ff1a7d selftests/pid_namespace: compute pid_max test limits dynamically
-0d9ff5c4219fd9e14a8c0543c5247ec4e631a70a nfsd/blocklayout: always ignore loca_time_modify
-d5758c31a81bcd9d5ac8a7456549b05df3579068 exportfs: split out the ops for layout-based block device access
-61eb48f515853937a6237e7f64dbe9d099b54613 exportfs: don't pass struct iattr to ->commit_blocks
-da9baa5470dcb077a7c9806f0925c60b530c470b exportfs,nfsd: rework checking for layout-based block device access support
-79e33ddc62c03cce6c29f0792454e1d618228acf Merge patch series "cleanup block-style layouts exports"
-07410646f6ff1d23222f105ccab778957d401bbe bpf: fix crash in bpf_[set|remove]_dentry_xattr for negative dentries
-4911de3145a797389577abfdf9a5185d36cc18d7 uaccess: fix ignored_trailing logic in copy_struct_to_user()
-db0493512931fe1e5a71612e6a358df1aa22d80c sockptr: fix usize check in copy_struct_from_sockptr() for user pointers
-2eef8b32e4c84caa927495f1d9bc9529d2bc5ac6 uaccess: add copy_struct_{from,to}_bounce_buffer() helpers
 d2c344740bf9e54c91d8d4a99bfe5fc1709a3ecc sockptr: let copy_struct_from_sockptr() use copy_struct_from_bounce_buffer()
 c5ca9f85d7fe27a8c9c88195bb819e8b569fa930 sockptr: introduce copy_struct_to_sockptr()
 fdb48976b6379c2b91e1ad4aafef07ee8b1ddb0e selftests/namespaces: Kill grandchild in nsid fixture teardown
@@ -1050,5 +1040,15 @@ c1201b37f666f6466ab1fd3a381c2b7a4b7e9fee KEYS: Use acquire when reading state in
 fd15b457a86939c38aa12116adabd8ff686c5e51 keys: Pin request_key_auth payload in instantiate paths
 10366fe27a4ce08a392eb16ed48ea0a440e671c2 keys: request_key: replace BUG with return -EINVAL
 1b9524250996b1f2f49833a1b2ae21c34e486f85 keys: keyctl_pkey: replace BUG with return -EOPNOTSUPP
+15763c5083b4d367a2b47fa024bb630606ad49ad tpm: svsm: constify tpm_chip_ops
+86a8b0320eeb3405a997c2e5457a663bd9897800 tpm: restore timeout for key creation commands
+e2848882f2e78eb3f2fe7e5c2b45c8055e02c14f tpm: Initialize name_size_alg for non-NULL name in tpm_buf_append_name()
+44d48f9cf863c42bee25a42411696e0c82db0f5d tpm: tpm_tis_spi: Use wait_woken() in wait_for_tmp_stat()
+500837ab81c825320069f3c544fd9c078d0f7b1a tpm_crb: Check ACPI_COMPANION() against NULL during probe
+d17eb240dfb9ff0929e013fd6c08976a93d7c848 tpm: tpm_tis: store entire did_vid
+34bc0fabf1668f15b984442334923ed4b5d38fec tpm: tpm_tis: Add settle time for some TPMs
+ac397e954165d98844068a1ceedbba29611683f7 tpm: tpm2-sessions: wait for async KPP completion in tpm_buf_append_salt
+5ec7710b3195d0189fc9483e93f1aaef06884a78 tpm: tpm_crb_ffa: revert defered_probed when tpm_crb_ffa is built-in
+67c53887ebcd425f0003e7068de12eab511f80a9 tpm: fix event_size output in tpm1_binary_bios_measurements_show
 
---===============8667527563931123442==--
+--===============6168274773761338583==--
