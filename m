@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8420987369800421646=="
+Content-Type: multipart/mixed; boundary="===============0841431085102937252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 15 Jun 2026 09:44:13 -0000
-Message-Id: <178151665396.1491450.2315281106504416509@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 09:44:27 -0000
+Message-Id: <178151666730.1491731.12886523127876167296@gitolite.kernel.org>
 
---===============8420987369800421646==
+--===============0841431085102937252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 06711a7235a6e2f2bc4499dc1384c0cf3de5b188
-    new: 270bca1d65c48b4774c19f6961ad3e9b737b5694
-    log: revlist-06711a7235a6-270bca1d65c4.txt
+  - ref: refs/heads/m68k-queue
+    old: 24329a4a53fd3ed896e9f2e398f9b9d34eed8e5f
+    new: f32f823d8af9df7d9fc60025c182ff194c88d5ec
+    log: revlist-24329a4a53fd-f32f823d8af9.txt
 
---===============8420987369800421646==
+--===============0841431085102937252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06711a7235a6-270bca1d65c4.txt
+Content-Disposition: attachment; filename=revlist-24329a4a53fd-f32f823d8af9.txt
 
 48fcc895403cc97aa6c776cb65e6aa11290c0b44 mshv: add a missing padding field
 3fcf923302a8f5c0dc3af3d2ca2657cb5fae4297 hv: utils: handle and propagate errors in kvp_register
@@ -298,6 +298,15 @@ a5e98d1679809cbad0f88f1b6b60e92134d8ee13 Merge tag 'i2c-for-7.1-rc8' of git://gi
 e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 424280953322cf66314f3ba5e2d1ef345f21c770 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 8cd9520d35a6c38db6567e97dd93b1f11f185dc6 Linux 7.1
-270bca1d65c48b4774c19f6961ad3e9b737b5694 Merge tag 'v7.1'
+edff15ecceaae6d0d68c55be819a4a7f79c1de7f zorro: sysfs: Replace sprintf() by sysfs_emit()
+b363fa4eeca2a54c4298e30393dcbd384369bd7b nubus: Switch to dynamic root device
+c2a4b875f160b851a5896d7d265c56817079519d dio: Replace deprecated strcpy with strscpy in dio_init
+9ce819f035c3775256b97e6329aecd1bfd6a35fb dio: Use tabs and avoid continuation logging in dio_init
+64395053f73d7c6b52681d54540428c44c55beed dio: Update DIO_SCMAX comment
+34ddf542e945a8c38b32ccccad4917faaf042d8a m68k: hash: Use lower_16_bits() helper
+12fd945d371aea8209c575db750d5584611ddf33 m68k: Correct CONFIG_MVME16x macro name in #endif comment
+75f936ff815b7b3e98ebe225a46942b6cd2bbfb2 m68k: atari: usb: Add ISP1160 USB host controller support
+3f89e17b4b31970cb31f0a84c1d3639f6d04c3fb m68k: atari: Update Kconfig.bus help text
+f32f823d8af9df7d9fc60025c182ff194c88d5ec m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8420987369800421646==--
+--===============0841431085102937252==--
