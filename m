@@ -1,82 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 15 Jun 2026 07:33:18 -0000
-Message-Id: <178150879899.1385219.9134023975162723997@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1353988897582533389=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 15 Jun 2026 07:33:22 -0000
+Message-Id: <178150880247.1385452.1013095535835254862@gitolite.kernel.org>
+
+--===============1353988897582533389==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/refs/merge-window/2f310bb0cd7d95b7f29ffbffa8e2846aea58a7e4
-    old: 0000000000000000000000000000000000000000
-    new: a8c6a26a6e5e3a04079dafdcedc80cce0ddfe4cb
-  - ref: refs/tags/refs/merge-window/3e57ed20c0db4bc381e695c33b3235c6a948b4f8
-    old: 0000000000000000000000000000000000000000
-    new: 6dd790155331031b74204a0e5734b118b3d3e6f5
-  - ref: refs/tags/refs/merge-window/434fad0bfd31704048031688b14196f088486f6a
-    old: 0000000000000000000000000000000000000000
-    new: 429e9007a164692cdb60491cef220bbe824bc1cd
-  - ref: refs/tags/refs/merge-window/4f3ec96d69ffb78260cd04bd26a65ecfde9de6ff
-    old: 0000000000000000000000000000000000000000
-    new: a52f3422c49a2feb25edcece5e19d4773323ede4
-  - ref: refs/tags/refs/merge-window/5d822687f8e7a9ed508bb5b73fd4fa90a6f526e9
-    old: 0000000000000000000000000000000000000000
-    new: 519f476c7e04f2209666ab7a1eff1ba216e513c9
-  - ref: refs/tags/refs/merge-window/69e5cd1262043a6bfdd55693f1950119f50f0f77
-    old: 0000000000000000000000000000000000000000
-    new: e524b496f72536963ba9b156122b04b2c2c6b9dc
-  - ref: refs/tags/refs/merge-window/78fcd640d0bb2c68b3ce6a3ad583b4428310122b
-    old: 0000000000000000000000000000000000000000
-    new: ce20e990a4155f904a5a8250a389a542c1317e93
-  - ref: refs/tags/refs/merge-window/8dabae51c611444836f2bdf517511a316e46d680
-    old: 0000000000000000000000000000000000000000
-    new: 313935e7712aae6bad896ff0f5b6a77e6aad243a
-  - ref: refs/tags/refs/merge-window/90272c66977cd3593c735fe51cb0a52cc0e89077
-    old: 0000000000000000000000000000000000000000
-    new: 7851c050d359da51c8d5e0c5722256d10789ba8a
-  - ref: refs/tags/refs/merge-window/a7e15565268e294de1ce6b56f6eb3e3b6edc43ab
-    old: 0000000000000000000000000000000000000000
-    new: ff570ffb8eeb863de6ec6e8fc294c273a91e96bd
-  - ref: refs/tags/refs/merge-window/b827c43e648e8fb7728896c0eaeb088d89b2cde9
-    old: 0000000000000000000000000000000000000000
-    new: d5a487a8becf33462461f35248aadad70a1406f9
-  - ref: refs/tags/refs/merge-window/c259ae4b4ae025450466b9dc324e64daec2f75db
-    old: 0000000000000000000000000000000000000000
-    new: fbdc1d8b0a4582e3211cee46b1e18a231f34f1fe
-  - ref: refs/tags/refs/merge-window/c4231d23938e5c6e3efb8a84e45e9b41ce42c335
-    old: 0000000000000000000000000000000000000000
-    new: 7b936c817821e50b58fd3639a910c384a8a97d4c
-  - ref: refs/tags/refs/merge-window/ce05216f68127d8642f5e042288f65a554f08fd2
-    old: 0000000000000000000000000000000000000000
-    new: 22cf6aa7fe6f92e947d217b09e76d9e3fc9f7406
-  - ref: refs/tags/refs/merge-window/d125f5c03e2ad0c25ecb026c6c504c1f4f1cbc9a
-    old: 0000000000000000000000000000000000000000
-    new: 6961a9a12e9ca188d5f605218af7365a6ae3b9a8
-  - ref: refs/tags/refs/merge-window/d72f629726433dd34b82ee31359234a9e00e8c98
-    old: 0000000000000000000000000000000000000000
-    new: 7923dc7d03fb3c2741012d47a242197facf6c345
-  - ref: refs/tags/refs/merge-window/feb500dc97ab9fa92ee34b32e661d52d15b9b36a
-    old: 0000000000000000000000000000000000000000
-    new: a2339af1d66ff6d192d7b8dfce3eedd9f1c9b7b8
-  - ref: refs/tags/refs/merge-window/fef1ec39862add142fe2078106ab54ee8563a0a7
-    old: 0000000000000000000000000000000000000000
-    new: 13d279473d7d8557620373392e7b73599f04f696
-  - ref: refs/tags/refs/merge-window/ff01ee92fd1554bdb7e1df2b9532690e425f3b81
-    old: 0000000000000000000000000000000000000000
-    new: 5f5a7bc3c4a2ce71a00a1216d65beef676b6f3fe
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+  - ref: refs/heads/slab/for-next
+    old: 547a7a2a52dd1c560587ecb69a76aaa669dee02c
+    new: 800db50d47deb645c361270af659a818e93f8883
+    log: |
+         800db50d47deb645c361270af659a818e93f8883 mm/slab: add a node-track-caller variant for kmem buckets allocation
+         
+
+--===============1353988897582533389==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1781508798 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1781508797-0db6f37994bae99e92b53cb23fc11dbf2e810b47
+
+547a7a2a52dd1c560587ecb69a76aaa669dee02c 800db50d47deb645c361270af659a818e93f8883 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmovqr4bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaVksH/iO1mKpibaVfB8yVpin0
+g1GeZSfZKULgqteK2s+pox/UkwEqkBvmtlvd2IoLMb1Ku06zCx4Tm/l3GDdZ5U/Q
+rolsTWLWSpJANvXnGaViZ6uBv9L+PcJmmZ5vcfjVQiNHa6zq2F8fip/BgyjWQ4Z5
+jhVko3jmfyJ36Oo1hg3qe78/lCPADh+T1mWQuQbeL3hjnVpemRb+izr8Yxh3XeVq
+W8c2dieP+flheG1bDJIzUqkZ1KNv0mcjBWN1zxVGg83yXARSqDe5ti42PgQBeQn0
+Ff5ZuygtLSqx4dGCROpdG5OBANsTwxMMufvGKIY2fKAvHz7Q/Ipx3sVXqC8LZMgl
+UGg=
+=c8c6
+-----END PGP SIGNATURE-----
+
+--===============1353988897582533389==--
