@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 15 Jun 2026 19:27:59 -0000
-Message-Id: <178155167968.1964162.18278905503175456010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 15 Jun 2026 19:32:50 -0000
+Message-Id: <178155197023.1967983.666330769727949191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 9c36e4189e32f4b8ab1376749dda4b97e71af9af
-    new: 5297cf2b6af6970e12081e20f1a978c2bf52fd1f
+    old: d35e2950daaf8cd362beb4ecd42af2b0d9459136
+    new: cb20f6afc25b2b54c0fec61b45ac0ec9eb875d59
     log: |
-         80ec1f9d01c44768219c2842795652c6b6bb291c test-bap: Fix using BT_ISO_QOS_CIG_UNSET for CIS_ID
-         64ae65d8958e67fb65f7413ef4ceab2ad51a6b28 shared/bap: Initialize ucast/bcast IDs as unset
-         5297cf2b6af6970e12081e20f1a978c2bf52fd1f shared/bap: Don't link server ucast streams before CIS IDs are assigned
+         cb20f6afc25b2b54c0fec61b45ac0ec9eb875d59 Bluetooth: MGMT: Fix UAF of hci_conn_params in add_device_complete
          
