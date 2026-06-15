@@ -1,36 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1281020354525087366=="
+Content-Type: multipart/mixed; boundary="===============2651424760269683027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 15 Jun 2026 19:01:45 -0000
-Message-Id: <178155010599.1942686.6935548969092865069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 15 Jun 2026 19:01:57 -0000
+Message-Id: <178155011736.1942967.16405703609920825463@gitolite.kernel.org>
 
---===============1281020354525087366==
+--===============2651424760269683027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 277456fb911acbcb91a87e5331a1342b173f2fc5
-    new: 7f9003bd79606a55af339740b017db74ce0dd7e5
-    log: revlist-277456fb911a-7f9003bd7960.txt
+    old: fa7e562ec2dd5f55c944d6c38b28b296be2e5717
+    new: 6db02d855ce89504059c2125fca4baf3cb641c33
+    log: revlist-fa7e562ec2dd-6db02d855ce8.txt
   - ref: refs/heads/stable-7.2
     old: 0000000000000000000000000000000000000000
-    new: 78e3417e5f7c8b25234baadc3875ce7de109bb37
-  - ref: refs/tags/audit-pr-20260615
+    new: 033182baeab63ce96a6eb8aef1a6cd444fcf9519
+  - ref: refs/tags/selinux-pr-20260615
     old: 0000000000000000000000000000000000000000
-    new: f3c964a7f9ed27d5922df7bd272461060b11a9f4
+    new: 67472a42bb0a564ea969d7da1ba55c92bd96d44c
 
---===============1281020354525087366==
+--===============2651424760269683027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-277456fb911a-7f9003bd7960.txt
+Content-Disposition: attachment; filename=revlist-fa7e562ec2dd-6db02d855ce8.txt
 
 bdd39576bf50a50bdafe3da968fd271bc674a48f net: bridge: prevent too big nested attributes in br_fill_linkxstats()
 8c84c5ec4aaff6ad7aac49935e050fed6b360a28 net: enetc: fix incorrect mailbox message status returned to VFs
@@ -1055,6 +1055,6 @@ a5e98d1679809cbad0f88f1b6b60e92134d8ee13 Merge tag 'i2c-for-7.1-rc8' of git://gi
 e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 424280953322cf66314f3ba5e2d1ef345f21c770 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 8cd9520d35a6c38db6567e97dd93b1f11f185dc6 Linux 7.1
-7f9003bd79606a55af339740b017db74ce0dd7e5 audit: add a Linux Audit specific README.md and SECURITY.md
+6db02d855ce89504059c2125fca4baf3cb641c33 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============1281020354525087366==--
+--===============2651424760269683027==--
