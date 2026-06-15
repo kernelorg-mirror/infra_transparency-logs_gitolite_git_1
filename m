@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Mon, 15 Jun 2026 13:02:20 -0000
-Message-Id: <178152854057.1653731.11116075832964736075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 15 Jun 2026 13:11:50 -0000
+Message-Id: <178152911005.1660825.7639527901669912078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/devel
-    old: c20cdedb260e701c27e79093b1ae61610a39d602
-    new: 8b2c4f88c6ee86efdbc81bed1684e13e2efebd53
+  - ref: refs/heads/python-v2.4.x
+    old: da2d2ae66af2970983b5f5d1fbf56118cbf30ca4
+    new: e915ea6f5311a0b8d48bca1724834a58b9a35ef8
     log: |
-         8b2c4f88c6ee86efdbc81bed1684e13e2efebd53 pinctrl: Export pinctrl_get_group_selector()
+         e915ea6f5311a0b8d48bca1724834a58b9a35ef8 bindings: python: gpiod v2.4.3
          
-  - ref: refs/heads/for-next
-    old: 52e80f912d314732903388e0a144fd6ea9a6602f
-    new: 3bd25818aebd8dc6cdc44cb9356a539e98a76c6c
-    log: |
-         8b2c4f88c6ee86efdbc81bed1684e13e2efebd53 pinctrl: Export pinctrl_get_group_selector()
-         3bd25818aebd8dc6cdc44cb9356a539e98a76c6c Merge branch 'devel' into for-next
-         
+  - ref: refs/tags/python-v2.4.3
+    old: 0000000000000000000000000000000000000000
+    new: e8a8b13cdf3cea2fffd41d254975955694733647
