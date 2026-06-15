@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 15 Jun 2026 09:58:34 -0000
-Message-Id: <178151751459.1503917.8490024951982364990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 15 Jun 2026 10:01:48 -0000
+Message-Id: <178151770881.1507311.16166074896286711435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
+  - ref: refs/heads/master
+    old: 265fd45d2510922b46ea381c714a599913f34e0a
+    new: acb0682a57ac11bed37b0c24a5f11c8854ba726f
+    log: |
+         acb0682a57ac11bed37b0c24a5f11c8854ba726f fsck.minix: bound namelen guessed in get_dirsize
+         
