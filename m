@@ -1,25 +1,39 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Mon, 15 Jun 2026 10:40:32 -0000
-Message-Id: <178152003278.1536985.4944625474144573861@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7159738832163264117=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 15 Jun 2026 10:44:24 -0000
+Message-Id: <178152026402.1538680.15069264979558272706@gitolite.kernel.org>
+
+--===============7159738832163264117==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/ntfs-next
-    old: b00f7972a9a9e5e54daeb69bb45ed7ac411978c5
-    new: 3802a666f37255cc8ddc5647390e6c590b947065
-    log: |
-         05a5ff86a7f12c861e3516d3dc4d092ce620742d ntfs: fix incorrect size of symbolic link
-         517cd625ad79b8bfa429092ad1536ee2dd477e68 ntfs: support following Windows native symlink with relative paths
-         2b58f93a131373117cfea02843f69a02b67a6664 ntfs: support following Windows native symlink with absolute paths
-         115446b06fb725ba04e0f2ae5174029d2c60cad6 ntfs: add native_symlink mount option
-         7266767f67e0fbf343b4ce67cb437fe4024fc55f ntfs: clean up target name conversion for WSL symlinks
-         d8f1df2e133f203cae3f458cba44efa327b093d9 ntfs: support creating Windows native symlinks
-         3802a666f37255cc8ddc5647390e6c590b947065 docs/fs/ntfs: add mount options to support Windows native symbolic links
-         
+  - ref: refs/heads/master
+    old: 5a8a117be8757d81b8871d83b4442bf5dd368a29
+    new: 37e2be6956a9cfd6fcd0caf1471fa46f6397160c
+    log: revlist-5a8a117be875-37e2be6956a9.txt
+
+--===============7159738832163264117==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5a8a117be875-37e2be6956a9.txt
+
+462bdd08fbdf41db223c6117d907c8fd68d666ea udf: fix nls leak on udf_fill_super() failure
+764e77d868a5b932c709e20ddb5993f9111a841c Merge tag 'locking-core-2026-06-14' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+d8d706a27451c015490d23b4f4764de05e553624 Merge tag 'objtool-core-2026-06-14' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+0bcc2dc22f38e57fa97d8238b2e0bcdde5376f33 Merge tag 'perf-core-2026-06-14' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+2cbf335f8ccc7a6418159858dc03e36df8e3e5cf Merge tag 'sched-core-2026-06-14' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+7561361d7655828d50482cd9e80fa3bf73d9c92e Merge tag 'x86-msr-2026-06-14' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+ff5ccdb8d5bd242f1064c6f7996603e47e28d095 Merge tag 'x86-cpu-2026-06-14' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
+0e0611827f3349d0a2ac121c023a6d3260dcecdb Merge tag 'pull-fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/viro/vfs
+37e2be6956a9cfd6fcd0caf1471fa46f6397160c Merge branch 'linus'
+
+--===============7159738832163264117==--
