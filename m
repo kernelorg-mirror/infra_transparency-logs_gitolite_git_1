@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 15 Jun 2026 22:46:47 -0000
-Message-Id: <178156360744.2123211.364110738007452002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 15 Jun 2026 22:47:36 -0000
+Message-Id: <178156365617.2123727.15798503196411732857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f3d64e53998aad11abceeeea1d7fe4e563770598
-    new: c66f8511a8109fa50767941b26d3623e316fde02
+    old: a061dfb063fa03ed09cf21145ffff247cf94721a
+    new: 952d66f16dcd0d7c24b3187e79a292549ef83bf0
     log: |
-         c66f8511a8109fa50767941b26d3623e316fde02 net: airoha: Fix always-true condition in PPE1 queue reservation loop
+         952d66f16dcd0d7c24b3187e79a292549ef83bf0 net/mlx5: HWS: correct CONFIG_MLX5_HW_STEERING macro name in comment
          
