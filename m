@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Mon, 15 Jun 2026 08:10:59 -0000
-Message-Id: <178151105925.1418076.16111262784020698033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 15 Jun 2026 08:11:36 -0000
+Message-Id: <178151109606.1418465.16633182681951262632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/dma-contig-for-7.1-modules-prep-v4
-    old: 7e72a8f8bb0d5ba89027d64e3e2aad1984d2e20d
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/gpio-updates-for-v7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: aa9ff14e755ea5436c66b84effc3e1f5c19a7c99
