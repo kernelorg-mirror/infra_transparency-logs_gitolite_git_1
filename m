@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Mon, 15 Jun 2026 04:20:05 -0000
-Message-Id: <178149720529.1246921.14219408567552085988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 15 Jun 2026 04:27:42 -0000
+Message-Id: <178149766212.1251948.14810926828233854762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/nilfs2-v7.2-tag1
-    old: 0000000000000000000000000000000000000000
-    new: d8be773360e87c6673fa7a8291921c291d0e4c6e
+  - ref: refs/heads/master
+    old: 05ae621d4e3c7bfdcc0a4eef1d66eccfc789ee62
+    new: 1f32c0d619d996b395f36a920f58159949be922a
+    log: |
+         1f32c0d619d996b395f36a920f58159949be922a selftsets/bpf: Retry map update on helper_fill_hashmap()
+         
