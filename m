@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5572573744817081137=="
+Content-Type: multipart/mixed; boundary="===============4816707501115644611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 15 Jun 2026 17:52:27 -0000
-Message-Id: <178154594728.1885767.3140649125726675472@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 17:52:30 -0000
+Message-Id: <178154595006.1885932.18127349868119357110@gitolite.kernel.org>
 
---===============5572573744817081137==
+--===============4816707501115644611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0aa05daef7848a5ac11158949dc73cd741995dc1
     new: 47186409c092cd7dd70350999186c700233e854d
     log: revlist-0aa05daef784-47186409c092.txt
 
---===============5572573744817081137==
+--===============4816707501115644611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -349,4 +349,4 @@ acd7df8d955480a6f6e5bb809da67b1500cc3cf4 tipc: restrict socket queue dumps in en
 a4004aa0debf6ba953a023c30e775668eaee4047 selftests/tc-testing: Verify IFE can handle truncated inner Ethernet header
 47186409c092cd7dd70350999186c700233e854d kcm: use WRITE_ONCE() when changing lower socket callbacks
 
---===============5572573744817081137==--
+--===============4816707501115644611==--
