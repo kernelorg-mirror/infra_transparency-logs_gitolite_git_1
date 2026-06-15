@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3456577451053154332=="
+Content-Type: multipart/mixed; boundary="===============4451299095573734575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 15 Jun 2026 02:26:08 -0000
-Message-Id: <178149036838.1156437.13070204375589474713@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 02:26:26 -0000
+Message-Id: <178149038662.1156895.8525456098858385283@gitolite.kernel.org>
 
---===============3456577451053154332==
+--===============4451299095573734575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 174914ea551314c52a61713b9c4bde9e42d48073
-    new: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
-    log: revlist-174914ea5513-8cd9520d35a6.txt
+  - ref: refs/heads/module_version_removal
+    old: 4dffb88384fd33974ae45bacf9f6c5b9457e4202
+    new: 1033eef6ffdb7c8f4f81097a92a2b1496d608e3d
+    log: revlist-4dffb88384fd-1033eef6ffdb.txt
 
---===============3456577451053154332==
+--===============4451299095573734575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781490309 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781490314 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1781490365-416572cf25ffe6dbf9374f44ece86f0918680e26
+nonce 1781490369-007c45af2c0a8a9e9d5b928770dac2a50de14671
 
-174914ea551314c52a61713b9c4bde9e42d48073 8cd9520d35a6c38db6567e97dd93b1f11f185dc6 refs/heads/main
+4dffb88384fd33974ae45bacf9f6c5b9457e4202 1033eef6ffdb7c8f4f81097a92a2b1496d608e3d refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmovYoUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JyYP/RvSQtVu+JLZV0wVRHhJ
-SRxcEJMWTBYaeq14MYXOfmQralYJsIOwxGUJW9upfUg1X3tt4n/RBuZ4skeo+OfM
-c/OCMh0yEdKrjNlaZSbw5W90T+Pti/FXzaya0JlM9GuccEAtMsQYPc+f5pEa1/gI
-gs5ZRshowADhWr1c7HdlpG/e9stUoeOPZALqWy64pNNBywbtrJoWNn4dRWdFIQ/L
-4RSK6eWDD5VjplODo1xVsBa1qInnM3gX39j1zcxnv+PHsANeDPIwe+mZbl6PfHmB
-ZFW1cuGNzn8ZR3mAl3DLFoTnO7UyDCmBtJrnkffJ7qb8Kjmt26cSqA//CUVeTpjD
-TxnR7dxVF9hhuQzQ23sW1wfKNnojN1VBUVQT69eZ27FUC2u4tJNQzJc8KAWCUJ3Z
-D5ZeVN2Uy+ThUKrnsvf+ZJEgDW4TFdW5ReJb0rP9hD+bDyc3/hYqiojHCuYXRVuM
-s9dMm2TtcPidbywcof1nef+DDofmBr9NTXB9AfsHqePcL5LXkPowKDsqZhmEcpll
-WHhfuq5m19Tu4evCucRviJGvmXVyGEaYgapEhmFiWyEYAB/9xwfusTlxgNjZyVHw
-F2mnjtFlo8PbkaunU2MFbRgChZAtCHgum429FcIHYV9M7exyvgIUe5JjO9G8ii2s
-T2+CKokOCG5yv4ceXWQTIGvV
-=2Esk
+iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmovYoobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kAMP+KbaTgQS4cqXHm4t6b+J
+eKkEHyuUDCAB+OPh64HuhS9b4HSueUNZXUqlyqKumms5Cfz9UzRbzaVIU2cnUN7a
+tKfOGWc3Dtp1JzBWv0IM+QrOO7hvNgoODZoqZaKIIqOWbm31oau25VPnwICf/B75
+achXYJiiQI+V3GTFmFNqC3jDE+OkuoARgA5vB1+Jlahm+rQsNlpeD1ujIDUWhsTZ
+3u6huPKzYvczJXD2Hwet1HhwA7INkfHSh20M4QfgGHGx7Bowu/eQZAIPVWmx67EE
+V6jJau8h28STg7v+iKHhYljjdgDBEecIy8KV9PBPWNF/XUd2JRj8oe4aKp1lWYnp
+q783S+xyl94uCtuXlLGiRhzSzhCTasiUSzK6ZcwF2UyriKei2gWMnVnXObkIAPcx
+wWUhqIFqvdLltSDKxMW/POzfrgEcJVkmWYVYwZD/U5POxkK1sm+x4vDzU6ZFLYOJ
+hWAm97si6MvZznl8xqTtgYiXQ5c3+uavX3ffphB0CN3AoumS/XkhoEEVJtRK7RAE
+FK4Kl57NXC8IQx9/aWOdlDJ5xMu31BCnmYWu7ne+vE+NWDFQNiDVEK0TMH4N9q+9
+/zSsexha5RVFdNDf5VUcFm99EmUA9n1z1gf2sVJNgnxHMeNMDLFvmZOLS8hdzbkk
+KHBpus/s5uTsu/4NajD976w=
+=0uA3
 -----END PGP SIGNATURE-----
 
---===============3456577451053154332==
+--===============4451299095573734575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-174914ea5513-8cd9520d35a6.txt
+Content-Disposition: attachment; filename=revlist-4dffb88384fd-1033eef6ffdb.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
@@ -700,5 +700,6 @@ a5e98d1679809cbad0f88f1b6b60e92134d8ee13 Merge tag 'i2c-for-7.1-rc8' of git://gi
 e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 424280953322cf66314f3ba5e2d1ef345f21c770 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 8cd9520d35a6c38db6567e97dd93b1f11f185dc6 Linux 7.1
+1033eef6ffdb7c8f4f81097a92a2b1496d608e3d module: remove MODULE_VERSION()
 
---===============3456577451053154332==--
+--===============4451299095573734575==--
