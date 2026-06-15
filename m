@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8127523774152924258=="
+Content-Type: multipart/mixed; boundary="===============0546334006408216361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 15 Jun 2026 21:27:14 -0000
-Message-Id: <178155883421.2061880.70787479062460059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 15 Jun 2026 21:27:31 -0000
+Message-Id: <178155885176.2062274.18196789968368835579@gitolite.kernel.org>
 
---===============8127523774152924258==
+--===============0546334006408216361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 44543bb53ebfecb5ce4e890053a666affab9e482
     log: revlist-ecec76ccbdba-44543bb53ebf.txt
 
---===============8127523774152924258==
+--===============0546334006408216361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c722e8ff94ffc5749b469d12dbd9218354ff37bc perf tools: Use snprintf() for root_dir
 d5b3062487cdd6a8034f820fe32386f5f1f2a693 perf c2c: Free format list entries when releasing c2c hist entries
 44543bb53ebfecb5ce4e890053a666affab9e482 perf cs-etm: Reject CPU IDs that would overflow signed comparison
 
---===============8127523774152924258==--
+--===============0546334006408216361==--
