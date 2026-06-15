@@ -1,47 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============4014266628822920023=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 15 Jun 2026 17:59:41 -0000
-Message-Id: <178154638105.1890736.12387505638727018833@gitolite.kernel.org>
-
---===============4014266628822920023==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 15 Jun 2026 18:08:04 -0000
+Message-Id: <178154688428.1898533.5518037748035895891@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 474350a3035537184556061872e9e905b47774ca
-    new: 793ff8df85d09648d832a7f24fa02be6a73f7485
+    old: f70f7f2512c6b9113dc78f6a25361166afd1412e
+    new: 3b7686310806b89098cb61b5f9a3672bea4eabbd
     log: |
-         b1688fe1a4155284702a5fa86ea9b240c488f280 review: update sashiko integration to current finding schema
-         793ff8df85d09648d832a7f24fa02be6a73f7485 review: auto-detect prior list trailers to mark patches done
+         5d31430fc20880911b0c786b242c685e7599e4e8 Bluetooth: btusb: Add new VID/PID 0x0489/0xe156 for MT7902
+         3b7686310806b89098cb61b5f9a3672bea4eabbd Bluetooth: hci_uart: clear HCI_UART_SENDING when write_work is canceled
          
-
---===============4014266628822920023==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1781546380 +0000
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1781546379-0fb2a9f7ba46b64b4c0fbbb8542c02a5ddaf4e41
-
-474350a3035537184556061872e9e905b47774ca 793ff8df85d09648d832a7f24fa02be6a73f7485 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCajA9jAAKCRC2xBzjVmSZ
-bOB/AP9xeGG3bBOcDVr9m24ICwJOySzRqfLMGwRgU4gbXTM4XgD/SDjsIpnRRAQ+
-hfqE2/zM9eumaXnsHWrHnvaIBEdOSwg=
-=COcy
------END PGP SIGNATURE-----
-
---===============4014266628822920023==--
