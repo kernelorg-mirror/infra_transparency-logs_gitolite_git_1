@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4451299095573734575=="
+Content-Type: multipart/mixed; boundary="===============8210771841839467710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 15 Jun 2026 02:26:26 -0000
-Message-Id: <178149038662.1156895.8525456098858385283@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 02:26:45 -0000
+Message-Id: <178149040535.1157228.9524700174790685935@gitolite.kernel.org>
 
---===============4451299095573734575==
+--===============8210771841839467710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 4dffb88384fd33974ae45bacf9f6c5b9457e4202
-    new: 1033eef6ffdb7c8f4f81097a92a2b1496d608e3d
-    log: revlist-4dffb88384fd-1033eef6ffdb.txt
+  - ref: refs/heads/readfile
+    old: 3d90f41e0dc73f4639da856d99bef60215b6bd13
+    new: 4b1edc1a2323e8d6ab7cbeaedef66356a5e7af4b
+    log: revlist-3d90f41e0dc7-4b1edc1a2323.txt
 
---===============4451299095573734575==
+--===============8210771841839467710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781490314 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781490332 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1781490369-007c45af2c0a8a9e9d5b928770dac2a50de14671
+nonce 1781490388-e03f7eade0310bcff4a9ec49892489365f70b8c4
 
-4dffb88384fd33974ae45bacf9f6c5b9457e4202 1033eef6ffdb7c8f4f81097a92a2b1496d608e3d refs/heads/module_version_removal
+3d90f41e0dc73f4639da856d99bef60215b6bd13 4b1edc1a2323e8d6ab7cbeaedef66356a5e7af4b refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmovYoobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kAMP+KbaTgQS4cqXHm4t6b+J
-eKkEHyuUDCAB+OPh64HuhS9b4HSueUNZXUqlyqKumms5Cfz9UzRbzaVIU2cnUN7a
-tKfOGWc3Dtp1JzBWv0IM+QrOO7hvNgoODZoqZaKIIqOWbm31oau25VPnwICf/B75
-achXYJiiQI+V3GTFmFNqC3jDE+OkuoARgA5vB1+Jlahm+rQsNlpeD1ujIDUWhsTZ
-3u6huPKzYvczJXD2Hwet1HhwA7INkfHSh20M4QfgGHGx7Bowu/eQZAIPVWmx67EE
-V6jJau8h28STg7v+iKHhYljjdgDBEecIy8KV9PBPWNF/XUd2JRj8oe4aKp1lWYnp
-q783S+xyl94uCtuXlLGiRhzSzhCTasiUSzK6ZcwF2UyriKei2gWMnVnXObkIAPcx
-wWUhqIFqvdLltSDKxMW/POzfrgEcJVkmWYVYwZD/U5POxkK1sm+x4vDzU6ZFLYOJ
-hWAm97si6MvZznl8xqTtgYiXQ5c3+uavX3ffphB0CN3AoumS/XkhoEEVJtRK7RAE
-FK4Kl57NXC8IQx9/aWOdlDJ5xMu31BCnmYWu7ne+vE+NWDFQNiDVEK0TMH4N9q+9
-/zSsexha5RVFdNDf5VUcFm99EmUA9n1z1gf2sVJNgnxHMeNMDLFvmZOLS8hdzbkk
-KHBpus/s5uTsu/4NajD976w=
-=0uA3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmovYpwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hx8P+gKEId+iVDAIYSx/MDrt
+fe+UQq6/iV3oMTb3bdRwUGn/5hwGgh6/OQFiXDrkCkGC1kHjBi2OoQYZ8zbslm3G
+zgTeLy0cBC7PAEmRcQOD8aZz6m3lfDXQZsp9oTnDPL3BpJCjfOeid2o7RPb/B9J+
+nirseWHEES7QCFfNWhmNCLsxL4oDkoJqodO2VEemzqKXIr2UY5HlnXcu6g2gvrkw
++CB7FvWnZohpVXz/c/2u5NDvN+H13THs4FOBUrSiXl6+JD21Whe5Lt2PdDalDMEh
+yBaj8Fy9I3KVVAku53RqhNu+QwiASBGiQHglGbPAuywXrmz0lOnHN0tT4FzVFdJJ
+iWHifDQ6ht3lsgm02xIExxsnnMwd7NWuhkkntXpN50EwnWRPByQeDr2dU+DTDBWP
+m0e7WWQO0xHm3SrytizYVdjeikuAu2KkaHvynaFD36RJ0I6gKUUbBoPWPs3DvtuN
+XIbhcVb4Sejuv1TC02d5K+7xVf7QdVpnBi2oY0rmcdowPLRZAnFU+FMw+bfwmRXN
+l3+txt70eqCutEfVFZINUMVLGZwus/1vndxJpQklwrtZGIDWH0EdvfU5laTe+gjP
+7NcigrKMLWF1BegpqiPMQJHmxdQjYzntpHSHhdIaAd7dXfl61UvufBi8iPD0fe4n
+o7zeCwe30hNbUEYNntsc33Wy
+=V6l+
 -----END PGP SIGNATURE-----
 
---===============4451299095573734575==
+--===============8210771841839467710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dffb88384fd-1033eef6ffdb.txt
+Content-Disposition: attachment; filename=revlist-3d90f41e0dc7-4b1edc1a2323.txt
 
 387a926ee166814611acecb960207fe2f3c4fd3e tee: optee: prevent use-after-free when the client exits before the supplicant
 96fe420bebc159599fb8da1080e9ff207bdb650a Input: elan_i2c - add ic type 0x19
@@ -700,6 +700,9 @@ a5e98d1679809cbad0f88f1b6b60e92134d8ee13 Merge tag 'i2c-for-7.1-rc8' of git://gi
 e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 424280953322cf66314f3ba5e2d1ef345f21c770 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 8cd9520d35a6c38db6567e97dd93b1f11f185dc6 Linux 7.1
-1033eef6ffdb7c8f4f81097a92a2b1496d608e3d module: remove MODULE_VERSION()
+fc397a0f49fc751e9ff16f57d9b76949c8378d7c readfile: implement readfile syscall
+bfbe8c58b21f962f1fdb1a286909e365b1847c52 arch: wire up the readfile syscall
+1ab8767fd6449dc99078cc5a4b4f6f0d19e8206b readfile.2: new page describing readfile(2)
+4b1edc1a2323e8d6ab7cbeaedef66356a5e7af4b selftests: add readfile(2) selftests
 
---===============4451299095573734575==--
+--===============8210771841839467710==--
