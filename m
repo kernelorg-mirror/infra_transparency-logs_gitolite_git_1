@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 15 Jun 2026 12:49:53 -0000
-Message-Id: <178152779304.1643405.4728769039787954482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 15 Jun 2026 12:59:19 -0000
+Message-Id: <178152835976.1650588.8322153059248674364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/renesas/n1d/enablement
-    old: f3c6fb453030a2ba9f0a8d4d8519502a3e4aeab3
-    new: 24c505a066e1d19f495fd74d8427a7584c8d88e6
+  - ref: refs/heads/for-7.1/upstream-fixes
+    old: b7799c3b6aa8f08dd9918eb4637af4ac21cf90f2
+    new: 6df6b1f2c49678211f65647c300bc51dda02893b
     log: |
-         24c505a066e1d19f495fd74d8427a7584c8d88e6 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable SPI-FRAM
+         6df6b1f2c49678211f65647c300bc51dda02893b HID: hidpp: fix potential UAF in hidpp_connect_event()
+         
+  - ref: refs/heads/for-next
+    old: 1c7186b3dd58291115bda5e287c12fc35beb411d
+    new: cf2fe24797e2065e72c7c0ae33b16cafcf335c74
+    log: |
+         6df6b1f2c49678211f65647c300bc51dda02893b HID: hidpp: fix potential UAF in hidpp_connect_event()
+         cf2fe24797e2065e72c7c0ae33b16cafcf335c74 Merge branch 'for-7.1/upstream-fixes' into for-next
          
