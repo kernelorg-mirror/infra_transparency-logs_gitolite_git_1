@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 15 Jun 2026 17:48:40 -0000
-Message-Id: <178154572080.1881181.16290746727450815063@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 17:49:11 -0000
+Message-Id: <178154575183.1881596.16980367295154549560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 81b78d80441324daac6b0c773841a4ebfa68579a
+  - ref: refs/heads/perf-tools-next
+    old: 8ab2dc6614e27e88520ae0010284254dd7b0e4c2
     new: ecec76ccbdbac0070bc5dcb8f78bab5dab10204f
     log: |
+         81b78d80441324daac6b0c773841a4ebfa68579a perf test: Truncate printed test descriptions dynamically to avoid terminal wrapping
          77b12eb20bb8ea471d7b0a245ef0eac52fdacf43 perf test: Compile named_threads workload with -O0
          16d1100738d05f36e00cb456fc5be806ee73f6dd perf stat: Fix false NMI watchdog warning in aggregation modes
          2a6cea650b1a35a778449ad426c0c584d882819f perf maps: Add maps__mutate_mapping
