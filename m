@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4425759223324935313=="
+Content-Type: multipart/mixed; boundary="===============4341154633930871330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 15 Jun 2026 20:16:14 -0000
-Message-Id: <178155457423.2004648.8243379434286605663@gitolite.kernel.org>
+Date: Mon, 15 Jun 2026 20:16:41 -0000
+Message-Id: <178155460141.2004967.9202691079286427595@gitolite.kernel.org>
 
---===============4425759223324935313==
+--===============4341154633930871330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 9415471e01c1aaac43daa6af3a261dc0c6c3a47c
+  - ref: refs/heads/1GbE
+    old: 4130e2d841f76b98c5f6381316f31f4ddca8e0d2
     new: 0399e685927a4d1bc310771735b0c8780ddf1cab
-    log: revlist-9415471e01c1-0399e685927a.txt
+    log: revlist-4130e2d841f7-0399e685927a.txt
 
---===============4425759223324935313==
+--===============4341154633930871330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9415471e01c1-0399e685927a.txt
+Content-Disposition: attachment; filename=revlist-4130e2d841f7-0399e685927a.txt
 
 7068c379cf9aa8afe4dce4d9d82390187aa9c4d0 wifi: rtw89: fix wrong pci_get_drvdata type in AER handlers
 d603f2cfa623e9446b44d0c9bcc2cdd92cbda594 wifi: rtlwifi: rtl8821ae: Remove dead code in rtl8821ae_update_hal_rate_table()
@@ -979,4 +979,4 @@ f1e13d23e0c8ff5fcbde34c079fbc015475fc3f5 devlink: Warn on resource ID collision 
 9361bff6bdb743dabe69d71fa1b8be69575d5b0c selftests/vsock: skip vng setsid workaround on >= 1.41
 0399e685927a4d1bc310771735b0c8780ddf1cab Merge branch 'selftests-vsock-improve-vng-version-and-quirk-handling'
 
---===============4425759223324935313==--
+--===============4341154633930871330==--
