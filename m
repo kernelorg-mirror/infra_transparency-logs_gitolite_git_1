@@ -1,24 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 16 Jun 2026 16:02:10 -0000
-Message-Id: <178162573014.2961884.12134021120708200238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 16 Jun 2026 16:07:15 -0000
+Message-Id: <178162603517.2966119.6765336697947824895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: e1f544466b2c6c67e70e42118a7fb39cee0b374a
-    new: ffaf8967735e7271a4a1362840bcfbbf2a7a722b
+  - ref: refs/heads/block-7.2
+    old: 4f919141be38ea2b1314e3a531b7b998eb64e8bc
+    new: 9cbbac29d752fb5d95e375fa3685a359b89caa0a
     log: |
-         460e6486617c17dd19abe8f3fc67d9a6fa25f8ca tls: reject the combination of TLS and sockmap
-         79511603a65b990bed675eb4bcfd85305d3ff42a tls: remove dead sockmap (psock) handling from the SW path
-         faf89584e436d737ba4e64fe021e83d5665e7bd5 selftests/bpf: remove sockmap + ktls tests
-         6af8971d910ec80d7ed33e41a68b86c08142df08 selftests/bpf: drop the unused kTLS program from test_sockmap
-         5949a7cf11e685dd171e33586c272dfe673310b6 selftests/bpf: test that TLS crypto is rejected on a sockmap socket
-         ffaf8967735e7271a4a1362840bcfbbf2a7a722b Merge branch 'tls-reject-the-combination-of-tls-and-sockmap'
+         9cbbac29d752fb5d95e375fa3685a359b89caa0a block: Remove redundant plug in __submit_bio()
+         
+  - ref: refs/heads/for-next
+    old: a8c07af9617dcb7782c2a02b0081d978f37867b2
+    new: a44d6417f6542266699e26e5390bb1f9957347a3
+    log: |
+         9cbbac29d752fb5d95e375fa3685a359b89caa0a block: Remove redundant plug in __submit_bio()
+         1fe703cc708f19209ae8e6261247483db723c221 io_uring/register: preserve SQ array entries on resize
+         ef124458501df71b58776ec6ac439acc411c74f2 Merge branch 'block-7.2' into for-next
+         a44d6417f6542266699e26e5390bb1f9957347a3 Merge branch 'io_uring-7.2' into for-next
+         
+  - ref: refs/heads/io_uring-7.2
+    old: bdc2fc388c348ee14b4f984ff75f2ea440cefd44
+    new: 1fe703cc708f19209ae8e6261247483db723c221
+    log: |
+         1fe703cc708f19209ae8e6261247483db723c221 io_uring/register: preserve SQ array entries on resize
          
