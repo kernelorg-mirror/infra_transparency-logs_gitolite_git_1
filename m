@@ -1,50 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0109629607046530134=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
 Date: Tue, 16 Jun 2026 15:56:36 -0000
-Message-Id: <178162539610.2956969.13225221771214877738@gitolite.kernel.org>
-
---===============0109629607046530134==
-Content-Type: text/plain; charset="us-ascii"
+Message-Id: <178162539640.2957018.16750456796883917943@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/regmap-7.2
-    old: 34808ac8ddafc3e2c2a59e84eaab0a410e7a0fdc
-    new: 9108f7fa493b4c88cbc09503e0c164244456bad5
+  - ref: refs/heads/rxrpc-fixes
+    old: fbc6a80cb5d3fd4ac4b56e8c9d791dd17be890c4
+    new: c10bb51cdba114ba8d5669cd5ca4465757515982
     log: |
-         9108f7fa493b4c88cbc09503e0c164244456bad5 regcache: Do not overwrite error code when finalizing cache after error
+         1b42a8887bfb4dd9f8aa94b4fc3810c0a609c566 rxrpc: input: reject ACKALL outside transmit phase
+         76b4921a274c98e720e2e74224127fb8f6507413 rxrpc: Fix leak of connection from OOB challenge
+         e317ccb16d015de0bc0bca39fc9946b617d3250d rxrpc: Fix double unlock in rxrpc_recvmsg()
+         1790756b12f3127cfd45bd26c1ab2aab454adc89 afs: Fix further netns teardown to cancel the preallocation charger
+         c10bb51cdba114ba8d5669cd5ca4465757515982 afs: Fix uncancelled rxrpc OOB message handler
          
-
---===============0109629607046530134==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1781625394 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1781625393-58312316795fa844bdecd47594d2a674e64192dd
-
-34808ac8ddafc3e2c2a59e84eaab0a410e7a0fdc 9108f7fa493b4c88cbc09503e0c164244456bad5 refs/heads/regmap-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmoxcjIACgkQJNaLcl1U
-h9AX4Qf/Tklfe5QJldTLLUU0i64sUBrZb4ybLpZ3+sson22SvURz4VdtQRhTZfwb
-lhrXYvCq1XjwhJeqloNbUmZ63D0CB/YtZ8dAyNnLPhCRxO2E8iZQa71Jt7i5x1mL
-tf/WvYVWa5f1YDId3dVJiTi83IG+RcJQ2jOM03avUzgTK5n1Y5505cLoURx81tDB
-bokrHz7FmbjMLYSXR6f38LnYuZKlUMKtzhEjp0daSHTWynkpTvUs6/fq0xuvvtIk
-XvXsPNEnszL3s0v01obtn+AqLjKpAFySSWp5UpeTqN68AGkxSE/VmVMjl1H0jf4Q
-rAPl+gQMpb/Gl4MeCIaKczEv/qd7Ug==
-=xPyn
------END PGP SIGNATURE-----
-
---===============0109629607046530134==--
