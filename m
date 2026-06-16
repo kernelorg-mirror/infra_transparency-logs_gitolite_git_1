@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 16 Jun 2026 06:24:18 -0000
-Message-Id: <178159105875.2475659.1613970113133369409@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6553288412751125667=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 16 Jun 2026 06:24:40 -0000
+Message-Id: <178159108031.2475985.15669532735190841535@gitolite.kernel.org>
+
+--===============6553288412751125667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2984c353621248a0123444a8e54fefca8c45a72d
-    new: ae39969fa4988159dc10517caf153b748a2c77ce
+  - ref: refs/heads/gregkh-fm
+    old: 00cb7dd7f6e462ab15d4f9c8c6a9ff76d3af8f6e
+    new: f93307ed363e1a5b50358c2904d2c5998b3cec1a
     log: |
-         9ae312a6568681931a4fd644f84d74847fa0dbd8 patches/next: add secs_to_jiffies() change from Philippe
-         705a6c91c821eb1d3a192d6ad38f2d869d9950ec patches/next: more damon_prep works
-         06e3f7edee866c5c1d4f21bb720e6416379522d9 patches/next: add more damon_ctx fields as private
-         55704b60a1964bf6e513fd63f7787ae5393fd3fe patches/next: move kobject_del() fixes to head of the queue
-         d2ccb2be463be97285411e9c0dde2666b931d250 patches/next: squash kobject_del() fixes for common Fixes
-         a6b9ce9013aed990daa662d9e83c2c56686ea937 patches/next: order kobject_del() fixes based on broken commits
-         cdcc37250e916d3e1da80b1c2680010abfa26410 patches/next: writeup kobject_del() fix cover letter
-         ae39969fa4988159dc10517caf153b748a2c77ce patches/next: add kobject_del() issue reproduction step
+         f93307ed363e1a5b50358c2904d2c5998b3cec1a tools: add affected_functions
          
+
+--===============6553288412751125667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781591017 +0530
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1781591077-65613a83d29f6d48c246f6ddf0c45182f0c5e11b
+
+00cb7dd7f6e462ab15d4f9c8c6a9ff76d3af8f6e f93307ed363e1a5b50358c2904d2c5998b3cec1a refs/heads/gregkh-fm
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmow6+kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++PMQALoFNmY07VKvoDXjYwbx
+Was9pV2LpzR3czFZ+VNOwbNoIH+4x0IV2tPg/bQC+6ixMranRCVDWPYWN7nWBp6Q
+NXp338vvF84iSiKMDwU57rqO6Bng40QmeZ822uI4OlzU+WYGY+A/n39+tSWg5Ybn
+BJK5+EXQzGScjRkSk5ntUiC3HjZ3mBHQ8z+/O/73WdKKu+fHJOdx6JaUA4RbsiNK
+4ByjzMaTkZ/55Vfa0DJUiD2CKpPrlAh1ez006fynK4tWDf0Vwln8vQtNq3j1nnrU
+UyruNXilnmE02ynuZ6TTP8Y9leM2sdhm5HmnZkjaReOr8sTQwzyvphi7fGgpqb1Z
+K1J+ocU6q/aY1iiMl5f8EZtaZwMNXhvJrx8VTqmr9S9hUEs5WBQTZrM+QTYnhDMW
+BRJ3bL5eDGZPIGqjtkWoQt0gDhY+cdvYYk+igojtufY7t9awW6Ndoms/ipwRoE1n
+bGfXrk0DNPav8/ZTwOn2HnqB7cuDWeTCOlx7wNOOXNrV8w56jGNBTMNGXpQg7FYv
+87qXWbCdmz6H5CGei+Yx94IoTTQ9qdqbP7ETgGlTmv0UUWtX7ialofDgNpUe/xIw
+T9VjepbVrh3ggnywy5fB6mCwPi3zm59TM/UaXe54JWanntzh+52IrteQkH2vWEu2
+J9ki3wSTNgaMp3sGswuWTJKt
+=T2pG
+-----END PGP SIGNATURE-----
+
+--===============6553288412751125667==--
