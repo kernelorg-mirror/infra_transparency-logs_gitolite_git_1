@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 16 Jun 2026 11:06:27 -0000
-Message-Id: <178160798789.2687595.11290252181324567020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 16 Jun 2026 11:06:33 -0000
+Message-Id: <178160799328.2687794.1108939647853946410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/tags/v6.1.175-cip57-rebase
-    old: 0000000000000000000000000000000000000000
-    new: ab7e81e3107dd5894f0f3fe7506b0a830f86a9f9
+  - ref: refs/heads/cleanup
+    old: 99881c991d8af05003b42e3cd761408234dce981
+    new: c552e27773dcf62a8f7ef2d5b2920908be87e2f8
+    log: |
+         c552e27773dcf62a8f7ef2d5b2920908be87e2f8 ceph: use fscrypt_finalize_bounce_page() for cleanup
+         
