@@ -1,56 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============2364662998661229027=="
+Content-Type: multipart/mixed; boundary="===============9059471270633982691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 16 Jun 2026 05:27:15 -0000
-Message-Id: <178158763516.2430249.13479554382148258565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 16 Jun 2026 05:28:00 -0000
+Message-Id: <178158768082.2430699.14801452160192344328@gitolite.kernel.org>
 
---===============2364662998661229027==
+--===============9059471270633982691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: a73a4789e82c4c078930742526ec97c9cad00d95
-    new: f342f63da35fc225d046771a4b3657fda0aef152
+  - ref: refs/heads/merge
+    old: 21ea7a68c5c1999cee9da55759a366576a838bbb
+    new: f663b98ecac3810f1d3804ca896a75b3180a8a09
     log: |
-         f342f63da35fc225d046771a4b3657fda0aef152 6.1-stable patches
+         97f902dd4c99f8d085da5343dc58ae4f6ce7bdd9 powerpc/boot: Allow text relocations for pseries wrapper with binutils 2.46+
+         81e3a86030462824a67d697739cf3f387f4ba350 powerpc/perf: fix preempt count underflow in fsl_emb_pmu_del
+         0ecd26e93e698c8327521910fc6296f5b84a4b92 powerpc/powernv: fix preempt count leak in pnv_kexec_wait_secondaries_down
+         5c86f1c1f972761a04bf22f4c0618d1aa714185b powerpc/kexec: fix double get_cpu() imbalance in kexec_prepare_cpus
+         f663b98ecac3810f1d3804ca896a75b3180a8a09 Automatic merge of 'next' into merge (2026-06-16 10:56)
+         
+  - ref: refs/heads/next
+    old: 90b45dbf59d50e32c4f86072545ff44bec9cb28e
+    new: 5c86f1c1f972761a04bf22f4c0618d1aa714185b
+    log: |
+         97f902dd4c99f8d085da5343dc58ae4f6ce7bdd9 powerpc/boot: Allow text relocations for pseries wrapper with binutils 2.46+
+         81e3a86030462824a67d697739cf3f387f4ba350 powerpc/perf: fix preempt count underflow in fsl_emb_pmu_del
+         0ecd26e93e698c8327521910fc6296f5b84a4b92 powerpc/powernv: fix preempt count leak in pnv_kexec_wait_secondaries_down
+         5c86f1c1f972761a04bf22f4c0618d1aa714185b powerpc/kexec: fix double get_cpu() imbalance in kexec_prepare_cpus
          
 
---===============2364662998661229027==
+--===============9059471270633982691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781587569 +0530
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1781587628-8cb8cc80f10148a4773e9329d39304ab30237210
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1781587676 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1781587675-d044347c2f4326023ab723804f59bc28352d8b01
 
-a73a4789e82c4c078930742526ec97c9cad00d95 f342f63da35fc225d046771a4b3657fda0aef152 refs/heads/master
+21ea7a68c5c1999cee9da55759a366576a838bbb f663b98ecac3810f1d3804ca896a75b3180a8a09 refs/heads/merge
+90b45dbf59d50e32c4f86072545ff44bec9cb28e 5c86f1c1f972761a04bf22f4c0618d1aa714185b refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmow3nEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HsQQAIpKGnzk/FkGFrCwGN3S
-jwMFUzZTCY39cc1qpR/gnFiGUqpCfYov7r/R0vnXwCxGLfgQhwyj7keAUAVhNGNn
-b0h7RRdK6SljwhbZgKZp9AMYB/HbaAxboDL1nUN8NKP4avAgz1LXa9wzTf013+5r
-yj3QfWUKNbzTi7P2d2rCmB6SE0aJFWpa/TJF4LPROP2oiamT+lZ2KPxDrmYEfvue
-28ndBRe3vgcwPr0Igp4bcXS5u7l964SyvhgDvIbydv7+u71sS4xcoEYOO5geL0NU
-6O/QlpVWihtph52h3kkXlgFDFJ9tNeaT3vKcjDFOvEZ7gsJf1ScxYFQKauMnbDrx
-dc6gAVq7aLz1EhyINmh8zovY/Qr4B/wqqWIir0poIFEgoc074W/VPWlD94mcST/+
-u7jRd7SAmDQ/FPVHSOQzk/GLw1+pMolWjuxG4q9CiO/VABvgq/miU9wg2vviyt+z
-Vb26wYg3gpiesHEm75rw0BFhVvoi73+jCsHdMvGrSjNaLc5TT4r0mMZYBlY5NOP+
-6YWe86IeE8vr1joWnMHUKPVeIcx6J7IJ9mIGkXaHClRxWZxDfzHoyshQ2oP3iTka
-0LWFj87Re5QBdSYGHxQY7yQcywMphOBVwsGa9R8lctK32trTuMp18uSS47lqdHSB
-KbVYj/WSdA/jxWOr8GeZg8Jy
-=lrnK
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmow3twACgkQpnEsdPSH
+ZJQWVxAAjrgEjrFQibewXBDTzKX0dnxVQDddicihgdILMM5BdSklWKMEyBI7wyi0
+1q+DAwC1v2QkprFCJ4U8gdPLxAoU9ja+UNjnaHYqrazRGTfIFXh8U/vRPil/BVRg
+d2H6kd+yMCwJnCEognyqGYa6JqkgRp7PIlePiL7aT2VEMAnBM8vXbo69NTt/hkSB
+AMbnUSRzU9nqqGBLq0e9cM7ik3XltkN9x2vMhpKP9Id4tevLeQN0TllYvWid0sxk
+j7FMWS3cr7NUfV/CafqRzloCtfJhKWqQIVl7IHWQS6EI7hM3CcbvGvQVcI/i93/Z
+0cmHEqUMNKNHsN8ITOLS8j1wTVloDZaeQ9VHfsTV42zGRu8Y0vhE/KNrd6In69Ab
+hL+GNYlcG8wiG6jGkAGvdaR1vg4fAmzgR6DkS8LCjh2odI2eJv6C2elpniBD3VuN
+zv6Y25FK1yi7a9oF6av5fjesa9EzyKkvtuydfSP+fAweatHIIXiDnVJi+R99s9Qs
+Sgs+euXVyJ8dR1Y3F0ASwB2eOMCct4pu/kQKae/LACWsrjunvGkf537D6h4N+0wC
+l5nVaCUNo+JQ/cqfiwItX025HDCRitkLg+yFMPLMGlwv2vG2AvBpx1eUtGbgGWh8
+qbQbOINSq5n+1818CzSjKXxETq4UXMVPCVpTGK+hejhNxkmZ7F0=
+=rQ0X
 -----END PGP SIGNATURE-----
 
---===============2364662998661229027==--
+--===============9059471270633982691==--
