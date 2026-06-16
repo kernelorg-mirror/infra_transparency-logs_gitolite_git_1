@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6287590580549784575=="
+Content-Type: multipart/mixed; boundary="===============8101387665538423608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 16 Jun 2026 02:36:50 -0000
-Message-Id: <178157741080.2302515.3620909885417473466@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 02:37:16 -0000
+Message-Id: <178157743662.2302886.4090845247923983673@gitolite.kernel.org>
 
---===============6287590580549784575==
+--===============8101387665538423608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: c8b3e91e9084ff07a67a4c8c18223ca8d0d45c8b
-    new: c17ccbb9de571fe7345472765eafa6ef17569b88
-    log: revlist-c8b3e91e9084-c17ccbb9de57.txt
+  - ref: refs/heads/7.2/scsi-queue
+    old: 0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb
+    new: 4f87e9068bf3aaf45f226261d5efd50bec42c12c
+    log: revlist-0600eec09ad6-4f87e9068bf3.txt
 
---===============6287590580549784575==
+--===============8101387665538423608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1781577382 -0400
+pusher 75C5DE3D 1781577413 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1781577381-086a48045d4d3e78d2a8629034785013204685e6
+nonce 1781577413-2c72f41d0368ce0d1a0a79ff8214ebddaab03785
 
-c8b3e91e9084ff07a67a4c8c18223ca8d0d45c8b c17ccbb9de571fe7345472765eafa6ef17569b88 refs/tags/mkp-scsi-queue
+0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb 4f87e9068bf3aaf45f226261d5efd50bec42c12c refs/heads/7.2/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmowtqYACgkQ7ulgGnXF
-3j1tGA/+OQdphYzkWedzYWrmsA/HyMgcq6cd7AcIsj4Hg9SEntlV2gsJb+cQMrgA
-ZepzygfdFQU2fprVTS5YX5+TJ5kn02A0AMsfb5+tXwg/EnXqdtuTeEcSwXhofzqH
-11iADjHYxlKwEvJrievgKH0orT+7FNJMA8ixjcoOrmuHqcn79xpjfcAyrJyjxeBL
-NvPU/Y02r6Jp0DWZ/AJuJkRH9URx6nMWSMSnIE27SCbwnH2AEzg8uXjf2chOzKJ+
-0Fzu5a8ssBTUboqN9I+QE+P085XbFjFxXfGKvGFmNUxcgkNOOu1xeVdZQ6AmSSLn
-uuyV4cXycgEkY7ai+A3oiWt2btMx+gg+Xw9VOH9dD4ulsNf+KOxwNYRCPnB9jSNR
-BgUWBQFG1+7JbcQdrRgtO8DOJBDelvg92YArLZ2d+dqbBYbVcxBKGmex1AX3OKrq
-BgtLFWuhOPVbb1VzsdEw0UzYN7HDBayWoKJ6VgTC/GkjluHB08bd8SbjYlIlFYDk
-W2NjkZW82PtViXe07RI6EUqpqztpDy8FUshhkni4klvTFfzZ98zWbkto0kd374V1
-M5gOjoeBpiOpy9vRQflYxBJGOPFk0qgwYs3BC66rhIK+27tuphMdXbZl0Fsn5CTN
-f2HJxIe7QDoTYzX+0s7u8TjoEWDDB/RWPEJ0sXXwzhFG4ySidGo=
-=TOLd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmowtsUACgkQ7ulgGnXF
+3j2ykQ//d+j6a4FZIo/ly+DJ4X8PEYJ+kI5faCiQ/A+F0Jui8mbXwD+OpJZBmK7k
+1KsMECwd3qG62rrBngUQBksunOXYrVBsJrA/QUfrmsiJjr5wbNpNfX7B6PvQy8Ro
+mh1rp1yZH0aGbfIG8uM+xPl8c7fVZOniobJKG0URZGipILii1Z51Hef3Z3EyDXfh
+kRtSHqc+YpAKQSUcwZ/7Sitsnf7snneIb/q+VjzcuqzSwYvc4Ty2pUrx4JsiWYp/
+qSFVRkIl983MOEVD1Ngn4MNovf6hVkpAjma9lqUrp5vbD8Ler6x6fEsDvtlZ2P19
+37QPm3flqPlTGFq83Y+fs5T2W3G6bGaHSuo6t3KFKHvTFxfhTKDJsT5gDxyRX1Qy
+a/o6pOGurrEa3Q3qNT6eSC4dc35eySLzAQY+NliEDDfZPxjeBbSuzqDKgdZgLw4F
+c0IRO42dapqomDEEMjSjT0IwzZBZUBlTh24Kk1GF2wCkKJNYpU8ADKvIalmJEm+8
+A34bsKSnyQNyAu3SOP21n9F2gKcMjBvCfjWZqWzw6y1LWpyAtF+xEZ0jnBp2uCUS
+2ofi3pDPbFF7EsONaN/FiSidJ0uqKh1EFAyGS0qdLJv1IcqsDywMH9fCSzUmlUgJ
+XJTFPRt/DDIeHhv5XZmQUjsHcMNDIOD2O4l02MA813DJa14LdWE=
+=J6QZ
 -----END PGP SIGNATURE-----
 
---===============6287590580549784575==
+--===============8101387665538423608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8b3e91e9084-c17ccbb9de57.txt
+Content-Disposition: attachment; filename=revlist-0600eec09ad6-4f87e9068bf3.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
@@ -90,4 +90,4 @@ fc6f9719e68d4133f2a373e1c6826fdef8bb1a34 scsi: lpfc: Fix spelling mistakes in co
 7c08d430835a90414cd962e3a9602e5b002dee3b scsi: target: Remove tcm_loop target reset handling
 4f87e9068bf3aaf45f226261d5efd50bec42c12c Merge branch 7.1/scsi-fixes into 7.2/scsi-staging
 
---===============6287590580549784575==--
+--===============8101387665538423608==--
