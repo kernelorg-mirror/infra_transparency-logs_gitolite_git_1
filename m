@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0255594509071773686=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 16 Jun 2026 15:17:34 -0000
-Message-Id: <178162305465.2922495.3288387212399301561@gitolite.kernel.org>
-
---===============0255594509071773686==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 16 Jun 2026 15:18:07 -0000
+Message-Id: <178162308747.2923163.10731486158780207028@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 816e6e243b8596cd63006593cf67afb6ac019517
-    new: aeeee59260be9fbf08aa401242d03ca510650131
+    old: 7827908c3d823c46366cc4e2c461e88e2d92667e
+    new: 3223c2e189f17ece985491bd81c2de8274758e8f
     log: |
-         aeeee59260be9fbf08aa401242d03ca510650131 Update 35D5CD577C1E6010 (Drew Fustini)
+         d4cca1bc05a88a1da7a34a970a5fa45af6e2495e patches/next: wordsmith kobject_del() fixes
+         daac8596fe0e52affb7e8bc70b338ae70a942a30 patches/next: move kobject_del() fix to sashiko category
+         3b1fd1d9bc8e0c4321d9bace7d2912cf0147872b patches/posted: add samples damon_{start,stop,call}() failure handling rfc v4
+         6f4bc850fcdf6cd69eccc6e6be2b68f63fbf5830 patches/posted: add kobject_del() fix rfc v1
+         5241cebb040086cc256ed7b5bd38a118cc2eb4ec todo-reported: add kobject_del() fix patch url
+         3223c2e189f17ece985491bd81c2de8274758e8f patches/next: kboject_del() fix: add proactive changelog
          
-
---===============0255594509071773686==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1781623053 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1781623053-4912ec004866e377af2f3679ac0169305137ea26
-
-816e6e243b8596cd63006593cf67afb6ac019517 aeeee59260be9fbf08aa401242d03ca510650131 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCajFpDQAKCRC2xBzjVmSZ
-bA5rAQD03NvcmeHfFEzOEb7oXcaQ9Pev+S1Y0pVbhUfd7jL15QEA+kKqIaug+FzV
-qWbb/107V/SUZ89aaUUxP4nT0U/OJws=
-=C8hE
------END PGP SIGNATURE-----
-
---===============0255594509071773686==--
