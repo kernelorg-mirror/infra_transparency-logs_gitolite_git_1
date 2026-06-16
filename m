@@ -1,60 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5261433424497388677=="
+Content-Type: multipart/mixed; boundary="===============0367477309505313965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Tue, 16 Jun 2026 03:16:59 -0000
-Message-Id: <178157981971.2333960.17161468111367049441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 16 Jun 2026 03:29:31 -0000
+Message-Id: <178158057188.2341918.7096385474882913061@gitolite.kernel.org>
 
---===============5261433424497388677==
+--===============0367477309505313965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 857360c0b1d7028723ad48c8640532c5c0c706b7
-    new: 60251a0ae1d2c9ade16aee8e28c484b4ec755202
-    log: revlist-857360c0b1d7-60251a0ae1d2.txt
-  - ref: refs/heads/next
-    old: d6cfbf2cf3cf3d1e3ee9af195eb15f1d9ca790c8
-    new: 60251a0ae1d2c9ade16aee8e28c484b4ec755202
+    old: 5424ef9f0e398723151ef54dfb967143384377d0
+    new: 6eeb6e9a6d7efcecaec31f4d303c1e3d2e0da13a
     log: |
-         2a9ddc4ac8d59da99a1624fa10e17329a97d78fc release_note: update
-         60251a0ae1d2c9ade16aee8e28c484b4ec755202 Update the version
+         cd27f19082571b5c84376b6233611a25af855e91 6.18-stable patches
+         5f134f8ad3f13ec49704e6d1ff486bafcd2f1749 7.0-stable patches
+         6eeb6e9a6d7efcecaec31f4d303c1e3d2e0da13a Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
          
-  - ref: refs/tags/v3.2.8
-    old: 0000000000000000000000000000000000000000
-    new: 2043fd682e74ad9ade9c162c0893b482fd54d369
 
---===============5261433424497388677==
+--===============0367477309505313965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-857360c0b1d7-60251a0ae1d2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f95c1b526fa8a87ce61c5a1a72d079a9da4805aa fix: correct typo in random.randrange method
-a840b176d403f78d30ebfa1d99cd205edebabc21 damo_setup_cli_completion: suggest damon_region_aggregated event
-d8fc4cbf8bf22fc099cc51759b266508e9c8490f damo_setup_cli_completion: suggest --raw option for report trace
-b92816d4c2149c49f4cd9a00b07e9cbf4d9ebe04 damo_setup_cli_completion: suggest --tracer for 'damo report trace'
-9d56ea504d42fde0e20d2c33e57ba4c526ccc112 USAGE: document 'damo report trace'
-3f3fa20e266038e5075982fd0117dfbcd600d151 damo_report: show trace report type next to holistic
-0421fa4f435cee600486765830b7815044fad73d damo_report_trace: do not print non-raw output if --raw is given
-7e2fc7abf0285b6eaeec46fb03156732f70fbff2 damo_report_trace: do more sanity check for damo report trace output input
-b066d9ae022a840b673b5a94cbad277d696faf8c damo_report_trace: document expected input formats
-86f8f97201abbe8346ac6597a19d4f5329e6c735 damo_report_trace: receive cmd on parse_trace_line()
-17344079d4b076b3685b280c1ed585cb2f11be8a damo_report_trace: fix parse_trace_line() for perf-script
-8d825030dec909a853895cb33ee2cf37acd52ded tests/unit/test_damo_report_trace: add perf-script test for parse_trace_line()
-8664b8ef2151a924fc18b6f5f1a1a5b357a0fbbb tests/unit/test_damo_report_trace: add trace-cmd-report test for parse_trace_line()
-5d8ce302460c579a2c7466861fbfe76923906da7 damo_report_trace: document what parse_trace_line() returns
-2799fa34225c82928d10d0846e723518fe7872f3 damo_report_trace: support trace-cmd header lines
-ee61786e087c0e0a3276596498babfcac5db7f1f _damo_records: pass trace command to parse_damon_trace()
-54ed57b8381d5a5ea8fbec3c6c8650be00fd1ecd _damo_records: use damo_report_trace.parse_trace_line()
-d6cfbf2cf3cf3d1e3ee9af195eb15f1d9ca790c8 release_note: update for the next release
-2a9ddc4ac8d59da99a1624fa10e17329a97d78fc release_note: update
-60251a0ae1d2c9ade16aee8e28c484b4ec755202 Update the version
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781580510 +0530
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1781580569-4f24ef1496d251779aa3da542021cc9837f18385
 
---===============5261433424497388677==--
+5424ef9f0e398723151ef54dfb967143384377d0 6eeb6e9a6d7efcecaec31f4d303c1e3d2e0da13a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmowwt4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S5AQALv+u5xiJLhl/aDt6e0O
+CaFRs0raa9eJ1fR1lJ9VB4BvW+2xhu8R3n1pEGOckIkazon9az/8mv5+5c0LPQRN
+F92PSNsM1Qyyslf0TMoFEUYVNTE21D9baYf4XwXgDoyaXXq/0RtO28bAYiRGADcW
+xYHc15z/Px0m+g6IPArcju+GQrfy9FUlil3zT+QB9uwzHZ+sBF+Ce/BiQTS/zd0R
+m7i5Dlqjvfe+VWGmH3FOSEpvN1y5NNXCTBWcClYpRAIwSraa9Gcd02SNzKu+wzqj
+6G20iNr1/JB0NfYfiga93p7GNEAUQMYghy6LVqnKExi1MrpEi9HhYFozCvWfqqfj
+qG2Hia1iGxGdhGr3OU3QzKfDOYAliD8Rq/HjeFeLhxK2qpBUmhba5W8m0wyjCWj5
+torg+CImS9PMZ+7f5uOzxJjNhx/HGfW3Tv8m15+f6DR9Zhq3jE+uePBpC99CKkxJ
+YAzHMT1UHTZTf34wbfYmCJ6p/ThwMK+1hc7/N7neCoJzdJ6Dkgat9GY9tSEpncdy
+nZyhALrGWbPcSP/HOv8vzcn9WvUO+i5XI626fYEHCMu+2h6QTok4RtcO0kwgCy2r
+f0qgCzVOS7sBmJumEUxGZ+CtudSo4hiBs3qWC3mF70DpcysoplXyiMDoQ2Ok7vF+
+WGaviJ9fLWEdc+axSwY4Uq2m
+=yEkq
+-----END PGP SIGNATURE-----
+
+--===============0367477309505313965==--
