@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6370326116033716740=="
+Content-Type: multipart/mixed; boundary="===============7847885352592919869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 16 Jun 2026 02:37:21 -0000
-Message-Id: <178157744109.2303148.12586288614033201240@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 02:37:48 -0000
+Message-Id: <178157746870.2303499.12192640663854987893@gitolite.kernel.org>
 
---===============6370326116033716740==
+--===============7847885352592919869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb
-    new: 4f87e9068bf3aaf45f226261d5efd50bec42c12c
-    log: revlist-0600eec09ad6-4f87e9068bf3.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 3ecd94833ea6df86dbb3420da1762cc62600067f
+    new: fb6060f772fc7d2fed02cce40999cde8cd678c07
+    log: revlist-3ecd94833ea6-fb6060f772fc.txt
 
---===============6370326116033716740==
+--===============7847885352592919869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1781577439 -0400
+pusher 75C5DE3D 1781577445 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1781577439-5bf964830a286c69fc238cdec4d96bb19a3f01ab
+nonce 1781577444-dec9e633fbb223a090ba637d4b2b599257e8adac
 
-0600eec09ad6cc5ba3ca78aceb6fa8dcbad010bb 4f87e9068bf3aaf45f226261d5efd50bec42c12c refs/heads/queue
+3ecd94833ea6df86dbb3420da1762cc62600067f fb6060f772fc7d2fed02cce40999cde8cd678c07 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmowtt8ACgkQ7ulgGnXF
-3j1nEA//c2/TVp9eWFXdh/jU0Yholr8rpXLBDW8DgAmvdlwWenxcpheJOZwiVrWv
-RurjyEFG3UUGmjgADxVnGaGLtUQaAo5Mse7XGutDE30wvGS2d/4eyoFnJqQtf5ij
-Zy7R9GCMdao/1rvSQtnO05N8TBzbKZM5JppaWxdngIByU2Rlw2ibR7Fl4615+4Qj
-cZzTXmtu+kME7et7QA8xCNgME7TEQZc8AWt42VaxeVxx4cxhF5QQrE9oZqynTt70
-Re1uz4AFV9Eh59p+OE0t2VsGtMx+HYeXV5op/R7aNtpHXIFqSASt07iQN6m7hUFl
-0TLAMLI8aMyjEb9AvY1SBXjiM2EMIs0AYC5qaqe+uj8GnZ5VejM/HZMAPRfFKRjn
-l0V6w3lEedpsLSFsP/9Uox2/fIG5+bxNbQyUZjBsUoyFWa/bfht3OEY2LV7dmle0
-2Kt+1O+rpuO3BV+eIzclkS9EYO+s08C4+7v9NmqQv4M42H624jnNeJRRyD4p5v+/
-YCnc2qbEYZy2//Wy/g2VNfTZMPzVs/S75pxBfIsyZK1oFDnqnsaXOZxMIdWicTfz
-GQeF4gC6/mJ5km6aw4vHHEd3GMTv5QtUhesFhNGMg/xwYocvwQHQjYMjGvvsNbxu
-+cyp3KPNiASPKH6qlHxvrgb+WpOpuPv+8jXTghtWT4xUaipoQVA=
-=jVBf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmowtuUACgkQ7ulgGnXF
+3j1omA/+OxZkIKh7YO878Us1J+LjSN7CLMZ30hnnT2V4sN0wYIV6e7McMB9yTQMs
+PYKU9bFp9jLTKu/sI9l7XffinkkvlO7GDhJjSPR7pkpbJlG0YrqkMAKy/9c1v/rD
+Y00rG8ccHVrl7lvtU2h3g6I0I3IKeFCoPNUQ1uXKcTeH507h8N9jxFr+Hhl7aZ48
+r2aILeD8KbEfjLxigWS0kFXtky3e020xpX6jH2TsXpxktv/Vx5EC0GnF+mSMqckB
+GjI0gO1RGvCdiigGD3P8vSz5e8ZmuERkbWZP5hY+o3MslrQucfj8N/+TuAkoBgbH
+QfMkO7fCk4mlXUGOfLgtRNu4Rr5BfsXv2kmEFLoLBd1w6FfKez1uoixIQ5IIp5Hk
++mAStLTL7U8Ko5Pw3JirAM+/7gtRunUxAcwXT6TMa6C9x2FLamMv98hwAi3I4P8n
+Hb1hT6bk86Wkbd/uO3etJLf9T4je9vM6AQMjhu8N5Ywwxy6quTu1X+gkWT09gDvB
+NLsv7VMwQFdmUPFOsiewlkD889lP6DNMZmExstiFOpbMfRImrKtf1jkUWiF6yHbo
+68BeBRqYg9Znzgn3mMAvzxaJduABq66/HisvSPHYF+GsW2y0gt+wTr/uw7FXSdrP
+qLAukLJIkfo/vQUCfPvOPnaY+sgZCR8mjcfZvbpVCd/vs/U8VaE=
+=j8bJ
 -----END PGP SIGNATURE-----
 
---===============6370326116033716740==
+--===============7847885352592919869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0600eec09ad6-4f87e9068bf3.txt
+Content-Disposition: attachment; filename=revlist-3ecd94833ea6-fb6060f772fc.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
@@ -78,16 +78,13 @@ a9a39233ec1fc9f97ea1340a4d09bb7ec2be5153 scsi: scsi_transport_fc: Widen FPIN pna
 778c2ab142c625a8a8afa570e0f9b7873f445d99 scsi: target: iscsi: Fix CRC overread and double-free in iscsit_handle_text_cmd()
 bf33e01f88388c43e285492a63e539df6ffed64c scsi: target: iscsi: Bound iscsi_encode_text_output() appends to rsp_buf
 85db7391310b1304d2dc8ae3b0b12105a9567147 scsi: target: iscsi: Validate CHAP_R length before base64 decode
-b65b608eb8ff3507676491b28acaf496b1c347f2 scsi: mailmap: Update Avri Altman's email address
-63977ab3c6a07e5f50c95d0c8fd83d37d56812a8 scsi: ufs: qcom: dt-bindings: Document the Hawi UFS controller
-3c08f6034d7459f6d4d5c1599de7bb42c1d89521 scsi: scsi_debug: Fix one-partition tape setup bounds
 7e161211f1dd5288b4ea802b30e70ef919ebc3da scsi: target: Fix hexadecimal CHAP_I handling
 cf14fc2be868840c4c9e0e46a472995798b59712 scsi: target: Use constant-time crypto_memneq() for CHAP digests
 5d5221f8a4064a256b9499485a9f8c6f530f21dc scsi: devinfo: Broaden Promise VTrak E310/E610 identification
-01d5e237b33931b970dd190dd6a19c5ef32c105d scsi: ufs: core: Handle PM commands timeout before SCSI EH
-9d87e0db00e9a2d281d11ae226eaf4d9b47376e2 scsi: ufs: ufs-pci: Add AMD device ID support
-fc6f9719e68d4133f2a373e1c6826fdef8bb1a34 scsi: lpfc: Fix spelling mistakes in comments
-7c08d430835a90414cd962e3a9602e5b002dee3b scsi: target: Remove tcm_loop target reset handling
 4f87e9068bf3aaf45f226261d5efd50bec42c12c Merge branch 7.1/scsi-fixes into 7.2/scsi-staging
+e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
+ca978f8a93d4d36841839bf2847d29b88c2591d6 scsi: xen: scsiback: Free unsubmitted command instead of double-putting it
+66aefc277ebb796ec285d550305535dc3fc0179f scsi: xen: scsiback: Free the command tag on the TMR submit-failure path
+57a6ed0b41677ccc5e28cc0976e495c1dfa33747 scsi: bfa: Reduce kernel stack usage in bfa_fcs_lport_fdmi_build_portattr_block()
 
---===============6370326116033716740==--
+--===============7847885352592919869==--
