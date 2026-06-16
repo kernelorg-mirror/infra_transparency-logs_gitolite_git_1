@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============0135759870613601349=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 16 Jun 2026 06:27:14 -0000
-Message-Id: <178159123418.2479151.9880925954536825068@gitolite.kernel.org>
-
---===============0135759870613601349==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 16 Jun 2026 06:28:39 -0000
+Message-Id: <178159131987.2479785.12886327688344093226@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/master
-    old: 927de31ad82898567ad9cd38ab3e1877bd0be815
-    new: fdda9fb1d94c19a58679dd355909f91b965ef22c
+  - ref: refs/heads/arm64/selftests/cleanup
+    old: bae095e0869399bc5d94a63aa933c3827a3fa256
+    new: 866f5e390a08873e2eaf7be6fd6e2e15a3b78162
     log: |
-         001894b0b749fbec95d94d3b0b44a05029a251a6 finally make CVE-2026-46331 "public"
-         fdda9fb1d94c19a58679dd355909f91b965ef22c strip the new mbox
+         d8511e4e0bb9866ab7db3a4e1bc4c6a9a9da71fb kselftest/arm64: Do not enable GCS for the FP stress tests
+         f8bb98c1673e41410e83cfa36002e7d60449eac8 kselftest/arm64: Clarify sve-test preemption comment
+         e57228bfa85aec3425bed7ab3005580c98d55ca6 kselftest/arm64: Remove dead code
+         de35c206503762dc45cb89e1626f42d06379356a kselftest/arm64: Consistently exit fp-stress sub-tests
+         866f5e390a08873e2eaf7be6fd6e2e15a3b78162 WIP: use signalfd
          
-
---===============0135759870613601349==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781591173 +0530
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1781591233-093a373e975397a252f5f9fdc7f8d0021d03f7f6
-
-927de31ad82898567ad9cd38ab3e1877bd0be815 fdda9fb1d94c19a58679dd355909f91b965ef22c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmow7IUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YqYQAIBKL1E3v4D/l2GScbjF
-G6z2SKJI+9LsatGmWRUMVlc61dRDN7i1DSRKB6C4LbE4PP6DNhuMkQ6zeKZsPrQX
-Oj45oDeoIXrSmzXGmKrTdZ8BPHqbcTHoU+TNIcverYhGS/czb+Wpe8raWp8WP8dS
-eLEy26N3EU7k93V7Lgcjpzir2sk55vXATlzFWIrGSLswO1sFmNKKEOfY4mJ+XjHj
-jzTeV0Qp80Wg8SLc3D3y49ikzhzQAAasCPjSuGvPhn7VqFFEGwP45iHbQLzqkHpj
-1HT9hHCmAYP+doepQcS8Gc6e4nG6sMfFpZxXHIklCEZjTnszounjn3xdSTCBIpd2
-8ig2Xi2RKkwaEdvcPx04tQaEAqfN5DdW1b7VTttDUjm2BLMVR7U2WJ2URaln4RTV
-Ax4KblpdGvULQkOeARz+wgV0QuG39tUARUhVpZqA/scJ9QNm+1FHUnB1TpUmDy96
-588Qjy8FHnelPbCrS0KDERF1G2gj5nCFtJ+4e6poN9JLQsJ662vDoXgi6WgCmciy
-w3eyiuroQb+W8DyJl+5pW6XwkQJVOS18gODOnwz2VCROgJLhhA7nIaRi9iNtWpPi
-4g+B2GbwcsvwpdFJvNCisoK2pNO/ptb+axZ+sVrtDh9lSzJnt1zB09ycNYTGs960
-vkcK6MTSnBl2oIm3X00nXvUZ
-=g3kd
------END PGP SIGNATURE-----
-
---===============0135759870613601349==--
