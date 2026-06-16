@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
-Date: Tue, 16 Jun 2026 06:20:06 -0000
-Message-Id: <178159080671.2472824.4455844095913024277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 16 Jun 2026 06:20:10 -0000
+Message-Id: <178159081035.2473016.5302697788807514277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kwilczynski/linux
+repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
   - ref: refs/heads/kwilczynski/legacy-write-kasan-fix
