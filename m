@@ -1,51 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============0734227771382637205=="
+Content-Type: multipart/mixed; boundary="===============0876774162219554699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 16 Jun 2026 11:20:12 -0000
-Message-Id: <178160881204.2717601.13207821917483508155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 16 Jun 2026 11:21:04 -0000
+Message-Id: <178160886413.2718548.13796859843588011463@gitolite.kernel.org>
 
---===============0734227771382637205==
+--===============0876774162219554699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dir-deleg
-    old: 98f372bdbc04d04c8e09adf5dade5a2200350a31
-    new: a27e573c1ea56ce3263c4336b5f83af2e4ebc108
-    log: revlist-98f372bdbc04-a27e573c1ea5.txt
+  - ref: refs/heads/master
+    old: b1cbabe84ca1381a004fb91ee1791a1a53bce44e
+    new: 8b308f96484e37d92d2fc6b72b091f60496c000e
+    log: revlist-b1cbabe84ca1-8b308f96484e.txt
 
---===============0734227771382637205==
+--===============0876774162219554699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98f372bdbc04-a27e573c1ea5.txt
+Content-Disposition: attachment; filename=revlist-b1cbabe84ca1-8b308f96484e.txt
 
-856b7b0fd0187837ee6efa8dfb9aeac569f816f0 nfsd: add support for CB_NOTIFY callbacks in directory delegations
-9fe4d589db168cc6fc524e05d6df893f665853ca nfsd: check fl_lmops in nfsd_breaker_owns_lease()
-f9870d12646df430c2b67a260b64a26526592f12 nfsd: add protocol support for CB_NOTIFY
-b0f631d62cd8ced1c2fa71b50ec1f3cc59b89be7 nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
-b68ec557a78571aedb93d4ff73f2b0e0d42d9d9f nfsd: allow nfsd to get a dir lease with an ignore mask
-2dcaba92e089ac40179b691d1b637c42fe85880c nfsd: update the fsnotify mark when setting or removing a dir delegation
-f2afb702fdfaf6b35ef376ef1d4acbf6d84a6e95 nfsd: make nfsd4_callback_ops->prepare operation bool return
-aa6eb72347a27a826ea9d4a594f191209fce8c10 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
-94d41e07252ee5f3baa7c8fcc6832c98148c4a4c nfsd: use RCU to protect fi_deleg_file
-4ddbfaef92447244b7709b39a4cc600106d6d90d nfsd: add data structures for handling CB_NOTIFY
-9a97bedc5d3066dfba71e5da296d29b025d30e6a nfsd: add notification handlers for dir events
-567a403afd37f0d7a803fe9e9be483b7a3c051b1 nfsd: apply the notify mask to the delegation when requested
-f9dec87ee59633e0a998e405a58ff2183825f050 nfsd: add helper to marshal a fattr4 from completed args
-b415555ede01df384558e52ff65556a8105743c6 nfsd: allow nfsd4_encode_fattr4_change() to work with no export
-54cd389be231d3fcb0dd75e83d8ae647ada0f01c nfsd: send basic file attributes in CB_NOTIFY
-bea4e25c22c35b6179b510bdfa1599e5757b81cb nfsd: allow encoding a filehandle into fattr4 without a svc_fh
-bcd678656d1612d79b1af53827aa409feda0953c nfsd: add the filehandle to returned attributes in CB_NOTIFY
-79ee6c9e25d34962c3a2545090a78754ac4fcc66 nfsd: fix reply size estimate for GET_DIR_DELEGATION
-4b86cdaf7be88d1d950f2baebcfdcb15185018a6 nfsd: properly track requested child attributes
-a262c5e028257de50461c98ac7f8c6fdfc00acc9 nfsd: track requested dir attributes
-a27e573c1ea56ce3263c4336b5f83af2e4ebc108 nfsd: add support to CB_NOTIFY for dir attribute changes
+51fa14ab9705f52f63ca4b26e3fa66c2c93ea15a gen_compile_commands: Ignore libgcc.a
+3c479279bd947aa73024f3edf6dc1d16fc2fa3fc kunit: qemu_configs: Add or1k / openrisc configuration
+c12222dcce91170a8031e03559c3e88916475f14 kunit: Fix spelling mistakes in comments and messages
+bb86954a672ee71f2075c4ef79e51f95391d11dd docs: kselftest: Document the FORCE_TARGETS build variable
+7a214b4ec1c967533439b4ef16941cabb52a88a8 selftests/resctrl: Improve accuracy of cache occupancy test
+ca0ea39288c980741283a1f4f272b1e92ace8f52 selftests/resctrl: Reduce interference from L2 occupancy during cache occupancy test
+c066a681ac2f331cc2e493cb0b4072d86c5291b5 selftests/resctrl: Do not store iMC counter value in counter config structure
+f3d3a8fcecc3e2a0d577b607f8812214c02e30d6 selftests/resctrl: Prepare for parsing multiple events per iMC
+7d97dfeae329921ac7cf0f55a0ec98dfc1886064 selftests/resctrl: Support multiple events associated with iMC
+752b6939951f40ac93a6add05cadee488d9cf8e7 selftests/resctrl: Increase size of buffer used in MBM and MBA tests
+d2ec0e8e2d024b67763670421678f723c817a901 selftests/resctrl: Raise threshold at which MBM and PMU values are compared
+ca2e4f4ba15a00218bff3b89ff57b20d0164de0a selftests/resctrl: Remove requirement on cache miss rate
+da707d9fedabf71d1973543f0cf244d2ef597c0d selftests/resctrl: Simplify perf usage in CAT test
+08d592641ed06c28222e499103257752ace4b167 selftests/resctrl: Reduce L2 impact on CAT test
+5f4974231fb3656c15a82faece9f2303b8c18a14 kselftest: fix doc for ksft_test_result_report()
+85347718ab0dd7ede9c3e1dcff2d604c7073df05 bug/kunit: Core support for suppressing warning backtraces
+bbc960d009a6315f484944506bbb13165069ccc8 kunit: Add backtrace suppression self-tests
+a5eefd0726b16b04eebabb17619a08f2703d13f9 drm: Suppress intentional warning backtraces in scaling unit tests
+5c1553dd5db306d84d539f84fa184d4694d6d050 kunit: Add documentation for warning backtrace suppression API
+bfd73e009d02b6f4500e60970dafaa65940be8ad kunit: tool: Parse and print the reason tests are skipped
+e9e05c72752f9d7044b3c98b863cd04ca828e258 kunit: tool: Add (primitive) support for outputting JUnit XML
+29afed142d64e181749214072315c976f8510bd7 kunit:tool: Don't write to stdout when it should be disabled
+42eb3a5ef6bc56192bf450c79a3f274e081f8131 Merge tag 'linux_kselftest-kunit-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+8b308f96484e37d92d2fc6b72b091f60496c000e Merge tag 'linux_kselftest-next-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============0734227771382637205==--
+--===============0876774162219554699==--
