@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7847885352592919869=="
+Content-Type: multipart/mixed; boundary="===============8935258471421043171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 16 Jun 2026 02:37:48 -0000
-Message-Id: <178157746870.2303499.12192640663854987893@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 02:38:14 -0000
+Message-Id: <178157749454.2303910.9954746593487582655@gitolite.kernel.org>
 
---===============7847885352592919869==
+--===============8935258471421043171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 3ecd94833ea6df86dbb3420da1762cc62600067f
-    new: fb6060f772fc7d2fed02cce40999cde8cd678c07
-    log: revlist-3ecd94833ea6-fb6060f772fc.txt
+  - ref: refs/heads/7.2/scsi-staging
+    old: 7c08d430835a90414cd962e3a9602e5b002dee3b
+    new: 57a6ed0b41677ccc5e28cc0976e495c1dfa33747
+    log: revlist-7c08d430835a-57a6ed0b4167.txt
 
---===============7847885352592919869==
+--===============8935258471421043171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1781577445 -0400
+pusher 75C5DE3D 1781577471 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1781577444-dec9e633fbb223a090ba637d4b2b599257e8adac
+nonce 1781577471-61661400ee2eae850c3b033927bcd1bf6a901882
 
-3ecd94833ea6df86dbb3420da1762cc62600067f fb6060f772fc7d2fed02cce40999cde8cd678c07 refs/tags/mkp-scsi-staging
+7c08d430835a90414cd962e3a9602e5b002dee3b 57a6ed0b41677ccc5e28cc0976e495c1dfa33747 refs/heads/7.2/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmowtuUACgkQ7ulgGnXF
-3j1omA/+OxZkIKh7YO878Us1J+LjSN7CLMZ30hnnT2V4sN0wYIV6e7McMB9yTQMs
-PYKU9bFp9jLTKu/sI9l7XffinkkvlO7GDhJjSPR7pkpbJlG0YrqkMAKy/9c1v/rD
-Y00rG8ccHVrl7lvtU2h3g6I0I3IKeFCoPNUQ1uXKcTeH507h8N9jxFr+Hhl7aZ48
-r2aILeD8KbEfjLxigWS0kFXtky3e020xpX6jH2TsXpxktv/Vx5EC0GnF+mSMqckB
-GjI0gO1RGvCdiigGD3P8vSz5e8ZmuERkbWZP5hY+o3MslrQucfj8N/+TuAkoBgbH
-QfMkO7fCk4mlXUGOfLgtRNu4Rr5BfsXv2kmEFLoLBd1w6FfKez1uoixIQ5IIp5Hk
-+mAStLTL7U8Ko5Pw3JirAM+/7gtRunUxAcwXT6TMa6C9x2FLamMv98hwAi3I4P8n
-Hb1hT6bk86Wkbd/uO3etJLf9T4je9vM6AQMjhu8N5Ywwxy6quTu1X+gkWT09gDvB
-NLsv7VMwQFdmUPFOsiewlkD889lP6DNMZmExstiFOpbMfRImrKtf1jkUWiF6yHbo
-68BeBRqYg9Znzgn3mMAvzxaJduABq66/HisvSPHYF+GsW2y0gt+wTr/uw7FXSdrP
-qLAukLJIkfo/vQUCfPvOPnaY+sgZCR8mjcfZvbpVCd/vs/U8VaE=
-=j8bJ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmowtv8ACgkQ7ulgGnXF
+3j2kLw//c1ChkyjYsQodoiRq/ijTkHD4+xEL8+D2q1pG2PzP1Uts8pplo+jJyfAH
+hIvNWtHoHfwY9awGq3wsodA/Gia7HHuSTW9bTe4FnTCOgV9X+oCf7FORJGK95nD6
+nPfg28QdsvND8Qsheull60WF3RTUiMT9MkfNyuPtc/gRij3NDfNh+eupFsRg90YB
+Re5ocd+YsSIzjicp0knRZ+wDR6J0tSgVwavmfjgmEW5/cEGkEEiQStXUrckhIMRl
+GvGRZR3RHR6LGM6ngqW8uXL1qw6QXh9gdWphLKkZl4Qn8b03Rb/choXrNgNHwekA
+3rj3+N+L6Fu7ww+L0YqHp9o5b5Tdr6buuxYUD+FylLdlll1Av6dorQv6JQTjfMOx
+LN3vys/JwaKUYwVLBf3ddGkdlAFYNQWJkFRS5WQPwry8R5TjvGEYYS9qJmjDrAzV
+8uR9v5OCE5MKe6ebkkiAadtFH9YkRXZABd5nXS5efVoRlYrarzfq+bK0jNBrruCU
+ZmjyQW68UBLUUAb+c70u/W1/t0gcOuj/F4jvnHEea14YNODy/s06nl1c3FXzK0On
+AvtltkcCaaep47eecne33Hvpf1ZybOzKn5o42/v6d5bzsZkyHyqtrTrdn0PkxAkq
+VKMrPp9+OtRFuKWJ/KgI28M5VMu5CUm0hbB1cgd3ZO5nVv7Ua0s=
+=Y5Dp
 -----END PGP SIGNATURE-----
 
---===============7847885352592919869==
+--===============8935258471421043171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ecd94833ea6-fb6060f772fc.txt
+Content-Disposition: attachment; filename=revlist-7c08d430835a-57a6ed0b4167.txt
 
 772a896a56e0e3ef9424a025cec9176f9d8f4552 scsi: target: configfs: Bound snprintf() return in tg_pt_gp_members_show()
 7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
@@ -87,4 +87,4 @@ ca978f8a93d4d36841839bf2847d29b88c2591d6 scsi: xen: scsiback: Free unsubmitted c
 66aefc277ebb796ec285d550305535dc3fc0179f scsi: xen: scsiback: Free the command tag on the TMR submit-failure path
 57a6ed0b41677ccc5e28cc0976e495c1dfa33747 scsi: bfa: Reduce kernel stack usage in bfa_fcs_lport_fdmi_build_portattr_block()
 
---===============7847885352592919869==--
+--===============8935258471421043171==--
