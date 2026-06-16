@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8031292413382551494=="
+Content-Type: multipart/mixed; boundary="===============7407646711398889341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 16 Jun 2026 12:11:33 -0000
-Message-Id: <178161189333.2756280.13264639159754329371@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 12:12:03 -0000
+Message-Id: <178161192342.2756630.3842647253734293979@gitolite.kernel.org>
 
---===============8031292413382551494==
+--===============7407646711398889341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1b672782e336116b516e77ef3f221373165ad7da
-    new: 038c6e833e661c6c75d11c15fa198804e8962d85
-    log: revlist-1b672782e336-038c6e833e66.txt
+    old: 038c6e833e661c6c75d11c15fa198804e8962d85
+    new: eee0b0076ec7d06a33f021755030f76515795028
+    log: |
+         20f6e8a48afb103d9cc9fa1a4f165fbfd9878e0f Merge branch into tip/master: 'x86/urgent'
+         eee0b0076ec7d06a33f021755030f76515795028 Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 1b4bf92a325aad04f9402fe73066e22b6d84f51b
+    new: 20f6e8a48afb103d9cc9fa1a4f165fbfd9878e0f
+    log: revlist-1b4bf92a325a-20f6e8a48afb.txt
 
---===============8031292413382551494==
+--===============7407646711398889341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b672782e336-038c6e833e66.txt
+Content-Disposition: attachment; filename=revlist-1b4bf92a325a-20f6e8a48afb.txt
 
 51fa14ab9705f52f63ca4b26e3fa66c2c93ea15a gen_compile_commands: Ignore libgcc.a
 3c479279bd947aa73024f3edf6dc1d16fc2fa3fc kunit: qemu_configs: Add or1k / openrisc configuration
@@ -50,6 +57,6 @@ e9e05c72752f9d7044b3c98b863cd04ca828e258 kunit: tool: Add (primitive) support fo
 29afed142d64e181749214072315c976f8510bd7 kunit:tool: Don't write to stdout when it should be disabled
 42eb3a5ef6bc56192bf450c79a3f274e081f8131 Merge tag 'linux_kselftest-kunit-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 8b308f96484e37d92d2fc6b72b091f60496c000e Merge tag 'linux_kselftest-next-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-038c6e833e661c6c75d11c15fa198804e8962d85 Merge branch 'linus'
+20f6e8a48afb103d9cc9fa1a4f165fbfd9878e0f Merge branch into tip/master: 'x86/urgent'
 
---===============8031292413382551494==--
+--===============7407646711398889341==--
