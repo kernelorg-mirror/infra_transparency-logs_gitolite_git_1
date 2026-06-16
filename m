@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6334546467107090774=="
+Content-Type: multipart/mixed; boundary="===============8679802969630585388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 16 Jun 2026 12:42:07 -0000
-Message-Id: <178161372793.2791292.6545121500879864172@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 12:42:10 -0000
+Message-Id: <178161373071.2791377.8361162375127458588@gitolite.kernel.org>
 
---===============6334546467107090774==
+--===============8679802969630585388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,58 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-2
-    old: 352ce960b735dfdc7602ee8c310415245ca3af54
-    new: 5da26ab52ac5502b09b7c20970ee08291130673f
-    log: revlist-352ce960b735-5da26ab52ac5.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 0bdbb1954d6982936b81c77ee586045d6e4bdbab
+    new: d0cf39e37ea802f4a3bbc8feab8adfb45a834546
+    log: revlist-0bdbb1954d69-d0cf39e37ea8.txt
 
---===============6334546467107090774==
+--===============8679802969630585388==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-352ce960b735-5da26ab52ac5.txt
+Content-Disposition: attachment; filename=revlist-0bdbb1954d69-d0cf39e37ea8.txt
 
+18c3d6fcb557f920c9143711497625e70153874c omfs: handle set_blocksize failures
+d90e60ced4c3c7cd55ba0bedcedd1090d0172ce0 Merge patch series "fix crashes when mounting legacy file system with sector size > PAGE_SIZE"
+de7680d9438fa145c90e96a783e3e69405fecd33 namei: use QSTR() instead of QSTR_INIT() in path_pts
+50d377ef12d9680ff8fd0923afc7edaf63995511 sync_file_range: delete dead S_ISLNK code
+7dc6acb3d56bc2c5d119c86abd8fe96034084fc8 fs/pipe: write to ->poll_usage only once
+8b82cacad92ebae9619872a5a69c570eba30140b openat2: new OPENAT2_REGULAR flag support
+6045a75399b45f6805f07a03020abf384b9f53c3 kselftest/openat2: test for OPENAT2_REGULAR flag
+21688d812289d11ccf3018a94e0dfa2c98e73ec4 Merge patch series "OPENAT2_REGULAR flag support for openat2"
+8c47b5e9b9f4a861a87e40d5294de7fda548fa37 selftests: openat2: port emptypath_test to kselftest harness
+266d3dd8b757b48a576e90f018b51f7b7563cc32 cpufreq: pcc: fix use-after-free and double free in _OSC evaluation
+a9029dd55696c651ee46912afa2a166fa456bb3e cpufreq: Fix hotplug-suspend race during reboot
+dedcf8e104414f2e5517c2f9abad4bd31fd5d8e2 x86/cpu: Add Intel CPU model number for rugged Panther Lake
+cba38ec4cbd3a7b8b942a8d52531a05be8a9ff0d writeback: fix race between cgroup_writeback_umount() and inode_switch_wbs()
+e90a6d668e26e00a72df2d09c173b563468f09c9 writeback: drop now-unnecessary rcu_barrier() in cgroup_writeback_umount()
+31c1d19ead2c26a63859a2757d8b786765ba9cdd writeback: use a per-sb counter to drain inode wb switches at umount
+de5fefadeff3cba9d4df1b0d6fe0518281bbccec Merge patch series "writeback: fix race between cgroup_writeback_umount() and inode_switch_wbs()"
+3fb2d124b64716f16355b9b722b2f062c0702f24 init: do_mounts: use kmalloc() for allocations of temporary buffers
+988c918b812eef5623d44cf758857f28ee050570 minix: release the sb buffer_head when setting the v3 block size fails
+0fdde3f2aeadcf8d090ee3edee0aad73fb91f690 kernfs: fix suspicious RCU usage in kernfs_put()
+b2c885b362719cb114c6b2d46a295116abeb4848 devcoredump: Remove exit call
+bea3649af1293144172a20e0b33a319e5221db28 devfreq: change devfreq_event_class to a const struct
+b382754793b1af27899164a5b412ff2f49eb24d5 driver core: delete useless forward declaration of "struct class"
+9ecab063e9821b23c82907d7889302c22f197e1e driver core: constify group arrays arguments in driver_add_groups and driver_remove_groups
+f1462b97684b5d0cef0a4d026c7c9c9c42cd192c driver core: make struct bus_type groups members constant arrays
+a9c12b783cc711de3ac7f188bed07d529bb818af device core: make struct device_driver groups members constant arrays
+9582485a65eacfd7245ec7f0a9d7e2c34749d669 device property: fix fwnode reference leak in fwnode_graph_get_endpoint_by_id()
+1137838865bfc9a7cd5869c1dc5c22aa45ec12c8 driver core: Use mod_delayed_work to prevent lost deferred probe work
+aaf08c52df9a19148731d4a3cfd85d98455db901 Revert "treewide: Fix probing of devices in DT overlays"
+81e7c6befa36cecdcbf7244393bd67e8f8c59bf5 of: dynamic: Fix overlayed devices not probing because of fw_devlink
+36d74f17e03f7e60e1b08fbe16cfad6e69cc3aa9 driver core: Avoid warning when removing a device while its supplier is unbinding
+cdd4c98d5a0e320b18fcdbd37a30a732aec624da driver core: Delete DEVICE_ATTR_PREALLOC()
+56e733f78c223032368e500af58402840a56e243 driver core: Add low-level macros for device attributes
+13443fbf62414e42afb1675ab2d3b767c6466915 driver core: Stop using generic sysfs macros for device attributes
+434506b86a6cde84a0ef19daa9e3b1926e2f96a9 driver core: Allow the constification of device attributes
+024480bf8d75bd16894c5b0eb6082b6e6dae4970 driver core: Constify core device attributes
+70a03a385de2b8f0fa54dbc70bdc3ed176853d1c eventpoll: add missing kernel-doc for @ctx function parameters
+85524e651d20944399322d46fb97960337831d43 cpufreq: Documentation: fix sampling_down_factor range
+bcbdaa1086c25a8a5d48e04e1b82fdfb0682b681 cpufreq: intel_pstate: Sync policy->cur during CPU offline
+aa70232cc7431d517e0402d90c38e11b67414049 cpufreq: Fix typo in comment
+9801be8bef65dbcbc40c1a9c2f03d70ed67a5d30 cpufreq: Avoid redundant target() calls for unchanged limits
+3494dff89779b73a6c70481c982e0e96d336454a cpufreq: conservative: Simplify frequency limit handling
 7dd383dc6693654d013b3c15e322ec1534ccd86e cpufreq: clean up dead dependencies on X86 in Kconfig
 6fb302d2109c84d33e988d5b6e803dc8eae6e21e cpufreq: elanfreq: Drop support for AMD Elan SC4*
 08a859927e0c62e9a03a75f508baa6cbfbbef3c9 cpufreq: intel_pstate: Improve warning message on HWP-disabled hybrid CPUs
@@ -268,24 +309,8 @@ d29bd8efe16239608b60173a7e8d842bcbfcd9e9 selftests/pipe: add pipe_bench microben
 159921d63da16ff1d4764e73ddf9e1556b54dfc8 kbuild: rpm-pkg: append %{?dist} macro to Release tag
 d7231d8cb262b1e350c00271bf53d54414b4f3b1 scripts: modpost: detect and report truncated buf_printf() output
 420dd187e1572bb7e232781bc4377a80c8eb64fb .gitignore: ignore rustc long type txt files
-8314eea93e25b8756e6d70bbf3ef5dbe7ba4cbe4 i2c: tiny-usb: Replace dev_err() with dev_err_probe() in probe function
-c2b2bf9989568f9430e1f3dc06f56fd68452a311 i2c: tegra: Replace dev_err() with dev_err_probe() in probe function
-96d94fa66ff8b81c94243febfcf8352aa72b982d i2c: sun6i-p2wi: Replace dev_err() with dev_err_probe() in probe function
 1d2cf6d5b5994df68e3431f0a1a8f72a191b8aad MAINTAINERS: Move Rick Edgecombe to TDX maintainer
-60acd2b2855ab2d41e3c37d4b8a1f2b8beb6ea45 i2c: stm32f7: Replace dev_err() with dev_err_probe() in probe function
-d7240da74889e50a9ffa7deddd6d6f4980591fce i2c: stm32f4: Replace dev_err() with dev_err_probe() in probe function
-612b59b1b217f87f8723cb4d580da355a6af1810 i2c: stm32: Replace dev_err() with dev_err_probe() in probe function
-fa08414db666a178e52f5ed7e1f538301bf0767a i2c: st: Replace dev_err() with dev_err_probe() in probe function
-229b32371e22688362eebf38d00f8abc4b7ead40 i2c: sprd: Replace dev_err() with dev_err_probe() in probe function
-9013a0c9bac5d3bbdda52817f2d5d685b741fd85 i2c: sis96x: Replace dev_err() with dev_err_probe() in probe function
-b371250b986abc4065c3e627a8911ea89f634423 i2c: sis630: Replace dev_err() with dev_err_probe() in probe function
-24435f4c8cc081fbd4bb0633b3eb6ebac05dc2db i2c: icy: Use named initializer for zorro_device_id arrays
 2c7c65933600e8db2ec1a78dec5008de876dd3ad Merge patch series "rust: device: Higher-Ranked Lifetime Types for device drivers"
-199a0fd953ca465c8d62b27c15c6c01c3b91e1b7 i2c: designware: Introduce shutdown exported function
-42b4f04a2f825c88c723985ac2b61baf97590da1 i2c: designware: Convert PCI driver to use shutdown hook
-0a1b80e9db9db571d48d0f8cf2a7b31270950068 i2c: designware: Convert platform driver to use shutdown hook
-f5cfe0a7158820118667f9574ac7e6df6eddc708 i2c: designware: Handle active target cleanly
-fae5e96bb646e7a4f588973cd94f6b1947377d58 i2c: designware: Add ACPI ID LECA0003 for LECARC SoCs
 016267b521b18529c977c9eca9597a1669c3d73c rust: devres: add 'static bound to Devres<T>
 87a451161f36a34307ca09aaa66f233d68642b5f x86/cpu: Fix a F00F bug warning and clean up surrounding code
 f2f1dddccae50f7a1d088285c53c376e26cedf67 vfs: make LAST_XXX private to fs/namei.c
@@ -337,16 +362,6 @@ d541aa1897f67f4f14c805785bff894bcc61dca1 cdx: use generic driver_override infras
 331d8900121a1d74ecd45cd2db742ddcb5a0a565 Drivers: hv: vmbus: use generic driver_override infrastructure
 55ced13c42921714e90f8fae94b6ed803330dc6a rpmsg: use generic driver_override infrastructure
 46def663dd34da36464ba059f7cfeacf29d98e5e driver core: remove driver_set_override()
-8ce19524e4cc2462685f596a6402fbd8fb984ab2 i2c: core: fix irq domain leak on adapter registration failure
-3c7e164344e5bcf6f274bbf59a3274f5caad9bc1 i2c: core: fix hang on adapter registration failure
-2295d2bb101faa663fbc45fadbb3fec45f107441 i2c: core: fix NULL-deref on adapter registration failure
-158efa411c57111d87bf265a3776614f32d70007 i2c: core: fix adapter probe deferral loop
-07d5fb537928aad4369aaff0cbae73ba38a719af i2c: core: fix adapter debugfs creation
-3e2041ea586ae37fcea918ecb505ab9972a1201d i2c: core: disable runtime PM on adapter registration failure
-ba14d7cf2fe7284610a29854bdff22b2537d3ce6 i2c: core: fix adapter registration race
-b1a58ed9eab146b36f41a55db8f5d7ce9fdedf3f i2c: core: fix adapter deregistration race
-a378a2bc73e3b71ed2e2bfccaaee81199de0f49f i2c: core: clean up bus id allocation
-1640403fd38e9c0a1d9d70965d36410b263b6e2c i2c: core: clean up adapter registration error label
 3473e0a219fdb2cb013da0a5d917e66fef052325 rust: cpufreq: clean new `clippy::map_or_identity` lint for Rust 1.98.0
 f8600e0d1ac60e6eac34bc9c7e8cf78f7a4c368f ACPI: button: Fix lid_device value leak past driver removal
 c64db50c13719a38e0ea290f686aa9cf79dc0342 ACPI: button: Pass ACPI handle to acpi_lid_evaluate_state()
@@ -681,8 +696,6 @@ facdd1b82a41092f7f7c69f2881b946d74ede997 MAINTAINERS: Add include/linux/vdso_dat
 60ad2f1158577b4923987f0a410456cfccd0fd23 MIPS: Introduce Kconfig MIPS_GENERIC_GETTIMEOFDAY
 8ea920c48d82a0ef031bedfb649d4d8c77ef3d1c MIPS: VDSO: Only map the data pages when the vDSO is used
 03e8578813157c74d9f7033bd797b3939f2facd6 rust: sync: add #[must_use] to GlobalGuard and GlobalLock::try_lock
-2d61e7cf4d338e51a6a6f4ab14fa6bef1596b8a8 i2c: Use named initializers for arrays of i2c_device_data
-d38e710fba1806974051972d69fbbd6c69b55734 i2c: busses: make K1 driver default for SpacemiT platforms
 0e0e490f5d5ec2f91209b77a95f9c7185d97cfc6 VFS: use wait_var_event for waiting in d_alloc_parallel()
 4a810147a07535e63a7c1fbb90975012e8d57f60 alloc_path_pseudo(): make sure we don't end up with NORCU dentries for directories
 1a967a7ec70ff951716e84739f79b6e167ac1e0b fix a race between d_find_any_alias() and final dput() of NORCU dentries
@@ -719,7 +732,6 @@ bd8e8087cff52c2d04e1934e9dbe14b84ff6c795 rust: dma: update to keyworded index pr
 738a9213755ee13e0523192dfcc7c4f1d2b3f28c gpu: nova-core: convert to keyworded projection syntax
 ab0a321b4030b6e1fbbd99210bb7b5d4bc89d5e4 rust: ptr: remove implicit index projection syntax
 198c3b90e600d442f8333d254a23c5da989c5cb4 iomap: introduce IOMAP_F_ZERO_TAIL flag
-afd9ada24bdaf1fd12456ac5f8efaadcad10634c Merge tag 'ib-gpio-add-gpiod-is-single-ended-for-v7.2' into i2c/i2c-host
 167883f75f83088a2b32c85ce5e3d0cd1cef157b irqchip/irq-realtek-rtl: Add/simplify register helpers
 a1a35c09241f0577cc40f65d7372fed01138619d irqchip/irq-realtek-rtl: Add multicore support
 10a5d65856b9dbea0d63118e226b6fd820ee1d9d x86/process: Convert rdmsr() to rdmsrq() in arch_post_acpi_subsys_init() to address W=1 warning
@@ -825,7 +837,6 @@ e4f87cfcbae03498f0fd1689653cf84126196e14 thermal: testing: Replace sscanf() with
 743a3cddb1f0aa45f0a277a494de653097c7a378 cpufreq: Set default policy->min/max values for all drivers
 db80ad776cd216e833c410569ffc1359c1abc8bf cpufreq: Remove driver default policy->min/max init
 8c83947c5dbbd49b36d08bb99e344327c6278781 cpufreq: Use policy->min/max init as QoS request
-252123e295da7abcce7a5caea816d0bf12ce5c46 Merge tag 'at24-updates-for-v7.2-rc1' into i2c/i2c-host
 d3ec78f8f8d48a04a9fac38d47275c34645e5103 firmware_loader: Fix recursive lock in device_cache_fw_images()
 9b9e8bb81c41fd27e7b57a1c936fde140548535f configfs: fix lockless traversals of ->s_children
 5cefe23f63742881229ea80a55b5f9e5021966bc configfs_mkdir(): use take_dentry_name_snapshot()
@@ -844,8 +855,6 @@ abe91a2aa9c4a704e290e0e164228ff20a123c0a switch configfs_detach_{group,item}() t
 d4152c7562a8759ef98f882385121b8dee04606d configs_attach_item(): drop unused parent_item argument
 ad235a65dfff7e2e559fbcfe0f600d58b7df2396 configfs_attach_group(): drop the unused parent_item argument
 d53ac61b6120fa596d758ff6e22b5dcb6db21ce8 create_default_group(): pass parent's dentry instead of config_group
-9295f238a52a566f45f9b1752bebd93b4c2d83a2 i2c: tegra: use dmaengine_get_dma_device() for DMA buffer allocation
-aa0f846f61d45e83e126f3c16234cbec66ec92e8 i2c: tegra: Disable fair arbitration for non-MCTP buses
 cd6e95e7ab29c4f67475e3eafef6f836f06eb0e8 soc/tegra: cbb: Move driver registration from pure_initcall to core_initcall
 c82dfce478334dca4e9a42c4519a55ee2a2c43c7 kernel: param: initialize module_kset in a pure_initcall
 efc22b3f89a3cab9a779f604ef66e7b9c3bfaa72 coresight: pass THIS_MODULE implicitly through a macro
@@ -875,22 +884,12 @@ ca06116d62bf78e420a528ee4febc8451b9f12e8 rust: zerocopy-derive: add `README.md`
 54e792604436e78e124cbde4fc5bf4bbf68fa5ef rust: prelude: add `zerocopy{,_derive}::FromBytes`
 506bb8742ea52da13f9f281c5cb2b603ac1931e7 gpu: nova-core: firmware: parse `FalconUCodeDescV2` via `zerocopy`
 98cc68794c003bc76fc9da2e8a075e947eee5921 Merge patch series "`zerocopy` support"
-f612925f9897da3a83a96cadb4d57e3b86f50a16 i2c: cadence: Add shutdown handler
-cdf12d80250e18a9f6c9c3b85796712a95c864f7 i2c: bcm-kona: fix spelling mistake in timeout-check comment
-441472454849bf5c8d1f2deceeaf15e6ae888387 i2c: designware-pcidrv: Consistently define pci_device_ids using named initializers
-5b10756981c211e1b1dbbc27cbfcae4b84650ae8 i2c: eg20t: Consistently define pci_device_ids using named initializers
 4770880855359b345314ca1d0b28f9be8886eba8 MAINTAINERS: Add RUST [SYNC] entry
 a837dd95e841586c3a6bbe41c41843b392a1b725 rust: sync: completion: Mark inline complete_all and wait_for_completion
 29922fdfc2a4008d66418bedd0ebf5038fc54efa sched/fair: Fix cpu_util runnable_avg arithmetic
 76124a050ddbc8b252172205ab04f10a83c03a4d sched/core: Combine separate 'else' and 'if' statements
 9ebe5c3c29f6217412ff256134516d4dff0e5624 sched/deadline: Use task_on_rq_migrating() helper
-f105c7a1be20c0e656d3175f5a7b4a4405d4e169 i2c: at91: Add MCHP_LAN966X_PCI dependency
-5351cf8e96ee149c50fd19a882185907c92934df i2c: acpi: Return -ENOENT when no resources found in i2c_acpi_client_count()
-3279986bfeb8b3a7727ddec5de3d2bf2e52882a5 i2c: mux: reg: use device property accessors
-e3a8f83293972069c0da1ed2d69f763a84c77449 dt-bindings: i2c: qcom-cci: Document Shikra compatible
-7c9474bd4a8d72f159fa97074b7353d514a75dd8 dt-bindings: i2c: qcom-cci: Document Glymur compatible
 a46f2e5720f5670feda145709d1f0d20be5c7263 gpio: mt7621: fix interrupt banks mapping on gpio chips
-233644f6d4da72ca5afb7d9b1478a170d3aacbf7 Merge remote-tracking branch 'wsa/i2c/fix-registration' into i2c/i2c-host
 a174910917a8e93cb5334e9dce8bac32bff22c47 xen/xenbus: Replace strcpy() with memcpy()
 f3dc8fb24f90fa2901a87fb5273edabcc4e8f2ed MIPS: csrc-r4k: Only use VDSO_CLOCKMODE_R4K when it is a available
 66e0b2e3e3817efe0e0f283c04a9dd773ec4ac5e clocksource/drivers/mips-gic-timer: Only use VDSO_CLOCKMODE_GIC when it is a available
@@ -901,7 +900,6 @@ c5d6cac28646b0d5d81ef632be748ae93c1f36c7 vfs: add FS_USERNS_DELEGATABLE flag and
 bb0c250e8e1132723795c1046442ceb01a5ed1b1 timers/migration: Temporarily disable per capacity hierarchies
 51a7c560cffdd3653ac2b930d01410569b23b23e PM: QoS: Fix misc device registration unwind
 7ecac01cf1c094a55c687572bbc874f75e15eb84 s390/ap: Fix locking issue in SE bind and associate sysfs functions
-10765ff932e668be7ae7835b5438b3587e16554a i2c: qcom-geni: Use pm_runtime_force_{suspend,resume} helpers
 fe221742e388bea3f5856b5d9b2cb0a037020ea4 software node: allow passing reference args to PROPERTY_ENTRY_REF()
 1a1e62a5a48494cdf33e3bfb82fb8f408da7c4cc kconfig: tests: fix typo in comment
 ca57bf46e7a94f8c53d05c376df9fcfdcb482100 clocksource/drivers/timer-tegra186: Fix support for multiple watchdog instances
@@ -940,7 +938,6 @@ c3e4b7eb1b981712ebd128825d4ef3b4e9e0ee8b s390/string: Convert memmove() to C
 90d7412cd1ca82528adaf79abffaf12c36ba1b19 s390/string: Convert memset(16|32|64)() to C
 661fd726e0ea8ee6b5ab4b719629cd51a2b836b0 s390/memmove: Optimize backward copy case
 51746fc082260b0d91fd39315e77cb0863a00136 s390/tishift: Convert __ashlti3(), __ashrti3(), __lshrti3() to C
-90220ddfa8e2c93e26af2cd51d6158ca2243c622 i2c: mxs: add missing kernel-doc for struct mxs_i2c_dev members
 8b6bdbd77ea03b7fc3bfca873ba66363f2301a45 kbuild: rust: clean `zerocopy-derive` in `mrproper`
 5c75b98aa9cd5b1725b76999d794dc72ebd7a54a x86/cpu: Remove unused !CONFIG_X86_TSC code
 2bebd986eddb31f9ff1e02e9245a318036280759 x86/cpu: Make CONFIG_X86_CX8 unconditional
@@ -992,6 +989,8 @@ fac863c887a05d7c3091c5eccf30c89c2116ae11 Merge tag 'vfs-7.2-rc1.inode' of git://
 c17fdf62aeecbbaf2c2fd5c494e2089c02b0e75b Merge tag 'vfs-7.2-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 c8ed3a15a749246ddfedb84aab9cf0316c7b9b8a Merge tag 'vfs-7.2-rc1.bh' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5b7c3f0fe36d8e867288f8e452ede82d178c757a Merge tag 'vfs-7.2-rc1.eventpoll' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+68b2a84b9a1970db74fb19ae596d9aadfeece98b dt-bindings: i2c: convert i2c-mux-reg to DT schema
+43ca6ade519547e22a4131f2bb3ad8963fcd24ef Merge branch 'i2c/i2c-host-2' into i2c/i2c-host-next
 ec5d1ae94e99d8831427d00973da5620c7fb4368 Merge tag 'vfs-7.2-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ff8747aacaff8266dd751b8a8648fb728dcc3b21 Merge tag 'vfs-7.2-rc1.xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7e0e7bd60d4a812b694c477716597fcb038b00cb Merge tag 'vfs-7.2-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1050,5 +1049,6 @@ fd1878584db2f0ab3fe8f2b3d8d59316fffa47fa Merge tag 'chrome-platform-firmware-v7.
 f0285c286bca5a1e018ba25040cef6c7806c31ef i2c: qcom-cci: Remove overcautious disable_irq() calls
 e43f32816a1b1fe5a86279411626fe3a9be56d45 i2c: davinci: Unregister cpufreq notifier on probe failure
 5da26ab52ac5502b09b7c20970ee08291130673f dt-bindings: i2c: convert i2c-mux-reg to DT schema
+d0cf39e37ea802f4a3bbc8feab8adfb45a834546 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============6334546467107090774==--
+--===============8679802969630585388==--
