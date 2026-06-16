@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1921796400111914727=="
+Content-Type: multipart/mixed; boundary="===============1230859422268037182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 16 Jun 2026 14:37:24 -0000
-Message-Id: <178162064460.2885799.16425099510966590134@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 14:40:49 -0000
+Message-Id: <178162084962.2890159.632954654311657985@gitolite.kernel.org>
 
---===============1921796400111914727==
+--===============1230859422268037182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6fcfd4cdc14f629ca02389af9917b17884e5ada0
-    new: 4d257993af63cf11934a40896a65546141d54ba2
-    log: revlist-6fcfd4cdc14f-4d257993af63.txt
-  - ref: refs/tags/renesas-drivers-2026-06-16-v7.1
-    old: 0000000000000000000000000000000000000000
-    new: ef8fe96f6312541396f34d6ebc6537b22cf57c18
-  - ref: refs/tags/renesas-devel-2026-06-15-v7.1
-    old: 0000000000000000000000000000000000000000
-    new: 9e4cd240725baf33c70192f60c4247a68e72c898
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
+  - ref: refs/heads/topic/rcar-x5h-ironhide-scmi-cpg-mdlc-remapping-v2-wip
+    old: 5df1ef4b9870c212436ec3130bcdf5d002091628
+    new: f47ee77bed98b306b2b4a3934470f9cee3a7361f
+    log: revlist-5df1ef4b9870-f47ee77bed98.txt
 
---===============1921796400111914727==
+--===============1230859422268037182==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6fcfd4cdc14f-4d257993af63.txt
+Content-Disposition: attachment; filename=revlist-5df1ef4b9870-f47ee77bed98.txt
 
+cfa1466e6dfd185aed8d13b9a192657be51d87ec ASoC: renesas: fsi: Move fsi_clk_init()
+5fb4660ce59b1093face3c3080123400ac10ddd3 ASoC: renesas: fsi: Use devm_clk_get_optional() for optional clocks
+2330e0b49f14122f613e4b2a554f756006bb6206 ASoC: renesas: fsi: refactor clock initialization
+39033b278f9c59d5913af89e5de3c3a0d2a9a89e ASoC: renesas: fsi: Add SPU clock support
+05e1ebfeb7264e31a463c11deca66b7d55f7024f ASoC: renesas: fsi: add fsi_clk_prepare/unprepare()
+26deeee42f4f1ab8da7e45808c3050438c577e53 ASoC: renesas: fsi: Add SPU clock control in hw_startup/shutdown
+f10e73dffd2abf51c5ba6f5dc724a0df690cd783 net/rxrpc: Add local FCrypt-PCBC implementation
 97b768514a6eb5aa8c2806df07aa1d37c5f3b1d2 net/rxrpc: Use local FCrypt-PCBC implementation
 432042e25e33d0db9c12bbe4ee3fa234d3b061af net/rxrpc: Reimplement DES-PCBC using DES library
 374efbdc85d027814f6b26a8d641dc062f9017c0 crypto: fcrypt - Remove support for FCrypt block cipher
@@ -1052,12 +1050,5 @@ d8b84d3a7964bfc0e5e3e75a3bdeb7a9680a7d1d clk: renesas: Add R-Car X5H CPG SCMI re
 e2d0f076260df3f1fd69d3cbbafe87230122d7a3 pmdomain: renesas: Add R-Car X5H MDLC SCMI remapping driver
 a545c605a88d53f7cdf26444d33eb82918a10b88 arm64: dts: renesas: r8a78000: Add CPG/MDLC nodes
 f47ee77bed98b306b2b4a3934470f9cee3a7361f arm64: dts: renesas: ironhide: Add CPG/MDLC firmware properties
-087917304d6f08e94df54365f03bebe69dcc766b Merge branch 'renesas-clk-for-v7.3' into renesas-drivers
-797d35514afe60874e0f96c3db777691f7f4ce9a Merge branch 'renesas-pinctrl-for-v7.3' into renesas-drivers
-de183db6348683d3ed475da0c90597c49350a5d7 Merge branch 'topic/rcar-x5h-ironhide-scmi-cpg-mdlc-remapping-v2-wip' into renesas-drivers
-db593818b11be371068f41e6126f9002a0b21b7f [TEST] soc: renesas: rcar-rst: Enable WDT reset on early R-Car V4M
-20d9c5adfdf975b9c1d50766d80a78da5be46fb6 ARM: shmobile: defconfig: Update for renesas-drivers
-88eec49ec68a54fe9a988b6f3edc39158813ff7f [LOCAL] arm64: renesas: defconfig: Update for renesas-drivers
-4d257993af63cf11934a40896a65546141d54ba2 [LOCAL] riscv: rzfive: defconfig: Update for renesas-drivers
 
---===============1921796400111914727==--
+--===============1230859422268037182==--
