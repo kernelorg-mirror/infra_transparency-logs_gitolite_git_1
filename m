@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8917553515969782541=="
+Content-Type: multipart/mixed; boundary="===============4705783902562441585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 16 Jun 2026 15:55:55 -0000
-Message-Id: <178162535571.2956011.2837843613739589159@gitolite.kernel.org>
+Date: Tue, 16 Jun 2026 15:56:19 -0000
+Message-Id: <178162537944.2956389.17757187220324213132@gitolite.kernel.org>
 
---===============8917553515969782541==
+--===============4705783902562441585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 8b308f96484e37d92d2fc6b72b091f60496c000e
-    new: 6b5a2b7d9bc156e505f09e698d85d6a1547c1206
-    log: revlist-8b308f96484e-6b5a2b7d9bc1.txt
+  - ref: refs/heads/for-next
+    old: 0e298c714b12bc56f947a73466ea6f0725f3af7a
+    new: 259a3ea92b3f1a8af1dda46b5983bba6a5af6e5a
+    log: revlist-0e298c714b12-259a3ea92b3f.txt
 
---===============8917553515969782541==
+--===============4705783902562441585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b308f96484e-6b5a2b7d9bc1.txt
+Content-Disposition: attachment; filename=revlist-0e298c714b12-259a3ea92b3f.txt
 
 5a643e4623238e14b03d75ca0d4eda0645720cee bootconfig: move xbc_snprint_cmdline() to lib/bootconfig.c
 4135542de6c42bc366a651d0b2d82ea72ac199fc tools/bootconfig: render kernel.* subtree as cmdline string with -C
@@ -64,5 +64,7 @@ cf24cbb4e5861caacfdb5bface90b80eaa26e649 tracing: Use flexible array for entry f
 18ecdd4d0aabc428318bbc2ca6134483a90ea697 Merge tag 'probes-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 c071a4fbb0ec26fd5831c6633762e38720350718 Merge tag 'trace-latency-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 6b5a2b7d9bc156e505f09e698d85d6a1547c1206 Merge tag 'trace-tools-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+6f5fff05f2c3c07241bc6f8fff90f99e7fa4eb79 block: fix IORING_URING_CMD_REISSUE flags check in blkdev_uring_cmd
+259a3ea92b3f1a8af1dda46b5983bba6a5af6e5a Merge branch 'block-7.2' into for-next
 
---===============8917553515969782541==--
+--===============4705783902562441585==--
