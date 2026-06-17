@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893213607878848704=="
+Content-Type: multipart/mixed; boundary="===============6470972577127257669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 Jun 2026 20:34:42 -0000
-Message-Id: <178172848218.116464.14245153001118799041@gitolite.kernel.org>
+Date: Wed, 17 Jun 2026 20:34:48 -0000
+Message-Id: <178172848889.116766.7186542044541905664@gitolite.kernel.org>
 
---===============2893213607878848704==
+--===============6470972577127257669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 66affa37cfac0aec061cc4bcf4a065b0c52f7e19
     new: e771677c937da5808f7b6c1f0e4a97ec1a84f8a8
     log: revlist-66affa37cfac-e771677c937d.txt
 
---===============2893213607878848704==
+--===============6470972577127257669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d44ade05aa21468bd30652bc4492891b854a400a Merge tag 'for_linus' of git://git.kern
 d076a8d3b9b36563fdd029ef33c79f713445970e Merge tag 'iommu-updates-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 e771677c937da5808f7b6c1f0e4a97ec1a84f8a8 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 
---===============2893213607878848704==--
+--===============6470972577127257669==--
