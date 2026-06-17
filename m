@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1860716670128683591=="
+Content-Type: multipart/mixed; boundary="===============5178455870993694924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 17 Jun 2026 15:46:42 -0000
-Message-Id: <178171120263.4089104.3807594861625642123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 17 Jun 2026 15:47:00 -0000
+Message-Id: <178171122045.4089402.16697891434192463084@gitolite.kernel.org>
 
---===============1860716670128683591==
+--===============5178455870993694924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 522ae978ac720a919941caab2fd9fed999fd6c9b
     log: revlist-8c214ad8cb8d-522ae978ac72.txt
 
---===============1860716670128683591==
+--===============5178455870993694924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d65ffdfb3da20549d941af43c8fd82c4587cd2d1 perf c2c: Fix hist entry and format lis
 a3c788fd7fcea81d60c0228478543c6da9439605 perf bpf: Validate array presence before casting BPF prog info pointers
 522ae978ac720a919941caab2fd9fed999fd6c9b perf dso: Set standard errno on decompression failure
 
---===============1860716670128683591==--
+--===============5178455870993694924==--
