@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 17 Jun 2026 22:19:21 -0000
-Message-Id: <178173476142.194533.14518555809301899090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Wed, 17 Jun 2026 22:28:52 -0000
+Message-Id: <178173533290.201491.7523349686163141872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/tags/mm-stable-2026-06-17-15-16
-    old: 0000000000000000000000000000000000000000
-    new: d8eafb6291a0e0968dbdb94aaa48702fd91d1df0
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
+  - ref: refs/heads/next
+    old: 5f4974231fb3656c15a82faece9f2303b8c18a14
+    new: 808c447df2fe234eb7d9e08ecf53159d291c104c
+    log: |
+         808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+         
