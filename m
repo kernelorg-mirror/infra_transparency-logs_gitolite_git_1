@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0181435631564931678=="
+Content-Type: multipart/mixed; boundary="===============5647495037309201413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 17 Jun 2026 19:58:17 -0000
-Message-Id: <178172629749.89935.13709530948612471244@gitolite.kernel.org>
+Date: Wed, 17 Jun 2026 19:58:40 -0000
+Message-Id: <178172632032.90376.8289887405460826387@gitolite.kernel.org>
 
---===============0181435631564931678==
+--===============5647495037309201413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,81 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 922bbdcb491ef8c4c8cbdde1ce67b221d720796b
+  - ref: refs/heads/for-7.1-fixes-dead-race
+    old: 727af84adeb3c62fe71c413d76cb4b50d4d148f6
+    new: d3e73a0808ddfb91ac36cd548643cbbeb00ad4db
+    log: |
+         6947bea4b79115f50138882512f85fa9c93b2827 sched_ext: Cleanups in preparation for the SCX_TASK_INIT_BEGIN/DEAD work
+         938dd9ab2bd7df0a7e58ce4249794156be9530b4 sched_ext: Inline scx_init_task() and move RESET_RUNNABLE_AT into scx_set_task_state()
+         cceb8fa9cb2cf98e31d81ecf6353b6ba5ac57744 sched_ext: Replace SCX_TASK_OFF_TASKS flag with SCX_TASK_DEAD state
+         c941d7391f258d5d06e0f7e962a52f99a547a83e sched_ext: Close root-enable vs sched_ext_dead() race with SCX_TASK_INIT_BEGIN
+         cd6aab736702f981ac4d128e04a4e33105ea797d sched_ext: Close sub-sched init race with post-init DEAD recheck
+         d3e73a0808ddfb91ac36cd548643cbbeb00ad4db sched_ext: Handle SCX_TASK_NONE in disable/switched_from paths
+         
+  - ref: refs/heads/master
+    old: 507bd4b66c85d5b65696150cc16d31ac0b2ab151
     new: e771677c937da5808f7b6c1f0e4a97ec1a84f8a8
-    log: revlist-922bbdcb491e-e771677c937d.txt
+    log: revlist-507bd4b66c85-e771677c937d.txt
+  - ref: refs/heads/arena-direct-v3.1
+    old: 0000000000000000000000000000000000000000
+    new: 654105a8afeb421d4089bece803d89abfeee37d5
+  - ref: refs/heads/arena-kaddr-prep
+    old: 0000000000000000000000000000000000000000
+    new: 2e05f2fd0dd72aa8aa56cf355e1e39a3f565b4ca
+  - ref: refs/heads/cgroup-for-7.1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: d8769544bde51b0ac980d10f8fe9f9fed6c95995
+  - ref: refs/heads/cid-arena-rfc-v2
+    old: 0000000000000000000000000000000000000000
+    new: c46eae16d44b112b15deace8116366d6545ac171
+  - ref: refs/heads/cid-arena-rfc-v2.1
+    old: 0000000000000000000000000000000000000000
+    new: dd4cdb8247037b119d7a1b46cb5d7bcf8f8cc7b6
+  - ref: refs/heads/cmask-cid-prep
+    old: 0000000000000000000000000000000000000000
+    new: e275b7e61f832056e870bbd1150b90efb20a1cd3
+  - ref: refs/heads/cmask-cid-prep-v2
+    old: 0000000000000000000000000000000000000000
+    new: 70390da50c30cb22a8b19054f15df1b1bb38904c
+  - ref: refs/heads/cmask-prep-v2.2
+    old: 0000000000000000000000000000000000000000
+    new: 16cc1d1c0f194c770d0563fe77cdcc382fbf2783
+  - ref: refs/heads/first-two-patches-test
+    old: 0000000000000000000000000000000000000000
+    new: 2bdac1b9ae7f42fba983e71589042d25d0a94e2a
+  - ref: refs/heads/ppc32-build-fix
+    old: 0000000000000000000000000000000000000000
+    new: ff0e20b31da8de3c5d56fd5164eb835829bb485c
+  - ref: refs/heads/pr-base-for-7.2
+    old: 0000000000000000000000000000000000000000
+    new: 17bc71cb022a522c68a1135771bb5ebb6796c985
+  - ref: refs/heads/test-cross-7.1-rc2-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 85940f82cff570cd1d14faa4acfdb6251af6e158
+  - ref: refs/heads/test-cross-7.1-rc2-fixes-rev
+    old: 0000000000000000000000000000000000000000
+    new: e1aa067a7020cb91d5dfea7edb816e3b4743d5e1
+  - ref: refs/heads/test-merge-for-7.1-rc1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: b10f15c4d081a59466f88df5b0722190689d6d18
+  - ref: refs/heads/test-merge-for-7.1-rc2-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 3428de0869aa1e8de9fd36ce1ccbcda9f1b88a20
+  - ref: refs/heads/test-merge-for-7.2
+    old: 0000000000000000000000000000000000000000
+    new: d4574158f854ba82f280506f5207e577e92760fc
+  - ref: refs/heads/test-merge-sched_ext-7.1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 393b4bc7b2f143a7c44b35c81393b589fc8d1d26
+  - ref: refs/heads/uaf-repro
+    old: 0000000000000000000000000000000000000000
+    new: 9a415cc53711f2238e0f0ca8a6bcc796c003b127
 
---===============0181435631564931678==
+--===============5647495037309201413==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-922bbdcb491e-e771677c937d.txt
+Content-Disposition: attachment; filename=revlist-507bd4b66c85-e771677c937d.txt
 
 682edc28b91c2f1bba32e1c6815c33ef799ec538 b43: add firmware mappings for rev22
 ee81dc7636fb808a5f480d2767130a7cf3554f9a b43: add d11 core revision 0x16 to id table
@@ -1051,4 +1116,4 @@ d44ade05aa21468bd30652bc4492891b854a400a Merge tag 'for_linus' of git://git.kern
 d076a8d3b9b36563fdd029ef33c79f713445970e Merge tag 'iommu-updates-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 e771677c937da5808f7b6c1f0e4a97ec1a84f8a8 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 
---===============0181435631564931678==--
+--===============5647495037309201413==--
