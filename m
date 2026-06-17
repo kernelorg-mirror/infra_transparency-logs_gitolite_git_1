@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 16 Jun 2026 23:58:30 -0000
-Message-Id: <178165431079.3375820.7026092076640966334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Wed, 17 Jun 2026 00:01:52 -0000
+Message-Id: <178165451282.3379261.18357587744688398553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: ab9fa49bc571d52fee644a0122b6b8862e098fb7
-    new: 9d38dac2cac0d5bd6e4390534c0a92819186a4b2
+  - ref: refs/heads/dev-test
+    old: 4496f43db7c7388cd9e49878c4c4bef82e6ec738
+    new: b6bbe1e98d9029d0dfd0de1940f4b6098f62ea40
     log: |
-         565b4209ae683e6ef8872fa345a9f90f9b7bed14 nfsd: reject out-of-range nseconds in NFSv3 SETATTR and create ops
-         ad30fe25751994d59f71261cbcfd161fbd2a15b2 nfsd: use NSEC_PER_SEC in nfsd4_decode_nfstime4()
-         9d38dac2cac0d5bd6e4390534c0a92819186a4b2 siw: Enable try_gso
+         f5e13ff0fe1b51c6e52f1883ec2cdf6a0d408022 Revert "f2fs_io: support xattr(large_folio)"
+         20647cf06d71daed54ba098a2986a1593e5cf207 fsck.f2fs: support to fix inconsistent sit->type of segments in large section
+         3d8d2a38c2e7ddf90c5f20cddac21aaa43c01916 fsck.f2fs: recognize inconsistent orphan error
+         8407a180d7d73f467b9f0a0b70ef7056eadff05f inject.f2fs: fix injecting nat/sit journal in compact summary
+         f782dcac7ffd854720f69114e47c91595da4d0dd fsck.f2fs: support to fix inconsistent sit->type of segments in large section
+         92629158880258268b70e6b06c3667e045637d3b fsck.f2fs: sanity check i_inline_xattr_size correctly
+         b6bbe1e98d9029d0dfd0de1940f4b6098f62ea40 fsck.f2fs: add bounds checking for orphan entry_count
          
