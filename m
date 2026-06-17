@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1505275026538873412=="
+Content-Type: multipart/mixed; boundary="===============2446142515997594722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Wed, 17 Jun 2026 16:37:09 -0000
-Message-Id: <178171422931.4131502.15260363511576690933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Wed, 17 Jun 2026 16:37:46 -0000
+Message-Id: <178171426662.4131893.14418421218437132166@gitolite.kernel.org>
 
---===============1505275026538873412==
+--===============2446142515997594722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 66affa37cfac0aec061cc4bcf4a065b0c52f7e19
     log: revlist-6b5a2b7d9bc1-66affa37cfac.txt
 
---===============1505275026538873412==
+--===============2446142515997594722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d4d9d39f046012ff330e81dcd9b1beadf3759f7e Merge tag 'wq-for-7.2' of git://git.ker
 231e9d447ea97033ae8b8dff7b910e6269d7c5af Merge tag 'selinux-pr-20260615' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 66affa37cfac0aec061cc4bcf4a065b0c52f7e19 Merge tag 'audit-pr-20260615' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 
---===============1505275026538873412==--
+--===============2446142515997594722==--
