@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 17 Jun 2026 15:15:19 -0000
-Message-Id: <178170931916.4065467.337235776554193932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Wed, 17 Jun 2026 15:16:27 -0000
+Message-Id: <178170938764.4066283.3585617039590341887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/for-linus
-    old: 9016780802f4a6d740457570e6c6ec2c6214f726
-    new: 304081b8a9da36d03f883325eff67c6df11aa69b
+  - ref: refs/heads/master
+    old: 4bef9a89d94cafa551f5513ec58e96eb9199426b
+    new: 4689e8e915c50bfacbb5e06fd9e3763e36317174
     log: |
-         12aad822fb9a761f3a9d278083a5bdcb1524e5ec spi: acpi: Free resource list at appropriate time
-         304081b8a9da36d03f883325eff67c6df11aa69b Merge remote-tracking branch 'spi/for-7.1' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 9016780802f4a6d740457570e6c6ec2c6214f726
-    new: 304081b8a9da36d03f883325eff67c6df11aa69b
-    log: |
-         12aad822fb9a761f3a9d278083a5bdcb1524e5ec spi: acpi: Free resource list at appropriate time
-         304081b8a9da36d03f883325eff67c6df11aa69b Merge remote-tracking branch 'spi/for-7.1' into spi-linus
+         27e899db7fd3f945f0c144cff179e4e558d0a053 cap_proc: use 32-bit-clean setuid/setgid syscalls in the psx path
+         4689e8e915c50bfacbb5e06fd9e3763e36317174 Consistently use 32-bit variant of setuid/setgid calls on legacy archs.
          
