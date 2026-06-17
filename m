@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7490073814486709042=="
+Content-Type: multipart/mixed; boundary="===============0608506821622539578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 17 Jun 2026 09:10:55 -0000
-Message-Id: <178168745519.3785985.12534727660196423785@gitolite.kernel.org>
+Date: Wed, 17 Jun 2026 09:11:11 -0000
+Message-Id: <178168747141.3786302.15182568987863034212@gitolite.kernel.org>
 
---===============7490073814486709042==
+--===============0608506821622539578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: eee0b0076ec7d06a33f021755030f76515795028
-    new: 687d87a24196ca08b495e78dbf49e5929e3a2c4d
-    log: revlist-eee0b0076ec7-687d87a24196.txt
+    old: 687d87a24196ca08b495e78dbf49e5929e3a2c4d
+    new: 45d4fd3488cfde8cdf1e03cd178aaa193dd314d7
+    log: |
+         65acea8382500027fd573a3a1ba849c42fa4f1c2 Merge branch into tip/master: 'x86/urgent'
+         45d4fd3488cfde8cdf1e03cd178aaa193dd314d7 Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 20f6e8a48afb103d9cc9fa1a4f165fbfd9878e0f
+    new: 65acea8382500027fd573a3a1ba849c42fa4f1c2
+    log: revlist-20f6e8a48afb-65acea838250.txt
 
---===============7490073814486709042==
+--===============0608506821622539578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eee0b0076ec7-687d87a24196.txt
+Content-Disposition: attachment; filename=revlist-20f6e8a48afb-65acea838250.txt
 
 ade3b16a01568ab1feceddfb0841aabfaaf7953e wifi: mac80211_hwsim: claim DBE capability
 6aded6c10490d5b24325e46f22b327876b669f72 Merge tag 'rtw-next-2026-06-03' of https://github.com/pkshih/rtw
@@ -1049,6 +1056,6 @@ d755d45bc08a57a3b845b850f8760de922a499bf Merge git://git.kernel.org/pub/scm/linu
 d954a67a7dfa58b7a9b3194322d321b940eb60c8 ipv4: fib_rule: Move fib4_rules_exit() to ->exit().
 b85966adbf5de0668a815c6e3527f87e0c387fb4 Merge tag 'net-next-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 9c87e61e3c5797277407ba5eae4eac8a52be3fa3 Merge tag 'bpf-next-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
-687d87a24196ca08b495e78dbf49e5929e3a2c4d Merge branch 'linus'
+65acea8382500027fd573a3a1ba849c42fa4f1c2 Merge branch into tip/master: 'x86/urgent'
 
---===============7490073814486709042==--
+--===============0608506821622539578==--
