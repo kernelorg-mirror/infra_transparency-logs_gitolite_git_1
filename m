@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2137099613881377728=="
+Content-Type: multipart/mixed; boundary="===============1193063879120163696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 17 Jun 2026 12:06:09 -0000
-Message-Id: <178169796946.3914839.9392673570017976348@gitolite.kernel.org>
+Date: Wed, 17 Jun 2026 12:06:14 -0000
+Message-Id: <178169797437.3915063.1182841069056324694@gitolite.kernel.org>
 
---===============2137099613881377728==
+--===============1193063879120163696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 44543bb53ebfecb5ce4e890053a666affab9e482
     new: 8c214ad8cb8d692c82c6466b8e88973dbfa8e064
     log: revlist-44543bb53ebf-8c214ad8cb8d.txt
 
---===============2137099613881377728==
+--===============1193063879120163696==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -240,4 +240,4 @@ fcc4b5de18456b5517ea694625e0cb1381c331f4 perf sched: Replace (void*)1 sentinel w
 a1c9629e07b48d45f9e08ead137bcff22e098565 perf c2c: Free format list entries when releasing c2c hist entries
 8c214ad8cb8d692c82c6466b8e88973dbfa8e064 perf cs-etm: Reject CPU IDs that would overflow signed comparison
 
---===============2137099613881377728==--
+--===============1193063879120163696==--
