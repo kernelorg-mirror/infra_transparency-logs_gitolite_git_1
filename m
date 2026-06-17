@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2952090787321695484=="
+Content-Type: multipart/mixed; boundary="===============0597857563050099498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 Jun 2026 15:28:56 -0000
-Message-Id: <178171013614.4074731.11829768297313498209@gitolite.kernel.org>
+Date: Wed, 17 Jun 2026 15:29:03 -0000
+Message-Id: <178171014323.4074949.2100731879448404879@gitolite.kernel.org>
 
---===============2952090787321695484==
+--===============0597857563050099498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e4287bf34f97a88c7d9322f5bde828724c073a6b
     new: 66affa37cfac0aec061cc4bcf4a065b0c52f7e19
     log: revlist-e4287bf34f97-66affa37cfac.txt
 
---===============2952090787321695484==
+--===============0597857563050099498==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d4d9d39f046012ff330e81dcd9b1beadf3759f7e Merge tag 'wq-for-7.2' of git://git.ker
 231e9d447ea97033ae8b8dff7b910e6269d7c5af Merge tag 'selinux-pr-20260615' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 66affa37cfac0aec061cc4bcf4a065b0c52f7e19 Merge tag 'audit-pr-20260615' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 
---===============2952090787321695484==--
+--===============0597857563050099498==--
