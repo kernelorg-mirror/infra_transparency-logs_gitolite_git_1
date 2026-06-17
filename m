@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 17 Jun 2026 23:26:16 -0000
-Message-Id: <178173877669.245230.13568967725109863965@gitolite.kernel.org>
+Date: Wed, 17 Jun 2026 23:33:34 -0000
+Message-Id: <178173921414.249691.14210479274584037208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1f24c0d01db214c9e661915e9972404c96ca73c0
-    new: a056db30de92945ff8ee6033096678bfbae878e3
+    old: a056db30de92945ff8ee6033096678bfbae878e3
+    new: 4f6ac65e81625165257131ec2574bb6bb09bd7d8
     log: |
-         a056db30de92945ff8ee6033096678bfbae878e3 octeontx2-pf: Fix leak of SQ timestamp buffer on teardown
+         4f6ac65e81625165257131ec2574bb6bb09bd7d8 octeontx2-af: npc: Log successful MCAM drop-on-non-hit install at debug level
          
