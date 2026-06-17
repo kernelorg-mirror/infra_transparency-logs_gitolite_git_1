@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 17 Jun 2026 09:16:51 -0000
-Message-Id: <178168781156.3790572.8260189132266532854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 17 Jun 2026 09:17:40 -0000
+Message-Id: <178168786092.3791022.5526350851576216912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/dev-test
-    old: 99980e9a7eca5ba3f4a2892acb0ccdcc7fe1dd8f
-    new: e09fef94a578f7ef81b1dd271db43657da962478
+  - ref: refs/heads/master
+    old: 398ad5d01268429d6a6359f8c3d7987879a19935
+    new: 019a62c2dc5a05c8b2c58455da49009ed2c5c96e
     log: |
-         e09fef94a578f7ef81b1dd271db43657da962478 erofs: add folio order to trace_erofs_read_folio
+         09d85523054f242072c98cba0ec0c62dfe26fb35 lscpu: riscv: preserve ISA extension order
+         4bd500997b3ceeaf699b78fa02e0b3de4a478c6c tests: (test_mkfds,lsfd,refactor) move error definitions to test_mkfds.h
+         d4e1828832f8045b4a6f98dc9df6656315aa77ce tests: (lsfd::mkfds-multiplexing,refactor) use ENOSYS connstant
+         b8b312105bdac5c2471dcb445271669e9e14dc0d tests: fix "above" to "following" in cross-reference comments
+         019a62c2dc5a05c8b2c58455da49009ed2c5c96e Merge branch 'lscpu-riscv-preserve-isa-order' of https://github.com/ZephyrLi-pro/util-linux-c
          
