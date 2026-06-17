@@ -1,120 +1,259 @@
-Content-Type: multipart/mixed; boundary="===============6904228520589554856=="
+Content-Type: multipart/mixed; boundary="===============0116236137328251120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 17 Jun 2026 16:14:13 -0000
-Message-Id: <178171285381.4111612.14897314767617406911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 17 Jun 2026 16:26:12 -0000
+Message-Id: <178171357295.4122254.5112840359722796125@gitolite.kernel.org>
 
---===============6904228520589554856==
+--===============0116236137328251120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-queue
-    old: c50bfa9768ff3a5163746c6362a8a910a0b4dca0
-    new: ef8e3ea84931bd797985896e99ea0f6106a686ec
-    log: revlist-c50bfa9768ff-ef8e3ea84931.txt
+  - ref: refs/heads/jch
+    old: 655b3b730e201fb9c1f3cc610ed8881fd8a97e78
+    new: e545aa9d3e0831a3333e6833b0c40426419ed5c3
+    log: revlist-655b3b730e20-e545aa9d3e08.txt
+  - ref: refs/heads/main
+    old: 0fae78c9d55efe705877ea537fe42c59164ccd94
+    new: 4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d
+    log: |
+         6e670b3f0c3b80a9d417d5fef36904a21161587a index-pack: retain child bases in delta cache
+         522ea8ef7d8511e63e480596c6caa58491b8946d osxkeychain: fix build with Rust
+         88c737a9e6a09a8f4b59be5730a490427a8d7c82 Merge branch 'js/osxkeychain-build-wo-rust'
+         311ea939c80afa4c1b0db919e9e58f63dcc139ff Merge branch 'ab/index-pack-retain-child-bases'
+         4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d Git 2.55-rc1
+         
+  - ref: refs/heads/master
+    old: 0fae78c9d55efe705877ea537fe42c59164ccd94
+    new: 4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d
+    log: |
+         6e670b3f0c3b80a9d417d5fef36904a21161587a index-pack: retain child bases in delta cache
+         522ea8ef7d8511e63e480596c6caa58491b8946d osxkeychain: fix build with Rust
+         88c737a9e6a09a8f4b59be5730a490427a8d7c82 Merge branch 'js/osxkeychain-build-wo-rust'
+         311ea939c80afa4c1b0db919e9e58f63dcc139ff Merge branch 'ab/index-pack-retain-child-bases'
+         4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d Git 2.55-rc1
+         
+  - ref: refs/heads/next
+    old: d6f94ed593cf222321f8eebf39869e60de9117e3
+    new: 3b0662c7b3a4a6dab9e3cb8a89039457b92b29fd
+    log: |
+         522ea8ef7d8511e63e480596c6caa58491b8946d osxkeychain: fix build with Rust
+         d5f6cec43d9382aefee3c5492d4daa5712765be1 Merge branch 'js/osxkeychain-build-wo-rust' into next
+         88c737a9e6a09a8f4b59be5730a490427a8d7c82 Merge branch 'js/osxkeychain-build-wo-rust'
+         311ea939c80afa4c1b0db919e9e58f63dcc139ff Merge branch 'ab/index-pack-retain-child-bases'
+         4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d Git 2.55-rc1
+         3b0662c7b3a4a6dab9e3cb8a89039457b92b29fd Sync with Git 2.55-rc1
+         
+  - ref: refs/heads/seen
+    old: 80b9fc21daad8d53a0700f360218f29176081bf1
+    new: db212fc18d345b00f6f45667c27e6d778c18f66d
+    log: revlist-80b9fc21daad-db212fc18d34.txt
+  - ref: refs/notes/amlog
+    old: d0b3afa7c3f9d057560c28b28274489cc1b25486
+    new: e0de30abd1319b88328eace5659260e1d46495c3
+    log: revlist-d0b3afa7c3f9-e0de30abd131.txt
+  - ref: refs/tags/v2.55.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 38277fd4343ba9f6abc41a3cad36cfa96af21c2a
 
---===============6904228520589554856==
+--===============0116236137328251120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c50bfa9768ff-ef8e3ea84931.txt
+Content-Disposition: attachment; filename=revlist-655b3b730e20-e545aa9d3e08.txt
 
-6a0139d7fb95cf1790279eaffd72663fd6ef3d57 ice: fall back to SBQ when LL PHY timer interface times out
-dd5a2684f0a1d972656da43b772094faaf00e732 i40e: fix netdev leak in i40e_vsi_setup() error paths
-9b9b3abd5fd65a0a74de157d7d212949909e7827 e1000: fix memory leak in e1000_probe()
-1df8460d2ecd755d8926297b4536f305df4a4856 virtchnl: move virtchnl and virtchnl2 headers to 'include/linux/net/intel'
-efa6214978b9ede7e382f2ba2d171693a405780c libie: add PCI device initialization helpers to libie
-51573894070373c589d5bb590aa5b4615eaa2be2 libeth: allow to create fill queues without NAPI
-ec1292c9cc80a7211c034a3a2d0a83c9743be19f libie: add control queue support
-40196740b3f18510d0484698e048b4e243f7cdce libie: add bookkeeping support for control queue messages
-b4cffa452847c70d9e7cfcf666445cf4c7adaf7b idpf: remove 'vport_params_reqd' field
-bb3c04d4672fb2c8a462c8f333cff264c8903578 idpf: remove unused code for getting RSS info from device
-e45acc2cbfa297967ba1da8b20d0be942d07309d idpf: refactor idpf to use libie_pci APIs
-31d6a24def3ce89c1ee5f83c33efc78f03a679f7 idpf: refactor idpf to use libie control queues
-8840ced6281da7858813266f9e18a27ae5d538a8 idpf: make mbx_task queueing and cancelling more consistent
-a121e3fb86dd6f65dbfb1fb29337a255707f851b idpf: print a debug message and bail in case of non-event ctlq message
-7b169ff11a09fe24c2237a529c150db3c71ac67f ixd: add basic driver framework for Intel(R) Control Plane Function
-d87eaea102917a7b0d9573d761b88bdf9990c619 ixd: add reset checks and initialize the mailbox
-681c2509fc22ccefa9304f93c2551945a4ff4583 ixd: add the core initialization
-b1ea445639e92ab24fafbcb5856879252eaf6997 ixd: add devlink support
-73acf0e4e7212e9c7eebc649a679c13f24dc0b73 igb: set skb hash type from RSS_TYPE
-8bdc1ef20f49b1dbd2a5c95e9467e12fc2a6b724 igb: prepare for RSS key get/set support
-60baff3e11bbd1b530c53c4702e679d864b40f12 igb: expose RSS key via ethtool get_rxfh
-17651f7bfeae3ad157b270ccf8ac0df5abd9ab27 igb: allow configuring RSS key via ethtool set_rxfh
-2d45b576af3767682eec5ef8dd5d4850b1615dee igc: prepare for RSS key get/set support
-36d051c69befbeb2096a2bca3a2a8da65b633a36 igc: expose RSS key via ethtool get_rxfh
-8633bc8ab3d68883187140bebfdebfd9ef8dcb62 igc: allow configuring RSS key via ethtool set_rxfh
-d76ccf2146f01151545f6c0cae92a27816441c87 ixgbe: e610: add ACI dynamic debug
-d8df4f60aa6fd7c385d3f4d54058474ff44666b1 ice: in dvm, use outer VLAN in MAC, VLAN lookup
-fd717ddbb36fa3620cda0c94f0e3f6bee4ccaf0e ice: allow creating mac, vlan filters along mac filters
-69df8103459e3e0ecefa6c41d84824158f93a142 ice: allow overriding lan_en, lb_en in switch
-fe5ed234610d758659c3a2f408f1353677a1812a ice: update mac, vlan rules when toggling between VEB and VEPA
-d3156c8954f06002273ecc84b67c43ec34c03e68 ice: add functions to query for vsi's pvids
-75f64b5473769bc5a95ec49b4eb805244e3f6b8e ice: add mac vlan to filter API
-aa021c3c4d203ea762e99ebde9267253af025346 ice: in VEB, prevent "cross-vlan" traffic from hitting loopback
-1c5d9a80eaab514283f67cdf3a4fcb1a335f9937 ice: add support for unmanaged DPLL on E830 NIC
-eb1ccbdc6b0c156eaea27d150babf067e0a8ae7f ethtool: treat RXH_GTP_TEID as intrinsically symmetric
-ca051a3f9124df68542ceb2494f37485e2ac4d8e ice: implement symmetric RSS hash configuration
-c5f88c2c44c4a56cfc90a46830f389d790a1d778 igc: set RX hardware timestamps in igc_build_skb()
-652faf6a7313ccee3fe90584e89e0b28c3e61961 igc: enable build_skb on the non-XDP small-frame RX path
-1c5c0039bf4737899709e5b622d386ee04530016 ice: add ethtool reset support to safe mode ops
-5fa8889aaa24a47b897d940e6d0f435a84d91fc2 i40e: prepare for XDP metadata ops support
-c7c435352de6a22878b1e859f0ba267e6eb99933 i40e: add support for bpf_xdp_metadata_rx_hash()
-a09d199e6d5610d0190a2e375eed14d5d7bdfaba i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
-126bf5a47d4e6666be0eb778e5e64e8523780651 virtchnl: add VIRTCHNL_VLAN_ETHERTYPE_88E7 support
-3dc2c43da0f16de811df62d3729b6d663d2bbdd7 ice: add 0x88E7 handling to SW validation paths
-b73e318d3217c9f9dd7ee1bbdf498352b29b6c14 ice: reduce loglevel to debug for 'Can't delete DSCP' message
-c1a71542a1e26678903640ac463988ab4b24e2c0 ice: use ice_fill_eth_hdr() in ice_fill_sw_rule()
-4bbd0bdd9ecb306340e2a8817d83f139935c325d ice: remove excessive memory allocation in ice_create_lag_recipe()
-9a02e4a70c46f9861042d2b3ea6491cb9665617b ixgbe: lower IXGBE_ITR_ADAPTIVE_MAX_USECS to prevent RX starvation
-c57582262343274bffadf960108df59d03caf527 ixgbe: add ixgbe_container_is_rx() helper and refine RX adaptive ITR
-144785ef10021fb8ce3fc2807ef78448ee8ebc26 ixgbe: limit ITR decrease in latency mode to prevent ACK overdrive
-baa0b8c258fe6e1258675094bcd08ec8a717acea ixgbe: add IXGBE_ITR_ADAPTIVE_MASK_USECS constant
-84d3825e3458e4b47962bd4868bc53c81024c1b8 ixgbe: remove ixgbe_ping_all_vfs() from link state change handlers
-1f21cf1e1242fe53a13a2f1cb035e8c06c253b87 ixgbe: use ktime_get_real_ns() in ixgbe_ptp_reset()
-a958585bf259836df9b2cde2cb45534429d9f4f5 ixgbe: use GFP_KERNEL in ixgbe_fcoe_ddp_setup()
-8222d6061d04ca67ef9ebfee50fe9c267dfed188 ixgbe: use int instead of u32 for error code variables
-9e0fa797ee1971f01cbd8b0b31879fafb2218842 ice: promote Tx FIFO drain timeout message from dev_dbg to dev_warn
-60a6cbaae3d4a4b2dec8b76e8c256a239f21f5d8 ice: translate FW to SW for max num TCs encoding
-4b8d04b944a43e3bc6331ccd9134b6eb12319f14 ice: allow setting advertised speed and duplex for all media types
-9c89f9abacfcb158b4458216d0099772e2f8fed5 ice: add PORT_AUI and PORT_NONE ethtool port type reporting
-094c7082af6f24441b7fa88673a62cdbec28d3d5 ice: reorder ice_flash_info fields to eliminate padding
-132a3b096d9cd7213860246601979c00a13eb336 ice: improve Add/Update VSI error messages in ice_vsi_init()
-74665f956cefdebb7611a3cd837f9bd1d3099fae ice: increase OICR interrupt moderation rate to 20K interrupts/sec
-2a90d589515e8f752ffc79a6fd1e115ef5179258 ice: emit user-visible info message for non-contiguous ETS TC config
-c41b520b54d470306bc05b5eddbd9ed8ba6b352c ice: move ice_phy_get_speed_eth56g() from ice_ptp_hw.c to ice_common.c
-fef2b12c21ad5a2b3a75a85bc7892f2a0e689474 ice: use inline helpers instead of memcmp() for IPv6 mask checks in ice_ethtool_fdir
-48c408a152428a2e61d6787d089b5db8894316bd virtchnl: remove unused defines
-e541d43969163116745f189ce07efb2a2c827acc virtchnl, iavf, ice, i40e: store VIRTCHNL_VF_* flags in bitmaps
-efc6dd055a1cc274803d8a5a2463019efc1d2f81 virtchnl, iavf, ice, i40e: add extended generic VF capability flags
-634e6e742ff9df19fa1a653d30006d8695cfac9d e1000e: Avoid DMA re-mapping on RX copybreak
-dcbc7830dd848ee2ba119c077eb2695b32300e7b ice: allow creating VFs when !CONFIG_ICE_SWITCHDEV
-3a932585d79c07de0d5c74b1669ca956de195e80 ice: remove redundant switchdev check in ice_eswitch_attach_vf()
-aa9a20cbf2e1931e2a395083b5b566e68d9d8d34 libie: log more info when virtchnl fails
-535a681ac5ade9715e5c84d01db10f1cb2dc605e igc: remove unused autoneg_failed field
-cfd193a9a81a5f3e4bc626d4b78dfa53f00c5d19 igc: move autoneg-enabled settings into igc_handle_autoneg_enabled()
-9c6271ff9938a3789bff0b63207c6afa10ea5196 igc: replace goto out with direct returns in igc_config_fc_after_link_up()
-4c5b7449fd23e403e36dd49dbd70bf409ea70907 igc: add support for forcing link speed without autonegotiation
-aaab5da3dd36203f4c82e507a81ea86f3e5a6eaf ice: add rx timestamp tracepoint for debugging
-a983051c06d160db16a7a9830c4cfe2d63712a16 ice: pass the return value of skb_checksum_help()
-2ec5e104ff79b18ece3cc2bfb47061b41782f31e i40e: pass the return value of skb_checksum_help()
-f700a99dff99de0271f1fc2e2dd803da32f877a8 iavf: pass the return value of skb_checksum_help()
-c1bb161bc29f09f3be7f7149f22c596d37e12fe6 idpf: pass the return value of skb_checksum_help()
-b852d5b02d89767e967f7d85f075dca64b612320 i40e: Avoid repeating RX filter warning
-8aa2fe38159dc23f2287ee98be17b720d4ff4eef iavf: convert crit_section to DECLARE_BITMAP
-94c2aa71cd9e3e9bc0cce02443e4c957901c32be ixgbe: LinkSec deprecated macros cleanup
-5585771c299bb3e8000ea9ee7358ae0be0a8e7b0 ice: convert hw->agg_list from linked list to xarray
-0628c6bfe6d28f06d188098c1c812b6fe20d2403 ice: count number of VSIS in agg_vsi_list
-17dc9163144303aa73ba527780f2723b60ad91c6 ice: extract function to allocate aggregator info structure
-a063a1073850f1d5ac746930a4bbe78493dc6fdb ice: remove ice_agg_node wrapper structure
-d7db68a43b01dd9d6b842ac198501ee24395c18d ice: remove unused aggregator node functions
-ef8e3ea84931bd797985896e99ea0f6106a686ec ice: refactor ice_sched_cfg_agg to take agg_info pointer
+a5142f44dca3e072ff0c71c61cb635beaf555867 lib-log-graph: move check_graph function
+53967f242acfd24aed42c617f861c534452659bd graph: indent visual root in graph
+800581cd44e1d164e53f624257fcc0ceb937d154 cat-file: speed up default format
+0bf506efd40251ebdc9ed829d8bb90d879d2c7aa gitattributes: fix eol attribute for Perl scripts
+54a441bcea885c13c7a8a80bc3bbcfb1ace9f8a9 read_gitfile(): simplify NOT_A_REPO error message
+67e0e6bec7a679b5918a90f0eef1f82a0b14684c fetch: fixup set_head advice for warn-if-not-branch
+b1f7a90aee982c72d7cb718996e1b175054f537c doc: explain fetchRemoteHEADWarn advice
+e434676284f9f3e4547ebec5d467346130427f74 t5510: cleanup remote in followRemoteHEAD dangling ref test
+82b7cb14ca10fc41b76a68cd62421890701e082b fetch: rename function report_set_head
+6edf50b89c86cc6e12f5d6fa3ea4be51171ccda4 fetch: refactor do_fetch handling of followRemoteHEAD
+c3bfc5ace68658c0a34264b9898d7984cd347bbd fetch: add configuration variable fetch.followRemoteHEAD
+51de0d5fa11738c9afecf84a2d79e83e65d6eead fetch: fixup a misaligned comment
+522ea8ef7d8511e63e480596c6caa58491b8946d osxkeychain: fix build with Rust
+4a59ffe84961f6a3de29b302bcef188583a29dfa builtin/refs: drop `the_repository`
+52fb7f94fcc20199cc7dc23db8d7f71ec37b80f8 builtin/refs: add "delete" subcommand
+8b3bc491d883ff53b47ac589d6ecba93944b0d40 builtin/refs: add "update" subcommand
+e993bd4b59834a157e878d8ad6c97ee6076198d8 builtin/refs: add "create" subcommand
+7d6f98431e09d4434313540c81b52578a61a41e5 builtin/refs: add "rename" subcommand
+88c737a9e6a09a8f4b59be5730a490427a8d7c82 Merge branch 'js/osxkeychain-build-wo-rust'
+311ea939c80afa4c1b0db919e9e58f63dcc139ff Merge branch 'ab/index-pack-retain-child-bases'
+4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d Git 2.55-rc1
+cce9d6aefcab3c67a800f86598aa93b2bcc30986 Merge branch 'hn/status-pull-advice-qualified' into jch
+932e62574210a8bd5485acac8a1af1a804eaebd0 Merge branch 'cc/promisor-auto-config-url-more' into jch
+a18c98272c7c187deb87922abc0356289775f231 Merge branch 'ps/transport-helper-tsan-fix' into jch
+68e6be4d1b872213a189f3046fb8e13ac4a80b34 Merge branch 'ty/move-protect-hfs-ntfs' into jch
+f68d61f617bd21f434323d293b4422eaff34a953 Merge branch 'td/describe-tag-iteration' into jch
+1bd125cc87657a19986d31ca0e0a28cb9a254104 Merge branch 'jc/t1400-fifo-cleanup' into jch
+d59a96cc04c788d3ee2391ba8ba153f1d2c5fb32 Merge branch 'ps/setup-drop-global-state' into jch
+fa2958e8eb42c64d16dc681349ad522da4f05de2 Merge branch 'ta/doc-config-adoc-fixes' into jch
+48c371ef9eff5465dc4cc670be1a8de437175d7c Merge branch 'td/ls-files-pathspec-prefilter' into jch
+f8270b316430e2dad5c2202fc4f6fd6fb826b963 Merge branch 'dl/posix-unused-warning-clang' into jch
+3812a9155ebe14d700a6d336fd418ea3c45f521a Merge branch 'en/commit-graph-timestamp-fix' into jch
+343c670f9f568f618a0c505c8f59b9cab7f21612 ### match next
+33148aa6fededa56f8e8ce21ad477fed62b48986 Merge branch 'ps/doc-recommend-b4' into jch
+a6bc7d901da0bea70f5445becbdebe147978a98f Merge branch 'rs/cat-file-default-format-optim' into jch
+8ea8e752767d393501b6d5243eefae6f00d72b3c Merge branch 'jk/setup-gitfile-diag-fix' into jch
+3c02cd812b1ceacc2ec17620a1ab834e44d948e7 Merge branch 'ps/shift-root-in-graph' into jch
+648229e2bbd9421d067a99651225434e18f8d4b7 Merge branch 'kw/gitattributes-typofix' into jch
+ffb9e1e511526451ad41870073cf4cd8b284e426 Merge branch 'ps/refs-writing-subcommands' into jch
+2225c278b00b517687ae680ae2dfc2f24b19122e Merge branch 'mh/fetch-follow-remote-head-config' into jch
+86a98bff790c9cd668ace5c9f8e2cbad1951a9e6 Merge branch 'kh/doc-replay-config' into jch
+441ea4f90a0674682d172a790e59ad17b2e37bf2 Merge branch 'za/completion-hide-dotfiles' into jch
+81b60cd01bb19ed88f06a48071629970a56cd570 Merge branch 'kh/doc-trailers' into jch
+e545aa9d3e0831a3333e6833b0c40426419ed5c3 Merge branch 'en/ort-harden-against-corrupt-trees' into jch
 
---===============6904228520589554856==--
+--===============0116236137328251120==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-80b9fc21daad-db212fc18d34.txt
+
+d1b74b6b988e71d78d05a3fd6f186025e3f692ba hash-object: demonstrate a >4GB/LLP64 problem
+a39fda4fca37c1b8700ccfe0f9d0194445373b97 object-file.c: use size_t for header lengths
+58823d431061b82a9cd02a1623aff6fe93a51446 hash algorithms: use size_t for section lengths
+9729b5e2f209ff982cf536773bc223d149910968 hash-object --stdin: verify that it works with >4GB/LLP64
+2fefea368287f225c1b050453fe16149ab4eae8f hash-object: add another >4GB/LLP64 test case
+d99e13d0bec75820f48924d3489394172b7a4be2 hash-object: add a >4GB/LLP64 test case using filtered input
+67e0e6bec7a679b5918a90f0eef1f82a0b14684c fetch: fixup set_head advice for warn-if-not-branch
+b1f7a90aee982c72d7cb718996e1b175054f537c doc: explain fetchRemoteHEADWarn advice
+e434676284f9f3e4547ebec5d467346130427f74 t5510: cleanup remote in followRemoteHEAD dangling ref test
+82b7cb14ca10fc41b76a68cd62421890701e082b fetch: rename function report_set_head
+6edf50b89c86cc6e12f5d6fa3ea4be51171ccda4 fetch: refactor do_fetch handling of followRemoteHEAD
+c3bfc5ace68658c0a34264b9898d7984cd347bbd fetch: add configuration variable fetch.followRemoteHEAD
+51de0d5fa11738c9afecf84a2d79e83e65d6eead fetch: fixup a misaligned comment
+522ea8ef7d8511e63e480596c6caa58491b8946d osxkeychain: fix build with Rust
+e2fb4ba003dac9c71b78b997fb90aac10c11c2df packfile: rename `struct packfile_store` to `odb_source_packed`
+cf86a18ac3b4e49f49c2c19351de109064999827 packfile: split out packfile list logic
+c71a1214156374b7b8c3c9158aa27e94e70df6c9 packfile: move packed source into "odb/" subsystem
+3ac21e6d825a642dcab826772b495f492148299c odb/source-packed: store pointer to "files" instead of generic source
+0de2467e6c35930cf2530a213082829c8b86970d odb/source-packed: start converting to a proper `struct odb_source`
+4f35c8b060085835150ab605207f6669e58a8d94 odb/source-packed: wire up `close()` callback
+9ea4ef8586d8fa74bf45c1dd8da2256099abebbd odb/source-packed: wire up `reprepare()` callback
+77e175c6d03a26e97deb2a7bc707894eb45ced26 packfile: use higher-level interface to implement `has_object_pack()`
+64136a82075331d98fd1315fa957f69acb49885c odb/source-packed: wire up `read_object_info()` callback
+83f3a2b91b44d4a39bce371a7580b0ad853df8a2 odb/source-packed: wire up `read_object_stream()` callback
+7ed53cde288a1e5558acac33f2d89f17b81618e2 odb/source-packed: wire up `for_each_object()` callback
+6b7484fcb683211eafd82a7ba4b4470d553a62b6 odb/source-packed: wire up `count_objects()` callback
+3c0f7b732e37b885009cdc64a13541591ebab00e odb/source-packed: wire up `find_abbrev_len()` callback
+98189bdd0a789115e3bb5ec5d5312ce71d6f59b0 odb/source-packed: wire up `freshen_object()` callback
+f236b0c38d11b97930608384eaddd210f74fc7ab odb/source-packed: stub out remaining functions
+7fa8c61afe29bfb82066c81a82ed6393f34dd704 midx: refactor interfaces to work on "packed" source
+1bba3c035d2283456edcb159e965b8be2015e114 odb/source-packed: drop pointer to "files" parent source
+4a59ffe84961f6a3de29b302bcef188583a29dfa builtin/refs: drop `the_repository`
+52fb7f94fcc20199cc7dc23db8d7f71ec37b80f8 builtin/refs: add "delete" subcommand
+8b3bc491d883ff53b47ac589d6ecba93944b0d40 builtin/refs: add "update" subcommand
+e993bd4b59834a157e878d8ad6c97ee6076198d8 builtin/refs: add "create" subcommand
+7d6f98431e09d4434313540c81b52578a61a41e5 builtin/refs: add "rename" subcommand
+88c737a9e6a09a8f4b59be5730a490427a8d7c82 Merge branch 'js/osxkeychain-build-wo-rust'
+311ea939c80afa4c1b0db919e9e58f63dcc139ff Merge branch 'ab/index-pack-retain-child-bases'
+4621f8ce5e9b97aa2e8d0d9ffe9d25df2471074d Git 2.55-rc1
+cce9d6aefcab3c67a800f86598aa93b2bcc30986 Merge branch 'hn/status-pull-advice-qualified' into jch
+932e62574210a8bd5485acac8a1af1a804eaebd0 Merge branch 'cc/promisor-auto-config-url-more' into jch
+a18c98272c7c187deb87922abc0356289775f231 Merge branch 'ps/transport-helper-tsan-fix' into jch
+68e6be4d1b872213a189f3046fb8e13ac4a80b34 Merge branch 'ty/move-protect-hfs-ntfs' into jch
+f68d61f617bd21f434323d293b4422eaff34a953 Merge branch 'td/describe-tag-iteration' into jch
+1bd125cc87657a19986d31ca0e0a28cb9a254104 Merge branch 'jc/t1400-fifo-cleanup' into jch
+d59a96cc04c788d3ee2391ba8ba153f1d2c5fb32 Merge branch 'ps/setup-drop-global-state' into jch
+fa2958e8eb42c64d16dc681349ad522da4f05de2 Merge branch 'ta/doc-config-adoc-fixes' into jch
+48c371ef9eff5465dc4cc670be1a8de437175d7c Merge branch 'td/ls-files-pathspec-prefilter' into jch
+f8270b316430e2dad5c2202fc4f6fd6fb826b963 Merge branch 'dl/posix-unused-warning-clang' into jch
+3812a9155ebe14d700a6d336fd418ea3c45f521a Merge branch 'en/commit-graph-timestamp-fix' into jch
+343c670f9f568f618a0c505c8f59b9cab7f21612 ### match next
+33148aa6fededa56f8e8ce21ad477fed62b48986 Merge branch 'ps/doc-recommend-b4' into jch
+a6bc7d901da0bea70f5445becbdebe147978a98f Merge branch 'rs/cat-file-default-format-optim' into jch
+8ea8e752767d393501b6d5243eefae6f00d72b3c Merge branch 'jk/setup-gitfile-diag-fix' into jch
+3c02cd812b1ceacc2ec17620a1ab834e44d948e7 Merge branch 'ps/shift-root-in-graph' into jch
+648229e2bbd9421d067a99651225434e18f8d4b7 Merge branch 'kw/gitattributes-typofix' into jch
+ffb9e1e511526451ad41870073cf4cd8b284e426 Merge branch 'ps/refs-writing-subcommands' into jch
+2225c278b00b517687ae680ae2dfc2f24b19122e Merge branch 'mh/fetch-follow-remote-head-config' into jch
+86a98bff790c9cd668ace5c9f8e2cbad1951a9e6 Merge branch 'kh/doc-replay-config' into jch
+441ea4f90a0674682d172a790e59ad17b2e37bf2 Merge branch 'za/completion-hide-dotfiles' into jch
+81b60cd01bb19ed88f06a48071629970a56cd570 Merge branch 'kh/doc-trailers' into jch
+e545aa9d3e0831a3333e6833b0c40426419ed5c3 Merge branch 'en/ort-harden-against-corrupt-trees' into jch
+215a1da49df607c45d4ec6b8ddd80124d2494e92 Merge branch 'lp/repack-propagate-promisor-debugging-info' into seen
+0b71416cbee449d2f4f996ea90b1d5d28a74009c Merge branch 'pw/status-rebase-todo' into seen
+7c37f28fa93a6ce17d5e27780d58a454a3787bb9 Merge branch 'js/parseopt-subcommand-autocorrection' into seen
+84803ed2ca4e4149565523ad3ff2cc2fdfca14b4 Merge branch 'jt/config-lock-timeout' into seen
+df1653ff35e37c1f27d764db5c625c8e8fe855c3 Merge branch 'hn/checkout-track-fetch' into seen
+5e11a6afd8e95e5b679d29afec7116df499b9edb Merge branch 'kk/fetch-store-ref-optimization' into seen
+0e7c1ff54d6963037deb138743ffb4dacb4a0abc Merge branch 'cl/conditional-config-on-worktree-path' into seen
+6dc3cf2a9044c3811001281dc9edd6e79d8967eb Merge branch 'ec/commit-fixup-options' into seen
+52f4e4dfb1a862f8b04de7d0c0ae4f39ad32cb8e Merge branch 'sn/rebase-update-refs-symrefs' into seen
+8659142afda57c510ee7e180401f4b07666b7ba6 Merge branch 'tb/pack-path-walk-bitmap-delta-islands' into seen
+65edc22488a13aa24a63327ad3fc8f328f3d6b18 Merge branch 'ty/migrate-trust-executable-bit' into seen
+a5066aba8e6b0beded6df7a991a6e83516a5ed6f Merge branch 'kk/prio-queue-cascade-sift' into seen
+dfee32d95a9433d9d8bc887c102ed0f17e01f8a8 Merge branch 'jk/repo-info-path-keys' into seen
+66808fe68da98c4faa4e03e3878ce7fe935279f8 Merge branch 'ps/history-drop' into seen
+6e39372080b7bd2f2813c1bf072b138e53f610f5 Merge branch 'ap/http-redirect-wwwauth-fix' into seen
+f04295408f9aa0618610d444c68192fa1ecb0a8f Merge branch 'ps/odb-source-packed' into seen
+67966161e876356145adf3180e65caf00bdeb4fb Merge branch 'td/ref-filter-restore-prefix-iteration' into seen
+b43f5d3705317daeafc925898db080462a28d71a Merge branch 'ds/config-no-includes' into seen
+ed9c57d12e592aaf0d115025c500184c891ce9ef Merge branch 'ps/cat-file-remote-object-info' into seen
+b2f4d1d54a64879fb256a193f21fa3361f408459 Merge branch 'kk/prio-queue-get-put-fusion' into seen
+d30316650c503184767e87c1b81e33b9505be9f5 Merge branch 'hn/branch-prune-merged' into seen
+8a0835c6d2f2de70b6200652c50d8325d231f65e Merge branch 'kk/remove-get-reachable-subset' into seen
+b7618c19d46c7a3e636e786607a2925f21fcc309 Merge branch 'td/ref-filter-memoize-contains' into seen
+8e2d3c78d69518b5d53e3fb598c246c6802583f0 Merge branch 'tc/replay-linearize' into seen
+3ad015749c7f5772a549886095a28a3bab24ce39 Merge branch 'ps/refs-avoid-chdir-notify-reparent' into seen
+e08ed75bde5841ecfea7ea82fc994c49086318ee Merge branch 'kh/submittingpatches-trailers' into seen
+0c4972640a338f7f784658befb7da4c8e33a05a2 Merge branch 'wy/doc-myfirstcontribution-trim-quotes' into seen
+46bd3319987b9f56027cc9c75e28bfc9f429db33 Merge branch 'tb/midx-incremental-custom-base' into seen
+79270c87bb1c3b7579b9490bfb6cc4182ff7a957 Merge branch 'mv/log-follow-mergy' into seen
+418ac89bb3a3e268f61ea892e310e42bb6c2065e Merge branch 'mm/diff-process-hunks' into seen
+267b644785a2184f493cdebce22eefbfd2fe13e3 Merge branch 'js/objects-larger-than-4gb-on-windows-more' into seen
+9f1f0721d44a76318e7c99d84b348c2803a52fb6 Merge branch 'mm/test-grep-lint' into seen
+db212fc18d345b00f6f45667c27e6d778c18f66d Merge branch 'po/hash-object-size-t' into seen
+
+--===============0116236137328251120==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d0b3afa7c3f9-e0de30abd131.txt
+
+6f5ac84832633cdf38314354d7495d32013ebc98 amlog
+b1fbf01921687e7a2b75fc78acba4fee9efa80ef Notes added by 'git notes add'
+03ce1069649fbbabf79f3e0d170a61c6e91c2333 Notes added by 'git notes add'
+4e14547aef01dadcb27d72d729f246b2cb4dc3bc Notes added by 'git notes add'
+9556707e6974bba2896a8cfe74744e3b6d19de42 Notes added by 'git notes add'
+59fc072cdd3bf371890e87ddad80e5ee905948ea Notes added by 'git notes add'
+c6dc2f114a2e9be4458a47db70ad3f237b570b9f Notes added by 'git notes add'
+3e39b3235aeea36b5afc8fd4b41cd6107d7891ae Notes added by 'git notes add'
+f176515eb8f1f49139bad0023921092ad47615f5 Notes added by 'git notes add'
+5ed96c6b1e872c316a1cb7560d6cd0092200c0c0 Notes added by 'git notes add'
+58438fbdbdf3de80b2a61e14318682da55a0620c Notes added by 'git notes add'
+8d8b069acb36dc4235e95f247ee21c0585f920e1 Notes added by 'git notes add'
+d49f4d47ae1be8e1e3dbbc83fa6b93d006a8cb9b Notes added by 'git notes add'
+89e4a83d0f1e7540d76d0fbe4683e2858e9077de Notes added by 'git notes add'
+0ae8be35f0f9435d9b4d3078ffca2d6436440bbc Notes added by 'git notes add'
+d008fd330219870e48cabb35fd6ef413acc60a25 Notes added by 'git notes add'
+d771870c4cc2b71cf8b3a16aa0bec709d26aa784 Notes added by 'git notes add'
+7795eafa7db94616a2175a9b86d9342296b86dfd Notes added by 'git notes add'
+7691853f7913f83b05384549408421e6688748c4 Notes added by 'git notes add'
+134fa8de0ca24633534f648745b4a05f63e4ce96 Notes added by 'git notes add'
+f08c63ef67bcdeed53ad577f2531cf28bb11c572 Notes added by 'git notes add'
+036d39877f952d8506d8cd4de20085df48d519d4 Notes added by 'git notes add'
+d829e91686dcae6513137fed21d863fae416d19f Notes added by 'git notes add'
+c8a1d1da39feade267de3e036b09e7461aae6164 Notes added by 'git notes add'
+4461068f562e83a2a05511fe16bd6841c92e53ff Notes added by 'git notes add'
+529f6bcc91c6ad42c438162d922abd291d6ae93a Notes added by 'git notes add'
+fd3b3e89f934af35a6101ef66687e06e752978bb Notes added by 'git notes add'
+778db5c5f631fbf84101113205bcbada1441d373 Notes added by 'git notes add'
+4f0aba2714367d4ae4511715e109c96f5e8ea542 Notes added by 'git notes add'
+be01d73f96d64e9ca60773d92a1ad737b7dd69e4 Notes added by 'git notes add'
+44499109dffd2c7be6e1d1c9490e4a0691e0bb3c Notes added by 'git notes add'
+64a564ae2e726884162f96920a31e2785f2f07e3 Notes added by 'git notes add'
+245c3bc682c05db3b21953fdf1e9020102d332b7 Notes added by 'git notes add'
+e0de30abd1319b88328eace5659260e1d46495c3 Notes added by 'git notes add'
+
+--===============0116236137328251120==--
