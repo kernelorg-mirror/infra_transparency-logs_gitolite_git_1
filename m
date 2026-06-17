@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Wed, 17 Jun 2026 18:03:26 -0000
-Message-Id: <178171940620.3123.13952325977642802083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 17 Jun 2026 18:05:26 -0000
+Message-Id: <178171952687.5811.6958429432884277966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-test
-    old: 2c070f1b1c9c2c6f04627d6c953125a5037d4327
-    new: e2c7f0d2963bda6a3de4a5a14d207b8ce65712af
-    log: |
-         d22f1c3cf839954d42819033151f163ecb067aa4 f2fs_io: adapt w/ page_size in aligned_xalloc()
-         e2c7f0d2963bda6a3de4a5a14d207b8ce65712af fsck.f2fs: support to fix inconsistent sit->type of segments in large section
-         
+  - ref: refs/tags/net-next-7.2
+    old: a90b93915ed999f4ef8dc76e5e31755e9b6d5cf9
+    new: 0000000000000000000000000000000000000000
