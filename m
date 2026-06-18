@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 18 Jun 2026 16:27:14 -0000
-Message-Id: <178180003463.983098.7434523936970510559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 18 Jun 2026 16:27:21 -0000
+Message-Id: <178180004191.983363.18262465749680764807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/mm-stable-2026-06-18-09-26
-    old: 0000000000000000000000000000000000000000
-    new: 340cd20c98d5a5d2b491cc034c05e6c992888d53
+  - ref: refs/heads/master
+    old: b19bf37c38738ddd7047ec98fafdb87eabceb193
+    new: 7b897124ab5497555eceb4c7fb930def0ff97804
+    log: |
+         7b897124ab5497555eceb4c7fb930def0ff97804 Fixes for all trees
+         
