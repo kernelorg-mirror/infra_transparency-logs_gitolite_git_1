@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3103528658554525580=="
+Content-Type: multipart/mixed; boundary="===============7582171947873944475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 18 Jun 2026 09:48:57 -0000
-Message-Id: <178177613727.694486.12550464134549276602@gitolite.kernel.org>
+Date: Thu, 18 Jun 2026 09:49:23 -0000
+Message-Id: <178177616374.694853.12584101204304798524@gitolite.kernel.org>
 
---===============3103528658554525580==
+--===============7582171947873944475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 45d4fd3488cfde8cdf1e03cd178aaa193dd314d7
-    new: 3564e72b52a59591a7473d98869675ff49e17677
-    log: revlist-45d4fd3488cf-3564e72b52a5.txt
+    old: 3564e72b52a59591a7473d98869675ff49e17677
+    new: 0030ac6e54d186d0e2684bbcccef9ff1d2800f70
+    log: |
+         90ef675495df22a21a84c58fe9c71d3e5b2fbf09 Merge branch into tip/master: 'timers/urgent'
+         93e750920a2263c17d6965cfb210974899d6eae5 Merge branch into tip/master: 'x86/urgent'
+         0030ac6e54d186d0e2684bbcccef9ff1d2800f70 Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 65acea8382500027fd573a3a1ba849c42fa4f1c2
+    new: 93e750920a2263c17d6965cfb210974899d6eae5
+    log: revlist-65acea838250-93e750920a22.txt
 
---===============3103528658554525580==
+--===============7582171947873944475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45d4fd3488cf-3564e72b52a5.txt
+Content-Disposition: attachment; filename=revlist-65acea838250-93e750920a22.txt
 
 bba8eefb56480c7b06a25e99632b1b6510a25473 arm64: tegra: Fix aspm-l1-entry-delay-ns L1 latency cells
 55ee4d297e3929beac865714b681a4f25759868f firmware: tegra: Make TEGRA_IVC a hidden Kconfig symbol
@@ -1048,7 +1056,7 @@ d44ade05aa21468bd30652bc4492891b854a400a Merge tag 'for_linus' of git://git.kern
 4cc14386e35030d016478b4ab9b10a6a95727003 Merge tag 'dma-mapping-7.2-2026-06-16' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 d076a8d3b9b36563fdd029ef33c79f713445970e Merge tag 'iommu-updates-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 e771677c937da5808f7b6c1f0e4a97ec1a84f8a8 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-0b37b22083cd6759cfa490411d2fa2041020c4ae Merge branch 'linus'
-3564e72b52a59591a7473d98869675ff49e17677 Merge branch into tip/master: 'timers/urgent'
+90ef675495df22a21a84c58fe9c71d3e5b2fbf09 Merge branch into tip/master: 'timers/urgent'
+93e750920a2263c17d6965cfb210974899d6eae5 Merge branch into tip/master: 'x86/urgent'
 
---===============3103528658554525580==--
+--===============7582171947873944475==--
