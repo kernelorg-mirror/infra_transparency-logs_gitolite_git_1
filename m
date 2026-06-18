@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3512255962430805728=="
+Content-Type: multipart/mixed; boundary="===============1915317866464513485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 18 Jun 2026 10:53:56 -0000
-Message-Id: <178178003685.739874.13493959832882772759@gitolite.kernel.org>
+Date: Thu, 18 Jun 2026 10:58:09 -0000
+Message-Id: <178178028917.743449.5211273209987158976@gitolite.kernel.org>
 
---===============3512255962430805728==
+--===============1915317866464513485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/fixes
-    old: 6d5440b286632cfc11bfe3b17bbe5c5ea73fa55e
-    new: d0ce5f3f926a700d0329951101acddc85ea7ea99
-    log: revlist-6d5440b28663-d0ce5f3f926a.txt
+  - ref: refs/heads/for-linux-next
+    old: eec9f31bbbff9a4c5d93da9a9c6e2a8d7c29996c
+    new: e937d3ba7ad500fc3201e7a92aee449b0b46769b
+    log: revlist-eec9f31bbbff-e937d3ba7ad5.txt
 
---===============3512255962430805728==
+--===============1915317866464513485==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6d5440b28663-d0ce5f3f926a.txt
+Content-Disposition: attachment; filename=revlist-eec9f31bbbff-e937d3ba7ad5.txt
 
-ee81dc7636fb808a5f480d2767130a7cf3554f9a b43: add d11 core revision 0x16 to id table
 2691a1ae6bcc7c8a12ba10af99d1283a0bf69e9d b43: route d11 corerev 22 to 24-bit indirect radio access
 454518d95d07ce0ea3d9f16cef33fd17e3d8a1f0 b43: support radio 2057 rev 8
 894f1482b2f9476d23b803c284fa06af31ecd018 b43: add IPA TX gain table for N-PHY r8 + radio 2057 r8
@@ -1050,5 +1049,6 @@ d44ade05aa21468bd30652bc4492891b854a400a Merge tag 'for_linus' of git://git.kern
 d076a8d3b9b36563fdd029ef33c79f713445970e Merge tag 'iommu-updates-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 e771677c937da5808f7b6c1f0e4a97ec1a84f8a8 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 d0ce5f3f926a700d0329951101acddc85ea7ea99 firmware: arm_ffa: Respect firmware advertised RX/TX buffer size limits
+e937d3ba7ad500fc3201e7a92aee449b0b46769b Merge branch 'for-next/ffa/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
 
---===============3512255962430805728==--
+--===============1915317866464513485==--
