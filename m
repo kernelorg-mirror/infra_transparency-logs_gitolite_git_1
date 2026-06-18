@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8295911780307664770=="
+Content-Type: multipart/mixed; boundary="===============7946201317022489048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 18 Jun 2026 01:11:42 -0000
-Message-Id: <178174510289.325597.8983489052705595450@gitolite.kernel.org>
+Date: Thu, 18 Jun 2026 01:11:46 -0000
+Message-Id: <178174510654.325718.6307838651904449755@gitolite.kernel.org>
 
---===============8295911780307664770==
+--===============7946201317022489048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9d335aed8840f6bf83ba93309ae5e185de829c21
-    new: cdad4d4e4fc2e5acb9a8b2cac9af6ce87c92656f
-    log: revlist-9d335aed8840-cdad4d4e4fc2.txt
+  - ref: refs/heads/mm-unstable
+    old: d888de4f85bcad5a7b7b065860e9b4b6cfc7ee21
+    new: 55f49f8fef74866993dba1e20855f74ffd80c69a
+    log: revlist-d888de4f85bc-55f49f8fef74.txt
 
---===============8295911780307664770==
+--===============7946201317022489048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d335aed8840-cdad4d4e4fc2.txt
+Content-Disposition: attachment; filename=revlist-d888de4f85bc-55f49f8fef74.txt
 
 094cdbd12fd3c70a0b06166a961c6b3c20942336 selftests/mm: fix ksft_process_madv.sh test category
 c0a8a0b0ea2a1c43abf9a33b6ff94c3d0f9785fd mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -152,8 +152,5 @@ c984268ebeded663802f77a21c65795bbb4c4cc8 selftests/mm: allow PUD-level entries i
 227f7d3a2863ed0976a462610092ca159d575c6e mm: use mapping_mapped to simplify the code
 f91d6e8a9e412f6a4e749da2f2b61237265d6905 mm/vmscan: pass NULL to trace vmscan node reclaim
 55f49f8fef74866993dba1e20855f74ffd80c69a mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-f6ab626e5487121ecc8a48c3454b65cda6679915 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-8f20a36136e739f1f3703b027b02235f26f49a8b mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-cdad4d4e4fc2e5acb9a8b2cac9af6ce87c92656f mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8295911780307664770==--
+--===============7946201317022489048==--
