@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Thu, 18 Jun 2026 14:35:17 -0000
-Message-Id: <178179331753.901686.15129556255795923752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 18 Jun 2026 15:15:37 -0000
+Message-Id: <178179573723.929950.5406582551212258709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 60251a0ae1d2c9ade16aee8e28c484b4ec755202
-    new: fd28d4a3ae587dbfffbdc50910477f7574697d25
+  - ref: refs/heads/controller/mvebu
+    old: 4f6da7b17836533f9e776b0e3b4396ba4522dc24
+    new: 7cb033507068936f9da3c59e5c31a54e4e8dafa6
     log: |
-         817be054f9b24c1995ce24640f4058a9d996a9a6 _damon_args: fix wrong --damos_action feature check condition
-         fd28d4a3ae587dbfffbdc50910477f7574697d25 _damon: set _damon_fs before get_sysinfo()  in initialize()
+         7cb033507068936f9da3c59e5c31a54e4e8dafa6 PCI: mvebu: Use fixed-width interrupt masks to avoid truncation in 64-bit builds
          
