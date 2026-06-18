@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Thu, 18 Jun 2026 23:13:33 -0000
-Message-Id: <178182441332.1275698.1866234134813662729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 18 Jun 2026 23:19:40 -0000
+Message-Id: <178182478083.1279876.3383925072419891390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/kvm-arm64/vncr-fixes
-    old: 3a57dbd3568896557df8f18c74b86e10ee85ba59
-    new: d9fc01ab1e0db7c22df48e2406f581df9c163330
+  - ref: refs/heads/fscrypt-pending
+    old: 2d65b8175f1f6721cfe260dd4170a9c7bbff2905
+    new: fd8ab6a9ab98cf3a26725368c805422a25408df6
     log: |
-         7b589825a2f276cbb2cd9fc5edf891e63557afe8 KVM: arm64: nv: Inject SEA if kvm_translate_vncr() can't resolve PFN
-         1f8d317aa19c9fd21b511179cf7127903ea1efca KVM: arm64: nv: Re-translate VNCR before injecting abort
-         7e3c43af81213c913058e6c36fc8e63d1e1d61dd KVM: arm64: nv: Inject SEA if guest VNCR isn't normal memory
-         d9fc01ab1e0db7c22df48e2406f581df9c163330 KVM: arm64: nv: Mark VM as bugged for unexpected VNCR abort
+         2c8218f703d97259f3c7204bd6bd4dda0c3ab0ea fscrypt: Replace mk_users keyring with simple list
+         967c01439cc648114b7babc52657818b3af43983 fscrypt: Use lock guards for mutexes
+         fd8ab6a9ab98cf3a26725368c805422a25408df6 fscrypt: Remove FSCRYPT_MODE_MAX
          
