@@ -1,26 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 18 Jun 2026 16:51:11 -0000
-Message-Id: <178180147135.1000967.1270226858052676739@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8127453031458381465=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 18 Jun 2026 16:54:54 -0000
+Message-Id: <178180169422.1002165.6933027168615863322@gitolite.kernel.org>
+
+--===============8127453031458381465==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/controller/rescan_lock
-    old: 3a080aa9afb577f7b49d27ace0637222614c9986
-    new: 0bd9611587bb494c33566d825fe34b2705e4b167
+  - ref: refs/heads/for-7.2
+    old: 2e9261761b35f0b67b7487688cd1365f535be0b3
+    new: e6fa716c9d7248e03cb93f566874bd5709901bcf
     log: |
-         a8759c8ac48c0419f5899e95a6ffc611b07c965b PCI: altera: Protect root bus removal with rescan lock
-         20b7aba83c0eac13bf9d46b0fa7575df5765f205 PCI: brcmstb: Protect root bus removal with rescan lock
-         713331969ce89489c84af917058df6d9910cff97 PCI: cadence: Protect root bus removal with rescan lock
-         26335696498ab502e907a556e97c7039bc80a87e PCI: dwc: Protect root bus removal with rescan lock
-         a6a64e150f12ad5391e0a0d60f6a3d119b06ce50 PCI: iproc: Protect root bus removal with rescan lock
-         a29812a55da8d0dbeb071b26ac428c338e3fc389 PCI: mediatek: Protect root bus removal with rescan lock
-         4e4f9745f016c1631d00a4035b06f6e75d449e01 PCI: plda: Protect root bus removal with rescan lock
-         0bd9611587bb494c33566d825fe34b2705e4b167 PCI: rockchip: Protect root bus removal with rescan lock
+         1a3c8e28959790ae3e06029681418278b7821a3c ASoC: rockchip: Drop problematic guard() changes
+         fdf043f5f3bae150b678feae3d7bb1beed87ec14 ASoC: tlv320aic3x: restrict CLKDIV bypass Q values in dual-rate mode
+         5096a1634def431cd7f89e2b0af4456de91dd26d ASoC: rt5650: enhance spk protection function
+         e6fa716c9d7248e03cb93f566874bd5709901bcf ASoC: audio-graph-card2: Drop warning for manually selected DAI formats
          
+
+--===============8127453031458381465==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1781801692 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1781801691-9709db19456576e452a4bd23a3c5ea06b60a49cf
+
+2e9261761b35f0b67b7487688cd1365f535be0b3 e6fa716c9d7248e03cb93f566874bd5709901bcf refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo0ItwACgkQJNaLcl1U
+h9AvOgf+MzL9JzJOARR6HpI7J2A3T45wmuPQrxb83i4M1Gsf6Mgr1aP4Alrf89/z
+wVg8cWAlLooIR9LVzvRM0iCEg1YG/R+tKcmTPWdlAgm3JwnouUO1XwnRSx0SLtWu
+c0/C13T3hwEvQNmUYjrKo7FJ/NB4AgY0LoRcxHlRfkbqtz8udjxjNxbnOztZW/5G
+YqbXnPRTBa6Pl+cmzbLTHPLfKSqSTUhpNvpdPCy0LsbCOhLiIYsdjyH4Apdjwi73
+OOAdk0uhN0NlzHif28Qju+PJWvIhUpMgFP9ywaFI+nKxGPhOsq5MpA8oOFCLQ6NO
+4dnQEECV/U7RBn6vU4cuNSu3sQGVqw==
+=a8I/
+-----END PGP SIGNATURE-----
+
+--===============8127453031458381465==--
