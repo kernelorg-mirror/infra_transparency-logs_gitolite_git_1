@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5933538617104101415=="
+Content-Type: multipart/mixed; boundary="===============4952030353957356068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 18 Jun 2026 01:37:25 -0000
-Message-Id: <178174664540.346108.16666885034599463083@gitolite.kernel.org>
+Date: Thu, 18 Jun 2026 01:37:28 -0000
+Message-Id: <178174664877.346242.13049128461457660213@gitolite.kernel.org>
 
---===============5933538617104101415==
+--===============4952030353957356068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-for-7.2
-    old: 7d64ab2b1cf8dd7810fd39cbd3e657b0bae5e0f7
-    new: 9162bdea6123634001a4b367e1036742876b554c
-    log: revlist-7d64ab2b1cf8-9162bdea6123.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 8378addf2986e9df2c16ad72d2145ef86a4377c9
+    new: 6837d4f3f22aeb2c1d5543e37b7b85513491c78d
+    log: revlist-8378addf2986-6837d4f3f22a.txt
 
---===============5933538617104101415==
+--===============4952030353957356068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d64ab2b1cf8-9162bdea6123.txt
+Content-Disposition: attachment; filename=revlist-8378addf2986-6837d4f3f22a.txt
 
-c731ec1677815fbdb8727c115ea571b928b2585e Merge tag 'tegra-for-7.2-pmc' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/drivers
 0d519d755c16711da8b5f50209f4159307731cff Merge tag 'tegra-for-7.2-firmware' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into soc/drivers
 c711f432e20984736324c7f266dd1dbd33ed1d11 Merge tag 'samsung-drivers-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers
 8c3fb979f1b0bd2c6b273b552f8cb74965e3d1db Merge tag 'memory-controller-drv-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
@@ -1050,5 +1049,6 @@ f692897583a50ac9424320005d7fb545424cb773 i2c: qcom-geni: Isolate serial engine s
 ca325cd00501f4c368830fb52c16146c141e304c i2c: qcom-geni: Use resources helper APIs in runtime PM functions
 7d0522d703b3e270fd22db775562005c4fd56d3a i2c: qcom-geni: Store of_device_id data in driver private struct
 9162bdea6123634001a4b367e1036742876b554c i2c: qcom-geni: Enable I2C on SA8255p Qualcomm platforms
+6837d4f3f22aeb2c1d5543e37b7b85513491c78d Merge branch 'i2c/i2c-for-7.2' into i2c/i2c-host-next
 
---===============5933538617104101415==--
+--===============4952030353957356068==--
