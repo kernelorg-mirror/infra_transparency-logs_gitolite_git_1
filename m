@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1914015728756463063=="
+Content-Type: multipart/mixed; boundary="===============8363654824580820551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 18 Jun 2026 13:35:30 -0000
-Message-Id: <178178973057.857479.13417231289981850082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 18 Jun 2026 13:35:37 -0000
+Message-Id: <178178973742.857741.4901969312451048364@gitolite.kernel.org>
 
---===============1914015728756463063==
+--===============8363654824580820551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 4850a5161bfc5a06ddabd18f0a5be004c1c79f7d
     log: revlist-776bd9ac8345-4850a5161bfc.txt
 
---===============1914015728756463063==
+--===============8363654824580820551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ e1fbc540aca243cd98ef89a181ced9d720fc24b7 perf data: Add open flag
 7bebdd4f76b353f4c74148bf666c7c860d06a636 perf python: Add perf.pyi stubs file
 4850a5161bfc5a06ddabd18f0a5be004c1c79f7d perf python: Add LiveSession helper
 
---===============1914015728756463063==--
+--===============8363654824580820551==--
