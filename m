@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 18 Jun 2026 16:40:23 -0000
-Message-Id: <178180082303.993388.5744546372115836059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 18 Jun 2026 16:51:11 -0000
+Message-Id: <178180147135.1000967.1270226858052676739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/renesas/mfis/hwspinlock
-    old: c0cfebef9f4671773f86103a99918a7e358fc8c7
-    new: 44abe79d56c5e432e6fd3beb6a9fc175f23bf0df
+  - ref: refs/heads/controller/rescan_lock
+    old: 3a080aa9afb577f7b49d27ace0637222614c9986
+    new: 0bd9611587bb494c33566d825fe34b2705e4b167
     log: |
-         34106ee784273a9f932488cd8590bcb98c64835c hwspinlock: annotate slot pointer as RCU sensitive
-         65c13f23ea65e8521f55dd20e2d5637aa8a756bd hwspinlock: reverse logic for used channels
-         322d8af2b2205e45c9428fc8fc9f1493ecf6de4b hwspinlock: add summary in debugfs
-         44abe79d56c5e432e6fd3beb6a9fc175f23bf0df soc: renesas: mfis: add hwspinlock support
+         a8759c8ac48c0419f5899e95a6ffc611b07c965b PCI: altera: Protect root bus removal with rescan lock
+         20b7aba83c0eac13bf9d46b0fa7575df5765f205 PCI: brcmstb: Protect root bus removal with rescan lock
+         713331969ce89489c84af917058df6d9910cff97 PCI: cadence: Protect root bus removal with rescan lock
+         26335696498ab502e907a556e97c7039bc80a87e PCI: dwc: Protect root bus removal with rescan lock
+         a6a64e150f12ad5391e0a0d60f6a3d119b06ce50 PCI: iproc: Protect root bus removal with rescan lock
+         a29812a55da8d0dbeb071b26ac428c338e3fc389 PCI: mediatek: Protect root bus removal with rescan lock
+         4e4f9745f016c1631d00a4035b06f6e75d449e01 PCI: plda: Protect root bus removal with rescan lock
+         0bd9611587bb494c33566d825fe34b2705e4b167 PCI: rockchip: Protect root bus removal with rescan lock
          
