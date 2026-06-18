@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
-Date: Thu, 18 Jun 2026 00:01:56 -0000
-Message-Id: <178174091664.270731.5532216274884348051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 18 Jun 2026 00:10:53 -0000
+Message-Id: <178174145343.277930.11881147985403187713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kwilczynski/linux
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/kwilczynski/procfs-attach-device-rescan-lock-v3
-    old: ab43887959f7f1793245a18c8446cd622a0bb4ad
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/i2c/i2c-for-7.2
+    old: 69dd0cd9fd6f881547d66e2043367f0ff13d885a
+    new: 7d64ab2b1cf8dd7810fd39cbd3e657b0bae5e0f7
+    log: |
+         7d64ab2b1cf8dd7810fd39cbd3e657b0bae5e0f7 dt-bindings: i2c: convert altera i2c to dt-schema
+         
