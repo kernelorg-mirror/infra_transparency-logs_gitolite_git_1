@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 18 Jun 2026 18:52:03 -0000
-Message-Id: <178180872321.1090877.15798750589784314001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 18 Jun 2026 18:59:10 -0000
+Message-Id: <178180915077.1095254.4334620814869213976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 7158c5b67e92e52c2ca9a3617a7e768a84031da1
-    new: 645323a7f4e55bb3abb0cb003b6b9dc715c8dc21
+  - ref: refs/heads/spi-7.2
+    old: 12aad822fb9a761f3a9d278083a5bdcb1524e5ec
+    new: 7b25dbafa2fce50b1a48c1d057adb35da3563f9b
     log: |
-         9a289cc425bf469642533e4afa01c90f08971d01 modpost: Ignore Clang LTO suffixes in symbol matching
-         645323a7f4e55bb3abb0cb003b6b9dc715c8dc21 kconfig: add optional warnings for changed input values
+         7b25dbafa2fce50b1a48c1d057adb35da3563f9b spi: rpc-if: Use correct device for hardware reinitialization on resume
          
