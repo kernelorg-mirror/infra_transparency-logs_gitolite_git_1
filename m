@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8620007239154147209=="
+Content-Type: multipart/mixed; boundary="===============3102360032629059895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 19 Jun 2026 21:21:08 -0000
-Message-Id: <178190406854.2558178.11785110305680417961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 19 Jun 2026 21:21:34 -0000
+Message-Id: <178190409481.2558515.2215648471943443992@gitolite.kernel.org>
 
---===============8620007239154147209==
+--===============3102360032629059895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: e771677c937da5808f7b6c1f0e4a97ec1a84f8a8
     new: a975094bf98ca97be9146f9d3b5681a6f9cf5ce3
     log: revlist-e771677c937d-a975094bf98c.txt
 
---===============8620007239154147209==
+--===============3102360032629059895==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ e2c0595b56e9526e67ddd228fc35fa9ff20724ec Merge tag 'for-next-keys-7.2-rc1-2' of 
 dbad5db3a0bbf843adef9732ad44b817273e0a64 Merge tag 'ntfs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 a975094bf98ca97be9146f9d3b5681a6f9cf5ce3 Merge tag 'exfat-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 
---===============8620007239154147209==--
+--===============3102360032629059895==--
