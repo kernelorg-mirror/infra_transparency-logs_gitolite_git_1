@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8895242782426043118=="
+Content-Type: multipart/mixed; boundary="===============7834324129897378419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Fri, 19 Jun 2026 20:25:57 -0000
-Message-Id: <178190075707.2516181.10371008919117247354@gitolite.kernel.org>
+Date: Fri, 19 Jun 2026 20:26:13 -0000
+Message-Id: <178190077359.2516472.6155052088588385869@gitolite.kernel.org>
 
---===============8895242782426043118==
+--===============7834324129897378419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: 1dd9291eb90378f8096669d9cb33761fd84599e0
     new: e09390e439bd7cca30dd10893b1f64802961667a
     log: revlist-1dd9291eb903-e09390e439bd.txt
 
---===============8895242782426043118==
+--===============7834324129897378419==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a2e06b4bef20b59446d5088e938c2be53cc4e6c6 ieee802154: Restore initial state on fa
 e69ed6fc9fb3b386b5fcdb9f51623f122cee2ebd ieee802154: Remove WARN_ON() in cfg802154_pernet_exit()
 e09390e439bd7cca30dd10893b1f64802961667a ieee802154: ca8210: fix cas_ctl leak on spi_async failure
 
---===============8895242782426043118==--
+--===============7834324129897378419==--
