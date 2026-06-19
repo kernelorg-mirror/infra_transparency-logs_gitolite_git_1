@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Fri, 19 Jun 2026 08:32:56 -0000
-Message-Id: <178185797626.1682460.160063849346902045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 19 Jun 2026 08:33:51 -0000
+Message-Id: <178185803148.1683019.13199226888291609908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/v2.3.x
-    old: bbcd0a5d64dd906db5ba22cea9c4f35fcd3d0d51
-    new: 47b3351d8536971fc0814923b78c7cf4a9dfe00c
+  - ref: refs/heads/probes/core
+    old: 01601f0b74c7505f14e08d764f6325ecc0ca5f1d
+    new: cfae4cb90fc8113d52fea1f0a62cd6a36d9df149
     log: |
-         47b3351d8536971fc0814923b78c7cf4a9dfe00c build: gate subdirectories on the *_enabled variables
+         cfae4cb90fc8113d52fea1f0a62cd6a36d9df149 tracing/events: Fix to check the simple_tsk_fn creation
          
