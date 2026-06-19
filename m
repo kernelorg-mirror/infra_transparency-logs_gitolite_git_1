@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 19 Jun 2026 08:07:19 -0000
-Message-Id: <178185643951.1663450.9387184460670912826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hare/scsi-devel
+Date: Fri, 19 Jun 2026 08:12:31 -0000
+Message-Id: <178185675139.1667249.11376627838771109061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/hare/scsi-devel
+user: hare
 changes:
-  - ref: refs/heads/vfs-7.3.misc
+  - ref: refs/heads/configfs-ns.v2
     old: 0000000000000000000000000000000000000000
-    new: f4477109a2e3b74e21305b5b93b7550d60b42ec3
+    new: 55b4ace3bb49490cca072cf61a14f8a2a6da407e
