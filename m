@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3226747125015857583=="
+Content-Type: multipart/mixed; boundary="===============1144533780406974376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 19 Jun 2026 11:31:00 -0000
-Message-Id: <178186866003.1872043.11143227407968900906@gitolite.kernel.org>
+Date: Fri, 19 Jun 2026 11:32:27 -0000
+Message-Id: <178186874797.1872806.12199097161716017971@gitolite.kernel.org>
 
---===============3226747125015857583==
+--===============1144533780406974376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: b66cb4f156fe47f52065e70eb1b2f12ccd0c2884
+  - ref: refs/heads/for-next
+    old: 53817aa9b6c5777ff4428de641330d38382d61f2
     new: 0db1496dcb6621648b007ad0e7d55b876ae0f0bb
-    log: revlist-b66cb4f156fe-0db1496dcb66.txt
+    log: revlist-53817aa9b6c5-0db1496dcb66.txt
 
---===============3226747125015857583==
+--===============1144533780406974376==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b66cb4f156fe-0db1496dcb66.txt
+Content-Disposition: attachment; filename=revlist-53817aa9b6c5-0db1496dcb66.txt
 
+dea66841b9f87916e47b88a2c4a408e118cbf3ac rust: page: use the "kernel vertical" imports style
+8e86830d6261bc43dda1def09cfa3ea5decbb757 rust: aref: use the "kernel vertical" imports style
 724a93a9f6033800b02a3530dbcb464638448e7f rust: str: use the "kernel vertical" imports style
 3fff4271809b57182c4011811e96556bdd4cb2f9 rust: str: clean unused import for Rust >= 1.98
 8d49d90fb9f0fd5a0355b4b705395c9ba833415b rust: make `build_assert` module the home of related macros
@@ -456,8 +458,6 @@ dfdfd58cce1c3f5df8733b64595448996c08e424 Merge branch 'slab/for-7.2/alloc_token'
 efc86691e4d8083d9e380ea95042c2cf679f65fd ALSA: seq: Fix kernel heap address leak in bounce_error_event()
 d8202786b3d75125c84ebc4de6d946f92fde0ee8 udf: validate VAT header length against the VAT inode size
 5163e6ee1ea744d412fe516235bfd9cab15141dc udf: validate VAT inode size for old VAT format
-76c9ed5b81ea5e9a0837902fbd677f183e0a6df4 vsprintf: Add upper case flavour to %p[mM]
-7cde5613006c1a1192efe3da3572d35a2fa5fbfe HID: nintendo: Use %pM format specifier for MAC addresses
 0ec17ee704615125c0b6e100c38129393a346bcc ALSA: hda/hdmi: Add force-connect quirk for HP EliteDesk 800 G5 Mini
 cf30ceccfaec3d2549ff60f7c915625f12dd3a93 fs: fix ups and tidy ups to /proc/filesystems caching
 b63c2c3199a8f5f99ff49e4c54d891da8e9b0524 spi: spi-mem: Add a no_cs_assertion capability
@@ -1051,4 +1051,4 @@ d44ade05aa21468bd30652bc4492891b854a400a Merge tag 'for_linus' of git://git.kern
 09fb6892f34abdb6d9b50ae7337b7b7b56dc82d6 Merge tag 'devicetree-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 0db1496dcb6621648b007ad0e7d55b876ae0f0bb Merge tag 'printk-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 
---===============3226747125015857583==--
+--===============1144533780406974376==--
