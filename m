@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4073056513959645786=="
+Content-Type: multipart/mixed; boundary="===============3237060492624425529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
-Date: Fri, 19 Jun 2026 11:46:04 -0000
-Message-Id: <178186956461.1997937.3791421727473414213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 19 Jun 2026 11:46:09 -0000
+Message-Id: <178186956946.1998157.9800538675992632008@gitolite.kernel.org>
 
---===============4073056513959645786==
+--===============3237060492624425529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/kvmtool
-user: will
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pkvm
-    old: 6e77589f174529bfde7b1ed93514c44f26fbfa4f
-    new: 09004330cccd9abc37edfa44657999a40af8de21
-    log: revlist-6e77589f1745-09004330cccd.txt
+  - ref: refs/heads/master
+    old: 6acf0c2a23fbc988868e79a60d3c398c760a769a
+    new: bd817d1bb2db12a90378d7c7cb6c367ab0791e57
+    log: |
+         bd817d1bb2db12a90378d7c7cb6c367ab0791e57 Linux 6.18.36
+         
 
---===============4073056513959645786==
+--===============3237060492624425529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e77589f1745-09004330cccd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-716a7c8eddccb51ca50cb8e87b43b13141167c04 riscv: Add Zicbop extension support
-42f00a6655069b385116cc8aa5fc8aab2915ec84 headers: Update linux/const.h from linux sources
-448c4dae933af25a80a7031fa1d4c04a224ec803 util/update_headers: Clean up header copying
-d26adf1f21c45ce957b177a3d73376c2c5854176 util/update_headers: Warn about missing header files
-4123e5fa3a764b9743253e12f8961de3b6cb2129 update_headers: arm64: Track uapi/linux/psci.h for PSCI definitions
-0701c4bfe31f33103a1f217cab48018f6faad554 arm64: Sync headers from Linux v6.19 for psci.h
-00873ec97632d89bb3e1b67c0d0ea6f530481924 Import arm-smccc.h from Linux v6.19
-e7b0bde8aadc65eefae46ec6ebccfc342e93de39 arm64: Stash kvm_vcpu_init for later use
-8ee63ab3141a2077f98ce56031cf6335f8b010f0 arm64: Use KVM_SET_MP_STATE ioctl to power off non-boot vCPUs
-42b3f4dd25c2ebca2583267a20be002b36f6cfcf arm64: Expose ARM64_CORE_REG() for general use
-9ba52cf92905ace77efa9ace5be8c10f42e99d7a arm64: Add support for finding vCPU for given MPIDR
-210640bb395c831ccc567512429bef8e77b37f60 arm64: Add skeleton implementation for PSCI
-c5a68d261f4b2c61a8ce9ec0f90e34253ea257c0 arm64: psci: Implement CPU_SUSPEND
-6e06236cf8faaf8328cbd89c1dd74c867893f45b arm64: psci: Implement CPU_ON
-2eb3c13c1a54059dec82f08b326dcab0b7b39dbf arm64: psci: Implement AFFINITY_INFO
-c1418fca53ad0e8b397199e22e6069d72fe5089c arm64: psci: Implement MIGRATE_INFO_TYPE
-d2b1def2caa12155935f58def4951e77419d6de9 arm64: psci: Implement SYSTEM_{OFF,RESET}
-ce79de9211ea1e2a24840c1b9c78ec751e41c9b0 arm64: smccc: Start sending PSCI to userspace
-455cbb9bb191c9fb49206b8da6c651328f3cdb82 riscv: Add BFloat16 extensions support
-5a1233d80dec30be69f4677c1130b7772119dd9c plic: Fix lock/unlock mismatch in plic__irq_trig()
-7e43347c0114799a306c40dbe6046cb268ddbe75 arm64: Initial nested virt support
-fe4c35a8dccefe176d6a597a292181ee731e83b8 arm64: nested: Add support for setting maintenance IRQ
-1b44d7a4b99b190939cbbe6af12599adb0f972a3 arm64: Add counter offset control
-ab9ae1411622579d16f6a8455fcc79879f00bf26 arm64: Add FEAT_E2H0 support
-e9456310e1af93fece5bc52a04f7c5b28b653a0b arm64: Generate HYP timer interrupt specifiers
-6c2de8d9531c7e9aad7ac6701e848bedb3f1d3a4 arm64: Handle virtio endianness reset when running nested
-88665bd58818477f7fb862ad53f2066823ba5c36 Sync kernel UAPI headers with v7.1
-025b27fcc69105c90907629b6774e4ca8ecf40b1 virtio: Factor out base features for modern virtio transports
-ce002b4b9a2182be76d7b1ac9a202c1947887293 virtio: Add helper for enabling VIRTIO_F_ACCESS_PLATFORM
-09004330cccd9abc37edfa44657999a40af8de21 arm64: Add support for protected VMs
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781869504 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1781869566-c1f6c9ff56c109e641d03535bcd3cc8f3619671c
 
---===============4073056513959645786==--
+6acf0c2a23fbc988868e79a60d3c398c760a769a bd817d1bb2db12a90378d7c7cb6c367ab0791e57 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo1K8AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JC4P/01bF5qB+peeL45lQ1Oo
+Vcwt7J0Mmy86ImdmMsGIdBRfiA/q8NERCgJOQpN5jmLUO5RSbGUUF+cBiOpssEG5
+oQ3YQSL+NkYq2GtMk57AVzO2HS9hyoPH3d0dbR+KXfDi7jDQtwPLWV2pEwkgyvqv
+XU2y9Yu0Wv+XegKfHTDGn52cGNly7E5pOU3ApS0gJKf25OKYikh51gLA3azbf3DD
+cCxTFC4/Qrczn3c8Xxu932b2h5zFInMEZZzyog55v7SdChtQnuVFSDoE/2mtks3u
+VfyQhlRBP8iSeOEQGlHa9IKB0JkAZVp6IJo3ECSsuRqVsUCVFabKKWm00XL15a7Z
+1yrqKPojmJiH+gKc2pUDkwSWBC7wVOJ1Fw2UHTY5/WsLx7G1CH2aS7H1+1cOnQhO
+Z58ykbzNXpk4Zw/LsVg/Re+hgdHfjEahG3ZlP4mHQMKkjMSKQ63BjZdRm4PrVel7
+2Oy7wKdJOOELY6t9WvDfnWwgTuPZMo/TokJ7HiCYeIlnNDMtQ77i2Tox4j0vyiFT
+8U5bXeIHH2aTR93Vk2zWpJGotWNjhZ1yTFDjzXwYJnB3L4uV8Z5gsIDixGoYkEBb
+UG6mhWtr8vLE0lxqb5LVuwFMQvXeY/FYTwv+aKR7SosCxzQ3Ej0pAfg+aZGNMLp8
+UmH4QHDWHxaOaPHNFNYdfpl2
+=8vNK
+-----END PGP SIGNATURE-----
+
+--===============3237060492624425529==--
