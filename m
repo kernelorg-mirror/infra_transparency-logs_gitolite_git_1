@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
-Date: Fri, 19 Jun 2026 08:06:12 -0000
-Message-Id: <178185637276.1662688.7005979968644689563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 19 Jun 2026 08:07:19 -0000
+Message-Id: <178185643951.1663450.9387184460670912826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kwilczynski/linux
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes-v7
-    old: 1389647f253955477f7a8505b9842b86130a4a6a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/vfs-7.3.misc
+    old: 0000000000000000000000000000000000000000
+    new: f4477109a2e3b74e21305b5b93b7550d60b42ec3
