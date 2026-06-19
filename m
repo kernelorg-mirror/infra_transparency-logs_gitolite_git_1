@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2686156869559865784=="
+Content-Type: multipart/mixed; boundary="===============4320692851184178236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 19 Jun 2026 11:47:41 -0000
-Message-Id: <178186966177.1999693.6234131587743405546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 19 Jun 2026 11:49:43 -0000
+Message-Id: <178186978312.2000812.10474797975622432847@gitolite.kernel.org>
 
---===============2686156869559865784==
+--===============4320692851184178236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e2adf52fc8151cc119fa35df04a5d085cf9a34da
-    new: 7d818248713e28d5dab622c5479b86d2fd1c1ff5
+  - ref: refs/heads/for-7.2
+    old: 12aad822fb9a761f3a9d278083a5bdcb1524e5ec
+    new: 7b25dbafa2fce50b1a48c1d057adb35da3563f9b
     log: |
-         7d818248713e28d5dab622c5479b86d2fd1c1ff5 Notes added by 'git notes add'
+         7b25dbafa2fce50b1a48c1d057adb35da3563f9b spi: rpc-if: Use correct device for hardware reinitialization on resume
          
 
---===============2686156869559865784==
+--===============4320692851184178236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781869597 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1781869658-e582aacecfbb3ef34d1fb89d903ec8d766738840
+pusher C3F436CA30F5D8EB 1781869781 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1781869781-bfa59594c16bf418383fe56b91206681b8e9bb85
 
-e2adf52fc8151cc119fa35df04a5d085cf9a34da 7d818248713e28d5dab622c5479b86d2fd1c1ff5 refs/notes/signatures/tar
+12aad822fb9a761f3a9d278083a5bdcb1524e5ec 7b25dbafa2fce50b1a48c1d057adb35da3563f9b refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo1LB0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AacQAIoPI+53FIVyK8+oaFKi
-FOG7ywOI9mc8l7Z1wUm2IMAOy9tsW0cacOAAqQVzjLwSzTCuOXVs0jZwbpVM2x5e
-EUQT0ZLa7+teDvSJaC0Ungwl7uvZr8KR95q+pY1U5GJQSUzm3kdOLZiOtHkjQw6U
-9utRbNhGDZHKtOgMw8cMwQN9cd4g+YiLTyXvHE36nJO2+PE4zU7IyRW7J8aE3Clo
-sOE2YHJTi8kz0uSSMdC44wkzooyOwJN8zKUQzU1XdYqrvEGI4vE9N3kM1WQPzixM
-NXIhIVs4/kV09/WJhCwCqymsZnZYFH9NDNtYoO0aOxzowkTPlkhj8NWfujSd4qvF
-XJiOJ/3p1GgbWu3Kyfq8wp34QJsOzYZQ3DqJ6N4aqEZFsCkZ3NqeQTgUFpNz8Nkn
-J9P72ygH+6bmkNBmq2IUHMIE+Q324kUYqQIeQWa7nG9sNRWUR+3S2PlFsinwADlD
-vI35VXujOifuAUF5i9AiMvy+vNxgMhZLpX+pzMai8XSxOX1SJywu8v6QM5zo8i6+
-1ORc8jQfd3LYmRENPUwVmGHf9wRTgtKP84HoJJRCKMmr2xbphhYMgnKt1nFD+DOD
-D3uQCrsP3txJ2y0TtvBxL+esmR2/ttTxKVvd+ytXxbQmj4vbXvB5tSCMbHYH74OL
-tPsnzpmWx41ZZFQz/WXpXGeH
-=Myhy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo1LNUACgkQJNaLcl1U
+h9BHcgf9GmTQ0U4DpnfpiB0QgN3kCG9VACNWHP7nEx6IBm3/Zfzw5tBlDeS7dM6B
+HaOkVv6uJLCPU9NGIFI6QBYABl7ZdrHt9vJU4B9+940mqTb2wh7er9wxyVWxLcst
+3WVe1kQuYKKY3j0rYJ/B5tD2ypjtmVKNcbDZwAIb0vWP+gBUxWZm4wQTqt/JAVYJ
+UB3lmLfsL+9ftJzsGbnmA/UTze2vBTIsx/eSeeyig2ReODVGZ6GPxdNkVofWj/S6
+Qx1F9RLpmpLQdHwyRVJaCnUwB9qzbUqoaE0/k2408Lb7zzROhz3UTdZep3HfrNjo
+diryMt24Bvai5zPYFx8gyCgC+bOWDg==
+=vJmM
 -----END PGP SIGNATURE-----
 
---===============2686156869559865784==--
+--===============4320692851184178236==--
