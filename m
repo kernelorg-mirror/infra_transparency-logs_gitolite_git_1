@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5824569159978707813=="
+Content-Type: multipart/mixed; boundary="===============8147617893532565315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Fri, 19 Jun 2026 12:26:46 -0000
-Message-Id: <178187200694.2139241.13093580880534961624@gitolite.kernel.org>
+Date: Fri, 19 Jun 2026 12:29:49 -0000
+Message-Id: <178187218953.2140322.12748412605558727910@gitolite.kernel.org>
 
---===============5824569159978707813==
+--===============8147617893532565315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: d3d9443f8bac799340bb04db51ef4ababc4f7267
+  - ref: refs/heads/for-next
+    old: 7203abb3f8bd61e021cce076dafdda7bcfd9f2c2
     new: 0839c8963b7b28d25350bd5ea69bacde794124ab
-    log: revlist-d3d9443f8bac-0839c8963b7b.txt
+    log: revlist-7203abb3f8bd-0839c8963b7b.txt
 
---===============5824569159978707813==
+--===============8147617893532565315==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d3d9443f8bac-0839c8963b7b.txt
+Content-Disposition: attachment; filename=revlist-7203abb3f8bd-0839c8963b7b.txt
 
 3fff4271809b57182c4011811e96556bdd4cb2f9 rust: str: clean unused import for Rust >= 1.98
 8d49d90fb9f0fd5a0355b4b705395c9ba833415b rust: make `build_assert` module the home of related macros
@@ -1051,4 +1051,4 @@ d44ade05aa21468bd30652bc4492891b854a400a Merge tag 'for_linus' of git://git.kern
 0db1496dcb6621648b007ad0e7d55b876ae0f0bb Merge tag 'printk-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 0839c8963b7b28d25350bd5ea69bacde794124ab Merge tag 'livepatching-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============5824569159978707813==--
+--===============8147617893532565315==--
