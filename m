@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 19 Jun 2026 04:09:35 -0000
-Message-Id: <178184217556.1495909.16914877586456169293@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6946639444637440652=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Fri, 19 Jun 2026 04:11:37 -0000
+Message-Id: <178184229791.1498969.12476818413803298599@gitolite.kernel.org>
+
+--===============6946639444637440652==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/tags/rcu-dqs-stuck-v3-20260618
-    old: 5fcf47d32f5c606571a758dc6b9d8cf428c8925f
-    new: 85c87f28faefe3f0d0e4b4323ff75cec70be2d47
-    log: |
-         a4adc217b529135cca47b16de406ce9d7ae57ab9 rcu: add per-CPU rescue hrtimer for deferred-QS reporting
-         d03be84736361b145f9f67f10d2d926e551b7c10 rcutorture: Abstract reader-segment dump into rcu_torture_dump_read_segs()
-         4f1f6d2af61eca46ea8db4d5ba2eb193e841da4e rcutorture: Check for immediate deboosting at reader end
-         4a3176a85a96f13b686234dbfbaed54e66a5a343 rcutorture: Test RCU readers from hardware interrupt handlers
-         61126918b4c434c64d2be3763e1f73de4bf0fb6b rcutorture: tighten boost-WARN to exclude any implicit-reader context
-         a407429833fec36081a3ef5016537f5192288343 rcutorture: give async deboost mechanisms up to 500us before WARN
-         85c87f28faefe3f0d0e4b4323ff75cec70be2d47 [TEST COMMIT] rcu: detect stuck defer_qs_pending at GP cleanup
-         
+  - ref: refs/heads/master
+    old: 5d674b920cb45762169cfa9c7cd9402aa779e9d3
+    new: 60647818e1cd44707cf1ab4028bdf8dbb3aa5fdb
+    log: revlist-5d674b920cb4-60647818e1cd.txt
+
+--===============6946639444637440652==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5d674b920cb4-60647818e1cd.txt
+
+fd38a7596bcb562901f2b74e9001ee726adde666 defer/rcufundamental: Clarify Section 9.5.2.2 discussion
+bbe824f9ed6c267e1278c91b6c484d21c5117c8e memorder/memorder: Clarify Section 15.3.7.2 discussion
+6489a0c6429a76dee1290b4f16ba95de677ae88f defer/rcuintro: Add specific examples to Section 9.5.1.1
+b06f7fda3952d65c5a10bc8ebc9f8e272637f746 cpu/hwfreelunch: Clarify Section 3.3 discussion
+024b5031cd1ad99f9d21cc10adc6d9666f6c0444 count: Clarify Section 5.1 laws-of-physics discussion
+35b2cb996eaa4b92287b3679ecea15f7212b13ae CodeSamples/defer: Modify route_cacm_c11.c for fresh data
+d7921eedef0948cc618a4151845e03db5df7b0ac Merge /media/paulmck/365B-2A86/perfbook.2026.06.18-13.36.19.35b2cb996eaa.bundle
+309370220891c8acc5a700d4a6dad9a57b7d1a69 CodeSamples/defer: Modify route_cacm.c for fresh data
+04729b233edbc679e910fd84a354a4424dc45841 CodeSamples/defer: Fix route_cacm_c11.c comment-only "else"
+01f4802a946cbe45d73ff948d175d988faea84b7 together/applyrcu: Add a "Fresh and Consistent Data" section
+2ef713447ad0ed5c686975103b40f0e761df427f defer: Random self-review improvements
+75427df991cc1a26bbcd5d57a3e69144cf91b575 together/hazptr: Add "Hazard-Pointer Conversion Guide"
+faffac9410691ba0c09ff25d86e812e6434e9566 together/applyrcu: Add "RCU Conversion Guide"
+f7c83bba3ba0c860ef7dc405f47cc495bf68be18 defer/hazptr: Add further hazard-pointer standardization
+204351bf7ec22271c2420b6bd1ddd99b392b72d1 defer/whichtochoose: RCU/hazptr refinements and combinations
+60647818e1cd44707cf1ab4028bdf8dbb3aa5fdb defer/hazptr: Add diagram illustrating hazard pointers
+
+--===============6946639444637440652==--
