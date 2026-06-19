@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3562921736396973873=="
+Content-Type: multipart/mixed; boundary="===============4405648685233270528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 19 Jun 2026 09:07:52 -0000
-Message-Id: <178186007210.1709223.8792164217185614736@gitolite.kernel.org>
+Date: Fri, 19 Jun 2026 09:08:13 -0000
+Message-Id: <178186009313.1709573.5977605611582042587@gitolite.kernel.org>
 
---===============3562921736396973873==
+--===============4405648685233270528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0030ac6e54d186d0e2684bbcccef9ff1d2800f70
-    new: e2841070f708a9d1d256bc838d69a62c5d66d603
-    log: revlist-0030ac6e54d1-e2841070f708.txt
+    old: e2841070f708a9d1d256bc838d69a62c5d66d603
+    new: d9aa1f16ca4a61250b66127c8659c09e0535c031
+    log: |
+         1af4187cd3344da626dfbfc239561c1a78fdc19a Merge branch into tip/master: 'timers/urgent'
+         6725ec6ff7b0eecd7282614620dfe0fad634894f Merge branch into tip/master: 'x86/urgent'
+         d9aa1f16ca4a61250b66127c8659c09e0535c031 Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 93e750920a2263c17d6965cfb210974899d6eae5
+    new: 6725ec6ff7b0eecd7282614620dfe0fad634894f
+    log: revlist-93e750920a22-6725ec6ff7b0.txt
 
---===============3562921736396973873==
+--===============4405648685233270528==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0030ac6e54d1-e2841070f708.txt
+Content-Disposition: attachment; filename=revlist-93e750920a22-6725ec6ff7b0.txt
 
-d8a6a63372b86fa2152c633a384514585a9ce6ae media: qcom: iris: merge hfi_response_ops and hfi_command_ops
 c8f12e754ee4dba209f86ba5e9156cfb69712711 media: qcom: iris: move get_instance to iris_hfi_sys_ops
 10175bca76e1497fd76fd662d33ab199f7160bb1 media: qcom: iris: drop hw_response_timeout_val from platform data
 95faed0b9f516b693860865fc54c2a708946a96d media: qcom: iris: split firmware_data from raw platform data
@@ -1049,6 +1056,7 @@ cfd96ad1389cd6045a3af05bd34b2e52b291e365 Merge tag 'libnvdimm-for-7.2' of git://
 8c13415c8a4383447c21ec832b20b3b283f0e01a Merge tag 'media/v7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 23b5d045ae5df0a2d509915cedcd82f93261d7bc Merge tag 'trace-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 9ecfb2f7287a967b418ba69f10d45ead0d360593 Merge tag 'trace-ring-buffer-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e2841070f708a9d1d256bc838d69a62c5d66d603 Merge branch 'linus'
+1af4187cd3344da626dfbfc239561c1a78fdc19a Merge branch into tip/master: 'timers/urgent'
+6725ec6ff7b0eecd7282614620dfe0fad634894f Merge branch into tip/master: 'x86/urgent'
 
---===============3562921736396973873==--
+--===============4405648685233270528==--
