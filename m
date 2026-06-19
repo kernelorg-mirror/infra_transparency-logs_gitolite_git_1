@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5596402664520781205=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 19 Jun 2026 12:02:13 -0000
-Message-Id: <178187053343.2066605.6644570437770850095@gitolite.kernel.org>
-
---===============5596402664520781205==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 19 Jun 2026 12:10:05 -0000
+Message-Id: <178187100561.2126436.14781634085708216239@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/master
-    old: 7c4d3036f35aee74974b6dad9ad021cc858e47cc
-    new: b9f3b8181a40de1d89bdf526b97354b1c856b4c2
+  - ref: refs/heads/next
+    old: 6fd0dacc9418b103af4245ab300b9c135bcdb383
+    new: 976a911eecf2ed6f862b26df869e7b3a3c34e299
     log: |
-         b9f3b8181a40de1d89bdf526b97354b1c856b4c2 updates for new stable releases.
+         1e392004663d467b3d08933ffe25d9aa336e384e btf_loader: Handle decl tag component_idx for parameters
+         5342a73227f680a8469b43dcb1e31384b668e90c dwarf_loader: Extract die__add_btf_type_tag() helper [NFC]
+         e6d98f957cdba5f519ec007f074cb774179d679b dwarf_loader: Add support for DW_TAG_GNU_annotation
+         02022ad0eddc3883029345681248bfdb9162d742 tests: Support GCC in pfunct-btf-decl-tags test
+         0b6821133d9853b1477ed08fdc9dec0ba0d7628d tests: Add btf_type_tag ordering test
+         976a911eecf2ed6f862b26df869e7b3a3c34e299 github CI: build/install bpftool from kernel tree
          
-
---===============5596402664520781205==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1781870467 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1781870531-37d588db861eb440947ed132dd1e176821c8a506
-
-7c4d3036f35aee74974b6dad9ad021cc858e47cc b9f3b8181a40de1d89bdf526b97354b1c856b4c2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo1L4MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T5cP/2L0s1F9f4IW79FgE16c
-ZrnrTqUs2ySkEA0aN3POI8U44lfdI7xWJ4sNSz2rT5XscyEdECWw3gxMbDwDLUB6
-9WGCKBWC2BRLhSuX/uI3Kuh361l198ApNcig0bG5t/8MzvuBkHjvE11C41P3l/Zq
-TgjgPsqEuVnMJVjWt2iS5SZn3Y5KE02cnbUT7sKr9dwDtdYbDOzdJwBVdxoqU2B6
-gVorGGSeL3GerNiT3lYmy97rGB8i55RIEYCy1Y6v1SQZ9/Pml3fkWAnc8ehwQAaG
-aZ1/fYrk7qw7EnuBGvLB0GocX0/sf7ahPWIv/AoGl63VBhYtz7zuPi3p0fofrQp/
-wsbMJuRleUFSM8pD1EZCGnWpbJnlqGiJGsqPk2IbLHyP7cKvbMpDUB7SaqYu4vSZ
-sqQhCx9aVRZEqV4QycY38HikWTuTKnHYP5IY/ZXWzZIDQcfFtsFXkfNY2RIH6yxb
-dWQVG54J83cG38TSsxFuPRxZJAMDhO6mHVAGBVgqUhqgEJiMpHeXJ4CPmVkkh54w
-LT60memgXRiJNgfrgzrEGs0rkyIL1jkIHkURJYyN54jBWBRQ3Koi50/pgRA/h/1W
-Mg0P4Xt7uD4EO8iLrHY8fd6wJEsIXx91wHrGtvWumPM5UBsP44oWkbTC+rcP1CoW
-VHL/PVF+LvJWLyPqJc77E4G1
-=q4MT
------END PGP SIGNATURE-----
-
---===============5596402664520781205==--
