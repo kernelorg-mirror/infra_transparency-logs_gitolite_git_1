@@ -1,52 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Sat, 20 Jun 2026 16:55:50 -0000
-Message-Id: <178197455073.3393101.72487361972565583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sat, 20 Jun 2026 17:10:14 -0000
+Message-Id: <178197541454.3403901.947589786729695186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v4
-    old: 0000000000000000000000000000000000000000
-    new: 323557f4b736fd1c5c58220612b23ae888d5a646
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v5
-    old: 0000000000000000000000000000000000000000
-    new: d9a15a40932461e39dba1760e14374f507da85f3
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v6
-    old: 0000000000000000000000000000000000000000
-    new: b6ebfddf69c9232f106217d5d91d7b73c35ef219
-  - ref: refs/tags/sent/20260611-rtl8366rb-improvements-d69f2145219d-v1
-    old: 0000000000000000000000000000000000000000
-    new: 998b58e0e90eac195f39b06d2d56a66f827ea948
-  - ref: refs/tags/sent/20260616-dsa-fix-free-skb-bb028ce90802-v1
-    old: 0000000000000000000000000000000000000000
-    new: d95bbb7a694e2ac2938783ba6634d3f812c96cad
-  - ref: refs/tags/sent/20260616-dsa-fix-free-skb-bb028ce90802-v2
-    old: 0000000000000000000000000000000000000000
-    new: 669bb9ca9ece2ba350a5afbccc60be7c327042d7
-  - ref: refs/tags/sent/20260616-dsa-fix-free-skb-bb028ce90802-v3
-    old: 0000000000000000000000000000000000000000
-    new: 37c0fefa182de21957d357b04b6f2997ae6aaa66
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
-  - ref: refs/tags/v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
-  - ref: refs/tags/v7.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+  - ref: refs/heads/drm-lifetime
+    old: 239b8b1a66c1f9d632da08322411c626a7b858b3
+    new: 926bbfb42882acfd4261c1c94ecfcfbd69ce5d05
+    log: |
+         cbf5e1c11844fcb991afa8281e3a79bef5a42b9f rust: drm: Add RegistrationData to drm::Driver
+         4d9bed66b18d8982580739c2e7b5f293ae130110 rust: drm: Pass registration data to ioctl handlers
+         926bbfb42882acfd4261c1c94ecfcfbd69ce5d05 drm: nova: Use drm::Device<Registered> to access the parent bus device
+         
