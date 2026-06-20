@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Sat, 20 Jun 2026 20:43:43 -0000
-Message-Id: <178198822322.3552419.10037718273992217181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Sat, 20 Jun 2026 22:19:58 -0000
+Message-Id: <178199399842.3617778.10371961378045305054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
-user: nsc
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/nsc/kbuild-host-use-single-executable-for-rust-c-linker-alternate
+  - ref: refs/heads/for-netdev-nf-26-06-21
     old: 0000000000000000000000000000000000000000
-    new: 3e0377746881e06ee7f7a5147429834d8a71e31a
+    new: 27dd2997746d54ebc079bb13161cc1bdd401d4a6
