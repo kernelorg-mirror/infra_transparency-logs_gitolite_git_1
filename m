@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 21 Jun 2026 21:25:10 -0000
-Message-Id: <178207711045.455065.8479418074174032510@gitolite.kernel.org>
+Date: Sun, 21 Jun 2026 21:30:06 -0000
+Message-Id: <178207740689.458836.7185031424628864897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 96e7f9122aae0ed000ee321f324b812a447906d9
-    new: 62b01f72d93c7bc8fde3b2e5b5f783eca5f53324
+    old: 62b01f72d93c7bc8fde3b2e5b5f783eca5f53324
+    new: 1579342d71133da7f00daa02c75cebec7372097b
     log: |
-         62b01f72d93c7bc8fde3b2e5b5f783eca5f53324 net: marvell: prestera: initialize err in prestera_port_sfp_bind
+         1579342d71133da7f00daa02c75cebec7372097b tipc: fix use-after-free of the discoverer in tipc_disc_rcv()
          
