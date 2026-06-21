@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5098286978722830887=="
+Content-Type: multipart/mixed; boundary="===============2238001201443790722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 21 Jun 2026 08:38:19 -0000
-Message-Id: <178203109907.4107416.11651368205376150150@gitolite.kernel.org>
+Date: Sun, 21 Jun 2026 08:38:42 -0000
+Message-Id: <178203112216.4107704.18331357378038910074@gitolite.kernel.org>
 
---===============5098286978722830887==
+--===============2238001201443790722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,69 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 87ff6c1381d99e1fed86a0540633366f7a96e5da
-    new: a77c403d1356c85d5d66a716d831ac396c46e528
-    log: revlist-87ff6c1381d9-a77c403d1356.txt
+  - ref: refs/heads/main
+    old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
+    new: 322008f87f917e2217eeac386a9410945092eb2e
+    log: revlist-8cd9520d35a6-322008f87f91.txt
 
---===============5098286978722830887==
+--===============2238001201443790722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782030976 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782031038 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1782031036-eb4ca7a7f7b23f8bd5212f722be2bce9c50799c0
+nonce 1782031100-2c8943ce7f38b5f22bd92f8619df928f28e1ce6d
 
-87ff6c1381d99e1fed86a0540633366f7a96e5da a77c403d1356c85d5d66a716d831ac396c46e528 refs/heads/clanker
+8cd9520d35a6c38db6567e97dd93b1f11f185dc6 322008f87f917e2217eeac386a9410945092eb2e refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo3ooAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V8cP/Ap8DaluU39amUziD8z6
-L46LiI3yfYZKenU7Kqxx1eK78D/Jt26VSEioM0u//tFaPBH8I3/HPL+DObsCBC7R
-956cxYWZ5DFii3ttm5Liet3cG4Bby11SrCFRX5VUsrMufJDo3D1UrRiy6mU0vakQ
-LgYZK0RGRi0UwV+dp2QtO0nxCMUfnd20Ux/dLOhqygxWMhQcmwz6jEGgc27jReDE
-S7V0/TfP0S1lk7mrvDO5CsrNYy7KtL3kU+zCbgG7GlKIQblkvcdFVZ78sqMxVSdK
-YZC7U19ym9xEnmPPBQ1Q1mIcCOM14sFPFmuu7E9J8J34+BZgUFnM+DKUcyQm79pO
-r12aNdIeLlyGWwtUW5Y+Kk/8UTKlC/7iQih6hz9SiC5husDI9DQqPMzUpHSIPg31
-/4G6YOdztNq7FWEaJQBchqgTBJkvfPWqhHIyV78WhFAEeQ3Wtlx2YvbY1cGyvSft
-RBpgGpA08bGCTmesSodo3pXOPGgKDlx6kHM0RY9ufU0PZdMD7ORlObAMB2AamxJ8
-yT7eGLmTbLWqZeEEp2kKzaFOQ3j0v/RnkE+WU7zTJHtDUhoHcHnuPB/6oCmn99Qe
-5qrBtGIsLHllCVDI0OO2g+QhaA+MNdzaSdpKOZWQ8Xnj9BEL5y+dWl+WNoYy9JV7
-vh0nyuZXjFYqWVRuLykl2eUQ
-=hAJm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo3or4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tCgP/Re4J+ld01KrcU8iVmpe
+JPcR8krqnVHYhh/9a4XuQxYnUQX+PH425MOKulyX6FTw/lBMxnAqcvJ1havbxIg/
+N+O2UL2VaqeTFklPt9jYkGTDWLXMjFnMVbv4gxNCBwcd84ESQaUeo7vwY3n53HWQ
+ehBqkHNhvPj3I4v2tF0m9b+cjHtP+uoaT6QSY+yP9rOIfi9F/kxkw2a/Os9tPL/V
+hHR7DlWhItFpbEaQo/sZuXrBVWlu2vCIoX2+6IVgZmTikQ+KzzPOhpNHE68ykJeI
+mB6nmaaccPOoiVUmqb1xvTyG8KVOIhi6HjGT3MRUb35CfSjehl2DpnFMvw6tQuuJ
+cEvv2L28QgOI25B4u6obYQU1BOodN3AiUMexJ9LFvIbDJHWXlGHoFvK6YhraWosF
+lAPEweC6k29GsrToaW/CVuTgDfVJiqx35xpCFXzo+7+q1xpoShdLCL+6ud7fXnnA
+WRv1ES/NA8WOWDYqZvUGmFLHklZ/1k1wEXPCQ/Zw/SD0It3fHAzsnSCjNgpTV75l
+FKGRqp+qk9r5QqRJ6nF/TIQad67yMPB1Wq47VztF3Q3h0OFdZbn0WX40YsL03H2s
+weinf+M04iHQnb6ap8AZh7wtSIP636wsIpMwuY47wIAn3kepL/QVh21vgDqR0rNT
+THJp/GOI0S9vZ9M/creIWYd9
+=1Z55
 -----END PGP SIGNATURE-----
 
---===============5098286978722830887==
+--===============2238001201443790722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87ff6c1381d9-a77c403d1356.txt
+Content-Disposition: attachment; filename=revlist-8cd9520d35a6-322008f87f91.txt
 
+1cecde1005399eb4e4069c036dcfcbe3c240b6e0 crypto: amcc - convert irq_of_parse_and_map to platform_get_irq
+51f449308506269ec31a886c83da93f7a7a4d780 MAINTAINERS: make myself the maintainer of the Qualcomm QCE driver
+7891c64c0520519782470ba29bac8a5761e295d8 crypto: marvell/octeontx - fix DMA cleanup using wrong loop index
+9dbf173bd32d5f81b005008b682bfb50aa093455 crypto: cavium/cpt - fix DMA cleanup using wrong loop index
+70fd646ae5ddaae0a7fbbba94b500bde2e1211f0 crypto: atmel-ecc - drop dead code in atmel_ecdh_max_size
+8d13f7a8450206e3f820cdb26e33e91d181071b4 hwrng: jh7110 - fix refcount leak in starfive_trng_read()
+6b7e97752854b1f7bccc41864428ea3b55c53cde crypto: testmgr - allow authenc(hmac(sha{256,384}),cts(cbc(aes))) in FIPS mode
+606ba888b98e0d26a2c4e5c8dc0542e3ad8f0f3a crypto: rng - Free default RNG on module exit
+6ea0ce3a19f9c37a014099e2b0a46b27fa164564 crypto: tegra - fix refcount leak in tegra_se_host1x_submit()
+f6033078a9e671e3c8b83d387b91591a6f6a54e7 ip6_tunnel: annotate data-races around t->err_count and t->err_time
+6191a61ec9d9d8f1d1d1d6bfcb6d303be76c2804 arm64: dts: bst: enable eMMC controller in C1200
+22ca5df7c9d25077e44e33fb5751583aa79ee21a arm64: defconfig: enable BST SDHCI controller
+c936d730575fcbf6203bf0f10d37409b33725647 Merge tag 'bst-arm64-emmc-driver-dts-for-v7.2' of https://github.com/BlackSesame-SoC/linux into soc/dt
+cccde8de2c72068051ff8351ae6f1e2a12718aa0 Merge tag 'bst-arm64-emmc-driver-defconfig-for-v7.2' of https://github.com/BlackSesame-SoC/linux into soc/defconfig
+144c05d88c7f459c22abafe891ee149692f29734 iommu/amd: Simplify build_inv_address()
+2e43a291d7a79059ae0cc02be3d3931ae3dad242 iommu/amd: Pass last in through to build_inv_address()
+cc08ecaf8e584073600abdf71ea4213267387226 iommu/amd: Have amd_iommu_domain_flush_pages() use last
+17149077e01c9f1a9171928d3ebdaaaf504577a9 iommu/amd: Make CMD_INV_IOMMU_ALL_PAGES_ADDRESS match the spec
+e4f39d793123d1da3979ce6c749995f1eee337b5 iommu/amd: Control INVALIDATE_IOMMU_PAGES PDE from the gather
+f4f28ffe09248e747ffd6b752cbad0f7a34af475 xfs: shut down zoned file systems on writeback errors
+202ff980a464198616e53e85e5276e68c00a1031 xfs: move XFS_LSN_CMP to xfs_log_format.h
+94e6ddf9a0caf407d628ef41c92b59371e1cd338 Merge tag 'kvm-s390-master-7.1-4' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 4d37da77e657edc44eba33d57701b9b6ba058252 Merge tag 'kvm-x86-generic-7.2' of https://github.com/kvm-x86/linux into HEAD
 07e2939ddab876d68d661ebad6c4eedec98193b8 xfs: skip inode inactivation on a shut down mount
 804826eac53cff44f88f42989fcc601c2612c0ed xfs: shut down the filesystem on a failed mount
@@ -1059,27 +1081,5 @@ a975094bf98ca97be9146f9d3b5681a6f9cf5ce3 Merge tag 'exfat-for-7.2-rc1' of git://
 9d0d4d12e456ea587c8673e314e901ecb01e6329 Merge tag 'rproc-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 c7f112e12de3098176e3c5eef022dd0eecfeeeba Merge tag 'rpmsg-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 322008f87f917e2217eeac386a9410945092eb2e Merge tag 'hwlock-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-0053d311d96b88c7387b777b59255e68a2ee2117 net: mctp: usb: properly drop the usb interface on probe error
-aec22b84232bfcdc9b3a4155ac84fcc920142dec wifi: rtw88: properly drop usb interface reference on error
-e2ade7486e51e4079210161f11a1d212a7933e74 mmc: moxart: fix potential use-after-free on remove path.
-c0451c28b8ae7012034a27faa43f8e291e4d0202 mmc: meson-gx: fix potential use-after-free on remove path.
-a505cd2d033df9a8c686d01b2f9b8251e1350bdb f2fs: fix potential deadlock in f2fs_convert_inline_inode
-553f65a5b120e51b7f58eeca143c681de2d0ed3e drm/amdkfd: stop speculation on the kfd_ioctl path
-f3cfd7d98082f022c721a08a6fb1937d2469e904 media: adv7604: avoid negative array index in log_status when cp_read fails
-551e1875d905d07e92377ff7eef9247cf90f1b6e media: stv090x: bound DiSEqC reply length to msg[] size
-df0b0df43a4f9d6d3e03b4005e98c616d3b2f150 media: stv0900: bound DiSEqC reply length to msg[] size
-7fb0e00819cd7bf2aca6e15dc833f5bc44e2e1ce NFC: digital: Bounds check Felica response before sensf_res memcpy
-298ad38f0f66576cce02c9debf200f021521bbf8 net: usb: cdc_ncm: reject negative chained NDP offsets
-9efa5c0c2f9a100f6270a4d91d3dadde2e1864bf net: sched: em_text: require NUL-terminated algo name
-2c4867dba0f9f432ceac298f580b39ae0fa2fc3c staging: rtl8723bs: fix OOB write in HT_caps_handler()
-9c9e24b67aefe68800701868205ccf7c733cea44 Input: synaptics-rmi4 - validate register descriptor structure against its declared size
-bd83de07d069788f8b6af659c86bdb05c1df48be Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
-b3304f1a48bf6c6eac066472850c1690325c4db2 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-f1a5e1d6e351a108750118d23afdb58ede5dc401 io_uring: depend on MMU
-0074a05897eaaa3af44117e91c7fe7f90706f223 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-bae89b2c17c41c9f005703734e947975c2fd7121 usb: typec: tcpm: validate VDO count before reading Attention status VDO
-40e38e8b6a6b580877317eeb3570aa01b6c075aa iio: adc: ti-ads1298: add bounds check to pga_settings index
-49bc8dc15c9e91a826997cb41883ba2c870ba3a3 iio: light: veml6075: add bounds check to veml6075_it_ms index
-a77c403d1356c85d5d66a716d831ac396c46e528 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
 
---===============5098286978722830887==--
+--===============2238001201443790722==--
