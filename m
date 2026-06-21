@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 21 Jun 2026 22:15:07 -0000
-Message-Id: <178208010747.494552.7732257542726816973@gitolite.kernel.org>
+Date: Sun, 21 Jun 2026 22:17:54 -0000
+Message-Id: <178208027457.495868.10491540661735842435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 27ccb68e7cccead5d8c611665a45d23032d468b3
-    new: d186e942365acece7c56d39da05dd63bf95b280a
+    old: d186e942365acece7c56d39da05dd63bf95b280a
+    new: 54704b32b2abd62dbb63082c89fa35685c34674a
     log: |
-         d186e942365acece7c56d39da05dd63bf95b280a ipv6: ndisc: fix NULL deref in accept_untracked_na()
+         05ed733b65ab977dd931e7f7ac0f62fdb81205c2 net/sched: dualpi2: fix GSO backlog accounting
+         54704b32b2abd62dbb63082c89fa35685c34674a selftests/tc-testing: Add DualPI2 GSO backlog accounting test
          
