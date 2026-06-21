@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 21 Jun 2026 18:46:49 -0000
-Message-Id: <178206760962.343940.13781855466318525342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 21 Jun 2026 19:09:52 -0000
+Message-Id: <178206899236.358920.11373519562194802238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/v2026.06.21a
-    old: 0000000000000000000000000000000000000000
-    new: d7c24ba666e292263b36954f8d07974422f3e034
+  - ref: refs/heads/master
+    old: 566f1832dcd22baa31f308410627f0d986763008
+    new: 7eb0a83218dce7ef2cd6491ac45d023f1143a5b1
+    log: |
+         7eb0a83218dce7ef2cd6491ac45d023f1143a5b1 Fixes for all trees
+         
