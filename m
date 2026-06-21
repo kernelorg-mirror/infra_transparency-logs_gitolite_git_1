@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Sun, 21 Jun 2026 07:52:29 -0000
-Message-Id: <178202834956.4075269.4514241542781981803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Sun, 21 Jun 2026 07:59:00 -0000
+Message-Id: <178202874044.4079617.11889775339370504741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 504267e5a417a7481329783924a5f2a475aca748
-    new: e8613e1cf44541aa3f22e5ac52ac63138cb4aa15
-    log: |
-         7d7b25386d0d5fd95194435866e2dce0dcd9395c dt-bindings: i2c: mux-gpio: name correct maintainer
-         e8613e1cf44541aa3f22e5ac52ac63138cb4aa15 Merge tag 'v7.1-dts-raw'
-         
+  - ref: refs/heads/b4/arm-generic-irq-entry-v7.1
+    old: 0000000000000000000000000000000000000000
+    new: bd9b31dced88da0e40bee398a89f752d2041954d
