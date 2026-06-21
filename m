@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2238001201443790722=="
+Content-Type: multipart/mixed; boundary="===============6644398748318414726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 21 Jun 2026 08:38:42 -0000
-Message-Id: <178203112216.4107704.18331357378038910074@gitolite.kernel.org>
+Date: Sun, 21 Jun 2026 08:39:06 -0000
+Message-Id: <178203114676.4108229.1010930393746535792@gitolite.kernel.org>
 
---===============2238001201443790722==
+--===============6644398748318414726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
-    new: 322008f87f917e2217eeac386a9410945092eb2e
-    log: revlist-8cd9520d35a6-322008f87f91.txt
+  - ref: refs/heads/module_version_removal
+    old: 1033eef6ffdb7c8f4f81097a92a2b1496d608e3d
+    new: aa21031ecace7ff0e4a5b2942947c97f8b7932f1
+    log: revlist-1033eef6ffdb-aa21031ecace.txt
 
---===============2238001201443790722==
+--===============6644398748318414726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782031038 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782031061 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1782031100-2c8943ce7f38b5f22bd92f8619df928f28e1ce6d
+nonce 1782031123-95b7f4d580af53426e112c76c5e52cd551512ee7
 
-8cd9520d35a6c38db6567e97dd93b1f11f185dc6 322008f87f917e2217eeac386a9410945092eb2e refs/heads/main
+1033eef6ffdb7c8f4f81097a92a2b1496d608e3d aa21031ecace7ff0e4a5b2942947c97f8b7932f1 refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo3or4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tCgP/Re4J+ld01KrcU8iVmpe
-JPcR8krqnVHYhh/9a4XuQxYnUQX+PH425MOKulyX6FTw/lBMxnAqcvJ1havbxIg/
-N+O2UL2VaqeTFklPt9jYkGTDWLXMjFnMVbv4gxNCBwcd84ESQaUeo7vwY3n53HWQ
-ehBqkHNhvPj3I4v2tF0m9b+cjHtP+uoaT6QSY+yP9rOIfi9F/kxkw2a/Os9tPL/V
-hHR7DlWhItFpbEaQo/sZuXrBVWlu2vCIoX2+6IVgZmTikQ+KzzPOhpNHE68ykJeI
-mB6nmaaccPOoiVUmqb1xvTyG8KVOIhi6HjGT3MRUb35CfSjehl2DpnFMvw6tQuuJ
-cEvv2L28QgOI25B4u6obYQU1BOodN3AiUMexJ9LFvIbDJHWXlGHoFvK6YhraWosF
-lAPEweC6k29GsrToaW/CVuTgDfVJiqx35xpCFXzo+7+q1xpoShdLCL+6ud7fXnnA
-WRv1ES/NA8WOWDYqZvUGmFLHklZ/1k1wEXPCQ/Zw/SD0It3fHAzsnSCjNgpTV75l
-FKGRqp+qk9r5QqRJ6nF/TIQad67yMPB1Wq47VztF3Q3h0OFdZbn0WX40YsL03H2s
-weinf+M04iHQnb6ap8AZh7wtSIP636wsIpMwuY47wIAn3kepL/QVh21vgDqR0rNT
-THJp/GOI0S9vZ9M/creIWYd9
-=1Z55
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo3otUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bN0P/iwMPCvS5f4gIriOXpka
+xjCpXUOfxoT9W9mI+wZTXfmFsXNSqv2ywvn0PEbTBmUvoM2sfE5v1LMhO9fcs0Z6
+EUcDbIdqVh57d3vnNDztesejqmNZ62a0zRLMqofY8WYZx0WVlz2lj6UNcQ/ssiCZ
+AnBnw6N6YnMDkAWFEDbw6GaD89T7/NcW5nGQhjzWEW9T6V8Rowp2SiPLSHcF7QiR
+r6V/YcsePqbsW7T5D/+tJnFR0yeNCmcDWnHSdCzWASphnUIcAlciUixv5l/gljBx
+mqszg8Lco2xPRpcISrV2W99v4op5Cir79Dc2oZtu4AznnZeM3WpTySMEaVArDanO
+0kiMQK0a323CeNQCPKjWyL2/dvpT5sAVOd7Pe59X03EjJZv06uyoPE0w5n/s2Gp9
+a8nUTqg3kQYvcVyNe5/qkqUSk+Fq3TdgRQrvRVDqtSmGtGEfeP+PoyaSZvRmrgPr
+mAorSB2DSbjoCmCpzVX4yo+h/8wtzlbZlBtLtUh+H9R0kb7xx9Dz3yZQFauDdFVL
+McR40nS3Ib5E8pd0tn5vrjxImTBahb2s0TZKLg3/7V1BG7/bcFtNyIV+xzAoIz2Q
+P498ODStSOjT8gLOcSyUhMak0Za2OK0wp6KAKolQ1J90aOu+eaUhk5rLsrDKR2Au
+5xhv2VUksIK8i+8EqNwAPYbx
+=PBJU
 -----END PGP SIGNATURE-----
 
---===============2238001201443790722==
+--===============6644398748318414726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cd9520d35a6-322008f87f91.txt
+Content-Disposition: attachment; filename=revlist-1033eef6ffdb-aa21031ecace.txt
 
-1cecde1005399eb4e4069c036dcfcbe3c240b6e0 crypto: amcc - convert irq_of_parse_and_map to platform_get_irq
 51f449308506269ec31a886c83da93f7a7a4d780 MAINTAINERS: make myself the maintainer of the Qualcomm QCE driver
 7891c64c0520519782470ba29bac8a5761e295d8 crypto: marvell/octeontx - fix DMA cleanup using wrong loop index
 9dbf173bd32d5f81b005008b682bfb50aa093455 crypto: cavium/cpt - fix DMA cleanup using wrong loop index
@@ -1081,5 +1080,6 @@ a975094bf98ca97be9146f9d3b5681a6f9cf5ce3 Merge tag 'exfat-for-7.2-rc1' of git://
 9d0d4d12e456ea587c8673e314e901ecb01e6329 Merge tag 'rproc-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 c7f112e12de3098176e3c5eef022dd0eecfeeeba Merge tag 'rpmsg-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 322008f87f917e2217eeac386a9410945092eb2e Merge tag 'hwlock-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+aa21031ecace7ff0e4a5b2942947c97f8b7932f1 module: remove MODULE_VERSION()
 
---===============2238001201443790722==--
+--===============6644398748318414726==--
