@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6723986154066785007=="
+Content-Type: multipart/mixed; boundary="===============7478975374132097854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 21 Jun 2026 08:39:28 -0000
-Message-Id: <178203116879.4108524.10338548107561278018@gitolite.kernel.org>
+Date: Sun, 21 Jun 2026 08:39:52 -0000
+Message-Id: <178203119273.4108771.16172808030915567574@gitolite.kernel.org>
 
---===============6723986154066785007==
+--===============7478975374132097854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 4b1edc1a2323e8d6ab7cbeaedef66356a5e7af4b
-    new: f4ac9b827c465973df60356d58d576da7b924068
-    log: revlist-4b1edc1a2323-f4ac9b827c46.txt
+  - ref: refs/heads/rndis
+    old: 852acc13e03cee2e0a49e9ae843ddb3dc0ea5b69
+    new: b3eadcc87f13ace9dd1c50ba51f45e12a388b6f7
+    log: revlist-852acc13e03c-b3eadcc87f13.txt
 
---===============6723986154066785007==
+--===============7478975374132097854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782031085 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782031107 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1782031148-a95d2bbec2c357b4d22f8243bfdd3daec6cc1821
+nonce 1782031170-6d228e0a83769af8f8d48368ba0570fa9faf4f0b
 
-4b1edc1a2323e8d6ab7cbeaedef66356a5e7af4b f4ac9b827c465973df60356d58d576da7b924068 refs/heads/readfile
+852acc13e03cee2e0a49e9ae843ddb3dc0ea5b69 b3eadcc87f13ace9dd1c50ba51f45e12a388b6f7 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo3ou0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mqwQAKFfTe+mboP5sNhjo5Qb
-cwBp7ews0lJWtVuhIaMozQSlxFp1/s0AolwlwUuEhLwneNY+N3bgXRHvvSeAWE/8
-pdusNrS5yNzdKOgcthvZqWEoMyyryUTSLFK97kn0mIrSS4OvaN6FmoJzog33JkiT
-4JFFmSjx5fq8SWxCqmiQxSnqRltDaTLnVqq4Wz9G5yJf85RdCiUFXuIiwtL1Z0iO
-ofPs8lyZGm05tmgtG3e3tX2p6r0EZtVPGJTvgWmqA35oNggDVBr4RWTCsdgGI3wQ
-Th9sHSgH/Pq/ZgDziawIFEwtc058a/HIEJsVJNW6++Aud1DMvuXKuMVJXInCsN7a
-P586ow0Ib2iwaVi0FhdHn56nq9fY6D5sMPGVwgwvlymb5AjWZE5Y+uAvMpRVerK9
-vVlRwEf+gW0fp5bJYSBGx9nv2553G4FPtRXSHdBLkI0b7AywUHFZ2qeexjFnACDz
-f+WXRVOjVgQLcG/FIwrejN94cGZpEhZAk8Xf8GEPaFbgQ6xCSG98ZF0xMxhDeUxi
-ip9tt5fnWwxhUc9qJCXNfwLuCCL57if8+mD0SpVRSIuT6nGse6gEAkQrEGw8/4hp
-44UJBsNpJoi01uD9EgYj3/lBnLdXDO4nXHWOp1AzReEZYMbqyVphx1W7SXNG6p9t
-kaHkiwATE1h6VZ+wDOCCtal3
-=onJt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo3owMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x0kP/jX4lqpPMKFtyURK0cQ8
+I//pn4auoUQ6cnguBpD6mHEn/74Z+WHpVijNA2wU5KVdb61WTjPEWi3lSPjAmfu7
+mIwApb0cC88DTVo06uHKxEUdyEVysZEV8/qO1Mhn4SLKbwiGpoKNCsRWllDK/sZd
+mciE/PPuIOn8Rcd0Lb98ly3n0PYecNepEg+oqDhW8bmA4OWd5IvDN67Q9uhpqRPS
+n65BGpirsnJEhWHIx5RTlkKBQjVq6zyFTdOHP7OwmqMC+fgTSbAW3WYxnvS3q5FV
+FKRbq8Y+iALcuwq5mRbsdsxMffY8Pg2VVmCPvURicYANeQmIoLEZFq33TxdrvMtb
+7v9bQduA9XBmR+b0BFsnN+RiML1dIe5/w44yAtWGZF49hZCh4kLsW3taEXEFA74Q
+0L04lAsznxqYlZtwAhT/bNaKpgHZf9SS9REwzNT9R3JjbXlhhNI+FNG1EN8YdsnM
+wM3qNZsqqKbUCM6GYwkf50ZXnCG62xwk93fQ+fZEcJ6HFQgTwTpB4ErXmLyhnpHh
+GKN9+icjX+Dgojp3pGVQnH5BHAnSKrNDaEAGejdHlcEPTP7Wrd4cNuLOQY0/OGc4
+7wh5+LYKiZQ6N7cKVnraJTz2XSNUGxNwoGqsWmBvvOSlaYMGMRwhWcT6T7ReHyhq
++IdWwU39WCQYA7jehv9Lm+6X
+=5Gfg
 -----END PGP SIGNATURE-----
 
---===============6723986154066785007==
+--===============7478975374132097854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b1edc1a2323-f4ac9b827c46.txt
+Content-Disposition: attachment; filename=revlist-852acc13e03c-b3eadcc87f13.txt
 
+7891c64c0520519782470ba29bac8a5761e295d8 crypto: marvell/octeontx - fix DMA cleanup using wrong loop index
+9dbf173bd32d5f81b005008b682bfb50aa093455 crypto: cavium/cpt - fix DMA cleanup using wrong loop index
 70fd646ae5ddaae0a7fbbba94b500bde2e1211f0 crypto: atmel-ecc - drop dead code in atmel_ecdh_max_size
 8d13f7a8450206e3f820cdb26e33e91d181071b4 hwrng: jh7110 - fix refcount leak in starfive_trng_read()
 6b7e97752854b1f7bccc41864428ea3b55c53cde crypto: testmgr - allow authenc(hmac(sha{256,384}),cts(cbc(aes))) in FIPS mode
@@ -1077,9 +1079,7 @@ a975094bf98ca97be9146f9d3b5681a6f9cf5ce3 Merge tag 'exfat-for-7.2-rc1' of git://
 9d0d4d12e456ea587c8673e314e901ecb01e6329 Merge tag 'rproc-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 c7f112e12de3098176e3c5eef022dd0eecfeeeba Merge tag 'rpmsg-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 322008f87f917e2217eeac386a9410945092eb2e Merge tag 'hwlock-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-b00d17a061d9b1c31a1b5439ac7cee243cdcfb2f readfile: implement readfile syscall
-681c2e113d2bb0a67a3ffa5eb8220944b4d72f63 arch: wire up the readfile syscall
-e09b3ef6245329f2704e72ea6f8b141ca0c7a1a6 readfile.2: new page describing readfile(2)
-f4ac9b827c465973df60356d58d576da7b924068 selftests: add readfile(2) selftests
+b2442bd49057238d05628f1a024999590c730cf2 USB: disable all RNDIS protocol drivers
+b3eadcc87f13ace9dd1c50ba51f45e12a388b6f7 USB: potential rndis host fix
 
---===============6723986154066785007==--
+--===============7478975374132097854==--
