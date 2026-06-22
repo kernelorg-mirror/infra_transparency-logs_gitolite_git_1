@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 22 Jun 2026 16:10:15 -0000
-Message-Id: <178214461533.1391614.10051640531896276618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 22 Jun 2026 16:17:10 -0000
+Message-Id: <178214503075.1396402.4008620395679804151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/irq/urgent
-    old: a1074dd62faa6572921d387e8a21589ccea00efc
-    new: 37738fdf2ab1e504d1c63ce5bc0aeb6452d8f057
-    log: |
-         37738fdf2ab1e504d1c63ce5bc0aeb6452d8f057 irqchip/imgpdc: Fix resource leak, add missing chained handler cleanup on remove
-         
+  - ref: refs/bugs/70fe60738695c6270c92d1b3d8963c5fe7b23ead370b6a049734a9adc0b16a58
+    old: 0000000000000000000000000000000000000000
+    new: e38401439cd9e14373eee3e2cc755ff65b43d822
