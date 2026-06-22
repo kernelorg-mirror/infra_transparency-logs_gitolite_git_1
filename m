@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 22 Jun 2026 09:11:03 -0000
-Message-Id: <178211946352.1019728.474526902157617671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Mon, 22 Jun 2026 09:21:06 -0000
+Message-Id: <178212006601.1026954.7619132817957865552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: 95969b814696dc2973e97d9468d448886441406b
-    new: 31232ba59d166fe7ef4e0902d5bc35910bfb7238
+  - ref: refs/heads/renesas-clk-for-v7.3
+    old: ed0c053a699863795a6523b0bf664179ff2fcab5
+    new: 61021a23a33f143cd147160fbe585ded13626888
     log: |
-         a5dae6f5583f354f1c46fc4f067b936ec822d359 lscpu: fix NULL+offset dereference in cpuinfo_parse_cache()
-         31232ba59d166fe7ef4e0902d5bc35910bfb7238 Merge branch 'lscpu-fix-null-offset-deref' of https://github.com/rawrmonster17/util-linux
+         c4a16f90797e2d8bebf875fd02547fef76ae3b76 dt-bindings: clock: renesas,r9a09g077/87: Add LCDC_CLKD clock ID
+         2b005b458f6eeffdbe7705e6667437013b54e209 dt-bindings: clock: renesas,r9a09g077/87: Add PCLKRTC clock ID
+         eaaea023fa29c40521ee1e92c6f2767cf3251ee3 clk: renesas: r9a08g046: Add clock and reset entries for SDHI
+         01bc18c30dabbcb6ac44787bb2c256e783337893 clk: renesas: r9a08g046: Add clock and reset entries for GE3D
+         aa5f719e461f3a8df94e317d7489f051154ceb84 clk: renesas: cpg-mssr: Implement dedicated MSTP delay logic for RZ/T2H LCDC and RTC
+         a309feab806258d1a650bcc151a50c3e0ea19dbf Merge tag 'renesas-r9a09g077-dt-binding-defs-tag7' into renesas-clk-for-v7.3
+         f3977cefab10630debeadc1fe751d750b56339a4 clk: renesas: r9a09g077: Add RTC clocks
+         61021a23a33f143cd147160fbe585ded13626888 clk: renesas: r9a08g046: Add USB2.0 clock and reset entries
          
