@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5273693617644284471=="
+Content-Type: multipart/mixed; boundary="===============8480230301785625469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 22 Jun 2026 16:30:21 -0000
-Message-Id: <178214582102.1409471.3761784666812500114@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 16:30:39 -0000
+Message-Id: <178214583978.1410194.15606527202962933689@gitolite.kernel.org>
 
---===============5273693617644284471==
+--===============8480230301785625469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 92a016e6ce14f7b2cbc8fe00cc6534e9d4443ccc
-    new: 42fef474f5d8396c361dbb984bb0421874b76590
-    log: revlist-92a016e6ce14-42fef474f5d8.txt
+  - ref: refs/heads/export-net
+    old: 9ddc144f14699773b2bd0ea80a471246d9003fe5
+    new: e4930b293140347f64d8060952abea6d86792660
+    log: revlist-9ddc144f1469-e4930b293140.txt
 
---===============5273693617644284471==
+--===============8480230301785625469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a016e6ce14-42fef474f5d8.txt
+Content-Disposition: attachment; filename=revlist-9ddc144f1469-e4930b293140.txt
 
 df97a7107b16375a10a36d7a63e9b4291a8ac680 batman-adv: gw: don't deselect gateway with active hardif
 4cd6d3a4b96a8576f1fed8f9f9f17c2dc2978e0c batman-adv: ensure bcast is writable before modifying TTL
@@ -73,42 +73,13 @@ eca856950f7cb1a221e02b99d758409f2c5cec42 ipv4: account for fraggap on the paged 
 38becddc332c1dbee6ab8dc8f13a860c6280b905 Merge branch 'ipv4-ipv6-account-for-fraggap-on-paged-allocation-paths'
 9ed19e11d2146076d117d51a940643990118449b ipv6: ioam: fix type confusion of dst_entry
 d07d80b6a129a44538cda1549b7acf95154fb197 dpaa2-switch: do not accept VLAN uppers while bridged
-069cdcd19ac75721f95e6e1ad15aa27bcd52ef7d DO-NOT-MERGE: git markup: net
-1623269203333beca3dcd28727045478ef5a0c16 DO-NOT-MERGE: git markup: fixes other trees
-3410d912f9392f4452c1b3453d309361f7dd77d2 DO-NOT-MERGE: git markup: fixes net
-a895666b880abed061db94a347d7d146d74a9133 DO-NOT-MERGE: mptcp: add CI support
-63f7c722fd325fbf5b024af57b415e6498a675f6 DO-NOT-MERGE: git markup: end common net net-next
-2fc81fedb37b0ef83de294c67528f84a8bd1447e TopGit-driven merge of branches:
-0709d218a9b9c49963692413469bc19822d05455 DO-NOT-MERGE: git markup: net-next
-e27c7863da6d56c79ef2fc08ce6455f3443d5b2a DO-NOT-MERGE: git markup: fixes net-next
-528c4ac34a3ecacf7d36e4393a9037801cf9572a mptcp: pm: init and release mptcp_pm_ops
-a78155695fc501431ad7e826a8b35ae18f78d9cb mptcp: pm: add get_local_id() interface
-e16d0d15bd2b98fb78d5ef58bc974f506fcfb6ad mptcp: pm: add get_priority() interface
-07d93728ec4b175b67dc7f272c9bedbe8258ce86 selftests: mptcp: connect: test name in pcap file
-52618a65adde6d7a1944038e6fe2a8917057c586 selftests: mptcp: simult_flow: test name in pcap file
-3bd3854341750d7362166c729e3e608dabf2921c selftests: mptcp: pcap: drop most of the payload
-54b5e39a784bfb6351e42bf2fa35282394491289 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-99e097bdca25313683efd5ab88f4bc41a5908273 mptcp: remove unused data_ack from struct mptcp_ext
-fcd18de79458112eb90b237ef4e1c581300cd556 mptcp: move the retrans loop to a separate helper
-fbd329573872a0acac50f13a99b0a4b8b9ae7c5f mptcp: let the retrans scheduler do its job
-7114b23ab5574c0f4f85d52eb5f0170c27d93189 mptcp: explicitly drop over memory limits
-18008dee0990d050cf2170bda35f32e95a86cc72 mptcp: enforce hard limit on backlog flushing
-a45ba56ac3872601a4f6f074e71b1226c876ae44 mptcp: implemented OoO queue pruning
-34ef1b394f842eeca0267e8f38c4d4e5c81aa3da DO-NOT-MERGE: git markup: features net-next
-91b2683a6c752ef45fc0b8024320661fde810447 DO-NOT-MERGE: git markup: features net-next-next
-433aeae4ae573f67cc5d2f6f3164bca3af34baaf bpf: Add mptcp_subflow bpf_iter
-b5a565756323fd251ac00ff8653c17bf1d2ca0d6 selftests/bpf: More endpoints for endpoint_init
-21e214725eeda0e23a1ce1885cf0a34998d74614 selftests/bpf: Drop cgroup_fd of run_mptcpify
-6fad564de049dcbf1bf9db666bb344f4b9de545b bpf: Add mptcp packet scheduler struct_ops
-135efda9bbdb0613f878a48f9b4aa2cd1c764d3e bpf: Export mptcp packet scheduler helpers
-4fe93bcc6e71b7a68f5d281b2e7799085ab30932 selftests/bpf: Add bpf scheduler test
-6e8c9f59641c19bdf93e1b07aca9c5b42b54f103 selftests/bpf: Add bpf_first scheduler & test
-db8628ccfbea4d17ba618dd350ec3ffe31eb50b3 selftests/bpf: Add bpf_bkup scheduler & test
-db82d5124539c1b8e285b2773b44b8ab92e22cd9 selftests/bpf: Add bpf_rr scheduler & test
-4700671904cab2b5267af8aada8cc33c13734e57 selftests/bpf: Add bpf_red scheduler & test
-27a5735f8773836bebc55a1f32127c35ef4278d1 selftests/bpf: Add bpf_burst scheduler & test
-373e3555093a317f1b21bed41c6d2ca38f387809 DO-NOT-MERGE: git markup: features other trees
-60c3947f2b230a7b84704fc0cd2eada02aa5aa23 DO-NOT-MERGE: mptcp: improve code coverage for CI
-42fef474f5d8396c361dbb984bb0421874b76590 DO-NOT-MERGE: mptcp: enabled by default
+335674df312a34ebe055d70a095fe631346e5ede DO-NOT-MERGE: git markup: net
+a9f1740fbcaeebfe78cad2a7b09015f91e9558cc DO-NOT-MERGE: git markup: fixes other trees
+acfd4423838b6c2cbd60182377a84d6f1a462f8f DO-NOT-MERGE: git markup: fixes net
+615c6993dcc41fe14ce800562f1942fbbcedcd13 DO-NOT-MERGE: mptcp: add CI support
+ab42d17cd088c4541122ec4143a7207fe1d59dc9 DO-NOT-MERGE: git markup: end common net net-next
+daa59d1a75137d971bc9385c975b54bc5cf0b2c6 DO-NOT-MERGE: git markup: fixes net only
+0aa65f012b3dfb144fb7a9390f0744fbc550a51b DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+e4930b293140347f64d8060952abea6d86792660 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============5273693617644284471==--
+--===============8480230301785625469==--
