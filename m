@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8606595293335836361=="
+Content-Type: multipart/mixed; boundary="===============3059955206102287599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 22 Jun 2026 18:55:55 -0000
-Message-Id: <178215455588.1523274.13509757733134670317@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 18:56:00 -0000
+Message-Id: <178215456023.1523792.13887700174178400766@gitolite.kernel.org>
 
---===============8606595293335836361==
+--===============3059955206102287599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 391204b18aeaf3a11a87e4a7a47a8fee4945abe0
     new: 8b797f8b8c1f3fe466185d9bdb39a5e2224cf8f3
     log: revlist-391204b18aea-8b797f8b8c1f.txt
 
---===============8606595293335836361==
+--===============3059955206102287599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f28b37d24013c23aa89b91dc39474d3171037078 perf python: Add syscall name/id to con
 430da3cd03b41e78a20b3146d7bb00f2f01dc2c6 perf python: Add perf.pyi stubs file
 8b797f8b8c1f3fe466185d9bdb39a5e2224cf8f3 perf python: Add LiveSession helper
 
---===============8606595293335836361==--
+--===============3059955206102287599==--
