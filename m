@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 22 Jun 2026 19:18:54 -0000
-Message-Id: <178215593408.1541810.10986684619219539579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Mon, 22 Jun 2026 19:42:24 -0000
+Message-Id: <178215734430.1559126.3657616487800238308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/tags/perf-tools-for-v7.2-1-2026-06-22
+  - ref: refs/heads/b4/arm-generic-irq-entry-v7-1
     old: 0000000000000000000000000000000000000000
-    new: b75318994e10a941d3121258c9dfc6cf4f6aa247
+    new: a46fdb527ee0ea613612b14095a0106ed547519a
