@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7090892596186456811=="
+Content-Type: multipart/mixed; boundary="===============4832972739002428878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 22 Jun 2026 17:59:10 -0000
-Message-Id: <178215115023.1475298.13115255433885171905@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 17:59:18 -0000
+Message-Id: <178215115887.1475639.12357290315601120557@gitolite.kernel.org>
 
---===============7090892596186456811==
+--===============4832972739002428878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,73 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d4952c8da4cd593a8a4747ddb40091793d5f495e
-    new: fc4abaefba3615e74f113508ad8aca2ccee94f34
-    log: revlist-d4952c8da4cd-fc4abaefba36.txt
+  - ref: refs/heads/1GbE
+    old: 47186409c092cd7dd70350999186c700233e854d
+    new: 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0
+    log: revlist-47186409c092-56abdaebbf0d.txt
 
---===============7090892596186456811==
+--===============4832972739002428878==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d4952c8da4cd-fc4abaefba36.txt
+Content-Disposition: attachment; filename=revlist-47186409c092-56abdaebbf0d.txt
 
+63abe299b12b317dfee5bcd09037da4668a4431a wifi: ath12k: enable IEEE80211_VHT_EXT_NSS_BW_CAPABLE when NSS ratio is reported
+5dbe5b65df0b0c0ec77492427c274b7b5011890e fbdev: sm712: Fix operator precedence in big_swap macro
+92a91dc8bd6aa31a0a59144de6bee6221cd20833 fbdev: chipsfb: add missing MODULE_DESCRIPTION() macro
+70d9d5f5fcd940f627bd403aaa6f65de724eef6b fbcon: don't suspend/resume when vc is graphics mode
+537cd3082b9000b15a25e85152dd16967d9a1a94 fbdev: sunxvr2500: replace printk with device-aware logging functions
+7b8055831c1796d2be7eeeb00d4513f497c8390d fbdev: grvga: Fix CLUT register address offset in comment
+91ffa533ac4dbf43050b4049be83456fed333f37 fbdev: pxa168fb: use devm_ioremap_resource() for MMIO
+8f978fc45a906bb8683374d2159f0142a17d3828 docs: omap/dss: Fix stale modedb.c path
+7958e67375aa111522086286bba13cfc0816ce8d fbdev: omap2: fix use-after-free in omapfb_mmap
+6f611e5e5f3327cf2e2daabe6ee5acac58cc784e fbdev: Wrap user-invoked calls to fb_set_var() in helper
+8ef78cae98b5bb6a627f50339d2a2e85198ad7d3 fbdev: Wrap user-invoked calls to fb_blank() in helper
+2f4230fad9a7af4ebfbadbc3df5c1d99dc9320b1 fbdev: Wrap fbcon updates from vga-switcheroo in helper
+98c2b2551b22d975f8f94ad19169a06339da3d8a fbdev: Do not export fbcon from fbdev
+6f43abc6f888d12b5dc3d8c1a74be46e31357381 fbdev: atmel_lcdfb: Use strscpy() to copy device name
+81741fa5acdad51976393934cd343e2e3bcaef35 fbdev: cyber2000fb: Use strscpy() to copy device name
+d1338aa2d6c2c10ed33e2d65f30cf209f1836710 fbdev: rivafb: Use strscpy() to copy device name
+160b2ef00f2a1b066a520432282293ccec8c3b6b fbdev: sisfb: Replace strlen() strcpy() pair with strscpy()
+ea67ed6c6651d666010261a375189cd7149798c0 fbdev: mmpfb: Use strscpy() to copy device name
+470ea955a18c76eeb10ca11ffcb2fe923bfc5515 fbdev/arm: Export acorndata_8x8 font symbol for bootloader
+f5c147fda9c6c553bfc2b86e0734b4594f2a9a7d fbcon: correct CONFIG_FB_TILEBLITTING macro name in #endif comment
+d8421e09382cfe0bd2a044c8b0a822f64855dd4e fbdev: sm501fb: Fix buffer errors in OF binding code
+355f808d8a11fa69b19dfd8811bc87d97830f5d6 Merge branch 'xfrm: XFRM_MSG_MIGRATE_STATE new netlink message'
+60786bff19772504706d1a4034d911dc5a1f2010 fbdev: s3fb: Use strscpy() to copy strings into arrays
+a174910917a8e93cb5334e9dce8bac32bff22c47 xen/xenbus: Replace strcpy() with memcpy()
+f3dc8fb24f90fa2901a87fb5273edabcc4e8f2ed MIPS: csrc-r4k: Only use VDSO_CLOCKMODE_R4K when it is a available
+66e0b2e3e3817efe0e0f283c04a9dd773ec4ac5e clocksource/drivers/mips-gic-timer: Only use VDSO_CLOCKMODE_GIC when it is a available
+51512c216e1d2ab4822282c9ecdd40f43fa1484c MIPS: VDSO: Fold MIPS_DISABLE_VDSO into MIPS_GENERIC_GETTIMEOFDAY
+d051ede1adeeb8ccc9314bac00f33e013deedbf5 MIPS: VDSO: Gate microMIPS restriction on GCC version
+8d563bd7904734c05a4f2abf4ecca0e4fe764b50 MIPS: VDSO: Fold MIPS_CLOCK_VSYSCALL into MIPS_GENERIC_GETTIMEOFDAY
+c5d6cac28646b0d5d81ef632be748ae93c1f36c7 vfs: add FS_USERNS_DELEGATABLE flag and set it for NFS
+dca421c6efca6f4d04dfbdac6a6907781f9fd311 hwmon: (mcp9982) Add external diode fault read
+66b4973f9a983911f79a73b211b6e1a6e9590f5b dt-bindings: trivial: Add LX1308 support
+d71d17d347deeb674115bf2f883a26c1920e7af6 hwmon: (pmbus/lx1308) Add support for LX1308
+ee672fef23722f71d7bfa7d5a7f5822b1ca6cfa3 hwmon: (emc2305) Fix fan channel index handling
+d37276a86e40a6f6479745a8fb4e92d0dd77c82a dt-bindings: hwmon: emc2305: Add fan-shutdown-percent property
+07668f5ca30620fb1edfd730181bfd8120aa6c55 hwmon: emc2305: Support configurable fan PWM at shutdown
+a2b0986398e6dd952ab413f6dcd271ddf86ea9b8 hwmon: (ads7871) Convert to hwmon_device_register_with_info
+b46e1a0bff3343ad8a50a5d9cdb56a3847ba69ef hwmon: (ads7871) Use DMA-safe buffer for SPI writes
+fe97565f8977be862073dc6a4faf578555108ed6 hwmon: Move MODULE_DEVICE_TABLE next to the table itself
+7c13c7517743e8eb7096d2f1575369ae7b062835 dt-bindings: hwmon: zyxel,nsa320-mcu: convert to DT schema
+01dd3f682d86bcddf51e22255f2cabee66885080 dt-bindings: hwmon: lm75: Add ti,alert-polarity-active-high property
+1be4001d9b9b0cd083ed1e3c7817ad01f29d120a hwmon: (lm75) Support active-high alert polarity
+cf5d3086a7cb6df18bf345dac0bbb7971f347da9 dt-bindings: hwmon: pmbus: add max20830
+dfd47a3c885b79dba0bc2e6a47aa17ca443c4c21 hwmon: (pmbus/max20830) add driver for max20830
+7232b794bf8d0f3d47af9fab4b0b07f2da291afa dt-bindings: trivial-devices: Add Delta E50SN12051
+c41bc867788aca16b6f2d27185ffad8dca8f99c3 Documentation/hwmon: add Delta E50SN12051 documentation
+98be2444a6453fc1e13afeb03c70f898a2fda4e9 hwmon: (pmbus) add support for Delta E50SN12051
+e28d0c73d4d7adc9cd3747d81fdc7338217f9a0c hwmon: add driver for ARCTIC Fan Controller
+624fce2eec59ab28fd05c235ee26d3cbf1cbef60 hwmon: (tmp102) Use device_property_read_string API
+352b18d2532944f3f8fce8e6bff70c6312b0c192 hwmon: (pmbus/mp2869) Remove unused driver data
+c057f9863ee5c8ba725e815f0136dca60d657475 hwmon: (pmbus/mp2869) Drop unjustified __maybe_unused
+b3de407ae66ffef6290a31363205e9751db0537a hwmon: Drop unused i2c driver_data
+4a9e6a9230c88a71916301b9fe6627413ebc2574 hwmon: Use named initializers for arrays of i2c_device_data
+1000878867bdf36b768802128f51379a1d8593e6 hwmon: (nct7802) Add time step attributes for tweaking responsiveness
+0a310408504ed768aab9faa694573122ac7c003d hwmon: (pmbus/adm1266) add firmware_revision debugfs entry
+5354f06bdb20eaae1af9b84add428bc4d27280c2 Documentation: hwmon: adt7411: document supported sysfs attributes
 b89e1255c92ba7bbe78a7ba6cbda57bb02da7c3d hwmon: (coretemp) replace hardcoded core count with dynamic value
 4edc7d45abc4b9bb6061818bdc1b75f2cf70f019 hwmon: (coretemp) fix coding style issues
 93fd1c2bda0dad0c95a68062cb2232a31b49d028 dt-bindings: trivial-devices: Add Murata D1U74T PSU
@@ -994,61 +1050,5 @@ eca856950f7cb1a221e02b99d758409f2c5cec42 ipv4: account for fraggap on the paged 
 9ed19e11d2146076d117d51a940643990118449b ipv6: ioam: fix type confusion of dst_entry
 d07d80b6a129a44538cda1549b7acf95154fb197 dpaa2-switch: do not accept VLAN uppers while bridged
 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0 Merge tag 'nf-26-06-21' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-c613791b518f89e6fd7ecb9a3319e2d336b10ce2 ice: Fix enable_cnt imbalance on resume
-e27fa55c53a983e07e52a9a83adc669004f6ab27 ice: Fix enable_cnt imbalance on PCIe error recovery
-ea829bb733bed58af3f9f8a47a92cc5cc78d5761 i40e: Fix enable_cnt imbalance on PCIe error recovery
-7606214c956aeb38b01a21acc4c05cd60d8c7c77 ice: fix FDB deletion
-8a412df3c333f38985d39ea73316ef7da27314f6 ice: init desired_dcbx_cfg in default DCB config
-26e296c8b7de3fac5756c303d7fc1be2bcbc289f ice: prevent integer overflow
-fc00f0073b7e9dc977188d7b2424c2fa6f78179d ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-cafde8325bb50d975d83c2b6b7cf11dc24f503a7 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
-3292f2279dae41b2bbc0bc20001ce8041db43c07 ice: fix AQ error code comparison in ice_set_pauseparam()
-b546f7f487cf95c9105a11eaeea6557625c17ad2 ice: call netif_keep_dst() once when entering switchdev mode
-2a24198dbfa9f5954f1f1fea5193099fe85baeb6 ice: check cross-timestamp timeout bits
-3e9fe71d69af97c59ebb41a41266079aeee9f512 ice: fix PTP Call Trace during PTP release
-76f242a93eaddeaea4211de28cb2d1789211f4af ice: use READ_ONCE() to access cached PHC time
-bee1fe964359e99d1938139f93a58e2d7f42cb91 i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
-3700c1565b80c148aa0ef31f25e3c78639962f0c ice: fix null-ptr dereference on false-positive tx timeout
-0e8e8713124c8aa83d3a5b77f0f7c47590a3768b ice: fix ice_init_link() error return preventing probe
-380ebd2edc30ad2193a83271b2451ce199549e16 iavf: fix null pointer dereference in iavf_detect_recover_hung
-0a6d2c77ec9ca8c480b071663a594be8b1ca5787 iavf: fix error path in iavf_request_misc_irq
-7cdeccf085195fc4a8c305738646a22b789b5522 iavf: prevent VSI corruption when ring params changed during reset
-537e4a9b424d8c5b3ccf3efb69389d2dc0c41817 iavf: fix TC boundary check in iavf_handle_tclass
-f52edf32d2e92c0c2faa9b3bed95b9154b3f3ed2 iavf: return 0 when TC flower filter not found after qdisc teardown
-7bbccc9e7e6d8c436722e43e2e1a4c19ca7525a6 igbvf: Fix leak in TX DMA error cleanup
-299df90a5ff4eafbdf2949c4ca698acc25befbae ice: fix asymmetric pause negotiation reporting in ethtool
-bec5e7eef77a420d5db843c4dcaf6a0cce399183 ice: fix autoneg disable when link partner doesn't support AN
-fd211b85c7e047d8edbcf1a4dcdfcb48333bd13c ice: support RDMA on 4+-port E830 devices
-8ff46b19f4747d316db28ec987eb6b67096b444b ice: report EIPE checksum errors to the OS on E830
-be14cbc801699216dc58f5579f8463bafea2fd2b e1000e: Reconfigure PLL clock gate timeout and re-enable K1 on Meteor Lake
-388d8ee2a0ad45a340295c7f30c71f02d165d7af ixgbe: fix SWFW semaphore timeout for X550 family
-4b9a4de0049f1c6d443fe304c1115a3b9c30701c ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
-588169c1ba218125f6c60aec967b9cd3cf715c17 ixgbe: fix ITR value overflow in adaptive interrupt throttling
-9d82731223a092ff3e3d490c4d9f21d81321efc1 ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
-c4422892e1e8506ca5fd4b819d3173aefa5824d3 ice: only free LL TS IRQ when the handler is present
-e5fe7d88f974ae18ed2f2b7db70eb557f4cf4094 ice: always do GCS if hardware supports it
-cbb13a42439790a206cd17982647a292172d2de6 ice: use NETIF_F_HW_CSUM instead of IP/IPV6
-a2e65baf7ad9707b67dabb0618f3a5f8e5cbf880 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
-b3667a200b71418cc7070a14af986d56a205c96a ice: wait for reset completion in ice_resume()
-6cf563bc8a78e7ece69173113af0253e5f0da04e igb: Return state in pm_runtime_idle instead of power-down
-e435549a9c97360a5a38f54cd4b97eeeefd42fd6 i40e: Fix i40e_debug() to use struct i40e_hw argument
-4af34dff80c69de6a61c948e6339fec032f9c6de ice: fix VF interrupts cleanup
-4828245dfc9d136c959c254171ae0139b842e731 ice: add missing xa_destroy for sched_node_ids
-2c5bd9e821bf26262ba6fb5ccabd6de4291e71c0 idpf: handle NULL adev in idpf_idc_vdev_mtu_event
-796d8397724695dded127a3a9e2c298713dde332 iavf: validate num_vsis in VIRTCHNL_OP_GET_VF_RESOURCES response
-35a47d78c6d276997d7d89506a078cdfb13aa40f i40e: keep q_vectors array in sync with channel count changes
-69d286d48824ea02ec8ca9c2e59f525bbd8d3d5f ice: fix LAG recipe to profile association
-1dbd8c21e8084e02b414de65e5c3dc2881217e3d ice: support SBQ posted writes with non-posted support for CGU
-dfd653c0a5c936cfb7dc0df957ba4bbf134be078 ice: suppress DPLL errors during reset recovery
-55e454851231f5a157671bf7a7bea0ef098f336a ice: prevent tstamp ring allocation for non-PF VSI types
-0648cf4532fd0fdaddadf1e37d64e866f043115f ice: dpll: set pointers to NULL after kfree in ice_dpll_deinit_info
-ab43d289f65c5e34378ca7f7e5ac507784d6442b ice: dpll: fix memory leak in ice_dpll_init_info error paths
-e3ed2049a255c64a42ebadd7f0051f3fd8e566de ice: reject out-of-range ptype in ice_parser_profile_init
-b9a61a0177e3234a40489bb90b26dc8addf34423 ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
-f5167162c8a449d0d2b36fd84b37b696fb1c8dd7 ice: Zero out the PTP control PF pointer at ice_adapter cleanup
-168fce68f94da307967374206593367d18250206 ice: Cache struct ice_hw pointer for split register reads
-750a716f3efcdc1759c13113a6a4af068189b6f7 ice: fall back to SBQ when LL PHY timer interface times out
-26ee8bdfbf8ab7d81634f60b62b89e36363b9667 i40e: fix netdev leak in i40e_vsi_setup() error paths
-fc4abaefba3615e74f113508ad8aca2ccee94f34 e1000: fix memory leak in e1000_probe()
 
---===============7090892596186456811==--
+--===============4832972739002428878==--
