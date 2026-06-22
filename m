@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0258851797423792615=="
+Content-Type: multipart/mixed; boundary="===============8637820697006874729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 22 Jun 2026 12:13:07 -0000
-Message-Id: <178213038709.1181743.10551296779569884300@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 12:13:19 -0000
+Message-Id: <178213039913.1182087.561980829408687114@gitolite.kernel.org>
 
---===============0258851797423792615==
+--===============8637820697006874729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: bbeb83d3182abe0d245318e274e8531e5dd7a948
     new: 5df6034df40d4d0e6a0180fcf17a3c30cee97e92
     log: revlist-bbeb83d3182a-5df6034df40d.txt
 
---===============0258851797423792615==
+--===============8637820697006874729==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a3c788fd7fcea81d60c0228478543c6da9439605 perf bpf: Validate array presence befor
 522ae978ac720a919941caab2fd9fed999fd6c9b perf dso: Set standard errno on decompression failure
 5df6034df40d4d0e6a0180fcf17a3c30cee97e92 perf bpf: Fix up build failure due to change of btf_vlen() return type
 
---===============0258851797423792615==--
+--===============8637820697006874729==--
