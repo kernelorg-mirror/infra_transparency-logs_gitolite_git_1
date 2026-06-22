@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 22 Jun 2026 01:00:57 -0000
-Message-Id: <178209005774.612583.3851302110807560287@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 01:01:40 -0000
+Message-Id: <178209010019.613192.14938483042643161390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
   - ref: refs/heads/master
-    old: a933bade82b9cd9197c6c9a390623cfb1f8c0da7
-    new: 39799c63578ec64488e14aced9ea07af6f958f35
+    old: 39799c63578ec64488e14aced9ea07af6f958f35
+    new: d5dc200c3a3f217de072af269dd90adddf90e48d
     log: |
-         39799c63578ec64488e14aced9ea07af6f958f35 bpf: Allow type tag BTF records to succeed other modifier records
+         d5dc200c3a3f217de072af269dd90adddf90e48d bpf: Add missing access_ok call to copy_user_syms
          
