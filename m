@@ -1,70 +1,114 @@
-Content-Type: multipart/mixed; boundary="===============4940234808090079051=="
+Content-Type: multipart/mixed; boundary="===============5273693617644284471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 22 Jun 2026 16:17:29 -0000
-Message-Id: <178214504955.1396622.14210070666162515436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Mon, 22 Jun 2026 16:30:21 -0000
+Message-Id: <178214582102.1409471.3761784666812500114@gitolite.kernel.org>
 
---===============4940234808090079051==
+--===============5273693617644284471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/main
-    old: e7eb98afc667913acc533ab910c608bee7d08f25
-    new: 529153aaa9528c053899282cc42c36cdb4ea26f0
-    log: revlist-e7eb98afc667-529153aaa952.txt
+  - ref: refs/heads/export
+    old: 92a016e6ce14f7b2cbc8fe00cc6534e9d4443ccc
+    new: 42fef474f5d8396c361dbb984bb0421874b76590
+    log: revlist-92a016e6ce14-42fef474f5d8.txt
 
---===============4940234808090079051==
+--===============5273693617644284471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7eb98afc667-529153aaa952.txt
+Content-Disposition: attachment; filename=revlist-92a016e6ce14-42fef474f5d8.txt
 
-acb740a9bfaf338360ff10dcfef9e2a6a4feb53c qcom: update CDSP firmware for shikra platform
-7ea5c9f7104019af60ab57fc838b4949084558ef Merge branch 'robot/pr-0-1781180896' into 'main'
-ca254b03dc5b4d80d2601efc3057aae0fc1b2b22 QCA: Update Bluetooth WCN3950 firmware 1.3.0-00108 to 1.3.0-00184
-59855792566d1f92ee471c3684c6951750b20ca0 Merge branch 'wcn3950-fw-update-00184' into 'main'
-2d2d180a1cc05c71734156acc6339a7946baf9eb amdgpu: DMCUB updates for various ASICs
-4863490ee1836c5e978be69606c6236c79169a66 Merge branch 'amd-staging' into 'main'
-861ddef6ec1cd9d3f8d78914093322ad94c48734 realtek: rt1321: Update the patch code to v1.10
-5a1499e61ed926cffad8d3330bc3578d15cb7232 Merge branch 'robot/patch-1-1781247248' into 'main'
-ce8c0b7174fced2fd2f1d8c3b69cc352d598288e rtl_bt: Update RTL8852A BT USB firmware to 0x244F_91B6
-8d7543434b2dba3eeb8b2f498a1c006c526656bd Merge branch 'robot/patch-0-1781247247' into 'main'
-8df26c69bbe93a75a6f7e0f98918c46dd635b704 cirrus: cs42l45: Update CS42L45 SDCA codec firmware for Dell laptops
-718842f46abc1fc539aded989e61f6f471ba10b2 Merge branch 'dell-hpt' into 'main'
-6ed5e5aa4a02025819b937ff0f0241eea1f45a13 qcom: update ADSP firmware for qcs615 platform
-c8cbe445e665fd422e27dc453604a5faf5d56b41 Merge branch 'robot/pr-0-1781591590' into 'main'
-431e7f03d2c77c3d027d02c9160b15f0f245d882 linux-firmware: Update firmware file for Intel Scorpius core
-7bf0edbf74a2d4783ba2cdef26822d85aeea10ac linux-firmware: Update firmware file for Intel BlazarI core
-4a32fece257f9168536ff68f8e17532bedaa3869 linux-firmware: Update firmware file for Intel BlazarU core
-aba75bb237b646b53b5d8a1b08c1de25f0419176 linux-firmware: Add firmware file for Intel BlazarIW
-f5133dbc0e7457e7185c3b842567decd3e1a3f36 Merge branch 'main' into 'main'
-3dcf6778d29c72f91aa0ac0ef8843a4aa6e11c1b QCA: Add bluetooth firmware nvm files for USI/NFA725B
-f2dbbb4cd3d24f776f207e8c97ce49ec1f18c4ae Merge branch 'loic/nfa725b' into 'main'
-dd571d3fe15f472f2cb23a243b4105f122710545 qcom: update CDSP firmware for glymur platform
-a8f9ebbaa64562fa6d9800c8fb3db87b63ed700f Merge branch 'robot/pr-0-1781771729' into 'main'
-c5774bd79997bae5902e61fd38a624480cc4bbe2 qcom: update ADSP firmware for glymur platform
-7f66e2fcb3d896392e0593c0a3e01ae9a2533163 Merge branch 'robot/pr-0-1781849496' into 'main'
-10bf07f6404f999cb18f1ca53c425a874b5502f3 qcom: Update ADSP firmware for Kaanapali platform
-9afe9a1fe9aa4caceea7e0a731748bd9eeba58aa Merge branch 'robot/pr-0-1781881033' into 'main'
-f8cd3f6faae7e97342959d2210d571f7be7af542 linux-firmware: update firmware for MT7990
-1cccfa6b80733d8e5ce3df330e681d031d30d748 linux-firmware: update firmware for MT7992
-17ca86eb15f63aba9be76d39ecf9ac6cda306942 linux-firmware: update firmware for MT7996
-6b618baf15ae96e35e2716e84ab28feef216f5d2 Merge branch 'mt799x_fw_update' into 'main'
-17485a680e5386a3d795dc01b62a06fabfcf55cb linux-firmware: update firmware for MT7981
-ddaa2620f48fae815eb19967abea3a2ef8ee3da1 linux-firmware: update firmware for MT7986
-57d99a38df2f0a7f4ab81708ceb58e6aa8a82892 Merge branch 'mtk_fw_update_2' into 'main'
-aa2c4a6cee7f76e7475260c25a8cd9fddebdc05c qcom: Add qdsp6sw firmware for shikra platform
-37976b9ded44acaf77a02f6bd0e2c4a32290485e Merge branch 'shikra-modem' into 'main'
-85780e7449843c9b27c43329c30c203494502da2 qcom: add LPAICP firmware for shikra platform
-01c75d36cb9638e5858f222bab337cb05e5585e9 Merge branch 'riscVqli-fw-shikra' into 'main'
-f0fcc1d248cb78216ec63de1332b240b19d9e938 amdgpu: DMCUB updates for various ASICs
-529153aaa9528c053899282cc42c36cdb4ea26f0 Merge branch 'amd-staging' into 'main'
+df97a7107b16375a10a36d7a63e9b4291a8ac680 batman-adv: gw: don't deselect gateway with active hardif
+4cd6d3a4b96a8576f1fed8f9f9f17c2dc2978e0c batman-adv: ensure bcast is writable before modifying TTL
+e728bbdf32660c8f32b8f5e8d09427a2c131ad60 batman-adv: fix (m|b)cast csum after decrementing TTL
+b7293c6e8c15b2db77809b25cf8389e35331b27a batman-adv: frag: ensure fragment is writable before modifying TTL
+493d9d2528e1a09b090e4b37f0f553def7bd5ce9 batman-adv: frag: avoid underflow of TTL
+d11c00b95b2a3b3934007fc003dccc6fdcc061ad batman-adv: v: prevent OGM aggregation on disabled hardif
+e7c775110e1858e5a7471a23a9c9658c0af9df89 batman-adv: tp_meter: restrict number of unacked list entries
+d67c728f07fca2ee6ffdc6dd4421cf2e8691f4d1 batman-adv: tp_meter: annotate last_recv_time access with READ/WRITE_ONCE
+6dde0cfcb36e4d5b3de35b75696937478441eed4 batman-adv: tp_meter: prevent parallel modifications of last_recv
+cbde75c38b21f022891525078622587ad557b7c1 batman-adv: tp_meter: handle overlapping packets
+f08e06c2d5c3e2434e7c773f2213f4a7dce6bc1e batman-adv: tt: don't merge change entries with different VIDs
+12407d5f61c2653a64f2ff4b22f3c267f8420ef1 batman-adv: tt: track roam count per VID
+20d7658b74169f86d4ac01b9185b3eadddf71f28 batman-adv: dat: prevent false sharing between VLANs
+32a6799255525d6ea4da0f7e9e0e521ad9560a46 batman-adv: tvlv: enforce 2-byte alignment
+edb557b2ba38fea2c5eb710cf366c797e187218c batman-adv: tvlv: avoid race of cifsnotfound handler state
+a2e06b4bef20b59446d5088e938c2be53cc4e6c6 ieee802154: Restore initial state on failed device_rename() in cfg802154_switch_netns()
+0569f67ed6a7af838e2141da93c68e6b6013f483 ieee802154: Avoid calling WARN_ON() on -ENOMEM in cfg802154_switch_netns()
+e69ed6fc9fb3b386b5fcdb9f51623f122cee2ebd ieee802154: Remove WARN_ON() in cfg802154_pernet_exit()
+e09390e439bd7cca30dd10893b1f64802961667a ieee802154: ca8210: fix cas_ctl leak on spi_async failure
+6d7f7bcf225b2d566176bf6229dbd1252940cb3c ieee802154: ca8210: fix pointer truncation in kfifo on 64-bit
+84a04eb5b210643bd67aab81ff805d32f62aa865 mac802154: llsec: add skb_cow_data() before in-place crypto
+4db86f8ab11b5a41bfc36680be837e6ac1375ec6 ieee802154: fix kernel-infoleak in dgram_recvmsg()
+649147cb3f8b3c0c9aeba5d89d69a6ef221c12c2 mac802154: Prevent overwrite return code in mac802154_perform_association()
+9c1e0b6d49471a712511d23fc9d06901561135e8 ieee802154: admin-gate legacy LLSEC dump operations
+a6bfdfcc6711d1d5a92e98644359dedc67c0c858 ieee802154: allow legacy LLSEC ADD/DEL ops to pass strict validation
+62b01f72d93c7bc8fde3b2e5b5f783eca5f53324 net: marvell: prestera: initialize err in prestera_port_sfp_bind
+1579342d71133da7f00daa02c75cebec7372097b tipc: fix use-after-free of the discoverer in tipc_disc_rcv()
+4c6d43db2a4d2cef3921e885cf34798f790d34ea net: dst_metadata: fix false-positive memcpy overflow in tun_dst_unclone
+41782770be567abc6509169d0ffdada31c783a66 net: ethernet: mtk_ppe: Fix rhashtable leak in mtk_ppe_init error paths
+48b67c0e8af65acd59d81ddaedd3442b5e4c27b7 octeontx2-af: npc: cn20k: fix NPC defrag
+d4b7440f7316e76f013f57d8b6da069a1b9c34e7 octeontx2-af: mcs: Fix unsupported secy stats read
+fd4460721fb4062ef470ecdfdaedadfe7e415c09 octeontx2-pf: Clear stats of all resources when freeing resources
+450d0e90b10393bd9f50c127875a9fdd4cc81c30 octeontx2-pf: mcs: Fix mcs resources free on PF shutdown
+50ffe0645d16b62e27ad3c09af5a3eb225260950 Merge tag 'batadv-net-pullrequest-20260619' of https://git.open-mesh.org/batadv
+617fb6fa9c34457ca37e0c1cf6c88d2f12b014a0 Merge tag 'ieee802154-for-net-next-2026-06-20' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan-next
+f623d38fe6c4e8c40b23f42cc6fe6963fa49997b net: emac: Fix NULL pointer dereference in emac_probe
+16e088016f38cf728a0de709c3335cc5a3850476 net/sched: act_ct: fix nf_connlabels leak on two error paths
+86e51aa24686cc95bb35613059e8b94b9b81e3f0 net: airoha: Fix skb->priority underflow in airoha_dev_select_queue()
+27ccb68e7cccead5d8c611665a45d23032d468b3 net: sit: require CAP_NET_ADMIN in the device netns for changelink
+d186e942365acece7c56d39da05dd63bf95b280a ipv6: ndisc: fix NULL deref in accept_untracked_na()
+05ed733b65ab977dd931e7f7ac0f62fdb81205c2 net/sched: dualpi2: fix GSO backlog accounting
+54704b32b2abd62dbb63082c89fa35685c34674a selftests/tc-testing: Add DualPI2 GSO backlog accounting test
+eca856950f7cb1a221e02b99d758409f2c5cec42 ipv4: account for fraggap on the paged allocation path
+736b380e28d0480c7bc3e022f1950f31fe53a7c5 ipv6: account for fraggap on the paged allocation path
+38becddc332c1dbee6ab8dc8f13a860c6280b905 Merge branch 'ipv4-ipv6-account-for-fraggap-on-paged-allocation-paths'
+9ed19e11d2146076d117d51a940643990118449b ipv6: ioam: fix type confusion of dst_entry
+d07d80b6a129a44538cda1549b7acf95154fb197 dpaa2-switch: do not accept VLAN uppers while bridged
+069cdcd19ac75721f95e6e1ad15aa27bcd52ef7d DO-NOT-MERGE: git markup: net
+1623269203333beca3dcd28727045478ef5a0c16 DO-NOT-MERGE: git markup: fixes other trees
+3410d912f9392f4452c1b3453d309361f7dd77d2 DO-NOT-MERGE: git markup: fixes net
+a895666b880abed061db94a347d7d146d74a9133 DO-NOT-MERGE: mptcp: add CI support
+63f7c722fd325fbf5b024af57b415e6498a675f6 DO-NOT-MERGE: git markup: end common net net-next
+2fc81fedb37b0ef83de294c67528f84a8bd1447e TopGit-driven merge of branches:
+0709d218a9b9c49963692413469bc19822d05455 DO-NOT-MERGE: git markup: net-next
+e27c7863da6d56c79ef2fc08ce6455f3443d5b2a DO-NOT-MERGE: git markup: fixes net-next
+528c4ac34a3ecacf7d36e4393a9037801cf9572a mptcp: pm: init and release mptcp_pm_ops
+a78155695fc501431ad7e826a8b35ae18f78d9cb mptcp: pm: add get_local_id() interface
+e16d0d15bd2b98fb78d5ef58bc974f506fcfb6ad mptcp: pm: add get_priority() interface
+07d93728ec4b175b67dc7f272c9bedbe8258ce86 selftests: mptcp: connect: test name in pcap file
+52618a65adde6d7a1944038e6fe2a8917057c586 selftests: mptcp: simult_flow: test name in pcap file
+3bd3854341750d7362166c729e3e608dabf2921c selftests: mptcp: pcap: drop most of the payload
+54b5e39a784bfb6351e42bf2fa35282394491289 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+99e097bdca25313683efd5ab88f4bc41a5908273 mptcp: remove unused data_ack from struct mptcp_ext
+fcd18de79458112eb90b237ef4e1c581300cd556 mptcp: move the retrans loop to a separate helper
+fbd329573872a0acac50f13a99b0a4b8b9ae7c5f mptcp: let the retrans scheduler do its job
+7114b23ab5574c0f4f85d52eb5f0170c27d93189 mptcp: explicitly drop over memory limits
+18008dee0990d050cf2170bda35f32e95a86cc72 mptcp: enforce hard limit on backlog flushing
+a45ba56ac3872601a4f6f074e71b1226c876ae44 mptcp: implemented OoO queue pruning
+34ef1b394f842eeca0267e8f38c4d4e5c81aa3da DO-NOT-MERGE: git markup: features net-next
+91b2683a6c752ef45fc0b8024320661fde810447 DO-NOT-MERGE: git markup: features net-next-next
+433aeae4ae573f67cc5d2f6f3164bca3af34baaf bpf: Add mptcp_subflow bpf_iter
+b5a565756323fd251ac00ff8653c17bf1d2ca0d6 selftests/bpf: More endpoints for endpoint_init
+21e214725eeda0e23a1ce1885cf0a34998d74614 selftests/bpf: Drop cgroup_fd of run_mptcpify
+6fad564de049dcbf1bf9db666bb344f4b9de545b bpf: Add mptcp packet scheduler struct_ops
+135efda9bbdb0613f878a48f9b4aa2cd1c764d3e bpf: Export mptcp packet scheduler helpers
+4fe93bcc6e71b7a68f5d281b2e7799085ab30932 selftests/bpf: Add bpf scheduler test
+6e8c9f59641c19bdf93e1b07aca9c5b42b54f103 selftests/bpf: Add bpf_first scheduler & test
+db8628ccfbea4d17ba618dd350ec3ffe31eb50b3 selftests/bpf: Add bpf_bkup scheduler & test
+db82d5124539c1b8e285b2773b44b8ab92e22cd9 selftests/bpf: Add bpf_rr scheduler & test
+4700671904cab2b5267af8aada8cc33c13734e57 selftests/bpf: Add bpf_red scheduler & test
+27a5735f8773836bebc55a1f32127c35ef4278d1 selftests/bpf: Add bpf_burst scheduler & test
+373e3555093a317f1b21bed41c6d2ca38f387809 DO-NOT-MERGE: git markup: features other trees
+60c3947f2b230a7b84704fc0cd2eada02aa5aa23 DO-NOT-MERGE: mptcp: improve code coverage for CI
+42fef474f5d8396c361dbb984bb0421874b76590 DO-NOT-MERGE: mptcp: enabled by default
 
---===============4940234808090079051==--
+--===============5273693617644284471==--
