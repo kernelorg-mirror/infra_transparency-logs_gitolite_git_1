@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4549836233932176457=="
+Content-Type: multipart/mixed; boundary="===============0129207699993537227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 22 Jun 2026 18:18:15 -0000
-Message-Id: <178215229572.1492174.6606038654755626378@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 18:18:19 -0000
+Message-Id: <178215229963.1492366.14602013768820745552@gitolite.kernel.org>
 
---===============4549836233932176457==
+--===============0129207699993537227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 0399e685927a4d1bc310771735b0c8780ddf1cab
     new: b85966adbf5de0668a815c6e3527f87e0c387fb4
     log: revlist-0399e685927a-b85966adbf5d.txt
 
---===============4549836233932176457==
+--===============0129207699993537227==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d755d45bc08a57a3b845b850f8760de922a499bf Merge git://git.kernel.org/pub/scm/linu
 d954a67a7dfa58b7a9b3194322d321b940eb60c8 ipv4: fib_rule: Move fib4_rules_exit() to ->exit().
 b85966adbf5de0668a815c6e3527f87e0c387fb4 Merge tag 'net-next-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============4549836233932176457==--
+--===============0129207699993537227==--
