@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1610855935599673676=="
+Content-Type: multipart/mixed; boundary="===============6766110008652258471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 22 Jun 2026 18:47:30 -0000
-Message-Id: <178215405007.1516096.6400759800720774085@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 18:47:35 -0000
+Message-Id: <178215405500.1516308.16119636996950255422@gitolite.kernel.org>
 
---===============1610855935599673676==
+--===============6766110008652258471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 4850a5161bfc5a06ddabd18f0a5be004c1c79f7d
     new: 391204b18aeaf3a11a87e4a7a47a8fee4945abe0
     log: revlist-4850a5161bfc-391204b18aea.txt
 
---===============1610855935599673676==
+--===============6766110008652258471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ cdb4d96cf8b12f13ec65733f4609e831904a8089 perf python: Handle Py_None for thread 
 abc3b7042692ec772ff136bf11749aff592647dc perf python: Add perf.pyi stubs file
 391204b18aeaf3a11a87e4a7a47a8fee4945abe0 perf python: Add LiveSession helper
 
---===============1610855935599673676==--
+--===============6766110008652258471==--
