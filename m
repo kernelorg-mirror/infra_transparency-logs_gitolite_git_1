@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 22 Jun 2026 01:01:40 -0000
-Message-Id: <178209010019.613192.14938483042643161390@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 01:02:21 -0000
+Message-Id: <178209014166.613959.4924344262171272947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 39799c63578ec64488e14aced9ea07af6f958f35
-    new: d5dc200c3a3f217de072af269dd90adddf90e48d
+    old: d5dc200c3a3f217de072af269dd90adddf90e48d
+    new: bda6a7308ef8e79cfbb7d09e48e1c7ffaa522269
     log: |
-         d5dc200c3a3f217de072af269dd90adddf90e48d bpf: Add missing access_ok call to copy_user_syms
+         bda6a7308ef8e79cfbb7d09e48e1c7ffaa522269 bpftool: Fix vmlinux BTF leak in cgroup commands
          
