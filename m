@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7175853139588769919=="
+Content-Type: multipart/mixed; boundary="===============4921729091336625292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 22 Jun 2026 04:59:04 -0000
-Message-Id: <178210434466.781196.13837965196879662783@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 04:59:10 -0000
+Message-Id: <178210435083.781491.13717059374249125388@gitolite.kernel.org>
 
---===============7175853139588769919==
+--===============4921729091336625292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
     new: ef0c9f75a19532d7675384708fc8621e10850104
     log: revlist-e7ae89a0c97c-ef0c9f75a195.txt
 
---===============7175853139588769919==
+--===============4921729091336625292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782104267 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782104283 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1782104333-f8929f5f748294439cf287fd9cee0b13d0f3ab02
+nonce 1782104349-82ca7d73fac39d5dad6f8ba31fcb3e0059fbe4d9
 
-e7ae89a0c97ce2b68b0983cd01eda67cf373517d ef0c9f75a19532d7675384708fc8621e10850104 refs/heads/main
+e7ae89a0c97ce2b68b0983cd01eda67cf373517d ef0c9f75a19532d7675384708fc8621e10850104 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo4wMsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vbEQALA1piOxhC4SLTYnQ0Et
-G36AN6989/Clp1QftD/QrchK/oltsG7FKIuNeflKlEoLLNMUqm9v2esNWF9Rg/CC
-7csHi6BWtnStKYmCL+kcZdGtE1EE5YdtltgsIJsND9Zb2kif+m8hk926BxibaZRz
-gpMKTT4N6PE7Wvdj03a028EdSMXRQNFtJSGVzPEz1KTWKb4RgitjjjDR3orENRz8
-2a/M3kbT99XVx2eorG+i1rU8ji33T2g+csvCvW9NQf2UGCsQE1JrgQhV8oAWrhGV
-PI8SiN5+mNTnz4CKyYj7Wopjb6TiATMHpjRo4a7UKxLe1fC41NMUs+Y3fL74vfq4
-OaOBuk0zWgr0mdQn9TrEs5O8FilwkT2rp7nyxWpAyywVLvhhmIrP8TsCRpVOmWty
-r5sNJ+B1VxVDJQbhRGhwWvXYaayQtH29J7sz/atDLqhUZNd+EhkW09iqx2Ud+TWM
-DsvCQwFBJ2t1ev2wDsVY6JmFBkfRGZsq3vcoTPqRMSwj879tTRZypffzZHdLk7Wq
-qvP6vGiX/TY6rnJpJxAAcV0EPQRSOkH/aT0ZdVKwVwCt8WYpepmZGurNa3u+zVHc
-aVqZs+zo2LNEQ0TEAHsCd+tjnvb0oXtJsJIfM48ktCezA4djAcvGLz3r3EjpkU9n
-OEjyeIBtinAc9GmaLQ24Au4r
-=V10Q
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo4wNsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+klEQAJrZLM95yV6TFsjieqxi
+gFCjE/4jqAnZX6Gb6Z8/eIaxILhY2osDdDG0ozWHVxfyoSmcv6luELz0e+qV9NNY
+aKOF6c+okbxMebebjgvtUyMewKDhT3I9kDcR4x3l5LGDa6MUYy5q5odGENXmX1cr
+DAoe+z0TIbHtGa1i+n038C5d9BVzZ9y/k+VpjjEYXog06QErCBPQXefl5LNVQzBr
+uORhN4f8W3srnICdd701DkOhbNlehfq3W18MvXIpDw0wT4tiRRzapKy86jcBfV4Y
+efrmIUCY1yn5jr4pXVbyyiNLxh37UzIk/vzHNN+4m8AvzW+SjPppAUGOyQYcMQKP
+Lf8C5OKKrWMILtsESYVzYZ9wGijfcVvfQeOpdyJidrwFJa67/LPLhBDaS/wF93ae
+bmsI8wWjRNO0mtykCqugtQBA9Y/P3ljT/HY5RcNFUjhtS5jaAmCfzj+rn9kgrZHx
+KJYvLQeoUuKaXSlTww3kOPeduGglO958fuuIT3NIxsuaH6vV4doyse9BRJtfAumx
+jV6+qcOupcoG8t2R+6dku4+X9qdCGFysDkTCNmkC91KmfkH1Mzk+luLVk3bLnfrh
+yQi7SB/F/VqfwPC0OGzz/LX6th866bla56so1gB3WZbQVvxYXVzm1wayt2yvm6kK
+vZ4FN1zj7jwRy0sKflRiM4nH
+=7jtw
 -----END PGP SIGNATURE-----
 
---===============7175853139588769919==
+--===============4921729091336625292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ aff3ca32f39d5e64619eef10e1daef3a0ba76b25 Merge tag 'firewire-updates-7.2' of git
 2e05544060b9fef5d4d0e0172944e6956c55080f Merge tag 'mm-nonmm-stable-2026-06-21-10-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ef0c9f75a19532d7675384708fc8621e10850104 lib: Add stale 'raid6' directory to .gitignore file
 
---===============7175853139588769919==--
+--===============4921729091336625292==--
