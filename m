@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2862899462032328012=="
+Content-Type: multipart/mixed; boundary="===============0415418746211021533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 22 Jun 2026 19:04:28 -0000
-Message-Id: <178215506805.1529173.1162658274520599263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 22 Jun 2026 19:04:34 -0000
+Message-Id: <178215507420.1529389.6525253967059041437@gitolite.kernel.org>
 
---===============2862899462032328012==
+--===============0415418746211021533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 3287a1881ca528b89b964d9fa6d28880d277d9e2
     log: revlist-5df6034df40d-3287a1881ca5.txt
 
---===============2862899462032328012==
+--===============0415418746211021533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ fe68cf349fb343c0a7cb6c4fe6c3de4f4afe8d1c perf c2c: Fix hist entry and format lis
 1a5f9334a45a6b0c1cd7341cc72a3b87adad1d27 perf dso: Set standard errno on decompression failure
 3287a1881ca528b89b964d9fa6d28880d277d9e2 perf bpf: Fix up build failure due to change of btf_vlen() return type
 
---===============2862899462032328012==--
+--===============0415418746211021533==--
