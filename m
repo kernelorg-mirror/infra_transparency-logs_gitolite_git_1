@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4832972739002428878=="
+Content-Type: multipart/mixed; boundary="===============5271373355195176794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 22 Jun 2026 17:59:18 -0000
-Message-Id: <178215115887.1475639.12357290315601120557@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 17:59:23 -0000
+Message-Id: <178215116365.1476086.14806032917004034318@gitolite.kernel.org>
 
---===============4832972739002428878==
+--===============5271373355195176794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 47186409c092cd7dd70350999186c700233e854d
     new: 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0
     log: revlist-47186409c092-56abdaebbf0d.txt
 
---===============4832972739002428878==
+--===============5271373355195176794==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ eca856950f7cb1a221e02b99d758409f2c5cec42 ipv4: account for fraggap on the paged 
 d07d80b6a129a44538cda1549b7acf95154fb197 dpaa2-switch: do not accept VLAN uppers while bridged
 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0 Merge tag 'nf-26-06-21' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============4832972739002428878==--
+--===============5271373355195176794==--
