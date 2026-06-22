@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============8637820697006874729=="
+Content-Type: multipart/mixed; boundary="===============7339386094824660378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 22 Jun 2026 12:13:19 -0000
-Message-Id: <178213039913.1182087.561980829408687114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 22 Jun 2026 12:13:49 -0000
+Message-Id: <178213042904.1182635.7799154885039585096@gitolite.kernel.org>
 
---===============8637820697006874729==
+--===============7339386094824660378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
-    old: bbeb83d3182abe0d245318e274e8531e5dd7a948
+  - ref: refs/heads/perf-tools
+    old: 5a433107fab621f4e7379ccba6e52b5b1601046c
     new: 5df6034df40d4d0e6a0180fcf17a3c30cee97e92
-    log: revlist-bbeb83d3182a-5df6034df40d.txt
+    log: revlist-5a433107fab6-5df6034df40d.txt
 
---===============8637820697006874729==
+--===============7339386094824660378==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bbeb83d3182a-5df6034df40d.txt
+Content-Disposition: attachment; filename=revlist-5a433107fab6-5df6034df40d.txt
 
+84d1c9b416d54afe760ca4c378bd95c89261254c drm/gma500/oaktrail_lvds: fix i2c adapter leaks on init
+0b28000b64f40dd29a730507aa0447231960cfb8 RDMA/nldev: Add mutual exclusion in nldev_dellink()
+0bf1b4dda2d0c89980eab816778722cf51aa404c selftests/rdma: explicitly skip tests when required modules are missing
+f6b079629becfa977f9c51fe53ad2e6dcc55ef44 RDMA/bnxt_re: zero shared page before exposing to userspace
+7d8f3158a51cb40fc710d2a781549141a139b796 selftests/cgroup: Fix error path leaks in test_percpu_basic
+e1914add2799225a87502051415fc5c32aeb02ae Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+345f40166694e60db6d5cf02233814bb27ac5dec cgroup/cpuset: Return only actually allocated CPUs during partition invalidation
 d6a2d7b04b5a093021a7a0e2e69e9d5237dfa8cc io-wq: check that the predecessor is hashed in io_wq_remove_pending()
 ee047fc7a2da90554410128195058c409a391d43 Documentation: intel_pstate: Fix description of asymmetric packing with SMT
 0e7c710478b3089cdfe8669347f77b163e836c4f cpufreq: intel_pstate: Use correct scaling factor on Raptor Lake-E
@@ -130,13 +137,6 @@ af149b667b9472bf981591a6d27efdecd331005a Merge branch 'acpi-cppc'
 4a9b16541ad3faf8bccb398532bf3f8b6bbf1188 lsm: hold cred_guard_mutex for lsm_set_self_attr()
 48f76a12713253f3abaa39c4ff7606d6fed05a7e Merge tag 'acpi-7.1-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 70eda68668d1476b459b64e69b8f36659fa9dfa8 Merge tag 'hid-for-linus-2026051401' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-aa13e4b120f9cf238ad141d8419851f3a7a3fb5f perf trace: Sync linux/socket.h with the kernel source
-b30e1493e3e27b6795244a472f0bbd07d0dc58fd perf trace: Sync uapi/linux/fs.h with the kernel source
-ca706027b5bdb37337e1b99752134d592f42f0ea perf trace: Sync uapi/linux/mount.h with the kernel source
-ad2cd6f9def4899591a75a96f71752e3aadb7579 perf trace: Sync uapi/linux/sched.h with the kernel source
-be81aed3f7492caa522493f7c67b9c4d3c8924a6 perf build: Add make check-headers target
-552636b9317c8a843dd4496d77e56976ab48c76b perf trace: Add beautifier script for fsmount flags
-5a433107fab621f4e7379ccba6e52b5b1601046c perf trace: Update beautifier script for clone flags
 0c0dddc07d272a8d25922e48041e8e4d2434df7e ovpn: disable BHs when updating device stats
 51f57607e30bee282a1d40845f89a311cbb26481 docs: hwmon: sy7636a: fix temperature sysfs attribute name
 165daffc7c33c94b0b7ef7f5719531f1f8bc0a3a perf record: Refactor ARM64 leaf caller setup out of arch
@@ -1051,4 +1051,4 @@ a3c788fd7fcea81d60c0228478543c6da9439605 perf bpf: Validate array presence befor
 522ae978ac720a919941caab2fd9fed999fd6c9b perf dso: Set standard errno on decompression failure
 5df6034df40d4d0e6a0180fcf17a3c30cee97e92 perf bpf: Fix up build failure due to change of btf_vlen() return type
 
---===============8637820697006874729==--
+--===============7339386094824660378==--
