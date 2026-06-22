@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2178907536062608911=="
+Content-Type: multipart/mixed; boundary="===============1853535738557912657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 22 Jun 2026 04:59:16 -0000
-Message-Id: <178210435634.781816.7290474852697247350@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 04:59:21 -0000
+Message-Id: <178210436161.782056.12758540529322577529@gitolite.kernel.org>
 
---===============2178907536062608911==
+--===============1853535738557912657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: fe221742e388bea3f5856b5d9b2cb0a037020ea4
     new: ef0c9f75a19532d7675384708fc8621e10850104
     log: revlist-fe221742e388-ef0c9f75a195.txt
 
---===============2178907536062608911==
+--===============1853535738557912657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782104288 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782104293 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1782104354-48b11b4f4caf1dc5f7fd1601069643c210ca7ed0
+nonce 1782104360-edbe17b1953519c1ef2ed01fef3902c3d3b7647d
 
-fe221742e388bea3f5856b5d9b2cb0a037020ea4 ef0c9f75a19532d7675384708fc8621e10850104 refs/heads/driver-core-next
+fe221742e388bea3f5856b5d9b2cb0a037020ea4 ef0c9f75a19532d7675384708fc8621e10850104 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo4wOAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1hEQALJxN3BxK+4tLYBitnF4
-I+tMgAdtqalYct4loIRj1c41ljYc6yJ+LWtq2YlEZzOu643QGHSfIVSjyHlxnWzN
-JnWjf1K76NQsS9vN0sn4u4vLH+xBEQ+49Xa06mPKjteOvUceOD0nw3bQOseL3JB8
-co35s79/cjL6+HGKrPYP04b8v4nrajVTGTbZBFFyEwHuIt0F0Xlp6Vn3AKQIcYoI
-hWdBcnSefscnFQNVnQ3rhh6waYy4+t2qIu80MFBN/+AOeF1ry5Fuvm+3+k42X91A
-/GzV/Zr59I9xSKmAp7aulFRA8JoCputx/G0Hj7Yp4vyRro/9+8qeajTzWCzm+979
-/tXSbtV3O8OoUrUPs7iSyS7pLWpB9rbKe5M/NQCNtfeRO8Cvb1OcnhifU4CRQI1b
-BInw4YAxt/AfWpP+LO9eYp9nYaKwLRXH/FiExFAqQT2uUdxjXw7KdueDW82VoXyi
-eVCCxXLx5mcHy9xQcKwggl7pU9RVLrtaElelu/tI/2p9D11hlWkbiiYZXFDod4LY
-ylldB5Rft/UAHFA4K5AbPObFNbUB4B7lcwPgcBDKcVHn8AfWhvGk1cJPYIt0zn+k
-/fxbMT/i1LUYKg7vAxLClf04V7uu9dPn2Hz+DLoF3R/Dxu4qnmIF+4hzCu9tOBE5
-WMxh3bB1pM+vKuo1lwhgu8bE
-=elFq
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo4wOUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fwQQANi8svpH2q63qq4yJ04U
+JS3aWHhoOTLVq4VxlwUAiZtoANjwopqY6ZyjLJjTUmWhczA6iMgHV8T/rSUXoCH8
+fBNR6erLKdZfN0jDV2IjHPiSNM9YVOYgd9Pub1Bv6kJ/1yM3SSqgodA8AsOsccm6
+27vcL6BZRL99+ioMvEGhsNY8q4EW3EvOlpFQGe343DKzgIxYo08d9HmSufaRPEd8
+RWeJwmU8QQyMznQyYmifu8rstwprwIInjKyReDhCajUDoFUX1+Lq5eoRgh6vrMWJ
+WgO4tu0J+yNGrXXxBKTB1jlZTxW9EUpD1zk6yGoi16orpoDLa9rWCevm/yt5oyG0
+kbwavy6RjDQWrsl/Llq7wG5WxIPLiEbj0TayQn1C20mzQoyDi+VuoqIticDIufPK
+V5N2UXGjOh+9Idb2AvpLhLXnTQyXqh0cisJprtae8cNkSuj/VUWvzClmf+f9Tvt/
+BieLczyD+JydjD7TtIfI1QQOOdwGSyg7U3SikxKsw4ua0W3g2zylvO4rsJ1dunX4
+SqezyWsBVd8QxLWQ/csUdu9FOSFTlp5oPpaYmVCLtcH5R/kWTghTL/S46bOjkmO0
+VJzaQhfdc7pLj8p+AjYVgFKhUVGN/mMaMmabOoueHMQHovXtAiaBwqXs9uLM7Upa
+WC/37/M0fvEOBaoDXX7yqKcW
+=h0Tv
 -----END PGP SIGNATURE-----
 
---===============2178907536062608911==
+--===============1853535738557912657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ aff3ca32f39d5e64619eef10e1daef3a0ba76b25 Merge tag 'firewire-updates-7.2' of git
 2e05544060b9fef5d4d0e0172944e6956c55080f Merge tag 'mm-nonmm-stable-2026-06-21-10-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ef0c9f75a19532d7675384708fc8621e10850104 lib: Add stale 'raid6' directory to .gitignore file
 
---===============2178907536062608911==--
+--===============1853535738557912657==--
