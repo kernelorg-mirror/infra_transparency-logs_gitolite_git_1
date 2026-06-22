@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 22 Jun 2026 06:29:43 -0000
-Message-Id: <178210978384.900088.3383976620566325576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 22 Jun 2026 07:30:23 -0000
+Message-Id: <178211342348.943373.295976384183136265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/tags/hyperv-next-signed-20260621
-    old: 0000000000000000000000000000000000000000
-    new: 52b82870d0eb048c7c0a3d2f4b03cafe9ae87603
+  - ref: refs/heads/tmp.next
+    old: 976a911eecf2ed6f862b26df869e7b3a3c34e299
+    new: b9fa3ae313589f017f6fad8aaac414f29ce879c5
+    log: |
+         e239e7c67a06ae43b5ac557cf38877734aafc92b CI: Add clang+aarch64 to matrix
+         b9fa3ae313589f017f6fad8aaac414f29ce879c5 CI: Update LLVM version to 22
+         
