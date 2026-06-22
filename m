@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 22 Jun 2026 22:16:50 -0000
-Message-Id: <178216661043.1680580.12003086032079635246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Mon, 22 Jun 2026 22:16:56 -0000
+Message-Id: <178216661695.1680933.5664995980112241294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: c39c4ab075787658b2bcf63e044ded3e747245f6
-    new: 48ad948dcad512a46545133c04a7ed4b96a31378
+  - ref: refs/heads/main
+    old: ffc2cbbe543441b22a3c1cf7a29c1b3ac312d624
+    new: e6fb0b2c8ad104560e8432f42bb20b0e73f0dc12
     log: |
-         63ad06af754db3b239d3232ed028ce34061e5022 foo
-         48ad948dcad512a46545133c04a7ed4b96a31378 foo
+         f6f316d44385c7f0991daffb98f956352035253d rt-tests: README: Remove obsolete -n option from cyclictest examples
+         92d48c2cba1dab7b5b9a9bcb03574c6485056ff1 rt-tests: Add SPDX identifiers and fix documentation issues
+         e6fb0b2c8ad104560e8432f42bb20b0e73f0dc12 rt-tests: Add AGENTS.md guide for AI coding assistants
          
