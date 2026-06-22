@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hare/scsi-devel
-Date: Mon, 22 Jun 2026 07:53:28 -0000
-Message-Id: <178211480896.959156.1179563095780488980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 22 Jun 2026 08:05:31 -0000
+Message-Id: <178211553197.968736.537116169717904800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hare/scsi-devel
-user: hare
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/configfs-ns.v2
-    old: e2bc6e23c907dceafa9ce30beca26cdc05bb664d
-    new: 3d482734f1581168bb7973032424df660ce14955
+  - ref: refs/heads/tmp.master
+    old: 976a911eecf2ed6f862b26df869e7b3a3c34e299
+    new: b9fa3ae313589f017f6fad8aaac414f29ce879c5
     log: |
-         3d482734f1581168bb7973032424df660ce14955 fs/configfs: simplify get_tree_keyed()
+         e239e7c67a06ae43b5ac557cf38877734aafc92b CI: Add clang+aarch64 to matrix
+         b9fa3ae313589f017f6fad8aaac414f29ce879c5 CI: Update LLVM version to 22
          
