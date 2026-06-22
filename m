@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4921729091336625292=="
+Content-Type: multipart/mixed; boundary="===============2178907536062608911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 22 Jun 2026 04:59:10 -0000
-Message-Id: <178210435083.781491.13717059374249125388@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 04:59:16 -0000
+Message-Id: <178210435634.781816.7290474852697247350@gitolite.kernel.org>
 
---===============4921729091336625292==
+--===============2178907536062608911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
+  - ref: refs/heads/driver-core-next
+    old: fe221742e388bea3f5856b5d9b2cb0a037020ea4
     new: ef0c9f75a19532d7675384708fc8621e10850104
-    log: revlist-e7ae89a0c97c-ef0c9f75a195.txt
+    log: revlist-fe221742e388-ef0c9f75a195.txt
 
---===============4921729091336625292==
+--===============2178907536062608911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782104283 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782104288 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1782104349-82ca7d73fac39d5dad6f8ba31fcb3e0059fbe4d9
+nonce 1782104354-48b11b4f4caf1dc5f7fd1601069643c210ca7ed0
 
-e7ae89a0c97ce2b68b0983cd01eda67cf373517d ef0c9f75a19532d7675384708fc8621e10850104 refs/heads/driver-core-linus
+fe221742e388bea3f5856b5d9b2cb0a037020ea4 ef0c9f75a19532d7675384708fc8621e10850104 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo4wNsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+klEQAJrZLM95yV6TFsjieqxi
-gFCjE/4jqAnZX6Gb6Z8/eIaxILhY2osDdDG0ozWHVxfyoSmcv6luELz0e+qV9NNY
-aKOF6c+okbxMebebjgvtUyMewKDhT3I9kDcR4x3l5LGDa6MUYy5q5odGENXmX1cr
-DAoe+z0TIbHtGa1i+n038C5d9BVzZ9y/k+VpjjEYXog06QErCBPQXefl5LNVQzBr
-uORhN4f8W3srnICdd701DkOhbNlehfq3W18MvXIpDw0wT4tiRRzapKy86jcBfV4Y
-efrmIUCY1yn5jr4pXVbyyiNLxh37UzIk/vzHNN+4m8AvzW+SjPppAUGOyQYcMQKP
-Lf8C5OKKrWMILtsESYVzYZ9wGijfcVvfQeOpdyJidrwFJa67/LPLhBDaS/wF93ae
-bmsI8wWjRNO0mtykCqugtQBA9Y/P3ljT/HY5RcNFUjhtS5jaAmCfzj+rn9kgrZHx
-KJYvLQeoUuKaXSlTww3kOPeduGglO958fuuIT3NIxsuaH6vV4doyse9BRJtfAumx
-jV6+qcOupcoG8t2R+6dku4+X9qdCGFysDkTCNmkC91KmfkH1Mzk+luLVk3bLnfrh
-yQi7SB/F/VqfwPC0OGzz/LX6th866bla56so1gB3WZbQVvxYXVzm1wayt2yvm6kK
-vZ4FN1zj7jwRy0sKflRiM4nH
-=7jtw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo4wOAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1hEQALJxN3BxK+4tLYBitnF4
+I+tMgAdtqalYct4loIRj1c41ljYc6yJ+LWtq2YlEZzOu643QGHSfIVSjyHlxnWzN
+JnWjf1K76NQsS9vN0sn4u4vLH+xBEQ+49Xa06mPKjteOvUceOD0nw3bQOseL3JB8
+co35s79/cjL6+HGKrPYP04b8v4nrajVTGTbZBFFyEwHuIt0F0Xlp6Vn3AKQIcYoI
+hWdBcnSefscnFQNVnQ3rhh6waYy4+t2qIu80MFBN/+AOeF1ry5Fuvm+3+k42X91A
+/GzV/Zr59I9xSKmAp7aulFRA8JoCputx/G0Hj7Yp4vyRro/9+8qeajTzWCzm+979
+/tXSbtV3O8OoUrUPs7iSyS7pLWpB9rbKe5M/NQCNtfeRO8Cvb1OcnhifU4CRQI1b
+BInw4YAxt/AfWpP+LO9eYp9nYaKwLRXH/FiExFAqQT2uUdxjXw7KdueDW82VoXyi
+eVCCxXLx5mcHy9xQcKwggl7pU9RVLrtaElelu/tI/2p9D11hlWkbiiYZXFDod4LY
+ylldB5Rft/UAHFA4K5AbPObFNbUB4B7lcwPgcBDKcVHn8AfWhvGk1cJPYIt0zn+k
+/fxbMT/i1LUYKg7vAxLClf04V7uu9dPn2Hz+DLoF3R/Dxu4qnmIF+4hzCu9tOBE5
+WMxh3bB1pM+vKuo1lwhgu8bE
+=elFq
 -----END PGP SIGNATURE-----
 
---===============4921729091336625292==
+--===============2178907536062608911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7ae89a0c97c-ef0c9f75a195.txt
+Content-Disposition: attachment; filename=revlist-fe221742e388-ef0c9f75a195.txt
 
 648927ceb84021a25a0fbd5673740956f318d534 mm/slab: do not limit zeroing to orig_size when only red zoning is enabled
 d196ea36a2f2118833ca648af53654553a4a1e7b Merge branch 'slab/for-7.2/tools' into slab/for-next
@@ -1082,4 +1082,4 @@ aff3ca32f39d5e64619eef10e1daef3a0ba76b25 Merge tag 'firewire-updates-7.2' of git
 2e05544060b9fef5d4d0e0172944e6956c55080f Merge tag 'mm-nonmm-stable-2026-06-21-10-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ef0c9f75a19532d7675384708fc8621e10850104 lib: Add stale 'raid6' directory to .gitignore file
 
---===============4921729091336625292==--
+--===============2178907536062608911==--
