@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1004472836911578686=="
+Content-Type: multipart/mixed; boundary="===============7683239457069994626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 22 Jun 2026 09:30:16 -0000
-Message-Id: <178212061661.1034316.18178056674636313555@gitolite.kernel.org>
+Date: Mon, 22 Jun 2026 09:30:37 -0000
+Message-Id: <178212063738.1034594.16102135614547437383@gitolite.kernel.org>
 
---===============1004472836911578686==
+--===============7683239457069994626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 884a3cedd6ce4797792fb7f2c91d120eb56aef1c
-    new: ee4aa288f3ae940e8f2f8d8e472a78cde037b773
-    log: revlist-884a3cedd6ce-ee4aa288f3ae.txt
+    old: ee4aa288f3ae940e8f2f8d8e472a78cde037b773
+    new: 60b87960734a326be1827e3b6a3b6c4c6e44341c
+    log: |
+         8d067a3d1d052113abd0f8017680dc09295c0290 Merge branch into tip/master: 'core/urgent'
+         129e60b00ae2289076a7307fd92303b5e9b8e761 Merge branch into tip/master: 'irq/urgent'
+         499d1d9d03ba66252d3cb079f33aac9e81e489d9 Merge branch into tip/master: 'locking/urgent'
+         7ccc28458870a7096e5b865a9e83ab36e61bbf0d Merge branch into tip/master: 'perf/urgent'
+         cc6cd3341406aa727991c2268ec03af08bba9bf1 Merge branch into tip/master: 'smp/urgent'
+         16ab5d61d87d5e448614803944cf2d94e55c7c65 Merge branch into tip/master: 'timers/urgent'
+         52db7218a745e171bb80621c7cc6d7e74733f74d Merge branch into tip/master: 'x86/urgent'
+         60b87960734a326be1827e3b6a3b6c4c6e44341c Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 64dd545a9b97aec2c69f7af73abb57a5cd64a542
+    new: 52db7218a745e171bb80621c7cc6d7e74733f74d
+    log: revlist-64dd545a9b97-52db7218a745.txt
 
---===============1004472836911578686==
+--===============7683239457069994626==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-884a3cedd6ce-ee4aa288f3ae.txt
+Content-Disposition: attachment; filename=revlist-64dd545a9b97-52db7218a745.txt
 
 431400d49cac4bac944fc2d989921003314667ae openrisc: mm: Fix section mismatch between map_page and __set_fixmap
 01f9557233e3c04be5c6705864d390682f5d7236 mtd: qcom: Unify user-visible "Qualcomm" name
@@ -342,7 +355,12 @@ aff3ca32f39d5e64619eef10e1daef3a0ba76b25 Merge tag 'firewire-updates-7.2' of git
 09e3b4a76bb6047ec0b99dc668b313469d8a73d0 Merge tag 'mtd/for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 2e05544060b9fef5d4d0e0172944e6956c55080f Merge tag 'mm-nonmm-stable-2026-06-21-10-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 ef0c9f75a19532d7675384708fc8621e10850104 lib: Add stale 'raid6' directory to .gitignore file
-258f6496e071e7e089bcef3a96849c2b4f503d27 Merge branch 'linus'
-ee4aa288f3ae940e8f2f8d8e472a78cde037b773 Merge branch into tip/master: 'smp/urgent'
+8d067a3d1d052113abd0f8017680dc09295c0290 Merge branch into tip/master: 'core/urgent'
+129e60b00ae2289076a7307fd92303b5e9b8e761 Merge branch into tip/master: 'irq/urgent'
+499d1d9d03ba66252d3cb079f33aac9e81e489d9 Merge branch into tip/master: 'locking/urgent'
+7ccc28458870a7096e5b865a9e83ab36e61bbf0d Merge branch into tip/master: 'perf/urgent'
+cc6cd3341406aa727991c2268ec03af08bba9bf1 Merge branch into tip/master: 'smp/urgent'
+16ab5d61d87d5e448614803944cf2d94e55c7c65 Merge branch into tip/master: 'timers/urgent'
+52db7218a745e171bb80621c7cc6d7e74733f74d Merge branch into tip/master: 'x86/urgent'
 
---===============1004472836911578686==--
+--===============7683239457069994626==--
