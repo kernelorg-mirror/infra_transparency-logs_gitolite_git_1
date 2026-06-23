@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3023545678642281797=="
+Content-Type: multipart/mixed; boundary="===============6417493797096498948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 23 Jun 2026 01:43:52 -0000
-Message-Id: <178217903284.1838065.13173623613485736454@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 01:43:55 -0000
+Message-Id: <178217903567.1838177.8163501297181405177@gitolite.kernel.org>
 
---===============3023545678642281797==
+--===============6417493797096498948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 55f49f8fef74866993dba1e20855f74ffd80c69a
-    new: 81652c5a65d4ae28e9b18c16ef917a40025c3653
-    log: revlist-55f49f8fef74-81652c5a65d4.txt
+  - ref: refs/heads/mm-stable
+    old: e3d8707358ea76b78bdec9928937bb9a797f2c8f
+    new: 13a1e1a618858407fa12c391f664ea750651f6b2
+    log: revlist-e3d8707358ea-13a1e1a61885.txt
 
---===============3023545678642281797==
+--===============6417493797096498948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55f49f8fef74-81652c5a65d4.txt
+Content-Disposition: attachment; filename=revlist-e3d8707358ea-13a1e1a61885.txt
 
 0c3a350d13ce8bb7c3427597819b0dfbc19ba242 mm/alloc_tag: replace fixed-size early PFN array with dynamic linked list
 2956268efc457cb05d29c1bf94de1e8e684d7bbc alloc_tag: fix use-after-free in /proc/allocinfo after module unload
@@ -144,17 +144,5 @@ cea5702144615878600d3a39b5d8b3cc34719012 selftests/mm: fix exclusive_cow test fo
 c565c009d0c00aa1a2e813aef11cfc685f148d1a mm: use mapping_mapped to simplify the code
 44238b122ae834ac52748e59809a139a2cb8409b mm/vmscan: pass NULL to trace vmscan node reclaim
 13a1e1a618858407fa12c391f664ea750651f6b2 Revert "mm: limit filemap_fault readahead to VMA boundaries"
-d5a815b4cd760585fa9cac5c83ac7aac0f595195 selftests/mm: fix ksft_process_madv.sh test category
-19a45b706c2ff9e398ea6389c86def1b4023b8e2 mm/memory-failure: trace: change memory_failure_event to ras subsystem
-9ada876dcd6b63c2278cc5694a6a0a4f7ad91255 arch,x86: skip setting align_offset for hugetlb mappings
-7bf078c67e7e0be64c88d6c13861735f421c4908 device-dax: fix refcount leak in __devm_create_dev_dax() error path
-2c5f390b20ea42abf77a0b51541f9979db79f486 mm: shrinker: fix shrinker_info teardown race with expansion
-44aa96cff30d4c9a6db105dd79f299585135a569 mm: shrinker: fix NULL pointer dereference in debugfs
-94e4f0681c301700d30b2ca2f67caa7c67b12f43 mm/damon/sysfs-schemes: fix dir put orders in access_pattern_add_dirs()
-046968d607bf2733fc3ab866efdea94b67173bdc mm/damon/sysfs-schemes: put stats for scheme_add_dirs() internal error
-56acc1410032e54872f05faa2490cdec3311c6f4 mm/compaction: handle free_pages_prepare() properly in compaction_free()
-dcfbdd5886ab8ecd3887d6a81216e82b8614ba78 MAINTAINERS: add Lance as an rmap reviewer
-4c9666e141479dce09c70b1bc2bb5c5c95788250 foo
-81652c5a65d4ae28e9b18c16ef917a40025c3653 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
 
---===============3023545678642281797==--
+--===============6417493797096498948==--
