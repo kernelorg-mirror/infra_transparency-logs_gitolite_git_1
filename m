@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1055421261700271530=="
+Content-Type: multipart/mixed; boundary="===============6378377912854263018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 23 Jun 2026 23:39:24 -0000
-Message-Id: <178225796444.2880343.1839077343021908036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Tue, 23 Jun 2026 23:39:43 -0000
+Message-Id: <178225798367.2880835.16482548623638778825@gitolite.kernel.org>
 
---===============1055421261700271530==
+--===============6378377912854263018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: 3287a1881ca528b89b964d9fa6d28880d277d9e2
     new: 558ef39aeb9a089a6be9dda8413b0b9d42e843ea
     log: revlist-3287a1881ca5-558ef39aeb9a.txt
 
---===============1055421261700271530==
+--===============6378377912854263018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a1a8bab74176eed204a3139ab7ad840caa3d73b8 Merge tag 'mm-stable-2026-06-23-08-55' 
 62cf248de32f061d99cf7cd1675419d739031c5e Merge tag 'phy-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 558ef39aeb9a089a6be9dda8413b0b9d42e843ea Merge tag 'dmaengine-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 
---===============1055421261700271530==--
+--===============6378377912854263018==--
