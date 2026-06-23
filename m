@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 23 Jun 2026 07:17:20 -0000
-Message-Id: <178219904075.2141049.13172294463831746017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Tue, 23 Jun 2026 07:18:01 -0000
+Message-Id: <178219908106.2141387.4044727543783686198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/heads/experimental
-    old: 16f8ba0d898017d63c6532478166e35cf58737df
-    new: fe3cbdd92fa27c5d3dea1156194571020fece9e0
+  - ref: refs/heads/apparmor-next
+    old: 1ed40bd525c00d22af666016af9aef7167f8085f
+    new: 4d587cd8a72155089a627130bbd4716ec0856e21
     log: |
-         fe3cbdd92fa27c5d3dea1156194571020fece9e0 erofs-utils: lib: don't abort on compression fallback
+         4d587cd8a72155089a627130bbd4716ec0856e21 apparmor: mediate the implicit connect of TCP fast open sendmsg
          
