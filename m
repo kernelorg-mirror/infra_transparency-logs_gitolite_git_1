@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 23 Jun 2026 08:20:53 -0000
-Message-Id: <178220285306.2188145.3264529776649799619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 23 Jun 2026 08:45:39 -0000
+Message-Id: <178220433984.2205736.10375667310752419880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: d6c3e2402523ce01e3f6eab361819e8a2cefa475
-    new: 3726ce7f6ceff132706086cdfa505186a1b22a99
+  - ref: refs/heads/gpio/for-current
+    old: 9068c631d5af20000d873e4f299fa0bac4e294d9
+    new: 4e8eb6952aa6749726c6c3763ae0032a6332c24f
     log: |
-         3726ce7f6ceff132706086cdfa505186a1b22a99 fbdev: pm2fb: unwind WC setup on probe failure
+         d3e91a95b2b0fc6336dbf3ec90d831a1654d2720 gpio: tegra: do not call pinctrl for GPIO direction
+         4e8eb6952aa6749726c6c3763ae0032a6332c24f gpio: davinci: fix IRQ domain leak on devm_kzalloc failure
          
