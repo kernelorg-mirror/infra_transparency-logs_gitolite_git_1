@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Jun 2026 01:27:41 -0000
-Message-Id: <178217806158.1824672.6733563756633113803@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 01:40:54 -0000
+Message-Id: <178217885480.1836227.14924434818937320391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 46c3b8191aad3d032776bf3bebf03efdf5f4b905
-    new: 40529e58629baa9ce72143cb46cf1b3d2ca0d465
+    old: 40529e58629baa9ce72143cb46cf1b3d2ca0d465
+    new: a986fde914d88af47eb78fd29c5d1af7952c3500
     log: |
-         40529e58629baa9ce72143cb46cf1b3d2ca0d465 eth: bnxt: improve the timing of stats
+         b72f0db64205d9ce462038ba995d5d31eff32dc1 ipv4: fib: Don't ignore error route in local/main tables.
+         a986fde914d88af47eb78fd29c5d1af7952c3500 bnx2x: fix potential memory leak in bnx2x_alloc_mem_bp()
          
