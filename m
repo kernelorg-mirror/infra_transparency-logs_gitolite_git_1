@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1446485574911530467=="
+Content-Type: multipart/mixed; boundary="===============5265123071510684839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 23 Jun 2026 06:49:37 -0000
-Message-Id: <178219737792.2113192.11362353910096900476@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 06:49:41 -0000
+Message-Id: <178219738179.2113352.10123880159912543168@gitolite.kernel.org>
 
---===============1446485574911530467==
+--===============5265123071510684839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,54 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e43ffb69e0438cddd72aaa30898b4dc446f664f8
+  - ref: refs/heads/char-misc-linus
+    old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
     new: 502d801f0ab03e4f32f9a33d203154ce84887921
-    log: revlist-e43ffb69e043-502d801f0ab0.txt
+    log: revlist-8cd9520d35a6-502d801f0ab0.txt
 
---===============1446485574911530467==
+--===============5265123071510684839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782197304 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782197313 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1782197372-eaf5763af491507af19cb14181d96c487c0c7078
+nonce 1782197380-6b50a3002109c27fb88d813ca419ba735b4b0567
 
-e43ffb69e0438cddd72aaa30898b4dc446f664f8 502d801f0ab03e4f32f9a33d203154ce84887921 refs/heads/main
+8cd9520d35a6c38db6567e97dd93b1f11f185dc6 502d801f0ab03e4f32f9a33d203154ce84887921 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo6LDgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZyQQANZwqKufNzqooiefrghC
-vP+59UFdLMDFm6WNSYML4V4J4Xj5fbbemnQtU5RMyaAm3vsRhYEHNIWeORA4DDrC
-wjzv+vTPkEXcExgQCxE+VhEqpU85yg1HFng3pk8XN2ss4Sx7KqYIPqY/fVgs60Lk
-PrRuYQZaQITrG8SfgRMNG8HKxzirWpUt6J6DupSGyA8RVgd/X0VkLGnMGn+IKiXa
-9WL9XfovFJt+roaDxNVL7f5c8ui8F4VnMkWy3lyOVvRdFE4B1D159Fj5ZxwsQ0tx
-9dmVJpB12lLzMMO7i2g1oKXtrMno4o7IV5SCHKIdowTsUt0DNWzQji+ut0WHlqqW
-3+2JT03tQNnnTittbAmke3KpIQtOqUvxFn9aKs8SEjucWTxHCUKRRRn6rdETqtws
-or2boVQh0bQVpI31B9NqKzo8h15wPLyYtdSkTvpBdPBLMn9MswOV4cVIVmiIeKuE
-ra7lTfZnFkctczUoDJOhlIAOX+E75o3JRgmnlyjYlUtLNzSYnDrE1SZHn+hhviUy
-zXcQuDStgAqkPK8H13G1gcvrPzO1nICRbCvUOdVuVuS1T4z6LbnfdH1DYWKGkqcw
-UQb72BbupllbwKuR0bnzpqfe4JZtU0xcLyb32jE3K/FUoTNm10RvjWvfRnSw5Vy8
-uBc7Hd7LiUV4R4JRpNkNAPWW
-=bXAp
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo6LEEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dOcQANeobYgLaVSeU7ZLqWh9
+LaWNk/uip+O5UGa7Xpa3PnCVuXIW8dOxihztZydIgRzpoPQulJswWsJjTCRSR5tD
+gDRzOcruAuRZhJRQx5627zEO7T3Fbcw2h6FN4BRTOC1Bae1mYKdjriBnG5zI+A5M
+HLpqzApHknVX265bbs5RjMoIuZw55SPCL7+7HxfXgip4M8prC9oYpFA7jbm3Wi7M
+Plr/TY9iu0ywPHqJ9m77cNDdKghHHDzdLlUnL9BuR3clobE8LKvTUYjbnMbD4nfl
+P2JmPTA2KOv9cLWM8naXLyccXp/qRMjpSR+PNXQdVAiSXRfURvLp8uDHpbLjtaFX
+YTkEMEqFTjmsYPOQIAq0IAai2PMdjKVE05hc2rx+htpTYfXRiibCPKhILMBmE5z7
+vl+DZpSqFwbAZFZ0YcMCzEh5JiwE3Fx3DWLkYtJOL0R0s8xVjGuJc/6QqOvMD7u1
+Ox11uWnPbkynp3l6r30Z+bHf7oaZ+eoRylN+EwGj09gYq6LO3MtCpby8Z0LzPsvX
+vyYFuDySgruLj68HyuFD779dEx0QSthfTMznEsEBs0SVgZwxiAaEwD1U8Zkox/bb
+YCinIN4cN7r1HzL0dkrjtyFWxQi+E6eQZVsiZ6fsh3nk9zgCpzT4rASNbY67eKXs
+dSPFbuigAGw0BjvrSMd6OCTq
+=y+++
 -----END PGP SIGNATURE-----
 
---===============1446485574911530467==
+--===============5265123071510684839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e43ffb69e043-502d801f0ab0.txt
+Content-Disposition: attachment; filename=revlist-8cd9520d35a6-502d801f0ab0.txt
 
+2ed519c21bb4fbac5d544ef4b1f98d515b18036d cxl/memdev: Introduce cxl_class_memdev_type
+d8dcb0b74b045e36d627935a959c3cf4c8cb2f7c cxl/region: Introduce devm_cxl_probe_mem()
+383f69656359191d2236ef5ec259984c844fde9a cxl: Add dummy function for cxl_memdev_attach_region for !CONFIG_CXL_REGION
+f72af41a43e16276c46d44cf8a833cc0f9ba9d48 Merge branch 'for-7.2/cxl-type2-attach-region' into cxl-for-next
+d894c48a57d78206e4df9c90d4acfaf39394806a fbdev: modedb: Fix misaligned fields in the 1920x1080-60 mode
+ba61aed9a34671222d1149acfc2f0179a9ce7e80 power: supply: core: fix supplied_from allocations
+4373cfa38ead58f980362c841b0d0bdf8c4d956c power: supply: charger-manager: fix refcount leak in is_full_charged()
 a888754e51e915731c8974c4d6d62709facb35d3 Documentation: ABI: sysfs-class-reboot-mode-reboot_modes: fix doc warnings
 c9e66025451bee48f3ef4fc36a00548af7ba0a26 dt-bindings: hwmon: Add Apple System Management Controller hwmon schema
 52d4ab1ca790a668cc8f2c27017138b1c467168c Merge tag 'drm-misc-next-fixes-2026-06-11' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
@@ -71,7 +78,6 @@ b1763103276940b9eac5b92985bf839c4c3319ac selftests/xsk: Move UMEM state from ifo
 0fe61052acb09bab7ac2b39b2249d11d8b5dbdf7 selftests/xsk: Introduce mmap_size in umem struct
 86233d161760f422a560344c7927cea7a8dda9e1 Merge branch 'selftests-xsk-simplify-umem-setup'
 81246a65303d9635266b1334490142caaf86a11f handshake: Require admin permission for DONE command
-4fa048ed72531d6c2a2147fa9b52b6a5451213a2 Merge tag 'drm-fixes-2026-06-13' of https://gitlab.freedesktop.org/drm/kernel
 d3265c19b35d036bba327b36b5366bee76b0157c net: stmmac: xgmac2: disable RBUE in default RX interrupt mask
 e26657fe3b85c068b01f42bb0c602f242d643ba9 bnxt: fix head underflow on XDP head-grow
 6213cf54adad2ea1c5d20a10754f941ca42584bd docs: net: fix minor issues with XDP metadata docs
@@ -99,7 +105,6 @@ d0dc208808a28f7380fdc40e587b054f6cc81bc1 ipv6: mcast: annotate data-races around
 15cd0c93bf4f892d66bc7a93667e2357b5673365 net/sched: sch_dualpi2: Do not call qdisc_tree_reduce_backlog during peek before restoring qlen
 101f1047c2f6261d252d68ca3f77e52ed05a8402 selftests/tc-testing: Verify child qdisc will not mistakenly deactivate QFQ parent
 592b792026eaab89efb84bed71b05994645fa790 Merge branch 'avoid-mistaken-parent-class-deactivation-during-peek'
-062871f1371b2e02a272ff5279c6479aff0a37ef Merge tag 'pinctrl-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 a390863b493e352231ed56ee65fca9c1f2ce1a1c dt-bindings: net: realtek,rtl9301-mdio: Add RTL931x series
 29a540b56e51541b77d323ed4ce1b13dbf7b7872 net: mdio: realtek-rtl9300: Add prefix to register field defines
 6e1d8b024de7385567899049a71f880fccc733cc net: mdio: realtek-rtl9300: Make otto_emdio_read_cmd() generic
@@ -176,8 +181,6 @@ f24df84cbe05e4471c04ac4b921fc0340bbc7752 time/jiffies: Register jiffies clocksou
 8f727615134abc6382f0ea07b90270d7bdde578f x86/irq: Add missing 's' back to thermal event printout
 87bd2ad568e15b90d5f7d4bcd70342d05dad649c posix-cpu-timers: Fix pid refcount leak in do_cpu_nanosleep() error path
 c66494c79ede1af529dbf67f9ed6fdbf42e05ef3 Merge tag 'timers-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/daniel.lezcano/linux into timers/clocksource
-a5e98d1679809cbad0f88f1b6b60e92134d8ee13 Merge tag 'i2c-for-7.1-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-2b07ea76fd28989bde5993532d7a943a6f90e246 Merge tag 'core-urgent-2026-06-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c7c76f9232bd34835d821f14abdc5fafc17bc938 MAINTAINERS: Update Coly Li's email address
 d7d81b00301398fcd38cf5b5869f0fdb674472ef net: airoha: Fix error handling in airoha_ppe_flush_sram_entries()
 07ca2ab4ce8484a8e743c4a2c63a03b5c437d06d netdevsim: tc: allow to test nf_tables offload control plane code
@@ -275,7 +278,6 @@ cc2c4dbb00fb6f6b6a4bbe51c5197b8fb81407bb net: hns3: support IP and tunnel VNI di
 6c586b3ab8b730f5fedcac06a89c1f0ac4563d82 net: hns3: debugfs support for dumping fd rules
 d76612e4aacf6b5cf7d316e68d0cf6b0b116f5d5 net: hns3: move fd code to a separate file
 383bad5ffeb8a84fcb4b87544429edb82aa5d223 Merge branch 'net-hns3-enhance-tc-flow-offload-support'
-e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 52738352a6f29279e15285fcb7b50241ef867e27 riscv: kvm: Use endian-specific __lelong for NACL shared memory
 b232fc005aec5fa5346d970f8986b8f0046f328b Merge tag 'iio-fixes-for-7.1b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 47186409c092cd7dd70350999186c700233e854d kcm: use WRITE_ONCE() when changing lower socket callbacks
@@ -303,8 +305,6 @@ df3daf49a8a05751b34ec40c46ac6d9c47e9ec22 Merge branch 'for-next/mm' into for-nex
 61c19a9feb1d87156e46e38d7759f3ad23710e24 Merge branch 'for-next/sysregs' into for-next/core
 9bcb30b389ec5888590cb6ec58c7a3b80fe49a11 net/sched: act_csum: don't mangle UDP tunnel GSO packets
 2319688890d97c63da423a3c57c23b4ab5952dfc geneve: Fix off-by-one comparing with GRO_LEGACY_MAX_SIZE
-424280953322cf66314f3ba5e2d1ef345f21c770 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-8cd9520d35a6c38db6567e97dd93b1f11f185dc6 Linux 7.1
 57e181af13de36571380ef3cc74000559826fa9b i3c: mipi-i3c-hci: Fix suspend behavior when bus disable falls back to software reset
 093eb8e73c90aa0c8cfb0421aa85bd70c23488be i3c: mipi-i3c-hci: Preserve RUN bit when aborting DMA ring
 c9b57ad97872eff9f4ce1fa1374c932cab579285 i3c: mipi-i3c-hci: Prevent DMA enqueue while ring is aborting or in error
@@ -1082,4 +1082,4 @@ e4b4bfaa5090760925b98848aa3e0fc10b3c574f Merge tag 'spdx-7.2-rc1' of git://git.k
 4708cac0e22cfd217f48f7cec3c35e5922efcccd Merge tag 'staging-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 502d801f0ab03e4f32f9a33d203154ce84887921 Merge tag 'erofs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============1446485574911530467==--
+--===============5265123071510684839==--
