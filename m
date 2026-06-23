@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8544194363437477841=="
+Content-Type: multipart/mixed; boundary="===============8457321456704017550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 23 Jun 2026 16:06:56 -0000
-Message-Id: <178223081661.2539139.3673550987859486010@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 16:09:10 -0000
+Message-Id: <178223095095.2540137.6386542717814559235@gitolite.kernel.org>
 
---===============8544194363437477841==
+--===============8457321456704017550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,19 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 60b87960734a326be1827e3b6a3b6c4c6e44341c
-    new: 8b7730fec6c4edc38e939c1c3d12585e7c9d6f7f
-    log: revlist-60b87960734a-8b7730fec6c4.txt
+    old: 8b7730fec6c4edc38e939c1c3d12585e7c9d6f7f
+    new: bd46a3eb7f79ef0eb852ae1ce4dfc08ccf11ecc9
+    log: |
+         872381b4fe75843345b7d7d9f9aee179e7e0ce1e Merge branch into tip/master: 'core/urgent'
+         f08e05c809faac0cd577eafddb99b239119acc9f Merge branch into tip/master: 'irq/urgent'
+         eb291047517b5f6d5046f11f0337e1f334285dd7 Merge branch into tip/master: 'locking/urgent'
+         e27e7262f4d0550b023678841882d00ab3745c8a Merge branch into tip/master: 'perf/urgent'
+         3d55aa5c522791dac365c4e6d169325803987b79 Merge branch into tip/master: 'smp/urgent'
+         09d51272295de62837b311c437280979b46b188d Merge branch into tip/master: 'timers/urgent'
+         b1cfc1c2cd8d3c8997e2f634562e34913405c290 Merge branch into tip/master: 'x86/urgent'
+         bd46a3eb7f79ef0eb852ae1ce4dfc08ccf11ecc9 Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 52db7218a745e171bb80621c7cc6d7e74733f74d
+    new: b1cfc1c2cd8d3c8997e2f634562e34913405c290
+    log: revlist-52db7218a745-b1cfc1c2cd8d.txt
 
---===============8544194363437477841==
+--===============8457321456704017550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60b87960734a-8b7730fec6c4.txt
+Content-Disposition: attachment; filename=revlist-52db7218a745-b1cfc1c2cd8d.txt
 
-fde18a8a1dd7e8384d1db17435e7b3813b0512cc dt-bindings: iio: dac: mcp47feb02: Fix I2C address in example
-6d78ab5687ff2b949680b86d3e57fa8d7c6a21fa dt-bindings: iio: dac: mcp47feb02: fix reg property value bounds
-96aa96c029bf4b4309b27ffb17dcbe0c0d660e2a dt-bindings: iio: dac: mcp47feb02: fix example indentation
 2450368e2e81716d9bd04a4631f5a480581881ec iio: proximity: srf08: Replace sprintf() with sysfs_emit()
 1a5fc4b5ddeeebacb22fead349b9dba3b2a1056a dt-bindings: iio: light: Document Avago APDS9900/9901 ALS/Proximity sensor
 2f640a4d0fe181b6b02ea570bb64969e6e9322bd iio: tsl2772: Add support for Avago APDS9900/9901 ALS/Proximity sensor
@@ -1046,9 +1056,12 @@ e4b4bfaa5090760925b98848aa3e0fc10b3c574f Merge tag 'spdx-7.2-rc1' of git://git.k
 16b2087efdddd0bf042accdbdcc8eedc21bf9227 Merge tag 'for-next-tpm-7.2-rc1-fixed' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 515db262143e48f09b5dce07bc0db67b8b4d6a73 Merge tag 'mailbox-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 f31c00c377ccf07c85442712f7c940a855cb3371 Merge tag 'platform-drivers-x86-v7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-4149f15ca5be007856f57f9c0bcf03269dce78e3 Merge branch into tip/master: 'core/urgent'
-83320182698aa9ef313fe6f0128c14299d1c7ec7 Merge branch into tip/master: 'irq/urgent'
-9a24c3d0f1e0ec48d2c9455ecc5d558883768693 Merge branch into tip/master: 'timers/urgent'
-8b7730fec6c4edc38e939c1c3d12585e7c9d6f7f Merge branch 'linus'
+872381b4fe75843345b7d7d9f9aee179e7e0ce1e Merge branch into tip/master: 'core/urgent'
+f08e05c809faac0cd577eafddb99b239119acc9f Merge branch into tip/master: 'irq/urgent'
+eb291047517b5f6d5046f11f0337e1f334285dd7 Merge branch into tip/master: 'locking/urgent'
+e27e7262f4d0550b023678841882d00ab3745c8a Merge branch into tip/master: 'perf/urgent'
+3d55aa5c522791dac365c4e6d169325803987b79 Merge branch into tip/master: 'smp/urgent'
+09d51272295de62837b311c437280979b46b188d Merge branch into tip/master: 'timers/urgent'
+b1cfc1c2cd8d3c8997e2f634562e34913405c290 Merge branch into tip/master: 'x86/urgent'
 
---===============8544194363437477841==--
+--===============8457321456704017550==--
