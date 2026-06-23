@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0859019942893531325=="
+Content-Type: multipart/mixed; boundary="===============6662019152688396212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 23 Jun 2026 04:05:41 -0000
-Message-Id: <178218754140.1941720.15946461529078205218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Tue, 23 Jun 2026 04:08:39 -0000
+Message-Id: <178218771948.1943000.11506011064697160365@gitolite.kernel.org>
 
---===============0859019942893531325==
+--===============6662019152688396212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/linux
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 803d09a554055aba160a62abd1e4b1260b899dc1
+  - ref: refs/heads/erofs/remove_fscache
+    old: ef2d84ca464e86a64e99439f9f5676851a36a9f0
     new: 79c05bcda6f0a501699cc96052aa7edbc6928521
-    log: revlist-803d09a55405-79c05bcda6f0.txt
+    log: revlist-ef2d84ca464e-79c05bcda6f0.txt
 
---===============0859019942893531325==
+--===============6662019152688396212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-803d09a55405-79c05bcda6f0.txt
+Content-Disposition: attachment; filename=revlist-ef2d84ca464e-79c05bcda6f0.txt
 
 48fcc895403cc97aa6c776cb65e6aa11290c0b44 mshv: add a missing padding field
 3fcf923302a8f5c0dc3af3d2ca2657cb5fae4297 hv: utils: handle and propagate errors in kvp_register
@@ -301,4 +301,4 @@ e21ee273e6fa3879aec9a27251cfce98156e07c4 Merge tag 'clk-fixes-for-linus' of git:
 88b533f60fb4141cde04bbe76419053ade9d1170 erofs: remove fscache backend entirely
 79c05bcda6f0a501699cc96052aa7edbc6928521 netfs,cachefiles: sunset ondemand mode
 
---===============0859019942893531325==--
+--===============6662019152688396212==--
