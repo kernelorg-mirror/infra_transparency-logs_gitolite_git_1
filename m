@@ -1,52 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3293233913402693574=="
+Content-Type: multipart/mixed; boundary="===============5152225209773502644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 23 Jun 2026 23:39:49 -0000
-Message-Id: <178225798958.2881062.3227906721154822920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 23 Jun 2026 23:40:49 -0000
+Message-Id: <178225804943.2883696.9703786226427098672@gitolite.kernel.org>
 
---===============3293233913402693574==
+--===============5152225209773502644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
-    old: 3287a1881ca528b89b964d9fa6d28880d277d9e2
-    new: 558ef39aeb9a089a6be9dda8413b0b9d42e843ea
-    log: revlist-3287a1881ca5-558ef39aeb9a.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 8b797f8b8c1f3fe466185d9bdb39a5e2224cf8f3
+    new: 40db90ac9f66c8246c1746c56d397283d161655c
+    log: revlist-8b797f8b8c1f-40db90ac9f66.txt
 
---===============3293233913402693574==
+--===============5152225209773502644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3287a1881ca5-558ef39aeb9a.txt
+Content-Disposition: attachment; filename=revlist-8b797f8b8c1f-40db90ac9f66.txt
 
-925551c944a1de3058dc3fb55a517eea7749835d octeontx2-af: fix NPC mailbox codes in mbox.h
-8f4695fb67b259b2cae0be1eef55859bfc559058 net: airoha: better handle MIBs for GDM ports with multiple devs attached
-acd7df8d955480a6f6e5bb809da67b1500cc3cf4 tipc: restrict socket queue dumps in enqueue tracepoints
-1402ecccf5630a0b7fa4749d7d2e72abc3f3d73d net: airoha: Fix register index for Tx-fwd counter configuration
-1c3a77471afbb3981af28f7f7c8b2487558e4b00 net: airoha: Fix debugfs new-tuple display for IPv4 ROUTE entries
-8b10877d9d6c8b9d3961e02ae9ea0c74c0900d53 net/stmmac: Apply TBS config only to used queues
-8a7bca6de6debded7d591a352db7b7715f1f3d11 net/stmmac: Apply MTL_MAX queue limit if config missing
-8d2747ab8c457a0fa5d40fa412a2022567f468cf Merge branch 'net-stmmac-fixes-for-maximum-tx-rx-queues-to-use-by-driver'
-6056a11b8dc4eb92d8a660870f7cbcae2398b027 octeontx2-af: enforce single RVU AF probe
-4655902deedff8c4ae433260b08c324925a5451f octeontx2-af: npc: cn20k: debugfs enhancements
-c0e67fd12313e92e83b0b4795c0bf71eb8e34618 devlink: heap-allocate param fill buffers in devlink_nl_param_fill
-eb7b4d458e0d6833ffbb717edf4282f5ca6a7b57 devlink: Implement devlink param multi attribute nested data values
-7ac9d4c4075c1da2a11d4d452a387a71788c4c57 octeontx2-af: npc: cn20k: add subbank search order control
-aac055dbc0fadf64c9d6fbcfc066b8ba33216dc4 octeontx2: cn20k: Coordinate default rules with NIX LF lifecycle
-c0c9ac88156aea08946eac2060d76890cf75cb3d octeontx2-af: npc: Support for custom KPU profile from filesystem
-ad804b325075b6c458d2eb600a7e70ff388e95c8 octeontx2: cn20k: Respect NPC MCAM X2/X4 profile in flows and DFT alloc
-e1938b10fa26f39240f7400b3d2a77b38e0d2cbc octeontx2-af: npc: cn20k: Allocate npc_priv and dstats dynamically.
-7a446c6bce946a17cf45c033500efa29915fd2f4 Merge branch 'octeontx2-af-npc-enhancements'
-711bdf0b787964a836a40022fe519e608b1d63f3 idpf: Replace use of system_unbound_wq with system_dfl_wq
-e5652e6d37fecee637a54fb49e60047d9c752079 ice: remove redundant checks from PTP init
-8538aaea10e141457bcb13d51b0d278c697c422a iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
 48d588dc9f26baabe18c1efcce9240b42b02046f net/intel: Replace manual array size calculation with ARRAY_SIZE
 06be82a0d9d7e9f0b74a53838b82174f125e2847 ixgbe: e610: remove redundant assignment
 2040b8ba371bf970ef29b99b1e971f9b0e6bdc1a igb: use ktime_get_real helpers in igb_ptp_reset()
@@ -1050,5 +1029,26 @@ a1a8bab74176eed204a3139ab7ad840caa3d73b8 Merge tag 'mm-stable-2026-06-23-08-55' 
 240303e47f48f434b5dd4a35d6d242856e23fa22 Merge tag 'soundwire-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 62cf248de32f061d99cf7cd1675419d739031c5e Merge tag 'phy-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 558ef39aeb9a089a6be9dda8413b0b9d42e843ea Merge tag 'dmaengine-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+521d11c904017e83b8fc6c46525fe5105a8c0ba0 perf util: Sort includes and add missed explicit dependencies
+dc966743b3f7f1a3b406a48992a55ccce43e933b perf python: Add missed explicit dependencies
+42267330e94c993a6375c8255669e9b4695f3696 perf evsel/evlist: Avoid unnecessary #includes
+97de2b92b13b8f3d7fc4283c615decdcec8f4e99 perf data: Add open flag
+f0b86433b44dfcd72c5b382cf08f6723c6d85e30 perf evlist: Add reference count
+a20997e7320f80f71d892291cebbd347ad00d2dd perf evsel: Add reference count
+7cd15f20eb9311f081fb7ee64d98951c7325b870 perf evlist: Add reference count checking
+2ba92e020c7dc91000bda02e915fe67692e0824c perf python: Use evsel in sample in pyrf_event
+ec52a4d432694ceaa062d90450d04a33f9d2875f perf python: Add wrapper for perf_data file abstraction
+96df120d6c18dd4c11ba093dd1b6f875cf626a0e perf python: Add python session abstraction wrapping perf's session
+4f7f2a623a13b158cffbbec184021dcafb4f3212 perf python: Refactor and add accessors to sample event
+9b6d69668fd877c5f48779679e8df408ce833402 perf python: Add mmap2 event
+2e7000a19116407e2cb2c4a147038965385486ad perf python: Add callchain support
+104e963ccdd91217fe8d796046c057e2b9cc1391 perf python: Extend API for stat events in python.c
+adbdd775b6d137920b14364be290dc713efa8525 perf python: Expose brstack in sample event
+f77c3bb35f950f072b0444fbb5c3298721c9ebb1 perf python: Add syscall name/id to convert syscall number and name
+5d89d10c830b091a80c9eac9fd63b3a551b4d7f7 perf python: Add config file access
+c2a487c451f0872afa21122fc08ca0ad492807ec perf python: Handle Py_None for thread and cpu maps
+8f43b5a3877ad6fc6c4e344611e292d9b8f18dad perf python: Add type checking for parse_events/parse_metrics
+332001667598c3c5b564f8cf83b761258d6469b2 perf python: Add perf.pyi stubs file
+40db90ac9f66c8246c1746c56d397283d161655c perf python: Add LiveSession helper
 
---===============3293233913402693574==--
+--===============5152225209773502644==--
