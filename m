@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 22 Jun 2026 23:50:40 -0000
-Message-Id: <178217224049.1748809.4473154855796916648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 Jun 2026 00:02:23 -0000
+Message-Id: <178217294341.1756558.3244729669163347883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/wip-af-alg
-    old: 96c5707246b67f0a662f4ee4ed7efe1d64031227
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0
+    new: 53442aad1d5790932ed82220bd3c9e1ee9388b83
+    log: |
+         53442aad1d5790932ed82220bd3c9e1ee9388b83 rocker: Fix memory leak in ofdpa_port_fdb()
+         
