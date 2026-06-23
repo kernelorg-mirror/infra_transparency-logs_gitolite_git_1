@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1152136269908770735=="
+Content-Type: multipart/mixed; boundary="===============1505241513494934562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 23 Jun 2026 06:54:35 -0000
-Message-Id: <178219767538.2119838.16191162559294653364@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 06:54:39 -0000
+Message-Id: <178219767916.2120005.3921421248301284010@gitolite.kernel.org>
 
---===============1152136269908770735==
+--===============1505241513494934562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: e43ffb69e0438cddd72aaa30898b4dc446f664f8
+  - ref: refs/heads/tty-next
+    old: 426e83cab1f5d53069ac7030cb03e2d7c6367ef1
     new: 502d801f0ab03e4f32f9a33d203154ce84887921
-    log: revlist-e43ffb69e043-502d801f0ab0.txt
+    log: revlist-426e83cab1f5-502d801f0ab0.txt
 
---===============1152136269908770735==
+--===============1505241513494934562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782197606 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782197610 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1782197673-57d67fb1f0111e180bc0eb14bf546f914f198b21
+nonce 1782197677-abfda5f75901a27fc1fa97a401c3b955b2efe94f
 
-e43ffb69e0438cddd72aaa30898b4dc446f664f8 502d801f0ab03e4f32f9a33d203154ce84887921 refs/heads/tty-linus
+426e83cab1f5d53069ac7030cb03e2d7c6367ef1 502d801f0ab03e4f32f9a33d203154ce84887921 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo6LWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HeUP/2KNf3fueLXyAl8OS5o5
-t6WDC5aVqOj12VudQXdHoGrrBhbXHc5BbFyiBM04KPFvS5LquQ+RyPf8OtXpC+vD
-IjCaCmSuliIMKnB4d2CrsRV9cNuJja1aPZvYooAspJBRxAaf8RxjtVrrIcQDcCel
-yMjIMskCR3s4tbjOVKZrMKuSiGGMjsZVbHCJOYR3gGGn6HJPKpAAFJXz65nQUwxA
-7+W67ZlZp5HFPTKDOIzKBjBsid6JqzJE5qmJ1pBtLvXfE1NEHPmMQMqBc1UBDzWH
-V+w2m1j9/ELYmsRmpHxhR1sLv2kPJAYJI+kR2vTc3w18dxrqR0DBJaG8hO5okjnY
-ylRV3EqGDhHsPKOI1fhF4QYiMPMd2X8C6kot0aZyoPpcVLIo41KvsFd4TtkgCkDZ
-8A2/4oSzsi5ByT4dXtxX7+BA/6iSRFitBQCO32jfD4XMELICeHM6bdC6KYljkb0i
-l8/caWT9PcJDJ6SEeN5K/9bkR58ozK+ozoxgPgLP+N3pFuOjLeTSvmqP8E4ig/VT
-29goPOZQ58LgzWZV2C62agWjJqtSPklAcxuUULYf5NtLmm/jYjclSqsfbbtPqePd
-TG6wWXDeujjjLyCBjyT2vU1f2gLG9DYnziNSB4WVxD3Of79apOYkMD8eL5BT0O9d
-GG+cqeBEMwkym2Rau0ow2RYd
-=Jx01
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo6LWobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+chEP/2fa8SllzGJ4IkVsLsKH
+JTJFEdyReV6HYYzruZkJnGndBQ89ZnP0l6qOmD+XUB2APzwS3XxlVg7ry/gz9Ujk
+4D67nLtckZe/fpYXFsodLVACJsjdVYQmxHlcEBJxCd/ooLZcltmZ3XPEzQ072m+h
+29NwPMP/BimnnAMWhyBNag7AeLzf6rq+tLuH4sCbdcFuUEBidOEZgk8ybCqtRuxJ
+fVg29hEmGZJqhy0Ue1Y2QqO4S84e1XUxt2u+y/1UqUaRVBRD+spAAD0EyhugJqyw
+WKBZZpM+l22Fn1O0v6sp1Nw/K0qFu0q6DD/O5Q2dGfa6KHKkte3dgvwKRjUyd225
+JDMKN05JVBqgs9CzOBcJhIFxnxHPrTQqFwg7LEGYnejJzlB+/U3i0tM3WwE7vvQz
+J5211RJQHfsMNz6NB9DT9QhScz/xRDBEz4Wl8FpM0pYUJzse+ANn0veRp47jsd1f
+xi7/Ng4DnKrIQXo1Kh1R5oxhcxvSy03WevSd2pUprjQ2PVns1zVHobqenho+3EZL
+iUhPsWXU4geFVuFg+eSHAYWKL+GzbY/sGgPev+fhDUQnTsxgltxvd1QRmLq64dG7
+F/kaezYkHMGmBkueeoyGb23Sj0wjSED7v3kz0RffFgpDDkLWONR1vsaLo9FTUmNl
+VmVwSSWrJ3U2r9RDllRHNaoN
+=cB3h
 -----END PGP SIGNATURE-----
 
---===============1152136269908770735==
+--===============1505241513494934562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e43ffb69e043-502d801f0ab0.txt
+Content-Disposition: attachment; filename=revlist-426e83cab1f5-502d801f0ab0.txt
 
 a888754e51e915731c8974c4d6d62709facb35d3 Documentation: ABI: sysfs-class-reboot-mode-reboot_modes: fix doc warnings
 c9e66025451bee48f3ef4fc36a00548af7ba0a26 dt-bindings: hwmon: Add Apple System Management Controller hwmon schema
@@ -1082,4 +1082,4 @@ e4b4bfaa5090760925b98848aa3e0fc10b3c574f Merge tag 'spdx-7.2-rc1' of git://git.k
 4708cac0e22cfd217f48f7cec3c35e5922efcccd Merge tag 'staging-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 502d801f0ab03e4f32f9a33d203154ce84887921 Merge tag 'erofs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============1152136269908770735==--
+--===============1505241513494934562==--
