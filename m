@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0486635601831917674=="
+Content-Type: multipart/mixed; boundary="===============3023545678642281797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 23 Jun 2026 01:43:48 -0000
-Message-Id: <178217902893.1837929.1159435292049679253@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 01:43:52 -0000
+Message-Id: <178217903284.1838065.13173623613485736454@gitolite.kernel.org>
 
---===============0486635601831917674==
+--===============3023545678642281797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: cdad4d4e4fc2e5acb9a8b2cac9af6ce87c92656f
-    new: 189ce3c81f8188fb737d59a8a8784f074e830238
-    log: revlist-cdad4d4e4fc2-189ce3c81f81.txt
+  - ref: refs/heads/mm-unstable
+    old: 55f49f8fef74866993dba1e20855f74ffd80c69a
+    new: 81652c5a65d4ae28e9b18c16ef917a40025c3653
+    log: revlist-55f49f8fef74-81652c5a65d4.txt
 
---===============0486635601831917674==
+--===============3023545678642281797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdad4d4e4fc2-189ce3c81f81.txt
+Content-Disposition: attachment; filename=revlist-55f49f8fef74-81652c5a65d4.txt
 
 0c3a350d13ce8bb7c3427597819b0dfbc19ba242 mm/alloc_tag: replace fixed-size early PFN array with dynamic linked list
 2956268efc457cb05d29c1bf94de1e8e684d7bbc alloc_tag: fix use-after-free in /proc/allocinfo after module unload
@@ -156,8 +156,5 @@ d5a815b4cd760585fa9cac5c83ac7aac0f595195 selftests/mm: fix ksft_process_madv.sh 
 dcfbdd5886ab8ecd3887d6a81216e82b8614ba78 MAINTAINERS: add Lance as an rmap reviewer
 4c9666e141479dce09c70b1bc2bb5c5c95788250 foo
 81652c5a65d4ae28e9b18c16ef917a40025c3653 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-e77c7148503c3d064ca0ba43b96d94caa4e936f2 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-b964ed621a0ba7e9d3fb586a76764b75ec38adbe mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-189ce3c81f8188fb737d59a8a8784f074e830238 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0486635601831917674==--
+--===============3023545678642281797==--
