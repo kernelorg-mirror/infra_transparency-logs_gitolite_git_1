@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Tue, 23 Jun 2026 20:51:27 -0000
-Message-Id: <178224788724.2755982.8665431391305050481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 Jun 2026 21:01:48 -0000
+Message-Id: <178224850876.2763385.6259318445190303602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/docs-next
-    old: 9347fe187d93c647fa93a708ce990241ee8f3c6e
-    new: af0c119d0e288c76999cd49edd110c27d3d5c3bd
+  - ref: refs/heads/main
+    old: 0ae44b88da3c104284d9ac0a9cb19fdf2f638b31
+    new: e82d8cc4321c373dc46e741cd2dfdaa7921fddb7
     log: |
-         3b61bb3fe1e6582673f19cc83f8d81644f2a5092 kernel-doc: xforms: support __SYSFS_FUNCTION_ALTERNATIVE()
-         afb5a55498e121b1382f139512c8a3ea3de68e49 docs/mm: clarify that we are not looking for LLM generated content
-         de5c46373eb8148aa92c024cf30d26a6d495e278 Docs/driver-api/uio-howto: document mmap_prepare callback
-         8a66c094793ec68cf15260538017b0f661ae400a Documentation: tracing: fix typo in events documentation
-         dd07489fead45f0947aaa4cfb72066594df0fde4 docs: kgdb: Fix path of driver options
-         5cee93f6679140857d21561bdc14011bd574e4fc MAINTAINERS: Fix regex for kdoc
-         da5e67d0e18a935a4d9a3d2732c9546fd29ad3b1 kdoc: xforms_lists: handle DECLARE_PER_CPU() in kernel-doc
-         d42197c73550ac6fa724516e22709b0fe2c11951 kdoc: xforms: ignore special static/inline macros
-         b13f724df35c4f1a69e20c965a2fc74fd2921e59 docs: tools: Fix typo 'ackward' to 'awkward' in unittest.rst
-         af0c119d0e288c76999cd49edd110c27d3d5c3bd Merge branch 'docs-mw' into docs-next
+         e82d8cc4321c373dc46e741cd2dfdaa7921fddb7 net, bpf: check master for NULL in xdp_master_redirect()
          
