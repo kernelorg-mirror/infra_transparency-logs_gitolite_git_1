@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 23 Jun 2026 10:54:00 -0000
-Message-Id: <178221204094.2299632.3459297090621613544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 23 Jun 2026 11:26:56 -0000
+Message-Id: <178221401607.2324480.17270845557417483322@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/probes/core
-    old: 3ec75d0067f30eb5e0730f033766d6ab2feca7ae
-    new: b3c71a47100f264c4b86f170d7898d887ec31c84
+  - ref: refs/heads/device-id-rework
+    old: 32413a4b69f633708ec6f7bb82bd82f9b1020bda
+    new: d979a425a48f8c1b719eeff19c90f14ce37e78df
     log: |
-         b3c71a47100f264c4b86f170d7898d887ec31c84 tracing/probes: make file offset error message probe-agnostic
+         d979a425a48f8c1b719eeff19c90f14ce37e78df mod_devicetable.h: Split into per subsystem headers
          
