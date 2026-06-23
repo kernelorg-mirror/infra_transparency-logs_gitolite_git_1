@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 23 Jun 2026 17:20:23 -0000
-Message-Id: <178223522326.2599770.3110587661724140370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 23 Jun 2026 17:24:13 -0000
+Message-Id: <178223545396.2601054.10434497176241340088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/x86-urgent-2026-06-23
-    old: 0000000000000000000000000000000000000000
-    new: 2d4ddfd23a7a0798ce26744ce6693de813c3e7a0
+  - ref: refs/heads/pending
+    old: 663319ba9da1285d2978b9fc852718a92946a595
+    new: 23255c8b325ee94eeae92c173dc72d0871d5c426
+    log: |
+         23255c8b325ee94eeae92c173dc72d0871d5c426 wifi: ath12k: use %u for unsigned variables in QMI debug logs
+         
