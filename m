@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0383596348150398507=="
+Content-Type: multipart/mixed; boundary="===============1589032280410581850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 23 Jun 2026 11:46:24 -0000
-Message-Id: <178221518495.2338890.9510745896227304980@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 11:47:41 -0000
+Message-Id: <178221526126.2339587.5696073250730062579@gitolite.kernel.org>
 
---===============0383596348150398507==
+--===============1589032280410581850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
     new: 502d801f0ab03e4f32f9a33d203154ce84887921
     log: revlist-8cd9520d35a6-502d801f0ab0.txt
 
---===============0383596348150398507==
+--===============1589032280410581850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e4b4bfaa5090760925b98848aa3e0fc10b3c574f Merge tag 'spdx-7.2-rc1' of git://git.k
 4708cac0e22cfd217f48f7cec3c35e5922efcccd Merge tag 'staging-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 502d801f0ab03e4f32f9a33d203154ce84887921 Merge tag 'erofs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============0383596348150398507==--
+--===============1589032280410581850==--
