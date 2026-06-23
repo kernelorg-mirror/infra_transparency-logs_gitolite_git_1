@@ -1,66 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3983108510483520130=="
+Content-Type: multipart/mixed; boundary="===============1999471111292135040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 23 Jun 2026 15:06:46 -0000
-Message-Id: <178222720642.2491502.3019318728306602697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 23 Jun 2026 15:10:22 -0000
+Message-Id: <178222742264.2494843.12127364904608894375@gitolite.kernel.org>
 
---===============3983108510483520130==
+--===============1999471111292135040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/block-7.2
-    old: 3ed9b4779a4aa3f44cd9f78627498d7adac40daa
-    new: 29264400dd2af703ecffae039c2ee799558e2d34
-    log: revlist-3ed9b4779a4a-29264400dd2a.txt
-  - ref: refs/heads/for-next
-    old: 4ebfc96b9071d1fb2e8a7aafc6bb2c236ce5957d
-    new: b9e306277212ae2a61379007f6c08cf2f71725d8
-    log: revlist-4ebfc96b9071-b9e306277212.txt
+  - ref: refs/heads/i2c/i2c-host
+    old: 1dc18801be29bc54709aa355b8acd80e183b03cd
+    new: 71d8f7b0ed027b933a09f0bd318e65eb22b76e03
+    log: revlist-1dc18801be29-71d8f7b0ed02.txt
 
---===============3983108510483520130==
+--===============1999471111292135040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ed9b4779a4a-29264400dd2a.txt
+Content-Disposition: attachment; filename=revlist-1dc18801be29-71d8f7b0ed02.txt
 
-6fe0687245e8406bf26143bd45eb16441bbe5280 nvme-apple: Prevent shared tags across queues on Apple A11
-92f58587a04c94985fd4a9e3575720b054c432bf nvme: quieten sparse warning in valid LBA size check
-34b9a83c50660148bde01cde16451dbe78369749 nvmet: fix refcount leak in nvmet_sq_create()
-26acdaa357cded33a37f575cd5f6bae1033b3a5d nvme: fix crash and memory leak during invalid cdev teardown
-4fd1f5f6a659886a4ef3a380b2a07207c94a7a24 nvme: target: allocate ana_state with port
-48c0162f647bb47e6084ffbc71b8f213f5e2f4f8 nvmet-rdma: handle inline data with a nonzero offset
-ac48c49116d3de84fabc224c6e43f08740b1460d nvme: make some sysfs diagnostic structures static
-869567bcbe2dcc790860e05fc0e0c5e415bb22c2 nvme: make nvme_add_ns{_head}_cdev return void
-ee38469f88492df99e1d97f03aa40ecfd218934f nvme-fc: Do not cancel requests in io target before it is initialized
-779575bc35c687697ba69e904f2cd22e60112534 nvmet-auth: reject short AUTH_RECEIVE buffers
-7d953c75f0a3f905aadf3675c9394a5b9d9897bf nvmet-tcp: handle TCP_CLOSING state in nvmet_tcp_state_change
-29264400dd2af703ecffae039c2ee799558e2d34 Merge tag 'nvme-7.2-2026-06-23' of git://git.infradead.org/nvme into block-7.2
+541ada7aeabba4e9fe8c8f22cb6d81e2e0446e3a i2c: spacemit: configure ILCR/IWCR for accurate SCL frequency
+89ca5239d1aaf5d7032f12f40013aeb2cdcd52bf i2c: spacemit: drop warning when clock-frequency property is absent
+32e2e9f62bbd16e539a27eb1c9d2daa8456c4321 dt-bindings: i2c: convert axxia i2c to dt-schema
+d7aeadc6355bbdd5662abe8489bf27e2e46425f3 i2c: amd-asf: Validate firmware-reported length
+f3a123a652449f636fd4089f62cdd7df94083d4e dt-bindings: i2c: convert altera i2c to dt-schema
+8437e4bd0abbe98b26676a737430b5c0ae23bc83 dt-bindings: i2c: Describe SA8255p
+89990d37881acd513df0b1b9f9c410f782fdab94 i2c: qcom-geni: Isolate serial engine setup
+fd4441622fae5c3fc83e2cfd1c3d1f59acccc4ca i2c: qcom-geni: Move resource initialization to separate function
+e8612a38274372e3876f0831898cb64122aea712 i2c: qcom-geni: Use resources helper APIs in runtime PM functions
+0ca85dc3042745cbcfcf67b0a1ade407efd9f954 i2c: qcom-geni: Store of_device_id data in driver private struct
+6583d613170cd5609197e38ca675c515e3c0fe9a i2c: qcom-geni: Enable I2C on SA8255p Qualcomm platforms
+c7852a7c64f443d9746c2358712f0737d13fff0e i2c: acpi: Force ELAN1300 touchpads to 100 kHz
+2cc2a269fef4ad702583e3b2a2d1358b49223cee i2c: acpi: Free resource list at appropriate time
+6791e63473d9832472e1ab222c02ad8c82d5fe10 i2c: pnx: Use generic definitions for bus frequencies
+4d6b4264ec755f8eb1662076dd256edb57559988 i2c: davinci: Use generic definitions for bus frequencies
+fda74eaaf4cf0cdb75871a1f61dc5a62b4d46710 i2c: k1: Use generic definitions for bus frequencies
+10a364b92543e6b16e077252f4d47c29a95732dd i2c: microchip-corei2c: Use generic definitions for bus frequencies
+3bd37727ab5d1c3f11bfa0003b45a0ffef83d5ea i2c: octeon-core: Use generic definitions for bus frequencies
+71d8f7b0ed027b933a09f0bd318e65eb22b76e03 i2c: nomadik: Use generic definitions for bus frequencies
 
---===============3983108510483520130==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ebfc96b9071-b9e306277212.txt
-
-6fe0687245e8406bf26143bd45eb16441bbe5280 nvme-apple: Prevent shared tags across queues on Apple A11
-92f58587a04c94985fd4a9e3575720b054c432bf nvme: quieten sparse warning in valid LBA size check
-34b9a83c50660148bde01cde16451dbe78369749 nvmet: fix refcount leak in nvmet_sq_create()
-26acdaa357cded33a37f575cd5f6bae1033b3a5d nvme: fix crash and memory leak during invalid cdev teardown
-4fd1f5f6a659886a4ef3a380b2a07207c94a7a24 nvme: target: allocate ana_state with port
-48c0162f647bb47e6084ffbc71b8f213f5e2f4f8 nvmet-rdma: handle inline data with a nonzero offset
-ac48c49116d3de84fabc224c6e43f08740b1460d nvme: make some sysfs diagnostic structures static
-869567bcbe2dcc790860e05fc0e0c5e415bb22c2 nvme: make nvme_add_ns{_head}_cdev return void
-ee38469f88492df99e1d97f03aa40ecfd218934f nvme-fc: Do not cancel requests in io target before it is initialized
-779575bc35c687697ba69e904f2cd22e60112534 nvmet-auth: reject short AUTH_RECEIVE buffers
-7d953c75f0a3f905aadf3675c9394a5b9d9897bf nvmet-tcp: handle TCP_CLOSING state in nvmet_tcp_state_change
-29264400dd2af703ecffae039c2ee799558e2d34 Merge tag 'nvme-7.2-2026-06-23' of git://git.infradead.org/nvme into block-7.2
-b9e306277212ae2a61379007f6c08cf2f71725d8 Merge branch 'block-7.2' into for-next
-
---===============3983108510483520130==--
+--===============1999471111292135040==--
