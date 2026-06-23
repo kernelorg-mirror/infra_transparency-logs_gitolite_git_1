@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Jun 2026 20:38:43 -0000
-Message-Id: <178224712355.2742342.4893407276847389548@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 20:40:56 -0000
+Message-Id: <178224725629.2745794.3316873965906055089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a986fde914d88af47eb78fd29c5d1af7952c3500
-    new: e38fec239d923de5bfb65f7fce15ca52c5a3aa7f
+    old: e38fec239d923de5bfb65f7fce15ca52c5a3aa7f
+    new: 0ae44b88da3c104284d9ac0a9cb19fdf2f638b31
     log: |
-         245043dfc2101e7dc6268bf123b75305a91e4e00 net: airoha: Fix TX scheduler queue mask loop upper bound
-         e38fec239d923de5bfb65f7fce15ca52c5a3aa7f selftests: drv-net: so_txtime: relax variance bounds
+         b56cded1313718706f27a3b3ea545cff45f8b274 selftests/xsk: make poll timeout mode explicit
+         483c1405f8172d926df5fbf0477dbfacef822e64 selftests/xsk: fix timeout thread harness sequencing
+         ea4e9c9d8b2bd1f8b8538491443bc47d72f47e5b selftests/xsk: restore shared_umem after POLL_TXQ_FULL
+         0ae44b88da3c104284d9ac0a9cb19fdf2f638b31 Merge branch 'selftests-xsk-stabilize-timeout-test-behavior'
          
