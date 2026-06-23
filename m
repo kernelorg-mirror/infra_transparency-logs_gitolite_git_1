@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2394116167145557666=="
+Content-Type: multipart/mixed; boundary="===============6223320264355801288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 23 Jun 2026 06:53:04 -0000
-Message-Id: <178219758463.2117923.7008862416697265746@gitolite.kernel.org>
+Date: Tue, 23 Jun 2026 06:53:09 -0000
+Message-Id: <178219758955.2118162.88913562267610427@gitolite.kernel.org>
 
---===============2394116167145557666==
+--===============6223320264355801288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: ef0c9f75a19532d7675384708fc8621e10850104
     new: 502d801f0ab03e4f32f9a33d203154ce84887921
     log: revlist-ef0c9f75a195-502d801f0ab0.txt
 
---===============2394116167145557666==
+--===============6223320264355801288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782197511 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782197521 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1782197578-d78698b1eedf7ce462eb101834a23a63e7422fa8
+nonce 1782197588-4cfc8d04c6ef821e402bcc58232922374315056f
 
-ef0c9f75a19532d7675384708fc8621e10850104 502d801f0ab03e4f32f9a33d203154ce84887921 refs/heads/main
+ef0c9f75a19532d7675384708fc8621e10850104 502d801f0ab03e4f32f9a33d203154ce84887921 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo6LQcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jeIP/iH1FPjmTcyHKIlTDWSN
-wDl0zz90xYMW5ZHPwEl6H+dqapaDxT7buSdjB4k8ph0jA/wfSlxqtUOfgWgTNdXb
-2On/P0czDj2YMmZwoMDebaYp1cCCn36lbXiuwoz8FMT/Ve6zZ6/oY3I9DQz82Wjd
-1jxWc9QY7X0jDRZMaTSu1GOxjPXq6HQ9AMgFAgGRFNyt9FY4Q05UKAx2SVm9FA7K
-7B9FN+xtslcLrwmGebJtn+YkCidFaUKzdiZlD53F0Ph3++M89zLbL78XggPZZOqx
-8kRDH2HXaQn4o20G5N1hsCnQutf9imCAPy2eHIhVjNcdTIiDd0SZvtX6YfoZZre1
-A8nYHNMTIQ3OmVLY5kuoXDrHquy1AREw8fnx3taUmYo/XWk18eRGzZhHZlD8Fh2v
-1AR8Cr3cU2z1eLf0yL2Ya+xafDuM6bwZvEbvhGRuT1ik7QSEnsJQbZTK8ltxFh+d
-aJzh/N7gdjnTX1TgD+ku99q9Sd5JnTO5OW3uu+D5QueBtkNiXDiFF9qwe6vzKh2P
-tn3GX+IkeprLZljKiPLJoMW0vngmI+DAijQIfc49cB6WDzpE/fytbuyMbvlqPQyR
-SeSAgP8XHMR1msArFZZXmM6THt4sVh/FjD/3H5HNLTyWHqHMW4JiyV7T3e7qr6kr
-arIm0GktFitYfwI4EJXnMvdB
-=Ptph
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo6LREbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2HwP/j/8UJaqOhbq1u/NDSZH
+3HhH6Wk2J1xUedtb4w4WA+L7Aoo5JPjUt/cCqeveLslc4NFo9bb5ctUMg/ddhqta
+Bcn3mFE3aEhBdRC6KrEeHnKHPvbK/bxQU5MLs8W7hhAnLpRufUl4oCKBDqNHr2cJ
++xNnN6csb0XCcAFXGzlZ65XcqqFNaA7J13d+SYC8HwQsxFMgwn298fa0Yn16kmQ/
+T4mV2tlBPLavdzI8O98jkzmY7i0cIl9+erZxiQW33NDksMRINFHoHPKbyZxWDt1a
+4OzPA1URd3bnEvipQbVcHnkLf3j2X2LOO+Z24ThShaHCTWicFhZmF/vKTdyw5dp3
+nb2LRswNl9ddiXo2huve7be9YgC4t1yhJaMoyAp1crXIfFRY3DuqGjHe2XVFErEV
+IeTTzJGKQTiv/gMwmY/PWaxUBcJew7TQtULDFB16ipv0dT4tXr7dN6p0GbbNwYBB
+qjpUz5l6XhvHRBlXYXqA75AwW/fe2K3E7Y2VKq4sjoXT2WMpGFmqIVlb++2xB9SE
+FWVtFaEJW4iqtVgObQYq5BAJVWrFLoUTVSBoUBN/PufzlS3BOiojTUHmuXccxQ9J
+BDbEzQg29esXjVt12LWgYxekIkyjymYryfi7Oc5BZoBRYK7XEdLcyZDlWxHKi2fj
+qntm40lYGgU+SIZJuuKGXR8E
+=jYYs
 -----END PGP SIGNATURE-----
 
---===============2394116167145557666==
+--===============6223320264355801288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -999,4 +999,4 @@ e4b4bfaa5090760925b98848aa3e0fc10b3c574f Merge tag 'spdx-7.2-rc1' of git://git.k
 4708cac0e22cfd217f48f7cec3c35e5922efcccd Merge tag 'staging-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 502d801f0ab03e4f32f9a33d203154ce84887921 Merge tag 'erofs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============2394116167145557666==--
+--===============6223320264355801288==--
