@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 23 Jun 2026 08:45:39 -0000
-Message-Id: <178220433984.2205736.10375667310752419880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 23 Jun 2026 08:58:01 -0000
+Message-Id: <178220508125.2213754.3261404957291460717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 9068c631d5af20000d873e4f299fa0bac4e294d9
-    new: 4e8eb6952aa6749726c6c3763ae0032a6332c24f
+  - ref: refs/heads/for-next/ffa/fixes
+    old: d0ce5f3f926a700d0329951101acddc85ea7ea99
+    new: fa4c1901a34e800b0ad00f3e887c14fb8d67a3c7
     log: |
-         d3e91a95b2b0fc6336dbf3ec90d831a1654d2720 gpio: tegra: do not call pinctrl for GPIO direction
-         4e8eb6952aa6749726c6c3763ae0032a6332c24f gpio: davinci: fix IRQ domain leak on devm_kzalloc failure
+         fa4c1901a34e800b0ad00f3e887c14fb8d67a3c7 firmware: arm_ffa: Fix NULL dereference in ffa_partition_info_get()
          
