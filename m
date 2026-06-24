@@ -1,57 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5161698667891816011=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 24 Jun 2026 09:00:44 -0000
-Message-Id: <178229164436.3333765.2642619641535716742@gitolite.kernel.org>
-
---===============5161698667891816011==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 24 Jun 2026 09:04:01 -0000
+Message-Id: <178229184123.3356290.5041389670399275860@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 9855a26db39bea901428acce9f906e42dbd7f42e
-    new: afa0ca02b217f2c3ca4cab67968acb3bb995aa0b
+  - ref: refs/heads/for-linus
+    old: e0ecb324246be9cf3a0689346a658e48a38546b2
+    new: 435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4
     log: |
-         55da846a2bd2c0852757b0ee5692659a9b846b0a assign a cve id on request
-         afa0ca02b217f2c3ca4cab67968acb3bb995aa0b strip the new mbox file
+         435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4 ALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()
          
-
---===============5161698667891816011==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782291575 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1782291643-aca9210a7268fd73d4a5c230ae3989f504d14a0b
-
-9855a26db39bea901428acce9f906e42dbd7f42e afa0ca02b217f2c3ca4cab67968acb3bb995aa0b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo7nHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ilsP/jdCOMRmGbsu7XJdNs5T
-xHGnLE6VtPUyDBL/dCOmTc5MRF+Moz+peL7f7gL6+kNxOe4XKZ7UH8VraqD6EBln
-/9Iu9LISqMx8ukhjIwn4YgXHt81hrH/QO78+FzdWQPQFNsGRJheB038Xsm5L3cZY
-SoDp+Yg/ZaHiS2ShEDPXAKuqdFecAmx/OWHox8H0yODG61SM2M8K/fPXXaWjT2U6
-LL9BfxU/7Vkj1btEKUodJ/Ptvsm3M3z07x/0NKrUIG7+5zbxdU1chvNAF/EmMb1l
-gejhgbFVvVK0Wd/CC7wrnqrYsy/Wqw273QrkQPTVnSUN9XVTpl2mCFnGTcuI0xR9
-T5mXQoU73O0DaWJ7mzH9rx44JPJiZp7VJ3fDU4tydpZZLmObG4+RF8rTHg4PwGwJ
-NWngBsqROLF2vG0D3d1/ubab2rv9rPTfGRjN4YifBoGACK26yhcODLGZt0IlyamB
-10+NntIDqgfpNhTAoJO1Q9KRB0jI/35wijJeq8c7ymdTo+pxRNLTI3Oe2qeXX1aq
-y9mYV6kGC30rXMhBRkQF6ozExEHlwQMZrkXg75GMqwpfcMQuu6Cl8Sd/yCpmoy0p
-QI2IyRMOBLosWAt5YnBqoYEL+BeMk3/gBBI3q0DQcVMVFsXHcXwBOdGKIpeIyKF+
-6P0O4JbtGsazKGqqTFXo38L0
-=BJYp
------END PGP SIGNATURE-----
-
---===============5161698667891816011==--
+  - ref: refs/heads/for-next
+    old: 493765b8e922a506e09e22e80b6cc9ff05e8295b
+    new: 435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4
+    log: |
+         e0ecb324246be9cf3a0689346a658e48a38546b2 ALSA: FCP: Add Focusrite ISA C8X support
+         435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4 ALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()
+         
+  - ref: refs/heads/master
+    old: 6b399bccec84efc496ecf182a60d0e9dd7405bc1
+    new: ca5bc72e4595760d27d142c8fcedde1b4901c914
+    log: |
+         435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4 ALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()
+         ca5bc72e4595760d27d142c8fcedde1b4901c914 Merge branch 'for-linus'
+         
