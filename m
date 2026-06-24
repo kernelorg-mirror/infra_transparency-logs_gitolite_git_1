@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 24 Jun 2026 16:59:13 -0000
-Message-Id: <178232035325.3715919.675899232850380111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 24 Jun 2026 17:00:09 -0000
+Message-Id: <178232040941.3718390.15984928726007242199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 40a58272a58fdfb00081289ab41fa6d4cebfb935
-    new: eb9b35c8d13dffcaf4f6f4b5bee29a18c860ba04
+  - ref: refs/heads/main
+    old: b2722d241309a1872446c1d00c2e812bad055f89
+    new: 243a20d5bb139b49cea217d3bcf4f9fd5d69875e
     log: |
-         eb9b35c8d13dffcaf4f6f4b5bee29a18c860ba04 unit: test-bap: disable optimization to speed up compilation
+         0ae79f3a658ebb44cebbea2f65f972df619f6b51 linux-firmware: Update AMD SEV firmware
+         243a20d5bb139b49cea217d3bcf4f9fd5d69875e Merge branch 'sev-6-23-26' into 'main'
          
