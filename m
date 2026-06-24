@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0917962102585540920=="
+Content-Type: multipart/mixed; boundary="===============4738186888118121219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 24 Jun 2026 11:55:15 -0000
-Message-Id: <178230211531.3483632.382789832035498508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 24 Jun 2026 11:55:19 -0000
+Message-Id: <178230211911.3483889.16071924988041886090@gitolite.kernel.org>
 
---===============0917962102585540920==
+--===============4738186888118121219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: cf81b260916c92cf610c907d41627a175e86e37d
     new: d0c415f0076b71b956f62ff6f31de885f0fa2489
     log: |
@@ -31,28 +31,28 @@ changes:
          d0c415f0076b71b956f62ff6f31de885f0fa2489 ASoC: rt5575: Use __le32 for SPI burst write address
          
 
---===============0917962102585540920==
+--===============4738186888118121219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1782302113 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1782302112-10a87e96466fbdaffed296fafb262d84e825cf1f
+pusher C3F436CA30F5D8EB 1782302117 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1782302116-2f13aaebe6d12bd805bb6ec5cb80c7d686ecb828
 
-cf81b260916c92cf610c907d41627a175e86e37d d0c415f0076b71b956f62ff6f31de885f0fa2489 refs/heads/for-7.2
+cf81b260916c92cf610c907d41627a175e86e37d d0c415f0076b71b956f62ff6f31de885f0fa2489 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo7xaEACgkQJNaLcl1U
-h9BFlQf/VdcVh5uCCyrJH6itLr5D8vg1SLjvt1kk1ZxhjMflOtyhuCZC+jgigpRa
-JjGFwwzt1A450gPd93kz952/OE20lqM7yBL7PxHaq4B9T4nGce/zxaz+KKXpfRtz
-iOnhoyJmjqfw8WqVKt5cvkZR0OwHEhsz9PWaAfJ5AnoIx99f2k3Si5/ghGrGxWXG
-/9SfrOVBqEZcqbHiHj3rObC3rtZG0NoIqwFxHo8n7gpy+Mv8jRdjzQrejIdFizCr
-FmWjsocfYjA5Wgjfabh1KOXIWGivrz/4+QMSHKjUSZx4yjKUL4tC49qLbb1ylh75
-rSJE1q3bwJn+AV600YVuQYg9HdAMxQ==
-=kdp3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo7xaUACgkQJNaLcl1U
+h9BUWQf9GZF7jL7B/iFDhxXBo8WZWsEYr0rrnRfX/r9j3p/MuxTq8xYP3kutnsci
+623fVbo0BfWiTmI49uQZFAhknFanyc3qxCDjTqt2uECpSYEgVI58C8lAbRvPyAYB
+9fVOaJ6KSHmdwSzZ4u+HsG4GoRWYxpKcmATAfr1rb7P89RzP9d070VXKJ3zXTYac
+fbnvi2SPaPLNOLubty3KPzPZrmk6pVQ+23iltyxYyzNxORsefZ8+lInB6OjAau6h
+N72TaS1fuapF8R/0uuZYKyp6BGimnftyFdK132c0dnkyBzcWUYGtAx3ymVpFDrow
+ba5HdFv464PVOsqeT/lrOiGJunQVEg==
+=thW/
 -----END PGP SIGNATURE-----
 
---===============0917962102585540920==--
+--===============4738186888118121219==--
