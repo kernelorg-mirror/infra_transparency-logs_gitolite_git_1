@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5357007763064833838=="
+Content-Type: multipart/mixed; boundary="===============7505940627326087600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Wed, 24 Jun 2026 18:57:15 -0000
-Message-Id: <178232743540.3804713.5222813336696679778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 24 Jun 2026 18:59:23 -0000
+Message-Id: <178232756354.3805496.15157889091276199886@gitolite.kernel.org>
 
---===============5357007763064833838==
+--===============7505940627326087600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/heads/for-next
     old: e771677c937da5808f7b6c1f0e4a97ec1a84f8a8
-    new: 4d9be388910e5fbdb3f2794ed20737515ca6b96d
-    log: revlist-e771677c937d-4d9be388910e.txt
+    new: a2ba161d17836d6c81aca32a35e75c913207142b
+    log: revlist-e771677c937d-a2ba161d1783.txt
   - ref: refs/heads/for-7.3
     old: 0000000000000000000000000000000000000000
-    new: 4d9be388910e5fbdb3f2794ed20737515ca6b96d
+    new: a2ba161d17836d6c81aca32a35e75c913207142b
 
---===============5357007763064833838==
+--===============7505940627326087600==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e771677c937d-4d9be388910e.txt
+Content-Disposition: attachment; filename=revlist-e771677c937d-a2ba161d1783.txt
 
 d9b99dc8148e0c1f5da3942131b47e0d21187a32 perf sched: Fix idle-hist callchain display using wrong rb_first variant
 b145137fec13dc8fc7fcb14193ce395a1164e3a1 perf tools: Add O_CLOEXEC to open() calls in DSO and ELF code
@@ -1052,6 +1052,6 @@ bade58eb0651c84b9b2a074fe4c04f2bba6b933f Merge tag 'x86-urgent-2026-06-23' of gi
 09ca8dc7d634f69d0b43f82c244add44cf7885b4 Merge tag 'f2fs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 840ef6c78e6a2f694b578ecb9063241c992aaa9e Merge tag 'nfs-for-7.2-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 f0e6f20cb52b14c2c441f04e21cef0c95d498cac Merge tag 'ntfs3_for_7.2' of https://github.com/Paragon-Software-Group/linux-ntfs3
-4d9be388910e5fbdb3f2794ed20737515ca6b96d tools/workqueue: parse help before importing drgn
+a2ba161d17836d6c81aca32a35e75c913207142b tools/cgroup: iocost_monitor: parse help before importing drgn
 
---===============5357007763064833838==--
+--===============7505940627326087600==--
