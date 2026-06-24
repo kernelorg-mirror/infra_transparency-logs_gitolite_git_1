@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5228313692595122773=="
+Content-Type: multipart/mixed; boundary="===============7341446938241038132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 24 Jun 2026 08:53:05 -0000
-Message-Id: <178229118593.3292393.16397627277638705526@gitolite.kernel.org>
+Date: Wed, 24 Jun 2026 08:53:37 -0000
+Message-Id: <178229121788.3292671.5128668921311248493@gitolite.kernel.org>
 
---===============5228313692595122773==
+--===============7341446938241038132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,21 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: bd46a3eb7f79ef0eb852ae1ce4dfc08ccf11ecc9
-    new: ae7ff44542f165ae06cfd76db57660f87287d018
-    log: revlist-bd46a3eb7f79-ae7ff44542f1.txt
+    old: ae7ff44542f165ae06cfd76db57660f87287d018
+    new: d74eecbb5ded9fe16e36ee49b00a74e3a81d042b
+    log: |
+         d74eecbb5ded9fe16e36ee49b00a74e3a81d042b Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: b1cfc1c2cd8d3c8997e2f634562e34913405c290
+    new: 840ef6c78e6a2f694b578ecb9063241c992aaa9e
+    log: revlist-b1cfc1c2cd8d-840ef6c78e6a.txt
 
---===============5228313692595122773==
+--===============7341446938241038132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd46a3eb7f79-ae7ff44542f1.txt
+Content-Disposition: attachment; filename=revlist-b1cfc1c2cd8d-840ef6c78e6a.txt
 
 9a0afdd19a01c6edddb92eb6a464f9e99d946b90 soundwire: stream: sdw_stream_remove_slave(): Check stream is valid
 be6d8daaab654e9b0a8508757534d556d399d0cd soundwire: intel_auxdevice: Add cs42l43b to wake_capable_list
@@ -752,6 +758,5 @@ d88eb9b84343b5f8d1b39b6c83280ce8aaeab6d8 Merge tag 'perf-urgent-2026-06-23' of g
 bade58eb0651c84b9b2a074fe4c04f2bba6b933f Merge tag 'x86-urgent-2026-06-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09ca8dc7d634f69d0b43f82c244add44cf7885b4 Merge tag 'f2fs-for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 840ef6c78e6a2f694b578ecb9063241c992aaa9e Merge tag 'nfs-for-7.2-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
-ae7ff44542f165ae06cfd76db57660f87287d018 Merge branch 'linus'
 
---===============5228313692595122773==--
+--===============7341446938241038132==--
