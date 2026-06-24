@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4075981887063249122=="
+Content-Type: multipart/mixed; boundary="===============8676570269213060075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 24 Jun 2026 10:36:35 -0000
-Message-Id: <178229739530.3425470.18057562727977449129@gitolite.kernel.org>
+Date: Wed, 24 Jun 2026 10:36:55 -0000
+Message-Id: <178229741502.3425871.15024171935199247576@gitolite.kernel.org>
 
---===============4075981887063249122==
+--===============8676570269213060075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 24b2dd50c2614d8ac7086cb7c59f52523c9103f7
-    new: 3bff4c7f9ed13140b3d21c40a2b209f017321a48
-    log: revlist-24b2dd50c261-3bff4c7f9ed1.txt
+  - ref: refs/heads/export-net
+    old: a686ff6d46a136b8fd4ca2da3d35b0f3dbc7d1fb
+    new: ef2d32af8a0f0b9cdd6f648b2050d024a6b91bc1
+    log: revlist-a686ff6d46a1-ef2d32af8a0f.txt
 
---===============4075981887063249122==
+--===============8676570269213060075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24b2dd50c261-3bff4c7f9ed1.txt
+Content-Disposition: attachment; filename=revlist-a686ff6d46a1-ef2d32af8a0f.txt
 
 355fbcbdc2539cca7890b0d0914d4ce0f985ad74 xfrm: use compat translator only for u64 alignment mismatch
 d129c3177d7b1138fd5066fcc63a698b3ba415b0 net: af_key: initialize alg_key_len for IPComp states
@@ -61,44 +61,14 @@ cf4f2b14401f29ccac56393ca9e4b42a2505f540 ipv6: fix error handling in ignore_rout
 17dc3b245de45b1f2012e3a48ec51889f544e67b ipv6: fix missing notification for ignore_routes_with_linkdown
 c79349905706d1a9f5047cda1a155d1870535221 Merge branch 'ipv6-fix-error-handling-in-disable_ipv6-sysctl'
 d87363b0edfc7504ff2b144fe4cdd8154f90f42e eth: fbnic: fix ordering of heartbeat vs ownership
-8345b7bc1c0f1386a3287cbd9b98e652b9982a9a DO-NOT-MERGE: git markup: net
-37980e3f1001d35f9ed01a2dac5530c14d783651 timekeeping: Register default clocksource before taking tk_core lock
-23aac4aae581200de93a3da9636b18d4774d29ea DO-NOT-MERGE: git markup: fixes other trees
-22e6fbe6dbeef013da5d9dca3e4473e9ff35d8a4 DO-NOT-MERGE: git markup: fixes net
-22c9196de2480d7dad9fedbaf4080e1fb34b29d4 DO-NOT-MERGE: mptcp: add CI support
-1ef6370bc0c32728a613f50317c967322dc26667 DO-NOT-MERGE: git markup: end common net net-next
-a5ce6f5950d03afed1dbbf8118051b9547692124 TopGit-driven merge of branches:
-937ce9f4fdbd890a658f40691a04129e5a851a7f DO-NOT-MERGE: git markup: net-next
-1b84e6377bb58a959f57445d5f4325ea99476458 DO-NOT-MERGE: git markup: fixes net-next
-acc618606c1a4dc95d6dce8b7d0da461b19ff86a mptcp: pm: init and release mptcp_pm_ops
-6c991cdb2585866eafaaf2456013e21e98c27cbb mptcp: pm: add get_local_id() interface
-c35deb301a55d8f5c46b8dc8894ff2787d80c3dd mptcp: pm: add get_priority() interface
-03b84e5aae72580943922ae1a7e807ee84aac0ed selftests: mptcp: connect: test name in pcap file
-cf8b85fa9175cece2d7f596193e5099537af0486 selftests: mptcp: simult_flow: test name in pcap file
-396760e9ff9cc3d1d4ea41b7c93e2832dedce022 selftests: mptcp: pcap: drop most of the payload
-3c52e2515337e72b8d66f1a33c38709da816ab38 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-80b2c11e3f06823b225687792d6ed283321e3e66 mptcp: remove unused data_ack from struct mptcp_ext
-db095444956f0324e5217dc24ca5ff14d9cf1d1f mptcp: move the retrans loop to a separate helper
-5b2876326c3a220bb0ffd6bcec78a2a392952cae mptcp: let the retrans scheduler do its job
-39be1f550380abecee44b180b9736d72452b9a7d mptcp: explicitly drop over memory limits
-7b8b86ede176e12372e8a6db16e61a196798fb8c mptcp: enforce hard limit on backlog flushing
-942508d3d1efca67c936cc28cf320c3d1e4071a2 mptcp: implemented OoO queue pruning
-28646188aed96005b2b0e1b41371975eb2670e2f selftests: mptcp: fix const qualifier warnings in strchr usage
-051457d84b8d9873161bb4a17a81590270f6045f DO-NOT-MERGE: git markup: features net-next
-de1ca9a073d087cf96ac10d80768ecc88439bd8f DO-NOT-MERGE: git markup: features net-next-next
-85418502fada6815e6a91010b6d14fba2be5e827 bpf: Add mptcp_subflow bpf_iter
-93c821f090bdae1f369546ae09cbb5d6a44a7cbd selftests/bpf: More endpoints for endpoint_init
-90f2ac71b31e9997eb2e6cd80e92a99d66926959 selftests/bpf: Drop cgroup_fd of run_mptcpify
-03cbb38bf38b9b66f6827664101a500343db394f bpf: Add mptcp packet scheduler struct_ops
-199a1ada76c256a8c8a85a654397e4928b59da98 bpf: Export mptcp packet scheduler helpers
-54353a3baa49c6dcab5f0eb3353d183f69ee7202 selftests/bpf: Add bpf scheduler test
-877b5e738b0dd25b0dcc07e8aba8647bdf7ea29e selftests/bpf: Add bpf_first scheduler & test
-7357d0a261391580345dca159f0ce53a3862332c selftests/bpf: Add bpf_bkup scheduler & test
-21b55a75ff8e5186f6de54b1fe1d7d4dad443e24 selftests/bpf: Add bpf_rr scheduler & test
-da5e1933bf85b965bb06da04e23f97ddae982def selftests/bpf: Add bpf_red scheduler & test
-fbbbeaabde3f0fa23024f62f3e907528afa410a0 selftests/bpf: Add bpf_burst scheduler & test
-83a18167ba6f560c98d59e9dbbcfd115f6e778a6 DO-NOT-MERGE: git markup: features other trees
-301fffd628bb4db1130fbd8679b82c7f2f654668 DO-NOT-MERGE: mptcp: improve code coverage for CI
-3bff4c7f9ed13140b3d21c40a2b209f017321a48 DO-NOT-MERGE: mptcp: enabled by default
+74c038f11e6b255fc0dea52f0bedb8d13dbcd498 DO-NOT-MERGE: git markup: net
+0498ab42b990489e31445b233eb20f149d69113b timekeeping: Register default clocksource before taking tk_core lock
+794ba05994cf2b7bc4d2d32bdc9c04321fcc109c DO-NOT-MERGE: git markup: fixes other trees
+9ad192be97e2359b113ef75389ad22352e08aaa3 DO-NOT-MERGE: git markup: fixes net
+6b8b386dd8e88c65dbf0209b3344d8d906ba6f3b DO-NOT-MERGE: mptcp: add CI support
+498c64a7b3cb21745e9a4d645fdc9ef5ca1bfe5e DO-NOT-MERGE: git markup: end common net net-next
+0af04bf27f823413f15b2ac8a6ea287d07c5515a DO-NOT-MERGE: git markup: fixes net only
+68d4dacb5c3ef9ccf549d2edd892593a79c88323 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+ef2d32af8a0f0b9cdd6f648b2050d024a6b91bc1 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============4075981887063249122==--
+--===============8676570269213060075==--
