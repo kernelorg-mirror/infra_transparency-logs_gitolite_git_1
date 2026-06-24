@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 24 Jun 2026 21:09:58 -0000
-Message-Id: <178233539866.3899982.7863699362890758022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Wed, 24 Jun 2026 21:13:03 -0000
+Message-Id: <178233558354.3903367.11502360034966582652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-7.3
-    old: eda17a3a70845c78e160e9f9c39e6069ad749cb4
-    new: 8a564dfdfd88f1c5262ad1a4957310fe907650fc
+  - ref: refs/heads/rtc-next
+    old: 851d961ff248218f681c53cf0f7f08cf8201a117
+    new: 15ec2ce19962b61576c8bf25bc129fc61a653c2e
     log: |
-         8a564dfdfd88f1c5262ad1a4957310fe907650fc cgroup: Fix a typo of the function name in comment
-         
-  - ref: refs/heads/for-next
-    old: d0eec5bb0c068eb5a03dd81fd3a839984c6dbd85
-    new: 1d172eb1a5eaf53a214bd88370e8110337a9cafa
-    log: |
-         8a564dfdfd88f1c5262ad1a4957310fe907650fc cgroup: Fix a typo of the function name in comment
-         1d172eb1a5eaf53a214bd88370e8110337a9cafa Merge branch 'for-7.3' into for-next
+         18d39c71e3171eeb7296cb288bbac48a89a7cf4b rtc: ds1307: add support for clock provider in ds1307
+         b70598b3769ea64978e76601d1824a12de556da1 dt-bindings: rtc: Add ST m41t93
+         081e3de28c7663b0bd33e3eb374fb38a139e8064 rtc: m41t93: add device tree support
+         d86e8682593c79d8599537707f49e201456a76de rtc: m41t93: migrate to regmap api for register access
+         5b55ff7cace4c176c7ebdf9512e50ac870f17fac rtc: m41t93: Add alarm support
+         5cb6816cd81b21246f45fe9803efdc21576574e3 rtc: m41t93: Add square wave clock provider support
+         15ec2ce19962b61576c8bf25bc129fc61a653c2e rtc: m41t93: Add watchdog support
          
