@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 24 Jun 2026 21:40:33 -0000
-Message-Id: <178233723338.3925715.14089519047760806582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 24 Jun 2026 21:41:30 -0000
+Message-Id: <178233729005.3926205.16491091453746239971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/rtc-next
-    old: d4992b7050a10079bc760bdc5b8688e05a09dfc2
-    new: 6882aab3c66112b33b251be95c09c8ead3e8d580
+  - ref: refs/heads/for-7.2-fixes
+    old: 4cd5de72b6f8951cef6b45c177a582824bc13d46
+    new: 5771e79e461e72140b752496b69275b9e6bd1a75
     log: |
-         cc387941c0a125fb6730e7270b4bb91edead5407 dt-bindings: rtc: ds1307: Add epson,rx8901
-         6882aab3c66112b33b251be95c09c8ead3e8d580 rtc: ds1307: Fix off-by-one issue with wday for rx8130
+         5771e79e461e72140b752496b69275b9e6bd1a75 sched_ext: Reset dsq_vtime and slice when a task leaves SCX
+         
+  - ref: refs/heads/for-next
+    old: e539b017423d15a876aff0653b8870c1968d96e9
+    new: 0742c8f1e130cef224f09c7b674e3878e9801bc9
+    log: |
+         5771e79e461e72140b752496b69275b9e6bd1a75 sched_ext: Reset dsq_vtime and slice when a task leaves SCX
+         0742c8f1e130cef224f09c7b674e3878e9801bc9 Merge branch 'for-7.2-fixes' into for-next
          
