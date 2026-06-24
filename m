@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Wed, 24 Jun 2026 07:23:09 -0000
-Message-Id: <178228578913.3227172.538872455375218307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
+Date: Wed, 24 Jun 2026 07:40:00 -0000
+Message-Id: <178228680036.3238418.10739126416448080519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
-user: alarsson
+repo: pub/scm/linux/kernel/git/jj/linux-apparmor
+user: jj
 changes:
-  - ref: refs/tags/sparc-for-7.2-tag1
-    old: 0000000000000000000000000000000000000000
-    new: 8ed59c0350f084d52318bd3d5ed2be9d472205e2
+  - ref: refs/tags/apparmor-pr-2026-06-22
+    old: 2f6701a5ce6257ae7a64ddc6d89d0a08d2a034f8
+    new: 6c09bc77f2ff79c9a380675985aa596821213f47
