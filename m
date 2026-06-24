@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 24 Jun 2026 16:54:15 -0000
-Message-Id: <178232005529.3711971.7311560645271117375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 24 Jun 2026 16:59:13 -0000
+Message-Id: <178232035325.3715919.675899232850380111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 914e708e3049c9e0be46533406abd832a46c6e8d
-    new: 245404c26563aafb36aafb01298f148db1851be3
+  - ref: refs/heads/master
+    old: 40a58272a58fdfb00081289ab41fa6d4cebfb935
+    new: eb9b35c8d13dffcaf4f6f4b5bee29a18c860ba04
     log: |
-         245404c26563aafb36aafb01298f148db1851be3 spi: imx: reconfigure for PIO when DMA cannot be started
+         eb9b35c8d13dffcaf4f6f4b5bee29a18c860ba04 unit: test-bap: disable optimization to speed up compilation
          
