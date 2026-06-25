@@ -1,190 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4090184296529271981=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 25 Jun 2026 16:33:09 -0000
-Message-Id: <178240518950.638893.7978276885526388327@gitolite.kernel.org>
-
---===============4090184296529271981==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 25 Jun 2026 16:36:32 -0000
+Message-Id: <178240539247.642388.13753450178932125381@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dev-queue
-    old: f1f76b2b8e79a143a4add733b23971cf1f77cefb
-    new: a5bda12dd2dddbe2acd1cbc71d81475b760186b1
-    log: revlist-f1f76b2b8e79-a5bda12dd2dd.txt
-
---===============4090184296529271981==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1f76b2b8e79-a5bda12dd2dd.txt
-
-355fbcbdc2539cca7890b0d0914d4ce0f985ad74 xfrm: use compat translator only for u64 alignment mismatch
-d129c3177d7b1138fd5066fcc63a698b3ba415b0 net: af_key: initialize alg_key_len for IPComp states
-8045c0df98d4f14c54e5cb875f1c9c0ce89fe4ff xfrm: Fix dev use-after-free in xfrm async resumption
-ddd3d0132920319ac426e12456013eadbae67e15 xfrm: Fix xfrm state cache insertion race
-68de007d5ac9df0e3f4f187a179c5c842bb5a2be xfrm: annotate data-races around xfrm_policy_count[] and xfrm_policy_default[]
-007800408002d871f5699bdb944f985896730b8f espintcp: use sk_msg_free_partial to fix partial send
-40f0b1047918539f0b0f795ac65e35336b4c2c78 xfrm: validate selector family and prefixlen during match
-ebbe8868cf473f698e0fbaf436d2618b2bcda806 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
-2bf7744bc3221a63b95c76c94eab1dad832fa401 ice: fix AQ error code comparison in ice_set_pauseparam()
-eb509638686b0f8a98a0dd9c809f6a8db4d73a45 ice: fix ice_init_link() error return preventing probe
-c0d00c882bc432990d57052a659f9a8bd1f60687 ice: call netif_keep_dst() once when entering switchdev mode
-a903afff66d7379c6ece42bd18b2a17f4c79d1a9 ice: dpll: set pointers to NULL after kfree in ice_dpll_deinit_info
-20da495f2df0fd4adc435d3d621366e8c807539c ice: dpll: fix memory leak in ice_dpll_init_info error paths
-798f94603eb0737033861efd320a9159f382a7c5 i40e: Fix i40e_debug() to use struct i40e_hw argument
-578294b8b60d2c630991f221838f9ec61ae89df0 e1000e: Reconfigure PLL clock gate timeout and re-enable K1 on Meteor Lake
-53442aad1d5790932ed82220bd3c9e1ee9388b83 rocker: Fix memory leak in ofdpa_port_fdb()
-27b9daba50609335db6ca81e4cccf50ded21ec76 net: ethernet: ti: icssg: guard PA stat lookups
-c78a4e41ab5ead6193ad8a2dd92e8906bae659fa hdlc_ppp: sync per-proto timers before freeing hdlc state
-46c3b8191aad3d032776bf3bebf03efdf5f4b905 ipv6: Fix null-ptr-deref in fib6_nh_mtu_change().
-40529e58629baa9ce72143cb46cf1b3d2ca0d465 eth: bnxt: improve the timing of stats
-b72f0db64205d9ce462038ba995d5d31eff32dc1 ipv4: fib: Don't ignore error route in local/main tables.
-a986fde914d88af47eb78fd29c5d1af7952c3500 bnx2x: fix potential memory leak in bnx2x_alloc_mem_bp()
-245043dfc2101e7dc6268bf123b75305a91e4e00 net: airoha: Fix TX scheduler queue mask loop upper bound
-e38fec239d923de5bfb65f7fce15ca52c5a3aa7f selftests: drv-net: so_txtime: relax variance bounds
-069cfe3de2a5e16069485893cd04665ab769c1d8 netfilter: nf_nat: avoid invalid nat_net pointer use on failed nf_nat_init()
-c8b6f36f766991e3ebebec6596daee4b04dcbc49 netfilter: nf_conncount: prevent connlimit drops for early confirmed ct
-84460b644329e25809b4a6d9279d6359d7fd8ebc netfilter: flowtable: Validate iph->ihl in nf_flow_ip4_tunnel_proto()
-22f9dbed18bcc865d750ed109c6ae2dd4cf2af55 netfilter: x_tables.h: fix all kernel-doc warnings
-11d4bc4e26fb66040a5b5d95e9abf37deac2b1fc netfilter: nft_synproxy: stop bypassing the priv->info snapshot
-a49a8e51eebc605d5fd674ba7a451eabf553f5cb selftests: netfilter: conntrack_sctp_collision.sh: Introduce SCTP INIT collision test
-9dbba7e694ec045f21ede2f892fb42b81b4e1692 netfilter: nft_compat: ebtables emulation must reject non-bridge targets
-8a2cfe7951f679350d39239de4c610448731a68e selftests: nft_queue.sh: add a bridge queue test
-aaa0cd698ffa5dffbb0a1e81474a63a9f3ee47b1 netfilter: ctnetlink: do not allow to reset helper on existing conntrack
-57f940017a777aadf38b99db44cf35f727c26f4c netfilter: conntrack: add deprecation warnings for irc and pptp trackers
-979c13114c0bb6ab9135e2c93e00c79c412aef09 netfilter: nf_conntrack_expect: store master_tuple in expectation
-be57dd9c1c1796e368582313af2b3849f78ac224 netfilter: nf_conntrack_expect: run expectation eviction with no helper
-6fb421bd07f156cdf0cdede062d31f1c21def326 netfilter: nft_ct: expectation timeouts are passed in milliseconds
-397c8300972f6e1486fd1afd99a044648a401cd5 netfilter: nf_conntrack_helper: cap maximum number of expectation at helper registration
-b56cded1313718706f27a3b3ea545cff45f8b274 selftests/xsk: make poll timeout mode explicit
-483c1405f8172d926df5fbf0477dbfacef822e64 selftests/xsk: fix timeout thread harness sequencing
-ea4e9c9d8b2bd1f8b8538491443bc47d72f47e5b selftests/xsk: restore shared_umem after POLL_TXQ_FULL
-0ae44b88da3c104284d9ac0a9cb19fdf2f638b31 Merge branch 'selftests-xsk-stabilize-timeout-test-behavior'
-e82d8cc4321c373dc46e741cd2dfdaa7921fddb7 net, bpf: check master for NULL in xdp_master_redirect()
-d09a78a2a469e4fab75108325efb813c49520809 net: do not acquire dev->tx_global_lock in netdev_watchdog_up()
-aee5836273b07b439fb245fb43930664d8b78518 net: dsa: sja1105: round up PTP perout pin duration
-d95ea4bc09e88fe00f8e1c4e27c021313a4139c7 net: ti: icssg: Fix XSK zero copy TX during application wakeup
-6739027cb72da26890edd424c77080d187b2a92e veth: fix NAPI leak in XDP enable error path
-5c12248673c76f10ab900f70724c5da288c7efa5 net: usb: lan78xx: restore VLAN and hash filters after link up
-e9deb406c10f5a73bcfd62f42ca1187b220bc188 Merge tag 'ipsec-2026-06-22' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-c00320b0e355c4bf0ae4743a53b4180fea237546 net: lwtunnel: Drop skb metadata before LWT encapsulation
-33a971d549d82b06c07ce6ed10c33089f80fa944 selftests/bpf: Add LWT encap tests for skb metadata
-96c035083e2b6dc5e535cf9de2f450da7b82e3ee Merge branch 'drop-skb-metadata-before-lwt-encapsulation'
-a8a02897f2b479127db261de05cbf0c28b98d159 net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle
-9f58a0a4d6c2ed5d341bba64f058f15d1b0c36f2 sctp: fix err_chunk memory leaks in INIT handling
-f48763beab4eea41fc480c9702ec6eebe8d75e4f net: au1000: move free_irq out of the close-time spinlocked section
-89adcf17ee7a2b7bee584c9c69382118f23dce72 MAINTAINERS: Orphan SUNPLUS ETHERNET DRIVER
-c779441e5070e2268bdfe77f6e2e0de926c431e3 ipv6: fix error handling in disable_ipv6 sysctl
-cf4f2b14401f29ccac56393ca9e4b42a2505f540 ipv6: fix error handling in ignore_routes_with_linkdown sysctl
-058b9b19f9639fe1e1225a17c540f61b65bee6ad ipv6: fix error handling in forwarding sysctl
-3e0e51c0ee1d08cc9d48dc17f3248d5b31cf8066 ipv6: fix error handling in disable_policy sysctl
-6a1b50e585f033f3e201f42a18b37f070095fb80 ipv6: fix state corruption during proxy_ndp sysctl restart
-17dc3b245de45b1f2012e3a48ec51889f544e67b ipv6: fix missing notification for ignore_routes_with_linkdown
-c79349905706d1a9f5047cda1a155d1870535221 Merge branch 'ipv6-fix-error-handling-in-disable_ipv6-sysctl'
-d87363b0edfc7504ff2b144fe4cdd8154f90f42e eth: fbnic: fix ordering of heartbeat vs ownership
-bfcce49c4aaab9339ef7b9a7fa4d8ac5a19cc820 net: airoha: Fix off-by-one in airoha_tc_remove_htb_queue()
-788663dd28e424639318842ba5ae290672528609 net: airoha: fix netif_set_real_num_tx_queues for sparse QoS channels
-96a1edb1e105d2ef045a5207ff232a090408beee Merge branch 'airoha-fixes-for-sched-htb-offload-support'
-db818b0e8af7bac16860116a19c341a63d6677b4 net: ixp4xx_hss: fix duplicate HDLC netdev allocation
-056a5087d87ead77dedbe9cf5bde53b7cd4b4651 net: dsa: realtek: fix memory leak in rtl8366rb_setup_led()
-6b3f7af57881f6d6250c6dcc4d910fe8e855a607 net: dsa: mxl862xx: avoid unaligned 16-bit access in api_wrap
-bcb3b8314611ed9cb4ff4bff484ef9b154fd1b83 net: dsa: mxl862xx: fix use-after-free of DSA ports in crc_err_work
-6bd81a5b4e0dbec2feb94a456bca9d9f00bc14b3 net: mana: Fall back to standard MTU when PF reports adapter_mtu of 0
-429ef02895db2de55cc2286d27b3d4310c42ada7 octeontx2-af: npc: cn20k: Fix subbank free list indexing for search order
-510a283f4d12367a3f811f382a2c89202954bbd1 net: phy: realtek: Clear MDIO_AN_10GBT_CTRL_ADV10G bit
-6117098309452c641af4458a0f7c02888b026fb6 net: airoha: fix BQL underflow in shared QDMA TX ring
-2bd6f26d4ce1e87de4d736b1e8896daf3acf1c0e net: wwan: t7xx: destroy DMA pool on CLDMA late init failure
-1576d12a39860418d6a68b402fda71a48f04a57c octeontx2-af: Validate NIX maximum LFs correctly
-469f4462ec83119e8bc0e4699ad01d80a9a4c61a octeontx2-af: fix CGX debugfs RVU AF PCI reference leaks
-fd398d6480987e4c84fff0aaab6b9d6642a93343 net: mvneta: re-enable percpu interrupt on resume
-2651c174445884ac9e85622aeade9c1f7b98d8e5 geneve: gate GRO hint in geneve_gro_complete() on gs->gro_hint
-cbb0d30a1ad6fc9439b1dc9b4f5a7a9140d3b11f geneve: validate inner network offset in geneve_gro_complete()
-47b6bcef6e679593d2e86e04ee72c46a4e2f7139 net: usb: kalmia: bound RX frame length in kalmia_rx_fixup()
-87ab8276ed24d688febfef4d0c1794896e778192 eth: mlx5: fix macsec dependency
-8c37e76f960b7a201556e954b987b431820995ee tools: ynl: build archives with $(AR)
-5ba9950bc9078e19b69cca1e56d1553b125c6857 net/tcp-ao: fix use-after-free of key in del_async path
-36dea2f639249460d13f6ca66b2a9064187cd34d net: sungem: fix probe error cleanup
-636838ebb74aa10b2195b60232ba3f49ff04d4f8 tools/ynl: add missing uapi header deps in Makefile.deps
-a9e29dcd8a84081177f693439d663ca9e216c9fa net: ethernet: sunplus: spl2sw: fix phy_node refcount leak in remove
-d1e3a4c3b24d4430d9987a3f349c6c2a959a389a net: stmmac: dwmac-spacemit: Fix wrong phy interface definition
-bf5cd5d4ca423d348e01b3bbcdccd0e02b1b408b net: stmmac: dwmac-spacemit: Fix wrong irq definition
-48f9b5e9e87eba895dc9e5a8f61f2c16c140ab1c Merge branch 'net-stmmac-dwmac-spacemit-fix-wrong-macro-definition'
-620839b699aa7b1aaba925547eec6d2b976aa763 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-02f144fbb4c86c360495d33debe307cb46a57f95 Merge tag 'nf-26-06-23' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-ecf69d4b43370c587e48d4d70289dbdb7e039d4d net: udp_tunnel: prevent double queueing in udp_tunnel_nic_device_sync
-0e901ee5c6f9e1a382099cd7dbee1360c80c441c openvswitch: conntrack: annotate ct limit hlist traversal
-14eb1d2c03b38ce3427f299967f7a4d97ebff4c2 dt-bindings: net: renesas,ether: Drop example "ethernet-phy-ieee802.3-c22" fallback
-5da65537792b68b6052ffcab65e04c27aea6dfe4 net: enetc: fix potential divide-by-zero when num_vsi is zero
-efd7fb21bad80997bba27c04851bcbc2deeeef4d net: ethernet: qualcomm: ppe: Demote from supported and fix maintainer addresses
-36323f54cd323122a1be89ab2c316a6e55a94e30 octeontx2-af: Free BPID bitmap on setup failure
-7116764ca53ff529335d7ab7c364a69f094b23a5 tipc: fix UAF in cleanup_bearer() due to premature dst_cache_destroy()
-c1481c94e74c955e0448ddf46b8615a44d840c1e tipc: avoid busy looping in tipc_exit_net()
-106f6b1dfa1f45f116c5c700342188a3cd4a4b9f Merge branch 'tipc-syzbot-related-fixes'
-483be61b4a9a6df3b7cb277e8f189e082dee4cb8 net: sparx5: unregister blocking notifier on init failure
-3e52f56875c6fafee619b5c2b4ded25f2efbd2ec selftests: tls: size splice_short pipe by page size
-5316394b1752f6cf3f9901e7fefdec1cd1d97fd3 net: mana: Optimize irq affinity for low vcpu configs
-d77e98f8b2b382b06be7f17e482480dd8c4c5046 net: hns3: unify copper port ksettings configuration path
-c01f6e6bdc1ccd21b2d07d23f50b82437b8cbf88 net: hns3: refactor MAC autoneg and speed configuration
-c711f6d1cee955e04d1cd1f76cd8abd024b27a72 net: hns3: fix permanent link down deadlock after reset
-d9d349c4e8a0acd73bac8baa3605443c0df5eb26 net: hns3: differentiate autoneg default values between copper and fiber
-b78f348d4c4d862b1ad232f30c818f3ec8b97efb Merge branch 'net-hns3-fix-configuration-deadlocks-and-refactor-link-setup'
-5dbbc248690968ce8cb36f355cf6024811b182a6 ice: Fix enable_cnt imbalance on resume
-34a78c1b0c63aecbf4d2a40fc211c82146af7c43 ice: Fix enable_cnt imbalance on PCIe error recovery
-d4ccdfd87cf9f9e27bfdbce325eb6a276b28929c i40e: Fix enable_cnt imbalance on PCIe error recovery
-7d7f5772a2fcf1f14c76dcbe252036fb53e0abfe ice: fix FDB deletion
-dc198ddf53f2104dbc04abab70107ad90455f812 ice: init desired_dcbx_cfg in default DCB config
-88363a13e78015491ffa5b3864235f9fcf10db83 ice: prevent integer overflow
-6bfbccca930f4db39f0fbb279185685ab775448e ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-57a6b91f3007ba1d28d9d3bad734a2edf2cd3807 ice: check cross-timestamp timeout bits
-ff5d4a9a1bcf7f80e78c6cc3d7144039230b4865 ice: fix PTP Call Trace during PTP release
-5a42085526ca8044ac766367adada695a4626189 ice: use READ_ONCE() to access cached PHC time
-290d8ce25e24c311a21365a637386601ca5005de i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
-6ffbea6eb858925a7fc9c0d24006551c194d5184 ice: fix null-ptr dereference on false-positive tx timeout
-41e9ad725c2b6781f4ce855b5a1bc76d7b5ec56c iavf: fix null pointer dereference in iavf_detect_recover_hung
-09bd6e6434f837381b0ed57b8820364091220226 iavf: fix error path in iavf_request_misc_irq
-862731dca7be36b23951ce0282ab45c3dbed7049 iavf: prevent VSI corruption when ring params changed during reset
-404f2b6dbc9f1433c81ed3b7577a8757ae705e07 iavf: fix TC boundary check in iavf_handle_tclass
-ad0999813c151c20af80572ef0eead4dabdc14e7 iavf: return 0 when TC flower filter not found after qdisc teardown
-a5f84d0b76e813620cd06a785e1834533cb4011f igbvf: Fix leak in TX DMA error cleanup
-ea4837fd66f28680b46384a5f7653707edde46be ice: fix asymmetric pause negotiation reporting in ethtool
-5a4fdeb4532d545e426f2215aa7f63e1e9297070 ice: fix autoneg disable when link partner doesn't support AN
-c4414d8ab3ba3681666a9106dbbb093464fbe9a4 ice: support RDMA on 4+-port E830 devices
-41169113b2ca6300ed45e8c9b90847c45de26ef6 ice: report EIPE checksum errors to the OS on E830
-15bcd047d7640dd90703e72fc942554594e919aa ixgbe: fix SWFW semaphore timeout for X550 family
-09d4659c36b5fab1782d96e9a1a1007ca7b25364 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
-e702cef04d241c2b33f8244dd1d6d615ca361e99 ixgbe: fix ITR value overflow in adaptive interrupt throttling
-a8b3e20bf30bb678f34829272bd18c1d14ac097d ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
-c6974adc0925947627e6b0321a8720434d506921 ice: only free LL TS IRQ when the handler is present
-d5c12553295dfcca3bb8554756144d07bd92f975 ice: always do GCS if hardware supports it
-23d0bae6a0557156ef08a8fca10284563e96370d ice: use NETIF_F_HW_CSUM instead of IP/IPV6
-bc06641f96b1c39feb3df661d4838a366486fdc1 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
-edbe9bf7dbe211fa20c7024d39aa08627c3db371 ice: wait for reset completion in ice_resume()
-5cc0717ef9a887294612b0f2bc3f09238f9e8213 igb: Return state in pm_runtime_idle instead of power-down
-679a954019f800d5f9ca87379efe88d8a175932c ice: fix VF interrupts cleanup
-6cce9c08c9a4e284342402aefe6cba9b80809a9c ice: add missing xa_destroy for sched_node_ids
-e5ad08a67e4e9a026a7552acc6e0602873895000 idpf: handle NULL adev in idpf_idc_vdev_mtu_event
-8138bbf5ef761dcd2f108c00c040b143936771a3 iavf: validate num_vsis in VIRTCHNL_OP_GET_VF_RESOURCES response
-5cb75df56d56c3b6b87fb12172db76c7c80adaa1 i40e: keep q_vectors array in sync with channel count changes
-aa7ca2f89ba3908cbae13d3d251e384d5273d9e1 ice: fix LAG recipe to profile association
-c5b2718fdaf91ccec03591e1a9ba6d3e049866ee ice: support SBQ posted writes with non-posted support for CGU
-43452159e05370dcc238f700e60c28a826a8b6bc ice: suppress DPLL errors during reset recovery
-e8db1c32f8f8e9d63760d4f6128db4f07c3a3aa5 ice: prevent tstamp ring allocation for non-PF VSI types
-cc0367bb4f0928fd6c0fc8998893a80d60534e39 ice: reject out-of-range ptype in ice_parser_profile_init
-0a9fad9f7e3c559ae0fe5213b407d339481cd6f0 ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
-9346bb831cdec54596da078cd7f75eb1298d957a ice: Zero out the PTP control PF pointer at ice_adapter cleanup
-7a7f9d03bb08027d4d399ba2615588a381948300 ice: Cache struct ice_hw pointer for split register reads
-be17604fbc4c92464ec6f71d94e24f3ffe8ae312 ice: fall back to SBQ when LL PHY timer interface times out
-5c2dc5500eba06091dd36bb503731da974119e20 i40e: fix netdev leak in i40e_vsi_setup() error paths
-91ca7b4807c3a8d08a578d1e4c2e5383b7e0fa25 e1000: fix memory leak in e1000_probe()
-ccce9448b179e9017903840bb1f4a295a884c552 ice: fix memory leak in ice_lbtest_prepare_rings()
-a5bda12dd2dddbe2acd1cbc71d81475b760186b1 iavf: cap advertised max_pkt_size at the single-buffer HW limit
-
---===============4090184296529271981==--
+  - ref: refs/heads/aspm
+    old: c855c9921da72e535c24737c748f603a52d03f7e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dt-binding
+    old: ad4c2a8fd8fda50bc97ca40ad679d5c92311ae15
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/endpoint
+    old: 1fda82e37e00eb679d762756867b2e7508dd73f9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/enumeration
+    old: 64d63fd28177abd1bbc3133610771aa15c22c223
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/misc
+    old: 42ec65b46a4fc7565d48daa42bf025fdc67800eb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/p2pdma
+    old: 0ba76b19fd4c7256787eab0283c759b18eb76876
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pm
+    old: 748a927e081bffc9a9be17b4d96088515e1c5f01
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/procfs
+    old: 8857f6578b001bcf5f53c8c6a3936647f05291a8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pwrctrl
+    old: 548f3d287d92bcbc908b02db57fb889f8a8276a0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/reset
+    old: 10baa9b4df4005ca53c59c30c2d4b774469e10b6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/resource
+    old: e9310aa3d2a1fa155565e253841fff841e31db64
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rom
+    old: 538796b807fcfb81b2ce40cc97a614fd8588feb5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/switchtec
+    old: 5e6c21c56998e1e58d2f314e70779989ea0fee5d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sysfs
+    old: 92742802ecbf215a2b60dcfd326d2213595010f1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/virtualization
+    old: 6a4f64c3a3ada43e71ef1e06da89beb36bdaeefa
+    new: 0000000000000000000000000000000000000000
