@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5591761579387032919=="
+Content-Type: multipart/mixed; boundary="===============8053905188115161098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 25 Jun 2026 12:57:58 -0000
-Message-Id: <178239227839.418834.269139460185650943@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 12:58:08 -0000
+Message-Id: <178239228855.419120.11814815253026442750@gitolite.kernel.org>
 
---===============5591761579387032919==
+--===============8053905188115161098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,107 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-7.0.y
-    old: 9ab336db39b4e59dba932c6d9a0daf717653e218
-    new: b1302a8a9f8c29c0241bcf6a404075a4151ceb22
-    log: revlist-9ab336db39b4-b1302a8a9f8c.txt
+  - ref: refs/heads/linux-6.18.y
+    old: 275d294b2b24abcd65452198551cd8a5b8d4f775
+    new: 66e1cbcc83d078c1e7dd13e065b787ee4f4d118d
+    log: revlist-275d294b2b24-66e1cbcc83d0.txt
 
---===============5591761579387032919==
+--===============8053905188115161098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782392207 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782392217 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1782392275-4bf01cc5176fe32618997e4393ba596089b8ec98
+nonce 1782392285-bb1fa18b0143ce6fc3adb3e10c3559648210c105
 
-9ab336db39b4e59dba932c6d9a0daf717653e218 b1302a8a9f8c29c0241bcf6a404075a4151ceb22 refs/heads/linux-7.0.y
+275d294b2b24abcd65452198551cd8a5b8d4f775 66e1cbcc83d078c1e7dd13e065b787ee4f4d118d refs/heads/linux-6.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9JY8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DREQAKVI8/RXBwg/xjQcncpM
-3VM7W0zwp0WXAmRV7t7R40x378HeIsHTooAdmzwigv/SrZgOMb1/YnpmEmWFxRjX
-xDBLiwi9B6/TampgWlKtzH3CZP500M6w3hn81XlEyImyT2rRl1oLD9me7bitPgK7
-BqNk2nheuPbVpui7xACNp0B11oz1sR6EMhWMj7RNsEonlZeUPbhryabmZ1MwQTLU
-U/2KzkBpCaqsJjyyKWZVnV20sGDkHWSYJha7B1NXx78TNz7JtDc9fZrHeHki80iV
-zeh63E63UbszFCUHvrY/ApyjGfWrMyJWs5FE57+vVFeZckuS8sn3zzgA/N+YuQKA
-sWf47eOLl5vAJQxrqmDOeWPE5ITwk+z4u9io1l8JJy1U212R9YEKgPFihEATxThe
-1szz2F/K4s5aS8NUkQxslG1gonccsLD8Ky8KJCv4p2wXviqb30ZdBZC1tOjTh1X1
-giJi1snfEwU4IoY5+yBjrAVidx79qsZyfw8Oj98k8SkDjmrp7JzXuK4NfDx2ZXMg
-mPOgHQnYYK3BgHIn9Ncqqhhc3TMrP4T6/7+w+VtKvmzT6Gfrv0IjeBSdLe/qcM/+
-1eoeZvlCRg+1UxehN2JUMgFoZxNUeKyOFjI+BoB0WHvHMyoE4MKy3ntPqFJOXpVB
-Sug+Hp0VKu4aN/v0U9rgoicZ
-=wAfy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9JZkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hHUQAMuYpG6FRS3/u1uAp9IC
+mJjY5Y8qlJbWKBNf7K8lT3Y/GJMnBkc0YZ3Hfg7oA8VgFOVF8niPuYTfnGKWsX6H
+lmGHGZH7pEn8Nj8s6A2H5Q4xrFNfzu1b4l0Z21uktYrN+B0IWv3BbvkCa+g29zvq
+qD5M/E5gcMDM3Ik43Kevt8MDL/97M1cQk5afFfz5bNqtvxeMgLSkRcJYZ/fwnOOb
+KycC428gx4tExijOt3uUUbnfMHvhDr2ixvh7DQ9XNfkcfttMTz0LyAJsds7KVpKO
+jFh5ZnEE4i4MPfUDuqc4TGSplyKLzlYWZWYCoeeTnye51QblUv3pnzDEpA79CJ1C
+MN1/J8jAgi60XVycmBxwNOL/9nvjuKjocsJYqAx5Ju4T1YkzzDAvxcMbkgLHjE9M
+PfEbN5EiZl2yqM/bFj1PrbxImQfrTO2qZRTyswHkoxhua7MYwB3Oh6drhdZZIwdD
+NcOXqOGvSyDVwi2ayUQbqJtsSalfnHMxnK2ZMBA8xe7xMmRbEXJsZ6SuASla9TWp
+FAy8WMjVP2ix82TjUbA6+5iBCH1o+nSnnFPE3egYXI/c8Zuf5S/HGJ6Dj9313JD9
+idjWcDlNHzZ3gMDmgjsPRCAQdmucLex28xLDl14Vz2TVIbPlQBUc3HCufJvsytQH
+ZjBi9Yt6/xpma3bc94rvC1Gg
+=9Nhg
 -----END PGP SIGNATURE-----
 
---===============5591761579387032919==
+--===============8053905188115161098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ab336db39b4-b1302a8a9f8c.txt
+Content-Disposition: attachment; filename=revlist-275d294b2b24-66e1cbcc83d0.txt
 
-72774bbec6bb4dbcb01daa806177e98e28666fdb io_uring/net: Avoid msghdr on op_connect/op_bind async data
-1a1473ac587bf1ec5ab214d7833cbbe090979634 arm64/entry: Fix arm64-specific rseq brokenness
-fdffd0676b26cfedffd9235978067e476a1228d7 lockd: fix TEST handling when not all permissions are available.
-41a71645d3928743ed9d3cf3aae65821032e56aa firmware: exynos-acpm: Count number of commands in acpm_xfer
-1ac605ae5a747362e49a3a113a6d1c853f3d450d firmware: exynos-acpm: Count acpm_xfer buffers with __counted_by_ptr
-2b21ecdcc151933921f024c1e0ff9f4e675a20e1 firmware: samsung: acpm: Fix cross-thread RX length corruption
-7bae3ac232702dfdb626e6909c82ae53dfab656f firmware: samsung: acpm: Fix false timeouts and Use-After-Free in polling
-4ca1a9aa5344668de10a0feef8eeaa937007123f firmware: samsung: acpm: Fix missing LKMM barriers in sequence allocator
-675c004d4a41be39e04663df02669c0923733234 fuse: re-lock request before replacing page cache folio
-2f82de987b6a512fca816dd9482b16f0278f6a5a Revert "NFSD: Defer sub-object cleanup in export put callbacks"
-8c2f0c99d3397e3cf54f324ea61d08bec83c64c2 RDMA/bnxt_re: zero shared page before exposing to userspace
-0f663b566aeb577377a57ffa32c3bf6140364c4c bpf: Fix NULL pointer dereference in bpf_sk_storage_clone and diag paths
-1dc2868e085a1775ad6a5a2dd5b926523ad89e73 i2c: stub: Reject I2C block transfers with invalid length
-7e894b331c429c352b37b4c25aa33c022cebaf07 net: qualcomm: rmnet: fix endpoint use-after-free in rmnet_dellink()
-07479abf97edebe7c943216be0e75db454b4b03a agp/amd64: Fix broken error propagation in agp_amd64_probe()
-9728c558ac51d2ad346ec08de9d8479c822f52ec rose: fix dev_put() leak in rose_loopback_timer()
-326a5e5f59340a679b68082588fd36543150e531 rose: hold loopback neighbour reference across timer callback
-9ffde2a590e79b3b5fa104ea3fb6515d85a17926 rose: fix race between loopback timer and module removal
-c70b0d34556322eaa25fe9811c5f5dedb05c2563 rose: clear neighbour pointer after rose_neigh_put() in state machines
-fdca71524d967f0f9e687aa3819d8e9580c3733d rose: guard rose_neigh_put() against NULL in timer expiry
-9da0655825ef6f9a977144df410a63eb58e3cf45 rose: fix netdev double-hold in rose_rx_call_request()
-67dab16e79081f5dc4125d819f1a041799f9aabf rose: fix notifier unregistered too early in rose_exit()
-921222b39fad3b7af9e316369565f2f6e18cbfe7 rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
-e0d060d226579ab94db1e0c5a18174112cea5124 rose: disconnect orphaned STATE_2 sockets when device is gone
-4a15d4107ffeeae19bf762b5cf5eb0466e7b6308 rose: fix netdev double-hold in rose_make_new()
-517673c635bfcb0b979bcb0a2838285d4cb539e1 rose: release netdev ref and destroy orphaned incoming sockets
-b95c0c1dbbe2468528d3a3b84897f965ca2c4666 rose: drop CALL_REQUEST in loopback timer when device is not running
-35b2e32dcc77c54692a8b2aa6f2cb66c58c173a4 rose: cancel neighbour timers in rose_neigh_put() before freeing
-2fce4f571179957f1f29c8712b84b17b5c37a7b2 rose: clear neighbour pointer in rose_kill_by_device()
-3b757f626e66b79630196239347900c2d4fd672b rose: don't free fd-owned sockets when reaping in the heartbeat
-56ec671be73b8a3af52e0551f903d4a7a8b90d15 net: export netif_open for self_test usage
-ee198c1d11148e60c34221381e5b8be6d7eea5e1 net: net_failover: Fix the deadlock in slave register
-ede808de1341352db0c626c18e2bad234adbb84e iio: light: veml6075: add bounds check to veml6075_it_ms index
-9c444c2791e39264d2a2500056b6947a69d7bb58 iio: adc: ti-ads1298: add bounds check to pga_settings index
-924dd07d218a9a96cf9714efc8d5b577d67965c8 Input: rmi4 - fix register descriptor address calculation
-713b02312fced8085ace3b586a4c2a50d2ef0766 Input: rmi4 - refactor register descriptor parsing
-2bed686a048917ea54e6995f3e0ca7b9bf0bc002 Input: rmi4 - fix type overflow in register counts
-1ee8b9e1779a25b730516b7e10d22714bf3a65ea Input: rmi4 - fix num_subpackets overflow in register descriptor
-6d1380ac6a77ab78a3209cea9b9a5ce3d8660d27 Input: rmi4 - fix memory leak in rmi_set_attn_data()
-93a138f39ad9a41a64923ed68cd9310b894c8881 Input: rmi4 - iterative IRQ handler
-50f8a29273282fa80ab143ad03b01ca940b90196 Input: rmi4 - fix bit count in bitmap_copy()
-7e503f852bf2888f7776067e69269e6e52c3e2fd crypto: qat - remove unused character device and IOCTLs
-7787e39a8fa6464bfcd8129cd941058aba3cc99b vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write
-47f44f638eae63e8bb86194d52b3ef65512d36f0 serial: qcom_geni: Fix RX DMA stall when SE_DMA_RX_LEN_IN is zero
-3c770822984be07a675ca90dca15e8a3de0e4074 serial: 8250_dw: unregister 8250 port if clk_notifier_register() fails
-aeeae6338b410ad1df97d86e85896485fb727501 drivers/base/memory: set mem->altmap after successful device registration
-0629fa784e55ba41878d3a2393ee25570577b57d ksmbd: reject non-VALID session in compound request branch
-9dbd9e25809c7edc6332b874a48009505bf6e691 media: vidtv: fix NULL pointer dereference in vidtv_mux_push_si
-3fb5acefbc963081c2773b7adaf1f2ed05fa47e9 virtiofs: fix UAF on submount umount
-b1302a8a9f8c29c0241bcf6a404075a4151ceb22 Linux 7.0.14-rc1
+f0999b5e2169c49f3b405a5dc30fa6061465f512 io_uring/net: Avoid msghdr on op_connect/op_bind async data
+9ea8463a54a9e1214d4e83e7aca029ef6c136483 net: stmmac: fix stm32 (and potentially others) resume regression
+1f3714257e189c728bb19a4c47cc62b1e2f643c1 fuse: re-lock request before replacing page cache folio
+aed0d8e4e5afa3f0ac35e022a53294e87decc385 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+d2a0688835fe6b7f9d1ee498eda8ac354e01c721 debugobjects: Allow to refill the pool before SYSTEM_SCHEDULING
+11497da9afeaf9919d0400d8e535e2c5a5051b58 debugobjects: Use LD_WAIT_CONFIG instead of LD_WAIT_SLEEP
+697cc048f26122a3499662a48bed55fef54529f2 debugobjects: Do not fill_pool() if pi_blocked_on
+6117553d34dd6aec0b52396a761936a02df57b22 debugobjects: Dont call fill_pool() in early boot hardirq context
+4d1e6a8ca6e521ad604b80087c2d6840201bc0d7 RDMA/bnxt_re: zero shared page before exposing to userspace
+0123a08ab99fd35fdf10a21259f8dafa3f1f2c3e i2c: stub: Reject I2C block transfers with invalid length
+7b0225be19ae8f534517369f11ba0a334e5e1320 net: qualcomm: rmnet: fix endpoint use-after-free in rmnet_dellink()
+67343f487d87bf10e10cc50e930296891a3d9603 agp/amd64: Fix broken error propagation in agp_amd64_probe()
+88f8cce8e4543167120f5124397128c064fd14c1 ACPI: scan: Use async schedule function in acpi_scan_clear_dep_fn()
+8a8b5a425997794da92e7f5ed2805c576bb4f609 rose: fix dev_put() leak in rose_loopback_timer()
+c9ba834391a1898aef815a4baed32dee887f85f6 rose: hold loopback neighbour reference across timer callback
+7772f07a926e37c331c7aa302cf7b7c3573f0af2 rose: fix race between loopback timer and module removal
+e705cac37e6d421d2b075f4a0cf037a96275e7ed rose: clear neighbour pointer after rose_neigh_put() in state machines
+3305251b240a490c2d12e3f5a6a7afacd0c2ebae rose: guard rose_neigh_put() against NULL in timer expiry
+1561def1cea43d4ce956f072e35927315456db3c rose: fix netdev double-hold in rose_rx_call_request()
+a2f868b6bcb1358b9775504e4d85c5c1324114fb rose: fix notifier unregistered too early in rose_exit()
+1cbd0179ff6ac8753ca4eb0ad78aac0262ed24de rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
+f7b95e89728852fb4d54b805d6a72e2568172145 rose: disconnect orphaned STATE_2 sockets when device is gone
+ea264febb6f7184ba7ac04c0e370c2cf87aae369 rose: fix netdev double-hold in rose_make_new()
+102284fbed5fd939f6a934e88e4371c13aff5832 rose: release netdev ref and destroy orphaned incoming sockets
+cc3034e7d6b1b1a76c905842b1712e5439ff2ef1 rose: drop CALL_REQUEST in loopback timer when device is not running
+66a9aba65df6479d58839ac2f166a1ebb1a34323 rose: cancel neighbour timers in rose_neigh_put() before freeing
+15510bbe70061be30f64407f4a1efb858b3cce2d rose: clear neighbour pointer in rose_kill_by_device()
+502f0a3bd9b2f221c17d13ea348a04ecbf383739 rose: don't free fd-owned sockets when reaping in the heartbeat
+225ed1836c4ee65a7cb377ee5a40970c5f1fb70c regulator: core: fix locking in regulator_resolve_supply() error path
+c46a547e4fdcb1ee0e500322999a5a890d16c34c hv: utils: handle and propagate errors in kvp_register
+147ab1a4317284db74d3dcc682284c3f115bad8b Drivers: hv: vmbus: Improve the logic of reserving fb_mmio on Gen2 VMs
+30274585c0023d696851949f13ce523fa634b2de firmware: samsung: acpm: Fix cross-thread RX length corruption
+8bee75b62660a828b3d63600efab862fb5390796 sctp: disable BH before calling udp_tunnel_xmit_skb()
+d8fc75a00e743d7a98565d1b00c06246c3012a77 mm: introduce VM_MAYBE_GUARD and make visible in /proc/$pid/smaps
+0eafe32cb0c89ad6a52297ba958305df41da2042 mm: add atomic VMA flags and set VM_MAYBE_GUARD as such
+50939d2f55196faac7d4bfb8786d60838c5bb0f6 mm: update vma_modify_flags() to handle residual flags, document
+3d2c06b2e1115ed6b933844151a912becb6f18b1 mm: implement sticky VMA flags
+82a0f51c156738209ffb59b228ff81483c206aa1 mm: introduce copy-on-fork VMAs and make VM_MAYBE_GUARD one
+094ccaa11e0dae565b53d29292a5e41c39167f74 mm: set the VM_MAYBE_GUARD flag on guard region install
+4f885a8d9daa20eb551036e7d93bc4d15945f4be mm: propagate VM_SOFTDIRTY on merge
+c9f968b6f1ed4b3ab084ad8097b8755d2cffa7cb testing/selftests/mm: add soft-dirty merge self-test
+915f027df9e5e82c3cc51ed2d5db34c6b6d86e63 net: export netif_open for self_test usage
+9ee2c6eb1146cfdc5986662b5bdd42e8c85fd9bc net: net_failover: Fix the deadlock in slave register
+b58540fe8f6ff62db34d531d66a86a7b357186f0 iio: light: veml6075: add bounds check to veml6075_it_ms index
+f61f65c05e6d3467ccbf65fa9a3d89ecd18f9d48 iio: adc: ti-ads1298: add bounds check to pga_settings index
+847dab8458d1ea8ff154c7383b9aefce273d18f6 Input: rmi4 - fix register descriptor address calculation
+03395b3941a4e8e1bc614db5bd438999932cd908 Input: rmi4 - refactor register descriptor parsing
+9db4cfa5a351375c7a6466acb4b59fbc8074bbed Input: rmi4 - fix type overflow in register counts
+221b7c8ba1e22512fc61d7212609bdb94b06504b Input: rmi4 - fix num_subpackets overflow in register descriptor
+3e31f62331b618f3240e1d3d855e8d69ebe8d270 Input: rmi4 - fix memory leak in rmi_set_attn_data()
+b502652db746987624f9c0b480c99fa05c93af8c Input: rmi4 - iterative IRQ handler
+a707aff756e85b307944077c5d3e7e89e59039f9 Input: rmi4 - fix bit count in bitmap_copy()
+369237cd069ffb6c555599287dba67f1c76b20bf crypto: qat - remove unused character device and IOCTLs
+d95faf63fa450915369ec0587f7c29cd4db40743 vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write
+aae6d9457ab47f5462fdb7eb2cfe55942d4874e3 serial: qcom_geni: Fix RX DMA stall when SE_DMA_RX_LEN_IN is zero
+c540ffee1cd5d6df7cbc88a4977b7ab95d6da3e3 drivers/base/memory: set mem->altmap after successful device registration
+64dd7c39eef03d609ec056d1208729b1a4a0ef1f ksmbd: reject non-VALID session in compound request branch
+afb58eb3586a99039572903086cba5852f0cb48f media: vidtv: fix NULL pointer dereference in vidtv_mux_push_si
+ec82ebeedd7f740a331c928b51c638b174bbb9d5 virtiofs: fix UAF on submount umount
+80409332c0562b88b54106132e9f9ba3c4ab043a mm: do not copy page tables unnecessarily for VM_UFFD_WP
+66e1cbcc83d078c1e7dd13e065b787ee4f4d118d Linux 6.18.37-rc1
 
---===============5591761579387032919==--
+--===============8053905188115161098==--
