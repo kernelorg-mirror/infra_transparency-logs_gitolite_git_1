@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1176347480885727673=="
+Content-Type: multipart/mixed; boundary="===============8273691393228182214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Jun 2026 09:25:25 -0000
-Message-Id: <178237952517.251775.5614026042766615144@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 09:25:39 -0000
+Message-Id: <178237953959.252361.3515826573606729662@gitolite.kernel.org>
 
---===============1176347480885727673==
+--===============8273691393228182214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,18 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2c6281afd33e8082e44ea3fc7afc796f70afea8c
-    new: d5c282df8c86027cc7fe50ac1dedc174543ca452
-    log: revlist-2c6281afd33e-d5c282df8c86.txt
+    old: d5c282df8c86027cc7fe50ac1dedc174543ca452
+    new: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
+  - ref: refs/heads/tip/urgent
+    old: f0e6f20cb52b14c2c441f04e21cef0c95d498cac
+    new: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
+    log: revlist-f0e6f20cb52b-ab9de95c9cf9.txt
 
---===============1176347480885727673==
+--===============8273691393228182214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c6281afd33e-d5c282df8c86.txt
+Content-Disposition: attachment; filename=revlist-f0e6f20cb52b-ab9de95c9cf9.txt
 
 fc59cad7e896fdb7a07bd91f7c0952e2a0e12b36 Input: lm8323 - remove space before newline
 4e2e14c2b19095f7e82a98e202eb5b07a8c9f83c Input: stmfts - fix the MODULE_LICENSE() string
@@ -203,6 +206,7 @@ a7532c505f7f77e14bcc530cb452c73ff1d0272b sparc: vio: use sysfs_emit in sysfs sho
 1919c0e50000e9afb76dbbf4a1261ec3238e3ae4 sparc: add _mcount() prototype
 9bc0bd9617964804dc02e6ee2413af42c4a50d6b sparc: Avoid -Wunused-but-set-parameter in clear_user_page()
 c3382d1e69136ce0aa755fbe09512e03cdd95944 apparmor: add Georgia Garcia as co-maintainer of apparmor
+f64e03da0d83cb173743888bff4a7e61476a8fc2 Revert "PCI/MSI: Unmap MSI-X region on error"
 4483efe4f21510b30c24bc97d9fd0e8feab94125 apparmor: fix shadowing of plabel that prevents cache from being updated
 b1aea2c1960771a276d7e68c7424168eccd0c3da apparmor: fix race in unix socket mediation when peer_path is used
 6d25e7b47616cb2db43351210929c8f19dc305a3 apparmor: fix refcount leak when updating the sk_ctx
@@ -360,6 +364,5 @@ d0bcd488c33d6673fe83b9533d6366ad84d2ec0d Merge tag 'irq-msi-2026-06-24' of git:/
 26ae421f7f49f8a6a32d15b1d21a782b46a1bad5 Merge tag 'pci-v7.2-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 dcebfd2c1404d1c931e86ec5168cdc006d503909 Merge tag 'rust-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 ab9de95c9cf952332ab79453b4b5d1bfca8e514f Merge tag 'rust-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-d5c282df8c86027cc7fe50ac1dedc174543ca452 Merge branch 'linus'
 
---===============1176347480885727673==--
+--===============8273691393228182214==--
