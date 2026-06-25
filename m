@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893531754332240715=="
+Content-Type: multipart/mixed; boundary="===============8605378790946635571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 25 Jun 2026 16:38:52 -0000
-Message-Id: <178240553221.644174.8244122261443770506@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 16:38:54 -0000
+Message-Id: <178240553482.644390.5863101155453230298@gitolite.kernel.org>
 
---===============2893531754332240715==
+--===============8605378790946635571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0
     new: b78f348d4c4d862b1ad232f30c818f3ec8b97efb
     log: revlist-56abdaebbf0d-b78f348d4c4d.txt
 
---===============2893531754332240715==
+--===============8605378790946635571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -137,4 +137,4 @@ c711f6d1cee955e04d1cd1f76cd8abd024b27a72 net: hns3: fix permanent link down dead
 d9d349c4e8a0acd73bac8baa3605443c0df5eb26 net: hns3: differentiate autoneg default values between copper and fiber
 b78f348d4c4d862b1ad232f30c818f3ec8b97efb Merge branch 'net-hns3-fix-configuration-deadlocks-and-refactor-link-setup'
 
---===============2893531754332240715==--
+--===============8605378790946635571==--
