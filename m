@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5022142718086426236=="
+Content-Type: multipart/mixed; boundary="===============1637726153717084552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 25 Jun 2026 14:22:20 -0000
-Message-Id: <178239734067.540852.1829119009102825354@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 14:25:31 -0000
+Message-Id: <178239753152.543792.18287249688122079524@gitolite.kernel.org>
 
---===============5022142718086426236==
+--===============1637726153717084552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 59888fee94e031cfcb8224cdf114d4881bb33fb5
-    new: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
+  - ref: refs/heads/usb-linus
+    old: 7b681dd5fbf60b24a13c14661e5b7735759fb491
+    new: 8bdcf96eb135aebacac319667f87db034fb38406
+    log: |
+         1f0bdc2884b67de337215079bba166df0cdf4ac5 usb: typec: ucsi: ccg: Fix use-after-free of ucsi on remove
+         82cfd4739011bdc7e87b5d585703427e89ddfaa5 usb: gadget: f_fs: Initialize epfile->in early to fix endpoint direction checks
+         8bdcf96eb135aebacac319667f87db034fb38406 usb: gadget: f_fs: Tie read_buffer lifetime to ffs_epfile
+         
 
---===============5022142718086426236==
+--===============1637726153717084552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782397271 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782397458 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1782397339-dbc90042f74edcf715d52ee3d195caf806272893
+nonce 1782397526-a45fe075ecdfe93832118d18f8a99c3b87b234a5
 
-59888fee94e031cfcb8224cdf114d4881bb33fb5 ab9de95c9cf952332ab79453b4b5d1bfca8e514f refs/heads/usb-testing
+7b681dd5fbf60b24a13c14661e5b7735759fb491 8bdcf96eb135aebacac319667f87db034fb38406 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9OVcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ar4P/3PSwpTO7LOzy41QUq1c
-qBarJlb6EphkMzRJNev9GMDopNVZKhASVZ0gfQl0OyUuBxUAtkMGc9rP1aMCDjdK
-2gtv+km27ZjAcXtNf7oMVyhSxzZvlxdba4MRSixDfA5utB/qi4E9s5LoLePmHfRU
-NCmFpMjxRbGYKUBRftdblHpcT8eag+vVpFxyGcvh7EYpJLAtsR2RpeSEiLjZpfLQ
-r2x2nj5vgQpvIYDx7jqi0hyYKM+IPjTymZxsxM4Z6vOrSwzfVfZ3N4hwKKn2CUpa
-V5uhSyMQgCGQJlRpX8P0+zJhAyAr48aAED7KexJLKEfI1E+LMWdvljpAs4hjSWBH
-/Y6h3bufDQjhTphaTpCn6o1W8lCxSBM5OX0GgUdvVXzPjOKetTR8OLwhJn/SfqP9
-1OaaVE3vVLVRgD8mYWmZDja1RUyGkmCcqc97PmOdOlXhuu60a80GU9pbzeqKy3EM
-ZJIzrFII/2ptBoQv79Gj965ON9H0bWagknaXZ1ZyXLg8zd2FCueeYmO6tjPX5qvc
-V1Xd+Xij2xUFvIwDfBC/RnuZu1NPmSKDgzXrajfNHNLQwt6nfucwCDSeAJakaDjC
-MCa6zdRTo1C8W7mVWqBF+DzvRmOxutHBp6il0u1wcCXZI5vPVyi0UALJxd2ridu9
-Eor/1xi56D2lgVKLSJ6rdsMJ
-=FMHj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9OhIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XIcP/1kMhygYyZ+6bOEu3bym
+5loVbcfTfqdVztssGKiciriIpTCzRfmiIjmbrsjgIaJt6CUuQ8TPYBVsa8qnRRgD
+TCvlCUm2nR56zv66VithTWufqLEpzfdQujtYhYeKdDSvczdT9cAS1qTWn8tAukWC
+PUHl1RWX07CpWsOXZhTktXUaEJ+fbIJED2VI1T503j0pvLHmgiEIAvYfud72459p
+OOIh2Q2T4KZKOOX2/GwTkK7lPQGfIiS1HHdZjjDdOojaNLWxR+KYVRuDNzHcDLaz
+fvK43F6YWXV5B86be/LBXp7ka9bOBNAsH7abzRHVtfCnhSJ72gMasCPdoC99aUbT
+AoDWM9kWWXFM1yJ2JjS+FnMJZHgBrd31sFSyd+Qb3B2PPuob2J9OBvwDtSHP+JDZ
+rqHwfXQ+bfQqDtGQCzrpuhdzAwG01BZ85bUQRgNoRkPhPLVXYslFs0Tdp/dVetjP
+ksVwIgB/jxX8o9ceWDkhTQPVVlWQJL+93xbSBtCZC4NIwFc1v9AUnmzMB/GHzCDf
+UX+as0HaxUfn/rIAtfU0Ggd23Gn91eI+c/cCaKLFOtVNZjyUSgXfVC5HrWR+pMmW
+AHgFy8hYKcWD6cfELQuHgpHWbwgIp2311DIjb3p0dCHUuc7ivnmI2mwtMjS004/f
+tThrNrXduYlEQyXEHtGbf15d
+=p+DS
 -----END PGP SIGNATURE-----
 
---===============5022142718086426236==--
+--===============1637726153717084552==--
