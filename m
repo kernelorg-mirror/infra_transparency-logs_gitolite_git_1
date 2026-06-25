@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5437647019165273539=="
+Content-Type: multipart/mixed; boundary="===============4046132135539168798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Jun 2026 19:37:44 -0000
-Message-Id: <178241626452.784079.14449760396695948200@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 19:38:00 -0000
+Message-Id: <178241628003.784343.8071111632971591277@gitolite.kernel.org>
 
---===============5437647019165273539==
+--===============4046132135539168798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,18 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: 046403d541bc7a7c5b754701f4d63754677c154f
+    new: c75597caada080effbfbc0a7fb10dc2a3bb543ad
+  - ref: refs/heads/tip/urgent
     old: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
-    new: 046403d541bc7a7c5b754701f4d63754677c154f
-    log: revlist-ab9de95c9cf9-046403d541bc.txt
+    new: c75597caada080effbfbc0a7fb10dc2a3bb543ad
+    log: revlist-ab9de95c9cf9-c75597caada0.txt
 
---===============5437647019165273539==
+--===============4046132135539168798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab9de95c9cf9-046403d541bc.txt
+Content-Disposition: attachment; filename=revlist-ab9de95c9cf9-c75597caada0.txt
 
 3bb62e3f99a557d257e5f5a803200051b7de3afa gpiolib: acpi: Only trigger ActiveBoth interrupts on boot
 d08048d4e03b68aeadce6100ba32a525b6e5ab3d ipmi:kcs: Reduce the number of retries
@@ -149,6 +152,5 @@ ec85be724c5c0c2cc392f5681b45da0403ea60ec Merge tag 'pwrseq-fixes-for-v7.2-rc1' o
 c58ddac1aa507b71cb5a95a95c641bdd73a3f075 Merge tag 'io_uring-7.2-20260625' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 a142da0b2d32b68a6d1b183343bbe43de8c222f9 Merge tag 'block-7.2-20260625' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 c75597caada080effbfbc0a7fb10dc2a3bb543ad Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-046403d541bc7a7c5b754701f4d63754677c154f Merge branch 'linus'
 
---===============5437647019165273539==--
+--===============4046132135539168798==--
