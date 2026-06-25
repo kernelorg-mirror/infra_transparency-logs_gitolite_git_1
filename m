@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5445516826421035565=="
+Content-Type: multipart/mixed; boundary="===============1712093120811090032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 25 Jun 2026 12:57:24 -0000
-Message-Id: <178239224411.417876.1997067505717024354@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 12:57:29 -0000
+Message-Id: <178239224973.418124.8397494189750971580@gitolite.kernel.org>
 
---===============5445516826421035565==
+--===============1712093120811090032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,68 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: eceeec79dbc646d6dace49ed1ba2f656683d5537
-    new: bf3dfb70ec08375b6563531092d837325248c58b
-    log: revlist-eceeec79dbc6-bf3dfb70ec08.txt
+  - ref: refs/heads/linux-7.1.y
+    old: c9acdc466e9aa96352f658b9276aa8a45b8e817d
+    new: ecd7772bf73899d9b6c14b7efe6d713949f18e74
+    log: revlist-c9acdc466e9a-ecd7772bf738.txt
 
---===============5445516826421035565==
+--===============1712093120811090032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782392173 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782392178 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1782392240-bb0dd7de42895ae28a51202d57ed5cbc296f99e0
+nonce 1782392246-d6cb8731be5b09bd165349bb6ef0ccf69cf03e13
 
-eceeec79dbc646d6dace49ed1ba2f656683d5537 bf3dfb70ec08375b6563531092d837325248c58b refs/heads/linux-5.15.y
+c9acdc466e9aa96352f658b9276aa8a45b8e817d ecd7772bf73899d9b6c14b7efe6d713949f18e74 refs/heads/linux-7.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9JW0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SU4QALs4QAwPDa7kmyBLq/1U
-dL6eTiFGi37MFq4Y9mdBCZM2B/xen2HsLxniamog41MwTvT00JjtyZMW+fOAhlvh
-JfOhWGOArYsoXQvU04HN7NRh9c4YPm65b56mdl6aF7MVuNvgz3E/OAh1ugath49o
-CUMczmwSPt4L9QqTEJJSzL01oAbEalFT9mtVbMV4QBuuHM246dW6/1zgTyJeqMYn
-OQUgwTDLOrgZr0UFqRloORKEkFkMaDLACRTVYykQBxZHX5XQAnlV5DXIf/NBn22o
-76tJjoz1AtvfHXKovrtwO4SBW4iCmLLVPlzSfCAOwxkE3tpYbVk+Fa7WH4Ip4Fyx
-FJRmcNEE4Ls3Umg4Zz39pOfm7Yti5OUBye1tlyj2ImrbMyYTfhPxzQvYbnOgTf/f
-EE/gNFgRd0Qa0pCTGJlHYI0hvsLbalADKpxFUmAx5iar7fQtz8dWeQAV4Xd2jipA
-469ggAeOz4tY6vHMy8Eqf94pLuHvOvwS5A7wL85E1+Rnjoz/y0obacy6wHUr7nmN
-yMPJVrwb5cFO7OOaw5Ql0EQAfJYUuhl0PPS3dgAGGr/sOFqGncabsUp+zmNIVK/C
-5RLVPxV02Z2CjL5txuPLEUAPyv3clG0RrcZvTMHpyJVaVNIUVv9HeVjxIHTNCcVo
-bkdr63wlotvCjOSQ9GZAUm0S
-=6/sE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9JXIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rbYP/19cg/g+Zbycoyu8f3c0
+m7hwi9nT31SOPF6/3kYSZiG/m5jnQPHfLluSY3TQkUeTCn9ekztT6aj/ONzPEdi0
+S3KVKTobp0/bKRRdsqCErvqLub2aSp92n6pvArBx+ksLhwsljA4jtpxebmrIiQVV
+sr7iK7aJE/bYxgu4NHI2xN/XSbiOFhrbvmzuxeoxyt1A/BIC6UY79NYQrKpCF1HD
+e6GSoIRwazkaJksMP45qkr0opfsKkuw9jAu3CDcT6/zUd/t9+3tj2y6bmlhOnhly
+JAYehRhOlgxt1qnCAi2jtfsNgpYxuElbiFRW/Nk04R4gLeC7qRWdAd/gJ63LAYpP
+nBjiunU3ZqCm0EPuiP/0uOfP8VXvcbt5DIkRAVG95FHYnsQQlQWnFy/yuUtFPBJy
+BNyLK3a1jttjVXy0msufL2KwcdzH3/UYrNLUocyJGS4yzi8TDOEVulScVsHwln5m
+CHS4zcPNJEt6VxzU5C7uenm4pRoiXc0FoDwvonwrjGfpBoEI/yrRLb3Vin2uhi61
+r2fvNRfyhygX8VG+W05pB7lLuyhpixbehvclQV9/wKbSRtahThA+ENZrk/wAs5jy
+IRsp6aID84sSRJSimv8rIjGLKuJg0k6IHX4frmeHcllnIEPMl6GNOo7WGz9svmZA
+hK/FAbg4CT9DnGlnWCQBQVtZ
+=FIyr
 -----END PGP SIGNATURE-----
 
---===============5445516826421035565==
+--===============1712093120811090032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eceeec79dbc6-bf3dfb70ec08.txt
+Content-Disposition: attachment; filename=revlist-c9acdc466e9a-ecd7772bf738.txt
 
-79256a15f2f819e2f653b05ce7ada860bc64d24c fuse: limit FUSE_NOTIFY_RETRIEVE to uptodate folios
-0e3512de39ac9ff1aadc417438ff606eabfa8384 net/sched: act_pedit: check static offsets a priori
-33e326bc028cbca2722e47a56646172d55ffacef net/sched: act_pedit: rate limit datapath messages
-da32bbd8fb0777a486906a82467864d75f1dd6c2 net/sched: fix pedit partial COW leading to page cache corruption
-53a4f5aa7d8d4ba6ef19463f45c8c1013b3e3f62 net/sched: act_pedit: free pedit keys on bail from offset check
-c7225e7b07dc0ed20e322e799b1258c630318bfe drm/amd/display: Bound VBIOS record-chain walk loops
-a5d2e53d239e67c524cdb4bc2f584e9d878d24cf ip6_vti: set netns_immutable on the fallback device.
-1d3406994dfd981e796592d930bdc51f7098ddc2 drm/v3d: Store the active job inside the queue's state
-f23d01ca8031c15cef700f63abd1af3979a28f5a drm/v3d: Skip CSD when it has zeroed workgroups
-010ed60850291c6f11bb2714f65f9e6ed1cb65e7 batman-adv: tt: reject oversized local TVLV buffers
-6ce3221e65a62731bd1e2e4161e43d601b9cad93 batman-adv: tt: prevent TVLV entry number overflow
-8adf06fde24f288eb19cf9b5aaccc15a3c74e315 iio: light: bh1780: fix PM runtime leak on error path
-0c28b34763f563e9ab889ab0cdbc8ba92dc70629 vfio/iommu_type1: replace kfree with kvfree
-ddeea405deb199088c4f31192cc2926e30ddda62 RDMA/bnxt_re: zero shared page before exposing to userspace
-b07f71dc9fec267a9c80904916e906bc79d470b7 i2c: stub: Reject I2C block transfers with invalid length
-316c9836ea9b6c06acffdfa26edd7330db842a66 net: qualcomm: rmnet: fix endpoint use-after-free in rmnet_dellink()
-0be63376228603de94e8315a43dbed299e495615 agp/amd64: Fix broken error propagation in agp_amd64_probe()
-48f68846bb98c922f4409561405e999aae043579 xhci: fix memory leak regression when freeing xhci vdev devices depth first
-b09fc516caf7bd73d76034fc7c4d3934cd2fca18 af_unix: Reject SIOCATMARK on non-stream sockets
-ab616f3898bd2379b6fc598ec903028cdcdd84d4 regulator: core: fix locking in regulator_resolve_supply() error path
-4ec24cec8d469da88802bbb28448673f50c25375 Input: rmi4 - fix register descriptor address calculation
-4713ce96813e70f6daa94f90b794578730485e86 Input: rmi4 - fix type overflow in register counts
-fa7a4bd8706e4161b5269b1433d8699cc79b104f Input: rmi4 - fix num_subpackets overflow in register descriptor
-6c0b76109cae55a58b0ba79876671aafc8d3ed84 Input: rmi4 - fix memory leak in rmi_set_attn_data()
-6783aa835d2ed634ad01fcc0c1fd71f7221d530c Input: rmi4 - iterative IRQ handler
-b8285a36c8c4f1a29ac4016c453bc84c960d4d6c Input: rmi4 - fix bit count in bitmap_copy()
-0f0e07033e6a3f4209b8f2baed296b3ca875d2cd vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write
-15dfdd8a5d6d5bbbd1cd4cb72740aaecaf1fbb03 media: vidtv: fix NULL pointer dereference in vidtv_mux_push_si
-83fea67272cba00c8687ec0fcc71f1ccf8ea09b3 virtiofs: fix UAF on submount umount
-bf3dfb70ec08375b6563531092d837325248c58b Linux 5.15.211-rc1
+0fd913a10a902b0a6459dd51cb657e5b833a734b io_uring/net: Avoid msghdr on op_connect/op_bind async data
+37808dfe77681d84a555da24bda31470c027b307 fuse: re-lock request before replacing page cache folio
+d356ceb800b6b6d5b607ee602c651cd03f44472e Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+269b50ddccdcf9bece3ab980bce8be8e77d2d9a3 agp/amd64: Fix broken error propagation in agp_amd64_probe()
+b74a9b5aedff1bda2a42dc3af0ec2f8057cca3ba iio: light: veml6075: add bounds check to veml6075_it_ms index
+b6986a645c8b34cbaaa2c5cd39c6d3adb3b2eaf8 iio: adc: ti-ads1298: add bounds check to pga_settings index
+88aa84c85970ac3bdaa580e365d281dca7d9f964 Input: rmi4 - fix register descriptor address calculation
+b01dcabbad4c633928c7e835683263c3f7fdc3bd Input: rmi4 - refactor register descriptor parsing
+33456bd100f001e675c0612fbd35f7f35a61c06f Input: rmi4 - fix type overflow in register counts
+a0aabc66c5d48058700aff534fcda9a5199900b0 Input: rmi4 - fix num_subpackets overflow in register descriptor
+06dd9b7084dc16584dfafa1c13eca0edbbb21fc2 Input: rmi4 - fix memory leak in rmi_set_attn_data()
+be173906711132047c24cfd8ddf28ec0bfef5f83 Input: rmi4 - iterative IRQ handler
+6aac9f18ff13b2eeec1b5730ff9eb3691c7bde53 Input: rmi4 - fix bit count in bitmap_copy()
+2f2cc6eafa7db4c0d3aae2b003903b4d0b90b6e7 crypto: qat - remove unused character device and IOCTLs
+b75dca9e153fbb9419cb5a0ebe66396625936038 vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write
+2e36f03e33cf90238cb9d29a57acdd7bb6f44a4b serial: qcom_geni: Fix RX DMA stall when SE_DMA_RX_LEN_IN is zero
+5b9f4728e767ccf8b40776fd64c2778dc3c7c029 serial: 8250_dw: unregister 8250 port if clk_notifier_register() fails
+08ba5047c631973b9d3b32a3579c879ad01c464f drivers/base/memory: set mem->altmap after successful device registration
+0f2b535bfd4d484c2d26cd138805c327f5c37471 ksmbd: reject non-VALID session in compound request branch
+2cdce0b27c5f7fea30abd41a1c1aab4167bb90d7 media: vidtv: fix NULL pointer dereference in vidtv_mux_push_si
+8ef78cbd5b29f472b5bc356b6523d0c2e7021bb3 virtiofs: fix UAF on submount umount
+ecd7772bf73899d9b6c14b7efe6d713949f18e74 Linux 7.1.2-rc1
 
---===============5445516826421035565==--
+--===============1712093120811090032==--
