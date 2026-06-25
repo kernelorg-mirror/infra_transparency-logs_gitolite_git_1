@@ -1,43 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============5429423371233105222=="
+Content-Type: multipart/mixed; boundary="===============6007667210290707551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 25 Jun 2026 09:27:16 -0000
-Message-Id: <178237963662.253219.8398256567204371921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Thu, 25 Jun 2026 09:33:51 -0000
+Message-Id: <178238003132.257207.5643767131704359734@gitolite.kernel.org>
 
---===============5429423371233105222==
+--===============6007667210290707551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
-  - ref: refs/heads/master
-    old: 174f1842725b8d62b23c97f9d4e4245823807727
-    new: 4b3fac563510dede34550ac7280aa00b3e29cd94
-    log: revlist-174f1842725b-4b3fac563510.txt
+  - ref: refs/heads/next
+    old: 50406d35f5635e1cc523e61409d57e851b5f5df8
+    new: a204badd8432f93b7e862e7dac6db0fe3d65f370
+    log: revlist-50406d35f563-a204badd8432.txt
+  - ref: refs/heads/queue
+    old: fab60e3ad967593b951085ef4d6f90fefddb1e78
+    new: a204badd8432f93b7e862e7dac6db0fe3d65f370
+    log: revlist-fab60e3ad967-a204badd8432.txt
 
---===============5429423371233105222==
+--===============6007667210290707551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-174f1842725b-4b3fac563510.txt
+Content-Disposition: attachment; filename=revlist-50406d35f563-a204badd8432.txt
 
-6f755b51b5a973a0df8970db0f28e480586962c2 hwclock: fix typo RTC_RD_NAME -> RTC_RD_TIME in error message
-52161b408c6efb8d416d3602d72cd900d4ccc52d hwclock, rtcwake: hint about uninitialized RTC on EINVAL
-6bb003786fd1c1591ab2e74a4d96e8a5b5a02b1e chcpu: refactor to introduce context struct
-39a01a4f507d25690222879db9cb3b04d4dfb515 chcpu: re-enable warning message if last CPU is being disabled
-41b9ebaf0ddbec937423a4204485e6e3988c5263 chcpu: minor code fixes
-89fa13125b02247a489de484e7d6d67b006f7a2a chcpu: fix persistent partial success exit code
-c3c58e3a5fdbe8b5c8f6d39e04bb84768735b310 chcpu: handle ul_path_readf_s32() errors
-6eecbdd5b98f22afedb6ebad28af54781be40317 chcpu: make usage() output translator friendly
-9aa9cce49d7a3e48cba6e3f2070ff15f84257845 chcpu: improve error handling in cpu_set_dispatch() and cpu_rescan()
-f5fc48cc67941859d11d4f9f6f809bfb1b90f60a chcpu: remove unsused system headers
-9ea4dddd1f50f1a846a0aeb8f5e26d72bdb283cd tests: (chcpu) adjust expected output files
-6e6d1d6f9f03a7af4ded52b98c278130aacdfad9 tests: (chcpu) test partial success chcpu code
-4b3fac563510dede34550ac7280aa00b3e29cd94 Merge branch 'refactor_chcpu' of https://github.com/cgoesche/util-linux-fork
+9a82ec076e74fc48698e71948c339d7eeafa26e2 KVM: x86/hyperv: remove unnecessary mmu_is_nested() check
+ac889bdd23df1ee2d15bfae36510590669329ec8 KVM: x86/mmu: introduce struct kvm_pagewalk
+d9af9341707f67ca92c35a1bb198eeb53b66e496 KVM: x86/mmu: move get_guest_pgd to struct kvm_pagewalk
+9b91462829f38e2437639dfb7218da383e65c99b KVM: x86/mmu: move gva_to_gpa to struct kvm_pagewalk
+4da3f6824922e877d5017a8b0e84ef8ea4710729 KVM: x86/mmu: move get_pdptr to struct kvm_pagewalk
+cb6d93b80c13d77a2d42569c96187e592dda2e28 KVM: x86/mmu: move inject_page_fault to struct kvm_pagewalk
+d869ff104efb1f23c1d1bcb9974689f0cfdbc1a8 KVM: x86/mmu: move CPU-related fields to struct kvm_pagewalk
+173777d4284579269a2bded52384f2f66d52a748 KVM: x86/mmu: change CPU-role accessor fields to take struct kvm_pagewalk
+7c70bf8f9333d9056ea347f7d3e9d3605fb00741 KVM: x86/mmu: move remaining permission fields to struct kvm_pagewalk
+9262ed5a030423cd51971e39a47d1ee779cf1c5c KVM: x86/mmu: pass struct kvm_pagewalk to kvm_mmu_invalidate_addr
+d42e93ee58d35a290ea26dbb0354cb87566e19bc KVM: x86/mmu: change walk_mmu to struct kvm_pagewalk
+b99416dd992bcede096edf37c95aaea1dd32e87f KVM: x86/mmu: change nested_mmu.w to ngva_walk
+0a59a8b8a248e9d104718dc6a34ff8363ea4236a KVM: x86/mmu: pull struct kvm_pagewalk out of struct kvm_mmu
+148fe965df16af9244c6d2e40ad4309c00b3d365 KVM: x86/mmu: unify root_gva_walk and ngva_walk
+7ccb75f2bfeb0d1040eb25d9ab4329c825549b2a KVM: x86/mmu: cleanup functions that initialize shadow MMU
+72f734a435b24122e30e6f5a20f8fafdc21b2a3a KVM: x86/mmu: pull page format to a new struct
+c71239d463d51bb3c29dbb0f6b2ccd8d64473eb6 KVM: x86/mmu: merge struct rsvd_bits_validate into struct kvm_page_format
+6bb13c2eb7ef13a7eeb4641085348d9bb8fc92f5 KVM: x86/mmu: parameterize update_permission_bitmask()
+216b1a47e80c586193f323290a6baf38b487594b KVM: x86/mmu: use kvm_page_format to test SPTEs
+a204badd8432f93b7e862e7dac6db0fe3d65f370 Merge branch 'kvm-chainsaw' into HEAD
 
---===============5429423371233105222==--
+--===============6007667210290707551==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fab60e3ad967-a204badd8432.txt
+
+9a82ec076e74fc48698e71948c339d7eeafa26e2 KVM: x86/hyperv: remove unnecessary mmu_is_nested() check
+ac889bdd23df1ee2d15bfae36510590669329ec8 KVM: x86/mmu: introduce struct kvm_pagewalk
+d9af9341707f67ca92c35a1bb198eeb53b66e496 KVM: x86/mmu: move get_guest_pgd to struct kvm_pagewalk
+9b91462829f38e2437639dfb7218da383e65c99b KVM: x86/mmu: move gva_to_gpa to struct kvm_pagewalk
+4da3f6824922e877d5017a8b0e84ef8ea4710729 KVM: x86/mmu: move get_pdptr to struct kvm_pagewalk
+cb6d93b80c13d77a2d42569c96187e592dda2e28 KVM: x86/mmu: move inject_page_fault to struct kvm_pagewalk
+d869ff104efb1f23c1d1bcb9974689f0cfdbc1a8 KVM: x86/mmu: move CPU-related fields to struct kvm_pagewalk
+173777d4284579269a2bded52384f2f66d52a748 KVM: x86/mmu: change CPU-role accessor fields to take struct kvm_pagewalk
+7c70bf8f9333d9056ea347f7d3e9d3605fb00741 KVM: x86/mmu: move remaining permission fields to struct kvm_pagewalk
+9262ed5a030423cd51971e39a47d1ee779cf1c5c KVM: x86/mmu: pass struct kvm_pagewalk to kvm_mmu_invalidate_addr
+d42e93ee58d35a290ea26dbb0354cb87566e19bc KVM: x86/mmu: change walk_mmu to struct kvm_pagewalk
+b99416dd992bcede096edf37c95aaea1dd32e87f KVM: x86/mmu: change nested_mmu.w to ngva_walk
+0a59a8b8a248e9d104718dc6a34ff8363ea4236a KVM: x86/mmu: pull struct kvm_pagewalk out of struct kvm_mmu
+148fe965df16af9244c6d2e40ad4309c00b3d365 KVM: x86/mmu: unify root_gva_walk and ngva_walk
+7ccb75f2bfeb0d1040eb25d9ab4329c825549b2a KVM: x86/mmu: cleanup functions that initialize shadow MMU
+72f734a435b24122e30e6f5a20f8fafdc21b2a3a KVM: x86/mmu: pull page format to a new struct
+c71239d463d51bb3c29dbb0f6b2ccd8d64473eb6 KVM: x86/mmu: merge struct rsvd_bits_validate into struct kvm_page_format
+6bb13c2eb7ef13a7eeb4641085348d9bb8fc92f5 KVM: x86/mmu: parameterize update_permission_bitmask()
+216b1a47e80c586193f323290a6baf38b487594b KVM: x86/mmu: use kvm_page_format to test SPTEs
+a204badd8432f93b7e862e7dac6db0fe3d65f370 Merge branch 'kvm-chainsaw' into HEAD
+
+--===============6007667210290707551==--
