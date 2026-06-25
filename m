@@ -1,57 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1879349065492693756=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 25 Jun 2026 11:45:19 -0000
-Message-Id: <178238791915.360794.14075482379553165423@gitolite.kernel.org>
-
---===============1879349065492693756==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 25 Jun 2026 11:46:01 -0000
+Message-Id: <178238796114.361943.13721738691963952145@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: a73b02bcbef989ac2857585910a1bbf4ba258bba
-    new: df00162d1db4202941b062b273fb5f72b1a9b680
+  - ref: refs/heads/for-linus
+    old: 435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4
+    new: 00e44a68efef50f65b12854b41f098b4d50f10be
     log: |
-         a2812e209d63754be9b8ab622d993871d35700a4 6.1-stable patches
-         df00162d1db4202941b062b273fb5f72b1a9b680 6.6-stable patches
+         00e44a68efef50f65b12854b41f098b4d50f10be ALSA: hda/realtek: Add quirk for Acer Nitro ANV15-41
          
-
---===============1879349065492693756==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782387848 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1782387916-56d20646013a6929587e59bc3adb5791085f7a75
-
-a73b02bcbef989ac2857585910a1bbf4ba258bba df00162d1db4202941b062b273fb5f72b1a9b680 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9FIgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R84P/3qmfHMW/C5oqoARbqsf
-bEa7NlhK3EkgNbzoTq+kf6miGQE5o/loS5udGNVajFLp4tHZsP7QvIurdxfOwTVk
-h0kWSrzCWc8e4+GQrlcbOqiUtTEYH5ADEpWfXnIzttyFARwF7bsR+M9f5DFwDy4v
-sm1o6RXmYx7Olrt42CVSKOHMhsVXu+dxBTWEHL340qgpi0kge4Hbt4754jM4Hugn
-Alb20oPrnyByCqoUbyD4V73NkTAcn8rkMYkv1fHraVWKr4eQr9H5CcI6L/i9/dit
-GtRtv4e6vPnlywgLDFhNzXOM3kkSTb/soXoljtXx+4LpPovtbTsalYHjPyz0Ijh/
-op8zvUbmfWmCGzauGB9aw7Wq3U076D1calQHM8pvceR1b6xObCvFUUfo1P9NAUIc
-qSq4OKfaGldvgHkjKnCrJw+7JyyYx4vIkWXu4uBszL72R5WWHjfREU57NiXhJWqz
-AcFdSN0imGQX7A+2Dx4Jj4ZcvJWl667cztUqMOdsOzon1hA+HWH+XkH9D/r2BuG7
-BcKcCNtMs3TGsFwW4BQy/kEGeUy9PwHvwUZNLfUyYuMWenhY9P3w1QjNfZ3omKlc
-Rw7r+XZTBZyVItiZ7lPnBddXIMhI0IF5aCIJt0KbDIdgoEy8mVTLo8tlr9dh2BiC
-xsVA9lz9MolKG5CXgttkUf8K
-=UEGY
------END PGP SIGNATURE-----
-
---===============1879349065492693756==--
+  - ref: refs/heads/for-next
+    old: 435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4
+    new: 00e44a68efef50f65b12854b41f098b4d50f10be
+    log: |
+         00e44a68efef50f65b12854b41f098b4d50f10be ALSA: hda/realtek: Add quirk for Acer Nitro ANV15-41
+         
+  - ref: refs/heads/master
+    old: ca5bc72e4595760d27d142c8fcedde1b4901c914
+    new: 7a2bae62dee39bb77b9330467236b33f7ee3e771
+    log: |
+         00e44a68efef50f65b12854b41f098b4d50f10be ALSA: hda/realtek: Add quirk for Acer Nitro ANV15-41
+         7a2bae62dee39bb77b9330467236b33f7ee3e771 Merge branch 'for-linus'
+         
