@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8551853244557072036=="
+Content-Type: multipart/mixed; boundary="===============4799611866165125564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 25 Jun 2026 17:49:23 -0000
-Message-Id: <178240976398.702323.7301082147731553895@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 17:49:31 -0000
+Message-Id: <178240977118.702642.11444066110642001879@gitolite.kernel.org>
 
---===============8551853244557072036==
+--===============4799611866165125564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: pjw
 changes:
-  - ref: refs/heads/fixes
-    old: 15b4155138505669d3d43d7692459ee8ea2a86e7
-    new: 625ee71c3283dd322856060f9f4d344e2edc3c14
-    log: revlist-15b415513850-625ee71c3283.txt
+  - ref: refs/heads/for-next
+    old: 319fafd9a3743b617b8547d81c41c99fb67857b1
+    new: c75597caada080effbfbc0a7fb10dc2a3bb543ad
+    log: revlist-319fafd9a374-c75597caada0.txt
 
---===============8551853244557072036==
+--===============4799611866165125564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15b415513850-625ee71c3283.txt
+Content-Disposition: attachment; filename=revlist-319fafd9a374-c75597caada0.txt
 
+d8189630a1a1468a8702e252dd93e36d6ec8121e fuse: move fuse_dev and fuse_pqueue to dev.c
+4e0de84063159aa1804120c6c5493bd05be35adf fuse: move 'devices' member from fuse_conn to fuse_chan
 2b07cbc4e4865c246b5ba096def7fb9725d8cc1d fuse: move background queuing related members to fuse_chan
 599ad4427bbc901eadd4f2872071eef87830959d fuse: move request blocking related members to fuse_chan
 0ea79b7d077f57db79b804cefb791c527d0ca9ba fuse: move io_uring related members to fuse_chan
@@ -1048,7 +1050,5 @@ ec85be724c5c0c2cc392f5681b45da0403ea60ec Merge tag 'pwrseq-fixes-for-v7.2-rc1' o
 c58ddac1aa507b71cb5a95a95c641bdd73a3f075 Merge tag 'io_uring-7.2-20260625' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 a142da0b2d32b68a6d1b183343bbe43de8c222f9 Merge tag 'block-7.2-20260625' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 c75597caada080effbfbc0a7fb10dc2a3bb543ad Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-0fa749771993033befb9dda60b023782cb5fd2d9 riscv: Raise default NR_CPUS for 64BIT to 256
-625ee71c3283dd322856060f9f4d344e2edc3c14 raid6: fix riscv symbol undeclared warnigns
 
---===============8551853244557072036==--
+--===============4799611866165125564==--
