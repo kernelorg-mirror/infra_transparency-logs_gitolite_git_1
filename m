@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Thu, 25 Jun 2026 10:04:28 -0000
-Message-Id: <178238186863.280996.6312813719915361645@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8107514101167588645=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 25 Jun 2026 10:21:14 -0000
+Message-Id: <178238287471.294413.3295496389432642915@gitolite.kernel.org>
+
+--===============8107514101167588645==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rv_tests
-    old: fc8fe1425bc59cc52c954dd807469277b0c3406c
-    new: cbf0989c6301636f9966fefe2a64a82f93b950ad
+  - ref: refs/heads/master
+    old: 1e935a9978fb9ede474aed66cc8ac18e52994f53
+    new: 7b6bc8070a205c2cf6580f0176dc84b0e99a73a2
     log: |
-         ec796f3aac73f46122d45a1f1e6955110aa22949 rv: Add KUnit tests for some DA/HA monitors
-         2cc87ab301b9316f302be3dc04f553dd56fbe64b rv: Add KUnit stubs for current and smp_processor_id()
-         2b4cf0bf97c1ed24f740a67e86182cfd4eaaf6a3 rv: Prevent unintentional tracepoints during KUnit tests
-         3a6832f1f160d757dea489dd09f6fd83ad4b60a9 rv: Add KUnit tests for some LTL monitors
-         ad2fe0828e849b9a5d47186139c7da1640e0ab91 verification/rvgen: Add the rvgen kunit subcommand
-         c2e8a12ba9610d2f5236c2ea98497bb110563ff2 verification/rvgen: Add selftests for rvgen kunit
-         aebd44a2f76ca37cc37068c14864d5e0159f7c6f selftests/verification: Fix wrong errexit assumption
-         e77a9fd7e51f86d0c36bdeb896930249288fc1b7 selftests/verification: Rearrange the wwnr_printk test
-         cbf0989c6301636f9966fefe2a64a82f93b950ad selftests/verification: Add selftests for deadline and stall monitors
+         7b6bc8070a205c2cf6580f0176dc84b0e99a73a2 5.10-stable patches
          
+
+--===============8107514101167588645==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782382803 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1782382872-a6b6f6a14e9a2781195295e54007aef5add65b92
+
+1e935a9978fb9ede474aed66cc8ac18e52994f53 7b6bc8070a205c2cf6580f0176dc84b0e99a73a2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9ANMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gAsQALCEacYbqfV3n8YMj631
+rXmIAsgjU4HlE46GkFpHxAjjN3KINwQnzg1BNa4a2D/PuFHqDbwyjsnnohD7wgYn
+JGiJmfDE8g/T1eUQgDfxJRvdg7QcwbPoGNUxZRxGrpEnTVeS9vUUecyGeeWKEU2b
+/HZmKXDEUUNOycB298u6DCpPLoPPrY+S3RBNiEig8Db7mXKi8sWSp1uXSR5BXdFL
+AX+QrCY0gBFY0buATAVITBswfaGEhlTNdaD/zgQbGVxOHtEOcG9dFRz1ONXyj/DW
+k7wxrgn48aylohCpj9ke3P3ewp4bH3fyseNXidhOinEKSTpowL6xFz3N1TL+DhcD
+nC06bSHYlGJVCjauqbPaaVZN0Hwh3F8//LsAvwXA7p5cngAXalogmAl39ieKT4bG
+AY7LhPfw9RPyR3V7oxmXvh7givK/McjKJulb105nPQ5ZBNmhEl2G5W9xX/q+7BXl
+sNHS/fjw3bBuEa9dA8Qyq5Na86i5duJoLc7XPycg3oIuWzLKEeFD2+0wle4BNUn6
+f1f1J19jrAAqjT4pk4OFO3QFzRnMkuHZN5RWcGM+EVXJIekW6ZrRAVzfTQR4ODuA
+DLRN4JQr3WJq6PHBDwab4yuzpczyq6KYmCl7bDeebTC/H+OLWgA5f7RQMusL7oGi
+7nv1cfXOKV8bomC1kdC2BMwb
+=xCW0
+-----END PGP SIGNATURE-----
+
+--===============8107514101167588645==--
