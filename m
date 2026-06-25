@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6916602823482449190=="
+Content-Type: multipart/mixed; boundary="===============6417934897185311971=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 25 Jun 2026 14:02:38 -0000
-Message-Id: <178239615829.525204.2927172001627377227@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 14:02:42 -0000
+Message-Id: <178239616205.525366.12274087666184939373@gitolite.kernel.org>
 
---===============6916602823482449190==
+--===============6417934897185311971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 502d801f0ab03e4f32f9a33d203154ce84887921
     new: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
     log: revlist-502d801f0ab0-ab9de95c9cf9.txt
 
---===============6916602823482449190==
+--===============6417934897185311971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782396087 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782396091 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1782396156-8cc3cac30cae6a26b71e661b2254ed42cbc020cb
+nonce 1782396160-79a30d88ecd7c5215555b839cd59d3c48204879b
 
-502d801f0ab03e4f32f9a33d203154ce84887921 ab9de95c9cf952332ab79453b4b5d1bfca8e514f refs/heads/staging-linus
+502d801f0ab03e4f32f9a33d203154ce84887921 ab9de95c9cf952332ab79453b4b5d1bfca8e514f refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9NLcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GBwP/1EUYKxfMikzICmdoor+
-Bi77Y/3k6DjANhxih1u0PQvZC4sZjDrZ5ITdHW9IGayxcuvmXOHNQKkTBfXkbTN5
-XYSHX4MvBRRbpqctxAzWNbgX0PcXd4iTOmZw/okSLPd0J3eNXRGzrg9hGTEVXuyd
-acusxIK/C1MbKvSGnBpzsxzoY8OKHqcHMUWR26SKcNqc+81nNmt7/Nwy1RMnwr7y
-ZwUNwVlTais9to6LagauReAtFDW0SLYQsjF38xQ72eBio4kdxBF3UMwKsd5q+fou
-AcPHiJMyACiw4eRYgG+BhTx/kgrBZkGICrGztr2Ykq0jk/hISTYBAQXqYmuPuScS
-rj08q0ccv2ipDcgwR7lltVfu9b+oYiB8f0TL8JhrtDQiO8thufXxy/mDOrbxf+7k
-E1HfCqTWN1lXvyvNFX/jHdZPb1t+YvqaywrkaqyhSr4BGYdmNiJPkdCuiYF33pkx
-R9OVN3JqB8PkKQDfn9l7loRiZJI9n+UgO3Geixc4mfhyTV+PCENZ45mcwqJh8hhp
-wqXcH7bkVWp0s64/QmoUh1XbT+Fc6qN8bHCFS67sd4Z+v2+k71b5iP1RXS0B+ysL
-ousGxEKX2HkUWIjrTtD6RyNYoT0kZhrd6Mu2mSOElBaBdO8jn+W59b9IXj3XKsqx
-ElAjV0EVQZBaILlRydF79H1T
-=+K8i
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9NLsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0VwQAIqK9mNYumBjMJQYYZ8u
+8jWuSzHs1o3wyxzbQrkyx2NvgJpxnEoPrL+AhZ5GI2PhvDCjNJ8L7Me05kmJocMe
+/44C07laEBNhxabP+hqjk7MxGyKYuXjBU6xGMU4ujlnv2LkDB/21fQZz3TLqQ2ZG
+ggtX/PPhv0gFmOu/UNdWc0WUhD77FxWJFRLdRfEBz/2usIX9PkPIfOQsys146ahH
+QM8trEOpcfa0C8bnGkpyNSb2kN4SA5LkSWufwWtdLGpFQyL02gwbcjxzAfOzYzCf
+b3LH/l4EgKhFCmXiRzZRNLGMWm/m4v1Zxxghd+W/wULr+xHjN77irWIoU6mHL3Za
+gQLhx3IjzvYDPTDRr750lr878Mp4onBWAm7WKgi+JOnVq7Dg2yxsBcryk73DjouI
+iTxpGTmT4WF/Vrnp2/GY7oBONg3DX1nZqZkEps4PjvnnC4ZVMJXaDHSFk2CecuOq
+UBIeEGs0/7a3nEHslelaZKvYubGAr7sqa77oAfsW48SXdEAzrrBOq+GT8yvmynPs
+U3TP9CO/kyCYXOs5upjoYpywv6qzoIJrg9ACOwAwfAEfiUou65zhfI1QA5KHLZRX
+VBBhHkIXkS4cUcMjFW0479Z6/4UHTNocXDmlrobg1wFnaOq3QX1YP9bntW7WEZH3
+1PmygdvsYqD8NeiKTNZFTM5s
+=u7NG
 -----END PGP SIGNATURE-----
 
---===============6916602823482449190==
+--===============6417934897185311971==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d0bcd488c33d6673fe83b9533d6366ad84d2ec0d Merge tag 'irq-msi-2026-06-24' of git:/
 dcebfd2c1404d1c931e86ec5168cdc006d503909 Merge tag 'rust-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 ab9de95c9cf952332ab79453b4b5d1bfca8e514f Merge tag 'rust-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============6916602823482449190==--
+--===============6417934897185311971==--
