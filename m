@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0006927812392493871=="
+Content-Type: multipart/mixed; boundary="===============4090184296529271981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 25 Jun 2026 16:32:46 -0000
-Message-Id: <178240516664.638495.8409553978134205417@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 16:33:09 -0000
+Message-Id: <178240518950.638893.7978276885526388327@gitolite.kernel.org>
 
---===============0006927812392493871==
+--===============4090184296529271981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 56abdaebbf0da304b860bed1f2b5a85f5a6a16a0
-    new: b78f348d4c4d862b1ad232f30c818f3ec8b97efb
-    log: revlist-56abdaebbf0d-b78f348d4c4d.txt
+  - ref: refs/heads/dev-queue
+    old: f1f76b2b8e79a143a4add733b23971cf1f77cefb
+    new: a5bda12dd2dddbe2acd1cbc71d81475b760186b1
+    log: revlist-f1f76b2b8e79-a5bda12dd2dd.txt
 
---===============0006927812392493871==
+--===============4090184296529271981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56abdaebbf0d-b78f348d4c4d.txt
+Content-Disposition: attachment; filename=revlist-f1f76b2b8e79-a5bda12dd2dd.txt
 
 355fbcbdc2539cca7890b0d0914d4ce0f985ad74 xfrm: use compat translator only for u64 alignment mismatch
 d129c3177d7b1138fd5066fcc63a698b3ba415b0 net: af_key: initialize alg_key_len for IPComp states
@@ -136,5 +136,55 @@ c01f6e6bdc1ccd21b2d07d23f50b82437b8cbf88 net: hns3: refactor MAC autoneg and spe
 c711f6d1cee955e04d1cd1f76cd8abd024b27a72 net: hns3: fix permanent link down deadlock after reset
 d9d349c4e8a0acd73bac8baa3605443c0df5eb26 net: hns3: differentiate autoneg default values between copper and fiber
 b78f348d4c4d862b1ad232f30c818f3ec8b97efb Merge branch 'net-hns3-fix-configuration-deadlocks-and-refactor-link-setup'
+5dbbc248690968ce8cb36f355cf6024811b182a6 ice: Fix enable_cnt imbalance on resume
+34a78c1b0c63aecbf4d2a40fc211c82146af7c43 ice: Fix enable_cnt imbalance on PCIe error recovery
+d4ccdfd87cf9f9e27bfdbce325eb6a276b28929c i40e: Fix enable_cnt imbalance on PCIe error recovery
+7d7f5772a2fcf1f14c76dcbe252036fb53e0abfe ice: fix FDB deletion
+dc198ddf53f2104dbc04abab70107ad90455f812 ice: init desired_dcbx_cfg in default DCB config
+88363a13e78015491ffa5b3864235f9fcf10db83 ice: prevent integer overflow
+6bfbccca930f4db39f0fbb279185685ab775448e ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+57a6b91f3007ba1d28d9d3bad734a2edf2cd3807 ice: check cross-timestamp timeout bits
+ff5d4a9a1bcf7f80e78c6cc3d7144039230b4865 ice: fix PTP Call Trace during PTP release
+5a42085526ca8044ac766367adada695a4626189 ice: use READ_ONCE() to access cached PHC time
+290d8ce25e24c311a21365a637386601ca5005de i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+6ffbea6eb858925a7fc9c0d24006551c194d5184 ice: fix null-ptr dereference on false-positive tx timeout
+41e9ad725c2b6781f4ce855b5a1bc76d7b5ec56c iavf: fix null pointer dereference in iavf_detect_recover_hung
+09bd6e6434f837381b0ed57b8820364091220226 iavf: fix error path in iavf_request_misc_irq
+862731dca7be36b23951ce0282ab45c3dbed7049 iavf: prevent VSI corruption when ring params changed during reset
+404f2b6dbc9f1433c81ed3b7577a8757ae705e07 iavf: fix TC boundary check in iavf_handle_tclass
+ad0999813c151c20af80572ef0eead4dabdc14e7 iavf: return 0 when TC flower filter not found after qdisc teardown
+a5f84d0b76e813620cd06a785e1834533cb4011f igbvf: Fix leak in TX DMA error cleanup
+ea4837fd66f28680b46384a5f7653707edde46be ice: fix asymmetric pause negotiation reporting in ethtool
+5a4fdeb4532d545e426f2215aa7f63e1e9297070 ice: fix autoneg disable when link partner doesn't support AN
+c4414d8ab3ba3681666a9106dbbb093464fbe9a4 ice: support RDMA on 4+-port E830 devices
+41169113b2ca6300ed45e8c9b90847c45de26ef6 ice: report EIPE checksum errors to the OS on E830
+15bcd047d7640dd90703e72fc942554594e919aa ixgbe: fix SWFW semaphore timeout for X550 family
+09d4659c36b5fab1782d96e9a1a1007ca7b25364 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
+e702cef04d241c2b33f8244dd1d6d615ca361e99 ixgbe: fix ITR value overflow in adaptive interrupt throttling
+a8b3e20bf30bb678f34829272bd18c1d14ac097d ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
+c6974adc0925947627e6b0321a8720434d506921 ice: only free LL TS IRQ when the handler is present
+d5c12553295dfcca3bb8554756144d07bd92f975 ice: always do GCS if hardware supports it
+23d0bae6a0557156ef08a8fca10284563e96370d ice: use NETIF_F_HW_CSUM instead of IP/IPV6
+bc06641f96b1c39feb3df661d4838a366486fdc1 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
+edbe9bf7dbe211fa20c7024d39aa08627c3db371 ice: wait for reset completion in ice_resume()
+5cc0717ef9a887294612b0f2bc3f09238f9e8213 igb: Return state in pm_runtime_idle instead of power-down
+679a954019f800d5f9ca87379efe88d8a175932c ice: fix VF interrupts cleanup
+6cce9c08c9a4e284342402aefe6cba9b80809a9c ice: add missing xa_destroy for sched_node_ids
+e5ad08a67e4e9a026a7552acc6e0602873895000 idpf: handle NULL adev in idpf_idc_vdev_mtu_event
+8138bbf5ef761dcd2f108c00c040b143936771a3 iavf: validate num_vsis in VIRTCHNL_OP_GET_VF_RESOURCES response
+5cb75df56d56c3b6b87fb12172db76c7c80adaa1 i40e: keep q_vectors array in sync with channel count changes
+aa7ca2f89ba3908cbae13d3d251e384d5273d9e1 ice: fix LAG recipe to profile association
+c5b2718fdaf91ccec03591e1a9ba6d3e049866ee ice: support SBQ posted writes with non-posted support for CGU
+43452159e05370dcc238f700e60c28a826a8b6bc ice: suppress DPLL errors during reset recovery
+e8db1c32f8f8e9d63760d4f6128db4f07c3a3aa5 ice: prevent tstamp ring allocation for non-PF VSI types
+cc0367bb4f0928fd6c0fc8998893a80d60534e39 ice: reject out-of-range ptype in ice_parser_profile_init
+0a9fad9f7e3c559ae0fe5213b407d339481cd6f0 ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
+9346bb831cdec54596da078cd7f75eb1298d957a ice: Zero out the PTP control PF pointer at ice_adapter cleanup
+7a7f9d03bb08027d4d399ba2615588a381948300 ice: Cache struct ice_hw pointer for split register reads
+be17604fbc4c92464ec6f71d94e24f3ffe8ae312 ice: fall back to SBQ when LL PHY timer interface times out
+5c2dc5500eba06091dd36bb503731da974119e20 i40e: fix netdev leak in i40e_vsi_setup() error paths
+91ca7b4807c3a8d08a578d1e4c2e5383b7e0fa25 e1000: fix memory leak in e1000_probe()
+ccce9448b179e9017903840bb1f4a295a884c552 ice: fix memory leak in ice_lbtest_prepare_rings()
+a5bda12dd2dddbe2acd1cbc71d81475b760186b1 iavf: cap advertised max_pkt_size at the single-buffer HW limit
 
---===============0006927812392493871==--
+--===============4090184296529271981==--
