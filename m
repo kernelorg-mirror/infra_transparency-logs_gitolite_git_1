@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0772811451992989381=="
+Content-Type: multipart/mixed; boundary="===============6916602823482449190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 25 Jun 2026 14:02:34 -0000
-Message-Id: <178239615445.525063.5105812902238499439@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 14:02:38 -0000
+Message-Id: <178239615829.525204.2927172001627377227@gitolite.kernel.org>
 
---===============0772811451992989381==
+--===============6916602823482449190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 502d801f0ab03e4f32f9a33d203154ce84887921
     new: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
     log: revlist-502d801f0ab0-ab9de95c9cf9.txt
 
---===============0772811451992989381==
+--===============6916602823482449190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782396084 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782396087 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1782396152-e13d23e6c7752f1b568d8d82b3b7229b571aa485
+nonce 1782396156-8cc3cac30cae6a26b71e661b2254ed42cbc020cb
 
-502d801f0ab03e4f32f9a33d203154ce84887921 ab9de95c9cf952332ab79453b4b5d1bfca8e514f refs/heads/main
+502d801f0ab03e4f32f9a33d203154ce84887921 ab9de95c9cf952332ab79453b4b5d1bfca8e514f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9NLQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h3QP/RIAyN41WLi5OW7qnw3v
-fH4ncgvn24nK+zWHLniD1yd9X0ab2VEctdFVb+gtSRarYuF1ai1msSBMA/88VkR2
-SpfQRhQHzdBPyPJfvF8Qc0UKsk8uXN5fTREUFJFdPhUN/UrEZGfH3vuMWmFyAz6w
-eeRi798DT3Az4u8DSlL6xhQSTEm9t11FFuWYzTVFY95VEx7r3QRHOuD3FA5Vd5Cl
-M4MH6L7pc9Y1QBng2wAaY560SwscbjNEbGduGlhniQKWar34oUnE7a336w1pSxRo
-54ALh8p76ogP85eqk75+iL2LFP2Jm1p8iGMjfmWbJvfkdXIx1v6ArnUNlZqMVa6y
-GABsCRSNXVKsZ5T6Id1DNG3/3MtGuuQ1i0auKi3nh80mmSayLltBEsi020MNZYRW
-6zwSne/DaQz07c3JwBmSE4vcf3WCIp3XPh2WtgGKG4QoPxB95g6Q55NFd6rIbj8T
-XHQWykTHVeMM5X4zXFmsr7cIUXRELeRUlGF9ipfZzq8+Rs3EopzsAcUU2VfrU0xr
-VMvVr6SHXHJx7raw5cW7lkYoLYd//ffxyOs2qab/ajHW9RhDIv1oJICENZenjrX+
-l0yj0OuteZJQGl/wDRiuhdUyXvGi6ii3RewFtfi1f/abnszhSR+P1KL5D58HBXuX
-wMm8YImbBQOO3YJh6A5rtKlw
-=e/H9
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9NLcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GBwP/1EUYKxfMikzICmdoor+
+Bi77Y/3k6DjANhxih1u0PQvZC4sZjDrZ5ITdHW9IGayxcuvmXOHNQKkTBfXkbTN5
+XYSHX4MvBRRbpqctxAzWNbgX0PcXd4iTOmZw/okSLPd0J3eNXRGzrg9hGTEVXuyd
+acusxIK/C1MbKvSGnBpzsxzoY8OKHqcHMUWR26SKcNqc+81nNmt7/Nwy1RMnwr7y
+ZwUNwVlTais9to6LagauReAtFDW0SLYQsjF38xQ72eBio4kdxBF3UMwKsd5q+fou
+AcPHiJMyACiw4eRYgG+BhTx/kgrBZkGICrGztr2Ykq0jk/hISTYBAQXqYmuPuScS
+rj08q0ccv2ipDcgwR7lltVfu9b+oYiB8f0TL8JhrtDQiO8thufXxy/mDOrbxf+7k
+E1HfCqTWN1lXvyvNFX/jHdZPb1t+YvqaywrkaqyhSr4BGYdmNiJPkdCuiYF33pkx
+R9OVN3JqB8PkKQDfn9l7loRiZJI9n+UgO3Geixc4mfhyTV+PCENZ45mcwqJh8hhp
+wqXcH7bkVWp0s64/QmoUh1XbT+Fc6qN8bHCFS67sd4Z+v2+k71b5iP1RXS0B+ysL
+ousGxEKX2HkUWIjrTtD6RyNYoT0kZhrd6Mu2mSOElBaBdO8jn+W59b9IXj3XKsqx
+ElAjV0EVQZBaILlRydF79H1T
+=+K8i
 -----END PGP SIGNATURE-----
 
---===============0772811451992989381==
+--===============6916602823482449190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d0bcd488c33d6673fe83b9533d6366ad84d2ec0d Merge tag 'irq-msi-2026-06-24' of git:/
 dcebfd2c1404d1c931e86ec5168cdc006d503909 Merge tag 'rust-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 ab9de95c9cf952332ab79453b4b5d1bfca8e514f Merge tag 'rust-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============0772811451992989381==--
+--===============6916602823482449190==--
