@@ -1,28 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 25 Jun 2026 08:34:01 -0000
-Message-Id: <178237644187.213092.9050781437022468087@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4876445767060010508=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 25 Jun 2026 08:44:01 -0000
+Message-Id: <178237704110.220928.6553355992611268610@gitolite.kernel.org>
+
+--===============4876445767060010508==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/export-net
-    old: 3c5df8d7e52fe1bca30ed7f1358cd0d51c438800
-    new: fc7ed8995c0ecfad24db86162cf00892af7a93b2
+  - ref: refs/heads/master
+    old: 8e3305698c0eceb32668766d46b32f8961b1a0db
+    new: 8aa00c5b3687e9efc14a9658795465fb4b340d89
     log: |
-         8e7eb30efffece7f77e9c96ccd213e5b5128554e DO-NOT-MERGE: git markup: net
-         cceeb5bbabefa3c81e16d333ba3a5ed346586ac5 timekeeping: Register default clocksource before taking tk_core lock
-         932ba6b9cf2c04b43701eabb07604bddcdb18538 DO-NOT-MERGE: git markup: fixes other trees
-         a4fd539fdb4943ddbafdf141b22ed00e6c2582f3 mptcp: fix stale skb->sk reference on subflow close
-         7a559b01ecd24f610cd0136b030f51dc22f8c4f3 DO-NOT-MERGE: git markup: fixes net
-         876fc3ca05ac85cea4306e3d0b07ce8a03983d3c DO-NOT-MERGE: mptcp: add CI support
-         f823fd967a1575e08e9a6315d73b85cde98f85dc DO-NOT-MERGE: git markup: end common net net-next
-         3fa23327ba0c620722516462565e56cad1d58135 DO-NOT-MERGE: git markup: fixes net only
-         efa65790bb9fcd695630ffbdf5454daecd5165e8 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-         fc7ed8995c0ecfad24db86162cf00892af7a93b2 DO-NOT-MERGE: mptcp: enabled by default (net)
+         37d536df28ee29a5a57175d9017969087dd54dbb assign some 7.0.13 cve ids
+         8aa00c5b3687e9efc14a9658795465fb4b340d89 strip the new mbox files
          
+
+--===============4876445767060010508==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782376964 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1782377033-1e07b6bf58665ac7e36f0f5f678dcf0103dd0846
+
+8e3305698c0eceb32668766d46b32f8961b1a0db 8aa00c5b3687e9efc14a9658795465fb4b340d89 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo86gQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JsoP/3i0nFIv+XdFcvEJ4GIU
+HxNveExEjKrtT5JeszQmXWIUwz/FnK+NZtngCeZUGEV/L6oI7bVpOUpceM4r49Tc
+fKv+hyWtsGtusHA0aWdel6QDI4Gb7QNscnhqUanokuS0GjvK/cXN/Pb3KpEt51E6
+uzjy3lYo52JfTdUS9+j9VWLcm0laXsnauJ0VaTlwefkrpj9eXmbdGL8PcLuPx4dA
+I8dYpoGh2FRqXkfLc8bb/ZLELy0S5qg4M97ZGi6mL+xFT9AowHH4dHQ/EO6bSst1
+uiN856AV6CZqKrXXAclvf7vdCQXWr6OwEpMWzzJzew079zwheLHokVlqB9Q3ZZEh
+Fg0DE7Gf61q8SylsQDade3quh3p4l09E8pEehhJ4R/s79sEISs3kolttnbGXl7Lu
+mPOGem2XizghaZ3pXuRIshIzbdDKrkiXu99VS8eKykI8S0Cg7UCfybOH00F6GXPd
+yyViBmfOTatcqTW+RVg2PjX5+fTGWYki15PK2lDvv5Arn1Rc/2UTGSh8rHMQa7kK
+hhgoTgRIre0imNyWMc1XmXgdg5Y2pIuCF9Vvkj4H0ANFK6WARNZVynm32Z+UFB5h
+tYwkB3rN/lJi7ZoFr7OKALDBLhBG9Q9XFGJAUFji22teIw7DuFaZw0O1TrWapT6/
+4/xE/ZXc40KVxg6WZ/k3kOzB
+=t82E
+-----END PGP SIGNATURE-----
+
+--===============4876445767060010508==--
