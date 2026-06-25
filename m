@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6865724532590570526=="
+Content-Type: multipart/mixed; boundary="===============1974785079737178908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 25 Jun 2026 16:54:23 -0000
-Message-Id: <178240646341.657852.3904924991440224395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Jun 2026 16:54:26 -0000
+Message-Id: <178240646682.658016.8361840838499652149@gitolite.kernel.org>
 
---===============6865724532590570526==
+--===============1974785079737178908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: a7ea04d1ad39d60da397de75b503062ad5fa562b
     new: cf6f56990ea21172e085f0588e5bbf2089ce8f58
     log: |
@@ -25,28 +25,28 @@ changes:
          cf6f56990ea21172e085f0588e5bbf2089ce8f58 ASoC: fsl_asrc_dma: fix eDMA maxburst misalignment with channel count
          
 
---===============6865724532590570526==
+--===============1974785079737178908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1782406461 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1782406461-7400e728252b0296cb4df62274d26b129474cd53
+pusher C3F436CA30F5D8EB 1782406465 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1782406464-dd589d27b31f5d086b52d0b5786c287cd6f0ca72
 
-a7ea04d1ad39d60da397de75b503062ad5fa562b cf6f56990ea21172e085f0588e5bbf2089ce8f58 refs/heads/for-7.2
+a7ea04d1ad39d60da397de75b503062ad5fa562b cf6f56990ea21172e085f0588e5bbf2089ce8f58 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo9XT0ACgkQJNaLcl1U
-h9Dsvgf/XQQ/MXJ9aW7jO5KxlQRsDuuXCunC2GTNGIIjzJ8z3jk/z/P7xfDypNy/
-ApG8O5/7GH7pejOY6uQhx1LNYN0x34RjvYCyd66rvui94lS5ZJincwMz2NvbivA8
-ZFrI+s0iPDNDPnP+z1ajTf1coIzT5zwI14G/Y+SLTPCTvW6C/V4WzOrQU1v/wneP
-5EGcqF2N94n/0BHYXQf+9G6DdIBg3yz0PohYFwQDcB66oN/RQld7tYevIuElZZCC
-83hoebHHsgRIlQE1Wg/PIbU34+iuGQxI1i/GOTtT3IPnpoqt9e0QYHX3I6vrE1vY
-8i5r0ujru9TUVY0e/OXT2zVvT9Ywzg==
-=4peZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo9XUEACgkQJNaLcl1U
+h9CQnAf+KgvJNxD0T0H34buNoE+b/NfToXOAPJ6dqzCuItAq5IfKlXp9xlbt/rgD
+YurhIi5SxLoDA1BqVLkfGOk6gfVnmolhbFnt+ZT/b3r8mvd9Ge2C7UMpwbpoq8W6
+RBE7DyuYCfk0mzdjGlM9SLCQ4D5O8fvitGeEzgsI/aDqdU3c956Ch3K9m6ePvgo0
+FAH2jd+fU0+K8uiXIokCNHuOLLaTnNx6jVYwG89dPOGaB0jlBDUNZQSUc2r2WtqC
+yKGKH+tkq5V+dz/LTVqkuv4Q8k6biFHb5AwdUa3wnPlvozQWqiaqSkKTE2K2pNJ0
+wIA0ojWpyF7Ao05QAHzZa2VCe1AboA==
+=Zh2A
 -----END PGP SIGNATURE-----
 
---===============6865724532590570526==--
+--===============1974785079737178908==--
