@@ -1,52 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1974785079737178908=="
+Content-Type: multipart/mixed; boundary="===============9124244324885239523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 25 Jun 2026 16:54:26 -0000
-Message-Id: <178240646682.658016.8361840838499652149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 25 Jun 2026 16:56:49 -0000
+Message-Id: <178240660922.662516.6935467202323884974@gitolite.kernel.org>
 
---===============1974785079737178908==
+--===============9124244324885239523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/utils/b4/b4
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: a7ea04d1ad39d60da397de75b503062ad5fa562b
-    new: cf6f56990ea21172e085f0588e5bbf2089ce8f58
-    log: |
-         64184f07e7516eb3ac1839387eb7cbe2dbeaa96f ASoC: tas2781: Update default register address to TAS2563
-         c5315c8dcbcb9271f59662104428cd9229c9a7cb ASoC: codecs: pcm512x: only print info once on no sclk
-         cf6f56990ea21172e085f0588e5bbf2089ce8f58 ASoC: fsl_asrc_dma: fix eDMA maxburst misalignment with channel count
-         
+  - ref: refs/heads/master
+    old: 0a1954d329ab57f7aab40743fad7dc6e3c45d35d
+    new: 80bf459f4c75a58479bb8720df76df6471d14225
+    log: revlist-0a1954d329ab-80bf459f4c75.txt
 
---===============1974785079737178908==
+--===============9124244324885239523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1782406465 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1782406464-dd589d27b31f5d086b52d0b5786c287cd6f0ca72
+pusher B6C41CE35664996C! 1782406607 +0000
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1782406607-cac7ee05b873901337354a9248c54d2988cbe807
 
-a7ea04d1ad39d60da397de75b503062ad5fa562b cf6f56990ea21172e085f0588e5bbf2089ce8f58 refs/heads/asoc-7.2
+0a1954d329ab57f7aab40743fad7dc6e3c45d35d 80bf459f4c75a58479bb8720df76df6471d14225 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmo9XUEACgkQJNaLcl1U
-h9CQnAf+KgvJNxD0T0H34buNoE+b/NfToXOAPJ6dqzCuItAq5IfKlXp9xlbt/rgD
-YurhIi5SxLoDA1BqVLkfGOk6gfVnmolhbFnt+ZT/b3r8mvd9Ge2C7UMpwbpoq8W6
-RBE7DyuYCfk0mzdjGlM9SLCQ4D5O8fvitGeEzgsI/aDqdU3c956Ch3K9m6ePvgo0
-FAH2jd+fU0+K8uiXIokCNHuOLLaTnNx6jVYwG89dPOGaB0jlBDUNZQSUc2r2WtqC
-yKGKH+tkq5V+dz/LTVqkuv4Q8k6biFHb5AwdUa3wnPlvozQWqiaqSkKTE2K2pNJ0
-wIA0ojWpyF7Ao05QAHzZa2VCe1AboA==
-=Zh2A
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaj1d0AAKCRC2xBzjVmSZ
+bN1IAP9ZM4GZvA00xW3Iny6Py//zf/igyMPOdWXrP+ZMwVwstAD6A5Frwrqdpk6/
+x/Vfdv5bqPMqndXnO/YXXhSReCn98QI=
+=Z0y7
 -----END PGP SIGNATURE-----
 
---===============1974785079737178908==--
+--===============9124244324885239523==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0a1954d329ab-80bf459f4c75.txt
+
+6b15cfa16456da10b8af880545435b66e5d9495f review-tui: lift worktree am-conflict helpers into b4 core
+7190ccb7f1a3c8fbc3e012d166f132af63c11f74 shazam: resolve conflicts via native git-am, never dropping patches
+bb612997ec37248ea5522f76620fbdc01587f44b shazam: test native-am conflict resolution keeps every patch
+5c23710165d4c2795060e89269334822f2bb0c75 shazam: resolve conflicts in subdirectory files, not just the repo root
+eb4912334a3a0df55e8d1565f8e21a81770a7ba3 shazam: note subshell alternative to the --resolve two-phase model
+51ddf6927cee81f0a5ea948658c0f50c617b38e2 shazam: resolve --resolve conflicts inline via a subshell
+13bf2b686de5fa54637ef3651fde7684d3386677 shazam: test the inline --resolve subshell flow
+84ad10c6c8b903c9b337e7ef15c32eab96788f15 review-tui: don't leave a take's target worktree mid-conflict
+4ce46544a9c9dd12d56ce559da2f746e006c4e2d review-tui: test take-worktree conflict abort and dirty-target guard
+80bf459f4c75a58479bb8720df76df6471d14225 Merge patch series "shazam: stop --resolve from silently dropping commits"
+
+--===============9124244324885239523==--
