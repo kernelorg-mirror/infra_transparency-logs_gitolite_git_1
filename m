@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Jun 2026 02:22:59 -0000
-Message-Id: <178235417971.4137357.6268569835134734133@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 02:27:41 -0000
+Message-Id: <178235446177.4141316.5497239142639929836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 47b6bcef6e679593d2e86e04ee72c46a4e2f7139
-    new: 8c37e76f960b7a201556e954b987b431820995ee
+    old: 8c37e76f960b7a201556e954b987b431820995ee
+    new: 36dea2f639249460d13f6ca66b2a9064187cd34d
     log: |
-         87ab8276ed24d688febfef4d0c1794896e778192 eth: mlx5: fix macsec dependency
-         8c37e76f960b7a201556e954b987b431820995ee tools: ynl: build archives with $(AR)
+         5ba9950bc9078e19b69cca1e56d1553b125c6857 net/tcp-ao: fix use-after-free of key in del_async path
+         36dea2f639249460d13f6ca66b2a9064187cd34d net: sungem: fix probe error cleanup
          
