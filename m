@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Thu, 25 Jun 2026 23:55:05 -0000
-Message-Id: <178243170543.976902.15231876639952862403@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 23:58:39 -0000
+Message-Id: <178243191933.978659.1732927110432830439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 1b4a4731a1b29c24a7a4b12aae4a061c960be0af
-    new: 7d2d26909079cdddb6ebb02778a685d2b914738d
+    old: 7d2d26909079cdddb6ebb02778a685d2b914738d
+    new: b9f6a3720c5ed32d6608f50d50ab030f478f293d
     log: |
-         7d2d26909079cdddb6ebb02778a685d2b914738d Replace Justfile with Makefile
+         b9f6a3720c5ed32d6608f50d50ab030f478f293d Replace Justfile with Makefile
          
