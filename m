@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2531840971038397376=="
+Content-Type: multipart/mixed; boundary="===============6471795339689007372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 25 Jun 2026 13:50:34 -0000
-Message-Id: <178239543467.515360.2074928733046485937@gitolite.kernel.org>
+Date: Thu, 25 Jun 2026 13:53:01 -0000
+Message-Id: <178239558139.516774.17207486026939904439@gitolite.kernel.org>
 
---===============2531840971038397376==
+--===============6471795339689007372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: b95e3c7c9118c38629718e3a075ae6fbbde04122
-    new: 59888fee94e031cfcb8224cdf114d4881bb33fb5
-    log: revlist-b95e3c7c9118-59888fee94e0.txt
+  - ref: refs/heads/main
+    old: 502d801f0ab03e4f32f9a33d203154ce84887921
+    new: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
+    log: revlist-502d801f0ab0-ab9de95c9cf9.txt
 
---===============2531840971038397376==
+--===============6471795339689007372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782395354 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782395511 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1782395422-23340439da958baa78845f59730888c27282140a
+nonce 1782395579-be5676ee9d8316bd8a4399caa4e4f5634cb17d36
 
-b95e3c7c9118c38629718e3a075ae6fbbde04122 59888fee94e031cfcb8224cdf114d4881bb33fb5 refs/heads/usb-testing
+502d801f0ab03e4f32f9a33d203154ce84887921 ab9de95c9cf952332ab79453b4b5d1bfca8e514f refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9MdobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x48QANW9pv9ZrOXq/3+XRVDX
-92cqwsL/c6AhmpZpbODuwFtjZzAx118n/1QsfrBfMsE5cbfXKFy7cN/cGTqSgUmh
-mRN/kDnMcRwEmCMToUqOE/AiylVNX2GUGDWu7BhEsLQpKCdQsE1tSnza4dctezDK
-+KKXZpGdDerzYYxm2Yx/VPRgSD5Qn5wDwBqr0zY7YdNFsiRMUNsvz2g8WCBA/OpV
-9OsTX5a/23N51AOa4gy1XyZtlTaJ0MxkASU768ofGFAaFsX35G8uC/S9TXJBDqC/
-GunDPvUFOiyrBYqe8LRcZ2gOtboK94BxOCg85MxcsLifztnjfNgjV9//xPjwBcaT
-RfNYSak54n/hHfpl1jLLvWzcilCfsfjeLKXiGRKJpPfaqAXrJit+mYDMn00DaWum
-m54iKhXVaJyu456i3N+qylMzWae1b/+VRiHDmsIv5lQUWOp+jo/Qz455poD/0TNo
-SqPGAA3l8vnnRlmEjfN5MrzZh7Vw7CFgJaO/GoxNAtV7uRN2tN1cvZt1q9QsbB3f
-GmBlVROAXsmVUg8lQ/7lGkp1gZwKdBARcT1sXXIoZKN6Z03xH/QkWW25MaQ6bhhm
-ZOmIJaajTDVFkmlTgvvoQzSU0DARt6Bdkj2oQcaqQRiTqgy8nhdch0PFt0t1Ki17
-a0HB/bVWtH0x1i3ATT0X9ogJ
-=dNdN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo9MncbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LWYQALAGDeiuVVV34+fWdebE
+FBgNfNfEtwKJUmbX6VYcn3IE00L0ZgzDLmnlEE+3DsrLc4K/vzHZ4jEo7TXwJUzr
+xjaWWZIFNAKIPfetbwYe+sgd1xofweVsVh9SGuLIrnQj1y4i06UdE4kedISNbyT0
+i8CP9dhVLL0Rg7xNVRblqM5Q1m4t2nteMtqiY3rbZ/1xda1f747VSyLrLQZeUzO/
+cCr8Lh1arGbHmKCPSfelx5QxAVhhb8k8i+XtOJVxyiwfc9LOuuN7VeQQHOvxmE0K
+osv2fNsOrbYcqbIssizhtVARlr6eFzKKTQKWPIapjuoVXzEiCYg+C8opxYr0ia7j
+1pE23/TF6ZvEQTbL+7DIqZOWFUR2h/Npde/7tAjzKxBzz7EFIsA2V0anr2mFhxgc
+CgLWKcHm6TQ3YvxHKvA1W+JbV2L2v1g8mPzKbNT4VjgXBk94mB5pMqrBrB0XSyGX
+sOsd5higHNFnehI6Ub6pNOSGA83MqJk5Z6knHxeLk1UqORHgK9LhKQowdRpUOPRD
+lv5p+OhSJLoo6S5VYQod/Vvt5BDgbqIPlpYfCLNYNlXrkvTlr7i4MsdO+ZdY0LKp
+Cv7I1qSHv6iuQ5jalfpciYBoFi0EyKNI8Qxo2LXLsGfaPKY5NbBtTBdLuO9w4Wl6
+51keTBquwOT+rOmJ6TXlcFj4
+=awFH
 -----END PGP SIGNATURE-----
 
---===============2531840971038397376==
+--===============6471795339689007372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b95e3c7c9118-59888fee94e0.txt
+Content-Disposition: attachment; filename=revlist-502d801f0ab0-ab9de95c9cf9.txt
 
+6587b8661a0b61c2f4b260bfc9f0e9ef9de0ea2e dmaengine: mmp_pdma: add SpacemiT K3 support
 33a6c96b31035fccf6968e2d35e3b727cd42580b dt-bindings: dma: qcom,gpi: Document the Eliza GPI DMA engine
 362ee0c0dc522bcf585bde59ceba2038ec583b7d dmaengine: Move MODULE_DEVICE_TABLE next to the table itself
 e373c789bac0ad73b472d8b44714df3bd18a4edf PCI: loongson: Override PCIe bridge supported speeds for Loongson-3C6000 series
@@ -1080,6 +1081,5 @@ d0bcd488c33d6673fe83b9533d6366ad84d2ec0d Merge tag 'irq-msi-2026-06-24' of git:/
 26ae421f7f49f8a6a32d15b1d21a782b46a1bad5 Merge tag 'pci-v7.2-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 dcebfd2c1404d1c931e86ec5168cdc006d503909 Merge tag 'rust-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 ab9de95c9cf952332ab79453b4b5d1bfca8e514f Merge tag 'rust-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-59888fee94e031cfcb8224cdf114d4881bb33fb5 xhci: dbc: support runtime suspend while DbC is in enabled state
 
---===============2531840971038397376==--
+--===============6471795339689007372==--
