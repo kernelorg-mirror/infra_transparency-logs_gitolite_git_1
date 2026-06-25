@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
-Date: Thu, 25 Jun 2026 04:20:02 -0000
-Message-Id: <178236120274.28315.18130600917459285130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 25 Jun 2026 05:02:37 -0000
+Message-Id: <178236375713.58388.11891242177362219749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/harry/linux
-user: harry
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/kmalloc-nolock-fixes-rfc-v1r1
-    old: 0000000000000000000000000000000000000000
-    new: 2a0858ef30ddc3e0907aed0f706635f1da322eb1
+  - ref: refs/heads/master
+    old: 4cfbeee94aa0b15b3d9f62c12b00a3d27303f822
+    new: f88ca6699c7af960c9a048222c72be749f2cb07f
+    log: |
+         f88ca6699c7af960c9a048222c72be749f2cb07f foo
+         
