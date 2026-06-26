@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8225427662474143379=="
+Content-Type: multipart/mixed; boundary="===============2040576637343863649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 26 Jun 2026 19:32:34 -0000
-Message-Id: <178250235435.1845849.7464065598420625476@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 19:32:37 -0000
+Message-Id: <178250235787.1845938.14448812364246357632@gitolite.kernel.org>
 
---===============8225427662474143379==
+--===============2040576637343863649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: ab9de95c9cf952332ab79453b4b5d1bfca8e514f
     new: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     log: revlist-ab9de95c9cf9-51cb1aa1250c.txt
 
---===============8225427662474143379==
+--===============2040576637343863649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502282 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502286 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1782502352-d8b3a82a155b3f982c41c6a002c174e52c8902b9
+nonce 1782502356-60597eae086fb2dbbcfec44fb32f5463e702ae97
 
-ab9de95c9cf952332ab79453b4b5d1bfca8e514f 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 refs/heads/usb-next
+ab9de95c9cf952332ab79453b4b5d1bfca8e514f 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+04obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ULkQAIVo3C4Bcv+gDSBBBBJQ
-XG7zEJYAMa/imzysRo7OnZQtfHYJSz6tH60RBaVaEhpkqovEmoDj94r7bAGfMmXw
-21neGs1gF/EBNRMZi6DQux/54ehol6grRs4f9HgguTNsE0p7k/8ospmBrOHaXQCw
-p6Hg72QRJweapFLvLMjMWKY2X0r6fDs6S03bJZlEL6LvlmUL+8GrHViSo2Dp1xFA
-S9KhDvG56Q9orAA6M+BfQkGqu1kCIIXbDVw0WUZfL3hhtxsrG4PDQrE6hCjNXNqx
-RRDoC4R35iUkdVL+PIfaQXVabbrr0pV/RBF46H0W/d90zMY6SyKLeO7PFHmH5mWM
-WQbPXgzES1Wxj4n7AVNQ32tOMlTLMSOl09BZYSDC6an2VTc72coZacKvB10YzIHf
-lWJv8MSkGIuupve7EUeZecS67NBiHBiyQ3yQRGwUl1I3r5SBaAYXWrV0P7m4KnBp
-dBzwMpOLr9E+nWY/+lh+ATfe2E5QlqI9PDEMivkp2gW2De/5h1sKzuhaNrs9atwL
-UrYVAtpscKTBirZUaOPjU3Vl3nfpDijEpqYQoymJvv9XpG0E1VWemk6/jTQ5OnRD
-WxUVlRGoGrmT+um4uK7RGjUzr9x7xJOK9xIlGQGxO4YmEA0+fZPITPETDJHrlR5O
-VDzuPg3vx9/0fIYVIYLGTJNt
-=/Vm/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+044bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hgEQAJIiwCm8yrtifo+o9D3K
+MzRSzkIptNu7lcnYQteS9Dc1tPTsCrBk4y6NRpe/PszjIJKRM41LppDF+Royh7ZP
+p7pEjlw7K03DX6xvG1QNQ2qm2/SYrwaX+5jHPYe+bC9yeD6swreEeYoIB5Cl//Nz
+lQmEUVJ5ETeowsry++183PtNJH47GdDpVKFyb8uMD45JJMZGH0FHyjXsKtwKjCG3
+qbAOCyu4RIoFO8wgR0TJDLRCGtANS0UkqOVaHDT10NaHOyVYWtea5c/W+xSPRjl4
+pWLzgGEJ1Nub2IhPlW+df9OwFGhczYHtip1o9Yt4xVrRH89Ry/nqrIKQalLobsBV
+k7DyJR0KyaTN97lDlNe/58u+xi4JAxe/mGyHc+G0LMGMSAyT5SDraK3UHmcNwPRS
+aFW4g7LxVEv3WsN9Jt5EiafkJF9hkpYp9Nr4JC6OviaWe7jEmX3lFCPGYPrdDeFz
+Y3Lt9H+LZ91a3A/QqJWTlJGx8CdtRrLe0YhMHY+bKxB/fQ2ZpdAUftkyOXTm55Va
+0rVe2EMkPvjD8tXB5OiTWf94elKAtdNGh7ojOR6zAU7ig8BrUZUxQKPt65+ehA5+
+wiCqTVI3ztaRn+Rr4WhqnK6hJz7iF7whmUwVZezxAE5qUZKTT5pJlltTFvLxOj74
+AwrYQTsWec9uttiZJF++rTVX
+=mAUB
 -----END PGP SIGNATURE-----
 
---===============8225427662474143379==
+--===============2040576637343863649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -671,4 +671,4 @@ c292ea294dde77ae442d3d764f53c251d2d6df90 Merge tag 'ecryptfs-7.2-rc1-updates' of
 e7c93451eeb06b67b4eb23017824b3dee90b360e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 Merge tag 'loongarch-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============8225427662474143379==--
+--===============2040576637343863649==--
