@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 26 Jun 2026 16:30:15 -0000
-Message-Id: <178249141552.1712723.12577485694882159903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 26 Jun 2026 16:33:21 -0000
+Message-Id: <178249160104.1714029.15837205056283922963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/pending
-    old: 1acb87ec123ecd7f663dbe6494347a2c0c2130a9
-    new: 5cf3b81486a3e48069eb85c01a4f89ef3f868708
+  - ref: refs/heads/master
+    old: f31c00c377ccf07c85442712f7c940a855cb3371
+    new: 27c03cf43897c5e926e027898eecb4f8a4672900
     log: |
-         5cf3b81486a3e48069eb85c01a4f89ef3f868708 wifi: ath12k: avoid setting 320MHz support on non 6GHz band
+         27c03cf43897c5e926e027898eecb4f8a4672900 tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
          
