@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1638720992039156452=="
+Content-Type: multipart/mixed; boundary="===============4863082489810774770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 26 Jun 2026 19:36:42 -0000
-Message-Id: <178250260244.1853529.1406856531370514865@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 19:37:02 -0000
+Message-Id: <178250262243.1853834.12647222019778252075@gitolite.kernel.org>
 
---===============1638720992039156452==
+--===============4863082489810774770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,64 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: a77c403d1356c85d5d66a716d831ac396c46e528
-    new: ad180a0d1e3c6d17bd2fdb68fae8bdab449b04d6
-    log: revlist-a77c403d1356-ad180a0d1e3c.txt
+  - ref: refs/heads/module_version_removal
+    old: aa21031ecace7ff0e4a5b2942947c97f8b7932f1
+    new: 84fcd35365f9917873775ceb1539f6a1fddb048a
+    log: revlist-aa21031ecace-84fcd35365f9.txt
 
---===============1638720992039156452==
+--===============4863082489810774770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502516 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502535 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1782502585-c834ec21bf142ca4ae5d27b31ef976f9d416526b
+nonce 1782502604-f09a99643841eb1c8e0b515fc8d96cd20645bcf8
 
-a77c403d1356c85d5d66a716d831ac396c46e528 ad180a0d1e3c6d17bd2fdb68fae8bdab449b04d6 refs/heads/clanker
+aa21031ecace7ff0e4a5b2942947c97f8b7932f1 84fcd35365f9917873775ceb1539f6a1fddb048a refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+1HQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U08P/RvbDXwG/HvWd8eNGLkc
-4uY7xEaBFgmq3bTSzMn2LVIQGrKyoL307QdDs6ZG243TpGC/fZqHqzrjoxAViIMG
-KsJY+kJq15Slj7yfoA12iQ4MW5Wl80HOx6eraSt0yN1LwW0/VvoWJ5RGh4Vj86T8
-5nc9cTFocDwTgfchtaNULvmWmc1cM9y4ixeNe+EIygBMu57QKx44I9Mea2eOIo+5
-gpU9SWXa8y67a6OnxKtGxSc5ou8rZ7+u2GvxQWE0JycVTMaT2JUPBty27yaS92dn
-0wweP3LugH8rXqbhTnf+N7rKQcXtcMPh0e+sFzT6PwOkiBlwwTDyO3eV/PDggSH1
-KYlJRvfNGk+6QxzT3OMwr4HCa1ryXttma+0DN71FO9CxPigHRymc5uHi6ZqOhVLe
-Cje+EqY7f/X9KNezalpcT56yHmf16A5iGmc6P+lzEJp9R0p22HhiI5ZZFe43WMYQ
-HnhBJuybPMKIgIfyRtHl/M/gc3H5ow1X5q/6ka0PgYmFENRA+pls4nyT5Zfhumk6
-TLIp/NinJN7MYMYaG1MUHWiNqdrNwFAFQJCbjeFL0l3lMsGeVPvBJwfCP1Moq6jU
-IoQEHW8JYvYpX1mYkUQNpDw1cxr4udobaxbXgceI6o0hikBBqXLSisg+WbdHtDNc
-OFVsp+FTyVRFXgwgLdCTGXHf
-=nB7/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+1IcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KjEP/R3wdpwcyLGKCiN4m+uE
+kASVXO1Bb3QUfaEkcGDREuNebITTSR1HamwsWF6hLscaMvGhJALermwTBThtpANU
+FVEpjIVnJhnAppFAm3jzFMQEhk5xytjD55W3YgVzI+8Akxx9kCqvbjcLvbwlcAYF
+x6bdMt82lFnLfd0l5OP3/k6JPvRPp0EyE/nZz0ZUtdUKAmYj4NPU41VujaFPOBkX
+Mnps9Loxh7tyab74yIYNrmP1BK+jTPURZKEsutSQwLANCETaICfc6PjsGeZTn1yQ
+lUiFX2utGt3fvjZpC1Z+R7Fq0//exdh7+tVTG355s65/wbihLXBlFlbFSlIOJQ5Q
+/Vrddsh4UMhRilmOMSrSaYBNhOKbRxl97WJG25GY3lI1gdknBsqqHBVB7D6Iu5wh
+gVlejocHkh58386DFHjkEMdhhRIeKkDCn1FGRe09h4vV9NVEOjO3L17kVo1SP+Cd
+8Wtj8vtAAa0lIa6myMn5FvqhOv7VRaEl2T5pjsS4C7Kr7u0wT3DPBqCJcy2caSqQ
+AW2MzM/61SvcCNLskj7RNnXNFEkg8CiYWu2cj2Iq7FrWD7pHuECe6VZj5TNsFzNh
+YgKt8Nr5gY4IkgXY6/66iUlEpH5OmpbrwPA1fMUJ4q5oa74LRxAoFd0K4ymScFoR
+jjiYQRVbHARLAL5d66J8hCau
+=lAeA
 -----END PGP SIGNATURE-----
 
---===============1638720992039156452==
+--===============4863082489810774770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a77c403d1356-ad180a0d1e3c.txt
+Content-Disposition: attachment; filename=revlist-aa21031ecace-84fcd35365f9.txt
 
+d67c728f07fca2ee6ffdc6dd4421cf2e8691f4d1 batman-adv: tp_meter: annotate last_recv_time access with READ/WRITE_ONCE
+6dde0cfcb36e4d5b3de35b75696937478441eed4 batman-adv: tp_meter: prevent parallel modifications of last_recv
+cbde75c38b21f022891525078622587ad557b7c1 batman-adv: tp_meter: handle overlapping packets
+c3382d1e69136ce0aa755fbe09512e03cdd95944 apparmor: add Georgia Garcia as co-maintainer of apparmor
+f64e03da0d83cb173743888bff4a7e61476a8fc2 Revert "PCI/MSI: Unmap MSI-X region on error"
+c0c07529485bb8026b99cf5160d668654074f7dc Merge tag 'socfpga_clk_update_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into clk-socfpga
+392627674a6114c9176a64540760d097611a3c9f Merge tag 'clk-meson-v7.2-1' of ssh://github.com/BayLibre/clk-meson into clk-amlogic
+5c2fd8bb7314edf7348c17426a05e70c9219fe71 Merge tag 'renesas-clk-for-v7.2-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
+df2e28941e8abbae432d019dca0911292b8f4ac7 Merge tag 'clk-canaan-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into clk-canaan
+c400e4ceb915effc506bbdb1756b3ac587fa3a82 Merge tag 'ti-k3-sci-clk-for-v7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into clk-ti
+3bb620aefbe01d7a48ace99d9484b9772d360b8f Merge tag 'samsung-clk-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-samsung
+0f92f188c8622b7e64d35be99e7ad946a04d5242 Merge tag 'v7.2-rockchip-clk1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-rockchip
+834b14a5c4a753a637939008d6c59d4fdc299c7e Merge tag 'spacemit-clk-for-7.2-1' of ssh://github.com/spacemit-com/linux into clk-spacemit
+92ab4c80aa94beb89e7d684923147de207f68c5f Merge tag 'clk-microchip-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
+19ec63c4efa84db23b8de192d792783f70f90fae Merge tag 'clk-microchip-fixes-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
+9e5c34544e37fb3bda02346b38c57e0aae724e57 Merge tag 'qcom-clk-for-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into clk-qcom
+4483efe4f21510b30c24bc97d9fd0e8feab94125 apparmor: fix shadowing of plabel that prevents cache from being updated
 b1aea2c1960771a276d7e68c7424168eccd0c3da apparmor: fix race in unix socket mediation when peer_path is used
 6d25e7b47616cb2db43351210929c8f19dc305a3 apparmor: fix refcount leak when updating the sk_ctx
 f86ee868fd54c372255519284e1c0f4f7707c045 apparmor: add a conditional version of get_newest_label
@@ -1063,23 +1080,6 @@ ad054be8117d06838b4d904dc57e0807768658cb Merge tag 'v7.2-rc-part2-smb3-client-fi
 c292ea294dde77ae442d3d764f53c251d2d6df90 Merge tag 'ecryptfs-7.2-rc1-updates' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs
 e7c93451eeb06b67b4eb23017824b3dee90b360e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 Merge tag 'loongarch-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-063b5749d297a35fa97fcc494cdc8e2ed7ba0b62 net: mctp: usb: properly drop the usb interface on probe error
-6d1393e41301e877ebb1d0cebb9ec3a9d2ba7ab7 wifi: rtw88: properly drop usb interface reference on error
-b12bfc211f1907790426ea239917a6b361a21554 mmc: moxart: fix potential use-after-free on remove path.
-fdedf5954535eb4d7e0f7e96708d275e5c28b11d mmc: meson-gx: fix potential use-after-free on remove path.
-3d71b737d35851f4212f407e47cd84087e26da38 f2fs: fix potential deadlock in f2fs_convert_inline_inode
-57061bcd26312dac1ec3e6551b68ab6d3b9ae663 drm/amdkfd: stop speculation on the kfd_ioctl path
-7a99a51b74f86fe4e6ad284bafc5f6c571cde709 media: adv7604: avoid negative array index in log_status when cp_read fails
-a923634ebfa0148e5c43bb4cde2821a262a67a29 media: stv090x: bound DiSEqC reply length to msg[] size
-76f22a419b3603c0d0bdadd49cc82e4b9427e75a media: stv0900: bound DiSEqC reply length to msg[] size
-015a87d13d62173585bd2c1789d6a9cc85b26f90 NFC: digital: Bounds check Felica response before sensf_res memcpy
-69736ac0279bb78f4376c6f0615a2b276aa306e2 net: usb: cdc_ncm: reject negative chained NDP offsets
-0b16eafd8ab12db0e77f8eb0757fe3aa36ca91ce net: sched: em_text: require NUL-terminated algo name
-497ac0da958083a3778a97aea02c5af567bc9c04 staging: rtl8723bs: fix OOB write in HT_caps_handler()
-44ed1022d33300a7ff68f22a471c3d9159bab936 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-c202b8e2274192dca21cbfc6b13b25ce5d01fa35 io_uring: depend on MMU
-d7e52f9a3957d64b1763ecd31d15cd449bfe9224 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-5a0fb44f8355b0b7a5ef6da581a2310c934eb327 usb: typec: tcpm: validate VDO count before reading Attention status VDO
-ad180a0d1e3c6d17bd2fdb68fae8bdab449b04d6 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+84fcd35365f9917873775ceb1539f6a1fddb048a module: remove MODULE_VERSION()
 
---===============1638720992039156452==--
+--===============4863082489810774770==--
