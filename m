@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1708677407005911827=="
+Content-Type: multipart/mixed; boundary="===============3011693260670633169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 26 Jun 2026 19:34:11 -0000
-Message-Id: <178250245101.1848506.5709939418786373498@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 19:34:15 -0000
+Message-Id: <178250245520.1848722.15601920222815623850@gitolite.kernel.org>
 
---===============1708677407005911827==
+--===============3011693260670633169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 502d801f0ab03e4f32f9a33d203154ce84887921
     new: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     log: revlist-502d801f0ab0-51cb1aa1250c.txt
 
---===============1708677407005911827==
+--===============3011693260670633169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502379 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502384 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1782502449-e664fd8e9b08a60d544d28e6da37a0c9597125d7
+nonce 1782502454-7a96de3dc75b92b519d15a8eb682b0e61ad69dda
 
-502d801f0ab03e4f32f9a33d203154ce84887921 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 refs/heads/driver-core-next
+502d801f0ab03e4f32f9a33d203154ce84887921 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+0+sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U5wP/jmhv3foQqsXiB9HEy7x
-37FTmFGSv26RYKhMDhrvdiNL6gKtBjhV+1psQWn2/XaRSM1TcQe3sW2t0so5DzwY
-JpbckbZHuLe+zWTsooCHtp7+GFF3Aes+n4BrcgSZVkbRjBzMGCs6Hryl8vQnFEoQ
-rXjsiugc4M0HBS7BlssDrbxeYwDQoTDsvNTfKByWaWB3a94B28KUAcXxqS2ofUr7
-dDUbnH8ewHcVyVKJX77YH5XE9cSp/i17v1cZGRwdCrFhfWPNMBnYydEQjuqdSg8h
-oiDtLRFcJg3r6cd2te/oHiAm5WkfS+JRny9gfzH4SYd3kUbE2HA0/tAWtdnSyRrv
-D+ZQAVhhYq7TASN1I2KHs7pInmotEST8ZXNje7zXsVpDhbYkjRxIn83IXh2PgRVE
-wMMe9+jHqEbv4K5VDiawspMNty/MNOLLksfnTlPOB4qsbqQmpR5hdGqjJK1axx3j
-kjmZzYhEYrMkhwe9mIy/GtH5oSrfluqvjyVqYEWYy7wEp1Kzts5X/pS53CDAWncs
-r1teSfV6AQk4thh8i8zYB6Y6AJ3NY+phYs6fvIpZ/qGMmSYQGIC+uq2w2FuXNKsR
-7hi+G1QLA276apGcXuCfqw4ntE2ToYNuoeWnZMHDcWCJzIzrtDtGSP2tu1f8JkfV
-5kJk0lLraC6eIiCe57Y+NnyB
-=tqyk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+0/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8GcQAJ0bxyzCxL5p7pBquYLS
+0k2NbAY3INGKnPKzeT4yxhQdLfl6nTVYJmYQ5IbqefgwXpjAag+DvoZxsJIjKLMT
+YJihaMCOqea/FLC9iD1JP4w2Svz2EGhnovqJrPSPdrJtiqCl0bZtNUBzyJeAf8wv
+ijVwBRepF69vzOkAiUnSnIwJjt5FOFQIOphByijQX1j51gd5TtAYbPISby3oaWSq
+E5e5VSs0V3Pk3L/+hstrvhPBVO9sJ8XsriEBZDAEMGyooLr4zubYaS9w+2a3LKMx
+sLQ39/j2rhwIB7LPx/wetMBANL13zk0QJo5fXzD5qMJ32p3d2ahyR7Mwun2c8jC0
+GAte5TAmvU+cfLme9wiOqbRSg7zGQujMPRf/3LBSIlbIrcsKogZf3ZYulZt6dFiB
+J9pfvJzbQuMWJqcevjEBV2Gkk918sdMWFsVgJh2K7Tj904Ww2NPxXaVGhj2uNNGP
+Tk1ufTvxuHo+BEBHIS77BUeT9ANymTRWuqaOk9MP32elNfkgfLD5TXDkkh8n3fUf
+3WJTSzPiPb459GX2mQu5xR31ADsLiiYpFvXc5RZgGUE0rr5JIuhXIRDollKoOiXx
+EJHZGWOTRgvIcAG0B1MbdQvMVMLYEyQKiDRwY3xnyhPhQ6+5OEeV/w/gDCCvvYSQ
+gdxb32J633r62JJepr6vZ1U/
+=0Kz6
 -----END PGP SIGNATURE-----
 
---===============1708677407005911827==
+--===============3011693260670633169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ c292ea294dde77ae442d3d764f53c251d2d6df90 Merge tag 'ecryptfs-7.2-rc1-updates' of
 e7c93451eeb06b67b4eb23017824b3dee90b360e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 Merge tag 'loongarch-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============1708677407005911827==--
+--===============3011693260670633169==--
