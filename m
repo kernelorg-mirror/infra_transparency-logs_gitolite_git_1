@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 26 Jun 2026 05:45:39 -0000
-Message-Id: <178245273933.1238675.235566229428492296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 26 Jun 2026 06:00:55 -0000
+Message-Id: <178245365528.1249488.1437780384961859156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: 677b16108a7457c1fa1cd1b39301e46dfc3aed06
-    new: 9dbbe81962b973fe71592ad8615d1e6cd28451bf
+  - ref: refs/heads/experimental-tests
+    old: 03e169649fc93b5abbd15e6a5b07ec920e5d358f
+    new: e2849ab19cdca2039e384118e946bb3df4570fcb
     log: |
-         9dbbe81962b973fe71592ad8615d1e6cd28451bf ALSA: hda/realtek: Update Acer Nitro ANV15-41 quirk to enable mute LED
-         
-  - ref: refs/heads/for-next
-    old: 677b16108a7457c1fa1cd1b39301e46dfc3aed06
-    new: 9dbbe81962b973fe71592ad8615d1e6cd28451bf
-    log: |
-         9dbbe81962b973fe71592ad8615d1e6cd28451bf ALSA: hda/realtek: Update Acer Nitro ANV15-41 quirk to enable mute LED
-         
-  - ref: refs/heads/master
-    old: a29219635709e9b43512c07ffbe087c91286f47c
-    new: ffdb9589be15d50677b611aa813607abdc8c5938
-    log: |
-         9dbbe81962b973fe71592ad8615d1e6cd28451bf ALSA: hda/realtek: Update Acer Nitro ANV15-41 quirk to enable mute LED
-         ffdb9589be15d50677b611aa813607abdc8c5938 Merge branch 'for-linus'
+         e2849ab19cdca2039e384118e946bb3df4570fcb erofs-utils: tests: add test for chunk-based inodes
          
