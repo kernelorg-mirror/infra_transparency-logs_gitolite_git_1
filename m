@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8567650519872429989=="
+Content-Type: multipart/mixed; boundary="===============2600557885577457065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jun 2026 20:06:23 -0000
-Message-Id: <178250438326.1877583.4257063609698309539@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 20:06:29 -0000
+Message-Id: <178250438945.1877825.16784330092031028460@gitolite.kernel.org>
 
---===============8567650519872429989==
+--===============2600557885577457065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b85966adbf5de0668a815c6e3527f87e0c387fb4
     new: 805185b7c7a1069e407b6f7b3bc98e44d415f484
     log: revlist-b85966adbf5d-805185b7c7a1.txt
 
---===============8567650519872429989==
+--===============2600557885577457065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fe9f4ee6c61a1410afd73bf011de5ae618004796 Merge branch 'net-avoid-nested-up-notif
 c75597caada080effbfbc0a7fb10dc2a3bb543ad Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 805185b7c7a1069e407b6f7b3bc98e44d415f484 Merge tag 'net-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8567650519872429989==--
+--===============2600557885577457065==--
