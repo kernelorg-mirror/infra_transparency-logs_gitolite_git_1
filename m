@@ -1,31 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 26 Jun 2026 11:06:17 -0000
-Message-Id: <178247197788.1466934.3432454013997056421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 26 Jun 2026 11:06:58 -0000
+Message-Id: <178247201874.1467349.1881291570874306640@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 249742d56cb7ec14689db8182e5a3a71f4199b1c
-    new: e67251245f42eb4479636d4c082cdbe60b23f5b3
+    old: 3c2adcb6e4222768eb8604508ebfecb39915fbb3
+    new: 68a93ef17e2b218868faa2ef47895d890246e648
     log: |
-         64184f07e7516eb3ac1839387eb7cbe2dbeaa96f ASoC: tas2781: Update default register address to TAS2563
-         c5315c8dcbcb9271f59662104428cd9229c9a7cb ASoC: codecs: pcm512x: only print info once on no sclk
-         cf6f56990ea21172e085f0588e5bbf2089ce8f58 ASoC: fsl_asrc_dma: fix eDMA maxburst misalignment with channel count
-         e67251245f42eb4479636d4c082cdbe60b23f5b3 Merge remote-tracking branch 'asoc/for-7.1' into asoc-linus
+         6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
+         c1bab046d4786c5b17aab7c5225bf0d4a2a2d19b spi: core: Abort active target transfer on controller suspend
+         68a93ef17e2b218868faa2ef47895d890246e648 Merge remote-tracking branch 'spi/for-7.1' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 249742d56cb7ec14689db8182e5a3a71f4199b1c
-    new: e67251245f42eb4479636d4c082cdbe60b23f5b3
+    old: 3c2adcb6e4222768eb8604508ebfecb39915fbb3
+    new: 68a93ef17e2b218868faa2ef47895d890246e648
     log: |
-         64184f07e7516eb3ac1839387eb7cbe2dbeaa96f ASoC: tas2781: Update default register address to TAS2563
-         c5315c8dcbcb9271f59662104428cd9229c9a7cb ASoC: codecs: pcm512x: only print info once on no sclk
-         cf6f56990ea21172e085f0588e5bbf2089ce8f58 ASoC: fsl_asrc_dma: fix eDMA maxburst misalignment with channel count
-         e67251245f42eb4479636d4c082cdbe60b23f5b3 Merge remote-tracking branch 'asoc/for-7.1' into asoc-linus
+         6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
+         c1bab046d4786c5b17aab7c5225bf0d4a2a2d19b spi: core: Abort active target transfer on controller suspend
+         68a93ef17e2b218868faa2ef47895d890246e648 Merge remote-tracking branch 'spi/for-7.1' into spi-linus
          
