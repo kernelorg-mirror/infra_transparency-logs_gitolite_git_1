@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2891684999205943963=="
+Content-Type: multipart/mixed; boundary="===============6773710846734768085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 26 Jun 2026 16:34:20 -0000
-Message-Id: <178249166034.1714721.17197172896814519376@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 16:34:45 -0000
+Message-Id: <178249168515.1715232.8232608640560300423@gitolite.kernel.org>
 
---===============2891684999205943963==
+--===============6773710846734768085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 27c03cf43897c5e926e027898eecb4f8a4672900
+  - ref: refs/heads/for-next-tpm
+    old: f31c00c377ccf07c85442712f7c940a855cb3371
     new: 25e4f7b4e006804b55716afa2cc8ef77c0baaecd
-    log: revlist-27c03cf43897-25e4f7b4e006.txt
+    log: revlist-f31c00c377cc-25e4f7b4e006.txt
 
---===============2891684999205943963==
+--===============6773710846734768085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27c03cf43897-25e4f7b4e006.txt
+Content-Disposition: attachment; filename=revlist-f31c00c377cc-25e4f7b4e006.txt
 
 7cf5e4fc36d3a77467dd0d02a45371ea4350410b NFS: correct CONFIG_NFS_V4 macro name in #endif comment
 48c0162f647bb47e6084ffbc71b8f213f5e2f4f8 nvmet-rdma: handle inline data with a nonzero offset
@@ -1051,4 +1051,4 @@ e7c93451eeb06b67b4eb23017824b3dee90b360e Merge tag 'arm64-fixes' of git://git.ke
 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 Merge tag 'loongarch-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 25e4f7b4e006804b55716afa2cc8ef77c0baaecd tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
 
---===============2891684999205943963==--
+--===============6773710846734768085==--
