@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 26 Jun 2026 00:51:32 -0000
-Message-Id: <178243509231.1019817.16276049062339502152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 26 Jun 2026 00:57:46 -0000
+Message-Id: <178243546615.1023978.12462644897775752833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 66bb952b449eac53dffb341108251d632767fd2d
-    new: fbc10dff7846206585b02864fef4ebfd7cadf6e2
+    old: a91fafbb6dfe9cb779f6b9c3b94142e9f271a042
+    new: df3153758ddba58b546f9fc85e5274bfcaa0bf51
     log: |
-         931a577fc79ea6a169a33f5538f4c1433235c358 bpf: Reject offset refcount acquire arguments
-         0371fb57a0c941592a5ad5ad5ac597d3b653ee73 selftests/bpf: Cover refcount acquire node offsets
-         fbc10dff7846206585b02864fef4ebfd7cadf6e2 Merge branch 'bpf-reject-offset-refcount-acquire-arguments'
+         69fdbe63e16919a885a8f9441e248ce0ddf15b25 bpf: Preserve scalar zero spills for stack reads
+         e693da913d2cdd69c1612fbf71bdf2b6771f6dba selftests/bpf: Cover stack reads from zero spills
+         26b29f868be647a59b49047d2444c424c5ec2bce Merge branch 'bpf-preserve-scalar-zero-spills-for-stack-reads'
+         df3153758ddba58b546f9fc85e5274bfcaa0bf51 libbpf: fix -Wformat warnings from format/argument type mismatches
          
