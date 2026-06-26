@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2465966535020267717=="
+Content-Type: multipart/mixed; boundary="===============0272668436600835810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 26 Jun 2026 00:36:00 -0000
-Message-Id: <178243416035.1007216.3751368893714703134@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 00:36:07 -0000
+Message-Id: <178243416722.1007480.11868223436152446594@gitolite.kernel.org>
 
---===============2465966535020267717==
+--===============0272668436600835810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a975094bf98ca97be9146f9d3b5681a6f9cf5ce3
     new: 4edcdefd4083ae04b1a5656f4be6cd83ae919ef4
     log: revlist-a975094bf98c-4edcdefd4083.txt
 
---===============2465966535020267717==
+--===============0272668436600835810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ca3e303061a4abbb92cf306aea2057c59a734757 Merge tag 'spmi-for-linus' of git://git
 8c04c1292dca29a57ea82c6a44348be49749fc22 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 4edcdefd4083ae04b1a5656f4be6cd83ae919ef4 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============2465966535020267717==--
+--===============0272668436600835810==--
