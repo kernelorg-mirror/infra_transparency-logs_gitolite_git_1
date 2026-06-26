@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 26 Jun 2026 21:52:28 -0000
-Message-Id: <178251074882.1956999.9517592668909640944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Fri, 26 Jun 2026 22:04:59 -0000
+Message-Id: <178251149920.1964799.3107436511394165656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/tags/rtc-7.2
+  - ref: refs/heads/kvm-arm64/s2pie
     old: 0000000000000000000000000000000000000000
-    new: e9c6f61b60f0eaf389b17fff22a053afc390ffdb
+    new: 5d8fe5eceb063b5f855574dea026d936021c3fc2
