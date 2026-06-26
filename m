@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 26 Jun 2026 15:19:16 -0000
-Message-Id: <178248715628.1654179.17354045702904803710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 26 Jun 2026 15:28:32 -0000
+Message-Id: <178248771254.1662369.10518211802294475977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 2d05f31155de36ba69fbaa23f37575cf7c91a560
-    new: fedb5572e821ce72f2ce46bba59f8a838f05dff3
-    log: |
-         93ca293339aa761e979f8d1a6f6a66575e99a538 patches/next: add split improvement from Jiayuan
-         3e92ac090256fac604f04ee688ee006261e2bb5e patches/next: move 7.3 cleanup to under review section
-         fedb5572e821ce72f2ce46bba59f8a838f05dff3 patches/next: add changelog to Jiatuan's patch
-         
+  - ref: refs/tags/sound-fix-7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7c19bab0a05399562cee3b28c154be31d0f48c5f
