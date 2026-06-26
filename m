@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5499456949243212523=="
+Content-Type: multipart/mixed; boundary="===============4550609832302582703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 26 Jun 2026 18:48:28 -0000
-Message-Id: <178249970857.1813988.345697385839222958@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 18:49:28 -0000
+Message-Id: <178249976802.1814462.10146710702203408007@gitolite.kernel.org>
 
---===============5499456949243212523==
+--===============4550609832302582703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,157 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: b85966adbf5de0668a815c6e3527f87e0c387fb4
-    new: 805185b7c7a1069e407b6f7b3bc98e44d415f484
-    log: revlist-b85966adbf5d-805185b7c7a1.txt
+  - ref: refs/heads/dev-queue
+    old: 5cca9023832afcdb4d8121797e52796bbbf94e2e
+    new: 303a2bd5a155ff8a238eac1b45163510f7ccfa36
+    log: revlist-5cca9023832a-303a2bd5a155.txt
 
---===============5499456949243212523==
+--===============4550609832302582703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b85966adbf5d-805185b7c7a1.txt
+Content-Disposition: attachment; filename=revlist-5cca9023832a-303a2bd5a155.txt
 
-9107a3d8bbde1b4a38db01422601906f81f04ad5 fuse: expand MAINTAINERS with subsystem info, update mailing list
-c51248524a0f546b9a9b44710038f5663688ed10 fuse: use current creds for backing files
-03728af4aeef6ee9914f93d60936db351e106863 fuse: convert page array allocation to kcalloc()
-5ac67ab433d95bef5dcb8d18db0e3e4616f576cb fuse: use QSTR() instead of QSTR_INIT() in fuse_get_dentry
-9f3e7166aaa69a8f7c535e267ac23ecc931c3697 fuse: Add SPDX ID lines to some files
-e0dcd3f02c5b406b506b085ea41b14218c98b4a2 fuse: add fuse_request_sent tracepoint
-a9489fbda747ca8eb183161f887f5295df3564fe fuse: dax: Move long delayed work on system_dfl_long_wq
-521fed4886ccb3b78846595e843ec9419d343623 fuse: use READ_ONCE in fuse_chan_num_background()
-1ca4b8b32e511654d5bb89da6c3d850f541e789e fuse: remove stray newline in fuse_dev_do_read()
-ac7304fa1de49e4663307dc92f34e455daa15a74 fuse: clean up interrupt reading
-71947173cef279be5eed209ec28f8c11f9d73159 fuse: set ff->flock only on success
-2b0408d0284f4ff376cf5610fa8c9905e93c2541 fuse: invalidate page cache after DIO and async DIO writes
-6af3330ec5d5fb8c06c04eb520a71cf73ea5a765 virtio-fs: avoid double-free on failed queue setup
-0fa8346099b5794b9909989e3f1cb617e9d8d3fa fuse: invalidate readdir cache on epoch bump
-6813da09506842612cce91f88ef567ca569d9663 fuse-uring: separate next request fetching from sending logic
-6582f8a06698403dccf8a01b7eef176b2c6dd7ff fuse-uring: refactor io-uring header copying to ring
-ba7d47897fd895533c19af436ca7fc4f6b171238 fuse-uring: refactor io-uring header copying from ring
-b2bbd7dcd2433e29b7e9a726aaa9571a78fa8d5f fuse-uring: use enum types for header copying
-c0f9203732fc70de8d20697270bfe405481eac14 fuse-uring: refactor setting up copy state for payload copying
-8bbb2ad1f687633a991839bd3efae04ccfb29e19 fuse-uring: use named constants for io-uring iovec indices
-c9a5688380865b968f7aef6534de632857ab5be0 KVM: s390: Add map/unmap ioctl and clean mappings post-guest
-1e95e3bc6b0572e60a98c7dde52e27259a802d4d KVM: s390: Enable adapter_indicators_set to use mapped pages
-a868b30492c59f398359b7891293bbde8d126a51 KVM: s390: Introducing kvm_arch_set_irq_inatomic fast inject
-cb481e59ea6cae3b7796ac1d7a22b6b24c3f3c0b KEYS: fix overflow in keyctl_pkey_params_get_2()
-3a1705d180b203a6764d2a142d602bbf522d339b KEYS: encrypted: Remove unnecessary selection of CRYPTO_RNG
-4d05e948cebe03974ab9927daee55273207fdc22 KEYS: trusted: Debugging as a feature
-8f2e22cfc45903b28bb9c5829a9ddbccc5001ea3 keys: use kmalloc_flex in user_preparse
-cc99abbe2aa7aed48fc7d8d21514240e063ea732 keys/trusted_keys: mark 'migratable' as __ro_after_init
-c1201b37f666f6466ab1fd3a381c2b7a4b7e9fee KEYS: Use acquire when reading state in keyring search
-44b9597fea4b4d6d79d8b70a297ea425e05543c1 keys: Replace strcpy(derived_buf, "AUTH_KEY") with strscpy(..., HASH_SIZE)
-0934c38b12bd838cc133d5895fc8b42c2c1717ee keys: prevent slab cache merging for key_jar
-fd15b457a86939c38aa12116adabd8ff686c5e51 keys: Pin request_key_auth payload in instantiate paths
-10366fe27a4ce08a392eb16ed48ea0a440e671c2 keys: request_key: replace BUG with return -EINVAL
-1b9524250996b1f2f49833a1b2ae21c34e486f85 keys: keyctl_pkey: replace BUG with return -EOPNOTSUPP
-7d87a5a284bb34edb3f4e7e312ef403b3385a7b7 fuse-uring: clear ent->fuse_req in commit_fetch error path
-6df6b1f2c49678211f65647c300bc51dda02893b HID: hidpp: fix potential UAF in hidpp_connect_event()
-8b2c4f88c6ee86efdbc81bed1684e13e2efebd53 pinctrl: Export pinctrl_get_group_selector()
-4dffb0a5d1c29163cd4ab8f1a259a7278c94716a Merge tag 'kvm-s390-next-7.2-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-677d68682ebb30e9366f3b387fc16b19844bb19e Merge tag 'loongarch-kvm-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson into HEAD
-c6f1b611c66f835180e3cb0d3a5df31a61f74d08 Merge tag 'kvm-riscv-7.2-1' of https://github.com/kvm-riscv/linux into HEAD
-15c0f794acc900cc71b5a54b35c864c88e4ec8bc ALSA: usb-audio: Add iface reset and delay quirk for XIBERIA K03S
-61a7e4c2c98c08da6bbf8c30c71da57610930ae7 dt-bindings: vendor-prefixes: add Gira
-fe47b8b1c0b8c502c090a3de7b1fe6412f0133da s390/timex: Move union tod_clock type to separate header
-4fe307f0f5c1fa6afff9175f59930dcd39ee99fd s390/irq/idle: Use stcke instead of stckf for time stamps
-670e057744e0cc8047bf96d15d18c46e16ae2e93 s390/idle: Provide arch specific kcpustat_field_idle()/kcpustat_field_iowait()
-968ec3f960d013fc74d3a9bed3ae9ab9a44cb951 s390/idle: Remove idle time and count sysfs files
-575c6d2bc470ec809d6c803ec0db9e61762cfa32 perf inject/aslr: Implement sample address remapping
-d6dbf2d4a9009a9cec1b33325308fa5b3a7b6ba9 perf aslr: Strip sample registers
-190c4546384461f3dee70a649b438aa41c24d01e perf test: Add inject ASLR test
-cd355f6dc70503191249c5147e2f2e8f3c8838bd perf trace: Fix noise and signed formatting of __probe_ip in bare dynamic probes
-c5e90e8844692deb7bbcd029e8b92b3a20441903 Merge tag 'asoc-v7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-b417b241dfcd92450ada1c733cc8bfb3450a7d10 dt-bindings: interrupt-controller: ti,irq-crossbar: Convert to DT schema
-84800a8d1d22c475b3c35bdbcf8ed64a55f3b66f nfs: don't skip revalidate on directory delegation when attrs flagged stale
-41fe0f7b84f0cb822ae10ab08592996a592b2a25 NFSv4/pNFS: reject zero-length r_addr in nfs4_decode_mp_ds_addr
-528ad521a433cf873724893bda339df95d8ac1e0 pmdomain: core: fix unused variable warning with !PM_GENERIC_DOMAINS_OF
-1221e50b4aa60b98aade37eb4e536d4a2cb93e75 perf tools: Document recent additions to the perf.data file header
-81ccda30b4e83d8f5cc4fd50503c44e3a33abfeb KVM: x86: Fix shadow paging use-after-free due to unexpected role
-ef057cbf825e03b63f6edf5980f96abf3c53089d KVM: x86/mmu: Ensure hugepage is in by slot before checking max mapping level
-79c41666b397df9218b6e7555663b298a88e2b56 i3c: master: rename i3c_master_reattach_i3c_dev() to *_locked
-8d8afa428318a623aa674c3f90550475ad3e6ccd i3c: master: Expose the APIs to support I3C hub
-4f87e9068bf3aaf45f226261d5efd50bec42c12c Merge branch 7.1/scsi-fixes into 7.2/scsi-staging
-081b387c7397498c583b1ba7c2fdaf4c6da6b538 perf symbols: Fix bswap copy-paste error for 32-bit ELF p_filesz
-2a3716544359d4312c81b0fa909a13301186da17 perf symbols: Validate p_filesz before use in filename__read_build_id()
-063c647b24f640657d6d9e2e90d620ea3ee19ae6 perf symbols: Break infinite loop on zero-filled notes in sysfs__read_build_id()
-f973e52a99776fcc473488984828d1fce56d5382 perf dso: Fix heap overflow in dso__get_filename() on decompressed path
-d2c6069d68ee9d53b05fe38bc2049cc4286fbb16 perf dso: Set error code when open() fails on uncompressed fallback path
-7b0df6f4d498b1608afccfd6dffb264e6da91693 perf tools: Use snprintf() for root_dir path construction
-cfafef390ca9c753b34c7e97b5abee4cab0ce270 perf hwmon: Fix fd check to accept fd 0 in hwmon_pmu__describe_items()
-500f5dd0a8b6f7bd174102587c7dff5a7d2fecbf perf sched: Replace (void*)1 sentinel with proper runtime allocation
-10b3c3d63ecc17c6acb855bac5f40367f1115765 perf bpf: Validate func_info_rec_size and sub_id in synthesize_bpf_prog_name()
-2d6ea0875093da9033fcb62c09a9e2f1de49fe91 perf bpf: Reject oversized BPF metadata events that truncate header.size
-033e85edfbf271f92979d2a39aeaf40f8472a795 perf bpf: Bounds-check array offsets in bpil_offs_to_addr()
-4a7500d772fe59653053db22ca83c9e2232b22e1 perf c2c: Free format list entries when releasing c2c hist entries
-542e88a4c6f7b6edd1326ce767d4cb3c2ea9d61d perf cs-etm: Reject CPU IDs that would overflow signed comparison
-e22a4228546f7220d0425630abf703fd2ef7c600 perf evsel: Add no-libtraceevent stubs for evsel__field() and evsel__common_field()
-9212e395c64d80f7b6af314ff6dfc4b526571493 perf evsel: Add lazy-initialized probe type detection helpers
-d669529868b355e1f10ff869539dc995cd25db3f perf trace: Guard __probe_ip suppression with evsel__is_probe()
-66725039f7090afe14c31bd259e2059a68f04023 Input: mms114 - reject an oversized device packet size
-4910aa198d25e5d1067236560ba34ab12bccc677 gpio: pisosr: Read "ngpios" as u32
-0482862a90169f4daaba0ed31a85d8304bf51e04 gpio: mlxbf3: fail probe if gpiochip registration fails
-4e1187e12de40b5301977b2476d21b569358dafb powerpc: Restore KUAP registers on syscall restart exit
-42f252f5a646866a95f025863c8b201042494ba1 powerpc/fadump: define MIN_RMA in bytes rather than MB
-86c04b2960af2aa7ad573fe11db1be0a2156ea2c Merge tag 'intel-gpio-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-current
-2564ca2e31bd8ee8348362941af2ee4671e487ca io_uring/nop: fix file reference leak with IOSQE_FIXED_FILE
-c554246ff4c68abf71b61a89c6e39d3cf94f523e io_uring/rw: preserve partial result for iopoll
-17c5d247e3e4708cac05ff087c8013c0dda383a2 i2c: qcom-cci: Do not check return value of cci_init()
-697d58d457e999a03c7c395ff0fbf13e765f0997 i2c: qcom-cci: Move cci_init() under cci_reset() function
-f0285c286bca5a1e018ba25040cef6c7806c31ef i2c: qcom-cci: Remove overcautious disable_irq() calls
-e43f32816a1b1fe5a86279411626fe3a9be56d45 i2c: davinci: Unregister cpufreq notifier on probe failure
-5da26ab52ac5502b09b7c20970ee08291130673f dt-bindings: i2c: convert i2c-mux-reg to DT schema
-e1e5c40a408b09d6e7bd603c51bb5b34868b54e7 dt-bindings: i2c: i2c-mux-pinctrl: change maintainer
-faa25db0892135c97a0bfd48d79173db0dd25ab2 dt-bindings: interrupt-controller: qcom,pdc: Add Maili compatible string
-9fb519794ecb2af57eff63ad82fdfcaf12e7b4b4 Merge branch 'idle-time-acc' into features
-978b27d6ce538bb832ccd69e45802824e4301c4b RDMA/bnxt_re: Initialize dpi variable to zero
-131e2918b9b0529687e67e2e58047304027f095a RDMA/bnxt_re: Free SRQ toggle page after firmware teardown
-bb45e06f9914ca64ac95341a80a0c20bb8dd46a9 RDMA/bnxt_re: Free CQ toggle page after firmware teardown
-7d70c704a06f620d5d421ab76bac5e225bfb4308 RDMA/bnxt_re: Avoid displaying the kernel pointer
-dc95931b7e1326dacae547874bf38c092e5960d8 RDMA/bnxt_re: Add a max slot check for SQ
-87267803a8c824616eb147c5dad7030a5db6f878 RDMA/bnxt_re: Proper rollback if the ioremap fails
-28da1cce9e699aecd3554915e9d2bac0e3e15b43 s390/mm: Complete ptep_get() conversion
-ca4aa97194ae353c2882d7cb4ed123a544892bcf io_uring: get rid of tw_pending for !DEFER task work
-bdc2fc388c348ee14b4f984ff75f2ea440cefd44 io_uring, audit: don't log IORING_OP_RECV_ZC
-4f919141be38ea2b1314e3a531b7b998eb64e8bc block: fix IORING_URING_CMD_REISSUE flags check in blkdev_uring_cmd
-9cbbac29d752fb5d95e375fa3685a359b89caa0a block: Remove redundant plug in __submit_bio()
-1fe703cc708f19209ae8e6261247483db723c221 io_uring/register: preserve SQ array entries on resize
-fd38b75c4b43295b10d69772a46d1c74dbd6fc81 kernel/fork: clear PF_BLOCK_TS in copy_process()
-fad156c2af227f42ca796cbb20ddc354a6dd9932 block: invalidate cached plug timestamp after task switch
-441baa79043431807115fd030d7d0bb14ed441a0 RDMA/bnxt_re: Avoid repeated requests to allocate WC pages
-a57592c6392a8e333c9c2731701297a5a279313a RDMA/bnxt_re: Fail DBR related page allocation UAPIs if the feature is disabled
-33a215f499b0643cd88a32ab5b8de1547be419c6 RDMA/bnxt_re: Reject GET_TOGGLE_MEM when toggle page was not allocated
-9b28231f0e5a6031cabe3b98dc6f28d3e0e5e437 docs: infiniband: correct name of option to enable the ib_uverbs module
-963af8d97a8c6a117134a8d0db1415e0489200b1 RDMA/rtrs-srv: Bound RDMA-Write length to chunk size in rdma_write_sg
-c0bd03b850d81a8914168d87ddf7f6ffa58875ef RDMA/hns: Fix memory leak of bonding resources
-d9c8c45e6d2f438a3c8e643ae78b59454fa0fadd RDMA/irdma: Replace waitqueue and flag with completion
-9961c88b1cfb444ee03e9c1641cf170e9684c532 ipmi: Drop unused assignment of platform_device_id driver data
-aa776949fb77462ee712eee28bc54a9ce95c5b40 Merge branch 'for-7.2/wiimote' into for-linus
-8f41a4f92731ae5a79780d9d55f5be33cf54f6d0 Merge branch 'for-7.2/wacom' into for-linus
-a78ff6ed8c880bd35c5cc71830e927daa9ef7e90 Merge branch 'for-7.2/sony' into for-linus
-b81d1b68a9c908c69bfb9a0419a66a30d2fc5291 Merge branch 'for-7.2/rakk' into for-linus
-cd4f494ba535e848e2d299707d363de84e61a518 Merge branch 'for-7.2/playstation' into for-linus
-714c861554d09b615824d5c8ee0c45fe51f3b463 Merge branch 'for-7.2/oxp' into for-linus
-0e15286441eff2b079cc20eeb0b55ad63d9fd97d Merge branch 'for-7.2/nintendo' into for-linus
-df1d6781b254e0940082d4e544e9815121850bea Merge branch 'for-7.2/multitouch' into for-linus
-5a59f62cc05648e9264d6ec4e46036a6d8dea378 Merge branch 'for-7.2/logitech' into for-linus
-2f67fc40034a3b557450c50b3d6e027867d04b5a Merge branch 'for-7.2/i2c-hid' into for-linus
-50d9413e70de18af16bea74fe5d4cb01fa18cec1 Merge branch 'for-7.2/cp2112' into for-linus
-b0e0c869271b957c47ae41c2b0a5e2a1779b0978 Merge branch 'for-7.2/core' into for-linus
-9b704a7e71857483cd605b9ebc105e693db17bc8 Merge branch 'for-7.2/cleanup_driver_data' into for-linus
-4baef95dcd2636156cbe8839d0fc2f3179d916bc Merge branch 'for-7.2/bpf' into for-linus
-b68d4979c88e31488970373f67ac79b4f6267008 block: revert the iov_iter after a short copy in bio_iov_iter_bounce_write()
-d5b58fbb2fd7ac25fcd7e1c14730f998a90b0322 block: respect iov_iter::nofault flag in bio_iov_iter_bounce_write()
-ab5f9c5cb527c03790a92142ad368881a9100aaf i3c: master: Update dev_nack_retry_count under maintenance lock
-79ce29e100ab3de0cad66eb48d32a7de4043e2ae i3c: master: Add missing runtime PM get in dev_nack_retry_count_store()
-225b76e2a711dc061ec337befba49dd3ee75e534 i3c: master: Use unsigned int for dev_nack_retry_count consistently
-678e9409dd78d5c080607df15c6f346c7edb03d0 i3c: mipi-i3c-hci: Use named initializers for platform_device_id's .driver_data
-bb0301f856bfc0ea8192b8d2bd5a79bdc6d3d3f1 i2c: algo: bit: use str_plural helper in bit_xfer
-ff3ac1a0bd75400375678c0f81c2b613cbc03e14 io_uring: Use system_dfl_wq instead of system_unbound_wq
-1e696bc33c30acda698e5e921adcc7f7e61976f7 i2c: atr: annotate i2c_atr_adap_desc->aliases with __counted_by_ptr
-43a393185e33e573a374c1d4f7ddf6481484ef8d rust: prelude: add `zerocopy{,_derive}::IntoBytes`
-6ee2ba9dcefe5bb41d179e183919531c8da01d14 i2c: ls2x-v2: return IRQ_HANDLED after servicing an error
 36904931a1c23db42f1d7078713206874cc10d97 i2c: qcom: Unify user-visible "Qualcomm" name
 f09d2312d1d44a8b8c9d3bfd33acfe930a6d8250 rust: bitfield: mark `Debug` impl as `#[inline]`
 1589352a0c848682d7b3c15f7ca196a5c1841276 dt-bindings: i2c: microchip,corei2c: permit resets
@@ -1050,5 +910,145 @@ e83d0a2472617327e04b74272a61fca06f6f84ff selftests: bonding: add a test for VLAN
 fe9f4ee6c61a1410afd73bf011de5ae618004796 Merge branch 'net-avoid-nested-up-notifier-events'
 c75597caada080effbfbc0a7fb10dc2a3bb543ad Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 805185b7c7a1069e407b6f7b3bc98e44d415f484 Merge tag 'net-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+0af1a2edc12778c6848831b0a7122903cafd1b37 ice: Fix enable_cnt imbalance on resume
+06e1f498539837ba4144e35d425512336942198b ice: Fix enable_cnt imbalance on PCIe error recovery
+495ce7e2583c42f1b3a28b0bfce213c51f99d914 i40e: Fix enable_cnt imbalance on PCIe error recovery
+051ae8717a82896d412fa662f8db3e433f46a406 ice: fix FDB deletion
+75fa5ca0de2aa8c4d168de50039b521377c49ba4 ice: init desired_dcbx_cfg in default DCB config
+33ab261a324b28f254d52fad24ba1558d84436b5 ice: prevent integer overflow
+df38acabd4344beb465d239a85b8c15da1efc552 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+1802db28d9678337e96cb70b38875cb046981042 ice: check cross-timestamp timeout bits
+1705af74e5d7b0d62504187e67c1b3df2d41341a ice: fix PTP Call Trace during PTP release
+4eefc53a40cbf0dfb7f11d3f890f029addbc3a8b ice: use READ_ONCE() to access cached PHC time
+80da30b729b1bbdfd0b4b265d627bddf0205360d i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+6e9c1777a1b78aae41fbad8aed6a4008795ac0e1 ice: fix null-ptr dereference on false-positive tx timeout
+2ae883363a7ce9771c357e81d146c4af2fa55063 iavf: fix null pointer dereference in iavf_detect_recover_hung
+b9074d7799c4940b5701184ee1ecca05f0396693 iavf: fix error path in iavf_request_misc_irq
+5fb906a92397e10c93f265da3986cc18d9168a60 iavf: prevent VSI corruption when ring params changed during reset
+21a28a0a04a3f685c3b831a1efe32b30104ca592 iavf: fix TC boundary check in iavf_handle_tclass
+46717f2f3090eeb06534c594c1564f314fcf9274 iavf: return 0 when TC flower filter not found after qdisc teardown
+e9111166f4f637c44d593d57bf0efd07d3d1d6c7 igbvf: Fix leak in TX DMA error cleanup
+7144aa7cb254bf0da4b5b5288b2c608466ea06a5 ice: fix asymmetric pause negotiation reporting in ethtool
+e1b1c7663c2411bf47944503bd7ba526b73609a3 ice: fix autoneg disable when link partner doesn't support AN
+1c4be9c97dfcb42d3c070533c5c514bc1b721f02 ice: support RDMA on 4+-port E830 devices
+80fad2a9b943e995de3988f2083857f166617e25 ice: report EIPE checksum errors to the OS on E830
+a6c502b41079523ea469636bcfaa1c0a38f22761 ixgbe: fix SWFW semaphore timeout for X550 family
+02361d4f8d1c3b28a3518fb70b06aa38285c01ff ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
+973570b08a116328c46513bfb9496f2504b3faec ixgbe: fix ITR value overflow in adaptive interrupt throttling
+d865a5a212c6914f07e63d63f27216a9b4f120a4 ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
+8ab722be52ff71bdf11ce6dca3054fbe805bd306 ice: only free LL TS IRQ when the handler is present
+3d29af4eb69181d832047f59e3ae23e21ae603bd ice: always do GCS if hardware supports it
+73144d309d44124bfd958a342f9ab641b748e754 ice: use NETIF_F_HW_CSUM instead of IP/IPV6
+4d84173316e3f63f3aacfbfd9c1900151c6dc277 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
+8736892fd8622e1fcfc3ac645312c3f92572545e ice: reject out-of-range ptype in ice_parser_profile_init
+f7dec8775bc8328562ab3b3ec96e5414be4e1294 ice: wait for reset completion in ice_resume()
+25ca33f64eac3fc242b5acd768a5bc960e278a07 igb: Return state in pm_runtime_idle instead of power-down
+28137e935c4ea5a9111e5d72d3aac8d3efc24dbb ice: fix VF interrupts cleanup
+9af7eeb04969ed2ecebc48192f4fc1286a673804 ice: add missing xa_destroy for sched_node_ids
+13aa3aa36f1998f1977eea70e973e81b614817eb idpf: handle NULL adev in idpf_idc_vdev_mtu_event
+ad6a6bd06be653fd817756fa2b6b1199584e7e00 iavf: validate num_vsis in VIRTCHNL_OP_GET_VF_RESOURCES response
+463c889398041eb2a84b4ce596012dcbbc89dc3a i40e: keep q_vectors array in sync with channel count changes
+a0826b65ed232ffab4584130c1937fec7f6fe50d ice: fix LAG recipe to profile association
+60cf8db894be3ab3f8a22d19067dee3debcf37d3 ice: support SBQ posted writes with non-posted support for CGU
+3c7b54e24e44c8545930f1c2ac366145347d81a6 ice: suppress DPLL errors during reset recovery
+83396e21e23c9ffd1f713f4bcec68391f27d9d62 ice: prevent tstamp ring allocation for non-PF VSI types
+fa559ca60f70bdb457f2d7f5f5610b19d810fc9e ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
+f91ea376605b97bef4fdfd68a2631b3045d24c93 ice: Zero out the PTP control PF pointer at ice_adapter cleanup
+55651e6e3a228d49aa4a47e9ba5e8b28706b914b ice: Cache struct ice_hw pointer for split register reads
+49dae57ccd2ae6b1e8652ed32f374a96e0be26ee ice: fall back to SBQ when LL PHY timer interface times out
+4db00b1c67ad10bd6b5f37462e9f866baf777b5c i40e: fix netdev leak in i40e_vsi_setup() error paths
+13a8fdbc7715cb53d6260f2957340f4b7c0a6c4e e1000: fix memory leak in e1000_probe()
+bc5ef4c884ae0259d5a2854a90ae6ddeeec605bf ice: fix memory leak in ice_lbtest_prepare_rings()
+0011b4ef6436aaa92eab7392cc0016d0fef57d4a iavf: cap advertised max_pkt_size at the single-buffer HW limit
+3f6a8962cf0c880e7fad078f7aa92c5d61f20c7e idpf: bound interrupt-vector register fill to the allocated array
+9a9bd183493bd26d2642debab5748d023d292daa ice: eswitch: fix use-after-free of metadata_dst in repr release
+6b73c93a2a9c4585648727ab63294d35182a092c idpf: fix max_vport related crash on allocation error during init
+b8c046c235e931dd3a0b8ccdab21e4213f645b69 virtchnl: move virtchnl and virtchnl2 headers to 'include/linux/net/intel'
+b8cb26377744a6ff3b1cf33f19b587666294f2d2 libie: add PCI device initialization helpers to libie
+04d8b1956526d38f8505709f7400d6e130304c35 libeth: allow to create fill queues without NAPI
+f4cbe6b377553f5510d1f70d39c9f3afc45bbd24 libie: add control queue support
+caca2c6f7f11ed65b88fddcbca0a29e0452b31a8 libie: add bookkeeping support for control queue messages
+db12dd553bfb9b42543528f2292c051340cddff3 idpf: remove 'vport_params_reqd' field
+2ddc06af99d4386445ee4726b564fad251bf1865 idpf: remove unused code for getting RSS info from device
+cd3cb13b0d5ffdc446b43a4a781ddede3589fa03 idpf: refactor idpf to use libie_pci APIs
+5d4e0b59a60496413b5a28139f6c1515a79d0728 idpf: refactor idpf to use libie control queues
+2bfe730d14fa86ad7f738af60fb0cf5b253d45fc idpf: make mbx_task queueing and cancelling more consistent
+218ff1f6411c2f3f4c721ba6f1fb872a53d72676 idpf: print a debug message and bail in case of non-event ctlq message
+dc91510a3ec005f9e2780ad9bee4708ca45b1c34 ixd: add basic driver framework for Intel(R) Control Plane Function
+68e423c1bbc74b7b1e7097eef5306fe563e4ac31 ixd: add reset checks and initialize the mailbox
+b6d8525afc820dd229af9769a779b7c028c2e773 ixd: add the core initialization
+f3c15068094db872af789ae6e687dfe64d2bed94 ixd: add devlink support
+aa0e509293226387811f7e5ff518eddd82ee2761 igb: set skb hash type from RSS_TYPE
+57bdd356ad94227d43f050989b618a743ba133d6 igb: prepare for RSS key get/set support
+d9b1ef84dff7a3684fe9589aa22b73115b2c0b48 igb: expose RSS key via ethtool get_rxfh
+8afa0a24c447627d74cdbfa7b8266059968948aa igb: allow configuring RSS key via ethtool set_rxfh
+75676ed8ad746d046afa71f45162be8301079def igc: prepare for RSS key get/set support
+34e55e59529edb6dff1183a33ae434715c7735ae igc: expose RSS key via ethtool get_rxfh
+7e2a0fd2143cccb575786cfda943641f14439f63 igc: allow configuring RSS key via ethtool set_rxfh
+ada9ee5fd4dfe14a269613462036a40bf14bdfa0 ixgbe: e610: add ACI dynamic debug
+4d6d4d85e0c9b5c76a7c9c6d793e54d9e4e712aa ice: in dvm, use outer VLAN in MAC, VLAN lookup
+459098798118e6f9b2c411a2e1d1fdd2e7290a52 ice: allow creating mac, vlan filters along mac filters
+e723116ac308125de2682ad0234fa10f08c0076b ice: allow overriding lan_en, lb_en in switch
+1aa769eb5ed81ea63564057a6c63bc9aaddb74a2 ice: update mac, vlan rules when toggling between VEB and VEPA
+393cff8be04798a437078a4cb1215aa7673d93de ice: add functions to query for vsi's pvids
+07e24db2839cbbf64862adb3076ca4c24c0e1af0 ice: add mac vlan to filter API
+c056796b7b24ce921309e4f195a4fab64058b3be ice: in VEB, prevent "cross-vlan" traffic from hitting loopback
+776c1691ccae746f7d1a51dd5bc2658051660d0b ice: add support for unmanaged DPLL on E830 NIC
+ef7e923390a941388038daac085b36ac996ee940 ethtool: treat RXH_GTP_TEID as intrinsically symmetric
+035ea5e0f585df12a07bb43fa0ed8951fe398ec9 ice: implement symmetric RSS hash configuration
+9bc147036bdaa815880630ca70f63ec32f1bb768 igc: set RX hardware timestamps in igc_build_skb()
+e450d7e85c059b087c596e1c0612d90b8f748022 igc: enable build_skb on the non-XDP small-frame RX path
+8a3b0f9ee816663f5971bf556090ee8c1f997739 ice: add ethtool reset support to safe mode ops
+e45e125b3d62e479ec377cf357fe6af2573fc5e0 i40e: prepare for XDP metadata ops support
+bbc5964c9906fe48d91abbd93bd58db12e52e9fe i40e: add support for bpf_xdp_metadata_rx_hash()
+014a567d29a6d13c15b03a715cd2463198c581f9 i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
+14a01efd32ff0271d2b28da433c678ea4ee74728 virtchnl: add VIRTCHNL_VLAN_ETHERTYPE_88E7 support
+d81503c75ec02ce7788f5094d7779e55349692d2 ice: add 0x88E7 handling to SW validation paths
+d8f938530d3d4ffc88c6d36ec2229afc5ebf9753 ice: reduce loglevel to debug for 'Can't delete DSCP' message
+45bd4f48a60c1381cf3fcd1b5e08fb2f27e81e90 ice: use ice_fill_eth_hdr() in ice_fill_sw_rule()
+96719e187cd89eca0a3cc64758a5d77d97f5e083 ice: remove excessive memory allocation in ice_create_lag_recipe()
+024fb04a1f3752d9faf5da83933c89a3c10bf993 ixgbe: lower IXGBE_ITR_ADAPTIVE_MAX_USECS to prevent RX starvation
+aa49349cf3e147b20ebaec0557f35ea19826f6be ixgbe: add ixgbe_container_is_rx() helper and refine RX adaptive ITR
+9ed426e0ee671f50be39edfce15e405315f12e6b ixgbe: limit ITR decrease in latency mode to prevent ACK overdrive
+1275437dc8cd002bf2da1aa46c98f2bf16a6afc3 ixgbe: add IXGBE_ITR_ADAPTIVE_MASK_USECS constant
+16b146d09525593ab19b336785d48e69f7431225 ixgbe: remove ixgbe_ping_all_vfs() from link state change handlers
+c0c79203075c5cb30340f26f09706a5e875aa031 ixgbe: use ktime_get_real_ns() in ixgbe_ptp_reset()
+8586ca5a3b4bd435bef784a609ac465d1f2d773b ixgbe: use GFP_KERNEL in ixgbe_fcoe_ddp_setup()
+e98fe05e169de4c30594f032fc9eb2f976baff75 ixgbe: use int instead of u32 for error code variables
+b1bfdb0ea6a518f5a6e1ca144b02172ac4616322 ice: promote Tx FIFO drain timeout message from dev_dbg to dev_warn
+bfbfa0d9f4def31458096a8ad69af41a6744b921 ice: translate FW to SW for max num TCs encoding
+e5f345f73ab2861acf63e6c4a720e73603325011 ice: allow setting advertised speed and duplex for all media types
+5015e551b671a1b600461817591bb41d2b335907 ice: add PORT_AUI and PORT_NONE ethtool port type reporting
+31cea1135377bbedbb9abe5b471807eb01395207 ice: reorder ice_flash_info fields to eliminate padding
+315b6a2a83288d0262d5234d83a1b68fc7d06f98 ice: improve Add/Update VSI error messages in ice_vsi_init()
+5a4780c3c80e0e9126199fe2a1769c08b20ea247 ice: increase OICR interrupt moderation rate to 20K interrupts/sec
+3eca4c3824672a766db4803dbd0a902343c0577e ice: emit user-visible info message for non-contiguous ETS TC config
+295137074edc11fcf2e4eb0089318111fcbb8646 ice: move ice_phy_get_speed_eth56g() from ice_ptp_hw.c to ice_common.c
+b98d19272a63df95d3875695f83e31200d368dc8 ice: use inline helpers instead of memcmp() for IPv6 mask checks in ice_ethtool_fdir
+0e4ee1c5669cdedb8a68204fdff2972c7d989f0d virtchnl: remove unused defines
+3fe858eb47e344962b41e5b3f6db761403b5de16 virtchnl, iavf, ice, i40e: store VIRTCHNL_VF_* flags in bitmaps
+44036bf04ed8722498b597b4a4423ae9882c2c96 virtchnl, iavf, ice, i40e: add extended generic VF capability flags
+922036a44686f386d91d23efb417c51a7e482d1a e1000e: Avoid DMA re-mapping on RX copybreak
+823724665ebab2de213d20f1d1c43cb78e173237 ice: allow creating VFs when !CONFIG_ICE_SWITCHDEV
+7087ab5a0a57e406b810ac78226d2b5815f6df2e ice: remove redundant switchdev check in ice_eswitch_attach_vf()
+4ae7b61f32dec759f6fc3832609c10857e80a313 libie: log more info when virtchnl fails
+96e05efb1e2ee20b7327f08d149e891b655c2ffb igc: remove unused autoneg_failed field
+69e51de517cab59f396a9e21a1770dff74b56868 igc: move autoneg-enabled settings into igc_handle_autoneg_enabled()
+ee7842854583cbd4db401be5e9ba7eb972c1cc88 igc: replace goto out with direct returns in igc_config_fc_after_link_up()
+d5a6ec793fef5b7eac7e6a24544859ac35fd3fa5 igc: add support for forcing link speed without autonegotiation
+e1e79827b30a5c8673de0bb077a64ccb261f7fb1 ice: add rx timestamp tracepoint for debugging
+2fb8204b1673dfaa6df6c538f4f210d4abb1e274 ice: pass the return value of skb_checksum_help()
+344ee0b6c45244a488a9d4362ea393cddcd26ecd i40e: pass the return value of skb_checksum_help()
+b5a9281971e5768695dfddb2eaab63992c893c99 iavf: pass the return value of skb_checksum_help()
+ec73cb7f8b4974efd5ea036c826872b12d9e6b83 idpf: pass the return value of skb_checksum_help()
+4344ead4b5767d062dac55972eb7d57a7be74f8f i40e: Avoid repeating RX filter warning
+c33cef89aa8a6cfa35c291024ed1cd3160495687 iavf: convert crit_section to DECLARE_BITMAP
+2dacfec1f9ae4d34d771b576e7316b5998939bde ixgbe: LinkSec deprecated macros cleanup
+8a05f214c55856ba5e053615121a42628349a672 ice: convert hw->agg_list from linked list to xarray
+08e5184a77fb95ebefa5a19c5941c2024871345e ice: count number of VSIS in agg_vsi_list
+26b2b293a7fe0e0a072ac14a907379257007b331 ice: extract function to allocate aggregator info structure
+dc37fc501d5669e631abf1ebbe4c6baf7fbb7ca0 ice: remove ice_agg_node wrapper structure
+c37b60d2c5a2ee492c5834d45d162299a49203e3 ice: remove unused aggregator node functions
+303a2bd5a155ff8a238eac1b45163510f7ccfa36 ice: refactor ice_sched_cfg_agg to take agg_info pointer
 
---===============5499456949243212523==--
+--===============4550609832302582703==--
