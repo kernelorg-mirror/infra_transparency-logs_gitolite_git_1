@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6773710846734768085=="
+Content-Type: multipart/mixed; boundary="===============5837225621911764909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 26 Jun 2026 16:34:45 -0000
-Message-Id: <178249168515.1715232.8232608640560300423@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 16:35:10 -0000
+Message-Id: <178249171083.1717564.1123285935273264113@gitolite.kernel.org>
 
---===============6773710846734768085==
+--===============5837225621911764909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
+  - ref: refs/heads/for-next-keys
     old: f31c00c377ccf07c85442712f7c940a855cb3371
-    new: 25e4f7b4e006804b55716afa2cc8ef77c0baaecd
-    log: revlist-f31c00c377cc-25e4f7b4e006.txt
+    new: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
+    log: revlist-f31c00c377cc-51cb1aa1250c.txt
 
---===============6773710846734768085==
+--===============5837225621911764909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f31c00c377cc-25e4f7b4e006.txt
+Content-Disposition: attachment; filename=revlist-f31c00c377cc-51cb1aa1250c.txt
 
+4fd1f5f6a659886a4ef3a380b2a07207c94a7a24 nvme: target: allocate ana_state with port
 7cf5e4fc36d3a77467dd0d02a45371ea4350410b NFS: correct CONFIG_NFS_V4 macro name in #endif comment
 48c0162f647bb47e6084ffbc71b8f213f5e2f4f8 nvmet-rdma: handle inline data with a nonzero offset
 0ba76b19fd4c7256787eab0283c759b18eb76876 PCI/P2PDMA: Add Intel QAT, DSA, IAA devices to whitelist
@@ -1049,6 +1050,5 @@ ad054be8117d06838b4d904dc57e0807768658cb Merge tag 'v7.2-rc-part2-smb3-client-fi
 c292ea294dde77ae442d3d764f53c251d2d6df90 Merge tag 'ecryptfs-7.2-rc1-updates' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs
 e7c93451eeb06b67b4eb23017824b3dee90b360e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 Merge tag 'loongarch-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-25e4f7b4e006804b55716afa2cc8ef77c0baaecd tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
 
---===============6773710846734768085==--
+--===============5837225621911764909==--
