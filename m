@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Thu, 25 Jun 2026 23:58:39 -0000
-Message-Id: <178243191933.978659.1732927110432830439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 26 Jun 2026 00:31:11 -0000
+Message-Id: <178243387187.1002978.6793461570337715920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/main
-    old: 7d2d26909079cdddb6ebb02778a685d2b914738d
-    new: b9f6a3720c5ed32d6608f50d50ab030f478f293d
-    log: |
-         b9f6a3720c5ed32d6608f50d50ab030f478f293d Replace Justfile with Makefile
-         
+  - ref: refs/tags/rcu-dqs-stuck-v4-20260625
+    old: 0000000000000000000000000000000000000000
+    new: 56fec0283e4aab19a738aec06ff620f302b5d84a
