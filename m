@@ -1,37 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 26 Jun 2026 12:33:05 -0000
-Message-Id: <178247718548.1529789.10540191237960682576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 26 Jun 2026 12:33:13 -0000
+Message-Id: <178247719333.1530025.10936210833954638139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 7f382bff3a7758f5df46e27342a00cad5bdc438a
-    new: 5184ef41cd06a18d043085861df47196fa64788d
+  - ref: refs/heads/renesas-clk-for-v7.3
+    old: 61021a23a33f143cd147160fbe585ded13626888
+    new: ce6c426f10d1d8dfd41a0374654a94ec0012f30c
     log: |
-         72a7422119441189ef1ef6ff367639ca57fe81e1 arm64: dts: renesas: r9a09g047: Add RZ/G3E Sound support
-         3183843f59b74113be327a4c98dba744c4f685bf arm64: dts: renesas: rzg3e-smarc-som: Add Versa3 clock generator
-         c087288426bd4a5ed827d432f4ec57db21316df5 arm64: dts: renesas: rzg3e-smarc-som: Add audio pinmux definitions
-         45be500d55dc60ed76c6f8686975d00804a969b5 arm64: dts: renesas: r9a09g047e57-smarc: Add DA7212 audio codec support
-         a4b1a82f33936af2e40fcd759d9af752b8ddbcee arm64: dts: renesas: Add soc: labels to soc nodes
-         5184ef41cd06a18d043085861df47196fa64788d Merge branch 'renesas-dts-for-v7.3' into renesas-devel
+         a2ead71c792f1984dd3e7b6848d1054c731b618f clk: renesas: rzv2h-cpg: Use per-SoC PLL reference frequency for calculations
+         5f73096173f421ebbd1ebc6406378730a6db165d clk: renesas: Extract RZ/V2H PLL calculation helpers into shared library
+         9024f77c111501eaa891b834a7bdd8834f0d0294 clk: renesas: r9a09g077: Add LCDC and PLL3 clock support for RZ/T2H display pipeline
+         ce6c426f10d1d8dfd41a0374654a94ec0012f30c dt-bindings: clock: renesas,versaclock7: Update maintainer
          
-  - ref: refs/heads/renesas-dts-for-v7.3
-    old: e0c6913891b1b51adefa8ba50482aefffdf71ed7
-    new: a4b1a82f33936af2e40fcd759d9af752b8ddbcee
-    log: |
-         72a7422119441189ef1ef6ff367639ca57fe81e1 arm64: dts: renesas: r9a09g047: Add RZ/G3E Sound support
-         3183843f59b74113be327a4c98dba744c4f685bf arm64: dts: renesas: rzg3e-smarc-som: Add Versa3 clock generator
-         c087288426bd4a5ed827d432f4ec57db21316df5 arm64: dts: renesas: rzg3e-smarc-som: Add audio pinmux definitions
-         45be500d55dc60ed76c6f8686975d00804a969b5 arm64: dts: renesas: r9a09g047e57-smarc: Add DA7212 audio codec support
-         a4b1a82f33936af2e40fcd759d9af752b8ddbcee arm64: dts: renesas: Add soc: labels to soc nodes
-         
-  - ref: refs/tags/renesas-devel-2026-06-26-v7.1
-    old: 0000000000000000000000000000000000000000
-    new: dff5cd6b380b1fa6509674fe3b1eab503cbf422f
