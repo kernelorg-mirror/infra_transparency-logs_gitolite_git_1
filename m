@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 26 Jun 2026 13:24:55 -0000
-Message-Id: <178248029565.1569359.8156941967664074088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 26 Jun 2026 13:32:40 -0000
+Message-Id: <178248076022.1576070.4538967946624422240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 5fae9a928482d4845bca169a3a098789203a1ca4
-    new: 7f08fc10fa3d3366dc3af723970bd03d7d6d10e3
+  - ref: refs/heads/irq/msi
+    old: f64e03da0d83cb173743888bff4a7e61476a8fc2
+    new: 93630ceb882635dcddacc3856d34547c572b2970
     log: |
-         7f08fc10fa3d3366dc3af723970bd03d7d6d10e3 fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var
+         93630ceb882635dcddacc3856d34547c572b2970 genirq/msi: Correct CONFIG_PCI_MSI_ARCH_FALLBACKS macro name in comment
          
