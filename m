@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3807034164818859451=="
+Content-Type: multipart/mixed; boundary="===============7210395606374213686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 26 Jun 2026 19:33:34 -0000
-Message-Id: <178250241492.1847709.17737204739234611018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 26 Jun 2026 19:34:02 -0000
+Message-Id: <178250244239.1848081.12451349894996572881@gitolite.kernel.org>
 
---===============3807034164818859451==
+--===============7210395606374213686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/main
     old: 502d801f0ab03e4f32f9a33d203154ce84887921
     new: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     log: revlist-502d801f0ab0-51cb1aa1250c.txt
 
---===============3807034164818859451==
+--===============7210395606374213686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502343 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1782502413-0f1e72bbeac8de3818d0d3ed064ea1f4006e1e95
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782502367 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1782502437-d5031dc34987482121c36b0e4ec508ecb802da3a
 
-502d801f0ab03e4f32f9a33d203154ce84887921 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 refs/heads/tty-testing
+502d801f0ab03e4f32f9a33d203154ce84887921 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+08cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KtoQAIGlu3WSbhGcW2fD0RAZ
-JcrM675jmCkaU003vp5FNsBN9S1pWm/xboQ3cZIUpWAWzIV2e7gjv7QWIo6m5WYi
-Dtuype0Ll78vNvvNfFBmia1LBcKkNgTuW2UOrlMyUIHEryHap8gWQZW1qCufYdcu
-HP4DjlAkhSvNTAgcTqI0siVEkyKoZWxwGvdZ9ESIvunjKyca7A3JwRHuwsdDxfNP
-jytq3ouel9VWb8Yy51CiOqdkRY7fSA44ZSCP7acZn9RqNx6dPmkQPAgc4N0Iwy3c
-7EeI2SLlxMMRRPnAeOYPY6RdM6B/7C+n7T3krSaWZsbCq4fl0VUeRv1uaGx1yUne
-yFo0uS/J1F/jx/ubq0m4C7YjUairSHEG7qQ9ZXavJc+M5rUFV9lsgi38Jn1Fg2E5
-JdPwMGNSpLEzsZiODEiyVnA1IDawY4x+4sKnl6t+hF8vjIPGJRun13T1PJ5gBiAS
-Bn/JlsvPoFi1LEbOv6D+NxTdBfKl3lUv2fkuzAUcbRu9CR5u620A9ZFtGFaJWffz
-sjCb10Ji+uFzBhmDfDN0cVPPodCrWw3BvbJr3AVTlyisSjPkpeubiypmckuhjxWp
-46gdU8ir4k7o8VFFgzo77NNpTRwKKI7JwbW45zKq6Znaw8jcABJIt6D8jdQiLRIZ
-98OwNwz+W4TB4+xLFpGPkP9S
-=OM/q
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmo+098bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D3YP/RKxZ6XLJ4wXOnE2pZlf
+WIa3tBDNg8GggUrXkm0eKRypd3rQvVwzuL88AoEDoumkzHP6MrBmNZd4pwC+M0Ht
+oSGJWMx9qlWtg5gjyXFLSIO7HKigbtM/gpWo4IlU72Xl+9imkbfeCgZRrLhvclrE
+N/rZPjTAB/PQo19vUJ/2Z2/Df5RkAwJ12KckcOsODx7d48W0NLlJEwIeWfY8ZJPb
+RoDe1OQcde9GsV13Ms1hmaVYvgy6ET2GkeofNA9mP37yDhXLCqZtwtZxOdgakd87
+Gz9g+Na7EopbAIF9x6FSxwc6VAjO9D+rPRgrKW/Lu1qI80qxlxGCZr6hyuwMl20U
+TWUYTXOnNrR2rKALE6FbPKLkGOvNzQeRW3L5c6NDYBHtg4zYQgyAquOXkrkC2g8v
+8UuXExQYzSd6asbgt/CXB4texY1dkMGq/MtMauqJ712azU2XfEz4wiwVVE8vOofs
+svZRbacsNf5IqyDPpeYzZqFJr96R5ZPsB7qiHbnnCY0RO7zZoBwrmcaDlA44fkOK
+HH58RUf3hU84VHtFYXCQR0xT435quUxAxNWecvqyG7bDbJe5KuJyQUkn/npAwiyj
+sXkAAL88T5dLmjACJFvwqamtSZjGLQXkvZbZ9C4CMlL/M76EHPnGOx+vKgduZCIH
+P4pFw1cv4nWjL+mWNOWnLfpQ
+=v+5O
 -----END PGP SIGNATURE-----
 
---===============3807034164818859451==
+--===============7210395606374213686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ c292ea294dde77ae442d3d764f53c251d2d6df90 Merge tag 'ecryptfs-7.2-rc1-updates' of
 e7c93451eeb06b67b4eb23017824b3dee90b360e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 51cb1aa1250c36269474b8b6ca6b6319e170f5a5 Merge tag 'loongarch-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============3807034164818859451==--
+--===============7210395606374213686==--
