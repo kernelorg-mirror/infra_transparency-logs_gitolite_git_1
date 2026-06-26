@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 26 Jun 2026 09:37:48 -0000
-Message-Id: <178246666898.1403749.13187408902457512746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 26 Jun 2026 11:02:05 -0000
+Message-Id: <178247172565.1462481.3299398805353722757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: a57e27c43b0315ee86c6896510d69be5257e093e
-    new: 415c63896b76fd98883e190bc7518383cb01779c
-    log: |
-         415c63896b76fd98883e190bc7518383cb01779c gpio: pca9570: Use I2C match data
-         
+  - ref: refs/heads/em-warn-on-dump
+    old: 0000000000000000000000000000000000000000
+    new: 1d04ac030d04792d86e89b7bf9531cbd10b99d56
