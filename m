@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8456508292626249849=="
+Content-Type: multipart/mixed; boundary="===============3786444855151703122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 26 Jun 2026 06:10:25 -0000
-Message-Id: <178245422597.1256630.16118707624941672575@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 06:11:37 -0000
+Message-Id: <178245429722.1257135.14378938732539190837@gitolite.kernel.org>
 
---===============8456508292626249849==
+--===============3786444855151703122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 40f0b1047918539f0b0f795ac65e35336b4c2c78
     new: 805185b7c7a1069e407b6f7b3bc98e44d415f484
     log: revlist-40f0b1047918-805185b7c7a1.txt
 
---===============8456508292626249849==
+--===============3786444855151703122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fe9f4ee6c61a1410afd73bf011de5ae618004796 Merge branch 'net-avoid-nested-up-notif
 c75597caada080effbfbc0a7fb10dc2a3bb543ad Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 805185b7c7a1069e407b6f7b3bc98e44d415f484 Merge tag 'net-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8456508292626249849==--
+--===============3786444855151703122==--
