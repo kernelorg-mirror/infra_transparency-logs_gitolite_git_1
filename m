@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1849657064852822756=="
+Content-Type: multipart/mixed; boundary="===============5440918497731312916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 26 Jun 2026 15:58:11 -0000
-Message-Id: <178248949180.1686194.17383802333502084723@gitolite.kernel.org>
+Date: Fri, 26 Jun 2026 15:58:46 -0000
+Message-Id: <178248952678.1686605.522040515277428272@gitolite.kernel.org>
 
---===============1849657064852822756==
+--===============5440918497731312916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,47 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: d1120ebcfbe0d98e1eb47e14979e5c32033aee8d
-    new: ba8940c77ff7e7f3081e7e3d8a9146000a3ff2aa
-    log: revlist-d1120ebcfbe0-ba8940c77ff7.txt
+  - ref: refs/heads/export-net
+    old: fc7ed8995c0ecfad24db86162cf00892af7a93b2
+    new: 73be9a3798b96df8a246668a76f1f70822e88b26
+    log: revlist-fc7ed8995c0e-73be9a3798b9.txt
 
---===============1849657064852822756==
+--===============5440918497731312916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1120ebcfbe0-ba8940c77ff7.txt
+Content-Disposition: attachment; filename=revlist-fc7ed8995c0e-73be9a3798b9.txt
 
+852fed2e8bfe195351fb0078ba7245d41154e7a5 sparc: Disable compat support with LLD
+2416b30ec23fd23126b4747994c00d926d438d6f sparc: Export mcount for Clang-built modules
+7eb475e8a738ee6fd1260aa59ddccb610fdd4300 sparc: led: avoid trimming a newline from empty writes
+f09b59ae4414b0dc0929cf04cd8243157e0feab6 mm/slab: do not init any kfence objects on allocation
+5fd1c77e97decf78573843f4ad1ea3ddcc1ea102 mm/slab: stop inlining __slab_alloc_node()
+4ff54ebe49244daaa0825fc6c7d126746b45a3de MIPS: mm: remove comment referring to removed CONFIG_MIPS_CMP
+10fd82791fda5a52da0821eb6b50fbd09c8b3282 mips: Remove remaining defconfig references to the pktcdvd driver
+5ae158d31d02ff0419e9e127659f71a85f36a70e mips: dts: ar9132: fix wdt node name
+aeaa898780a4edb5802731e454caae6fb2ba33cb MIPS: ath79: reduce ARCH_DMA_MINALIGN
+1b001b16bc88f3f7817e228acfd91ee01bdcfcce MIPS: mm: Fix out-of-bounds write in maar_res_walk()
+98e37db4a34d3af3fb2f4648295c25b5e40b20e3 mips: sched: Fix CPUMASK_OFFSTACK memory corruption
+8998c0904c72208fddc0b41565d6088a47b4720a MIPS: kernel: proc: Use seq_putc() calls in show_cpuinfo()
+e1ac5f374253e65f0c8e0024a4828617b41e73fc MIPS: kernel: proc: Delete unnecessary braces in show_cpuinfo()
+9f3f3bdc6d9dac1a5a8262ee7ad0f2ff1527a7e7 MIPS: smp: report dying CPU to RCU in stop_this_cpu()
+315b21cf81780acf961a5bc9eaf979003c1bf8c4 MIPS: VDSO: Avoid including .got in dynamic segment
+5dcd5846f1f9ee637613b285332e9bdb90757eb5 MIPS: lib: Remove '.hidden' for local symbols
+6f25741b7565d7f82fc09947c981cae17535894d mips: select legacy gpiolib interfaces where used
+05a5ff86a7f12c861e3516d3dc4d092ce620742d ntfs: fix incorrect size of symbolic link
+517cd625ad79b8bfa429092ad1536ee2dd477e68 ntfs: support following Windows native symlink with relative paths
+2b58f93a131373117cfea02843f69a02b67a6664 ntfs: support following Windows native symlink with absolute paths
+115446b06fb725ba04e0f2ae5174029d2c60cad6 ntfs: add native_symlink mount option
+7266767f67e0fbf343b4ce67cb437fe4024fc55f ntfs: clean up target name conversion for WSL symlinks
+d8f1df2e133f203cae3f458cba44efa327b093d9 ntfs: support creating Windows native symlinks
+3802a666f37255cc8ddc5647390e6c590b947065 docs/fs/ntfs: add mount options to support Windows native symbolic links
+5b2a3b1a98fb47c593144c2770e012d463952b70 sparc: Remove remaining defconfig references to the pktcdvd driver
+97f902dd4c99f8d085da5343dc58ae4f6ce7bdd9 powerpc/boot: Allow text relocations for pseries wrapper with binutils 2.46+
+20dd3185d13865214ff25b0bf7b931e8d73be1ac exfat: fix handling of damaged volume in exfat_create_upcase_table()
+81e3a86030462824a67d697739cf3f387f4ba350 powerpc/perf: fix preempt count underflow in fsl_emb_pmu_del
+0ecd26e93e698c8327521910fc6296f5b84a4b92 powerpc/powernv: fix preempt count leak in pnv_kexec_wait_secondaries_down
+3f5f8ee9917cc2b9076ac533492d8a200edcabb8 exfat: fix potential use-after-free in exfat_find_dir_entry()
 5c86f1c1f972761a04bf22f4c0618d1aa714185b powerpc/kexec: fix double get_cpu() imbalance in kexec_prepare_cpus
 623f0aa1eca5c2a94ca1e4e5de719d062eac3b6c exfat: simplify exfat_lookup()
 f07db38084dc45162d5fe2871ed72674ddc0f9ae exfat: replace unsafe macros with static inline functions
@@ -1011,44 +1041,14 @@ e83d0a2472617327e04b74272a61fca06f6f84ff selftests: bonding: add a test for VLAN
 fe9f4ee6c61a1410afd73bf011de5ae618004796 Merge branch 'net-avoid-nested-up-notifier-events'
 c75597caada080effbfbc0a7fb10dc2a3bb543ad Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 805185b7c7a1069e407b6f7b3bc98e44d415f484 Merge tag 'net-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-87a3821bea95189252529af95a4c83fa3c0e6a5a DO-NOT-MERGE: git markup: net
-dc977fcaa45cef26580c5cf75858a621df9e37d0 DO-NOT-MERGE: git markup: fixes other trees
-989fcf59187eb03993226d0253e4f233bcd5a3bb mptcp: fix stale skb->sk reference on subflow close
-738da6031c2a54cca7b3a3e6746070567f857a05 DO-NOT-MERGE: git markup: fixes net
-71c06ff8792aaa1eafea7682d288a334032a9923 DO-NOT-MERGE: mptcp: add CI support
-1c682be27a8493723c570f066212613af0e20afe DO-NOT-MERGE: git markup: end common net net-next
-53430e59f0891162221db38e9ebf28fec1b58c1d TopGit-driven merge of branches:
-68d4be24468c61b103c5e649e7307dcd7c8ab7f1 DO-NOT-MERGE: git markup: net-next
-372fe9410bef6774cf812fb9f15def54674174b7 DO-NOT-MERGE: git markup: fixes net-next
-a95a0a9170f4cbcb461522381c07229fb716d9e9 mptcp: pm: init and release mptcp_pm_ops
-9be3828a4349efcadaab6b3779294cea0c8cfe2e mptcp: pm: add get_local_id() interface
-c8452e459496feb5a5cd3617a2056d3a1d3206a7 mptcp: pm: add get_priority() interface
-ef8c3bafb775f69c47ef8b3b49513e09a483cc87 selftests: mptcp: connect: test name in pcap file
-5ceaceb2d1da924aaaa84235e71eca4be597d49a selftests: mptcp: simult_flow: test name in pcap file
-7ab0980e4a135d1fc7a5cfb58bc0d62f739922d7 selftests: mptcp: pcap: drop most of the payload
-8b77ae235f4b63e0a9e2244c2f33fa5333a922c4 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-6b429c8a47a2ad6756f43306383b61d209d91d53 mptcp: remove unused data_ack from struct mptcp_ext
-c9c40d669ca9162f920d6bf855b444a064471f75 mptcp: move the retrans loop to a separate helper
-7a23985f63048458c6e1e8da351da8ab438e5126 mptcp: let the retrans scheduler do its job
-f91b08f16d8c0cbe84c9af7bf2de5e152324eb72 mptcp: explicitly drop over memory limits
-77910b6b03008b9e23628c5dc7b3ddef116b2e88 mptcp: enforce hard limit on backlog flushing
-80ade33e313ed067630554eb6f59da9f953b4373 mptcp: implemented OoO queue pruning
-8e5f8732a134d53a030d401c1cb6e938f69e1421 selftests: mptcp: fix const qualifier warnings in strchr usage
-2dc09a4bf162999f26a85ddcfc5d2f4a66b07a64 DO-NOT-MERGE: git markup: features net-next
-30d7185adda61094903c30df837d4766894777ce DO-NOT-MERGE: git markup: features net-next-next
-860d0d57d6ec4701cc870079d8f501d9b8d99b8a bpf: Add mptcp_subflow bpf_iter
-00a2d9c9493c4643473bd7af57108be24c634efc selftests/bpf: More endpoints for endpoint_init
-8cc46ec429eecf92bd58dfb0b8a0bad8ae7a1819 selftests/bpf: Drop cgroup_fd of run_mptcpify
-94b9b514375a3e054163dee796fa393de62428b3 bpf: Add mptcp packet scheduler struct_ops
-92d6b103110a8d3fc9d9edec2fde5a79a6ec78d1 bpf: Export mptcp packet scheduler helpers
-4ddf5ef22b349c8d9438c40022ca387a60bc0b94 selftests/bpf: Add bpf scheduler test
-3f2bba680468b5ae6d00bd9fe27a922f79ad60ed selftests/bpf: Add bpf_first scheduler & test
-2190bc3ca752017bace6077cd6e87cf77c3ce2cf selftests/bpf: Add bpf_bkup scheduler & test
-ccb99be574f1b8ea1273c89266e719689057cea7 selftests/bpf: Add bpf_rr scheduler & test
-ab5efbcd8792bdc6929aa35b898fb7120f5c2ec4 selftests/bpf: Add bpf_red scheduler & test
-fe392193979c05f100ee11da138725fb5f03ea77 selftests/bpf: Add bpf_burst scheduler & test
-526fe77be67092144e875f1cfe22731e0b2fdf65 DO-NOT-MERGE: git markup: features other trees
-019298383813128684068cc69bad2b425780debe DO-NOT-MERGE: mptcp: improve code coverage for CI
-ba8940c77ff7e7f3081e7e3d8a9146000a3ff2aa DO-NOT-MERGE: mptcp: enabled by default
+1ab6f06b4506d0ef83500a48a5ce88e9b4e6f899 DO-NOT-MERGE: git markup: net
+b9db0bc5ccbf625ea541c5c931f95b29ec610463 DO-NOT-MERGE: git markup: fixes other trees
+d644406cf9fba0cb2a045347d10f0ccdb8df7702 mptcp: fix stale skb->sk reference on subflow close
+48162c86a610a747d6322fefc12401effa94b888 DO-NOT-MERGE: git markup: fixes net
+d75e1a6ecaea1271a0e2be85bcbc390f59a94289 DO-NOT-MERGE: mptcp: add CI support
+950c71522c719f91551946278163680fa90c00c3 DO-NOT-MERGE: git markup: end common net net-next
+b432546b7eb65e4b9453eac529da886f0f0d1f16 DO-NOT-MERGE: git markup: fixes net only
+3e2c815f6fd93aec80dafb89947f1893f744c33b DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+73be9a3798b96df8a246668a76f1f70822e88b26 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============1849657064852822756==--
+--===============5440918497731312916==--
