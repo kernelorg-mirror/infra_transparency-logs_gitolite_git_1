@@ -1,99 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============5960345934750575744=="
+Content-Type: multipart/mixed; boundary="===============3268738894876670044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 27 Jun 2026 01:59:00 -0000
-Message-Id: <178252554061.2133351.11365375336166318905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 27 Jun 2026 02:53:49 -0000
+Message-Id: <178252882975.2173265.16320313737755348471@gitolite.kernel.org>
 
---===============5960345934750575744==
+--===============3268738894876670044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 5422e496b313b9b0b2f6df068902d6c79925d5e9
-    new: 5a66900afbd6b2a063eebad35294038a654de2b0
-    log: revlist-5422e496b313-5a66900afbd6.txt
+  - ref: refs/heads/sasha-cvss-important
+    old: 7fc41fbabb9e9d44f3139512a8091eeb3be20911
+    new: d1f96de61a173e23f5112084bf08cc3bc511a7ca
+    log: revlist-7fc41fbabb9e-d1f96de61a17.txt
 
---===============5960345934750575744==
+--===============3268738894876670044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5422e496b313-5a66900afbd6.txt
+Content-Disposition: attachment; filename=revlist-7fc41fbabb9e-d1f96de61a17.txt
 
-e7ab91e2bf01b024691d6ce488546533943e7a6b accel/ivpu: fix HWS command queue leak on registration failure
-90c0486a82e27393f9eaf3bb350f51a0bd38cb6b drm/displayid: fix Tiled Display Topology ID size
-5ce9ac1531b8e27e754a7d17fa07fa9da0d4a6b3 drm/i915/mst: Call intel_pfit_compute_config() for sharpness filter
-31f077088e0faae6be8377741f356dea1b94ba46 drm/i915: clear CRTC color blob pointers after dropping refs
-062499cc4813b5a3cbed5dd4fbe0177265858450 drm/i915/mtl+: Enable PPS before PLL
-b4b15e4f12ad1dd83b69d453ef826553917eb8cb Revert "drm/xe/nvls: Define GuC firmware for NVL-S"
-65b1f95802f90fea0283f226317dc02dba494c81 Revert "drm/xe: Skip exec queue schedule toggle if queue is idle during suspend"
-1141574cb85db5226042b3d903157f95bfc631b1 drm/xe: Clear pending_disable before signaling suspend fence
-65280af331aa15eab7012bd7f07823be13754ba2 drm/xe/multi_queue: skip submit when primary queue is suspended
-45fa032b68570a9ccd80328a857ac5872217be92 drm/xe/drm_ras: Make counter allocation drm managed
-042f1d5f20d63fb9b0e2fbba97648d16fe1a845d drm/xe/drm_ras: Add per node cleanup action
-d46319bc8273c1018fa532a383eb515ee1b1de4b drm/xe/hw_error: Use HW_ERR prefix in log
-f2d238408db2b963951f0f2ae70ff7f9e337b540 drm/xe: include all registered queues in TLB invalidation
-0b837315ca0adc317e5c8a9c7e484a0e29199b9b drm/xe: fix refcount leak in xe_range_fence_insert()
-770031ec2312bfab307d05db5469f24fd297e758 drm/xe: fix job timeout recovery for unstarted jobs and kernel queues
-92dc59ab2a09097cdf249e0288ff9b69261761c6 drm/xe: Fix wa_oob codegen recipe for external module builds
-ba7fd163422877ad5a5cf31306a38c07d3932b0c drm/xe: Set TTM device beneficial_order to 9 (2M)
-632ecc90e1ca5d3b6822bb4d08f84a175b6c42c0 drm/xe/guc: Fix buffer overflow in steered register list allocation
-0b5ed2756d45b04669502a1f13b1657ec7664571 drm/xe: Add compact-PT and addr mask handling for page reclaim
-7caf2a2351d4053075670ff3e26a6815da0a9e1e accel/amdxdna: Use caller client for debug BO sync
-3f0cc1735273a57c5116710cf0202e12152f59cc drm/amdkfd: Avoid double-unpin of DOORBELL/MMIO BOs on free
-1c2d7a656655a50bd1b7227fb26d173959a1955d drm/amdgpu: initialize iter.start in amdgpu_devcoredump_format
-76589bcc73f477ef2b3b90e4fae6a7a4dfd925af drm/amd/pm: re-enable MC access after PrepareMp1ForUnload on SMU V15 APUs
-20a5e7ffdfecddc34c60a6b4483f42acf3d8731d drm/amdkfd: Properly acquire queue buffers in CRIU restore
-b29aaf0a72222bfafe4d73899dadb0486b5bcb09 drm/amdgpu: skip already suspended IP blocks in ip_suspend_phase2
-fe7945d092a1d3c340febc2ab176cee50d0f6c80 drm/amd/display: Skip PHY SSC reduction on some 8K panels
-5cc0f35d83e2c72f70edaf7478db350af3082a17 drm/amd/display: Restore periodic detection for DCN35
-1142738572ef3fcf8b169f1c48d94b4a71cc2d97 drm/amdkfd: Fix SMI event PID reporting for containers
-3d3372add033528ca90d1949abb52142504f5d23 drm/amdgpu: allocate lockdep mutex on the heap to fix stack overflow
-3e864bf2a32a1cbdf1e0f9c5a5a4176e8575f4a3 drm/amdgpu/gfx: fix cleaner shader IB buffer overflow
-40f9e2f514924312ea737c1c16ba945a5a7e374d drm/amd/display: Add IN_FORMATS_ASYNC support for planes
-8e792f018e10e68f488f279fbd4f38009a2e066d drm/amd/display: Fix mem_type change detection for async flips
-f896e86273dbbebb5eac966b4a201b5c62a02e9a drm/radeon: fix r100_copy_blit for large BOs
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
-29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
-ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
-c3027973f692077a1b66a9fb26d6a7c46c0dc72c drm/nouveau/acr: fix missing nvkm_done() in error path of nvkm_acr_oneinit()
-ab99ead646b1b833ecd57fe577a2816f2e848167 drm/nouveau: fix reversed error cleanup order in ucopy functions
-44e3aeeb9a79dbf1b18b48115dcf6144bbb957f0 Merge tag 'drm-intel-next-fixes-2026-06-17' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
-347010faed7afc83ed8fb998b4530e3a937d6c53 Merge tag 'drm-xe-next-fixes-2026-06-17' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
-0e8233409d4f6def051dd42a432c6815bb780d78 Merge tag 'amd-drm-fixes-7.2-2026-06-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-faaa1e1155833e7d4ce7e3cfaf64c0d636b190db drm/edid: fix OOB read in drm_parse_tiled_block()
-134844856c399bfa9462a159dcf860bfdb748055 drm/sysfb: Do not page-align visible size of the framebuffer
-b771974988ec7ce077a7246fa0fa588c246fe581 drm/sysfb: Avoid possible truncation with calculating visible size
-7bab0f09d753f098977bbba3955d694c2e2c25da drm/sysfb: Return errno code from drm_sysfb_get_visible_size()
-9206b22fb959f4a9cf1921f34aed0df1dcb1ab04 drm/sysfb: Avoid truncating maximum stride
-914a76a9f08366434bf595700f62026b7a19a9cc drm/i915/gem: Add missing nospec on parallel submit slot
-2ee8dbd880b14fb0b5115bf2353c7900aa33b95b drm/i915/cdclk: Fix up CDCLK_FREQ_DECIMAL without a full PLL re-enable
-b41df707b6d7b7ae6188c6fc37ba81859293cb94 Merge tag 'drm-intel-next-fixes-2026-06-25-1' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
-f24ba334afafc70c3149e9db9c0cf8ecc6d52a09 Merge tag 'drm-misc-fixes-2026-06-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-fa6fe449343c3d97ed93fd01b020860c663f8807 Merge tag 'drm-next-2026-06-27' of https://gitlab.freedesktop.org/drm/kernel
-5a66900afbd6b2a063eebad35294038a654de2b0 Merge tag 'drm-fixes-2026-06-27' of https://gitlab.freedesktop.org/drm/kernel
+e702ea65884280f40b27539316aea2a4bd8c2895 proposed: Add Allen's v7.0.[10/11] results
+d9289aeb3d2ed77c9ee205ec3e9962672d27937a CVE-2026-43494: Add reference from reporter
+d07ae557fddf6b63d84f9eeff7d4d4461e76e6e6 CVE-2025-40214: Add reference to write-up
+60a9ef9f13876e9f67afe6fa07cb7bc5a9c85d82 updates based on new references
+b9c4575d388ced987cd8dbcc65163241c202c629 Merge branch 'sasha-cvss-important'
+5e76d99948575120e59a204fe0402bd765f39195 updates after cvss merge
+f38932f50efc432afc4c72c33ff3d69321bfcb82 updates now that 7.1 is released
+64ae3b7a1afa6afbdb992cae14139b9a1bb6effe add .vulnerable id for CVE-2026-46135
+9f6abe8f0a8fddba6221fcc0253a0057ecaa1344 add more atomisp driver holes
+734a49e9a0b6ea16f9336fb7ce6f23c0fa2e1570 updates due to new .vulnerable file information
+927de31ad82898567ad9cd38ab3e1877bd0be815 reject 3 cve ids as they are not in any released version anymore.
+001894b0b749fbec95d94d3b0b44a05029a251a6 finally make CVE-2026-46331 "public"
+fdda9fb1d94c19a58679dd355909f91b965ef22c strip the new mbox
+9e2b8fe56b6d35e2cc1b269845412b459451a20f CVE-2026-46173: Add Google p0 issue reference
+a73a632603929ff0ad9dc5cce8059d4e1b65c18a update for new reference
+84f82b7135fcfe563555ee6c0abdf99101344586 update CVE-2026-31456 with another git id
+6502476fc8261131ea883bbf0b142b3209d8be17 reject some CVE ids that have their commits reverted
+7c4d3036f35aee74974b6dad9ad021cc858e47cc reject CVE-2026-43122 as it was reverted
+b9f3b8181a40de1d89bdf526b97354b1c856b4c2 updates for new stable releases.
+21fff32f3cde56e7ba6d3357c7ae3fc4a22962d1 assign a cve on request
+34c7bbfa34586b0bdba4e119f4a18f0e508d1f99 assign some CVE ids on request
+a2c1ccf251822b22c396b5bd6fc1fd725d376c01 strip the new mbox files
+5f33b54ce25ac0b7c5bf711ca60c9036dd8ced4c assign a CVE on request
+da4455693345760f6dc221e730ac89377c189d4f strip the new mbox
+14df6fc4c089760ddfa74a7d6d752007abd7f46f sasha: review v7.0.13
+40f9d9a99ff726c63e169298d61802ccd27b32a4 proposed: Add Allen's v7.0.[12/13] results
+08be9b32b93d73010633d4347c627afc9f1054fd assign a bunch of cve ids on requests
+9855a26db39bea901428acce9f906e42dbd7f42e update the new mbox files
+55da846a2bd2c0852757b0ee5692659a9b846b0a assign a cve id on request
+afa0ca02b217f2c3ca4cab67968acb3bb995aa0b strip the new mbox file
+177954289142c67362443417abc3110f401f9701 assign a cve id on request
+431831cdbce916ac1c22955a48b1b857c789df5a strip the new mbox
+857b4687170dff1b1c1b69d662b073c81d279d11 add initial 7.0.10 review from greg
+4d7d9b0bff589be82d747d02a015eea844fbe139 finish 7.0.10 review by greg
+fc2dbb148e1f4b5d4e9541a0ebdcf8beb65e2ba7 CVE-2026-52943: Add CVSS 3.1 score (7.8 HIGH)
+21317894d085afbc0bfc8d5c7e2c72a85cbd2b10 CVE-2026-52942: Add CVSS 3.1 score (7.1 HIGH)
+24bd783857cc24f749c6aa1b7d47f9300c818043 CVE-2026-52935: Add CVSS 3.1 score (7.8 HIGH)
+327f3a81a0e8987d2b07ebc0e2cb1c8d22dab723 CVE-2026-52934: Add CVSS 3.1 score (8.8 HIGH)
+6f0d3ba20b3deaae136faeee64d28cd1071d0953 CVE-2026-52932: Add CVSS 3.1 score (7.5 HIGH)
+462e4f5507530aef110b7fc34170ec7ac0c11e4e CVE-2026-52933: Add CVSS 3.1 score (7.8 HIGH)
+d812e13e97d90e24bab4c0fa3891428a065298e8 CVE-2026-52931: Add CVSS 3.1 score (9.8 CRITICAL)
+d511864f59591829719a4c66ae7ad94cb2ce1a33 CVE-2026-52929: Add CVSS 3.1 score (7.5 HIGH)
+280e5936600b8d41040bd2934a582b015c343bc1 CVE-2026-52927: Add CVSS 3.1 score (7.8 HIGH)
+10e476866f25ac3030cc39b8d1437cf94ffb39c8 CVE-2026-52924: Add CVSS 3.1 score (9.8 CRITICAL)
+4e1103f0ae4029d4b888ae2ddd925b9ad1890583 CVE-2026-52923: Add CVSS 3.1 score (7.8 HIGH)
+8cd3835c1c2f293085066ed709c442f6971f6b7c CVE-2026-52922: Add CVSS 3.1 score (7.5 HIGH)
+4179047b718248c1256d2f3b16ec254f94f28de0 CVE-2026-52918: Add CVSS 3.1 score (8.8 HIGH)
+626059af5269d15fce05ad2ded8eb57ce5b7d41e CVE-2026-52919: Add CVSS 3.1 score (7.8 HIGH)
+965b415851ba9c84acb4010890375b34c56fbd3e CVE-2026-52917: Add CVSS 3.1 score (7.1 HIGH)
+82897795c4f5170a864fecf68795bcd54fcce204 CVE-2026-52920: Add CVSS 3.1 score (8.3 HIGH)
+8e2ea0387516267067d75ada0bbd03960f2cefce CVE-2026-52915: Add CVSS 3.1 score (7.1 HIGH)
+e076dc2a2e3d24b9b375e45aa094791f4e204c57 CVE-2026-52910: Add CVSS 3.1 score (7.8 HIGH)
+6a391f0b39fc673ae0486aee02f70a87b776584c CVE-2026-52914: Add CVSS 3.1 score (9.8 CRITICAL)
+6a77341b5807bb38fdafe9dc1055e4766a88316f CVE-2026-52912: Add CVSS 3.1 score (7.8 HIGH)
+8928ab925f0addb91449f001b765db91e8423107 CVE-2026-52911: Add CVSS 3.1 score (8.8 HIGH)
+e09b04d4e55c38e5ee48f2cbd49e822c5db21882 CVE-2026-46331: Add CVSS 3.1 score (7.8 HIGH)
+68e40ffddbb059c9af7c8af47a34b4c45178f2ed CVE-2026-52909: Add CVSS 3.1 score (7.8 HIGH)
+d1f96de61a173e23f5112084bf08cc3bc511a7ca CVE-2026-52908: Add CVSS 3.1 score (7.8 HIGH)
 
---===============5960345934750575744==--
+--===============3268738894876670044==--
