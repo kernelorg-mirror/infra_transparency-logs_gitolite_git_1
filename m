@@ -1,44 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4915548674148218352=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 26 Jun 2026 23:37:46 -0000
-Message-Id: <178251706644.2034270.9327880712452869589@gitolite.kernel.org>
-
---===============4915548674148218352==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Sat, 27 Jun 2026 00:06:57 -0000
+Message-Id: <178251881778.2055206.2210538334441279254@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/master
-    old: 2dec87d0b195463fc4ea4b0817d3049630aebf3d
-    new: 5422e496b313b9b0b2f6df068902d6c79925d5e9
-    log: revlist-2dec87d0b195-5422e496b313.txt
-
---===============4915548674148218352==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dec87d0b195-5422e496b313.txt
-
-b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
-942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
-f9c9ec2c319f843b70ecdf939d48b52d189bc081 gfs2: fix use-after-free in gfs2_qd_dealloc
-70008e22ab3fd619fb2a50dcfa80b9dfa26c5d8a gfs2: Remove unused fallocate_chunk argument
-4982e58669b11c43644efb5fb7435975848b716e gfs2: page poisoning fix
-e5c6b06a97c88227da49874d805393f960b661c6 rbd: switch to dynamic root device
-e120e2b666851c4c0c7bffd315ff69a09f9fe4ac ceph: convert inode flags to named bit positions and atomic bitops
-248e514000d552095025de0473165becfe8e810d ceph: use proper endian conversion for flock_len in reconnect
-39fe3031589386ae7ce3fd7132beb6bb229e22ce ceph: harden send_mds_reconnect and handle active-MDS peer reset
-ebbbab66bd74dbd213d51afc3b029dc8b109ee47 ceph: add diagnostic timeout loop to wait_caps_flush()
-b52861897be8a7ba563077ae62cd48158d16a5d9 ceph: add client reset state machine and session teardown
-7e1f9e2cd2d0e780c394a4402c40e125109fec72 ceph: add manual reset debugfs control and tracepoints
-5f80d9113360c08111ae7471f662f3f89f23ce32 Merge tag 'gfs2-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-5422e496b313b9b0b2f6df068902d6c79925d5e9 Merge tag 'ceph-for-7.2-rc1' of https://github.com/ceph/ceph-client
-
---===============4915548674148218352==--
+  - ref: refs/heads/kvm-arm64/s2pie
+    old: 664055e48d9eb10140b14a86784eeac9d3bc58f7
+    new: 9b44fcff8a934c2d863d1a7c79d1d4dcd571fef7
+    log: |
+         fb93c6c92487f35f15d5a9a1e9ab1c1d153a05a6 KVM: arm64: Factor out programming S2 direct permissions
+         b2e27074819f370b2f77e2570a1e101d9568448a KVM: arm64: Separately track writable/dirty states at stage-2
+         6e84576f8d420c7fb2ed61b9c072238d832a6d6e KVM: arm64: Program S2PIR_EL2 when loading the stage-2 MMU
+         7bc93292feee6e03a48b0ca0239f41815818e9fc KVM: arm64: Set indirect permissions when S2PIE is in use
+         8acf3c0a0c7f9f1bfde756fe0373c6832de8c8f0 KVM: arm64: Compute abstract perms from S2 indirect perms
+         2be5d02f6f865e6dbddc41d30fa1673ce45d702c KVM: arm64: Teach ptdump about FEAT_S2PIE
+         9b44fcff8a934c2d863d1a7c79d1d4dcd571fef7 KVM: arm64: Enable permission indirection at stage-2
+         
