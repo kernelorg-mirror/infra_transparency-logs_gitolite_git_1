@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sun, 28 Jun 2026 15:26:43 -0000
-Message-Id: <178266040360.3965858.8942760433926669706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 28 Jun 2026 15:46:01 -0000
+Message-Id: <178266156191.3979623.2737864132918479685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/pending
-    old: 0352b3372c26dc5474f2f99bf26e8018d23828c5
-    new: 4bfe69d8f78d69f3c2e70742263b195fe2433f97
+  - ref: refs/heads/master
+    old: f7fdd691fd80b87b08719f1faad5059105712f37
+    new: a1d3bc7e6f7746cb4a2983f3b66302d3ea163545
     log: |
-         4bfe69d8f78d69f3c2e70742263b195fe2433f97 wifi: ath12k: advertise ieee_link_id in vdev start MLO params
+         bebee9a32027c17c485634e093462d5ef68f32ef toolsoftrade: Fix up conventions around VerbatimT
+         a1d3bc7e6f7746cb4a2983f3b66302d3ea163545 toolsoftrade: Fix off-by-one error WRT Listing 4.14's line count
          
