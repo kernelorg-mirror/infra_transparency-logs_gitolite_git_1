@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7232741285832360793=="
+Content-Type: multipart/mixed; boundary="===============1741391843720868534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 28 Jun 2026 06:37:14 -0000
-Message-Id: <178262863448.3537739.9422616478454666291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 28 Jun 2026 06:37:22 -0000
+Message-Id: <178262864252.3537970.16273742956987610342@gitolite.kernel.org>
 
---===============7232741285832360793==
+--===============1741391843720868534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/main
     old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     new: 780d569e6c4b422290f5cba319eb904b355d64be
     log: revlist-51cb1aa1250c-780d569e6c4b.txt
 
---===============7232741285832360793==
+--===============1741391843720868534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628562 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1782628632-87e51ac85342ecaf8bc1396b82915a6d6ca939b0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628566 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1782628636-c08a902688919ca661a6919043ece639c6b7d15d
 
-51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/char-misc-testing
+51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwNIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bWMP/iyAQx1ytilUJqtZkbDf
-ERqzgrxCRlogcQXN9ZQjvEQnsrbsl7ZqR/ZqPn5IDvomModXAY4H72d6GDL1cXu4
-WDjx+2Ve4qMoHuUsAjWD0926QXq92MBxjNMbVT9PG/Qxv/1c8J8uWzUT40z3R6wB
-XF2KAFrzFpN8ftvFPf2hpdcqplgQ7g0bEzMQK9A72Xp6TDux9iMjyAw3Rf8l68MM
-6Jf31zwTy1Xq34nUWhHCKsH1IwnhFdvVka8cWfWKZUa9TTl0wzDKaKpdc+XlJbt8
-Ppl6/3YX8ULzAKGPlCOZyVAPNJ8F3+trm0JBck4c01P/Co6QeEElUPPVW/KqSSyU
-4qXdwl876tBHY5gBnoxfVvUwbvxnERkoF02bvNFyWayjJAyFmiYQaVY/0efMbsqn
-tEEMpH3QI6AkXUXlzE6dVMUQlnxMH2jYst1IMyiTWguchnUIAex7U9BTKX7FnAmo
-5x2T9s7dEL6KB2GeEuaklVQN5Mes1QPJqAmrPfFTBdBPHNqwyH7gpFBfP6+vLDgh
-fwajMOUG8fuueqYeu1AJkpn0/We4YQyWRqyNOuTrOGJHAPl3w6XgEVEHp3oGbnSP
-8MoLppiXHHlWs6sAnKvjX7fw3XG5/xTWFy48hajbkGCehfUFQ3q6wW6CmdQZ+euv
-lG6aEI0RPn2Hrpy/EbrhwhKs
-=lF67
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwNYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vhIQALOUQeoWJ4tl5jaeAk9E
+rbKa4MaO72nqytoNYiS3VkrRBKjN/8LfCw26fQrgbPkZUer34vG8hnz6HNj7lwbt
+EJx7q+rwiF3XRoUlXBnFgscTPc8/8OlW+ZaOrBdyEBRC7GoNg1g0Pxtwf6WTru5H
+H4ENCtVem9re63AJkvwhvAEnKEb5N1S5d6FfElhnDU/YVhsq3b/VIfp4GMzA3Vlx
+9oXw/V+HLP+HC9qNlmw1xFC8srs3elBfSy/JsU+FFVVtrPVyK8xZDZwEHJ/6ZK47
+t5zgBiNSviQzdpXXetDjR4VlrkPJqSXQqoThB1IEsjZuExjIEmHOTqUmF6e+GpRM
+tmlj99RpOVikVq5XsbfCvgQWECgYgviTM1iv9YQSoMywLv7uSFMkTdrITIpQW+53
+JHOj2J8cJOH5rqXBy++uj6MkE8r25hCLDr+pv6OQ6Z1W/XHzVlkCWo1g260mYQOB
+ISvWYy3RQl30JIrvO6M4xMJlQPd1J6YcSccJNtzfNn6nV/DVoGUQrI+kYLf+Rqgn
+OJcH3F4lMgA0xqtDSnYJvsduiB6O1ez7u1y8E7axaglk82k8JLzj2t13IOqupnrW
+KwTcTjSsSI+uG5HJuZkgd28oolgHRNdkC57aObyKuGFhat679uXfBLhGuIC+1/Gv
+Fg4blkhtRUv/5mOhF7WS4cfU
+=uTVR
 -----END PGP SIGNATURE-----
 
---===============7232741285832360793==
+--===============1741391843720868534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============7232741285832360793==--
+--===============1741391843720868534==--
