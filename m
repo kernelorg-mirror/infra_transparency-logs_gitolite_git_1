@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7743663396357659959=="
+Content-Type: multipart/mixed; boundary="===============8399123675422790878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 28 Jun 2026 06:35:54 -0000
-Message-Id: <178262855441.3535029.3887994016415702867@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 06:35:57 -0000
+Message-Id: <178262855796.3535195.16649379083964894934@gitolite.kernel.org>
 
---===============7743663396357659959==
+--===============8399123675422790878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/tty-linus
     old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     new: 780d569e6c4b422290f5cba319eb904b355d64be
     log: revlist-51cb1aa1250c-780d569e6c4b.txt
 
---===============7743663396357659959==
+--===============8399123675422790878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628478 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628485 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1782628548-9104aa887cdda345224f35ccbd4a8cbc6dfe233e
+nonce 1782628556-1e16b4aae8a5d1e400313d0b2e1aaf5f7522d9a7
 
-51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/main
+51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwH4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hWMP/3KH0bGTuocx5BfqTFr2
-r9TYXuJJdcg7NvxHF8QasVmFdCyrpuB9xew79tdXBErwRsJqXOE7zg24FDi2rWWE
-KQPl0Lh4LmQAYd/fpo0kRKVmA8IUJ5KR0nUBmvOfzmQRgXKoJnVSpIzZuyt86Mrv
-Wd/75wHaq+wDPLdQQJbXMtmGzIjS30FMoDQqFitnqSCuP2QDt35POpzAivthKNmE
-iwzwy+1gbtuMsWxxhu8BelB9sGTrWzDuo4Zg4GSIYev6eknmeIFJTarCPYS11kf9
-WC2jKue0wdMcDUt4R2zK+jubc17KAZM7bVT5a17oPfNPvGxR5fy0CbQHJYy6rrV3
-CQ/uwp2Idg9G1b9MLEjNe2OCEhBVKYfxuIE9wVzb+VeDp8NOcibCjiOhf/Mds0ob
-Fo2mcYrh6rheK03U0EEKKIGK3/AQ/LnyEB7VwcP6WiC4YQPQZkEpZz7N2/seQYm/
-0nZc77jeVHQ3XGC04XY8nDmDUnLZbTm2n1jLthNVSaG0oVhUiK1mXxbUvTzEk9dk
-FUAG6klBXFkXUoTfi0WbS8HS3bP6hpIM+KG18JkINv4Mbtnxl9EWgPy9MpBkbIMv
-PMMlG7bsSGyaSq9E0F1o2BcE2zpF/XMWj5VuDvlK9nW5bengGBX+zJ0uTUfxIpvm
-Ds7eHZ2z5OfEQO9SbAJV9YsO
-=AKYZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwIUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6WQQAMSJne3msu1P7Eekjm4K
+7rsFqaHDUuH29ObUZ9PisCU6tGwQaSW2P2E3mnYGg8Rz5bZFrnoULFbvH6RjGfzy
+7kl2cvk6F4HbkSLroQYX3sGm9JrHOJ7zngQL4EjENppn7d09fVjeZ3bGQe2XtoqU
+AC3R8MHE9F8kvTyfMIVLCbYu4LyIB7KzU+OQwHnjIWF4hLIg7WmjHm0cFrH+HGBg
+0aRCONRjYIi4TTIZU47Qe7C5Wuhc4iu78ngCY1rr5Q/OrhL4L7+pZcT4JxeufvYi
+MQYIUzxqA5uLAN9kFqgHxeNwfzvaAk+qnV4rYhOZ7b9Y54h2ms8+s0oNWDoLNGUz
+rFTSfN0OGxqGtID3eQWKOp3BCh4dhQ+9FFp0hy/2A/8PoEPzWUvSAHIkwW/Xkp2T
+AbaUdV46rng0kMs0VFkzgpCjWtyJd6yDWbWbjdDgbdMSr+QnwcenpXZR++n+Mnij
+z+wA26RHp/JdjjjWI82a+uwbGU3kHtPIcei6w0uOee6sMyRRz0bF/nPezARwXbjk
+jCfRzinepSsEMDDWywUi+8TCeMPS7oJmBWM4SDx9Y4UJ8OimdXlD1r9aTHxSPRvz
+RA3oi/EPEro4BV8u9JEwODMCCTh4DGceuoc6o+wtIPe6tsBxf/YeMTg8so7uK4v1
+2GNTQducDqjCH/+tnF4Md4Fk
+=lot/
 -----END PGP SIGNATURE-----
 
---===============7743663396357659959==
+--===============8399123675422790878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============7743663396357659959==--
+--===============8399123675422790878==--
