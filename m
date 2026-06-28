@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0498493606576566661=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 28 Jun 2026 18:16:41 -0000
-Message-Id: <178267060149.4085213.15149448600586342459@gitolite.kernel.org>
-
---===============0498493606576566661==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 28 Jun 2026 18:17:34 -0000
+Message-Id: <178267065482.4085843.11032451993806267800@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 780d569e6c4b422290f5cba319eb904b355d64be
-    new: 0716f9b9338a86dd27796e00ed0fd560c653323a
-    log: revlist-780d569e6c4b-0716f9b9338a.txt
-
---===============0498493606576566661==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-780d569e6c4b-0716f9b9338a.txt
-
-57c10915f2c16c90e0d46ad00876bf39ece40fc2 Input: synaptics-rmi4 - bound the F3A keymap to the GPIO count
-d577e46785d45484b2ab7e7309c49b18764bf56c Input: synaptics-rmi4 - bound the F30 keymap to the GPIO/LED count
-4fc0625cf9c6c11f1f9b09e1f2e35fa2dd46ea6a ntb_hw_amd: Fix incorrect debug message in link disable path
-d876153680e3d721d385e554def919bce3d18c74 NTB: epf: Avoid pci_iounmap() with offset when PEER_SPAD and CONFIG share BAR
-8df969463bc26a7250707f485ee3ac61426d671f NTB: fix kernel-doc warnings in ntb.h
-d1c3d45f87e89e5c1fa0769a72a48d1ad99106fc ntb: amd: Use named initializer for pci_device_id::driver_data
-d85589879f19ad8514c508709865f064be761df5 Revert "Input: rmi4 - fix register descriptor address calculation"
-2d6d33e45dd4fb768758d5f6e747deadcd66b9fc Input: rmi4 - tolerate short register descriptor structure
-d86d4f8cbb5a55a3b9b86f7b5ab8c4cdda600a3f Input: gscps2 - advance receive buffer write index
-8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
-
---===============0498493606576566661==--
+    old: 3c9d1be80414e6f4353575fd26b6b4e07d3d685a
+    new: a6fce2bec05707a28dc23638e307ebee78eef9bd
+    log: |
+         d1ed445f17448fe9d63376f89f4b03976079e9d3 patches/next: revision region size validation
+         3262d1fc173bc6008012250a2eee2c7ff9d6f35a patches/next: region size validation: remove fixup commit message
+         a68718f317e75dba626ebd0e805509c458ea1976 patches/posted: add region size validation rfc v1.2
+         44f6bcec8b6cec5f03fa27f05a92a84755248561 patches/posted: add msgid for region size validation rfc v1.2
+         d315c0668943b568bc1f0d3d5bd2bc03160f72da patches/next: region size validation: add proactive changelog
+         e45655f0efc40e88d8eb42780eb085f21f033761 todo-reported: add an item for before-align validation
+         a6fce2bec05707a28dc23638e307ebee78eef9bd patches/next: categorize prep fixups and attrs only monitoring patches
+         
