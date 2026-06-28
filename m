@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8411641660335982377=="
+Content-Type: multipart/mixed; boundary="===============0432223112129736413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 28 Jun 2026 06:36:55 -0000
-Message-Id: <178262861502.3536624.7423062281650759033@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 06:36:57 -0000
+Message-Id: <178262861789.3536765.5836864279070452257@gitolite.kernel.org>
 
---===============8411641660335982377==
+--===============0432223112129736413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     new: 780d569e6c4b422290f5cba319eb904b355d64be
     log: revlist-51cb1aa1250c-780d569e6c4b.txt
 
---===============8411641660335982377==
+--===============0432223112129736413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628543 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628546 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1782628614-f6a73ff18f25cb5b33170efce8e517f7d0e70c45
+nonce 1782628616-a5e635660f7f59c1158694d330953acd5ba6cd8e
 
-51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/staging-next
+51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwL8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NN8QAIaNJVna4DcxNxySIFFM
-imOWjHvyicfQX4QSGlGe78qsMGn5g2sjXSw3vRa4R3GPyG6F+reKc5AVd8GN640c
-Jr++T7NKvwybVyO/MO0e/JyHWHD6t9Nqsx2IvDPxOCqi3G/GRtm6ewnl8+pVqGOv
-1HLIA7KOXUsyQ5MhnxCmrQZziJ5qjg5KrS166a5JDMIZmVc8LoKwE1fos664sVkL
-fgwHEaa+iB2Iag8RMe+cS75fh78rSR36a6DvftDhQYAD4BClq7Ou37OeelaF1tAa
-oaFRtEiIbDAY8x3kn1lfPu9WHGjNW8sdL8YOyXVzcgHwO5jG1yDTFXfCbwF3S9bf
-J3B1FOHupi+WjfNLGYrhSggILYStPeftQcfrz+SPY+isYY9zFCk5Uz/zioKKlNLy
-MxKKa73SXYKeQlI8iqsWrxNN9k+ZYiXl8MDxD2wtEjj0dxrIpy0dH3QZSALOP3Rq
-zN8L2u/CguoME5/UegpD1D27D8VeVn/qaqXod62bKz4NAS4CPZMFpTVMxqTprf1D
-zAJLaFTiz6bAJj1BmUTZVLPejOBQ+c54vEs0eJmoEfjwOs1qSnGMd/iQbnvZYerA
-KmTbP/TXU7v/JpwEBQtx9+amK0i8QQ+HJwTSmim6VcJk/LPoYblLQimxF3EDtjL+
-YvT5T28p+e4Z7SY55mAN6Dwp
-=fDuz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwMIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cT8QAMLfu1Wx39syRj5GTGSp
+Dc2nRY2mGt5wWiraqfTJwOgWBAwci7sYdKoYE1tV33IgBgGG8xtLn1oDkOc9JKBc
+CjPzfhGqAgEGrxLGgiG71OyT6Zg/xRURARgx0MqDd0jf37Wh4HhCBzKWhFqmy9x2
+Hc/LhG9TJl3UjhtOf8vOltet83lyQkjOoKpnTv98/iQ3V1V40q1Mji7kA3aZXn/B
+T54B96+HJK7tzKVM7zKzDz1X5Zmtbk41thJIb91qwZNJpKA+Ia0eyNTZxEy2HLKj
+MukpOIGPNmY1VEoigk6p6fzQ5Tz2FjFe5uFESEB/KsuQYHyZghS+EyI6CEVr7+PM
+QzD7lcqCFmhsrO84p03uCACPA0AOnJZ+KJgBVde+ERcVZJgk2EU0fLMqSFWOKBmc
+Aoz11fQNvpdPln/yB89ZXPU+yODzAstnAFPvA8wXe16fzsHUVwuXsMEl3dKQGrp3
+sQOrhx1SFJMa8hHDyGyKdaDVG58ib7cKUl6aqQzMEw/w6uFR/XvxAx0f58Zm559V
+GMv9oRwvtXpOeu7D+w1/GSTeydC4GvCn2njMbdCmNoWWQGSQy4uZdWmKzbaoY8EX
+p93bii0Q7zOjjzvjWMpJxxF8uv2v0cAMMFOmsI0bcSJhTftMlSVbx8i7B75Wy79X
+IgaaDzfmMJsFij1Vu8NC9Gt8
+=mlFp
 -----END PGP SIGNATURE-----
 
---===============8411641660335982377==
+--===============0432223112129736413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============8411641660335982377==--
+--===============0432223112129736413==--
