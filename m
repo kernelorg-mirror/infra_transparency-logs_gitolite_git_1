@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 28 Jun 2026 19:02:26 -0000
-Message-Id: <178267334625.4118218.12514985628857500886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 28 Jun 2026 19:09:39 -0000
+Message-Id: <178267377910.4122360.3688747246883359789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 0716f9b9338a86dd27796e00ed0fd560c653323a
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: |
-         dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-         
-  - ref: refs/tags/v7.2-rc1
+  - ref: refs/heads/v7.3-armsoc/dts64
     old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
+    new: 2a08921edcab6a462fa6ddb02c91b90b5ac92429
