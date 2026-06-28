@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4091502741115418610=="
+Content-Type: multipart/mixed; boundary="===============1650954056258006141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 28 Jun 2026 20:07:15 -0000
-Message-Id: <178267723509.4167111.7681883228491620005@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 20:07:23 -0000
+Message-Id: <178267724398.4167352.2367454126827468446@gitolite.kernel.org>
 
---===============4091502741115418610==
+--===============1650954056258006141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-next
-    old: 8a23051ed8584215b22368e9501f771ef98f0c1d
+  - ref: refs/heads/rust-fixes
+    old: 028ef9c96e96197026887c0f092424679298aae8
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-8a23051ed858-dc59e4fea9d8.txt
+    log: revlist-028ef9c96e96-dc59e4fea9d8.txt
 
---===============4091502741115418610==
+--===============1650954056258006141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a23051ed858-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-028ef9c96e96-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============4091502741115418610==--
+--===============1650954056258006141==--
