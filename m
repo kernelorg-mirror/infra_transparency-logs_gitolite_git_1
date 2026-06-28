@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3333343123505778784=="
+Content-Type: multipart/mixed; boundary="===============0791278273255250357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 28 Jun 2026 21:11:10 -0000
-Message-Id: <178268107067.20225.5031594871285861721@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 21:11:45 -0000
+Message-Id: <178268110582.20600.15457899829769976014@gitolite.kernel.org>
 
---===============3333343123505778784==
+--===============0791278273255250357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-linus
     old: 780d569e6c4b422290f5cba319eb904b355d64be
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-780d569e6c4b-dc59e4fea9d8.txt
 
---===============3333343123505778784==
+--===============0791278273255250357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d86d4f8cbb5a55a3b9b86f7b5ab8c4cdda600a3f Input: gscps2 - advance receive buffer 
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============3333343123505778784==--
+--===============0791278273255250357==--
