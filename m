@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2678703022247571165=="
+Content-Type: multipart/mixed; boundary="===============8978050528608596224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 28 Jun 2026 06:37:26 -0000
-Message-Id: <178262864687.3538234.10099660733174474714@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 06:37:30 -0000
+Message-Id: <178262865083.3538373.1572444544382616436@gitolite.kernel.org>
 
---===============2678703022247571165==
+--===============8978050528608596224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     new: 780d569e6c4b422290f5cba319eb904b355d64be
     log: revlist-51cb1aa1250c-780d569e6c4b.txt
 
---===============2678703022247571165==
+--===============8978050528608596224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628575 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628579 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1782628645-bd86a1d3293276baf13099761865a3e4c954b23e
+nonce 1782628649-d72a01e9bebd2d3b272792d2d616754299f20779
 
-51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/driver-core-linus
+51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwN8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fHIP/Asx/unFHSsTp8jwBCkQ
-MV9TSWNRgxpSTAGmRhRXM2Q5H6BMZVoUYGtAJ2/olNIQrJjvtRjI7TDe0WLD21Fx
-bjykULRt7BDpAaVtpSrlA6BIKNGuClyj0rEdvNf4hZ1k0cKDT2LB94rrflxxO4Rm
-TbsLyl6PbSlDma0tzcXqGIQbRlLceZ8XLZkHAf4rvSWjGqfaXDef91MebAuxIj3U
-aTu/7uEYikOwhf6vgH9zqbUYQAO6Jzov20tndFOpCvciaPl3GXk3ZC8b/CCKrCEA
-QlqakA5YoIlzh5OYIwg6VASLjbZ6AWvGvf+Hg6yn6UFNs7JUXkacYuDAWe64fdAA
-zTffoP3oa6gbDi3tsgRpqVmpyXW1VH+0zE0NZTprNkcm427UtqA9fH4PYwjt6nxf
-mJs6ZtrPYfUcxcsfaS3cDtxt1s6ViU+Y2v10Vd81AyBxeAcHGUmGhK8JLIIzcA/F
-YmGfQHbASSy+AkITL35jHgW4hAi2hGogprOYT7WwkpiZS0wH0w8ppYk+Bk3Jt6VJ
-ryit1Toe8FIhph4jIe/n1+42q4a6watSo4cbqYruZUB4KRdtq085u3grAmMWscuY
-rqOIYSeugWr74pzi1c+QUYhSKNeUfDGLdVu0Gdy1pzmUCcMAQLbHnOk7kszhWLOR
-/tIJp6T5/SyCGgzcmebhgu37
-=uIff
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwOMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nWwQALfnTjNKlXPE1YDPXOSZ
+k+hfomzCBbcx8V3APIvwdrRJs09W/rjF86PWFnFsldo6A1SuNoH7yMxQ0d6EvuF3
+fWEpahFzvu2xWkiVn8Q1Jtl+SdiSCS++u1J1vxnmiPFnyRtGhojIB1IwQuL41KRe
+AK8W5zh2ZK6NsF1Eg21c1ZurxQytoL/2Cx08JebSG7zSrHiclq/NSjjVi2mzUXtS
+wmI0FQiNlS3er5Oa9Ezxk+sDRQFRlJmNvTE1ylhAflPmNf3X1J4N8Mo3p7NqTQ+S
+AEOe0GV+tdli7vbzdEPJqCj7OyQhS/LWlhB8+11c1DyihTSahb7VAV/LUXLFxFjE
+o42/1hlMO5S3W2cChCy8qLWOCDIXxr2Q92k17wt3fN50sHSUEiWXnSQxsSL9xYz2
+bkROmBeER1s9hjqEzaitNLKKxjNPyYL8dDtO0mqbU6NwF011jtxkXWTqJcCXYvnL
+8d3TuSSYf0LUKKGO+lUKfcQw7AnVdBIPk4luUfsWHc7Mm0f6M5MfhYWNu3fX34zp
+zlfXoeAKBTki7rBkhSGxOeJUt71+gvqm1hUIxsAtsu4geHCjG0PkxEXU3rQz7Ckc
+Kibhz4XylTs8jVkeRfnRIUtaw1J4g9+NdRTjLBKsfckkKTCKA2APScIEstRPy03S
+qGimU24JKmUsUptdkq+ITteb
+=lSMp
 -----END PGP SIGNATURE-----
 
---===============2678703022247571165==
+--===============8978050528608596224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============2678703022247571165==--
+--===============8978050528608596224==--
