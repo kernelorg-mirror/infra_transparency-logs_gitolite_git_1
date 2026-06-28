@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3155384583182106828=="
+Content-Type: multipart/mixed; boundary="===============8873883227432800886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sun, 28 Jun 2026 23:16:08 -0000
-Message-Id: <178268856831.112618.4170662170383345042@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 23:16:40 -0000
+Message-Id: <178268860052.113023.12893995235183637268@gitolite.kernel.org>
 
---===============3155384583182106828==
+--===============8873883227432800886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-misc
-    old: 2c6a0994e9f15da5aba8cb108df35a257a792030
+  - ref: refs/heads/edac-for-next
+    old: 705caee1f855c204b1bbac0e2a50a42c5a0a425e
     new: 749c5102487b558cc7d73961a6d0da2fceaa022d
-    log: revlist-2c6a0994e9f1-749c5102487b.txt
+    log: revlist-705caee1f855-749c5102487b.txt
 
---===============3155384583182106828==
+--===============8873883227432800886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c6a0994e9f1-749c5102487b.txt
+Content-Disposition: attachment; filename=revlist-705caee1f855-749c5102487b.txt
 
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
 93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 
---===============3155384583182106828==--
+--===============8873883227432800886==--
