@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1044789917473225552=="
+Content-Type: multipart/mixed; boundary="===============0146927489441244300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 28 Jun 2026 08:57:59 -0000
-Message-Id: <178263707966.3691690.6157686109153290534@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 08:58:17 -0000
+Message-Id: <178263709761.3692007.3277117187716962736@gitolite.kernel.org>
 
---===============1044789917473225552==
+--===============0146927489441244300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,21 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 74f87ab98f20c83c45cf95aef28b52d20595766a
-    new: 2041ffc501b87358a6b18fe8ed329cade1c7a380
-    log: revlist-74f87ab98f20-2041ffc501b8.txt
+    old: 2041ffc501b87358a6b18fe8ed329cade1c7a380
+    new: 18ef806bc3e3f3293c0a03453bb71f5dd3a314d6
+    log: |
+         18ef806bc3e3f3293c0a03453bb71f5dd3a314d6 Merge branch into tip/master: 'irq/msi'
+         
+  - ref: refs/heads/tip/urgent
+    old: 5a66900afbd6b2a063eebad35294038a654de2b0
+    new: 780d569e6c4b422290f5cba319eb904b355d64be
+    log: revlist-5a66900afbd6-780d569e6c4b.txt
 
---===============1044789917473225552==
+--===============0146927489441244300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74f87ab98f20-2041ffc501b8.txt
+Content-Disposition: attachment; filename=revlist-5a66900afbd6-780d569e6c4b.txt
 
 b72386864481cf7fb6153842d22561ac3032302f rtc: ab8500: replace sprintf() with sysfs_emit()
 2b40d72de9354a76f5e3bb71230a4210eaa92849 pwm: rzg2l-gpt: Fix period_ticks type from u32 to u64
@@ -130,6 +136,5 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 14923571e78ae448ff4cc250d46d6f5fa442761c Merge tag 'sound-fix-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-2041ffc501b87358a6b18fe8ed329cade1c7a380 Merge branch 'linus'
 
---===============1044789917473225552==--
+--===============0146927489441244300==--
