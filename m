@@ -1,285 +1,251 @@
-Content-Type: multipart/mixed; boundary="===============7336868358040830095=="
+Content-Type: multipart/mixed; boundary="===============8609374139163554452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 28 Jun 2026 06:37:59 -0000
-Message-Id: <178262867984.3539424.3796136169037056287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 28 Jun 2026 06:42:00 -0000
+Message-Id: <178262892072.3597845.55233698407955082@gitolite.kernel.org>
 
---===============7336868358040830095==
+--===============8609374139163554452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
-    new: 780d569e6c4b422290f5cba319eb904b355d64be
-    log: revlist-51cb1aa1250c-780d569e6c4b.txt
+  - ref: refs/heads/master
+    old: 8c7a9bc5c1d2b27898583cbdf0e88e73ac6ab2c0
+    new: 6a019e348ffcb1add7861cbba7d9f2df7ef5b7fb
+    log: revlist-8c7a9bc5c1d2-6a019e348ffc.txt
 
---===============7336868358040830095==
+--===============8609374139163554452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628607 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1782628677-3e544b4acffd24777e8e706573ad1aa8f49e318a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628848 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1782628919-63a69c8d0320cbd0c4d5f9d1aaf2ba5b43bfc111
 
-51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/usb-testing
+8c7a9bc5c1d2b27898583cbdf0e88e73ac6ab2c0 6a019e348ffcb1add7861cbba7d9f2df7ef5b7fb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwP8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KQ0P/3gGBbSFWPmd2ZJV8uiq
-zktxMfZbl2BUxW76C8ZIGXeEqfBORvssmTjB3ryXeDVx0ceG3RIUiJtBkJNKO8or
-CpnpbzcPIE/qzgYKIGH2nWFCRVdEH6RxnDqsP9uGxGENuRrIi8DuxYga0SMcjykX
-jEHHo5mhqG8/+EETv35zDeOlYMB86Jk91Cp/Onj3MgADLcVjgJG4fcUfwzXVEHkx
-3VsxTaHCcZXdZazYHXV3VdSWcPvjO5LNO44ECfjT1REIjobw1+IPo1ZdqUSqrZLa
-XbrQmZLjISEeV9GnjBc9pYqCvd2njxFSKt74qBA0R8WZ+P+SU5405X/VCZJgV4w6
-cmVX8DT4jA1ILRdxTISbTnMPrlA98su8TIEuVy3rBVeL/0CRXBLURe4XxQkh19r+
-9oU1EI/ueNrI1kWqlIbf+Z4xUJwYWbpQ55qjJq4vvB8iih0FcvmAIu2W2hNHp4UX
-h4ukh91KCU0PTW+SJZCFqsCWd8B8/f+bIYxTymO0ArGhwVM/bREGigfSaLjzNJYx
-GDlmPSobMsgJ+VrCLuPaQ5fSP4TYIQEVID3v5MT0pZsFixun+brdihjfod3qllYy
-qZBOdnlbejVbsScRHmI3DrJdA8k6rEC1BiYJbSAPU8mWHDcrVFz4Ijb+Z2asCEfB
-6+QSS/6zi3doRox8TCqBSOvI
-=7b0k
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwfAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pvgP/RWL8C6QR6CU3TztvDnx
+t9GPDBO3HycONOKiZLGJkHmcTIpskhnW9qjL7Iu0Ldd4Q2xMnBC7npFEATvlGsDN
+Iw1jLUZu5OzYOLtWJ3PwIG7AH3/Hvv8MR9LMDBTth9HyBjPxHiHWyB68s7U8vLYo
+DFs2QqPLXgctRqsTxAPanpvVhx16xbVEa2/6GzwPvVg+Y+iz2SXjtD0Grzf6P4eX
+qINoTnOV3Z1b/A6Xtk9lewgZpOMNB9/mNtuG9Eem1ZLkODosimFZYqnEnqsmIDYW
+99KrZJRx1HWypnjblVG2JMq83+LKizYZ6lk0ssJCoSKNcyxMqKwFoc4c0tM6n52b
+LHHf3JJpOWqOBADR6zTr7o/ByLEWMopoLew2vYEABBgpL9z2GjJPW3gQCH4UpTEY
+MyYcJuMHhZ1yE6J9+h+UC0lqsiF0/oqfDxbdPoE5yfHKelUmGvhymJ9eBOHPhFja
+2r5Fz67+Y1AqRcpKLyRaqDkCW9FO4uqWdCfAu81+vuCjZjaDmqRET5tTOsBgb0Ur
+TrkNTHGPBmDEKCZPTfXdkLvAM3TTO/vz8FFZENRCEDJvsVi8Tg1YcMuH60NaHWZU
+lTVOJ9URD9Aus9wmkI95yI4XcokjPwwshmqJNUWmYhMdPEfbSwTqsPDRxOH1NkKL
+wRyTX/AIawzQomqAiuiJ5Y1v
+=k3bQ
 -----END PGP SIGNATURE-----
 
---===============7336868358040830095==
+--===============8609374139163554452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51cb1aa1250c-780d569e6c4b.txt
+Content-Disposition: attachment; filename=revlist-8c7a9bc5c1d2-6a019e348ffc.txt
 
-b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
-942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
-f9c9ec2c319f843b70ecdf939d48b52d189bc081 gfs2: fix use-after-free in gfs2_qd_dealloc
-b72386864481cf7fb6153842d22561ac3032302f rtc: ab8500: replace sprintf() with sysfs_emit()
-70008e22ab3fd619fb2a50dcfa80b9dfa26c5d8a gfs2: Remove unused fallocate_chunk argument
-4982e58669b11c43644efb5fb7435975848b716e gfs2: page poisoning fix
-2b40d72de9354a76f5e3bb71230a4210eaa92849 pwm: rzg2l-gpt: Fix period_ticks type from u32 to u64
-898ab0f30e008e411ce93ddf81c4099abd9d4e46 pwm: rzg2l-gpt: Add missing newlines to dev_err_probe() messages
-e7ab91e2bf01b024691d6ce488546533943e7a6b accel/ivpu: fix HWS command queue leak on registration failure
-90c0486a82e27393f9eaf3bb350f51a0bd38cb6b drm/displayid: fix Tiled Display Topology ID size
-9108f7fa493b4c88cbc09503e0c164244456bad5 regcache: Do not overwrite error code when finalizing cache after error
-5ce9ac1531b8e27e754a7d17fa07fa9da0d4a6b3 drm/i915/mst: Call intel_pfit_compute_config() for sharpness filter
-31f077088e0faae6be8377741f356dea1b94ba46 drm/i915: clear CRTC color blob pointers after dropping refs
-062499cc4813b5a3cbed5dd4fbe0177265858450 drm/i915/mtl+: Enable PPS before PLL
-b4b15e4f12ad1dd83b69d453ef826553917eb8cb Revert "drm/xe/nvls: Define GuC firmware for NVL-S"
-65b1f95802f90fea0283f226317dc02dba494c81 Revert "drm/xe: Skip exec queue schedule toggle if queue is idle during suspend"
-1141574cb85db5226042b3d903157f95bfc631b1 drm/xe: Clear pending_disable before signaling suspend fence
-65280af331aa15eab7012bd7f07823be13754ba2 drm/xe/multi_queue: skip submit when primary queue is suspended
-45fa032b68570a9ccd80328a857ac5872217be92 drm/xe/drm_ras: Make counter allocation drm managed
-042f1d5f20d63fb9b0e2fbba97648d16fe1a845d drm/xe/drm_ras: Add per node cleanup action
-d46319bc8273c1018fa532a383eb515ee1b1de4b drm/xe/hw_error: Use HW_ERR prefix in log
-f2d238408db2b963951f0f2ae70ff7f9e337b540 drm/xe: include all registered queues in TLB invalidation
-0b837315ca0adc317e5c8a9c7e484a0e29199b9b drm/xe: fix refcount leak in xe_range_fence_insert()
-770031ec2312bfab307d05db5469f24fd297e758 drm/xe: fix job timeout recovery for unstarted jobs and kernel queues
-92dc59ab2a09097cdf249e0288ff9b69261761c6 drm/xe: Fix wa_oob codegen recipe for external module builds
-ba7fd163422877ad5a5cf31306a38c07d3932b0c drm/xe: Set TTM device beneficial_order to 9 (2M)
-632ecc90e1ca5d3b6822bb4d08f84a175b6c42c0 drm/xe/guc: Fix buffer overflow in steered register list allocation
-0b5ed2756d45b04669502a1f13b1657ec7664571 drm/xe: Add compact-PT and addr mask handling for page reclaim
-7caf2a2351d4053075670ff3e26a6815da0a9e1e accel/amdxdna: Use caller client for debug BO sync
-f1b061b4d4c6cbf861319ba954caa80145cf018f spi: Add NULL check for spi_get_device_id() in spi_get_device_match_data()
-f3ad1c87d8201e54b66bd6072442f0b5d5a308ee spi: uniphier: Fix completion initialization order before devm_request_irq()
-66b6605bcea7af7aca3d1d858b9c5f14903f9f9a spi: dw: fix wrong BAUDR setting after resume
-4a60127debb9e370d6c0e22a307326b624a141f3 ALSA: compress: Fix task creation error unwind
-f7c4968ae3af3e819428da5416c2dfd361473f5c ALSA: hda/conexant: Add pin config quirk for Lenovo IdeaPad Slim 5 16AKP10
-7d69804a35103a50852eae41bfe6a2e0061c68fd ALSA: usb-audio: qcom: Free sideband sg_table objects
-8956950dab22fbaefe92ca1980728165c5da793d ALSA: usb-audio: Add quirk flags for SC13A
-9e6febe7891316182bcd80cb46b745a08ad0cacf ALSA: sh: Use more common error handling code in snd_aica_probe()
-2e9261761b35f0b67b7487688cd1365f535be0b3 ASoC: qcom: q6apm: fix NULL pointer dereference in graph_callback
-1a3c8e28959790ae3e06029681418278b7821a3c ASoC: rockchip: Drop problematic guard() changes
-fdf043f5f3bae150b678feae3d7bb1beed87ec14 ASoC: tlv320aic3x: restrict CLKDIV bypass Q values in dual-rate mode
-5096a1634def431cd7f89e2b0af4456de91dd26d ASoC: rt5650: enhance spk protection function
-12aad822fb9a761f3a9d278083a5bdcb1524e5ec spi: acpi: Free resource list at appropriate time
-9ef450ca74e43dacf9a2a15db7a851052c78dcf0 cpufreq: schedutil: Fix uncleared need_freq_update on the .adjust_perf() path
-3f0cc1735273a57c5116710cf0202e12152f59cc drm/amdkfd: Avoid double-unpin of DOORBELL/MMIO BOs on free
-1c2d7a656655a50bd1b7227fb26d173959a1955d drm/amdgpu: initialize iter.start in amdgpu_devcoredump_format
-76589bcc73f477ef2b3b90e4fae6a7a4dfd925af drm/amd/pm: re-enable MC access after PrepareMp1ForUnload on SMU V15 APUs
-20a5e7ffdfecddc34c60a6b4483f42acf3d8731d drm/amdkfd: Properly acquire queue buffers in CRIU restore
-b29aaf0a72222bfafe4d73899dadb0486b5bcb09 drm/amdgpu: skip already suspended IP blocks in ip_suspend_phase2
-fe7945d092a1d3c340febc2ab176cee50d0f6c80 drm/amd/display: Skip PHY SSC reduction on some 8K panels
-5cc0f35d83e2c72f70edaf7478db350af3082a17 drm/amd/display: Restore periodic detection for DCN35
-1142738572ef3fcf8b169f1c48d94b4a71cc2d97 drm/amdkfd: Fix SMI event PID reporting for containers
-3d3372add033528ca90d1949abb52142504f5d23 drm/amdgpu: allocate lockdep mutex on the heap to fix stack overflow
-3e864bf2a32a1cbdf1e0f9c5a5a4176e8575f4a3 drm/amdgpu/gfx: fix cleaner shader IB buffer overflow
-40f9e2f514924312ea737c1c16ba945a5a7e374d drm/amd/display: Add IN_FORMATS_ASYNC support for planes
-8e792f018e10e68f488f279fbd4f38009a2e066d drm/amd/display: Fix mem_type change detection for async flips
-f896e86273dbbebb5eac966b4a201b5c62a02e9a drm/radeon: fix r100_copy_blit for large BOs
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
-29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
-ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
-53d1ae7c20d97b08741d667ba54bb09d330eba3b ALSA: pcm: fix __le32 cast warning in snd_pcm_set_sync_per_card
-f7f3f9fd81e7adbaa12c2e62ee07f0e094a543fd ALSA: caiaq: fix out-of-bounds read in the Traktor Kontrol S4 input parser
-58fc1275b3f288500ee79a02dbe89ed4197fdc3e ALSA: caiaq: bound the length in the EP1 input parsers
-4520fbbaedbeda8861f0f0bfbe50b3bca4deae08 ALSA: hda/realtek: Add headset mic quirk for Acer S40-54
-bdb640be82e645e2828731648f485224d0c2587b ALSA: usb-audio: qcom: reject stream disable with no active interface
-3c7af07943b2718087ae791cad450af5cf646d90 ALSA: usb-audio: qcom: clear opened when stream enable fails
-e6fa716c9d7248e03cb93f566874bd5709901bcf ASoC: audio-graph-card2: Drop warning for manually selected DAI formats
-348f69320e4db6ebec6940c81154bec4b9eb275a ALSA: usb-audio: Add quirk for YAMAHA CDS3000
-b59aff62767bf59ca0c787015c0ddc14f60ab10d ALSA: emu10k1: Use common error handling code in snd_emu10k1_playback_open()
-7b25dbafa2fce50b1a48c1d057adb35da3563f9b spi: rpc-if: Use correct device for hardware reinitialization on resume
-f199c8a8bdd54296d3458777e70fe82a78bd9817 ALSA: usb-audio: Kill MIDI 2.0 URBs before freeing endpoints
-f56521ab6f76faeaa5a524320898835454e3bc31 ALSA: hda/realtek: Enable mute LED on HP EliteBook 840 G6
-07f251e0ed0b78591114101b3ce16db2e1365171 spi: dt-bindings: snps,dw-apb-ssi: Add starfive,jhb100-spi
-914e708e3049c9e0be46533406abd832a46c6e8d spi: dw: Add support for snps,dwc-ssi-2.00a
-fbef4191b4961c125585c715407e693f7d0024a9 regulator: pca9450: Correct default t_off_deb for PCA9451A/PCA9452
-b91d287fa7a1ba0727eed5823c6ee4924ee5fa31 thermal: intel: Fix dangling resources on thermal_throttle_online() failure
-b2b42ad22828da9cdb876eedb8914134e0759355 ACPI: sysfs: Fix path of module parameters in comments
-78ad5c7722b7bed9d35ffc5b45eb0f12e2c22fee ACPI: resource: Amend kernel-doc style
-71b57aca295d61276a60e131d8f62b0cc7cf1a35 ACPI: IPMI: Fix inverted interface check in ipmi_bmc_gone()
-c3027973f692077a1b66a9fb26d6a7c46c0dc72c drm/nouveau/acr: fix missing nvkm_done() in error path of nvkm_acr_oneinit()
-ab99ead646b1b833ecd57fe577a2816f2e848167 drm/nouveau: fix reversed error cleanup order in ucopy functions
-44e3aeeb9a79dbf1b18b48115dcf6144bbb957f0 Merge tag 'drm-intel-next-fixes-2026-06-17' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
-347010faed7afc83ed8fb998b4530e3a937d6c53 Merge tag 'drm-xe-next-fixes-2026-06-17' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
-0e8233409d4f6def051dd42a432c6815bb780d78 Merge tag 'amd-drm-fixes-7.2-2026-06-19' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-c7ab7504631d8d9aecee3d1509cc779eb4778844 dt-bindings: rtc: epson,rx6110: Convert to DT Schema
-7e342d87aa8e6b831cf6d21ca41b1f7e032d0fcf rtc: renesas-rtca3: Fix PIE clear polling condition in alarm setup error path
-fafb016d081200c7652e84202f8ba5951e659a53 rtc: renesas-rtca3: Check RADJ poll result during initial setup
-09939630aad95fc3dc4cc2d94a5a96d7c4d6642f rtc: renesas-rtca3: Fix incorrect error message for reset assert
-9fb12656a7a5473b1ce46e27f78e92e5e8df7c58 rtc: renesas-rtca3: Fix typo in rtca3_ppb_per_cycle documentation
-2098bb8ac5f5a66b1a0e02512ae11b6208936c92 rtc: renesas-rtca3: Factor out year decoding helper
-419719c514252a2dbb2e2976f564c83417dd6d0a rtc: abx80x: fix the RTC_VL_CLR clearing all status flags
-9792ff8afa9017fe14f436f3ef3cd75f41f9f145 rtc: mpfs: fix counter upload completion condition
-a091e1ba3b68cabc9caedafc6f81d9fe9b3b2200 rtc: ds1307: handle oscillator stop flag for ds1337/ds1339/ds3231
-3eebec1cb5dc1abd9d0b6a97a752800bf1a4e035 rtc: Use named initializers for arrays of i2c_device_data
-ba5dca876b54c848fe4ba6526454a6eed7856f57 rtc: Drop unused assignment of platform_device_id driver data
-6e2f1f0184dad775c95c09e5374234d3df39de65 rtc: ab8500: Simplify driver_data handling
-041ca8884410a4f70b40521f34258c7b773ea5c2 rtc: Use named initializers for platform_device_id arrays
-faaa1e1155833e7d4ce7e3cfaf64c0d636b190db drm/edid: fix OOB read in drm_parse_tiled_block()
-b70f007a9fc665ee988683fd5085ab34e2c10ad3 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 16IAP7
-6efb1897209ab50940c58384d15a68fd4212821c ALSA: hda/realtek: Add LED fixup for HP EliteBook 6 G2i Laptops
-134844856c399bfa9462a159dcf860bfdb748055 drm/sysfb: Do not page-align visible size of the framebuffer
-b771974988ec7ce077a7246fa0fa588c246fe581 drm/sysfb: Avoid possible truncation with calculating visible size
-7bab0f09d753f098977bbba3955d694c2e2c25da drm/sysfb: Return errno code from drm_sysfb_get_visible_size()
-9206b22fb959f4a9cf1921f34aed0df1dcb1ab04 drm/sysfb: Avoid truncating maximum stride
-493765b8e922a506e09e22e80b6cc9ff05e8295b ALSA: hda/realtek: Fix noisy mic for Clevo V6xxAW
-cf81b260916c92cf610c907d41627a175e86e37d ASoC: cs530x: Fix expected MCLK rates for CS5302/4/8
-dd015b566d505d698386103e9c80b739c7336eb8 fscrypt: Fix key setup in edge case with multiple data unit sizes
-696c030e1e3438955aba443b308ee8b6faa3983e fscrypt: Replace mk_users keyring with simple list
-e5c6b06a97c88227da49874d805393f960b661c6 rbd: switch to dynamic root device
-e120e2b666851c4c0c7bffd315ff69a09f9fe4ac ceph: convert inode flags to named bit positions and atomic bitops
-248e514000d552095025de0473165becfe8e810d ceph: use proper endian conversion for flock_len in reconnect
-39fe3031589386ae7ce3fd7132beb6bb229e22ce ceph: harden send_mds_reconnect and handle active-MDS peer reset
-ebbbab66bd74dbd213d51afc3b029dc8b109ee47 ceph: add diagnostic timeout loop to wait_caps_flush()
-b52861897be8a7ba563077ae62cd48158d16a5d9 ceph: add client reset state machine and session teardown
-7e1f9e2cd2d0e780c394a4402c40e125109fec72 ceph: add manual reset debugfs control and tracepoints
-1afe4f19d6ad404621150f0e91feeccf12fb1037 rtc: isl1208: Balance enable_irq_wake() with disable_irq_wake() on cleanup
-947d7ea6f60b5fe24d8f8b69e55e0d6e1e8855e7 rtc: interface: Add rtc_read_next_alarm() to read next expiring timer
-a50b23a57fce4157156014bc00b0cf9f4ab1a69f rtc: remove unused pcap driver
-a369f48be8de426a7d2bca18dbd46c2ad1138803 rtc: msc313: fix NULL deref in shared IRQ handler at probe
-4202e4254403156a00711990ec99982f43bd99f5 rtc: interface: fix typos in rtc_handle_legacy_irq() documentation
-5e7f746bc106ad9cd300e161bff42f62a8bf1e6b dt-bindings: rtc: add ASPEED AST2700 compatible
-3319cfeeb8c4047026f84df045c438f7bbd338a6 rtc: aspeed: add AST2700 compatible
-851d961ff248218f681c53cf0f7f08cf8201a117 rtc: mv: add suspend/resume support for wakeup
-fc36dd30412a3b9df3b408e36e8e2cd24bd9e33c fbdev: vga16fb: Drop unused assignment of platform_device_id driver data
-914a76a9f08366434bf595700f62026b7a19a9cc drm/i915/gem: Add missing nospec on parallel submit slot
-e0ecb324246be9cf3a0689346a658e48a38546b2 ALSA: FCP: Add Focusrite ISA C8X support
-5714c8359f4fc171ab8e0bd0dfc4c61fb36e1db6 soundwire: Move wait for initialisation helper to header
-ce52450319fb0ee122e5be5ec8dfb888ee1e0237 ASoC: es9356: Add back local call to sdw_show_ping_status()
-1921303a1d2f26ae70446aa18fb218767bddd913 ASoC: max98373: Add back local call to sdw_show_ping_status()
-ea9ff3b7bcfbcd1e61d34590c7c632005ef3d9aa ASoC: ti: Add back local call to sdw_show_ping_status()
-6540b9d9ccc32ad1546dcc7b4d4bcbb68c667714 ASoC: realtek: Add back local call to sdw_show_ping_status()
-a4fa646d30e71103e4496290f19198430da2ce5c ASoC: Fix SoundWire randconfig issues
-68ff4a3ccda9f98c74f23c70c8c7c581f9eee931 cpuidle: Allow exit latency to exceed target residency
-1ce42a11bed134903e352010a01fa53073a6b395 ASoC: SDCA: Validate written enum value in ge_put_enum_double()
-e26bb459d0f3dad83c6a31d5e4480e60760c262b ASoC: tas2783: Update loaded firmware names to linux-firmware 20260519
-d0c415f0076b71b956f62ff6f31de885f0fa2489 ASoC: rt5575: Use __le32 for SPI burst write address
-2e9a7f68329be41792c0b123c28e6c53c2fa2249 i2c: mpc: Fix timeout calculations
-10dd1a736d557e310a77117832874729a0175d57 i2c: i801: fix hardware state machine corruption in error path
-435990e25bf1f4af3e6df12a6fbfd1f7ba4a97d4 ALSA: seq: Fix uninitialised heap leak in snd_seq_event_dup()
-2ee8dbd880b14fb0b5115bf2353c7900aa33b95b drm/i915/cdclk: Fix up CDCLK_FREQ_DECIMAL without a full PLL re-enable
-7ddbf1cde4a03e36e17d06fbc711870eb0b256d7 regulator: da9121: Use subvariant ids in the I2C table
-83d53eca7e5512b53ecef6cf67ea8cbfb595516e ASoC: rockchip: rockchip_sai: #include <linux/platform_device.h> explicitly
-a7ea04d1ad39d60da397de75b503062ad5fa562b ASoC: soc-core: Don't fail if device_link could not be created
-f36cb64bd39deecde690efadf4a5d6f8155fcb93 of: property: Fix of_fwnode_get_reference_args() with negative index
-a67963e9cbdd1ab44e64af0fefef3027c3fad74e of: Fix RST inline emphasis warnings in of_map_id() kernel-doc
-41f1be36957c29c35a1e0703673cf1ae8f4db195 dt-bindings: thermal: amlogic: Fix missing header in the example
-6d5bb4b54288798d23a8119e4666a1e9dccf3c41 dt-bindings: thermal: amlogic: Correct 'reg' in the example
-fb1a5dfe86d3af1e1c3ce168cf0d8d43897e0f77 thermal: testing: zone: Flush work items during cleanup
-292db66afd20dd0b7a3c9a3dad9b864a64c8bddf ACPICA: Unbreak tools build after switching over to strscpy_pad()
-527a336c609c6bb5020df46da582c583445bfc56 regulator: dt-bindings: Add Unisoc SC2730 PMIC
-38b1d6ed23910a4c7cf7c222d9b3a4fcd282a632 dt-bindings: clock: renesas: div6: Use ZT/ZTR trace clock in R-Mobile APE6 example
-956ca5d72c76504824c8eb601879da9476973e15 ACPI: processor_idle: Mark LPI enter functions as __cpuidle
-b39a6b2e9d5bd6a3153aed4c7440172b8f6a739e dt-bindings: mfd: khadas,mcu: Drop type reference from "fan-supply"
-245404c26563aafb36aafb01298f148db1851be3 spi: imx: reconfigure for PIO when DMA cannot be started
-18d39c71e3171eeb7296cb288bbac48a89a7cf4b rtc: ds1307: add support for clock provider in ds1307
-b70598b3769ea64978e76601d1824a12de556da1 dt-bindings: rtc: Add ST m41t93
-081e3de28c7663b0bd33e3eb374fb38a139e8064 rtc: m41t93: add device tree support
-d86e8682593c79d8599537707f49e201456a76de rtc: m41t93: migrate to regmap api for register access
-5b55ff7cace4c176c7ebdf9512e50ac870f17fac rtc: m41t93: Add alarm support
-5cb6816cd81b21246f45fe9803efdc21576574e3 rtc: m41t93: Add square wave clock provider support
-15ec2ce19962b61576c8bf25bc129fc61a653c2e rtc: m41t93: Add watchdog support
-d4992b7050a10079bc760bdc5b8688e05a09dfc2 rtc: bq32000: add delay between RTC reads
-cc387941c0a125fb6730e7270b4bb91edead5407 dt-bindings: rtc: ds1307: Add epson,rx8901
-6882aab3c66112b33b251be95c09c8ead3e8d580 rtc: ds1307: Fix off-by-one issue with wday for rx8130
-a5bb580df018b5d1c5668f05f7979044fb19e23a rtc: cmos: unregister HPET IRQ handler on probe failure
-50ccdc31010ed623e68e496aebd4b1d3d8430664 rtc: s35390a: fix typo in comment
-00e44a68efef50f65b12854b41f098b4d50f10be ALSA: hda/realtek: Add quirk for Acer Nitro ANV15-41
-7693c0cc415f3a16a7a3355f245474a5e661be4e ALSA: usb-audio: avoid kobject path lookup in DualSense match
-6485da8579e2b0132630faa1ee2ac72ccaf01501 ALSA: hda: Add Lenovo Legion 7i 16IAX7 17AA3874 quirk
-b8ff1f3578f83dedf5feb796d97a3f67c1bea58f ALSA: usb-audio: qcom: Free QMI handle
-29b9667982e4df2ed7744f86b1144f8bb58eb698 ALSA: firewire: isight: bound the sample count to the packet payload
-16eb19f0c90af03bda6ba66586d7bb0e9cf85b43 fbdev: pm2fb: unwind WC setup on probe failure
-f7ecfc3fe5753d10e9c4d0d7955c160ea8cbf0ea platform/x86: amd-pmc: Fix S0i3 wakeup with alarmtimer
-3c8f28578a0d68bc7fb91d881b832d55f734270c rtc: ds1307: update reference to removed CONFIG_RTC_DRV_DS1307_HWMON
-64184f07e7516eb3ac1839387eb7cbe2dbeaa96f ASoC: tas2781: Update default register address to TAS2563
-c5315c8dcbcb9271f59662104428cd9229c9a7cb ASoC: codecs: pcm512x: only print info once on no sclk
-cf6f56990ea21172e085f0588e5bbf2089ce8f58 ASoC: fsl_asrc_dma: fix eDMA maxburst misalignment with channel count
-8fdc8c2057eea08d40ce2c8eed41ff9e451c65c2 fbdev: fbcon: fix out-of-bounds read in err_out of fbcon_do_set_font()
-a11aa7b85021f5456fad8ec81467bcbdd2ac6945 fbdev: goldfishfb: fail pan display on base-update timeout
-4da933bf4e7317310f32d6918c774174253483c1 fbdev: viafb: return an error when DMA copy times out
-b41df707b6d7b7ae6188c6fc37ba81859293cb94 Merge tag 'drm-intel-next-fixes-2026-06-25-1' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
-f24ba334afafc70c3149e9db9c0cf8ecc6d52a09 Merge tag 'drm-misc-fixes-2026-06-25' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-677b16108a7457c1fa1cd1b39301e46dfc3aed06 Merge tag 'asoc-fix-v7.2-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9dbbe81962b973fe71592ad8615d1e6cd28451bf ALSA: hda/realtek: Update Acer Nitro ANV15-41 quirk to enable mute LED
-e1e31e0ec8a609e17fd2e86b77bc00d9cbb24d7c ALSA: FCP: Fix NULL pointer dereference in interface lookup
-2c1c805c65fb7dc7524e20376d6987721e73a0b1 fbdev: fix use-after-free in store_modes()
-5fae9a928482d4845bca169a3a098789203a1ca4 fbcon: fix NULL pointer dereference for a console without vc_data
-7f08fc10fa3d3366dc3af723970bd03d7d6d10e3 fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var
-fc91b7d77d78c6381b437b7c96aca6b03f7bbfed Merge tag 'devicetree-fixes-for-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-cf1e70d021343d33728e54a6227607925c8d5419 Merge branches 'acpi-sysfs', 'acpi-resource', 'acpi-driver' and 'acpi-processor'
-3a2976df778a9af95e91f7ff88008b4517ddc658 Merge branch 'pm-cpuidle'
-795f1b1a91ae13ebc012a364075e42f486a1cafe Merge branch 'thermal-testing'
-fa956617b89c0669c651bf4f301ded8e9b20c6db Merge tag 'regmap-fix-v7.2-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-76bf0658d66d69b24a0676ea113e710b2f6a257b Merge tag 'regulator-fix-v7.2-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-f0789fd342e015b20b4d2cb43b473268825ae077 Merge tag 'spi-fix-v7.2-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-737b9ff0c816f7d2eac91897e44e89984939662c Merge tag 'acpi-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-e27d4bbe0d7380d9d26910de70541af6e77c29ea Merge tag 'pm-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-2dec87d0b195463fc4ea4b0817d3049630aebf3d Merge tag 'thermal-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-5f80d9113360c08111ae7471f662f3f89f23ce32 Merge tag 'gfs2-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-5422e496b313b9b0b2f6df068902d6c79925d5e9 Merge tag 'ceph-for-7.2-rc1' of https://github.com/ceph/ceph-client
-fa6fe449343c3d97ed93fd01b020860c663f8807 Merge tag 'drm-next-2026-06-27' of https://gitlab.freedesktop.org/drm/kernel
-5a66900afbd6b2a063eebad35294038a654de2b0 Merge tag 'drm-fixes-2026-06-27' of https://gitlab.freedesktop.org/drm/kernel
-6ca693ea903df5748809f61b290831004036978d Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-4bf54e47525dcacd4c6cdd97fb5902592414dd7a Merge tag 'i2c-fixes-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-14923571e78ae448ff4cc250d46d6f5fa442761c Merge tag 'sound-fix-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+7a78d9df4b2cc7f4bf12faf52a78a032241e1614 CVE-2026-52943: Add CVSS 3.1 score (7.8 HIGH)
+0c14c772ac971cf4f95c49f602ed5b677cb229b5 CVE-2026-52942: Add CVSS 3.1 score (7.1 HIGH)
+91abbbf70e8703cf0b44164c427c28ef058c05c3 CVE-2026-52935: Add CVSS 3.1 score (7.8 HIGH)
+dbc38c0b9c1f17b535842c12bfd4a0574852bd45 CVE-2026-52934: Add CVSS 3.1 score (8.8 HIGH)
+39cab7c065bfcb7db05978fafd891decbc91cf8a CVE-2026-52932: Add CVSS 3.1 score (7.5 HIGH)
+215a3875dd41828eb658ac552a860f15c6495d51 CVE-2026-52933: Add CVSS 3.1 score (7.8 HIGH)
+4e779bd97d4ceedd479498d2a91569aa66eb3ec3 CVE-2026-52931: Add CVSS 3.1 score (9.8 CRITICAL)
+25f5ab0adb5b707877a4bc4866d94c748cc255e2 CVE-2026-52929: Add CVSS 3.1 score (7.5 HIGH)
+c3870512a1f8aa55a98c398791001ca7f2eb2a8f CVE-2026-52927: Add CVSS 3.1 score (7.8 HIGH)
+f3cbcde0f4d4ce438a6132f4917b1ce2e7852fa3 CVE-2026-52924: Add CVSS 3.1 score (9.8 CRITICAL)
+65c25fe2404f6ba526c70103354a1ede487981ca CVE-2026-52923: Add CVSS 3.1 score (7.8 HIGH)
+9ff099f3e234230b4a31f5fe7b54af61264a5892 CVE-2026-52922: Add CVSS 3.1 score (7.5 HIGH)
+e9bfa92248192264bf985de7b8e518543e8f9c4a CVE-2026-52918: Add CVSS 3.1 score (8.8 HIGH)
+b384928d7a3c0a49531644dce127b335d7767e4e CVE-2026-52919: Add CVSS 3.1 score (7.8 HIGH)
+edbc8556f77345fe2b07e4cf828356f142e1b9b5 CVE-2026-52917: Add CVSS 3.1 score (7.1 HIGH)
+94218f75a89bda227367cba90bec9ac0fdaa273b CVE-2026-52920: Add CVSS 3.1 score (8.3 HIGH)
+7ae0b91efc7100d8e5a6173de2d7d27b5f98bfa1 CVE-2026-52915: Add CVSS 3.1 score (7.1 HIGH)
+a5477af2eaffe2822db424f848131d7c6453ab64 CVE-2026-52910: Add CVSS 3.1 score (7.8 HIGH)
+b3a1a5d4ef6ee351b73e16aad1e798a7ead6e68e CVE-2026-52914: Add CVSS 3.1 score (9.8 CRITICAL)
+503fad55fb20bb53e30a31fcb8db8b0ebe989def CVE-2026-52912: Add CVSS 3.1 score (7.8 HIGH)
+4b4957f09a9d4fb4fa3cd939beaf5eb36cec6650 CVE-2026-52911: Add CVSS 3.1 score (8.8 HIGH)
+3df638a0d952a522bd6cb674e2d12d65ae4d3157 CVE-2026-46331: Add CVSS 3.1 score (7.8 HIGH)
+7fcee0238be5f117f02c62aa5300b89ef2b42577 CVE-2026-52909: Add CVSS 3.1 score (7.8 HIGH)
+7ed55f3951386c5a21f143d241d12cb4abd0ef8e CVE-2026-52908: Add CVSS 3.1 score (7.8 HIGH)
+234add89a6b196c1611712e93493ceb404e0c27f CVE-2026-53322: Add CVSS 3.1 score (8.8 HIGH)
+6ec3d7c69af93a88803be3fbd07c87e29ff33b1a CVE-2026-53309: Add CVSS 3.1 score (9.8 CRITICAL)
+54abfec5af3b7cdc79bf1af3ed5a34c109c155b9 CVE-2026-53300: Add CVSS 3.1 score (7.8 HIGH)
+395d60df09ef228ea0c36b77477489413f9b0f64 CVE-2026-53290: Add CVSS 3.1 score (7.8 HIGH)
+80900a4f3a5bb212d4c61ffb34ae59c00ab6510e CVE-2026-53284: Add CVSS 3.1 score (7.5 HIGH)
+7f4f80a57f85c7d47723820496a2249e918dd24a CVE-2026-53281: Add CVSS 3.1 score (8.8 HIGH)
+1aeb0f9b4ee0207b7532ebff7684b65de7cc4de8 CVE-2026-53276: Add CVSS 3.1 score (7.8 HIGH)
+dceeb7373a714a9f1af0c455cdf9ac2cb2f1c148 CVE-2026-53277: Add CVSS 3.1 score (8.8 HIGH)
+a9348d388b8ab174c4694e23f1212306957e0b5c CVE-2026-53273: Add CVSS 3.1 score (7.8 HIGH)
+b6844698ffcebaa68ed912032f8165f26bac4b1c CVE-2026-53275: Add CVSS 3.1 score (8.8 HIGH)
+f9bd0d417e59a24bce3aacc5c6430d4cb1caee97 CVE-2026-53267: Add CVSS 3.1 score (7.8 HIGH)
+b0a6a4a31a3d3a94a53b4a98fa73383a99b44620 CVE-2026-53270: Add CVSS 3.1 score (7.8 HIGH)
+0ab0afe0415756af2aedd245dc22b39aac245e84 CVE-2026-53268: Add CVSS 3.1 score (8.2 HIGH)
+24e898b1066109f01bcd9b489ea42bfe861f3ccd CVE-2026-53266: Add CVSS 3.1 score (8.8 HIGH)
+01a9b9c9d1fd0ffa3202a1d75a97c52ec73107c9 CVE-2026-53264: Add CVSS 3.1 score (7.8 HIGH)
+b100d1f324cca3abd7d3c69c2a82f94ca7896363 CVE-2026-53265: Add CVSS 3.1 score (7.8 HIGH)
+7ce12c728fbb80481d0156d2644e5510dd8dd044 CVE-2026-53262: Add CVSS 3.1 score (7.8 HIGH)
+3434a26204c688698eb44a3e455eae0a2fff234f CVE-2026-53260: Add CVSS 3.1 score (9.8 CRITICAL)
+325eeb50c9a5bceb9b78cd527eca0c75b4bab001 CVE-2026-53259: Add CVSS 3.1 score (7.8 HIGH)
+efa2d3ff339e4b25c5eafa8e643544e39d656589 CVE-2026-53256: Add CVSS 3.1 score (8.0 HIGH)
+19eafed58c4a4f9a98cff4541de46d55ae6fb670 CVE-2026-53254: Add CVSS 3.1 score (8.1 HIGH)
+d627f625fea61fed31e24996dc84eb16ba87de6c CVE-2026-53253: Add CVSS 3.1 score (7.1 HIGH)
+fecbcff92758b83cf3f13d4c5eca771859956d31 CVE-2026-53250: Add CVSS 3.1 score (7.8 HIGH)
+06dc2b2d97cb005bdf073cf97d8a4b80668a0bbb CVE-2026-53247: Add CVSS 3.1 score (9.8 CRITICAL)
+554aff3ef41b1e1ff7958e4b2a26b9773c382627 CVE-2026-53248: Add CVSS 3.1 score (8.8 HIGH)
+77eb43ec85ba86b734cd8afaf5dbf550027f5bda CVE-2026-53246: Add CVSS 3.1 score (9.8 CRITICAL)
+5312628a2018afac404564ee2dcbfaeed32b852d CVE-2026-53239: Add CVSS 3.1 score (7.8 HIGH)
+24b7ba23053103cfffa3161ba8ec143c1f29f7a3 CVE-2026-53242: Add CVSS 3.1 score (7.8 HIGH)
+fd4a86080abc11d6f8791107ebc1b6cab6d2d244 CVE-2026-53244: Add CVSS 3.1 score (7.5 HIGH)
+347208d436d5096c468ac89cd70ba77fbd7bd771 CVE-2026-53240: Add CVSS 3.1 score (8.8 HIGH)
+46152e666455284902170d07048270c430ef3383 CVE-2026-53235: Add CVSS 3.1 score (7.5 HIGH)
+09ea1fa312900b6d336d2add9055683b398866ec CVE-2026-53232: Add CVSS 3.1 score (8.8 HIGH)
+c12234d57c4e9cea8d70580c7ba5c8aa156db44c CVE-2026-53229: Add CVSS 3.1 score (7.5 HIGH)
+b04de0bd9781ec90e21242340d6f1273073f93aa CVE-2026-53228: Add CVSS 3.1 score (9.8 CRITICAL)
+e93e17ee0beeec010a31e0066628b8dec92625d1 CVE-2026-53230: Add CVSS 3.1 score (8.7 HIGH)
+1bcb94c7b17772f5d2b00e17a33c27c2a19827c1 CVE-2026-53223: Add CVSS 3.1 score (7.1 HIGH)
+07d1dec33a93e81b813d78f7a0e3c143c2a3f258 CVE-2026-53224: Add CVSS 3.1 score (9.1 CRITICAL)
+6e53dabf6b3b765f4c309bfd4304c96e54132a8d CVE-2026-53225: Add CVSS 3.1 score (9.1 CRITICAL)
+b692ede937c854f3d071ee053867931d79338934 CVE-2026-53221: Add CVSS 3.1 score (9.8 CRITICAL)
+0d15be3a2c84a28ea1366b2eb27a3807479af3a4 CVE-2026-53217: Add CVSS 3.1 score (8.6 HIGH)
+11d8712629e1e436d9b6701a997e06ccde7bb477 CVE-2026-53216: Add CVSS 3.1 score (9.8 CRITICAL)
+cf77d42167740e85b80cece8b316f2cb45039561 CVE-2026-53215: Add CVSS 3.1 score (9.8 CRITICAL)
+350f4d507bd408cb673a6ca4f31b78e70c01dd00 CVE-2026-53212: Add CVSS 3.1 score (7.8 HIGH)
+735e4256ece21e89b97a16dec41fe9ac56b47237 CVE-2026-53209: Add CVSS 3.1 score (7.8 HIGH)
+998ab3142eeebd14bff3665c053d22b46d6ac51d CVE-2026-53205: Add CVSS 3.1 score (7.1 HIGH)
+8f2f08b3d2a4d838e2a87ed28ecb5703fa603603 CVE-2026-53203: Add CVSS 3.1 score (7.1 HIGH)
+c3e7a311e46588fcdf3a133efa7ae310dbe4f14b CVE-2026-53201: Add CVSS 3.1 score (7.8 HIGH)
+f44ce67b44d06cf6ada1fff621b4bcb56e6a7f8a CVE-2026-53202: Add CVSS 3.1 score (7.8 HIGH)
+2aa4abfead30012febfa441b805ae1fe5fa7dec1 CVE-2026-53198: Add CVSS 3.1 score (8.8 HIGH)
+cb2d0785dbb6f35e4e536551343843ff51b07df5 CVE-2026-53199: Add CVSS 3.1 score (7.5 HIGH)
+e035413f3d68e37b182020b2def1dbbbb169e1ba CVE-2026-53200: Add CVSS 3.1 score (8.8 HIGH)
+40af5e29013b6936be0998fac2c699ac8fbd104f CVE-2026-53192: Add CVSS 3.1 score (7.8 HIGH)
+a5b89249f50f77ae0ba5bfdb3f387505918d7943 CVE-2026-53194: Add CVSS 3.1 score (7.8 HIGH)
+a22537af798698d4c05b4a07fa2ba061704b691d CVE-2026-53193: Add CVSS 3.1 score (7.8 HIGH)
+b9999eb3980f1c48acd7102ba9bd6ddcc6cfce68 CVE-2026-53191: Add CVSS 3.1 score (7.8 HIGH)
+4141bf2c6144309114254c9a874f0364c83cab45 CVE-2026-53189: Add CVSS 3.1 score (7.8 HIGH)
+f88fd45c5a592eded259fee167a26cf3b4277115 CVE-2026-53188: Add CVSS 3.1 score (8.8 HIGH)
+a7412fe259fd6ed657bc25b9530d45569e4c71e7 CVE-2026-53186: Add CVSS 3.1 score (9.1 CRITICAL)
+2b26e1c6b28f03823799ed56d2bb10f013490128 CVE-2026-53187: Add CVSS 3.1 score (7.1 HIGH)
+5c9a66f4fade62d2fb105060702110c95051b09e CVE-2026-53185: Add CVSS 3.1 score (7.8 HIGH)
+ef67b7310e386c9a3cfedda3e235f159d3f76048 CVE-2026-53182: Add CVSS 3.1 score (7.8 HIGH)
+35f3b7a49ca04c6bb37e1a994e63369bbf109307 CVE-2026-53184: Add CVSS 3.1 score (7.5 HIGH)
+b6e410f0955766708b24e5d69f5f58145fbad303 CVE-2026-53183: Add CVSS 3.1 score (7.5 HIGH)
+45b088db54422046e80c0e0864c017fe9cc5c9b7 CVE-2026-53180: Add CVSS 3.1 score (7.5 HIGH)
+0e3122ded4cf1b23a2b8ef99c1be04be6cf8ba48 CVE-2026-53178: Add CVSS 3.1 score (8.1 HIGH)
+40be44427702c0ae4a62ff41467d42fedd80647b CVE-2026-53176: Add CVSS 3.1 score (9.8 CRITICAL)
+aa00a6b15f67a7935b1e29fc94c4fe2551a6d5e9 CVE-2026-53175: Add CVSS 3.1 score (9.8 CRITICAL)
+c517896b877b3d5ebf9e141df087f0ec1a276fb6 CVE-2026-53173: Add CVSS 3.1 score (7.8 HIGH)
+0d6004343bd3b91a6b4b0c941b55718c127e98fd CVE-2026-53172: Add CVSS 3.1 score (7.8 HIGH)
+260ad6041ea3bf036fec5e924e01024865eeeb78 CVE-2026-53174: Add CVSS 3.1 score (7.8 HIGH)
+2287ae7fc37a7cf12b259cc76e6904822dafc6af CVE-2026-53171: Add CVSS 3.1 score (8.8 HIGH)
+eb67f39d99d3cb44bd9c766272978716aca7e2f8 CVE-2026-53170: Add CVSS 3.1 score (8.8 HIGH)
+4070614aa523c76d0384c4f43c8472571ec5c000 CVE-2026-53160: Add CVSS 3.1 score (7.8 HIGH)
+c2f582931c8f2f790b2ca9ca2d4809a168d488d7 CVE-2026-53161: Add CVSS 3.1 score (7.8 HIGH)
+78f6c1fe6001f53985126768d5f9c64ea63be87e CVE-2026-53162: Add CVSS 3.1 score (7.8 HIGH)
+1e27283922f23b4c6c28fa3c1760a9386aeffd57 CVE-2026-53165: Add CVSS 3.1 score (7.5 HIGH)
+16687d524f736bdb05db5cf36c0d143ef950bc24 CVE-2026-53153: Add CVSS 3.1 score (7.8 HIGH)
+7975fd9f9cd02d3de3180b96cf49e6537a10454c CVE-2026-53151: Add CVSS 3.1 score (9.8 CRITICAL)
+a860d5d6e41fe9fa4e54544851271e9eb3a93447 CVE-2026-53145: Add CVSS 3.1 score (7.8 HIGH)
+810bd10cdfac0917260f8afe695e6a1bbeaeaee1 CVE-2026-53147: Add CVSS 3.1 score (8.1 HIGH)
+28d76895599b31bf8c1c63835347ef34ff8a8a05 CVE-2026-53146: Add CVSS 3.1 score (7.1 HIGH)
+5b19c516adde63082f5b1a5597205df6d462bf56 CVE-2026-53133: Add CVSS 3.1 score (7.8 HIGH)
+788b824076ca21aaedd91e13724c113cb95b1a08 CVE-2026-53132: Add CVSS 3.1 score (7.1 HIGH)
+0501b695d986f4df9a47ca8c3846b39a9f57a6eb CVE-2026-53131: Add CVSS 3.1 score (9.4 CRITICAL)
+37df8c4ead1c49f4e7eab9dfcfac42892b0058a3 CVE-2026-53130: Add CVSS 3.1 score (7.8 HIGH)
+0e4b2c1aef48422ff38ad2b059c436a61079a1ab CVE-2026-53110: Add CVSS 3.1 score (7.8 HIGH)
+c899a154f7aebc0096d97e24c9f731c82952bd9d CVE-2026-53096: Add CVSS 3.1 score (7.8 HIGH)
+42da3f29857fb689f55d0a4842bf01a444dd6272 CVE-2026-53094: Add CVSS 3.1 score (7.8 HIGH)
+88884ae4d0aa5613c6a378467ea44e4fc0d6206b CVE-2026-53092: Add CVSS 3.1 score (7.8 HIGH)
+ca67d2ab032ace259df5a438005bc421a07fb215 CVE-2026-53090: Add CVSS 3.1 score (7.8 HIGH)
+3f1a24b17cc153cd7dbdcdcf7d7bc6ce50cfd22d CVE-2026-53091: Add CVSS 3.1 score (8.4 HIGH)
+681a1263647c625ef6a5c28712bff66e2df21e04 CVE-2026-53086: Add CVSS 3.1 score (9.8 CRITICAL)
+3c0883dcfdf12843aa673cf104f070d49fdc1aee CVE-2026-53088: Add CVSS 3.1 score (9.8 CRITICAL)
+af252c6ec64883b3258eb38dde02e3128c53ef79 CVE-2026-53087: Add CVSS 3.1 score (7.5 HIGH)
+903da1528dfb84665bc1f91b715466ea7d18182b CVE-2026-53085: Add CVSS 3.1 score (7.8 HIGH)
+0437b0daf5ca976a8b5cc29745cb71d904bbb419 CVE-2026-53081: Add CVSS 3.1 score (7.8 HIGH)
+77fb2ca106d9d911bd7a0803621c58d26d974809 CVE-2026-53077: Add CVSS 3.1 score (7.8 HIGH)
+62b93669e84ba3721e611f3b4adfe9b845e0a211 CVE-2026-53078: Add CVSS 3.1 score (7.8 HIGH)
+5e70a6398259319f3bed6065273371026b6fb856 CVE-2026-53075: Add CVSS 3.1 score (8.8 HIGH)
+c7e3edbf0de3449368315423c90f2a3de31e07e6 CVE-2026-53076: Add CVSS 3.1 score (7.1 HIGH)
+8c61eac43aabd22bf3ef9629cdd40b26abe9f64c CVE-2026-53071: Add CVSS 3.1 score (8.8 HIGH)
+6ef56daaa65340538dce8634848fd0fa68cea685 CVE-2026-53072: Add CVSS 3.1 score (8.8 HIGH)
+75d2ed31265c9e63135ba45dd72ae79eae153811 CVE-2026-53070: Add CVSS 3.1 score (7.5 HIGH)
+fa750942679293fd12551433063529b33e0d0fa8 CVE-2026-53068: Add CVSS 3.1 score (7.1 HIGH)
+4975a48ee4fc05a7de5e7284563e69a8b84f8cd7 CVE-2026-53069: Add CVSS 3.1 score (7.5 HIGH)
+06f1d52901bc07a595be0efec466e6063c0b3706 CVE-2026-53062: Add CVSS 3.1 score (7.8 HIGH)
+0c07bea9e876235da5af92721dcf45094a171dfd CVE-2026-53057: Add CVSS 3.1 score (8.8 HIGH)
+eb419260c0b60660933c4cbd70a959f0af52da59 CVE-2026-53055: Add CVSS 3.1 score (9.8 CRITICAL)
+80dacc5f2c706554fad15f8381ba22ca6baea257 CVE-2026-53054: Add CVSS 3.1 score (7.8 HIGH)
+c5e80725cafb971deefd64a703ec59f81fa8d6ed CVE-2026-53053: Add CVSS 3.1 score (8.8 HIGH)
+fc4fdebd21e1f63bdb51c6e9a8505c3514806e71 CVE-2026-53050: Add CVSS 3.1 score (7.8 HIGH)
+250d360cf91541327030c770883cc62904bc196a CVE-2026-53046: Add CVSS 3.1 score (9.8 CRITICAL)
+3463526dc66fe6563f326e3e9cda089b1d12fdaa CVE-2026-53049: Add CVSS 3.1 score (9.8 CRITICAL)
+67a8e605a771e4319a5650e8e4bc3221ddbd9ce0 CVE-2026-53045: Add CVSS 3.1 score (9.8 CRITICAL)
+44b9d1d7cbe03db93ea4d0bddd76f24c422701cd CVE-2026-53044: Add CVSS 3.1 score (7.1 HIGH)
+3acc8f951ef6062dd60316a58a9cf15dd2981b7e CVE-2026-53043: Add CVSS 3.1 score (9.1 CRITICAL)
+59de27954c7dd994275f45dc19c182968f177e33 CVE-2026-53041: Add CVSS 3.1 score (7.1 HIGH)
+eaf7b5d6c50067d450922d818b35f8b4e15e2b8b CVE-2026-53040: Add CVSS 3.1 score (7.1 HIGH)
+700cd8a607904d5060e88e1f49bdaca0802d97f0 CVE-2026-53036: Add CVSS 3.1 score (7.8 HIGH)
+d64721358ee7f086170325d98ddadb78cf148d64 CVE-2026-53033: Add CVSS 3.1 score (7.8 HIGH)
+b4dbc3a530d3d48e4cc5fa0e9ca4eb35901b5fad CVE-2026-53031: Add CVSS 3.1 score (7.8 HIGH)
+f4d68497348099a58cb6af5944cad3c636ee3b4a CVE-2026-53026: Add CVSS 3.1 score (7.5 HIGH)
+03ce715f7c7879989498584016edbd8bbc098631 CVE-2026-53024: Add CVSS 3.1 score (7.8 HIGH)
+f9d66ab77c5a14b553146b792a639d81a44973c4 CVE-2026-53025: Add CVSS 3.1 score (7.8 HIGH)
+92ad7cf987cc2d00f12b229fe56cb6b459f2d964 CVE-2026-53020: Add CVSS 3.1 score (7.8 HIGH)
+5fe6745c8a48b1e818c6fe63475ccb486700015d CVE-2026-53016: Add CVSS 3.1 score (7.8 HIGH)
+77f124425a520f042a7c90ae5a41732df2f797e3 CVE-2026-53011: Add CVSS 3.1 score (7.8 HIGH)
+5b5ba0c7aa8a2ca8f5b97e62924f2541d25fd1b6 CVE-2026-53010: Add CVSS 3.1 score (9.8 CRITICAL)
+4a45fe147bab8966c1bf43304df6375c7b4073d4 CVE-2026-53005: Add CVSS 3.1 score (7.8 HIGH)
+fa70e29fa911699487d8fa1295d9315f218583ba CVE-2026-53006: Add CVSS 3.1 score (9.8 CRITICAL)
+ae3e4d4e3ecb1687e75ba31448f4b0558f7e2d5b CVE-2026-53009: Add CVSS 3.1 score (7.8 HIGH)
+832daf9bcf9b0f5b0f4fcf9b3d13bc546d2dadf7 CVE-2026-53003: Add CVSS 3.1 score (7.5 HIGH)
+51e421ebde58d29a13027cf4592d8ef3b98b28a1 CVE-2026-53002: Add CVSS 3.1 score (9.8 CRITICAL)
+f04172fce134481d3caf386888ec65e15222af98 CVE-2026-53000: Add CVSS 3.1 score (7.8 HIGH)
+bf8177334b56491b0eb0350ef8ea692091ec6e36 CVE-2026-52998: Add CVSS 3.1 score (7.5 HIGH)
+8e5ef3f92bee40362adb5b332838d70a6d26d560 CVE-2026-52993: Add CVSS 3.1 score (9.8 CRITICAL)
+97082ff319dbf5516c3e94d788f11618ca2a1a45 CVE-2026-52999: Add CVSS 3.1 score (9.1 CRITICAL)
+7b0fa6fbec93e2a6afb49468e3245b61312b6271 CVE-2026-52991: Add CVSS 3.1 score (7.8 HIGH)
+55be9e30a3f39b3ad23f283f5d1caf438d894b73 CVE-2026-52989: Add CVSS 3.1 score (9.8 CRITICAL)
+62db3626e3d319bdecdcb2056bf51d571ee2857f CVE-2026-52988: Add CVSS 3.1 score (7.1 HIGH)
+59f6e79052954ead301580bb252c96901cae0d8a CVE-2026-52986: Add CVSS 3.1 score (9.8 CRITICAL)
+4032fc31edeebcd97b9c0b860c355c1be204d154 CVE-2026-52987: Add CVSS 3.1 score (7.8 HIGH)
+85a02d2901aed8dbb8792d14afbb7433e905bb34 CVE-2026-52982: Add CVSS 3.1 score (9.8 CRITICAL)
+9bd1165d02315d00ee387e4ac0d1b3ee5b00a97c CVE-2026-52983: Add CVSS 3.1 score (7.5 HIGH)
+de62a6cd0309fdf5fe7cb88efa92634a77cd15d3 CVE-2026-52981: Add CVSS 3.1 score (7.5 HIGH)
+1e591cc724a859d4d1c3ad0a7f06520660391628 CVE-2026-52976: Add CVSS 3.1 score (7.8 HIGH)
+e1a578d8a2a520d018f5c1b41d3a7c225bdc4b8b CVE-2026-52974: Add CVSS 3.1 score (7.5 HIGH)
+b44d5d23dd22ce7730e439c40b633ef0cf86271c CVE-2026-52975: Add CVSS 3.1 score (7.8 HIGH)
+8e77be511e8421ea0c5155efed19aa0d9ca1d658 CVE-2026-52971: Add CVSS 3.1 score (7.8 HIGH)
+2bb8d1bae4f6707ea595f7e1217e0dba8eadd2b1 CVE-2026-52973: Add CVSS 3.1 score (7.8 HIGH)
+730c4c53144c9b4f3d9c50b4ad60d1b43e6414ef CVE-2026-52967: Add CVSS 3.1 score (8.1 HIGH)
+6b1a1921044450134fbddaac539a6c86d5e336e1 CVE-2026-52960: Add CVSS 3.1 score (7.5 HIGH)
+ab84e9b7da88cb42c2c88b2363729b695475eab2 CVE-2026-52958: Add CVSS 3.1 score (9.1 CRITICAL)
+26f800e74c50801c71cae852470f0f400a6029cc CVE-2026-52957: Add CVSS 3.1 score (7.5 HIGH)
+a16f3846c93b85fe301f7cb60ca0cadc9dc7bb14 CVE-2026-52959: Add CVSS 3.1 score (7.8 HIGH)
+e51494afa1bbf3f29b0485a8db7162d5bb1848a7 CVE-2026-52956: Add CVSS 3.1 score (7.5 HIGH)
+77e7854798f4d1a8cb305433ec2e44f11a79246a CVE-2026-52954: Add CVSS 3.1 score (7.5 HIGH)
+ba6a08f0d213a718f552a71866c9bd02debea423 CVE-2026-52955: Add CVSS 3.1 score (9.8 CRITICAL)
+7b520c3bdc68f2279a8806674587079e0949104e CVE-2026-52953: Add CVSS 3.1 score (7.1 HIGH)
+70fef63a13dd407d7f02d9f325208b39b00f9acf CVE-2026-52952: Add CVSS 3.1 score (8.8 HIGH)
+f9679d5cbe01fc46c21bb390d7d486cfa0a020a9 CVE-2026-52951: Add CVSS 3.1 score (7.8 HIGH)
+071c63f32a47edd2dfd1ef23625c496a70d4a34b CVE-2026-52950: Add CVSS 3.1 score (7.8 HIGH)
+35dc8dabcad8c44dd81703d900c5bbf2d9f81de5 CVE-2026-52947: Add CVSS 3.1 score (7.8 HIGH)
+2cb2a2106a1f59f9fe02b3d4e702a6d13df9a85e CVE-2026-52945: Add CVSS 3.1 score (7.5 HIGH)
+267450c767ba1374555776fe6b7c60245cd2356c CVE-2026-52946: Add CVSS 3.1 score (7.5 HIGH)
+6a019e348ffcb1add7861cbba7d9f2df7ef5b7fb updates for cvss scores
 
---===============7336868358040830095==--
+--===============8609374139163554452==--
