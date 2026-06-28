@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 28 Jun 2026 14:53:42 -0000
-Message-Id: <178265842239.3941217.14285900102919188754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Sun, 28 Jun 2026 15:26:43 -0000
+Message-Id: <178266040360.3965858.8942760433926669706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2
-    new: 0716f9b9338a86dd27796e00ed0fd560c653323a
+  - ref: refs/heads/pending
+    old: 0352b3372c26dc5474f2f99bf26e8018d23828c5
+    new: 4bfe69d8f78d69f3c2e70742263b195fe2433f97
     log: |
-         4fc0625cf9c6c11f1f9b09e1f2e35fa2dd46ea6a ntb_hw_amd: Fix incorrect debug message in link disable path
-         d876153680e3d721d385e554def919bce3d18c74 NTB: epf: Avoid pci_iounmap() with offset when PEER_SPAD and CONFIG share BAR
-         8df969463bc26a7250707f485ee3ac61426d671f NTB: fix kernel-doc warnings in ntb.h
-         d1c3d45f87e89e5c1fa0769a72a48d1ad99106fc ntb: amd: Use named initializer for pci_device_id::driver_data
-         0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
+         4bfe69d8f78d69f3c2e70742263b195fe2433f97 wifi: ath12k: advertise ieee_link_id in vdev start MLO params
          
