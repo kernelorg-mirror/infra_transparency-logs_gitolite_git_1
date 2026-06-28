@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5216713449132064672=="
+Content-Type: multipart/mixed; boundary="===============6765137421404623986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 28 Jun 2026 06:37:47 -0000
-Message-Id: <178262866735.3538840.8223578174577630036@gitolite.kernel.org>
+Date: Sun, 28 Jun 2026 06:37:54 -0000
+Message-Id: <178262867478.3539083.14450295612214051010@gitolite.kernel.org>
 
---===============5216713449132064672==
+--===============6765137421404623986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/usb-next
     old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
     new: 780d569e6c4b422290f5cba319eb904b355d64be
     log: revlist-51cb1aa1250c-780d569e6c4b.txt
 
---===============5216713449132064672==
+--===============6765137421404623986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628591 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782628602 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1782628661-07bccb03f02adaee11709d8ebd29fbaceaff8a6a
+nonce 1782628672-b7bc7ecd6f76de3be39191c8359b6ad512c6c3b9
 
-51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/main
+51cb1aa1250c36269474b8b6ca6b6319e170f5a5 780d569e6c4b422290f5cba319eb904b355d64be refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwO8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bMsQAJ2cG8Kd/By7OIdq6R5d
-pYkQQQIjS+14zB+Hd0B0ji1sOw/MhicwkbTLhZyEZ7lcPMJPVYsDLrUGpwnlC1k4
-IUhnWSq/zCUV8gQGt1F4s/XjiogzL27PkQjgj4LDa9K1V6/nNXPezWccXLhk2MLc
-Ahg9dSdxpTaj3I1Qx7xr3jfNn1PVWwWHrQaKobDRxU57X6OGSFFV6FG091DNj8lV
-HFlzw42GG411LG3NAec2ycz9BofP+aDdWLXF2eXGrk1USzGd5KbQQC01OMDmU2im
-RQYt2px2SxIAH+uizNQvV94CUuy7pEe1Y1YVr4KDpRQ+sitPkiiG5DOsARiXab52
-82arZn8gLzNCNXoMB9wONywlDiN3TfakoxFwUwt0XbkczB6zowRVHqSqflRaa1/y
-724VYdYvqFZ/bv/vnOkx8ZtUFZhJvB1GNxijgA47AcvRLsE32qwcwNsIONxcGtaY
-w4yeJCb5+lL8980wj4DabBlMgFbPudW21i5W4SkALskQAqha+48/IfW2jP8o0ISS
-tE8qPJVZW60sA5PJJm/DUSvTVDgBZ8FP4wEeV0yCcrPJUqy4SYmH1RyerzVssl6M
-cwJ7o56b57zOvUfdRVGt7z64Ga1BBjHu5WfD9Wd7MQE7RdaY7HRNL41ASjHajQfi
-HsZ3MgAvbaHV70T/2DiLUFk7
-=MNiQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpAwPobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jTwQAL+AxkG7Vj8Ag1wkcmHl
+SEMwahOywYPALw5Kqy2MG1zvXGaxcMd2nic1RUVYtUxUsqeFUw8aMmTWes3zBWpt
+X55t8S9sLjCoqmlI+hALB1qqTcII5AOjfjOgJrc1ZMuyVWzeW1pDoPQWwHAXE0Iz
+Spmlj1ptXbZ8A4YgcCSsZsmJqxk8iQ8Lt3U2h0na9PgOkEy7Yc1XU44kp7K8jkNb
+B0HqY82IDC0Xg9LS+rt2kWH+lM89hGTbD947FowugpvlJNE/JJD0Bm6cj7nL+FIu
+EWaWqJsQ6CqbaNE6rPyHjndYzGnesm9J2VCixpRSplcVeiIaO3CvaRJV/PWRpAZ6
+oIwzrvWThSWTGoS1/XawY6wx6sJJVbgtMw9DTfL7lbZedJPxEKDacknIGyS+rNoC
+ptne6f/niijiNKeaH9t/57H1t3QhnPUju/iuyCwCDIYuoYeNeNQEQ5qVZrmDOFFt
+LAoQEvnvD0U6UF4R5tfhkF/2zsRVK7ZzD2n41I5QwVZtNAFnldqt/xasTuNQ6EN/
+9Mn7QUUCyeBJkG7JbQ+6kUXCgrIVJHLdcp9LQ4xBbd2BCG/1DbrOspVacODa5k7+
+WZwPA0kt+mcgU/91w0h6Vid2g4Ag+binpJxZVW9HSNy6+TtKRQ8AalcgMQBadDdD
+HdoMlsS6dYjlNhkikjtV/306
+=NqcT
 -----END PGP SIGNATURE-----
 
---===============5216713449132064672==
+--===============6765137421404623986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -282,4 +282,4 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 
---===============5216713449132064672==--
+--===============6765137421404623986==--
