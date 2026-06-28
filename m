@@ -1,31 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sun, 28 Jun 2026 16:10:33 -0000
-Message-Id: <178266303323.3996792.2237674702683177328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Sun, 28 Jun 2026 17:31:24 -0000
+Message-Id: <178266788483.4053522.1245520228093258863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/main-pending
-    old: 3c6647c474ac21aa4def553003ac8123bae0d016
-    new: 8822312df30ecd4207c56102c6478b72583187b5
+  - ref: refs/heads/main
+    old: c9a9f12aa619288fd3d4e16bc4b3c73b655a4efe
+    new: eab9dbb9f9633d69ffa4c91444859d0998e07446
     log: |
-         5cf3b81486a3e48069eb85c01a4f89ef3f868708 wifi: ath12k: avoid setting 320MHz support on non 6GHz band
-         249b658234b20161552bc36fb860bb730f7d64a5 wifi: ath12k: fix TLV32 length mask
-         74ea4cbe746d02164397cdea2b60759671381bd8 wifi: ath12k: refactor HAL TLV32/64 decode helpers
-         79b0e9f7e159846d2073cfeb002a1201417f71e1 wifi: ath12k: add HAL ops for monitor TLV header decode and alignment
-         c6de058bb3c36b898a0a2c3043c4d8cea3470833 wifi: ath12k: add dp_mon support 32-bit TLV headers
-         97a5dd5c95d281758e9c34ed37eaa6aff7d79586 wifi: ath12k: tighten RX monitor TLV bounds check
-         66b6663671b158b5ee98d19902a7bcb73be8c3e6 wifi: ath12k: expand UserPD ID mask to support up to 8 PDs
-         0352b3372c26dc5474f2f99bf26e8018d23828c5 wifi: ath12k: reset REOQ LUT addresses before firmware stop
-         4bfe69d8f78d69f3c2e70742263b195fe2433f97 wifi: ath12k: advertise ieee_link_id in vdev start MLO params
-         8822312df30ecd4207c56102c6478b72583187b5 Merge branch 'pending' into main-pending
+         0e9d87537b62d6f816f6468f7d586a9c5785672e devlink: Split dpipe tables output to a separate function
+         3d6b4b014f69bc21100586a7c4370a43e99e4f60 devlink: Move dpipe tables query to resources show callback
+         385193da341602aa2d946ff9a41e22fafe906e5e devlink: fix memory leak in resource_ctx_fini
+         56e4ed9c0355c26cf00fb9f0d853c75f0aa07323 devlink: add dump support for resource show
+         222f7ea8f440d9bceed1eaa2ae6bc2698c0e1edc devlink: show port resources in resource dump
+         c1acbee7c107d30d39999a96d11f05e0c927e14f devlink: add per-port resource show support
+         a310a48e9f0aced6079f1dbb55d9c22c84bd414e devlink: add scope filter to resource show
+         eab9dbb9f9633d69ffa4c91444859d0998e07446 Merge branch 'devlink-per-port-res' into next
          
-  - ref: refs/tags/ath-pending-202606281526
+  - ref: refs/heads/master
+    old: c9a9f12aa619288fd3d4e16bc4b3c73b655a4efe
+    new: eab9dbb9f9633d69ffa4c91444859d0998e07446
+    log: |
+         0e9d87537b62d6f816f6468f7d586a9c5785672e devlink: Split dpipe tables output to a separate function
+         3d6b4b014f69bc21100586a7c4370a43e99e4f60 devlink: Move dpipe tables query to resources show callback
+         385193da341602aa2d946ff9a41e22fafe906e5e devlink: fix memory leak in resource_ctx_fini
+         56e4ed9c0355c26cf00fb9f0d853c75f0aa07323 devlink: add dump support for resource show
+         222f7ea8f440d9bceed1eaa2ae6bc2698c0e1edc devlink: show port resources in resource dump
+         c1acbee7c107d30d39999a96d11f05e0c927e14f devlink: add per-port resource show support
+         a310a48e9f0aced6079f1dbb55d9c22c84bd414e devlink: add scope filter to resource show
+         eab9dbb9f9633d69ffa4c91444859d0998e07446 Merge branch 'devlink-per-port-res' into next
+         
+  - ref: refs/tags/v7.1.0
     old: 0000000000000000000000000000000000000000
-    new: 8822312df30ecd4207c56102c6478b72583187b5
+    new: 1fa47ecf379ccc2276b6f8da047b93e6097b35ea
