@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 28 Jun 2026 23:10:54 -0000
-Message-Id: <178268825498.108136.3590287319421658831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 28 Jun 2026 23:11:39 -0000
+Message-Id: <178268829978.108687.17538867676459435613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: bed18bbbf9d9af55ccc01a6e2a8ec90d7e35cb11
-    new: 0cfdf974f133e0ff17ed80e7895adbe7889d9522
+  - ref: refs/heads/driver-core-testing
+    old: f81808de37338aac8e167f99bfae647b1b835c70
+    new: e7e09a8546a9e41a164378979471a4b4bd166bc7
     log: |
-         0cfdf974f133e0ff17ed80e7895adbe7889d9522 x86/cfi: Use symmetric SYM_START and SYM_END in __CFI_TYPE()
+         e7e09a8546a9e41a164378979471a4b4bd166bc7 driver core: fix path of /sys/module in comment
          
