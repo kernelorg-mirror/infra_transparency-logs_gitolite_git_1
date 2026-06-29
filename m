@@ -1,91 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5801840196587304229=="
+Content-Type: multipart/mixed; boundary="===============0017626226647421807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 29 Jun 2026 13:32:15 -0000
-Message-Id: <178273993568.938302.7935325273291920588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 29 Jun 2026 13:33:11 -0000
+Message-Id: <178273999117.938952.17819907483095756983@gitolite.kernel.org>
 
---===============5801840196587304229==
+--===============0017626226647421807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/arm64/selftests/cleanup
-    old: 866f5e390a08873e2eaf7be6fd6e2e15a3b78162
-    new: bce0caf0a5611276513e1bdc5bda17339b1af9f6
-    log: revlist-866f5e390a08-bce0caf0a561.txt
+  - ref: refs/heads/nfsd-next
+    old: e5248a7426030db1e126363f72afdb3b71339a5c
+    new: e64c89910f477d480346521d7976e9c983384233
+    log: revlist-e5248a742603-e64c89910f47.txt
 
---===============5801840196587304229==
+--===============0017626226647421807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-866f5e390a08-bce0caf0a561.txt
+Content-Disposition: attachment; filename=revlist-e5248a742603-e64c89910f47.txt
 
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
-29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
-ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
-c7fdbc2c2f26b9c397eb3aad2fdc54dbd85f68e1 selftests/uevent: increase __UEVENT_BUFFER_SIZE to avoid ENOBUFS on busy systems
-5108f4765637bd0ac5ea2897dc7d537486a09885 fat: reject BPB volumes whose data area starts beyond total sectors
-452a8467be8143747292218212671deeb186d2ae ocfs2: fix UBSAN array-index-out-of-bounds in ocfs2_sum_rightmost_rec
-07669b0abe4ce76c716e8437e198e1337cf43d1f treewide: fix transposed "sign" typos and update spelling.txt
-22920541c35a9f23f219038ba5874c843a7c4419 ocfs2: avoid moving extents to occupied clusters
-c1fff9794a165b6b64ae4ad9b54c00bc94e7daed lib: interval_tree_test: validate benchmark parameters
-f9ab30c96b0f00c20c6dac93681bdae3a033d229 ocfs2: fix NULL h_transaction deref in ocfs2_assure_trans_credits
-ff6f26c58421614b02694ac9d219ac61d924bc68 ocfs2: fix circular locking dependency in ocfs2_dio_end_io_write
-e586644d0a89b6c63b77ae717f19d70181faee76 net: pse-pd: set user byte command SUB2 field
-8165f7ff57d9667d2bb477ef6af83ede7fed4ad7 net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink
-8211a26324667980a463c069469a818e71207e02 net: ipip: require CAP_NET_ADMIN in the device netns for changelink
-95cceadbfd52d7239bd730afdda0655287d77425 net: ip_vti: require CAP_NET_ADMIN in the device netns for changelink
-2496fa0b7d180b3ad356b514e7ff93bb14e6140a net: ip6_tunnel: require CAP_NET_ADMIN in the device netns for changelink
-f00a50876d2818bd6dc86fa98b3ef360884c53c8 net: ip6_gre: require CAP_NET_ADMIN in the device netns for changelink
-e2ac3b242c37dff323a964962e43854f4b1a2b79 net: ip6_vti: require CAP_NET_ADMIN in the device netns for changelink
-095515d89b19b6cc19dfcdc846f97403ed1ebce3 xfrm: xfrm_interface: require CAP_NET_ADMIN in the device netns for changelink
-0e80602c026b98ec9f775f8a6a4eaea577733d6b Merge branch 'net-require-cap_net_admin-in-the-device-netns-for-tunnel-changelink'
-e4b4d8410c7ccea25f4b332a077c6b9f5d263228 net: ethernet: mtk_eth_soc: fix supported_interface set after phylink_create
-1f24c0d01db214c9e661915e9972404c96ca73c0 netdev-genl: report NAPI thread PID in the caller's pid namespace
-65f26d15f7db80b0a3f995c518cdddb50e6dea99 selftests/ftrace: Fix trace_marker_raw test on 64K page kernels
-a056db30de92945ff8ee6033096678bfbae878e3 octeontx2-pf: Fix leak of SQ timestamp buffer on teardown
-4f6ac65e81625165257131ec2574bb6bb09bd7d8 octeontx2-af: npc: Log successful MCAM drop-on-non-hit install at debug level
-1c4b39746c4ba32370e9a60801e96181bc1260a3 net: ehea: unwind probe_port sysfs file on failure
-efb8763d7bbb40cff4cc55a6b62c3095a038149c net: ipv4: bound TCP reordering sysctl writes and MTU probe sizes
-b50fa1e07cf875609b9d34c5c8b32dcf11b8b603 net/mlx5: Remove broken and unused mlx5_query_mtppse()
-aedd02af1f8b0bceb7f42f5a21c41634ca9ed390 net: psample: fix info leak in PSAMPLE_ATTR_DATA
-7d8297e26b4e20b5d1c3c3fe51fe81a1c7fbc823 sctp: hold socket lock when dumping endpoints in sctp_diag
-286533cb14a3c8a8bd39ff64ea2fc8e1aa0f638b gpio: sch: use raw_spinlock_t in the irq startup path
-90f0109019e6817eb40a486671b7722d1544ae29 gpio: eic-sprd: use raw_spinlock_t in the irq startup path
-28c5d230980bdd8cb18c073225296c7747995935 erofs: add folio order to trace_erofs_read_folio
-30222639602c89ddc52208ac6c9d7baed376c84a mm/slab: remove __GFP_NO_OBJ_EXT usage from alloc_slab_obj_exts()
-71553a60675994a79575567f6d56e214f9030dc4 mm/slab: replace __GFP_NO_OBJ_EXT with SLAB_ALLOC_NO_RECURSE for sheaves
-6808645b71f02752852731764961a16f728772a6 mm/slab: add a node-track-caller variant for kmem buckets allocation
-7b5f5865fb11e60edd03c5e063e2d228b7062317 slab: recognize @GFP parameter as optional in kernel-doc
-892a7864730775c3dbee2a39e9ead4fa8d4256e7 tools/mm/slabinfo: fix total_objects attribute name
-ac930b80c1e0eba283d7843180964e6d2a87369d i2c: pxa: Use named initializers for the platform_device_id array
-53d1ae7c20d97b08741d667ba54bb09d330eba3b ALSA: pcm: fix __le32 cast warning in snd_pcm_set_sync_per_card
-f7f3f9fd81e7adbaa12c2e62ee07f0e094a543fd ALSA: caiaq: fix out-of-bounds read in the Traktor Kontrol S4 input parser
-58fc1275b3f288500ee79a02dbe89ed4197fdc3e ALSA: caiaq: bound the length in the EP1 input parsers
-4520fbbaedbeda8861f0f0bfbe50b3bca4deae08 ALSA: hda/realtek: Add headset mic quirk for Acer S40-54
-bdb640be82e645e2828731648f485224d0c2587b ALSA: usb-audio: qcom: reject stream disable with no active interface
-3c7af07943b2718087ae791cad450af5cf646d90 ALSA: usb-audio: qcom: clear opened when stream enable fails
-69388468721151e15d34657a2e4a654741f32f1b s390/idle: Add missing EXPORT_SYMBOL_GPL()
-e6fa716c9d7248e03cb93f566874bd5709901bcf ASoC: audio-graph-card2: Drop warning for manually selected DAI formats
-2f9f5887b42711595e768b9dc0582dccfdf60c3b Merge tag 'for-7.2/io_uring-epoll-20260616' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-00d07402df810b4dce0ae6828f4a292c20bab916 Merge tag 'ata-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 7cb033507068936f9da3c59e5c31a54e4e8dafa6 PCI: mvebu: Use fixed-width interrupt masks to avoid truncation in 64-bit builds
 9e7e6633458362db72427b48effad8d759131c35 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 3c2e6cc6affa8acdb99a580be1f8f297edf54204 PCI: iproc: Restore .map_irq() for the platform bus driver
@@ -1043,12 +983,72 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-1017d5fcbbc8000fa7ebc077a744254cff5581f8 kselftest/arm64: Don't corrupt P0 in SSVE-VL-* irritator handler
-2db277185f5c252decdf49b25cd461782e890cd1 kselftest/arm64: Fix fp-stress sub-test exit status
-5b0c72c69af48bd06aab6d2c0316440320316516 kselftest/arm64: Do not enable GCS for the FP stress tests
-269d7c53ee2fee943ad644e3bf11e0d285000c25 kselftest/arm64: Clarify sve-test preemption comment
-04dd158680b0715bf363ed054e0ec9af58377e1a kselftest/arm64: Remove dead code
-922d15ef46cb486a79f168949e103f6df26f4fba kselftest/arm64: Consistently exit fp-stress sub-tests
-bce0caf0a5611276513e1bdc5bda17339b1af9f6 WIP: use signalfd
+4107c687580820289973d55e9fbf6f75fc15cdb9 nfsd: Reset write verifier when async COPY writeback fails
+cfc874d4606bef223f5a0ea7d972eaf9b0d857f8 nfsd: sample writeback error cursor before async COPY loop
+d250ba1c4c448f9ab7f8ef8e19b926de85991907 SUNRPC: Reject short RFC 4121 MIC tokens in gss_krb5_verify_mic_v2
+5b757c2e57a5c1260cd6bbd91a97ced08615ba30 SUNRPC: svcauth_gss: enforce krb5 token minimum length
+d029e0ab924bb7bb355f56ea11596ec0c836db7d SUNRPC: harden gss_unwrap_resp_priv length checks
+296c5e5960b552c18537870340f6fdcb4665092e SUNRPC: xdr_buf_trim: clamp buf->len to avoid underflow
+de0c4e97fd0adbfa4683baeb1a551fbc157c4f55 SUNRPC: harden gss_krb5_unwrap_v2 against short tokens
+6c87032f0c31d19825a6381eb82d51a76757f1bb lockd: pin next file across nlm_inspect_file lock-drop
+dfd83b1804e3691edbcbce433d66a7e00b684e5c NFSD: restart ssc_expire_umount walk after dropping nfsd_ssc_lock
+28b6ffce0b9855ffa1aeee0aef14b4b95150ca52 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+94880134c1dd77c56b1e9b2d2f0a19dc8f200519 nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+0585de36e7d84ee1c10e39da34e28894e99fbccf nfsd: set SC_STATUS_FREED in nfsd4_drop_revoked_stid for delegations
+ad139f45934e42f3192a3b6f1421d7d19bad343a svcrdma: Validate Read chunk positions before reconstruction
+ab777cfbd96c571b8c5d33a91a3e5b86b4954559 svcrdma: Fix offset arithmetic in read_chunk_range
+164e9c75106e632bbde2369a0cd08b1cc846a1ee svcrdma: Reject oversized Read segments at decode time
+9fabf59654274f301da26a23268eb6f797229f4f svcrdma: Fix pcl_for_each_segment for empty chunks
+ec64e344d92b01c18ab19d6bf3061eebc87da446 svcrdma: Reject Write/Reply chunks with segcount 0
+7cfc683a4dc80d08bd8fd4ed5b56bf65a40a908e svcrdma: Validate Read chunk positions at decode time
+de8074bd5d72b8d8fddc397e255045f01eda3c92 nfsd: don't free session slots that are still in use
+0d4f993f81516e6cb81da53ca61ec502e1c2332a nfsd: defer setting NFSD4_CALLBACK_RUNNING in deleg_reaper
+8796b93d9deeaf490ae7bcfe8544d1399b74f1c9 nfsd: clear CALLBACK_RUNNING on failed delegation recall queue
+b761d2f91d113bc15880ed6fa6d3f82f7dec0a2c svcrdma: Reject Read lists that exceed the page budget
+c83f688ec775413edb17137e94ff735879e9a114 SUNRPC: always drain cache_cleaner before destroying a cache_detail
+95e3a3661dde6c33289142342dbf5a52b70789ec nfsd: block non-SAVEFH ops after FOREIGN PUTFH to prevent NULL deref
+d6ed18b81db0921ccb0bcb7260ed199f8249bebc svcrdma: Fix unmatched rn_unregister on failed accept
+bb21c2aa3f0826c30fbc49130d427444d0a76032 svcrdma: Reorder rpcrdma_rn_unregister before rdma_destroy_id
+a429e7f91a7aea7872ed5324d7d0108e4d655503 svcrdma: Use svc_xprt_put to free listener on create failure
+59373099ced7e333cf9d2d1324c9db41b226708c svcrdma: Reject connection when transport allocation fails
+bb147fa744e7307b498dee325058fa3957f9db6e svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
+b0f7e02eda3a1c32431e15ae4fe547e1e2e7bdd5 nfsd: fix XDR padding calculation in ff_encode_getdeviceinfo
+2aa026fa79beb8086c6d62c73638daf226d3d69d nfsd: fix XDR length calculation in nfsd4_ff_encode_layoutget
+206b54c3caafbb2defb5ca92a4b2b431d382b18a SUNRPC: Reject krb5 v2 wrap tokens with oversized ec field
+dba0a921dafc45e9719550dae0cb484830890fb8 SUNRPC: fix gssx_dec_option_array error path bugs
+c8963fe140d150ea7f995bef518e03bbed5ad03b SUNRPC: reject duplicate CREDS_VALUE options
+ae26849998e8df9fce36cdf7b61eb95de7451492 SUNRPC: Guard svcauth_gss_release() dispatch on rq_auth_stat
+4910358c13103e9f065bf72a0603e029eb097eaf SUNRPC: Zero rpc_gss_wire_cred at svcauth_gss_decode_credbody() entry
+316b904ce775c412dba130bc3c4641af07afd980 SUNRPC: close backchannel before destroying callback service
+9c7d0020d6c82079242babd44316892840db2598 nfsd: fix BUG_ON in nfsd4_alloc_layout_stateid on racing delegation revoke
+4d747408a0692b7e47b0740b53d516e1a03990b1 nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
+71bb0289250f348dd9787f5892f740315ff1bb06 nfsd: convert nfsd_net boolean flags to unsigned long flags word
+5145cac4a7c409911442021664df98013c79b479 nfsd: dedup nfs4_client_to_reclaim inserts
+ea64894d77e5770a5e28fc9eea55fa12b0e51eb8 nfsd: gate nfs3 setacl by argp->mask
+263787487f33191823839efc5776d9b831b96d82 NFSD: check truncate permission under inode lock
+fc6db8027777860d5a91343c195218fca874c3c5 nfsd: fix partial-write detection in nfsd_direct_write
+8a3ddf469ed8bce9df764c4ab7e63e397865d648 nfsd: cap decoded POSIX ACL count to bound sort cost
+150e51be87a48fac75def82bfe522167e092bcb1 nfsd: validate symlink target length in NFSv4 CREATE
+3c2830a9894baf77ca8f23649c5c2b97d2eb2a02 nfsd: gate nfs2 setacl by argp->mask
+a71eb899aa390c9aea66b5da7065d47a316a467f sunrpc: init gssp_lock before publishing proc entry
+c1bf7402375b5cb45b4a4c455e76e05b258d8abd SUNRPC: Check svc pool percpu counter allocation
+2055cf4388fe51f89f0efba5e73b1a34fd2a537e nfsd: size fh_verify server sockaddr slot by xpt_locallen
+2bb934952bba3ff84766f61569c721fb5e8eb9d1 nfsd: release path refs on follow_down() error
+b8b103f1e6a60649aaa88eb0475e8f9642c4e009 nfsd: fix nfsd_file leak on inter-server COPY setup failure
+358ac07420913c7138f5fdad7281751e6efff08d nfsd: fix dentry ref leak on V4ROOT export filehandle lookup
+1b996ff0781676d7bc3e4f0fa8679ac0e94c741f nfsd: fix layout fence worker double-reference race
+1bec7f2bb804444d3c89d2f51c7697920f0899d4 nfsd: release OPEN-decoded posix ACLs via op_release
+11d017feebc525a3d2da09ff93f885267e983a0d rpcrdma: arm rn_done before publishing the notification
+8922f9d4bbef765f7a179e83beaf7d53b5d06d53 nfsd: defer vfree of compound ops to fix rpc_status UAF
+6e3e82142a5481a709b1a77c9ae85f30eeef15a5 nfsd: hold rcu across localio cmpxchg retry
+0025a3fd4b8cfd4683ceba7cb802bcf1bf533c84 NFS/localio: fix ref leak on nfs_uuid_add_file failure
+1e121b9af26ad2c7d72616d05b5f0953281e1cfb nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
+b1f08af75dff2807afa4df0645e0ab35117c8b5e nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage
+f1fd8e783ccdfc74f84bd86f1c8669e7b5f88269 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
+9b9199d53d4a5eaba2ee9e474b53c26d98cc06eb nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
+d0df6e4cd2f504793ddae2727d23edc73b1486c8 nfsd: unify cleanups in nfsd_cross_mnt() exits
+b764e2d5eff544910a50508345b9ba18b1b772a0 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+58ddea8c3de7e5798ba5897170d383b8b4b79e91 net/sunrpc/svcauth_unix: Use strscpy() to copy strings into arrays
+e64c89910f477d480346521d7976e9c983384233 NFSD: fix up error returned by write_threads()
 
---===============5801840196587304229==--
+--===============0017626226647421807==--
