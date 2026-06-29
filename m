@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1752100664457333125=="
+Content-Type: multipart/mixed; boundary="===============1838429055064989316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 29 Jun 2026 06:07:07 -0000
-Message-Id: <178271322786.498199.13971536578020544454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 29 Jun 2026 06:07:25 -0000
+Message-Id: <178271324560.498471.9916027737378881887@gitolite.kernel.org>
 
---===============1752100664457333125==
+--===============1838429055064989316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/heads/review-andy
-    old: 4dc76c305a73bacaf330bebf723a181427bb4540
+    old: 3bb62e3f99a557d257e5f5a803200051b7de3afa
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-4dc76c305a73-dc59e4fea9d8.txt
+    log: revlist-3bb62e3f99a5-dc59e4fea9d8.txt
 
---===============1752100664457333125==
+--===============1838429055064989316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dc76c305a73-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-3bb62e3f99a5-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============1752100664457333125==--
+--===============1838429055064989316==--
