@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2928859905099336433=="
+Content-Type: multipart/mixed; boundary="===============7723731044095636155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 29 Jun 2026 06:06:19 -0000
-Message-Id: <178271317956.496956.12196898808808121484@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 06:06:26 -0000
+Message-Id: <178271318693.497169.8609075627140277206@gitolite.kernel.org>
 
---===============2928859905099336433==
+--===============7723731044095636155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 2b9ef70d3abe1eaa9b37253fd7765cf40ff2a5ad
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-2b9ef70d3abe-dc59e4fea9d8.txt
 
---===============2928859905099336433==
+--===============7723731044095636155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============2928859905099336433==--
+--===============7723731044095636155==--
