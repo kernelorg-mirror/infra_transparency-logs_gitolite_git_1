@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Mon, 29 Jun 2026 19:31:09 -0000
-Message-Id: <178276146960.1221005.12935261952391259742@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 19:31:28 -0000
+Message-Id: <178276148823.1221306.13286521428581956872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: aschofie
 changes:
-  - ref: refs/heads/pending
-    old: 5fcbbee57319e718bf522436ea6595bd0f71296c
-    new: 15e932c4e1318a9608ad9b799ad83a32a8b5970d
-    log: |
-         15e932c4e1318a9608ad9b799ad83a32a8b5970d ndctl: release v85
-         
+  - ref: refs/tags/v85
+    old: 0000000000000000000000000000000000000000
+    new: b30f916a33deb70b7bb6f0409e34a24bea4402dd
