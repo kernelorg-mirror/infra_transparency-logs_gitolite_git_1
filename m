@@ -1,34 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============2108632317989681505=="
+Content-Type: multipart/mixed; boundary="===============3580440839863598833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 29 Jun 2026 15:39:47 -0000
-Message-Id: <178274758707.1039305.9745495348074423651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Mon, 29 Jun 2026 15:40:09 -0000
+Message-Id: <178274760985.1041565.1554602989335036092@gitolite.kernel.org>
 
---===============2108632317989681505==
+--===============3580440839863598833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/hwmon
-    old: e7ae89a0c97ce2b68b0983cd01eda67cf373517d
+  - ref: refs/heads/for-linus
+    old: 7fde7e806657fbe0d33f489521b488eed94f9b39
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-e7ae89a0c97c-dc59e4fea9d8.txt
-  - ref: refs/heads/hwmon-next
-    old: 9955c92abe72564a49c293b1c15cd3b4f02ea6a0
-    new: 446bf1ecbaeceb72d85553ce0ac0e6afc03ec5ca
-    log: revlist-9955c92abe72-446bf1ecbaec.txt
+    log: revlist-7fde7e806657-dc59e4fea9d8.txt
+  - ref: refs/heads/for-next
+    old: 7fde7e806657fbe0d33f489521b488eed94f9b39
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-7fde7e806657-dc59e4fea9d8.txt
+  - ref: refs/heads/master
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============2108632317989681505==
+--===============3580440839863598833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7ae89a0c97c-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-7fde7e806657-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1055,12 +1059,23 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============2108632317989681505==
+--===============3580440839863598833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9955c92abe72-446bf1ecbaec.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
 
+8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
 c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
 808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
 8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
@@ -2074,16 +2089,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-64bf5c37453164e4130ac01474ed517822a38801 dt-bindings: hwmon: ina2xx: add ina232 compatible
-afa794b2fd6361a9dcac5b6203c746e1b917137f hwmon: (ina2xx) Add support for INA232
-7842838d9960b66a6ee399b71265d88a0c64484d dt-bindings: hwmon: pmbus: Add bindings for Silergy SQ24860
-07a86d87f5825ab7b7fb62bdb54d8866f4130f1d hwmon: pmbus: Add support for Silergy SQ24860
-2fde1ff673e5b9cde08b855545c682169d07ecc1 hwmon: Add documentation for SQ24860
-7485f29048fea608483372e95579856ec307c1d8 dt-bindings: hwmon: pmbus: ti,lm25066: add current limit properties
-de5fbc64f19d1293b1966318f91d3875464410f1 hwmon: (pmbus/lm25066) add current limit configuration support
-083d045a1e050252c1c8af08483ddce47a056260 hwmon: (w83627hf) remove VID sysfs files on error and remove
-8ac7a2f2a7d20e63655468b4b36c5c140c1a7836 hwmon: coretemp: Fix documentation wording
-42987ec01caa528e92ccc0cfa33306162cdd7e83 hwmon: (coretemp) Clarify attr_size comment
-446bf1ecbaeceb72d85553ce0ac0e6afc03ec5ca hwmon: (w83793) remove vrm sysfs file on probe failure
 
---===============2108632317989681505==--
+--===============3580440839863598833==--
