@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
-Date: Mon, 29 Jun 2026 14:57:47 -0000
-Message-Id: <178274506789.1005843.9326854305921068161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Mon, 29 Jun 2026 14:58:27 -0000
+Message-Id: <178274510736.1006272.7193811053855226044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/misc
-user: kuba
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/main
-    old: a1367d018f3497926f75d1749829588c218f6944
-    new: 97cc660cdff5ca1a51e810e7178edc46fe00ea8f
+  - ref: refs/heads/patches-in-queue
+    old: acb6d4cb84205a8e3f19ca470cfcf7bf6d93a509
+    new: e237675913c8b97adfd31fc5dc8f2645b47e4e55
     log: |
-         97cc660cdff5ca1a51e810e7178edc46fe00ea8f web: net-next is open (for v7.3)
+         dcb1b1067cb2d11c951d5503f7476a544b3261de xfs/078: disable all concurrency scaling
+         65e2418e120140ed45d9bfa1e6734e50e823db9d xfs/216: disable all concurrency scaling
+         dda3e588773882c9865a7412c7f47183baf0e4c6 vfstest: move sys_umount2() to cleanup path in tcore_acls()
+         0145dfe3794ad8e843262b5dbd5cef3f84a52b16 generic/633: add _require_acls for tcore_acls() ACL dependency
+         e237675913c8b97adfd31fc5dc8f2645b47e4e55 fstests: add a test case for btrfs get_subvol_info ioctl
          
