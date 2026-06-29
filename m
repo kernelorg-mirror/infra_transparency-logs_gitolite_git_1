@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9077346217265172150=="
+Content-Type: multipart/mixed; boundary="===============7088984157879859941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jun 2026 13:42:45 -0000
-Message-Id: <178274056519.946828.14336683609658834987@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 13:44:37 -0000
+Message-Id: <178274067771.947461.11037560964912883751@gitolite.kernel.org>
 
---===============9077346217265172150==
+--===============7088984157879859941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/irq/core
-    old: 8f727615134abc6382f0ea07b90270d7bdde578f
-    new: 491ee67755dde213d0725ede20687ccdee72e053
-    log: revlist-8f727615134a-491ee67755dd.txt
+  - ref: refs/heads/timers/vdso
+    old: 8d563bd7904734c05a4f2abf4ecca0e4fe764b50
+    new: 02475538bec2c47d1cce1211823c0453175af6a9
+    log: revlist-8d563bd79047-02475538bec2.txt
 
---===============9077346217265172150==
+--===============7088984157879859941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f727615134a-491ee67755dd.txt
+Content-Disposition: attachment; filename=revlist-8d563bd79047-02475538bec2.txt
 
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
@@ -1047,8 +1049,6 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-13856e22217fbf7c1200633716ff87ccb50fd89a irqdomain: Plug leak in irq_domain_alloc_irqs_locked() error path
-c5a0cfa07cee2d6283161951037610aa8740d7e4 genirq/manage: Use irqd_get_parent_data() helper in __irq_get_irqchip_state()
-491ee67755dde213d0725ede20687ccdee72e053 irqdomain: Remove unnedded NULL check in __irq_domain_[de]activate_irq()
+02475538bec2c47d1cce1211823c0453175af6a9 vdso: Replace __ASSEMBLY__ with __ASSEMBLER__ in header files
 
---===============9077346217265172150==--
+--===============7088984157879859941==--
