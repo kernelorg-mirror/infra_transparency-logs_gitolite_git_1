@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5254902504026899677=="
+Content-Type: multipart/mixed; boundary="===============2486316434045927037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 29 Jun 2026 17:52:33 -0000
-Message-Id: <178275555306.1144553.8372157151254613008@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 17:53:00 -0000
+Message-Id: <178275558036.1144941.7237008448741924919@gitolite.kernel.org>
 
---===============5254902504026899677==
+--===============2486316434045927037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 40db90ac9f66c8246c1746c56d397283d161655c
-    new: 535c327f22a28fcbbdfc9189cbeef8d54f187364
-    log: revlist-40db90ac9f66-535c327f22a2.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: f4b06339bec5f602bd529a509fe28e6df203e11b
+    new: 12d49eae578a7da137464df2c9a3da7491ae1d54
+    log: revlist-f4b06339bec5-12d49eae578a.txt
 
---===============5254902504026899677==
+--===============2486316434045927037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40db90ac9f66-535c327f22a2.txt
+Content-Disposition: attachment; filename=revlist-f4b06339bec5-12d49eae578a.txt
 
-3136184508d2889a11092dbaa097ed6580bc4214 PCI: dwc: Replace ATU type macros with common TLP type macros
-52015335e5db7e9b0d62d1ee1178de1b601ac7ba PCI: cadence: Use common TLP type macros
-9f22b92259bb5ac43e2b9007103787d4418fec56 PCI: Avoid FLR for MediaTek MT7925 WiFi
-29fbf582e75015c031e7965fdd4084af123b9ca2 PCI: Add pci_host_common_link_train_delay() helper
-869317b95fd735684057666a65dd8ef95d4bd669 PCI: cadence: Add post-link delay for LGA and j721e glue driver
-0c26b1c34d12d4debfb5363cc0be6cdf68e87ba2 PCI: imx6: Configure REF_USE_PAD before PHY reset for i.MX95
-9dda3f83ba677b9cc2613cecd9120123000ae50f PCI: imx6: Assert ref_clk_en after reference clock stabilizes on i.MX95
-b12341b98d5ac52f48ca1390e1e371aed81346c8 PCI: meson: Propagate devm_add_action_or_reset() failure
-4b0dc84b293984f75598881809fb2d3daf54a2a8 PCI: meson: Add missing remove callback
-34b9a83c50660148bde01cde16451dbe78369749 nvmet: fix refcount leak in nvmet_sq_create()
-f865a57896bd92d7662eb2818d8f48872e2cbbc7 PCI: mediatek: Fix IRQ domain leak when port fails to enable
 26acdaa357cded33a37f575cd5f6bae1033b3a5d nvme: fix crash and memory leak during invalid cdev teardown
 4fd1f5f6a659886a4ef3a380b2a07207c94a7a24 nvme: target: allocate ana_state with port
 7cf5e4fc36d3a77467dd0d02a45371ea4350410b NFS: correct CONFIG_NFS_V4 macro name in #endif comment
@@ -1050,5 +1039,16 @@ b81c05a559ee792c95adf6394e27002ea9215470 perf python: Refactor and add accessors
 145f6bea481341c6bde1c65386de3022fa407408 perf python: Add type checking for parse_events/parse_metrics
 4f093d248b148a6c168f22a591499db3c04bc7a7 perf python: Add perf.pyi stubs file
 535c327f22a28fcbbdfc9189cbeef8d54f187364 perf python: Add LiveSession helper
+1d4ece85d7ddad478021dae83d1f6516c985a283 tools/perf/sched: Update process names of processes in zombie state for both -s and -S options
+7654dd937910cdb8f717aab41ba3574281d1c323 perf scripts: Add configurable sorting option to powerpc-hcalls
+1607cc959a99e196536dbfaeebf20be0167ed373 perf vendor events intel: Update arrowlake events from 1.17 to 1.19
+5695550151530636de6b9e402fec5bb56416d5c5 perf vendor events intel: Update emeraldrapids events from 1.23 to 1.24
+aa1b40bd6ca763166967f860302ba9bc3c9a4e9b perf vendor events intel: Update graniterapids events from 1.18 to 1.19
+87bfdfe43121a0ac22dfa7e703888c3ae22b4045 perf vendor events intel: Update lunarlake events from 1.22 to 1.25
+3a91b2004d7f3390deb1bf971eab8a14d3119ea4 perf vendor events intel: Update pantherlake events from 1.05 to 1.06
+8a87c682bac78cc985ae81bcae196b19c7f8397b perf vendor events intel: Update tigerlake events from 1.18 to 1.19
+2456c1038244881aad0d981b7c2456276ec11510 perf script powerpc: Update the hcall list with new hcalls
+6ea971b96c1766b8e156004bd81bbfaac6a49fee perf script powerpc: Fix a typo in the name of H_DISABLE_AND_GET
+12d49eae578a7da137464df2c9a3da7491ae1d54 perf kvm stat: Add missing mappings for PPC kvm exit reasons
 
---===============5254902504026899677==--
+--===============2486316434045927037==--
