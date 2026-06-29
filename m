@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0885834520122849641=="
+Content-Type: multipart/mixed; boundary="===============4213765361336194316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 29 Jun 2026 20:15:31 -0000
-Message-Id: <178276413126.1255310.1520696325621482152@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 20:18:20 -0000
+Message-Id: <178276430073.1257194.16051111460504783970@gitolite.kernel.org>
 
---===============0885834520122849641==
+--===============4213765361336194316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/for-next
-    old: fb054c869500e60e60a80cc2eb585da934449fa1
-    new: f338cc54e10ab25633a97953e0a6b2265ba65c2c
-    log: revlist-fb054c869500-f338cc54e10a.txt
+  - ref: refs/heads/master
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============0885834520122849641==
+--===============4213765361336194316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb054c869500-f338cc54e10a.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
 
+8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
+c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
+808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
 ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
 8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
 32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
@@ -1036,19 +1050,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-118c9c57c9a4b28209489521da229b58b43458ec ARM: omap2plus_defconfig: enable things required by iwd
-d8f1b27c9f12d17dc48d1baa4e83246dfd3cbfaf ARM: dts: ti: var-som-om44: Add USB Ethernet controller node
-381819c38460a20a2ff235c974146b20930e71d8 arm: dts: ti: Add device tree support for PRU-ICSS on AM57xx
-81aad76217d0b07ffd71b033a4d11fa6b6255f1f arm: dts: ti: Add device tree support for PRU-ICSS on AM437x
-0f44a4dba71d0b72e9aafc5de56a7252699f21c9 arm: dts: ti: Add device tree support for PRU-ICSS on AM335x
-68f994ec51e279e63c8fc40c1bfa8add4b708111 ARM: dts: ti: Add specific compatibles for SCM conf nodes
-21e741f3922c40305d9225c7a3b2557e5d926cd4 ARM: dts: ti: Fix typos in comments
-4a7b197ad28d71f9fac873f283b4408df3fdb287 ARM: OMAP2+: Add CFI type for omap4_finish_suspend
-76103814279724e5c98b1c16a730f56ebede9f74 ARM: OMAP2+: Fix OF node reference leaks in omap_hwmod
-a80ca4c22ac9f1c654fb577a9631dc2cbef03cf5 arm: multi_v7_defconfig: Enable BRIDGE and DP83848_PHY for TI AM57xx, AM437x and AM335x
-88e3d0e8207fdf5606dcaf1004ede5a84ce6a7a4 ARM: omap2plus_defconfig: enable things required by iwd
-6f8e916ec3dc84bd6114db59cd81526b8ab7a982 Merge branch 'omap-for-v7.3/dt' into tmp/omap-next-20260629.131449
-b2d152d7eb606faefbe93eae6121dc76e6b9809b Merge branch 'omap-for-v7.3/soc' into tmp/omap-next-20260629.131449
-f338cc54e10ab25633a97953e0a6b2265ba65c2c Merge branch 'omap-for-v7.3/drivers' into tmp/omap-next-20260629.131449
 
---===============0885834520122849641==--
+--===============4213765361336194316==--
