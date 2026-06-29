@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 29 Jun 2026 23:37:56 -0000
-Message-Id: <178277627615.1404191.17764102253551551800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 29 Jun 2026 23:58:13 -0000
+Message-Id: <178277749309.1418440.14907801821583201739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/hwmon
-    old: 9ef7dacd44216bf5ea05c8aef49eba4d145f4047
-    new: fe87b8dc67f1b2c64e76a66e78468c533d3c44ca
+  - ref: refs/heads/for-7.2-fixes
+    old: 13cd10cb0637e0bb6a2c2a9e44d69cbdbfa1ef22
+    new: 3c234b01c9dccf995e663bc46baaf4294f30c386
     log: |
-         fe87b8dc67f1b2c64e76a66e78468c533d3c44ca hwmon: (aspeed-g6-pwm-tach) Guard fan RPM calculation against divide-by-zero
+         3c234b01c9dccf995e663bc46baaf4294f30c386 ata: sata_dwc_460ex: use platform_get_irq()
          
