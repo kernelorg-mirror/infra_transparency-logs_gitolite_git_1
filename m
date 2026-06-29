@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5661852974933286197=="
+Content-Type: multipart/mixed; boundary="===============6570313814954391791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Mon, 29 Jun 2026 11:18:31 -0000
-Message-Id: <178273191158.833651.1489826799959518012@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 11:19:04 -0000
+Message-Id: <178273194486.833983.7873479462314639770@gitolite.kernel.org>
 
---===============5661852974933286197==
+--===============6570313814954391791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rppt/memblock
 user: rppt
 changes:
-  - ref: refs/heads/fixes
-    old: 7c2eee9c136734825ff524dd8b2146438a4f8250
+  - ref: refs/heads/for-next
+    old: 00e06cb773fd81d4f2806a6ee69d1aef8f6dd5ca
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-7c2eee9c1367-dc59e4fea9d8.txt
+    log: revlist-00e06cb773fd-dc59e4fea9d8.txt
 
---===============5661852974933286197==
+--===============6570313814954391791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c2eee9c1367-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-00e06cb773fd-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5661852974933286197==--
+--===============6570313814954391791==--
