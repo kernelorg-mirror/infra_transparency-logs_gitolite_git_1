@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============5656430568850427090=="
+Content-Type: multipart/mixed; boundary="===============2073789521736200802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 29 Jun 2026 16:04:40 -0000
-Message-Id: <178274908043.1060893.4352948921488288842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 29 Jun 2026 16:04:55 -0000
+Message-Id: <178274909536.1061204.12024769531146186877@gitolite.kernel.org>
 
---===============5656430568850427090==
+--===============2073789521736200802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 721396afea31eac476d88f5db10ba111ba4b8382
-    new: 78fb7968943f5064766af7f33d82e6bfe90e0db0
-    log: revlist-721396afea31-78fb7968943f.txt
+  - ref: refs/heads/devel
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============5656430568850427090==
+--===============2073789521736200802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-721396afea31-78fb7968943f.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
 
+8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
 8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
 516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
 2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
@@ -1042,13 +1050,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-50227acbf4e5173db0f05ed95414512e7783889f remoteproc: Add common wc-ioremap carveout callbacks
-aef86ae680361cf309cf18678a88b1257dcb9a84 remoteproc: Switch exact-match drivers to wc-ioremap callbacks
-0db071a39c8637262a00763adfc44c2fae89c82c remoteproc: Mark wc-ioremap carveouts as iomem
-e6b4e660f08894ef8fa2aaee3ef5c0f86ae4c59d remoteproc: Add helper for optional ELF resource tables
-65bb7dee37f1858d5920e9bfd48f7cd96bf421e4 remoteproc: Switch drivers to optional resource-table helper
-738a5c60c37460a09dbd5c3c85f4207e5938ca5e remoteproc: Use presence checks for syscon props
-70cfc11cfcfb07ca8eeed1f667cc0eec9e82aa71 remoteproc: xlnx: Refactor start & stop ops
-78fb7968943f5064766af7f33d82e6bfe90e0db0 Merge branch 'rproc-next' and 'rpmsg-next' into for-next
 
---===============5656430568850427090==--
+--===============2073789521736200802==--
