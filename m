@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0017626226647421807=="
+Content-Type: multipart/mixed; boundary="===============2086500477774589219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 29 Jun 2026 13:33:11 -0000
-Message-Id: <178273999117.938952.17819907483095756983@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 13:33:22 -0000
+Message-Id: <178274000243.939241.15550014932816243696@gitolite.kernel.org>
 
---===============0017626226647421807==
+--===============2086500477774589219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,76 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: e5248a7426030db1e126363f72afdb3b71339a5c
-    new: e64c89910f477d480346521d7976e9c983384233
-    log: revlist-e5248a742603-e64c89910f47.txt
+  - ref: refs/heads/nfsd-testing
+    old: 78f2cf08b3a5236ba01876aeba05af026a91a4ef
+    new: f8eb95335cc219493427f976460cf4b7e9641e92
+    log: revlist-78f2cf08b3a5-f8eb95335cc2.txt
 
---===============0017626226647421807==
+--===============2086500477774589219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5248a742603-e64c89910f47.txt
+Content-Disposition: attachment; filename=revlist-78f2cf08b3a5-f8eb95335cc2.txt
 
-7cb033507068936f9da3c59e5c31a54e4e8dafa6 PCI: mvebu: Use fixed-width interrupt masks to avoid truncation in 64-bit builds
-9e7e6633458362db72427b48effad8d759131c35 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-3c2e6cc6affa8acdb99a580be1f8f297edf54204 PCI: iproc: Restore .map_irq() for the platform bus driver
-348f69320e4db6ebec6940c81154bec4b9eb275a ALSA: usb-audio: Add quirk for YAMAHA CDS3000
-b59aff62767bf59ca0c787015c0ddc14f60ab10d ALSA: emu10k1: Use common error handling code in snd_emu10k1_playback_open()
-6edc20078ad0b05ab2dc2693965d373628d65f80 Merge tag 'fuse-update-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-3dc7c001169d112b3e514cacff6c93091c57af9a Merge tag 'nfsd-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-e753a63f2ac8599182a5b6899c158a745188551d Merge tag 'v7.2-rc-part1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-dac3b26eae7bee261fa05f20c3fcc24988a7c233 Merge tag 'v7.2-rc-part1-ksmbd-fixes' of git://git.samba.org/ksmbd
-83f1454877cc292b88baf13c829c16ce6937d120 Merge tag 'ext4_for_linus-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-a8759c8ac48c0419f5899e95a6ffc611b07c965b PCI: altera: Protect root bus removal with rescan lock
-20b7aba83c0eac13bf9d46b0fa7575df5765f205 PCI: brcmstb: Protect root bus removal with rescan lock
-713331969ce89489c84af917058df6d9910cff97 PCI: cadence: Protect root bus removal with rescan lock
-26335696498ab502e907a556e97c7039bc80a87e PCI: dwc: Protect root bus removal with rescan lock
-a6a64e150f12ad5391e0a0d60f6a3d119b06ce50 PCI: iproc: Protect root bus removal with rescan lock
-a29812a55da8d0dbeb071b26ac428c338e3fc389 PCI: mediatek: Protect root bus removal with rescan lock
-4e4f9745f016c1631d00a4035b06f6e75d449e01 PCI: plda: Protect root bus removal with rescan lock
-0bd9611587bb494c33566d825fe34b2705e4b167 PCI: rockchip: Protect root bus removal with rescan lock
-fda8749ba73638f5bbca3ffb39bc6861eb3b23fa PCI: host-common: Request bus reassignment when not probe-only
-7b25dbafa2fce50b1a48c1d057adb35da3563f9b spi: rpc-if: Use correct device for hardware reinitialization on resume
-9a289cc425bf469642533e4afa01c90f08971d01 modpost: Ignore Clang LTO suffixes in symbol matching
-645323a7f4e55bb3abb0cb003b6b9dc715c8dc21 kconfig: add optional warnings for changed input values
-b7556c8e713c88596046a906c7c4385218d44736 Merge tag 'hid-for-linus-2026061601' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-6beaec3aee9852438b89e4d7891caf5e84d45851 Merge tag 'mfd-next-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-6e717507bfbe8d6955f3f4c5604857a392c7e6fa Merge tag 'leds-next-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
-7c6742507c58cfdf2fa695ac895a33564b6aa252 Merge tag 'backlight-next-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
-53c7db5c1916afcecc8683ae01ff8415c708a883 Merge tag 'pinctrl-v7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-fbb7ad31ab376c5101b2ac7205fad0344fd2de60 docs: kselftest: remove link to obsolete wiki
-4be31c943a3a27a5a0251dbb8f5cb89059ec3d5a smb: client: fix double-free in SMB2_flush() replay
-b55e182f2324bc6a604c21a47aa6c448f719a532 smb: client: fix double-free in SMB2_open() replay
-f9bbadb6c94583e3b4af1afc449bfceb1d1ddec9 smb: client: fix double-free in SMB2_ioctl() replay
-f96e1cdcb63ed3321142ff2fcdf784e32cda8fee smb: client: fix double-free in SMB2_close() replay
-2a88561d66eb855813cf004a0abe648bbb17de5e smb: client: fix query_info() replay double-free
-145f820dcbb2cced374f2532f8a61a44dce4a615 smb: client: fix change notify replay double-free
-9647492b5e41954be59d5157eddbcd4cdc1656f7 smb: client: fix query directory replay double-free
-7849ce38717e64213bf9cbb166d1cda14e05143f Merge tag 'pmdomain-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-cfd96ad1389cd6045a3af05bd34b2e52b291e365 Merge tag 'libnvdimm-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
-4cb5e246e65cd497155370bbca54c8f5e3a4105f alpha: Remove arch-specific strncpy() implementation
-ad3242a9acaa01cc9ecc6e483341697ca4f77461 m68k: Remove arch-specific strncpy() implementation
-7eda356658cbfba9aea48bddd12b97e562c21188 powerpc: Remove arch-specific strncpy() implementation
-dfe05fcca83d794cd76da1b6deb2dcd082aa1174 x86: Remove arch-specific strncpy() implementation
-58c4ce8cd6cd1fbf1bca2e1d1f42f9e2899fa934 xtensa: Remove arch-specific strncpy() implementation
-5cd1731cc883a9914d91e3b93d4597317b5b5339 Merge tag 'cxl-for-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-079a028d6327e68cfa5d38b36123637b321c19a7 string: Remove strncpy() from the kernel
-8c13415c8a4383447c21ec832b20b3b283f0e01a Merge tag 'media/v7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-9092e15defbe6c7bc241c306093ca9d358a578e7 net/sched: act_ct: preserve tc_skb_cb across defragmentation
-1fd8f80a199d321dd429c9881adccd1413417ad9 selftests/tc-testing: act_ct: add TDC test for skb cb preservation across defrag
-86590e2a22fea41b8537125dbd6a135b305b9547 Merge branch 'net-sched-act_ct-preserve-tc_skb_cb-across-defragmentation'
-9e5ad06ea826322ce8c58b4a68442a96f600c3c4 virtio-net: fix len check in receive_big()
-ed2294f94e34e97342850c40b320833d881c3819 dpaa2-switch: fix VLAN upper check not rejecting bridge join
-d31deeab707b7945a7805d6406d0cd3118e640ef net: llc: make empty have static storage duration
-a0aa6bf985aa5f22f7d398ddfff3aa0754892aea net: pch_gbe: handle TX skb allocation failure
-8cdcf3d2caacdee7ddd363705fb4d93b0c1a0915 octeontx2-af: cn10k: restrict VF LMTLINE sharing to its own PF
-ba45106342bbdd905651cb9fcefb8c11871d4c25 devlink: Fix parent ref leak in devl_rate_node_create()
-ba81a8b80f042038b9f73a4e5bb135de890b59bb devlink: Fix parent ref leak on tc-bw failure
-440a9744928a26be71f7eb49c0489e509473c587 Merge branch 'devlink-fix-a-couple-parent-ref-leaks'
-5c121ee635680c93d7074becf14cfbaac140f80d net: airoha: fix foe_check_time allocation size
-e438ec3e9e95cd3f49a8120e5f63ae3f9606e6fa net: macb: add TX stall timeout callback to recover from lost TSTART write
-bf6e8af2c8be77489bedeae9f8a9654cb710e500 flow_dissector: check device type before reading ETH_ADDRS
 c0ebe492329a4d29592e2240df17e56724849f1f netconsole: don't drop the last byte of a full-sized message
 55d9895f89970501fe126d1026b586b04a224c27 net: thunderbolt: Fix frags[] overflow by bounding frame_count
 d676c9a73bdcd8237425dbb826f2bd1a25c36e40 gve: fix header buffer corruption with header-split and HW-GRO
@@ -1050,5 +991,64 @@ d0df6e4cd2f504793ddae2727d23edc73b1486c8 nfsd: unify cleanups in nfsd_cross_mnt(
 b764e2d5eff544910a50508345b9ba18b1b772a0 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
 58ddea8c3de7e5798ba5897170d383b8b4b79e91 net/sunrpc/svcauth_unix: Use strscpy() to copy strings into arrays
 e64c89910f477d480346521d7976e9c983384233 NFSD: fix up error returned by write_threads()
+e9c885f34da5c33d22fd6dd246d7022962d023b5 lockd: Use "%*phN" to dprintk() a cookie
+21dafe8648bb1683ef9c92af529210e9524c5171 SUNRPC: Add svc_serv_maxthreads() to report the thread ceiling
+2e003755a44a019515aa40157c9ee15627e4afd7 NFSD: Count slot 0 in nfsd_total_target_slots
+d056821314e2af1090d11c8f9c74b77abea0cdd1 NFSD: Clean up documenting comment for reduce_session_slots()
+af7f60d43662431e233011e0ede92a8bf7f9bc15 NFSD: Document and rename the NFSv4.1 session slot shrinker callbacks
+bdea60e8446e32da299c1a0702765899e9524b27 NFSD: Bound on-demand DRC slot growth by the thread ceiling
+f21f12b634a45131d0cae6a9c64bd0a623a15bdf NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
+94c4dec09974fc3ebe6df48fa358c1e4bffae1de nfsd: fix null dereference in nfsd4_setattr for deleg timestamp attrs
+4b58f2cdaa8d635e81f2a737b30e79c647ef4b1d nfsd: clear opcnt on compound arg release to prevent OOB read
+7195cdb4711c9bddfb907100651d46cc60015516 nfsd: add missing read barrier to rpc_status_get dumpit seqcount retry
+792b0b25c07aec329ddc115bf15e3fec7812173e nfsd: fix netlink dumpit error handling for rpc_status_get
+a8612c62bddf82abc45ba2f6021f1ae1c9ad7d1f sunrpc: defer rq_argp and rq_resp free until after RCU grace period
+609eaa74b717e441339b75a2880806766615244b nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
+512228f79387819b48c5c5f79e36dac63e423821 nfsd: add filehandle match check to nfsd4_delegreturn()
+2615054a5cebc655013ca6474847733126493eec nfsd: validate nseconds in TIME_DELEG decode paths
+4a50cd110523a081da3142b1b4b5eac88c77150d nfsd: fix version mismatch loops in nfsd_acl_init_request()
+1bef5e73c6c15d1cbc73ee7964ce1797dfa6098c nfsd: fix FL_SLEEP being set unconditionally for all LOCK types
+4eadfd08936b6c9a7db378aa24812a8280b31671 nfsd: add fh_want_write() for early-verified SETATTR in nfsd_proc_setattr()
+c20e4f868143553d1bf4b64a833f68e411c134c8 nfsd: fix clock domain mismatch in clients_still_reclaiming()
+31b7dbb44d7f715205c3cadfb9c8c1ca435a66a8 nfsd: use test_and_clear_bit for somebody_reclaimed to prevent lost update
+dc32d5f717bb37a84efe2a9703840930b2a5c5c2 nfsd: reject reclaim LOCK after RECLAIM_COMPLETE
+af0f1f84abdfbd4cd276e0de04b23861859f2dcf lockd, nfsd: RCU-protect nlmsvc_ops dispatch
+3e7945a9f1299ebf8c56522d92f807fcbec1785f nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
+f69c821249a867426b8152d48b08532c407f8b2f nfsd: initialize DRC hash table before registering shrinker
+9374c2abfcb72ad0962d20adc549bf36bdffde44 nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
+4596bf96928d4066519cedec8e07b4bfa900d83a nfsd: drop the stateid, not the stateowner, on seqid_op replay retry
+e6e962a995983a4a880774d939ead086deabe372 NFSD: Prevent post-shutdown use-after-free in unlock_filesystem
+be73231b8c519748ee357264d1aabcee05a6bfbc NFSD: Prevent post-shutdown use-after-free in NFSD_CMD_UNLOCK_FILESYSTEM
+3721175fad612f92714d43b5be9ec2b0632f0602 NFSD: Annotate caller preconditions for the state-table walkers
+13a522138ac8d14e372781d0ffe3b3398498e70a nfsd: validate sockaddr length per family in listener_set
+f3f57f3ebf6cf56c07b635e54729c02c756139fb nfsd: reject out-of-range useconds in NFSv2 SETATTR/CREATE
+88b2dc90ad636aafce5196b9116bd8ea641e188a nfsd: reject out-of-range nseconds in NFSv3 SETATTR and create ops
+a3c9040a61c5be3f59fabe0f11079d7424ff8824 nfsd: use NSEC_PER_SEC in nfsd4_decode_nfstime4()
+3a9fe19cf3584aac429af147f6606df9e9aa2974 lockd: fix swapped arguments in nlmsvc_match_ip()
+58f4e42ed202f052f5071e416599ce0a6dd7976b nfsd: check fl_lmops in nfsd_breaker_owns_lease()
+573cd2b72c40fb8f54146e7f4dc7bc834971a993 nfsd: add protocol support for CB_NOTIFY
+d0db080eac7b419e57105cf1a8dfaa535be57d0a nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
+2952198abb3511475124e6a22a2a6b1f463b71cd nfsd: allow nfsd to get a dir lease with an ignore mask
+56f69b35f693aed75a6bb002f24a25b263e51dcc nfsd: update the fsnotify mark when setting or removing a dir delegation
+49a5f59658fa8cbdd6215b52deb0616549ea5879 nfsd: make nfsd4_callback_ops->prepare operation bool return
+f2312e37236327c6481b2309259efe2ace742e69 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+5f8a7f15373835104836eb893f5c51585a0683e8 nfsd: use RCU to protect fi_deleg_file
+ed614d62c6f73a4bf526f3fbc33f943cc22bb7e2 nfsd: add data structures for handling CB_NOTIFY
+30f6b0c69914f4aec98d694972ff79e171789652 nfsd: add notification handlers for dir events
+21072918f94e45debfdcbd859a572f4c26cb4cb6 nfsd: apply the notify mask to the delegation when requested
+ed0f18481cc38c9a7193c090435a99f787f7d916 nfsd: add helper to marshal a fattr4 from completed args
+bf5fa227a57e8917494522c8e9359f08a6f91bdc nfsd: allow nfsd4_encode_fattr4_change() to work with no export
+5b2ba264753981400e46317880440c68a0fe8a92 nfsd: send basic file attributes in CB_NOTIFY
+0dd5c7d6eb8cc2fa0905a55d7b232fc18c54053b nfsd: allow encoding a filehandle into fattr4 without a svc_fh
+ca595149b73b90d7a33c5c0765b0da3948eec4cb nfsd: add the filehandle to returned attributes in CB_NOTIFY
+902cfa61df8c2f61a0b39a0cb3ccb104eb9ba222 nfsd: fix reply size estimate for GET_DIR_DELEGATION
+5c82af9e15f75b47848e5f320685d083e096571e nfsd: properly track requested child attributes
+39ba83097e43ed2f9ec00f3d803e2fcf9ba648fa nfsd: track requested dir attributes
+16bd86c1b937ba2a781e1f04b69059a24797c04d nfsd: add support to CB_NOTIFY for dir attribute changes
+3c1d52d3eafd585b7476053ed824b55f3baa7999 NFSD: Guard admin state-revocation walks with NFSD_NET_UP
+ff6d87c6e0f50652fa4773d3013f32a917fb002a NFSD: Replace isdotent() macro
+ed87caaa355a8e2231a8ce46bc837fc6e8e44cbb svcrdma: Reject inline replies that overflow the pull-up buffer
+151dc7c495b959b1064c437bd2b180650769c960 lockd: fix NLMv4 GRANTED_MSG handling
+f8eb95335cc219493427f976460cf4b7e9641e92 lockd: fix NLMv3 GRANTED_MSG handling
 
---===============0017626226647421807==--
+--===============2086500477774589219==--
