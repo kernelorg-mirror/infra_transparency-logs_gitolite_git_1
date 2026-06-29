@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6482282954541314287=="
+Content-Type: multipart/mixed; boundary="===============1604394737131126774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 29 Jun 2026 06:28:30 -0000
-Message-Id: <178271451045.515349.13443307731312752440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Mon, 29 Jun 2026 06:28:46 -0000
+Message-Id: <178271452655.515597.15987380926895787600@gitolite.kernel.org>
 
---===============6482282954541314287==
+--===============1604394737131126774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/b4/cros_ec-hwmon-fan-curve
-    old: b593d4e672726245edf9b45c31f726784bbb606c
-    new: 6561c71e470a2b8d886c53091df197dfccea2b78
-    log: revlist-b593d4e67272-6561c71e470a.txt
+  - ref: refs/heads/for-next
+    old: 3850c2920a10d5f50f5c2f8acccfb3925002f30b
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-3850c2920a10-dc59e4fea9d8.txt
 
---===============6482282954541314287==
+--===============1604394737131126774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b593d4e67272-6561c71e470a.txt
+Content-Disposition: attachment; filename=revlist-3850c2920a10-dc59e4fea9d8.txt
 
+8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
 8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
 516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
 2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
@@ -1042,13 +1050,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-9026bb9c13fa911c1b5ef52b05f67a21ef991017 hwmon: (cros_ec) Add support for fan curves
-0baadfb1160c232b20b36bf4802ebad3c35d290b hwmon: (cros_ec) Implement custom kelvin to celsius conversions
-535be7581b9bedcd972e286bae5af754baa8c8cf hwmon: (cros_ec) Handle temperature conversion overflows
-d4a7a2e08b4de909b60a34b0d91f756473782c54 hwmon: (cros_ec) Prepare the addition of custom groups
-737fa32f39c5dceb4044638324e61ece949cf289 hwmon: (cros_ec) Split out cros_ec_hwmon_get_thermal_config()
-c4f1416287746c7bb22bad44bc564bd0b7dce4b9 hwmon: (cros_ec) Add support for displaying fan curves
-87293291241727b08ba82c1156dd62f2986b0fec hwmon: (cros_ec) Allow modification of fan curves
-6561c71e470a2b8d886c53091df197dfccea2b78 x
 
---===============6482282954541314287==--
+--===============1604394737131126774==--
