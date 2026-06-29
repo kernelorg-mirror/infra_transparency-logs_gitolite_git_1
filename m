@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2775174526135977215=="
+Content-Type: multipart/mixed; boundary="===============5345374105783506186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 29 Jun 2026 06:17:27 -0000
-Message-Id: <178271384735.507185.960873891040578731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 29 Jun 2026 06:17:40 -0000
+Message-Id: <178271386085.507412.15947667621963861841@gitolite.kernel.org>
 
---===============2775174526135977215==
+--===============5345374105783506186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -27,39 +27,39 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
 
---===============2775174526135977215==
+--===============5345374105783506186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782713844 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1782713843-8691ed3ddea1ad08376a99878ac7e6f4e4bbceea
+pusher krzk@kernel.org 1782713858 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1782713857-6637a8a09f3e8041e5a676bd67f20b6fd4111226
 
 254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/master
 0000000000000000000000000000000000000000 728e68a889bcf257b1e67298b12c360e5c3a13e0 refs/tags/v7.2-rc1
 0000000000000000000000000000000000000000 b3f94b2b3f3e51ab880a51fc6510e1dafba654ed refs/tags/v7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCDfQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13EjD/9EvjnMSZ2B4/AGgYQ4riqUncrmlOqSaicv
-0XaR6EdA4B5Nf+2roZSgGKOdPijm1sBPhEFrniYW89q2yBwgla+uNk2He/d/c4zI
-1BUBFFmwVxF0JGl2OBhLKBLQOkhv7JsPhQT3pdHQhk+GyJHolXjKtbKV8TLnoGs6
-6CQvSq99ob+bqOEhNCRXu8mk2R1HuBKhXjt0a2A67xoO/Oatf8s2rJEsSdkzh/i7
-nB56ifPJDfcx80wVlE9UOU/+d9UAT785jGiCKFGm+qvVFQR2/pY6n0Jy/0qu854g
-BNUhTTnn4DpeeZ40rPyvi9arC7D9jHzjgoeOWCG+a7Yf/bScFyFneDbyH4TKO7zm
-AFg+wW11gMttSsG/sLhI4yVlEtaOB/9j1ZveGBcAMAdtxKuqkD6c/uUBIf3NnbdW
-1xQTkXqC20BXKlMRXa44hsf+ws3I1YNEKdtuYnlud2A5ttuccTO7s+4Jgm1kDco+
-LPvawZaSFNZpgzrU1I0HY0nb5Mud9ci0x1a9O8gPE8J9Cwe0amLINa2hT+A36sKP
-zgduZdXrfZlEmuFgq4vN5l15XbYKAIS71rtzSYxSf/rJ8jkVIkzJ3uDqFqFqYN44
-cywOlACVpmLaMz7xfa1yoPYU9vOSwQEKm5wUnsxb2Ab0vf+TaAIYc3vTHZ9zb+0f
-xaqQp9MMBw==
-=9xSB
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCDgIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+T+D/9Oi6Fp22kxurppFg4XaYUFEGSByu9JpE4W
+d6ZP0Sf6QWVD5FoTYhEOAX9CAVpr3ju6BohQYnIW1AriBZKngq698n+8VvxjyjzQ
+bDnMECCUq0uG2HHCgamNdeQI0vTJxSCNzhd3SwJSEeRVmhN9aYbjVt/MlzQm6ihR
+lUIPDD//LAL2o4IwTdc5yXKPMSxM6GKvz1Un8KGLlbUC3lyffYRHIQwvP2mpDlkS
+00AX4tJ34j4qWI0k5s4+nA0AdMvzGUdxZ2PyhS0w+FDlsdEj85j/gSAXTQdVoUEu
+c1gPGwbklNChU+r9v5iulCnvFYw+Gqc6J8WFFFMXB3r55+yia4IeM9fG0g6pRWxX
+qc+W2uOsozZJAJneJksNzikRLUUGUx/fl6zFKzchMar8GeEL5EqI2yKr0KDudXig
+MSWSmx7gHwfNxqXRHUc07EmAz5h+ILuyFXXkJKnlK8Q/NGfLX2wp3hsPfs9PGgte
+UfjHtnyqUMPW75kkEP1NM28uSa6n6801HyDzkWiEH5QWU6D5+RKEiqtyq5YQXguM
+6Nkw8P7ZcjhDAUdIldGecDb6JeBAVG8JofPu6ToYw+U+H41bVz5EsM+Yxqo9gRTW
+jw8/Oq9MQELF9fpqEFpmgg++7KhhuLO8Gw8r/rsqLQ/QNvTGp779ykcHgVAcHQPI
+u5l1L4rhhA==
+=8zGi
 -----END PGP SIGNATURE-----
 
---===============2775174526135977215==
+--===============5345374105783506186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1090,4 +1090,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============2775174526135977215==--
+--===============5345374105783506186==--
