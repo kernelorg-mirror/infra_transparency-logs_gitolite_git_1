@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5290730857274639637=="
+Content-Type: multipart/mixed; boundary="===============5429359148921521733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 29 Jun 2026 09:20:55 -0000
-Message-Id: <178272485575.668658.14176153997276720937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 29 Jun 2026 09:20:56 -0000
+Message-Id: <178272485659.668744.14658966721232424688@gitolite.kernel.org>
 
---===============5290730857274639637==
+--===============5429359148921521733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/next/dt-bindings
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============5290730857274639637==
+--===============5429359148921521733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782724853 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1782724853-a4a4582f8cf10cba29e879d89604c50855dd9104
+pusher krzk@kernel.org 1782724854 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1782724854-26c4975f1be8a9e692dfc11ac0de85b816b376fe
 
-254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/for-next
+254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/next/dt-bindings
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOPUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12qnD/9na1M444I7LG7DD3c/TJJBPOUonQ/alPoR
-Px+XkLOHfGx1mxIlH6lD4t4My/ETV3MPKE/pOEFAgFxJQPU+hRbQVBbLlpn6e5JH
-8FNr1340to2bnLXisxGSf3cPxwEX2PL4lyMhn6Q21BzaGrzozhoxTzMSj8e/2UEp
-XDZ986o2ZAY+aiLQGe9rkGnrOkZFbIK3sqBcORkTAIPI8xQt214zaeGSLH4NAOHs
-WIkgRweT4MGjf47yW+LHvV/m4irZXvJVAXSsz4psrs63sMpcgbu0FrZ21nm07yLU
-gd1OhlGAJTaXS2RDZEH++3L7caYgjijNQWOU9wGmVg69Kn+wZVRZMrUl6PlWGHgj
-STgECIIf0XmJps4/0cx7k6RS48QBquxV/jNnKG4CeU72oM/cMBLuc9azns5fGaEm
-XpT/15C0ezmq8cR97AB8D0thBqXKh3uWrym01QB1HK8UoioJfNdxAaY+3s8uYEI8
-aK27wKiNEpzpitF0OYo0Rm3tt7OYURIuRJQTpKHfspobf1cK9XX1Zb+X+G6UuGu3
-GuqfngFgDKo7pR5h3mTNhgZqjRz0MoLJyh2JsFVsu2LpdyOg3ntFcTZgd6x7lLmv
-7pYD+yFFfwIWAXaCd/KRWNHrMDvw2jFpZpqtc7NLv6AtGLs0YU5Uxtz06fWhKg3z
-WrlE0mQEtg==
-=ttGm
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOPYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19yTD/4l01Nhw97rt81UpJz6VfzxCMUMvbgXTinc
+REyKuj+mEpG07yakATYaW4/iZ2YrXR7oPi5InXx/k3wwdzzTgpMpU8sljSo7Vd9z
+SfnbbzhDl9R6MddMoi44SqXgAcrlcUGKa/Y3jPdvABlKH5x1MMXN/zZlJEFmCTlm
+NJInCqTE3ZZ13QWpxHoMRxRgcBWCIV7q4hwLT1HSqgcLJqXfvt+korAtnrpSoSqT
+tOv0sg9nhzL6qYIKxzzKoR6Sl4VDx96/Mlqjzpjy4gMdJ/PfEU87XNv+BZZSsZfE
+YoYpnzV3ky+4m+LM+gl6zQZ8xTLkRBWZitnrvoryjciA27UDeWfqwNtgrA/gDdJ4
+CX9ZbNSP4NGc9JqduyjrJmtVdK8+79QpAfnD82JAp9tomQom1SHAFEhbT1cZbffV
+BrWzY4Nvxdw24OUkH/zBri/7hv+XkykxUFeMaYY2GLx0op6rVp2C/XumBjxPvrne
+6kfxOUBGhF7XM5gVETrHv7de6OyqDwIJjnBYNJ7H1ueUdjqfIgZ3bKXGBR6mv9hm
+oxCzWxeZ0d0pFrM8hEKwYM8A5929cmLxCoF7QzyxE45aFAoqBBnnsjHoBYMviLjD
+j4vFCQ8SvfKGoJcdQyeo+Avg2tgJTtN8V6fd3CM3/fmeezBIY2I7RIb1AW7EQW4c
+xYIn2epnlw==
+=FE72
 -----END PGP SIGNATURE-----
 
---===============5290730857274639637==
+--===============5429359148921521733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5290730857274639637==--
+--===============5429359148921521733==--
