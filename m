@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6336989269549489787=="
+Content-Type: multipart/mixed; boundary="===============6055247478989482019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 29 Jun 2026 11:44:35 -0000
-Message-Id: <178273347516.852893.6505453923426894535@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 11:44:53 -0000
+Message-Id: <178273349333.853172.7246557458416641393@gitolite.kernel.org>
 
---===============6336989269549489787==
+--===============6055247478989482019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/review-ilpo-next
     old: f31c00c377ccf07c85442712f7c940a855cb3371
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-f31c00c377cc-dc59e4fea9d8.txt
 
---===============6336989269549489787==
+--===============6055247478989482019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1782733469 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1782733490 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1782733468-42f412dfc42ef36a2f16e8cc66a8810e38f4a205
+nonce 1782733489-4cddcdac39ff17469f5c8378d78239e9a94e7146
 
-f31c00c377ccf07c85442712f7c940a855cb3371 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/review-ilpo-fixes
+f31c00c377ccf07c85442712f7c940a855cb3371 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCakJaoQAKCRBZrE9hU+XO
-MbfLAQD1ujUjTSlqlUyS6liyW+zngy8WFFZovEewmoz1EPCP7AD9GjO7PsyFWZWB
-FqANquXxF5on8p2t/Ji7C6pst8Hi7wU=
-=ib7F
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCakJaswAKCRBZrE9hU+XO
+MW6lAP4u9IPZZnYzCLeKkM59ovneSeBHfqiF2seiDUM89FoY4wEArgUHXSwMflrx
+HBr2uKV3o0Cd9RS2LJIeyy5972NMFQc=
+=CJbV
 -----END PGP SIGNATURE-----
 
---===============6336989269549489787==
+--===============6055247478989482019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============6336989269549489787==--
+--===============6055247478989482019==--
