@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4285346201926571446=="
+Content-Type: multipart/mixed; boundary="===============2208423866208303068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 29 Jun 2026 08:26:55 -0000
-Message-Id: <178272161525.624200.5222388717606924480@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 08:28:43 -0000
+Message-Id: <178272172392.624856.14112244059093941057@gitolite.kernel.org>
 
---===============4285346201926571446==
+--===============2208423866208303068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: 13e91fd076306f5d0cdfa14f53d69e37274723c4
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-13e91fd07630-dc59e4fea9d8.txt
 
---===============4285346201926571446==
+--===============2208423866208303068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============4285346201926571446==--
+--===============2208423866208303068==--
