@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1447161587190860263=="
+Content-Type: multipart/mixed; boundary="===============5656430568850427090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 29 Jun 2026 16:03:48 -0000
-Message-Id: <178274902841.1060520.1764269617131607442@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 16:04:40 -0000
+Message-Id: <178274908043.1060893.4352948921488288842@gitolite.kernel.org>
 
---===============1447161587190860263==
+--===============5656430568850427090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: b5bfc7d039bb775730186a9c38d0f01afd729638
-    new: 70cfc11cfcfb07ca8eeed1f667cc0eec9e82aa71
-    log: revlist-b5bfc7d039bb-70cfc11cfcfb.txt
+  - ref: refs/heads/for-next
+    old: 721396afea31eac476d88f5db10ba111ba4b8382
+    new: 78fb7968943f5064766af7f33d82e6bfe90e0db0
+    log: revlist-721396afea31-78fb7968943f.txt
 
---===============1447161587190860263==
+--===============5656430568850427090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5bfc7d039bb-70cfc11cfcfb.txt
+Content-Disposition: attachment; filename=revlist-721396afea31-78fb7968943f.txt
 
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
 8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
 516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
 2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
@@ -1050,5 +1049,6 @@ e6b4e660f08894ef8fa2aaee3ef5c0f86ae4c59d remoteproc: Add helper for optional ELF
 65bb7dee37f1858d5920e9bfd48f7cd96bf421e4 remoteproc: Switch drivers to optional resource-table helper
 738a5c60c37460a09dbd5c3c85f4207e5938ca5e remoteproc: Use presence checks for syscon props
 70cfc11cfcfb07ca8eeed1f667cc0eec9e82aa71 remoteproc: xlnx: Refactor start & stop ops
+78fb7968943f5064766af7f33d82e6bfe90e0db0 Merge branch 'rproc-next' and 'rpmsg-next' into for-next
 
---===============1447161587190860263==--
+--===============5656430568850427090==--
