@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 29 Jun 2026 23:31:18 -0000
-Message-Id: <178277587890.1399883.13260846467461545604@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 23:37:56 -0000
+Message-Id: <178277627615.1404191.17764102253551551800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
   - ref: refs/heads/hwmon
-    old: 72a69101032d2932ba5bde38494a325cc6b5d614
-    new: 9ef7dacd44216bf5ea05c8aef49eba4d145f4047
+    old: 9ef7dacd44216bf5ea05c8aef49eba4d145f4047
+    new: fe87b8dc67f1b2c64e76a66e78468c533d3c44ca
     log: |
-         9ef7dacd44216bf5ea05c8aef49eba4d145f4047 hwmon: (pmbus) Fix passing events to regulator core
+         fe87b8dc67f1b2c64e76a66e78468c533d3c44ca hwmon: (aspeed-g6-pwm-tach) Guard fan RPM calculation against divide-by-zero
          
