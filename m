@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5764779914086132524=="
+Content-Type: multipart/mixed; boundary="===============3204364263626090734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 29 Jun 2026 04:41:16 -0000
-Message-Id: <178270807646.409239.6410128448233232752@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 04:41:36 -0000
+Message-Id: <178270809670.409500.6834092518665856819@gitolite.kernel.org>
 
---===============5764779914086132524==
+--===============3204364263626090734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/master
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/sunxi/for-next
+    old: 2ff39750d1a8ceec9c22ac2d0b07058c13ddc10d
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-6de23f81a5e0-dc59e4fea9d8.txt
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
-  - ref: refs/tags/v7.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
-  - ref: refs/tags/v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
-  - ref: refs/tags/v7.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+    log: revlist-2ff39750d1a8-dc59e4fea9d8.txt
 
---===============5764779914086132524==
+--===============3204364263626090734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-2ff39750d1a8-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1075,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5764779914086132524==--
+--===============3204364263626090734==--
