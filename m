@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4496917465938300336=="
+Content-Type: multipart/mixed; boundary="===============2855714142807285916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 29 Jun 2026 09:20:32 -0000
-Message-Id: <178272483292.665772.5397904691511511883@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 09:20:36 -0000
+Message-Id: <178272483697.665863.2497517150780036261@gitolite.kernel.org>
 
---===============4496917465938300336==
+--===============2855714142807285916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
-    old: e11560b050ce867bd7d3ccea138231db54e2250a
+  - ref: refs/heads/next/defconfig
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-e11560b050ce-dc59e4fea9d8.txt
+    log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============4496917465938300336==
+--===============2855714142807285916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782724830 +0200
+pusher krzk@kernel.org 1782724834 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1782724830-4867c3afb36eac296c3e81b66c00c67f16e23357
+nonce 1782724834-338b9ccf7b51ee5f7ab89941bf66214ef2858af8
 
-e11560b050ce867bd7d3ccea138231db54e2250a dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/next/clk
+254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/next/defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCON4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD134jD/43Py3ckcohM7z3nMslIbmNEiqskRwhZf10
-w5TaoWCss4EBIt+PU8bRljQnT4UjtTgxjF+mwGKM9fACf2lGKQzme0RWspeSKtwz
-xiCsViiRZQzHWiWXo1rt7Bos7kGwkXTT6/HCKEjWmmlYgdhElzuTGFF6/UFVLIOe
-bIugWmqWv5TfaNSmDfk2ypKbQoiYNLsFw+k45XztTYtx4AJoQgyb5JIYM2i0ZZ13
-p942uKD2Teo8f8J8FAjMalELCMwjv5OkdAo/GYwwExFDnDAEwclAOT7iKqWhrawG
-6zCriAC+dGV+FIldVJQBpZHj8IdeqTonksh6wSoJHg+K8Y+2PMlM8vbe0KPD4IwR
-mcZCbhmZ83pMUuH1schYEETTd9eP/xXGDZIWXvyHEi3uMhCDs5H0zbsGrP4AP1Fc
-i8nKqwhO3pd1PwK5zxpMmsXD6DMy+Z6ITXIVAl8z6roTN+cHTAc4SdJv4TlJgJBq
-4q0HPIOttbCKRd+n00YUtQ2572ZmWK+WNbvQrhDbYYbrcnljarowMm6VQElNYZQ6
-7SwXWtX92dYpu+1sMuHEvw086Wmna4BT5SAGrXO9JOZ3qTDt+Gc+W3CwTMQyYIfd
-3StUhTX9IsDYccdpoByMtAOaH/jV4jWGE3+SwxRBdnVbD9PTBQuq6VcJv4jjSRkn
-nrF4G2sFWA==
-=bhBC
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOOIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13B3D/wLtgIj6j7kSqKzx8myeVHzIekxNzLmf2HO
+buSIOhmZIth+ynCwW1SX+617sEzNRTND68WdXeo0UE9mcyVCJGZm4V7xoZscociY
+6pmVxTSSwVmJYvg2DwB7e0LPcDKxkNtzlf0JasPfLuYeXhrKELN1ydjkq7uWwS1C
+CZohtJXujy4TCz4IzKtsTJw+N4vbRO/Gk7WtXH7rflhLh6BzaaMav70vZ5pgESEp
+qG8z83nk6VonQa3k0CvyFf326X5gB4ynDRVv9jLIS7xzcfJKQ5AbgoZEEWZOAFzA
+i7lq/ITsqPif6bmFhGWja4cuExFo2zebT7LiW9xJnBLCZL3tLTEPyI7adf4YA28S
+LqAwwIX4yVSyuS5Jn3ZgWXGWKnJCS51HaQ3fGNSimp/5W73zxR3oINkpWdtcFZga
+3nxehveMAPxBYnE5gbYPBHrPiOmAhs04V/4rrvCT0XLRT9y1KYzR7LikLmqNC3Sh
+kjttzRK6MVrLsDjDFxiA5rJEEBJB7yBMommQ3EAnYZ5Ys8ClhZLkambxWN1Evp8u
+/i5aAhFzC283ky2WN18k/rVECaazlVCxC4c4Gwrb+2gcucmtTnYlNtGGd/eG0Z6D
+1nLBTznTWeIo9IK0iygkhCez2UPXjr+QfLgYaZCuHsbdq3J960+KCUUSvC9t0MNh
+SqA7ZQ9Gqg==
+=P5IE
 -----END PGP SIGNATURE-----
 
---===============4496917465938300336==
+--===============2855714142807285916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e11560b050ce-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1082,4 +1082,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============4496917465938300336==--
+--===============2855714142807285916==--
