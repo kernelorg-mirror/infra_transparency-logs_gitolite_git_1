@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Mon, 29 Jun 2026 19:31:28 -0000
-Message-Id: <178276148823.1221306.13286521428581956872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 29 Jun 2026 19:32:16 -0000
+Message-Id: <178276153693.1221802.9560045971305417222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: aschofie
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/tags/v85
-    old: 0000000000000000000000000000000000000000
-    new: b30f916a33deb70b7bb6f0409e34a24bea4402dd
+  - ref: refs/heads/master
+    old: a2c7bc03b75969f784d1ea1feacc78773063025c
+    new: 220f102c8db9888bd113d0d53cd246ece3012696
+    log: |
+         220f102c8db9888bd113d0d53cd246ece3012696 profiles/midi: Fix zero timestampHigh
+         
