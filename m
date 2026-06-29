@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0429148040844411046=="
+Content-Type: multipart/mixed; boundary="===============8499226383244343738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Mon, 29 Jun 2026 09:01:30 -0000
-Message-Id: <178272369067.651559.7518003431192322745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 29 Jun 2026 09:03:56 -0000
+Message-Id: <178272383615.652448.4436142192728958815@gitolite.kernel.org>
 
---===============0429148040844411046==
+--===============8499226383244343738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 708b369bdf8f4f9b2824b9daa54a11df253b7b5b
     log: revlist-ec7424231d53-708b369bdf8f.txt
 
---===============0429148040844411046==
+--===============8499226383244343738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a4080cef33fd7a83fbef816fe4bd0fd807a29196 xfs_scrub: don't leak the autofsck fspr
 157d76940c3cc0b72effb21c31e9c0b372fa325d xfs_scrub: warn about difficult rtgroup repairs
 708b369bdf8f4f9b2824b9daa54a11df253b7b5b mkfs: remove duplicate include of convert.h
 
---===============0429148040844411046==--
+--===============8499226383244343738==--
