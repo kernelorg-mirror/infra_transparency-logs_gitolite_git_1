@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6354925666603056959=="
+Content-Type: multipart/mixed; boundary="===============1729062835271907305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 29 Jun 2026 10:47:50 -0000
-Message-Id: <178273007007.810048.12318956579303871585@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 10:48:06 -0000
+Message-Id: <178273008605.810366.7798323296530899552@gitolite.kernel.org>
 
---===============6354925666603056959==
+--===============1729062835271907305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ea9c52e91213d5427c6a2e90cd41bf912fd1ea36
-    new: 8f78ec6a11f9de7d42b012c966ed5e2e4406305a
-    log: revlist-ea9c52e91213-8f78ec6a11f9.txt
+    old: 8f78ec6a11f9de7d42b012c966ed5e2e4406305a
+    new: 536fe6e17ef311bb41e18dfbc991dd1bd586f2c0
+    log: |
+         486dc521b6695f75671e544688290c5e67b711b8 Merge branch into tip/master: 'x86/urgent'
+         536fe6e17ef311bb41e18dfbc991dd1bd586f2c0 Merge branch into tip/master: 'x86/cleanups'
+         
+  - ref: refs/heads/tip/urgent
+    old: e987d305087313dbf01de07cb9498c292a1941fe
+    new: 486dc521b6695f75671e544688290c5e67b711b8
+    log: revlist-e987d3050873-486dc521b669.txt
+  - ref: refs/tags/v7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
 
---===============6354925666603056959==
+--===============1729062835271907305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea9c52e91213-8f78ec6a11f9.txt
+Content-Disposition: attachment; filename=revlist-e987d3050873-486dc521b669.txt
 
 57c10915f2c16c90e0d46ad00876bf39ece40fc2 Input: synaptics-rmi4 - bound the F3A keymap to the GPIO count
 d577e46785d45484b2ab7e7309c49b18764bf56c Input: synaptics-rmi4 - bound the F30 keymap to the GPIO/LED count
@@ -38,9 +48,6 @@ d86d4f8cbb5a55a3b9b86f7b5ab8c4cdda600a3f Input: gscps2 - advance receive buffer 
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-bed18bbbf9d9af55ccc01a6e2a8ec90d7e35cb11 x86/cfi: Add __init_or_module annotations for fineibt
-0cfdf974f133e0ff17ed80e7895adbe7889d9522 x86/cfi: Use symmetric SYM_START and SYM_END in __CFI_TYPE()
-7baa2a190a4f66aabb7a37c2cb88f0751819e13c Merge branch into tip/master: 'irq/msi'
-8f78ec6a11f9de7d42b012c966ed5e2e4406305a Merge branch into tip/master: 'x86/cleanups'
+486dc521b6695f75671e544688290c5e67b711b8 Merge branch into tip/master: 'x86/urgent'
 
---===============6354925666603056959==--
+--===============1729062835271907305==--
