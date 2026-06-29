@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 29 Jun 2026 19:21:47 -0000
-Message-Id: <178276090797.1213412.16801593387163322138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 29 Jun 2026 19:26:23 -0000
+Message-Id: <178276118379.1217035.17162833874184983312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/pending
-    old: 5cc7edd6abe910415f369a6839ce60b79a5d3619
-    new: e44a24dab04cc9f28610ff1d5da18b6cecb70358
+  - ref: refs/heads/master
+    old: eb9b35c8d13dffcaf4f6f4b5bee29a18c860ba04
+    new: a2c7bc03b75969f784d1ea1feacc78773063025c
     log: |
-         6aed3c2d3a0bab129cec7b6e6855f330761fea97 wifi: ath12k: Use runtime device count in dp stats display
-         b4b178942c7f33357aba116ddf96020b1a9d8a32 wifi: ath12k: Add timestamp to dp stats display
-         e44a24dab04cc9f28610ff1d5da18b6cecb70358 wifi: ath12k: Show per-radio center freq in dp stats
+         27a4c48b048113576925adad4477aee02c8119b6 bass: Fix possible crash on bass_update_bis_sync
+         2262e371564994b429b045cdd34f53eee0cd0c13 shared/bap: Check if stream is valid before attempting to release
+         c0fec57e9fa28692dc36e12616c5b74e4fa425ec shared/bap: Don't transition to IDLE inside bap_bcast_set_state
+         a9b6c8a2ea624a62101df16dde5735f4bde1631b shared/bap: Use queue_foreach to notify state changes
+         a2c7bc03b75969f784d1ea1feacc78773063025c shared/bap: Protect bap_stream_notify_connecting
          
