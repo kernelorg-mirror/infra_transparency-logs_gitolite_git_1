@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4842902864292650813=="
+Content-Type: multipart/mixed; boundary="===============8947498362304849984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 29 Jun 2026 09:50:26 -0000
-Message-Id: <178272662629.712632.1256281767468245077@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 09:50:40 -0000
+Message-Id: <178272664001.719869.1345434936951045809@gitolite.kernel.org>
 
---===============4842902864292650813==
+--===============8947498362304849984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: e690592f98c81416c5be5ce65828aa4665abc302
+  - ref: refs/heads/usb-linus
+    old: 96d47e40bf9db4a9efd5c8fb53287a508d165f14
     new: 83a3dfc018943b05b6daf3a6f891833e1aabfa1f
-    log: revlist-e690592f98c8-83a3dfc01894.txt
+    log: revlist-96d47e40bf9d-83a3dfc01894.txt
 
---===============4842902864292650813==
+--===============8947498362304849984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e690592f98c8-83a3dfc01894.txt
+Content-Disposition: attachment; filename=revlist-96d47e40bf9d-83a3dfc01894.txt
 
 a04c8472b0bc99963283e379f4ca2c775be4949b Merge tag 'core-rseq-2026-06-13' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
 13e1a6d6a17eb4bca350e5bf59a89a3056c834ca Merge tag 'irq-core-2026-06-13' of gitolite.kernel.org:pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ ab9de95c9cf952332ab79453b4b5d1bfca8e514f Merge tag 'rust-7.2-2' of git://git.ker
 5c1ea24b53bf3bfb859f0a05573997487975da23 USB: serial: digi_acceleport: fix hard lockup on disconnect
 83a3dfc018943b05b6daf3a6f891833e1aabfa1f USB: serial: digi_acceleport: fix broken rx after throttle
 
---===============4842902864292650813==--
+--===============8947498362304849984==--
