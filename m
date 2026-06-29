@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc-tools
-Date: Mon, 29 Jun 2026 14:09:27 -0000
-Message-Id: <178274216766.966025.6311562317666727567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Mon, 29 Jun 2026 14:10:39 -0000
+Message-Id: <178274223998.968824.9326323025616117457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc-tools
-user: abelloni
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/master
-    old: a595ea16a104b8da26dd0e3710db66cc11af4c08
-    new: 91e5d9bfc6c0fcaaa39641552ae1d69ed39c34c1
+  - ref: refs/heads/cf-serial
+    old: fda712c25a3b0799050f2e088fef85f99ce5cabd
+    new: 1b07e04320269aa420beed3b4b4327eec044921e
     log: |
-         91e5d9bfc6c0fcaaa39641552ae1d69ed39c34c1 install: allow installing in a worktree
+         09be488f2dc83be713c75c4abceea10a6ec9988f dt-bindings: serial: create binding for mcf-uart
+         1b07e04320269aa420beed3b4b4327eec044921e serial: mcf: add devicetree support
          
