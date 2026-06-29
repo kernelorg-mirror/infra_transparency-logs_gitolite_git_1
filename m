@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3242723271824524168=="
+Content-Type: multipart/mixed; boundary="===============5252181116161445147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 29 Jun 2026 09:36:41 -0000
-Message-Id: <178272580113.685391.10907361484589681820@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 09:36:47 -0000
+Message-Id: <178272580728.685616.13123602618768339309@gitolite.kernel.org>
 
---===============3242723271824524168==
+--===============5252181116161445147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/smccc/fixes
+  - ref: refs/heads/for-next/smccc/updates
     old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-8cd9520d35a6-dc59e4fea9d8.txt
 
---===============3242723271824524168==
+--===============5252181116161445147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============3242723271824524168==--
+--===============5252181116161445147==--
