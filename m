@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5648282489801814713=="
+Content-Type: multipart/mixed; boundary="===============6171054625635219025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 29 Jun 2026 09:37:02 -0000
-Message-Id: <178272582266.686136.10436666934571518689@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 09:37:13 -0000
+Message-Id: <178272583308.686500.15133666123498204008@gitolite.kernel.org>
 
---===============5648282489801814713==
+--===============6171054625635219025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/juno/fixes
-    old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
+  - ref: refs/heads/for-next/ffa/updates
+    old: 18706ea68fc4344049bf693b702cb311a7c27ca7
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-8cd9520d35a6-dc59e4fea9d8.txt
+    log: revlist-18706ea68fc4-dc59e4fea9d8.txt
 
---===============5648282489801814713==
+--===============6171054625635219025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cd9520d35a6-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-18706ea68fc4-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5648282489801814713==--
+--===============6171054625635219025==--
