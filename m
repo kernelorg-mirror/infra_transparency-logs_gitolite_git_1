@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3362049152948406646=="
+Content-Type: multipart/mixed; boundary="===============8186327248318917747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 29 Jun 2026 16:00:46 -0000
-Message-Id: <178274884609.1058490.349268183936778523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 29 Jun 2026 16:00:49 -0000
+Message-Id: <178274884900.1058575.12507734665064839808@gitolite.kernel.org>
 
---===============3362049152948406646==
+--===============8186327248318917747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/fixes
-    old: 465b05bae5ac553c13315681c1490dc565337771
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-465b05bae5ac-dc59e4fea9d8.txt
+  - ref: refs/heads/next
+    old: f72af41a43e16276c46d44cf8a833cc0f9ba9d48
+    new: a667f1eb71a77859af6cedaadfab528256a99ca7
+    log: revlist-f72af41a43e1-a667f1eb71a7.txt
 
---===============3362049152948406646==
+--===============8186327248318917747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-465b05bae5ac-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-f72af41a43e1-a667f1eb71a7.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
@@ -1050,5 +1047,8 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+8a13db9f899d149c3aab24abcb668121cfda5a4f cxl/mbox: Clamp mailbox output allocation to the payload size
+fe7883d0e99a5558050c43bbfe29e2b44977f97f cxl: fix mailbox return code description typo
+a667f1eb71a77859af6cedaadfab528256a99ca7 cxl: docs/linux/dax-driver - fix typos
 
---===============3362049152948406646==--
+--===============8186327248318917747==--
