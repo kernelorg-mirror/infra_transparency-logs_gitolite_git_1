@@ -1,31 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============1444563600544008199=="
+Content-Type: multipart/mixed; boundary="===============5732748331109837351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 29 Jun 2026 08:46:22 -0000
-Message-Id: <178272278239.639806.15364403427047892604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
+Date: Mon, 29 Jun 2026 08:51:51 -0000
+Message-Id: <178272311144.643792.13192605110442928171@gitolite.kernel.org>
 
---===============1444563600544008199==
+--===============5732748331109837351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jenswi/linux-tee
+user: jenswi
 changes:
-  - ref: refs/heads/kvm-arm64/nv3
-    old: e75f7d70b29890f9a1049913bfd88d5d47598b30
-    new: 4dc57eea40cbb3d9c2fc9e48d005f8899e8004e4
-    log: revlist-e75f7d70b298-4dc57eea40cb.txt
+  - ref: refs/heads/next
+    old: 4d88259524b0605fe09e51be5d992e156e9cd221
+    new: a3067938fd192b116b6dfb325b654300a6d1b461
+    log: revlist-4d88259524b0-a3067938fd19.txt
 
---===============1444563600544008199==
+--===============5732748331109837351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e75f7d70b298-4dc57eea40cb.txt
+Content-Disposition: attachment; filename=revlist-4d88259524b0-a3067938fd19.txt
 
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
+c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
+808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
+ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
+8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
+32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
+85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
+b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
+29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
+ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
+c7fdbc2c2f26b9c397eb3aad2fdc54dbd85f68e1 selftests/uevent: increase __UEVENT_BUFFER_SIZE to avoid ENOBUFS on busy systems
+5108f4765637bd0ac5ea2897dc7d537486a09885 fat: reject BPB volumes whose data area starts beyond total sectors
+452a8467be8143747292218212671deeb186d2ae ocfs2: fix UBSAN array-index-out-of-bounds in ocfs2_sum_rightmost_rec
+07669b0abe4ce76c716e8437e198e1337cf43d1f treewide: fix transposed "sign" typos and update spelling.txt
+22920541c35a9f23f219038ba5874c843a7c4419 ocfs2: avoid moving extents to occupied clusters
+c1fff9794a165b6b64ae4ad9b54c00bc94e7daed lib: interval_tree_test: validate benchmark parameters
+f9ab30c96b0f00c20c6dac93681bdae3a033d229 ocfs2: fix NULL h_transaction deref in ocfs2_assure_trans_credits
+ff6f26c58421614b02694ac9d219ac61d924bc68 ocfs2: fix circular locking dependency in ocfs2_dio_end_io_write
+e586644d0a89b6c63b77ae717f19d70181faee76 net: pse-pd: set user byte command SUB2 field
+8165f7ff57d9667d2bb477ef6af83ede7fed4ad7 net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink
+8211a26324667980a463c069469a818e71207e02 net: ipip: require CAP_NET_ADMIN in the device netns for changelink
+95cceadbfd52d7239bd730afdda0655287d77425 net: ip_vti: require CAP_NET_ADMIN in the device netns for changelink
+2496fa0b7d180b3ad356b514e7ff93bb14e6140a net: ip6_tunnel: require CAP_NET_ADMIN in the device netns for changelink
+f00a50876d2818bd6dc86fa98b3ef360884c53c8 net: ip6_gre: require CAP_NET_ADMIN in the device netns for changelink
+e2ac3b242c37dff323a964962e43854f4b1a2b79 net: ip6_vti: require CAP_NET_ADMIN in the device netns for changelink
+095515d89b19b6cc19dfcdc846f97403ed1ebce3 xfrm: xfrm_interface: require CAP_NET_ADMIN in the device netns for changelink
+0e80602c026b98ec9f775f8a6a4eaea577733d6b Merge branch 'net-require-cap_net_admin-in-the-device-netns-for-tunnel-changelink'
+e4b4d8410c7ccea25f4b332a077c6b9f5d263228 net: ethernet: mtk_eth_soc: fix supported_interface set after phylink_create
+1f24c0d01db214c9e661915e9972404c96ca73c0 netdev-genl: report NAPI thread PID in the caller's pid namespace
+65f26d15f7db80b0a3f995c518cdddb50e6dea99 selftests/ftrace: Fix trace_marker_raw test on 64K page kernels
+a056db30de92945ff8ee6033096678bfbae878e3 octeontx2-pf: Fix leak of SQ timestamp buffer on teardown
+4f6ac65e81625165257131ec2574bb6bb09bd7d8 octeontx2-af: npc: Log successful MCAM drop-on-non-hit install at debug level
+1c4b39746c4ba32370e9a60801e96181bc1260a3 net: ehea: unwind probe_port sysfs file on failure
+efb8763d7bbb40cff4cc55a6b62c3095a038149c net: ipv4: bound TCP reordering sysctl writes and MTU probe sizes
+b50fa1e07cf875609b9d34c5c8b32dcf11b8b603 net/mlx5: Remove broken and unused mlx5_query_mtppse()
+aedd02af1f8b0bceb7f42f5a21c41634ca9ed390 net: psample: fix info leak in PSAMPLE_ATTR_DATA
+7d8297e26b4e20b5d1c3c3fe51fe81a1c7fbc823 sctp: hold socket lock when dumping endpoints in sctp_diag
+286533cb14a3c8a8bd39ff64ea2fc8e1aa0f638b gpio: sch: use raw_spinlock_t in the irq startup path
+90f0109019e6817eb40a486671b7722d1544ae29 gpio: eic-sprd: use raw_spinlock_t in the irq startup path
+28c5d230980bdd8cb18c073225296c7747995935 erofs: add folio order to trace_erofs_read_folio
+30222639602c89ddc52208ac6c9d7baed376c84a mm/slab: remove __GFP_NO_OBJ_EXT usage from alloc_slab_obj_exts()
 71553a60675994a79575567f6d56e214f9030dc4 mm/slab: replace __GFP_NO_OBJ_EXT with SLAB_ALLOC_NO_RECURSE for sheaves
 6808645b71f02752852731764961a16f728772a6 mm/slab: add a node-track-caller variant for kmem buckets allocation
 7b5f5865fb11e60edd03c5e063e2d228b7062317 slab: recognize @GFP parameter as optional in kernel-doc
@@ -416,22 +464,10 @@ b70f007a9fc665ee988683fd5085ab34e2c10ad3 ALSA: hda/realtek: Add quirk for Lenovo
 b771974988ec7ce077a7246fa0fa588c246fe581 drm/sysfb: Avoid possible truncation with calculating visible size
 7bab0f09d753f098977bbba3955d694c2e2c25da drm/sysfb: Return errno code from drm_sysfb_get_visible_size()
 9206b22fb959f4a9cf1921f34aed0df1dcb1ab04 drm/sysfb: Avoid truncating maximum stride
-2684e02bac41c5220f6c1ab2bdcc957b71812977 KVM: arm64: nv: Respect read-only PFN when mapping L1 VNCR
-9f3e83345a56280efffe235c65593c7e544c0fcc KVM: arm64: nv: Inject SEA if kvm_translate_vncr() can't resolve PFN
-bb645aa0a4caeaf7f9cd32e9a948594d434c1a8f KVM: arm64: nv: Re-translate VNCR before injecting abort
-4bd7dbe0b2243e6aa735cae4d5e1ff988b30b2a6 KVM: arm64: nv: Inject SEA if guest VNCR isn't normal memory
-265b58aba51b6aaaad81678fbc57fcdb2d4ed480 KVM: arm64: nv: Mark VM as bugged for unexpected VNCR abort
-daa71eca24fdfb43029830bd57ddaddf70c59b23 KVM: arm64: Set ESR_ELx.IL for injected undefined exceptions at EL2
-1d695dc827957e9570d1b56abac1250d2d13bf0c KVM: arm64: Unconditionally set IL for injected undefined exceptions
-add40af98b34764ff5603dce297160fde12d784c KVM: arm64: Unconditionally set IL for injected abort exceptions
-a52d6d68ad30374dd794bff300d8538e35ee49a8 KVM: arm64: Set IL for injected FPAC exceptions during ERET emulation
-7514f1785d526207af8512cc6ccb1c35c5c61767 KVM: arm64: Set IL for emulated SError injection
-a69412287a33c931dca9e48d30c0dbf8cde0ffe6 KVM: arm64: Set IL for nested SError injection
-cbe2278aa3dd6832c544782c6cfed1fbc1f71a42 KVM: arm64: Set IL in fake ESR for pKVM memory sharing exit
-d098bb75d14fde2f12155f1a95ec0168160867ce KVM: arm64: account pKVM reclaim against the VM mm
 803d09a554055aba160a62abd1e4b1260b899dc1 erofs: handle 48-bit blocks_hi for compressed inodes
 493765b8e922a506e09e22e80b6cc9ff05e8295b ALSA: hda/realtek: Fix noisy mic for Clevo V6xxAW
 269f2b43fae692d1f3988c9f888a6301aa537b82 time: Fix off-by-one in compat settimeofday() usec validation
+314c243b201b678fa89226b1eaea51a71340454e MAINTAINERS: .mailmap: update Jens Wiklander's email address
 b81dde13cc163450dcb402dcc915ef13ba241e01 debugobjects: Plug race against a concurrent OOM disable
 2580f89860460f38bcc13fce75db8626d555c0cd Merge tag 's390-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 6e869de3a1b9ef9f096223e0e7f30c727de4f6bc Merge tag 'hyperv-next-signed-20260621' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
@@ -1011,44 +1047,8 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-fbc30fe2aaf53a0261412880d5a292ffefa8f999 Merge branch 'kvmarm-master/fixes'
-d8b385308fe85cf78a947128c71e5330f5b57a6e arm64: sysreg: Emit RESx/UNKN values for Mapping definitions
-2404800b7815845fada9e9602ee39c3c4f604445 arm64: Update ID_AA64MMFR4_EL1 description to 2026-03 JSON release
-b3cac91e978736d095c0522ce81416b20908afec KVM: arm64: Merge guest's HCRX_EL2 using NV_HCRX_GUEST_EXCLUDE
-75828c491854c743b2b681722f4569cd6e3a58b1 KVM: arm64: Drop __HCRX_EL2_* masks
-4283d20159735a3722273d0896b1f30c32155d05 KVM: arm64: Plumb HCRX_EL2.SRMASKEn in HCRX_EL2 sanitisation
-3638761c6aeae0c0998cc2b6b5db07b08148be9c KVM: arm64: Classify CPTR_EL2 as a SR_LOC_SPECIAL register
-6371d0518b4d50af383d34bdc44c1b850e661fe9 KVM: arm64: Don't evaluate HCR_EL2.NV on ERET fast path
-5a8a3178eeaab9aac25054c6df0bc346a5af0a92 arm64: Add ARM64_HAS_NV2P1 capability
-eb6851497c108149bb952534d6341cbbddb8977e KVM: arm64: Relax CPTR_EL2 handling when FEAT_NV2p1 is present
-e696d483777cc299a5ba10c7175096f4c8641921 KVM: arm64: Relax CNTHCTL_EL2 handling when FEAT_NV2p1 is present
-0b7d6dcf325d137001158d4e450ce0f9d7c124f7 KVM: arm64: Expose FEAT_NV2p1 to NV guests
-efbc37362c4ec5030fbd8ac833a4f965f611c851 arm64: Add FEAT_NV2p1 detection
-e95e45025d79355fbaaef293a89b2c8d51f81a12 arm64: sysreg: Add NVHCR_EL2 description as a mirror of HCR_EL2
-83e683bca0ab116784f62a9ad5eb3fc1c649352e arm64: sysreg: Add HCRX_EL2 bits related to FEAT_NV3
-e2b858d3b80c2c561207c7e2bd77cf5afa07767d arm64: Add ARM64_HAS_NV3 capability
-426177d21cc5dfb8f9c6156f117d6cc8bfd9e5e8 KVM: arm64: Split NV-specific exit fixups from the non-NV handling
-4b8f89f40657deb7e18e9942d96596e2da83f4f7 KVM: arm64: Add NV3 control bits to HCRX_EL2 sanitisation
-07669c965334cb1c61e85c8c76ea3fdb9c6b64ec KVM: arm64: Add kvm_has_nv{2,3}() predicates
-555e207df5b50c2f728d0ae3213d7cc8f8b036b6 KVM: arm64: Make HCR_EL2 a non-VNCR register
-57cda30c135a63d92480e122e117ed1eb26cc639 KVM: arm64: Add sanitisation for NVHCR_EL2
-e6605431e9a31ffec7b2da3cd37b6f81f09e9cf3 KVM: arm64: Add NVHCR_EL2 handling to the sysreg array
-fd773e6d60e9dd66643ea1f138ef785745f5f765 KVM: arm64: Add routing for NVHCR_EL2 trap
-8680d205c6ca57fc737a33f58c46ceae8f0d8ecf KVM: arm64: Engage NV3 ERET trap elision
-1847511cbbf4846c4f62fed17df7598022e30f88 KVM: arm64: Engage NV3 TLBI trap elision for non-NV2 nested guests
-6135c3554f4aefa7c54a647d201e7a1db6576a28 KVM: arm64: Add FEAT_NV3 detection
-e6c95ee45b4558018308540eb511dcd9b85f650b KVM: arm64: Expose FEAT_NV3 to guests
-928208a4be0d7dcede517383870fa59f9ea216bf arm64: Add override for ID_AA64MMFR4_EL1.NV_frac
-e6cc9b7f6b552e51c8c4ab09004de548e2c0820c arm64: Add fictional FEAT_NVTGE to ID_AA64MMFR0_EL1
-a389fb65f345b85762376b7841cbded45c7e2988 KVM: arm64: Relax HCRX_EL2.{NVTGE,NVnTTLB*} to be stateful when FEAT_NVTGE exists
-73eb0f6d788470b09aa41787b2c25e4bd020e058 KVM: arm64: Implement runtime handling of HCRX_EL2.NVTGE==1
-c844121d451c20f894dff49122221de6bdfd57db KVM: arm64: Implement runtime handling of HCRX_EL2.NVnTTLB*==1
-bfe4c5715893fcd3943d995d6c07186ff477bec3 arm64: Add HAS_NVTGE capability
-fefdaa83879cbec1b0e7a42c39a532a6c6858b2b KVM: arm64: Advertise FEAT_NVTGE to NV guests
-51000f90857909f8a03072c7f5a02a25299ce728 KVM: arm64: Allow NVTGE to be forced on
-26be6f43e67f75bc9a7b37c999d664562f129d82 KVM: arm64: Parse kvm-arm.mode=nested,nvtge
-71eeea844e5cb0eeec6d0ae08bc6907e111d5d87 KVM: arm64: Engage FEAT_NVTGE when detected
-a365fdc21953334c79f23c99c21b0c94c3c210bf KVM: arm64: Output the NV variant in the kernel log
-4dc57eea40cbb3d9c2fc9e48d005f8899e8004e4 arm64: Detect fictional FEAT_NVTGE at boot time
+d92f87f3e7c79f58cc6d6edad4bf1c96f795aa7b tee: qcomtee: Drop unused assignment of platform_device_id driver data
+650c88738ae8976f46ba71b24dd8aa311adc6fde optee: ffa: Add NULL check in optee_ffa_lend_protmem
+a3067938fd192b116b6dfb325b654300a6d1b461 Merge branches 'qcomtee_for_v7.3', 'optee_fix_for_v7.2' and 'jw-korg' into next
 
---===============1444563600544008199==--
+--===============5732748331109837351==--
