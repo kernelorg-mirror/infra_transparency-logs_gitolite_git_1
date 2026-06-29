@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8494364934781962318=="
+Content-Type: multipart/mixed; boundary="===============6373306654125592690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 29 Jun 2026 06:08:15 -0000
-Message-Id: <178271329563.499503.18060383753784735178@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 06:08:22 -0000
+Message-Id: <178271330234.499713.7681664750975182488@gitolite.kernel.org>
 
---===============8494364934781962318==
+--===============6373306654125592690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: f31c00c377ccf07c85442712f7c940a855cb3371
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-f31c00c377cc-dc59e4fea9d8.txt
 
---===============8494364934781962318==
+--===============6373306654125592690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============8494364934781962318==--
+--===============6373306654125592690==--
