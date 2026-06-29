@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 29 Jun 2026 04:56:31 -0000
-Message-Id: <178270899110.421150.17233636069333898802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 29 Jun 2026 05:04:33 -0000
+Message-Id: <178270947399.425584.9602636960027067291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/experimental
-    old: f8ecd17d1e0f9daf0dd9bf41250daeb2cc86264a
-    new: d7b18c9fb9cb23ae4dfbbab0d684c809e6c53a10
+  - ref: refs/heads/master
+    old: 658d7d8ad2367a0c894b1cab6041768bf6260610
+    new: 541caf111eb7f013ef5840f90129d9d715757f74
     log: |
-         d7b18c9fb9cb23ae4dfbbab0d684c809e6c53a10 erofs-utils: lib: switch ZSTD decompression to streaming API
+         4abf89f013b2d4336b533ad66be859c160478946 foo
+         940bd2fcba89e00f3975ca723ed76d2a824ebd91 foo
+         541caf111eb7f013ef5840f90129d9d715757f74 foo
          
