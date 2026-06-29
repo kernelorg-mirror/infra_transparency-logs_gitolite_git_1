@@ -1,31 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2358855925707119952=="
+Content-Type: multipart/mixed; boundary="===============2591778920095840498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 29 Jun 2026 20:08:33 -0000
-Message-Id: <178276371361.1248285.13876040247317670524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Mon, 29 Jun 2026 20:08:40 -0000
+Message-Id: <178276372007.1248519.15344377085385721933@gitolite.kernel.org>
 
---===============2358855925707119952==
+--===============2591778920095840498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 69679101cc8935b9f4032678c12612ea584a573a
-    new: a3122a19f00b75a8b98b96efb4e25e3e0bfb7365
-    log: revlist-69679101cc89-a3122a19f00b.txt
+    old: 14b60ee1e614c4d2c0cb335b1393f2586510fcc2
+    new: b46776578332dba4c67ed5dc589cc5d8bde966aa
+    log: revlist-14b60ee1e614-b46776578332.txt
 
---===============2358855925707119952==
+--===============2591778920095840498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69679101cc89-a3122a19f00b.txt
+Content-Disposition: attachment; filename=revlist-14b60ee1e614-b46776578332.txt
 
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
+c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
+808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
 ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
 8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
 32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
@@ -1036,19 +1049,6 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-c33862c0a3a9a0c47d4bbaab870a03a0229fa526 dt-bindings: nvmem: qfprom: Add glymur compatible
-512946cf0f32e3c25e973806b013ea1eb87e3a3a nvmem: rockchip-otp: alloc clks with main struct
-7106dcb57aa1bcdd0cc88876275166e7e958a4f1 nvmem: core: Default to read-only if wp-gpios present
-c896d1c34f2bbb392009abd0f692dca5d0f6be62 dt-bindings: nvmem: qfprom: qcom: Add Hawi compatible
-e8b84b3fbe1e1d6d75380dceafb486861796083a nvmem: nintendo-otp: Use of_device_get_match_data()
-9f902e68cfe33cca93b22f0a73e1052639d3b8f7 dt-bindings: nvmem: qfprom: Add Milos compatible
-5a2bba5b742278866ac8afff7766f1a982b114ba dt-bindings: nvmem: lan9662-otpc: Add LAN969x series
-7592c50152619a7e3f7db4778d7c49f3c6b9f2db nvmem: lan9662-otp: add support for LAN969x
-ac0a5d17aa3ccac3d10a0c8d1e70ae0b9fdf204a dt-bindings: nvmem: qcom,qfprom: Add Shikra compatible
-68628e84bc61e020624d2ca05e43d918ff0c5c74 dt-bindings: nvmem: airoha: add SMC eFuses schema
-b13e7886c2e1648b7afb792a0b3ca57fc6fa8bf1 nvmem: airoha: Add support for SMC eFUSE
-18f2b79951a9ec6b022503b50c437fd4d44f3311 nvmem: qcom: Unify user-visible "Qualcomm" name
-d5bd22d9d203260c0adc8cde137e63be7e3b0927 nvmem: cleanup dead code in Kconfig
-a3122a19f00b75a8b98b96efb4e25e3e0bfb7365 nvmem: layouts: u-boot-env: check earlier for ethaddr length
+b46776578332dba4c67ed5dc589cc5d8bde966aa misc: fastrpc: Move prints outside spinlock in fastrpc_cb_probe
 
---===============2358855925707119952==--
+--===============2591778920095840498==--
