@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6135687331911529378=="
+Content-Type: multipart/mixed; boundary="===============5566798668253436487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 29 Jun 2026 09:20:47 -0000
-Message-Id: <178272484757.667207.2069545119720941478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 29 Jun 2026 09:20:48 -0000
+Message-Id: <178272484847.667297.9823495842390394515@gitolite.kernel.org>
 
---===============6135687331911529378==
+--===============5566798668253436487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: b97f7dceb8adb2b05d556469afc6fb54947ef61c
+  - ref: refs/heads/next/dt
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-b97f7dceb8ad-dc59e4fea9d8.txt
+    log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============6135687331911529378==
+--===============5566798668253436487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782724845 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1782724845-cd856463ffc748114a49f416f1ee0db44650b652
+pusher krzk@kernel.org 1782724846 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1782724846-9d9537d5324c79b686fe6c819f51ff4950d5cc23
 
-b97f7dceb8adb2b05d556469afc6fb54947ef61c dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/for-next
+254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOO0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18kLD/oDHfKHXyIT72MtBkKG4VC87YcYok0ohDAV
-mjG6kvPa6j46mnZAyFh4ruUyi3IpYTI/hmnpcD8XfGfW8CBNdS4QlsSzrRipOef+
-GZvrr5REo9nZH5hwO4HyOFYQexAjjopuQ+guFmh0XxXBytVNpePMUith16oBErYx
-2GG6zlhPVtpcswX0K8TJhG703ezjJXDmsd/uTeXkOk/U1s3RbgbD3bZ9EwVzktDS
-WWUAsuP4oQkVwSfUcCWeQC8SjZxjKcl8XgqFkZLpl3E7b68eKaLP81e0dl+zpZmy
-JS30qh1dIyurTEOfwwgmFG2AFLk5p5h34hyd97weLpk0PdhzWfIgyQdoZIwrylfm
-ln08ekPSMK/ZSbfMXdqoHCYZtVLB7WghpvIHP7hETt2+dQXpR9AvHq7ZpiVOiiWQ
-AJknUIEbZDM47ESQH6kzrOiV09WTxabTwaS2/a0+X/vb0zwojp7hma8VbJRk07yE
-WwOhbT2J1mxdR+EMW/HP2YvBpmX2JTRTD6KdAlfVyeSuZ2LqSgo5K3Bt1CsJbjEc
-eJZKszInLKcSZXmMMQrfLR61dnYR9mt5oYtkUjWn7WsdX3SPH5+WcSXqNLachk78
-XpSYU7zzyY477+EZllgOR3GsrXATyQC8ZK05IFm/aYdTpvhvOw4mw8P7rEuOBVw7
-VYxHJ/NtRA==
-=ri1X
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOO4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xouD/kB7NysmL75WIZSPvms+D1disj+rd3IOYjM
+yuTD5AJthX+U7fl1mUj4E4xiFTBtxpxfsP2IiyZoQcKwFNXCWcyDsxxcS10bIYKe
+ieWd/jsB15xXYrxYC7PyJ/DSeFaDEXvYHO7zDTxdREVy6Jp7fh7YEdHYE9KjTGM6
+3VorX4SgzUTScn3CD2v6ktTOYdx3VL61Pue5ZdvIxfz/IlBHYMv67xaiCTeAnMY4
+1K0bWHQQj3ZOWoNMsWd/Bcxce90Qps9X5RIyVhfq3IcNq70nQrhweRbOTNOj0eR2
+8aWeYJk6zrRa38v21/egQXRXJmcVoZhEO6GtwIWdXf6lr8q+3Z0LyWZQHLAoPenO
+7IP4gLo9OKewGyIyld/n+xrpq1Pes3W/IJrd2gnY4qHh6hgaLpmIfjj7lGx4IxXK
+84ofxSdApdHDohjC5kdsHL5ICngdMmWEB3Wt+EU0TOY42ltfrL+FCD2O45yxw0CY
+rGNuRApxBLRE63qhHp9Z/O9oQTLPGtqThOyiVHTy8FmbNXTKaK2kCP4ju1+6oNSe
+pphsZnXWmKbzjTNM+0tqkNVMK2FhGPqmiQJRkl475sjq47ehOj4SdOf4OlEH/9i4
+LlzH/DPAYpnTFhRcDL0Oh6V6PzyInlUKpTPC5riSLfKSEvbbuN5OerUpHU/yhnK+
+Ou1+ULxO8A==
+=ykQq
 -----END PGP SIGNATURE-----
 
---===============6135687331911529378==
+--===============5566798668253436487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b97f7dceb8ad-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1082,4 +1082,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============6135687331911529378==--
+--===============5566798668253436487==--
