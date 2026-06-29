@@ -1,31 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5504039238600409053=="
+Content-Type: multipart/mixed; boundary="===============0478330821159521095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 29 Jun 2026 20:27:14 -0000
-Message-Id: <178276483443.1265135.14648099605148370672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Mon, 29 Jun 2026 20:27:26 -0000
+Message-Id: <178276484611.1265366.829787378782774517@gitolite.kernel.org>
 
---===============5504039238600409053==
+--===============0478330821159521095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/io_uring-io-slots
-    old: 1df7c6218b89284dc5234517cc2d0eae158726a2
-    new: cd2d712c91e6f7221a78aaaf51290d46405d4c99
-    log: revlist-1df7c6218b89-cd2d712c91e6.txt
+  - ref: refs/heads/imx/dt
+    old: 8772e1f64c7d69986821d71d8e58fd10594c9aa1
+    new: b9e9f549e9b65d85605fd3f7cb587d4df81e7d06
+    log: revlist-8772e1f64c7d-b9e9f549e9b6.txt
 
---===============5504039238600409053==
+--===============0478330821159521095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1df7c6218b89-cd2d712c91e6.txt
+Content-Disposition: attachment; filename=revlist-8772e1f64c7d-b9e9f549e9b6.txt
 
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
+c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
+808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
+ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
+8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
+32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
 85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
 b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
 29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
@@ -1033,22 +1049,6 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-d562af9aa873314b3c48de4586da832144c93373 io_uring: lift REQ_F_IOPOLL set into io_init_req()
-1bc28b879a2c5ae82bb6d88f8fb51a9aae78a342 io_uring: check def->plug separately
-5d85dc13b5abbfbb174df439e6294d50240d45aa io_uring/rsrc: factor out io_imu_offset_to_bvec() helper
-8697b727cf0435a3adab7a16e5a869733109ceb4 block: add submit_bio_noacct_fast() and BIO_REGISTERED
-391480d532d63c23d4303c3746ef0f6d8ac9b9d9 io_uring: add IORING_OP_SLOT_RW and wire up slot completion
-f8337b8b2b58ee30048660c38711be7f2bcc8324 io_uring: add registered IO slot infrastructure
-4069ca2cb7002b9bd87f1c4e92ad82259acf9cdb io_uring/slot: support partitions
-993188d6e34c0013c9341046290bb220684891d6 io_uring/slot: support concurrent IO via overflow bios
-f55e68d30306de7d2bdcb337edaf5c05455e2a3d io_uring/slot: add persistent DMA mapping for registered slots
-baaf3592a969f3d280b38ed653598dc47d86df75 io_uring/slot: share persistent DMA mapping across slots
-cd81e2b68a02afc5eb0dc27262ea567f3cc5ddc4 block: add bio_persistent_dma() helper
-9ad82c3a5df236ded2b8067b225e974a401417e2 block: add RQF_REGISTERED, mirror BIO_REGISTERED into the request
-85264a3311ddd6d243e5d4f043ce51c80957907b nvme-pci: add support for registered IO with persistent DMA mappings
-bc455134e383761eba2b5b9ab5bf549ae4269196 nvme-pci: use SGL fast path for any-size registered IO
-9ad3d5925a1af3efc8cd9b3269eb0994efce135c block: add ->persistent_dma_setup() hook to struct request_queue
-e9ce3f6c9a60d6762633fc1a8004d21a46cd7d99 io_uring/slot: add support for persistent driver DMA mappings
-cd2d712c91e6f7221a78aaaf51290d46405d4c99 nvme-pci: precompute persistent PRP list for registered slots
+b9e9f549e9b65d85605fd3f7cb587d4df81e7d06 ARM: dts: imx7d-pico: describe Bluetooth controller
 
---===============5504039238600409053==--
+--===============0478330821159521095==--
