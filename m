@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4460917454387395312=="
+Content-Type: multipart/mixed; boundary="===============4743130681173740174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 29 Jun 2026 10:23:55 -0000
-Message-Id: <178272863564.768828.15277274330988409727@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 10:24:20 -0000
+Message-Id: <178272866028.769196.10253208032550985778@gitolite.kernel.org>
 
---===============4460917454387395312==
+--===============4743130681173740174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 5346a27fed4d8f0d781b0035ab066f6684cc641e
+  - ref: refs/heads/next/dt
+    old: 718b15471c2b13a4830e80efbb489c2a849060d1
+    new: b78d749d4ba7c217d2be644619a79a72e1fd5dfd
     log: |
-         fa476d53edd24e8105faace04e881b9c4179738f soc: samsung: exynos-pmu: fix of_node refcount leak in exynos_get_pmu_regmap()
-         d3ebfcb66147497c1f6a4ceaed9a499cec2b3fe2 dt-bindings: soc: samsung: exynos-sysreg: Add hsi0 for ExynosAutov920
-         2c19e75101ee17059bf10101f4cf0157f61776a2 arm64: dts: exynosautov920: Add hsi0 syscon node for PCIe PHY
-         7b06ff772080919fdb194c95af6b1e3acb079b71 ARM: s3c: Replace __ASSEMBLY__ with __ASSEMBLER__ in header files
          b78d749d4ba7c217d2be644619a79a72e1fd5dfd ARM: dts: exynos: Add bluetooth support to manta
-         5346a27fed4d8f0d781b0035ab066f6684cc641e Merge branches 'next/drivers', 'next/dt', 'next/dt64' and 'next/soc' into for-next
          
 
---===============4460917454387395312==
+--===============4743130681173740174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782728634 +0200
+pusher krzk@kernel.org 1782728658 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1782728633-04279a1187edb2b6d6306d838168ec0cf3bd8208
+nonce 1782728658-c6f5402f0b35f22c83a202545d6e5de1b5d5faf5
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 5346a27fed4d8f0d781b0035ab066f6684cc641e refs/heads/for-next
+718b15471c2b13a4830e80efbb489c2a849060d1 b78d749d4ba7c217d2be644619a79a72e1fd5dfd refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCR7oQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xd1D/9OKDSuDRhE3ndi8mpWfm/2JKeKRrmSs9qf
-VbcZuSYXcHZWkREzBKsoW7kIwEoHnUmhu909IPMjtRGWz/8pQbflHSk4DmTGWUp3
-r/+69yh9hBbXIRTsn1wLdcUi6bASyw6sMgNLoOa0HThHPM8JQ8YmusrKIFSg5Ml5
-A8a7SI57tHCsdURr4iLRSL2oNylkl/kdHhP+StaL2xgsVq9eJpuJ0WfDyTcoxDf3
-DI07IVeL4i+MqcQcQgMBSRCjqQEdkhmHmlv33kVeZ8ojot6ooYgJFhdC6mJPFOxB
-8yjNryMVo1ryCRt+aSw4KhNO0I2YxdxB8yNk3jQdS6b5vCHmdnAsUTjLZDcdDLSw
-JkoZj2zjAOJTttRrlJyWtmSc1c2WgQZ+Sf7ti9h1A3Rgf6iNNQ+TG88tvI7E9UJ3
-DSmBVW66J1Ikrr6T8ITZMg+6NVonu05zEvkncVlOyw2+27lIRmd4eDRCHkpjKbGj
-k2ksEpHl8Gf/wYh0JGrKsY4snyVNJTy1rmMqInPPDFoExndeuWiK/HCCXWZk2Q2B
-4D4eCqdXur4vfnxZ2vGQZzMKfjlEKA+ziyDIiOUXWcCe7jKgzPaaB/tzQqW13RXH
-FSMFowEaOxwR4XXtzxNFGSaFwA8I1CWAvDSnxKtQrWzf/v0gpnfjzaCSQRzPijvp
-u8ZnqD4/Og==
-=1Thm
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCR9IQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10u2D/4hlk18fQdA/2PLSk38IBUKxe1LCuYerUKR
+JDDb/yqoKORSuatieqVbgShaQVB8Sx2c5qwdhrYJPreTpiiR12IiFxYvKnmluYi8
+lAVI/UK8z02D3QTex4g84PnZZfCHXLeVb/zQN09CCkbf1uWXXOWzWElNSpLOlzsa
+WXfdnWWEG4ZxMv5+FdApD5Jms27ZGHezsigr8RROXJFEPW1tkVAurYRyfrCBrmtc
+Ttv8l2amLHPciMQjrtXgoQcRh6bDGVbYf7NWiwZF1vK2S8R5IOfDMaOI0s6xh5nm
+DdESyHNO8Zo710sBs6h6X+BL5qgyVQkApixcxFRSYDzBbGj1tUc8FPER8j3wLmsZ
+ezl4+dr00WRUWkA1716G+W+Gz6I2Ro3cU8B3anqEH6Szm0n5CjgCzR4QoJMaK70g
+nZBVOkFP/KbBbEVDHSyN0ZvpAlsDaIwAYOtRlBryuhlYhEPljLeboKFmlFjtKSHx
++GF6jaLduhKEotYgWdqNtjpYLp7Vlc8EbB0ZEDPek7K+HeXmXRH/sBjfO+vft/lj
+GjcKeI2G7uxh4duSRJnZTK94txOOELJjPUDimz9w/uwC4m/j1KUUg83kJMHW3SWB
+Va1hvpGTtvIlYj9u97P5fLVH4A++hbWXNGa+4MReWLXoHuGrUzBPJPKoLGfoFMHq
+bT5MZg3+/Q==
+=moqv
 -----END PGP SIGNATURE-----
 
---===============4460917454387395312==--
+--===============4743130681173740174==--
