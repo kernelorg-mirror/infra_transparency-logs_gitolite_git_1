@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3595061695587474489=="
+Content-Type: multipart/mixed; boundary="===============0202956690173682202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 29 Jun 2026 13:19:59 -0000
-Message-Id: <178273919983.926851.7016911773816949578@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 13:21:40 -0000
+Message-Id: <178273930022.930014.14967985183068377462@gitolite.kernel.org>
 
---===============3595061695587474489==
+--===============0202956690173682202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/b4/sysfs-const-attr-kobj-attr-prep
-    old: 889f179e8ec115639de1567d4233ba3d32aad7a9
-    new: 99ef363e078ac46c168d79e01da8c986a50b070e
-    log: revlist-889f179e8ec1-99ef363e078a.txt
+  - ref: refs/heads/b4/sysfs-const-attr-hwmon
+    old: f67cad3ab7e234c320fccaf5a15ac5c139199fba
+    new: 843ff629d57186faccc45206e2fd1bbd01f21f59
+    log: revlist-f67cad3ab7e2-843ff629d571.txt
 
---===============3595061695587474489==
+--===============0202956690173682202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-889f179e8ec1-99ef363e078a.txt
+Content-Disposition: attachment; filename=revlist-f67cad3ab7e2-843ff629d571.txt
 
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
-29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
-ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
-c7fdbc2c2f26b9c397eb3aad2fdc54dbd85f68e1 selftests/uevent: increase __UEVENT_BUFFER_SIZE to avoid ENOBUFS on busy systems
-5108f4765637bd0ac5ea2897dc7d537486a09885 fat: reject BPB volumes whose data area starts beyond total sectors
-452a8467be8143747292218212671deeb186d2ae ocfs2: fix UBSAN array-index-out-of-bounds in ocfs2_sum_rightmost_rec
-07669b0abe4ce76c716e8437e198e1337cf43d1f treewide: fix transposed "sign" typos and update spelling.txt
-22920541c35a9f23f219038ba5874c843a7c4419 ocfs2: avoid moving extents to occupied clusters
-c1fff9794a165b6b64ae4ad9b54c00bc94e7daed lib: interval_tree_test: validate benchmark parameters
-f9ab30c96b0f00c20c6dac93681bdae3a033d229 ocfs2: fix NULL h_transaction deref in ocfs2_assure_trans_credits
-ff6f26c58421614b02694ac9d219ac61d924bc68 ocfs2: fix circular locking dependency in ocfs2_dio_end_io_write
-e586644d0a89b6c63b77ae717f19d70181faee76 net: pse-pd: set user byte command SUB2 field
-8165f7ff57d9667d2bb477ef6af83ede7fed4ad7 net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink
-8211a26324667980a463c069469a818e71207e02 net: ipip: require CAP_NET_ADMIN in the device netns for changelink
-95cceadbfd52d7239bd730afdda0655287d77425 net: ip_vti: require CAP_NET_ADMIN in the device netns for changelink
 2496fa0b7d180b3ad356b514e7ff93bb14e6140a net: ip6_tunnel: require CAP_NET_ADMIN in the device netns for changelink
 f00a50876d2818bd6dc86fa98b3ef360884c53c8 net: ip6_gre: require CAP_NET_ADMIN in the device netns for changelink
 e2ac3b242c37dff323a964962e43854f4b1a2b79 net: ip6_vti: require CAP_NET_ADMIN in the device netns for changelink
@@ -1045,10 +1017,38 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-634ae57790e89eca24b00ed09c68b2fc2243885f kobject: Allow the constification of kobject attributes
-d2ff776f24775cd2cbf5ac26141fe97af577c12d kobject: Provide macros to initialize 'struct kobj_attribute'
-cba88367942cdf3823c25aaef68deaaf46e48856 samples/kobject: Switch to the new __KOBJ_ATTR() macro
-6bd234ba7679ec15dcf77d655b6eea5003149922 kobject: Allow the constification of kobject attributes
-99ef363e078ac46c168d79e01da8c986a50b070e samples/kobject: Constify kobject attributes
+5cecdf2ae99e5adb3a320510cef95a7d580ff77d EDITME: cover title for sysfs/const-attr/hwmon
+fa2e212b1dbe594bed18786d66aeddaf136388cf device_attr
+1cccbcb08054108e1d80b0a7dd12e365e62fd499 core
+45137edce91f1bb5349206147a695645f4a58f8d container_of
+0ee6addc2052c092f8e42cbe656e2481df2b7362 core
+856f8018968dab576b77afeeefb01c3bdee696e4 sysfs macro
+6a3e1838a94009ea964ec827796d034398180aa2 f71882fg.c
+d0f0e93f2b2d8ac9871e5e2d4eeb381ac53cc0cc adcxx
+be0cf5868f5cfe01b85e19d7b726c667b467cb68 abituguru3
+fb7f3d6a03add20f97848ef38b319eaaae57e670 abituguru
+d2470ff8d191003fc4160a7586267f68142ef2aa asc7621
+4a7334bb42d9662ad2f15908743372efc46780be w83795
+32afd6a71bc38b53012302e7fa2d92f13cd6cf5c sch5636
+30098d089e53f1c8adb3e88228c0b711c7f4de11 fschmd
+b221acd615b94472861ee2bfe7dcc5f9d3151a3f vt1211
+a7f399015a9be6c3c7a20a13936d40de71addd93 w83l786ng
+6db4e5a47362157bda52978ebc890b59cce9d5e3 w83791d
+f75172f20bfc9c80cce54c8b39a30c4401367f37 w83793
+16d1d512dba661e0f6d1ecc67d9eb7742b59ad5b pc87360
+8d2b2c6b1b0645d1d2896b10a0d317e3cff591be pc87360
+7a8b7f0127bdc91cd3b4cd23065ff04f79f812a7 w83793
+c07fcce5412ad51d51d0b24137fa9753b4d740d5 w83791d
+a308fd07b13472fa75adcc211ebee63bc1da4f3f fschmd
+febb90d0b751d2009e2aebf86111ea07f714b030 hih6130
+3ae6a40e58921be6e95991bd70d65712011b8b26 core
+4c916a273b4680aaf4725655561ba54713818366 atxp1
+bab04319fd8a3a76b380b351a9c57322bb3122f8 menf21bmc
+e37e130ed1ec01d892557211eedeb5223f55e6fd gl520sm
+f7fe9b18b89cc48b6e96373f2e517b607dd310a0 gl518sm
+f824d2c0f2f05533a640d2847defdb0feac52dcd lm63
+674063132653127b51c35f1cd9a628ad541778e8 aspeed
+ff74c057ff67682fc2cbd63d3e2cbbb1994827e3 wm831x
+843ff629d57186faccc45206e2fd1bbd01f21f59 mc13683
 
---===============3595061695587474489==--
+--===============0202956690173682202==--
