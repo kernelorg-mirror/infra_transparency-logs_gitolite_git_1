@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0478330821159521095=="
+Content-Type: multipart/mixed; boundary="===============2249124075947838854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 29 Jun 2026 20:27:26 -0000
-Message-Id: <178276484611.1265366.829787378782774517@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 20:28:57 -0000
+Message-Id: <178276493798.1265911.10803366471200719169@gitolite.kernel.org>
 
---===============0478330821159521095==
+--===============2249124075947838854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/dt
-    old: 8772e1f64c7d69986821d71d8e58fd10594c9aa1
-    new: b9e9f549e9b65d85605fd3f7cb587d4df81e7d06
-    log: revlist-8772e1f64c7d-b9e9f549e9b6.txt
+  - ref: refs/heads/imx/soc
+    old: ccb4b54b8ecf1ebafef96d538cd6c5c8455bb390
+    new: 3de939b2ac843d56d88e2ab1e1b1f667cba9e1d4
+    log: revlist-ccb4b54b8ecf-3de939b2ac84.txt
 
---===============0478330821159521095==
+--===============2249124075947838854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8772e1f64c7d-b9e9f549e9b6.txt
+Content-Disposition: attachment; filename=revlist-ccb4b54b8ecf-3de939b2ac84.txt
 
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
@@ -1049,6 +1047,8 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-b9e9f549e9b65d85605fd3f7cb587d4df81e7d06 ARM: dts: imx7d-pico: describe Bluetooth controller
+b24c12e1bad863d27141e4e9c19d25eebd68c4a6 ARM: imx: avic: Fix OF node reference leaks
+936407c3563ac745cbbb9953c0cf2472128a22f4 ARM: imx: fix device_node refcount leak in imx_src_init()
+3de939b2ac843d56d88e2ab1e1b1f667cba9e1d4 ARM: imx: fix device_node refcount leaks in imx7_src_init()
 
---===============0478330821159521095==--
+--===============2249124075947838854==--
