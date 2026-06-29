@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5221125497347774753=="
+Content-Type: multipart/mixed; boundary="===============5731865176060949516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
 Date: Mon, 29 Jun 2026 09:20:44 -0000
-Message-Id: <178272484402.666627.16771186738912234958@gitolite.kernel.org>
+Message-Id: <178272484492.666798.10166039806804224682@gitolite.kernel.org>
 
---===============5221125497347774753==
+--===============5731865176060949516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============5221125497347774753==
+--===============5731865176060949516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782724841 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1782724841-6691a0fae552172db9ee8d2219149afbb2151964
+pusher krzk@kernel.org 1782724842 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1782724841-fb7e4d11e6bf27efa37feee2a1f45edae4fddc62
 
-254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/fixes
+254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOOkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17UKD/9kkEEaQhE+QlS6angtFfBBEc0rYlp86da4
-tQj1HwTZ/c2LTAj5NJKTmDaa2Cxt8DrExWT54mPJHuEnsZwHt1Naq0awe2d5fLyE
-s/O89ubFw7SBRWM3CRPVezvs/4Vv+1dBv5tCVXWUvtH/E2NgsRmjuxtPaE0+CD2f
-jASAAXt/+pUlbjgVaPSlUllttBdqlpjY6BAjr55zxtPu+dmhs7isTFwkD1Iomgs+
-kw7JOy+qpgQDeB2BxrPc8Ki49LNMr6RlGLnciRMJN3yHCX8WMWZgmq1jchPVk8fP
-ZsaaRGXvAI/vwc4tr950LgLFquaygmoj8UE5FMtd81Ut29PyUeXSQsOxxIg0/E1i
-/+t+qE3aYsFbUtxXPTB+aNct6UZGfIs0y2ivaNkdblhpaAT046fzwq6wZriY/9B/
-tlzz/EHcOBHFH+HUDXq9dvv7xTCtRjLqmz0XtdLd+avutRWFu4cMsWexbUNb3/py
-tP8kFR/inBuf3NxsBwFf46QfB/5gLTC+pToVv2SsY+fjWCm3fTsyTdRH8LzQy822
-ucztlONfd7D8LEGF9yXezV1Kx3+Rhqsni9yKU4zJwIfUG1nmaBntlDqEBvu7EQce
-WL4SSBZq4Hb09icgL8ZI9kVhToiJSalvpMHF5cgdvX8I1eDkbm8HPr1tqBVq9/n1
-v5vUR2lIIg==
-=9NqN
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOOoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11xYD/9Tcgr7SMwIjspJ2wkaJTuqvRStY31wFqPy
+jOU7hx1Vq22O4egv/28iDPR3wVVlnOrtBX49wsG6A+BgINGcv1ICJuVjsdPyr/Qq
+WQYd/hOMsSq6qiCiHmic/rzmvrNmwGqT2nchWdFZ/s5/xZPmBsUjwxm/IEqX7YPr
+Xu9mCGLHKDiQyY3TBvb2wYfN4TYwbXpqauI20UiBHowKCETfpKfzv5O14FIHbz4x
+gnZhhrqgCmtlLgL1l7igyqPQFgUdej/sUYyC9rimAyyoGhOSqXh7+TmjFUyhUW/P
+kwWdErt89yp/VuGTWNnULHrDOgDHM64YEZXHkXfiwYOujHDy2qTjwXiRndHT5aZz
+lbVQ3+Lkv8hy7td/Isgs987h0Z1Vpn+BzFKxBlLPE0cisG5WoTNbyNojG38PjRoU
+AEGc8/KE4LAD4aaM47NDCwIdKyEaxCQI7l4jDwLGTzyItd9wHUe6ZrDXhAq52m9D
+OSgRzyj1TOfFTAOC11vXaKj8tiMNoq0QrWgJ6yYV8T45cEAwm71tQqaxm+gKssoH
+XZZGOutWPkiTQdKcscOkI3wAjFP2GQQC6R1ZInWca6ng2xhaaCv65h6pEWe6Nux2
+Vk2Uh83fKa/ElhWaRYyyC97G/FUY2vnDvtIpqZjzbqB+VNi8wqUaw9mfBv2nn8k2
+468drDKscQ==
+=pcch
 -----END PGP SIGNATURE-----
 
---===============5221125497347774753==
+--===============5731865176060949516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5221125497347774753==--
+--===============5731865176060949516==--
