@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6308761151005044001=="
+Content-Type: multipart/mixed; boundary="===============1073742115871052905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 29 Jun 2026 03:21:57 -0000
-Message-Id: <178270331706.294798.14158265726382614925@gitolite.kernel.org>
+Date: Mon, 29 Jun 2026 03:22:01 -0000
+Message-Id: <178270332115.295030.14592041647494567309@gitolite.kernel.org>
 
---===============6308761151005044001==
+--===============1073742115871052905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc-next
-    old: cbe44c389ae80362e72696ac08f7c55a83f2a050
+  - ref: refs/heads/libcrypto-next
+    old: 065f978a0e015c4dd9f536f5c08078a37f5509c1
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-cbe44c389ae8-dc59e4fea9d8.txt
+    log: revlist-065f978a0e01-dc59e4fea9d8.txt
 
---===============6308761151005044001==
+--===============1073742115871052905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbe44c389ae8-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-065f978a0e01-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============6308761151005044001==--
+--===============1073742115871052905==--
