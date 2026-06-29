@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5429359148921521733=="
+Content-Type: multipart/mixed; boundary="===============3480799293844103384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 29 Jun 2026 09:20:56 -0000
-Message-Id: <178272485659.668744.14658966721232424688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 29 Jun 2026 09:20:57 -0000
+Message-Id: <178272485778.668948.11391850147367867577@gitolite.kernel.org>
 
---===============5429359148921521733==
+--===============3480799293844103384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt-bindings
+  - ref: refs/heads/next/soc64
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============5429359148921521733==
+--===============3480799293844103384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1782724854 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1782724854-26c4975f1be8a9e692dfc11ac0de85b816b376fe
+pusher krzk@kernel.org 1782724855 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1782724855-192ccfaf770bff31c7ef8bbfa3914d0bc9729b6d
 
-254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/next/dt-bindings
+254f49634ee16a731174d2ae34bc50bd5f45e731 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/next/soc64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOPYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19yTD/4l01Nhw97rt81UpJz6VfzxCMUMvbgXTinc
-REyKuj+mEpG07yakATYaW4/iZ2YrXR7oPi5InXx/k3wwdzzTgpMpU8sljSo7Vd9z
-SfnbbzhDl9R6MddMoi44SqXgAcrlcUGKa/Y3jPdvABlKH5x1MMXN/zZlJEFmCTlm
-NJInCqTE3ZZ13QWpxHoMRxRgcBWCIV7q4hwLT1HSqgcLJqXfvt+korAtnrpSoSqT
-tOv0sg9nhzL6qYIKxzzKoR6Sl4VDx96/Mlqjzpjy4gMdJ/PfEU87XNv+BZZSsZfE
-YoYpnzV3ky+4m+LM+gl6zQZ8xTLkRBWZitnrvoryjciA27UDeWfqwNtgrA/gDdJ4
-CX9ZbNSP4NGc9JqduyjrJmtVdK8+79QpAfnD82JAp9tomQom1SHAFEhbT1cZbffV
-BrWzY4Nvxdw24OUkH/zBri/7hv+XkykxUFeMaYY2GLx0op6rVp2C/XumBjxPvrne
-6kfxOUBGhF7XM5gVETrHv7de6OyqDwIJjnBYNJ7H1ueUdjqfIgZ3bKXGBR6mv9hm
-oxCzWxeZ0d0pFrM8hEKwYM8A5929cmLxCoF7QzyxE45aFAoqBBnnsjHoBYMviLjD
-j4vFCQ8SvfKGoJcdQyeo+Avg2tgJTtN8V6fd3CM3/fmeezBIY2I7RIb1AW7EQW4c
-xYIn2epnlw==
-=FE72
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpCOPcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+kDD/9LAcESdQ2AZ5xj3Pm6em0XxadFDnDKiRRM
+MbhS52XIwmuHhYNn21DIOpHRMu83psG7AeYaTaTq9TXRLGmR2W5KS/M+Q7f0yHwo
+vRjSl4U38v+OP+mN0bjTwKxxB0HjLhpxje0WN3lyABsL1lfEavtsrctR3VhLuCV0
+smXmjjCLv7kt3EyjcA7Pu3PjV0NWPc2ddfLqTIeHniCvMDP8my/Ikcbtinbw2Pyi
+7mUQW/LG9OqatiyIC8HLf9UMzMrnXlVLj9GzPMT72AoNjPri/WgAzGlZ3B9/pVfV
+frndQ5PXsgIJ4M/Mv8oaB9z9GtGlZH5U61qWKNqnp5HQOWEStn/wUzEf70maG+Sp
+Gmj6lQj37/SPH4hbCJ4A89jnuXU1Ow0+oBwJd6i27D6G8+Tvq3gS2kSBRHnjTA3l
+5RBSQp2b4+EkVZtVRbSoxQ9ez7H0owWu3U45jLqpX+wXUydsacngdu/F+DVz7IzZ
+g2JhTyYtwRDnYW0F0dc4/pNgltiWWVhVvuBZrlGX1Nx5H1gglp8XdHb3+nB1cLu+
+Rkj27hxyCO0Ei/BRRnkPdMoWKnnrzESsvLf9EfvN0NMPutoBHXVZqk3tMpfwPlnr
+BJWV+pXAauUGQeczjiS66fQxCSY/LKdEIpcuFLlByc6SQjPMFeoFO+rqJm1tlVkF
+H8Jv9RL6uA==
+=t/im
 -----END PGP SIGNATURE-----
 
---===============5429359148921521733==
+--===============3480799293844103384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5429359148921521733==--
+--===============3480799293844103384==--
