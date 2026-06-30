@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Tue, 30 Jun 2026 15:25:26 -0000
-Message-Id: <178283312648.2143673.412927284377740088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 30 Jun 2026 15:38:51 -0000
+Message-Id: <178283393192.2151815.14737064766138311781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/gfp-to-kmalloc/drivers-net-wireless
+  - ref: refs/heads/controller/dwc-qcom
     old: 0000000000000000000000000000000000000000
-    new: 0724b65588c4f0679638b7352da0cc5303f12a4a
+    new: 67db6fece5db59c5fd0d7c0a514eac5c7f37be8a
