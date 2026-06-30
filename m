@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 30 Jun 2026 13:18:40 -0000
-Message-Id: <178282552085.2035191.39107538240358274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Tue, 30 Jun 2026 13:19:54 -0000
+Message-Id: <178282559436.2035785.15998036462906549084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/main
-    old: e5b811fe793166aecc59b085c1b7c31262ef2316
-    new: 2a00517db8de4be7df3d483b215c5544fb30a191
-    log: |
-         2a00517db8de4be7df3d483b215c5544fb30a191 bridge: stp: Fix a potential use-after-free when deleting a bridge
-         
+  - ref: refs/heads/sdei-nmi/diag-complete-off
+    old: 0000000000000000000000000000000000000000
+    new: 9c7998bb7f7765535361c4ac0087f1401b3eecd4
