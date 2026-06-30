@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4865633418886479921=="
+Content-Type: multipart/mixed; boundary="===============3017705013797777825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 30 Jun 2026 17:32:33 -0000
-Message-Id: <178284075317.2247737.171206154176574725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 30 Jun 2026 17:32:47 -0000
+Message-Id: <178284076704.2248074.14437882674746172985@gitolite.kernel.org>
 
---===============4865633418886479921==
+--===============3017705013797777825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 7de6ae9e12207ec146f2f3f1e58d1a99317e88bc
     new: be5c93fa674f0fc3c8f359c2143abce6bbb422e6
     log: revlist-7de6ae9e1220-be5c93fa674f.txt
-  - ref: refs/tags/next-20260330
-    old: 97dc46388ffe1718cce1fdf4f04c0ad01b7b3e6f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260630
     old: 0000000000000000000000000000000000000000
     new: ba7c57499e5999aeae8dd4f954eb2600589d80aa
 
---===============4865633418886479921==
+--===============3017705013797777825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1054,4 @@ b4ac8da3c0a0a9927733979fab9b7fa317ea1df3 Merge branch 'for-next' of https://gith
 a8ba125e6a335df0ab9a4cfb05f534cba339fbfd Merge branch 'device-id-rework' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux.git
 be5c93fa674f0fc3c8f359c2143abce6bbb422e6 Add linux-next specific files for 20260630
 
---===============4865633418886479921==--
+--===============3017705013797777825==--
