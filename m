@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 30 Jun 2026 14:00:56 -0000
-Message-Id: <178282805676.2070950.536329987273172936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 30 Jun 2026 14:02:32 -0000
+Message-Id: <178282815257.2071795.3018715864907315704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 805185b7c7a1069e407b6f7b3bc98e44d415f484
-    new: 226f4a490d1a938fc838d8f8c46a4eca864c0d78
+  - ref: refs/heads/experimental
+    old: 9c48a7e9e49c2eaae0b3927fd2c3d2c39d14cb69
+    new: 3e1aed7dc19d04448e7c42be354647121df03e39
     log: |
-         6860b467f569f732b11cbc588ae7e195e90e7e23 xfrm: propagate -EINPROGRESS from validate_xmit_xfrm()
-         3f4c3919baf0944ad96580467c302bc6c7758b00 xfrm: fix stale skb->prev after async crypto steals a GSO segment
-         226f4a490d1a938fc838d8f8c46a4eca864c0d78 xfrm: nat_keepalive: avoid double free on send error
+         3e1aed7dc19d04448e7c42be354647121df03e39 erofs-utils: link tools with liberofs dependencies
          
