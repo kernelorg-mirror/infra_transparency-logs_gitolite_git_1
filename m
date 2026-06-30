@@ -1,37 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6400805971961905354=="
+Content-Type: multipart/mixed; boundary="===============2085196137708374172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 30 Jun 2026 10:14:08 -0000
-Message-Id: <178281444883.1890780.1324440928116186929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 30 Jun 2026 10:14:26 -0000
+Message-Id: <178281446644.1891074.1824939041014573592@gitolite.kernel.org>
 
---===============6400805971961905354==
+--===============2085196137708374172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e6be7b86748ee4a79a7125463f1190e11998e46c
-    new: 3c80a21a1e4e65f6eecfef61b321330ff133d3cb
+    old: 68a93ef17e2b218868faa2ef47895d890246e648
+    new: b1354cc719ef307b9ffdf3f2a7017e543170038c
     log: |
-         3c80a21a1e4e65f6eecfef61b321330ff133d3cb Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
+         b1354cc719ef307b9ffdf3f2a7017e543170038c Merge remote-tracking branch 'spi/for-7.1' into spi-linus
          
   - ref: refs/heads/for-next
-    old: e6be7b86748ee4a79a7125463f1190e11998e46c
-    new: f2bae7ea752140b274599158a18c5e17d5023c99
-    log: revlist-e6be7b86748e-f2bae7ea7521.txt
+    old: 68a93ef17e2b218868faa2ef47895d890246e648
+    new: d2d01a4edb3da7eb18a055bd6722074076af92cc
+    log: revlist-68a93ef17e2b-d2d01a4edb3d.txt
 
---===============6400805971961905354==
+--===============2085196137708374172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6be7b86748e-f2bae7ea7521.txt
+Content-Disposition: attachment; filename=revlist-68a93ef17e2b-d2d01a4edb3d.txt
 
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
 9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
 7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
 8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
@@ -112,7 +114,6 @@ a29812a55da8d0dbeb071b26ac428c338e3fc389 PCI: mediatek: Protect root bus removal
 4e4f9745f016c1631d00a4035b06f6e75d449e01 PCI: plda: Protect root bus removal with rescan lock
 0bd9611587bb494c33566d825fe34b2705e4b167 PCI: rockchip: Protect root bus removal with rescan lock
 fda8749ba73638f5bbca3ffb39bc6861eb3b23fa PCI: host-common: Request bus reassignment when not probe-only
-7b25dbafa2fce50b1a48c1d057adb35da3563f9b spi: rpc-if: Use correct device for hardware reinitialization on resume
 9a289cc425bf469642533e4afa01c90f08971d01 modpost: Ignore Clang LTO suffixes in symbol matching
 645323a7f4e55bb3abb0cb003b6b9dc715c8dc21 kconfig: add optional warnings for changed input values
 b7556c8e713c88596046a906c7c4385218d44736 Merge tag 'hid-for-linus-2026061601' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
@@ -183,8 +184,7 @@ b3d4ab2d7df9426f7f1d3671d7e2108f2ca6e970 s390/pkey: Check length in PKEY_VERIFYP
 08c7183f5b9ffe4408e74fff848a4cc2105361d4 Merge tag 'mips_7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 c98d767b34574be82b74d77d02264a830ae1cadd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4cc70f75853bebac022334b6a86b953348072f74 arm64/hw_breakpoint: reject unaligned watchpoints that would truncate BAS
-07f251e0ed0b78591114101b3ce16db2e1365171 spi: dt-bindings: snps,dw-apb-ssi: Add starfive,jhb100-spi
-914e708e3049c9e0be46533406abd832a46c6e8d spi: dw: Add support for snps,dwc-ssi-2.00a
+fbef4191b4961c125585c715407e693f7d0024a9 regulator: pca9450: Correct default t_off_deb for PCA9451A/PCA9452
 a552c81ff4a16738ca5a44a177d552eb38d552ce Merge tag 'mm-stable-2026-06-18-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b91d287fa7a1ba0727eed5823c6ee4924ee5fa31 thermal: intel: Fix dangling resources on thermal_throttle_online() failure
 b2b42ad22828da9cdb876eedb8914134e0759355 ACPI: sysfs: Fix path of module parameters in comments
@@ -836,6 +836,7 @@ bb365a506b1e6fb050c0fceaad354fe395385ef0 KVM: x86: Unconditionally recompute CR8
 91b16b53a08c3684ea2b0ad3cbf8ecd48c0f8b77 Merge tag 'kvm-s390-next-7.2-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 02953418a1378514d1f4086180f14004f5d08ea5 KVM: x86/mmu: Expose number of shadow MMU shadow pages as a stat
 098e32cba334da0f3fa8cfd4e022ae7c72341400 x86/apic: KVM: Use cpu_physical_id() to get APIC ID of running vCPU for AVIC
+7ddbf1cde4a03e36e17d06fbc711870eb0b256d7 regulator: da9121: Use subvariant ids in the I2C table
 83d53eca7e5512b53ecef6cf67ea8cbfb595516e ASoC: rockchip: rockchip_sai: #include <linux/platform_device.h> explicitly
 a7ea04d1ad39d60da397de75b503062ad5fa562b ASoC: soc-core: Don't fail if device_link could not be created
 8a901e629ef874c6bc360343008d779a820140db Merge branch 'md-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-7.2
@@ -867,7 +868,6 @@ d281a757ff1ca230b80b0eae16559f8054927083 smb common: add missing AAPL defines
 2c253f230a31d4394f6f926a73f5e157ad88d347 smb/client: use %pe to print error pointer
 1c6267a1d5cf4c73b656f8181b310cbbb3e4767b smb: client: Fix next buffer leak in receive_encrypted_standard()
 2a4b3d2db5c6fcdba889baf7b2ae5661b0beac89 smb/client: preserve errors from smb2_set_sparse()
-245404c26563aafb36aafb01298f148db1851be3 spi: imx: reconfigure for PIO when DMA cannot be started
 f0e6f20cb52b14c2c441f04e21cef0c95d498cac Merge tag 'ntfs3_for_7.2' of https://github.com/Paragon-Software-Group/linux-ntfs3
 e1611017870fa1582b5ff9ec0edc09542318daa6 Merge tag 'input-for-v7.2-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 6535a84bfdc4ab56fc901cbd9bd0d1a22315aa93 Merge tag 'apparmor-pr-2026-06-22' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
@@ -1048,13 +1048,13 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-19253cac2a9021733e047ab0c04594c7c21182a9 regulator: max14577: fix set_mode clobbering enable on MAX77836 LDOs
-05dfeb2d0ccf87a7b92cd149a393b8423a26a04e regulator: qcom-refgen: correct the regulator type to CURRENT
-7b5cd466e48818e5cf75cbf4aad14c9ed5d08fe2 regulator: dt-bindings: qcom,sdm845-refgen-regulator: Document IPQ9650
-ca5c1a0ca229fa7e035735e07f1b8959059d03bf regulator: qcom-refgen: add support for the IPQ9650 SoC
-57d1e9229e6d3a30a510fcd9a08db1c0e3b0b36a Add support for the REFGEN in the IPQ9650 SoC
-3c80a21a1e4e65f6eecfef61b321330ff133d3cb Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
-5206386b270c893aaef437f077dca81882b5170a Merge branch 'regulator-linus' into regulator-next
-f2bae7ea752140b274599158a18c5e17d5023c99 Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
+e8c06179a5eeae1f0a092a1873678e5833a2d864 Merge existing fixes from spi/for-7.2 into new branch
+06f2005b9421292b6b6a0d611aa617f503ded0ff spi: npcm-fiu: support dual and quad UMA writes
+cb8c374a632b8bfeb8aa2a4977eeeb293f3566a5 spi: dt-bindings: octeon: Convert to DT schema
+5504e50ffbcf97b3b6ed3740532497922c96a1f1 spi: qpic-snand: free OOB buffer with ECC context
+7a0d22e632a6f44a40bbe357e081e7a8e806a079 spi: dt-bindings: st,stm32-qspi: Add power-domains property
+b1354cc719ef307b9ffdf3f2a7017e543170038c Merge remote-tracking branch 'spi/for-7.1' into spi-linus
+63a66219ac8b3291dfee4365bb1b7150de4965e3 Merge branch 'spi-linus' into spi-next
+d2d01a4edb3da7eb18a055bd6722074076af92cc Merge remote-tracking branch 'spi/for-7.3' into spi-next
 
---===============6400805971961905354==--
+--===============2085196137708374172==--
