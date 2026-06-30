@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2140945586816831478=="
+Content-Type: multipart/mixed; boundary="===============1427133016571363557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Tue, 30 Jun 2026 15:10:13 -0000
-Message-Id: <178283221392.2129208.7982305247563809463@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 15:13:34 -0000
+Message-Id: <178283241479.2130484.15945351392151917918@gitolite.kernel.org>
 
---===============2140945586816831478==
+--===============1427133016571363557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/fixes
-    old: 2c6821657ce3b3c85f92719ea81ec9f9ff27df11
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-2c6821657ce3-dc59e4fea9d8.txt
+  - ref: refs/heads/for-next
+    old: 6d1a5ede11552f559ac02b31af03bfaa67f1e91f
+    new: d0c222c2e2ce577d801bdf129dc6c078f29e22df
+    log: revlist-6d1a5ede1155-d0c222c2e2ce.txt
 
---===============2140945586816831478==
+--===============1427133016571363557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c6821657ce3-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-6d1a5ede1155-d0c222c2e2ce.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
-29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
-ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
-c7fdbc2c2f26b9c397eb3aad2fdc54dbd85f68e1 selftests/uevent: increase __UEVENT_BUFFER_SIZE to avoid ENOBUFS on busy systems
-5108f4765637bd0ac5ea2897dc7d537486a09885 fat: reject BPB volumes whose data area starts beyond total sectors
-452a8467be8143747292218212671deeb186d2ae ocfs2: fix UBSAN array-index-out-of-bounds in ocfs2_sum_rightmost_rec
-07669b0abe4ce76c716e8437e198e1337cf43d1f treewide: fix transposed "sign" typos and update spelling.txt
-22920541c35a9f23f219038ba5874c843a7c4419 ocfs2: avoid moving extents to occupied clusters
-c1fff9794a165b6b64ae4ad9b54c00bc94e7daed lib: interval_tree_test: validate benchmark parameters
-f9ab30c96b0f00c20c6dac93681bdae3a033d229 ocfs2: fix NULL h_transaction deref in ocfs2_assure_trans_credits
-ff6f26c58421614b02694ac9d219ac61d924bc68 ocfs2: fix circular locking dependency in ocfs2_dio_end_io_write
-e586644d0a89b6c63b77ae717f19d70181faee76 net: pse-pd: set user byte command SUB2 field
-8165f7ff57d9667d2bb477ef6af83ede7fed4ad7 net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink
-8211a26324667980a463c069469a818e71207e02 net: ipip: require CAP_NET_ADMIN in the device netns for changelink
-95cceadbfd52d7239bd730afdda0655287d77425 net: ip_vti: require CAP_NET_ADMIN in the device netns for changelink
-2496fa0b7d180b3ad356b514e7ff93bb14e6140a net: ip6_tunnel: require CAP_NET_ADMIN in the device netns for changelink
-f00a50876d2818bd6dc86fa98b3ef360884c53c8 net: ip6_gre: require CAP_NET_ADMIN in the device netns for changelink
-e2ac3b242c37dff323a964962e43854f4b1a2b79 net: ip6_vti: require CAP_NET_ADMIN in the device netns for changelink
-095515d89b19b6cc19dfcdc846f97403ed1ebce3 xfrm: xfrm_interface: require CAP_NET_ADMIN in the device netns for changelink
-0e80602c026b98ec9f775f8a6a4eaea577733d6b Merge branch 'net-require-cap_net_admin-in-the-device-netns-for-tunnel-changelink'
-e4b4d8410c7ccea25f4b332a077c6b9f5d263228 net: ethernet: mtk_eth_soc: fix supported_interface set after phylink_create
-1f24c0d01db214c9e661915e9972404c96ca73c0 netdev-genl: report NAPI thread PID in the caller's pid namespace
 65f26d15f7db80b0a3f995c518cdddb50e6dea99 selftests/ftrace: Fix trace_marker_raw test on 64K page kernels
 a056db30de92945ff8ee6033096678bfbae878e3 octeontx2-pf: Fix leak of SQ timestamp buffer on teardown
 4f6ac65e81625165257131ec2574bb6bb09bd7d8 octeontx2-af: npc: Log successful MCAM drop-on-non-hit install at debug level
@@ -1050,5 +1010,45 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+d911a33fa8e9fd4c691bc8429180fe1885bc3f2f arm64: dts: imx93: update the tmu compatible string
+ec5c75673cb9d4c9a2a55a70d54a6ccb254f4ba4 arm64: dts: imx8mp-evk: add board-level mux for CAN2 and MICFIL
+368eb597c6ef0263931a3922648e8c7b83cd0536 arm64: dts: imx8mp-evk: add flexcan2 overlay file
+ffccbd6804e885f0fc23f0005f6bee7789a7a887 arm64: dts: imx94: Correct PCIe outbound address space configuration
+6de3a7d7a4f653be4901d07425719c4e55805167 arm64: dts: imx943: Correct PCIe outbound address space configuration
+b24c12e1bad863d27141e4e9c19d25eebd68c4a6 ARM: imx: avic: Fix OF node reference leaks
+c10743c09d5d6183117a6fb96b50a8016f437cdd arm64: dts: imx8mp-var-som-symphony: add input keys
+9497ab2868eec57352b72ada3efec10e0428bb3e arm64: dts: imx8mp-var-som-symphony: enable USB support
+342414b800bfea45cbc118d51dc66a066411c033 arm64: dts: imx8mp-var-som-symphony: add TPM support
+5babe7594543573b57bff15bdda7f3343789f02f arm64: dts: imx8mp-var-som-symphony: add external RTC
+6b680f24454cb5ce8a87df430b622bb5a602c91e arm64: dts: imx8mp-var-som-symphony: enable header UARTs
+0ff57bce947f361a19e0c29945ed72cedef1f913 dt-bindings: soc: imx: fsl,imx93-media-blk-ctrl: Allow LVDS Display Bridge child node
+9c4d966c046c117ec690a24ef50a83605d004c7d arm64: dts: imx93: Add LVDS Display Bridge support
+69e50e84bbcefdb534e1bd2a8e3f472be98aae2c arm64: dts: imx93-11x11-evk: Add DY1212W-4856 LVDS panel
+c33b03ac7ff7ca0267ae7a4284a2b9258483614d arm64: dts: imx8mp-frdm: Add missing HDMI DDC pinctrl
+67a6b5ef7edf76236f1afe5d11c35bb94a4e41f9 arm64: dts: imx8mq-evk: add uart3 and bluetooth node
+e4e7ced4ad38d4b9a3883766ccb2d1dae0df4f34 arm64: dts: imx8mm-var-som-symphony: add wakeup sources
+47f8149d31535adafff43ff23084a97600686ddd arm64: dts: imx8mm-var-som-symphony: keep RGB_SEL low
+dd7858bbdfa84beddf7d08bb82eacc8010221493 arm64: dts: imx8mp-var-som-symphony: enable PCIe
+dfee5fefc3ecd29794c79b3f5284d759cfdc869e arm64: dts: imx8mp-var-som-symphony: add HDMI support
+6651fb350bff74652edf8fdd2193ad33d69a968d arm64: dts: imx8mp-var-som-symphony: add capacitive touchscreen
+c0cb98e3230fd5959bb8075e059fef60d0477698 arm64: dts: imx8mp-var-som-symphony: enable ECSPI2
+a062ace84151ca83d39e6470c0a23c51c0d343df arm64: dts: imx8mp-var-som-symphony: keep RGB_SEL low
+2558c810a6d28614a8b076123762ff53f4acef5e arm64: dts: imx8mp-var-som-symphony: enable PWM1
+8d7fc066c18a99cd95226a660f4ddcf353d91bd8 arm64: dts: imx8mp-var-som-symphony: enable CAN
+0bfd9e56f4868b66bdafed6a9f867629899bc199 arm64: dts: imx8mp-var-som-symphony: add second Ethernet port
+417b121ab93cd5a0929a663b9dc5da5595e290d3 arm64: dts: freescale: imx8mp-var-som: add I2C1 bus recovery GPIOs
+b9e9f549e9b65d85605fd3f7cb587d4df81e7d06 ARM: dts: imx7d-pico: describe Bluetooth controller
+936407c3563ac745cbbb9953c0cf2472128a22f4 ARM: imx: fix device_node refcount leak in imx_src_init()
+3de939b2ac843d56d88e2ab1e1b1f667cba9e1d4 ARM: imx: fix device_node refcount leaks in imx7_src_init()
+4596f1624bf3abdc7782fbca0385bc0a8afb3d51 dt-bindings: arm: fsl: add TQMa8MPxS board
+6f0c003f0ddbfde3a311d350d2b3c1c38ac95dd4 arm64: dts: freescale: add initial device tree for TQMa8MPQS with i.MX8MP
+0d8c74f493e941ff61ce4dcfee75f2891bd44454 arm64: dts: freescale: add LVDS overlays for TQMa8MPxS
+3ee55e19db02d25d7c1155c3a6ab954aacfc55c5 arm64: dts: freescale: Add dual-channel LVDS overlay for TQMa8MPxS
+4cf26bc2e7e099c86127d63ed7272753da45737e firmware: imx: sm-misc: Add NULL check for kmalloc in syslog_show
+9c269fe7eae8cb60d8d6c326dd8955818722fae9 arm64: dts: imx93-kontron: set memory node to 0x80000000/1GiB
+3385e2f77182469940c136b9eeedf01f27b7441f arm64: dts: freescale: imx95-toradex-smarc: add alias for lpuart5
+b1b6c1c4d3c63d8097c933009bdb618d1be18305 arm64: dts: imx8mp-ab2: Enable MU2 for DSP communication
+9818b99c128d4ee648c637dfb2dc7bff9256923b ARM: imx: Drop obsolete stuff from common.h
+d0c222c2e2ce577d801bdf129dc6c078f29e22df Merge branches 'imx/dt', 'imx/dt64' and 'imx/soc' into for-next
 
---===============2140945586816831478==--
+--===============1427133016571363557==--
