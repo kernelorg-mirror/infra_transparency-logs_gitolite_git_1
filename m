@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0295258418604324118=="
+Content-Type: multipart/mixed; boundary="===============8564263313099973012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 30 Jun 2026 20:49:21 -0000
-Message-Id: <178285256137.2396557.16564503371944428525@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 20:49:23 -0000
+Message-Id: <178285256396.2396669.14172252846022888735@gitolite.kernel.org>
 
---===============0295258418604324118==
+--===============8564263313099973012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 805185b7c7a1069e407b6f7b3bc98e44d415f484
     new: 2a00517db8de4be7df3d483b215c5544fb30a191
     log: revlist-805185b7c7a1-2a00517db8de.txt
 
---===============0295258418604324118==
+--===============8564263313099973012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ dbf803bc4a8b0522c9a12560c20905a5952d1cb9 net: gianfar: dispose irq mappings on p
 e5b811fe793166aecc59b085c1b7c31262ef2316 net/sched: sch_teql: Introduce slaves_lock to avoid race condition and UAF
 2a00517db8de4be7df3d483b215c5544fb30a191 bridge: stp: Fix a potential use-after-free when deleting a bridge
 
---===============0295258418604324118==--
+--===============8564263313099973012==--
