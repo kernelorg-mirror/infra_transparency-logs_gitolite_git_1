@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 30 Jun 2026 09:47:18 -0000
-Message-Id: <178281283834.1867138.17621782693319537682@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5985182516404452602=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 30 Jun 2026 09:48:14 -0000
+Message-Id: <178281289413.1867760.16590360421925916842@gitolite.kernel.org>
+
+--===============5985182516404452602==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: a4b016d0a29038a5b7c96bf62c054bf7832451d9
-    new: a4573a3838ae4fc73b70019cfa1dac9aaea7cc2f
+  - ref: refs/heads/master
+    old: aaf6f1c288b250ba85849d70797950b0626e0582
+    new: a3e93eda24d04802feb69c8ce06a648c54e9403a
     log: |
-         8767b4d73018bd3143f4c55b672064fad292f11b perf/x86/intel: Remove anythread_deprecated bit from perf_capabilities
-         3c4ec9b2a5db56b60127bfaf933ecdeea7a1f10a perf/x86/intel: Keep cap_user_rdpmc in sync with RDPMC user-disable state
-         170cc6b02e3d5203ccaa49ffea1ee5a7ab08c885 perf/x86/intel: Fallback to sw branch type decoding if no hw decoding
-         e2b0575900ff72aa82748af96e7bd564ade5157a perf/x86/intel: Fix kernel address leakages in LBR stack
-         01c153956b4436ead05a529dae56abc0ef58beac perf/x86/intel: Validate the return value of intel_pmu_init_hybrid()
-         a6b5fbc33172509fbe991358d718617a8e33ea7e perf/x86/intel: Drop fixed-counter PEBS constraints for baseline PEBS
-         166f10836a653dfa280d4335603b52f685b8b1ef perf/core: Fix kernel register info leak via hardware skid
-         a4573a3838ae4fc73b70019cfa1dac9aaea7cc2f perf/core: Check kernel access when kernel callchains are requested
+         a3e93eda24d04802feb69c8ce06a648c54e9403a 6.6-stable patches
          
+
+--===============5985182516404452602==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782812867 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1782812852-f32938a965c8a9008f0b33c99a9f626ed4b85613
+
+aaf6f1c288b250ba85849d70797950b0626e0582 a3e93eda24d04802feb69c8ce06a648c54e9403a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpDkMMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kgUQAMgl7XJCjTHtSbSgd2vi
+l4To69JeZwx+2MNPgViPdL+pMaoxn0xBHWXlLjU4XwaTmKJfKUY3SNp5ktgz8CjU
+ctcvgcv3ARg4DxyuzD7VLkAHypvRZCsNCMqHZtTMEDZVFqYkDGYLrctvF2aiywnA
+F+SUCtp5W407wouil6iiCBkODtDX5pbkdABTdrdko5lBVVxpcls1USLY6ErdMpVn
+7FDawmWs0IZGLBiyp2/GMUA1dMZSO2Or0+1tlKX+XPRhQO7nthe6Hs55E9q/0XVs
+7K3l1EaNA6VTbOPuJQgcgLHHyVLTgWy+772viTgsf4n03iHFoJASuRDz9MGLQChI
+v4trrvnXvLVQi6cBHrivkGjUzMvDp69atiRXzgkarjTcgaO69dO0iGMcKI89AE1c
+Pn6gzCmPLro7uOIGhMqKqcb5pD3KFiAa9WXJ/uOCVLLztdzBCoCS8v1xT8yWVzVO
+JSwh5I1cZ2DXZICQyxN9/Cm3e/q265xWz1o/DUt7TCgCdbgNTPBqP6fgVieXhHIY
+x/PTLT5PG2jyTdpE3N+PR6eUTs597w8iym4QZTcY2nSujQ7GD+9VUg3/pfMhtGm5
+7/Nw772p5xJGr7/H41MR5sMVVhwwJ84DkiQ4FJjDG1PKM5JcDCcGjPl0c7mkNi6i
+B5pznj3iL60rx7e/K2Ze0dND
+=GdBk
+-----END PGP SIGNATURE-----
+
+--===============5985182516404452602==--
