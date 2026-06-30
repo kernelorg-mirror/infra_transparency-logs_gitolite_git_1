@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Tue, 30 Jun 2026 10:42:39 -0000
-Message-Id: <178281615990.1915807.10714148957632266043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 30 Jun 2026 10:50:12 -0000
+Message-Id: <178281661205.1922311.11112774432152465044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/ch/git-2-55
-    old: e7518909addf1b126633a75fb79e72538e59e007
-    new: 932dc064573a62e195956881f9a5282192ba9525
+  - ref: refs/heads/master
+    old: 6123c15f599d8997520e103cfda3ffd130e6c69d
+    new: f9baae05e3b467da0c4e72254dd7018151639a8f
     log: |
-         932dc064573a62e195956881f9a5282192ba9525 git: update to v2.55.0
+         f9baae05e3b467da0c4e72254dd7018151639a8f libsmartcols: reject large interval repetition bounds in filter regex
          
