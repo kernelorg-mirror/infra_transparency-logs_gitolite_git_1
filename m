@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3347402307854996742=="
+Content-Type: multipart/mixed; boundary="===============1028024351022427740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Tue, 30 Jun 2026 10:52:01 -0000
-Message-Id: <178281672145.1923483.15430859069698539116@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 10:54:51 -0000
+Message-Id: <178281689137.1924376.5068044943183297032@gitolite.kernel.org>
 
---===============3347402307854996742==
+--===============1028024351022427740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rppt/linux
 user: rppt
 changes:
-  - ref: refs/heads/gfp-to-kmalloc/rdma
-    old: 6c9becc1e99760ffc88b6b196f5df03a42216c5e
-    new: d3ee4694d7aa595c3d99a40456a38bd40d58e7ac
-    log: revlist-6c9becc1e997-d3ee4694d7aa.txt
+  - ref: refs/heads/gfp-to-kmalloc/scsi
+    old: ddb143c1bc2586d1e060d7845ead00cfe5c63162
+    new: 2304f516100d9327b88fede840ac8a79cb14fe9c
+    log: revlist-ddb143c1bc25-2304f516100d.txt
 
---===============3347402307854996742==
+--===============1028024351022427740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c9becc1e997-d3ee4694d7aa.txt
+Content-Disposition: attachment; filename=revlist-ddb143c1bc25-2304f516100d.txt
 
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
 9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
 7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
@@ -1045,10 +1046,9 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-31af2bdb8f8c07307d2dcff624f21045d23aa178 RDMA/umem: ib_umem_get(): use kmalloc() to allocate page array
-562ca910cee935fd726ccecb1146399457f8b958 RDMA/mlx5: replace __get_free_page() with kmalloc()
-04b7dd6f3dab760156549428adaffd9d29ef07b6 IB/mthca: mthca_reg_user_mr(): use kmalloc() to allocate addresses array
-717f98792ed9b3d1313bb8727c11358cb06eca40 IB/mthca: allocate mthca_array memory with kzalloc()
-d3ee4694d7aa595c3d99a40456a38bd40d58e7ac IB/rdmavt: use kzalloc() to allocate QPN-map pages
+85a331ec385af002580fa3522df01224b6ad9da5 scsi: target: file: use kmalloc() to allocate temporary protection buffer
+fd3fc792afb2fc7b8830935bdfff1ea1c604d1e5 scsi: proc: use kmalloc() in proc writers
+1ac3dc35faea6fdb1ead9d35e7bed56f6e6e86dd scsi: ipr: use kmalloc() to allocate IPR dump buffer memory
+2304f516100d9327b88fede840ac8a79cb14fe9c scsi: sym53c8xx_2: replace __get_free_pages() with kmalloc()
 
---===============3347402307854996742==--
+--===============1028024351022427740==--
