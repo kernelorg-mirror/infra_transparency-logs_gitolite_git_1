@@ -1,38 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============5415983663316228204=="
+Content-Type: multipart/mixed; boundary="===============6400805971961905354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 30 Jun 2026 10:13:51 -0000
-Message-Id: <178281443119.1890468.2667085521217884808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 30 Jun 2026 10:14:08 -0000
+Message-Id: <178281444883.1890780.1324440928116186929@gitolite.kernel.org>
 
---===============5415983663316228204==
+--===============6400805971961905354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 9df54deb2b17422a1103cec45439d7e400486ca4
-    new: 32117bb6198f956d2464411408f6eb8ec400be6f
+    old: e6be7b86748ee4a79a7125463f1190e11998e46c
+    new: 3c80a21a1e4e65f6eecfef61b321330ff133d3cb
     log: |
-         32117bb6198f956d2464411408f6eb8ec400be6f Merge remote-tracking branch 'regmap/for-7.1' into regmap-linus
+         3c80a21a1e4e65f6eecfef61b321330ff133d3cb Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 9df54deb2b17422a1103cec45439d7e400486ca4
-    new: 5663b89570d1204b87242911bef7ffe5b51eb425
-    log: revlist-9df54deb2b17-5663b89570d1.txt
+    old: e6be7b86748ee4a79a7125463f1190e11998e46c
+    new: f2bae7ea752140b274599158a18c5e17d5023c99
+    log: revlist-e6be7b86748e-f2bae7ea7521.txt
 
---===============5415983663316228204==
+--===============6400805971961905354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9df54deb2b17-5663b89570d1.txt
+Content-Disposition: attachment; filename=revlist-e6be7b86748e-f2bae7ea7521.txt
 
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
 9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
 7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
 8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
@@ -186,7 +185,6 @@ c98d767b34574be82b74d77d02264a830ae1cadd Merge tag 'for-linus' of git://git.kern
 4cc70f75853bebac022334b6a86b953348072f74 arm64/hw_breakpoint: reject unaligned watchpoints that would truncate BAS
 07f251e0ed0b78591114101b3ce16db2e1365171 spi: dt-bindings: snps,dw-apb-ssi: Add starfive,jhb100-spi
 914e708e3049c9e0be46533406abd832a46c6e8d spi: dw: Add support for snps,dwc-ssi-2.00a
-fbef4191b4961c125585c715407e693f7d0024a9 regulator: pca9450: Correct default t_off_deb for PCA9451A/PCA9452
 a552c81ff4a16738ca5a44a177d552eb38d552ce Merge tag 'mm-stable-2026-06-18-09-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b91d287fa7a1ba0727eed5823c6ee4924ee5fa31 thermal: intel: Fix dangling resources on thermal_throttle_online() failure
 b2b42ad22828da9cdb876eedb8914134e0759355 ACPI: sysfs: Fix path of module parameters in comments
@@ -838,7 +836,6 @@ bb365a506b1e6fb050c0fceaad354fe395385ef0 KVM: x86: Unconditionally recompute CR8
 91b16b53a08c3684ea2b0ad3cbf8ecd48c0f8b77 Merge tag 'kvm-s390-next-7.2-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 02953418a1378514d1f4086180f14004f5d08ea5 KVM: x86/mmu: Expose number of shadow MMU shadow pages as a stat
 098e32cba334da0f3fa8cfd4e022ae7c72341400 x86/apic: KVM: Use cpu_physical_id() to get APIC ID of running vCPU for AVIC
-7ddbf1cde4a03e36e17d06fbc711870eb0b256d7 regulator: da9121: Use subvariant ids in the I2C table
 83d53eca7e5512b53ecef6cf67ea8cbfb595516e ASoC: rockchip: rockchip_sai: #include <linux/platform_device.h> explicitly
 a7ea04d1ad39d60da397de75b503062ad5fa562b ASoC: soc-core: Don't fail if device_link could not be created
 8a901e629ef874c6bc360343008d779a820140db Merge branch 'md-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-7.2
@@ -1051,10 +1048,13 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-e427e1832bb0c440b47af2553c3b6a8674f412a4 regcache: Make ->exit() callback return void
-dffd32eb2b0e714a8ae23f98518ad7152cb06369 regmap: maple: Workaround for another false-positive compiler warning
-32117bb6198f956d2464411408f6eb8ec400be6f Merge remote-tracking branch 'regmap/for-7.1' into regmap-linus
-ca42663d047bef91ccc14080f47d0cb84386d4c2 Merge branch 'regmap-linus' into regmap-next
-5663b89570d1204b87242911bef7ffe5b51eb425 Merge remote-tracking branch 'regmap/for-7.3' into regmap-next
+19253cac2a9021733e047ab0c04594c7c21182a9 regulator: max14577: fix set_mode clobbering enable on MAX77836 LDOs
+05dfeb2d0ccf87a7b92cd149a393b8423a26a04e regulator: qcom-refgen: correct the regulator type to CURRENT
+7b5cd466e48818e5cf75cbf4aad14c9ed5d08fe2 regulator: dt-bindings: qcom,sdm845-refgen-regulator: Document IPQ9650
+ca5c1a0ca229fa7e035735e07f1b8959059d03bf regulator: qcom-refgen: add support for the IPQ9650 SoC
+57d1e9229e6d3a30a510fcd9a08db1c0e3b0b36a Add support for the REFGEN in the IPQ9650 SoC
+3c80a21a1e4e65f6eecfef61b321330ff133d3cb Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
+5206386b270c893aaef437f077dca81882b5170a Merge branch 'regulator-linus' into regulator-next
+f2bae7ea752140b274599158a18c5e17d5023c99 Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
 
---===============5415983663316228204==--
+--===============6400805971961905354==--
