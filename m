@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8952568572355808304=="
+Content-Type: multipart/mixed; boundary="===============4003980856121174366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 30 Jun 2026 04:15:57 -0000
-Message-Id: <178279295738.1618791.4693303976553016626@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 04:16:23 -0000
+Message-Id: <178279298384.1619183.8935563825784713674@gitolite.kernel.org>
 
---===============8952568572355808304==
+--===============4003980856121174366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: d9eeb0ea0d2de658663bfaa9c26eccdd8fd64440
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-d9eeb0ea0d2d-dc59e4fea9d8.txt
 
---===============8952568572355808304==
+--===============4003980856121174366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============8952568572355808304==--
+--===============4003980856121174366==--
