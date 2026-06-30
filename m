@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3080193291029977502=="
+Content-Type: multipart/mixed; boundary="===============2419891561904517712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 30 Jun 2026 02:23:17 -0000
-Message-Id: <178278619767.1534050.12746152852587025839@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 02:23:43 -0000
+Message-Id: <178278622382.1534376.15014046639346861124@gitolite.kernel.org>
 
---===============3080193291029977502==
+--===============2419891561904517712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 840ef6c78e6a2f694b578ecb9063241c992aaa9e
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-840ef6c78e6a-dc59e4fea9d8.txt
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
 
---===============3080193291029977502==
+--===============2419891561904517712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============3080193291029977502==--
+--===============2419891561904517712==--
