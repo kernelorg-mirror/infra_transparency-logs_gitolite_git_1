@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Tue, 30 Jun 2026 14:19:59 -0000
-Message-Id: <178282919998.2085437.12951534918059173680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 30 Jun 2026 14:21:44 -0000
+Message-Id: <178282930447.2088542.1750799190340632670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 81fe702ff1760da32bcd3ef4494b2a33dbeced72
-    new: 88496c4ac5a6ade75619f4b1015706a8b924d50a
+  - ref: refs/heads/asym-cpu-stabilize-smt
+    old: 6b85a37a8aad0009070d34d849c450fc3a0240e0
+    new: a78aeba7438e914efe5e7b0e1dd1a4c3cea6cd73
     log: |
-         88496c4ac5a6ade75619f4b1015706a8b924d50a ntfs: avoid stale runlist element dereference in fallocate
+         a78aeba7438e914efe5e7b0e1dd1a4c3cea6cd73 sched/fair: Stabilize idle SMT core selection with asym-capacity
          
