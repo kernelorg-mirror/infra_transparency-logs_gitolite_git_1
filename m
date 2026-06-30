@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3153264876657551437=="
+Content-Type: multipart/mixed; boundary="===============4361976575740126605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 30 Jun 2026 09:07:20 -0000
-Message-Id: <178281044050.1833040.16557882866392136827@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 09:07:42 -0000
+Message-Id: <178281046208.1833287.1113315929766340796@gitolite.kernel.org>
 
---===============3153264876657551437==
+--===============4361976575740126605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 4f070ccb4dc4692e3b6757819fb80655f58b4f12
-    new: 6d57fcfedb3762dc2655a3c8b2c954fb2e899c7f
-    log: revlist-4f070ccb4dc4-6d57fcfedb37.txt
+  - ref: refs/heads/objtool/core
+    old: 5cabd49ced8a968e200397715477d7c563009d3e
+    new: abb3ae732ae80cad39445b9b4dae4cf2db71111c
+    log: revlist-5cabd49ced8a-abb3ae732ae8.txt
 
---===============3153264876657551437==
+--===============4361976575740126605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f070ccb4dc4-6d57fcfedb37.txt
+Content-Disposition: attachment; filename=revlist-5cabd49ced8a-abb3ae732ae8.txt
 
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
@@ -1047,8 +1049,6 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-613c054b4e87e54e820b6202f192e90052ebb224 locking/lockdep: Fix NULL pointer dereference in __lock_set_class()
-992232dfdef4222643f292fe477dba9e8419e4da static_call / jump_label: Replace __ASSEMBLY__ with __ASSEMBLER__ in headers
-6d57fcfedb3762dc2655a3c8b2c954fb2e899c7f locking/percpu-rwsem: Annotate intentional data race in readers_active_check()
+abb3ae732ae80cad39445b9b4dae4cf2db71111c objtool: Replace __ASSEMBLY__ with __ASSEMBLER__ in header files
 
---===============3153264876657551437==--
+--===============4361976575740126605==--
