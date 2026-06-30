@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 30 Jun 2026 02:51:03 -0000
-Message-Id: <178278786301.1558330.15451237923039961338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 30 Jun 2026 03:22:39 -0000
+Message-Id: <178278975937.1579811.6500244551935869996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: e94ac5cbe1872b5a8a18031fbb0d15cba267f15a
-    new: b672a2f22af7655ba6b3a136a6f6935eeef3735f
+  - ref: refs/heads/experimental
+    old: 3e26b6edc3f13db777369c36109354455e5f1c22
+    new: 3ba45b9ae27dfcb4e64a7b1d78d9138c38544044
     log: |
-         b672a2f22af7655ba6b3a136a6f6935eeef3735f foo
+         25eb24dac1b2e38dafd7fb5a494f61583c8c124f erofs-utils: lib: fix `ictx` leak in the failure path
+         589091612cd7293ae1c97a6584a9536e65c9892e erofs-utils: lib: silence `INTEGER_OVERFLOW`
+         9e63efa4959bf20d632ede1babc13fb196bbe6d1 erofs-utils: lib: fix `PRINTF_ARGS`
+         49fa44d2f08529548056f94329c6739e9dce482b erofs-utils: mount: fix `RESOURCE_LEAK`
+         e3cfc33458e0155bd0037f0cb077645acc097b08 erofs-utils: lib: fix `STRING_NULL` in nbd.c
+         fa1ddafc7148d60c922959c3071e50392fcc6da2 erofs-utils: mount: fix `RESOURCE_LEAK`
+         3ba45b9ae27dfcb4e64a7b1d78d9138c38544044 erofs-utils: lib: silence `INTEGER_OVERFLOW`
          
