@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Tue, 30 Jun 2026 07:44:38 -0000
-Message-Id: <178280547893.1769300.5102246701234022363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 30 Jun 2026 07:49:05 -0000
+Message-Id: <178280574518.1773037.8966577784119008012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
+  - ref: refs/heads/gpio/for-current
+    old: 2ed2e359dea752e7758d29a423033031a0b96584
+    new: 9a6c0b6ea12746d50cf53d59a7e05fd83f974bda
+    log: |
+         9a6c0b6ea12746d50cf53d59a7e05fd83f974bda gpio-f7188x: Add support for NCT6126D version B
+         
