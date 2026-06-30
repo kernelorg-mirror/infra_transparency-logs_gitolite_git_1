@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8359411550394018891=="
+Content-Type: multipart/mixed; boundary="===============6422861726133323119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 30 Jun 2026 10:00:05 -0000
-Message-Id: <178281360507.1878235.7495469971947145952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 30 Jun 2026 10:00:09 -0000
+Message-Id: <178281360938.1878425.7228191721724294283@gitolite.kernel.org>
 
---===============8359411550394018891==
+--===============6422861726133323119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: cf6f56990ea21172e085f0588e5bbf2089ce8f58
     new: 91a6dba5183d269b8215d6170c079b654ef4cab7
     log: revlist-cf6f56990ea2-91a6dba5183d.txt
 
---===============8359411550394018891==
+--===============6422861726133323119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1782813602 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1782813602-2592e9745918c10cab977c961413ee8be4d91df3
+pusher C3F436CA30F5D8EB 1782813606 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1782813606-31d9ea30692975c22913bb0f3e4c450adf87a7f0
 
-cf6f56990ea21172e085f0588e5bbf2089ce8f58 91a6dba5183d269b8215d6170c079b654ef4cab7 refs/heads/for-7.2
+cf6f56990ea21172e085f0588e5bbf2089ce8f58 91a6dba5183d269b8215d6170c079b654ef4cab7 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpDk6IACgkQJNaLcl1U
-h9CWMQf7BORdbKhr8E7d2iILjf7fhDNFDYDxsZ57YuCjXO4aWzgCSGUvBtHj/Bih
-PeMG24D0/CiUsu3aJ5wysIW4dfImEnbwM6jfcswg3PGlxrdzdP/Nh4EnS7e/JY4i
-u0ltfnLClPyXNU1ONii2KWx+QI2rAPe8Ry74URnzbpVErtSJlFjGt5Nj4/xs+Zek
-+EQQTfFoKydbwUGAyEBB8lQFOV6tHANDPWWrUeqVNJSHQNJIMcP9qyvgvGQYfhZe
-CrGk0tE0O9KOus/hYcJjtPz5HhGFJ1JqAXFzaOmUR5yENhA0bRn6fwkL/naPNvGp
-L9TVynh7eCk3WsOM9shrzTuM85nXUg==
-=dnrM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpDk6YACgkQJNaLcl1U
+h9DKCAf8DUiqfUYm1zLVgdeQIlHpi/mxJNx58yxqXl0s+doVYi1xjI1jx7O422Qh
+2fSA0bPGM9mEV2q5n9+n/dhzkaJ5B8RsNONlcNe81ZLQO7WT3Yz29hfJ0yyiCfsU
+GHkF3jJRNaxrWI6e/8s6gdvv2cW8reW394ttib/jL5k2yndIowZ8bGeiJ50spCb/
+d4aqxjpUA7aNcLg5bclnGufQW16mro9TdKGjHx1/WwdyOt4WYbXcwD61ZITPIQN6
+gvF4GHpnNOD/BlDPt2xlFl1+9AULMcBW6qPUyK6abMFZ877Da2FMCQBeg4eiCf3y
+BPhEanyavetSiuiOXzCCP0wFhqBLzA==
+=3CPQ
 -----END PGP SIGNATURE-----
 
---===============8359411550394018891==
+--===============6422861726133323119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 0773610eef71c30df3cb4c113c8215625d2a7c23 ASoC: codecs: lpass-va-macro: Fix LPASS Codec Version for SC7280
 91a6dba5183d269b8215d6170c079b654ef4cab7 MAINTAINERS: ASoC: SOF: add AMD reviewer for Sound Open Firmware
 
---===============8359411550394018891==--
+--===============6422861726133323119==--
