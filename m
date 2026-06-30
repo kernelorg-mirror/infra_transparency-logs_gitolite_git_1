@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 30 Jun 2026 23:07:52 -0000
-Message-Id: <178286087286.2500058.12688055364864366419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 30 Jun 2026 23:09:37 -0000
+Message-Id: <178286097759.2500786.4056978403865145167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 1a42625604046790ea8ec61c2a749bbf76b28943
-    new: a810e1aa11bf6f4fb1bfc2b94bc7541615379209
+  - ref: refs/heads/bootconfig/fixes
+    old: b5878abe9175d7ddd32b2fdc237c29952214ebdf
+    new: dec4d8118c179b3d12bca7e609054c6011c4f2ce
     log: |
-         a810e1aa11bf6f4fb1bfc2b94bc7541615379209 hwmon: (cros_ec) Implement custom kelvin to celsius conversions
+         dec4d8118c179b3d12bca7e609054c6011c4f2ce bootconfig: fix NULL-pointer arithmetic in xbc_snprint_cmdline()
          
