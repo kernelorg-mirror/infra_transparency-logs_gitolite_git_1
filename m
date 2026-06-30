@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4832025922758919802=="
+Content-Type: multipart/mixed; boundary="===============7698119186941623375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fwestphal/nf-next
-Date: Tue, 30 Jun 2026 18:12:55 -0000
-Message-Id: <178284317592.2277343.2070081199703905346@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 18:17:00 -0000
+Message-Id: <178284342033.2280922.11644614395092060356@gitolite.kernel.org>
 
---===============4832025922758919802==
+--===============7698119186941623375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fwestphal/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/testing
-    old: 65023ccf527bf8ef92625b29886f81668c0faeeb
-    new: c13aee84f2c3f3c2e046e563f35a3da2a5a8cc27
-    log: revlist-65023ccf527b-c13aee84f2c3.txt
+  - ref: refs/heads/main
+    old: c0aa5f13826dcb035bec3d6b252e6b2020fa5f88
+    new: f456c1922c49e6be5ce407ddb74a6e61af5b65cf
+    log: revlist-c0aa5f13826d-f456c1922c49.txt
 
---===============4832025922758919802==
+--===============7698119186941623375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65023ccf527b-c13aee84f2c3.txt
+Content-Disposition: attachment; filename=revlist-c0aa5f13826d-f456c1922c49.txt
 
+10b3c3d63ecc17c6acb855bac5f40367f1115765 perf bpf: Validate func_info_rec_size and sub_id in synthesize_bpf_prog_name()
+2d6ea0875093da9033fcb62c09a9e2f1de49fe91 perf bpf: Reject oversized BPF metadata events that truncate header.size
+033e85edfbf271f92979d2a39aeaf40f8472a795 perf bpf: Bounds-check array offsets in bpil_offs_to_addr()
+4a7500d772fe59653053db22ca83c9e2232b22e1 perf c2c: Free format list entries when releasing c2c hist entries
+542e88a4c6f7b6edd1326ce767d4cb3c2ea9d61d perf cs-etm: Reject CPU IDs that would overflow signed comparison
+e22a4228546f7220d0425630abf703fd2ef7c600 perf evsel: Add no-libtraceevent stubs for evsel__field() and evsel__common_field()
+9212e395c64d80f7b6af314ff6dfc4b526571493 perf evsel: Add lazy-initialized probe type detection helpers
+d669529868b355e1f10ff869539dc995cd25db3f perf trace: Guard __probe_ip suppression with evsel__is_probe()
+2b5f5609ae9b218c9ee0cdb7f624ddb03d44cf84 Merge tag 'chrome-platform-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+fd1878584db2f0ab3fe8f2b3d8d59316fffa47fa Merge tag 'chrome-platform-firmware-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
 6b617c82580599994c8dd078ab0dcb0375b42eda Merge tag 'pwm/for-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 bc5c25c8f684982d0363380e3490f626c68e0427 selftests/net: Move netkit lease hw setup into per-test fixtures
 96fda937b4c170ae6164419f33434830423ce0e2 selftests/net: Use public NetDrvContEnv API in nk_qlease fixtures
@@ -1040,15 +1050,5 @@ ba7ad852e1ae934adf506e1e854910a7ab52aa3f mlxsw: spectrum_acl_erp: Fix const qual
 895bad9cc4cecdef54e4ef66208544d108799761 selftests: net: make busywait timeout clock portable
 cef9d6804030793cf8b8796fd6936197d065dd3e net: gianfar: dispose irq mappings on probe failure and device removal
 f456c1922c49e6be5ce407ddb74a6e61af5b65cf vsock/virtio: rewrite MSG_ZEROCOPY flag handling
-ba44563ddab7b49152a288295d2098a12e05fd8c netfilter: nfnetlink_hook: Dump nat type chains
-4416e7564adc053961cb53626e61e34f2cfcc197 netfilter: x_tables: replace strlcat() with snprintf()
-eee040b44df74b5545eedc253d5d9ecbb8794bb5 netfilter: replace u_int8_t and u_int16t with u8 and u16
-6cf18f77e2ef49f4fbae6cb95bb7f756757cd796 netfilter: avoid strcpy usage
-5e864a05b00f356f7d1ac8c23ef71a30dde32918 netfilter: remove redundant null check before kvfree()
-7b69d89b543c93f8ae63cc5e61cd48b1eae4d130 netfilter: xt_tcpmss: add checkentry for parameter validation
-ecc4a65ecad5684c69681853e6aba1cfddeba75c netfilter: xt_dscp: add checkentry for tos match
-93c46573bac840a29f60b3f70f8ec5c48e8e20ab netfilter: nf_conntrack_helper: do not hash by tuple
-1441d6d5f6413118c9f674a7d9c56a84b40c735d netfilter: conntrack: get rid of tuple in helper definitions
-c13aee84f2c3f3c2e046e563f35a3da2a5a8cc27 netfilter: conntrack: remove obsolete module parameters
 
---===============4832025922758919802==--
+--===============7698119186941623375==--
