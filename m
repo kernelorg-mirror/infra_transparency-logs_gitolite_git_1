@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8962670712305511772=="
+Content-Type: multipart/mixed; boundary="===============4987037082212613929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 30 Jun 2026 21:25:40 -0000
-Message-Id: <178285474069.2426028.17490705557097905998@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 21:25:50 -0000
+Message-Id: <178285475054.2426259.14571005483114508176@gitolite.kernel.org>
 
---===============8962670712305511772==
+--===============4987037082212613929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/pending
+    old: c8dc62a875d0e958d45fe539fd35a77df20b50b5
     new: 913998f903fb1432c0046c33003db38a9e8bedb1
-    log: revlist-dc59e4fea9d8-913998f903fb.txt
+    log: revlist-c8dc62a875d0-913998f903fb.txt
 
---===============8962670712305511772==
+--===============4987037082212613929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-913998f903fb.txt
+Content-Disposition: attachment; filename=revlist-c8dc62a875d0-913998f903fb.txt
 
 25e638447e329f08febae2b64c7f85b3bb95e998 genirq: export irq_can_set_affinity() for module drivers
 74e1a4762c79a2d6879495d83f22b83acc4dae33 wifi: ath12k: enable threaded NAPI when DP IRQ affinity is unavailable
@@ -49,4 +49,4 @@ b1d8d626e206a757b745af2adcbc7127ec593a20 wifi: ath12k: Show per-radio center fre
 58aeb412495ada7fe5495c7805504d7cf1d45453 wifi: ath12k: change MAC buffer ring size to 4096
 913998f903fb1432c0046c33003db38a9e8bedb1 wifi: ath12k: correct monitor destination ring size
 
---===============8962670712305511772==--
+--===============4987037082212613929==--
