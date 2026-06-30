@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4813038071385644706=="
+Content-Type: multipart/mixed; boundary="===============8849206684103839812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 30 Jun 2026 05:58:18 -0000
-Message-Id: <178279909818.1693821.16073065634137935986@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 05:58:21 -0000
+Message-Id: <178279910109.1694047.16271392166553708470@gitolite.kernel.org>
 
---===============4813038071385644706==
+--===============8849206684103839812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 88cefc306c43b58d9bb65c9e96e284306710d961
-    new: 15654b0268cd65b4e673510c0377774e61b86397
-    log: revlist-88cefc306c43-15654b0268cd.txt
+  - ref: refs/heads/mm-unstable
+    old: fe61612214b618072b4ea3f5065a81296df6dd75
+    new: 93c262a630baeff5cab391720c290f50a98bf85f
+    log: revlist-fe61612214b6-93c262a630ba.txt
 
---===============4813038071385644706==
+--===============8849206684103839812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88cefc306c43-15654b0268cd.txt
+Content-Disposition: attachment; filename=revlist-fe61612214b6-93c262a630ba.txt
 
 738e1a5046144c69efab37a3878b7bb7c2659e00 selftests/mm: fix ksft_process_madv.sh test category
 eb087a01be807edabfc7544bb4f7d6ef4cf7a36e mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -148,58 +148,5 @@ a1b025dc368256f4343d3428561fecc2ab4faa5d mm/zsmalloc: drop pool->lock from zs_fr
 0f23a946b1c8d3af40aa1e931220af60a08d61a3 MAINTAINERS: move inactive maintainer to CREDITS
 414bfa8e3898a9714f638b4759a2e2fef7f8e941 mm: move alloc tag to mm
 93c262a630baeff5cab391720c290f50a98bf85f mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-3ebaaf49034cd5ecb42ec54e4709487515a3d08c mm/damon/core: reduce kernel stack usage
-8e74ce8b130305592a27be55b5ad5eb550484555 include/linux/swap.h: remove unused leftovers
-a547b935ea365379d73b1112404d09a09e555cc7 mm: constify oom_control, scan_control, and alloc_context nodemask
-5b797eb7e6517e5ee94d40bf18f30250fb1d42bd mm/swap_state: remove unnecessary lru_add_drain() from readahead
-1198144c86d463e4473a1b1fb0e4455c3b8084c8 mm/hugetlb_cma: support percentage-based hugetlb_cma reservation
-f955150a91694f5843e780f2a4d3da9cade92f0b mm/vmstat: avoid taking zone lock in /proc/buddyinfo reads
-fe746d8eab3ee402379b474766f336426a1de650 mm/userfaultfd: clear uffd-wp PTE state when re-registering without WP
-0e05e1df50d77ccf320df40685df147a7a9faa37 tools/mm/page_owner_sort: return explicit filter results
-88e155d781b4966896df4e9ce5d091aaaa0821b8 tools/mm/page_owner_sort: free per-record allocations
-a0fc1aa6eaa414191b3d6c35db1253ce294337b4 tools/mm/page_owner_sort: bound pattern output copies
-d5528d34486157b40b305edd8031a0269be92217 samples/damon/wsse: handle damon_start() failure
-aa13f8677146e502309c1399650cf618781c2e78 samples/damon/prcl: handle damon_start() failure
-abb3d27f3bb28c7a988227938256312406c0548d samples/damon/mtier: handle damon_start() failure
-99c82e4990d2d20315ef2b73bc0f2d59f7b1f2d0 samples/damon/mtier: handle damon_stop() failure
-97356ad91bc5b7b3fde387725322b970fa1c1ca9 samples/damon/wsse: stop and free damon ctx when damon_call() fails
-c741370e9b8b1aa27c8d38a0fba0f0c8eddf25a6 samples/damon/prcl: stop and free damon ctx when damon_call() fails
-7cb45437aa0d82a27db7eb1ec732ebb31f2bedfa mm/damon/sysfs: kobject_del() target (normal), context and kdamond dirs
-2377db451c530e248a2a39c50c388444f0034265 mm/damon/sysfs: kobject_del() region and target (error) dirs
-d569afaff6f04dfb9628a7ea7ee12e46c366063c mm/damon/sysfs-schemes: kobject_del() scheme dirs
-4e6333d2cbc446cc375c3f4488da111bb112d204 mm/damon/sysfs-schemes: kobject_del() scheme region dirs
-ab82de9040ac8e9649bdb3f5ade298600fafabbb mm/damon/sysfs-schemes: kobject_del() scheme filter dirs
-9ff385103c6eb0593f250bb71b3b3557b8a8e7b0 mm/damon/sysfs-schemes: kobject_del() scheme quota goal dirs
-14afeb783dbc800eefa5a1c98aec55209e241e4f mm/damon/sysfs-schemes: kobject_del() scheme action destination dirs
-8bf9ace7f05c1a5ff497b61ee856c5760f6b1f7d mm/damon/sysfs: kobject_del() probe dirs
-60c1153a7f8c4886d0807fb61bd00bb1f69fada2 mm/damon/sysfs: kobject_del() probe filter dirs
-36aa541d90006122702792d5426f7f10fd1145bb mm/damon/sysfs: kobject_del() probe dirs in probes_addd_dir error path
-c6e6407ce583585a31b11f8c046185303fe5a655 mm/damon/sysfs-schemes: kobject_del() region for populate_region error
-0c0a9a82624830547e0a09b380c860cbbc52e571 mm/vmpressure: skip tree=true accounting on cgroup v2
-ff11ac5f6d31e6d855f0273247899340f377b74c mm/vmpressure: split v1 userspace eventfd code into vmpressure-v1.c
-e239d2a354ad37b828d2dae1e812f9de5172169e sparc/mm: drop custom pte_clear_not_present_full()
-0b65eb7e825feb9a418229c89011ac58721c8721 mm: drop pte_clear_not_present_full()
-1a3affacaff67120b949fef9d0c9a39cb1f224d2 mm: cleanup clear_not_present_full_ptes() and rename to clear_non_present_ptes()
-ec10d62e2929828461f1402c5a7d4ad581b298b5 selftests/damon: prevent cross-context state pollution in DamonCtx
-a774763d69134e1461fdb0b62c97be85e2e4e410 selftests/damon/damos_tried_regions: fix expectation output and join TypeError
-05118968c31552fdbd227e25aab24f3173eec194 selftests/damon: fix dead code, skipped checks, and broken lookups
-a569862668096f4789426268f1f6491852a087af selftests/damon/_damon_sysfs.py: fix memcg_path assignment
-1aaa65c3b7ba8150e4771d2e6b31688695cdd47a selftests/damon/sysfs.py: validate memcg_path staging readback
-df1cbd723ec03ddb616186904ed061554c86713e selftests/damon/_damon_sysfs: support kdamond refresh_ms
-f2ba421a14e6ed955b754191f0333d76bdcb9abd selftests/damon/sysfs_refresh: test kdamond refresh_ms
-0ed75487dbbe1997b477c04af370a5b51515e47c mm/damon/core: use kvmalloc for target regions array
-3bb515c778e022b9d034bed7f60d41cf036fde41 mm/damon/stat: use secs_to_jiffies() instead of msecs_to_jiffies()
-906a1d2b56ae05712127181790c5639ba1982b99 Docs/{admin-guide,mm}/damon: fix DAMON documentation details
-14daf06b18926c1cc7c49ee2aac86c5e5714aad1 samples/damon: fix typos in Kconfig help text
-6427c5dee07031d3b120695c0524c68fd910f129 mm/damon/tests/core-kunit: add KUnit test for walk_control_obsolete behavior
-461030812ef87468ef0e8bddcf719cf3c5fb358f mm/damon/core: split a fraction of regions when nr_regions exceeds max/2
-acad8852aabc384339b0845d90f3cae7076e48ff mm/damon/tests/core-kunit: test split above max_nr_regions/2
-07823f9dc2ee961b679f7dd302a16f5982aefd53 mm: mempolicy: fix automatic numa balancing for shmem
-a3f6a70710a8848e2ab25be93d34d748a9df15f1 docs/mm: Fix braces
-df307c752d518ddd73eaac89c10945f8ad00cb24 mm: vmscan: remove the redundant FOLIOREF_RECLAIM_CLEAN logic
-9782a362b1a2f82533cd1253456887f8c45a8a1e mm/page_alloc: free allocated PFNs if the range does not match
-6f7e1f1fd5dad4548f92e3b3a185340011ce8f08 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-90e23587d68842d4aefdf08adb1f4561c053f64c mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-15654b0268cd65b4e673510c0377774e61b86397 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4813038071385644706==--
+--===============8849206684103839812==--
