@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2878669325621868846=="
+Content-Type: multipart/mixed; boundary="===============4099059469696274019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Tue, 30 Jun 2026 00:32:41 -0000
-Message-Id: <178277956123.1444807.16948152067545760738@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 00:32:51 -0000
+Message-Id: <178277957194.1445102.4517122728397822640@gitolite.kernel.org>
 
---===============2878669325621868846==
+--===============4099059469696274019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes
+  - ref: refs/heads/kbuild-fixes-unstable
     old: 8cd9520d35a6c38db6567e97dd93b1f11f185dc6
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-8cd9520d35a6-dc59e4fea9d8.txt
 
---===============2878669325621868846==
+--===============4099059469696274019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============2878669325621868846==--
+--===============4099059469696274019==--
