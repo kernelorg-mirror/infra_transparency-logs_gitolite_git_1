@@ -1,31 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2806821976750835466=="
+Content-Type: multipart/mixed; boundary="===============3153264876657551437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 30 Jun 2026 09:06:33 -0000
-Message-Id: <178281039355.1832595.9893205656214471401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 30 Jun 2026 09:07:20 -0000
+Message-Id: <178281044050.1833040.16557882866392136827@gitolite.kernel.org>
 
---===============2806821976750835466==
+--===============3153264876657551437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 67d27727854def4a7e2b386429941f5c4741ccc4
-    new: a4b016d0a29038a5b7c96bf62c054bf7832451d9
-    log: revlist-67d27727854d-a4b016d0a290.txt
+  - ref: refs/heads/locking/core
+    old: 4f070ccb4dc4692e3b6757819fb80655f58b4f12
+    new: 6d57fcfedb3762dc2655a3c8b2c954fb2e899c7f
+    log: revlist-4f070ccb4dc4-6d57fcfedb37.txt
 
---===============2806821976750835466==
+--===============3153264876657551437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67d27727854d-a4b016d0a290.txt
+Content-Disposition: attachment; filename=revlist-4f070ccb4dc4-6d57fcfedb37.txt
 
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
+c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
+808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
+ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
+8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
 32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
 85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
 b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
@@ -1034,21 +1047,8 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-003267cb94e21d762eb72d6977d84f44f1705bb7 perf/x86/intel/uncore: Fix PCI PMU cleanup on setup failure
-7d3a9ff98898b3521eb5d7a3daf703b383f7935a perf/x86/intel/uncore: Fix refcnt and other cleanups
-cbbc25209ce34f1baeec615553b93904a7a5d8cd perf/x86/intel/uncore: Let init_box() callback report failures
-3012af7df3430788eddd30b3c6654d0a0a5f06c6 perf/x86/intel/uncore: Keep PCI PMUs working when MMIO/MSR setup fails
-ae7ca8796ddac708db592c5a68555414c451afcc perf/x86/intel/uncore: Factor out box setup code
-30c0a1095652275768a5de67188ff888d1f5d190 perf/x86/intel/uncore: Introduce PMU flags and broken state
-174f0582e38abe03b88e15f04bfe58490f88cb19 perf/x86/intel/uncore: Fix uncore_box ref/unref ordering
-b25813b17944b4df532246cddae82201fb880481 perf/x86/intel/uncore: Implement lazy setup for MSR/MMIO PMUs
-9acfcb9b30b6c32ec0d8baad8b7c154120d4cff2 perf/x86/intel: Remove anythread_deprecated bit from perf_capabilities
-503c7184ca6a5e1f5b53466621d94fa413f3bad9 perf/x86/intel: Keep cap_user_rdpmc in sync with RDPMC user-disable state
-d8b3ee29a7e4aa00805aae8d6be329912d05bd5e perf/x86/intel: Fallback to sw branch type decoding if no hw decoding
-707ada0c09e915f6feb181d3d2d7ed957312db8d perf/x86/intel: Fix kernel address leakages in LBR stack
-cf4ffb0088287774fc4bf00b65589b4158497777 perf/x86/intel: Validate the return value of intel_pmu_init_hybrid()
-39bae9e84e203df9cc19e6f081ad806956501bb5 perf/x86/intel: Drop fixed-counter PEBS constraints for baseline PEBS
-de97a56a9fbd3a01e942057426ea749c282231b0 perf/core: Fix kernel register info leak via hardware skid
-a4b016d0a29038a5b7c96bf62c054bf7832451d9 perf/core: Check kernel access when kernel callchains are requested
+613c054b4e87e54e820b6202f192e90052ebb224 locking/lockdep: Fix NULL pointer dereference in __lock_set_class()
+992232dfdef4222643f292fe477dba9e8419e4da static_call / jump_label: Replace __ASSEMBLY__ with __ASSEMBLER__ in headers
+6d57fcfedb3762dc2655a3c8b2c954fb2e899c7f locking/percpu-rwsem: Annotate intentional data race in readers_active_check()
 
---===============2806821976750835466==--
+--===============3153264876657551437==--
