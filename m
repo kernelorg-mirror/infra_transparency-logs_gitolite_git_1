@@ -1,41 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1384652896385776781=="
+Content-Type: multipart/mixed; boundary="===============4008181140877211444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Tue, 30 Jun 2026 18:46:41 -0000
-Message-Id: <178284520128.2303912.3910943122759934099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Tue, 30 Jun 2026 18:46:49 -0000
+Message-Id: <178284520918.2304175.15084918024345940444@gitolite.kernel.org>
 
---===============1384652896385776781==
+--===============4008181140877211444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: f71ece9712b7712df98871eea9aeb60e49ca5239
+    old: 033182baeab63ce96a6eb8aef1a6cd444fcf9519
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-f71ece9712b7-dc59e4fea9d8.txt
+    log: revlist-033182baeab6-dc59e4fea9d8.txt
   - ref: refs/heads/dev-staging
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-254f49634ee1-dc59e4fea9d8.txt
   - ref: refs/heads/stable-7.2
-    old: f71ece9712b7712df98871eea9aeb60e49ca5239
+    old: 033182baeab63ce96a6eb8aef1a6cd444fcf9519
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-f71ece9712b7-dc59e4fea9d8.txt
+    log: revlist-033182baeab6-dc59e4fea9d8.txt
   - ref: refs/tags/v7.2-rc1
     old: 0000000000000000000000000000000000000000
     new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
 
---===============1384652896385776781==
+--===============4008181140877211444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f71ece9712b7-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-033182baeab6-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1062,7 +1062,7 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============1384652896385776781==
+--===============4008181140877211444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2093,4 +2093,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============1384652896385776781==--
+--===============4008181140877211444==--
