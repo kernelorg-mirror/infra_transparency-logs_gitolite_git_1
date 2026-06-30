@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4788521228374435054=="
+Content-Type: multipart/mixed; boundary="===============1968262024099228110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Tue, 30 Jun 2026 21:07:51 -0000
-Message-Id: <178285367188.2412106.6056612551893366186@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 21:08:01 -0000
+Message-Id: <178285368108.2412370.4401513514772843786@gitolite.kernel.org>
 
---===============4788521228374435054==
+--===============1968262024099228110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-next
-    old: af0c119d0e288c76999cd49edd110c27d3d5c3bd
+  - ref: refs/heads/docs-mw
+    old: b13f724df35c4f1a69e20c965a2fc74fd2921e59
     new: 2933b82083e758fe6cfff570143541d4dba672c3
-    log: revlist-af0c119d0e28-2933b82083e7.txt
+    log: revlist-b13f724df35c-2933b82083e7.txt
 
---===============4788521228374435054==
+--===============1968262024099228110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af0c119d0e28-2933b82083e7.txt
+Content-Disposition: attachment; filename=revlist-b13f724df35c-2933b82083e7.txt
 
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
@@ -1051,4 +1051,4 @@ a6bb404f065515c69825d237ab626afbf520db24 docs: pt_BR: Translate patch posting do
 08c1ce7e718dcd3606ba9dfb91d82bbe424bd303 docs: pt_BR: update netdevsim section in maintainer-netdev.rst
 2933b82083e758fe6cfff570143541d4dba672c3 Documentation: locking.rst: update deprecated function
 
---===============4788521228374435054==--
+--===============1968262024099228110==--
