@@ -1,46 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 30 Jun 2026 10:07:30 -0000
-Message-Id: <178281405028.1883482.11829273208393547744@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8777378325427664679=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 30 Jun 2026 10:10:32 -0000
+Message-Id: <178281423212.1886419.11828504195783401139@gitolite.kernel.org>
+
+--===============8777378325427664679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d4b6c534133b997fbab6de11f748bf9f1cf9ac28
-    new: 2ff6896e9ce61996b7f46c092f1f4c02081194ea
+  - ref: refs/heads/for-7.3
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: dffd32eb2b0e714a8ae23f98518ad7152cb06369
     log: |
-         b0e44d2aae2b660da21b44af77cad94d181fb8e9 arm64: dts: renesas: rzt2h-n2h-evk-common: Add memory nodes
-         4b30cd782497b57b00df9320ec44833c402bc1c9 ARM: dts: renesas: r9a06g032: Describe SPI controllers
-         dccd661075ca8bdccfbc95d065964df6481a8126 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable SPI-FRAM
-         30d3a7db7471001c926c20333e07e54749fd3572 Merge branch 'renesas-dts-for-v7.3' into renesas-next
-         2ff6896e9ce61996b7f46c092f1f4c02081194ea Merge branch 'renesas-next' into renesas-devel
+         e427e1832bb0c440b47af2553c3b6a8674f412a4 regcache: Make ->exit() callback return void
+         dffd32eb2b0e714a8ae23f98518ad7152cb06369 regmap: maple: Workaround for another false-positive compiler warning
          
-  - ref: refs/heads/next
-    old: 71c5791918e128dde49e758c3f08b0d269379f64
-    new: 30d3a7db7471001c926c20333e07e54749fd3572
-    log: |
-         b0e44d2aae2b660da21b44af77cad94d181fb8e9 arm64: dts: renesas: rzt2h-n2h-evk-common: Add memory nodes
-         4b30cd782497b57b00df9320ec44833c402bc1c9 ARM: dts: renesas: r9a06g032: Describe SPI controllers
-         dccd661075ca8bdccfbc95d065964df6481a8126 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable SPI-FRAM
-         30d3a7db7471001c926c20333e07e54749fd3572 Merge branch 'renesas-dts-for-v7.3' into renesas-next
-         
-  - ref: refs/heads/renesas-dts-for-v7.3
-    old: b73d5031bed39e81ea051d189c1e0d666e698d1c
-    new: dccd661075ca8bdccfbc95d065964df6481a8126
-    log: |
-         b0e44d2aae2b660da21b44af77cad94d181fb8e9 arm64: dts: renesas: rzt2h-n2h-evk-common: Add memory nodes
-         4b30cd782497b57b00df9320ec44833c402bc1c9 ARM: dts: renesas: r9a06g032: Describe SPI controllers
-         dccd661075ca8bdccfbc95d065964df6481a8126 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable SPI-FRAM
-         
-  - ref: refs/tags/renesas-devel-2026-06-30-v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 71f2da1b95cef95ae2e7c0ceb8333bce96f2c153
-  - ref: refs/tags/renesas-next-2026-06-30-v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: ac60d36b92dc3d4f808de86ac853b075c62819e3
+
+--===============8777378325427664679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1782814230 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1782814229-648ad540ca3e9267a93bcc32ba6e72b287d2437a
+
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 dffd32eb2b0e714a8ae23f98518ad7152cb06369 refs/heads/for-7.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpDlhYACgkQJNaLcl1U
+h9CHuAf9HCXHMPJKX9ZLPeogCC/7LGpa5ZW6nC2nzhO6OAgKr2QGzlw8Drgxpuep
+6UutN2KiYo28XgJHpAyanJPz3R9ethGTF/0mS0f/tARBbOGoJbxTSPv7d6uAuC4A
+4fKAfGy7hiixCjpx3DNmRuZ47BVpR75STOBI7FoR5GzUnLpXR7khMBDIxthYrKbE
+57GPBzSuwnyDFLIsafSTlvVSEChTKZjkFLFslb9b5lV7+HqhUMfg3+NrTw8AdDXz
+n3vMoJhheA2+wR3K0ivXeiKSP8X+JPvwS+ydrMIXHTRYK49t5nExNDNenBWpDXjF
+WJWafsKqUwMTM+PuDV5W0k+QCaWRRw==
+=VoQT
+-----END PGP SIGNATURE-----
+
+--===============8777378325427664679==--
