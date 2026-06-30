@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Tue, 30 Jun 2026 13:46:33 -0000
-Message-Id: <178282719340.2058632.11485827764661645576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 30 Jun 2026 13:47:04 -0000
+Message-Id: <178282722424.2059116.13449586262399450112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/sent/20260630-tb10x-0360d5489542-v1
-    old: 0000000000000000000000000000000000000000
-    new: 35ad4d669b0b982d3472de475993909eed42f6d1
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
+  - ref: refs/heads/arm64-xs-decode
+    old: 400df87aee7b6f393e5d363d377cb5a613f8b37a
+    new: 2b26c2a28b945e8b5d63211a4d40294ba2a9db74
+    log: |
+         2b26c2a28b945e8b5d63211a4d40294ba2a9db74 arm64: mm: When logging data aborts only decode Xs when ISV=1
+         
