@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 30 Jun 2026 22:23:12 -0000
-Message-Id: <178285819222.2466573.10534042534919086861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 30 Jun 2026 22:28:15 -0000
+Message-Id: <178285849547.2470683.16118183080539181354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: f0d8769d57981552b47c0fdc476643560fe33aff
-    new: 76522806dbfb58941f6fa4b6116b891b66689613
-    log: |
-         76522806dbfb58941f6fa4b6116b891b66689613 Fixes for all trees
-         
+  - ref: refs/tags/sfc-net-pullrequest-20260630
+    old: 0000000000000000000000000000000000000000
+    new: e3445d1b538215d253e1cf3ace2ebfac13f6b186
