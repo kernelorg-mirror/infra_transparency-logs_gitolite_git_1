@@ -1,30 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Tue, 30 Jun 2026 04:57:24 -0000
-Message-Id: <178279544456.1648664.14972232909225461734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 30 Jun 2026 05:03:55 -0000
+Message-Id: <178279583525.1652797.16895891453570981239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 0ee2d18af649d8b1bbd01c80df16432c47500700
-    new: 76b8eb965a28f72ac212d5ef51cdaac870682948
+    old: b672a2f22af7655ba6b3a136a6f6935eeef3735f
+    new: 7ed0af80439fd13a24314b7ab38cda3c31b501f6
     log: |
-         b6fa3d9d73476256f2776fc5628dc7a09c18f26e damo_report_access: show probe_hits by default when available
-         d2c70cf4b94686803839d5c4254723865cb5bb28 release_note: update
-         76b8eb965a28f72ac212d5ef51cdaac870682948 Update the version
+         7ed0af80439fd13a24314b7ab38cda3c31b501f6 foo
          
-  - ref: refs/heads/next
-    old: d2c70cf4b94686803839d5c4254723865cb5bb28
-    new: 76b8eb965a28f72ac212d5ef51cdaac870682948
-    log: |
-         76b8eb965a28f72ac212d5ef51cdaac870682948 Update the version
-         
-  - ref: refs/tags/v3.3.0
-    old: 0000000000000000000000000000000000000000
-    new: d2a159898a82a8550304af6a72cacce4a173a50e
