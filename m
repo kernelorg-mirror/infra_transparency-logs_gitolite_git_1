@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 30 Jun 2026 03:22:39 -0000
-Message-Id: <178278975937.1579811.6500244551935869996@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 03:23:34 -0000
+Message-Id: <178278981410.1580252.11239590920063509890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 3e26b6edc3f13db777369c36109354455e5f1c22
-    new: 3ba45b9ae27dfcb4e64a7b1d78d9138c38544044
+  - ref: refs/heads/dev
+    old: 1ca8aff02c99d111b59bdc8f458b500d08374d16
+    new: 3e26b6edc3f13db777369c36109354455e5f1c22
     log: |
-         25eb24dac1b2e38dafd7fb5a494f61583c8c124f erofs-utils: lib: fix `ictx` leak in the failure path
-         589091612cd7293ae1c97a6584a9536e65c9892e erofs-utils: lib: silence `INTEGER_OVERFLOW`
-         9e63efa4959bf20d632ede1babc13fb196bbe6d1 erofs-utils: lib: fix `PRINTF_ARGS`
-         49fa44d2f08529548056f94329c6739e9dce482b erofs-utils: mount: fix `RESOURCE_LEAK`
-         e3cfc33458e0155bd0037f0cb077645acc097b08 erofs-utils: lib: fix `STRING_NULL` in nbd.c
-         fa1ddafc7148d60c922959c3071e50392fcc6da2 erofs-utils: mount: fix `RESOURCE_LEAK`
-         3ba45b9ae27dfcb4e64a7b1d78d9138c38544044 erofs-utils: lib: silence `INTEGER_OVERFLOW`
+         445301c848ee6882d24e59470c12009a12d75636 erofs-utils: fsck: add `--xattr-inode-digest` support
+         9ba4d0c1cf39fc6a54f2b84197011638c9df796a erofs-utils: mount: support ublk recovery
+         ef3d102633a012bbe2ec17977ee17c4278eba971 erofs-utils: mount: rename erofsmount_nbd_ctx to erofsmount_ctx
+         d7b18c9fb9cb23ae4dfbbab0d684c809e6c53a10 erofs-utils: lib: switch ZSTD decompression to streaming API
+         3e26b6edc3f13db777369c36109354455e5f1c22 erofs-utils: dump: fix stack-overflow due to directory loops
          
