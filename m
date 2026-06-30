@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 30 Jun 2026 14:16:19 -0000
-Message-Id: <178282897919.2083684.6962579955412201136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 30 Jun 2026 14:18:10 -0000
+Message-Id: <178282909068.2084421.12576963913209576969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/pinctrl-qcom/for-next
-    old: b49024d79fb7304f646003fcd8846ef26dea7e92
-    new: 8a762912365d4e7402fb8942934681acd0a3bcd6
+  - ref: refs/heads/dt-binding
+    old: df045ed256f9b3a933466a1ff6903c75d4e5b629
+    new: 7186ac21201a9a408ae80fcbb9c985c959b3febc
     log: |
-         32bd01532af59cf0cc6994e2794e0aaa9af5bc8d dt-bindings: pinctrl: qcom,pmic-gpio: Document PMG1110 GPIO support
-         8a762912365d4e7402fb8942934681acd0a3bcd6 pinctrl: qcom: spmi-gpio: Add PMG1110 GPIO support
+         7186ac21201a9a408ae80fcbb9c985c959b3febc dt-bindings: imx6q-pcie: Add optional intr/aer/pme interrupts for i.MX95
          
