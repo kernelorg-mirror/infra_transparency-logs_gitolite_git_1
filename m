@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2419891561904517712=="
+Content-Type: multipart/mixed; boundary="===============8691050404420872262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 30 Jun 2026 02:23:43 -0000
-Message-Id: <178278622382.1534376.15014046639346861124@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 02:23:58 -0000
+Message-Id: <178278623857.1534655.3936245747010014695@gitolite.kernel.org>
 
---===============2419891561904517712==
+--===============8691050404420872262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 840ef6c78e6a2f694b578ecb9063241c992aaa9e
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-840ef6c78e6a-dc59e4fea9d8.txt
+  - ref: refs/heads/dev-test
+    old: 8a96dc33c20dae26524236c903c1d3940311d23f
+    new: aee9e683c16a93b142bdf241b47ff482460ac0ba
+    log: revlist-8a96dc33c20d-aee9e683c16a.txt
 
---===============2419891561904517712==
+--===============8691050404420872262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-840ef6c78e6a-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-8a96dc33c20d-aee9e683c16a.txt
 
-1f10c4509649e7c5f6d5d3acccf3ef6fbb5cdd46 clk: renesas: rzg2l: Rename iterator in for_each_mod_clock() to avoid shadowing
 871cb269cd43b5d90f4e59d1458f8c09204759d4 clk: at91: sama7d65: add peripheral clock for I3C
 1e7f56205813a2c48cdb3e9a4b0a24f49fd9a548 clk: socfpga: agilex: implement l3_main_free_clk
 1a23bcb452d95f099e530414504c0d99ee076b3f PCI: qcom: Handle mixed PERST#/PHY DT configuration
@@ -1050,5 +1049,6 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+aee9e683c16a93b142bdf241b47ff482460ac0ba f2fs: Run f2fs_write_end_io() asynchronously
 
---===============2419891561904517712==--
+--===============8691050404420872262==--
