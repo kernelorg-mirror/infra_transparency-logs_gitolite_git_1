@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 30 Jun 2026 23:54:25 -0000
-Message-Id: <178286366597.2535650.11307591777232692369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 30 Jun 2026 23:55:00 -0000
+Message-Id: <178286370011.2536016.7544623376017328650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f456c1922c49e6be5ce407ddb74a6e61af5b65cf
-    new: a53d1872f2be6574460bf3980777d3f26cf3f107
+    old: 2a00517db8de4be7df3d483b215c5544fb30a191
+    new: 57bb59ab6fa39128b733c71eaa0ab511109a0ea1
     log: |
-         a53d1872f2be6574460bf3980777d3f26cf3f107 net: replace linux/gpio.h inclusions
+         57bb59ab6fa39128b733c71eaa0ab511109a0ea1 selftests: net: bump default cmd() timeout to 20 seconds
          
