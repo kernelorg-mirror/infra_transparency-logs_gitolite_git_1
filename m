@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 30 Jun 2026 11:50:49 -0000
-Message-Id: <178282024914.1971531.195826194027020537@gitolite.kernel.org>
+Date: Tue, 30 Jun 2026 11:50:53 -0000
+Message-Id: <178282025369.1971725.663416716625573210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.3
-    old: 57d1e9229e6d3a30a510fcd9a08db1c0e3b0b36a
-    new: 7f8e103f143dbc6b6f14eb5ebb0e55958acdd965
+  - ref: refs/heads/spi-7.3
+    old: 7a0d22e632a6f44a40bbe357e081e7a8e806a079
+    new: 5d14285d60ba95561609a293064654a0c7d7d928
     log: |
-         9f6e4b8befc44271c454657276f38d8c6c8b5a18 regulator: dt-bindings: rtq2208: Label mtp-sel-high property as deprecated
-         2f84cec84ffa1987a4dee80283f926774030e879 regualtor: rtq2208: Initiate the default MTP_SEL state by hardware register
-         7f8e103f143dbc6b6f14eb5ebb0e55958acdd965 regulator: rtq2208: Remove the unnecessary MTP_SEL property
+         bbbc1ef5b35341c5122418a14f8924688a4bb954 spi: bcm63xx: return error from failed controller suspend
+         3b5414d76a0381db77b9694537254af7acfa187a spi: bcm63xx-hsspi: return error from failed controller suspend
+         44d09ef0ba690ac46d17eb05c12a47a5dd75e231 spi: bcm-qspi: return error from failed controller suspend
+         f4b14e67baffd2c879765275bda998a183594e8b spi: atcspi200: return error from failed controller suspend
+         faa878d4805ca375738294bc52eae310eb287b16 spi: bcmbca-hsspi: return error from failed controller suspend
+         2543355f3da56a297e3803ccb5d29f4dce5f18f1 spi: fsl-dspi: clean up after failed suspend and resume
+         5d14285d60ba95561609a293064654a0c7d7d928 spi: nxp-fspi: disable runtime PM on probe failures
          
