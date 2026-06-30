@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7540085020423749370=="
+Content-Type: multipart/mixed; boundary="===============5733007546704569499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 30 Jun 2026 17:25:19 -0000
-Message-Id: <178284031903.2240480.17416196123685518884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 30 Jun 2026 17:29:23 -0000
+Message-Id: <178284056397.2244018.12813191657427425178@gitolite.kernel.org>
 
---===============7540085020423749370==
+--===============5733007546704569499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: d4e511d9e3103758a7b297e36c3ba4ed157dcb45
-    new: ebb799f8016c129731873ac4c0beafa68617b2a4
+  - ref: refs/heads/mem-ctrl-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 1527acf2295cf2d6e11e3e9b121d63709667e6e7
     log: |
-         ebb799f8016c129731873ac4c0beafa68617b2a4 Update 78976CE788EA9233 (Yu-Chun Lin)
+         1527acf2295cf2d6e11e3e9b121d63709667e6e7 memory: stm32_omm: initialize ret in stm32_omm_set_amcr
          
 
---===============7540085020423749370==
+--===============5733007546704569499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1782840318 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1782840318-df35aad5024f41be71934c14f5760a4a9f7080c4
+pusher krzk@kernel.org 1782840562 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1782840561-3d53b25da2860bd47c8dfc2bd78f3ab97dd5c117
 
-d4e511d9e3103758a7b297e36c3ba4ed157dcb45 ebb799f8016c129731873ac4c0beafa68617b2a4 refs/heads/master
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 1527acf2295cf2d6e11e3e9b121d63709667e6e7 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCakP7/gAKCRC2xBzjVmSZ
-bL4CAQCoMmdsB1vvMDMqeAE0csnjgLnt2PLdgIRVS5acZr5hlQEA2uxuechzocgg
-wZRDX1QiGK0mC6V2YxFPM0zdG3hkwQ0=
-=aSbh
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpD/PIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17RrD/49EUyAbUAfGsZyQntuggqQnLmiZ4A/drml
+d+Y/m+VGx3W8OTiv1i++ZqhRBtWDkMQBX8rb9hMqpg0/QRZ6mUJOyWqCQio7bbkQ
+0PEQegoGJYrcE+MQkylT8x2I0D9BS2vUoTSN5td92+FeWQfXpDhYBXp1yw/KofAX
+eKI6BznnNz2QVzOJ83wW2gA2lRpxv6ttD3324L/s4xbngP8RRH/UnmOTQhsSjJPA
+mnma+vJgTkCdearWAdmTScFvUWExkM+9N4Bpbf4TSxn2cs5LYD8I9v9kt1gVK7+F
+2nDsfDmXcOtloLveJcZQZGROE+f75jsiJ/hY7oK1R5CwWhb+zZ49BGEYQCEhLCGa
+Z8Hw2k6OzLayk5SDahZBT4upEgzAqCTbWa1tnYPj/cIcbx8BSUAXNid5yZF9xO1G
+PlrELTRpIhpvEmA3BaLnCigo0S1VZ0rnttZ1EKU8P8Rr5HJjo5VTw5feMaWZld/m
+QMZEjzAVuS+ADz5E0mVo9rierwgT+PB++hMLHsAGMq1zGX5IJ09tnih1MQZhOh7J
+ysXGFsIZSk8UthGVMYZOv65LTC/kjsmesEg2v0VrR6iNxaXKRSaGT8ih4eUFVAW/
+8841Zrm0Xr0WR713LTKg5o2P6m29EiG1xz++q+rH4Y+IxoDFW2VYMDOrXmBuqYqj
+KkDgncokgA==
+=QaP4
 -----END PGP SIGNATURE-----
 
---===============7540085020423749370==--
+--===============5733007546704569499==--
