@@ -1,70 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0087141931901036977=="
+Content-Type: multipart/mixed; boundary="===============6167979606174846906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 01 Jul 2026 17:39:01 -0000
-Message-Id: <178292754176.3354236.18006664025106138823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 01 Jul 2026 17:42:10 -0000
+Message-Id: <178292773047.3357594.11605505304761891383@gitolite.kernel.org>
 
---===============0087141931901036977==
+--===============6167979606174846906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/main
-    old: 32f1c2bbb26ae2be476c8b66e3b41789b6b97bfc
-    new: 0469d460a598d03fc85ebd97f99640e6c579e2a2
-    log: revlist-32f1c2bbb26a-0469d460a598.txt
+  - ref: refs/heads/perf-tools-next
+    old: 5786fa53dc7a4ae027ee2dbf321ed2286c4c20b5
+    new: f6e5090f63b0a9f4c4c42c82348ade4132495ee7
+    log: revlist-5786fa53dc7a-f6e5090f63b0.txt
 
---===============0087141931901036977==
+--===============6167979606174846906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32f1c2bbb26a-0469d460a598.txt
+Content-Disposition: attachment; filename=revlist-5786fa53dc7a-f6e5090f63b0.txt
 
-62b68b774f06bf52e329f254f0199bc43d350ccf eth: fbnic: don't cache shinfo across skb realloc
-2b66974a1b6134a4bbc3bfed181f7418f688eb54 tipc: fix out-of-bounds read in broadcast Gap ACK blocks
-526b8ef54668780c8f69e0211c342763d5dcbad1 net: wwan: iosm: bound device offsets in the MUX downlink decoder
-8bc4d43bccbd60efe85d0a44d5bf41762f2f0c30 tcp: restore RCU grace period in tcp_ao_destroy_sock
-b74cd55038905d5e74c1de109ab78a30b2ea0e1f tcp: defer md5sig_info kfree past RCU grace period in tcp_connect
-6f6e860e370c9e4e919b92118a25e9e1f82e9180 tcp: Decrement tcp_md5_needed static branch
-622df5e3376492fb861945474fd51d233f156993 Merge branch 'tcp-tcp-ao-connect-fixes'
-9facb861dc6b9b9ea9793ef5032a9a826f7a4229 ipv6: fib6: fix NULL deref in fib6_walk_continue() on multi-batch dump
-2e996ca81f9512c2d39d826a5146e5fe4ab28277 netdevsim: remove ethtool debugfs files before freeing netdev
-de74d8fd10291763d97b218f09adcc7513c975e4 net/mlx5e: macsec: fix use-after-free of metadata_dst on RX SC delete
-8ff7f2a6da4fccaa5cc9be7251a24e71e29fbd1a usbnet: gl620a: fix out-of-bounds read in genelink_rx_fixup()
-8f31efff9206f9f0adb853cad6916086aac4d5ef net: phy: sfp: free mii_bus in sfp_i2c_mdiobus_destroy
-b521003c27ebf29701ead5baf217462425c584aa Revert "net: phy: sfp: probe for RollBall I2C-to-MDIO bridge in mdio-i2c"
-9282abe196537bff377104a64ea66561ef1c7aca Merge branch 'net-phy-sfp-fix-mii_bus-leak-and-revert-rollball-bridge-probe'
-1398b1014909618f65ff6bcebcb2ee5ccd44fdc0 MAINTAINERS: Update Jason Wang's email address
-241ccd2fed9051db443aadce248fc0ab30f55e97 netfilter: nf_conntrack_expect: zero at allocation time
-47e65eff50691f0a5b79d325e28d83ec1da43bcf netfilter: nft_set_pipapo: don't leak bad clone into future transaction
-7cd9103283b26b917360ec99d7d2f2d761bcf1ab netfilter: ipset: fix race between dump and ip_set_list resize
-e5e24a365a5e024efef63cc49abb345fbd4852c5 netfilter: nf_conntrack_sip: validate skb_dst() before accessing it
-bf5355cfdede3e30b30e63a5a74f6bdaafb26082 netfilter: nfnetlink_cthelper: cap to maximum number of expectation per master
-d07955dd34ecae17d35d8c7d0a273a3fba653a8c netfilter: nft_fib: reject fib expression on the netdev egress hook
-54f34607d184c1cc056c59a5b3d86d96dd6a515c netfilter: nfnetlink_queue: restrict writes to network header
-df07998dfd40796a05fff7ffea2661ad65ed42a7 netfilter: nftables: restrict linklayer and network header writes
-c3716a3c43465641ded6e01c0b187de42e87a80d netfilter: nftables: restrict checkum update offset
-d288efa2b94abc2e45a061fceb156b4f4e5b37be fsl/fman: Free init resources on KeyGen failure in fman_init()
-a7c6debfec17381329b094bd75560a1e57a5533a net: airoha: fix max receive size configuration
-6ab752e0b59b825c127d5c86438bee1e8b1641ea net: libwx: fix VMDQ mask for 1-queue mode
-39139b1c1c2b614096519b526112c726adb12ff0 net: lan743x: Initialize eth_syslock spinlock before use
-dbf803bc4a8b0522c9a12560c20905a5952d1cb9 net: gianfar: dispose irq mappings on probe failure and device removal
-e5b811fe793166aecc59b085c1b7c31262ef2316 net/sched: sch_teql: Introduce slaves_lock to avoid race condition and UAF
-2a00517db8de4be7df3d483b215c5544fb30a191 bridge: stp: Fix a potential use-after-free when deleting a bridge
-57bb59ab6fa39128b733c71eaa0ab511109a0ea1 selftests: net: bump default cmd() timeout to 20 seconds
-976c19de0f22a857ba0112f39635f8fd7a257568 sctp: fix addr_wq_timer race in sctp_free_addr_wq()
-1eb8fc67ca41db71c90866ff76c990d85247daef virtio_net: disable cb when NAPI is busy-polled
-5d6dc22d62682d93f5f55f145ad792f2891de911 cxgb4: Fix decode strings dump for T6 adapters
-2f7f2e311106cb838d3f3fb6ef25effdb3f8e366 selftests: drv-net: tso: don't touch dangerous feature bits
-adc49c7ba690c9b33b8392ec27397456b65d0893 net/sched: act_bpf: use rcu_dereference_bh() to read the filter
-bf83ee45874e9f071478bed39f9cf40cc741629f net/sched: dualpi2: clear stale classification on filter miss
-a225f8c20712713406ae47024b8df42deacddd4a net/sched: hhf: clear heavy-hitter state on reset
-0469d460a598d03fc85ebd97f99640e6c579e2a2 Merge tag 'nf-26-06-30' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+4f7442f7e71d6cb3ec9851b5a752b82081ff675b perf/probe: Ignore comment lines in dynamic_events/kprobe_events file
+dfab3e4b0bf7f772889e8ebc2fd691fc95b596c9 perf pmu: Recognize default_core as a core PMU in more places
+4933d4f45b5ce2a1d0d9c4ab703460997439d6a7 perf timechart: Don't pass @event to cat_backtrace()
+445a625a66b15f7f8fbe70dea27269aa85c87bdf perf timechart: Generate backtrace only if needed
+48d698f810fe7e9a3a89ee7907827ab6ba0d3386 perf timechart: Remove unused backtrace in trace_handler
+780368ccd922e58e471afddb5811eec89abeff0a perf timechart: Remove unnecessary copy of backtrace
+73aa610f75833123615eebd4b3d6a0b5281c3f73 perf timechart: Release event samples at the end
+96a463ee62592b10aa0d96e6bb45de56a981c2d1 perf timechart: Fix memory leaks during record
+fcc9159fc82625bf5f8e8fb5fde48709b631bebe perf timechart: Fix memory leaks in draw_wakeups()
+5437e98903897246e3f223ab68f1f8bda8b5ed7e perf test: Update perf timechart test
+e6ad1fb3458f9e77f63bcd555baf7a08008ecc2e perf parse-events: Restrict core PMU bypass to --cputype option
+32e6312f7e397bf0b731b43a6504966398af0788 perf test: Truncate test description to fit terminal width
+810d0c911796bdc8ec67d5844b070c7f48bd732a perf tests workloads: Support sub-second durations in noploop and thloop
+74dba58222f0d34cf8bd3eba1a6926e9654d4b6b perf tests: Add robust record retry helper and use subsecond workloads
+8953bfd8820b6525032023fda3a420098c1823ae perf tests: Skip metrics validation if system-wide recording lacks permission
+07eac17339dab6b143e12cadf19acd61f03011f8 perf tests: Fix Python JIT dump profiling test failure
+509a2b9a6e142697dd5f34cdd802e5b86eababa1 perf tests: Fix flakiness in trace record and replay test
+b02027776ac5bf737f1b76f3759f405e376097e5 perf tests: Fix flakiness in BPF counters test on hybrid systems
+344d3aec164dba83a5520f23a0d46e13e904a205 perf tests: Fix flakiness in branch stack sampling tests
+c10f33fa660ffd10c0254ecd0455c421c59c9f38 perf tests: Speed up off-cpu profiling tests
+ae42a2a2a3aeda1a62527d38d64e3cdfa0e5627c perf tests: Speed up lock contention analysis shell test
+b02e597450f28c7374afdafd97b15a889a8107da perf tests: Speed up metrics checking shell tests
+f6e5090f63b0a9f4c4c42c82348ade4132495ee7 perf tests: Include error output for skipped tests in JUnit XML
 
---===============0087141931901036977==--
+--===============6167979606174846906==--
