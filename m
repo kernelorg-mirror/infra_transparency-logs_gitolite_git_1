@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 01 Jul 2026 19:50:34 -0000
-Message-Id: <178293543468.3453035.18296747200085301798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
+Date: Wed, 01 Jul 2026 19:51:18 -0000
+Message-Id: <178293547861.3453990.682083736819394047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/pjw/riscv
+user: pjw
 changes:
-  - ref: refs/heads/master
-    old: c4082e93d9be23833a2310473badf2fff9bd5989
-    new: b4b8b334f6b535a86ab83f18d3d241fe01270bc3
-    log: |
-         b4b8b334f6b535a86ab83f18d3d241fe01270bc3 selftests/bpf: Mask socket type flags in mptcpify prog
-         
+  - ref: refs/heads/experimental/vector-context-v4
+    old: 0000000000000000000000000000000000000000
+    new: d1ab54f643662d67f7f75ef35f8d15b2a221ef5f
