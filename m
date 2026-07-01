@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2678790354521741437=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 01 Jul 2026 09:56:36 -0000
-Message-Id: <178289979637.2991672.12831451393278481862@gitolite.kernel.org>
-
---===============2678790354521741437==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 01 Jul 2026 10:01:21 -0000
+Message-Id: <178290008148.2995742.6491193450859335635@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/tags/char-misc-7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9af405df9705a0804c6a793d73f98988ef8debaf
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
-
---===============2678790354521741437==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782899807 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1782899793-089e2f25c5fc131b5858e495177e5bd5a4f22e13
-
-0000000000000000000000000000000000000000 9af405df9705a0804c6a793d73f98988ef8debaf refs/tags/char-misc-7.2-rc1
-0000000000000000000000000000000000000000 728e68a889bcf257b1e67298b12c360e5c3a13e0 refs/tags/v7.2-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpE5F8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b+YQAI1DwZ8Z4Jlp28xIl+ln
-cmlGIAgaIAxNmSvmzEYC8eO8UWrWlE8i7xY2KRD1X0/q3mPDJ8JYZ3fEb6MJzS3t
-y/oyLm6l78ehhLKA50tePHvwxbHkgXC39WmqCSTOKk1RCyoFjPkGW0M7Nnhls8Rk
-yXVRr64ix/p7jjbcWdwoJPbVcQroclRuwxwMD0yz0nXeAM23TPE6Hr49jJO76LDb
-aunUIQstKPFbihddIDjlpDRiN4Pyf6neaGgZN21iLTR9zP5ukSxTMQh1oTp1cWsr
-4rMsRCkHW0kZznx+MpQKkVu+udsA1vRVpxY6OrgzVto34F+ILchJtquHZhiZxiDy
-36wSVXXswbRqMj3Qdu5v53MbgnofvWucVkCB8YjaiUaKhXcOWllIdoAtYZSjwVfL
-1E3WLVVP4BxWYQ4VU3+1S0OeGYwDHVg+zzdrxlqjUKHiYwX+lGAInANtRxUFgvG2
-8zS8/ZwCJADmDRoQYuC2/2ABobCwHRG8FgRk1Dfwqgv05HL9mICaGJ23hkEg6KCI
-mJCXb1CDwCYhAJUEkJPGvWmb/oaQL89lp4CDNzcnq8zyS8tEJemnAUiUoENqGqp5
-00Lv0g0zKQmWVpzn+dVYU2Prv+jDKREXiS6Pgq8Xo/wRlWlgcqwUaM/mPQUCubUM
-VUOS8hDBrtRilaMo1pCNyLHg
-=BDUm
------END PGP SIGNATURE-----
-
---===============2678790354521741437==--
+  - ref: refs/heads/b4/hrtimer-header-dependencies
+    old: 0e0dec10cf362a392e4fe54d84f43509556d903e
+    new: d36e1b7d6549227e01822f9e2a81908e07c93fa8
+    log: |
+         f76b26f1a0b32cec25365978487d241b1c4a3927 hrtimer: Untangle base definitions from hrtimer.h
+         75e67944f2f01ad30141bab7bee8bf186396fc5b hrtimer: Rename hrtimer_defs.h to hrtimer_bases.h
+         62d1395deddf2e884e8646fc4f934de4d019f862 hrtimer: Move hrtimer_callback_running() to hrtimer_bases.h
+         4d7c224f4dd6314808d962eacf00e5d3310ac642 hrtimer: Move hrtimer_update_function() to hrtimer.c
+         4f3a2fa54823f084252a42a18075d25eb6f7b292 tick: Explicitly include linux/hrtimer_bases.h
+         b495430d3bc574c911fef8a8a7a5b0fe631bf774 hrtimer: Explicitly include linux/hrtimer_bases.h
+         5cf9e5f371929317eb26ff83ee3837f706e820ab hrtimer: Explicitly include some necessary headers in hrtimer_rearm.h
+         2c56d36fe79d86a5ea70b8c8b173f2fa240f7bb6 x86/speculation: Explicitly include linux/types.h
+         d36e1b7d6549227e01822f9e2a81908e07c93fa8 hrtimer: Remove inclusion of hrtimer_bases.h remove from hrtimer.h
+         
