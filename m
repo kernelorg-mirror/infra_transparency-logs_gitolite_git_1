@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Wed, 01 Jul 2026 05:04:20 -0000
-Message-Id: <178288226008.2770570.241162552947227317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 01 Jul 2026 05:08:49 -0000
+Message-Id: <178288252946.2774295.12187874325159408839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: b667ccaf1f77caf57c3bc33268d648d2362530a0
-    new: 35d68d6294aadf1ab4685e30532f83f9e266a574
+  - ref: refs/heads/controller/dwc-qcom
+    old: 67db6fece5db59c5fd0d7c0a514eac5c7f37be8a
+    new: 1133089b07785841258623e6337c9d89d7913638
     log: |
-         35d68d6294aadf1ab4685e30532f83f9e266a574 TODO: update
+         1133089b07785841258623e6337c9d89d7913638 PCI: qcom: Skip PERST# GPIOs provided by downstream PCIe devices
          
