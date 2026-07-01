@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3735724587087860796=="
+Content-Type: multipart/mixed; boundary="===============6075908784680901657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Wed, 01 Jul 2026 10:22:58 -0000
-Message-Id: <178290137804.3013959.3290033514236862692@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 10:24:20 -0000
+Message-Id: <178290146059.3014553.16672725883051584266@gitolite.kernel.org>
 
---===============3735724587087860796==
+--===============6075908784680901657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: ad180a0d1e3c6d17bd2fdb68fae8bdab449b04d6
-    new: 378f6cf3cdfc7fab6cc3d710a50a827cbd3fd21f
-    log: revlist-ad180a0d1e3c-378f6cf3cdfc.txt
+  - ref: refs/heads/module_version_removal
+    old: 84fcd35365f9917873775ceb1539f6a1fddb048a
+    new: 6c44fd0c2cd22aab960e48a67996ce309a367cc8
+    log: revlist-84fcd35365f9-6c44fd0c2cd2.txt
 
---===============3735724587087860796==
+--===============6075908784680901657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782901374 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782901437 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1782901360-6bbc1559eb212e475018691d15d132f9e87dfeef
+nonce 1782901423-730acbde77d8885e6cc8c22ba50012991b98f682
 
-ad180a0d1e3c6d17bd2fdb68fae8bdab449b04d6 378f6cf3cdfc7fab6cc3d710a50a827cbd3fd21f refs/heads/clanker
+84fcd35365f9917873775ceb1539f6a1fddb048a 6c44fd0c2cd22aab960e48a67996ce309a367cc8 refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpE6n4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1sIP/1ZscUT5GTayfdjUdVyA
-DqMcNmwC1PciU8xZewnD55QH05SWMXjsBxX/DLEeVH4jtJbc88EQZI4dvyUFbhtP
-Je7MK6AiX5LfhfOZqnXjLo3sFAjlfynRdcq+q0nr9usdPpYtWIG1uT5IB3eC+cGG
-oY7BcLolJrwcCViC6daojiM3d1Xyaybadz31tOWrmeIuGnoNMLA2eCOZ49MY81c3
-DNIopjPApf9mBMxprk+8TGhwC/ncCSZfSDcPwG1rWAkOQbivUWBk6V9hgUuu77Qm
-H1Q8x6wC3EKloaECTk0d6aBRzMn587tlpPJBqolNG73tK1xZDG/mTk13oro0MPhL
-ZKRVgbVKOkBcxVtZgA7/SpxGAVZW8H5n4pOfofaTB95Vapu6zwlV7nHyD+nFAPar
-x2oZipMYEEATDbTo6MXZWlKmvS8GV+QSa9EH+rwEcC4xEPecU0hzIEl8hPiC5+Xj
-EEc1J+VSJN3RO3oQunFb4fsVqZsVsG9jLKjqHqNe2ZMtYTxF5MIRLhSfdY+lzhjB
-HtnzbBAKJcRZETmSZ5/MXo7q1zuhccAlsOrY7vSsHLmNO2xt+S2+US21dZ+GcEf0
-PaQxSdETe7zTRsgtn4IqHi6zId4bPZTDGb006Cq5zMJUoosmdWGbmAghJ072vq1x
-C3zNAsFrJeobNoOSnJ1Ne3SW
-=A3YQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpE6r0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nwIP+wdRUbeJLkJ5aTaGNiqP
+cIJXBtHRYPFO/98N/NvaqJLO/qM3Rz4NCd0YxnF3egziDMRpt4iHG0vUkrEqq/z7
+ikrYFJU6+GjYe6Y6i4PKTFOvVznnc695XqegQ+oQr1/e87PtHFnKmH8sz4UwNsMa
+PmQckKjW1u6/a1RRmAY62xYqzKS4gMVf8S9UyDmwrqJBfPZrYYpHLPE8DHVhxApC
+ft0KS8fM194fRPVlnDgWfb4xxiB8EqctbjidUR9WEErNvHwsLUdMusvKjuoCVs6V
+6kOPszTW/CYiGWWReodRZZy8TQDlRI/wX62Tp1hw5HXxWLrqCQGYs2RnmcfgidIg
+l/JH+ZoEdSmaWOMKIHzskXEOeDnAJRbmuP18co4c1tevJ60bCouJSFZ+4BJON7sw
+rdctoQqCrcTeyL96gj8KMTPK1jvhguB0Iu0OTemKS6ZZTlAfif3IleCGA7oqxTUP
++pSPsJtA0GiVbcbqsrQvnMqYfKdKn8MwyOZnB+AZOlZB9GqeVPZggJ+dAfauuEOO
+4kSidZkVPTDv7nOv/XwrtRz1RXi92fCBNzdF3+SjwlAj9ex5ImKSliiBFuu71KZd
+H56NOY6EIhnWwLQuV4t6K9qJCS7NggLAn62yOZAUa3TEPJQVzK1nL69vAFODuCem
+THjCyfI/grvgKT4ar2+8v4ND
+=Mb4f
 -----END PGP SIGNATURE-----
 
---===============3735724587087860796==
+--===============6075908784680901657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad180a0d1e3c-378f6cf3cdfc.txt
+Content-Disposition: attachment; filename=revlist-84fcd35365f9-6c44fd0c2cd2.txt
 
 b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
 942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
@@ -293,23 +293,6 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-a466e042e6cd3bf12c144914adbfad621963a381 net: mctp: usb: properly drop the usb interface on probe error
-189b00d03a9698184494a239a50cc2a6d903ac88 wifi: rtw88: properly drop usb interface reference on error
-16c7ed34bb3b0d51490493776debc72f829c34f6 mmc: moxart: fix potential use-after-free on remove path.
-caee75e6bd3992a6d7f71061ad81634769af54c0 mmc: meson-gx: fix potential use-after-free on remove path.
-62acc5098a9bf5540b290f8d2b01a0aff52701b6 f2fs: fix potential deadlock in f2fs_convert_inline_inode
-59dc25f7d274028c29b9025216baf8f5c088eaa6 drm/amdkfd: stop speculation on the kfd_ioctl path
-a5aad39860a83a0f3c43386fc616bf70f862b9c7 media: adv7604: avoid negative array index in log_status when cp_read fails
-d74894bffda7f043add945e69c3fd979d44a5cec media: stv090x: bound DiSEqC reply length to msg[] size
-ee88d64b6a78edf5a0dd8192e848c1f789764c2b media: stv0900: bound DiSEqC reply length to msg[] size
-fd8d74ea5bc7c24267d8b3647df8deace9ee1fd5 NFC: digital: Bounds check Felica response before sensf_res memcpy
-332245ccf9287c9d795608c1d723e43c1c99757f net: usb: cdc_ncm: reject negative chained NDP offsets
-7f95097425bab29905e763016afc5fef9b95f140 net: sched: em_text: require NUL-terminated algo name
-51cbf8d7e9459db07dee399fdea643cee0357c76 staging: rtl8723bs: fix OOB write in HT_caps_handler()
-3f2dbb178b5a8d88285fb146a687ae6772d2cd01 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-2ec7a83abcb8885ba67ccac4e5cca687efc80121 io_uring: depend on MMU
-0adf2243844fba42702d351e002db11f4571251c mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-8bb05fa0adb1ef1c4e5d75fa044df470464a7ffc usb: typec: tcpm: validate VDO count before reading Attention status VDO
-378f6cf3cdfc7fab6cc3d710a50a827cbd3fd21f iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+6c44fd0c2cd22aab960e48a67996ce309a367cc8 module: remove MODULE_VERSION()
 
---===============3735724587087860796==--
+--===============6075908784680901657==--
