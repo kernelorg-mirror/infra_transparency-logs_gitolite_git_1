@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Wed, 01 Jul 2026 10:03:33 -0000
-Message-Id: <178290021389.2996541.13887643003699181094@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 10:04:12 -0000
+Message-Id: <178290025252.2996924.8085948069387114865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/liveupdate/linux
 user: rppt
 changes:
-  - ref: refs/heads/kexec-next
+  - ref: refs/heads/next
     old: 410ce58062cd76c9e30a1780cc3064861b4c10ef
     new: af78cec42d1b0113993e427139f0ab2f34b047ee
     log: |
