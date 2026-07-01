@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6075908784680901657=="
+Content-Type: multipart/mixed; boundary="===============4343951401773181723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Wed, 01 Jul 2026 10:24:20 -0000
-Message-Id: <178290146059.3014553.16672725883051584266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Wed, 01 Jul 2026 10:28:47 -0000
+Message-Id: <178290172756.3019802.5776904706614646376@gitolite.kernel.org>
 
---===============6075908784680901657==
+--===============4343951401773181723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 84fcd35365f9917873775ceb1539f6a1fddb048a
-    new: 6c44fd0c2cd22aab960e48a67996ce309a367cc8
-    log: revlist-84fcd35365f9-6c44fd0c2cd2.txt
+  - ref: refs/heads/main
+    old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-51cb1aa1250c-dc59e4fea9d8.txt
 
---===============6075908784680901657==
+--===============4343951401773181723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782901437 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1782901423-730acbde77d8885e6cc8c22ba50012991b98f682
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782901740 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1782901726-a0ae6083ab397e2395d86c4d1f14ee75793d255d
 
-84fcd35365f9917873775ceb1539f6a1fddb048a 6c44fd0c2cd22aab960e48a67996ce309a367cc8 refs/heads/module_version_removal
+51cb1aa1250c36269474b8b6ca6b6319e170f5a5 dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpE6r0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nwIP+wdRUbeJLkJ5aTaGNiqP
-cIJXBtHRYPFO/98N/NvaqJLO/qM3Rz4NCd0YxnF3egziDMRpt4iHG0vUkrEqq/z7
-ikrYFJU6+GjYe6Y6i4PKTFOvVznnc695XqegQ+oQr1/e87PtHFnKmH8sz4UwNsMa
-PmQckKjW1u6/a1RRmAY62xYqzKS4gMVf8S9UyDmwrqJBfPZrYYpHLPE8DHVhxApC
-ft0KS8fM194fRPVlnDgWfb4xxiB8EqctbjidUR9WEErNvHwsLUdMusvKjuoCVs6V
-6kOPszTW/CYiGWWReodRZZy8TQDlRI/wX62Tp1hw5HXxWLrqCQGYs2RnmcfgidIg
-l/JH+ZoEdSmaWOMKIHzskXEOeDnAJRbmuP18co4c1tevJ60bCouJSFZ+4BJON7sw
-rdctoQqCrcTeyL96gj8KMTPK1jvhguB0Iu0OTemKS6ZZTlAfif3IleCGA7oqxTUP
-+pSPsJtA0GiVbcbqsrQvnMqYfKdKn8MwyOZnB+AZOlZB9GqeVPZggJ+dAfauuEOO
-4kSidZkVPTDv7nOv/XwrtRz1RXi92fCBNzdF3+SjwlAj9ex5ImKSliiBFuu71KZd
-H56NOY6EIhnWwLQuV4t6K9qJCS7NggLAn62yOZAUa3TEPJQVzK1nL69vAFODuCem
-THjCyfI/grvgKT4ar2+8v4ND
-=Mb4f
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpE6+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RaAQAMYTTZNmd8bFi7FrUzte
+rpEVnIxX6Have8qr0q3l6FVtwz9OCI9/vGSx8YbFGeAh6Cxtq0+cAzDY0d+EghCx
+ffHPo4E3t3lYK9JrqwiFR4McwWEP9vbSrbr25MkJpMhyvRUWn/tF3/hXFTOhDOrv
+CjKOu2cSqXCJ/EtN/m82rUKZUQyIu4oene2ApwhZn7PmugGLzEqEvLNe1l66yCL3
+KvGVouvXiaZbjMmhum5UA91Vkhva/ZmZJLGkrLRPdLStlP/ro1YoxbI2e57c0Gkn
+mxWtvpimaWqyi18HkTEXCX0fLHK9QtwupeaE70HBu6boaOACVw01+PRXm1R//TNp
+inT3tOaQmBMO31gWgztnZRFwkV1LJXC6bMh1KZq5bfCDrv6pOFjuYmFpm2I7nHnI
+adXSyzLTOoqPVaZC5dk6R5CzHL4fricpAr6qrgshAN8nEt9G1ZiWLG9Gzn80OstK
+JXcXu2IxDk4TI0Cai1XtgoXzuGOTwHBTZAjVcz1z2dZjlSiY3pEEFJxZZJEIikOg
+YyJwf+CmQ3LFQGsyRT+H6RMpDYkTsAuLdLwnwbW1Z48j53xdNCnCHo9vgkU/jk0X
+NydaydoKuxUQ+Pb0dd4X7xqa388buvWV3tDXbM8tGyBV0BCvxkq2QKRqRKhDNntv
+7GQSyW3gY7h+OYeMsAsYsNWI
+=vJgv
 -----END PGP SIGNATURE-----
 
---===============6075908784680901657==
+--===============4343951401773181723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84fcd35365f9-6c44fd0c2cd2.txt
+Content-Disposition: attachment; filename=revlist-51cb1aa1250c-dc59e4fea9d8.txt
 
 b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
 942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
@@ -293,6 +293,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-6c44fd0c2cd22aab960e48a67996ce309a367cc8 module: remove MODULE_VERSION()
 
---===============6075908784680901657==--
+--===============4343951401773181723==--
