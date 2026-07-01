@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5752378243830715689=="
+Content-Type: multipart/mixed; boundary="===============1906872700959097744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 01 Jul 2026 09:05:18 -0000
-Message-Id: <178289671827.2953412.12954300524386038480@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 09:05:20 -0000
+Message-Id: <178289672083.2953598.4480333548138737312@gitolite.kernel.org>
 
---===============5752378243830715689==
+--===============1906872700959097744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: 10dd1a736d557e310a77117832874729a0175d57
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-10dd1a736d55-dc59e4fea9d8.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: adee0fb3c722ec0d7edf56735eaf00e3dd7ea1c4
+    new: 04e9bf1648f846976b543e91c1838a712433772a
+    log: revlist-adee0fb3c722-04e9bf1648f8.txt
 
---===============5752378243830715689==
+--===============1906872700959097744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10dd1a736d55-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-adee0fb3c722-04e9bf1648f8.txt
 
-9108f7fa493b4c88cbc09503e0c164244456bad5 regcache: Do not overwrite error code when finalizing cache after error
-ca4aa97194ae353c2882d7cb4ed123a544892bcf io_uring: get rid of tw_pending for !DEFER task work
-bdc2fc388c348ee14b4f984ff75f2ea440cefd44 io_uring, audit: don't log IORING_OP_RECV_ZC
-4f919141be38ea2b1314e3a531b7b998eb64e8bc block: fix IORING_URING_CMD_REISSUE flags check in blkdev_uring_cmd
-9cbbac29d752fb5d95e375fa3685a359b89caa0a block: Remove redundant plug in __submit_bio()
-1fe703cc708f19209ae8e6261247483db723c221 io_uring/register: preserve SQ array entries on resize
-fd38b75c4b43295b10d69772a46d1c74dbd6fc81 kernel/fork: clear PF_BLOCK_TS in copy_process()
-fad156c2af227f42ca796cbb20ddc354a6dd9932 block: invalidate cached plug timestamp after task switch
-5ce9ac1531b8e27e754a7d17fa07fa9da0d4a6b3 drm/i915/mst: Call intel_pfit_compute_config() for sharpness filter
-31f077088e0faae6be8377741f356dea1b94ba46 drm/i915: clear CRTC color blob pointers after dropping refs
-062499cc4813b5a3cbed5dd4fbe0177265858450 drm/i915/mtl+: Enable PPS before PLL
-b4b15e4f12ad1dd83b69d453ef826553917eb8cb Revert "drm/xe/nvls: Define GuC firmware for NVL-S"
-65b1f95802f90fea0283f226317dc02dba494c81 Revert "drm/xe: Skip exec queue schedule toggle if queue is idle during suspend"
-1141574cb85db5226042b3d903157f95bfc631b1 drm/xe: Clear pending_disable before signaling suspend fence
-65280af331aa15eab7012bd7f07823be13754ba2 drm/xe/multi_queue: skip submit when primary queue is suspended
-45fa032b68570a9ccd80328a857ac5872217be92 drm/xe/drm_ras: Make counter allocation drm managed
-042f1d5f20d63fb9b0e2fbba97648d16fe1a845d drm/xe/drm_ras: Add per node cleanup action
-d46319bc8273c1018fa532a383eb515ee1b1de4b drm/xe/hw_error: Use HW_ERR prefix in log
-f2d238408db2b963951f0f2ae70ff7f9e337b540 drm/xe: include all registered queues in TLB invalidation
 0b837315ca0adc317e5c8a9c7e484a0e29199b9b drm/xe: fix refcount leak in xe_range_fence_insert()
 770031ec2312bfab307d05db5469f24fd297e758 drm/xe: fix job timeout recovery for unstarted jobs and kernel queues
 92dc59ab2a09097cdf249e0288ff9b69261761c6 drm/xe: Fix wa_oob codegen recipe for external module builds
@@ -1050,5 +1031,24 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+0ed3fa23704d16ff476c55b6ec8fe5b99df75ec9 i2c: spacemit: configure ILCR/IWCR for accurate SCL frequency
+73a2f91bc2f6bd329d9c55d351809a139393307a i2c: spacemit: drop warning when clock-frequency property is absent
+3ca8d1ec9a5374177b3f93313ac6f3e10cd3b113 dt-bindings: i2c: convert axxia i2c to dt-schema
+b2f4816a378dc840b605a1235b80e57c5f85b46c i2c: amd-asf: Validate firmware-reported length
+ff434ac49a52995c97d2e4a700b3875dd9910dcd dt-bindings: i2c: convert altera i2c to dt-schema
+fd359c0272bb4078f3a7ef34c1d53ee0deb59900 dt-bindings: i2c: Describe SA8255p
+d8d3bb127ad119853ddcf5da8f546cf37c3cc346 i2c: qcom-geni: Isolate serial engine setup
+ed4b34033db25a0f35bb84289377e1916ffe2329 i2c: qcom-geni: Move resource initialization to separate function
+e441365d09030377d5bbb219c4bf974ef9960851 i2c: qcom-geni: Use resources helper APIs in runtime PM functions
+692e0c84db5fdd88c242eadc873d498787c94e3e i2c: qcom-geni: Store of_device_id data in driver private struct
+10e74f4c5046dfc9e90e97730bac4de8afd9e954 i2c: qcom-geni: Enable I2C on SA8255p Qualcomm platforms
+9e9762e578db7556bea644bb5a8a2435f63544d1 i2c: acpi: Force ELAN1300 touchpads to 100 kHz
+20c3dcb1f473aea0810bb6c3b46149188fe3be0b i2c: acpi: Free resource list at appropriate time
+566eba52236f154c0fc6517d1db8fcca630fd400 i2c: pnx: Use generic definitions for bus frequencies
+20ec09394d5dff5af8379d2d50fc79f51e9af742 i2c: davinci: Use generic definitions for bus frequencies
+08d50f151747c12c41589e850c86232370fb427c i2c: k1: Use generic definitions for bus frequencies
+dfdca0b1eb8c1aace81dff0813f44e5f3411cd2f i2c: microchip-corei2c: Use generic definitions for bus frequencies
+a660c2264f3bf11f954321baede4f8f8eb987d84 i2c: octeon-core: Use generic definitions for bus frequencies
+04e9bf1648f846976b543e91c1838a712433772a i2c: nomadik: Use generic definitions for bus frequencies
 
---===============5752378243830715689==--
+--===============1906872700959097744==--
