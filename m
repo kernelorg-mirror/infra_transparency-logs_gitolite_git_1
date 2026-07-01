@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7131634773377409650=="
+Content-Type: multipart/mixed; boundary="===============5397247461091822819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 01 Jul 2026 20:04:40 -0000
-Message-Id: <178293628048.3463256.9121591063660029521@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 20:04:42 -0000
+Message-Id: <178293628282.3463469.5304959046660611914@gitolite.kernel.org>
 
---===============7131634773377409650==
+--===============5397247461091822819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2a00517db8de4be7df3d483b215c5544fb30a191
     new: 0469d460a598d03fc85ebd97f99640e6c579e2a2
     log: revlist-2a00517db8de-0469d460a598.txt
 
---===============7131634773377409650==
+--===============5397247461091822819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ bf83ee45874e9f071478bed39f9cf40cc741629f net/sched: dualpi2: clear stale classif
 a225f8c20712713406ae47024b8df42deacddd4a net/sched: hhf: clear heavy-hitter state on reset
 0469d460a598d03fc85ebd97f99640e6c579e2a2 Merge tag 'nf-26-06-30' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============7131634773377409650==--
+--===============5397247461091822819==--
