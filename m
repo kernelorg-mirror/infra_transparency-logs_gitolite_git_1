@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5359790709981722830=="
+Content-Type: multipart/mixed; boundary="===============0872971476002431377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 01 Jul 2026 04:51:53 -0000
-Message-Id: <178288151313.2761410.6376852182492145779@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 04:52:00 -0000
+Message-Id: <178288152038.2761629.10438549587974661283@gitolite.kernel.org>
 
---===============5359790709981722830==
+--===============0872971476002431377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 5d6919055dec134de3c40167a490f33c74c12581
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-5d6919055dec-dc59e4fea9d8.txt
+  - ref: refs/heads/dpm
+    old: 765afa4a1fb4d12aaf03bf0217b06359b6fa617a
+    new: 5bb2f5b11d2271a98b0ffc63b1ab5b1c0b51acbd
+    log: revlist-765afa4a1fb4-5bb2f5b11d22.txt
 
---===============5359790709981722830==
+--===============0872971476002431377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d6919055dec-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-765afa4a1fb4-5bb2f5b11d22.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
@@ -1050,5 +1047,8 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+d3003d9f094dcd2b21b72c4244f820b69b638b34 PM: dpm_watchdog: Improve DPM watchdog configurability
+8ee8d130da4e5c5089a490050bb317db0e5d4a75 PM: sleep: Rename module parameters prefix to "pm_sleep"
+5bb2f5b11d2271a98b0ffc63b1ab5b1c0b51acbd PM: dpm_watchdog: Allow disabling DPM watchdog by default
 
---===============5359790709981722830==--
+--===============0872971476002431377==--
