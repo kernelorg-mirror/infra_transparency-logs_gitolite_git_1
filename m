@@ -1,48 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3103270022647528441=="
+Content-Type: multipart/mixed; boundary="===============4687946344864911209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 01 Jul 2026 15:29:37 -0000
-Message-Id: <178291977772.3254406.25962939360530230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 01 Jul 2026 15:29:49 -0000
+Message-Id: <178291978937.3254678.14020396438203642287@gitolite.kernel.org>
 
---===============3103270022647528441==
+--===============4687946344864911209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: be5c93fa674f0fc3c8f359c2143abce6bbb422e6
     new: 4f441960e691d37c880d2cc004de06bb5b6bd5e4
     log: revlist-be5c93fa674f-4f441960e691.txt
-  - ref: refs/heads/stable
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 665159e246749578d4e4bfe106ee3b74edcdab18
-    log: |
-         72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
-         251a8fe1b9aedccd298b77bc28426d564c5a923f tracing/probes: Remove WARN_ON_ONCE from parse_btf_arg
-         cda1fbfc5313bb90daa271d45eea4a8d317a8544 tracing/events: Fix to check the simple_tsk_fn creation
-         206b25c09080cc20fd4c2bea12d59df4b7ba2121 tracing: eprobe: read the complete FILTER_PTR_STRING pointer
-         9a667b7750dda88cbf1cca96a53a2163b2ee71f7 tracing/probes: Fix double addition of offset for @+FOFFSET
-         367c49d6e283c17b56a31e7a8d964a079244264c tracing/fprobe: Fix NULL pointer dereference in fprobe_fgraph_entry()
-         a369299c3f785cf556bbef2de2db0aa2d294c4c9 tracing/probes: Make the $ prefix mandatory for comm access
-         665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
-  - ref: refs/tags/next-20260331
-    old: e5da3eef8dadab4e98b228725ca8948edd9d601f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20260401
-    old: ca452521af1aa62b535af1d0e03c869b4d840c9e
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260701
     old: 0000000000000000000000000000000000000000
     new: 1cdcb13c59e8f1c278afede638379bd00b1b7bce
 
---===============3103270022647528441==
+--===============4687946344864911209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -849,4 +830,4 @@ f415bc05d115430b45c64b6b526a6c68f083d973 Merge branch 'bitmap-for-next' of https
 4d3c8056aa3e5b9f8391f17cd4be52a1dd3b9c65 Merge branch 'device-id-rework' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux.git
 4f441960e691d37c880d2cc004de06bb5b6bd5e4 Add linux-next specific files for 20260701
 
---===============3103270022647528441==--
+--===============4687946344864911209==--
