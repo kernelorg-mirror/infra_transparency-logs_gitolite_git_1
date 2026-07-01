@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1906872700959097744=="
+Content-Type: multipart/mixed; boundary="===============7894282540815252288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 01 Jul 2026 09:05:20 -0000
-Message-Id: <178289672083.2953598.4480333548138737312@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 09:05:23 -0000
+Message-Id: <178289672341.2953756.11285515189657004981@gitolite.kernel.org>
 
---===============1906872700959097744==
+--===============7894282540815252288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: adee0fb3c722ec0d7edf56735eaf00e3dd7ea1c4
+  - ref: refs/heads/i2c/i2c-host-next
+    old: f4543281e4fad822d9fc550021f25ff49beb7576
     new: 04e9bf1648f846976b543e91c1838a712433772a
-    log: revlist-adee0fb3c722-04e9bf1648f8.txt
+    log: revlist-f4543281e4fa-04e9bf1648f8.txt
 
---===============1906872700959097744==
+--===============7894282540815252288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adee0fb3c722-04e9bf1648f8.txt
+Content-Disposition: attachment; filename=revlist-f4543281e4fa-04e9bf1648f8.txt
 
 0b837315ca0adc317e5c8a9c7e484a0e29199b9b drm/xe: fix refcount leak in xe_range_fence_insert()
 770031ec2312bfab307d05db5469f24fd297e758 drm/xe: fix job timeout recovery for unstarted jobs and kernel queues
@@ -1051,4 +1051,4 @@ dfdca0b1eb8c1aace81dff0813f44e5f3411cd2f i2c: microchip-corei2c: Use generic def
 a660c2264f3bf11f954321baede4f8f8eb987d84 i2c: octeon-core: Use generic definitions for bus frequencies
 04e9bf1648f846976b543e91c1838a712433772a i2c: nomadik: Use generic definitions for bus frequencies
 
---===============1906872700959097744==--
+--===============7894282540815252288==--
