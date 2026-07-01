@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2351062911832524627=="
+Content-Type: multipart/mixed; boundary="===============3137474981206395733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 01 Jul 2026 13:41:44 -0000
-Message-Id: <178291330427.3172086.3979603049444735087@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 13:41:47 -0000
+Message-Id: <178291330716.3172187.13554000441913938085@gitolite.kernel.org>
 
---===============2351062911832524627==
+--===============3137474981206395733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 15654b0268cd65b4e673510c0377774e61b86397
-    new: f5ea2fbe68e0c9192c0c82ece4645beeace63345
-    log: revlist-15654b0268cd-f5ea2fbe68e0.txt
+  - ref: refs/heads/mm-unstable
+    old: 93c262a630baeff5cab391720c290f50a98bf85f
+    new: efdb12fd586d4651fb9d1fcff79be293c9907081
+    log: revlist-93c262a630ba-efdb12fd586d.txt
 
---===============2351062911832524627==
+--===============3137474981206395733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15654b0268cd-f5ea2fbe68e0.txt
+Content-Disposition: attachment; filename=revlist-93c262a630ba-efdb12fd586d.txt
 
 b5cfbf79d85804c9cc6a40fba8b58ea8d2d6eccb selftests/mm: fix ksft_process_madv.sh test category
 ad769c0038d6b5850d0022f71911e7be8f3de70f mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -176,74 +176,5 @@ b73112b3716117cae386a7b9d02403e4fd3b86a6 sparc/mm: drop custom pte_clear_not_pre
 867a5167a8d345c8f5b898c34e3293ec873ba1b1 mm: drop pte_clear_not_present_full()
 6522cad0a57e1be7d1f8d70f194b6ea9fe1df83b mm: cleanup clear_not_present_full_ptes() and rename to clear_non_present_ptes()
 efdb12fd586d4651fb9d1fcff79be293c9907081 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-71ffc07523f35e1606cd3b042c5d9a4c12a375c6 selftests/damon: prevent cross-context state pollution in DamonCtx
-04506ace324466b1554bd2d0b54945c3c39a6e98 selftests/damon/damos_tried_regions: fix expectation output and join TypeError
-ded5a749b1174da236262b71f75701091bbfbaa6 selftests/damon: fix dead code, skipped checks, and broken lookups
-1a6da65038fe21ea69c41e024ada8cee700121de selftests/damon/_damon_sysfs.py: fix memcg_path assignment
-cb23f60ed84035ecfe6302fff1a83309666e5a51 selftests/damon/sysfs.py: validate memcg_path staging readback
-3f35d762a7d8e7dc3334b5943db41933f4957c77 selftests/damon/_damon_sysfs: support kdamond refresh_ms
-7b34fa5b53aa30df40df7bc27f05517c4dd2cf37 selftests/damon/sysfs_refresh: test kdamond refresh_ms
-cd6ae14f29b4cfeb13d78af12c752a16a9b19114 mm/damon/core: use kvmalloc for target regions array
-76809b0b971415e8a5be04480cc4edca2e0f2275 mm/damon/stat: use secs_to_jiffies() instead of msecs_to_jiffies()
-96ccc23c15c6f10a8b6430a13ed8731679871757 Docs/{admin-guide,mm}/damon: fix DAMON documentation details
-e4fe481fa6770847a41ea1349f4930ec30ca15de samples/damon: fix typos in Kconfig help text
-764d43729a2527c6ba93ff253362767917178d30 mm/damon/tests/core-kunit: add KUnit test for walk_control_obsolete behavior
-be45c8097f2d14f2e9e00d97d914448432280642 mm/damon/core: split a fraction of regions when nr_regions exceeds max/2
-e5e4e54ab611e6b72f35148b272d836dab604bf0 mm/damon/tests/core-kunit: test split above max_nr_regions/2
-e59dd955695c2eee9486ca3e89059ca6ac335181 mm: mempolicy: fix automatic numa balancing for shmem
-d4a956cc7bd06cc5882a4400e1325e06fd14ba73 mm: vmscan: remove the redundant FOLIOREF_RECLAIM_CLEAN logic
-595893e78396f69f45253a470d785236ea71e539 mm/page_alloc: free allocated PFNs if the range does not match
-6c284098c8fe363cc04251d26b18b9ee0c89ca49 mm: add softleaf_to_pmd() and convert existing callers
-108513c1f80497755ae287d713d4cf291c71fd2b mm: extract mm_prepare_for_swap_entries() helper
-53c45b92cc5d1b7514a47f8c676f78e5a0717420 fs/proc: use softleaf_has_pfn() in pagemap PMD walker
-a5bc33708f4a822c9d03b85dbca8844c186bfcf9 mm/huge_memory: move softleaf_to_folio() inside migration branch
-ff1cd4bfdfebea913df9682c4a715bca55759ff0 mm/migrate_device: move softleaf_to_folio() inside device-private branch
-d39499090fa37f5625321cfdca605e6947a1e727 mm: rename ARCH_ENABLE_THP_MIGRATION to ARCH_SUPPORTS_PMD_SOFTLEAF
-34bb10610852639238dfad771abd83506fd61bc1 Docs/mm/damon/design: update for DAMOS_QUOTA_NODE_ELIGIBLE_MEM_BP
-427b70a42b7f6d1bbfd9d6feca380d4e44eedbbf Docs/ABI/damon: document probe files
-bdf6209cd38326a508d72c51a8ed80a5b1830d80 mm/damon/tests/core-kunit: test damon_rand()
-3cadc3d65ca61f07cd64cf61c5718519e9c975d2 selftests/damon/sysfs.sh: test multiple probe dirs creation
-07bccac7f92f7f0f9922eaa5766e243e75549f03 selftests/damon/sysfs.sh: test {core,ops}_filters/ directories
-ea29e30c63b44834b01fe266180de1823d7d7ce0 selftests/damon/sysfs.sh: test dests dir
-a75e12d3ef9cc97b5acae7567a27185544770d63 selftests/damon/sysfs.sh: test all files in quota goal dir
-23b09db182d156ab3c4b4e15232140a6e8b34c46 mm/damon/core: reduce range setup in damon_commit_target_regions()
-07771c6448213ec893db02a458f570fed0f10071 mm/damon/sysfs: split probe setup function out
-3a7028c22a1769823e014fdc6b9c77f5ebcbbfd5 mm/damon/sysfs: split out filters setup function
-f2d2f012a9ca4ae5fa400d38fdb37f8eac3f1001 mm/damon/sysfs: fix typos in probe_{add,rm}_dirs: s/attr/probe/
-5176cfbdf60efc2ce6d31aab26ced4f9bc3fc95e maple_tree: add rcu locking check when LOCKDEP is enabled
-3c10fa041f74909312f6b152d285627aa78bf707 locking/lockdep: add sequence counter to held_lock
-308a9396dcb9c6d4316034005646c539eeb3411e maple_tree: add write lock checking with lockdep sequence numbers
-a865deea1f03ebce988957756bf31bc3a73bd420 maple_tree: documentation fix
-f3ea8a3d96b111fda316463dd0ac63e6103b4add maple_tree: drop dead code from mas_extend_spanning_null()
-120863d7552a8b7427d09a54d500e470b0b5b08f maple_tree: drop MAPLE_ALLOC_SLOTS
-03dcf29e1b796e338d65365006c18de0c2f25ae5 maple_tree: clarify comments on mas_nomem()
-64c631be25b6eaf6e3774ca575d98540bbb82bb0 maple_tree: use prefetched value in mas_wr_store_type()
-fadb86cb353905a0e9d9cf71f8e3b27b21b03e43 maple_tree: optimise mas_wr_node_store() when not in rcu mode
-f40946cf9772c0f48f5427ecd001c959da27c455 maple_tree: micro optimisation of mas_wr_store_type()
-c548e64b1ecdff5b8479b95984b1dfa173c45134 maple_tree: add bulk parent set helper
-61d17a3a64c74b12eab39e4bd2cd6ef0f99d6a8c maple_tree: catch race in mas_alloc_cyclic()
-40a1d047e73acb9310c2c7ec605205b3970fbe54 maple_tree: document that erase may use GFP_KERNEL for allocations
-27e4752aafd66ebf476f6cd0061f55b81a34e177 maple_tree: WARN_ON_ONCE when allocations fail
-2c8d4331697af6d382ca2f3d12fcb00f3fd7da44 maple_tree: document erase and allocations better
-6db2d8095d51d529a3e22943a9bfd3c75a4e90c0 maple_tree: change two GFP flags in tests
-51e8dd71b40a73c1c4152aa6b9776013613eccab maple_tree: fix argument name in header
-feb122fb214e83aa491deed09b034b23ffbd3ca9 maple_tree: avoid extra gap calculation
-bcb12bba6eea18c92b33dbcc4d1077614e09b5fe maple_tree: add helper mas_make_walkable()
-00e3b97b382645c644b798d9711ab8dab9f9edf9 mm/hugetlb: avoid unnecessary TLB flush for empty folio list in vmemmap optimize
-e82cf963d533bbfe7c69fda77dc8771c30566c15 mm/mm_init: handle alloc_percpu failure in free_area_init_core_hotplug
-387a0b9dc43c6105d1136ef67835dcdbdc7e8505 mm/vmpressure: skip tree=true accounting on cgroup v2
-f2551377cde5e412a1be17737fed2ba4fc759b0c mm-vmpressure-skip-tree=true-accounting-on-cgroup-v2-fix
-79c30b15a1e301c0ff451630500942e406de3d8f mm/vmpressure: move v1 userspace eventfd code into memcontrol-v1.c
-0891cd20d1ccc9031a0ddd11573a11cad46cbf6f mm/shmem: fix data-race in shmem_fault
-db27c55b76380df16c870c0cb82cd5123e1de431 selftests/mm: move pkey selftest helpers to pkey_util.c
-1444c02fc1c8b1b2c936cc3eb6c1b3aaacf79a0b selftests/mm: unify pkey sighandler selftest assertions and tracing
-734fb772c75578e9d3145e2f31ff3ecba83666d6 selftests/mm: use pkey_assert on clone_raw failure in pkey test
-9c6ac3c567ee17e866acbd10d3979b58aae32ea0 selftests/mm: add missing mmap() return checks in pkey tests
-21a82ced70016f940629c8677ae4a5c7db5e36a3 selftests/mm: add missing pthread_create() return checks in pkey tests
-a260b9f6fed677da128a816f3cdc13ac67027649 mm: fix ASSERT_EXCLUSIVE_BITS by passing memdesc_flags_t by pointer
-81ab86cf2ae3a3352e076d0d4e146aa8bd0065b3 mm-fix-assert_exclusive_bits-by-passing-memdesc_flags_t-by-pointer-fix
-f73be944a57b05b467607e6c34276a090694832a mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-d9e026532b1f775dc3086945e7fcac9cb1f25e84 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-f5ea2fbe68e0c9192c0c82ece4645beeace63345 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2351062911832524627==--
+--===============3137474981206395733==--
