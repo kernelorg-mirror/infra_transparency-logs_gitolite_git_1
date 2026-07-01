@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1742505883701517927=="
+Content-Type: multipart/mixed; boundary="===============4493672146466394337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 01 Jul 2026 20:12:11 -0000
-Message-Id: <178293673109.3472133.14936124541808193286@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 20:12:13 -0000
+Message-Id: <178293673357.3472272.5280599341876604976@gitolite.kernel.org>
 
---===============1742505883701517927==
+--===============4493672146466394337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 805185b7c7a1069e407b6f7b3bc98e44d415f484
     new: d6e81529749190123aa0040626c7e5dbc20fdc9a
     log: revlist-805185b7c7a1-d6e815297491.txt
 
---===============1742505883701517927==
+--===============4493672146466394337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ eef9bddc3313b01679c60892825afd2a7a83fba6 net: fib_rules: Only hold RTNL for the 
 ffc8a4b9ad2bdee41a207aaf546eef6ee3f19a2c ipv6: fib_rules: Convert fib6_rules_net_exit_rtnl() to ->exit().
 d6e81529749190123aa0040626c7e5dbc20fdc9a Merge branch 'net-fib_rules-rtnl-less-rtm_newrule-and-rtm_delrule'
 
---===============1742505883701517927==--
+--===============4493672146466394337==--
