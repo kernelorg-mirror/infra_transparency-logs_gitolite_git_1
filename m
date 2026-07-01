@@ -1,30 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 01 Jul 2026 10:52:08 -0000
-Message-Id: <178290312811.3040382.1842757064323553114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 01 Jul 2026 10:52:46 -0000
+Message-Id: <178290316661.3040881.4104635717484047243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 91a6dba5183d269b8215d6170c079b654ef4cab7
-    new: e782d687d2f5bf8b8113dc48ba22cca4b472c252
+    old: 2e362f627baa3d72ca1cae5f15375f3a9debafbb
+    new: e87e0c714be3861d8fead297ec46727b199ca2f9
     log: |
-         e782d687d2f5bf8b8113dc48ba22cca4b472c252 ASoC: amd: yc: Add Alienware m15 R7 AMD to DMIC quirk table
+         e87e0c714be3861d8fead297ec46727b199ca2f9 Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: fcb8927635ce1a3fd66eb2ba9a6f85ef4e7bb02b
-    new: 3ff2f6faeaaf792cac2ab54fc9b7974d6d43bb61
+    old: 419fa939fd83d4c6af926678ef0322d09844a4d3
+    new: 19eabaac90fc65925984b4cbc2d322e46893509b
     log: |
-         e782d687d2f5bf8b8113dc48ba22cca4b472c252 ASoC: amd: yc: Add Alienware m15 R7 AMD to DMIC quirk table
-         2f82d58a87d707c54ba649a4f71b9e7bc9c56f47 ASoC: codecs: cleanup kconfig indentations
-         3848617c64ac5bf71e02f437e1974720d78843ca ASoC: renesas: fsi: Propagate platform_get_irq() errors
-         ae2e2f1ff1e80f88e5720a3c642992d182adb025 ASoC: mediatek: mt2701: add COMPILE_TEST
-         bff7fad1010eea6f183fb110b54171cf8700ef8e ASoC: dt-bindings: Convert cirrus,cs35l36 to DT schema
-         3ff2f6faeaaf792cac2ab54fc9b7974d6d43bb61 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         3ac69e3cb2880042a488fea68eddd2835499582b regulator: Drop unused i2c driver data
+         8e74b2db58671c27809dcea9c0eb9143424f2ca8 regulator: Use named initializers for arrays of i2c_device_data
+         2924fa8381ee20d26fad75d749af71b845f57749 regulator: Improve style of i2c_device_id arrays
+         a36cc103a6fb56ae3707c7bbae30f4e629d0da3c regulator: Rework i2c_device_id initialisation
+         e87e0c714be3861d8fead297ec46727b199ca2f9 Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
+         2d362152551f69315f597d4ab8a63eb7dfaa394c Merge branch 'regulator-linus' into regulator-next
+         19eabaac90fc65925984b4cbc2d322e46893509b Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
          
