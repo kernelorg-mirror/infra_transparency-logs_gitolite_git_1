@@ -1,31 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2864699963330616223=="
+Content-Type: multipart/mixed; boundary="===============2296343272073836634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 01 Jul 2026 21:07:56 -0000
-Message-Id: <178294007692.3513435.3010862024118320101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Wed, 01 Jul 2026 21:08:00 -0000
+Message-Id: <178294008089.3513580.9628024320561488166@gitolite.kernel.org>
 
---===============2864699963330616223==
+--===============2296343272073836634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: c454531af72e0df811600601413bb8d3d039ed08
-    new: f658393698772d1f4f85b784814030e7af0ade64
-    log: revlist-c454531af72e-f65839369877.txt
+  - ref: refs/heads/for-backlight-next
+    old: b3c8bb2e69979e3aadcbfc5ac53424ecf26a9277
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-b3c8bb2e6997-dc59e4fea9d8.txt
 
---===============2864699963330616223==
+--===============2296343272073836634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c454531af72e-f65839369877.txt
+Content-Disposition: attachment; filename=revlist-b3c8bb2e6997-dc59e4fea9d8.txt
 
+8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
+a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
+9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
+7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
+8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
+516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
+2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
+c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
+808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
+8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
 ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
 8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
 32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
@@ -1036,19 +1050,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-f7e2f38657d7fc4cfd303115452f33a176956351 dt-bindings: mfd: syscon: Disallow simple-bus with syscon
-1d02f2a79ebe94b49035401f13cf4e19b68f2e55 dt-bindings: mfd: syscon: Drop custom select for older dtschema
-bde6556744888c8580d8bd2425507800d5f411e7 mfd: mt6397-core: Add mt6323 EFUSE support
-62acd2babc1d647e2d0207538e566fbdda4005b1 mfd: si476x: Modernize GPIO handling
-12bb53cfe10e0ee53a0054dc6e0961551cb5bc7e mfd: ipaq-micro: Fix out-of-bounds stack read in ipaq_micro_str
-16cf8a5db24a521dfb6da4d8288520638f5af051 dt-bindings: mfd: qcom,spmi-pmic: Document PMG1110
-c9c497965f6094b2e7128ab17dd04ff681211a12 mfd: axp20x: Preserve other control bits when powering off
-7faa1611e5bdc8afd5ce2d7f1ef12b4af6f7b26f mfd: rohm-bd71828: Use software nodes for gpio-keys
-337e3949325a966edce34e202502977bdc7d0475 mfd: rohm-bd718x7: Use software nodes for gpio-keys
-01a6bccb83564dfdb5501af516cf3373147a272c MAINTAINERS: Add Intel LPSS section to follow the changes
-72182d558f9c84354b7d092ea6c64ebeb750d5b0 mfd: cs42l43: Use new SoundWire enumeration helper
-7cb24fd974fb1701bcd9de2f561c10aebab1a902 dt-bindings: mfd: 88pm886: Allow vbus regulator
-0ba7a9b44799c1eebd1ecb67c0031f69e14db1e4 mfd: 88pm886: Initialize the battery page
-f658393698772d1f4f85b784814030e7af0ade64 MAINTAINERS: Add a mailing list entry to MFD
 
---===============2864699963330616223==--
+--===============2296343272073836634==--
