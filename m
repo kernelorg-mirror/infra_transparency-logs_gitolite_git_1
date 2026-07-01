@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Wed, 01 Jul 2026 06:28:31 -0000
-Message-Id: <178288731125.2834248.8784620295743608170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Wed, 01 Jul 2026 06:39:55 -0000
+Message-Id: <178288799557.2841764.7910442488352091563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/b4/cros_ec-hwmon-locking
+  - ref: refs/heads/range-checks
     old: 0000000000000000000000000000000000000000
-    new: 95003896306434c5e2d6cae819f38179e0f5048f
+    new: b45533e67aec62ad9a6f3fab58f9a6d132943f22
