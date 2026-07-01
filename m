@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3011878100484964652=="
+Content-Type: multipart/mixed; boundary="===============6499044267915737180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Wed, 01 Jul 2026 07:58:56 -0000
-Message-Id: <178289273656.2900644.1688481948004535916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 01 Jul 2026 08:00:30 -0000
+Message-Id: <178289283020.2903647.4022399446018272352@gitolite.kernel.org>
 
---===============3011878100484964652==
+--===============6499044267915737180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 7a26df144fadd9c721323a4b0ff9808473d5608e
     log: revlist-708b369bdf8f-7a26df144fad.txt
 
---===============3011878100484964652==
+--===============6499044267915737180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b64c29f5bfed30005c32ca0ed26a948c9b8bcc37 xfs_db: fix type conversions
 1bbedb6d165e79d732616249b946fddf4ef385fd xfs_db: dump zoned filesystem superblock fields
 7a26df144fadd9c721323a4b0ff9808473d5608e xfs_healer: fix getmntent race in weakhandle
 
---===============3011878100484964652==--
+--===============6499044267915737180==--
