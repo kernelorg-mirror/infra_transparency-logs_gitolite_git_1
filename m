@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 01 Jul 2026 11:42:22 -0000
-Message-Id: <178290614284.3077471.13289422255303299338@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 11:42:48 -0000
+Message-Id: <178290616824.3077746.4975354288441665870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,26 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/block-7.2
-    old: 30e542a36228db353e81efcd39e4dbc7a95c88c5
-    new: 3dd63dba8f9cb6990a40af7ed66ee0159f475819
+  - ref: refs/heads/master
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 665159e246749578d4e4bfe106ee3b74edcdab18
     log: |
-         3dd63dba8f9cb6990a40af7ed66ee0159f475819 block: avoid potential deadlock on zone revalidation failure
-         
-  - ref: refs/heads/for-next
-    old: da11ea764f0dfacddf28707b44a386b8615b315b
-    new: 013b702bcb0d9c5a1dc679b5938860fe1d1dfaa7
-    log: |
-         3dd63dba8f9cb6990a40af7ed66ee0159f475819 block: avoid potential deadlock on zone revalidation failure
-         df645b745941ea829b39134ac342f730f4d9d978 io_uring/memmap: return -EINVAL from get_unmapped_area() on bad mmap
-         15cd3ccf9b179f0f76948d0901be3b15028bc768 io_uring/msg_ring: reject CQE32 flag pass-through to normal rings
-         081565348d48c378342cb426ee2397b2eec6ffa1 Merge branch 'block-7.2' into for-next
-         013b702bcb0d9c5a1dc679b5938860fe1d1dfaa7 Merge branch 'io_uring-7.2' into for-next
-         
-  - ref: refs/heads/io_uring-7.2
-    old: 3996771b8f759729cba0a28007438c085f814d61
-    new: 15cd3ccf9b179f0f76948d0901be3b15028bc768
-    log: |
-         df645b745941ea829b39134ac342f730f4d9d978 io_uring/memmap: return -EINVAL from get_unmapped_area() on bad mmap
-         15cd3ccf9b179f0f76948d0901be3b15028bc768 io_uring/msg_ring: reject CQE32 flag pass-through to normal rings
+         72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
+         251a8fe1b9aedccd298b77bc28426d564c5a923f tracing/probes: Remove WARN_ON_ONCE from parse_btf_arg
+         cda1fbfc5313bb90daa271d45eea4a8d317a8544 tracing/events: Fix to check the simple_tsk_fn creation
+         206b25c09080cc20fd4c2bea12d59df4b7ba2121 tracing: eprobe: read the complete FILTER_PTR_STRING pointer
+         9a667b7750dda88cbf1cca96a53a2163b2ee71f7 tracing/probes: Fix double addition of offset for @+FOFFSET
+         367c49d6e283c17b56a31e7a8d964a079244264c tracing/fprobe: Fix NULL pointer dereference in fprobe_fgraph_entry()
+         a369299c3f785cf556bbef2de2db0aa2d294c4c9 tracing/probes: Make the $ prefix mandatory for comm access
+         665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
