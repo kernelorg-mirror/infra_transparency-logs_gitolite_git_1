@@ -1,35 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Wed, 01 Jul 2026 10:40:37 -0000
-Message-Id: <178290243703.3030891.3201287511857067991@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6473195386376572086=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 01 Jul 2026 10:51:20 -0000
+Message-Id: <178290308016.3038501.6327599745973434924@gitolite.kernel.org>
+
+--===============6473195386376572086==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: a1636f548c497cedf001238c879eae9e271b5809
-    new: 94cb9e8f270797e489633cfa53d2d44afecb8bef
+  - ref: refs/heads/for-7.2
+    old: 91a6dba5183d269b8215d6170c079b654ef4cab7
+    new: e782d687d2f5bf8b8113dc48ba22cca4b472c252
     log: |
-         03e661e5f2ba68c629cdf836350324e7630e9a80 pinctrl: tb10x: Mark base as __iomem
-         0a3ac9e9d20cfb653200bb82fc0c693f55cb2fd8 pinctrl: s32cc: add/fix some comments
-         e25c57c1426f8d0d17b99fe74d9b6cd4b16cf9b0 pinctrl: s32cc: remove inline specifiers
-         d10d65d6a2fa0b97f67b8c3ee52303e967b2633c pinctrl: s32cc: change to "devm_pinctrl_register_and_init"
-         e91152802f0d71c14289b1f86d27ec143c49fbdb dt-bindings: pinctrl: s32g2-siul2: describe GPIO and EIRQ resources
-         94cb9e8f270797e489633cfa53d2d44afecb8bef pinctrl: s32cc: implement GPIO functionality
+         e782d687d2f5bf8b8113dc48ba22cca4b472c252 ASoC: amd: yc: Add Alienware m15 R7 AMD to DMIC quirk table
          
-  - ref: refs/heads/for-next
-    old: a1636f548c497cedf001238c879eae9e271b5809
-    new: 94cb9e8f270797e489633cfa53d2d44afecb8bef
-    log: |
-         03e661e5f2ba68c629cdf836350324e7630e9a80 pinctrl: tb10x: Mark base as __iomem
-         0a3ac9e9d20cfb653200bb82fc0c693f55cb2fd8 pinctrl: s32cc: add/fix some comments
-         e25c57c1426f8d0d17b99fe74d9b6cd4b16cf9b0 pinctrl: s32cc: remove inline specifiers
-         d10d65d6a2fa0b97f67b8c3ee52303e967b2633c pinctrl: s32cc: change to "devm_pinctrl_register_and_init"
-         e91152802f0d71c14289b1f86d27ec143c49fbdb dt-bindings: pinctrl: s32g2-siul2: describe GPIO and EIRQ resources
-         94cb9e8f270797e489633cfa53d2d44afecb8bef pinctrl: s32cc: implement GPIO functionality
-         
+
+--===============6473195386376572086==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1782903078 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1782903078-037cec687e58b8b4ed9942ad930ce627d3493694
+
+91a6dba5183d269b8215d6170c079b654ef4cab7 e782d687d2f5bf8b8113dc48ba22cca4b472c252 refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpE8SYACgkQJNaLcl1U
+h9A/EQf9Gx+POoYcvxGXjoWMTDz48AK2Noi6Z2DXhYZWvsY8y+nY82v+Cqv5rCpi
+DwgDjyYjxam0NLSqgKXv7FYoCdlYs426LpwM6A3lZNu0S2+kvvL9MfTNU06VOqG9
+9d+bCFCLWkyxa1tCX8BZT21jZ0DbIxTK0EvGgR59YidVNpph1QPBgeLpw+RoLYH8
+gXHqV/urK6MnHxgy8xACgzJw2+F2u+rDAorNF0U144jsrKURijzIFNxzk6nb5BPY
+LHyd03OtjkcCdq9ftG5fC7Fqpkdpaf0o1q7lZDgRMu9SsT9E6zKlYlyjNwnEnAmL
+M2XVhfLPMkX6c1/979h1BvEjykUtVA==
+=4hyP
+-----END PGP SIGNATURE-----
+
+--===============6473195386376572086==--
