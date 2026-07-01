@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 01 Jul 2026 19:41:15 -0000
-Message-Id: <178293487553.3445297.2937145029014617806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 01 Jul 2026 19:44:19 -0000
+Message-Id: <178293505911.3446422.17594756436147016509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/pool-mode
-    old: cdfad06a7ec5f3b374eac6e7614134474ca39c2b
-    new: c858363a1611ff4b9ca99c977a6ad9886fcd1e23
+  - ref: refs/heads/master
+    old: 09e7d46e33dd95803c3105eaba0e6de02dd1713e
+    new: c4082e93d9be23833a2310473badf2fff9bd5989
     log: |
-         f4960b8f80c67b54bb2da0e9d522f2a186ae25d2 sunrpc: hardcode pool_mode to pernode, remove other modes
-         94ed670bcd98bfe1c6c3ab427424949c8dfd5b16 sunrpc: guarantee a thread per CPU-bearing node when auto-distributing
-         c858363a1611ff4b9ca99c977a6ad9886fcd1e23 sunrpc: eliminate a modulus operation from the enqueueing codepath
+         859055e07697c46f6964109981aa1cd23d6bde47 bpf: Add tracing_multi link info support
+         d36e4dd547bb061eb78c7aca54f4575395598540 selftests/bpf: Add tracing_multi link info tests
+         37c1e353c9fd68eb27fa2103bfed22835936ec3e bpftool: Add tracing_multi link info output
+         c4082e93d9be23833a2310473badf2fff9bd5989 Merge branch 'bpf-tracing_multi-link-info-support'
          
