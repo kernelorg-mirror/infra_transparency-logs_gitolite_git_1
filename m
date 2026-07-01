@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 01 Jul 2026 00:18:51 -0000
-Message-Id: <178286513145.2555696.16164993576884525364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 01 Jul 2026 00:19:31 -0000
+Message-Id: <178286517176.2556311.1661453199852245920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: cd066559a07371e0b97b6155ba4eeaafeb233009
-    new: 1c664ec4b9ea827b609d296921ed5bad8a40a158
+  - ref: refs/heads/x86/cleanups
+    old: 0cfdf974f133e0ff17ed80e7895adbe7889d9522
+    new: b47748678c6cd831aba376f6b2d90b7718c7c661
     log: |
-         09f7a613a14fd6683e8e4437c97bde0f1ca7062c netconsole: do not warn when the best-effort skb allocation fails
-         84c0ff1efb62b0053aa265b8deb13842f68f1a74 netpoll: do not warn when the best-effort pool refill fails
-         1c664ec4b9ea827b609d296921ed5bad8a40a158 Merge branch 'net-do-not-warn-on-best-effort-skb-allocation-failures'
+         b47748678c6cd831aba376f6b2d90b7718c7c661 x86/fpu: Fix kernel-doc formatting above fpu_enable_guest_xfd_features()
          
