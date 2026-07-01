@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0658720717417562979=="
+Content-Type: multipart/mixed; boundary="===============0875902464419861290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 01 Jul 2026 15:14:36 -0000
-Message-Id: <178291887675.3242321.773449650426702198@gitolite.kernel.org>
+Date: Wed, 01 Jul 2026 15:14:45 -0000
+Message-Id: <178291888571.3242538.8998121603657473180@gitolite.kernel.org>
 
---===============0658720717417562979==
+--===============0875902464419861290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/for-next
     old: 2580f89860460f38bcc13fce75db8626d555c0cd
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-2580f8986046-dc59e4fea9d8.txt
+    new: c89570cb27ed9ca90e566d21454d1dd7f5abe6f6
+    log: revlist-2580f8986046-c89570cb27ed.txt
 
---===============0658720717417562979==
+--===============0875902464419861290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2580f8986046-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-2580f8986046-c89570cb27ed.txt
 
-632ecc90e1ca5d3b6822bb4d08f84a175b6c42c0 drm/xe/guc: Fix buffer overflow in steered register list allocation
-0b5ed2756d45b04669502a1f13b1657ec7664571 drm/xe: Add compact-PT and addr mask handling for page reclaim
 9961c88b1cfb444ee03e9c1641cf170e9684c532 ipmi: Drop unused assignment of platform_device_id driver data
 7caf2a2351d4053075670ff3e26a6815da0a9e1e accel/amdxdna: Use caller client for debug BO sync
 f1b061b4d4c6cbf861319ba954caa80145cf018f spi: Add NULL check for spi_get_device_id() in spi_get_device_match_data()
@@ -1050,5 +1048,7 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+754e9e49b76fd5be339172aa98544182ed3ca75e pkey: Move keytype check from pkey api to handler
+c89570cb27ed9ca90e566d21454d1dd7f5abe6f6 Merge branch 'fixes' into for-next
 
---===============0658720717417562979==--
+--===============0875902464419861290==--
