@@ -1,41 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============6499044267915737180=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Wed, 01 Jul 2026 08:00:30 -0000
-Message-Id: <178289283020.2903647.4022399446018272352@gitolite.kernel.org>
-
---===============6499044267915737180==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Wed, 01 Jul 2026 08:00:38 -0000
+Message-Id: <178289283883.2903897.1041420204139494118@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 708b369bdf8f4f9b2824b9daa54a11df253b7b5b
-    new: 7a26df144fadd9c721323a4b0ff9808473d5608e
-    log: revlist-708b369bdf8f-7a26df144fad.txt
-
---===============6499044267915737180==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-708b369bdf8f-7a26df144fad.txt
-
-0bafb12d66e7b3703d4711457b060d143d2ec176 xfs_scrub: stop user file scan if caller already aborted
-bac5085ac2e35c3415a0c7a0c1cb0110e0b3c1bc xfs_scrub: don't flatten error numbers in read_verify_schedule_now
-b43e9064d665e3c3bec6931cd0ab19a7ad8c6e79 xfs_scrub: actually handle NEEDSCHECK scrub items in phase 4
-41530a0981a17ff84912a4454d7c2b6308a06035 xfs_scrub: don't leak phase 5 scan items after a failed workqueue_add
-f4dfa0b0c56573989448cb0d22f9e5d63358ff0b xfs_scrub: fix phase 8 debug reporting
-f75bb3f2d598b621c89da0894e5bd0a5e0d2c8f0 xfs_scrub: always finish cleanup, even if reporting healthy state fails
-4399db49dec0a04431f5c93960a5c73ac30fc8d0 xfs_scrub: fix spacemap external log device scan dev key
-70d0a4f274641f9987a260d5d2aa04d10e274787 xfs_scrub: fix estimate of work items for phase 4
-b64c29f5bfed30005c32ca0ed26a948c9b8bcc37 xfs_db: fix type conversions
-1bbedb6d165e79d732616249b946fddf4ef385fd xfs_db: dump zoned filesystem superblock fields
-7a26df144fadd9c721323a4b0ff9808473d5608e xfs_healer: fix getmntent race in weakhandle
-
---===============6499044267915737180==--
+  - ref: refs/heads/main
+    old: adc49c7ba690c9b33b8392ec27397456b65d0893
+    new: bf83ee45874e9f071478bed39f9cf40cc741629f
+    log: |
+         bf83ee45874e9f071478bed39f9cf40cc741629f net/sched: dualpi2: clear stale classification on filter miss
+         
