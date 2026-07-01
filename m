@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 01 Jul 2026 06:09:19 -0000
-Message-Id: <178288615920.2820289.9161952791412912009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 01 Jul 2026 06:28:31 -0000
+Message-Id: <178288731125.2834248.8784620295743608170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/tags/mm-everything-2026-07-01-06-07
+  - ref: refs/heads/b4/cros_ec-hwmon-locking
     old: 0000000000000000000000000000000000000000
-    new: c27cd235a74e3593dc330022b9b466294d9277b4
+    new: 95003896306434c5e2d6cae819f38179e0f5048f
