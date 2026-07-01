@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 01 Jul 2026 00:47:04 -0000
-Message-Id: <178286682410.2578879.6459646985058031477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 01 Jul 2026 00:53:28 -0000
+Message-Id: <178286720898.2583042.10531657387025900822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/tags/bootconfig-fixes-v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 1884488387bb2dfe529a494cb187a73b58125fb0
+  - ref: refs/heads/fixes
+    old: c4c7756a81b5baef286bf9be1ea404f3e4dd7a3c
+    new: bc7b086a45521a986a49045907f017e3e46c763e
+    log: |
+         bc7b086a45521a986a49045907f017e3e46c763e riscv: probes: save original sp in rethook trampoline
+         
