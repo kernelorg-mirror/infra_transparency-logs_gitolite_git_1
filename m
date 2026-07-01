@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2296343272073836634=="
+Content-Type: multipart/mixed; boundary="===============2694451492908049985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Wed, 01 Jul 2026 21:08:00 -0000
-Message-Id: <178294008089.3513580.9628024320561488166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Wed, 01 Jul 2026 21:08:14 -0000
+Message-Id: <178294009470.3513897.16621429473896211669@gitolite.kernel.org>
 
---===============2296343272073836634==
+--===============2694451492908049985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: b3c8bb2e69979e3aadcbfc5ac53424ecf26a9277
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-b3c8bb2e6997-dc59e4fea9d8.txt
+  - ref: refs/heads/for-leds-next
+    old: d43f1d792902ba0a53fd311bff2cf96095c7606d
+    new: 7ddc04d1bd08f80ffc1e2fb97f3fc6cacab0ffc0
+    log: revlist-d43f1d792902-7ddc04d1bd08.txt
 
---===============2296343272073836634==
+--===============2694451492908049985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3c8bb2e6997-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-d43f1d792902-7ddc04d1bd08.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
 93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
@@ -1050,5 +1048,7 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+782cca1ac6f43f5e6d0b1512b63fa517da223aca leds: pwm-multicolor: Introduce default-intensity property
+7ddc04d1bd08f80ffc1e2fb97f3fc6cacab0ffc0 leds: trigger: netdev: Extend speeds up to 100G
 
---===============2296343272073836634==--
+--===============2694451492908049985==--
