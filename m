@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 01 Jul 2026 18:55:10 -0000
-Message-Id: <178293211022.3412030.12584515541044465538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 01 Jul 2026 19:11:55 -0000
+Message-Id: <178293311500.3423350.10494442486088975807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/regulator-7.3
-    old: a36cc103a6fb56ae3707c7bbae30f4e629d0da3c
-    new: 7fd28093b3effc4f92566466df364622830ec608
+  - ref: refs/heads/for-7.2/upstream-fixes
+    old: eebbef7c468a5cb58c4772849ee5066441166cf0
+    new: b6eb022890c78285f55381589c1536bd66b8eaeb
     log: |
-         7fd28093b3effc4f92566466df364622830ec608 regulator: tps6594: Fix device node reference leaks in multiphase loop
+         8813b0612275cc61fe9e6603d0ee019247ade6be HID: multitouch: fix out-of-bounds bit access on mt_io_flags
+         b6eb022890c78285f55381589c1536bd66b8eaeb selftests/hid: multitouch: test a large ContactCountMaximum
          
