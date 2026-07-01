@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 01 Jul 2026 16:48:16 -0000
-Message-Id: <178292449629.3316180.12342098627049429691@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 01 Jul 2026 16:48:44 -0000
+Message-Id: <178292452469.3316536.8199342825718468382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/misc
-    old: 8fb2ca9b9d3c82b8629c7331da6684bf269c60fb
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pending
+    old: 3e874ada6e026e8c67b8545ecb3759bb648bb28d
+    new: 235605d53c89bc9a3b03d72def280e015cffd8ee
+    log: |
+         235605d53c89bc9a3b03d72def280e015cffd8ee wifi: ath6kl: fix use-after-free in aggr_reset_state()
+         
