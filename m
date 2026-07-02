@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Jul 2026 08:38:10 -0000
-Message-Id: <178298149088.4031952.13079549615022003756@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8959718969674351347=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 02 Jul 2026 08:39:21 -0000
+Message-Id: <178298156108.4032600.10817265069667436753@gitolite.kernel.org>
+
+--===============8959718969674351347==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: bb09d0e64ecaa0aa0f7d1133a1696ed74dead295
-    new: d8e8b85a85fe21954d303db68034aac4639df88d
+  - ref: refs/heads/master
+    old: c4afb206a01c8cf54f07975d3c5d2543e6b7773e
+    new: d0abad87cc0bf0b33c3c563fda878e711bfcda12
     log: |
-         035e1fed892d3d06002a73ff73668f618a514644 batman-adv: retrieve ethhdr after potential skb realloc on RX
-         7141990add3f75436f2933cb310654cad3b1e3e9 batman-adv: access unicast_ttvn skb->data only after skb realloc
-         77880a3be88d378d60cc1e8f8ec70430e2ed0518 batman-adv: gw: acquire ethernet header only after skb realloc
-         48067b2ae4504500a7093d9e1e16b42e70330480 batman-adv: dat: acquire ARP hw source only after skb realloc
-         cdf3b5af2bc4431e58629e8ad2086b1e9185c761 batman-adv: bla: reacquire gw address after skb realloc
-         26560c4a03dc4d607331600c187f59ab2df5f341 batman-adv: dat: ensure accessible eth_hdr proto field
-         d8e8b85a85fe21954d303db68034aac4639df88d Merge tag 'batadv-net-pullrequest-20260630' of https://git.open-mesh.org/batadv
+         d0abad87cc0bf0b33c3c563fda878e711bfcda12 6.6-stable patches
          
+
+--===============8959718969674351347==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1782981507 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1782981477-5867f6a60d38b913359682507f5d19fd696b683a
+
+c4afb206a01c8cf54f07975d3c5d2543e6b7773e d0abad87cc0bf0b33c3c563fda878e711bfcda12 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpGI4MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dGcP/2mC+53vzjz2LAhV//WO
+KUOMQISIGuURj39Be8794e4TZLDulIwjNdjPwV6OB9i23HtRARk2mrBhfdyXnzFI
+wyNDrkSk4ArT6bo5kWWWKlVRQSG6dIBJFeMgfeWpDNPU9FtnnDaNFoyHbSm+49Tj
+H9tbkvV1y+kpItxi4G5IXNW76OaWlgzAFzbDYrIvUNL6zxGMMgpZIS3JCt5fpKep
+CfEnyt+px7to0Aj2gWcpt0aclBZplgS7QCX40eFQie41gIOxr92Ctmr0/1+JQ7Hg
+j7RJVDjR1Udo6hYE4vIiltr4PvspZtiFre5dLjJom6oe4RkkqXXS7e02Tpc+e655
+Wpa88gctpWvNzvfDQi0u+ehBsnqZ4eK7qFOiQE+TDmrQPyvt2sjw4im6+LQuIGOw
+Q+oPa7Gl/o/K8MzoKr4Pgxqs32vh59lMlCQMrX0ZRZufpUBGa8UhQdDmbK/rvJyU
+F2Fv9Oeyu3AJArXwDzW/R828HDVwbNEJVxlhfr/FePztCL2Wm7xYumL8/whMC6yq
+KF/qAXM7Y4Bsu/y1i8/YjdcRyXkRinj4j0V4b2f5gazGRCJHkRCKy54s73dDOztn
+RhPKOUDRt6qUZdSxH+2eMMzvQn6li7je78TdMsYRVX5JjQAKOQv8QJJrKIk4EG74
+vklVYX7lvYYGm4ZZLESXfWoh
+=xkzd
+-----END PGP SIGNATURE-----
+
+--===============8959718969674351347==--
