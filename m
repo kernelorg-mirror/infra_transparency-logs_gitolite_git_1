@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 Jul 2026 19:15:33 -0000
-Message-Id: <178301973369.312418.14596610586607274331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 02 Jul 2026 19:17:43 -0000
+Message-Id: <178301986344.313551.13330043232206895240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/arm64-xs-decode
-    old: 0000000000000000000000000000000000000000
-    new: 72f160cb56a4e3ed3f26f5b0b5fe95136f0f0395
+  - ref: refs/heads/dev
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 149b192e376d746bf7b8e1e02541c2256c3b17f0
+    log: |
+         149b192e376d746bf7b8e1e02541c2256c3b17f0 lsm: clarify security_task_prctl() hook documentation
+         
