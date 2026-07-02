@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 02 Jul 2026 08:45:26 -0000
-Message-Id: <178298192667.4040058.11102220892857953228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Thu, 02 Jul 2026 08:59:08 -0000
+Message-Id: <178298274801.4047863.2495741872869866012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/main
-    old: f07f1e3dedb20077a401193c9b65fe37e7d38046
-    new: f5afff65a7743af1d68c338e358ae3f4936d3a7f
+  - ref: refs/heads/fixes
+    old: 7783dcd79ae9c4aa48bc47bd4275772445dc4b2a
+    new: 2ebce860bdd7ae5e13002811bc9bbbf33fcfc221
     log: |
-         eb56577ae9a5aad5c15725a4121f9e560842bd79 ehea: remove the ehea driver
-         4bbb6f5940708649b8f51ab22692c467a766518f powerpc: remove ehea driver references
-         f5afff65a7743af1d68c338e358ae3f4936d3a7f Merge branch 'net-remove-the-orphaned-ibm-ehea-driver'
+         2ebce860bdd7ae5e13002811bc9bbbf33fcfc221 mm/mm_init: handle alloc_percpu failure in free_area_init_core_hotplug
          
