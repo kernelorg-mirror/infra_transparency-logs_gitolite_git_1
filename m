@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Thu, 02 Jul 2026 08:59:08 -0000
-Message-Id: <178298274801.4047863.2495741872869866012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 02 Jul 2026 08:59:22 -0000
+Message-Id: <178298276282.4048171.3261659669133197395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/fixes
-    old: 7783dcd79ae9c4aa48bc47bd4275772445dc4b2a
-    new: 2ebce860bdd7ae5e13002811bc9bbbf33fcfc221
+  - ref: refs/heads/main
+    old: f5afff65a7743af1d68c338e358ae3f4936d3a7f
+    new: 8c9c5b9a689612dcb92a04a4218c975cd19f19d8
     log: |
-         2ebce860bdd7ae5e13002811bc9bbbf33fcfc221 mm/mm_init: handle alloc_percpu failure in free_area_init_core_hotplug
+         8c9c5b9a689612dcb92a04a4218c975cd19f19d8 net: usb: rtl8150: handle link status read failures
          
