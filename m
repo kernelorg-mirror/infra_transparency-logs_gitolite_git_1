@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4419767962712320638=="
+Content-Type: multipart/mixed; boundary="===============3202800826202393473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 02 Jul 2026 15:44:03 -0000
-Message-Id: <178300704326.158650.14053825428409672145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 02 Jul 2026 15:49:11 -0000
+Message-Id: <178300735135.162355.1835024084992990844@gitolite.kernel.org>
 
---===============4419767962712320638==
+--===============3202800826202393473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testing
-    old: 2bf164847e2e83599b4c2454e301a3aff92fddfc
-    new: 84635517785582f94993ed13eb7d370a76900878
-    log: revlist-2bf164847e2e-846355177855.txt
+  - ref: refs/heads/master
+    old: f4159642ec705c8e190186062e05b75bda3af152
+    new: 1e11f9ca88ebbbf6ca4869f40cdaaea599b1398a
+    log: |
+         1e11f9ca88ebbbf6ca4869f40cdaaea599b1398a 6.12-stable patches
+         
 
---===============4419767962712320638==
+--===============3202800826202393473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bf164847e2e-846355177855.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-348ff65577603c0565257ecfcaa015ebaaeb200e dt-bindings: iio: adc: mediatek,mt6359-auxadc: add mt6323 PMIC AUXADC
-d6c384c3269dd76cd5dcff83932ebac7bda016f0 iio: adc: mt6323-auxadc: add mt6323 PMIC AUXADC driver
-53cea40388d6485abdc4e7fd24f05198d88f66cd iio: imu: inv_icm42600: reorder all driver headers
-9f16490c4ed130fa35928db6dc5b624890bddc32 iio: imu: inv_icm42600: add buffer hwfifo watermark attributes
-e6026ff7e67dda516dd4701956160649b97c9636 iio: imu: inv_icm45600: Use I2C match data
-bb6ea868b83ebcfa680db1ac2669fa96569160b5 dt-bindings: iio: adc: add xlnx,versal-sysmon binding
-50bf4fd85b25e26eac72e6c65b4b54ba6e9f6bda iio: adc: add Versal SysMon driver
-2dd8c526a272433e0aaefc9db08296f742f2629c iio: adc: versal-sysmon: add I2C driver
-c7f7eb10638f8757129fcf9785e70d364b8c0f3d iio: adc: versal-sysmon: add threshold event support
-cbfd04ca564037db65e98f97893f49b6d41d84bf iio: adc: versal-sysmon: add oversampling support
-84635517785582f94993ed13eb7d370a76900878 staging: iio: frequency: reorder dds.h macro parameters to match IIO convention
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783007363 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1783007349-c087544d28c55e0a3b43dbb4239e62eeb5b7f79c
 
---===============4419767962712320638==--
+f4159642ec705c8e190186062e05b75bda3af152 1e11f9ca88ebbbf6ca4869f40cdaaea599b1398a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpGiIMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZkYP/jt4GCLDk7367YxKeXdp
+tUO71tfI79Du7qGTcxcxy6ZvM383CakhK3AwdgWl21/v8TI7zkTqKSkME7eYgOU0
+SZlx8W922j78bCVmAImIiwr0Dsnlz0ZRIH9yP0XtPzWlKGGoPaLhsjifsfcS2J3c
+Arlsa0f++6zQafK6nI+eNNqMT2S5CO8qLhbeVZNAJdbAKi+vUBYZ8mx01u9m6LTx
+JEInmsoCOT4hEjKx27Yu3Hjk1geEpVSyuS439skIuRU1PlMFF5obroHSezrhSb79
+r/8p2eXE52gpLirMV2ovIk/PZWyN7bHpSoTx5uhxueG0/wIgRIX7MRyB4Frt7Lcc
+bwCTauAO3E1xtapPoIuiNdkUQtGbOHrZC4/4oQVA+qQaNtPpOsTqDxXcwUxYsBuw
+JM9/06wFefDjHcCMQNUoffiJI3R8IUHjaDWJlALx56ZJUUKa+p7nagZ4B1Sic1sE
+68/3hzDUcrgt4SO0phjyxLNQErRn4y8O08GNyH/osYD0VAY4t7703wiu9bwHfSUm
+69aZSJM5bN/DHzmrsTUOuUTmC1sRh+52o1WuPnOzWgpXt8oAFPnW4c4Pv88r/OzR
+gWdC8iUAJpH466/A2qVTVIhRZGJnIkoeOXtnCUD0xPOm3obJHSNljzDC38T/YRje
+5L70JKIXF6z+VNE8zO8XDgNS
+=ViZA
+-----END PGP SIGNATURE-----
+
+--===============3202800826202393473==--
