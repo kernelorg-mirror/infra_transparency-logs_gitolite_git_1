@@ -1,41 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0740063993164046313=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 02 Jul 2026 21:41:52 -0000
-Message-Id: <178302851285.407836.5035579862471131967@gitolite.kernel.org>
-
---===============0740063993164046313==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 02 Jul 2026 21:42:29 -0000
+Message-Id: <178302854947.408293.11915266175914177000@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 4fec3cf0156006a04f7f84789d92fe04861b236a
-    new: 4fd37434938977ba9e0806b734f346848bda13c7
-    log: revlist-4fec3cf01560-4fd374349389.txt
-
---===============0740063993164046313==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fec3cf01560-4fd374349389.txt
-
-d93fc1bdf3c71f83bc497f5e9667cdef26087cf6 sched/core: Drop mutex locks before proxy rescheduling
-8a2d0c3fb5348b0a845666e8cccffd0b30095726 sched_ext: Split curr|donor references properly
-8f9bef054c59a752e472b718d5bbf9530be9ec7b sched_ext: Avoid migrating blocked tasks with proxy execution
-3e2756b0a129f58468b0fe3f4fea5517dc690281 sched_ext: Fix TOCTOU race in consume_remote_task()
-5c7da0972e2794d0feca9e47cad7b3b88b391f9b sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-ddd507723b809b845fe0a87be3cdb969275c4cc6 sched_ext: Save/restore kf_tasks[] when task ops nest
-2e77050c4660e6404d30bca06c942c36c27d04f1 sched_ext: Skip ops.runnable() when nested in SCX_CALL_OP_TASK
-10390f17b4d555334a89d5e34b06a80b6ba48a64 sched_ext: Delegate proxy donor admission to BPF schedulers
-d171fc3f94e34f02dc4b8116a5dd44fb62587464 sched_ext: Add selftest for blocked donor admission
-679aef6d036fc8b3826e7429bf505a244e89b420 sched_ext: scx_qmap: Add proxy execution support
-4fd37434938977ba9e0806b734f346848bda13c7 sched: Allow enabling proxy exec with sched_ext
-
---===============0740063993164046313==--
+  - ref: refs/heads/pending
+    old: 913998f903fb1432c0046c33003db38a9e8bedb1
+    new: e8d85672dd7e2523f774caafba8f858384e18df7
+    log: |
+         dad9f96945d77ecd4708f730c06ef54dcd8cc057 wifi: ath9k: hif_usb: don't dereference hif_dev after re-arming firmware request
+         ba7debb4dd6427386862220e8335a53a4bfc235d wifi: ath6kl: fix use-after-free in aggr_reset_state()
+         e8d85672dd7e2523f774caafba8f858384e18df7 wifi: ath11k: fix NULL pointer dereference in ath11k_hal_srng_access_begin
+         
