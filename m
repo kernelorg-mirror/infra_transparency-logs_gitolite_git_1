@@ -1,36 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 02 Jul 2026 12:28:34 -0000
-Message-Id: <178299531485.5085.10778876559267573193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Thu, 02 Jul 2026 12:37:18 -0000
+Message-Id: <178299583890.11619.11637308358886022788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/block-7.2
-    old: 1e56f30a73f304fe26a272742c398aedd88a1a6c
-    new: f01f5275feb77bac9fefbbf7cc584fe0b3850a92
+  - ref: refs/heads/ntfs-next
+    old: ec050fc4cf17d341e08c8e25dd9dd6af37bb2e67
+    new: 9638a2616250117320c4bd46dc9d877856084635
     log: |
-         f01f5275feb77bac9fefbbf7cc584fe0b3850a92 ublk: snapshot batch commands before preparing I/O
-         
-  - ref: refs/heads/for-next
-    old: d56b75d5e0b73f6b0ff423c5846d81b1349e8d95
-    new: 838931fae1686a601ca26585c60caacd86ae4ed4
-    log: |
-         f01f5275feb77bac9fefbbf7cc584fe0b3850a92 ublk: snapshot batch commands before preparing I/O
-         c0da6ecf90e4f54dd8a3afe6ddeed427cb4aa091 io_uring/uring_cmd: copy SQE before issue_blocking punt
-         12dbe5d2476980aa78883b12c9cb90b656f5c50c io_uring/uring_cmd: fix uring_cmd.c comments
-         fca2ba406b2e5f1a486f62db77a59a3186d65705 Merge branch 'block-7.2' into for-next
-         838931fae1686a601ca26585c60caacd86ae4ed4 Merge branch 'io_uring-7.2' into for-next
-         
-  - ref: refs/heads/io_uring-7.2
-    old: 15cd3ccf9b179f0f76948d0901be3b15028bc768
-    new: 12dbe5d2476980aa78883b12c9cb90b656f5c50c
-    log: |
-         c0da6ecf90e4f54dd8a3afe6ddeed427cb4aa091 io_uring/uring_cmd: copy SQE before issue_blocking punt
-         12dbe5d2476980aa78883b12c9cb90b656f5c50c io_uring/uring_cmd: fix uring_cmd.c comments
+         de168a8a99e33c30a0dc08ee80269bb6d31d32f8 ntfs: make system files immutable to prevent corruption
+         8186397434c832bf698c875f54a31dba782b55d9 ntfs: avoid self-deadlock during inode eviction
+         9638a2616250117320c4bd46dc9d877856084635 ntfs: fix WARN_ON for resident attribute in ntfs_map_runlist_nolock()
          
