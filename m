@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 02 Jul 2026 15:19:59 -0000
-Message-Id: <178300559996.140400.1418891116591266012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 02 Jul 2026 15:20:02 -0000
+Message-Id: <178300560293.141640.9376638706601006124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/dev
-    old: 99ecde22ef1c9b634a011a58c9c531a390b47996
-    new: d3e4784c2bfda39fb78b037bac3785f4effc1743
+  - ref: refs/heads/kvm-arm64/nv3
+    old: db05002f5f9e377ddcc300fed9620c0f00791c58
+    new: 3e6eefba72d5505467ac61d248dff87e0ac39111
     log: |
-         d3e4784c2bfda39fb78b037bac3785f4effc1743 selinux: drop unnecessary goto and label from avc_alloc_node()
-         
-  - ref: refs/heads/next
-    old: f468784a04ca05d32c50c5876b6c766cfc48cff2
-    new: a65235ea10f257b2a14fd6854ce0a1679ff38861
-    log: |
-         d3e4784c2bfda39fb78b037bac3785f4effc1743 selinux: drop unnecessary goto and label from avc_alloc_node()
-         56acfeb10019e200ab6787d01f8d7cbe0f01526f selinux: avoid sk_socket dereference in selinux_sctp_bind_connect()
-         a65235ea10f257b2a14fd6854ce0a1679ff38861 Automated merge of 'dev' into 'next'
+         7263003fcfc902d4c48bdd216ea2513101c60498 KVM: arm64: Engage NV3-like behaviour when FEAT_NVTGE is advertised
+         bd50935a6ec4b0e8fdf161586103a4b3d60832f2 KVM: arm64: Advertise FEAT_NVTGE to NV guests
+         6eed5c357124f51b1f6fda346c1ec5956b844af8 KVM: arm64: Allow NVTGE to be forced on
+         f82b679d51017c4887e875da4740a168a584c73f KVM: arm64: Parse kvm-arm.mode=nested,nvtge
+         b056532f164db46544609c43c1b1a95a9049ef68 KVM: arm64: Output the NV variant in the kernel log
+         3e6eefba72d5505467ac61d248dff87e0ac39111 arm64: Detect fictional FEAT_NVTGE at boot time
          
