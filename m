@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 02 Jul 2026 02:08:19 -0000
-Message-Id: <178295809957.3742972.9628140955993076892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 02 Jul 2026 02:26:04 -0000
+Message-Id: <178295916494.3755584.462410184015825218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
   - ref: refs/heads/master
-    old: 225bb989c79131b86613256dc141f7db29a43e19
-    new: 669933b18a7c5540df8ad7d2591760fc0bae5e1f
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 665159e246749578d4e4bfe106ee3b74edcdab18
     log: |
-         3f3353ef8ee53a5840829fbd4497ac0416ea7a39 patches/next: fixup damon_commit_ctx() params validation
-         3163114035cf3a6b26fb5053d85ca4fef97d8bb1 patches/next: core param validtion: fixup one more sashiko finding
-         3d1df4be5cb480c8357d2bb38c86dcb52fbc6322 patches/mm: update
-         433cde0a17077b5ed3fde876f16d1b5e77a7a27d todo: update status
-         669933b18a7c5540df8ad7d2591760fc0bae5e1f patches/next: rebase to latest mm-new
+         72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
+         251a8fe1b9aedccd298b77bc28426d564c5a923f tracing/probes: Remove WARN_ON_ONCE from parse_btf_arg
+         cda1fbfc5313bb90daa271d45eea4a8d317a8544 tracing/events: Fix to check the simple_tsk_fn creation
+         206b25c09080cc20fd4c2bea12d59df4b7ba2121 tracing: eprobe: read the complete FILTER_PTR_STRING pointer
+         9a667b7750dda88cbf1cca96a53a2163b2ee71f7 tracing/probes: Fix double addition of offset for @+FOFFSET
+         367c49d6e283c17b56a31e7a8d964a079244264c tracing/fprobe: Fix NULL pointer dereference in fprobe_fgraph_entry()
+         a369299c3f785cf556bbef2de2db0aa2d294c4c9 tracing/probes: Make the $ prefix mandatory for comm access
+         665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
