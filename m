@@ -1,55 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============5281942759478291354=="
+Content-Type: multipart/mixed; boundary="===============4269428319308925174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 Jul 2026 11:40:02 -0000
-Message-Id: <178299240253.4161643.5564536954476498183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 02 Jul 2026 11:40:33 -0000
+Message-Id: <178299243390.4162982.16082483492423757118@gitolite.kernel.org>
 
---===============5281942759478291354==
+--===============4269428319308925174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: e782d687d2f5bf8b8113dc48ba22cca4b472c252
-    new: bf93bd42068b0b1dad84eb9375b8337bc05ef55d
-    log: |
-         95edf2dbb492f3ea2420111e9c0044c7dec9113c ASoC: SOF: validate probe info element counts
-         ed0abc8be27e23aa65716bcaab8976ada2503cab ASoC: rsnd: adg: make rsnd_adg_clk_control() idempotent
-         12272cb1b23e3032e5c627fb52f183a61913a88b ASoC: codecs: tas675x: use READ_ONCE for params to be used concurrently
-         a044f99d000dca7e1d3e8fc847d9ad60467b6793 ASoC: codecs: tas675x: Fix CHx temperature range register bit fields
-         c34a4be8b846c7a220fe56442ecca27f6ab91943 Documentation: sound: tas675x: Fix temperature range and impedance documentation
-         bf93bd42068b0b1dad84eb9375b8337bc05ef55d ASoC: codecs: tas675x: misc bugfixes and minor changes
-         
+  - ref: refs/heads/for-7.3
+    old: bff7fad1010eea6f183fb110b54171cf8700ef8e
+    new: fb5d1b1c5f8a920ee697545fa6dee16825085717
+    log: revlist-bff7fad1010e-fb5d1b1c5f8a.txt
 
---===============5281942759478291354==
+--===============4269428319308925174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1782992400 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1782992396-479e49620db35dce16c59b7699b4310a3b0c1fc2
+pusher C3F436CA30F5D8EB 1782992431 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1782992429-b966f1a8675ec4f5107814ca7817fff65e83a924
 
-e782d687d2f5bf8b8113dc48ba22cca4b472c252 bf93bd42068b0b1dad84eb9375b8337bc05ef55d refs/heads/asoc-7.2
+bff7fad1010eea6f183fb110b54171cf8700ef8e fb5d1b1c5f8a920ee697545fa6dee16825085717 refs/heads/for-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpGThAACgkQJNaLcl1U
-h9AZMAf+JaFf2orzYQu91fKX++AWvwPgw0A8hCnMWjPpKdQn+0elL7O504nrUbHZ
-E+RCaDdrhA2vsrPhCptqXAystPx9+ir4bN0CHclLW1W1TziYb9FyThAX59XwSLos
-ZeV0fmcimY01VDYqWvveqC3TKbchYRJdXPp+A2qxQV7BllCdE3rhtO3fNB00AYIK
-Ea3rwt+A7HrVxjpoUO07rUBZEa+u/Kz11NSsaAL5giQqYyFV1EBL1Ec4pgKQZAHS
-sYFr1uRlzYZYXOs5T0kfOF55wSANtfO/F9GTvSFA29dbSqAdGrfC0oPg+jHp87eq
-mv5cE6WR9tQC/nSoKlJL+/oAmOoRCg==
-=Uu1R
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpGTi8ACgkQJNaLcl1U
+h9DI3Af+J/43C1TPavqxbLWq7pdD8rA6m5XIVRZDj8WGRsrmqaWaGQi/V/WBSKmX
+y7HPVpc7vjdEAgkyDmgcOJxKLiLX1s87bNkxJ9yNW1slvzWa52e49qE5iS8dLMm+
+iFBat0jeO6WvzrADUfFGpfQYvNPrcRXfxIgbo8VE7ha5o7Nq7/DlF7UM+Ahv7B+Y
+ooE6xmAJHEySrJ3lNbjL90rtTyBAGvtCxWBXVWuGlMoTVZ69q3MCTRictdVVRzi4
+ym7eZ8v+zFg7OU55HOJl7nDf+PSVd70c6M8N9GnTib11S1QOHFlmEZ9W9VcnGWj9
+YWGzlcOCwDzUz2O+5tCDO65zf1aMlQ==
+=LtOm
 -----END PGP SIGNATURE-----
 
---===============5281942759478291354==--
+--===============4269428319308925174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bff7fad1010e-fb5d1b1c5f8a.txt
+
+7ffb66fd96ec73dd5413d27624476588beb57c30 ASoC: mediatek: mt8173-rt5650: tidyup error message
+882e55031187791a2b87810d4a93f866a2da6d47 ASoC: codecs: ES8389: Modify volatile_register
+cbc559dd8d46acd0781a4f183d8ec550262714ab ASoC: codecs: ES8389: Fix the issue about mclk_src
+9367a244afc24e3863689bef126efa2ad01105db ASoC: codecs: ES8389: Modify the clock table
+3bea836903c2b2305c2219e897b217261be8a26a ASoC: codecs: ES8389: Modify the initial configuration
+87592da1a490abd2adeb57a49fb200d058403cc5 ASoC: codecs: ES8389: Add private members about HPF
+2264927316e5312208659fe0b7efd0001c8975d9 ASoC: codecs: ES8389: Add INPUTL MUX and INPUTR MUX
+6eee87fc723b145260d75474e90750fd48b19ff1 ASoC: codecs: ES8389: Modify the ES8389 driver
+e3653722b94df580ab8610f4f38ab43e46f083c0 ASoC: sof: topology: use for_each_card_rtds()
+02fd694e60a7e2c581c7836f6781c01b9b419c8a ASoC: samsung: i2s: Avoid mixing goto with guard()
+47a0dde9a3bdd01359ce3a5f0b59a9de33b73dce ASoC: ti: j721e-evm: Avoid mixing goto with guard()
+e487b00d7074623fe54d67f909a5fd6fa7b3a153 ASoC: Fix mixed goto and guard() usage
+fb5d1b1c5f8a920ee697545fa6dee16825085717 ASoC: samsung: aries_audio_probe: double of_node_put due to direct assignment without of_node_get
+
+--===============4269428319308925174==--
