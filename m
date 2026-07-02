@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Thu, 02 Jul 2026 23:07:57 -0000
-Message-Id: <178303367715.462338.7680430415718698352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Thu, 02 Jul 2026 23:20:25 -0000
+Message-Id: <178303442585.471192.3770052441543692508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/for-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: a1735eae55448bc79c2da6593455791e886f6ed8
+  - ref: refs/heads/main
+    old: e0d2c7756bb0d5033e0384ed3cee59a0f9b042c7
+    new: 9cc3920da6b7b95fbb6534e6b11d48359a29faa7
     log: |
-         a1735eae55448bc79c2da6593455791e886f6ed8 nilfs2: reject invalid block index in GC ioctl
+         f2e9f8df47d0ee9d8a1f8135fac31eb5c0738396 Fix relocate_base/remote boundary constraints
+         1b8402ff2014cd9997e6fb4393192419fff318c4 Assert conflict ordering
+         2a6174c0de224a8eb1a6873bf1942902cf5e6aac feat: add LMDB cache import functionality
+         6a74e9765d6c3de9c9f3daf69b3b0e6d991057c5 Improve bench stripped comparison to remove spaces
+         9cc3920da6b7b95fbb6534e6b11d48359a29faa7 version
          
