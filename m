@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 02 Jul 2026 15:06:31 -0000
-Message-Id: <178300479198.132653.9010816827399376331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Thu, 02 Jul 2026 15:11:00 -0000
+Message-Id: <178300506067.136010.13052060761227946626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: gor
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/for-next
-    old: c89570cb27ed9ca90e566d21454d1dd7f5abe6f6
-    new: eb3690e410086649d90fdd32813ebb57a8941603
+  - ref: refs/heads/scx-proxy-exec
+    old: 59b3d2ab78d88af81f85845b86fd6c242b364e94
+    new: db4fd7e401601e8a97a653ed700c00b04ae4c049
     log: |
-         2995ccec260caa9e85b3301a4aba1e66ed80ad74 s390/monwriter: Reject buffer reuse with different data length
-         eb3690e410086649d90fdd32813ebb57a8941603 Merge branch 'fixes' into for-next
+         05267b20d7c06cb7196da421bcaa312eca3fba04 sched_ext: Add selftest for blocked donor admission
+         62251ef235121ab26cd9f51f056acbf4a78a8a64 sched_ext: scx_qmap: Add proxy execution support
+         db4fd7e401601e8a97a653ed700c00b04ae4c049 sched: Allow enabling proxy exec with sched_ext
          
