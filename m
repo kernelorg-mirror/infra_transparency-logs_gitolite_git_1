@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============3196128120713938240=="
+Content-Type: multipart/mixed; boundary="===============8907468158449536777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 Jul 2026 11:40:41 -0000
-Message-Id: <178299244157.4163224.18310497662112850099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 02 Jul 2026 11:40:51 -0000
+Message-Id: <178299245181.4163545.1569872312647765474@gitolite.kernel.org>
 
---===============3196128120713938240==
+--===============8907468158449536777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: bff7fad1010eea6f183fb110b54171cf8700ef8e
-    new: fb5d1b1c5f8a920ee697545fa6dee16825085717
-    log: revlist-bff7fad1010e-fb5d1b1c5f8a.txt
+  - ref: refs/heads/for-linus
+    old: e782d687d2f5bf8b8113dc48ba22cca4b472c252
+    new: bf93bd42068b0b1dad84eb9375b8337bc05ef55d
+    log: |
+         95edf2dbb492f3ea2420111e9c0044c7dec9113c ASoC: SOF: validate probe info element counts
+         ed0abc8be27e23aa65716bcaab8976ada2503cab ASoC: rsnd: adg: make rsnd_adg_clk_control() idempotent
+         12272cb1b23e3032e5c627fb52f183a61913a88b ASoC: codecs: tas675x: use READ_ONCE for params to be used concurrently
+         a044f99d000dca7e1d3e8fc847d9ad60467b6793 ASoC: codecs: tas675x: Fix CHx temperature range register bit fields
+         c34a4be8b846c7a220fe56442ecca27f6ab91943 Documentation: sound: tas675x: Fix temperature range and impedance documentation
+         bf93bd42068b0b1dad84eb9375b8337bc05ef55d ASoC: codecs: tas675x: misc bugfixes and minor changes
+         
+  - ref: refs/heads/for-next
+    old: 3ff2f6faeaaf792cac2ab54fc9b7974d6d43bb61
+    new: 54bcf27fc5b9beb7c6e9cdc84c85af8e27352027
+    log: revlist-3ff2f6faeaaf-54bcf27fc5b9.txt
 
---===============3196128120713938240==
+--===============8907468158449536777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3ff2f6faeaaf-54bcf27fc5b9.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1782992439 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1782992435-5d30ce847accbb329dfc6453fe73507781beb293
-
-bff7fad1010eea6f183fb110b54171cf8700ef8e fb5d1b1c5f8a920ee697545fa6dee16825085717 refs/heads/asoc-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpGTjcACgkQJNaLcl1U
-h9DA+wf+PObVQ8ZMeFM/5YDRYTXEebSwpzp13CbDDPF4oAbU/+7+hvjk++IDHQSl
-7Z1wWA/71+fkmc9B5yY8FXfhKpayrTJwSXjGeidpjTD4FNqoBvaxZzUTfbYWlL6w
-TPQtMFyiFME0X3gnBUJGUr0YjT6XdfB2COYAN8D9CHKpslZ2K6Z+uOClDH4FzeBx
-t78fhQRwH/776l3hsTUm4xB2DJbxvPowTRmz+JOebZ7A6cE4jrJaJn/uHmr7mrwO
-jUPdRl8p3mNU3F/G252ZC2WChgu4wtBHgw/na9jeawWo4I3Th0Iasiwwh2y6nod4
-w/3P3UVDYcHOBpCj3gPlToWQfLCAFg==
-=SKub
------END PGP SIGNATURE-----
-
---===============3196128120713938240==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bff7fad1010e-fb5d1b1c5f8a.txt
-
+95edf2dbb492f3ea2420111e9c0044c7dec9113c ASoC: SOF: validate probe info element counts
 7ffb66fd96ec73dd5413d27624476588beb57c30 ASoC: mediatek: mt8173-rt5650: tidyup error message
 882e55031187791a2b87810d4a93f866a2da6d47 ASoC: codecs: ES8389: Modify volatile_register
 cbc559dd8d46acd0781a4f183d8ec550262714ab ASoC: codecs: ES8389: Fix the issue about mclk_src
@@ -63,6 +50,12 @@ e3653722b94df580ab8610f4f38ab43e46f083c0 ASoC: sof: topology: use for_each_card_
 02fd694e60a7e2c581c7836f6781c01b9b419c8a ASoC: samsung: i2s: Avoid mixing goto with guard()
 47a0dde9a3bdd01359ce3a5f0b59a9de33b73dce ASoC: ti: j721e-evm: Avoid mixing goto with guard()
 e487b00d7074623fe54d67f909a5fd6fa7b3a153 ASoC: Fix mixed goto and guard() usage
+ed0abc8be27e23aa65716bcaab8976ada2503cab ASoC: rsnd: adg: make rsnd_adg_clk_control() idempotent
 fb5d1b1c5f8a920ee697545fa6dee16825085717 ASoC: samsung: aries_audio_probe: double of_node_put due to direct assignment without of_node_get
+12272cb1b23e3032e5c627fb52f183a61913a88b ASoC: codecs: tas675x: use READ_ONCE for params to be used concurrently
+a044f99d000dca7e1d3e8fc847d9ad60467b6793 ASoC: codecs: tas675x: Fix CHx temperature range register bit fields
+c34a4be8b846c7a220fe56442ecca27f6ab91943 Documentation: sound: tas675x: Fix temperature range and impedance documentation
+bf93bd42068b0b1dad84eb9375b8337bc05ef55d ASoC: codecs: tas675x: misc bugfixes and minor changes
+54bcf27fc5b9beb7c6e9cdc84c85af8e27352027 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
 
---===============3196128120713938240==--
+--===============8907468158449536777==--
