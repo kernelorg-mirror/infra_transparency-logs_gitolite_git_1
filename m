@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 02 Jul 2026 03:01:15 -0000
-Message-Id: <178296127569.3779583.5670231409333943466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 02 Jul 2026 03:36:24 -0000
+Message-Id: <178296338449.3802705.3738368732888330905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 069212c8a405abedbd29f224d23e065096fe8c50
-    new: 25669265dbfd4f51d835fd14cf5f78e51757fd2f
+  - ref: refs/heads/pending
+    old: 235605d53c89bc9a3b03d72def280e015cffd8ee
+    new: 50b541851c9552425b44dfda0f217346ec886a9f
     log: |
-         25669265dbfd4f51d835fd14cf5f78e51757fd2f foo
+         50b541851c9552425b44dfda0f217346ec886a9f wifi: ath11k: fix NULL pointer dereference in ath11k_hal_srng_access_begin
          
