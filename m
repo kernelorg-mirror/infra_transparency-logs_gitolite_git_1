@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
-Date: Thu, 02 Jul 2026 03:56:01 -0000
-Message-Id: <178296456155.3815900.14902577652161738302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Thu, 02 Jul 2026 04:35:41 -0000
+Message-Id: <178296694150.3841669.697252393746550619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/harry/linux
-user: harry
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/tags/kmalloc-no-objext-rfc-v1r3
-    old: 0000000000000000000000000000000000000000
-    new: 1f8e6d249e9b586358047ca47cd35f6c2cfe311c
+  - ref: refs/heads/rust-sync
+    old: 0ebf2990d2d2b0b803af170ca6107810010e9177
+    new: e2518d8d17ba8c27418688f5081e5667f738efb4
+    log: |
+         e2518d8d17ba8c27418688f5081e5667f738efb4 rust: sync: Add helpers for mb, dma_mb and friends
+         
