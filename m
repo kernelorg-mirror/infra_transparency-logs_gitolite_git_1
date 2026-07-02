@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3564917161352035353=="
+Content-Type: multipart/mixed; boundary="===============0740063993164046313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 02 Jul 2026 21:41:36 -0000
-Message-Id: <178302849691.407752.3406126633230472893@gitolite.kernel.org>
+Date: Thu, 02 Jul 2026 21:41:52 -0000
+Message-Id: <178302851285.407836.5035579862471131967@gitolite.kernel.org>
 
---===============3564917161352035353==
+--===============0740063993164046313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-proxy-exec
-    old: 88f35f102f6251fac51e4dd3bd9640fb8f6b2056
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 4fec3cf0156006a04f7f84789d92fe04861b236a
     new: 4fd37434938977ba9e0806b734f346848bda13c7
-    log: revlist-88f35f102f62-4fd374349389.txt
+    log: revlist-4fec3cf01560-4fd374349389.txt
 
---===============3564917161352035353==
+--===============0740063993164046313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88f35f102f62-4fd374349389.txt
+Content-Disposition: attachment; filename=revlist-4fec3cf01560-4fd374349389.txt
 
 d93fc1bdf3c71f83bc497f5e9667cdef26087cf6 sched/core: Drop mutex locks before proxy rescheduling
 8a2d0c3fb5348b0a845666e8cccffd0b30095726 sched_ext: Split curr|donor references properly
@@ -38,4 +38,4 @@ d171fc3f94e34f02dc4b8116a5dd44fb62587464 sched_ext: Add selftest for blocked don
 679aef6d036fc8b3826e7429bf505a244e89b420 sched_ext: scx_qmap: Add proxy execution support
 4fd37434938977ba9e0806b734f346848bda13c7 sched: Allow enabling proxy exec with sched_ext
 
---===============3564917161352035353==--
+--===============0740063993164046313==--
