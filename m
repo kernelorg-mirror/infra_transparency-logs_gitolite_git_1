@@ -1,69 +1,133 @@
-Content-Type: multipart/mixed; boundary="===============4224050161917404127=="
+Content-Type: multipart/mixed; boundary="===============6809379906840977387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 02 Jul 2026 07:52:01 -0000
-Message-Id: <178297872145.3974748.4861351916684930105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 02 Jul 2026 08:00:50 -0000
+Message-Id: <178297925059.4002384.382503803275664848@gitolite.kernel.org>
 
---===============4224050161917404127==
+--===============6809379906840977387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: e00178e6fe853ac0059d15909043e0fd5c19ece9
-    new: 53dac97021ce8d34ee89565aef3996ac8f89bc0d
-    log: revlist-e00178e6fe85-53dac97021ce.txt
+  - ref: refs/heads/vfs-7.3.errno
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 7028d60a643ac945826ae281ae5ec1940ee06fbf
+    log: |
+         7028d60a643ac945826ae281ae5ec1940ee06fbf vfs: missing inode operation should return a consistent error code
+         
+  - ref: refs/heads/vfs-7.3.kthread
+    old: 1b8a585da1b50b3db0e7bbd073ca274875539ea8
+    new: 804dd204728c9fa740e28595a4be5ab0a87f8aed
+    log: |
+         804dd204728c9fa740e28595a4be5ab0a87f8aed kunit: use scoped_with_init_fs() in tests that resolve paths
+         
+  - ref: refs/heads/vfs-7.3.misc
+    old: cfbd57798c634d544659b4f1329b3765e04af5ab
+    new: b736449288972c6071c820596ef9a7d6ac73a8ae
+    log: |
+         b736449288972c6071c820596ef9a7d6ac73a8ae Remove excl arg to ->create inode_operation
+         
+  - ref: refs/heads/vfs.all
+    old: 582d03d7cd36688f7211febeff00af8cf578c2e4
+    new: cf6f88615485a68df77092de1f90f88708a32fa6
+    log: revlist-582d03d7cd36-cf6f88615485.txt
 
---===============4224050161917404127==
+--===============6809379906840977387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e00178e6fe85-53dac97021ce.txt
+Content-Disposition: attachment; filename=revlist-582d03d7cd36-cf6f88615485.txt
 
-9ae7e0ae84ab1436941c291a5f0e5dd47c8f7a5f dt-bindings: serial: renesas,scif: Document RZ/G3L SoC
-c37297c3e97ffec2e6c99b3619350cecda24ae57 dt-bindings: net: renesas,rzv2h-gbeth: Document Renesas RZ/G3L SoC
-94b754a99230f3d4aabc8eda3318e186e401d034 dt-bindings: net: renesas,rzv2h-gbeth: Document Renesas RZ/G3L RMII{tx,rx} clocks
-542feea8856c61c1054b1b247598c8cb5cf15a45 net: stmmac: platform: Group GMAC4 compatible check
-185438242c757bbbf28038ffac1a04640bff29de net: stmmac: platform: Add snps,dwmac-5.30a IP compatible string
-f552bc1fe65abc9383c35660f7c7fe6e3b01b1e6 net: stmmac: dwmac-renesas-gbeth: Add support for RZ/G3L SoC
-6f7aed789ba273ababe2b2f4d4c39ac41381b2f7 dt-bindings: soc: renesas: Document RZ/G3L SoC variants, SMARC SoM and Carrier-II EVK
-05a421608b1c5af837ea63ef395b2b776a7fad3d dt-bindings: soc: renesas: renesas,rzg2l-sysc: Document RZ/G3L SoC
-d5df354d22d281afe88eacea380242a8b0d0fd0f soc: renesas: rz-sysc: Add SoC identification for RZ/G3L SoC
-3bfc258eba1ad07a61d8720cc9aa59f8a1f2d3b6 clk: renesas: rzg2l: Remove unneeded nullify checks
-fd3f7558f1a94e1f7391303de43b8070a7854b23 clk: renesas: rzg2l: Rename mstp_clock to mod_clock
-e0b3d824539b9d2fda076eb25247c1f0ac430eb0 clk: renesas: rzg2l: Simplify rzg2l_cpg_assert() and rzg2l_cpg_deassert()
-aeb1aae3183801ae86c3c0f3800fd2d470e18355 clk: renesas: rzg2l: Re-assert reset on deassert timeout
-e65dcc464add0c0e88d0f55c1604caba2bca09af clk: renesas: rzg2l: Deassert reset on assert timeout
-17b37ce4afe952fe2eac47e23fcb23e6001f3e4e clk: renesas: rzg2l: Add support for critical resets
-15c1daa9f7427aaeeb29db4bea30b13a29ac3d13 clk: renesas: rzg2l: Add helper for mod clock enable/disable
-739b64bc3c2d6d9d3b21f629e1b83b9f5b6d5f17 clk: renesas: rzg2l: Add rzg2l_mod_clock_init_mstop_helper()
-b8375825acb461a2b8aad9f196cd36963bc781f8 clk: renesas: rzg2l: Re-enable critical module clocks during resume
-343aad39e5443b3d7d9bbf7fe628ceecbb189f7a dt-bindings: clock: renesas,rzg2l-cpg: Document RZ/G3L SoC
-7de8741e241a76929229b73c99fc0a83363fd9fa clk: renesas: Add support for RZ/G3L SoC
-1bcbb0e2b3b1166fe6deabb5f14d43ef705e0261 clk: renesas: rzg2l: Drop always-false check in rzg3s_cpg_pll_clk_recalc_rate()
-0e9584c6e63ef1462a401713addbfe93c71ea92c clk: renesas: rzg2l: Add support for enabling PLLs
-5c139a5013e24878db519489d5f2a801f4202bef clk: renesas: r8a08g046: Add support for PLL6
-0650aa1559aaf17aaca2a9bfb265b7865a7c6d6f clk: renesas: r9a08g046: Add GBETH clocks and resets
-eb2fb510b6b23b0990bb5986e48a34cf8deee577 clk: renesas: r9a08g046: Add GPIO clocks/resets
-af3345678aca4cc560580211b5b1c5631f5aadbd clk: renesas: r9a08g046: Add CA55 core clocks
-b27be7c9557e204571ef1d0742297949d234a6ca clk: renesas: r9a08g046: Add WDT clocks and reset
-a755e5bf47c530e9a73f8b528d6c2d2f53c5da28 clk: renesas: r9a08g046: Add SCIF{1..5} clocks and resets
-0fa2f7e6e98e9fe1abd6e73231426e12eb6d387f clk: renesas: r9a08g046: Add I2C clocks and resets
-afe2b671633075cfae4ddd9ffe8c0e8d2742572d clk: renesas: r9a08g046: Add IA55_PCLK to critical module clocks
-c9ac6cb79a8a4837ed45119c35e27fe840363336 clk: renesas: rzg2l: Consolidate DEF_MUX() and DEF_MUX_FLAGS()
-22079cacd643a5268e5ada451b2d28f89141c227 clk: renesas: rzg2l: Refactor rzg3l_cpg_pll_clk_endisable()
-5010522bb0a337da7512db08b7fcbeb2e0f4d87d arm64: dts: renesas: Add initial DTSI for RZ/G3L SoC
-6d30389d5e9a51c0433d53122663ac8387b7913f arm64: dts: renesas: Add initial support for RZ/G3L SMARC SoM
-f2225b5581399a5afdf6654890415e840422079e arm64: dts: renesas: renesas-smarc2: Move usb3 nodes to board DTS
-04a253254d9ddbf83c6b7e6aa0e589fecb0d79b8 arm64: dts: renesas: Add initial device tree for RZ/G3L SMARC EVK board
-d055c3eefec59369dc99cc4d3d1227fade6affd9 arm64: dts: renesas: r9a08g046: Add GBETH nodes
-c6cb878a7b77052a4436336d174be52494bdf456 arm64: dts: renesas: rzg3l-smarc-som: Enable eth0 (GBETH0) interface
-53dac97021ce8d34ee89565aef3996ac8f89bc0d arm64: dts: renesas: r9a08g046: Add OPP table
+72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
+251a8fe1b9aedccd298b77bc28426d564c5a923f tracing/probes: Remove WARN_ON_ONCE from parse_btf_arg
+cda1fbfc5313bb90daa271d45eea4a8d317a8544 tracing/events: Fix to check the simple_tsk_fn creation
+206b25c09080cc20fd4c2bea12d59df4b7ba2121 tracing: eprobe: read the complete FILTER_PTR_STRING pointer
+9a667b7750dda88cbf1cca96a53a2163b2ee71f7 tracing/probes: Fix double addition of offset for @+FOFFSET
+367c49d6e283c17b56a31e7a8d964a079244264c tracing/fprobe: Fix NULL pointer dereference in fprobe_fgraph_entry()
+a369299c3f785cf556bbef2de2db0aa2d294c4c9 tracing/probes: Make the $ prefix mandatory for comm access
+665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+f3cf725cd284b7912d5522babb44721bf38c8887 afs: handle CB.InitCallBackState3 requests without a server record
+539dce1144651f7976fa418e618b0b574bf15eeb fs: refuse O_TMPFILE creation with an unmapped fsuid or fsgid
+4897cb71d4ab1f7e1a214adb1e4b80176702368d afs: Fix error code in afs_extract_vl_addrs()
+d943e68edc5cb98192d38e31373bb6b6a73230c6 selftests/filesystems: test O_TMPFILE creation on idmapped mounts
+0b70716081c6462be9b2928ad736d0d527b09678 afs: fix NULL pointer dereference in afs_get_tree()
+733a984a4ee7345325e47efb505eebfe67b299bc afs: Fix double netfs initialisation in afs_root_iget()
+81e985b4c3a6cbcc443fcdcd3ebda7fcc845d459 afs: Remove setting of AS_RELEASE_ALWAYS for symlinks and mountpoints
+35b177ef541ae8eefbfbf679c3476bc3fb1eb83c afs: Fix directory inode initialisation order
+cb39654926f8e7a08ecc1dcb3941628855275940 afs: use kvfree() to free memory allocated by kvcalloc()
+a58edda50a3ec08e6adac1d04dc3e488494e412d afs: Remove erroneous seq |= 1 in volume lookup loop
+680ba02073415962446e79b10e15ad3b8c87fec5 afs: check for duplicate servers in VL server list
+2f79d1b93c62470fe02dbdc24770f1ae5a9e1be6 afs: Fix bulk lookup malfunction due to change in dir_emit() API
+c9c3b615a462a4023bd148f02c564e175ed10502 afs: Fix misplaced inc of net->cells_outstanding
+5597fbd1e7c161914f20315a726e54025b0fdadb afs: Fix reinitialisation of the inode, in particular ->lock_work
+0f36469d7ce98b362934113c550d08bb0c784231 afs: Fix callback service message parsers to pass through -EAGAIN
+3b1601471a88f86082fc1f1c2475645cdf59f7d8 afs: Use scoped_seqlock_read() rather than manually doing seqlock stuff
+794a01110390c1b76f59ece773fb0fbfd89c6f5c afs: Fix missing NULL pointer check in afs_break_some_callbacks()
+d672c276f685a540ed2b2a8bafaed4650a89022c afs: Fix leak of ungot volume
+fc10c0ecf06f2981af5d04357612b00051e03e9e afs: Fix vllist leak
+55e841836c6f4646490f7b0347192b7a92d431ba afs: Fix lack of locking around modifications of net->cells_dyn_ino
+26f17ce6fa3f05cb5965790499c1839094260de4 afs: Fix premature cell exposure through /afs
+56b4e4b26f84411d880f968a539207b0a8889c8c afs: Fix the volume AFS_VOLUME_RM_TREE is set on
+6193f6cd2232581f11591a4f10a4c3fcd366c34a Merge patch series "fs: refuse O_TMPFILE creation with an unmapped fsuid or fsgid"
+903d37c97228258da71e092f8b4ab260ce81497d afs: Fix unchecked-length string display in debug statement
+ebebef925281a336ed1d4bbbefaa5d3b00877f28 MAINTAINERS: take over vboxsf from Hans de Goede
+681e452683b69a8e1a571cba0f238f8ceacf55d2 iomap: release pages on atomic dio size mismatch
+16b02eb4b9b272c221255c20d34ccd5db53a3ed3 proc: only bump parent nlink when registering directories
+e348eecd4d8fa8d18a5157ff59f7be1dc59c5928 ovl: use linked upper dentry in copy-up tmpfile
+fb3e566cafc38fe3ba35e6843a2d529a3748870c minix: avoid overflow in bitmap block count calculation
+8c256fba2b46020004201c500b2a1fbc707a33ef cachefiles: Fix double unlock in nomem_d_alloc error path
+fd5637a2fe6dd4448392738691d63e5559fafb12 ovl: fix comment about locking order
+6a2875517c778ac1111b6920e94cbab91cda8724 fat: stop reading directory entries past the end-of-directory marker
+b2117f2a795da80d3e6dd6b12774e824ef717eef Merge patch series "afs: Miscellaneous fixes"
+704d48d81dc41470e108811c32c577ada66192d4 freevxfs: don't BUG() on unknown typed-extent type
+18227a6bc98bd0ba96ed3ce9d5b28776a5a28dfc orangefs: keep the readdir entry size 64-bit in fill_from_part()
+3f8c65b06fafc3f779abda5f7b81707411d05d4c bpf: have bpf_real_data_inode() take a struct file
+597a7bc7630035580e941a548cb646618c1c5933 xfs: fix the error unwind in xfs_open_devices()
+55ec50d046c03b3724741957f7b007856e36dbe7 iomap: guard io_size EOF trim against concurrent truncate underflow
+f718c9fa87bec45eca57189aa05647741ae9eb14 exec: fix off-by-one in binfmt max rewrite depth comment
+b61cbeadaa83a712afb2f759aa7e65d43cdef322 netfs: Fix decision whether to disallow write-streaming due to fscache use
+dbd6f56d975b23241b7bbb11bb8f562af548a0aa netfs: Fix netfs_create_write_req() to handle async cache object creation
+af6830cc12dfe86c832dccc9c9878a93aaa22f83 cachefiles: Fix double fput
+511a018ed2afd8d415edd307ce7ad2048506f6a1 cachefiles: Fix file burial to take lock when unsetting S_KERNEL_FILE
+55f4bb9373ca4a521f3b0119366db92715a39b81 iov_iter: Fix potential underflow in iov_iter_extract_xarray_pages()
+70531f4f3a143f81baf549da7f59a24a9f87a65c iov_iter: Fix missing alloc fail check in iov_iter_extract_bvec_pages()
+72698020e15db16fc141e191b460bc335263b0ad iov_iter: Fix a memory leak in iov_iter_extract_user_pages()
+0442e23a5f72c74ba18882e4a2eed305c687009d iov_iter: Remove unused variable in kunit_iov_iter.c
+2bcd3ab3728752425ff5ab1e4be1698eba13d0d8 scatterlist: Fix offset in folio calc in extract_xarray_to_sg()
+fa746e23d1094f9a68afe5973746b0e32078fd8b netfs: Fix kdoc warning
+41376400c4717fed43490030902f9e4c9062b285 netfs: Replace wb_lock with a bit lock for asynchronicity
+ba6a9f6533c77c628eef0c0c5c19cd316e2be1b4 netfs: Fix writethrough to use collection offload
+ac5f95ac5d6d0f4c567b8b642825705a2bf0d79e netfs: Fix writeback error handling
+b6a713fd34b9498ee2164d5d3e8460732a392efc netfs: Fix folio state after ENOMEM whilst under writeback iteration
+64f04f9789237728be4e1836151848af350d1374 netfs: Fix DIO write retry for filesystems without a ->prepare_write()
+e0df90e4c6021d6c8b540cbcd370cad23c7ff111 Merge patch series "netfs: Miscellaneous fixes"
+6c732471740bc2ac9b0946134f9f551dc75f4369 fhandle: reject detached mounts in capable_wrt_mount()
+044472d5ee7d71f918fa3f61bd65e4933a0c006e iomap: consolidate bio submission
+3372eb0384b791faf133806da287819f5bfaad76 fuse: call fuse_send_readpages explicitly from fuse_readahead
+c1fb97d31782f5a8c66d127624626accbb0dd8bc iomap: submit read bio after each extent
+24dddc384fb9aec2d7eea5463ca6dac98a3b3854 Merge patch series "iomap: consolidate bio submission"
+804dd204728c9fa740e28595a4be5ab0a87f8aed kunit: use scoped_with_init_fs() in tests that resolve paths
+b736449288972c6071c820596ef9a7d6ac73a8ae Remove excl arg to ->create inode_operation
+7028d60a643ac945826ae281ae5ec1940ee06fbf vfs: missing inode operation should return a consistent error code
+df411571131f46504ea2cc63449422f24772c6c2 Merge branch 'vfs.fixes' into vfs.all
+a7e0fe3926146d26cceb6ff3479f682247d8d94a Merge branch 'vfs-7.3.misc' into vfs.all
+15683e44667f7cf68711793b72114981c0f135ae Merge branch 'vfs-7.3.efs' into vfs.all
+b00bf341255dbe76452a1c7366a1d52b78b4bb2a Merge branch 'kernel-7.3.misc' into vfs.all
+6c7268f23933542095c9a39105ac5878a2def090 Merge branch 'ipc-7.3.misc' into vfs.all
+89b718e7be20ba774e441e1b050bb31bafa67b5f Merge branch 'vfs-7.3.ovl' into vfs.all
+526b2b2b2461704c8e8ecf7c3e514221a80ddc0d Merge branch 'vfs-7.3.netfs' into vfs.all
+5c73bf8878bf4e2770549c029ea41b328993de92 Merge branch 'vfs-7.3.kthread' into vfs.all
+34cda5b8f82a90eb5a94a35df700eb7131035eee Merge branch 'vfs-7.3.super' into vfs.all
+5351d8c82b56845cc9f0b08e2fe5e31ab53d6e09 Merge branch 'vfs-7.3.fat' into vfs.all
+9a2e05b1fd4254f89110c9ec5efd23c838e92f1b Merge branch 'vfs-7.3.mount' into vfs.all
+42843a9ac5e809f0cc23d9c7fc4f7fc680ef533f Merge branch 'vfs-7.3.iomap' into vfs.all
+e41775a83c9be51bf8d3b8e0f088f6440d004a61 Merge branch 'vfs-7.3.kfunc' into vfs.all
+cf6f88615485a68df77092de1f90f88708a32fa6 Merge branch 'vfs-7.3.errno' into vfs.all
 
---===============4224050161917404127==--
+--===============6809379906840977387==--
