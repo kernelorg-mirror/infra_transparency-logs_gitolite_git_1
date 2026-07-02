@@ -1,30 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 02 Jul 2026 22:35:14 -0000
-Message-Id: <178303171431.442376.6644397848850983581@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1487815799012621705=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Thu, 02 Jul 2026 22:42:54 -0000
+Message-Id: <178303217491.446839.13064432981800600028@gitolite.kernel.org>
+
+--===============1487815799012621705==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/heads/main-pending
-    old: 6eccaf3936834c7e12a51f3c7b2c6abefbc8b04d
-    new: 08c3a483f4c13e7a81e41c0825135df97d849e90
-    log: |
-         dad9f96945d77ecd4708f730c06ef54dcd8cc057 wifi: ath9k: hif_usb: don't dereference hif_dev after re-arming firmware request
-         ba7debb4dd6427386862220e8335a53a4bfc235d wifi: ath6kl: fix use-after-free in aggr_reset_state()
-         e8d85672dd7e2523f774caafba8f858384e18df7 wifi: ath11k: fix NULL pointer dereference in ath11k_hal_srng_access_begin
-         455c9ea0053be4f5775f3edcf3ba27a95e194447 Merge remote-tracking branch 'wireless/main'
-         9f5eb317c6fabb21b70f112a07e6c1cd38763552 Merge branch 'ath-next'
-         2d46b72a19d042b4c3cba7df7478f613a3e241f8 Merge branch 'ath-current'
-         fa1b1469f1c5f0f54ed9dab80106a117e7736bfd Add localversion-wireless-testing-ath
-         788e35b15af19cb80da7b23f303919faa6a0ee65 wifi: ath11k: fix refcount leak in ath11k_ahb_fw_resources_init()
-         08c3a483f4c13e7a81e41c0825135df97d849e90 Merge branch 'pending' into main-pending
-         
-  - ref: refs/tags/ath-pending-202607022219
-    old: 0000000000000000000000000000000000000000
-    new: 08c3a483f4c13e7a81e41c0825135df97d849e90
+  - ref: refs/heads/master
+    old: d18694c1e094eb70b26deefe5b99d17fc812d1a4
+    new: 63dd7ae7bfbec949c6dcfff82c65067563cad2df
+    log: revlist-d18694c1e094-63dd7ae7bfbe.txt
+
+--===============1487815799012621705==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d18694c1e094-63dd7ae7bfbe.txt
+
+9dc4005e0564e48062b00895e10b50e61506679f wifi: iwlwifi: mld: Revert "[BUGFIX] wifi: iwlwifi: mld: copy data for untrusted devices"
+39230990cbaff433fe6bd5f2ce4a1110c193acad wifi: iwlwifi: pcie: Revert "[BUGFIX] wifi: iwlwifi: trans: propagate DMA protection flag"
+bd70c42e25e81a17a76b3123b7b97f03dbf2dc57 wifi: iwlwifi: pcie: Revert "[BUGFIX] wifi: iwlwifi: pcie: allow not unmapping pages"
+8e988d19658d5c38043f302aef58b84387c245d6 [BUGFIX] wifi: iwlwifi: mld: validate wake packet crypto overhead
+465e7d18ff9bb97cc3e8179f1ab56497a47d21e7 [BUGFIX] wifi: mac80211: notify driver before destroying assoc link
+c9b4ad9461362cfc79e56b539b128a504778af5f [BUGFIX] wifi: iwlwifi: bound aligned TLV advance in FW parser
+643e32f0d92b3b2586b13b2eb9f21778b9afd767 [BUGFIX] wifi: iwlwifi: dbg-tlv: bound aligned TLV walk length
+da965a0184599d99cb9ab574ffdb53fd219634b7 [BUGFIX] wifi: iwlwifi: acpi: validate WGDS table revision index
+0f6adee4f921c61c5e94263317fbcef5d870ce81 [BUGFIX] wifi: iwlwifi: uefi: bound PPAG revision bitmap shift
+63dd7ae7bfbec949c6dcfff82c65067563cad2df wifi: iwlwifi: bump maximum core version for BZ/SC/DR to 108
+
+--===============1487815799012621705==--
