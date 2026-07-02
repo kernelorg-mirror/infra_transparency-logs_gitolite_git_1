@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1822721546332234214=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 02 Jul 2026 14:17:19 -0000
-Message-Id: <178300183990.93158.16498780340636349742@gitolite.kernel.org>
-
---===============1822721546332234214==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 02 Jul 2026 14:19:05 -0000
+Message-Id: <178300194514.94186.983040175455800125@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 1938fd4b2e0789adc3c4d0c91a3c730b6a98239e
-    new: 33f959ddb8b1461aea24f610274e5ce9fb2a27ba
+  - ref: refs/heads/watchdog-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: bc54a071a02dc396af9a61a7055b646194cb23d4
     log: |
-         33f959ddb8b1461aea24f610274e5ce9fb2a27ba drop some rmi4 patches
+         2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
+         36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0 watchdog: ni903x_wdt: Check ACPI_COMPANION() against NULL
+         0be186a120a797edb28effb9359296ce4cde9a25 docs: watchdog: Fix brackets
+         599c56dda3c4b9db0674bf42d03a4f128ab2a158 watchdog: Use named initializers for platform_device_id arrays
+         bc54a071a02dc396af9a61a7055b646194cb23d4 dt-bindings: watchdog: Document Qualcomm Maili watchdog
          
-
---===============1822721546332234214==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783001851 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1783001838-3d860477926918bbd3e92af5094ee670b90a73a6
-
-1938fd4b2e0789adc3c4d0c91a3c730b6a98239e 33f959ddb8b1461aea24f610274e5ce9fb2a27ba refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpGcvsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9yAP/j+MmcqLZMgNlwxq6do0
-b0D3hwNdKbn1rkbl1ha75QFQDEyw2sN6MCwAzuMXmqL+hPui6489pgsv34w4ndwN
-/nS8qTr7OsufPNgmkW++Ack/7Bk6mRlqT2Pc2TqnaYfEeuueBxlO6KsvWHs+fhjL
-ntdMBSoI9ih3vmuTu2YxTUAAfZe9Z7x8WM8YfEj3El+2vMznRtip0B5QqSE1NzXF
-F49bC2le9qrGhOwKKeP06opT+RDblcTMtis5Vf1nwe+B0aPUm5H4QPNIw6MWyAd8
-NCIAI8Dn4HAmQIH6CJfyq6sSiu3LbL9zE+r/Wa3AnycMoXcfhgjhSndNCIfaNbIi
-JRPzgWXloyOAo5T//W3P3bZw3+2Sx3lEcJyrOcsenpZvTicZdNuj834gC9TKpe3q
-lyMRakyWgaQ0/9fq2VSMXKfCpSkiSj/hwZdynMUUe0OK/fA3FJWoriViyRwKub2D
-HuHr/mjJUv5JirbDtULl4xKZ13vzpGU2jzNTcM66hQwyJDTEMqc/hqAJE+ARBFI7
-gRVAtgwX5XIVNRi85r5lWcQnkINJAKHL9NBzPR6P0UmSIiDmysqFEdtpqW/c3CSS
-SuDjNjEVRZbY2LdRTVC0c02qJDqHiEo6r4VVlEE6GpWFDu2B2BN1tl5/XPHTpeez
-YZXrL+wST+noEDUUhwXPvnPG
-=+csB
------END PGP SIGNATURE-----
-
---===============1822721546332234214==--
