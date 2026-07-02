@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Thu, 02 Jul 2026 14:33:53 -0000
-Message-Id: <178300283347.105783.18429480464343835466@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5796917142511347958=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 02 Jul 2026 14:34:55 -0000
+Message-Id: <178300289545.106187.7982531277491942896@gitolite.kernel.org>
+
+--===============5796917142511347958==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-test
-    old: c7bf2d31bdbe935f14bae8c9e741211f472a8a93
-    new: 4f3af3a2acfe891af70696380c5c6f8b66dc8302
+  - ref: refs/heads/master
+    old: 3320172efd239f3b77c6a661b8f4bc179afd5ddf
+    new: 3b29c151ffeb88a7e790eefb9f263ad2cd99839a
     log: |
-         d411ba1e68dfc21c82a51f8c1ce84d1ec7147b24 f2fs_io: adapt w/ page_size in aligned_xalloc()
-         8788b1f0c53d59c64ea43f87833b35f56fae7f69 fsck.f2fs: support to fix inconsistent sit->type of segments in large section
-         bcda70c7c4122d5412c6b9eade440c07abb2ce61 f2fs-tools: Build f2fs-tools with _FILE_OFFSET_BITS=64
-         e336ce7f2cc1e69c60d3b5a8d69a256772e9149d f2fs_io: add include dir
-         4f3af3a2acfe891af70696380c5c6f8b66dc8302 f2fs-tools: fix build failure on mac
+         3b29c151ffeb88a7e790eefb9f263ad2cd99839a 5.15-stable patches
          
+
+--===============5796917142511347958==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783002907 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1783002893-5e3cede713340a91f375c60fafe9cf5de9d41184
+
+3320172efd239f3b77c6a661b8f4bc179afd5ddf 3b29c151ffeb88a7e790eefb9f263ad2cd99839a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpGdxsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9y4P/26zoEYo8CsNiqq9EO42
+WCSAFg5d0Rm+Yys8Rczomlxs7jHeMQZ9I4MoNFj47Cny3Ht/usBUOqgMF7js+RLZ
+Z/E/tWLr8/552DG5IaBkM691F6LeqpC4HBGTyNnvpKZkJ7WLpbBpdtc695GuGKwg
+Bgza21PVrixrjXH23Kzlh3csMLxBM9DSf6pYjMNbTDZe5IHKvI6ECg8wCabBWZjz
++PH1JJpG4deoqN3uMNk9o4fETKDdUMRhvaI1eKkXED5vcw5GTdJo5TVKTIUGOgdO
+PVdUCjXjeoMZsx5xaoTgmZW0NnuIlpJsQEBnphHwKx1vmeQeCFGjbMdITPc/bjw+
+DMbWKuEwMHSjZ0o4BJMEGHuH3/lLy96fP3cPpX0te6P+iNUdkmfOE8IkfjSPrcTw
+7ariJ3XK3H+QljLZEkudW9GdVHaELJTKcgGSPzKDmLEtrF+r4BYxvghHcjhz6S3J
+b2nkhvgmGy2td8nj5L09IU+jBVAu11qXCeU6WLJIm2J5rpzXoOUKZg7ipHQWYNs1
+GIj33M/Xu6jKYE2n42JiPhl4pJsK2NAVuZ1BzALZjrrfx9iLoA/XrzUG5L+UdImG
+6VI6XUjpbv+Qv8brkgq+8bQvJgomoHZTksE56vgniHUlaipwduXlsZYAHJGFuFMU
+/XpVL8afor0efLTnYvx7hFyC
+=obe9
+-----END PGP SIGNATURE-----
+
+--===============5796917142511347958==--
