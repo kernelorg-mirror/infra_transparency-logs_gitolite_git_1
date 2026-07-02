@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7309723137138354634=="
+Content-Type: multipart/mixed; boundary="===============7557779219280935324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 02 Jul 2026 14:10:14 -0000
-Message-Id: <178300141499.87166.8779570365765311852@gitolite.kernel.org>
+Date: Thu, 02 Jul 2026 14:11:11 -0000
+Message-Id: <178300147156.88275.3162531700929336570@gitolite.kernel.org>
 
---===============7309723137138354634==
+--===============7557779219280935324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 54c726fbb53341a2553bf234d519d0cb22a2ce3d
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-54c726fbb533-dc59e4fea9d8.txt
+  - ref: refs/heads/watchdog
+    old: 367937951ffcaf5bd02c446c443407dfe8877886
+    new: 36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0
+    log: revlist-367937951ffc-36e05e134ee4.txt
 
---===============7309723137138354634==
+--===============7557779219280935324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54c726fbb533-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-367937951ffc-36e05e134ee4.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
 93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
 d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
@@ -1050,5 +1048,7 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
+36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0 watchdog: ni903x_wdt: Check ACPI_COMPANION() against NULL
 
---===============7309723137138354634==--
+--===============7557779219280935324==--
