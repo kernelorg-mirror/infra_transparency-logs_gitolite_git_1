@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 02 Jul 2026 17:05:29 -0000
-Message-Id: <178301192979.223575.207859689020272584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 02 Jul 2026 17:25:06 -0000
+Message-Id: <178301310684.235999.1654281117293973320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 9efcc9ba9b2e940cc01e63d132ae741e4c5d09c7
-    new: fd354554af1d2b33232ca6c8a3d79ed82413d715
+  - ref: refs/heads/master
+    old: 6042a966e047ea9fc5b54937ba436a0d68f34750
+    new: 7ea67149af719895ddf003cb8e9d2b287ef0a223
     log: |
-         63a76e3a587c4143e8e24e8a6b0c232fa0676034 iio: temperature: Build mlx90635 with CONFIG_MLX90635
-         7dc4de2aa6316f1d044cde21f5acfec5f3ec6b47 iio: adc: ti-ads124s08: Return reset GPIO lookup errors
-         f107c62bfc057b82758c233391ee0842f02a0582 iio: adc: ad4130: add missing `select IIO_TRIGGERED_BUFFER` to Kconfig
-         fd354554af1d2b33232ca6c8a3d79ed82413d715 iio: adc: ad7779: add missing 'select IIO_TRIGGERED_BUFFER' to Kconfig
+         7ea67149af719895ddf003cb8e9d2b287ef0a223 Bluetooth: L2CAP: fix tx ident leak for commands without a response
          
