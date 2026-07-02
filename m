@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6545608275168844371=="
+Content-Type: multipart/mixed; boundary="===============9196426161019035636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 02 Jul 2026 18:26:39 -0000
-Message-Id: <178301679989.277297.11350992361366784379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 02 Jul 2026 18:26:54 -0000
+Message-Id: <178301681477.277585.13918112749791926812@gitolite.kernel.org>
 
---===============6545608275168844371==
+--===============9196426161019035636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 4f441960e691d37c880d2cc004de06bb5b6bd5e4
     new: 6eb8711ece2ce27e52e327a5b7a628ed39b97f45
     log: revlist-4f441960e691-6eb8711ece2c.txt
-  - ref: refs/heads/stable
-    old: 665159e246749578d4e4bfe106ee3b74edcdab18
-    new: 4a50a141f05a8d1737661b19ee22ff8455b94409
-    log: |
-         dec4d8118c179b3d12bca7e609054c6011c4f2ce bootconfig: fix NULL-pointer arithmetic in xbc_snprint_cmdline()
-         4a50a141f05a8d1737661b19ee22ff8455b94409 Merge tag 'bootconfig-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
-  - ref: refs/tags/next-20260402
-    old: 83acad05dee54a5cff0c98dd7962e55d4c6b145a
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260702
     old: 0000000000000000000000000000000000000000
     new: a9498e40e3e314ade387d3ab0d5cb14f0f3aa1ad
 
---===============6545608275168844371==
+--===============9196426161019035636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ f908a2f0a1b8167f3b19e82aa40103cbdc745f4a Merge branch 'for-next' of https://git.
 4c0ca8ee41ff3ca1d23e054581d2dc703ec549b5 Merge branch 'device-id-rework' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux.git
 6eb8711ece2ce27e52e327a5b7a628ed39b97f45 Add linux-next specific files for 20260702
 
---===============6545608275168844371==--
+--===============9196426161019035636==--
