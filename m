@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4484292248984896403=="
+Content-Type: multipart/mixed; boundary="===============4547049212467066340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 02 Jul 2026 16:03:37 -0000
-Message-Id: <178300821795.176162.2198543349854820664@gitolite.kernel.org>
+Date: Thu, 02 Jul 2026 16:03:41 -0000
+Message-Id: <178300822177.176310.1267077737917666800@gitolite.kernel.org>
 
---===============4484292248984896403==
+--===============4547049212467066340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: cec76a6299155586aac1b67cffad473a14f9e2a7
-    new: f4b4fac1867633ac17c35842f03933f6a7a4425f
-    log: revlist-cec76a629915-f4b4fac18676.txt
+  - ref: refs/heads/mm-unstable
+    old: 24262889c6917787b1152d3322bc4dbbdd3dfe82
+    new: b10fe7c12b77a87f98564bf57efeb1129eeac74a
+    log: revlist-24262889c691-b10fe7c12b77.txt
 
---===============4484292248984896403==
+--===============4547049212467066340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cec76a629915-f4b4fac18676.txt
+Content-Disposition: attachment; filename=revlist-24262889c691-b10fe7c12b77.txt
 
 4b0363cb1f3ec42b0b1346e5ab0b8a3dceeee9be selftests/mm: fix ksft_process_madv.sh test category
 65476d31d8056e859c48580f82295ce159196ffe mm: shrinker: fix shrinker_info teardown race with expansion
@@ -221,71 +221,5 @@ c00178f1e3b0ce31c29136727f592a2cb62f0f72 selftests/damon/sysfs.sh: test all file
 2a75ca6d50edd2a6f0f3536c523a37d95d5356f9 mm/damon/sysfs: fix typos in probe_{add,rm}_dirs: s/attr/probe/
 94257d358fc6dac2e7be718befed3b30b2749fb8 mm/page_alloc: use existing highatomic reserves on the buddy fastpath
 b10fe7c12b77a87f98564bf57efeb1129eeac74a mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-afb86ef2cb31c4e5d52d34fa24c4a7ffc8a587cc maple_tree: add rcu locking check when LOCKDEP is enabled
-656ed9c0c537ddf47e1d59ffc525bdbd6fadd0ee locking/lockdep: add sequence counter to held_lock
-8386d9ebebd75c073e93bc8be7c1e46d6cbc8a9d maple_tree: add write lock checking with lockdep sequence numbers
-46e68f6954a81bf45cb8f4e6bed7189d566c94ae maple_tree: documentation fix
-d565450531d1c007867543a444738f51ae28c8fd maple_tree: drop dead code from mas_extend_spanning_null()
-20dd7a1745a174171c60792646b7bf61afc38984 maple_tree: drop MAPLE_ALLOC_SLOTS
-aecae611843e97671ce311316efc612a8d264615 maple_tree: clarify comments on mas_nomem()
-2fb58fc623f48ac9b24d757f8aa393d8883eedce maple_tree: use prefetched value in mas_wr_store_type()
-4a607da8106552bbf4dba79497132c5a7b831f0a maple_tree: optimise mas_wr_node_store() when not in rcu mode
-9ffa94ca289eca293cbbc057f5ca8a7121725904 maple_tree: micro optimisation of mas_wr_store_type()
-7c4a05352918da48a07bd7950a01b43f0d76fc19 maple_tree: add bulk parent set helper
-e6cec44440cdea234723d46f911ef0edd968ef2c maple_tree: catch race in mas_alloc_cyclic()
-74bb7d5c4ae2d28fcf8150476d185a523e79c8bc maple_tree: document that erase may use GFP_KERNEL for allocations
-4be8612cc78bb783fb8d5039f670fda1f7d972fe maple_tree: WARN_ON_ONCE when allocations fail
-a7150b8bb2b9651b2542a0f98567f915c866f67c maple_tree: document erase and allocations better
-1d83a137236ab22c0a32de326ad64452978820d7 maple_tree: change two GFP flags in tests
-e029e2d6be33a3bb9f19d788452c12d29adbc687 maple_tree: fix argument name in header
-a4dc244110cee5df4b368afcaa8fab85ab3ea39e maple_tree: avoid extra gap calculation
-ccfcfd84fcab0505f1b64f2ec3c5d207d0f89a22 maple_tree: add helper mas_make_walkable()
-4545b01b96614194eec59c6da1e3f9631912a196 mm/hugetlb: avoid unnecessary TLB flush for empty folio list in vmemmap optimize
-06018ebb10aee16aaabcd27fea743838edf674b7 mm/vmpressure: skip tree=true accounting on cgroup v2
-b3be7753ab067e1b3360fb33f259b1b1107d4b01 mm-vmpressure-skip-tree=true-accounting-on-cgroup-v2-fix
-39c1b46dbd3d8b0b8cbc3c31686b1d62ea6ff232 mm/vmpressure: move v1 userspace eventfd code into memcontrol-v1.c
-f8c6058176d73ba12507f7222076560c12810928 mm/shmem: fix data-race in shmem_fault
-f4a00734a70a74e92e08521701ec636acf581ffb selftests/mm: move pkey selftest helpers to pkey_util.c
-dcc372ef5ba55dc1b171282e1d8234062902bbf7 selftests/mm: unify pkey sighandler selftest assertions and tracing
-3117f238ebe460875cfee0371cf861bcd56b4402 selftests/mm: use pkey_assert on clone_raw failure in pkey test
-4eb3bf18448c0ab27e3121c1fdfd0aa60d5b93bd selftests/mm: add missing mmap() return checks in pkey tests
-4c37560c8c4b2767a1d8e855d444087f19570555 selftests/mm: add missing pthread_create() return checks in pkey tests
-526b52340ad98265bf3d77317e06dc55254fb6ab mm: fix ASSERT_EXCLUSIVE_BITS by passing memdesc_flags_t by pointer
-7c56b409470ce5ff9b2fd3fd0d3bbd52714b80ce mm-fix-assert_exclusive_bits-by-passing-memdesc_flags_t-by-pointer-fix
-8a8a6887c52815235671e95e01b726a13f924e0d mm/migrate_device: pin large folios before splitting
-21f35b4fb43bf3842e990d68238d54b66c023683 mm/mm_init: handle alloc_percpu failure in free_area_init_core_hotplug
-40866cca2053bbd96cbfe4785d5f86e43658899b lib/test_hmm: fail dmirror_fault() when the mirrored mm is gone
-3d867a3af28a0c0f2d44e0f368ba489a248e9c7e selftests/mm/uffd: don't treat UFFDIO_COPY -ENOENT as a failure
-0164a221074b36742328f6e3f6dbf9f84aae9d6c mm: gfp_types: fix __GFP_ACCOUNT, GFP_KERNEL_ACCOUNT documentation
-1dd346165424cc37d500720def6be33e79a98a4c mm: fix stale ZONE_DEVICE refcount comment
-c7e09f84b0cd2154ca4686e35930e138ea68ef81 mm: factor zone-device page init helpers out of __init_zone_device_page
-77fbbde83466874078c092ed2d9ee484a2db9530 mm: add a set_page_section_from_pfn() helper
-b6af5b3e2d97dffdd690372c25d9e0c59920b7e6 mm: add a template-based fast path for zone-device page init
-5df34e0b6917b4ed6cda30a8704f6f72bea39744 mm: extend the template fast path to zone-device compound tails
-dc574c99de1dd3c3982711bd7433f1e87948af6e string: introduce memcpy_nt() helpers
-530f23afe31937b3d6a8a5274984e09dc113c315 x86/string: extend memcpy_flushcache() fixed-size fastpaths
-10565da8e572ef5e8bdda507619e1ebe274eb882 mm: use memcpy_nt() in zone-device template copies
-4f6b231e08884a5c128acbf56e3a305cad8881d7 mm/damon/core: introduce damon_nr_accesses_mvsum()
-53e9be36598a0b88df64ad7729dd6ca9b308bfad mm/damon/tests/core-kunit: test damon_mvsum()
-33d940fd2e9057bebb5276e0a438fd6b02d53120 mm/damon/core: always update ->last_nr_accesses for intervals change
-cd66771a6d496dd5dfac0c4d0b241c816890b4dd mm/damon/core: handle unreset nr_accesses in damon_nr_accesses_mvsum()
-1fb3c20864d5e21af696ced4f9a8f36489f15ead mm/damon/core: use damon_nr_accesses_mvsum() in __damos_valid_target()
-07aea8e02af050409cb1b6427522d19674184c39 mm/damon/core: use damon_nr_accesses_mvsum() for damos region tracing
-7024461e9790afdcade079083913ce9968a062eb mm/damon/sysfs-schemes: use damon_nr_accesses_mvsum() for damo regions
-86c603e79dd594c4e2022bca9245aba6323ae56f mm/damon/core: remove damon_warn_fix_nr_accesses_corruption()
-b2c767ab214dcb6b0912a4f5ce5d2f5787dc5ec6 mm/damon/core: remove damon_verify_reset_aggregated()
-ee248a32f8735a59c343eda164f3c1c5e4cd8e67 mm/damon/core: remove damon_verify_merge_regions_of()
-055d78b37b252610d8ae37b3660852630075d0be mm/damon/tests/core-kunit: remove nr_accesses_bp setup and tests
-23a391bac619e0aa7b7effa17f3c1291040bc8e8 selftests/damon/drgn_dump_damon_status: do not dump nr_accesses_bp
-9c652b4e7e6e0381ad96bd7b88c3dc402f1f3c7e mm/damon/core: remove nr_accesses_bp setups and updates
-53647dd7000cbc9aca12717e5babe7b12047f28a mm/damon/core: remove attrs param from damon_update_region_access_rate()
-62356bc4ddb873327d7c908a0615cd1194bcc877 mm/damon/paddr: remove attrs param from __damon_pa_check_access()
-8aa8ec20122842cc122d8cd1c48ce22ee1da1b2a mm/damon/vaddr: remove attrs param from __damon_va_check_access()
-eaca794e014bd82090ef5c97fe86e02b39e60043 mm/damon/core: remove damon_moving_sum() and its unit test
-630679bdd1fd8024ab0a6024a1a28e5ee1d4bb95 mm/damon/core: remove damon_region->nr_accesses_bp
-95ec69f1652d336fe93eda24f7f1b354305a9a87 mm: fix mapping_seek_hole_data() overflow on last page
-34417a15b1c6ea82f621236a23685d8abe52ea27 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-697990dfef85450345445657be4c1d4c333f6c15 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-f4b4fac1867633ac17c35842f03933f6a7a4425f mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4484292248984896403==--
+--===============4547049212467066340==--
