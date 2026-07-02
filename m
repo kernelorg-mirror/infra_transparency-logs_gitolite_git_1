@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5288941733735628681=="
+Content-Type: multipart/mixed; boundary="===============5464727653990594926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 02 Jul 2026 08:07:06 -0000
-Message-Id: <178297962695.4006903.1766639706045966262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Thu, 02 Jul 2026 08:07:16 -0000
+Message-Id: <178297963691.4007152.5771802150787197366@gitolite.kernel.org>
 
---===============5288941733735628681==
+--===============5464727653990594926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-fixes
-    old: d1883cefd31752f0504b94c3bcfa1f6d511d6e87
+  - ref: refs/heads/for-backlight-fixes
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-d1883cefd317-dc59e4fea9d8.txt
+    log: revlist-8f0b4cce4481-dc59e4fea9d8.txt
 
---===============5288941733735628681==
+--===============5464727653990594926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1883cefd317-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============5288941733735628681==--
+--===============5464727653990594926==--
