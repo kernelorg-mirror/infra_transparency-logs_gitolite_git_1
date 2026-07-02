@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1263227990950802187=="
+Content-Type: multipart/mixed; boundary="===============1492314236032321551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 02 Jul 2026 05:04:28 -0000
-Message-Id: <178296866816.3859329.4545005648168599243@gitolite.kernel.org>
+Date: Thu, 02 Jul 2026 05:06:56 -0000
+Message-Id: <178296881637.3862384.10550206014949221691@gitolite.kernel.org>
 
---===============1263227990950802187==
+--===============1492314236032321551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: b7a76f38ef3500d53ec87489c445fec8100c7a6b
-    new: 80652b0de2570a89e6ce7443a51e46e3c10bcd14
-    log: revlist-b7a76f38ef35-80652b0de257.txt
+  - ref: refs/heads/opp/linux-next
+    old: b59020834b2d8718fe37a4e77367f554cbf95982
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    log: revlist-b59020834b2d-dc59e4fea9d8.txt
 
---===============1263227990950802187==
+--===============1492314236032321551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7a76f38ef35-80652b0de257.txt
+Content-Disposition: attachment; filename=revlist-b59020834b2d-dc59e4fea9d8.txt
 
+8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
 93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
 84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
@@ -1049,6 +1050,5 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-80652b0de2570a89e6ce7443a51e46e3c10bcd14 cpufreq: qcom-nvmem: Add IPQ5210 support
 
---===============1263227990950802187==--
+--===============1492314236032321551==--
