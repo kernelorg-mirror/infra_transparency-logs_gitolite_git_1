@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 02 Jul 2026 00:53:15 -0000
-Message-Id: <178295359551.3681681.16984156912423689523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Thu, 02 Jul 2026 00:59:42 -0000
+Message-Id: <178295398237.3686022.17273032197254150184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
   - ref: refs/heads/master
-    old: 132c388927818147ceb06c6d52887e1c4c4845ba
-    new: 48da0da2b8cb07bd9ef33244237a6f7c3f18c013
+    old: 6072593a3d3c8ee2fd8cad0b39760ebc4bdb7d5f
+    new: ec2ce911ad64a1a3b8258d9047358fa3f3250bf4
     log: |
-         bee94c5d0b9752a8ceee9179eacba4ec4d15e095 foo
-         3b16ed2adaded3947d0bbbd83af55fa0e28a19e8 foo
-         ebb5a9e4b85b8274d4caffa828c8da7f3a250b23 foo
-         14a36fce138bb6d26007ecb4d6ca0a97ec381635 foo
-         48da0da2b8cb07bd9ef33244237a6f7c3f18c013 foo
+         79e9c02a9f55e0cd3f654066812e2e88af43b8f6 xmalloc: drop dependency on libiberty
+         54511b4c2517e61297eff45d161e5fa30fb47ae2 autoconf: update PA_OPTION_DEBUG
+         9ab2a8211304cf93339767cb71255b276d5f4473 configure.ac: add --enable-werror option
+         33c339ff98659628979f7422296bf90e118148ac Unify getting program name; move common/ prototypes to tftpsubs.h
+         e30f5cd41ca1d388c3496e6c0866791e4fd09d98 common: merge xmalloc() and xstrdup() into a common function
+         3340ddafd58ecd9b6b2045faac209b2088923b52 tftpd: canonicalize paths and compare one level at a time
+         315aba4719960a3a75144478e8641e9a5b44d3ce tftpd/path.c: require leading /, forbid control characters
+         92bf4ffd5d37b45dde667bd594bdd40f982b23b0 version: the next version is 5.4
+         ec2ce911ad64a1a3b8258d9047358fa3f3250bf4 tftpd/path: even stricter pathname checking, document restrictions
          
