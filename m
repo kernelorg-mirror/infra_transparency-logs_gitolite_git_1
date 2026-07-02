@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Thu, 02 Jul 2026 00:59:42 -0000
-Message-Id: <178295398237.3686022.17273032197254150184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 02 Jul 2026 01:07:45 -0000
+Message-Id: <178295446558.3697765.8446736278550713937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 6072593a3d3c8ee2fd8cad0b39760ebc4bdb7d5f
-    new: ec2ce911ad64a1a3b8258d9047358fa3f3250bf4
+  - ref: refs/heads/block-7.2
+    old: 3dd63dba8f9cb6990a40af7ed66ee0159f475819
+    new: 1e56f30a73f304fe26a272742c398aedd88a1a6c
     log: |
-         79e9c02a9f55e0cd3f654066812e2e88af43b8f6 xmalloc: drop dependency on libiberty
-         54511b4c2517e61297eff45d161e5fa30fb47ae2 autoconf: update PA_OPTION_DEBUG
-         9ab2a8211304cf93339767cb71255b276d5f4473 configure.ac: add --enable-werror option
-         33c339ff98659628979f7422296bf90e118148ac Unify getting program name; move common/ prototypes to tftpsubs.h
-         e30f5cd41ca1d388c3496e6c0866791e4fd09d98 common: merge xmalloc() and xstrdup() into a common function
-         3340ddafd58ecd9b6b2045faac209b2088923b52 tftpd: canonicalize paths and compare one level at a time
-         315aba4719960a3a75144478e8641e9a5b44d3ce tftpd/path.c: require leading /, forbid control characters
-         92bf4ffd5d37b45dde667bd594bdd40f982b23b0 version: the next version is 5.4
-         ec2ce911ad64a1a3b8258d9047358fa3f3250bf4 tftpd/path: even stricter pathname checking, document restrictions
+         1e56f30a73f304fe26a272742c398aedd88a1a6c block: Make WBT latency writes honor enable state
+         
+  - ref: refs/heads/for-next
+    old: 013b702bcb0d9c5a1dc679b5938860fe1d1dfaa7
+    new: d56b75d5e0b73f6b0ff423c5846d81b1349e8d95
+    log: |
+         1e56f30a73f304fe26a272742c398aedd88a1a6c block: Make WBT latency writes honor enable state
+         d56b75d5e0b73f6b0ff423c5846d81b1349e8d95 Merge branch 'block-7.2' into for-next
          
