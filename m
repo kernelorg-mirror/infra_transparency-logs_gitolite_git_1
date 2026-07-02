@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 02 Jul 2026 14:19:05 -0000
-Message-Id: <178300194514.94186.983040175455800125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Thu, 02 Jul 2026 14:22:44 -0000
+Message-Id: <178300216407.97519.11971305838945922768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/watchdog-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: bc54a071a02dc396af9a61a7055b646194cb23d4
+  - ref: refs/heads/dev-test
+    old: 16c5eddde11d9d765d16ef74cdf92a496fb3c4c0
+    new: c7bf2d31bdbe935f14bae8c9e741211f472a8a93
     log: |
-         2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
-         36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0 watchdog: ni903x_wdt: Check ACPI_COMPANION() against NULL
-         0be186a120a797edb28effb9359296ce4cde9a25 docs: watchdog: Fix brackets
-         599c56dda3c4b9db0674bf42d03a4f128ab2a158 watchdog: Use named initializers for platform_device_id arrays
-         bc54a071a02dc396af9a61a7055b646194cb23d4 dt-bindings: watchdog: Document Qualcomm Maili watchdog
+         def320d79d53bfae33272d212ddf03f9ec75aec5 f2fs-tools: Build f2fs-tools with _FILE_OFFSET_BITS=64
+         8a3d07c835067545e0f23f39f30c0f7644c4e094 f2fs_io: add include dir
+         c7bf2d31bdbe935f14bae8c9e741211f472a8a93 f2fs-tools: fix build failure on mac
          
