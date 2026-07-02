@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5584229219674991764=="
+Content-Type: multipart/mixed; boundary="===============1292625707336735458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Thu, 02 Jul 2026 16:02:48 -0000
-Message-Id: <178300816852.175102.11455399815242869223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Thu, 02 Jul 2026 16:02:50 -0000
+Message-Id: <178300817000.175258.14556214461581063914@gitolite.kernel.org>
 
---===============5584229219674991764==
+--===============1292625707336735458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 4a50a141f05a8d1737661b19ee22ff8455b94409
     log: revlist-dc59e4fea9d8-4a50a141f05a.txt
 
---===============5584229219674991764==
+--===============1292625707336735458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ dec4d8118c179b3d12bca7e609054c6011c4f2ce bootconfig: fix NULL-pointer arithmetic
 665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 4a50a141f05a8d1737661b19ee22ff8455b94409 Merge tag 'bootconfig-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============5584229219674991764==--
+--===============1292625707336735458==--
