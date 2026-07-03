@@ -1,29 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 03 Jul 2026 19:19:33 -0000
-Message-Id: <178310637376.1311912.1584376827244808684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 03 Jul 2026 19:19:51 -0000
+Message-Id: <178310639195.1312158.15851822012092240923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 32117bb6198f956d2464411408f6eb8ec400be6f
-    new: fabc5b59d3e647637dd71cdb94c96ac0fbecf632
+    old: bbe4a1f9099056cf5adbb95aeb4d1601d80f7b8c
+    new: d504c1edc4a953e3594e2f0dc0b5c28403a2e48c
     log: |
-         fabc5b59d3e647637dd71cdb94c96ac0fbecf632 Merge remote-tracking branch 'regmap/for-7.1' into regmap-linus
+         d504c1edc4a953e3594e2f0dc0b5c28403a2e48c Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 5663b89570d1204b87242911bef7ffe5b51eb425
-    new: 1c790e0326461809ac256c91402d61747f2143c9
+    old: f23ae9e1ee8639f752be3307ed4d97fb1d7915cd
+    new: 69d7343e4df1e9954ecb275e95d156182f2daf3b
     log: |
-         9bb4c0b37d54fc7d61f2a21cfa635fa2e3a29ac5 regmap-irq: Provide IRQ resource request and release callbacks
-         35845da94b9031b16400046bd81f96db386515e0 regmap-irq: Provide IRQ resource request and release callbacks
-         fabc5b59d3e647637dd71cdb94c96ac0fbecf632 Merge remote-tracking branch 'regmap/for-7.1' into regmap-linus
-         1cf32d7ad2a1f64345340a4a83e71c35749a0561 Merge branch 'regmap-linus' into regmap-next
-         1c790e0326461809ac256c91402d61747f2143c9 Merge remote-tracking branch 'regmap/for-7.3' into regmap-next
+         4c40e28e833d0142352e8294d50dde637c163a76 regulator: Add regulator driver for Unisoc SC2730 PMIC
+         f29a8bf6fde130313ec77c89d7612100ff5bafb2 regulator: dt-bindings: ROHM PMIC state-machine voltages
+         d504c1edc4a953e3594e2f0dc0b5c28403a2e48c Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
+         3cb8fcbb52ddfc82573eee72c15bc5a49e97731d Merge branch 'regulator-linus' into regulator-next
+         69d7343e4df1e9954ecb275e95d156182f2daf3b Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
          
