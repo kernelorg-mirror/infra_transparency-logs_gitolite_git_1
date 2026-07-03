@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2820076029705367053=="
+Content-Type: multipart/mixed; boundary="===============5719945737146514691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Fri, 03 Jul 2026 11:06:34 -0000
-Message-Id: <178307679471.959122.12730281160007421745@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 11:10:02 -0000
+Message-Id: <178307700242.960680.787668996563349425@gitolite.kernel.org>
 
---===============2820076029705367053==
+--===============5719945737146514691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 15e5ed88e7d6999a10c971c3e4a6d2afb002c804
-    new: b429b15ef8aff9d6668ab347a242b4399a969e2e
-    log: revlist-15e5ed88e7d6-b429b15ef8af.txt
+  - ref: refs/heads/for-usb-linus
+    old: e39daeb528299ef1105226cbbab5f5e10305c297
+    new: e177f92ed3161a1af0ebe4498f59a4845e5958f0
+    log: revlist-e39daeb52829-e177f92ed316.txt
 
---===============2820076029705367053==
+--===============5719945737146514691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15e5ed88e7d6-b429b15ef8af.txt
+Content-Disposition: attachment; filename=revlist-e39daeb52829-e177f92ed316.txt
 
+93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
+84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
+d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
+75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
 9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
 7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
 8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
@@ -1044,11 +1048,7 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-d5780618b1380df7d11fefd11cae3342c7900947 xhci: fix frame id calculation and checks for isoc URBs
-6de06280ff46752c2954a8a2aed8adf36db203ce xhci: Set frame ID field of isoc TRB when starting an isoch stream
-61f2473cceaa092be418e3a8961eff745a53e3eb xhci: include all root port children in recovery prevention on link error
-00a7c0b6fbdc830dc1f89a2a6237a82c3010e38c xhci: prevent endpoint recovery after roothub disconnect
-3d84ababbfb61c00aaa0d0513fa79c6cb7841bfa xhci: avoid xHC endpoint changes after disconnect or link error.
-b429b15ef8aff9d6668ab347a242b4399a969e2e xhci: move dequeue to next valid td instead of past cancelled one
+a1b5abdf95706ace8c6d51a1748829578e6723e6 xhci: sideband: fix ring sg table pages leak
+e177f92ed3161a1af0ebe4498f59a4845e5958f0 usb: xhci: Fix sleep in atomic context in xhci_free_streams()
 
---===============2820076029705367053==--
+--===============5719945737146514691==--
