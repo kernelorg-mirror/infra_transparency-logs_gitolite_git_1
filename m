@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8624628595878433436=="
+Content-Type: multipart/mixed; boundary="===============3980374566354679817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 03 Jul 2026 17:18:40 -0000
-Message-Id: <178309912079.1228285.13479034484335711044@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 17:22:01 -0000
+Message-Id: <178309932198.1231532.11268140853290828829@gitolite.kernel.org>
 
---===============8624628595878433436==
+--===============3980374566354679817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
-    old: bb4e90e91ba19b598cbdd9a2161b893b86a3f637
+  - ref: refs/heads/for-next
+    old: 0b58988cacfc91604c4b5be2c3295f8aac0ee3d0
     new: 87bfe634b1193db90e5170e1ddbad04a63ef4501
-    log: revlist-bb4e90e91ba1-87bfe634b119.txt
+    log: revlist-0b58988cacfc-87bfe634b119.txt
 
---===============8624628595878433436==
+--===============3980374566354679817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb4e90e91ba1-87bfe634b119.txt
+Content-Disposition: attachment; filename=revlist-0b58988cacfc-87bfe634b119.txt
 
 b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
 942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
@@ -475,6 +475,7 @@ d8e8b85a85fe21954d303db68034aac4639df88d Merge tag 'batadv-net-pullrequest-20260
 db78c0db411b111b438f00a1ba418e995b5bd246 Merge tag 'mfd-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 a9d4dd742466cab468a950441447c614a3920aad Merge tag 'hwmon-for-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 87320be9f0d24fce67631b7eef919f0b79c3e45c Merge tag 'net-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+bb4e90e91ba19b598cbdd9a2161b893b86a3f637 bpftool: Use btf_vlen()/btf_kind()/btf_kflag() helpers consistently
 826eec5b5efd785dc87638a54d5ecc9f88e5afce Merge tag 'vfio-v7.2-rc2' of https://github.com/awilliam/linux-vfio
 51512e22efe813d8223de27f6fd02a8a48ea2323 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 462775c620197adaabc983ce847e5b9878ff4cb0 ata: libata-core: Add NOLPM quirk for PNY CS900 1TB SSD
@@ -503,4 +504,4 @@ c85167c926e0b1a9213ecc9040eb355f90426832 Merge tag 'ata-7.2-rc2' of git://git.ke
 d2c9a99135da931377240942d44f3dea104cedb8 Merge tag 'device-id-rework' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 87bfe634b1193db90e5170e1ddbad04a63ef4501 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.2-rc2
 
---===============8624628595878433436==--
+--===============3980374566354679817==--
