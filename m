@@ -1,46 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5719945737146514691=="
+Content-Type: multipart/mixed; boundary="===============1887177113904413155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Fri, 03 Jul 2026 11:10:02 -0000
-Message-Id: <178307700242.960680.787668996563349425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Fri, 03 Jul 2026 11:14:33 -0000
+Message-Id: <178307727393.963825.951646215184453826@gitolite.kernel.org>
 
---===============5719945737146514691==
+--===============1887177113904413155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: e39daeb528299ef1105226cbbab5f5e10305c297
-    new: e177f92ed3161a1af0ebe4498f59a4845e5958f0
-    log: revlist-e39daeb52829-e177f92ed316.txt
+  - ref: refs/heads/b4/module-hashes
+    old: 1013e8d1358419264674f5757d18972fd2cbe98b
+    new: f3732f06259a40d1306f6847ca1e06dc6a3f8a54
+    log: revlist-1013e8d13584-f3732f06259a.txt
 
---===============5719945737146514691==
+--===============1887177113904413155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e39daeb52829-e177f92ed316.txt
+Content-Disposition: attachment; filename=revlist-1013e8d13584-f3732f06259a.txt
 
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
 85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
 b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
 29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
@@ -1048,7 +1033,22 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-a1b5abdf95706ace8c6d51a1748829578e6723e6 xhci: sideband: fix ring sg table pages leak
-e177f92ed3161a1af0ebe4498f59a4845e5958f0 usb: xhci: Fix sleep in atomic context in xhci_free_streams()
+4d60a3020d33725d6cf8895dc93064adacf80095 deleteme
+252b2035486b7b54d790f97e76272c76060765ee tools/resolve_btfids: Include libsubcmd headers directly from source tree
+2b6e3671a40dc26227cb9f886b1e0918f62cb799 DESCEND spam
+1fdeb8b27d0a69d9b8062f6776c5026abada40f2 module: Introduce hash-based integrity checking
+573e042c1bcc8cad5d066ada2a4f218cfe39a99e kbuild: generate module BTF based on vmlinux.unstripped
+3240da4515e2ca13830078b2aa348daf5f026ac5 lockdown: Make the relationship to MODULE_SIG a dependency
+96606e81967b7cfc6a684a03c076e0fad531644d kbuild: rename the strip_relocs command
+8d302904655210fdc51b6573f958fc8e466fbdc8 module: Drop pointless debugging message
+a1fd1298637880293293ad574445b6ce0e49909d module: Make mod_verify_sig() static
+efc0cdb1cbf7b18a8f9416f2a22838afb027aeeb module: Make module authentication usable without MODULE_SIG
+9d1d18c0e7ba5753297e2e3ac035139a774ee545 module: Move authentication logic into dedicated new file
+d8af3f94974b9a9d6e60a5b5572805ea899f6be9 module: Move signature type check out of mod_check_sig()
+116c9af8ac7f972e72522b8a434e71258ce210e8 module: Prepare for additional module authentication mechanisms
+a6d979803fa0b2743f20414db450c5dabb921764 module: update timestamp of modules.order after modules are built
+95a0359f58125b7ad8d337a2a91cffed74616c78 module: Introduce hash-based integrity checking
+62651ef85a8140b1083d7441c545939285d82d21 kbuild: move handling of module stripping to Makefile.lib
+f3732f06259a40d1306f6847ca1e06dc6a3f8a54 kbuild: make CONFIG_MODULE_HASHES compatible with module stripping
 
---===============5719945737146514691==--
+--===============1887177113904413155==--
