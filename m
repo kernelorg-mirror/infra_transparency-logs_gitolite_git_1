@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 03 Jul 2026 07:56:21 -0000
-Message-Id: <178306538134.820385.9341568724688586156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Fri, 03 Jul 2026 08:08:23 -0000
+Message-Id: <178306610320.827691.2869138974650496695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/tags/gpio-fixes-for-v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 931a4aca71c37a316f53cca14bc9df9f086d0a60
+  - ref: refs/heads/kernelcore-mirror
+    old: 7783dcd79ae9c4aa48bc47bd4275772445dc4b2a
+    new: ebcc3102b3ee144744e7e1531d9a4a10c3ae3be9
+    log: |
+         85b5acfefcf9abd79b9672a54a3b9f48560e7986 mm/mm_init: don't overlap NORMAL and MOVABLE zones with kernelcore=mirror
+         3be62316839ac82f934988a2bcdcaed5c1b56d39 mm/mm_init: drop overlap_memmap_init()
+         ebcc3102b3ee144744e7e1531d9a4a10c3ae3be9 Merge patch series "mm/mm_init: don't overlap zones with kernelcore=mirror"
+         
