@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 03 Jul 2026 06:54:14 -0000
-Message-Id: <178306165442.776360.4003789774859280752@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 06:57:56 -0000
+Message-Id: <178306187696.779633.14296533725730981340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 2ed8d5c72488bca9666fefa942ed2dc07cc0c56a
-    new: 8d96107b5828be42c7ece7bba0e590811052e9dd
+    old: 8d96107b5828be42c7ece7bba0e590811052e9dd
+    new: 6fb33632323a396c9dc2bb9bea483e013e547d57
     log: |
-         7cb8198761e627ff3a3b4770c8f147e75c4e649d net: ipv4: report multicast group user count
-         e1d0f3f0839103bc5387d2fa78eb1fd9af2d1fe1 net: ipv6: report multicast group user count
-         3373cb099e6692b219328960e1d1ea70b978f20b selftests: net: check multicast group user count
-         8d96107b5828be42c7ece7bba0e590811052e9dd Merge branch 'net-report-multicast-group-user-count'
+         df87e5c4e94e5f52020f51a071353956df814b22 tools: ynl: pyynl: re-export the library API from the package root
+         10c90f1bba3ad979b77f0778e295fb974e78f0cc tools: ynl: pyynl: pull the --family resolution logic into the lib
+         6fb33632323a396c9dc2bb9bea483e013e547d57 Merge branch 'tools-ynl-pyynl-pull-the-family-resolution-logic-into-the-lib'
          
