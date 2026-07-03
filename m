@@ -1,56 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============4185179155201813960=="
+Content-Type: multipart/mixed; boundary="===============0213579080118625447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 03 Jul 2026 11:54:15 -0000
-Message-Id: <178307965534.994165.12748567950825763733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 03 Jul 2026 11:56:09 -0000
+Message-Id: <178307976983.996982.7427113663136737419@gitolite.kernel.org>
 
---===============4185179155201813960==
+--===============0213579080118625447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 6849cabfd30fb5727cfd31e8241e15801e17ebf9
-    new: bc4a9828897871ff3e5a1f8a1d346decbf4ee95e
-    log: |
-         bc4a9828897871ff3e5a1f8a1d346decbf4ee95e rust_binder: clear freeze listener on node removal
-         
+  - ref: refs/heads/for-7.3
+    old: fb5d1b1c5f8a920ee697545fa6dee16825085717
+    new: 8d01573c48904f68059c119b3f6429d36350f4cc
+    log: revlist-fb5d1b1c5f8a-8d01573c4890.txt
 
---===============4185179155201813960==
+--===============0213579080118625447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783079665 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1783079652-014d5e7ab03ed526f3fa944af46063911fc89939
+pusher C3F436CA30F5D8EB 1783079768 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1783079767-321b52c787bdf880f77f9b202bcdd440d327bdfd
 
-6849cabfd30fb5727cfd31e8241e15801e17ebf9 bc4a9828897871ff3e5a1f8a1d346decbf4ee95e refs/heads/char-misc-linus
+fb5d1b1c5f8a920ee697545fa6dee16825085717 8d01573c48904f68059c119b3f6429d36350f4cc refs/heads/for-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpHovEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5ksQAMEF9IXPuNyTRrMC94Ze
-1WZxFwwa1fe1pLaDalccO2bAbUlECu9QojX5Bm3oV3oR3g/lIwHOBCHFTtuJNdt0
-9dWclCoJU9sHrsmUXu/UmPjTD88fK2rKnf6rqrX4Xm+lkxvilIRFfRv27WuJd7qh
-HOOuSZgHkBE4GapLM5tLkM9E1ZAzxBQuAsJtu3CCaOP6hLRhAb5N+tmDRD24+bn/
-biwf7SaguDMvCOeb4rpTuV3h+QBz7YGp18VCvRAwW2RoCFIdFJNTYDBfHGfcTFMP
-ePO0fqmz9fJebs1bDUkdHq+ve0aetKEhl66Hz15MqitNJwbTA/Q4nIGES/sKDPXU
-um4kdERUwU1CWI3fbQ7NEUJjKmDVOSijSVzcU7Ab1/mBzZbDO9g8CCxifzo5NCsP
-aHFMjS8nN8HzeajQbwG0HGPsBy8B6FmfqJ0wgYC0jmK2z1ijLgqk+lCucKNKGzBQ
-mkxs5pCLiYxTCC8mrTxVj68CK7CV6jSmFoI64NE3v8e9ecTnlC2hMBUViT7pO0G5
-4uNumWhe1KJbpWCwzIOMoeB2k7LqlMq1jkXTLOrIQqrBVAF9QmLLuf82VSdqhJr1
-RdIsQDCWI5z+qqjdsaCDcQVd4rwKtQRvFZM2M4kZSuNR1SO+kRnCAiLa1QeoQV8C
-puAop9yHRZ9dbQby29BdYvOP
-=hfny
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpHo1gACgkQJNaLcl1U
+h9CVbgf8Ciy/Wu7SDzjgRD1CSrrG3F8iG69fXqapA8fBPeQ+Qnp+RFDZIbo0BJN6
+WsqKLnlZYN7rxCfE4VApgtoT0YCqt1A/864wO9OwdRUqxSVHS9iDbOvsFakNcJvc
+fXLfiujfsiSJYSiP7spTu16JeXY0KjFzuepKXQB/49g2/a7JGI0Xi/v2B2vXcspN
+Yyn3BFDjKkRK1nFvb6fDgQZXfhsSQZ1Zo4P1lcIH2zRAxHTOaWtU/gp0l0DVItXm
+VyAPuhovke/CiSaZ+oYCslYwNcVQum3UvFdqHJPTwVCJrfVIJ1ungFmg9tC+Gzbp
+F9CBRaHI8by6GwHFnKtJtwmn+RLg6Q==
+=/mm3
 -----END PGP SIGNATURE-----
 
---===============4185179155201813960==--
+--===============0213579080118625447==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fb5d1b1c5f8a-8d01573c4890.txt
+
+bb7c62fdbfecfe15c98c83567f6e1de7d02e52fc ASoC: samsung: spdif: Preserve the original clock acquisition error
+0eb0e3c623ac1da8b85d518043fef7660af7805d ASoC: loongson: Fix error handling in ACPI property parsing
+914e95aaec0df7dc2f3e3e5a774b09f92f37cd91 ASoC: dt-bindings: loongson,ls2k1000-i2s: Document Loongson-2K0300 compatible
+41ab1f8a0edaa98d59162fbe801c1f162fc6cf9a ASoC: loongson: Add Loongson-2K0300 I2S controller support
+95133a9ac817242dded1d15643a2aa5faaa289d8 ASoC: dt-bindings: loongson,ls-audio-card: Use common sound card
+5460b4ddc76a04eb4ad05333f904bad67f1730e2 ASoC: dt-bindings: loongson,ls-audio-card: Add ctcisz forever pi compatible
+da659805e0b055f8f12de022e28a9983d2f3923f ASoC: loongson: Add Loongson-2K0300 CTCISZ Forever Pi sound card support
+3ddae79479f6c96c4083951c7c4511d7236e7982 ASoC: dt-bindings: loongson,ls-audio-card: Add ATK-DL2K0300B compatible
+dde4064a4913319cf9b19e745af3417a35f0f738 ASoC: loongson: Add headphone jack detection and DAPM routing
+5f988d622318e5f485c60a8be661a81ed9f74c53 ASoC: es8328: Add DAPM routes from MIC inputs to Mic Bias
+8d01573c48904f68059c119b3f6429d36350f4cc ASoC: Add Loongson-2K0300 I2S controller and sound card support
+
+--===============0213579080118625447==--
