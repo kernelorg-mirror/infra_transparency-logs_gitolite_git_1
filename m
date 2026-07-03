@@ -1,51 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1355833013677281287=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 03 Jul 2026 18:56:31 -0000
-Message-Id: <178310499155.1296761.4158258931935752887@gitolite.kernel.org>
-
---===============1355833013677281287==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 03 Jul 2026 18:57:15 -0000
+Message-Id: <178310503592.1297323.11803070380677371362@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/regmap-7.3
-    old: dffd32eb2b0e714a8ae23f98518ad7152cb06369
-    new: 35845da94b9031b16400046bd81f96db386515e0
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 37e289027ceef214e18b214daca0557822e53e4f
+    new: 464b38030a1793505f911bc85ced944ec48c8834
     log: |
-         9bb4c0b37d54fc7d61f2a21cfa635fa2e3a29ac5 regmap-irq: Provide IRQ resource request and release callbacks
-         35845da94b9031b16400046bd81f96db386515e0 regmap-irq: Provide IRQ resource request and release callbacks
+         a0ef92a47cf9d9cb4e6742182343d221955deb0c sched_ext: Split curr|donor references properly
+         3fc02908f3937156eccd91d3975097f7c3ff3276 sched_ext: Avoid migrating blocked tasks with proxy execution
+         d6376598314be5697ed904f5c7b7cdb147037d79 sched_ext: Fix TOCTOU race in consume_remote_task()
+         c40cc678fe025136d1f5e5465c6a7ba760086539 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+         110b3a50d5e405bf568b4ba559d511e68fc23117 sched_ext: Save/restore kf_tasks[] when task ops nest
+         98342695068dccd9b0cf33a7aa856476c3d9f3fe sched_ext: Skip ops.runnable() when nested in SCX_CALL_OP_TASK
+         ea8a8f49aedd2fe2cfa85fd71ee0af71cbd9a9b3 sched_ext: Delegate proxy donor admission to BPF schedulers
+         cc5fe96927d25a0521777d5472cea9283b182a1c sched_ext: Add selftest for blocked donor admission
+         7a812caff4430519e44907c389a57091ef38fd24 sched_ext: scx_qmap: Add proxy execution support
+         464b38030a1793505f911bc85ced944ec48c8834 sched: Allow enabling proxy exec with sched_ext
          
-
---===============1355833013677281287==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1783104990 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1783104989-f8358aded3130c8cc0ab2af724ffe2c371736d79
-
-dffd32eb2b0e714a8ae23f98518ad7152cb06369 35845da94b9031b16400046bd81f96db386515e0 refs/heads/regmap-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpIBd4ACgkQJNaLcl1U
-h9CK8wf8Dno68961emaYIaT7wWHA1YovuCP2fmuwqzTZGLzpI9mwv0jaJfDAsWfj
-8YuWcy6YTBdVeuToSWM1XKxWoLTcUJywC/ngOZdClaZdtd+UaOUUn393mGppPi7t
-WSYrHrg+VMr+gMe+NCByr6kyqFi09h1y+rS6zGQKjULp+w2EWv1DrFd610gzmylM
-1vXSmkPqcV5PSlgU1GDtyJoFsttzWD+byucpiZZHjlRpfFEgd9JNdFbAraRNbRQs
-tCYStfgZbuLzHx/FPQYvMM2Tca7bpYJeoU4rMpMac3Nua6bluB1tOWT32iqZx/5O
-qXDXe7F3wrXLgL9FQpMEAslAZO2mAg==
-=/fJE
------END PGP SIGNATURE-----
-
---===============1355833013677281287==--
