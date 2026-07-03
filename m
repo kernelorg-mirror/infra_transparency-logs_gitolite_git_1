@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7448833537071175506=="
+Content-Type: multipart/mixed; boundary="===============8604339553815265114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 03 Jul 2026 16:53:29 -0000
-Message-Id: <178309760971.1209890.8945663277598049010@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 16:53:32 -0000
+Message-Id: <178309761220.1209998.12087292540765756968@gitolite.kernel.org>
 
---===============7448833537071175506==
+--===============8604339553815265114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f4b4fac1867633ac17c35842f03933f6a7a4425f
-    new: e031e55776cf9193b4720a253e92539ca536d224
-    log: revlist-f4b4fac18676-e031e55776cf.txt
+  - ref: refs/heads/mm-unstable
+    old: b10fe7c12b77a87f98564bf57efeb1129eeac74a
+    new: cfb8731f5396cafde2d60a2e7d9d27cdb4505f45
+    log: revlist-b10fe7c12b77-cfb8731f5396.txt
 
---===============7448833537071175506==
+--===============8604339553815265114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4b4fac18676-e031e55776cf.txt
+Content-Disposition: attachment; filename=revlist-b10fe7c12b77-cfb8731f5396.txt
 
 26c1c73a0a8af4db70198e8290e760c5566fc197 mm/memory-failure: trace: change memory_failure_event to ras subsystem
 ddcd70a2e65249c6116bd575baac91fdc6e747fc arch,x86: skip setting align_offset for hugetlb mappings
@@ -259,24 +259,5 @@ d5dc34f47564f764d24739798683a83947438fcb mm/damon/core: remove nr_accesses_bp se
 0ebb4083a690919d1f20cb8a686321defc0de0a6 mm/damon/core: remove damon_moving_sum() and its unit test
 5203828b75bf5623d26c446319095299e58b48dd mm/damon/core: remove damon_region->nr_accesses_bp
 cfb8731f5396cafde2d60a2e7d9d27cdb4505f45 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-5238b706cc5f9b1bcc24de5865c8f538f63cd0b0 mm: fix mapping_seek_hole_data() overflow on last page
-e92d2ebd003b6c250e288a96e9591b66696a970e mm/zswap: use ratelimited stats flush in zswap_shrinker_count()
-998fa6003d94afa91e79869eb790ef341627a2f3 mm: hugetlb: consolidate interpretation of gbl_chg within alloc_hugetlb_folio()
-fc15db25ceb0913052644f19a9451bdfcb27540f mm: hugetlb: move mpol interpretation out of alloc_buddy_hugetlb_folio_with_mpol()
-21b0a837c4f72dd31270c709b86e43d953823e3b mm: hugetlb: move mpol interpretation out of dequeue_hugetlb_folio_vma()
-bb24ae793e1f74c5c8019d1e5ccbf96723d4d89b mm: hugetlb: use error variable in alloc_hugetlb_folio
-f3098fad2a938260896528483ca19482b8db6da0 mm: hugetlb: move mem_cgroup_charge_hugetlb() earlier in allocation
-78cfd3dda93d3bbf2136765e2160b45f45c741f3 mm: hugetlb: refactor out hugetlb_alloc_folio()
-58b5601b28c144be1905eef7964bfa8457f58292 radix-tree: fix kmemleak false positives on tree head reassignment
-81d0832ad63bb22d8c814ec1c77a72e219674b4f memcg: bail out memory.high when memcg is dying
-f6e6615c9e0759657ef8fb6681b2c76b1b14d933 memcg: bail out memory.max when memcg is dying
-1d0f0f1159cd8eb7319bfdf78717aadd5279d763 memcg: bail out proactive reclaim when memcg is dying
-0833b87d123835aad3c37e0f63e66bcbcd9f217e memcg-v1: bail out reclaim when memcg is dying
-e2fc856b59989deeab89463e23264ffaee5943f3 mm/vmalloc: add alignment info in warning print as possible failure reason
-948f3e1a07d8dd87280a9469bcb23f5d7af9abc9 ocfs2: bound namelen in dlm_migrate_request_handler
-1f30da12777184f68bfd492b23b1db71eb37340f ocfs2: validate lengths in dlm_mig_lockres_handler
-e6cc4d19078dfe07dbf0f2384e5f0d921aaceb73 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-c4db4897da655c186dfaad88c5d860b2548201cc mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-e031e55776cf9193b4720a253e92539ca536d224 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============7448833537071175506==--
+--===============8604339553815265114==--
