@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 03 Jul 2026 19:19:51 -0000
-Message-Id: <178310639195.1312158.15851822012092240923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Fri, 03 Jul 2026 19:25:56 -0000
+Message-Id: <178310675641.1318233.1169568977126087575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/for-linus
-    old: bbe4a1f9099056cf5adbb95aeb4d1601d80f7b8c
-    new: d504c1edc4a953e3594e2f0dc0b5c28403a2e48c
+  - ref: refs/heads/master
+    old: 9ca6fa1f71edc7a219edeb41d4c7f91b7d665c5b
+    new: a6c4e79a8b7505630570315ca3a40a448fca3e23
     log: |
-         d504c1edc4a953e3594e2f0dc0b5c28403a2e48c Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
-         
-  - ref: refs/heads/for-next
-    old: f23ae9e1ee8639f752be3307ed4d97fb1d7915cd
-    new: 69d7343e4df1e9954ecb275e95d156182f2daf3b
-    log: |
-         4c40e28e833d0142352e8294d50dde637c163a76 regulator: Add regulator driver for Unisoc SC2730 PMIC
-         f29a8bf6fde130313ec77c89d7612100ff5bafb2 regulator: dt-bindings: ROHM PMIC state-machine voltages
-         d504c1edc4a953e3594e2f0dc0b5c28403a2e48c Merge remote-tracking branch 'regulator/for-7.1' into regulator-linus
-         3cb8fcbb52ddfc82573eee72c15bc5a49e97731d Merge branch 'regulator-linus' into regulator-next
-         69d7343e4df1e9954ecb275e95d156182f2daf3b Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
+         55cd789cf444d879a89f76c0ca500f407f36f8cd hkml_patch: quote patch subject
+         00f8b866c498127be0a57977552dee880fef0d89 hkml_patch: return list of wrong patches from do_check_recipients
+         e7a808fe0c5521424fb94af5d8a1482144110847 hkml_patch: return list of wrong patches from run_checker()
+         a6c4e79a8b7505630570315ca3a40a448fca3e23 hkml_patch: provide summary at the last stage of check_patches()
          
