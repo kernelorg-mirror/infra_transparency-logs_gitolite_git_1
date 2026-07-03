@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 03 Jul 2026 08:50:01 -0000
-Message-Id: <178306860153.857499.9077159926545511791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 03 Jul 2026 08:56:30 -0000
+Message-Id: <178306899076.863560.1286899282173926561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/tags/usb-serial-7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 60ec90eb4e281f896886364d6b696ba3529c7f95
+  - ref: refs/heads/b4/acpi_scmi_pcc
+    old: c1daed90f65670f1d0231c3ab8a569b682181b2b
+    new: 38deec654272c7831535fa9bb379851392fe3f85
+    log: |
+         0eaa89b7563b124d55068167f14a05e6d16f6cbd firmware: arm_scmi: Fall back to ACPI HID when "compatible" is absent
+         cbc3e4c099506e9fbdad652ecb032538e4107f79 firmware: arm_scmi: Pass protocol ID to chan_available() transport callback
+         5e07936a20fb1bbd9c6aaf65091d49442a841d7c firmware: arm_scmi: Refactor protocol device creation logic
+         6c7270d0a8ce4db418e01d046b1ef9da68d16201 firmware: arm_scmi: transport: Add ACPI PCC transport
+         38deec654272c7831535fa9bb379851392fe3f85 firmware: arm_scmi: Initialise all protocol devices and transport channels
+         
