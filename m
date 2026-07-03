@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 03 Jul 2026 04:06:58 -0000
-Message-Id: <178305161885.659807.14769174089432440638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Fri, 03 Jul 2026 04:25:14 -0000
+Message-Id: <178305271423.672677.1708129826521896447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 2618cbb00dcacf93961557891e4e91d4b1e7f687
-    new: a2d68e20158bfc4c48a82faf227e08d2c8d21920
+  - ref: refs/heads/for-7.2-fixes
+    old: 13cd10cb0637e0bb6a2c2a9e44d69cbdbfa1ef22
+    new: 2ea57ea7ffd3e61bdbbc0d616dd674b47b25c54a
     log: |
-         a2d68e20158bfc4c48a82faf227e08d2c8d21920 Fixes for all trees
+         2ea57ea7ffd3e61bdbbc0d616dd674b47b25c54a ata: libata-scsi: limit simulated SCSI command copy to response length
          
