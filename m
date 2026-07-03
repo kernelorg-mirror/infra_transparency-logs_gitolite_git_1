@@ -1,27 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 03 Jul 2026 11:38:29 -0000
-Message-Id: <178307870927.981610.8939376163694363221@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2920918591195224054=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 03 Jul 2026 11:43:36 -0000
+Message-Id: <178307901603.985207.4647213577482552768@gitolite.kernel.org>
+
+--===============2920918591195224054==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/locking/core
-    old: 6d57fcfedb3762dc2655a3c8b2c954fb2e899c7f
-    new: 79d3fca9230cbd2108fa34ec54f2b1a319057252
+  - ref: refs/heads/for-7.3
+    old: 7fd28093b3effc4f92566466df364622830ec608
+    new: 7c8cc25d8d86f9eb3979255935cfdc7d062ad746
     log: |
-         f7a80078ebeb595af1676f41c86051e7bde38c21 x86/runtime-const: Introduce runtime_const_mask_32()
-         ed099fe4d007e015856368c4040d15322cb8b50f arm64/runtime-const: Use aarch64_insn_patch_text_nosync() for patching
-         c29573b197dbe372c4d13ed07b08766badac7f59 arm64/runtime-const: Introduce runtime_const_mask_32()
-         af9ae17c5bcc45648d9acf85b28369ed66e31e0f riscv/runtime-const: Replace open-coded placeholder with RUNTIME_MAGIC
-         841fdeeb5d988e864be9f013dddd28f1d13fa4f9 riscv/runtime-const: Introduce runtime_const_mask_32()
-         ddc9ae3882f922e5f11a5448cef92d79b28e6cac s390/runtime-const: Introduce runtime_const_mask_32()
-         deed3e55ae092900629fff30bfce229bc576eb0b asm-generic/runtime-const: Add dummy runtime_const_mask_32()
-         58141fa298f3f1df4ee145835eb3491cfe68f652 futex: Use runtime constants for __futex_hash() hot path
-         79d3fca9230cbd2108fa34ec54f2b1a319057252 futex: Optimise the size check get_futex_key()
+         f9324d670ae0b88cbfb0aa48fcaefa5baeb8da4c regulator: as3722_get_regulator_dt_data: fix premature of_node_put leaving dangling of_node pointer
+         7c8cc25d8d86f9eb3979255935cfdc7d062ad746 regulator: max8998_pmic_dt_parse_pdata: of_node_put on reg_np after ownership transferred to rdata
          
+
+--===============2920918591195224054==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1783079014 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1783079014-28e8f5f5e04e012f8d344b511b1b22cfbe893f8b
+
+7fd28093b3effc4f92566466df364622830ec608 7c8cc25d8d86f9eb3979255935cfdc7d062ad746 refs/heads/for-7.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpHoGYACgkQJNaLcl1U
+h9CgBAf/ZhoCB33hlKAy2vo69g3huMvK0TLG6YcJH35iywBygfWcfglLLki8FSFR
+0qHLDf2jh1By6TnbJ1JBC6ie+BURREZxI/gZsgBy7HDo+rxZGxyirlrzVY3Dramr
+CubFnT7Md0FqwbGYuQ3wm59Iw5ZtwPxlKXr0DDISo2f4LC6t4PHSkvRc0qAhRNrL
+3U5zBvRIdG4kmHjqUa1ilkmOxe8t6CureX14g7KtPEXP2DsjxLRtEx3S1lhNnxj9
+4w2G4W/mqbkcDAGzDHtDlP4hwbA6qEINRV2gJt7m8YrNfs0RyqgpdXBNfeCVTtXS
+P1cd8RkURMnYHN1cRv+/5/cayCjFQA==
+=AvUz
+-----END PGP SIGNATURE-----
+
+--===============2920918591195224054==--
