@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 03 Jul 2026 21:22:50 -0000
-Message-Id: <178311377060.1395595.4636633392235279563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 03 Jul 2026 21:29:24 -0000
+Message-Id: <178311416491.1399484.3911874205101338249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 0fa8e47dea17dd7899201f73cdf3d8efcbf78448
-    new: 5dcef303b29f004a447d9c69e62963328da9c608
+  - ref: refs/heads/pwm/for-next
+    old: 041d2acb68fb7220b8c7f8097da4f0915447f238
+    new: 1a4920940ebfd8d907858abd8f8dd09b13752946
     log: |
-         5dcef303b29f004a447d9c69e62963328da9c608 rust: io: fix example in `register!` macro
+         1a4920940ebfd8d907858abd8f8dd09b13752946 pwm: Use named initializers for platform_device_id arrays
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 041d2acb68fb7220b8c7f8097da4f0915447f238
+    new: 1a4920940ebfd8d907858abd8f8dd09b13752946
+    log: |
+         1a4920940ebfd8d907858abd8f8dd09b13752946 pwm: Use named initializers for platform_device_id arrays
          
