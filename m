@@ -1,24 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Fri, 03 Jul 2026 18:49:22 -0000
-Message-Id: <178310456244.1290421.12933650429796263239@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2461711222523755799=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 03 Jul 2026 18:56:28 -0000
+Message-Id: <178310498837.1296651.2507529442734408799@gitolite.kernel.org>
+
+--===============2461711222523755799==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3f614b57cb08f86da2763ff1de4645ffb598514f
-    new: 9ca6fa1f71edc7a219edeb41d4c7f91b7d665c5b
+  - ref: refs/heads/for-7.3
+    old: dffd32eb2b0e714a8ae23f98518ad7152cb06369
+    new: 35845da94b9031b16400046bd81f96db386515e0
     log: |
-         be70f94636059770ed2a07ac14a4fa59bc014817 hkml_patch: implement a function for recipients check
-         55202e6cb99d1b263e29c666bc54c3ed8622aae3 hkml_{patch,view_mails}: check patch recipients by default
-         38b9714693ab5c6b7469d5633d66266e18ee90c6 hkml_patch: do not skip check for recipient check failures
-         12d357a3c3f5aa09fbd541e0ba59eda74ca2cb9d hkml_patch: split out checker run
-         4f83cf29d8ea7dc1f1e28cac5adc99794981e50b release_note: update for recipients check
-         9ca6fa1f71edc7a219edeb41d4c7f91b7d665c5b USAGE: document recipients check feature
+         9bb4c0b37d54fc7d61f2a21cfa635fa2e3a29ac5 regmap-irq: Provide IRQ resource request and release callbacks
+         35845da94b9031b16400046bd81f96db386515e0 regmap-irq: Provide IRQ resource request and release callbacks
          
+
+--===============2461711222523755799==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1783104986 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1783104986-145781b0e11b0699e40196193d6b2f4336e413a5
+
+dffd32eb2b0e714a8ae23f98518ad7152cb06369 35845da94b9031b16400046bd81f96db386515e0 refs/heads/for-7.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpIBdoACgkQJNaLcl1U
+h9B7nwf/UHM8Z9mxkqZVYspoAOyy6GH7rEA6aHdAl0plqIJeyqVPOcY10fuvPFYh
+2TZ7uGP+ZX8WkCGQCXFSmoG+hCBrFRlqpXRYAGwh6o/WuJaEbpIc0EzbOI4TgLQo
+oWx0MrAwPkvoqoyZvJ5BDNj24UX1ojEQRWd9RnsA9TBnacBYAK5AZCS8S+eIuCCO
+GzIduq21VCa8otUvxQxwmCY3eTyjFtJwnPTf4k1k/nEGYfXXGPFIrAXf4b7exG+P
+JlORcWMEs+mu2LHzh96wP6ZgTAuA1pZ9Z7H/mXgNLEi5BdAG58DPFg8aklNX8+YE
+ror176D5VjyBbSoAf3j4yrouOIhZXA==
+=CJQt
+-----END PGP SIGNATURE-----
+
+--===============2461711222523755799==--
