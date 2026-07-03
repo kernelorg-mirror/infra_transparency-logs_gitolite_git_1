@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0213579080118625447=="
+Content-Type: multipart/mixed; boundary="===============3862379725849337186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 03 Jul 2026 11:56:09 -0000
-Message-Id: <178307976983.996982.7427113663136737419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 03 Jul 2026 11:56:13 -0000
+Message-Id: <178307977322.997124.3166174224550694713@gitolite.kernel.org>
 
---===============0213579080118625447==
+--===============3862379725849337186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/asoc-7.3
     old: fb5d1b1c5f8a920ee697545fa6dee16825085717
     new: 8d01573c48904f68059c119b3f6429d36350f4cc
     log: revlist-fb5d1b1c5f8a-8d01573c4890.txt
 
---===============0213579080118625447==
+--===============3862379725849337186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1783079768 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1783079767-321b52c787bdf880f77f9b202bcdd440d327bdfd
+pusher C3F436CA30F5D8EB 1783079771 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1783079771-6ef7a31a522fd923ed54b6fc206bdfa392a4aa43
 
-fb5d1b1c5f8a920ee697545fa6dee16825085717 8d01573c48904f68059c119b3f6429d36350f4cc refs/heads/for-7.3
+fb5d1b1c5f8a920ee697545fa6dee16825085717 8d01573c48904f68059c119b3f6429d36350f4cc refs/heads/asoc-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpHo1gACgkQJNaLcl1U
-h9CVbgf8Ciy/Wu7SDzjgRD1CSrrG3F8iG69fXqapA8fBPeQ+Qnp+RFDZIbo0BJN6
-WsqKLnlZYN7rxCfE4VApgtoT0YCqt1A/864wO9OwdRUqxSVHS9iDbOvsFakNcJvc
-fXLfiujfsiSJYSiP7spTu16JeXY0KjFzuepKXQB/49g2/a7JGI0Xi/v2B2vXcspN
-Yyn3BFDjKkRK1nFvb6fDgQZXfhsSQZ1Zo4P1lcIH2zRAxHTOaWtU/gp0l0DVItXm
-VyAPuhovke/CiSaZ+oYCslYwNcVQum3UvFdqHJPTwVCJrfVIJ1ungFmg9tC+Gzbp
-F9CBRaHI8by6GwHFnKtJtwmn+RLg6Q==
-=/mm3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpHo1sACgkQJNaLcl1U
+h9CAegf/Uf8d8WmRzE7pLYfPaG6u1hGutNFa+VIoTTTmm41fS5tJKTk88fnD4xGL
+dag8KbFaJ3iS/4/wydp6QV6Ci8kdRM6CXo1FoN/SKShF9F2mcmjTZapVx3UmYsTx
+LRAHCUJIDWBv/yddsKDRv5FYgE52vCopBhFpSJFOTkh63whcYlR/UAKJO5AO6b8N
+icKXOoUQcUp7IB4s+bKoQfSbibAr3uH4wQqrThBNwXSH+EJH03UjTJyb/j04IRlJ
+Te3EngHsh5jcsd2/lOBLocSSj4FiEIVOdljFV3KiG3JjcEd3vEGCSBjBitFZAEsk
+fHNay7e2fVLAxSNFtqpteElRvOX5kA==
+=hsGl
 -----END PGP SIGNATURE-----
 
---===============0213579080118625447==
+--===============3862379725849337186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ dde4064a4913319cf9b19e745af3417a35f0f738 ASoC: loongson: Add headphone jack dete
 5f988d622318e5f485c60a8be661a81ed9f74c53 ASoC: es8328: Add DAPM routes from MIC inputs to Mic Bias
 8d01573c48904f68059c119b3f6429d36350f4cc ASoC: Add Loongson-2K0300 I2S controller and sound card support
 
---===============0213579080118625447==--
+--===============3862379725849337186==--
