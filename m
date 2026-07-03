@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Fri, 03 Jul 2026 16:28:54 -0000
-Message-Id: <178309613424.1189886.6969109463852189037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 03 Jul 2026 16:34:29 -0000
+Message-Id: <178309646974.1193623.17133011038595170033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: df6d55faa031ec5838c329d810afe828ee75b773
-    new: 3bb5168342e217a5b55aaa209373fed44a0b3b18
+  - ref: refs/heads/main
+    old: 6fb33632323a396c9dc2bb9bea483e013e547d57
+    new: a87a558f85d33ef1953c28aec97d3101d8f84ee2
     log: |
-         83699c0b8a8a10c07b67376985fbd38b830c6221 damo_report_heatmap: fix age backfill double-counting in continuous recordings
-         3bb5168342e217a5b55aaa209373fed44a0b3b18 release_note: update for the bug fix
+         ed37710d6c672561c3309dab4b86d0f18c8534ff macvlan: annotate data-races around vlan->mode and vlan->flags
+         6d728e7e286b8537422ab5b0ea1f9af9ce7b5794 macvlan: no longer rely on RTNL in macvlan_fill_info()
+         a87a558f85d33ef1953c28aec97d3101d8f84ee2 Merge branch 'macvlan-rtnl-less-macvlan_fill_info'
          
