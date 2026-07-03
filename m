@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 03 Jul 2026 08:30:42 -0000
-Message-Id: <178306744256.844794.16313447980413107140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net
+Date: Fri, 03 Jul 2026 08:35:07 -0000
+Message-Id: <178306770779.848011.5299844920088309205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/davem/net
+user: davem
 changes:
-  - ref: refs/heads/pwrseq/for-next
-    old: 2f3096466fce5aa6de51fa24fb8cbfe71e135804
-    new: 1656f4f2eb45d9f18515ac00657a2494719fa065
+  - ref: refs/heads/main
+    old: 62e7df6d042aeebd5efb581074e28865c04477be
+    new: d335dcc6f521571d57117b8deeebc940836e5450
     log: |
-         1656f4f2eb45d9f18515ac00657a2494719fa065 power: sequencing: pcie-m2: Add QCA2066 (QCNFA765) BT serdev ID
+         d335dcc6f521571d57117b8deeebc940836e5450 gue: validate REMCSUM private option length
          
