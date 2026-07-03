@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7124466258604845937=="
+Content-Type: multipart/mixed; boundary="===============4773735901707855361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 03 Jul 2026 04:56:51 -0000
-Message-Id: <178305461112.694519.15989880701476622126@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 04:57:12 -0000
+Message-Id: <178305463202.694864.13278057219752179244@gitolite.kernel.org>
 
---===============7124466258604845937==
+--===============4773735901707855361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1bd0dfdc9e706222e0ba906c6458f440646a246e
-    new: 0541e6a081018dac806ccf8085067105a74d24ca
-    log: revlist-1bd0dfdc9e70-0541e6a08101.txt
+    old: 0541e6a081018dac806ccf8085067105a74d24ca
+    new: bc5f17accc9debcafba4b41e99ef8515974e2e35
+    log: revlist-0541e6a08101-bc5f17accc9d.txt
+  - ref: refs/heads/tip/urgent
+    old: 665dbcaf99f8d737048314ecc1fcce9dd9dfd03c
+    new: 023b6c35fb7dc7efee2a120ed2152e103730c386
+    log: revlist-665dbcaf99f8-023b6c35fb7d.txt
 
---===============7124466258604845937==
+--===============4773735901707855361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bd0dfdc9e70-0541e6a08101.txt
+Content-Disposition: attachment; filename=revlist-0541e6a08101-bc5f17accc9d.txt
+
+0f6af1e8e2b342fc79469bef37bb7390c2647ee4 Merge branch into tip/master: 'irq/urgent'
+b2e9dc0318602da0d7469b94dfbd1c963f05d567 Merge branch into tip/master: 'locking/urgent'
+023b6c35fb7dc7efee2a120ed2152e103730c386 Merge branch into tip/master: 'x86/urgent'
+b46abce36f97ec2f1ae66079c42c7aa6dd6a4b77 Merge branch into tip/master: 'irq/core'
+f30b9837f3c534e5e8d9daeb12f0b3aa35676367 Merge branch into tip/master: 'irq/drivers'
+160db807a1047e07f66ba69ea1d1d8b146dc2381 Merge branch into tip/master: 'locking/futex'
+5f339c0e18f7a0d67100ef40b5973052a1c2419e Merge branch into tip/master: 'perf/core'
+1ebfdae55cc58514be467dd88dba824def7e0c02 Merge branch into tip/master: 'sched/core'
+da6c0fc32836bb20b98ea376331f17d011d74db5 Merge branch into tip/master: 'smp/core'
+f6b23a6600ac48b87e798dfe32d732d513237e60 Merge branch into tip/master: 'timers/core'
+ff7d256f1adc2c1082bb7c36734c3156bff47dd8 Merge branch into tip/master: 'timers/vdso'
+5cb2464cb451b6a09927e40701963de6b2d52652 Merge branch into tip/master: 'x86/cleanups'
+bc5f17accc9debcafba4b41e99ef8515974e2e35 Merge branch into tip/master: 'x86/msr'
+
+--===============4773735901707855361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-665dbcaf99f8-023b6c35fb7d.txt
 
 22a0cc10dacbafe1c28b6f513cc449cdd86d1cb1 selftests/bpf: don't modify the skb in the strparser parser prog
 31e2f36d3821811c03bddf5fd99ed8fc884fd222 bpf, sockmap: reject a packet-modifying SK_SKB stream parser
@@ -134,11 +158,10 @@ db78c0db411b111b438f00a1ba418e995b5bd246 Merge tag 'mfd-fixes-7.2' of git://git.
 a9d4dd742466cab468a950441447c614a3920aad Merge tag 'hwmon-for-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 87320be9f0d24fce67631b7eef919f0b79c3e45c Merge tag 'net-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 39def6d250d370298f86c116f4ac60093cefadaa futex/requeue: Revert "Prevent NULL pointer dereference in remove_waiter() on self-deadlock""
-d7b2769f8dba3e5f40d2a8a11988812d51160b17 selftests/rseq: Replace glibc-specific __GNUC_PREREQ with portable check
 826eec5b5efd785dc87638a54d5ecc9f88e5afce Merge tag 'vfio-v7.2-rc2' of https://github.com/awilliam/linux-vfio
 51512e22efe813d8223de27f6fd02a8a48ea2323 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-2f3723439d3603ea70d362ab8551d172ac5d5f4e Merge branch into tip/master: 'locking/urgent'
-f91af7509d4085b1956ec93635a493d1d42b5297 Merge branch into tip/master: 'locking/futex'
-0541e6a081018dac806ccf8085067105a74d24ca Merge branch 'linus'
+0f6af1e8e2b342fc79469bef37bb7390c2647ee4 Merge branch into tip/master: 'irq/urgent'
+b2e9dc0318602da0d7469b94dfbd1c963f05d567 Merge branch into tip/master: 'locking/urgent'
+023b6c35fb7dc7efee2a120ed2152e103730c386 Merge branch into tip/master: 'x86/urgent'
 
---===============7124466258604845937==--
+--===============4773735901707855361==--
