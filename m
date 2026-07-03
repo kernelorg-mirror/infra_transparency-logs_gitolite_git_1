@@ -1,36 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4406292129196157558=="
+Content-Type: multipart/mixed; boundary="===============7015092432516508614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 03 Jul 2026 12:28:11 -0000
-Message-Id: <178308169193.1018869.15430180397634831249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 03 Jul 2026 12:34:43 -0000
+Message-Id: <178308208329.1022772.1422533390190403737@gitolite.kernel.org>
 
---===============4406292129196157558==
+--===============7015092432516508614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/vfs.base
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-254f49634ee1-dc59e4fea9d8.txt
+  - ref: refs/heads/sched/preempt-dynamic-simplification
+    old: 782799b9709f4dcd68172236a9980e58270a0ed0
+    new: 72724ae1fe720f604c245f7f6bc6e09eb26f57c9
+    log: revlist-782799b9709f-72724ae1fe72.txt
 
---===============4406292129196157558==
+--===============7015092432516508614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-782799b9709f-72724ae1fe72.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
 75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
 9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
 7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
@@ -1050,5 +1045,10 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+ebad9c21fb7c3d093c69f9bed3a0a7ea236d1d1a sched: dynamic: Make PREEMPT_DYNAMIC depend on ARCH_HAS_PREEMPT_LAZY
+9a3427b99b4ab696d84a75292db92d1e08e66d9a sched: dynamic: Simplify {cond,might}_resched()
+d56594d9e49f67f50453734586c48cce3538a28f sched: dynamic: Simplify preempt_schedule{,_notrace}()
+32ae8d139ec1f47bfd30c98e10a51090b1273786 sched: dynamic: Simplify irqentry_exit_cond_resched()
+72724ae1fe720f604c245f7f6bc6e09eb26f57c9 sched: dynamic: Remove HAVE_PREEMPT_DYNAMIC_{CALL,KEY}
 
---===============4406292129196157558==--
+--===============7015092432516508614==--
