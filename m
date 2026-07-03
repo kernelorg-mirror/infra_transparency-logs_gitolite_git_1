@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 03 Jul 2026 10:42:18 -0000
-Message-Id: <178307533853.942058.9671309580801981476@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 10:42:55 -0000
+Message-Id: <178307537548.942541.6462072363272623987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/tags/vfs-7.2-rc2.fixes
-    old: 45362440c939d287129f6a5f597d754e2ed499b6
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: f46603a51a9b33f9f8d8f0f43f7a8867445db1d9
