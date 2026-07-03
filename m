@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2461711222523755799=="
+Content-Type: multipart/mixed; boundary="===============1355833013677281287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 03 Jul 2026 18:56:28 -0000
-Message-Id: <178310498837.1296651.2507529442734408799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 03 Jul 2026 18:56:31 -0000
+Message-Id: <178310499155.1296761.4158258931935752887@gitolite.kernel.org>
 
---===============2461711222523755799==
+--===============1355833013677281287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/regmap-7.3
     old: dffd32eb2b0e714a8ae23f98518ad7152cb06369
     new: 35845da94b9031b16400046bd81f96db386515e0
     log: |
@@ -24,28 +24,28 @@ changes:
          35845da94b9031b16400046bd81f96db386515e0 regmap-irq: Provide IRQ resource request and release callbacks
          
 
---===============2461711222523755799==
+--===============1355833013677281287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1783104986 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1783104986-145781b0e11b0699e40196193d6b2f4336e413a5
+pusher C3F436CA30F5D8EB 1783104990 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1783104989-f8358aded3130c8cc0ab2af724ffe2c371736d79
 
-dffd32eb2b0e714a8ae23f98518ad7152cb06369 35845da94b9031b16400046bd81f96db386515e0 refs/heads/for-7.3
+dffd32eb2b0e714a8ae23f98518ad7152cb06369 35845da94b9031b16400046bd81f96db386515e0 refs/heads/regmap-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpIBdoACgkQJNaLcl1U
-h9B7nwf/UHM8Z9mxkqZVYspoAOyy6GH7rEA6aHdAl0plqIJeyqVPOcY10fuvPFYh
-2TZ7uGP+ZX8WkCGQCXFSmoG+hCBrFRlqpXRYAGwh6o/WuJaEbpIc0EzbOI4TgLQo
-oWx0MrAwPkvoqoyZvJ5BDNj24UX1ojEQRWd9RnsA9TBnacBYAK5AZCS8S+eIuCCO
-GzIduq21VCa8otUvxQxwmCY3eTyjFtJwnPTf4k1k/nEGYfXXGPFIrAXf4b7exG+P
-JlORcWMEs+mu2LHzh96wP6ZgTAuA1pZ9Z7H/mXgNLEi5BdAG58DPFg8aklNX8+YE
-ror176D5VjyBbSoAf3j4yrouOIhZXA==
-=CJQt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpIBd4ACgkQJNaLcl1U
+h9CK8wf8Dno68961emaYIaT7wWHA1YovuCP2fmuwqzTZGLzpI9mwv0jaJfDAsWfj
+8YuWcy6YTBdVeuToSWM1XKxWoLTcUJywC/ngOZdClaZdtd+UaOUUn393mGppPi7t
+WSYrHrg+VMr+gMe+NCByr6kyqFi09h1y+rS6zGQKjULp+w2EWv1DrFd610gzmylM
+1vXSmkPqcV5PSlgU1GDtyJoFsttzWD+byucpiZZHjlRpfFEgd9JNdFbAraRNbRQs
+tCYStfgZbuLzHx/FPQYvMM2Tca7bpYJeoU4rMpMac3Nua6bluB1tOWT32iqZx/5O
+qXDXe7F3wrXLgL9FQpMEAslAZO2mAg==
+=/fJE
 -----END PGP SIGNATURE-----
 
---===============2461711222523755799==--
+--===============1355833013677281287==--
