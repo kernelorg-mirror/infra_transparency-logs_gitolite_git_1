@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Fri, 03 Jul 2026 15:17:53 -0000
-Message-Id: <178309187362.1138872.7066093969645111402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 03 Jul 2026 15:26:20 -0000
+Message-Id: <178309238067.1146350.10347724391331909377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
 changes:
-  - ref: refs/heads/uffd/v8
+  - ref: refs/tags/regmap-irq-reqrel
     old: 0000000000000000000000000000000000000000
-    new: 932f3f3016adb65f8da7af2de87e205ac332f5f5
+    new: c5f42e4e64f0274dc488fb3f97d73ff564b228bf
