@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Fri, 03 Jul 2026 17:35:42 -0000
-Message-Id: <178310014272.1240788.16965576821401215893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Fri, 03 Jul 2026 17:42:58 -0000
+Message-Id: <178310057856.1245142.14503811956929762506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 4f5777cfbd98c10e71c7fbfe4615dd499fada7b7
+  - ref: refs/heads/edac-misc
+    old: 07897bdf7a9c60455a175f6eb619c7d95e1d1765
+    new: 2625c596a665e23bcec98354e7b6c50c8026a43e
     log: |
-         0fbc34f028e9eb7705e1f4ee1591ecd6d05160e8 tools/nolibc: unistd: Add getcwd()
-         94518b77e194d71b1d76a2dd75f4891954edc296 tools/nolibc: unistd: Add readlink()
-         4f5777cfbd98c10e71c7fbfe4615dd499fada7b7 selftests/nolibc: Add test for getcwd() and readlink()
+         2625c596a665e23bcec98354e7b6c50c8026a43e MAINTAINERS: Remove Mark Gross from relevant entries
          
