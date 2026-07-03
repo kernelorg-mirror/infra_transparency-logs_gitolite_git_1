@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5760410699885888666=="
+Content-Type: multipart/mixed; boundary="===============0412354523579581114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 03 Jul 2026 15:12:00 -0000
-Message-Id: <178309152006.1134789.13023060656897836377@gitolite.kernel.org>
+Date: Fri, 03 Jul 2026 15:16:44 -0000
+Message-Id: <178309180499.1138285.11710713305139349695@gitolite.kernel.org>
 
---===============5760410699885888666==
+--===============0412354523579581114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fsnotify
-    old: 82c6dd20479bb6a9625e1d63a650c3be8865e2db
-    new: a3aa899823dda059ab88a58254f9a605e03ec275
-    log: revlist-82c6dd20479b-a3aa899823dd.txt
+  - ref: refs/heads/for_next
+    old: 42093d1948d2de3991a8b20ac5d12df13b941aad
+    new: b0961edc5667d36af3667a2ff07c4804dadecf99
+    log: revlist-42093d1948d2-b0961edc5667.txt
 
---===============5760410699885888666==
+--===============0412354523579581114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82c6dd20479b-a3aa899823dd.txt
+Content-Disposition: attachment; filename=revlist-42093d1948d2-b0961edc5667.txt
 
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
 8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
 32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
 85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
@@ -1050,5 +1046,9 @@ dec4d8118c179b3d12bca7e609054c6011c4f2ce bootconfig: fix NULL-pointer arithmetic
 665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 4a50a141f05a8d1737661b19ee22ff8455b94409 Merge tag 'bootconfig-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a3aa899823dda059ab88a58254f9a605e03ec275 fanotify: initialize permission event watchdog state
+107eb175cbc8115811b223f7ea63ca6afa607fe3 udf: validate extent partition references in udf_current_aext()
+fae2004d1261e209e63c9c2348ca4148abd54b0d udf: avoid recursive s_alloc_mutex deadlock when freeing AED blocks
+abfc48dc5ee15b5bfa6afacc22a22188679d3559 udf: Mark LVID buffer as uptodate before marking it dirty
+b0961edc5667d36af3667a2ff07c4804dadecf99 Pull fsnotify watchdog fix.
 
---===============5760410699885888666==--
+--===============0412354523579581114==--
