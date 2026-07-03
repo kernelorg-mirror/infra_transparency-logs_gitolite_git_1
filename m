@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Fri, 03 Jul 2026 18:01:09 -0000
-Message-Id: <178310166904.1258891.8402341614008190921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 03 Jul 2026 18:22:57 -0000
+Message-Id: <178310297793.1272410.13362246976190852948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/for-next
-    old: 4f5777cfbd98c10e71c7fbfe4615dd499fada7b7
-    new: a3b2181459a2c74c03ddbad585f884eefc8ff8ff
+  - ref: refs/heads/vr-smt
+    old: f4c92402985282d341f8d42f339fb718e29a06b1
+    new: 3f16aae5d0ab4eb7c7be00b3b0a47642e65f5ded
     log: |
-         a3b2181459a2c74c03ddbad585f884eefc8ff8ff tools/nolibc: mark arg1 operand in __nolibc_syscall0() as write-only
+         23e4a6c39f3f28b187a7d34ef848649583ec5e63 arm64: topology: Model NVIDIA Olympus asymmetric SMT
+         3f16aae5d0ab4eb7c7be00b3b0a47642e65f5ded sched/fair: Honor asymmetric SMT priority in idle selection
          
