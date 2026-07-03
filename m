@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Fri, 03 Jul 2026 07:55:50 -0000
-Message-Id: <178306535035.820026.17125696978858570660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 03 Jul 2026 07:56:21 -0000
+Message-Id: <178306538134.820385.9341568724688586156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/kvm-arm64/s1ptw-fixes
+  - ref: refs/tags/gpio-fixes-for-v7.2-rc2
     old: 0000000000000000000000000000000000000000
-    new: 79b7f2ba42ad72e3027519e790936d262836094d
+    new: 931a4aca71c37a316f53cca14bc9df9f086d0a60
