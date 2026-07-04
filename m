@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 04 Jul 2026 16:25:50 -0000
-Message-Id: <178318235065.2323884.14217486011600993751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 04 Jul 2026 16:42:18 -0000
+Message-Id: <178318333853.2334454.12778096180684997930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 5e2a42bcd4ac5841ffcec87a15353d6e924e77dd
-    new: f49def5e4ffb4e9908d4d180e08e223e0b667a34
+  - ref: refs/heads/master
+    old: 1e9cdc2ea15adf4a821eefedabf6c0c8cf0b6a55
+    new: 7404ce51637231382873d0b55edabc2f3b841a9d
     log: |
-         0fc31e7dd0c0dfd3a27b7b3fcf5a4b1a5d74e390 sched_ext: Fix TOCTOU race in consume_remote_task()
-         f626831a1e1c2fcfa0e7c7aa3b09507cdc19f55a sched_ext: Handle blocked donor migration with proxy execution
-         ea4df2ace4e0278a296222971eb28e7accd574f4 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-         a80a627133a34906c203be90f90d8b330227e07e sched_ext: Save/restore kf_tasks[] when task ops nest
-         20eb9a1a1269353f7e2ca8c1280df6d7542cb5a8 sched_ext: Skip ops.runnable() when nested in SCX_CALL_OP_TASK
-         06e240d1498c991615cddf9242ee440e327d6abc sched_ext: Delegate proxy donor admission to BPF schedulers
-         53198cc34316040b35ee2306119b1686a65125f9 sched_ext: Add selftest for blocked donor admission
-         c59dab962f6a8cd65621f48dcdb4849b7fcd4f66 sched_ext: scx_qmap: Add proxy execution support
-         f49def5e4ffb4e9908d4d180e08e223e0b667a34 sched: Allow enabling proxy exec with sched_ext
+         eacaf5ae747f7dead6cc268de17a7382d79031fc MIPS: DEC: Ensure RTC platform device deregistration upon failure
+         a9e0237d2eb5f1e35f500cfa1a82a242b7c8686c mips: Add build salt to the vDSO
+         6d5fbecd0213489bc4de71a0da194d18e654fd6e MIPS: mm: Add check for highmem before removing memory block
+         dceafc180309977fa06ff668b5f4f978d5c2dbee MIPS: loongson64: add IRQ work based on self-IPI
+         0880884b36d1230a80a0322abc9b9c7b26942b65 MIPS: configs: Enable the current Ingenic USB PHY symbol
+         754e9e49b76fd5be339172aa98544182ed3ca75e pkey: Move keytype check from pkey api to handler
+         2995ccec260caa9e85b3301a4aba1e66ed80ad74 s390/monwriter: Reject buffer reuse with different data length
+         410430b616a739eb395143f4f608d4339a3b0a8f Merge tag 'mips-fixes_7.2_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+         7404ce51637231382873d0b55edabc2f3b841a9d Merge tag 's390-7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
          
