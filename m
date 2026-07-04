@@ -1,27 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 04 Jul 2026 16:05:43 -0000
-Message-Id: <178318114383.2307432.3679371056688240888@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4679882475397188906=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 04 Jul 2026 16:09:41 -0000
+Message-Id: <178318138190.2309236.8180029707324451248@gitolite.kernel.org>
+
+--===============4679882475397188906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 6c7e9f14e402a2a3badfaa70e059f5702037d239
-    new: 5e2a42bcd4ac5841ffcec87a15353d6e924e77dd
-    log: |
-         be1696588f94e9e8b03616a98951ecabcd5d911c sched_ext: Fix TOCTOU race in consume_remote_task()
-         f0326f5ec090443146c3eb4cdb99361000da5632 sched_ext: Handle blocked donor migration with proxy execution
-         24a8bb7ec0795ae19e3897c3ec3b97928a40deeb sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-         b908acfbd56f87453c8682db6dd5938859bd76bd sched_ext: Save/restore kf_tasks[] when task ops nest
-         8264f6c1c2871f394511cd007d0bffa3063a5f4b sched_ext: Skip ops.runnable() when nested in SCX_CALL_OP_TASK
-         8e972fa72bd99843c8e6ffba7fcdaebdb9afa5e0 sched_ext: Delegate proxy donor admission to BPF schedulers
-         0c698e0aaef55aee19a02b84d295418e03c40a75 sched_ext: Add selftest for blocked donor admission
-         05b04005138715a520b94414e48212edc881f6b2 sched_ext: scx_qmap: Add proxy execution support
-         5e2a42bcd4ac5841ffcec87a15353d6e924e77dd sched: Allow enabling proxy exec with sched_ext
-         
+  - ref: refs/heads/perf-tools-next
+    old: e1065ed188cfe1327863e03143db65425b399210
+    new: ca0e19074bd6afcb9c7b23aa474ca17238cdb241
+    log: revlist-e1065ed188cf-ca0e19074bd6.txt
+
+--===============4679882475397188906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e1065ed188cf-ca0e19074bd6.txt
+
+5a9dd835894cffed85d56aaedc1950bf858ff510 perf symbols: skip livepatch symbols when loading kallsyms
+55caa653014d50a3e10b5dbc282c641cfce5c9f2 perf symbols: skip livepatch symbols in kcore_copy kallsyms processing
+d12a0135e8e87c04dce78060c9d0899233f7d80e perf kvm: Factor out kvm_need_default_arch_event()
+95e63238386524e231fcd100b9e6db22053fd4ff perf kvm: Check kvm_need_default_arch_event() early
+cd589eba99f4578a6cf495fa23d02c28fc129ec1 perf kvm: Kill STRDUP_FAIL_EXIT()
+5169bd7647e612a0c93c8f52140565a0388856b1 perf kvm: Do not copy filename string
+ab42c7b94339bb913be467cef61e6fb8f36f24a2 perf kvm: Fix a memory leak in the usage string
+3ec1248747e40261264ce0afe4b7bd0ff6822115 perf test: Extend perf kvm tests to check default event
+50cd0d54f1f6dd9b3de7c0ad101bd41d06206ace perf cs-etm: Fix thread leaks on trace queue init failure
+a9e99b860fb6dfdc9a17d7c63b84fd5647f1f44c perf cs-etm: Filter synthesized branch samples
+5cf3ea0f2616fea7d91e4b45b6bca872e09205c3 perf cs-etm: Decode ETE exception packets
+9bb1423295d1f84d3a557bc690fbb791d8a773ac perf cs-etm: Refactor instruction size handling
+3ea91599b7b6e05cd21dfa1214f251dfe7770468 perf cs-etm: Use thread-stack for last branch entries
+ea5075e3776846d4941dddf1549426ebd3feb81f perf cs-etm: Flush thread stacks after decoder reset
+e3fbd5d1a13a82906222c924014f1a48e2427932 perf cs-etm: Support call indentation
+41a7388d0734961e36136b2c16b2423c2f385569 perf cs-etm: Synthesize callchains for instruction samples
+ca0e19074bd6afcb9c7b23aa474ca17238cdb241 perf test: Add Arm CoreSight callchain test
+
+--===============4679882475397188906==--
