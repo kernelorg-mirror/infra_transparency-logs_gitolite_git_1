@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2955955472681007389=="
+Content-Type: multipart/mixed; boundary="===============4700772259210624835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Sat, 04 Jul 2026 08:22:22 -0000
-Message-Id: <178315334272.1833533.6568072108954537336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 04 Jul 2026 08:28:21 -0000
+Message-Id: <178315370185.1837437.14008913186705833695@gitolite.kernel.org>
 
---===============2955955472681007389==
+--===============4700772259210624835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 487eca6535cab91944ade06a155e9d789591a1e5
-    new: 169ae5e65e5aaf213b6a578f6478a9fd2e523606
+  - ref: refs/heads/master
+    old: 67fbfcf4e1f3c59ee15bf7d242ae838be2a5780b
+    new: 08ac98adf877b68491a945c85123112a6e28b12e
     log: |
-         faa63a51bea10151952c6b35d66d72ce0d25efa1 dt-bindings: w1: Convert HDQ One Wire to DT schema
-         169ae5e65e5aaf213b6a578f6478a9fd2e523606 w1: ds28e17: reject an oversize length on an I2C block read
+         08ac98adf877b68491a945c85123112a6e28b12e 6.12-stable patches
          
 
---===============2955955472681007389==
+--===============4700772259210624835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1783153341 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1783153340-a54f3f2c49a078e85d24a5ff641da0651c78b3f0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783153712 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1783153699-496de84aaa8c503d872a972e9bec79844f0bc39f
 
-487eca6535cab91944ade06a155e9d789591a1e5 169ae5e65e5aaf213b6a578f6478a9fd2e523606 refs/heads/for-next
+67fbfcf4e1f3c59ee15bf7d242ae838be2a5780b 08ac98adf877b68491a945c85123112a6e28b12e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpIwr0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wmfD/UWZSHw3nMwJj8pyFd+j6F+8w0FPHOXr4NB
-Chig95geb60ZUUk+sO5qB7SE/zPK3WhkSMxoaMkj8pjH772qD1Xa1TlskYcLY8S6
-ZVEmrGlrwObUNl5yjbVDMw0NsFA8kXCB0fkkmY5pAj0pPNgWWLSSjqq8yahxcprc
-xm2uVJBlIjkcdexC4Wp2+TCDego6eqzVaRz49H4tvEJuAG8kJfvN5eYI4Iz7jdaH
-6cnpuJR5ICqVZGPI1Hqz5nqhfoXed6ad230Gg1liNA5cx9a7XTTVdBw9Y/t7b168
-JA3yBIizI8e1S+tq6ysdb8nBSZtPyK6Vwlm2R5xJEWw/kqrHY8zvWcdFuN59694O
-uW5OWHomlazrmaUu/IBS7vWu8xrOY2yF4e9gylvhJS8oPleGCs/LPIluFGPVfjWk
-ZVPX7FY/esQ85GpbM/xISgTC4bNQdsaqb3eYDc+q9YhaozCujXd8EAWo2uRWi+vC
-P2d5yFVX2qLMVukWx8RflM2JzgnlJ6JVL6Fv8k6WWsxB8NR98D7q2IJ+Nfdqa0OY
-m+VIBH5P5/egzgyAzM/1IAjFEYqXEYAvVSoSc1v7CpHozgIbgk0aog+2hls76B0H
-qRRu8BT1VRpdO+LTwoCWvpQo/+AlOG1C6XPyYTg+2ttPT4CDuJrEN+8864Whw526
-zzihaAId
-=xZQK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpIxDAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vc0P/jeYy0/+z3SuvsSl9dGl
+bO65anAV5V+dUbfwJPeLoaAvRCRbz8yl7rivlTMoI5t4Uc06utkdXeQ3aJ3NT1OU
+8o/CZkbJZa9Z8uWN4R47heVjCN0A8Rr/vwtmpLczyZxrYQ87ItR+eRE1TiI0w17r
+rtVVXSAoqu60sYQPPjs3kQiVOkUTvftMmZoVNBxvo7JQd/nzAA7bOn+oH0toSThv
+UJvllfvzBPcEnKQyVW6IKv8X4vfIrdBWFctolTY2/vLOjDknKO5gr+ZLZ3Wt63+i
+dY83IkwL2ZASZUDAJzcM0AYUQ/0FsXd10vBNhG2O+hdvitsW4fqNU2+QLeZbmuVb
+vKJykFrXZSIHG2+SARRkO6ep0s4l4P7RJtQg0a2MIZv9O5MBTXyhONlkCp5DS6C8
++iWeN3kuSU63X2qLaSKjLGRRXlsiOzzgem6AQGHWEYHJdgEeMbGy2kTS/qQT9ufE
+TT1ed6elny4Nd8jVylyTa111w5AiJOW4T3Ol5XaL0lWWCJUe/RfkBX5kqfsYtlha
+jetowc0lUwpyPLNtmZ8QbNa+xZf5NrgUW6a8s4jQZWBNgijwuyIvhcRkArjwLpb8
++q15qLxURj0mS6fC1WDD8n7WWI7EnVdo3wsZHj1C8c77XcZxxcYS8VEn54wVxrwG
+X2RWzdl9UZ3B67Iz9LzLqDHs
+=jYZz
 -----END PGP SIGNATURE-----
 
---===============2955955472681007389==--
+--===============4700772259210624835==--
