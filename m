@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 04 Jul 2026 02:05:56 -0000
-Message-Id: <178313075697.1580050.14063354472235235897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Sat, 04 Jul 2026 02:27:46 -0000
+Message-Id: <178313206634.1593591.15642169177813146278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/experimental
-    old: 30711d4b2e234fe3e8aaeb779ade4cb609b0d920
-    new: 82c42541286f23b56844c457ec881c8da97dc0a3
+  - ref: refs/heads/master
+    old: 5e6fd6a39a9fc024c25e0f8a9bb48f3253a316a8
+    new: 10aeaa74a8c713d4cfc048d9060d1fb237203e30
     log: |
-         82c42541286f23b56844c457ec881c8da97dc0a3 erofs-utils: fix 'warn_unused_result'
+         04bb29bd0880eba7f04fa40498e10d3a24e90270 kvm-do-setup: don't assume that mke2fs is located in /sbin
+         10aeaa74a8c713d4cfc048d9060d1fb237203e30 Configure scripts to use a newer version of bash if necessary
          
