@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7785113236989739329=="
+Content-Type: multipart/mixed; boundary="===============2955955472681007389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Sat, 04 Jul 2026 08:22:16 -0000
-Message-Id: <178315333641.1833194.12909371038599896675@gitolite.kernel.org>
+Date: Sat, 04 Jul 2026 08:22:22 -0000
+Message-Id: <178315334272.1833533.6568072108954537336@gitolite.kernel.org>
 
---===============7785113236989739329==
+--===============2955955472681007389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
+  - ref: refs/heads/for-next
     old: 487eca6535cab91944ade06a155e9d789591a1e5
     new: 169ae5e65e5aaf213b6a578f6478a9fd2e523606
     log: |
@@ -24,34 +24,34 @@ changes:
          169ae5e65e5aaf213b6a578f6478a9fd2e523606 w1: ds28e17: reject an oversize length on an I2C block read
          
 
---===============7785113236989739329==
+--===============2955955472681007389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1783153334 +0200
+pusher krzk@kernel.org 1783153341 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1783153334-42f75e014dad5e1c3cf49fc988517e4c6f9f0683
+nonce 1783153340-a54f3f2c49a078e85d24a5ff641da0651c78b3f0
 
-487eca6535cab91944ade06a155e9d789591a1e5 169ae5e65e5aaf213b6a578f6478a9fd2e523606 refs/heads/w1-next
+487eca6535cab91944ade06a155e9d789591a1e5 169ae5e65e5aaf213b6a578f6478a9fd2e523606 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpIwrYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+JjEACM508B4JXcuFPzlwB04gb3VrAjlIne3Uhi
-KF3kwvTmcLGQCsdejXUWjVF5/gXkdhJPx0TLhpU/P0xguJlRIRlslQb8FETDJrEr
-Y49/8twpOWvKT+EMfNeIORqFJ/vs0oH6b2TpGykxwYdRpx2BixyTaDMwGL5shgrz
-M9Oh21dSnuA/xHSIOhEuDGwe1EZvsHyqG+uCySrTnqzYYtuuCpFG3X7gAt9DY4OH
-drnV8t6xFDnvBK5dRouOtPaECXaKQuxm6O0/bzcfyYATqxeKCrFpBzuWH+XI1sG1
-pLdA0itL+/RtQNXSeA4LNoz85qip3/4AG5HuNX0pYr6Su4xdPntVYDYXyaETnmwl
-kRsSl1qSL54I7pYB7aiMHcsqaHIOvDuk3/5QZfE9JO7C0vz5Q82LPTiLDYo6pLrR
-76UTrFDVAb+iREciYwE/3lkdkx5PkpGEtHfT2uXkEIRia4MUxFOnXSGJOBpXOmj+
-MGEdtWzwTgQtiPUsy5FAXpP/YNKVSgaEtNbswgvDDtJ8K5Lx/fiVfZhakjpwCCTj
-4ueqT/aAQVgPt45PRGknzDgwo57dDAc9t6AYm6eRhBcFwn7YA/epTtLTOoejsN8k
-eCrY1hC/JmKIJoI10ryIj+E9Tu4y2j+Gne4QzNArACrdME35EFaSLAbWd0Tfl3b4
-p1U2JuhR+Q==
-=VWrN
+iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpIwr0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wmfD/UWZSHw3nMwJj8pyFd+j6F+8w0FPHOXr4NB
+Chig95geb60ZUUk+sO5qB7SE/zPK3WhkSMxoaMkj8pjH772qD1Xa1TlskYcLY8S6
+ZVEmrGlrwObUNl5yjbVDMw0NsFA8kXCB0fkkmY5pAj0pPNgWWLSSjqq8yahxcprc
+xm2uVJBlIjkcdexC4Wp2+TCDego6eqzVaRz49H4tvEJuAG8kJfvN5eYI4Iz7jdaH
+6cnpuJR5ICqVZGPI1Hqz5nqhfoXed6ad230Gg1liNA5cx9a7XTTVdBw9Y/t7b168
+JA3yBIizI8e1S+tq6ysdb8nBSZtPyK6Vwlm2R5xJEWw/kqrHY8zvWcdFuN59694O
+uW5OWHomlazrmaUu/IBS7vWu8xrOY2yF4e9gylvhJS8oPleGCs/LPIluFGPVfjWk
+ZVPX7FY/esQ85GpbM/xISgTC4bNQdsaqb3eYDc+q9YhaozCujXd8EAWo2uRWi+vC
+P2d5yFVX2qLMVukWx8RflM2JzgnlJ6JVL6Fv8k6WWsxB8NR98D7q2IJ+Nfdqa0OY
+m+VIBH5P5/egzgyAzM/1IAjFEYqXEYAvVSoSc1v7CpHozgIbgk0aog+2hls76B0H
+qRRu8BT1VRpdO+LTwoCWvpQo/+AlOG1C6XPyYTg+2ttPT4CDuJrEN+8864Whw526
+zzihaAId
+=xZQK
 -----END PGP SIGNATURE-----
 
---===============7785113236989739329==--
+--===============2955955472681007389==--
