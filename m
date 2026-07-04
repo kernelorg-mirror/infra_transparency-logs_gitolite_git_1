@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 04 Jul 2026 09:13:07 -0000
-Message-Id: <178315638701.1869205.14127698019054104519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sat, 04 Jul 2026 11:06:00 -0000
+Message-Id: <178316316020.1942078.17611674997338532002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 0c0a7ef14a7a3172021ffe50ea8e0798bc0ad6ac
-    new: 8d6f826e07d49f76fd8810fe6bf914ba131e8ccc
+  - ref: refs/heads/b4/cros_ec-hwmon-overflow
+    old: f509e4c5cf112ac16f4d049c2ef6eb6dfdb6e6ad
+    new: 6e58ce96a07b22b2d075a84cdacf4f3ec0f9b43f
     log: |
-         28fd0acaf0ba0d6b8cb560e193fc639b22bbc907 sched_ext: Add selftest for blocked donor admission
-         04b0fec4f30e37a7f2a3e78910410334532c6223 sched_ext: scx_qmap: Add proxy execution support
-         8d6f826e07d49f76fd8810fe6bf914ba131e8ccc sched: Allow enabling proxy exec with sched_ext
+         6e58ce96a07b22b2d075a84cdacf4f3ec0f9b43f x
          
