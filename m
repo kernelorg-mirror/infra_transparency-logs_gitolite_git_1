@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6816568714457237611=="
+Content-Type: multipart/mixed; boundary="===============0368811347256512904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 05 Jul 2026 22:25:38 -0000
-Message-Id: <178329033860.3561860.4688733247428476064@gitolite.kernel.org>
+Date: Sun, 05 Jul 2026 22:25:41 -0000
+Message-Id: <178329034178.3561961.13597725721034446165@gitolite.kernel.org>
 
---===============6816568714457237611==
+--===============0368811347256512904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e031e55776cf9193b4720a253e92539ca536d224
-    new: 4494b1f25c06ac74bb46166f19bb13ec21d08bbd
-    log: revlist-e031e55776cf-4494b1f25c06.txt
+  - ref: refs/heads/mm-unstable
+    old: cfb8731f5396cafde2d60a2e7d9d27cdb4505f45
+    new: e86dc26360e749c0be94a35e230dca8f954f3773
+    log: revlist-cfb8731f5396-e86dc26360e7.txt
 
---===============6816568714457237611==
+--===============0368811347256512904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e031e55776cf-4494b1f25c06.txt
+Content-Disposition: attachment; filename=revlist-cfb8731f5396-e86dc26360e7.txt
 
 307182f9e38168308d3cdc55149541de4a16303f mm/memory-failure: trace: change memory_failure_event to ras subsystem
 da4da24597099606069af9b263a5a72f0282cf93 arch,x86: skip setting align_offset for hugetlb mappings
@@ -276,39 +276,5 @@ d9539a2d0882713d46734fb32672cb7b8f02dd26 memcg: bail out proactive reclaim when 
 02d67669357fc0befcbccd37a8a353bf8b066abd memcg-v1: bail out reclaim when memcg is dying
 11a2a89c3abaabcf43d47da71d7e881a1c8d400b mm/vmalloc: add alignment info in warning print as possible failure reason
 e86dc26360e749c0be94a35e230dca8f954f3773 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-c16632fba0dbf7232a9959803159f3a0276d9bd1 mm/damon: add damon_region->last_probe_hits
-97bc611088e1a86dc00eb84f863ec99443ff16f1 mm/damon/core: introduce damon_probe_hits_mvsum()
-4edebc5066a369672a202f537ed6334c438cc67e mm/damon/sysfs-schemes: set probe hits as pseudo moving sums
-5f66a751d2c6529b1f6bdef36be6be64cb293990 radix-tree: fix kmemleak false positives on tree head reassignment
-844352111faac98f6f0eabd3ddc0d56af5fdebc8 mm/secretmem: disable under HIGHMEM
-0330cd1a2ff6347f6b5a69aa299e9130723b1f93 mm/page_alloc: rename ALLOC_TRYLOCK -> ALLOC_NOLOCK
-fdf76eb5608fc17b8031c44fbfbc316f04bce19f mm/page_alloc: some renames to clarify alloc_flags scopes
-07b77fbc70b91b725feeff50492eaee51998f8b6 mm: name some args in a function declaration
-2863271bd3e419de7f9a4b19cf76765130d8e5ac mm: split out internal page_alloc.h
-8ffbdfc5274ad9f98283dd6e792fa877e96c9e13 mm/page_alloc: unify __alloc_frozen_pages[_nolock]_noprof()
-f5e4c07f5ff81f130823cd29ea210d6d08acdd91 mm/page_alloc: relax GFP WARN in nolock allocs
-a44573cff35acae6af65c35c69a136ac139a4652 mm: move some stuff to mm/page_alloc.h
-de51136985a8e0fe1f2b86ac08b2d2e00ce0f0d4 perf/x86/intel: use higher-level allocator API
-44f67cbf1d07a59981bcebf8f5d1b4dc2d65144f KVM: VMX: use higher-level allocator API
-1b1f709fc5ea3f8b0d31d7bec1988d75bf0750bb x86/virt: use higher-level allocator API
-dd3e6044ecbac96eb11365e68f389ea884739004 sgi-xp: use higher-level allocator API
-92ec913bc18bc02dd58eaa888a3862ed34f542cc net/funeth: switch to higher-level allocator API
-d5ad4d171472bb3ebd7879004507e25a8744f9a6 mm: remove __alloc_pages_node()
-c4edf6b8619875020d4aa6a0570a4430d8e75c83 mm: move __alloc_pages() to mm/page_alloc.h
-4604f94b8e0ba7ac902463708972f9ea665ba1ae mm: replace __GFP_NO_CODETAG with ALLOC_NO_CODETAG
-ad3d1af81d9591020e70f4464466173f8b90f7d6 mm: remove the __GFP_NO_OBJ_EXT flag
-ccafbb9ec550f4ba3110476cec706cfebddeee57 mm/page_alloc: drop alloc_flags arg from alloc_flags_cma()
-cd3216dc2862e733d49a83dbb3ec6004924cc523 mm: factor out can_spin_trylock()
-f7968b6fcbb2a6b7ea29b6c56c3d96915e787090 arm64: make huge_ptep_get handled unaligned addresses
-cc15629cca9932a319d15c75a8fbb985ee867a12 mm/rmap: use huge_ptep_get() in try_to_unmap_one()
-39d01a86ae83ba20b4cade941448de3352052f74 mm/rmap: use huge_ptep_get() in try_to_migrate_one()
-d76a1ef5803cb2f34fac450f24441eba86aa97f3 mm-rmap-use-huge_ptep_get-in-try_to_migrate_one-checkpatch-fixes
-fe4edda6b7fc54a59d24a230cfc6f3ab04c4c3d3 mm/migrate: use huge_ptep_get() in remove_migration_pte()
-efc32dd895458f7757a9b1d5a1070421d799d8d7 mm/page_vma_mapped: use huge_ptep_get() for hugetlb
-37f7942c265e969050589b0110a377fc27932c54 mm/mprotect: use huge_ptep_get() for hugetlb
-c9059442e502191acb3b6b324f476ca99ba361ab mm-mprotect-use-huge_ptep_get-for-hugetlb-fix
-61d6321de62cd6bd93ee527ab889aa53e831f1d1 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-cb526e3a9de18b5646ca5d948d6b0d761331a7e7 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-4494b1f25c06ac74bb46166f19bb13ec21d08bbd mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6816568714457237611==--
+--===============0368811347256512904==--
