@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 05 Jul 2026 07:25:16 -0000
-Message-Id: <178323631600.2963727.3554389684670989453@gitolite.kernel.org>
+Date: Sun, 05 Jul 2026 07:31:17 -0000
+Message-Id: <178323667776.2967802.13384227563494046947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/tags/irq-urgent-2026-07-05
+  - ref: refs/tags/locking-urgent-2026-07-05
     old: 0000000000000000000000000000000000000000
-    new: 5a507c2a1b7a3baccb488e7be748f9c570145867
+    new: 2bfc4dbab2148f1adfc6d871b93d13c82bcc9c13
