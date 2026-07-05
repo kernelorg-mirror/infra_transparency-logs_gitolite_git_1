@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 05 Jul 2026 11:21:14 -0000
-Message-Id: <178325047449.3121076.8971328093011912321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
+Date: Sun, 05 Jul 2026 11:22:23 -0000
+Message-Id: <178325054388.3121654.9308904735058446094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/deller/palo
+user: deller
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: c3cfb1c4e284fd2d3f0dc202239318e6d3276290
-    new: f58ea84a3584d1aa9de6209a3022aa290e0b852f
+  - ref: refs/heads/devel
+    old: ad2cf0ea8f41f2be5e4d4b63b4bfb8cd1046cee3
+    new: b51b4830ec55f2a8ba730f43ccc9f71488c7c36d
     log: |
-         f58ea84a3584d1aa9de6209a3022aa290e0b852f RDMA/rxe: Check PDs for memory window binds
+         0726173663b9c718def7d2be3810614a1ee4d4ba debian: Avoid usage of dh_movetousr
+         b51b4830ec55f2a8ba730f43ccc9f71488c7c36d control: Update web links to palo git repository
          
