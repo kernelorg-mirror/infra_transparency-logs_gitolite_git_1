@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0398182814068372377=="
+Content-Type: multipart/mixed; boundary="===============2780105400123676143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Mon, 06 Jul 2026 14:49:55 -0000
-Message-Id: <178334939590.92015.1328412862252069658@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 14:50:33 -0000
+Message-Id: <178334943397.94672.13299287159672657483@gitolite.kernel.org>
 
---===============0398182814068372377==
+--===============2780105400123676143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
 user: vudentz
 changes:
-  - ref: refs/heads/master
-    old: 8153bee2a493deaa8bd40821872600f77492d144
-    new: 6e1930ece855a4c256f1c7e6632d634cfb9888b5
-    log: revlist-8153bee2a493-6e1930ece855.txt
+  - ref: refs/tags/for-net-2026-07-06
+    old: 0de4e3a65c18eacb7d0907a90921e6a390465bab
+    new: f4fef45ed0ca7c75b87595290405903cecbda8b6
+    log: revlist-0de4e3a65c18-f4fef45ed0ca.txt
 
---===============0398182814068372377==
+--===============2780105400123676143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8153bee2a493-6e1930ece855.txt
+Content-Disposition: attachment; filename=revlist-0de4e3a65c18-f4fef45ed0ca.txt
 
 d38eaf611839b85ade3dd3db309dbc8aaaaf0095 Bluetooth: 6lowpan: Fix using chan->conn as indication to no remote netdev
 fa85d985f614bc3feb343000f14a1072e99b0df1 Bluetooth: MGMT: Fix UAF of hci_conn_params in add_device_complete
@@ -46,4 +46,4 @@ fd076d8deeab6f9f18ef13400f89e1f550df665b Bluetooth: ISO: exclude RFU bits from I
 dd068ef044128db655f48323a4acfd5907e04903 Bluetooth: bpa10x: avoid OOB read of revision string in bpa10x_setup()
 6e1930ece855a4c256f1c7e6632d634cfb9888b5 Bluetooth: L2CAP: fix tx ident leak for commands without a response
 
---===============0398182814068372377==--
+--===============2780105400123676143==--
