@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5816134649434106561=="
+Content-Type: multipart/mixed; boundary="===============6964020983175390556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 06 Jul 2026 19:37:48 -0000
-Message-Id: <178336666880.301728.9382328003458198528@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 19:38:05 -0000
+Message-Id: <178336668513.302115.951952448918888867@gitolite.kernel.org>
 
---===============5816134649434106561==
+--===============6964020983175390556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 37585e803f97b8ead95c370abf1fdc8675cf66d6
+  - ref: refs/heads/next-integrity
+    old: 35d6f5e788dae0dcc4c42d1280360f19aef9ab52
     new: 81429cd0161ae654454c2b277a1db2c0ecb7712e
-    log: revlist-37585e803f97-81429cd0161a.txt
+    log: revlist-35d6f5e788da-81429cd0161a.txt
 
---===============5816134649434106561==
+--===============6964020983175390556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37585e803f97-81429cd0161a.txt
+Content-Disposition: attachment; filename=revlist-35d6f5e788da-81429cd0161a.txt
 
 b70f007a9fc665ee988683fd5085ab34e2c10ad3 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 16IAP7
 6efb1897209ab50940c58384d15a68fd4212821c ALSA: hda/realtek: Add LED fixup for HP EliteBook 6 G2i Laptops
@@ -1051,4 +1051,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 42f66395c3e5aae17eb1a60bdd7ac48ca27b1f41 security: ima: introduce IMA_INIT_LATE_SYNC option
 81429cd0161ae654454c2b277a1db2c0ecb7712e security: ima: rename boot_aggregate when ima is initialised at late_sync
 
---===============5816134649434106561==--
+--===============6964020983175390556==--
