@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 06 Jul 2026 06:36:08 -0000
-Message-Id: <178331976883.3888141.9124206771612538149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 06 Jul 2026 06:39:43 -0000
+Message-Id: <178331998333.3889236.16652868618931164559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/testing
-    old: ea528f18231ec0f33317be57f8866913b19aba6e
-    new: f38f8cce2f7e79775b3db7e8a5eacda04ac908e4
+  - ref: refs/heads/scx-proxy-exec
+    old: 4fd37434938977ba9e0806b734f346848bda13c7
+    new: 9eeee7db7655cc4f0c6dc4dc0901c64b16c717e8
     log: |
-         2538bd3cd1ff5af655908469544ac7b7ae259386 xfrm: clear mode callbacks after failed mode setup
-         430ea57d6daf765e88f90046afbfd1e071cb7200 xfrm: iptfs: propagate SKBFL_SHARED_FRAG in iptfs_skb_add_frags()
-         136992de9bb91871084ae52d172610541c76e4d2 xfrm6: clear dst.dev on error to avoid double netdev_put in xfrm6_fill_dst()
-         f38f8cce2f7e79775b3db7e8a5eacda04ac908e4 xfrm: policy: preallocate inexact bins before xfrm_hash_rebuild reinsert
+         35366430893815d445f6aac16f91722fb4a08554 sched/core: Drop mutex locks before proxy rescheduling
+         8f2a56579aa6a414bed59c93907929bd9af9acda sched_ext: Split curr|donor references properly
+         31b4d271e557717b1bc9942d57e32ed01bb087d4 sched_ext: Fix TOCTOU race in consume_remote_task()
+         e84e71b4c1b37b4351a08b8b7d729b3763b619bc sched_ext: Handle blocked donor migration with proxy execution
+         a331b6aadd5a432dc915e4577e8845e0ea45fff3 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+         6c5df9ad60976d1b951f9436346820993152636b sched_ext: Delegate proxy donor admission to BPF schedulers
+         b24e863993c95dddf1fc459696cf2441243a931c sched_ext: Add selftest for blocked donor admission
+         8225d673615995fecaa6b142185440635ad28cf9 sched_ext: scx_qmap: Add proxy execution support
+         9eeee7db7655cc4f0c6dc4dc0901c64b16c717e8 sched: Allow enabling proxy exec with sched_ext
          
