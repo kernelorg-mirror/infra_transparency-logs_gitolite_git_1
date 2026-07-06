@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8643643012564739233=="
+Content-Type: multipart/mixed; boundary="===============3090445135305457912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 06 Jul 2026 08:41:03 -0000
-Message-Id: <178332726391.4027636.16671484238174053202@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 08:41:13 -0000
+Message-Id: <178332727356.4027870.16259694300746100479@gitolite.kernel.org>
 
---===============8643643012564739233==
+--===============3090445135305457912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 0880884b36d1230a80a0322abc9b9c7b26942b65
+  - ref: refs/heads/master
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    log: revlist-0880884b36d1-8cdeaa50eae8.txt
+    log: revlist-dc59e4fea9d8-8cdeaa50eae8.txt
 
---===============8643643012564739233==
+--===============3090445135305457912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0880884b36d1-8cdeaa50eae8.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-8cdeaa50eae8.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -79,6 +79,11 @@ c752838874578b7f0267d9f3e73892b1c7a0d9cc xfs: split up xfs_buf_alloc_backing_mem
 19dc95d4b6cf81e1878a3abd587afc967b75d5ce xfs: simplify the failure path in xfs_buf_alloc_vmalloc
 7f53bf79bdbac36b644b9fe7a77516baf8de5109 xfs: fix AGFL extent count calculation in xrep_agfl_fill
 032a6f6ce21fc701468fd15403d2f53a30107f5b dma-fence: use correct callback in dma_fence_timeline_name()
+eacaf5ae747f7dead6cc268de17a7382d79031fc MIPS: DEC: Ensure RTC platform device deregistration upon failure
+a9e0237d2eb5f1e35f500cfa1a82a242b7c8686c mips: Add build salt to the vDSO
+6d5fbecd0213489bc4de71a0da194d18e654fd6e MIPS: mm: Add check for highmem before removing memory block
+dceafc180309977fa06ff668b5f4f978d5c2dbee MIPS: loongson64: add IRQ work based on self-IPI
+0880884b36d1230a80a0322abc9b9c7b26942b65 MIPS: configs: Enable the current Ingenic USB PHY symbol
 5cff1529a2f9b3461a7f5a6e36a86682fc290534 ALSA: us144mkii: capture_urb_complete: redundant usb_anchor_urb corrupts anchor list on each resubmission
 035219a760edb35ae9a9e96beba7f122e26a997b dma-buf: dma-fence: Fix potential NULL pointer dereference
 77a9298741f8f9e8b963c977f5582ab21c6d3427 dma-fence: Make dma_fence_dedup_array() robust against 0-count input
@@ -455,4 +460,4 @@ c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of g
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
 
---===============8643643012564739233==--
+--===============3090445135305457912==--
