@@ -1,92 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0805567583080636824=="
+Content-Type: multipart/mixed; boundary="===============1334271311882788465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 06 Jul 2026 12:11:50 -0000
-Message-Id: <178333991042.4174925.4529801681693663689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Mon, 06 Jul 2026 12:15:41 -0000
+Message-Id: <178334014101.4178241.3525228628167091292@gitolite.kernel.org>
 
---===============0805567583080636824==
+--===============1334271311882788465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
   - ref: refs/heads/main
-    old: f843cf31dfc2c75843362a8f7e75180ed0cc44d6
-    new: 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f
-    log: revlist-f843cf31dfc2-4a360c6e18df.txt
+    old: d6456743424721a837e1509b912f362caaeecd97
+    new: 9e05e91a9a847ed57926414bd7c2c5e54d6c56c6
+    log: revlist-d64567434247-9e05e91a9a84.txt
 
---===============0805567583080636824==
+--===============1334271311882788465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d64567434247-9e05e91a9a84.txt
 
-certificate version 0.1
-pusher 7BF9099A 1783339877 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1783339876-d1d426e7220ecba3ff25a974e8dcc4123925e9bd
+77e43bcb7ec177e293a5c3f1b91a2c5aebfb6c68 netfilter: nf_nat_sip: reload possible stale data pointer
+64cdf7d30ac18e43df6c48004435febb965809a8 netfilter: xt_u32: reject invalid shift counts
+444853cd438201007da5359821adcc2995655ab1 netfilter: xt_rateest: fix u64 truncation in xt_rateest_mt()
+278296b69fae5dd951599692cd481bae4995215c netfilter: nfnetlink_cthelper: cap to maximum number of expectation per master on updates
+43ccc20b5a733226417832cf16ef45322e594990 netfilter: ip6tables: mark malformed IPv6 extension headers for hotdrop
+d63611cbe8af99dd61b118ee6e5b5e3e518250b2 netfilter: nft_set_rbtree: get command skips end element with open interval
+6b335af0d0d1ff44ac579d106953bf19299e5233 ipvs: fix PMTU for GUE/GRE tunnel ICMP errors
+2975324d164c552b028632f107b567302863b7f6 ipvs: reset full ip_vs_seq structs in ip_vs_conn_new
+1b47026fb4b35bac850ad6e8a4ad7fc018e09ebc netfilter: xt_connmark: reject invalid shift parameters
+660667cd406648bbaffbd5c0d897c2263a852f11 llc: fix SAP refcount leak in llc_ui_autobind()
+d7a8d500d7e42837bd8dce40cb52c97c6e8706a9 net: microchip: vcap: fix races on the shared Super VCAP block
+a0a558ca7e75b49e71f8c545c30e8c005e6e4e2f qede: fix off-by-one in BD ring consumption on build_skb failure
+dd6a23bac306b7aa322e0aaccb60c6e32a198fb3 selftests: net: make busywait timeout clock portable
+b65a794f50da37405690b704ce9eda3fccf3c4db Merge tag 'nf-26-07-03' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+f0f1887a9e30712a1df03e152dce6fb91344b1f3 net: qualcomm: rmnet: validate MAP frame length before ingress parsing
+8b519cbcabe836a441369fbec1a8a6518a709251 net/sched: act_pedit: fix TOCTOU heap OOB write in tc offload
+9d160b35cc34a2ba8229d07651468a7848325135 net/smc: fix UAF in smc_cdc_rx_handler() by pinning the socket
+9e05e91a9a847ed57926414bd7c2c5e54d6c56c6 amt: fix size calculation in amt_get_size()
 
-f843cf31dfc2c75843362a8f7e75180ed0cc44d6 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpLm2UACgkQ10qiO8sP
-aAAoIQ/9HsToZEDTa6fASl6DYS8bUXfQeOKSwSNo4c7NpGb7XMoN81fmNjG+tML6
-CTAwMmKmw+/HBnKPgdLgKicQymlGAcUn+8GmXuI2wM5LL/1coGLlXS8Fsupbh+SX
-cSQPwzDkdL6BErxtM/dX4XMUjAeki+Up0UINllKDkNWsqkASvFOxCmrV5zqLSKhk
-+EoqM8tCXhERhzWUJbWFDWR0/t+NuAp0IM2zDuzA8IQEhdCtel1T/hk8mrcMKf5x
-fO8LMdJzAFLCtLQUODIztJND1zibDrJyo+5jB187cbBcLWOxLD9TwkQXU8JkAcRW
-vJ8L8Bpi0UDJId9mY0S+AKxUZw0bza1lAfq8Ros8AEc7iwAM5RKnh+SQWse5hIE1
-aEPetfiMDlB2C9dCCX+64ahtiNTjWpjTbt3TjuGAmBffzGlD/1U5AH8v47qAk5da
-1KejmOabVRdlGqh7PFJl+cLJwg6an5pa9+xuU3BBIGiGaXqfBLPpUigGtFNBPKwi
-qCOX8g9Gd3WNay2PqGVyDvmTV4vWEv8u/HbPuX4KraxvMVHHqkudhktF/RxfELtW
-2wr21yULJaNq1G8HrvwJFxUjnJY/2raJtbNGaDtzjZLzwLFSOiJez9k9jDFrVR4q
-knQPemZ9VnIOkaBJTo+cEfoeVzLzu/4h4116kU3N/f0onptASdE=
-=a259
------END PGP SIGNATURE-----
-
---===============0805567583080636824==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f843cf31dfc2-4a360c6e18df.txt
-
-edf0730be33696a1bd142792830d392129e495cc wifi: cfg80211: cancel sched scan results work on unregister
-0d388f62031dbabcba0f44bb91b59f10e88cac17 wifi: ipw2100: fix potential memory leak in ipw2100_pci_init_one()
-c6659f66d4ee4841aafae5659d2ef5e4c5c63cb6 wifi: cfg80211: Fix an error handling path in cfg80211_wext_siwscan()
-10a2b430f8f06ae14b9590b6f6faa6b588ef0654 wifi: mac80211_hwsim: clamp virtio RX length before skb_put
-1d067abcd37062426c59ec73dbc4e87a63f33fea wifi: mac80211: fix unsol_bcast_probe_resp double free on alloc failure
-286e52a799fa158bdbd77da1426c4d93f9a6e7ad wifi: mac80211: fix fils_discovery double free on alloc failure
-aa6dcd5c8dd9ba1d7d0f60093bcda41c0d6d438d wifi: libertas_tf: fix use-after-free in lbtf_free_adapter()
-63c2391deefb31e1b801b7f32bd502ca4808639b wifi: libertas: fix memory leak in helper_firmware_cb()
-23b493d9dc5f00bba59347bd8ec7b044e26392a0 wifi: mac80211_hwsim: avoid treating MCS as legacy rate index
-2c51457d930f723e5f2903af90f5847f7df53f42 wifi: mac80211: free ack status frame on TX header build failure
-aa2eb62525188269cdd402a583b9a8ed94657ff0 wifi: mac80211: defer link RX stats percpu free to RCU
-ebd6d37fa94bee929e0b4c9ca19fdf9b1dcf6cea wifi: p54: validate RX frame length in p54_rx_eeprom_readback()
-843fe9bc583b7686ca68312ac9319c9240a73c03 wifi: rsi: avoid reading TKIP MIC keys for non-TKIP ciphers
-74e27cd1d98b546fdb276008a83708d062339661 wifi: cfg80211: validate EHT MLE before MLD ID read
-2b0eab425e1f658d8fe1df7590e3b9af5959505e wifi: cfg80211: convert pmsr_free_wk to wiphy_work to fix deadlock
-0a2581cbae9e442835f68d22044157db61cdf54d wifi: ralink: RT2X00: init EEPROM properly
-13ff543e0b2c713aedeaadadde686686e949dc78 wifi: libertas: reject short monitor TX frames
-d06a3e60c8fead962f08cf951eb1de7bd22dab76 wifi: rsi: bound background scan probe request copy
-74ed3669f26803b1761c1f55403062bea44c3466 wifi: libipw: fix key index receive bound checks
-8ecdeb8b8a33b22c597299043c0dcfce50beb9ea wifi: rsi: validate beacon length before fixed buffer copy
-07a95ec2b54774201fdf4ef7ffb0ca2ab19ed29c wifi: nl80211: free RNR data on MBSSID mismatch
-57d503ce32eccfa7650065ca4c560f7e29a2e676 wifi: mac80211: validate extension-frame layout before RX
-4e5a4641e7b4763656336b7891d01359aaf363cd wifi: cfg80211: derive S1G beacon TSF from S1G fields
-293baeae9b2434a3e432629d7720b5603db2d77e wifi: ieee80211: validate MLE common info length
-7f4b01812323443b55e4c65381c9dc851ff009e3 wifi: nl80211: validate nested MBSSID IE blobs
-172f06023669f0a96d32511669ff45c600731380 wifi: nl80211: constrain MBSSID TX link ID range
-41aa973eb05922848dded26875c55ef982ac1c49 wifi: cfg80211: validate PMSR measurement type data
-36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
-69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
-57c05ce14fea03df01288fe1250f49197e161710 wifi: cfg80211: reject empty PMSR peer lists
-035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
-4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
-
---===============0805567583080636824==--
+--===============1334271311882788465==--
