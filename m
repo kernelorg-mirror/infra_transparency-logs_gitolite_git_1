@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 06 Jul 2026 17:50:02 -0000
-Message-Id: <178336020270.224596.12776487593612522706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 06 Jul 2026 17:50:34 -0000
+Message-Id: <178336023445.226442.13298568189938891915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
   - ref: refs/heads/for-next
-    old: 696bef37f7f22f894ffc2059bdf9ec76b309cf8f
-    new: a2d41921f78c912ad11020123c873c9892f72079
+    old: 8ca01dbc70b5856b8ad40f5178d6cbf13898896f
+    new: 51abbd42f00e2b2ef6ef54f6476477283df479c1
     log: |
-         8610507901a0cd17640596b1e19d3a7b10cac1b3 arm64: dts: qcom: sm8250-xiaomi-elish: Add pm8008 PMIC
-         9f1d0a996df2a68f97002e38d8a6371607ab13ca arm64: dts: qcom: sm8250: Add cam_mclk3_default pinctrl
-         e221d444dc0bb4b0f244038b7655419498643667 arm64: dts: qcom: sm8250-xiaomi-elish: Add ov8856 front camera
-         cc8748ed4da16233d5b3f27e86a412a991645aed arm64: dts: qcom: sdm845-oneplus: Update compatible to include model
-         2f57d03ea7b78fe24fe6f965d65fe1ff9eac60ed arm64: dts: qcom: sm8750: Add wakeup-source property to usb controller
-         c09cd72be7fdfc348ceecfe414ff9698bc3561f3 arm64: dts: qcom: kaanapali: Add missing properties to usb controller
-         a2d41921f78c912ad11020123c873c9892f72079 Merge branches 'arm32-for-7.3', 'arm64-defconfig-for-7.3', 'arm64-fixes-for-7.2', 'arm64-for-7.3', 'clk-fixes-for-7.2' and 'drivers-for-7.3' into for-next
+         d93ffd549fb4df18c934ca7a47d4128a18c718cb remoteproc: core: Full attach detach during recovery
+         5ae3dc078874693a0a7fd1cf32660bd473fe544d remoteproc: xlnx: Add crash detection mechanism
+         51abbd42f00e2b2ef6ef54f6476477283df479c1 Merge branch 'rproc-next' into for-next
          
