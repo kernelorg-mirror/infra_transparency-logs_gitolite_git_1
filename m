@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0173108122499138173=="
+Content-Type: multipart/mixed; boundary="===============2138091107650828493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 Jul 2026 22:32:00 -0000
-Message-Id: <178337712030.424828.4880066693728349924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 06 Jul 2026 22:32:34 -0000
+Message-Id: <178337715439.425288.15107938769003736213@gitolite.kernel.org>
 
---===============0173108122499138173==
+--===============2138091107650828493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 0469d460a598d03fc85ebd97f99640e6c579e2a2
-    new: 9e05e91a9a847ed57926414bd7c2c5e54d6c56c6
-    log: revlist-0469d460a598-9e05e91a9a84.txt
+  - ref: refs/heads/main
+    old: d6e81529749190123aa0040626c7e5dbc20fdc9a
+    new: 474cff6868129755cf889edf40d7f491729fc588
+    log: revlist-d6e815297491-474cff686812.txt
 
---===============0173108122499138173==
+--===============2138091107650828493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0469d460a598-9e05e91a9a84.txt
+Content-Disposition: attachment; filename=revlist-d6e815297491-474cff686812.txt
 
 b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
 942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
@@ -504,6 +504,14 @@ e27d4bbe0d7380d9d26910de70541af6e77c29ea Merge tag 'pm-7.2-rc1-2' of git://git.k
 5422e496b313b9b0b2f6df068902d6c79925d5e9 Merge tag 'ceph-for-7.2-rc1' of https://github.com/ceph/ceph-client
 fa6fe449343c3d97ed93fd01b020860c663f8807 Merge tag 'drm-next-2026-06-27' of https://gitlab.freedesktop.org/drm/kernel
 5a66900afbd6b2a063eebad35294038a654de2b0 Merge tag 'drm-fixes-2026-06-27' of https://gitlab.freedesktop.org/drm/kernel
+96ca1e658ae459276292bd6d971ab5d8c7e0379a net: ipa: fix SMEM state handle leaks in SMP2P init
+c63ee62a3c4ac1a1542f4c1a4b87e2f41df5a496 net: liquidio: fix BAR resource leak on PF number failure
+16759757c4d28e958fd5a5a1fe0f86828872f28d net: pse-pd: scope pse_control regulator handle to kref lifetime
+a75d99f46bf21b45965ce39c5cfb3b8bb5ffb1aa seg6: validate SRH length before reading fixed fields
+f9ba47fce5932c15891c89c60e76dfaca919cb8d qede: fix out-of-bounds check for cqe->len_list[]
+e056e1dfcddca877dd46d704e8ec9860cfc9ec44 net/sched: sch_taprio: Replace direct dequeue call with peek and qdisc_dequeue_peeked
+54f6b0c843e228d499eb4b6bbb89df68cad9ad5d net/sched: sch_multiq: Replace direct dequeue call with peek and qdisc_dequeue_peeked
+6c00e85cd46f36b1624621fc32d93b3251cc996e Merge branch 'net-sched-finish-the-qdisc_dequeue_peeked-conversion-taprio-multiq'
 4fc0625cf9c6c11f1f9b09e1f2e35fa2dd46ea6a ntb_hw_amd: Fix incorrect debug message in link disable path
 d876153680e3d721d385e554def919bce3d18c74 NTB: epf: Avoid pci_iounmap() with offset when PEER_SPAD and CONFIG share BAR
 8df969463bc26a7250707f485ee3ac61426d671f NTB: fix kernel-doc warnings in ntb.h
@@ -517,6 +525,13 @@ da7ca04e331e3e83f661e29c30d381a91e6ca245 Merge tag 'rtc-7.2' of git://git.kernel
 14923571e78ae448ff4cc250d46d6f5fa442761c Merge tag 'sound-fix-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 780d569e6c4b422290f5cba319eb904b355d64be Merge tag 'pwm/for-7.2-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+56114690ff3ce1d1d65e5a2e5f77498da41883a4 MAINTAINERS: Update Marvell octeontx2 driver maintainers
+555c5475e787802eeae0d2b91c2f66c330db2767 net: enetc: check the number of BDs needed for xdp_frame
+2b9f5ef534184bd81b8a4772780626c40eed1fd5 sctp: fix SCTP_RESET_STREAMS stream list length limit
+45f1458a85017a023f138b22ac5c76abd477db42 netpoll: fix a use-after-free on shutdown path
+414c5447fe6a200613dd46d7fdc8454622076cb1 sctp: add INIT verification after cookie unpacking
+d4be5f6f9094c7c7e96b2fef6d030e23ce9211f3 net: dsa: Fix skb ownership in taggers
+32f1c2bbb26ae2be476c8b66e3b41789b6b97bfc net: airoha: dma map xmit frags with skb_frag_dma_map()
 035e1fed892d3d06002a73ff73668f618a514644 batman-adv: retrieve ethhdr after potential skb realloc on RX
 7141990add3f75436f2933cb310654cad3b1e3e9 batman-adv: access unicast_ttvn skb->data only after skb realloc
 77880a3be88d378d60cc1e8f8ec70430e2ed0518 batman-adv: gw: acquire ethernet header only after skb realloc
@@ -526,6 +541,21 @@ cdf3b5af2bc4431e58629e8ad2086b1e9185c761 batman-adv: bla: reacquire gw address a
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+fcba102e0e4a3d39316ca9286b5619f161da4baa batman-adv: create hardif only for netdevs that are part of a mesh
+49e9de6e124fe80da68dfe9e7fe4e0b1ddfc4b35 batman-adv: remove global hardif list
+f846e779532ea99dea34005c1cfbb4820b582d1e batman-adv: make hard_iface->mesh_iface immutable
+48ea7b6b7b9474d8c350b1180f49a210d972f99c batman-adv: remove BATADV_IF_NOT_IN_USE hardif state
+cbda6a6cf2a5abe0dda94819f4e1aaba40678913 batman-adv: move hardif generation counter into batadv_priv
+2b429dbc50b43db1d85429d5bab0498bc4906736 batman-adv: drop unneeded goto and initialization from batadv_hardif_disable_interface()
+b58c36b804f4447655a9eb353bf3a9d310f50e06 batman-adv: drop NULL check for immutable hardif->mesh_iface
+5fa5f64fc0189bb37eeb4fe11687648c557c6f99 Revert "batman-adv: v: stop OGMv2 on disabled interface"
+ba2d97e8736ef2752ac717bc21a111b63b7e6496 batman-adv: iv: drop migration check for batadv_hard_iface
+278e5890704ceb5b93f4d13c44a640c44ed35a92 batman-adv: tvlv: extract tvlv header iterator
+71b7987ec001a60dff689e56f4b041cfc4222c6b batman-adv: tp_meter: simplify unordered ack calculation
+936a1c10cecee351e10f9efc85532e9f7477f67c batman-adv: tp_meter: combine adjacent/overlapping unacked entries
+3bbb8b94217ae27210935f1cb40306be7200da40 batman-adv: tp_meter: keep unacked list for receivers
+6cd45ef4dfa5ba4daae126143a3d009d36687d80 batman-adv: tp_meter: adjust name of receiver lock
+247691642fd4de7a029de253e47dba936542ce9f batman-adv: tp_meter: delay allocation of unacked entry
 e31408734332b8cc611342cdaaab6ba492180156 hwmon: (occ) unregister sysfs devices outside occ lock
 828cd614e2af053ca5e1d6da767bbd8a1b5cabfb hwmon: (pmbus/core) honor vrm_version in pmbus_data2reg_vid()
 40ac87fedb4ceaae0aa3a427c371d4a0a1fae335 docs: hwmon: ltc4283: fix malformed table docs build error
@@ -539,6 +569,37 @@ ed576f2f4eef8cbe2c110da503825a8dc4717030 hwmon: (max6697) add missing 'select RE
 72a69101032d2932ba5bde38494a325cc6b5d614 hwmon: adm1275: Detect coefficient overflow
 9ef7dacd44216bf5ea05c8aef49eba4d145f4047 hwmon: (pmbus) Fix passing events to regulator core
 fe87b8dc67f1b2c64e76a66e78468c533d3c44ca hwmon: (aspeed-g6-pwm-tach) Guard fan RPM calculation against divide-by-zero
+62b68b774f06bf52e329f254f0199bc43d350ccf eth: fbnic: don't cache shinfo across skb realloc
+2b66974a1b6134a4bbc3bfed181f7418f688eb54 tipc: fix out-of-bounds read in broadcast Gap ACK blocks
+526b8ef54668780c8f69e0211c342763d5dcbad1 net: wwan: iosm: bound device offsets in the MUX downlink decoder
+8bc4d43bccbd60efe85d0a44d5bf41762f2f0c30 tcp: restore RCU grace period in tcp_ao_destroy_sock
+b74cd55038905d5e74c1de109ab78a30b2ea0e1f tcp: defer md5sig_info kfree past RCU grace period in tcp_connect
+6f6e860e370c9e4e919b92118a25e9e1f82e9180 tcp: Decrement tcp_md5_needed static branch
+622df5e3376492fb861945474fd51d233f156993 Merge branch 'tcp-tcp-ao-connect-fixes'
+9facb861dc6b9b9ea9793ef5032a9a826f7a4229 ipv6: fib6: fix NULL deref in fib6_walk_continue() on multi-batch dump
+2e996ca81f9512c2d39d826a5146e5fe4ab28277 netdevsim: remove ethtool debugfs files before freeing netdev
+de74d8fd10291763d97b218f09adcc7513c975e4 net/mlx5e: macsec: fix use-after-free of metadata_dst on RX SC delete
+8ff7f2a6da4fccaa5cc9be7251a24e71e29fbd1a usbnet: gl620a: fix out-of-bounds read in genelink_rx_fixup()
+8f31efff9206f9f0adb853cad6916086aac4d5ef net: phy: sfp: free mii_bus in sfp_i2c_mdiobus_destroy
+b521003c27ebf29701ead5baf217462425c584aa Revert "net: phy: sfp: probe for RollBall I2C-to-MDIO bridge in mdio-i2c"
+9282abe196537bff377104a64ea66561ef1c7aca Merge branch 'net-phy-sfp-fix-mii_bus-leak-and-revert-rollball-bridge-probe'
+1398b1014909618f65ff6bcebcb2ee5ccd44fdc0 MAINTAINERS: Update Jason Wang's email address
+241ccd2fed9051db443aadce248fc0ab30f55e97 netfilter: nf_conntrack_expect: zero at allocation time
+47e65eff50691f0a5b79d325e28d83ec1da43bcf netfilter: nft_set_pipapo: don't leak bad clone into future transaction
+7cd9103283b26b917360ec99d7d2f2d761bcf1ab netfilter: ipset: fix race between dump and ip_set_list resize
+e5e24a365a5e024efef63cc49abb345fbd4852c5 netfilter: nf_conntrack_sip: validate skb_dst() before accessing it
+bf5355cfdede3e30b30e63a5a74f6bdaafb26082 netfilter: nfnetlink_cthelper: cap to maximum number of expectation per master
+d07955dd34ecae17d35d8c7d0a273a3fba653a8c netfilter: nft_fib: reject fib expression on the netdev egress hook
+54f34607d184c1cc056c59a5b3d86d96dd6a515c netfilter: nfnetlink_queue: restrict writes to network header
+df07998dfd40796a05fff7ffea2661ad65ed42a7 netfilter: nftables: restrict linklayer and network header writes
+c3716a3c43465641ded6e01c0b187de42e87a80d netfilter: nftables: restrict checkum update offset
+d288efa2b94abc2e45a061fceb156b4f4e5b37be fsl/fman: Free init resources on KeyGen failure in fman_init()
+a7c6debfec17381329b094bd75560a1e57a5533a net: airoha: fix max receive size configuration
+6ab752e0b59b825c127d5c86438bee1e8b1641ea net: libwx: fix VMDQ mask for 1-queue mode
+39139b1c1c2b614096519b526112c726adb12ff0 net: lan743x: Initialize eth_syslock spinlock before use
+dbf803bc4a8b0522c9a12560c20905a5952d1cb9 net: gianfar: dispose irq mappings on probe failure and device removal
+e5b811fe793166aecc59b085c1b7c31262ef2316 net/sched: sch_teql: Introduce slaves_lock to avoid race condition and UAF
+2a00517db8de4be7df3d483b215c5544fb30a191 bridge: stp: Fix a potential use-after-free when deleting a bridge
 251a8fe1b9aedccd298b77bc28426d564c5a923f tracing/probes: Remove WARN_ON_ONCE from parse_btf_arg
 cda1fbfc5313bb90daa271d45eea4a8d317a8544 tracing/events: Fix to check the simple_tsk_fn creation
 206b25c09080cc20fd4c2bea12d59df4b7ba2121 tracing: eprobe: read the complete FILTER_PTR_STRING pointer
@@ -546,44 +607,82 @@ cda1fbfc5313bb90daa271d45eea4a8d317a8544 tracing/events: Fix to check the simple
 367c49d6e283c17b56a31e7a8d964a079244264c tracing/fprobe: Fix NULL pointer dereference in fprobe_fgraph_entry()
 a369299c3f785cf556bbef2de2db0aa2d294c4c9 tracing/probes: Make the $ prefix mandatory for comm access
 dec4d8118c179b3d12bca7e609054c6011c4f2ce bootconfig: fix NULL-pointer arithmetic in xbc_snprint_cmdline()
+57bb59ab6fa39128b733c71eaa0ab511109a0ea1 selftests: net: bump default cmd() timeout to 20 seconds
+976c19de0f22a857ba0112f39635f8fd7a257568 sctp: fix addr_wq_timer race in sctp_free_addr_wq()
+1eb8fc67ca41db71c90866ff76c990d85247daef virtio_net: disable cb when NAPI is busy-polled
+5d6dc22d62682d93f5f55f145ad792f2891de911 cxgb4: Fix decode strings dump for T6 adapters
+2f7f2e311106cb838d3f3fb6ef25effdb3f8e366 selftests: drv-net: tso: don't touch dangerous feature bits
+adc49c7ba690c9b33b8392ec27397456b65d0893 net/sched: act_bpf: use rcu_dereference_bh() to read the filter
 665159e246749578d4e4bfe106ee3b74edcdab18 Merge tag 'probes-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+bf83ee45874e9f071478bed39f9cf40cc741629f net/sched: dualpi2: clear stale classification on filter miss
+a225f8c20712713406ae47024b8df42deacddd4a net/sched: hhf: clear heavy-hitter state on reset
+0469d460a598d03fc85ebd97f99640e6c579e2a2 Merge tag 'nf-26-06-30' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 4a50a141f05a8d1737661b19ee22ff8455b94409 Merge tag 'bootconfig-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 bb09d0e64ecaa0aa0f7d1133a1696ed74dead295 net/mlx5: HWS, fix matcher leak on resize target setup failure
 d5d2d7a8d8be18681a0864f58e3875f1c639e11c MAINTAINERS: Add a mailing list entry to MFD
+7693eadcbb8cc32e7cde77ff2cdac67ac026a920 net: phylink: Drop references to the .validate() method in comments
+07d3aaa046ceffb2ed72010d88cb6071717c4906 selftests: drv-net: toeplitz: cap the Rx queue count
+f07f1e3dedb20077a401193c9b65fe37e7d38046 Merge tag 'batadv-next-pullrequest-20260630' of https://git.open-mesh.org/batadv
 d8e8b85a85fe21954d303db68034aac4639df88d Merge tag 'batadv-net-pullrequest-20260630' of https://git.open-mesh.org/batadv
+eb56577ae9a5aad5c15725a4121f9e560842bd79 ehea: remove the ehea driver
+4bbb6f5940708649b8f51ab22692c467a766518f powerpc: remove ehea driver references
+f5afff65a7743af1d68c338e358ae3f4936d3a7f Merge branch 'net-remove-the-orphaned-ibm-ehea-driver'
+8c9c5b9a689612dcb92a04a4218c975cd19f19d8 net: usb: rtl8150: handle link status read failures
+09cfee6a80047850581ad373cffac6034fedf0be ionic: Change list definition method
+69bf497cfa799f80cade1ce5e663fb3c58da7b85 net: dsa: realtek: rtl83xx: Make learning optional in join/leave
+82ddf181448ba93b12f8d2e2b6ba7ab38e66c8b9 net: dsa: realtek: rtl8366rb: Switch to generic port_bridge* handlers
+cc61d5d7c205502d87f720ef86de9a6819f913e7 net: dsa: realtek: rtl8366rb: Use DSA port iterators
+e058ab0c46168d5acb5ce59dbc28b62507b8e426 net: dsa: realtek: rtl8366rb: Disable STP learning on all ports in setup
+b269a05961913b81753dc2f9ae87469a6815a534 net: dsa: realtek: rtl8366rb: Switch to generic learning enablement
+ff052cfcf8cd52e2fccd1f94b2db41e6f85c663c Merge branch 'net-dsa-realtek-rtl8366rb-use-generic-rtl83xx-code'
+49c5ad3cd51885fe9883cc641a0b5a5c3a99dbbe octeontx2-pf: link RQ page pools to netdev for Netlink stats
+b8ea7da314c2efcb9c2f559ed65b7a36c869d68e net: dsa: qca8k: fall back to ethernet-ports node name for LEDs
+b010e2a4a9ac2bcd0db2c3a41877d59d827a8a80 netfilter: nfnetlink_hook: Dump nat type chains
+9cc4d9720d70f391dca52a07e72652f1693a6239 netfilter: x_tables: replace strlcat() with snprintf()
+32b00984e002708d55b3ad3830198d3ba9126e09 netfilter: replace u_int8_t and u_int16t with u8 and u16
+1501ab0701fdd4571658e5829a2178f1af1f3917 netfilter: avoid strcpy usage
+5efbced92ec19514528ce6b18ae8e1b755cc4552 netfilter: remove redundant null check before kvfree()
+68fc6c6470d653fcfa7655f4f2b36ff444cb72b3 netfilter: xt_tcpmss: add checkentry for parameter validation
+60aee97fc7f8c0ad18474b984db47210e5a7b5f2 netfilter: xt_dscp: add checkentry for tos match
+26fb502773bc472723930a59dbe561d250c45a5a netfilter: nf_conntrack_helper: do not hash by tuple
+5de6c8ad0bcccef1be55ad07d29833df69b601cf netfilter: conntrack: get rid of tuple in helper definitions
+78217fb2ccf9d3963dd32d86712ba42e7fd619a8 netfilter: conntrack: remove obsolete module parameters
+43ae85af154b27f9a0ff602f7a01e3a7583ffdab netfilter: ebtables: bound num_counters like nentries in do_replace()
+d4beefc90a66672e43fdf82b43e4b3c0b1b18c5e netfilter: nft_ct: support expectation creation for natted flows
+b5997f911eec53790d56ca438c8ad61e872d795b net: add sockopt_init_user() for getsockopt conversion
+f99d7065a4d45529ccfdc630c1f278da805cf59f udp: convert udp_lib_getsockopt to sockopt_t
+9588d5da17ce1d52ab8356ea2d7231988d1e11fa ipv4: raw: convert do_raw_getsockopt to sockopt_t
+f4d5e3a5c7bc3d789b5138ef127ab27e0128e2da selftests: net: getsockopt_iter: add raw ICMP_FILTER coverage
+15fede6ca522fe192191df48856004497475b6a0 Merge branch 'net-convert-udp-getsockopt-to-sockopt_t'
+140be217df577961bea1ca36240439a463026cbd net: mvneta_bm: add suspend/resume support to prevent crash after resume
+5ba5611ef946fc43d7e74cd050f334a9420de136 octeontx2-af: reserve 4 PKINDs for skip-size custom use
+961db18e28d0ab6a684292e0efc99ba24377d394 octeontx2-af: Add RSS hashing support based on RoCEv2 header
+08bc5b2636afcbadc31bb17243eec094e048bd79 Merge branch 'octeontx2-af-npc-parser-and-rss-improvements'
 db78c0db411b111b438f00a1ba418e995b5bd246 Merge tag 'mfd-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 a9d4dd742466cab468a950441447c614a3920aad Merge tag 'hwmon-for-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 87320be9f0d24fce67631b7eef919f0b79c3e45c Merge tag 'net-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-03f384bc0cb8d4a1301d4f5b0baef2d980258383 net: usb: net1080: validate packet_len before pad-byte access in rx_fixup
-62e7df6d042aeebd5efb581074e28865c04477be octeontx2-pf: fix SQB pointer leak on init failure
-d335dcc6f521571d57117b8deeebc940836e5450 gue: validate REMCSUM private option length
-77e43bcb7ec177e293a5c3f1b91a2c5aebfb6c68 netfilter: nf_nat_sip: reload possible stale data pointer
-64cdf7d30ac18e43df6c48004435febb965809a8 netfilter: xt_u32: reject invalid shift counts
-444853cd438201007da5359821adcc2995655ab1 netfilter: xt_rateest: fix u64 truncation in xt_rateest_mt()
-278296b69fae5dd951599692cd481bae4995215c netfilter: nfnetlink_cthelper: cap to maximum number of expectation per master on updates
-43ccc20b5a733226417832cf16ef45322e594990 netfilter: ip6tables: mark malformed IPv6 extension headers for hotdrop
-d63611cbe8af99dd61b118ee6e5b5e3e518250b2 netfilter: nft_set_rbtree: get command skips end element with open interval
-6b335af0d0d1ff44ac579d106953bf19299e5233 ipvs: fix PMTU for GUE/GRE tunnel ICMP errors
-2975324d164c552b028632f107b567302863b7f6 ipvs: reset full ip_vs_seq structs in ip_vs_conn_new
-1b47026fb4b35bac850ad6e8a4ad7fc018e09ebc netfilter: xt_connmark: reject invalid shift parameters
-6301f6a34ed86fe6f3b7b3211ea069f3677fc559 net/sched: sch_teql: move rcu_read_lock()/spin_lock() from _bh variants
-539dfcf69105d8d3d4d677b71de6e5ede2e6dfa0 mac802154: remove interfaces with RCU list deletion
-0f0e4ae6975c773f7854fc48932a267f6c79088f net/mlx5: LAG, Fix off-by-one in single-FDB error rollback
-d4b85f9a668b9c44216bb78daf4ec1a915cc92d1 net/mlx5: LAG, MPESW, Fix missing complete() on devcom error
-7bed4af0ced82948d660205efecd551ef8bc3912 net/mlx5e: TC, skip peer flow cleanup when LAG seq is unavailable
-88c4273ab4c237e2c01e175ba5e9ab62b34eb4dc Merge branch 'net-mlx5-lag-bug-fixes'
-25f6b929c7e379cbea7cb8caa67b49b2d1efae17 net/mlx5e: Fix HV VHCA stats zero-sized buffer allocation
-89b25b5f46f488ea3b29b3444864c76944c9075b net/mlx5e: Fix HV VHCA stats agent registration race
-5a799714e8ca0bce9ea40694f49914cf1adbbaa9 net/mlx5e: Fix publication race for priv->channel_stats[]
-d6456743424721a837e1509b912f362caaeecd97 Merge branch 'net-mlx5e-fix-crashes-in-dynamic-per-channel-stats-and-hv-vhca-agent'
-660667cd406648bbaffbd5c0d897c2263a852f11 llc: fix SAP refcount leak in llc_ui_autobind()
-d7a8d500d7e42837bd8dce40cb52c97c6e8706a9 net: microchip: vcap: fix races on the shared Super VCAP block
-a0a558ca7e75b49e71f8c545c30e8c005e6e4e2f qede: fix off-by-one in BD ring consumption on build_skb failure
-dd6a23bac306b7aa322e0aaccb60c6e32a198fb3 selftests: net: make busywait timeout clock portable
-b65a794f50da37405690b704ce9eda3fccf3c4db Merge tag 'nf-26-07-03' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-f0f1887a9e30712a1df03e152dce6fb91344b1f3 net: qualcomm: rmnet: validate MAP frame length before ingress parsing
-8b519cbcabe836a441369fbec1a8a6518a709251 net/sched: act_pedit: fix TOCTOU heap OOB write in tc offload
-9d160b35cc34a2ba8229d07651468a7848325135 net/smc: fix UAF in smc_cdc_rx_handler() by pinning the socket
-9e05e91a9a847ed57926414bd7c2c5e54d6c56c6 amt: fix size calculation in amt_get_size()
+2bb62a85aff6d4c14a62a476dfabaada3c1cc014 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+2ed8d5c72488bca9666fefa942ed2dc07cc0c56a ipv4: fib: fix route re-dump in inet_dump_fib() on multi-batch dump
+7cb8198761e627ff3a3b4770c8f147e75c4e649d net: ipv4: report multicast group user count
+e1d0f3f0839103bc5387d2fa78eb1fd9af2d1fe1 net: ipv6: report multicast group user count
+3373cb099e6692b219328960e1d1ea70b978f20b selftests: net: check multicast group user count
+8d96107b5828be42c7ece7bba0e590811052e9dd Merge branch 'net-report-multicast-group-user-count'
+df87e5c4e94e5f52020f51a071353956df814b22 tools: ynl: pyynl: re-export the library API from the package root
+10c90f1bba3ad979b77f0778e295fb974e78f0cc tools: ynl: pyynl: pull the --family resolution logic into the lib
+6fb33632323a396c9dc2bb9bea483e013e547d57 Merge branch 'tools-ynl-pyynl-pull-the-family-resolution-logic-into-the-lib'
+ed37710d6c672561c3309dab4b86d0f18c8534ff macvlan: annotate data-races around vlan->mode and vlan->flags
+6d728e7e286b8537422ab5b0ea1f9af9ce7b5794 macvlan: no longer rely on RTNL in macvlan_fill_info()
+a87a558f85d33ef1953c28aec97d3101d8f84ee2 Merge branch 'macvlan-rtnl-less-macvlan_fill_info'
+5a5ebefdab9d1de4a4af09555dc7359cc3c0b34f macsec: no longer rely on RTNL in macsec_fill_info()
+b73bc9ca3686b78b642fb35dcc1fdf874ecb74a1 Merge tag 'nf-next-26-07-02' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+d7261cdb9550733b9003123eabb986d80fa9155d net: hns3: add support to query/set TX pfc_prevention_tout for ethtool with RX prevention disabled
+586c4dcf28eb68756d44a30cfcc9535380f07cc6 amt: no longer rely on RTNL in amt_fill_info()
+1704cc8640702c93e79921e2dffff3cfa31f0ce5 selftests/tc-testing: Add tests that force multiq and taprio to enqueue to child's gso_skb
+b1d0c412088e3908821ef2ec52e2c0e5e7f5a535 dpll: add STATE_CONNECTED_OVERRIDE pin capability
+0cc8348a9786727e3622f833f442e8b45e2d363b dpll: add DPLL_PIN_TYPE_INT_NCO pin type
+2b11bde391c4a58cd006d98c5deb2538904709e2 dpll: zl3073x: use per-operation poll timeouts
+21460118d71b05bac091d8d5bcdb34439f697167 dpll: zl3073x: add per-DPLL serialization lock
+3553976ffe2f0ccb7f667725816e41c44f0e4729 dpll: zl3073x: add NCO virtual input pin
+474cff6868129755cf889edf40d7f491729fc588 Merge branch 'dpll-add-nco-pin-type-and-zl3073x-support'
 
---===============0173108122499138173==--
+--===============2138091107650828493==--
