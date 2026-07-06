@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2759559184098983977=="
+Content-Type: multipart/mixed; boundary="===============2005720356235493294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 06 Jul 2026 22:51:23 -0000
-Message-Id: <178337828307.439294.2743875360970930231@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 22:51:25 -0000
+Message-Id: <178337828583.439385.7288424326557069960@gitolite.kernel.org>
 
---===============2759559184098983977==
+--===============2005720356235493294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d6e81529749190123aa0040626c7e5dbc20fdc9a
     new: 474cff6868129755cf889edf40d7f491729fc588
     log: revlist-d6e815297491-474cff686812.txt
 
---===============2759559184098983977==
+--===============2005720356235493294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -685,4 +685,4 @@ b1d0c412088e3908821ef2ec52e2c0e5e7f5a535 dpll: add STATE_CONNECTED_OVERRIDE pin 
 3553976ffe2f0ccb7f667725816e41c44f0e4729 dpll: zl3073x: add NCO virtual input pin
 474cff6868129755cf889edf40d7f491729fc588 Merge branch 'dpll-add-nco-pin-type-and-zl3073x-support'
 
---===============2759559184098983977==--
+--===============2005720356235493294==--
