@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1184261917855025934=="
+Content-Type: multipart/mixed; boundary="===============2724511489685093274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Mon, 06 Jul 2026 20:55:06 -0000
-Message-Id: <178337130646.356040.7910607656877216945@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 20:58:46 -0000
+Message-Id: <178337152680.357529.12096179753369496639@gitolite.kernel.org>
 
---===============1184261917855025934==
+--===============2724511489685093274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lindholm/alpha
 user: lindholm
 changes:
-  - ref: refs/heads/for-linus
+  - ref: refs/heads/for-next
     old: 3a270e211595cc350d61330362c8d7409b9cd018
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-3a270e211595-dc59e4fea9d8.txt
 
---===============1184261917855025934==
+--===============2724511489685093274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============1184261917855025934==--
+--===============2724511489685093274==--
