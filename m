@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3710211663887258782=="
+Content-Type: multipart/mixed; boundary="===============3993935426828665298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 06 Jul 2026 17:54:07 -0000
-Message-Id: <178336044778.227876.15136557154577239131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Jul 2026 17:54:11 -0000
+Message-Id: <178336045108.228036.15095927142732969615@gitolite.kernel.org>
 
---===============3710211663887258782==
+--===============3993935426828665298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/spi-7.3
     old: 5d14285d60ba95561609a293064654a0c7d7d928
     new: 4f98f533f6470507d62a3ee4a4ba74de40772667
     log: revlist-5d14285d60ba-4f98f533f647.txt
 
---===============3710211663887258782==
+--===============3993935426828665298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1783360445 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1783360445-32786c857eb025b4d872daf38b8fecdba7eb5bee
+pusher C3F436CA30F5D8EB 1783360449 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1783360448-f892cc1e5f4b4db743af16f100929392b1ca2c89
 
-5d14285d60ba95561609a293064654a0c7d7d928 4f98f533f6470507d62a3ee4a4ba74de40772667 refs/heads/for-7.3
+5d14285d60ba95561609a293064654a0c7d7d928 4f98f533f6470507d62a3ee4a4ba74de40772667 refs/heads/spi-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpL670ACgkQJNaLcl1U
-h9AgvQf/bM964Qm6+cVAcPmb9dPUGypSewHvyRdGK4uYO4VEszZVafH6mpaWeqyY
-cxdIHtKZ2GuGBssWv09NKbrhsWJuCVKr4iLHop8gmuElldDOZM7m62j2JzrzwhQn
-B8jH1d4FaJLYYU2sFdchjcBSPycNmqsvhiFATKS6frmB+YqYmBK3q98njLFnnOeb
-7xAECL0q3EH/GXWRTFiM8n//Npo7MiqjFg9JFmACrK96+fyEl8zddBl0sq2yUIrU
-A2q2cG5k4K1ii9bXgESxU6lxiQp++lAGMK676xJqAFk/jhNb4EDJTG9ApJTZNq4s
-Ba69g8sdbHF53cXjdFGuuuzIVOeEmQ==
-=rjn7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpL68EACgkQJNaLcl1U
+h9Di8Af/TTt/a52j2xGTpj0STP6fq3cxVWgBXbGhX7G9JuA194QKfWd9wXtpNde1
+KnL9OU8CEHlnDD6nHhxd01rwLowjwJa1DwAKz+nHkyRU8+26h4QrbLb1q+62dgnU
+LLUWUJQJOsYr6pd1+q4+czO2szCz4fqr6i7WKGGYRsfFloCKLKUbsSYQzS53iyUr
+TzJZ3dF21lBFvTnkclFrmTCU1YpfyqitUxCDZB6Pq8kdVuJIVz644vuW5GCjKqe5
+WPGsxJ/KP/50YpnRLrX52juiTH8Mif6g5ctaWluP4xSCkVXBzRf9q5KOpXk72NgB
+xz9pOhpKrmai09xdwgiAFWCAG0mPMA==
+=Dp0N
 -----END PGP SIGNATURE-----
 
---===============3710211663887258782==
+--===============3993935426828665298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -488,4 +488,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 b3e1d0948ca94a16a81ea8cc26c6246e6cc44943 spi: qcom-geni: Enable SPI on SA8255p Qualcomm platforms
 4f98f533f6470507d62a3ee4a4ba74de40772667 spi: Enable SPI on SA8255p Qualcomm platforms
 
---===============3710211663887258782==--
+--===============3993935426828665298==--
