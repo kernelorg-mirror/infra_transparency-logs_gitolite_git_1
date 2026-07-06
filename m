@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4441177433926456125=="
+Content-Type: multipart/mixed; boundary="===============5775188679896964295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 06 Jul 2026 08:46:51 -0000
-Message-Id: <178332761154.4031650.16212601329364214198@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 08:47:08 -0000
+Message-Id: <178332762827.4032026.16810220676605092142@gitolite.kernel.org>
 
---===============4441177433926456125==
+--===============5775188679896964295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: d5bf076679e88c6b77d5628b70a5a64db5c8c785
-    new: 0d61bcd886e0ad9395368a7d11ee3856ae915ceb
-    log: revlist-d5bf076679e8-0d61bcd886e0.txt
+  - ref: refs/heads/m68k-queue
+    old: a2f241db443755b1d540019492e8b57d6f006c01
+    new: e4ea86973fa7a65e70ab19bc84b4d840a3b7c18e
+    log: revlist-a2f241db4437-e4ea86973fa7.txt
 
---===============4441177433926456125==
+--===============5775188679896964295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5bf076679e8-0d61bcd886e0.txt
+Content-Disposition: attachment; filename=revlist-a2f241db4437-e4ea86973fa7.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -459,6 +459,8 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-0d61bcd886e0ad9395368a7d11ee3856ae915ceb Merge tag 'v7.2-rc2'
+26ab46fbc7b4908299b43df55eb159fcc2546575 m68k: atari: usb: Add ISP1160 USB host controller support
+a444071076f298ca8e8cb943b566cb9b0242993d m68k: atari: Update Kconfig.bus help text
+e4ea86973fa7a65e70ab19bc84b4d840a3b7c18e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4441177433926456125==--
+--===============5775188679896964295==--
