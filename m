@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5345158213182396637=="
+Content-Type: multipart/mixed; boundary="===============0617213593230594049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 06 Jul 2026 15:01:32 -0000
-Message-Id: <178335009247.103486.11559329213601048891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 06 Jul 2026 15:01:54 -0000
+Message-Id: <178335011471.103833.10312458204049300420@gitolite.kernel.org>
 
---===============5345158213182396637==
+--===============0617213593230594049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 3c74823027ea6248984bd44956223b984142d8b4
-    new: 9600d4009ae046df92fbb892b99411ad6c63bb29
+  - ref: refs/heads/t1000
+    old: 06318317b24173469e56561c7b5cd6dc52d26188
+    new: 122372d9c5570d4711303dbc5840b2b6601fbdd6
     log: |
-         59f8942e9702e62319d1151770620a23a82fa8c7 dmaengine: fl1-edma: Add error handling for devm_kasprintf
-         6f15a1a312c4d2e15e9516cdb7a876ea9f334121 fpga: dfl: fme: add error handling
-         b388914e117c4285f2fbbe7950b16229238511f8 drivers/perf: thunderx2_pmu: add error handling
-         9600d4009ae046df92fbb892b99411ad6c63bb29 soc: imx9: devm_kasprintf error handling
+         cbd803e63862bcd454c4087d8df9e643ba7063a3 dmaengine: fl1-edma: Add error handling for devm_kasprintf
+         0716498f7494d165afb3038eaf2ffa7d192a42ee fpga: dfl: fme: add error handling
+         69300df615e0d0711f6f1cd52651e0955b9997dd drivers/perf: thunderx2_pmu: add error handling
+         122372d9c5570d4711303dbc5840b2b6601fbdd6 soc: imx9: devm_kasprintf error handling
          
 
---===============5345158213182396637==
+--===============0617213593230594049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783350092 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1783350075-8a04f17128229e3c36b119e08dde0d011e29e106
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783350129 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1783350113-1cf7770e7b75c823c5249257123844444f45ba9b
 
-3c74823027ea6248984bd44956223b984142d8b4 9600d4009ae046df92fbb892b99411ad6c63bb29 refs/heads/clanker
+06318317b24173469e56561c7b5cd6dc52d26188 122372d9c5570d4711303dbc5840b2b6601fbdd6 refs/heads/t1000
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpLw0wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BF4P/1z7fyn5YRQD34cz4Ac0
-x1lOqv0mUV3hP6ed8PJU8FI9zXzrrowxN1sqpSgnU+73q6zCrsmDW3DDdWNuQZx8
-pcdZ6uw6aHrRiTeKmOUqqyyMCyQdbyIua1yWh4zUDu/UvekRBbtfUzSsU+NFo8hx
-bZn2d2CnehGeopsJowK4U1MKto8TT0sTgZXacPB6GMTsy5nSHer4wpkMP5yLOtb+
-d7ckzyOSfZaFZp00Jio8igSLlv6YiSYSUJc4N9ilAnl2pujLOJA62N6eTJi/LrW3
-rlSrwBlfdzDt1JkR0AQUom3nVlUwxVZocKAbIs+N3FGkujgLzWK6z2i23Hmg6SeL
-mmlgdnX6eJZs4ILD5SHyV+LCYJAkc+z3D2JyI3jKwMX6Idlqp7GpLLiWCQaSgHP0
-00ivudfVDnAVnaeIRStXUsjU50aI5CxcTDI7two7OaoaIvJ3Zu0aw4klxufQLpiH
-a8hixiUiTvpleRhlUw++3J6pD0HCkiwO8H7BaDd+AZx0TkHLCT/GC3ITN6b8Bufp
-q3ASTrCUX0pKck9OHinv8ptLJvF2VQ83It/mHF3jvDCxCKxrjbwibkh1so+gweei
-ZyrEUq9rYuF2UX4Bn34izq4oYS9dsdSD8Umi8LFalaO57DLBiJv98JDtKQtr3/Tu
-qmUJY4ogZSMSSlRRvc4aHQkZ
-=19+G
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpLw3EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9HIP/2P8A6t22ifc0TtDNryW
+HlQ9z4xz2nHW+x0GMHs9k9V3svg2PKq4ZGn7S7v+XpNrnGIS1N0Z32HmodMYqHdt
+CEVNolYxbGZLwRxU2ZjuMpXbHU6UgO1xEqznHT/DWck7N37I8+yvNXb9sl/EY6m1
+vmdyJHRF8KJt3PdM2MciFzzKXLwoTB2nm9SOEbwImvaKmIo/S4wlT+n+oDweW+Ij
+c/yylLGLkQderQwS12wLgOLeBuAaNJpDpQii1iN00h1ouwpu+6c5dB4riqaw5oDp
+yGfF6ZMM87QG3wx1Z+me/Ewy8/oYDp3h21S1kWf0EJIG7L5imiJ/rgqc8UmWQizg
+RteWP/OKStl7/avCmA5O7tGQJ9dRL6AKBe2dZzQ24bxLYZFSzAPMOS5jcpVzzIxz
+qVjdJ/XNW0fo/j9Fv1makuY8nl6xrYM+/qF/TVsfdffWiCall2SO0LGbMxqjTlFQ
+ZKrz9xFAkj9bUPQDmJPEn21blmVV2J1AbJ1AFdGGqw9RobSiEc46g34BavXAyodU
+MsVUHG5RFIdlc+3Z7FvkEEIp7jweyuUW1JcM+ELUzLtaQ4eDbJApA5rJN3iZh6+u
+dCcefZuHyBt+a0at2GWI1l65QYtL8fW6rbnG9lmqV8+6LfsL12Ug79TkyuwTM3lc
+cXKtDXLlK0QrPrbYbwe+/yZO
+=SB5n
 -----END PGP SIGNATURE-----
 
---===============5345158213182396637==--
+--===============0617213593230594049==--
