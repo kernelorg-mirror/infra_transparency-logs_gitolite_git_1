@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3054214351091607939=="
+Content-Type: multipart/mixed; boundary="===============8079243622761903444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 06 Jul 2026 13:47:00 -0000
-Message-Id: <178334562002.45165.11016516100309156358@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 13:47:05 -0000
+Message-Id: <178334562595.45499.16967661672418087476@gitolite.kernel.org>
 
---===============3054214351091607939==
+--===============8079243622761903444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 6f5bb305ad9fdf9675180607000bf68fb1fcca0d
-    new: 8e5a6599a38e5515cd2b5f34fe8a8ac476f8b127
-    log: revlist-6f5bb305ad9f-8e5a6599a38e.txt
+  - ref: refs/heads/spi-7.3
+    old: 5d14285d60ba95561609a293064654a0c7d7d928
+    new: 4f98f533f6470507d62a3ee4a4ba74de40772667
+    log: revlist-5d14285d60ba-4f98f533f647.txt
 
---===============3054214351091607939==
+--===============8079243622761903444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f5bb305ad9f-8e5a6599a38e.txt
+Content-Disposition: attachment; filename=revlist-5d14285d60ba-4f98f533f647.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
-6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
 8522d806d84e2c3816c275ae6dd79e124c1b3dac ACPI: TAD: Check AC wake capability before enabling wakeup
-c1bab046d4786c5b17aab7c5225bf0d4a2a2d19b spi: core: Abort active target transfer on controller suspend
 0fa749771993033befb9dda60b023782cb5fd2d9 riscv: Raise default NR_CPUS for 64BIT to 256
 625ee71c3283dd322856060f9f4d344e2edc3c14 raid6: fix riscv symbol undeclared warnigns
 5c5dea43f6354e8dbd13bcb7e478f85593e19d90 raid6: fix raid6_recov_rvv symbol undeclared warning
@@ -459,9 +457,10 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-a118fea777a2c04da7c5ccf1141d317838a79a46 ASoC: codecs: cs42l42-sdw: Propagate regcache_sync() errors
-e074c12c428c633e079154301207a6079a208583 ASoC: cs35l33: drain threaded IRQ before runtime suspend
-4105a4c0678b2808fc8046b60321b4f1cc7dae75 ASoC: cs35l34: drain threaded IRQ before runtime suspend
-8e5a6599a38e5515cd2b5f34fe8a8ac476f8b127 ASoC: cs35l3x: drain threaded IRQs before runtime suspend
+59841dc5f6ae71645eaf8b0b86bd58c7ee58a776 spi: dt-bindings: describe SA8255p
+647277240b3623808c583d3d38e74d47180f60de spi: qcom-geni: Use geni_se_resources_init() for resource initialization
+059e41aab4c860287bbef20c8ea11cff5731883d spi: qcom-geni: Use resources helper APIs in runtime PM functions
+b3e1d0948ca94a16a81ea8cc26c6246e6cc44943 spi: qcom-geni: Enable SPI on SA8255p Qualcomm platforms
+4f98f533f6470507d62a3ee4a4ba74de40772667 spi: Enable SPI on SA8255p Qualcomm platforms
 
---===============3054214351091607939==--
+--===============8079243622761903444==--
