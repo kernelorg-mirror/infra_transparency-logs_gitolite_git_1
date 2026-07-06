@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 06 Jul 2026 19:23:23 -0000
-Message-Id: <178336580344.291379.16824348230655777226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 06 Jul 2026 19:25:06 -0000
+Message-Id: <178336590623.293886.9946217690631851392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: dbbb5bc5176e36b13aa22e2174ab4779c5ae1dca
-    new: 397bb527c61687c3b554e069d7869eb68e12c535
+  - ref: refs/heads/kunit
+    old: 643ec8ff7d8ed15881bd05d71de24208ce0dadcb
+    new: f47180b0e9cc59e1989adb093a4b94187642b405
     log: |
-         b3550226e5d256ba95a1b38703f98eb877b9ac48 regulator: dt-bindings: qcom,usb-vbus-regulator: add qcom,pm4125-vbus-reg
-         bf8fee6d7c69e9ad2487eac339a864afb6480030 regulator: qcom_usb_vbus: add register abstraction and PM8150B support
-         f370ee907a4df87266728af575d932757cf7c29a regulator: qcom_usb_vbus: add support for qcom,pm4125-vbus-reg
-         397bb527c61687c3b554e069d7869eb68e12c535 regulator: qcom_usb_vbus: add pm4125 VBUS regulator support
+         7eac3330517472ea06590c14e683db694ed7a28e Documentation: kunit: Test Kconfig entries shouldn't select other configs
+         483cd4bdd077e6f5342d32ecc6517b0a39be235f Documentation: kunit: Fix outdated FAQ entries
+         f47180b0e9cc59e1989adb093a4b94187642b405 kunit: string-stream: Replace strlcat() with strscpy() and seq_buf
          
