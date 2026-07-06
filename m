@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 06 Jul 2026 10:59:05 -0000
-Message-Id: <178333554529.4124728.10556350473639487923@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 11:02:42 -0000
+Message-Id: <178333576235.4128179.10613202565475483368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 8b519cbcabe836a441369fbec1a8a6518a709251
-    new: 9d160b35cc34a2ba8229d07651468a7848325135
+    old: 9d160b35cc34a2ba8229d07651468a7848325135
+    new: 9e05e91a9a847ed57926414bd7c2c5e54d6c56c6
     log: |
-         9d160b35cc34a2ba8229d07651468a7848325135 net/smc: fix UAF in smc_cdc_rx_handler() by pinning the socket
+         9e05e91a9a847ed57926414bd7c2c5e54d6c56c6 amt: fix size calculation in amt_get_size()
          
