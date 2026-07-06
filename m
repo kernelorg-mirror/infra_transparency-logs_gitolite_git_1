@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Mon, 06 Jul 2026 04:20:53 -0000
-Message-Id: <178331165349.3798866.4115150211592239416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 06 Jul 2026 04:23:42 -0000
+Message-Id: <178331182270.3800359.10377379201977309204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/tags/hexagon-qemu-boot-04-july-2026
-    old: ef08242d98c508f43ee1f90745d10c61de4ee9ce
-    new: 29facc8c3b3fe50f4914c90aec24a76217fa35c1
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: d87cb889dc7ab1f2deecadf2a5e9023184bd7900
+    new: f456178290356167c7349d51432889113565d1ba
     log: |
-         29facc8c3b3fe50f4914c90aec24a76217fa35c1 hexagon: fix console name in QEMU boot doc
+         f456178290356167c7349d51432889113565d1ba rust: rcpufreq_dt: use vertical import style
          
