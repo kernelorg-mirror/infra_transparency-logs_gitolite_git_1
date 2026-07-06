@@ -1,51 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1069412007998181423=="
+Content-Type: multipart/mixed; boundary="===============8643643012564739233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 06 Jul 2026 08:28:03 -0000
-Message-Id: <178332648372.4018341.6151146824323600876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 06 Jul 2026 08:41:03 -0000
+Message-Id: <178332726391.4027636.16671484238174053202@gitolite.kernel.org>
 
---===============1069412007998181423==
+--===============8643643012564739233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: ff7836fa850c2f815bc219f1e48f6ec8699f4ae7
-    new: 67e753cf04489d45e93406ee6715e2a0d71ec457
-    log: revlist-ff7836fa850c-67e753cf0448.txt
+  - ref: refs/heads/mips-fixes
+    old: 0880884b36d1230a80a0322abc9b9c7b26942b65
+    new: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+    log: revlist-0880884b36d1-8cdeaa50eae8.txt
 
---===============1069412007998181423==
+--===============8643643012564739233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1783326479 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1783326479-0adf3ef71a3227ba84d5772ccf1b3987c08abdbc
-
-ff7836fa850c2f815bc219f1e48f6ec8699f4ae7 67e753cf04489d45e93406ee6715e2a0d71ec457 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaktnEQAKCRBZrE9hU+XO
-MbNrAQCg25q8E7EVO+0+p91UNmysZeVkdnDyU8NBoYu9Mbgk2QEAke8XItYdXGof
-a2lqwRcAJ+kVLGGqxUx7DaRnWqdPwAE=
-=pI84
------END PGP SIGNATURE-----
-
---===============1069412007998181423==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff7836fa850c-67e753cf0448.txt
+Content-Disposition: attachment; filename=revlist-0880884b36d1-8cdeaa50eae8.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -100,11 +79,6 @@ c752838874578b7f0267d9f3e73892b1c7a0d9cc xfs: split up xfs_buf_alloc_backing_mem
 19dc95d4b6cf81e1878a3abd587afc967b75d5ce xfs: simplify the failure path in xfs_buf_alloc_vmalloc
 7f53bf79bdbac36b644b9fe7a77516baf8de5109 xfs: fix AGFL extent count calculation in xrep_agfl_fill
 032a6f6ce21fc701468fd15403d2f53a30107f5b dma-fence: use correct callback in dma_fence_timeline_name()
-eacaf5ae747f7dead6cc268de17a7382d79031fc MIPS: DEC: Ensure RTC platform device deregistration upon failure
-a9e0237d2eb5f1e35f500cfa1a82a242b7c8686c mips: Add build salt to the vDSO
-6d5fbecd0213489bc4de71a0da194d18e654fd6e MIPS: mm: Add check for highmem before removing memory block
-dceafc180309977fa06ff668b5f4f978d5c2dbee MIPS: loongson64: add IRQ work based on self-IPI
-0880884b36d1230a80a0322abc9b9c7b26942b65 MIPS: configs: Enable the current Ingenic USB PHY symbol
 5cff1529a2f9b3461a7f5a6e36a86682fc290534 ALSA: us144mkii: capture_urb_complete: redundant usb_anchor_urb corrupts anchor list on each resubmission
 035219a760edb35ae9a9e96beba7f122e26a997b dma-buf: dma-fence: Fix potential NULL pointer dereference
 77a9298741f8f9e8b963c977f5582ab21c6d3427 dma-fence: Make dma_fence_dedup_array() robust against 0-count input
@@ -480,32 +454,5 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-7bc99dff4d975e850ecb3393811c4264aee24335 platform/x86: asus-armoury: gate PPT writes behind active fan curve
-27ef0cdcdc208fbb0d06812d2cc0564d82c7fcd9 platform/x86: msi-ec: Add MSI Raider A18 HX A9WJG EC firmware
-63af040b0b4067d75e59df9fa093f3f5dbc5899e platform/x86: uniwill-laptop: Add keyboard backlight support
-69be0016c161eb08d3f2ce3dc5c1d31ecf990f18 platform/x86: uniwill-laptop: Handle screen-related events
-c393505bab5b1fa25aa702c04a25b3bae0a570ee platform/x86: uniwill-laptop: Add AC auto boot support
-e02c8d7a197d8a94e30fdcdee2a626d8a9ae1549 platform/x86: uniwill-laptop: Add support for USB powershare
-e76799915b86f0604ae7b944830e6166faa68f0f platform/x86: uniwill-laptop: Add support for the MACHENIKE L16 Pro
-efd0636aaedb0a42793d85c1eae3832f12fd45d2 platform/x86: uniwill-laptop: Add support for the AiStone X4SP4NAL
-866e728b489b942b9c749b484df725323142851e platform/x86: uniwill-laptop: Add lightbar support for LAPQC71A/B
-e5a316220dae1a4563bf4e2f3aa1213a19ab8ed8 platform/x86: hp-wmi: Introduce board-specific feature data
-c1ce649189edf6acb635f23d4b3028e0706d3ac8 platform/x86: hp-wmi: Drive fan control from board data
-c95f61d198c7a9123aa1b397aba6d4be7c639ffb platform/x86: hp-wmi: Add Victus 15-fb0xxx support
-dd26a15b1d28070ae54b3d3f2026b210a2dd22ac platform/x86: dell-privacy: Fix race condition
-16e2c381d72c4479fd1f52054188e6d903cadacb platform/x86: dell-wmi-base: Fix resource leak on module load failure
-530a2dd4ee84948768fdce60dae8632695000d6e platform/x86: dell-wmi-base: Fix handling of ultra performance key
-356f771f3a4a9d34ccaf9868c89aa1d1d1d25dc6 platform/x86: dell-ddv: Use no_free_ptr() to simplify error handling
-3488f47278987ae1f9b00e42bdb8308c333a37d0 platform/x86: msi-wmi: Reformat msi_wmi_notify()
-41cd652e1b8f4366682ee83da9987d3eca5cc75c platform/x86: msi-wmi: Add MSI Claw M-Center keys
-9e560f6761e3dd1c23d6419741946bcfaa5261b2 platform/x86: dell-wmi-sysman: Don't hex dump attribute security buffer
-e05f35070d27b7a971754d80fd2f8792b1f8aa36 platform/x86: lenovo/ymc: Only match lower byte in WMI lid switch query response
-bfd4586c84580fe51437128a4e85768c15d99667 platform/surface: aggregator: Consistently define ssam_device_ids using named initializers
-be3e8304fc35ef2b6bacd09b9de942c6b5d8e49b power: supply: surface_{battery,charger}: Consistently define ssam_device_ids using named initializers
-67444032146adaa97dd86512f7179abbc42ba725 platform/x86: toshiba_bluetooth: Use more common error handling code in toshiba_bt_rfkill_probe()
-258da36b410da13651646934b811f143fa333a60 platform/x86/amd/hsmp: Validate ACPI UID before parsing socket index
-18506e66652efd65eb466630d7e85f25a4a4524f platform/x86/amd/hsmp: Validate _DSD mailbox sub-package element count
-dabf39aac67050f75c52abe007b135052a320e6d platform/x86/amd/hsmp: Pass struct device explicitly to ACPI mailbox parsers
-67e753cf04489d45e93406ee6715e2a0d71ec457 platform/x86/amd/hsmp: Gate the data plane on a fully initialized socket
 
---===============1069412007998181423==--
+--===============8643643012564739233==--
