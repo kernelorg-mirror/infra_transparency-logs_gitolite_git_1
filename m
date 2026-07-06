@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Jul 2026 21:23:11 -0000
-Message-Id: <178337299122.375175.2788904794552906201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 06 Jul 2026 21:23:31 -0000
+Message-Id: <178337301120.375496.14940282968077015089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/irq/drivers
-    old: 4940e7daf4daa105c311f66b5774af1a98fc6b53
-    new: 86e9ba573c353afd1a46816682f4cc3dbabeeb23
+  - ref: refs/heads/for-7.3
+    old: ecf5aad9a4417fece80890f27a9899db90c9c457
+    new: 5eaadebf10e77b190f01ecb211c110c69275b7bd
     log: |
-         86e9ba573c353afd1a46816682f4cc3dbabeeb23 irqchip/irq-imgpdc: Remove unused driver
+         5eaadebf10e77b190f01ecb211c110c69275b7bd workqueue: annotate racy sum_exec_runtime reads for CPU-intensive detection
+         
+  - ref: refs/heads/for-next
+    old: ecf5aad9a4417fece80890f27a9899db90c9c457
+    new: 5eaadebf10e77b190f01ecb211c110c69275b7bd
+    log: |
+         5eaadebf10e77b190f01ecb211c110c69275b7bd workqueue: annotate racy sum_exec_runtime reads for CPU-intensive detection
          
