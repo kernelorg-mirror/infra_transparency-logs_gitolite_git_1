@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6203931194372706998=="
+Content-Type: multipart/mixed; boundary="===============0854071891801435808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 06 Jul 2026 00:02:26 -0000
-Message-Id: <178329614600.3626019.15959855144846140012@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 00:02:28 -0000
+Message-Id: <178329614863.3626195.2198869389008643895@gitolite.kernel.org>
 
---===============6203931194372706998==
+--===============0854071891801435808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4494b1f25c06ac74bb46166f19bb13ec21d08bbd
-    new: 820d5dfede0cd55dcbc89ce96fcfbb11b7c457ba
-    log: revlist-4494b1f25c06-820d5dfede0c.txt
+  - ref: refs/heads/mm-unstable
+    old: e86dc26360e749c0be94a35e230dca8f954f3773
+    new: d148260a31fddf6d59cc0ea4980bd78ebe301a91
+    log: revlist-e86dc26360e7-d148260a31fd.txt
 
---===============6203931194372706998==
+--===============0854071891801435808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4494b1f25c06-820d5dfede0c.txt
+Content-Disposition: attachment; filename=revlist-e86dc26360e7-d148260a31fd.txt
 
 fa810d01c829a72941a1309f9ca5eb8814857bc7 userfaultfd: prevent registration of special VMAs
 c9d64994b006cd8bd2222fe6940c6777ab4ae2af mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -271,54 +271,5 @@ b1a035248b4ea0bbc50401850abb6a31538f828f memcg: bail out memory.max when memcg i
 ae4735a8d562eb12716c5bfbb3f1352b69c18cb3 memcg-v1: bail out reclaim when memcg is dying
 2ddd1ad9674c5a5c59d329f0553b5b2346536402 mm/vmalloc: add alignment info in warning print as possible failure reason
 d148260a31fddf6d59cc0ea4980bd78ebe301a91 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-e1991ebbf637f8c9470c46b235ca6981f9157ca7 mm/damon: add damon_region->last_probe_hits
-6bd1f396cabde73b5d1a99762c05c3034d3a98d9 mm/damon/core: introduce damon_probe_hits_mvsum()
-fa35785f8f306277650b0773e08d607b2b3c5f1d mm/damon/sysfs-schemes: set probe hits as pseudo moving sums
-f2a41dd3fd345f91aba409e5a19ae12f86a1899e radix-tree: fix kmemleak false positives on tree head reassignment
-a13cbbc4e06ae26ced0228d1c129e9ec70c1f3cd mm/secretmem: disable under HIGHMEM
-4e279e1345da576f8d2e887cf8d9fdd1f0cc92b2 mm/page_alloc: rename ALLOC_TRYLOCK -> ALLOC_NOLOCK
-d8cf2420b0a7e78b42475d66cd932a78c864bbc9 mm/page_alloc: some renames to clarify alloc_flags scopes
-d009220c76e1af167492a8912b651e60316b2ca4 mm: name some args in a function declaration
-3872c867e053df309d6c58658096f9a86d5178a9 mm: split out internal page_alloc.h
-1ca7010a78ed6d8f6849215f2b1b4a98d2e4d5c8 mm/page_alloc: unify __alloc_frozen_pages[_nolock]_noprof()
-87126680f678ded676e33e2443bd8a54211826eb mm/page_alloc: relax GFP WARN in nolock allocs
-7f290eac95560a2509f246e126871523d84b9758 mm: move some stuff to mm/page_alloc.h
-19d19019a6472b64fa60a347f0634302d3b62968 perf/x86/intel: use higher-level allocator API
-0d40fefb8c51adbd0167b62d697521d574dfd1c0 KVM: VMX: use higher-level allocator API
-85364e21f95b1a4a9de2c0da078f9eff7ceec6d5 x86/virt: use higher-level allocator API
-fbfb7d0e6ab64576a840d8fa75ab8e1f70759269 sgi-xp: use higher-level allocator API
-eb6f6f61540196e95e43004d199dbc2876b1058f net/funeth: switch to higher-level allocator API
-31f804ab5a52ccbfcd16f369884de1b7410e5933 mm: remove __alloc_pages_node()
-ea26d12103c4b7a81a85235b748648c5ecb45ae0 mm: move __alloc_pages() to mm/page_alloc.h
-16c21e5b74bae0e53aee382b81a638ac1b690bd3 mm: replace __GFP_NO_CODETAG with ALLOC_NO_CODETAG
-f4ae6696948a0fe5beef03c2378a5a2d194545dd mm: remove the __GFP_NO_OBJ_EXT flag
-40bc2730d5755489746bcf08e65c25d5637eab30 mm/page_alloc: drop alloc_flags arg from alloc_flags_cma()
-74586183cedec9c9bceb641c231184464f4fb1d8 mm: factor out can_spin_trylock()
-b6cd2332e384aa0fb96f162d8ab2e5646d5038ff arm64: make huge_ptep_get handled unaligned addresses
-34b5d621a75609207a341024b3c045f99a05c36a mm/rmap: use huge_ptep_get() in try_to_unmap_one()
-72aff2cbd2f982d4efa135a73a6628a2496f45e1 mm/rmap: use huge_ptep_get() in try_to_migrate_one()
-75a1ff85686babbdce3c3b95bd6918083d4542af mm-rmap-use-huge_ptep_get-in-try_to_migrate_one-checkpatch-fixes
-914d511d146e141ff5d56708bd4da3a0bbc433b5 mm/migrate: use huge_ptep_get() in remove_migration_pte()
-7c031b4d67fb0a67a043de05af1d718963c45cb6 mm/page_vma_mapped: use huge_ptep_get() for hugetlb
-5c16fa8d8bc84dd9b5a95a7f890be63f670be18b mm/mprotect: use huge_ptep_get() for hugetlb
-beb07ed718bab8a3eb7f5f4940e61cb23c2acb23 mm-mprotect-use-huge_ptep_get-for-hugetlb-fix
-eadd479dc721f3b2faf86461c9e151a184281414 mm/damon/core: safely validate src on damon_commit_ctx()
-ba01987d14929a0b7ccbc3bd310c71fedfd6b01e mm/damon/core: do parameter testing commit on damon_start()
-7163d776654ea98b8adf52335729fd808a574656 mm/damon/sysfs: remove duplicated commit input validity check
-2c041029bb2fbb8446b3d8dd3eb3b529e6bab8f4 mm/damon/reclaim: remove duplicated min_region_sz power of 2 check
-afca28b685380e456a95b4b75c2f359c8c8261d2 mm/damon/lru_sort: remove duplicated min_region_sz power_of_2() check
-24ff0b08c196f8f62d7bd30fa9ec03922bb2138c mm/damon: document region size validation in damon_set_regions()
-9b36a7325d3bed3d646af75e8ef3819c80c0275c mm/damon/core: remove start, end check in damon_set_region_system_rams()
-2d39b01c1b8ebce1070509027ebe306eb6377c2d mm/damon/sysfs: remove region size validation
-e12e092d6bb2ede4187530f91aa12899c397294b mm/swap: colocate page-cluster sysctl with swap readahead
-306b219c46795a895a37a2d9cb1cce946120a6f5 mm: rename swap.c to folio.c
-35ab65e8fb1911b2ce5b6fffc1ff85d47cde797e mm: move reclaim-internal declarations out of swap.h
-bd9afbb7e31a84fd6e26a00f529e2bd45d0436ad MAINTAINERS: add ABI docs and selftests to ZRAM entry
-e4f92355279ec1b4080f7e0564a66b75d9611d44 mm: memcg: reset zswap settings in css_reset
-903daf3bc2bfb917104588d582eb31a00507693e mm: nommu: add sysctl_max_map_count() check for do_mmap()
-59a9e356e270fad8a82227f2efa538f2fb39fcac mm: nommu: point to the write iterator upon split_vma
-50e852521485108d314d482bbe6a55a8a77e9608 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-6dcb5302d7c4ce5c241c2725293d62928396edc7 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-820d5dfede0cd55dcbc89ce96fcfbb11b7c457ba mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6203931194372706998==--
+--===============0854071891801435808==--
