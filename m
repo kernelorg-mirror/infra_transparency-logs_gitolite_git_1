@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 06 Jul 2026 19:25:06 -0000
-Message-Id: <178336590623.293886.9946217690631851392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 06 Jul 2026 19:28:29 -0000
+Message-Id: <178336610944.295221.1765774910783496884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/kunit
-    old: 643ec8ff7d8ed15881bd05d71de24208ce0dadcb
-    new: f47180b0e9cc59e1989adb093a4b94187642b405
+  - ref: refs/heads/master
+    old: da53ae6f98e0cc2791d3ea081de860f138baecb1
+    new: 07c1b07d38719c5da0a41c0fc65afb08256322a9
     log: |
-         7eac3330517472ea06590c14e683db694ed7a28e Documentation: kunit: Test Kconfig entries shouldn't select other configs
-         483cd4bdd077e6f5342d32ecc6517b0a39be235f Documentation: kunit: Fix outdated FAQ entries
-         f47180b0e9cc59e1989adb093a4b94187642b405 kunit: string-stream: Replace strlcat() with strscpy() and seq_buf
+         07c1b07d38719c5da0a41c0fc65afb08256322a9 selftests/bpf: Fix memory leak in msg_alloc_iov error path
          
