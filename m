@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2555942035170614330=="
+Content-Type: multipart/mixed; boundary="===============6341460858222946074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 06 Jul 2026 01:08:31 -0000
-Message-Id: <178330011199.3669739.15082714786839810913@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 01:09:14 -0000
+Message-Id: <178330015431.3670177.16048251609094213269@gitolite.kernel.org>
 
---===============2555942035170614330==
+--===============6341460858222946074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 95682da196b42b0dfadda7798c62c0f36b4cb99f
-    new: 26ddc8a26f00b67fd9b40e134f06ad269b46c1c7
-    log: revlist-95682da196b4-26ddc8a26f00.txt
+  - ref: refs/heads/nfsd-testing
+    old: c8c45fb61a5ff3eb786e4aa434b534b605ab657e
+    new: ee6ae4a6bf3565b880dfb420017337475dfbc9ea
+    log: revlist-c8c45fb61a5f-ee6ae4a6bf35.txt
 
---===============2555942035170614330==
+--===============6341460858222946074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95682da196b4-26ddc8a26f00.txt
+Content-Disposition: attachment; filename=revlist-c8c45fb61a5f-ee6ae4a6bf35.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -554,5 +554,38 @@ fb95299207c8adb0502c061fe466927d2e1595c0 nfsd: restore rq_status_counter to even
 06da7b592dad2b7065ebcf7f71b051ab95155035 nfsd: drop the stateid, not the stateowner, on seqid_op replay retry
 c1d3c69721ceeba9942cfadaa0e31f96b15259a7 NFSD: Prevent post-shutdown use-after-free in unlock_filesystem
 26ddc8a26f00b67fd9b40e134f06ad269b46c1c7 NFSD: Annotate caller preconditions for the state-table walkers
+4c225434dfee620192655b82d6890ce9843ed95a NFSD: Prevent post-shutdown use-after-free in NFSD_CMD_UNLOCK_FILESYSTEM
+c0575a44520bd1c4ed233781fbc0ae176592c49c nfsd: validate sockaddr length per family in listener_set
+30ff590fc8e0a457f306f2f0cbee38f62c9b58ed nfsd: reject out-of-range useconds in NFSv2 SETATTR/CREATE
+b8d23e3442cdc87867e605575985e6b7293e0bfe nfsd: reject out-of-range nseconds in NFSv3 SETATTR and create ops
+2056aff21f3a2e1020e6fcc3be2f280c2a6065f9 nfsd: use NSEC_PER_SEC in nfsd4_decode_nfstime4()
+748047b57a640c2aefe5b438154b88d2a70d5a8c lockd: fix swapped arguments in nlmsvc_match_ip()
+467da1ce5f994700f980f772ee77ef77099e9b61 nfsd: check fl_lmops in nfsd_breaker_owns_lease()
+b9053aaf8b3c7017be0022e055a0c5abb823fcd7 nfsd: add protocol support for CB_NOTIFY
+47f2b16fb248db0d99799a5522cbb577bc344ffe nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
+c3b130043b2f7c74c26e00c05ad418198a6678b6 nfsd: allow nfsd to get a dir lease with an ignore mask
+b419d36e1b38a7abf36f4d8949d68f2187d9d69d nfsd: update the fsnotify mark when setting or removing a dir delegation
+f6dfc7b9f37474188b01447c315147efff8514ad nfsd: make nfsd4_callback_ops->prepare operation bool return
+efe3d1810175679fd63d76d41d613027460629c3 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+98b999bb3393b3163376fe8fbea31bad44dd4df0 nfsd: use RCU to protect fi_deleg_file
+0cbd5dee085165b03164a99fdca89984fad81039 nfsd: add data structures for handling CB_NOTIFY
+a9ff499444a5ef9026ef9284970dfbe234ffdd79 nfsd: add notification handlers for dir events
+5e9cfd667fe9931709f0bdb03c1a3600faaaa4b0 nfsd: apply the notify mask to the delegation when requested
+b58786c74efd8be68d53d604f4fda44f92b2855f nfsd: add helper to marshal a fattr4 from completed args
+73905d498938e0dedaaca6794b9aed32c873fbdc nfsd: allow nfsd4_encode_fattr4_change() to work with no export
+04e0df65b009efcf7d1f057a6f07a17f294f543b nfsd: send basic file attributes in CB_NOTIFY
+e1d7d7b0787c86b22e01ee09e0549e9a9c135993 nfsd: allow encoding a filehandle into fattr4 without a svc_fh
+125f1559572729add84ac264c2a1f52f5a037bcd nfsd: add the filehandle to returned attributes in CB_NOTIFY
+146dabe5a8e33f9dd44ad5dcd1c4c5410151d01f nfsd: fix reply size estimate for GET_DIR_DELEGATION
+ac83eae298686c7731d2e9b02ab5c473c20828eb nfsd: properly track requested child attributes
+20ab2c3cc7dba8dca14fd9e87561e520e4646c00 nfsd: track requested dir attributes
+3938e41c54b9a080ea5ccefa2ee829126bc072f5 nfsd: add support to CB_NOTIFY for dir attribute changes
+427a70a161dfc973b52894b1dc9743c63b806bea NFSD: Guard admin state-revocation walks with NFSD_NET_UP
+71b6a5d281cae54ae06a87b6e40ad4b760c344b7 NFSD: Replace isdotent() macro
+bdd4ef5c0a35b01c45190f4c6ae0aa88b1ce1dd0 svcrdma: Reject inline replies that overflow the pull-up buffer
+2944997996a6e1a96bd3583fb32c2bdde502a8d4 lockd: fix NLMv4 GRANTED_MSG handling
+4762263062c3e26d9f5db921585ced8b51dc1a1f lockd: fix NLMv3 GRANTED_MSG handling
+3dd0749290660de5320e35437b647ff9a99f56dc lockd: Regenerate NLMv4 XDR code
+ee6ae4a6bf3565b880dfb420017337475dfbc9ea lockd: preserve multiple NLM_SHARE grants from the same owner
 
---===============2555942035170614330==--
+--===============6341460858222946074==--
