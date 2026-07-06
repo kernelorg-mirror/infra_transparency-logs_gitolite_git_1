@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4107467488894691895=="
+Content-Type: multipart/mixed; boundary="===============0772825729618122801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 06 Jul 2026 17:26:33 -0000
-Message-Id: <178335879382.208946.407380636038763736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Jul 2026 17:26:37 -0000
+Message-Id: <178335879794.209150.3018732774226370672@gitolite.kernel.org>
 
---===============4107467488894691895==
+--===============0772825729618122801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: 83245e7a436c04e511378af14dd81fd188b41541
     new: dbbb5bc5176e36b13aa22e2174ab4779c5ae1dca
     log: revlist-83245e7a436c-dbbb5bc5176e.txt
 
---===============4107467488894691895==
+--===============0772825729618122801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1783358791 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1783358790-5e9195154956f95747c8e1bcc14ddd8541f318d0
+pusher C3F436CA30F5D8EB 1783358795 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1783358795-aff4b4484f0138c911275dfe67b1f47356961b2e
 
-83245e7a436c04e511378af14dd81fd188b41541 dbbb5bc5176e36b13aa22e2174ab4779c5ae1dca refs/heads/for-7.2
+83245e7a436c04e511378af14dd81fd188b41541 dbbb5bc5176e36b13aa22e2174ab4779c5ae1dca refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpL5UcACgkQJNaLcl1U
-h9CfwQf+M5EJ9Osj7V7cBXBuIFW7DHoEZ+1g90r+87ISeR4pFDYskt6wDLcU/Ip6
-AYo70wbbPKIqF8e6xgtFxKzTNkyxcJG2UZeyq2ax4YT5k65qrGT4H3Ydkew509Ar
-ZAL869woL/tFqLU0UZBk69Pd0Ouk5o7mCNmbqNxJFRRy6xAirA4/H9cQgI6/oKLy
-jef0iLCyiaJaa9zKnvATuRFl77htBMAxC85i+ymC+k/v0QYbsTcZ1Gu/MA3wodGz
-eOC7zPZtiZc2NxRNaQuVN/U1dwiaepFM9xYigElxN5/LN4aEj+G24RvqCLhg1zdL
-ggFia8ouRl3TZnAQqzZgJ4sTebUlmQ==
-=XMau
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpL5UsACgkQJNaLcl1U
+h9B/gwf+IDI0ZinIHv6L0lj9I4ucApNg8ol73q74BrJu3Czqep6DnK9mobjVsiHQ
+YUIo7MOy4fSnAyqOzpG2NPEy0Cxu0ORYBpbROuz5fonlkOzj800b3bVHIUUjoeGJ
+FHb1duU/huz9bGtctEFlY1+gUfNODBi/bBLTRLY6Aws76kc0rSNJBbZcstSshA11
+CYXtddRIFAfqPMAJKkA+8sKE18kVVxNCOD8G3P7GFZN2/u6QI8flHiR9LJmGXkbb
+PHGgYNYwI6jMehIuK9aC+fseULNL6Wa3MY5wi5e61l3TlB1EZZ1eEfcW5resF4x9
+/zmFAJjHKxuY7mSv9iPHM+MqldXoRw==
+=elXE
 -----END PGP SIGNATURE-----
 
---===============4107467488894691895==
+--===============0772825729618122801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -478,4 +478,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 4c9854ad3cdc7ce408453207f153bb910cc6f3c1 ASoC: rt712-sdca: reset codec at io_init to fix silent headphone
 dbbb5bc5176e36b13aa22e2174ab4779c5ae1dca ASoC: amd: acp: Fix linker error with SDCA quirks
 
---===============4107467488894691895==--
+--===============0772825729618122801==--
