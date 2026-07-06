@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1111204991678523734=="
+Content-Type: multipart/mixed; boundary="===============4963559125127893978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 06 Jul 2026 14:53:47 -0000
-Message-Id: <178334962758.96111.18198006168822231977@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 14:54:05 -0000
+Message-Id: <178334964522.96404.12596745727389753398@gitolite.kernel.org>
 
---===============1111204991678523734==
+--===============4963559125127893978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 6c44fd0c2cd22aab960e48a67996ce309a367cc8
-    new: 321450623ca7e3275f816150180ed3dbc0eb6b73
-    log: revlist-6c44fd0c2cd2-321450623ca7.txt
+  - ref: refs/heads/readfile
+    old: 5236cfa2f7ef21f6fd74748472fbf1bbee5f96ff
+    new: 5c7ecf35e93ea8eb62844705f28f717c1e0ca39e
+    log: revlist-5236cfa2f7ef-5c7ecf35e93e.txt
 
---===============1111204991678523734==
+--===============4963559125127893978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783349627 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783349645 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1783349611-426e66a129a30a34d74e87ee98ef647d0f106a6b
+nonce 1783349628-1286a2440693c018142b4aef3e7734df6d611e94
 
-6c44fd0c2cd22aab960e48a67996ce309a367cc8 321450623ca7e3275f816150180ed3dbc0eb6b73 refs/heads/module_version_removal
+5236cfa2f7ef21f6fd74748472fbf1bbee5f96ff 5c7ecf35e93ea8eb62844705f28f717c1e0ca39e refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpLwXsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6xEQAK5fS9mNa1xvizo90R6p
-8i0H5A6BgnewcVUZIEh21oJuShn1JD6ii59zYhK7O+48uhyklcszurlZ9XP7Hv/O
-2L3uKpzuusKS2Oo5yD4jAP7jcm9TVSfAXXJoMnRcmvu2qLruEnD5zmTyOZUhtPxU
-oy1cQ7jAa+GgL6wJ8T5UppvoC0nCDFOZpGL07iK7sCgOpLK1jufE43JRYIoWGyze
-peD0g8kmYWf1tbQ/nkzjiBchySYFAPwG0O48z5C/EPu6kWIO9zFiezUrwHw/G3j+
-fkF+0WhWNVuKTOEQM9t+oxzjOQKOsPqhneLaNhY3tQ2yTlna3Y9OhHm+96JLZbi8
-sJ+6grJUJKOLZf79afTgaLhDkYzlPawiOWuKmapY1+tHV+0VKavYXPm3B7Bh+eHt
-1tdtaOG6fo2mXsMBVKsiMhInPO/ApY4AhpS0Sd0Nqd6dShJk9cnmb9GUJx2AIvK1
-KSaOYZzBHdyan/Gc2E2oSdR78QnnD/gigF+t+H3zAuzP47JnHRAEbddWLWAwKA8K
-9VE8djGNtC0NKwTkJSEWu8a08Cn9hzELAFitf9xQsApJphzIia/PeCHVAACnWnCY
-QPLtccQi+OTUFVsla0kLyOxAJfvm9KOajaZaDSptkwHhW2XIFFZu8JJVNjt4Taa9
-QrWfxSrEIwE7YuHb3LpiRMeA
-=fFQT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpLwY0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MW0P/iL3yt5quL1L6aUinCsZ
+AmMRaJ9qE/yX4ObgvXgY4GduhLVdDUUJdV1G0AKQ42gUMzozgrzwi1mpq16l3+y0
+a7/8uRuoi6KvIQaC9XaqFzntLWA5dGbt9lPV9XQmKUo/n3NWxSQwDFcqkAQ3PL2c
+T6acVQp/degJ0m+Twdm+yEa2ek7XwcO4LYPQkvs5Ggf+MEld6k9PLEgkUHHlF9Ac
+0LTxZP2QuTEstc/29gGEjiJhMMbDVjg7O4VCryHBqVMzhaMajwGZ6TD5AaK6Q9A7
+DqqcD8yLNP6S0xzYpuZ3O8sSr1xddXyThOAzEe8hNWhZPFRHUwuNZPIvotVT/kFU
+egENUC6LI6Ag9Aw5bSh+v1JP8gHDEohJZRD/lUZEpYXMxQL9n8HNIyOy0YLjG0PD
+MNPt2WLx8+iH6iFMLY0potnzTQpLDb2BGulG8dRlgrR6rixVU4I19f0MaA/+4YKZ
+44XVJ1Jwg01ftNXm8+nLekJ78FjsrUbi13FEVh3zMgHxuWMJmqS7KXqhkM6tA32t
+68r16fhSOoh0qub2+MW0s8ZKk245ITeoHjAQTqXES3Z45LbJZgO6WYHyydB0YgPh
+lM6W6knbLAuw0BgUv7FSf3zeP6xspfN+/fjpfd4GbcakWncBYDwDWdPOJ5OpjTOd
+Z/7QakI22zMMCQZ5zq4VIcv8
+=Mn0r
 -----END PGP SIGNATURE-----
 
---===============1111204991678523734==
+--===============4963559125127893978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c44fd0c2cd2-321450623ca7.txt
+Content-Disposition: attachment; filename=revlist-5236cfa2f7ef-5c7ecf35e93e.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -490,6 +490,9 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-321450623ca7e3275f816150180ed3dbc0eb6b73 module: remove MODULE_VERSION()
+e14de12a2111b67a8d964ea450cd180a6ebddd34 readfile: implement readfile syscall
+7639b3b608d7d6ff63184c12aa6f2fb1dc530663 arch: wire up the readfile syscall
+8a4956469618be4cbd7b7b2880d7d1a9b8e5026b readfile.2: new page describing readfile(2)
+5c7ecf35e93ea8eb62844705f28f717c1e0ca39e selftests: add readfile(2) selftests
 
---===============1111204991678523734==--
+--===============4963559125127893978==--
