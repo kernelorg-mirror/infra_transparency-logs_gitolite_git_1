@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2427726214889056664=="
+Content-Type: multipart/mixed; boundary="===============4953145901261308121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 06 Jul 2026 15:29:08 -0000
-Message-Id: <178335174830.123192.16918883572833266540@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 15:29:24 -0000
+Message-Id: <178335176468.123526.9752926990751716172@gitolite.kernel.org>
 
---===============2427726214889056664==
+--===============4953145901261308121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/fixes
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: df92d47b3ae7384588e9b54665d66d76273f9c4e
-    log: revlist-dc59e4fea9d8-df92d47b3ae7.txt
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
+    new: 86152fef52cac15cd662ed3bfc7604fbfef378f0
+    log: revlist-dc59e4fea9d8-86152fef52ca.txt
 
---===============2427726214889056664==
+--===============4953145901261308121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-df92d47b3ae7.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-86152fef52ca.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -462,29 +459,12 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-89dfb7cc1a9dc9e7f90e822cb402d3f848f1650a dt-bindings: mmc: sdhci-msm: add ICE phandle
 521f39ca93cc43ce1b3eae8d44201f8f55dd9151 mmc: sdhci-of-dwcmshc: check bus clock enable result in the probe() method
-3f78a256230bc61002a83cd5ad6995fe44f2addb mmc: core: Remove unused buffer allocation in sd_enable_cache()
-e8a80efa630ee9ba0c565b4401d798e3481f4ab5 mmc: cqhci: Remove unused intmask parameter from cqhci_irq()
 c35fac6481a1dbb2d114dd337b54a40799437546 mmc: mmc_test: Fix __counted_by handling after kzalloc_flex() conversion
-cb3fcb8d118b874178251d1f02613f60d25e4ddc mmc: dw_mmc: stop and complete DMA also in STATE_DATA_BUSY state
-ab9c44bbf6d7df22518ea66329595023c00be1bc ARM: PXA: remove remnants of PXA93x support
-86e23edba75867554b19dc407263035cb244484c mmc: sdhci-esdhc-mcf: do not use readl()/writel() on ColdFire
-1f8c98dc954debe776ee81f889a73b5522f2e5b2 mmc: wbsd: Drop unused assignment of pnp_device_id driver data
 a3b5f242997a3be7404112fd48784881560aea57 mmc: vub300: fix use-after-free on probe failure
-e29e650077e01dddf69bc8fac31e0cd60043aa7c mmc: moxart: report DMA completion timeout
 ee5fb641c4ccac8406c668d3e947eb20ce44f233 mmc: vub300: defer reset until cmd_mutex is unlocked
-e82628c9153d3091623b4879c8c3ef5cd9f4fadc MAINTAINERS: Add myself to maintain TI AM654 SDHCI host drver
-0aae2c73175821a71c0e20607f8e333be5b71940 mmc: cqhci: fix to missed endian conversions
-f13ca4f2b01ed38765ded9ea53f33fa16addd497 dt-bindings: mmc: Convert TI OMAP2420 MMC to DT schema
-33b55cd1d3988fba909b422070fdfc5b388abade mmc: litex_mmc: Set width from linux request
-a303ea393319667fc6892cea4717abf946a478d8 mmc: litex_mmc: Remove unused logic for the fixed bus width
-4e9dc8c1ef70c4a31ccf5bd7742a50999e09401d arm: dts: st: align MMC node names with established convention
-c53d1b813d7b074d053a09473354e13c71a4dcfe dt-bindings: mmc: st,sdhci: Convert to DT schema
 c505d54c1a9e99d36d322ced6c9c71a1157424b0 dt-bindings: mmc: mtk-sd: Document extra clocks for MT8189
 718178f524b98bc920d74bc771aed823c8b81425 memstick: ms_block: reject a card that reports too many blocks
-9b3732cce41d177acac731e0b8024d72f0dfde38 mmc: sdhci-of-ma35d1: add missing MODULE_DEVICE_TABLE()
 86152fef52cac15cd662ed3bfc7604fbfef378f0 mmc: block: fix RPMB device unregister ordering
-df92d47b3ae7384588e9b54665d66d76273f9c4e mmc: Merge branch fixes into next
 
---===============2427726214889056664==--
+--===============4953145901261308121==--
