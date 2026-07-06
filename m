@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 06 Jul 2026 16:52:38 -0000
-Message-Id: <178335675826.184268.9140016784129952716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 06 Jul 2026 16:57:41 -0000
+Message-Id: <178335706168.187736.7702305680794960933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 5508b1e45bba27d96e4bd6a8500b66e6311d5ab8
-    new: 66536ad68f6a813aec1009e85f83919405dee52d
+  - ref: refs/heads/perf-tools-next
+    old: ca0e19074bd6afcb9c7b23aa474ca17238cdb241
+    new: b3665131e7a63b3ed2d91015a6db97c5f65a5328
     log: |
-         7b9f8fe9c9e0e028cdc99343f4ff75bcfb9e57aa dt-bindings: rtc: sun6i: no clock-output-names on h616/r329
-         38d6b194a21c8626647b0a773bb8db5f2b84b0ad dt-bindings: rtc: sun6i: add sun60i-a733 support
-         81f4ddc9f7e0c11d3e9d24d0f30023845a02f7ee clk: sunxi-ng: fix ccu probe clock unregister on error
-         192c6220e14d5b7924f116680bdf073179cde025 clk: sunxi-ng: sun6i-rtc: clean up DT usage
-         d2fcd82ca07dad71fc6102db7cb7b3225c489774 clk: sunxi-ng: sun6i-rtc: Add feature bit for IOSC calibration
-         c52b5090bf1e3b88745f8a81f264f34100ecde42 clk: sunxi-ng: mux: remove unneeded export
-         5ede58393a7064164dce027e6cb05a64662a7173 ARM: dts: allwinner: sun8i-h3: Correct indentation
-         66536ad68f6a813aec1009e85f83919405dee52d Merge branches 'sunxi/clk-for-7.3' and 'sunxi/dt-for-7.3' into sunxi/for-next
+         e34006e7435fdd2c8d15e89d2137a4bf22c16401 perf test amd ibs: avoid using executable heap
+         047979af3bf6a118066c81099162d518de63abb1 perf vendor events amd: Update Zen 5 core events
+         6744430f106b0e46d6318d44a99cb27b0ee937ae perf vendor events amd: Update Zen 6 core events
+         b3665131e7a63b3ed2d91015a6db97c5f65a5328 perf tests: Add auto counter reload (ACR) sampling test
          
