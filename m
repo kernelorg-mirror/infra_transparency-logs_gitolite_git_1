@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7512066886878632583=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 06 Jul 2026 11:26:45 -0000
-Message-Id: <178333720536.4145016.12817342138392540162@gitolite.kernel.org>
-
---===============7512066886878632583==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Mon, 06 Jul 2026 11:27:45 -0000
+Message-Id: <178333726600.4145715.271304650063893586@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 75ea8ceffead4932a391675756bb170dd0e26bf3
-    new: 96009e802ead013d39ab7c6c447ae4afb0e45e4e
+  - ref: refs/heads/ntfs-next
+    old: 484e86c925f5b7225ed1ed1de756c16f31626b9f
+    new: 0ebe8f625ab0520217a425d7cd366e4670484941
     log: |
-         96009e802ead013d39ab7c6c447ae4afb0e45e4e drop duplicate rust patches
+         f72df3a4c33b64de3418ec74d1ad4f028e09d161 ntfs: make system files immutable to prevent corruption
+         77dc384207d5fa63ba97c3bf3285fe1215a1cbf6 ntfs: avoid self-deadlock during inode eviction
+         b8d6c528e9d57d263fee1a648409f84a68b2561d ntfs: fix WARN_ON for resident attribute in ntfs_map_runlist_nolock()
+         5b6eedd7cc2936f9238e852b553a1b326105bde8 ntfs: avoid calling post_write_mst_fixup() for invalid index_block
+         06769b8f23b4b645b270c438649fff79768fb6fe ntfs: fix hole runlist memory leak in insert range error path
+         d97a36bae86a9a4021562ded2987f904e6bcb1d7 ntfs: sanitize MFT references returned from ntfs_lookup_inode_by_name()
+         0ebe8f625ab0520217a425d7cd366e4670484941 ntfs: fail attrlist updates when the superblock is inactive
          
-
---===============7512066886878632583==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783337212 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1783337200-725745cc7f313912cd2bf3443b28ad6bc57f6bbf
-
-75ea8ceffead4932a391675756bb170dd0e26bf3 96009e802ead013d39ab7c6c447ae4afb0e45e4e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpLkPwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zBgP/3RmGVoqfZH1y8ojIGAy
-AGe3UUmSocWyaCWpSPJpBzamsBg3lmnlTwSPwqluJmtuDuDfsB2WTxvZDL+V4+G0
-M67Uh04ADnxGYb+WpiWnHPNNqaaR+Tkn6m0v6GFOJexWAi/1E+7AfDzFtqwWluSk
-k2NY36VSALk9MbrkKDSxetBioIM22S+0bLC2g5g+3Pg1jaMJBJnI76miPiQ7BbXn
-GQolx/95WAuITm5oHg/pQOpRxMfQRffHalbdrQy5P4a5J8B++X/HRyJ9epiLyN7h
-RT4rCZD/aVh2TF7YXwDGHrAvYM61LoYy9tMUZEBHNXlaDRb9kjpT+XWgGyi1DQGY
-yi6AHNzwmOcsnSFtFini4CqedmR82DREDvcWFkLfeIWBxlh7EAfLCJ9ZzT/ABpAV
-YuKq50Pc240OcDztBEimaibR6ujJDZe8c+dE+EjLh8exycQrNcUtNF1HMY8lP6mS
-1TYp5ZB20Hy9nr8EX+R1rnS1dR2GMOuuFXMZIUQ+LY8uQ+mYDq4+iFkj8H1UXB6B
-pkA7D8evPfcbTmUXqhjfz5RGBKt6SQIqgY5hKEvjPtlOXuK7I3FhVNfN5T2CwDzU
-Mla6OSIyttwim1UPL+6zuBGemL/ndfLHFs+oAvMlqYOD3qYccny2mCJnhTNby6eB
-ZCt4MFiJOmSvC2Ps4N6WQyYq
-=X81c
------END PGP SIGNATURE-----
-
---===============7512066886878632583==--
