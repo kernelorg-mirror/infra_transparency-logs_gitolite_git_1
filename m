@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4685530890650732851=="
+Content-Type: multipart/mixed; boundary="===============3241829091195336566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 Jul 2026 22:31:51 -0000
-Message-Id: <178337711188.424445.704916316111451921@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 22:31:54 -0000
+Message-Id: <178337711497.424637.8424296563174718632@gitolite.kernel.org>
 
---===============4685530890650732851==
+--===============3241829091195336566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0469d460a598d03fc85ebd97f99640e6c579e2a2
     new: 9e05e91a9a847ed57926414bd7c2c5e54d6c56c6
     log: revlist-0469d460a598-9e05e91a9a84.txt
 
---===============4685530890650732851==
+--===============3241829091195336566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -586,4 +586,4 @@ f0f1887a9e30712a1df03e152dce6fb91344b1f3 net: qualcomm: rmnet: validate MAP fram
 9d160b35cc34a2ba8229d07651468a7848325135 net/smc: fix UAF in smc_cdc_rx_handler() by pinning the socket
 9e05e91a9a847ed57926414bd7c2c5e54d6c56c6 amt: fix size calculation in amt_get_size()
 
---===============4685530890650732851==--
+--===============3241829091195336566==--
