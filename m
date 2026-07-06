@@ -1,50 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============7878518683357836428=="
+Content-Type: multipart/mixed; boundary="===============2674312016691325823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 06 Jul 2026 04:01:24 -0000
-Message-Id: <178331048421.3785429.13285125038172575502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Mon, 06 Jul 2026 04:17:16 -0000
+Message-Id: <178331143683.3795706.6220976923526097919@gitolite.kernel.org>
 
---===============7878518683357836428==
+--===============2674312016691325823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/cfi/next
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-254f49634ee1-dc59e4fea9d8.txt
+  - ref: refs/heads/docs-next
+    old: b752df396792f949aa11743569d5ded5447aad23
+    new: bc2e3e1124b7362f83c5fb8557274bbca3da1a74
+    log: revlist-b752df396792-bc2e3e1124b7.txt
+  - ref: refs/tags/docs-7.1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 521162a3974877c020e1c4a44e15b74516812964
+  - ref: refs/tags/docs-7.2
+    old: 0000000000000000000000000000000000000000
+    new: e4b61c7dbe40b5946ad8d5dae60625dabc5be1e3
+  - ref: refs/tags/docs-7.2-2
+    old: 0000000000000000000000000000000000000000
+    new: 12987e61a49873b7bc2d3cbf3d618c69c395c04b
+  - ref: refs/tags/v7.0
+    old: 0000000000000000000000000000000000000000
+    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
+  - ref: refs/tags/v7.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
+  - ref: refs/tags/v7.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f
+  - ref: refs/tags/v7.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+  - ref: refs/tags/v7.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/tags/v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+  - ref: refs/tags/v7.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
+  - ref: refs/tags/v7.1
+    old: 0000000000000000000000000000000000000000
+    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
+  - ref: refs/tags/v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
+  - ref: refs/tags/v7.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
+  - ref: refs/tags/v7.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: bb1459368dd795c43380057523f571d5eb0ddded
+  - ref: refs/tags/v7.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
+  - ref: refs/tags/v7.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
+  - ref: refs/tags/v7.1-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3bc831df9ee16fceee851872315161377ca1417d
+  - ref: refs/tags/v7.1-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+  - ref: refs/tags/v7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
 
---===============7878518683357836428==
-Content-Type: text/plain; charset="us-ascii"
+--===============2674312016691325823==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-b752df396792-bc2e3e1124b7.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
 29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
 ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
 c7fdbc2c2f26b9c397eb3aad2fdc54dbd85f68e1 selftests/uevent: increase __UEVENT_BUFFER_SIZE to avoid ENOBUFS on busy systems
@@ -1050,5 +1088,24 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+e834ee8e571d5f763ddcb23ffd8ddccc68bd66d3 docs/mm: Fix braces
+e05f9f50ed2a97fcbc9355725cdba92f22113255 docs: kernel-hacking: fix typo
+6dccfaa2b8c1358c81d12c4f11a863ec07c9719b Documentation: admin-guide: fix brackets and translation issue
+c9c81a35817cae1de55893e011e90653ad1dd234 docs: pagemap: fix flags location, member name and sample code
+1cc303dc63bd23e1af33607b9dfae8e66ac86be7 Docs: conf.py: fix typos in comments
+36a6cfc12a87f0ec6d218c19b6ef5e8e95baf292 Docs: SMP: add an SMP docbook chapter
+5d4d76c2202190cee5836d8d744e47ce6b3ee604 docs: kdoc: fix troff output description typo
+d3dc9e19d04f1466c2056ce19d338577f0062bd6 Documentation: dev-tools: scripts/container prefers Podman
+0365472603940959ee81a3c4edd16606d475046c docs: pt_BR: Translate 4.coding.rst into Portuguese
+a6bb404f065515c69825d237ab626afbf520db24 docs: pt_BR: Translate patch posting documentation
+08c1ce7e718dcd3606ba9dfb91d82bbe424bd303 docs: pt_BR: update netdevsim section in maintainer-netdev.rst
+2933b82083e758fe6cfff570143541d4dba672c3 Documentation: locking.rst: update deprecated function
+d4740c7df7e0820bb804bf4081767d9849c2e784 docs/zh_CN: polish how-to.rst
+05c4374c55e15153ffb5a26a6ea8c77aeb4b5b91 docs/zh_CN: add --no-merges to git log example in how-to.rst
+359c3caf50481aa08b0ab761436e4b70ad027f73 docs/zh_CN: restructure how-to.rst patch submission workflow
+a323b2348849b91db1d69bd084ea6becaa0225b1 docs/zh_CN: add module-signing Chinese translation
+aba18be23f141f14d76fdecf360f0ae63601ffeb docs/zh_TW: replace 接口 with 介面 in stable-api-nonsense.rst
+9f88c27bc0318dff801be10711f08278ed50b2fe docs/zh_CN: fix CONFIG_CGROUP typo for CONFIG_CGROUPS
+bc2e3e1124b7362f83c5fb8557274bbca3da1a74 docs/zh_CN: fix CONFIG_CONPAT typo for CONFIG_COMPAT
 
---===============7878518683357836428==--
+--===============2674312016691325823==--
