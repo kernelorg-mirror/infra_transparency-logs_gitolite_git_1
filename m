@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 06 Jul 2026 17:40:42 -0000
-Message-Id: <178335964231.219458.14477099463719256581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 06 Jul 2026 17:50:00 -0000
+Message-Id: <178336020070.224025.15503064632418654100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 1f9ecae2ec6aa473825d713221d43bae72fcdfe9
-    new: 5ae3dc078874693a0a7fd1cf32660bd473fe544d
+  - ref: refs/heads/arm64-for-7.3
+    old: d529495c991a2b7d07c01622e8b3cb5ec066acee
+    new: c09cd72be7fdfc348ceecfe414ff9698bc3561f3
     log: |
-         d93ffd549fb4df18c934ca7a47d4128a18c718cb remoteproc: core: Full attach detach during recovery
-         5ae3dc078874693a0a7fd1cf32660bd473fe544d remoteproc: xlnx: Add crash detection mechanism
+         8610507901a0cd17640596b1e19d3a7b10cac1b3 arm64: dts: qcom: sm8250-xiaomi-elish: Add pm8008 PMIC
+         9f1d0a996df2a68f97002e38d8a6371607ab13ca arm64: dts: qcom: sm8250: Add cam_mclk3_default pinctrl
+         e221d444dc0bb4b0f244038b7655419498643667 arm64: dts: qcom: sm8250-xiaomi-elish: Add ov8856 front camera
+         cc8748ed4da16233d5b3f27e86a412a991645aed arm64: dts: qcom: sdm845-oneplus: Update compatible to include model
+         2f57d03ea7b78fe24fe6f965d65fe1ff9eac60ed arm64: dts: qcom: sm8750: Add wakeup-source property to usb controller
+         c09cd72be7fdfc348ceecfe414ff9698bc3561f3 arm64: dts: qcom: kaanapali: Add missing properties to usb controller
          
