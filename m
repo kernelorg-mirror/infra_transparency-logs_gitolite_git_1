@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Mon, 06 Jul 2026 06:32:22 -0000
-Message-Id: <178331954257.3883892.14266108683801977659@gitolite.kernel.org>
+Date: Mon, 06 Jul 2026 06:32:49 -0000
+Message-Id: <178331956947.3884135.17716727206232866037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/f2fs-tools
 user: chao
 changes:
-  - ref: refs/heads/wip
-    old: 920a1c505bbc998e8c0e03240c44d8e18db2d9aa
+  - ref: refs/heads/dev-test
+    old: 22e1ef29136bdc370dd78ad00cff2da3a6be3206
     new: 4f3af3a2acfe891af70696380c5c6f8b66dc8302
     log: |
          f5e13ff0fe1b51c6e52f1883ec2cdf6a0d408022 Revert "f2fs_io: support xattr(large_folio)"
