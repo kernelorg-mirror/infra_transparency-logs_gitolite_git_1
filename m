@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6639110614318028304=="
+Content-Type: multipart/mixed; boundary="===============0726727015524526019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 07 Jul 2026 08:21:26 -0000
-Message-Id: <178341248620.826651.3583591533527300622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 07 Jul 2026 08:23:52 -0000
+Message-Id: <178341263273.827575.7758667518280599969@gitolite.kernel.org>
 
---===============6639110614318028304==
+--===============0726727015524526019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: f9202a374ec34e767185cf44f44ed2fbdf6bf053
-    new: ac798f757d6475dc6fee2ec899980d6740714596
+    old: 2a665946e0407a05a3f81bd56a08553c446498e0
+    new: 240c8d2c717b3f8153e7e877b22a82518d78dbdc
     log: |
-         cffd0d2ed5f2603ef147fc8b625ca84b4041f5bf wifi: mac80211_hwsim: clean up radio rhashtable on free
-         158438cd6ad69d6dd7d871582c38baf22169fede wifi: mac80211_hwsim: avoid NULL skb in stop queue drain
-         ac798f757d6475dc6fee2ec899980d6740714596 wifi: mac80211: Route (Re)association req/response to per-STA queue
+         240c8d2c717b3f8153e7e877b22a82518d78dbdc wifi: brcmfmac: cyw: fix heap overflow on a short auth frame
          
 
---===============6639110614318028304==
+--===============0726727015524526019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1783412453 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1783412453-a063984752202c6c364c0b0316d88d85640fb688
+pusher 7BF9099A 1783412601 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1783412601-6e6e4885677557f417f79f3a6367dccaf27e88f5
 
-f9202a374ec34e767185cf44f44ed2fbdf6bf053 ac798f757d6475dc6fee2ec899980d6740714596 refs/heads/main
+2a665946e0407a05a3f81bd56a08553c446498e0 240c8d2c717b3f8153e7e877b22a82518d78dbdc refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpMtuUACgkQ10qiO8sP
-aAA23Q//TIRJr/z94M6uYCqimf5lDFPUqxkkRAKdiSm1PXdWNT7jBYEQJs5o5SjO
-F3J3b/LjPDUP1dV2Xmb1oOTL2pgwH7WjQI4KUmgQdm+gQYSKnQMlluEnimDz/Hbf
-0q3QufNjmJqkvvynVv+lDMmtb1tCuyEhCGo10U45zMUHH/iqiPG672vHcpeq+xeR
-DQzSksBG9LP6Tt/uM33fU+3MNER5UudSpt1rMpZzUX5C8X1bIzSI/oxA9lSk/xn+
-dd2qwbQZ/r69BO07sqNb3X88xiSAgakd6bpSQXlJ1K6yts1mWoxqe5qreaFi8UN+
-5VgP3uitXuLuBgEJCBxejEihyICNDnw+wElwwZS2xxIio5fk1dSTt4cVvcBgoU9Y
-cFHZTm84nQ0D11tuez/3qg+eFSi3QJdQZGBoDmSFbI5ObWi/v94MkmejHEMb4ZZa
-F/yS23SYVmIAyVhHUCuK+DuhS/vl8JBPB4Vztgc2cZtBWqjn3DeOgp21MiMSL7rX
-OSFf7v7FvEW2J/VxFfpqx7JpFNW0ATjlhKjECUSKfm7Nv4+wcytbUyWqscrx3tkb
-0KJrV6QW89QqRInrLYT4sPtIJSWnZvC/TBBHkEIh8D0WKLozZfTwyjVxJPBNYSQ2
-E85mDblS69JoT6AEKS7uA2vQ2XYkxGswJ5c+/wWsek717IT99n0=
-=nGY3
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpMt3kACgkQ10qiO8sP
+aACrOQ/8DVFh1xOWlg55tk/tUFMhjxyPKH7oGGPZA4b28Xi7/Rotzq1M/z9vSMSi
+Xby4zVhGkovbBY/GCY766U7SR86TvPGteZ0r35wRSnl7z9V7Fbhrnd4JBguU2q4C
+0o7XKOj6q/my5sNL/+H6sJwNCsfKu70wMGhi3UzcYd0AxtJBzalyP0h2vfj4IK3o
+i0DZ8z+lEOp2Ydl7LlgNv6/mbC2bpmc9v0A4URQU1F5FsVmsGKQeejbK5W8S8/Mg
+dJX1E5rPbzR3A34VL2Lawxi5zUW2xIBD2kw99TPoZ2qT+ZsCRdddFSNJDoy3mywA
+7uHRUKXi6VZaRSthV7hI5M9OFr2Ndkwenintdis+wcwTnVNQb5n+ycI+jF6XA9/p
+tGuF2MAIKB/zzwZK5Hm41yKxLqdH6c4XtuhvxVn7PitpPs9OToH8nBa3zCuPRnQ5
+TZa3u6mWcJ3yPjXCRCQuXup9Z9WO34Az1YvJELolocX4izTMzyfevnBDxSQg0E5w
+m/9tixr8AsZEML6l6xWRjwYbxf442WGXHhKQuwpSoZAo1qDoahUzu72//ZMJItmm
+2z45zZ+PSXv1oNtfx1LcyX93v8lSAPqZ2+kLR7NIUnnEY4ucaWgit8YT2JIoJScJ
+/uOZPjGDO0gLKdCLnLri1fEkR/2xuNKBxvITosH55SKKmxK8kE8=
+=NqAf
 -----END PGP SIGNATURE-----
 
---===============6639110614318028304==--
+--===============0726727015524526019==--
