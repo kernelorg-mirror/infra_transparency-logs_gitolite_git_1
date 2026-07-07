@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4939435589728855494=="
+Content-Type: multipart/mixed; boundary="===============6143736306809282457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 07 Jul 2026 06:18:57 -0000
-Message-Id: <178340513787.740265.6524720420419938526@gitolite.kernel.org>
+Date: Tue, 07 Jul 2026 06:19:00 -0000
+Message-Id: <178340514063.740426.3078600463401828091@gitolite.kernel.org>
 
---===============4939435589728855494==
+--===============6143736306809282457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 820d5dfede0cd55dcbc89ce96fcfbb11b7c457ba
-    new: db6ed2a3d31068ca5577466591b2521dee0508ca
-    log: revlist-820d5dfede0c-db6ed2a3d310.txt
+  - ref: refs/heads/mm-unstable
+    old: d148260a31fddf6d59cc0ea4980bd78ebe301a91
+    new: 0bfae5663f86b4b08977b132ea4c35abeb53425f
+    log: revlist-d148260a31fd-0bfae5663f86.txt
 
---===============4939435589728855494==
+--===============6143736306809282457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-820d5dfede0c-db6ed2a3d310.txt
+Content-Disposition: attachment; filename=revlist-d148260a31fd-0bfae5663f86.txt
 
 608977f3823925624b630d4e3ee436fea377f2fc userfaultfd: prevent registration of special VMAs
 f5e14dc2540276992d513a3d32090b0484a5454f mm/memory-failure: trace: change memory_failure_event to ras subsystem
@@ -300,53 +300,5 @@ aaa2e1f10d052096a4c81fd32efbee5dd5670030 mm/rmap: use huge_ptep_get() in try_to_
 3070e81cb4ef321f52e4cc38fb10b5a49a176ad6 mm/mprotect: use huge_ptep_get() for hugetlb
 4235eb7e18435c2c9e6634c352e8cc518374817c mm-mprotect-use-huge_ptep_get-for-hugetlb-fix
 0bfae5663f86b4b08977b132ea4c35abeb53425f mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-6a9b0ef2956d061adf052a8d2443124a16d7c0da mm/damon/core: safely validate src on damon_commit_ctx()
-d5a14f44fd7e365270892b9a5227cc0415584f7c mm/damon/core: do parameter testing commit on damon_start()
-4ae84411af4ae2020c28549de8af9334aea93109 mm/damon/sysfs: remove duplicated commit input validity check
-8c76798bda829b12bd9c2fd91c3a0d5c2153e37b mm/damon/reclaim: remove duplicated min_region_sz power of 2 check
-13178b84101c71191236adc9fd7489cbac017ba8 mm/damon/lru_sort: remove duplicated min_region_sz power_of_2() check
-7d2516efff39d96ddb6df364e7ec3175ca955abd mm/damon: document region size validation in damon_set_regions()
-e4672329e2ebf9261f94aece1aa6d69a1f664684 mm/damon/core: remove start, end check in damon_set_region_system_rams()
-9ae3813e93742c954ca04681debba4cea6b2732d mm/damon/sysfs: remove region size validation
-72dd004511c7f40a8d17794876da15801beb3c90 mm/swap: colocate page-cluster sysctl with swap readahead
-950ba0411e2508588ef8e57b401539c598fc71a4 mm: rename swap.c to folio.c
-5eec9afb12c22986be7516b7944919e376ac3cdc mm: move reclaim-internal declarations out of swap.h
-b128534e6c0d8e59a11eb115756f68cb673a7781 MAINTAINERS: add ABI docs and selftests to ZRAM entry
-ca7fd688c9c9373d6de7d57a5ebd2e9988fb9062 mm: memcg: reset zswap settings in css_reset
-420d3f774039a96c8f4a0feebdc143d4acfde2bc mm: memcg: reset oom_group in css_reset
-43a8143ef99623486aab62db3816315179d5461a mm: nommu: add sysctl_max_map_count() check for do_mmap()
-b7d26e7fcb9b9b068df8ccb6739b0eb731332130 mm: nommu: point to the write iterator upon split_vma
-05199cd3497020e9312df7b9a2f83205839e2890 maple_tree: remove undocumented CONFIG_MAPLE_RCU_DISABLED macro
-e611319f991984e3569cc570286745f317d81d46 percpu: replace __ASSEMBLY__ with __ASSEMBLER__ in percpu-defs.h header file
-99ddd30155d9fde3537353a8db5e52dfbfc1662a lib/maple_tree: add missing spaces after switch keyword
-528a26e4092e32136fc12173e70727ac2fdadcfd selftests/damon: check correct path in ensure_file() not_exist case
-fb991ac46d80583800df2cc9938654125ff26551 mm/damon/core: stop ctxs in damon_start() before returning an error
-1ff623d37e8140cede500eb18480a3f44a130708 samples/damon/mtier: do not stop first context for damon_start() failure
-b2df3a23b454f9edecb61078f7f013c61c790a56 mm/damon/core: make damon_stop() never fail
-bc6d441f145d52469d49e6374d62b85204f7bc54 mm/damon/sysfs: ignore damon_stop() return value
-372c07da25a45a424bd0b973abc6ce64b954e6ee mm/damon/reclaim: ignore damon_stop() return value
-9c0a6345301c74efe6d151adbaff2ef0a60de876 mm/damon/lru_sort: ignore damon_stop() return value
-88f1a9679124ea62dfe887f840968f10e2dfe154 mm/damon/core: change damon_stop() return type to void
-8ea002ce2c82359dc21d3af629c72853f2cf0c9a samples/damon/mtier: stop all contexts with single damon_stop() call
-a943c3c24e726dd56b16757f31bd8ab1a7dd5800 mm/damon/core: wait ctx stop in damon_call() before reruning an error
-d33365b702c92e7a91e88718001f815edf5eec3c samples/damon/wsse: do not stop ctx for damon_call() failure
-dcf1b545c8fd9fae0d03a4ba1bde1874071b2a60 samples/damon/prcl: do not stop DAMON for damon_call() failure
-dbace6d12dbadd707edc098607f8749a929b991c mm: migrate_device: fix pte_pfn/pte_dirty called on non-present PTE
-c2876df4812f654bf4e97d44014c78ce4684643e mm/percpu-km: clear page->private before free them
-661bd038f175ecaa954aad47f711d6c57250b4d6 mm/compaction: stop recording free page order in page->private
-e762058edf9ff3102d0015eac83a1579d7ec3931 mm/huge_memory: add page->private check back in __split_folio_to_order()
-ff06f660391415594f0176912f0e19ef3fb06ff6 mm/page_alloc: make sure tail_page->private is zero at page free time
-55b933eae1c9b4701d2ce2a85ce854ff85b76b69 mm/page_alloc: remove set_page_private() in prep_compound_tail()
-7d97a641158b63565d6267f23a914961f0e6cf3f mm: avoid unnecessary lru drain for wp_can_reuse_anon_folio()
-c519eeae17aab3b6d255f369c584497ed06f3d71 mm: drop stale folio_ref_count()==1 check in do_swap_page reuse logic
-f7ead083f26c30ab532e2ad7cbcad22d9ccd0e85 mm-drop-stale-folio_ref_count==1-check-in-do_swap_page-reuse-logic-fix
-a0760a7a78a4e5794b24751b1be8c538f3578e5c mm: entirely remove lru_add_drain in do_swap_page
-0b0d57a1b8d097217854d0b5056a24b6e03bbd44 mm: clarify the folio_free_swap() for do_swap_page()
-72ee06713ae65814fbb3e946fd1c3f24faa00319 ksm: add linear_page_index into ksm_rmap_item
-eee4279ffe4d0d2cf06a540ec693f815c86665a9 ksm: optimize rmap_walk_ksm by passing a suitablepage index
-171fa1dfde66a02e87add671a4522650fea8c60b ksm: add mremap selftests for ksm_rmap_walk
-c67e809bf883d375492fe688d84730e4979c8d34 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-5404864312009ccfff292efc93f55869a3a88410 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-db6ed2a3d31068ca5577466591b2521dee0508ca mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4939435589728855494==--
+--===============6143736306809282457==--
