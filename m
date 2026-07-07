@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6285996732314493621=="
+Content-Type: multipart/mixed; boundary="===============4449864216525914811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 07 Jul 2026 15:24:35 -0000
-Message-Id: <178343787528.1151478.7640050620622489525@gitolite.kernel.org>
+Date: Tue, 07 Jul 2026 15:24:50 -0000
+Message-Id: <178343789094.1151709.1411362165777226867@gitolite.kernel.org>
 
---===============6285996732314493621==
+--===============4449864216525914811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 59c0f19a4806c063d51dd3f13c8116cbadcab345
+    old: 59c0f19a4806c063d51dd3f13c8116cbadcab345
+    new: 22dd2777e6c180e1c945b00f6d18550979436324
     log: |
-         a483b1a91b33b7533280e7c3efd2bc1275caef18 serial: max310x: implement gpio_chip::get_direction()
-         59c0f19a4806c063d51dd3f13c8116cbadcab345 serial: msm: Disable DMA for kernel console UART
+         22dd2777e6c180e1c945b00f6d18550979436324 serial: msm: Disable DMA for kernel console UART
          
 
---===============6285996732314493621==
+--===============4449864216525914811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783437873 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783437889 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1783437873-c62c6603561a26cf432f456138904d703d244130
+nonce 1783437889-5937cae9b84dfa24c64c54c46860e93ec734ff92
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 59c0f19a4806c063d51dd3f13c8116cbadcab345 refs/heads/tty-linus
+59c0f19a4806c063d51dd3f13c8116cbadcab345 22dd2777e6c180e1c945b00f6d18550979436324 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpNGjIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PjQP/0fuuELrV763l2LNQE8w
-UuWIGDFBH3KMjRPNYeN4iP+Y/8O/02TScxeMQ5iJjqLRRWik3ft11T6+TzmxA9GD
-Dfvtb97d/YM3P0itBXMa45FV853C9+QzR+UL0N2k55c7zaR+qbsbs80ITAKOA53c
-sIibKzR/cmSRO/rYWBB+ZeRYRd3jZsuj6kP19U/ng5TVTc+v7iIQXrS9Yrm6qC3o
-SZMlPHawcsQf7XCDrTKsYuQUrR6NPcpZhhTqqm/Fy+RTwMCRWMAeue+u4HVoMw+a
-1U/taQwtqYNS51VRCp4hTTiXfzZ4elT8nZfi2T1iuZkec5AWKtmYY7ukKkfLQ2jP
-mGU/4UqjY37atZwAvyiR6X91NKmGOuhG7P7cuqpifSvbBP4VSS2B2/9tqn/N97qJ
-RUj06gobpdZk1uC8Jdm+wSGE9VifMmsMcIUfDGUgGOmqFquyqSxZjubNkS+Ey38G
-BgGjlqbq0+lFpJon83o0CWpw32Ly8IqUnRq3vkIhjcdVT0E53+2UoZy3GIOT8vdn
-i/faCebzqT1oJ4QJ6fC2ZmKf1oRa5WgHOgTpPMuvQFtZumbe0n8KXy4Pjh9F5QmC
-e4Pkb2VOs6QL78XJmwsYC+FKiTsqyiuTWKgPayHy/SxdhorULROzy1Qok52VKFNy
-Sj/Xc4UVagUDa8D6Q0ADLaMy
-=bwdG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpNGkEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9FwP/2ERv0+wlH6W1wsyKuqI
+CUeIFa8vyZDCn4AKIhK2e4V6lmy/sOjSXzBrh78g1LjxpNrTC//SuKy9SWPwKk+R
+Qb/SRRm0mD1dO1F36MW1RZNkYw4vjU9ClSMtVAZxIb+fZ2fe7qjx8+zT8C06QwCj
+mWcv+5tAEbNx4Cs12MWnm3XTqJLmE/nrCqi/jF/6vOvgYzs1GT1wShwOpCdyAB6f
+DYoOYN7ANQesSr0E+DRo7K0F34nM8Wy7jomaabUDLHmVg0IpO0TKsF4XvGwMhkCI
+lUkOVWCX4g7gueb/F1jbj0S0SNiacbqS0oEcbJOcSHb2GT/YZCrNjAIV7mGoggYA
+xwmOh3v7UjntPEdV9Nwq4KLfkHAefrRGu6ftb7y1aigYf80B4bSOl9CW5aVJGaUn
+5LEbBXUc0bOEx+ZEzbtLijtoTj0/msbPSKyEmfWeOG0ZCZUGky8YbmYS86PMp3OA
+k87UGKbmNwXuHtayyJhMra9GDQ8tW/GYZO0A3j/BKM06iqAYCFIdna+TulN+CuH+
+4Qhomg/DdUb/6VCE0WSm0JNMhJCvDeJdYJqIblvEgkwPzsJbfFUEwjdIgZhth7o3
+Fm8ktxtRZVyeh1dfC6Lt9VXy5mwnfL/lE+1NWSek9kz1OIIVWadNZbMih5QaD4NV
+5sVzHHkqjISPiTOPesJWnh5j
+=y8qB
 -----END PGP SIGNATURE-----
 
---===============6285996732314493621==--
+--===============4449864216525914811==--
