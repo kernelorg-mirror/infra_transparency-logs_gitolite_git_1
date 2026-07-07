@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 07 Jul 2026 19:10:41 -0000
-Message-Id: <178345144197.1308270.13227365620917219029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 07 Jul 2026 19:36:43 -0000
+Message-Id: <178345300323.1324682.5367453363721175467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: f425a0443b7f0221a4b34f6acc0c2924bf5877f2
-    new: 602701718649936eb287bf6c7ecf870ec54c6f71
+  - ref: refs/heads/irq/core
+    old: 491ee67755dde213d0725ede20687ccdee72e053
+    new: 2c27d9b154743eb113e643680b5ce2f8a51647a4
     log: |
-         be39165224d03d92a05f62b9ea10eec089365480 bpf, sockmap: Disallow update and delete from tc, xdp, socket_filter and flow_dissector
-         5de7a6eaed89b45b91ca1830a7ddda7d8f50673b selftests/bpf: Drop tc/xdp/flow_dissector/socket_filter sockmap mutation tests
-         602701718649936eb287bf6c7ecf870ec54c6f71 selftests/bpf: Fix memory leak in msg_alloc_iov
+         57d12209790d3f006cd215d073780f3162d507c4 genirq: Remove unnecessary NULL check of the kstat_irqs field
+         2c27d9b154743eb113e643680b5ce2f8a51647a4 parisc: Remove unnecessary NULL check of the kstat_irqs field
          
