@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7667186116671918513=="
+Content-Type: multipart/mixed; boundary="===============1354537389655804416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 07 Jul 2026 12:59:42 -0000
-Message-Id: <178342918245.1025219.14124104951600305907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 07 Jul 2026 12:59:54 -0000
+Message-Id: <178342919499.1025505.301204895888503230@gitolite.kernel.org>
 
---===============7667186116671918513==
+--===============1354537389655804416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 8e9685d3c41c35dd1b37df70d854137abcb2fbac
     new: 5c73cd9f0819c1c44e373e3dabb68318b1de1a12
     log: revlist-8e9685d3c41c-5c73cd9f0819.txt
-  - ref: refs/heads/stable
-    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    new: 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53
-    log: revlist-8cdeaa50eae8-0e35b9b6ec0f.txt
-  - ref: refs/tags/next-20260407
-    old: 906c53f9629fc58daef9866a770f775c72a66a09
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260707
     old: 0000000000000000000000000000000000000000
     new: b3a87fbe738f19cbe19411cf749f3d8c09c04de4
 
---===============7667186116671918513==
+--===============1354537389655804416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,33 +1054,4 @@ a23a14b2a1827a27f20900ad6edff05819f73e4d Merge branch 'next' of https://git.kern
 ab602f5dd99ccfa56e560a418e866a747f48f2c0 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 5c73cd9f0819c1c44e373e3dabb68318b1de1a12 Add linux-next specific files for 20260707
 
---===============7667186116671918513==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cdeaa50eae8-0e35b9b6ec0f.txt
-
-4b0363cb1f3ec42b0b1346e5ab0b8a3dceeee9be selftests/mm: fix ksft_process_madv.sh test category
-65476d31d8056e859c48580f82295ce159196ffe mm: shrinker: fix shrinker_info teardown race with expansion
-e30453c61e185e914fde83c650e268067b140218 mm: shrinker: fix NULL pointer dereference in debugfs
-d58fdbe37a829fd2e5803dd4e5a72992dd8c5368 mm/damon/sysfs-schemes: fix dir put orders in access_pattern_add_dirs()
-05ea83ee88ca70f8932906d9f2617ff996f45b50 mm/damon/sysfs-schemes: put stats for scheme_add_dirs() internal error
-7da7d599b8a83271c464adfd5ef160202b470570 mm/compaction: handle free_pages_prepare() properly in compaction_free()
-1cb6cf6f2b38d56f9e5e9e7c80c5d482c51874f3 MAINTAINERS: add Lance as an rmap reviewer
-35d4a3cf70a855b50e53189ac2f8463e20a02046 mm/damon/ops-common: handle extreme intervals in damon_hot_score()
-ffd017237cfe99e6e5602ab14179b0e6878a0840 mm: page_ext: add count limit to page_ext_iter_next to prevent invalid PFN access
-81401cebfc1598306b0a981b5f9ee5b58c1aac52 fs/proc: fix KPF_KSM reported for all anonymous pages
-dccf636bf1e68c3fda92f0c9e1018ab7e0ac8b2c selftests/mm: pagemap_ioctl: use the correct page size for transact_test()
-fd5295afae916fb300890875ca53c527537d0c06 selftests/mm: hmm-tests: include linux/mman.h to access MADV_COLLAPSE
-b9faea04ac04ec81588022c08cda877749291109 mailmap: add entries for Radu Rendec
-48a926cb6788afa2a528c2f59cead87f1e3d6e30 mm/damon: add a kernel-doc comment for damon_ctx->probes
-968a672b99387c75585f5dfa623ac405f3e351e5 mm/damon: add a kernel-doc comment for damon_ctx->rnd_state
-45a9591ec5c236d0eb2cf08e540d85392c0df773 mm: a second pagecache maintainer
-7746d72c64054976887928d64d2caf25c5a6dcc0 samples/damon/mtier: fail early if address range parameters are invalid
-e187bc02f8fa4226d62814592cf064ee4557c470 mm: do file ownership checks with the proper mount idmap
-74a21a2db6aecff5b01cf6b3a52144dd805d51ff tools/virtio: add missing compat definitions for vhost_net_test
-039892c35f9d8f5ea00d7c2ed1c25224f28b11d7 tools/include: include stdint.h for SIZE_MAX in overflow.h
-cead34ac1ce10046cb745fbc33a4b21cac899753 MAINTAINERS: update ndesaulniers
-0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53 Merge tag 'mm-hotfixes-stable-2026-07-06-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-
---===============7667186116671918513==--
+--===============1354537389655804416==--
