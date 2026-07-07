@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Tue, 07 Jul 2026 21:30:16 -0000
-Message-Id: <178345981665.1402055.17598963251660630606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 07 Jul 2026 21:36:26 -0000
+Message-Id: <178346018648.1406128.7283685956454990232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
   - ref: refs/heads/dev
-    old: 149b192e376d746bf7b8e1e02541c2256c3b17f0
-    new: 0cee720cfd51402cfcb14d96cb326a36c13b823a
+    old: eb0f06622ceaa843b84703442726e910a4b4a27c
+    new: e5ee2ea2d00ae5a0ca53ccf9c9100f2357e1bd08
     log: |
-         ef2d3e4635761b0af2bf1b89a2252e42a3bf37f1 rust: task: clarify comments on task UID accessors
-         15c1f17979712407a4a71f2129f89ecd625ccbe8 cred: delete task_euid()
-         0cee720cfd51402cfcb14d96cb326a36c13b823a selftests/lsm: Fix memory leak in attr_lsm_count
-         
-  - ref: refs/heads/next
-    old: 149b192e376d746bf7b8e1e02541c2256c3b17f0
-    new: 0cee720cfd51402cfcb14d96cb326a36c13b823a
-    log: |
-         ef2d3e4635761b0af2bf1b89a2252e42a3bf37f1 rust: task: clarify comments on task UID accessors
-         15c1f17979712407a4a71f2129f89ecd625ccbe8 cred: delete task_euid()
-         0cee720cfd51402cfcb14d96cb326a36c13b823a selftests/lsm: Fix memory leak in attr_lsm_count
+         ee2c5bd02bd4dd0779889d8dfc628d0aaf7c8e2d rcu-tasks: Remove unused struct rcu_tasks's->n_ipis_fails variables
+         ef6a87a27dd1556d5c92a3b750b94a0815bd2666 rcu-tasks: Dump rcu tasks status when the boot-test failed
+         548241132e403b7ade0c32ac4be53e7841bb43a4 hazptr: Permit detaching hazard pointers from tasks
+         e5ee2ea2d00ae5a0ca53ccf9c9100f2357e1bd08 hazptrtorture: Detach deferred and IPIed hazard pointers
          
