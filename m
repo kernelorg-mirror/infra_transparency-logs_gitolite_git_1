@@ -1,34 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 07 Jul 2026 09:10:48 -0000
-Message-Id: <178341544816.862640.5112899409491411859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 07 Jul 2026 09:14:55 -0000
+Message-Id: <178341569516.863813.17314458178853593975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: 6551e073bb772ceef19965a02621af0e1b77d1d5
-    new: 43c7d8d1860a2e06bd059f5bbb84ceb2d6abe903
+  - ref: refs/heads/xfs-7.2-fixes
+    old: e4281086ae6caf006b6ef0670479eb5f96880fb9
+    new: de7400fc098b6aa4acbae9c3f5167c91e8ced908
     log: |
-         f2d3f1040550430a720b5e5bdc9f5fa1f09a6b6b libblkid: (iso9660) fix out-of-bounds read of root dir record
-         095cb2daa6809b20bb7a8d775d1916723cdb1706 dmesg: treat EAGAIN from /dev/kmsg as EOF, not an error
-         454a8b2cab99d6becdac3181547504764ae2f945 Merge branch 'iso9660-root-dir-oob' of https://github.com/aizu-m/util-linux
-         43c7d8d1860a2e06bd059f5bbb84ceb2d6abe903 Merge branch 'fix/4468' of https://github.com/echoechoin/util-linux
-         
-  - ref: refs/heads/stable/v2.42
-    old: bde345937fb769f1ade9c402e8c0e24a4925550e
-    new: ad7923a5dad5ff761f43373f6b432103e296e841
-    log: |
-         64c54b7bbc6b78caacd0ef61be6a89ac553364bf libblkid: (iso9660) fix out-of-bounds read of root dir record
-         927ed2e31d883650e3d7d29de6d6193f4da44970 disk-utils: fix memory leak in execute function
-         294f483cf9a833b86f72ed37a911257fd1efe061 unshare: Fix --map-auto regression
-         f0251533e49ae5aa71697228fdc9c212946a2c50 build-sys: require lastlog.h for liblastlog2
-         25318eb5bc72bc0cb277d43cded1138fafb8e100 meson: gate liblastlog2 on lastlog.h
-         b11aa98c305ea2fc294b0a60ad900de037e6c855 bitops: avoid macro redefinition on macOS
-         ad7923a5dad5ff761f43373f6b432103e296e841 hexdump: stop after stdout write errors
+         5b4396e12cb10fa89ca0a272fae2b5408cfeaa91 xfs: drop ASSERT(0) on unrecognized log item type
+         34dd2253414d228fc9bf8a70b5f9f83107eda3e1 xfs: splice unsorted log items back to the transaction after the loop
+         92d2d133c6cb38582fd52e6fa903ff0b6a00918e xfs: fail recovery on a committed log item with no regions
+         befe3d2705dfd18f1257a0674243b0ba5f337e20 xfs: tie zoned sysfs lifetime to zone info
+         de7400fc098b6aa4acbae9c3f5167c91e8ced908 xfs: use xfs_csn_t for xlog_cil_push_now() push_seq parameter
          
