@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1577668741471625891=="
+Content-Type: multipart/mixed; boundary="===============4916863582187759046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 07 Jul 2026 05:47:11 -0000
-Message-Id: <178340323173.718212.3423289340658695043@gitolite.kernel.org>
+Date: Tue, 07 Jul 2026 05:47:34 -0000
+Message-Id: <178340325445.718634.6900414244557892686@gitolite.kernel.org>
 
---===============1577668741471625891==
+--===============4916863582187759046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: aa6d9def48ea424a50c21de90ebe609c383cb05d
-    new: 116ca5bf5d5bf62f5c7dd867c03d10aae9951f04
-    log: revlist-aa6d9def48ea-116ca5bf5d5b.txt
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
+    old: 116ca5bf5d5bf62f5c7dd867c03d10aae9951f04
+    new: 7d6db0eac9543463f7595bcedca20265315f1eca
+    log: revlist-116ca5bf5d5b-7d6db0eac954.txt
+  - ref: refs/heads/tip/urgent
+    old: f5ee06c5f24e2318305ee56a1425f64375a572d7
+    new: 04428321051d1e17f3896a4f412b027bbac69f89
+    log: revlist-f5ee06c5f24e-04428321051d.txt
 
---===============1577668741471625891==
+--===============4916863582187759046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa6d9def48ea-116ca5bf5d5b.txt
+Content-Disposition: attachment; filename=revlist-116ca5bf5d5b-7d6db0eac954.txt
+
+9cb153ee6bf76571793c1664ee6097183fc32e47 Merge branch into tip/master: 'timers/urgent'
+04428321051d1e17f3896a4f412b027bbac69f89 Merge branch into tip/master: 'x86/urgent'
+708a8a0509c1493b92b4014f9e5b17a5e7f4e38b Merge branch into tip/master: 'core/rseq'
+ce9007be634bce4ca82fa1a95d13842edbdbab36 Merge branch into tip/master: 'irq/core'
+b712c634d1ccf8697c76fb358d071f1b36f0be31 Merge branch into tip/master: 'irq/drivers'
+0ccd10c17755fcdf8a404a9d54cd3b7e940ff2ec Merge branch into tip/master: 'locking/futex'
+23f9ee3f2b61ab7d670c5db13b3c83073695b8c1 Merge branch into tip/master: 'perf/core'
+33f1e25e8acb8b78e4e29fe190ec640a7e94c94b Merge branch into tip/master: 'sched/core'
+aee77feace63714f9cdc95c78d34ecac1d3e06da Merge branch into tip/master: 'smp/core'
+0031f139fc2860f6d1cac0e23aec434d5f5b836a Merge branch into tip/master: 'timers/core'
+60d6dce8c775de53c5418e4026a1f48b22febf93 Merge branch into tip/master: 'timers/vdso'
+3a0d699ccd012e44461b35d87265cec655c91e23 Merge branch into tip/master: 'x86/cleanups'
+7d6db0eac9543463f7595bcedca20265315f1eca Merge branch into tip/master: 'x86/msr'
+
+--===============4916863582187759046==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f5ee06c5f24e-04428321051d.txt
 
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
 c1bab046d4786c5b17aab7c5225bf0d4a2a2d19b spi: core: Abort active target transfer on controller suspend
@@ -71,49 +92,19 @@ e187bc02f8fa4226d62814592cf064ee4557c470 mm: do file ownership checks with the p
 83245e7a436c04e511378af14dd81fd188b41541 ASoC: rsnd: src: Add missing scu_supply clock to suspend/resume
 5720deab6da70d0676cee8a580f6146ef85a3ab9 Merge tag 'asoc-fix-v7.2-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 920f893f735e92ba3a1cd9256899a186b161928d posix-cpu-timers: Prevent UAF caused by non-leader exec() race
-a73d7f98e41a96d6e1bcb0e731ab185d9d67878e posix-cpu-timers: Don't abuse lock_task_sighand() in handle_posix_cpu_timers()
-4a023120989abefd9331f0069f44c7d5697c24e9 Merge branch 'locking/urgent' into locking/futex
-4903ab0c83f033424879ba7435668f9ebe14f641 futex: Remove unnecessary NULL check before kvfree()
 9c9330c764b01519500a656cf3ffab76ff481878 Merge tag 'spi-fix-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 216a8b21797ff4ad8622a24a68f851918890e95d Merge tag 'sound-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 610533cb3bd0aba501d14552c3bf1485eb427455 Merge tag 'irq-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-dfa2f2378fb18c1917e097d710b55ae16442c3e3 selftests/futex: Remove static keyword from 'head'
-e531301dd8fa23f1edeee9c8af62310a4e1424c5 selftests/futex: Migrate functional tests to harness
-a894f6f403320c65b26816be00d9b694e606cae1 selftests/futex: Correct validation logic in waitv
-0d65d1abb5e4a3018cc3921ced750ce54943396a selftests/futex: Migrate futex_wait to harness
-dccef66d850b49fdb8a042df59416db1d88d92d8 selftests/futex: Migrate futex_wait_private_mapped_file to harness
-78834d8b9c99a6e2e000bb4019498ee76336887e selftests/futex: Migrate futex_wait_uninitialized_heap to harness
-d0f7df9bb778bb68a3c91c58ea8190188b46f715 selftests/futex: Migrate futex_requeue to harness
-b7d837c2d49e3c62a62c14f04b38129ca6054363 selftests/futex: Migrate futex_requeue_pi to harness
-4559deb7382861b5e920bbccdf62c470384ab0ac selftests/futex: Migrate futex_requeue_pi_mismatched_ops to harness
-7fe733f11215ac7eb308ad2e57a2b2279ce9f303 selftests/futex: Migrate futex_requeue_pi_signal_restart to harness
-9b19fbb3a6c5e5fd4e7b14daa53510f6dc72d4d4 selftests/futex: Migrate futex_numa_mpol to harness
-4f22ba7eee3e1ed67095edd49fb99db4032343ab selftests/futex: Migrate futex_priv_hash to harness
-553bd67a903273d94030f32d671f3d6f19860a85 selftests/futex: Migrate robust_list to harness
-90a0286c7d3591295a55c97319de322159993c21 selftests/futex: Add FUTEX_LOCK_PI owner-exiting coverage
-50c121e5a57abe446e46825fb9c69ac419765d5c selftests/futex: Dynamically skip unsupported tests
-86620fb9d37b9f5aaae7c7cb27a173463d961cdc selftests/futex: Provide thread creation and synchronization helpers
-157a9b22ff769e1a657aec6210df3ea896600eec selftests/futex: Use thread synchronization helpers instead of usleep()
-7148c0a02e09994cfede32bf0b63f3ef9724f6f5 selftests/rseq: Fix spelling of accommodate
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-e2904ddb14a4198ad31eb12a072a6923f0c8ca09 timekeeping: Document monotonic raw timestamps in snapshots correctly
-d8966ca88566d94de9958a84f93bd08bfc431ee6 hrtimer: Remove unused next_timer argument from __hrtimer_reprogram()
-b3afded935a8528d3df57198aaa90651995622c5 clocksource: Remove unused WATCHDOG_INTERVAL_NS macro
-86e9ba573c353afd1a46816682f4cc3dbabeeb23 irqchip/irq-imgpdc: Remove unused driver
 cead34ac1ce10046cb745fbc33a4b21cac899753 MAINTAINERS: update ndesaulniers
 ca0676ae2e1a23ac3e858224fc630b99f9e216ea fs/resctrl: Free mon_data structures on rdt_get_tree() failure
 52fce648607e0d6a76eeb443d78708c49df1c554 fs/resctrl: Fix use-after-free during unmount
 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53 Merge tag 'mm-hotfixes-stable-2026-07-06-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b9f089723aee892efc77c349ae47a6b452b293c4 fs/resctrl: Fix double-add of pseudo-locked region's RMID to free list
-270817593bf42948b9372e73b94c8ec44a9ad73b Merge branch into tip/master: 'timers/urgent'
-53bcf7993f9ff12d29a1aca383e3db387da7d44a Merge branch into tip/master: 'x86/urgent'
-61d04f2ebbcea2a7db5cf5f81ba4fff6806e4494 Merge branch into tip/master: 'core/rseq'
-5d40d495b143ae7e18d87715cc28dc6d4f8a6e27 Merge branch into tip/master: 'irq/drivers'
-4a51ffc94998441ac9b79d228166326c1c04101c Merge branch into tip/master: 'locking/futex'
-bc6adbc2dd6a1bb19c033b8d5b5a4fdacf7089e2 Merge branch into tip/master: 'timers/core'
-116ca5bf5d5bf62f5c7dd867c03d10aae9951f04 Merge branch 'linus'
+9cb153ee6bf76571793c1664ee6097183fc32e47 Merge branch into tip/master: 'timers/urgent'
+04428321051d1e17f3896a4f412b027bbac69f89 Merge branch into tip/master: 'x86/urgent'
 
---===============1577668741471625891==--
+--===============4916863582187759046==--
