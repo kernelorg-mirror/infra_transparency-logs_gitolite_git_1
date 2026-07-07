@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 07 Jul 2026 14:48:57 -0000
-Message-Id: <178343573787.1124886.5076995232609221307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 07 Jul 2026 14:51:55 -0000
+Message-Id: <178343591567.1127805.4509124739539266780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/clean-init-one-hfi1-v1
-    old: 23110cc368de3fe6885a202280d24f74ae15cfdb
-    new: 6d30001bf511e6146eb0382f41f18cbe6630533b
+  - ref: refs/heads/dev-test
+    old: 1006b2f57f77325bfbf5bd36685efe60334fa360
+    new: b6773f600ff1bf07e553989618f3d39cad1c2193
     log: |
-         51b0a3fbc9db2251cb0d837924176f1afa8f4380 RDMA/hfi1: Pass PCI device to hfi1_pcie_init()
-         cc9b06d324782392b5a2d34787e96228a555a1dd RDMA/hfi1: Drop device data from hfi1_validate_rcvhdrcnt()
-         bd3a12b3fccc9ad11a69a8f2860e062f234b99c2 RDMA/hfi1: Create workqueues before device initialization
-         cc126fb8c977ef628712a66e672c08825b425c70 RDMA/hfi1: Free RX data on late probe failure
-         391519bd1a5cb04604077c4c21a3c2384f0a7344 RDMA/hfi1: Allocate device data after PCI initialization
-         6d30001bf511e6146eb0382f41f18cbe6630533b RDMA/hfi1: Remove redundant NULL checks in create_workqueues()
+         0c1c63757f3887960c66b1a178a64e43b932fec6 erofs: relax sanity check for tail pclusters on ztailpacking images
+         b6773f600ff1bf07e553989618f3d39cad1c2193 erofs: get rid of erofs_is_ishare_inode() helper
          
