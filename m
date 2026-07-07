@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 07 Jul 2026 10:58:11 -0000
-Message-Id: <178342189100.938065.14393401013326177031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 07 Jul 2026 11:05:09 -0000
+Message-Id: <178342230959.943820.8505693338354005988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-7.3/trivial
-    old: 1a38fd13c31ed8e7c7b598cc975ecc0f41fca468
-    new: e77f165d26f72c280654cff248f5106cb9a53951
+  - ref: refs/heads/main
+    old: c95059a3774b1164a2d6a4db5371fb8406b22692
+    new: 2c35b1ed46f661baaf14b08cebb9201ca802f939
     log: |
-         e77f165d26f72c280654cff248f5106cb9a53951 kbuild: unset sub_make_done before calling kselftest build system
+         b2306fcd2b757c0a92969e42fa9d5fc67b766321 qcom: vpu: add Gen2 firmware binary for Purwa
+         2484241ff84f55595f74a503a7e4082a77ba7dc6 Merge branch 'video-fw-Purwa-Gen2' into 'main'
+         b81cba4304c7385149dcb3261c9e10b10d855aec cirrus: cs35l56: Update firmware for the ASUS UX5406SA
+         404a8ec6f1af2a30d2ce5b9ffcdbb9dc6bce9c43 Merge branch 'robot/pr-0-1783347458' into 'main'
+         dc065e7d9a309526056d7d9d79d0bae06d9b0c3a xe: Release GuC firmware for NVL-S
+         2c35b1ed46f661baaf14b08cebb9201ca802f939 Merge branch 'main' into 'main'
          
