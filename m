@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 07 Jul 2026 13:37:35 -0000
-Message-Id: <178343145553.1053025.15309079365047266317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 07 Jul 2026 13:43:18 -0000
+Message-Id: <178343179859.1056761.10967309830188505687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/main
-    old: 997bfb05c919d2c5ee77c594d354f6c61b99ccdf
-    new: 4a13f31a92f35161b499bf29638336885259da78
+  - ref: refs/heads/scx-proxy-exec-next
+    old: abc29f65312f76e1310e0389c83740e6e69eee4e
+    new: 03e177ab24accd4a718d13bdb854251b4acbcf69
     log: |
-         5326fefb9fe8e7014f5d7246fa10ff0db7a968a3 net: hold instance lock around NETDEV_DOWN/GOING_DOWN
-         cefa18fab29cf0dc99f6e7aa10ee332826f305c0 net: dsa: hold instance lock on close-on-shutdown paths
-         6034bc4febc98801097e5c416a7fef8ccf883507 net: mtk_eth_soc: hold instance lock around DMA-device-swap close
-         b8d2262b966a068dc567e72d493230f4ba62cc4a net: rtnetlink: take instance lock inside rtnl_configure_link
-         f540caaaca8d23a6bd3a8c424cd808037840b4af net: require instance lock for NETDEV_DOWN/GOING_DOWN notifiers
-         538d89fd914610852a6fb20b823ba70566153d46 net: document NETDEV_UNREGISTER unlocked rationale
-         4a13f31a92f35161b499bf29638336885259da78 Merge branch 'net-hold-instance-lock-around-netdev_down-and-netdev_going_down'
+         5ea4dfde867f121c2a8bf014ec9c5aa4b9fa02e4 sched_ext: Preserve rq tracking across local DSQ dispatch
+         868ec35abe9bf847d1f9fa1f20a5107c1b347809 sched/core: Drop mutex locks before proxy rescheduling
+         2bbaa82e081ed8a75b32310be99149a49a43f4e6 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+         cab97c63853e0c47615c045d9be58e75782aee70 sched_ext: Split curr|donor references properly
+         45b8b715fc62d6bb4ed7283bfcc3df54f3f7637e sched_ext: Fix TOCTOU race in consume_remote_task()
+         50c1930dcc7293343d9a5e9da632c72448aaad44 sched_ext: Handle blocked donor migration with proxy execution
+         54c333df00d54a3d04077e41041c22d395464aae sched_ext: Delegate proxy donor admission to BPF schedulers
+         0aaa039283da86c3ec8c700657782f0549573557 sched_ext: Add selftest for blocked donor admission
+         30963a1bf93a4f8ad4d1a0ae50a522e742816c8a sched_ext: scx_qmap: Add proxy execution support
+         03e177ab24accd4a718d13bdb854251b4acbcf69 sched: Allow enabling proxy exec with sched_ext
          
