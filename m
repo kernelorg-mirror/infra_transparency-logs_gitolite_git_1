@@ -1,54 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0871232306985805753=="
+Content-Type: multipart/mixed; boundary="===============6914246801050351334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Tue, 07 Jul 2026 00:55:30 -0000
-Message-Id: <178338573029.522727.1141072275554783174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 07 Jul 2026 01:27:01 -0000
+Message-Id: <178338762107.548232.2401749960503760323@gitolite.kernel.org>
 
---===============0871232306985805753==
+--===============6914246801050351334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-7.3
-    old: e9d189aa4b2382e81b922c1a619edf78c8013386
-    new: ac1607366c04ad833e37c14e7b70c8f7ebe42339
+  - ref: refs/heads/arm64-defconfig-for-7.3
+    old: 734d1de41915bf84b89862b275b5c2be88d6ef6b
+    new: 235aa29b39329b971fbf0c28fb04b0ae83d7983f
     log: |
-         95220e1f18f6321008f021abc7d6f581f64bcb82 cgroup/cpuset: Make nr_deadline_tasks an atomic_t
-         4d733685148c65eb6aa52aa9b248bc501a604e39 cgroup/cpuset: Fix node inconsistencies between cpuset_update_tasks_nodemask() and cpuset_attach()
-         75f7a25ec6bb365225e60b5aa6bae397866b0cee cgroup/cpuset: Prevent race between task attach and cpuset state change
-         892b8bb3fb7c0a96f294fc8b34e4477f51c90ab0 cgroup/cpuset: Put all task attach related variables into attach_ctx
-         e165f243fecce67898eaf986b3e768936ae4be8c cgroup/cpuset: Add a cpuset_reserve_dl_bw() helper
-         74eda6ea709e7effcd6678255fcaefad47d44695 cgroup/cpuset: Expand the scope of cpuset_can_attach_check()
-         1bc48a502a43a4e42954ccd9e771af658e0e405f cgroup/cpuset: Make attach_ctx.old_cs track task group leader
-         65e510cd30d01663160b8bc5c7d9928ab7303977 cgroup/cpuset: Move mpol_rebind_mm/cpuset_migrate_mm() calls inside cpuset_attach_task()
-         ac1607366c04ad833e37c14e7b70c8f7ebe42339 cgroup/cpuset: Support multiple source cpusets for cpuset_*attach()
+         235aa29b39329b971fbf0c28fb04b0ae83d7983f arm64: defconfig: Enable Sound DMIC driver
          
-  - ref: refs/heads/for-next
-    old: 8ce36e9b80236be5eb3bad7dee3701b16571a03a
-    new: cc7d3289c11ad52984c350ad1d7f23cbfc58bc9c
-    log: revlist-8ce36e9b8023-cc7d3289c11a.txt
+  - ref: refs/heads/arm64-fixes-for-7.2
+    old: 6267f93eac9aa6963797c5bc1a18de9571ccac26
+    new: 07db10de262f4150e24fd631a7a6c428f7bf80c9
+    log: |
+         07db10de262f4150e24fd631a7a6c428f7bf80c9 arm64: dts: qcom: sdm850-lenovo-yoga-c630: lower PSCI cluster idle
+         
+  - ref: refs/heads/arm64-for-7.3
+    old: c09cd72be7fdfc348ceecfe414ff9698bc3561f3
+    new: 12975c0f09c58ccf305b1383131790ea3cf6cedb
+    log: revlist-c09cd72be7fd-12975c0f09c5.txt
+  - ref: refs/heads/clk-for-7.3
+    old: 0000000000000000000000000000000000000000
+    new: 1c99638642c2137d7e699e7b2ab400df7ef15774
 
---===============0871232306985805753==
+--===============6914246801050351334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ce36e9b8023-cc7d3289c11a.txt
+Content-Disposition: attachment; filename=revlist-c09cd72be7fd-12975c0f09c5.txt
 
-95220e1f18f6321008f021abc7d6f581f64bcb82 cgroup/cpuset: Make nr_deadline_tasks an atomic_t
-4d733685148c65eb6aa52aa9b248bc501a604e39 cgroup/cpuset: Fix node inconsistencies between cpuset_update_tasks_nodemask() and cpuset_attach()
-75f7a25ec6bb365225e60b5aa6bae397866b0cee cgroup/cpuset: Prevent race between task attach and cpuset state change
-892b8bb3fb7c0a96f294fc8b34e4477f51c90ab0 cgroup/cpuset: Put all task attach related variables into attach_ctx
-e165f243fecce67898eaf986b3e768936ae4be8c cgroup/cpuset: Add a cpuset_reserve_dl_bw() helper
-74eda6ea709e7effcd6678255fcaefad47d44695 cgroup/cpuset: Expand the scope of cpuset_can_attach_check()
-1bc48a502a43a4e42954ccd9e771af658e0e405f cgroup/cpuset: Make attach_ctx.old_cs track task group leader
-65e510cd30d01663160b8bc5c7d9928ab7303977 cgroup/cpuset: Move mpol_rebind_mm/cpuset_migrate_mm() calls inside cpuset_attach_task()
-ac1607366c04ad833e37c14e7b70c8f7ebe42339 cgroup/cpuset: Support multiple source cpusets for cpuset_*attach()
-cc7d3289c11ad52984c350ad1d7f23cbfc58bc9c Merge branch 'for-7.3' into for-next
+5b372595d4b4cd471f49901498a920c983310c47 arm64: dts: qcom: milos: Add IPA node
+47dd81735741b60b53dc2ccd4a48b0ec74c9adc7 arm64: dts: qcom: milos-fairphone-fp6: Enable IPA
+93d60582eb52e50ea11f95397a2b3633b12efa66 arm64: dts: qcom: talos: Add EL2 overlay for talos-evk
+bf949e86fb5c3034b70b62c9ee31b3d88d5f7fb5 arm64: dts: qcom: monaco: fix wrong connection for the replicator
+f52102fc9ccbbb3c4bc01a29f3194fe07f9602f5 arm64: dts: qcom: sc8280xp-blackrock: switch to uefi rtc offset
+a8c0bd4233a9612f200a27f535b66e71eec289a6 arm64: dts: qcom: msm8953-flipkart-rimob: Enable display and GPU
+15c3536da9227b5850b566f48b2135a7ecc8faf2 arm64: dts: qcom: msm8953-flipkart-rimob: Enable WiFi/Bluetooth
+74a12ff179901fcec9217ead7d2be368ddff0dd1 arm64: dts: qcom: msm8953-flipkart-rimob: Enable touchscreen
+349ba5a82f0c9f4cfd817dd961e57a545977a66d arm64: dts: qcom: msm8953-flipkart-rimob: Enable Hall sensor
+cc62a79bfa39e057c73828c1ed369b63d832edca arm64: dts: qcom: sm6350: Add interconnects for GPU, MPSS & CDSP
+edda2a710b87fd49bd991895f34195b6ea37e286 arm64: dts: qcom: sm6350: Add PIL info region
+f6e65005fe55c3d09287851523de06367cbf0bc2 arm64: dts: qcom: sm7225-fairphone-fp4: Fix address in fb node name
+12975c0f09c58ccf305b1383131790ea3cf6cedb arm64: dts: qcom: sm7325: Add Motorola Edge 30 (dubai) DTS
 
---===============0871232306985805753==--
+--===============6914246801050351334==--
