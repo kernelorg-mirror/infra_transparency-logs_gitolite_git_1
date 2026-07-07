@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6689410017888752901=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 07 Jul 2026 21:44:08 -0000
-Message-Id: <178346064897.1410303.12650254866582735854@gitolite.kernel.org>
-
---===============6689410017888752901==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 07 Jul 2026 21:44:18 -0000
+Message-Id: <178346065858.1410689.2994065382152628542@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 8e5a6599a38e5515cd2b5f34fe8a8ac476f8b127
-    new: 6943ea99422ed840ee15dc546db1cdbd0b325620
+  - ref: refs/heads/timers/core
+    old: c4415c993fc2c8bdf2cf0bfbcbb1ac0e0f7a9eaf
+    new: faef65e45a2a03f1fa32bc4e55c11d79f6aaae6f
     log: |
-         6943ea99422ed840ee15dc546db1cdbd0b325620 ASoC: SOF: amd: add missing blank line between Kconfig entries
+         03b5d4c2798234d9ee3c4a719a2fefe785a6aec4 hrtimer: Rename hrtimer_defs.h to hrtimer_bases.h
+         d3dc7fabd4c4a3baaa7e7bfa84558fedad699580 hrtimer: Move hrtimer_callback_running() to hrtimer_bases.h
+         a116c7582d7f7701736801a47e3432eb7cabd674 hrtimer: Move hrtimer_update_function() to hrtimer.c
+         73fcec09d1629afa8819a866518cc0e8d58a7ece tick: Explicitly include linux/hrtimer_bases.h
+         95cf8bbadd103944c35c55e8c4cb85fa9a4ae84b hrtimer: Explicitly include linux/hrtimer_bases.h
+         071993aac72ea8e6f9986bf41101974e8faa2eca hrtimer: Explicitly include some necessary headers in hrtimer_rearm.h
+         0c31af3d23e62b2ac0622bc6592793e21f915657 x86/speculation: Explicitly include linux/types.h
+         faef65e45a2a03f1fa32bc4e55c11d79f6aaae6f hrtimer: Remove inclusion of hrtimer_bases.h remove from hrtimer.h
          
-
---===============6689410017888752901==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1783460647 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1783460646-dc14a7f2c682cd92e4ef2002c325341c9aabd92d
-
-8e5a6599a38e5515cd2b5f34fe8a8ac476f8b127 6943ea99422ed840ee15dc546db1cdbd0b325620 refs/heads/asoc-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpNcycACgkQJNaLcl1U
-h9B1Tgf8CqY4n20rn6bx9qlqYps1BUrnVV4e140GuCC166kzDXAPWKYEEzmNcd12
-0+tqU+ZQPsPy0Lwjz19A35HW7kSKI7oentUDyUfyRyFTLqKNlT87rh9uCWTfzhtU
-QsFjTYDPJOAJ6aAQzQX1DGpJUjLLVUOdcUr9enlAEC+3PdhfjUtso5ssIucFu0cC
-RzYEM35WZlk1/mixLK6ZVwLgYHzhPIn4AQaNUJHprrq0i76CuAB0q5befmnp7uR1
-kMaLmSm2npoSariJ6zQnRiqASZ/DhYzf3vw2lBPPz71ToZVeRFOudd6bSVYuNAsj
-UQN/a6uZC0BCLqdB6B3mD2KpGHwvNg==
-=4tqQ
------END PGP SIGNATURE-----
-
---===============6689410017888752901==--
