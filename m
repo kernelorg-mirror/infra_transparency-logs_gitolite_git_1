@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 07 Jul 2026 17:56:06 -0000
-Message-Id: <178344696675.1257906.15571765008898865456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Tue, 07 Jul 2026 18:14:51 -0000
+Message-Id: <178344809179.1268600.4735784907328332425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
   - ref: refs/heads/for-next
-    old: edffc4a1516e578cf684bcfb63decbb61c783264
-    new: cdaa80f69bef58fd336d4aedac8e72f343f60a27
+    old: a1735eae55448bc79c2da6593455791e886f6ed8
+    new: 74504945c3f653660b25780f9110c4f4be4abc75
     log: |
-         23b749db9757700de2cd051883524529e92abf5f Merge branch 'v7.2-clk/fixes' into for-next
-         893a8509769142a8d3350d28898eac9af044cfea Merge branch 'v7.3-armsoc/dts64' into for-next
-         cdaa80f69bef58fd336d4aedac8e72f343f60a27 Merge branch 'v7.3-clk/next' into for-next
+         74504945c3f653660b25780f9110c4f4be4abc75 nilfs2: handle corrupted checkpoint count gracefully during deletion
          
-  - ref: refs/heads/v7.3-armsoc/dts64
-    old: 0aec094dff13ab5526a3e602243576c3ac993ec3
-    new: 145d4af4b204e1fb565a498c6c8f801525cc0a4e
