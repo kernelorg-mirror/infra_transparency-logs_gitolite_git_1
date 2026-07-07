@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Tue, 07 Jul 2026 18:14:51 -0000
-Message-Id: <178344809179.1268600.4735784907328332425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 07 Jul 2026 18:25:24 -0000
+Message-Id: <178344872459.1277566.15156447916093597190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/for-next
-    old: a1735eae55448bc79c2da6593455791e886f6ed8
-    new: 74504945c3f653660b25780f9110c4f4be4abc75
+  - ref: refs/heads/master
+    old: b90739c1da74fa13c06000b0458e77e9f0fa7847
+    new: f425a0443b7f0221a4b34f6acc0c2924bf5877f2
     log: |
-         74504945c3f653660b25780f9110c4f4be4abc75 nilfs2: handle corrupted checkpoint count gracefully during deletion
+         f425a0443b7f0221a4b34f6acc0c2924bf5877f2 selftests/bpf: Fix memory leak in msg_alloc_iov
          
