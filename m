@@ -1,52 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============7161538579906763847=="
+Content-Type: multipart/mixed; boundary="===============2120987227592011164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 07 Jul 2026 02:08:43 -0000
-Message-Id: <178339012324.575482.4829984946668312825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 07 Jul 2026 02:34:10 -0000
+Message-Id: <178339165032.591806.7960878601812587446@gitolite.kernel.org>
 
---===============7161538579906763847==
+--===============2120987227592011164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    new: 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53
-    log: revlist-8cdeaa50eae8-0e35b9b6ec0f.txt
+  - ref: refs/heads/next
+    old: c42f45431d0ffbb231a771bbd65f8a334855ceed
+    new: 00534a21ce949ef80a5b8b9d7fc20b7d381038e9
+    log: revlist-c42f45431d0f-00534a21ce94.txt
 
---===============7161538579906763847==
+--===============2120987227592011164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cdeaa50eae8-0e35b9b6ec0f.txt
+Content-Disposition: attachment; filename=revlist-c42f45431d0f-00534a21ce94.txt
 
-4b0363cb1f3ec42b0b1346e5ab0b8a3dceeee9be selftests/mm: fix ksft_process_madv.sh test category
-65476d31d8056e859c48580f82295ce159196ffe mm: shrinker: fix shrinker_info teardown race with expansion
-e30453c61e185e914fde83c650e268067b140218 mm: shrinker: fix NULL pointer dereference in debugfs
-d58fdbe37a829fd2e5803dd4e5a72992dd8c5368 mm/damon/sysfs-schemes: fix dir put orders in access_pattern_add_dirs()
-05ea83ee88ca70f8932906d9f2617ff996f45b50 mm/damon/sysfs-schemes: put stats for scheme_add_dirs() internal error
-7da7d599b8a83271c464adfd5ef160202b470570 mm/compaction: handle free_pages_prepare() properly in compaction_free()
-1cb6cf6f2b38d56f9e5e9e7c80c5d482c51874f3 MAINTAINERS: add Lance as an rmap reviewer
-35d4a3cf70a855b50e53189ac2f8463e20a02046 mm/damon/ops-common: handle extreme intervals in damon_hot_score()
-ffd017237cfe99e6e5602ab14179b0e6878a0840 mm: page_ext: add count limit to page_ext_iter_next to prevent invalid PFN access
-81401cebfc1598306b0a981b5f9ee5b58c1aac52 fs/proc: fix KPF_KSM reported for all anonymous pages
-dccf636bf1e68c3fda92f0c9e1018ab7e0ac8b2c selftests/mm: pagemap_ioctl: use the correct page size for transact_test()
-fd5295afae916fb300890875ca53c527537d0c06 selftests/mm: hmm-tests: include linux/mman.h to access MADV_COLLAPSE
-b9faea04ac04ec81588022c08cda877749291109 mailmap: add entries for Radu Rendec
-48a926cb6788afa2a528c2f59cead87f1e3d6e30 mm/damon: add a kernel-doc comment for damon_ctx->probes
-968a672b99387c75585f5dfa623ac405f3e351e5 mm/damon: add a kernel-doc comment for damon_ctx->rnd_state
-45a9591ec5c236d0eb2cf08e540d85392c0df773 mm: a second pagecache maintainer
-7746d72c64054976887928d64d2caf25c5a6dcc0 samples/damon/mtier: fail early if address range parameters are invalid
-e187bc02f8fa4226d62814592cf064ee4557c470 mm: do file ownership checks with the proper mount idmap
-74a21a2db6aecff5b01cf6b3a52144dd805d51ff tools/virtio: add missing compat definitions for vhost_net_test
-039892c35f9d8f5ea00d7c2ed1c25224f28b11d7 tools/include: include stdint.h for SIZE_MAX in overflow.h
-cead34ac1ce10046cb745fbc33a4b21cac899753 MAINTAINERS: update ndesaulniers
-0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53 Merge tag 'mm-hotfixes-stable-2026-07-06-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+2f63677fd433536faf38626db8fbfd245d6b08cf Merge branch 'hn/status-pull-advice-qualified'
+57c386f9a5f57973cc70be5375bbe30a6a9fd864 Merge branch 'cc/promisor-auto-config-url-more'
+e49c0e898a540577c42ee3693368a273534dc9eb Merge branch 'ps/setup-drop-global-state'
+da898390cb4742080f1484f108d00afcebcb8b2c Merge branch 'ps/doc-recommend-b4'
+57305b8b465eb85bfab03007921071f2fe5b1d10 Merge branch 'rs/cat-file-default-format-optim'
+ed5d4f6e899ff09c0852711b5918f3d740ce1669 Merge branch 'jk/setup-gitfile-diag-fix'
+aed0faa52bfcdd79cac5b1491dc89d1051fa7ea1 Merge branch 'en/ort-harden-against-corrupt-trees'
+37997b0aa4b13f15173521d4e3897277d0af7ef6 Merge branch 'td/ref-filter-restore-prefix-iteration'
+a7f8e847722a398fd523f61931bf35b8bb5f4664 Merge branch 'ps/odb-source-packed'
+13f5190881de9dcca1dae206f628c8e6faab9689 Merge branch 'ty/move-protect-hfs-ntfs'
+6786e9ce003264b765125c431835f00fddf61b1f Merge branch 'po/hash-object-size-t'
+b7daa7ef643145a2dbcbea13ba11ad507abd6b60 Merge branch 'mh/fetch-follow-remote-head-config'
+3b89f1206bb760cd27f9174ac65bab67ed5238be Merge branch 'kh/submittingpatches-trailers'
+32d5049a71942df782d4abccd92f2a179c70cfed Merge branch 'jc/submittingpatches-design-critiques'
+982308d6de195e55372d51765842eae7683bc0f0 Merge branch 'tb/pack-path-walk-bitmap-delta-islands'
+8af4256eb1fd8ca28e81948746909e6b8e8d190e Merge branch 'pw/status-rebase-todo'
+2e5d1cc0f8388503af74d729e8feecbd94c8e2d0 Merge branch 'mv/log-follow-mergy'
+2b0d1afb967d6e0e458204275b1fa3b6a8bedd2b Merge branch 'jk/repo-info-path-keys'
+7fe674d8b6186ffd7ae320ef8111225a090b7eee Merge branch 'wy/doc-clarify-review-replies'
+3442a0fb7927f3bb6710c1c75f03b4f783605d57 Merge branch 'ps/refs-onbranch-fixes'
+a4d2e8a074a9ee95dfef1f7da21b5fbe0108f3f6 Merge branch 'ps/connected-generic-promisor-checks'
+83fd231fc6831f56953c93ee5778bfb83ee05582 Merge branch 'sg/t3420-do-not-grep-in-missing-file'
+f85a7e662054a7b0d9070e432508831afa214b47 Start Git 2.56 cycle
+b099249efd3528bafb36164e51fc8dfc8f18591e Merge branch 'ad/gpg-strip-cr-before-lf' into next
+55ce81f2d5fd4e87496276a10153c5cd34ac0813 Merge branch 'jk/reftable-leakfix' into next
+35aff0d609cb9530a09c84df10bcd0386b705726 Merge branch 'jk/format-patch-leakfix' into next
+acdff65ac57dd3ad6a28d483e453116b2ca1e93e Merge branch 'hn/branch-push-slip-advice' into next
+aa748c456454e142db8ac51bcb64cc186a9b7ccb Merge branch 'kk/prio-queue-get-put-fusion' into next
+6132517517b5c0c89a40212ef4f03cccc5eee66b Merge branch 'ps/odb-generalize-prepare' into next
+00534a21ce949ef80a5b8b9d7fc20b7d381038e9 Merge branch 'jc/history-message-prep-fix' into next
 
---===============7161538579906763847==--
+--===============2120987227592011164==--
