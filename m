@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 07 Jul 2026 00:49:46 -0000
-Message-Id: <178338538637.516828.11439787588312923957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 07 Jul 2026 00:50:24 -0000
+Message-Id: <178338542428.519230.10966912937160528746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2026-07-06-17-49
-    old: 0000000000000000000000000000000000000000
-    new: 83fedfab817fa9c082c6aea83a71ca71db7411b9
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
+  - ref: refs/heads/for-next
+    old: 39dffa2bee1ba8ed84b6befed3678a1040764ff2
+    new: 54740e4c8c19f79156f228fb51e222ffc2a94ee0
+    log: |
+         cd053d788c3f13b3eaf16672d427ee828fda16ed io_uring: fix dangling iovec after provided-buffer bundle grow failure
+         54740e4c8c19f79156f228fb51e222ffc2a94ee0 Merge branch 'io_uring-7.2' into for-next
+         
+  - ref: refs/heads/io_uring-7.2
+    old: 58481c749c976e81bef9a540e2225ddb021daaa6
+    new: cd053d788c3f13b3eaf16672d427ee828fda16ed
+    log: |
+         cd053d788c3f13b3eaf16672d427ee828fda16ed io_uring: fix dangling iovec after provided-buffer bundle grow failure
+         
