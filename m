@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Tue, 07 Jul 2026 06:11:15 -0000
-Message-Id: <178340467572.735550.11879994733613504748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Tue, 07 Jul 2026 06:18:47 -0000
+Message-Id: <178340512759.739775.9974615410532247061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 078f4b01a0cffa1873e37d6f0575274df3149f51
-    new: fba1a1acb42c0bb4fd0da01faf7bbdb7cd3c979c
+  - ref: refs/heads/b4/vdso-sysfs
+    old: 2874f876545c4ec6b3d8df3a571a568bb4143ccd
+    new: 8ae6b40fd6f555925afd049732cb12e502f22a4d
     log: |
-         fba1a1acb42c0bb4fd0da01faf7bbdb7cd3c979c kbuild: remove srctree path from CHECK output
-         
-  - ref: refs/heads/kbuild-next-unstable
-    old: 078f4b01a0cffa1873e37d6f0575274df3149f51
-    new: fba1a1acb42c0bb4fd0da01faf7bbdb7cd3c979c
-    log: |
-         fba1a1acb42c0bb4fd0da01faf7bbdb7cd3c979c kbuild: remove srctree path from CHECK output
+         8ae6b40fd6f555925afd049732cb12e502f22a4d vDSO, kbuild: Provide debug variants of vDSO at runtime
          
