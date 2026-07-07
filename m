@@ -1,55 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============5119003192555786441=="
+Content-Type: multipart/mixed; boundary="===============3416898531322950939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 07 Jul 2026 12:01:18 -0000
-Message-Id: <178342567859.987876.570691479459147977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 07 Jul 2026 12:16:33 -0000
+Message-Id: <178342659382.997840.10932410778087894560@gitolite.kernel.org>
 
---===============5119003192555786441==
+--===============3416898531322950939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: c7bea1574de3e67edddc842f96f6ae9bb123501a
-    new: cb8afea4655ff004fa7feee825d5c79783525383
-    log: |
-         cb8afea4655ff004fa7feee825d5c79783525383 wifi: cfg80211: bound element ID read when checking non-inheritance
-         
+  - ref: refs/heads/slab-simplify-bulk-pcs
+    old: 0000000000000000000000000000000000000000
+    new: 1c60233f07755247f09ebcbeb5dfa2d3fc610e04
 
---===============5119003192555786441==
+--===============3416898531322950939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1783425642 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1783425641-c91e8f745b2d582f2e57a3a978141b8e43920700
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1783426576 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1783426575-3b0668c6d4d4f91b2af90c58f1d4259dd428ac11
 
-c7bea1574de3e67edddc842f96f6ae9bb123501a cb8afea4655ff004fa7feee825d5c79783525383 refs/heads/main
+0000000000000000000000000000000000000000 1c60233f07755247f09ebcbeb5dfa2d3fc610e04 refs/heads/slab-simplify-bulk-pcs
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpM6moACgkQ10qiO8sP
-aACHIxAAnBpCXWPtWVU7uN4qOLTKEewoVA8wPVuxXzmesF4dIvgTeQ7xaBc+lwxB
-zeHFfKIq3wOOJlhEcWL91l5P8XABK1VlK6m6tQKmR80yTtV5SKGvO6tEjWgYBRQD
-Y2yD/2cbRnYCPCfwYg0jcqW0R9d0gCHMLnxa1CqHhdr8tozvHXPEZGVQPpadtpPS
-NxKljIOi9WwOzShpRpBDcvpVaSz1nYBl3fDEDQpri53LTzJs4nVSkB4E+Rk/MyCG
-kArUse/vAgut4zdtq4CGoewnnqwbTuKz9dYZ8blZMgHDVArPIBvTroWejwj0dYl/
-n+1bOVCUgp49za4IPO0vYV7ElItLJwed63bmGefxx2nhpp65Mj2OdvXaBYJpwvyt
-DAhL3e5Mdw68tBbwCm7ymekYoSGxLoAPd596/uxIo5HXEVXSBWgL6HwCAMGPZN57
-HoLDl7pATjczAZzwn0Am+ZaoeqKpck2ZCXgvxo7Sex41HNULvkgqyhff0GCKkx53
-RxyIcxxOd70ojI4jR1ttYVEeh4I1GIgBToUvlGxvxCTqVW2zjbfDXGMvZWJPcF1h
-ptyoduU5GgxQlavQTAKvCOzV78RSUSFwxrES2X5C9NgTuwpGHscCVOkMtdCzID76
-+rYwkkYryjODvY1+Wp2jRxeXJ1YGqhaasoNGEPocvntCShqMC78=
-=J/um
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpM7hAbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaZHIH/2wu7bDGEIKAEYy/SA28
+TYuFEZqgUSHRcdLzvYTPds6vR+0Ug+JfHVrnPoL1EsIzOoj0y9w5VHd/DaRJx173
+3TgNVj+w1AoD89DyDBk4rd1Qjs69p3dIAzkCZc71uwm0MWX3CNKsSO8zjcB4/khg
+A6gr0FNpYydau/WL/HjVzw1BcKvt8afL54RV/i6hClyG0iZTmpwGM6rveVaA9c4U
+VeKY52+TiWJrn5LL7GUfVVpAcbCHngCzDHE85QDunhPpH/FaUYmuv/tGGSPW1EGj
+DjLB91gpPJ7FFr17lo8zQ9cRLUlRB7JkR+sFvAOqxnnk+DRZCB3l/8Xj1OGc0wrG
+kAM=
+=yAbA
 -----END PGP SIGNATURE-----
 
---===============5119003192555786441==--
+--===============3416898531322950939==--
