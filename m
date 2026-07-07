@@ -1,55 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3296669936294251123=="
+Content-Type: multipart/mixed; boundary="===============1628780948432611928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 07 Jul 2026 11:07:33 -0000
-Message-Id: <178342245399.945015.2712399315417218759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 07 Jul 2026 11:07:42 -0000
+Message-Id: <178342246278.945255.8837051698328749933@gitolite.kernel.org>
 
---===============3296669936294251123==
+--===============1628780948432611928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 240c8d2c717b3f8153e7e877b22a82518d78dbdc
-    new: c7bea1574de3e67edddc842f96f6ae9bb123501a
+  - ref: refs/heads/staging-testing
+    old: 72fdea5bb7a11852bff8c35b7466960503a009d6
+    new: deec171bb59924bdd752af2b1bf9b581f6f0ac95
     log: |
-         c7bea1574de3e67edddc842f96f6ae9bb123501a wifi: cfg80211: bound element ID read when checking non-inheritance
+         5c632ffb06fb89659426b7a6608fcf3dc5a578ea staging: rtl8723bs: use nl80211_iftype instead of custom NDIS enum
+         c76409611584c15deda827f7dce98a68a9da3abe staging: rtl8723bs: fix alignment
+         d56596dda07036d76e4b68fe38bc48ad636eb88b staging: rtl8723bs: remove unused case from update_beacon()
+         deec171bb59924bdd752af2b1bf9b581f6f0ac95 staging: rtl8723bs: remove unused 'oui' parameter from update_beacon()
          
 
---===============3296669936294251123==
+--===============1628780948432611928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1783422412 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1783422412-e0646fdddeda45575e37883ec205949750e30122
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783422461 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1783422461-66117098c0e60831938bb317899fe2b6df1075f2
 
-240c8d2c717b3f8153e7e877b22a82518d78dbdc c7bea1574de3e67edddc842f96f6ae9bb123501a refs/heads/main
+72fdea5bb7a11852bff8c35b7466960503a009d6 deec171bb59924bdd752af2b1bf9b581f6f0ac95 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpM3cwACgkQ10qiO8sP
-aABolg/+NDAezmyuDxMwp/7TFRAqB7jVYZNbLaVlDyv4t9uXe0Ne4CA7yJDGB+hx
-v/aqg7PDACGnQRa7yUqcLLM/SO+V+AtBdG4rPINQhZ+5UxUi71qmKyCtW4Kr5DN5
-Mc4CpUZxSkQzCG4utVX20KIr4FjPVHxjAC93u5qvIg2nU/0j+/gNtXEmvv83UdRl
-rDAQU0srLhDyGSaOE3D8W3+HGGsJvwWaW8Tu16uw/xxzueP/33IMKKnPNbunRGb6
-jAnDjyTNt0dBILWGf5P9HypdM0HYmQMsKAl5yDo+znjfQstILsXUhCAVKiHDAvjP
-XlSP1aZZJf5ri24k6kmyi+hQcsx+ZN/jpDCPUoxdqveyUUV8NTnKF4g/xfFC0/aY
-QyeWiyCiZr1EAajp6XcIPPizqAiUBu1qqz+AeUh8H942tLVBbZWmD/Cg178I9iSr
-mXOg7i9mPVOz7sl9H/88pV8wuTWdf38o8EQJSSJdpyOXswDdB21ZdCHs8xTTe9/B
-ED4j5pMZiSFmH4jlgaWGA6702yPOBVPsYGX/109Yg+5N1IwCXWzkJUH4vfLel+Z0
-xqyswh1Z1jDZi/War5gfb7b0ZHVzYRE7CIGkQQpzJNmBQ+Sjh7ibH2FHsTkD9v4T
-LsJ5LDH0nrCbrlRQRA8HLQR9rvua4wPJ8YRx3YJ462bluQYV4SY=
-=nrX0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpM3f0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9T8P+gM/zKIFn5C6m8yHZNij
+YtQIzNL3QnZy91R1mORsbNZA2My+ADPNBHhT1HXaXnSMoBv6jiRXZOmGaQuL4OdL
+m5ZfMzjK1/q5Br3lyYIFIr0HNd3R6jtwNuEaggq9Obv0JLQCh/exmgMfKoyn/nE6
+wOFiUIP9s8oPLYT0iqXYD5VotbsEuWc9J3XqEHBJtgiTMP8YFb6MUOcQVZo0Zn+q
++UvNrh0PCOElZjRl/cqYKUSj++S2sfoEWwEFtdcYCRzJdOti7Fnmsq1Fd4k8vNgc
+vTQGVqfokWbYU0aAf6YPMgP3KrPcDKEFs77VIA5oFPV5QSrJLY3+0VqrT8UcrZCj
+zgc0YRmOkx+k76H0QHbb0g6CVV2xwE1nIG63UPkm37sux4TQWwLvCXzCoGnvrZ6q
+jXi32RhmKo8urVyL2glwh+WPtwDVbfIqd9IVz/c3D1PUqJLajl7dAzYhSGqXimvt
+h8kmZmjCKkEDyEtp0iCzjXbhAeZ1I4CAuTxvnua+FNt3qzcHLjGv8ok+TUQxanzs
+x+5/5671BxznqkmXNg45v0lAft0fijQBz51tn/2EoIas28zjQQu8Dns/sc4/ZnCP
+nZQVmS/dBdJF+ZGQuxLYcPHTifFKuBjVt2hjsx7Be/zrMzyznFL7KWf+u/zuszTX
+u1NGuMWhiKeQzEUVEw+wLfzP
+=h2tC
 -----END PGP SIGNATURE-----
 
---===============3296669936294251123==--
+--===============1628780948432611928==--
