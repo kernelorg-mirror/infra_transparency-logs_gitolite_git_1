@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 07 Jul 2026 10:56:11 -0000
-Message-Id: <178342177186.936862.2591401795733196969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 07 Jul 2026 10:57:42 -0000
+Message-Id: <178342186227.937607.10125423687534338848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: cefd16657c1d9008259e7f91ea3f3d67a933fece
-    new: 997bfb05c919d2c5ee77c594d354f6c61b99ccdf
+  - ref: refs/heads/fixes
+    old: 65a38ddeaeed1a962bc1b4ca03c98201c877fea5
+    new: 2bd3c6c702f3a9e2bcb3b536b0fbbaa645005d71
     log: |
-         2c599da8231ff45260d3267c6d334b80147f16c5 cxl: Support Type2 cxl regs mapping
-         96ddf1af34f5f9e29891a5bfb7a18dd0a5bab9d6 cxl: Support dpa without a mailbox
-         a3fc56b12e3acc0e04680091a73c1ae6db8dbb81 sfc: add cxl support
-         08699796dabf6f6256e49ebd52af3008cfd96d64 sfc: Map cxl regs
-         230284c1b1654d9ba51d9e33bd5fd15c7847c13e sfc: Initialize cxl dpa
-         0418860ef2ca8ab4e696ce3913fd76660c881c0e sfc: obtain and map cxl range using devm_cxl_probe_mem
-         bd6550bcdb0c0bcc6e29706ffe2e64708192342b sfc: support pio mapping based on cxl
-         997bfb05c919d2c5ee77c594d354f6c61b99ccdf Merge tag 'sfc-net-pullrequest-20260630' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+         8c6db30d79528279abbeb416e4f533f1f91b8724 KVM: arm64: Fix bounds checking in do_ffa_mem_reclaim()
+         a6b49d27c17909608d54523220bb6f3498d4a1df KVM: arm64: Validate the offset to the mem access descriptor
+         6a7a181f6921db3d9aed1bba7e15547fefd7eedc KVM: arm64: Ensure FFA ranges are page aligned
+         2bd3c6c702f3a9e2bcb3b536b0fbbaa645005d71 KVM: arm64: Zero out the stack initialized data in the FFA handler
          
