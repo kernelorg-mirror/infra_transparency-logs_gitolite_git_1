@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 08 Jul 2026 12:05:24 -0000
-Message-Id: <178351232495.2010923.4122679341784261473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 08 Jul 2026 12:06:04 -0000
+Message-Id: <178351236464.2011380.11779582439132965868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: d02417964608bc8626061214006d6025c289afbc
-    new: e9db4b48651cc1839d555af84c8a8b7552d980c1
+  - ref: refs/heads/gpio/for-current
+    old: 4ad805f0e41acf56ac54855c666d34c59ad66fe7
+    new: b11c513ad943f35cf5e8007d3a56279c79b7ed4b
     log: |
-         e9db4b48651cc1839d555af84c8a8b7552d980c1 Fixes for all trees
+         b11c513ad943f35cf5e8007d3a56279c79b7ed4b gpio: mvebu: free generic chips on unbind
          
