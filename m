@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3423736816554093294=="
+Content-Type: multipart/mixed; boundary="===============7405291037742065972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 08 Jul 2026 14:15:35 -0000
-Message-Id: <178352013511.2100485.2365678035611637994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 08 Jul 2026 14:15:46 -0000
+Message-Id: <178352014619.2100785.398154484878749569@gitolite.kernel.org>
 
---===============3423736816554093294==
+--===============7405291037742065972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 5c73cd9f0819c1c44e373e3dabb68318b1de1a12
     new: b9810cd75b9fb56a3425d391cba3f608502bd474
     log: revlist-5c73cd9f0819-b9810cd75b9f.txt
-  - ref: refs/tags/next-20260408
-    old: 8de395f35e79d9168a78504fed495578ec7bac52
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260708
     old: 0000000000000000000000000000000000000000
     new: 451b00e20bcd5526c6def9ee76f9bdb322ae9b46
 
---===============3423736816554093294==
+--===============7405291037742065972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -987,4 +984,4 @@ ccb9bd95eb312d5e2d51531075a23a176902477e Merge branch 'pwrseq/for-next' of https
 d8798797bb2d25bbb03794a26ef88a25492c9f53 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 b9810cd75b9fb56a3425d391cba3f608502bd474 Add linux-next specific files for 20260708
 
---===============3423736816554093294==--
+--===============7405291037742065972==--
