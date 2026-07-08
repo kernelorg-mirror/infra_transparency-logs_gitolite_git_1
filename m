@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 08 Jul 2026 12:55:12 -0000
-Message-Id: <178351531220.2046618.3404863393953709667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 08 Jul 2026 12:57:05 -0000
+Message-Id: <178351542575.2047532.2355358018864544790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: de7400fc098b6aa4acbae9c3f5167c91e8ced908
-    new: f88caa121eac3b6a050262ac3de0c133ee17f7b2
+  - ref: refs/heads/nfsd-testing
+    old: 9435623ac560654825a62ee4b628ae4bbaa87920
+    new: bc7d6a41a6282da7c175c1638bdfef69c10f78d5
     log: |
-         2094dab19d45c487285617b7b68913d0cc0c1211 xfs: fail recovery on a committed log item with no regions
-         d128ffd2baa708da0362b562f0b7f9df96e43653 xfs: tie zoned sysfs lifetime to zone info
-         f88caa121eac3b6a050262ac3de0c133ee17f7b2 xfs: use xfs_csn_t for xlog_cil_push_now() push_seq parameter
+         bc7d6a41a6282da7c175c1638bdfef69c10f78d5 sunrpc: derive the pool count instead of caching it in sv_nrpools
          
