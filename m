@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4536322714236854429=="
+Content-Type: multipart/mixed; boundary="===============6099171560830599366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mripard/linux
-Date: Wed, 08 Jul 2026 15:19:19 -0000
-Message-Id: <178352395991.2144721.10648327624680082498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 08 Jul 2026 15:19:37 -0000
+Message-Id: <178352397746.2144955.232110000399447220@gitolite.kernel.org>
 
---===============4536322714236854429==
+--===============6099171560830599366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mripard/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/drm/reset-state-flag
-    old: 0000000000000000000000000000000000000000
-    new: ea48dc46c59fb08794f2a067f2396bb353ff1ad6
+  - ref: refs/heads/usb-linus
+    old: 0bfeec21984fedd32987f4e4c0cde34b445af404
+    new: 6df47500b557e01737eef6f6b07b12f97a35d841
+    log: |
+         6df47500b557e01737eef6f6b07b12f97a35d841 USB: core: ratelimit cabling message
+         
 
---===============4536322714236854429==
+--===============6099171560830599366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1783523918 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mripard/linux.git
-nonce 1783523917-4bdfe0105a90c12986b4c2c40fe43d37a9da179c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783523975 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1783523975-c8e5362a421a93d719b55120b11f3737afe0228e
 
-0000000000000000000000000000000000000000 ea48dc46c59fb08794f2a067f2396bb353ff1ad6 refs/heads/drm/reset-state-flag
+0bfeec21984fedd32987f4e4c0cde34b445af404 6df47500b557e01737eef6f6b07b12f97a35d841 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iJUEABMJAB0WIQTkHFbLp4ejekA/qfgnX84Zoj2+dgUCak5qTgAKCRAnX84Zoj2+
-divWAYCxBR+tCd52k9Ze1zZxRVF2mU9SCTR5MyzbQ9feQLTiWct8MiRMzJ34BMut
-H7GpD/QBf2ipIX0gTmv52XnK4mSAf8NqEOmBVUDLxqIITgeW2am2tdxaSSet7fV0
-zVUD77WgPg==
-=i4y8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOaocbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wN4P/3EtRxVOvpYAOGlKTi98
+SWuM9d7uTN/ZyBNA6SqFna4LHxXNgaZqiNA8ip5RD1052QaujjdQi2bl+RvRze/p
+kfhHb3z4bufWMH6D6ca0wGPALqgZqMEYyHanrBhGVpZLuJAknWutOMInGiqwveoz
+EtQ5D9yygy5U71LHji4mNbZlxwndXdLx1eReQFnZKFGiXPv6H8WLs+nBCV/FBw77
+ZPWK2bef9W/rDXg+BYPtHaTB2lHxjzntBqnvAmoxOHhXVtdXM6wGR0vTQpOfwSGm
+giBZAgWMLKAgmUzLh1TiDeo+AUd+7gOeEPa1+4kZbf6E7OkIJZE++IZVW3dy4xqI
+1wXlpm04ig0ObH4goTUxtsE4SBsQbzFOPZY7pLC3yQ1kUa4qvGqXdbOWJsV0GFbp
+53dnQju0ceb6u4lfkXcNw/rzZSr4Zrc+P5JxnvTIdSflE9LihvSqgdJ3NwvfY33L
+btZ2FumUchbZ9EfsJ/MZW4ONiXPyEyGgkv5YAYEqg3C3GqgrlmY7y4oFXrpEOvWA
+H6SlxNyC2MZT7RjAwDdrVjCpK2njryEoRTwyMnJuYV5ilb9hYvYrGBKsp4n2+Pi7
++8xh7nOK7TRLowiWZEPy7Y/LPTTum0aXeD0H/ssCHsyeXMEKbKdS72POZ2vXwwOg
+pJbgvAiwGM3AgSflg9YL/Ssb
+=MsNu
 -----END PGP SIGNATURE-----
 
---===============4536322714236854429==--
+--===============6099171560830599366==--
