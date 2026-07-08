@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Wed, 08 Jul 2026 21:45:55 -0000
-Message-Id: <178354715574.2413073.13558525777508605116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 08 Jul 2026 21:46:11 -0000
+Message-Id: <178354717143.2413699.3973707903422148316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/docs-next
-    old: 2933b82083e758fe6cfff570143541d4dba672c3
-    new: f4b990a286fdc2c5f7973f07e1998bdb978e9583
+  - ref: refs/heads/kernel-7.0.10/nfs-testing-canary-LOCALIO
+    old: 8685dd8fe1072f0c46b782266e56525c9e9bec23
+    new: 44102cf4488eb5929dca5388c938ce2ebaec894b
     log: |
-         f4b990a286fdc2c5f7973f07e1998bdb978e9583 Revert "docs: allow inline literals in paragraphs to wrap to prevent overflow"
+         44102cf4488eb5929dca5388c938ce2ebaec894b NFS/localio: fix nfs_local_dio_misaligned tracepoint
          
