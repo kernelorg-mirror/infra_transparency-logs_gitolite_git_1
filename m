@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 08 Jul 2026 19:34:50 -0000
-Message-Id: <178353929087.2324167.14946407983046746241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Wed, 08 Jul 2026 19:34:53 -0000
+Message-Id: <178353929340.2324327.13472810697177756504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: f658393698772d1f4f85b784814030e7af0ade64
-    new: 0a87570f42adbce6cf4b6a74158ebac495859f35
+  - ref: refs/heads/for-leds-next
+    old: 7ddc04d1bd08f80ffc1e2fb97f3fc6cacab0ffc0
+    new: f647a2266289a35eaa4865f629f2ab7046900d9b
     log: |
-         6fd345e209284bc939693989bb7144133a8e93fd mfd: db8500-prcmu: Fold dbx500 header into db8500
-         0a87570f42adbce6cf4b6a74158ebac495859f35 dt-bindings: mfd: mediatek,mt8195-scpsys: Add support for MT8189 SoC
+         10a5a70c02277a1c12999b669a1bd1922558338a leds: lp5860: Fix a potential double-unlock
+         f647a2266289a35eaa4865f629f2ab7046900d9b leds: lp5860-spi: Fix an error handling path
          
