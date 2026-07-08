@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6009099522855655443=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 Jul 2026 11:41:10 -0000
-Message-Id: <178351087094.1992887.1446524443334668251@gitolite.kernel.org>
-
---===============6009099522855655443==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 08 Jul 2026 11:48:37 -0000
+Message-Id: <178351131739.1996951.12836731571177150066@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/usb-linus
-    old: 67e511d2989eb1c8c588b599ce2fcc6bb8e6f7ea
-    new: 42c37c4b75d38b51d84f31a8e29427f5e06a7c2a
+  - ref: refs/heads/pinctrl-qcom/for-next
+    old: 251b53103a2e5770658ae106c490cdd2b7512c3a
+    new: 77fbc756d9cbe53a9496cb2c53ae209d37d5af2d
     log: |
-         49f6e3c3ef19f04f6657ed8dce550e36c763abb8 xhci: sideband: fix ring sg table pages leak
-         42c37c4b75d38b51d84f31a8e29427f5e06a7c2a usb: xhci: Fix sleep in atomic context in xhci_free_streams()
+         83e089ef0d4e045efa743dcbc8de5ea0a9e4195d irqchip/qcom-pdc: Restructure version support
+         60caa95aa14aed8d05abc03b70e2ff14e5ab6820 irqchip/qcom-pdc: Move all static variables to struct pdc_desc
+         45af2d61edf62938b021b86439a1dd797fd74a91 irqchip/qcom-pdc: Differentiate between direct SPI and GPIO as SPI
+         ad01c2b2f29163ca0bbe1fd4f9343fbc5119c239 irqchip/qcom-pdc: Configure PDC to pass through mode
+         ea067e0926c6bce61bafe6f6b85ce805fbe7a402 Merge tag 'irq-chip-qcom-pdc-for-gpio-07-07-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into HEAD
+         f790ea0b699d95d18572979b1bc1673d8f31eb3c pinctrl: qcom: Acknowledge IRQs for PDC interrupt controller
+         77fbc756d9cbe53a9496cb2c53ae209d37d5af2d Revert "pinctrl: qcom: x1e80100: Bypass PDC wakeup parent for now"
          
-
---===============6009099522855655443==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783510793 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1783510866-8cba451f0a8f9d956ffd2b4da0e3f7234f9792f4
-
-67e511d2989eb1c8c588b599ce2fcc6bb8e6f7ea 42c37c4b75d38b51d84f31a8e29427f5e06a7c2a refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpONwkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jp4P/3KHmbLlx/tuvFBFzg6n
-vqe2YcRU0aB/sNQ9EvTaQCZtwQC/CKKCbbfi40b8DJvhmeNRE/h39qOzDekt6ap3
-XUPenHhoyHAlzXz9MgTRiItIZDn+B7v4znfL4YFr64n6y0rKTfaMvpHWhNEjLijy
-ci9Xql5CWrXXbaBF3a/Yqa3iLQ17AuuciUuw+nSBNeIljrsHg3AP/SRc9lDz1BDE
-9ysAYdZhYFVHfp4atlpAk2+D2eF032fD33MuF8iUJyH8L36gqF3DbtBCNAeS02TY
-84oRvJZQq+nudH8kd2cBGM6Enzi9milHzSflOipyUYBSjjnME5OoEBzNs4qM6Rvd
-d811ivx55eNH4kd680uJVPsFVo5ff1yMf9jFjq5OMAquUrdYKpKxlRWH6VhNU51B
-1Y5Yg/KRuahfhRsmsUoZN4NzvLMX3182PFYbO8kUPh7QMw7r429/IKyW1VojWlqu
-TuQNJekfM25egKPwc0iqiH2dvzryxgdYvx0oAeQEtIL3WaL0I9yN0fHWh0LDG+T7
-q+KSy9l62htk/BFLQROtW0Ckn7LhXI4teYkEhOsnOMsXB4LKJKq0Sd5iySOV0Xmd
-vF/Yw4lenBTFZRJpKnQh0ALkQ96gGvaO4DOhIlLLNaFknsMDZlhHpA1+o1qdJBcp
-EDCJ/EX8tyfjTGBD6W6usrsb
-=NiEU
------END PGP SIGNATURE-----
-
---===============6009099522855655443==--
