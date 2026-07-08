@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5304333448640305431=="
+Content-Type: multipart/mixed; boundary="===============5250145336506997501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 08 Jul 2026 08:26:53 -0000
-Message-Id: <178349921395.1850205.4427588191025915086@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 08:27:17 -0000
+Message-Id: <178349923771.1850567.12998655370598606743@gitolite.kernel.org>
 
---===============5304333448640305431==
+--===============5250145336506997501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/merge
-    old: 660fdf9647b306358f36f5019eadabce50d5beec
+  - ref: refs/heads/x86/merge
+    old: a0c959aab800059b83814bcf0ae3abfecc4cfbc1
     new: 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53
-    log: revlist-660fdf9647b3-0e35b9b6ec0f.txt
+    log: revlist-a0c959aab800-0e35b9b6ec0f.txt
 
---===============5304333448640305431==
+--===============5250145336506997501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-660fdf9647b3-0e35b9b6ec0f.txt
+Content-Disposition: attachment; filename=revlist-a0c959aab800-0e35b9b6ec0f.txt
 
 8a500fd09385a13ba598cda651f2e4ac40bfa578 Merge tag 'tty-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 3287a1881ca528b89b964d9fa6d28880d277d9e2 perf bpf: Fix up build failure due to change of btf_vlen() return type
@@ -1051,4 +1051,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 cead34ac1ce10046cb745fbc33a4b21cac899753 MAINTAINERS: update ndesaulniers
 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53 Merge tag 'mm-hotfixes-stable-2026-07-06-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============5304333448640305431==--
+--===============5250145336506997501==--
