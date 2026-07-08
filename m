@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7207880156567135583=="
+Content-Type: multipart/mixed; boundary="===============6308384268506274543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 Jul 2026 12:31:50 -0000
-Message-Id: <178351391048.2029511.6344320287181119851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 08 Jul 2026 12:35:55 -0000
+Message-Id: <178351415578.2032627.15804496616795138403@gitolite.kernel.org>
 
---===============7207880156567135583==
+--===============6308384268506274543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/usb-testing
-    old: a7c0d84c596a7a6d579cbaac866af328da0778b3
-    new: 62481c92444386d46b3c4a9c3dbcd4917f07d138
-    log: |
-         62481c92444386d46b3c4a9c3dbcd4917f07d138 ABI: sysfs-bus-usb: fix brace
-         
+  - ref: refs/heads/main
+    old: 155c68aef2397f8c5d72ef10acf48ae159bf1869
+    new: 08030ddb87b4c6c6a2c03c82731b5e188f02f5b9
+    log: revlist-155c68aef239-08030ddb87b4.txt
 
---===============7207880156567135583==
+--===============6308384268506274543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-155c68aef239-08030ddb87b4.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783513830 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1783513904-7f1075bc76f3e6a6b79d99c54fbff926d218fbf4
+66731a51b1fbf5be58cc8bea0a1324e416386b33 igc: prepare for RSS key get/set support
+f243be8edeabac0b2ab3ccf27741a17c8129e253 igc: expose RSS key via ethtool get_rxfh
+3fc4c1ee5f843255fd884dabacdddb045b3db9e2 igc: allow configuring RSS key via ethtool set_rxfh
+dfaf57ef99cf8901e4a5fc2e89629be44f922f80 igb: prepare for RSS key get/set support
+1ae67b2b28bcd027d9630d316208e88136cd960f igb: expose RSS key via ethtool get_rxfh
+e3c94e9782a7076cca3c4ec0fc9578f4f6e0447b igb: allow configuring RSS key via ethtool set_rxfh
+17cd41a9733da811d118c84ddee9751e3b759352 igb: set skb hash type from RSS_TYPE
+1ee93ee2e085e13de2af55b431d4673ab2cdeecb igc: remove unused autoneg_failed field
+c731361cfef90d110f856a7bab6e496ed94e9a02 igc: move autoneg-enabled settings into igc_handle_autoneg_enabled()
+fa7315482f582839342d7be534b7cc423a9d7996 igc: replace goto out with direct returns in igc_config_fc_after_link_up()
+acb138b8235c63564aa1bcd2666fdc9707e2f1e0 igc: add support for forcing link speed without autonegotiation
+08030ddb87b4c6c6a2c03c82731b5e188f02f5b9 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
-a7c0d84c596a7a6d579cbaac866af328da0778b3 62481c92444386d46b3c4a9c3dbcd4917f07d138 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOQuYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zewP/0UBCSvG5f9F18/Pbryu
-8KtyjqjHnP56sLuuLMo6SJ2VLjh9EnLdQI+Vxqas3jSNSD88UqLNIy1F8aDqXYr3
-CqX9sIiGq5V5eMiLt9oPxmenoDKPyoMglPBT01n0RlX5KpfneMLODb2hcpSutvhW
-Kt67pOnnMhIt1BO8Mxp57O1lHsj1Gq4Ar0ffgf09s2I3+wEKmSSpXpUW5zVPpQDq
-wAjhlqpXLyHLuBfWp2DsOaZPgh4dfAJPG979gUhLIy7X21bn5Ockk/A3yLPAvAmo
-l83elSQD4FjxxLMlHsx+Dz5tcPknUrcWdxH7IQfH55/h9y3rDxcQmTtp2IGb4dbv
-GPlLYcZdvBlaCB/JPBfPiApbMXLVrR4v8yFaZl2irWGKBwqlsjpf6RZIln1vTULC
-SM6D2+FFZoOWo57nDhUc25OhbYi1uNgxiSNtoAj1JNeuZnbkrWpGgESUuaugSlNb
-Pg1nP14Pa7NbGLj12obmk1SuPGuDNzDJnuJyJd8dVfQx0iEiGG6gWXM+88CFEc42
-y1RgoaHNjATDNW/6dQs+9+bEAwF95P36VmNprg+FZtJ1/P0Jo+oeMbWBfdioctoR
-/5UEoXEBA7LFG+m2bHG9ktEVLbBYaGLG3Se5Q8KdFrZa6IE5AdGd51kM2ZUmbuXt
-PCnW5izjO547TgjYtY+k3Ywm
-=VLHa
------END PGP SIGNATURE-----
-
---===============7207880156567135583==--
+--===============6308384268506274543==--
