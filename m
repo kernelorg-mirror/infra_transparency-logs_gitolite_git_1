@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3429602104137666870=="
+Content-Type: multipart/mixed; boundary="===============5605618148753063506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 Jul 2026 12:16:05 -0000
-Message-Id: <178351296592.2019202.15994411939164594251@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 12:18:01 -0000
+Message-Id: <178351308147.2019977.18128012546158777278@gitolite.kernel.org>
 
---===============3429602104137666870==
+--===============5605618148753063506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: e8da46d99d3710106e7c44db14566bf9b57386b5
-    new: c7eaea5c6eeb391d445583fa6419c957ca74a86b
+  - ref: refs/heads/usb-testing
+    old: 3c26b3fcf3df47c6acf789d91a31d9445d033e83
+    new: a7c0d84c596a7a6d579cbaac866af328da0778b3
     log: |
-         c7eaea5c6eeb391d445583fa6419c957ca74a86b usb: ucsi: huawei_gaokun: move typec_altmode off stack
+         a7c0d84c596a7a6d579cbaac866af328da0778b3 usb: cdns3: plat: fix a typo in cdns3_plat_probe()
          
 
---===============3429602104137666870==
+--===============5605618148753063506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783512888 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783513003 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1783512962-9fc0ccc0c40e7aa134a9cf686f564de53a1f2028
+nonce 1783513077-cb566b245813de6092a5f7898984930f7bb1f6a8
 
-e8da46d99d3710106e7c44db14566bf9b57386b5 c7eaea5c6eeb391d445583fa6419c957ca74a86b refs/heads/usb-linus
+3c26b3fcf3df47c6acf789d91a31d9445d033e83 a7c0d84c596a7a6d579cbaac866af328da0778b3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOPzgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1esQAKVWRzfn77W7YEvdNf0Y
-MuLlmffEwETyJpNVSMywmQEARI3bXl2T0qXxtKmtKg1qE/Qjbvqqydxc4o9+HPJk
-hvWwj6MV6qWk5iNnzOcj9fLV1OEqIJmaUqxtym2kc/Lgmbd4mW2lZuqCHU5ONzzt
-vMqyYramOid391Kkdtu4soFr4yFFRUIqOM1vldNqhgSxWBqwqOy0QauBOEXni3++
-Tcr5G/rlruZcnBuneXPPVx8w+6ycvffSCC+L9ClFw4RGro9A37kKCwD3Gw3GOGXX
-dcNZO+Q6J9T0uEwi38ff1TjIVJ3uvDQLtqLInw3RYUqc0Zwu4gPBYf7iAZo4cJpi
-2mni0vi6G1JcXRNuAjBeyJXM1+TS6qki4qP2npm7uqug7IiHLPQFOeLbpSUd5A0t
-KGxPsT5qC6BOD+qgOo52cg3lTmUSWagjHXiL6T0050nSbTnx6wEjD47UWBNvOQ6j
-AC2kkc7Y95dmk1jRoz9Fjp/NlkUKK7kqtaYadqFlFjpV7EK7O5OhCAsjx/rWHFg+
-Vnq4gdUakhvu0oStnkbcASF8fVeuPhJ1GjZrlyes9SkawoNjpEIZ1AYsbVacVzD0
-Xkty82mADTpcqeMea053k/YrAFkT8RjNqG28iHjpjGWDR8vkuX0WJUAnSGKrT0je
-iwfD3R2GHMfWzKLqWWohMB6J
-=oJzK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOP6sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3CcQANQ8SKjDHTZs4BOMLenb
+KOmQb16rKxmUOoKVWWDsWxeI4rOYHsfLhJ1NhxFfjAag1SHicWbI01gFI7Ju8lxI
+4YL/CKU7TBrUeULAzTb5c+g7uG9G8qEuGJgOnzTZT2RJHacBep24m+Sq+NCKy43N
+mY04n1+wWDf8g5c54fP8oHlAIVR7AF1ij0nToEc/cl8E4SLVQYStYTZTXkDEmOfg
+4hGOLXY3xE5bZqq4E9N/tyZ7dl2nfKKfFCLv7k7tS8whcDrlEwE9VZy+pvCSCtMi
+bdcODWDcQ61ht6q8cSrnejMHvPs7gLWfkFtxRl671vbmYO7lgUNWxjfaq4lpHd8P
+bNMd8TyyqPoF4Yz0ZpWxPpgLxE/+JUjtJk8scdPJt+Tkmg6G50WhKdGYHuox5AKO
+OGlb6Sl1ZJEV7Dbb+6aU6hAJENLMXPKHL1kdnAfaNH/uQ+GRQnWzLTTmiBGai/gC
+pZzjXJZO0HJJyBSlAVgqn2R8gkwx9xsh5mDsMtTJg8LopGHMydiaY+ioupuHhHoI
+VAI7UsFQpgZ47BiuNhLJoXOuRZR6KtmKQQ8EpCbcTGMkaw0lYTN0v10APLYz3uty
+Gu7iqtaDD09e7otaNae1YgzctDf9tAMYhtnkTI2k1NP8xAlmO6cWCeZBVINBXCGF
+0vX5HmEOkEgP89mzrqQOZVcw
+=cJu6
 -----END PGP SIGNATURE-----
 
---===============3429602104137666870==--
+--===============5605618148753063506==--
