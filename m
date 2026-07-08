@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0044797583296324904=="
+Content-Type: multipart/mixed; boundary="===============5039763963526296048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 08 Jul 2026 12:14:11 -0000
-Message-Id: <178351285184.2016220.15129198327965462389@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 12:14:56 -0000
+Message-Id: <178351289604.2016571.7512715672607281726@gitolite.kernel.org>
 
---===============0044797583296324904==
+--===============5039763963526296048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 8a1f9d85902d08bfab341d538395b6def692349a
+    old: 8a1f9d85902d08bfab341d538395b6def692349a
+    new: 3c26b3fcf3df47c6acf789d91a31d9445d033e83
     log: |
-         90cd2072964052834227c05e8ecba898ce015a05 usb: typec: ucsi: Move long delayed work on system_dfl_long_wq
-         eed73a65ab609b79d53de88cccc34b36dfe753c4 usb: typec: ucsi: unregister debugfs entries on teardown
-         14618b21ea9d83956d69027cac80936f03c10034 usb: rust: Use pin_init::zeroed for usb_device_id initialization
-         227db98088756740645491fe29f8701c164badf6 usb: typec: tcpm: Defensively bound altmode array accesses
-         d9dc19910321957d81fb9d8af4cc67ddbfb258bf usb: typec: ucsi: Fix debugfs response truncation beyond 16 bytes
-         1b981fb4827bc6c1ebe92bffff9505593361b5bf usb: host: ohci-dbg: use kmalloc() for print buffer
-         8a1f9d85902d08bfab341d538395b6def692349a usb: core: devices: use kmalloc() to allocate dump buffer
+         5e4eb5c96324b226220d29d025a334df28054ed3 usb: typec: mux: tusb1046: add missing MODULE_DEVICE_TABLE()
+         3c26b3fcf3df47c6acf789d91a31d9445d033e83 dt-bindings: usb: renesas,usbhs: Document RZ/G3L SoC
          
 
---===============0044797583296324904==
+--===============5039763963526296048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783512773 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783512818 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1783512847-89879fd254210c3933af9fde9ae66aca6528f743
+nonce 1783512892-928234e520518fb4a45a73e70ccce05f64ff5e74
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 8a1f9d85902d08bfab341d538395b6def692349a refs/heads/usb-testing
+8a1f9d85902d08bfab341d538395b6def692349a 3c26b3fcf3df47c6acf789d91a31d9445d033e83 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOPsUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jBIQAK7kgRvdNZlWSaq/Ux52
-3MZ6F9Djl3sw4BOt2FuNB+1hMowhqxVXWNmsSGYsh5KXIfteZpBJxTYnWf1lFvGr
-IAKKS38zKuojw8F0XIQnvwk0uqt+1YV9TIxaEQZznxTThTawUeCX9q8leg26MbBp
-ufNcdX8AQj5Cf3LlVgdu3qiDU3hV/Ls6T4ZaC9WJ+aY5NUIxmbBW8mFadqwoYGqv
-xupJoILtZpSvk1pUHVN/3YlDElqC118X36Tcpff9VXuhKbN/nR3I0EykzKD8rS+Q
-cL5+yTb6PFWMwRYA6CyRcPOeTrFMbYV7yE4ZyMRauCLUNYqCnpqjETJAZMyQ9/3X
-WuztqBAq6x7OCXG+zBeeuLFAOfoqAlJlKs+fwLuw/s/6U+Bqfq5MHgato1PHzooj
-BpC9e4ae8k6h9Khu8hq/FFiwr/2MYaRD7VKglqBXqL3aJqp9/jVQi2r3EtxnWSn/
-UE5QVFaCGT+v0DNsEytdRG2DszFhiibCeXe4S1WixASoBkugXZCScTJ294supsKa
-w8bDG6LJeMhfytWo2Jj+vO808WCRG066a2EhlCR1chd64QCj3Lf/r1L7bGA3E1Bf
-agFID93lmDSCqUmn2UcbdIC8FhqV3E1vYxUeRIHRQkV/gY39qbON+iwRznII7EGx
-9Em4bpJBBeTEDxLlrgluxBuZ
-=sofZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOPvIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nkwP/iYHzhVRTslzweHYXi4A
+ZZVg+d8iiav63mlMR1Rdr5MuPdPil/veuSfn+w8BcdW5tnEg3A/rFpmF6lEf6VrD
+reeSeu7K81aVmfYAGkqDQAtrX3EpTCeNRAhlmSpzDpbK0lbeHxKphkBP2sZyddBt
+/jWB0OT1pQeIZOP2IF5LvP3CyeoFOGMmUFwiYOIYXHgsriEtRE4G7WNXOmf3AY4l
+A2weM2GoqLCEQ6VxcQ6N70tzUU9c+scQbsyZS/628HAkVhr1CC4EscXo/92pmF/3
+Ppvg5juLo8jJm77IJD422fqx1+GaTKeVP4v5BpmuUBlYIdpj7KhajpNUk+fcYbfA
+kMGCHigWegd6XwqmV/dE7rOOXUNDEuwUlWzeT8IIkTZpupd1Y0iUgP7eetpMVeEs
+beS/uTutNvevhlqrBFkPfo0Tn38UbCcAaY1qPQflAuomo+2kD4RG0dJmcFPfHcR1
+LdHqt7Rkg3pcPiZLV9iJ2cVN7uIXIn1rL9dwUq5KT0naBKdEIQJYPCFXebS7D8be
+SgCLlCZ/90V5PIfzt5GeuxH9iWYa/9Q1d+ltdZyVs0tSAaVGPMJ48TYpTCMEVRop
+soyAZFun5r6PlGlqDmO5MnjM4VyDR3lb1ZnEk3i+LzrTtkXq8vJPB2NACirAc6w/
+kgeVphAIHTN6EbCgtgY3Sdte
+=17uZ
 -----END PGP SIGNATURE-----
 
---===============0044797583296324904==--
+--===============5039763963526296048==--
