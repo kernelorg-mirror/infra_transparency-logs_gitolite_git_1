@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 08 Jul 2026 03:16:02 -0000
-Message-Id: <178348056204.1642258.17663810735177835951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 08 Jul 2026 03:21:49 -0000
+Message-Id: <178348090928.1645922.1749301398205798697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: e909296d8750c9939ce311925ca1f59acb8944c1
-    new: ee1bcf8271eb2e1d191bf97348ddf823c6071fa9
+  - ref: refs/heads/dev-test
+    old: b6773f600ff1bf07e553989618f3d39cad1c2193
+    new: d228c79f4dae101f03e5148f9429ba811ada167b
     log: |
-         ee1bcf8271eb2e1d191bf97348ddf823c6071fa9 selftests/bpf: Rename libarena struct bitmap to struct arena_bitmap
+         043590e1c5b5a0b82bfae3691580d9bd6e9263b9 erofs: relax sanity check for tail pclusters due to ztailpacking
+         d228c79f4dae101f03e5148f9429ba811ada167b erofs: get rid of erofs_is_ishare_inode() helper
          
