@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2519808172308211987=="
+Content-Type: multipart/mixed; boundary="===============8037412789049785551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 08 Jul 2026 15:58:52 -0000
-Message-Id: <178352633229.2176102.8700462332515070746@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 15:59:18 -0000
+Message-Id: <178352635869.2176439.13716411825166904398@gitolite.kernel.org>
 
---===============2519808172308211987==
+--===============8037412789049785551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/dt
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 567cf92d980543f2a71b4b480db478dfda0e490c
-    log: revlist-dc59e4fea9d8-567cf92d9805.txt
+    new: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+    log: revlist-dc59e4fea9d8-8cdeaa50eae8.txt
 
---===============2519808172308211987==
+--===============8037412789049785551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-567cf92d9805.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-8cdeaa50eae8.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -459,11 +459,5 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-6aa38ef0eab32df5409b72d62509de6ba09cea50 dt-bindings: power: imx93: Add MIPI PHY power domain
-99611233f8cda833169fa6487d5dacdf189e5cb0 pmdomain: imx93-blk-ctrl: Extract PHY as shared domain for DSI/CSI
-72422525f641f68bed6ca3389d29ee3f41fdea33 pmdomain: imx: Fix i.MX8MP power notifier
-25e252bcf1593b420b12a7231d9dd64b885a2ae2 pmdomain: imx: Fix i.MX8MP VC8000E power up sequence
-ed9034eff1f34335980fc50083f84a4874f9dc79 pmdomain: qcom: rpmhpd: Sort table entries by index name
-567cf92d980543f2a71b4b480db478dfda0e490c pmdomain: Merge branch fixes into next
 
---===============2519808172308211987==--
+--===============8037412789049785551==--
