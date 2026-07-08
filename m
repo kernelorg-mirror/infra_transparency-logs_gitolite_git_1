@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Wed, 08 Jul 2026 14:16:50 -0000
-Message-Id: <178352021075.2101349.11387209004836828435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Wed, 08 Jul 2026 14:29:48 -0000
+Message-Id: <178352098840.2108664.16596803586080214373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/b4/vdso-sysfs
-    old: b186f35d4f4cdb6063d48192faa54c8ca0773543
-    new: 3edf399169771e6497c35d947ff5f786819d62fd
+  - ref: refs/heads/for-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: ed1608d5e3c4432c1dcba709668b90f44228c10c
     log: |
-         dd7ac9f3477e07c496fe808822d7ce680b3eb67a powerpc/vdso: Add support for vDSO installation
-         b4f9448f993ff5348efa4a6b7f585cf7c6c1f14a EDITME: cover title for vdso/sysfs
-         3edf399169771e6497c35d947ff5f786819d62fd vDSO, kbuild: Provide vDSO debug variants at runtime
+         ebcba7cd38cd26ab4cfee8ea2eb38aabf1ec51fc pinctrl: tigerlake: add some pin groups and functions for INTC1055
+         b9949964daa827c05cdce06a765c2e81d1c64d02 pinctrl: upboard: add device id INTC1055 based UP boards support
+         ed1608d5e3c4432c1dcba709668b90f44228c10c Merge patch series "upboard pinctrl support for device id INTC1055"
          
