@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 08 Jul 2026 13:35:22 -0000
-Message-Id: <178351772238.2073919.16585433579777603621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 08 Jul 2026 14:07:37 -0000
+Message-Id: <178351965790.2094135.9772116829197504861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/nf-26-07-08
-    old: 0000000000000000000000000000000000000000
-    new: 4d9a10218bd916b046acffb81147ed7619a88d65
+  - ref: refs/heads/watchdog
+    old: 36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0
+    new: 7362ba0f9c96ac3ad6a2ca3995bd9fc9a28a8661
+    log: |
+         0be186a120a797edb28effb9359296ce4cde9a25 docs: watchdog: Fix brackets
+         7362ba0f9c96ac3ad6a2ca3995bd9fc9a28a8661 watchdog: pretimeout: Fix UAF in watchdog_unregister_governor()
+         
