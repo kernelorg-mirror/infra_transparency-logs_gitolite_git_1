@@ -1,64 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1910867163711685925=="
+Content-Type: multipart/mixed; boundary="===============0645580340921863806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Wed, 08 Jul 2026 14:45:49 -0000
-Message-Id: <178352194912.2121593.1146880980626081222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 08 Jul 2026 14:49:17 -0000
+Message-Id: <178352215731.2123011.11901131220675847519@gitolite.kernel.org>
 
---===============1910867163711685925==
+--===============0645580340921863806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/clanker
-    old: 0433cc735484d9e2b0e536c873bf0e6a40a60c12
-    new: 9bf127666325481598de49137d0e1de9ce0f94de
-    log: |
-         b09b28e97ffa4127c62c9c801c474a905d2c6257 fpga: dfl: fme: add error handling
-         125c7029dcd93d4593d5614b89f24878a49759a8 drivers/perf: thunderx2_pmu: add error handling
-         4d86357f85fa866052f03b58c283ded037434ea6 soc: imx9: devm_kasprintf error handling
-         82416bc13db9e8a2a10edb414bbee56d96f4e452 dmaengine: fsl-edma: Add error handling for devm_kasprintf
-         a94fb4aef54273f27acd23206f9bb44228f4a446 nfc: st-nci: Add error handling to IRQ handlers
-         56e39dfe8566ca3e6b9abe5679c7d0b4f2fa847d nfc: mrvl: spi: Unregister dev on allocation fail
-         a749cdd30f5c7e2d11befeac58fb86e1afe1ba7f nfc: nxp-nci: Add remove on IRQ error
-         580702d25da6d7fad1932d310ca1c42234437fb1 usb: gadget: function: rndis: add length check to response query
-         9bf127666325481598de49137d0e1de9ce0f94de usb: gadget: function: rndis: add length check for header
-         
+  - ref: refs/heads/master
+    old: a12be0058be628f50da69fb0efb2ed9b4422a699
+    new: 2edb09ac77e51d5e8e82bca7baaed59daa07bd9a
+    log: revlist-a12be0058be6-2edb09ac77e5.txt
 
---===============1910867163711685925==
+--===============0645580340921863806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a12be0058be6-2edb09ac77e5.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783521930 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1783521930-eb657ea0bdd23caf88f83aa55f90d8ea676398e0
+f23e1da9ebc1d06f2a231d64e287dddb657f3806 man/man3/termios.3, man/man3type/termios.3type: Split struct termios from termios(3)
+a7d30fb3e042456bdf8786cf5d4c035709970c42 man/man3type/termios.3type: Tweak after split
+b092da0f26d6529f2b7fc2f4e31ddcafb39d996a man/man3{,type}/termios.3{,type}: Move 'Canonical and noncanonical mode' to termios(3type)
+42f7638e1a1619ec606a2639a40912c5ecf51b12 man/man3type/termios.3type: Tweak after movement
+e61211df301a236b11fdc7e3a43a803d5d2cb314 man/man3/termios.3, man/man3/tc[gs]etattr.3: Split tc[gs]etattr() from termios(3)
+3a722db7c733753054295125dd8ee6119aa2c1fb man/man3/tcsetattr.3: Tweak after split
+0199560097c1f223ce624e125ae3fd8453cb68ce man/man3/termios.3, man/man3/cfmakeraw.3: Split cfmakeraw() from termios(3)
+020c480f9d73e17766e5aa1ff3a806d7eb5457cf man/man3/cfmakeraw.3: Tweak after split
+7d63b352b7c5a530c7746c4eca268ac2f597bbd1 man/man3/termios.3, man/man3/tcsendbreak.3: Split tcsendbreak() from termios(3)
+af70cb77ab1be04fe5b6ea84eaf94a11b22ab865 man/man3/tcsendbreak.3: Tweak after split
+735c48025103fbf1e0bd0c90ceb4fb86241d37dd man/man3/termios.3, man/man3/tcdrain.3: Split tcdrain() from termios(3)
+708d8c3a79f4b1ec59eb76895d77fc3d98417c8c man/man3/termios.3, man/man3/tcflush.3: Split tcflush() from termios(3)
+1e7df222a00a54567f3ad21c57675ef73bc26aa9 man/man3/termios.3, man/man3/tcflow.3: Split tcflow() from termios(3)
+b3db36e0b01465711575126ee3f2fe4be5f37b10 man/man3/termios.3, man/man3/cf{g,s}et{,i,o}speed.3: Split cf{g,s}et{,i,o}speed() from termios(3)
+b5c29dfe1b4da7418e7139acffabbb5267281535 man/man3/cfsetspeed.3: Tweak after split
+923335b107b65ef823b4bc7fde2b0d0e9d112359 man/man?/termios.?: Move termios(3) to man7
+03ca590530cd739aa40543bb02d285d39de08d94 man/: Update old termios(3) references
+549e7839b075b24df5d1b1ae6b93be2a34839029 man/: Make sashimi of termios(3)
+d3fe1075e8d472db47166d0f3777704729ab9e61 man/man7/landlock.7: Document LANDLOCK_ACCESS_FS_RESOLVE_UNIX (ABI v9)
+7bd606f2ff5e969e9b4b6693a778b98de4caeb0b share/mk/: check-catman-grep: Ignore diagnostics in landlock.7
+2edb09ac77e51d5e8e82bca7baaed59daa07bd9a man/man4/console_codes.4: wsfix
 
-0433cc735484d9e2b0e536c873bf0e6a40a60c12 9bf127666325481598de49137d0e1de9ce0f94de refs/heads/clanker
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpOYoobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/9cP/jN1YMxUNkBKs6LzH8iP
-z7TGts9e1wk2h6sZdA6+c99A+0dbeaTu+iXwdvgfK95amJ0tpHw85Ir4iId15EcN
-S9nP+eH2H4knRr9ZUaFeJSAuyQ8TQeN2g/osxBWH4SaS5fcQ/NbEEmbmiMvcRdoA
-EKHUwuzokQWx9M00EIWuvtQVS61e7uf8cUMkH5OjZ/xzqTWq4voq4FBaHagI7UZU
-E8aWVlNe9z2VfBwdPg93qqnoV0cqe9++sKDvvujCgNdbJTa1fkutKtvY+l61uuED
-kgdyEeA2NnQTeJBXnc0q3LpSDDnUXqMmt3xPGkbmadXJzj+1h9P/NRyj8W3Lqzzn
-z0+J7iDqqre+8K3sPZ/RSxDZhqeorJHMz3rzJ+heGGyPp/abkr/npB5x43Zjs1TS
-Tkj+X/b9MZf0kzlDxyRy6sUdyzKB9lEcdVoawkDkfj6cxX4MkJplhXHBkyAKqY9Q
-jGx2nXZce+DP4vj1GY04SCk5CiJXL+cRyfUj4vXUlbhChEXqMiFitOpvojfqf38n
-7SAq1NW2ojLs87WqqXnZ8PkwSezSc27H22t63ZAlHbFQHBgdIEpnQXsyy/3c3t6v
-vU2i4L2g5tgoebyPmhHihniGv9rhT/Ro6ZhE1rS45s7IDfkgtqku8gV0B5a+f/Xu
-b/87evI4D0T0w0K2qiy85Gyo
-=VHqH
------END PGP SIGNATURE-----
-
---===============1910867163711685925==--
+--===============0645580340921863806==--
