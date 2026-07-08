@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mmc/mmc-utils
-Date: Wed, 08 Jul 2026 10:24:21 -0000
-Message-Id: <178350626110.1935187.8669883624092710359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 08 Jul 2026 10:35:28 -0000
+Message-Id: <178350692806.1944321.7091751206747465004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mmc/mmc-utils
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 1fb1c67ccbaaea524bf9d98e7bfa55f54b47bae4
-    new: fe403fb97824395c7e02ffb6cdae9dffb03f8a47
+  - ref: refs/heads/main
+    old: bcd2e8b40ef955038d9af137d3ebeb0de786d835
+    new: 2f1671d45247d7973f9b51b3ed8dbdab8c3ee7f7
     log: |
-         fe403fb97824395c7e02ffb6cdae9dffb03f8a47 mmc-utils: Update maintainers email
+         432f4bab1adaaa7d572bc61216aeebb04aec27a4 selftests: drv-net: allow switching env IP version
+         47467501cb88d65f5f3b6eee1cf0b6704b6c43e1 selftests: drv-net: xdp: run with both IP versions
+         2f1671d45247d7973f9b51b3ed8dbdab8c3ee7f7 Merge branch 'selftests-drv-net-run-xdp-tests-with-both-ip-versions'
          
