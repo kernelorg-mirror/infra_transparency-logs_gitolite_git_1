@@ -1,51 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2592601347026938822=="
+Content-Type: multipart/mixed; boundary="===============5360447880846986491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Jul 2026 09:15:18 -0000
-Message-Id: <178350211800.1887483.190875763034661480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Wed, 08 Jul 2026 09:24:23 -0000
+Message-Id: <178350266384.1892077.9893235725431099469@gitolite.kernel.org>
 
---===============2592601347026938822==
+--===============5360447880846986491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/main
-    old: 1a3267a8c9ecabb8e27f5cbda6d19295d5e41beb
-    new: 5258b4fdae44cf5ac9b7c6fd71c9e0394a9fad5e
-    log: revlist-1a3267a8c9ec-5258b4fdae44.txt
+  - ref: refs/heads/entry/rework
+    old: af0a53579c942e9d22020e22347b4bf94686bcf0
+    new: c16281577a4399b0eb610dac20cd3d00606e6e8a
+    log: revlist-af0a53579c94-c16281577a43.txt
 
---===============2592601347026938822==
+--===============5360447880846986491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a3267a8c9ec-5258b4fdae44.txt
+Content-Disposition: attachment; filename=revlist-af0a53579c94-c16281577a43.txt
 
-1b0d946d6f08bd39211385bc703a440911b41e46 Bluetooth: hci_uart: clear HCI_UART_SENDING when write_work is canceled
-d38eaf611839b85ade3dd3db309dbc8aaaaf0095 Bluetooth: 6lowpan: Fix using chan->conn as indication to no remote netdev
-fa85d985f614bc3feb343000f14a1072e99b0df1 Bluetooth: MGMT: Fix UAF of hci_conn_params in add_device_complete
-d5541eb148da72d5e0a1bca8ecd171f9fc8b366f Bluetooth: ISO: avoid NULL deref of conn in iso_conn_big_sync()
-2641a9e0a1dd4af2e21995470a21d55dd35e5203 Bluetooth: L2CAP: cancel pending_rx_work before taking conn->lock
-687617555cedfb74c9e3cb85d759b908dcb17856 Bluetooth: L2CAP: validate option length before reading conf opt value
-badff6c3bed8923a1257a853f137d447976eec30 Bluetooth: btnxpuart: Fix out-of-bounds firmware read in nxp_recv_fw_req_v3()
-12917f591cea1af36087dba5b9ec888652f0b42a Bluetooth: hci_conn: Fix null ptr deref in hci_abort_conn()
-352a59dc1f4a41314b6f827c17e16af7ca88271a Bluetooth: 6lowpan: avoid untracked enable work
-518aa9505fa10ea5662349e5d2efd8c9e32a820b Bluetooth: 6lowpan: hold L2CAP conn across debugfs control
-384a4b2fef9ffe5e270ee5558975c0504881c5fb Bluetooth: MGMT: Fix adv monitor add failure cleanup
-0f8a5dcc66648b6e1458a9f3ba4c5a0463a228fc Bluetooth: sco: Fix a race condition in sco_sock_timeout()
-bb067a99a0356196c0b89a95721985485ebce5a5 Bluetooth: bnep: pin L2CAP connection during netdev registration
-4bd0b274054f2679f28b70222b607bb0afc3ab9a Bluetooth: fix UAF in bt_accept_dequeue()
-6fef032af0092ed5ccb767239a9ac1bc38c08a40 Bluetooth: L2CAP: Fix use-after-free in l2cap_sock_new_connection_cb()
-9c36951474d8e1127f4946f39cb874a200f34e9f Bluetooth: btintel_pcie: Refactor FLR to use device_reprobe()
-e054c1a6ae7310d2815778fddb87da616e11c255 Bluetooth: ISO: fix malformed ISO_END/CONT handling
-fd076d8deeab6f9f18ef13400f89e1f550df665b Bluetooth: ISO: exclude RFU bits from ISO_SDU_Length
-dd068ef044128db655f48323a4acfd5907e04903 Bluetooth: bpa10x: avoid OOB read of revision string in bpa10x_setup()
-6e1930ece855a4c256f1c7e6632d634cfb9888b5 Bluetooth: L2CAP: fix tx ident leak for commands without a response
-5258b4fdae44cf5ac9b7c6fd71c9e0394a9fad5e Merge tag 'for-net-2026-07-06' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+1f2b50838b989ac97b54595320efee167c16dfc6 powerpc: Move stack randomization after syscall_enter_from_user_mode()
+be1c185850f0e5d9e03933463872ccc81a710591 randomize_kstack: Provide add_random_kstack_offset_irqsoff()
+0be9cf7b74762d4c204b18a94abbb2cdfa07047c entry: Provide [syscall_]enter_from_user_mode_randomize_stack()
+704bd7bb8b72d99f25645c51ff2de4c9051cbc30 loongarch/syscall: Use syscall_enter_from_user_mode_randomize_stack()
+5abc8bd3b891313c858b7143bb0c7511b7c3365d powerpc/syscall: Use syscall_enter_from_user_mode_randomize_stack()
+bf2de00717537fd57dda0ea827d3834915a130fc riscv/syscall: Use syscall_enter_from_user_mode_randomize_stack()
+150b9321b4f3248365dc73ee689265c96f170271 s390/syscall: Use enter_from_user_mode_randomize_stack()
+b2b89a1be4a4169de7ce7197b867d6f092d62a13 x86/syscall: Use [syscall_]enter_from_user_mode_randomize_stack()
+80ebfae043b24009bc18998119c01e9f77ae05ed entry: Remove syscall_enter_from_user_mode()
+fb5398e2cf7a40c68505c9ed0c18773f6b0c7453 entry: Use syscall number instead of rereading it
+a7d4dd983033f9c2bbf4fb53ffa855abeab3f181 seccomp, treewide: Rename and convert __secure_computing() to return boolean
+be56505c8c9d3a4081ef6a7dd63315a66c06c372 ptrace, treewide: Rename ptrace_report_syscall_entry() to ptrace_report_syscall_permit_entry()
+797ce9fafdf29b09ebbffa668a0e789827649b9a entry: Make trace_syscall_enter() return type bool
+7319c87d5f0647536d2f15f0818b5497c4fef448 entry: Make return type of syscall_trace_enter() bool
+a384f5ef53b0e6d573275c01b24bf7a6fadade02 x86/entry: Make syscall functions static
+614b0a720b74d0215ad9b29c4f824a01b33af11a x86/entry: Get rid of the sys_ni_syscall() indirection
+051f8b04f6416afe57228eff39e3c02ae36e3784 x86/entry: Simplify the syscall number logic
+c16281577a4399b0eb610dac20cd3d00606e6e8a entry, treewide: Make syscall_enter_from_user_mode[_work]() indicate syscall execution
 
---===============2592601347026938822==--
+--===============5360447880846986491==--
