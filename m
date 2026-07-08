@@ -1,54 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5826220590845511316=="
+Content-Type: multipart/mixed; boundary="===============0696605660161848723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 08 Jul 2026 09:57:50 -0000
-Message-Id: <178350467061.1916472.16817104222357565264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 08 Jul 2026 10:01:47 -0000
+Message-Id: <178350490700.1919688.1578595904736317933@gitolite.kernel.org>
 
---===============5826220590845511316==
+--===============0696605660161848723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/b4/acpi_scmi_pcc
-    old: 12fdba97a749aa033233ae4e36e3ddb4c574e1a5
-    new: 29bc1455c99208142ed1b95499791e4f9f98b221
-    log: revlist-12fdba97a749-29bc1455c992.txt
+  - ref: refs/heads/clean-init-one-hfi1-v1
+    old: c2933f9b7cc39477225a5af70d861117fb7ffbd1
+    new: aa229c30dccbb60cc3d5c16a58cbb9b5528ee6c3
+    log: revlist-c2933f9b7cc3-aa229c30dccb.txt
 
---===============5826220590845511316==
+--===============0696605660161848723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12fdba97a749-29bc1455c992.txt
+Content-Disposition: attachment; filename=revlist-c2933f9b7cc3-aa229c30dccb.txt
 
-d3f3c8be25926ab76b0c7bb209ed5a2fdc914dfb firmware: arm_scmi: Publish channel state before callbacks
-c6cf9b97297805ac3f2d21e5fa31948c02144ad1 firmware: arm_scmi: Quiesce notifications before teardown
-c889940c1fe617dd866417661b17d6f45866d297 firmware: arm_scmi: Clean up channels on setup failure
-0a95544b5697bc3d93f2f57da8e3875624677dfe firmware: arm_scmi: Free transport channel on IDR failure
-76e60c10d141adfe576e1a6301da20f71f423546 firmware: arm_scmi: Avoid IDR updates while cleaning channels
-9b41bce1f83712d62be5d84b8893df3866b72c3c firmware: arm_scmi: Reject out of range DT protocol IDs
-041f795147efb15cb4173ca0a609d578f881f402 firmware: arm_scmi: Use channel ID for transport teardown
-21a6303716cd260cd5e4baa5ef9174abba560df4 firmware: arm_scmi: Unregister device notifier before IDR teardown
-64e4207caf083fbc0334f66d3554099999bf4b39 firmware: arm_scmi: Protect device request lookup with RCU
-eeaddc32018fa01eae4ea642b066c496595483bb firmware: arm_scmi: Drop handle on protocol bind failures
-0d98049cb50672ebc11cf01f0d3ce71c99d504cc firmware: arm_scmi: Clear SystemPower flag on create failure
-bfc0012781d1f1b452e27f7d73dc34d0f3b1065e firmware: arm_scmi: Fix OF node reference handling
-e2d48c5a90c45d7e5e1d522a044a87cf0ed06cf0 firmware: arm_scmi: Unwind TX receiver mailbox setup failure
-e17290182fc6d33fab8d8be7b23ee1f8b4c7a041 firmware: arm_scmi: Unwind P2A receiver mailbox setup failure
-bd550a116c35f0246f8d36e65e1e3639d5ff216b firmware: arm_scmi: Fix SCMI device destroy lifetimes
-b5532cc4b07b464893871ea525d4f1c38ccbd3d7 firmware: arm_scmi: Fix transport device teardown lookup
-dee5972129bc638e5bf87e6d0b264af7fea880c4 firmware: arm_scmi: Set fwnode for the generated SCMI platform device
-5c3f7da5e30c1094a68c9d79cadc8bf8a814bb3f firmware: arm_scmi: Extend transport driver macro to support ACPI
-d1d76fef79dd3744ee55e0d4722de750f899a155 firmware: arm_scmi: Convert OF-only paths to generic fwnode in SCMI core
-9901e591cdb4a593b48de0ded456d28677064078 firmware: arm_scmi: Fall back to ACPI HID when "compatible" is absent
-9ec1994e6d5f5520dd0ed63c87cad1277b9b8a60 firmware: arm_scmi: Pass protocol ID to chan_available() transport callback
-6ccc4d5a09b07a192584826c5801cd86d533fe24 firmware: arm_scmi: Refactor protocol device creation logic
-dbb83eeb99268905333671f8170a1cefb74000bf firmware: arm_scmi: transport: Add ACPI PCC transport
-29bc1455c99208142ed1b95499791e4f9f98b221 firmware: arm_scmi: Initialise all protocol devices and transport channels
+92965ce14371d1fe5cea5dccff12631e3abe3e85 RDMA/hfi1: Make init_one() a sane counterpart of remove_one()
+1f26c45ffe23edec7653b3162c558ee2b896d6fc RDMA/rvt: Return NULL after port allocation failure
+8f328b74351cbf0c3ea3bf1b36bf83baceae6a31 RDMA/hfi1: Preserve unit 0 on allocation failure
+3c3d7bd00c0081651e976bf8d9c9e48cf9f88516 RDMA/hfi1: Remove redundant PCI device ID validation
+79d32cd475e8e9f1a5658578f961ab69fd429d6c RDMA/hfi1: Pass PCI device to hfi1_pcie_init()
+bd9521d5170a14da7f7613a2a639daaa23d11dc4 RDMA/hfi1: Drop device data from hfi1_validate_rcvhdrcnt()
+685024306d68954e3b82315032726513a2568209 RDMA/hfi1: Create workqueues before device initialization
+4fb022e463cbd8685fcee5c3ff5dbb93ba8b90f6 RDMA/hfi1: Free RX data on late probe failure
+69cadb5f508ab9da52cc4d16f4434168261d0f88 RDMA/hfi1: Allocate device data after PCI initialization
+d43bf000c27555ec7d305cc6297e148ef12eac44 RDMA/hfi1: Remove redundant NULL checks in create_workqueues()
+6740e4e442f27ceccdedd23d260d1f4dc6529405 RDMA/hfi1: Stop flushing the global IB workqueue
+0daae11a225509caaee7b2d55a76fc5dc782b7f5 RDMA/hfi1: Defer device creation until probe succeeds
+9a90771acc1e77cc7a0b323016684e25a6bb383b RDMA/hfi1: Initialize debugfs after probe completes
+aa229c30dccbb60cc3d5c16a58cbb9b5528ee6c3 RDMA/hfi1: Align probe error unwinding with device removal
 
---===============5826220590845511316==--
+--===============0696605660161848723==--
