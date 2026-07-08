@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 08 Jul 2026 04:13:44 -0000
-Message-Id: <178348402445.1679187.17540071101965077087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
+Date: Wed, 08 Jul 2026 04:20:54 -0000
+Message-Id: <178348445413.1685290.2205200989694818903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/bcain/linux
+user: bcain
 changes:
-  - ref: refs/heads/dpm
-    old: cf6a88d3d0a26b9c88fd8944205c7279d0c8c13b
-    new: dbf5152027b7a036076fbd2fb8db20bec28ba830
+  - ref: refs/heads/bcain/qemu_boot
+    old: 29facc8c3b3fe50f4914c90aec24a76217fa35c1
+    new: 89efd48e5609f41280973bc49df20ffe80177690
     log: |
-         e2472cfd642d5181317ecafdea68ce3e17345602 PM: dpm_watchdog: Improve DPM watchdog configurability
-         bfcfd49c8ffa4116adf48d5c32566da17ad3a22e PM: sleep: Rename module parameters prefix to "pm"
-         dbf5152027b7a036076fbd2fb8db20bec28ba830 PM: dpm_watchdog: Allow disabling DPM watchdog by default
+         1c3a6a6dea9e26627ddd1ecbe453a2ea7b3091ee hexagon: add fixmap support
+         3aeb7fc4aefec7d41a837fbbf44a99da50f8f7ec hexagon: enable QUP GENI UART console support
+         89efd48e5609f41280973bc49df20ffe80177690 hexagon: document how to pick a UART console in the QEMU boot doc
          
