@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5812881421566792413=="
+Content-Type: multipart/mixed; boundary="===============5211240194180360319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 08 Jul 2026 15:57:38 -0000
-Message-Id: <178352625800.2175068.12861767638186440855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 08 Jul 2026 15:57:39 -0000
+Message-Id: <178352625974.2175151.1674367853957566023@gitolite.kernel.org>
 
---===============5812881421566792413==
+--===============5211240194180360319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53
     log: revlist-4a50a141f05a-0e35b9b6ec0f.txt
 
---===============5812881421566792413==
+--===============5211240194180360319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -472,4 +472,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 cead34ac1ce10046cb745fbc33a4b21cac899753 MAINTAINERS: update ndesaulniers
 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53 Merge tag 'mm-hotfixes-stable-2026-07-06-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============5812881421566792413==--
+--===============5211240194180360319==--
