@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0725722667957590580=="
+Content-Type: multipart/mixed; boundary="===============2166586147465100126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 08 Jul 2026 15:29:28 -0000
-Message-Id: <178352456838.2153185.18125337963366438778@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 15:29:33 -0000
+Message-Id: <178352457346.2153395.4313992912227088115@gitolite.kernel.org>
 
---===============0725722667957590580==
+--===============2166586147465100126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    log: revlist-dc59e4fea9d8-8cdeaa50eae8.txt
+  - ref: refs/heads/fixes
+    old: 2995ccec260caa9e85b3301a4aba1e66ed80ad74
+    new: 7d5c2f679147859c1db97d9f66366ff16909abee
+    log: revlist-2995ccec260c-7d5c2f679147.txt
 
---===============0725722667957590580==
+--===============2166586147465100126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-8cdeaa50eae8.txt
+Content-Disposition: attachment; filename=revlist-2995ccec260c-7d5c2f679147.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -304,7 +304,6 @@ e0df90e4c6021d6c8b540cbcd370cad23c7ff111 Merge patch series "netfs: Miscellaneou
 3372eb0384b791faf133806da287819f5bfaad76 fuse: call fuse_send_readpages explicitly from fuse_readahead
 c1fb97d31782f5a8c66d127624626accbb0dd8bc iomap: submit read bio after each extent
 24dddc384fb9aec2d7eea5463ca6dac98a3b3854 Merge patch series "iomap: consolidate bio submission"
-754e9e49b76fd5be339172aa98544182ed3ca75e pkey: Move keytype check from pkey api to handler
 ed0abc8be27e23aa65716bcaab8976ada2503cab ASoC: rsnd: adg: make rsnd_adg_clk_control() idempotent
 d42df9dce7b374079c5c41691bd62d8765768a80 drm/xe: wedge from the timeout handler only after releasing the queue
 3feeb667197bd58a17f4edfdbcad249ffcb3c864 drm/xe/pt: Fix NULL pointer dereference in xe_pt_zap_ptes_entry()
@@ -402,7 +401,6 @@ abf08854d224085e2ebb3ba660e7995909f47d6a x86/uprobes: Keep shadow stack in sync 
 5166973b20784b4627c7a657d546963d8c6e9b5a selftests/x86: Add shadow stack uprobe CALL test
 169328645663bae30e9abad4012d52441e085a71 uprobes/x86: Use proper mm_struct in __in_uprobe_trampoline
 c16b8c4cfb4fe2244cc33e469a93c1ab8684146b cifs: Fix missing credit release on failure in cifs_issue_read()
-2995ccec260caa9e85b3301a4aba1e66ed80ad74 s390/monwriter: Reject buffer reuse with different data length
 db78c0db411b111b438f00a1ba418e995b5bd246 Merge tag 'mfd-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 a9d4dd742466cab468a950441447c614a3920aad Merge tag 'hwmon-for-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 87320be9f0d24fce67631b7eef919f0b79c3e45c Merge tag 'net-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -459,5 +457,9 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
+b7577fe4c47a31ca7c99714c53244a44af03cdfe s390/diag: Add missing array_index_nospec() call to memtop_get_page_count()
+ec84aad4c3594307d103af563991b4415ac5c8ab s390/mm: Fix type mismatch in get_align_mask().
+575f87b9d4882b0d621192fdd754d7e09dbd5789 s390/zcrypt: Remove the empty file
+7d5c2f679147859c1db97d9f66366ff16909abee s390: Add build salt to the vDSO
 
---===============0725722667957590580==--
+--===============2166586147465100126==--
