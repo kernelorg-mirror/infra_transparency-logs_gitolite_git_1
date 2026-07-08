@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8373993548955551589=="
+Content-Type: multipart/mixed; boundary="===============8195032048875670827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 08 Jul 2026 14:56:45 -0000
-Message-Id: <178352260545.2129253.16001327787116457367@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 14:56:47 -0000
+Message-Id: <178352260744.2129343.13092795254564702622@gitolite.kernel.org>
 
---===============8373993548955551589==
+--===============8195032048875670827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,69 +15,47 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-7.3
-    old: dd06f466da5247cbdcaed2bca738701b044bd8da
-    new: 346e9112f3dab91a5cf3100a99ec256ff0b7f0fe
-    log: |
-         28236bb8f50216fe98f895b31d593e8d8ddb8a27 ARM: dts: qcom: msm8226: Support Motorola Moto G2 (2014)
-         346e9112f3dab91a5cf3100a99ec256ff0b7f0fe ARM: dts: qcom: msm8960: expressatt: Add coreriver,tc360-touchkey
-         
-  - ref: refs/heads/arm64-defconfig-for-7.3
-    old: 235aa29b39329b971fbf0c28fb04b0ae83d7983f
-    new: 9c1bb154d40b36434e919865cbb2b23da58a963b
-    log: |
-         9c1bb154d40b36434e919865cbb2b23da58a963b arm64: defconfig: Enable Qualcomm BAM-DMUX WWAN driver
-         
-  - ref: refs/heads/arm64-for-7.3
-    old: 4a59255c6318881fdad69f8ba62a6003cc2a989f
-    new: e43584952ee7df0f72e8311341d780d84f03159c
-    log: revlist-4a59255c6318-e43584952ee7.txt
-  - ref: refs/heads/clk-fixes-for-7.2
-    old: 2ef00630c5c0b7b2c08aba7643f47594952d357e
-    new: 0aec16a93bac6b2db928119bd34cc1e896173af4
-    log: |
-         0aec16a93bac6b2db928119bd34cc1e896173af4 Revert "clk: qcom: regmap-phy-mux: Rework the implementation"
-         
-  - ref: refs/heads/clk-for-7.3
-    old: edbd5d323183ca15676fac30344ec0713b98dc46
-    new: d8638610e0c9ebab2800b7ad6c2c2a3737090da9
-    log: revlist-edbd5d323183-d8638610e0c9.txt
-  - ref: refs/heads/drivers-for-7.3
-    old: c709c76f4cf1d8646362f5a00ce8da1bd8ed58d7
-    new: 05b03f88af1fe82d23b5f88b286b1ac2987b3177
-    log: |
-         ed3233af30b711c2a434e95cc05531244fd07307 soc: qcom: qcom_stats: Add SoCCP and DCP subsystems stats
-         64774dea58969194ea5c27fa639954e551a87024 bus: qcom-ebi2: Fix clock leak on probe failure
-         cf14d0f9e75c83a0879c1fcf2e85972b552f26f9 dt-bindings: firmware: qcom,scm: Document SCM on Maili SOC
-         ffc5383f2c180a8541ff05879b39afb19513732e dt-bindings: sram: Document qcom,maili-imem compatible
-         30783d878a26da939f9a6d57a1d7012cc553e340 dt-bindings: soc: qcom,aoss-qmp: Document the Maili AOSS side channel
-         3467fec5322678463fa5e43556eb0216f6a0ca22 soc: qcom: llcc: Add configuration data for Shikra SoC
-         63fba7528f2c329595321187a92b2caf16141be0 soc: qcom: pd-mapper: Add support for SA8775P
-         17e26dfa92a502212577c4dbdb55426f1476d521 soc: qcom: pd-mapper: Add support for QCS8300
-         a45af9d6e6175473c8744c0f1cf2348f641e3029 soc: qcom: ubwc: Add Shikra UBWC config
-         05b03f88af1fe82d23b5f88b286b1ac2987b3177 dt-bindings: soc: qcom: qcom,pmic-glink: Add Maili compatible string
-         
+  - ref: refs/heads/for-next
+    old: f86573e68e56a7df7d54eb58101ac413ba731996
+    new: 3d7933b9ed00caea0291d528caafe1a4c87dc9b8
+    log: revlist-f86573e68e56-3d7933b9ed00.txt
 
---===============8373993548955551589==
+--===============8195032048875670827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a59255c6318-e43584952ee7.txt
+Content-Disposition: attachment; filename=revlist-f86573e68e56-3d7933b9ed00.txt
 
+ed3233af30b711c2a434e95cc05531244fd07307 soc: qcom: qcom_stats: Add SoCCP and DCP subsystems stats
+0aec16a93bac6b2db928119bd34cc1e896173af4 Revert "clk: qcom: regmap-phy-mux: Rework the implementation"
+64774dea58969194ea5c27fa639954e551a87024 bus: qcom-ebi2: Fix clock leak on probe failure
 7d3670ccf61b99283ebe44ba19f5e4643ef7cde7 arm64: dts: qcom: milos-nothing-asteroids: Drop simplefb
 2a906f0b4f037b3fe5f790a48f88549a86288fdf arm64: dts: qcom: Add #{address,size}-cells to Chromium-based /firmware
+ab171a6afd4ea68444667cfa5c7b24237b9d09d3 clk: qcom: gcc-sm6115: Set HW_CTRL_TRIGGER for video GDSC
 e0511284f0c14e2929aa6cec435a9cb8bec259b1 arm64: dts: qcom: sm6115: add venus device
 43611ba2955c1f349a0694b7ad7ab6a2794910df arm64: dts: qcom: qrb4210-rb2: enable venus device
 f91dec5bd0ec57632a17a2d27806e27d9f2429d0 dt-bindings: arm: qcom: Add Motorola Moto G2 (2014)
+28236bb8f50216fe98f895b31d593e8d8ddb8a27 ARM: dts: qcom: msm8226: Support Motorola Moto G2 (2014)
 97c5fe2c932bfb1857f0f29e2f1389a20264c304 arm64: dts: qcom: qcm6490-shift-otter: Convert fb to use memory-region
 dcef71a03f5bb375a5da48b666ad47c6c8855278 arm64: dts: qcom: qcm6490-fairphone-fp5: Convert fb to use memory-region
+d69f0c2b8d292b4890c9f0fbe184dfc26c4de86c clk: qcom: gdsc: propagate gdsc_check_status() errors from gdsc_poll_status
+eea55fc694e132aacbe2cf4be7f345115e3d1801 clk: qcom: gdsc: propagate gdsc_enable() failure for ALWAYS_ON domains
+86b23609d5e17a770d03037e53c6a443e742a6e6 clk: qcom: gdsc: tear down per-domain genpds in gdsc_unregister()
 00dd037fc31452962eba38cdb46feafb0b70d96e arm64: dts: qcom: monaco: Remove the little/big_cpu_sleep_0 idle states
 f212c011af87e65c5147bfd61d786d681be91d40 arm64: dts: qcom: lemans: Remove the gold_cpu_sleep idle state
+cf14d0f9e75c83a0879c1fcf2e85972b552f26f9 dt-bindings: firmware: qcom,scm: Document SCM on Maili SOC
+ffc5383f2c180a8541ff05879b39afb19513732e dt-bindings: sram: Document qcom,maili-imem compatible
+30783d878a26da939f9a6d57a1d7012cc553e340 dt-bindings: soc: qcom,aoss-qmp: Document the Maili AOSS side channel
 ea85f665ffa09e2b7b9b54dac50dbaf0cd88685c arm64: dts: qcom: kodiak: Move PCIe GPIOs and PHYs to root ports
 c800e4c8a6481b4648945a53630907e414205cf6 dt-bindings: cache: qcom,llcc: Document Maili SoC
+3467fec5322678463fa5e43556eb0216f6a0ca22 soc: qcom: llcc: Add configuration data for Shikra SoC
+63fba7528f2c329595321187a92b2caf16141be0 soc: qcom: pd-mapper: Add support for SA8775P
+17e26dfa92a502212577c4dbdb55426f1476d521 soc: qcom: pd-mapper: Add support for QCS8300
+346e9112f3dab91a5cf3100a99ec256ff0b7f0fe ARM: dts: qcom: msm8960: expressatt: Add coreriver,tc360-touchkey
 6a3568f938c9ff2cb493f82dc595b4dc2760f517 arm64: dts: qcom: x1e80100: Add CAMCC block definition
 1ba506e6438f5ddc26b02783009f6aa2978237eb arm64: dts: qcom: msm8996: add blsp2_spi5 node
 07d76600a3c59e01430c9a793dc646941be423b9 arm64: dts: qcom: monaco-arduino-monza: Add fan controller and thermal cooling
+a45af9d6e6175473c8744c0f1cf2348f641e3029 soc: qcom: ubwc: Add Shikra UBWC config
 e53655dac60665ffc736914f336493c5f45977a0 arm64: dts: qcom: sc8280xp-arcata: Enable backlight
 587ea6a79584b5323e5eb3e2435c858177cca49c arm64: dts: qcom: sc8280xp-arcata: Enable the eDP display
 784b0cdc237d98f1ae7c6adec0165676c98a2614 arm64: dts: qcom: sc8280xp-arcata: add USB-C orientation GPIOs
@@ -115,9 +93,15 @@ b10afe4618f36aff99f3495da44f6a05a2a3dbb2 arm64: dts: qcom: qdu1000: Reduce OS PD
 f662fca3dc872fed4c9ab92def19305ac5a7ad2d arm64: dts: qcom: ipq5332: Move PHYs and PERST# to Root Port node
 29609eb2d96e86605e837b8be2787c8808561c07 arm64: dts: qcom: ipq5424: Move PHYs and PERST# to Root Port node
 71dd62dac8e2d03f952587f8985a859fce422815 arm64: dts: qcom: sdm670-google: add lpi reserved gpios
+05b03f88af1fe82d23b5f88b286b1ac2987b3177 dt-bindings: soc: qcom: qcom,pmic-glink: Add Maili compatible string
 a10eafcfc6e481da6b62d78dbf408c6ef2b6b5c7 dt-bindings: clock: qcom,rpmcc: Add Qualcomm Shikra SoC RPMCC
 f390a1fac199b03d8971b84a531d1a978a2b20cc dt-bindings: clock: qcom: Add Qualcomm Shikra SoC Global Clock Controller
+d328c411f1b8e4f385492e1ecb3c74990368aa4a Merge branch '20260608-shikra-gcc-rpmcc-clks-v5-2-94cefe092ee3@oss.qualcomm.com' into clk-for-7.3
+20469662a552101c859d1e5b55e6d2f5db42bb3a clk: qcom: smd-rpm: Add missing RF_CLK1/RF_CLK2 clocks support on Agatti
+01cf3e27824d1cf2dcb815e59087c6556819b039 clk: qcom: Add Global clock controller support on Qualcomm Shikra SoC
+9c1bb154d40b36434e919865cbb2b23da58a963b arm64: defconfig: Enable Qualcomm BAM-DMUX WWAN driver
 0b967a82e7b3c575af7f71df68d56e7786ab533e arm64: dts: qcom: ipq9574: Add missing PCIe global IRQs
+f3d8db39d91e52f5db14047547b3eb3467446f78 clk: qcom: gcc-ipq5424: drop the CLK_IGNORE_UNUSED flag
 83f13e07c5216058ccf53bfe08dd5c57e28e747a arm64: dts: qcom: qcm6490-fairphone-fp5: Add AW88261 amplifiers
 bb016ddb9061a89c72448f4dbe356350f5cac0ea arm64: dts: qcom: sm8650: update the cpus capacity-dmips-mhz
 884ff1172a70f47697c5033701b4c86f23abdb57 arm64: dts: qcom: sm8650: add CPU cache size properties
@@ -135,6 +119,8 @@ dbf48f009161162147c8df3cb3a47e8e7a3a0442 dt-bindings: arm: qcom: Add SM7325 Xiao
 81a1e944d3b8322468e95549a9c5aed4fc3465d2 arm64: dts: qcom: monaco-arduino-monza: Remove duplicate includes
 447f8053b1849b22bbf6f71a2cbb1a81fb931d48 arm64: dts: qcom: purwa: Add Microsoft Surface Pro 12in
 765234f19964cc2ba704b76d117491ca5c7e0899 arm64: dts: qcom: talos: Add passive polling-delay for gpu-thermal zone
+11b170abe4d324cac0d15a410282d1ec2b6bafa0 clk: qcom: gcc-qcs8300: Use retention for PCIe power domains
+d8638610e0c9ebab2800b7ad6c2c2a3737090da9 clk: qcom: gcc-qcs8300: Use retention for USB power domains
 531ce288b6dd43c1ce90e0b501c209783f0e0ab2 arm64: dts: qcom: sm8250: Add memory-region for audio PD
 7cc8ca0387f572a4d69941fe380e7a262342491d arm64: dts: qcom: kaanapali: Add camss node
 c25b80614c31a30b1b0f44fc5ae260aff90fa4aa arm64: dts: qcom: kaanapali: Add CCI definitions
@@ -164,24 +150,6 @@ c7d79e2e1400102e7921a60669d5e53da5f1e03d dt-bindings: arm: qcom: Add HONOR Magic
 cfda9e4f1ea927602352ba45071e7711ce379b50 arm64: dts: qcom: Use tab for indentation
 e252339d7ef9e1a8419a734931b9f820b1a2bf56 arm64: dts: qcom: Use lowercase hex for unit addresses and values
 e43584952ee7df0f72e8311341d780d84f03159c arm64: dts: qcom: Correct whitespace around '='
+3d7933b9ed00caea0291d528caafe1a4c87dc9b8 Merge branches 'arm32-for-7.3', 'arm64-defconfig-for-7.3', 'arm64-fixes-for-7.2', 'arm64-for-7.3', 'clk-fixes-for-7.2', 'clk-for-7.3' and 'drivers-for-7.3' into for-next
 
---===============8373993548955551589==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edbd5d323183-d8638610e0c9.txt
-
-ab171a6afd4ea68444667cfa5c7b24237b9d09d3 clk: qcom: gcc-sm6115: Set HW_CTRL_TRIGGER for video GDSC
-d69f0c2b8d292b4890c9f0fbe184dfc26c4de86c clk: qcom: gdsc: propagate gdsc_check_status() errors from gdsc_poll_status
-eea55fc694e132aacbe2cf4be7f345115e3d1801 clk: qcom: gdsc: propagate gdsc_enable() failure for ALWAYS_ON domains
-86b23609d5e17a770d03037e53c6a443e742a6e6 clk: qcom: gdsc: tear down per-domain genpds in gdsc_unregister()
-a10eafcfc6e481da6b62d78dbf408c6ef2b6b5c7 dt-bindings: clock: qcom,rpmcc: Add Qualcomm Shikra SoC RPMCC
-f390a1fac199b03d8971b84a531d1a978a2b20cc dt-bindings: clock: qcom: Add Qualcomm Shikra SoC Global Clock Controller
-d328c411f1b8e4f385492e1ecb3c74990368aa4a Merge branch '20260608-shikra-gcc-rpmcc-clks-v5-2-94cefe092ee3@oss.qualcomm.com' into clk-for-7.3
-20469662a552101c859d1e5b55e6d2f5db42bb3a clk: qcom: smd-rpm: Add missing RF_CLK1/RF_CLK2 clocks support on Agatti
-01cf3e27824d1cf2dcb815e59087c6556819b039 clk: qcom: Add Global clock controller support on Qualcomm Shikra SoC
-f3d8db39d91e52f5db14047547b3eb3467446f78 clk: qcom: gcc-ipq5424: drop the CLK_IGNORE_UNUSED flag
-11b170abe4d324cac0d15a410282d1ec2b6bafa0 clk: qcom: gcc-qcs8300: Use retention for PCIe power domains
-d8638610e0c9ebab2800b7ad6c2c2a3737090da9 clk: qcom: gcc-qcs8300: Use retention for USB power domains
-
---===============8373993548955551589==--
+--===============8195032048875670827==--
