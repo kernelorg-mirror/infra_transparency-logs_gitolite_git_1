@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8978735607080410969=="
+Content-Type: multipart/mixed; boundary="===============5794280911386089579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 08 Jul 2026 08:28:28 -0000
-Message-Id: <178349930831.1851118.11574873153856154728@gitolite.kernel.org>
+Date: Wed, 08 Jul 2026 08:28:47 -0000
+Message-Id: <178349932765.1851413.6403162408315385110@gitolite.kernel.org>
 
---===============8978735607080410969==
+--===============5794280911386089579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,78 +15,49 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: f705c6728b357ca8d675f9ee94191d7c900e3652
-    new: 6c19d58376b980601f6cada5362c7994e5c72697
-    log: revlist-f705c6728b35-6c19d58376b9.txt
+  - ref: refs/heads/perf/merge
+    old: 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53
+    new: c364506b98ef947174c1e8554c6861383712e141
+    log: revlist-0e35b9b6ec0f-c364506b98ef.txt
 
---===============8978735607080410969==
+--===============5794280911386089579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f705c6728b35-6c19d58376b9.txt
+Content-Disposition: attachment; filename=revlist-0e35b9b6ec0f-c364506b98ef.txt
 
+003267cb94e21d762eb72d6977d84f44f1705bb7 perf/x86/intel/uncore: Fix PCI PMU cleanup on setup failure
+7d3a9ff98898b3521eb5d7a3daf703b383f7935a perf/x86/intel/uncore: Fix refcnt and other cleanups
+cbbc25209ce34f1baeec615553b93904a7a5d8cd perf/x86/intel/uncore: Let init_box() callback report failures
+3012af7df3430788eddd30b3c6654d0a0a5f06c6 perf/x86/intel/uncore: Keep PCI PMUs working when MMIO/MSR setup fails
+ae7ca8796ddac708db592c5a68555414c451afcc perf/x86/intel/uncore: Factor out box setup code
+30c0a1095652275768a5de67188ff888d1f5d190 perf/x86/intel/uncore: Introduce PMU flags and broken state
+174f0582e38abe03b88e15f04bfe58490f88cb19 perf/x86/intel/uncore: Fix uncore_box ref/unref ordering
+b25813b17944b4df532246cddae82201fb880481 perf/x86/intel/uncore: Implement lazy setup for MSR/MMIO PMUs
+8767b4d73018bd3143f4c55b672064fad292f11b perf/x86/intel: Remove anythread_deprecated bit from perf_capabilities
+3c4ec9b2a5db56b60127bfaf933ecdeea7a1f10a perf/x86/intel: Keep cap_user_rdpmc in sync with RDPMC user-disable state
+170cc6b02e3d5203ccaa49ffea1ee5a7ab08c885 perf/x86/intel: Fallback to sw branch type decoding if no hw decoding
+e2b0575900ff72aa82748af96e7bd564ade5157a perf/x86/intel: Fix kernel address leakages in LBR stack
+01c153956b4436ead05a529dae56abc0ef58beac perf/x86/intel: Validate the return value of intel_pmu_init_hybrid()
+a6b5fbc33172509fbe991358d718617a8e33ea7e perf/x86/intel: Drop fixed-counter PEBS constraints for baseline PEBS
+166f10836a653dfa280d4335603b52f685b8b1ef perf/core: Fix kernel register info leak via hardware skid
+a4573a3838ae4fc73b70019cfa1dac9aaea7cc2f perf/core: Check kernel access when kernel callchains are requested
+ded9b5bd0356cc8cd6bb4a92e9c9f53ba8415df9 Merge branch 'perf/urgent'
+38af0dd6a266057002eacb170c08298ea912fb0a uprobes/x86: Remove struct uprobe_trampoline object
+07c308eb2bcfe4727ba669e1ba6f5b0ba7d2696e uprobes/x86: Do not leak trampoline vma mapping on optimization failure
+d9a48e77f6fe0c11d3cdfcbbcbf4a98ec402e55a uprobes/x86: Allow to copy uprobe trampolines on fork
+554ba38456dad8053a1a80afe6ae6da9eff745cc uprobes/x86: Move optimized uprobe from nop5 to nop10
+ee2862439e5c8763cee84e910706fdc5b97bc879 libbpf: Change has_nop_combo to work on top of nop10
+8cae54c586084c81ab80f6ab020192eb2ce7aa0b libbpf: Detect uprobe syscall with new error
+6d91200bcbb52020f33a26f9e92ba309b804fdba selftests/bpf: Emit nop,nop10 instructions combo for x86_64 arch
+ec0596a0208318d66be7ae946c8964c41dccaa8d selftests/bpf: Change uprobe syscall tests to use nop10
+b2cf7c41e4f12f76f6f7b6a21194367cf8d3e7b9 selftests/bpf: Change uprobe/usdt trigger bench code to use nop10
+28d57db3e8d4e687b7ece4b047429908f123908e selftests/bpf: Add reattach tests for uprobe syscall
+eccf368562bb2f79d2cded2030cfdce91afc9080 selftests/bpf: Add tests for uprobe nop10 red zone clobbering
+d7ebbae57de3f37ff42b6f67f40cc67827b23c4f selftests/bpf: Add tests for forked/cloned optimized uprobes
+edda9051e267b7390c7ce24b1b71434414ad156e perf/x86/amd/uncore: Add group validation
 3eaa50e1e255ec261c757b9eea811ef3bac10d1e x86/cpu: Hide and rename static_cpu_has()
-596b3678326d3d1aed7c19423b6746f1ce09688a x86/video: Only fall back to vga_default_device() without screen info
-4c2509f3b79756679a02bea649c6a7501b58f52c x86/virt/sev: Revert "Drop WBINVD before setting MSR_AMD64_SYSCFG_SNP_EN"
-57d12209790d3f006cd215d073780f3162d507c4 genirq: Remove unnecessary NULL check of the kstat_irqs field
-2c27d9b154743eb113e643680b5ce2f8a51647a4 parisc: Remove unnecessary NULL check of the kstat_irqs field
-83e089ef0d4e045efa743dcbc8de5ea0a9e4195d irqchip/qcom-pdc: Restructure version support
-60caa95aa14aed8d05abc03b70e2ff14e5ab6820 irqchip/qcom-pdc: Move all static variables to struct pdc_desc
-45af2d61edf62938b021b86439a1dd797fd74a91 irqchip/qcom-pdc: Differentiate between direct SPI and GPIO as SPI
-ad01c2b2f29163ca0bbe1fd4f9343fbc5119c239 irqchip/qcom-pdc: Configure PDC to pass through mode
-4c4985305d474e8c7a99192fdd54d3bfe9b501f1 Merge tag 'irq-chip-qcom-pdc-for-gpio-07-07-26' into irq/drivers
-1efffab6fe336a5c4fd3c2886f255cd2f998e65f irqchip/gic-v3-its: Fix memleak in its_probe_one()
-698a8648ca8051d34722b09b8a8088c741120ac3 irqchip/gic-v3-its: Fix its node leak in gic_acpi_parse_madt_its()
-7fc04d7044aaa5ffe2afe78979fe6ddd5da24f10 syscall_user_dispatch: Make it configurable in Kconfig
-34ef6308418f138395a664bf9f5d80ace9825ac6 syscall_user_dispatch: Add kernel.syscall_user_dispatch sysctl
-b4b66151a71445f3a71574136ddc82968c7b175e selftests: timers: leap-a-day: Fix -w option and update usage comment
-3dee6537e728bd8137fda6eaf859f26e685943f7 clocksource: Unregister subsystem on device registration failure
-f2eee7e31ccd4bc87d047d8670cc2ec39cf36647 timekeeping: Unwind aux clock sysfs children on failure
-eddfded4196542deda7cb2da3d7ebef83f7ccfa4 timers/migration: Fix memory leak in tmigr_setup_groups() error path
-06aba58e58492d2b8eae059274caed29025ea96e time/namespace: Validate nanosecond field in proc_timens_set_offset()
-1d28a67d496f482933b0ba5d8577835bdbe601ca timer_list: Annotate print_cpu() diagnostic reads
-c4415c993fc2c8bdf2cf0bfbcbb1ac0e0f7a9eaf hrtimer: Don't take cpu_base::lock in hrtimer_get_next_event() when hres_active
-03b5d4c2798234d9ee3c4a719a2fefe785a6aec4 hrtimer: Rename hrtimer_defs.h to hrtimer_bases.h
-d3dc7fabd4c4a3baaa7e7bfa84558fedad699580 hrtimer: Move hrtimer_callback_running() to hrtimer_bases.h
-a116c7582d7f7701736801a47e3432eb7cabd674 hrtimer: Move hrtimer_update_function() to hrtimer.c
-73fcec09d1629afa8819a866518cc0e8d58a7ece tick: Explicitly include linux/hrtimer_bases.h
-95cf8bbadd103944c35c55e8c4cb85fa9a4ae84b hrtimer: Explicitly include linux/hrtimer_bases.h
-071993aac72ea8e6f9986bf41101974e8faa2eca hrtimer: Explicitly include some necessary headers in hrtimer_rearm.h
-0c31af3d23e62b2ac0622bc6592793e21f915657 x86/speculation: Explicitly include linux/types.h
-faef65e45a2a03f1fa32bc4e55c11d79f6aaae6f hrtimer: Remove inclusion of hrtimer_bases.h remove from hrtimer.h
-6e435911394b05c91b92d4c332c455ec569e22fb timekeeping: Fold vdso_time_update_aux() declarations into the generic ifdeffery
-79bd39c58f2c6fdbc5fb6300d309606f3cb84ab8 timekeeping: Move the vDSO update declarations into a private header
-ff868f43eb8faf77498efcb206b721e406714e3e vdso/datastore: Rename data pages variable
-7557273419dd618df6d83ed37449b0e5918fd501 vdso/datastore: Map pages in terms of the faults pgoff
-43648f9f3a67125ba649027a5be00bc005065482 vdso/datastore: Map zeroed pages for unavailable data
-9ab500d47f5f1b8c463a4fd8f345a8756da625ab vdso/datastore: Explicitly prevent remote access to timens vvar page
-c27e727c9a60e6303088a956eea45b6b5c02cef3 vdso/datastore: Allow prefaulting by mlockall()
-0b50763e8439b171d8fe2c6df0d27705fa89f21a vdso/datastore: Simplify the mapping logic for VDSO_TIME_PAGE_OFFSET
-dce21fb3d570169388e2e9d8a60e8d42c1c82a51 time: Respect COMPAT_32BIT_TIME for old time type functions
-f8b946772554ea11380fe03fc446376794a81a36 vdso/gettimeofday: Validate system call existence for time() and gettimeofday()
-1a4660da3130f7b1e88d8afa3c4a9982c14bcea6 x86/vdso: Respect COMPAT_32BIT_TIME
-abb1537388baf8d872370deb3a07e1afccfa4e61 arm64: vdso32: Respect COMPAT_32BIT_TIME
-95216f4647e7828de5d9d3a69978e7b8ba21e700 ARM: VDSO: Respect COMPAT_32BIT_TIME
-e01abc70af38e245caca2276f7b59c639176c557 powerpc/vdso: Respect COMPAT_32BIT_TIME
-377e3f2d41309e55a915f79510db4372f9688c07 MIPS: VDSO: Respect COMPAT_32BIT_TIME
-2700297b69fe146a14c44f3d7a78771269f160d2 sparc: vdso: Respect COMPAT_32BIT_TIME
-369cecd238ac8317cccd27cf2452a8a6b6da1581 vdso/gettimeofday: Verify COMPAT_32BIT_TIME interactions
-79ced850e549e8c86b772a79ea417a1425b5c04b y2038: uapi: Use 64-bit __kernel_old_timespec::tv_nsec on x32
-79b8bd857bd7f5a8c970fc50c611062b96fe56e5 MAINTAINERS: Add Miroslav as timekeeping reviewer
-b7befd6d91207cf3f4cecd68fea0c212093906cf timekeeping: Account for monotonicity adjustment in ntp_error
-e8bf3955dc2f363b3a0badae28ee0f136ac82b9a timekeeping: Account for clocksource tick quantisation via NTP
-5f6668bf5b06fb569950a966443606fe764cbd3a timekeeping: Drive time_offset skew via per-tick ntp_error transfer
-f5adb6779968f22ed0410940faa9d572597a110c timekeeping: Drive time_adjust skew via per-tick ntp_error transfer
-c10c8c1ad90cb26d33688986c4f1b0b1081fa10c timekeeping: Settle competing time_offset and time_adjust skew
-f5abf0e07894551c50767bd9bc3a73e3fa7e4664 ntp: Remove tick_length_base, use tick_length directly
-aca60c717492c858814f74d4403aeb37643eef78 selftests: timers: Partially revert "Remove local NSEC_PER_SEC and USEC_PER_SEC defines"
-976a22eef10f4a2d7e6577a8f6835a45ecfb9bc6 Merge branch into tip/master: 'x86/urgent'
-bf2c9b7313b72dac7115f655c6942bf7f1c3f566 Merge branch into tip/master: 'core/entry'
-d70090abf7cbda8217d1bbabd9a2b66c3ac01824 Merge branch into tip/master: 'irq/core'
-f06719c4118d637298a35b249931f275922d00f0 Merge branch into tip/master: 'irq/drivers'
-a1b79c2d603f6203fcc5638b85658ddf4a0d0bb3 Merge branch into tip/master: 'timers/core'
-4518257fbcb32187536abce3c72b71749a109bfa Merge branch into tip/master: 'timers/vdso'
-6c19d58376b980601f6cada5362c7994e5c72697 Merge branch 'x86/cpu'
+ea4cd413acda6e64b64cd55afc5f14670d4f8a07 Merge branch 'perf/core' into perf/merge, to ease CI testing
+c364506b98ef947174c1e8554c6861383712e141 Merge branch 'x86/cpu' into perf/merge, to resolve conflict
 
---===============8978735607080410969==--
+--===============5794280911386089579==--
