@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Wed, 08 Jul 2026 18:24:45 -0000
-Message-Id: <178353508558.2276002.9137747156025039138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 08 Jul 2026 18:29:00 -0000
+Message-Id: <178353534072.2279456.12323512053222421973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/next
-    old: e46c818d8fa664f57628fae93fe24f51e34d28c3
-    new: 1715cd1303c703e73115e2f7bac7e01b9ca84049
+  - ref: refs/heads/for-7.2-fixes
+    old: 030db7005efe6a0705ddf07fced494c364a1c915
+    new: 18d62044cda7a2b40f59d910659c0b0d6accad37
     log: |
-         65dfde57d1e29ce2b76fc23dd565eccd5c0bc0f0 audit: fix potential integer overflow in audit_log_n_hex()
-         1715cd1303c703e73115e2f7bac7e01b9ca84049 Automated merge of 'dev' into 'next'
+         18d62044cda7a2b40f59d910659c0b0d6accad37 sched_ext: Preserve rq tracking across local DSQ dispatch
          
-  - ref: refs/heads/stable-7.2
-    old: c9a71daaecb2fb1d8c704545cc0b1c920b9bf5d7
-    new: 65dfde57d1e29ce2b76fc23dd565eccd5c0bc0f0
+  - ref: refs/heads/for-next
+    old: 2fe0b4fb87b43b3912fe3ab9ca6ba0254ebbd5b2
+    new: 690b7c8b1081ca5b9a6d50ea2b1df103623c9d61
     log: |
-         65dfde57d1e29ce2b76fc23dd565eccd5c0bc0f0 audit: fix potential integer overflow in audit_log_n_hex()
+         18d62044cda7a2b40f59d910659c0b0d6accad37 sched_ext: Preserve rq tracking across local DSQ dispatch
+         690b7c8b1081ca5b9a6d50ea2b1df103623c9d61 Merge branch 'for-7.2-fixes' into for-next
          
