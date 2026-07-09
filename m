@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5180395585194048462=="
+Content-Type: multipart/mixed; boundary="===============3378300439304700454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 09 Jul 2026 14:02:09 -0000
-Message-Id: <178360572926.3232128.9131885494229130557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 09 Jul 2026 14:03:42 -0000
+Message-Id: <178360582264.3233419.11623282168651592145@gitolite.kernel.org>
 
---===============5180395585194048462==
+--===============3378300439304700454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: b6d4fb44c7eddd146116fc4a675dbd8baef34413
-    new: d67fdd9fdd30ba4c6635ece23378ddcddb8f33fc
+  - ref: refs/heads/t1000
+    old: 5f73c333443db13f5cae29cfc8527975d1466095
+    new: 0cc06f2d0f4d55128af924c1a0998b96956e76c6
     log: |
-         d67fdd9fdd30ba4c6635ece23378ddcddb8f33fc misc: amd-sbi: Add null check for devm_kasprintf()
+         295f9635ae1d036ffd4f57a3ca1e1be0d3d14066 soc: mediatek: mtk-socinfo Add error handling in devm_kasprintf()
+         0cc06f2d0f4d55128af924c1a0998b96956e76c6 mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
          
 
---===============5180395585194048462==
+--===============3378300439304700454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783605710 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1783605711-6dad62a99c118e03df309854b3e12ce4d516dcf3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783605820 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1783605821-60d74123232985ad5b3f04b2fa1795a48980e6a3
 
-b6d4fb44c7eddd146116fc4a675dbd8baef34413 d67fdd9fdd30ba4c6635ece23378ddcddb8f33fc refs/heads/clanker
+5f73c333443db13f5cae29cfc8527975d1466095 0cc06f2d0f4d55128af924c1a0998b96956e76c6 refs/heads/t1000
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpPqc4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+34IP/RiJzAt6hWHBo4zk7tfO
-m7G4+dAk2nQEJ9iAZXyu/3PjObwzpOFeiWC3PK3GW6QwLJ98nOGeJcDVIeRF09xw
-N/jxHqZlZyNJypmNzn6PWgjTdhIEnGGXQCT121RfhgkizofaEovxQhVAiEh1s1pI
-GY0/DenyLQDbZbkSMGHWiO/swAg8+HTKQ0c2Jmfxd596DGnYV0FmRwQLtXEbzaWH
-6TEotUznz223VVOoJE7WD2UcNRXDqSnvBhbPyfUklP9hTP+zHUfaCGvIjyouCc4u
-PxYCSvEpphK7dR6bm8ucTt+I2JXwK2JoIHiBh6jmTb+iuK1r6vFbejdPvy/Jlo5j
-+wQ1GRmhYa0Qvxwv88p0p1Me9d25IFGcd52zXXSF7FhZ3HzjdIY2n6nMb+I0scdH
-+mLRTwAG4Q61rpk4lJtHgi6LQwuLilNgSKzrXhMfeXzO4/fOmKk+ytIxk3XktP77
-bfex02LCTdpIszYwPD8Whsg+HAMUV/xxRli7LXsKawJIrzrxULZn3aZDKhLij0Oq
-31PXT/gdI4k5UdKU+DAXUDgjHsHcGcebt7OirDv5qMooHt21+AfK2dqTN2oRssUT
-1CGCzVIQsJXART3eLaDBfPf6OgE2GrSAaq8QERcGH3b5xpaHHpI3++igD8mLxqdK
-g/hARkhEO9J+KiBG1nL/Al7I
-=j5mZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpPqjwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sy4QAKGnaUhDM81oKQqzTucK
+7u8zw177XeuyvZgLWdhGTMuyA4fcpZYY8ZlvCUG14vxAngXJTpuagrKvEDER2TCr
+6iHp7g+07mgRNP6gYAGIG6/GuyCBR2CgaDFxFJUiXgBY5vLDZNYdeKB3SxcvZhwC
+VemC0P1vjGgvWE3AxXUiGEZffi5g3Ky5Q1gobtJ7HY/Fyq/2LBmnqBgHoktjDTpN
+6Bbo101ccJrcbHlo8Bb2NRo7zYjJA0wPo+E6IxO4jXBfQVX4Okpm1WSoajQiV9Md
+weZOqXIHbGf1dzuHLbfkrRADULxniVVMUwInyHLUL0yzDdzn2JY9R1vDqWMaeO5J
+Jl3mETG4zr4IorDFezMT69AKs/qlvtgNQjkNaL7EoosIndB3VBbfYb3omfUll/Pv
+GooX8sVhQU45rXuPzVigR/APor+vGdJz0mufjZcaNX+n0VKUmQ7hop6PSclGedPh
+unL9JHeSSvX4JrQPxgLZaxv+00HR3JIc9fTNh2r8hE1cgiaKasjHQ5i0Qdnr5Q8Z
+kdUW3DE/dJjYoD96mofwXBeX3EyOJyoie1bD5NOr6uzZmemEv6jZLLq0PYwPO5Pm
+uZDYb3Nq0VWpbLV/ol7Obs/FvjW9aF/tFggF4nRNjPov5aufbwVnQg0MBUO24Ion
+hdmvxAhQJPFApiRihqpmYwVw
+=O6vd
 -----END PGP SIGNATURE-----
 
---===============5180395585194048462==--
+--===============3378300439304700454==--
