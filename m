@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 09 Jul 2026 19:26:37 -0000
-Message-Id: <178362519708.3481733.17099954041112512652@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 19:26:38 -0000
+Message-Id: <178362519887.3481818.9807059193995453293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 22f9efb3ae07f966a1901d929d16df1388cce65c
-    new: c4383254ac7a529736577e304176a10371c2ee0b
+  - ref: refs/heads/for-next
+    old: cbf59ba3a58e1be9e734e696671b3fa14c0cd6b9
+    new: 066e0d00bee1331abd2b2ee51ce4b32a0db1b969
     log: |
          08314e7c2c38b9ae6a5e01c58ed10a950859404d firmware: qcom: Add a generic PAS service
          5c1a2975d23c51c01aca51945d0f10a4ee4c9020 firmware: qcom_scm: Migrate to generic PAS service
@@ -24,4 +24,5 @@ changes:
          f3b1357673ddb37ae8b9a8fe44df73cbd2a519c5 remoteproc: qcom_q6v5_mss: Switch to generic PAS TZ APIs
          ea3b5245f5deba916320b32a8e6510a74c034c17 remoteproc: qcom_wcnss: Switch to generic PAS TZ APIs
          c4383254ac7a529736577e304176a10371c2ee0b remoteproc: qcom: Select QCOM_PAS generic service
+         066e0d00bee1331abd2b2ee51ce4b32a0db1b969 Merge branch 'rproc-next' into for-next
          
