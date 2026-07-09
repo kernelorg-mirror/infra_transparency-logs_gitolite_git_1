@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0905139014978173838=="
+Content-Type: multipart/mixed; boundary="===============2452134072180560439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 09 Jul 2026 23:31:36 -0000
-Message-Id: <178363989699.3655842.15087378197359454984@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 23:31:42 -0000
+Message-Id: <178363990261.3656181.15848135083643654510@gitolite.kernel.org>
 
---===============0905139014978173838==
+--===============2452134072180560439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next
-    old: fb30b85d2d55c88dc5de60cdf7b37899528ff209
-    new: 7a7164b6cbbb8c28f31e870d29bc695b4b9d556b
-    log: revlist-fb30b85d2d55-7a7164b6cbbb.txt
+  - ref: refs/heads/kernel-6.12.93/main
+    old: 0201df5ff1e12077d33bde71fa63dc93379a92b9
+    new: e8c87aabec34980cb7526375bb01022e6a2b1c32
+    log: revlist-0201df5ff1e1-e8c87aabec34.txt
 
---===============0905139014978173838==
+--===============2452134072180560439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb30b85d2d55-7a7164b6cbbb.txt
+Content-Disposition: attachment; filename=revlist-0201df5ff1e1-e8c87aabec34.txt
 
 5457182c2aa0df8f3ea6823648b7e94693e89a47 SUNRPC: Bound-check xdr_buf_to_bvec() stores before writing
 0a6c7199ca466911232a1df346bafe12ad36eb98 SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
@@ -107,5 +107,38 @@ e2dd70a4c5d8a40d0f677d6c734d0f1a52197b44 sunrpc: init gssp_lock before publishin
 55b54bde47f9254c8dc4bcf2236c7148b0e7cf22 SUNRPC: Check svc pool percpu counter allocation
 16a06c6a26c3dea1218d21e4d96a7d0ff9b663b9 SUNRPC: Add svc_serv_maxthreads() to report the thread ceiling
 7a7164b6cbbb8c28f31e870d29bc695b4b9d556b sunrpc: defer rq_argp and rq_resp free until after RCU grace period
+3f0e80fbc72c7fb4f7cc3ca13c334d60d5de53c2 Merge branch 'kernel-6.12.87/configs' into kernel-6.12.93/main
+2e0ec77add1ce7c668e7fc0f3d3b20f2f56c079b Merge branch 'kernel-6.12.76/improvements' into kernel-6.12.93/main
+56673426a8ee78cae13523f600be85247e7172f5 Merge branch 'kernel-6.12.76/nvme' into kernel-6.12.93/main
+6aff7a63c990268614b42efa8712f45c07da5634 Merge branch 'kernel-6.12.76/mm' into kernel-6.12.93/main
+326750233820f567c99d0b0618eadf49789cff59 Merge branch 'kernel-6.12.76/localio-thru-nfs-for-6.14-1' into kernel-6.12.93/main
+98989eef81d49c3df300c0341d2b08a53e3f9a0d Merge branch 'kernel-6.12.76/nfs-thru-nfs-for-6.17-1' into kernel-6.12.93/main
+500c20b8533116ad1ecf9dd3777310e34b7626e0 Merge branch 'kernel-6.12.76/dontcache' into kernel-6.12.93/main
+80a32936c966b45f10f58107f5076852101d50a9 Merge branch 'kernel-6.12.76/xfs' into kernel-6.12.93/main
+9e479c622086f1eef6bd1d7bb9f862b33279b04d Merge branch 'kernel-6.12.76/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.93/main
+431fd53af276e4f44ae0549fcc00fbb7836a4711 Merge branch 'kernel-6.12.76/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.93/main
+3ca67116d6f1eb68a403525f4c473f4bdf9520b8 Merge branch 'kernel-6.12.93/nfs-next-thru-nfs-for-6.18-3' into kernel-6.12.93/main
+e9a9bf7579c985a5e4fdab585901455dd391a179 Merge branch 'kernel-6.12.76/nfs-next-thru-nfs-for-6.19-1' into kernel-6.12.93/main
+675965376ef3158e115cd0ce3b55c2dc64982a7e Merge branch 'kernel-6.12.76/nfs-next-thru-nfs-for-6.19-2' into kernel-6.12.93/main
+27f6512ea3d7c7d004a374884f8dc3ebfd8513a7 Merge branch 'kernel-6.12.76/nfs-next-thru-nfs-for-7.0-1' into kernel-6.12.93/main
+454af1010e88d8eb3161699da7c05e4a95457e4f Merge branch 'kernel-6.12.76/nfs-next-thru-nfs-for-7.0-2' into kernel-6.12.93/main
+84ebca18c074f556fd293662f2cee0918dc0c675 Merge branch 'kernel-6.12.76/nfs-for-7.1-1' into kernel-6.12.93/main
+1cb038e053a8f4c76e87e1b54ad134e4ca4c0a87 Merge branch 'kernel-6.12.76/nfs-for-7.1-2' into kernel-6.12.93/main
+79c31843a31cb6198a674962ba0dbac393b8f14d Merge branch 'kernel-6.12.76/nfs-for-7.2-fixes' into kernel-6.12.93/main
+b0711f161e6ac49e6a09a26531b28a05e7a6bd26 Merge branch 'kernel-6.12.76/nfs-testing-canary' into kernel-6.12.93/main
+97859635c6f970fc406ec24062d9686b016eafe5 Merge branch 'kernel-6.12.93/block-DIO-alignment-fixes' into kernel-6.12.93/main
+3eade775c71be923c629d7bfda63ea3b3333528a Merge branch 'kernel-6.12.76/nfsd-next-thru-nfsd-6.18-3' into kernel-6.12.93/main
+1262c7c8b02a63a00d14c99a2c6b3d34941183f8 Merge branch 'kernel-6.12.76/nfsd-next-thru-nfsd-6.19' into kernel-6.12.93/main
+888c490f3b12d9a0277b77787c24ef39ed37c479 Merge branch 'kernel-6.12.76/nfsd-next-thru-nfsd-6.19-1' into kernel-6.12.93/main
+5a2fb8aa752a6aacd8b0fc9a85c0b0530878176a Merge branch 'kernel-6.12.76/nfsd-next-thru-nfsd-6.19-2' into kernel-6.12.93/main
+d2775cd5d8a683dc98b08859681a64949c7afd69 Merge branch 'kernel-6.12.76/nfsd-next-thru-nfsd-6.19-3' into kernel-6.12.93/main
+56c75c50af579ca0882d8248cae902c1374ff771 Merge branch 'kernel-6.12.85/nfsd-next-thru-nfsd-7.0-2' into kernel-6.12.93/main
+aa50392bba02d1de7e3c592463926b2d7af49b55 Merge branch 'kernel-6.12.76/nfsd-vfs-7.0-rc1.atomic_open' into kernel-6.12.93/main
+c51f890b71ce2961deb1217fe8a9a4bda6993dd0 Merge branch 'kernel-6.12.76/nfsd-7.1-2' into kernel-6.12.93/main
+88759a5b93d07022eca088d4635c06a1fdbac3e1 Merge branch 'kernel-6.12.76/nfsd-7.2' into kernel-6.12.93/main
+a64c0f643426e9ff6c42c0187214b543ee2ed269 Merge branch 'kernel-6.12.76/nfsd-next' into kernel-6.12.93/main
+808c7501344c1634caffba6c338c45dcf5f017c4 Merge branch 'kernel-6.12.76/nfsd-testing-canary' into kernel-6.12.93/main
+89c1592ca325c7e0040522d8bc0c0bee0f762563 Merge branch 'kernel-6.12.76/nfs4_acl-passthru' into kernel-6.12.93/main
+e8c87aabec34980cb7526375bb01022e6a2b1c32 Merge branch 'kernel-6.12.93/changelog' into kernel-6.12.93/main
 
---===============0905139014978173838==--
+--===============2452134072180560439==--
