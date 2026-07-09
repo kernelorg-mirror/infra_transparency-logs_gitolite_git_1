@@ -1,52 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7933702004594106606=="
+Content-Type: multipart/mixed; boundary="===============7815824565389207083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 09 Jul 2026 14:48:24 -0000
-Message-Id: <178360850492.3280689.15808496500418286796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 09 Jul 2026 14:50:57 -0000
+Message-Id: <178360865746.3283978.8171201917775025191@gitolite.kernel.org>
 
---===============7933702004594106606==
+--===============7815824565389207083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/pending
-    old: 1d5283626b8f083b88ab62107a0b506fa49b816f
-    new: 913998f903fb1432c0046c33003db38a9e8bedb1
-    log: revlist-1d5283626b8f-913998f903fb.txt
+  - ref: refs/heads/bleeding-edge
+    old: 2c94bde29aefb559eab0abec11574e9655c9d6a2
+    new: ebf9f9fbd24de336d24ca1086558eafedb18a297
+    log: revlist-2c94bde29aef-ebf9f9fbd24d.txt
 
---===============7933702004594106606==
+--===============7815824565389207083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d5283626b8f-913998f903fb.txt
+Content-Disposition: attachment; filename=revlist-2c94bde29aef-ebf9f9fbd24d.txt
 
-25e638447e329f08febae2b64c7f85b3bb95e998 genirq: export irq_can_set_affinity() for module drivers
-74e1a4762c79a2d6879495d83f22b83acc4dae33 wifi: ath12k: enable threaded NAPI when DP IRQ affinity is unavailable
-c29d1550e166598b9ee6d48c488eec0e79f98d52 wifi: ath12k: Fix inconsistencies in struct qmi_elem_info initializers
-26d529b99861707ed0a4c626184b9399bedca808 wifi: ath12k: use %u for unsigned variables in QMI debug logs
-007b638ed7242daeea7c1078e8f732d127c790f3 wifi: ath12k: remove unused QMI definitions
-eaf478b3ea68e1b5df659acd24c4df5850e12325 wifi: ath12k: avoid setting 320MHz support on non 6GHz band
-d762bbc08ca70a1985c9f9420c4bf67e0ba0e9be wifi: ath12k: fix TLV32 length mask
-e264a3dbe866870ed21ef83c67ad956a45391859 wifi: ath12k: refactor HAL TLV32/64 decode helpers
-9d1d61121b05c0a854e6da227e37b99b3740dae9 wifi: ath12k: add HAL ops for monitor TLV header decode and alignment
-4c09bbf0c1e11bae19a0643bd9824d4f05d9c281 wifi: ath12k: add dp_mon support 32-bit TLV headers
-fffa54aeaeb2e9ac923254b39e89bf07799615aa wifi: ath12k: tighten RX monitor TLV bounds check
-c2d60ab8e3827de2cbf951491e5de339e4bb2eb9 wifi: ath12k: expand UserPD ID mask to support up to 8 PDs
-fe2b006c15f6b1f81524b4c1af8013bc32fa0abc wifi: ath12k: reset REOQ LUT addresses before firmware stop
-784f7dabf5d3bce23c69c48a0441ff2b1536f069 wifi: ath12k: advertise ieee_link_id in vdev start MLO params
-e47d6c9bb4165721f61356f5fccae8f7dd78876b wifi: ath12k: Advertise multicast Ethernet encapsulation offload support
-34620d1890cc1fcf87a95219d6781d7f7b9d8cbd wifi: ath12k: Use runtime device count in dp stats display
-6cc84fce7b999b0c6c8aaccdfa8669f0a55e8586 wifi: ath12k: Add timestamp to dp stats display
-b1d8d626e206a757b745af2adcbc7127ec593a20 wifi: ath12k: Show per-radio center freq in dp stats
-5a2b5d6a5a4a19b86d1c0698a3eb3d21f0b06401 wifi: ath12k: Skip setting RX_FLAG_8023 for Ethernet-II (DIX) frames in monitor mode
-56f8f12c1a3c5312de0d7312b229d7bca03dbb81 wifi: ath12k: Skip peer link info update in rx_status for monitor MSDUs
-58aeb412495ada7fe5495c7805504d7cf1d45453 wifi: ath12k: change MAC buffer ring size to 4096
-913998f903fb1432c0046c33003db38a9e8bedb1 wifi: ath12k: correct monitor destination ring size
+58bbe3c9d98a48e6ea9e02180d87c5c445311294 ACPI: processor: idle: Expand _LPI package sanity checks
+27fc376411d3a30676f6f9a14ed8b40c815cfe5b ACPI: processor: idle: Ignore _LPI states with SYSTEMIO entry method
+bd2485bd30a15db6b346ce5183a655bc81cd9808 ACPI: processor: idle: Unify debug in acpi_processor_evaluate_lpi()
+6bd311b937d01f295db551b53cc54eb46cbbc1b8 ACPI: processor: idle: Rearrange acpi_processor_evaluate_lpi()
+df0c4da717da3fe6abc2903390c152ad2bfbb111 ACPI: processor: idle: Split acpi_processor_evaluate_lpi()
+bdc45306e57a24a0c470bffaefc176ed409f1477 ACPI: processor: idle: Introduce lpi_state_debug()
+6eae693a6155446532fde415f374e965fe3ada6c ACPI: processor: idle: Rearrange acpi_processor_get_lpi_info()
+689f2717f92ab223e6a6e17cb1069f3880eb3087 ACPI: processor: idle: Rework first-level _LPI states processing
+216fb18bc44c960c482b75917adea5c57c165201 ACPI: processor: idle: Drop redundant _LPI presence checks
+425d7a4abe3727b41e682828169994ca903fa4c0 ACPI: processor: idle: Rearrange loop in acpi_processor_get_lpi_info()
+9d595d79fe47b820a3145700430a98993c243642 ACPI: processor: idle: Rework flatten_lpi_states()
+0504e1744a01442ff823d710966faf3e4a2928f2 ACPI: processor: idle: Introduce too_many_states() for _LPI
+3134db36802453f711cfdea7597f46f9ddbcc92e ACPI: processor: idle: Introduce acpi_processor_extract_lpi_info()
+069b0d63e80f2b2070ba0971ab1c5b082d153e3c ACPI: processor: idle: Relocate acpi_processor_extract_lpi_info()
+8c372339d8f94d05c42d7976ee7309e192e1480c ACPI: processor: idle: Add switch for strict _LPI processing
+df5198ffae6b617c0afd38c4fd867b5826327a07 intel_idle: Prepare for adding ACPI _LPI support
+d483a70be5ad51d76875a30a8797a9a6e35d7a9d intel_idle: Add ACPI _LPI support
+d559e55050bbb779cefab8b2718e048b77f630b8 Merge branch 'intel-idle-lpi' into bleeding-edge
+deef78d3543976dc4a0d03658e0b55545d7564ad ACPI: Add acpi_device_clear_deps() helper function
+64ae310bffa477cd11029c818bec489f4b8a845e ACPI: RISC-V: Fix riscv_acpi_irq_get_dep() loop termination
+20435bda13f1219891ed0ce41207e320a916ff9c ACPI: RISC-V: Check acpi_get_handle() status in riscv_acpi_add_prt_dep()
+3a56321d0aceee2a0bd80d23366401c131ff8350 ACPI: RISC-V: Fix riscv_acpi_add_prt_dep() loop handling
+704ce0039a629739753551a69132f783eb9912f5 ACPI: irq: Move RISC-V interrupt controllers autodep to ACPI IRQ code
+5a64611747687189415a5298a16e1ad4c08a829b ACPI/IORT: Implement ACPI infrastructure to enable GICv5 IWB probe deferral
+d2aa7b179a711d045cdeb4dfb33428207ae32b4b irqchip/gic-v5: Enable GICv5 IWB ACPI probe ordering detection
+137602f6af4c366e9e08f9d937112800e864392e Merge branch 'acpi-irqchip' into bleeding-edge
+eef1d74bf88f120f4f63a83a5201fcda67bf3b52 PM: runtime: Only set runtime_error on suspend callback failures
+ebf9f9fbd24de336d24ca1086558eafedb18a297 Merge branch 'pm-runtime' into bleeding-edge
 
---===============7933702004594106606==--
+--===============7815824565389207083==--
