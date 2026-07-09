@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Jul 2026 09:22:10 -0000
-Message-Id: <178358893034.2936258.18095194313220812586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 09 Jul 2026 09:31:59 -0000
+Message-Id: <178358951990.2942804.9474357433755402363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: 604e9594449b9907181f4285d0cd6a398bfc9d08
-    new: c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027
+  - ref: refs/heads/for-linus
+    old: 0752734163a20c9185a12c0d0786995751ab7426
+    new: d595255241e5fec0c94adeebf2565524398e37c5
     log: |
-         c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027 net/mlx5: Fix L3 tunnel entropy refcount leak
+         97272a5704bf13369bba43951ad9fe8f806ccc7f ALSA: hda/realtek - Fixed Headphone noise issue for Dell QCM1255
+         d595255241e5fec0c94adeebf2565524398e37c5 ALSA: hda/realtek: Add quirk for TongFang X6xx45xU
+         
+  - ref: refs/heads/master
+    old: 8a2cd69e5321f739779bae1b27809b85983fde13
+    new: 04e788177cfb2f6690b506c730ae1ccd3b823798
+    log: |
+         97272a5704bf13369bba43951ad9fe8f806ccc7f ALSA: hda/realtek - Fixed Headphone noise issue for Dell QCM1255
+         d595255241e5fec0c94adeebf2565524398e37c5 ALSA: hda/realtek: Add quirk for TongFang X6xx45xU
+         04e788177cfb2f6690b506c730ae1ccd3b823798 Merge branch 'for-linus'
          
