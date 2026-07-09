@@ -1,46 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8312038311043395919=="
+Content-Type: multipart/mixed; boundary="===============4752803400187491460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 09 Jul 2026 12:36:18 -0000
-Message-Id: <178360057870.3152041.14178636364889613024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 09 Jul 2026 12:36:51 -0000
+Message-Id: <178360061155.3152477.6433287117472131374@gitolite.kernel.org>
 
---===============8312038311043395919==
+--===============4752803400187491460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: c52f1b02f9fc9e840e7da36d72eba86f910ff773
-    new: 06a070cd60841d132608ded5ebaea86db201691f
-    log: revlist-c52f1b02f9fc-06a070cd6084.txt
+  - ref: refs/heads/t1000
+    old: 6692c2c4061150c62933f441708c8bad240c8ce5
+    new: ba0fe2233f3c25f0d8702d0bea4678744359b7f8
+    log: |
+         088c47d35e0d7a13a60bfee1b931cc8b1e1715cb nvme: bound ns descriptor header and body to identify buffer
+         ba0fe2233f3c25f0d8702d0bea4678744359b7f8 nvme: clamp FDP nruhsd to allocated RUH status descriptor count
+         
 
---===============8312038311043395919==
+--===============4752803400187491460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c52f1b02f9fc-06a070cd6084.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-030db7005efe6a0705ddf07fced494c364a1c915 sched_ext: Documentation: Fix ops table header reference
-18d62044cda7a2b40f59d910659c0b0d6accad37 sched_ext: Preserve rq tracking across local DSQ dispatch
-4ec10f38ff901dc10503d57cbdcf941248419ac1 sched_ext: Enable tick for finite slices on nohz_full
-cfe950d79f524e72bc263f2b153a6d905a75a794 selftests/sched_ext: Verify nohz_full tick behavior
-7b8a773e974cfc867724628716393f5e666ba206 Merge remote-tracking branch 'sched_ext/for-7.2-fixes' into review
-1595537d34fc9bf2540901fdc2410ca1197fa862 sched_ext: Keep rq tracking accurate in the consume path
-ea935348317cf849bb991c714924121cbe454887 sched/core: Drop mutex locks before proxy rescheduling
-7f439517c13f7a718ca6915f6cded54e362003a4 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-5a8f75c7eecd42aedf6f501be10f04949f0a396f sched_ext: Split curr|donor references properly
-33a3dc5cad6df828111d2334a36f2026780ba73f sched_ext: Fix TOCTOU race in consume_remote_task()
-d835ed9fc9b19803536445df22cec47a499944dc sched_ext: Handle blocked donor migration with proxy execution
-23f2f7e9690a9cde6f1c851e0ed55267a49d30d8 sched_ext: Delegate proxy donor admission to BPF schedulers
-1351933f98ca50f155582d5a87bb43f6ad3a5859 sched_ext: Add proxy destination query kfuncs
-95ce7054e1673edbc753302a96557aa516d5de13 sched_ext: Add selftest for blocked donor admission
-004b226392c070231fc60a9ef6dc16d737387f52 sched_ext: scx_qmap: Add proxy execution support
-06a070cd60841d132608ded5ebaea86db201691f sched: Allow enabling proxy exec with sched_ext
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783600606 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1783600607-05f9ccdbef32aae997b61fc72cc72a91d50e715d
 
---===============8312038311043395919==--
+6692c2c4061150c62933f441708c8bad240c8ce5 ba0fe2233f3c25f0d8702d0bea4678744359b7f8 refs/heads/t1000
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpPld4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zWkQAJA0rl19P9dvhkxe5l5D
+0lL7Q+oCWUhcUn8zGySYc+EvSMe2eTw2RM/rJKyO5sbcr7bgyKm+A0m0yD0i7sFR
+msFb1LDPCKtahLaH1wPxMPXqrSb6QiUeOrJ6omwHZJB1vo6/A59oQCwmMG3Em233
+Ot758WCO7Kkh4mLCYy6f681WYJgTzRgVLA8H9Bpnty1CQCoOuZpVTzhPZdmFaOhE
+5GaH/tsHX0glbD39mAEyMk4+Df4QyANLHFXL9xWAHXhb/NB6faqENAqcqjaFkCgs
+PSOvjdIN6NoDyq+C8ocP4wnni3H3k6FfGbDcbCOPcK85VtKaWSFs+ki2i7UQa3zX
+cT9RxSVTrZ41a/UcRzextnQs0CuHn+nXacCoYUEUTRWWnm9onamYpmiZ38d62lmM
+Bc03BSASlnoNOzH+K0+hboR+Lpf11qtacSdJgLIV09tejFfWUHTfnMc7LkU+59eg
+f7ivpmMtfSPOzJtGhxscX7YuA6ejbWICOe9oMgvnT+svdfPXSnPwVn2cLDa9em0K
+yPtEf/JMhsO9mIYxD9pXxd/Q4V9yMQabUHgPqzibmUihTrNJQmDcbb+O/knKtviN
+KX4StQExbqKM9Q7sNod6IitZImUwMCb2mYpRY5fvyk633vJ7VJEzZHCXeNeFkmJR
+YnnVGgNxpHb9lQ7zSUflI8qf
+=0qeN
+-----END PGP SIGNATURE-----
+
+--===============4752803400187491460==--
