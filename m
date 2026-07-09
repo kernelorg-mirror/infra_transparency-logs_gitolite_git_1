@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5234669270176083991=="
+Content-Type: multipart/mixed; boundary="===============4214276654559863602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 09 Jul 2026 14:16:57 -0000
-Message-Id: <178360661795.3246061.6224806384681390794@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 14:17:01 -0000
+Message-Id: <178360662101.3246205.12654337973797685060@gitolite.kernel.org>
 
---===============5234669270176083991==
+--===============4214276654559863602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 302dfbff3e73be2ba5723237c6303244ec27cebb
-    new: 59e34180e138a293260301c139cf7ee800978533
-    log: revlist-302dfbff3e73-59e34180e138.txt
+  - ref: refs/heads/mm-unstable
+    old: d11ba1f570615ec8d4814d6313ee1d7075a33787
+    new: 3153587ed7079d95fbed3bfdf66b33434601c1de
+    log: revlist-d11ba1f57061-3153587ed707.txt
 
---===============5234669270176083991==
+--===============4214276654559863602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-302dfbff3e73-59e34180e138.txt
+Content-Disposition: attachment; filename=revlist-d11ba1f57061-3153587ed707.txt
 
 eea59bdf162d99d756978320cb3d404833596579 userfaultfd: prevent registration of special VMAs
 4968addff37ed8b658fe73d92952db66cf4ee0dc MAINTAINERS: s/SeongJae/SJ/
@@ -344,56 +344,5 @@ ba2a97d37257f59ed0d00d060399ecd015a75c48 mm/page_alloc: remove set_page_private(
 a65c19f5ac52d102cf156e07dd2412aaaa7bb32f mm-drop-stale-folio_ref_count==1-check-in-do_swap_page-reuse-logic-fix
 0411151ca800e4d1a97db364a19b5d05ac10254d mm: entirely remove lru_add_drain in do_swap_page
 3153587ed7079d95fbed3bfdf66b33434601c1de mm: clarify the folio_free_swap() for do_swap_page()
-39aa87c27cdbe1dfaa58f4875eed5cd3874aed9f ksm: add linear_page_index into ksm_rmap_item
-946bac519ef7acd6096652f8e279c06bb0e52b34 ksm: optimize rmap_walk_ksm by passing a suitablepage index
-4288bbed92b1044f9e20876702b109c48bc90b46 ksm: add mremap selftests for ksm_rmap_walk
-1cfb259b24083222f990a5ccbbd5b61bf68463c7 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-d3ad7df74b8d25a541ad79d331cdbca0be73bf63 mm/kconfig: drop redundant memory hotplug dependencies
-995ca191e6743ee59674653f719197f3375df296 mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
-061b68bd2ca595aa697531b7bc3b5daa289413c1 mm/swap: colocate page-cluster sysctl with swap readahead
-018f76f79e21dcc4bedbdcb85510a9193ec92fec mm: rename swap.c to folio.c
-39cd26c7b41eac58b306015e6fd9445cba861ceb mm: move reclaim-internal declarations out of swap.h
-1b49282cb0f388c68c657e02d8d973810d62547c mm/shmem: annotate benign data-race in shmem_getattr()
-aa4041d7fba39783ced8a7ee5d4c5546d2cc39e9 mm: decouple protnone helpers from CONFIG_NUMA_BALANCING
-ba5f86785ef540f9fc6842b316647939eb31175f mm: rename uffd-wp PTE bit macros to uffd
-a23b1d788eac073f586604554f469e9e9b6c2aea mm: rename uffd-wp PTE accessors to uffd
-99b7f358d01bf097de7540140fef559716932b06 userfaultfd: test uffd VMA flags through the vma_flags_t API
-6176711d7be07400fe15a1789826dd06055f88db mm: add VM_UFFD_RWP VMA flag
-f0a0242ff4b1dc11dbf74358e7b688ad70e77d9e mm: add MM_CP_UFFD_RWP change_protection() flag
-bdbd84232e4e18fde378ceaa55c65ab2f3b5069e mm: preserve RWP marker across PTE rewrites
-8f821554e1ff7d7f920bdd6cc4557f00876d5729 mm: handle VM_UFFD_RWP in khugepaged, rmap, and GUP
-2d5f8be678b6e4e346e12ec1fee608005898174f userfaultfd: add UFFDIO_REGISTER_MODE_RWP and UFFDIO_RWPROTECT plumbing
-5cd6eed7b007b82bdbb7fdf6ed20e945235a9a18 mm/userfaultfd: add RWP fault delivery and expose UFFDIO_REGISTER_MODE_RWP
-e81660aee3c56599519eeff6004dddaab7148be3 mm/pagemap: add PAGE_IS_ACCESSED for RWP tracking
-e1da89ce86cea743ee4694f2ef56bea4871913c3 userfaultfd: add UFFD_FEATURE_RWP_ASYNC for async fault resolution
-e86cef3fc6dde1908c221b8d466d78b69641a769 userfaultfd: add UFFDIO_SET_MODE for runtime sync/async toggle
-b98ea84bf7c385ed4bc45cbc45f4cf7ca3ca103e Documentation/userfaultfd: document RWP working set tracking
-131fba044cb73e964d5869c7318a4731fbfe8260 mm: nommu: fix the error path when vma_iter_prealloc() fails
-27ace96bf8195484c9e9e1a08eb5af5a4e81f9f0 alloc_tag: add ioctl to /proc/allocinfo
-b59338fcba755258eb62c0e328e55fbe42659352 alloc_tag: add ioctl filters to /proc/allocinfo
-ac9ff52396742968fc34af4f9ed38d520c7df031 alloc_tag: add size-based filtering to ioctl
-d97a501729d2744e33c997563a943e4fddf97050 alloc_tag: add accuracy based filtering to ioctl
-4a95a598323cad05e622635583a8d36c1af06fdf kselftest: alloc_tag: add kselftest for ioctl interface
-807e2b6a3f49801b9044bfc57194364bd8dae00f kselftest: alloc_tag: extend the allocinfo ioctl kselftest
-698b65fbfe184a607d8074027fb9a7309369ff44 x86/mm: drop order parameter from free_pagetable()
-292bf8110db92844f3788b6334c0062fa54a08cd mm: provide free_reserved_pages(), removing x86 variant
-b33d7c153fbade9768e300c831a3980241e585fe s390/mm: use free_reserved_pages() in vmem_free_pages()
-da7141b3205c15ee17d80b567fbe45eefd364866 mm/bootmem_info: allow calling free_bootmem_page() on pages without a bootmem_type
-28b91233b8921fdfeab01702cbe7e4a3480b4050 x86/mm: stop marking vmemmap as SECTION_INFO
-3a053833526f8d9496a600bb3f42dc0223f0cf81 x86/mm: stop marking page tables as MIX_SECTION_INFO
-c157fd3dd0c9d0fb633282877f356ae6aee58d9f x86/mm: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
-94e980c4922d51a70e975f547fc6654dffb09967 mm/hugetlb_vmemmap: remove bootmem_info leftovers
-fc506ea2ad3378d277427d2035d408fe21378b4b mm/sparse: remove bootmem_info.h include
-2c6f04504a1f6b27688c052ebee77b379980936d mm/bootmem_info: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
-9e7c9b67f5a06b468a35fcf858c5ff27683f14ba mm/damon/core: remove comment and test for nr_to_bp() divide-by-zero
-b426a64ec7b942a8db38327ee92cb900c62c7734 mm/damon/core: s/damon_max_nr_accesses()/damon_nr_samples_per_aggr()/
-8eac27355bbad74e297f1400aca3afd7f0804f8e mm/damon/core: s/accesses_bp_to_nr_accesses/sample_bp_to_count/
-a0b0e55b802e125f3794995a6b2f4b961d6b48d8 mm/damon/core: s/nr_accesses_to_accesses_bp/sample_count_to_bp/
-2368d4840b5eab33dda576e63862153d9ee5453b mm/damon/core: s/nr_accesses_for_new_attrs/nr_samples_for_new_attrs/
-1afdcd0d96352479138f1aed22f766d073b85927 mm/damon/core: update probe hits for new parameter commit
-7a544405f7324f5ce436f851ff6b9303a31ff918 mm/damon/core: handle unreset probe_hits in probe_hits_mvsum()
-4b4430104beafe7fa485bb4a51b0ba4d8ea132a1 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-5c740a21e2462a92ad7021da0a6cb9927edadf83 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-59e34180e138a293260301c139cf7ee800978533 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5234669270176083991==--
+--===============4214276654559863602==--
