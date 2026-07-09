@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 08 Jul 2026 23:34:02 -0000
-Message-Id: <178355364267.2530623.17955758818003464032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 09 Jul 2026 00:13:44 -0000
+Message-Id: <178355602434.2556505.5040669758801329725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: f74e6e15485b68b92b2807071e822db6309b7e38
-    new: 3238c634725afbb2a137fdda762208510828f71d
+  - ref: refs/heads/tmp.perf-tools-next
+    old: dcb87c88952046ef43cb5ba3a5b95eb29c362a16
+    new: 8c5f60344b07f839267c0c835962e2206143be85
     log: |
-         3238c634725afbb2a137fdda762208510828f71d ASoC: tas2562: fix deprecated 'shut-down' GPIO always cleared after lookup
+         eda39f98bbc5ce8b7b0be10193d2de38ed59da6c perf vendor events amd: Reintroduce deprecated Zen 5 core events
+         261210854462ef5e587eb1b740aa06dbab3b3a40 perf stat: reject --field-separator and --json-output combination
+         8c5f60344b07f839267c0c835962e2206143be85 perf dso: Fix kallsyms DSO detection with fallback logic
          
