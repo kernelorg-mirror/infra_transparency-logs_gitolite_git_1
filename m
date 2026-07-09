@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Thu, 09 Jul 2026 06:24:54 -0000
-Message-Id: <178357829406.2808132.81237644222853322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 09 Jul 2026 06:28:47 -0000
+Message-Id: <178357852786.2811654.6838058699126187840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ez
 changes:
-  - ref: refs/heads/for-next
-    old: 717cd4552ae422269f844aa19ce0125462c9c0b0
-    new: 1a6e6a79b8df153f9ec702aa4d5407333eeff917
+  - ref: refs/heads/master
+    old: 47b079e2117a2ee52e21f8b72935900c702fc0b5
+    new: 55db6a475907339893f0778d814f9aa16d5fef90
     log: |
-         eb0e5b61369f7614574fe3262c1cc3c88441e04d mm/mm_init: don't overlap NORMAL and MOVABLE zones with kernelcore=mirror
-         f042b69ebb9f049403a73df504567477dd0c5f65 mm/mm_init: drop overlap_memmap_init()
-         b69c2a1fa9beb4c3db24b4013e07f5cb7e7260aa Merge patch series "mm/mm_init: don't overlap zones with kernelcore=mirror"
-         a4e95655fc6f0a53a1ff73240d767cfb7240cda2 Merge branch 'kernelcore-mirror' into for-next
-         adabadbdeff33365f91bc3c09daa4d263a668803 Merge branch 'numa_memblks-redundant-work' into for-next
-         1a6e6a79b8df153f9ec702aa4d5407333eeff917 Merge branch 'misc' into for-next
+         9a6df65d5c6a9947ddab4e563e329720f44b8747 bpf: Introduce jit_required flag and remove bpf_prog_has_kfunc_call()
+         f1c27922576edccb99d0257827d09bd05c0304a6 bpf: Reject programs with inlined helpers if JIT is not available
+         55db6a475907339893f0778d814f9aa16d5fef90 Merge branch 'introduce-jit_required-to-prevent-a-kernel-panic'
          
