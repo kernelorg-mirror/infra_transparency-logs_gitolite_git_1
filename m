@@ -1,55 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============1556641593929279918=="
+Content-Type: multipart/mixed; boundary="===============8399607993227338335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 09 Jul 2026 11:28:59 -0000
-Message-Id: <178359653997.3087581.8493820461541397467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 09 Jul 2026 11:34:11 -0000
+Message-Id: <178359685189.3092335.9176461362633432770@gitolite.kernel.org>
 
---===============1556641593929279918==
+--===============8399607993227338335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-7.2
-    old: 7ddbf1cde4a03e36e17d06fbc711870eb0b256d7
+  - ref: refs/heads/for-linus
+    old: 45d8b4025d3a2590a684adbb6c6db6aa6d6b1897
     new: d38f8bd771c4999b797d7074b348cf201414bd34
-    log: revlist-7ddbf1cde4a0-d38f8bd771c4.txt
+    log: revlist-45d8b4025d3a-d38f8bd771c4.txt
+  - ref: refs/heads/for-next
+    old: 9721a0b9f1db8cd1d54eb76afa3b4004ec3546a6
+    new: 6b65d28d91d78715345900747ca6a0003b8d82d4
+    log: |
+         91f0063ca99eb6d96c85bfe6b65405570511b99f regulator: mt6316: add missing MODULE_DEVICE_TABLE()
+         87063bab451963c2e424154437cd14c926127c42 regulator: mt6363: add missing MODULE_DEVICE_TABLE()
+         d38f8bd771c4999b797d7074b348cf201414bd34 regulator: core: regulator_lock_two() should test for EDEADLK not EDEADLOCK
+         6b65d28d91d78715345900747ca6a0003b8d82d4 Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
+         
 
---===============1556641593929279918==
+--===============8399607993227338335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1783596538 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1783596537-ee5e0316f0a4ccc581549fcb1de88a33c9d96a21
-
-7ddbf1cde4a03e36e17d06fbc711870eb0b256d7 d38f8bd771c4999b797d7074b348cf201414bd34 refs/heads/regulator-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpPhfoACgkQJNaLcl1U
-h9AmHAf9GzilphEXXO6UYLkdUSN0jJXbpkHXH3eJYH1hRB85Yde6TOxDlNnKV0GA
-KjUuNNpxsD5EP5knlmL+KPBg7e0HeizR2ETU3r1a9LbbG9X2C47f9crDSTUL7RtT
-LFEvQ2KbLpvos+N34eIrI8KRDrSbjnNvSVuNNbrY2GhyF+8PQ2cpfh5iG5OfAYMm
-MTmTb9b3MvwtiA1O36hVm9y6w8HN46EdxsvOaJi8vWCLxXVx1MMgBBdqEJWkt5gh
-Byb4JSHIUz/OXFcjAJZxeBuZBVuEGpaHuuac1s7Hsa5sO1uP9BSX4mqEvaI1p+Yf
-DJPYHsAcFPVZMqmvVhGPk7H3yh3g7g==
-=7lWz
------END PGP SIGNATURE-----
-
---===============1556641593929279918==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ddbf1cde4a0-d38f8bd771c4.txt
+Content-Disposition: attachment; filename=revlist-45d8b4025d3a-d38f8bd771c4.txt
 
 faaa1e1155833e7d4ce7e3cfaf64c0d636b190db drm/edid: fix OOB read in drm_parse_tiled_block()
 b70f007a9fc665ee988683fd5085ab34e2c10ad3 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 16IAP7
@@ -1076,4 +1060,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 87063bab451963c2e424154437cd14c926127c42 regulator: mt6363: add missing MODULE_DEVICE_TABLE()
 d38f8bd771c4999b797d7074b348cf201414bd34 regulator: core: regulator_lock_two() should test for EDEADLK not EDEADLOCK
 
---===============1556641593929279918==--
+--===============8399607993227338335==--
