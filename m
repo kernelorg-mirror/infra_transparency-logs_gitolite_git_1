@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5164197691071259653=="
+Content-Type: multipart/mixed; boundary="===============7531905458625240354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 09 Jul 2026 05:30:31 -0000
-Message-Id: <178357503117.2769720.647527973420147667@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 05:30:57 -0000
+Message-Id: <178357505703.2770349.674927251454758844@gitolite.kernel.org>
 
---===============5164197691071259653==
+--===============7531905458625240354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,57 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: b3c9b6925ca2e02ef2fd77d0aa5e0ca6b2a67f5a
-    new: 472ce6621e371aafc03c0704d1d940f51d8159db
-    log: |
-         34c0ce68073edc84607c79feb7add5e0690a1c2a dt-bindings: usb: qcom,snps-dwc3: Add ipq5210 to USB DWC3
-         198e107cee2527011439692d0222142ae27a64ae usb: dwc3: avoid probe deferral when USB power supply is not available
-         f17116fdec6d320e5297dd5b79de58ecdaef259b usb: dwc3: qcom: make dwc3_qcom_glue_ops static
-         204f8d356e8095e37d39025c6035d94076b4d046 usb: dwc3: fix kernel-doc string in struct dwc3_ep
-         472ce6621e371aafc03c0704d1d940f51d8159db usb: dwc3: am62: Propagate USB2 refclk enable failures
-         
+  - ref: refs/heads/usb-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 62481c92444386d46b3c4a9c3dbcd4917f07d138
+    log: revlist-dc59e4fea9d8-62481c924443.txt
 
---===============5164197691071259653==
+--===============7531905458625240354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783575028 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783575055 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1783575029-aed8b87c408036014ffe98c15390ca44565be0e5
+nonce 1783575055-858107c65b6c7da2b9cb32bf527f9594401a7f8f
 
-b3c9b6925ca2e02ef2fd77d0aa5e0ca6b2a67f5a 472ce6621e371aafc03c0704d1d940f51d8159db refs/heads/usb-testing
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 62481c92444386d46b3c4a9c3dbcd4917f07d138 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpPMfQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vmEP/Ror+WmJRuWXXje2jmSV
-ITw4dTbQQThtDANLYAHEZeLW7wyzKXMX/Xl2m4ZJ33ZZeWBrt5aCgD1FlGZjY6A7
-zGbQwyHwzKmct8JmFI+q/LbXSR36zBvTzGSRWZ1R5yDZnQABarExAYlRfxOFIVwR
-wCMQbrbcBFMgfuOWanBpE0wz5mtiBKlync6HwAo4Z/WdB0FxEIv801p/evKpyBrz
-BCcRDNXZdSZEOwwNJRzRl2NVVL/n7h0PVWzChD1JARHQQs/wU7rRjJKZd8Rl9kTe
-v4WEF8lMgc9ci6WFFqqxHerEHj4dS4DXYow5c7FkLQ2uX6N3jKsTdPzvftmgIpxe
-/4qgZIEdj0LgPl6y3LjP1synyWFmO2Dm9azA6Y3ZGRF3bDFviihYKeMCF2y0pTEA
-SDq2n76dutkAsbDgrE4N+ptzRkfIcw1is5V+CkZuINkoZL3slccy9Jrzy4zMev2/
-F0o+f3c9STtCCqtQjy7ZFUG+piIB2iPJgiIHYT69vvSu6oUW1lz70yHAY/wE/bUu
-GTBZUBp2Gh3ElZNmEx37yaG3A3KHMjFtMule02tbaLAhaVkQVLhDxKfDJM6BjMLx
-P4nH+/C4xadcEcYLH3BPBqkNhghUoJRPr7hORM+R7Csy02vGFppHNC/dDoeRAcHw
-Zg0/oJ3XpYwAArHn4P9umTS1
-=U18K
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpPMg8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1qIQANG3hdmxkVoNj+JvK2Yc
+GpypyWzMtIE1wjnftL+6UazQvZZcuaVlv9rcW5y/SoUOa82747ljhJe/jfvF8dbV
+qeGvtNCoOEupJb5+BfWEIqSYhLUU8Z78dFCsyuQ++qKmpD/UQf9S7FNTzksOOnNH
+eotKE/a4VjB82zsKgpTdVje/3skKpe5FhvYFcWoZlqi1SVNfNrcSdFyT9p5KoFXQ
+fnsecYg8pnHoPQvRse1SW8AvQrhdosmmoR8q/TZwEMyEcQSmGHGJLbTqvq79Ubut
+3m4vpN9NvZs58CiJwdadm7TkcLey1L14v+/XUfjSNc4z5GhXYO/D/sd82DNrc6q+
+dPU59XQuZ9ZCAinE5k4COKYjVjLNx1KQWXWO6CKpy/zOlGAWVhmX6A1poq+rEYGg
+Rq6Kt0/vRjrcQ+6JEN8+pAygl1VTPodcgnt8sJEzUrJItf3aazUjQDNWkge0Dlwj
+eVOkDOGuPh3qbOXYxPxfN+djAI04RZMq0h4V/c48Q8t4CO+ZgycK0Tf2Mt3ujIzM
+I2YDWoufPPXPkLgS8gUOmnQ+yArVMfEWn3ATbz9Ft56d9gk+Z+gU0f/dVeZK9GR9
+gypMeeiwP9maw52mod4YwUQ94QiOwSa/8nc/I3+cZClp7UopD/Mi6WwbtM0eojVi
+T8KYBh1RVdHkYoB1nrza0Yz2
+=Cc+N
 -----END PGP SIGNATURE-----
 
---===============5164197691071259653==--
+--===============7531905458625240354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-62481c924443.txt
+
+90cd2072964052834227c05e8ecba898ce015a05 usb: typec: ucsi: Move long delayed work on system_dfl_long_wq
+eed73a65ab609b79d53de88cccc34b36dfe753c4 usb: typec: ucsi: unregister debugfs entries on teardown
+14618b21ea9d83956d69027cac80936f03c10034 usb: rust: Use pin_init::zeroed for usb_device_id initialization
+227db98088756740645491fe29f8701c164badf6 usb: typec: tcpm: Defensively bound altmode array accesses
+d9dc19910321957d81fb9d8af4cc67ddbfb258bf usb: typec: ucsi: Fix debugfs response truncation beyond 16 bytes
+1b981fb4827bc6c1ebe92bffff9505593361b5bf usb: host: ohci-dbg: use kmalloc() for print buffer
+8a1f9d85902d08bfab341d538395b6def692349a usb: core: devices: use kmalloc() to allocate dump buffer
+5e4eb5c96324b226220d29d025a334df28054ed3 usb: typec: mux: tusb1046: add missing MODULE_DEVICE_TABLE()
+3c26b3fcf3df47c6acf789d91a31d9445d033e83 dt-bindings: usb: renesas,usbhs: Document RZ/G3L SoC
+a7c0d84c596a7a6d579cbaac866af328da0778b3 usb: cdns3: plat: fix a typo in cdns3_plat_probe()
+62481c92444386d46b3c4a9c3dbcd4917f07d138 ABI: sysfs-bus-usb: fix brace
+
+--===============7531905458625240354==--
