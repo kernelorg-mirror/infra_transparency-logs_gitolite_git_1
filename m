@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3856467366812040659=="
+Content-Type: multipart/mixed; boundary="===============3622508201831567904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Thu, 09 Jul 2026 07:38:30 -0000
-Message-Id: <178358271075.2857609.12546769321668513303@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 07:45:11 -0000
+Message-Id: <178358311145.2863424.11135670604945059042@gitolite.kernel.org>
 
---===============3856467366812040659==
+--===============3622508201831567904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
+  - ref: refs/heads/modules-next
+    old: 36d6b929bb0c7cc1cc742d9b5805537d3b651094
     new: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    log: revlist-f338e7738378-8cdeaa50eae8.txt
+    log: revlist-36d6b929bb0c-8cdeaa50eae8.txt
 
---===============3856467366812040659==
+--===============3622508201831567904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-8cdeaa50eae8.txt
+Content-Disposition: attachment; filename=revlist-36d6b929bb0c-8cdeaa50eae8.txt
 
 99dfa46baba29513d1094c8f30bc86c6ef88543a gpiolib: initialize return value in gpiochip_set_multiple()
 9068c631d5af20000d873e4f299fa0bac4e294d9 gpio: tb10x: fix struct tb10x_gpio kernel-doc
@@ -1051,4 +1051,4 @@ c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of g
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
 
---===============3856467366812040659==--
+--===============3622508201831567904==--
