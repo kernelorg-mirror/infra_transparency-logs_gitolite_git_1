@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3192602136069424535=="
+Content-Type: multipart/mixed; boundary="===============2922970333358632488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 09 Jul 2026 22:49:15 -0000
-Message-Id: <178363735569.3620785.12881357437863350444@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 22:49:18 -0000
+Message-Id: <178363735855.3620948.14656518439203342871@gitolite.kernel.org>
 
---===============3192602136069424535==
+--===============2922970333358632488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary
-    old: c2d91ed0d5301a6a28904632f60f1d20a3806fe5
-    new: c362ed6e684b0d76b3ab58c05458516c3d1c48af
-    log: revlist-c2d91ed0d530-c362ed6e684b.txt
+  - ref: refs/heads/kernel-6.12.93/nfs4_acl-passthru
+    old: 770ae9a6087909b5389700f380b306f64018f4b9
+    new: c0c30c4c3fd6b951cdad9296fae014f10a159fe5
+    log: revlist-770ae9a60879-c0c30c4c3fd6.txt
 
---===============3192602136069424535==
+--===============2922970333358632488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2d91ed0d530-c362ed6e684b.txt
+Content-Disposition: attachment; filename=revlist-770ae9a60879-c0c30c4c3fd6.txt
 
 b5fd1ae30f935d19d9e79a3376234e63873fa2e3 VFS: move dentry_create() from fs/open.c to fs/namei.c
 11d856d9c028b47ea123b579a8f6fbf7ab3a48e0 VFS: Prepare atomic_open() for dentry_create()
@@ -93,14 +93,16 @@ c16ec5f8bd3473e792934c8b9fa7098ddc100c9b sunrpc: pin svc_xprt across the asynchr
 037473d3aa309251e5563b3b1bf167af83a63f22 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 72b3ea89882bd4753a859b519cf66a1da1d39fa7 nfsd: reset write verifier on deferred writeback errors
 52ac5f385fa318641d567b149dff53ac5ca97408 svcrdma: wake sq waiters when the transport closes
-c5b7a5d93cdecff335c6fd7d79923e7284792373 NFSD: add NFSD_IO_DIRECT heuristic for small IO
-558400debba7882f8d1d4a05ed482e1356419608 NFSD: add nfsd_direct_misaligned_num_pages modparam
-c59c3b09a9ee9b578f150bda578a63e2b3e2f74b NFSD: Enable return of an updated stable_how to NFS clients
-066d4be3b70af17b3007bd56caa8bcac840a486e NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
-6de0db759f350edbfbaa8b0979e78cce31dcfe45 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
-335dffbd6037cb2e3e5eb01428a480aefea73a61 svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
-868a042817ce377cf868f6ccccf490081d9a6914 svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
-4b31b15f3b65b7224ae9607ec7caeea0031e68e3 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
-c362ed6e684b0d76b3ab58c05458516c3d1c48af svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
+88bff3576b2b246b5f04a43189ef44e94474361f exportfs: add ability to advertise NFSv4 ACL passthru support
+30d6a3cffab6eb407715ceb7561fb5c4f862c362 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
+9c54c5828370f5af8befceb446899f1381495d57 NFS/NFSD: data structure enablement for nfs4_acl passthru support
+f1845c25d094dea36e1fee57e15a1421828f6066 NFSD: prepare to support SETACL nfs4_acl passthru
+2d281b27631ee28ad3182bdd96197bb10f172285 NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
+443ebff85e4c9bea04b5890e70c9d4008596afb4 NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
+229abb3522e2aebd32f42d0aa6e92ef813c459d0 NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
+00ebf4cf077e146f1ef4e62dbb08d4e0afe51cdd NFSD: avoid extra nfs4_acl passthru work unless needed
+4eaf82566e274f455bfbbef9ee1e31b9c45c2a25 NFSv4: add reexport support for SETACL nfs4_acl passthru
+999fb772613414a24e00f7e7d0e430cab50b92ab NFSv4: add reexport support for GETACL nfs4_acl passthru
+c0c30c4c3fd6b951cdad9296fae014f10a159fe5 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
 
---===============3192602136069424535==--
+--===============2922970333358632488==--
