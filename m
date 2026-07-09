@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5091401785464060742=="
+Content-Type: multipart/mixed; boundary="===============1556641593929279918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 09 Jul 2026 11:28:56 -0000
-Message-Id: <178359653628.3087383.12939614364851144472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 09 Jul 2026 11:28:59 -0000
+Message-Id: <178359653997.3087581.8493820461541397467@gitolite.kernel.org>
 
---===============5091401785464060742==
+--===============1556641593929279918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: 7ddbf1cde4a03e36e17d06fbc711870eb0b256d7
     new: d38f8bd771c4999b797d7074b348cf201414bd34
     log: revlist-7ddbf1cde4a0-d38f8bd771c4.txt
 
---===============5091401785464060742==
+--===============1556641593929279918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1783596534 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1783596533-60a068971daa6bc1e8e8702c54ce79e152194f4d
+pusher C3F436CA30F5D8EB 1783596538 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1783596537-ee5e0316f0a4ccc581549fcb1de88a33c9d96a21
 
-7ddbf1cde4a03e36e17d06fbc711870eb0b256d7 d38f8bd771c4999b797d7074b348cf201414bd34 refs/heads/for-7.2
+7ddbf1cde4a03e36e17d06fbc711870eb0b256d7 d38f8bd771c4999b797d7074b348cf201414bd34 refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpPhfYACgkQJNaLcl1U
-h9CRdAf7BDCuFoSrE1NgEvzkHUiylScZN7HTwGhUqK7sQvG7wrEgzCO09U+yy2dn
-/RCXkY8Xige9fuHoUPs2XtpZC6QTbtF1V8BnNHRkwiXsKeNNPfdq9a2UzlAt9mEv
-KuaI205wbbOZRFatrMJPd0RwoL03EwoP2NBlKHScf5Ewovvqf/u9tXggbu4gaviN
-d1GdSLlRR39E6AVuDgX+A0pWnylQrv71uJwarUPJV0FO9DICokKGIkHK7Ig9jIC0
-6vge9Qk2d+ljEQzbojpcG6xSEYYD7CH1noXQ7I5cVuKVg6xhN+SvQ09zxJPrdead
-l1WtYdWMenfTYLxIOeD525GjleNodQ==
-=bQ4g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpPhfoACgkQJNaLcl1U
+h9AmHAf9GzilphEXXO6UYLkdUSN0jJXbpkHXH3eJYH1hRB85Yde6TOxDlNnKV0GA
+KjUuNNpxsD5EP5knlmL+KPBg7e0HeizR2ETU3r1a9LbbG9X2C47f9crDSTUL7RtT
+LFEvQ2KbLpvos+N34eIrI8KRDrSbjnNvSVuNNbrY2GhyF+8PQ2cpfh5iG5OfAYMm
+MTmTb9b3MvwtiA1O36hVm9y6w8HN46EdxsvOaJi8vWCLxXVx1MMgBBdqEJWkt5gh
+Byb4JSHIUz/OXFcjAJZxeBuZBVuEGpaHuuac1s7Hsa5sO1uP9BSX4mqEvaI1p+Yf
+DJPYHsAcFPVZMqmvVhGPk7H3yh3g7g==
+=7lWz
 -----END PGP SIGNATURE-----
 
---===============5091401785464060742==
+--===============1556641593929279918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 87063bab451963c2e424154437cd14c926127c42 regulator: mt6363: add missing MODULE_DEVICE_TABLE()
 d38f8bd771c4999b797d7074b348cf201414bd34 regulator: core: regulator_lock_two() should test for EDEADLK not EDEADLOCK
 
---===============5091401785464060742==--
+--===============1556641593929279918==--
