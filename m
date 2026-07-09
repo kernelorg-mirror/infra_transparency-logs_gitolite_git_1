@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Jul 2026 10:01:57 -0000
-Message-Id: <178359131714.2963333.13848259372237589217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 09 Jul 2026 10:03:25 -0000
+Message-Id: <178359140561.2964054.17392107982143561484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/main
-    old: 24c4c88259464d38b35c3fbaecb68675de64137d
-    new: fabb881df322da25442f98d23f5fa371e3c78ec4
+  - ref: refs/heads/for-mfd-next
+    old: 0a87570f42adbce6cf4b6a74158ebac495859f35
+    new: cf9775233b4d1618dfac5e84009f36eba1e7fddc
     log: |
-         fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting PF promiscuous state
+         cf9775233b4d1618dfac5e84009f36eba1e7fddc mfd: viperboard: Remove redundant NULL check before kfree()
          
