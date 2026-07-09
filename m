@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8400300958550522212=="
+Content-Type: multipart/mixed; boundary="===============3249799638410951407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 09 Jul 2026 22:53:13 -0000
-Message-Id: <178363759394.3624540.7716322327523056399@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 22:53:16 -0000
+Message-Id: <178363759638.3624630.12975689408913313577@gitolite.kernel.org>
 
---===============8400300958550522212==
+--===============3249799638410951407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 9e05e91a9a847ed57926414bd7c2c5e54d6c56c6
     new: f5089008f90c0a7c5520dff3934e0af00adf322d
     log: revlist-9e05e91a9a84-f5089008f90c.txt
 
---===============8400300958550522212==
+--===============3249799638410951407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting 
 78237e3c0720fcc6eb9b87e90fd70f63eeca886f dibs: loopback: validate offset and size in move_data()
 f5089008f90c0a7c5520dff3934e0af00adf322d macsec: don't read an unset MAC header in macsec_encrypt()
 
---===============8400300958550522212==--
+--===============3249799638410951407==--
