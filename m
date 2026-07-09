@@ -1,66 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6078588120204086865=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 09 Jul 2026 13:19:40 -0000
-Message-Id: <178360318010.3189370.4233196579596347990@gitolite.kernel.org>
-
---===============6078588120204086865==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Thu, 09 Jul 2026 13:20:58 -0000
+Message-Id: <178360325888.3192174.17905937023175884533@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/for-next
-    old: 5346a27fed4d8f0d781b0035ab066f6684cc641e
-    new: cf776975e6d8a57dca424190be8fcc0f3c5c0f42
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 06a070cd60841d132608ded5ebaea86db201691f
+    new: a1a27afddd5bbff4dce6cee9daf38a94fdcedcf6
     log: |
-         3527091de0feb27e437bce175048b54be835221b dt-bindings: samsung: exynos-pmu: Restrict children with unevaluatedProperties
-         e131ca83dabc8bfb8c1d455d02bf2d7a7bc1198a dt-bindings: samsung: exynos-pmu: Narrow allowed reboot modes
-         cf776975e6d8a57dca424190be8fcc0f3c5c0f42 Merge branch 'next/drivers' into for-next
+         c823d3bac78f3fc51c4a9aa592e2a74cead6cb41 sched_ext: Delegate proxy donor admission to BPF schedulers
+         ce4c055b3456e83c9a7119c63fb4143a4ee51314 sched_ext: Add proxy destination query kfuncs
+         1db293dea2b400140b84b388a457981acab334fe sched_ext: Add selftest for blocked donor admission
+         d105727f4ed99775f1652383a1bb549b1cfacea3 sched_ext: scx_qmap: Add proxy execution support
+         a1a27afddd5bbff4dce6cee9daf38a94fdcedcf6 sched: Allow enabling proxy exec with sched_ext
          
-  - ref: refs/heads/next/drivers
-    old: d3ebfcb66147497c1f6a4ceaed9a499cec2b3fe2
-    new: e131ca83dabc8bfb8c1d455d02bf2d7a7bc1198a
-    log: |
-         3527091de0feb27e437bce175048b54be835221b dt-bindings: samsung: exynos-pmu: Restrict children with unevaluatedProperties
-         e131ca83dabc8bfb8c1d455d02bf2d7a7bc1198a dt-bindings: samsung: exynos-pmu: Narrow allowed reboot modes
-         
-
---===============6078588120204086865==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1783603178 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1783603177-59eb74b1335dee4ddc52b68cb2f43d4586816fc1
-
-5346a27fed4d8f0d781b0035ab066f6684cc641e cf776975e6d8a57dca424190be8fcc0f3c5c0f42 refs/heads/for-next
-d3ebfcb66147497c1f6a4ceaed9a499cec2b3fe2 e131ca83dabc8bfb8c1d455d02bf2d7a7bc1198a refs/heads/next/drivers
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpPn+oQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11w3D/95B3aX+L1g2p0JoS6NuArbS+VSsHTeieVm
-RtPA11CmnS+YwAlrDmgIP9MwuxRMwOKhPK5YdQ6x5BoZBs8kqyiJ5/Tua8PZRmO6
-qdWQtuBy34FaPetL8NTJkAD2Vo90VEasQIhYOd4JViiQ3O2/1ACW60AZQ/++aG6r
-/GO0y8IqbzveydZg41qraVSqz7LVDZRgP0nMTBlSxIRo2OxHuEBUhFrKVIE9zTAh
-r/gwP8Mqd5TANqizdni/y/0Eh6DDkZ6H7HY9yftRA1YFkQ8EM9hwdO4VDrkP5DHd
-9q/jyXM47O725dfYcHEaJK6YZN32xDls2pmfVIIF4M60aghUG1X3dUWzX47uWPos
-e1NxT3wMUQ4aU2CsQmyv+2uDT4YpYNg1dI9iQpIiROkz59yloefv4qxmBY3MQS1a
-dYfZw2yuvZeVF4y3EhKjRjmOs81qb/XG4WMu3fyOMgwsKFypIyu2ljRl3bSgBc21
-e8jTffo5zBLU8iUJQwhQ/BAwpr1dGqHrRnumojvSvneJYMfmR7mhNqCL2K/XG5ph
-vDkU85vl5bKpsz3q855yKmLTpz+JcVWLdc1PFphWB1XMHXoz1gU9xLYDHBYX/27q
-kr1hvN4tpF2TL6Z18/D05AUw8LDZ4hWeAshjh8+6tSODjsGW05+1R6+bkQasGA+w
-gV+SurdnyQ==
-=s8bK
------END PGP SIGNATURE-----
-
---===============6078588120204086865==--
