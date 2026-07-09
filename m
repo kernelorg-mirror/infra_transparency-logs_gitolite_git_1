@@ -1,36 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 09 Jul 2026 22:06:58 -0000
-Message-Id: <178363481862.3589791.8787876131194312655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 09 Jul 2026 22:21:55 -0000
+Message-Id: <178363571508.3599615.9194604002929410433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/for-7.3
-    old: ad45691d8c73075baa1ada6cf2d55c0245259750
-    new: b38332be61a8a76cf77586fb769849257ff217ae
+  - ref: refs/heads/block-7.2
+    old: f01f5275feb77bac9fefbbf7cc584fe0b3850a92
+    new: 5d72720365f973e2c21fa99505b627521de66c25
     log: |
-         05e72aeaaa059aceb662a936007a95ea1912560b sched_ext: Use READ_ONCE/WRITE_ONCE in cmask word ops and drop _RACY variants
-         8da6d37d1dda3842249c7ea2b84daf88d52da557 sched_ext: Add SCX_CALL_CID_OP_TASK() for cid-form op dispatch
-         915feb4119e09292f0b0a7392120a7995dc3114a sched_ext: Rename extra_enq_flags to remote_activate_enq_flags
-         c89b7a09b7a8c5cb5b055a9509a58370abe97b32 tools/sched_ext: scx_qmap - Use bare u64/u32/s32 integer types
-         31645fb113af646792ebb1e51eceebb9a04fdea1 sched_ext: Reject direct slice and dsq_vtime writes for cid-form schedulers
-         b38332be61a8a76cf77586fb769849257ff217ae sched_ext: Make scx_bpf_kick_cid() return void
+         5d72720365f973e2c21fa99505b627521de66c25 xen-blkfront: fix double completion of split requests on resume
          
   - ref: refs/heads/for-next
-    old: b6c92df9256f356973eb22d03faa6c384d234d6e
-    new: 5fb4c195f7151ff01868ce0e9d7f645849145400
+    old: d5b415a2853ee9c4776d10b9cdea1425efb30fe1
+    new: 8285cd727ff80552e4809f89a6e8eeb460f42c90
     log: |
-         05e72aeaaa059aceb662a936007a95ea1912560b sched_ext: Use READ_ONCE/WRITE_ONCE in cmask word ops and drop _RACY variants
-         8da6d37d1dda3842249c7ea2b84daf88d52da557 sched_ext: Add SCX_CALL_CID_OP_TASK() for cid-form op dispatch
-         915feb4119e09292f0b0a7392120a7995dc3114a sched_ext: Rename extra_enq_flags to remote_activate_enq_flags
-         c89b7a09b7a8c5cb5b055a9509a58370abe97b32 tools/sched_ext: scx_qmap - Use bare u64/u32/s32 integer types
-         31645fb113af646792ebb1e51eceebb9a04fdea1 sched_ext: Reject direct slice and dsq_vtime writes for cid-form schedulers
-         b38332be61a8a76cf77586fb769849257ff217ae sched_ext: Make scx_bpf_kick_cid() return void
-         5fb4c195f7151ff01868ce0e9d7f645849145400 Merge branch 'for-7.3' into for-next
+         5d72720365f973e2c21fa99505b627521de66c25 xen-blkfront: fix double completion of split requests on resume
+         8285cd727ff80552e4809f89a6e8eeb460f42c90 Merge branch 'block-7.2' into for-next
          
