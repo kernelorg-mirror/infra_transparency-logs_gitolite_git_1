@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 09 Jul 2026 09:10:02 -0000
-Message-Id: <178358820230.2926130.6059620191096525086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Jul 2026 09:11:27 -0000
+Message-Id: <178358828782.2928440.2000788835933123040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: c3fd3966f7dd871e47f9bcd8fe90d6e23e4cdb1a
-    new: b21d9bf627dd4162dd485f5f8d7d0fbdd71a175e
+  - ref: refs/heads/main
+    old: 27f575836cfebbf872dec020428742b10650a955
+    new: 604e9594449b9907181f4285d0cd6a398bfc9d08
     log: |
-         097f50384e1877b7cf3ace12ff0d1beed19f2088 RDMA/irdma: Deduplicate the irdma_del_memlist logic
-         a7d0a6b58256a77566e9088a99e1594bf35821ec RDMA/irdma: Add a refcount to track user ring MR associations
-         971e99623ed7a0d75a719021cf4fd64e5f9e44e5 RDMA/irdma: Add irdma_cq fields to track pbl allocations
-         f67d8a08f60c9217df6d40da56422d2049f5e334 RDMA/irdma: Add refcounting to user ring MRs
-         4dc9c884c0aafac1e8d37536d88d485135e26883 RDMA/irdma: Suppress PF reset on HMC error
-         fbbe1d5cd7d400a98afcf337969cfdb808cb198f RDMA/rxe: Check PDs for memory window binds
-         297b5b747a0a2c6b63088d3f5cc102a6cffaf292 RDMA/hfi1: Remove unused non-user-accessible device class
-         5f9576c6734abca88a02db72c466e09d2eddf160 RDMA/bng_re: return a timeout when firmware responses stall
-         b21d9bf627dd4162dd485f5f8d7d0fbdd71a175e RDMA/ionic: Remove duplicate IONIC_SPEC_HIGH definition
+         49df66b7993c80b80c7eb9a84ba5b3410c8296a0 batman-adv: ensure minimal ethernet header on TX
+         fdb3be00ba4dafa313e699d6b5b90d13f22f3f25 batman-adv: fix VLAN priority offset
+         8669a550c752d86baebc5fdc83b8ff35c4372c0e batman-adv: clean untagged VLAN on netdev registration failure
+         27c7d40008231ae4140d35501b60087a9de2d2c3 batman-adv: tt: avoid request storms during pending request
+         7a581d9aaba8c82bd6177fa36b2588eea77f6e2b batman-adv: tt: prevent TVLV OOB check overflow
+         6b628425aed49a1c7a4ffc997583840fc582d32b batman-adv: frag: free unfragmentable packet
+         353d2c1d5492e53ae34f490a84494124dc3d3531 batman-adv: frag: fix primary_if leak on failed linearization
+         38eaed28e250895d56f4b7989bd65479a511c5c3 batman-adv: mcast: avoid OOB read of num_dests header
+         98052bdaf6ac1639a63ffc10244eeeab1f62ed2b batman-adv: dat: fix tie-break for candidate selection
+         604e9594449b9907181f4285d0cd6a398bfc9d08 Merge tag 'batadv-net-pullrequest-20260708' of https://git.open-mesh.org/batadv
          
