@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 09 Jul 2026 09:31:59 -0000
-Message-Id: <178358951990.2942804.9474357433755402363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Jul 2026 09:41:21 -0000
+Message-Id: <178359008103.2949421.2772493920041024221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-linus
-    old: 0752734163a20c9185a12c0d0786995751ab7426
-    new: d595255241e5fec0c94adeebf2565524398e37c5
+  - ref: refs/heads/main
+    old: c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027
+    new: b62869a81a7ce388d1fbb0fac5fa8300ea614d81
     log: |
-         97272a5704bf13369bba43951ad9fe8f806ccc7f ALSA: hda/realtek - Fixed Headphone noise issue for Dell QCM1255
-         d595255241e5fec0c94adeebf2565524398e37c5 ALSA: hda/realtek: Add quirk for TongFang X6xx45xU
-         
-  - ref: refs/heads/master
-    old: 8a2cd69e5321f739779bae1b27809b85983fde13
-    new: 04e788177cfb2f6690b506c730ae1ccd3b823798
-    log: |
-         97272a5704bf13369bba43951ad9fe8f806ccc7f ALSA: hda/realtek - Fixed Headphone noise issue for Dell QCM1255
-         d595255241e5fec0c94adeebf2565524398e37c5 ALSA: hda/realtek: Add quirk for TongFang X6xx45xU
-         04e788177cfb2f6690b506c730ae1ccd3b823798 Merge branch 'for-linus'
+         b62869a81a7ce388d1fbb0fac5fa8300ea614d81 ethtool: rss: Fix hfunc and input_xfrm parsing on big endian
          
