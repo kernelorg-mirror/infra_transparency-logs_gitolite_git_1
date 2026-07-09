@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 09 Jul 2026 21:02:26 -0000
-Message-Id: <178363094651.3545087.11977183767462701211@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 21:14:04 -0000
+Message-Id: <178363164484.3552192.17570403494505953738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-7.3
-    old: daf8e166ba59ddf1dacb080228cb42e5d1de30ae
-    new: e655c1f1bd14804f398df7da029c4a7e3f9ccd7f
+  - ref: refs/heads/for-7.2-fixes
+    old: cfe950d79f524e72bc263f2b153a6d905a75a794
+    new: e6979d05c6a6fe79980f08d63f039f0b27c30a1c
     log: |
-         f3c6919207ebade88fe40377b6a8b69294b4d35f sched_ext: Fix typo in scx_bpf_dsq_insert() comment
-         e655c1f1bd14804f398df7da029c4a7e3f9ccd7f selftests/sched_ext: Fix bpf_link leak on early return in prog_run
+         db4e9defd2e8620abee04cfe5809c0bcd6ecf06a sched_ext: Record an error on errno-only sub-enable failure
+         49b3378a750cf85112e656d003145d4b5d0da232 sched_ext: Fix premature ops->priv publication in scx_alloc_and_add_sched()
+         e6979d05c6a6fe79980f08d63f039f0b27c30a1c tools/sched_ext: scx - Fix cmask_subset(), cmask_equal() and cmask_weight()
          
   - ref: refs/heads/for-next
-    old: 20d96c68e4b0291b26037eb4a37d6d1c9a026cd5
-    new: 23fca90daab4d6687f7b61be18b4ad4ae3b341dd
+    old: 23fca90daab4d6687f7b61be18b4ad4ae3b341dd
+    new: 1ad88f5651866e6ff7259be81762972cbbb578c8
     log: |
-         f3c6919207ebade88fe40377b6a8b69294b4d35f sched_ext: Fix typo in scx_bpf_dsq_insert() comment
-         e655c1f1bd14804f398df7da029c4a7e3f9ccd7f selftests/sched_ext: Fix bpf_link leak on early return in prog_run
-         23fca90daab4d6687f7b61be18b4ad4ae3b341dd Merge branch 'for-7.3' into for-next
+         db4e9defd2e8620abee04cfe5809c0bcd6ecf06a sched_ext: Record an error on errno-only sub-enable failure
+         49b3378a750cf85112e656d003145d4b5d0da232 sched_ext: Fix premature ops->priv publication in scx_alloc_and_add_sched()
+         e6979d05c6a6fe79980f08d63f039f0b27c30a1c tools/sched_ext: scx - Fix cmask_subset(), cmask_equal() and cmask_weight()
+         1ad88f5651866e6ff7259be81762972cbbb578c8 Merge branch 'for-7.2-fixes' into for-next
          
