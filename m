@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4818231677193656861=="
+Content-Type: multipart/mixed; boundary="===============7823976123713566415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 09 Jul 2026 18:18:37 -0000
-Message-Id: <178362111746.3434752.7255059655400190310@gitolite.kernel.org>
+Date: Thu, 09 Jul 2026 18:18:39 -0000
+Message-Id: <178362111996.3434966.291700332807851916@gitolite.kernel.org>
 
---===============4818231677193656861==
+--===============7823976123713566415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 474cff6868129755cf889edf40d7f491729fc588
     new: fe3e786ef4eb6e47d2901f568a27bd920477bbe9
     log: revlist-474cff686812-fe3e786ef4eb.txt
 
---===============4818231677193656861==
+--===============7823976123713566415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ bcd2e8b40ef955038d9af137d3ebeb0de786d835 Merge branch 'devlink-extend-phys_port_
 0e74441edefce4cae60f572ca7da70fa9eabc168 net : bonding : Remove TODO comment about retrying setting the MAC
 fe3e786ef4eb6e47d2901f568a27bd920477bbe9 selftests: drv-net: rss_ctx: Add retries to test_rss_context_overlap to reduce flakes
 
---===============4818231677193656861==--
+--===============7823976123713566415==--
