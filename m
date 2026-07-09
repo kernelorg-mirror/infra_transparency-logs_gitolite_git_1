@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 09 Jul 2026 15:06:20 -0000
-Message-Id: <178360958011.3299012.17368142795963293964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 09 Jul 2026 15:07:05 -0000
+Message-Id: <178360962513.3299585.11532829595636177505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: c98b1b26d0a099d8a6851382deb666235af65ad6
-    new: 9262cb9b81ac5a95408571a287b288bc846762eb
+  - ref: refs/heads/libcrypto-pending
+    old: 1f7fa0cbc74e657fa35cb8c9fe5fe13ea79ce078
+    new: e073f1238ecaea366f53e98724c40b31856da56a
     log: |
-         7dfae908cea717eece82aca5a2e92452f809ac02 todo-reported: new Sashiko findings
-         9262cb9b81ac5a95408571a287b288bc846762eb patches/next: revision attrs only monitoring
+         8008d6b59a659982b9f10916bb8712bf93bc7c46 lib/crypto: docs: Fix some sentence fragments
+         9665e22579ee4324a14e035b5b29d3d1fdc929e2 lib/crypto: docs: Improve introduction sentence
+         e073f1238ecaea366f53e98724c40b31856da56a crypto: aes - Fix conditions for selecting MAC dependencies
          
