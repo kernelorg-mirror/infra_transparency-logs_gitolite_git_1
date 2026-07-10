@@ -1,51 +1,108 @@
-Content-Type: multipart/mixed; boundary="===============6416411597568685123=="
+Content-Type: multipart/mixed; boundary="===============6244838135536903667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 10 Jul 2026 10:21:03 -0000
-Message-Id: <178367886336.23891.10603252112969455556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 10 Jul 2026 10:35:03 -0000
+Message-Id: <178367970329.32275.3387162760927824421@gitolite.kernel.org>
 
---===============6416411597568685123==
+--===============6244838135536903667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 62b57396c26a1ce54963709928ea0d01fa522eea
-    new: 4aefd66ef7822cf7d3f53146dcee0b71021ed2b7
+  - ref: refs/heads/bleeding-edge
+    old: 373b324f0a5e4158885b6883012e403a21183b53
+    new: 29ef85e24c475132363ab956dea5db1b2600ef75
+    log: revlist-373b324f0a5e-29ef85e24c47.txt
+  - ref: refs/heads/fixes
+    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+    new: b898455ec8e2870a33ab481189d6fd3565d570df
     log: |
-         e0ddfd77c0c320b7d12b6c9169303b140b798775 platform/x86: hp-bioscfg: pass validated element count to package parsers
-         1d143d78299d0eb4536698bf98c1815ec69f22a9 platform/x86: hp-bioscfg: bound ordered-list parsing by the package count
-         40e10e6cc8f70c041431a1e30186807e28ec46e0 platform/x86: hp-bioscfg: accept reduced ACPI packages from older HP BIOS
-         b0e2af3ec94e0431adb59d9f249ebbd3b7285158 platform/x86: hp-bioscfg: warn on element type mismatch instead of failing
-         4ed460ce13710f7f2cf22e0c9e66c7add13c7a53 platform/x86/amd: Introduce Halo Box RGB LED driver
-         4aefd66ef7822cf7d3f53146dcee0b71021ed2b7 platform/x86: asus-wireless: Fail probe when there is no ACPI match
+         27d80e0f8b8dff97503fc0061754b1d3800cb961 cpufreq: intel_pstate: Set non-turbo capacity to HWP_GUARANTEED_PERF()
+         d2d5c129d07ea8eb91cd8a8633b5774116c4d171 cpufreq: Make cpufreq_update_pressure() fall back to cpuinfo.max_freq
+         b898455ec8e2870a33ab481189d6fd3565d570df Merge branch 'pm-cpufreq-fixes' into fixes
          
+  - ref: refs/heads/linux-next
+    old: 23117465759e13a1c9978ae0803fcf631cab4871
+    new: dc8bff6f7d6da011245f6d050e949e2174926009
+    log: revlist-23117465759e-dc8bff6f7d6d.txt
+  - ref: refs/heads/testing
+    old: 2c94bde29aefb559eab0abec11574e9655c9d6a2
+    new: a99ee5e95a6fc6ab37b0e24801fe8ca0b9cc4047
+    log: revlist-2c94bde29aef-a99ee5e95a6f.txt
 
---===============6416411597568685123==
+--===============6244838135536903667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-373b324f0a5e-29ef85e24c47.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1783678859 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1783678859-7420749948091f2339b6910d2e0d53e77c600444
+b898455ec8e2870a33ab481189d6fd3565d570df Merge branch 'pm-cpufreq-fixes' into fixes
+3cceafdde7aa74d7cf2873e80d5c08fbfda378c9 Merge branch 'fixes' into linux-next
+6b173623d136e36f73d5857120ee4e368d9313e3 Merge branch 'acpi-irqchip' into linux-next
+dc8bff6f7d6da011245f6d050e949e2174926009 Merge branch 'pm-runtime' into linux-next
+253ed6e24c9a92899dd798a8aaba8c6dc0a41920 ACPI: fan: Use devm_acpi_install_notify_handler()
+e226fb2ee516be43cb9baf8fc51e0e193e191f65 platform/surface: surfacepro3_button: Stop setting acpi_device_name()
+3e7147ffc011200c19047ab784e3f3b27052d01d sonypi: Stop setting acpi_device_name/class()
+ece1095476fb893a5addb9bf57e29869d8d2feb6 x86/platform/olpc: xo15: Stop setting acpi_device_name/class()
+a99ee5e95a6fc6ab37b0e24801fe8ca0b9cc4047 Merge branch 'test/acpi-driver' into testing
+42b56485c178ea042025245bcca07f2ec8c95042 Merge branch 'acpi-fan' into bleeding-edge
+ac5cc691eb4a7b604687bcb9ced3a59d24cda65c x86/thermal: Add bit definitions for Intel Directed Package Thermal Interrupt
+2bedc0640478b6e714dd2e82875d8cc3c758f6a7 thermal: intel: Add resources to handle directed package-level thermal interrupts
+9d8ba97052b6d613819ae217cc406228a5799df1 thermal: intel: Enable the Directed Package-level Thermal Interrupt
+0871c2fe5b8ae66a3b7bc95506c00437c78fb12c thermal: intel: Add syscore callbacks for suspend and resume
+de28a675d13b81f212168547e3235c963f8186fb thermal: intel: Add a syscore shutdown callback for kexec reboot
+29ef85e24c475132363ab956dea5db1b2600ef75 Merge branch 'thermal-intel' into bleeding-edge
 
-62b57396c26a1ce54963709928ea0d01fa522eea 4aefd66ef7822cf7d3f53146dcee0b71021ed2b7 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
+--===============6244838135536903667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-23117465759e-dc8bff6f7d6d.txt
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCalDHjgAKCRBZrE9hU+XO
-MQLTAP90Im0H3KdhKlQEvd1c3U60AHq+/YHYCF0JI7u63QLDBAEApBXXc6uatSnR
-k/dnMNsUAldJJpaZgi+qSsEmJyzl0w8=
-=9egl
------END PGP SIGNATURE-----
+deef78d3543976dc4a0d03658e0b55545d7564ad ACPI: Add acpi_device_clear_deps() helper function
+64ae310bffa477cd11029c818bec489f4b8a845e ACPI: RISC-V: Fix riscv_acpi_irq_get_dep() loop termination
+20435bda13f1219891ed0ce41207e320a916ff9c ACPI: RISC-V: Check acpi_get_handle() status in riscv_acpi_add_prt_dep()
+3a56321d0aceee2a0bd80d23366401c131ff8350 ACPI: RISC-V: Fix riscv_acpi_add_prt_dep() loop handling
+704ce0039a629739753551a69132f783eb9912f5 ACPI: irq: Move RISC-V interrupt controllers autodep to ACPI IRQ code
+5a64611747687189415a5298a16e1ad4c08a829b ACPI/IORT: Implement ACPI infrastructure to enable GICv5 IWB probe deferral
+d2aa7b179a711d045cdeb4dfb33428207ae32b4b irqchip/gic-v5: Enable GICv5 IWB ACPI probe ordering detection
+eef1d74bf88f120f4f63a83a5201fcda67bf3b52 PM: runtime: Only set runtime_error on suspend callback failures
+27d80e0f8b8dff97503fc0061754b1d3800cb961 cpufreq: intel_pstate: Set non-turbo capacity to HWP_GUARANTEED_PERF()
+d2d5c129d07ea8eb91cd8a8633b5774116c4d171 cpufreq: Make cpufreq_update_pressure() fall back to cpuinfo.max_freq
+b898455ec8e2870a33ab481189d6fd3565d570df Merge branch 'pm-cpufreq-fixes' into fixes
+3cceafdde7aa74d7cf2873e80d5c08fbfda378c9 Merge branch 'fixes' into linux-next
+6b173623d136e36f73d5857120ee4e368d9313e3 Merge branch 'acpi-irqchip' into linux-next
+dc8bff6f7d6da011245f6d050e949e2174926009 Merge branch 'pm-runtime' into linux-next
 
---===============6416411597568685123==--
+--===============6244838135536903667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2c94bde29aef-a99ee5e95a6f.txt
+
+deef78d3543976dc4a0d03658e0b55545d7564ad ACPI: Add acpi_device_clear_deps() helper function
+64ae310bffa477cd11029c818bec489f4b8a845e ACPI: RISC-V: Fix riscv_acpi_irq_get_dep() loop termination
+20435bda13f1219891ed0ce41207e320a916ff9c ACPI: RISC-V: Check acpi_get_handle() status in riscv_acpi_add_prt_dep()
+3a56321d0aceee2a0bd80d23366401c131ff8350 ACPI: RISC-V: Fix riscv_acpi_add_prt_dep() loop handling
+704ce0039a629739753551a69132f783eb9912f5 ACPI: irq: Move RISC-V interrupt controllers autodep to ACPI IRQ code
+5a64611747687189415a5298a16e1ad4c08a829b ACPI/IORT: Implement ACPI infrastructure to enable GICv5 IWB probe deferral
+d2aa7b179a711d045cdeb4dfb33428207ae32b4b irqchip/gic-v5: Enable GICv5 IWB ACPI probe ordering detection
+eef1d74bf88f120f4f63a83a5201fcda67bf3b52 PM: runtime: Only set runtime_error on suspend callback failures
+27d80e0f8b8dff97503fc0061754b1d3800cb961 cpufreq: intel_pstate: Set non-turbo capacity to HWP_GUARANTEED_PERF()
+d2d5c129d07ea8eb91cd8a8633b5774116c4d171 cpufreq: Make cpufreq_update_pressure() fall back to cpuinfo.max_freq
+b898455ec8e2870a33ab481189d6fd3565d570df Merge branch 'pm-cpufreq-fixes' into fixes
+3cceafdde7aa74d7cf2873e80d5c08fbfda378c9 Merge branch 'fixes' into linux-next
+6b173623d136e36f73d5857120ee4e368d9313e3 Merge branch 'acpi-irqchip' into linux-next
+dc8bff6f7d6da011245f6d050e949e2174926009 Merge branch 'pm-runtime' into linux-next
+e226fb2ee516be43cb9baf8fc51e0e193e191f65 platform/surface: surfacepro3_button: Stop setting acpi_device_name()
+3e7147ffc011200c19047ab784e3f3b27052d01d sonypi: Stop setting acpi_device_name/class()
+ece1095476fb893a5addb9bf57e29869d8d2feb6 x86/platform/olpc: xo15: Stop setting acpi_device_name/class()
+a99ee5e95a6fc6ab37b0e24801fe8ca0b9cc4047 Merge branch 'test/acpi-driver' into testing
+
+--===============6244838135536903667==--
