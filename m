@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Fri, 10 Jul 2026 14:09:06 -0000
-Message-Id: <178369254621.184761.1502552091211991820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 10 Jul 2026 14:26:23 -0000
+Message-Id: <178369358386.197529.13793432390721015703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: ppavlu
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/modules-next
-    old: d3a7d9c09185c65b3098ab56ce904f80e46b5111
-    new: 2600d43b235b029d0ba4f2d3cc71e2137114fde3
+  - ref: refs/heads/main
+    old: f2f152e94a67bc746afaf05a1b2702c195553112
+    new: 4fa349156043dc119721d067329714179f501749
     log: |
-         2600d43b235b029d0ba4f2d3cc71e2137114fde3 rust: module_param: support bool parameters
+         4fa349156043dc119721d067329714179f501749 net/iucv: take a reference on the socket found in afiucv_hs_rcv()
          
