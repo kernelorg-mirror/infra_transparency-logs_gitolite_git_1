@@ -1,53 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4162101562967032463=="
+Content-Type: multipart/mixed; boundary="===============0059081908915593996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 10 Jul 2026 07:37:45 -0000
-Message-Id: <178366906564.4080695.11941892850353045161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 10 Jul 2026 07:40:09 -0000
+Message-Id: <178366920937.4083977.6786267174710885426@gitolite.kernel.org>
 
---===============4162101562967032463==
+--===============0059081908915593996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: a1a27afddd5bbff4dce6cee9daf38a94fdcedcf6
-    new: a975a05989e3e566d8155299e91f6b188aac1442
-    log: revlist-a1a27afddd5b-a975a05989e3.txt
+  - ref: refs/heads/b4/scmi_core_fixes
+    old: 9729a5ddb3bf7f6c51ac2076cb442b0df8dfb691
+    new: a4207e2881d017532e079dca5a5ae07b2df6fc52
+    log: revlist-9729a5ddb3bf-a4207e2881d0.txt
 
---===============4162101562967032463==
+--===============0059081908915593996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1a27afddd5b-a975a05989e3.txt
+Content-Disposition: attachment; filename=revlist-9729a5ddb3bf-a4207e2881d0.txt
 
-f3c6919207ebade88fe40377b6a8b69294b4d35f sched_ext: Fix typo in scx_bpf_dsq_insert() comment
-e655c1f1bd14804f398df7da029c4a7e3f9ccd7f selftests/sched_ext: Fix bpf_link leak on early return in prog_run
-db4e9defd2e8620abee04cfe5809c0bcd6ecf06a sched_ext: Record an error on errno-only sub-enable failure
-49b3378a750cf85112e656d003145d4b5d0da232 sched_ext: Fix premature ops->priv publication in scx_alloc_and_add_sched()
-e6979d05c6a6fe79980f08d63f039f0b27c30a1c tools/sched_ext: scx - Fix cmask_subset(), cmask_equal() and cmask_weight()
-ad45691d8c73075baa1ada6cf2d55c0245259750 Merge branch 'for-7.2-fixes' into for-7.3
-05e72aeaaa059aceb662a936007a95ea1912560b sched_ext: Use READ_ONCE/WRITE_ONCE in cmask word ops and drop _RACY variants
-8da6d37d1dda3842249c7ea2b84daf88d52da557 sched_ext: Add SCX_CALL_CID_OP_TASK() for cid-form op dispatch
-915feb4119e09292f0b0a7392120a7995dc3114a sched_ext: Rename extra_enq_flags to remote_activate_enq_flags
-c89b7a09b7a8c5cb5b055a9509a58370abe97b32 tools/sched_ext: scx_qmap - Use bare u64/u32/s32 integer types
-31645fb113af646792ebb1e51eceebb9a04fdea1 sched_ext: Reject direct slice and dsq_vtime writes for cid-form schedulers
-b38332be61a8a76cf77586fb769849257ff217ae sched_ext: Make scx_bpf_kick_cid() return void
-3d1519011e395ea96c7fbc5ced35b49cfe60d93e sched_ext: Keep rq tracking accurate in the consume path
-8b7a24c08c767f7cdad47f65bd25b1cf5d2a1087 sched/core: Drop mutex locks before proxy rescheduling
-3970d11f84f3b766ca378f5bf84d35e3c237d2e4 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-bbe42bc5df97920aee701bddcec76b57ecf5684c sched_ext: Split curr|donor references properly
-825d3094b7c58276dfbc46427f10c134678e55da sched_ext: Fix TOCTOU race in consume_remote_task()
-07b70f048c7d2cee4e719080fa81254c0f6dcaab sched_ext: Handle blocked donor migration with proxy execution
-1edd5c15eaa80e77539c58dacf0b0a0b39dc1631 sched_ext: Delegate proxy donor admission to BPF schedulers
-b34afda9dca75b99ffd6478a53d3cb5442d24efc sched_ext: Add proxy destination query kfuncs
-c8d086c5ed1ba0683ddc751a35d5eb216916b7b1 sched_ext: Add selftest for blocked donor admission
-d28b50ddcf889faacd10bf7a7f319dbe701eed7d sched_ext: scx_qmap: Add proxy execution support
-a975a05989e3e566d8155299e91f6b188aac1442 sched: Allow enabling proxy exec with sched_ext
+3f00edbfcdb5b1b0c2d7df7edcc5b5ab8fe487cd firmware: arm_scmi: Unregister device notifier before IDR teardown
+6bb2f4e5451993fb2481beefb41b68fa329be808 firmware: arm_scmi: Quiesce notifications before teardown
+9bb61a31732d1d4035d02de421e61e93a5a5b9d4 firmware: arm_scmi: Clean up channels on setup failure
+ffd88abe5f4ef16fd3db82b605c0cfe15fbc6da4 firmware: arm_scmi: Free transport channel on IDR failure
+33ca7b716fc96e5577129ec18e24863eaa418daa firmware: arm_scmi: Avoid IDR updates while cleaning channels
+6d668555b999c34f09d1c1e91640150a5b4d3ff1 firmware: arm_scmi: Reject out of range DT protocol IDs
+7d7854df92c8cc30b5ed54a2fa38e840adad6f6b firmware: arm_scmi: Use channel ID for transport teardown
+4be10d44071e839d15eafbe63ff30147b8a867b0 firmware: arm_scmi: Protect device request lookup with RCU
+40272e7487fb676664dc6d669b2af8b687c16148 firmware: arm_scmi: Drop handle on protocol bind failures
+78bbb193724e9fb351276c55da643fa5aa634f84 firmware: arm_scmi: Clear SystemPower flag on create failure
+228e18bdc368fd33cd3eea7c96bd3bedb5ba00cb firmware: arm_scmi: Fix OF node reference handling
+2cab455151b2314eb2ad00c331a6c489b83b1613 firmware: arm_scmi: Unwind TX receiver mailbox setup failure
+06e7dbe603d7552c231b4a8a9e2edb1a8d30a780 firmware: arm_scmi: Unwind P2A receiver mailbox setup failure
+d2756c6175a005f6bc6800f6d38b93092af16fdc firmware: arm_scmi: Fix SCMI device destroy lifetimes
+a4207e2881d017532e079dca5a5ae07b2df6fc52 firmware: arm_scmi: Fix transport device teardown lookup
 
---===============4162101562967032463==--
+--===============0059081908915593996==--
