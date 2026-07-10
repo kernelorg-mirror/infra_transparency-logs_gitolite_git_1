@@ -1,72 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============0393720249090799744=="
+Content-Type: multipart/mixed; boundary="===============8413462565381910570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 10 Jul 2026 14:07:24 -0000
-Message-Id: <178369244458.183941.16259515455679556170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 10 Jul 2026 14:09:04 -0000
+Message-Id: <178369254488.184699.388958830670502326@gitolite.kernel.org>
 
---===============0393720249090799744==
+--===============8413462565381910570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes-test
-    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    new: afc2830892a128a13a65f677271a0a48aeb61b5e
-    log: revlist-8cdeaa50eae8-afc2830892a1.txt
+  - ref: refs/heads/driver-core-testing
+    old: 5dcef303b29f004a447d9c69e62963328da9c608
+    new: 7b5b51b2b05cf2b49eaa3808b1c2953cfb8e1cae
+    log: revlist-5dcef303b29f-7b5b51b2b05c.txt
 
---===============0393720249090799744==
+--===============8413462565381910570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1783692438 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1783692437-cd0b48b157cd427087adae0adb4362261b97e6d8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783692541 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1783692542-43ca28698556fcae50efe4d170c56012873c22f5
 
-8cdeaa50eae8dad34885515f62559ee83e7e8dda afc2830892a128a13a65f677271a0a48aeb61b5e refs/heads/fixes-test
+5dcef303b29f004a447d9c69e62963328da9c608 7b5b51b2b05cf2b49eaa3808b1c2953cfb8e1cae refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmpQ/JYACgkQpnEsdPSH
-ZJTLdBAAv3kJzKx0dFb9lIRCRibxdqgCSYROBra7Pm7sNGZ/QIcAjLPwJbOFiUxR
-r25BokfytxtEvYY2PSBapBaY/eIikJCN+EkNwAh5AyL84kcnzz0qN7AqDu+2qvaQ
-exKIss3JBGHz3rBivOdnBCeOWpxR0My4NiwqaegIGuQk9D3HJbRgphT24ZObId/o
-K5+9lo7PYoUJmkKuqNT+fox0MQ413S67ino/BQFuETYc3bE/8Gsq8acubJWtIbSZ
-chdcQY6qCZPTdpKzwkok8NfvF/4vRaS+ctaQWri4fRb/xsLtW1dNTkdxbQFDjwiI
-62taZG0GylmRydNzuB3LANFXjnARGdBTHET3YLtOrLIy+RS6ckwXvQPtTeAQYibM
-qBjo3Zq4s24XIUo+y21WRIe3ZsuOnNpiE82N+/Q/2TvvWMKER51oejz8BxdhEkDI
-7AoCRN1rIONiEFY4tnFY2mU8m8t1t0+/QKIXpoT2F1Rn/+YotXDNopGinNniJMnZ
-iuvq5lKrLeuTxHxFmGeCT6udw5jtlH4BdjblVQTpBqjP/FNhT9FqdaDupcZGc+P3
-e9iBxL00SHt6M/mdueiyfImOzbwJYmjxV8lZlNAm+MY7hJ8tai0UkBKLcSfJyUki
-p0h8u9+PH1dlDDQMAvvmVvKBJJLXClhTAnn6u9Tgyy2lVqNAzP8=
-=IKiQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ/P0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BuAP+wfqbnXXEv5hI2e/BSHB
+CGtIXf6Q24LhCfVPUq8MNAhqZXzcSjxqvM+kMt9/mkweifR+F4GBb5zcpl2TQ1zp
+Yb4yPrrw4U32i7PEGwz3PshOcM4aSX5vjgeEjx4SmCRWR3m1klgUMcwqjfYbCsZq
+TiiViWnlSrW08IJfGR/fJwCkMi9eLXq6hARPFobqy3kCVYP3MiiuqbASN+7Sy9B1
+pTFO0OLPySWNAQrrezadlNHNpT4CH8FKUeR9soymK4Omp/09Aye9NR46IdbkZVtQ
+zf8+V9ae/ihy9i9cVmA2bE0Mv5uUQUpzECw8D8nsD8Si91pXXx0J86az7H+TB+vO
+geEfdP6S1lJzqfN8ijZeRbrezUUb57xbMZvGkZXLz5Jmsf41qochEzZGYX8WPDNx
+D8ax+KeZtADM3Gdvw4u6zy0kC6qCHgsIbzR1m6jh2pW0q1XG0knpTUHa7yh0lXR/
+0X7Y6reb2l2PlEpYjSh6VBiqmniq3Jdf5/WDTMdpkdQee48guNFsUPY7NCKK+c5W
+vz2SQpCcwp3hloxuuaDi8TYTrEZchevMsFKgbmCIOfPocRZsaJv9hcx6CkH2CWSo
+WZNnRk6yCgDpQ7joojOT0SUIpkcpnvV19JRyxpaMyTKDBR/lYMh3B8ZYSYEzfMcB
+goH8qjeLYXwkjZQF9XPVm9B9
+=FRW7
 -----END PGP SIGNATURE-----
 
---===============0393720249090799744==
+--===============8413462565381910570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cdeaa50eae8-afc2830892a1.txt
+Content-Disposition: attachment; filename=revlist-5dcef303b29f-7b5b51b2b05c.txt
 
-fe179677b6dcb4b658586038a811f87265e97777 powerpc/pseries/Kconfig: Enable CONFIG_VPA_PMU to be used with KVM
-71152e76ac2bfecf271053cbaf3901386f34ce22 kvm powerpc/book3s-apiv2: Add suite initialization to skip GSB tests without APIv2 support
-821e8ab291da56bbdfa408e65321e27d2cbe1c78 powerpc/spufs: fix out-of-bounds access in spufs_mem_mmap_access()
-1e3d4994510a8860f68c3548c3335dec5b194a93 powerpc/85xx: Add fsl,ifc to common device ids
-1d7bb3ef5571d87f5c0a035766e7cfeb7f090ba8 powerpc/vtime: Initialize starttime at boot for native accounting
-2075bf71f976170d62772cdd60bf3ccf0ba31a63 powerpc/uaccess: correct check for CONFIG_PPC_E500 in mask_user_address()
-dabe0f87504918907adf29c99098402408cd3e05 powerpc/pseries: fix memory leak on krealloc failure in papr_init
-f1f9e760e1894dc33c2a35f880883b6d5ea1cecd powerpc/dt_cpu_ftrs: Set CPU_FTR_P11_PVR for Power11 and later processors
-10ad899a35663aca509b8fbc8ff0572bdbb361c2 KVM: PPC: Book3S HV: Validate arch_compat against host compatibility mode
-4747e17fe063720a30b1c0075bae3e8f8acd26f4 powerpc/32: Use HAVE_PREEMPT_DYNAMIC_CALL instead of HAVE_PREEMPT_DYNAMIC_KEY
-28e3dcfc4d39f571397c5b440eac0d20e945e7d4 powerpc: Remove dead non-preemption code
-afc2830892a128a13a65f677271a0a48aeb61b5e powerpc/syscall: Fix syscall skip handling for seccomp and ptrace
+bd0abfe6b013aeb2a1aebc5fbc7ceeb50355bda3 powerpc/powermac: fix OF node refcount
+714cfe9e143feb2136e9dc331c43e2453b3c3d4d driver core: platform: provide platform_device_set_of_node()
+8877c06885ce43780f7630973dc47cd3a625524b driver core: platform: provide platform_device_set_fwnode()
+5b84ef0b029eb488c6a8fd83eea37010ac63b5e1 driver core: platform: provide platform_device_set_of_node_from_dev()
+67e1ddc9f7e37d19d749d7767e5370d57fc92406 driver core: update kerneldoc for platform_device_alloc()
+6261c7cde02c0d4b52b68e751df1309dc4893eaf of: platform: use platform_device_set_of_node()
+002919316dac259ffaee8e1187ecce617ffcdb2c powerpc/powermac: use platform_device_set_of_node()
+34934e7cd1be95a3cd8b33f5231cfae2d08a815b i2c: pxa-pci: use platform_device_set_of_node()
+6fc33ee89d274b72383cc6b275dffc0a99576dc4 iommu/fsl: use platform_device_set_of_node()
+fa20a8968c03650deec369245fcac535ac1d7839 net: bcmgenet: use platform_device_set_of_node()
+b830f5f871ad32be484f486ab518edfdf4ee8b97 pmdomain: imx: use platform_device_set_of_node()
+4108b2633d082c194409d4ab62af887e8e01da39 mfd: tps6586: use platform_device_set_of_node()
+6e502e1725ad76bd8718d3d6bba9177cce959ef8 slimbus: qcom-ngd-ctrl: use platform_device_set_of_node()
+d5e15708c868283712768e5e0a1e3031353881f5 net: mv643xx: use platform_device_set_of_node()
+e766abbc5191b444176c3b26713e7ac2f412b351 drm/xe/i2c: use platform_device_set_fwnode()
+5963c8563d07bdb7b80226d5d3e57d68d7641b53 platform/surface: gpe: use platform_device_set_fwnode()
+7afe78d6daa374e942a14df8c17311c512c98a02 usb: chipidea: use platform_device_set_of_node_from_dev()
+16aa2d3847bef0cfbab1ad76f29334369eda2374 usb: musb: use platform_device_set_of_node_from_dev()
+7a78fc208252c9a63eea5fe35259cbaf455b9227 reset: rzg2l: use platform_device_set_of_node_from_dev()
+7b5b51b2b05cf2b49eaa3808b1c2953cfb8e1cae driver core: platform: count references to all kinds of firmware nodes
 
---===============0393720249090799744==--
+--===============8413462565381910570==--
