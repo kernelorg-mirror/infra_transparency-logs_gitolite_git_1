@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 10 Jul 2026 00:22:19 -0000
-Message-Id: <178364293968.3693098.11827311478625063140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 10 Jul 2026 00:40:20 -0000
+Message-Id: <178364402003.3707063.15715577950313031687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: fa84683b892e2590401e655bebe6ba461367adc7
-    new: cb6417b360a7ad215cde42aa2cf56a2076cac560
+  - ref: refs/heads/perf-tools-next
+    old: dcb87c88952046ef43cb5ba3a5b95eb29c362a16
+    new: 8c5f60344b07f839267c0c835962e2206143be85
     log: |
-         cb6417b360a7ad215cde42aa2cf56a2076cac560 x86/boot/compressed/head_64.S: Cleanup SEV-related comments
+         eda39f98bbc5ce8b7b0be10193d2de38ed59da6c perf vendor events amd: Reintroduce deprecated Zen 5 core events
+         261210854462ef5e587eb1b740aa06dbab3b3a40 perf stat: reject --field-separator and --json-output combination
+         8c5f60344b07f839267c0c835962e2206143be85 perf dso: Fix kallsyms DSO detection with fallback logic
          
