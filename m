@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8504438519348999697=="
+Content-Type: multipart/mixed; boundary="===============6970424702768601010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 10 Jul 2026 16:21:01 -0000
-Message-Id: <178370046110.282499.11946999009729692413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Fri, 10 Jul 2026 16:21:17 -0000
+Message-Id: <178370047751.282984.12894660110800710761@gitolite.kernel.org>
 
---===============8504438519348999697==
+--===============6970424702768601010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0261648e5d8bbffffa6f2508ebda4b951efca827
-    new: 0d411710b51ec8042ab835b1ed73372ec09bbd1e
-    log: revlist-0261648e5d8b-0d411710b51e.txt
+  - ref: refs/heads/export
+    old: e6ce9ffe5d02034a38e8bca7b78a7f58aff8caae
+    new: e9eb90547e8b1aa55b0144067229d7344248e278
+    log: revlist-e6ce9ffe5d02-e9eb90547e8b.txt
 
---===============8504438519348999697==
+--===============6970424702768601010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0261648e5d8b-0d411710b51e.txt
+Content-Disposition: attachment; filename=revlist-e6ce9ffe5d02-e9eb90547e8b.txt
 
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
 8522d806d84e2c3816c275ae6dd79e124c1b3dac ACPI: TAD: Check AC wake capability before enabling wakeup
@@ -345,9 +345,11 @@ b5c55015d4164a0f206bcdcf2985da948b3c7837 drm/xe: fix NPD in bo_meminfo()
 abf08854d224085e2ebb3ba660e7995909f47d6a x86/uprobes: Keep shadow stack in sync for emulated CALLs
 5166973b20784b4627c7a657d546963d8c6e9b5a selftests/x86: Add shadow stack uprobe CALL test
 169328645663bae30e9abad4012d52441e085a71 uprobes/x86: Use proper mm_struct in __in_uprobe_trampoline
+49df66b7993c80b80c7eb9a84ba5b3410c8296a0 batman-adv: ensure minimal ethernet header on TX
 c16b8c4cfb4fe2244cc33e469a93c1ab8684146b cifs: Fix missing credit release on failure in cifs_issue_read()
 2995ccec260caa9e85b3301a4aba1e66ed80ad74 s390/monwriter: Reject buffer reuse with different data length
 83245e7a436c04e511378af14dd81fd188b41541 ASoC: rsnd: src: Add missing scu_supply clock to suspend/resume
+fdb3be00ba4dafa313e699d6b5b90d13f22f3f25 batman-adv: fix VLAN priority offset
 39def6d250d370298f86c116f4ac60093cefadaa futex/requeue: Revert "Prevent NULL pointer dereference in remove_waiter() on self-deadlock""
 46d67197521e41fc0077ce3efe459dce82622631 Merge tag 'drm-intel-fixes-2026-07-02' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 7e21dc06c7270496b020c5fd44b9fa08b568e9b4 Merge tag 'amd-drm-fixes-7.2-2026-07-02' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
@@ -400,130 +402,83 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-a707e4127c0f893c7a7703500ab56297a5bd2d51 wifi: mwifiex: fix roaming to different channel in host_mlme mode
-44494b0d1d16e76ae805817579eacc801b10ed37 wifi: mac80211: allocate backup ieee80211_nan_sched_cfg off stack
-d78a407bad6f500884a8606aea1a5a9207be4030 wifi: mwifiex: fix permanently busy scans after multiple roam iterations
-536fb3d739d75a03cb318c0c6fe799425cfea501 wifi: rt2x00: avoid full teardown before work setup in probe
-edf0730be33696a1bd142792830d392129e495cc wifi: cfg80211: cancel sched scan results work on unregister
-0d388f62031dbabcba0f44bb91b59f10e88cac17 wifi: ipw2100: fix potential memory leak in ipw2100_pci_init_one()
-c6659f66d4ee4841aafae5659d2ef5e4c5c63cb6 wifi: cfg80211: Fix an error handling path in cfg80211_wext_siwscan()
-10a2b430f8f06ae14b9590b6f6faa6b588ef0654 wifi: mac80211_hwsim: clamp virtio RX length before skb_put
-1d067abcd37062426c59ec73dbc4e87a63f33fea wifi: mac80211: fix unsol_bcast_probe_resp double free on alloc failure
-286e52a799fa158bdbd77da1426c4d93f9a6e7ad wifi: mac80211: fix fils_discovery double free on alloc failure
-aa6dcd5c8dd9ba1d7d0f60093bcda41c0d6d438d wifi: libertas_tf: fix use-after-free in lbtf_free_adapter()
-63c2391deefb31e1b801b7f32bd502ca4808639b wifi: libertas: fix memory leak in helper_firmware_cb()
-23b493d9dc5f00bba59347bd8ec7b044e26392a0 wifi: mac80211_hwsim: avoid treating MCS as legacy rate index
-2c51457d930f723e5f2903af90f5847f7df53f42 wifi: mac80211: free ack status frame on TX header build failure
-aa2eb62525188269cdd402a583b9a8ed94657ff0 wifi: mac80211: defer link RX stats percpu free to RCU
-ebd6d37fa94bee929e0b4c9ca19fdf9b1dcf6cea wifi: p54: validate RX frame length in p54_rx_eeprom_readback()
-843fe9bc583b7686ca68312ac9319c9240a73c03 wifi: rsi: avoid reading TKIP MIC keys for non-TKIP ciphers
-74e27cd1d98b546fdb276008a83708d062339661 wifi: cfg80211: validate EHT MLE before MLD ID read
-2b0eab425e1f658d8fe1df7590e3b9af5959505e wifi: cfg80211: convert pmsr_free_wk to wiphy_work to fix deadlock
-0a2581cbae9e442835f68d22044157db61cdf54d wifi: ralink: RT2X00: init EEPROM properly
-13ff543e0b2c713aedeaadadde686686e949dc78 wifi: libertas: reject short monitor TX frames
-d06a3e60c8fead962f08cf951eb1de7bd22dab76 wifi: rsi: bound background scan probe request copy
-74ed3669f26803b1761c1f55403062bea44c3466 wifi: libipw: fix key index receive bound checks
-8ecdeb8b8a33b22c597299043c0dcfce50beb9ea wifi: rsi: validate beacon length before fixed buffer copy
-07a95ec2b54774201fdf4ef7ffb0ca2ab19ed29c wifi: nl80211: free RNR data on MBSSID mismatch
-57d503ce32eccfa7650065ca4c560f7e29a2e676 wifi: mac80211: validate extension-frame layout before RX
-4e5a4641e7b4763656336b7891d01359aaf363cd wifi: cfg80211: derive S1G beacon TSF from S1G fields
-293baeae9b2434a3e432629d7720b5603db2d77e wifi: ieee80211: validate MLE common info length
-7f4b01812323443b55e4c65381c9dc851ff009e3 wifi: nl80211: validate nested MBSSID IE blobs
-172f06023669f0a96d32511669ff45c600731380 wifi: nl80211: constrain MBSSID TX link ID range
-41aa973eb05922848dded26875c55ef982ac1c49 wifi: cfg80211: validate PMSR measurement type data
-36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
-69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
-57c05ce14fea03df01288fe1250f49197e161710 wifi: cfg80211: reject empty PMSR peer lists
-035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
-4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
+8669a550c752d86baebc5fdc83b8ff35c4372c0e batman-adv: clean untagged VLAN on netdev registration failure
+27c7d40008231ae4140d35501b60087a9de2d2c3 batman-adv: tt: avoid request storms during pending request
+7a581d9aaba8c82bd6177fa36b2588eea77f6e2b batman-adv: tt: prevent TVLV OOB check overflow
+6b628425aed49a1c7a4ffc997583840fc582d32b batman-adv: frag: free unfragmentable packet
+353d2c1d5492e53ae34f490a84494124dc3d3531 batman-adv: frag: fix primary_if leak on failed linearization
+38eaed28e250895d56f4b7989bd65479a511c5c3 batman-adv: mcast: avoid OOB read of num_dests header
+98052bdaf6ac1639a63ffc10244eeeab1f62ed2b batman-adv: dat: fix tie-break for candidate selection
 cead34ac1ce10046cb745fbc33a4b21cac899753 MAINTAINERS: update ndesaulniers
 0e35b9b6ec0ffcc5e23cbdec09f5c622ad532b53 Merge tag 'mm-hotfixes-stable-2026-07-06-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-f3858d5b1432098c1936e03d6e03dd0e33facf60 wifi: mac80211: free AP_VLAN bc_buf SKBs outside IRQ lock
-95fc02722edde02946d0d475221f2b2054d3d8ba wifi: mac80211: fix memory leak in ieee80211_register_hw()
-0c2ed186bbe14304415476d6707b747dddcd8583 wifi: cfg80211: use wiphy work for socket owner autodisconnect
-4e72459683b5185568e9ffe2584a7b834f7902b5 wifi: mac80211: recalculate rx_nss on IBSS peer capability update
-d0e69d9afa59b93c30294eba89b1f15f69e91105 wifi: mac80211: ibss: wait for in-flight TX on disconnect
-d5e4586546974179feca305a94e07fac3e9727fe wifi: cfg80211: validate rx/tx MLME callback frame lengths before access
-b760113aeca2e9362d56bf9e9263373ffe6c8eb3 wifi: cfg80211: validate assoc response length before status and IE access
-2a665946e0407a05a3f81bd56a08553c446498e0 wifi: brcmfmac: initialize SDIO data work before cleanup
-240c8d2c717b3f8153e7e877b22a82518d78dbdc wifi: brcmfmac: cyw: fix heap overflow on a short auth frame
-cb8afea4655ff004fa7feee825d5c79783525383 wifi: cfg80211: bound element ID read when checking non-inheritance
+3b08fed5b7e0d5e3a25d73ef3ba09cd33ade16c9 netfilter: nf_conntrack_reasm: guard mac_header adjustment after IPv6 defrag
+a622d2e9608c9dff47fc2e5759ac7aa3a836b45d netfilter: ebtables: terminate table name before find_table_lock()
+cbfe53599eebffd188938ab6774cc41794f6f9d5 netfilter: ebtables: zero chainstack array
+084d23f818321390509e9738a0b08bbf46df6425 netfilter: ebtables: module names must be null-terminated
+e6107a4c74b54cb33e3bce162a63048ae5a6b198 netfilter: nft_lookup: fix catchall element handling with inverted lookups
+5d0c22e73656d050daffad10a2ba8765ce8441c8 netfilter: ipset: mark the rcu locked areas properly
+cffcf57bf03cb7f7e83d10f760b5f34e5c51d9b3 netfilter: ipset: exclude gc when resize is in progress
+672321302ed682ccb903004f435bbdb353534a9c netfilter: ipset: cleanup the add/del backlog when resize failed
+724f32699aeabcbd294377904b40b456fd5c67eb netfilter: ipset: allocate the proper memory for the generic hash structure
+c328b90c17fc5fa7786503695152880b2afb9326 netfilter: flowtable: use dst in this direction when pushing IPIP header
+6c5dcab95f4cd42a1648739ec9300fbb4b1a021f netfilter: flowtable: IPIP tunnel hardware offload is not yet support
+fa7395c02d95e51bad2952325d2d6503bfbad437 netfilter: flowtable: support IPIP tunnel with direct xmit
+da5b58478a9c1b85608c9e40a3b8432d071b409e netfilter: handle unreadable frags
+bae7ce7bafb59e42dc0e0e2999fdd9d1cffe3866 ipvs: pass parsed transport offset to state handlers
+2500fa3958b1ba51c2b065e39db1b04dfa7e23a2 ipvs: use parsed transport offset in TCP state lookup
+2f75c0faa3361b28e36cc0512b3299e163e25789 ipvs: use parsed transport offset in SCTP state lookup
+3f7a535ff0fa627a0132803e4c2f903ceffcbc1c ipvs: ensure inner headers in ICMP errors are in headroom
 6bad2e38fe7f2da7dc982b2b80814e632832e568 Merge tag 'hid-for-linus-2026070801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+604e9594449b9907181f4285d0cd6a398bfc9d08 Merge tag 'batadv-net-pullrequest-20260708' of https://git.open-mesh.org/batadv
+6d86ce0da0d5631721c142ea9bb5499cc129b347 net: phy: Drop #inclusion of <linux/mod_devicetable.h> from <linux/mdio.h>
+c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027 net/mlx5: Fix L3 tunnel entropy refcount leak
+b62869a81a7ce388d1fbb0fac5fa8300ea614d81 ethtool: rss: Fix hfunc and input_xfrm parsing on big endian
+24c4c88259464d38b35c3fbaecb68675de64137d Merge tag 'nf-26-07-08' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting PF promiscuous state
+0e74441edefce4cae60f572ca7da70fa9eabc168 net : bonding : Remove TODO comment about retrying setting the MAC
+fe3e786ef4eb6e47d2901f568a27bd920477bbe9 selftests: drv-net: rss_ctx: Add retries to test_rss_context_overlap to reduce flakes
+78237e3c0720fcc6eb9b87e90fd70f63eeca886f dibs: loopback: validate offset and size in move_data()
+f5089008f90c0a7c5520dff3934e0af00adf322d macsec: don't read an unset MAC header in macsec_encrypt()
 2c7c88a412aa6d09cd04b414211b4ef8553b5309 Merge tag 'net-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ec4215683e47424c9c4762fd3c60f552a3119142 ppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF
-f2f152e94a67bc746afaf05a1b2702c195553112 ipv4: fib: free fib_alias with kfree_rcu() on insert error path
-4fa349156043dc119721d067329714179f501749 net/iucv: take a reference on the socket found in afiucv_hs_rcv()
-a0d82fb8505326cbc53dc9a0c08f97d11197bb30 Merge tag 'wireless-2026-07-09' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-1cd23ca80784223fa2204e16203f754da4e821f8 sctp: validate STALE_COOKIE cause length before reading staleness
-3bc6725620794e26019d51802f27de66acf59e5d ice: Fix enable_cnt imbalance on resume
-91a496c0776e4fadd04ba05fe540230fe3ef3404 ice: Fix enable_cnt imbalance on PCIe error recovery
-7421c61743ddec273814e3dd0523afa07bcd4d35 i40e: Fix enable_cnt imbalance on PCIe error recovery
-059b520397f59b08f4ae209e641295f31b6624bd ice: fix FDB deletion
-7786f2b63dc3d1f4c117d6dcc2dcac97588176ef ice: init desired_dcbx_cfg in default DCB config
-f67f2be249ec37a0fc114ff89e6f37ab02338c0f ice: prevent integer overflow
-0de1c9ec9ed64bcca6bda76e443efc8300a69570 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-abc43574cdb6440ae9594556b55516f551aa8845 ice: check cross-timestamp timeout bits
-135d13d05872a67123100d23b671a0b8533e86a4 ice: fix PTP Call Trace during PTP release
-8f396002bf860ed724675bbed40995b3a0070dc7 ice: use READ_ONCE() to access cached PHC time
-98dc9a04994c90324af7437cad825e451a740d1e i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
-b142cd86f7b1027dc8223cb46caab676cd776697 ice: fix null-ptr dereference on false-positive tx timeout
-44b5051ae0dd8b5ba1e94c177d75c9b0f246de01 iavf: fix error path in iavf_request_misc_irq
-2d3004c22fb6dd9ebb40aff56d4de22ba8a9656a iavf: prevent VSI corruption when ring params changed during reset
-5f1c1a23d29daf20f28ee9bcc4af0777da12b8bb iavf: return 0 when TC flower filter not found after qdisc teardown
-94c938f0da12421c9be0da3b1156a2b31215f803 igbvf: Fix leak in TX DMA error cleanup
-7e9762fec88ad24a0361ae3e106499b4109368be ice: fix asymmetric pause negotiation reporting in ethtool
-3894045de073344146c8654469f0d6dd584cc6fc ice: fix autoneg disable when link partner doesn't support AN
-03a55767a4aac2de362d03e14d899ff6cdfd716b ice: support RDMA on 4+-port E830 devices
-5c58d817915e28ebc437ed3d3e9a7fd4d60b9845 ice: report EIPE checksum errors to the OS on E830
-00a721726a565e4e511cba6a6a2a8d668f82b35d ixgbe: fix SWFW semaphore timeout for X550 family
-66d128f7abc23f79e761f8e7488350a678d6cde4 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
-896bab720102ff96895c99b22c43338a5ac2bf89 ixgbe: fix ITR value overflow in adaptive interrupt throttling
-cd88d8d1fec9e7ccb623dc2fc7df1ae1dbacb729 ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
-268d0369cda4eb6c8943d51534e6efe54c20e4d2 ice: only free LL TS IRQ when the handler is present
-5f4059c7207e4d436878d5fda3250b0e77be356c ice: always do GCS if hardware supports it
-e826899b181e2d61c75e77fbe799e51e915c54f7 ice: use NETIF_F_HW_CSUM instead of IP/IPV6
-009f0a9bf9c3ae6c615b3aa0b4bfe40feccb39a3 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
-70f4998fd9eb5be09c91573f5373c8f76bd2f1d5 ice: wait for reset completion in ice_resume()
-5431bae5103946dbb464805b7c7cb9ba94a13ea4 igb: Return state in pm_runtime_idle instead of power-down
-56998c88c88decac50a8326f11884b10ddf268f1 ice: fix VF interrupts cleanup
-d22ee183da18ecc547a3db1a092bb4efc9a3e0c6 idpf: handle NULL adev in idpf_idc_vdev_mtu_event
-d43738564cc931f28977a4be751788c93f4ed235 iavf: validate num_vsis in VIRTCHNL_OP_GET_VF_RESOURCES response
-1cb46e69800875f4caaaef5e5fee4c2984179cd1 ice: fix LAG recipe to profile association
-1b4bb5bddfe130e9fe4e7f536c3d4bb57738d109 ice: support SBQ posted writes with non-posted support for CGU
-d1562ba86968dc7ab0bcf9bc50baa3ce0f77b6a1 ice: suppress DPLL errors during reset recovery
-f5e2946e80284d708890452ca89c9a9f617475df ice: prevent tstamp ring allocation for non-PF VSI types
-4f069bfa3357ba053c493e6af614b2e704257e41 ice: reject out-of-range ptype in ice_parser_profile_init
-d50213c036c15d318b47d184d07c8bdee5498f77 ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
-fd9dc04eaa23dc67f5e3a9bcd63d6761af42abd9 ice: Zero out the PTP control PF pointer at ice_adapter cleanup
-c6e140549148b5235e7c9a6a4fa6b8f98c2c20c0 ice: Cache struct ice_hw pointer for split register reads
-33b61a73ffce323f6aa44f47c44adfeac8f9e1b1 ice: fall back to SBQ when LL PHY timer interface times out
-e1a9b29425bca542b8700facc8a059862d3052d6 i40e: fix netdev leak in i40e_vsi_setup() error paths
-0be1d8a97788631756b917032465a5a1ef4f3754 e1000: fix memory leak in e1000_probe()
-f1446761faace63fd816ce8a7b8037894959a614 ice: fix memory leak in ice_lbtest_prepare_rings()
-077c5f672a1acb55364760f106506ed75fa99aef iavf: cap advertised max_pkt_size at the single-buffer HW limit
-eb8b93bda248f17828c05ba0fed90c23edb261f7 idpf: bound interrupt-vector register fill to the allocated array
-3989c1664b938e9593e1abb3cc9c2af4f715c647 ice: eswitch: fix use-after-free of metadata_dst in repr release
-564bdc45c578a0808629df8eebb5a673299527ac idpf: fix max_vport related crash on allocation error during init
-cfb3123a4a9534638e811ab691df4c68a2affb18 ice: clear the default forwarding VSI rule when releasing a VSI
-ec10214a26d3ac7463711f5341c39b6b41f20514 igb: only strip Rx timestamp header on the first buffer of a frame
-6c4481968bbb912da9d3cdeea2b3a3ed8ab66a67 iavf: return EBUSY if reset in progress or not ready during MAC change
-384ee7ae723516044789289fafaf150807b504d7 i40e: skip unnecessary VF reset when setting trust
-94c7522c25235eb610ae8ac3e2fbfc6aa7ae487c iavf: send MAC change request synchronously
-4c7898a9bbff3561fa5c66f58d74bbed21d320b8 ice: skip unnecessary VF reset when setting trust
-8a260a2849d4375e2bec273039a0759da43954c0 e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
-34c4f74bee4e39a3508b5f095161ad8a1f4107f6 ice: use global queue index in TC to-queue offload
-ffe288756181d8d1beb28c79e589e1499a822899 igc: Fix RX HW timestamp reporting when NET_RX_BUSY_POLL is disabled
-0f0a0235a41cdcfd8263c03db971ff3d344b68a1 idpf: adjust TxQ ring count minimum
-110bf54d1b55d93b1d7f55acace83fc11dbbd3f8 i40e: unregister netdev before clearing VSI on reinit failure
-7e9a20d316215b50d916223f67980aa351be3498 i40e: avoid null ptr dereference in i40e_ptp_stop()
-8c7d8738e0f85ed42d4e0b89a6d049339368e875 i40e: make ring pointers unreachable before freeing via rcu
-85e76f2de4609fc2b04994e0abb89fa4f02b16d7 i40e: avoid deadlock when calling unregister_netdev()
-c9f6c17692a866b2c06d6d3c309c6c8e1ab48bbc i40e: fix potential UAF in i40e_vsi_setup()'s error path
-b5488f2ece76bade5e1f33fab121b450f93de22f i40e: do not expose netdev too early
-097f722a88084fd941c619de300e6265af2a377e i40e: keep q_vectors array in sync with channel count changes
-fd97c6249752ba29c8bfc7d18b3372df1a6fe669 idpf: Fix mailbox IRQ name leak on request failure
-e664a27f7f7e302856ed4973afa4cd351148bcdc ice: move ice_vsi_realloc_stat_arrays() up
-e3906b14343fcfd0dca97b9e8b6a0c5773cc04ce ice: fix stats array overflow via proper realloc
-0d411710b51ec8042ab835b1ed73372ec09bbd1e ice: add missing xa_destroy for sched_node_ids
+b470fde8f77b56ff273c5527484b99499b894e16 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+93a0914b9292ee8556af4dd0acf1a88c812c9ef9 DO-NOT-MERGE: git markup: net
+5ddf0dcdfe5a2a8afaa98ad3a0c84b7421211185 DO-NOT-MERGE: git markup: fixes other trees
+b236226f1822d8decddc409fb68f96c8ca3e572b mptcp: fix stale skb->sk reference on subflow close
+e60e2cd86152634fe8f5d582b548f94daa2b72e7 DO-NOT-MERGE: git markup: fixes net
+41a52aed4b634a3b7ce6ed87e2607daea3d9fa75 DO-NOT-MERGE: mptcp: add CI support
+9bb1de2ea5022fffa246968108bdd5499c072702 DO-NOT-MERGE: git markup: end common net net-next
+0fb0455929cf2605b67f2cb28fdcb601e864fd9f TopGit-driven merge of branches:
+c74ae0dceaa2f4f505735d91e323ba3ec7cee120 DO-NOT-MERGE: git markup: net-next
+8933f36be79feb00e2ab76d252d59fa6826d7f35 DO-NOT-MERGE: git markup: fixes net-next
+2333590fb389bbef74e7e59cf8899d96f560f9a8 mptcp: pm: init and release mptcp_pm_ops
+afcb70b5f997ac5113c02a7c8d2e68e9c667ca9f mptcp: pm: add get_local_id() interface
+20c03020216bce15c3bf97f5a6bfc4e7d3425217 mptcp: pm: add get_priority() interface
+a8b359cf5e444cfae9feef530abf0e8fc7bc1ff9 selftests: mptcp: connect: test name in pcap file
+94572e07740e564b673242e8c162c9ac1622d814 selftests: mptcp: simult_flow: test name in pcap file
+a34e0cebce6e7201fe0c8c0c6d105a4523ed22ca selftests: mptcp: pcap: drop most of the payload
+f1a0286a124e86510c6d894ca4f4ce0dd2a56b07 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+d4b7c41aa46f300dc430885ee9f6f7ad9aeb9952 mptcp: remove unused data_ack from struct mptcp_ext
+cbc69701dea4c52585af2d4f7457b4d3320b6f40 mptcp: move the retrans loop to a separate helper
+43f48884cb06ea0c4fcbf6d4400770b3e2d0d5f2 mptcp: let the retrans scheduler do its job
+cccbc16ee2366fe6f81092e27f0fb74923d9996d mptcp: explicitly drop over memory limits
+a7c1cbeeffdd78e68b7b1b5a503ca27401af5a43 mptcp: enforce hard limit on backlog flushing
+5bb0cd6f6d504e18ded6ddf2d5a29fb42732c109 mptcp: implemented OoO queue pruning
+1aea4bfe2ef4e08eb8737de425e709fc22800e47 selftests: mptcp: fix const qualifier warnings in strchr usage
+e998f1f13db2275ecb3a0699318cd325608f2c27 DO-NOT-MERGE: git markup: features net-next
+1516110c70a37430811e2655d064d886295efa33 DO-NOT-MERGE: git markup: features net-next-next
+dec66b3331000036881a688f63c681217f241ed3 bpf: Add mptcp_subflow bpf_iter
+827b4383b54837a446be168ae8adf4731d3eefac selftests/bpf: More endpoints for endpoint_init
+9e90b03fecfa2e29a0a9607deed66d13a9566eef selftests/bpf: Drop cgroup_fd of run_mptcpify
+0ac5103984704c61913ff991a6b84247d5a474a4 bpf: Add mptcp packet scheduler struct_ops
+0e256753bd55fc6a1d3225b1e4eb7b8d6760efaa bpf: Export mptcp packet scheduler helpers
+356cc0d9439be46aa6e486e106a02ffc4d5bd0c0 selftests/bpf: Add bpf scheduler test
+4efe756b24f92242e22cf7f6b5efb937ac95055d selftests/bpf: Add bpf_first scheduler & test
+cc90b8189f09c1ac7700270b2c1e5a190bec36dc selftests/bpf: Add bpf_bkup scheduler & test
+959e4377caed37ba46998cf0149d5428033b6466 selftests/bpf: Add bpf_rr scheduler & test
+be2952fefefdb3d6f9928146383a07085c529158 selftests/bpf: Add bpf_red scheduler & test
+7ea7388688a16fbdcf55710a6937af34fc2c128b selftests/bpf: Add bpf_burst scheduler & test
+35ef0e1bc9ebc5117956584882c6f7fc78b06d91 DO-NOT-MERGE: git markup: features other trees
+bac7731cc4b837b050b97366ff06e70f65c0c817 DO-NOT-MERGE: mptcp: improve code coverage for CI
+e9eb90547e8b1aa55b0144067229d7344248e278 DO-NOT-MERGE: mptcp: enabled by default
 
---===============8504438519348999697==--
+--===============6970424702768601010==--
