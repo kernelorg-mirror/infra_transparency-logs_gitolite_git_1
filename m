@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 10 Jul 2026 20:31:30 -0000
-Message-Id: <178371549024.462746.7595902606651217775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 10 Jul 2026 20:32:37 -0000
+Message-Id: <178371555782.463196.837889992928086948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 6fc2f7aa4502676a857124e05538824367c18c06
-    new: 7b3732d512affa00ac1f6f3faa20c0ba33dcc5bb
+  - ref: refs/heads/sysfs
+    old: 5b95212de6dcd7e0275cea7f894fe7226c7d9f29
+    new: 651fb94aaf245430590216d497fb8b02dd73d5f9
     log: |
-         08b3f90c09bbccb99f935f967b145c7867b06d61 man/man7/pipe.7: Note kernel commit of the soft limit triggered cap increase
-         48e421c663f9d417a4a79b5389436c576dbd1fd0 man/man5/ld.so.conf.5: Add page
-         7b3732d512affa00ac1f6f3faa20c0ba33dcc5bb man/man8/ld*.8: Refer to ld.so.conf(5)
+         651fb94aaf245430590216d497fb8b02dd73d5f9 alpha/PCI: Fix I/O port accessor argument order in pci_legacy_write()
          
