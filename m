@@ -1,61 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2007353222757001498=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 10 Jul 2026 12:43:21 -0000
-Message-Id: <178368740101.120878.8692369364767107234@gitolite.kernel.org>
-
---===============2007353222757001498==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 10 Jul 2026 12:45:28 -0000
+Message-Id: <178368752889.123387.3572578486755835947@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9505146e885b1a842118aa6410f737290c4a5a32
-    new: 970ede67de0e3f6a1e707ec99ae49d80bf3f2966
+  - ref: refs/heads/dm-7.2
+    old: 8d4dd2db7f4f3af0d3cd51111d050301c1f00a5c
+    new: 8ec4d9c5a5cf4b61fc087f871465b1f79b393325
     log: |
-         4d105880666ab7f7914a75716d3e95b0d8b879dc tty: serial: mpc52xx_uart: add bounds check for psc_num array index
-         d338ab1d90603f875c4f7ed223406535378173a5 serial: 8250: Clear CON_PRINTBUFFER on port re-registration
-         831603b3e8aa3892de229fda846b2f859c518699 serial: cpm_uart: replace irq_of_parse_and_map with platform_get_irq
-         31e11af34e2c7cc61e25533ab877b1f9cc3eb528 serial: 8250: force synchronous probe for the ISA and PNP drivers
-         a9b2c446e36f60e540ec29f756bbb5a1de37811a serial: qcom-geni: trace: Drop redundant len field from geni_serial_data
-         970ede67de0e3f6a1e707ec99ae49d80bf3f2966 tty: serial: pch_uart: add check for pci_get_slot()
+         24d7e5e39b04c1ef8eee0688ca1527e879b22a40 dm-integrity: fix the 'fix_hmac' option
+         7bb03b2b01b814a9fc14afbfc2cbb2cca5b34750 dm-integrity: fix leaking uninitialized kernel memory
+         edf025f083854f80032b73a1aad69a3c90db236f dm-integrity: don't increment hash_offset twice
+         5a266764fadaff8b5c1fe37a186ebf9b09cb953e dm-integrity: fix a bug if the bio is out of limits
+         366665416f20527ff7cad548a32d1ddf23195740 dm_early_create: fix freeing used table on dm_resume failure
+         76c6f845dc0c614304a6e6ee619b552f97cf24b3 dm-ioctl: fix a possible overflow in list_version_get_info
+         72e9ec2fe32b00994f41719cf77423fca67d48b2 dm-verity: avoid double increment of &use_bh_wq_enabled
+         e72b793ae440f6900fb17a4b8518c707b5cd3e17 dm-verity: fix a possible NULL pointer dereference
+         88dd117c92a142253fb7a17e791773902b3babc6 dm-verity: increase sprintf buffer size
+         8ec4d9c5a5cf4b61fc087f871465b1f79b393325 dm-verity: make error counter atomic
          
-
---===============2007353222757001498==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783687398 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1783687399-b9961815dd4d3c7460d2d9a78445462be3fed8c8
-
-9505146e885b1a842118aa6410f737290c4a5a32 970ede67de0e3f6a1e707ec99ae49d80bf3f2966 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ6OYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TKsP/ivw++BxSrfzXQi/OeCh
-hbW9DStPYWkMPX5BwAhscHbzUAt6fIDMr86Im/cjJPDk1t3wwLEF+6PBaHhMvYzX
-ukcgp+MK5naHFeubP078zOZfWJASge3/sI/Ci0UlF1et3XMnfcXQxeYLoGCJqeDD
-WsZgFhSLEpcGeGdYOIwFM2/c71r73YCHcvzzoufsRnL4igSvRua77Wm3NNh1/lWe
-WmVQJRVB7d6zeV3pDwE2caCBI1ky/QpW5ek0aRpKINLcs+HhCYseB+k2V9FAQ2I+
-jmnMwYpdOCsto/ACkr8iXnLwthUIX+4lrmiZiMK8BbgVd+7BbPlJzxzaOH8lLnYy
-RfIwCqpp9e/8qHRgkCLWWzfvcoUI439DWFjlHqJt7cWl2mWEkFQzcjOUp1bDGABD
-v4YrBQygYvSiko7uD6mhHddScu2MjRX6C1VjL3SMJnK4zx/hqPww13kxEZiVHHpK
-xxUSq6R6iVWyFG6oEnuYy3rBvSAmwzhmbhkXvZ6wnqoGFVTBkiN3qFJjjFxia/f6
-2iJgtc2oJ3o6jqgHbqbv9U8IfwolN9WrcRFM6ztW4Qbn4Onh3N0DwPSpDmTAfz1T
-N3U/vb2cNFAy29ltwKeWvBAdQV1DnpjPTqSR33sFxbxpIYDICTS1VdjPj33ABI3t
-AJAD7n4Y0ruv4ReF2saT9wGe
-=0aQU
------END PGP SIGNATURE-----
-
---===============2007353222757001498==--
