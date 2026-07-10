@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1657847524646233514=="
+Content-Type: multipart/mixed; boundary="===============0183432491847803052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 10 Jul 2026 12:01:31 -0000
-Message-Id: <178368489165.92228.17495711522474709110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 10 Jul 2026 12:04:00 -0000
+Message-Id: <178368504039.93173.14204072558667888141@gitolite.kernel.org>
 
---===============1657847524646233514==
+--===============0183432491847803052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0d9e55537625ee7ecd765f264d32144343496339
-    new: 74861cb836bfccc8a2eaf38521b752b45ca8cfff
+    old: f66abd2ee48dd4ba645b56e8f11c5a21f5cd71d5
+    new: 526d1bb3d9b1a1e01a7c3f742bcac8d6573f6ce1
     log: |
-         3e6b377b86c46536828949caa5a6179a1a189f5c assign a CVE on request
-         d624a8187be7eb8ea84b790e0b36af45d5468161 reject CVE-2026-53166 as it was reverted
-         74861cb836bfccc8a2eaf38521b752b45ca8cfff strip the new mbox file
+         526d1bb3d9b1a1e01a7c3f742bcac8d6573f6ce1 6.18-stable patches
          
 
---===============1657847524646233514==
+--===============0183432491847803052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783684889 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1783684891-4a27216521d12a7e5ee05120fb3a809800ffbf60
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783685037 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1783685038-b4e38165f62a82f451adb9945af4a00ebd6815cf
 
-0d9e55537625ee7ecd765f264d32144343496339 74861cb836bfccc8a2eaf38521b752b45ca8cfff refs/heads/master
+f66abd2ee48dd4ba645b56e8f11c5a21f5cd71d5 526d1bb3d9b1a1e01a7c3f742bcac8d6573f6ce1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ3xkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2MQP/1BB+xnXKtla30hWEJwv
-rpz+MXImQlA35Mm7b0xAI09apwRX5tEZaJx7JmxYVO8KHaIwzkO+yoER24pjav8T
-4QFMOYK4m/eDmD9OE8+BFxWPkLRDfgs7PkMKE5VFCM5yAXFDezGvi5kHG+67XpR9
-v+KbTEHKFduQGfwJM1wnQDsM5wZ5sv5SYxH8TbUPsicZ2zujPUzCbPyNpP0pIDdY
-WOGTLKbsMf7KPViBBnFFGDZZJUjoYjOWdWsCNURJlgcHAaXMBhNz+LtNsVB5W8zV
-P62D62NU4xsQQphIX/G3ISQtwddHvysDPe/bB0D2zT6nU7farqHpgZ+a8R0wDKKY
-AuK48EU0IJALJtVl7XKKbKMKGoyLv6pwIORaRi3mDoHvZv+zpovgWGyB4WvBvyws
-IV8/qy2mxwYCoGx5JI4Puk6faHsqH8gQviWBiCtHXn8cFlaabUaiE9Jcn0Y/ukMk
-8DpAQAPECumLrCt3j8xeB9dtPUreMJo9boD2Xeg/iwO/3/ZDfOqVvjrhPsX1lWuF
-ZT7rD+e++luPAQMCJ30FXAViyHtspX8S2FpFq8dZZJ5q3VMxUxkpQyoeIAzzcj/6
-Y1B1bDAZ5KcC74mOyN0HJmnSYxyIIosS1W7CFc9z9N1JdxDiSlU/elxayw8OuIWZ
-nIocaXRYajvXXk/IBNqkvLQd
-=LWpE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ360bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zB8QAM7p9kKOnWsZtupqxd3y
+rkp7rcI7xW/qmG56iHuHiHvBE3s0rHSJrCRWdXZyL6YLYcpADcX4qP5LWSkNQpaQ
+2J/jTGwtG7CO7Nat9pxoAABZ8aa+LfvJuUDivkhuryCAEj21oddUjkN+C8qH1tyZ
+fS2bEvlQzvuGPh0tibbxWkijLdOvaSHbkow+hFnwRRT2ijh3dQvZjQJQPgQUQW6T
+vrX4AvEDIaIwzneirNmeCVIVk5hM6f30jWkgE458RJlRlskt0RFy8Ho6aZl63Hzb
+ZFjnzjRrAww5wIk5eATkyn28RKQJMHoa733NrNUEeH7T4GFtHwq0ZIRdYu9cQh4m
+C1NfSKVde2FIN95vqQyNOV3OudVCz5iUpoCw/SDurQs/aODwDIE7rnh72q0J/9wJ
+eRLkM0ATv72xHOs0dF/0gVtNANH1m4NVrpNMfJ30LGY0p0bPKP/ED6AMsGGHZnkn
+S4V3dFzBDP2Kgs0lnpLJAPelVM2d2t6Ez1Q8SU3HAOx2gsyf9cqcP+GTzG0CsZEB
+FdnL4Y2MuN2cJRgTrH3jpWlriu9iw3g1uCCoPfwn+M1dbxZqSwUv8KFINMmfkAg/
+QeOygRMoZH9eQ8YZnVzNlxcfV0ADM4dhGAjO0YfrHuIHta3/4gte0sextZqfQ2pc
+GxFpq0YRFDP0/3bfDeu3Sz0d
+=ckrw
 -----END PGP SIGNATURE-----
 
---===============1657847524646233514==--
+--===============0183432491847803052==--
