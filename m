@@ -1,23 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 10 Jul 2026 17:06:30 -0000
-Message-Id: <178370319020.318698.11706063102155206445@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3428762066147464298=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 10 Jul 2026 17:10:15 -0000
+Message-Id: <178370341540.321672.2002191377318768791@gitolite.kernel.org>
+
+--===============3428762066147464298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pending
-    old: 913998f903fb1432c0046c33003db38a9e8bedb1
-    new: 8d0620d47dad641ab2874aa2e9b2803cd66f2118
+  - ref: refs/heads/review-ilpo-next
+    old: f6ee11d77d15ff10f8a804eec529a7092bbb46a6
+    new: 2b3a5dabe89e330413af403246b648c1890f368f
     log: |
-         08314e7c2c38b9ae6a5e01c58ed10a950859404d firmware: qcom: Add a generic PAS service
-         5c1a2975d23c51c01aca51945d0f10a4ee4c9020 firmware: qcom_scm: Migrate to generic PAS service
-         b6f7978da0c4d26fe465aa6634f5a0b48f900de0 firmware: qcom: Add a PAS TEE service
-         6701259025d49139131a0eb2257659a066dcca22 MAINTAINERS: Add maintainer entry for Qualcomm PAS TZ service
-         8d0620d47dad641ab2874aa2e9b2803cd66f2118 Merge qcom PAS TZ service series (20260702115835.167602-2-sumit.garg@kernel.org)
+         ef3daa2b84a2b8499ce9e2ce1c865dca36d39f95 platform/x86: asus-wmi: fix resource leaks on probe failure
+         c38cce70adef874c2a7b5132c14d6c221401deff platform/mellanox: mlxbf-pmc: Check ACPI_COMPANION() against NULL
+         2b3a5dabe89e330413af403246b648c1890f368f platform/surface: acpi-notify: Check ACPI companion before use
          
+
+--===============3428762066147464298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1783703409 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1783703409-500d200aeb349d0fd07994b6733acdfb072da92c
+
+f6ee11d77d15ff10f8a804eec529a7092bbb46a6 2b3a5dabe89e330413af403246b648c1890f368f refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCalEndgAKCRBZrE9hU+XO
+MTemAQDwnKbicL6YIvK1K5uzzJdDq+SFEkdJZwsuPma4T+LBuQD+Pdcsod5U6u/x
+JRTuKJuF3YlplkbWavbEaxRMZgLuvwo=
+=6ZZD
+-----END PGP SIGNATURE-----
+
+--===============3428762066147464298==--
