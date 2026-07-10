@@ -1,29 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 10 Jul 2026 20:07:24 -0000
-Message-Id: <178371404459.446003.11356290836556448327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 10 Jul 2026 20:09:19 -0000
+Message-Id: <178371415981.447101.10525283570919452395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/seen
-    old: b256836af9437b78aa38f67d8e974963391268b4
-    new: 96a71373417bf9ec5c97bf2384492a49d6c0db13
+  - ref: refs/heads/master
+    old: ca75417ab1793f23b3ddc91869f0809b593d6954
+    new: eab19cb7618e5c50fd1f8c1efdc4e66e16575975
     log: |
-         de1e62ebc55b3f3995a8e6fbdd2b6e10cfeb33cd Merge branch 'ps/refs-writing-subcommands' into ps/refs-wo-the-repository
-         2805a9669d775f43f35529c0c7785df2e8f79ec7 refs/packed: de-globalize handling of "core.packedRefsTimeout"
-         465b60d45fd74071772555a2fdef90b32521a1ff refs/packed: drop `USE_THE_REPOSITORY_VARIABLE`
-         68f09be80f0c4f919257f43391c25f7d7428017e refs/files: drop `USE_THE_REPOSITORY_VARIABLE`
-         7fa61e1dc5d5f43e571a93dd8d80ac32a45df128 worktree: refactor code to use available repositories
-         142eb863f096437aa7cd458e83391813a0347fa7 worktree: pass repository to file-local functions
-         79574fc31ad81e8f480c1c15563ed6bd5aeba72c worktree: pass repository to public functions
-         d5853a447117bf6cfd5e342147ce1e4d69b09a7b refs: remove remaining uses of `the_repository`
-         91444510a56ee2bc2523c76516c0120d340fa97d b4: include change-id in cover template
-         3615e4d000a26b44c98ba847b35ffdfbb05e9de1 Merge branch 'ps/refs-wo-the-repository' into seen
-         96a71373417bf9ec5c97bf2384492a49d6c0db13 Merge branch 'cl/b4-cover-change-id' into seen
+         d09cff8f7ecfb272f5c111e67ed79f180881f785 Bluetooth: btrtl: validate firmware patch bounds
+         1386e748cfc07d6c52d0513fe159da2db279fdef Bluetooth: btusb: Add support for 1357:c123 Realtek 8852BE device
+         e3421a0feec0ebbe44c6eb9a1019e85b613ce072 Bluetooth: coredump: Do not export hci_devcd_rx() and hci_devcd_timeout()
+         17f5bfb02164e2bb052c22f81ceb243e1fa31942 Bluetooth: hci_sync: extend conn_hash lookup critical sections
+         f3f75fd597f25c511b0ebeef53016564007b7c13 Bluetooth: mgmt: fix locking in unpair_device/disconnect_sync
+         137501e0242f0226e76febd2f3b850db83bb2f4e Bluetooth: mgmt: hold reference for hci_conn in mgmt_pending_cmds
+         b755b4141c64aaa5ee64a6bc4a56bcfa068dc114 Bluetooth: hci_sync: hold hdev->lock for hci_conn_params lookups
+         fd694aebe414874a72ebe58aab6002f03f6e411a Bluetooth: hci_qca: Clear memdump state on invalid dump size
+         eab19cb7618e5c50fd1f8c1efdc4e66e16575975 Bluetooth: mgmt: Translate HCI reason in Device Disconnected event
          
