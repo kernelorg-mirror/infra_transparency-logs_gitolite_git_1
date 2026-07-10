@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 10 Jul 2026 19:20:18 -0000
-Message-Id: <178371121894.413889.3501967318515910142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 10 Jul 2026 19:38:54 -0000
+Message-Id: <178371233486.424769.16245409170292221382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/rxrpc-fixes
-    old: b78d7564a521ee4ad799dee1bf8b0f0b025f7cb1
-    new: 6b2960dcc34b6400052d323538d0917ceaa63b22
+  - ref: refs/heads/kernel-7.0.10/nfs-for-7.2-1
+    old: 6984ad15822f3ebab29a1db3c8b736f63ab63922
+    new: 3efa89c80d8c5e8dcc6c50639365f1a8d87a3a39
     log: |
-         0781965189955f169994cfca895280e9c42ad3d9 afs: Simplify call refcounting
-         af4f1cde13376a3aad7acf022838c3c88284e4bb afs: Make afs_put_call() take trace argument
-         11902a3bd8b97cda90e494959709aabe9c3c0bc8 afs: Fix UAF in afs_make_call()
-         2ff4c73c7b7fad8026e5abebc28db35991425246 keys: Add refcounting to user-defined key type payload
-         4e07b331c38be42f368cbfd3e8389f8c21b86805 afs: Create a server appdata key
-         b8ba46ed80e1c55227fec0c99c624bb2b000ce91 rxrpc: Pass appdata key to rxrpc_call and thence to rxrpc_bundle
-         26d70af34d721258a4078303feda581106496abb rxrpc: Fix CHALLENGE packet overqueuing and simplify RESPONSE generation
-         6b2960dcc34b6400052d323538d0917ceaa63b22 rxrpc: Remove OOB challenge/response code
+         6263eb2c3741bf2bab1925281504f4ee6e1b75da Revert "nfs: remove fileid field from struct nfs_inode"
+         1ca1da19a232972e90cdf2adc5cbba9f1ca3471a Revert "nfs: replace NFS_FILEID() and nfsi->fileid with inode->i_ino"
+         b0388113e3c31cd1a698f79519d3d7c9de147800 Revert "nfs: remove nfs_compat_user_ino64() and deprecate enable_ino64"
+         3efa89c80d8c5e8dcc6c50639365f1a8d87a3a39 Revert "nfs: store the full NFS fileid in inode->i_ino"
          
