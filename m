@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7538447360799495423=="
+Content-Type: multipart/mixed; boundary="===============6439931489302533957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Fri, 10 Jul 2026 19:53:34 -0000
-Message-Id: <178371321448.435387.18057658375208880073@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 19:53:35 -0000
+Message-Id: <178371321567.435471.3072043818882392222@gitolite.kernel.org>
 
---===============7538447360799495423==
+--===============6439931489302533957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: f4b990a286fdc2c5f7973f07e1998bdb978e9583
     new: c47a4ce7b2b61610ea23b241dc6bc1797d97665f
     log: revlist-f4b990a286fd-c47a4ce7b2b6.txt
 
---===============7538447360799495423==
+--===============6439931489302533957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ d9a35f4ddb5f2c40932980ddb5ae8c557f73a67f docs: pt_BR: Add translation for applyi
 203e78a1e9cb1a387617ce2f48f40b28ea05a6eb docs: ABI: README: fix grammatical error
 c47a4ce7b2b61610ea23b241dc6bc1797d97665f README: remove out of place emdashes
 
---===============7538447360799495423==--
+--===============6439931489302533957==--
