@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 10 Jul 2026 17:05:26 -0000
-Message-Id: <178370312618.317837.17539449574188874478@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 17:06:30 -0000
+Message-Id: <178370319020.318698.11706063102155206445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
+  - ref: refs/heads/pending
     old: 913998f903fb1432c0046c33003db38a9e8bedb1
     new: 8d0620d47dad641ab2874aa2e9b2803cd66f2118
     log: |
