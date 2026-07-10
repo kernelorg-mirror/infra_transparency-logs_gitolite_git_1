@@ -1,22 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 10 Jul 2026 17:52:35 -0000
-Message-Id: <178370595531.349638.3597966144876518459@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0374650431856454021=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 10 Jul 2026 17:54:04 -0000
+Message-Id: <178370604442.350477.17614573227027723581@gitolite.kernel.org>
+
+--===============0374650431856454021==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 6ef98181eac3ed8f4d96170d7115fc4dc1e0d43d
-    new: a5ee3180a2a7bbbd84af70ef98283b3f3e6a821e
+  - ref: refs/heads/review-ilpo-fixes
+    old: 2726b5758f80a546a4ddeec5019e72035a7fa166
+    new: 78bf392ba77dd8b2a25656e489449d2f91cfd1eb
     log: |
-         b9b23e72abef91ab4689f1467cefc2517042ab26 ASoC: codecs: lpass-tx-macro: switch to PM clock framework for runtime PM
-         b05482e7ce1b110f86b08a99768ac41e4c9e4dfa ASoC: codecs: lpass-rx-macro: switch to PM clock framework for runtime PM
-         b8ca90fafe6adc401601f91d1394ba76bacf67ed ASoC: codecs: lpass-{tx,rx}-macro: check clk_set_rate() return value
-         a5ee3180a2a7bbbd84af70ef98283b3f3e6a821e ASoC: codecs: lpass-{tx,rx}-macro: switch to PM clock framework
+         09b2ae290a241ce1f5f738fb65c35f449dcf663d platform/x86/intel/vsec: free ACPI discovery data on early errors
+         78bf392ba77dd8b2a25656e489449d2f91cfd1eb platform/x86: asus-wmi: temporarily revert to setting a charge limit
          
+
+--===============0374650431856454021==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1783706040 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1783706039-42347e6cb68a1d1d273372c3e5e857fefcb3ba94
+
+2726b5758f80a546a4ddeec5019e72035a7fa166 78bf392ba77dd8b2a25656e489449d2f91cfd1eb refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCalExuwAKCRBZrE9hU+XO
+MU0SAQDzMOsO3kcazoJh33NITdQP695Vr60R7rb9Aw/HUeERSwEAqectmGuZ3ghA
+XMm67tKymP1vLbsIeNlTZFNnJMwL9g8=
+=Td4v
+-----END PGP SIGNATURE-----
+
+--===============0374650431856454021==--
