@@ -1,28 +1,71 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 10 Jul 2026 12:45:28 -0000
-Message-Id: <178368752889.123387.3572578486755835947@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2173039455918678616=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 10 Jul 2026 12:45:41 -0000
+Message-Id: <178368754155.123644.428511168713479883@gitolite.kernel.org>
+
+--===============2173039455918678616==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dm-7.2
-    old: 8d4dd2db7f4f3af0d3cd51111d050301c1f00a5c
-    new: 8ec4d9c5a5cf4b61fc087f871465b1f79b393325
-    log: |
-         24d7e5e39b04c1ef8eee0688ca1527e879b22a40 dm-integrity: fix the 'fix_hmac' option
-         7bb03b2b01b814a9fc14afbfc2cbb2cca5b34750 dm-integrity: fix leaking uninitialized kernel memory
-         edf025f083854f80032b73a1aad69a3c90db236f dm-integrity: don't increment hash_offset twice
-         5a266764fadaff8b5c1fe37a186ebf9b09cb953e dm-integrity: fix a bug if the bio is out of limits
-         366665416f20527ff7cad548a32d1ddf23195740 dm_early_create: fix freeing used table on dm_resume failure
-         76c6f845dc0c614304a6e6ee619b552f97cf24b3 dm-ioctl: fix a possible overflow in list_version_get_info
-         72e9ec2fe32b00994f41719cf77423fca67d48b2 dm-verity: avoid double increment of &use_bh_wq_enabled
-         e72b793ae440f6900fb17a4b8518c707b5cd3e17 dm-verity: fix a possible NULL pointer dereference
-         88dd117c92a142253fb7a17e791773902b3babc6 dm-verity: increase sprintf buffer size
-         8ec4d9c5a5cf4b61fc087f871465b1f79b393325 dm-verity: make error counter atomic
-         
+  - ref: refs/heads/tty-testing
+    old: 970ede67de0e3f6a1e707ec99ae49d80bf3f2966
+    new: 3d71f8d7eeb374d0eb84c64c6ffd68bdcc0d42d4
+    log: revlist-970ede67de0e-3d71f8d7eeb3.txt
+
+--===============2173039455918678616==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783687538 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1783687539-f137317d4fb1554d8f78997e6008439b076870ea
+
+970ede67de0e3f6a1e707ec99ae49d80bf3f2966 3d71f8d7eeb374d0eb84c64c6ffd68bdcc0d42d4 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ6XIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zkAP/1PHSxKaUtEhy8SFD+N4
+go+ap77CO7HH0rzR73E8lL7YJtnVxS2xUB66luoCjqVX5AnJjU4kbx1EtzNZOyXC
++eTTCVlnV2iSc6rmJBE/zd0r4RBUF708EoRo48X1dL7U3XbpnT0fU9bMC+sGpPgy
+AsnN4hkVQxZky6aAj+/KVc/ddOqo5lrXmJDe4mgjCWM4+oNfm8XGg8NLqen3xQBR
+w+FUX0YuFcpR5sLd5YTvvyYOwKvE3GCQk+hrs10O72eVElkIq8NqLUl8c3YBqHy+
+rnCxxsknsuelUXIs5noz/wbR2vFGP6aQUbSF+5/vPpZFWY1L7zOVgdd3QsarNPxS
+pZoIQZgnZqL/r5yHBaORkndcYAjMsQParsk3riMIfb/IflQ/be9yqfNBU7FGIUdd
+8JY/dl5RdOeL40RHCzY8GWITLEKmNHko+uLvSSXddjwNHAL6VxVZ+fAf9ZIdyAP4
+AfvflVqtNTNYPBevXXsDIOwU6SQaOyFHWQGxTtfI7VqseXy7AJM97p20culkzsrR
+30H8NAQP6p4YCmUxGtspPn3WmygtQ2cWpkxjjoPZkGmwkV6OkBKKJQUKjjYrzlvm
+MvB2YCiiRU433cxAZpgwGwW9hGVjfCC23rSU6AUw8t2ltvIplizk6uSTsdN367G8
+rb/r5HSPm1EuaLguJP0huUwU
+=mClS
+-----END PGP SIGNATURE-----
+
+--===============2173039455918678616==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-970ede67de0e-3d71f8d7eeb3.txt
+
+383f139f191e4d12343f7153880495c46042dd37 drivers/tty/serial/kgdboc: Use strscpy() to copy strings into arrays
+7a68b818d56e5c48b90232d59148ef8e716082ae serdev: acpi: Free resource list at appropriate time
+4f643bef0984b504adfb4d979ba5068e4d63485a serial: 8250_pnp: Use named initializers for pnp_device_id array
+8dfea56f350b3dc826f35711802ad6ae8fae0748 serial: ma35d1: Fix OF node reference leaks in console init
+bafe277d6c5a8bc4b6b9ecafc35cc357c42e813d serial: qcom-geni: Pre-map RX DMA buffer at probe to avoid sleep-in-atomic
+d0cd9c8d0fd59bc7d140f3d60cf02e1d80376dab serial: qcom-geni: add force suspend/resume to system sleep callbacks
+acba38e675dd66f52925cb9edf9ed8db16335875 serial: qcom_geni: Disable closing_wait for console to prevent shutdown timeout
+7ea38c49e7178960926657863299face6dc0e1b0 serial: qcom-geni: do not advance stale DMA completions
+a76c010ec369ff3e3b3b0bf9224840caa8843a64 serial: 8250: handle ixp4xx register endianness correctly
+3d71f8d7eeb374d0eb84c64c6ffd68bdcc0d42d4 serial: qcom-geni: remove .pm callback, use runtime PM in startup/shutdown
+
+--===============2173039455918678616==--
