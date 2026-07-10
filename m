@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 10 Jul 2026 12:22:43 -0000
-Message-Id: <178368616382.106563.18259732318953861494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Fri, 10 Jul 2026 12:26:37 -0000
+Message-Id: <178368639712.109846.332071842498166051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/arm64-disable-sme
-    old: a2f6e13155bb299af498cc120ab8fe02d165bc04
-    new: c17be7bf139d9f8a8b70700bef33faa08bdc32c8
+  - ref: refs/heads/modules-fixes
+    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+    new: 5eef17fedaa5aa1d7a504b49c53ad2e121698f17
     log: |
-         c17be7bf139d9f8a8b70700bef33faa08bdc32c8 arm64/sme: Disable TIF_SME when loading state
+         5eef17fedaa5aa1d7a504b49c53ad2e121698f17 module/kallsyms: fix nextval for data symbol lookup
          
