@@ -1,51 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2447885701420617061=="
+Content-Type: multipart/mixed; boundary="===============6363790125601154221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfs-linux
-Date: Fri, 10 Jul 2026 08:35:33 -0000
-Message-Id: <178367253373.4141109.7213900249229934162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 10 Jul 2026 08:35:43 -0000
+Message-Id: <178367254334.4141394.10663777543300847185@gitolite.kernel.org>
 
---===============2447885701420617061==
+--===============6363790125601154221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfs-linux
-user: aalbersh
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/fsverity
-    old: 156b77c7cdbe09627b512e25a05c82ec008aa87f
-    new: 05fd6d777ab5247b196f446cd75231c098af215c
-    log: revlist-156b77c7cdbe-05fd6d777ab5.txt
+  - ref: refs/heads/scx-proxy-exec
+    old: 9eeee7db7655cc4f0c6dc4dc0901c64b16c717e8
+    new: a975a05989e3e566d8155299e91f6b188aac1442
+    log: revlist-9eeee7db7655-a975a05989e3.txt
 
---===============2447885701420617061==
+--===============6363790125601154221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-156b77c7cdbe-05fd6d777ab5.txt
+Content-Disposition: attachment; filename=revlist-9eeee7db7655-a975a05989e3.txt
 
-01bf13d2ed208a28737b92971e2244738269f03f fs-verity support for XFS with post EOF merkle tree
-168489351e983f9e50ceb9591a6451284d0196d1 fsverity: report validation errors through fserror to fsnotify
-164964b633f381ec4eca9abf4866fced53d2dbf9 fsverity: expose ensure_fsverity_info()
-4e500d6c60cbae7fe8f7ef8c43fce1d3975d3c48 fsverity: pass digest size and hash of the all-zeroes block to ->write
-4c3e464f9b9005ae48ad48c6075338643406c84d fsverity: hoist pagecache_read from f2fs/ext4 to fsverity
-50522b2583288ebbf8346b2d16e3113c79e39d67 fsverity: improve flushing performance of fsverity_fill_zerohash
-20d97835e0e8489d3d3426b9406a8f11d992e9ca fsverity: don't allow setting DAX file attribute on fsverity files
-1cac912a5cdc5eecb0b9e49a6ccc685380ff805f xfs: introduce fsverity on-disk changes
-6751c47abcaec7fe5c82b0678ce7f1899efdd095 xfs: initialize fs-verity on file open
-415081b618fe8f73fa272e60b53fe8a08901ee36 xfs: don't allow to enable DAX on fs-verity sealed inode
-6870d1e47a3acef3b2131fd2e5ea66b01e2af0e3 xfs: don't report dio_mem_align and dio_offset_align for fsverity files
-fb624ab0829754ef6ad153847246f1de045de339 xfs: disable direct read path for fs-verity files
-425b719216071845585a3a950145743d84efa5bd xfs: handle fsverity I/O in write/read path
-0a5718955b1b24ba092edeac640d5493699307cf xfs: use read ioend for fsverity data verification
-1362763ba047ea2402054d54ed3cee99593769f3 xfs: add fs-verity support
-3b17beeaaf6d79b9c15bc97d3306f2cca8229ede xfs: remove unwritten extents after preallocations in fsverity metadata
-18d099d290a133cf087932701fe8f2f8fa43f353 xfs: add fs-verity ioctls
-a0a4a995f9655427fbc8f001be7d30b639ff7a53 xfs: advertise fs-verity being available on filesystem
-1ee8112cd5435d39b9326d488c816147a0b5411d xfs: check and repair the verity inode flag state
-73aa906a2b013433c0bce6debb22308eb0f262ca xfs: introduce health state for corrupted fsverity metadata
-05fd6d777ab5247b196f446cd75231c098af215c xfs: enable ro-compat fs-verity flag
+030db7005efe6a0705ddf07fced494c364a1c915 sched_ext: Documentation: Fix ops table header reference
+18d62044cda7a2b40f59d910659c0b0d6accad37 sched_ext: Preserve rq tracking across local DSQ dispatch
+4ec10f38ff901dc10503d57cbdcf941248419ac1 sched_ext: Enable tick for finite slices on nohz_full
+cfe950d79f524e72bc263f2b153a6d905a75a794 selftests/sched_ext: Verify nohz_full tick behavior
+f3c6919207ebade88fe40377b6a8b69294b4d35f sched_ext: Fix typo in scx_bpf_dsq_insert() comment
+e655c1f1bd14804f398df7da029c4a7e3f9ccd7f selftests/sched_ext: Fix bpf_link leak on early return in prog_run
+db4e9defd2e8620abee04cfe5809c0bcd6ecf06a sched_ext: Record an error on errno-only sub-enable failure
+49b3378a750cf85112e656d003145d4b5d0da232 sched_ext: Fix premature ops->priv publication in scx_alloc_and_add_sched()
+e6979d05c6a6fe79980f08d63f039f0b27c30a1c tools/sched_ext: scx - Fix cmask_subset(), cmask_equal() and cmask_weight()
+ad45691d8c73075baa1ada6cf2d55c0245259750 Merge branch 'for-7.2-fixes' into for-7.3
+05e72aeaaa059aceb662a936007a95ea1912560b sched_ext: Use READ_ONCE/WRITE_ONCE in cmask word ops and drop _RACY variants
+8da6d37d1dda3842249c7ea2b84daf88d52da557 sched_ext: Add SCX_CALL_CID_OP_TASK() for cid-form op dispatch
+915feb4119e09292f0b0a7392120a7995dc3114a sched_ext: Rename extra_enq_flags to remote_activate_enq_flags
+c89b7a09b7a8c5cb5b055a9509a58370abe97b32 tools/sched_ext: scx_qmap - Use bare u64/u32/s32 integer types
+31645fb113af646792ebb1e51eceebb9a04fdea1 sched_ext: Reject direct slice and dsq_vtime writes for cid-form schedulers
+b38332be61a8a76cf77586fb769849257ff217ae sched_ext: Make scx_bpf_kick_cid() return void
+3d1519011e395ea96c7fbc5ced35b49cfe60d93e sched_ext: Keep rq tracking accurate in the consume path
+8b7a24c08c767f7cdad47f65bd25b1cf5d2a1087 sched/core: Drop mutex locks before proxy rescheduling
+3970d11f84f3b766ca378f5bf84d35e3c237d2e4 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+bbe42bc5df97920aee701bddcec76b57ecf5684c sched_ext: Split curr|donor references properly
+825d3094b7c58276dfbc46427f10c134678e55da sched_ext: Fix TOCTOU race in consume_remote_task()
+07b70f048c7d2cee4e719080fa81254c0f6dcaab sched_ext: Handle blocked donor migration with proxy execution
+1edd5c15eaa80e77539c58dacf0b0a0b39dc1631 sched_ext: Delegate proxy donor admission to BPF schedulers
+b34afda9dca75b99ffd6478a53d3cb5442d24efc sched_ext: Add proxy destination query kfuncs
+c8d086c5ed1ba0683ddc751a35d5eb216916b7b1 sched_ext: Add selftest for blocked donor admission
+d28b50ddcf889faacd10bf7a7f319dbe701eed7d sched_ext: scx_qmap: Add proxy execution support
+a975a05989e3e566d8155299e91f6b188aac1442 sched: Allow enabling proxy exec with sched_ext
 
---===============2447885701420617061==--
+--===============6363790125601154221==--
