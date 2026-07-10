@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Fri, 10 Jul 2026 14:44:38 -0000
-Message-Id: <178369467867.209906.11308037479572086697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 10 Jul 2026 14:46:49 -0000
+Message-Id: <178369480903.212742.12161126254598205440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/b4/cros_ec-hwmon-locking
-    old: 4654900be61169220455b3f1a1cdaa08a38aa4b0
-    new: a6065d6251c6e56d13ff9e7efbc13b8049ffab3c
+  - ref: refs/heads/asoc-7.3
+    old: 512f61464691dbb92c2b0ff9cd64240030d7abbe
+    new: 83800132cd843bbec05e3a902896f2529b777705
     log: |
-         495c3f952a036216da368c950ad6569800035ea5 hwmon: (cros_ec) Synchronize EC access from the fan cooling callbacks
-         0fe529390519bba4fd996b3c8dfa95af4361a961 hwmon: (cros_ec) Register the fan cooling devices after the hwmon ones
-         59c03e4b312162e6c923e70dd6a67a37e70e8eb8 hwmon: (cros_ec) Store the hwmon device in cros_ec_hwmon_priv
-         a6065d6251c6e56d13ff9e7efbc13b8049ffab3c hwmon: (cros_ec) Synchronize EC access from the fan cooling callbacks
+         92aa9c7b1d9d318709b3cd769b894844cc6e9a9d ASoC: xtensa: Use dev_err_probe() and drop redundant error handling
+         14b68141bcffafde22848c18569e821675afe9e6 ASoC: xilinx: xlnx_i2s: Use dev_err_probe() and drop redundant error handling
+         cb32e3acb1036b2c2d5a5df1e19986ccd1fff9ed ASoC: xilinx: xlnx_spdif: Preserve devm_request_irq() error codes
+         f9620327ba7ebe3a3d374bbb0d55a74e4860bc50 ASoC: xilinx: xlnx_spdif: Use dev_err_probe() and drop redundant error handling
+         83800132cd843bbec05e3a902896f2529b777705 ASoC: xilinx: xlnx_i2s: Use dev_err_probe() and drop redundant error handling
          
