@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6363790125601154221=="
+Content-Type: multipart/mixed; boundary="===============2243305183173759751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 10 Jul 2026 08:35:43 -0000
-Message-Id: <178367254334.4141394.10663777543300847185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfs-linux
+Date: Fri, 10 Jul 2026 08:36:30 -0000
+Message-Id: <178367259061.4141986.16690030888637467556@gitolite.kernel.org>
 
---===============6363790125601154221==
+--===============2243305183173759751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/aalbersh/xfs-linux
+user: aalbersh
 changes:
-  - ref: refs/heads/scx-proxy-exec
-    old: 9eeee7db7655cc4f0c6dc4dc0901c64b16c717e8
-    new: a975a05989e3e566d8155299e91f6b188aac1442
-    log: revlist-9eeee7db7655-a975a05989e3.txt
+  - ref: refs/heads/fsverity
+    old: 05fd6d777ab5247b196f446cd75231c098af215c
+    new: ee884674c76cbc6ae960b0adf113344418c7a4af
+    log: revlist-05fd6d777ab5-ee884674c76c.txt
 
---===============6363790125601154221==
+--===============2243305183173759751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eeee7db7655-a975a05989e3.txt
+Content-Disposition: attachment; filename=revlist-05fd6d777ab5-ee884674c76c.txt
 
-030db7005efe6a0705ddf07fced494c364a1c915 sched_ext: Documentation: Fix ops table header reference
-18d62044cda7a2b40f59d910659c0b0d6accad37 sched_ext: Preserve rq tracking across local DSQ dispatch
-4ec10f38ff901dc10503d57cbdcf941248419ac1 sched_ext: Enable tick for finite slices on nohz_full
-cfe950d79f524e72bc263f2b153a6d905a75a794 selftests/sched_ext: Verify nohz_full tick behavior
-f3c6919207ebade88fe40377b6a8b69294b4d35f sched_ext: Fix typo in scx_bpf_dsq_insert() comment
-e655c1f1bd14804f398df7da029c4a7e3f9ccd7f selftests/sched_ext: Fix bpf_link leak on early return in prog_run
-db4e9defd2e8620abee04cfe5809c0bcd6ecf06a sched_ext: Record an error on errno-only sub-enable failure
-49b3378a750cf85112e656d003145d4b5d0da232 sched_ext: Fix premature ops->priv publication in scx_alloc_and_add_sched()
-e6979d05c6a6fe79980f08d63f039f0b27c30a1c tools/sched_ext: scx - Fix cmask_subset(), cmask_equal() and cmask_weight()
-ad45691d8c73075baa1ada6cf2d55c0245259750 Merge branch 'for-7.2-fixes' into for-7.3
-05e72aeaaa059aceb662a936007a95ea1912560b sched_ext: Use READ_ONCE/WRITE_ONCE in cmask word ops and drop _RACY variants
-8da6d37d1dda3842249c7ea2b84daf88d52da557 sched_ext: Add SCX_CALL_CID_OP_TASK() for cid-form op dispatch
-915feb4119e09292f0b0a7392120a7995dc3114a sched_ext: Rename extra_enq_flags to remote_activate_enq_flags
-c89b7a09b7a8c5cb5b055a9509a58370abe97b32 tools/sched_ext: scx_qmap - Use bare u64/u32/s32 integer types
-31645fb113af646792ebb1e51eceebb9a04fdea1 sched_ext: Reject direct slice and dsq_vtime writes for cid-form schedulers
-b38332be61a8a76cf77586fb769849257ff217ae sched_ext: Make scx_bpf_kick_cid() return void
-3d1519011e395ea96c7fbc5ced35b49cfe60d93e sched_ext: Keep rq tracking accurate in the consume path
-8b7a24c08c767f7cdad47f65bd25b1cf5d2a1087 sched/core: Drop mutex locks before proxy rescheduling
-3970d11f84f3b766ca378f5bf84d35e3c237d2e4 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-bbe42bc5df97920aee701bddcec76b57ecf5684c sched_ext: Split curr|donor references properly
-825d3094b7c58276dfbc46427f10c134678e55da sched_ext: Fix TOCTOU race in consume_remote_task()
-07b70f048c7d2cee4e719080fa81254c0f6dcaab sched_ext: Handle blocked donor migration with proxy execution
-1edd5c15eaa80e77539c58dacf0b0a0b39dc1631 sched_ext: Delegate proxy donor admission to BPF schedulers
-b34afda9dca75b99ffd6478a53d3cb5442d24efc sched_ext: Add proxy destination query kfuncs
-c8d086c5ed1ba0683ddc751a35d5eb216916b7b1 sched_ext: Add selftest for blocked donor admission
-d28b50ddcf889faacd10bf7a7f319dbe701eed7d sched_ext: scx_qmap: Add proxy execution support
-a975a05989e3e566d8155299e91f6b188aac1442 sched: Allow enabling proxy exec with sched_ext
+a71c0acc2e6a292f053b4d7ea549d91816079eb8 fs-verity support for XFS with post EOF merkle tree
+c6ec0d36e610928981055b4164547d34b17f415b fsverity: report validation errors through fserror to fsnotify
+c1bc4e09e99d5303923d1b243ed444e0ef14e368 fsverity: expose ensure_fsverity_info()
+46fa567c5396d0865c647ecedac00de4e2d7e753 fsverity: pass digest size and hash of the all-zeroes block to ->write
+bf674d6447c629dfea6f7e3c4a7efffb95423216 fsverity: hoist pagecache_read from f2fs/ext4 to fsverity
+881ca13124f5577a3b6e987be89ec138ca5ebc19 fsverity: improve flushing performance of fsverity_fill_zerohash
+70a3a18d0535c3ff6e5cec8f6f5d5800a818ebe0 fsverity: don't allow setting DAX file attribute on fsverity files
+8985c81593736877f3a9957a5e9445436795cea4 xfs: introduce fsverity on-disk changes
+d782cf032d1dcf8f2e627274085da37a92bc90a2 xfs: initialize fs-verity on file open
+f3b835598dfdb81700c7b73e9c21e8ed67d9ba91 xfs: don't allow to enable DAX on fs-verity sealed inode
+bfe9d1a76b5d673cacaa32d9a1e2756ce51d4e5b xfs: don't report dio_mem_align and dio_offset_align for fsverity files
+a75ae14156a5150ae3b851e40ded621663dcbd18 xfs: disable direct read path for fs-verity files
+873908b75477b92bc9c80d9d9d49826b03493fa3 xfs: handle fsverity I/O in write/read path
+9ca0788bde68dd859e0ad88f615289a75713bcef xfs: use read ioend for fsverity data verification
+fd0353ac09d59e9c3841064183080c2f268d36ca xfs: add fs-verity support
+48eb71d0d46f5469128a8d59cb49b7bc507e5369 xfs: remove unwritten extents after preallocations in fsverity metadata
+312d09ecc4e20dd3edaceecc7fcabc715d0f7dca xfs: add fs-verity ioctls
+57d88dcd36ddd349ff3deefec5bf6d54d1b170ad xfs: advertise fs-verity being available on filesystem
+856c3ff6b1dbc9525d629df3c3d156c59e0b4cab xfs: check and repair the verity inode flag state
+52de4f439ac71681b7d287912761791c7d54ed33 xfs: introduce health state for corrupted fsverity metadata
+ee884674c76cbc6ae960b0adf113344418c7a4af xfs: enable ro-compat fs-verity flag
 
---===============6363790125601154221==--
+--===============2243305183173759751==--
