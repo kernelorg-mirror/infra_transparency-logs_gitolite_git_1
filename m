@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3119907141649264462=="
+Content-Type: multipart/mixed; boundary="===============5251019810231682376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 10 Jul 2026 15:11:50 -0000
-Message-Id: <178369631058.232556.7486920522366209988@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 15:11:53 -0000
+Message-Id: <178369631310.232668.10226377590803892448@gitolite.kernel.org>
 
---===============3119907141649264462==
+--===============5251019810231682376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 59e34180e138a293260301c139cf7ee800978533
-    new: 1e692e85500fd3a971da0241f044f4572b2be8b6
-    log: revlist-59e34180e138-1e692e85500f.txt
+  - ref: refs/heads/mm-unstable
+    old: 3153587ed7079d95fbed3bfdf66b33434601c1de
+    new: 4a6c88e10a0791d9c3b0677ce984365815c2ab4f
+    log: revlist-3153587ed707-4a6c88e10a07.txt
 
---===============3119907141649264462==
+--===============5251019810231682376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59e34180e138-1e692e85500f.txt
+Content-Disposition: attachment; filename=revlist-3153587ed707-4a6c88e10a07.txt
 
 3c58f641e813c3c71039f8fd4d4e2a3aab713288 userfaultfd: prevent registration of special VMAs
 14afcf67dc2c3d2fce9f0b987a8fd4187777a841 MAINTAINERS: s/SeongJae/SJ/
@@ -368,53 +368,5 @@ e4068192eb8a5df937ced1773169cc996d6c7e3a userfaultfd: add UFFDIO_SET_MODE for ru
 c06573440854de5344cffa5213d63a90115703b8 selftests/mm: add userfaultfd RWP tests
 d20bb2fc95a93e6930598a2cd68b3ae4c26f8fa7 Documentation/userfaultfd: document RWP working set tracking
 4a6c88e10a0791d9c3b0677ce984365815c2ab4f mm: nommu: fix the error path when vma_iter_prealloc() fails
-1e047a3fb85ccfafcc732cd542d5f03b94ec26c6 ksm: add linear_page_index into ksm_rmap_item
-e87136601f82e3fee5fd3899794090b0583615bd ksm: optimize rmap_walk_ksm by passing a suitablepage index
-102d49747a17094399d937d4aa0f9b28af994063 ksm: add mremap selftests for ksm_rmap_walk
-d0d3d08cf05a91763032fb3db2439826d3867d7c mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-d584e38df29f9e72e55e6fadb92f4f89412e5ffe alloc_tag: add ioctl to /proc/allocinfo
-ed8fdadef39b4a11db71c24ad4ff3e25e3e372db alloc_tag-add-ioctl-to-proc-allocinfo-fix
-5afcc5ce6f1eae0aa4d3c5981f9471aa7dabe296 alloc_tag: add ioctl filters to /proc/allocinfo
-29bb3b4db835af4031f2ab328afe1107cb3b70b4 alloc_tag: add size-based filtering to ioctl
-a188007aad4fe86c0f3936e768557259e71d4b4d alloc_tag: add accuracy based filtering to ioctl
-c5392e697afb904f2208d368fe59a34e9e4ed2ee kselftest: alloc_tag: add kselftest for ioctl interface
-641d027b09144e7af628067e3577cd94e879595e kselftest: alloc_tag: extend the allocinfo ioctl kselftest
-61e9eff5f416124c4c20aaa3e4fa63713a8924cc x86/mm: drop order parameter from free_pagetable()
-bf1744fb36493e7de7d52f7d2d3aebae24a64f7b mm: provide free_reserved_pages(), removing x86 variant
-7f2ef16cc30a71c78bc6a94b47f924d51abc4c76 s390/mm: use free_reserved_pages() in vmem_free_pages()
-276b8e3b34df71b12c5d88ca0f643deac55e3dc1 mm/bootmem_info: allow calling free_bootmem_page() on pages without a bootmem_type
-d063c656f865f0c653f01fe9405ec19dd6c00c56 x86/mm: stop marking vmemmap as SECTION_INFO
-d348cc2a10a2ed253a3783b6808ba86fa5461f86 x86/mm: stop marking page tables as MIX_SECTION_INFO
-6a79744849bc5635e2e3b483f59471b77c0bc0b9 x86/mm: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
-3b849f68cf39696c2c03cea1d21b6c757719a8c6 mm/hugetlb_vmemmap: remove bootmem_info leftovers
-5da788b948674ecc360d7e8405993ba92b4fe9eb mm/sparse: remove bootmem_info.h include
-46a63232c6686cf135f17e4f7f4439b7f12a992a mm/bootmem_info: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
-b466fc13ffe63a72e3e71dfac56fa76201bb2556 mm/damon/core: remove comment and test for nr_to_bp() divide-by-zero
-257a5b965fd78762272af47be03873030f901d6a mm/damon/core: s/damon_max_nr_accesses()/damon_nr_samples_per_aggr()/
-4a664fa2230d2191d057e2243c697d6f6b27ae73 mm/damon/core: s/accesses_bp_to_nr_accesses/sample_bp_to_count/
-3cd1bd44f0df999e73a037f02a435071baed47fc mm/damon/core: s/nr_accesses_to_accesses_bp/sample_count_to_bp/
-763c12585f0405ed691ed4751fc62b84ad39c99b mm/damon/core: s/nr_accesses_for_new_attrs/nr_samples_for_new_attrs/
-60b4fae869acb788f969ddb50dc3d825a10e5ba3 mm/damon/core: update probe hits for new parameter commit
-b96deb51e65e31cb923f3e2d58968974596ff317 mm/damon/core: handle unreset probe_hits in probe_hits_mvsum()
-ffc5c58b07dd80e09032225a83575d3e90fb0642 mm: split out mm_init and memblock declarations from internal.h
-6cb5db509ab59d3ad8be642a10c68ce22546662d mm: split out sparse declarations from internal.h
-44455952035096ed11e00a484c355059dc2efee5 mm: split out vmalloc declarations from internal.h
-af9f0159ed8613be3a916af7daf1a622ab96f074 mm/ksm: Initialize the addr only once in collect_procs_ksm
-6bd3b21850fcd6794344f4d3bd68dd84b8c2b3a8 ksm: Use precise linear_page_index instead of the whole address space
-d36215530d04b6a643f42c985cdfe4043b3ce18f selftests/mm: fix memleak in migration benchmark
-3486a050970fa5569b565bcb18ad0916df6576c9 arm64/hugetlb: extend batching of multiple CONT_PTE in a single PTE setup
-2fb9ba8efd9d7881a8c633f1a37e0136358ebcbf arm64/vmalloc: allow arch_vmap_pte_range_map_size to batch multiple CONT_PTE
-69e992749b542be36650a5d0e4ac90bc61a8512f mm/vmalloc: extract vmap_set_ptes() to consolidate PTE mapping logic
-b6b06d993f9fd5e58920e56b5dfa5faa2430d3f6 mm/vmalloc: extend page table walk to support larger page_shift sizes and eliminate page table rewalk
-242c72cb6e52747815c35831d4eaf87d40e04e1f mm/vmalloc: map contiguous pages in batches for vmap() if possible
-e0a1ef352d4a5b28a0757544cc04bfe23855ad8c mm/vmalloc: align vm_area so vmap() can batch mappings
-852f98c157671c27a9f7c474500ba922f5e76634 mm: standardize printing for pgtable entries
-a5e852b98f2ac5cb4228662df9ab8168ccaaab50 selftests/mm: handle EINVAL when configuring gigantic hugepages
-d886e4c63ad5c16f0602d7a16d209ffbc5120c27 selftests/mm: fix ksm NUMA merge test for systems with memoryless NUMA nodes
-609df4a8b15568b747c0d15a7f2a0941b15e8600 selftests/mm: fix ternary operator precedence in ksm_tests
-1e46e858250c4a9e715d5c47f810f66d9ada1e8e mm/gup: fix GUP-fast fallback for NULL-mapping order-0 folios
-024c2be74598417ba53accb0d42548fc35927567 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-814d0864801ec263bbeca12f962c43072507e859 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1e692e85500fd3a971da0241f044f4572b2be8b6 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============3119907141649264462==--
+--===============5251019810231682376==--
