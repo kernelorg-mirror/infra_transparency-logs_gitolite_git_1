@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4672162660237741628=="
+Content-Type: multipart/mixed; boundary="===============0214456486135888489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 Jul 2026 17:02:47 -0000
-Message-Id: <178370296710.314469.1709708894928178864@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 17:02:50 -0000
+Message-Id: <178370297061.314610.6772424674103706550@gitolite.kernel.org>
 
---===============4672162660237741628==
+--===============0214456486135888489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fe3e786ef4eb6e47d2901f568a27bd920477bbe9
     new: 23dad2d088dfc82cae1f5a936f8ff7ffebb38dd9
     log: revlist-fe3e786ef4eb-23dad2d088df.txt
 
---===============4672162660237741628==
+--===============0214456486135888489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -511,4 +511,4 @@ b470fde8f77b56ff273c5527484b99499b894e16 Merge git://git.kernel.org/pub/scm/linu
 d5d7554052f3ac45c75d8e526ded2a70a7593929 net: chelsio: cxgb4: Use str_plural() in mem_intr_handler()
 23dad2d088dfc82cae1f5a936f8ff7ffebb38dd9 tun: no longer rely on RTNL in tun_fill_info()
 
---===============4672162660237741628==--
+--===============0214456486135888489==--
