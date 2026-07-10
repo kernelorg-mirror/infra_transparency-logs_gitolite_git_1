@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6970424702768601010=="
+Content-Type: multipart/mixed; boundary="===============3816499122593313756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 10 Jul 2026 16:21:17 -0000
-Message-Id: <178370047751.282984.12894660110800710761@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 16:21:38 -0000
+Message-Id: <178370049894.283305.5217094655844443833@gitolite.kernel.org>
 
---===============6970424702768601010==
+--===============3816499122593313756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: e6ce9ffe5d02034a38e8bca7b78a7f58aff8caae
-    new: e9eb90547e8b1aa55b0144067229d7344248e278
-    log: revlist-e6ce9ffe5d02-e9eb90547e8b.txt
+  - ref: refs/heads/export-net
+    old: b44b39227d68a49216d73534233cfa9093794a23
+    new: 8a5c23d533d1691aadfed5c6324c68228ba7f24b
+    log: revlist-b44b39227d68-8a5c23d533d1.txt
 
---===============6970424702768601010==
+--===============3816499122593313756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6ce9ffe5d02-e9eb90547e8b.txt
+Content-Disposition: attachment; filename=revlist-b44b39227d68-8a5c23d533d1.txt
 
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
 8522d806d84e2c3816c275ae6dd79e124c1b3dac ACPI: TAD: Check AC wake capability before enabling wakeup
@@ -430,55 +430,21 @@ bae7ce7bafb59e42dc0e0e2999fdd9d1cffe3866 ipvs: pass parsed transport offset to s
 3f7a535ff0fa627a0132803e4c2f903ceffcbc1c ipvs: ensure inner headers in ICMP errors are in headroom
 6bad2e38fe7f2da7dc982b2b80814e632832e568 Merge tag 'hid-for-linus-2026070801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 604e9594449b9907181f4285d0cd6a398bfc9d08 Merge tag 'batadv-net-pullrequest-20260708' of https://git.open-mesh.org/batadv
-6d86ce0da0d5631721c142ea9bb5499cc129b347 net: phy: Drop #inclusion of <linux/mod_devicetable.h> from <linux/mdio.h>
 c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027 net/mlx5: Fix L3 tunnel entropy refcount leak
 b62869a81a7ce388d1fbb0fac5fa8300ea614d81 ethtool: rss: Fix hfunc and input_xfrm parsing on big endian
 24c4c88259464d38b35c3fbaecb68675de64137d Merge tag 'nf-26-07-08' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting PF promiscuous state
-0e74441edefce4cae60f572ca7da70fa9eabc168 net : bonding : Remove TODO comment about retrying setting the MAC
-fe3e786ef4eb6e47d2901f568a27bd920477bbe9 selftests: drv-net: rss_ctx: Add retries to test_rss_context_overlap to reduce flakes
 78237e3c0720fcc6eb9b87e90fd70f63eeca886f dibs: loopback: validate offset and size in move_data()
 f5089008f90c0a7c5520dff3934e0af00adf322d macsec: don't read an unset MAC header in macsec_encrypt()
 2c7c88a412aa6d09cd04b414211b4ef8553b5309 Merge tag 'net-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b470fde8f77b56ff273c5527484b99499b894e16 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-93a0914b9292ee8556af4dd0acf1a88c812c9ef9 DO-NOT-MERGE: git markup: net
-5ddf0dcdfe5a2a8afaa98ad3a0c84b7421211185 DO-NOT-MERGE: git markup: fixes other trees
-b236226f1822d8decddc409fb68f96c8ca3e572b mptcp: fix stale skb->sk reference on subflow close
-e60e2cd86152634fe8f5d582b548f94daa2b72e7 DO-NOT-MERGE: git markup: fixes net
-41a52aed4b634a3b7ce6ed87e2607daea3d9fa75 DO-NOT-MERGE: mptcp: add CI support
-9bb1de2ea5022fffa246968108bdd5499c072702 DO-NOT-MERGE: git markup: end common net net-next
-0fb0455929cf2605b67f2cb28fdcb601e864fd9f TopGit-driven merge of branches:
-c74ae0dceaa2f4f505735d91e323ba3ec7cee120 DO-NOT-MERGE: git markup: net-next
-8933f36be79feb00e2ab76d252d59fa6826d7f35 DO-NOT-MERGE: git markup: fixes net-next
-2333590fb389bbef74e7e59cf8899d96f560f9a8 mptcp: pm: init and release mptcp_pm_ops
-afcb70b5f997ac5113c02a7c8d2e68e9c667ca9f mptcp: pm: add get_local_id() interface
-20c03020216bce15c3bf97f5a6bfc4e7d3425217 mptcp: pm: add get_priority() interface
-a8b359cf5e444cfae9feef530abf0e8fc7bc1ff9 selftests: mptcp: connect: test name in pcap file
-94572e07740e564b673242e8c162c9ac1622d814 selftests: mptcp: simult_flow: test name in pcap file
-a34e0cebce6e7201fe0c8c0c6d105a4523ed22ca selftests: mptcp: pcap: drop most of the payload
-f1a0286a124e86510c6d894ca4f4ce0dd2a56b07 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-d4b7c41aa46f300dc430885ee9f6f7ad9aeb9952 mptcp: remove unused data_ack from struct mptcp_ext
-cbc69701dea4c52585af2d4f7457b4d3320b6f40 mptcp: move the retrans loop to a separate helper
-43f48884cb06ea0c4fcbf6d4400770b3e2d0d5f2 mptcp: let the retrans scheduler do its job
-cccbc16ee2366fe6f81092e27f0fb74923d9996d mptcp: explicitly drop over memory limits
-a7c1cbeeffdd78e68b7b1b5a503ca27401af5a43 mptcp: enforce hard limit on backlog flushing
-5bb0cd6f6d504e18ded6ddf2d5a29fb42732c109 mptcp: implemented OoO queue pruning
-1aea4bfe2ef4e08eb8737de425e709fc22800e47 selftests: mptcp: fix const qualifier warnings in strchr usage
-e998f1f13db2275ecb3a0699318cd325608f2c27 DO-NOT-MERGE: git markup: features net-next
-1516110c70a37430811e2655d064d886295efa33 DO-NOT-MERGE: git markup: features net-next-next
-dec66b3331000036881a688f63c681217f241ed3 bpf: Add mptcp_subflow bpf_iter
-827b4383b54837a446be168ae8adf4731d3eefac selftests/bpf: More endpoints for endpoint_init
-9e90b03fecfa2e29a0a9607deed66d13a9566eef selftests/bpf: Drop cgroup_fd of run_mptcpify
-0ac5103984704c61913ff991a6b84247d5a474a4 bpf: Add mptcp packet scheduler struct_ops
-0e256753bd55fc6a1d3225b1e4eb7b8d6760efaa bpf: Export mptcp packet scheduler helpers
-356cc0d9439be46aa6e486e106a02ffc4d5bd0c0 selftests/bpf: Add bpf scheduler test
-4efe756b24f92242e22cf7f6b5efb937ac95055d selftests/bpf: Add bpf_first scheduler & test
-cc90b8189f09c1ac7700270b2c1e5a190bec36dc selftests/bpf: Add bpf_bkup scheduler & test
-959e4377caed37ba46998cf0149d5428033b6466 selftests/bpf: Add bpf_rr scheduler & test
-be2952fefefdb3d6f9928146383a07085c529158 selftests/bpf: Add bpf_red scheduler & test
-7ea7388688a16fbdcf55710a6937af34fc2c128b selftests/bpf: Add bpf_burst scheduler & test
-35ef0e1bc9ebc5117956584882c6f7fc78b06d91 DO-NOT-MERGE: git markup: features other trees
-bac7731cc4b837b050b97366ff06e70f65c0c817 DO-NOT-MERGE: mptcp: improve code coverage for CI
-e9eb90547e8b1aa55b0144067229d7344248e278 DO-NOT-MERGE: mptcp: enabled by default
+8a9e5bd5d544d3b62ea92631c298dbaef61cc218 DO-NOT-MERGE: git markup: net
+f4dfe15fc7bedacafaca0ffc63ee74b9c9b01521 DO-NOT-MERGE: git markup: fixes other trees
+b2c66fa189dba3227f7be16bcc8b67f4ed228cf6 mptcp: fix stale skb->sk reference on subflow close
+9d3f0607a8683a36bb6260d8e17f8b66ec376857 DO-NOT-MERGE: git markup: fixes net
+06e6e7f9360e298f284cf1014d1a2f8be834a850 DO-NOT-MERGE: mptcp: add CI support
+5aa06d571ec16b6f085213b50cf82aa2bdf910a8 DO-NOT-MERGE: git markup: end common net net-next
+b5690d8cae992cd7eac1e5d65f3246406054bb25 DO-NOT-MERGE: git markup: fixes net only
+4e249b7adb75512b2f892162e49ec5ed98c52350 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+8a5c23d533d1691aadfed5c6324c68228ba7f24b DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6970424702768601010==--
+--===============3816499122593313756==--
