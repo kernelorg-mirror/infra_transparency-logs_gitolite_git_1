@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2664883089179955152=="
+Content-Type: multipart/mixed; boundary="===============3037836744441662150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 10 Jul 2026 12:47:29 -0000
-Message-Id: <178368764952.124639.7812366127699355112@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 12:47:37 -0000
+Message-Id: <178368765743.124866.3727235194284009517@gitolite.kernel.org>
 
---===============2664883089179955152==
+--===============3037836744441662150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 22dd2777e6c180e1c945b00f6d18550979436324
-    new: b1b4efea05a56c0995e4702a86d6624b4fdff32f
+    old: b1b4efea05a56c0995e4702a86d6624b4fdff32f
+    new: 302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958
     log: |
-         e9ad4d5ca309cb517d3f7a85251c3c5328f40f1f vt: fix spurious modifier in CSI/cursor key sequences
-         061b627ba534230a18ec4d7251562af12325d06a serial: 8250_omap: clear rx_running on zero-length DMA completes
-         b1b4efea05a56c0995e4702a86d6624b4fdff32f serial: 8250_mid: Disable DMA for selected platforms
+         302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958 serial: 8250: Ignore flow control on suspend/resume with no_console_suspend
          
 
---===============2664883089179955152==
+--===============3037836744441662150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783687646 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783687654 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1783687647-c85db272812745ed46d2ed7efec422d1a2d15b5a
+nonce 1783687655-4bb50511a19f5e5894486748dbcd522fb1118ed2
 
-22dd2777e6c180e1c945b00f6d18550979436324 b1b4efea05a56c0995e4702a86d6624b4fdff32f refs/heads/tty-linus
+b1b4efea05a56c0995e4702a86d6624b4fdff32f 302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ6d4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0XoQAJ59bulmRgiMMtb6KJZr
-q2R0zEWTcRaNe1bt49VV4mJXCzRGdGXm1SDFaNKk71XXjwuCrZfk9KmOPRhHD88q
-x68aWb4d8Zi0d9/vBqJrQ2Opv9Wsh1vKFRbv1LWy+hE4XcebDXEJ3FmbjhJLzaCQ
-uSM5MD016dftniVTfKloMMaevJ0XhP2AuEFdKqmyTr+B9Hv3G0ZHg/qvgLv7WLI5
-Peipze9y/mVmWt5sblqO6zsUx8KikNwvBg9P67zlFcgae5lHM2ZS9uZevH8bgBNC
-/PpnKbT8GlirguzUIUWJ9VjrUKqdcRIhqWVVD5iMeXvwmO94cwrnwIrvP83f2j8q
-ndJO4Ew2tIbttG2Fcd0AY4ditt2R0OW9VqpEHdq9U0lQqn7ftyrwIKyQvRfodGOW
-7dtnaYPQRjC2xYRvgdTFsbsrAQEoGmh+jmqSbzTDMxlBvgxe62P3RKNHQ36JfqXs
-eS2XmnfrnslS/I88kmtI6Rqw6hjDYLZxhbpEOtk3LFMSGeTXnSgG13G6MvwoklvS
-Fo0zTwcfsVvP9F95nmzhoZv+Cn4KXrpJz6D+XTKXoIW6HppUrl76igbIOH593Mmb
-18UVKLG9q8OaaJFmJHzFOlnDiS83/WtSd0gECR5bNFtzoFSEBxp38slQztSfCAup
-wuURfxyHuusIfSvczwRD21wN
-=x8eI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpQ6eYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zKUP/jbP4LctHhOwpbi8vUKw
+0WZ5cDrQmoQrHGEe6kLdu5Lt+L5mM0o9XBKJfVUE+2rabr2GnabzjT37KgI2KpZ7
+4d6vU6R1E5HwJM2l5/UrO+S4wM1bO0NXvrHHFwuNtlFOTPNest+ynKtMMkUfOV00
+2Wy97NXxZAoruN8cXf8OoHrzp0VYbfLTIF5uQgrjW5eJlWPGHaKOXAd/S1reBQmR
+Knc4D+vxiBvl7Oej/LwtrY0AYDySFiMmhe28zVmmo2T+XtVHTihqGsuJPmWvgIRP
+iVxK4MArft2oUeETWPzrVU6suEbwg5+SCREtWCtjleVNXBakg4eN8VCF5hwF0FTs
+pwh4R7xb03ln7ozof0ilGxUqWy2cp6+Ql/EuCatH17COwjHtF2OsTCkwX/oEQKQS
+AD5JL0ZJTntJ48nnk7wLsY7QJk29nhr75dh0XvYxOyY370b2XySR8ff0lSBXCOPU
+IZrFnzEfFEn3Qe41G8NzMvG88QEV4xSnCs8zAlLChq81NB4B33mtAAvur3cwvYtL
+UAnrWCSjMlWBCcB282mi4dDfYNHavCsBkszkTJm0Kkq4Gzi0F2sSf5hM2lm3b7f2
+CNLQNFVIb/qg6hEMIyLCH6s6cBxzox6ZkFlA4Lw7XgvU0JGYatuQAjAqIqvAPCZp
+1B9NWh1q53pSKOdIKZ+tIBqz
+=f69A
 -----END PGP SIGNATURE-----
 
---===============2664883089179955152==--
+--===============3037836744441662150==--
