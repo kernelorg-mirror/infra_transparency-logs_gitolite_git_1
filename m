@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6364772685378237171=="
+Content-Type: multipart/mixed; boundary="===============8465169079608679079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 10 Jul 2026 16:38:54 -0000
-Message-Id: <178370153458.295484.2890184450548250152@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 16:38:58 -0000
+Message-Id: <178370153838.295703.9407406237925280192@gitolite.kernel.org>
 
---===============6364772685378237171==
+--===============8465169079608679079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f5089008f90c0a7c5520dff3934e0af00adf322d
     new: 1cd23ca80784223fa2204e16203f754da4e821f8
     log: revlist-f5089008f90c-1cd23ca80784.txt
 
---===============6364772685378237171==
+--===============8465169079608679079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -456,4 +456,4 @@ f2f152e94a67bc746afaf05a1b2702c195553112 ipv4: fib: free fib_alias with kfree_rc
 a0d82fb8505326cbc53dc9a0c08f97d11197bb30 Merge tag 'wireless-2026-07-09' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 1cd23ca80784223fa2204e16203f754da4e821f8 sctp: validate STALE_COOKIE cause length before reading staleness
 
---===============6364772685378237171==--
+--===============8465169079608679079==--
