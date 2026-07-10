@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Fri, 10 Jul 2026 16:43:06 -0000
-Message-Id: <178370178697.300304.7515815368189413799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 10 Jul 2026 16:43:49 -0000
+Message-Id: <178370182969.300638.15809426921080489456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/main
-    old: 6b38190d2d66968b637dada5c8af9226ca8a7a5b
-    new: 7f5aa4cf61d6d98a361ac6cd762d1dccac1eb8e0
+  - ref: refs/heads/dm-7.2
+    old: 8ec4d9c5a5cf4b61fc087f871465b1f79b393325
+    new: 386df1a57b631c456d14f857cb0c0c2e11c16bef
     log: |
-         70171b293db357329971554c5c76d6b270612e0e rteval: Add container detection module
-         329dbe89880d181e1b53c06e0ece75de9aa054ac rteval: Add container detection and warning
-         2d446f05bc7064d00250dca72dfc01ba9d845f3c rteval: Add AGENTS.md guide for AI coding assistants
-         8243f39db2d9bf19da68998206539af8ec5df9c3 rteval: Fix collapse_cpulist to handle duplicate CPU numbers
-         d5dc75e48b1daff757d2f49a3e5e692748864376 rteval: Add process blocklist to prevent shutdown issues
-         656f8e6466a3950ff2747389d0202a3815c21a5c rteval: Make thread excepthook portable and support chaining
-         7f5aa4cf61d6d98a361ac6cd762d1dccac1eb8e0 rteval: Set measurement cpuset to partition=isolated for CPU isolation
+         422f1d4f141eaa3a6e4199ceec86cc6b9bf26570 dm-bufio: fix wrong count calculation in dm_bufio_issue_discard
+         1917eb2db750ecbdf710f79a8042eaa545a063c7 dm-stats: fix merge accounting
+         386df1a57b631c456d14f857cb0c0c2e11c16bef dm-stats: fix dm_jiffies_to_msec64
          
