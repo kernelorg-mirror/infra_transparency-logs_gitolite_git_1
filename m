@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1023256397714180717=="
+Content-Type: multipart/mixed; boundary="===============7891405734918860385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Fri, 10 Jul 2026 10:03:06 -0000
-Message-Id: <178367778600.10146.15459500143606866311@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 10:03:32 -0000
+Message-Id: <178367781240.10410.763913360844336199@gitolite.kernel.org>
 
---===============1023256397714180717==
+--===============7891405734918860385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 24c4c88259464d38b35c3fbaecb68675de64137d
-    new: 2c7c88a412aa6d09cd04b414211b4ef8553b5309
-    log: revlist-24c4c8825946-2c7c88a412aa.txt
+  - ref: refs/heads/testing
+    old: d88e620ebd86302118412f538772f6c90305fb53
+    new: d7c2bd13c47b77882fd398440b01690dc2884d5b
+    log: revlist-d88e620ebd86-d7c2bd13c47b.txt
 
---===============1023256397714180717==
+--===============7891405734918860385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24c4c8825946-2c7c88a412aa.txt
+Content-Disposition: attachment; filename=revlist-d88e620ebd86-d7c2bd13c47b.txt
 
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
 8522d806d84e2c3816c275ae6dd79e124c1b3dac ACPI: TAD: Check AC wake capability before enabling wakeup
@@ -407,5 +407,13 @@ fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting 
 78237e3c0720fcc6eb9b87e90fd70f63eeca886f dibs: loopback: validate offset and size in move_data()
 f5089008f90c0a7c5520dff3934e0af00adf322d macsec: don't read an unset MAC header in macsec_encrypt()
 2c7c88a412aa6d09cd04b414211b4ef8553b5309 Merge tag 'net-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+9f492c066eedb234a6cdf5193e1dc7ebdfad13ec netfilter: xt_nat: reject unsupported target families
+2a944aa41bdd26b21cb59e20f84e64574e9c86d1 netfilter: ecache: fix inverted time_after() check
+d8f64aefb887e9dfb9c0136aad63d8c749d186fc netfilter: bridge: fix stale prevhdr pointer in br_ip6_fragment()
+8e77d4f224932bf4468a80d76977c022a982515d netfilter: nf_conncount: fix zone comparison in tuple dedup
+96ee04d864994c912ef973819531676a34241a82 selftests: netfilter: add bridge tunnel flowtable regression
+e61b77f2589e12b2357c58681050d23eb09acea1 netfilter: flowtable: use correct direction to set up tunnel route
+079ee931d5d56be449c1d568b01bc92a34e1626a ipvs: reload ip header after head reallocation
+d7c2bd13c47b77882fd398440b01690dc2884d5b ipvs: fix more places with wrong ipv6 transport offsets
 
---===============1023256397714180717==--
+--===============7891405734918860385==--
