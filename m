@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 10 Jul 2026 16:43:49 -0000
-Message-Id: <178370182969.300638.15809426921080489456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 10 Jul 2026 16:44:03 -0000
+Message-Id: <178370184364.301016.2244771622649538303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/dm-7.2
-    old: 8ec4d9c5a5cf4b61fc087f871465b1f79b393325
-    new: 386df1a57b631c456d14f857cb0c0c2e11c16bef
+  - ref: refs/heads/for-7.2-fixes
+    old: e6979d05c6a6fe79980f08d63f039f0b27c30a1c
+    new: 0e2f4ab68a89fad42e0f5a9ff4b740738e7aa1d6
     log: |
-         422f1d4f141eaa3a6e4199ceec86cc6b9bf26570 dm-bufio: fix wrong count calculation in dm_bufio_issue_discard
-         1917eb2db750ecbdf710f79a8042eaa545a063c7 dm-stats: fix merge accounting
-         386df1a57b631c456d14f857cb0c0c2e11c16bef dm-stats: fix dm_jiffies_to_msec64
+         0e2f4ab68a89fad42e0f5a9ff4b740738e7aa1d6 sched_ext: Skip ops.set_weight() for disabled tasks
+         
+  - ref: refs/heads/for-next
+    old: dc5779662a7a8bda58d8bb8bbcaed62a519f9746
+    new: 5e4cb7abf0cd9e011150abe0405ce2478a23dc59
+    log: |
+         0e2f4ab68a89fad42e0f5a9ff4b740738e7aa1d6 sched_ext: Skip ops.set_weight() for disabled tasks
+         5e4cb7abf0cd9e011150abe0405ce2478a23dc59 Merge branch 'for-7.2-fixes' into for-next
          
