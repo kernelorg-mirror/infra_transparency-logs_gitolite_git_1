@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0576909065587907570=="
+Content-Type: multipart/mixed; boundary="===============4080994112706426119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Fri, 10 Jul 2026 20:44:48 -0000
-Message-Id: <178371628855.471181.2335122729137295328@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 20:44:58 -0000
+Message-Id: <178371629857.471419.14388416243054270125@gitolite.kernel.org>
 
---===============0576909065587907570==
+--===============4080994112706426119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-next
+  - ref: refs/heads/docs-mw
     old: c47a4ce7b2b61610ea23b241dc6bc1797d97665f
     new: 4108b688d3a456ee1d04c15fa09bcd1cfa9bc425
     log: revlist-c47a4ce7b2b6-4108b688d3a4.txt
 
---===============0576909065587907570==
+--===============4080994112706426119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b737581a3fcbfe9e66e5490b9de734e2b6e5d0d8 Documentation/kernel-parameters: fix br
 b09eb382b9a9ce9a18464ba766c6137203399551 docs: ABI: README: fix grammatical error
 4108b688d3a456ee1d04c15fa09bcd1cfa9bc425 README: remove out of place emdashes
 
---===============0576909065587907570==--
+--===============4080994112706426119==--
