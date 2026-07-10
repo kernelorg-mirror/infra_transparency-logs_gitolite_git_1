@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0309233904656525686=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 10 Jul 2026 13:38:33 -0000
-Message-Id: <178369071334.161905.9154780064640229265@gitolite.kernel.org>
-
---===============0309233904656525686==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 10 Jul 2026 13:39:22 -0000
+Message-Id: <178369076250.162503.869262344108082189@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 90221eddd6b131111dfe960c5bf4d10295af62aa
-    new: a67f585b015e13e74180d679b7a8a2fcdec7d61b
-    log: revlist-90221eddd6b1-a67f585b015e.txt
-  - ref: refs/heads/tip/urgent
-    old: ea1529950d99844989578a3085ff8c5008426dee
-    new: e3d082e795dd203431d8702559e919d86b196ee8
+  - ref: refs/heads/scx-proxy-exec-next
+    old: a975a05989e3e566d8155299e91f6b188aac1442
+    new: 1a91dfe04ce39b66dd9c01b476ce0ddf07f649ea
     log: |
-         2a892294b83f541115c94b0bb637f39bef187657 perf/x86/amd/lbr: Fix kernel address leakage
-         13145ab34b5bfd0822abd63fd732bb1c8c8e27c4 Merge branch into tip/master: 'perf/urgent'
-         a98c4774e437b61aca409e2fa44ca4ee62eacc02 Merge branch into tip/master: 'timers/urgent'
-         e3d082e795dd203431d8702559e919d86b196ee8 Merge branch into tip/master: 'x86/urgent'
+         e4d213b65370314cc2d5e59853d8d18b875a5f29 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+         0d747c61fae7bc383ce900e77129364515b1382c sched_ext: Split curr|donor references properly
+         abf895b25dfa49ad58d1c713ca5307f2ca702d93 sched_ext: Fix TOCTOU race in consume_remote_task()
+         75c163895f59cec314f6a3ca80fe64ea1c4800f2 sched_ext: Handle blocked donor migration with proxy execution
+         af230558c38b384798e1fe566290347bce134233 sched_ext: Delegate proxy donor admission to BPF schedulers
+         b7cd67c49b642230c7b2a5f7f97de6bfc51b7f7b sched_ext: Add proxy destination query kfuncs
+         e8d0223d7b00932fb9c3d83531157254724ed1ac sched_ext: Add selftest for blocked donor admission
+         37a23eabae3daf5a10c6f37b0019ff03271bec40 sched_ext: scx_qmap: Add proxy execution support
+         1a91dfe04ce39b66dd9c01b476ce0ddf07f649ea sched: Allow enabling proxy exec with sched_ext
          
-
---===============0309233904656525686==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90221eddd6b1-a67f585b015e.txt
-
-2a892294b83f541115c94b0bb637f39bef187657 perf/x86/amd/lbr: Fix kernel address leakage
-13145ab34b5bfd0822abd63fd732bb1c8c8e27c4 Merge branch into tip/master: 'perf/urgent'
-a98c4774e437b61aca409e2fa44ca4ee62eacc02 Merge branch into tip/master: 'timers/urgent'
-e3d082e795dd203431d8702559e919d86b196ee8 Merge branch into tip/master: 'x86/urgent'
-3f70deced46ed1cac4d38a92c21b869805a8700a Merge branch into tip/master: 'perf/merge'
-74b4d1a88716a626196e4637b584e3b382c8fecd Merge branch into tip/master: 'core/entry'
-48932907675da3f76dc4d9e5bd0423cd5043e2b9 Merge branch into tip/master: 'core/rseq'
-4079a039900f1ddaf3058f0823cf079dd89a59df Merge branch into tip/master: 'irq/core'
-97a14b3f555b27b401cf692af107bc743a3cd5af Merge branch into tip/master: 'irq/drivers'
-06ca021564e639b860145ba059f426c29b07be8d Merge branch into tip/master: 'locking/core'
-47fd34a2930e87f167fb6f2ac288cde9e3ac310b Merge branch into tip/master: 'locking/futex'
-6fd4911f12d17c4ed67c9b6f584e99a4e432cabc Merge branch into tip/master: 'sched/core'
-2f3b5a6f2f65c48fd6782d877c9dc4e2e8b9064b Merge branch into tip/master: 'smp/core'
-c99a9ea1e3be25df34ebc31dd4c7210259be9118 Merge branch into tip/master: 'timers/core'
-7116dcc21f9b2e653dba2ea706fdb333f94df259 Merge branch into tip/master: 'timers/vdso'
-85bb360df9f0c0c4b264cb45c7c6ba1a4be70af5 Merge branch into tip/master: 'x86/build'
-569194cded9fdfdd27e84797f6977785d6fceb8a Merge branch into tip/master: 'x86/cleanups'
-a67f585b015e13e74180d679b7a8a2fcdec7d61b Merge branch into tip/master: 'x86/msr'
-
---===============0309233904656525686==--
