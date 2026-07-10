@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Jul 2026 21:45:36 -0000
-Message-Id: <178371993693.581805.14675923878383040367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 10 Jul 2026 21:48:07 -0000
+Message-Id: <178372008728.582584.15385136366527532284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 30f77a0419382ce061b2418de81526e93be4ecf9
-    new: e821c223875803760d492f88e357380415f5f438
+  - ref: refs/heads/perf-tools-next
+    old: 8c5f60344b07f839267c0c835962e2206143be85
+    new: d3c9fca531e2465f3a8f585965f3d10e1a6595ff
     log: |
-         e821c223875803760d492f88e357380415f5f438 selftests/bpf: veristat: Minimize map size during verification
+         831068eed9202ece884ddace8fbb262d900fa1b7 perf tests: Restore -p flag to lock contention test
+         d3c9fca531e2465f3a8f585965f3d10e1a6595ff perf capstone: Fix kernel map reference count leak
          
