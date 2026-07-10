@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 10 Jul 2026 18:33:42 -0000
-Message-Id: <178370842278.379146.10897600977446869932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Fri, 10 Jul 2026 18:37:10 -0000
+Message-Id: <178370863005.382313.3536453098996012345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: a2ac823d8a228e392bc6a79ea63b550ab84a55b2
-    new: 0161aa173c388a74be82ba1e22fd26f13e19d0f2
+  - ref: refs/heads/master
+    old: a1d3bc7e6f7746cb4a2983f3b66302d3ea163545
+    new: 688d07e98e61cf9f9b0a75a57ac36ee208818890
     log: |
-         184c00ec1d37569d5afd57eadba7e200ce8f6f59 selftests/riscv: ptrace: Fix memory leak of regset_data in vector tests
-         e9f2a55ebe96a0533a01dda58cc5650c262b29ae riscv: efi: Power off via EFI runtime services when available
-         167e542a6624829f64e9ebcc46b7a626c6e9b94a riscv: Restart via EFI runtime services when available
-         ec2002a725046536c2acd04c4fcebfa6ee11282c ACPI: tables: Add missing #include <asm/fixmap.h>
-         dea4a312d5af8a74a85a49bf735ac2bf6e703f23 riscv: acpi: Enable ARCH_HAS_ACPI_TABLE_UPGRADE
-         306edd505cb68031bd909f2b4273d292c3e9943c riscv: probes: simulate c.jal instruction
-         0161aa173c388a74be82ba1e22fd26f13e19d0f2 riscv: kprobes: add test case for c.jal instruction simulation
+         ab4f4d1f2971f0d5deb3df48b87a700c9bc9371f toolsoftrade: Upgrade infinite and finite load-fusing listings
+         9d2f18f8af072e1ee1a8c3c86c6635d031a07e08 Bibliography update
+         688d07e98e61cf9f9b0a75a57ac36ee208818890 toolsoftrade: Wordsmith shenanigans QQ and add another
          
