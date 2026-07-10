@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 10 Jul 2026 19:11:19 -0000
-Message-Id: <178371067972.407432.4752179710148201702@gitolite.kernel.org>
+Date: Fri, 10 Jul 2026 19:20:18 -0000
+Message-Id: <178371121894.413889.3501967318515910142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,15 @@ repo: pub/scm/linux/kernel/git/dhowells/linux-fs
 user: dhowells
 changes:
   - ref: refs/heads/rxrpc-fixes
-    old: 1393ccd9aa9e4ac6dc9b83b5a0eae7b174ac557e
-    new: b78d7564a521ee4ad799dee1bf8b0f0b025f7cb1
+    old: b78d7564a521ee4ad799dee1bf8b0f0b025f7cb1
+    new: 6b2960dcc34b6400052d323538d0917ceaa63b22
     log: |
-         29b8ab73b7c2545400a4d875829f8c6a93216d52 afs: Make afs_put_call() take trace argument
-         3b2be1bf5063dcb5d611b3f8039467858d4099d3 afs: Fix UAF in afs_make_call()
-         0ba82553aa717d6f515d71078ff6a3b62b4bbdc8 keys: Add refcounting to user-defined key type payload
-         6f6b1bcd5eeac8cd6e51ca101872c1b1d0cf56e4 afs: Create a server appdata key
-         8eb35bba759241fb02d0667b70947c37f8d488c5 rxrpc: Pass appdata key to rxrpc_call and thence to rxrpc_bundle
-         fca68de3e03a4ba711c5584217c0b9463a265ef3 rxrpc: Fix CHALLENGE packet overqueuing and simplify RESPONSE generation
-         b78d7564a521ee4ad799dee1bf8b0f0b025f7cb1 rxrpc: Remove OOB challenge/response code
+         0781965189955f169994cfca895280e9c42ad3d9 afs: Simplify call refcounting
+         af4f1cde13376a3aad7acf022838c3c88284e4bb afs: Make afs_put_call() take trace argument
+         11902a3bd8b97cda90e494959709aabe9c3c0bc8 afs: Fix UAF in afs_make_call()
+         2ff4c73c7b7fad8026e5abebc28db35991425246 keys: Add refcounting to user-defined key type payload
+         4e07b331c38be42f368cbfd3e8389f8c21b86805 afs: Create a server appdata key
+         b8ba46ed80e1c55227fec0c99c624bb2b000ce91 rxrpc: Pass appdata key to rxrpc_call and thence to rxrpc_bundle
+         26d70af34d721258a4078303feda581106496abb rxrpc: Fix CHALLENGE packet overqueuing and simplify RESPONSE generation
+         6b2960dcc34b6400052d323538d0917ceaa63b22 rxrpc: Remove OOB challenge/response code
          
