@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1048511062605846937=="
+Content-Type: multipart/mixed; boundary="===============6416411597568685123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 10 Jul 2026 10:18:02 -0000
-Message-Id: <178367868212.20732.2916544628678854744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 10 Jul 2026 10:21:03 -0000
+Message-Id: <178367886336.23891.10603252112969455556@gitolite.kernel.org>
 
---===============1048511062605846937==
+--===============6416411597568685123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 84a8eac34713f0d9db22eadf372feeea289ea0f0
-    new: c50d2a841739b51b1472b6028887790bbdc97a47
-    log: revlist-84a8eac34713-c50d2a841739.txt
-  - ref: refs/heads/tip/urgent
-    old: 5e241ede86fdbe1d274225b9f2c41abe18c5d0dc
-    new: 5ec0167664ba2a25b1461eb7bc0166e4828772cd
+  - ref: refs/heads/review-ilpo-next
+    old: 62b57396c26a1ce54963709928ea0d01fa522eea
+    new: 4aefd66ef7822cf7d3f53146dcee0b71021ed2b7
     log: |
-         5948aaf64f81f217a25dcc2bf6c0779bca19566c perf/aux: Fix page UAF in map_range()
-         d1fd6e2c4b479a38e2b1eb17d1fcddd9231c5b6d Merge branch into tip/master: 'perf/urgent'
-         b95d34ef08db9d411be975849bbdbbda1c5449a6 Merge branch into tip/master: 'timers/urgent'
-         5ec0167664ba2a25b1461eb7bc0166e4828772cd Merge branch into tip/master: 'x86/urgent'
+         e0ddfd77c0c320b7d12b6c9169303b140b798775 platform/x86: hp-bioscfg: pass validated element count to package parsers
+         1d143d78299d0eb4536698bf98c1815ec69f22a9 platform/x86: hp-bioscfg: bound ordered-list parsing by the package count
+         40e10e6cc8f70c041431a1e30186807e28ec46e0 platform/x86: hp-bioscfg: accept reduced ACPI packages from older HP BIOS
+         b0e2af3ec94e0431adb59d9f249ebbd3b7285158 platform/x86: hp-bioscfg: warn on element type mismatch instead of failing
+         4ed460ce13710f7f2cf22e0c9e66c7add13c7a53 platform/x86/amd: Introduce Halo Box RGB LED driver
+         4aefd66ef7822cf7d3f53146dcee0b71021ed2b7 platform/x86: asus-wireless: Fail probe when there is no ACPI match
          
 
---===============1048511062605846937==
+--===============6416411597568685123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84a8eac34713-c50d2a841739.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d1fd6e2c4b479a38e2b1eb17d1fcddd9231c5b6d Merge branch into tip/master: 'perf/urgent'
-b95d34ef08db9d411be975849bbdbbda1c5449a6 Merge branch into tip/master: 'timers/urgent'
-5ec0167664ba2a25b1461eb7bc0166e4828772cd Merge branch into tip/master: 'x86/urgent'
-d58f972695d8feffa866c252f4a59277cb1131cb Merge branch into tip/master: 'perf/merge'
-3a2d25f956f0452918f2831c6d04a359ef713a0a Merge branch into tip/master: 'core/entry'
-0170c879caa42b1fe81e8df1a7deaebf38673c45 Merge branch into tip/master: 'core/rseq'
-f3e587ce86b3bbf3c60338568711bf5109e3fcfe Merge branch into tip/master: 'irq/core'
-efcac303e0acc663bd687b90cc2af5811b04a951 Merge branch into tip/master: 'irq/drivers'
-444ed3a28bafa4052851468ff122f8021a722697 Merge branch into tip/master: 'locking/core'
-c45389b2a6319577e98cfe0cf7d2dcf3f0bba701 Merge branch into tip/master: 'locking/futex'
-96fb082ed7611cc7fdc21a9467cb31f0791ef722 Merge branch into tip/master: 'sched/core'
-4c62cef50d19c94822416bcc91b64458800303ce Merge branch into tip/master: 'smp/core'
-a520f907a1556d337febbb7ce4bdcd1f9c291345 Merge branch into tip/master: 'timers/core'
-9e48aa22643cfb221338219ca5b654417974cb35 Merge branch into tip/master: 'timers/vdso'
-8c23ea777722c6ca6e2d51b6f90a6010ba92c4be Merge branch into tip/master: 'x86/build'
-e7ad27eff20499933c8db6a758c38fe696c48202 Merge branch into tip/master: 'x86/cleanups'
-c50d2a841739b51b1472b6028887790bbdc97a47 Merge branch into tip/master: 'x86/msr'
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1783678859 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1783678859-7420749948091f2339b6910d2e0d53e77c600444
 
---===============1048511062605846937==--
+62b57396c26a1ce54963709928ea0d01fa522eea 4aefd66ef7822cf7d3f53146dcee0b71021ed2b7 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCalDHjgAKCRBZrE9hU+XO
+MQLTAP90Im0H3KdhKlQEvd1c3U60AHq+/YHYCF0JI7u63QLDBAEApBXXc6uatSnR
+k/dnMNsUAldJJpaZgi+qSsEmJyzl0w8=
+=9egl
+-----END PGP SIGNATURE-----
+
+--===============6416411597568685123==--
