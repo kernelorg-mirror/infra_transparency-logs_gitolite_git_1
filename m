@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6140403600543945471=="
+Content-Type: multipart/mixed; boundary="===============7113639830837056786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 10 Jul 2026 22:21:00 -0000
-Message-Id: <178372206015.606403.9008343092155014116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 10 Jul 2026 22:21:10 -0000
+Message-Id: <178372207078.606769.17828463721470329004@gitolite.kernel.org>
 
---===============6140403600543945471==
+--===============7113639830837056786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 512f61464691dbb92c2b0ff9cd64240030d7abbe
-    new: a5ee3180a2a7bbbd84af70ef98283b3f3e6a821e
-    log: revlist-512f61464691-a5ee3180a2a7.txt
+  - ref: refs/heads/for-next
+    old: 8dfce4002fc1e720316bb931bc4beb7e525b6389
+    new: 29103503e03896b49ddd32304dbfa45836103f10
+    log: revlist-8dfce4002fc1-29103503e038.txt
 
---===============6140403600543945471==
+--===============7113639830837056786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1783722058 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1783722057-922a2414b2a4ac46086f83dc810e369d57e9e772
-
-512f61464691dbb92c2b0ff9cd64240030d7abbe a5ee3180a2a7bbbd84af70ef98283b3f3e6a821e refs/heads/asoc-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpRcEoACgkQJNaLcl1U
-h9BCawf9FCK7MgCFwY+3pOrqYNUEFrQAYgxvIzrL5Uu5TVx/ccDqFGBbjLddaBKb
-nkzY27DUC267RxKZLQC1ctlVI0h/Ds1UZMpavrmniyyKk9JW+yOQuPXdJyLy2DwJ
-MqsMFO5h25kAw9k1gGvJ+rThUbE5676zCHOQQfcogKMAIHFmddDFS7rmoYIyv2So
-s/ST2hMY8vcREjnQ5nFI2bIDDBc/GOG3sMVPhLgtZWt5Dz4osEW6eOPTvb7Gmg94
-wgeQsRlCt65O7QhUO04kHRqv3QPngiv+2PdvRCpQ3/NfBd7hUYoG2j1CggaSTwJE
-cU9KhYt6YXm4UdHSLMFP4Ke2/THN1A==
-=vP4V
------END PGP SIGNATURE-----
-
---===============6140403600543945471==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-512f61464691-a5ee3180a2a7.txt
+Content-Disposition: attachment; filename=revlist-8dfce4002fc1-29103503e038.txt
 
 92aa9c7b1d9d318709b3cd769b894844cc6e9a9d ASoC: xtensa: Use dev_err_probe() and drop redundant error handling
 14b68141bcffafde22848c18569e821675afe9e6 ASoC: xilinx: xlnx_i2s: Use dev_err_probe() and drop redundant error handling
@@ -74,5 +49,6 @@ b9b23e72abef91ab4689f1467cefc2517042ab26 ASoC: codecs: lpass-tx-macro: switch to
 b05482e7ce1b110f86b08a99768ac41e4c9e4dfa ASoC: codecs: lpass-rx-macro: switch to PM clock framework for runtime PM
 b8ca90fafe6adc401601f91d1394ba76bacf67ed ASoC: codecs: lpass-{tx,rx}-macro: check clk_set_rate() return value
 a5ee3180a2a7bbbd84af70ef98283b3f3e6a821e ASoC: codecs: lpass-{tx,rx}-macro: switch to PM clock framework
+29103503e03896b49ddd32304dbfa45836103f10 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
 
---===============6140403600543945471==--
+--===============7113639830837056786==--
