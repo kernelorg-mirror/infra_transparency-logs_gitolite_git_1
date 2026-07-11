@@ -1,66 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============8418748380180393742=="
+Content-Type: multipart/mixed; boundary="===============4633229330350374321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sat, 11 Jul 2026 21:24:16 -0000
-Message-Id: <178380505697.1527775.12907740538595030568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 11 Jul 2026 22:12:08 -0000
+Message-Id: <178380792897.1559289.7536763309136175916@gitolite.kernel.org>
 
---===============8418748380180393742==
+--===============4633229330350374321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/b4/b4-sysfs-const-attr-device_attr
-    old: 5b9c23a3b3471cb67af819bf4a8aa302068e8c95
-    new: d7679c239ac3e14645023647018f77fbc022b5d7
-    log: revlist-5b9c23a3b347-d7679c239ac3.txt
+  - ref: refs/heads/master
+    old: 9eff5e8ecfc9926a5b4f617bbb21e979aabf8e9f
+    new: a7a4b6770fd1c6a33d359696d929d104fc9822a2
+    log: revlist-9eff5e8ecfc9-a7a4b6770fd1.txt
 
---===============8418748380180393742==
+--===============4633229330350374321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b9c23a3b347-d7679c239ac3.txt
+Content-Disposition: attachment; filename=revlist-9eff5e8ecfc9-a7a4b6770fd1.txt
 
-f81808de37338aac8e167f99bfae647b1b835c70 debugfs: Fix lockdown check for mmap_prepare
-e7e09a8546a9e41a164378979471a4b4bd166bc7 driver core: fix path of /sys/module in comment
-0fa8e47dea17dd7899201f73cdf3d8efcbf78448 isa: refactor code to remove nested blocks
-5dcef303b29f004a447d9c69e62963328da9c608 rust: io: fix example in `register!` macro
-bd0abfe6b013aeb2a1aebc5fbc7ceeb50355bda3 powerpc/powermac: fix OF node refcount
-714cfe9e143feb2136e9dc331c43e2453b3c3d4d driver core: platform: provide platform_device_set_of_node()
-8877c06885ce43780f7630973dc47cd3a625524b driver core: platform: provide platform_device_set_fwnode()
-5b84ef0b029eb488c6a8fd83eea37010ac63b5e1 driver core: platform: provide platform_device_set_of_node_from_dev()
-67e1ddc9f7e37d19d749d7767e5370d57fc92406 driver core: update kerneldoc for platform_device_alloc()
-6261c7cde02c0d4b52b68e751df1309dc4893eaf of: platform: use platform_device_set_of_node()
-002919316dac259ffaee8e1187ecce617ffcdb2c powerpc/powermac: use platform_device_set_of_node()
-34934e7cd1be95a3cd8b33f5231cfae2d08a815b i2c: pxa-pci: use platform_device_set_of_node()
-6fc33ee89d274b72383cc6b275dffc0a99576dc4 iommu/fsl: use platform_device_set_of_node()
-fa20a8968c03650deec369245fcac535ac1d7839 net: bcmgenet: use platform_device_set_of_node()
-b830f5f871ad32be484f486ab518edfdf4ee8b97 pmdomain: imx: use platform_device_set_of_node()
-4108b2633d082c194409d4ab62af887e8e01da39 mfd: tps6586: use platform_device_set_of_node()
-6e502e1725ad76bd8718d3d6bba9177cce959ef8 slimbus: qcom-ngd-ctrl: use platform_device_set_of_node()
-d5e15708c868283712768e5e0a1e3031353881f5 net: mv643xx: use platform_device_set_of_node()
-e766abbc5191b444176c3b26713e7ac2f412b351 drm/xe/i2c: use platform_device_set_fwnode()
-5963c8563d07bdb7b80226d5d3e57d68d7641b53 platform/surface: gpe: use platform_device_set_fwnode()
-7afe78d6daa374e942a14df8c17311c512c98a02 usb: chipidea: use platform_device_set_of_node_from_dev()
-16aa2d3847bef0cfbab1ad76f29334369eda2374 usb: musb: use platform_device_set_of_node_from_dev()
-7a78fc208252c9a63eea5fe35259cbaf455b9227 reset: rzg2l: use platform_device_set_of_node_from_dev()
-7b5b51b2b05cf2b49eaa3808b1c2953cfb8e1cae driver core: platform: count references to all kinds of firmware nodes
-8b29d0b45266619533b5bc3c99a65ef96d01814f driver core: add driver name to probe debug print
-418a74d106ef4fe08fe9eb239e8b9717b3d79ca4 kobject: Provide macros to initialize 'struct kobj_attribute'
-a3a9c7453fd512e1700d63563fcd316b7795148d samples/kobject: Switch to the new __KOBJ_ATTR() macro
-ed96337a5baeae5eec8ed16f8c614dc316640680 kobject: Allow the constification of kobject attributes
-584afc86a1d44235ae4548d69efd40f649564233 samples/kobject: Constify kobject attributes
-d431bc0beb0791c7b1f68a9a0610db19866b5606 mce
-c2023d7e880bd47fa380ab0b1daf100c8678b002 perf
-40cf0011e106affbe3fc188f91d50acbcdcbd8b1 container_of
-74a10410badca6346b8d80ce7f4770367305d7e4 device_ulong
-f62f81fbb8be129cf9497c5353d920bb2c812862 device_int
-60f7a38dd67681a6ee184a3290b5f6677db2b421 device_bool
-d7679c239ac3e14645023647018f77fbc022b5d7 device_string
+5cb805ad8e35ffa3602516e6162a9ac158265c4c hkml_patch_format: set check_recipients param  for check_patches()
+566659a2b0ad8580019ba1f591c5a23a3ced8a97 hkml_patch_format: handle floating point version numbers
+eb454b283bc124e835c527bf7e9a016b22a4fb9e hkml_patch: add Patch methods for adding recipients and patch tags
+15bb4f8949d9600e8beb90fd8c17a99dd3eb53cb hkml_patch: add patch version find_add_tags()
+040989c456bec8a42dd297d9e15295b3d17ebd5b hkml_patch: add patch version add_cc_tags()
+fb99611e68bb0ef3110fc17e20db24fc46c953b9 hkml_patch: add a function for getting patches from mail item
+0f7fce182f1a783fe20db9a5ab4a4ad6f88c2bb2 hkml_patch: implement Patch version write_patches()
+42822386cf9f0302724c295546efded8e5709b9e hkml_patch: use Patch for export
+5a6af49496ba4bb1e13aa780da8df7bbb6959ab2 hkml_patch: fixup wrong cv_text_lines setup in Patch.set_cv_text()
+71a159d46178a1c12f10cfe4bd2235ca7f34bad1 hkml_patch: fix wrong tags deletion in Patch.format_tags_par()
+5e72b16266cc43631c2454f72e205cbfd9e8f8e3 hkml_patch: check tag existence for last_tags in Patch.format_tags_par()
+51e08839e5a1f15ec2df18a3a196a2281d005caa hkml_patch: fix Patch.set_cv_text()
+e5b949afd368dec5c3993e67710354b5ade4dccd hkml_patch: avoid duplicated tags in format_tags_par()
+8b77120e549182975e4809666468cc882cf71d3f hkml_patch: return mail text for cv from Pattch.format_str()
+5b6c79d891991e8a0c32e07dbae7e5fd361b117d hkml_patch: do not return empty string from recipients_of()
+98459d17503bf830958fabdc9fdc764380425fee hkml_patch: do not check recipients for cover letter
+fda966379df08e13cbe72558e493c02c196fcec9 hkml_patch: use Patch for check
+f4776575e194c4f66bccfa244128e17b55cce382 hkml_patch: add Patch based version of apply_patches()
+94fde520ba1e8ba4834b93c1930e11131f4f4e2a hkml_patch: use Patch for apply command
+e94b76058fc75430c511ffa473536b7d1d5f3573 hkml_patch: remove unused apply_patches()
+5b3575dceabfdb41f5b17dd30b7eca96ebfa7ead hkml_patch: rename apply_patches_new() to apply_patches()
+fd5a8626bc87699a10639f1bf4298c633d89c7ca hkml_patch: remove unused write_patch_mails()
+2a7054200e470b19853c068389f127a428726b0d remove unused get_patch_mail_items()
+a2500d84879fd9350e9c4feb098dda8d7efc043b remove unused add_cc_tags_item()
+d7e81138961cd41a98828a7cd3da8fcdfc9803f2 remove unused find_add_tags_item()
+a98c91a58693acd731b61560127d8961bfdbb762 hkml_patch: fix wrong field name in Patch.add_recipients()
+355ab0628b14e8593f5f301d1f628e410c89a6d9 hkml_patch_format: use hkml_patch.Patch
+edce685cec21b373f2cd804d17c2030607bf2f18 hkml_view_mails: do not cleanup patch format fields of mail
+ce1998a39b26efb609d9df62cf782d05ae0d3604 _hkml: remove unused Mail.add_patch_tag()
+bba68df98726e94866eb53f3f2c71e096447b838 _hkml: remove unwritten Mail.collected_patch_tags
+82d99e25cc002837fd9f7e048c1d4e3b054c6000 _hkml: remove unused Mail.add_cv()
+6bbbcfa0deaa2aee028f7efc9223ecba2d2f308e _hkml: remove Mail.cv_text
+1ff853f2c4fbd401f6e63ffb8e2a6754a6826550 _hkml: remove unused Mail.add_recipients()
+b4a96460ff3e43762aa247ca56b1ea718f115aaa _hkml: remove Mail.additional_{to,cc}
+454dbfc0d325339f60a84b54a58fbd45b539f213 _hkml: implement Mail.get_msgid()
+f0e214f3f24cb8d2d06781a075e39407f9c01ace treewide: use _hkml.Mail.get_msgid()
+080003a6f843b62c1bfef64f1fc09a3beba048cd _hkml: implement Mail.get_in_reply_to_msgid()
+0a480d5cfd655021b3a5c38079f650c39063a9e1 hkml_list: use get_in_reply_to_msgid()
+5dd15729478cbe07b5cb365f57038fe2371ff934 _hkml: implement get_from()
+1994cc3438eb022af6ec229c474eb0e734dd5578 treewide: use _hkml.Mail.get_from()
+fb26f13973f6edab5efbd3fdbd769964406722b4 _hkml: implement Mail.get_body()
+71c19ab28e0c31037aeb960f5e77ce1ac03b03a8 treewide: use _hkml.Mail.get_body()
+87a6527e99e921a33b3a74be74e477341d0cb74c treewide: use _hkml.Mail.subject instead of get_field()
+a7a4b6770fd1c6a33d359696d929d104fc9822a2 hkml_list: use Mail.get_in_reply_to_msgid() instead of get_field('in-reply-to')
 
---===============8418748380180393742==--
+--===============4633229330350374321==--
