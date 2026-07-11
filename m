@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5098756231021433122=="
+Content-Type: multipart/mixed; boundary="===============1208496638344943446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 11 Jul 2026 03:43:17 -0000
-Message-Id: <178374139754.824315.5744638726207906635@gitolite.kernel.org>
+Date: Sat, 11 Jul 2026 03:43:20 -0000
+Message-Id: <178374140023.824410.8173939186961131449@gitolite.kernel.org>
 
---===============5098756231021433122==
+--===============1208496638344943446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1e692e85500fd3a971da0241f044f4572b2be8b6
-    new: 61cccb8363fcc282d4ae0555b8739dd227f5ad0b
-    log: revlist-1e692e85500f-61cccb8363fc.txt
+  - ref: refs/heads/mm-unstable
+    old: 4a6c88e10a0791d9c3b0677ce984365815c2ab4f
+    new: bdc38bfc1262e3d1432afadd2aa2ffd83d139dbb
+    log: revlist-4a6c88e10a07-bdc38bfc1262.txt
 
---===============5098756231021433122==
+--===============1208496638344943446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e692e85500f-61cccb8363fc.txt
+Content-Disposition: attachment; filename=revlist-4a6c88e10a07-bdc38bfc1262.txt
 
 cadef210057dd65a571feea8afaa43808fd0b298 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 47837480663f5db5e4b33f3e988a494305496218 lib: test_hmm: use device devt for coherent device range selection
@@ -382,98 +382,5 @@ e8cd6d8b1c3a48e7e6ee87a2b1f38ecea3022f8f mm/damon/core: s/nr_accesses_to_accesse
 3e7bdf53d9600b6979e063014c797a9a616bfe4b mm/damon/core: s/nr_accesses_for_new_attrs/nr_samples_for_new_attrs/
 ea3303032460837cdfcd58c89c878b9b1f2ec527 mm/damon/core: update probe hits for new parameter commit
 bdc38bfc1262e3d1432afadd2aa2ffd83d139dbb mm/damon/core: handle unreset probe_hits in probe_hits_mvsum()
-e296f3f0bd6eb2d9a86ff27878662f68bd134949 ksm: add linear_page_index into ksm_rmap_item
-a20085dc37026a9a84b88a99766a51be5732ad23 ksm: optimize rmap_walk_ksm by passing a suitable page index
-0e86d03ab3b5cd681fa0497e254c6f04b9ce6737 ksm: add mremap selftests for ksm_rmap_walk
-4579dee80f77be3dc48f20d91b3fb8d7b4dddd4c mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-c15fdea4ca9864e3e52937d3ab2203b1407e2a5d mm: split out mm_init and memblock declarations from internal.h
-c24eaa6f866e14872ea7b5122eea359ff060c32a mm: split out sparse declarations from internal.h
-91de6a7ffddc7777ff368b788d40bb012db50ab2 mm: split out vmalloc declarations from internal.h
-791c1f33795fd067b34c31b21f9836815090cc1b mm/ksm: initialize the addr only once in collect_procs_ksm
-2c2442572238c0a844dd4bb2a8b1631701869a01 ksm: Use precise linear_page_index instead of the whole address space
-b18584cbd3702b404af86f7de5740c961cbac29f selftests/mm: fix memleak in migration benchmark
-01599dbd4959691312c68222d9911d42e465da1b arm64/hugetlb: extend batching of multiple CONT_PTE in a single PTE setup
-85d1324d3bb5d2110dd951816296d0965fc8d1fb arm64/vmalloc: allow arch_vmap_pte_range_map_size to batch multiple CONT_PTE
-23de7da654625cd2aed042d314f5740f19b832d1 mm/vmalloc: extract vmap_set_ptes() to consolidate PTE mapping logic
-090c7f299bfd881f346ade56349d6d81c3482533 mm/vmalloc: extend page table walk to support larger page_shift sizes and eliminate page table rewalk
-2f030899bfaab7efd2aca902d8192e02f6f0f4d0 mm/vmalloc: map contiguous pages in batches for vmap() if possible
-242857db4cd153bc9b1304f6837314fa0ff8559e mm/vmalloc: align vm_area so vmap() can batch mappings
-f9816473de20db7c4796d0f6cfcf4349e3b079a1 mm: standardize printing for pgtable entries
-bd419063fdfa8573477ad068d0ea3b7b8dc9be61 selftests/mm: handle EINVAL when configuring gigantic hugepages
-8b6d4d8a25407ee2215649a05f2286efe4d0f27a selftests/mm: fix ksm NUMA merge test for systems with memoryless NUMA nodes
-4cc0e78ba218b5f70de5d3d630956394ba4453ea selftests/mm: fix ternary operator precedence in ksm_tests
-88f123290c361049e14086364d0c5d36993330e0 mm/gup: fix GUP-fast fallback for NULL-mapping order-0 folios
-95b4f54f93b0d85c0fc9bb9d73e79823959edf74 mm: remove wb_writeout_inc
-91dba1e6892eb5cec1b7fd300c651f5d347f5280 mm/damon/core: introduce damon_probe->weight
-7032845435eb9db6a33606765e32c4ab21b7b3ca mm/damon/core: ask apply_probes() ops callback to set sampling address
-9c8a2440ae57ad7502568840dd3159a6fcfd8387 mm/damon/paddr: set samples in apply_probes() if requested
-7607e78f613ae9676682c0115669cfc69b46453f mm/damon/core: ask apply_probe() to return max probe hits weighted sum
-fd76501c3c71b7aa6cf106f7d2a6cb26b41135a8 mm/damon/core: implement damon_probe_hits_wsum()
-819128d4c756b0271826180b9b8fea5647fc73a5 mm/damon/paddr: respect return_max_wsum
-9f02c8edfff708ad63b1842875821f8487a88f85 mm/damon/core: use abs_diff() instead of abs()
-b5085a0ef854efcd4179cd6da12b58ead4f2d9b4 mm/damon/core: extend merge function to work with probe hits
-36d24060a2bc5faa159b257882e78fb2eb515b31 mm/damon/core: disallow probe_hits overflow on attrs only monitoring
-6e1e6b00d6f5224be849288fb58575c44ef39efc mm/damon/core: validate params for probe hits weighted sum overflow
-39d9f3ee5a34e7573ce74ff4ce0e671e5cf28fcc mm/damon/core: disable access monitoring when probe weights are set
-c77506dd097a701ee86032bee8dc140a41d69a52 mm/damon/core: set samples in apply_probes() if probe weights are set
-a3a56953cb50dc90a92aa5eee88db904b618014d mm/damon/core: s/max_nr_accesses/max_merge_score/ in kdamond_fn()
-9d90b1214bee7c51e951fab0735da9b521cab2c2 mm/damon/core: get merge threshold from probe hits when weights are set
-bc26c084c4c7ecb428e0d218f47d8b04e317e988 mm/damon/core: implement damon_has_probe_weight()
-4cc13ebbee03491aa96a8ee770bce644232925b0 mm/damon/sysfs: implement probe/weight file
-5e5d1d4aedf68bd874b67a2b10463c5150a2e602 Docs/mm/damon/design: document attrs-only monitoring
-e74c138b79f8bee9cdc8a6c93038d4f2d498b4fb Docs/admin-guide/mm/damon/usage: document weight sysfs file
-52c74a2d96896f57106f2b594b98acb8b9628da9 Docs/ABI/damon: document probe weight file
-da887ffd9f7741ae31312cd4e53e883afbfa8be4 mm/ptdump: always stabilise against page table freeing using init_mm
-4e79d39c1ad4ef58dbf9c74ed762005278f9f212 memcg: move mem_cgroup_swappiness to memcontrol.h
-50eab481d14c8bc5f5227d434bb3268a59a63b34 mm/vmalloc: acquire init_mm read lock on huge vmap promotion
-fcba32f376150ca9d3bc02c9d3f306103376af82 Revert "arm64: Enable vmalloc-huge with ptdump"
-c10ed1c5cb4ce2d1dd3466872d19bad782432498 mm/hmm: move page fault handling out of walk callbacks
-cf5190133132cab57fb5f9ff881dddcaf748456b mm/hmm: add hmm_range_fault_unlocked_timeout() for mmap lock-drop support
-24575629fafded286a20f2681c5dbe3cd1a29f1e selftests/mm: add HMM test for mmap lock-dropping faults
-bf558cbb5b60f734dffa03002fd75ca41e41bca4 mshv: use hmm_range_fault_unlocked_timeout() for region faults
-e197d2f044822540f7b908b2905e7d4a8b18aa99 drm/nouveau: use hmm_range_fault_unlocked_timeout() for SVM faults
-4e19cd4469e702304c3517dd087dbd939d11c971 RDMA/umem: use hmm_range_fault_unlocked_timeout() for ODP faults
-30df7d5b0176ed43392cdfee8c84fae3a1ab84dd accel/amdxdna: use hmm_range_fault_unlocked_timeout() for range population
-3ad2e3ed02efef1a55a75220881381cd1efde319 drm/gpusvm: use hmm_range_fault_unlocked_timeout() for range faults
-11b2e6d8953a3332e6204fdf543c49a069636212 mm: move vma_start_pgoff() into mm.h and clean up
-c93550469a441a018671147b76db911a448b9969 mm: add kdoc comments for vma_start/last_pgoff()
-b31ba8c1cd6318439b36cb86e3fae3155ce1d760 tools/testing/vma: use vma_start_pgoff() in merge tests
-584ca6fa0c78ab5c75bba4f14e78444ea3d4592f mm: introduce and use vma_end_pgoff()
-cd62f71468f0fc070761f18826d870d4afccac6f mm/rmap: update mm/interval_tree.c comments
-7f0c2e30e6f15da8dee9e44f320bb4d3e062bd39 mm/rmap: parameterise vma_interval_tree_*() by address_space
-c996c6175bb9c9e2671af9f2d92840e53cc0f864 mm/rmap: elide unnecessary static inline's in interval_tree.c
-dc645a508c3e9d8754a276a93e6b8420bb165273 mm/rmap: rename vma_interval_tree_*() to mapping_rmap_tree_*()
-50006a73d27d34c1faa45a4a7a17abbd467ea659 mm/rmap: parameterise anon_vma_interval_tree_*() by anon_vma
-6becec942651f71f47a3b1f8454d9cd93ff153ab mm/rmap: rename anon_vma_interval_tree_*() params and use pgoff_t
-c8bfa1c7eca2b0038b0c8575659d89b1029185dc mm/rmap: rename anon_vma_interval_tree_*() to anon_rmap_tree_*()
-806eb21b39058e4e7c2fae1453b97e2f59d96348 MAINTAINERS: Move mm/interval_tree.c to rmap section
-9b26daeb042157c16580f6b1aea45b95be827163 mm/vma: introduce and use vmg_pages(), vmg_[start, end]_pgoff()
-be8eec122cca262ca30f1e0847d39ab175f37c46 mm/vma: clean up anon_vma_compatible()
-3885f8a9ad6f32c6cc51d4ec3ff5cd5eb2961e34 mm/vma: refactor vmg_adjust_set_range() for clarity
-08efd56ee8306ca6594f0ebe1fa258a48d9b302f mm/vma: minor cleanup of expand_[upwards, downwards]()
-0fbeeca3fe30175596e5aa58ef443a6766f52663 mm: introduce and use linear_page_delta()
-cee9092b80c1af318d7f306475da423ae728d10a mm/vma: use vma_start_pgoff(), linear_page_index() in mm code
-6904435770c2c33a4decf60765fc2da30ed107fd mm: prefer vma_[start,end]_pgoff() to vma->vm_pgoff in kernel/
-5aa2d211577f672be7e795e85c75634b7f9e0adf mm/vma: remove duplicative vma_pgoff_offset() helper
-856aa47ff03a2fcfbec6aa1e3edd8224bf6d595b mm: use linear_page_[index, delta]() consistently
-bbf27e0aea1305a3e7d6aaa315ca46ad0c51ebe1 mm/vma: introduce vma_assert_can_modify()
-ee53fcaaea16866fa3c9a3d65feb6a1f33805ceb mm/vma: add and use vma_[add/sub]_pgoff()
-8dd7e91ea509826d15fb5b53cb3e6691c24c2bdc mm/vma: move __install_special_mapping() to vma.c
-b4e88249d3f26be638618c882297c0d1d3e6ee90 mm/vma: make vma_set_range() static, drop insert_vm_struct() decl
-b893c948fa075f1e083fdc9bbb972f0fd24148a8 mm/vma: update vma_shrink() to not pass start, pgoff parameters
-4804e1b83d8ee151ead26571bbe679b71858e16a mm/vma: update vmg_adjust_set_range() to offset pgoff instead
-47cda68283e86cc7c620e06ceeb5067ac0e32217 mm/vma: slightly rework the anonymous check in __mmap_new_vma()
-a347b98508a311266a673e0fd9f180391e15c741 mm/vma: introduce and use vma_set_pgoff()
-7d4deb312d27b723931155cd116bf6b2c78594a6 mm/vma: correct incorrect vma.h inclusion
-1df00b66ffef3e111fe00b713f509d5ff9df1d49 mm/vma: use guard clauses in can_vma_merge_[before, after]()
-103118eb8d330e030b32c271c7350fbc1ef0672f tools/testing/vma: default VMA, mm flag bits to 64-bit
-088ea44f11dddfde06d3e888e90954c59b470e82 tools/testing/vma: output compared expression on ASSERT_[EQ, NE]()
-0c018d9f054a0e837fedd2847b33a0080841e55b mm/mempolicy: skip non-present PMDs when queueing folios
-0ccf0bade151248aa3410f15a9f62061ba7b5bac mm/madvise: skip device-private PMDs in cold and pageout walks
-257254dfeb93607722fc927ba413dcee3e69cb96 mm/huge_memory: skip device-private PMDs in madvise_free_huge_pmd
-bc1709bbe87e87ef0370b6735e6dbfa90609be17 selftests/mm: remove obsolete hugetlb vmemmap test
-24cdc0a6f37200acf9625cb0206df96b7b11f2be mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-eff13670762344527e99bd4438c8053a5ce7967d mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-61cccb8363fcc282d4ae0555b8739dd227f5ad0b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5098756231021433122==--
+--===============1208496638344943446==--
