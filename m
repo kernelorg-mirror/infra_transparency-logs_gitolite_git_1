@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sat, 11 Jul 2026 07:25:52 -0000
-Message-Id: <178375475236.975484.6619988045206921774@gitolite.kernel.org>
+Date: Sat, 11 Jul 2026 07:26:35 -0000
+Message-Id: <178375479535.975843.13421853935102399334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
   - ref: refs/heads/ntfs-next
-    old: c02bbc2556708a0389a2b620fea231e5cfd37e0f
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: bb15a3461024294d63c92181aa5a1979b5985fec
