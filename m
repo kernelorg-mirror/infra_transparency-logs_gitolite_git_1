@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5025523891269036996=="
+Content-Type: multipart/mixed; boundary="===============5610274532683305772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 11 Jul 2026 09:54:59 -0000
-Message-Id: <178376369977.1071795.1064590523199397063@gitolite.kernel.org>
+Date: Sat, 11 Jul 2026 10:12:06 -0000
+Message-Id: <178376472611.1084273.17677495842188220367@gitolite.kernel.org>
 
---===============5025523891269036996==
+--===============5610274532683305772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a67f585b015e13e74180d679b7a8a2fcdec7d61b
-    new: a543765a4bd63d2c311be6f7257d6971772aa44b
-    log: revlist-a67f585b015e-a543765a4bd6.txt
+    old: a543765a4bd63d2c311be6f7257d6971772aa44b
+    new: 93f4393f4407bd05373c2b87c68f78cb129d92f8
+    log: revlist-a543765a4bd6-93f4393f4407.txt
+  - ref: refs/heads/tip/urgent
+    old: e3d082e795dd203431d8702559e919d86b196ee8
+    new: 1093d2bfc6023ffb3399c235824a5738361904d4
+    log: revlist-e3d082e795dd-1093d2bfc602.txt
 
---===============5025523891269036996==
+--===============5610274532683305772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a67f585b015e-a543765a4bd6.txt
+Content-Disposition: attachment; filename=revlist-a543765a4bd6-93f4393f4407.txt
+
+1e9ba2eb6cc43c50c1a8536ecd5d167d10ffd800 Merge branch into tip/master: 'perf/urgent'
+d626d0dadd659a305478a3fb342b884a25965b06 Merge branch into tip/master: 'timers/urgent'
+1093d2bfc6023ffb3399c235824a5738361904d4 Merge branch into tip/master: 'x86/urgent'
+3bb4c31cde472c2f6c79367dd059a0b8005a7c49 Merge branch into tip/master: 'perf/merge'
+1f3dce6a4f72beb051598cb2d58d044794e0e117 Merge branch into tip/master: 'core/entry'
+1872ea6013e84c351090522b803dffdd540b69d6 Merge branch into tip/master: 'core/rseq'
+cbeca3f3b229b41ae3f77c841518e7a01e7ba5a2 Merge branch into tip/master: 'irq/core'
+b83b614301b27e897afae348996eda2b8161caa7 Merge branch into tip/master: 'irq/drivers'
+0990aab8174e9f49a7211f47ff4e852e8541469c Merge branch into tip/master: 'locking/core'
+8f2d5ff6c6f7d7b4b9c2d60bbdc069f9349f4030 Merge branch into tip/master: 'locking/futex'
+368032c3c8f289ca1809bc496b41f9d176e4b139 Merge branch into tip/master: 'sched/core'
+317d6bad4fd1893983a895f846ec8635c11ba4d8 Merge branch into tip/master: 'smp/core'
+eab53db1d10d704d8c8dd969ffa027be81d72087 Merge branch into tip/master: 'timers/core'
+9bee1057ca8ad75e0e02e6d13697560ba1a40104 Merge branch into tip/master: 'timers/vdso'
+ea96530d9bd5dd87ac290a7247eb5280d4a8742c Merge branch into tip/master: 'x86/build'
+d9e26b2f609171931203258bc97e796cb067b2e1 Merge branch into tip/master: 'x86/cleanups'
+93f4393f4407bd05373c2b87c68f78cb129d92f8 Merge branch into tip/master: 'x86/msr'
+
+--===============5610274532683305772==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e3d082e795dd-1093d2bfc602.txt
 
 81fe702ff1760da32bcd3ef4494b2a33dbeced72 ntfs: avoid stale runlist element dereference in MFT writeback
 18a4e5cf633fad5c40ac9d936c51bf38db68796d arm64: smp: Fix hot-unplug tearing by forcing unregistration
@@ -142,6 +170,8 @@ d96fcfe1b7f94ac742984ae7986b94a116abff1b Merge tag 'arm64-fixes' of git://git.ke
 ccce5f6e7c86f103d76534e2d06d1c903dce551c Merge tag 'selinux-pr-20260710' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 bf124bae08c35cb8b5392ec8005f9890833b9056 Merge tag 'audit-pr-20260710' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 dd3210c47e8d3ac6b4e9141fc68acc03b38c0ba3 Merge tag 'regulator-fix-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-a543765a4bd63d2c311be6f7257d6971772aa44b Merge branch 'linus'
+1e9ba2eb6cc43c50c1a8536ecd5d167d10ffd800 Merge branch into tip/master: 'perf/urgent'
+d626d0dadd659a305478a3fb342b884a25965b06 Merge branch into tip/master: 'timers/urgent'
+1093d2bfc6023ffb3399c235824a5738361904d4 Merge branch into tip/master: 'x86/urgent'
 
---===============5025523891269036996==--
+--===============5610274532683305772==--
