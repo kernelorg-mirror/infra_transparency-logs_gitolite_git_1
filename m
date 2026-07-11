@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 11 Jul 2026 16:47:36 -0000
-Message-Id: <178378845610.1347579.1133356206874489206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Sat, 11 Jul 2026 16:52:25 -0000
+Message-Id: <178378874584.1351061.11268798879837535728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/arnd/playground
+user: arnd
 changes:
-  - ref: refs/heads/main-pending
-    old: d730d02a28a8b0fc5778f64fac6facf4e1cbfeb9
-    new: 87c2745636862bc051d6b1b30fbc053b86fa1c9d
+  - ref: refs/heads/config-gpio-legacy-for-7.3
+    old: 40cb8d872149e5b7528e1d0ebdc033db7f2b029f
+    new: 060f903923a907f2eb4540ddc8d36ed5c88c2eda
     log: |
-         db884031cb993201cda9ae4a519b7fe1d83b1619 wifi: ath6kl: fix OOB access from firmware ADDBA window size
-         4d2db8151fba531b5826e75e4ec2d1b33ee790d0 wifi: ath6kl: fix OOB read from firmware num_msg in TX complete handler
-         8b135579d89d09af29a8c6465ea8274a05e27b3c wifi: ath6kl: fix OOB read from firmware IE lengths in connect event
-         87c2745636862bc051d6b1b30fbc053b86fa1c9d Merge branch 'pending' into main-pending
+         8260ef37c6cdbba68de1fea6ff7dde2ae557148a ARM: replace linux/gpio.h inclusions
+         e448389ae23ab9d9c32f222c5dfb9328799a47c2 m68k/coldfire: replace linux/gpio.h inclusions
+         30363049cba5999cc29673742323599999a30dd6 mips: replace linux/gpio.h inclusions
+         033202438d8d59415948d01ff71c235200c7e098 sh: replace linux/gpio.h inclusions
+         39a49ddac8523e346d34ff74aadc4731d8da9339 mfd: replace linux/gpio.h inclusions
+         3854c90cddb0cd86c86a9a61b5ed228587140ac9 ASoC: replace linux/gpio.h inclusions
+         1b2ec8a1a028c2f917e77f2b6ad72f024cea7e2c pcmcia: replace linux/gpio.h inclusions
+         2e8a2003d60024a0888a3eacd2dfa8efc8765ff0 phy: replace linux/gpio.h inclusions
+         ddb030627e2056960d72c1a37b798a79b6d2063e Input: matrix_keyboard - replace linux/gpio.h inclusion
+         060f903923a907f2eb4540ddc8d36ed5c88c2eda gpib: gpio: replace linux/gpio.h inclusion
          
-  - ref: refs/tags/ath-pending-202607111631
-    old: 0000000000000000000000000000000000000000
-    new: 87c2745636862bc051d6b1b30fbc053b86fa1c9d
