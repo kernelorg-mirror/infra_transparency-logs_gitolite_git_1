@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 11 Jul 2026 13:27:05 -0000
-Message-Id: <178377642560.1214334.11459056419687686755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Sat, 11 Jul 2026 13:28:54 -0000
+Message-Id: <178377653479.1215028.6647825908858145131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
   - ref: refs/heads/master
-    old: 7b3732d512affa00ac1f6f3faa20c0ba33dcc5bb
-    new: 1b6ca378c9edb5b60f5f04b68f18419c7f8bd545
+    old: bb8bd3c439b495dcb5edb1660ee1448d45c3b113
+    new: 06e4e0a9a86ace73d23e06d646c6b8c139e84473
     log: |
-         523551dc60c7741bd3a8680900ef40de7ad21f74 man/man9/strscpy.9: Add page
-         99ec0441411438ee8a1de0999a4dc770576499b3 man9: Add symlink
-         a355354f03a72f85a66949b4ca083a526cc59488 man/man3/strlcpy.3: Add page
-         1b6ca378c9edb5b60f5f04b68f18419c7f8bd545 man/man3/strlcat.3: Add link page
+         b40c8a5237051ddb0818ed3f707b829d68254b92 amd-s2idle: Validate firmware-supplied trace format strings
+         86004d796e30f4d2e1d9513c69a59c2ebf15b916 amd-s2idle: Redact sensitive data from captured kernel log
+         e219256fd8c135d781609de04eb694dfb799a0a5 amd-s2idle: Load kernel modules via absolute path without a shell
+         8ab6ab02d2a933c67abf8e641f145b5ec76a0db5 amd-s2idle: Drop group-writable /var/local database fallback
+         06e4e0a9a86ace73d23e06d646c6b8c139e84473 amd-s2idle: Sanitise IRQ action name before walking sysfs
          
+  - ref: refs/tags/0.2.20
+    old: 0000000000000000000000000000000000000000
+    new: 6c1764d081568b2e807af1ed137551054560e2ef
