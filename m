@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 11 Jul 2026 00:46:11 -0000
-Message-Id: <178373077171.706548.7839940891576025882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 11 Jul 2026 00:56:07 -0000
+Message-Id: <178373136722.713228.18263503214039550568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 298a0e5ff7079be4aeecac584014e6455c39df4c
-    new: dc32b1e73c3e8d075a21bf97f9352a78caf1b822
+  - ref: refs/heads/tmp.perf-tools-next
+    old: d3c9fca531e2465f3a8f585965f3d10e1a6595ff
+    new: ef3af1df4f3372bd8ad47619452a283048b3bc8d
     log: |
-         253501db606a2c66ce0fb4b832a55e56e77e5bb5 foo
-         99d3a80ffee1a1419781437419be60638f5a5e85 foo
-         075f006a01e74986738782d6a4fa29b840c9d873 foo
-         dc32b1e73c3e8d075a21bf97f9352a78caf1b822 foo
+         fb4751e79c45cb48cff1c1d86b10a9cc6f6612fe perf record: Fix teardown hang on system-wide multi-threaded sessions
+         c25a46dc6304000fffa9960cfb1f8fc296aa69a3 perf clang-format: Prioritize Python.h and expand other categories
+         ef3af1df4f3372bd8ad47619452a283048b3bc8d perf metricgroup: Fix metric expression copy leaks
          
