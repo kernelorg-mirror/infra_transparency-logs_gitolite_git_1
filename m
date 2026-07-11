@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Sat, 11 Jul 2026 13:09:04 -0000
-Message-Id: <178377534490.1201293.9956898793506808609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Sat, 11 Jul 2026 13:20:07 -0000
+Message-Id: <178377600730.1210084.14292631796119806960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/review-andy
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: ed1608d5e3c4432c1dcba709668b90f44228c10c
+  - ref: refs/heads/dm-7.2
+    old: 386df1a57b631c456d14f857cb0c0c2e11c16bef
+    new: 4b22d0801fadfcae2e106e6ba32e49439c7c7ebf
     log: |
-         ebcba7cd38cd26ab4cfee8ea2eb38aabf1ec51fc pinctrl: tigerlake: add some pin groups and functions for INTC1055
-         b9949964daa827c05cdce06a765c2e81d1c64d02 pinctrl: upboard: add device id INTC1055 based UP boards support
-         ed1608d5e3c4432c1dcba709668b90f44228c10c Merge patch series "upboard pinctrl support for device id INTC1055"
+         4b22d0801fadfcae2e106e6ba32e49439c7c7ebf dm thin metadata: fix superblock refcount leak on snapshot shadow failure
          
