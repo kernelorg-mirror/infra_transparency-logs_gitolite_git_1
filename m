@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 11 Jul 2026 16:14:41 -0000
-Message-Id: <178378648148.1323629.3925170311067833680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Sat, 11 Jul 2026 16:26:13 -0000
+Message-Id: <178378717321.1333482.4107879285421455362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/arm32-defconfig-for-v7.3
-    old: 86690b3fabd66970e43f1d1fd4a9ed641850b924
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/pending
+    old: 4d2db8151fba531b5826e75e4ec2d1b33ee790d0
+    new: 8b135579d89d09af29a8c6465ea8274a05e27b3c
+    log: |
+         8b135579d89d09af29a8c6465ea8274a05e27b3c wifi: ath6kl: fix OOB read from firmware IE lengths in connect event
+         
