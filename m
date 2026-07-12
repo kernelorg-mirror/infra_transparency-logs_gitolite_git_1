@@ -1,82 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============3319737567468284015=="
+Content-Type: multipart/mixed; boundary="===============4626135132674510108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 12 Jul 2026 07:58:16 -0000
-Message-Id: <178384309687.1943661.9982443359167516603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 12 Jul 2026 07:59:47 -0000
+Message-Id: <178384318701.1944206.9929942386988106469@gitolite.kernel.org>
 
---===============3319737567468284015==
+--===============4626135132674510108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 5dcef303b29f004a447d9c69e62963328da9c608
-    new: 8b29d0b45266619533b5bc3c99a65ef96d01814f
-    log: revlist-5dcef303b29f-8b29d0b45266.txt
+  - ref: refs/heads/tty-next
+    old: 9505146e885b1a842118aa6410f737290c4a5a32
+    new: bef5e068b89b0f0cf974c987ebba9869a14b44c6
+    log: revlist-9505146e885b-bef5e068b89b.txt
 
---===============3319737567468284015==
+--===============4626135132674510108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783843093 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1783843095-e75c4b927846fb4ffb5231b45c33485e1411a171
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783843183 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1783843185-f609036b57b194b8c0411c0ca27826e4b40953b7
 
-5dcef303b29f004a447d9c69e62963328da9c608 8b29d0b45266619533b5bc3c99a65ef96d01814f refs/heads/driver-core-next
+9505146e885b1a842118aa6410f737290c4a5a32 bef5e068b89b0f0cf974c987ebba9869a14b44c6 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpTSRUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uhoP/ioFKtRoQRaFTTgxVCUr
-WzkOtQqALRjISXhezm7kSwOkBEAYtt40/rPJaEAVWdzmVEyplvBiiiD6CqEwsEWg
-hwlRyffysVgdkaYXowqGXyhpRSxpd9GTxxZtUrft4Klea+y7oHUKAGK2XZHuXQPV
-e6+qbRx1ad7N8PXWgIX/OBwxL+K8PDpNE3bfFM6IJhyx2inz7uhLLNq6fw+UMXBk
-46C7rPq8TAlI5IOQZY8NRJcNk9UpopUDB1RtsYV+nd6wIoVDz3vVsMInGnSJGqWC
-grmu34xGhGNMqoI1epJAMdmamlqCxSF8udEGhncwOzkJTTnlaHjZGiQN7SRbt+I9
-ymL34Q1bd8++ncK1lBY6GYgGL/tfbMwX3PeE5/lRq47V2aTr6m6nSrEW6hQ2T3XQ
-CKGWtTmAdz1VkJclW8yG16WDB4yAVCtfBGXnPWY4aAMMhcc517iSgLA4F/eOpuYs
-3bowrd6zbnlokG6OIe1tknbaxrdW76BnLbKc75WbBBnF47Hyoc2g0NHbQMv6Jjk4
-M1fnEMXxCL+UqW+R7j8iq/E1eBOfkagsOw8zBb+LrMmvFVB5SV1rpFJx8Knmvkj4
-0AU0DhHbSui5XEdfU+cNUQ50ZJZcVFb+dkHQy2xQn6Fi7x24aVzha0iWmGb9FrFj
-fkqp5dTjxgSiOmMafS5z/oBW
-=XNHu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpTSW8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qc0QAJ/69AWLqZEPrK7+lJKi
+CHHnOgxPY07k6lkV7a/0AOgl6S6Lm5KVAFbgMwuQAq/9J63uWMWt60nF5Rm/fNzz
+4RCSnDvgPRPZeKS22bu0xyuZCCY4NOWQbz8ZU48jFyr6dtGqzT2646SLFoabRIHW
+blTTm81TEQlYF3blTc071MaHiLcKLLK1WmCYrvCmfjY4YtQbooFmCb/v/7h7siBj
+20KoIIdoWDMj5H/X7DfkUrUpDUEwbVpByqkP+mWnDtnN0RqbzvxmQlD3vd8OH2NL
+XaU5r+or3T6+ZUSgdDG+ooDFSAQry1663vq9vV+xoYajdPXfkFAyjUUq+eL/4chp
+gz+ngglQIDPeDNdSjvNXylnAfqwxC3OxEWI1vaG/LRUnCDw39aAz0ddNBGB5Jkbf
+XKAPxUB9NQ5cIsHt/827ImEGV8iH/Yp7erBSgKjvjYbwnPI3BMLwkHKys7+luje1
+wPxbgDyQ1D5sgH7baIiH6HFC9pstcqG4Pg7VQl2lG6dK0xaDkUlWihiW67ygALOc
+FxrHf/4R7UP4zXDnWUwN1MfLLOjEdP1tK7TBMxmF5e09IGdj7cYjBTz21afXfzBj
+PfHURqmuO7rRQ2WUmFvbkoILMgBYE8XO6kcgGukH/BPOAnofXQljCOt+8Gb6677K
+m4/o0BtT0U8LE9CozCzBc+7d
+=Exht
 -----END PGP SIGNATURE-----
 
---===============3319737567468284015==
+--===============4626135132674510108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dcef303b29f-8b29d0b45266.txt
+Content-Disposition: attachment; filename=revlist-9505146e885b-bef5e068b89b.txt
 
-bd0abfe6b013aeb2a1aebc5fbc7ceeb50355bda3 powerpc/powermac: fix OF node refcount
-714cfe9e143feb2136e9dc331c43e2453b3c3d4d driver core: platform: provide platform_device_set_of_node()
-8877c06885ce43780f7630973dc47cd3a625524b driver core: platform: provide platform_device_set_fwnode()
-5b84ef0b029eb488c6a8fd83eea37010ac63b5e1 driver core: platform: provide platform_device_set_of_node_from_dev()
-67e1ddc9f7e37d19d749d7767e5370d57fc92406 driver core: update kerneldoc for platform_device_alloc()
-6261c7cde02c0d4b52b68e751df1309dc4893eaf of: platform: use platform_device_set_of_node()
-002919316dac259ffaee8e1187ecce617ffcdb2c powerpc/powermac: use platform_device_set_of_node()
-34934e7cd1be95a3cd8b33f5231cfae2d08a815b i2c: pxa-pci: use platform_device_set_of_node()
-6fc33ee89d274b72383cc6b275dffc0a99576dc4 iommu/fsl: use platform_device_set_of_node()
-fa20a8968c03650deec369245fcac535ac1d7839 net: bcmgenet: use platform_device_set_of_node()
-b830f5f871ad32be484f486ab518edfdf4ee8b97 pmdomain: imx: use platform_device_set_of_node()
-4108b2633d082c194409d4ab62af887e8e01da39 mfd: tps6586: use platform_device_set_of_node()
-6e502e1725ad76bd8718d3d6bba9177cce959ef8 slimbus: qcom-ngd-ctrl: use platform_device_set_of_node()
-d5e15708c868283712768e5e0a1e3031353881f5 net: mv643xx: use platform_device_set_of_node()
-e766abbc5191b444176c3b26713e7ac2f412b351 drm/xe/i2c: use platform_device_set_fwnode()
-5963c8563d07bdb7b80226d5d3e57d68d7641b53 platform/surface: gpe: use platform_device_set_fwnode()
-7afe78d6daa374e942a14df8c17311c512c98a02 usb: chipidea: use platform_device_set_of_node_from_dev()
-16aa2d3847bef0cfbab1ad76f29334369eda2374 usb: musb: use platform_device_set_of_node_from_dev()
-7a78fc208252c9a63eea5fe35259cbaf455b9227 reset: rzg2l: use platform_device_set_of_node_from_dev()
-7b5b51b2b05cf2b49eaa3808b1c2953cfb8e1cae driver core: platform: count references to all kinds of firmware nodes
-8b29d0b45266619533b5bc3c99a65ef96d01814f driver core: add driver name to probe debug print
+4d105880666ab7f7914a75716d3e95b0d8b879dc tty: serial: mpc52xx_uart: add bounds check for psc_num array index
+d338ab1d90603f875c4f7ed223406535378173a5 serial: 8250: Clear CON_PRINTBUFFER on port re-registration
+831603b3e8aa3892de229fda846b2f859c518699 serial: cpm_uart: replace irq_of_parse_and_map with platform_get_irq
+31e11af34e2c7cc61e25533ab877b1f9cc3eb528 serial: 8250: force synchronous probe for the ISA and PNP drivers
+a9b2c446e36f60e540ec29f756bbb5a1de37811a serial: qcom-geni: trace: Drop redundant len field from geni_serial_data
+970ede67de0e3f6a1e707ec99ae49d80bf3f2966 tty: serial: pch_uart: add check for pci_get_slot()
+383f139f191e4d12343f7153880495c46042dd37 drivers/tty/serial/kgdboc: Use strscpy() to copy strings into arrays
+7a68b818d56e5c48b90232d59148ef8e716082ae serdev: acpi: Free resource list at appropriate time
+4f643bef0984b504adfb4d979ba5068e4d63485a serial: 8250_pnp: Use named initializers for pnp_device_id array
+8dfea56f350b3dc826f35711802ad6ae8fae0748 serial: ma35d1: Fix OF node reference leaks in console init
+bafe277d6c5a8bc4b6b9ecafc35cc357c42e813d serial: qcom-geni: Pre-map RX DMA buffer at probe to avoid sleep-in-atomic
+d0cd9c8d0fd59bc7d140f3d60cf02e1d80376dab serial: qcom-geni: add force suspend/resume to system sleep callbacks
+acba38e675dd66f52925cb9edf9ed8db16335875 serial: qcom_geni: Disable closing_wait for console to prevent shutdown timeout
+7ea38c49e7178960926657863299face6dc0e1b0 serial: qcom-geni: do not advance stale DMA completions
+a76c010ec369ff3e3b3b0bf9224840caa8843a64 serial: 8250: handle ixp4xx register endianness correctly
+3d71f8d7eeb374d0eb84c64c6ffd68bdcc0d42d4 serial: qcom-geni: remove .pm callback, use runtime PM in startup/shutdown
+3d406299d8829747fe2e8692f4c29fe3dc1d101f serial: 8250_hub6: add hub6_match_port()
+6e85378a38cebf9b437bc2b5c22dc1ba58161bd2 serial: core: add uart_iotype_mmio/io helper functions
+11f1d49122ec2227b050f4596a7422606237347e serial: core: use uart_iotype_*() to simplify uart_match_port()
+86305190f307c05bc2e0660f4ce16b7aeca6711b serial: uniformize serial port I/O infos display
+548aa0c850081dc923ed057a1ae3ec80cbbba618 serial: 8250: use uart_iotype_*() to simplify code
+650d60c734ced3c0efa115d6bad031a24680be4e serial: 8250_rsa: use uart_iotype_*() to simplify code
+44b374622a3f93f2f9ce0a782f3fedb7cd758b6b serial: core: add new I/O type for SPI and I2C bus devices
+ac60073d41fb00be2aa0ccb88b2445b95057700b serial: sc16is7xx: use new UPIO_BUS as iotype
+03efc41d6b840fb7d4fd58aedbccc76ad3105f47 serial: max310x: use new UPIO_BUS as iotype
+bef5e068b89b0f0cf974c987ebba9869a14b44c6 serial: max3100: use new UPIO_BUS as iotype
 
---===============3319737567468284015==--
+--===============4626135132674510108==--
