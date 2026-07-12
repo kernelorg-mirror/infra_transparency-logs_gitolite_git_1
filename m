@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sun, 12 Jul 2026 16:21:56 -0000
-Message-Id: <178387331669.2329324.12076670824536151278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sun, 12 Jul 2026 16:26:50 -0000
+Message-Id: <178387361029.2333052.14656416125096949909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 468b2626e48956c4218419c2de31d0f5c00065cf
-    new: ff47b5b97ea78091b620dcdfb084699be173b87a
-    log: |
-         1b7ada08777fe92df8737e28ecf84a587458ff07 sched_ext: Add selftest for blocked donor admission
-         d3752e39827bc0df7e3d8d0bfff3ec12695eb7d7 sched_ext: scx_qmap: Add proxy execution support
-         ff47b5b97ea78091b620dcdfb084699be173b87a sched: Allow enabling proxy exec with sched_ext
-         
+  - ref: refs/tags/trace-v7.2-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9f254ce911b4a2c845c496725fcc86fb4c1a5b34
