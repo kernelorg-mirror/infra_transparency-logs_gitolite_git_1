@@ -1,16 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
-Date: Sun, 12 Jul 2026 12:35:12 -0000
-Message-Id: <178385971270.2181381.11806978018447911351@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0328065813052525577=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 12 Jul 2026 12:39:19 -0000
+Message-Id: <178385995927.2182851.12528087775797463968@gitolite.kernel.org>
+
+--===============0328065813052525577==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gerg/m68knommu
-user: gerg
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/m68knommu-fixes-on-top-off-7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 83dc45d837bc6f2d3c2f7acceda0f406165567ca
+  - ref: refs/heads/core/entry
+    old: 5b6e32ba7b5967a2787fafaa9f4740c590e1e00b
+    new: fb419d53f2619e29bf4f96613d9a614e1c263736
+    log: revlist-5b6e32ba7b59-fb419d53f261.txt
+
+--===============0328065813052525577==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5b6e32ba7b59-fb419d53f261.txt
+
+89d163dd9dacb028773244dba0a2c86f3a6b74b7 powerpc: Move stack randomization after syscall_enter_from_user_mode()
+0b9a3057530cc1c3f87ce2ab9d1278164e81990f randomize_kstack: Provide add_random_kstack_offset_irqsoff()
+855c103f86275a55eba115cabb86eb84f8236933 entry: Provide [syscall_]enter_from_user_mode_randomize_stack()
+7892c5a22a4e11d1ed3590c04ff73f047c0ce453 loongarch/syscall: Use syscall_enter_from_user_mode_randomize_stack()
+3b2b9c0198bbcf077f201cd693a0efc597d05405 powerpc/syscall: Use syscall_enter_from_user_mode_randomize_stack()
+d023abfbc4dca9ad9c9928b5b5a38b1628ee1a5d riscv/syscall: Use syscall_enter_from_user_mode_randomize_stack()
+05a194d8bd005e0887a1e089bbbbd2e1a641638f s390/syscall: Use enter_from_user_mode_randomize_stack()
+9d311796e2ce75b3aaded2719a01d7e248c3a24f x86/syscall: Use [syscall_]enter_from_user_mode_randomize_stack()
+bad2a27ba8c4a6bd2c47e598898d9dbd0f98511f entry: Remove syscall_enter_from_user_mode()
+8af25d0a2e465f3cb73c47c605fddd1664ee79b2 entry: Use syscall number instead of rereading it
+7ba2ba74713c83408cc942b60dd869ab2c34c84f seccomp, treewide: Rename and convert __secure_computing() to return boolean
+622f04e97415e62bd2ab61f7a27e7a296e8467b7 ptrace, treewide: Rename ptrace_report_syscall_entry() to ptrace_report_syscall_permit_entry()
+2b341c74dbf8864b6dd32119b761ceaab516249e x86/entry: Make syscall functions static
+1b1f3b3e1b3945ae6e49081fd3586a6833d4a555 x86/entry: Get rid of the sys_ni_syscall() indirection
+fb419d53f2619e29bf4f96613d9a614e1c263736 x86/entry: Simplify the syscall number logic
+
+--===============0328065813052525577==--
