@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0525005949210867650=="
+Content-Type: multipart/mixed; boundary="===============7296953412512995549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 12 Jul 2026 07:57:01 -0000
-Message-Id: <178384302172.1942610.17146156447534417050@gitolite.kernel.org>
+Date: Sun, 12 Jul 2026 07:57:35 -0000
+Message-Id: <178384305534.1942949.563348197472453619@gitolite.kernel.org>
 
---===============0525005949210867650==
+--===============7296953412512995549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 596225851e38f39651ada21418fa6ff9cdf3fcae
+  - ref: refs/heads/char-misc-next
+    old: 9e32d2a9784736b3fc262f51ddda1141de753314
     new: f8d269390cd2a7a9fb5a31f153e7c7b709defea0
+    log: |
+         b9d17aa74ddd79e2d081db5aacccc2992efceb4c rust_binder: avoid allocating under node_refs for freeze listeners
+         521eae8326a18cbf7fb4640dcfb2d1396423d1ab rust_binder: avoid dropping NodeRef in update_ref() under lock
+         56c650167ea9627ba734e375bff1b68d2039b88a rust_binder: schedule NodeDeath outside of node_refs lock
+         2812b20e165dbd9764d31d25686e305c7f329010 rust_binder: keep NodeDeath in NodeRefInfo during process cleanup
+         63b4af40e260cf472c2946459a62060983451668 rust_binder: avoid destructors in insert_or_update_handle()
+         f8d269390cd2a7a9fb5a31f153e7c7b709defea0 rust_binder: update Process::node_refs to use SpinLock
+         
 
---===============0525005949210867650==
+--===============7296953412512995549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783843018 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783843052 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1783843020-c06c05e46b40a447f75ebb67f85e457943630322
+nonce 1783843054-d71c12664eace6439e155e96325f12cd2018ab9b
 
-596225851e38f39651ada21418fa6ff9cdf3fcae f8d269390cd2a7a9fb5a31f153e7c7b709defea0 refs/heads/char-misc-testing
+9e32d2a9784736b3fc262f51ddda1141de753314 f8d269390cd2a7a9fb5a31f153e7c7b709defea0 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpTSMobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B0kQAK7IqnE3TVoc0jCdCtxL
-NkV+5/f3GPOq0gMpHWhrhEG01tcSt1ye/hnjXtTCVBsNKIEF5o8Q9eayqbLM2Ngd
-qmL0hIdEcTrW+TTWokGVQDkFrvR9KxgBbIO4G12a6JHo47ZyZQdfRjj9fM3bfiex
-KpkWoiTY66AWPFs+zjo0b/cEJYllT8iEQitNslPxPurVSR39Jv09ticVBEQlVPaH
-jYitBuoGlW5+XPOzb2++Xc4WPRN7ikqSyZ3Z0LKCLs0KgIHi9tYleRv7E4JLoOqN
-RyXTRh7ifY7k3/e2m9DddJqNwjcH2ENnLldo0dh1VRJx9mZrKsxVw3XRminYfeC5
-CYVI+sCjXZjG19x+6QUUHfBBscZl97vkM7nUSr9lGHycS/l1/Gvi7+pXJvQQNGTq
-odkJDPrv+wkzYSqkwk+qhO6OjJ7aWk9z3+zCs52GAd+2TA9XH8Cg8MbVxbbv51lX
-DGKdJe3RU16Zn1snpaNlgYcFLsvHp34IdaINZhDD8jftx7I3vQjgZ2cvuS42yZr+
-LN3hU9lArKdmbwzJ5IUcsfLaf7ykIV76/ds0XcIttSCrYYTrk4PHy2eceSJ5PZ2+
-hgaUFTyD1MRzhsZ7mnGz3sYT9XZgjKWidUTfz9/KZwgXr82PkWBwcGYVAx0bWrpw
-oDmjOKzG5adepxIk5J/nLlLn
-=3N1k
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpTSOwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MCIQAIozdlBdQ8xPSVS3auVe
+/c1ksQlwUFLnuiR1iGiEr3NhGCX0gRqTAtNFNOySIAMzn/YlER7gzlHjfR5RdtHz
+8UyiE9SDUGCsX1Tz7PNASbAaDnL8AQRcwSOh0gj7R27Vv3YpkqNQKuQ/bx+xgPKT
+gyomYcZTbdok4lrYlQqBkaue3KH0DpjxR6Hg9ygkr4+w8PmFypX4bSgDe+Du1JR3
+2Y1zk0aLjnmx8UoOLpd/T0R+Lgv54ciy1n1krWkQk6K4fj9+tfIzuq/HgzkUQXok
+T3fCsfxWU7h2yZWDmEjTCNafW8F/iZpghlo38BkXepcno446dZwvwc6/CunLWAPm
+g1ucdX+AB9AAPCcE/l71xpgg6CmUrK6BkIBg82q3uV1fCsYGdN3EU91MXTVjm2Ky
+0kqaZHr57CQPCmd1eDU+sCMPoLLCDQrLj91ij/B25IdfANPjQ77EGQq4A1gex8CJ
+pPaamZZNhrgAiumiH3BkbhSVmFXBivqUszQSMm8eljtTigwEgsTUoSpmXQGMk96D
+R9pIATEH+Np+nJl5waMyVuh+j7T8+DR/7dkm72bJM1obl+p0ICRzGS1uFNInSXpW
+0V4lMIE9f2USMY3ses4WKUiBxyOpYBYQFw+/XLgD6q+nJsT/yArukGHqyYP36tRn
+SHAFv4/5JjS0utvijTxegq/r
+=Kc5M
 -----END PGP SIGNATURE-----
 
---===============0525005949210867650==--
+--===============7296953412512995549==--
