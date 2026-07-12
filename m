@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 12 Jul 2026 08:46:41 -0000
-Message-Id: <178384600174.2033609.4230754864664814949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sun, 12 Jul 2026 08:57:05 -0000
+Message-Id: <178384662564.2040368.4873093762499030403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 234895fa8be06e5085ec07fb665d391a88aa5746
-    new: 923e1cb4e525bb3d6dd9c72a2821f924794ef570
-    log: |
-         923e1cb4e525bb3d6dd9c72a2821f924794ef570 RDMA/hns: Compute HEM index in 64-bit in hns_roce_v2_set_hem()
-         
+  - ref: refs/heads/renesas/g3s/i3c
+    old: 6fe8d6c93a743b7a12751eb1b68780a5e4c0b8ea
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas/g3s/my-i3c
+    old: 9323ea7e2324618ca83fa000855708b2a8068ed4
+    new: 0000000000000000000000000000000000000000
