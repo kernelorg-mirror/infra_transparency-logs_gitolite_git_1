@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 12 Jul 2026 01:27:54 -0000
-Message-Id: <178381967436.1690043.13265045260177048131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 12 Jul 2026 02:11:23 -0000
+Message-Id: <178382228305.1718502.2906247467225538823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 4c2509f3b79756679a02bea649c6a7501b58f52c
-    new: 1ecb29b084616ca423ca45ec6a6365da53411516
+  - ref: refs/heads/testing
+    old: daf79105f9b08a3f2cb205a32bf8e57c936095f4
+    new: aa58ecc73466d0cb8c418de98e2225490bf600e3
     log: |
-         1ecb29b084616ca423ca45ec6a6365da53411516 x86/cpu: Remove Makefile rule for removed UMC CPU support
+         aa58ecc73466d0cb8c418de98e2225490bf600e3 iio: accel: dmard09: Implement IIO_CHAN_INFO_SCALE
          
