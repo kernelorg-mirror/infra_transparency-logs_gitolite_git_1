@@ -1,61 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============7296953412512995549=="
+Content-Type: multipart/mixed; boundary="===============3319737567468284015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 12 Jul 2026 07:57:35 -0000
-Message-Id: <178384305534.1942949.563348197472453619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 12 Jul 2026 07:58:16 -0000
+Message-Id: <178384309687.1943661.9982443359167516603@gitolite.kernel.org>
 
---===============7296953412512995549==
+--===============3319737567468284015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 9e32d2a9784736b3fc262f51ddda1141de753314
-    new: f8d269390cd2a7a9fb5a31f153e7c7b709defea0
-    log: |
-         b9d17aa74ddd79e2d081db5aacccc2992efceb4c rust_binder: avoid allocating under node_refs for freeze listeners
-         521eae8326a18cbf7fb4640dcfb2d1396423d1ab rust_binder: avoid dropping NodeRef in update_ref() under lock
-         56c650167ea9627ba734e375bff1b68d2039b88a rust_binder: schedule NodeDeath outside of node_refs lock
-         2812b20e165dbd9764d31d25686e305c7f329010 rust_binder: keep NodeDeath in NodeRefInfo during process cleanup
-         63b4af40e260cf472c2946459a62060983451668 rust_binder: avoid destructors in insert_or_update_handle()
-         f8d269390cd2a7a9fb5a31f153e7c7b709defea0 rust_binder: update Process::node_refs to use SpinLock
-         
+  - ref: refs/heads/driver-core-next
+    old: 5dcef303b29f004a447d9c69e62963328da9c608
+    new: 8b29d0b45266619533b5bc3c99a65ef96d01814f
+    log: revlist-5dcef303b29f-8b29d0b45266.txt
 
---===============7296953412512995549==
+--===============3319737567468284015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783843052 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1783843054-d71c12664eace6439e155e96325f12cd2018ab9b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783843093 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1783843095-e75c4b927846fb4ffb5231b45c33485e1411a171
 
-9e32d2a9784736b3fc262f51ddda1141de753314 f8d269390cd2a7a9fb5a31f153e7c7b709defea0 refs/heads/char-misc-next
+5dcef303b29f004a447d9c69e62963328da9c608 8b29d0b45266619533b5bc3c99a65ef96d01814f refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpTSOwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MCIQAIozdlBdQ8xPSVS3auVe
-/c1ksQlwUFLnuiR1iGiEr3NhGCX0gRqTAtNFNOySIAMzn/YlER7gzlHjfR5RdtHz
-8UyiE9SDUGCsX1Tz7PNASbAaDnL8AQRcwSOh0gj7R27Vv3YpkqNQKuQ/bx+xgPKT
-gyomYcZTbdok4lrYlQqBkaue3KH0DpjxR6Hg9ygkr4+w8PmFypX4bSgDe+Du1JR3
-2Y1zk0aLjnmx8UoOLpd/T0R+Lgv54ciy1n1krWkQk6K4fj9+tfIzuq/HgzkUQXok
-T3fCsfxWU7h2yZWDmEjTCNafW8F/iZpghlo38BkXepcno446dZwvwc6/CunLWAPm
-g1ucdX+AB9AAPCcE/l71xpgg6CmUrK6BkIBg82q3uV1fCsYGdN3EU91MXTVjm2Ky
-0kqaZHr57CQPCmd1eDU+sCMPoLLCDQrLj91ij/B25IdfANPjQ77EGQq4A1gex8CJ
-pPaamZZNhrgAiumiH3BkbhSVmFXBivqUszQSMm8eljtTigwEgsTUoSpmXQGMk96D
-R9pIATEH+Np+nJl5waMyVuh+j7T8+DR/7dkm72bJM1obl+p0ICRzGS1uFNInSXpW
-0V4lMIE9f2USMY3ses4WKUiBxyOpYBYQFw+/XLgD6q+nJsT/yArukGHqyYP36tRn
-SHAFv4/5JjS0utvijTxegq/r
-=Kc5M
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpTSRUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uhoP/ioFKtRoQRaFTTgxVCUr
+WzkOtQqALRjISXhezm7kSwOkBEAYtt40/rPJaEAVWdzmVEyplvBiiiD6CqEwsEWg
+hwlRyffysVgdkaYXowqGXyhpRSxpd9GTxxZtUrft4Klea+y7oHUKAGK2XZHuXQPV
+e6+qbRx1ad7N8PXWgIX/OBwxL+K8PDpNE3bfFM6IJhyx2inz7uhLLNq6fw+UMXBk
+46C7rPq8TAlI5IOQZY8NRJcNk9UpopUDB1RtsYV+nd6wIoVDz3vVsMInGnSJGqWC
+grmu34xGhGNMqoI1epJAMdmamlqCxSF8udEGhncwOzkJTTnlaHjZGiQN7SRbt+I9
+ymL34Q1bd8++ncK1lBY6GYgGL/tfbMwX3PeE5/lRq47V2aTr6m6nSrEW6hQ2T3XQ
+CKGWtTmAdz1VkJclW8yG16WDB4yAVCtfBGXnPWY4aAMMhcc517iSgLA4F/eOpuYs
+3bowrd6zbnlokG6OIe1tknbaxrdW76BnLbKc75WbBBnF47Hyoc2g0NHbQMv6Jjk4
+M1fnEMXxCL+UqW+R7j8iq/E1eBOfkagsOw8zBb+LrMmvFVB5SV1rpFJx8Knmvkj4
+0AU0DhHbSui5XEdfU+cNUQ50ZJZcVFb+dkHQy2xQn6Fi7x24aVzha0iWmGb9FrFj
+fkqp5dTjxgSiOmMafS5z/oBW
+=XNHu
 -----END PGP SIGNATURE-----
 
---===============7296953412512995549==--
+--===============3319737567468284015==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5dcef303b29f-8b29d0b45266.txt
+
+bd0abfe6b013aeb2a1aebc5fbc7ceeb50355bda3 powerpc/powermac: fix OF node refcount
+714cfe9e143feb2136e9dc331c43e2453b3c3d4d driver core: platform: provide platform_device_set_of_node()
+8877c06885ce43780f7630973dc47cd3a625524b driver core: platform: provide platform_device_set_fwnode()
+5b84ef0b029eb488c6a8fd83eea37010ac63b5e1 driver core: platform: provide platform_device_set_of_node_from_dev()
+67e1ddc9f7e37d19d749d7767e5370d57fc92406 driver core: update kerneldoc for platform_device_alloc()
+6261c7cde02c0d4b52b68e751df1309dc4893eaf of: platform: use platform_device_set_of_node()
+002919316dac259ffaee8e1187ecce617ffcdb2c powerpc/powermac: use platform_device_set_of_node()
+34934e7cd1be95a3cd8b33f5231cfae2d08a815b i2c: pxa-pci: use platform_device_set_of_node()
+6fc33ee89d274b72383cc6b275dffc0a99576dc4 iommu/fsl: use platform_device_set_of_node()
+fa20a8968c03650deec369245fcac535ac1d7839 net: bcmgenet: use platform_device_set_of_node()
+b830f5f871ad32be484f486ab518edfdf4ee8b97 pmdomain: imx: use platform_device_set_of_node()
+4108b2633d082c194409d4ab62af887e8e01da39 mfd: tps6586: use platform_device_set_of_node()
+6e502e1725ad76bd8718d3d6bba9177cce959ef8 slimbus: qcom-ngd-ctrl: use platform_device_set_of_node()
+d5e15708c868283712768e5e0a1e3031353881f5 net: mv643xx: use platform_device_set_of_node()
+e766abbc5191b444176c3b26713e7ac2f412b351 drm/xe/i2c: use platform_device_set_fwnode()
+5963c8563d07bdb7b80226d5d3e57d68d7641b53 platform/surface: gpe: use platform_device_set_fwnode()
+7afe78d6daa374e942a14df8c17311c512c98a02 usb: chipidea: use platform_device_set_of_node_from_dev()
+16aa2d3847bef0cfbab1ad76f29334369eda2374 usb: musb: use platform_device_set_of_node_from_dev()
+7a78fc208252c9a63eea5fe35259cbaf455b9227 reset: rzg2l: use platform_device_set_of_node_from_dev()
+7b5b51b2b05cf2b49eaa3808b1c2953cfb8e1cae driver core: platform: count references to all kinds of firmware nodes
+8b29d0b45266619533b5bc3c99a65ef96d01814f driver core: add driver name to probe debug print
+
+--===============3319737567468284015==--
