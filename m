@@ -1,44 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1723761415795271834=="
+Content-Type: multipart/mixed; boundary="===============1250192058856991984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 13 Jul 2026 16:58:13 -0000
-Message-Id: <178396189346.3450108.16525817975555851053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Mon, 13 Jul 2026 17:12:37 -0000
+Message-Id: <178396275715.3459926.11859959416245648976@gitolite.kernel.org>
 
---===============1723761415795271834==
+--===============1250192058856991984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/master
-    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    new: 0f26556c5eeea62cc934fa8938b148aa5844a6b6
-    log: revlist-a13c140cc289-0f26556c5eee.txt
+  - ref: refs/heads/for-next
+    old: 10e06b5bd4be88cc89375227c31467734f6658de
+    new: b26f8e20821594108d3e4f1bec29ecb15d6d3613
+    log: revlist-10e06b5bd4be-b26f8e208215.txt
 
---===============1723761415795271834==
+--===============1250192058856991984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a13c140cc289-0f26556c5eee.txt
+Content-Disposition: attachment; filename=revlist-10e06b5bd4be-b26f8e208215.txt
 
-d2e52d610b9b09694261632340b801a421e0b0c5 IB/mad: Drop unmatched RMPP responses before reassembly
-f5ad2ead846e3a00d040d64c7eaf67b65629f51d RDMa/mlx5: Avoid frame overflow warning
-18313833e2c6de222a4f6c072da759d0d5888528 RDMA/cma: Fix hardware address comparison length in netevent callback
-a846aecb931b4d65d5eafa92a0623545af46d4f2 RDMA/irdma: Prevent rereg_mr for non-mem regions
-b9b0889071569d43623c260074e159cd8f26adb1 RDMA/irdma: Prevent user-triggered null deref on QP create
-2815a277c53e9a84784d6410cd55a9da5b33068d RDMA/erdma: initialize ret for empty receive WR lists
-155fd5ce2382b0ffbec0d7ee7b3a6818a27a5aed RDMA/mana_ib: initialize err for empty send WR lists
-e939334ea7dd219f100f963dbb1cb43df520c20a RDMA/core: Fix memory leak in __ib_create_cq() on invalid cqe
-9f0f2d2121f16d420199a82ac5bbc242269133b3 RDMA/hns: Fix potential integer overflow in mhop hem cleanup
-bb27fcc67c429d97f785c92c35a6c5adebb05d7f RDMA/siw: publish QP after initialization
-3cda0dfe8c651dcbb9e38977905d3d3b1750c4ab RDMA/irdma: Prevent overflows in memory contiguity checks
-92ea163c773cb4d0d5eaf103ed80c49d6758b96f NFSD: Prevent post-shutdown use-after-free in NFSD_CMD_UNLOCK_FILESYSTEM
-0fd8b67e27ff7115b98aa09b9a22eb06e5370d2b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-0f26556c5eeea62cc934fa8938b148aa5844a6b6 Merge tag 'nfsd-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+d7a395b7df55d1029e01879ea9e7da1d6e7fdb72 ARM: dts: imx6ul-tqma6ul: add nvmem-layout
+aec8004c5478371d49e9be238d4d87abebb4c1b6 ARM: dts: imx6qdl-tqma6: add nvmem-layout
+43c17d862977492ea7c4a21e4c8f22582c603508 arm64: dts: freescale: imx9-var-dart-sonata: fix Ethernet PHY configuration
+c8cb123cde467117f69ae57f83bf02d374f81609 arm64: dts: imx8: Correct indentation and whitespace
+972e858b01fbc724947f8ec825e0897e545b380f arm64: dts: s32g3: Correct indentation
+116165611d4d287ae58992528ba779133e7c72b3 soc: imx9: devm_kasprintf error handling
+3d04a8aa8e7a274b2ec2218d4e863b3befcdc64e arm64: dts: imx93-tqma9352-mba93xxla: Add LVDS overlay
+2b73b844564e4099fc43c4bbdea0c7abd65fae5c arm64: dts: imx93-tqma9352-mba93xxca: Add LVDS overlay
+fcf306c5f504e5dc4e25a0e81beccf29a58af261 arm64: dts: imx93-tqma9352-mba93xxla-mini: Add LVDS overlay
+4b407eaff92dbac9f31a61040e40ef05a82eb3a5 arm64: dts: imx8mp: add missing #sound-dai-cells to xcvr
+b463d4de9d365690d44fac9b8136190332639de1 arm64: dts: imx91-tqma9131-mba91xxca: USB phy adjustments
+96927ebe2610849ebdd78635b2e63a7af7a94eae arm64: dts: imx91-tqma9131: move ele-reserved memory into 512MB range
+e5f7c88d3ad8c617db4c8bc381001d272b02ca21 arm64: dts: imx91-9x9-qsb: Add audio-related board muxes
+de6ed1fd9b97ed143b10de7064c6d30a9b545379 arm64: dts: imx91-9x9-qsb: Add WM8524 sound card support
+25f7d6026e2549a73e529bef85c80579528ebb33 arm64: dts: imx91-9x9-qsb: Add PDM microphone sound card support
+ed93dafad1121ad5c8e48185789e4eee551a0434 arm64: dts: imx8mq: Add DCSS node
+b26f8e20821594108d3e4f1bec29ecb15d6d3613 Merge branches 'imx/dt', 'imx/dt64' and 'imx/soc' into for-next
 
---===============1723761415795271834==--
+--===============1250192058856991984==--
