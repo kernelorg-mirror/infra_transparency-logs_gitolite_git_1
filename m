@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 13 Jul 2026 21:42:13 -0000
-Message-Id: <178397893374.3653624.15125307463513636189@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 21:42:26 -0000
+Message-Id: <178397894639.3653915.3411901940472344344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 1160c2208fab4eaf4a32d738f83474c32c3a6944
     new: a56a92be1fa9c6e747fc754c90734ed90cd36670
     log: |
