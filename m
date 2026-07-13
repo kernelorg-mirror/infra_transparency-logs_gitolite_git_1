@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Mon, 13 Jul 2026 07:33:19 -0000
-Message-Id: <178392799963.3002292.14839940568443657607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 13 Jul 2026 07:36:32 -0000
+Message-Id: <178392819275.3005417.15506273994883046814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 1acce29926d93f3eba427696fe3da6451504dae2
-    log: |
-         9db11c69fcc3147d158943930ce3f2c32620054d dma-coherent: fix spacing coding style issue
-         dbcc3cd58083521d77f0e43db615bca2c17b0dbf dma-coherent: use KiB in DMA allocation logs
-         1acce29926d93f3eba427696fe3da6451504dae2 iommu/dma: simplify dma_iova_destroy() and drop the free_iova helper
-         
+  - ref: refs/tags/v7.2-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
+  - ref: refs/tags/v7.2-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
