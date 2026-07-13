@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1597695630012706948=="
+Content-Type: multipart/mixed; boundary="===============1087478652271989424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 13 Jul 2026 05:12:34 -0000
-Message-Id: <178391955442.2901454.4055501140080104143@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 05:12:37 -0000
+Message-Id: <178391955760.2901589.10845631546642245743@gitolite.kernel.org>
 
---===============1597695630012706948==
+--===============1087478652271989424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/tty-linus
+    old: 302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    log: revlist-dc59e4fea9d8-a13c140cc289.txt
+    log: revlist-302fbbb4fcbd-a13c140cc289.txt
 
---===============1597695630012706948==
+--===============1087478652271989424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783919550 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783919553 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1783919553-f7866dc8b5c98c82223bbf253b26150d5ef29c01
+nonce 1783919556-fb177b25cf76d93e201b15676d1779783a55a727
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/main
+302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958 a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUc74bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CTIP+wWQAgJmLYfim3DzgZqu
-Ci5WZq9udeVKTbZY6D1yp/6UFIgrdNg14iEcIJXcciZQZdBvIDzopOPZSaH/UXhT
-oAH4ofnhsdXPDPAeYVQnRCMCajLTN/pubzx9dmni6nnYFzObYFucOZJZQqFLPIEh
-r3OXp0V6y6SQDSmAQ/41TIX50mCX3GDUjiyTYNfbTZc5aRNDan/8xDktQa93hrAo
-Erve3Wjlnaxqealw5FqaWtxUjfvL0MI0HkmtXaUCCgkafCG5imeiZPRHgqe7jsLx
-67nBD6wTZbOklpZUN1aPwxgVo+HEA7CNTaqKaOAwrxIqmzNRIHgPVRXw8AFuZL2g
-tHka/oSOHqqrGy0FLJg5OF7xn55ZfeORhiu+zrJxtTwHgS++rgo8hNDhw6Fv6Vuk
-12wP5RvHIUaaGp//a2kAAWo8a+6Yq5CAusd6QcKLVUqObDC6CFj3B01Tt3k26IVE
-+Kc8YbwrOQQxm0YDyzxfJvpUfkTjvaeZ3+17kVzV3et5VZ/0/19RjaYb9D7FibsO
-KIyLLKjHLIzun3foTUtRqG0bLTlqqXbyuG4RQJk7ACoCMt7QRVeZ/v3zc3EIhEES
-BuO6W6cgksO3YEprIE8npzGSv0ie37UMN1qZS3mtJOV2IXKkefcDpwJ2RGcybYaY
-Umr4kaVW9qP5xTQCCc766GpE
-=jpgl
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUc8IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DOgQAJF+3ZqyVG904zmwHYao
+e2wPIGUCX17LBV9PdOHw1LzcZkVt5okciRr0lqBe538OnRpp6qFKVXjqGTYIDP4i
+8psE40Ex5Evg322iKWsYH9qJ98DoRntG8hS33vR3huDlhvr9q6nCwuA0pjKwbgcs
+OLnMLnsfZX5/EpCnOs4qVLyZEA+g5L+wuGfL+MMPnvfyCmMgKpbXmZ7U6yytdMa0
+eGxttD/l8aNIRJT9wJTYgsd5PSH7cwA2jnCX2NWgHCY0b75n+XnReij4LDrASbwL
+4EtXIqd/9CQiH/qbwYiMYlO1Uh8upgSa+98Gsw2Y0RrBtuRFEsliOSd+7OGqUNJi
+1oD1zwrf7uE2ZNXmQUEODKFAQabykPWd56FVlN8upq5AAMMNhhcS1kiC5uv+zcRE
+4KAJMWm3sVICYchD5snIRW+xLfUvz6C0WlL82Euum0aC7wQKVimCjH1PixtciqgU
+9kiwJwd2bYe/t6L5S0sAxcTU7eBxydqLCPpArR14KSXtudG1WGivyRULlwZ45zKY
+1X9Cu5rVMPu8TRYdmffpKiGz0pZH8cBjFeBtbRQ75sjvzRFLWbCf4mTb1Aqq2QL+
+ZfyYzFXY63IrORcWH/6QgZqLlOBZEBQxj2Wb3iprTXxBSbQmJ7iLYpvX0cA21On8
+RAw1KuS0H3Dz6u+A6V5gY/mn
+=TTTo
 -----END PGP SIGNATURE-----
 
---===============1597695630012706948==
+--===============1087478652271989424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-a13c140cc289.txt
+Content-Disposition: attachment; filename=revlist-302fbbb4fcbd-a13c140cc289.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -745,8 +745,6 @@ c3e94604675e3db186111b8942650d86577df9b0 tracing: Fix NULL pointer dereference i
 0a6070839b1ef276d5b05bedfb787743e140fb17 tracing: Prevent out-of-bounds read in glob matching
 1e67bb60bb03518d3bdd59a48c65d69e6d773bb8 tracing: Add a no-rcu-check version of trace_##event##_enabled()
 596b3678326d3d1aed7c19423b6746f1ce09688a x86/video: Only fall back to vga_default_device() without screen info
-a483b1a91b33b7533280e7c3efd2bc1275caef18 serial: max310x: implement gpio_chip::get_direction()
-22dd2777e6c180e1c945b00f6d18550979436324 serial: msm: Disable DMA for kernel console UART
 4c2509f3b79756679a02bea649c6a7501b58f52c x86/virt/sev: Revert "Drop WBINVD before setting MSR_AMD64_SYSCFG_SNP_EN"
 14f172eff9c19f8043a9858845f33cd034f3a41e accel/amdxdna: Fix potential amdxdna_umap lifetime race
 66ff5c0eee02c4be67f8ba7fb6c63709ef1c92a3 accel/amdxdna: fix open_ref leak and stale client pointer on dma map failure
@@ -920,10 +918,6 @@ edf025f083854f80032b73a1aad69a3c90db236f dm-integrity: don't increment hash_offs
 e72b793ae440f6900fb17a4b8518c707b5cd3e17 dm-verity: fix a possible NULL pointer dereference
 88dd117c92a142253fb7a17e791773902b3babc6 dm-verity: increase sprintf buffer size
 8ec4d9c5a5cf4b61fc087f871465b1f79b393325 dm-verity: make error counter atomic
-e9ad4d5ca309cb517d3f7a85251c3c5328f40f1f vt: fix spurious modifier in CSI/cursor key sequences
-061b627ba534230a18ec4d7251562af12325d06a serial: 8250_omap: clear rx_running on zero-length DMA completes
-b1b4efea05a56c0995e4702a86d6624b4fdff32f serial: 8250_mid: Disable DMA for selected platforms
-302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958 serial: 8250: Ignore flow control on suspend/resume with no_console_suspend
 bd910a7660d280595ef94cb6d193951d855d330f drbd: reject data replies with an out-of-range payload size
 2a892294b83f541115c94b0bb637f39bef187657 perf/x86/amd/lbr: Fix kernel address leakage
 181bb9c9eae4f69fe510a62a42c2932d0314a800 block: remove redundant GD_NEED_PART_SCAN in add_disk_final()
@@ -966,4 +960,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============1597695630012706948==--
+--===============1087478652271989424==--
