@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2720384028069827479=="
+Content-Type: multipart/mixed; boundary="===============7624468202253320135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 13 Jul 2026 12:35:19 -0000
-Message-Id: <178394611978.3260878.7020027108529178178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 13 Jul 2026 12:35:21 -0000
+Message-Id: <178394612148.3260975.3490674756040365678@gitolite.kernel.org>
 
---===============2720384028069827479==
+--===============7624468202253320135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
     log: revlist-0e35b9b6ec0f-a13c140cc289.txt
 
---===============2720384028069827479==
+--===============7624468202253320135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -480,4 +480,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============2720384028069827479==--
+--===============7624468202253320135==--
