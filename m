@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6826464045520581891=="
+Content-Type: multipart/mixed; boundary="===============5127756345644398374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 13 Jul 2026 17:34:54 -0000
-Message-Id: <178396409477.3477805.13884416341983941305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Jul 2026 17:41:18 -0000
+Message-Id: <178396447821.3483788.13818702449704626324@gitolite.kernel.org>
 
---===============6826464045520581891==
+--===============5127756345644398374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 74861cb836bfccc8a2eaf38521b752b45ca8cfff
-    new: a1133483ae2321bd14babb2e89190aa5f9834c38
+    old: 3193017dee8269d8f6c7ca03a2d2bf39b0f1a3d2
+    new: b8dc50e8f29931e6a06b67c2c3a39dbb4b7ff5f2
     log: |
-         43abaf279d1cc066d628f92e50de5755bf84994f assign some CVEs on request
-         ec1ac3b57966952ba2fd7273fe6340cdcc85d395 proposed: Add Allen's v7.1.3 results
-         4aedbb9ba7f737218e0d80e0cafb3674658be50a proposed: Add Tyler's v7.1.3 review
-         a1133483ae2321bd14babb2e89190aa5f9834c38 strip the new mbox files
+         b8dc50e8f29931e6a06b67c2c3a39dbb4b7ff5f2 6.18-stable patches
          
 
---===============6826464045520581891==
+--===============5127756345644398374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783964091 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1783964094-54041b42cf56b6667f1f4d9ec65a64db772bd38c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783964474 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1783964476-dea38788ca767273fa9636ee26cc1c5dd0555f73
 
-74861cb836bfccc8a2eaf38521b752b45ca8cfff a1133483ae2321bd14babb2e89190aa5f9834c38 refs/heads/master
+3193017dee8269d8f6c7ca03a2d2bf39b0f1a3d2 b8dc50e8f29931e6a06b67c2c3a39dbb4b7ff5f2 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpVIbsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aqkP/AkdxqSAVxOw+24yt3cE
-WbWgDejy/9eKwD5XeNns0VayMxN5N2DDbh+s6OS0p8pBM4kBFWIFUGXIgZ63fva6
-MV/csMeLHy9IqB7mmBwlOeGtArOcKwPbDR5T1qaYS/W5ZS0G6mkA9bKHrjHixV6D
-L3R2AlhDEbUWcfm8aDu3w7VYKMXa2hTQKGzk0Fy0/q5R/AK7N+uL0CQpZZRwOGKu
-IY3W1q1CgjEZ5AI0MH4Ym0UuLd3uLDWoKhbULJ99V1jtrI7r0sxEkAZTdeGlWK7H
-neypstKLRl7eJQNf+w9mwqWs2/It/cn1QdzleSzp2cY5EfSHeq+b89AOS/vnrffF
-2KvpmxNWvTuTd8NjROAsyLMbKL7gDH7XkPdskWYrYVAvoWxn//YYXnNkaxVB9zxE
-d7dEbUVaFUIKkZay9XRewx8u0c1/0MfoW1xR7/fqhewrB1UBuV21/CLnzO8oc812
-4kfeiU9ZfZY6Wa+uAS0aR+WRQB1/hlsW52Lc5GKYxMAtb3N1F0gvqMGz29XAPOjM
-yZ+BAhCWn43+y8WhfqSbUH1ZF3QqjLZQzVbDxoZxrmHiKr0A8YIibrHzRkDxAIGW
-P5YEYf3IrasvUt8UF0ZYzKG3oR412n9400t2JgQvvjup8km/TwEG76Wo722HdbIy
-rxNqzlZxUquylEXc7cWXd3ux
-=7HOT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpVIzobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hAIP/0ct4gnc2LSKpoI/X6cR
++uHVuY0QdFHQcD1ra6HmH1t58bpRZjRG4ycx8MdVBfG7qFs9rru3IyDV696IvRcT
+tD5UUvj4qQwdkzrktiTFKxiITxTIpPq+DQyA2o9j3eCWiXG/4R/j/KPbaHdcmP1e
+IhpLogZPD3EG8n3aWvE+KLUdBPmxVsi70PzRQaa0sZAUEanAmJPUGX38o4+rsHVf
+YC8nTd1CHEBa+Kq1ur7oZb7GRCYvAp+DyaNC8Nuit+/2WdISx7ZXl4Mh2Ej3EUxq
+f/2ZGUrt7CYsHHHF5Saa37U1vI1951UX5T9NggfC7XcHdgiH9a2bkNSSm84aswEC
+sIux0OvHw7z6fjomXD9WwBoeNi3TETlZj8So89JT7GsHcUBP6L2BlqXEVf+HfZTX
+qg9k6MPds3rL5p9a/GCCIOSmNrgiJJ6alBkRi+6eAwZa5DLApzwT489Kq2xBWYQw
+qicYgBkpAsztPCzGyvpWIi6RPPz2ATcr/8bjRl4T7zPk2zUykVv7XqlAnMwSsT7N
+OwFGfk5uq5Vd84nqAE2I6tQtqoG2UO1k9ghfYkDqUI5zJDrGfokDSRH0brPUvqyA
+AI0Zd33AL65c7ymKGPexeLdFy6fuZsLT/t/jhY0Uaf7TLYgJaL3aEu7K45SUG5yF
+lbmtsJLDim3cYKvi/mWp6N3L
+=C4EW
 -----END PGP SIGNATURE-----
 
---===============6826464045520581891==--
+--===============5127756345644398374==--
