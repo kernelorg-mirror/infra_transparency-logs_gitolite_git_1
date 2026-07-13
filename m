@@ -1,20 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6138343346804005032=="
+Content-Type: multipart/mixed; boundary="===============2890356250823190335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Mon, 13 Jul 2026 08:34:11 -0000
-Message-Id: <178393165198.3047643.8126425359161068373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 13 Jul 2026 08:35:38 -0000
+Message-Id: <178393173818.3050041.4332400342265712279@gitolite.kernel.org>
 
---===============6138343346804005032==
+--===============2890356250823190335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
+  - ref: refs/heads/for-next
+    old: d89fea99c26e4301c5f6ecdd509999cce9fbc7bf
+    new: e80b048d87fdc5735e0d03ae29b497b402ea8bbe
+    log: |
+         e80b048d87fdc5735e0d03ae29b497b402ea8bbe xfsprogs: Release v7.1.0
+         
   - ref: refs/heads/master
     old: 80239046c0dece6ef0d56413637f8af22d3b074d
     new: e80b048d87fdc5735e0d03ae29b497b402ea8bbe
@@ -23,7 +29,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 2ab8d989f1a2f537e3ed0c59bbd31c8f1c95e3f7
 
---===============6138343346804005032==
+--===============2890356250823190335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -105,4 +111,4 @@ c957be18e5e53b21d87768524a5785d4600e0acc xfs: zero entire directory data block h
 d89fea99c26e4301c5f6ecdd509999cce9fbc7bf fsr: preserve xfrog_bulkstat error codes
 e80b048d87fdc5735e0d03ae29b497b402ea8bbe xfsprogs: Release v7.1.0
 
---===============6138343346804005032==--
+--===============2890356250823190335==--
