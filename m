@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4755920206913313581=="
+Content-Type: multipart/mixed; boundary="===============4280012910792354187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 13 Jul 2026 10:18:51 -0000
-Message-Id: <178393793155.3161265.15856509153453445051@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 10:19:06 -0000
+Message-Id: <178393794658.3161577.11056587005945134075@gitolite.kernel.org>
 
---===============4755920206913313581==
+--===============4280012910792354187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0d61bcd886e0ad9395368a7d11ee3856ae915ceb
-    new: 5c935e90db5acaad10b6a080f956de473e4a9c60
-    log: revlist-0d61bcd886e0-5c935e90db5a.txt
+  - ref: refs/heads/m68k-queue
+    old: e4ea86973fa7a65e70ab19bc84b4d840a3b7c18e
+    new: 597e760bb0d15d7f02f4450c83a93d9cbf48b5af
+    log: revlist-e4ea86973fa7-597e760bb0d1.txt
 
---===============4755920206913313581==
+--===============4280012910792354187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d61bcd886e0-5c935e90db5a.txt
+Content-Disposition: attachment; filename=revlist-e4ea86973fa7-597e760bb0d1.txt
 
 31620fc1c81078746c4794e0eb6de539ab37e695 xhci: dbc: support runtime suspend while DbC is in enabled state
 6eba58568f6cc3ff8515a00b05e258d8cfb72b72 usb: cdc_acm: Add quirk for Uniden BC125AT scanner
@@ -501,6 +501,8 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 940d91caf09cc849ac514043bbf5c0e1b43aea0b Merge tag 'staging-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
-5c935e90db5acaad10b6a080f956de473e4a9c60 Merge tag 'v7.2-rc3'
+3d2d0c1bdc6be3e5c374442bb79658fd8e2fbcb9 m68k: atari: usb: Add ISP1160 USB host controller support
+9d25ba4a7ae14af7c3ce32e2faf59173acf88394 m68k: atari: Update Kconfig.bus help text
+597e760bb0d15d7f02f4450c83a93d9cbf48b5af m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4755920206913313581==--
+--===============4280012910792354187==--
