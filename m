@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4523061730288900612=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 13 Jul 2026 11:11:44 -0000
-Message-Id: <178394110498.3198862.17455030692266507754@gitolite.kernel.org>
-
---===============4523061730288900612==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 13 Jul 2026 11:19:08 -0000
+Message-Id: <178394154858.3203057.16140438168962060003@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/fixes
-    old: 2726b5758f80a546a4ddeec5019e72035a7fa166
-    new: 78bf392ba77dd8b2a25656e489449d2f91cfd1eb
+  - ref: refs/heads/for-next/scmi/updates
+    old: abead4dc1808fb756d6945e2c3810bdbacd684e9
+    new: 9c62bb72a5d02795f767cf9f5e5dd781d8ccf70a
     log: |
-         09b2ae290a241ce1f5f738fb65c35f449dcf663d platform/x86/intel/vsec: free ACPI discovery data on early errors
-         78bf392ba77dd8b2a25656e489449d2f91cfd1eb platform/x86: asus-wmi: temporarily revert to setting a charge limit
+         53716a4d745f1dac7aff33f3d1494b701eb2f888 firmware: arm_ffa: Respect firmware advertised RX/TX buffer size limits
+         8ae5f8e4836667fcaffdf2e3c6068b0a8b364dd8 firmware: arm_ffa: Fix NULL dereference in ffa_partition_info_get()
+         05e5ffde9b666ee6d3ec225efeda9c038fa74ac8 firmware: arm_scmi: Grammar s/may needed/may be needed/
+         bf1deecccf210d1dd84e85cd4a45070888583984 firmware: arm_scmi: Use 64-bit division for clock rate rounding
+         a4447c0693830d5ecadd6e755cb7fdc55d86aacc firmware: arm_scmi: Rate-limit queue-full warnings in IRQ context
+         980a8bfe7baec9b9ee0d5443b0b204552e41c407 Merge branches 'for-next/scmi/fixes' and 'for-next/ffa/fixes'
+         9c62bb72a5d02795f767cf9f5e5dd781d8ccf70a firmware: arm_scmi: Simplify notification allocations
          
-
---===============4523061730288900612==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1783941102 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1783941101-3581da7be237e684504ecf01011b46e9f0634ed3
-
-2726b5758f80a546a4ddeec5019e72035a7fa166 78bf392ba77dd8b2a25656e489449d2f91cfd1eb refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCalTH8wAKCRBZrE9hU+XO
-McQYAQDIBYf9MXFlRnEs/lZwfS3ejf/JWhu5Gj3I90LGGpHThgD/QQsI/oEGIbHF
-ohvF5RtDJCAebZuQg+lo2syY7iNKTQs=
-=9HbO
------END PGP SIGNATURE-----
-
---===============4523061730288900612==--
