@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8347599438516969741=="
+Content-Type: multipart/mixed; boundary="===============2052590110141290912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 13 Jul 2026 02:30:47 -0000
-Message-Id: <178390984717.2734642.14148107898780233868@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 02:31:20 -0000
+Message-Id: <178390988041.2734975.4895059736614112349@gitolite.kernel.org>
 
---===============8347599438516969741==
+--===============2052590110141290912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,126 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 4f87e9068bf3aaf45f226261d5efd50bec42c12c
-    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-4f87e9068bf3-dc59e4fea9d8.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: fb6060f772fc7d2fed02cce40999cde8cd678c07
+    new: 4e416da45b5ebdec34cce6850d823b6673a35524
+    log: revlist-fb6060f772fc-4e416da45b5e.txt
 
---===============8347599438516969741==
+--===============2052590110141290912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1783909844 -0400
+pusher 75C5DE3D 1783909851 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1783909840-d82af27df1af6856aa3c5aefec04fd8f640f069a
+nonce 1783909851-79e4805f28b8343b05ab8b4d2710abd012ce6479
 
-4f87e9068bf3aaf45f226261d5efd50bec42c12c dc59e4fea9d83f03bad6bddf3fa2e52491777482 refs/heads/queue
+fb6060f772fc7d2fed02cce40999cde8cd678c07 4e416da45b5ebdec34cce6850d823b6673a35524 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmpUTdQACgkQ7ulgGnXF
-3j2Tnw//cDiFD1s8Ov7rC4B0nDYgsgP1yg6rFk7yz4PDycKDf/IaBo7gHy+DKGnq
-Zy4BSXD36FL5YEzBLKUYNZmkmgexZG8ncy368bWXvvyl9ZVsajF3ynZlS74QbDjg
-+G/yTZHrwv81w5/U2QdNrrHkTGmuUKYwgm2IbdUbDO5jhO3O6LitTh2Wql0HMoxG
-qoaN1s6V+OBseevP7OO4kVY7DYjNs31Bh9nMgHofK6cqLjNtm8r/dc54/5fAPPVT
-6QvTF5oKq/0ciE0+XpIik13+sKh0MzGGlgwgEA/mzgWMhbn1nPZQa1Aku8P9maab
-6BdVadinVa7FCLnH+8TcrGdbuQIrkDhVROrLol3q4ooj7mset49++4giimVNlt3g
-GIQxNxSaxcFpMN9SZfchoIH96TWv60TjczDUr54e1YMk7E1sylvbHXC/zVNQAuQm
-dhyJxxrEf6I3ulIv853PS3Q9gZm2I/jwfjrs8Pdcm2uCb/o1G9izKn/nu/+gUJjW
-9JlzD3VBuZoPCfTJm0XoiXLwL7dqSTRdI3Vlnae7XrF4eotB/ytr9yh8uA4VvVcR
-hUDN93/Sjired+4nfjV5r7R/gac6ZRbrXeY4QcpGuF1e1VlWslcy5ZA+6IwtpYyR
-0QZJJDDGogmRqtjcxCkiYuWUqaPjic6zvaFb7k2U9Oav65Wubcc=
-=RKLV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmpUTdsACgkQ7ulgGnXF
+3j3uGA/8D0PthnokCfutWPcQE/w2MOT4CVU2LCHxOcfMRD8JLjuGlxJuR6ujIlQi
+R2YRy56Sb8cFx57jmqdIPt0c/YxzIThG3fXWr/bWc0GVfZvYaZF/CPsza13+Sv22
+oUDjRz5wbLD7k8fMbdOeMAAth8z0WSuKG5ZxT5ljSUh149UCLuQ887pNyhEqEX/o
+HyoBNSyDL5F9YmX6W6CwGHx/DhOTx/sch+IVgw4z92WUTiHE4l+LVk9WL7euvpvZ
+j7ppv5Bl2GOcK4PxAAI6OZ5L20VsDjco3Xna7HFT6kULXVE35ZxasMxDi5BBmxCF
+oGBQ/itrl27Iqoub2VluW3MppNa3jzplLnCBaOcyh+rLRz2osZ0emeFr0HQpQFZq
+0GURwUlv4BVrVgy+VZMJ49GUnWfgU2jI1an8TwrLl4F7wScTLeg0/rPYOpjIvB64
+sNIjOjpFJVBGYbbBb4vm9WPVkWj3oUZs8UItVL8oitFoWzACjC5fGw5a/CEr/gLl
+My2ZEK9g1wXUqioSKJZ8t3Uq3RgSxFu0y/60sq4esfoTjG69tMHLzWW52ABGmai8
+1ZlZI4ptmIJbTTOKUli1u00ukBiWpThrZ9oe+gN4akd1U0fpwGMYWiuAaP6bowBP
+agZgZEFNMOFc3qMB1FKv+xcP5v7y06DofDak5UmFiJKT0hJH9qY=
+=JuYP
 -----END PGP SIGNATURE-----
 
---===============8347599438516969741==
+--===============2052590110141290912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f87e9068bf3-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-fb6060f772fc-4e416da45b5e.txt
 
-8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
-a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
-93475c34111916df71c63e510fc52db01351f809 drm/amdgpu: check amdgpu_vm_bo_find() result in GET_MAPPING_INFO
-84c4c36acd5c4b2558b5069f869a165b2c655c84 drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1
-d072a3f603c639ee12a05126aa0bab0ff1732323 drm/amdkfd: Fix NULL deref during sysfs teardown
-75b3e4d0494f5f831939bec835deceebff0bded7 drm/amdgpu: Don't use UTS_RELEASE directly
-9920249a5288e7cbec222cd52996bbd9aac7ec9e drm/amdgpu: convert amdgpu_vm_lock_by_pasid() to drm_exec
-7152b248dc3c8d5fa8629e99ed5655dd41b51562 drm/amdgpu: fix recursive ww_mutex acquire in amdgpu_devcoredump_format
-8242a8d9d7194d5ef8a8b38a5621ca0966a3ec15 drm/amdkfd: Let driver decide buffer size at AMDKFD_IOC_GET_DMABUF_INFO ioctl
-516bf737a5602875f6c28d1028967837c8edf2c0 drm/amdkfd: check find_first_zero_bit before __set_bit on kfd->doorbell_bitmap
-2321831d7e95d4e1abaff3ffd682be9dd45db62e drm/amdkfd: Use memdup_array_user to copy data from/to user space at kfd ioctls
-c1dc4ccb82c9e56325d8e7514ca4c90bd1efb351 drm/amdgpu: Fix context pstate override handling
-808c447df2fe234eb7d9e08ecf53159d291c104c selftests/ftrace: Drop invalid top-level local in test_ownership
-8882f8897e554053af9e72f4c2da8b1e2cce56c7 drm/amdgpu: Respect placement requirements in amdgpu_gtt_mgr functions
-ee94a65f192c05c543b4d3ad7137cd696b5c18fc drm/amdgpu: Fix amdgpu_bo_move() when old_mem and new_mem are both GTT
-8002b744ad70055ef11ff7d0a7d685bfe8ffe6e4 drm/amdgpu/uvd: Place VCPU BO only in VRAM for UVD 4.x and older
-32bd35f068a3507a1b3922cd12ea2985fc58c85b drm/amdgpu/uvd: Fix forcing MSG, FB BOs into VCPU segment when it isn't at 0 (v2)
-85ed06d990ff73212b5a91a406671cabd962e521 drm/amdgpu/gfx9: Fix Ring and IB test fail after mode2
-b89d58b6595d79dc3fe75e213e1f4c5efd0251d4 drm/amdkfd: Use exclusive bounds for SVM split alignment checks
-29b5def20a2cc3d7df375bf3803980c86f7b10ee amdgpu/ih6.1: Fix minor version
-ba2977dcce72127986fbad76c4c67f134e2f69ae drm/amdgpu: Use system unbound workqueue for soft IH ring
-c7fdbc2c2f26b9c397eb3aad2fdc54dbd85f68e1 selftests/uevent: increase __UEVENT_BUFFER_SIZE to avoid ENOBUFS on busy systems
-5108f4765637bd0ac5ea2897dc7d537486a09885 fat: reject BPB volumes whose data area starts beyond total sectors
-452a8467be8143747292218212671deeb186d2ae ocfs2: fix UBSAN array-index-out-of-bounds in ocfs2_sum_rightmost_rec
-07669b0abe4ce76c716e8437e198e1337cf43d1f treewide: fix transposed "sign" typos and update spelling.txt
-22920541c35a9f23f219038ba5874c843a7c4419 ocfs2: avoid moving extents to occupied clusters
-c1fff9794a165b6b64ae4ad9b54c00bc94e7daed lib: interval_tree_test: validate benchmark parameters
-f9ab30c96b0f00c20c6dac93681bdae3a033d229 ocfs2: fix NULL h_transaction deref in ocfs2_assure_trans_credits
-ff6f26c58421614b02694ac9d219ac61d924bc68 ocfs2: fix circular locking dependency in ocfs2_dio_end_io_write
-e586644d0a89b6c63b77ae717f19d70181faee76 net: pse-pd: set user byte command SUB2 field
-8165f7ff57d9667d2bb477ef6af83ede7fed4ad7 net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink
-8211a26324667980a463c069469a818e71207e02 net: ipip: require CAP_NET_ADMIN in the device netns for changelink
-95cceadbfd52d7239bd730afdda0655287d77425 net: ip_vti: require CAP_NET_ADMIN in the device netns for changelink
-2496fa0b7d180b3ad356b514e7ff93bb14e6140a net: ip6_tunnel: require CAP_NET_ADMIN in the device netns for changelink
-f00a50876d2818bd6dc86fa98b3ef360884c53c8 net: ip6_gre: require CAP_NET_ADMIN in the device netns for changelink
-e2ac3b242c37dff323a964962e43854f4b1a2b79 net: ip6_vti: require CAP_NET_ADMIN in the device netns for changelink
-095515d89b19b6cc19dfcdc846f97403ed1ebce3 xfrm: xfrm_interface: require CAP_NET_ADMIN in the device netns for changelink
-0e80602c026b98ec9f775f8a6a4eaea577733d6b Merge branch 'net-require-cap_net_admin-in-the-device-netns-for-tunnel-changelink'
-e4b4d8410c7ccea25f4b332a077c6b9f5d263228 net: ethernet: mtk_eth_soc: fix supported_interface set after phylink_create
-1f24c0d01db214c9e661915e9972404c96ca73c0 netdev-genl: report NAPI thread PID in the caller's pid namespace
-65f26d15f7db80b0a3f995c518cdddb50e6dea99 selftests/ftrace: Fix trace_marker_raw test on 64K page kernels
-a056db30de92945ff8ee6033096678bfbae878e3 octeontx2-pf: Fix leak of SQ timestamp buffer on teardown
-4f6ac65e81625165257131ec2574bb6bb09bd7d8 octeontx2-af: npc: Log successful MCAM drop-on-non-hit install at debug level
-1c4b39746c4ba32370e9a60801e96181bc1260a3 net: ehea: unwind probe_port sysfs file on failure
-efb8763d7bbb40cff4cc55a6b62c3095a038149c net: ipv4: bound TCP reordering sysctl writes and MTU probe sizes
-b50fa1e07cf875609b9d34c5c8b32dcf11b8b603 net/mlx5: Remove broken and unused mlx5_query_mtppse()
-aedd02af1f8b0bceb7f42f5a21c41634ca9ed390 net: psample: fix info leak in PSAMPLE_ATTR_DATA
-7d8297e26b4e20b5d1c3c3fe51fe81a1c7fbc823 sctp: hold socket lock when dumping endpoints in sctp_diag
-286533cb14a3c8a8bd39ff64ea2fc8e1aa0f638b gpio: sch: use raw_spinlock_t in the irq startup path
-90f0109019e6817eb40a486671b7722d1544ae29 gpio: eic-sprd: use raw_spinlock_t in the irq startup path
-28c5d230980bdd8cb18c073225296c7747995935 erofs: add folio order to trace_erofs_read_folio
-30222639602c89ddc52208ac6c9d7baed376c84a mm/slab: remove __GFP_NO_OBJ_EXT usage from alloc_slab_obj_exts()
-71553a60675994a79575567f6d56e214f9030dc4 mm/slab: replace __GFP_NO_OBJ_EXT with SLAB_ALLOC_NO_RECURSE for sheaves
-6808645b71f02752852731764961a16f728772a6 mm/slab: add a node-track-caller variant for kmem buckets allocation
-7b5f5865fb11e60edd03c5e063e2d228b7062317 slab: recognize @GFP parameter as optional in kernel-doc
-892a7864730775c3dbee2a39e9ead4fa8d4256e7 tools/mm/slabinfo: fix total_objects attribute name
-ac930b80c1e0eba283d7843180964e6d2a87369d i2c: pxa: Use named initializers for the platform_device_id array
-53d1ae7c20d97b08741d667ba54bb09d330eba3b ALSA: pcm: fix __le32 cast warning in snd_pcm_set_sync_per_card
-f7f3f9fd81e7adbaa12c2e62ee07f0e094a543fd ALSA: caiaq: fix out-of-bounds read in the Traktor Kontrol S4 input parser
-58fc1275b3f288500ee79a02dbe89ed4197fdc3e ALSA: caiaq: bound the length in the EP1 input parsers
-4520fbbaedbeda8861f0f0bfbe50b3bca4deae08 ALSA: hda/realtek: Add headset mic quirk for Acer S40-54
-bdb640be82e645e2828731648f485224d0c2587b ALSA: usb-audio: qcom: reject stream disable with no active interface
-3c7af07943b2718087ae791cad450af5cf646d90 ALSA: usb-audio: qcom: clear opened when stream enable fails
-69388468721151e15d34657a2e4a654741f32f1b s390/idle: Add missing EXPORT_SYMBOL_GPL()
-e6fa716c9d7248e03cb93f566874bd5709901bcf ASoC: audio-graph-card2: Drop warning for manually selected DAI formats
-2f9f5887b42711595e768b9dc0582dccfdf60c3b Merge tag 'for-7.2/io_uring-epoll-20260616' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-00d07402df810b4dce0ae6828f4a292c20bab916 Merge tag 'ata-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-7cb033507068936f9da3c59e5c31a54e4e8dafa6 PCI: mvebu: Use fixed-width interrupt masks to avoid truncation in 64-bit builds
-9e7e6633458362db72427b48effad8d759131c35 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-3c2e6cc6affa8acdb99a580be1f8f297edf54204 PCI: iproc: Restore .map_irq() for the platform bus driver
-348f69320e4db6ebec6940c81154bec4b9eb275a ALSA: usb-audio: Add quirk for YAMAHA CDS3000
-b59aff62767bf59ca0c787015c0ddc14f60ab10d ALSA: emu10k1: Use common error handling code in snd_emu10k1_playback_open()
-6edc20078ad0b05ab2dc2693965d373628d65f80 Merge tag 'fuse-update-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-3dc7c001169d112b3e514cacff6c93091c57af9a Merge tag 'nfsd-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-e753a63f2ac8599182a5b6899c158a745188551d Merge tag 'v7.2-rc-part1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-dac3b26eae7bee261fa05f20c3fcc24988a7c233 Merge tag 'v7.2-rc-part1-ksmbd-fixes' of git://git.samba.org/ksmbd
-83f1454877cc292b88baf13c829c16ce6937d120 Merge tag 'ext4_for_linus-7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-a8759c8ac48c0419f5899e95a6ffc611b07c965b PCI: altera: Protect root bus removal with rescan lock
-20b7aba83c0eac13bf9d46b0fa7575df5765f205 PCI: brcmstb: Protect root bus removal with rescan lock
-713331969ce89489c84af917058df6d9910cff97 PCI: cadence: Protect root bus removal with rescan lock
 26335696498ab502e907a556e97c7039bc80a87e PCI: dwc: Protect root bus removal with rescan lock
 a6a64e150f12ad5391e0a0d60f6a3d119b06ce50 PCI: iproc: Protect root bus removal with rescan lock
 a29812a55da8d0dbeb071b26ac428c338e3fc389 PCI: mediatek: Protect root bus removal with rescan lock
@@ -1080,5 +1000,85 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
+1e9036e7580bd3eda6849ca64b07223ed80dc440 scsi: virtio_scsi: Fix up endian conversions for warning messages
+9a19b4e71bbc8989e593c44292a9872ec9441ca2 scsi: lpfc: Fix use-after-free in lpfc_cmpl_ct_cmd_vmid()
+7c9d9181c083adf94192da558c7b4c3b28cc0a64 scsi: lpfc: Early return out of lpfc_els_abort() when HBA_SETUP flag is not set
+c57d8839f21fa489a509eff636d385185990904b scsi: lpfc: Fix kernel oops when unmapping SCSI DMA buffers for an aborted cmd
+a20f8a55a1fd19b95fd5db92099e9c54fd3a8d2a scsi: lpfc: Check fc4_xpt_flags before decrementing ndlp kref on FDISC error
+7ea13b01ff6cbdbe2ec27d04111b1baac91a43fc scsi: lpfc: Add handling for when PLOGI or PRLI is dropped during link failure
+324f838ba94833533d9bc6262cc769ee611455c9 scsi: lpfc: Fix ndlp use-after-free during repeated RSCN and rediscovery sequence
+aa7f845fb4256f7c49896092b0fa08b17bf5b6e6 scsi: lpfc: Rework I/O flush ordering when unloading driver
+8d2efb137cffb81fcef4a3fd0158de9339a6dc0c scsi: lpfc: Improve PLOGI retry handling for large SAN configurations
+af8019846d9750a80050db70fa3801c42812d6f9 scsi: lpfc: Send inhibited ABORT_WQE when PLOGI CQE SEQUENCE_TMO is received
+9f63b35a95879c2e9661466b44cb149232db17d0 scsi: lpfc: Remove slowpath cqe process limiter in slow ring event handler
+9c94d8ec73bad73c88e3eba837b2edfda28b5de1 scsi: lpfc: Put iocbq on phba->txq when ELS WQ is full or ELS SGL unavailable
+6e80a617f75932c6f723678bdc1a68d6d32f8473 scsi: lpfc: Update ELS ACC logging for diagnostic troubleshooting
+d83797bc9499889dd7e01e0badfb1065cf7178ec scsi: lpfc: Refactor calls on fc_disctmo to lpfc_set_disctmo in RSCN handler
+5790b3f08344dbc912007cee94e6c547d4aeba50 scsi: lpfc: Update lpfc version to 15.0.0.1
+82ce0a6d25a893a16256e4485d4faf52944e4376 scsi: leapraid: Add new SCSI driver
+830d779aff5e4cdfe684e2980926c921290b209c scsi: leapraid: Add driver documentation
+d19ddd0b001c69f478bafc04b66489a64b162bd7 scsi: ibmvfc: Move target list from host to protocol specific channel groups
+e9ad3eed9ba10bb9fd4cd0f31e68b14248c952e7 scsi: ibmvfc: Add NVMe/FC protocol interface definitions
+6dfcaf3809902203db335ffe6229f4a7c7b368c1 scsi: ibmvfc: Split NVMe support into separate source file and add transport stubs
+f359b8dabf289ef52197946b6f8224f578ad7fbe scsi: ibmvfc: Initialize NVMe channel configuration during driver probe
+36d86ac8a966030e34480f78edca8885394d10f6 scsi: ibmvfc: Alloc/dealloc sub-queues for NVMe channels
+16e9078f80756002b152e8dec69b531b1fa7a663 scsi: ibmvfc: Add logic for protocol specific fabric logins
+c923c8cefdf7a124050be70abe59dff2eba62552 scsi: ibmvfc: Add wrapper to get vhost associated with a channel struct
+65536849a9d9d2adeaeff57e5ddeccb97063e292 scsi: ibmvfc: Add helper for creating protocol specific discovery event
+77f8f646c13da02b359d5fe11aa79a953704cf32 scsi: ibmvfc: Add helper to check NVMe/FC support with active channels
+7ceed7c66dde43a48e1eb1541416dd73f75e7a35 scsi: ibmvfc: Allocate and free NVMe channel group discover buffer
+213a3dd0fd198db9ea973ef8ba32e0900a97ec9a scsi: ibmvfc: Send NVMe target discovery MAD
+1ef5f526ed8624eaaec45d0f24ad813d28d5f4e6 scsi: ibmvfc: Add NVMe/FC Implicit Logout and Move Login support
+2968b9161c7ee8af1bc51e10822a0f115a9f3a39 scsi: ibmvfc: Add NVMe/FC Port Login support
+5beab21b93cd44b61976c2beb611ce4e6731af6f scsi: ibmvfc: Add NVMe/FC Process Login support
+f38d550e6585e0316dd1698bedf8a1c9a0d2ce80 scsi: ibmvfc: Add NVMe/FC Query Target support
+275460787107280d4e1f7946d6d17ea070780cef scsi: ibmvfc: Allocate targets based on protocol
+32d2bff1a10fb05209e7437724f07903671f7db4 scsi: ibmvfc: Delete NVMe/FC targets as well as SCSI
+3ed3fe7132731409bbc9f2a72e6f79448674e988 scsi: ibmvfc: Update state machine to process NVMe/FC targets
+9732cd96361ff12e24ea4e87a6110369c0d67448 scsi: ibmvfc: Implement NVMe/FC stubs for local/remote port registration
+0fbb8f1044324cf4c5b995eb6257652056785a50 scsi: ibmvfc: Register local nvme fc port after fabric login
+ddbcf78e8d2300ff6dfbbc41997ec19526a16bcb scsi: ibmvfc: Process NVMe/FC rports in work thread
+9566965e41844e19fcd2f18034a86a0172ebcb6f scsi: ibmvfc: Extend ibmvfc_debug visibility to ibmvfc-nvme.h
+f68a085b0726e66d39d2547b9fd94eeada0cce57 scsi: ibmvfc: Declare global function definitions
+43d5ecd055e759db9069a68680f9151d64a41a28 scsi: ibmvfc: Implement LLDD callbacks for mapping nvme-fc queues
+6a3632b4e242fa79ac1e18ef29efff7cfa1fbcc0 scsi: ibmvfc: Implement nvme-fc LS submission transport callback
+e3bc60ffbd8edba5a57c5da2ef0bc7aff01fc982 scsi: ibmvfc: Implement nvme-fc IO command submission callback
+4860e27697fa31fa8366fbe5ac256d0058e848b5 scsi: ibmvfc: Implement nvme-fc LS abort handling callback
+ab02b0c50acc1602cbeec5279afa642ac27e623e scsi: ibmvfc: Implement nvme-fc FCP abort callback
+b40252108d9acc2cfa0da447e94c553ff498cb83 scsi: ibmvfc: Fail nvme-fc fcp-io and ls requests during transport reset
+e5dd7678eb15524a43b7ca2b86360553ee1daa68 scsi: MAINTAINERS: Update HiSilicon hisi_sas driver maintainer to Xingui Yang
+1345c2249ab91aa5d5fb23826c02c6e7c73bc214 scsi: ufs: sysfs: Add HS_GEAR6 string in power_info/gear sysfs output
+ce36dbeb2951607304cc5451a33ddcf06880d726 scsi: ufs: dt-bindings: Document static TX Equalization settings properties
+ecb8d6da1356abc3168e530fc328b3d461107d0f scsi: ufs: core: Add support for static TX Equalization settings
+e91b6a72a81063ccef1e1ebb56a6e3a9e90e423b scsi: ufs: core: Avoid possible memory reclaim deadlock in TX EQTR context
+87d56e4583277cd4e98ddeafb445c30c360d8250 Merge patch series "scsi: ufs: Add support for static TX Equalization settings"
+4ef019b00c937a71d541c063b5ed3ba2554058d3 scsi: ufs: ufs-qcom: Restore TX Equalization settings on FOM failure
+603461bb287cbfe68c5ffe1738cb5a5abb4b66b5 scsi: ufs: core: Tolerate RX_FOM read failures in TX EQTR
+a3e6c21164274809dbd2f3331f57da288e75ebd2 scsi: ufs: core: Always run tx_eqtr POST_CHANGE notify
+3f1dce70ff0b022aac61cb092b7a1669c418a102 Merge patch series "scsi: ufs: Harden TX EQTR error handling paths"
+45018c779eebbb2ca9719f2954169835f16fde17 Merge patch series "Update lpfc to revision 15.0.0.1"
+6cc330869c2f708305026266db3aec95226e466d Merge patch series "ibmvfc: Add NVMe-FC support"
+e7896d02cb4d0e6b4e97c62af669109ab809c0ca scsi: ufs: core: Add get_hba_nortt callback for vendor-specific RTT capability
+75f529a7bcd4aaac7cf73dc885041d7f66403570 scsi: ufs: mediatek: Implement get_hba_nortt callback for RTT capability
+7ebadbae3dd793663f313e4046c1c20e12351769 scsi: ufs: core: Remove max_num_rtt field from ufs_hba_variant_ops
+44019163955e9e1c8fe13337be39080e1b1bbecc Merge patch series "ufs: Add callback for vendor-specific RTT capability"
+9814bf758bc4ae8f5d849b5dfb4951605b96a3dd scsi: ufs: Switch WriteBooster missing free space message as warn_once
+2a754b85a33615ebd36255236ffa087d266af3b7 scsi: qla2xxx: Handle INTx not connected while passing through
+5864c5827a0ba5f2ec25fa0ff149b056c05cf3d5 scsi: aha1542: Improve style of pnp_device_id array terminator
+4ac3afa9d3c03aefb0baecc10d9c6d66795c9d6a scsi: NCR5380: Improve style of pnp_device_id array terminator
+317f042e2e273d658085e4f29db2ec1de3bd3afb scsi: zorro: a2091: gvp11: Use named initializer for zorro_device_id
+e73ba3d6ed03bf2afeecdfffc045b1ac98aeb1fc scsi: zorro: Simplify storing pointers in device id struct
+de47b015c8f4e03e1571ea5298df8d2792ea4975 scsi: zorro7xx: Make use of struct zorro_device_id::driver_data_ptr
+26018997054dabe5d8f17495f2d75f211d01884b scsi: mpt3sas: Add IO Unit Page 7 config accessor
+8cbaf7b1ab4dd9ced322b6ebf60b079cc3a3d8d2 scsi: mpt3sas: Add hwmon support
+867fc7cd9538a43b39b44669388d770af8c0f617 Merge patch series "scsi: mpt3sas: add hwmon support"
+1bde4fda4af5925457d7845ae161c0168f03b9b3 scsi: ufs: core: Remove unnecessary block I/O quiesce for clock scaling
+418a500202c2769d5aecb308d17487ad900b4af9 scsi: core: Protect INQUIRY sysfs attributes with mutex
+ddd0eb9bcebeb95b51c4da36e7036f9e8e883034 scsi: core: Add scsi_update_inquiry_data() for updating INQUIRY data
+a31225abfc6cc94868fb3b3d054b12333a96d1b3 scsi: core: Refactor scsi_add_lun() to use scsi_update_inquiry_data()
+0ef4aeaeed1188b3af21f56587eec80be6aeea01 scsi: core: Add device reprobe support to scsi_rescan_device()
+e9967d4acfd7c56ee95eed7c2646109f653c6d4c scsi: core: Handle reprobe for existing devices during SCSI scan
+f74347927456ce746b14229821903e7400fbbdd5 Merge patch series "scsi: Refresh INQUIRY data and reprobe on rescan"
+4afcc9ed6a57b1b87e55366f9ff10c1c43b6d6e8 Merge patch series "scsi: Add LeapRAID driver support"
 
---===============8347599438516969741==--
+--===============2052590110141290912==--
