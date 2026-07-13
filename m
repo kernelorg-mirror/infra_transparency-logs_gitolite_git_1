@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Mon, 13 Jul 2026 21:09:41 -0000
-Message-Id: <178397698196.3628183.13372805499968853770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 13 Jul 2026 21:12:08 -0000
+Message-Id: <178397712870.3630982.3705064102065294559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/res
-    old: 25afd838fb2aae6325ae13937e7db06362a05673
-    new: 2566b5cd6a275c124e8f154fef6e815f92ec8d5c
+  - ref: refs/heads/pending
+    old: 5cbb7262f15ca255c70fddcbb63bdd31175f37c3
+    new: 5dc93a6f41d6f9d3baf2426c9fa46937f2ffa43c
     log: |
-         2566b5cd6a275c124e8f154fef6e815f92ec8d5c fs/resctrl: Fix UAF from worker threads when domains are removed
+         5dc93a6f41d6f9d3baf2426c9fa46937f2ffa43c wifi: ath10k: trigger hardware recovery upon rx failures
          
