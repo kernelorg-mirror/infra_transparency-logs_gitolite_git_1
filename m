@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4705971381413927601=="
+Content-Type: multipart/mixed; boundary="===============5610821203628848550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Mon, 13 Jul 2026 11:19:19 -0000
-Message-Id: <178394155976.3203318.14472509537360721059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 13 Jul 2026 11:20:10 -0000
+Message-Id: <178394161046.3205669.17114270456366490159@gitolite.kernel.org>
 
---===============4705971381413927601==
+--===============5610821203628848550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linus
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: d52a13adbb8ccbab99cd3bad36804e87d8b5c052
-    log: revlist-dc59e4fea9d8-d52a13adbb8c.txt
+  - ref: refs/heads/for-linux-next
+    old: 980a8bfe7baec9b9ee0d5443b0b204552e41c407
+    new: 5a8378dca13ac49df12e6c90d9fd54cce9974539
+    log: revlist-980a8bfe7bae-5a8378dca13a.txt
 
---===============4705971381413927601==
+--===============5610821203628848550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-d52a13adbb8c.txt
+Content-Disposition: attachment; filename=revlist-980a8bfe7bae-5a8378dca13a.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -934,6 +934,7 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 940d91caf09cc849ac514043bbf5c0e1b43aea0b Merge tag 'staging-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
-d52a13adbb8ccbab99cd3bad36804e87d8b5c052 firewire: net: Fix fragmented datagram reassembly
+9c62bb72a5d02795f767cf9f5e5dd781d8ccf70a firmware: arm_scmi: Simplify notification allocations
+5a8378dca13ac49df12e6c90d9fd54cce9974539 Merge branch 'for-next/scmi/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
 
---===============4705971381413927601==--
+--===============5610821203628848550==--
