@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1334990135869863967=="
+Content-Type: multipart/mixed; boundary="===============7611986113172410049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Jul 2026 05:22:10 -0000
-Message-Id: <178392013073.2909670.7877920771852410811@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 05:22:36 -0000
+Message-Id: <178392015626.2910133.3757405084124396069@gitolite.kernel.org>
 
---===============1334990135869863967==
+--===============7611986113172410049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,44 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 88a9a4ca8ee87a4477dc32b6cad459db7642cbe9
-    new: 3542e7781ed0de6334b16f84b59fecbcc24ace86
-    log: revlist-88a9a4ca8ee8-3542e7781ed0.txt
+    old: 3542e7781ed0de6334b16f84b59fecbcc24ace86
+    new: 8326a196a5a5424969f71f5f769b939d9ed6f05c
+    log: revlist-3542e7781ed0-8326a196a5a5.txt
+  - ref: refs/heads/tip/urgent
+    old: 4221db4a2319c02f7ec448fd3781a8cba82b9846
+    new: b0fac8b267ce9037c98cdd9ed8a9b118bdb3c30d
+    log: revlist-4221db4a2319-b0fac8b267ce.txt
+  - ref: refs/tags/v7.2-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
 
---===============1334990135869863967==
+--===============7611986113172410049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88a9a4ca8ee8-3542e7781ed0.txt
+Content-Disposition: attachment; filename=revlist-3542e7781ed0-8326a196a5a5.txt
+
+b0fac8b267ce9037c98cdd9ed8a9b118bdb3c30d Merge branch into tip/master: 'x86/urgent'
+dbdb4245255a04aeeffa0fa6185ef8c4c7c25935 Merge branch into tip/master: 'perf/merge'
+39481504b6b00fb3bf0ee50e3ed4383948b617fc Merge branch into tip/master: 'core/entry'
+7974da06e58153fdd049cd18892055aefb606d07 Merge branch into tip/master: 'core/rseq'
+2b0a6f5b5051d7c2349d353dfe31c1c47fb74f34 Merge branch into tip/master: 'irq/core'
+e2cc452c4f638a3cbfd5401cd234581eae53fbe3 Merge branch into tip/master: 'irq/drivers'
+a04256e1eae71f38278baf8d9729f613650dcfb0 Merge branch into tip/master: 'locking/core'
+00c6ab17d3a1331bf927057fb789b9ccfea78288 Merge branch into tip/master: 'locking/futex'
+1a82e1bf4a2bf263a7ca9209e90e3b5a4bd0e390 Merge branch into tip/master: 'sched/core'
+7d106815916370ec50823f11c3d92eefdf081364 Merge branch into tip/master: 'smp/core'
+dc852a08b1a28914d80d3d9b2303c8b0bb4ea248 Merge branch into tip/master: 'timers/core'
+ab48152f293a9c27338b823aff03ee93d2bab9d2 Merge branch into tip/master: 'timers/vdso'
+6ac2dff115203e01266a4400ec417554b4df88db Merge branch into tip/master: 'x86/build'
+c72d1aa8ad1421e09667c2f3bbfcc519fc53ec00 Merge branch into tip/master: 'x86/cleanups'
+8326a196a5a5424969f71f5f769b939d9ed6f05c Merge branch into tip/master: 'x86/msr'
+
+--===============7611986113172410049==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4221db4a2319-b0fac8b267ce.txt
 
 31620fc1c81078746c4794e0eb6de539ab37e695 xhci: dbc: support runtime suspend while DbC is in enabled state
 6eba58568f6cc3ff8515a00b05e258d8cfb72b72 usb: cdc_acm: Add quirk for Uniden BC125AT scanner
@@ -179,6 +208,6 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 940d91caf09cc849ac514043bbf5c0e1b43aea0b Merge tag 'staging-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
-3542e7781ed0de6334b16f84b59fecbcc24ace86 Merge branch 'linus'
+b0fac8b267ce9037c98cdd9ed8a9b118bdb3c30d Merge branch into tip/master: 'x86/urgent'
 
---===============1334990135869863967==--
+--===============7611986113172410049==--
