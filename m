@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4190872965533845963=="
+Content-Type: multipart/mixed; boundary="===============8026649222406140115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 13 Jul 2026 07:15:44 -0000
-Message-Id: <178392694428.2988240.17741566232146031850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 13 Jul 2026 07:17:16 -0000
+Message-Id: <178392703649.2989230.6933095224557348435@gitolite.kernel.org>
 
---===============4190872965533845963==
+--===============8026649222406140115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
+  - ref: refs/heads/pinctrl-next
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: a016e89781478e4b756fbf104945d037d0cdc809
+    new: d441836c9d704d0f3db5dbf44df87af2ba7a9d26
     log: |
-         d5083527908a994496519f5b9098b33460f365d6 dt-bindings: clock: exynos990: Add CLK_GOUT_PERIS_TMU_SUB_PCLK
-         b7d6221aa44fc523c3418ecd94c582eea6e6d53a clk: samsung: exynos990: Add PERIS TMU_SUB_PCLK gate
-         a016e89781478e4b756fbf104945d037d0cdc809 clk: samsung: exynos990: Fix PERIS gate clock parents
+         8e8bad1e2ab599174c21dd2d0ba6fcf5f82dafa5 dt-bindings: pinctrl: samsung: Add exynos8855-pinctrl compatible
+         7cd3475913736239696e0111d4d5845d9e0a79b6 dt-bindings: pinctrl: samsung: Add exynos8855-wakeup-eint compatible
+         d441836c9d704d0f3db5dbf44df87af2ba7a9d26 pinctrl: samsung: Add Exynos8855 pinctrl configuration
          
 
---===============4190872965533845963==
+--===============8026649222406140115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1783926942 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1783926941-a22397d963a3bdaffd262428dcfe71c0e51290e1
+pusher krzk@kernel.org 1783927034 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1783927033-44967ffb71809daee00de8b7e75b3055ba13e702
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 a016e89781478e4b756fbf104945d037d0cdc809 refs/heads/next/clk
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 d441836c9d704d0f3db5dbf44df87af2ba7a9d26 refs/heads/pinctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpUkJ4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12f0D/9BRN9eNBsisUUeoExS8S1x/+XleSPcOiZ2
-gth+lWH/akjMhfoheBs59rw8WPioO+oOxPwG0TqWDA6vy6wjuK3tsu38SiELlo3M
-iBNnceBpqJcq0CWNVw6JrdeU7SYeDg2K83yZ7ZNtQvPx9rxQEqSuWZC+vaSQJ9xd
-iwQv4k6o64JR8u/ytO6xERz0CF9qiHkrAMgnNeUHUG+rnvahuZlneEEtUYwbUqUj
-6jSV+J+iNayy7OtVBFRD7td73dscgwV2B7oBNkP77+WRvxbCvFHt18cgx58CAvto
-u5leaz6LblXUUFLcjLyuK8KGNjsilRTCy+TZ8j/ZRc4EVmy93USRBitt/KmFtxW3
-I6jKXgwRskufuzDWcnBPLuVEGjqVWcH5HB53ZT3w9jmkpcIxRFAFDK/SDVKRtE1d
-cQF4fpR39jjAsJW8qydUc02DHaIe3LQVG39tvaHxNJsNHFUPBBEiR7lPfRyEWmv+
-n/3tCIh+N+tRl4EQ0NP+f9pNr0TZGwpv/GDpmJx+uyiwSFOrp/XRGFWs1RLE3KMY
-4N7vxBEy7fnG3qgGSLQNeO1ZmzhIBLv0YP+oUhSu5DFJ8uY9VCDPuWHGEgsG7xuk
-DWt/Rm+tDKW0gbmbjE3AbnPOM1XKIeU3C9ybSbps+nIB7waalqWAPf76ljFcbfBs
-pH/bd2rSXA==
-=YG9Y
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmpUkPoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10XpD/9I5r+NV+9+4RPgogAVUz/9lWzcUPqSogzC
+jAZOGcMp/Yj99C2XRk5o/PJzTZUYtQ+Fl9vwvGHa6ZMNB1eONC2m8jxvGjI4YX6y
+lgMoM1zsOxdSjDe+opabcyUWzuKFfJXPFqnDiy1oiUB+zxyZ+9nqrYV+ZoRGYaTg
+yc+x9Nn/9o70NlilJ0SpKQaqek4nuTslQCm4HSyvjxsOPc6nBQ/+KvNsJNE1+JR9
+kdVaLRpsvI99+9qtI7TONJYKvdfwTWJvZe3Lg+D7twRBs/60awNF1gNfEFAm1diK
+4hoJrYvOY5bbV/rrFEJX8XRHDtLm8T/IutAJa/dJGVPKR/OlQ2wYfRIugefTA9p8
+rbtuzcawPTKOvzDp8It9KUIyr8sBFqa99GmTodMzhcJUuMWx7uF7W/cqSMtSBqJf
+nS5XJKWVkGWqWHEIrsRgaVqPJ+U8iF9Hu224TtVtbUusba5Z591TP2+39hg+BpsI
+/Eh8mQtyuGxsCovStywATXVPYzZ6zNufhnJDsJEDKGXs8AtH7MkLLLmeIsrc+Xe9
+JB0xrwmTWKvM4PqNKFjSAXB6ml9cFIlmmb7FYRevxR/enYCh/Uus5SYC5yfaCRVg
+J1//ngKFZsT9boVUi9AM7/EmE4cK666EwjbGIPv2FFyZSzN2C02ynWnKkaM2czTd
+h96Nm2vnUg==
+=rrsg
 -----END PGP SIGNATURE-----
 
---===============4190872965533845963==--
+--===============8026649222406140115==--
