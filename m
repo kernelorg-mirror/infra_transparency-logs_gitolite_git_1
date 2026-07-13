@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9193721352420865789=="
+Content-Type: multipart/mixed; boundary="===============8281911510072052552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 13 Jul 2026 05:22:57 -0000
-Message-Id: <178392017794.2910373.10069436111212189246@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 05:23:15 -0000
+Message-Id: <178392019513.2910762.8122893305754545075@gitolite.kernel.org>
 
---===============9193721352420865789==
+--===============8281911510072052552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: cb816b41f3f8d62604c87727477c077bf3b45fb9
-    new: 70f4a83b5faf7e5c77d7b31734aa4cc314b2b646
-    log: revlist-cb816b41f3f8-70f4a83b5faf.txt
+  - ref: refs/heads/readfile
+    old: 5c7ecf35e93ea8eb62844705f28f717c1e0ca39e
+    new: c1f000b12d7ad5d926c1b624c86c9a785747f2e9
+    log: revlist-5c7ecf35e93e-c1f000b12d7a.txt
 
---===============9193721352420865789==
+--===============8281911510072052552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783920159 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783920176 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1783920161-395f0816cf2304d5174794d5fa017be9117d0d89
+nonce 1783920179-6f3087e8fafa5c9bb3e49f055cbd6b8ef3d02592
 
-cb816b41f3f8d62604c87727477c077bf3b45fb9 70f4a83b5faf7e5c77d7b31734aa4cc314b2b646 refs/heads/rndis
+5c7ecf35e93ea8eb62844705f28f717c1e0ca39e c1f000b12d7ad5d926c1b624c86c9a785747f2e9 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUdh8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fp8QALMdV4movtQsZU7nINf+
-Af4tihSr6gUQ+uyfjBtl0tDG4N8fFhXgOEu3oq5jaNkgGG/mPmHvMeWhJlAWrhSJ
-Ht6uhGGnArCv3zpqYuB1zxHam/0YuQFFIK+Ustnla9jlgjQJWqBRg3t3m2vmTreX
-l6LuE9VIcZOCY6g/q1zI7NxlC1yA95Zz2bLRdRTuFIl8KBXphWOIvcGQZSZ5EA1U
-l+sd+9VIcTFAQdOPDIXN5iv6RucM8TqCa8dGpcd39FW6lJuhgDGSjHNktcXg9lFi
-hOPx2Cm7SNHKdPehaxxICTHO5cdo2sITBgNIzwfUYmFAZZxO+Kc7FBlunfPm+da4
-zBaKXB8ez8Zg5DtRacriiyRz1BlYW7CXnLbsH2b4qmC9FGoBFAtsjclg8RuQjN6A
-LDjrnewyO0inNEf8hznVJpB6kgAT/ORgv1O5+TLN9cTQqLo2+QI0qmyHa45ViadQ
-FkCy+pGYsdOexObaoJzq9DZFdJ1X76Ft/ZmobeTS5yW8qdBhtbyrV12zKPtL73jY
-GKqWPl0j4HtB8WJ2gQ6nincKztpWG1mjMH3BfRM8qoTcbLQiRbFUU/Hv0gT69iGx
-aM/MIVqSqwZTxZT0bm0l9Kp/i3Fjyc4mlO2AF/zMs6SCZo/FrYxlAfk55igKw4vA
-bbUoVujFMJV8aPAjir1CHXRT
-=Pr8q
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUdjEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SlcP/jBXJtcAJYE6RMShSr7H
+o3hnEQ+HvR41t7UgF2noRwkkYr/7uUbVjMChNfpAXz43y/9/CrtdudtTDKH3aWms
+pPeu5P2UBiSKvTykZYYScdm+EcXLT1JhyGleWws5a6KBRpB8+tVSZDEfENRmjKy+
+/Kdy0WDZJ2DOlbN5vO1Ave6DMzUkQUArrXbqzAamV/9pMMjRBzt6GLBou4jeQC2o
+uJaBvgZXVEWbU9Ilb76PUTGPaSnHE42EVhP08c8JzDZin0tAERTDRypldY0f+vj4
+ItPswEIC3IrSQyJYI1gsD9/YLEEo3iqrsBVN1Z6YseIFCod6UJVC1h7Z1e9hzir9
+VHpMozXmwr2FmOO0K7oV/VJ3SRQEvgZAtD15LDcnmgyWMZTprPFSrCtt0rgD0o+B
+FGUp4Zk/gGGv3AshuOfqHTHV0uARSBJaDHUK67l+OYw9Sj56NKkzx72FvFsfQlaj
+w7XrOfpyLR65/7seDWJMN+aJzAYZjANEfCqhkeIsljPzksJR8BjOvVVyEygwfn2J
+Ks866De1LTG7QkVf3EXzc0Ddmvpnu0meXKxWIkSaK8n9t75bHNgf52B+kCNFGdk/
+xHlMo3j9ZCF3dfiqeeFsNt0K4/31AD1Dvs3DT1s+5fiiygYMX3whZVtMEgUTbxug
+PuZ/3roV3uRFfNeRFXGuw0ji
+=faRw
 -----END PGP SIGNATURE-----
 
---===============9193721352420865789==
+--===============8281911510072052552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb816b41f3f8-70f4a83b5faf.txt
+Content-Disposition: attachment; filename=revlist-5c7ecf35e93e-c1f000b12d7a.txt
 
 31620fc1c81078746c4794e0eb6de539ab37e695 xhci: dbc: support runtime suspend while DbC is in enabled state
 6eba58568f6cc3ff8515a00b05e258d8cfb72b72 usb: cdc_acm: Add quirk for Uniden BC125AT scanner
@@ -532,8 +532,9 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 940d91caf09cc849ac514043bbf5c0e1b43aea0b Merge tag 'staging-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
-c594be3f614d8242b53a4dc1ba12605d74f1483e USB: disable all RNDIS protocol drivers
-ea21576d2f5d12ec9c44fb8a08f074e331c7be44 USB: potential rndis host fix
-70f4a83b5faf7e5c77d7b31734aa4cc314b2b646 rndis_host: add overflow check in rndis_rx_fixup()
+cd6e56bb72d79e4986ddb66809858ab93cda7ac3 readfile: implement readfile syscall
+eca45a5b2bbd9c1cf19271c6714eaa1d186f2a98 arch: wire up the readfile syscall
+c93273616d96ca0fdb956c8c66615f27767eb374 readfile.2: new page describing readfile(2)
+c1f000b12d7ad5d926c1b624c86c9a785747f2e9 selftests: add readfile(2) selftests
 
---===============9193721352420865789==--
+--===============8281911510072052552==--
