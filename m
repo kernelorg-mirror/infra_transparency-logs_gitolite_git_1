@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5834903500047088126=="
+Content-Type: multipart/mixed; boundary="===============6662536794893577316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 13 Jul 2026 13:53:50 -0000
-Message-Id: <178395083027.3320563.2024020805598861517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 13 Jul 2026 13:54:01 -0000
+Message-Id: <178395084120.3320811.1022035034384689700@gitolite.kernel.org>
 
---===============5834903500047088126==
+--===============6662536794893577316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 5f5dc3d855cf5a3a0052a7d0e328dc7203d692bc
-    new: 5885ab1ef3e821f683eeb24cabfaa0c173908e42
-    log: revlist-5f5dc3d855cf-5885ab1ef3e8.txt
+  - ref: refs/heads/slab/for-next
+    old: efa6a5b7bbb1bbdf304afc4a21da8ebacc2f758a
+    new: 56aa9b819edce4acfa879728af56534c951d1818
+    log: |
+         56aa9b819edce4acfa879728af56534c951d1818 mm/slub: add comment explaining intentional kobject handling in sysfs_slab_add
+         
 
---===============5834903500047088126==
+--===============6662536794893577316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f5dc3d855cf-5885ab1ef3e8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-30af2aadee18b708d91d42d47a68ae76ce415353 NFSD: Encode only the status in NFS-ACL v2 GETACL error replies
-3bfa1c0f5c0e056115d487bd16410416b777015e xdrgen: Emit a blank line ahead of enum declarations
-2069700dc304f9a728be93c25406528b533bc8d7 xdrgen: Share void RPC procedure handlers across programs
-55f1acc277ade06a1b9138b84c47aa804e5a30c4 xdrgen: Do not declare union XDR functions in the definitions header
-1247b49f3c5293d05f420d9c2d235f611e1c01c3 xdrgen: Add XDR width macros for short integer types
-a16f8b637cb903e44dd21a75bb035930bb7e4176 xdrgen: Fix opaque and string encoders for unbounded members
-b55c32cff2ecd96afa88f4d4768afe718b351855 xdrgen: Align the error caret under tab-indented source
-9a4cb3668bad6707fcee0c923ccc429ab661151f xdrgen: Record the source position of each declared identifier
-a14cd0c817b5a64199d21b2081edd11858a6eba1 xdrgen: Reject specifications that define a name twice
-07c5b95d84dd7771461b24d5061bfafe0d155ca4 xdrgen: Enforce RFC 5531 name and number scoping for RPC programs
-c0abe6b2f0b47c37832199d64244b8c063a6a0ee xdrgen: Reject out-of-range program, version, and procedure numbers
-ea9b8db0da5064840004d5db6f74b85cc3aacd78 NFSD: Make "stats.h" self-contained
-be995992e77069cb42341cdb7ef5a3ce4369c305 NFSD: Explicitly include "stats.h"
-38d9ca5ce26458546e8f2528cacf1020f9f4271b NFSD: include "netns.h"
-cca8764c86d3edb07c38544bc36fad005c95b190 NFSD: Remove '#include "nfsd.h"' from fs/nfsd/cache.h
-e5da1bce68c479cbba3af1b087516a09868d95cc NFSD: Move the export.h include from nfsd.h to auth.c
-35ac95f53dd58fcd676a92dcce1c9679832e5f02 NFSD: Move struct readdir_cd
-ddc5d5ececcd7b35aa28175c3a9a8acb59ed9551 NFSD: Relocate nfsd_user_namespace()
-297bced52c08c4f61945fcfe082775d62afb09b8 NFSD: Relocate nfsd4_set_netaddr()
-5885ab1ef3e821f683eeb24cabfaa0c173908e42 NFSD: Relocate NFSv4 "supported attributes" to new header
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1783950837 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1783950837-e6ff319ccee04808fc25731e146b5a39e527a835
 
---===============5834903500047088126==--
+efa6a5b7bbb1bbdf304afc4a21da8ebacc2f758a 56aa9b819edce4acfa879728af56534c951d1818 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpU7fUbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaoe4H/jFB1ZITSu8iMvyoV9dr
+vuoaj1yECk2X5TxHxsCXG3vxflBYk53Yf6nJToqHIAbRq2tuBbBMRPES+ek+a8lV
+4w8Z3QUtoAbyDGXjbrbxsL5qxZPTDheSakUwbjuPR5Kml35GP6Vg2Qj9USdYGKKE
+BARa2eqnJq+qFSP6XmgzvlGWa2NBIeCOmagmJGYDnxsNfnUNBKv/q8U4AO2Ywhh0
+2DgEfvkhjqQRM6+SHd7XNcs9pFk5Vv3/9qdCONq6cQQBqnbVASiX7LH0W1DYzGGX
+1ox4j9J6wYN34eAKPs9NH/jLCDfOU0AP+iE5kRzDf1/oTSiuI+2Yerk8bghY5ygb
+m+Y=
+=6k9K
+-----END PGP SIGNATURE-----
+
+--===============6662536794893577316==--
