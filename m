@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6144455116227726691=="
+Content-Type: multipart/mixed; boundary="===============9066712471953702175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Jul 2026 05:04:48 -0000
-Message-Id: <178391908862.2836949.81285012940141840@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 05:04:52 -0000
+Message-Id: <178391909240.2837160.718298520524254654@gitolite.kernel.org>
 
---===============6144455116227726691==
+--===============9066712471953702175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/char-misc-linus
+    old: 3585cfd4563731a8ae406b32807613c667c2b887
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    log: revlist-dc59e4fea9d8-a13c140cc289.txt
+    log: revlist-3585cfd45637-a13c140cc289.txt
 
---===============6144455116227726691==
+--===============9066712471953702175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783919084 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783919088 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1783919087-86b16a48c8f5c19ff47c8d5c3214840f9c52934d
+nonce 1783919091-c2debabaf1face508276e4d759c853e5cfbcc9e4
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/main
+3585cfd4563731a8ae406b32807613c667c2b887 a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUce0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TmEQALqtqC2E7f1FKMBW8KbN
-36n3Ctc5h4Ntd2LzUSAtJWNlt0sYa+h/cYhjvSsLW3mH0SGB7usM+Ohb80vpYSH9
-JzyjPYLrbkqm5vxB82lRV/hH9VOebA+qXPPS11D/ZD/XxlacA69cHkBxIB98W+YE
-UQ0lCtS+chtLE/Uo8QWxd1zfzguVVG7qrdlpr/X3ipKnCEk3cf02xMaq2n2brpBB
-T8tHKaz/tszuL8QmU9LCAWNqwFMUC3Y85l9vVWBcy08TUR8kwOtSojFuINEmhKUC
-CYjVxXkXaIR8PfsWHbHG28l+b/UK8urSrThHeHR1UsG32Kk8TjcP0JoATjIBvs5g
-oqSWc709PdHSi6R+Egj42LqWBBxRNI3DcAeBikzMkq65ocDL5t4srDm4QhmQnIxN
-fIr6E/yex/PsIdg1QnVtIjFoqCJVai/ngaY8ZbEa6N1uW6J257AJkTyoDt0iujRn
-wOcFsktp3ADHKdNDFgLcoX9LxRqzN9Dfro7UM9YbBwIIT0NoNq3uNK4blVLE/Gps
-UlxX3k6GPmHESiqFHN6zU8cbr3vdLszLBro2I5nzZeWqIpM7kknHVMMbhLPModFY
-DrqCO7kcvvGu8FzuCuUhEdHtyHXaaW2wEMeTn3zP7iDDN4Na4fGVE2RV2KVVqRpx
-WEduYofA3F6OvPsc+aKKZ/XK
-=RxmB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUcfAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KBYP+gID5WaNsfELBypcatoP
+A3FZqFILy0rub97lPOnwyhThIq5ho/aMHlVl1OW0W60USSo+wpH/uJIhG/M2qQXi
+bpMpuFunSq6Vu3wrmP/Js4pygd2ydwzY6vYzQ9Fxu7AZNJiI5u75YHlYX/kGjG5Y
+nM9EnX/EK/pB6xzYSAuOhaWe87StujEzeqGmQDiNb683rv7FhvD+QZ1ScdG/DvRh
+hfvGbgH1JBiII8xZORPv884jPnFZ3d9NYZoCJgCCXywKhKyk0Q+0J+BVQgoIu+5L
+XU5aa0xZ3VLVMO0NQONhcsMRS/LiCV0g2Gs3FOkYzUoSsvPuhJLsnsn/fwHopmwS
+L2e/sBT8O7b3t0Wzr7JQMFkhAOHBTyEc/wkFv3xkUr3HtS42w+p/NRPmCuGFYVG3
+cdPqRFOkb2nDkiiwQr8285AKADd3dQu2Pb6PovQOkFnp3ynFhetJTfeTah38IzsT
+rIFaK+SJviBBpdQa2k8pW/b45Zwp24OLYx7G6jYrABayfG+t+lRG/+Mv8SaglV5Y
+1MvgEF1KFVMefJwFfqlskIiVJzioAc9i0JbHjeAffHU+chvYujObMYqOkcex0k6r
+uuB0KZCYhxpC+ide6pHuEdbZU2DRG8DmK17VV686niLfmHOfMBj9x0jDNGYWFocL
+nr74qOPI9TqZBnjJiacy9VK8
+=HdT2
 -----END PGP SIGNATURE-----
 
---===============6144455116227726691==
+--===============9066712471953702175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-a13c140cc289.txt
+Content-Disposition: attachment; filename=revlist-3585cfd45637-a13c140cc289.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -186,20 +186,6 @@ ed576f2f4eef8cbe2c110da503825a8dc4717030 hwmon: (max6697) add missing 'select RE
 553f9517813912a5ab661af5504485d96824a61c hwmon: adm1275: Prevent reading uninitialized stack
 72a69101032d2932ba5bde38494a325cc6b5d614 hwmon: adm1275: Detect coefficient overflow
 9b51a6155d14389876916726430da30eabb1d4ed bpf,fork: wipe ->bpf_storage before bailouts that access it
-6697091b386a4e2830bdd38512c87a4befff2b32 iio: adc: ad7380: select REGMAP
-adf4bc07f814da8329278d32600147f5a150938c iio: adc: ti-ads1119: fix PM reference leak in buffer preenable
-e74c0d0eef7e1fa9fd387b81b2787b4581e0b11c iio: dac: mcp47feb02: Fix passing uninitialized vref1_uV for no Vref1 case
-ce0e1cae26096fe959a0da5563a6d6d5a801d5fb iio: accel: bmc150: clamp the device-reported FIFO frame count
-44a5fd874bb6873bdaec59f722c1d57832fbc9df iio: accel: kxsd9: fix runtime PM imbalance on write_raw() error
-fbe67ff37a6fd855a6c097f84f3738bd13d0a898 iio: pressure: mpl115: fix runtime PM leak on read error
-38b72267b7e22768a1f26d9935de4e1752a1dc85 iio: light: gp2ap002: fix runtime PM leak on read error
-e561b35633f450ee607e87a6401d97f156a0cd54 iio: adc: lpc32xx: Initialize completion before requesting IRQ
-3ee2128b6f0eb0be7b6cb8f6e0f1f113a65201a0 iio: adc: spear: Initialize completion before requesting IRQ
-f784fcea450617055d2d12eec5b2f6e0e38bf878 HID: sensor-hub: Add sensor_hub_input_attr_read_values() for multi-byte reads
-3ce8d099e0afc5a7da75a2007a67f67c4f5a4af1 iio: hid-sensor-rotation: Fix stale or zero output when reading raw values
-6e1b9bff1202da55c464e36bd34a2b6863d7fe30 iio: imu: adis: add IRQF_NO_THREAD to non-FIFO trigger IRQ
-cd5a6a5096b246e10600da3ac47a1274ce9573c8 iio: imu: bmi160: add IRQF_NO_THREAD to data-ready trigger IRQ
-55052184ac9011db2ea983e54d6c21f0b1079a12 iio: common: st_sensors: honour channel endianness in read_axis_data
 9ef7dacd44216bf5ea05c8aef49eba4d145f4047 hwmon: (pmbus) Fix passing events to regulator core
 fe87b8dc67f1b2c64e76a66e78468c533d3c44ca hwmon: (aspeed-g6-pwm-tach) Guard fan RPM calculation against divide-by-zero
 62b68b774f06bf52e329f254f0199bc43d350ccf eth: fbnic: don't cache shinfo across skb realloc
@@ -285,9 +271,6 @@ dec4d8118c179b3d12bca7e609054c6011c4f2ce bootconfig: fix NULL-pointer arithmetic
 5d6dc22d62682d93f5f55f145ad792f2891de911 cxgb4: Fix decode strings dump for T6 adapters
 2f7f2e311106cb838d3f3fb6ef25effdb3f8e366 selftests: drv-net: tso: don't touch dangerous feature bits
 bc7b086a45521a986a49045907f017e3e46c763e riscv: probes: save original sp in rethook trampoline
-a2d30022b7c316ad845d1b696e724058b88e5a4e iio: light: al3000a: add missing REGMAP_I2C to Kconfig
-84486e3bbda18a2df1ed74ca78e1e14bde9a941b iio: light: al3010: add missing REGMAP_I2C to Kconfig
-9efcc9ba9b2e940cc01e63d132ae741e4c5d09c7 iio: light: al3320a: add missing REGMAP_I2C to Kconfig
 adc49c7ba690c9b33b8392ec27397456b65d0893 net/sched: act_bpf: use rcu_dereference_bh() to read the filter
 d4d56b00c7df88cd5751e7415bdfabc9fdbc82a7 ksmbd: fix sd_ndr.data memory leak in ksmbd_vfs_set_sd_xattr
 d708a36634bb7b6f94d0e76d587d2ec50b2b93b5 ksmbd: Fix acl.sd_buf memory leak and invalid sd_size error handling
@@ -470,8 +453,6 @@ bf93bd42068b0b1dad84eb9375b8337bc05ef55d ASoC: codecs: tas675x: misc bugfixes an
 e23fafb8594ea886ee03e005cc32dfda24f417cf drm/xe/rtp: Add struct types for RTP tables
 fc16126cc11d9f507130bf84ab137ee0938c900e x86,fs/resctrl: Prevent out-of-bounds access while offlining CPU when SNC enabled
 44c74d27d1b9aaa99fa8a83640c1223575262b80 selinux: check connect-related permissions on TCP Fast Open
-63a76e3a587c4143e8e24e8a6b0c232fa0676034 iio: temperature: Build mlx90635 with CONFIG_MLX90635
-7dc4de2aa6316f1d044cde21f5acfec5f3ec6b47 iio: adc: ti-ads124s08: Return reset GPIO lookup errors
 ec3304ddfd99adf531244be3a35c77b52583d5d3 accel/amdxdna: Fix use-after-free in debug BO command handling
 56acfeb10019e200ab6787d01f8d7cbe0f01526f selinux: avoid sk_socket dereference in selinux_sctp_bind_connect()
 4a50a141f05a8d1737661b19ee22ff8455b94409 Merge tag 'bootconfig-fixes-v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -537,8 +518,6 @@ c16b8c4cfb4fe2244cc33e469a93c1ab8684146b cifs: Fix missing credit release on fai
 db78c0db411b111b438f00a1ba418e995b5bd246 Merge tag 'mfd-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 a9d4dd742466cab468a950441447c614a3920aad Merge tag 'hwmon-for-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 87320be9f0d24fce67631b7eef919f0b79c3e45c Merge tag 'net-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f107c62bfc057b82758c233391ee0842f02a0582 iio: adc: ad4130: add missing `select IIO_TRIGGERED_BUFFER` to Kconfig
-fd354554af1d2b33232ca6c8a3d79ed82413d715 iio: adc: ad7779: add missing 'select IIO_TRIGGERED_BUFFER' to Kconfig
 63bbf9ac5dde2ba85e7b39d0a0b7d540e6252ba4 accel/amdxdna: Fix use-after-free in amdxdna_gem_dmabuf_mmap()
 83245e7a436c04e511378af14dd81fd188b41541 ASoC: rsnd: src: Add missing scu_supply clock to suspend/resume
 fdb3be00ba4dafa313e699d6b5b90d13f22f3f25 batman-adv: fix VLAN priority offset
@@ -583,14 +562,6 @@ d2c9a99135da931377240942d44f3dea104cedb8 Merge tag 'device-id-rework' of git://g
 d335dcc6f521571d57117b8deeebc940836e5450 gue: validate REMCSUM private option length
 07acd41f72eec827963b239565925af2bcb3a54b Merge tag 'usb-serial-7.2-rc2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 5c6ce05e406520290c1d89da97fb3cd70c09137d netfs: Fix barriering when walking subrequest list
-77bfebf110773f5a0d6b5ff8110896adb2c9c335 rust_binder: fix BINDER_GET_EXTENDED_ERROR
-b34826e55aad3520ec813f1f367c11b24b29dc9f binder: cache secctx size before release zeroes it
-eb1645bf10190e71f6f0316e37ff70755d719b53 rust_binder: synchronize Rust Binder stats with freeze commands
-114a116aaa5f0295376cdf12da743c5bce3b20ce binder: fix UAF in binder_thread_release()
-f223d27a546c1e1f48d38fd67760e78f068fe8c4 binder: fix UAF in binder_free_transaction()
-803c8a9502e9b97cd6ae937618ef4a8fd6274343 rust_binder: use a u64 stride when cleaning up the offsets array
-6849cabfd30fb5727cfd31e8241e15801e17ebf9 rust_binder: reject context manager self-transaction
-bc4a9828897871ff3e5a1f8a1d346decbf4ee95e rust_binder: clear freeze listener on node removal
 77e43bcb7ec177e293a5c3f1b91a2c5aebfb6c68 netfilter: nf_nat_sip: reload possible stale data pointer
 64cdf7d30ac18e43df6c48004435febb965809a8 netfilter: xt_u32: reject invalid shift counts
 444853cd438201007da5359821adcc2995655ab1 netfilter: xt_rateest: fix u64 truncation in xt_rateest_mt()
@@ -618,7 +589,6 @@ d4b85f9a668b9c44216bb78daf4ec1a915cc92d1 net/mlx5: LAG, MPESW, Fix missing compl
 5a799714e8ca0bce9ea40694f49914cf1adbbaa9 net/mlx5e: Fix publication race for priv->channel_stats[]
 d6456743424721a837e1509b912f362caaeecd97 Merge branch 'net-mlx5e-fix-crashes-in-dynamic-per-channel-stats-and-hv-vhca-agent'
 973772c7cf647cf4da6badd86c484f9b350eea18 Merge branch 'acpi-tad'
-aede83625ff5d9539508582036df30c809d51058 iio: imu: st_lsm6dsx: deselect shub page before reading whoami
 6cf48bfec934834ade6e0f5745f9afdbddbe446d Merge tag 'v7.2-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 590cae7152cab2dd954b8db20522769e1c62deec Merge tag 'riscv-for-linus-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 e6174e9b38e766cdfcfed41ffd8be35c504a9963 Merge tag 'acpi-7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -626,10 +596,6 @@ dac0b8c58757eba9deb0fdd32d37a85bbb06006d Merge tag 'drm-fixes-2026-07-04' of htt
 1e9cdc2ea15adf4a821eefedabf6c0c8cf0b6a55 Merge tag 'v7.2-rc1-smb3-server-fixes' of git://git.samba.org/ksmbd
 410430b616a739eb395143f4f608d4339a3b0a8f Merge tag 'mips-fixes_7.2_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 7404ce51637231382873d0b55edabc2f3b841a9d Merge tag 's390-7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-affe3f077d7a4eeb25937f5323ff059a54b4712c iio: imu: inv_icm42600: fix timestamping by limiting FIFO reading
-a00ffd15674bfaf8b906503c1600e3d8709af56c iio: light: tsl2591: return actual error from probe IRQ failure
-a9f41809bf1bd8e5c1bc4b6a1052adac58eb7ab6 iio: adc: nxp-sar-adc: Fix the delay calculation in nxp_sar_adc_wait_for()
-aa411adc6ce40ad1a55ebc965f255a4cfc0005f8 iio: light: al3010: fix incorrect scale for the highest gain range
 660667cd406648bbaffbd5c0d897c2263a852f11 llc: fix SAP refcount leak in llc_ui_autobind()
 d7a8d500d7e42837bd8dce40cb52c97c6e8706a9 net: microchip: vcap: fix races on the shared Super VCAP block
 920f893f735e92ba3a1cd9256899a186b161928d posix-cpu-timers: Prevent UAF caused by non-leader exec() race
@@ -701,7 +667,6 @@ fd076d8deeab6f9f18ef13400f89e1f550df665b Bluetooth: ISO: exclude RFU bits from I
 dd068ef044128db655f48323a4acfd5907e04903 Bluetooth: bpa10x: avoid OOB read of revision string in bpa10x_setup()
 6e1930ece855a4c256f1c7e6632d634cfb9888b5 Bluetooth: L2CAP: fix tx ident leak for commands without a response
 3d04d9f390eeaab4d9e1ed4e9737e3d83581e18b Revert "drm/i915/psr: Allow SCL=0 on platforms with always-on VRR TG"
-8b0b864c11a2e2ada470f9d5010e1c2bf1eceef2 iio: imu: inv_icm42600: fix timestamp clock period by using lower value
 15d9968b68e848a1a38ca875ba553b05dadae03d tracing/synthetic: Free pending field on error path
 c37e0a4b79a6bbb96ce5ffe279d7c001e20529e0 ring-buffer: Fix event length with forced 8-byte alignment
 fe58f457ad8d0a2bef4e053cfecca4b5cd266b1a tracing/osnoise: Call synchronize_rcu() when unregistering
@@ -820,7 +785,6 @@ bae7ce7bafb59e42dc0e0e2999fdd9d1cffe3866 ipvs: pass parsed transport offset to s
 2f75c0faa3361b28e36cc0512b3299e163e25789 ipvs: use parsed transport offset in SCTP state lookup
 3f7a535ff0fa627a0132803e4c2f903ceffcbc1c ipvs: ensure inner headers in ICMP errors are in headroom
 abf76d3239dee97b66e7241ad04811f1ce562e28 USB: chaoskey: Fix slab-use-after-free in chaoskey_release()
-af791d295737ea6b6ff2c8d8488462a49c14af01 iio: event: Fix event FIFO reset race
 b7577fe4c47a31ca7c99714c53244a44af03cdfe s390/diag: Add missing array_index_nospec() call to memtop_get_page_count()
 ec84aad4c3594307d103af563991b4415ac5c8ab s390/mm: Fix type mismatch in get_align_mask().
 575f87b9d4882b0d621192fdd754d7e09dbd5789 s390/zcrypt: Remove the empty file
@@ -868,7 +832,6 @@ dde3929e8d901ae9a7c29d0577ce9ca5cb4db35d cifs: Fix support for creating SFU sock
 608362facd2d0f2667f68b7f42207707d59a0071 cifs: Fix support for creating SFU fifo
 75f5c412fa867efa0bf9b646bffe0d912109e84a smb: client: fix busy dentry warning on unmount after DIO
 d38f8bd771c4999b797d7074b348cf201414bd34 regulator: core: regulator_lock_two() should test for EDEADLK not EDEADLOCK
-3585cfd4563731a8ae406b32807613c667c2b887 Merge tag 'iio-fixes-for-7.2a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 06c2b8d7ea2bcb014dd974fc3bc6d128d65d7477 drm/fb-helper: Only consider active CRTCs for vblank sync
 f4ef35efbb49527293309f668ea73ec5de9b8e7a selftests/net: fix EVP_MD_CTX leak in tcp_mmap
 2e2a83b4998af4384e677d3b2ac08565274279bf net: mana: Validate the packet length reported by the NIC
@@ -966,4 +929,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============6144455116227726691==--
+--===============9066712471953702175==--
