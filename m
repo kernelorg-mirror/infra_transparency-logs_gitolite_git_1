@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 13 Jul 2026 10:39:34 -0000
-Message-Id: <178393917492.3174826.16701130394895274828@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 10:42:58 -0000
+Message-Id: <178393937827.3177779.4017162802478705663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/tags/ffa-fixes-7.2
-    old: c242aea5717e1d248ca57952313a558f6f999a07
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/scmi-ffa-fixes-7.2
+    old: 0000000000000000000000000000000000000000
+    new: f4394bcc30b2d471401f7cbaabfd325154e36274
