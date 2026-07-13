@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 13 Jul 2026 20:45:26 -0000
-Message-Id: <178397552602.3612550.12993504342264473298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 13 Jul 2026 20:47:42 -0000
+Message-Id: <178397566250.3613539.13281864985118603693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/pending
-    old: ee5643064ceb158d3bc62dc1e4874640968f1615
-    new: 5cbb7262f15ca255c70fddcbb63bdd31175f37c3
+  - ref: refs/heads/tmp.perf-tools-next
+    old: ef3af1df4f3372bd8ad47619452a283048b3bc8d
+    new: ad40a000ea598f316ddc0e81e5acc77cc3b1fae0
     log: |
-         5cbb7262f15ca255c70fddcbb63bdd31175f37c3 wifi: ath12k: Set IEEE80211_OFFLOAD_ENCAP_4ADDR after tx_encap_type vdev param
+         e83fd0f637c46d4abb0b0cb9d057268a018122b0 perf build: Do not pass -static to dlfilters
+         757155c142f2bc9793e888ab101a5eea2d53f8f8 perf record: Return the written size from process_comp_header()
+         ad40a000ea598f316ddc0e81e5acc77cc3b1fae0 perf record: Fix multiple PERF_RECORD_COMPRESSED2 records per push
          
