@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5859607746468874794=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 13 Jul 2026 05:01:21 -0000
-Message-Id: <178391888151.2834916.17510312651263455604@gitolite.kernel.org>
-
---===============5859607746468874794==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 13 Jul 2026 05:03:31 -0000
+Message-Id: <178391901103.2835921.5899537937174355681@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-
---===============5859607746468874794==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783918877 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1783918880-f6d3477a2a46de7cc16d8be344f838f3df827fb2
-
-0000000000000000000000000000000000000000 1137d8b5df06137fb49513cc923b3b24d94cb809 refs/tags/v7.2-rc3
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUcR0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EXYP/j4FKxKGTbvcU1pgsf/c
-j2PDpGT+LoswHLp6l4s1su7pF/iByktuPP3+PcsJ3MNwiN9dMjnav29AwGeabSuB
-4FAskAefaucEKPpy7HowRBtyUL4A5DLZekrh4S3GqVrflcdvLIzZfRYJPX9JyPVg
-O3G9218XVFtMf42dZ5i83qtUI5l2Omua4Qe85YPMYxjYDBXOszUw0wMnnmnTRM/c
-o6MCMXx70NpqxipWb6dkVr6jWONEzXwrEgNOIOkvp5WLASMLp8HnN3EPcCIYvu0n
-SCLmT4U0N17Y4orhxQyl13hSLQknjTQEhCdTriCf2MVpy3DamMdOHNpWS1L/nLIT
-SpdKzFkmNjrdrAVvNk4R5S6c37ZApLSjYMt5G4OjclaXN4csn2iJ0wx54TSQG0MM
-aDjaHrmtnaxlf5GQCmOmgsbpr2zQICI6mUURs6HUvcGzAa9OI7UBKQK/IzDSvrQT
-EtqvgukqvaHipBbwQLJUCgw7T5NphLoVMLLscjmYcHKZggLXgYyWgwsbD/eVwATv
-S8xS0oZVMcCU4SSXxI1IleU5tvuVCsFucdJ8Ccbm1iJdUafjKJB7oycn1AC/cWmC
-Ny+y7yqpoKsIpSKP7S1rgYeREduLc6U9pjf2jLsqVtdTiG4eBqqPuD+LOztMkg8M
-kHeSHdnEizjS14EJO7eYEjRm
-=AwKE
------END PGP SIGNATURE-----
-
---===============5859607746468874794==--
+  - ref: refs/heads/for-7.3
+    old: e64e6b5dc86758c14ed28a6e85bf5d1b78146ed5
+    new: ed9a8c6a2b3c89aeff5323fef196bb0c85c06423
+    log: |
+         7c8b3f6578bb874ba9d334aef0e51fe931ce6c04 scsi: scsi_debug: move ASC and ASCQ definitions to scsi_proto.h
+         23bb9dc6a074db395c461dc927fdbe38be093a45 scsi: define depopulation capabilities related service actions
+         a4e3d68e96b0c8ab99af388050507874dd5f740c ata: libata: improve the definition of device flags
+         bcc593ea876d4420ac957126a361466004355b81 ata: libata-scsi: improve ata_get_xlat_func
+         d67f67e5ade4aa3b6392975899a5f1efc28da8f1 ata: libata-core: detect support for depopulation capabilities
+         fe564c11d3e2f187d590dc898d323e94ddec3ddc ata: libata-scsi: add support for the GET PHYSICAL ELEMENT STATUS command
+         e9c2af5d5a33b406e5572ff572669e7327029e39 ata: libata-scsi: add support for the REMOVE ELEMENT AND TRUNCATE command
+         4f4d33d47c71370dfd448e3af1a5158e7b28d796 ata: libata-scsi: add support for the RESTORE ELEMENTS AND REBUILD command
+         ed9a8c6a2b3c89aeff5323fef196bb0c85c06423 ata: libata-scsi: add support for the REMOVE ELEMENT AND MODIFY ZONES command
+         
