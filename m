@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 13 Jul 2026 14:06:09 -0000
-Message-Id: <178395156929.3331144.794740119656566596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 13 Jul 2026 14:10:47 -0000
+Message-Id: <178395184757.3334550.10677707869857885974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/probes/for-next
-    old: 25db5971dc746100c1c4bd062d341e8484fc03df
-    new: 39656c68e9b6d0c78945c5a1f6fbb0c58c574f07
+  - ref: refs/heads/asoc-7.2
+    old: 3238c634725afbb2a137fdda762208510828f71d
+    new: d091132889c1378dd0944a72f86eae3e4da1e4fa
     log: |
-         39656c68e9b6d0c78945c5a1f6fbb0c58c574f07 tracing: fprobe: Remove __packed from generic __fprobe_header
+         d091132889c1378dd0944a72f86eae3e4da1e4fa ASoC: fsl_sai: Fix spurious BCLK on resume by clearing BYP
          
