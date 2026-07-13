@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 13 Jul 2026 15:06:45 -0000
-Message-Id: <178395520581.3374530.3362435291602788940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 13 Jul 2026 15:07:04 -0000
+Message-Id: <178395522459.3374915.804518719568874874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: d9a4c7ac3528150f75b3886e1659f691a9f43512
-    new: 75f2da3bc818daad53a6e2722a4700987942d9dd
+  - ref: refs/heads/for-linus
+    old: d35dfb6329accfe1cfa0b57e35214b5cbbe0f9ae
+    new: 5caf27a2bf7f86f92f03e851d252901b64ed498c
     log: |
-         d0ada7b78e74becf8e7fe6fae8392f1731b52896 arm64: dts: qcom: kaanapali-mtp: Add PMIC Glink node
-         987ba6986860a07a45e8d79436866b4aa92be8ec arm64: dts: qcom: kaanapali-qrd: Add PMIC Glink node
-         1aa4513d4ba4f6f3d6e87a6e9bcb30139beb8a22 arm64: dts: qcom: kaanapali: Switch SCMI perf protocol to use power-domain-cells
-         75f2da3bc818daad53a6e2722a4700987942d9dd Merge branches 'arm32-for-7.3', 'arm64-defconfig-for-7.3', 'arm64-fixes-for-7.2', 'arm64-for-7.3', 'clk-fixes-for-7.2', 'clk-for-7.3' and 'drivers-for-7.3' into for-next
+         f52524da7084c1a54683ae9fbc73e93fff19dd64 ALSA: hda: conexant: Remove mic bias threshold override
+         5caf27a2bf7f86f92f03e851d252901b64ed498c ALSA: usb-audio: Add delay quirk for iBasso DC-Elite
+         
+  - ref: refs/heads/master
+    old: 1e95515d63b9e5e36d4f93f66381d13e651cc035
+    new: 0336e5b7c49e87942753b507519186c0413b8c66
+    log: |
+         f52524da7084c1a54683ae9fbc73e93fff19dd64 ALSA: hda: conexant: Remove mic bias threshold override
+         5caf27a2bf7f86f92f03e851d252901b64ed498c ALSA: usb-audio: Add delay quirk for iBasso DC-Elite
+         0336e5b7c49e87942753b507519186c0413b8c66 Merge branch 'for-linus'
          
