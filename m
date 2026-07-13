@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 13 Jul 2026 21:27:42 -0000
-Message-Id: <178397806269.3642279.7708487453114443210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 13 Jul 2026 21:28:43 -0000
+Message-Id: <178397812377.3643053.17824306025700611472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
+  - ref: refs/heads/pending
+    old: 5dc93a6f41d6f9d3baf2426c9fa46937f2ffa43c
+    new: 32f5b1d7e4a80081fdb4784c8454d01a2c99c978
+    log: |
+         32f5b1d7e4a80081fdb4784c8454d01a2c99c978 wifi: ath11k: validate regulatory capability phy_id
+         
