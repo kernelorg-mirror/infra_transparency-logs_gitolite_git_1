@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Mon, 13 Jul 2026 21:22:47 -0000
-Message-Id: <178397776722.3638466.499681640096038348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 13 Jul 2026 21:27:02 -0000
+Message-Id: <178397802292.3641843.7412124766431332563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/agilex5_edac_v1
+  - ref: refs/tags/dd-lifetimes-7.3-rc1
     old: 0000000000000000000000000000000000000000
-    new: 192f093fafc2959770f32f17da523cedfc2b14ae
+    new: d0bbdbe89ba25be5d503e68665c77c49f0342d2e
