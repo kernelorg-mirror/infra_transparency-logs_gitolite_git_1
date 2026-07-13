@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9102763342025608334=="
+Content-Type: multipart/mixed; boundary="===============5280695619174213559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 13 Jul 2026 05:07:47 -0000
-Message-Id: <178391926796.2895569.14517539194584867963@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 05:07:50 -0000
+Message-Id: <178391927099.2895679.1581693497615806023@gitolite.kernel.org>
 
---===============9102763342025608334==
+--===============5280695619174213559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+  - ref: refs/heads/staging-linus
+    old: 1463ca3ec6601cbb097d8d87dbf5dcf1cb86a344
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    log: revlist-8cdeaa50eae8-a13c140cc289.txt
+    log: revlist-1463ca3ec660-a13c140cc289.txt
 
---===============9102763342025608334==
+--===============5280695619174213559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783919264 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783919267 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1783919266-7e72ea076743fb5b9d7f2fa1ca2e0f6261a08743
+nonce 1783919269-271b71478d3b3488c510befc21879df3284fb3e5
 
-8cdeaa50eae8dad34885515f62559ee83e7e8dda a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/main
+1463ca3ec6601cbb097d8d87dbf5dcf1cb86a344 a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUcqAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bdkP/jsJfp2jbAVuzYoLqFO3
-YkpXlXkxcdRJyPunrreLSidgRv2B/K1T7dacxVQZg3byChqEJ7jJEUQ/quqfAZi4
-sgXv5TONueAChBZ7iuU05j6y8k5l1UPdn3CW2jQMTUUAkpmVWPTIJ7bEegNQcty3
-UxBu6jx4Z6uevCD39Tf9WAifIDebCB0SHvS7acjtrjCaCFdXQHVgN4Aa6y6Be28P
-ms24tvPuU8Z71r8w5xvkQbGYNeXSfLytqhTvSufTe8C8gSYC9L4q5j2Hp1uLsmu9
-KXbtBsV69bDvh3REEoyoWvyH8jsx3sn1brUbB8Do+eOOZya/yl0xGniB8Z+Udstk
-cH1NL0W7Kt+ZnxAAB17vWu2kPEym/ekoHr0NNv1CCY1opMjOiMQE+VcgtyH5hDjF
-tGhldp1BiKkTLi0qNX03T9BUWq48bXkaEoqUNM8OTkCwq6fv0sahf2hvpnxVigEv
-xgEoh8vYMVNwpCikEB58CYNNg+agYCyhkwrDsOxT9eHv8Qexk903ZbnIvheh6xni
-FlS61koxguY3AWteUgkRAPleAAoH8DUhlO1JBEtPZ4be6QjR0H7H/dnyoWaCvIha
-CEzygF6yQkj6URptrdg8NBKHU9Pf/juy9EpDcbLxx4Wn4uZPEppfQ/3enUH1IsyF
-z++CvofTJIL5kYhwCb2KQE/S
-=Qs5p
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUcqMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fysP/3Z6tbg2FYoCh1AdcMIp
+Vs51VFS7HVVsBq1mBfm3owB7zgq+VtsyuErQh6GnRCUeFV9mfhPXlER1EygnEVCD
+gtkRc889kNZOtQ4LSsg3jqMLrN4C4L25LTL1ydiWYL7re9Ukm7Cy8eKHCX7QmqsN
+eutW3NS2WSU60oI7Q0Z3u8gSdUr3udXBulcdgB4pAsxfsUWWIB5o9fwoH6YYbf9O
+DNiEwcT8iOWlhhxquLYH0aT0qaG6hvVx/qCUENuZN6aY7bnvHZm5SWzu/UHueagS
+XVE0eVyEo0erTBZjjuTe/3GJGbzUyP1a2VrFT4KJES18GpZ1a2/6md2s0uP1TNqw
+2y5pQFlV0jun32gfmYT/HcONUx9YYpWYUIOjLKeIEYXFvlUhqgdwbAYOK1GtgzGa
+OFc/JZ7logLUJEK3+hRdsLO5O2K2UHmazAY0LgiVOO9L2GtGLp+0B4PkX7I6CPjY
+jeQ3T9FnkISP5jb5LHhb2uHhC2tMc8phAXYYHJjwJH0laNrTqKMkkpsvUkShEnz5
+yaq4mwCr0oHd2PW+rmvRa34+YgHVozrO2b+E3BhOhHMcSBLOKu0pIZiOWbkGu2OJ
+5FvDsBNW1ZfB2dHrAUnW6xNOOvaEnnw2SZYDym2yrp2rhCpG6plBIQPEV7kmXRgi
+sFAguGWmI1648Ke0oZbeuTGU
+=q6kj
 -----END PGP SIGNATURE-----
 
---===============9102763342025608334==
+--===============5280695619174213559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cdeaa50eae8-a13c140cc289.txt
+Content-Disposition: attachment; filename=revlist-1463ca3ec660-a13c140cc289.txt
 
 31620fc1c81078746c4794e0eb6de539ab37e695 xhci: dbc: support runtime suspend while DbC is in enabled state
 6eba58568f6cc3ff8515a00b05e258d8cfb72b72 usb: cdc_acm: Add quirk for Uniden BC125AT scanner
@@ -288,18 +288,6 @@ d9d6d67f4c0877fde783c9d5beee013bcf1b1e85 net: rnpgbe: fix mailbox endianness and
 5c0e3ba4f500fd4314ceb42f07f16bc445156431 net/liquidio: drop cached VF pci_dev LUT
 7993211bde166471dffac074dc965489f86531f8 ipv4: igmp: remove multicast group from hash table on device destruction
 60444706aa17616efc03190d099ac347e28b3d0a net: usb: lan78xx: disable VLAN filter in promiscuous mode
-252f8c681adc8614b70f844ba3de3a138c33a783 staging: rtl8723bs: don't drop short TX frames in _rtw_pktfile_read()
-9f32f38265014fac7f5dc9490fb01a638ce6e121 staging: vme_user: bound slave read/write to the kern_buf size
-e8422d89e8af41d87f0e9db564be8e2634f4c602 staging: vme_user: fix location monitor leak in fake bridge
-151edde741f8bc7f2931c5f44ab376d32b0c8beb staging: vme_user: fix location monitor leak in tsi148 bridge
-a1fc19d61f661d47204f095b593de507884849f7 staging: rtl8723bs: fix WEP length underflow and OOB read in OnAuth()
-ed51de4a86e173c3b0ef78e039c2e49e08b11f16 staging: rtl8723bs: fix OOB read in update_beacon_info() IE loop
-ef61d628dfad38fead1fd2e08979ae9126d011d5 staging: rtl8723bs: fix OOB reads in IE loops in issue_assocreq() and join_cmd_hdl()
-5a752a616e756844388a1a45404db9fc29fec655 staging: rtl8723bs: fix heap buffer overflow in rtw_cfg80211_set_wpa_ie()
-f8001e1a516ba3b495728c65b61f799cbfad6bd0 staging: rtl8723bs: fix OOB write in HT_caps_handler()
-f9654207e92283e0acac5d64fe5f8835383b5a23 staging: rtl8723bs: fix OOB read in OnAssocRsp() IE loop
-3bf39f711ff27c64be8680a8938bcc5001982e81 staging: rtl8723bs: fix OOB reads in is_ap_in_tkip() IE loop
-1463ca3ec6601cbb097d8d87dbf5dcf1cb86a344 staging: rtl8723bs: fix OOB reads in rtw_get_sec_ie(), rtw_get_wapi_ie(), and rtw_get_wps_attr()
 4e28aa8f7ee26d67a4addee6e3980f1cbf861b49 drm/drm_exec: avoid indirect goto
 d775b9451eb8f52021dea6483ad758fef81dbf1e gpio: dwapb: Defer clock gating until noirq
 aaf7766ba3b99a3834319e7cf939838afc705574 gpio: dwapb: Mask interrupts at hardware initialization
@@ -533,4 +521,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============9102763342025608334==--
+--===============5280695619174213559==--
