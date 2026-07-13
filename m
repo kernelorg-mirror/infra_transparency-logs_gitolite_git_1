@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 13 Jul 2026 20:32:33 -0000
-Message-Id: <178397475350.3602510.6972755739174460173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Jul 2026 20:33:09 -0000
+Message-Id: <178397478922.3602900.3042660437838011957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/trace-tools-v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0fbdab167d0c8809199aadda94ce38ac1e38385a
+  - ref: refs/heads/master
+    old: b8dc50e8f29931e6a06b67c2c3a39dbb4b7ff5f2
+    new: e7a70137970e323bfd2f4742a80f3dacf1cc7e1b
+    log: |
+         e7a70137970e323bfd2f4742a80f3dacf1cc7e1b Fixes for all trees
+         
