@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0054360495964191431=="
+Content-Type: multipart/mixed; boundary="===============1858079508154483395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 13 Jul 2026 22:38:51 -0000
-Message-Id: <178398233153.3693086.6494519069562396624@gitolite.kernel.org>
+Date: Mon, 13 Jul 2026 22:39:23 -0000
+Message-Id: <178398236303.3693511.8532766844185220038@gitolite.kernel.org>
 
---===============0054360495964191431==
+--===============1858079508154483395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: a56a92be1fa9c6e747fc754c90734ed90cd36670
     new: b07fc8d60bd30caaba4d293929459780166da194
     log: revlist-a56a92be1fa9-b07fc8d60bd3.txt
 
---===============0054360495964191431==
+--===============1858079508154483395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ e7219e53c525db87b43f4a9064d0e6331d7dc710 rust: io: add copying methods
 11a4784f902ebf3e674dbaf07dbec9a37aabb5e4 rust: io: implement `IoSysMap`
 b07fc8d60bd30caaba4d293929459780166da194 Merge patch series "rust: I/O type generalization and projection"
 
---===============0054360495964191431==--
+--===============1858079508154483395==--
