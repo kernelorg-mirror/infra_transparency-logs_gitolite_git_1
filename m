@@ -1,51 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6662536794893577316=="
+Content-Type: multipart/mixed; boundary="===============4859025926396041455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 13 Jul 2026 13:54:01 -0000
-Message-Id: <178395084120.3320811.1022035034384689700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 13 Jul 2026 13:57:43 -0000
+Message-Id: <178395106346.3323896.3432486351820657275@gitolite.kernel.org>
 
---===============6662536794893577316==
+--===============4859025926396041455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: efa6a5b7bbb1bbdf304afc4a21da8ebacc2f758a
-    new: 56aa9b819edce4acfa879728af56534c951d1818
+  - ref: refs/heads/master
+    old: 2aa805439254cfa0765ab3def58e411d0622013b
+    new: b0305cf3b12f87ad206b5151e5fc5245f2b821e0
     log: |
-         56aa9b819edce4acfa879728af56534c951d1818 mm/slub: add comment explaining intentional kobject handling in sysfs_slab_add
+         3eef23320f1ede27e9bc6d001f1f7d2c577b05ad 5.10-stable patches
+         1ca57e1cefe8e52b637f75df7417ebd1fa9bfc7a 5.15-stable patches
+         cc636aa26f8613d0d38d0761baa6909f7347098a 6.1-stable patches
+         12f345f309613a4c461581ac07593fda5cde3e48 6.6-stable patches
+         8e575958cd9afeac305994bf9e3cf001c30220b1 6.12-stable patches
+         53f395c31b5569d7fe7fe8b69814b2c7a2b1db9f 6.18-stable patches
+         b0305cf3b12f87ad206b5151e5fc5245f2b821e0 7.1-stable patches
          
 
---===============6662536794893577316==
+--===============4859025926396041455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1783950837 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1783950837-e6ff319ccee04808fc25731e146b5a39e527a835
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783951059 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1783951061-abc88bcca48206995db8143f9348a02ea2ca2c50
 
-efa6a5b7bbb1bbdf304afc4a21da8ebacc2f758a 56aa9b819edce4acfa879728af56534c951d1818 refs/heads/slab/for-next
+2aa805439254cfa0765ab3def58e411d0622013b b0305cf3b12f87ad206b5151e5fc5245f2b821e0 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpU7fUbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaoe4H/jFB1ZITSu8iMvyoV9dr
-vuoaj1yECk2X5TxHxsCXG3vxflBYk53Yf6nJToqHIAbRq2tuBbBMRPES+ek+a8lV
-4w8Z3QUtoAbyDGXjbrbxsL5qxZPTDheSakUwbjuPR5Kml35GP6Vg2Qj9USdYGKKE
-BARa2eqnJq+qFSP6XmgzvlGWa2NBIeCOmagmJGYDnxsNfnUNBKv/q8U4AO2Ywhh0
-2DgEfvkhjqQRM6+SHd7XNcs9pFk5Vv3/9qdCONq6cQQBqnbVASiX7LH0W1DYzGGX
-1ox4j9J6wYN34eAKPs9NH/jLCDfOU0AP+iE5kRzDf1/oTSiuI+2Yerk8bghY5ygb
-m+Y=
-=6k9K
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpU7tMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s+AP/2iz4uyIiXu0qLFuQRaE
+pd9LV8LZ9iMaSlyHkEMXyyA41h1+9IBrD9PgNxw1CS4QLdxy6TyclCHUzqZ7vlO2
+W4NT28+2MvEhRii71achi1xiNpX1zeIH7iLWtQVnMgVuKnTvEMIMJv+sa9psvd6G
+Pu4wvp3sGwCt0lYBAK1PVE/xbkWH23SJodF4mgelv4b0ahzvQeLhZ0+owc75Lq68
++JElv386AJ3kVRHVy4EMwmiGzP91CCw1yrBuNeYd7Q1TMudI0G9WwTgBh8UZUK+E
+ALiwirBeoHD840yfMw+RluRH/JHHreFLqaF8RaCTLXb2/abn56X3hVXWUJaJdzE8
+hh9SXgXKrldEotY95cMJHNrCPMGTVJwEpDkQ6in5C5mrK5BKRhZmF3ghbflE8Kh2
+YlAkCdRO6kUeQFc/hgf4jAM8msi8JFV/RGURpiP5QBJD1CiYohC5Vu1feOh9u1hQ
+xzrw75ujzIX5Phgb5TU7LyARUUgg4r+wL21RrlwWIX6UVa+StXdi/zg5nYwmXIvd
+prlsiw9v0vkrLW0ugIFce1DdyNqnwgLczkS9v1veyXuAw7UiF9DhSYV08zs0Zp5i
+lDboRgVsYu1fOCVPgQC+4XFHR7hIOI2LGPEwjx20CsZk0JBjo6+WLGwGZIVxXfD0
+apGuqevPgCYJryWpT005uEUi
+=BpbP
 -----END PGP SIGNATURE-----
 
---===============6662536794893577316==--
+--===============4859025926396041455==--
