@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3956662446304207908=="
+Content-Type: multipart/mixed; boundary="===============6389135929852280188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 13 Jul 2026 05:23:53 -0000
-Message-Id: <178392023307.2911480.5492301303238891708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 13 Jul 2026 05:28:40 -0000
+Message-Id: <178392052036.2915105.8215560548042665504@gitolite.kernel.org>
 
---===============3956662446304207908==
+--===============6389135929852280188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
     log: revlist-8cdeaa50eae8-a13c140cc289.txt
 
---===============3956662446304207908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1783920229 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1783920231-f783b8fcb6bd846e68ac5483cbe8b826d84f4643
-
-8cdeaa50eae8dad34885515f62559ee83e7e8dda a13c140cc289c0b7b3770bce5b3ad42ab35074aa refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpUdmUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7XMP/0sJAEFaqslK/EXxZaIT
-G6soaOgOtXY8Bc+xHlkKBeCpSwkVY+HQFn5gj1dLmJHPwiImCqc2QkOL1a58srxp
-odirlN1ftxyIAaJ1mvT6e14wsXFBvWDppguATkTXr9QJC+53U9PzokO7/YDnOq7G
-AOBJMg7YtmPYKkFE6+YLIjYTmhsbFAQ1xwhjQGZAKdUjT6wz05jjP5hVJ00YCQCz
-NatJdK0DUnEdwqzNkxsI0+5/u8KZ/eKNZH82b4LwTT7kY0nYGOVXYNvRVv9dVyGA
-HhHbtSPizwcA9svcrqKNLIE8OKrKpMDBh4F1yQh0xnJX+pKbUkqKpXxHOLHCJVbK
-B/fsXUiiMUDjMgEdmFZletkBYm4yEA01a/O563i0aMFPIo4+xuFP9EiaslJqf3aw
-WX4hRrbN+4kMhCZks9+AvvPilF4DluYhhCiPEGYdNXs7i+gfg+tr9eQbBkvSCWYj
-CF1l2LcsFsXCOjw8UEwIcvN3EdTEbE+/mxGenyfgItVdhvzE5K2ZZD6+Ljp+/X66
-sOpK+zJHoAu2pMmYDfukRSgLCrQKS2GUMS/D990/m75HDcU6w/nTjk+RHrrr3NxR
-EX3QElGbvMra9L3/vP8tWP2p7nSqi/oyC2a9TV3WA4qzgkIQ4mfBFq8OacwEUO90
-JB/TOus167sRTonHv28BiKed
-=YUmA
------END PGP SIGNATURE-----
-
---===============3956662446304207908==
+--===============6389135929852280188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -533,4 +502,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============3956662446304207908==--
+--===============6389135929852280188==--
