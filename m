@@ -1,44 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============1405197563625070372=="
+Content-Type: multipart/mixed; boundary="===============5766944853567147879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 14 Jul 2026 17:38:38 -0000
-Message-Id: <178405071856.313516.16691105021458247555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 14 Jul 2026 17:44:53 -0000
+Message-Id: <178405109374.317756.16502597164392989783@gitolite.kernel.org>
 
---===============1405197563625070372==
+--===============5766944853567147879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ad40a000ea598f316ddc0e81e5acc77cc3b1fae0
-    new: 220722907c363142f9580e9019e2e45a8f9519f6
-    log: revlist-ad40a000ea59-220722907c36.txt
+  - ref: refs/heads/master
+    old: 9052f4ea06ce354f74154696c5918ee4fc52ea4a
+    new: 1f4e5d7f603e47a2c648b011f2e7a9809ee1acbc
+    log: revlist-9052f4ea06ce-1f4e5d7f603e.txt
 
---===============1405197563625070372==
+--===============5766944853567147879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad40a000ea59-220722907c36.txt
+Content-Disposition: attachment; filename=revlist-9052f4ea06ce-1f4e5d7f603e.txt
 
-148798e148462c9757ec69877b8f5ae162c8d43e perf test: Remove duplicate include of util/term.h
-74cad5a2dfcb4d4797602e4aebcba79e63783a8a perf jevents: Add Intel OMR MSR mappings
-96d6cf59422c9d117fb5e1b5a44b07874c8b2f8e perf vendor events intel: Update alderlake events from 1.39 to 1.40
-9464e6b8d33952537b9891e7db53c9a26a321e66 perf vendor events intel: Update alderlaken events from 1.39 to 1.40
-47e939c80c4f8ce62dba26a20d8e62cb901953c8 perf vendor events intel: Update arrowlake events from 1.19 to 1.20
-5fa53520f3ee92cb7693776d617a32cf84878790 perf vendor events intel: Update clearwaterforest events from 1.02 to 1.04
-756deb7a6e628ad59d00e390a4164743d0f95d30 perf vendor events intel: Update grandridge events from 1.12 to 1.13
-6c8c83337cd1d45dde0dc6da85be95643453d8ac perf vendor events intel: Update graniterapids events from 1.19 to 1.20
-446609fe83dcc6ddbb27a46f5a73d83a502aca33 perf vendor events intel: Update lunarlake events from 1.25 to 1.26
-2f70dec910b8b378900cd45f98d62bd5996a1a5b perf vendor events intel: Update meteorlake events from 1.21 to 1.22
-b36d2ab5d1dbbef9d5689009e42080f3c37bb34c perf vendor events intel: Add novalake v1.00 events
-5345a7946e27d8da945194c309b5f52d09316cdf perf vendor events intel: Update pantherlake events from 1.06 to 1.07
-a2152cb9bccbc760a4e39bc4a6b8b4102f6eb5bc perf vendor events intel: Update sierraforest events from 1.17 to 1.18
-220722907c363142f9580e9019e2e45a8f9519f6 perf vendor events intel: Update emeraldrapids metrics
+cf1afec09e9f004a62c54c471863209ed249fca7 btrfs: validate properties before setting them
+9d78a98796f215d9973e1e53871b2d63420f3608 btrfs: fix transaction abort logic in btrfs_fileattr_set()
+a2d8d5647ed854e38f941741aea45b9eb15a6350 btrfs: reject free space cache with more entries than pages
+ce6050bafb4e33377dc17fcc357736bfc351180c btrfs: fix root leak if its reloc root is unexpected in merge_reloc_roots()
+3dcd50730814e5220072d2b26d0587af6bfb6dbe btrfs: fallback to transaction csum tree on a commit root csum miss
+1cb15b153c636096740519f62040ec6dc3e50aef btrfs: lzo: add error message for invalid headers
+3dc22abc21f5892406c09202fa2627196cc96967 btrfs: tree-checker: validate INODE_REF's namelen
+9e37d187e1e62bd3d450429203f98402cefb3ef2 btrfs: decentralize transaction aborts in create_reloc_root()
+c0041b502e579a5c52e5cae918b90678f03faddd btrfs: print-tree: print header owner as signed
+4a3591287fb7f808e209b4974ed337f609a2006b entry: Fix seccomp bypass after ptrace with TSYNC
+8383e05af734355ba5cdd348991eaa71f6003e71 syscall_user_dispatch: Introduce ARCH_SUPPORTS_SYSCALL_USER_DISPATCH
+ff2b9a905930db22494690d219724822db443d7a entry: Rework syscall_audit_enter()
+8bbaa0524675a8bd21b8aaed7538b6896d83b22c entry: Rework trace_syscall_enter()
+47076976df1709e8b672ed93066057c9d5331d80 entry: Make return type of syscall_trace_enter() bool
+39109e76c19bcce2041fa1884dbbb8b01f6f38d2 entry, treewide: Make syscall_enter_from_user_mode[_work]() indicate syscall execution
+7059bdf4f04a3e14f4fafb3ac35fdca913e3e21a Merge tag 'for-7.2-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+d4650ab4883c6ae91d22dfa4b9f3a0195a82b294 Merge branch 'linus'
+1f4e5d7f603e47a2c648b011f2e7a9809ee1acbc Merge branch into tip/master: 'core/entry'
 
---===============1405197563625070372==--
+--===============5766944853567147879==--
