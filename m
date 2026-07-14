@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6931580180973908796=="
+Content-Type: multipart/mixed; boundary="===============0273636006140045397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 14 Jul 2026 14:32:56 -0000
-Message-Id: <178403957688.159643.9906228049225129787@gitolite.kernel.org>
+Date: Tue, 14 Jul 2026 14:32:59 -0000
+Message-Id: <178403957958.159754.17234263100084152245@gitolite.kernel.org>
 
---===============6931580180973908796==
+--===============0273636006140045397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    log: revlist-dc59e4fea9d8-a13c140cc289.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 04e9bf1648f846976b543e91c1838a712433772a
+    new: 190161eb58a990c2b4201751215344bd6949ae15
+    log: revlist-04e9bf1648f8-190161eb58a9.txt
 
---===============6931580180973908796==
+--===============0273636006140045397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-a13c140cc289.txt
+Content-Disposition: attachment; filename=revlist-04e9bf1648f8-190161eb58a9.txt
 
 72c8646956ffc8050bb8be5988a0f28fc37e1ac4 tracing: probes: fix typo in a log message
 6dbaa4d288432c697cea47028480481b8b29bd6a spi: sh-msiof: abort transfers when reset times out
@@ -934,5 +934,6 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 940d91caf09cc849ac514043bbf5c0e1b43aea0b Merge tag 'staging-7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
+190161eb58a990c2b4201751215344bd6949ae15 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============6931580180973908796==--
+--===============0273636006140045397==--
