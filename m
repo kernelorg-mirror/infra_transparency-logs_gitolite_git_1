@@ -1,71 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3367592500620364977=="
+Content-Type: multipart/mixed; boundary="===============8649798226683598688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Jul 2026 17:45:27 -0000
-Message-Id: <178405112711.320606.6251969530722831777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Tue, 14 Jul 2026 17:45:43 -0000
+Message-Id: <178405114329.320875.8440313088041698046@gitolite.kernel.org>
 
---===============3367592500620364977==
+--===============8649798226683598688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/master
-    old: 1f4e5d7f603e47a2c648b011f2e7a9809ee1acbc
-    new: 19270d520edef307d86ed80f3fe16a846c328cee
-    log: revlist-1f4e5d7f603e-19270d520ede.txt
-  - ref: refs/heads/tip/urgent
-    old: f5724ab22515930bce3378ec081cfa7225216d72
-    new: 7ac531b9a7bcbd9346eb3110315c51d1c7a79b00
-    log: revlist-f5724ab22515-7ac531b9a7bc.txt
+  - ref: refs/heads/fixes
+    old: a0d82fb8505326cbc53dc9a0c08f97d11197bb30
+    new: c1a1dc162870a5447cb0fbcf81983473744772d2
+    log: revlist-a0d82fb85053-c1a1dc162870.txt
 
---===============3367592500620364977==
+--===============8649798226683598688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f4e5d7f603e-19270d520ede.txt
+Content-Disposition: attachment; filename=revlist-a0d82fb85053-c1a1dc162870.txt
 
-7ac531b9a7bcbd9346eb3110315c51d1c7a79b00 Merge branch into tip/master: 'x86/urgent'
-8999c1659e4d450e3c7ef4c6be9707879bf8d09a Merge branch into tip/master: 'perf/merge'
-402ac041e4d67faded5d298e3159ca5f7e769a85 Merge branch into tip/master: 'core/entry'
-1e055a29d2a1d1b10f5976a011955800f8635f21 Merge branch into tip/master: 'core/rseq'
-36a9482f6a6a57b9eb093860488765b73206b77d Merge branch into tip/master: 'irq/core'
-fd27bbeabe89e5e4db1f109517b6140deec133b2 Merge branch into tip/master: 'irq/drivers'
-29f7711e3b2d5a26da443c2482eff13b31cc75cf Merge branch into tip/master: 'locking/core'
-d93c9ae37a77d87f80d86ab442285a6a52840a82 Merge branch into tip/master: 'locking/futex'
-55f36716c9a9a92e41bf39b314269e612a8513e7 Merge branch into tip/master: 'sched/core'
-fc381b5dd772b962a7de4f461e187b53709b9f26 Merge branch into tip/master: 'smp/core'
-3a5cce88059a1aef96b3657ba3bfa816302b45cd Merge branch into tip/master: 'timers/core'
-fde79d4eeb91b9b8bf32f6221a4ab3be636ecf96 Merge branch into tip/master: 'timers/vdso'
-4980d9947ee3058df31e576fd04652d8a6f332de Merge branch into tip/master: 'x86/alternatives'
-755b89118c656758515462cce78eb605e68ab511 Merge branch into tip/master: 'x86/build'
-5062c1c1b6ce1eca85b900112a470e0812e1769a Merge branch into tip/master: 'x86/cache'
-b93609fdee07038e9af6015065a3a50d9425904b Merge branch into tip/master: 'x86/cleanups'
-4b7becf11c2e53a18545aafed3e450464ff9a51d Merge branch into tip/master: 'x86/mm'
-24f372d08b39cb56bd9ae9f8ad97e4b8db3a2c91 Merge branch into tip/master: 'x86/msr'
-19270d520edef307d86ed80f3fe16a846c328cee Merge branch into tip/master: 'x86/tdx'
+1826215eb63b57a4ac8cb973785a84d703ff23f5 wifi: iwlwifi: mvm: verify scan id reported by firmware
+d77aff138c9ec6c8562f4c2c9f262d3d9c4b4cb8 wifi: iwlwifi: mvm: fix an off-by-1 boundary check
+402620cdcf4d4ee311551906dfae832b33a0cc60 wifi: iwlwifi: mld: fix an off-by-1 boundary check
+119c353467d802865e2f5da210b64727c5e334b4 wifi: iwlwifi: mld: don't parse a notif before checking its length
+7da7162652a9e254f2c6055cb8612bbe8a49a554 wifi: iwlwifi: mvm: fix the FCS truncation logic in d3
+219292e73e40d131925a1caf413203671092dd7a wifi: iwlwifi: mld: validate reorder BAID
+b77c6f50b1f80414cb3f542ae72e532ed90fc7f7 wifi: iwlwifi: mvm: parse beacon notif per layout
+77f33bed0cb49a11f03427f2fa368830c1cae3c2 wifi: iwlwifi: mvm: validate MCC header before n_channels
+3ed8d1705d3aa5fbec918b8e241b41c483706cc2 wifi: iwlwifi: mvm: validate sta_id in TLC notif
+6aa77efaea9efea92e3090c35ad348fd759a3cf3 wifi: iwlwifi: mvm: validate sta_id in BA window status notif
+71245daf7d58a3c407c7e1422facce13ff6a584b wifi: iwlwifi: mvm: validate mac_link_id in session protect notif
+5c55827ef5c74a5d56939ed0e93df21e6f1f864e wifi: iwlwifi: mld: clear tzone on fail
+4f155d262b31b9b17e0f9856bdabe0968eb4930f wifi: iwlwifi: mvm: fix sched scan IE sizing
+2c79d7a7b583050c9f58041465cb46fe3483ab5d wifi: iwlwifi: pcie: null RX pointers after free
+c1a1dc162870a5447cb0fbcf81983473744772d2 wifi: iwlwifi: mvm: d3: validate D3 resume notification payloads
 
---===============3367592500620364977==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5724ab22515-7ac531b9a7bc.txt
-
-cf1afec09e9f004a62c54c471863209ed249fca7 btrfs: validate properties before setting them
-9d78a98796f215d9973e1e53871b2d63420f3608 btrfs: fix transaction abort logic in btrfs_fileattr_set()
-a2d8d5647ed854e38f941741aea45b9eb15a6350 btrfs: reject free space cache with more entries than pages
-ce6050bafb4e33377dc17fcc357736bfc351180c btrfs: fix root leak if its reloc root is unexpected in merge_reloc_roots()
-3dcd50730814e5220072d2b26d0587af6bfb6dbe btrfs: fallback to transaction csum tree on a commit root csum miss
-1cb15b153c636096740519f62040ec6dc3e50aef btrfs: lzo: add error message for invalid headers
-3dc22abc21f5892406c09202fa2627196cc96967 btrfs: tree-checker: validate INODE_REF's namelen
-9e37d187e1e62bd3d450429203f98402cefb3ef2 btrfs: decentralize transaction aborts in create_reloc_root()
-c0041b502e579a5c52e5cae918b90678f03faddd btrfs: print-tree: print header owner as signed
-7059bdf4f04a3e14f4fafb3ac35fdca913e3e21a Merge tag 'for-7.2-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7ac531b9a7bcbd9346eb3110315c51d1c7a79b00 Merge branch into tip/master: 'x86/urgent'
-
---===============3367592500620364977==--
+--===============8649798226683598688==--
