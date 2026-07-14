@@ -1,74 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============7394352803054007826=="
+Content-Type: multipart/mixed; boundary="===============3119441556050256443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ez/bpf-next
-Date: Tue, 14 Jul 2026 09:37:14 -0000
-Message-Id: <178402183433.4144839.9026303620997675362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 14 Jul 2026 09:50:42 -0000
+Message-Id: <178402264205.4154049.8689528690455872089@gitolite.kernel.org>
 
---===============7394352803054007826==
+--===============3119441556050256443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ez/bpf-next
-user: ez
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: ee1bcf8271eb2e1d191bf97348ddf823c6071fa9
-    new: 9a3a07d06e7d74f4aecc51396c771149336ac55d
-    log: revlist-ee1bcf8271eb-9a3a07d06e7d.txt
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 5125c87a117f7edf53af914746fad925957f38e6
+    new: 2fef7add60a94a6134e2d488bde37550fb13685c
+    log: revlist-5125c87a117f-2fef7add60a9.txt
 
---===============7394352803054007826==
+--===============3119441556050256443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee1bcf8271eb-9a3a07d06e7d.txt
+Content-Disposition: attachment; filename=revlist-5125c87a117f-2fef7add60a9.txt
 
-ac65c710cc643cbc52b899627577357867249530 bpf: Reject writes through untrusted BTF pointers
-9eab4790f11f751de2da13436845a39c4ca54e54 selftests/bpf: Add untrusted BTF write regression
-6953e5fadb5c908627e85732b2ee77ee9acb8577 Merge branch 'fix-for-untrusted-btf-pointer-writes'
-0bdbed9133fd10a7dfec6d3e4b5b2a208f86f22a tools/resolve_btfids: Include libsubcmd headers directly from source tree
-d5a85392392c77b61a74e975a74da0e9c146f6d3 bpf: Resolve and cache fd_array objects at load time
-b707068e0ed92b64bb66bae4f6f3a521f7017220 bpf: Verify signed loader metadata at load time
-a2d784869a0f252e1a277db7dc2c16d55694da72 libbpf: Drop in-loader metadata check for load-time verification
-576bcaa1f5c208af0f590c9622247da87b49c05f bpftool: Check EVP_Digest when computing excl_prog_hash
-92c7717981bb43ff91c04d8588bd79d570ad12c1 bpftool: Cover loader metadata with the program signature
-77e5f3c91453307096d653f4fbf9647fcb5b6e95 selftests/bpf: Adjust bpf_map layout in verifier_map_ptr
-99b321dde704e38d3e6c1f425613d7b138ba5696 selftests/bpf: Verify load-time signed loader metadata
-84c42f515f184d4c9bc05da385f39f7ff406c302 Documentation/bpf: Add BPF signing and enforcement doc
-f3b1d8b7c9d29da675c37b7ce6d0c7a0d4613174 Merge branch 'verify-bpf-signed-loader-at-load-time'
-43f129d2148983f69f8f9c34f2a64d27f888bef1 selftests/bpf: Close fd on unexpected success in signed loader
-41ec7e4a17792599af6c208dcc32c038a9f78da8 selftests/bpf: Skip res_spin_lock_stress if no perf support
-92863e678070f57c17c868e4bfa2441a5c61ad2b bpf: Fix vmlinux BTF prep race in bpf_get_btf_vmlinux
-5e5e94d87dea92cc2e2fadaf3be84771509a86ca bpf: Give vmlinux BTF init its own mutex
-42560699a83db261d1a671a5eadade460d0f9eee bpf: Account insn_aux_data allocation in bpf_check
-ff755b6007908730946c155bb0d90ebc55926da7 bpf: Account scratch buffer in bpf_prog_calc_tag
-e318f9dd8b3cda1ae3610c38813d60024d0843de Merge branch 'misc-bpf-fixes-from-sashiko-findings'
-47b079e2117a2ee52e21f8b72935900c702fc0b5 bpf: Fix use-after-free on mm_struct in bpf_find_vma()
-9a6df65d5c6a9947ddab4e563e329720f44b8747 bpf: Introduce jit_required flag and remove bpf_prog_has_kfunc_call()
-f1c27922576edccb99d0257827d09bd05c0304a6 bpf: Reject programs with inlined helpers if JIT is not available
-55db6a475907339893f0778d814f9aa16d5fef90 Merge branch 'introduce-jit_required-to-prevent-a-kernel-panic'
-36ffa86c42f91c8a57071e024afc4ffb51a8958f bpf: Fix security_bpf_map_create error handling
-2cb5f4ca695ebe552647e5ba4aad6934d6a43bae bpf: Drop scalar id on sign-extending narrowing stack fills
-c3d5ef291a2a335d2e33fe75b3b3806fdbd86ad1 selftests/bpf: Add test for scalar id on sign-extending stack fill
-2aaf67f0516fde29620d0edfc29c01b9ea7ad430 bpf: Reject rdonly/rdwr_buf_size kfunc arguments that exceed u32 max
-12556c3198328df38b3444978391141ad6f7092b selftests/bpf: Add test for oversized rdonly/rdwr_buf_size kfunc argument
-a4553044d1af13f82806524d79e2071efc7988a0 Merge branch 'bpf-bound-rdonly-rdwr_buf_size-kfunc-return-size'
-f3603df9aebb2a2fe2f745bd71ca38aeca60e6e7 bpf: Add bpf_icmp_send kfunc
-39b337a3d995abba4aa58d402c968bad8c7ca4c0 selftests/bpf: Add bpf_icmp_send kfunc cgroup_skb tests
-340a40df94e2566b83f5e8ad529c7fe8c7c96d80 selftests/bpf: Add bpf_icmp_send kfunc cgroup_skb IPv6 tests
-49d07ba673bbbbde876f6854282961ccf67acd93 selftests/bpf: Add bpf_icmp_send recursion test
-b1d4514ff1f96ee83192e17d3db766d2e4ec77f7 selftests/bpf: Add bpf_icmp_send no route test
-30f77a0419382ce061b2418de81526e93be4ecf9 bpf: Fix unused nskb warning in bpf_icmp_send
-e821c223875803760d492f88e357380415f5f438 selftests/bpf: veristat: Minimize map size during verification
-77f02c9926e1d58f418a705ee4ecc6975721e117 libbpf: Fix double-free of distilled base BTF on .BTF.ext parse error
-8740156ad33be5071b588b594c55f279457f667c bpf: Require a BPF cpumask for bpf_cpumask_populate()
-6267b835286eb552298f22d9e4045b55c3272985 selftests/bpf: Test bpf_cpumask_populate() rejects a borrowed cpumask
-25935519f78be63048f4a964e15be48c83ba7dc2 Merge branch 'bpf-require-an-owned-cpumask-for-bpf_cpumask_populate'
-30bdd6d1384d894931f113eb595636092d8e650c bpf: Mark tracing_multi trampolines as ftrace managed
-539d3edf8e53f10b2d63e2d866e23c414c99e921 selftests/bpf: Test fentry link after tracing_multi link
-9a3a07d06e7d74f4aecc51396c771149336ac55d Merge branch 'bpf-fix-warning-in-bpf_trampoline_multi_detach'
+6c646d053f61133f3185b0904a12f6b38a3465d4 sched_ext: Assert per-task ops run on the task's owner
+8b75c71f23e528e8662f48e7e8635cc1d32c2fdd sched_ext: Make the kick machinery per-sched
+874fdc0e86e4d32539026c8e9b3999c0523c96d4 sched_ext: Add ops.init_cids() to finalize the cid layout before init
+e2c841b91bf960f5dd57aa9dd49b14a1d30f1a56 sched_ext: Add CID sharding
+30067643bce0d02cbeb512416372e93272e674f3 sched_ext: Add shard boundaries to scx_bpf_cid_override()
+80e6adaa3578b41724dfd4aeaf742aca5d8a7220 sched_ext: Defer scx_sched kobj sysfs add into the enable workfns
+8dba3bbd63e39c97a4d45aea6e95e00b5d14bc8d sched_ext: Add per-shard scx_sched storage scaffolding
+cc7c254c8fd71818b4bd2fbf3dddcd2ebc79e678 sched_ext: Add scx_cmask_ref for validated arena cmask access
+33ffb56e852cdb352d9ffeecfc2c7ffe0945c815 sched_ext: Build the set_cmask scratch from trusted geometry
+70f8b1785327f233d667d8fc0751a7d2ec231597 sched_ext: RCU-protect the sub-sched tree's children/sibling lists
+bbda59d85341d6d4d957596233646c84d9d9a451 sched_ext: Add scx_skip_subtree_pre()
+81507f148e9f98be3a75b3c26979f3b4f7c8001e sched_ext: Stop resolving a disabled scheduler's programs
+86094b95efcf747c80930a2a675c5b14505a19b1 sched_ext: Add per-shard cap delegation for sub-schedulers
+5f2a9a4c2e6c827eafa8491764125934c5466a84 sched_ext: Add coalescing sub_caps_updated() notifier for sub-schedulers
+56fdc35b7471639bae66f2ce3885e59a4543b9dd sched_ext: Maintain per-cpu effective cap copies for single-read checks
+b81a6c018cdeb91897696489694653c56fa60eb5 sched_ext: Add sub_ecaps_updated() effective-cap change notifier
+bf6cf1886a56eaf929d8193a3f4b30be59a778e2 sched_ext: Generalize local-DSQ handling to rq-owned DSQs
+75a8c8202c918f567e7a7b16add40b0be02c2113 sched_ext: Add reject DSQ for cap-rejected dispatches
+8b17523479437fadb26f649e00a0d848c624c07e sched_ext: Add SCX_ENQ_IGNORE_CAPS for in-place restore
+147d1885f390bcfb929210814f86dc22b24c2631 sched_ext: Add the SCX_CAP_ENQ_IMMED cap
+61d564fcdfcd664f623d4175738a6ccee654ca02 sched_ext: Assign a unique id to each scheduler instance
+c00158ef28b60bf3d793edc66eac74f7a20cc9d3 sched_ext: Route task slice writes through set_task_slice()
+d5b8f4cdd17dc42fd51048785fef1e2a7dd1117f sched_ext: Track the cpu a task is runnable on
+46a85ae6fe5b468107baa9f21f073a940208d9ff sched_ext: Tie cpu occupancy to SCX_CAP_BASE through the task slice
+701b7bcad8681b161de791579aeb3de285f9a20f sched_ext: Add the SCX_CAP_ENQ cap
+6ea3be36808100336dffb4b04a6e5a483a26a649 sched_ext: Gate kicks on SCX_CAP_BASE and preemption on SCX_CAP_PREEMPT
+f2c9f5155ba8ee798e95b7a656d600cc2de687a0 sched_ext: Authorize remote-move inserts against the placing scheduler
+ca3aec453d64d2ad89156c10a2e1b15a93b9fe50 sched_ext: Route ops.update_idle() to sub-schedulers and re-notify owed scheds
+75c268ed57f2197a4f1fd9259f42cb6065dd311b sched_ext: Replay ecaps notifications suppressed by bypass
+b0a2ca6ae0ed03c625cd343d662d83bc94d84217 sched_ext: Add scx_bpf_sub_kill() to evict a child sub-scheduler
+e051308b499a40e986f8da6b8444f750d8f7a5c7 tools/sched_ext: Add three-mask cmask intersection iterator
+e9151ed5c94480c73a15305bde5e69a2c7bf45e4 tools/sched_ext: scx_qmap - Expand hierarchical sub-scheduling
+eb00f4a3620ae8f5e15bc1d6a39277e7d76d2feb tools/sched_ext: scx_qmap - Add sub-sched cap fault injection
+e90197bb707b8be1311e77b56376c7ab8d64f539 sched: Add helper to block retained proxy donors
+856dbbeab53f231587e7c812ef4c996ea3805131 sched: Make NOHZ CFS bandwidth checks follow proxy donor
+2ef53c4205141bd6107db0f35ab275a39a1bd8d5 sched_ext: Block proxy donors across scheduler transitions
+3dd73f54b9259b6524c6b95561f7b0e0d732ac0e sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+6ff4b7b20ef3a4f7e051681a68509ec3d5f4b1a6 sched_ext: Split curr|donor references properly
+5d1583be39124fbbe92741d8b59ed924a648f898 sched_ext: Fix TOCTOU race in consume_remote_task()
+6de202dcec609a30b2cdd6d4f42e3532a6d403e3 sched_ext: Handle blocked donor migration with proxy execution
+c77337a19a575b3c00093b45126986c98ea8c3db sched_ext: Delegate proxy donor admission to BPF schedulers
+07382e6c3da9ccdee9677c8c140bd1d8fadec7bc sched_ext: Add selftest for blocked donor admission
+4f7efc2a6d60d07d36440979828e741f0dd4a225 sched_ext: scx_qmap: Add proxy execution support
+2fef7add60a94a6134e2d488bde37550fb13685c sched: Allow enabling proxy exec with sched_ext
 
---===============7394352803054007826==--
+--===============3119441556050256443==--
