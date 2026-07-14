@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 14 Jul 2026 06:06:00 -0000
-Message-Id: <178400916070.3999040.8104942808339231857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 14 Jul 2026 06:14:53 -0000
+Message-Id: <178400969350.4003228.1075215554090636117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/xfs-7.2-fixes
-    old: f88caa121eac3b6a050262ac3de0c133ee17f7b2
-    new: ba5ea85a15bd1b1d379865a68f553b9925c40bdb
+  - ref: refs/heads/experimental
+    old: 82c42541286f23b56844c457ec881c8da97dc0a3
+    new: 94f5a27f7b3878208e074038dec3f5c33b5fc3ba
     log: |
-         9202ee546b0cd71004eed7598546efe4660097da xfs: fix null pointer dereference in tracepoint
-         ba5ea85a15bd1b1d379865a68f553b9925c40bdb xfs: resample the data fork mapping after cycling ILOCK
+         94f5a27f7b3878208e074038dec3f5c33b5fc3ba erofs-utils: lib: fix undeclared gettid()
          
