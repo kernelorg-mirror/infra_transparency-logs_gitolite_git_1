@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 14 Jul 2026 11:57:44 -0000
-Message-Id: <178403026476.47043.9366022429286590392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 14 Jul 2026 12:04:55 -0000
+Message-Id: <178403069578.51169.14750436353911801346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/spi-7.3
-    old: d8e9ea989acb54508477e4a8c9d9eaf8217e0081
-    new: 3e106385e3e68b02c9ebf1919c484e7e9079c4ed
+  - ref: refs/heads/ntfs-next
+    old: 5356c82a76c118ac6c2d5706ff22489f7b1a593f
+    new: 6f6a5bd7806f3aaa7e83f4746255d2c097046043
     log: |
-         51f761e4071f14001cc5bf220807847260d9cc93 spi: atmel-quadspi: Simplify probe() with local 'dev' variable
-         3ae07d8f30758ce7ebfe731459a06c94481fa742 spi: atmel-quadspi: Simplify with dev_err_probe()
-         3e106385e3e68b02c9ebf1919c484e7e9079c4ed spi: altera: Simplify with dev_err_probe()
+         412b47ee110f9c4bac2f625bae1d45f1225ec0db MAINTAINERS: update mailing list address for ntfs
+         f48e0fabc98ac1871ebd0e0c0de1bcc73d853996 ntfs: validate final EA attribute size
+         4220641412448e08780724ecfd7bd8553d3cfaf2 ntfs: remove empty EA attribute pair
+         6f6a5bd7806f3aaa7e83f4746255d2c097046043 ntfs: rewrite EA stream before updating metadata
          
