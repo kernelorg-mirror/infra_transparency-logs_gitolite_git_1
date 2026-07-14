@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8069229488731770330=="
+Content-Type: multipart/mixed; boundary="===============8662152934507365058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 14 Jul 2026 15:04:59 -0000
-Message-Id: <178404149952.188863.464068447177903569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Jul 2026 15:05:02 -0000
+Message-Id: <178404150275.190073.3617445809956564055@gitolite.kernel.org>
 
---===============8069229488731770330==
+--===============8662152934507365058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/regulator-7.3
     old: bf2cecaae4fb165639deaed6983124d0602264f3
     new: c9b256e7900f55f64bad3601291b9886a548851d
     log: |
          c9b256e7900f55f64bad3601291b9886a548851d regulator: dt-bindings: convert ltc3589 to yaml format
          
 
---===============8069229488731770330==
+--===============8662152934507365058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784041498 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1784041497-2e721fa30c0fcd90411295dc1e8bf141cc366820
+pusher C3F436CA30F5D8EB 1784041501 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1784041500-415a058c98f8f1c3bd08ef6788556a5cf90cbeac
 
-bf2cecaae4fb165639deaed6983124d0602264f3 c9b256e7900f55f64bad3601291b9886a548851d refs/heads/for-7.3
+bf2cecaae4fb165639deaed6983124d0602264f3 c9b256e7900f55f64bad3601291b9886a548851d refs/heads/regulator-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpWUBoACgkQJNaLcl1U
-h9Bdtgf+JCkREqQOskRWAXCH5p/NMI1iGtjFfZuh14o7jmJxOfBVVh/MskZFnC5t
-SBZEp7QfMYMeELV77ytV5MygziT9f7rDHASEISbS+gUWhnynM87y6WG/k0IbaNng
-iIFEveckiP/8dOMbKRBFSmvRntVT9yTKGsOIWzjvDmmLoHVXVG0Lnob7wFZa5Zmd
-jMI0O1qSCLHpiHLolYV9VY9w9zRLNEiG0eSFmiYYQWAJpdBzodl93cnWBjz7b09t
-J6pcHz4tE6YIQ4hyGfbaptTvaFx+lGQrzfbFCzPQfDYuef/lQ028ne0KxGNNFX0n
-Pvk9mTkCP6hT6YUgEXkip5I1+8Nm1Q==
-=0OI/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpWUB0ACgkQJNaLcl1U
+h9DI9Af/RycrhWuRr+1OkGPVJxDsjjGtQiGS137C9+kPTDapxCoMO0gg+AyyKNka
+uj51J9NE+7DqxY3hunyZsb8M15rfqbDTOoiiwxwdUDwa7valixnxXOQYSJwr+1oq
+QKnnpTElYtPc6HdBwlSc9dmlGfH4Ccg7pG2mp6cr73XNZf+Soh0hTjYmwZXZYOxc
+BxZRiEhyxDbBowuE5e9beKN95ifaSJhVrbODdxPt3eyadesXECCgVrTvx/vF0+3t
+ASsmRyPV5CiO7+KaaVap61g1R4JbKauUA5+zqZ16d05PI4cQJXpUCSOjCGDxiSPs
+bdhJOb18A9okq1WNAllS03RLxTwRzw==
+=ON8Y
 -----END PGP SIGNATURE-----
 
---===============8069229488731770330==--
+--===============8662152934507365058==--
