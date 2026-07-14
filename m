@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 14 Jul 2026 20:59:52 -0000
-Message-Id: <178406279241.463382.13606574990796727857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Tue, 14 Jul 2026 21:04:00 -0000
+Message-Id: <178406304072.466958.9780927862347616279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 6675748e6267a86a0facb7ad22ec88b7192a4126
-    new: 5ca04f3ba91f1773bbd5da6d9c654ccc1ba7831d
+  - ref: refs/heads/master
+    old: 1a3403da1fc6f4cc0e720ad31d7e4c30e36c96a3
+    new: 0f73486d5f424fe0f18232fdc1bf480b00e25ece
     log: |
-         4bf6bac375076ced2fa4b3fef8739bd985f93456 cxl/features: Reject Get Feature count larger than the output buffer
-         cde18d6c1d913a67ab0afd3d9475ece4be79da50 cxl/features: Reject Set Features output buffer smaller than the header
-         2aeb21fe557ef154f0cdf4f9745ebd8d5b31ca83 cxl/features: Clamp Get Feature output size to the remaining buffer
-         5ca04f3ba91f1773bbd5da6d9c654ccc1ba7831d Bounds-check the fwctl feature commands
+         191d4100b8687394a1fb2e5d3dee1e4617e9a172 lib/random: add setrandom_thread()
+         59f17d1dbfca869240fd2b105d65afcf3fb1b5e2 datastruct/existence: seed the RNG per thread in existence_3skiplist_uperf
+         975ad82b9a7e6ee579cb70c1172d30f646581f5c datastruct/existence: rotate every resident key, not the first third
+         5c0c3c537d1a91397854e6e8577a458fd830ee11 datastruct/existence: reject --nreaders instead of hanging
+         a24f0b72924d38842cd2a410b4fca33816020ae0 datastruct/existence: add --groupobjs to decouple commit width from nobjects
+         472cd61527ca92dec4c5212c03f669cf862ceb0e datastruct/skiplist: seed the RNG per thread in skiplisttorture
+         b775924981c43ffcf05a72a7caf519d54928f612 defer: seed the RNG per thread in routetorture
+         bb6e9d34ef34c3da7e2eb41928b2fc82b6f7e81b defer: seed the RNG in singleton's updater
+         43a37b36c27ce74e9e46886f2b3b9afe919b3065 datastruct/log: seed the RNG per thread in logtorture
+         0f73486d5f424fe0f18232fdc1bf480b00e25ece lib/random: catch unseeded and out-of-range Park-Miller state
          
