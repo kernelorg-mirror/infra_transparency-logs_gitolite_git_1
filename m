@@ -1,57 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============0064330146089878978=="
+Content-Type: multipart/mixed; boundary="===============5264009778465360223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Jul 2026 21:17:41 -0000
-Message-Id: <178406386186.477766.1395803407047198648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 14 Jul 2026 21:17:53 -0000
+Message-Id: <178406387328.478088.12907408930375319512@gitolite.kernel.org>
 
---===============0064330146089878978==
+--===============5264009778465360223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 9746c37469ef662d45ade80573ada22e5d378cd5
-    new: 72fe2ef11df581a36b4134107eb792eedd4bc35e
-    log: revlist-9746c37469ef-72fe2ef11df5.txt
+  - ref: refs/heads/for-linus
+    old: 27d090f3ccd4cade897fb7e0c8c0a6e2fd3a95a0
+    new: d9e96f859de3ea3e99bce927a988449a1816483c
+    log: |
+         bc889dfcea9294a1eae7f8e2f3573a90764ae4d0 ASoC: tas2781: bound firmware description string parsing
+         d9e96f859de3ea3e99bce927a988449a1816483c ASoC: sun4i-codec: Set quirks.playback_only for H616 codec
+         
+  - ref: refs/heads/for-next
+    old: e93b02ea5579072f9abeb40fcd4b3a7cb9e78ed2
+    new: 3e98e0b9617444505707a5270733ab6df31c50bb
+    log: revlist-e93b02ea5579-3e98e0b96174.txt
 
---===============0064330146089878978==
+--===============5264009778465360223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1784063859 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784063859-55f5e405deb948dfbf2cad47ce2999cbae947962
-
-9746c37469ef662d45ade80573ada22e5d378cd5 72fe2ef11df581a36b4134107eb792eedd4bc35e refs/heads/asoc-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpWp3MACgkQJNaLcl1U
-h9C3VQf/VlqNCll0OtsxkwYbo7fu0EtxnB1u/A26WOLT1S1mz0F5h6iUPpBOXKRR
-JQE2VOnu3N6c+H9WJP6Hpjb2wgnQCQ6CCcbVmV18jz2ldxvDK4FuRd8xyeC5yI5m
-L0CsRGohC8WCpmwh0Djl6wuQOzlF79Cn/kqwctGVWgEfBPot++aygcStdJYBZdFp
-UYOJjUrUhnXlv4La+b6PSpClm3KsLKz20GaLi6qjaiWOspjIhdE11/Z4Z9Eg3Y1B
-2MsJPCEHmZdrjLHelv7+R72lqAZYWy4B4M0O7V7Kc0VqoH207I+gWjn31CxISohB
-Q/FFkiSBiPCvbONHdePRNUVNjMETJA==
-=uxHW
------END PGP SIGNATURE-----
-
---===============0064330146089878978==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9746c37469ef-72fe2ef11df5.txt
+Content-Disposition: attachment; filename=revlist-e93b02ea5579-3e98e0b96174.txt
 
 06b6f1245567a4be862c3e1cc74577922ceb05fb ASoC: codecs: aw88261: only check PLL and clock state at power-up
+bc889dfcea9294a1eae7f8e2f3573a90764ae4d0 ASoC: tas2781: bound firmware description string parsing
 350b7eae8e8b2bd3885a3e2424381494d6bde038 ASoC: codecs: ab8500: Use guard() for mutex locks
 da41b1716fad3ce1b4b617fd2155fb0347d7a1ba ASoC: codecs: ak4613: Use guard() for mutex locks
 d46421aeac5a923ea76ad8922e285280fddc16da ASoC: codecs: arizona-jack: Use guard() cleanup helpers
@@ -78,5 +61,7 @@ f452b00f97ced4ad14913a3e6de4f3086a3f6c4c ASoC: codecs: cs47l92: Use guard() for 
 1b302f955ecb2831f7fcc626fa6e35dc8d80d9d7 ASoC: codecs: cx2072x: Use guard() for mutex locks
 4a7c920458f432890a993e6e9388d27a2176e50a ASoC: codecs: Use guard() for mutex & spin lock - part 1
 72fe2ef11df581a36b4134107eb792eedd4bc35e ASoC: meson: aiu-formatter-i2s: remove pipeline reset from prepare
+d9e96f859de3ea3e99bce927a988449a1816483c ASoC: sun4i-codec: Set quirks.playback_only for H616 codec
+3e98e0b9617444505707a5270733ab6df31c50bb Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
 
---===============0064330146089878978==--
+--===============5264009778465360223==--
