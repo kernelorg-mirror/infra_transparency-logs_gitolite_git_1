@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Tue, 14 Jul 2026 14:03:12 -0000
-Message-Id: <178403779291.137120.18339661737346299962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Tue, 14 Jul 2026 14:07:01 -0000
+Message-Id: <178403802139.140727.6571014273853191958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/next
-    old: 90af3209742db61a7f9d7d054a16165818cfc6d8
-    new: d08e4d9197396ceb906715d976b63aed0c5cc8e5
+  - ref: refs/heads/for-rc
+    old: 5f3fc0ad9a41883a62098359b9fdbe4257f20e53
+    new: abf239f1016075706b2ce97c8738dd5d6d4a2bf4
     log: |
-         b7a5d101d7d267922e828c40135bcaccf8cfb3bf soundwire: dmi-quirks: add a global ghost list
-         999f80904763fae547c2c9c32bb7dbc31b86ffa1 soundwire: qcom: add SCP address paging support
-         d08e4d9197396ceb906715d976b63aed0c5cc8e5 soundwire: intel_auxdevice: Add cs42l44 to wake_capable_list
+         546d71451f1c6b36ab22c1c1bbcfe154627af413 iommufd/viommu: Release the igroup lock on the vdevice_size error path
+         e4a98bf1c08fe25dc3fa65fa29be6cd8c0f59ce3 iommufd/viommu: Publish a vDEVICE only after vdevice_init() succeeds
+         abf239f1016075706b2ce97c8738dd5d6d4a2bf4 iommu/arm-smmu-v3-iommufd: Require exactly one Stream ID for a vDEVICE
          
