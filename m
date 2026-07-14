@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2931842981069105423=="
+Content-Type: multipart/mixed; boundary="===============0574735013444868967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 14 Jul 2026 14:23:06 -0000
-Message-Id: <178403898654.151789.5507640115246890248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Jul 2026 14:23:11 -0000
+Message-Id: <178403899119.152047.6506286183839795802@gitolite.kernel.org>
 
---===============2931842981069105423==
+--===============0574735013444868967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/spi-7.2
     old: 7fc2c3dcae28347a30ccd76c8817e5719005f1c3
     new: e919ca35a6e84b5adf085da9ffa1544c01d4ce1e
     log: revlist-7fc2c3dcae28-e919ca35a6e8.txt
 
---===============2931842981069105423==
+--===============0574735013444868967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784038984 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1784038984-b33b65b14428199bb9d68c5ba9eafdb8b74cd716
+pusher C3F436CA30F5D8EB 1784038988 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1784038988-9438a9f8cb8a8b025dab4d016b7ad86179ff2b1f
 
-7fc2c3dcae28347a30ccd76c8817e5719005f1c3 e919ca35a6e84b5adf085da9ffa1544c01d4ce1e refs/heads/for-7.2
+7fc2c3dcae28347a30ccd76c8817e5719005f1c3 e919ca35a6e84b5adf085da9ffa1544c01d4ce1e refs/heads/spi-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpWRkgACgkQJNaLcl1U
-h9CvPAf/eOR/TqyFncuY/faTutdvzteRbsuxyARwuc3SoawUskEnNiSt0ajDY1D9
-TJs/ozFw8vxCWHtTts8yqzG7oTXU1Dx+wJRgVwAOXjTKw+rVYiZEnVWLUsfdUMy6
-IxUD3F5UyNaQk7EHyMVHyhqIiPTf9ra/km8BqAdKvAR1aRZwB80rgtsaXym5q5VY
-C113zzVM4QTSwRRoFac5nszf6CrrXrqzlWIq4eGWl5KtY7wBPfTewS/0o8lsCzEV
-/rL+QEq4+ydRpvvLnA4ULWjtSncTgTLdPQn/QcwTxUNLERoy9dUz0td0GFLLsP2e
-WIIeS/pXkkFTbcEFQk8OeXWiF0BSYA==
-=9+tl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpWRk0ACgkQJNaLcl1U
+h9DMBgf/egonjtPJ4y3XzcK/QBdoKA0h/hq4CAkRHCmAeZ/mwU/ZpzF3VBUw42SL
+IYqXw1MK9aFTZscbLvxS4HndIQyhxIk2i2xf3ZTI+gt6KV/mDV7pVd/Up10cC2pa
+ZjidPqfoFzOmZ8gspcueV/+3VuM5wbw54elX/HELLyPOCjuI0VpkrWOw2NZ7uNsV
+Q9bJv24FcpCjpp/1G5HSdPTvdi1RTY7f11OXoLH4AWUnfkAQqBUKUNJOhYN1Fyit
+9m49IIrdymyXmXm+hkI7TrvFw1nJwOqWLLh2LBYFvQqscy5V3wTbz95+orCuyUpg
+UeaJXseY/mFW+ny8+kbBKfR0R7+HTQ==
+=J5Ic
 -----END PGP SIGNATURE-----
 
---===============2931842981069105423==
+--===============0574735013444868967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 0bcd59706aeda8a5d48ba656bab74cb26f2b423e spi: dw-dma: Wait for controller idle before completing Tx
 e919ca35a6e84b5adf085da9ffa1544c01d4ce1e spi: cadence-quadspi: Fix indirect write timeout when DMA read mode is enabled
 
---===============2931842981069105423==--
+--===============0574735013444868967==--
