@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4355827828553859376=="
+Content-Type: multipart/mixed; boundary="===============8972256357459848191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 14 Jul 2026 06:43:24 -0000
-Message-Id: <178401140414.4022741.12249919857495377383@gitolite.kernel.org>
+Date: Tue, 14 Jul 2026 06:43:26 -0000
+Message-Id: <178401140671.4022947.4906795292118459679@gitolite.kernel.org>
 
---===============4355827828553859376==
+--===============8972256357459848191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 61cccb8363fcc282d4ae0555b8739dd227f5ad0b
-    new: 2fc4daf5c4774d70254201aaa5a9d50cae52af5e
-    log: revlist-61cccb8363fc-2fc4daf5c477.txt
+  - ref: refs/heads/mm-unstable
+    old: bdc38bfc1262e3d1432afadd2aa2ffd83d139dbb
+    new: a531f0cf705af3374388eafe4115f651c625d8db
+    log: revlist-bdc38bfc1262-a531f0cf705a.txt
 
---===============4355827828553859376==
+--===============8972256357459848191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61cccb8363fc-2fc4daf5c477.txt
+Content-Disposition: attachment; filename=revlist-bdc38bfc1262-a531f0cf705a.txt
 
 bb363380ddb064b77bb602cef516f961e10b5814 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 8a66950cd1968fe0a0a19e5ca5263f0dfde3c465 lib: test_hmm: use device devt for coherent device range selection
@@ -474,67 +474,5 @@ ef82501e04b6d132f05353721e465871f23cc485 tools/testing/vma: default VMA, mm flag
 700a7d9bc6f05586328df1923462679fa2122bba mm/mempolicy: skip non-present PMDs when queueing folios
 61f1ba9625292b0268526caa941b6007cb29013f mm/madvise: skip device-private PMDs in cold and pageout walks
 a531f0cf705af3374388eafe4115f651c625d8db mm/huge_memory: skip device-private PMDs in madvise_free_huge_pmd
-04e78f7b9fe657fd5842856b56fc6bbe3cf11fec mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-1474563b01d1da3f52711b00ed037a5221409f16 selftests/mm: remove obsolete hugetlb vmemmap test
-a4eb7bd5f07e0eebd1ed345c0f2d699051f3d329 selftests-mm-remove-obsolete-hugetlb-vmemmap-test-fix
-3b7512794d0cd1e575190b700c943b367b5e4e28 mm/rmap: convert page -> folio for hwpoison checks
-10fcc91ebf84041f4db4405be5ff1cbffb438849 mm/rmap: Add try_to_unmap_hugetlb_one
-3dc6f063f2ca5e5d6bcbfe4ff0c5b80acfc40024 mm/rmap: refactor some code around lazyfree folio unmapping
-775164e922d18736241db68771958863661a6b7d mm/rmap: refactor anon folio unmap in try_to_unmap_one
-469026fd910f01c63521bda687b20dfcb8d892fd mm/rmap: add anon folio unmap dispatcher
-12124e87f31133531e208aa28f04bed330e418ed mm: memcontrol: update state_local when flushing NMI stats
-9232ac924b84e41dbf604d921bc7a22574e9cddd mm: memcg-v1: account vmpressure event allocations
-a5e34d689248962685f9932f2e1b0d0e4fbcb545 mm: memcg-v1: fix wrong linux-mm list address in deprecation warnings
-5630512fa1078ba71adaeb24ca7624acd6800faf mm: memcontrol: drop unused cpu argument from flush_nmi_stats
-2ee1d0893173b294cec20e2b20ec0dfe5c9804ae mm: memcontrol: factor out memcg kmem uncharge sequence
-ea47574b61ded21f66b654806aaf1cdc19d38156 shmem: provide a shmem_write_folio wrapper
-0a3c690346b1ae87e6321decc5a2bbc3edcad021 mm/swap: introduce struct swap_io_ctx
-aef925d2f8e6255e58685ec862864bdb3fe0cceb mm/swap: also use struct swap_iocb for block I/O
-e6324d6ec64c0801b1eaf0a7f4c65b51029aba29 mm/swap: remove count_swpout_vm_event
-a5a6263090ed88b3f33217727a94e90f36e0a21e mm/swap: use swap_ops to register swap device's methods
-19ab9e8d0844aaa61cd6827fa3aa55eb555bcf5b mm/swap: remove SWP_FS_OPS
-650a4a706ece2de12dff2c88aadc94ab1501cc8c mm/vmstat: add NRSWP{IN,OUT} counters
-82900070857300fa00227a1b70bdcba4f1cd404d mm: memcg-v1: make mem_cgroup_oom_notify_cb() return void
-b7f1fc1a971f559324d17db18568c2d2f88ae8d4 mm/damon/tests/core-kunit: test damon_nr_accesses_mvsum()
-d81ca660a2757180f405b108f1272d93ff335d98 selftests/mm: add hugetlb_region_cache_race regression test
-ad681943f3460993d2a34f53b51c379fb6f65961 mm: kmemleak: confirm suspected leaks with a second scan
-220c2155f64ddec3acb758b7d3d6823a582af093 mm: kmemleak: report leaks only after N consecutive unreferenced scans
-f9dd97e13a20dbe0d8a67e02ea66a6712fb44e5e mm: kmemleak: factor leak confirmation into a helper
-37ffdf155d351896f2ff33242c7ac374db8541c3 selftests: mm: test kmemleak's N-consecutive-scan leak confirmation
-198df4988f41388c693ffb6ab8423f84180089c2 selftests: mincore: count file-mmap readahead on both sides
-53f0cd99b4f4429d9b076517f02a6ef315459b04 selftests/mm: fix on-fault-limit false failure under sudo-rs
-b409bb7af931945f4f0fbadeecaeae7bc0bcf2c9 mm: huge_memory: fix kobject cleanup in thpsize_create error
-05e247f9fb08ded042b058469e6b694d97103f09 mm/swap: clarify unreachable cond_resched() in swap_reclaim_full_clusters
-d34e5bb85015dd306092e9116db7e774d2674562 selftests/mm: factor out hmm_buffer_alloc() to consolidate buffer setup
-203a24d78eb07675182fd5624c07e6f660684b29 mm/damon/core: skip aging from repeated aggressive merging
-a2fce34049a7fec533d69eebb5649b1a669f904f mm/memory: add memory_block_aligned_range() helper
-4a2490bd67319695bde1ea25d5754c763b1c037b mm/memory_hotplug: add mhp_online_type_to_str() and export string helpers
-7587808ccc65e0134ff20e797b32cb924aa0f535 mm/memory_hotplug: pass online_type to online_memory_block() via arg
-6ef134dad1dd3cd8495508ab5f01c183dbd97f04 mm/memory_hotplug: export mhp_get_default_online_type
-b353379b5f93122ab47f157a215b9451ac461495 mm/memory_hotplug: add __add_memory_driver_managed() with online_type arg
-0a95f921e808a6f48f19fb28c0777ff81dcaf41e mm/memory_hotplug: add offline_and_remove_memory_ranges()
-685c449d9f4349798980f5be00bc6965ff4b4910 dax/kmem: resolve default online type at probe time
-510afe5a56aa61eda590b7b81e902bb77d625acc dax/kmem: extract hotplug/hotremove helper functions
-b7ef805ca554ae9d46934786c3486f4d22e9022a dax/kmem: add sysfs interface for atomic whole-device hotplug
-886fba7e329002b1ed705a9bdbc1a3282a52ac72 selftests/dax: add dax/kmem hotplug sysfs regression test
-c7db51bc50d90b77a7b6e6d8a1cedb91db438609 mm/kconfig: drop redundant dependency wrappers
-cace562976032f8fdc2c88a4be29d039e8b71c57 mm: introduce vma_flags_can_grow() and vma_can_grow()
-985dbb062e78af44a51313605255d4d979b79e65 mm/vma: update do_mmap() to use vma_flags_t
-456aedb3fa6ee6e098080d97226358819d2a41d3 mm: convert __get_unmapped_area() to use vma_flags_t
-672d1c6d0a88f1f6f6c64aecbfe6251377f2a0a7 mm: update generic_get_unmapped_area[_topdown]() to use vma_flags_t
-08f3847bb2e60c2075e688f1b98c217f1c6c2274 mm: prefer mm->def_vma_flags in mm logic
-1b12c83d0ee6db4d13a477d59d734dd3468245cb mm/vma: convert vm_pgprot_modify() to use vma_flags_t and rename
-02e0c3d1e68036860989d14c0bf1a42834ec3d70 mm/vma: rename vma_get_page_prot to vma_flags_to_page_prot
-fbd077d037eac5c3d5476ec3f4e2d49628acd362 mm: introduce vma_get_page_prot() and use it
-7e873e26e34537f9cf51e78feaa8169256747b03 mm/vma: update create_init_stack_vma() to use vma_flags_t
-0426e69dfae6752274a4dd81e978db7fe304b76c mm/vma: convert miscellaneous uses of VMA flags in core mm
-7f86eefb3dd12b93b65eeec7488885c16a4c5783 mm/mlock: convert mlock code to use vma_flags_t
-8c4ad901d347c71f241d97127368b76735b4ec72 mm/mprotect: convert mprotect code to use vma_flags_t
-712cd6ef9a3c40a522630472ab7d309136df8b41 mm/mremap: convert mremap code to use vma_flags_t
-b048917f4fafd4f3b0841fe09b82251041852ca8 mm/mm_slot.h: add a helper function mm_slot_remove
-75ff86dcd59995fcfd0da17041d67104fb80c76b mm/mm_slot.h: add comments for mm_slot_lookup/insert
-0a730063b3285dc08a3333eb4af8615aeb6e12d7 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-dd5e40dc99d223b3ee931214c96ee31bad97a551 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-2fc4daf5c4774d70254201aaa5a9d50cae52af5e mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4355827828553859376==--
+--===============8972256357459848191==--
