@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2065459544359482973=="
+Content-Type: multipart/mixed; boundary="===============1663958486274672212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 14 Jul 2026 18:07:06 -0000
-Message-Id: <178405242638.338957.17258646965868924511@gitolite.kernel.org>
+Date: Tue, 14 Jul 2026 18:07:12 -0000
+Message-Id: <178405243298.339173.2394842183936209967@gitolite.kernel.org>
 
---===============2065459544359482973==
+--===============1663958486274672212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 8d0620d47dad641ab2874aa2e9b2803cd66f2118
+  - ref: refs/heads/pending
+    old: 8a0966d345e74e9e7bad5a6c3b4dccf956e6b048
     new: f78703024c71ac60033139b42d040981efe083bb
-    log: revlist-8d0620d47dad-f78703024c71.txt
+    log: revlist-8a0966d345e7-f78703024c71.txt
 
---===============2065459544359482973==
+--===============1663958486274672212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d0620d47dad-f78703024c71.txt
+Content-Disposition: attachment; filename=revlist-8a0966d345e7-f78703024c71.txt
 
 d418509383b0c884b70814ae85d3ef105a63b940 wifi: ath12k: Switch to generic PAS TZ APIs
 f066e1a93703c5be0fd905109d00587541711c97 wifi: ath12k: fix dp_link_peer dangling references on AP vdev rollback
@@ -42,4 +42,4 @@ de4685d422a69a61f67e2e2ffdb5747d73d51308 wifi: ath11k: validate regulatory capab
 298b337bb1d450793ed5248cc0345694f73f057c wifi: ath10k: Drop redundant NULL check on devm_clk_get()
 f78703024c71ac60033139b42d040981efe083bb wifi: ath6kl: avoid buffer overreads in WMI event handlers
 
---===============2065459544359482973==--
+--===============1663958486274672212==--
