@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 14 Jul 2026 17:00:57 -0000
-Message-Id: <178404845701.285676.14812443729541511876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 14 Jul 2026 17:18:59 -0000
+Message-Id: <178404953935.296981.3353698023510703887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/b4/sysfs-const-attr-gpio
-    old: 0000000000000000000000000000000000000000
-    new: d68097c2a73921fc8590061aac45f72a3157bc4c
+  - ref: refs/heads/i2c/i2c-fixes
+    old: 07fd9385f0d87dff4b34f355f68adf701080cb24
+    new: 9db20d23aac7916ff49be409a4bfd48fe7cbbfb4
+    log: |
+         9db20d23aac7916ff49be409a4bfd48fe7cbbfb4 i2c: spacemit: fix spurious IRQ handling returning IRQ_HANDLED
+         
