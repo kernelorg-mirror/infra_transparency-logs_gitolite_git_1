@@ -1,27 +1,82 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 14 Jul 2026 21:13:15 -0000
-Message-Id: <178406359545.473848.6941675793262584121@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0540954350117006826=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 14 Jul 2026 21:17:38 -0000
+Message-Id: <178406385806.477577.18084341908310782087@gitolite.kernel.org>
+
+--===============0540954350117006826==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/acpi_scmi_pcc
-    old: 9adc9ae37f7122e711569215fbda9081a6ad501a
-    new: 0cfb57b972c52b99ec7a047717f4c83aa0fc66da
-    log: |
-         0ff1ab4a9f7cbd0cff4a4561daf4f1a444fa36ed firmware: arm_scmi: Refactoring and enablement of ACPI PCC transport
-         a16a998b87c06d4952fe3a266d2bbe0142b1a0b2 firmware: arm_scmi: Set fwnode for the generated SCMI platform device
-         8077e2d6bfe151a418c3e82be0d0aecccd5d76ea firmware: arm_scmi: Extend transport driver macro to support ACPI
-         c7ab9cb6fcc32e1d6adae0ff731c409de5178c86 firmware: arm_scmi: Convert OF-only paths to generic fwnode in SCMI core
-         388b403ef0f0dbc329842f520c5e7b4e2aacedb3 firmware: arm_scmi: Fall back to ACPI HID when "compatible" is absent
-         de2723be6d6b70a054ebedea45134fdc43923f51 firmware: arm_scmi: Pass protocol ID to chan_available() transport callback
-         5669f6d26a783a72153484084492844f080bba5c firmware: arm_scmi: Refactor protocol device creation logic
-         8cc41c58334888e2d6eef76a42f3c36de162ca34 firmware: arm_scmi: transport: Add ACPI PCC transport
-         0cfb57b972c52b99ec7a047717f4c83aa0fc66da firmware: arm_scmi: Initialise all protocol devices and transport channels
-         
+  - ref: refs/heads/for-7.3
+    old: 9746c37469ef662d45ade80573ada22e5d378cd5
+    new: 72fe2ef11df581a36b4134107eb792eedd4bc35e
+    log: revlist-9746c37469ef-72fe2ef11df5.txt
+
+--===============0540954350117006826==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1784063856 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1784063855-b2d3599c75ae7d98364cb4e11ac94667537ff226
+
+9746c37469ef662d45ade80573ada22e5d378cd5 72fe2ef11df581a36b4134107eb792eedd4bc35e refs/heads/for-7.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpWp3AACgkQJNaLcl1U
+h9C5mQf8Cvp9hXnqXaKvMBiiA4yf5ub7G8FUiyTrsooL0VFj7vTrCWBjIEkUtEkk
+P+tFprJ3NvYneFxDHdasi3lZY/C6xmRCxdtdSX5st7wreq9SxJxInvSHj1tKe6a2
+zVR0hTQGODjnYpWcfhJW3dUZ4KBMn8+xTRlJQqwH5dW/YLDq+g+n4As8Zs9atNnl
+/jexsN8lKwd4/kgfHPFMzGrcyBuoLMBj8yQvSV4upEzy3a7RbQakGPiUafTri1g0
+QmwwYp9QkmeG9VaTit+uZfH6b4VPCYdwvqwM67JtJ+qFFAE2VfNBaCvUzk2JFZll
+nu1fWRn2zfgNKgx2eHeunpraxHJcvg==
+=Ig5c
+-----END PGP SIGNATURE-----
+
+--===============0540954350117006826==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9746c37469ef-72fe2ef11df5.txt
+
+06b6f1245567a4be862c3e1cc74577922ceb05fb ASoC: codecs: aw88261: only check PLL and clock state at power-up
+350b7eae8e8b2bd3885a3e2424381494d6bde038 ASoC: codecs: ab8500: Use guard() for mutex locks
+da41b1716fad3ce1b4b617fd2155fb0347d7a1ba ASoC: codecs: ak4613: Use guard() for mutex locks
+d46421aeac5a923ea76ad8922e285280fddc16da ASoC: codecs: arizona-jack: Use guard() cleanup helpers
+fa58edfcce1c9f86353960700905dbeae512b419 ASoC: codecs: arizona: Use guard() for mutex locks
+95cc462fe4212e0cf64546da1ecfbd88d7f6cac4 ASoC: codecs: aw87390: Use guard() for mutex locks
+9c3035088593abcf44900c5f218f5f8bd290be63 ASoC: codecs: aw88081: Use guard() for mutex locks
+a0c8cd0ecfe7b017a442943f23989d01c4dcc6a7 ASoC: codecs: aw88166: Use guard() for mutex locks
+9d8e98091f5a9aee81b8f758f31cd70f5c948b7b ASoC: codecs: aw88261: Use guard() for mutex locks
+6699b73f0080a87af8d1e052e912bef06587c426 ASoC: codecs: aw88395: Use guard() for mutex locks
+49204ed803502f13f63ec515144ad656b3381d38 ASoC: codecs: aw88399: Use guard() for mutex locks
+35150d26cb41ac4f5de6480ee468745e39fbf114 ASoC: codecs: cros_ec_codec: Use guard() for mutex locks
+53651103db9291c240f0b48e16004c63075215ec ASoC: codecs: cs-amp-lib: Use guard() for mutex locks
+fa08036d5d5b4777d9ef7942bf13b3071ee5ffe7 ASoC: codecs: cs35l56: Use guard() and PM runtime scope helpers
+6e982e8f5a23e027e757712b750be4e4dd9d4950 ASoC: codecs: cs42l42: Use guard() cleanup helpers
+d1b5d20f53df626521a90e3aa63876d47518253c ASoC: codecs: cs42l43: Use guard() and PM runtime scope helpers
+2f952d2ff5f2c23d1f0083f6d2196bdc12a73820 ASoC: codecs: cs42l84: Use guard() for mutex locks
+e6eb5e269d88d2d8622c070c865a12d65d494b43 ASoC: codecs: cs43130: Use guard() for mutex locks
+a97c200c2fed53e698e8f99cb2cf584f33246696 ASoC: codecs: cs47l15: Use guard() for mutex locks
+db698e37213b29ccd680950593484652ae9f527a ASoC: codecs: cs47l35: Use guard() for mutex locks
+cea70877a2a191a6149544da7efeb12da2509cc8 ASoC: codecs: cs47l85: Use guard() for mutex locks
+1b681fda5e51d4ff8b7c39a30e7069e780ec304f ASoC: codecs: cs47l90: Use guard() for mutex locks
+f452b00f97ced4ad14913a3e6de4f3086a3f6c4c ASoC: codecs: cs47l92: Use guard() for mutex locks
+6ced86b1e21b951d33031910606219fb6a496d4f ASoC: codecs: cs48l32: Use guard() for mutex locks
+1b302f955ecb2831f7fcc626fa6e35dc8d80d9d7 ASoC: codecs: cx2072x: Use guard() for mutex locks
+4a7c920458f432890a993e6e9388d27a2176e50a ASoC: codecs: Use guard() for mutex & spin lock - part 1
+72fe2ef11df581a36b4134107eb792eedd4bc35e ASoC: meson: aiu-formatter-i2s: remove pipeline reset from prepare
+
+--===============0540954350117006826==--
