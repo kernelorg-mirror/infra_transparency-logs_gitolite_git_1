@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Tue, 14 Jul 2026 06:02:44 -0000
-Message-Id: <178400896470.3995842.1468223977244819046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 14 Jul 2026 06:06:00 -0000
+Message-Id: <178400916070.3999040.8104942808339231857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: 1acce29926d93f3eba427696fe3da6451504dae2
-    new: e4ec3bf92cad02afce141276e42551882e7c07d0
+  - ref: refs/heads/xfs-7.2-fixes
+    old: f88caa121eac3b6a050262ac3de0c133ee17f7b2
+    new: ba5ea85a15bd1b1d379865a68f553b9925c40bdb
     log: |
-         e4ec3bf92cad02afce141276e42551882e7c07d0 dma-direct: Improve readability of the dma_direct_map_sg() for P2PDMA case
+         9202ee546b0cd71004eed7598546efe4660097da xfs: fix null pointer dereference in tracepoint
+         ba5ea85a15bd1b1d379865a68f553b9925c40bdb xfs: resample the data fork mapping after cycling ILOCK
          
