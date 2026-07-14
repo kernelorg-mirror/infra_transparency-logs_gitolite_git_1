@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2987884962873593145=="
+Content-Type: multipart/mixed; boundary="===============0252702940058093059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Jul 2026 08:58:42 -0000
-Message-Id: <178401952226.4115857.9775941858513468186@gitolite.kernel.org>
+Date: Tue, 14 Jul 2026 08:59:23 -0000
+Message-Id: <178401956364.4116211.6654036591342760365@gitolite.kernel.org>
 
---===============2987884962873593145==
+--===============0252702940058093059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8326a196a5a5424969f71f5f769b939d9ed6f05c
-    new: 92a1a79670a366c871c0dcedea25809a8200f4eb
-    log: revlist-8326a196a5a5-92a1a79670a3.txt
+    old: 92a1a79670a366c871c0dcedea25809a8200f4eb
+    new: 1f39a2a29ad212a4d04bff515f9cead6f82a77f2
+    log: revlist-92a1a79670a3-1f39a2a29ad2.txt
+  - ref: refs/heads/tip/urgent
+    old: b0fac8b267ce9037c98cdd9ed8a9b118bdb3c30d
+    new: e02bf971710afa7be5628be0cf044b8e3e3a2fe1
+    log: revlist-b0fac8b267ce-e02bf971710a.txt
 
---===============2987884962873593145==
+--===============0252702940058093059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8326a196a5a5-92a1a79670a3.txt
+Content-Disposition: attachment; filename=revlist-92a1a79670a3-1f39a2a29ad2.txt
+
+e02bf971710afa7be5628be0cf044b8e3e3a2fe1 Merge branch into tip/master: 'x86/urgent'
+fd4503b19de03c1a99cfa84bea546bcba0d73ff4 Merge branch into tip/master: 'perf/merge'
+54840c21df37d68a971096062a847e9762f4f7a9 Merge branch into tip/master: 'core/entry'
+ce43eb98fb6f01109b40c1f6baf4e02c0ffcf808 Merge branch into tip/master: 'core/rseq'
+9ef35a887cfa95d045a2732cf84038d7a2f3e6f8 Merge branch into tip/master: 'irq/core'
+163c6ea07b5d82441dee7ec13ed74c7209d81b31 Merge branch into tip/master: 'irq/drivers'
+abe4115bfdc628cf5ba47b5ad756eb98125a124d Merge branch into tip/master: 'locking/core'
+4f6097034e5d329f3f1f0826d4a7a21e317e9d75 Merge branch into tip/master: 'locking/futex'
+c558b3c349ca075d5454cb032b96b467e4c1f4dd Merge branch into tip/master: 'sched/core'
+7580174ae572910148ecf861b538cdd6bfb713bc Merge branch into tip/master: 'smp/core'
+08a15c351f80c0d3eb1ce75bee897f90f6b6891d Merge branch into tip/master: 'timers/core'
+96009a2585c1fe385800b7488b059aca9effaa87 Merge branch into tip/master: 'timers/vdso'
+6883d1663f6363935199ebf028e671de1a86f1fd Merge branch into tip/master: 'x86/alternatives'
+ead0f5e1951ef1930835d08e16500abea6d1e75e Merge branch into tip/master: 'x86/build'
+61eae9501ed775143f5755d04afb21db81639436 Merge branch into tip/master: 'x86/cache'
+16c99190a3cae831fde39c1269c8e9d1f8391e13 Merge branch into tip/master: 'x86/cleanups'
+f78958d141b0ec9b5149c0abf171cf6dcf98a155 Merge branch into tip/master: 'x86/mm'
+e14dbe5de469a87ddea80d6b871e3ec22aa71a75 Merge branch into tip/master: 'x86/msr'
+1f39a2a29ad212a4d04bff515f9cead6f82a77f2 Merge branch into tip/master: 'x86/tdx'
+
+--===============0252702940058093059==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b0fac8b267ce-e02bf971710a.txt
 
 4cd5de72b6f8951cef6b45c177a582824bc13d46 sched_ext: Avoid flooding the log with deprecation warnings
 46d65096ce8d278abf4528e254878c14ddd0b459 Docs/admin-guide/cgroup-v2: fix memory.stat doc details
@@ -61,33 +91,9 @@ e6979d05c6a6fe79980f08d63f039f0b27c30a1c tools/sched_ext: scx - Fix cmask_subset
 0e2f4ab68a89fad42e0f5a9ff4b740738e7aa1d6 sched_ext: Skip ops.set_weight() for disabled tasks
 0fd8b67e27ff7115b98aa09b9a22eb06e5370d2b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 0f26556c5eeea62cc934fa8938b148aa5844a6b6 Merge tag 'nfsd-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-4a73b93ce489a58c9a2aac4a5f5cd8cfa58ced64 x86/alternative: Drop smp_locks glue
-11b57be8e406fdf7a38677b5fcd4968534feed41 x86,fs/resctrl: Document safe RCU list traversal
-09e9ae67e62296641daef6588a29191467e6dc25 fs/resctrl: Move functions to avoid forward references in subsequent fixes
-4f6db8caa19d77252bad5a9784bc5c1057ef673f fs/resctrl: Fix deadlock on errors during mount
-f5bcf539484d2d604c2f2330e09487ea090b21c7 fs/resctrl: Prevent use-after-free in rdtgroup_kn_put()
-2d77f976885089975dcf244fd468c31c66e3cb01 fs/resctrl: Prevent deadlock and use-after-free in info file handlers
-25afd838fb2aae6325ae13937e7db06362a05673 x86/resctrl: Ensure domain fully initialized before placed on RCU list
-2566b5cd6a275c124e8f154fef6e815f92ec8d5c fs/resctrl: Fix UAF from worker threads when domains are removed
-0f63e656b1c679d32ac595de29d10c03efca6a25 x86/tdx: Fix off-by-one in port I/O handling
-1fe104b048d77d6cb25bd938e6a67450fb50e61d x86/insn-eval: Move assign_register() out of KVM as insn_assign_reg()
-941370fc93cc3474e26811f4d3b062903eefe2cf x86/tdx: Fix zero-extension for 32-bit port I/O
 f94f853f6de0d78a68a7de9f57e3b7f9dcdb728b Merge tag 'trace-tools-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e7616bb5ef5fe752e15db8a3dbd8657dc19c21f2 x86/mm/pat: Use IS_ENABLED() instead of ifdef
-e27d938b0de86304f12c89706b8034f89f015077 x86/mm/pat: Convert __set_pmd_pte() to ptdescs
-5fcb2abffe015017c252a5a720375145e808337e x86/mm/pat: Convert collapse_pmd_page() to ptdescs
-46ee485bb9dee952cab3e7b22138b9ad0e5cb468 x86/mm: Convert arch_sync_kernel_mappings() to ptdescs
-90c881895fab258924772846f2555a9c9eaac8f1 x86/mm: Convert sync_global_pgds_l5() to ptdescs
-9c453f8784dc033a35d06dff929be1eaedb3020c x86/mm: Convert sync_global_pgds_l4() to ptdescs
-dd9850c91665a56babd964df19de2cb90a98c538 x86/mm: Convert pgd_page_get_mm() to ptdescs
-278ddbd27427e4f51e6fdc0e1f11930b22b2f5a9 x86/xen: Convert xen_mm_pin_all() to ptdescs
-defbd61c2ab01654b37750ed1515864523280cc4 x86/xen: Convert xen_mm_unpin_all() to ptdescs
 f7574d3f906a963d7b70f01beff731ee0351d5c5 Merge tag 'sched_ext-for-7.2-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 3b029c035b34bbc693405ddf759f0e9b920c27f1 Merge tag 'cgroup-for-7.2-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-ff52aba53328393b517479fff3850592a708fe40 Merge branch 'linus'
-d71f52be84ee930de02230b8516a8eb42cc0d9e1 Merge branch into tip/master: 'x86/alternatives'
-5939be87918509bd3c24ee201466dc98494401f1 Merge branch into tip/master: 'x86/cache'
-8d4e8ca3d0cebdb75d0ff2db1ea4d84226d11888 Merge branch into tip/master: 'x86/mm'
-92a1a79670a366c871c0dcedea25809a8200f4eb Merge branch into tip/master: 'x86/tdx'
+e02bf971710afa7be5628be0cf044b8e3e3a2fe1 Merge branch into tip/master: 'x86/urgent'
 
---===============2987884962873593145==--
+--===============0252702940058093059==--
