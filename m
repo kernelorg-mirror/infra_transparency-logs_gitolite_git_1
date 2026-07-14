@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 14 Jul 2026 22:05:04 -0000
-Message-Id: <178406670456.514780.1275318545434707647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Tue, 14 Jul 2026 22:05:11 -0000
+Message-Id: <178406671177.515007.885123603110168691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/heads/for-7.3
-    old: eb00f4a3620ae8f5e15bc1d6a39277e7d76d2feb
-    new: 35f9cbbacb671e587c84e992e7b0098c39e895a4
+    old: ac1607366c04ad833e37c14e7b70c8f7ebe42339
+    new: 97e7efdda8a2b0c2ed2f15e4e49d25ab89d2bfa2
     log: |
-         35f9cbbacb671e587c84e992e7b0098c39e895a4 tools/sched_ext: scx_qmap: Fix stale API name in comment
+         97e7efdda8a2b0c2ed2f15e4e49d25ab89d2bfa2 selftests/cgroup: fix missing TAP output in test_hugetlb_memcg
          
   - ref: refs/heads/for-next
-    old: fc318f7010a6a82eb47158e417b65859c4335027
-    new: 3fc94aa91dda1d437b48409bca5e8c0eb9920f60
+    old: 37f35256008bb5c31804cf1baf226ba0c111d6e1
+    new: 8f12f681370d121529c9fbabb92fbcb46da0d8aa
     log: |
-         35f9cbbacb671e587c84e992e7b0098c39e895a4 tools/sched_ext: scx_qmap: Fix stale API name in comment
-         3fc94aa91dda1d437b48409bca5e8c0eb9920f60 Merge branch 'for-7.3' into for-next
+         97e7efdda8a2b0c2ed2f15e4e49d25ab89d2bfa2 selftests/cgroup: fix missing TAP output in test_hugetlb_memcg
+         8f12f681370d121529c9fbabb92fbcb46da0d8aa Merge branch 'for-7.3' into for-next
          
