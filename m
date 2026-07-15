@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0360465990348576190=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Jul 2026 14:56:09 -0000
-Message-Id: <178412736925.1328462.15926307694644324677@gitolite.kernel.org>
-
---===============0360465990348576190==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 15 Jul 2026 15:03:56 -0000
+Message-Id: <178412783677.1333233.9650406462987208197@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 088395e1a54a131291bccaae3f1301528e8c6401
-    new: ec0bbcf0d60d9d255e026eeb663225d1a91532d7
+  - ref: refs/heads/for-linus
+    old: 914c85fad93cd7daad30e5fb2e5bc7132ea25524
+    new: 3b597d24dc0455ae926f1053f97c2725038fc3cd
     log: |
-         ec0bbcf0d60d9d255e026eeb663225d1a91532d7 5.15-stable patches
+         3b597d24dc0455ae926f1053f97c2725038fc3cd ALSA: hda: cs35l41: validate and free ACPI mute object
          
-
---===============0360465990348576190==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784127363 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784127367-a14b7784e057a66832b8d104260b6811976a0c01
-
-088395e1a54a131291bccaae3f1301528e8c6401 ec0bbcf0d60d9d255e026eeb663225d1a91532d7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpXn4MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1gkP+gKsCm2LWixzmwJEyEjQ
-qUsn1+yGhjFShfd5CXDBa1UsLYjIyPiwtx0r3VJ3xRhBwGw5f1aZkwxvfF5ryysV
-elqusVnohdHPcJg1vuduw+iicu549H9nzseKi5Lt3h1kX+9+iPY4InMWcsBABz0v
-Hcjh8cVQU+QgLStZ4DHEIOMDm5qk7VZtTMoI8El6kDDO1seFjUILcOxnDlQwXnF5
-pYV+F9tuVMAFV4jfhbbjOLSao6NX1JuVjejKtjW0drSM98EvpA3yLqF89CIHjZN7
-YBJvVGLv8J1LvRubXLi31FBX59aQaglfja9q4a8OZCjFwccDTT9hdZXd1hDcnA3y
-vuUAlACpU6gJiP0EE//3w+6rA+4HshkJl1kcpIZkkTnH6EWZMtlW/5xeCmH4C9p+
-rbVWqvxqj3dgjoJKdHW1tGR9vuEeKaBJ282eMwGZK3T0MedfdwKy4RqT5YPxhrFX
-Q7+GViQcKAvRVG6f5DGv+A/+LUUMLb/GO7Cu7VntvJoByu+GtY8cQMMk0THbtCQc
-pbokceAKvs8fjNo5z05ASnz/QB4YKH5+D34YXII4p5rGPxjs0uJF+b1luuYOGq32
-vYicAia+LeL8HFyosmf2hwrMa2NVt9VuqvA1Pcq742OokHa3Pcs9SA047mM2cquL
-D+S6s5WYWngaI670L0L/TAYV
-=xkAt
------END PGP SIGNATURE-----
-
---===============0360465990348576190==--
+  - ref: refs/heads/master
+    old: 41f1f6d8d2cfaba1fba07af993c9319a1ff2c81f
+    new: 0aa7da9a5edf4ce7eb0ec70ab277f453bbd419b8
+    log: |
+         3b597d24dc0455ae926f1053f97c2725038fc3cd ALSA: hda: cs35l41: validate and free ACPI mute object
+         0aa7da9a5edf4ce7eb0ec70ab277f453bbd419b8 Merge branch 'for-linus'
+         
