@@ -1,26 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 15 Jul 2026 23:52:19 -0000
-Message-Id: <178415953924.1732989.7410753564307716945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 15 Jul 2026 23:55:34 -0000
+Message-Id: <178415973466.1736051.10864731196364550294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 604062ad51c75cf6ecd6a5823dc42b48e8d47838
-    new: e863d7bdc69e2099a99065534d8b71048fb8d5f9
+  - ref: refs/heads/for-7.3
+    old: 35f9cbbacb671e587c84e992e7b0098c39e895a4
+    new: 8946dbd3aa91acfb75b1633859290ba248e313b2
     log: |
-         2bd4ad6914ed73189ccc2fb2740e94dafd1a9a8f perf sched: Add missing perf_session__delete()
-         60de2c6561ae57b5f2c50efecc1fa1f0081f731a perf sched: Fix memory leaks in perf sched stats report
-         e1f522ac439f94d56cf0d9a3c82d1953646d377a perf sched: Free subcommand string after perf sched stats
-         557f8b3ca8c8e58d5bc3084734bc7a470b043922 perf jevents: Add more components to the metric sorting order
-         2b36eba5d1b6d49a9349784eec9107ee96e172e4 perf jevents: Add python type annotations
-         982407369e7e57bf16f5c6ae915d506dd6654bbb perf jevents metric: Add python type annotations
-         e59e6e473c0db1475caff16c468112e7e35cd37b tools/lib/api: Fix potential double-free from fdarray__grow()
-         e863d7bdc69e2099a99065534d8b71048fb8d5f9 perf stat: Do not open cgroups for BPF counters
+         34e0fbfe6737f461d1ee0e52ac1179221b95272f sched_ext: Remove queued ecaps syncs directly on sched teardown
+         7f480f34b78a0f482fbaa2aadece036aad275a74 sched_ext: Move scx_dispatch_sched() to a new inlines.h
+         6ba3bd6f22314072d36949767e1d1192b97e5ba4 sched_ext: Gate sub_dispatch_prev with CONFIG_EXT_SUB_SCHED
+         8946dbd3aa91acfb75b1633859290ba248e313b2 sched_ext: Add the scx_has_subs static key and gate sub-sched hot paths
+         
+  - ref: refs/heads/for-next
+    old: 3fc94aa91dda1d437b48409bca5e8c0eb9920f60
+    new: 1ed374f61d7ce64a8e35def02e223304cd4a52cb
+    log: |
+         34e0fbfe6737f461d1ee0e52ac1179221b95272f sched_ext: Remove queued ecaps syncs directly on sched teardown
+         7f480f34b78a0f482fbaa2aadece036aad275a74 sched_ext: Move scx_dispatch_sched() to a new inlines.h
+         6ba3bd6f22314072d36949767e1d1192b97e5ba4 sched_ext: Gate sub_dispatch_prev with CONFIG_EXT_SUB_SCHED
+         8946dbd3aa91acfb75b1633859290ba248e313b2 sched_ext: Add the scx_has_subs static key and gate sub-sched hot paths
+         1ed374f61d7ce64a8e35def02e223304cd4a52cb Merge branch 'for-7.3' into for-next
          
