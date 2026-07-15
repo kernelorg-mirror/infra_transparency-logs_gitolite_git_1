@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4764006367388938249=="
+Content-Type: multipart/mixed; boundary="===============5613089616708643631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 15 Jul 2026 17:28:36 -0000
-Message-Id: <178413651613.1449541.769367879462775181@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 17:32:30 -0000
+Message-Id: <178413675013.1453180.11188583935797296768@gitolite.kernel.org>
 
---===============4764006367388938249==
+--===============5613089616708643631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: ea07c7997d4c67189af0b56919a5f4c39a495fd1
-    new: c09f00f59b300d1d9891518bfec711890e7ba46f
-    log: revlist-ea07c7997d4c-c09f00f59b30.txt
+  - ref: refs/heads/40GbE
+    old: 630aad4bd2191d98444aabf7b7802ab8451dc537
+    new: 145defbb9be0462f517383600621c1a4ff3f6cef
+    log: revlist-630aad4bd219-145defbb9be0.txt
 
---===============4764006367388938249==
+--===============5613089616708643631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea07c7997d4c-c09f00f59b30.txt
+Content-Disposition: attachment; filename=revlist-630aad4bd219-145defbb9be0.txt
 
 5ecbbb179e0c737eb1360a877508766efb16f010 rtnetlink: Lock sock_net(skb->sk) in rtnl_newlink().
 49c26d4bf1daa8ada5a2015646adbf7b1b716b8b rtnetlink: Call unregister_netdevice_many() only once in rtnl_link_unregister().
@@ -42,20 +42,22 @@ aabbdb8c76d7b912d9a6bb2b1e835eba54a53a8d ipvlan: Synchronise ipvlan_init() and i
 00a40d809207a61f0762488aa5ce72e941b367ce ipvlan: Support per-netns netdev unregistration.
 71ac90cca6d8e6fcdd674a50157181ef4ac441a0 Merge branch 'net-support-per-netns-device-unregistration'
 f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e net: ethernet: qualcomm: remove unneeded 'fast_io' parameter in regmap_config
-52d6272c80292f225e4411d13b62454f781272b5 virtchnl: move virtchnl and virtchnl2 headers to 'include/linux/net/intel'
-f03a416284ee1d892efeffbc7fcbd652336ca6e8 libie: add PCI device initialization helpers to libie
-5c273d8a71c5ea70ad635d6033d4d6189a0087a6 libeth: allow to create fill queues without NAPI
-b00854ce544d930a2f14f46a830e40004f378235 libie: add control queue support
-ea45347e9cbac1f9433139eed063d1790ed45087 libie: add bookkeeping support for control queue messages
-5d1a4e5066965e072af45c8467e846f0e71de8a2 idpf: remove 'vport_params_reqd' field
-04574414e0c930058055b819bd527172b40d8c3b idpf: remove unused code for getting RSS info from device
-8bef86ce951894bc4cff9c64ecdac998fb632c16 idpf: refactor idpf to use libie_pci APIs
-72e6beafbd04c2ab9ff7633d99c9b0236dcaca70 idpf: refactor idpf to use libie control queues
-9a6ce9cfba583a80d0d7cb201ea098c5ad72d611 idpf: make mbx_task queueing and cancelling more consistent
-cd6868b2e8c3067c6cfaedb62698e46d50f0b65e idpf: print a debug message and bail in case of non-event ctlq message
-87687715b5d5b889d15d2913894f6ff8967cb616 ixd: add basic driver framework for Intel(R) Control Plane Function
-dd3b58ead00a339fe669a23c751594d3ac449773 ixd: add reset checks and initialize the mailbox
-05ed9df716e072263e418498d942ee9364c24349 ixd: add the core initialization
-c09f00f59b300d1d9891518bfec711890e7ba46f ixd: add devlink support
+e87ad770d0e4ab77ebcc7d596724f8d5f9a057cb virtchnl: move virtchnl and virtchnl2 headers to 'include/linux/net/intel'
+bce849ecfe3770ff93d95747e21a63636493725b libie: add PCI device initialization helpers to libie
+be5cb613093be41fffd7b13ede78916207f6b8fe libeth: allow to create fill queues without NAPI
+a059c2c326e845f10f0356aa0066baaf306585ea libie: add control queue support
+249bef4ea30cf993a5b0514c43b9f88c4a3316b4 libie: add bookkeeping support for control queue messages
+3f88132227f77710535aabcfc5c42a2ac8ce8569 idpf: remove 'vport_params_reqd' field
+a1f9380fc47bc22ee845d9ff658dceaa480642ee idpf: remove unused code for getting RSS info from device
+b5e9d1415ede7ed580049278b2f136cd46aabc91 idpf: refactor idpf to use libie_pci APIs
+69d0f88c814b4a39a757004afb1d5d9fa106c31f idpf: refactor idpf to use libie control queues
+60438fbaba3decf1c4c88ecd91a53978592a32e3 idpf: make mbx_task queueing and cancelling more consistent
+e199d1d766b02620e2eb049995d4d979fc10a0d4 idpf: print a debug message and bail in case of non-event ctlq message
+f567d931fd15a26dee929e7136f9ec80d941b044 ixd: add basic driver framework for Intel(R) Control Plane Function
+3de78d3c7b01567279d6c9f9f0b655e1b8575756 ixd: add reset checks and initialize the mailbox
+c30723b47048197b614af4d9796eca087806d7e3 ixd: add the core initialization
+50bee7de2582ceed122d4ff6b76f006d809dd4dc ixd: add devlink support
+b02027606a30c384162e834657b89ea1e614c12e idpf: remove conditional MBX deinit from idpf_vc_core_deinit()
+145defbb9be0462f517383600621c1a4ff3f6cef idpf: implement pci error handlers
 
---===============4764006367388938249==--
+--===============5613089616708643631==--
