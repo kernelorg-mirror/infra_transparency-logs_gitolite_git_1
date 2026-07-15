@@ -1,41 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1242850126896752153=="
+Content-Type: multipart/mixed; boundary="===============6880335114628091109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 15 Jul 2026 19:10:23 -0000
-Message-Id: <178414262313.1527271.10576360030501831010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 15 Jul 2026 19:30:59 -0000
+Message-Id: <178414385991.1541675.18133662311457723656@gitolite.kernel.org>
 
---===============1242850126896752153==
+--===============6880335114628091109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: ccccd2ff44612c3b957eac8f16bd7c85e0507388
-    new: 1d8304bdd65f78a061e1f57be596c2776faf083a
-    log: revlist-ccccd2ff4461-1d8304bdd65f.txt
+  - ref: refs/heads/next
+    old: 5d9f1dd3b3e7bd64ac7ddedf28fcb7db81053819
+    new: 44902b3a25c023a3917546a38c31a7828d6f04ce
+    log: revlist-5d9f1dd3b3e7-44902b3a25c0.txt
 
---===============1242850126896752153==
+--===============6880335114628091109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccccd2ff4461-1d8304bdd65f.txt
+Content-Disposition: attachment; filename=revlist-5d9f1dd3b3e7-44902b3a25c0.txt
 
-5caae1deee89a6582c761d5dcd4b924b744426cc riscv: hwprobe: Avoid uninitialized read in hwprobe_get_cpus()
-fe4b5ffbd296bcf20633f7ee19b4c7df74c1a1ed riscv: efi: Power off via EFI runtime services when available
-da1e1e1bf7d380c519324705ea5498097a2011c2 riscv: Restart via EFI runtime services when available
-fbd9ba95b7d69f5754791718d650cc0d310735be ACPI: tables: Add missing #include <asm/fixmap.h>
-8fc2314adb6d82165cf47b36cec433b4d3ac0543 riscv: acpi: Enable ARCH_HAS_ACPI_TABLE_UPGRADE
-9973e8e9c2cb6167e763c12bd0c37f9205a8068c riscv: probes: simulate c.jal instruction
-3740927837a8829afbb5bc293b7520fe0a2094ac riscv: kprobes: add test case for c.jal instruction simulation
-15ce1d7c4ddfe0dff00fcaee4ccaeef3efbc62c6 riscv: mm: flush TLB by ASID in update_mmu_cache_range()
-6dfbb04908eb630ae6a592454b28c2f666a20a5a riscv: mm: Apply Svinval in update_mmu_cache()
-6c6e34ec895a21549f33847ca5448f643d59f042 riscv: vdso: Simplify cflags remove logic
-1d8304bdd65f78a061e1f57be596c2776faf083a riscv: cfi: reduce shadow stack size limit from 2GB to 512MB
+97ca178c899d0049210d325b123ed024eb5ac000 PCI/DPC: Allow DPC on all Downstream Ports when OS controls AER
+985fb7419fe27bc2ba17397f9bd8cc52151350ba PCI: acpiphp_ibm: Do not use uninitialized device_class
+651fb94aaf245430590216d497fb8b02dd73d5f9 alpha/PCI: Fix I/O port accessor argument order in pci_legacy_write()
+2c5768344f88b86188c5915327bb00e6aad24990 PCI: imx6: Move pci_pwrctrl_create_devices() to imx_pcie_probe()
+f26b1c697a2bd72b1b68dca78ab1e95701a0ffb6 PCI: imx6: Add 'skip_pwrctrl_off' flag support
+e290be3134994f8b84c9d0026666d4f146131d86 Documentation: PCI: Fix sysfs-bus-pci typo
+068601b547da091d9f56131cbb25e40ad40f4825 dt-bindings: PCI: mediatek-gen3: Add support for MT8189 SoC
+394dfd6294de8e3a44bf0e5abea4edfd8d4df461 Merge branch 'pci/dpc'
+db4f91fe3c723bf3c64fb4cba554f49781085bab Merge branch 'pci/hotplug'
+5e4164663f121fd07b8e2ce079d55d7ed84a3ad7 Merge branch 'pci/sysfs'
+60aba2baf49b10acb919d5f53b9b27de0dcc43ac Merge branch 'pci/dt-binding'
+0c3bbe7bd0a9887c62e55c95c5050dcc3757d1cd Merge branch '93aac16f1eb9'
+ed4e48dfd42f260911c9c7f67cdf49ffe6b2c588 Merge branch 'pci/controller/dwc-imx6'
+006889c697b5d81e72dd45420dcc876614e0ad6d Merge branch 'pci/controller/dwc-meson'
+91a6085b8a86b46385f1dec4d7a174490cfb9797 Merge branch 'pci/controller/dwc-qcom'
+4b201ec5ff9439316341a3f5b5c67d968f55e752 Merge branch 'pci/controller/rzg3s-host'
+44902b3a25c023a3917546a38c31a7828d6f04ce Merge branch 'pci/misc'
 
---===============1242850126896752153==--
+--===============6880335114628091109==--
