@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6203496460684902878=="
+Content-Type: multipart/mixed; boundary="===============7504721084740884568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 15 Jul 2026 17:20:56 -0000
-Message-Id: <178413605616.1444786.7565677463242256075@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 17:21:02 -0000
+Message-Id: <178413606212.1445043.746795829243076725@gitolite.kernel.org>
 
---===============6203496460684902878==
+--===============7504721084740884568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 33ea68afb862b204b4f307d2ff39c87689b1e405
-    new: a83689d50ef62f518a28311013b97a2da9b42ff1
-    log: revlist-33ea68afb862-a83689d50ef6.txt
+  - ref: refs/heads/for-next
+    old: 8c387ff5bab7de04b25ea8736977fc183848c17c
+    new: f041a428881dc576d8f2cd5f1ae4dc671624369f
+    log: revlist-8c387ff5bab7-f041a428881d.txt
 
---===============6203496460684902878==
+--===============7504721084740884568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33ea68afb862-a83689d50ef6.txt
+Content-Disposition: attachment; filename=revlist-8c387ff5bab7-f041a428881d.txt
 
 c2200063763645d3c23a9428d3f636ed67b2df7a remoteproc: qcom: pas: add needs_tzmem flag to trigger shmbridge creation
 6aa64a4c89faec9daff36828df38f8f69498a870 remoteproc: qcom_q6v5_mss: Make ssctl_id configurable per platform
@@ -37,5 +37,6 @@ f44ae8ce156a387b07d40e2d6a0ef979a2748aa1 remoteproc: qcom: Check subdev start st
 0ec167625b4fea30b26da33c188e853ff25d5583 remoteproc: core: cancel crash_handler work in rproc_add() error path
 e1de7da25434994c3d270cbed0d2311d9620da09 remoteproc: qcom_q6v5_pas: Create platform device for BAM-DMUX
 a83689d50ef62f518a28311013b97a2da9b42ff1 dt-bindings: remoteproc: Drop redundant $ref of firmware-name property
+f041a428881dc576d8f2cd5f1ae4dc671624369f Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============6203496460684902878==--
+--===============7504721084740884568==--
