@@ -1,269 +1,156 @@
-Content-Type: multipart/mixed; boundary="===============7987716855305404545=="
+Content-Type: multipart/mixed; boundary="===============7441738132892971415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 15 Jul 2026 15:14:51 -0000
-Message-Id: <178412849171.1341645.12209020541307853437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 15 Jul 2026 15:17:41 -0000
+Message-Id: <178412866109.1344962.150966378604888903@gitolite.kernel.org>
 
---===============7987716855305404545==
+--===============7441738132892971415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/jch
-    old: 722bd3a5bbcbe3c189143ced1e290d52d75de5f3
-    new: 4cee9bc75ae78fa79be4e6659e9b8cda9682d9a0
-    log: revlist-722bd3a5bbcb-4cee9bc75ae7.txt
-  - ref: refs/heads/seen
-    old: 630cf86933212af0a834259b1b52ed44df734685
-    new: 6d775021bfb4dc48b55004bbbe8fd729695568ab
-    log: revlist-630cf8693321-6d775021bfb4.txt
-  - ref: refs/notes/amlog
-    old: d9dcb1bfce3f6e7314891a2a0f16cc01a9fdd788
-    new: 1a97a8a7c67668f9c95c1e754a60e54dabefae34
-    log: revlist-d9dcb1bfce3f-1a97a8a7c676.txt
+  - ref: refs/heads/damon/next
+    old: a5837308e9312373c6f45ed6ecd64da2a27bdb4f
+    new: c8800270178200e23ddf806d732ac36b858547b9
+    log: revlist-a5837308e931-c88002701782.txt
 
---===============7987716855305404545==
+--===============7441738132892971415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-722bd3a5bbcb-4cee9bc75ae7.txt
+Content-Disposition: attachment; filename=revlist-a5837308e931-c88002701782.txt
 
-27bed41ebb11ffdfcb79cf74fd4122ac41420f26 odb/source-packed: improve lookup when enumerating objects
-03aaa4f8985ce4813033c1afa36ebec7d7e2a9a1 pack-bitmap: mark object filter as `const`
-6f48b8ce56171419f768902b300365c1b6708c96 pack-objects: drop unused return value from add_object_entry()
-1ca65ca7b8bce87268900e39315888fd10fc350c pack-bitmap: allow aborting iteration of bitmapped objects
-eaa9807c970254e503cdb2d719d873521de4ed05 pack-bitmap: iterate object sources when opening bitmaps
-db95bfc121aa9725e8128d7b1dd73330c0beb7f9 pack-bitmap: drop `_1` suffix from functions that open bitmaps
-8cd7ee7b0d12fce9449ea08fe394e18dc97fe059 pack-bitmap: introduce function to open bitmap for a single source
-204daf5e5c6f931352ddde16236e9705075d15bf odb: introduce object filters to `odb_for_each_object()`
-bfa86e6a3a80b910f0875350d747f7a831694b18 builtin/cat-file: filter objects via object database
-805bba993b0697017666babd598e18aa5bef5018 Merge branch 'jc/history-message-prep-fix' into jch
-27ad31dda25985560bee7b8bfc42bd1d91e5b24c Merge branch 'ps/refs-writing-subcommands' into jch
-a45ed2d3ed60875c95407303589ab8533438ad07 Merge branch 'ps/odb-drop-whence' into jch
-64fd0d79c51be140661e4d99d731b028b0665939 Merge branch 'ps/history-drop' into jch
-693964f36b14e1d5ec4a8a0c76dc4d9c6183c5d5 Merge branch 'jk/bloom-leak-fixes' into jch
-22796cbbaa16234ed2279656e6bdbe1e43cde608 Merge branch 'mg/meson-hook-list-buildfix' into jch
-96c335706b1bcb1bacc503612675a2514f3b9047 Merge branch 'rs/blame-abbrev-marks' into jch
-62366a7a54e8c17fb64fe00c112b29a5a4d972e7 Merge branch 'jk/hash-algo-leak-fixes' into jch
-b323659bfd632e5035f8c0b7d09471af75ecc064 Merge branch 'js/coverity-fixes' into jch
-2e14182ccb465041103d043d2cacd4a3362ea24d Merge branch 'js/ci-dockerized-pid-limit' into jch
-a82bf2b8898815398333dea3aec528870b9bb694 Merge branch 'ps/t-fixes-for-git-test-long' into jch
-0f8c761e7380660254c7648e5d242aa05b8ce01c Merge branch 'ih/precompose-flex-array' into jch
-396c562bcf69b91970bf686fd97f17b1d36fc343 Merge branch 'jk/git-hash-cleanups' into jch
-77a63309727b63cdbaff51b694e69dce232844b2 Merge branch 'mm/sideband-ansi-sgr-colon-fix' into jch
-3276f9a24f7881e0891940257c96093d74ee4f97 Merge branch 'tc/replay-linearize' into jch
-4d446819deb70ed503a6c1729b1c245580359eba Merge branch 'ps/reftable-hardening' into jch
-d93e565f822567a110b25d86f15c289b891ddba7 Merge branch 'ps/setup-split-discovery-and-setup' into jch
-af33123860ac690602ae791fc4685a4f75431217 Merge branch 'jc/relnotes-2.55-rust-fix' into jch
-a5c7dcb0b0c292de9547012e77a021d2a428cf71 Merge branch 'kk/commit-reach-find-all-fix' into jch
-55797ff4a8bb548280062b506fbfd8179b79b702 Merge branch 'jc/submitting-patches-abandoning' into jch
-b6a679d3a082db369f9d85ee970b9759a33062c5 Merge branch 'bc/parse-options-exit-0-on-help' into jch
-c6e6a7e826887c5934f90f05dd6511359a2c3684 Merge branch 'sn/osxkeychain-rust-universal' into jch
-b39c4433ee3f01d604f87869ff124b85eeb7c866 Merge branch 'mm/test-grep-lint' into jch
-c169baf3a885c14af8cc300f2aa1ecce1c7a7926 Merge branch 'gr/t1410-reflog-exit-code' into jch
-9ecc203f3776b6845cf514cfdc459d8d0a1637d5 Merge branch 'wy/doc-myfirstcontribution-trim-quotes' into jch
-91edc5939b3bcfedba804aa0a8f3dde379353bd8 Merge branch 'hf/unpack-trees-quadratic-scan' into jch
-c9ca81dc4cdd97c2a5f74ca85fff8f6ac6a9856a Merge branch 'tc/bundle-uri-empty-fix' into jch
-b980983d3e4914eb31804f1d60824dbcb1bef590 Merge branch 'ty/migrate-ignorecase' into jch
-cd47c12673d942992350786d91a08a9248f70a90 Merge branch 'kk/commit-graph-topo-levels-fix' into jch
-dcca595cf5477dee5a8eee1880a4a1961a903e75 Merge branch 'kk/reftable-tombstone-quadratic-fix' into jch
-f768999a58bfa3b59720b434a22f32b5e378dacf Merge branch 'js/coverity-fixes-null-safety' into jch
-6dcd68b0afd4d478132df7bde2d326792d1ab456 Merge branch 'ps/odb-stream-double-close-fix' into jch
-0d81fd6da7f8dfc454da7e922775fc5fd830c2e3 Merge branch 'cl/b4-cover-change-id' into jch
-aa634479d15f43081ab29c6d16cf9f734446df7a ### match next
-f15f327f7a0b23989685ab7c7c4adaa8a85f2b57 Merge branch 'bl/t7412-use-test-path-helpers' into jch
-777e09f227f6720bb4923a868afa2627e86e8b00 Merge branch 'kh/doc-replay-config' into jch
-a6db46cabd23a3a409a131cd8d98e28aff24eb8e Merge branch 'za/completion-hide-dotfiles' into jch
-4be360f7dce715fbb09dc82904b998e5ca24539d Merge branch 'kh/doc-trailers' into jch
-afff74fe0f281cf9b10346407fdfbc2c828c466e Merge branch 'dk/meson-enable-use-nsec-build' into jch
-eeb07c057919487ea089ff235a66c9564d41c0e6 Merge branch 'pw/rebase-drop-notes-with-commit' into jch
-29a6492d0dc16870463b8483ded56feacf899e58 Merge branch 'ds/sparse-index-ita-crash' into jch
-c2bc3a0ef56f3741afff4e08fae403e481cd22c9 Merge branch 'ij/subtree-reject-v2-config' into jch
-9937a16cbaba92c21e4fc844dfcd91a813ccccd6 Merge branch 'ps/odb-pluggable-housekeeping' into jch
-91175177178515580018288155197de95d14081c Merge branch 'mm/lib-httpd-cgi-safe' into jch
-c35d8dca80bef1df28f70c7bd447cf17b83706f3 Merge branch 'dm/submodule-update-i-shorthand' into jch
-ad7b49d7554317b2ffecf3e9710362621fa670c4 Merge branch 'ps/shift-root-in-graph' into jch
-c80bb6a0a663391a157917bf296427a0849203c0 Merge branch 'ps/odb-for-each-object-filter' into jch
-18e9315966bfdf162f709d5fb5f21a01f0de4090 Merge branch 'cl/conditional-config-on-worktree-path' into jch
-0f7379a083b35aa70f8f4fcaf769df5f071006ae Merge branch 'jt/receive-pack-use-odb-transactions' into jch
-36487a19528767c2d8dc7f47f033633c86e79b2c Merge branch 'ml/t9811-replace-test-f' into jch
-9526a86cfba245fcf20c6cbe2ced1c90e265a123 Merge branch 'sk/t1100-modernize' into jch
-8a7a1bf59611fe8dbb383beb0d41f451913b5e4f Merge branch 'cc/doc-fast-export-synopsis-fix' into jch
-dabd687fb229f7cd37d2b4d943f6c4c5d1fc126a Merge branch 'rs/strbuf-avoid-redundant-reset' into jch
-4cee9bc75ae78fa79be4e6659e9b8cda9682d9a0 Merge branch 'rs/tempfile-wo-the-repository' into jch
+89d009e900238dd7db588183051d78af7d461246 ==== from contributors ====
+73c2fb2ac07d027a3380d18673911a203e3620d2 mm/damon: remove trailing semicolons after function definitions
+81b30122d60693fb0752e337c9873a4a208e2bc7 mm/damon/ops-common: prevent migration fallback to non-target nodes
+32752d94bc84faa03a7228d50cee9ba26a626488 damon: update outdated comment about DAMOS filter handling
+ac4e5c78f8c724fecd003ff3acdd472b78cf9868 === non-hotfix: rfc ===
+de50f1016b692db06b9693f04bda62a5ff1875e1 === hacks in progress ===
+455d1384ae2a0b1fd33e5f82c46000fd5749dd07 ==== fault/report-based monitoring for per-cpu and write ====
+9447af407a19321153b5e711d7bca1aeefc20655 mm/damon/core: implement damon_report_access()
+7085fdeb2d43f2c2cfcea8691ad7b27f94fb207e mm/damon: (fixup) fix typos
+b2efd47c72c053c436306164441ad80fb13ac23e mm/damon: define struct damon_sample_control
+1ea2786b2d0cea0946991757314abc5a022e27c8 mm/damon/core: commit damon_sample_control
+748178ab3a51228efe8ea2e69c2b61231201101b mm/damon/core: implement damon_report_page_fault()
+9af72a228b0d05d87f1409ebfbede2cc4954f20f mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
+4231ec54027e60f4eda7a5a7bebe9d54aab1792b mm/damon/paddr: support page fault access check primitive
+7b0345e8840802caac1e87eed092ed1c67312257 mm/damon/core: apply access reports to high level snapshot
+373a1dd4f4364f3f42edd1e364b678a426ca3f53 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
+9ce7a42f2d9a183b67abd1f183c2ab55181b10b3 mm/damon/sysfs: implement sample/primitives/ dir
+f90a2faf66f537bf24bdac34944831d7370d6028 mm/damon/sysfs: connect primitives directory with core
+084dd463dd5cddf7cf4bf4341d19fa50cac19be1 Docs/mm/damon/design: document page fault sampling primitive
+95687a521e095babd0e656d045c8e7d537f944f2 Docs/admin-guide/mm/damon/usage: document sample primitives dir
+a842b0a8572bdd8666438cea589af826d4641feb mm/damon: extend damon_access_report for origin CPU reporting
+5bb40d9c2658df17051e640c0c41a7de8a993bcf mm/damon/core: report access origin cpu of page faults
+9a567392c4f63ac6532b8c2187a70fe4b4d2eb9c mm/damon: implement sample filter data structure for cpus-only monitoring
+dea1c00509002dbe27a8df30cac67d65cd6bbe86 mm/damon/core: implement damon_sample_filter manipulations
+115cd7720aa1674f0ef1fa45f320a8d38277b39c mm/damon/core: commit damon_sample_filters
+39b492d25d0b082f33d44b4cf477f5d17db3f5df mm/damon/core: apply sample filter to access reports
+7526219c97ce1ab52cb35ca5fa942e0af6c44ed9 mm/damon/sysfs: implement sample/filters/ directory
+0439e023ef53624628d5c1714daa92d7bb3e494f mm/damon/sysfs: implement sample filter directory
+9cdf5774a3b763030ef1df7246cb160e05773c58 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
+218f164649cb7072731246d74465fb1db9b64092 mm/damon/sysfs: implement cpumask file under sample filter dir
+4334eb26407de16b86388986418a5c27fd04d5d0 mm/damon/sysfs: connect sample filters with core layer
+551e720fe71aac62e6088dc25459d7eab2994a80 Docs/mm/damon/design: document sample filters
+12071a86cd46432599d172b11a71fa342903681e Docs/admin-guide/mm/damon/usage: document sample filters dir
+cfc3b92a13731f6af0e6f4cff9ebdd5a8b8a3045 mm/damon: extend damon_access_report for access-origin thread info
+b7efff44a465b7febbdbedc9b727ebbb9670a9cf mm/damon/core: report access-generated thread id of the fault event
+25499e262197fb3361c29b53f8a8a823652e3fdb mm/damon: extend damon_sample_filter for threads
+ae732ee6ea28c16afe8c17c2e1769862a32be6d4 mm/damon/core: support threads type sample filter
+27f2ed179952827151d31f10f36d3c392bb26c75 mm/damon/sysfs: support thread based access sample filtering
+306ae0789b131bab63e11b315b950684712490ef Docs/mm/damon/design: document threads type sample filter
+268dc70d8f5870cb44d014c800dcdc1ba6d3b8fe Docs/admin-guide/mm/damon/usage: document tids_arr file
+61b5b1f16ae947374f1f36ff3b8fd9c94492442b mm/damon: support reporting write access
+a69914a2c8c6a992abef8deb114f4e663799c828 mm/damon/core: report whether the page fault was for writing
+fb886c779a6b94f1e869e0e16e3db94eee0ce292 mm/damon/core: support write access sample filter
+f8b7aa9a20e554c6c5c2a385722aa2c8ec560f1e mm/damon/sysfs: support write-type access sample filter
+0205c6bb594e591ce564fe0ff49159c8f04ce55f Docs/mm/damon/design: document write access sample filter type
+af8da37c940b7dfe3beb31c61527251285bdf0c2 mm/damon/core: elaborate access reports dropping behavior
+085d0127abb12bcad137893de813db6d69945bba ===== fault-based vaddr monitoring =====
+54a0310cb79602a8db2c658339aa5ca8d6c83767 mm/damon: rename damon_access_report->addr to ->paddr
+06e54c04f5334b1db4c302f6177fc0efc9b677b3 mm/damon: extend damon_access_report for virtual address
+49218f3bee453ee4a7251c31051828cc84d296af mm/damon/core: set damon_access_report->vaddr from page fault report
+b10c191f0c0ebd3bf5bb7ec99e62a9a709a43ca1 mm/damon/core: support vaddr reports
+cf9dccd34e59a5e133cd3be94d224ee33e4a7496 mm/damon/sysfs: move sample directory code to sysfs-sample.c
+5bedcbf804048a23a928d03ed38f5ee633b18026 ==== docs for DAMON and mm ====
+4467efa445fe6938f6c960445116be557420637b Docs/mm/damon/design: add table of contents for overall and DAMOS
+161b2f0d281cbdbb7c862ee6c35786d3b2ab7ebb Docs/process/2.Process: Update mm tree URL
+52153197c3f7b571bd16f9dcc60e3ae9a51b05c8 Docs/mm/damon/design: add API link to damon_ctx
+3e49fc559b59848d20f103962f0baa5dd481c803 ==== ACMA ====
+a150f33920a5b31a36c3de0656d4f608cd02af34 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+8c836a8367fbf4456b101faad883b37d726bbbca mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+84b2306105d9ae530abe2f6f605af056659e4d9c mm/page_reporting: implement a function for reporting specific pfn range
+12a7eff1115e95a0565b22ce0792d6e07c06f1f0 mm/damon/acma: implement scale down feature
+6331dc7f0fd39a93bff5e5ecebfaf7c9c66fb7f8 mm/damon/acma: implement scale up feature
+72e0dd42552e0120c11cc345c75d9a7c704556ab drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+ed08b14ea937cc856fbf85472e9bf3c9bc57d2c5 mm/damon/acma: assume damon_stop() to always succeed
+886e2d1e17c9f8e4916e8e6375cfa4fff60dd492 === commits aiming not to be posted ===
+c7daacc5a03a67231c45095d5d21e38bc64e199d mm/damon/core: add debugging log for intervals auto-tuning
+0c6459a5c007f76d3ea025815cea337ab2698b15 mm/damon/core: add todo for DAMOS interval validation
+e7005e7001d25f5e5a873bedba35a8493c055580 mm/damon/core: add debugging-purpose log of tuned esz
+34b61a53e8119f2a9a896fea7c692b32aa6fc10b Add debug log for PSI
+f75612931479f2e1ec855c26c2cbd4639d789b33 ==== damon_filter_type_pgidle ====
+d155aa04d1a418cc92b4705ab59ddd297c9b4d82 mm/damon: introduce DAMON_FILTER_TYPE_PGIDLE
+b810148e70aa3a7b987c349f6d0db836a93e4dc7 mm/damon/paddr: implement DAMON_FILTER_TYPE_PGIDLE
+a2c94348a394039abb04cc534e1bd22976b1d728 mm/damon/sysfs: support DAMON_FILTER_TYPE_PGIDLE
+b24f3338d1f339c551592b4a2a2384f1d2f97542 Docs/mm/damon/design: document DAMON_FILTER_TYPE_PGIDLE
+1e39cd8ea5bf331563089f5c650477d9c599d08a ==== damon_prep and set_pgidle ====
+fad7ee833e740239ab42941835900c6c50c47483 mm/damon: introduce damon_prep
+5e2c4271f8452c5cc08f53a7ba0839640d43a853 mm/damon: add damon_ctx->preps
+3a4c1180d8c94a02439cf3298cefc0feca21de73 mm/damon: introduce damon_operations->prep_probes
+3dadf82ccb4cc4971ab93199cf9727b410164847 mm/damon: implement damon_for_each_prep()
+10e768c822b3fde69f788cca5cecf3b7f9307865 mm/damon/paddr: implement damon_operations->prep_probes()
+2cbf6e5d3f6ab8aed01e36e3b51c33db563ada05 mm/damon/sysfs: implement preps dir
+8492058a4c19ea4f3a7142b9cf2772356cd01140 mm/damon/syysfs: implement prep dir
+c245545a76e94eff632424f2e3b14bcfd0dcdc45 mm/damon/sysfs: implement prep dir files
+c63d6d22a62fdd6388283ec17dde95350b233066 Docs/mm/damon/design: document prep actions
+2cd415b173dada473b3da36a1968d9a7c68177e6 Docs/admin-guide/mm/damon/usage: update for prep dir
+a1dc55054a5e8d96aca1806a218a1fff1b26335a Docs/admin-guide/mm/damon/usage: document preps dir
+2e23fcc3c9d895bb15f3c526cbd2b1350c3b4155 Docs/ABI/damon: document prep files
+36d611b0dc2ff6a1e763dad89ae3d8ccfa683f6f mm/damon: remove damon_ctx->preps
+185e685fe90355414e9023224b539473fcee70c3 mm/damon/paddr: update for probe->preps
+506b5a28329a245bb76c23706204c2672833368c mm/damon/core: init/fini preps
+41806884a7bcb6be43f9ba9cd673e0745fb77a69 mm/damon/core: commit preps
+90b018b3fa1271f1cf8312a2210ee58998fdc1e1 mm/damon/sysfs: setup preps
+a958386d1527e134e757de864374d81cdef874c9 mm/damon: set sampling address in prep callback if proper
+dbb2e0bf87299dd1730f9a8b2f6ea62280e46244 ==== misc cleanup ====
+857f6d7f217b426303ee0cb6b7e580d61373e8ba Docs/ABI/damon: recommend subsystem doc instead of admin-guide
+5840a80ccb58c82bd27aae94c6fef98475943cae mm/damon/tests/core-kunit: expect set_regions() test for error case
+0ee07e85bb09f8a9a86280a622b40eb152636833 mm/damon/tests/core-kunit: test invalid set_regions() input
+a03838f22e711002d40d84449ce1f9425d0e3c31 mm/damon/tests/core-kunit: test overlapping ranges for set_regions()
+bac9103eb8b7a7c4303864796bfdfe16c1730c19 mm/damon/ops-common: use nr_accesses moving sum for score
+d9804e68fd473b655e87664c511996f7c59e6785 ==== attrs monitoring followup ====
+da689a1aa8db55f9d360d21d8eab02b032b79300 selftests/damon/drgn_dump_damon_status: dump probe weights
+9683838a5166a4b86bf7b8469c351c205d34c54c mm/damon/tests/core-kunit: test damon_nr_samples_per_aggr()
+d81955b1543937b5afa2602f8949bf74ad467e75 mm/damon/core: remove debug messages
+0464f51679833b61de636b72035ffc74805e4b45 mm/damon/vaddr: remove debug message
+064c63e0eac53bfb96c7e099780e8c4e1312830a mm/damon/core: use damon_nr_samples_per_aggr() for max merge threshold
+97774b5416772c6fca4fcb9926693d03ad851d29 mm/damon/tests/core-kunit: test damon_commit_filter()
+5a6286f41fb6b739e09e477410e6a0b4c46eb9b1 mm/damon/tests/core-kunit: add damon_commit_probes() test
+c7d5c8b83de371b66b2e3d962a5b2756e3c0a70b mm/damon/tests/core-kunit: set damon_test_help_setup_probes static
+5222eb60df86f0e19a7e0bb0bf41bc3df3ce677c selftests/damon/_damon_sysfs: implement DamonProbes class
+a92f52f61ae05073797fd96ff285dfbe77d67b87 selftests/damon/_damon_sysfs: implement DamonProbe
+5a5ea52f34a1cf30d4cc168017f9f3f4ee584b5e selftests/damon/_damon_sysfs: fixup
+c777f1f6ab064791003925e1e9838095152aa298 ==== uncategorized ====
+7b98f78bab1fb5fbf5a4310f0568e3bcc94b13ea mm/damon/core: add an hacking idea concept interface prototype
+60cb3457ff9d14ed6f4810b131c3c7eaab0a921d mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+2b3b0db502e28bef09846331e2e8e9235674223c mm/damon: add damon_call_control->cleanup_fn
+3498e2a69496d3c0c582ebaecd9da00a11b4004a mm/damon/core: call cleanup_fn()
+231c9d65ea4661aa5f6c9c34b03a37bba2b5dcd6 mm/damon/sysfs: use per-context next_update_jiffies
+08d9363f1a5808ed1dd1e0a75afe26c58b37beea Revert "mm/damon/sysfs: use per-context next_update_jiffies"
+2df4828793ba8e3b721910177398749c915a45c6 mm/damon/core: show number of probes in valid_probe_params()
+d4125a673ab1cd13928536378de3d594dfdc851d mm/damon/sysfs: remove probes number validation
+37d17827a8a1bb1281c746a68b3fff2a45388d80 mm/damon: unconditionally trace damon_region_aggregated
+3db6d1e6b660cf9867ce640c896017c987ffa0df mm/damon/core: initialize damos->last_applied
+966db1bfab55f463502269bfdd8f6bedd931a33d mm/damon/tests/vaddr-kunit: catch test failure in three regions testing
+8ee67352f07b5d018d8430ccb7a878601b0e9430 mm/damon/tests/core-kunit: catch test failure in test_commit_dests_for()
+8fd60b3d3f94e6d84e2d70d05669690c74d4bf26 mm/damon/tests/core-kunit: test number of goals after commit
+c8800270178200e23ddf806d732ac36b858547b9 mm/damon/test/core-kunit: test committed regions number before iterating
 
---===============7987716855305404545==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-630cf8693321-6d775021bfb4.txt
-
-0a58108f15f3facaddc9eb8e9e4e8734046c26bb http: die on curl_easy_duphandle failure in get_active_slot
-6e1e922eb82b583a34b6b20bd57e6df52ab651d6 config: propagate launch_editor() failure in show_editor()
-ae1ca21ac306f855c0030ed660a39ead8a2af1e6 reftable/block: check deflateInit() return value
-2f562922119ffb9d147c921967cc0ee12b846b82 reftable tests: check reftable_table_init_ref_iterator() return
-f3507c56fdada6830d468169912f6f4416b1683f last-modified: handle repo_parse_commit() failures
-e7c1826ccaaf0f30bcd39b19beb478d24389137e compat/pread: check initial lseek for errors
-5628a09e6eec1882a6f1e588c76d1d9be9d9a4b1 transport-helper: check dup() return in get_exporter
-ac767de26c50e275785bbe842f8d51c455668352 transport-helper: warn when export-marks file cannot be finalized
-bd97cddf278f81189487e742db2f394d94163764 bisect: check strbuf_getline_lf return when reading terms
-03c660f9e2d0d040decd63637bf2aea6cba296ff bisect: check get_terms return at all call sites
-a5547dd582a3ecf80759ce23019a6ac357b979dc bisect: handle dup() failure when redirecting stdout
-8ab95f4aa072615f2f40922c1a55ecea46d1ae35 submodule: fix premature failure in recursive submodule fetch
-f1ae0e6d5c24482bb46153173fb7a3f3ec18baf7 fetch: add fetch.submoduleErrors to make submodule fetch errors non-fatal
-27bed41ebb11ffdfcb79cf74fd4122ac41420f26 odb/source-packed: improve lookup when enumerating objects
-03aaa4f8985ce4813033c1afa36ebec7d7e2a9a1 pack-bitmap: mark object filter as `const`
-6f48b8ce56171419f768902b300365c1b6708c96 pack-objects: drop unused return value from add_object_entry()
-1ca65ca7b8bce87268900e39315888fd10fc350c pack-bitmap: allow aborting iteration of bitmapped objects
-eaa9807c970254e503cdb2d719d873521de4ed05 pack-bitmap: iterate object sources when opening bitmaps
-db95bfc121aa9725e8128d7b1dd73330c0beb7f9 pack-bitmap: drop `_1` suffix from functions that open bitmaps
-8cd7ee7b0d12fce9449ea08fe394e18dc97fe059 pack-bitmap: introduce function to open bitmap for a single source
-204daf5e5c6f931352ddde16236e9705075d15bf odb: introduce object filters to `odb_for_each_object()`
-bfa86e6a3a80b910f0875350d747f7a831694b18 builtin/cat-file: filter objects via object database
-7f6b211c976a126edebff0ac8f27872b82f1373d refs/packed: de-globalize handling of "core.packedRefsTimeout"
-1245c3640448a95cef8f01cd79c741f73cc8db46 refs/packed: drop `USE_THE_REPOSITORY_VARIABLE`
-904f0502c92f9ce7ec5178408bbd2204b69f32e4 refs/files: drop `USE_THE_REPOSITORY_VARIABLE`
-f01dc6dcd02f8d810587ec26f79940f0187dee94 worktree: refactor code to use available repositories
-023aedfaf382f43ef7f48852d5da73056684087f worktree: pass repository to file-local functions
-f9152c7ecfdbfe9da32ce47536237c3d08839461 worktree: pass repository to public functions
-edbc0e93f880e96f63d6b05722f9fbca0c695e03 refs: remove remaining uses of `the_repository`
-805bba993b0697017666babd598e18aa5bef5018 Merge branch 'jc/history-message-prep-fix' into jch
-27ad31dda25985560bee7b8bfc42bd1d91e5b24c Merge branch 'ps/refs-writing-subcommands' into jch
-a45ed2d3ed60875c95407303589ab8533438ad07 Merge branch 'ps/odb-drop-whence' into jch
-64fd0d79c51be140661e4d99d731b028b0665939 Merge branch 'ps/history-drop' into jch
-693964f36b14e1d5ec4a8a0c76dc4d9c6183c5d5 Merge branch 'jk/bloom-leak-fixes' into jch
-22796cbbaa16234ed2279656e6bdbe1e43cde608 Merge branch 'mg/meson-hook-list-buildfix' into jch
-96c335706b1bcb1bacc503612675a2514f3b9047 Merge branch 'rs/blame-abbrev-marks' into jch
-62366a7a54e8c17fb64fe00c112b29a5a4d972e7 Merge branch 'jk/hash-algo-leak-fixes' into jch
-b323659bfd632e5035f8c0b7d09471af75ecc064 Merge branch 'js/coverity-fixes' into jch
-2e14182ccb465041103d043d2cacd4a3362ea24d Merge branch 'js/ci-dockerized-pid-limit' into jch
-a82bf2b8898815398333dea3aec528870b9bb694 Merge branch 'ps/t-fixes-for-git-test-long' into jch
-0f8c761e7380660254c7648e5d242aa05b8ce01c Merge branch 'ih/precompose-flex-array' into jch
-396c562bcf69b91970bf686fd97f17b1d36fc343 Merge branch 'jk/git-hash-cleanups' into jch
-77a63309727b63cdbaff51b694e69dce232844b2 Merge branch 'mm/sideband-ansi-sgr-colon-fix' into jch
-3276f9a24f7881e0891940257c96093d74ee4f97 Merge branch 'tc/replay-linearize' into jch
-4d446819deb70ed503a6c1729b1c245580359eba Merge branch 'ps/reftable-hardening' into jch
-d93e565f822567a110b25d86f15c289b891ddba7 Merge branch 'ps/setup-split-discovery-and-setup' into jch
-af33123860ac690602ae791fc4685a4f75431217 Merge branch 'jc/relnotes-2.55-rust-fix' into jch
-a5c7dcb0b0c292de9547012e77a021d2a428cf71 Merge branch 'kk/commit-reach-find-all-fix' into jch
-55797ff4a8bb548280062b506fbfd8179b79b702 Merge branch 'jc/submitting-patches-abandoning' into jch
-b6a679d3a082db369f9d85ee970b9759a33062c5 Merge branch 'bc/parse-options-exit-0-on-help' into jch
-c6e6a7e826887c5934f90f05dd6511359a2c3684 Merge branch 'sn/osxkeychain-rust-universal' into jch
-b39c4433ee3f01d604f87869ff124b85eeb7c866 Merge branch 'mm/test-grep-lint' into jch
-c169baf3a885c14af8cc300f2aa1ecce1c7a7926 Merge branch 'gr/t1410-reflog-exit-code' into jch
-9ecc203f3776b6845cf514cfdc459d8d0a1637d5 Merge branch 'wy/doc-myfirstcontribution-trim-quotes' into jch
-91edc5939b3bcfedba804aa0a8f3dde379353bd8 Merge branch 'hf/unpack-trees-quadratic-scan' into jch
-c9ca81dc4cdd97c2a5f74ca85fff8f6ac6a9856a Merge branch 'tc/bundle-uri-empty-fix' into jch
-b980983d3e4914eb31804f1d60824dbcb1bef590 Merge branch 'ty/migrate-ignorecase' into jch
-cd47c12673d942992350786d91a08a9248f70a90 Merge branch 'kk/commit-graph-topo-levels-fix' into jch
-dcca595cf5477dee5a8eee1880a4a1961a903e75 Merge branch 'kk/reftable-tombstone-quadratic-fix' into jch
-f768999a58bfa3b59720b434a22f32b5e378dacf Merge branch 'js/coverity-fixes-null-safety' into jch
-6dcd68b0afd4d478132df7bde2d326792d1ab456 Merge branch 'ps/odb-stream-double-close-fix' into jch
-0d81fd6da7f8dfc454da7e922775fc5fd830c2e3 Merge branch 'cl/b4-cover-change-id' into jch
-aa634479d15f43081ab29c6d16cf9f734446df7a ### match next
-f15f327f7a0b23989685ab7c7c4adaa8a85f2b57 Merge branch 'bl/t7412-use-test-path-helpers' into jch
-777e09f227f6720bb4923a868afa2627e86e8b00 Merge branch 'kh/doc-replay-config' into jch
-a6db46cabd23a3a409a131cd8d98e28aff24eb8e Merge branch 'za/completion-hide-dotfiles' into jch
-4be360f7dce715fbb09dc82904b998e5ca24539d Merge branch 'kh/doc-trailers' into jch
-afff74fe0f281cf9b10346407fdfbc2c828c466e Merge branch 'dk/meson-enable-use-nsec-build' into jch
-eeb07c057919487ea089ff235a66c9564d41c0e6 Merge branch 'pw/rebase-drop-notes-with-commit' into jch
-29a6492d0dc16870463b8483ded56feacf899e58 Merge branch 'ds/sparse-index-ita-crash' into jch
-c2bc3a0ef56f3741afff4e08fae403e481cd22c9 Merge branch 'ij/subtree-reject-v2-config' into jch
-9937a16cbaba92c21e4fc844dfcd91a813ccccd6 Merge branch 'ps/odb-pluggable-housekeeping' into jch
-91175177178515580018288155197de95d14081c Merge branch 'mm/lib-httpd-cgi-safe' into jch
-c35d8dca80bef1df28f70c7bd447cf17b83706f3 Merge branch 'dm/submodule-update-i-shorthand' into jch
-ad7b49d7554317b2ffecf3e9710362621fa670c4 Merge branch 'ps/shift-root-in-graph' into jch
-c80bb6a0a663391a157917bf296427a0849203c0 Merge branch 'ps/odb-for-each-object-filter' into jch
-18e9315966bfdf162f709d5fb5f21a01f0de4090 Merge branch 'cl/conditional-config-on-worktree-path' into jch
-0f7379a083b35aa70f8f4fcaf769df5f071006ae Merge branch 'jt/receive-pack-use-odb-transactions' into jch
-36487a19528767c2d8dc7f47f033633c86e79b2c Merge branch 'ml/t9811-replace-test-f' into jch
-9526a86cfba245fcf20c6cbe2ced1c90e265a123 Merge branch 'sk/t1100-modernize' into jch
-8a7a1bf59611fe8dbb383beb0d41f451913b5e4f Merge branch 'cc/doc-fast-export-synopsis-fix' into jch
-dabd687fb229f7cd37d2b4d943f6c4c5d1fc126a Merge branch 'rs/strbuf-avoid-redundant-reset' into jch
-4cee9bc75ae78fa79be4e6659e9b8cda9682d9a0 Merge branch 'rs/tempfile-wo-the-repository' into jch
-622943d8c506df4a32094a50f51f01aba0b8ae9e Merge branch 'hn/history-squash' into seen
-5f17e6ad96fb868703ce899147b58deb33fb31fa Merge branch 'hn/checkout-track-fetch' into seen
-ff92ccb496eb592edbd61c4a01ecd3300fa33317 Merge branch 'ec/commit-fixup-options' into seen
-b8104124979fc8992820ca731c66c8750d1ea6aa Merge branch 'sn/rebase-update-refs-symrefs' into seen
-42e23950731cfeb5264213a5e2121bfa49c9631d Merge branch 'ty/migrate-trust-executable-bit' into seen
-fbaa035f596e682bf953c891bda60944a0548055 Merge branch 'ap/http-redirect-wwwauth-fix' into seen
-d7ba3be9c914a5e1f8dda5521c23c5e12c18d91a Merge branch 'hn/branch-delete-merged' into seen
-04a6eb32a94201f3a7e2a9281b685fb6a6bb51fb Merge branch 'td/ref-filter-memoize-contains' into seen
-2111ffc70dc08392b08b7bb0d1504dd905b771bd Merge branch 'tb/midx-incremental-custom-base' into seen
-a51bb50322bb317423e52703b223efa2f14b2be1 Merge branch 'mm/diff-process-hunks' into seen
-ae84f5cd765b50a290d73f984feae49d80463580 Merge branch 'mm/line-log-limited-ops' into seen
-1e3ac14fe80194638b57f48321959a8e942a0af6 Merge branch 'ty/migrate-excludes-file' into seen
-b856cd7414df3cf69a475f416abaa402f1d62da2 Merge branch 'tb/repack-geometric-cruft' into seen
-1d2d7a1c36ad35e05d304d3dee5b5d9e1ae7e870 Merge branch 'zy/apply-abandoned-header-fix' into seen
-303f6390aae4e67e0eb643b1dcb78f4cef695086 Merge branch 'jm/t0213-skip-emulated-ancestry-tests' into seen
-6d89a4039afe4adb08b99e8d553b08899efb0c24 Merge branch 'js/pack-objects-delta-size-t' into seen
-714c2b9b6d43069782be5546ee186a9d3307eb5c Merge branch 'gr/add-e-use-apply-api' into seen
-0535f0563cce9975382ca68bb30d65fe72cb674e Merge branch 'ps/refs-wo-the-repository' into seen
-6b8a8cbba7572c6600fbcd2c3cbb192a314a3f27 Merge branch 'kk/merge-base-exhaustion' into seen
-fda3f62464085f6dad139a039a1fa25af057efec Merge branch 'tb/send-pack-no-ref-delta' into seen
-c3c34974aa1ca8391907bbcdd58ced030d6d2803 Merge branch 'tn/packfile-uri-concurrency' into seen
-033a77cac985a14e5c45b00666630dff076da469 Merge branch 'pz/fetch-submodule-errors-config' into seen
-6a9357e5ba22e0c904c3b652fc452fb32328f394 transport-helper: fix memory leak of helper on disconnect
-fb851acfbb34ae47216005072b8347c6a408de07 cat-file: declare loop counter inside for()
-08ae0c35edd4a5379e6402d72b549e5b244f584c t1006: split test utility functions into new 'lib-cat-file.sh'
-cfdb31644461114a48c69ab46650aab944fc92b5 fetch-pack: fix hash_algo variable type
-5828098228aeac6b2424f82c33efebf79c1ff77c fetch-pack: drop static advertise_sid variable
-41b16828e55a4b524bedf6c5bf3d5531ed6fa1b2 fetch-pack: move write_fetch_command_and_capabilities() to connect.c
-3ab5f096c5985aae39bd3a064bea08d85e65bcf0 connect: make write_fetch_command_and_capabilities() more generic
-4dbdbe5643bda2498f9eca232a78e5203f4ebc14 fetch-pack: move fetch initialization
-accf882d55995ffdf605d127e55adbe8e1e72183 serve: advertise object-info feature
-a4c1c2d37f25c8060cfb978848bd388ee89eee54 transport: add client support for object-info
-cfc18c0a5ea891b4ae29f69d441efe477daa2d2c cat-file: add remote-object-info to batch-command
-46941ed7e593d001f4ca2709c4836052e9db8f13 cat-file: validate remote atoms with an allow-list
-37481a0bd255b22c1df392dbc563e1924c836e3b cat-file: make remote-object-info allow-list dynamic
-ee349e5fc4e30030cba5df8213d9dd01be14b309 Merge branch 'ps/cat-file-remote-object-info' into seen
-2f92b08f7c0952c13351e3cf972858dc3ec21c84 Merge branch 'jt/config-lock-timeout' into seen
-273d9719caf7e043a32d419b019455cb435ec58b Merge branch 'js/coverity-unchecked-returns-fix' into seen
-6d775021bfb4dc48b55004bbbe8fd729695568ab Merge branch 'ps/libgit-in-subdir' into seen
-
---===============7987716855305404545==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9dcb1bfce3f-1a97a8a7c676.txt
-
-933cfce162f59829afb144626527a0b311b1f1a7 amlog
-7e8a8c83256ef9caa458f1ca74b1b239cb6b8226 Notes added by 'git notes add'
-80cdcc058bfda540cfda5ca010c67f7027487b4d Notes added by 'git notes add'
-ee95aa9a608233babe980416d02f7227e9b3f383 Notes added by 'git notes add'
-9ec8e2633e415043b55bff83fb61a6f95446e983 Notes added by 'git notes add'
-1e0e9b3082c1fa6eb2dfaca124ca79fc55aa98a5 Notes added by 'git notes add'
-b1dd0cdd9d7187105e9ff852ba6735e849af935f Notes added by 'git notes add'
-8acd94cec5b98b2660fd6686cc60a2a5dd910fad Notes added by 'git notes add'
-8dbe5d088a73d9456783a7e3a9b10c7aa0109847 Notes added by 'git notes add'
-d06298595cb9396ae09d64c4d0ce81e7eb8d3fa1 Notes added by 'git notes add'
-6df52eec4232b605d74839051e37329ed5109587 Notes added by 'git notes add'
-baacffeeea9cf9283e78eb54588d3061c40a1120 Notes added by 'git notes add'
-0bf9215ff36655c81e488d795e098f7d5278418d Notes added by 'git notes add'
-6566aca44566731b8f4cdf266469eb5fdb15238c Notes added by 'git notes add'
-216df48fd9c8182513d097c1e677dba17d21f6ab Notes added by 'git notes add'
-f82d0a9a42d5971ebf2aa3f30a265e79025701f0 Notes added by 'git notes add'
-01ed962ec1d5eb73ff43cb6da107fdc78e307730 Notes added by 'git notes add'
-dc8d8941d6d4ef4efd62434d40ead3df6c6770fe Notes added by 'git notes add'
-0600aeb62c0f752997d647a26d622c95bb46030f Notes added by 'git notes add'
-d1d170438bf6008753219235b3c8b0f424227ca5 Notes added by 'git notes add'
-e832490237db819468e56e83faa231bdbe31371f Notes added by 'git notes add'
-c827bd7c96613f83a7bdd846fd77dbe956bc31e1 Notes added by 'git notes add'
-de5edd95a469cf594eb5b52589f267fdc60562e5 Notes added by 'git notes add'
-f6af322d0f2f2cc5a6fd5bfe1efc0d4afe75966b Notes added by 'git notes add'
-06b30d507e6d0bc0bd9bf6d2172e33447dcd8c69 Notes added by 'git notes add'
-6641703ccf215156526f1258a347379bc72c57cc Notes added by 'git notes add'
-97a01366af2c47954e1f33f6c84baff255ca64df Notes added by 'git notes add'
-e353f8d72f118781abc1bf5496496d1b8966f3d7 Notes added by 'git notes add'
-3f9b0638a0b1718693319d670ab424c40714b574 Notes added by 'git notes add'
-73d6a581abe2ce5b64c0d522786df8978562d9ee Notes added by 'git notes add'
-aff5a059669d8d32bc3430ac177defc3d1cb0584 Notes added by 'git notes add'
-1a97a8a7c67668f9c95c1e754a60e54dabefae34 Notes added by 'git notes add'
-
---===============7987716855305404545==--
+--===============7441738132892971415==--
