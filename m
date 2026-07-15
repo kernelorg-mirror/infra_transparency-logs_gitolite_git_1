@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5364432990025382871=="
+Content-Type: multipart/mixed; boundary="===============2816675505960006961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 15 Jul 2026 13:32:55 -0000
-Message-Id: <178412237539.1262768.5363177589994827925@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 13:32:57 -0000
+Message-Id: <178412237799.1262862.15301201114426428303@gitolite.kernel.org>
 
---===============5364432990025382871==
+--===============2816675505960006961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2fc4daf5c4774d70254201aaa5a9d50cae52af5e
-    new: 59c684a9908d2e6f7a791f7f033eae57ec2b3a61
-    log: revlist-2fc4daf5c477-59c684a9908d.txt
+  - ref: refs/heads/mm-unstable
+    old: a531f0cf705af3374388eafe4115f651c625d8db
+    new: 7081238c5ca29839924f13bf5daa80763bc589f2
+    log: revlist-a531f0cf705a-7081238c5ca2.txt
 
---===============5364432990025382871==
+--===============2816675505960006961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fc4daf5c477-59c684a9908d.txt
+Content-Disposition: attachment; filename=revlist-a531f0cf705a-7081238c5ca2.txt
 
 afce5b1bc19201edbc959e3e7d52a2150420b500 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 840e876a95f161562c2b389e938c5807365ea887 lib: test_hmm: use device devt for coherent device range selection
@@ -510,52 +510,5 @@ c2628c59e0398763e92a899a4ab1f1044d9447f4 Docs/ABI/damon: fix typo in intervals_g
 7d13343aeab7625cfaf203be30b83eefb83a3985 Docs/ABI/damon: fix typos
 8d095841acb630fe6990edd953a1e9d37e66ebd8 Docs/ABI/damon: document update_tuned_intervals state command
 7081238c5ca29839924f13bf5daa80763bc589f2 Docs/ABI/damon: document tried_regions probe hits
-8a0e5590c32e15927a39e3c04685940a209368f4 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-b1292721440ceb382b4d02fd21a63ac177a1a3a1 mm/memory: add memory_block_aligned_range() helper
-88f8d3dcd27ae26940f944f51ba582a1f31187b7 mm/memory_hotplug: add mhp_online_type_to_str() and export string helpers
-4a2f55137f943c6493aab7ec01f9bac00b3f0806 mm/memory_hotplug: pass online_type to online_memory_block() via arg
-d7c2d14769766211d9e23c94aee553c6d12d7635 mm/memory_hotplug: export mhp_get_default_online_type
-cb27de463a9ee90bc91687a51cb9829529be04e7 mm/memory_hotplug: add __add_memory_driver_managed() with online_type arg
-b21cf1189c926599b0b56083ec52fd9bb2a84d3f mm/memory_hotplug: add offline_and_remove_memory_ranges()
-3434261c065ee98804ed059163d7ebb89dfd2e1f dax/kmem: resolve default online type at probe time
-e65c011ae8ae62d7aba92d0c6ed8bb997ac3cd5a dax/kmem: extract hotplug/hotremove helper functions
-2a79e7ee5472f383d786777252778199fb418c9c dax/kmem: add sysfs interface for atomic whole-device hotplug
-8a455b7da7866f5b8a2a00655bcf7170c272645e selftests/dax: add dax/kmem hotplug sysfs regression test
-47e6b616736e33a018f2dd23a1782ee159c37afe mm/kconfig: drop redundant dependency wrappers
-1655cf5210eb4e0e364c2a19bf224cbcfae5ce0e mm: introduce vma_flags_can_grow() and vma_can_grow()
-b9ae36276a7ef410b9825ef141672bd9d7213359 mm/vma: update do_mmap() to use vma_flags_t
-ac3e573893848a842089f549da105f983b01295f mm: convert __get_unmapped_area() to use vma_flags_t
-f32ca0857a9c61748408c98a7bcdafd1b796ca61 mm: update generic_get_unmapped_area[_topdown]() to use vma_flags_t
-68775016fa831113d30217df5d79d58b399dc0c0 mm: prefer mm->def_vma_flags in mm logic
-ec40e2defe0f4b1dd042ccdaf18fb28088328492 mm/vma: convert vm_pgprot_modify() to use vma_flags_t and rename
-0579248aa55121f0d6cb5573560cfdf8c50c4a61 mm/vma: rename vma_get_page_prot to vma_flags_to_page_prot
-90f70ab2e759fd077b6e25475a7fe801ba1249df mm: introduce vma_get_page_prot() and use it
-19450892fef274a9fb4c221b6d67787cb9b82f51 mm/vma: update create_init_stack_vma() to use vma_flags_t
-ee6d9ce38ee868b45652298840f9cfafa72c3fcb mm/vma: convert miscellaneous uses of VMA flags in core mm
-157257f131701962e71a3ad341b6d704d61921c3 mm/mlock: convert mlock code to use vma_flags_t
-299b9592c33aa80b8ec0771b93a86bc076c56368 mm/mprotect: convert mprotect code to use vma_flags_t
-495e46d234c8c980919f8c1c0cc8436d5b7e7d2a mm/mremap: convert mremap code to use vma_flags_t
-6d3829b2b8c0185f3ef6276d292a6c8d3cfdce44 mm/mm_slot.h: add a helper function mm_slot_remove
-4f26efa2949700491dbc59b4782470af6c48e7cd mm/mm_slot.h: add comments for mm_slot_lookup/insert
-eac86b0dcbda151f0ecfe62490b9c511d2e7bd9b mm/damon/core: hide private damon_region fields
-e0661d2e51c00a1fc7a7d4e9ce359033c66fcb53 mm/damon/core: hide private damon_target fields
-81ca054fd00238ff4e7ab4ea2dffff32b55fd3e0 mm/damon/core: hide private damos_quota_goal fields
-b88d12079789a3cb068d5c955452487cd9858d5b mm/damon/core: hide private damos_quota fields
-954284f65fb63fe57639491968f822e3f78d99be mm/damon/core: hide private damos_filter fields
-2135771056ee2170a9b39a738ea64abd839fab93 mm/damon/core: hide private damos fields
-61017038c8cc414c675114397f5df70565046fe4 mm/damon/core: hide private damon_filter fields
-f1ca14dc4f89985754edae691893a2180228e8d1 mm/damon/core: hide private damon_probe fields
-349917d595d9f3b522a9931e98e38ee773da0135 mm/damon/sysfs: do not directly access damon_ctx->ops
-70aa5708ac93640b181856292cbbeef0b74c3077 mm/damon/core: hide core-private damon_ctx fields
-3e0e1dc551ebe4f2b35037499ab90ff91802e266 mm: let node_reclaim() return the number of pages reclaimed
-a38f4fb8e8d3165e0e7c0d17692d834c6ec55e4f mm/damon/core: avoid infinite kdamond_merge_regions() internal loop
-717b24b4e445e0f41a6a000bd30342a93ef7b992 mm/damon/tests/core-kunit: catch test failure in test_merge_regions_of()
-c643ad41a0cb527d132845819695bdd2d18159fe mm/damon/vaddr: drop last same folio access check optimization
-190672632dce4780215f86425173202c8b62fbd5 mm/damon/paddr: drop last same folio access check reuse optimization
-f713fbdb2ffc0be885a5d589997457f70d2e782a mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
-54e94cb4a8327d94c1d3224b93a89cf84606b61f mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
-d3269536d4feabe9b3c30e6093c6f6fe4bb90178 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-5ac0c43a516bc63e9bc42b3fad8e9469c9ec1030 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-59c684a9908d2e6f7a791f7f033eae57ec2b3a61 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5364432990025382871==--
+--===============2816675505960006961==--
