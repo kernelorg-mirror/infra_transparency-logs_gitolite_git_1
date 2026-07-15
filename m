@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 15 Jul 2026 09:09:21 -0000
-Message-Id: <178410656143.994781.7990658259002305920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 15 Jul 2026 09:11:16 -0000
+Message-Id: <178410667647.997870.11917531824459737153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: kkd
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 9eab9eb2225912665fbee5fa13925232fd13881a
-    new: e952e079d226209a132110acc1de96a099701292
+  - ref: refs/heads/master
+    old: 71836d063d2d97d5b66f9c2477c2d8035558a6fc
+    new: 2d8af4e633d3dea7269f2dad724977ce48034fd4
     log: |
-         dcae56cfecc6e17c9aa4e6bb6057d18efadf2132 RDMA/mlx5: Constify struct ib_frmr_pool_ops and dma_buf_attach_ops
-         e952e079d226209a132110acc1de96a099701292 RDMA/umem: Constify struct dma_buf_attach_ops
+         04af4efde58a4a4ef4feab7360c46af9ec0b83a0 bpf, sockmap: Account for receive queue in FIONREAD without a verdict program
+         a42f05cc4c1d49e27bbc6f65415aa76274ef7736 selftests/bpf: Test FIONREAD on a sockmap socket without a verdict program
+         2d8af4e633d3dea7269f2dad724977ce48034fd4 Merge branch 'bpf-sockmap-fix-fionread-for-sockets-without-a-verdict-program'
          
