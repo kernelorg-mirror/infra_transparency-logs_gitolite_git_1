@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Wed, 15 Jul 2026 20:08:04 -0000
-Message-Id: <178414608490.1567675.2074526013415257518@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 20:08:25 -0000
+Message-Id: <178414610507.1568016.16274499686522215595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
-  - ref: refs/heads/for-next
-    old: 8062148046e1a6417d44e2ed86c04e66c2f4f2a1
-    new: b737ad0b96a6ef19e1bdb680973f479386c11f7c
+  - ref: refs/heads/for-rc
+    old: abf239f1016075706b2ce97c8738dd5d6d4a2bf4
+    new: c3b8ee84a965058b41275069d4696f37a8b14bf6
     log: |
-         17ea9f74bb539aee6d3934555a22979da58db0d8 iommufd: Support a HWPT without an iommu driver for noiommu
-         cfa821487564456652cc1a9a62dde0cd00d3ad29 iommufd: Move igroup allocation to a function
-         072f454c38fd60afafb7325cc179d8ef241d58a5 iommufd: Allow binding to a noiommu device
-         60decab325a439b1f6108be276c08a11e80c5529 iommufd: Add an ioctl to query PA from IOVA for noiommu mode
-         2406daf5fd3dfe9c6a4ba68c99211696eada98ae vfio: Enable cdev noiommu mode under iommufd
-         b737ad0b96a6ef19e1bdb680973f479386c11f7c Documentation: Update VFIO NOIOMMU mode
+         339bd11591593ab7ce88136ab7fd01ef3813b724 iommufd/viommu: Release the igroup lock on the vdevice_size error path
+         9be311cfbe6154da146a7408e0d5e518a9321ed3 iommufd/viommu: Publish a vDEVICE only after vdevice_init() succeeds
+         c3b8ee84a965058b41275069d4696f37a8b14bf6 iommu/arm-smmu-v3-iommufd: Require exactly one Stream ID for a vDEVICE
          
