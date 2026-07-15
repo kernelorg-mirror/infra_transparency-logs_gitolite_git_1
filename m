@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5966237048026004177=="
+Content-Type: multipart/mixed; boundary="===============0881026741396368657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 15 Jul 2026 02:22:45 -0000
-Message-Id: <178408216562.703999.12469734341519092661@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 02:22:53 -0000
+Message-Id: <178408217333.704239.1222184776744032411@gitolite.kernel.org>
 
---===============5966237048026004177==
+--===============0881026741396368657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/fixes-test
     old: c14c32661406018437b37a1426139d3b2a0edcc9
-    new: 2728987e60852cc30fd2786f5010e667c62d2c46
+    new: 62143f57b6a896bd239650f27be6bad942fabe84
     log: |
-         2728987e60852cc30fd2786f5010e667c62d2c46 powerpc: Remove dead non-preemption code
+         62143f57b6a896bd239650f27be6bad942fabe84 powerpc: Remove dead non-preemption code
          
 
---===============5966237048026004177==
+--===============0881026741396368657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1784082163 +0530
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1784082171 +0530
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1784082163-5f310fa8e57ab00ed3fe65b50e16ea9165df48a0
+nonce 1784082170-0e1832ff61d7b3dfecb9bc9b4cb09d359f6564be
 
-c14c32661406018437b37a1426139d3b2a0edcc9 2728987e60852cc30fd2786f5010e667c62d2c46 refs/heads/fixes
+c14c32661406018437b37a1426139d3b2a0edcc9 62143f57b6a896bd239650f27be6bad942fabe84 refs/heads/fixes-test
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmpW7vMACgkQpnEsdPSH
-ZJQvPxAAiNBe/C9ZdxUUC5xls38M2JGjWMpvvfklVSOcgnkx2zvPtBne4yNV6NHw
-WLgKtYpOLlmIY6sgwZhx2wu9F6euwl9t7218yKL9CvV+RNdfiUOA5S2S1sxfqqA8
-0jGsUw42fiIPPfUcl3ss/NQrRVn8+rju7JMT9xdpOxoN+iA5vQYk3Lj7bsPtupNW
-ceYq3K1rTojv2ryX0QK1QHxVlHGZK5mvm00u7bWcjSbO+3kG7oxZceqkiYOexcTV
-Yt/E5zEukF/hFy3qcaBuswmtdIOTwBjp82xNBpIFC47kzxSF/vTFKZFKmdPGKf71
-j+XnXR3jchkQRYEi9rLB3fv5LNTaCVSsJn4OVzDaFkTDzJQ/gx6FlpHOXVDYSPqG
-Scf14lTzOAL3048qpG1pd08Mi0LzcheVv0g7RUc9/S3OVFAnTXN/QqVdEJTrk7Tg
-A3walpynNdTMCWZtgucc5AdQJedtGqMMOGIbitCb3HSlC0NojEbmhuHB8inGVTcE
-GZHCcrsDufCCmVDeQXfPJlcxrZpVYzDyHBAewMPqmxHVsfUJtMtMb+2RviJsdPm2
-w56XiZC5A+Akr6kU64taMomJUJMT0Vnru6KNE4PJvRqBEsBT5TRHWovZ83PT/swt
-bW2M64G1mhmYfgOhTsHomYPBmdX10BY0U6QeKkgWmFsJXjlNdOo=
-=51Xu
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmpW7vsACgkQpnEsdPSH
+ZJSrNg/+KDD5kyE+eDMFeCOFv7L8I1JMAK9r1aBJuzyOsO39c+5eLNfXyXLBgPqI
+lw1daZ8XD+XNapfNKtC5DquZ/HQOPJVfcbbXBe0EcuqGC9ttvCadPwyk7EuVtN1Z
+jiHB/xOIZiKG8z/+3XURizpIiCTHuqgfwqf5kPwxDl7k5kUCHpymqw4DqE8RZJ2p
+VjbImllTWiM6j2B2OBfC4824dSloFSDZOu9tu17DPZI07W19ntn64k/W56FwCHdj
+6SM/GqOlVcjE1jGKZAZgdJpnVQErdzlqKJNvMxEYtQpKNb0yi8rUcCOtD2ciqEvY
+LvXSag42lSwMJ1YOY+8lBTFILmvEhHs2opV2KKHmpQ502YWa1LRiaaqLyPHZQyyk
+Otssp+2bqjWs4778U3/3deRodBQUWU0QNyRhlMXnHDVprwO50OdUor1xiEoYv1U4
+4Cq7SVCcqAdGUCcZDuQfeJh+uYnGsBWxAXcdzYXqwqx6cZrH+VJCKRMPp6ul1diM
+ub8SkMXbNr0JBn6VD3XBp1wqqPKc95hNfL3nBaKRrhkMhhvn0zHheLsSJLg0D42Y
+dGyv7iYPEXEYNbmE2ThYMGl7qgsC2vSnBNbXK7XwVWv7O+uCtFa2URiiPwy5TzIi
+DeRrEbIiD+MIdm3Zuq8WyjfLICf9K0StgdbPOWBKQmPjU+9NQ0w=
+=HsDz
 -----END PGP SIGNATURE-----
 
---===============5966237048026004177==--
+--===============0881026741396368657==--
