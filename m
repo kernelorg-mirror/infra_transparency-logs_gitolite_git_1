@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 15 Jul 2026 11:01:11 -0000
-Message-Id: <178411327119.1128336.3382308424218036802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 15 Jul 2026 11:01:19 -0000
+Message-Id: <178411327996.1128570.15719730635960872648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/get_pages-to-kmalloc-v1
-    old: 9816a62e558d527e65df2ccb79858cc5c67a1e5a
-    new: 68ed27b912142498799b24e2914170e49eb324f1
+  - ref: refs/heads/linux-5.10.y-cip
+    old: b73e77b0c18cc1f30ddf28f058396899224a50a9
+    new: aed9da3f6778a723c50faa566b1675f0e5e31056
     log: |
-         85ab857b2b233e3b4bf4ab23f0ede647cbd00ad5 RDMA: use kmalloc() for remaining scratch buffers
-         e18c21038174327f8f1b1697ded2b38af0ab09d9 RDMA/cxgb4: use kmalloc() for the PBL address array
-         b239c9a44e55eb89fc87faf4b708181cf969c03e RDMA/mlx4: use kzalloc() for the fast registration page list
-         00d3b5e4cb61fb214814736555350534a6a0ada3 RDMA/usnic: use kmalloc() for the page pointer array
-         68ed27b912142498799b24e2914170e49eb324f1 RDMA/mlx5: use kmalloc() for UMR translation buffers
+         2cb2a683876844244c89fce769c3ad99725eaf31 arm64: dts: renesas: r9a07g043: Add max-frequency to SDHI nodes
+         9acdf115c7a69b9649451c6235311e538ba11e5f arm64: dts: renesas: r9a07g044: Rename SDHI clocks
+         312805f5bfb8108694f1c60d6064b94b1ab07835 arm64: dts: renesas: r9a07g044: Add max-frequency to SDHI nodes
+         aed9da3f6778a723c50faa566b1675f0e5e31056 arm64: dts: renesas: r9a07g054: Add max-frequency to SDHI nodes
          
