@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3808381788059658222=="
+Content-Type: multipart/mixed; boundary="===============1084818391024239546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 15 Jul 2026 16:51:53 -0000
-Message-Id: <178413431342.1420965.16623135046177886005@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 16:52:21 -0000
+Message-Id: <178413434110.1421370.13719531767280913961@gitolite.kernel.org>
 
---===============3808381788059658222==
+--===============1084818391024239546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-config-for-next
+  - ref: refs/heads/riscv-firmware-for-next
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============3808381788059658222==
+--===============1084818391024239546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============3808381788059658222==--
+--===============1084818391024239546==--
