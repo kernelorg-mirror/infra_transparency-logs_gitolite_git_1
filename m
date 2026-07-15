@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3324987546273708671=="
+Content-Type: multipart/mixed; boundary="===============5412592501153552398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 15 Jul 2026 16:50:39 -0000
-Message-Id: <178413423938.1420180.8407812776243480851@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 16:51:20 -0000
+Message-Id: <178413428085.1420660.5087691995824305662@gitolite.kernel.org>
 
---===============3324987546273708671==
+--===============5412592501153552398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/cache-for-next
-    old: 8e2501e1494c8d27f62eb8d36bba5af465f48962
+  - ref: refs/heads/riscv-dt-fixes
+    old: 0df8aa2b9aec5cd21e8c71d9cc1227e57bea43b3
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-8e2501e1494c-dc59e4fea9d8.txt
+    log: revlist-0df8aa2b9aec-dc59e4fea9d8.txt
 
---===============3324987546273708671==
+--===============5412592501153552398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e2501e1494c-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-0df8aa2b9aec-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============3324987546273708671==--
+--===============5412592501153552398==--
