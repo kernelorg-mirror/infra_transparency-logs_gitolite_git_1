@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5637172689847986418=="
+Content-Type: multipart/mixed; boundary="===============3798204747863822625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 15 Jul 2026 12:05:33 -0000
-Message-Id: <178411713362.1195688.1196474289295474766@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 12:05:45 -0000
+Message-Id: <178411714501.1195991.11744581068081338727@gitolite.kernel.org>
 
---===============5637172689847986418==
+--===============3798204747863822625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: 022b8bd5e58f8bec3474defebcdd89adba4adaea
-    new: 5ad59d4b626343901cf52078f118baa960e89868
-    log: revlist-022b8bd5e58f-5ad59d4b6263.txt
+  - ref: refs/heads/soc/arm
+    old: 923588dd861ba7f174caa18698f0f825ca41c839
+    new: 809177dbf32e3c649abcd027334dbcfe34720446
+    log: revlist-923588dd861b-809177dbf32e.txt
 
---===============5637172689847986418==
+--===============3798204747863822625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-022b8bd5e58f-5ad59d4b6263.txt
+Content-Disposition: attachment; filename=revlist-923588dd861b-809177dbf32e.txt
 
 30b1c4a340892e4bb93a9596b852f5384f6605d2 ARM: use CONFIG_AEABI by default everywhere
 25900bd99d4d10faa939a79e2fdc49c3373b51e7 ARM: limit OABI support to StrongARM CPUs
@@ -46,7 +46,5 @@ f70425ca424a6a7a044e79f5c1c99fb2b1b2783b ARM: mark Cortex-M3/M4/M7 based boards 
 9b34e61860c85f1d9f0722b42a073aff21e82dfa ARM: mark axxia platform as deprecated
 6cb7a10ef7488720f4379e27575d723a85790b30 ARM: mark mv78xx0 support as deprecated
 809177dbf32e3c649abcd027334dbcfe34720446 Merge tag 'arm-feature-deprecation-for-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc into soc/arm
-fc64a30736c13914c5dd1a4ccbf6b0cf717b84e1 Merge branch 'soc/arm' into soc/for-next
-5ad59d4b626343901cf52078f118baa960e89868 soc: document merges
 
---===============5637172689847986418==--
+--===============3798204747863822625==--
