@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jul 2026 08:49:22 -0000
-Message-Id: <178410536274.979166.5266117127006273764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 15 Jul 2026 08:51:51 -0000
+Message-Id: <178410551182.982318.12133887033330651515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/timers/vdso
-    old: 369cecd238ac8317cccd27cf2452a8a6b6da1581
-    new: ecacc9c8d3ed0f63065f4a1e94bfd8bf65a3ffaf
+  - ref: refs/heads/master
+    old: 9a3a07d06e7d74f4aecc51396c771149336ac55d
+    new: 074927b9769ceaecd0719effe032a2d5e9292975
     log: |
-         2558084d2b03e298e3ec04bbbcfad55c8d50b7db futex: Remove dependency on HAVE_GENERIC_VDSO from FUTEX_ROBUST_UNLOCK
-         a92426375870190ae0088e93c3cbbcf4baf3c705 vdso: Remove the dependency on HAVE_GENERIC_VDSO from ARCH_HAS_VDSO_ARCH_DATA
-         8c0015572c61d1dd0b54f2d035c8b3731dc44b78 MIPS: vdso: Stop using CONFIG_HAVE_GENERIC_VDSO
-         faeff8d416c4c324030d1296a545024c44ddac51 vdso: Automatically select HAVE_GENERIC_VDSO if necessary
-         52447180f4fb095390477ba541bb08f24aeb4e92 vdso: Drop HAVE_GENERIC_VDSO from architecture kconfig files
-         ecacc9c8d3ed0f63065f4a1e94bfd8bf65a3ffaf vdso: Rename HAVE_GENERIC_VDSO to VDSO_DATASTORE
+         35dac1daeb3c8208515047d32f22c4a162e8de5f bpf: Add BPF_FIB_LOOKUP_VLAN flag to bpf_fib_lookup() helper
+         217828aad80d091fa1d840587a3d9b6187ee170f bpf: Add BPF_FIB_LOOKUP_VLAN_INPUT flag to bpf_fib_lookup() helper
+         e54a87872e34d97333dcdfb8c8e0327f5bd8bb43 selftests/bpf: Add bpf_fib_lookup() VLAN flag tests
+         074927b9769ceaecd0719effe032a2d5e9292975 Merge branch 'bpf-bidirectional-vlan-support-for-bpf_fib_lookup'
          
