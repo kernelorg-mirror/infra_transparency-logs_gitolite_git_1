@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9111947700365473040=="
+Content-Type: multipart/mixed; boundary="===============7237300298970272654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jul 2026 09:44:49 -0000
-Message-Id: <178410868900.1042396.9188660934734916689@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 09:45:14 -0000
+Message-Id: <178410871499.1044680.101872335007987894@gitolite.kernel.org>
 
---===============9111947700365473040==
+--===============7237300298970272654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 19270d520edef307d86ed80f3fe16a846c328cee
-    new: 5456ef8638465e638b70e02c84ec8b99f5bd2639
-    log: revlist-19270d520ede-5456ef863846.txt
+    old: 5456ef8638465e638b70e02c84ec8b99f5bd2639
+    new: 1e68c39cfacf7708d32fbd13f8d7e5d72f6b00bc
+    log: revlist-5456ef863846-1e68c39cfacf.txt
+  - ref: refs/heads/tip/urgent
+    old: 7ac531b9a7bcbd9346eb3110315c51d1c7a79b00
+    new: b59169b0b47dc66bfbe779b46ecbece7a4fb009b
+    log: revlist-7ac531b9a7bc-b59169b0b47d.txt
 
---===============9111947700365473040==
+--===============7237300298970272654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19270d520ede-5456ef863846.txt
+Content-Disposition: attachment; filename=revlist-5456ef863846-1e68c39cfacf.txt
+
+b59169b0b47dc66bfbe779b46ecbece7a4fb009b Merge branch into tip/master: 'x86/urgent'
+1ae43ec3bec131406176a299e1af5118db1673a6 Merge branch into tip/master: 'perf/merge'
+ec9d329c886f277fde0f5fb5d76115723d5333d7 Merge branch into tip/master: 'core/entry'
+d1e73660e670ff17552b1c930491fbc54f7cfb13 Merge branch into tip/master: 'core/rseq'
+5daf047ec5062055ff74822f03136dbd8db441b7 Merge branch into tip/master: 'irq/core'
+23e505226e8abc38bbe26e2e266021af1311106e Merge branch into tip/master: 'irq/drivers'
+2c387a6f03339fc0c4941c80a1ef80d5cc16a89d Merge branch into tip/master: 'locking/core'
+34987b2f4b1c0039db35227d25184bd1a3de15c5 Merge branch into tip/master: 'locking/futex'
+61f9ae241278dfde70e9edef60aff443c09ea786 Merge branch into tip/master: 'sched/core'
+859c5214708fb2b16c944aa607b21d12092a36ed Merge branch into tip/master: 'smp/core'
+c36f0c8aa78ab5324e240bb82bc7c4fd029ebd2e Merge branch into tip/master: 'timers/core'
+6faca39783060179932864b5bf724218dfba21cb Merge branch into tip/master: 'timers/vdso'
+da82d96b89e57f9956450fdb818770b746a670e9 Merge branch into tip/master: 'x86/alternatives'
+1610549e9df58ae97735517498192d2e9b3a002c Merge branch into tip/master: 'x86/build'
+40f0385a537b7fa70185da297f6c3d11ce85adcc Merge branch into tip/master: 'x86/cache'
+fb7d29a03014388351d2afb53be4f3f0d4c5f541 Merge branch into tip/master: 'x86/cleanups'
+58a40d28f2e29364755f0a99ba7556dfa3c1a010 Merge branch into tip/master: 'x86/entry'
+b8bce69f7b6586f55cc26a6f5f4f1b71dceb4790 Merge branch into tip/master: 'x86/mm'
+7828bcc38b11cebed9e1609fce385413d0e7537b Merge branch into tip/master: 'x86/msr'
+1e68c39cfacf7708d32fbd13f8d7e5d72f6b00bc Merge branch into tip/master: 'x86/tdx'
+
+--===============7237300298970272654==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7ac531b9a7bc-b59169b0b47d.txt
 
 b28d3d0841a6083f82dfa9fe940afcd748f2a1e2 ALSA: hda/realtek: Enable mute LED quirk for HP Laptop 15-dw0xxx
 cb89f0c1aed02eb233c4271f76f830b37e222ff6 selftests/alsa: Fix memory leak in find_controls error path
@@ -67,20 +98,6 @@ d35dfb6329accfe1cfa0b57e35214b5cbbe0f9ae ALSA: hda/realtek: Fix speakers on Legi
 f52524da7084c1a54683ae9fbc73e93fff19dd64 ALSA: hda: conexant: Remove mic bias threshold override
 5caf27a2bf7f86f92f03e851d252901b64ed498c ALSA: usb-audio: Add delay quirk for iBasso DC-Elite
 58717b2a1365d06c8c64b72aa948541b53fe31eb Merge tag 'sound-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-dab01c597f6bd40e0efe7da967b8374ca1971b79 x86/entry/fred: Encode frame pointer on entry
-5b4fa95e425b6699c5dac47650d7a6f7b4661263 irqchip/gic-v5/iwb: Fix stray verb in comment
-9023960b74ab32bef73273cfb5bff3b0b70d5ef8 irqchip: Remove redundant dev_err()/dev_err_probe()
-0d6a7c417983b36f0aa2a61bc650e8df04dd6ba8 irqchip/gic-v3-its: Enable dynamic MSI-X allocation
-616dd89d81ad9a3cf1cfff4088a4c43e4e00d6ba irqchip/renesas-irqc: Fix generic interrupt chip leak on remove
-2558084d2b03e298e3ec04bbbcfad55c8d50b7db futex: Remove dependency on HAVE_GENERIC_VDSO from FUTEX_ROBUST_UNLOCK
-a92426375870190ae0088e93c3cbbcf4baf3c705 vdso: Remove the dependency on HAVE_GENERIC_VDSO from ARCH_HAS_VDSO_ARCH_DATA
-8c0015572c61d1dd0b54f2d035c8b3731dc44b78 MIPS: vdso: Stop using CONFIG_HAVE_GENERIC_VDSO
-faeff8d416c4c324030d1296a545024c44ddac51 vdso: Automatically select HAVE_GENERIC_VDSO if necessary
-52447180f4fb095390477ba541bb08f24aeb4e92 vdso: Drop HAVE_GENERIC_VDSO from architecture kconfig files
-ecacc9c8d3ed0f63065f4a1e94bfd8bf65a3ffaf vdso: Rename HAVE_GENERIC_VDSO to VDSO_DATASTORE
-7b7e9f92571064a123666848bc6569b4c8ab9148 Merge branch 'irq/drivers'
-96ac3b0b33998784610926f9592cac87d6449ee1 Merge branch into tip/master: 'timers/vdso'
-f0ef9c04cf695bbccd53643c3c22dfeec4ed03d7 Merge branch into tip/master: 'x86/entry'
-5456ef8638465e638b70e02c84ec8b99f5bd2639 Merge branch 'linus'
+b59169b0b47dc66bfbe779b46ecbece7a4fb009b Merge branch into tip/master: 'x86/urgent'
 
---===============9111947700365473040==--
+--===============7237300298970272654==--
