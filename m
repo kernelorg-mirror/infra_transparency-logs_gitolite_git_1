@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 15 Jul 2026 09:02:37 -0000
-Message-Id: <178410615794.989913.10339135323801763541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Wed, 15 Jul 2026 09:04:11 -0000
+Message-Id: <178410625176.990617.8391568288206549758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: f68df52fbad0928f4686f734827e5fb6b20386ad
-    new: c314bcaa9d5dc34b0c643eac85f675fb8c8bfbaa
+  - ref: refs/heads/fixes
+    old: 86152fef52cac15cd662ed3bfc7604fbfef378f0
+    new: e27c946b589c53520409a0956b33d52ef7a0898f
     log: |
-         c28cbef2f8986c392faf6ca94bb2088548ea6964 bpf: Remove dynptr check in check_stack_range_initialized()
-         92ec8b1b6b24381611600162536b8b5b6a9e7323 bpf: Factor out raw_mode-related fields in bpf_call_arg_meta
-         77a4974c17493b0e0bcd5010dc2ec9ad749d1a07 bpf: Pass argno to callees in check_func_arg() instead of argno_from_reg(regno)
-         8faaa93b9f6a279472cd5490030151f1635292d2 bpf: Unify helper and kfunc allocation-size argument handling
-         1e63cd6be0557fa1fc57522ec1f681a1dde11078 selftests/bpf: Test kfunc returning zero-sized allocation buffer
-         d55149ff8c856c88cedc36557dadc6b5363b428d bpf: Drop redundant pkt_access from bpf_call_arg_meta
-         bf9c1b911f4db6fa5fe088c32f1de7ee1650eee9 bpf: Unify helper and kfunc call argument meta
-         c314bcaa9d5dc34b0c643eac85f675fb8c8bfbaa Merge branch 'unify-helper-and-kfunc-call_arg_meta'
+         899160e2774d9952e9f2770b38f701ff1906c0b2 mmc: sdhci-esdhc-imx: remove unnecessary mmc_card_wake_sdio_irq check for tuning save/restore
+         2439becd91bad6883b135044f85f83a0538b96a6 mmc: sdhci-esdhc-imx: restore DLL override for DDR modes on resume
+         5adc14cd4b905629d5b9163b3a416dcab24c7ce2 mmc: sdhci-esdhc-imx: fix esdhc_change_pinstate() to allow default state restore
+         1db87818bde3d2295613660879378b43a70d31f8 mmc: sdhci-esdhc-imx: restore pinctrl before restoring ios timing on resume
+         9d87eaf985cef9581b6ed99b461b38e8cd666480 mmc: sdhci-esdhc-imx: disable irq during suspend to fix unhandled interrupt
+         8da5930144712412d85e7f868693d96ec5c2018c mmc: sdhci-esdhc-imx: use pm_runtime_resume_and_get() in suspend
+         6aa00a43bbd3d994558a55586351757cebbff236 mmc: sdhci-esdhc-imx: make non-fatal errors non-blocking in suspend
+         e27c946b589c53520409a0956b33d52ef7a0898f mmc: sdhci-esdhc-imx: fix resume error handling
          
