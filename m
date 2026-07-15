@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5390708269695190556=="
+Content-Type: multipart/mixed; boundary="===============7320807394281821634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 15 Jul 2026 18:25:40 -0000
-Message-Id: <178413994015.1495421.17619271728828141295@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 18:39:26 -0000
+Message-Id: <178414076628.1503559.7711541693118818374@gitolite.kernel.org>
 
---===============5390708269695190556==
+--===============7320807394281821634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 67e1bcd7b62cdaeec2647705ffc0e60630fa3853
+  - ref: refs/heads/perf-tools-next
+    old: ad40a000ea598f316ddc0e81e5acc77cc3b1fae0
     new: 604062ad51c75cf6ecd6a5823dc42b48e8d47838
-    log: revlist-67e1bcd7b62c-604062ad51c7.txt
+    log: revlist-ad40a000ea59-604062ad51c7.txt
 
---===============5390708269695190556==
+--===============7320807394281821634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67e1bcd7b62c-604062ad51c7.txt
+Content-Disposition: attachment; filename=revlist-ad40a000ea59-604062ad51c7.txt
 
 17e3978f3ad1c6c4c9aca009a5081c6b0ebb5491 perf test: Remove duplicate include of util/term.h
 ea46211d7e9a2210b62c40e56b2d6540c0b4b083 perf jevents: Add Intel OMR MSR mappings
@@ -43,4 +43,4 @@ d4aba8c1503f7ddc0c76b38cb9bbf91053fa6569 perf vendor events intel: Update arrowl
 c0f049a1f63ac57da77a6f895043c0a0e3f9129d perf vendor events intel: Update sierraforest events from 1.17 to 1.18
 604062ad51c75cf6ecd6a5823dc42b48e8d47838 perf vendor events intel: Update emeraldrapids metrics
 
---===============5390708269695190556==--
+--===============7320807394281821634==--
