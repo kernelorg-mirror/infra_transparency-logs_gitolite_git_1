@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 15 Jul 2026 04:49:39 -0000
-Message-Id: <178409097997.805835.15064931945071972335@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6471044368744664238=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 15 Jul 2026 05:17:05 -0000
+Message-Id: <178409262570.825907.17162527902638344136@gitolite.kernel.org>
+
+--===============6471044368744664238==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d6b2335346e1e6c373bdefe67d2b47a247371740
-    new: 757107b7a2061d44840e7be73710e101e7fe5879
+  - ref: refs/heads/tty-next
+    old: c1d4ce2d9eaeccd7e8aef7ec1109df49eaf4f503
+    new: da7b5fd4e17f8e44c5590f2d603c01d499f056e6
     log: |
-         93ea854e18c967eba061c2f6eca3d6b6cd508d84 foo
-         b25e44e4ed1fb88ee240bfdbf6d7b283146a9936 foo
-         e9e32f4a3a54168fb6d40c8b13483a69dc73f699 foo
-         757107b7a2061d44840e7be73710e101e7fe5879 foo
+         da7b5fd4e17f8e44c5590f2d603c01d499f056e6 serial: 8250_hub6: add missing include for hub6_match_port()
          
+
+--===============6471044368744664238==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784092621 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1784092624-49519c7ec47a4c91120df97f50b1ea3fc66685f2
+
+c1d4ce2d9eaeccd7e8aef7ec1109df49eaf4f503 da7b5fd4e17f8e44c5590f2d603c01d499f056e6 refs/heads/tty-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpXF80bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WnMP/RSGdFyd7CGRzbd2h4JA
+waFFtN64J+DqtqFT34UsSw/ZfKvQtGRAfstU8v5MUu4kSsQkGXzeCQ+WMyEuqKZP
+aczspTYyuaUtxAvxmU5DWYhpSDLpS0ra/Gx+IHTnCvoekLj4u2AWC7YiNRFgZ9ZA
+GFZUm5N78iEDInIhmDH0ZOTuRfC8bFO0DVd3CkvTb1L5apARn+phwIBRPMJwRaeP
+jAJyHKWkSoZRGr7hZfo38fmepEL529xCmVZDZmvACYh9Fb7hEw2pN81X1HL09Ebw
+B7BT106pcpfgQA9YT0y7dSs+/TWFNtAzXzAIVusEw+SfZ8Csm4E2tC+P5xpn6UQf
+/XGKTBkMgUOYnQnNmT/dgFgJSdEhII3VbfcvL29XDUt6cCfOh7Ruev9BMaOgIavx
+OywWFGjl25dB5gPaq1b48v/Meo7DXEXqL6VmtqIF8KGLW+8mFBRfExNjBctSXR6c
+tyXbFoCHxNidF50HjkJpIZH3z/EMObECurUJT4yE4iEH9dmKitRMzAZKJy1EJ0yL
+TjTHRA7JNF3Btb2VII7/ivijQrUcuiYnaBc+BMJzXXPxT9DCu4V1hUHb0LBRi9rR
+Y9MkwjJIVMI+LD4bG5hBAjnQ+GHx2WJd6QrZPxhJj9xkgz5Cdqy1hqTYexwc2OQa
++dUjcCgxPlA4lWfimPGLEP1Z
+=Dwsn
+-----END PGP SIGNATURE-----
+
+--===============6471044368744664238==--
