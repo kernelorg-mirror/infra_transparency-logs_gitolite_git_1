@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0689384567101298173=="
+Content-Type: multipart/mixed; boundary="===============2053376054803972759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 15 Jul 2026 10:24:11 -0000
-Message-Id: <178411105111.1074461.1444802885365656989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 15 Jul 2026 10:24:14 -0000
+Message-Id: <178411105446.1074624.4903403624419051548@gitolite.kernel.org>
 
---===============0689384567101298173==
+--===============2053376054803972759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/spi-7.3
     old: 3e106385e3e68b02c9ebf1919c484e7e9079c4ed
     new: 9c4a2dced735ed5ed4a6ec21f1743df82977a282
     log: |
          9c4a2dced735ed5ed4a6ec21f1743df82977a282 spi: bcm2835: make read-only const array pinctrl_compats static
          
 
---===============0689384567101298173==
+--===============2053376054803972759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784111049 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1784111049-78ef6c8e6d46466b48b01f8310312495103490ea
+pusher C3F436CA30F5D8EB 1784111052 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1784111052-82764d1bc9cc8c0995c31f25ad16abed06bc71ab
 
-3e106385e3e68b02c9ebf1919c484e7e9079c4ed 9c4a2dced735ed5ed4a6ec21f1743df82977a282 refs/heads/for-7.3
+3e106385e3e68b02c9ebf1919c484e7e9079c4ed 9c4a2dced735ed5ed4a6ec21f1743df82977a282 refs/heads/spi-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpXX8kACgkQJNaLcl1U
-h9CbKQf9EuTVwK+Uf0zWa/VZauRJK9ECmCEKvloVtQnwJ8CWTtAtv0aPx32c2gIy
-9R9sN/EErY/zzGRPdYM7EOxhm2TTmZdGFct+aVsBbzZljr5VrGxcQouS5Bf/xs1M
-CK5HzJFJ0YbvoPeyR5OKLthpAFPbcTPeViA89gXBMfDdEVGMZBm12oTxEBpxj6tR
-kiHLbWjPTqWtJWa8ce8khmmEVQMtjqvZtHbP8Qtu62jwsXJuoT7H073hqz9FmP7z
-cazrPSFan5GMaq/x6l0k2QGvL6iy4xgATddS2a3+w7K4zYxQ9pL3usu4sJ6KC12P
-LrC734Frsusy1V46wGwxb9lEy11jqg==
-=xoAg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpXX8wACgkQJNaLcl1U
+h9D5zAf/SUcm5I3zQcDQcyrenaayEf4g3OZWKR+cgmZI05pODCM33F4TWgMbPzUE
+tuECZdmIadCsCwPxwkZRfRqV4fGpnob/SSdV0wN8TU+CrhSHtmxto7+1LnnMZAl/
+DE+x9S7ER5FVL59etlNvlB9qtVqVDZi15ezyCb1+XOtlAovdOw+YY8K9GqSSSn5T
+YidI65CP92I+bdyAVQBUBJthz7oh9DZ2L3ba0VoEDI+v+qaNRMB/VGeysHFvuMs3
+6Uy5U89Q+M5FF28B3iFmrX9kax1pcUYEVO07Jhkq1DgXyl8d3r3Z9LNZr87Xooaa
+RJNXg7IOukcEjDtxcZmLncYva6Y0PQ==
+=m/sN
 -----END PGP SIGNATURE-----
 
---===============0689384567101298173==--
+--===============2053376054803972759==--
