@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Wed, 15 Jul 2026 14:54:42 -0000
-Message-Id: <178412728228.1325610.10066972844613955895@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0360465990348576190=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 15 Jul 2026 14:56:09 -0000
+Message-Id: <178412736925.1328462.15926307694644324677@gitolite.kernel.org>
+
+--===============0360465990348576190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testme
-    old: dab01c597f6bd40e0efe7da967b8374ca1971b79
-    new: a5137a09c84dedd5f35089c7e4da5d0088a576d3
+  - ref: refs/heads/master
+    old: 088395e1a54a131291bccaae3f1301528e8c6401
+    new: ec0bbcf0d60d9d255e026eeb663225d1a91532d7
     log: |
-         e7616bb5ef5fe752e15db8a3dbd8657dc19c21f2 x86/mm/pat: Use IS_ENABLED() instead of ifdef
-         e27d938b0de86304f12c89706b8034f89f015077 x86/mm/pat: Convert __set_pmd_pte() to ptdescs
-         5fcb2abffe015017c252a5a720375145e808337e x86/mm/pat: Convert collapse_pmd_page() to ptdescs
-         46ee485bb9dee952cab3e7b22138b9ad0e5cb468 x86/mm: Convert arch_sync_kernel_mappings() to ptdescs
-         90c881895fab258924772846f2555a9c9eaac8f1 x86/mm: Convert sync_global_pgds_l5() to ptdescs
-         9c453f8784dc033a35d06dff929be1eaedb3020c x86/mm: Convert sync_global_pgds_l4() to ptdescs
-         dd9850c91665a56babd964df19de2cb90a98c538 x86/mm: Convert pgd_page_get_mm() to ptdescs
-         278ddbd27427e4f51e6fdc0e1f11930b22b2f5a9 x86/xen: Convert xen_mm_pin_all() to ptdescs
-         defbd61c2ab01654b37750ed1515864523280cc4 x86/xen: Convert xen_mm_unpin_all() to ptdescs
-         a5137a09c84dedd5f35089c7e4da5d0088a576d3 x86/mm/pat: Don't gate cpa_lock on debug_pagealloc_enabled()
+         ec0bbcf0d60d9d255e026eeb663225d1a91532d7 5.15-stable patches
          
+
+--===============0360465990348576190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784127363 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784127367-a14b7784e057a66832b8d104260b6811976a0c01
+
+088395e1a54a131291bccaae3f1301528e8c6401 ec0bbcf0d60d9d255e026eeb663225d1a91532d7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpXn4MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1gkP+gKsCm2LWixzmwJEyEjQ
+qUsn1+yGhjFShfd5CXDBa1UsLYjIyPiwtx0r3VJ3xRhBwGw5f1aZkwxvfF5ryysV
+elqusVnohdHPcJg1vuduw+iicu549H9nzseKi5Lt3h1kX+9+iPY4InMWcsBABz0v
+Hcjh8cVQU+QgLStZ4DHEIOMDm5qk7VZtTMoI8El6kDDO1seFjUILcOxnDlQwXnF5
+pYV+F9tuVMAFV4jfhbbjOLSao6NX1JuVjejKtjW0drSM98EvpA3yLqF89CIHjZN7
+YBJvVGLv8J1LvRubXLi31FBX59aQaglfja9q4a8OZCjFwccDTT9hdZXd1hDcnA3y
+vuUAlACpU6gJiP0EE//3w+6rA+4HshkJl1kcpIZkkTnH6EWZMtlW/5xeCmH4C9p+
+rbVWqvxqj3dgjoJKdHW1tGR9vuEeKaBJ282eMwGZK3T0MedfdwKy4RqT5YPxhrFX
+Q7+GViQcKAvRVG6f5DGv+A/+LUUMLb/GO7Cu7VntvJoByu+GtY8cQMMk0THbtCQc
+pbokceAKvs8fjNo5z05ASnz/QB4YKH5+D34YXII4p5rGPxjs0uJF+b1luuYOGq32
+vYicAia+LeL8HFyosmf2hwrMa2NVt9VuqvA1Pcq742OokHa3Pcs9SA047mM2cquL
+D+S6s5WYWngaI670L0L/TAYV
+=xkAt
+-----END PGP SIGNATURE-----
+
+--===============0360465990348576190==--
