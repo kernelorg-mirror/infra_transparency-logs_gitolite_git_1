@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 15 Jul 2026 20:53:09 -0000
-Message-Id: <178414878974.1602864.955971570566445879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 15 Jul 2026 20:53:20 -0000
+Message-Id: <178414880005.1603073.2409376882642706372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 55dd22e96c94faa87e129a203b56bcc47c5b10b7
-    new: a68019b146b0dff664ab0ce85fece93452c0cdb6
+  - ref: refs/heads/arm/fixes
+    old: 745df2052cf94b8e3348da59924d2eb0e24d4bb7
+    new: add11ea55f2d26d798c058fe4d67fb2941e77523
     log: |
-         403ee042c3e8db0aa93398c549e6ba94249b1b9e sched_ext: Fix TOCTOU race in consume_remote_task()
-         e3aae0b5691134677707bc5ce72a821d603b08cb sched_ext: Split curr|donor references properly
-         e8816fe1ad361e2952c08be48d68f081f3b82320 sched_ext: Handle blocked donor migration with proxy execution
-         984b201eb8b495f7c2037185cb6ec05e8b8ccf30 sched_ext: Delegate proxy donor admission to BPF schedulers
-         fb22fbd12644288853c4551f4c0c02265cdfe687 sched_ext: Add selftest for blocked donor admission
-         7dba9c59157ac881adf1cd3c6d398ca9c6c43564 sched_ext: scx_qmap: Add proxy execution support
-         a68019b146b0dff664ab0ce85fece93452c0cdb6 sched: Allow enabling proxy exec with sched_ext
+         53716a4d745f1dac7aff33f3d1494b701eb2f888 firmware: arm_ffa: Respect firmware advertised RX/TX buffer size limits
+         8ae5f8e4836667fcaffdf2e3c6068b0a8b364dd8 firmware: arm_ffa: Fix NULL dereference in ffa_partition_info_get()
+         05e5ffde9b666ee6d3ec225efeda9c038fa74ac8 firmware: arm_scmi: Grammar s/may needed/may be needed/
+         bf1deecccf210d1dd84e85cd4a45070888583984 firmware: arm_scmi: Use 64-bit division for clock rate rounding
+         a4447c0693830d5ecadd6e755cb7fdc55d86aacc firmware: arm_scmi: Rate-limit queue-full warnings in IRQ context
+         980a8bfe7baec9b9ee0d5443b0b204552e41c407 Merge branches 'for-next/scmi/fixes' and 'for-next/ffa/fixes'
+         add11ea55f2d26d798c058fe4d67fb2941e77523 Merge tag 'scmi-ffa-fixes-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
          
