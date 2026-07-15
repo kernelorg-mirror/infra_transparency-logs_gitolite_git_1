@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 15 Jul 2026 16:57:05 -0000
-Message-Id: <178413462513.1426136.17332324004577039494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 15 Jul 2026 16:57:22 -0000
+Message-Id: <178413464286.1426500.15268437196202366321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/controller/vmd
-    old: 22b47bd49e45c2f8288ee6b760a6b23508d9d799
-    new: c654f3ee611506fadac84f4354995dc5259ecfa9
+  - ref: refs/heads/master
+    old: 1309d5f9305d132bc09705ffa4afa113c6491c2b
+    new: 30db66dc971bd1cd95d4a7b0eea296367ab65b3b
     log: |
-         b030905bf5a6423d3000827a9d1cb973161cd2bb PCI: vmd: Add feature to scan BIOS-enumerated devices
-         c654f3ee611506fadac84f4354995dc5259ecfa9 PCI: vmd: Handle BUS_RESTRICT_CFG value 3 for Arrow Lake-HX
+         7482aceece7044e688f20f113263b50c21d69fb6 profiles/audio: fix UAF on external media service teardown
+         b0abe23f58f1ecc44d9d0b6b328be72d2d2113b8 doc/org.bluez.ChannelSounding1:Add Used by reference and Examples
+         30db66dc971bd1cd95d4a7b0eea296367ab65b3b doc/bluetoothctl-cs: Add :Uses: fields and document arguments
          
