@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7374761561567857587=="
+Content-Type: multipart/mixed; boundary="===============1524678768344729164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 15 Jul 2026 16:33:29 -0000
-Message-Id: <178413320973.1406457.4620514733724908482@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 16:33:32 -0000
+Message-Id: <178413321212.1406572.7256861819176080169@gitolite.kernel.org>
 
---===============7374761561567857587==
+--===============1524678768344729164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 23dad2d088dfc82cae1f5a936f8ff7ffebb38dd9
     new: f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e
     log: revlist-23dad2d088df-f6f3b36c15ed.txt
 
---===============7374761561567857587==
+--===============1524678768344729164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ aabbdb8c76d7b912d9a6bb2b1e835eba54a53a8d ipvlan: Synchronise ipvlan_init() and i
 71ac90cca6d8e6fcdd674a50157181ef4ac441a0 Merge branch 'net-support-per-netns-device-unregistration'
 f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e net: ethernet: qualcomm: remove unneeded 'fast_io' parameter in regmap_config
 
---===============7374761561567857587==--
+--===============1524678768344729164==--
