@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jul 2026 07:11:09 -0000
-Message-Id: <178409946986.908138.2718265140189857665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 15 Jul 2026 07:38:53 -0000
+Message-Id: <178410113324.926390.14815051404170999477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/irq/drivers
-    old: 9023960b74ab32bef73273cfb5bff3b0b70d5ef8
-    new: 616dd89d81ad9a3cf1cfff4088a4c43e4e00d6ba
+  - ref: refs/heads/controller/cadence
+    old: 93aac16f1eb9a181f9bdde620b464f6cc5fa8369
+    new: d70e964dc099821f6c159d8f40aa7be2c62ecfd2
     log: |
-         0d6a7c417983b36f0aa2a61bc650e8df04dd6ba8 irqchip/gic-v3-its: Enable dynamic MSI-X allocation
-         616dd89d81ad9a3cf1cfff4088a4c43e4e00d6ba irqchip/renesas-irqc: Fix generic interrupt chip leak on remove
+         b5672f9463f2ee184730daaa5c43b9b5e8fb9f86 PCI: cadence: Add HPA architecture flag
+         ea34744eb0949c7b1e53aea579f5a3e2d2b88d63 PCI: cadence: Add HPA IP debugfs for LTSSM status
+         d70e964dc099821f6c159d8f40aa7be2c62ecfd2 PCI: cadence: Add LGA IP debugfs for LTSSM status
          
