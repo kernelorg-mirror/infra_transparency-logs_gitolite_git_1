@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895405101678142862=="
+Content-Type: multipart/mixed; boundary="===============4867563833589328985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 15 Jul 2026 18:17:21 -0000
-Message-Id: <178413944109.1487772.2507456720778475790@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 18:17:23 -0000
+Message-Id: <178413944354.1487860.8463309616920365149@gitolite.kernel.org>
 
---===============5895405101678142862==
+--===============4867563833589328985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1cd23ca80784223fa2204e16203f754da4e821f8
     new: 3f1f755366687d051174739fb99f7d560202f60b
     log: revlist-1cd23ca80784-3f1f75536668.txt
 
---===============5895405101678142862==
+--===============4867563833589328985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f38f8cce2f7e79775b3db7e8a5eacda04ac908e4 xfrm: policy: preallocate inexact bins 
 7410d11460eb90d6c9281162ccc6a128534d897d macsec: fix promiscuity refcount leak in macsec_dev_open()
 3f1f755366687d051174739fb99f7d560202f60b net: openvswitch: reject oversized nested action attrs
 
---===============5895405101678142862==--
+--===============4867563833589328985==--
