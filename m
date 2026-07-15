@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3831302027141277280=="
+Content-Type: multipart/mixed; boundary="===============0175026525076541347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 15 Jul 2026 20:18:46 -0000
-Message-Id: <178414672655.1576901.9229712935579677445@gitolite.kernel.org>
+Date: Wed, 15 Jul 2026 20:18:50 -0000
+Message-Id: <178414673063.1577162.16937176051323665070@gitolite.kernel.org>
 
---===============3831302027141277280==
+--===============0175026525076541347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.3
-    old: ef64490e5cdacc47d3d4205756fc44769f094d94
-    new: f61fdd70f112ec5226f7adde3c29cf7aa55c6a42
-    log: revlist-ef64490e5cda-f61fdd70f112.txt
+  - ref: refs/heads/for-next
+    old: 493a918e45051d95130f61bc3bd7e16b1a284892
+    new: 64a28053710d050b72f8f8aaa9e75654fac0f2d5
+    log: revlist-493a918e4505-64a28053710d.txt
 
---===============3831302027141277280==
+--===============0175026525076541347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef64490e5cda-f61fdd70f112.txt
+Content-Disposition: attachment; filename=revlist-493a918e4505-64a28053710d.txt
 
 67f06acfca6cd79c75aa89df334968348fb611fd arm64: dts: qcom: lemans: Add compatible to the PCIe Root Port
 a6d4bb0a6aced2bdffd606d3a9d5df73ea0d19a1 arm64: dts: qcom: lemans-evk: Describe the PCIe M.2 Key E connector
@@ -84,5 +84,6 @@ ff24f055eb3e1f617e5790bf07c4c71aeef10b0d dt-bindings: arm: qcom: Document Hawi S
 43899c55d79baef54652ec3310683da304706fd5 arm64: dts: qcom: purwa: Override Iris clocks and operating points
 b66ca23dd964f78eb9ed0207ed0909fd9e8c27e1 arm64: dts: qcom: purwa-iot-som: enable video
 f61fdd70f112ec5226f7adde3c29cf7aa55c6a42 arm64: dts: qcom: eliza-mtp: Enable touchscreen
+64a28053710d050b72f8f8aaa9e75654fac0f2d5 Merge branches 'arm32-for-7.3', 'arm64-defconfig-for-7.3', 'arm64-fixes-for-7.2', 'arm64-for-7.3', 'clk-fixes-for-7.2', 'clk-for-7.3' and 'drivers-for-7.3' into for-next
 
---===============3831302027141277280==--
+--===============0175026525076541347==--
