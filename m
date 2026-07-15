@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 15 Jul 2026 01:41:58 -0000
-Message-Id: <178407971821.674500.12452084157858452101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 15 Jul 2026 02:02:14 -0000
+Message-Id: <178408093488.688386.3787142525382802989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/next
-    old: ff2ff82053069107db314a393d98330d8d1e8f41
-    new: 6b83935d8110c83e623c28379302d4e205a84c05
+  - ref: refs/heads/fixes
+    old: ad6dcfa023762e37962f77ee48e752b7570e9440
+    new: caf0e4b45b7493d4c26fc881bce5d510cd407e02
     log: |
-         9fe595fad54d4ac6a402edb3f60bec859d52cea6 selinux: fix incorrect execmem checks on overlayfs
-         6b83935d8110c83e623c28379302d4e205a84c05 Automated merge of 'dev' into 'next'
-         
-  - ref: refs/heads/stable-7.2
-    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    new: 9fe595fad54d4ac6a402edb3f60bec859d52cea6
-    log: |
-         9fe595fad54d4ac6a402edb3f60bec859d52cea6 selinux: fix incorrect execmem checks on overlayfs
+         e4bf6eb4c7b61db1cf24487e14e6ae8755e61e3d arch/riscv: vdso: remove CFI landing pad from rt_sigreturn
+         caf0e4b45b7493d4c26fc881bce5d510cd407e02 riscv: smp: set CPU 0 possible in setup_smp()
          
