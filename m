@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4685129468759702072=="
+Content-Type: multipart/mixed; boundary="===============5390708269695190556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 15 Jul 2026 18:18:08 -0000
-Message-Id: <178413948876.1488720.11709099217518522528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 15 Jul 2026 18:25:40 -0000
+Message-Id: <178413994015.1495421.17619271728828141295@gitolite.kernel.org>
 
---===============4685129468759702072==
+--===============5390708269695190556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/200GbE
-    old: 1cd23ca80784223fa2204e16203f754da4e821f8
-    new: 3f1f755366687d051174739fb99f7d560202f60b
-    log: revlist-1cd23ca80784-3f1f75536668.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 67e1bcd7b62cdaeec2647705ffc0e60630fa3853
+    new: 604062ad51c75cf6ecd6a5823dc42b48e8d47838
+    log: revlist-67e1bcd7b62c-604062ad51c7.txt
 
---===============4685129468759702072==
+--===============5390708269695190556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cd23ca80784-3f1f75536668.txt
+Content-Disposition: attachment; filename=revlist-67e1bcd7b62c-604062ad51c7.txt
 
-6860b467f569f732b11cbc588ae7e195e90e7e23 xfrm: propagate -EINPROGRESS from validate_xmit_xfrm()
-3f4c3919baf0944ad96580467c302bc6c7758b00 xfrm: fix stale skb->prev after async crypto steals a GSO segment
-226f4a490d1a938fc838d8f8c46a4eca864c0d78 xfrm: nat_keepalive: avoid double free on send error
-c283e9ada7fcb7dd4b10592623086b2e6d2f9925 xfrm: fix sk_dst_cache double-free in xfrm_user_policy()
-c4a5f0071cc6d378a0e7151b60d85986aefac1f3 xfrm: cache the offload ifindex for netlink dumps
-ea528f18231ec0f33317be57f8866913b19aba6e xfrm: reject optional IPTFS templates in outbound policies
-2538bd3cd1ff5af655908469544ac7b7ae259386 xfrm: clear mode callbacks after failed mode setup
-430ea57d6daf765e88f90046afbfd1e071cb7200 xfrm: iptfs: propagate SKBFL_SHARED_FRAG in iptfs_skb_add_frags()
-136992de9bb91871084ae52d172610541c76e4d2 xfrm6: clear dst.dev on error to avoid double netdev_put in xfrm6_fill_dst()
-f38f8cce2f7e79775b3db7e8a5eacda04ac908e4 xfrm: policy: preallocate inexact bins before xfrm_hash_rebuild reinsert
-389704eb516b04c31f1b772f6385fd6ff1ba1b9a Merge tag 'ipsec-2026-07-10' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-7410d11460eb90d6c9281162ccc6a128534d897d macsec: fix promiscuity refcount leak in macsec_dev_open()
-3f1f755366687d051174739fb99f7d560202f60b net: openvswitch: reject oversized nested action attrs
+17e3978f3ad1c6c4c9aca009a5081c6b0ebb5491 perf test: Remove duplicate include of util/term.h
+ea46211d7e9a2210b62c40e56b2d6540c0b4b083 perf jevents: Add Intel OMR MSR mappings
+d30f2d869b6a2e985351867424037eb7bcb57386 perf doc: Fix mmap failure checks in topdown example
+4968708beaad53940b67e4952e34a97d8768091d perf: evsel: Fix error handling in tp_format lookup
+12038480d7e76c38d8ab2031c36cf8c96f3e0485 perf vendor events intel: Update alderlake events from 1.39 to 1.40
+6281354894d9a144216aef2a27712cd9b7b52dce perf vendor events intel: Update alderlaken events from 1.39 to 1.40
+d4aba8c1503f7ddc0c76b38cb9bbf91053fa6569 perf vendor events intel: Update arrowlake events from 1.19 to 1.20
+07b647ec983028436c9afdc195a054891f216ae2 perf vendor events intel: Update clearwaterforest events from 1.02 to 1.04
+79d8a962de781d771ecabe54bca058e526e0c733 perf vendor events intel: Update grandridge events from 1.12 to 1.13
+51291e81bb64b2a2d6451e11b09133efcf67abe6 perf vendor events intel: Update graniterapids events from 1.19 to 1.20
+98ebd9d679db5199665e3f895b0625146a9b89a0 perf vendor events intel: Update lunarlake events from 1.25 to 1.26
+982079cbd91414de2d3e92df3453b4ce83db5800 perf vendor events intel: Update meteorlake events from 1.21 to 1.22
+42a93c514e049e0e632c158b02305e1bbb313bcf perf vendor events intel: Add novalake v1.00 events
+27780f9b3b7bfcec7e1d0776887863513454aef1 perf vendor events intel: Update pantherlake events from 1.06 to 1.07
+c0f049a1f63ac57da77a6f895043c0a0e3f9129d perf vendor events intel: Update sierraforest events from 1.17 to 1.18
+604062ad51c75cf6ecd6a5823dc42b48e8d47838 perf vendor events intel: Update emeraldrapids metrics
 
---===============4685129468759702072==--
+--===============5390708269695190556==--
