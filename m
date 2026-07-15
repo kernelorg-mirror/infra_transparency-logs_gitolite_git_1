@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 15 Jul 2026 09:12:49 -0000
-Message-Id: <178410676956.998614.10517040272153213101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 15 Jul 2026 09:30:09 -0000
+Message-Id: <178410780972.1012357.17607170242292211365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 9ed48de2d9c4c71c0f560e13bc71fb2c7c8defd5
-    new: 4859c0d5918e28f6d4844e33022e791c55dbf373
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 86374cd567f1cf864cf654149961dd218ca7eee3
+    new: 121f72d7956a42f5d95a252bb7c162b2f367bdc5
     log: |
-         1e5ebc3f9f8b7e21f7b726b21da0265597ff52bf scripts/tags.sh: Prevent binary files appearing in cscope.files
-         4859c0d5918e28f6d4844e33022e791c55dbf373 scripts/tags.sh: Add support for rust source files
-         
-  - ref: refs/heads/kbuild-next-unstable
-    old: 9ed48de2d9c4c71c0f560e13bc71fb2c7c8defd5
-    new: 4859c0d5918e28f6d4844e33022e791c55dbf373
-    log: |
-         1e5ebc3f9f8b7e21f7b726b21da0265597ff52bf scripts/tags.sh: Prevent binary files appearing in cscope.files
-         4859c0d5918e28f6d4844e33022e791c55dbf373 scripts/tags.sh: Add support for rust source files
+         7d0f411992c3b39d2b95fab4825ab0d8ab7028d4 arm64: dts: renesas: r9a07g043: Add max-frequency to SDHI nodes
+         f7a9acccd777311e30046371e8aa2fb74db6598e arm64: dts: renesas: r9a07g044: Add max-frequency to SDHI nodes
+         121f72d7956a42f5d95a252bb7c162b2f367bdc5 arm64: dts: renesas: r9a07g054: Add max-frequency to SDHI nodes
          
