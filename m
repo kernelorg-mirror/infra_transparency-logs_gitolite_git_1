@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 15 Jul 2026 05:36:11 -0000
-Message-Id: <178409377190.840773.2765603278630501883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 15 Jul 2026 05:45:38 -0000
+Message-Id: <178409433865.847448.9546509657200045125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 757107b7a2061d44840e7be73710e101e7fe5879
-    new: 40df66aa211e41d47e8150a94256fe5570fd7369
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 5a83170c8795056a401d7bfb9529af22a53fd9a4
+    new: 6a9e0e0f7592313ace66303cf5eca68e04c10f30
     log: |
-         40df66aa211e41d47e8150a94256fe5570fd7369 foo
+         6a9e0e0f7592313ace66303cf5eca68e04c10f30 cpufreq: spear: Fix an IS_ERR() vs NULL bug in spear1340_set_cpu_rate()
          
