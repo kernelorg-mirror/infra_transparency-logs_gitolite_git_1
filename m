@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7499231836730779506=="
+Content-Type: multipart/mixed; boundary="===============7095787302981788798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 15 Jul 2026 11:21:38 -0000
-Message-Id: <178411449851.1164719.18365309640842037995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 15 Jul 2026 11:33:26 -0000
+Message-Id: <178411520699.1172280.2594933115821080721@gitolite.kernel.org>
 
---===============7499231836730779506==
+--===============7095787302981788798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2f7845b90a9d5d3e9832afc16e9b090009619385
-    new: 0f1198780cb90e388e037339662b15972f62c30b
-    log: revlist-2f7845b90a9d-0f1198780cb9.txt
+  - ref: refs/heads/staging-testing
+    old: 8ac62750f8b465fc027e4c41ff92693a2d9f0feb
+    new: 64276d9bfe4d1fdd5cf2636f1065f7ea55c2defb
+    log: |
+         64276d9bfe4d1fdd5cf2636f1065f7ea55c2defb staging: rtl8723bs: Remove space after cast
+         
 
---===============7499231836730779506==
+--===============7095787302981788798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f7845b90a9d-0f1198780cb9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c0e553ed5d31d73e30e9571de00d31532e77b948 lib/dl-utils: add shared dlopen/dlsym infrastructure
-d55a2dca663913c33b2139e89ae37af4324a3855 libmount: fix gtk-doc comments and declarations
-ccc534b8ba564c2a98b2493a0f78bc9424911bdd docs: update libmount gtk-doc configuration
-d8bcfb73f965ea8e37a983f8781d666cfd2dd17d docs: update libblkid gtk-doc configuration
-5ebed901ccc5bce19dc554b641a053ad3b8f8803 docs: update libsmartcols gtk-doc configuration
-d26198befd3748bc5b821f0bfe1c38519bb809d0 docs: update libfdisk gtk-doc configuration
-dfe0a85946a5c1b56c450e89c9b9cbfee0e22a99 libmount: use shared dl-utils for cryptsetup dlopen
-74cef51bcb0bb9769fbe6a993fd59cda04b792e5 libmount: fix -Wunterminated-string-initialization warning
-b93cc39a8ed6d9ee537a28b3f011df27ed7d6feb libmount: use shared dl-utils for SELinux dlopen
-feaacdbb9f22d23e09b5ee29892063afe5dcc713 tools: switch SELinux to runtime optional via dlopen
-c2b517ddbfbaea6190c89e6aae41db41b6c81ac4 Merge branch 'PR/dl-utils' of https://github.com/karelzak/util-linux-work
-0f1198780cb90e388e037339662b15972f62c30b Merge branch 'PR/docs-gtk-doc-fixes' of https://github.com/karelzak/util-linux-work
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784115201 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1784115205-5aa187e60edd073b4b571b4e4ecd0b052babd2e2
 
---===============7499231836730779506==--
+8ac62750f8b465fc027e4c41ff92693a2d9f0feb 64276d9bfe4d1fdd5cf2636f1065f7ea55c2defb refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpXcAEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YsoP/2MoqbwQv9+eujl5kdw+
+G8dLnASZpukX7NKPAhvSTJPOoNZx4X7TgX7JJX5L9eIFReqgeJjxzFCuATBLhqzs
+HHlWy99N4UvlhnEKTSnNKr2glksFX/dky11B2JfmHyFZr2wLy9GDzpIPWz44tJeT
+xC66IEBmXuYtmQout54/Q9YtjxtkE+onwlbVTpqBNHUldi0juFSv9KcqK4hjh4em
+91rQ61yGy1eWCanpjcHnbZccoNnBeYynGJvXcTcwHYC2JfnCxPwoTufaTJhO0ysS
+ti8AR3ccPgk8uabSpj32OQ1MkMHsyl4yJTRarjMkG1/JI/URq0KSNVigyqodrsZ+
+BFvd+UcssHUnEafhqsAQ56AufUUWugPv8OqMgqW0yNTr/mhP1KrKyr7cPTTH1z0l
+Dx9RcvxyjMHkt4ByH/gcZFxJPuAzMeICJcwu4fgtZarPkFMxo+FpdYcyv0iHVihA
+L1fNzB2XhfI8GceS7CDDObLZa98xhupUKy60zkoqU3BhwgURZbZn98IXRJWDmpBm
+NzjV0Y15r07fm7kN77aSGqbdDsTSLjaspIbTtDvxGevf33wBA8As5HtMynmpO+E6
+5sv59HpPzkjBE1NaKbqBhdm6awXJ/OxbdkzrGgrG49XVpklGXaA/Q0PDbK7nJuLm
+tc7vVX9Vpd4UtJ8rZy9CQXP4
+=8/75
+-----END PGP SIGNATURE-----
+
+--===============7095787302981788798==--
