@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6734778267653268180=="
+Content-Type: multipart/mixed; boundary="===============3654092541487457931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 16 Jul 2026 01:05:46 -0000
-Message-Id: <178416394601.1794921.17096745446751388046@gitolite.kernel.org>
+Date: Thu, 16 Jul 2026 01:05:49 -0000
+Message-Id: <178416394919.1795048.4051394048717590721@gitolite.kernel.org>
 
---===============6734778267653268180==
+--===============3654092541487457931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 59c684a9908d2e6f7a791f7f033eae57ec2b3a61
-    new: 4f032f512d9fc5a9ae438e6efd9d8e94fbaaa36c
-    log: revlist-59c684a9908d-4f032f512d9f.txt
+  - ref: refs/heads/mm-unstable
+    old: 7081238c5ca29839924f13bf5daa80763bc589f2
+    new: 199d42783981acdd55e28ec6b911e6275dba02dc
+    log: revlist-7081238c5ca2-199d42783981.txt
 
---===============6734778267653268180==
+--===============3654092541487457931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59c684a9908d-4f032f512d9f.txt
+Content-Disposition: attachment; filename=revlist-7081238c5ca2-199d42783981.txt
 
 55fcbe3639e8a03acc7e913a570ba9d4c04a246f mm/vmstat: fold stranded per-cpu node stats when a node comes online
 e49eb550730cf5ad3b85d4cfec40df2e8d9222fc lib: test_hmm: use device devt for coherent device range selection
@@ -532,37 +532,5 @@ deb687eb15614246bc0bac65e8c27e5ccc30ac54 mm/vma: update do_mmap() to use vma_fla
 c63dad4dc669d5c4d0ef47e42df3cc05a7849d77 mm/mlock: convert mlock code to use vma_flags_t
 82f8e4888c419e503201a07a08c8f2ca2495c832 mm/mprotect: convert mprotect code to use vma_flags_t
 199d42783981acdd55e28ec6b911e6275dba02dc mm/mremap: convert mremap code to use vma_flags_t
-0b3335394506c4d9863006696d5cc42a6333c2ed mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-9156b69557fd70732861050922830a7367f24cbb mm/mm_slot.h: add a helper function mm_slot_remove
-9870d9a92e9c20e39430b9c6d8bed1f1a7fc4515 mm/mm_slot.h: add comments for mm_slot_lookup/insert
-78f8457cade8a7c642dfe6be4133d77ee06fe016 mm/damon/core: hide private damon_region fields
-0aefa6febd7511ba623811968bb8541a1a6e10e3 mm/damon/core: hide private damon_target fields
-e51adb018c62dcf3df23112e2f46b89ef9640b79 mm/damon/core: hide private damos_quota_goal fields
-ea5882c06095ec40c8acbf23b8005928fa31d24a mm/damon/core: hide private damos_quota fields
-b80832e944dc83377bef2a2cceccc6aebe29ec7a mm/damon/core: hide private damos_filter fields
-2885e5d10e8ccd23c2f904dc5ed87468e0e24203 mm/damon/core: hide private damos fields
-885e8fef28a8e1578769df1db3f4a54bb5ec6fc1 mm/damon/core: hide private damon_filter fields
-c64b6a8e5c66a4c206442cdab0c641b66e94239e mm/damon/core: hide private damon_probe fields
-c3f3506057a5bf59e1693c0714369f3f26ece2a1 mm/damon/sysfs: do not directly access damon_ctx->ops
-21a48a09f2bb3e048beeaeed634829a64609156f mm/damon/core: hide core-private damon_ctx fields
-285ecc4354217275fc35b09f0fbc726939dcde69 mm: let node_reclaim() return the number of pages reclaimed
-f997b14804aa6fbfa2792ff9e6e6f4170fc8b513 mm/damon/core: avoid infinite kdamond_merge_regions() internal loop
-605a6cccc1b91b39e1bce2ff82d0e45c3e572e77 mm/damon/tests/core-kunit: catch test failure in test_merge_regions_of()
-8b473da122fa36d88e0861ef142386525cf54056 mm/damon/vaddr: drop last same folio access check optimization
-eafad4361801b77007762ec147dbb36fa15655d4 mm/damon/paddr: drop last same folio access check reuse optimization
-8665e9d804963beebfc7736071c7c959617148ec mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
-92b21988cde591c71574d298eaa27b19669e550f mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
-69935776f9170277cf4abbd606b0b9c750caa701 docs/mm: fix braces
-1ac7e35ac0c96f0bcb583d09a3893479082d3dce selftests/mm: add PAGEMAP_SCAN test for THP PMD holes
-9245d693d282bb4606050878ce00886dd47b6d30 mm/mseal: fix mseal documentation for 32-bit kernels
-a8f112e5fb6835964e6a75061a4b186bb34f6b6d mm/page_alloc: don't spin_trylock() in NMI on UP
-f9436cb61cd3c680b47e798e77b2315e297203b0 mm/page_alloc: don't spin_trylock() when disallowed in free_one_page()
-fe0aaaa4b7cc631b65e7afc4ec93690a2648cfac mm/page_alloc: rename FPI_TRYLOCK -> FPI_NOLOCK
-9d966db6ca88275e85ae41e3605d589003641fdc cgroup/cpuset: update some comments about the page allocator
-a2d274ac26d2c8c9c37f4fca5ab4f756631b2361 mm/page_alloc: fixup alloc_pages_nolock_noprof() comment
-5899c95f441122c233f58d74e954babfe469c036 mm/page_alloc: remove a couple of VM_BUG_ON()st
-f9f6d76cd6816124a746e2b29ca0dd6d7f429d06 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-55e3e110459ea107624e8ac94dbb409141ea3703 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-4f032f512d9fc5a9ae438e6efd9d8e94fbaaa36c mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6734778267653268180==--
+--===============3654092541487457931==--
