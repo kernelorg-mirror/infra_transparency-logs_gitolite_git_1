@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 16 Jul 2026 19:11:54 -0000
-Message-Id: <178422911463.2645149.17625730649639314830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 16 Jul 2026 19:17:42 -0000
+Message-Id: <178422946215.2649037.14300753666143996216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/for-7.1-fixes
-    old: 0143033dc22cdff912cfc13419f5db92fea3b4cb
-    new: df42c49ec865347f650517838185d82b70b6f774
+  - ref: refs/heads/driver-core-testing
+    old: f9e7a7564834af3e1239fbb9a4161f448edd04fa
+    new: c945c8f37a81e0da6710794549ebd8ac9d2c1b82
     log: |
-         df42c49ec865347f650517838185d82b70b6f774 workqueue: Use raise_softirq() to trigger softirq in irq_work handler
-         
-  - ref: refs/heads/for-next
-    old: dbff1ec23f68640a743512e8ada125795d1b72c7
-    new: c5a3a03816ddba2ebf73fd7cbec3c5169424ea04
-    log: |
-         df42c49ec865347f650517838185d82b70b6f774 workqueue: Use raise_softirq() to trigger softirq in irq_work handler
-         c5a3a03816ddba2ebf73fd7cbec3c5169424ea04 Merge branch 'for-7.1-fixes' into for-next
+         c945c8f37a81e0da6710794549ebd8ac9d2c1b82 rust: firmware: avoid UB in example by passing parameter
          
