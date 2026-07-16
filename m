@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7329209930004964686=="
+Content-Type: multipart/mixed; boundary="===============8176699576637398815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 16 Jul 2026 11:12:26 -0000
-Message-Id: <178420034615.2281605.18015765785713329241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 16 Jul 2026 11:14:07 -0000
+Message-Id: <178420044764.2282218.13497832668030545617@gitolite.kernel.org>
 
---===============7329209930004964686==
+--===============8176699576637398815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 4fe01a156e3f1e8b5e4fd6645088b553d4d7f000
-    new: 73080a7976edde1c61f3654308ffe77c428ad6a2
+  - ref: refs/heads/master
+    old: 7343a3d7d12afd03e1829538cb706f7818572fae
+    new: bdc79747078f9b3961107ecbb22fbc0ed1efcea9
     log: |
-         3330b5f6d8dea66df51c07362f01a39ad9845aad ASoC: cs35l56: Add support for CS35L62 for SoundWire
-         0306d211558196e051b83e067ee4c30e1b6f94a8 ASoC: sdw_utils: Add codec info for CS35L62
-         567a5c8664ce57af4e2a98133f0f9974adcde134 ASoC: cs35l56: Add support for CS35L62
-         73080a7976edde1c61f3654308ffe77c428ad6a2 ASoC: generic: Card name parsing should be called after xxx_for_each_link()
+         4a819f3a747d5e44a0c37ee4819f5a0e53b01325 verhaal: update to 026 release
+         bdc79747078f9b3961107ecbb22fbc0ed1efcea9 Updates due to fix in verhaal tool.
          
 
---===============7329209930004964686==
+--===============8176699576637398815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784200344 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784200343-e2ff59639b33c3532242ab3a2fa18e5148afc73c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784200442 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1784200447-b9ec4187773fc74123b9970970f36be030a6b8bb
 
-4fe01a156e3f1e8b5e4fd6645088b553d4d7f000 73080a7976edde1c61f3654308ffe77c428ad6a2 refs/heads/asoc-7.3
+7343a3d7d12afd03e1829538cb706f7818572fae bdc79747078f9b3961107ecbb22fbc0ed1efcea9 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpYvJgACgkQJNaLcl1U
-h9B+ngf8Cl5z9DDY3BcAdPOGDFBTx6mcHqzGYweEA7GiUTWx9gliWCMeT5xp9qr2
-PCyzUzNZzOGbMMV+fU3snIVPUU5AG1IEtl0sqzsu+zDzVEKJODH70+O1lkuW1QBM
-V7kfpsafjKCM0p1R5SgwRBMHHeAtUL1xKNSpXljr125CCmdVz+HHob0mXGUYyAAi
-A0AISGKfUxJvfgowEzHohLp49sEQlGLLNinZJRvod9TIo/wywS09e4CyvPnFZZra
-dsSQ1UcaCNtR5gUJJyBSrKoNi1x+XElPQ8jMkMD6FfoCeLG7xHyUptX/GJbqiHMC
-4yNO8U4npABkg6xvONc08hQrhoXS1w==
-=qn07
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpYvPobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EnoQAIMN8cUoHD9WmbUjoPxz
+D/tjSU6OWNMxqiS3fTUTsTKv+BS0eMJmtIwCwu+GY5CpbYxyUc+e8Na/n2hxvHng
+Vm/aiZMpmTQbV86yAzc9xcgFwpXpJbt/avr4Y2ai2k7riQtzYrRYHaVVb52Qmtbh
+eDlOrjEX6aCyUfYOWjG6PX2T5dLcmy/0wQBIKUP6fQ22/TUMrE4fk1FRrD82paXY
+/yTWy18+IAvDXcwq1h66DFeUkGIvzzOQejZhlByvn1wSEcsGJzpdSsICtjmBsW9q
+OjC4jg3cnCMya38qNePS+9nVidacKCaWqybNuPeNc22mxR9R6Y6SRn4nHxOc6XRR
+bGjintN2WNY8RrDn69JczyXm4xu1K5Djmc1r1WsK4zYKcXZ7BxO22MB7yhcbS49s
+h/8FhPbRWCdHJCMBp6XSp7ZoTc0ZtNFSKlrXNuxNj0Kv24Mma3X3fBFNtPoH7cek
+VtyAxD+gfp3YrU0mMJq9bqOrdYdMOQD+L7NqvPxaAr6YYEvifyIRWpUmwV66Hl0d
+a918l6HztxSFGZ6QnV6LfjDtUF7nnKURbM4UmsrSzEcPArV9unl7qml1rNaYPULo
+rRiTO/jBr+STPReuVZT28aPfvUnqpW0NxUj1p2RUbK6jAL2ylQKEfOzrFE+TS2Ns
+yvQ3zokwPX1iocifv8lG9LAM
+=j2Bx
 -----END PGP SIGNATURE-----
 
---===============7329209930004964686==--
+--===============8176699576637398815==--
