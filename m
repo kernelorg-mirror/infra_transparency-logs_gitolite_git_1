@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4719990981758834078=="
+Content-Type: multipart/mixed; boundary="===============6736492778704927406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 16 Jul 2026 06:34:13 -0000
-Message-Id: <178418365307.2032257.3990335528417901802@gitolite.kernel.org>
+Date: Thu, 16 Jul 2026 06:34:19 -0000
+Message-Id: <178418365986.2032590.4712961968854735558@gitolite.kernel.org>
 
---===============4719990981758834078==
+--===============6736492778704927406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 4a09f4a23a3003d31f8545dd0770f2b3b0f54d8b
+  - ref: refs/heads/loongarch-next
+    old: 262a3b4fa1792d40728c69995924e11cf761f5cf
     new: 8227805754a68791baadc90280d1610353c4b698
-    log: revlist-4a09f4a23a30-8227805754a6.txt
+    log: revlist-262a3b4fa179-8227805754a6.txt
 
---===============4719990981758834078==
+--===============6736492778704927406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a09f4a23a30-8227805754a6.txt
+Content-Disposition: attachment; filename=revlist-262a3b4fa179-8227805754a6.txt
 
 00e44a68efef50f65b12854b41f098b4d50f10be ALSA: hda/realtek: Add quirk for Acer Nitro ANV15-41
 7693c0cc415f3a16a7a3355f245474a5e661be4e ALSA: usb-audio: avoid kobject path lookup in DualSense match
@@ -1051,4 +1051,4 @@ ea6cfdce94962769bb1df1614053f82097daf96b LoongArch: Increase TASK_STRUCT_OFFSET 
 3271eac9501778e36c48c20d816c25603040f678 LoongArch: BPF: Zero-extend signed ALU32 div/mod results
 8227805754a68791baadc90280d1610353c4b698 platform/loongarch: laptop: Stop setting acpi_device_class()
 
---===============4719990981758834078==--
+--===============6736492778704927406==--
