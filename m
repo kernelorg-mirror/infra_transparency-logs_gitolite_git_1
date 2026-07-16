@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 16 Jul 2026 08:30:04 -0000
-Message-Id: <178419060499.2139992.10246727252637514503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 16 Jul 2026 08:42:04 -0000
+Message-Id: <178419132481.2148993.17274641175154393794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: b12985a0473a2fbdd748a1680ecf0ff98886054b
-    new: 548897f0f788377db02262d9a6859277a52b0452
+  - ref: refs/heads/tmp.next
+    old: b9fa3ae313589f017f6fad8aaac414f29ce879c5
+    new: 2f9a77e47f605c4253d7beb027d5c27b99f4b7e8
     log: |
-         548897f0f788377db02262d9a6859277a52b0452 IB/mlx4: Fix stale CM id_map entries when RTU is never received
+         2f9a77e47f605c4253d7beb027d5c27b99f4b7e8 pahole: Fix BTF function parameter type match check
          
