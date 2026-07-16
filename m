@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7375364426906904286=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 16 Jul 2026 01:12:32 -0000
-Message-Id: <178416435222.1801053.17581845656691409516@gitolite.kernel.org>
-
---===============7375364426906904286==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Thu, 16 Jul 2026 01:33:36 -0000
+Message-Id: <178416561673.1817148.15687225229745167447@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: b3a7aa9c0020ae549a0d4964867ff66d2bd61709
-    new: 3421b9b056a6576d0ebac1030eafb48ad0544092
+  - ref: refs/heads/ntfs-next
+    old: cf5a67d917d3579ef7ad43efbdfa1606945905ed
+    new: b96184228c5fabd8326d645b457afbc5e1847da9
     log: |
-         3421b9b056a6576d0ebac1030eafb48ad0544092 selftests/seccomp: Fix pointer type mismatch build error
+         86a76f639ac0cc6ef9a01592b2897647b1aa2020 ntfs: Inline zero_partial_compressed_page()
+         c1adef740fbb1d2debbf4177e2233f76f6f6ecba ntfs: Remove use of __folio_index in handle_bounds_compressed_page()
+         c460efc6712861b805cdb552c6e125a064b1a86c ntfs: Use zero_user_segment() in handle_bounds_compressed_page()
+         4bb7d60fa9c486639ba01fe183d88c442e5514ae ntfs: Remove references to page->__folio_index
+         b96184228c5fabd8326d645b457afbc5e1847da9 ntfs: fix kmap_local_page() usage in compress
          
-
---===============7375364426906904286==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1784164351 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1784164349-ee8c9fe2d829d9b6101f25eadda8c5e6c1f33a62
-
-b3a7aa9c0020ae549a0d4964867ff66d2bd61709 3421b9b056a6576d0ebac1030eafb48ad0544092 refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCalgv/wAKCRA2KwveOeQk
-uyqQAP4zmnBLoZVHk+6nxxYXcUvijOpYY16H4wBWvwQ1mQE0VQD+LRDXt/6JKrJd
-ldxr9NoWL9wW1OHPNovCyb1KFJOHAAA=
-=l9p4
------END PGP SIGNATURE-----
-
---===============7375364426906904286==--
