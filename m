@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 16 Jul 2026 14:09:27 -0000
-Message-Id: <178421096726.2421299.16964515428484377021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 16 Jul 2026 14:20:09 -0000
+Message-Id: <178421160963.2430427.18090763000832821616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/ib-mfd-legacy-gpio-7.3
-    old: 0000000000000000000000000000000000000000
-    new: 6c0c972cacb5e78df02d44b5e89ed40779d26bba
+  - ref: refs/heads/regulator-7.3
+    old: 153bc959ce0f91b4446fb6fb805b8c1d2ca20c75
+    new: 25706f1ab9fba4b10169f557bf5fcaf41db0bc65
+    log: |
+         25706f1ab9fba4b10169f557bf5fcaf41db0bc65 regulator: mcp16502: Convert to dev_err_probe() in mcp16502_probe()
+         
