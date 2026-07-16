@@ -1,50 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4414085419112568745=="
+Content-Type: multipart/mixed; boundary="===============4705437616301376468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 16 Jul 2026 11:11:59 -0000
-Message-Id: <178420031943.2280978.12345906170900159637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 16 Jul 2026 11:12:22 -0000
+Message-Id: <178420034200.2281389.12390743062995009400@gitolite.kernel.org>
 
---===============4414085419112568745==
+--===============4705437616301376468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: d39e4e27962aa1fb5b8f0df057e1079504d369eb
-    new: 0b604e886ece11b71c4daaeccc512c784b89b014
+  - ref: refs/heads/for-7.3
+    old: 4fe01a156e3f1e8b5e4fd6645088b553d4d7f000
+    new: 73080a7976edde1c61f3654308ffe77c428ad6a2
     log: |
-         0b604e886ece11b71c4daaeccc512c784b89b014 ASoC: bt-sco: fix duplicate DAPM widget names for wideband DAI
+         3330b5f6d8dea66df51c07362f01a39ad9845aad ASoC: cs35l56: Add support for CS35L62 for SoundWire
+         0306d211558196e051b83e067ee4c30e1b6f94a8 ASoC: sdw_utils: Add codec info for CS35L62
+         567a5c8664ce57af4e2a98133f0f9974adcde134 ASoC: cs35l56: Add support for CS35L62
+         73080a7976edde1c61f3654308ffe77c428ad6a2 ASoC: generic: Card name parsing should be called after xxx_for_each_link()
          
 
---===============4414085419112568745==
+--===============4705437616301376468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784200317 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784200316-2a7e83b904a1557ceb07aec6cd5e6998eea61d0b
+pusher C3F436CA30F5D8EB 1784200340 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1784200339-a540b11e7a6118dca8b210de3cb4270f13b1530b
 
-d39e4e27962aa1fb5b8f0df057e1079504d369eb 0b604e886ece11b71c4daaeccc512c784b89b014 refs/heads/asoc-7.2
+4fe01a156e3f1e8b5e4fd6645088b553d4d7f000 73080a7976edde1c61f3654308ffe77c428ad6a2 refs/heads/for-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpYvH0ACgkQJNaLcl1U
-h9CKRQf+ItofKbNu0MbTrVPorRmMzdl7uoRykYgSgvKqlS7thQTcvqma6OH2J2Sp
-L4vt4WpcqNMWOYoAEOnY1y2FTLGBa/0qwJkaTorQcLI31wcrIFFkwM2BxWWv24A4
-P7e3bnqVdJnY8Cf2WmsOp+jK875nNWGqtbctIoAlD8/aWcIpRrwiYk3vF9pziezQ
-ZK4Ygcm5Lx+stWuBZBnjteEYOcOmiA4NNqpn1/EjyUBXg4hSvsVzyeTHG8J7bq1R
-vLg5WJCODEgjoYdKSSSa5IoNPGvYuqFsuodaK3J2JbvoJZaO4Hf9ynAUs1ExV4gr
-IuFv6PrxGRD2UkqLXs07w4pdLd4TTQ==
-=8a9i
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpYvJQACgkQJNaLcl1U
+h9BYgwf/d/NeMQ5c1pOnHqDTZfc+WbVzrmr9xaIyRPwY6JRCXpEiDjLFt0LnCkVp
+R3J49HoHA1htvcnutecXj/6fqhn9A4+C0+2LQCmROmdNQnqDIruzZIx3a+IPrnta
+cxSUcBwQ4Dj+FPNRUd3xjDf/Oiq0DAkb7w1WzRhUv4Ltf/zEzz6iSdYytEeOpD6H
+myBvsis+KRCSslkSKCBhtN01Pj/m7+mNEHGxHPeCdSB4vGKK2qeC7xlbbe5yvMUe
+bcaqySWDkVHuk/MlV+V8NyA/v9pR4jFVEUlOHoIwzKrxBC7jERGsv7h3HvmCSXEv
+4rbxeinHgGhXX4XJC931CovhH6OqsQ==
+=lFb9
 -----END PGP SIGNATURE-----
 
---===============4414085419112568745==--
+--===============4705437616301376468==--
