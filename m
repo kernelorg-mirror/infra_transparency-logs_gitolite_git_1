@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 16 Jul 2026 10:40:12 -0000
-Message-Id: <178419841212.2236626.8070386295518643874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 16 Jul 2026 10:41:07 -0000
+Message-Id: <178419846726.2237485.3728575682646295183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/main
-    old: 85336dd8506867f700b52ba8ae98b84c809eb351
-    new: 924d73c9a2501a256d18a26cbe640548c70b3a9a
+  - ref: refs/heads/pcc_mailbox
+    old: c005202a2a522cd5d88cc8c8fbeefe648df2f408
+    new: c12fa6c17070469e6c3279089e11e26b3785173a
     log: |
-         9bc90ae3a3f0cd75bfa6dff97bc17ef1463fbf61 qcom: add ADSP firmware for hawi platform
-         924d73c9a2501a256d18a26cbe640548c70b3a9a Merge branch 'robot/pr-0-1784191359' into 'main'
+         ad710029689d6608e88a11c020174095d9d22d94 mailbox: pcc: Notify clients on polled completion
+         19559e09b54e30f933314110a76578bce67e2c38 mailbox: pcc: Check shared memory signature on request
+         c12fa6c17070469e6c3279089e11e26b3785173a mailbox: pcc: Fix command timeout due to missed interrupt
          
