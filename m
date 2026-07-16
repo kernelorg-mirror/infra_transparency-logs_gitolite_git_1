@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 16 Jul 2026 22:25:10 -0000
-Message-Id: <178424071011.2783725.17290787424338415339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Thu, 16 Jul 2026 22:36:13 -0000
+Message-Id: <178424137322.2791568.11037943939563000045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/todo
-    old: 8550e564f5760f614eb0a9501dacbd2503632bfb
-    new: 23297dce5593a9d0530dbccd9a641911f0ab61b2
+  - ref: refs/heads/testme
+    old: 1aac65f3e651334259ecb2a5f5ddb81c01f02599
+    new: 796f8e305a138098453b6f662716337e1af3c84f
     log: |
-         91fb406d3e3004e2e8aee1e361c341fbb5391246 Meta/onemerge: fix custom endpoint handling
-         23297dce5593a9d0530dbccd9a641911f0ab61b2 What's cooking (2026/07 #07)
+         796f8e305a138098453b6f662716337e1af3c84f x86/pkeys: Fix pkey_alloc return value when pkeys are not supported
          
