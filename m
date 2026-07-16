@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 16 Jul 2026 03:30:32 -0000
-Message-Id: <178417263242.1903931.10986151531963370186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Thu, 16 Jul 2026 04:02:13 -0000
+Message-Id: <178417453343.1925283.16268151942830861687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/experimental
-    old: 94f5a27f7b3878208e074038dec3f5c33b5fc3ba
-    new: 9cf92b53f7ba8f10648d8d9032304a64fe96fe53
+  - ref: refs/heads/dev
+    old: 2c0432bbbec91436452cbcdfc0f8ec3887556dc0
+    new: 7aefaf0dbe6f3dc23ea78478f010d84ffc0764bb
     log: |
-         9cf92b53f7ba8f10648d8d9032304a64fe96fe53 erofs-utils: tar: fix overly large size in tar header
+         1b16b9f0f78e432f4c0bb238802603986edf24a7 exfat: fix valid_size extension over a shared writable mapping
+         7aefaf0dbe6f3dc23ea78478f010d84ffc0764bb MAINTAINERS: update mailing list address for exfat
          
