@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 16 Jul 2026 20:41:16 -0000
-Message-Id: <178423447619.2710336.9378583589563783860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Thu, 16 Jul 2026 21:12:40 -0000
+Message-Id: <178423636047.2731100.15972725148901749287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/main
-    old: 20e860c632e314a9e985f8a549ff962c1cfcaf98
-    new: 35a237091c24858cac6c6679175bb6a628cbe400
+  - ref: refs/heads/blk-iobuf-pool-v2
+    old: da75cc2253180af718ba0b7b3684a091b16b14fb
+    new: 29a12a55aba822c74c104267b36a09cb572539ef
     log: |
-         39eb3a40d967b2111369001342f733e0b0f52d8c rdma: update uapi headers
-         35a237091c24858cac6c6679175bb6a628cbe400 rdma: display resource limits in curr/max format
-         
-  - ref: refs/heads/master
-    old: 20e860c632e314a9e985f8a549ff962c1cfcaf98
-    new: 35a237091c24858cac6c6679175bb6a628cbe400
-    log: |
-         39eb3a40d967b2111369001342f733e0b0f52d8c rdma: update uapi headers
-         35a237091c24858cac6c6679175bb6a628cbe400 rdma: display resource limits in curr/max format
+         29a12a55aba822c74c104267b36a09cb572539ef block: initialize is_iobuf for regular copy-path bio_map_data
          
