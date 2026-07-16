@@ -1,21 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 16 Jul 2026 14:28:59 -0000
-Message-Id: <178421213945.2435748.13215349475828427754@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1210730988224940001=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 16 Jul 2026 14:29:32 -0000
+Message-Id: <178421217252.2436268.17509151785686279904@gitolite.kernel.org>
+
+--===============1210730988224940001==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 7dcf091da4b4596f7dbfb403d946ee4aac423af3
-    new: 1d3302efe653df4c66a47126e9b8abcfdb027ee5
+  - ref: refs/heads/for-7.3
+    old: 73080a7976edde1c61f3654308ffe77c428ad6a2
+    new: 7619cfb830ad9a6e34121b34838ab0992ce514a8
     log: |
-         93c2a8ea2454b7b14eb378a58cad8a83c0ffc903 ASoC: cs35l56: Fix potential probe() deadlock
-         e0bffb63a2eda0af82ed7e6357ac67c2db990c21 ASoC: cs35l56: Use complete_all() to signal init_completion
-         1d3302efe653df4c66a47126e9b8abcfdb027ee5 ASoC: cs35l56: Fixes for deadlock/hang during component_probe()
+         6173e18dd47cce430506c2f642e0b8d8db51ff1e ASoC: codecs: lpass-wsa-macro: check clk_set_rate() return value
+         4fddda16f939b6ee53c6946ad71a2ea1fabf43c5 ASoC: codecs: lpass-va-macro: check clk_set_rate() return value
+         7619cfb830ad9a6e34121b34838ab0992ce514a8 ASoC: codecs: lpass-{wsa,va}-macro: check clk_set_rate() return value
          
+
+--===============1210730988224940001==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1784212171 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1784212170-2413c3e04cfe1777c98dd52f610b11fc3c49a8b3
+
+73080a7976edde1c61f3654308ffe77c428ad6a2 7619cfb830ad9a6e34121b34838ab0992ce514a8 refs/heads/for-7.3
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpY6ssACgkQJNaLcl1U
+h9C8sQf7BeMhAkostSArpgfraApvqlLpYtnXGa3N7JAs08eHa+lHRMr6DA/7Xk0o
+b2nKAYUjxqb6b+sCBRx9PrEEd7KYB6dm8bU8pCNhYm+Uog7nHXaTTOnGyjJ4n+wH
+tvftJWsh+SVIQSZGSbstsgkme1u/rzrp513AgA2hsqmFMfec7cOV+1X7nPiU01Jx
+s3UP+L4F6UHSAv6xqyDdmgcZ4v5axhyjPOGrg7usvCLRuPUn50LKPEdYF689xeVW
+CeLNO622rQWuD2qe0afaggJHoA5htNmzZx0HGOY4fPakB+70oLTDzk1kbg+JQjty
+aZl3dunfDTHhYZwcLNvZdaNSPHTmIQ==
+=OIvJ
+-----END PGP SIGNATURE-----
+
+--===============1210730988224940001==--
