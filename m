@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 16 Jul 2026 13:16:54 -0000
-Message-Id: <178420781402.2378821.7965804444567012682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 16 Jul 2026 13:17:14 -0000
+Message-Id: <178420783424.2379242.8866069627810716038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: e603f471505f861b0e820f71b5c0701eefafcc66
-    new: 46f68c265eafc4dd229b958f7d0a4571c22c2bfb
+  - ref: refs/heads/tmp.master
+    old: b9fa3ae313589f017f6fad8aaac414f29ce879c5
+    new: 2f9a77e47f605c4253d7beb027d5c27b99f4b7e8
     log: |
-         79769f5553f7fc80c7a727fb60071aec5d66867a sched_ext: scx_qmap: Add proxy execution support
-         46f68c265eafc4dd229b958f7d0a4571c22c2bfb sched: Allow enabling proxy exec with sched_ext
+         2f9a77e47f605c4253d7beb027d5c27b99f4b7e8 pahole: Fix BTF function parameter type match check
          
