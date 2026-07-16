@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 16 Jul 2026 23:17:59 -0000
-Message-Id: <178424387903.2820785.1680161480453829744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Thu, 16 Jul 2026 23:36:53 -0000
+Message-Id: <178424501344.2834519.3935666435508052886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ez
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 4967bd533db2dc947574ee55ba44b3306ef3b7b1
-    new: 3d84d674e3a5a33ce5eaa14b92bc839c3821a348
+  - ref: refs/heads/cpupower
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 5100bd356cd315112c4e27e66e4f0129800eabd2
     log: |
-         3917b1012ee2fef6da16d7450d4267dcb3e93363 bpf: Fix tracing of kfuncs with implicit args
-         0af15f3057a60a038864d47fa4b54d1c3c3c654c selftests/bpf: Cover tracing implicit kfunc args
-         3d84d674e3a5a33ce5eaa14b92bc839c3821a348 Merge branch 'bpf-fix-tracing-of-kfuncs-with-implicit-args'
+         68f34fad760b68e878aced43934cc02b9d1bed89 cpupower: Add generic CPPC performance display
+         6b8ff068542a62c0fd58a7134282d48dd8a729c9 cpupower: Build and call CPPC information on non-AMD processors
+         5100bd356cd315112c4e27e66e4f0129800eabd2 cpupower: Print kernel and hardware frequency information
          
