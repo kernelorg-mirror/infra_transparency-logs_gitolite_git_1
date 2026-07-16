@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0936545346698440660=="
+Content-Type: multipart/mixed; boundary="===============0528863161302416153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 16 Jul 2026 18:19:53 -0000
-Message-Id: <178422599390.2607317.6340598430331626829@gitolite.kernel.org>
+Date: Thu, 16 Jul 2026 18:22:48 -0000
+Message-Id: <178422616864.2610364.13653328591965057948@gitolite.kernel.org>
 
---===============0936545346698440660==
+--===============0528863161302416153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: bf8b3f48878ed7043775b846f569b3b5517dcbe6
-    new: 43aa5c475b5065b559836e8352d93e46d0c31765
-    log: revlist-bf8b3f48878e-43aa5c475b50.txt
+    old: 43aa5c475b5065b559836e8352d93e46d0c31765
+    new: 70e485a1b0a8404dfefeff0bc3ba122c9ee9283e
+    log: revlist-43aa5c475b50-70e485a1b0a8.txt
 
---===============0936545346698440660==
+--===============0528863161302416153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf8b3f48878e-43aa5c475b50.txt
+Content-Disposition: attachment; filename=revlist-43aa5c475b50-70e485a1b0a8.txt
 
-f65ababb556ae0110d14294747dd6df5dcb8f597 RDMA/srpt: Fix srpt_alloc_rw_ctxs() unwind counters
-52a47f0226151f8b53b9383a22f5a834033377fa RDMA/irdma: Prevent user-triggered null deref on QP create
-d135fdcd61ba65ba9908d016792065e48b48a759 RDMA/irdma: Add checks for no udata
-225698903d7000d55657a06d9215d83fa1a00c81 RDMA/irdma: Clear udata response buffers where necessary
-eb1eba1669f366121b67e02fb2f3ca33e004f88f RDMA/irdma: Use robust input copy helpers
-588d8da58f605733f789f463c52f03f557f4c85b RDMA/irdma: Use robust udata helper for QP creation
-f3c1f0a61b6d1e9d272439ab9dcc656e2f08132b RDMA/irdma: Fix legacy i40iw compat check in create_qp
-01abb9bddfc917a0e178d49cb584b65d18fc8536 RDMA/irdma: Enable uverbs_robust_udata compliance flag
-6c3e461122822a56074cd1096aaec76da6f8aa7a RDMA/cxgb4: use kmalloc() for the PBL address array
-ae0fc16829a1339d79654c5ab2b275bfd0664e4c RDMA/mlx4: use kzalloc() for the fast registration page list
-9835d9c00f6f6597dee49ed78879b0c06fe061da RDMA/usnic: use kmalloc() for the page pointer array
-56f43148fdc4efd61939260b9fa57dee65671587 RDMA/mlx5: use kmalloc() for UMR translation buffers
-43aa5c475b5065b559836e8352d93e46d0c31765 RDMA/mana_ib: Adopt robust udata
+49992007452432d65a1f218ea6c3f6015592c05c RDMA/srpt: Fix srpt_alloc_rw_ctxs() unwind counters
+d0a750863bec729aa7445cb98d766606d309b7f4 RDMA/irdma: Prevent user-triggered null deref on QP create
+43626bca6c80169ede94f7b90786a76ae94f1e19 RDMA/irdma: Add checks for no udata
+14c31949534da884fd4b37cea6df9f40983adb2d RDMA/irdma: Clear udata response buffers where necessary
+5b1ed14882527c3c135d01a25d325154bb01bfaf RDMA/irdma: Use robust input copy helpers
+41482a4707823bcc3eee080651eb227a8792fb51 RDMA/irdma: Use robust udata helper for QP creation
+31ebc3f597d5cf84a9f36a61c36e017bc9aa5636 RDMA/irdma: Fix legacy i40iw compat check in create_qp
+0feb4d36b8d7dce743ece8612244ce86fa276412 RDMA/irdma: Enable uverbs_robust_udata compliance flag
+e5c19d4e738cdacc1b8def7b5acb36b2d3685661 RDMA/cxgb4: use kmalloc() for the PBL address array
+fe3bd9b053fda5b936721655eded3ae8685148db RDMA/mlx4: use kzalloc() for the fast registration page list
+5e846c87d70c0ea576ce6e4cc12575da0c1825eb RDMA/usnic: use kmalloc() for the page pointer array
+de122be07cffc5f6cc1ed176be1e1374c9d23b15 RDMA/mlx5: use kmalloc() for UMR translation buffers
+70e485a1b0a8404dfefeff0bc3ba122c9ee9283e RDMA/mana_ib: Adopt robust udata
 
---===============0936545346698440660==--
+--===============0528863161302416153==--
