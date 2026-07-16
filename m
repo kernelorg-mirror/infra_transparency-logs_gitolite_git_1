@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 16 Jul 2026 08:42:29 -0000
-Message-Id: <178419134912.2149291.8520750410139096399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 16 Jul 2026 08:42:56 -0000
+Message-Id: <178419137671.2149585.9613977558038031055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/next
-    old: b9fa3ae313589f017f6fad8aaac414f29ce879c5
-    new: 2f9a77e47f605c4253d7beb027d5c27b99f4b7e8
+  - ref: refs/heads/wip/leon-for-next
+    old: 548897f0f788377db02262d9a6859277a52b0452
+    new: 36a29408795fe2ac3817cad86b7dca5a25c410a8
     log: |
-         2f9a77e47f605c4253d7beb027d5c27b99f4b7e8 pahole: Fix BTF function parameter type match check
+         36a29408795fe2ac3817cad86b7dca5a25c410a8 RDMA/bnxt_re: Validate udata before executing commands
          
