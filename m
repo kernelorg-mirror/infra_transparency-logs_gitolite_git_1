@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6858167751206444707=="
+Content-Type: multipart/mixed; boundary="===============0701167520305639416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Thu, 16 Jul 2026 18:11:26 -0000
-Message-Id: <178422548631.2602681.4343713593457422275@gitolite.kernel.org>
+Date: Thu, 16 Jul 2026 18:12:48 -0000
+Message-Id: <178422556832.2603234.11247300187076612123@gitolite.kernel.org>
 
---===============6858167751206444707==
+--===============0701167520305639416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 user: mkorenbl
 changes:
-  - ref: refs/heads/next
-    old: 71ac392d8b5c23c45c66f30eff1c319580ada4da
-    new: 905f57aefde4f4092a411c8a55856182fb1c7598
-    log: revlist-71ac392d8b5c-905f57aefde4.txt
+  - ref: refs/heads/fixes
+    old: c1a1dc162870a5447cb0fbcf81983473744772d2
+    new: a426d3227c669ef0ad9855b311a68129f10ac8bf
+    log: revlist-c1a1dc162870-a426d3227c66.txt
 
---===============6858167751206444707==
+--===============0701167520305639416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71ac392d8b5c-905f57aefde4.txt
+Content-Disposition: attachment; filename=revlist-c1a1dc162870-a426d3227c66.txt
 
-ef704fc32ae1a519801ac4a06aa290fece5f403c wifi: iwlwifi: mld: support aborting an ongoing ftm request
-7e16dad5d47e29338db9effbeb26b4e8bcfbc2c0 wifi: iwlwifi: mld: validate WoWLAN notif header
-bbe2d2fa8780a04dac8de0ecaa3895d3f3bc093e wifi: iwlwifi: mvm/mld: fix PPE threshold debug print loop
-71e67b4b59337b2f9f4fef976a27de2dad7aabf2 wifi: iwlwifi: fix counter type in iwl_fwrt_dump_error_logs
-405ff50b72db1dfb86d7502c3c84208779809ab2 wifi: iwlwifi: mld: fix validation fallback in iwl_mld_notif_is_valid
-f6a6c01cbc046f68e6916a7e047a1bc881c8c9ab wifi: iwlwifi: mvm: fix off-by-one in TXF key sanitiser
-ad13072308f82a9aa2e68a135e70672454367d92 wifi: iwlwifi: mld: honor FW puncturing capability in MCC response
-ebc246e1d5a3e4502dba60cf9e9644de0fc5a8b6 wifi: iwlwifi: mvm: add LARI_CONFIG_EXTENSION command
-51c45bb2c884e0e2f56d6770011994d653371702 wifi: iwlwifi: mld: add PNVM_INIT_COMPLETE_NTFY to the hcmd names
-c5aeb11489150be84d3a700711abffd98969d2d5 wifi: iwlwifi: mld: fix read in wake packet notification handler
-7d8cc301bcba233f31b589a45f4c1c97f2bb90d6 wifi: iwlwifi: mei: check SAP message length before reading it
-c00a5d65b7ada536eb488280fae53fcf1724a7c3 wifi: iwlwifi: mei: skip data read if length is too short
-9318bc0c41b24705690cf80d1596cf6b711e7027 wifi: iwlwifi: guard against division by zero in iwl_dbg_tlv_alloc_fragments
-1c031ac5a39ebcc3269eace8b606043adc398bfa wifi: iwlwifi: mld: Do not cleanup FW state when the device is dead
-905f57aefde4f4092a411c8a55856182fb1c7598 wifi: iwlwifi: mei: pass correct argument to function
+e66ddfd94b829b8ecaaac932d9487fb4de6d267c wifi: iwlwifi: mld: validate txq_id in TX response handler
+7786233bffdd88b7bab816012a41597c2065470c wifi: iwlwifi: add support for additional channels in NVM_GET_INFO
+8d70881707b47353359df57df12f6de67fdacdd2 wifi: iwlwifi: mvm: validate TX_CMD response layout
+408d7da38272ce48e2db79b8a9895999f94d7655 wifi: iwlwifi: mvm: validate SAR GEO response payload size
+a31b0e535fd11219556c7382ee9f63b2438c3769 wifi: iwlwifi: fw: validate SMEM response size
+bc796f84ec9a95b356959ec7caf1d4fce33f3a76 wifi: iwlwifi: fix pointer arithmetic in iwl_add_mcc_to_tas_block_list
+daec24a5ed5da77a108e246ad77aa8b889911f93 wifi: iwlwifi: validate payload length in iwl_pnvm_complete_fn
+9d7657aae8c1579584c67b0b66114a6a98db8b2f wifi: iwlwifi: mvm: fix read in wake packet notification handler
+7455ba7b4d6d869e337db063c466033cf9392fb5 wifi: iwlwifi: mvm: ptp: free response on success path
+7b271df210848e8d0dd9c0d7b032050b3f3affbf wifi: iwlwifi: pcie: validate FW section counts in iwl_pcie_init_fw_sec
+94d3982806c7f194b23484befde12934dda23064 wifi: iwlwifi: mvm: fix out-of-bounds tid_data access in BA notif
+0e4c0d83267261cf67ec9690856edf4a56bb7dfc wifi: iwlwifi: mvm: add a check on the tid coming from the firmware
+8cb6c719fa3c0812bc0d151a7074f328a61a3062 wifi: iwlwifi: mvm: copy the correct TK length for ranging
+0cb5260a1027a43f8cdb961e128f2ddd42e46832 wifi: iwlwifi: mvm: fix a possible underflow
+a426d3227c669ef0ad9855b311a68129f10ac8bf wifi: iwlwifi: adapt ND match notif sizing to fixed matches array
 
---===============6858167751206444707==--
+--===============0701167520305639416==--
