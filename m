@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 16 Jul 2026 20:34:02 -0000
-Message-Id: <178423404228.2703321.661119756755885694@gitolite.kernel.org>
+Date: Thu, 16 Jul 2026 20:37:32 -0000
+Message-Id: <178423425285.2706749.9851764709080556299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: 9de1f43c63121018b9f6dfb5438e06674e23d618
-    new: d0aba92f7b0ea4c459e70a04ded84d8ad3cdb0b2
+    old: d0aba92f7b0ea4c459e70a04ded84d8ad3cdb0b2
+    new: 81be883cce79e9f9e9866c05cb12b6b390784342
     log: |
-         d0aba92f7b0ea4c459e70a04ded84d8ad3cdb0b2 wifi: ath12k: fix scan command endianness on big endian
+         81be883cce79e9f9e9866c05cb12b6b390784342 wifi: ath12k: Constify struct ath12k_dp_arch_ops
          
