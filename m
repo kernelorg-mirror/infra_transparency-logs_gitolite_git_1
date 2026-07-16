@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7356341616595373848=="
+Content-Type: multipart/mixed; boundary="===============3861560170047827085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 16 Jul 2026 01:08:39 -0000
-Message-Id: <178416411923.1796672.184451265852566810@gitolite.kernel.org>
+Date: Thu, 16 Jul 2026 01:09:54 -0000
+Message-Id: <178416419404.1797494.3757683881512732306@gitolite.kernel.org>
 
---===============7356341616595373848==
+--===============3861560170047827085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus/hardening
-    old: 905c559e51497b8bfdbb68df8be56d2f70f0de8e
+  - ref: refs/heads/for-next/kspp
+    old: c2606fb910d7cade63ee7e9c28e6a4225d0383f6
     new: b3a7aa9c0020ae549a0d4964867ff66d2bd61709
-    log: revlist-905c559e5149-b3a7aa9c0020.txt
+    log: revlist-c2606fb910d7-b3a7aa9c0020.txt
 
---===============7356341616595373848==
+--===============3861560170047827085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1784164117 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1784164192 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1784164105-83ee45a0d67f806cb1f8bf4e91f9e30287e081c8
+nonce 1784164190-655c3366f6b54cdc7ae79432d34d76984f52b753
 
-905c559e51497b8bfdbb68df8be56d2f70f0de8e b3a7aa9c0020ae549a0d4964867ff66d2bd61709 refs/heads/for-linus/hardening
+c2606fb910d7cade63ee7e9c28e6a4225d0383f6 b3a7aa9c0020ae549a0d4964867ff66d2bd61709 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCalgvFQAKCRA2KwveOeQk
-uy40AQD5/8XVcyhsmh2jpoUysxHJPbv54Mn464s02qsAuJC78wEArC8O8QA1g2+X
-7eKCc54eIVMM07M52IHywn49A8jweQE=
-=MseV
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCalgvYAAKCRA2KwveOeQk
+u4FwAQCvUhXhvDgYY1RKhLGuTC+BW3T676W2/VtIz8y/0LBeoAD8DB9hv/k5CRy7
+PD8FFSJ2OGdlO2BxwADpzadDaWMzQgs=
+=2wLx
 -----END PGP SIGNATURE-----
 
---===============7356341616595373848==
+--===============3861560170047827085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-905c559e5149-b3a7aa9c0020.txt
+Content-Disposition: attachment; filename=revlist-c2606fb910d7-b3a7aa9c0020.txt
 
 faaa1e1155833e7d4ce7e3cfaf64c0d636b190db drm/edid: fix OOB read in drm_parse_tiled_block()
 b70f007a9fc665ee988683fd5085ab34e2c10ad3 ALSA: hda/realtek: Add quirk for Lenovo Yoga 7 16IAP7
@@ -1072,4 +1072,4 @@ f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of gi
 c1f3e770eec26d6f96dd6d2ea30555ba7c09a244 fortify: Disable -Wstringop-overread in tests
 b3a7aa9c0020ae549a0d4964867ff66d2bd61709 selftests/lkdtm: rename STACKLEAK_ERASING to KSTACK_ERASE
 
---===============7356341616595373848==--
+--===============3861560170047827085==--
