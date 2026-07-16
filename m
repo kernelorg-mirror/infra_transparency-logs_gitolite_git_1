@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 16 Jul 2026 02:32:16 -0000
-Message-Id: <178416913689.1861690.11151807851532518832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 16 Jul 2026 02:32:56 -0000
+Message-Id: <178416917603.1862035.16593808611204853699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/ntfs-next
-    old: b96184228c5fabd8326d645b457afbc5e1847da9
-    new: 642df5f23dcb0553b9e412f426f8465c71f78417
+  - ref: refs/heads/master
+    old: 6f6aa9e217c0d045c89576fbb3f3c5cee4b5bd09
+    new: 84fa569b2eb3230284168d59863330bafb07bc52
     log: |
-         af046a09e60ec73590b15c98488fc07c98c997f6 ntfs: prepare extending writes before iomap
-         642df5f23dcb0553b9e412f426f8465c71f78417 ntfs: use pagecache_isize_extended() on size extension
+         662c125a88dfb81898c60ec96161724af7cdf9be testsuite: don't use assert_return() for empty testsuite
+         8280fab2bc1b32214a349e6bd5faf7049b154d70 testsuite: introduce TS_ASSERT reimplementing assert_return
+         4cca148e759f9374314aba8895c05287c26c26f6 testsuite: replace assert_return with TS_ASSERT
+         bd7ed71b0123433b58517ed5935a29c9240e00d2 testsuite: convert all tests to TS_ASSERT()
+         84fa569b2eb3230284168d59863330bafb07bc52 testsuite: s/return EXIT_SUCCESS/return 0/
          
