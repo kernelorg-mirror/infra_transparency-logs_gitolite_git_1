@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6724955643229790844=="
+Content-Type: multipart/mixed; boundary="===============6526784104867489646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 16 Jul 2026 13:19:03 -0000
-Message-Id: <178420794317.2381209.5011571898633464804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 16 Jul 2026 13:20:04 -0000
+Message-Id: <178420800491.2383682.11316548389592137098@gitolite.kernel.org>
 
---===============6724955643229790844==
+--===============6526784104867489646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/scx-proxy-exec
-    old: a68019b146b0dff664ab0ce85fece93452c0cdb6
-    new: 46f68c265eafc4dd229b958f7d0a4571c22c2bfb
-    log: revlist-a68019b146b0-46f68c265eaf.txt
+  - ref: refs/heads/master
+    old: ffd8f1afd65a760b55bcc171e1a3eb456301be2a
+    new: 72cd1357806387332903ce29ce03b846666342e6
+    log: |
+         72cd1357806387332903ce29ce03b846666342e6 6.18-stable patches
+         
 
---===============6724955643229790844==
+--===============6526784104867489646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a68019b146b0-46f68c265eaf.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-34e0fbfe6737f461d1ee0e52ac1179221b95272f sched_ext: Remove queued ecaps syncs directly on sched teardown
-7f480f34b78a0f482fbaa2aadece036aad275a74 sched_ext: Move scx_dispatch_sched() to a new inlines.h
-6ba3bd6f22314072d36949767e1d1192b97e5ba4 sched_ext: Gate sub_dispatch_prev with CONFIG_EXT_SUB_SCHED
-8946dbd3aa91acfb75b1633859290ba248e313b2 sched_ext: Add the scx_has_subs static key and gate sub-sched hot paths
-a8dffd74dea1a4d94c99e87f91673180b0a95557 sched: Make NOHZ CFS bandwidth checks follow proxy donor
-d8acc944e63c6758255525bae2560ceee0a5a672 sched: Add helper to block retained proxy donors
-f8cdca71e6a373dba2e29fd444f2010061b15f27 sched_ext: Block proxy donors across scheduler transitions
-42d540ae1c8938504219afcf9430bd89dd290cc9 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-4d3bab132a25c3835f1f1b1e4d15a1718f6006a7 sched_ext: Fix TOCTOU race in consume_remote_task()
-d6f2896df71a525797a88ee32067eaa6159b92e6 sched_ext: Split curr|donor references properly
-67bc7243f36e94924aa43434772cd2b5c6d2dadc sched_ext: Handle blocked donor migration with proxy execution
-8545bacbe661f931a19def853c5b089bb2ccfb20 sched_ext: Delegate proxy donor admission to BPF schedulers
-004493a71a3cf4e439fb5470c662be65ec1da04d sched_ext: Add selftest for blocked donor admission
-79769f5553f7fc80c7a727fb60071aec5d66867a sched_ext: scx_qmap: Add proxy execution support
-46f68c265eafc4dd229b958f7d0a4571c22c2bfb sched: Allow enabling proxy exec with sched_ext
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784207999 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784208003-60dc08113e2c2bcf780eb9a76c22a0626ef38e7e
 
---===============6724955643229790844==--
+ffd8f1afd65a760b55bcc171e1a3eb456301be2a 72cd1357806387332903ce29ce03b846666342e6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpY2n8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IyIP/160Exd/APn4sqUtBVR8
+PlBbrtojrbLeirj/FmNAYu8be85bXgajAbjv7cbf/9tth18IO7QmhB3QK2HSrbLI
+Y2WeXechSCYh3dLp+Du5hg8E/IKVHHnI5NsinAXiUGo/UXxukB8T6NRiCNT8QxJx
+IEzA96BzKyccBd5xqnrK6fieD+YNefNPaKgUsvQkE9ySwSZ3oahhOSd7SgjMGM3e
+dOQNznmGAe8HXAGWkHJpTa812n/PLhm+LsbzHA/ikUCBY0ONI4aWkaPsEomUaK06
+HXu0eN2tXDRAIpiiGgzLSpz6BZc63NRkjz8ydUuiP0Q3EvMEMvIEMl/O9lFr+Wwf
+HGTvy1WOAlPgRDoqbJ4x05btb+0hEQrd33eewBoGpdSC8+g0mdaQqysrtVc6qhiz
+8dGmnojXGgnfHyRzzDl3Qqi3MakuQ1CeAdw974yI+ADNufmfZYPcD4AxzPj4Ih/1
+oztmqXsbtBQQZHctPr9/D7HRWFQ+9eOZ8XVIXfUyZgrTyXDyBKiZg8eZzZzbf6jI
+RCimWCTLbGQVyMLwZ9KpH5xq+ZCntWaQE60+tG7lqCWXxOge5/DWBnhj3JWIyFrw
+03o/qJKLWqdNGlLsKpT79V7iRUWj9P7tEO/BqahCYkmvYsE29DT3F4wfJ+7PETio
+a59T9bD8I0dLVRgOCmGz7/Zk
+=4UMl
+-----END PGP SIGNATURE-----
+
+--===============6526784104867489646==--
