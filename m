@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 16 Jul 2026 20:17:13 -0000
-Message-Id: <178423303314.2691866.18124527525870149865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 16 Jul 2026 20:25:10 -0000
+Message-Id: <178423351025.2698248.13068425452998333768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/pending
-    old: cee9650e67364798b670282e4b810c98a2dc2000
-    new: 876806955ad642e28e9e9f48b3dd280c090ffb69
+  - ref: refs/heads/master
+    old: e22254e9ddd8020130c4b806b6b4aa77b09c2560
+    new: 481ed5dd3ed7136f627b8ec372ba39f5b2e7d27f
     log: |
-         999447ef5371326f487ed3d79f01024e54637875 wifi: ath12k: switch to name-based reserved memory lookup
-         7a97a1f6648a0baf3778b516161cadf6aaffb68d wifi: ath12k: refactor QMI memory assignment
-         876806955ad642e28e9e9f48b3dd280c090ffb69 wifi: ath12k: allocate HOST_DDR and BDF regions after Q6 RO region
+         33cb713db0161b54f04fe830e062c9e102c29a04 landlock: Fix TCP Fast Open connection bypass
+         f4b30e0b1d488e7ffd8ea28d1365b9ba8e551edb selftests/landlock: Add test for TCP fast open
+         592a37889f97d60debf6a442684ba4d13435c817 landlock: Fix kernel-doc for the nested quiet layer flag
+         97c0e344e03818dbf3116e77d3d7fe81f1fbe795 landlock: Update formatting
+         d793186aa3bb833c878ae6826c87e62c843afaa3 selftests/landlock: Fix screwed up pointers in the scoped_signal_test
+         5ab1dc6d110db6bee167a32fd94c53ea0e7ad6d2 selftests/landlock: Skip scoped_signal subtest with MSG_OOB if not available
+         481ed5dd3ed7136f627b8ec372ba39f5b2e7d27f Merge tag 'landlock-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
          
