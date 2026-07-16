@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 16 Jul 2026 02:32:56 -0000
-Message-Id: <178416917603.1862035.16593808611204853699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/yu_chun/linux
+Date: Thu, 16 Jul 2026 02:38:06 -0000
+Message-Id: <178416948677.1865860.287375395113724166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/yu_chun/linux
+user: yu_chun
 changes:
-  - ref: refs/heads/master
-    old: 6f6aa9e217c0d045c89576fbb3f3c5cee4b5bd09
-    new: 84fa569b2eb3230284168d59863330bafb07bc52
+  - ref: refs/heads/for-next
+    old: c914daf2337054ab500f36317d1250cc7c8ba162
+    new: 3c778f0c9fa36b6b9a26bd2146df24ed4e830ba4
     log: |
-         662c125a88dfb81898c60ec96161724af7cdf9be testsuite: don't use assert_return() for empty testsuite
-         8280fab2bc1b32214a349e6bd5faf7049b154d70 testsuite: introduce TS_ASSERT reimplementing assert_return
-         4cca148e759f9374314aba8895c05287c26c26f6 testsuite: replace assert_return with TS_ASSERT
-         bd7ed71b0123433b58517ed5935a29c9240e00d2 testsuite: convert all tests to TS_ASSERT()
-         84fa569b2eb3230284168d59863330bafb07bc52 testsuite: s/return EXIT_SUCCESS/return 0/
+         6f0b46832eda0d142c5d2a7450cf57f3f1a30aba arm64: dts: realtek: Add EL2 virtual timer interrupt
+         3c778f0c9fa36b6b9a26bd2146df24ed4e830ba4 arm64: dts: realtek: Add GPIO support for RTD1625
          
