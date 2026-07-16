@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6094017234402278230=="
+Content-Type: multipart/mixed; boundary="===============6851846686870150974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 16 Jul 2026 15:13:43 -0000
-Message-Id: <178421482385.2470387.773192971815456487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 16 Jul 2026 15:13:58 -0000
+Message-Id: <178421483843.2470693.17051037607587838550@gitolite.kernel.org>
 
---===============6094017234402278230==
+--===============6851846686870150974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: b8809969e1d7a591e0f49dd464a5d04b3cf02ab1
     new: 1a1757b76427f6201bfe0bf1bea9f7574f332a93
     log: revlist-b8809969e1d7-1a1757b76427.txt
-  - ref: refs/heads/stable
-    old: 58717b2a1365d06c8c64b72aa948541b53fe31eb
-    new: 37e2f878a7a660a216cc7a60459995fefd150f25
-    log: |
-         22a78be4123dce81d72c963a98b774b7d5e1f8e5 selftests/ftrace: Fix reading enabled_functions in add_remove_fprobe_module test
-         c5c413534d40eb4c982f1794e62813f926aba747 selftests/tracing: Have trigger-hist-poll.tc use sched_process_exit
-         5142c56651578abc346d6c17f3fb919b9ffbb317 bug: fix warning suppressions with kunit built as module
-         e144887d3ae659dd3510bc177977e9864f964197 Merge tag 'linux_kselftest-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         37e2f878a7a660a216cc7a60459995fefd150f25 Merge tag 'linux_kselftest-kunit-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         
-  - ref: refs/tags/next-20260416
-    old: f4d9dc7f102a8d7e7fa018ae048aa324349122a4
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260716
     old: 0000000000000000000000000000000000000000
     new: ce28329fef089fc63dbaadcc4c1fbf9c287e57e0
 
---===============6094017234402278230==
+--===============6851846686870150974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1067,4 +1054,4 @@ eb46cd0a60d43254f96d70daef91c8facefbe427 Merge branch 'pwrseq/for-next' of https
 f4df875a59c0ebad39acfc96b4fd25c3b40378a8 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 1a1757b76427f6201bfe0bf1bea9f7574f332a93 Add linux-next specific files for 20260716
 
---===============6094017234402278230==--
+--===============6851846686870150974==--
