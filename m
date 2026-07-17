@@ -1,36 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 17 Jul 2026 15:51:54 -0000
-Message-Id: <178430351448.3588834.723905694646117717@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1148645889228661119=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 17 Jul 2026 15:55:51 -0000
+Message-Id: <178430375135.3592705.11440311057217212829@gitolite.kernel.org>
+
+--===============1148645889228661119==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mtd/next
-    old: d276783e490d73536135f90f96c5875f263481ab
-    new: b759d5bb6265419344ee9729fd0dc07ad85719d8
+  - ref: refs/heads/usb-testing
+    old: caad28c0816fe212564362cdc176aea5c506f839
+    new: 80574c40598aedbc1751c528e414d7e224bc6313
     log: |
-         df6f582df3377af316a60ca8ee0d590b2d03924d mtd: intel-dg: Fix runtime PM error path in probe
-         e9290031f736e99ad17c25c00311c92c266843b7 mtd: afs: validate v2 image info bounds
-         779aa4c66a96bf43d2d62982ea1a9096a9128d87 mtd: mtdswap: Avoid freeing registered blktrans device twice
-         956e7da12c114f13c63d126ab1d79c3b6a819060 mtd: mtdoops: free page bitmap when the backing MTD is removed
-         355efa360ba3b9ed242f444c69fbafa84a29a525 mtd: mpc5121_nfc: use platform for irq and ioremap
-         b759d5bb6265419344ee9729fd0dc07ad85719d8 mtd: part: reject MTDPART_OFS_RETAIN in mtd_add_partition()
+         80574c40598aedbc1751c528e414d7e224bc6313 USB: phy: fsl-usb: fix missing static keywords
          
-  - ref: refs/heads/nand/next
-    old: adfc275b317c02cd043b0cf28b8cfb7459b041f0
-    new: f97bdc8ec1dc7b33781a702eeba55326c206be56
-    log: |
-         4529aababe4212b9b6d70e83ceb6a99f9691c811 dt-bindings: mtd: qcom,nandc: Add MDM9607 QPIC NAND controller
-         533ec816312baecdb45bbcb8a279c6561aa71215 mtd: rawnand: qcom: Make "aon" clock optional
-         0732595d2f8cf846be3327c8c9453eb10b10ed39 mtd: rawnand: qcom: Make has_onfi_read_op separate from qpic_version2
-         69e3c504e18bf1fec03fdf6293320860ec832af8 mtd: rawnand: qcom: Add MDM9607 compatible
-         5b2444b4d575d8117809c57801562ef37ca2d4af mtd: nand: realtek-ecc: add missing MODULE_DEVICE_TABLE()
-         0ee27d8e4c99765215d906b4ea1fb6bf7e9650d7 mtd: rawnand: add Toshiba TC58NVG1S3H
-         f97bdc8ec1dc7b33781a702eeba55326c206be56 mtd: nand-omap2: Move omap_nand_ids[] to raw nand driver
-         
+
+--===============1148645889228661119==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784303745 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1784303749-6497dee57e3f177ed390ebb5eab408d835d6f207
+
+caad28c0816fe212564362cdc176aea5c506f839 80574c40598aedbc1751c528e414d7e224bc6313 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaUIEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2k8P/RtYNTHefZDph5cBUE0l
+b/wJKviM9viVT8OETsCWtxgBZjvpTpmumjpQSw2QahSW8GmfMIh8VbHQW8ezfIWP
+j5Q1HzlGEkX5zNw1mWFoRNzSDuiq1shVoNgkQho37qGGmwjATVp/mntizRLtFWZU
+BJ6DtRwp9gUKiggqB0gAbn+5BhLtTlVuaGMuwktrFE4RdewW97ppIVZ8M1UjJ6fo
+jlW8SGAe1fQ3NHrdgomx4bPpqEc2XjayKwK4IHwZuWDju1e1ZL0hpujiC+By8RV+
+wC765M/fLact/7le7g+MlbYs9rBw9YGYuKWTapnpPNz8I+FqkwUQm0LHVFlTZZ2a
+tnkS2WPHCgZNQ1laYC52EXDi8fYoSaIq+yp1CDppZj2wEQydfj2Fiv3A+2BEvDqL
+C1Lx2aGQjZm/U3JNBuiFRZXySX8GPFFPUUHh73vXXjjMAPSssKfFAlDSB0DRE22p
++OFvSQ+nf9nsGKINeyl6ifbKGu5MkzSc6fwZzEdoFAUNsYsf4ZApB/xImh6D99j/
+vzV0PVlL8eYj2IRqAJv8rNrdT63U4ImZfjmj3cewqcjEfLWxUDqHMSxa/pwVV/Bc
+Wy5s996ynVmKUmwn5vEFrSbluh+YNjr/rD3ZnOcMKs3GWsoS0O8QzVSWfyjHtbwX
+fmqFQnWcQRsQWNfW1ggOl4r+
+=+kus
+-----END PGP SIGNATURE-----
+
+--===============1148645889228661119==--
