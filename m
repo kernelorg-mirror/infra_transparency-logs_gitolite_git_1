@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Fri, 17 Jul 2026 15:46:39 -0000
-Message-Id: <178430319946.3584169.17452501615069483014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Fri, 17 Jul 2026 15:49:00 -0000
+Message-Id: <178430334009.3584879.18229365860697875914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: f52ddaf5e771c753663a719834848fde92b219f8
-    new: 3c817862759913097f11467ed4ed2bbf974dabaf
+  - ref: refs/heads/for-next
+    old: 06208636e93bdb9ad6a1cc523a2f97f37eef0316
+    new: d53dd4b22c0c85f6e4b18c7d0d4360c6d6294f61
     log: |
-         3c817862759913097f11467ed4ed2bbf974dabaf soc: ti: knav_qmss: Remove debugfs file on teardown
-         
-  - ref: refs/heads/ti-next
-    old: 1b98f483adfd99bf7008dc334ae72fc608d47a77
-    new: 0b3490be8c835295e3664625816c635b23bccf01
-    log: |
-         3c817862759913097f11467ed4ed2bbf974dabaf soc: ti: knav_qmss: Remove debugfs file on teardown
-         0b3490be8c835295e3664625816c635b23bccf01 Merge branch 'ti-drivers-soc-next' into ti-next
+         092d1fad3b2c224e465e4ecc5d7a17f3da3cf1a8 dt-bindings: fsl,fpga-qixis: Add fsl,ls1021aqds-fpga compatible string
+         28228f9ea570a94e1873adda5ee284134af28cd6 ARM: dts: ls1021a-qds: add compatible string "fsl,ls1021aqds-fpga" for on boards FPGA chip
+         d53dd4b22c0c85f6e4b18c7d0d4360c6d6294f61 Merge branch 'imx/dt' into for-next
          
