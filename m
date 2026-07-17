@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0873364793869399072=="
+Content-Type: multipart/mixed; boundary="===============5430061944476936306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 17 Jul 2026 15:27:07 -0000
-Message-Id: <178430202786.3565530.8837821470191103678@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 15:27:10 -0000
+Message-Id: <178430203074.3565649.14672530488062046155@gitolite.kernel.org>
 
---===============0873364793869399072==
+--===============5430061944476936306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4f032f512d9fc5a9ae438e6efd9d8e94fbaaa36c
-    new: 5093dba1014c1d7f7e247fd118f0fa8f22136046
-    log: revlist-4f032f512d9f-5093dba1014c.txt
+  - ref: refs/heads/mm-unstable
+    old: 199d42783981acdd55e28ec6b911e6275dba02dc
+    new: e5492213654050379e78ec6f9acfd6c9fe00f334
+    log: revlist-199d42783981-e54922136540.txt
 
---===============0873364793869399072==
+--===============5430061944476936306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f032f512d9f-5093dba1014c.txt
+Content-Disposition: attachment; filename=revlist-199d42783981-e54922136540.txt
 
 09633567ec9024ce2d4c8b04f4a0f806855f835f mm/vmstat: fold stranded per-cpu node stats when a node comes online
 f9539b7b86e407b516092e4a464ee1aa32f98190 lib: test_hmm: use device devt for coherent device range selection
@@ -552,21 +552,5 @@ fadbfb074edf7ac95aee8c885ea6c7356922b3bf mm/damon/tests/core-kunit: catch test f
 8429a67b2e10f2d69042d51224171bd2fbbdcb5e mm/damon/paddr: drop last same folio access check reuse optimization
 bd0a550f9d6568b3b7ab18d2ddc4f5dcfc746e17 mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
 e5492213654050379e78ec6f9acfd6c9fe00f334 mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
-12fa5453f35c8ce0e4bbcaae680b89461257ed2d mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-a54c7ce72eee3848b25412927816d70ac008a2fc docs/mm: fix braces
-7ff7095aa5982d7cde7cb9dbcf99b1192b60a57c selftests/mm: add PAGEMAP_SCAN test for THP PMD holes
-2ba646f402e950b7de3f8b83a3d178c64544f292 mm/page_alloc: don't spin_trylock() in NMI on UP
-271047e602eb7079ae1a9c07eecf4659b1effdcc mm/page_alloc: don't spin_trylock() when disallowed in free_one_page()
-79bb55504343e14525a04ba4aa87b6f27ec96235 mm/page_alloc: rename FPI_TRYLOCK -> FPI_NOLOCK
-ac276629087bcd2ddee5483762efc9f323705ff5 cgroup/cpuset: update some comments about the page allocator
-ea9c1ba32634da6937e21271acdf9b04fc6bbb1c mm/page_alloc: fixup alloc_pages_nolock_noprof() comment
-bf255d9b67e821d635f407ac79170459fdff1bc3 mm/page_alloc: remove a couple of VM_BUG_ON()st
-faf739445e44c852f7e616297d57ea3b7d497ba7 mm/mseal: remove superfluous comments, fix confusion around mm
-ad5a0008a30dd14b0cf2dab0617e8b4a80ab3975 mm/mseal: limit scope of mseal address zero to address zero
-25369576798c11120fd5ea883e090db3cf8a48f1 mm/mseal: remove further superfluous comments, do_mseal()
-b7af343e9172813b816b87a73e35f817df87ff5c mm/mseal: fix mseal documentation for 32-bit kernels
-605b33892f40659f7c17a684119895c10aa1e0b3 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-6ad85b1df5b99f296053940b1859a4b6fe258321 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-5093dba1014c1d7f7e247fd118f0fa8f22136046 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0873364793869399072==--
+--===============5430061944476936306==--
