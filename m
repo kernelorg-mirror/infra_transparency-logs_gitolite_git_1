@@ -1,44 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0691909729127131835=="
+Content-Type: multipart/mixed; boundary="===============1002176660483893244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 17 Jul 2026 15:30:17 -0000
-Message-Id: <178430221790.3570242.2792702518161537857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 17 Jul 2026 15:31:18 -0000
+Message-Id: <178430227874.3570911.17118558922324124238@gitolite.kernel.org>
 
---===============0691909729127131835==
+--===============1002176660483893244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
   - ref: refs/heads/main
-    old: f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e
-    new: ce6b4d3216b63f902bb8e9695ee6c10c83415f65
-    log: revlist-f6f3b36c15ed-ce6b4d3216b6.txt
+    old: d53596236d27bc5cfb0f8566a85e79b67421f0f4
+    new: 189721a4afa1804315e7dcfca9ca0539c7b1d7af
+    log: revlist-d53596236d27-189721a4afa1.txt
+  - ref: refs/tags/ath-202607171509
+    old: 0000000000000000000000000000000000000000
+    new: 189721a4afa1804315e7dcfca9ca0539c7b1d7af
 
---===============0691909729127131835==
+--===============1002176660483893244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6f3b36c15ed-ce6b4d3216b6.txt
+Content-Disposition: attachment; filename=revlist-d53596236d27-189721a4afa1.txt
 
-a620ff84d42cf46cbfb708bacd40ad5e36d02de8 netconsole: clean up released targets dropped before the cleanup worker
-ede59d06c28f62135857b93663860029429f6907 netpoll: export refill_skbs(), refill_skbs_work_handler(), skb_pool_flush()
-1fee9a9c5904760ffefea4aa360e87f98938b71f netconsole: take over skb pool lifecycle from netpoll
-28511289088c04861af80f600561a6ee1035f1c2 netconsole: move refill_skbs_work_handler() from netpoll
-2fbebfbe2953bc0ba1656b25d03338fde1066ad5 netconsole: move refill_skbs() and skb-pool sizing macros from netpoll
-67fb2038e1f65309a91f61169e75ee973f936f1c netconsole: move skb_pool_flush() from netpoll
-ba520084dc3b7f8b0bca534bd272266b764427f2 netconsole: move skb_pool / refill_wq from struct netpoll to netconsole_target
-3b247a595663744745dd0b602c6c6825c24eb354 netconsole: move local_port / remote_port from struct netpoll to netconsole_target
-49e03ca58334cd46dfd9267ced0ff91dcae2c451 netconsole: move remote_mac from struct netpoll to netconsole_target
-5c655dfd9823c2e0edf3f477637e2a05fc077fc2 Merge branch 'netconsole-stop-charging-netpoll-users-for-netconsole-only-data'
-008f965fb40f88c47f5fb852e1fef5becb0fa3b2 ethtool: link 10000baseCR to SFF-8431, Appendix-E SFP+ DA
-9df92875d6d741f9bff1ad95eeaf40b34943d2c4 net: airoha: add preliminary support to configure tx hw QoS queue during flowtable offloading
-922cc43c624330b9cf646d52fc82c820d9f699b3 net: mana: Add debug knob to skip TX timeout recovery reset
-ce6b4d3216b63f902bb8e9695ee6c10c83415f65 net: mana: Add handler for sriov configure
+78ad50d9071d07510e190d858a76b27a8339932f wifi: ath12k: Set congestion control max MSDU count
+2a1ac0368e1a891b1d1fa91192a2eaf865495f08 wifi: ath12k: switch to name-based reserved memory lookup
+db4e4af6e8261d83c5658fc9a84fce37a9ae692a wifi: ath12k: refactor QMI memory assignment
+3ed52d62f47de46dc1113671c057ff376d0fec27 wifi: ath12k: allocate HOST_DDR and BDF regions after Q6 RO region
+b127f79a49335679d117406257cedab4fc20596a wifi: ath12k: Correctly copy the hint BSSID in WMI scan request
+0db9d58c8757d0be5ed546109e37bcb10f6c1fb6 wifi: ath11k: Correctly copy the hint BSSID in WMI scan request
+8e3d6b596453c518a7ebdef2c785550c5e291dc0 wifi: ath12k: fix scan command endianness on big endian
+ca435fd0650ac512ab6c5bdfeb90ed130b8f7574 wifi: ath12k: Constify struct ath12k_dp_arch_ops
+031e27f95761fa3e14de4af53939a6694be1ab0a wifi: carl9170: mac80211: document spatial multiplexing power save handler
+b2de486100b0cf7b770a2ab46e9a1c4b2b8f3fd8 wifi: carl9170: rx: track PHY errors via debugfs
+14941957d2825f62228a7db1fa6dc9cfba9fca60 wifi: carl9170: cmd: downgrade transient register I/O errors to wiphy_dbg
+6605fd7303806447f269240b8dda28c8274a238d Merge remote-tracking branch 'wireless/main'
+124f6bbbf51f6139c2e6d967f8c4cf5d26b3e43c Merge remote-tracking branch 'wireless-next/main'
+ba2b390ad7f588611d34d8ff007c48eb0aaedcf0 Merge branch 'ath-next'
+6eb47e3a4d39e677fdfda72eba908723b26512a5 Merge branch 'ath-current'
+0eac824da57e8066fc311d8a38ec8339331675de Merge remote-tracking branch 'mhi/mhi-next'
+189721a4afa1804315e7dcfca9ca0539c7b1d7af Add localversion-wireless-testing-ath
 
---===============0691909729127131835==--
+--===============1002176660483893244==--
