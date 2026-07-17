@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0955769500150082622=="
+Content-Type: multipart/mixed; boundary="===============0264763241572433462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/david/linux
-Date: Fri, 17 Jul 2026 12:37:07 -0000
-Message-Id: <178429182705.3420123.1055473616456874615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Fri, 17 Jul 2026 12:37:16 -0000
+Message-Id: <178429183691.3420405.18043287597304770961@gitolite.kernel.org>
 
---===============0955769500150082622==
+--===============0264763241572433462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/david/linux
+repo: pub/scm/linux/kernel/git/mm/linux
 user: david
 changes:
   - ref: refs/heads/master
-    old: b19a97d57c15643494ac8bfaaa35e3ee472d41da
+    old: 1bfaee9d3351b9b32a99766bbfb1f5baed60ddef
     new: fce2dfa773ced15f27dd27cd0b482a7473cdcf2a
-    log: revlist-b19a97d57c15-fce2dfa773ce.txt
+    log: revlist-1bfaee9d3351-fce2dfa773ce.txt
 
---===============0955769500150082622==
+--===============0264763241572433462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b19a97d57c15-fce2dfa773ce.txt
+Content-Disposition: attachment; filename=revlist-1bfaee9d3351-fce2dfa773ce.txt
 
 2b9f5ef534184bd81b8a4772780626c40eed1fd5 sctp: fix SCTP_RESET_STREAMS stream list length limit
 45f1458a85017a023f138b22ac5c76abd477db42 netpoll: fix a use-after-free on shutdown path
@@ -1051,4 +1051,4 @@ e22254e9ddd8020130c4b806b6b4aa77b09c2560 Merge tag 'xfs-fixes-7.2-rc4' of git://
 481ed5dd3ed7136f627b8ec372ba39f5b2e7d27f Merge tag 'landlock-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 fce2dfa773ced15f27dd27cd0b482a7473cdcf2a Merge tag 'v7.2-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============0955769500150082622==--
+--===============0264763241572433462==--
