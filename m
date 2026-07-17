@@ -1,94 +1,115 @@
-Content-Type: multipart/mixed; boundary="===============7013490491335253042=="
+Content-Type: multipart/mixed; boundary="===============4887420365431476595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 17 Jul 2026 16:33:15 -0000
-Message-Id: <178430599500.3620236.5963709298982785271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 17 Jul 2026 16:37:29 -0000
+Message-Id: <178430624916.3623784.15279036971213665596@gitolite.kernel.org>
 
---===============7013490491335253042==
+--===============4887420365431476595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/crypto-pending
-    old: b2bdc7274387d6fd5a92c280d842b2a000a52630
-    new: 4bde7f2a2c9719a11bfaa9735c00ba73525add09
-    log: revlist-b2bdc7274387-4bde7f2a2c97.txt
+  - ref: refs/heads/sasha-cvss-important
+    old: 267450c767ba1374555776fe6b7c60245cd2356c
+    new: 85f24c1e3b8486cae9eb78fa09b3d806d8b0612a
+    log: revlist-267450c767ba-85f24c1e3b84.txt
 
---===============7013490491335253042==
+--===============4887420365431476595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2bdc7274387-4bde7f2a2c97.txt
+Content-Disposition: attachment; filename=revlist-267450c767ba-85f24c1e3b84.txt
 
-ba16486d79d44e3d07c713ff566be156292ed744 rhashtable: Add workqueue/irq_work header inclusions
-3a5834db2b1ce25649f330e78efe1ccde78967fd hwrng: core - fix rng list on registration error
-cae575fc09fa824900939960e33bc49b8e964d80 crypto: use 2-arg strscpy where destination size is known
-3c181f71cd715d52ee5a7192af343617b64c3c33 crypto: cavium - use 2-arg strscpy where destination size is known
-3c6ec632bc90dae0813df2186f681bd3bfce0983 crypto: ccp - use 2-arg strscpy where destination size is known
-dea300a465ee8e1821f56fe758ab23ce2f118f75 crypto: hisilicon - use 2-arg strscpy where destination size is known
-4525ac14115d07c3e4c57a8cd5c154916e9d1172 crypto: qat - use 2-arg strscpy where destination size is known
-91181aa5c228dd21a1d03ea41cab477d0b64e4c3 crypto: octeontx - use 2-arg strscpy where destination size is known
-54e56712f071b56e9945baa33545c9afd0f2b0bd hwrng: atmel - drop __maybe_unused from atmel_trng_pm_ops
-9deef9c5b8fcc702e69252bef46735d8b0d1f70c crypto: ecc - Optimize vli additive operations using compiler builtins
-455b0f3ac9e254edab9f5a873d337abe5e6e3604 crypto: qat - cancel work on re-enable SR-IOV timeout
-d41a9fcfb7f9ee36e4a4aaf5e7996bca6be1e7a9 crypto: qat - clear AES key schedule from stack
-0fd97bbda2842d7dcccee599ac2c0e9554bdddbc crypto: qcom-rng - Enable clock in hwrng case
-4ef04bdc0c9f98836d1638be516f6bf1bad55f69 crypto: qcom-rng - Allow zero as a random number
-2ecdf5c9910e20f73639bc322f0518a3439d17c0 crypto: qcom-rng - Remove crypto_rng interface
-6727c44461f788bb49a37875fbc70654e8db30b2 hwrng: qcom - Move qcom-rng.c into drivers/char/hw_random/
-4c7a4a34048eb3fd7fd5d1d7304278d742f99f1a crypto: atmel-i2c - improve comment in atmel_i2c_init_ecdh_cmd
-3e84fb698abada239d3e35ed3d52a24dbfda5f6a crypto: atmel-ecc - clean up and improve ECDH comments
-bbf3f2787e8e911149c593206905fb1874e71b6b MAINTAINERS: update hisilicon zip driver maintainer
-ba199bdaa80b09a7dd92f28751de7f3dbb06c510 crypto: atmel-tdes - use scatterlist length before DMA mapping
-f964df8a1229561c32d4fa76b91260822dc470f1 crypto: atmel-ecc - drop unused curve id from atmel_ecdh_ctx
-f240f9b588f4e2de89822adebf560a96b5d263ed crypto: atmel-ecc - reject hardware ECDH without a public key
-72bbf11ba14bd7d5fbf31a1ec42fff608b657f74 crypto: atmel-sha204a - fix heap info leak on I2C transfer failure
-a2f5f62c5b0b97b1990161abe41ec80504dd6f91 crypto: crypto4xx - move ioremapping up
-32ba5ea177207501c3bf201d9a8d0a77cbf26ca0 crypto: qce - drop unused scatterlist traversal in qce_ahash_update
-2fdf279ccf1bdea919b7dfa56081047c7a8d5015 crypto: ccp - Introduce SNP_VERIFY_MITIGATION command
-011556f71d094da61379ae3672692cae2795304e crypto: sun8i-ce - Remove crypto_rng interface
-a78446ee6fae86ac8733f120e3ffce2e5d9384f5 crypto: sun8i-ss - Remove crypto_rng interface
-e9d76cd90c991e37642c0ba256d7e6076b7ff541 crypto: caam - Remove crypto_rng interface
-d03f980a25853f6a380895119a572a3bb1194e8d crypto: sa2ul - stop probe if context pool creation fails
-c5bcb084a9871e5b62afb5f48b60adfa13b5d9f8 crypto: mxs-dcp - fix source scatterlist length access
-7e28b0a5c4b7d075b98ce6d8f5290a9d3deb5b92 crypto: qce - Remove unsafe/deprecated algorithms
-2f204fe718f5bf519013cc2536ad7bb2cbb51661 crypto: af_alg - Add af_alg_restrict sysctl, defaulting to 1
-ba088974419326daf46c5dc03e2cf6ab6ab701f7 hwrng: xilinx-trng - propagate timeout before any data is read
-f8c24e6899e263073fbbeb07fadc1af85ec492f5 hwrng: omap - Fix probe error path cleanup
-ae150db7826f21e8d19e54fb6243169628809c4d crypto: rk3288 - fail ahash requests on HASH idle timeout
-e264401ce4776a288524e5b87593d4d864147115 crypto: keembay - Fix AEAD unregister count in error path
-b0e7ec0dab242c5e480121ba12400d0513e37ca2 crypto: ccp - Fix possible deadlock in SEV init failure path
-c8e53ada20d352b0f1bdc3e58405a9edab897a2e crypto: ccp - Fix memory leak in SEV INIT_EX path
-3d1ce470e65a37abb925afd2b715599e6a9d792c dt-bindings: crypto: qcom,prng: Document Maili TRNG
-79f831559757625a56b932d125b40d1a84c98e38 dt-bindings: crypto: qcom,inline-crypto-engine: Document Maili ICE
-3b67be254bd3d5dbd4360bdabc900fdcbf642d08 dt-bindings: crypto: qcom,ice: Fix missing power-domain and iface clk on Hawi
-1c17b601fafb09c9ec074fd097737d20eafe7d63 hwrng: ks-sa - Fix runtime PM cleanup on registration failure
-5f78264028ed63906cf8f9b44d7348182bb18c7f dt-bindings: crypto: qcom,inline-crypto-engine: Document Nord ICE
-1e5004d5a3a801951a377e8a715c54d47f50e338 crypto: ixp4xx - add missing MODULE_DEVICE_TABLE()
-b73b71df4cb4ca241165ad31218c82dfe489147c crypto: keembay - add missing MODULE_DEVICE_TABLE()
-34fd0e7c90e9108b734c4e1d37041d871d83d5e9 crypto: qat - use strscpy_pad to simplify adf_service_string_to_mask
-9ad6f337888ec85f66dd095015454cd449f68429 crypto: af_alg - Allow additional ciphers for cryptsetup
-3edc28c9ade06410a7f435331f40b3e71b19abb4 crypto: atmel-tdes - simplify fast path in crypt_start
-ea4a50c0b5bb2d3b0c98b900b753dec9ad6fa457 crypto: atmel-tdes - use __get_free_page in buff_init
-ae69d42541633bdf5edef0ab02acd208e482ec62 crypto: atmel-tdes - drop redundant return variable in crypt_pdc_stop
-ddec4aa7c20e4e99f9a5328fa5ccb10f8c19e8dd crypto: atmel-tdes - drop redundant if check in crypt_dma_stop
-21d04ac27e7419d1a4530b198525a08b0ac46538 crypto: atmel-sha204a - clear RNG data from memory
-f07a0d251db7606e4792d2610788fbcc7b2c0d12 crypto: atmel-ecc - avoid stale fallback key after set_secret failure
-52cd75d8f5a024cad9643f4755dbe6bff1e5aec8 crypto: doc - Remove extra parenthesis
-3ae59a2eba64b3648f069aa52eeaaeefdfe4bb2f crypto: sl3516 - drop invalid sg_dma_len checks before DMA mapping
-cad76142aaa46a8a9e1a2f9b473b7792c733969b hwrng: drivers - Remove redundant dev_err()/dev_err_probe()
-eed5fde79651c66e0e24ba3d78a92afb63a76215 crypto: aspeed - Propagate platform_get_irq() errors
-8fbd4a0f506fe029510a982717c63cf64b0bc27b dt-bindings: rng: Rename the title of the EIP-76 file
-86c7771a2e88a805d56abfa18545bdc0274f8d41 hwrng: omap - Enable on Renesas RZ/N1D
-d4e273a5065f81ca86eca48cb3fed55867cc0115 crypto: powerpc/aes - use bool for encryption/decryption flag
-df373d39c6f038d176af303ae72f02c7c70b953d crypto: qce - Mark QCE as BROKEN
-0fb2a55d1637697c5541f62e44b6be4afd153b0a crypto: pcrypt - Remove pcrypt
-4bde7f2a2c9719a11bfaa9735c00ba73525add09 padata: Remove serialized job support
+6a019e348ffcb1add7861cbba7d9f2df7ef5b7fb updates for cvss scores
+509de3a8eea9122cca651f74c12379c2de72d3a4 sasha: review v7.1.1
+2e06dd3f2cb79f55aa2aa3fbdaf0a9edb0b5adf3 CVE-2026-52945: Add .vulnerable file
+4671c9fc4eab3d4ed7a89e3cc1c3b3d80027ddf6 CVE-2026-52946: Add .vulnerable file
+8164c8c81d31bd5d6dd1c7f29170e9940bec3cf2 CVE-2026-52948: Add .vulnerable file
+f2a98dc6977ca1fbaae83126ec599adb5f605d7b CVE-2026-52954: Add .vulnerable file
+d2c77382d1106d9c9a004e71e9453e6d8e7f3250 CVE-2026-52955: Add .vulnerable file
+24765389d9779c302f7c1d07cead9cabe8455382 CVE-2026-52956: Add .vulnerable file
+666e295cd7976d3889e971bed1f260afd0277301 CVE-2026-52957: Add .vulnerable file
+6170fb0f562cc1ba9031777ccb673ec5aa60aeb4 CVE-2026-52960: Add .vulnerable file
+7de7176f0ad538e62e36f421a389dc124beed44a CVE-2026-52962: Add .vulnerable file
+7dc5c2a9361f73f8ac447206cf6f907a8f046c0c CVE-2026-53131: Add .vulnerable file
+c2afd832151bd1906623b40410329104c39ff30d CVE-2026-53136: Add .vulnerable file
+290134c38562ad7574bb5a970396a023fc0d89ab CVE-2026-53192: Add .vulnerable file
+f3dc2ce23e3674b5b650347dabb7c985eab4625c CVE-2026-53198: Add .vulnerable file
+2089e3143091ca4b51fe72979e58c407f2bdd9be CVE-2026-53208: Add .vulnerable file
+c4232d87ca91ccc46f69203dc67b64d93ad76902 CVE-2026-53284: Add .vulnerable file
+26c374310b44373ae6e9986649c8cc349f1c924b sasha: review v7.1.2
+aafa6cb2fe2a5ccfaae3d2e228a4660ca280785d drop cve/published/2026/CVE-2026-52945.vulnerable
+e3980905222ff8f8c67692f5c755566ed18df166 updates due to new .vulnerable files
+7df3602dea128234bf1bd97253372d4f5cb722b4 updates due to 7.2-rc1
+b434419888e207a8b84abaa2b27e1a55264817ee drop cve/published/2026/CVE-2026-52956.vulnerable
+998a45307e30d91449607d429e39046461dcacb1 assign a cve on request
+c0d232e2e564ce0ae7d5d3abadcb1db7b4462fa8 proposed: Add Tyler's v7.0.13 review
+4260b4629f3c879f5da8c76a0ac8255c3c34231a proposed: Add Tyler's v7.1.1 review
+b02ac4b21221e6432a5a07b0d4f1e4c528d76494 CVE-2026-52945: update with sha1s from older trees
+775c355242c3b30e0257b4094f347f373eea9d43 CVE-2026-52945: Add .vulnerable file
+c02c2a26f731df8dc50f3bc4299522f5d463b204 CVE-2026-52956: Add .vulnerable file
+2d9a572bb8f27b456eb246b6da348dabb1cb2792 proposed: Add Lee's v7.0.13 results
+1db2c955e94cb8079509b1ae51ca1437e3c27db2 updates for new .vulnerable files
+f1d9676706d734cec429a0093c83eb7da768a5f8 proposed: Add Tyler's v7.1.2 review
+ec6db414da34798980dc81459a522d76463f3155 assign some more 7.0.13 cve ids
+46929176f1989e400345364bf52652bd963730bc CVE-2026-52945: point .vulnerable at the stable backports
+2bc63672813e5033da824696cb840b3df1884781 update based on fixed up .vulnerable file
+3c41605ce435587649eb8398d7bbbc4a165522a7 strip new mbox files
+356576d3cd41296c3d6dcb1099887cbc108d0529 proposed: Add Ruiqi's results for v7.0.{12,13}
+063acb8336e3ba04075089681c6014c27b87c4de assign some CVE ids on request
+3ac7dde8f76b0fade5923c653c88318607a2b3d8 strip the new mbox files
+d0cd1eb90fc288d1685af01eeed4bf61a5776b39 add a .vulnerable file for CVE-2026-31694
+03c8361fdcf5206e75ddf0e1171043d40f7f5cb9 cve_stats: use sort_by_key with Reverse for descending sorts
+c7c83ca6c8142bffc28ea64c53001d0b7d5bf0ee cve_update: pass CveFileData to run_bippy_and_update_files
+8ea0a33875d39223a5a0660b3c0f3728a8e6cd89 cve_classifier: fix clippy warnings
+da1ed214f26bd197a69aa3e4e0129433235d54ff tools: update rusqlite to 0.40
+b66abbac78be0e5178e018fd336163640e3817ae tools: update git2 to 0.21
+1993682b58f3e1b4d6fcb52f4f4d7b2c2b6c47b2 tools: update sha2 to 0.11
+2442c532a27698f2e5e364562b8ee0bf2639314e tools: drop unused rand dependency
+502750d1dbec948aa367040001f44c43b9d0aafe proposed: Add Allen's v7.1.[1/2] results
+34b7096e15063170b46e45ee5f110031e326496f proposed: Add Ruiqi's results for v7.1.{1,2}
+4976e993b38799c1f61f19b9661e86ac363949a6 updates based on new stable releases.
+3f7067cfb4c4474eb8b60ad9b11fd8bd1d096dd3 assign a CVE on request
+5f13e1eb46bfa71ef9c70d4558b70dd9a6822e00 assign a CVE on request
+2f04d6d09d7b07702748a241f7534ab4216372fd assign a CVE on request
+8e2fb47535882955e39442ee5e35fca51f3067ff strip the new mbox files
+74ae89705008d2730b89721f6ad19f0555fbbf97 assign a cve on request
+94bd60887d7efd486a28d311f3456764bc9d9e02 strip the new mbox file
+f9cd79052ed876ab10db242cdbc41f91a919ae59 CVE-2026-53330: Add .vulnerable file
+bc8523c2d36ee90d555371714199394ef13bfb27 CVE-2026-53345: Add .vulnerable file
+63691e353bd8d1f413014d3deb780282c54c1ea4 CVE-2026-53354: Add .vulnerable file
+69486b90f312fe6f7d39e87f2ff8473dea7a4d2b sasha: review v7.1.3
+0d9e55537625ee7ecd765f264d32144343496339 updates due to new .vulnerable files
+3e6b377b86c46536828949caa5a6179a1a189f5c assign a CVE on request
+d624a8187be7eb8ea84b790e0b36af45d5468161 reject CVE-2026-53166 as it was reverted
+74861cb836bfccc8a2eaf38521b752b45ca8cfff strip the new mbox file
+43abaf279d1cc066d628f92e50de5755bf84994f assign some CVEs on request
+ec1ac3b57966952ba2fd7273fe6340cdcc85d395 proposed: Add Allen's v7.1.3 results
+4aedbb9ba7f737218e0d80e0cafb3674658be50a proposed: Add Tyler's v7.1.3 review
+a1133483ae2321bd14babb2e89190aa5f9834c38 strip the new mbox files
+7343a3d7d12afd03e1829538cb706f7818572fae assign a CVE id on request
+4a819f3a747d5e44a0c37ee4819f5a0e53b01325 verhaal: update to 026 release
+bdc79747078f9b3961107ecbb22fbc0ed1efcea9 Updates due to fix in verhaal tool.
+9167f442cfcb787ed802f2c1165120106fa819b3 CVE-2026-53362: Add CVSS 3.1 score (7.8 HIGH)
+5486f1bde599a26d4a0f6a1374b78c6c77472fce CVE-2026-53361: Add CVSS 3.1 score (7.1 HIGH)
+b2859cc99076337200bc03be9879a2c8594cec45 CVE-2026-53360: Add CVSS 3.1 score (8.8 HIGH)
+3d06d0a80c9b2a3e2a1df77440b39582e2b866b6 CVE-2026-53363: Add CVSS 3.1 score (9.8 CRITICAL)
+c07a5e810d8ddc21b88eea4809bcc1542f0980a9 CVE-2026-53366: Add CVSS 3.1 score (7.8 HIGH)
+b482a610f41fe3eb65f3b315cf62a8faacb4ea3c CVE-2026-53359: Add CVSS 3.1 score (8.8 HIGH)
+1c3533a7c2007846e25989d0817e70a1eac58bf1 CVE-2026-53355: Add CVSS 3.1 score (9.8 CRITICAL)
+7874ed74482dabdffd73c2113fbca917e3601f7d CVE-2026-53358: Add CVSS 3.1 score (8.8 HIGH)
+e1ab8ebd2f4ac59c330dc841a796c149e6ece8ad CVE-2026-53356: Add CVSS 3.1 score (7.8 HIGH)
+faa315b0a4178bce6b9a3a636c4501da7cdc15d7 CVE-2026-53357: Add CVSS 3.1 score (8.0 HIGH)
+3f8da781e7d88da00863e2c3e9a5a3346a4a1967 CVE-2026-53354: Add CVSS 3.1 score (8.8 HIGH)
+5062a7387598d486627ded849b0c732e3b262131 CVE-2026-53341: Add CVSS 3.1 score (7.8 HIGH)
+879a68e8632c68b43d95b0d69d5c6d8159c05724 CVE-2026-53329: Add CVSS 3.1 score (7.0 HIGH)
+0ad9d8d6f7e181d81f4b4e266e913dbfaf39c988 CVE-2026-53159: Add CVSS 3.1 score (8.8 HIGH)
+85f24c1e3b8486cae9eb78fa09b3d806d8b0612a CVE-2026-52968: Add CVSS 3.1 score (8.8 HIGH)
 
---===============7013490491335253042==--
+--===============4887420365431476595==--
