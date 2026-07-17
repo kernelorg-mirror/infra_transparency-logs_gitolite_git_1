@@ -1,69 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4913891844112696229=="
+Content-Type: multipart/mixed; boundary="===============0292840803039099199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 17 Jul 2026 14:22:56 -0000
-Message-Id: <178429817613.3515152.1072952330350979772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 17 Jul 2026 14:23:17 -0000
+Message-Id: <178429819728.3515579.11701091788155513064@gitolite.kernel.org>
 
---===============4913891844112696229==
+--===============0292840803039099199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/objext_split
-    old: b489e3dddbbf0dfa4d87bdf87986eab6aadaabba
-    new: 5774f80d56f7b8d3685e297c91edcf9e36217e3c
-    log: revlist-b489e3dddbbf-5774f80d56f7.txt
+  - ref: refs/heads/char-misc-testing
+    old: 919d1ba86be65fc08a83c5def5cc08a61a5ace62
+    new: e7e12b4cc0f0c3a2782aea084d4215e23f5512b3
+    log: |
+         f5af7132db239c5d13f20b7ac01db62b62830fb1 virtio_console: fix endian conversion in handle_control_message()
+         e7e12b4cc0f0c3a2782aea084d4215e23f5512b3 char: xilinx_hwicap: unregister class on init errors
+         
 
---===============4913891844112696229==
+--===============0292840803039099199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1784298170 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1784298170-76bb9d4492453018389c19e1ed61ea0e54e90fd1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784298191 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1784298195-96b66854d426ca5d2b63e9676f7a5c1b42fd457a
 
-b489e3dddbbf0dfa4d87bdf87986eab6aadaabba 5774f80d56f7b8d3685e297c91edcf9e36217e3c refs/heads/b4/objext_split
+919d1ba86be65fc08a83c5def5cc08a61a5ace62 e7e12b4cc0f0c3a2782aea084d4215e23f5512b3 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpaOrobFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaGZ0H/1N6bD29V9u/J3jOTvGS
-enKy0A8UiiG1Rt0h46vwv1k09ERc7NEUr+zUMl+kXSIfoYU/MFSlNXWTrltoVyb1
-AVwjBHJ5MNotDpaH6VL2chocUZWw0fZNt8UL4kbYSCc5m3GMSZjAxdLIydioQy7D
-dbgLfYMjpKEp2GegfD1amepdn21AKeIWpCn/0I5KQfI5mij+lUN+H86xvWP826FP
-YQYmrDAJ47zjQqKlCT9QWJGmCm8kBQgF10XrxCPMeLPZuYkjmaM2OmSl3eKTp51Y
-HJJtv1uin5qwizHpLMAPGpnMmrrehzon+RzvXkvClFiN/jReUQbkyycI1dZLTJtd
-w+0=
-=ALoh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaOs8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OXQP/i+be/yc8iytvU7ElU+K
+UrexFcp/a6LJ+sMGYQbvBpqhpQqNYb6+j2XZhsgjbH/OnJ6rVfaiG7ErFgClAE7C
+tHYV6EdOJVCWm4hsB6aO+TBTfiIqSe3t58J7vzUx/H+5lxamxh0CvpEpquCo+juw
+VMI2YBugB/khCwvcSxBPfxczAeKi7xmVjl+EheuPlYKDDCOkCe+GK5BgtvNdoXiu
+wWVfz4t227JLk6PQhg5QyCMjBNy+f591laPoLYls6BKpVAy/lkst5XDmqdxQa8Nv
+BiKQ9wjQea7zYeuew/WnRXcnNVxf3ys5JrrcSM3nMjAT6nZTD7/iNut40FoBAnNO
+niqC0B9WnL4TjiNRwd6zChnylfBUlIzoUzgl/4ty/cggCVvEBSPppsE78ZqiXDBc
+8wNqYXz7w3RdHOM4dCqoRZHSA5JibL/uH28It6V2CufOpEhCKbiAmh1IWR4oaXSe
+r0fgbausYhPESWTBcFAXNLElfqwxpkVsRX1esKFFunZAnWgPMarNZ9WmYLcavfcr
+nG4LeEXrSPzE5S8D8AqyGIsB8mXJaAIaf+cylA+2w6PLkICDrF1xEPdXA8QhBEzr
+jVF06dXo/7CB5ittjPZrA6dr44UzXkS7sx2jBasD0PDHtuS4teGweagSYDjB25WL
+8ahvDKpzqEqK0P9Iq3GoLSiF
+=3a7H
 -----END PGP SIGNATURE-----
 
---===============4913891844112696229==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b489e3dddbbf-5774f80d56f7.txt
-
-3d7518ae59914faa826cd055b37da9f4be96dc99 mm/slab: skip kfence objects in allocation profiling
-ed293ea43137e13eed84c130c0e1879a8f717f3a mm/slub: skip handle_failed_objexts_alloc() with profiling disabled
-402451da78df6f265caa566234a2ec9f13c16a98 mm/slab: remove objs_per_slab()
-977d31b37ce4986f5903ae5b3bd67392bdfc602b mm: move struct slabobj_ext to mm/slab.h
-a43a20397b8ea0b31a01b8ff80227a676c945b3e mm/slab: make slab_obj_ext() determine object index
-e728da3a6a510759f1cfdf946b93416271b7d116 mm/slab: abstract slabobj_ext.objcg access
-cc899704255d5022e45952323af19ab94d2e6c97 mm/slab: abstract slabobj_ext.ref access
-e81ef1ac17c6a4cf0db98383665da41b4335bf64 mm/slab: replace slab.stride with obj_exts_in_object
-4ee55c0bcdc3bcd0f6c4c00726115ba3d0d7cd0b mm/slab: change struct slabobj_ext to a union
-3a5a9b6ae928361b8a15f9d60c61e85d4144eec7 mm/slab: introduce slab_obj_ext_has_codetag()
-faab0db673d1bc90540ed732beb38324cf930772 mm/slab: reduce slabobj_ext memory with allocation profiling disabled
-02926345f35f42cc0adb8f5368e66e32f7f1595e mm/slab: add slab_needs_objcg() helper
-5774f80d56f7b8d3685e297c91edcf9e36217e3c mm/slab: stop allocating objcg pointers when unnecessary
-
---===============4913891844112696229==--
+--===============0292840803039099199==--
