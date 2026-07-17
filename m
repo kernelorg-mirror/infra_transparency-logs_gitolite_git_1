@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1823355614372255591=="
+Content-Type: multipart/mixed; boundary="===============7891810232805057049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 17 Jul 2026 15:35:39 -0000
-Message-Id: <178430253994.3575218.15359345259258013307@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 15:35:51 -0000
+Message-Id: <178430255133.3575513.13046832713239665873@gitolite.kernel.org>
 
---===============1823355614372255591==
+--===============7891810232805057049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e
+  - ref: refs/heads/40GbE
+    old: 145defbb9be0462f517383600621c1a4ff3f6cef
     new: ce6b4d3216b63f902bb8e9695ee6c10c83415f65
-    log: revlist-f6f3b36c15ed-ce6b4d3216b6.txt
+    log: revlist-145defbb9be0-ce6b4d3216b6.txt
 
---===============1823355614372255591==
+--===============7891810232805057049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6f3b36c15ed-ce6b4d3216b6.txt
+Content-Disposition: attachment; filename=revlist-145defbb9be0-ce6b4d3216b6.txt
 
 a620ff84d42cf46cbfb708bacd40ad5e36d02de8 netconsole: clean up released targets dropped before the cleanup worker
 ede59d06c28f62135857b93663860029429f6907 netpoll: export refill_skbs(), refill_skbs_work_handler(), skb_pool_flush()
@@ -41,4 +41,4 @@ ba520084dc3b7f8b0bca534bd272266b764427f2 netconsole: move skb_pool / refill_wq f
 922cc43c624330b9cf646d52fc82c820d9f699b3 net: mana: Add debug knob to skip TX timeout recovery reset
 ce6b4d3216b63f902bb8e9695ee6c10c83415f65 net: mana: Add handler for sriov configure
 
---===============1823355614372255591==--
+--===============7891810232805057049==--
