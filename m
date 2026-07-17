@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3035991590254474453=="
+Content-Type: multipart/mixed; boundary="===============7350777386568338787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 17 Jul 2026 10:59:37 -0000
-Message-Id: <178428597705.3334417.8498154440035389711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 17 Jul 2026 11:00:01 -0000
+Message-Id: <178428600129.3334782.7798170851504576592@gitolite.kernel.org>
 
---===============3035991590254474453==
+--===============7350777386568338787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/tty-next
-    old: da7b5fd4e17f8e44c5590f2d603c01d499f056e6
-    new: facd005eee65df088cd73733741fbcf8d989fc5e
-    log: |
-         facd005eee65df088cd73733741fbcf8d989fc5e Revert "serial: qcom-geni: remove .pm callback, use runtime PM in startup/shutdown"
-         
+  - ref: refs/heads/mips-next
+    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
+    new: 27c61f8565a438b2d1dea6f6a47af0e6dc12c112
+    log: revlist-a13c140cc289-27c61f8565a4.txt
 
---===============3035991590254474453==
+--===============7350777386568338787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a13c140cc289-27c61f8565a4.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784285971 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1784285976-db4fbe3f6f0fc9d442ca60a4688c5c114de637f7
+8121880ddce74a6761548d797ed34ab8021fe8f1 MIPS: kernel: proc: Use two seq_putc() calls in show_cpuinfo()
+1235933df87e4fae54fdaf83fb6beeca6c23b713 MIPS: TXX9: Remove tx4938_spi_init() and txx9_spi_init()
+4e913a7350b5c9fb8bed75ee3d7e0851dd7ea98e MIPS: TXX9: Remove txx9_7segled_*() forward declarations
+0caeacb1169193b31f0a00e3b1cb2ba452ca2da4 MIPS: TXX9: rbtx4927: Use GPIO lookup table for SIO DTR
+7b3b8146d3fcd4f324f3a688e95038e47f24f84c MIPS: TXX9: rbtx4927: Use GPIO lookup table for TXx9 LEDs
+efa0ec75a010df67e4fcacc43b9ff1d6f531f015 MIPS: TXX9: Reduce TXX9_IOCLED_MAXLEDS to 3
+a84d39adcf93864aa24deada92305d0f407e42b4 MIPS: TXX9: Use GPIO lookup table for iocled LEDs
+4af9ffbec42667e4e0d2319f7176eb38328bcb80 MIPS: TXX9: Drop GPIOLIB_LEGACY select
+1d6f300c8edc7b364000bbdd389eca6f2b1f9508 MIPS: TXX9: Convert gpio_txx9 to dynamic GPIO base allocation
+b0034259e90de02c786dd49c922e3b802a10886c MIPS: TXX9: Clean up txx9_iocled_init()
+4a352e45cc773eb771f76eab68325c886310d5b9 MIPS: ip22-gio: Drop #include of <linux/mod_devicetable.h>
+8595a9689182d16ae4f9e193d56ee5e7c3c3616d bcma: gpio: Add and register software node for GPIO controller
+430efd697374891bbb289054580c29144cfc69f8 ssb: gpio: Add and register software node for GPIO controller
+27c61f8565a438b2d1dea6f6a47af0e6dc12c112 MIPS: BCM47XX: Convert buttons to software nodes
 
-da7b5fd4e17f8e44c5590f2d603c01d499f056e6 facd005eee65df088cd73733741fbcf8d989fc5e refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaCxMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YBsP/2DCcp5eGkp5bL1OoYXF
-wN+bBKBOvY11/7bkUDs1EDxjrh5yqrBoqY0ulAE/8eHoOqIKcbU6Bhb6C97O9XBR
-OwoAXsmcf+NYkw6c7moHHLUVXHsPgrg/BrdQaNM5HLPAKWefTnJo50sZD6Q83nbX
-RoTbICL/MnIJs9JMi53JRw563PLkgXNhpA/GbfhEuXWp6Jv2vJDB/3mOXNZvLfd7
-oppWzV8HCjw6+wzFS5zpbM44MhZt8A41ubHaNKUT91FsF/qZOjp/Z9SX1dWqfKk0
-W4uDcI2eSVuiN1rG1GRz9ppBX7HpVHrHhikxzTKiBv/os98KfAMAZ2rNk3VszOlH
-y98ElgJURy7S+/GhtFq324Z4+BwvqhQdaYPFMdAFw2/vWMrp54nB8uXmZkqqquRW
-M4VTrsR7YM+v/TY+mEtSZhPOs0LayNR+08JnPUSSg2ERzl9l16O/L2fILq3h5Zaw
-ci4wXFgbtxaJeekLVLFeX4N2lfZy07avHLr7tkf2R6aDyB2GlOATdBeeKg/0awW4
-XRNZpNBm2DgXtM5KGMyZBi8fOupeETmQeeT2Z29Zg7NwOtj3bOCwCnNqqC5IK5QL
-42QdykCdrBc+sZE14Bf8mQaW7PoUD8SM/LcaUph8AR6sFjYKWsmeE9jwAkwUxvWS
-Bokb70uC2isAro80xjlIIZSX
-=56Or
------END PGP SIGNATURE-----
-
---===============3035991590254474453==--
+--===============7350777386568338787==--
