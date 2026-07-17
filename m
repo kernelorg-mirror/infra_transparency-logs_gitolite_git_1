@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2651704176509336898=="
+Content-Type: multipart/mixed; boundary="===============2159127317091443044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 17 Jul 2026 13:04:55 -0000
-Message-Id: <178429349526.3440189.5998466925470048704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 17 Jul 2026 13:05:17 -0000
+Message-Id: <178429351777.3442462.9260995626977001997@gitolite.kernel.org>
 
---===============2651704176509336898==
+--===============2159127317091443044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: c945c8f37a81e0da6710794549ebd8ac9d2c1b82
-    new: 8b282b862b8537ae325db9907c0c8a1711f36b7b
+  - ref: refs/heads/usb-testing
+    old: 15902712b9e2a46649cba2f22002d05faec2a990
+    new: caad28c0816fe212564362cdc176aea5c506f839
     log: |
-         b17447ff68f51ed25cacc9fb2c443b67e75055d8 driver core: avoid repeatedly printing the same 'Fixed dependency' log
-         c60a3aa4576b07138b9f115d57c42af662839ddf device property: fix infinite loop in fwnode_for_each_child_node()
-         dab62b7d667451f2f87df10775242f0aa952bc73 device property: Refactor to use RAII approach
-         8b282b862b8537ae325db9907c0c8a1711f36b7b device property: add test cases for fwnode_for_each_child_node()
+         caad28c0816fe212564362cdc176aea5c506f839 usb: rust: mark Device and Interface methods as inline
          
 
---===============2651704176509336898==
+--===============2159127317091443044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784293488 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1784293493-d0f420c44c35680f8058f07b3cfda480c899b5ca
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784293511 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1784293516-2aa714711749e6f1721ad493530e9420fdbaf2db
 
-c945c8f37a81e0da6710794549ebd8ac9d2c1b82 8b282b862b8537ae325db9907c0c8a1711f36b7b refs/heads/driver-core-testing
+15902712b9e2a46649cba2f22002d05faec2a990 caad28c0816fe212564362cdc176aea5c506f839 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaKHEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+be8P/0G+NQB3eFCsiiGUMnkl
-CBrUfyB4DKrJ4RkGB4/Qu42mnGjrGOArfoymJxeYW/SGdaZ85Dh6KdzZCqFRV0Ez
-4SBrdZm6G+okTTWIJGNaM6loJntVKyerLIge7Xfj0DONqVlasZyIDrfKETHZVjoH
-u5gps9/XuYGEaEiNcd0uaBxHhv3+ZxBQIuGAnITGTTQ6SehIPuNRIJLCk8N2pZ4o
-mz4CgfRZC7Whj64dhX71oq80JsIlF8LMeqqd7uEvh8d+711K5bxdGSGsBrHGS2OW
-6iqEcqFbnYV4g5WxFe+NhljvM8aNZY+ajs0VZ9swrxhVMj6NT7bgQQHnbu1cdJBI
-y9S48JbBNhpZD9g5LOPSNFlRv8knpuTPzocDZQdvne0QFZ/UiSf5tSNKX3MjXsOp
-dm1KbJXjfy0VZbYmv1P73v2uPKbJjFXTnuFNRPVi7jt4D5zc4/0P8BKfbqrJfRjR
-mjaTYVWoIz0AFRiMAgyB62puHf8E/pOYTr9Z3uuz0VcvV12OUjER3VjdfcU9rJ/N
-Og9uHhzkFv+sb1hH1JMaCrM016DWe5c1lHAJaeGy0h3AFMnvKWRn9eui5yPxQUuE
-DgWaN0oQkkcHi7X3dLaSvT2R2xIiLvAnOsAp+EmbTmSDiKCQOI3oYug/FoN4Ie6B
-wuZZh7lbjD6BGOkJ8gzs7tNf
-=zZo9
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaKIcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UzMP/0KrEyB5tOVWeRe0pHe5
+XakhxNq1DpgGZsKFfZ1gqFAtYJa/MwJ9Fs6aTUZcamrHGztlpOcXy6nvKXe5rBqt
+dtX4vPJ2NeyBkNZbOMQKgYYJzKEhKv0T2o0mYqjU3Tl6Wa1sOceDd/fcNRZfap7r
+mBJA6y7SJLtD2v3FLyLhTC8KdEwOwyf8tWHC/ql75Li1hAACPr1myFTKSKxKMszy
+9WwJGbhrck4zNqAAMRv9Rx5eV6AXm93QUwtTJB7/fu8SdQDrMfZ2vf9lPwImv+2c
+WSkuR9dWeQq6wLdJX2P/hlrnk7M1sJ1++tc/vrVOltfeoDfB1ERjhqONV33G5uNr
+FJaH85O9mAdnc2ayyk8SasTNCX6mWaFm4L/9zm5cIXRjZQP5Wm+/uIyhnQNRY4AX
+5t1hS1rgE24qRicv8emP/y2d745LfkmU+md9E0+AIqJNLvrPs9hWzvZSVtoLUuE6
+8l2K328sh8Zq2M5yJFOh/hIgATBvlm3tHApG+NeX6zHptplEZeOV2egcO2echol/
+qTDdhkBWhKJ14as8HAqTR3nxSY+ikH74gyEV9X5mSoLaiR4qVt4LeCPUf7wcb3fA
+oCXW8owRJC6sj9JFlK9L4W+2i1s8g1S54JarhyiaDCZ0pTR4eqE97bwas3bf1Oba
+AdJ6KehPXtxMDh/lSaNW/so9
+=l7lb
 -----END PGP SIGNATURE-----
 
---===============2651704176509336898==--
+--===============2159127317091443044==--
