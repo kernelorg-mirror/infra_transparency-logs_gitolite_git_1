@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 17 Jul 2026 11:18:50 -0000
-Message-Id: <178428713056.3350266.14926904632422229817@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 11:22:05 -0000
+Message-Id: <178428732515.3355357.3155852238426652645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 04aeddf2dadd0eb7ad016a766dcbe9c983311f09
-    new: 2c72eb6286347d05a885412fb076993bd5286b53
+    old: 2c72eb6286347d05a885412fb076993bd5286b53
+    new: 56d96fededd61192cd7cc8d2b0f36adfd59036c3
     log: |
-         2c72eb6286347d05a885412fb076993bd5286b53 llc: fix SAP refcount leak when creating incoming sockets
+         56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
          
