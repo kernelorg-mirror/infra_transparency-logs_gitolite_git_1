@@ -1,60 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1129736929889809650=="
+Content-Type: multipart/mixed; boundary="===============2601525711297905752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 17 Jul 2026 13:14:39 -0000
-Message-Id: <178429407959.3448159.15988744318270777930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 17 Jul 2026 13:14:41 -0000
+Message-Id: <178429408174.3448244.10792858879007686561@gitolite.kernel.org>
 
---===============1129736929889809650==
+--===============2601525711297905752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 8b282b862b8537ae325db9907c0c8a1711f36b7b
-    new: 29dca69ee227998837e23f5fe7974dab170b94fc
-    log: |
-         b58bbfc40792bcabdfdb97edb23a997cd2cd7191 rust: device: add BoundInternal device context and InternalBoundContext trait
-         8526cde1dd487379cbbc69f43f28b90826679ffe rust: device: move drvdata_borrow() to InternalBoundContext
-         c8a4843c8d8d08ad0282faa294cb4737097aecab rust: add basic serial device bus abstractions
-         40268bdc99abfbcb81287c5be52fe3a68c61244a samples: rust: add Rust serial device bus sample device driver
-         29dca69ee227998837e23f5fe7974dab170b94fc MAINTAINERS: serdev: Add self for serdev
-         
+  - ref: refs/heads/tty-testing
+    old: ec7dbdaa11c7be1806f0ea1a272ee6daee42a843
+    new: 782f4dbd1794b4f30dc116a7ca42c5962c409be8
 
---===============1129736929889809650==
+--===============2601525711297905752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784294072 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1784294077-78035c39036fa889c318a9006d7c9a9a065088d8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784294075 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1784294080-970dbcee22c6211fcd15ebebd6a71c1e0ab76238
 
-8b282b862b8537ae325db9907c0c8a1711f36b7b 29dca69ee227998837e23f5fe7974dab170b94fc refs/heads/driver-core-testing
+ec7dbdaa11c7be1806f0ea1a272ee6daee42a843 782f4dbd1794b4f30dc116a7ca42c5962c409be8 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaKrgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BpMQALQ5g4rTkNgYCRTAruMw
-pbJc/VGMYt24mhk6OC52in18OSHSp6tZrh/Ojjwtshxn2iVtf8cjAfzVmt4uhG3H
-n5dKSmFfuzvtlGtl9afsdeaHkpRuQZAS6dtZQTUeJ+yhDkRL1jd4wHdFjyuZFvMq
-y+YHlumVWYIWaLwxo/FLgrPXYtKJwbNT8yXWc0hfTEJdaFgXcrKqbz/WvkD2cxkE
-CDzWDjup4iB9M7O1p5bspO2nZEan3BJLm7cNdcNxSx5VchgHI9qPTqUcAJkCvaEo
-6QQleKC3R5E8A8VSv7pUiMcxdLKPhTNaOG2shN+NDgSztikDRXWca+MyGwhjFMk+
-n9vj1+Be0dLhMJ6mN8tt0EBboPnKmG8LkrMUbBlRECluMd5HA3m4T4bg9BdXAQLj
-0lCOGav76cPfVmxT9ku1BES48rGYR4yU5MTJDkd9Iv2oGMMqOPIIuLoZUdvi6CEU
-nbKlmJccX3pn23Jg1sLV+LBqieSIK33qRKtSEiNGk9AQy7D+838xdRIrqZwIMfA3
-M36Ysgw7gzo+wX5pQiQbYjGxCwQYc+CnfKREyKr+chbp020aNvECSm5hiVTNEd72
-H2S4B7tcppGgt9uZjWueL+qHy2SUsQJy7YC3pSvBqcn0bR+Yq4a8io9DTJnSS+AK
-7F1u1QRt3YBNimAj1QBlePRp
-=u4pK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaKrsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Dl4P/0C3X7HRNEuRo8Iij20V
+FPFRDPOcMFfdSYt4OZLMi+n7Yw2TshPK2fKJaXjnkNgbkoh8X/mee/4KsbY3ijX7
+Yb21GopG6BaEWIR8tRVNKQ+NAUKrTrMc/gR3svauF+jp8YBMU9+6rfctCZbpobND
+TeAOPoUZR2kcfEwsd9zch4Ena/u6q+HKUHFCqBP1PkPKD0nu81Lcw3tbIcDV0Rib
+cJIq/fr48HYDICTPZskLjAQshDH3Al5+Gmaa/8+Skxr5pcKccPXs09rD1wU/kuw3
+aPZ62uX2wz3szhHbVGDj0sBkjukOhYC2coCrxNUZMPemxBAM5cYcdWMSvRoXHUmI
+z7BJgqlfg+2nkrYxzqWEO8+TZfHi1VAsTUyA0b3tIh84olg57KvL8EfXtZA6ybGe
+suIMkgDfPgBJK+r+hRnsqd7lJRfBnE24iYtWgrVIy/4r6QH4SBvZ3KXnRZrBa2E7
+JeiCiBrmP4xeOr2asOdVrCJFFet2K9/7ymbnUZXxR/GtBNLdJavQby7WIMkJZ4vf
+enhK0f+UuJUWZeAQ/sJGlLln2OS9sLBDTVu6l5DNL6/gzwcbwlil5TJPboRJqrNG
+8S2v+fZsnEP2jNrEZwLgv+wAFzMrLYY9EyPAX0hfOivPwQCvZIJqgyGpZpvMymUo
+/6qJ7ZYZG9ZlH86psfVxT9RH
+=bG15
 -----END PGP SIGNATURE-----
 
---===============1129736929889809650==--
+--===============2601525711297905752==--
