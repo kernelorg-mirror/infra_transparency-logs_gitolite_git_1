@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============2220951093530956163=="
+Content-Type: multipart/mixed; boundary="===============8920007224149715838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 17 Jul 2026 13:30:21 -0000
-Message-Id: <178429502109.3463015.6249489935761895305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 17 Jul 2026 13:31:34 -0000
+Message-Id: <178429509409.3463860.13399419321080383115@gitolite.kernel.org>
 
---===============2220951093530956163==
+--===============8920007224149715838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 761b785a0cfbce43761227bc42a7f984f31f8921
-    new: bb66b1a3452534adb8b72abf2f761375970fe472
+  - ref: refs/heads/for-7.2
+    old: 0b604e886ece11b71c4daaeccc512c784b89b014
+    new: efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8
     log: |
-         bb66b1a3452534adb8b72abf2f761375970fe472 rust_binder: only print failure if error has source
+         7dcf091da4b4596f7dbfb403d946ee4aac423af3 ASoC: fs210x: Make cache write through again during resume
+         93c2a8ea2454b7b14eb378a58cad8a83c0ffc903 ASoC: cs35l56: Fix potential probe() deadlock
+         e0bffb63a2eda0af82ed7e6357ac67c2db990c21 ASoC: cs35l56: Use complete_all() to signal init_completion
+         1d3302efe653df4c66a47126e9b8abcfdb027ee5 ASoC: cs35l56: Fixes for deadlock/hang during component_probe()
+         efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8 ASoC: Intel: sof_sdw: Add quirks for new Dell laptops
          
 
---===============2220951093530956163==
+--===============8920007224149715838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784295015 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1784295019-a3320079e0132f64d280ce95efa89d4e45c6fb94
+pusher C3F436CA30F5D8EB 1784295092 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1784295092-8ff87ab9a78e466c0439b42cda7666295402975b
 
-761b785a0cfbce43761227bc42a7f984f31f8921 bb66b1a3452534adb8b72abf2f761375970fe472 refs/heads/char-misc-linus
+0b604e886ece11b71c4daaeccc512c784b89b014 efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaLmcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZaMQAK4u+ZcAs8liioiIllLR
-LicmozjVJoSJdGLQM++O2rJ9mbSVFOT/u/JHIv0UwDF89UY3QmJU2EiD8jb98fTg
-VQoeidojXwpvVH9WBm9HJxUadae1lN8qM5wsndbhqrKSVvCapbtzxyuWBp45Qf9s
-fJTwKs7MKZ+ZV7nuENo8LemfZAGfkWolRwoXbzIFETitvhsLTyt509NR63UU1AiH
-KkutCncjq62UVR/LFLkK01VTYZy9Srgozi5+U/EcrSIEZ4pBrUBbStFF21PTjQQZ
-ra4P3UOcn3pJ44nSpwdpl8323N1gDsJ8i3i0JwTNnYsFYRNxy3Od1kH+PTdEaJxq
-deHo+n5aWKqNJh+88lKsyq3V98dculvMKkCtpzJHlua1CYaU7cr+YVOOjqIo5Osf
-3a8QwGiT/6IpBPpiNFAXNSUTzGxSTrTcB/+YYBZYZRNS+C7EL+CJp2dHomDHfCQc
-eYTo2j3MZzj6DxQYGgWPwHXaUstAZW+Tpw3EKubn2LQeALVJ2Pukzlc9/VkAdzUw
-Aj1y1yJuE8ax/SRpRQ5iKYUnSeGpOaUvbYC/Ie3wZxW+xhJfC8n8CC+fXYttJkiQ
-N39ENJZwBXdUfcoo8EJK6LgPw1tMn7RZkTRZDlG4B6FJMJg65eUrAIMi1KepyGvo
-Cjb7JNQQVsfPL6ZWfDNNsEw/
-=xBsm
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpaLrQACgkQJNaLcl1U
+h9Dhmgf9HtGyMkzib0obBMcYtOIPz8kz9YikXLNFrhX1WHIb0hz68DZ1g4GVkqjr
+7WTD2gArM/GHiOJrTFfI01TmperWQDWjTqlgWTA8Th+cHVqB/RWkFGQyab//qZl5
+Bi57SaQCNKRZtNS/hPKEJtQFDRhEiXOx7AJHTAC4EiFOHiSf+yV7WclSrovihsKP
+pzpUYjYP5FfckshLRRAlvv2hnTTRljFe0Oqj1L54pI72CzPBf+rCSyXXTstwOReY
+zXx5Z3o25RndqF6wgDSvGJfncKhqbSM8pLuU+le6yPTPQWRLSqkUIqGW0gIZvJMk
+KZKqklnNgV9lUexRauDE7k51P/i2hw==
+=a4DF
 -----END PGP SIGNATURE-----
 
---===============2220951093530956163==--
+--===============8920007224149715838==--
