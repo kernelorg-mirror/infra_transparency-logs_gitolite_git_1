@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0407108901057106566=="
+Content-Type: multipart/mixed; boundary="===============3069711729798346608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 17 Jul 2026 11:06:43 -0000
-Message-Id: <178428640345.3341784.1967500938046989175@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 11:07:52 -0000
+Message-Id: <178428647248.3342269.13639641306230934816@gitolite.kernel.org>
 
---===============0407108901057106566==
+--===============3069711729798346608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 782f4dbd1794b4f30dc116a7ca42c5962c409be8
-    new: ec7dbdaa11c7be1806f0ea1a272ee6daee42a843
+  - ref: refs/heads/tty-linus
+    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
+    new: af071d9e07e57cfff239e8d09d2f3b05ebc9c667
     log: |
-         cbc11f4e978d1ee0bc857a9c51d43bbae6966f1d rust: add basic serial device bus abstractions
-         60d74ffcbe2d7f8c9aa8fa4872b6da9f1d8680da samples: rust: add Rust serial device bus sample device driver
-         ec7dbdaa11c7be1806f0ea1a272ee6daee42a843 MAINTAINERS: serdev: Add self for serdev
+         7fb13fd7e9a59a37cd911efff83abe19e3ee029d serial: 8250_mid: Fix NULL function pointer dereference on DNV/ICX-D/SNR platforms
+         af071d9e07e57cfff239e8d09d2f3b05ebc9c667 serial: sc16is7xx: implement gpio get_direction() callback
          
 
---===============0407108901057106566==
+--===============3069711729798346608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784286396 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784286466 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1784286401-3315b8e8c47c8f1bba3b2e72fe2ba8ee99f0784c
+nonce 1784286471-73fdb6fd13350e7515717d40ddc73314b3c9859c
 
-782f4dbd1794b4f30dc116a7ca42c5962c409be8 ec7dbdaa11c7be1806f0ea1a272ee6daee42a843 refs/heads/tty-testing
+a13c140cc289c0b7b3770bce5b3ad42ab35074aa af071d9e07e57cfff239e8d09d2f3b05ebc9c667 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaDLwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HT0QAKvBWahWy0EUhivo0/Jn
-zjQnHLLcMeU4u7VEsHC2TNp915BZgproj6v2DyilSCFAqJ3wWFeypjqMRBhoOmBM
-e9rGu7CCvb6FH8NAGcsy607sN8B8sCkOtIo5BVFOJF071spjWgabajg4ZRqq1Lg0
-i5+6qqw6V2ss5ar2TGw+exaP1ZCjUNNrUKuoqIRzaraVX75epWd+5Atya7/aCsqH
-HMusWR3VxrfNyEWW7b03CT8lLoKfhKgTBMvQNid6j9i7QQCfxQ8roSeIvjedsxn0
-VU2HJWqc9eevKdQifAJIdPN1q+wMMmHupRx9Yx0h/4rW59ab+/qdgKrvAJgOxV1E
-rqycWLJVasngwcPcHS5irOEN2fBZUg7e9sFIC/WuoY5x7iBeGXrVdN+FEV+28WYO
-YH6Mxekfr+9bZbus00Z32xZxGjeUgNWrxFY073UAz8EDXEngFOoClJWV5sT3aNoz
-9RAJoL5o+XlqPYBMIAjY7UNN3NTog6Xt3hFQtgblvQ8ygMMa80d7hInXAcA3uZ0f
-hRi5e2tstJz7W3MFM3ZQtkTMeuwWlMRAU9PCIZO1JMsHIHUE1l39YgwF7STPwqbV
-edrT2QP4SpM0NjJOU/UNZbA5wgo9D5WKvOrJOcTUx/MQjo73umTBNckfEL9jlHcw
-fj3TgC8AsZaBsHz3nXbAMeFJ
-=WruS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaDQIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fvwP/0e/Gw0bxUHYgcgwkePy
+Sq2bOI+ltZr0H6MB0dzqNavHMbBvJDNPUIuT7uvx1/Kgb7kfgc1o+CKTXPB+0wR0
+7ucOYMCjBRlMlqHTW4HYIjy0xav02lWiyaJqjn/YQMXSIP0YZfGU8h0sVkeMwfT+
+H2s0lW3OIZAxBj7Fo25xTS4xNzGIeVGzm8C8GVLvgq+0/spgI3XrIcUSCmACfBNk
+ckujIhIKBbL34LqIQjehOElJpyhFjsxrHuWRpVFA1lRXy9/HwZNFLEarjcxmc+mu
+gaKeVKWTPPKNdfzT+KJ+8e7de9e2WAxKaEPZ9QF1BLdlJ1dK/o8eVTP76fHx0Vmv
+JoeKB86pQjll6l20p13h1bxzG/9VTuo3beSzizfrRBSG6zLysqXv32EEcTQHj2Bl
+wwagVrxu20b69VGRXjSCvZQIkJiUzGyLkjqKhctF/NhTkScKVPNX35KJYGgd2va3
+nMDT7vQpXh7YPOF6KtVxN/Rpm1paZfvRnAN5jmXYMiSf3rfHdRK/hKday64/8mm0
+iS7zVxbCGNDyMqLiWtKAaFgtwMo7Ft95ECw/9sUKU/9Hhw0bHmzRgTdhn8xeQThp
+Flhb9udtBeX65G9zmQLPtZKyrHrTaRNnX1npuewGLWpiuuIX+ENR4Ne8VqxB1P9m
++QWGYLUvmCQkOVyvQT6LfOo9
+=1WX0
 -----END PGP SIGNATURE-----
 
---===============0407108901057106566==--
+--===============3069711729798346608==--
