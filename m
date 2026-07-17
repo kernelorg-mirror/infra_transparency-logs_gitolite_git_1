@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Fri, 17 Jul 2026 09:43:03 -0000
-Message-Id: <178428138395.3274108.7648943943809286979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 17 Jul 2026 09:51:44 -0000
+Message-Id: <178428190407.3281028.7982787626111279622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 04a68c4b40960b5430b88eaf3ad2a33234f90c50
-    new: 703a9d76a45dd97b19b2432fc1ba4beb4d67a94f
+  - ref: refs/heads/main
+    old: 892d3087c4fcee2cd9a8dbc0e9a0e5cda4827910
+    new: df6134b527a88b3e65ba6ae5073664af091d5fd2
     log: |
-         3219f9b61d45129d24fe4b5a070fc1e3d8fae5c5 printk: Handle pre-enabled consoles in the top-level register_console()
-         703a9d76a45dd97b19b2432fc1ba4beb4d67a94f Merge branch 'for-7.3-console-registration-cleanup' into for-next
+         df6134b527a88b3e65ba6ae5073664af091d5fd2 net/mlx5: free mlx5_st_idx_data on final dealloc
          
