@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1537853941679860261=="
+Content-Type: multipart/mixed; boundary="===============3035991590254474453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 17 Jul 2026 10:59:09 -0000
-Message-Id: <178428594926.3334120.39434667427496029@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 10:59:37 -0000
+Message-Id: <178428597705.3334417.8498154440035389711@gitolite.kernel.org>
 
---===============1537853941679860261==
+--===============3035991590254474453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
+  - ref: refs/heads/tty-next
     old: da7b5fd4e17f8e44c5590f2d603c01d499f056e6
     new: facd005eee65df088cd73733741fbcf8d989fc5e
     log: |
          facd005eee65df088cd73733741fbcf8d989fc5e Revert "serial: qcom-geni: remove .pm callback, use runtime PM in startup/shutdown"
          
 
---===============1537853941679860261==
+--===============3035991590254474453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784285943 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784285971 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1784285947-89d7b3dddc6df95bde49d7b999608ffba6d7166e
+nonce 1784285976-db4fbe3f6f0fc9d442ca60a4688c5c114de637f7
 
-da7b5fd4e17f8e44c5590f2d603c01d499f056e6 facd005eee65df088cd73733741fbcf8d989fc5e refs/heads/tty-testing
+da7b5fd4e17f8e44c5590f2d603c01d499f056e6 facd005eee65df088cd73733741fbcf8d989fc5e refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaCvcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+leQP/1YTxRbCbiGSky8l0Na+
-DCEmoiqhPKs/4fuUH0CrWRgI7rNYP0+E0Z6NKOomtL97RWaaP9B1+70+HjPQ5YQc
-qNcppBAsq8wyiAPY3qRK6Zj+owu0A+aVcLrDTv/lrntD4SxDBvnak8yM3WBvPOge
-bJ+Bjo7mKHKpAqyVMZ2R+Y/1WnuZDZ/ixgYwhuoxUgX7IU9sHSCH4mE3BWJRhSAV
-K8NKIq9V3Zur/h3gSwtUXI019lsPGHJnAoy96YMqmCY7O9II9Gi1mNUwrROgp5Ya
-FpeNsu4WT/aMoh97FwfRxT732PICIU2uzzHy9qa2HTGU4cBO3BPj7gkiv0Miz8Gw
-eH+OtiboJoFBRG5nuFXtxlHVCq1zzkQLb+pHaa2nMlpoHg0AdzivpOOAC9Oa8doh
-SptSurcd106rjGeOOFMkaafBzCfw9n5euAimP3KdnMiz0Xe2NcG0FI17wOfLG4A7
-4RC0GtQJkYrGwRNsAV0w519qWmeasi1RkPrxBCIotPKITOJsadseCRVIumjFwfF8
-ipguIxbz9rSBrFf+Tig6d4zFDvYOIBpeM3pDPyK2F76KwWa8qMYjrxftHS9OYVzg
-FzRMIXzJDfR3rcHsv7eg9wLHvXJqldLcpogkLV3b+feaZWoTU+XnBPdllFhad8ks
-Kmv78PGVt0+TNcbni2F+KX5c
-=659A
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaCxMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YBsP/2DCcp5eGkp5bL1OoYXF
+wN+bBKBOvY11/7bkUDs1EDxjrh5yqrBoqY0ulAE/8eHoOqIKcbU6Bhb6C97O9XBR
+OwoAXsmcf+NYkw6c7moHHLUVXHsPgrg/BrdQaNM5HLPAKWefTnJo50sZD6Q83nbX
+RoTbICL/MnIJs9JMi53JRw563PLkgXNhpA/GbfhEuXWp6Jv2vJDB/3mOXNZvLfd7
+oppWzV8HCjw6+wzFS5zpbM44MhZt8A41ubHaNKUT91FsF/qZOjp/Z9SX1dWqfKk0
+W4uDcI2eSVuiN1rG1GRz9ppBX7HpVHrHhikxzTKiBv/os98KfAMAZ2rNk3VszOlH
+y98ElgJURy7S+/GhtFq324Z4+BwvqhQdaYPFMdAFw2/vWMrp54nB8uXmZkqqquRW
+M4VTrsR7YM+v/TY+mEtSZhPOs0LayNR+08JnPUSSg2ERzl9l16O/L2fILq3h5Zaw
+ci4wXFgbtxaJeekLVLFeX4N2lfZy07avHLr7tkf2R6aDyB2GlOATdBeeKg/0awW4
+XRNZpNBm2DgXtM5KGMyZBi8fOupeETmQeeT2Z29Zg7NwOtj3bOCwCnNqqC5IK5QL
+42QdykCdrBc+sZE14Bf8mQaW7PoUD8SM/LcaUph8AR6sFjYKWsmeE9jwAkwUxvWS
+Bokb70uC2isAro80xjlIIZSX
+=56Or
 -----END PGP SIGNATURE-----
 
---===============1537853941679860261==--
+--===============3035991590254474453==--
