@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8143312794760643527=="
+Content-Type: multipart/mixed; boundary="===============4375337115900414204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Jul 2026 02:58:49 -0000
-Message-Id: <178425712968.2982752.17068789636092883388@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 02:59:20 -0000
+Message-Id: <178425716079.2983260.8754892484412568475@gitolite.kernel.org>
 
---===============8143312794760643527==
+--===============4375337115900414204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 4e416da45b5ebdec34cce6850d823b6673a35524
-    new: 79c894f215938f727f354e585f2e4d76e4336de8
-    log: revlist-4e416da45b5e-79c894f21593.txt
+  - ref: refs/heads/7.3/scsi-staging
+    old: 4afcc9ed6a57b1b87e55366f9ff10c1c43b6d6e8
+    new: aec9f1f18ffdda04b4d68ddadbc3d893eb3a9cbb
+    log: revlist-4afcc9ed6a57-aec9f1f18ffd.txt
 
---===============8143312794760643527==
+--===============4375337115900414204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1784257092 -0400
+pusher 75C5DE3D 1784257136 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1784257092-89d30d9831a15c887dd112609dd0b8c39fa3da57
+nonce 1784257132-10d18b61a81f5c1db1edb4c28751a7392e26aa76
 
-4e416da45b5ebdec34cce6850d823b6673a35524 79c894f215938f727f354e585f2e4d76e4336de8 refs/tags/mkp-scsi-staging
+4afcc9ed6a57b1b87e55366f9ff10c1c43b6d6e8 aec9f1f18ffdda04b4d68ddadbc3d893eb3a9cbb refs/heads/7.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmpZmkUACgkQ7ulgGnXF
-3j0flw//YsVpA/iM2MyO0vJxmVskaAR1bhu2fsskxO244gYC+DgL7czaRBTq5j2/
-0qCyZAFtp54da4oM/kWg2dshbH2LUdkjaLlElIpdZ+fO2gTIs1ccZB884CnHrRuI
-PDyomqHMgLjVQnLEJhrt5tRgXkqvC1LhPGM1l1aV0QXRR24xnqAwJQmAVmzbdAhg
-wcnc1TxhaK7iUejlQmPj/7ThZzufiNQ88WKU2+ecO9yDKUXV/4ObzregzZMNGo3W
-P8vPkkUZdFNKsN3i0Btr44skOlQ+65WYw4KooqDJYgokzUyxhunfljIgyQwa8SZY
-uYDsT6DISfzjgmRlbpQEhKU+WA59fHKVqLvh6kzi5eH+G5FCnXW8CprlJHgwQcHX
-MpaD5X3SveN2/+r2po3zQcqgLAI1+ZGO79EpfyPWKegig+Q+pyXTWEWtRKKWzqvR
-cMh98TegW5gV22RytmEaJywHXA4mSNgcJLL61FAxhaeZvmUfgsAQskT9LbvlH7bi
-lEPfcAK8fljJQLrJCUpiwtLnp+lUbg6kcyddGcN0NfdFD9jVgl3yhaaSEzsR6iy2
-qT7Wlpn97Am/U9IkV0vGs28VS+Zi4lojFTFq3MTZkNBE9wT/Mk6qUPRnemUPwlQ0
-IiacIk/T3cB/urdf9eQjRNbuMnRdLQadnq6eT1bq9Da2wPWmFrw=
-=ci/C
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmpZmnAACgkQ7ulgGnXF
+3j2snxAAmtn5VCC+GKq8hYomeafmjSokCtUKhehz2VPsmDzuPHjTW/vXLEDM1z7C
+6Z0YFPOmpHqfC1Z3DSmX6d7QB2yXFX6hqBEmeKRb57eYFvNYt42dgBjJMPU3RJgq
+lq9F+/69l9pOCDubccPu3vaK2+mLiI5WNlKO990u0cP7+ERqz2QREMEtSIxNF9cI
+imcXOV8uC7gPMHyIaAg8BW92G2wVWJmnOK1c6JwY/o+FPCcWUHCCYNGzkP08Az8O
+XoPe1Jmm24XNSe6IY1JVQYvE6qqWbvXw9SL7zlO2DcZkzJir7sTbsyoSIZjENh7T
+7UeO3nG3z5zDBQY8LasjrLYDpxcfOx/IKsCIpuTi/24w37trdqZhKpblmEHjODMI
+58G8iZOEyBHDcigJAGRpzo8SwA5fI7bDDPlVb1BT92BF60sBtSEwyT4vz1EcTHOF
+AxUZH8jglql5aEUBuIezUFvj66s5pzGEb159QR6BBZNTyI2YInVRI7H9Rf5gPmC7
+UiSp9nNOyPnn/nqn995Y8/9WxGh4q3KikQCmwyb210NiJ2vcpwZpQtIs7zT1f+JT
+OsjSaj+AftT2IPrLDXT6k5nq22j6SJNB6Aqo0N0329hQVPA3ooBhhcxxiHuKc0cn
+cFI7dKMtWK/pgSC5O0tP5JmbZBHt6krpxaqe2CJOSVUHTFzvENI=
+=veLV
 -----END PGP SIGNATURE-----
 
---===============8143312794760643527==
+--===============4375337115900414204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e416da45b5e-79c894f21593.txt
+Content-Disposition: attachment; filename=revlist-4afcc9ed6a57-aec9f1f18ffd.txt
 
 53b056ef7f7c0dfda981701f0236ca8704a787c9 scsi: MAINTAINERS: Update HiSilicon hisi_sas driver maintainer to Xingui Yang
 78f638ff3bc19d8faeac109b50dd0bab87871ff4 scsi: ufs: sysfs: Add HS_GEAR6 string in power_info/gear sysfs output
@@ -71,4 +71,4 @@ c6cee609f614b790a72cb34d6d28b3635c874ddf scsi: ufs: Switch WriteBooster missing 
 58211d626f804fbb1009d38f3e6b166806b44fd6 Merge patch series "scsi: mpt3sas: add hwmon support"
 aec9f1f18ffdda04b4d68ddadbc3d893eb3a9cbb scsi: parisc: superio: Spelling s/Peterson/Petersen/
 
---===============8143312794760643527==--
+--===============4375337115900414204==--
