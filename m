@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0368875052368879986=="
+Content-Type: multipart/mixed; boundary="===============8529829518329439744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 17 Jul 2026 15:29:42 -0000
-Message-Id: <178430218246.3567055.850961213885114964@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 15:29:44 -0000
+Message-Id: <178430218486.3567174.18081394985121225016@gitolite.kernel.org>
 
---===============0368875052368879986==
+--===============8529829518329439744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3f1f755366687d051174739fb99f7d560202f60b
     new: 56d96fededd61192cd7cc8d2b0f36adfd59036c3
     log: revlist-3f1f75536668-56d96fededd6.txt
 
---===============0368875052368879986==
+--===============8529829518329439744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ e0b5252a59383b77d1b8dbeda00b7184dd95f4d3 sctp: fix auth_hmacs array size in stru
 2c72eb6286347d05a885412fb076993bd5286b53 llc: fix SAP refcount leak when creating incoming sockets
 56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
 
---===============0368875052368879986==--
+--===============8529829518329439744==--
