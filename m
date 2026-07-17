@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7561669447023528817=="
+Content-Type: multipart/mixed; boundary="===============6751660207943209405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 17 Jul 2026 10:54:06 -0000
-Message-Id: <178428564638.3329975.286365710892915765@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 10:54:10 -0000
+Message-Id: <178428565096.3330089.6241347657527703112@gitolite.kernel.org>
 
---===============7561669447023528817==
+--===============6751660207943209405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/juno/updates
+  - ref: refs/heads/for-next/juno/fixes
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
     log: revlist-dc59e4fea9d8-a13c140cc289.txt
 
---===============7561669447023528817==
+--===============6751660207943209405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -935,4 +935,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============7561669447023528817==--
+--===============6751660207943209405==--
