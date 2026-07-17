@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 17 Jul 2026 19:55:39 -0000
-Message-Id: <178431813956.3767800.12583743481452943056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 17 Jul 2026 19:59:16 -0000
+Message-Id: <178431835620.3768911.5818401489175569568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/dm-7.3
-    old: 2df0fc042e299bae3c0f60ea5cd2af9285658e9f
-    new: 4cf795dd0e3981ddc652c4d503b0880fe5250e88
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 4fd8ad5dc73a5df3727629def4587e473e1398a1
+    new: d8a55382aef22a71b6371cf3bc6d863581207960
     log: |
-         4cf795dd0e3981ddc652c4d503b0880fe5250e88 dm vdo: don't read repair field in loop condition
+         f4ae294a7f003ea11654438c99cabf95b1600b80 sched_ext: Add selftest for blocked donor admission
+         db21daed025a15a8424e7842752e3c45e705f090 sched_ext: scx_qmap: Add proxy execution support
+         d8a55382aef22a71b6371cf3bc6d863581207960 sched: Allow enabling proxy exec with sched_ext
          
