@@ -1,55 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0479661863656202211=="
+Content-Type: multipart/mixed; boundary="===============3723600548668715982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 17 Jul 2026 15:00:51 -0000
-Message-Id: <178430045158.3544440.2904133736147240536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 17 Jul 2026 15:05:14 -0000
+Message-Id: <178430071498.3548103.11677835432136624486@gitolite.kernel.org>
 
---===============0479661863656202211==
+--===============3723600548668715982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/b4/objext_split
-    old: 5774f80d56f7b8d3685e297c91edcf9e36217e3c
-    new: 8b3a450b3cdfd106762cd509f442c2ca2b027a31
-    log: |
-         de8a82d256bf91f2ae87462b74f5c9367afe4acf mm/slab: change struct slabobj_ext to a union
-         a3441f86902866d7327f72fc0dff5fb697e645ce mm/slab: introduce slab_obj_ext_has_codetag()
-         6d56b528abe27c92e4fe4d6d64213fd377fb320e mm/slab: reduce slabobj_ext memory with allocation profiling disabled
-         b59e34fec20b8112a3d8eae7959b6a8dd3d254f2 mm/slab: add slab_needs_objcg() helper
-         8b3a450b3cdfd106762cd509f442c2ca2b027a31 mm/slab: stop allocating objcg pointers when unnecessary
-         
+  - ref: refs/heads/ath-next
+    old: f78703024c71ac60033139b42d040981efe083bb
+    new: 14941957d2825f62228a7db1fa6dc9cfba9fca60
+    log: revlist-f78703024c71-14941957d282.txt
 
---===============0479661863656202211==
+--===============3723600548668715982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f78703024c71-14941957d282.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1784300447 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1784300447-136ddf2a9a13385f6d83b144e38592654a2d373d
+78ad50d9071d07510e190d858a76b27a8339932f wifi: ath12k: Set congestion control max MSDU count
+2a1ac0368e1a891b1d1fa91192a2eaf865495f08 wifi: ath12k: switch to name-based reserved memory lookup
+db4e4af6e8261d83c5658fc9a84fce37a9ae692a wifi: ath12k: refactor QMI memory assignment
+3ed52d62f47de46dc1113671c057ff376d0fec27 wifi: ath12k: allocate HOST_DDR and BDF regions after Q6 RO region
+b127f79a49335679d117406257cedab4fc20596a wifi: ath12k: Correctly copy the hint BSSID in WMI scan request
+0db9d58c8757d0be5ed546109e37bcb10f6c1fb6 wifi: ath11k: Correctly copy the hint BSSID in WMI scan request
+8e3d6b596453c518a7ebdef2c785550c5e291dc0 wifi: ath12k: fix scan command endianness on big endian
+ca435fd0650ac512ab6c5bdfeb90ed130b8f7574 wifi: ath12k: Constify struct ath12k_dp_arch_ops
+031e27f95761fa3e14de4af53939a6694be1ab0a wifi: carl9170: mac80211: document spatial multiplexing power save handler
+b2de486100b0cf7b770a2ab46e9a1c4b2b8f3fd8 wifi: carl9170: rx: track PHY errors via debugfs
+14941957d2825f62228a7db1fa6dc9cfba9fca60 wifi: carl9170: cmd: downgrade transient register I/O errors to wiphy_dbg
 
-5774f80d56f7b8d3685e297c91edcf9e36217e3c 8b3a450b3cdfd106762cd509f442c2ca2b027a31 refs/heads/b4/objext_split
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpaQ58bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia7GcH/32+YprNWIyNwcRUU22+
-DqIAbRtS3pYNrw+c6ePEGFk9OIOG+QmKJNr1ifmEsg4H339f4GZiNk6tC77v+Vhp
-hMjQ9s2cbSWIzEn/29faTD+RptxgencQKvgcA3j09Blnknivud6YxMiKK5mVNO7A
-WnjpW8uf8tS08icHV1KTJRAGOJ0LIZd5dPmdDTkUFOqJ0WR5Ddo9uaKrgFBLt0T8
-F7nOjcYLpNdNwKdGNw3qfgkzD6A1EOWwyDC0W6kGJGM6pzECwTSmyiv0wdoQG2kf
-N3jnLaCn90ATkI/C1t56tm462GWzoC/MtPtdezeSJZLtKthbL1LjlPcNcxJ3JPDG
-Exg=
-=aFBZ
------END PGP SIGNATURE-----
-
---===============0479661863656202211==--
+--===============3723600548668715982==--
