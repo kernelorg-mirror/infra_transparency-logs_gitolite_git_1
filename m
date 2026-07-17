@@ -1,51 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2724173717267224120=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 17 Jul 2026 13:32:18 -0000
-Message-Id: <178429513864.3466257.6171118685537992426@gitolite.kernel.org>
-
---===============2724173717267224120==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 17 Jul 2026 13:32:30 -0000
+Message-Id: <178429515009.3466609.16257975261380560069@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.3
-    old: 9c4a2dced735ed5ed4a6ec21f1743df82977a282
-    new: 2c1c13da3a3a639d2ac7221e1a5e57945cbc7235
+  - ref: refs/heads/for-linus
+    old: 0b604e886ece11b71c4daaeccc512c784b89b014
+    new: efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8
     log: |
-         4bc5a274edab3f9afd11ec500eb526de7e7d91ae spi: realtek-rtl: change to __raw reads and writes
-         2c1c13da3a3a639d2ac7221e1a5e57945cbc7235 spi: geni-qcom: Fix sticky ret causing wrong return value on invalid proto
+         7dcf091da4b4596f7dbfb403d946ee4aac423af3 ASoC: fs210x: Make cache write through again during resume
+         93c2a8ea2454b7b14eb378a58cad8a83c0ffc903 ASoC: cs35l56: Fix potential probe() deadlock
+         e0bffb63a2eda0af82ed7e6357ac67c2db990c21 ASoC: cs35l56: Use complete_all() to signal init_completion
+         1d3302efe653df4c66a47126e9b8abcfdb027ee5 ASoC: cs35l56: Fixes for deadlock/hang during component_probe()
+         efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8 ASoC: Intel: sof_sdw: Add quirks for new Dell laptops
          
-
---===============2724173717267224120==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1784295137 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784295136-b3d001b8d8438589d236ca7ce017ca266ea8f431
-
-9c4a2dced735ed5ed4a6ec21f1743df82977a282 2c1c13da3a3a639d2ac7221e1a5e57945cbc7235 refs/heads/spi-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpaLuEACgkQJNaLcl1U
-h9BsGwf9FSyT43+O5ocbXVYhQUsmwBZQPW+Wr9IPAmCLQl2/OGZgriQ1+/27BpvQ
-R9NdRIx1XTdDdAkOSBs0Fr3l7CRRj3HyV5KRv8hyJ9D87NqlgLGvGjkFDJ3E75zd
-ZWXquL3G454O8OI9gGbSYnGN+vRYxa3Ba4fMDN5TnZDVEURBS8gMg+t4BTFZkqG1
-1/sIRkfur7lpN3QTLXxN74HE2uGg2u7ERBSSOGemtJ5FnDZEIpZRUCDYUKZ4DJF4
-A5Rb1Cvki9XhdCp1/3VH6yM0E+y3hmYoD6VoTa/HSIdxuPf9XmPkIwDxRtqIFA0N
-Vm7Dan0E+94cswpMJeSH+FhE1rhjXw==
-=KVsl
------END PGP SIGNATURE-----
-
---===============2724173717267224120==--
+  - ref: refs/heads/for-next
+    old: 1f43172b571d90e79431f8f5bf11a3b749e0608e
+    new: d721340cd338e2f6307c26fe664cfe9e967f78d5
+    log: |
+         7dcf091da4b4596f7dbfb403d946ee4aac423af3 ASoC: fs210x: Make cache write through again during resume
+         6173e18dd47cce430506c2f642e0b8d8db51ff1e ASoC: codecs: lpass-wsa-macro: check clk_set_rate() return value
+         4fddda16f939b6ee53c6946ad71a2ea1fabf43c5 ASoC: codecs: lpass-va-macro: check clk_set_rate() return value
+         7619cfb830ad9a6e34121b34838ab0992ce514a8 ASoC: codecs: lpass-{wsa,va}-macro: check clk_set_rate() return value
+         93c2a8ea2454b7b14eb378a58cad8a83c0ffc903 ASoC: cs35l56: Fix potential probe() deadlock
+         e0bffb63a2eda0af82ed7e6357ac67c2db990c21 ASoC: cs35l56: Use complete_all() to signal init_completion
+         1d3302efe653df4c66a47126e9b8abcfdb027ee5 ASoC: cs35l56: Fixes for deadlock/hang during component_probe()
+         efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8 ASoC: Intel: sof_sdw: Add quirks for new Dell laptops
+         d721340cd338e2f6307c26fe664cfe9e967f78d5 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         
