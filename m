@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8939513381290932671=="
+Content-Type: multipart/mixed; boundary="===============6152658855333672555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 17 Jul 2026 13:31:47 -0000
-Message-Id: <178429510777.3464561.9291474379394014220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Jul 2026 13:31:50 -0000
+Message-Id: <178429511098.3464646.12942117624553551219@gitolite.kernel.org>
 
---===============8939513381290932671==
+--===============6152658855333672555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: d38f8bd771c4999b797d7074b348cf201414bd34
     new: 50dce2e2f84b56d8b4b406d97a1543709e8a87f5
     log: revlist-d38f8bd771c4-50dce2e2f84b.txt
 
---===============8939513381290932671==
+--===============6152658855333672555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784295106 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1784295105-00745282f1702e3df8d1af43fc993c7ccf8541b7
+pusher C3F436CA30F5D8EB 1784295109 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1784295108-fb7ca5927871799c1e5e26e6dae419bdf947ec86
 
-d38f8bd771c4999b797d7074b348cf201414bd34 50dce2e2f84b56d8b4b406d97a1543709e8a87f5 refs/heads/for-7.2
+d38f8bd771c4999b797d7074b348cf201414bd34 50dce2e2f84b56d8b4b406d97a1543709e8a87f5 refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpaLsIACgkQJNaLcl1U
-h9BKBQf/SbIP2+54jnqIJ2QV2KbZ5iQXyHp1cCDaFwYNAd8zA3677fanEeETvhB9
-WBWxCMbVPudBnQa5/1C1+Ms3Ad2/r0J/DZHpijafPoXJSGpjSScw7BLd+N6fJEdH
-Z0QYDsf8RBZSiCFfqe2m9equ3WnSa4qZ+v8aVKcOA2X5m2QxGjzhdGFSd5BG+3w7
-9+y33fuZie6TV//tO275k2eFDlPYVxfBfZG27O0Jsc/euPI3jgzVLqDsd6miGcVM
-tp5wjabOJm6cNX+XPwbnrKONhPje1elwXUn9y4aMR8lG+v2vAmKG1y1b/o6Um6oS
-n9pTZaRWHMZxutadUyKKoxULqeYBdg==
-=D5iW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpaLsUACgkQJNaLcl1U
+h9CCKAf/fCW3X7lKfdEYpqcw2A0diRNcipuhUzSqKz/ODIinHnVlJGYaNB8I1qwi
+llVECI1A+R/Qp1L4tN18hRmWCAOSVXGCegtnvWTvPA9+i7DQjUDvZQPD/zM8Yyo2
+RpBjO5fkXyPlVxMUNZJVA3z7VMHuAQXoVB8oDziSAbVIbodrb2gm0P51joTrW9ak
+0iu7IFAG4fzF2kZ/z1oKZNMGH0NTefZUOEedzLwYCkZ/oUAiUPu+ksO/cx8XJPrr
+wKgI6tS4a44kCi5IwMd3l8TFGePH+ZgMVts0MSrV1Da1BNXYXwHQdRVgK+BUqxe1
+w5uWMMr/5e0ofTvj89PdIZ6SD8JXxg==
+=UIw7
 -----END PGP SIGNATURE-----
 
---===============8939513381290932671==
+--===============6152658855333672555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -525,4 +525,4 @@ f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 50dce2e2f84b56d8b4b406d97a1543709e8a87f5 regulator: ltc3676: Fix incorrect IRQSTAT bit offsets
 
---===============8939513381290932671==--
+--===============6152658855333672555==--
