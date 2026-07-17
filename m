@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 17 Jul 2026 17:18:12 -0000
-Message-Id: <178430869268.3654404.2173587738551541160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 17 Jul 2026 17:19:58 -0000
+Message-Id: <178430879874.3655001.1365780324424373172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 4ee188933e6a05fd2ea47fb4e295332deda6d081
-    new: d3338484f85ab24d83b7ef814430e81fe773f216
+  - ref: refs/heads/crypto-pending
+    old: 4bde7f2a2c9719a11bfaa9735c00ba73525add09
+    new: 284703002a70201aeb4fdfcedea09f2faea5e06c
     log: |
-         3afc64c61ce906a04f073ca350b46de10e8302f9 io_uring/bpf-ops: reject re-registration of an already-bound ops
-         d3338484f85ab24d83b7ef814430e81fe773f216 Merge branch 'io_uring-7.2' into for-next
-         
-  - ref: refs/heads/io_uring-7.2
-    old: 77772c6920580597a9fde19b6c4870009c5dce2c
-    new: 3afc64c61ce906a04f073ca350b46de10e8302f9
-    log: |
-         3afc64c61ce906a04f073ca350b46de10e8302f9 io_uring/bpf-ops: reject re-registration of an already-bound ops
+         f1335124ad13cf70e661a85425b5fa1a2a191bd8 padata: Mark remaining code as __init and data as __initdata
+         284703002a70201aeb4fdfcedea09f2faea5e06c padata: Free the padata_works when they're no longer needed
          
