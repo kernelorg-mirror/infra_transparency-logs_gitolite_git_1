@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1388913620789723078=="
+Content-Type: multipart/mixed; boundary="===============4090672902668780604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 17 Jul 2026 21:24:17 -0000
-Message-Id: <178432345774.3833011.1279249170335229412@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 21:28:06 -0000
+Message-Id: <178432368647.3836410.13843851265645725677@gitolite.kernel.org>
 
---===============1388913620789723078==
+--===============4090672902668780604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: kkd
 changes:
-  - ref: refs/heads/master
-    old: aa4969cdbf8ef796e2f5c654d9b58aa27ba60627
+  - ref: refs/heads/for-next
+    old: 9a3a07d06e7d74f4aecc51396c771149336ac55d
     new: ecf11bc5f56abb3a2219a8c75e8a5b54467d1781
-    log: revlist-aa4969cdbf8e-ecf11bc5f56a.txt
+    log: revlist-9a3a07d06e7d-ecf11bc5f56a.txt
 
---===============1388913620789723078==
+--===============4090672902668780604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa4969cdbf8e-ecf11bc5f56a.txt
+Content-Disposition: attachment; filename=revlist-9a3a07d06e7d-ecf11bc5f56a.txt
 
-8ae5f8e4836667fcaffdf2e3c6068b0a8b364dd8 firmware: arm_ffa: Fix NULL dereference in ffa_partition_info_get()
-05e5ffde9b666ee6d3ec225efeda9c038fa74ac8 firmware: arm_scmi: Grammar s/may needed/may be needed/
-ac4aa4b41bee8d6353cd2992fe8ecbb8ef2123cb drm/dp: fix kernel-doc for struct drm_dp_as_sdp
-9ec3aeace4334e0d2aa105d1d25fd8a95fb9ba95 drm/fixed: fix kernel-doc for drm_sm2fixp()
-6c18817c01f6f76d9e2739903abde4d69397f2c6 ALSA: hda/realtek: Add quirk for HP Victus 16-e0xxx (88EE) to enable mute LED
-64ace85a725957e2359785d2a22cd285eec966de drm/ras: include linux/types.h in drm_ras.h
-4e1a53892ba7f8a3e1da6bfc53c83ae7c812dccd drm/virtio: bound EDID block reads to the response buffer
-226f4a490d1a938fc838d8f8c46a4eca864c0d78 xfrm: nat_keepalive: avoid double free on send error
-efecde8a254d1f207b75c5ebcfba2c51f4c771d9 gpio: shared-proxy: always serialize with a sleeping mutex
-b7d9c359e5cf867f7eb23df3bb1c6b9e58af24da sched_ext: Don't warn on core-sched forced idle in put_prev_task_scx()
-88496c4ac5a6ade75619f4b1015706a8b924d50a ntfs: avoid stale runlist element dereference in fallocate
-eb94f5a41a193a425e09a63cb75dffd151d8f42e ntfs: fix mrec_lock ABBA deadlock in rename
-46f715a16989f4e7bbbc2eb41447051874b027f3 drm/arm/malidp: use clk_bulk API in runtime PM resume and suspend
-6502eb8cfcd6f7bc5f1f8b73ee524112bd93319d drm/arm/komeda: fix error handling for clk_prepare_enable() and callers
-778c57d624974e64535ef1c9d9b4d8e5066153f4 drm/panthor: Always use the IRQ-safe variant when acquiring the fence lock
-1b8d771fb214e1f783d66caf13d35d7eda39a643 drm/panthor: Keep the reset work disabled until everything is initialized
-b39436d0ba1571dbcda69d20ec567344b3eecfc7 drm/panthor: Fix potential invalid pointer deref in group_process_tiler_oom()
-fe4c05a59018964bac7923338706371fff3c09ef drm/panthor: Fix theoretical IOMEM access in suspended state
-6fec8b473497b7f32e604a6dd92b32b0889af3e8 drm/panthor: Don't overrule pending immediate ticks in sched_resume_tick()
-e62179fd3e23ecfaedf7101e19ec0d3e4f51de76 drm/panthor: Fix panthor_pwr_unplug()
-ee671cedfd204ac793134db32085efd3c23185f7 drm/panthor: Drop a needless check in panthor_fw_unplug()
 6efeb9ddb4fbf5ac30aff03e8f09ffbdf966abd0 drm/panthor: Fix a leak when a group is evicted before the tiler OOM is serviced
 1f27cef1f41dac0bd254d8741766f189936c9880 drm/panthor: Interrupt group start/resumption if group_bind_locked() fails
 d50b4edeb1029b9a869c9581cfbe90300d35655f drm/panthor: Keep interrupts masked until they are needed
@@ -977,6 +956,11 @@ fe3ff273767ef22fe8a7cb3816f264927c190e50 selftests/bpf: Ensure UDP sockets are b
 30581eda4a07ff15db623612cac578e81869e96f selftests/bpf: Adapt sockmap update error handling
 203b06932777b9ad5085319389dea566f5c2ca63 selftests/bpf: Fail unbound UDP on sockmap update
 71836d063d2d97d5b66f9c2477c2d8035558a6fc Merge branch 'bpf-sockmap-fix-sockmap-leaking-udp-socks'
+35dac1daeb3c8208515047d32f22c4a162e8de5f bpf: Add BPF_FIB_LOOKUP_VLAN flag to bpf_fib_lookup() helper
+217828aad80d091fa1d840587a3d9b6187ee170f bpf: Add BPF_FIB_LOOKUP_VLAN_INPUT flag to bpf_fib_lookup() helper
+e54a87872e34d97333dcdfb8c8e0327f5bd8bb43 selftests/bpf: Add bpf_fib_lookup() VLAN flag tests
+074927b9769ceaecd0719effe032a2d5e9292975 Merge branch 'bpf-bidirectional-vlan-support-for-bpf_fib_lookup'
+f68df52fbad0928f4686f734827e5fb6b20386ad docs: bpf: Document BPF_RB_OVERWRITE_POS in bpf_ringbuf_query
 899160e2774d9952e9f2770b38f701ff1906c0b2 mmc: sdhci-esdhc-imx: remove unnecessary mmc_card_wake_sdio_irq check for tuning save/restore
 2439becd91bad6883b135044f85f83a0538b96a6 mmc: sdhci-esdhc-imx: restore DLL override for DDR modes on resume
 5adc14cd4b905629d5b9163b3a416dcab24c7ce2 mmc: sdhci-esdhc-imx: fix esdhc_change_pinstate() to allow default state restore
@@ -985,6 +969,14 @@ fe3ff273767ef22fe8a7cb3816f264927c190e50 selftests/bpf: Ensure UDP sockets are b
 8da5930144712412d85e7f868693d96ec5c2018c mmc: sdhci-esdhc-imx: use pm_runtime_resume_and_get() in suspend
 6aa00a43bbd3d994558a55586351757cebbff236 mmc: sdhci-esdhc-imx: make non-fatal errors non-blocking in suspend
 e27c946b589c53520409a0956b33d52ef7a0898f mmc: sdhci-esdhc-imx: fix resume error handling
+c28cbef2f8986c392faf6ca94bb2088548ea6964 bpf: Remove dynptr check in check_stack_range_initialized()
+92ec8b1b6b24381611600162536b8b5b6a9e7323 bpf: Factor out raw_mode-related fields in bpf_call_arg_meta
+77a4974c17493b0e0bcd5010dc2ec9ad749d1a07 bpf: Pass argno to callees in check_func_arg() instead of argno_from_reg(regno)
+8faaa93b9f6a279472cd5490030151f1635292d2 bpf: Unify helper and kfunc allocation-size argument handling
+1e63cd6be0557fa1fc57522ec1f681a1dde11078 selftests/bpf: Test kfunc returning zero-sized allocation buffer
+d55149ff8c856c88cedc36557dadc6b5363b428d bpf: Drop redundant pkt_access from bpf_call_arg_meta
+bf9c1b911f4db6fa5fe088c32f1de7ee1650eee9 bpf: Unify helper and kfunc call argument meta
+c314bcaa9d5dc34b0c643eac85f675fb8c8bfbaa Merge branch 'unify-helper-and-kfunc-call_arg_meta'
 04af4efde58a4a4ef4feab7360c46af9ec0b83a0 bpf, sockmap: Account for receive queue in FIONREAD without a verdict program
 a42f05cc4c1d49e27bbc6f65415aa76274ef7736 selftests/bpf: Test FIONREAD on a sockmap socket without a verdict program
 2d8af4e633d3dea7269f2dad724977ce48034fd4 Merge branch 'bpf-sockmap-fix-fionread-for-sockets-without-a-verdict-program'
@@ -996,6 +988,7 @@ fd4cfa8c8f9a17cdec0539334d28754bc1d8a5d9 bpf: Reject negative const offsets for 
 37694e5dd02c38791092c222ef4acf96a958f8f4 Merge tag 'kvm-x86-fixes-7.2-rc4' of https://github.com/kvm-x86/linux into HEAD
 5246d32d4b6c66f7c505c85523c8cc35c9dc0cf9 Merge tag 'kvm-s390-master-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 2f2312c422fd2695da772cecb30c69994b795964 KVM: nVMX: Put vmcs12 pages if nested VM-Enter fails due to invalid guest state
+d1f4b56417a3dc1a0600f960b14f46bd25eda89d selftests/bpf: Fix fib_lookup VLAN tests on hosts with forwarding on
 add11ea55f2d26d798c058fe4d67fb2941e77523 Merge tag 'scmi-ffa-fixes-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
 e144887d3ae659dd3510bc177977e9864f964197 Merge tag 'linux_kselftest-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 37e2f878a7a660a216cc7a60459995fefd150f25 Merge tag 'linux_kselftest-kunit-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -1029,6 +1022,10 @@ e22254e9ddd8020130c4b806b6b4aa77b09c2560 Merge tag 'xfs-fixes-7.2-rc4' of git://
 0af15f3057a60a038864d47fa4b54d1c3c3c654c selftests/bpf: Cover tracing implicit kfunc args
 3d84d674e3a5a33ce5eaa14b92bc839c3821a348 Merge branch 'bpf-fix-tracing-of-kfuncs-with-implicit-args'
 fce2dfa773ced15f27dd27cd0b482a7473cdcf2a Merge tag 'v7.2-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+3513ea9dab6c1a3d2dc8e6160c41f690206948b6 bpf: Sync tail_call_reachable with callee state on entry
+a41d0c30d764e086c62b049e806fd12df4f4acfc bpf: Reject callback subprogs invoke tailcall
+42bfd21a8b70143e68ae6d017752abb3f04738f5 selftests/bpf: Add testcases for callback with tailcall
+ba6cb45969961d482aa8b8cffa55472114e78520 Merge branch 'fixes-for-tailcall-with-subprog-and-callback'
 bc7291793fdc9fb1f48a0b50b4412581e78d2f27 Merge tag 'nf-26-07-10' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 78d24e77ffd35e95fe3f491d416f2e947ba7e1d5 Merge tag 'for-net-2026-07-13' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 892d3087c4fcee2cd9a8dbc0e9a0e5cda4827910 Merge tag 'linux-can-fixes-for-7.2-20260716' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
@@ -1049,6 +1046,9 @@ e13caf1c26587434f0b768193100440939c0fb91 Merge tag 'net-7.2-rc4' of git://git.ke
 0dde292a4c23090459655ada697e948ff4adc7c3 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 8fc574321e59a2484063b2e75016772815038608 Merge tag 'selinux-pr-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 94515f3a7d4256a5062176b7d6ed0471938cd51a Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+918787e8f569d225c968af2c783962ae069b8ac8 bpf: Disable raw mode for bloom filter map_peek
+79c9dc93fcae5e52bd1b4f96e138604d844ad759 bpf: Zero kfunc arg meta before error paths can read it
+aa4969cdbf8ef796e2f5c654d9b58aa27ba60627 Merge branch 'fix-leftover-issues-of-the-unify-bpf_call_arg_meta-patchset'
 ecf11bc5f56abb3a2219a8c75e8a5b54467d1781 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.2-rc4
 
---===============1388913620789723078==--
+--===============4090672902668780604==--
