@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3439380685209530670=="
+Content-Type: multipart/mixed; boundary="===============0990487460960276552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 17 Jul 2026 07:41:12 -0000
-Message-Id: <178427407298.3183532.3455544686377678406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 17 Jul 2026 08:11:53 -0000
+Message-Id: <178427591335.3205164.7371166798037840183@gitolite.kernel.org>
 
---===============3439380685209530670==
+--===============0990487460960276552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
   - ref: refs/heads/master
-    old: 9a137931b4b7f2f483faac5b132d9b315cff0a05
-    new: d7cd44ad4f1c0831ced1aa768c6756f9ff592b07
-    log: |
-         d7cd44ad4f1c0831ced1aa768c6756f9ff592b07 7.1-stable patches
-         
+    old: b73b71df4cb4ca241165ad31218c82dfe489147c
+    new: df373d39c6f038d176af303ae72f02c7c70b953d
+    log: revlist-b73b71df4cb4-df373d39c6f0.txt
 
---===============3439380685209530670==
+--===============0990487460960276552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b73b71df4cb4-df373d39c6f0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784274067 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784274071-1084add4d31d2ccdf25df12a3a277dca22849d1d
+34fd0e7c90e9108b734c4e1d37041d871d83d5e9 crypto: qat - use strscpy_pad to simplify adf_service_string_to_mask
+9ad6f337888ec85f66dd095015454cd449f68429 crypto: af_alg - Allow additional ciphers for cryptsetup
+3edc28c9ade06410a7f435331f40b3e71b19abb4 crypto: atmel-tdes - simplify fast path in crypt_start
+ea4a50c0b5bb2d3b0c98b900b753dec9ad6fa457 crypto: atmel-tdes - use __get_free_page in buff_init
+ae69d42541633bdf5edef0ab02acd208e482ec62 crypto: atmel-tdes - drop redundant return variable in crypt_pdc_stop
+ddec4aa7c20e4e99f9a5328fa5ccb10f8c19e8dd crypto: atmel-tdes - drop redundant if check in crypt_dma_stop
+21d04ac27e7419d1a4530b198525a08b0ac46538 crypto: atmel-sha204a - clear RNG data from memory
+f07a0d251db7606e4792d2610788fbcc7b2c0d12 crypto: atmel-ecc - avoid stale fallback key after set_secret failure
+52cd75d8f5a024cad9643f4755dbe6bff1e5aec8 crypto: doc - Remove extra parenthesis
+3ae59a2eba64b3648f069aa52eeaaeefdfe4bb2f crypto: sl3516 - drop invalid sg_dma_len checks before DMA mapping
+cad76142aaa46a8a9e1a2f9b473b7792c733969b hwrng: drivers - Remove redundant dev_err()/dev_err_probe()
+eed5fde79651c66e0e24ba3d78a92afb63a76215 crypto: aspeed - Propagate platform_get_irq() errors
+8fbd4a0f506fe029510a982717c63cf64b0bc27b dt-bindings: rng: Rename the title of the EIP-76 file
+86c7771a2e88a805d56abfa18545bdc0274f8d41 hwrng: omap - Enable on Renesas RZ/N1D
+d4e273a5065f81ca86eca48cb3fed55867cc0115 crypto: powerpc/aes - use bool for encryption/decryption flag
+df373d39c6f038d176af303ae72f02c7c70b953d crypto: qce - Mark QCE as BROKEN
 
-9a137931b4b7f2f483faac5b132d9b315cff0a05 d7cd44ad4f1c0831ced1aa768c6756f9ff592b07 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpZ3JMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gYIP/1lbFDkPbtFGyGW1HFTD
-3ZKryqs1O7kTXW7ldBtJXKLJ4uj5pum0Kz0CXUex+bETOpLidRJ4udb05FrOizXf
-4c9Hy2yGDGFDGiC5etwDWYUWBHK5nHmp1y1Z8BMe0TPrBy3Yrzd66HzCkQjhGrC8
-7rMoF+dpPNKgVTPBU4nhBz7mEpVFtdnJrdq5Q9EK45Wk98ztl3818log3pXnUHqv
-5CLDRUOLYhMKuQmk7H7AR7jMEGoB3Bw7ZVx9fN9Dj8qIHVeMURLytaSXreOUrkWy
-HkrPowGgF9OGGVQqnI9tLWws94zEPNK08mYkj9udRXlTfEEXlL7bDveGjxRFnbRP
-R5Ll/apwHr5gMP+KfS6ptot3FsBHHAUoYd4jzpCXY6GM1F4ZYypSK9lCWmcOrcf1
-BbYoFALMh7kWnLBgBYlnpDK1XrQ7XinhPRiS4eRYSdxuSc4+BtMjKazBzabY5C0S
-KVj0SGeP95Nwu3RAFsPv2bihE5vqDeJxwFfv4O9l800Dc7Vl+LrQ3nwSGL0Lz1XG
-Xpy3lMBTuX04wDf3Y1GTS537Z2VJK1ef23g92KOQZOQb7vJDxE0rOywxsKSio71i
-3jPFrIoolMG40VUdWgO/4ZL0Hk37qVa5lXhZnOvJpX1SlLwlv39oiLKhsk6zzZ91
-CCvt/6vLHMhc9zxkcS+bgCM7
-=npeU
------END PGP SIGNATURE-----
-
---===============3439380685209530670==--
+--===============0990487460960276552==--
