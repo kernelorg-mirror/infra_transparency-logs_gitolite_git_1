@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4543256209301845007=="
+Content-Type: multipart/mixed; boundary="===============2724173717267224120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 17 Jul 2026 13:32:15 -0000
-Message-Id: <178429513548.3465995.16212698808266899486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Jul 2026 13:32:18 -0000
+Message-Id: <178429513864.3466257.6171118685537992426@gitolite.kernel.org>
 
---===============4543256209301845007==
+--===============2724173717267224120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/spi-7.3
     old: 9c4a2dced735ed5ed4a6ec21f1743df82977a282
     new: 2c1c13da3a3a639d2ac7221e1a5e57945cbc7235
     log: |
@@ -24,28 +24,28 @@ changes:
          2c1c13da3a3a639d2ac7221e1a5e57945cbc7235 spi: geni-qcom: Fix sticky ret causing wrong return value on invalid proto
          
 
---===============4543256209301845007==
+--===============2724173717267224120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784295133 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1784295133-72bbe69f500a3b4268cfde0a2311e24526e3f60a
+pusher C3F436CA30F5D8EB 1784295137 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1784295136-b3d001b8d8438589d236ca7ce017ca266ea8f431
 
-9c4a2dced735ed5ed4a6ec21f1743df82977a282 2c1c13da3a3a639d2ac7221e1a5e57945cbc7235 refs/heads/for-7.3
+9c4a2dced735ed5ed4a6ec21f1743df82977a282 2c1c13da3a3a639d2ac7221e1a5e57945cbc7235 refs/heads/spi-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpaLt0ACgkQJNaLcl1U
-h9C4ZQf+Ltfvz23cbIS9ypYK+mWAJEtn9t6Gdg1SgkSMY12fADaOzen6Ymk1/U9q
-ov9lrXgZO9YXQyZR3D9NRTTe4fkEM0bzoz2SoiPDM5Xe7MXnEIbylA93rVaxEpxl
-DnUldDq7Czh1g8MQRS8hF5kffViOqX7T4XUUC6E9JZS4EEf79WwuBc8tg59x9biT
-9DpTq5m2iiWGpC0vfbvevNMgGqiRazQgWhwYJlijyla0PWWUGuL0JfvqSFQM+0kY
-2SxeJJRi5uXdz5zcKF/vbY9Klm3Mjlcumm8BF9MBmVxpMz2swKx8gVKNKh1nREwA
-g/kwMPX9BXLnkLWMNNAz1/+49QeoPA==
-=MuFZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpaLuEACgkQJNaLcl1U
+h9BsGwf9FSyT43+O5ocbXVYhQUsmwBZQPW+Wr9IPAmCLQl2/OGZgriQ1+/27BpvQ
+R9NdRIx1XTdDdAkOSBs0Fr3l7CRRj3HyV5KRv8hyJ9D87NqlgLGvGjkFDJ3E75zd
+ZWXquL3G454O8OI9gGbSYnGN+vRYxa3Ba4fMDN5TnZDVEURBS8gMg+t4BTFZkqG1
+1/sIRkfur7lpN3QTLXxN74HE2uGg2u7ERBSSOGemtJ5FnDZEIpZRUCDYUKZ4DJF4
+A5Rb1Cvki9XhdCp1/3VH6yM0E+y3hmYoD6VoTa/HSIdxuPf9XmPkIwDxRtqIFA0N
+Vm7Dan0E+94cswpMJeSH+FhE1rhjXw==
+=KVsl
 -----END PGP SIGNATURE-----
 
---===============4543256209301845007==--
+--===============2724173717267224120==--
