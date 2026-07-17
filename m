@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 17 Jul 2026 10:04:33 -0000
-Message-Id: <178428267349.3289671.729019482929486482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 17 Jul 2026 10:08:59 -0000
+Message-Id: <178428293904.3293106.2960699982189745986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 2c1931a81122c3cdc4c89448fe0442c69e21c0d5
-    new: d2e914a4a0d0f753dbae830264850d044026167c
-    log: |
-         d2e914a4a0d0f753dbae830264850d044026167c dpll: fix NULL pointer dereference in dpll_msg_add_pin_ref_sync()
-         
+  - ref: refs/heads/experimental/intel_pstate/desired_perf
+    old: 0000000000000000000000000000000000000000
+    new: 29ac24db3e26d4a5cfa676c0c29bf9d29ce18d62
