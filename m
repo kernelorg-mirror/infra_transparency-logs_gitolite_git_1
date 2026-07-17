@@ -1,44 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7891810232805057049=="
+Content-Type: multipart/mixed; boundary="===============2946276323118774160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 17 Jul 2026 15:35:51 -0000
-Message-Id: <178430255133.3575513.13046832713239665873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Fri, 17 Jul 2026 15:42:12 -0000
+Message-Id: <178430293276.3579592.16063995352459653579@gitolite.kernel.org>
 
---===============7891810232805057049==
+--===============2946276323118774160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/40GbE
-    old: 145defbb9be0462f517383600621c1a4ff3f6cef
-    new: ce6b4d3216b63f902bb8e9695ee6c10c83415f65
-    log: revlist-145defbb9be0-ce6b4d3216b6.txt
+  - ref: refs/heads/rv_tests
+    old: 5fce70303c55c883d9a34c7e507ad3dfcc2b6fc9
+    new: 199fd2de3a2b43da05e697797ad2d2ebd1aa72ca
+    log: revlist-5fce70303c55-199fd2de3a2b.txt
 
---===============7891810232805057049==
+--===============2946276323118774160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-145defbb9be0-ce6b4d3216b6.txt
+Content-Disposition: attachment; filename=revlist-5fce70303c55-199fd2de3a2b.txt
 
-a620ff84d42cf46cbfb708bacd40ad5e36d02de8 netconsole: clean up released targets dropped before the cleanup worker
-ede59d06c28f62135857b93663860029429f6907 netpoll: export refill_skbs(), refill_skbs_work_handler(), skb_pool_flush()
-1fee9a9c5904760ffefea4aa360e87f98938b71f netconsole: take over skb pool lifecycle from netpoll
-28511289088c04861af80f600561a6ee1035f1c2 netconsole: move refill_skbs_work_handler() from netpoll
-2fbebfbe2953bc0ba1656b25d03338fde1066ad5 netconsole: move refill_skbs() and skb-pool sizing macros from netpoll
-67fb2038e1f65309a91f61169e75ee973f936f1c netconsole: move skb_pool_flush() from netpoll
-ba520084dc3b7f8b0bca534bd272266b764427f2 netconsole: move skb_pool / refill_wq from struct netpoll to netconsole_target
-3b247a595663744745dd0b602c6c6825c24eb354 netconsole: move local_port / remote_port from struct netpoll to netconsole_target
-49e03ca58334cd46dfd9267ced0ff91dcae2c451 netconsole: move remote_mac from struct netpoll to netconsole_target
-5c655dfd9823c2e0edf3f477637e2a05fc077fc2 Merge branch 'netconsole-stop-charging-netpoll-users-for-netconsole-only-data'
-008f965fb40f88c47f5fb852e1fef5becb0fa3b2 ethtool: link 10000baseCR to SFF-8431, Appendix-E SFP+ DA
-9df92875d6d741f9bff1ad95eeaf40b34943d2c4 net: airoha: add preliminary support to configure tx hw QoS queue during flowtable offloading
-922cc43c624330b9cf646d52fc82c820d9f699b3 net: mana: Add debug knob to skip TX timeout recovery reset
-ce6b4d3216b63f902bb8e9695ee6c10c83415f65 net: mana: Add handler for sriov configure
+fab41d0b2abf9851fd9c5456eb2381a8e6d6b09c tools/rv: Add selftests
+14d72bde2c18393eb378ffa29c6abd931b239176 verification/rvgen: Add golden and spec folders for tests
+63697012f3e923a5503cfe235086895a4ed6f8e3 verification/rvgen: Add selftests
+0393a704ec529ccedab43928144255731fa86ed7 verification/rvgen: Add the rvgen kunit subcommand
+59dc559a1187faa2d76f845d45788e0d89f34d95 verification/rvgen: Add selftests for rvgen kunit
+5d87087403e8bc09e5f20f1ee29dcc678c59b1f9 rv: Export task monitor slot and react symbols
+6764009b2146d4bb2394464a2c9e571208df1c82 rv: Add KUnit tests for some DA/HA monitors
+1b78a34aceab25749782dcca6e8c8a9100112e57 rv: Add KUnit stub for current
+56c7d51692cc4f9859c7e80e242a2b19419b7e6d rv: Add KUnit tests for some LTL monitors
+876f767b3a71d40b0304dcaf80b253f4cfafa0a1 selftests/verification: Fix wrong errexit assumption
+12bbea303aaa3964cacd64350df6928184198eea selftests/verification: Rearrange the wwnr_printk test
+199fd2de3a2b43da05e697797ad2d2ebd1aa72ca selftests/verification: Add selftests for deadline and stall monitors
 
---===============7891810232805057049==--
+--===============2946276323118774160==--
