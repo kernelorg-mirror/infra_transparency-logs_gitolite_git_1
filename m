@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8774019063539048728=="
+Content-Type: multipart/mixed; boundary="===============8669715265828691030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 17 Jul 2026 13:24:02 -0000
-Message-Id: <178429464224.3456449.3462566902124547271@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 13:24:32 -0000
+Message-Id: <178429467234.3456846.10284166123089463164@gitolite.kernel.org>
 
---===============8774019063539048728==
+--===============8669715265828691030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 0f7f34c67ead630bf485c805a95fc540d80f2c7f
-    new: 4b17dfb3e22fdccf74839d2fc52362ddc257024e
+    old: 4b17dfb3e22fdccf74839d2fc52362ddc257024e
+    new: 5d577fa6feaf2ef02751fc4a89fc9a695aa0f6b2
     log: |
-         4b17dfb3e22fdccf74839d2fc52362ddc257024e rust: miscdevice: fix write_iter safety docs
+         5d577fa6feaf2ef02751fc4a89fc9a695aa0f6b2 rust_binder: use pin_init::zeroed for file_operations initialization
          
 
---===============8774019063539048728==
+--===============8669715265828691030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784294636 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784294666 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1784294640-1fe022d664fe68adbb5f6fcacda6ea76f3f88fcb
+nonce 1784294671-d930a3a162624218e00a1e52ff2340f492754c51
 
-0f7f34c67ead630bf485c805a95fc540d80f2c7f 4b17dfb3e22fdccf74839d2fc52362ddc257024e refs/heads/char-misc-testing
+4b17dfb3e22fdccf74839d2fc52362ddc257024e 5d577fa6feaf2ef02751fc4a89fc9a695aa0f6b2 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaLOwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+giEQALlDpmDetY7PsPZpoauz
-r4dsSaF85jue8vmR5giuW54SjiETWjozYQXG48KSY6h1IwjpFj5s23DaGZITo6e2
-awj4NSQOVYPmqLOcC7nkB5Y4s72zWlSSneG8TEw+YOxb/vjzNlJABVQch6jVsJ6R
-4KvnDVjF1euscIojcE8PLZTftAISN60jCNtfpHD+hdxLzssgdxg6/uJVdYUDeB/G
-UyptaHRvvKWwzgsv8H5jrBhZ9rquHd5mfRCm28C1iWV5PLsrtyA/z1zclLd1zoyN
-FGBBJc5N5sbC72767Pg85V5T8yG0+4vPV5np6fstO15/UpRQwddZyi4tdZjuhTHP
-Ko1y/7QdrX66aX+G5QLfEoUc2K7lD+upTupL/4qsJFHu0gkLBLFXUigI0S59JelC
-gEcNsgMNLusoxrl3AI4/dsAvqFTIPvNlwrjpdLt2h6hXII0DlJ/VVQygA4bO2r5x
-+pw+yiUYntBKZjO7hvC/cxN3IxIvXWgitoIlIdfL6S8tFbeiQlVjFFCx9q8HN4n3
-L+M9T9Nqkv83jKJZF635nBCPcebBjwBW7eqYtIFdnzo1p+yC11n0SY5FAa5d9kUE
-qByGuU/9ZJ9QzbBGYbyoCjnazWvENONuKPLeFoGuF6xsQIrpzuy4fUV9yimM4+dp
-Vl6T5rKpQGL1CQnBQrhnNGSI
-=cCj8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaLQobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PCQQAM6qt7P1Bi53svEDrGj5
+EMO8AU0lAtrI3mTcT5eev2N7+5f40ehgKcL9elpF+mQvEd6TQOoocBOJjiBOUCY3
+09GUpLOj9nMGH69PuwcKglz1Qfhq9DGYmRfSEvm8uIo7Z/u1v1c2Ux0qHoGICics
+gh55hD1YmW651b2/x0Haig54TsBWlHrDqOjbQ3e0QL8uS8RNTXA8YbX7Q3jgFODp
+xmP8S8UDaR9qFG0Yp1G1CqTTpjSOtxLmT0gzBpWJ4KlWeD1AznKuDDriycvzcuDB
+R8J5GizBhNLA7NXXdYTDfDSQjuvf0gnoeOKK7m8vf+xLU47ia+IgmMzKYLtUHWru
+j509q45fXvNiH3e0bSFyt0d2PVQhHSWiOTTjVIqqlbzsWlnj+31Xw9wrZdafboOH
+XDCDL+jJ8diuWYsutj65uzXZ5GQIAST4kg/4vlOYyOmNlMNs5eCCbGDoRpQ1SbT8
+fYNH9xiycGInRjABVuk+uIFRACOaJVAAzD2lAyUYxsnOpp7M7W2F1DnG2zwh7Pjz
+83OOYEd6f1GXm9Zt54khZA/RxrDlAxASbqhC59ltMtcDCp9/gTvd25RloTrLIks4
+BSkLu+f9OADTeEYbytn07jH1FMABCmU/Lzk0Kdv+5CUkR4luY76nMUaa77aADQFo
+5LsqLlUsAOhH6dchLuPduMGy
+=TZq/
 -----END PGP SIGNATURE-----
 
---===============8774019063539048728==--
+--===============8669715265828691030==--
