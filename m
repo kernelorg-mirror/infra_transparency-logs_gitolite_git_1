@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 17 Jul 2026 08:54:43 -0000
-Message-Id: <178427848302.3233990.17968081872491875098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+Date: Fri, 17 Jul 2026 08:55:33 -0000
+Message-Id: <178427853378.3236290.7551841431470890826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
+repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
