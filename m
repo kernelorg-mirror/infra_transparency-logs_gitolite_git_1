@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6943803535338318427=="
+Content-Type: multipart/mixed; boundary="===============1823355614372255591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 17 Jul 2026 15:35:37 -0000
-Message-Id: <178430253753.3575128.15701874725150998293@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 15:35:39 -0000
+Message-Id: <178430253994.3575218.15359345259258013307@gitolite.kernel.org>
 
---===============6943803535338318427==
+--===============1823355614372255591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e
     new: ce6b4d3216b63f902bb8e9695ee6c10c83415f65
     log: revlist-f6f3b36c15ed-ce6b4d3216b6.txt
 
---===============6943803535338318427==
+--===============1823355614372255591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ ba520084dc3b7f8b0bca534bd272266b764427f2 netconsole: move skb_pool / refill_wq f
 922cc43c624330b9cf646d52fc82c820d9f699b3 net: mana: Add debug knob to skip TX timeout recovery reset
 ce6b4d3216b63f902bb8e9695ee6c10c83415f65 net: mana: Add handler for sriov configure
 
---===============6943803535338318427==--
+--===============1823355614372255591==--
