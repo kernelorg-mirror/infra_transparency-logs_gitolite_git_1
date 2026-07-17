@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0292840803039099199=="
+Content-Type: multipart/mixed; boundary="===============7643286122013605893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 17 Jul 2026 14:23:17 -0000
-Message-Id: <178429819728.3515579.11701091788155513064@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 14:24:05 -0000
+Message-Id: <178429824511.3515997.16407632868851788000@gitolite.kernel.org>
 
---===============0292840803039099199==
+--===============7643286122013605893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 919d1ba86be65fc08a83c5def5cc08a61a5ace62
-    new: e7e12b4cc0f0c3a2782aea084d4215e23f5512b3
+    old: e7e12b4cc0f0c3a2782aea084d4215e23f5512b3
+    new: 2cedf2272f1bb42471e646868ac572cc5752bd91
     log: |
-         f5af7132db239c5d13f20b7ac01db62b62830fb1 virtio_console: fix endian conversion in handle_control_message()
-         e7e12b4cc0f0c3a2782aea084d4215e23f5512b3 char: xilinx_hwicap: unregister class on init errors
+         e798d274c9fc70c9d2335fce9b7aae7722b42782 hwrng: drivers - Remove redundant dev_err()/dev_err_probe()
+         0446c8456caad083d0aa29511757355d84051805 tpm: Remove redundant dev_err()
+         2cedf2272f1bb42471e646868ac572cc5752bd91 char: xillybus: Remove redundant dev_err()
          
 
---===============0292840803039099199==
+--===============7643286122013605893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784298191 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784298238 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1784298195-96b66854d426ca5d2b63e9676f7a5c1b42fd457a
+nonce 1784298243-74347665b7aa823263c5b426829ccdc123ce7e74
 
-919d1ba86be65fc08a83c5def5cc08a61a5ace62 e7e12b4cc0f0c3a2782aea084d4215e23f5512b3 refs/heads/char-misc-testing
+e7e12b4cc0f0c3a2782aea084d4215e23f5512b3 2cedf2272f1bb42471e646868ac572cc5752bd91 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaOs8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OXQP/i+be/yc8iytvU7ElU+K
-UrexFcp/a6LJ+sMGYQbvBpqhpQqNYb6+j2XZhsgjbH/OnJ6rVfaiG7ErFgClAE7C
-tHYV6EdOJVCWm4hsB6aO+TBTfiIqSe3t58J7vzUx/H+5lxamxh0CvpEpquCo+juw
-VMI2YBugB/khCwvcSxBPfxczAeKi7xmVjl+EheuPlYKDDCOkCe+GK5BgtvNdoXiu
-wWVfz4t227JLk6PQhg5QyCMjBNy+f591laPoLYls6BKpVAy/lkst5XDmqdxQa8Nv
-BiKQ9wjQea7zYeuew/WnRXcnNVxf3ys5JrrcSM3nMjAT6nZTD7/iNut40FoBAnNO
-niqC0B9WnL4TjiNRwd6zChnylfBUlIzoUzgl/4ty/cggCVvEBSPppsE78ZqiXDBc
-8wNqYXz7w3RdHOM4dCqoRZHSA5JibL/uH28It6V2CufOpEhCKbiAmh1IWR4oaXSe
-r0fgbausYhPESWTBcFAXNLElfqwxpkVsRX1esKFFunZAnWgPMarNZ9WmYLcavfcr
-nG4LeEXrSPzE5S8D8AqyGIsB8mXJaAIaf+cylA+2w6PLkICDrF1xEPdXA8QhBEzr
-jVF06dXo/7CB5ittjPZrA6dr44UzXkS7sx2jBasD0PDHtuS4teGweagSYDjB25WL
-8ahvDKpzqEqK0P9Iq3GoLSiF
-=3a7H
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpaOv4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+odoP+waO4pkOCVNimY1J8LAS
+o7BytJuN7bmMoiGRhTax+6DhPCZUfJ8VPe7CE0qetTTf7ymkEAI4XC+waQz0QYef
+6yC+V40v86rOX/De245o66xsm9UPuwdzlPReW99R7QKDQRHTyAMLXSjVmiZ0R6Wn
+2XKRHEC5Et4d+knp1Z4DGpPigIDaP84mItOvq2RFlaXrfL5jm+IhVPAChdgWQUbB
+HbJFgzHHdaHVG/if4JNPteC0bz4Nzm1raUbotWzv+7Goy4tokvBZmFt6P10qtDyc
+IYfJlZNbaQNLzelO2x/e8KrrENwJMyC1i80fVMFmQ5T5d7BE9ASSD6vUn3tqKCZK
++26XzuGOGQDkjtku7/1Phi66+ZZcK2IOZfid2mLznEN1dZqRAmt5ZU3LmTT2nx1m
+HJSw9ugcWODn+8mEWONcJNRLUOPqayfNVZUayC1CAJJ+YK7win+J82qJuAPyeUIo
+ZcQnyhmGnbRTtVRZ4goiGgW3EN6+WbFkQ2wLJkX1aPH5YzcyxNTp6QCRbbVSuPrT
+XVbTApZrcRil1mPc72+D8CrEwaNrQb8ycUI2LQO+36Mg1BOaNjf3seSxEgCgPoyG
+p3Z01rv39UAxnyDQqMTaYPc7ysXB0o895A7fW4QWelHHknk1a2H/39EtcTmQJC03
+/zDynb8Yns2PEsyWOT1KQtFX
+=w3At
 -----END PGP SIGNATURE-----
 
---===============0292840803039099199==--
+--===============7643286122013605893==--
