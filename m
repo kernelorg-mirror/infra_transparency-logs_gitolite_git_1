@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2236405243115203082=="
+Content-Type: multipart/mixed; boundary="===============2842174587475286718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 17 Jul 2026 10:39:50 -0000
-Message-Id: <178428479047.3317339.9652391146259600868@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 10:40:02 -0000
+Message-Id: <178428480273.3318397.3412624663175991887@gitolite.kernel.org>
 
---===============2236405243115203082==
+--===============2842174587475286718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
     new: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
     log: revlist-8cdeaa50eae8-a13c140cc289.txt
 
---===============2236405243115203082==
+--===============2842174587475286718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -502,4 +502,4 @@ bffa972b3f66d28732f09d67db09711ac2f93ebe Merge tag 'char-misc-7.2-rc3' of git://
 f20d61c22bcaf172d6790b6500e3838e532e71c8 tpm: Make the TPM character devices non-seekable
 a13c140cc289c0b7b3770bce5b3ad42ab35074aa Linux 7.2-rc3
 
---===============2236405243115203082==--
+--===============2842174587475286718==--
