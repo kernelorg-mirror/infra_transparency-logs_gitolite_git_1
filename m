@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5530320696391367172=="
+Content-Type: multipart/mixed; boundary="===============5845770409459184380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 17 Jul 2026 08:19:41 -0000
-Message-Id: <178427638138.3209960.14835408729937188811@gitolite.kernel.org>
+Date: Fri, 17 Jul 2026 08:20:15 -0000
+Message-Id: <178427641577.3212323.10778222634890509331@gitolite.kernel.org>
 
---===============5530320696391367172==
+--===============5845770409459184380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2e08090dea551c62833bdea35df378ceae483a72
-    new: 6c3ee5bbb5645707e51ce3ceb805f7d3e6520198
-    log: revlist-2e08090dea55-6c3ee5bbb564.txt
+    old: 6c3ee5bbb5645707e51ce3ceb805f7d3e6520198
+    new: 33046a6da266f9cd4e626338f452929c1fda1886
+    log: revlist-6c3ee5bbb564-33046a6da266.txt
+  - ref: refs/heads/tip/urgent
+    old: 90924c2f526fc4b7d63eedeb5b25ac753cc2c5e5
+    new: 6dd754da2497250b6d3854a96601f0dda9e21c12
+    log: revlist-90924c2f526f-6dd754da2497.txt
 
---===============5530320696391367172==
+--===============5845770409459184380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e08090dea55-6c3ee5bbb564.txt
+Content-Disposition: attachment; filename=revlist-6c3ee5bbb564-33046a6da266.txt
+
+6dd754da2497250b6d3854a96601f0dda9e21c12 Merge branch into tip/master: 'x86/urgent'
+1ebc8325a84759c903146576411bdea0eb590470 Merge branch into tip/master: 'perf/merge'
+baff33024f26643a68dfb0840ece0428d13fafd0 Merge branch into tip/master: 'core/entry'
+3bd7e3d75398bd1944710092dbb4ee81f3a2ea1b Merge branch into tip/master: 'core/rseq'
+ea79f1e65d2dd7a0001a65c2bf34423c2ad7f13e Merge branch into tip/master: 'irq/core'
+62bc7dcf8b76dac0085833c197c4c52a11444961 Merge branch into tip/master: 'irq/drivers'
+db84d9ed8e68b1e72c34e615e812c23a1af2dc66 Merge branch into tip/master: 'locking/core'
+bb13e24892d6e3a5cc3b88aa73c9df5c978306d4 Merge branch into tip/master: 'locking/futex'
+8a7e7ddc88c4fc725f0e5dfae259b46f43a99514 Merge branch into tip/master: 'sched/core'
+1832fbe26105482fc510653e70821d8e074e10a9 Merge branch into tip/master: 'smp/core'
+85a6099e71422a7ac6f35e607e503e75550605c6 Merge branch into tip/master: 'timers/core'
+82d530c15b679a810f0c8aca16bbe894f544a7f5 Merge branch into tip/master: 'timers/vdso'
+b423fd16e8da8611e6b82841f39cee3890e35c30 Merge branch into tip/master: 'x86/alternatives'
+22c676ef45165f653f733005c2ad6577fb268fd6 Merge branch into tip/master: 'x86/build'
+d8db412d97b43c5c506d4d5c7972aad25d310542 Merge branch into tip/master: 'x86/cache'
+147a8533f7e80ae51f3e025f3c05a457641137f8 Merge branch into tip/master: 'x86/cleanups'
+06467729ad96bfe3d717f8f2b63d2938b1183abd Merge branch into tip/master: 'x86/entry'
+2809557fe36c9d4561bf8512bd51a94c3fb3a128 Merge branch into tip/master: 'x86/mm'
+90e714cbaea0354248ad895fb8e78bdc03f5880b Merge branch into tip/master: 'x86/msr'
+33046a6da266f9cd4e626338f452929c1fda1886 Merge branch into tip/master: 'x86/tdx'
+
+--===============5845770409459184380==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-90924c2f526f-6dd754da2497.txt
 
 7258770e5814f15e8308ebda82ac9acf6964ba8e KVM: arm64: vgic: Handle race between interrupt affinity change and LPI disabling
 0074b82cdfcb5fd13710a0ac308ade68ac6f6fbe KVM: arm64: vgic: Check the interrupt is still ours before migrating it
@@ -138,6 +169,6 @@ c270a4218b810819ad68513cfeb8caa7830fc53a Merge tag 'for-linus' of git://git.kern
 e22254e9ddd8020130c4b806b6b4aa77b09c2560 Merge tag 'xfs-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 481ed5dd3ed7136f627b8ec372ba39f5b2e7d27f Merge tag 'landlock-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 fce2dfa773ced15f27dd27cd0b482a7473cdcf2a Merge tag 'v7.2-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-6c3ee5bbb5645707e51ce3ceb805f7d3e6520198 Merge branch 'linus'
+6dd754da2497250b6d3854a96601f0dda9e21c12 Merge branch into tip/master: 'x86/urgent'
 
---===============5530320696391367172==--
+--===============5845770409459184380==--
