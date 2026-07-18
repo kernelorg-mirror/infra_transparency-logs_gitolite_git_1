@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Sat, 18 Jul 2026 04:20:09 -0000
-Message-Id: <178434840964.4136959.10820193763933629811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 18 Jul 2026 04:49:28 -0000
+Message-Id: <178435016880.4156929.3809156150972281678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/bcain/qemu_boot
-    old: 7196a17b7cc2f15ed74704ba70164832b84a1a42
-    new: 350e080448ef48977f4c4cd1656dd023c556058b
-    log: |
-         350e080448ef48977f4c4cd1656dd023c556058b hexagon: enable CONFIG_COMMON_CLK in qemu_defconfig
-         
+  - ref: refs/tags/io_uring-7.2-20260717
+    old: 0000000000000000000000000000000000000000
+    new: 2a934fc9072ca021cfeeba9da641a9013e51cdba
+  - ref: refs/tags/block-7.2-20260717
+    old: 0000000000000000000000000000000000000000
+    new: 855e6026c58a27ae7eee5c6e74fb4da55921b273
