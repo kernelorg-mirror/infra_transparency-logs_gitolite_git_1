@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 18 Jul 2026 08:12:59 -0000
-Message-Id: <178436237996.162182.15209674216981750513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 18 Jul 2026 08:16:17 -0000
+Message-Id: <178436257798.165807.6718825472673696632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: abba90568e6b5dcf2fa2b8bd2a963dd78b545fcb
-    new: 6c2b67291d8e6ab72662abe35f6e0eac28824b6b
+  - ref: refs/heads/for-next
+    old: 062d17f708757c710e88197ff84f2dc90f7b1c77
+    new: ebc0b550bbecdb2bf02d4b17c18e9447bcdb25cb
     log: |
-         65cc94b3dda3c65905c4050103b8a337d9e102a2 sched_ext: Fix proxy-exec race in consume_remote_task()
-         59cb7e928d105fddcb0d7ad78ca434c70bc9ed35 sched_ext: Split curr|donor references properly
-         467cbcc4526d185a224defc58744a9a2671042a5 sched_ext: Handle blocked donor migration with proxy execution
-         9d341c9a66468627814316a535f3980112d914ca sched_ext: Delegate proxy donor admission to BPF schedulers
-         4419e5942b2401ca4827c80bf1562a6495741168 sched_ext: Add selftest for blocked donor admission
-         e90c3753fe9360557f0229619265b70b04fc5fee sched_ext: scx_qmap: Add proxy execution support
-         6c2b67291d8e6ab72662abe35f6e0eac28824b6b sched: Allow enabling proxy exec with sched_ext
+         7c2cd767705d60287a6683b24fe22c7bdb73229d Merge branch 'for-7.2-fixes' into for-7.3
+         ebc0b550bbecdb2bf02d4b17c18e9447bcdb25cb Merge branch 'for-7.3' into for-next
          
