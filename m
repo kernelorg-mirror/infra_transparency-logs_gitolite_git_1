@@ -1,42 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8538709272905369833=="
+Content-Type: multipart/mixed; boundary="===============2045256781744056186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 18 Jul 2026 14:09:15 -0000
-Message-Id: <178438375528.412486.17703478801388343316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 18 Jul 2026 14:19:14 -0000
+Message-Id: <178438435408.419583.3005651255323150607@gitolite.kernel.org>
 
---===============8538709272905369833==
+--===============2045256781744056186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 25acf039a5dbb40b6865d9392e05be8e713a39f3
-    new: 4e63c0582e2aef7284a2cc7c62215f245003e775
-    log: revlist-25acf039a5db-4e63c0582e2a.txt
+  - ref: refs/heads/fscrypt-pending
+    old: 0c9219d75b28d7b75000558e27a909c783c2a3c4
+    new: 49a8501f1194e8e6a14c58628cbae678f3594a41
+    log: revlist-0c9219d75b28-49a8501f1194.txt
 
---===============8538709272905369833==
+--===============2045256781744056186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25acf039a5db-4e63c0582e2a.txt
+Content-Disposition: attachment; filename=revlist-0c9219d75b28-49a8501f1194.txt
 
-807be7ee6fb8d7ea63eab0277ed081d8fe83abee rust: device: add BoundInternal device context and InternalBoundContext trait
-54b4b3aa7c5b59ca6b507ef36f8f6060bdf34f5f rust: device: move drvdata_borrow() to InternalBoundContext
-6e328b4a208f7a06df3c1df18d7645c74c90f5f3 drivers: base: Remove statistics group if encryption group not created
-8cfe7ad274bb42c4653b645267410d4a3a23db98 driver core: attribute_container: Unwind device_add() on attr failure
-38f5745f49e446bf0fa3fcfa2d1a58538591ed77 arch_numa: remove redundant nodemask clears in numa_init()
-32e21e9509915aef8b4043b4596ddb40f390438b docs: ABI: sysfs-uevent: add missing bracket
-d996995a0ffb86fa0ff0f953221892dced6143a1 kernfs: simplify kernfs_name_hash()
-06553566a841cc5ff8cd4dd11c00251b834c7fba kernfs: Replace strcpy(s, "../") with memcpy(s, "../", 4)
-c3a280ff728a9039c72cd64ad0b32bc3a28c25b2 debugfs: warn if file creation failed due to uninitialized debugfs
-ba3dedcf3bd47017307595a7e54924198f018246 software node: Fix software_node_get_reference_args() with index -1
-45dfa004893dfeae182ec27eddbd153c6d4ddbf9 driver core: soc: Unregister bus on early device registration failure
-4e63c0582e2aef7284a2cc7c62215f245003e775 base: Remove unused DMA_FENCE_TRACE Kconfig symbol
+274a31e818fb4273d58e87b0bccb2dcc35b9821a blk-crypto: Simplify check for fallback support
+32b2122b84a84c345438373054d962254a276e69 blk-crypto: Fold __blk_crypto_cfg_supported() into its caller
+f2111ce3f3d3afbcc67c57457d3984d3f16c2786 blk-crypto: Allow control over whether hardware is used
+f34b2b354fce8dc61045edae21e7851dc0df7a0d fscrypt: Fully disallow IV_INO_LBLK_32 with s_blocksize != PAGE_SIZE
+025fcaaf727dbf25125c020c6365c24ef34b8b16 fscrypt: Always use blk-crypto for contents on block-based filesystems
+199ade62f8000fa0c29cc062e6be405a080aee9c Documentation: fscrypt: Update docs for inlinecrypt
+7c236d37b6099c950dda89f1963b09292cbe8b90 ext4: Remove fs-layer file contents en/decryption code
+541b0e84e9b929012d13c0bb22199311b93bffd2 ext4: Make ext4_bio_write_folio() return void
+c70ce960a410cac797cb5a0e207a63695bc813c0 ext4: Further de-generalize the bio postprocessing code
+efb62c5b87e03396e10c338e40170c212f95f683 f2fs: Remove fs-layer file contents en/decryption code
+172bba2bb77561b20e687cc8e67a287a14941ab8 fs/buffer: Remove fs-layer decryption code
+32d74476364b8a0583f262365a4a82219514778e fscrypt: Replace calls to fscrypt_inode_uses_inline_crypto()
+01c9feef1112f8c2252a9996928af2556c14a576 fscrypt: Remove fscrypt_dio_supported()
+0c10a4aad7a606179bfd1c23b40b6b5cebbed9f0 fscrypt: Remove fs-layer zeroout code
+93bbc3d4883f601689a4a94db34c9fe9d37b4fae fscrypt: Remove unused functions and workqueue
+527412fd1b87fc1887e12a34ff6d99ce4130e897 fscrypt: Merge bio.c and inline_crypt.c into block.c
+49a8501f1194e8e6a14c58628cbae678f3594a41 fscrypt: Add safety checks to non-block-based en/decryption
 
---===============8538709272905369833==--
+--===============2045256781744056186==--
