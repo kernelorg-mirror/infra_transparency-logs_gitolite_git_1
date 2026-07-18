@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 18 Jul 2026 23:16:17 -0000
-Message-Id: <178441657740.918032.18185011609653070747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 18 Jul 2026 23:16:55 -0000
+Message-Id: <178441661561.918500.644638307967493603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 85c139d77ea0cbfb810f474284ae522d00d22e00
-    new: 4fbfe3f3dfe0eb397096cc992083c19c18bc63ce
+  - ref: refs/heads/master
+    old: b20c97752464237a56696266fdec589aa28d3bba
+    new: 5d5ec6f939dbbf44d2f35aa21271b6c6532f2c09
     log: |
-         d5ea404c5c6cd2133e606c6bebf0f3bb46677923 mm/damon/core: skip applying scheme if region split for quota fails
-         4fbfe3f3dfe0eb397096cc992083c19c18bc63ce mm/damon/core: initialize damos_quota_goal->last_psi_total
+         d46a26c00b1e85a0df6087692bce438d1ebb1332 patches/next: add two Sashiko-issue fixes
+         5d5ec6f939dbbf44d2f35aa21271b6c6532f2c09 todo-reported: update
          
