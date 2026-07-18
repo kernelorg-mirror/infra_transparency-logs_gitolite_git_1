@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0503579203481960490=="
+Content-Type: multipart/mixed; boundary="===============5322958054677955981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Sat, 18 Jul 2026 16:14:46 -0000
-Message-Id: <178439128661.613752.14634788967387975782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Sat, 18 Jul 2026 16:15:03 -0000
+Message-Id: <178439130364.614791.12234956615608466149@gitolite.kernel.org>
 
---===============0503579203481960490==
+--===============5322958054677955981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 1229e2e57a5c2980ccd457b9b53ea0eed5a22ab3
     log: revlist-a13c140cc289-1229e2e57a5c.txt
 
---===============0503579203481960490==
+--===============5322958054677955981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -522,4 +522,4 @@ f39283eab44fb7e304677b2aa1d8c38f151b6566 Revert "drm/amd/display: Restore 5s vbl
 94dc07d6d99a9e4e3e2422c1c486cc4349e9e5a7 Merge tag 'ata-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 1229e2e57a5c2980ccd457b9b53ea0eed5a22ab3 Merge tag 'v7.2-rc3-smb3-server-fixes' of git://git.samba.org/ksmbd
 
---===============0503579203481960490==--
+--===============5322958054677955981==--
