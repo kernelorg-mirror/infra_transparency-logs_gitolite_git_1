@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2941607336243992879=="
+Content-Type: multipart/mixed; boundary="===============2020833545748464828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 18 Jul 2026 16:30:13 -0000
-Message-Id: <178439221323.629190.10729963428151151846@gitolite.kernel.org>
+Date: Sat, 18 Jul 2026 16:30:15 -0000
+Message-Id: <178439221586.629341.10702923051781978391@gitolite.kernel.org>
 
---===============2941607336243992879==
+--===============2020833545748464828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5093dba1014c1d7f7e247fd118f0fa8f22136046
-    new: 12d9ee08d1ad8c089d1f79c81790d8ee2bbc7699
-    log: revlist-5093dba1014c-12d9ee08d1ad.txt
+  - ref: refs/heads/mm-unstable
+    old: e5492213654050379e78ec6f9acfd6c9fe00f334
+    new: 822b7708d2988ae9448208d69d079f9e939b739d
+    log: revlist-e54922136540-822b7708d298.txt
 
---===============2941607336243992879==
+--===============2020833545748464828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5093dba1014c-12d9ee08d1ad.txt
+Content-Disposition: attachment; filename=revlist-e54922136540-822b7708d298.txt
 
 67fd826c06b6e7ee2fe935e015fe1bbe2e48e139 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 94b2a46d2190f4c698827cfb929bf120c6ae18ac lib: test_hmm: use device devt for coherent device range selection
@@ -556,46 +556,5 @@ b8d3cf27ec96a35554aec000f5c1378ff81c8d99 mm/damon/paddr: drop last same folio ac
 1574c0eee04d33ce62f990791e8c918b67bfd59d mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
 19473e49f9659a3f513724ca1e27e604bb6be307 mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
 822b7708d2988ae9448208d69d079f9e939b739d mm/secretmem: don't allow highmem folios
-7a4f0f19463c7ded076046572dfead5bc4262f75 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-69dd79cecf86909c678eb0a27987e583ea78621b docs/mm: fix braces
-91174f2d6daa6dc66e96b7c484d1ffb4242a3864 selftests/mm: add PAGEMAP_SCAN test for THP PMD holes
-c615faca1b1dc2dd0e40511ec6f091818d3292aa mm/page_alloc: don't spin_trylock() in NMI on UP
-b24548714f80c8d6fd975702bca6e62e081dff9d mm/page_alloc: don't spin_trylock() when disallowed in free_one_page()
-f1818921eb58c218a0757340f8e499e865d4ddcc mm/page_alloc: rename FPI_TRYLOCK -> FPI_NOLOCK
-0c11813a395806574242d9fd9dcca154963744a2 cgroup/cpuset: update some comments about the page allocator
-4684a5dd7882a170e24cd72b3067c772877a4d77 mm/page_alloc: fixup alloc_pages_nolock_noprof() comment
-0889a354c2c1a6be89e7758987309dd0ffc61367 mm/page_alloc: remove a couple of VM_BUG_ON()st
-f3995f4d00bf7340dbbf51bb5fd1b8f832a2e5a3 mm/mseal: remove superfluous comments, fix confusion around mm
-e973fa53e473cbc3c8ba9e4ca8fe2346fbf3aabf mm/mseal: limit scope of mseal address zero to address zero
-6ed7132a4352ecc0b29adca5db3b05b122bad391 mm/mseal: remove further superfluous comments, do_mseal()
-f97f541fdf8cb31065b393f7466d30544c56155e mm/mseal: fix mseal documentation for 32-bit kernels
-40827da8da6d0c3d748a7e14cf0682253db58935 mm/vmscan: fix anon-only reclaim evicting file pages when swappiness=max
-241cbafedbc5e63baa015ee1cea77ee710f3ef40 mm: vmscan: propagate real error code from per-node proactive reclaim
-fb16ab605c48680b72e3df2ff84938ad15c1dd2a mm: vmscan: drop unused gfp_mask parameter from __node_reclaim()
-4d4e1f5e5d1e17f2504bc577f9da8199e76b7f0c selftests/mm: Fix BUG_ON checking wrong variable in mremap_dontunmap
-b704eaee99c9d381acb136f80c1a5c8712fefaa9 mm: vmscan: convert folio_referenced() to use vma_flags_t
-79192350307173bebfab12bddad2edb1954ac5a2 mm: mglru: promote mapped executable folios after first usage
-b96987588439a7d88383328548780ac51e40a931 mm/page_reporting: use system_freezable_wq to fix UAF during suspend
-06207872ef61705571df1f6e5ea2378627eb859b virtio_balloon: avoid shrinker execution during PM suspend
-7f4619a616c228f276e496882703142180323e58 mm: introduce pud_is_huge() helper
-25d93bbe533b4127c50cd5806cef415958817d7f mm: mincore: remove special handling for VM_PFNMAP
-f8ed8b92ab4936b94b767ddb1703c94385df4c0e mm: mincore: replace __get_free_page() with kmalloc()
-bf46e35ebb08af9710b836d9f862692427ce3852 mm: mincore: remove xa_is_value() in mincore_swap()
-3fbd53751f35aef187e6a6d2b233fbf85cf1205e mm: mincore: improve mincore_hugetlb()
-3cc207f6b656aada39e5d2260cfe9f7039f3ee61 mm: mincore: refactor mincore_page()
-d827f66386bae9a93c02a2ba0c560f8d63b4bda0 mm/swap: fix swap_cluster_lock() !CONFIG_SWAP stub signature mismatch
-8c6aacaeed04e4d54d8e11b707c5b603757c8b99 mm/huge_memory: remove unused can_split_folio()
-2eb7cf1166ce61bef78f9c210e832736cc327189 mm/huge_memory: fold split_folio_to_list_to_order() into split_folio_to_order()
-1858be1141d10c38bdaa5745596a5537ce16b2e0 mm/damon/core: initialize damos->last_applied
-bc677846b16d894d9c0158f033007af765500280 mm/damon/core-kunit: check region count before testing in split_at()
-f6f8f4f8d23f285c9b1a60680c50892e177b3f57 mm/damon/vaddr-kunit: check region count in three_regions test
-4035a054558fb1b0c91b032e58565aa9208a82b2 mm/damon/core-kunit: handle region split failure in filter_out()
-1c5e599df94c41569b6b24f992f747296f94ac4a mm/damon/core-kunit: skip wrong dest walk in commit_dests_for()
-f0187782eb8e1844e65be6b00dfd2a9c89b32d8e mm/damon/core-kunit: skip wrong quota goal walk in commit_quota_goals()
-f3ce256e9929fc6c91cb8d719acae33e037159b6 mm/damon/core-kunit: skip wrong region walk in commit_target_regions()
-a0eecb938fe5d3dccb215896a1882cba1bf329ac mm/damon/ops-common: remove redundant local variable in damon_migrate_folio_list()
-0363c89d4dacc3adf4bc34559d553134873ffacf mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-710bdc87d977a94a87bbf46a662a60da0dd85c75 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-12d9ee08d1ad8c089d1f79c81790d8ee2bbc7699 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2941607336243992879==--
+--===============2020833545748464828==--
