@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Sat, 18 Jul 2026 22:04:49 -0000
-Message-Id: <178441228950.865855.6384112792329466671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Sat, 18 Jul 2026 22:11:10 -0000
+Message-Id: <178441267069.872099.13996077135618720857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
-  - ref: refs/tags/arc-7.2-fixes
-    old: 0000000000000000000000000000000000000000
-    new: c28dd20c4e9624147f5b11656d61dc8d2d3ddd3d
+  - ref: refs/heads/rproc-next
+    old: a83689d50ef62f518a28311013b97a2da9b42ff1
+    new: 40acbf6097c5930e9a3ff907d02ce69023b449c4
+    log: |
+         40acbf6097c5930e9a3ff907d02ce69023b449c4 dt-bindings: remoteproc: qcom: move glymur SoCCP pas to standalone
+         
