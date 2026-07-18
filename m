@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 18 Jul 2026 12:09:04 -0000
-Message-Id: <178437654481.328390.10490562153771289341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 18 Jul 2026 12:09:51 -0000
+Message-Id: <178437659172.328788.11201361771875108655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: d7133db2f4b832a0746fa6ae0b7271a5bd2b6253
-    new: a479d4a714aeb8f724361bb1c232049d73baf1e8
+  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
+    old: 2d1aef7520208513602e88c99aaa78b094197eb4
+    new: 3eca2e307e1a480c21db81a1f2e1650ab14dd88b
     log: |
-         a479d4a714aeb8f724361bb1c232049d73baf1e8 man/man2/memfd_secret.2: tfix
+         391f551c2a162000d0ecccd19b470ad9eafa7942 KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
+         4f6d035517b430562bfec56c5c7cba79e5f8a2b4 KVM: selftests: arm64: Report register reset tests individually
+         3eca2e307e1a480c21db81a1f2e1650ab14dd88b KVM: selftests: arm64: Make set_id_regs bitfield validatity checks non-fatal
          
