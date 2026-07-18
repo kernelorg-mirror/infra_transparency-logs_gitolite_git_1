@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 18 Jul 2026 10:40:03 -0000
-Message-Id: <178437120358.266949.7583447143926133118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 18 Jul 2026 11:19:42 -0000
+Message-Id: <178437358210.292790.14349626568500778864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/i2c-fixes-7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 089c2f436e370335247837db756660945050413d
+  - ref: refs/heads/master
+    old: 216340669f820fc70908cad2aad0c5221c96d29a
+    new: d1876c29dde24e2afd0dc35093e3e3c2fb282ba4
+    log: |
+         d1876c29dde24e2afd0dc35093e3e3c2fb282ba4 drop 1 patch based on RC review feedback; reorder series entries
+         
