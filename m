@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2694308001290046513=="
+Content-Type: multipart/mixed; boundary="===============0952526167228573879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 18 Jul 2026 23:03:43 -0000
-Message-Id: <178441582372.907448.13550023125766368480@gitolite.kernel.org>
+Date: Sat, 18 Jul 2026 23:03:46 -0000
+Message-Id: <178441582659.907552.16924857542064465633@gitolite.kernel.org>
 
---===============2694308001290046513==
+--===============0952526167228573879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 12d9ee08d1ad8c089d1f79c81790d8ee2bbc7699
-    new: 56b9d68cf62f5e79ac9035dde02c3a68d0c6e091
-    log: revlist-12d9ee08d1ad-56b9d68cf62f.txt
+  - ref: refs/heads/mm-unstable
+    old: 822b7708d2988ae9448208d69d079f9e939b739d
+    new: 890f8c4e827c918dac668a12eaf63180ba8a9e6d
+    log: revlist-822b7708d298-890f8c4e827c.txt
 
---===============2694308001290046513==
+--===============0952526167228573879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12d9ee08d1ad-56b9d68cf62f.txt
+Content-Disposition: attachment; filename=revlist-822b7708d298-890f8c4e827c.txt
 
 380de6918e59c68838b8e8772f04160ebb235ac7 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 1e703bc45c6ef0296b5af030819f8f87a41fc86a lib: test_hmm: use device devt for coherent device range selection
@@ -558,44 +558,5 @@ ae6bd86302bebc1c344698f5b1c3a59e2bad7719 mm/damon/core: avoid infinite kdamond_m
 5989364fe7d21db9c4bc6e338f7a355e0b0860c0 mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
 207abf33637bc8557b5a8371fe20c3ace5a928f8 mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
 890f8c4e827c918dac668a12eaf63180ba8a9e6d mm/secretmem: don't allow highmem folios
-cebabb514b8c5dd2c03d0c8d90cbb16d947e2df0 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-11c2533f45c070aa6756d0bbd1684d40ce30291b docs/mm: fix braces
-5d74e96ac80496253fd6dd825b17ddc8bdba5ea1 selftests/mm: add PAGEMAP_SCAN test for THP PMD holes
-5e7949215800708faf3cd23747b5a0ff4e136715 mm/page_alloc: don't spin_trylock() in NMI on UP
-1b9501cb3642f7b5946066586b0824a19cbb9bb9 mm/page_alloc: don't spin_trylock() when disallowed in free_one_page()
-39558120a5d46174e3ab664ce7b1d2024b8d4389 mm/page_alloc: rename FPI_TRYLOCK -> FPI_NOLOCK
-ffdb7465527b16a4d398ada8f0a2ac2754baedd4 cgroup/cpuset: update some comments about the page allocator
-42b4f68f10ee2d41d8414b6fa9059641c215193b mm/page_alloc: fixup alloc_pages_nolock_noprof() comment
-b8165083effab872d937376833a227b6f62398b6 mm/page_alloc: remove a couple of VM_BUG_ON()st
-a2ab2d21f8a4b19c98337532c02784395000ad83 mm/mseal: remove superfluous comments, fix confusion around mm
-19f50f8e9f31dadcf1a0dd83353aff3c88782394 mm/mseal: limit scope of mseal address zero to address zero
-c8af699d11c04afd61bbd2694b159f23a8b57a56 mm/mseal: remove further superfluous comments, do_mseal()
-7c58e861c3bd28ffb69748df41a54b1d751b9a87 mm/mseal: fix mseal documentation for 32-bit kernels
-d23a777225e7c94f2b9ee41def458650a2f38476 mm/vmscan: fix anon-only reclaim evicting file pages when swappiness=max
-af0b1ab17de4177d696526839aded6927522b5e4 mm: vmscan: propagate real error code from per-node proactive reclaim
-c90006f57cfb0cb765a8d4ec1f7961c0b77a2640 mm: vmscan: drop unused gfp_mask parameter from __node_reclaim()
-b1630a40b9b7c8b47f329ad9908187d3dc087dcd selftests/mm: fix BUG_ON checking wrong variable in mremap_dontunmap
-6716e21d9bbd7865499818f91b499b87cfbf8ae0 mm: vmscan: convert folio_referenced() to use vma_flags_t
-4546b696c3ba475d5a3defc208e056b672b45b25 mm: mglru: promote mapped executable folios after first usage
-30ac8694da8b1fccaa035067be55b383c65a0c76 mm: introduce pud_is_huge() helper
-e80e2bc23eaea06d837dfae4f241ab1fe8d6d000 mm: mincore: remove special handling for VM_PFNMAP
-f3306620e3f80b94a198b85ae84d00ad63b465bb mm: mincore: replace __get_free_page() with kmalloc()
-1e7927d4ab0082c61ce28cc31e676877649b9c8b mm: mincore: remove xa_is_value() in mincore_swap()
-5e25b5d73ee38496d1ebb55cdf2cdf8e6f153efe mm: mincore: improve mincore_hugetlb()
-b55c60327de6d59f0329f80a44b6678b5328f89d mm: mincore: refactor mincore_page()
-6413d78fa1a2d6acd2e85f66b6a78cd72da6b8e4 mm/swap: fix swap_cluster_lock() !CONFIG_SWAP stub signature mismatch
-92c3cc2500c30927539e741c8e0cf972fc2367c4 mm/huge_memory: remove unused can_split_folio()
-56b89f7f0fd90993ac7d986553418c5d5d1e047a mm/huge_memory: fold split_folio_to_list_to_order() into split_folio_to_order()
-14cec498ef3fec1ff818114e6fd4bf85dac48930 mm/damon/core: initialize damos->last_applied
-259b1b6d09d008f8efc00f6e2c1f888221dad4ba mm/damon/core-kunit: check region count before testing in split_at()
-f3ee7cd8832a5461a63baeb0798eec0d15a5e92f mm/damon/vaddr-kunit: check region count in three_regions test
-fc3e252951eff2c6d40bbe58bf4a417c77747ea4 mm/damon/core-kunit: handle region split failure in filter_out()
-e75a3b811fca232707d008a12930b8f690150dc0 mm/damon/core-kunit: skip wrong dest walk in commit_dests_for()
-2e9ba2034ba7d54f29d856e9c6d8f8bafcc76002 mm/damon/core-kunit: skip wrong quota goal walk in commit_quota_goals()
-d835f87137bc89669cfcbf8d4e2c90a98f4c30df mm/damon/core-kunit: skip wrong region walk in commit_target_regions()
-44f783dfbf90289d67dc4096648a8034c13d78e0 mm/damon/ops-common: remove redundant local variable in damon_migrate_folio_list()
-93c97588def8fd7a2dd26ee93166ac0b8211dda0 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-51684dee814878598f29e088046442ab649eef5e mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-56b9d68cf62f5e79ac9035dde02c3a68d0c6e091 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2694308001290046513==--
+--===============0952526167228573879==--
