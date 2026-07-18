@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4759297165755915650=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 18 Jul 2026 15:01:02 -0000
-Message-Id: <178438686225.508115.2848860683773855945@gitolite.kernel.org>
-
---===============4759297165755915650==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 18 Jul 2026 15:11:23 -0000
+Message-Id: <178438748309.569054.2210191033518773729@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 360e7141d544cb8d35b75e24454e4b45d78eb8b5
-    new: eb302380a5091b186fba8b4c7a48b608ae9a3451
+  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
+    old: 3eca2e307e1a480c21db81a1f2e1650ab14dd88b
+    new: c3b380b82646f6cbd2765fc9ff5ac428c331537d
     log: |
-         eb302380a5091b186fba8b4c7a48b608ae9a3451 updates for new stable releases.
+         9c22e1b38acfca312110b2f431f82af5f3396f94 KVM: selftests: arm64: Improve diagnostics from set_id_regs
+         636c218f54c455266f59ca31c7c45a9262c7b9af KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
+         da6d85685beb8606a78dc313813a8fa44ac81168 KVM: selftests: arm64: Report register reset tests individually
+         c3b380b82646f6cbd2765fc9ff5ac428c331537d KVM: selftests: arm64: Make set_id_regs bitfield validatity checks non-fatal
          
-
---===============4759297165755915650==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784386853 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1784386858-5a4b1cfaba3a3a291fde5f8b7771e11c9c846628
-
-360e7141d544cb8d35b75e24454e4b45d78eb8b5 eb302380a5091b186fba8b4c7a48b608ae9a3451 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpblSUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1NQQAKX/ELErHokyX6tIqNhC
-qmxDQcFlxPhiFRBZPjQ9wBY4xgnySa/gnymKQnw5rOCCcXm1+hMTv87Kc9OT8UA5
-eKjkdivW0+OI3unEROulKFYuBEHY4sYSzXHZcooorSckdhNHAD4QJOzMG8puvLrh
-dJZCqpK2bBwVORUyfA7woxX3Twl4OjBhYKNaq8LVOFjf85vKLUCXna4boazqOvZO
-qm4aGRDugJpOAa4Jln6X1TSevagi20Z/bNPikps0xeOKjGNxLA40O0JBWd/ikpE7
-Ot0jsZtrpzn7Bjlf6CQcgWkL06j1VPwD9dXAwmOnhTtGAcjV9fmwuadBcnE+z6vH
-54r7IUqstYZFsGwQ1ctL0t40QWLT+m5mT1snWneJ3gv7KSGxKU48rBcqi1ahBUXL
-xtqWFFZHyigcCAEQys746wusxZO6taaCphxjLatzO8MYEeGJD5bDXu7CazDC67vs
-mwpbkUnXc9iTB57kPIhhXshbRRhwKXu7J4JEXAc/N3j4EemtZEQDt9mTA55vXYlX
-quQdi4QQNN+vMBLBOtwVbxfGr0ESZulMaC/9fUQH/fWkvluSE1pcZcfLwkwEZOGC
-YWfUhZa3+jfjTfi93XOikExJJHmOWelJkQDTUMvuw8ZL5E3Mix/pOXZo0xQuDOMx
-S6v5PFjCK5ndtrrcJUBeOW+Z
-=0xvn
------END PGP SIGNATURE-----
-
---===============4759297165755915650==--
