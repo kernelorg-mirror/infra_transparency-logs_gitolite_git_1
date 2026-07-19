@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Sun, 19 Jul 2026 11:26:59 -0000
-Message-Id: <178446041989.1486347.13746657321090448159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 19 Jul 2026 11:55:36 -0000
+Message-Id: <178446213660.1506617.14012520610409926245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/devel
-    old: 59ff18fb9ed34a7d03e8dc75c448a35fd8949ba1
-    new: a100ea5276c055ef04a69e3cd6b2d8454819b062
+  - ref: refs/heads/master
+    old: 21b74aa107b8c014c237d41247b2e1f6c474bfc5
+    new: e994e351fd1bd081915d0b76841610e0913af609
     log: |
-         e1cbeb20d617668782676d3aad6f3bd32d7139c3 unexport tty_lock CHECKME
-         a100ea5276c055ef04a69e3cd6b2d8454819b062 BRANCH_MARKER: work
+         e994e351fd1bd081915d0b76841610e0913af609 tpm: atmel: depend on X86
          
