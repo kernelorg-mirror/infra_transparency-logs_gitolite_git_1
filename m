@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8213744634936437851=="
+Content-Type: multipart/mixed; boundary="===============7157765893387796213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 19 Jul 2026 09:42:44 -0000
-Message-Id: <178445416455.1413216.3177310896480595009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 19 Jul 2026 10:02:49 -0000
+Message-Id: <178445536924.1427285.1876393863942026729@gitolite.kernel.org>
 
---===============8213744634936437851==
+--===============7157765893387796213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 47b56b3746069d57f0c3b966d38f19e70920ef00
-    new: 11a8c6a8d9917059c26e213f837659c428e244df
-    log: revlist-47b56b374606-11a8c6a8d991.txt
-  - ref: refs/heads/tip/urgent
-    old: efb3ec746bb75a27ced648d03974c93fe4370501
-    new: 09fac4275f318e3f0eba760b5c93fef2cee2c6ad
+    old: 30019449fbfc6373106347ef1beae772121a1bd3
+    new: 2c6cdcc2acb5ecd9c096c9d86d9472803fd13614
     log: |
-         09fac4275f318e3f0eba760b5c93fef2cee2c6ad Merge branch into tip/master: 'x86/urgent'
+         d6426e5fab2903108aa7b9069249587b8f86473e final 7.0.9 review from greg
+         deba9ed93762990e101eb13b6f84780f1f98e537 assign some 7.0.9 cve ids
+         2c6cdcc2acb5ecd9c096c9d86d9472803fd13614 mark 7.0.9 as completed
          
 
---===============8213744634936437851==
+--===============7157765893387796213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47b56b374606-11a8c6a8d991.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-09fac4275f318e3f0eba760b5c93fef2cee2c6ad Merge branch into tip/master: 'x86/urgent'
-4032563fcde98afffb9840770ebfeb5a75dcca2e Merge branch into tip/master: 'perf/merge'
-13fa946e8f9273ba1176fbf624112223af0179ff Merge branch into tip/master: 'core/entry'
-751fbd052fffa466ace6bb6e5bc085cc31227dba Merge branch into tip/master: 'core/rseq'
-1021ef5a21ab87fe85c23cd97aa1dfabb01f8af5 Merge branch into tip/master: 'irq/core'
-0242e13df19841b93720488018671a4a1639e5cc Merge branch into tip/master: 'irq/drivers'
-7df6779a2f05afeb99a39ac810fafaefb2529709 Merge branch into tip/master: 'locking/core'
-3308b83c75381c43e2114497a6ecc5a3cdaabdab Merge branch into tip/master: 'locking/futex'
-e3c3f6e11032f262deba11fe672c0cd4150fce5e Merge branch into tip/master: 'sched/core'
-2a75934d7982873ecb2548f89f57da29469a128f Merge branch into tip/master: 'smp/core'
-88ee528913526216af67c8df6d155c4f81ad9941 Merge branch into tip/master: 'timers/core'
-f24c977638258355bc66f00d96cf93c921de8ccb Merge branch into tip/master: 'timers/vdso'
-5865ce94b6ceaa0be8694c3f502ceaa231227be1 Merge branch into tip/master: 'x86/alternatives'
-32243699b641b1812238e2a3bc713588285b16b9 Merge branch into tip/master: 'x86/build'
-fb47cc2f1fede378100106c729861eea32c7199c Merge branch into tip/master: 'x86/cache'
-c308015517844a2ec1a2878d68dfd5fb8d62a0bd Merge branch into tip/master: 'x86/cleanups'
-9caaf223b8c4a80c120ec8de742848976aa177d5 Merge branch into tip/master: 'x86/entry'
-13489625ab62e82b312fafbf2fc2463c09e42063 Merge branch into tip/master: 'x86/mm'
-1c9bf500655dc380c467ac98a0d42f915ace3f13 Merge branch into tip/master: 'x86/msr'
-11a8c6a8d9917059c26e213f837659c428e244df Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784455285 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1784455365-5935670393f1353c1818d99a07aef5c6b0ffc8e3
 
---===============8213744634936437851==--
+30019449fbfc6373106347ef1beae772121a1bd3 2c6cdcc2acb5ecd9c096c9d86d9472803fd13614 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpcoHUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WPYQAJHuhzhKeUvCFcC1FSnS
+c5VO/jmN8GHnYogvRnQ5g0NC1ErTxynpsgiqdpRFgZd/wPP8FDFik++03lypX3lv
+Sx6noPyQW5cXKwYfF5Xs9vSnZ65Ml9vGmDoRxDxPnMPY4A7NGHuu+/W7qo8aQh8G
+GuPzD0p3BXXn5HVdFXBQPrdxvvnGXmuZHQfRlXAVpFmQcovsw5MhkZdRGnBrzbfp
+BFLv2/zKmR/IQKKcWnmc20qlv3+ppQNWJgFXPv0DXreWDo0VLjGH7F7QzG/aUPza
+lcK3VhwCUxDpnga5kTIe1JJkUNflGpsTlfo7rpHrWbu0EDrgrVxYcfKjjPJ0j4sW
+5F7wYxjDfAmbv/PDNNp6HgzkhOtGL7g+VCaT58Tbdop0AiBWw88rZveUrr3UDFbq
+7dnZ30VbLuxfNtixpvhvUj+aXkM6t+vEp+GhN3GvyBfEc2THYbcW8DGkZhoMy1Mu
+Ocy9SbEaZfedDpW5cnOGDpcAyJEfazedaL408RLfdt5i1K8EwxB6yj2E8WPNCUW7
+Yk3nTnobJR0L2p/4mcA8fVq0/Gfo4v2b6ecsk/25l9nNJucMKzYxWcFC9fTLaSLx
+uje2j6SsWnGeSPZm7I0j6P40TMPDSmtBaHXIQuRxjsywruZP62gD94j9Bm9eJutt
+/3Q7PdO6/9UjHhHCfpnxnau3
+=9Yw0
+-----END PGP SIGNATURE-----
+
+--===============7157765893387796213==--
