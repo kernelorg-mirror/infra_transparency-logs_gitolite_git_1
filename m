@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0752189335419820934=="
+Content-Type: multipart/mixed; boundary="===============8219016194106018336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sun, 19 Jul 2026 12:42:51 -0000
-Message-Id: <178446497186.1541702.7472196324358189224@gitolite.kernel.org>
+Date: Sun, 19 Jul 2026 12:42:54 -0000
+Message-Id: <178446497452.1541888.627572504735375508@gitolite.kernel.org>
 
---===============0752189335419820934==
+--===============8219016194106018336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip-fixes
-    old: 22fa1c39ba6fe726b547c877c924379b7fee260a
+  - ref: refs/heads/microchip-defconfig
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    log: revlist-22fa1c39ba6f-dc59e4fea9d8.txt
+    log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============0752189335419820934==
+--===============8219016194106018336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22fa1c39ba6f-dc59e4fea9d8.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-dc59e4fea9d8.txt
 
 8fa5655da368d0306c03e9dc9cda8ae2a7840926 drm/amdkfd: fix list_del corruption in kfd_criu_resume_svm
 a2b270c0ecf6d95bcd14ef4c20d0301a88143ff5 drm/amdgpu: initialize irq.lock spinlock earlier
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============0752189335419820934==--
+--===============8219016194106018336==--
