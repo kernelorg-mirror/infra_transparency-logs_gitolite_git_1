@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9040976909796873099=="
+Content-Type: multipart/mixed; boundary="===============7881449897448464278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Jul 2026 11:56:51 -0000
-Message-Id: <178446221141.1507555.16225202877041548914@gitolite.kernel.org>
+Date: Sun, 19 Jul 2026 11:58:06 -0000
+Message-Id: <178446228606.1508357.3228732486876040736@gitolite.kernel.org>
 
---===============9040976909796873099==
+--===============7881449897448464278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: e994e351fd1bd081915d0b76841610e0913af609
-    new: 6d41c11ef3044788902a05e292cd7f0a9c7a8157
-    log: revlist-e994e351fd1b-6d41c11ef304.txt
+  - ref: refs/heads/for-next-keys
+    old: 51cb1aa1250c36269474b8b6ca6b6319e170f5a5
+    new: c6859eed755df351a3978b33cb92365f9b3e8f06
+    log: revlist-51cb1aa1250c-c6859eed755d.txt
 
---===============9040976909796873099==
+--===============7881449897448464278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e994e351fd1b-6d41c11ef304.txt
+Content-Disposition: attachment; filename=revlist-51cb1aa1250c-c6859eed755d.txt
 
+fa746e23d1094f9a68afe5973746b0e32078fd8b netfs: Fix kdoc warning
+41376400c4717fed43490030902f9e4c9062b285 netfs: Replace wb_lock with a bit lock for asynchronicity
+ba6a9f6533c77c628eef0c0c5c19cd316e2be1b4 netfs: Fix writethrough to use collection offload
 ac5f95ac5d6d0f4c567b8b642825705a2bf0d79e netfs: Fix writeback error handling
 b6a713fd34b9498ee2164d5d3e8460732a392efc netfs: Fix folio state after ENOMEM whilst under writeback iteration
 64f04f9789237728be4e1836151848af350d1374 netfs: Fix DIO write retry for filesystems without a ->prepare_write()
@@ -1047,8 +1050,5 @@ ba6bd0df9adb2a7a02db9d1973fc1dc3489b0758 Merge tag 'i2c-fixes-7.2-rc4' of git://
 f2ec6312bf711369561bdcb22f8a63c0b118c479 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 80c1c309d8f2f02573c20410150ade13d8377af7 Merge tag 'arc-7.2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 c6859eed755df351a3978b33cb92365f9b3e8f06 Merge tag 's390-7.2-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-42d522b4c96f2a80ee739441166a02e0ebd1bd46 tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
-74954f7651bbb460523b3374284689b2086adb67 tpm: Remove redundant dev_err()
-6d41c11ef3044788902a05e292cd7f0a9c7a8157 tpm: atmel: depend on X86
 
---===============9040976909796873099==--
+--===============7881449897448464278==--
