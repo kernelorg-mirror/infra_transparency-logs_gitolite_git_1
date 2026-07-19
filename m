@@ -1,50 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3771609969392678076=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 19 Jul 2026 22:48:44 -0000
-Message-Id: <178450132432.1973863.3983546942268413264@gitolite.kernel.org>
-
---===============3771609969392678076==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 19 Jul 2026 22:56:22 -0000
+Message-Id: <178450178248.1980452.16754351316956832020@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: c89b22faa9ba8ffaed2c696a360528844b5ba069
-    new: 2aaa41cf974f83a6fb105422bac4e2f107150774
+  - ref: refs/heads/spi-7.3
+    old: 7d9ce414ead2f5dddf3d516027eb76993f5f3926
+    new: b247067fb1df78e9dfaf6d609774bf0caedb9c75
     log: |
-         2aaa41cf974f83a6fb105422bac4e2f107150774 ASoC: meson: Keep link pointers valid on realloc failure
+         fc46551cfa3b30ac96ee40a0cdb61c35b063ba8c spi: axiado: merge identical if/else branches in ax_transfer_one()
+         7720f98d08fddd21369ddfe048900cc89efd99b3 spi: axiado: fix kernel-doc comments
+         b247067fb1df78e9dfaf6d609774bf0caedb9c75 spi: axiado: cond_no_effect and kernel-doc fixes
          
-
---===============3771609969392678076==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1784501322 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784501321-94da262bb1212a763e0959c1ff32d695242a6f4e
-
-c89b22faa9ba8ffaed2c696a360528844b5ba069 2aaa41cf974f83a6fb105422bac4e2f107150774 refs/heads/asoc-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpdVEoACgkQJNaLcl1U
-h9BOFgf/foQZEUZ2awcSfn6Mxn6LQ9BKzmE1iwtc44LZzezSeDa0+DNYAgywzWq6
-Bh7SPMf4YUCOt+Fw/cJcf+2apNYQHcmeRDLuidYSSQDXdcSW7CNqeuOSSBFF8RhK
-NQpHpM0bKC4Qfm5expLM4xOQADS1/9oacQbynb5lw8EA3SlT6Zbx9QhHlAtCKc+1
-76CGLg4Hwa0lRoENZdtSLxZs4S0cHB/ZieXrXX2l25nhwPP704dutPA3ANTPNWav
-fe4z2jeX0lgvB8MkIftOmkuvcl/Jx5hyjpGV2zmgt8BXFyEAHR0vCyEBeYaCoNqJ
-WNAKmB3sLFdO3bDwedkbcrEaY8d8Og==
-=FC/v
------END PGP SIGNATURE-----
-
---===============3771609969392678076==--
