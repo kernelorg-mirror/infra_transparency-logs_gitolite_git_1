@@ -1,57 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8355601176980475224=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 19 Jul 2026 09:11:59 -0000
-Message-Id: <178445231975.1391401.15322106664459095966@gitolite.kernel.org>
-
---===============8355601176980475224==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sun, 19 Jul 2026 09:22:32 -0000
+Message-Id: <178445295208.1398666.6053207819047804823@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 8521bfbcca1fd5b6d118dbfeb1fda037e8e0a78a
-    new: 30019449fbfc6373106347ef1beae772121a1bd3
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 44db949860fe25a65b41a30247c461fc179a8822
+    new: 713d5e5cb79b44210a4664a47ed4c9c9b8f10fd6
     log: |
-         7beacc964be25ec91f397f6cff8835a798028187 assign some more 7.0.7 CVE ids
-         30019449fbfc6373106347ef1beae772121a1bd3 mark 7.0.7 review as completed
+         126eeddbb23fec10f18474b77219023186c19557 sched: Distinguish proxy activations from wakeups
+         7426213471b852981e21e394646710530d40ad98 sched_ext: Block proxy donors across scheduler transitions
+         cc02e702666c8a32725136788561f8e746427d5b sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+         76a61fc8d868f50548ae9609e19178dde43b68d3 sched_ext: Fix proxy-exec race in consume_remote_task()
+         1f02e2a0d0d5c09dd2e71b130e09bc42a18adb0b sched_ext: Split curr|donor references properly
+         ad5162ec6b4fbfc61d76980428e82d6e5033eeff sched_ext: Handle blocked donor migration with proxy execution
+         f0878627f6c3fe33dfbda0a1b7fcf406abbe4e06 sched_ext: Delegate proxy donor admission to BPF schedulers
+         2dfe075e3a06b5431e6ed67d6e1c7a3f9564cda7 sched_ext: Add selftest for blocked donor admission
+         0832a3a3f7ebf7f000e366773be1581841c1d66c sched_ext: scx_qmap: Add proxy execution support
+         713d5e5cb79b44210a4664a47ed4c9c9b8f10fd6 sched: Allow enabling proxy exec with sched_ext
          
-
---===============8355601176980475224==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784452236 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1784452316-ff3f71e1fcb248d1521c08a10ac7b7db224977f9
-
-8521bfbcca1fd5b6d118dbfeb1fda037e8e0a78a 30019449fbfc6373106347ef1beae772121a1bd3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpclI0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0pEP/jjt3bE+anH6Wt7tK6cH
-SCLbEtmszr6BOJt8rxa9ILXfpkqqO17OQ/z+JR4gvnhE8eIlHw38//9l3yGZdSFU
-DR9oG2JfdGth2nSZTFAinZGDciC7B2GpRAp8GghYJbhWvX6aUoutrr/KK4wMyOYX
-7KJ6OXor5IioGnYg3Jfe1DdiQ5OVOXZaLM10Hax+NsSoTRI8HHJ70kGcty85xiHf
-XPndxjBgkIkSNdnJMTXGcEz500XFGoI6+BgMdAsZNKsfHNFpM4kV6ftNAK40bNVr
-UFqFev5GLUKX5uYDO4NuGBw9SQxaoGu6fyPw8E6QcXHhET1IMxlZaK1N/226bYbi
-QoemV/qFjytAAge/sF+XO696jIJVK6gQs9MP93tlwaCNk2rnr1zy5wxCQBcY1s2r
-X/X563WIf2so1LXA1DRWoLl0YMH4hl2wWz8N0Gx9HkgrK9BW1XlWJPttSDZHuKlK
-Gs/LU20+NwvBHl0O3cp0ss12OH3d6MgYjQPkrLHvMD1VSqy4AzXyw9k57o329rRz
-KNnxkBXo24ICUpP12tnW3Mv+sUR8uRrYrpv47D7zZZF1E1IiSYrjUmALyceEeQE1
-uCgM2IWmAFMFFScKZuJMMDna+IF/uxzpaPNzXQ5l7E5F8/dp3S7fdo+n4RouevT1
-Z9xyDHZjbyMKKsoNMxJPiDsI
-=RWNP
------END PGP SIGNATURE-----
-
---===============8355601176980475224==--
