@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4247867176514488771=="
+Content-Type: multipart/mixed; boundary="===============3637993038733492775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 19 Jul 2026 07:42:27 -0000
-Message-Id: <178444694747.1272227.14753437414822533027@gitolite.kernel.org>
+Date: Sun, 19 Jul 2026 07:43:21 -0000
+Message-Id: <178444700129.1272696.884636065755729205@gitolite.kernel.org>
 
---===============4247867176514488771==
+--===============3637993038733492775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b94f4faa5968ae9eff8bec1af0d53c4ea2a058ba
-    new: 8e673f80ce42818bfd2f2c104889f0bdf3c0c39c
-    log: revlist-b94f4faa5968-8e673f80ce42.txt
+    old: 8e673f80ce42818bfd2f2c104889f0bdf3c0c39c
+    new: dcfdab9fe18037f0343533a58d8aa2a5731bd20c
+    log: revlist-8e673f80ce42-dcfdab9fe180.txt
+  - ref: refs/heads/tip/urgent
+    old: 3d2378ed6c8ffdae7d5f852eb9559b09266f78a3
+    new: efb3ec746bb75a27ced648d03974c93fe4370501
+    log: revlist-3d2378ed6c8f-efb3ec746bb7.txt
 
---===============4247867176514488771==
+--===============3637993038733492775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b94f4faa5968-8e673f80ce42.txt
+Content-Disposition: attachment; filename=revlist-8e673f80ce42-dcfdab9fe180.txt
+
+efb3ec746bb75a27ced648d03974c93fe4370501 Merge branch into tip/master: 'x86/urgent'
+a08b27107ef8ab88c80bdb2a6a50084e97231a50 Merge branch into tip/master: 'perf/merge'
+a30a6d26fc201a17397dd3c09071093d1a4bf42d Merge branch into tip/master: 'core/entry'
+4bb4a19b25a234c1e4a27524085deb950ed64fd2 Merge branch into tip/master: 'core/rseq'
+3b2f38cbd2f88191520522cc74d432851102199e Merge branch into tip/master: 'irq/core'
+15ed949fb229555ab90c26e06757d134a451309a Merge branch into tip/master: 'irq/drivers'
+fcbce454a025b6309e94e61752595b2126c67486 Merge branch into tip/master: 'locking/core'
+d70df9f0fb72e610088fb762063d82c959046277 Merge branch into tip/master: 'locking/futex'
+4241622adf4286dd96a44eeaa734425e6db4ceee Merge branch into tip/master: 'sched/core'
+d15ca083919be12d3c25bbd5fb7990e7b477dd36 Merge branch into tip/master: 'smp/core'
+7bd0ca34e8a74819fa5fbcf985001d003060fe56 Merge branch into tip/master: 'timers/core'
+5d5f53c31f83496a69e29a643ea51bdfdd74b432 Merge branch into tip/master: 'timers/vdso'
+9d9a344a9aec8c9e8d3bdf978ff86b54f48005d1 Merge branch into tip/master: 'x86/alternatives'
+08bce362c442e753e0754b98c88af9a22a91e898 Merge branch into tip/master: 'x86/build'
+0b391ac4045ca4a6fe8bcabfcf85bbcf0dc5e26d Merge branch into tip/master: 'x86/cache'
+a8374d4514f767044e55289f361f756b8415306a Merge branch into tip/master: 'x86/cleanups'
+93a51768fbcae45b59f253752afc92e0a8e9b91f Merge branch into tip/master: 'x86/entry'
+2ffc1d71ddbd412a661e9b30afce93542a386c99 Merge branch into tip/master: 'x86/mm'
+5daef3544417fae283cf22ef34977dce90648e12 Merge branch into tip/master: 'x86/msr'
+dcfdab9fe18037f0343533a58d8aa2a5731bd20c Merge branch into tip/master: 'x86/tdx'
+
+--===============3637993038733492775==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3d2378ed6c8f-efb3ec746bb7.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -348,6 +379,6 @@ ba6bd0df9adb2a7a02db9d1973fc1dc3489b0758 Merge tag 'i2c-fixes-7.2-rc4' of git://
 f2ec6312bf711369561bdcb22f8a63c0b118c479 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 80c1c309d8f2f02573c20410150ade13d8377af7 Merge tag 'arc-7.2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 c6859eed755df351a3978b33cb92365f9b3e8f06 Merge tag 's390-7.2-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-8e673f80ce42818bfd2f2c104889f0bdf3c0c39c Merge branch 'linus'
+efb3ec746bb75a27ced648d03974c93fe4370501 Merge branch into tip/master: 'x86/urgent'
 
---===============4247867176514488771==--
+--===============3637993038733492775==--
