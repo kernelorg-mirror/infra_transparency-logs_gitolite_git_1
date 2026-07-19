@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8219016194106018336=="
+Content-Type: multipart/mixed; boundary="===============9158774648983958920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sun, 19 Jul 2026 12:42:54 -0000
-Message-Id: <178446497452.1541888.627572504735375508@gitolite.kernel.org>
+Date: Sun, 19 Jul 2026 12:42:57 -0000
+Message-Id: <178446497715.1541998.13726608363526594978@gitolite.kernel.org>
 
---===============8219016194106018336==
+--===============9158774648983958920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/microchip-defconfig
+  - ref: refs/heads/microchip-dt64-fixes
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     log: revlist-254f49634ee1-dc59e4fea9d8.txt
 
---===============8219016194106018336==
+--===============9158774648983958920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 
---===============8219016194106018336==--
+--===============9158774648983958920==--
