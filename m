@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Mon, 20 Jul 2026 16:50:12 -0000
-Message-Id: <178456621289.2899871.2926683770578544967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
+Date: Mon, 20 Jul 2026 16:50:31 -0000
+Message-Id: <178456623192.2900514.1884051199721364307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/kwilczynski/linux
+user: kwilczynski
 changes:
-  - ref: refs/heads/i3c/next
-    old: 4a51ae0a1b1195235f6b03d237a32214cac2c55a
-    new: 7e05871da7ac60da70ad2a4678e699f36c63b971
+  - ref: refs/heads/kwilczynski/kernfs-unmap-mapping-file-v1
+    old: d0df29cef9a61fa301f0ae5f3be0c80639c5fce3
+    new: 8ebb7b169c66e7116a1945c9b94f8f7d5c9f5f20
     log: |
-         56cffc20a329a253c3179f758488f5394d1cf452 dt-bindings: i3c: Add AMD I3C master controller support
-         7e05871da7ac60da70ad2a4678e699f36c63b971 i3c: master: Add driver for AMD AXI I3C master controller
+         4ec54613255135ef43d671a4b40b14c98aaa5dc8 mm: Add unmap_mapping_file() helper
+         8ebb7b169c66e7116a1945c9b94f8f7d5c9f5f20 kernfs: Unmap swapped file mappings by the originating file on removal
          
