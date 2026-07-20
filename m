@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 20 Jul 2026 09:56:56 -0000
-Message-Id: <178454141648.2502715.2112560069943928999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 20 Jul 2026 10:06:20 -0000
+Message-Id: <178454198050.2509443.4229883632957841496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/sched/preempt-dynamic-simplification
-    old: 20acb4b689913343d9cf8014146411d36ebb8873
-    new: 1319734ff812c18a9a533be406a956d285fd7273
+  - ref: refs/heads/master
+    old: 84a9f92ad35d3cfe124c179a8259b572a6db6c2d
+    new: 02dd40f4c94fa07e9e98cbcb7bf3cca479802cfd
     log: |
-         fcb9316e06d1bde4f3c1ee084182ad5aba3ef60e sched: dynamic: Make PREEMPT_DYNAMIC depend on ARCH_HAS_PREEMPT_LAZY
-         9ed00666063c5400fdaa414ba7ecbf1ef1c1f79e sched: dynamic: Simplify {cond,might}_resched()
-         30016a09ca5bffd3eed943227ed199f11c72b9c3 sched: dynamic: Simplify preempt_schedule{,_notrace}()
-         6c6b998a9f0638e86ac9d036fadb5e7cae42cb20 sched: dynamic: Simplify irqentry_exit_cond_resched()
-         e1f2ef3a8e18908121849fffaebca1cb3f839170 sched: dynamic: Remove HAVE_PREEMPT_DYNAMIC_{CALL,KEY}
-         1319734ff812c18a9a533be406a956d285fd7273 sched: dynamic: Simplify preempt model accessors
+         68d47be8eac44ec8944181c6d8dd80afabbfb7fd genirq/msi: Move misplaced EXPORT_SYMBOL_GPL for msi_domain_free_irqs_all()
+         02dd40f4c94fa07e9e98cbcb7bf3cca479802cfd Merge branch into tip/master: 'irq/core'
          
