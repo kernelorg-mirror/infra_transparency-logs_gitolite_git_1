@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4993491691522572067=="
+Content-Type: multipart/mixed; boundary="===============6879026852713915954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 20 Jul 2026 10:12:07 -0000
-Message-Id: <178454232797.2514297.16045645174579732350@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 10:12:13 -0000
+Message-Id: <178454233335.2514552.9196595515151693881@gitolite.kernel.org>
 
---===============4993491691522572067==
+--===============6879026852713915954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/smccc/fixes
+  - ref: refs/heads/for-next/smccc/updates
     old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
     new: 1590cf0329716306e948a8fc29f1d3ee87d3989f
     log: revlist-a13c140cc289-1590cf032971.txt
 
---===============4993491691522572067==
+--===============6879026852713915954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -584,4 +584,4 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
 
---===============4993491691522572067==--
+--===============6879026852713915954==--
