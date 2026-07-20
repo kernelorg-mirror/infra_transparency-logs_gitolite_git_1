@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8651514602243931848=="
+Content-Type: multipart/mixed; boundary="===============4549502170732756508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 20 Jul 2026 08:49:49 -0000
-Message-Id: <178453738959.2455763.10635977369208990447@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 08:50:07 -0000
+Message-Id: <178453740708.2457959.17322864175463316642@gitolite.kernel.org>
 
---===============8651514602243931848==
+--===============4549502170732756508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 2f542206d33e446736197d9fb8a6ba3f264937a9
-    new: 84d48305f30dbec53df912f30d2e29fe965ff50b
-    log: revlist-2f542206d33e-84d48305f30d.txt
+  - ref: refs/heads/rndis
+    old: 70f4a83b5faf7e5c77d7b31734aa4cc314b2b646
+    new: 186842a7d83388298e7d98b6cadc2642668d32a5
+    log: revlist-70f4a83b5faf-186842a7d833.txt
 
---===============8651514602243931848==
+--===============4549502170732756508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784537367 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784537385 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1784537373-1cc9fb5f3b4e66d52272c85603eed39d1117db69
+nonce 1784537390-b832c9f6473ed2e8388831043982780803f2aca0
 
-2f542206d33e446736197d9fb8a6ba3f264937a9 84d48305f30dbec53df912f30d2e29fe965ff50b refs/heads/module_version_removal
+70f4a83b5faf7e5c77d7b31734aa4cc314b2b646 186842a7d83388298e7d98b6cadc2642668d32a5 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpd4RcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+81IQAIubNiosD0pxKmS6LBl7
-rSL8GtVRxYguiEYm5flyW/vhZziktHxscEKTQjyn0kvw9a/S65gBXf4DBO7FdB5A
-EKM+jAfbQi5e+1SZfWXjaGLQnUBJNfgLSQjViV03OW6LG0sanF7wVDUHIqJ9QMV7
-oiKAO5Y8350hh5uLZIDNpNz8nD0apRIzEmTO0gUoFzIG6RXLJTRbwtu8rpN3s1ty
-rLQ4P0HLnCOtN4fEfPH4IM6T2YNUEtj6V8Js5Q3gp5PXPmKV9apntZHAmFNG2AeW
-UK2j9azrOcu1qYXujR0oLi4IEW97KV5h+xhRKw30DoK5sZXb6l2k0Rgr96Y03vg+
-7/vT3LhcmX1wEUXW5wXwKNFyP/T/KlrHLhFvfjfYLgiQT9sxtKKKzB7AyiB1tCTv
-uj4E+pOaqMYoWvNuBUika9gg+iCr4DDYG6odbLJdu2JyVVEcX6qfbhzFAGNhq7ED
-zwJwbW6BaII+NlQPqsMmqgpt1pKudevAxofu2mB5mdrIZ01QC34CfSbpfhsHtoiL
-tLdbjt7YlKbctfrVs80qk93d1e+X4bA4SWtzWYQ1rXnCGlIxnp3uWk/q0cTSAG+o
-Sde+Ujqbccqf21P+INE8+6xyZlbSSbpMhjQFMxeVv3cUodDqEa/hygRpTHPfzD4X
-qXJ7q06Ryx/piPz/qw5GqbzY
-=vOV2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpd4SkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yOEQANBcTRzPIk8gOOURc1uC
+R6CRVyBqpS6Hfmx7Mzo9Tb0szKDhLk9b28V77+3t7rLtmpNeh2sIjzvFReD498va
+ySSdenOx1QJvjjQYJt6YZz4JeKbxg6PI8X9i0BXY8XmJgdQeqZF0877l8VtBEvHU
+xB7hckV7JiwSjf8mv+MDccOwlvMQatqql6w8YIVGEGXr6U2Qb6BxySBqAaALf7Js
+X72oUuo2NiJmpWvneQVf2hBgvGvbhDSEkUXEnyjJfpNbIBShJbfL46Yjontd4Z26
+KiIKCxcxfNVCldvcQ0BOG7+WzKXEhBik5z77nai772xO36mIvdZjFwAD1Jj9KlZF
+c70nzqqnbvHbqnWQR8IaAmPdS+IaV7mQGoDY5qQUlKCWSVFJV3K+J+fibIqAhL78
+kRqpNHCE079djPqCDhmNPnCSBsaoODxVA2iUvT5wveyGJoJ3VagEg/sprcbUOB/+
+4MJZY4LDscKJCcpadP8D+sxQ/ftSJJyRkG455o+BJIGmlf78a2RaRotDYQfAHNQ8
+SXmXG3wb0oraz5abPPUhGNIlRkOKEoJZOCOHhnsmA4gzScN6vD1jEAMfPz+AaStV
+XQ+001n/xpMEk78eFtfLWW0l59Va8RG0NZvB2l8uExZjKcC2oVEutyk5avPY6aX1
+T9OsjktDQ/v/gU17MgUZSp7J
+=iLXw
 -----END PGP SIGNATURE-----
 
---===============8651514602243931848==
+--===============4549502170732756508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f542206d33e-84d48305f30d.txt
+Content-Disposition: attachment; filename=revlist-70f4a83b5faf-186842a7d833.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -614,6 +614,8 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
-84d48305f30dbec53df912f30d2e29fe965ff50b module: remove MODULE_VERSION()
+8fbcb86ebc0c6ef8ca75984d41f364975de861aa USB: disable all RNDIS protocol drivers
+30195e016ecc2b0fe78007197650c4f1c0636be3 USB: potential rndis host fix
+186842a7d83388298e7d98b6cadc2642668d32a5 rndis_host: add overflow check in rndis_rx_fixup()
 
---===============8651514602243931848==--
+--===============4549502170732756508==--
