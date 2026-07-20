@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8762239824007584397=="
+Content-Type: multipart/mixed; boundary="===============1810493897246183426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 20 Jul 2026 17:46:57 -0000
-Message-Id: <178456961712.2944835.4323635607310538353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 20 Jul 2026 17:47:26 -0000
+Message-Id: <178456964626.2945221.7176366754677472183@gitolite.kernel.org>
 
---===============8762239824007584397==
+--===============1810493897246183426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 2aaa41cf974f83a6fb105422bac4e2f107150774
-    new: acc414eda8e9b2e33c7afcd04549616b973704c2
+  - ref: refs/heads/for-7.3
+    old: b247067fb1df78e9dfaf6d609774bf0caedb9c75
+    new: af4b98e33d5607f80b49e792e0a74cb068d810f0
     log: |
-         acc414eda8e9b2e33c7afcd04549616b973704c2 ASoC: codecs: ES8389: Remove redundant comparison
+         af4b98e33d5607f80b49e792e0a74cb068d810f0 spi: spi-rpc-if: Implement 200ms runtime PM autosuspend delay
          
 
---===============8762239824007584397==
+--===============1810493897246183426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784569615 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784569615-142bc1cf8ebcc91a58010867a9d1cb26136d38d4
+pusher C3F436CA30F5D8EB 1784569644 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1784569644-af605ec237f7ec6dee07ed56342fc4b23bedc211
 
-2aaa41cf974f83a6fb105422bac4e2f107150774 acc414eda8e9b2e33c7afcd04549616b973704c2 refs/heads/asoc-7.3
+b247067fb1df78e9dfaf6d609774bf0caedb9c75 af4b98e33d5607f80b49e792e0a74cb068d810f0 refs/heads/for-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpeXw8ACgkQJNaLcl1U
-h9AIlwf+NbNobZLa0uJ0Lof4kpU1fP85omklXqyhXNY7E1HsEKDFb376gqFUwndR
-XD65RvWsHjFYVmn0sJFpgrPxlupL/jCyTgQDEhcKL/J65aAvEBe/eOWVh9rKwVYa
-k0jeOElqx0b4f2MPYVUq28oVFaKm36hqmQd8pMRp3bplzjZB51oIVbGsX/rCxSEh
-kFL/kGBjnZW6w1KOC4LlBVrmWVS3oN6Zs29jexVh4JXz6wavUFE63vRDX5mXleL4
-brFfx32Tg/0WkH2MM+LEngGKIFEBYs/grcThnnbLBGY5rTZ8EWlL65DVaF9g2ao1
-vvPlVwDS4ynQdLw2u9DOJe8YymLkvg==
-=gzaV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpeXywACgkQJNaLcl1U
+h9CEOwf/bYa08pyvjn/iRZi2D6QCW0qtuU1R4OyFGl6F1RWr5P6dnaCQuju0p2Xx
+C3PNeR6wHBJ+mNnmohaLRr2SvylTb5rLJ+/8IcncYZ00pFHA1dBnxkl0BUBzI33x
+8fi40jhOKpxd6Id4VwoJ7TXkn7uN/j0pO///z4aTbCbWoDgWf3I5JoKTamLfFJB4
+0PXSRHXVg9O8lL1uL/rmLtVsfq/f2P0Z2Qnewz99AM66zRUGBYDCDI2Gip1bweSm
+FWCBZyZL6128z5eXESNychLTMcjqzW9Vc6yNqrRr6Uj4pr8x/MTnH4pH+Cj+53YX
+z8wpc5p/FdJd6djY/xKofCp9jWo2VQ==
+=w0Ae
 -----END PGP SIGNATURE-----
 
---===============8762239824007584397==--
+--===============1810493897246183426==--
