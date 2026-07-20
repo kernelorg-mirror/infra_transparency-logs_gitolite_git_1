@@ -1,48 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2423613269835462734=="
+Content-Type: multipart/mixed; boundary="===============8480806821946782387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 20 Jul 2026 18:09:40 -0000
-Message-Id: <178457098019.2960848.16748131073179986038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Mon, 20 Jul 2026 18:20:01 -0000
+Message-Id: <178457160110.2967686.12872071974926347031@gitolite.kernel.org>
 
---===============2423613269835462734==
+--===============8480806821946782387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/dev
-    old: a4256b0f69daf14a3408388bdd2e082da4989660
-    new: d152e0d6c068c9839a50856e003d0c26646c9031
-    log: revlist-a4256b0f69da-d152e0d6c068.txt
+  - ref: refs/heads/for-next
+    old: d53dd4b22c0c85f6e4b18c7d0d4360c6d6294f61
+    new: cb1c4d2728685e62bcb49581565affc58ffbc841
+    log: revlist-d53dd4b22c0c-cb1c4d272868.txt
 
---===============2423613269835462734==
+--===============8480806821946782387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4256b0f69da-d152e0d6c068.txt
+Content-Disposition: attachment; filename=revlist-d53dd4b22c0c-cb1c4d272868.txt
 
-51868cdbffa01280285783fe1b5ca88453c968f8 rcu-tasks: Fix IRQ read lock/unlock data race
-e9cfac574201caf2f448975712a8302e12d04b75 rcu: Remove unused expedited_need_qs field from rcu_state
-09056c40b9df6919cae6ad92c48ae7e951d77b49 rcu: Remove unused rdp parameter from trace_rcu_this_gp()
-5a3dbb324fd34f7c69076365d97bdf846c83866c rcu: Remove unused func parameter from callback-enqueue functions
-d317d493d268d9a6e4b92b78c748e4aca4f73fb2 torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
-69274c2bde1ccae93d3e32fe6a07141e2126b70a scftorture: Count single_rpc offline failures in statistics output
-2c93b7c8fa71894630587b07440745dd02514e38 scftorture: Make invoker threads actually wait for all threads to start
-a0ede765aeb4448727ce03e75be60dfa4f102142 rcu: Rename struct rcu_gp_oldstate to rcu_gp_seq
-fa710df984fd0a2c579af4b5617702e8de8b00e6 rcu/segcblist: Add SRCU and Tasks RCU wrapper functions
-0069aa3e9a628108a7cb29b163a9a0210b1aad68 rcu/segcblist: Factor out rcu_segcblist_advance_compact() helper
-75dae8876ad47c99dc2fb5aa6e3f2884fdd21a68 rcu/segcblist: Track segment grace periods with struct rcu_gp_seq
-f3110d0be8fb6497e524c07344d79edf69eb6cad rcu: Add RCU_GET_STATE_NOT_TRACKED for subsystems without expedited GPs
-5f03a90d0ce3b93c5d3641e73f479669b6fca8c9 rcu: Enable RCU callbacks to benefit from expedited grace periods
-50129131cdcf4d5dcccbbd10a9181913779f7379 rcu: Update comments for gp_seq and expedited GP tracking
-e83710f07c98b43c096fa2d4ae62675cba585c37 rcu: Wake NOCB rcuog kthreads on expedited grace period completion
-ed52e3ebc148d80ffaf9a5bb82cb24b97ba9aa15 rcu: Detect expedited grace period completion in rcu_pending()
-68bf75a1b513665df2c2313398778d78eddb62bf rcu: Advance callbacks for expedited GP completion in rcu_core()
-d152e0d6c068c9839a50856e003d0c26646c9031 rcuscale: Add concurrent expedited GP threads for callback scaling tests
+b68333c76738be779876f0c619dddd4b0a7ddd50 dt-bindings: soc: imx: Add fsl,eim-bus
+9d40f2a740fd64991919d6f58d741a44f736535e ARM: dts: imx53-ard: change node name eim-cs1 to eim-cs1-bus
+8381098761d85ec09a838c02827df3b1dca8db6b ARM: dts: ls1021a-moxa-uc-8410a: add led suffix to fix CHECK_DTBS warnings
+5bd40da5afd7a09a0dfe655b26189197935eb493 ARM: dts: ls1021a-twr: add power-supply for lcd panel
+09ea402c1c2c5f6bf6ef7b0f00045f91b5e8e926 ARM: dts: ls1021a-moxa-uc-8410a: use compatible string ethernet-phy-ieee802.3-c22
+b5a62376f6f0a3dbf585c9007aa1b196022435f9 ARM: dts: ls1021a-moxa-uc-8410a: replace spansion,s25fl164k with jedec,spi-nor
+b022b074d615aa04abf3d73ec497c88d7ce09a9d ARM: dts: ls1021a-moxa-uc-8410a: remove undocument property default-state of gpio-keys
+b8d669c5805736a7664524ec625425111863eec0 ARM: dts: imx6dl-plym2m: change #io-channel-cells to 1 of voltage divider
+aa5c8f1b5ee936661058455480e6e843fdf1d5b7 ARM: dts: imx53-smd: remove undocument property clock-names of ovti,ov5642
+5af3e703f2604f7a3bc44422c1d30b128aa49f7c ARM: dts: imx6ul-isiot: remove undocument property clock-names of fsl,sgtl5000
+12ed4b9ab36a84a5082e13004d799c0d70200382 ARM: dts: imx6ull-engicam-microgea: remove nand-ecc-strength and nand-ecc-step-size
+d879cc948e6f7046af65c867a496bc9cde1da8ef arm64: dts: imx8qm-ss-dma: add lpuart4 node
+f57bf4c11d7fa95afaea45a14d91b067406c60f0 arm64: dts: imx8qm-ss-audio: add spdif1 node
+617bcacbf0905d2ac25c1fe6d2ab45afc4f9fc3c arm64: dts: imx8qm-ss-lsio: add lsio mu8 and mu8b
+8563591f76ca02c1a6fd70ce986df1d0dde8d249 arm64: dts: imx8-ss-audio: Fix LPCG clock indices for ASRC0
+174b7dfb7dce9017e482c1fb2aa04ed28a141936 dt-bindings: arm: add MBa93xxCA as mainboard for TQMa91xxCA and TQMa91xxLA SOM
+4d0d3a3d1993a41b2bf8d28aa6c6071fa1a3bff7 arm64: dts: add devicetree for TQMa91xx on MBa93xxCA
+cb1c4d2728685e62bcb49581565affc58ffbc841 Merge branches 'imx/dt' and 'imx/dt64' into for-next
 
---===============2423613269835462734==--
+--===============8480806821946782387==--
