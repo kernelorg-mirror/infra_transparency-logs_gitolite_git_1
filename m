@@ -1,62 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3389531335081522324=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 20 Jul 2026 15:47:25 -0000
-Message-Id: <178456244581.2847060.9318040809665552392@gitolite.kernel.org>
-
---===============3389531335081522324==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 20 Jul 2026 15:48:01 -0000
+Message-Id: <178456248165.2847498.17569411145260372353@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: 42173a867bb167b83af4bd93ede80e71415e726f
-    new: 1398f9773dfe648c27d58df49c97cbc810edbccb
+  - ref: refs/heads/for-next
+    old: 4cf795dd0e3981ddc652c4d503b0880fe5250e88
+    new: a46fd918f7907ecdfd1b1d03210463eef80f0def
     log: |
-         c986cac47f785a1b2077f1c15eb8b362a8ee4bb2 7.1-stable patches
-         9794251a3aa218a98d48d1b756aac28429293b42 6.18-stable patches
-         d7d328814116e4b5732fe3a19de9d0a142dbe5d5 6.12-stable patches
-         345f29716a02f960797ff6bc34e7e07650312084 5.10-stable patches
-         c1a90ca28efa6aecc8a27b2ba7605887f9bff950 5.15-stable patches
-         6e8e44f018a69756686295dbb5fc2a560b84b782 6.1-stable patches
-         1398f9773dfe648c27d58df49c97cbc810edbccb 6.6-stable patches
+         73c37fe54cd056d07461b142ab0b8b81e1ef6ad8 dm raid1: reserve space for NUL-terminator in build_constructor_string()
+         fb9e17287a4ea1cbbcedc77e6866978ecc2a7b55 dm-pcache: fix implicit u8 truncation of gc_percent in message handler
+         c2e894eac398b258f12fdec73ed6ba081047f7b3 dm-pcache: fix use-after-free and invalid seg operations in kset_replay()
+         8765dcb96f00b65de4a59b29c25fed5d8b3cedf1 dm-pcache: replace tabs with spaces in comments to fix ASCII diagram alignment
+         a46fd918f7907ecdfd1b1d03210463eef80f0def dm-pcache: remove unused 'allocated' variable in cache_data_alloc()
          
-
---===============3389531335081522324==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784562435 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784562440-d07587ee5e3ff8d3340213e1a2ed062ba878809b
-
-42173a867bb167b83af4bd93ede80e71415e726f 1398f9773dfe648c27d58df49c97cbc810edbccb refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpeQwMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iogQANLEcW4YrHF2+ONfFFlp
-+LU/Ba2/CbSFpQZUW9cdvV0PhpYbae/QNS0oclQGspsAl3p5MiYc+CyCOfPtZLkh
-gkX/4Do2F46jBVbiHQto5wMRInxL6whydhJGSidH0ztSkL4v9DDR2ytEn2tdGW/4
-pbctoJKRXM8pZfQjhqXPldoZkiqmcTBFsNX1KSm13VNPe5ODNTa7dQSNtWzXznYn
-3cAMAg2qbQhqX1AAf4iZO7LmOYq6lALuKAz3UWei/c7IFff0lqsTKa5dWbERqwT7
-xPnjFTbJiZ10KNRex94VyWqLvJp+hrwZRnUyUF+/jW5JIs/jo/RlAYN3obnESH48
-NlWcI3nwJKXjEHAjcsj6T0rl2NojDaE1mtypEXi7TxXHE/WDN/E94emVQf8ftK+/
-ZruvMLu6iA2427R8ayg65lxPxyvZ0+auDiGwN/zsqd2NcXjLBCHD+XyFKgpb6dSa
-RB3koZkn1chpJmRkaPKRoh/IY94FmkZVxYHQA5FUM9ioXAQ3uxYgkFQrFlOK8I+e
-eg+4qp/ex61GrKEY7V1v/WOyjqRTXOfHZDfPV6OZP1pw53Njn1yZPImEqqhyIuEY
-BYdtkOrlahHAVXS9OzqJPRMeREWvrp1+5bBZ7dkA2hpzlM7zcNbBep812C1TGMZZ
-XX5llvcAj+C30gGBX0T78KUX
-=Gtdm
------END PGP SIGNATURE-----
-
---===============3389531335081522324==--
