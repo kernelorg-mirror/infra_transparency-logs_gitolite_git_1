@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7234024938898218669=="
+Content-Type: multipart/mixed; boundary="===============8486459236501660549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 20 Jul 2026 13:46:42 -0000
-Message-Id: <178455520216.2748821.10239945398291833757@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 13:46:48 -0000
+Message-Id: <178455520867.2749054.17599766597776201027@gitolite.kernel.org>
 
---===============7234024938898218669==
+--===============8486459236501660549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/for-next
     old: 78664c50babe465390ce20e489e9c6bd5a6325a7
     new: 28a06de7318fad1d0dec9bf54fe04243cc0635ff
     log: revlist-78664c50babe-28a06de7318f.txt
 
---===============7234024938898218669==
+--===============8486459236501660549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b2022068dea0fa838f63591085015c02c459479e RDMA/mlx5: use kmalloc() for UMR transl
 eb70d83a86456c91c7e6ab81bdd418868306a80b RDMA/mana_ib: Adopt robust udata
 28a06de7318fad1d0dec9bf54fe04243cc0635ff RDMA/ionic: Add robust udata compatibility checks to all uapi verbs
 
---===============7234024938898218669==--
+--===============8486459236501660549==--
