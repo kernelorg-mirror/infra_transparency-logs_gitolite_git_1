@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2231164626516316100=="
+Content-Type: multipart/mixed; boundary="===============5105697898274025517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 20 Jul 2026 13:56:49 -0000
-Message-Id: <178455580903.2758721.17752260798563603224@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 13:57:14 -0000
+Message-Id: <178455583424.2759054.3867456531283281637@gitolite.kernel.org>
 
---===============2231164626516316100==
+--===============5105697898274025517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: c759981229222613d125cf28cf46d3ccfa6d9be3
-    new: 5c6ee9c020fc2d2e28cc73b3f424a7984c5ab4be
-    log: revlist-c75998122922-5c6ee9c020fc.txt
+  - ref: refs/heads/export-net
+    old: 8067ac11d3d7b4f1241bfc50389949768bf89238
+    new: b27fd74a6787dff0f30c5b62646b33cc824a5d83
+    log: revlist-8067ac11d3d7-b27fd74a6787.txt
 
---===============2231164626516316100==
+--===============5105697898274025517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c75998122922-5c6ee9c020fc.txt
+Content-Disposition: attachment; filename=revlist-8067ac11d3d7-b27fd74a6787.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 7258770e5814f15e8308ebda82ac9acf6964ba8e KVM: arm64: vgic: Handle race between interrupt affinity change and LPI disabling
@@ -536,7 +536,6 @@ a635d6748234582ea287c5ffeae28b9b23f91c7e Merge tag 'v7.2-rc2-smb3-server-fixes' 
 ff17ec871d8741c16a29b8f365ac3f80ad9e5a79 Merge tag 'amd-drm-fixes-7.2-2026-07-09' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 695255c57ff18171190cd374cd5fb7c1539e9842 Merge tag 'drm-xe-fixes-2026-07-09' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 6763a0aea6d658d69b9215ab9151d7bd4c1c314b nouveau/vmm: fix another SPT/LPT race
-832255a6df491b6bfa41e6458d097f269b680d77 net: qed: Fix spelling typo in qed_dcbx.c comment
 5948aaf64f81f217a25dcc2bf6c0779bca19566c perf/aux: Fix page UAF in map_range()
 33cb713db0161b54f04fe830e062c9e102c29a04 landlock: Fix TCP Fast Open connection bypass
 f4b30e0b1d488e7ffd8ea28d1365b9ba8e551edb selftests/landlock: Add test for TCP fast open
@@ -570,7 +569,6 @@ b1b4efea05a56c0995e4702a86d6624b4fdff32f serial: 8250_mid: Disable DMA for selec
 302fbbb4fcbdeac2dc8c63a56c1c4e38c4781958 serial: 8250: Ignore flow control on suspend/resume with no_console_suspend
 bd910a7660d280595ef94cb6d193951d855d330f drbd: reject data replies with an out-of-range payload size
 2a892294b83f541115c94b0bb637f39bef187657 perf/x86/amd/lbr: Fix kernel address leakage
-d5d7554052f3ac45c75d8e526ded2a70a7593929 net: chelsio: cxgb4: Use str_plural() in mem_intr_handler()
 f2f152e94a67bc746afaf05a1b2702c195553112 ipv4: fib: free fib_alias with kfree_rcu() on insert error path
 4fa349156043dc119721d067329714179f501749 net/iucv: take a reference on the socket found in afiucv_hs_rcv()
 a0d82fb8505326cbc53dc9a0c08f97d11197bb30 Merge tag 'wireless-2026-07-09' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
@@ -585,7 +583,6 @@ b3fe4cbd583895987935a9bdad01c8f9d3a02310 ipvs: fix more places with wrong ipv6 t
 f468c48d488d0ea2df3422b3e1dfafae1611e853 netfilter: xt_physdev: masks are not c-strings
 1cd23ca80784223fa2204e16203f754da4e821f8 sctp: validate STALE_COOKIE cause length before reading staleness
 181bb9c9eae4f69fe510a62a42c2932d0314a800 block: remove redundant GD_NEED_PART_SCAN in add_disk_final()
-23dad2d088dfc82cae1f5a936f8ff7ffebb38dd9 tun: no longer rely on RTNL in tun_fill_info()
 58a37e7317b06665e21609a2f867a9962e9e2919 selftests/riscv: ptrace: Fix memory leak of regset_data in vector tests
 ba0b7c62cea942cd0afa35a3768a9f4874874b2f Merge tag 'drm-fixes-2026-07-10' of https://gitlab.freedesktop.org/drm/kernel
 6ee4140788234a6fabf59e6a50e38cdb936008cd KVM: SEV: Do not allow intra-host migration/mirroring of SNP VMs
@@ -616,22 +613,6 @@ adea84ee6cdea611146c4251d3c1616f5a09feca Input: mms114 - fix multi-touch slot co
 47915e855fb38b42133e31ba917d99565f862154 perf/x86/amd/brs: Fix kernel address leakage
 389704eb516b04c31f1b772f6385fd6ff1ba1b9a Merge tag 'ipsec-2026-07-10' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 7410d11460eb90d6c9281162ccc6a128534d897d macsec: fix promiscuity refcount leak in macsec_dev_open()
-5ecbbb179e0c737eb1360a877508766efb16f010 rtnetlink: Lock sock_net(skb->sk) in rtnl_newlink().
-49c26d4bf1daa8ada5a2015646adbf7b1b716b8b rtnetlink: Call unregister_netdevice_many() only once in rtnl_link_unregister().
-c6cfaf97837e18d50e65185d36b4a9d860f62a4a rtnetlink: Add per-netns rtnl_work.
-2b12ec25784954134df6cf0972a28f14dffdad50 net: Wrap default_device_exit_net() with __rtnl_net_lock().
-0fa296dd520eb388e18b97dc553926f82a09cc1d net: Hold __rtnl_net_lock() in netdev_wait_allrefs_any().
-af3634d4ac652cd93cb97dd2ad2f01536c2cebc7 net: Add per-netns netdev unregistration infra.
-d0008553a70a306c10ca2a596f449971d0579d50 net: Call unregister_netdevice_many() per netns.
-d7fda2c776b2a969b9d78c5ad00e30824df43add veth: Support per-netns device unregistration.
-a278ea7ba32a948c90da54caef9193b54652540d bareudp: Protect bareudp_list with mutex.
-f1de92507a91ea99831461721714c44fa39ddd77 bareudp: Support per-netns netdev unregistration.
-acb351b5a899a45400daa154258d970077658848 ipvlan: Convert ipvl_port.count to refcount_t.
-aabbdb8c76d7b912d9a6bb2b1e835eba54a53a8d ipvlan: Synchronise ipvlan_init() and ipvlan_uninit() for the same lower dev.
-35add1093e2fe62b755ef69b211d15b58ab915ab ipvlan: Protect ipvl_port.ipvlans with mutex.
-00a40d809207a61f0762488aa5ce72e941b367ce ipvlan: Support per-netns netdev unregistration.
-71ac90cca6d8e6fcdd674a50157181ef4ac441a0 Merge branch 'net-support-per-netns-device-unregistration'
-f6f3b36c15ed44de1fbb44e645e4fae8c4a4453e net: ethernet: qualcomm: remove unneeded 'fast_io' parameter in regmap_config
 3f1f755366687d051174739fb99f7d560202f60b net: openvswitch: reject oversized nested action attrs
 4b22d0801fadfcae2e106e6ba32e49439c7c7ebf dm thin metadata: fix superblock refcount leak on snapshot shadow failure
 596d603126e4fe6857e5e39b6d5433c3f6ab5cdd Merge tag 'io_uring-7.2-20260710' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
@@ -763,72 +744,26 @@ bc7291793fdc9fb1f48a0b50b4412581e78d2f27 Merge tag 'nf-26-07-10' of https://git.
 df6134b527a88b3e65ba6ae5073664af091d5fd2 net/mlx5: free mlx5_st_idx_data on final dealloc
 2c1931a81122c3cdc4c89448fe0442c69e21c0d5 tcp: fix TIME_WAIT socket reference leak on PSP policy failure
 d2e914a4a0d0f753dbae830264850d044026167c dpll: fix NULL pointer dereference in dpll_msg_add_pin_ref_sync()
-a620ff84d42cf46cbfb708bacd40ad5e36d02de8 netconsole: clean up released targets dropped before the cleanup worker
-ede59d06c28f62135857b93663860029429f6907 netpoll: export refill_skbs(), refill_skbs_work_handler(), skb_pool_flush()
-1fee9a9c5904760ffefea4aa360e87f98938b71f netconsole: take over skb pool lifecycle from netpoll
-28511289088c04861af80f600561a6ee1035f1c2 netconsole: move refill_skbs_work_handler() from netpoll
-2fbebfbe2953bc0ba1656b25d03338fde1066ad5 netconsole: move refill_skbs() and skb-pool sizing macros from netpoll
-67fb2038e1f65309a91f61169e75ee973f936f1c netconsole: move skb_pool_flush() from netpoll
-ba520084dc3b7f8b0bca534bd272266b764427f2 netconsole: move skb_pool / refill_wq from struct netpoll to netconsole_target
-3b247a595663744745dd0b602c6c6825c24eb354 netconsole: move local_port / remote_port from struct netpoll to netconsole_target
-49e03ca58334cd46dfd9267ced0ff91dcae2c451 netconsole: move remote_mac from struct netpoll to netconsole_target
-5c655dfd9823c2e0edf3f477637e2a05fc077fc2 Merge branch 'netconsole-stop-charging-netpoll-users-for-netconsole-only-data'
 f1f5c8a3955f8fda3f84ed883ac8daa1847e724c net/sched: act_tunnel_key: Defer dst_release to RCU callback
 e0b5252a59383b77d1b8dbeda00b7184dd95f4d3 sctp: fix auth_hmacs array size in struct sctp_cookie
 1cb8553c02e93e5a150cebd42f9ee3db0ece4707 bnxt_en: Handle partially initialized auxiliary devices
-008f965fb40f88c47f5fb852e1fef5becb0fa3b2 ethtool: link 10000baseCR to SFF-8431, Appendix-E SFP+ DA
-9df92875d6d741f9bff1ad95eeaf40b34943d2c4 net: airoha: add preliminary support to configure tx hw QoS queue during flowtable offloading
 04aeddf2dadd0eb7ad016a766dcbe9c983311f09 selftests: netconsole: only restore MAC when it changed on resume
 2c72eb6286347d05a885412fb076993bd5286b53 llc: fix SAP refcount leak when creating incoming sockets
 56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
-922cc43c624330b9cf646d52fc82c820d9f699b3 net: mana: Add debug knob to skip TX timeout recovery reset
-ce6b4d3216b63f902bb8e9695ee6c10c83415f65 net: mana: Add handler for sriov configure
-285fd588859f42b14f6f455faaa336b4077c3a87 net: phy: at803x: Use a helper to check for phy reset existence
 6917aa77675f48e7bd33392ed6590c8837001697 Merge tag 'powerpc-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 111e7b23e5b05e2298f2e1a4d2a632bee4dde8b0 Merge tag 'soc-fixes-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 45419d06c943246229ecbc392f5d1038551e9b9b Merge tag 'mmc-v7.2-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 af5e34a41cd607c00ef752e00331736570992354 Merge tag 'mtd/fixes-for-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 e13caf1c26587434f0b768193100440939c0fb91 Merge tag 'net-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-298bb2b8903323f6ef2eab4819a2e477765f0ff1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-5d7b424c45daa42f2ff7882dd4d5ae25214a355d DO-NOT-MERGE: git markup: net
-517c858edc04e73169bb99da470710da84f0c8f3 DO-NOT-MERGE: git markup: fixes other trees
-e441154411146241199304fd358cd8fef96bd7a1 mptcp: fix stale skb->sk reference on subflow close
-743e0fbe3117cac90b5a4468470c4099e46f768f mptcp: only set DATA_FIN when a mapping is present
-cbb9a289769e23a0d059d4711e6da79747c46fbf DO-NOT-MERGE: git markup: fixes net
-1b76e694eec0876a5dfa6d9ad8f21ea0fb2808a0 DO-NOT-MERGE: mptcp: add CI support
-8959259210a0b6120bc6290e6f9d2225164c4b68 DO-NOT-MERGE: git markup: end common net net-next
-8c5316acb8430f54bc8f8de5257f81e595abc787 TopGit-driven merge of branches:
-6f7789339359ae8e5e6ef1b7fc6405a6af460453 DO-NOT-MERGE: git markup: net-next
-5eca2c7b0bad63d0029c32739a49eaaaba3fbf3c DO-NOT-MERGE: git markup: fixes net-next
-84b415a4dec5324ed260cf38d9c9d7db0bcfbdd3 mptcp: pm: init and release mptcp_pm_ops
-b21e25ae24b2a93ea77cdefab199c6ff0cf45e0d mptcp: pm: add get_local_id() interface
-336b97883ab78ec97ec63c68f2c5d576f35791ad mptcp: pm: add get_priority() interface
-3ca028ef512957f2972f06e28fae45603db5f086 selftests: mptcp: connect: test name in pcap file
-717eddbefa198cc5f68e933c19ddbecd4f8ba116 selftests: mptcp: simult_flow: test name in pcap file
-ec767c9167b8019e6b8479d24ed94873895e52cb selftests: mptcp: pcap: drop most of the payload
-f9cddf5334f9e1d1fd9a8240e98b13955e274bcf mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-d4d22b26c3c770992d5d0b36d99de803ff14644b mptcp: remove unused data_ack from struct mptcp_ext
-1dd2029e9d4f1411b773c7e9aeb8bcaabd9f4e8f mptcp: move the retrans loop to a separate helper
-a57154909d41ced1121dd1007d2cd09f5faf0a2d mptcp: let the retrans scheduler do its job
-a33d89e2482a6dc6c99bb884b751641da14b0853 mptcp: explicitly drop over memory limits
-1ee44b79566433d3f10c1b523d34292e8b02436c mptcp: enforce hard limit on backlog flushing
-4afc812710708112d6805ccc9bb6affbacc747ba mptcp: implemented OoO queue pruning
-df6c24d94228e5a33523e19bbbff772a9f6c6c1e selftests: mptcp: fix const qualifier warnings in strchr usage
-c9bdb7894cec8f827e5e46a43cd4c453dc0c4c5c DO-NOT-MERGE: git markup: features net-next
-3ff8322d1d23919d3a597f7dfe67b0bbc6ff6c25 DO-NOT-MERGE: git markup: features net-next-next
-d439f080716acafe01ce131a98eade78bdca0100 bpf: Add mptcp_subflow bpf_iter
-215fe4fda0a7bafd232cd01dff7492412abb163e selftests/bpf: More endpoints for endpoint_init
-2516a58a15f5ccdc8dcca3ab9fda521add1ed497 selftests/bpf: Drop cgroup_fd of run_mptcpify
-4c7599837c4de70198a884a76e473644c8dde40f bpf: Add mptcp packet scheduler struct_ops
-6b5d2249e143731725cbabdd90f1e7b0a30a688b bpf: Export mptcp packet scheduler helpers
-3cd28ba092d0725e71ca94f94e12ea04a947c89b selftests/bpf: Add bpf scheduler test
-8d22f1ef6f3f511c3d2ed1914a8ee0e9a98cc69a selftests/bpf: Add bpf_first scheduler & test
-f6a225c749d2dfe9556bf7cdeaef3bc76aade77e selftests/bpf: Add bpf_bkup scheduler & test
-0821bd877ec351240d2071400658c7fa4f7a0397 selftests/bpf: Add bpf_rr scheduler & test
-de22191c01f9dbdffd8d2ee1cb7001523122749c selftests/bpf: Add bpf_red scheduler & test
-e168f070daf1c6d1ea8a1f21d045491ea267471e selftests/bpf: Add bpf_burst scheduler & test
-55b6169edc7c99743bc8fd0060ef03218656bbc2 DO-NOT-MERGE: git markup: features other trees
-47af4999c6689debf707637876395424b04c705d DO-NOT-MERGE: mptcp: improve code coverage for CI
-5c6ee9c020fc2d2e28cc73b3f424a7984c5ab4be DO-NOT-MERGE: mptcp: enabled by default
+caf2d3a901e1a73e7a4ae1c33afb9427d149e3a0 DO-NOT-MERGE: git markup: net
+5488fc0ef6c3a4fa169c972b9bb6af76fd6b93c9 DO-NOT-MERGE: git markup: fixes other trees
+2f62c2af8e4a2420e1f7b7541c0b9a9ca9c697ae mptcp: fix stale skb->sk reference on subflow close
+1b7575327590dfcdc90de769d9bde0b6c4886634 mptcp: only set DATA_FIN when a mapping is present
+f32fdf927d6eda82370d5505d6692838028519cc DO-NOT-MERGE: git markup: fixes net
+7b95f659d27a1732ee214f24d9d1673a0bead662 DO-NOT-MERGE: mptcp: add CI support
+04ce023088a2a37a5c7f889a1c7fb2378b1861f0 DO-NOT-MERGE: git markup: end common net net-next
+8b05067c3fffd8565c4317c4c107b448eab33bd8 DO-NOT-MERGE: git markup: fixes net only
+8b4e51fb4242745bfb6e4ba57b448e62b28ee0b3 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+b27fd74a6787dff0f30c5b62646b33cc824a5d83 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============2231164626516316100==--
+--===============5105697898274025517==--
