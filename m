@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7597938651863779920=="
+Content-Type: multipart/mixed; boundary="===============1637755211745388677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 20 Jul 2026 07:43:33 -0000
-Message-Id: <178453341342.2405334.2130357609859083166@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 07:44:00 -0000
+Message-Id: <178453344043.2405684.15186157649026835560@gitolite.kernel.org>
 
---===============7597938651863779920==
+--===============1637755211745388677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 11a8c6a8d9917059c26e213f837659c428e244df
-    new: 37a48697ffe01dd9a0d0c6f15c3f493a8a94e312
-    log: revlist-11a8c6a8d991-37a48697ffe0.txt
+    old: 37a48697ffe01dd9a0d0c6f15c3f493a8a94e312
+    new: 84a9f92ad35d3cfe124c179a8259b572a6db6c2d
+    log: revlist-37a48697ffe0-84a9f92ad35d.txt
+  - ref: refs/heads/tip/urgent
+    old: 09fac4275f318e3f0eba760b5c93fef2cee2c6ad
+    new: 1590cf0329716306e948a8fc29f1d3ee87d3989f
+    log: revlist-09fac4275f31-1590cf032971.txt
+  - ref: refs/tags/v7.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
 
---===============7597938651863779920==
+--===============1637755211745388677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11a8c6a8d991-37a48697ffe0.txt
+Content-Disposition: attachment; filename=revlist-37a48697ffe0-84a9f92ad35d.txt
+
+4f7d114ace6c247ced3a0330ace8712443456305 Merge branch into tip/master: 'perf/merge'
+88f9613226283644f028a209f85d4d99ced3be56 Merge branch into tip/master: 'core/entry'
+f49ee5cdb6d9d2046810887998db43563875da48 Merge branch into tip/master: 'core/rseq'
+b684fbc099196b193c7a4c83ab1e1e2c3577cbcd Merge branch into tip/master: 'irq/core'
+524bdecd1a0ebec980c1d5a009a673aae7f6c71f Merge branch into tip/master: 'irq/drivers'
+1df12c9e9f73a956464019d7247e56657ea8daf8 Merge branch into tip/master: 'locking/core'
+5dd6191aa30b693d33e0348b85981b0c7310951c Merge branch into tip/master: 'locking/futex'
+a04f31cbe29f1e8c8cdc29e473bbb8f273f42380 Merge branch into tip/master: 'sched/core'
+98dbb7bcd251cfdac47e2469bac896c7365e4dde Merge branch into tip/master: 'smp/core'
+4da0e84e0cc885f9345f296d13f1c79def0ad7a4 Merge branch into tip/master: 'timers/core'
+b75bac2de31974ec78108fd3cbff54fa7644a34f Merge branch into tip/master: 'timers/vdso'
+950019b889e6b0e8ccb9e1fdd58851b54d31ea5d Merge branch into tip/master: 'x86/alternatives'
+aafbe0509f182fc8d397de309dc62565df1c96a0 Merge branch into tip/master: 'x86/build'
+6d4a770cc8145a10889c3668bdc39ae1673b31cd Merge branch into tip/master: 'x86/cache'
+472254eb4e996b391584f63d21ae9c18ab0941f5 Merge branch into tip/master: 'x86/cleanups'
+e56fa3954563cb622862f66e54c458272182c42b Merge branch into tip/master: 'x86/entry'
+ab760987d0c2043212291fb3f134788893278ff2 Merge branch into tip/master: 'x86/mm'
+f6cc152c97713cffe3a52e3b9fa9e70cbfa9dadb Merge branch into tip/master: 'x86/msr'
+84a9f92ad35d3cfe124c179a8259b572a6db6c2d Merge branch into tip/master: 'x86/tdx'
+
+--===============1637755211745388677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09fac4275f31-1590cf032971.txt
 
 b6ea9680f8c101967caf9981c2980b80b818ccbf riscv: mm: Make mark_new_valid_map() stuff depend on 64BIT && MMU
 4edd70ee6a7d0408a4e3ac921185779e7605f29c mm/sparse-vmemmap: flush_cache_vmap() after hotplugging vmemmap
@@ -57,6 +90,5 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
-37a48697ffe01dd9a0d0c6f15c3f493a8a94e312 Merge branch 'linus'
 
---===============7597938651863779920==--
+--===============1637755211745388677==--
