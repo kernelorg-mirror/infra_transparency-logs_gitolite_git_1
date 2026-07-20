@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 20 Jul 2026 10:57:37 -0000
-Message-Id: <178454505727.2550390.7832161230337614981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 20 Jul 2026 10:58:27 -0000
+Message-Id: <178454510750.2550783.853975099535084214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/pwrctrl
-    old: 600e37950c7cfa2c5842f3ea1231c0e808fded6c
-    new: 62ef2a96fe7e66b8b5c4e756a8454146adee1817
-    log: |
-         62ef2a96fe7e66b8b5c4e756a8454146adee1817 PCI/pwrctrl: tc9563: Take i2c adapter module reference
-         
+  - ref: refs/heads/kvm-arm64/ich_vtr-inlined
+    old: 0000000000000000000000000000000000000000
+    new: a986da28851b2e9aa7456e27705ad5ea18754d2e
