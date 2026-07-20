@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 20 Jul 2026 23:12:39 -0000
-Message-Id: <178458915944.3169390.7868020939890213345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Mon, 20 Jul 2026 23:18:37 -0000
+Message-Id: <178458951780.3173224.5753315906160457926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 439262f91f9832b42a978cda935ca3c955bdde1e
-    new: 94da3e063883e2bf8f45497099021da0cb4a1aec
+  - ref: refs/heads/cpupower
+    old: 5100bd356cd315112c4e27e66e4f0129800eabd2
+    new: eeed6071ceda7104e3397dca24cfd3dc73948150
     log: |
-         792c48a7751346ea5e5069ec733f005d42a35b26 dt-bindings: power: reset: qcom,pon: Narrow allowed reboot modes
-         c41f57bb3b65fe0b2f5f556752dc03ac66b8c5db power: supply: bq256xx: drop always-true inner condition
-         675d0e4521e87779fbc82c958095d369addb196e power: reset: piix4-poweroff: add missing MODULE_DEVICE_TABLE()
-         94da3e063883e2bf8f45497099021da0cb4a1aec power: supply: cw2015_battery: add missing MODULE_DEVICE_TABLE()
+         eeed6071ceda7104e3397dca24cfd3dc73948150 cpupower: Add libm to cpupower for generic CPPC view
          
