@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 20 Jul 2026 15:48:01 -0000
-Message-Id: <178456248165.2847498.17569411145260372353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 20 Jul 2026 15:48:52 -0000
+Message-Id: <178456253246.2848156.3368781063326343803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
   - ref: refs/heads/for-next
-    old: 4cf795dd0e3981ddc652c4d503b0880fe5250e88
-    new: a46fd918f7907ecdfd1b1d03210463eef80f0def
+    old: deabfadbb25f53c61492d5c8bb8e8cf1f3f07352
+    new: cfce77b63375dac81d53f2f85593c548415206b7
     log: |
-         73c37fe54cd056d07461b142ab0b8b81e1ef6ad8 dm raid1: reserve space for NUL-terminator in build_constructor_string()
-         fb9e17287a4ea1cbbcedc77e6866978ecc2a7b55 dm-pcache: fix implicit u8 truncation of gc_percent in message handler
-         c2e894eac398b258f12fdec73ed6ba081047f7b3 dm-pcache: fix use-after-free and invalid seg operations in kset_replay()
-         8765dcb96f00b65de4a59b29c25fed5d8b3cedf1 dm-pcache: replace tabs with spaces in comments to fix ASCII diagram alignment
-         a46fd918f7907ecdfd1b1d03210463eef80f0def dm-pcache: remove unused 'allocated' variable in cache_data_alloc()
+         34746b5a84ec37c0ea2bf6808c65c5ed8790eb51 bpf: Disallow interpreter fallback for arena-related insns
+         905f716362e1186c1a23447ca279e6d21f795cdb bpf: Disallow interpreter fallback for gotox insn
+         7a0855e73757ee9cf25ba635a1c735018ecba742 bpf: Disallow interpreter fallback for BPF_ADDR_PERCPU insn
+         761214e5c0b14aa4e16a6b763c7a4932ce89f589 Merge branch 'bpf-disallow-interpreter-fallback-for-interpreter-unsupported-insns'
+         cfce77b63375dac81d53f2f85593c548415206b7 bpftool: Skip prog/map that disappears while looking it up by name
          
