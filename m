@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7885241033879513815=="
+Content-Type: multipart/mixed; boundary="===============5798378180290978687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 20 Jul 2026 21:53:23 -0000
-Message-Id: <178458440312.3113836.13981584869231010965@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 21:53:49 -0000
+Message-Id: <178458442953.3114201.14869395847835568631@gitolite.kernel.org>
 
---===============7885241033879513815==
+--===============5798378180290978687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: e4e9b7b38d5db2cc6a8770bc0596bb8b36b92b1f
+  - ref: refs/heads/linux-next
+    old: 5475921932322e494711fbaaf95c252c70246a0a
     new: f1e489611c836afd164b1ff56e8a36d1f6c9f33d
-    log: revlist-e4e9b7b38d5d-f1e489611c83.txt
+    log: revlist-547592193232-f1e489611c83.txt
 
---===============7885241033879513815==
+--===============5798378180290978687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4e9b7b38d5d-f1e489611c83.txt
+Content-Disposition: attachment; filename=revlist-547592193232-f1e489611c83.txt
 
 8cd2ea7bab77b7aa087b1a6cc26d2df03c2a6ed9 drm/amdkfd: Guard m->cp_hqd_eop_control setting by q->eop_ring_buffer_size
 923425ac7cf7a4f9e088b2d58d390e7d25c3effa drm/amd/display: Fix DCN42 null registers & register masks
@@ -1051,4 +1051,4 @@ d47bfc6e6372e6027d22bdeb6b748ed095956060 cpufreq: amd-pstate-ut: Skip tests when
 52385bbd5760336f74fbc72a76e081accd7a803d cpufreq/amd-pstate: Toggle auto_sel in active mode on shared memory systems
 f1e489611c836afd164b1ff56e8a36d1f6c9f33d cpufreq/amd-pstate: Cache the firmware programmed EPP value
 
---===============7885241033879513815==--
+--===============5798378180290978687==--
