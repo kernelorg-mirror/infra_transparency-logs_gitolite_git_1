@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
-Date: Mon, 20 Jul 2026 16:50:31 -0000
-Message-Id: <178456623192.2900514.1884051199721364307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 20 Jul 2026 16:53:02 -0000
+Message-Id: <178456638268.2901507.4812449020665050707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kwilczynski/linux
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/kwilczynski/kernfs-unmap-mapping-file-v1
-    old: d0df29cef9a61fa301f0ae5f3be0c80639c5fce3
-    new: 8ebb7b169c66e7116a1945c9b94f8f7d5c9f5f20
+  - ref: refs/heads/hwmon-next
+    old: f65255ee4b77bb649084d740c0f8b1ac43734d22
+    new: fa8ff8bde9207509f90adacc157b208ee732adad
     log: |
-         4ec54613255135ef43d671a4b40b14c98aaa5dc8 mm: Add unmap_mapping_file() helper
-         8ebb7b169c66e7116a1945c9b94f8f7d5c9f5f20 kernfs: Unmap swapped file mappings by the originating file on removal
+         a4f2faa29095e061aae9fce5601e4b08506a3d99 dt-bindings: hwmon: hpe,gxp-fan-ctrl: remove fn2 and pl registers
+         fa8ff8bde9207509f90adacc157b208ee732adad hwmon: (gxp_fan_ctrl) Provide fan info via gpio
          
