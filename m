@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Mon, 20 Jul 2026 19:18:21 -0000
-Message-Id: <178457510160.3010619.14867834952940969729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 20 Jul 2026 19:26:24 -0000
+Message-Id: <178457558429.3017047.9401819680118696687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: fdbb95ff89b24a65dad510c7d7100e7548c09c98
-    new: b4160f6325a84c0b04d32be32f928ca647b21b6e
+  - ref: refs/heads/x86/cleanups
+    old: 7bdcb5b3a9c5ea63aaea75adfc1ffd30dee969f0
+    new: cdb4d57c3e497fe99a9ffa54f085b75130b12b5a
     log: |
-         b4160f6325a84c0b04d32be32f928ca647b21b6e hfs: port HFS+ b-tree bitmap corruption check
+         cdb4d57c3e497fe99a9ffa54f085b75130b12b5a x86/apic: Ensure ICR register write value is handled as 32 bits
          
