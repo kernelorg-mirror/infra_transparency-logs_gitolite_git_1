@@ -1,24 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Mon, 20 Jul 2026 15:24:56 -0000
-Message-Id: <178456109663.2827483.11889200544534753678@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4131244765408549950=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Jul 2026 15:27:46 -0000
+Message-Id: <178456126646.2831051.12812540137278098777@gitolite.kernel.org>
+
+--===============4131244765408549950==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/agilex5_edac_v1
-    old: 302dd154266aab3b8a27e59a855d45374ed3b602
-    new: 9a8568cb628bf9c2b4b7e3fe10f9dceca46e17d4
+  - ref: refs/heads/master
+    old: ae17ade4ed1a31af233736549e2d862cfd66cc3d
+    new: 766c9fb91b20518cf81668843d0ca51357cd1008
     log: |
-         37dd34e0fbae9e78c8a9e316c789ded3092d3458 EDAC/altera: Fix device node reference leaks in the SDMMC ECC setup
-         df3b1ae7a290ba2364dc49c153e8ffed5dc543de EDAC/altera: use flag to differentiate 64-bit platforms
-         804fb6c92e69db0f74f25e033cfb62ee14b60e9f dt-bindings: edac: altera: agilex5: document new edac support
-         8e432f586f803413670b15d42af21dd5c7ec81bc EDAC/altera: Add support for Agilex5 ECC manager
-         33b3325085262032554be4094dfd14787dccef7c arm64: dts: socfpga: agilex5: add support for the ECC manager
-         9a8568cb628bf9c2b4b7e3fe10f9dceca46e17d4 Add more agilex5 ecc mods
+         1c890414eb360c779a01da6c301c692c64d15dc4 5.10-stable patches
+         766c9fb91b20518cf81668843d0ca51357cd1008 6.12-stable patches
          
+
+--===============4131244765408549950==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784561258 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784561264-19869fdc136677b207d6800e96a7c3a516d57fde
+
+ae17ade4ed1a31af233736549e2d862cfd66cc3d 766c9fb91b20518cf81668843d0ca51357cd1008 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpePmobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VT8P/2j4/ut6I2nLRr8IIx/U
+IWvAyohliFZWMCxWLhOTq6jN7MnsM1AUN/4pBgPNaJqYRgjdpy2tka8GxrKqXlGZ
+7S63ElYhdESXSo8XnmzpHsqhkdXKfo3ZXZs2f+t+n2WkYLvxwQgl8lv9fHbVDSW0
+WBlYN48zPxil75/dYvggs8YOfuILYjv639qlGgi1Igs5ZCV34BHQlweH3qNizlIU
+xU+KG927PGnAZusxdlFBm2HtGjUznUL0DtbuZxFC8h7Bxvzy8t1Qwof+IVKLAZeJ
+x3CtwG0upii5LbcozOmEOhwCt3RiqezuYA2Qc4wFSOpBaPihlojCeqCIsgo4vpQb
+oKRYz/nEXdTTNV0iQy3AZUKj7ZkkXEIZjdBf8Z/BXtRyXDz2RdJbGL9XyEBSG7s+
+pDEyhlID0s9JnfWe6k471cTKdcqougSExEfJaKtb6lS758pazL4C9ROGPN40gdng
+OmDmKOkmuMpCmjJ3AElBVhc7IQGeeDdaA4uNuFwXFSb/WjwKGmfHfoArviTEyIPj
++ydIe2rhJlxD/K8r5PrEmuibmxaxuV/bd8JVTTr+YL5G+1vKlg0U9GW1KSj+BR1i
+urdnQNvow+c7pj/mtNnIqqxlnasjKTOygZX6JhiUudM1Sv9zH4aUi8FpfHS81grw
+QLpUtxSWuuuVIrOk7/OeCl1s
+=86zl
+-----END PGP SIGNATURE-----
+
+--===============4131244765408549950==--
