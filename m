@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2083300134578096417=="
+Content-Type: multipart/mixed; boundary="===============4978018389686485629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 20 Jul 2026 06:05:17 -0000
-Message-Id: <178452751789.2278734.5012162225508247196@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 06:05:32 -0000
+Message-Id: <178452753223.2279329.16172983036960419311@gitolite.kernel.org>
 
---===============2083300134578096417==
+--===============4978018389686485629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/affs
     old: 0f26556c5eeea62cc934fa8938b148aa5844a6b6
     new: 1590cf0329716306e948a8fc29f1d3ee87d3989f
     log: revlist-0f26556c5eee-1590cf032971.txt
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
 
---===============2083300134578096417==
+--===============4978018389686485629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -573,4 +570,4 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
 
---===============2083300134578096417==--
+--===============4978018389686485629==--
