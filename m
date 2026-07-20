@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 20 Jul 2026 17:59:30 -0000
-Message-Id: <178457037010.2953532.246472098907715600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 20 Jul 2026 18:08:42 -0000
+Message-Id: <178457092215.2960349.13100641116217197488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/libcrypto-pending
-    old: e4f23159c8d09b6b15d47f2c95e0a3e7c62f52a2
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/x86/cpu
+    old: 3eaa50e1e255ec261c757b9eea811ef3bac10d1e
+    new: a4c714fe9746bf5a434bb798b26ebba278b798c1
+    log: |
+         a4c714fe9746bf5a434bb798b26ebba278b798c1 x86/bugs: Don't use cpu-type matching in cpu_vuln_blacklist
+         
