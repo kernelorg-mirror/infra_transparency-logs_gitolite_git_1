@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 20 Jul 2026 16:31:57 -0000
-Message-Id: <178456511769.2884558.11702600852078450069@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5997627653802430031=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Jul 2026 16:32:52 -0000
+Message-Id: <178456517245.2885004.4267372224412792352@gitolite.kernel.org>
+
+--===============5997627653802430031==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main-pending
-    old: a9af7013e8d5910736795eeaa18f7af4e6a5cffe
-    new: 65349038118cced67ae825c2a7999d8db2868101
+  - ref: refs/heads/master
+    old: 708793f83a7a54366f8d06ea6938cd769fa765bc
+    new: 40cdd28b0d3f5308fe722aa5b7f7343faa03b6d6
     log: |
-         2a233864a0dceeeebcf535e84d7968a6ae4d53e9 wifi: ath12k: fix survey indexing across bands
-         f84952c3b54f934dd8bd348b523b8ed1c114d69b wifi: ath12k: Avoid buffer overread in ath12k_wmi_op_rx()
-         fd1efeabf5ee118159a97bd1190f78a27396e133 wifi: ath11k: Avoid buffer overread in ath11k_wmi_tlv_op_rx()
-         9e9aefffbbc2a4835ea22b7087564cffe75f715c wifi: ath11k: add purwa-iot-evk and qcs6490-rb3gen2 to usecase firmware table
-         65349038118cced67ae825c2a7999d8db2868101 Merge branch 'pending' into main-pending
+         40cdd28b0d3f5308fe722aa5b7f7343faa03b6d6 6.1-stable patches
          
-  - ref: refs/tags/ath-pending-202607201622
-    old: 0000000000000000000000000000000000000000
-    new: 65349038118cced67ae825c2a7999d8db2868101
+
+--===============5997627653802430031==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784565164 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784565170-66a4146e4d96b485d5cf5dab38c068f121784432
+
+708793f83a7a54366f8d06ea6938cd769fa765bc 40cdd28b0d3f5308fe722aa5b7f7343faa03b6d6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpeTawbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hi4P/ip9HEBHVxCXS88nCyC9
+sr5OvlJaKS7D8EAKl/y4rnEq8ySvldLh4HsRo0IOiXAj4cZleN/K7YYSFwQEnJeL
+YbtQLrA04icVC2HE3J+vObkopgBQFYlnGj+CxcV+rTEMDM6RFN00scgWSyU2foEX
+qvc+FF/7Qw8vjb92xurZ4pwA3/8weg0aowE6DIiVQRpgPEMqXsiIQ5AG7SKhTQ6d
+1zNVWhSttTNOGA+c6T5LcmG7uOgsGbyVSzMUo5A7Kiyk4QoQWTg8O6QvvX782DE+
+c8cpIvFnIkhxfr5MgVs782to5FvEFDudZk1Z/i3NgLuc/SfP3BXCz8jnGcl9xVGy
+qhBzSzBhtlVghxCLspLjp4cm557WmNPQcYVcJLXHWMJhY3mVzLXBFLpYjXe81Ed+
+MPe3UnXDPqLYvmLfiOCiURFLJwf4OLz0acOClGhx00XCFWauE77zzsCP2YZcQlcn
+5CB780JPO6iZUZm4XESKa9GWGbzWTJhIqtJZdaHOeSUaaknc390mkhT20LnAwzzl
+cNPV9WXpkscpFwJ+Fcqs72kcoyKQfstuc8FbP1OxqdzheBg7KwcrjCDIGiCeihoA
+TJ17kgKi5jT7ho4yLpGTcttv2DQtw9t+wUUBg3sexaMVkWiQR0l/hY59tPlUzJ5X
+8cioZ1ob+kIzBF2aZ/Xzf3ML
+=oMTm
+-----END PGP SIGNATURE-----
+
+--===============5997627653802430031==--
