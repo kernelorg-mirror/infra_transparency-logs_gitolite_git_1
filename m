@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4107254233670708497=="
+Content-Type: multipart/mixed; boundary="===============4288944539584057861=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 20 Jul 2026 13:00:56 -0000
-Message-Id: <178455245601.2689093.14413117174390262720@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 13:01:06 -0000
+Message-Id: <178455246655.2689610.16794643997163124631@gitolite.kernel.org>
 
---===============4107254233670708497==
+--===============4288944539584057861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: f8320432ea2369fd7084b8b9c01a85384848ab7d
+  - ref: refs/heads/for-next
+    old: dab886bc4fab45b84d893aea81a86074a57d848b
     new: 78664c50babe465390ce20e489e9c6bd5a6325a7
-    log: revlist-f8320432ea23-78664c50babe.txt
+    log: revlist-dab886bc4fab-78664c50babe.txt
 
---===============4107254233670708497==
+--===============4288944539584057861==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8320432ea23-78664c50babe.txt
+Content-Disposition: attachment; filename=revlist-dab886bc4fab-78664c50babe.txt
 
 1069f1c8213b492e9b05801cc4a3148ea7d8427a RDMA/mlx5: Constify struct ib_frmr_pool_ops and dma_buf_attach_ops
 6af255a94f2aaab4dcf8642d28cdc6b37ff2ddd8 RDMA/umem: Constify struct dma_buf_attach_ops
@@ -49,4 +49,4 @@ cb902ce73e195be356336f1cd710d7f8a59e3d58 RDMA/mlx5: use kmalloc() for UMR transl
 9499f8d6e3b8e79fc4fa1ed4b065d512ba049518 RDMA/mana_ib: Adopt robust udata
 78664c50babe465390ce20e489e9c6bd5a6325a7 RDMA/ionic: Add robust udata compatibility checks to all uapi verbs
 
---===============4107254233670708497==--
+--===============4288944539584057861==--
