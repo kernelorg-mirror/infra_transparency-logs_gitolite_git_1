@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6134987956712990924=="
+Content-Type: multipart/mixed; boundary="===============7434719020928237788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 20 Jul 2026 14:49:47 -0000
-Message-Id: <178455898778.2800362.6479818281423191954@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 14:49:50 -0000
+Message-Id: <178455899050.2800454.5860195530992476816@gitolite.kernel.org>
 
---===============6134987956712990924==
+--===============7434719020928237788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 56b9d68cf62f5e79ac9035dde02c3a68d0c6e091
-    new: c872b70f5d6c742ad34b8e838c92af81c8920b3e
-    log: revlist-56b9d68cf62f-c872b70f5d6c.txt
+  - ref: refs/heads/mm-unstable
+    old: 890f8c4e827c918dac668a12eaf63180ba8a9e6d
+    new: 82954dab774b5aed3e2b34b6a2bcf4f38995a389
+    log: revlist-890f8c4e827c-82954dab774b.txt
 
---===============6134987956712990924==
+--===============7434719020928237788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56b9d68cf62f-c872b70f5d6c.txt
+Content-Disposition: attachment; filename=revlist-890f8c4e827c-82954dab774b.txt
 
 a3c5779433f3412e27434789e7d8747a6acb58a3 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 129b09cbb256a74596ec377afe1d511f91e6a37d lib: test_hmm: use device devt for coherent device range selection
@@ -574,29 +574,5 @@ bdc50fd7701292e09947612f5b3af32168823812 mm/page_alloc: remove a couple of VM_BU
 52670a1266c895af9295bc9b754e57728f2c4dae mm: vmscan: propagate real error code from per-node proactive reclaim
 89b484ef52eab4b85bfeb536722e7662a8d3ae6a mm: vmscan: drop unused gfp_mask parameter from __node_reclaim()
 82954dab774b5aed3e2b34b6a2bcf4f38995a389 selftests/mm: fix BUG_ON checking wrong variable in mremap_dontunmap
-c2bce876bf0f129fa0c6958ef11c07fd7110440c mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-fae35a67ea7f6e0b0025327af93f570b1684629c mm: introduce pud_is_huge() helper
-92ed9f29091806b7b036aa5f357f9615dd7e90d9 mm: mincore: remove special handling for VM_PFNMAP
-1dd4662e4005b341ed092ebb3dcf8bd260ced54d mm: mincore: replace __get_free_page() with kmalloc()
-334d0b6bc649dcca61c1224bd2bfa04be51f2198 mm: mincore: remove xa_is_value() in mincore_swap()
-9cbfef091d778acde296489e8e10f1f32d3dc2c3 mm: mincore: improve mincore_hugetlb()
-1ea10670c4ac731be71c7bc69de686cdc1322be3 mm: mincore: refactor mincore_page()
-2b18fe3e31c5eea7a19addcafab1e3425f321c36 mm/swap: fix swap_cluster_lock() !CONFIG_SWAP stub signature mismatch
-34b09bdd930b919c2eb0b227119571d2233b90c2 mm/huge_memory: remove unused can_split_folio()
-1a668567b86e7133cf9397fefea9363d03973dd9 mm/huge_memory: fold split_folio_to_list_to_order() into split_folio_to_order()
-00f7c6ee783e9051e6704d22235826d02a1c9808 mm/damon/core: initialize damos->last_applied
-8f9698703a1a000c7c9c8b99d0bc107f1b7972f1 mm/damon/core-kunit: check region count before testing in split_at()
-663cf8987994b9d684b2feb05647dd41ad8b016e mm/damon/vaddr-kunit: check region count in three_regions test
-c87e76f2278d8c6d3bd1369ec8a2cb973098295d mm/damon/core-kunit: handle region split failure in filter_out()
-9656101245dd332de08825b3bda6a1e0b03ebba2 mm/damon/core-kunit: skip wrong dest walk in commit_dests_for()
-4b892ea2c7af36056ae642b2f3a6feed04a945e4 mm/damon/core-kunit: skip wrong quota goal walk in commit_quota_goals()
-574ca538aeb0eead4e1772a1dd8a12495d6dc2df mm/damon/core-kunit: skip wrong region walk in commit_target_regions()
-1c13ead24149499bfc4a02d6197f756a664dea48 mm/damon/ops-common: remove redundant local variable in damon_migrate_folio_list()
-4b8f1e85f5fe261a89884f8fe5c5a1cb37d310d1 hugetlbfs: release subpool on fill_super failure
-2dce058f239985d256a950d6e2d6fc5098bea657 mm/damon/ops-common: use nr_accesses moving sum for quota score
-f53b966d231e957f0ee3945ad0ad360d159c11b3 mm/damon/core: handle region split failure in apply_min_nr_regions()
-163aaad2342b78fd84798f67d1e82d41df88649a mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-ac98859b19d2d494d1e9655c1c1bec70266134f0 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-c872b70f5d6c742ad34b8e838c92af81c8920b3e mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6134987956712990924==--
+--===============7434719020928237788==--
