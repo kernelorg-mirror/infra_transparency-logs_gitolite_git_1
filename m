@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6272108101753398050=="
+Content-Type: multipart/mixed; boundary="===============5674067972600641823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 20 Jul 2026 10:45:43 -0000
-Message-Id: <178454434347.2540963.9893785082574518800@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 10:46:59 -0000
+Message-Id: <178454441929.2541549.10732587382270928280@gitolite.kernel.org>
 
---===============6272108101753398050==
+--===============5674067972600641823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 43aa380f66fb97a5a8233019b62e79183c4ae48a
-    log: revlist-dc59e4fea9d8-43aa380f66fb.txt
+  - ref: refs/heads/ti-next
+    old: 0b3490be8c835295e3664625816c635b23bccf01
+    new: b3c8a22c50ce0528ceccede3358c3ca528525de4
+    log: revlist-0b3490be8c83-b3c8a22c50ce.txt
 
---===============6272108101753398050==
+--===============5674067972600641823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-43aa380f66fb.txt
+Content-Disposition: attachment; filename=revlist-0b3490be8c83-b3c8a22c50ce.txt
 
 e2393ed6275732036d8f7c2b05de1319c5c691d6 dt-bindings: arm: ti: Add am62l3-beaglebadge
 0c78b72362f4bd90f8a46ea7be385fe05137e06d arm64: dts: ti: Add k3-am62l3-beaglebadge
@@ -54,5 +54,6 @@ d55f26485cd17f34bb4d5c0acb32a199e235628e arm64: dts: ti: k3-am62-verdin: Add RPi
 3d86b6aa2c6279b695effcb0de78fae7567fcb63 arm64: dts: ti: k3-am62p-verdin: Add Toradex OV5640 CSI Cameras
 43c6215de59abd42b20112ebbd1dd1bb1a5aefc0 arm64: dts: ti: k3-am62x-verdin: Share UART_4 MCU reservation overlay
 43aa380f66fb97a5a8233019b62e79183c4ae48a arm64: dts: ti: k3-am62l: Add bootph to usb0
+b3c8a22c50ce0528ceccede3358c3ca528525de4 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============6272108101753398050==--
+--===============5674067972600641823==--
