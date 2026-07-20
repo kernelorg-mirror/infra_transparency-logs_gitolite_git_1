@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Mon, 20 Jul 2026 18:38:54 -0000
-Message-Id: <178457273493.2981369.13918317256579990849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 20 Jul 2026 18:39:22 -0000
+Message-Id: <178457276214.2981660.3035122796644896372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2026-07-20-11-37
-    old: 0000000000000000000000000000000000000000
-    new: 05b86901f47cbfd4363198e003877631770fed14
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
+  - ref: refs/heads/core/entry
+    old: 39109e76c19bcce2041fa1884dbbb8b01f6f38d2
+    new: 05c033db7e9ad3c34f6968ec568cb6ee01051c57
+    log: |
+         6f25517010ddd3f8080d7e06b9b1cb1b64b73772 entry: Rework syscall_audit_enter()
+         dfc98c7a46424683326c8d8ffc70e81548c59fdb entry: Rework trace_syscall_enter()
+         71ff30013f19ca46c2c72c25731c32b6cc7b5620 entry: Make return type of syscall_trace_enter() bool
+         05c033db7e9ad3c34f6968ec568cb6ee01051c57 entry, treewide: Make syscall_enter_from_user_mode[_work]() indicate syscall execution
+         
