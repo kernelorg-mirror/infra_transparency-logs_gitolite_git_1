@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6641718063631657183=="
+Content-Type: multipart/mixed; boundary="===============3852383243156044058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 20 Jul 2026 17:23:59 -0000
-Message-Id: <178456823901.2924283.17224864352777185197@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 17:24:02 -0000
+Message-Id: <178456824230.2924437.15293025745841138482@gitolite.kernel.org>
 
---===============6641718063631657183==
+--===============3852383243156044058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 56d96fededd61192cd7cc8d2b0f36adfd59036c3
     new: e13caf1c26587434f0b768193100440939c0fb91
     log: revlist-56d96fededd6-e13caf1c2658.txt
 
---===============6641718063631657183==
+--===============3852383243156044058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -641,4 +641,4 @@ fce2dfa773ced15f27dd27cd0b482a7473cdcf2a Merge tag 'v7.2-rc3-smb3-client-fixes' 
 af5e34a41cd607c00ef752e00331736570992354 Merge tag 'mtd/fixes-for-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 e13caf1c26587434f0b768193100440939c0fb91 Merge tag 'net-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6641718063631657183==--
+--===============3852383243156044058==--
