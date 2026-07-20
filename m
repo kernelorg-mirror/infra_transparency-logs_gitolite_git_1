@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1881748397474809457=="
+Content-Type: multipart/mixed; boundary="===============7006953435721983589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 20 Jul 2026 10:13:40 -0000
-Message-Id: <178454242002.2515753.17077208572459368755@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 10:14:02 -0000
+Message-Id: <178454244207.2516016.928596617070581432@gitolite.kernel.org>
 
---===============1881748397474809457==
+--===============7006953435721983589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/pcc_mailbox
-    old: c12fa6c17070469e6c3279089e11e26b3785173a
-    new: 0ae881e8c55ea4c1bdfc3e91168a4154c4b23d76
-    log: revlist-c12fa6c17070-0ae881e8c55e.txt
+  - ref: refs/heads/pcc_opregion
+    old: 3a6d5c151cb9474941f8d51658f6c999bfa3d9a8
+    new: 3523b1ddc99f00f7080771891855d553de51276a
+    log: revlist-3a6d5c151cb9-3523b1ddc99f.txt
 
---===============1881748397474809457==
+--===============7006953435721983589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c12fa6c17070-0ae881e8c55e.txt
+Content-Disposition: attachment; filename=revlist-3a6d5c151cb9-3523b1ddc99f.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -489,8 +489,9 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
-5611c51a30787714035c576b1881a210a86e520f mailbox: pcc: Notify clients on polled completion
-625af795cd7c947fe73ead855ededd3199700724 mailbox: pcc: Check shared memory signature on request
-0ae881e8c55ea4c1bdfc3e91168a4154c4b23d76 mailbox: pcc: Fix command timeout due to missed interrupt
+04173aa5f6238b25b7ea70ba03f98215b959a8f6 ACPICA: Fix PCC OperationRegion command offsets
+86bea8be6d37115f3334b3ca7b779f66ade0b7f2 ACPI: PCC: Preserve shared memory signature in OpRegion handler
+2cef9d0f37d67506c62709b5fd56247696fe09a7 ACPI: PCC: Free channel on OpRegion deactivation
+3523b1ddc99f00f7080771891855d553de51276a ACPI: PCC: Cache OpRegion command timeout
 
---===============1881748397474809457==--
+--===============7006953435721983589==--
