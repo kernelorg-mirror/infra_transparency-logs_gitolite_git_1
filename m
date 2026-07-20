@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5572004444414503048=="
+Content-Type: multipart/mixed; boundary="===============6453673527754462168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Mon, 20 Jul 2026 17:41:25 -0000
-Message-Id: <178456928558.2940020.10962624159903330515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 20 Jul 2026 17:46:10 -0000
+Message-Id: <178456957083.2943784.10130340514876490534@gitolite.kernel.org>
 
---===============5572004444414503048==
+--===============6453673527754462168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-current
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 6fe4e4b8259e1330945b5f3c9476e08473b8e0e8
-    log: revlist-dc59e4fea9d8-6fe4e4b8259e.txt
+  - ref: refs/heads/regmap-7.3
+    old: a7d168db6bb7a5be2616a4828f491e412fe57a6d
+    new: aba0c1ad728d20a8d345a6550ed3401d10421766
+    log: revlist-a7d168db6bb7-aba0c1ad728d.txt
 
---===============5572004444414503048==
+--===============6453673527754462168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-6fe4e4b8259e.txt
+Content-Disposition: attachment; filename=revlist-a7d168db6bb7-aba0c1ad728d.txt
 
-0c01c811be47e6b146552dd59bfedbea8f09b8f4 drm/amdgpu: fix division by zero with invalid uvd dimensions
 3b4082fabc67c9780b06eb959e59dd92fa79c0f0 drm/amdgpu/vcn4: avoid rereading IB param length
 186bfdc4e26d019b2e7570cb121964a1d89b2e5b drm/amdgpu/vce: fix integer overflow in image size
 8cd2ea7bab77b7aa087b1a6cc26d2df03c2a6ed9 drm/amdkfd: Guard m->cp_hqd_eop_control setting by q->eop_ring_buffer_size
@@ -1048,7 +1047,8 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
-b5fa40226e71c17847b9ff2816c6ca4133d0d994 fscrypt: Add missing superblock check in find_or_insert_direct_key()
-6fe4e4b8259e1330945b5f3c9476e08473b8e0e8 fscrypt: Avoid dynamic allocation in fscrypt_get_devices()
+86fc3483a4d60f575533d1d5542bacca2a25ddc7 regcache: Warn if regcache_sync() is called in cache_only mode
+afc8e3ee83078eb5dab5a9ea561cdb0008f64f5d regcache: Validate cache_only state in regcache_sync_region()
+aba0c1ad728d20a8d345a6550ed3401d10421766 regcache: Warn if regcache_sync() is called in cache_only mode
 
---===============5572004444414503048==--
+--===============6453673527754462168==--
