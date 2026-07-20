@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 20 Jul 2026 10:53:32 -0000
-Message-Id: <178454481244.2546805.8564567711884486613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 20 Jul 2026 10:57:37 -0000
+Message-Id: <178454505727.2550390.7832161230337614981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/ti-next
-    old: b3c8a22c50ce0528ceccede3358c3ca528525de4
-    new: 97d76063c79ab24323ad9b2a7bb68fa7f77b9487
+  - ref: refs/heads/pwrctrl
+    old: 600e37950c7cfa2c5842f3ea1231c0e808fded6c
+    new: 62ef2a96fe7e66b8b5c4e756a8454146adee1817
     log: |
-         ce17d88364bf0bf964eea2f99776896e10227454 arm64: defconfig: Enable drivers for BeagleBadge
-         97d76063c79ab24323ad9b2a7bb68fa7f77b9487 Merge branch 'ti-k3-config-next' into ti-next
+         62ef2a96fe7e66b8b5c4e756a8454146adee1817 PCI/pwrctrl: tc9563: Take i2c adapter module reference
          
