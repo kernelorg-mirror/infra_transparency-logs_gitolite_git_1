@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0393545874826356259=="
+Content-Type: multipart/mixed; boundary="===============5932353733223144767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 20 Jul 2026 10:12:26 -0000
-Message-Id: <178454234630.2514960.4478113661273217599@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 10:12:34 -0000
+Message-Id: <178454235445.2515248.9929519902980876630@gitolite.kernel.org>
 
---===============0393545874826356259==
+--===============5932353733223144767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/fixes
-    old: 8ae5f8e4836667fcaffdf2e3c6068b0a8b364dd8
+  - ref: refs/heads/for-next/scmi/fixes
+    old: a4447c0693830d5ecadd6e755cb7fdc55d86aacc
     new: 1590cf0329716306e948a8fc29f1d3ee87d3989f
-    log: revlist-8ae5f8e48366-1590cf032971.txt
+    log: revlist-a4447c069383-1590cf032971.txt
 
---===============0393545874826356259==
+--===============5932353733223144767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ae5f8e48366-1590cf032971.txt
+Content-Disposition: attachment; filename=revlist-a4447c069383-1590cf032971.txt
 
+767648c18d7872bbf54481ba846e055f7e1c0213 drm/amdgpu/sdma7.1: replace BUG_ON() with WARN_ON()
+53c78ab388bfc1a4d72e756815d0db0a842c812e drm/amd/pm: make pp_features read-only when scpm is enabled
 238baca26a6279e688d1a156bd031390b82eb578 drm/amd/pm: fix amdgpu_pm_info power display units
 da353a6b30086674c77bdbbfd86e9e0c7416ba99 drm/amd/display: set MSA MISC1 bit 6 when using VSC SDP for DCE 11.x
 0c01c811be47e6b146552dd59bfedbea8f09b8f4 drm/amdgpu: fix division by zero with invalid uvd dimensions
@@ -649,8 +651,6 @@ fc8789bb57e625e5f32ac57ca2e7d3e7b7fda225 smb/client: use stack-allocated smb2_fi
 9dd1964ac59d293c3684e71b4bbcd10e28f04bb4 smb/client: fix incorrect nlink returned by fstat()
 179e3ee9856d2b5f0ccf2f24e2334bbe76efefa9 cifs: Show reason why autodisabling serverino support
 56bc6384314fb9ae98975fb2af8b143097ede3dc gpu/buddy: bail out of try_harder when alignment cannot be honoured
-bf1deecccf210d1dd84e85cd4a45070888583984 firmware: arm_scmi: Use 64-bit division for clock rate rounding
-a4447c0693830d5ecadd6e755cb7fdc55d86aacc firmware: arm_scmi: Rate-limit queue-full warnings in IRQ context
 c804aadc4ce3dcb34d6f2ecc9a159c148210805a drm/imagination: make pvr_fw_trace_init_mask_ops static
 cf385cf6e713eba0720651174dac0b2d2f5bb8f8 drm/imagination: fix error checking of pvr_vm_context_lookup()
 3e3aa6da87d30a0064a17b836685cd43c90a3572 KVM: s390: pci: Fix handling of AIF enable without AISB
@@ -1051,4 +1051,4 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
 
---===============0393545874826356259==--
+--===============5932353733223144767==--
