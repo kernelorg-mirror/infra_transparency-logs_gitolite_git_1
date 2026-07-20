@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0574941981401277644=="
+Content-Type: multipart/mixed; boundary="===============3908567003096246995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 20 Jul 2026 08:49:13 -0000
-Message-Id: <178453735354.2454937.18048782163013453110@gitolite.kernel.org>
+Date: Mon, 20 Jul 2026 08:49:32 -0000
+Message-Id: <178453737201.2455307.13441268259687670661@gitolite.kernel.org>
 
---===============0574941981401277644==
+--===============3908567003096246995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 1770ac675acc6a8df51576b8537412d64b7bfb4a
-    new: 7d1631cd9288d004411f669b257d44183f7b1523
-    log: revlist-1770ac675acc-7d1631cd9288.txt
+  - ref: refs/heads/readfile
+    old: c1f000b12d7ad5d926c1b624c86c9a785747f2e9
+    new: cccc42cd578b216630ad0bd37bddda70c816ec3f
+    log: revlist-c1f000b12d7a-cccc42cd578b.txt
 
---===============0574941981401277644==
+--===============3908567003096246995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784537329 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784537349 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1784537335-bc0e166a0de6cbe4ef9e6d465c45f937c980b5a5
+nonce 1784537354-dc6c48da8862b32bb57cab9bedf5ec3d3db373a7
 
-1770ac675acc6a8df51576b8537412d64b7bfb4a 7d1631cd9288d004411f669b257d44183f7b1523 refs/heads/clanker
+c1f000b12d7ad5d926c1b624c86c9a785747f2e9 cccc42cd578b216630ad0bd37bddda70c816ec3f refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpd4PIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WUMP/3ofMBDEJOVZTMHF3j7K
-rXZp/24AS7uqIB2U2OUBhD9+8hw3pW11T0d6nJHl8O3AqM9M+8GHWRTX9Y5pRi+d
-z7O5EiCjITL8qWmYvtLTe5VnEifP4l+wla5AlnycDBq+WVKzJvftBjdmd7sY6sEj
-yLGZKiS+iNnNdL13YnT71rQSANNrLJqUd9iT2OfPTN8rId1DXg3clYrtRQySyd1Q
-w0FdALUyZAhFdU0zdpUODN6K/rrPHksGgrLts/cx1kfD1aWCc4nqXu0co41/OA0H
-pePWwns3irariKNllk4XYvqDvDCKSGkonAJbLieWo4EM24p6Vdg2/Gsj3zpkL3Gi
-xpPyLwkggMm6P+2yy2Kfl75YEi1l87Za7l5g01RGiYFgU7CPL47xpefo/c9pxfke
-cy2XTtcS87yzrKRDAkWcgHS0ifIwRTNo0PQ691kxw2vbDlq4cxXKn53u4K24lge8
-psYpJ+K7JsrD22CCnUvastMppvfvPLvn57kLlha36A+jz9GuITSt5t44nUiDjeth
-CLi41Ieu9Xk14FVciwC3Dp89/32Ua76KvkoWafsoKK0QGPjr8XclEEk6tmbbeHCi
-OrwItIzKLXqBbrg8QpLXRHjrO38n9WDnPsd31LclkbNkvC+NS7ZROul5cj/jPjk8
-ja0mmI9dd/oiPIWCeXEUoOrZ
-=zoKe
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpd4QUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a18QAL5b3ULwvFUjsDmVOkfx
+949oOHnSs7YjATJqcuCcxSbfCb7MZwTxAM+ceCQ/IjaXU0fLcwPCfEyu7nv/gzd0
+SlajOzYGzHWN+xibU07pQo9IleCVmIu9BfKw+9Dc5GJArw2Gep1DrCYhtjaZl08Q
+mJzGxskMyHdF9q/Bdfh0JvHp4yC10yKr0mZEU55+qXQ97OBXHSGsYc4Wyfg4bitT
+5VKPqOQEAQk0/h0ijH7Ns+7p1BE6gU3lqUVVEPUXK80lfI40XtGL3dcdFd6y4wnC
+CWUSj+dknDWyXgs33cz5WGoUzTEKi4f3hK97TQDYSvZa0hnR1Ub6vHCzuU1askxZ
+8QlZN7XmA3tocBrjPAs9n9m3pQJ54rJJnj0zi/rkIz17+gRNCQGqPSsCQZfiy+KV
+vox8rWmE+a/LFwXD8gjKu/4Jp+dVs4UXASwxg2xMcM8D5/MFjBiMdwSO96kpKRVN
+qD7/XoWYLs6CTDAhben8EfxeDSG8Tc9m2cNfPq1WJAXcgXi1MQe58sj5UZLiVu8X
+iYv9wJnW+Uy/pEdGhkoT5ujNHHl9cxWG3NlMgBy4o10u9880T5spIJHm19MWs0at
+c/cvW1hX6adYW1RGsvGyDKS2hkXO3QYFqjcb/suh4+o9JTp4oznpU4WGYTwYrLbG
+rclE2iIfO8E58+OATASpZBxw
+=3p0x
 -----END PGP SIGNATURE-----
 
---===============0574941981401277644==
+--===============3908567003096246995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1770ac675acc-7d1631cd9288.txt
+Content-Disposition: attachment; filename=revlist-c1f000b12d7a-cccc42cd578b.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -614,36 +614,9 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
-324fb38cab02f7d3810b79eefaca3f3fb3f71cee net: mctp: usb: properly drop the usb interface on probe error
-5334e08add36246eb953624119eb6396435dee8d wifi: rtw88: properly drop usb interface reference on error
-cf4478c48c3e1db5549a51a0fe91ceb944121cf2 mmc: moxart: fix potential use-after-free on remove path.
-c4c6be2daae0272dffcda4255835c6e3bbe109a8 mmc: meson-gx: fix potential use-after-free on remove path.
-f42659587f862aef28d5137eae2a1d3489fab0ff f2fs: fix potential deadlock in f2fs_convert_inline_inode
-ad6f947d036c2a74e07565a9a3b1931cd6cb74a8 drm/amdkfd: stop speculation on the kfd_ioctl path
-d1bc54f9a93d1959b384b44434b37bccca48e38b media: adv7604: avoid negative array index in log_status when cp_read fails
-897516ef5682351fd62f4bb7857d94667de8e015 media: stv090x: bound DiSEqC reply length to msg[] size
-a7305b1dbe28dd1400fec15fb8b53c70e7cca9e2 media: stv0900: bound DiSEqC reply length to msg[] size
-0f083c70a2c6063c6195d5dc1c0af9a07feb8f5b NFC: digital: Bounds check Felica response before sensf_res memcpy
-6c8389ee7250b1edc67d53c68f06f40289e0345d net: usb: cdc_ncm: reject negative chained NDP offsets
-a9a3c21ff10344dcd94db7abcd15f8570f862833 net: sched: em_text: require NUL-terminated algo name
-d150c78b258ebf2115b23cc5f283a828cd040a93 staging: rtl8723bs: fix OOB write in HT_caps_handler()
-947f99202054a84112d7e1ce29f8713fd7eb9150 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-0a4f0483ff969514885a455091244c1fd5606118 io_uring: depend on MMU
-10f503cec1b0b0217f34a822762fbc1b691c5fee mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-f6d27c35caf9b0178d78c32aee147c5fbc47b610 usb: typec: tcpm: validate VDO count before reading Attention status VDO
-a592b77fb84896083f2185c070dfc4db6cd481f1 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
-fd97b082cdb849214c6a69a71abb43492e80609c fpga: dfl: fme: add error handling
-08b6eb6c490bb6bd7c6e8180e7f6d2d990d458c8 drivers/perf: thunderx2_pmu: add error handling
-b46f939e3315eab051cab64d353674133b2d9b50 soc: imx9: devm_kasprintf error handling
-5857385fb700102a0dccadf9c597bd3fda7aaedc dmaengine: fsl-edma: Add error handling for devm_kasprintf
-fce18e210e557072e5d19fd22956d74674d85924 nfc: st-nci: Add error handling to IRQ handlers
-e9f3a1e3b5d2d1cd91790dd32f91ffa712fb0e80 nfc: mrvl: spi: Unregister dev on allocation fail
-c794f7637d1517b168d08642fe9b1314d62a6532 nfc: nxp-nci: Add remove on IRQ error
-516d21e278a56a56d2c66304277fac0cb99057f5 rndis_host: add overflow check in rndis_rx_fixup()
-bf24e5ce819622dd534def7ada4a9ae4b8453706 nvme: bound ns descriptor header and body to identify buffer
-ea9bd6b45f6bf9c76d3a5b2e2c3a0559e455ea04 nvme: clamp FDP nruhsd to allocated RUH status descriptor count
-8c3576993fbbec9e68451c5f033c851de216191c misc: amd-sbi: Add null check for devm_kasprintf()
-cbaf7cf5da4ef067c95563579fc2daf13026b294 soc: mediatek: mtk-socinfo Add error handling in devm_kasprintf()
-7d1631cd9288d004411f669b257d44183f7b1523 mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
+6ef169446056ba0a1162b391d6bef94be7cccaa5 readfile: implement readfile syscall
+77613ac97fa6be097921f5fabad8ccac07ff03b9 arch: wire up the readfile syscall
+54d334c1d046c77ed9fb99dbe1e6731f1334ae6f readfile.2: new page describing readfile(2)
+cccc42cd578b216630ad0bd37bddda70c816ec3f selftests: add readfile(2) selftests
 
---===============0574941981401277644==--
+--===============3908567003096246995==--
