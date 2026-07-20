@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6877906985709055234=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 20 Jul 2026 21:24:50 -0000
-Message-Id: <178458269085.3094700.8390449608260490925@gitolite.kernel.org>
-
---===============6877906985709055234==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 20 Jul 2026 21:43:16 -0000
+Message-Id: <178458379615.3107109.10872804305426596961@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: db54ad0422218416ca884d701e82c3917fb0f3ea
-    new: c4b7911332a21b69495c93ef294828ecfa9d684f
+  - ref: refs/heads/for-next
+    old: 5a6b9c36c56340812d49817524a5d96f7522c74d
+    new: 751253c3c3a40c43de8014a9d81e9e9a9f7b1039
     log: |
-         c4b7911332a21b69495c93ef294828ecfa9d684f Update 75A295F901F22B26 (Eduard Zingerman)
+         d42f52b9a7846affcb2e6a5ad6d478181cc3b16c dt-bindings: power: supply: sgm41542: document sgm41542
+         ac55d04627d4140d347c245a2df0970851b89b57 power: supply: sgm41542: Add SG Micro sgm41542 charger
+         dfd89e62a06010823932c1d2d0562846bc5de8ed power: supply: Match DT value types
+         6539d798e9faf6e98d64ad7cb3af91d42180a886 power: reset: syscon-reboot: Read "priority" as unsigned
+         c9386d5fabbe006c1f793b22bb80036303d1d166 power: supply: cros_pchg: unregister EC notifier
+         90610021a9e92ab2b81979e3d474ca64bc31bf90 power: supply: cros_usbpd-charger: bound the EC-reported port count
+         f0ec0d960c99837dc61e1604c3ec83e53c8c829f power: reset: add MCF5441x RCM power-on reason driver
+         426decb0c770ec4e0677906e1f51b6d19dc1b788 selftests: helpers: handle multi line in test_sysfs_prop_optional_list
+         defb072f411c630337946f3babf1bf9b38b23a84 power: supply: Add PbAc, NiZn, RAM, and ZnAr support
+         751253c3c3a40c43de8014a9d81e9e9a9f7b1039 power: supply: sbs-battery: Add PbAc, NiZn, RAM, and ZnAr support
          
-
---===============6877906985709055234==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1784582690 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1784582689-c6ceedeee7d1a874b288b809b63738f6258f145f
-
-db54ad0422218416ca884d701e82c3917fb0f3ea c4b7911332a21b69495c93ef294828ecfa9d684f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCal6SIgAKCRC2xBzjVmSZ
-bCV3AQCgRbnrHBEDi0HremvtSr8w6pZtddiyD2eO9PM0qvmlGgEA5ujmaCv0cuAP
-bAqZtgg7hu3qmWiY3D2E4wV/AUwN+g0=
-=8n7i
------END PGP SIGNATURE-----
-
---===============6877906985709055234==--
