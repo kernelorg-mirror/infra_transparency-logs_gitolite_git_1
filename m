@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4377281172543885140=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 20 Jul 2026 14:35:56 -0000
-Message-Id: <178455815676.2787673.6137021824614531114@gitolite.kernel.org>
-
---===============4377281172543885140==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 20 Jul 2026 14:37:09 -0000
+Message-Id: <178455822989.2788693.11771103149108311394@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 4ee5f0f3449b736c7f4bfebc9d1c588109b24e4e
-    new: 3d459ad5e2192df3d06a97bc33483fb913fcd1a7
+  - ref: refs/heads/hwmon
+    old: 9813c1f49efeadbcb17e4a41972350ac783f9cac
+    new: 70e76e700fc6c46afb4e17aec099a1ea089b4a22
     log: |
-         3d459ad5e2192df3d06a97bc33483fb913fcd1a7 7.1-stable patches
+         70e76e700fc6c46afb4e17aec099a1ea089b4a22 hwmon: occ: validate poll response sensor blocks
          
-
---===============4377281172543885140==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784558146 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784558152-f436d29c0758d6d7ac82295fa8e29406b88580c9
-
-4ee5f0f3449b736c7f4bfebc9d1c588109b24e4e 3d459ad5e2192df3d06a97bc33483fb913fcd1a7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpeMkIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vTMQAKuFmcD0HKqP+kOlt+AH
-u+u2VQFMqiShU4QxardlpRY8M8NN52aHGIQZd8mCftdBvKrynR85lEh/Ovtdjulb
-4rQxZ3KTbJiGCxu2ZMF4+wQ8s9IfNpbWUPGtwHuXCw+jmy1FYXqW4JljKz1vfTLb
-YZR4Mt4eZSRZ8yOrHWq4UWH/fcDqpI2wbldSsqEQZjidsPmavsC6iDxaaebwIm3R
-vxbrXQ44WooeOymXXNPOr1U9Yl6xzrmxWZ89D0AVLDdgiGUgwEZ0uV/gkdX7gpTz
-mmtQWUbuZ+TWN7uwSjXN1VzqvEWmcr+IhEVX0Ms75yW2q6iI9J3HlCGf9SIMO4g3
-Y4KoudUuIPdgN2BzYB1k5tMkbKwaC/vGm/p/nPNopvDRZ4+Mju50+oCFIENhWJI+
-mUf/gMuu8fD75n1GHSTc2iglhzXQzEcquoRB1CdfylYxg/EIpTIWQjU0/mjeJWPJ
-c6CqW63572CE8DG/sDGGlRpn3s+ufcs2gcy9tmPaKOi0150bztHEgM7NV51RgmQy
-dakHoJ1AIoLktk7Z76C6XGStw0dxNFCgsfIi6hVAzJEhPPmxCOAAt15Osxa/KfMS
-04BbAHkapQ9er5BWAP+mjASROLWV7oJGyBIz1epunTHYWLiClNkIUAkbCeaEkz1y
-gtq2ikCU4CCsy7FT3k/tlpQ4
-=LtFB
------END PGP SIGNATURE-----
-
---===============4377281172543885140==--
+  - ref: refs/heads/hwmon-next
+    old: ec5dac32f359168b90f5361a4de16dbf7f258031
+    new: f65255ee4b77bb649084d740c0f8b1ac43734d22
+    log: |
+         ce96212a458f5a0f7227894d1f231453f072afe1 hwmon: (axi-fan-control) Remove redundant dev_err_probe()
+         b023f1f92e57ca6e615ba98321891e3a9ea95017 hwmon: (da9055) Remove redundant dev_err()
+         7013782dccfa085dbc29d8dbe39d62ba16e8192a hwmon: (lm90) Remove redundant dev_err()
+         f724eb04a9cf8871f13e68e6700f9511dc16549f hwmon: (npcm750-pwm-fan) Remove redundant dev_err()
+         e7f4dfcd9e7ff4f6f885f05f5d39c2781379ffa0 hwmon: (pwm-fan) Remove redundant dev_err()
+         89361cc5266e374a68bf11126679a8892b5bfd21 hwmon: (sht15) Remove redundant dev_err()
+         f65255ee4b77bb649084d740c0f8b1ac43734d22 hwmon: (pmbus) Remove redundant dev_err()
+         
