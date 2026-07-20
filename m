@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1337369887810515402=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 20 Jul 2026 15:31:19 -0000
-Message-Id: <178456147919.2835233.5202752177661727942@gitolite.kernel.org>
-
---===============1337369887810515402==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 20 Jul 2026 15:36:37 -0000
+Message-Id: <178456179744.2839290.11969062233641974744@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 766c9fb91b20518cf81668843d0ca51357cd1008
-    new: 42173a867bb167b83af4bd93ede80e71415e726f
+  - ref: refs/heads/main-pending
+    old: 3c52207a5eaa3547854dce13ed4f4778eb74cda1
+    new: a9af7013e8d5910736795eeaa18f7af4e6a5cffe
     log: |
-         42173a867bb167b83af4bd93ede80e71415e726f 6.18-stable patches
+         4834ac1d4894a2c3513e8f28d5693170829b1e68 wifi: ath12k: Set DTIM policy to stick mode for station interface
+         612701854b588759c0df3094197d415869ada159 wifi: ath6kl: Constify struct cfg80211_ops
+         9ff6ef3b7b33d9c4afa898581a99ca86dc8b5004 wifi: ath12k: fix survey indexing across bands
+         23c85695d9f7daed726decc3c6e402f33d08b638 wifi: ath12k: Avoid buffer overread in ath12k_wmi_op_rx()
+         b66847e56fe7e4472cd2ff34a42f5a9f6b786e8b wifi: ath11k: Avoid buffer overread in ath11k_wmi_tlv_op_rx()
+         8f016157a18a5db9b85d7c654dae857620570179 wifi: ath11k: add purwa-iot-evk and qcs6490-rb3gen2 to usecase firmware table
+         a9af7013e8d5910736795eeaa18f7af4e6a5cffe Merge branch 'pending' into main-pending
          
-
---===============1337369887810515402==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784561471 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784561477-6c0ce51129f064f15169aed74efa5e50ea7084ec
-
-766c9fb91b20518cf81668843d0ca51357cd1008 42173a867bb167b83af4bd93ede80e71415e726f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpePz8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4koQALdENk7rvYVP2WFZETlE
-daka1qMxme6kqC63FyLLrqOR1uLlC9mW49c4vE/YYhpFs4podAIFUG1ZXTvhnoUz
-iacmCl9gS+Ic2JwQ6DUCYlaNyJxn9ey/fChbRjqGRiyAGMqttxqOol9i0F4jWMrP
-853x6Zd6mpgBiEzDJ7v0AjgUNB8xHbyPa+4hY6SkFbWlrZqHlOoVG4Ab9Qj21cw6
-E6cLhPxfmnGQEB++gewtWPXH49VIaeAh9M0Jyb+XbHRfxvoezXIFAgVsCze7qOmV
-mAYmjOEUKZB4iMHS727raOP2O40a5SmEv8SPp7jsp/lM2bDHc4AGmt5gAoBlIHJ3
-E4fX3U8hYoyKXTM3+8pycmKALYUp209649cadBGlolCp8+6zq7cBWqBuDEcWlQeN
-XxdePmQkvCz9nDMdZ5hazJ8kCU65Hivwjpkj5xN9vDaeZumNuKDZbjI3ZY51n4Wo
-ufjlovK73cCEXqEewoele8S1djXsYbBBOKnBg+WMLXVLHDRvrhwKPLuXDJ1vb2xV
-jMs6CzBxUpTKzFIM236ilO5WMejYxegES4cLaWQLTjZ/9wntnStMuUeTGjWRICIw
-BoH8uqqmeWItspgBdqCvUONN8rGXmYVIhyTmdY2xVOSo/yx9DJKNlnjk1JOLv9iA
-geluR2GddT0paSWL5uFdkTfl
-=UA8p
------END PGP SIGNATURE-----
-
---===============1337369887810515402==--
+  - ref: refs/tags/ath-pending-202607201432
+    old: 0000000000000000000000000000000000000000
+    new: a9af7013e8d5910736795eeaa18f7af4e6a5cffe
