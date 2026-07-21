@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Tue, 21 Jul 2026 20:16:08 -0000
-Message-Id: <178466496870.27221.4921854692398039972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 21 Jul 2026 20:23:43 -0000
+Message-Id: <178466542304.31811.15349326250336598788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fustini/linux
-user: fustini
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/thead-clk-for-v7.3
-    old: 0000000000000000000000000000000000000000
-    new: a371befe338f954c155eb2aaae6c746730f5a6ad
+  - ref: refs/heads/master
+    old: 4217c3e5d3e1eb259626142fd71b91ec6d5e3d1e
+    new: 9dec3a07a8d35f076fc2710255aaef086552f04c
+    log: |
+         9dec3a07a8d35f076fc2710255aaef086552f04c Correctly quote usernames when setting From field
+         
