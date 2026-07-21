@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 21 Jul 2026 00:45:36 -0000
-Message-Id: <178459473632.3239710.10055463655862800081@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 00:46:52 -0000
+Message-Id: <178459481206.3240704.17499451192941668165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
 user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/renesas-lts/v6.18.16-2026-03-10-sparrow-hawk
-    old: 20dee369f29857713f3f4ae6241c7e75ab2ba05d
+  - ref: refs/heads/renesas-lts/v6.18.16-2026-03-11-x5h-ironhide
+    old: 781c846cfe153765ecab9056c7e580649b090de6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.18.17-2026-03-16-sparrow-hawk
-    old: 804f192232c8441de22f161c377f67e70afe56d0
+  - ref: refs/heads/renesas-lts/v6.18.19-2026-03-23-sparrow-hawk
+    old: e172cc69ad951a5e8bc7197326c8d4d9bb767bac
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.18.18-2026-03-16-sparrow-hawk
-    old: 99ebc055394b95b6fe3f7f11316699e4d0618eeb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.18.18-2026-03-16-x5h-ironhide
-    old: 80e60993b9ef535cf435237bd47a0dbe7f30baef
+  - ref: refs/heads/renesas-lts/v6.18.19-2026-03-23-x5h-ironhide
+    old: 9a6c0f8182e5210093c749dd6d448ce64a5a2168
     new: 0000000000000000000000000000000000000000
