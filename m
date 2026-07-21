@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8092886073138938942=="
+Content-Type: multipart/mixed; boundary="===============7091202033880783782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 21 Jul 2026 13:52:41 -0000
-Message-Id: <178464196139.3914249.4907297401382200631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Jul 2026 14:01:06 -0000
+Message-Id: <178464246646.3921346.11756057385933942901@gitolite.kernel.org>
 
---===============8092886073138938942==
+--===============7091202033880783782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b5853f8c0710ccaf7e63c4b7ac990189eccf44cd
-    new: f9d1f90d76439605f0a17ab827eb795b739eba49
-    log: |
-         f9d1f90d76439605f0a17ab827eb795b739eba49 5.15-stable patches
-         
+  - ref: refs/heads/main
+    old: e0722efbcfeb142e02b0b8031136ce81610a8507
+    new: d4932951a19a5f1ec93200260b85e1a4c080ff77
+    log: revlist-e0722efbcfeb-d4932951a19a.txt
 
---===============8092886073138938942==
+--===============7091202033880783782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e0722efbcfeb-d4932951a19a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784641950 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784641956-2305d8b9347bddbef71fe2c7196d6f1b49ade8c6
+55e9b2788fdc051710885fd30e3a3e813d9bed49 net/mlx5e: psp: Rename the saved psp_dev to 'psd'
+c61cb6647a2c4624af55c5f4ee706bf8a0dd6942 net/mlx5e: psp: Remove PSP steering mutexes
+997dd8fef048634465bc46fb18131dc7d85d4b79 net/mlx5e: psp: Remove unneeded ref counting for PSP steering
+346bdf9caa2952ea0703f8fcd8f3772d6f60826e net/mlx5e: psp: Merge rx_err rule add/delete with ft create/delete
+feaf6f90644efad66dce366c6816130996317609 net/mlx5e: psp: Use helpers for steering object manipulation
+46a1240b2e117c4e54b6c9687d9ec2b23b47bece net/mlx5e: psp: Factor out drop rule creation code
+9454d5edfd92b64b1a0e982ccccd838ffd972176 net/mlx5e: psp: Remove unused PSP syndrome copy action
+1b1a66b37e2c7b212f54697ebb4442214001b396 net/mlx5e: psp: Rename and consolidate steering functions
+25f756e29feda96056b6408bbd2941dba9325035 net/mlx5e: psp: Adjust rx_check FT size and use a drop_group
+4bb6e87aceeab945a4db4aabd1b486f8d88f6262 net/mlx5e: psp: Add an RX steering table
+92be057b8048229695f2d582a789ca5543233f4c net/mlx5e: psp: Use a single rx_check table
+823f296008f39bb95c189cedf3b9f16d4ed65234 net/mlx5e: psp: Flatten steering structures
+1e6e0cec0dab96f5968a29c4d363da05200171e4 net/mlx5e: psp: Make PSP steering config dynamic
+13ae76a6a3e6f1b6d5a2505192288f9f58c903fc net/mlx5e: Return errors from profile->enable
+676fe97d57df18c8ce00b42c4881e8d848e23a54 net/mlx5e: psp: Report PSP dev registration errors
+d4932951a19a5f1ec93200260b85e1a4c080ff77 Merge branch 'net-mlx5e-psp-cleanups-and-improvements'
 
-b5853f8c0710ccaf7e63c4b7ac990189eccf44cd f9d1f90d76439605f0a17ab827eb795b739eba49 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpfeZ4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YfEP/0OnhSiXKAwbX9F/WWlW
-dP5bfnb95u98fdHKwUh1cqhu5NW0TJJytzfCxw87xSrM3xI23mZCxkFA1Kn+A/Tm
-r0l7gwSCfSc29/NrLAVnVb07Qs53MclC9OdD9aa611lHlsWmLc00Gb1f9tNvmrjV
-Q0pCmyskwmBFjhftkS2DE4nN8RmoMBnP8fpHuNQ+PUJmbt+USYBwakhdsWlNdXs8
-HM/CTBzMLNjWTEqUYxof1w0sOZCxWAzRggBQvGSHA/GYGPJLLIXE1o4UHiwep4Rd
-yZtlSAz9kFbhbyEqTtTyIJlJqeu4m3aDqTYlH9RCe0YmlztFo8za8cJq2LPvQcgb
-7IzoKGk5KRXQdVYPZ9nJYA9h1dXANymuRPfdUlHTQ5ih0tRcu6uOtYB+Vc82W/O+
-+C2+WIFN4xUNj0ZYuS5FiHKnTv/blerEPHcnMtGLawh/4YzAaa6GUZwBMG3+JR7T
-9ZVkRmwuNfh/H7hzU/3i0EojTpEh4FtFjLYFp9tAM4+gfMVg6ZodaaLsRzn4eI3b
-QHkMKJcBuTsWiX8Lpwe1i8WUalL2VlxnXglxsWuOpKR5bTn68BlE3awyOqhEndtY
-3crh5PljDPtcaJ0d7CjUCGnhnT5BWZR4QnVlBoMrdM5YLv2HZIKklUQPoGG33VpN
-WOD+pjaTdp7PkQzKM0S5XDXY
-=CZK7
------END PGP SIGNATURE-----
-
---===============8092886073138938942==--
+--===============7091202033880783782==--
