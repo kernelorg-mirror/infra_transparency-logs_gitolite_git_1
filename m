@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3253271969781612893=="
+Content-Type: multipart/mixed; boundary="===============5520511842701565065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
-Date: Tue, 21 Jul 2026 01:36:53 -0000
-Message-Id: <178459781385.3284425.16450382126653289577@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 01:37:01 -0000
+Message-Id: <178459782172.3284645.15208962707556442384@gitolite.kernel.org>
 
---===============3253271969781612893==
+--===============5520511842701565065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pjw/riscv
 user: pjw
 changes:
-  - ref: refs/heads/experimental/fix-kprobes-minimal-kernel-v1
-    old: 9fe8e4f1a81d8513a23e042380d89e745d03db88
-    new: 2219d6001700dbbf6faa8b816e8d8c961b3a4d39
-    log: revlist-9fe8e4f1a81d-2219d6001700.txt
+  - ref: refs/heads/experimental/sbi-sse-v9
+    old: 70dd8840ff30f93e2e9f33e7f7de6c3b79036a12
+    new: 3c3bac102989a9cfa01d4ca750fa01e4b3013a27
+    log: revlist-70dd8840ff30-3c3bac102989.txt
 
---===============3253271969781612893==
+--===============5520511842701565065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fe8e4f1a81d-2219d6001700.txt
+Content-Disposition: attachment; filename=revlist-70dd8840ff30-3c3bac102989.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -587,7 +587,10 @@ dbebf13ae3c3b447cf2a432dd1e98d08b6190b6f riscv: acpi: Enable ARCH_HAS_ACPI_TABLE
 6215cae9d2fb6bb2bcd2d82f647d574eec423f05 riscv: mm: Apply Svinval in update_mmu_cache()
 1c9dd100a899fd51dc9eaec8ee460b63ef4f0b62 riscv: vdso: Simplify cflags remove logic
 bc9084ce2831b3c923c24b36b4c7b18020208f69 riscv: cfi: reduce shadow stack size limit from 2GB to 512MB
-7f61eceaeb86655d8f668b7740fc03b140948ea7 riscv: mm: make EXECMEM_KPROBES writable without ARCH_HAS_EXECMEM_ROX
-2219d6001700dbbf6faa8b816e8d8c961b3a4d39 riscv: patch: skip fixmap mapping when kernel text is already writable
+9eba269d903dfc3ded745605f92ec82fc08a0e3a riscv: add SBI SSE extension definitions
+c0272b09ad08684ea078bed626f7f8af4a484ec4 riscv: add support for SBI Supervisor Software Events extension
+8f5c17997d9df3327640928fddc1fdcca6c03d35 drivers: firmware: add riscv SSE support
+1ea759f8b355ddb6bcd89d68624337221b641673 perf: RISC-V: add support for SSE event
+3c3bac102989a9cfa01d4ca750fa01e4b3013a27 selftests/riscv: add SSE test module
 
---===============3253271969781612893==--
+--===============5520511842701565065==--
