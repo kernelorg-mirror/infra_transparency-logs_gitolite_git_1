@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0591456032580127740=="
+Content-Type: multipart/mixed; boundary="===============4663076984169737064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
-Date: Tue, 21 Jul 2026 01:36:34 -0000
-Message-Id: <178459779400.3283774.10874817878312040445@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 01:36:40 -0000
+Message-Id: <178459780062.3283990.6033099547966100383@gitolite.kernel.org>
 
---===============0591456032580127740==
+--===============4663076984169737064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pjw/riscv
 user: pjw
 changes:
-  - ref: refs/heads/experimental/vector-speed-probe-v1
-    old: 5bd73df062b0a11f59fe1dfd63ad692d0c58dc6c
-    new: c91627774430bcb7dc5e6b321ffaf7e3e69a9832
-    log: revlist-5bd73df062b0-c91627774430.txt
+  - ref: refs/heads/experimental/tlb-flush-opt-v2
+    old: 78236db00860ab2c2be6b6cf989d52a39f2db82b
+    new: 0b28aa32a1ee23d62a4c8a482ad17594c908b92f
+    log: revlist-78236db00860-0b28aa32a1ee.txt
 
---===============0591456032580127740==
+--===============4663076984169737064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bd73df062b0-c91627774430.txt
+Content-Disposition: attachment; filename=revlist-78236db00860-0b28aa32a1ee.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -587,6 +587,6 @@ dbebf13ae3c3b447cf2a432dd1e98d08b6190b6f riscv: acpi: Enable ARCH_HAS_ACPI_TABLE
 6215cae9d2fb6bb2bcd2d82f647d574eec423f05 riscv: mm: Apply Svinval in update_mmu_cache()
 1c9dd100a899fd51dc9eaec8ee460b63ef4f0b62 riscv: vdso: Simplify cflags remove logic
 bc9084ce2831b3c923c24b36b4c7b18020208f69 riscv: cfi: reduce shadow stack size limit from 2GB to 512MB
-c91627774430bcb7dc5e6b321ffaf7e3e69a9832 riscv: unaligned: stop using kthread for check_vector_unaligned_access()
+0b28aa32a1ee23d62a4c8a482ad17594c908b92f riscv: mm: Clear cpu in mm_cpumask after local_flush_tlb_all_asid
 
---===============0591456032580127740==--
+--===============4663076984169737064==--
