@@ -1,80 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============0569065791445571647=="
+Content-Type: multipart/mixed; boundary="===============5439992012502393055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 21 Jul 2026 17:22:55 -0000
-Message-Id: <178465457592.4088888.4046474593219935949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Tue, 21 Jul 2026 17:27:46 -0000
+Message-Id: <178465486657.4092725.475425849297594643@gitolite.kernel.org>
 
---===============0569065791445571647==
+--===============5439992012502393055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/main
-    old: ac798f757d6475dc6fee2ec899980d6740714596
-    new: 9f0d2ea9253c4fa2a3fc8dcbafa1fd9acf4eb547
-    log: revlist-ac798f757d64-9f0d2ea9253c.txt
+  - ref: refs/heads/export
+    old: 254350c480d5cc9124500ba3588f2d24a1905608
+    new: 9d33b57982424bae6bd4e53ffe848dc8043fc2d8
+    log: revlist-254350c480d5-9d33b5798242.txt
 
---===============0569065791445571647==
+--===============5439992012502393055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-254350c480d5-9d33b5798242.txt
 
-certificate version 0.1
-pusher 7BF9099A 1784654537 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1784654536-239de3119b9e39949cd16495761f18d2cf1717a6
+64a27b87512b375eed53ef96b9926661a2a52382 DO-NOT-MERGE: git markup: net
+2941ab4ba35840095ad5aed1ebebd9242be53abf DO-NOT-MERGE: git markup: fixes other trees
+536a11098be9663eef9b61c8fd5457447e978be4 mptcp: fix stale skb->sk reference on subflow close
+b90363fbbbdce39c1dad50353d7df69480a24952 mptcp: only set DATA_FIN when a mapping is present
+cc407398118d42317e9d6c8187177c4eb4e6b899 mptcp: fix BUILD_BUG_ON on legacy ARM config
+ae4c9db79c9a5940f2c7717fb905b2150beef0ed mptcp: decrement subflows counter on failed passive join
+1383788dd76d8eb5b0c3f10f660765883d1e10c3 selftests: mptcp: userspace_pm: fix undefined variable port
+65a3175beb5567fc72560c94a0976aad2b610315 DO-NOT-MERGE: git markup: fixes net
+4687c9a1dca4eee21f4c27e1309bfd41aa45ff4b DO-NOT-MERGE: mptcp: add CI support
+46d4d5cef34a12a703f39244200b3f7db9604efe DO-NOT-MERGE: git markup: end common net net-next
+711306a21d5649ba64d2a6155fe001fc23546503 TopGit-driven merge of branches:
+2b11503a0f22cc9331f911f976f6e9ff8d42877e DO-NOT-MERGE: git markup: net-next
+f52a7110da0dac7bdbf3a4a7d194dd49c101769f DO-NOT-MERGE: git markup: fixes net-next
+ff2708bad352d06968f41887984a79970e355944 mptcp: pm: init and release mptcp_pm_ops
+21012a25f78b1a3fcf3544224170d691b259e7ce mptcp: pm: add get_local_id() interface
+9bf9c07c81225171422b0b09ad604c658657b703 mptcp: pm: add get_priority() interface
+0134e2fdc77d3f0463e9a4b84cde23e724f379b8 selftests: mptcp: connect: test name in pcap file
+6786b3e96bdedda4653e365dcb4c14888ce82458 selftests: mptcp: simult_flow: test name in pcap file
+c507423ec23795d8694a7467edbc614c7264fb50 selftests: mptcp: pcap: drop most of the payload
+466e28763d39c69b5bdc9c994a478043b38ec8bd mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+03370df4db82e8652755a5c641cde19d789838fa mptcp: remove unused data_ack from struct mptcp_ext
+3c4cc90191e0a07074c0ae7812901f7e25de4834 mptcp: move the retrans loop to a separate helper
+00dd3a9e62a98efb12d15aba3323daa493266d2c mptcp: let the retrans scheduler do its job
+12d5abd538f9777f249d60be27c6204ef3acd3cd mptcp: explicitly drop over memory limits
+b78916a22576a53c37b7274aa8fca8096cb4c921 mptcp: enforce hard limit on backlog flushing
+ece69c375aa2f61368bd065ad294b94e483e2106 mptcp: implemented OoO queue pruning
+06219b24eaa6ced7a094d7715d5f1d5e5510d609 selftests: mptcp: fix const qualifier warnings in strchr usage
+4a65291898df9b901d4709f9f10cd857ed1cfc3b DO-NOT-MERGE: git markup: features net-next
+9aebd1e1ff4af3e86dbe0d43af87dc4cd9bfe940 DO-NOT-MERGE: git markup: features net-next-next
+a476912bc4e0aa844c35293e8eba103863a522a1 bpf: Add mptcp_subflow bpf_iter
+fbdc62349d5c12b9d430fe98ef705ea796923d3d selftests/bpf: More endpoints for endpoint_init
+d81456d42ec9af2ec57a77ed2661776a3efcfae7 selftests/bpf: Drop cgroup_fd of run_mptcpify
+f4fa566386130b475b7b32a7303cac5866680e5e bpf: Add mptcp packet scheduler struct_ops
+dac7be00c02b9ebbedeefaacce374a66327849ce bpf: Export mptcp packet scheduler helpers
+db2edb9856b705f47334f4b9f33f503828987c69 selftests/bpf: Add bpf scheduler test
+2ca650da7eaf4913a609f0252bc5ce55e06ca09e selftests/bpf: Add bpf_first scheduler & test
+bf2d52288d83976bc1b3c3973e802a27b9581344 selftests/bpf: Add bpf_bkup scheduler & test
+9a0fc0742891357d8f2d86f70d8e6830b038631a selftests/bpf: Add bpf_rr scheduler & test
+5dee2a6b07abf0620665cf07553ee34f466d9bdc selftests/bpf: Add bpf_red scheduler & test
+a8eb5f7ea4c6fd8699fe72c2abb0be47cf2da47a selftests/bpf: Add bpf_burst scheduler & test
+346a594e2bc7c49c59890841a5052033bcb34875 DO-NOT-MERGE: git markup: features other trees
+3d44f8113ef59f5e826319d566de0b675656b8e3 DO-NOT-MERGE: mptcp: improve code coverage for CI
+9d33b57982424bae6bd4e53ffe848dc8043fc2d8 DO-NOT-MERGE: mptcp: enabled by default
 
-ac798f757d6475dc6fee2ec899980d6740714596 9f0d2ea9253c4fa2a3fc8dcbafa1fd9acf4eb547 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpfqskACgkQ10qiO8sP
-aACGaxAApW/cl8J9fWficHD79MccoZPPFdEQSTqK3GB8OcQdDnlWKGb5E+6uo3pL
-oynFWZCcOI2GhIxjHibW+KC4/hyOtvj+5fqnU3wyLTJq/7bHCcMlV6MoSVyJrhcl
-jua07xScuJJQDOvwbersskKGYSHneZ+JyXChxCSnWZf3A72Vqc7TWjlI+SpG+Aei
-rZSCweJ8De0DFgjoZAYTqDZxgdF3EmYpztTJqzBRLOWpcd4TmEv2kV0hpRFBcnLk
-eQizxsi2iSpZUPiol1Gg2fsGOaTSR4FvBxz1m8VX/qqlP/cbrbvP42xAsG9GkbTP
-Ew0wyC8kNRPKHS4p6j+K1+NgsrNAwgtAMvtydjJJJ27PFMl+zjWLQVsAUL7sxwmJ
-Xkb+U40N6XPA7G5TWJHHXj9MhNw6vflcn+xcCHgDIqv5scIN3/f4RkPPjEtN4ezo
-BMGorYjuyfNfoC37+GVzwiVS3bNj4xWB+FBWsXAchkdAyJBB6d0xmPPUcqmfloe0
-Ah4Q843+SWTH6t6cDSpS3Lsh2WSpbGPmhjKVcZXSter47n8coO2Anil+ROBVfzWo
-8n0T2nxh8b8G+AIB/+M8Yw3mUPDO6IOyvYn5D+86i9HZ5DkkiLhNH+s3xl3sHjR2
-ggfUUPE0INrqog6qac49lMw4gbnGCvLd+aBblnkQxdCn+KbcmZs=
-=9pfR
------END PGP SIGNATURE-----
-
---===============0569065791445571647==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac798f757d64-9f0d2ea9253c.txt
-
-037d3e9a44e52dba5508a84095db8d90f343628c mmc: sdio: add Morse Micro vendor ids
-b1906cea00b021acea22460225401d5b27bc7c36 wifi: mm81x: add mm81x Wi-Fi HaLow driver
-dc4d1a7615a72d8671350ea8131cd86576869ab8 mmc: core: add NXP IW61x base ID and block size quirk
-73b01e57ed3e3d6102c0cbcb21f62086c5429437 wifi: nxp: add nxpwifi driver for IW61x
-aeea930c7a878957a4b74d4888cd22880db2258c wifi: mac80211_hwsim: authenticate PMSR report senders
-37a77bd1395e8261d1760ae39c7f5eb637300550 wifi: mac80211_hwsim: clear PMSR request state on abort
-1c21afed21b4c42e15a6fb91f3fa697e0675cd4f Merge tag 'mm81x-driver-08-07-2026' of https://github.com/MorseMicro/linux
-dd406779999fa2065ec6b7c4f80906b727041d2c wifi: mac80211: don't encrypt pre-auth (ETH_P_PREAUTH) frames
-a3262f61d102eaae81048d10eb0aadcc623ea026 wifi: mac80211: always send regulatory connectivity element
-410d70acf9ca73fdf370e1eb7e1da64e486dcbb5 wifi: use UHR operation field presence bits
-3002812cbedb09a359e0865670d7ae6267b1dd6f wifi: cfg80211: improve multi-BSSID profile continuation parser
-8ff047b9c7b2900ec6e49361f81d74ac61563cdc wifi: cfg80211: clarify and tighten key checks
-aa4c0a649903567762edf2bbc7fff608953b3ca4 wifi: mac80211: ibss: read deauth reason_code after frame length check
-8a0ed6ce39852d6a5dace3b3908c77c17468f250 wifi: mac80211: mlme: read deauth reason_code after frame length check
-9fbe9627c585c0b83e0de1657b75fd1829ba36a4 wifi: mac80211: fix monitor min_def bandwidth
-a607344292c2ec4546f33ed360eb713d261a7133 wifi: mac80211: notify driver before destroying assoc link
-56f47868e9e947891ed8f548e3ddb82455edc14e wifi: cfg80211: include cf1 offset when sending chandef
-86e844826286f137dec85403943878085c77aab9 wifi: mac80211: refactor multi-link assoc response parsing
-e68e231a96ccdc8d7cbb80f90524857a98dc1835 wifi: mac80211: parse enhanced critical updates field
-9f0d2ea9253c4fa2a3fc8dcbafa1fd9acf4eb547 Merge tag 'nxpwifi-2026-07-15' of https://github.com/jeffchen71/nxpwifi
-
---===============0569065791445571647==--
+--===============5439992012502393055==--
