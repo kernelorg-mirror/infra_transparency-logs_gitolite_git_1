@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 21 Jul 2026 12:04:00 -0000
-Message-Id: <178463544081.3783014.8249343608017915563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 21 Jul 2026 12:08:36 -0000
+Message-Id: <178463571699.3808243.12443915424079859590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/fixes
-    old: a2579c8650fa5fe9c5106d167fb47881e39c2e27
-    new: aa9ef01b06a955e90243a873111473fd5565d75a
+  - ref: refs/heads/master
+    old: 91aedc65815229ae8a9aba17145e5498f0ead410
+    new: 6e9f1fc52b8d9ccc7a553f5d2858899e7d35c0fa
     log: |
-         08714afe0053dfe22d5e576aff850d11c4c1049c KVM: arm64: Fix hyp_trace clock disabling
-         645285a9f6165befd51957b3a2418ee01eb8bd60 KVM: arm64: Reject guest_memfd memslots when the VM has MTE
-         2aa1fa7ddef19d5e400f07148ae57fd18488e776 KVM: arm64: vgic: Fix race between LPI release and re-registration
-         aa9ef01b06a955e90243a873111473fd5565d75a KVM: arm64: vgic: Mitigate potential LPI registration failure
+         6e9f1fc52b8d9ccc7a553f5d2858899e7d35c0fa drop 14 patches based on RC review feedback
          
