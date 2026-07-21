@@ -1,23 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 21 Jul 2026 19:18:05 -0000
-Message-Id: <178466148538.4175374.14254236227255316488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 21 Jul 2026 19:21:34 -0000
+Message-Id: <178466169432.4178654.7010252749456512696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 18a44e70450a22d479c5ccce33dffa8a65bf30d9
-    new: beb41b8b14fd96d97f328fb8d0544bfac3a00a78
+  - ref: refs/heads/for-next
+    old: 5eb8921371c6fd117d4a328b6053dfda38707df8
+    new: 426a6befd01f90061968f8f4ae22fc4ec74256b2
     log: |
-         315a717c716eab4e8db1ec4ddd13d4b963bf73c6 ASoC: mediatek: mt8192-mt6359-rt1015-rt5682: use *dev in mt8192_mt6359_card_set_be_link()
-         8fd27d490a87c56be8f73c0f5ed26a88a20d1b98 ASoC: mediatek: common/mtk-dsp-sof-common: use for_each_card_prelinks()
-         a5db2423440548f86b0a5608ffc9ffb6c01ac67d ASoC: mediatek: mt8196-nau8825: remove unnecessary declaration
-         7a8073fe03bbc77aa6adf71ec8c76cf6ad03c498 ASoC: mediatek: mt8365-mt6357: remove useless assignment
-         beb41b8b14fd96d97f328fb8d0544bfac3a00a78 ASoC: mediatek: preparation for Card capsuling
+         2e0fa2389c50fd3a69bb738efa74e127b7516938 riscv, bpf: Add support for BPF_SDIV and BPF_SMOD in RV32 JIT
+         c6a08afdfe3a81b1a54e921921e9481dd6c78f8a riscv, bpf: Add support for BPF_MOVSX in RV32 JIT
+         a1b37972efc0b8b01221caf09376654f7a401875 riscv, bpf: Add 32 bit atomic operations to RV32 JIT
+         426a6befd01f90061968f8f4ae22fc4ec74256b2 Merge branch 'riscv-bpf-add-support-for-signed-operations-and-32-bit-atomics'
+         
+  - ref: refs/heads/master
+    old: 5eb8921371c6fd117d4a328b6053dfda38707df8
+    new: 426a6befd01f90061968f8f4ae22fc4ec74256b2
+    log: |
+         2e0fa2389c50fd3a69bb738efa74e127b7516938 riscv, bpf: Add support for BPF_SDIV and BPF_SMOD in RV32 JIT
+         c6a08afdfe3a81b1a54e921921e9481dd6c78f8a riscv, bpf: Add support for BPF_MOVSX in RV32 JIT
+         a1b37972efc0b8b01221caf09376654f7a401875 riscv, bpf: Add 32 bit atomic operations to RV32 JIT
+         426a6befd01f90061968f8f4ae22fc4ec74256b2 Merge branch 'riscv-bpf-add-support-for-signed-operations-and-32-bit-atomics'
          
