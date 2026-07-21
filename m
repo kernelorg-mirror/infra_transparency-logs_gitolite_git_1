@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1007118609426851358=="
+Content-Type: multipart/mixed; boundary="===============6661530983732653005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 21 Jul 2026 08:44:13 -0000
-Message-Id: <178462345358.3590537.9055347150565940635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 21 Jul 2026 08:50:12 -0000
+Message-Id: <178462381272.3596400.16064102583007413300@gitolite.kernel.org>
 
---===============1007118609426851358==
+--===============6661530983732653005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 10bae492e814eeb1013ab9bc08f655d14fca46e4
-    new: 79c5e5d6909ab0c060b4dcf406b50d139c09a168
+  - ref: refs/heads/master
+    old: 0f0c16b8217ab245b60680337e3d9ed1ab4a3bbf
+    new: dc57333378c91a76064e65af2d0cc3839e69b3fa
     log: |
-         1aa6d7c4cfb84ae750391042c2266e4acce827d8 platform/x86: uniwill-laptop: Split uniwill_kbd_led_init()
-         79c5e5d6909ab0c060b4dcf406b50d139c09a168 platform/x86: uniwill-laptop: Remove single color keyboard detection
+         dc57333378c91a76064e65af2d0cc3839e69b3fa 5.10-stable patches
          
 
---===============1007118609426851358==
+--===============6661530983732653005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1784623447 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1784623447-461de088310f1bce109ab80ddfe4bca13ee6130a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784623804 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784623810-33369a8b19afc196bf837e076ff21ac82c19bae0
 
-10bae492e814eeb1013ab9bc08f655d14fca46e4 79c5e5d6909ab0c060b4dcf406b50d139c09a168 refs/heads/review-ilpo-next
+0f0c16b8217ab245b60680337e3d9ed1ab4a3bbf dc57333378c91a76064e65af2d0cc3839e69b3fa refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCal8xXQAKCRBZrE9hU+XO
-MWNPAQC5oSjVaqYvY8Tn15teXJ4HNSR3zDhwSIi+/a/btjMp/gD/drQbOkYCWTx9
-k2w8t0mUQSWRSjlowyGjrrVXAsU5iwo=
-=xlC+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpfMrwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P+kP/2FM5qdZkMpmR8GeGeF1
+NH1omtQTXG+gzFNxY1AQzSOvCWFibYcjRcfOMXuq9KwxSwwZq+32lY3P640eeqd8
+SXVwoBpsY+nChCZVJkmq5UfSihkyE6g2Dr9ei2rbzLnYqXeT8upNj9nnAfJiTw99
+STeEqdVVfy+wqO+YJQfSWBHMdjoeK1HOrM38o1U0+Sp4dHagvew6q+AYDieIB56Q
+f4XkXm1GeyspAo1nLHm3HWyTQ/Tat8h1ezl/y2Y8rB61ubhgkrZd5xixf0tcSzE/
+QvTktJu3OtlnvKbmCNgGrBaa6DGvFQnW9cZGcxmDsCVFacR/PmEFlrlbv1wGlM73
+D9z8A9K2SKLip7JbiWtF/zO0IaPMJLFyuG6vKQkTxbEmX9LrUHi7B7nf3ShJa6wg
+2rnFRVEuhDntTRfZnLndSvxN2gygfg30TJx4bx4ef+PB9WHYEOqIN0kL23qoRKFG
+Z8EvKFHNtIZPldg65aly2Y0He7L8bsHcFApdrxVHiG+yhaMI3/m/peyCoFjCeBvb
+vlOPFNsZeG3ai9A7UJNkUF7kZirw+pWuo0bxJdhzFb26sbkTVuSECZkDijE+Qu+m
+/7y9rBKDz+KMoR6ly8nITj75V9HV8hzpb2TaTSKms54V8Far21Ls99yCxiE1H4wD
+balvm++jRrI1ANdjlZCfIWoB
+=+4r0
 -----END PGP SIGNATURE-----
 
---===============1007118609426851358==--
+--===============6661530983732653005==--
