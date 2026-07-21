@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 21 Jul 2026 13:37:56 -0000
-Message-Id: <178464107676.3902377.17196743579595992053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 21 Jul 2026 13:39:05 -0000
+Message-Id: <178464114509.3903197.8705022337467923884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-next
-    old: 260fc7a0fe660fc5b3c44541757f2399c981986f
-    new: df27e4dc80c4a30ad206432cb848aab00de22ca7
+  - ref: refs/heads/coreutils
+    old: 63eb3b4485d8315b918995b180ddcaa05dfb15bc
+    new: 63832a0cc855147ef92a0e940966dde29e53f889
     log: |
-         df27e4dc80c4a30ad206432cb848aab00de22ca7 ALSA: hda: Check snd_hda_power_pm construct error before executing verb
+         63832a0cc855147ef92a0e940966dde29e53f889 man/man[18]/: REPORTING BUGS: Use MT/ME for the mail address.
          
