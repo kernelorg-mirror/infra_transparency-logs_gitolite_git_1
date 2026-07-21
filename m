@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2542550711726604130=="
+Content-Type: multipart/mixed; boundary="===============7791067291806303149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 21 Jul 2026 08:56:17 -0000
-Message-Id: <178462417782.3603173.260667078849810866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 21 Jul 2026 09:00:37 -0000
+Message-Id: <178462443738.3606566.1398152789802020825@gitolite.kernel.org>
 
---===============2542550711726604130==
+--===============7791067291806303149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/main
-    old: 80d8e1d428e898f792e3c87161cd3b522a2159a9
-    new: 777f49d336fe89b8641522767bb6ecd42c6a940f
-    log: revlist-80d8e1d428e8-777f49d336fe.txt
+  - ref: refs/heads/probes/core
+    old: 1a416ae446afa42d2d8500ce25bd61c564508721
+    new: 5be3a9db600853578559681b2dd20a9bc7dd4fc5
+    log: revlist-1a416ae446af-5be3a9db6008.txt
 
---===============2542550711726604130==
+--===============7791067291806303149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80d8e1d428e8-777f49d336fe.txt
+Content-Disposition: attachment; filename=revlist-1a416ae446af-5be3a9db6008.txt
 
-2aa955bc52e93228e2ae6be91806cfc707476deb dt-bindings: net: Add ADIN1140
-7d0e4c4b8c85d8ea2c77a90e1f7a7f74ce531e52 net: ethernet: oa_tc6: Handle the OA TC6 SPI protected mode
-1d030cdd52ee0042753327601156e7938f2455c1 net: ethernet: oa_tc6: add OA_TC6_BROKEN_PHY quirk flag
-87ac7ea2153c0e52aa24568226a90929ee5249c3 net: ethernet: oa_tc6: Export the C45 access functions
-9210d402bdf54240b8aec9815b2f9aad360fcb42 net: ethernet: oa_tc6: Export standard defined registers
-31bc75f17c1f5ff989fa896aae3e4e411d9b0b7a net: ethernet: oa_tc6: Add the OA_TC6_ prefix to standard registers
-6ad250179486d718dde90d815fc77df4de7d1dc4 net: ethernet: oa_tc6: Add read_mms/write_mms register access functions
-92ec8d69ddb0a75cd416f571236915d09fcb9bf6 net: ethernet: oa_tc6: Use the read_mms/write_mms functions for C45
-638b41f770ade0dfc45f7f6f25e1cf75a9c89808 net: ethernet: oa_tc6: Add new register address defines
-aa63217916e1818a28b711384a9340d965ad073f net: phy: add generic helpers for direct C45 MMD access
-85032df227f9e7b7d6a74269968edad891d80ef9 net: phy: microchip-t1s: use generic C45 MMD access helpers
-0feaf415b7822b27ff60c2711fd345a0414a80f0 net: phy: Add support for the ADIN1140 PHY
-20e69e671070ab0b712b34a0e8977e8a402aa5eb net: ethernet: adi: Add a driver for the ADIN1140 MACPHY
-777f49d336fe89b8641522767bb6ecd42c6a940f Merge branch 'net-add-adin1140-support'
+323853e2d125ec1a99df61893fb546728f4d738e tracing/probes: Remove duplicate MAX_ARRAY_LEN macro definition
+794b5640aa7b295623c1d6b6fc2fe229a30aad0d tracing/probes: Remove redundant boolean conversion in trace_probe_has_single_file()
+6e9328ed75afc2f2564514df53ff66259f805a2a tracing/probes: Remove redundant bounds check in trace_probe_compare_arg_type()
+5428fca0cd542d4fb7beb781c1b44292aedb7915 tracing/probes: Remove unused parameter from parse_probe_var_retval()
+78d252c935c9c54742443e871b7b39204ecb7a01 tracing/probes: Cleanup pointer arithmetic in store_trace_entry_data()
+0fb6fd1eb3e7c8649473bd0ea6d897c835740157 tracing/probes: Simplify BTF_KIND_PTR case in fetch_type_from_btf_type()
+36db65d0e5de923909e4d2b13524375b139568ac tracing/fprobe: Remove redundant snprintf in trace_fprobe_match_command_head()
+3d785646cc488d3f743e0cb67491e80b69200cfb tracing/fprobe: Remove redundant memset in fentry_perf_func()
+5b385fd434c75b6288a36722d606f04444db34eb tracing/kprobe: Remove redundant memset in kprobe_perf_func()
+5be3a9db600853578559681b2dd20a9bc7dd4fc5 tracing/probes: Fix extra whitespace in trace_probe_kernel.h
 
---===============2542550711726604130==--
+--===============7791067291806303149==--
