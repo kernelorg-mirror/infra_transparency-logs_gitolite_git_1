@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 21 Jul 2026 21:54:42 -0000
-Message-Id: <178467088299.122812.11975267109204446461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 21 Jul 2026 21:55:26 -0000
+Message-Id: <178467092680.125288.1221887203679082498@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1bb028baab541900d3603d4f93c1c0fb5aba5401
-    new: 357997831d0ba7c4210a84c38bca531c6a63a6d6
+    old: b65352a1bac64442ad95e64f385b40ccb9f1b0db
+    new: eaa39f9f8ac8c1d032cd26b9cd572804e9d7683f
     log: |
-         357997831d0ba7c4210a84c38bca531c6a63a6d6 net: stmmac: Simplify ioctl handling
+         eaa39f9f8ac8c1d032cd26b9cd572804e9d7683f tls: device: push pending open record on splice EOF
          
