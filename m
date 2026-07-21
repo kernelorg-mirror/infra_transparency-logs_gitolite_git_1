@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 21 Jul 2026 23:14:00 -0000
-Message-Id: <178467564045.181590.10264827782983604978@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 23:14:04 -0000
+Message-Id: <178467564498.181899.11704064523099527175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.2
-    old: 1d26f125501f3fbe6c259ab75bf6516299a0bf0e
-    new: a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6
+  - ref: refs/heads/spi-7.2
+    old: a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed
+    new: 6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2
     log: |
-         a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6 regulator: core: clamp voltage constraints before applying apply_uV
+         6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 spi: dt-bindings: spacemit: add K3 SPI compatible
          
