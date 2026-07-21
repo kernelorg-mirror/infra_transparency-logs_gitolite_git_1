@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7286367603664229425=="
+Content-Type: multipart/mixed; boundary="===============6879663193466217044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Tue, 21 Jul 2026 09:48:41 -0000
-Message-Id: <178462732141.3649701.16868392323563225223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 21 Jul 2026 09:49:08 -0000
+Message-Id: <178462734834.3650081.10884381471699378045@gitolite.kernel.org>
 
---===============7286367603664229425==
+--===============6879663193466217044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 0df2662ec865238d83ada374e6f9fc9ead22f940
-    new: 1598068dca0f8ddedb48f01e06212374bbfe32fa
-    log: revlist-0df2662ec865-1598068dca0f.txt
+  - ref: refs/heads/master
+    old: 656ffc94b410b63974dbd861cecc023803691a03
+    new: 99e616e0eb7e1f030e2f34c7f123c6c478cf1b2a
+    log: |
+         99e616e0eb7e1f030e2f34c7f123c6c478cf1b2a 7.1-stable patches
+         
 
---===============7286367603664229425==
+--===============6879663193466217044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0df2662ec865-1598068dca0f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8bed376124ab4505b70083a2b91f2c7ef6d51e24 ntfs: harden runlist realloc size calculations
-4e646ecd44759e552b0b9ccd995f3f608daab414 ntfs: drop stale page-cache when shrinking a non-resident attr
-aabd574b13368bbd9419ecf52dcac238c0dec5d6 ntfs: validate final EA attribute size
-76d544b677717fedafb58efb0aeb038e73e00332 ntfs: remove empty EA attribute pair
-d915b6f4c4539db7b8837af859dbed9628c6a71c ntfs: rewrite EA stream before updating metadata
-7e2a1c554bc482c0ab0f72b26093e48db982059d ntfs: Fix min_len for compressed/sparse attributes in ntfs_non_resident_attr_value_is_valid()
-f52d94c4b424cc50fe3b3799c2d0a38a37b02530 ntfs: Inline zero_partial_compressed_page()
-0fed76692f8aa7caea97f2235e6489aca715d270 ntfs: Remove use of __folio_index in handle_bounds_compressed_page()
-3149f7a0070055722285f12f8eab86605b6d1e09 ntfs: Use zero_user_segment() in handle_bounds_compressed_page()
-cb6831717ad06db992b2041f736d5369ec2d6198 ntfs: Remove references to page->__folio_index
-513c0772542b8a7aeb494febea4907f79491f132 ntfs: fix kmap_local_page() usage in compress
-afc49a445c670e16dab4132d350983d96f49813a ntfs: file extension before write submission
-ecee2c2e91c82d7eecd62106f5835c6b3d1ae699 ntfs: use pagecache_isize_extended() on size extension
-c4c3e3a745e14677a5e9685eb416cdf6b1aebdfe MAINTAINERS: update mailing list address for ntfs
-63e61fb2a90ebab523377e159979f4f22b1e0cd8 ntfs: reparse: remove redundant NULL checks before kvfree()
-5757eadea4aefbe981bc4bcfdcfcad9c48950147 ntfs: mft: use kmemdup() instead of kmalloc() and memcpy()
-1598068dca0f8ddedb48f01e06212374bbfe32fa ntfs: dir: use kmemdup() instead of kmalloc() and memcpy()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784627340 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784627346-1627fc11111eb9068bc2a4b6f2cd375ee0b3cca2
 
---===============7286367603664229425==--
+656ffc94b410b63974dbd861cecc023803691a03 99e616e0eb7e1f030e2f34c7f123c6c478cf1b2a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpfQIwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+idMQAK886hfJFPMQXNzn6HaH
+HRTqG2Fgc0nKQnYGZjoDi/PxBC7jBjFNX7PETBa1609KhBDnTa4PKJMhI9d7/GGG
+jUlMHvK61I3Qs+/nIAZM9EsrugyeAGvWg3q4XmuOgPFHZmtdO1YFxOIWYRtHP6iJ
+h63tinoSMxKIgKrhvBCfYbe3323AD6riFapi/EGQTyxc7BE4D7gIRo1DC/Rey6/B
+bXIJgoxwKt+AHyuHPGIG3HZHtHeMbRlr2flAY3QaJxQDuX2Cmq0KaFfNGT3WPCNj
+8zIGc29ZnWWWCwiUFJ7MT6E4WkH/okjQtyF/c4+s+TsxGAG/HMl6o2Xi6e0A40cj
+LbAyuMSTJxRGVFT0sIooG9tha3L12Wbpib9hvTNgce+wy77s0YxPh1GbozoCwcHo
+m918zm8Qs5C49d3xXTDI/+UZnkW0eb/W98XzOwOHemyJAe1itJCRo1qbvR9RzOZ+
+lrqqQoExlvJFp0iRPab+byhM7yT/7YxTeBqL0BroDKLTz11oh0sSaThsyt4sjlwf
+jJqMhGbmDHLZjBm/XfqfEBXIRL6y3kENyR6m0VjnkEy0STe5LfLifWOZ+0otVAet
+7Bb4vz6atSbDsDLRMwbdie/EEEUyIic1Ps4t3ubV5H/72OFJziEr//dNobVNlZn8
+TwSwVznyWcFbQpw5n+SOraEs
+=uzHI
+-----END PGP SIGNATURE-----
+
+--===============6879663193466217044==--
