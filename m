@@ -1,22 +1,104 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 21 Jul 2026 10:35:58 -0000
-Message-Id: <178463015875.3694784.5681901523254533630@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0538358593717693439=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Tue, 21 Jul 2026 10:38:56 -0000
+Message-Id: <178463033673.3695912.4834526029382769888@gitolite.kernel.org>
+
+--===============0538358593717693439==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: bigeasy
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/main
-    old: abc435224e87c25baad28dc21fdead36ac11c02e
-    new: c1e8a257165dc6ee47e84f375bcfaca421c63e2f
-    log: |
-         f6195e3c30266679d1b93196e81424cc01862715 net: ipip: use tunnel parameters for fill_forward_path route lookup
-         4b0eb6fbc1fd96390226cbc1156f85ca04dc2ebb bridge: mcast: Fix a false positive lockdep splat
-         dbda4c27bd772155356a9a6506de988607a708a3 bridge: mcast: Remove unnecessary argument from br_multicast_alloc_query()
-         c1e8a257165dc6ee47e84f375bcfaca421c63e2f Merge branch 'bridge-mcast-fix-a-false-positive-lockdep-splat'
-         
+  - ref: refs/heads/linux-6.18.y
+    old: 0000000000000000000000000000000000000000
+    new: 0c503cf3dde2e53614f05261ece12f9d3d4c3c20
+  - ref: refs/heads/linux-6.18.y-rt
+    old: 0000000000000000000000000000000000000000
+    new: a3c2a803731b7b3d139c45a019cf43c8759fcc93
+  - ref: refs/heads/linux-6.18.y-rt-patches
+    old: 0000000000000000000000000000000000000000
+    new: 73c8e8d7a75fcc8b9026385e64990f3d5ec8a40d
+  - ref: refs/tags/v6.18-rc4-rt2-rebase
+    old: 0000000000000000000000000000000000000000
+    new: f22c4ec1477e0358c2d8171a82bf09c9c4bffa78
+  - ref: refs/tags/v6.18.35
+    old: 0000000000000000000000000000000000000000
+    new: 1e0ea17e5f018fdbf91c02f030452ea407be729f
+  - ref: refs/tags/v6.18.35-rt5
+    old: 0000000000000000000000000000000000000000
+    new: 0b0ddd34fdde13850eee090a31a25ef71842db1b
+  - ref: refs/tags/v6.18.35-rt5-patches
+    old: 0000000000000000000000000000000000000000
+    new: 72f3df5c4b383466c2a29bd5c9c69af095a2be51
+  - ref: refs/tags/v6.18.35-rt5-rebase
+    old: 0000000000000000000000000000000000000000
+    new: 85892880ffc3b2b004f92c7e38cb5e118780d973
+  - ref: refs/tags/v6.18.36
+    old: 0000000000000000000000000000000000000000
+    new: 01fc54741dccd4987a70c30b2ae56c4ae853093a
+  - ref: refs/tags/v6.18.37
+    old: 0000000000000000000000000000000000000000
+    new: 9dd28e3524e149264ed0932e3140d21f9a7e95e1
+  - ref: refs/tags/v6.18.37-rt6
+    old: 0000000000000000000000000000000000000000
+    new: 27fbde3306d9ca4206f737073c733dce5bc8d3e8
+  - ref: refs/tags/v6.18.37-rt6-patches
+    old: 0000000000000000000000000000000000000000
+    new: 2421b9c7499a48fc79f0102cc27f1357e339ae9a
+  - ref: refs/tags/v6.18.37-rt6-rebase
+    old: 0000000000000000000000000000000000000000
+    new: 0f2074bf1ea1f9dc587f75036f350ba9bfe91caa
+  - ref: refs/tags/v6.18.38
+    old: 0000000000000000000000000000000000000000
+    new: 2aa1767b5e96f79560675d55bc0da08ea36fff29
+
+--===============0538358593717693439==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x7B96E8162A8CF5D1! 1784630289 +0200
+pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-stable-rt.git
+nonce 1784630288-63daa5eb4342643a2b50b07f11161bf97534400f
+
+0000000000000000000000000000000000000000 0c503cf3dde2e53614f05261ece12f9d3d4c3c20 refs/heads/linux-6.18.y
+0000000000000000000000000000000000000000 a3c2a803731b7b3d139c45a019cf43c8759fcc93 refs/heads/linux-6.18.y-rt
+0000000000000000000000000000000000000000 73c8e8d7a75fcc8b9026385e64990f3d5ec8a40d refs/heads/linux-6.18.y-rt-patches
+0000000000000000000000000000000000000000 f22c4ec1477e0358c2d8171a82bf09c9c4bffa78 refs/tags/v6.18-rc4-rt2-rebase
+0000000000000000000000000000000000000000 1e0ea17e5f018fdbf91c02f030452ea407be729f refs/tags/v6.18.35
+0000000000000000000000000000000000000000 0b0ddd34fdde13850eee090a31a25ef71842db1b refs/tags/v6.18.35-rt5
+0000000000000000000000000000000000000000 72f3df5c4b383466c2a29bd5c9c69af095a2be51 refs/tags/v6.18.35-rt5-patches
+0000000000000000000000000000000000000000 85892880ffc3b2b004f92c7e38cb5e118780d973 refs/tags/v6.18.35-rt5-rebase
+0000000000000000000000000000000000000000 01fc54741dccd4987a70c30b2ae56c4ae853093a refs/tags/v6.18.36
+0000000000000000000000000000000000000000 9dd28e3524e149264ed0932e3140d21f9a7e95e1 refs/tags/v6.18.37
+0000000000000000000000000000000000000000 27fbde3306d9ca4206f737073c733dce5bc8d3e8 refs/tags/v6.18.37-rt6
+0000000000000000000000000000000000000000 2421b9c7499a48fc79f0102cc27f1357e339ae9a refs/tags/v6.18.37-rt6-patches
+0000000000000000000000000000000000000000 0f2074bf1ea1f9dc587f75036f350ba9bfe91caa refs/tags/v6.18.37-rt6-rebase
+0000000000000000000000000000000000000000 2aa1767b5e96f79560675d55bc0da08ea36fff29 refs/tags/v6.18.38
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEZCVGlf/wqkRmzBnme5boFiqM9dEFAmpfTBEACgkQe5boFiqM
+9dHipQ/+M4i2PQK0evfJK+bofknxG79dfEHR50MmhHnHNOIKl0SjjdUtFtsMTh+P
+d3afH45i2/ZRep1QmSpa/R+09Z4GRf185FjZeuZOMA6Gd3hyS5vuf+R1ujBAykvk
+qodR60CTQZt27skV+D7+ADLoZiEzNaQraCj1wR3srO6XELeay4VGlwXA/umbizj0
+ye6YoG6AP+s/Z+ORjLEgJH4/55bnkt+iNgHANdFLIVgzWTHlRpVaQ86go0ePtWLH
+KLBHY3Kz9rhrUsE5ztR6ePB594ottotJSBXGvBs/eiZ+AwvGACM2Jjity0VqhPtS
+26DoFNLWrRHm6Q+svGdTIzg/Tex0M6aeyd59TQIi/fbbFBvknfDj6Wh9fq9O318G
+Ue93e2cn7ia8I13MLz8FvIqSIn7o92I9Lo1aTNCDZKsTwQClYPHAiLdJXbz5ThBS
+T2OOSEAtchr8X81Zn5ntWiAPFRM4UpjreIQbI4SEN1bNJcI4SXhVyIAACl+3A7+N
+CjY8QDnhi6Pp9aC/2vrP1gNs8Stfg5y51Kwy7wS82jmwCJVVCmeNDyt1pRMyTZVe
+5QcbpKVzQZ6vosXWe6wR2LLZeR16OCaAKYJCQHtG32PHpeVWig8wkT7HxBVkwxv+
+fciA0Bt1+fN4sa7bVFZDF1sjHo9GzcUqUK5MypGoP7ZsPeU6vFU=
+=aTZk
+-----END PGP SIGNATURE-----
+
+--===============0538358593717693439==--
