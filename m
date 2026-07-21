@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 21 Jul 2026 00:48:20 -0000
-Message-Id: <178459490081.3241350.10400307634685244738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 21 Jul 2026 00:56:29 -0000
+Message-Id: <178459538922.3247876.2280328672061804359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/renesas-lts/v6.6.132-2026-04-03
-    old: 05e43ed76e3ee82caa8aef8e5f8b53e7b07c5ddc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.6.133-2026-04-07
-    old: e79263298cecb943876de2a88945cea3c2790749
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.6.133-2026-04-10
-    old: ef5156d734fd20e5ae5581055c4da0d1e542ca15
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: efe417dee7a9f787eeb1e138fd4bcd804628b8dd
+    new: 7890e04c656892089d65d0894628623c0e099034
+    log: |
+         f3d9a41dac6591a927117eb89a000cabdaeb560c drop a kvm-arm64 vgic patch from 6.12 and older queues
+         7890e04c656892089d65d0894628623c0e099034 Fixes for all trees
+         
