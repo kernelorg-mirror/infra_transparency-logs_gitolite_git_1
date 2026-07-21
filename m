@@ -1,25 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Tue, 21 Jul 2026 11:18:03 -0000
-Message-Id: <178463268371.3726513.8012690627344611334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 21 Jul 2026 11:23:38 -0000
+Message-Id: <178463301819.3730552.6861061723434287301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
-user: nsc
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: ab3f7f5e6ffb18ad53621e417da719f0a3c873d7
-    new: d10cfe72528a4cf96c455a26ae2ac798446404f3
+  - ref: refs/heads/for-next
+    old: 99bcdba044c920645bbfbb238a6f835077c82bb5
+    new: 260fc7a0fe660fc5b3c44541757f2399c981986f
     log: |
-         0a548a29c7b20c2f7848fa39bc6f59a93bc4e5af kconfig: fix minor typos in comments
-         2c5a2273d6c74e6b9eb3f5cce2d7a4d046f3119f kbuild: set the initial value of subdir-rustflags-y
-         26171fab46802a7b8434667f6f855b0322f279ee fixdep: make gendered language gender-neutral
-         d10cfe72528a4cf96c455a26ae2ac798446404f3 Documentation: warn users not to use select on choice options in Kconfig
+         b9dada6bb7eb0bdd1fd9b1f319fc524b48193f8e ALSA: dummy: Use the standard PCM sync_stop callback for hrtimer
+         ac3335d7b4fde73f04fefecc280b20663706f600 ALSA: dummy: Implement sync_stop for systimer, too
+         260fc7a0fe660fc5b3c44541757f2399c981986f ALSA: dummy: Properly shutdown the systimer at freeing
          
-  - ref: refs/tags/kbuild-next-unstable-2026-07-21
-    old: 0000000000000000000000000000000000000000
-    new: 56a865adca721b91ea6869c6f83af9d1e674a5eb
+  - ref: refs/heads/master
+    old: 70ebd36615ec4a947ebf828cfad8244ff47a8e8c
+    new: cc8cfcada994e8c8b6c86b38bfc0b3da54461e9a
+    log: |
+         b9dada6bb7eb0bdd1fd9b1f319fc524b48193f8e ALSA: dummy: Use the standard PCM sync_stop callback for hrtimer
+         ac3335d7b4fde73f04fefecc280b20663706f600 ALSA: dummy: Implement sync_stop for systimer, too
+         260fc7a0fe660fc5b3c44541757f2399c981986f ALSA: dummy: Properly shutdown the systimer at freeing
+         cc8cfcada994e8c8b6c86b38bfc0b3da54461e9a Merge branch 'for-next'
+         
