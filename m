@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 21 Jul 2026 22:55:19 -0000
-Message-Id: <178467451924.169151.4291936718617412373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 21 Jul 2026 23:14:00 -0000
+Message-Id: <178467564045.181590.10264827782983604978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-queue
-    old: 16557d7e7a1ffa71f1ef9a09e7ac5b062d695722
-    new: 12b7c7740be907965168704da79e5214fd625f5a
+  - ref: refs/heads/regulator-7.2
+    old: 1d26f125501f3fbe6c259ab75bf6516299a0bf0e
+    new: a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6
     log: |
-         1f6b56f0cab881bc3b7d6cd58ceafc87dd64df71 igc: fix netdev not re-attached after resume if interface is down
-         12b7c7740be907965168704da79e5214fd625f5a ice: acquire NVM lock around each flash read
+         a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6 regulator: core: clamp voltage constraints before applying apply_uV
          
