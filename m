@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 21 Jul 2026 14:49:58 -0000
-Message-Id: <178464539857.3962040.1355345302730120448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 21 Jul 2026 14:51:16 -0000
+Message-Id: <178464547623.3964866.14125545244381427075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/hwmon-for-v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 68137f51528c5a7ee45b032ded93147f40fff40a
+  - ref: refs/heads/asoc-7.2
+    old: a792ce0fad61a70793ec565743f11d6ca534de59
+    new: f7074624bafc44b236ddc7159d962075c3747f2b
+    log: |
+         f7074624bafc44b236ddc7159d962075c3747f2b ASoC: amd: yc: Add MSI Crosshair A16 HX D7WFKG to quirk table
+         
