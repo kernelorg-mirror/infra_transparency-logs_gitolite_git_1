@@ -1,39 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 21 Jul 2026 18:21:21 -0000
-Message-Id: <178465808197.4133300.8322314827084065141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 21 Jul 2026 18:23:21 -0000
+Message-Id: <178465820168.4134145.5069646267785868530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: oupton
 changes:
-  - ref: refs/heads/for-next
-    old: 7c25590d03abcb5424723f90641fda5b6cefffc8
-    new: 2f2223a993aef8be52a029e15aa56f9ac924cf3e
+  - ref: refs/heads/next
+    old: cb9360ae6549120975f20887840fb33d47c13898
+    new: 7bb0f66cebde0bc2d9242eec92841e2d37cdf9f6
     log: |
-         6bcecae4b65d80f4474c42a026a5ba229ded347e bpf: Extract the is_struct_ops_tramp helper
-         369e4635d04801f394d5bd42556f21029e95ff93 riscv, bpf: Fix memory leak in bpf_jit_free
-         f3ab878594b57602aab2231d859f25ccc6b1a534 riscv, bpf: Using kvzalloc_objs to allocate cache buffer
-         52fb1756ea1d2759dfef2d86245be00b05dac3a2 riscv, bpf: Fix kernel stack corruption in tailcall with CFI
-         a21731f54cfe59733357d8e0dc932f6bf2fcee2f riscv, bpf: Add RV_TAILCALL_OFFSET macro to format tailcall offset
-         ec72848ca0add4aff1e690873c7cd8b5eef4bcfd riscv, bpf: Mixing bpf2bpf and tailcalls
-         683ed8b78c1d03bdddb17188b45ea803761d6d5f selftests/bpf: Remove tailcalls tests from DENYLIST.riscv64
-         2f2223a993aef8be52a029e15aa56f9ac924cf3e Merge branch 'mixing-bpf2bpf-and-tailcalls-for-rv64'
-         
-  - ref: refs/heads/master
-    old: 7c25590d03abcb5424723f90641fda5b6cefffc8
-    new: 2f2223a993aef8be52a029e15aa56f9ac924cf3e
-    log: |
-         6bcecae4b65d80f4474c42a026a5ba229ded347e bpf: Extract the is_struct_ops_tramp helper
-         369e4635d04801f394d5bd42556f21029e95ff93 riscv, bpf: Fix memory leak in bpf_jit_free
-         f3ab878594b57602aab2231d859f25ccc6b1a534 riscv, bpf: Using kvzalloc_objs to allocate cache buffer
-         52fb1756ea1d2759dfef2d86245be00b05dac3a2 riscv, bpf: Fix kernel stack corruption in tailcall with CFI
-         a21731f54cfe59733357d8e0dc932f6bf2fcee2f riscv, bpf: Add RV_TAILCALL_OFFSET macro to format tailcall offset
-         ec72848ca0add4aff1e690873c7cd8b5eef4bcfd riscv, bpf: Mixing bpf2bpf and tailcalls
-         683ed8b78c1d03bdddb17188b45ea803761d6d5f selftests/bpf: Remove tailcalls tests from DENYLIST.riscv64
-         2f2223a993aef8be52a029e15aa56f9ac924cf3e Merge branch 'mixing-bpf2bpf-and-tailcalls-for-rv64'
+         719e67103c5e1486e06e340a03f33f1493fae914 KVM: arm64: vgic-v3: Make vtr_to_* helpers use architectural field symbols
+         27a263e1a0fa23374066696aa7732a01bfde7a4e KVM: arm64: Move GICv3 broken SEIS implementation detection to a CPU errrata
+         4edfdc8ddebdac3243592f14cfec529304a9666a KVM: arm64: Add a helper providing an inlined literal value for ICH_VTR_EL2
+         2bba3d2c60926f19e1d0da931513fead3af48f36 KVM: arm64: Convert most ICH_VTR_EL2 accesses to inlined literal value
+         bea608299d28ee4e10db3468985dde440adb09b7 KVM: arm64: vgic-v3: Simplify initial GICv3 configuration sampling
+         36d32222fcab099cf07b032aa5f022136bfa91be KVM: arm64: vgic-v3: Kill kvm_vgic_global_state.ich_vtr_el2
+         7bb0f66cebde0bc2d9242eec92841e2d37cdf9f6 Merge branch 'kvm-arm64/vtr-patch' into kvmarm/next
          
