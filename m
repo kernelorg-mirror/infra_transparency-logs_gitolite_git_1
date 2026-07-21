@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9079798670716893397=="
+Content-Type: multipart/mixed; boundary="===============0335428468067786111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pjw/riscv
-Date: Tue, 21 Jul 2026 01:35:55 -0000
-Message-Id: <178459775520.3282411.7907927820008098753@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 01:36:02 -0000
+Message-Id: <178459776248.3282705.846541020153654337@gitolite.kernel.org>
 
---===============9079798670716893397==
+--===============0335428468067786111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pjw/riscv
 user: pjw
 changes:
-  - ref: refs/heads/experimental/counter-delegation-v8
-    old: e679c6681a18d619ba819500f1a915eed23bb31f
-    new: 7b4960db07a8622045980e1e742d6d0a6f32985a
-    log: revlist-e679c6681a18-7b4960db07a8.txt
+  - ref: refs/heads/experimental/refactor-vector-context-v4
+    old: 1e604e90a19581b75431740db29deefde68e0369
+    new: 198cdc7adcbc813daa4f08a05af5db6675bbb5c6
+    log: revlist-1e604e90a195-198cdc7adcbc.txt
 
---===============9079798670716893397==
+--===============0335428468067786111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e679c6681a18-7b4960db07a8.txt
+Content-Disposition: attachment; filename=revlist-1e604e90a195-198cdc7adcbc.txt
 
 ee7863e43228a3143398dc5bbb943c9a735a8fca arm64: tegra: Remove fallback compatible for GPCDMA
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
@@ -587,27 +587,9 @@ dbebf13ae3c3b447cf2a432dd1e98d08b6190b6f riscv: acpi: Enable ARCH_HAS_ACPI_TABLE
 6215cae9d2fb6bb2bcd2d82f647d574eec423f05 riscv: mm: Apply Svinval in update_mmu_cache()
 1c9dd100a899fd51dc9eaec8ee460b63ef4f0b62 riscv: vdso: Simplify cflags remove logic
 bc9084ce2831b3c923c24b36b4c7b18020208f69 riscv: cfi: reduce shadow stack size limit from 2GB to 512MB
-323db0801bb3675be3be8514dd7162a58f8c69f8 RISC-V: perf: fix resource cleanup on driver probe failure
-fed2b4e371a8c1c4102d871add7301bb02a07a8f RISC-V: Add Sxcsrind ISA extension CSR definitions
-1a7cdf37aadc5256a9db9cc6b27c4ab9e59fcd4b RISC-V: Add Sxcsrind ISA extension definition and parsing
-2ce19ffecd856d5fb3b02141cecddfc28d340c91 dt-bindings: riscv: add Sxcsrind ISA extension description
-967b696d08964925cb32a25a03a450b458c30bf8 RISC-V: Define indirect CSR access helpers
-e0021c4dbb299d26da7456fbad3bf9d836d025c5 RISC-V: Add Smcntrpmf extension parsing
-57c8bcbbc1d154831adb1fdf4db34faddc7efc34 dt-bindings: riscv: add Smcntrpmf ISA extension description
-360d7d23f75835f240e1b3b224b76226e66a382a RISC-V: Add Sscfg extension CSR definition
-b76da31d53c4c9cc113f3d8ad71f5f1701c9403d RISC-V: Add Ssccfg/Smcdeleg ISA extension definition and parsing
-a0765ab6b9e6c9401328ce6d282ea867de569213 dt-bindings: riscv: add Counter delegation ISA extensions description
-1d01dbb4e221746932b92b5a6b26483dff577c7f RISC-V: perf: Restructure the SBI PMU code
-747c8ef7ab099a6312fe0377a9e4731371101dda RISC-V: perf: Modify the counter discovery mechanism
-7e2be9633e05e6da3bdbdad376ea227c7a1a4773 RISC-V: perf: Add a mechanism to defined legacy event encoding
-d21d4cbaf5017767f264d6d060762105308ead18 RISC-V: perf: Implement supervisor counter delegation support
-b9c0d75db33a04fd4137fe02dbc641aac23ea10b RISC-V: perf: Skip PMU SBI extension when not implemented
-10181a8b0043ee42fabf4ba468fa71252c477706 RISC-V: perf: Use config2/vendor table for event to counter mapping
-6ea90c74d40e0573f81cfea37ab18cb8f1890746 RISC-V: perf: Add legacy event encodings via sysfs
-abfe8d0685a0a3ac5f657943c627b45d918ae0ce RISC-V: perf: Add Qemu virt machine events
-ef3d150d14bfe4a89d0dfa7af566f30558d49a82 tools/perf: Support event code for arch standard events
-a189c1085bc4aa4284cdc303065192a095cc88b9 tools/perf: Add RISC-V CounterIDMask event field
-0dd84707a156b1074eb1199f14581ccb5ef62d68 TEST(do-not-upstream): fake qemu-virt PMU events for cdeleg counter-mask testing
-7b4960db07a8622045980e1e742d6d0a6f32985a TEST(do-not-upstream): fake qemu vendor JSON + mapfile entry for CounterIDMask path
+37238579515b232e3d123f6ebb6480996815e0c5 riscv: vector: refactor vector context operations
+7dd12018cbc39063c35be3c67c207453a53669df riscv: clarify vector state semantics on syscall and context switch
+f5636970f5acc0342b2c9eb51b7420161cd22ff0 riscv: vector: adjust ptrace and signal behavior for INITIAL state
+198cdc7adcbc813daa4f08a05af5db6675bbb5c6 selftests: riscv: Extend vector tests for sigreturn and ptrace
 
---===============9079798670716893397==--
+--===============0335428468067786111==--
