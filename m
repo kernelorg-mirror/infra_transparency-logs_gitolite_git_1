@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4303129512318581896=="
+Content-Type: multipart/mixed; boundary="===============2470412015748965796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 21 Jul 2026 04:45:11 -0000
-Message-Id: <178460911102.3419059.7533069642659346169@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 04:45:34 -0000
+Message-Id: <178460913469.3419711.8517361134575113995@gitolite.kernel.org>
 
---===============4303129512318581896==
+--===============2470412015748965796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/next-fixes
-    old: 0f9a63be7dfc11e906fcdcb2194b4aa8044f64b2
-    new: fb1564aea28f83a34ee8795cc79692c21d40c5da
-    log: revlist-0f9a63be7dfc-fb1564aea28f.txt
+  - ref: refs/heads/for-next
+    old: 2e35e224edd823bf477b5ea05deeaeb3bdbe0081
+    new: c7088cc96d56243a5c473b598f0d907780f7bba6
+    log: revlist-2e35e224edd8-c7088cc96d56.txt
 
---===============4303129512318581896==
+--===============2470412015748965796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f9a63be7dfc-fb1564aea28f.txt
+Content-Disposition: attachment; filename=revlist-2e35e224edd8-c7088cc96d56.txt
 
-ac11060c6d4959e2d4ceada037d2e1e1bfcf6645 drm/amd/display: Handle struct drm_plane_state.ignore_damage_clips
 a609b6278bf3cde17eeee6620091465521e4b02c drm/amdgpu: reject mapping a reserved doorbell to a new queue
 020da7c5aac5b86bad8a1571f6eda6b8cff9331d drm/amdgpu: fix resource leak on ACP reset timeout
 28c9b3c5dc35cc790d11e26ca3fc6e068be63998 drm/amdgpu: invoke pm_genpd_remove() before freeing genpd
@@ -1049,6 +1048,7 @@ ab602da96a915d42dcb1b0b322e8daea0f71b51f btrfs: zoned: skip fully truncated orde
 c4c0673e4cb15b0c127e6d00732a2427bdd12c11 btrfs: raid56: fix scrub read assembly submitting no reads
 ac4f1cb81977cfd6ebafe23a45d545cb950da720 btrfs: add missing sctx check in cleanup path in btrfs_ioctl_send()
 5e6fa0d7657227c59793295c2eee3a3cb74e98c7 btrfs: check if root is readonly when setting posix ACL
-fb1564aea28f83a34ee8795cc79692c21d40c5da Merge branch 'misc-7.2' into next-fixes
+ca557c89977d4dc05b20f3ff49ca3161451d130b Merge branch 'misc-7.2' into for-next-current-v7.1-20260721
+c7088cc96d56243a5c473b598f0d907780f7bba6 Merge branch 'for-next-current-v7.1-20260721' into for-next-20260721
 
---===============4303129512318581896==--
+--===============2470412015748965796==--
