@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 21 Jul 2026 20:23:43 -0000
-Message-Id: <178466542304.31811.15349326250336598788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Jul 2026 20:25:41 -0000
+Message-Id: <178466554100.35120.8514455698429692760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 4217c3e5d3e1eb259626142fd71b91ec6d5e3d1e
-    new: 9dec3a07a8d35f076fc2710255aaef086552f04c
+  - ref: refs/heads/main
+    old: f14a8561f3c548bec4ff2f3b5507978dd77a50b0
+    new: c86cfc982957729aa17a043c8c50bf981aa0e4bf
     log: |
-         9dec3a07a8d35f076fc2710255aaef086552f04c Correctly quote usernames when setting From field
+         c86cfc982957729aa17a043c8c50bf981aa0e4bf dt-bindings: net: microchip,lan78xx: convert to DT schema
          
