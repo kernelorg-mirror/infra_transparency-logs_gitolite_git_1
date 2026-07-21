@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4947841371904522785=="
+Content-Type: multipart/mixed; boundary="===============5263613351076447934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 21 Jul 2026 11:49:08 -0000
-Message-Id: <178463454800.3770486.3514667965485115668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 21 Jul 2026 11:49:11 -0000
+Message-Id: <178463455120.3770596.5181455488320189248@gitolite.kernel.org>
 
---===============4947841371904522785==
+--===============5263613351076447934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: 50dce2e2f84b56d8b4b406d97a1543709e8a87f5
     new: 1d26f125501f3fbe6c259ab75bf6516299a0bf0e
     log: revlist-50dce2e2f84b-1d26f125501f.txt
 
---===============4947841371904522785==
+--===============5263613351076447934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1784634546 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1784634545-2b4df658bb96ae80b004270095a680b061bb6bef
+pusher C3F436CA30F5D8EB 1784634549 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1784634549-ea290d9e7a0aeee236444385c16b7a7e10bd67c3
 
-50dce2e2f84b56d8b4b406d97a1543709e8a87f5 1d26f125501f3fbe6c259ab75bf6516299a0bf0e refs/heads/for-7.2
+50dce2e2f84b56d8b4b406d97a1543709e8a87f5 1d26f125501f3fbe6c259ab75bf6516299a0bf0e refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpfXLIACgkQJNaLcl1U
-h9DqoAf/Q9cCs3DDF1UuFNkiLhFjc9Vjh3NE2MVuTn5X/Xr16rd+spJ7a3VM466e
-DHf+fLExGYRu314jA/Mq7+l4ORTiHzUFq8RMCw+zJGPdrOgQMgV9gw53E1puB99k
-xDBirP9+23xSYy8uRDohiK0zHQWwRBBwSpanQvhFO7gaFsj5O1IFA0mu1so5M3Gu
-RXXoByUUgElV/FTSJ1lLa79BdWlWgQIIP4+8P24IN7LG9Ovx1xb7jCDieluluy8M
-oJOJwFBqMDl9shCLWIGdZBvWu/1wx2W1O6FlBZvQFyZ6CcyZPDjILSHCqxA17Lsh
-PAH1HNTQ19pu01ASls7V5YabLSsl4g==
-=aIeM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpfXLUACgkQJNaLcl1U
+h9CRfAf/RYUh1+QLx3YxF8O0Wku6Gce45vkZxB01HbCYhvMuimkWFNGXBNiAKYDB
+ouFK2YIbSEXAJ3afAcP8E+1/YrUH/+8VwmXSRPkAT560mReWNqougt5mNVNta712
+kko9XhQEDc9x/aTtbDKlqUcj0UiR8Nsu5HMpPPw5AQuCipDxN8DDrLyBMMf4pUxv
+PemoLoRWh20L9L8crSTI97ca0p8qV7J0CeM5qwcfV/eAHrH7OSme7IH5UOvXX0Fq
+QsB7KpKreV8rksveldH/gTgW3KrTiUSV02WOusxgl9lgw3XRU54RZtZcilLCH69o
+uz+z8Sl2wofhG/ElSWh697vDiHpKDA==
+=SyFj
 -----END PGP SIGNATURE-----
 
---===============4947841371904522785==
+--===============5263613351076447934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -609,4 +609,4 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
 1d26f125501f3fbe6c259ab75bf6516299a0bf0e regulator: mt6358: use regmap helper to read fixed LDO calibration
 
---===============4947841371904522785==--
+--===============5263613351076447934==--
