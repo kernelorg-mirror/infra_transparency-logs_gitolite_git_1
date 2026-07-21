@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 21 Jul 2026 20:01:43 -0000
-Message-Id: <178466410312.16505.3382803194947724383@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 20:01:50 -0000
+Message-Id: <178466411082.16729.1984313753772462531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 612701854b588759c0df3094197d415869ada159
+  - ref: refs/heads/pending
+    old: 9e9aefffbbc2a4835ea22b7087564cffe75f715c
     new: ca27e3c2284a7a43ba390ed5ce0d68b3c869c0ce
     log: |
          6cee0214da2f9214d85a87eb6300bf7e23038bb1 wifi: ath12k: fix survey indexing across bands
