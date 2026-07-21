@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 21 Jul 2026 09:10:31 -0000
-Message-Id: <178462503133.3616079.8181428635034759557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 21 Jul 2026 09:11:02 -0000
+Message-Id: <178462506280.3616800.13215338055135378491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/scsi-ordering-violation-due-to-hardc-v1
-    old: d48bcbcaf99636670d5c444f7f6cfbfb46320e6c
-    new: ca92703e384b0a604c5590eab2ca4aca9a988e0c
+  - ref: refs/heads/main
+    old: 777f49d336fe89b8641522767bb6ecd42c6a940f
+    new: c7838468195b2e3e41e72486b8fbf597707f3892
     log: |
-         70e403a2eb9b6efed125c2799ffe4bab27738174 RDMA/srpt: Pass the mapped task attribute to target_init_cmd()
-         ca92703e384b0a604c5590eab2ca4aca9a988e0c RDMA/srpt: Pass the mapped task attribute to target_init_cmd()
+         3cb8d4b9bfeb8a76fc895975842539aa6d5084c4 udp: fix encapsulation packet resubmit in multicast deliver
+         e5382133c51cc92766914b54c9c257d7c54c8079 selftests: net: add FOU multicast encapsulation resubmit test
+         c7838468195b2e3e41e72486b8fbf597707f3892 Merge branch 'udp-fix-fou-gue-over-multicast'
          
