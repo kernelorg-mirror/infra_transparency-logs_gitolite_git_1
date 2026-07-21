@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4433598730814244657=="
+Content-Type: multipart/mixed; boundary="===============0578675221203664061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 21 Jul 2026 03:27:58 -0000
-Message-Id: <178460447832.3362833.8060264117495724741@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 03:28:01 -0000
+Message-Id: <178460448113.3362933.1388971099761846239@gitolite.kernel.org>
 
---===============4433598730814244657==
+--===============0578675221203664061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,53 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c872b70f5d6c742ad34b8e838c92af81c8920b3e
-    new: 3d18f3499c48ee94a49589500ce94e41c5acdf4b
-    log: revlist-c872b70f5d6c-3d18f3499c48.txt
+  - ref: refs/heads/mm-unstable
+    old: 82954dab774b5aed3e2b34b6a2bcf4f38995a389
+    new: 505f6bc5c6c6db7d6390ea33c4e2ab44379e6f49
+    log: revlist-82954dab774b-505f6bc5c6c6.txt
 
---===============4433598730814244657==
+--===============0578675221203664061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c872b70f5d6c-3d18f3499c48.txt
+Content-Disposition: attachment; filename=revlist-82954dab774b-505f6bc5c6c6.txt
 
+da991cbd6767282000e995247c7dad39d22874c2 dm-inlinecrypt: Fix an error handling path in inlinecrypt_ctr()
+981ccd97f7153d310dfa92a534525bbaf46752c2 dm: avoid leaking the caller's thread keyring via the table device file
+9ae672606c17891d90b282e3490b817620549599 dm era: fix NULL pointer dereference in metadata_open()
+8d4dd2db7f4f3af0d3cd51111d050301c1f00a5c dm era: fix error code propagation in era_ctr()
+f0262c3a3f14d60140f6b826d40d44edf62c36d6 drm/gfx10: Program DB_RING_CONTROL
+3888a656e8143e4b40f01143648c768fecbfefc6 drm/amdkfd: Check bounds on CRIU restore event id
+8a93f77aec65574b8152c88eb73613336f92f86b drm/amdkfd: Don't acquire buffers during CRIU queue restore.
+a88419af8dbd5abf8b1dfdfd9346376bce5413b4 amdkfd: properly free secondary context id
+bb52249fbbe948875155ccd45cd8d74bf4ae747b drm/amdkfd: Check bounds in allocate_event_notification_slot
+e987eabc02646920cd13ab75902693e99735eca0 drm/amd/pm: fix smu14 power limit range calculation
+47ea05f246bebc81c7796f56265cffd812cf0601 drm/amdkfd: Check bounds on CRIU restore queue type and mqd size
+3238c634725afbb2a137fdda762208510828f71d ASoC: tas2562: fix deprecated 'shut-down' GPIO always cleared after lookup
+0b043279e73880bee21d3b1f221bafda5af1b27e smb: client: fix atime clamp check in read completion
+dde3929e8d901ae9a7c29d0577ce9ca5cb4db35d cifs: Fix support for creating SFU socket
+608362facd2d0f2667f68b7f42207707d59a0071 cifs: Fix support for creating SFU fifo
+75f5c412fa867efa0bf9b646bffe0d912109e84a smb: client: fix busy dentry warning on unmount after DIO
+d38f8bd771c4999b797d7074b348cf201414bd34 regulator: core: regulator_lock_two() should test for EDEADLK not EDEADLOCK
+c41375e037ba2d3e0f17c90e01bcb06641c30830 Merge branch 7.2/scsi-queue into 7.2/scsi-fixes
+46aea2c64e110ed1878fa5363f86ddc8fd79c9c4 scsi: ufs: core: tracing: Do not dereference pointers in TP_printk()
+1d3a742afeb761eaead774691bde1ced699e9a5d scsi: sg: Report request-table problems when any status is set
+1bd28625e25be549ee7c47532e7c3ef91c682410 scsi: lpfc: Fix memory leak in lpfc_sli4_driver_resource_setup()
+3585cfd4563731a8ae406b32807613c667c2b887 Merge tag 'iio-fixes-for-7.2a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+06c2b8d7ea2bcb014dd974fc3bc6d128d65d7477 drm/fb-helper: Only consider active CRTCs for vblank sync
+7b69729046a4c58f4cb457184e5ac4aaa179bff4 KVM: s390: pci: Fix GISC refcount leak on AIF enable failure
+866d03de6def89c386cdfd457b28a1f566e02565 KVM: s390: vsie: Avoid potential deadlock with real spaces
+4d4a21e38f1b87a76b3e63d4f837ff4e9b52d5a6 KVM: s390: Fix dat_crste_walk_range() early return
+9489220fe0e69d2ca141e5062dd3ef3e2e55959f KVM: s390: Improve kvm_s390_vm_stop_migration()
+f4ef35efbb49527293309f668ea73ec5de9b8e7a selftests/net: fix EVP_MD_CTX leak in tcp_mmap
+2e2a83b4998af4384e677d3b2ac08565274279bf net: mana: Validate the packet length reported by the NIC
+c72a0f09c57f92113df69f9b902d11c9e4b132f5 net: mana: Sync page pool RX frags for CPU
+c26c33e632248b334ccf132bc8c4877522c3db95 Merge branch 'fix-mana-rx-with-bounce-buffering'
+27f575836cfebbf872dec020428742b10650a955 net: macb: drop in-flight Tx SKBs on close
+604e9594449b9907181f4285d0cd6a398bfc9d08 Merge tag 'batadv-net-pullrequest-20260708' of https://git.open-mesh.org/batadv
+97272a5704bf13369bba43951ad9fe8f806ccc7f ALSA: hda/realtek - Fixed Headphone noise issue for Dell QCM1255
+d595255241e5fec0c94adeebf2565524398e37c5 ALSA: hda/realtek: Add quirk for TongFang X6xx45xU
+c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027 net/mlx5: Fix L3 tunnel entropy refcount leak
 b62869a81a7ce388d1fbb0fac5fa8300ea614d81 ethtool: rss: Fix hfunc and input_xfrm parsing on big endian
 24c4c88259464d38b35c3fbaecb68675de64137d Merge tag 'nf-26-07-08' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting PF promiscuous state
@@ -1014,41 +1050,5 @@ e5b60ecf83bcc10f9954f3b1f894d4eff8cde0e9 mm/damon/core-kunit: handle region spli
 335d42591610e6a2e22de89a512a61bdd462a719 mm/damon/core-kunit: skip wrong quota goal walk in commit_quota_goals()
 8fd97d5a0b55ce51c2bee64a91a3e74a0108bf97 mm/damon/core-kunit: skip wrong region walk in commit_target_regions()
 505f6bc5c6c6db7d6390ea33c4e2ab44379e6f49 mm/damon/ops-common: remove redundant local variable in damon_migrate_folio_list()
-5a0dafd6ecd5de3667aff1c4d191d1095c870b9d mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-81827f67d89c3c01aa9dc7c8d1a0191e2c9bb823 hugetlbfs: release subpool on fill_super failure
-a9f426f317ca63a0773d531bf73efd7a43b7c3db mm/damon/ops-common: use nr_accesses moving sum for quota score
-e7628aa717df74a8788ad3da73b0759392fda8a8 mm/damon/core: handle region split failure in apply_min_nr_regions()
-f815a96522eca9a6244dde972a5c568de974d334 mm/vma: introduce VMA virtual page offset field and add helpers
-c84db87bf32c8b56ee100893014d79487d92e0ee mm: introduce linear_virt_page_index()
-597df0d1ea0eb383971deed73cea0a228ee69ef5 mm: abstract vma_address() and introduce vma_anon_address()
-8b4f615f5a582d3309c11d52990e196c59e9727a mm: update print_bad_page_map() to show virtual page index
-9c6ca9624603feb0d45b4faabc8c82e5652ffbf4 mm: introduce and use vma_filebacked_address()
-f0e305a71f212ed81c23f93f124490cd276fa9fd mm: propagate VMA virtual page offset on map, remap, split + merge
-1fd4b024a855535c68836ec0634d1d80b613dfaa mm/rmap: track whether the page VMA mapped walk is anonymous
-78bc56f5c5ad4d8e377f8f5b452c4b8d2aed2659 mm: introduce and use linear_folio_page_index()
-ce1c454cccab9182e95918cce91c882234980398 mm/rmap: use virt pgoff for MAP_PRIVATE file-backed anon folios
-3047051ad7acd19463f652f08a18c1af2213cdb8 tools/testing/vma: expand VMA merge tests to assert virt pgoff
-7d2df85055f55c37609e200b90eb6ec1afdbd38a tools/testing/selftests/mm: test virtual page offset merge behaviour
-eaf4438de0927c4650d5d45861db9853ca5b5946 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
-a0a18e0bdf9df1f66a7fa4f0e0d59c182d49db60 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
-056c64d489f8850187c47807f02b6e69c774aa01 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
-7c5c5dcc35c7be88f05973371a29cdda6efa8f2d tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
-faddd690681e3c021b45b2ead9b283fc8cec4307 mm/kmemleak: report RCU-tasks quiescent states during the scan
-dc61a734ceeedd1dea9ec3a6baf00a411d292029 mm: vmscan: convert folio_referenced() to use vma_flags_t
-ad4e91c04973ce519e46ba2bce9a9778b8c6b1a3 mm: vmscan: add a helper to identify file-backed executable folios
-02579600269413f93d93534c646fead81edfe12d mm: mglru: promote mapped executable folios after first usage
-0b8f2f4306fb53805865694e39dcce74cb80abcf selftests/mm: transhuge-stress: check duration inside page loop
-552b8529e6ed1f06d4a9207155426fb2d165807c fs: stable_page_flags(): use BIT_ULL() for KPF flags
-b6ece8d24ee2161825b098d98c092ffd143a469f fs: stable_page_flags(): use folio_test_*() helpers
-70d314411b5519dd48b912fb000a72004306e1f8 fs: stable_page_flags(): simplify KPF_IDLE handling
-970a0c39dea0864449a7464329fe77f008e6b0f3 mm/page_alloc: boost watermarks on atomic allocation failure
-782a432374c3af2a92cbf55d1cffe2b39e566c0d hugetlb: make hugepage_put_subpool() tolerate NULL
-8e8399d7436ae936f17334e59d5722f2c2357434 mm/memory: move pte_install_uffd_wp_if_needed() into memory.c
-1449007a9c77923bd37016a7e1ad612a16365cbf mm/memory: batch set uffd-wp markers during zapping
-4b5d685676c7ea1a8c171838c289768bac4232a8 mm/rmap: batch unmap file folios belonging to uffd-wp VMAs
-8e6678fc78e6a70bc4a4d0cca459e4b8a24cd155 selftests/mm: use MAP_FAILED for mmap error check
-8b5758ee2cebcc115ae5b4d2245939465ad9d162 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-0c25bb699e96c096615be773ba8a9c8fdc1940dc mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-3d18f3499c48ee94a49589500ce94e41c5acdf4b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4433598730814244657==--
+--===============0578675221203664061==--
