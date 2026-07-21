@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 21 Jul 2026 10:26:04 -0000
-Message-Id: <178462956442.3687449.9305732406316636877@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 10:26:33 -0000
+Message-Id: <178462959360.3687785.4208804842382476521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/kvm
 user: bonzini
 changes:
-  - ref: refs/heads/master
-    old: 49f16f98d57b25ad964fa70c3f8f92987b732fa5
-    new: e61e6fd4f139f2342a6bc86da602df7456ef87f6
+  - ref: refs/tags/for-linus
+    old: 2da153609871e25f5ba8a4fcb1d9f313022173ba
+    new: 5bff0d3d23e16d652274a6c7b56262d0f4e1d118
     log: |
          622ebfac01ba4f9c0060cebd41257fe46fc4a0b3 KVM: nVMX: Hide shadow VMCS right after VMCLEAR
          2abd5287f08319fa35764566b15c6e22cb1068db KVM: x86: Check for invalid/obsolete root *after* making MMU pages available
