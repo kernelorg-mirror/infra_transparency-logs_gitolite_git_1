@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0709191347393712152=="
+Content-Type: multipart/mixed; boundary="===============7585522056355909212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Tue, 21 Jul 2026 08:30:43 -0000
-Message-Id: <178462264331.3580921.15966308109688095283@gitolite.kernel.org>
+Date: Tue, 21 Jul 2026 08:31:32 -0000
+Message-Id: <178462269285.3581490.16257958020405141359@gitolite.kernel.org>
 
---===============0709191347393712152==
+--===============7585522056355909212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,37 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: ffc8bad17e5b2f56e48dbac43f7c5ae8ac368fe5
-    new: acb6d4cb84205a8e3f19ca470cfcf7bf6d93a509
-    log: revlist-ffc8bad17e5b-acb6d4cb8420.txt
+  - ref: refs/heads/for-next
+    old: acb6d4cb84205a8e3f19ca470cfcf7bf6d93a509
+    new: 56c410ad0f69da5b13c5807bc47b4876dcfa02b2
+    log: revlist-acb6d4cb8420-56c410ad0f69.txt
 
---===============0709191347393712152==
+--===============7585522056355909212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffc8bad17e5b-acb6d4cb8420.txt
+Content-Disposition: attachment; filename=revlist-acb6d4cb8420-56c410ad0f69.txt
 
-748ae5ab407610b1e3fa706c354016cf035e82ec btrfs/340: add support for older kernels/progs
-ce4e96a89a2b876497006b3fcbb388ee41f7aa8a generic: add a test that stresses metadata eviction
-32b4dfffbc086df51c7a16ee59086da8e5024bc6 generic: add a test case for fallocate i_size extension
-d66e76fc5ab6a6f1550b09aa6904d7974da3aad8 generic/563: allow read tolerance for f2fs in scenario 3
-d5fb5bbbd22d836cbb256480191632b485671dbe common/rc: exclude HFS from atime testing
-55d8071bc4a86895fadb5d7767ef1f016df7d010 f2fs/015: Fix mount syntax for disabling jquota
-c5ddd1789ae14e1acd512f6cc2af61778ac53aa6 f2fs/021: Fix mount syntax for disabling jquota
-c1dcfe62b3f95d323224e9b8087ab0e6df69c993 generic/791: don't run if kernel misses FANOTIFY
-1418baaef1faa80d8f2203a2e8cbb36b86afb322 fstests: btrfs: add a new test case for single data RAID56
-239cc1d598663b849b5da29c5f9d0382ec8eb442 fstests: cleanup old files to respect mount options needing new inodes
-d65330dd7de46410342e7b7000d7bbceb903de0d btrfs: inline enable_quota helper in test 301
-26c2b701724afe41ec7e925549c883abf570b4f9 btrfs: test qgroup deletion races with squota writes
-80d250af40caf7d0db95caaf7243deefb16ef9a6 fstests: btrfs: add a new test case for fstrim crash
-5d68212a7373f675fcff8b82082a0a64b04ae985 common/filestreams: check zoned device before mkfs with small dsize
-1104c45b26d01d40a187ed4c9f0517bebdc12b27 common: add a _require_external_realtime_device helper
-120ff814a4c98cd303e838ac6604b5816ab1600b xfs: test that a grown RT section can be filled
-ace8d9c9dee5d6bf762cbf794f2d8d0e07fec3f0 fstests: btrfs/138: add requirement for datacsum
-973512e9c24062257ec456e929232a8d6c0cb4e7 generic: add a test case for writes with prealloc extents beyond i_size
-ec6d49da5d27690f8146a5fbbea9214abaa8a4cc xfs: test zoned realtime writeback EIO shutdown
-6c5d1992fb3bcb6adf5c38eb31924d76794ae9dc xfs/013: fix ENOSPC handling
-4f599bae27e4aa4a4eb743b51cf017662278c36e f2fs/025: test to do sanity check section type correctly in f2fs GC
-88b140d74b3e01484db5c080165d5d7240d8ce0c f2fs/009: use common _scratch_shutdown helper
-26eb955e4243495c0df0bc2f157cda32edccf18b generic/366: check minimum dio size correctly
-65caee6192ce5006bedbd40cc2889e0961c93b46 generic/63{4,5}: Modify criteria for passing test
-acb6d4cb84205a8e3f19ca470cfcf7bf6d93a509 common/defrag: skip defrag tests on DAX-enabled filesystems
+d2286dbce7f6e5fff3a4b7827a5cee19580e75fc vfstest: move sys_umount2() to cleanup path in tcore_acls()
+b1a8621f6b481824951a61f1eb94de10fab1cba3 generic/633: add _require_acls for tcore_acls() ACL dependency
+78b2382e6ccfa64f29fad91ad39e22a3cb411863 fstests: add a test case for btrfs get_subvol_info ioctl
+ce0dff4b555b3d0fd6521a62fee1b8dfdec5b656 common/f2fs: introduce _require_f2fs_io_command
+eb4cd02a3da5cd7c3c2cd320586d435180a871bb common: skip data write EIO survival tests on fatal configs
+325e2e4daa406d98c4d8841e9cdf9d346db02f81 btrfs: skip tests that fail when autodefrag is enabled
+86b976d0deae50f790c119073115d4590bbbae90 xfs/078: disable all concurrency scaling
+60fa62e5e80870040ea89d7dd77df1fcc0bb7092 common/xfs: fix _scratch_mkfs_xfs_supports_concurrency
+bd4a8258575a85d26b39e9aeebf8186e5f7f6b91 xfs/21[67]: fix mkfs log concurrency detection
+2c13d0a4a5546ece9046984816b5281e5da3e11e xfs: remove the v2log group
+921e3466e0f7e168b4ce4376f5eb2dabc8cd7868 common: log mkfs output in _test_streams
+b2e97cf30043334a72efaca4f860bb4768b95722 common/rc: fix mount options quoting in _mount
+eb4a22ad79b9f5505f6a9da62b47ebfba1feb6e5 generic/062: filter setfattr --restore symlink-safety warning
+8c2fa9b73b15a35ce6d8822b686fc547091ee79c fstests: generic: add a basic cachestat test case
+b3ee9a117b00250c2ec6233d7a47aaf847be474a fstests: btrfs: new test case for leaking BTRFS_FS_STATE_REMOUNTING flag
+1cd5dcb0545d27f46afe3c816817d06cc240ec87 generic/270: kill fsstress by exact name
+748bab28c5936fe8c4ce0ac53fa84fb209f7b2de xfs/333: require external scratch device
+1cca2bc0d7a9462bb1b59edb108bac7c9e7c424d fstests: vfstest: skip rejected tmpfile creation
+1e30cedac5abe8c12e47819ec41ebdcd32cb3c6d xfs/656: rearrange directio pread/pwrite for zoned filesystems
+154d755aa1df69884f2451e51b175a4d66329b4d xfs/65[56]: don't unset SCRATCH_RTDEV here
+56c410ad0f69da5b13c5807bc47b4876dcfa02b2 fstests: formalize and fix disabling the RT subvolume
 
---===============0709191347393712152==--
+--===============7585522056355909212==--
