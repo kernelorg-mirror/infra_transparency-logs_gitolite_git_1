@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0407428563040068533=="
+Content-Type: multipart/mixed; boundary="===============2659272655329969074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Wed, 22 Jul 2026 01:18:23 -0000
-Message-Id: <178468310387.276635.10717722325958595597@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 01:18:29 -0000
+Message-Id: <178468310988.276854.11053732698298125027@gitolite.kernel.org>
 
---===============0407428563040068533==
+--===============2659272655329969074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: 558ef39aeb9a089a6be9dda8413b0b9d42e843ea
     new: fac520e43a60230b24026f462a2b63e4d170566e
     log: revlist-558ef39aeb9a-fac520e43a60.txt
 
---===============0407428563040068533==
+--===============2659272655329969074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dd1e6fb8ffdfe71b6f9812b1e5add25a48f231a5 perf beauty: Update copy of linux/socke
 42bfbb3e8d1ce4611c407c0f9d0d2ffea51b67b9 tools headers: Sync UAPI linux/fs.h with the kernel sources
 fac520e43a60230b24026f462a2b63e4d170566e tools headers: Sync KVM headers with the kernel sources
 
---===============0407428563040068533==--
+--===============2659272655329969074==--
