@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 22 Jul 2026 16:56:40 -0000
-Message-Id: <178473940038.988827.16083998635396023698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 22 Jul 2026 17:20:23 -0000
+Message-Id: <178474082396.1005803.15197804753027789096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/watchdog-for-v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a4efda02b7aa308a560450d4161c59210a01147a
+  - ref: refs/heads/main
+    old: f5cfb576ce39ba5647024c6d6eeb5b7a822fab6e
+    new: fcaf2221b9703af2f2285fad1a13a4171b8368dd
+    log: |
+         0b577e2fe06c023ab996c3d7684538dbbf6e99bc net: dsa: realtek: rtl8365mb: add SGMII support for RTL8367S
+         987137345f3312fd68cc9c11bd46b754bfb0046f net: dsa: realtek: rtl8365mb: add HSGMII support for RTL8367S
+         fcaf2221b9703af2f2285fad1a13a4171b8368dd Merge branch 'net-dsa-realtek-rtl8365mb-add-sgmii-hsgmii-support-for-rtl8367s'
+         
