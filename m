@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3145082618547477520=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 22 Jul 2026 12:20:44 -0000
-Message-Id: <178472284454.756459.4918042326813382308@gitolite.kernel.org>
-
---===============3145082618547477520==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 22 Jul 2026 12:21:09 -0000
+Message-Id: <178472286976.756848.4855840828226961311@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.2
-    old: a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed
-    new: 6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2
+  - ref: refs/heads/for-linus
+    old: a792ce0fad61a70793ec565743f11d6ca534de59
+    new: f7074624bafc44b236ddc7159d962075c3747f2b
     log: |
-         6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 spi: dt-bindings: spacemit: add K3 SPI compatible
+         f7074624bafc44b236ddc7159d962075c3747f2b ASoC: amd: yc: Add MSI Crosshair A16 HX D7WFKG to quirk table
          
-
---===============3145082618547477520==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1784722843 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784722842-d9bb7916379e83e8f062f2d8ddb8350ebaf6d5a5
-
-a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed 6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 refs/heads/spi-7.2
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpgtZsACgkQJNaLcl1U
-h9DlHgf/el4C+MRGYnIqfFzfoe3G6/CA1zIpi2K7/lC1yTh14U1TcO94ez7o6tr3
-vap0FzMybLVNb2SJ1J1TSRcbf3WMclmZIbQC375Uurqg/k+ME924ZqiTnkn0CIFN
-tBbgvWS0vsR8J7NQe7005mZ09AhssvJejEptqLEogvcdaddIJKQPceuVyqgE1Wvk
-MqmV4okdbP+CyR6pS+JMOHWODkv8lz8b2anlWzucntgsqnbQf3ivDqBzyw/8N+g0
-CT6fgw458tN3eAI5agDQ06I7hRmbhxiMUeZAosvrTe6LuRVyO4tSTtRqaA2cn/QI
-YRoaLZpEmkb2cOVO50uU3ZXvlwxMsQ==
-=l3uq
------END PGP SIGNATURE-----
-
---===============3145082618547477520==--
+  - ref: refs/heads/for-next
+    old: 6f8fe53db36782aa5af08b264aa7647afd63c47f
+    new: 0f01447a79994eb9295352ec12421e86223ab5ca
+    log: |
+         f7074624bafc44b236ddc7159d962075c3747f2b ASoC: amd: yc: Add MSI Crosshair A16 HX D7WFKG to quirk table
+         0f01447a79994eb9295352ec12421e86223ab5ca Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         
