@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7188267872782611513=="
+Content-Type: multipart/mixed; boundary="===============2163536411224824951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 22 Jul 2026 11:12:09 -0000
-Message-Id: <178471872990.703320.470624232210986801@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 11:15:09 -0000
+Message-Id: <178471890932.706076.11729088908499231088@gitolite.kernel.org>
 
---===============7188267872782611513==
+--===============2163536411224824951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,90 +15,60 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export-net
-    old: 05643696039e56609f35092206657c6cdb725baf
-    new: 8447cb3a2adccbd46ab15c1747a30d34d196ea59
-    log: revlist-05643696039e-8447cb3a2adc.txt
+  - ref: refs/heads/export
+    old: 19643b4e1422a94478fb59d4aa678d75b574219d
+    new: d2cc1d2dd6c52fda38f9a5ef2d5eb2acc5274473
+    log: revlist-19643b4e1422-d2cc1d2dd6c5.txt
 
---===============7188267872782611513==
+--===============2163536411224824951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05643696039e-8447cb3a2adc.txt
+Content-Disposition: attachment; filename=revlist-19643b4e1422-d2cc1d2dd6c5.txt
 
-4032f8ed10fcb84d41c508dfb04be96589f78dfe openvswitch: fix GSO userspace truncation underflow
-e32649b4bad90a6216d8e93cd7dd050af8ac9740 net/mlx5e: Use sender devcom for MPV master-up
-5521ae71e32a8069ed4ca6e792179dc57bc43ab2 rds: drop incoming messages that cross network namespace boundaries
-96e37e2f618e931aa97af95e707dcdfb1ec41264 gtp: parse extension headers before reading inner protocol
-745fb794c3e933c023af9dbb5876a5e16ad2dc71 rxrpc: fix io_thread race in rxrpc_wake_up_io_thread()
-2a12c05aef213ff304ecc9e2f351de20731946b8 vsock/virtio: collapse receive queue under memory pressure
-30c82aa0a8b116989bc4d8f75e1936bd83c0134e vsock/test: add test for small packets under pressure
-0f1570553e650343c40d577e221ab5f8a98e9017 Merge branch 'vsock-virtio-collapse-receive-queue-under-memory-pressure'
-4c1eabbef7a1707635652e956e39db1269c3af2b dpaa2-switch: put MAC endpoint device on disconnect
-2484568a335cd7bda951c75b3a7d95ea36161ae7 net: airoha: Fix potential use-after-free in airoha_ppe_deinit()
-b4b201cc93ff70150853aba03e14d314d1980ca0 dpaa2-eth: put MAC endpoint device on disconnect
-6f884eb87a79e0c482baef2ad96c96b81d024235 net: airoha: Fix DMA direction for NPU mailbox buffer
-a61b4db34a753bdf5c9e77a7f3d3dddd41dcfacc nfp: Check resource mutex allocation
-91957b89da995607cb654b1f9a3c126ddbaee10f wan: wanxl: Only reset hardware after BAR mapping
-3c0d10f233f19153f81fef685b5c6716776a5af3 vhost-net: fix TX stall when vhost owns virtio-net header
-7be2552e601c247a328a5aba6fc06ac844b94a16 pds_core: reject component parameter in legacy firmware update
-e751256486d0ded20f5a9f9863467f1dce65142f net: gro: fix double aggregation of flush-marked skbs
-4bf22afe53a1de4b44b04cf677fd5199089cbdff amd-xgbe: fix MAC_AUTO_SW handling in CL37 AN
-98da8ce87dd561f08fbe44f75865edc5d9b2ba5f soreuseport: Clear sk_reuseport_cb before failure in sk_clone().
-d50557779257a00162411e3048d82971ff1f644c net: Call net_enable_timestamp() before failure in sk_clone().
-fca68249b6f5e84859b200b54cb5e0aef98f2b3a Merge branch 'net-fix-two-issues-in-sk_clone-error-path'
-751bfa982b4a6de8275a552804f6971adcf08473 geneve: fix hint header definition wrt endianness
-447ec540233c60d6af4d68a164a5bc8ce7e975c1 geneve: ensure the skb is writable before fixing its headers
-b2ff91b752b0d85e8815e7f44fd85205c4268094 mptcp: only set DATA_FIN when a mapping is present
-1c50efa1faf3a1a96e100b07ec7a2f3164d90bee rtase: Workaround for TX hang caused by hardware packet parsing
-350e592ff4e30e48ffb55e142d11a73e63f4869c tipc: serialize udp bearer replicast list updates
-043c1f6d84f6cd5d23ddd508ce5209cf0a3a3f41 mailmap: update entry for Alice Mikityanska
-6a905a71fd43ce8b45f05044b11491337f232c9d net: txgbe: fix heap overflow when reading module EEPROM
-9c805e592a29be9e4e61ff1bd567da04aa8fd6f9 rds: Fix inet6_addr_lst NULL dereference when IPv6 is disabled
-ecaa37826340520664a4e5522f803ff48fc3f564 net: txgbe: fix FDIR filter leak on remove
-ff04b26794a16a8a879eb4fd2c02c2d6b03850e9 sctp: fix auth_chunk_list capacity check in sctp_auth_ep_add_chunkid
-defd52c1eab2926d874fa95408187dac6f890ff1 mailmap: fix wrong canonical name for mgr@kernel.org
-ab0eec0ff0a421737a37f510ceab5c6ea59cd05a pds_core: fix deadlock between reset thread and remove
-0ad134881508c36b65c1a8864f8bec53adbd3327 pds_core: fix use-after-free on workqueue during remove
-df282a9db8ac96bb6a30ed8534f77856b8dfbd8f Merge branch 'pds_core-fix-use-after-free-on-workqueue-during-remove'
-a11f0b8a204296fe7db9eaec53441012222cb004 pds_core: yield the CPU while waiting for the adminq to drain
-dd6b1cc748cd28147c113f9daa76393916ad9494 pds_core: order completion reads after the ownership check
-bfa33cd513c7ceb93c5a4c30e5662acd73c0a916 pds_core: fix auxiliary device add/del races
-3a660ca49e2c3807bffe0519db3cff677a5906e0 pds_core: check for workqueue allocation failure
-47a5116e56a6b6fe1e909f244e39cd0fc26ceee4 net/af_iucv: fix NULL deref in afiucv_hs_callback_syn()
-18ae07691d43183d270de8be9dc8e027906015d9 sctp: validate stream count in sctp_process_strreset_inreq()
-f8d5e7846025f4ab15a461235f8ebae9094a361a sctp: avoid auth_enable sysctl UAF during netns teardown
-ffb2bd7ade36ec4da32c46a6eddbf4515316d08c sctp: close UDP tunnel sockets during netns teardown
-03d1057305ef17ac3f5936ac1580bc9a1a826e14 net: mctp i3c: clean up notifier and buses if driver register fails
-b65352a1bac64442ad95e64f385b40ccb9f1b0db gve: fix Rx queue stall on alloc failure
-eaa39f9f8ac8c1d032cd26b9cd572804e9d7683f tls: device: push pending open record on splice EOF
-f8b1abed736111f914b2c567d9a3db1f71e788e8 selftests: af_unix: add USER_NS config
-441a820ccef9af80a9ac5a4c85b9c396e595967c selftests: openvswitch: add config file
-90c792681a3732caaf7bf5bc435877736baf591a selftests: ovpn: add IPV6 and VETH configs
-61ac7049aaa86ae044e8a5b94d852218163d5bf8 selftests: ovpn: increase timeout
-3529d75d67411497341cd804a045185d6035dff2 selftests: drv-net: increase timeout
-c25dd7439f84cf607e13d6de8cc1c79cd51f56ff selftests: drv-net: add missing kconfig for psp.py
-e6ad44a5b1d55f5396b69d9575b2711dfeecba12 selftests: netconsole: ignore busywait errors
-e5f9476960085496533420eb59d70a2bef7e1d60 Merge branch 'selftests-net-add-missing-kconfig-and-settings'
-cd170f051dba9ac146fabcd1b91726487c0cb9fa gtp: check skb_pull_data() return in gtp1u_send_echo_resp()
-6347c5314cee49f364aaf2e40ff15415a57a116e nexthop: initialize extack in nh_res_bucket_migrate()
-22f8aa35964e8f2ab026578f45befc9605fd1b28 tipc: fix infinite loop in __tipc_nl_compat_dumpit
-ff194cffd586cbd4cc49eccb002c65f2a902a277 net: qrtr: ns: Raise node count limit to 512
-e1a9d3cc11829c5414a75eb39c704f461936eb24 tcp: initialize standalone TCP-AO response padding
-0ab78ead2481adb52f9eb5b403865c529f6f2348 net: stmmac: intel: skip SerDes reconfig when rate is unchanged
-ba712ecfd942b68b21a4b0a5daaf72f6616cc66d ppp: annotate concurrent dev->stats accesses
-20d975bb380790247c94b062283965155cc82f6d DO-NOT-MERGE: git markup: net
-b1062c2e999b740a4fdd8bf9a1649f560f7895f8 DO-NOT-MERGE: git markup: fixes other trees
-012311d3d0cabb23d6cab1c46486744de20af98b mptcp: fix stale skb->sk reference on subflow close
-4afe70c7683ea62600ef706a2d21869fcdae6018 mptcp: fix BUILD_BUG_ON on legacy ARM config
-806d28bdacd34d6d1da38879ea7e124e45701455 mptcp: decrement subflows counter on failed passive join
-91c8ebf704214ecbf60dea5c40b41429fcd742f0 selftests: mptcp: userspace_pm: fix undefined variable port
-b22850e347c8a05c96b99814ff75e81fea4923be mptcp: pm: userspace: fix use-after-free in get_local_id
-64b6bc90243c1a1c1d34b2251b0e70cbfef98768 DO-NOT-MERGE: git markup: fixes net
-1c0086c1001889e8f18012b4fe0f755fa8dc2f19 DO-NOT-MERGE: mptcp: add CI support
-eb0c12143431b8e6c880bf26b6e1dea20b6e8370 DO-NOT-MERGE: git markup: end common net net-next
-cc8babcbd5916fdc3e065eb723a2641c3ca4314b DO-NOT-MERGE: git markup: fixes net only
-53139b049973dcf74db1bd96caac3a13f88433f2 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-8447cb3a2adccbd46ab15c1747a30d34d196ea59 DO-NOT-MERGE: mptcp: enabled by default (net)
+30d05d62176d95e2a5d590658c9ed4d0df88c298 DO-NOT-MERGE: git markup: net
+252e96aa69c31110381d0e33d7ba01ce5d46ad45 DO-NOT-MERGE: git markup: fixes other trees
+66aa15192795245c31e54c3aee7492a7159b7777 mptcp: fix stale skb->sk reference on subflow close
+5782974f3e4339340c15493ea4d29879845e17f2 mptcp: fix BUILD_BUG_ON on legacy ARM config
+72f614c03bb2958dea6837f66d42e84496019abb mptcp: decrement subflows counter on failed passive join
+94f9e98075a63997a949224345103730972d49ed selftests: mptcp: userspace_pm: fix undefined variable port
+be5355e7bcd919548a5cda1c6381dec63a114f93 mptcp: pm: userspace: fix use-after-free in get_local_id
+7024586589519e8cccd749b17cdc6a6eebc57b1f mptcp: fastopen: only mark MPTFO subflows with SYN data
+e692ad3017cdb06ba425800f796097124b3bdce4 DO-NOT-MERGE: git markup: fixes net
+996bf6a15a667553f34a81f3c048beae88c57cad DO-NOT-MERGE: mptcp: add CI support
+75c19eaadf8555ae5df01c121313d4d93e399d97 DO-NOT-MERGE: git markup: end common net net-next
+5d25f6aa34d8653ac1fe7dc9e61509f4eae2c194 TopGit-driven merge of branches:
+d3698d5f74ca6476fda4446416a8f28c86b16e47 DO-NOT-MERGE: git markup: net-next
+9e1a678d46c1d9ea23c4e121d76004df7e70a85c DO-NOT-MERGE: git markup: fixes net-next
+98b196c9d4818c23fb4346b36f26ea251a0dd573 mptcp: pm: init and release mptcp_pm_ops
+164f2ae5d73de065fe641f5ef75a092068dfc9d2 mptcp: pm: add get_local_id() interface
+bc8d6bd42b5f102d6971a9022b437b6c38b77a76 mptcp: pm: add get_priority() interface
+31185e2dda9a3f4ab6c56a4fc6a52ac1535c1897 selftests: mptcp: connect: test name in pcap file
+cd63b1114d303d109ad76c04c579cb4fbe96e5e6 selftests: mptcp: simult_flow: test name in pcap file
+58d18affed697704940b24e5eccba343a3ba4a28 selftests: mptcp: pcap: drop most of the payload
+4db7965653bb8757e60564a09af2fca81e08b6f6 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+918d637a1e052043fef8526e1f833d2353416b98 mptcp: remove unused data_ack from struct mptcp_ext
+cc0e3a90d9cfdcdb4697bb1b4d17fee01df05318 mptcp: move the retrans loop to a separate helper
+c4f98261be7767297f55957c027d3dbcb3fa9551 mptcp: let the retrans scheduler do its job
+fcb64a3e61fd30ef22226be40c4e532a3f37a790 mptcp: explicitly drop over memory limits
+96582243ddaff80f48ff586b8db49b0081480931 mptcp: enforce hard limit on backlog flushing
+6cd7ffec415bd69f3021161eb0abb38d8e0b7850 mptcp: implemented OoO queue pruning
+0fe6d287a5885b996ce91cca9fce238e82f3b635 selftests: mptcp: fix const qualifier warnings in strchr usage
+3cfb24ab5fbb2d87b53a64c1ff75207de50137e0 DO-NOT-MERGE: git markup: features net-next
+eeff9d3f6740716a273e656f19afab16345b1382 DO-NOT-MERGE: git markup: features net-next-next
+4ab50150c08f1d95d0204a92fb645b3589cbd90f bpf: Add mptcp_subflow bpf_iter
+b88a524bb2d69b070a25abe3130e6ad53012f87b selftests/bpf: More endpoints for endpoint_init
+2f571a14d6943e43a6d390057c3662f99b4dff4b selftests/bpf: Drop cgroup_fd of run_mptcpify
+b47bc5f5900d8a571f8bcbd48442748e77e7bef9 bpf: Add mptcp packet scheduler struct_ops
+47303f637ba5b551831740d38e4010cad50ce654 bpf: Export mptcp packet scheduler helpers
+244764bafda2d2be39f6b12d8aba819e62b35b09 selftests/bpf: Add bpf scheduler test
+4c1788d96b3cf4087c1d6bfc28a9da91f23a7986 selftests/bpf: Add bpf_first scheduler & test
+d3cd37abcbd063a4786f2aad097a1a93c4d57371 selftests/bpf: Add bpf_bkup scheduler & test
+bd5fe7fdc8fdda891c576bdc9736d4d320ee1710 selftests/bpf: Add bpf_rr scheduler & test
+80770968fcf2bd8408d497a992ff3f4446aa7b8a selftests/bpf: Add bpf_red scheduler & test
+3c21c1fdf10cb9f30099160e6a1005cdd4ada603 selftests/bpf: Add bpf_burst scheduler & test
+d4253981f600c73ff2b4c55534cd4533080114fc DO-NOT-MERGE: git markup: features other trees
+011c94b548ade18a4e4c4978c956acf2d2f13a1f DO-NOT-MERGE: mptcp: improve code coverage for CI
+d2cc1d2dd6c52fda38f9a5ef2d5eb2acc5274473 DO-NOT-MERGE: mptcp: enabled by default
 
---===============7188267872782611513==--
+--===============2163536411224824951==--
