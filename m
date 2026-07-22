@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Wed, 22 Jul 2026 19:26:08 -0000
-Message-Id: <178474836812.1096866.107848245690277386@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 19:26:14 -0000
+Message-Id: <178474837470.1096984.1640173576493714897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/linux-next
+  - ref: refs/heads/bleeding-edge
     old: 33ebf18e6d245553269d4e7c6659cda32919e81f
     new: 39c0cf62fc7851a17782e7efe8dfb2948739c681
     log: |
