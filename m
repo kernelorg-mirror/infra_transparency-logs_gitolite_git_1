@@ -1,30 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 22 Jul 2026 08:20:36 -0000
-Message-Id: <178470843693.578624.4521832425728319927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Wed, 22 Jul 2026 08:23:59 -0000
+Message-Id: <178470863963.580022.6484740637402560853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/for-next/perf
-    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
-    new: 49f2413f9b55dd975fb7d874c1fd35cf6a7335c6
+  - ref: refs/heads/for-next
+    old: 1a6e6a79b8df153f9ec702aa4d5407333eeff917
+    new: a000f52cffe0e577ff4519cc2c23e073278b9c7f
     log: |
-         56603c28d91690594423d073442ef9acec2aaa45 perf/arm-cmn: Move DTM index data out of hw_perf_event
-         9d0b1714e1af16622a2d0f7317ddaa9a4b27f353 perf/arm-cmn: Add workarounds for CMN-S3 on Graviton5
-         49f2413f9b55dd975fb7d874c1fd35cf6a7335c6 perf/arm_pmu: Skip PMCCNTR_EL0 on NVIDIA Olympus
+         2ebce860bdd7ae5e13002811bc9bbbf33fcfc221 mm/mm_init: handle alloc_percpu failure in free_area_init_core_hotplug
+         d7bfd98ba01d2af48cc238d5525201c83fdef251 mm/mm_init: remove redundant memset in free_area_init()
+         d072312deae75869188d06bdb2823d92ad757a6b Merge branch 'fixes' into for-next
+         832aa41ea9ee11b676b02f338bee4580f8c3207b Merge branch 'range-checks' into for-next
+         57d12723bd7254fe9a876b793fbf79441c160e19 Merge branch 'kernelcore-mirror' into for-next
+         aa4f271c67dce8a0631a652db02f24dc64db24d9 Merge branch 'numa_memblks-redundant-work' into for-next
+         a000f52cffe0e577ff4519cc2c23e073278b9c7f Merge branch 'misc' into for-next
          
-  - ref: refs/heads/for-next/coco
-    old: 0000000000000000000000000000000000000000
-    new: e62decaf98e7c1385c4a22c61ba8bf94d24713a5
-  - ref: refs/heads/for-next/errata
-    old: 0000000000000000000000000000000000000000
-    new: 62e11a7fde652026beb770077b1d9d4186a85b79
-  - ref: refs/heads/for-next/uapi
-    old: 0000000000000000000000000000000000000000
-    new: d4bf9e08d412289ae7c9072378bed238c0274c55
