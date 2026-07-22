@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 22 Jul 2026 15:49:46 -0000
-Message-Id: <178473538615.931079.3046533359229550210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Wed, 22 Jul 2026 15:51:07 -0000
+Message-Id: <178473546716.933733.13596865072374445268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/for-next
-    old: e86012a6455037691d25e1de3ff98d6026db6227
-    new: 03b0bcd2440b4ace0fb4bdf93e444db6454e7370
+  - ref: refs/heads/rv_tests
+    old: cfd0b1c078dc3e7b2dd143bcf9a86c7cfbc7c229
+    new: 7efadf52ef38749bdb47a1410903b67633ff15ae
     log: |
-         af78c0020480aba3132fb9fa4db0fd1fb949feaa io_uring/zcrx: drop "notif" from stats struct names
-         201e30810223a40275f17c5e6ee410fa857b6b44 io_uring/zcrx: rename ZCRX_NOTIF_NO_BUFFERS
-         e366c15e1610ef11d0717ecd875ae63050282676 io_uring/zcrx: rename notif to event
-         03b0bcd2440b4ace0fb4bdf93e444db6454e7370 Merge branch 'io_uring-7.2' into for-next
-         
-  - ref: refs/heads/io_uring-7.2
-    old: ab05caca123c6d0b41850b7c05b246e4dca4a770
-    new: e366c15e1610ef11d0717ecd875ae63050282676
-    log: |
-         af78c0020480aba3132fb9fa4db0fd1fb949feaa io_uring/zcrx: drop "notif" from stats struct names
-         201e30810223a40275f17c5e6ee410fa857b6b44 io_uring/zcrx: rename ZCRX_NOTIF_NO_BUFFERS
-         e366c15e1610ef11d0717ecd875ae63050282676 io_uring/zcrx: rename notif to event
+         75b2ac06e4bf59148a1c84970630e5d7045b4f8c rv: Add KUnit mock for current
+         c98429c5f93333b635a7b2114103082a27eb8c45 rv: Add KUnit tests for some LTL monitors
+         0ad2a1f61bf340609895e80cc4367de10582316b selftests/verification: Fix wrong errexit assumption
+         3a7aec55600f039bc15222f6bd077aba20030274 selftests/verification: Rearrange the wwnr_printk test
+         7efadf52ef38749bdb47a1410903b67633ff15ae selftests/verification: Add selftests for deadline and stall monitors
          
