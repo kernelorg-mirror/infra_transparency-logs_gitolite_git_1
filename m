@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 22 Jul 2026 14:44:55 -0000
-Message-Id: <178473149577.879531.10708942941022344010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 22 Jul 2026 14:58:25 -0000
+Message-Id: <178473230533.889678.3800336205607452014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: 2f9a77e47f605c4253d7beb027d5c27b99f4b7e8
-    new: 1ec98a54af5ffca70874c3022483c5f78e3ed0f8
+  - ref: refs/heads/main
+    old: ba712ecfd942b68b21a4b0a5daaf72f6616cc66d
+    new: 06ec76fa534a2330fecb66deaa09be4db7ac620c
     log: |
-         dd775208270e7fd87cab6c89a0b3e052bffbe44a dwarf_loader: Detect aggregate ABI register usage and signature changes
-         5239db95e108175ff1480b0ac61949c09c972ab5 dwarf_loader: Collect per-parameter information
-         e96290426e180703fb34d904df3772a2389c6df3 dwarf_loader: Analyze per-parameter information for true signatures
-         5b8a2ca20d01d67fee4071e4e6c9e034d6cc8c9d btf_encoder: Emit true function signatures
-         89a654030f1f900a4bddfe9460d6d97fcec0b6d3 tests: Add BTF true_signature encoding tests
-         fb8328e74f0374098a3580c5a6c6a863808dc500 btf_encoder: Only skip optimized parms when ABI changed
-         1ec98a54af5ffca70874c3022483c5f78e3ed0f8 tests: Add GCC default-BTF optimized parameter coverage
+         3656a79f94c471827a08f2cacce5f94ad5e52c24 amt: re-read skb header pointers after every pull
+         53969d704fa5b7c1751e277fac96bfc22b435eac amt: make the head writable before rewriting the L2 header
+         06ec76fa534a2330fecb66deaa09be4db7ac620c Merge branch 'amt-fix-use-after-free-of-the-skb-head-across-pulls'
          
