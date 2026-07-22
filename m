@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============9114351067239499070=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 22 Jul 2026 12:49:11 -0000
-Message-Id: <178472455164.778369.17594892783322248152@gitolite.kernel.org>
-
---===============9114351067239499070==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Wed, 22 Jul 2026 12:50:53 -0000
+Message-Id: <178472465310.781333.17554095171125017009@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/master
-    old: f9a791afb40de221110fa1cdfff579e3bb6af095
-    new: 391666f0414acb1666062f8ec4b239d2e0049b45
+  - ref: refs/heads/main
+    old: 9cc3920da6b7b95fbb6534e6b11d48359a29faa7
+    new: d347e97128e6c5da9e112f544130381d2dd09779
     log: |
-         391666f0414acb1666062f8ec4b239d2e0049b45 7.1-stable patches
+         be80d1822de4d892cb16719f552f6c3b86721bfd Trim Cargo.toml keywords to essential set
+         492e820e35f9dfa14d113ef7614b4dd66b569e4e Increase MAX_SCAN context relocation distance to 2000 lines
+         9c4c5ae2d70e560e01f6d3e82b3b37e28362f8e7 Increase MAX_BASE_SCAN to 100 for deeper context scanning
+         7a946f89ff91cb0b55a6bad56cf8b04c21673c07 start retries from zero
+         47b19845cf164a9bcffc8dd001bfc1e3694b877b patch locator improvements
+         c96403318bb33997d499c87753ea2d19ede0bc1a conflict relocation on no change
+         d347e97128e6c5da9e112f544130381d2dd09779 version
          
-
---===============9114351067239499070==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784724543 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784724549-c16ee5ab6a20c4967789a2f5bdeed828f02e3fd4
-
-f9a791afb40de221110fa1cdfff579e3bb6af095 391666f0414acb1666062f8ec4b239d2e0049b45 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpgvD8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IWIP/2kzIH88Esp/f3mQ/fPg
-RkwFcNus0vCstzjS9hiBW3ab+L0xeuJ4Dwyvy1En32Zth5jMQKvC4yrKuoj6a5qA
-+GDY597I/99gLnlplsdzhM8GSgwxlp83Shtr+QqBjYULYx7PM10UkRl3LvCtEhwE
-W/UjAq1wGKrP60lxwhTr+6h7FnU6okxDLfPIQ0uyywehudYlIkSDg/VouTk0Xe1W
-6diDvXHjWkoMM+mIRHEPTGn9uaEUrn1BLlrEaLOmR20c/gABR0VhBZFamx3t7G/K
-WBSDFQNbJabO8BeFM0EkBeKct9AlpeqDkH3v9ziRWkmOZ1eb4JtLEjcIDaRyoUKS
-rPmDfby35J2tR4Tzkt3V1/oupZranWqGsHp41SegFEeZNyBxFtTn6ukpAcubV8u2
-5ig3yLr9YEqVDhtKm17Rf/FXcZbFG3JseAlBVDmz+IGw4AC0QZQAy+B0A3zEnjN+
-4NaWNNfewPeTakUJIA7gs7Mh9I5RdPrZ/p3m2bVb51pJS9iGwfgtiQ3aoFnyq0SF
-WxMb6tM4rAh7rwvutfpIyQPhHJqaVki9L8Ew7ee4GD9kt82Sq4sb5d23hknC4k10
-w0lrDSFMFHsojdlUGB/PnH9IK01rD7Q4F6FawHLX8p7ovmjrhsQacmrOmJrmalvy
-eoqqcm+t2dmCBAWs6khbvVse
-=He7j
------END PGP SIGNATURE-----
-
---===============9114351067239499070==--
