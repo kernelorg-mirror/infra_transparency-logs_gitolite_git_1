@@ -1,23 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 22 Jul 2026 08:56:14 -0000
-Message-Id: <178471057490.604626.9667849357300983644@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0436509829720677010=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Wed, 22 Jul 2026 09:18:56 -0000
+Message-Id: <178471193634.619130.5720396246164534163@gitolite.kernel.org>
+
+--===============0436509829720677010==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 0ca79979384f031d710c4b3bae065dcb5d95aca3
-    new: 63d6c2d10c15ba3a41cee15e3cc50fda95c35984
+  - ref: refs/heads/main
+    old: 2afc33c5384817df3696ecb79b069ea01a0a92f2
+    new: 7cb34f6c4fe8a68af621d870abe63bfca2275dd6
     log: |
-         8aae47a046439bad72cd6eaa5e81d695cc22e8a9 net: ionic: register PHC for rdma timestamping
-         02e643e22a4403fd170db0c7118582b1c273827b net: ionic: Add PHC state page for user space access
-         7462d18889bf5d1e5b2269da5e3ef694b1c5ca59 RDMA/ionic: map PHC state into user space
-         8ba049504671fe52eeba29f70b022ee4b302507f RDMA/ionic: add completion timestamp to CQE format
-         63d6c2d10c15ba3a41cee15e3cc50fda95c35984 RDMA/mlx5: move mlx5 clock info to common struct ib_uverbs_clock_info
+         7cb34f6c4fe8a68af621d870abe63bfca2275dd6 wifi: brcmfmac: fix 802.1X-SHA256 call trace warning
          
+
+--===============0436509829720677010==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1784711896 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1784711896-6103ca58cb6223b044c6d2e34f5ee2307906e15a
+
+2afc33c5384817df3696ecb79b069ea01a0a92f2 7cb34f6c4fe8a68af621d870abe63bfca2275dd6 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpgitgACgkQ10qiO8sP
+aABekhAAj0yg54WIvS1IcRg5iQM8V5BYXziAxPX5AnyTS99GfNBtfXq2NE+PpTxK
+QuT7Pi/JlMT0p///9q/Sil6YiKaJ/S7XAJEecDZSf1NYe3+H7tVqudNkzgqB1N1A
+EaKZaYeCrvPeNKLd3LXBooEBFhYpLybYXgciwqIz+vVV4nA9Bw/wtB8QgwG4N+F8
+KsXoq8KyeyU9tI82gKfJNL6RZS+aQZTcCYJf0vVP8+pIw6ViXTB9s3GMzgLVFIGZ
+53u00pPrDc6gOvoVwKn7a/BtQj8UPlYV9MGC8OJoml7b/wGk4H9ZSinbUEkhjA2f
+YD+bZS9k5C2qc6voyaM7tCwX21bFwzkcpswiNg7aexKpcQ4wd9V6AKt4l8BbGqxP
+beyOazgUN9ojbZxDfVmae+PYzGLYYiPp06x/03cpDbNiRTRXzGN16aRtw8hJAK3r
+5aotaZfvBEJdEnL8SyQ9QmxSfA2v1AY5H70qzsPF78m5gqFCE1inp4ywj0/Axp0y
+kS6irWqp5KGyRP1pyWnB5Sp/0oJvBzrS7urGJtNPq4uZh1hghrnJ5ff/9+Z5CdeS
+GupYNhujsBReIi53a9T1p/0TmhMuptcPJEp23CHU2xDhAORUL/zrfP+peApFaseI
+NiJDEUotN7RVQl4E4t04KTQmczEgiVSBFQlqpBWnpNwR7nJZieo=
+=wV42
+-----END PGP SIGNATURE-----
+
+--===============0436509829720677010==--
