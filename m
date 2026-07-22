@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Wed, 22 Jul 2026 22:55:40 -0000
-Message-Id: <178476094051.1299191.17580024062705286106@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 22:57:01 -0000
+Message-Id: <178476102115.1299864.15236303294126330495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,14 @@ repo: pub/scm/network/iproute2/iproute2-next
 user: dsahern
 changes:
   - ref: refs/heads/main
-    old: 35a237091c24858cac6c6679175bb6a628cbe400
-    new: ce0464ea123844bfffa74e524fd5527420da13ee
+    old: ce0464ea123844bfffa74e524fd5527420da13ee
+    new: b8cdda55904b70eef1f66da17a231e2e1ba379e0
     log: |
-         9b464a11979d89da380f5453bd80535969864993 Update kernel headers
-         144c45b656ad1b9f128f490d158b61ddfbac4908 seg6: add support for lookup attribute in SRv6 encap routes
-         ce0464ea123844bfffa74e524fd5527420da13ee seg6: man: document the lookup attribute for SRv6 encap routes
+         b8cdda55904b70eef1f66da17a231e2e1ba379e0 ipmaddr: use RTM_GETMULTICAST to list multicast addresses
          
   - ref: refs/heads/master
-    old: 35a237091c24858cac6c6679175bb6a628cbe400
-    new: ce0464ea123844bfffa74e524fd5527420da13ee
+    old: ce0464ea123844bfffa74e524fd5527420da13ee
+    new: b8cdda55904b70eef1f66da17a231e2e1ba379e0
     log: |
-         9b464a11979d89da380f5453bd80535969864993 Update kernel headers
-         144c45b656ad1b9f128f490d158b61ddfbac4908 seg6: add support for lookup attribute in SRv6 encap routes
-         ce0464ea123844bfffa74e524fd5527420da13ee seg6: man: document the lookup attribute for SRv6 encap routes
+         b8cdda55904b70eef1f66da17a231e2e1ba379e0 ipmaddr: use RTM_GETMULTICAST to list multicast addresses
          
