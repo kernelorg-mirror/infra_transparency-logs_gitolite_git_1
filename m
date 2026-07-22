@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 22 Jul 2026 18:32:33 -0000
-Message-Id: <178474515305.1057644.3372138429647199161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 22 Jul 2026 18:49:48 -0000
+Message-Id: <178474618818.1068613.4259816405549813265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-7.3
-    old: 2abee44c7db9fa7c2d380fc25866617f59a9c1e0
-    new: 00a08ddfb48bb85885a8665bc56716c4d2f9bd82
+  - ref: refs/heads/master
+    old: f3f03d728542f76599385cf82348ba4f87264dcc
+    new: 89d477bb5494eef0b24e5667be62f854da250a97
     log: |
-         00a08ddfb48bb85885a8665bc56716c4d2f9bd82 sched_ext: Fix stale errno in scx_sub_enable_workfn()
-         
-  - ref: refs/heads/for-next
-    old: f196917272c86781345c2bb817f057be83d12abf
-    new: def295f305c9f5dd0f4f43828a964bfd0dafab7b
-    log: |
-         00a08ddfb48bb85885a8665bc56716c4d2f9bd82 sched_ext: Fix stale errno in scx_sub_enable_workfn()
-         def295f305c9f5dd0f4f43828a964bfd0dafab7b Merge branch 'for-7.3' into for-next
+         679b38459c0ff21728a575ab8629189aa18151b7 shared: Add create_context CS config parameter
+         442008ec267b6fb1e7841d66ada12428e7f832ec profiles: Add create_context param as part of CS Create Config cmd
+         1fd9b7de3be4b40186672177c1fbe25bf522012d client: Add create_context CS config parameter
+         89d477bb5494eef0b24e5667be62f854da250a97 doc: Document create_context in bluetoothctl-cs.rst
          
