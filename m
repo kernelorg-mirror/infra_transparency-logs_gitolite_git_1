@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 22 Jul 2026 18:00:19 -0000
-Message-Id: <178474321985.1034974.14364797606987325199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 22 Jul 2026 18:04:07 -0000
+Message-Id: <178474344755.1036488.279109392400639275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-7.2-fixes
-    old: 5cdc928598095b2c7d5f265e5f21eadd1634bfbe
-    new: 9591fcc95dddfd24298724f8eb5239e907980779
+  - ref: refs/heads/main
+    old: fec15bb3dab0c88dd513a5198173de66f830f289
+    new: dcf15eaf5641812f1cfc5e96537380132a7da89d
     log: |
-         9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
-         
-  - ref: refs/heads/for-next
-    old: 59dae29d744187b2edfeb6eb0a28be5f17927dd0
-    new: 0b320c5d5ea988671f49caaf22e4096428e856bd
-    log: |
-         9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
-         0b320c5d5ea988671f49caaf22e4096428e856bd Merge branch 'for-7.2-fixes' into for-next
+         e9027ffbf5a0f3c12ca8900822e884eae9f0821b Bluetooth: hci_sync: Protect UUID list traversal
+         c783399efc22d035443f1dfbf2a09bf9562aaa5e Bluetooth: RFCOMM: Fix session UAF in set_termios
+         df541cd485ff80a5ddc579d99687bc7506df9851 Bluetooth: btusb: validate Realtek vendor event length
+         9a67bbfe48ee5289a4be3f4020cd542b74122c60 Merge tag 'for-net-2026-07-21' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+         9545fef46d363cdcd63da63259b6d48ebb586024 MAINTAINERS: add nci tests to nfc
+         43171c97e4714bf601b468401b37732244639c21 net: bridge: vlan: fix vlan range dumps starting with pvid
+         679eb1e32d2cd1707de4984ca1b6e68f3d8da1ac selftests: net: bridge: test ranges with PVID VLAN
+         3cdb9f88e35dfca7d63f77fc088869bcecbc72de Merge branch 'net-bridge-fix-vlan-range-dumps-starting-with-a-pvid'
+         dcf15eaf5641812f1cfc5e96537380132a7da89d net: hsr: fix memory leak on slave unregistration by removing synced VLANs
          
