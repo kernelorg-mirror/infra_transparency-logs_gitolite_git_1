@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 22 Jul 2026 20:09:49 -0000
-Message-Id: <178475098951.1172632.1023783114147370369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 22 Jul 2026 20:17:01 -0000
+Message-Id: <178475142129.1179328.11112871707820184562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 24d0af194bcca043bd82f8a0842a051cdde266ee
-    new: 88f380ef2304db4c68bc4bf14fc6c1604f6dd15c
+  - ref: refs/heads/master
+    old: 659f5f12d51687b9a406df49d5e19077e6f8e16f
+    new: 0e65f947e4f98a3c48a47f280a86dd23845259b0
     log: |
-         d6587d0c0f3d6ffe0be9ddc5569f0e4b1bb2ef7b selftests/net: Test PACKET_STATISTICS
-         1451e5302941988cc2da2d2c0bc3e2f7b9f93451 selftests/net: Test PACKET_STATISTICS drops
-         707f5c2de0469c76693a02af136929dece809056 selftests/net: Test PACKET_AUXDATA
-         88f380ef2304db4c68bc4bf14fc6c1604f6dd15c Merge branch 'extend-packet-socket-selftests'
+         018b87444d32eb2ffee7cb25f0785e54aa35f7bf ci: add distro-matrix.sh to test against distro-shipped dependencies
+         77cd0c5572d107858ee909f17a82451d5593a2ac deps: lower pygit2 floor to >=1.14
+         2769cf0970d173b1f02b30953b2e844704fc8ea2 tests: guard optional-dependency imports so the suite runs without [tui]
+         4b507b4bc63340c9764eb46c48f75b9c659f0451 review tui: fix two crashes on older (distro-shipped) Textual
+         0e65f947e4f98a3c48a47f280a86dd23845259b0 ci: add a lowest-direct floor lane to ci-matrix.sh
          
