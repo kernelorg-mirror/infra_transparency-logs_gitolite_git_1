@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6148551709543051077=="
+Content-Type: multipart/mixed; boundary="===============2844798746887183382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Wed, 22 Jul 2026 16:51:31 -0000
-Message-Id: <178473909186.984657.12475352143978508472@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 16:51:33 -0000
+Message-Id: <178473909307.984764.16925310641185490468@gitolite.kernel.org>
 
---===============6148551709543051077==
+--===============2844798746887183382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: be828e6819ed139b699bf7feb00a546cb7806266
     new: 7ed594363b5f080e66285ebc2048ae69e5b558f9
     log: revlist-be828e6819ed-7ed594363b5f.txt
 
---===============6148551709543051077==
+--===============2844798746887183382==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -45,4 +45,4 @@ d7758384ccb470aed7c7a86f0825b1b16bd7a288 scripts/kernel-doc: Suggest possible na
 9ca62ed53f269036de3407a6e9023c3c998b1053 docs/ja_JP: translate submitting-patches.rst (sign-off)
 7ed594363b5f080e66285ebc2048ae69e5b558f9 Documentation/core-api: min_heap: remove documented but unimplemented min_heap_empty()
 
---===============6148551709543051077==--
+--===============2844798746887183382==--
