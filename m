@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 22 Jul 2026 09:27:43 -0000
-Message-Id: <178471246386.626582.2924177804430695406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 22 Jul 2026 09:36:11 -0000
+Message-Id: <178471297180.633252.681354452263760971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/usb-linus
-    old: 55645e4f3c6022ffb160ad3617d2b624eaa38501
-    new: faaddd811c5099f11a5f52e68a6b31a5898cda4f
+  - ref: refs/heads/wip/leon-for-next
+    old: 63d6c2d10c15ba3a41cee15e3cc50fda95c35984
+    new: 97f7c2262c28ebcae64fc957ee978646684a5ed9
     log: |
-         faaddd811c5099f11a5f52e68a6b31a5898cda4f USB: serial: io_edgeport: cap received transmit credits
+         97f7c2262c28ebcae64fc957ee978646684a5ed9 RDMA/mana_ib: drain QP references after partial table insertion
          
