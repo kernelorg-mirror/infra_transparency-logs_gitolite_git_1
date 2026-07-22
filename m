@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 22 Jul 2026 12:21:44 -0000
-Message-Id: <178472290423.757412.1214028154441089343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 22 Jul 2026 12:21:53 -0000
+Message-Id: <178472291398.757693.14620721935699645861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 1d26f125501f3fbe6c259ab75bf6516299a0bf0e
-    new: a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6
+    old: a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed
+    new: 6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2
     log: |
-         a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6 regulator: core: clamp voltage constraints before applying apply_uV
+         6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 spi: dt-bindings: spacemit: add K3 SPI compatible
          
   - ref: refs/heads/for-next
-    old: e244708d027be3332d778f67fd362eb2f42c66fa
-    new: 1ab9f0fea77315c673abe4323553e3bb405ffd50
+    old: 2c2900017f2486e7b46795e80d7c8f3f8fbe0236
+    new: 6815fea1fdef000a5718bc1ec8968020d98528a6
     log: |
-         07f0feac5f589bd09afd84533632b7c796fc5ef8 regulator: dt-bindings: tps51632: Convert to DT schema
-         a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6 regulator: core: clamp voltage constraints before applying apply_uV
-         64f3d6f2665222d16e90dc691e24607168c8cc29 regulator: dt-bindings: Convert ltc3589.txt to yaml format
-         1ab9f0fea77315c673abe4323553e3bb405ffd50 Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
+         6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 spi: dt-bindings: spacemit: add K3 SPI compatible
+         6815fea1fdef000a5718bc1ec8968020d98528a6 Merge remote-tracking branch 'spi/for-7.3' into spi-next
          
