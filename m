@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5777142727767884200=="
+Content-Type: multipart/mixed; boundary="===============7688875268395054439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 22 Jul 2026 01:18:00 -0000
-Message-Id: <178468308047.276072.14665601969704331133@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 01:18:06 -0000
+Message-Id: <178468308690.276398.4879363154365351612@gitolite.kernel.org>
 
---===============5777142727767884200==
+--===============7688875268395054439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
-    old: 558ef39aeb9a089a6be9dda8413b0b9d42e843ea
+  - ref: refs/heads/tmp.perf-tools
+    old: 3287a1881ca528b89b964d9fa6d28880d277d9e2
     new: fac520e43a60230b24026f462a2b63e4d170566e
-    log: revlist-558ef39aeb9a-fac520e43a60.txt
+    log: revlist-3287a1881ca5-fac520e43a60.txt
 
---===============5777142727767884200==
+--===============7688875268395054439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-558ef39aeb9a-fac520e43a60.txt
+Content-Disposition: attachment; filename=revlist-3287a1881ca5-fac520e43a60.txt
 
 74a21a2db6aecff5b01cf6b3a52144dd805d51ff tools/virtio: add missing compat definitions for vhost_net_test
 039892c35f9d8f5ea00d7c2ed1c25224f28b11d7 tools/include: include stdint.h for SIZE_MAX in overflow.h
@@ -1051,4 +1051,4 @@ dd1e6fb8ffdfe71b6f9812b1e5add25a48f231a5 perf beauty: Update copy of linux/socke
 42bfbb3e8d1ce4611c407c0f9d0d2ffea51b67b9 tools headers: Sync UAPI linux/fs.h with the kernel sources
 fac520e43a60230b24026f462a2b63e4d170566e tools headers: Sync KVM headers with the kernel sources
 
---===============5777142727767884200==--
+--===============7688875268395054439==--
