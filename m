@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 22 Jul 2026 08:11:34 -0000
-Message-Id: <178470789470.571296.2262254031911260074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Wed, 22 Jul 2026 08:15:58 -0000
+Message-Id: <178470815836.574833.6726754700828442539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/kvm-arm64/nv3
-    old: ebeea8e5ae007008249b12b40e22b212bec7ab9d
-    new: 6222a9a62080038a430429355839c9cfd8e82efc
+  - ref: refs/heads/misc
+    old: a5d67c54d414ee707333ce179d4492e99122e5b6
+    new: d7bfd98ba01d2af48cc238d5525201c83fdef251
     log: |
-         6222a9a62080038a430429355839c9cfd8e82efc fixup! arm64: sysreg: Emit RESx/UNKN values for Mapping/Fields definitions
+         d7bfd98ba01d2af48cc238d5525201c83fdef251 mm/mm_init: remove redundant memset in free_area_init()
          
