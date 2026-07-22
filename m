@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 22 Jul 2026 00:43:42 -0000
-Message-Id: <178468102297.245506.1658603363540927084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 22 Jul 2026 00:53:56 -0000
+Message-Id: <178468163687.252663.13050768569914305770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: e1a9d3cc11829c5414a75eb39c704f461936eb24
-    new: 0ab78ead2481adb52f9eb5b403865c529f6f2348
+  - ref: refs/heads/master
+    old: 1a6e6b3d66a58d4a357b987a748da66f7de92b87
+    new: 1410eadd075811b9f2aa01186a5db310fc54ec89
     log: |
-         0ab78ead2481adb52f9eb5b403865c529f6f2348 net: stmmac: intel: skip SerDes reconfig when rate is unchanged
+         1410eadd075811b9f2aa01186a5db310fc54ec89 Fixes for all trees
          
