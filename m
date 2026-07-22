@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 22 Jul 2026 03:46:59 -0000
-Message-Id: <178469201977.384942.15818706690823319082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 22 Jul 2026 04:09:51 -0000
+Message-Id: <178469339151.399824.7107613258020825622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 7c897edfe15ab9fad513509987d2bdb094d0934c
-    new: 2b15b0a6e4372a214d0665fec32df1f6758d889c
+  - ref: refs/heads/dev-test
+    old: c36320b89f322d48beaa2f5cdd2cb2dd433f1709
+    new: dadc4a73afcd1ec57b0ed0a63ed7a65b73b7dc44
     log: |
-         67b9ccd11069d2d67c8b8857939139273b5c4df7 patches/next: add selftest cleanup from Hari
-         2b15b0a6e4372a214d0665fec32df1f6758d889c patches/next: move patch from Hari to the head of the queue
+         97ab5aa5177cfa8759bd3861d71e047ea084a829 MAINTAINERS: update Hongbo Li's email address
+         72545be17fa993ed01ae05962537d49c7a0e6224 erofs: cap LZMA stream pool size
+         dadc4a73afcd1ec57b0ed0a63ed7a65b73b7dc44 erofs: accept source file descriptor via fsconfig
          
