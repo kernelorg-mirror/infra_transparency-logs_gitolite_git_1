@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2042750752488735178=="
+Content-Type: multipart/mixed; boundary="===============7263637474964836684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 22 Jul 2026 13:13:05 -0000
-Message-Id: <178472598518.799908.490067129948064916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 22 Jul 2026 13:13:16 -0000
+Message-Id: <178472599635.800141.18380512623527739834@gitolite.kernel.org>
 
---===============2042750752488735178==
+--===============7263637474964836684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: 783c9c2e0e23b8ec2bd71c24100152f2e463e9b8
-    new: 28dcfd23389661a6b073313d556470895b57a6ae
-    log: |
-         28dcfd23389661a6b073313d556470895b57a6ae drop perf 6.6.y patches
-         
+  - ref: refs/heads/xfs-7.3-merge
+    old: 97f34168769238b1fe4412229c99f1a78364f6f9
+    new: 56aa9ef3c413cb13a373226f91a19358cd9f1266
+    log: revlist-97f341687692-56aa9ef3c413.txt
 
---===============2042750752488735178==
+--===============7263637474964836684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-97f341687692-56aa9ef3c413.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784725974 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784725980-90977c219d55b12e286072cf7f805bff1342ef1a
+87b2a82e135ba81e49d82b59e3d72468cb66ea98 xfs: clear zapped attr fork state when bmap repair finds no attr fork
+cc3144da377de5fb422d44a2311f978623f7c900 xfs: fix off-by-one in rtrefcount btree root level validation
+813f8136a2ce1fee266d02a7df73db6e8a541604 xfs: bounds-check buffer log item's dirty bitmap
+d852729c5f4f830fbe7413df032e29459b3daf83 xfs: handle NULL b_addr in xfs_buf_free
+7aa67044e7d8b6eebc44b25745f16c83ccc40a94 xfs: update BDI {io,ra}_pages values based on the RT device limits
+270ffcd9b0a46254fbf3079d0e3341db7d7ec0e6 xfs: check cowextsize in xrep_inode_cowextsize
+61606f8846a9da8ab7d2d36ff4617134c9d6df1b xfs: fix transaction block reservation in xrep_rtbitmap
+8ed78104722b57df69478b0b1608a408c1036085 xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error
+49933254ba8d421ed706cbe6ed0fbc264e572cab xfs: zero i_nlink before repair puts inode on unlinked list
+b28d23c51635b646784a2a62c71ba99458c07d5e xfs: mark nonzero sb_gquotino as corrupt on metadir filesystems
+86e332447d726127e042b28f7c65ca3784443794 xfs: add an allocation mode to xfs_alloc_file_space()
+b16b63a47902997cb062ab6d94fa43645e00071b xfs: add support for FALLOC_FL_WRITE_ZEROES
+daf43402da0d3a66eda26fefe3473799165bd7b2 xfs: add xfs_metadir_create_file helper
+e6ecb1a98d14b1e9ef0cd8f3340d30b5f491d2bc xfs: create quota metadir inodes using xfs_metadir_create_file
+de64b150a70cbf4e9499921d6cb7dc52fbeb55f7 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
+c6c54d05b129c4e29f2fdc6d356b5be10765231d xfs: mark internal metadir file creation helpers static
+56aa9ef3c413cb13a373226f91a19358cd9f1266 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
 
-783c9c2e0e23b8ec2bd71c24100152f2e463e9b8 28dcfd23389661a6b073313d556470895b57a6ae refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpgwdYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H2sP/235GMvsZJBQvR6avo+X
-MWBOVzWi88//5uWucpFDHos9t5ln7w/KDpdBwtom84HwPMV7/qgFPMOAkt67j1TP
-Wj3l+nGGrclJDY/dRdXm/PlqhJ2kW4oKz/tRv7P737ipu0HHuc008770MII0PYD3
-0soaSA2CRl9DldwhWhzKmnUck03AGHLEKG/8KbTHEcQ+vxANO7J0GDAvhrOQLwK/
-ZZBMioib+bGiX6AQxXj8CZ5XQFg5RQKYl/Ijc4HUdZFWGvDcE0Hnbz8fI4d8kS15
-ZYFTDKusp8OUNgPzBAz3Yg7V5EvNnfXPKaUsxc7SJ7IVl/ridu4ysP2r+/mtMKVt
-DFDWLziJVYDRhytMwHglni9f1ILN5rYRk+NDY0m2FuTbS9rUZTCUH5AoRGBOvSEU
-xEx+vtylmvhc4cogj7B1aSKSVyb+h5090m5VCwhPHe26nfEtmGZGURpneCxWJiy/
-wd52MKgjQzNxX1NCFQsCXSZZdsdOxfk7/t6D4h63RGU69lu8yoQxVx7zw2WPCoQr
-ShQp++mkVHg3Bfd6e0xZmUtOh/cAU+059vODDLJAwDTyGohyibS+32Bfe6Ul7fqA
-GGty+kE1NWVqdLRYTwEpba9DMHRgGs9or4V7Pd6H/9/gwWf+H/E5jyYXvqySAcFk
-wR8aR/Y6yaNfNYueIbHKnDI+
-=1X5E
------END PGP SIGNATURE-----
-
---===============2042750752488735178==--
+--===============7263637474964836684==--
