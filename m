@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7530049012727744172=="
+Content-Type: multipart/mixed; boundary="===============0015222812931268080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 22 Jul 2026 03:41:51 -0000
-Message-Id: <178469171192.380270.17237800790332028644@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 03:41:55 -0000
+Message-Id: <178469171504.380401.1179314621395375510@gitolite.kernel.org>
 
---===============7530049012727744172==
+--===============0015222812931268080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3d18f3499c48ee94a49589500ce94e41c5acdf4b
-    new: 5e0603ba185af6754422ad28b646798686b6caf6
-    log: revlist-3d18f3499c48-5e0603ba185a.txt
+  - ref: refs/heads/mm-unstable
+    old: 505f6bc5c6c6db7d6390ea33c4e2ab44379e6f49
+    new: 7368ccdeff50c27809d3a8276c85bae7e402c96c
+    log: revlist-505f6bc5c6c6-7368ccdeff50.txt
 
---===============7530049012727744172==
+--===============0015222812931268080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d18f3499c48-5e0603ba185a.txt
+Content-Disposition: attachment; filename=revlist-505f6bc5c6c6-7368ccdeff50.txt
 
 186617f57bd4c3992efa3e2679df3937be518980 mm/hugetlb: fix null nodemask in alloc_fresh_hugetlb_folio
 3df417fe7133187c1bc3590996fb7b6d76e53961 mm: memcg: initialize *locked in memcg1_oom_prepare() stub
@@ -586,46 +586,5 @@ b949a278907387c170b6da967c97037ab86a34cf hugetlbfs: release subpool on fill_supe
 921fc2b7fe81d4fd17bb562693456b232ad1df1d mm/damon/ops-common: use nr_accesses moving sum for quota score
 f30d5e351144981c985e760cffa418f9dbef5451 mm/damon/core: handle region split failure in apply_min_nr_regions()
 7368ccdeff50c27809d3a8276c85bae7e402c96c docs/mm: Physical Memory: remove deferred_split_queue
-cb6e2b089284accbcba14a5dc093d197a5dee8ce mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-866560b6870d0c6618a53e47b2961433f38b123a mm/vma: introduce VMA virtual page offset field and add helpers
-b7de6d330296a24b041bbfa83718cfd00a762637 mm: introduce linear_virt_page_index()
-e7d3270e97c4bdadce233beb8db2ea7083c6f3b0 mm: abstract vma_address() and introduce vma_anon_address()
-dbc16ab0c2e4083bb8b8129dcddd7e541a5fae47 mm: update print_bad_page_map() to show virtual page index
-1a1c6d73c912e890e119d64c57608ea24c0e30c8 mm: introduce and use vma_filebacked_address()
-a53da03976f7686283a64e2659641405c6658fda mm: propagate VMA virtual page offset on map, remap, split + merge
-8af59f7d4f76aa20be53faba318ad0e9493abaf1 mm/rmap: track whether the page VMA mapped walk is anonymous
-cf90eabf298b71feb2c62d509901f64ceb691d3b mm: introduce and use linear_folio_page_index()
-241b00ce256015d2f0a91fd5c9f324f9c0a92d46 mm/rmap: use virt pgoff for MAP_PRIVATE file-backed anon folios
-6fa7c709d94537072c978daace1941dc58c8e6e0 tools/testing/vma: expand VMA merge tests to assert virt pgoff
-e5c6417d40462c52d0ee613d2a7fab8435b2c243 tools/testing/selftests/mm: test virtual page offset merge behaviour
-03b0197262d05b0af2237ed437620022319bf0f8 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
-77eb7bd0c0cd82fb0382c4e572568bf8a9551972 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
-d34e60eb39930d77e85f1ed5e9e681c623616a42 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
-6a52348b360cdd7a9cf143e9d69ccf5fea1f02b7 tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
-539af691db43592c7af0710ec253e8c8d18d1413 mm/kmemleak: report RCU-tasks quiescent states during the scan
-e41c1279fa352f8e3d171d33f275ef4324db10b8 mm: vmscan: convert folio_referenced() to use vma_flags_t
-e9b57ab3f5a6697699b609572c820ded1713e483 mm: vmscan: add a helper to identify file-backed executable folios
-a80528f9a710b23e3d87f28b1f5439251ccbcf35 mm: mglru: promote mapped executable folios after first usage
-281c4c5a11cdd47553ad55ea67b5c5d2ee9fb98c selftests/mm: transhuge-stress: check duration inside page loop
-01620be269697879f37284e51874776db03d4344 fs: stable_page_flags(): use BIT_ULL() for KPF flags
-c3b1230af97e519e1ab5e691dd18de2d3a22bf22 fs: stable_page_flags(): use folio_test_*() helpers
-24d449b13298bea09d0f4b3b6af762b354c7a183 fs: stable_page_flags(): simplify KPF_IDLE handling
-e7e7481a586106e28d013446ee851f110d6d644f mm/page_alloc: boost watermarks on atomic allocation failure
-113b9ee572eb9a5c2ec956a01b5fc997a839076e hugetlb: make hugepage_put_subpool() tolerate NULL
-0ed83ee4d2c749cb20d97bbe3525c793011ec141 mm/memory: move pte_install_uffd_wp_if_needed() into memory.c
-8d3d764f86c491df76d9d5c961ce22d4442b5e4d mm/memory: batch set uffd-wp markers during zapping
-c0ab2b8f5e0cc4177d087cd876133980d8d921b3 mm/rmap: batch unmap file folios belonging to uffd-wp VMAs
-f83a9c81a8104bc9e273b585c2a0f141047960e9 selftests/mm: use MAP_FAILED for mmap error check
-75d540cec07859b3aa7adaf3920eaeafa495e61f selftests/mm/pagemap_ioctl: fix missing NULL checks after calloc()
-dcef0a35dbff3cb1a66f987d70caf882763fc8f9 mm/early_ioremap: clarify early_ioremap_reset() semantics
-f40da229d9bb9d3547f3a46471e4b3e466f2f34d riscv: remove unused __late_set_fixmap() and __late_clear_fixmap()
-9969b53d1d5d95e42d8c8f2dd8f7440dae93a761 arm64: remove early_ioremap_reset() call and __late_* macros
-68f078351922afd5d389760cfcd45b23d9107711 mm/damon: update outdated comment about DAMOS filter handling
-5de3e12ea935bf77e8e0fa49553481480d1c8a32 mm/damon/ops-common: prevent migration fallback to non-target nodes
-27edb38b837ae537387a8d01f0a23f3cd09c9d2a mm/damon: remove trailing semicolons after function definitions
-e92b76648f588e86be3e2c30955c0fce91da159d hugetlb: evaluate subpool free state while locked
-4f916c0fc666201cfd47a672d78ffab41d2ade44 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-94f7cf98929a7a1c6b498b72001e7b16593feab9 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-5e0603ba185af6754422ad28b646798686b6caf6 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============7530049012727744172==--
+--===============0015222812931268080==--
