@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0620270562153843624=="
+Content-Type: multipart/mixed; boundary="===============0882784841236994587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 22 Jul 2026 16:24:13 -0000
-Message-Id: <178473745372.961475.3347719540212220613@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 16:25:01 -0000
+Message-Id: <178473750109.961973.11495591590720944493@gitolite.kernel.org>
 
---===============0620270562153843624==
+--===============0882784841236994587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 7b53794f5787e7e9c148608cc7063c4ab9b37f5d
-    new: f25bccc4e57cd48e191f938eb84e6a659fdd58b9
-    log: revlist-7b53794f5787-f25bccc4e57c.txt
+  - ref: refs/heads/for-next-keys
+    old: c6859eed755df351a3978b33cb92365f9b3e8f06
+    new: 127359b6ab0c717c524213dd858fb7b2dea0529a
+    log: revlist-c6859eed755d-127359b6ab0c.txt
 
---===============0620270562153843624==
+--===============0882784841236994587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b53794f5787-f25bccc4e57c.txt
+Content-Disposition: attachment; filename=revlist-c6859eed755d-127359b6ab0c.txt
 
 9ab8656548cd737b98d0b19c4253aff8d68e97f4 hwmon: (corsair-psu) Stop device IO before calling hid_hw_stop
 94c87871b051d7ad758828a805215a2ec194512a hwmon: (corsair-cpro) Stop device IO before calling hid_hw_stop
@@ -122,8 +122,5 @@ cdb65777c47eb384023aa4df71148e04c204f92d Merge tag 'probes-fixes-v7.2-rc4' of gi
 b4b760b59fad082671b075f4f1fdac318c633a61 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 248951ddc14de84de3910f9b13f51491a8cd91df Merge tag 'hwmon-for-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 127359b6ab0c717c524213dd858fb7b2dea0529a KEYS: trusted: dcp: fix key_len validation and calc_blob_len() return type
-d2f079512f3d35f56dadfd9b4262d6f0d8e72527 tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
-e238a89eb6f87c47b8f1540cb676bc8e2388c039 tpm: Remove redundant dev_err()
-f25bccc4e57cd48e191f938eb84e6a659fdd58b9 tpm: atmel: depend on X86
 
---===============0620270562153843624==--
+--===============0882784841236994587==--
