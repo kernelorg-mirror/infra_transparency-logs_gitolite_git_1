@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7525835516916869146=="
+Content-Type: multipart/mixed; boundary="===============0861254615123376615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 22 Jul 2026 07:04:35 -0000
-Message-Id: <178470387531.521735.1779121809932353350@gitolite.kernel.org>
+Date: Wed, 22 Jul 2026 07:05:02 -0000
+Message-Id: <178470390289.522917.17042437568873155634@gitolite.kernel.org>
 
---===============7525835516916869146==
+--===============0861254615123376615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 36ca470a6c1c76e999117d6b1799fd5d3bb0985b
-    new: 47ad95f7e722f7ce16efb63e4b4693dfadfb78a5
-    log: revlist-36ca470a6c1c-47ad95f7e722.txt
+    old: 47ad95f7e722f7ce16efb63e4b4693dfadfb78a5
+    new: f11a033092ab787eae4beccdd52cb21acae34494
+    log: revlist-47ad95f7e722-f11a033092ab.txt
+  - ref: refs/heads/tip/urgent
+    old: b95f03f04d475aa6719d15a636ddf32222d55657
+    new: 248951ddc14de84de3910f9b13f51491a8cd91df
+    log: revlist-b95f03f04d47-248951ddc14d.txt
 
---===============7525835516916869146==
+--===============0861254615123376615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36ca470a6c1c-47ad95f7e722.txt
+Content-Disposition: attachment; filename=revlist-47ad95f7e722-f11a033092ab.txt
+
+e39a99114b1caf396f9eadf8cda36097b5f2beb9 Merge branch into tip/master: 'perf/merge'
+ad293a0aceca1a46ed875f7f9662f049edc9acdd Merge branch into tip/master: 'core/entry'
+df31ccc79938edb5c48bfe4062854c9711057667 Merge branch into tip/master: 'core/rseq'
+90e37b75bb4e5b49c6bd1413e147f0e8cdba82b6 Merge branch into tip/master: 'irq/core'
+5bf8fd6dcf1ce388ed5effc48c9da74068f86c71 Merge branch into tip/master: 'irq/drivers'
+6f77440866a09feec170e5489e17de6771eb49eb Merge branch into tip/master: 'locking/core'
+2aea8ae5d8fbfe586b5ab1c7ada63b650eee1d97 Merge branch into tip/master: 'locking/futex'
+c93d430e708e70e772b524c8943e3eef85cf4bdd Merge branch into tip/master: 'sched/core'
+f4717a065e8b1e61dbf4f2635ed93b0352b7d2d4 Merge branch into tip/master: 'smp/core'
+d5d818c5c0c9b815dc1bdcc12d6a5c6dce2928d5 Merge branch into tip/master: 'timers/core'
+7c8a8e34d9720f454bba489d89e75d13d1f246ec Merge branch into tip/master: 'timers/vdso'
+14b0378919388a17ceddd370905914df64701ec9 Merge branch into tip/master: 'x86/alternatives'
+d5e6bdad8b4728fdd5737cf9c7a51a5323473600 Merge branch into tip/master: 'x86/build'
+141959b3a1665f7d497e3085bebb4e0ae6fac5c4 Merge branch into tip/master: 'x86/cache'
+71df927865fc3f58eccf164c27aa17cd1ce0a96f Merge branch into tip/master: 'x86/cleanups'
+f191676b0aa43e767ac5e78e941755a8a26add50 Merge branch into tip/master: 'x86/cpu'
+d948e5ecbc933d7b8992b83df432b4fc1f9624fb Merge branch into tip/master: 'x86/entry'
+3f1b1be23a8cb7c0aedb97317fed002c98084fac Merge branch into tip/master: 'x86/mm'
+a8fe093deb0b9005defe5bf4fda6e4bf82f9fa80 Merge branch into tip/master: 'x86/msr'
+f11a033092ab787eae4beccdd52cb21acae34494 Merge branch into tip/master: 'x86/tdx'
+
+--===============0861254615123376615==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b95f03f04d47-248951ddc14d.txt
 
 9ab8656548cd737b98d0b19c4253aff8d68e97f4 hwmon: (corsair-psu) Stop device IO before calling hid_hw_stop
 94c87871b051d7ad758828a805215a2ec194512a hwmon: (corsair-cpro) Stop device IO before calling hid_hw_stop
@@ -72,6 +103,5 @@ e61e6fd4f139f2342a6bc86da602df7456ef87f6 Merge tag 'kvm-riscv-fixes-7.2-1' of ht
 cdb65777c47eb384023aa4df71148e04c204f92d Merge tag 'probes-fixes-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 b4b760b59fad082671b075f4f1fdac318c633a61 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 248951ddc14de84de3910f9b13f51491a8cd91df Merge tag 'hwmon-for-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-47ad95f7e722f7ce16efb63e4b4693dfadfb78a5 Merge branch 'linus'
 
---===============7525835516916869146==--
+--===============0861254615123376615==--
