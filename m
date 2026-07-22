@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 22 Jul 2026 16:21:38 -0000
-Message-Id: <178473729800.959062.3309313808533906800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 22 Jul 2026 16:22:07 -0000
+Message-Id: <178473732762.959614.17288318788681977948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 85fddc66959716f237c281e3348807dbcd2bfafb
-    new: 9b66c9af7172ffcf727214fa0ebe9a5e1ed6eb16
+  - ref: refs/heads/for-next
+    old: 0d127245b0e14a9668b859a958eced8081f7b760
+    new: 87267b89459813cb50ab5377e076b639c07b4491
     log: |
-         9b66c9af7172ffcf727214fa0ebe9a5e1ed6eb16 RDMA/bnxt_re: Clear VM_MAYWRITE on DBR/toggle page mmap
+         87267b89459813cb50ab5377e076b639c07b4491 libarena: Use compiler load-acquire/store-release in bpf_atomic.h
+         
+  - ref: refs/heads/master
+    old: 0d127245b0e14a9668b859a958eced8081f7b760
+    new: 87267b89459813cb50ab5377e076b639c07b4491
+    log: |
+         87267b89459813cb50ab5377e076b639c07b4491 libarena: Use compiler load-acquire/store-release in bpf_atomic.h
          
