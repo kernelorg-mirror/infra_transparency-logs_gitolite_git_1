@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Wed, 22 Jul 2026 08:23:59 -0000
-Message-Id: <178470863963.580022.6484740637402560853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 22 Jul 2026 08:34:00 -0000
+Message-Id: <178470924038.587191.13295772630894446865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 1a6e6a79b8df153f9ec702aa4d5407333eeff917
-    new: a000f52cffe0e577ff4519cc2c23e073278b9c7f
+  - ref: refs/heads/for-7.3
+    old: b20dfde5ec543597f7f178f7b96cf6ebcc50e5ee
+    new: 3a773220d39ba993dfe5d135f8b610be10794d5d
     log: |
-         2ebce860bdd7ae5e13002811bc9bbbf33fcfc221 mm/mm_init: handle alloc_percpu failure in free_area_init_core_hotplug
-         d7bfd98ba01d2af48cc238d5525201c83fdef251 mm/mm_init: remove redundant memset in free_area_init()
-         d072312deae75869188d06bdb2823d92ad757a6b Merge branch 'fixes' into for-next
-         832aa41ea9ee11b676b02f338bee4580f8c3207b Merge branch 'range-checks' into for-next
-         57d12723bd7254fe9a876b793fbf79441c160e19 Merge branch 'kernelcore-mirror' into for-next
-         aa4f271c67dce8a0631a652db02f24dc64db24d9 Merge branch 'numa_memblks-redundant-work' into for-next
-         a000f52cffe0e577ff4519cc2c23e073278b9c7f Merge branch 'misc' into for-next
+         2c91169377f44e2f2b0b79bc0365f0722987a650 sched_ext: Blame the DSQ's owning scheduler for a runnable stall
+         5f860e647de21269c3b7f03be9d892d6af46b972 sched_ext: Skip the default CPU selection while bypassing
+         8cc4909134f290fdf0a1848cf3e109d015918f09 sched_ext: Drop unused scx_cpumask_to_cmask()
+         3a773220d39ba993dfe5d135f8b610be10794d5d sched_ext: Build the cid tables privately and publish them with RCU
+         
+  - ref: refs/heads/for-next
+    old: 1e19817b64f55111d13bdec9bae29e99affb19e9
+    new: 59dae29d744187b2edfeb6eb0a28be5f17927dd0
+    log: |
+         2c91169377f44e2f2b0b79bc0365f0722987a650 sched_ext: Blame the DSQ's owning scheduler for a runnable stall
+         5f860e647de21269c3b7f03be9d892d6af46b972 sched_ext: Skip the default CPU selection while bypassing
+         8cc4909134f290fdf0a1848cf3e109d015918f09 sched_ext: Drop unused scx_cpumask_to_cmask()
+         3a773220d39ba993dfe5d135f8b610be10794d5d sched_ext: Build the cid tables privately and publish them with RCU
+         59dae29d744187b2edfeb6eb0a28be5f17927dd0 Merge branch 'for-7.3' into for-next
          
