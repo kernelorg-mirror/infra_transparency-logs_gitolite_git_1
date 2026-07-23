@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Jul 2026 15:18:51 -0000
-Message-Id: <178481993134.2060332.767767480926831437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 23 Jul 2026 15:21:20 -0000
+Message-Id: <178482008072.2065284.12453229096092209467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: fd3a3f28ed60c6af4b2a39933b151d6b27842c3b
-    new: 9857fc06eb6f7eef3526691ee8f9358ce55ae676
+  - ref: refs/heads/master
+    old: 9684d2e8dc13f9199b6ba32adecde4da2fcc5e4e
+    new: 21191794fd01193ec8213470530e93648afd0b1f
     log: |
-         3a61bd9637f3d929aa846e4eb3d98b48c26fcb0e vxlan: require CAP_NET_ADMIN in the device netns for changelink
-         8efb8f8bbb353b8f2fdf4f37534c6d96c9f69e01 geneve: require CAP_NET_ADMIN in the device netns for changelink
-         9857fc06eb6f7eef3526691ee8f9358ce55ae676 Merge branch 'vxlan-geneve-require-cap_net_admin-in-the-device-netns-for-changelink'
+         f90428f1c31d00c91a97804d9369a0afa1b20335 KEYS: trusted: dcp: fix key_len validation and calc_blob_len() return type
+         da755c0520582af97e6b59da0a30f437d9c4222b keys: fix out-of-bounds read in keyring_get_key_chunk()
+         519eabf5025cf6da2993a042e26d13b4f3b73582 keys: make keyring key-chunk byte order agree with keyring_diff_objects()
+         0c36aacde99df7696c8e0252614cf9680ba5a0f8 assoc_array: trim the final shortcut word using the current chunk end
+         ae1b44f203ddcc919def4b9f0bb183856147b4ba tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
+         d1791d02e99633ebd4cc230946dbaa71fcca43e2 tpm: Remove redundant dev_err()
+         21191794fd01193ec8213470530e93648afd0b1f tpm: atmel: depend on X86
          
