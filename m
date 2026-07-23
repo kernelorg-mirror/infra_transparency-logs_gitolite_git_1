@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 23 Jul 2026 12:21:28 -0000
-Message-Id: <178480928845.1928935.16883453422598270546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 23 Jul 2026 12:22:00 -0000
+Message-Id: <178480932052.1929367.18379232374006969553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/stable/v2.42
-    old: f6fea9738456699ba6a3f894f8639cb6be718725
-    new: 84796d917bcbad37aecfdadf36d71fee5b356efd
+  - ref: refs/heads/wip/leon-for-next
+    old: 652befcba956ef357f480525ccbe25c59bc81d4d
+    new: 1773ca1a8912ccad9e7de458413aef9ab42ec5d9
     log: |
-         84796d917bcbad37aecfdadf36d71fee5b356efd lscpu: remove mmu reference not available in stable/v2.42
+         1773ca1a8912ccad9e7de458413aef9ab42ec5d9 RDMA/mana_ib: return PD number to the user
          
