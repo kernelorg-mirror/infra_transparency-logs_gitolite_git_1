@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3714061337502377735=="
+Content-Type: multipart/mixed; boundary="===============3783172168407009586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 23 Jul 2026 17:23:11 -0000
-Message-Id: <178482739132.2165503.15418869726443178782@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 17:23:53 -0000
+Message-Id: <178482743372.2165789.543676026309291914@gitolite.kernel.org>
 
---===============3714061337502377735==
+--===============3783172168407009586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: d2cc1d2dd6c52fda38f9a5ef2d5eb2acc5274473
-    new: 3281d377094b613fa93a43a0d63be782847cb5db
-    log: revlist-d2cc1d2dd6c5-3281d377094b.txt
+  - ref: refs/heads/export-net
+    old: a7db0f8a3d614ccf94c7dbf8c5d3c23ba350d7d0
+    new: 3948e1fef1746b7568f3c31cd8059694a62a04d0
+    log: revlist-a7db0f8a3d61-3948e1fef174.txt
 
---===============3714061337502377735==
+--===============3783172168407009586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2cc1d2dd6c5-3281d377094b.txt
+Content-Disposition: attachment; filename=revlist-a7db0f8a3d61-3948e1fef174.txt
 
 dad9f96945d77ecd4708f730c06ef54dcd8cc057 wifi: ath9k: hif_usb: don't dereference hif_dev after re-arming firmware request
 ba7debb4dd6427386862220e8335a53a4bfc235d wifi: ath6kl: fix use-after-free in aggr_reset_state()
@@ -112,97 +112,37 @@ bd8b2ec838184236c3fcbf738a926328836adf12 wifi: mt76: mt7925: fix crash in reset 
 2fffc472bec490c8357defcee9c075ca74467352 wifi: mt76: mt7996: fix possible NULL-pointer deref in mt7996_mcu_sta_bfer_eht()
 2afc33c5384817df3696ecb79b069ea01a0a92f2 Merge tag 'mt76-fixes-2026-07-22' of https://github.com/nbd168/wireless
 7cb34f6c4fe8a68af621d870abe63bfca2275dd6 wifi: brcmfmac: fix 802.1X-SHA256 call trace warning
-5329647dad1bdb512e36905d0ae6a817b64f7f52 net: Use helpers to get/set UDP len tree-wide
-842870cdfa33b9191b46484a3264bd5126a90570 net: Enable BIG TCP with partial GSO
-47282504ad219d10a30d8b38a68a6697494d2d12 udp: Support BIG TCP GSO packets where they can occur
-efbc1aa8ed54d1f48d2855f8cff0017429531331 udp: Support gro_ipv4_max_size > 65536
-8475a3efe6e64c1136c3f2bb87294c072b95b7c1 udp: Validate UDP length in udp_gro_receive
-99ad24516295c170e968c4df5679846334d35aa9 udp: Set length in UDP header to 0 for big GSO packets
-f3d0f753f06665e1981936dfe343d89d6dda9f0f vxlan: Enable BIG TCP packets
-03ebe91b0f61536eeef834e3c08bbd83dc33b7c0 geneve: Enable BIG TCP packets
-5cb53743e1ff3a2e0eac415412c724b78c5f047f selftests: net: Add a test for BIG TCP in UDP tunnels
-4d3365d5d3283010a5d8ab44f568d65e75a06629 Merge branch 'big-tcp-for-udp-tunnels'
 3656a79f94c471827a08f2cacce5f94ad5e52c24 amt: re-read skb header pointers after every pull
 53969d704fa5b7c1751e277fac96bfc22b435eac amt: make the head writable before rewriting the L2 header
 06ec76fa534a2330fecb66deaa09be4db7ac620c Merge branch 'amt-fix-use-after-free-of-the-skb-head-across-pulls'
-ffdc1ee2d6d6f7554426f9d11cbcb0a32f324173 seg6: add FIB table attribute for post-encap SID route lookup
-1016a547c6851cde2f5f57f173cba08153e3bcef selftests: seg6: add test for post-encap SID route lookup
-40c705961d498f97b94b43db3eb046a2037a0e2d Merge branch 'seg6-add-fib-table-attribute-for-post-encap-sid-route-lookup'
 14fa65d10f5696b063a7d8d26e8291ea84a2c6ed net: hip04: fix RX buffer leak on build_skb failure
-f5cfb576ce39ba5647024c6d6eeb5b7a822fab6e net: libwx: disable TX VLAN offload for packets with >2 VLAN tags
 fec15bb3dab0c88dd513a5198173de66f830f289 Merge tag 'wireless-2026-07-22' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-0b577e2fe06c023ab996c3d7684538dbbf6e99bc net: dsa: realtek: rtl8365mb: add SGMII support for RTL8367S
-987137345f3312fd68cc9c11bd46b754bfb0046f net: dsa: realtek: rtl8365mb: add HSGMII support for RTL8367S
-fcaf2221b9703af2f2285fad1a13a4171b8368dd Merge branch 'net-dsa-realtek-rtl8365mb-add-sgmii-hsgmii-support-for-rtl8367s'
 9a67bbfe48ee5289a4be3f4020cd542b74122c60 Merge tag 'for-net-2026-07-21' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 9545fef46d363cdcd63da63259b6d48ebb586024 MAINTAINERS: add nci tests to nfc
-24d0af194bcca043bd82f8a0842a051cdde266ee geneve: fix geneve_config leak on register_netdevice() failure
 43171c97e4714bf601b468401b37732244639c21 net: bridge: vlan: fix vlan range dumps starting with pvid
 679eb1e32d2cd1707de4984ca1b6e68f3d8da1ac selftests: net: bridge: test ranges with PVID VLAN
 3cdb9f88e35dfca7d63f77fc088869bcecbc72de Merge branch 'net-bridge-fix-vlan-range-dumps-starting-with-a-pvid'
 dcf15eaf5641812f1cfc5e96537380132a7da89d net: hsr: fix memory leak on slave unregistration by removing synced VLANs
 da2c6bcc5e30b1496ac587785dcacf6e849eb6ef net: dpaa: fix mode setting
 59a57128ae5231f9aa9d544fa9d3e38986f0efaa net: stmmac: dwmac4: mask interrupts when stopping DMA in suspend
-d6587d0c0f3d6ffe0be9ddc5569f0e4b1bb2ef7b selftests/net: Test PACKET_STATISTICS
-1451e5302941988cc2da2d2c0bc3e2f7b9f93451 selftests/net: Test PACKET_STATISTICS drops
-707f5c2de0469c76693a02af136929dece809056 selftests/net: Test PACKET_AUXDATA
-88f380ef2304db4c68bc4bf14fc6c1604f6dd15c Merge branch 'extend-packet-socket-selftests'
 dcd9b465965422b9654f6026e8a2fa8984f74c3c vxlan: mdb: Fix source list corruption on a failed replace
 8e04823c120b376ef7dab14b60ebf6823aa16c14 sctp: auth: verify auth requirement when auth_chunk is NULL
 34a71f5361fc3adb5b7138da78750b0d535a8252 vmxnet3: fix BUG_ON in vmxnet3_get_hdr_len() for Geneve packets
 92d3817649df2b0b6a008a686c8275c88d7ef594 ila: reload IPv6 header after pskb_may_pull in checksum adjust
-886f928a7849446f2dec127adc9ffe3b505172a3 dt-bindings: net: dsa: mediatek,mt7530: add econet,en7528-switch
-cf23fcc9437e5c383d9f282197d580a5a3fd6e6e net: dsa: mt7530: add EN7528 support
-a65340168529ea122a364062500b30eebfefbffb Merge branch 'net-dsa-mt7530-add-econet-en7528-built-in-switch-support'
-65f1820835f382de93857e0933915645b0b3669a net: mdio: Kconfig: Group mdio controller drivers in a submenu
-8a48eb846f7e2cf819495db8a6b194a1ad0e95fb net: mdio: Kconfig: Group mdio multiplexers in a submenu
-93902b441b6d7f59cc5f69c0d2c99a68ae99ad42 Merge branch 'net-mdio-rearrange-kconfig-menus'
-42310a24389c1bdda82e4c30750a6b72e98238d1 net: phy: motorcomm: Enable optional clock for YT8531
-1df10cef2d1e7f9f2fb7eddb67fc70d3abf101f9 net: sxgbe: fix null pointer dereference in probe error path
 f43ee0c0730d6191629b5ee1ceae27b1ebfdc047 net/sched: serialize qdisc_rtab_list against concurrent get/put
-307d6f4b3c919046f3cf1ae3a5a85e44b5f56913 DO-NOT-MERGE: git markup: net
-31743717a2aa8d2ba8864fbacc81bad66e2f6a7b DO-NOT-MERGE: git markup: fixes other trees
-86273574b852c48f7591e9ce4bb5182985a2a5f5 mptcp: fix stale skb->sk reference on subflow close
-0f61d04d6472164153e1f6af3b1c7b6ec76938d0 mptcp: fix BUILD_BUG_ON on legacy ARM config
-e6b986932211e027329fcf645c711fcf07bbbad2 mptcp: decrement subflows counter on failed passive join
-9218e51e20c6653585f7383f90cc63922c852b0e selftests: mptcp: userspace_pm: fix undefined variable port
-514bb82db134937d471ae156e27c77c96e3352e2 mptcp: pm: userspace: fix use-after-free in get_local_id
-ebdfc554d9822f7537e719111be1bb14292a1eae mptcp: fastopen: only mark MPTFO subflows with SYN data
-2437f1ec45d0a19a0c8c7478eee4229d6ab62166 DO-NOT-MERGE: git markup: fixes net
-8d16274c5655c0b681d1c0808cf351839cc0f5e7 DO-NOT-MERGE: mptcp: add CI support
-f95d59529bf592e828515fc5ce9ff79b0877153a DO-NOT-MERGE: git markup: end common net net-next
-0a7d8442d7228e0d3bb6e2b59773522e245418e5 TopGit-driven merge of branches:
-d022af5f753150a44f60673921755d2b237f4b9f DO-NOT-MERGE: git markup: net-next
-358824dff2efd227c880603a17f795fc3ba7daec DO-NOT-MERGE: git markup: fixes net-next
-c2921254d52c40280314f0ac3411d32d7f1c0af4 mptcp: pm: init and release mptcp_pm_ops
-96fb437d093dbb848c4ddf41c6fdf720bb54f111 mptcp: pm: add get_local_id() interface
-a565db0041d43e02e23c3398519b2d7bd0ac80de mptcp: pm: add get_priority() interface
-ee8d9d30e4946ebcee6f6ce1cf1b1d1765746fd2 selftests: mptcp: connect: test name in pcap file
-f18afb44a32ba83d6621c7b3743de69fa6c4a3ec selftests: mptcp: simult_flow: test name in pcap file
-5945a954d8c1bb7f5c024427bd4ff90e5a29ef44 selftests: mptcp: pcap: drop most of the payload
-ede7539028d3fa6ba9cd6dc8ff9c475ae1ef805f mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-7e5bc92b949c801be25f26e3871c8563748c3a20 mptcp: remove unused data_ack from struct mptcp_ext
-9b473cb13f48895461fa4e1befd9b5bb7b30c687 mptcp: move the retrans loop to a separate helper
-7f6865a6020521729841b0a368b11829e8559a63 mptcp: let the retrans scheduler do its job
-6b160354b6fcca2128892fa0fb3599f36e2e39a5 mptcp: explicitly drop over memory limits
-72750dfa21ac32476859d2f3d89525c69a2d7aeb mptcp: enforce hard limit on backlog flushing
-04ccee2c95c1045ea53e2b9423c2d72b7172b175 mptcp: implemented OoO queue pruning
-aea54945f9e039ca2f2cbb73163d03f9c0c4f70f selftests: mptcp: fix const qualifier warnings in strchr usage
-43a23627bbaf11e165182dd1bb21d72cb66068ac DO-NOT-MERGE: git markup: features net-next
-d120c1482ae536e7c704b2b42cf8ff8d184d6189 DO-NOT-MERGE: git markup: features net-next-next
-813c78b60d7a52caeaa45a77cfaf27153fb16639 bpf: Add mptcp_subflow bpf_iter
-41fb6f741db8a656e2ecea578e8c84b3a8d89ff9 selftests/bpf: More endpoints for endpoint_init
-759e77df708eed1372221651a7f164818f44acce selftests/bpf: Drop cgroup_fd of run_mptcpify
-d0471862b61449db8b1d2c18bac5e0faea815744 bpf: Add mptcp packet scheduler struct_ops
-dff465bcdd7fda0d2f0b0f636cbedc44cc086ded bpf: Export mptcp packet scheduler helpers
-4071e777f2f95bfd53485f6fb5d5c33ef0b1f60a selftests/bpf: Add bpf scheduler test
-1280a6f01d511680c7ae3b60df66440f22fbbf67 selftests/bpf: Add bpf_first scheduler & test
-3b2be7af913b3a7b87e5fb2560b6c6cb0e0b8ef3 selftests/bpf: Add bpf_bkup scheduler & test
-bdf8228d2d016e5850ab414b4948450534c8e532 selftests/bpf: Add bpf_rr scheduler & test
-ae5f92a0af294db68219ff4061b849db160f5cba selftests/bpf: Add bpf_red scheduler & test
-d743054813387e9c057417cc8a24b38793ea17fd selftests/bpf: Add bpf_burst scheduler & test
-642e2383d3dc9f023d6ea9358c765c698073df24 DO-NOT-MERGE: git markup: features other trees
-60bfc9003e58a1e992364f1c13a26ba24e339b06 DO-NOT-MERGE: mptcp: improve code coverage for CI
-3281d377094b613fa93a43a0d63be782847cb5db DO-NOT-MERGE: mptcp: enabled by default
+98711808c142e6429793ac87f9eaf858b08d2ce6 DO-NOT-MERGE: git markup: net
+f9bbb501582498576a2c0852b845b892b2de9c41 DO-NOT-MERGE: git markup: fixes other trees
+b6cdcaeca389f80879464aaf677313df82d62af5 mptcp: fix stale skb->sk reference on subflow close
+5b16e06fee430fe0ff8fd061acc0f90087116b65 mptcp: fix BUILD_BUG_ON on legacy ARM config
+ca435757644dbb75f68e1e8c83934089fff1e2c0 mptcp: decrement subflows counter on failed passive join
+106a2a456f4d299354be807dc9d6a189988a1207 selftests: mptcp: userspace_pm: fix undefined variable port
+06d1ef1a64796b1da570c8fe85ea287ef040f8c1 mptcp: pm: userspace: fix use-after-free in get_local_id
+7a648ce7dcc91533612aa183bfc38e966d65041d mptcp: fastopen: only mark MPTFO subflows with SYN data
+96227c35c7bbf2ae3c2cc5c490e73f1b2c4797cd DO-NOT-MERGE: git markup: fixes net
+9ec9dcaab88ae8a04ea961f196b17321c5f7a500 DO-NOT-MERGE: mptcp: add CI support
+d33624699e4f9cf8fe1ac19985089673daa9df47 DO-NOT-MERGE: git markup: end common net net-next
+3e4e3118a063db84d0d15819b4f09943060fa70e DO-NOT-MERGE: git markup: fixes net only
+a42a13b606cc68a57e59036451fee84f85d024d3 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+3948e1fef1746b7568f3c31cd8059694a62a04d0 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============3714061337502377735==--
+--===============3783172168407009586==--
