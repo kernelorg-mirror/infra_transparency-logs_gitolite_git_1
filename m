@@ -1,41 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 23 Jul 2026 17:53:59 -0000
-Message-Id: <178482923984.2190273.11284983362696310066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Jul 2026 18:02:20 -0000
+Message-Id: <178482974063.2197305.12710427692262256146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: adea84ee6cdea611146c4251d3c1616f5a09feca
-    new: 7d971337ebfad0b173cb46097c709db174ac3557
+  - ref: refs/heads/main
+    old: 234e5e898b713bc0b3a631b6f002897f43d046c8
+    new: 6a8da869fa338e008533dd6385a0eb35dee6acf4
     log: |
-         c83e79c0842ed29860648bcce5022ef0ba5001c6 Input: byd - synchronize timer deletion before freeing private data
-         ad1d940efbf13fba516821f3d00fbd34a26e289e Input: edt-ft5x06 - ignore contacts with an out-of-range slot id
-         7d971337ebfad0b173cb46097c709db174ac3557 Input: xpad - add support for ZENAIM LEVERLESS
-         
-  - ref: refs/heads/master
-    old: 3ed4ba919eb35860ee1867e2851ee3e6f9fe37f5
-    new: d6b0c1c2f3e8d8bd7b6f60b02cc7a37bff117fa6
-    log: |
-         a1445ec0be7411f4c76458873ef7456b02688f63 Input: snvs_pwrkey - make use of dev_err_probe()
-         7ef54727f5a2deef5c59623f0685056b2e8a1676 Input: snvs_pwrkey - propagate error code of platform_get_irq()
-         5a040cd37f397060e6ec8d6894ed0075859ff5cd Input: snvs_pwrkey - use local device pointer to simple code
-         29fb42d56f1d8c10dd26e3f8410a825b6905dbc3 Input: snvs_pwrkey - add press event reporting to avoid event loss during suspend
-         d6b0c1c2f3e8d8bd7b6f60b02cc7a37bff117fa6 dt-bindings: input: focaltech,ft8112: Add focaltech,ft3d81 compatible
-         
-  - ref: refs/heads/next
-    old: 3ed4ba919eb35860ee1867e2851ee3e6f9fe37f5
-    new: d6b0c1c2f3e8d8bd7b6f60b02cc7a37bff117fa6
-    log: |
-         a1445ec0be7411f4c76458873ef7456b02688f63 Input: snvs_pwrkey - make use of dev_err_probe()
-         7ef54727f5a2deef5c59623f0685056b2e8a1676 Input: snvs_pwrkey - propagate error code of platform_get_irq()
-         5a040cd37f397060e6ec8d6894ed0075859ff5cd Input: snvs_pwrkey - use local device pointer to simple code
-         29fb42d56f1d8c10dd26e3f8410a825b6905dbc3 Input: snvs_pwrkey - add press event reporting to avoid event loss during suspend
-         d6b0c1c2f3e8d8bd7b6f60b02cc7a37bff117fa6 dt-bindings: input: focaltech,ft8112: Add focaltech,ft3d81 compatible
+         f3ca0ee2cc308e33896536789cbc5f3a12ca7b30 mptcp: decrement subflows counter on failed passive join
+         9bc6d5e4ca9f3cbb41d43400b3a31cb0403796c9 mptcp: pm: userspace: fix use-after-free in get_local_id
+         bd7aae448f6ee9d82599a4474664de1e6e91a535 mptcp: fix stale skb->sk reference on subflow close
+         e3213292c4fd69ba442c6ed4693f91a92b753140 selftests: mptcp: userspace_pm: fix undefined variable port
+         133cca19d75b9264bc2bbcdf2c3b80e3da207649 mptcp: fix BUILD_BUG_ON on legacy ARM config
+         1d4da823b75e5774161951764cbad75cb6e6a75f Merge branch 'mptcp-misc-fixes-for-v7-2-rc5'
+         5e9c8baee0329fbefe7c67aea945e2a07f15e98b net: drop_monitor: fix info leak in NET_DM_ATTR_PAYLOAD
+         7089f7ab99c89f443c92d8fcc585e63f2727f0b3 drop_monitor: fix size calculations for 64-bit attributes
+         fd098a23bf8fda7eae48db9b06e7c34fc4d228fa drop_monitor: perform u64_stats updates under IRQ-disabled section
+         6a8da869fa338e008533dd6385a0eb35dee6acf4 Merge branch 'drop_monitor-take-care-of-32bit-kernels'
          
