@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 23 Jul 2026 00:56:08 -0000
-Message-Id: <178476816846.1384316.7110937663599807112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tyhicks/ecryptfs
+Date: Thu, 23 Jul 2026 01:00:05 -0000
+Message-Id: <178476840530.1387742.13928611793059355614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tyhicks/ecryptfs
+user: tyhicks
 changes:
-  - ref: refs/heads/master
-    old: 4efcc9b62995697cbf42cdb066349140dda02ebe
-    new: 49453fe19f337bf2c7a97e4b999837e5061a888d
+  - ref: refs/heads/next
+    old: 21a6287ae2489426d23979e2213033dd204aa9fa
+    new: f81cb44f9a4b88d73ee5dec4a1ccdb0232fd2e3f
     log: |
-         dd7991120c18aba21ceacff1521861c2524e1c8f foo
-         a9753f0bd64f5fdd6b12f080d3e3a9335f73e5a4 foo
-         49453fe19f337bf2c7a97e4b999837e5061a888d foo
+         f81cb44f9a4b88d73ee5dec4a1ccdb0232fd2e3f ecryptfs: ecryptfs_kernel.h: clean up kernel-doc comments
          
