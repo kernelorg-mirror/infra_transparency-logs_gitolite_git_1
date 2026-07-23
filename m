@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 23 Jul 2026 20:02:41 -0000
-Message-Id: <178483696190.2285573.5616921386154133284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Thu, 23 Jul 2026 20:05:12 -0000
+Message-Id: <178483711258.2288480.6314361615536505542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: f3783a591419ad74afe0beb0b81bca249b20d90b
-    new: 3cb7d5c92bd0f4298265b7f2a3ef61770f04ee57
+  - ref: refs/heads/next
+    old: 1715cd1303c703e73115e2f7bac7e01b9ca84049
+    new: d5023a40233adcdb5e1a8e4e4a1f1d90c95fc0b4
     log: |
-         6f99efb115269b822d9a13139fbdfbd4b5ca6739 spi: dt-bindings: nxp,imx94-xspi: add DMA properties
-         38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720 spi: nxp-xspi: Improve AHB read performance with DMA
-         3cb7d5c92bd0f4298265b7f2a3ef61770f04ee57 Merge remote-tracking branch 'spi/for-7.3' into spi-next
+         898eb46beba95c3e2fd90673fa8bbce41d0abefb audit: fix potential integer overflow in audit_log_n_string()
+         d5023a40233adcdb5e1a8e4e4a1f1d90c95fc0b4 Automated merge of 'dev' into 'next'
+         
+  - ref: refs/heads/stable-7.2
+    old: 65dfde57d1e29ce2b76fc23dd565eccd5c0bc0f0
+    new: 898eb46beba95c3e2fd90673fa8bbce41d0abefb
+    log: |
+         898eb46beba95c3e2fd90673fa8bbce41d0abefb audit: fix potential integer overflow in audit_log_n_string()
          
