@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8089211472348967323=="
+Content-Type: multipart/mixed; boundary="===============7347787181051949518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 23 Jul 2026 08:35:14 -0000
-Message-Id: <178479571466.1717727.15819703578982072162@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 08:38:43 -0000
+Message-Id: <178479592320.1719228.2298006943378387186@gitolite.kernel.org>
 
---===============8089211472348967323==
+--===============7347787181051949518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 80574c40598aedbc1751c528e414d7e224bc6313
-    new: cae6572efdd0948a7b676b3c5a7cebf9483bc781
+  - ref: refs/heads/usb-linus
+    old: 71132cedd1ecbc4032d76e9928c18a10f7e39b80
+    new: fb0bf289f5d529336ef490c8273e88a8a8b29f69
     log: |
-         205dc9cb39f52150861ed5adaad90274389d19cf usb: typec: tcpm: implement retry mechanism for Discover Identity VDMs
-         913910ed36ba14354ea6e1d4978e2e4c14c3df28 usb: gadget: f_mass_storage: Remove obsolete version log
-         a29496745aa335d97f617385809583241e118610 usb: core: Strengthen error handling in hub_hub_status()
-         cae6572efdd0948a7b676b3c5a7cebf9483bc781 usb: core: reformat error handling and messages
+         fb0bf289f5d529336ef490c8273e88a8a8b29f69 usb: typec: ucsi: Correct teardown ordering in ucsi_init() error path
          
 
---===============8089211472348967323==
+--===============7347787181051949518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784795705 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784795914 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1784795712-9469b84ae21d6a0f84b10251ea2a4885cecda59e
+nonce 1784795921-69a2d438c8108b946d7c182b6b32cee5a5c2cddd
 
-80574c40598aedbc1751c528e414d7e224bc6313 cae6572efdd0948a7b676b3c5a7cebf9483bc781 refs/heads/usb-testing
+71132cedd1ecbc4032d76e9928c18a10f7e39b80 fb0bf289f5d529336ef490c8273e88a8a8b29f69 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmph0jkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FOQP/Aj/VCDuh+7xvc/K1eb0
-xBCfivDGOwlW+T1o4c71OXyPRDCHt1+9R2tHQlqQ0AKsr7IIpvP8SEyRvDI4eIW/
-x1mGZ+YvGZ1a2yyAEISSxbk6JCG6WJO6X5gVCLZSfw4k41XpWi5vJbbG1zRnUN/b
-ZyJz2zwjeNYP9huCkJhwjqnVH5/L5vgIIsWBW/htsoccxU3r8370aLcpuS0IjYa4
-MCO4YbnkmpMYf96LuOw+ex405VEryEIXqRlNC/D+qEk9rEPy5o/hC4IpLjvnSDsm
-yNzBV6Q/4kUFuZvDWgsWsL1jnCLkdwWjax/T1HorDaCZdo3gedLbS/q8JiUeJF7a
-Aaz4Zv8f9C05fJsCWw9euA3Tdb5FFkdd9JL4rCBRfbhXxJheaUd/SI6fOhz1HgWO
-VC7GVM+Dv6Tk7FDcM4AdfKnWjRNtz58h3ikkO7RxBUZUNZ51CHcV4Lg2H+8Aiqf0
-7DucuqQUkbL9/ebITp0t0UjBLL6cpS81U26cV55XO0k2u9vmtMaQ4CDfB9hh/6r2
-0JMKsR2I8k+bn0hCu3Oj4DaooVoerqBErzxHwMiBYDy68ayR3z0l2bcZPPv/Jn7M
-97frYGrvbMUpKo2NpGYOirDy6KTYO+e2OoJ5imoW5J55wS5Z86cTpZ0Nv+HCdsfM
-BlrVfzFWPWXx37pTeJPoZJ03
-=EQxz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmph0wobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+enEP/iDlmT8pNpyMqaCvEFiz
++sQ23h2VU7MRJbsepenWRy0Nb9AlqPf2C5+ixqnLmXZx8+tEpN4+eZfS2Q7eOyrr
+Ude4OAHEzO6rPy6MgJS/w2flnZK+zPFQzhtGhqbikStjNrpq/6DiZwg0Uh1N/Rdb
+gmrAdaDD59lM4QKedf40BLe+5FHN5omCZGTeN28JNcZ9WW6roM7LHt2PWT9FKUYi
+oZsS8hZY/2NGkEvdpXEu5PMzKZccoMdiOOxx+i9TzesNKq6HV86kq6rRXhMHq3Xr
+ijwfWv3PZMKJpZZwv6rlFt2P6SPjJLfv+2woofGTYeDzWysYyK+Y+k0AvhVbKCho
+QI5vlWFlhqjYzWn4m/8fHoOoxhPnFJhDZ5FifdtW8NNGHhhX11JiGZiLAc7y17Gs
+jEGYkFO1+/l7EAfelotluCEf0w6uK464iRYVmSsQvYd1h4DnW2ThIRmIczf5WZp6
+dVv+PbOvneJ/EK7hvFb2d/f9c9/RStA5NmUkFVxDFaP28xywKRcUGd775H6rKiTF
+PKSszwyn2VDhcW//XjM9CQcLS47oCSVcUYUflis2GZoru+VilQDG2iAaL7fqwVpE
+RP5nUX5F+fPrgBerXlQLbJXinttdIp7vHrmfe/qc1/Dk/62zylVtnLnaWdPCj7tz
+PIgEFo2swYM8+uIMt7gL+HuP
+=qlhN
 -----END PGP SIGNATURE-----
 
---===============8089211472348967323==--
+--===============7347787181051949518==--
