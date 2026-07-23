@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 23 Jul 2026 00:31:48 -0000
-Message-Id: <178476670877.1366858.1610983390798389571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 23 Jul 2026 00:51:27 -0000
+Message-Id: <178476788785.1380654.10289079736065910159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/seen
-    old: 1de6988cee58e249e3bacf2de8aae6621b839b9a
-    new: 2930bac3630380e06a13558d2f0658e30ee9c691
+  - ref: refs/heads/sashiko_edac_fixes
+    old: bdea2351533a6f6706bc51d8ed3ca1d336251d08
+    new: b00b0d80d01576daf7928a0110c04a0b57a98cff
     log: |
-         08b12d90cde7a833221e132b1b2b7a9c724af234 fsmonitor: flush pending FSEvents before cookie wait
-         22daa8142ff7587688f65bd0a77ab98be674b61b submodule: resolve insteadof-aliases when matching remote
-         96213771dbfee8204182e432a54b0b059758e88b Merge branch 'en/submodule-insteadof-remote-match' into seen
-         d2c9b366aeccce1777c38cb9e597e6c5cc610d6c Merge branch 'td/fsmonitor-darwin-cookie-flush' into seen
-         47382f7398df0c8509c30aac6aafa75272099ca5 revision: honor --exclude-first-parent-only with SEEN first parent
-         2930bac3630380e06a13558d2f0658e30ee9c691 Merge branch 'jc/exclude-first-parent-seen' into seen
-         
-  - ref: refs/notes/amlog
-    old: 765461b8380e59c484c40a986d16bfd8f4783120
-    new: 6396bdd81ffbc8367c0a013ae7b8c981cccdcb2e
-    log: |
-         4aed3b7e76805a62a6a56a99d9f3864bc2edca48 Notes added by 'git notes add'
-         6396bdd81ffbc8367c0a013ae7b8c981cccdcb2e Notes added by 'git notes add'
+         0896a92918c392c8e4c28d2c579e851ad0ee8082 EDAC/altera: Fix code leak on dci allocation failure
+         f9ea40c6d14d6589fd6ebda5714186e93fa2471f EDAC/altera: Add remove callback for Arria10/Stratix10 driver
+         3b24ebbdacb948ec22d6af318d8b2ec870b14bbb EDAC/altera: Guard db_irq against out-of-range shift in DBE handler
+         b00b0d80d01576daf7928a0110c04a0b57a98cff EDAC/altera: Drop __init from ECC setup paths for re-probe safety
          
