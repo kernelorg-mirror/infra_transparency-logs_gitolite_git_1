@@ -1,30 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8021064463740576666=="
+Content-Type: multipart/mixed; boundary="===============7056485226565064133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Jul 2026 03:26:07 -0000
-Message-Id: <178477716776.1495867.14381141421605212663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 23 Jul 2026 03:45:00 -0000
+Message-Id: <178477830034.1507512.9026607503065975179@gitolite.kernel.org>
 
---===============8021064463740576666==
+--===============7056485226565064133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/ras/core
-    old: b90d398138ab3088d168cacb2c3d5248feaa1ef7
-    new: b0fa123835c147e77b9a967de76dc899062bd405
-    log: revlist-b90d398138ab-b0fa123835c1.txt
+  - ref: refs/heads/for-next/execve
+    old: 9bf092c97b86af63694d9902b9e14047214ba76d
+    new: ab11176bd3a76058ecafd066d0f9c718dc80f389
+    log: revlist-9bf092c97b86-ab11176bd3a7.txt
 
---===============8021064463740576666==
+--===============7056485226565064133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b90d398138ab-b0fa123835c1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1784778298 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1784778282-82307c660a458f421d4b3a62b81f05d4866ceee6
+
+9bf092c97b86af63694d9902b9e14047214ba76d ab11176bd3a76058ecafd066d0f9c718dc80f389 refs/heads/for-next/execve
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCamGOOgAKCRA2KwveOeQk
+u4L7APwMhWugpSM+beEgPDfAw27oRa4ZTaVMXSFd0B4gjuBRrwEA+u7/ZPsj52CF
+rItCdVpYS3jpUKD2GgVKP+2Z1PXPpQ0=
+=eMrl
+-----END PGP SIGNATURE-----
+
+--===============7056485226565064133==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9bf092c97b86-ab11176bd3a7.txt
 
 9068c631d5af20000d873e4f299fa0bac4e294d9 gpio: tb10x: fix struct tb10x_gpio kernel-doc
 faaa1e1155833e7d4ce7e3cfaf64c0d636b190db drm/edid: fix OOB read in drm_parse_tiled_block()
@@ -1049,6 +1070,6 @@ fe5881ed7293813e492ad165292ae652b676ff6c Merge tag 'locking-urgent-2026-07-05' o
 c10dc5c03e17a9502325f3f49721a6058d162048 Merge tag 'perf-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f105f3631d51e8d7c49bf18ec21b873e4f38e648 Merge tag 'x86-urgent-2026-07-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8cdeaa50eae8dad34885515f62559ee83e7e8dda Linux 7.2-rc2
-b0fa123835c147e77b9a967de76dc899062bd405 x86/mce: Document the mce=print_all command line parameter
+ab11176bd3a76058ecafd066d0f9c718dc80f389 x86/elf: Correct comment for STACK_RND_MASK()
 
---===============8021064463740576666==--
+--===============7056485226565064133==--
