@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Jul 2026 17:27:03 -0000
-Message-Id: <178482762327.2169181.16838905239357743181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Thu, 23 Jul 2026 17:27:09 -0000
+Message-Id: <178482762933.2169431.2065453098734639776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/main
-    old: 47f42ff521b4eeb46e82f9a46a4783a99f7570d7
-    new: b9e558976bb968162c35ddccdb076a77fc906993
+  - ref: refs/heads/next
+    old: a47ab1b9c0827f5bd6717abb3f9e3f4f6eb5e00c
+    new: 4a2610a5a9fcf77eaad82bb030ec77ec5e381db8
     log: |
-         b9e558976bb968162c35ddccdb076a77fc906993 bnge/bng_re: fix ring ID widths
+         01f41f5fd823fb70a2f28ea87f6cf85a268ef8b9 wifi: iwlwifi: regulatory: add LARI v15 DSM support bitmap
+         4a2610a5a9fcf77eaad82bb030ec77ec5e381db8 wifi: iwlwifi: bump core version for BZ/SC/DR
          
