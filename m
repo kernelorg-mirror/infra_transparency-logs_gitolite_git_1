@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Thu, 23 Jul 2026 16:29:37 -0000
-Message-Id: <178482417798.2121414.10406038378815134361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 23 Jul 2026 16:30:54 -0000
+Message-Id: <178482425493.2123778.1479813335886064187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 19b697e8867c02ae856117d72cac11ef54eaed54
-    new: 9fd394ee5ff1d04d74aedc7033a95b2abee2a31e
+  - ref: refs/heads/libcrypto-pending
+    old: 59e944452d4817ae8bf5b8eea590df2e92e1b448
+    new: 6d22ec26295c1412d765e3d687e46224fc332928
     log: |
-         4bcba49984ff8c77729f003dd32082b10c02c23b clk: sunxi-ng: mux: fix determine helper rate propagation
-         7bbbfcd4e4956a126b9599bd8aa316cf0c63c8ed clk: sunxi-ng: div: add read-only operation support
-         176184e7f799fc18fe9cae63e21d7b16b41a0d59 clk: sunxi-ng: sun6i-rtc: split main oscillator div and gate
-         0a136efc0fc2d53b1b1389b3c3fb0f76edca38bf clk: sunxi-ng: sun6i-rtc: add a733 support
-         9fd394ee5ff1d04d74aedc7033a95b2abee2a31e Merge branch 'sunxi/clk-for-7.3' into sunxi/for-next
+         8d88e4b91611a1f7c4954db606aab9f515c0a1e0 x86/sev: Use new AES-GCM library
+         d1e2c82ced23c46f9eef1fc0f7f0a05f97aa8e9b x86/sev: Remove obsolete virtual address check
+         6d22ec26295c1412d765e3d687e46224fc332928 lib/crypto: aesgcm: Remove old AES-GCM library
          
