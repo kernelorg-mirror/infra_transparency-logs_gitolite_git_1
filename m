@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Jul 2026 12:08:09 -0000
-Message-Id: <178480848977.1918903.15250824771856389416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 23 Jul 2026 12:21:28 -0000
+Message-Id: <178480928845.1928935.16883453422598270546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 85f02e3bdc2f9bfe42032d9ad3c89f7f0864d27a
-    new: 81887b04d973adda029185d8e11f30c92bc7b444
+  - ref: refs/heads/stable/v2.42
+    old: f6fea9738456699ba6a3f894f8639cb6be718725
+    new: 84796d917bcbad37aecfdadf36d71fee5b356efd
     log: |
-         784e04110272590a34d7faad656232b7f9aeb1df ASoC: qcom: qdsp6: Remove unused Q6AFE_MAX_CLK_ID define
-         da3048b0c6153cb03b68cbcc5db62e298806d4b8 ASoC: intel: sof_sdw: use &pdev->dev instead of card->dev
-         2700946d7bdf7a112d79db018b5f8503bd2ffa0d ASoC: fsl: p1022_ds: add card_to_mdata() macro
-         c02fe2006059c3bd2c5b7c25213a1797a0ba091e ASoC: fsl: p1022_rdk: add card_to_mdata() macro
-         51ecf42b249752107373750548ef5742a8330c79 ASoC: fsl: add card_to_mdata() macro
-         998b8a6c8aff2f1364197abd0dc05ccb37e62801 ASoC: cs35l56: Sort table of sdw_device_id
-         81887b04d973adda029185d8e11f30c92bc7b444 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         84796d917bcbad37aecfdadf36d71fee5b356efd lscpu: remove mmu reference not available in stable/v2.42
          
