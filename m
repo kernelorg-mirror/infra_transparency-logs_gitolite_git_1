@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Jul 2026 20:02:06 -0000
-Message-Id: <178483692610.2285208.2955955130395039904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 23 Jul 2026 20:02:41 -0000
+Message-Id: <178483696190.2285573.5616921386154133284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: f7074624bafc44b236ddc7159d962075c3747f2b
-    new: a9df7939a2c5e3794769fde809ea892e5a414b93
-    log: |
-         a9df7939a2c5e3794769fde809ea892e5a414b93 ASoC: amd: yc: Add DMI quirk for Acer Aspire AG14-22P
-         
   - ref: refs/heads/for-next
-    old: 81887b04d973adda029185d8e11f30c92bc7b444
-    new: 882c82b323ec1235187f5c6ca5f44f97350dc178
+    old: f3783a591419ad74afe0beb0b81bca249b20d90b
+    new: 3cb7d5c92bd0f4298265b7f2a3ef61770f04ee57
     log: |
-         a9df7939a2c5e3794769fde809ea892e5a414b93 ASoC: amd: yc: Add DMI quirk for Acer Aspire AG14-22P
-         882c82b323ec1235187f5c6ca5f44f97350dc178 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         6f99efb115269b822d9a13139fbdfbd4b5ca6739 spi: dt-bindings: nxp,imx94-xspi: add DMA properties
+         38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720 spi: nxp-xspi: Improve AHB read performance with DMA
+         3cb7d5c92bd0f4298265b7f2a3ef61770f04ee57 Merge remote-tracking branch 'spi/for-7.3' into spi-next
          
