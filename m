@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 23 Jul 2026 16:30:54 -0000
-Message-Id: <178482425493.2123778.1479813335886064187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 23 Jul 2026 16:34:45 -0000
+Message-Id: <178482448588.2125405.17665966987012136553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/libcrypto-pending
-    old: 59e944452d4817ae8bf5b8eea590df2e92e1b448
-    new: 6d22ec26295c1412d765e3d687e46224fc332928
+  - ref: refs/heads/tmp.next
+    old: 1ec98a54af5ffca70874c3022483c5f78e3ed0f8
+    new: 66c0e26d7bd4b8c8f25cc74a5be641d22d219043
     log: |
-         8d88e4b91611a1f7c4954db606aab9f515c0a1e0 x86/sev: Use new AES-GCM library
-         d1e2c82ced23c46f9eef1fc0f7f0a05f97aa8e9b x86/sev: Remove obsolete virtual address check
-         6d22ec26295c1412d765e3d687e46224fc332928 lib/crypto: aesgcm: Remove old AES-GCM library
+         66c0e26d7bd4b8c8f25cc74a5be641d22d219043 btf_encoder: Add O_TRUNC to btf_encoder__write_raw_file()
          
