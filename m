@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 23 Jul 2026 22:14:26 -0000
-Message-Id: <178484486609.2383769.17493682753363444566@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 22:17:28 -0000
+Message-Id: <178484504836.2387144.8229422916919294306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/tags/v7.2-rockchip-clkfixes1
+  - ref: refs/heads/v7.3-armsoc/drivers
     old: 0000000000000000000000000000000000000000
-    new: ba9535068c29721b09296e836def2ff5e8b1b6e9
+    new: 39eace59ac826465fae0788d0a6b304ec94f9944
+  - ref: refs/tags/v7.3-rockchip-drivers1
+    old: 0000000000000000000000000000000000000000
+    new: 539edab78575a44921c3f9d15d82bc17470470b4
