@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0397071915872953275=="
+Content-Type: multipart/mixed; boundary="===============2808881203560966544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 23 Jul 2026 05:01:11 -0000
-Message-Id: <178478287196.1563413.8995620039538948149@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 05:01:14 -0000
+Message-Id: <178478287452.1563536.33485539930011755@gitolite.kernel.org>
 
---===============0397071915872953275==
+--===============2808881203560966544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5e0603ba185af6754422ad28b646798686b6caf6
-    new: 68f6654a3877d8dcc824c7bdcadb2bdadd60fa63
-    log: revlist-5e0603ba185a-68f6654a3877.txt
+  - ref: refs/heads/mm-unstable
+    old: 7368ccdeff50c27809d3a8276c85bae7e402c96c
+    new: 71a7a58818a33631c9518f944cef5ca55aba6537
+    log: revlist-7368ccdeff50-71a7a58818a3.txt
 
---===============0397071915872953275==
+--===============2808881203560966544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e0603ba185a-68f6654a3877.txt
+Content-Disposition: attachment; filename=revlist-7368ccdeff50-71a7a58818a3.txt
 
 0edc90dcd2857160a349d18e1b2f5680d6c29607 mm/hugetlb: fix null nodemask in alloc_fresh_hugetlb_folio
 a46c8f41dd348a089f8a9e087ad0fbf81f030386 mm: memcg: initialize *locked in memcg1_oom_prepare() stub
@@ -614,29 +614,5 @@ ec4e4860af473501b26f108f584613ac96aacf5e mm: vmscan: convert folio_referenced() 
 865a8901f13df473499f6df68196529971718887 fs: stable_page_flags(): use BIT_ULL() for KPF flags
 43cba4d254a6f8d564bb1e2696d3b7482176b511 fs: stable_page_flags(): use folio_test_*() helpers
 71a7a58818a33631c9518f944cef5ca55aba6537 fs: stable_page_flags(): simplify KPF_IDLE handling
-511db4b7bfc8acdb69a71663c9a9150887312605 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-b0aecfb0d90994eef45247b1704c0d4151208f5e mm/page_alloc: boost watermarks on atomic allocation failure
-afb9168c615582c682e0ec41ba8edb3abcaa82f7 hugetlb: make hugepage_put_subpool() tolerate NULL
-3c4ab594ab50e389eb9fda109b0727e28455b193 mm/memory: move pte_install_uffd_wp_if_needed() into memory.c
-33b27fad752d481815216c1edf2223a22d8d08b7 mm/memory: batch set uffd-wp markers during zapping
-237ffcdcf1f91e591e6622b05d0fa8254f7cd85d mm/rmap: batch unmap file folios belonging to uffd-wp VMAs
-64b022ce7454319886d947181ffb6a433f56e0c9 selftests/mm: use MAP_FAILED for mmap error check
-375b51bd96b5e9ef5e15d739bdbdbefe303b8693 selftests/mm/pagemap_ioctl: fix missing NULL checks after calloc()
-8b290cbd30b80f5ca4887374e0f27fcf7a824be2 mm/early_ioremap: clarify early_ioremap_reset() semantics
-7fa85971b08d2c6486c85748a961ad907970c5b8 riscv: remove unused __late_set_fixmap() and __late_clear_fixmap()
-1dc4d99d1a9371474141f8a92f5301347685cfc0 arm64: remove early_ioremap_reset() call and __late_* macros
-ff36ee26f1491a2f4a385e67145faa96fdea32e6 mm/damon: update outdated comment about DAMOS filter handling
-c8ebb253f5590afe0981de6a22bb2e054baa37ab mm/damon/ops-common: prevent migration fallback to non-target nodes
-2bf403254bc34d0bdf244f23443ce61959e88232 mm/damon: remove trailing semicolons after function definitions
-07658bfcea46968fcfaf31c2e34a452799923693 hugetlb: evaluate subpool free state while locked
-9978b5acf6b38f34623ee509103c0fdf6eaa949e mm: page_alloc: __GFP_FS lockdep annotation for direct compaction
-e3b882da42fc88a46a5bcb8b1b56381a1419aa4f mm: compaction: support non-movable compaction for pageblock requests
-26648610af6b145f1d62cfb0c1d731b692ffaa01 mm: page_alloc: move capture_control to the page allocator
-9f44c03e92082d61e471ae1bf798b314ddc45f76 mm: page_alloc: fix non-movable reclaim storm in defrag_mode
-6a1516c57150020daa57360d27b0746420a4c8e1 memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h
-9091af8aa1bd23de2166382c1f4d65d0f7eb0868 mm: vmscan: fix node reclaim ignoring swappiness parameter
-ca60695a45ed069c82edebb8e729121d7b0a31cd mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-c802bb22aa3b1bc137ae73b342667b13b539259f mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-68f6654a3877d8dcc824c7bdcadb2bdadd60fa63 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0397071915872953275==--
+--===============2808881203560966544==--
