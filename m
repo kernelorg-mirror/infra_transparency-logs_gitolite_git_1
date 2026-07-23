@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7278006010826409953=="
+Content-Type: multipart/mixed; boundary="===============0815310609752764246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 23 Jul 2026 14:28:10 -0000
-Message-Id: <178481689022.2021679.9287735713915458353@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 14:28:28 -0000
+Message-Id: <178481690840.2021913.15826256945507132873@gitolite.kernel.org>
 
---===============7278006010826409953==
+--===============0815310609752764246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 8227805754a68791baadc90280d1610353c4b698
     new: bd36a47b471909994a0d84383baf4503fe518ca6
     log: revlist-8227805754a6-bd36a47b4719.txt
 
---===============7278006010826409953==
+--===============0815310609752764246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -593,4 +593,4 @@ dacd348b8a993373576fe2ee2d8b114740ba57a6 LoongArch: BPF: Zero-extend signed ALU3
 9869f446f3b1d47338fa1a460b4c3aa7d6df4856 platform/loongarch: laptop: Stop setting acpi_device_class()
 bd36a47b471909994a0d84383baf4503fe518ca6 platform/loongarch: laptop: Explicitly reset bl_powered state when suspend
 
---===============7278006010826409953==--
+--===============0815310609752764246==--
