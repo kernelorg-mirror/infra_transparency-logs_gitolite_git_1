@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 23 Jul 2026 22:17:28 -0000
-Message-Id: <178484504836.2387144.8229422916919294306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 23 Jul 2026 22:45:16 -0000
+Message-Id: <178484671672.2407061.4605358676553319825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/v7.3-armsoc/drivers
-    old: 0000000000000000000000000000000000000000
-    new: 39eace59ac826465fae0788d0a6b304ec94f9944
-  - ref: refs/tags/v7.3-rockchip-drivers1
-    old: 0000000000000000000000000000000000000000
-    new: 539edab78575a44921c3f9d15d82bc17470470b4
+  - ref: refs/heads/asoc-7.2
+    old: 1a73896565b7c7079c562b744e35916c6d96c3a9
+    new: 52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a
+    log: |
+         52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a ASoC: Intel: soc-acpi: Add entry for sof_rt5682 in NVL match table.
+         
