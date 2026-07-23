@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Jul 2026 17:35:22 -0000
-Message-Id: <178482812230.2177585.1265795067069999754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 23 Jul 2026 17:37:33 -0000
+Message-Id: <178482825308.2178746.3415374284569597002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: d1ff66b66151c14b084e88040512a064b1c1e493
-    new: 9b2854f86f0b56e9027d68e7a3fc909d1a9b566f
+  - ref: refs/heads/asoc-7.3
+    old: 3629acb34c0fe7b5d2ec8cd9693c56ebf442f4cf
+    new: 3a065257412f612d4f3fe538003c4520d6e4e4c0
     log: |
-         9b2854f86f0b56e9027d68e7a3fc909d1a9b566f sctp: don't free the ASCONF's own transport in DEL-IP processing
+         3a065257412f612d4f3fe538003c4520d6e4e4c0 ASoC: fsl: mpc5200_dma: use platform helpers and devm cleanup
          
