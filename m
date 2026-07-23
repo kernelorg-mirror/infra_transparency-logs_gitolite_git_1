@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/asterisk-aastra
-Date: Thu, 23 Jul 2026 15:37:25 -0000
-Message-Id: <178482104576.2080657.17177226979457707507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Jul 2026 15:42:40 -0000
+Message-Id: <178482136016.2084541.17686452421447406238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/asterisk-aastra
-user: jejb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: de6e5c74bf78ee190db28eee14e78746e5856c53
-    new: 6c2d6ba5fb876c8df5a2c896fd445f7340145d5b
+  - ref: refs/heads/main
+    old: bb0d96ebe5f4d1acccf4dc36ca7f01f9a8fa1ba1
+    new: 440e274da4d1b93c7df2cb0ce893c3009dd4db55
     log: |
-         0ba500b5579450a7f340268720c6e360f2b2b02f Update for Mitel phones
-         6c2d6ba5fb876c8df5a2c896fd445f7340145d5b Version 1.0.1 sync with debian package
+         440e274da4d1b93c7df2cb0ce893c3009dd4db55 net: ipv6: fix dif and sdif mismatch in raw6_icmp_error
          
