@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4498438376222979080=="
+Content-Type: multipart/mixed; boundary="===============1516014404372195628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 23 Jul 2026 20:14:12 -0000
-Message-Id: <178483765299.2294820.7349888161485501093@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 20:14:16 -0000
+Message-Id: <178483765644.2294911.4516295780861220562@gitolite.kernel.org>
 
---===============4498438376222979080==
+--===============1516014404372195628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.0.10/nfs-for-7.2-3
-    old: c04c888be7c34b0d999b885c62e79ad6b574e64b
-    new: fdc8ab6b05f8118fce7f28d883091d6460c56b26
-    log: revlist-c04c888be7c3-fdc8ab6b05f8.txt
+  - ref: refs/heads/kernel-7.0.10/nfs-testing-canary
+    old: 0e2dd3b7e89064dac7bccad2aed60f6c35232172
+    new: f802d5e8d9ed7577746933de180cdce20019cc6e
+    log: revlist-0e2dd3b7e890-f802d5e8d9ed.txt
 
---===============4498438376222979080==
+--===============1516014404372195628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c04c888be7c3-fdc8ab6b05f8.txt
+Content-Disposition: attachment; filename=revlist-0e2dd3b7e890-f802d5e8d9ed.txt
 
 c2b471eeb54b72eb39a0b6b4d45767710b403523 NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 142b25ccac364bbd8c246be762a96c15a8d709e8 nfs: use nfsi->rwsem to protect traversal of the file lock list
@@ -52,5 +52,15 @@ f7512e8f451ebd4af4591dd8f917b68d4ce2b3d3 SUNRPC: release lower rpc_clnt if kille
 b6cf05f8916f4cc15a02af21bc8bb155638b907d NFS: Charge unstable writes by request size, not folio size
 aaf5ae2712e1f5e56a2e9f9e7d4de369bc207cf3 NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
 fdc8ab6b05f8118fce7f28d883091d6460c56b26 NFS: Decrement refcounts if allocating nfs_free_stateid_data fails
+72fa10831fb6174de66254678beabc4bd1aab0d5 NFS/localio: issue IO inline when not in a memory-reclaim context
+3da8c1a1293b06905ab9d1abb96101b94351d048 NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
+96db87b0cb73876afafb364cca258f4f6264bf3c NFS/localio: issue commit inline when not in a memory-reclaim context
+71fbf940428c2e93d9f9690bb338b6a17c60ab98 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+112ee4089dba0e14232ce7208d4a79c1d20dc797 nfs4.2: add UNCACHEABLE_FILE_DATA attribute support
+1c799ee612322cf77a6259ddffae74d6e85f5772 nfs4.2: request UNCACHEABLE_FILE_DATA only for regular files
+f4c40fdbf5bbd93ef13c7ff91683c3fa166450ea nfs4.2: open UNCACHEABLE_FILE_DATA files with O_DIRECT
+b7638fc488962b1e1172ca94ab3085dc5f5b095e nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
+82faa00ac5aea579cd2df61bdf63540d59512481 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
+f802d5e8d9ed7577746933de180cdce20019cc6e nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
 
---===============4498438376222979080==--
+--===============1516014404372195628==--
