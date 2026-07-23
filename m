@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7316200610699593135=="
+Content-Type: multipart/mixed; boundary="===============1007919606251958000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 23 Jul 2026 20:14:07 -0000
-Message-Id: <178483764766.2294525.438758702691137389@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 20:14:10 -0000
+Message-Id: <178483765033.2294634.975907355141229364@gitolite.kernel.org>
 
---===============7316200610699593135==
+--===============1007919606251958000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.0.10/nfs-for-7.2-1
-    old: 3efa89c80d8c5e8dcc6c50639365f1a8d87a3a39
-    new: 44c7819192801e502b274d657678bb2011a1bf0d
-    log: revlist-3efa89c80d8c-44c781919280.txt
+  - ref: refs/heads/kernel-7.0.10/nfs-for-7.2-2
+    old: 7d9b7e89e054448ac021854fc81975840bb8c5d2
+    new: b6cf05f8916f4cc15a02af21bc8bb155638b907d
+    log: revlist-7d9b7e89e054-b6cf05f8916f.txt
 
---===============7316200610699593135==
+--===============1007919606251958000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3efa89c80d8c-44c781919280.txt
+Content-Disposition: attachment; filename=revlist-7d9b7e89e054-b6cf05f8916f.txt
 
 c2b471eeb54b72eb39a0b6b4d45767710b403523 NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 142b25ccac364bbd8c246be762a96c15a8d709e8 nfs: use nfsi->rwsem to protect traversal of the file lock list
@@ -46,5 +46,9 @@ e34c1cb3c0cad1d76647512d66fc4b7ed538acee Revert "nfs: remove fileid field from s
 2e5af8ce7361653c42e6a96bf0f48f3f8fd73712 Revert "nfs: replace NFS_FILEID() and nfsi->fileid with inode->i_ino"
 04c2c22b6e9158c6499bb745389880f847182ddc Revert "nfs: remove nfs_compat_user_ino64() and deprecate enable_ino64"
 44c7819192801e502b274d657678bb2011a1bf0d Revert "nfs: store the full NFS fileid in inode->i_ino"
+f7512e8f451ebd4af4591dd8f917b68d4ce2b3d3 SUNRPC: release lower rpc_clnt if killed waiting for XPRT_LOCKED
+4e983e0149b1625710d6eb6f58e97aa01b8828f3 SUNRPC: pin upper rpc_clnt across the TLS connect_worker
+06d4e1e5a3dc349ee095100afcaedb33467041ce NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
+b6cf05f8916f4cc15a02af21bc8bb155638b907d NFS: Charge unstable writes by request size, not folio size
 
---===============7316200610699593135==--
+--===============1007919606251958000==--
