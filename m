@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7742829436210152602=="
+Content-Type: multipart/mixed; boundary="===============3588580073228879453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Jul 2026 07:56:00 -0000
-Message-Id: <178479336012.1687958.10103242564740691394@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 07:59:11 -0000
+Message-Id: <178479355179.1689192.17396968454381369183@gitolite.kernel.org>
 
---===============7742829436210152602==
+--===============3588580073228879453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 385a91beefc86cb6b7f05b2c3a59b2b82c38c92e
-    new: 39117f8ef8da78ddb10d3fad6c9061a8e973e756
-    log: revlist-385a91beefc8-39117f8ef8da.txt
+    old: 39117f8ef8da78ddb10d3fad6c9061a8e973e756
+    new: 720ecd903b43258c067d691afa783c034ea9eb5e
+    log: revlist-39117f8ef8da-720ecd903b43.txt
+  - ref: refs/heads/tip/urgent
+    old: 248951ddc14de84de3910f9b13f51491a8cd91df
+    new: 85aacbc59f2f5fef693948b26def0de7641f12b6
+    log: revlist-248951ddc14d-85aacbc59f2f.txt
 
---===============7742829436210152602==
+--===============3588580073228879453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-385a91beefc8-39117f8ef8da.txt
+Content-Disposition: attachment; filename=revlist-39117f8ef8da-720ecd903b43.txt
+
+85aacbc59f2f5fef693948b26def0de7641f12b6 Merge branch into tip/master: 'smp/urgent'
+de383996397d73ee732a77bcf1e88f5aa0f8713f Merge branch into tip/master: 'perf/merge'
+b79c89fa1c5bbdb1378cd2ca10c823aa4bcab36e Merge branch into tip/master: 'core/entry'
+6c2d96cce4fe885028b16f517908f767de98f4f5 Merge branch into tip/master: 'core/rseq'
+f82839f02bf6fb40175fc753303ea1ed774f388b Merge branch into tip/master: 'irq/core'
+f2ee901f3385f67bf2ed4f2d6648799a51fb8fe0 Merge branch into tip/master: 'irq/drivers'
+527413f389936f28ac23a88e33d1f7e477b3a6eb Merge branch into tip/master: 'locking/core'
+7b3ab28e1ceff45b5a73dd07220bfc94c201e611 Merge branch into tip/master: 'locking/futex'
+aa50fc0974b9d932dec4929b0ae7d10fd609dfa5 Merge branch into tip/master: 'ras/core'
+399c45ea02a3663c3b2732f86434f746096503c0 Merge branch into tip/master: 'sched/core'
+34f4e370d77dcc41fd50e91e24f786376addbd30 Merge branch into tip/master: 'smp/core'
+92620ff8f0c486c030923e24eeb4932a4835e116 Merge branch into tip/master: 'timers/core'
+b3b5c5e5a8a5827fe51c2aad198d3281df5a3874 Merge branch into tip/master: 'timers/vdso'
+a2b388c4fc12a57d63e24d2edaf280340a077a4f Merge branch into tip/master: 'x86/alternatives'
+aed15cea8a4474ccec1f68a08aee14582d81e218 Merge branch into tip/master: 'x86/build'
+f96d13e1f1e34b9b7bacedd10548f468cdba41d4 Merge branch into tip/master: 'x86/cache'
+3f46191e6da9854dbf415cfa88a0b2fdd5846293 Merge branch into tip/master: 'x86/cleanups'
+f1551d817c4f379d352cca46dea00f4c62c9bcbb Merge branch into tip/master: 'x86/cpu'
+3fd30915c3e59f6e1bf8e478d9a40713d9dabcb9 Merge branch into tip/master: 'x86/entry'
+1c47242e00b6f8b067a0afd0b01f3f6c1e8361cd Merge branch into tip/master: 'x86/mm'
+f754a0b57e4429bf7421d50be3a1e7823da065fd Merge branch into tip/master: 'x86/msr'
+720ecd903b43258c067d691afa783c034ea9eb5e Merge branch into tip/master: 'x86/tdx'
+
+--===============3588580073228879453==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-248951ddc14d-85aacbc59f2f.txt
 
 2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
 36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0 watchdog: ni903x_wdt: Check ACPI_COMPANION() against NULL
@@ -63,19 +96,12 @@ bdefe1346a8e6b8dc8593406dc2617e985fcbcab ALSA: timer: drain a slave's callback b
 b6016332b8899a9775addf9b630b0a53a849c8ed ALSA: hda/tas2781: clear cali_data.total_sz when calibration read fails
 9573818cc1b7ac22176d0a2b60bfbc440e94f7d5 ALSA: hda/realtek - Add quirk for Dell Pro QC1255
 5a52217525cb394117d92722b7f0fec510c882b4 Merge tag 'nfsd-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-1ad6d4a722f509128038f9c85c6a122a382179fe MAINTAINERS: Add Radu Rendec as reviewer for the interrupt subsystem
-10b45e63a5b010be59ecbd2e437744adb12f838a x86/cpu: Remove unnecessary __maybe_unused annotations
 57a92aaba9089601bbe8f520fbc3c8d858498c21 Merge tag 'sound-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 d0ec222d416230e08f31c5c0042b316ef5f7e66e Merge tag 'platform-drivers-x86-v7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 08de7d9d2479ca2acb296bc9e43eba1020879c3e Merge tag 'watchdog-for-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 4539944e515183668109bdf4d0c3d7d228383d88 Merge tag 'liveupdate-fixes-2026-07-22' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 c58ea9adf7342508c6ac0b7ad79ef10d589f9c6e smp: Avoid invalid per-CPU CSD lookup with CSD lock debug
 35551efb155e3b83445a6c3f66cb498d5efc182c smp: Make CSD lock acquisition atomic for debug mode
-b0fa123835c147e77b9a967de76dc899062bd405 x86/mce: Document the mce=print_all command line parameter
-88e5c46f063efd09c9b2b50da617ca96d0de0ffb Merge branch 'linus'
-30ea57b4f6f43535e8de0451ff740294c9b6f883 Merge branch into tip/master: 'smp/urgent'
-74c299d7b81c7efbea86eb4324bd5ff24ffd76ce Merge branch into tip/master: 'irq/core'
-5e56dd8905b0c00d9f41d3276fe1c6cc759acea7 Merge branch into tip/master: 'ras/core'
-39117f8ef8da78ddb10d3fad6c9061a8e973e756 Merge branch into tip/master: 'x86/cleanups'
+85aacbc59f2f5fef693948b26def0de7641f12b6 Merge branch into tip/master: 'smp/urgent'
 
---===============7742829436210152602==--
+--===============3588580073228879453==--
