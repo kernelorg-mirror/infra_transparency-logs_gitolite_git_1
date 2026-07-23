@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Thu, 23 Jul 2026 23:48:32 -0000
-Message-Id: <178485051233.2454749.6354499688793439243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 23 Jul 2026 23:55:47 -0000
+Message-Id: <178485094794.2461535.17596934870985603247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/renesas-android/v6.18.24-2026-07-10
-    old: 0000000000000000000000000000000000000000
-    new: 5e0fefcae9f8f1a2bb4cf5abae2cd9cda556d19d
+  - ref: refs/heads/testing
+    old: fa2000702618660ec9ab111d9b0f0a99c6ff50ab
+    new: 0b5e142ced4bcf20532da051934bd694d1bbd470
+    log: |
+         0b5e142ced4bcf20532da051934bd694d1bbd470 iio: pressure: mpl115: Fix runtime PM cleanup
+         
