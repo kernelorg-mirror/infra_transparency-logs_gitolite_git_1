@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 23 Jul 2026 23:11:09 -0000
-Message-Id: <178484826937.2426842.1709789152507447003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 23 Jul 2026 23:14:32 -0000
+Message-Id: <178484847266.2428016.15010897228335375459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ez
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 94515f3a7d4256a5062176b7d6ed0471938cd51a
-    new: 55c7bd2ddee50fd37b3b4c0b7a76bb0fd565f38b
+  - ref: refs/heads/dev-test
+    old: d28bf755ba8990b2366d92c67a53617dd495d587
+    new: dc64cb7acbf7df5d872c769a7b0fa742abb7d563
     log: |
-         289e680c89ae8a0bb629fa8308313f5c8c6c76a3 bpf: Reject passing scalar NULL to nonnull arg of a global subprog
-         55c7bd2ddee50fd37b3b4c0b7a76bb0fd565f38b selftests/bpf: Test passing scalar NULL to nonnull global subprog
+         ef503ce476a84ee1ef18626dcd9ab9b3baea92a8 erofs: ensure valid f_path for page cache sharing
+         3025ccb5ef3c86641e9506b59627c7fc27900b9b erofs: cap LZMA stream pool size
+         dc64cb7acbf7df5d872c769a7b0fa742abb7d563 erofs: accept source file descriptor via fsconfig
          
