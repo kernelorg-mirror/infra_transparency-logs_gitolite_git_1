@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 23 Jul 2026 20:53:04 -0000
-Message-Id: <178483998470.2325897.14834162420799695345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 23 Jul 2026 20:59:03 -0000
+Message-Id: <178484034358.2329935.10955727474312861603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: d326f83e819c53aa05c40d64f5805d6237b6aa1b
-    new: 48a5a7ab8d6ab7090564339e039c421f315de912
+  - ref: refs/heads/driver-core-testing
+    old: 0e6f8ccd4618afdb504d5c56fe2fea1a2cd5d86a
+    new: 6b71fef6f05cee64ebbaa8aec6dc688169f47e9c
     log: |
-         f6f5ee2aa33b350c671721b965251c42cebb962e smb: client: validate DFS referral PathConsumed
-         f8cf09a53a0dc1da298e9dd0ba5f21710cf119d6 smb: client: bound dirent name against end of SMB response in cifs_filldir
-         6c7b7a07db47df7745d30f4bca795f3bb5976b33 Add missing git branch info for cifs and ksmbd to MAINTAINERS file
-         2eb74eef4b7eda8df593d22fb48e94ef959ec8a5 smb: client: handle STATUS_STOPPED_ON_SYMLINK responses without a symlink target
-         e8a8d54c2d508891c142a928fc7d298c4c8bd0dd cifs: prevent readdir from changing file size due to stale directory metadata
-         c2f2e83e3bbc5483730fd4ee903182761f1ae50f cifs: fix cifsFileInfo leak on kmalloc failure in deferred close drain paths
-         48a5a7ab8d6ab7090564339e039c421f315de912 Merge tag 'v7.2-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         99f59aa82341c8491a1b94c5dd9c666fe979a479 rust: add basic serial device bus abstractions
+         4b2c9156d312b36d67265305c68088f542dc0933 samples: rust: add Rust serial device bus sample device driver
+         6b71fef6f05cee64ebbaa8aec6dc688169f47e9c MAINTAINERS: serdev: Add self for serdev
          
