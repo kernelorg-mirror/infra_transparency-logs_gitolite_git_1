@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Jul 2026 21:13:07 -0000
-Message-Id: <178484118769.2341181.10141927057136298859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 23 Jul 2026 21:16:40 -0000
+Message-Id: <178484140020.2344501.9243281950062564013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: d326f83e819c53aa05c40d64f5805d6237b6aa1b
-    new: 78f75d632f74b8de0f081a128588f7c37d0d1164
+  - ref: refs/heads/driver-core-testing
+    old: 5037353473201f51567cdd420fdc02bf6e973776
+    new: fde6b526a9ee0a20d70e992e67ef79f2dfe42362
     log: |
-         78f75d632f74b8de0f081a128588f7c37d0d1164 rds: tcp: hold the RCU lock across ipv6_chk_addr() in rds_tcp_laddr_check()
+         fde6b526a9ee0a20d70e992e67ef79f2dfe42362 samples: rust_dma: use vertical import style
          
