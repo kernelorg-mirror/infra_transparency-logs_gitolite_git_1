@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 23 Jul 2026 17:03:16 -0000
-Message-Id: <178482619608.2149276.8181561880132661058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Jul 2026 17:04:01 -0000
+Message-Id: <178482624160.2149577.16670250256950304602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 1ec98a54af5ffca70874c3022483c5f78e3ed0f8
-    new: 66c0e26d7bd4b8c8f25cc74a5be641d22d219043
+  - ref: refs/heads/main
+    old: c3f2fc231a39e29fe9f0adc14a3ecc3c1260d3c5
+    new: 649ea07fc25a17aa51bff710baac1ab161022a7c
     log: |
-         66c0e26d7bd4b8c8f25cc74a5be641d22d219043 btf_encoder: Add O_TRUNC to btf_encoder__write_raw_file()
+         d9a33cadc70a94c1582f65e6042e81027cd200c6 mctp: check register_netdevice_notifier() error in mctp_device_init()
+         649ea07fc25a17aa51bff710baac1ab161022a7c net: airoha: fix ETS channel derivation in airoha_tc_setup_qdisc_ets()
          
