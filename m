@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 23 Jul 2026 06:45:05 -0000
-Message-Id: <178478910555.1637943.14552512683433505811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 23 Jul 2026 07:35:50 -0000
+Message-Id: <178479215091.1672659.18214684942516299082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/next
-    old: 4953e0a8a149d68e3e02b2e7713513bffdb7a746
-    new: b4c1bfc231521b627214bf654417bfef3721da79
+  - ref: refs/heads/master
+    old: 21697720ff43b8dfa25b8e8d9ca7f56f4597fc80
+    new: e1d7c5ac1c246ce5775f604515de0a59fbf2116e
     log: |
-         bf5de8335a1fa188348938ecf4f30af2e07b0405 efi: Make EFI_VARS_PSTORE depend on EFIVAR_FS
-         b4c1bfc231521b627214bf654417bfef3721da79 efi: make efi_guid_to_str() take a const GUID pointer
+         deb232e884877bf10b4ce2580909eedec986c284 xfrm: espintcp: fix UAF during close
+         e1d7c5ac1c246ce5775f604515de0a59fbf2116e xfrm: drop ESP-in-TCP packets with no ingress device
          
