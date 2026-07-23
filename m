@@ -1,107 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============3588580073228879453=="
+Content-Type: multipart/mixed; boundary="===============4588865678171189795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Jul 2026 07:59:11 -0000
-Message-Id: <178479355179.1689192.17396968454381369183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 23 Jul 2026 08:01:23 -0000
+Message-Id: <178479368366.1692249.10679218006242645924@gitolite.kernel.org>
 
---===============3588580073228879453==
+--===============4588865678171189795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 39117f8ef8da78ddb10d3fad6c9061a8e973e756
-    new: 720ecd903b43258c067d691afa783c034ea9eb5e
-    log: revlist-39117f8ef8da-720ecd903b43.txt
-  - ref: refs/heads/tip/urgent
-    old: 248951ddc14de84de3910f9b13f51491a8cd91df
-    new: 85aacbc59f2f5fef693948b26def0de7641f12b6
-    log: revlist-248951ddc14d-85aacbc59f2f.txt
+  - ref: refs/heads/for-next
+    old: 28a06de7318fad1d0dec9bf54fe04243cc0635ff
+    new: 9b66c9af7172ffcf727214fa0ebe9a5e1ed6eb16
+    log: revlist-28a06de7318f-9b66c9af7172.txt
 
---===============3588580073228879453==
+--===============4588865678171189795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39117f8ef8da-720ecd903b43.txt
+Content-Disposition: attachment; filename=revlist-28a06de7318f-9b66c9af7172.txt
 
-85aacbc59f2f5fef693948b26def0de7641f12b6 Merge branch into tip/master: 'smp/urgent'
-de383996397d73ee732a77bcf1e88f5aa0f8713f Merge branch into tip/master: 'perf/merge'
-b79c89fa1c5bbdb1378cd2ca10c823aa4bcab36e Merge branch into tip/master: 'core/entry'
-6c2d96cce4fe885028b16f517908f767de98f4f5 Merge branch into tip/master: 'core/rseq'
-f82839f02bf6fb40175fc753303ea1ed774f388b Merge branch into tip/master: 'irq/core'
-f2ee901f3385f67bf2ed4f2d6648799a51fb8fe0 Merge branch into tip/master: 'irq/drivers'
-527413f389936f28ac23a88e33d1f7e477b3a6eb Merge branch into tip/master: 'locking/core'
-7b3ab28e1ceff45b5a73dd07220bfc94c201e611 Merge branch into tip/master: 'locking/futex'
-aa50fc0974b9d932dec4929b0ae7d10fd609dfa5 Merge branch into tip/master: 'ras/core'
-399c45ea02a3663c3b2732f86434f746096503c0 Merge branch into tip/master: 'sched/core'
-34f4e370d77dcc41fd50e91e24f786376addbd30 Merge branch into tip/master: 'smp/core'
-92620ff8f0c486c030923e24eeb4932a4835e116 Merge branch into tip/master: 'timers/core'
-b3b5c5e5a8a5827fe51c2aad198d3281df5a3874 Merge branch into tip/master: 'timers/vdso'
-a2b388c4fc12a57d63e24d2edaf280340a077a4f Merge branch into tip/master: 'x86/alternatives'
-aed15cea8a4474ccec1f68a08aee14582d81e218 Merge branch into tip/master: 'x86/build'
-f96d13e1f1e34b9b7bacedd10548f468cdba41d4 Merge branch into tip/master: 'x86/cache'
-3f46191e6da9854dbf415cfa88a0b2fdd5846293 Merge branch into tip/master: 'x86/cleanups'
-f1551d817c4f379d352cca46dea00f4c62c9bcbb Merge branch into tip/master: 'x86/cpu'
-3fd30915c3e59f6e1bf8e478d9a40713d9dabcb9 Merge branch into tip/master: 'x86/entry'
-1c47242e00b6f8b067a0afd0b01f3f6c1e8361cd Merge branch into tip/master: 'x86/mm'
-f754a0b57e4429bf7421d50be3a1e7823da065fd Merge branch into tip/master: 'x86/msr'
-720ecd903b43258c067d691afa783c034ea9eb5e Merge branch into tip/master: 'x86/tdx'
+74f49255492a62658f36bf2578d7916f1c6ffad1 RDMA/nldev: validate dynamic counter attribute length
+ef63cc441703412628a517dda354f3e51fe2dc92 RDMA/srpt: Pass the mapped task attribute to target_init_cmd()
+0ca79979384f031d710c4b3bae065dcb5d95aca3 RDMA/erdma: Fix CEQ tasklet use-after-free on removal
+8aae47a046439bad72cd6eaa5e81d695cc22e8a9 net: ionic: register PHC for rdma timestamping
+02e643e22a4403fd170db0c7118582b1c273827b net: ionic: Add PHC state page for user space access
+7462d18889bf5d1e5b2269da5e3ef694b1c5ca59 RDMA/ionic: map PHC state into user space
+8ba049504671fe52eeba29f70b022ee4b302507f RDMA/ionic: add completion timestamp to CQE format
+63d6c2d10c15ba3a41cee15e3cc50fda95c35984 RDMA/mlx5: move mlx5 clock info to common struct ib_uverbs_clock_info
+97f7c2262c28ebcae64fc957ee978646684a5ed9 RDMA/mana_ib: drain QP references after partial table insertion
+8d186210677c0322db886973bcec9aa4d21b51cd RDMA/core: Add rdma_restrack_begin/abort/commit_del() operations
+709ba0e5311bd034eb4d9c1c00cc4e1109d6dc3e RDMA/core: Fix use after free in ib_query_qp()
+3481bec4dfc4aee24ffea5a547ee95b70b67d9d5 RDMA/core: Fix potential use after free in ib_destroy_cq_user()
+88244ecc71cc0b3ed200f5ef7ddea6686adfd730 RDMA/core: Fix potential use after free in ib_destroy_srq_user()
+235ef2d0e750885c29340b0fc40620a7a4f52e12 RDMA/core: Fix potential use after free in counter_release()
+29dc2f8e1c97372c2871a70088707933515fbd5b RDMA/core: Fix potential use after free in ib_free_cq()
+2696626a0be5877f445fb647c25ef43930c777e6 RDMA/core: Fix potential use after free in uverbs_free_dmah()
+8b90e701342275f414e36e7421c502237df241ad RDMA/core: Fix potential use after free in ib_dealloc_pd_user()
+b3818ea4ad1e2eff8472e8280daba0d2aabfe3c0 RDMA/core: Add Completion Counters support
+45e537bf580d540132bcabd8ae3af483461fa1c1 RDMA/core: Prevent destroying in-use completion counters
+c1c13e596f65c2b2744c6d4f1471d7b7058195d3 RDMA/core: Expose Completion Counter capabilities to userspace
+0774c6dd209605e65dc18022af2493a3c1a91d68 RDMA/core: Add Completion Counters to resource tracking
+6eb179ba09441b4a90de8e2fba2e13c1326879e9 RDMA/efa: Update device interface
+0e8e94c15091041ea8910cbfcade5a9c7cfe3f90 RDMA/efa: Add Completion Counters support
+9b66c9af7172ffcf727214fa0ebe9a5e1ed6eb16 RDMA/bnxt_re: Clear VM_MAYWRITE on DBR/toggle page mmap
 
---===============3588580073228879453==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-248951ddc14d-85aacbc59f2f.txt
-
-2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
-36e05e134ee44f9fbfcebcbcdadb5f765fccd9f0 watchdog: ni903x_wdt: Check ACPI_COMPANION() against NULL
-0be186a120a797edb28effb9359296ce4cde9a25 docs: watchdog: Fix brackets
-7362ba0f9c96ac3ad6a2ca3995bd9fc9a28a8661 watchdog: pretimeout: Fix UAF in watchdog_unregister_governor()
-bcfcd7619f277842430d197556463b401b839ee9 watchdog: airoha: Prevent division by zero when clock frequency is zero
-09b2ae290a241ce1f5f738fb65c35f449dcf663d platform/x86/intel/vsec: free ACPI discovery data on early errors
-78bf392ba77dd8b2a25656e489449d2f91cfd1eb platform/x86: asus-wmi: temporarily revert to setting a charge limit
-d091132889c1378dd0944a72f86eae3e4da1e4fa ASoC: fsl_sai: Fix spurious BCLK on resume by clearing BYP
-27d090f3ccd4cade897fb7e0c8c0a6e2fd3a95a0 ASoC: amd: acp: add ACP70 DMI override for new ASUS TUF platforms
-2c4dc0ed50b05cd847a4b34b8cebf0775f19aeb9 ALSA: seq: close a re-opened queue timer in the destructor
-bc889dfcea9294a1eae7f8e2f3573a90764ae4d0 ASoC: tas2781: bound firmware description string parsing
-d9e96f859de3ea3e99bce927a988449a1816483c ASoC: sun4i-codec: Set quirks.playback_only for H616 codec
-9f86aea992568c2b4db78c80ff9508af9e050ff7 ASoC: fsl: imx-card: Skip sysclk reset for active DAIs in shutdown
-d39e4e27962aa1fb5b8f0df057e1079504d369eb ASoC: amd: yc: Add DMI quirk for MSI Vector A16 HX A8WIG
-728d34ebf91c0e80b63a66b237dd0dfc5a8e5b4d ALSA: hda/realtek: Add quirk for HP EliteBook 830 G8 (8AB8) to enable mute LEDs
-914c85fad93cd7daad30e5fb2e5bc7132ea25524 ALSA: hda/realtek: Fix speakers on Alienware x16 R2
-3b597d24dc0455ae926f1053f97c2725038fc3cd ALSA: hda: cs35l41: validate and free ACPI mute object
-0b604e886ece11b71c4daaeccc512c784b89b014 ASoC: bt-sco: fix duplicate DAPM widget names for wideband DAI
-4416f8a9ed5f49256dc69c664f1386b496ca16a1 liveupdate: fix GET_NAME ioctl argument validation
-a3d6d3cedfe87bbd5a677d52b22ac20d28e59cf8 ALSA: hda: codecs: hdmi: disable keep-alive before audio format change
-ac1e8d01f4ea0d4a5739c6f40b07484c6385cfbb ALSA: hda/realtek: Add inverted LED quirk for HP ZBook 8 G2a
-7dcf091da4b4596f7dbfb403d946ee4aac423af3 ASoC: fs210x: Make cache write through again during resume
-93c2a8ea2454b7b14eb378a58cad8a83c0ffc903 ASoC: cs35l56: Fix potential probe() deadlock
-e0bffb63a2eda0af82ed7e6357ac67c2db990c21 ASoC: cs35l56: Use complete_all() to signal init_completion
-1d3302efe653df4c66a47126e9b8abcfdb027ee5 ASoC: cs35l56: Fixes for deadlock/hang during component_probe()
-efd80de2de9d06ddf0eee55ca11b04e39bfc7cd8 ASoC: Intel: sof_sdw: Add quirks for new Dell laptops
-2eb79cb87b6fffa550198ee36b3a1cdc9e4955ee Merge tag 'asoc-fix-v7.2-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-5c4851e4cdfc3204128f88991be64a6e3929d3d0 lockd: fix NLMv3 GRANTED_MSG handling
-02bbbf05d19f49c5cc9f249dd8844b2a7f2a2b8c ALSA: hda/realtek: Add quirk for HP Pavilion x360
-f6d6a4147ace0c417035f65b021027c209c75190 ALSA: usb-audio: Add FIXED_RATE quirk for JBL Quantum650 Wireless
-70d28bfcd6224eed75986b3b987b997e59643fa4 ALSA: timer: don't re-enter an instance callback that is still running
-bdefe1346a8e6b8dc8593406dc2617e985fcbcab ALSA: timer: drain a slave's callback before its master detaches it
-5c3f8dac531b454bf67b6ee3c2aac89f0aaaef74 ALSA: hda/realtek: Fix speakers on Lunnen Ground 14
-740b3c6780ec1f65aba2bc99a3f41d70bdb13477 ALSA: hda/realtek: Add HDA_CODEC_QUIRK for Samsung 750XBE/730XBE
-b6016332b8899a9775addf9b630b0a53a849c8ed ALSA: hda/tas2781: clear cali_data.total_sz when calibration read fails
-9573818cc1b7ac22176d0a2b60bfbc440e94f7d5 ALSA: hda/realtek - Add quirk for Dell Pro QC1255
-5a52217525cb394117d92722b7f0fec510c882b4 Merge tag 'nfsd-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-57a92aaba9089601bbe8f520fbc3c8d858498c21 Merge tag 'sound-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-d0ec222d416230e08f31c5c0042b316ef5f7e66e Merge tag 'platform-drivers-x86-v7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-08de7d9d2479ca2acb296bc9e43eba1020879c3e Merge tag 'watchdog-for-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-4539944e515183668109bdf4d0c3d7d228383d88 Merge tag 'liveupdate-fixes-2026-07-22' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
-c58ea9adf7342508c6ac0b7ad79ef10d589f9c6e smp: Avoid invalid per-CPU CSD lookup with CSD lock debug
-35551efb155e3b83445a6c3f66cb498d5efc182c smp: Make CSD lock acquisition atomic for debug mode
-85aacbc59f2f5fef693948b26def0de7641f12b6 Merge branch into tip/master: 'smp/urgent'
-
---===============3588580073228879453==--
+--===============4588865678171189795==--
