@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 23 Jul 2026 16:36:59 -0000
-Message-Id: <178482461904.2128851.12200672334820565370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 23 Jul 2026 16:37:44 -0000
+Message-Id: <178482466435.2129322.17659749215736461740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/nf-26-07-23
-    old: 0000000000000000000000000000000000000000
-    new: 3e71c147e3d92233d7291c17da7db4d5e70bae35
+  - ref: refs/bugs/08646dc0c1405e5176d24d370f318af1fe8d81d54d324ea10c1fa8787711285e
+    old: 94340cb2b0196d6f1ec734bbbb014e3e44d63d94
+    new: a30dfa28cb85fcc76326c66ea3cced399b22d22b
+    log: |
+         3d101158a8e2ccd9d1ed979fd056e597a590bbc3 
+         7c0feae00d23fdb12908b3cee7b6f5a976b5b892 
+         a30dfa28cb85fcc76326c66ea3cced399b22d22b 
+         
