@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 23 Jul 2026 15:21:54 -0000
-Message-Id: <178482011471.2066050.5247448008275043735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 23 Jul 2026 15:22:17 -0000
+Message-Id: <178482013733.2066511.6564543012646468100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 8a95f53a27615f5140908f59dd733476f7a859e0
-    new: 0c36aacde99df7696c8e0252614cf9680ba5a0f8
+  - ref: refs/heads/main
+    old: 11c057d23465c7a5817a7284c896d19d54c0b616
+    new: d12956d083eb70f2c6d72711aebaf8c2ce21e170
     log: |
-         f90428f1c31d00c91a97804d9369a0afa1b20335 KEYS: trusted: dcp: fix key_len validation and calc_blob_len() return type
-         da755c0520582af97e6b59da0a30f437d9c4222b keys: fix out-of-bounds read in keyring_get_key_chunk()
-         519eabf5025cf6da2993a042e26d13b4f3b73582 keys: make keyring key-chunk byte order agree with keyring_diff_objects()
-         0c36aacde99df7696c8e0252614cf9680ba5a0f8 assoc_array: trim the final shortcut word using the current chunk end
+         d12956d083eb70f2c6d72711aebaf8c2ce21e170 net/mlx5: E-Switch, fix zero num_dest in prio_tag egress vlan rule
          
