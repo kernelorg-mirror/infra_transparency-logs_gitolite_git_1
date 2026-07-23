@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 23 Jul 2026 07:35:50 -0000
-Message-Id: <178479215091.1672659.18214684942516299082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Thu, 23 Jul 2026 07:46:23 -0000
+Message-Id: <178479278379.1680068.12960979732840732385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 21697720ff43b8dfa25b8e8d9ca7f56f4597fc80
-    new: e1d7c5ac1c246ce5775f604515de0a59fbf2116e
+  - ref: refs/heads/for-7.3
+    old: 4a2e5409472e8a0e3e2817e149c55c1d5f803742
+    new: c303c3619a1d5cf7d4b457106062d16724724a80
     log: |
-         deb232e884877bf10b4ce2580909eedec986c284 xfrm: espintcp: fix UAF during close
-         e1d7c5ac1c246ce5775f604515de0a59fbf2116e xfrm: drop ESP-in-TCP packets with no ingress device
+         43ea91dadb35579169884f6707d43f7b2607153d ata: pata_pxa: use devres for DMA channel management
+         c303c3619a1d5cf7d4b457106062d16724724a80 ata: pata_ep93xx: fix PIO fallback when DMA init fails
          
