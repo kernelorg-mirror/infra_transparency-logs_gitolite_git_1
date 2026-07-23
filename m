@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8661514799548870768=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 23 Jul 2026 05:47:36 -0000
-Message-Id: <178478565670.1596088.10971376813099513917@gitolite.kernel.org>
-
---===============8661514799548870768==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Thu, 23 Jul 2026 05:52:12 -0000
+Message-Id: <178478593283.1600268.17454541486878691674@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/master
-    old: b426b5f2f0ca113dea806fa29fd652ad76c7061f
-    new: be06c1a5094f0b00d745c4d419b6bb4eb4bb32cc
+  - ref: refs/heads/ti-k3-dts-next
+    old: 43aa380f66fb97a5a8233019b62e79183c4ae48a
+    new: 7c1bb9b41661a2152b46430319a1dafdf15803de
     log: |
-         be06c1a5094f0b00d745c4d419b6bb4eb4bb32cc CVE-2026-64600 is now public
+         d31e5aebbe71746c1389bdf6b0a8b26cc01751e8 arm64: dts: ti: k3-am62-verdin: Add Toradex Capacitive Touch Display 10.1" LVDS V2
+         abc20b6665329a6ae9b78f5da9232509f2a0a68e arm64: dts: ti: k3-am62-verdin: Add Toradex DSI to LVDS adapter with the 10.1" V2 display
+         654c5986e36295e594158fc22a0b206bf9c04733 arm64: dts: ti: k3-am62-verdin: Add Mezzanine with Toradex Display 10.1" LVDS
+         a8dd4468629fac5e0d93bbbb98a487e4190a5ce9 arm64: dts: ti: k3-am62-verdin: Add RPi Touch Display 2 7-inch
+         6060bb0c91346a12924e9060518188b0eba6d072 arm64: dts: ti: k3-am62p-verdin: Add NAU8822 Bridge Tied Load
+         8fa44cad1af27e117d60ef90606aa3e824dcf855 arm64: dts: ti: k3-am62p-verdin: Add Toradex OV5640 CSI Cameras
+         e706dc8f121d9245ccf53f51acc169875198b912 arm64: dts: ti: k3-am62x-verdin: Share UART_4 MCU reservation overlay
+         fbe849c4b5ae435d873547f522363c7220ca36c7 arm64: dts: ti: k3-am62l: Add bootph to usb0
+         7c1bb9b41661a2152b46430319a1dafdf15803de arm64: dts: ti: k3-am64: Fix MDIO clock reference for ICSSG0 node
          
-
---===============8661514799548870768==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784785572 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1784785653-369e715ee506c40925213b69a4c08783578a1697
-
-b426b5f2f0ca113dea806fa29fd652ad76c7061f be06c1a5094f0b00d745c4d419b6bb4eb4bb32cc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmphqqQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WLUQAI4L3fgGveYhi9SllltM
-ENoab8UvUNF5DA6n8j6QDhrgc2TCBHsmHY8nWlBBX2GLpaFgjEstVRFNLFxXYxFU
-eskHfX7KB0vpVtAhfoywRaaqizH4uI2vjJQcJPcXbpE0LIQs4ed0RBGheiNTs7yl
-oJGeDHe30MIRL0VWAiGNPCGeAWI3UihGaVNnYvJSvmVCwKHZVRkWNdFblrTGlTH7
-6IWm/0pxTskEMd1/56ZQzQhZLurdlJGkuwbTD0JBw8TVyzPk81XRVdQ2iWfce/YG
-LXNVG2C2N2q+SqBbM+xOlEbtTSLxgYx4O0JTnAuH8vlNA8b8GJEpOuz+vPd+ESjo
-io+Q/2ST+JilcwPaPAGNvr5y4n/Zc8yJ2LDWSmXj73TxwpOvGdDf2jPkPvMk8a6J
-iI1kVTBHtiL27WPNgKSY4/sqyZ8s2TahR1+1pCu+/9nOm8sZh11Dnzp0LsbEbzAG
-gtIXmbk8w9L7sEKCcwo+N0FOzPUBIcB2h+Sy9+AalhtHF+kIiPa9atbddvgpM9a8
-ZOdcITETOv4Xk8vWXswnsFS2BASEaZAIGfEulTGirTcDdWwMnqEBK0OcNP9RtU+N
-GL/c2ReL+mFO4huYGivPImn0zDAbQkvO7sNUAWltCEqLxMSXA6bm4wZ8EsMwSAvi
-t0XocspBuQhnRLO8EMS6cJkv
-=MdJ2
------END PGP SIGNATURE-----
-
---===============8661514799548870768==--
