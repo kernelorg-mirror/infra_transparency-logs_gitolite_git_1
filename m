@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1007919606251958000=="
+Content-Type: multipart/mixed; boundary="===============4498438376222979080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 23 Jul 2026 20:14:10 -0000
-Message-Id: <178483765033.2294634.975907355141229364@gitolite.kernel.org>
+Date: Thu, 23 Jul 2026 20:14:12 -0000
+Message-Id: <178483765299.2294820.7349888161485501093@gitolite.kernel.org>
 
---===============1007919606251958000==
+--===============4498438376222979080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.0.10/nfs-for-7.2-2
-    old: 7d9b7e89e054448ac021854fc81975840bb8c5d2
-    new: b6cf05f8916f4cc15a02af21bc8bb155638b907d
-    log: revlist-7d9b7e89e054-b6cf05f8916f.txt
+  - ref: refs/heads/kernel-7.0.10/nfs-for-7.2-3
+    old: c04c888be7c34b0d999b885c62e79ad6b574e64b
+    new: fdc8ab6b05f8118fce7f28d883091d6460c56b26
+    log: revlist-c04c888be7c3-fdc8ab6b05f8.txt
 
---===============1007919606251958000==
+--===============4498438376222979080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d9b7e89e054-b6cf05f8916f.txt
+Content-Disposition: attachment; filename=revlist-c04c888be7c3-fdc8ab6b05f8.txt
 
 c2b471eeb54b72eb39a0b6b4d45767710b403523 NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 142b25ccac364bbd8c246be762a96c15a8d709e8 nfs: use nfsi->rwsem to protect traversal of the file lock list
@@ -50,5 +50,7 @@ f7512e8f451ebd4af4591dd8f917b68d4ce2b3d3 SUNRPC: release lower rpc_clnt if kille
 4e983e0149b1625710d6eb6f58e97aa01b8828f3 SUNRPC: pin upper rpc_clnt across the TLS connect_worker
 06d4e1e5a3dc349ee095100afcaedb33467041ce NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
 b6cf05f8916f4cc15a02af21bc8bb155638b907d NFS: Charge unstable writes by request size, not folio size
+aaf5ae2712e1f5e56a2e9f9e7d4de369bc207cf3 NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
+fdc8ab6b05f8118fce7f28d883091d6460c56b26 NFS: Decrement refcounts if allocating nfs_free_stateid_data fails
 
---===============1007919606251958000==--
+--===============4498438376222979080==--
