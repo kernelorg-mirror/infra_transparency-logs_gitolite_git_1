@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 23 Jul 2026 23:55:47 -0000
-Message-Id: <178485094794.2461535.17596934870985603247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Fri, 24 Jul 2026 00:05:38 -0000
+Message-Id: <178485153829.2469097.13263182741714163155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/testing
-    old: fa2000702618660ec9ab111d9b0f0a99c6ff50ab
-    new: 0b5e142ced4bcf20532da051934bd694d1bbd470
+  - ref: refs/heads/mediatek-drm-fixes
+    old: d19d8542808c3be5f4af849da6509e877b74d811
+    new: d8a0962d3506f7c9fdc3cc49c81ff0b8ded09f2f
     log: |
-         0b5e142ced4bcf20532da051934bd694d1bbd470 iio: pressure: mpl115: Fix runtime PM cleanup
+         d8a0962d3506f7c9fdc3cc49c81ff0b8ded09f2f drm/mediatek: mtk_hdmi_common: take i2c adapter module reference
          
