@@ -1,42 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============8258039674230358226=="
+Content-Type: multipart/mixed; boundary="===============2705152342477850747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 24 Jul 2026 00:58:06 -0000
-Message-Id: <178485468687.2507610.4866498618173159632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 24 Jul 2026 00:59:18 -0000
+Message-Id: <178485475842.2508160.13134732695586635092@gitolite.kernel.org>
 
---===============8258039674230358226==
+--===============2705152342477850747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: a3cf3935f871c9eeeae2c86e612c7e54fdf3e87b
-    new: 4c3e558bb3810c0240a4daa8b3dff42ca5dc31a1
-    log: revlist-a3cf3935f871-4c3e558bb381.txt
+  - ref: refs/heads/for-7.2
+    old: a9df7939a2c5e3794769fde809ea892e5a414b93
+    new: 52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a
+    log: |
+         6a50332e194f58b562d396ab772c34e8c9890c0f ASoC: SDCA: Correct pointer passed to devm_acpi_table_put
+         7f64ccc374b2fe1f6a169182e95ab8e104cae406 ASoC: SDCA: Always free firmware in FDL path
+         556d872e7c2a0b570c5b0974813847ef0d0cd637 ASoC: SDCA: Make UMP message size check more robust
+         951e921b039b793bef7050eaf5c5fb1a4a5341d1 ASoC: SDCA: Ensure that Control Range is large enough for header
+         1a73896565b7c7079c562b744e35916c6d96c3a9 ASoC: Series of SDCA bug fixes
+         52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a ASoC: Intel: soc-acpi: Add entry for sof_rt5682 in NVL match table.
+         
 
---===============8258039674230358226==
+--===============2705152342477850747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3cf3935f871-4c3e558bb381.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f225e09516f468b71645f00191e0a77c3d85f1fb KVM: arm64: Provide guest support for GCS
-9f38a5894a41e5585eaff45cc807519a74a8520a arm64/gcs: Ensure FGTs for EL1 GCS instructions are disabled
-afc168003c4468dd8c930a60e6e53804c0105f14 KVM: arm64: Manage GCS access and registers for guests
-9e06604bc2f4c29dab9fddeb3a020e0ebef06ad0 KVM: arm64: Ensure GCS memory effects are visible
-32f3e23af31e310acaa55e1650c0cf865a785675 KVM: arm64: Set PSTATE.EXLOCK when entering an exception
-9316f5042c17735ca09bc0699e3e490e593a921a KVM: arm64: Validate GCS exception lock when emulating ERET
-df69c13a5f802fe5d28611cfe2607197d3d3d90d KVM: arm64: Forward GCS exceptions to nested guests
-fa0c28bc49d736fe7b63b5f2953de4974f903e6c KVM: arm64: Allow GCS to be enabled for guests
-cabfb59f8cdb888f36daf958164ff882057a1569 KVM: selftests: arm64: Add GCS registers to get-reg-list
-ca68a0ccf2c132fa1bb8c0ebb3fc60de37c1326f KVM: selftests: arm64: Add GCS to set_id_regs
-d6a6e5340595f67cdfcd77ab58f24998ad1ef4e6 KVM: selftests: arm64: Only restore SPSR_EL1 and ELR_EL1 if they change
-4c3e558bb3810c0240a4daa8b3dff42ca5dc31a1 KVM: selftests: arm64: Add GCS EXLOCK exception emulation test
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1784854756 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1784854756-c544280f7ca8f822f061e273f2baf1828113ff20
 
---===============8258039674230358226==--
+a9df7939a2c5e3794769fde809ea892e5a414b93 52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpiuOQACgkQJNaLcl1U
+h9CMjgf8DlxigLgh7SAfTqoLfWk7QtePp+fvAhXDQL6Tp1eR+jnDHz3HROvZ+izp
+LWnML72QbCMtgW3ezUmPnT6PCEY85F9eCNWjBrrqgGpBUGphYZvruedQ3WNTzRF2
+6Nw9jPXwsW+UStjtZz2vSiCmyDlwSkfZEldxnjZaDsoMUJK7x0ch/w0nJqdE7Vzp
+XtGE6seqf/gJE5aqdr5ZONuVCVWGlRk++8+M0zeXufn/DBrJlbSmeWmAzOG7vOE/
+bp1f93tUwPltC5crbw9Lip8b+lwXvxJK6j/7HZG/rLgV6uPLgCItNctibSmCywJ2
+ELiXeTnun5Pe/oRbXMcb4csZuuD4ng==
+=u5cx
+-----END PGP SIGNATURE-----
+
+--===============2705152342477850747==--
