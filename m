@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7385999283776915852=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Jul 2026 00:56:47 -0000
-Message-Id: <178485460746.2506505.11326002853065957937@gitolite.kernel.org>
-
---===============7385999283776915852==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Fri, 24 Jul 2026 00:57:26 -0000
+Message-Id: <178485464632.2507202.5471870262323458646@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-7.3
-    old: aba0c1ad728d20a8d345a6550ed3401d10421766
-    new: ef4f2357df6e9dd6213ce00d01253f3c458d5df0
+  - ref: refs/heads/for-linus
+    old: 60fc29910fd71e208180f92c69dccc0393dd4dc8
+    new: 5315129f8785ef9dedf01168500b516515e80d6e
+    log: |
+         5315129f8785ef9dedf01168500b516515e80d6e Merge remote-tracking branch 'regmap/for-7.1' into regmap-linus
+         
+  - ref: refs/heads/for-next
+    old: 934639410c60421b65652ec7a4e8a8396bc1ae3e
+    new: 79f27d80e8705719210cde456ec935cd4ce05975
     log: |
          ef4f2357df6e9dd6213ce00d01253f3c458d5df0 regmap: clean up kernel-doc comments
+         5315129f8785ef9dedf01168500b516515e80d6e Merge remote-tracking branch 'regmap/for-7.1' into regmap-linus
+         9ab6407f076d83bd3eb9fce2d58eb4ebbf917035 Merge branch 'regmap-linus' into regmap-next
+         79f27d80e8705719210cde456ec935cd4ce05975 Merge remote-tracking branch 'regmap/for-7.3' into regmap-next
          
-
---===============7385999283776915852==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1784854605 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784854604-bca625c4c6abcad2fcfa55c47175fb9d41335a3d
-
-aba0c1ad728d20a8d345a6550ed3401d10421766 ef4f2357df6e9dd6213ce00d01253f3c458d5df0 refs/heads/regmap-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpiuE0ACgkQJNaLcl1U
-h9DTWwf9EkP0eW1sdtr7XkuZC6/GF1MDhSDrTVigS5CfmYNlocs1CnofS0svQ/ie
-SlZhUK5rBi5lu/+tXZ5mTDQMfPW3SugCrZ1DVfw5tfvPF82rWe7rqMgCIZM0xPz0
-5LJizKa9D4oq9Uq2ofH1MXWpZEtf+e++NLU0P79odtyO9n8XHmvJpVgLhz/cxmDM
-bOYQG2gFO76kSNpsIyPbF7QzoWCBxQqLksfENB4wZLeKBXZg/asAz0PrGl2HlQaI
-Mpb6AkRBAHYf9mtqXbAu/hl11Q6Dx2Oc1lNkff8m9hP6TVme/20k+Hc1MyjGoVVY
-LnUAGjmCNQ4v6FupXqic3h42kiZ7lg==
-=V8iy
------END PGP SIGNATURE-----
-
---===============7385999283776915852==--
