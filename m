@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9016847272174328062=="
+Content-Type: multipart/mixed; boundary="===============1612072493264034721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 24 Jul 2026 20:46:57 -0000
-Message-Id: <178492601785.3713029.12342491878805746099@gitolite.kernel.org>
+Date: Fri, 24 Jul 2026 20:47:03 -0000
+Message-Id: <178492602312.3713312.7992066752681011461@gitolite.kernel.org>
 
---===============9016847272174328062==
+--===============1612072493264034721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes
+  - ref: refs/heads/kbuild-fixes-for-next
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: 1590cf0329716306e948a8fc29f1d3ee87d3989f
     log: revlist-dc59e4fea9d8-1590cf032971.txt
 
---===============9016847272174328062==
+--===============1612072493264034721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
 
---===============9016847272174328062==--
+--===============1612072493264034721==--
