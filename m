@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4736941602158997284=="
+Content-Type: multipart/mixed; boundary="===============3609035979169293057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 24 Jul 2026 09:49:40 -0000
-Message-Id: <178488658064.2888952.17099838330168699479@gitolite.kernel.org>
+Date: Fri, 24 Jul 2026 09:50:00 -0000
+Message-Id: <178488660098.2889270.1129715650793461418@gitolite.kernel.org>
 
---===============4736941602158997284==
+--===============3609035979169293057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 15a03914501c72388780156b04fb56ca6b01c20e
-    new: bef9aed655723e53c3d8bf6d2e4c7fd9fc5371d3
-    log: revlist-15a03914501c-bef9aed65572.txt
+  - ref: refs/heads/export-net
+    old: 3aa4f7a736529c07204d57a41362869f9b777463
+    new: bed3c49b21c8c42884887e78936c27986a9b9324
+    log: revlist-3aa4f7a73652-bed3c49b21c8.txt
 
---===============4736941602158997284==
+--===============3609035979169293057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15a03914501c-bef9aed65572.txt
+Content-Disposition: attachment; filename=revlist-3aa4f7a73652-bed3c49b21c8.txt
 
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
 ca978f8a93d4d36841839bf2847d29b88c2591d6 scsi: xen: scsiback: Free unsubmitted command instead of double-putting it
@@ -164,8 +164,6 @@ daff723f2d4c618d5f9186a990f47bf75878abeb block: do not warn when doing greedy al
 4416f8a9ed5f49256dc69c664f1386b496ca16a1 liveupdate: fix GET_NAME ioctl argument validation
 a3d6d3cedfe87bbd5a677d52b22ac20d28e59cf8 ALSA: hda: codecs: hdmi: disable keep-alive before audio format change
 ac1e8d01f4ea0d4a5739c6f40b07484c6385cfbb ALSA: hda/realtek: Add inverted LED quirk for HP ZBook 8 G2a
-0b7b17502300f7e7788fa5f1eab1147a960ede3c net/mlx5: Drop redundant esw_cap, reuse e_switch_cap
-bee40a7d0bd1263934f99054db037cdd4a33fd86 net/mlx5: Add PSP related fields to the mlx5_ifc
 7dcf091da4b4596f7dbfb403d946ee4aac423af3 ASoC: fs210x: Make cache write through again during resume
 bd2df8dc72201f626d66ca97f2afc8b7f2740713 block: free copied pages when blk_rq_map_kern() fails
 4ff58d6bc9dd4c7fe6092d0ab5677a79ebc788af block: serialize elevator changes for the same queue using a writer lock
@@ -313,8 +311,6 @@ c2de9edf4f7027d669fd7a95964353e2c0c46bbd Merge branch 'net-stmmac-l3-l4-filter-b
 ba0533fc163f905fe817cfabdf8ed4058da44800 tipc: clear sock->sk on the failed-insert path in tipc_sk_create()
 675ed582c1aa4d919dd535490de08c015005c653 net: gre: fix lltx regression for GRE tunnels with SEQ/CSUM
 3671f0419d90b98a02f313830595ab958c8b2025 mpls: Set rt->rt_nhn just before returning from mpls_nh_build_multi().
-6217246bc5bf33f3caccf290983f65b23edb38be selftests/net: Skip srv6_end_dt46_l3vpn_test if iproute2 too old
-92f0217f8afd8c96288a5e88263d1a15cf98ceec octeontx2-af: return VWQE timer delay in NIX HW info
 0d4d31e3cc5dd6204fa1495c4107f5075acce5ed octeontx2-vf: set TC flower flag on MCAM entry allocation
 793b9b729f1e8de57be8c8daf1a9838be96cabed mctp: serial: handle zero-length frames to prevent rx buffer overflow
 249447ff83967980ed6751660665cc682ff84e0c MAINTAINERS: remove Rengarajan Sundararajan from LAN78XX
@@ -327,7 +323,6 @@ e9c238f6fe42fb1b4dba3a578277de32cb487937 pppoe: reload header pointer after dev_
 e78f1ac37afcb16cb6fef8a2c92591eab6558956 ptp: ptp_s390: Add missing facility check
 4579866a7de3661fa0a034e1e96563ace0944444 Merge branch 'add-missing-facility-check-to-ptp_s390-driver'
 fe0c002928c6749b7f4a726f6f600f6dd70280ea hinic: remove unused ethtool RSS user configuration buffers
-94cdc6a2c837d33e64d9453e9110d35af3833eda selftests/net: use MAP_FAILED instead of (void *)-1 in tcp_mmap
 3b536db8fb32da9e9c62f2bb45e2e319331f0426 net: qrtr: restrict socket creation to the initial network namespace
 18f116931f52e3c3303ad4b15ff41eb89b0e4239 raw: annotate lockless match fields in raw_v4_match()
 fd3a3f28ed60c6af4b2a39933b151d6b27842c3b mac802154: llsec: reject frames shorter than the authentication tag
@@ -363,14 +358,11 @@ d9a33cadc70a94c1582f65e6042e81027cd200c6 mctp: check register_netdevice_notifier
 649ea07fc25a17aa51bff710baac1ab161022a7c net: airoha: fix ETS channel derivation in airoha_tc_setup_qdisc_ets()
 d73a2e81f3cf6d870ef59a94f7e30880f4ee56e3 Merge tag 'ovpn-net-20260720' of https://github.com/OpenVPN/ovpn-net-next
 47f42ff521b4eeb46e82f9a46a4783a99f7570d7 tipc: fix integer overflow in tipc_recvmsg() and tipc_recvstream()
-b8363908ea1ea08c726c4804211a38dd353219fe selftests: drv-net: Fix csum path in doc
-1306cf6dc1dfd34b97ccff98fcb08168c352dbef selftests: drv-net: Fix TSO test doc
 b9e558976bb968162c35ddccdb076a77fc906993 bnge/bng_re: fix ring ID widths
 0f71f852a96af9685858ce59fda34ecbf85c283d phonet: pep: fix use-after-free in pep_get_sb()
 d1ff66b66151c14b084e88040512a064b1c1e493 phonet: check register_netdevice_notifier() error in phonet_device_init()
 9b2854f86f0b56e9027d68e7a3fc909d1a9b566f sctp: don't free the ASCONF's own transport in DEL-IP processing
 234e5e898b713bc0b3a631b6f002897f43d046c8 mac802154: hold an interface reference across the scan worker
-1324135c41671f8da3bbe0b2539b6c83b09c6cb0 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 f3ca0ee2cc308e33896536789cbc5f3a12ca7b30 mptcp: decrement subflows counter on failed passive join
 9bc6d5e4ca9f3cbb41d43400b3a31cb0403796c9 mptcp: pm: userspace: fix use-after-free in get_local_id
 bd7aae448f6ee9d82599a4474664de1e6e91a535 mptcp: fix stale skb->sk reference on subflow close
@@ -381,49 +373,17 @@ e3213292c4fd69ba442c6ed4693f91a92b753140 selftests: mptcp: userspace_pm: fix und
 7089f7ab99c89f443c92d8fcc585e63f2727f0b3 drop_monitor: fix size calculations for 64-bit attributes
 fd098a23bf8fda7eae48db9b06e7c34fc4d228fa drop_monitor: perform u64_stats updates under IRQ-disabled section
 6a8da869fa338e008533dd6385a0eb35dee6acf4 Merge branch 'drop_monitor-take-care-of-32bit-kernels'
-ed6dc972c19ff9ffca504f5739848da4275219e3 net: dsa: microchip: Fix log typo in error path
 d326f83e819c53aa05c40d64f5805d6237b6aa1b Merge tag 'net-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-89d8006259b81dd25c962f6cc8d7ab268d6ea426 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 78f75d632f74b8de0f081a128588f7c37d0d1164 rds: tcp: hold the RCU lock across ipv6_chk_addr() in rds_tcp_laddr_check()
-c3a4a57d468e85682972e3764ad6ae8d023dcc27 DO-NOT-MERGE: git markup: net
-398993c05324436e1ec3f7f7233bedf3427e09ea DO-NOT-MERGE: git markup: fixes other trees
-d46a9165e57641a28e13c9b13e5dec461936b2a3 mptcp: fastopen: only mark MPTFO subflows with SYN data
-a34425e3da277c09c1a35a76aee1aaaf9f7b8cfa mptcp: pm: fix data race in add_addr timer callback
-4af98386b473d55c7c3783d5c3cdd1bbf5dba5ab DO-NOT-MERGE: git markup: fixes net
-e9db9d71c9a073749226d853691f993b9415881e DO-NOT-MERGE: mptcp: add CI support
-54d7ef92a25e11d211bfe217fe6dbf7b408e702e DO-NOT-MERGE: git markup: end common net net-next
-ad753baaaac31c025debc89ca673ed2bbb0f1c98 TopGit-driven merge of branches:
-09b0c5485c42b3da0382155d82afe80de5672e3a DO-NOT-MERGE: git markup: net-next
-63c73e64b39e93063f20cf1788c25ae5651f9491 DO-NOT-MERGE: git markup: fixes net-next
-86c2d03ed5ec02356c8f1b2c068ba0e3170212f1 mptcp: pm: init and release mptcp_pm_ops
-6ff47b23fa291d12d68bacdd3e7f131665b655ed mptcp: pm: add get_local_id() interface
-3bc0d81b22363c3c3bb0f9798f468938b432c52c mptcp: pm: add get_priority() interface
-860703f1caf6dadd28145d05fa2d7fe48ff6ddf8 selftests: mptcp: connect: test name in pcap file
-96d499ab25b1fbfbe468ecb228daff3478ba7a25 selftests: mptcp: simult_flow: test name in pcap file
-19554642d078368c6f80da1069e4b3436f75aebc selftests: mptcp: pcap: drop most of the payload
-0a4964855e1cbae9b592fc75d47b12b3d4885325 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-d44bd63e9101da7837c06f81c7a47d3553425e24 mptcp: remove unused data_ack from struct mptcp_ext
-1cb5026e57653cb54f285cc64a1044e2f6bd3468 mptcp: move the retrans loop to a separate helper
-5c70990e4ff329938f20f43d4455408273e244ec mptcp: let the retrans scheduler do its job
-8ba24a5f5b258d7d9323deace62a8dcf3a0864f3 mptcp: explicitly drop over memory limits
-6eb9b7be2853e0355746e8f4eb7e2c8b059b77a3 mptcp: enforce hard limit on backlog flushing
-e30d37cea3bb708a7d481e1e40b74021d7c4c391 mptcp: implemented OoO queue pruning
-b7bba1dcf54888fd6807fc45dae1783caefaeafa selftests: mptcp: fix const qualifier warnings in strchr usage
-c70b502944a32f8871ba4210cd928a322e4388b2 DO-NOT-MERGE: git markup: features net-next
-e8e9c2fe94a4f6958622d14326f0408392395cdd DO-NOT-MERGE: git markup: features net-next-next
-61a3364fbfe52b9196dd41a1dc2b3fd37a125155 bpf: Add mptcp_subflow bpf_iter
-894ef2892614b0852874820e1d2787bdef35c779 selftests/bpf: More endpoints for endpoint_init
-e29916e9b9b9510f2b8b3db62801dd3ea2aa0f43 selftests/bpf: Drop cgroup_fd of run_mptcpify
-1548e63e5258c9d5560416197d953fdbc8e8a146 bpf: Add mptcp packet scheduler struct_ops
-7e1b45ce2651fc301d835d063be88cec88dda884 bpf: Export mptcp packet scheduler helpers
-bcf9e47be8c814dbe7858b9a186522ea849bb0ea selftests/bpf: Add bpf scheduler test
-54f05facfb8df9468b90840edfb89fe11050c64e selftests/bpf: Add bpf_first scheduler & test
-ecf190e3d2f52fa570872303c40f8f1e290f5f3f selftests/bpf: Add bpf_bkup scheduler & test
-28e4505b54ba8502c354df3ab3657783167a2d12 selftests/bpf: Add bpf_rr scheduler & test
-474dc74d16f367169edf835f9781d084d8f148dc selftests/bpf: Add bpf_red scheduler & test
-d3c3c0b86bc008affb51d94847b343abbe2f6dc5 selftests/bpf: Add bpf_burst scheduler & test
-9ccc0da659c01d6e9469918008a05661bf467cb6 DO-NOT-MERGE: git markup: features other trees
-76e0fa8effaf952fdaca0b5597966a73e319b9ec DO-NOT-MERGE: mptcp: improve code coverage for CI
-bef9aed655723e53c3d8bf6d2e4c7fd9fc5371d3 DO-NOT-MERGE: mptcp: enabled by default
+706e4b23e18a76e2bcc0597ce32ef113315b6d6c DO-NOT-MERGE: git markup: net
+da4e9abf216642ea0e7026caa06bdfb16464dce6 DO-NOT-MERGE: git markup: fixes other trees
+710929e7169d3879c0ede9dc5a56f088b4b7e7c0 mptcp: fastopen: only mark MPTFO subflows with SYN data
+5a96fc2d05e12146573bd4f7d3a427613d2fe5f3 mptcp: pm: fix data race in add_addr timer callback
+c7f62ab1d8096ae05e04691c7c45970699b97e14 DO-NOT-MERGE: git markup: fixes net
+cc7fa39ca4d8b7886ae0e0e011abcb8715e2b94e DO-NOT-MERGE: mptcp: add CI support
+2c1434ddc834aea6c76076ed2060d358bb9c7a69 DO-NOT-MERGE: git markup: end common net net-next
+e9dba279c12206684b43b23df4cefba66c196e9d DO-NOT-MERGE: git markup: fixes net only
+90dfa9e0a2fbfef53556d303d2348dfec40da00d DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+bed3c49b21c8c42884887e78936c27986a9b9324 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============4736941602158997284==--
+--===============3609035979169293057==--
