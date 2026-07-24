@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 24 Jul 2026 08:09:39 -0000
-Message-Id: <178488057916.2816386.2516782520676058708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Fri, 24 Jul 2026 08:33:43 -0000
+Message-Id: <178488202334.2833432.10163704474653161669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/tags/ixp4xx-soc-v7.3
-    old: 0000000000000000000000000000000000000000
-    new: cd502c9188bc257423f601ab9822d94a1674e7aa
+  - ref: refs/heads/loongarch-fixes
+    old: bd36a47b471909994a0d84383baf4503fe518ca6
+    new: 91a70492c03040d51b36f595530d6491d5d6c541
+    log: |
+         47e20d4b3da97ef3881d1e55e43545c22424f3fc LoongArch: BPF: Fix memory leak in bpf_jit_free()
+         cf4dd800e49d35d48ebd63d511a6e200f39176f7 platform/loongarch: laptop: Stop setting acpi_device_class()
+         91a70492c03040d51b36f595530d6491d5d6c541 platform/loongarch: laptop: Explicitly reset bl_powered state when suspend
+         
