@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 24 Jul 2026 08:33:58 -0000
-Message-Id: <178488203878.2833728.17309864694134214140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 24 Jul 2026 09:11:13 -0000
+Message-Id: <178488427362.2860515.4601000901420162766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: bd36a47b471909994a0d84383baf4503fe518ca6
-    new: 91a70492c03040d51b36f595530d6491d5d6c541
+  - ref: refs/heads/for-linus
+    old: 704de5697008ea5caa04bb6a7266624699801ddc
+    new: 0786c39342d3393d5e749cedb4c012b0d05a7cff
     log: |
-         47e20d4b3da97ef3881d1e55e43545c22424f3fc LoongArch: BPF: Fix memory leak in bpf_jit_free()
-         cf4dd800e49d35d48ebd63d511a6e200f39176f7 platform/loongarch: laptop: Stop setting acpi_device_class()
-         91a70492c03040d51b36f595530d6491d5d6c541 platform/loongarch: laptop: Explicitly reset bl_powered state when suspend
+         0d13f41a2e0a6c795845a109b1095654b62e1426 ALSA: usb-audio: Add iface reset and delay quirk for JKY Technology Q2A
+         0786c39342d3393d5e749cedb4c012b0d05a7cff ALSA: usb-audio: Add dB map quirk for Razer Barracuda X 2.4
+         
+  - ref: refs/heads/master
+    old: 16b17281a77e9968cf172241f1fa8a42b7caf3bd
+    new: 0dc061e28216b1fff30ae52252fc7feafe392565
+    log: |
+         0d13f41a2e0a6c795845a109b1095654b62e1426 ALSA: usb-audio: Add iface reset and delay quirk for JKY Technology Q2A
+         0786c39342d3393d5e749cedb4c012b0d05a7cff ALSA: usb-audio: Add dB map quirk for Razer Barracuda X 2.4
+         0dc061e28216b1fff30ae52252fc7feafe392565 Merge branch 'for-linus'
          
