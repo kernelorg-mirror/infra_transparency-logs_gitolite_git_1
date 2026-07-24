@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8595558186270001250=="
+Content-Type: multipart/mixed; boundary="===============2068430047632193378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 24 Jul 2026 09:31:37 -0000
-Message-Id: <178488549717.2875946.2404852392086214479@gitolite.kernel.org>
+Date: Fri, 24 Jul 2026 09:32:11 -0000
+Message-Id: <178488553108.2876803.15062974205710161865@gitolite.kernel.org>
 
---===============8595558186270001250==
+--===============2068430047632193378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1b57632fa6f9ad161c2633a6df4c65e973790218
-    new: e2bbcce3a668fa6fdb038db1e198eedf78885bea
-    log: revlist-1b57632fa6f9-e2bbcce3a668.txt
+    old: e2bbcce3a668fa6fdb038db1e198eedf78885bea
+    new: 2d2ae93bc5525c91031b218314855a8d43b6bbf6
+    log: revlist-e2bbcce3a668-2d2ae93bc552.txt
+  - ref: refs/heads/tip/urgent
+    old: 787af4de535638af976557627c8a786cbf482403
+    new: 6fa1a9921b4696ac3fd2a0eb03ac5a74825f3e5d
+    log: revlist-787af4de5356-6fa1a9921b46.txt
 
---===============8595558186270001250==
+--===============2068430047632193378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b57632fa6f9-e2bbcce3a668.txt
+Content-Disposition: attachment; filename=revlist-e2bbcce3a668-2d2ae93bc552.txt
+
+bb2fb81208b066264769b6c78788261140b4d12e Merge branch into tip/master: 'smp/urgent'
+6fa1a9921b4696ac3fd2a0eb03ac5a74825f3e5d Merge branch into tip/master: 'x86/urgent'
+d71e4adf8293efb721a45367e2175008f63b55ac Merge branch into tip/master: 'perf/merge'
+5f8e20c37a839f8bc9522318d5c2fa9e6d76fbef Merge branch into tip/master: 'core/entry'
+6655195d18abd477c9628c0936021822b21ecd85 Merge branch into tip/master: 'core/rseq'
+4a8a7571e881a92c2a99fa16e7914df66c1bf602 Merge branch into tip/master: 'irq/core'
+6dbc62759c98be6cfa032c39ab4138e874f14e4b Merge branch into tip/master: 'irq/drivers'
+67356b288bbffba8623e1a031bda0bf12ad628f5 Merge branch into tip/master: 'locking/core'
+f2e88820a69be3c5cd3f19f70bdc5311e61d7f41 Merge branch into tip/master: 'locking/futex'
+968e49ea6df582125e088a0a2d3dbde5fa9eeaf6 Merge branch into tip/master: 'ras/core'
+aa9813d78c842988874a465f19e17827f1663d67 Merge branch into tip/master: 'sched/core'
+31769c7d4190341d7c9f15dea0c7688b34aac199 Merge branch into tip/master: 'smp/core'
+88b7cc89adbb58051da98b4889855ccaec33ad44 Merge branch into tip/master: 'timers/core'
+ad19a44f489b01598b589c3aec73a709b4804e97 Merge branch into tip/master: 'timers/vdso'
+5fad5ee16408760da0765a8bda2fa47bbe397d6e Merge branch into tip/master: 'x86/alternatives'
+20936f50d6151ff71121bcc77a438ba47e2c0969 Merge branch into tip/master: 'x86/boot'
+ce647515811af5475553bd5ad2bd3bf5063ba0d0 Merge branch into tip/master: 'x86/build'
+9c5297d55dc871544ffd7f564eda1557a93fea5f Merge branch into tip/master: 'x86/cache'
+3e9ff5b06fb197f761327191c2c9f6ab4584350e Merge branch into tip/master: 'x86/cleanups'
+38dbd70224f1b4079b669515ec4ce43b041009d2 Merge branch into tip/master: 'x86/cpu'
+3d0e3c75a47ebd11da9f56b117f364ef87af6483 Merge branch into tip/master: 'x86/entry'
+fd6a8846c9307f82f3bb653658db30cf9d77b160 Merge branch into tip/master: 'x86/mm'
+3693ef38296bbb2330d93f0d7db5082d8c101198 Merge branch into tip/master: 'x86/msr'
+2d2ae93bc5525c91031b218314855a8d43b6bbf6 Merge branch into tip/master: 'x86/tdx'
+
+--===============2068430047632193378==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-787af4de5356-6fa1a9921b46.txt
 
 dad9f96945d77ecd4708f730c06ef54dcd8cc057 wifi: ath9k: hif_usb: don't dereference hif_dev after re-arming firmware request
 ba7debb4dd6427386862220e8335a53a4bfc235d wifi: ath6kl: fix use-after-free in aggr_reset_state()
@@ -289,6 +324,7 @@ fd098a23bf8fda7eae48db9b06e7c34fc4d228fa drop_monitor: perform u64_stats updates
 6a8da869fa338e008533dd6385a0eb35dee6acf4 Merge branch 'drop_monitor-take-care-of-32bit-kernels'
 d326f83e819c53aa05c40d64f5805d6237b6aa1b Merge tag 'net-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 48a5a7ab8d6ab7090564339e039c421f315de912 Merge tag 'v7.2-rc4-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-e2bbcce3a668fa6fdb038db1e198eedf78885bea Merge branch 'linus'
+bb2fb81208b066264769b6c78788261140b4d12e Merge branch into tip/master: 'smp/urgent'
+6fa1a9921b4696ac3fd2a0eb03ac5a74825f3e5d Merge branch into tip/master: 'x86/urgent'
 
---===============8595558186270001250==--
+--===============2068430047632193378==--
