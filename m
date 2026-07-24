@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3140901804348382288=="
+Content-Type: multipart/mixed; boundary="===============3240732484712624531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 24 Jul 2026 22:15:16 -0000
-Message-Id: <178493131675.3781318.12357208630959342191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 24 Jul 2026 22:15:32 -0000
+Message-Id: <178493133288.3781624.153137102839046320@gitolite.kernel.org>
 
---===============3140901804348382288==
+--===============3240732484712624531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: e13caf1c26587434f0b768193100440939c0fb91
-    new: 4787a6d2629b4e8c0b6bacab1f75c1660eca44d9
-    log: revlist-e13caf1c2658-4787a6d2629b.txt
+  - ref: refs/heads/main
+    old: 298bb2b8903323f6ef2eab4819a2e477765f0ff1
+    new: be6f0d0bae229ebd03e9bfe736f78e2d6b35885f
+    log: revlist-298bb2b89033-be6f0d0bae22.txt
 
---===============3140901804348382288==
+--===============3240732484712624531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e13caf1c2658-4787a6d2629b.txt
+Content-Disposition: attachment; filename=revlist-298bb2b89033-be6f0d0bae22.txt
 
 e81f1079f9000892cf54b23a9572ad5d86036fca scsi: core: Remove export for scsi_device_from_queue()
 ca978f8a93d4d36841839bf2847d29b88c2591d6 scsi: xen: scsiback: Free unsubmitted command instead of double-putting it
@@ -195,6 +195,8 @@ daff723f2d4c618d5f9186a990f47bf75878abeb block: do not warn when doing greedy al
 4416f8a9ed5f49256dc69c664f1386b496ca16a1 liveupdate: fix GET_NAME ioctl argument validation
 a3d6d3cedfe87bbd5a677d52b22ac20d28e59cf8 ALSA: hda: codecs: hdmi: disable keep-alive before audio format change
 ac1e8d01f4ea0d4a5739c6f40b07484c6385cfbb ALSA: hda/realtek: Add inverted LED quirk for HP ZBook 8 G2a
+0b7b17502300f7e7788fa5f1eab1147a960ede3c net/mlx5: Drop redundant esw_cap, reuse e_switch_cap
+bee40a7d0bd1263934f99054db037cdd4a33fd86 net/mlx5: Add PSP related fields to the mlx5_ifc
 7dcf091da4b4596f7dbfb403d946ee4aac423af3 ASoC: fs210x: Make cache write through again during resume
 bd2df8dc72201f626d66ca97f2afc8b7f2740713 block: free copied pages when blk_rq_map_kern() fails
 4ff58d6bc9dd4c7fe6092d0ab5677a79ebc788af block: serialize elevator changes for the same queue using a writer lock
@@ -341,17 +343,49 @@ ec48b3be2c8595dd290be883dbd4fb8b2f9f5d5e net/sched: Handle TC_ACT_REDIRECT from 
 f789afed9448e17f12e0dffe84c2d57acd206d42 selftests/bpf: Add test for redirect from qdisc qevent block
 1572d5862cec365f9bee4684784be02401dd0623 Merge branch 'fix-broken-tc_act_redirect-from-qdiscs'
 1c975de3343cdef506f2eecc833cc1f14b0401c4 bonding: fix devconf_all NULL dereference when IPv6 is disabled
+e354f7d60f14a3eacd5ec7b607346a5612f655ec bnx2x: fix null pointer dereference in bnx2x_free_mem_bp()
 15f197856d68882af9416fc97516bb55079b7677 tracing/probes: Avoid temporary buffer truncation in trace_probe_match_command_args()
 a9d6fb284039a5d3858a1d9f9a0d7e46cfb7c2d4 tracing/probes: Prevent out-of-bounds write in __trace_probe_log_err()
 8ce20bfba48902e1382187cd1a852f7cf3a1e739 tracing/probes: Fix potential underflow in LEN_OR_ZERO macro
 f418d68d71fd4a0a9cef92377bc8c4c3334b5b53 tracing/eprobe: Fix exact system name matching in eprobe_dyn_event_match()
+7c27c1b7b32b9a7e8c2b07354f8d8f1ae7953ef6 dt-bindings: ethernet: eswin: relax internal delay model to range-based constraints
+3c6dfb86db07534ee34fa834c51d3608df4af197 dt-bindings: ethernet: eswin: add EIC7700 eth1 RX clock inversion variant
+186f38935e28ae700b0fe062dcc6ab345211dcee net: stmmac: eic7700: make RGMII delay properties optional
+0cb57bdebd101da07587e7f43d9473af826dd527 net: stmmac: eic7700: add support for eth1 clock inversion variant
+1e4aed51b7bae9dae05601760a354c06ae23b064 Merge branch 'net-stmmac-eic7700-add-eth1-variant-support-and-update-delay-bindings'
 be7cc4656eb1f54029610e82d1f0fdd3f9b5ec0a net/iucv: fix use-after-free of a severed iucv_path
+777434f53e77f716561eac27e8a21278f1f81e4e geneve: pass geneve_config pointer to helper functions
+0ba269933f733222a5819d0cfc5f77f5606fabac geneve: convert config to RCU-protected pointer
+5415c41a83789f02238a61cecd3f9125045d4306 geneve: make geneve_fill_info() RTNL independent
+bbc93a389e01aebe73ffb4cfeeedc338b206c8c5 Merge branch 'geneve-make-geneve_fill_info-rtnl-less'
 d163725af84ad958bb74ef4f6eb906a04daa8902 net: airoha: fix MIB stats collection to be lossless
 9573818cc1b7ac22176d0a2b60bfbc440e94f7d5 ALSA: hda/realtek - Add quirk for Dell Pro QC1255
+80d8e1d428e898f792e3c87161cd3b522a2159a9 net: sparx5: configure TAS port link speed
 4032f8ed10fcb84d41c508dfb04be96589f78dfe openvswitch: fix GSO userspace truncation underflow
+2aa955bc52e93228e2ae6be91806cfc707476deb dt-bindings: net: Add ADIN1140
+7d0e4c4b8c85d8ea2c77a90e1f7a7f74ce531e52 net: ethernet: oa_tc6: Handle the OA TC6 SPI protected mode
+1d030cdd52ee0042753327601156e7938f2455c1 net: ethernet: oa_tc6: add OA_TC6_BROKEN_PHY quirk flag
+87ac7ea2153c0e52aa24568226a90929ee5249c3 net: ethernet: oa_tc6: Export the C45 access functions
+9210d402bdf54240b8aec9815b2f9aad360fcb42 net: ethernet: oa_tc6: Export standard defined registers
+31bc75f17c1f5ff989fa896aae3e4e411d9b0b7a net: ethernet: oa_tc6: Add the OA_TC6_ prefix to standard registers
+6ad250179486d718dde90d815fc77df4de7d1dc4 net: ethernet: oa_tc6: Add read_mms/write_mms register access functions
+92ec8d69ddb0a75cd416f571236915d09fcb9bf6 net: ethernet: oa_tc6: Use the read_mms/write_mms functions for C45
+638b41f770ade0dfc45f7f6f25e1cf75a9c89808 net: ethernet: oa_tc6: Add new register address defines
+aa63217916e1818a28b711384a9340d965ad073f net: phy: add generic helpers for direct C45 MMD access
+85032df227f9e7b7d6a74269968edad891d80ef9 net: phy: microchip-t1s: use generic C45 MMD access helpers
+0feaf415b7822b27ff60c2711fd345a0414a80f0 net: phy: Add support for the ADIN1140 PHY
+20e69e671070ab0b712b34a0e8977e8a402aa5eb net: ethernet: adi: Add a driver for the ADIN1140 MACPHY
+777f49d336fe89b8641522767bb6ecd42c6a940f Merge branch 'net-add-adin1140-support'
 e32649b4bad90a6216d8e93cd7dd050af8ac9740 net/mlx5e: Use sender devcom for MPV master-up
+3cb8d4b9bfeb8a76fc895975842539aa6d5084c4 udp: fix encapsulation packet resubmit in multicast deliver
+e5382133c51cc92766914b54c9c257d7c54c8079 selftests: net: add FOU multicast encapsulation resubmit test
+c7838468195b2e3e41e72486b8fbf597707f3892 Merge branch 'udp-fix-fou-gue-over-multicast'
 5521ae71e32a8069ed4ca6e792179dc57bc43ab2 rds: drop incoming messages that cross network namespace boundaries
 96e37e2f618e931aa97af95e707dcdfb1ec41264 gtp: parse extension headers before reading inner protocol
+b9ecdfda4d48b7cb33bff3bd924ded7019aa4df2 net: skbuff: optimization of net_zcopy_get() call in pskb_carve helpers
+1469773b246a2b99fddc7331378e270e611f04bc ipv4: use rcu_assign_pointer() in rt_flush_dev()
+7804eaa057fe19da09fa109484a3081d7bba2b76 ipv4: snapshot dst.dev in ip_rt_send_redirect() and ip_rt_get_source()
+abc435224e87c25baad28dc21fdead36ac11c02e Merge branch 'ipv4-update-rt_flush_dev-and-two-dst-dev-readers'
 745fb794c3e933c023af9dbb5876a5e16ad2dc71 rxrpc: fix io_thread race in rxrpc_wake_up_io_thread()
 2a12c05aef213ff304ecc9e2f351de20731946b8 vsock/virtio: collapse receive queue under memory pressure
 30c82aa0a8b116989bc4d8f75e1936bd83c0134e vsock/test: add test for small packets under pressure
@@ -368,6 +402,14 @@ cd76ec58be59b061cc6a835226abff50fa35e3e6 KVM: selftests: sev_smoke_test: Only ru
 f148dd411d451e3e4bf79240faec736d101832d4 KVM: selftests: sev_init2_tests: Derive SEV availability from KVM
 e800decd9c0ac4349bcd8f8f9b29fd21fe93165e KVM: x86: Only reset TSC Deadline Timer in apic_timer_expired on KVM_RUN
 e61e6fd4f139f2342a6bc86da602df7456ef87f6 Merge tag 'kvm-riscv-fixes-7.2-1' of https://github.com/kvm-riscv/linux into HEAD
+f6195e3c30266679d1b93196e81424cc01862715 net: ipip: use tunnel parameters for fill_forward_path route lookup
+4b0eb6fbc1fd96390226cbc1156f85ca04dc2ebb bridge: mcast: Fix a false positive lockdep splat
+dbda4c27bd772155356a9a6506de988607a708a3 bridge: mcast: Remove unnecessary argument from br_multicast_alloc_query()
+c1e8a257165dc6ee47e84f375bcfaca421c63e2f Merge branch 'bridge-mcast-fix-a-false-positive-lockdep-splat'
+a5faaa079c61bba53e3de25471d5b2e666908fee mlxsw: Convert to async version of ndo_set_rx_mode
+925a17fe430983412bbe10424dae289b60744ada mlxsw: ethtool: Prepare for RTNL-less ethtool operations
+0501dd682648dd6c94570b01ef37f76b489c9fdf mlxsw: Tell the core to use the netdev instance lock
+e0722efbcfeb142e02b0b8031136ce81610a8507 Merge branch 'mlxsw-make-the-driver-ops-locked'
 952c02b33f56207a160421bcd61e7ac53c9c59ae wifi: mac80211: tear down new links on vif update error path
 a61b4db34a753bdf5c9e77a7f3d3dddd41dcfacc nfp: Check resource mutex allocation
 91957b89da995607cb654b1f9a3c126ddbaee10f wan: wanxl: Only reset hardware after BAR mapping
@@ -387,19 +429,46 @@ a007a384c9eb17610f53a53e2f59944c31f1565a wifi: mac80211: recalculate TIM when a 
 531f47495a5d76fb9df490dd9924725c1aec3096 Merge tag 'iwlwifi-fixes-2026-07-21' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 b24adfed83ae3fe623d978a30d5c6c636a874821 wifi: cfg80211: guard optional PMSR nominal time
 7be2552e601c247a328a5aba6fc06ac844b94a16 pds_core: reject component parameter in legacy firmware update
+55e9b2788fdc051710885fd30e3a3e813d9bed49 net/mlx5e: psp: Rename the saved psp_dev to 'psd'
+c61cb6647a2c4624af55c5f4ee706bf8a0dd6942 net/mlx5e: psp: Remove PSP steering mutexes
+997dd8fef048634465bc46fb18131dc7d85d4b79 net/mlx5e: psp: Remove unneeded ref counting for PSP steering
+346bdf9caa2952ea0703f8fcd8f3772d6f60826e net/mlx5e: psp: Merge rx_err rule add/delete with ft create/delete
+feaf6f90644efad66dce366c6816130996317609 net/mlx5e: psp: Use helpers for steering object manipulation
+46a1240b2e117c4e54b6c9687d9ec2b23b47bece net/mlx5e: psp: Factor out drop rule creation code
+9454d5edfd92b64b1a0e982ccccd838ffd972176 net/mlx5e: psp: Remove unused PSP syndrome copy action
+1b1a66b37e2c7b212f54697ebb4442214001b396 net/mlx5e: psp: Rename and consolidate steering functions
+25f756e29feda96056b6408bbd2941dba9325035 net/mlx5e: psp: Adjust rx_check FT size and use a drop_group
+4bb6e87aceeab945a4db4aabd1b486f8d88f6262 net/mlx5e: psp: Add an RX steering table
+92be057b8048229695f2d582a789ca5543233f4c net/mlx5e: psp: Use a single rx_check table
+823f296008f39bb95c189cedf3b9f16d4ed65234 net/mlx5e: psp: Flatten steering structures
+1e6e0cec0dab96f5968a29c4d363da05200171e4 net/mlx5e: psp: Make PSP steering config dynamic
+13ae76a6a3e6f1b6d5a2505192288f9f58c903fc net/mlx5e: Return errors from profile->enable
+676fe97d57df18c8ce00b42c4881e8d848e23a54 net/mlx5e: psp: Report PSP dev registration errors
+d4932951a19a5f1ec93200260b85e1a4c080ff77 Merge branch 'net-mlx5e-psp-cleanups-and-improvements'
 51f247c4b293b470723e69a321e2cc5ecf9080db Merge tag 'for-7.2-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+860b693bca593c10e8294b79648799d96f6953d1 Revert "gtp: annotate PDP lookups under RTNL"
 cdb65777c47eb384023aa4df71148e04c204f92d Merge tag 'probes-fixes-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 b4b760b59fad082671b075f4f1fdac318c633a61 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+7e7bd5158e989814ce0a03a4d1517d54a102c3f2 net: phy: drop duplicated header include in mdio-device
 e751256486d0ded20f5a9f9863467f1dce65142f net: gro: fix double aggregation of flush-marked skbs
 248951ddc14de84de3910f9b13f51491a8cd91df Merge tag 'hwmon-for-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+d05338c1290e8c6bc2f70fe7ad39f4ab61c8410a net/tcp: Prevent inlining tcp_syn_ack_timeout()
 4bf22afe53a1de4b44b04cf677fd5199089cbdff amd-xgbe: fix MAC_AUTO_SW handling in CL37 AN
 98da8ce87dd561f08fbe44f75865edc5d9b2ba5f soreuseport: Clear sk_reuseport_cb before failure in sk_clone().
 d50557779257a00162411e3048d82971ff1f644c net: Call net_enable_timestamp() before failure in sk_clone().
 fca68249b6f5e84859b200b54cb5e0aef98f2b3a Merge branch 'net-fix-two-issues-in-sk_clone-error-path'
+965a251f23ff69cfb4486974d4532e9bb551c7fc rndis_host: add overflow check in rndis_rx_fixup()
 29ab31f3f27157648f2f7e6d5e1fd9792fdf0614 wifi: brcmfmac: set F2 blocksize to 256 for BCM43752
 751bfa982b4a6de8275a552804f6971adcf08473 geneve: fix hint header definition wrt endianness
 447ec540233c60d6af4d68a164a5bc8ce7e975c1 geneve: ensure the skb is writable before fixing its headers
+6deab902b4c06abadeb5242db1488a17fd614e2b selftests/net/openvswitch: add ICMPv6 echo type match test
 b2ff91b752b0d85e8815e7f44fd85205c4268094 mptcp: only set DATA_FIN when a mapping is present
+ede0f99cef53ae142ec9f54c705e4b1e48355fd3 net: mvneta: bm: fix device reference leak on failed lookup
+be9381d5776c9b790d0b3429846c46bca3b8634a bna: fix use-after-free on DMA mapping failure
+dd5de39af5efa962f5f12c3ecf3841fca74858b5 hinic3: fix use-after-free on DMA mapping failure
+569595dc92e05a03083287adce9c58dd3ddb16a0 net: hibmcge: fix double-free of tx skb on DMA mapping failure
+e372a49cb81a7c24c48b935cf75e550d1f8750f6 Merge branch 'net-fix-stale-tx-skb-pointers-on-dma-map-failure'
+f2596ce59b151b4bac31f355ea82bed22b57d502 net: dsa: yt921x: Fix external port detection
 1c50efa1faf3a1a96e100b07ec7a2f3164d90bee rtase: Workaround for TX hang caused by hardware packet parsing
 5a52217525cb394117d92722b7f0fec510c882b4 Merge tag 'nfsd-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 350e592ff4e30e48ffb55e142d11a73e63f4869c tipc: serialize udp bearer replicast list updates
@@ -407,6 +476,10 @@ b2ff91b752b0d85e8815e7f44fd85205c4268094 mptcp: only set DATA_FIN when a mapping
 6a905a71fd43ce8b45f05044b11491337f232c9d net: txgbe: fix heap overflow when reading module EEPROM
 9c805e592a29be9e4e61ff1bd567da04aa8fd6f9 rds: Fix inet6_addr_lst NULL dereference when IPv6 is disabled
 ecaa37826340520664a4e5522f803ff48fc3f564 net: txgbe: fix FDIR filter leak on remove
+3cbbc9fa33382d03f2813118e672eb318eba9cde net: prestera: ignore duplicate RIF destruction events
+e5b14e9ae82b6ba661a40bcf13c5cfe0d3254628 wifi: mac80211: use ifa_dev from event argument
+aa22336b76b732d2c890f9de3419e05873711027 net: ipv4: clear dev->ip_ptr before destroying inetdev
+f14a8561f3c548bec4ff2f3b5507978dd77a50b0 Merge branch 'align-ipv4-teardown-with-ipv6-and-fix-driver-regressions'
 ff04b26794a16a8a879eb4fd2c02c2d6b03850e9 sctp: fix auth_chunk_list capacity check in sctp_auth_ep_add_chunkid
 defd52c1eab2926d874fa95408187dac6f890ff1 mailmap: fix wrong canonical name for mgr@kernel.org
 ab0eec0ff0a421737a37f510ceab5c6ea59cd05a pds_core: fix deadlock between reset thread and remove
@@ -416,13 +489,19 @@ a11f0b8a204296fe7db9eaec53441012222cb004 pds_core: yield the CPU while waiting f
 dd6b1cc748cd28147c113f9daa76393916ad9494 pds_core: order completion reads after the ownership check
 bfa33cd513c7ceb93c5a4c30e5662acd73c0a916 pds_core: fix auxiliary device add/del races
 3a660ca49e2c3807bffe0519db3cff677a5906e0 pds_core: check for workqueue allocation failure
+c86cfc982957729aa17a043c8c50bf981aa0e4bf dt-bindings: net: microchip,lan78xx: convert to DT schema
 47a5116e56a6b6fe1e909f244e39cd0fc26ceee4 net/af_iucv: fix NULL deref in afiucv_hs_callback_syn()
 18ae07691d43183d270de8be9dc8e027906015d9 sctp: validate stream count in sctp_process_strreset_inreq()
 f8d5e7846025f4ab15a461235f8ebae9094a361a sctp: avoid auth_enable sysctl UAF during netns teardown
 ffb2bd7ade36ec4da32c46a6eddbf4515316d08c sctp: close UDP tunnel sockets during netns teardown
 03d1057305ef17ac3f5936ac1580bc9a1a826e14 net: mctp i3c: clean up notifier and buses if driver register fails
+1bb028baab541900d3603d4f93c1c0fb5aba5401 net: sfp: add quirk for HORACO copper SFP+ module
+357997831d0ba7c4210a84c38bca531c6a63a6d6 net: stmmac: Simplify ioctl handling
 b65352a1bac64442ad95e64f385b40ccb9f1b0db gve: fix Rx queue stall on alloc failure
 eaa39f9f8ac8c1d032cd26b9cd572804e9d7683f tls: device: push pending open record on splice EOF
+0ce45ae881fd9041b6ce242de33faa59d8c6cba5 net: libwx: add support for set_ringparam in wx_ethtool_ops_vf
+e424cd462638cf32435bfbe7cca4c3bc1088ab0c net: libwx: add support for set_coalesce in wx_ethtool_ops_vf
+915c5593a82527a59b5752a759a1c63f03502f94 Merge branch 'net-libwx-improve-vf-ethtool-support'
 f8b1abed736111f914b2c567d9a3db1f71e788e8 selftests: af_unix: add USER_NS config
 441a820ccef9af80a9ac5a4c85b9c396e595967c selftests: openvswitch: add config file
 90c792681a3732caaf7bf5bc435877736baf591a selftests: ovpn: add IPV6 and VETH configs
@@ -437,6 +516,7 @@ cd170f051dba9ac146fabcd1b91726487c0cb9fa gtp: check skb_pull_data() return in gt
 ff194cffd586cbd4cc49eccb002c65f2a902a277 net: qrtr: ns: Raise node count limit to 512
 e1a9d3cc11829c5414a75eb39c704f461936eb24 tcp: initialize standalone TCP-AO response padding
 0ab78ead2481adb52f9eb5b403865c529f6f2348 net: stmmac: intel: skip SerDes reconfig when rate is unchanged
+df13c1df8147675470213ffff29dd5762fa321f5 net: dsa: microchip: make read-only const array ts_reg static
 ba712ecfd942b68b21a4b0a5daaf72f6616cc66d ppp: annotate concurrent dev->stats accesses
 da4082e91acabc1498611ed8ccc53f0610baefc6 wifi: mt76: mt7921: drop TXRX_NOTIFY on non-mmio buses
 feeff151c83e7f0ffcdedcad5343852d23d1f6e1 wifi: mt76: mt7925: drop TXRX_NOTIFY on non-mmio buses
@@ -454,13 +534,31 @@ bd8b2ec838184236c3fcbf738a926328836adf12 wifi: mt76: mt7925: fix crash in reset 
 2fffc472bec490c8357defcee9c075ca74467352 wifi: mt76: mt7996: fix possible NULL-pointer deref in mt7996_mcu_sta_bfer_eht()
 2afc33c5384817df3696ecb79b069ea01a0a92f2 Merge tag 'mt76-fixes-2026-07-22' of https://github.com/nbd168/wireless
 7cb34f6c4fe8a68af621d870abe63bfca2275dd6 wifi: brcmfmac: fix 802.1X-SHA256 call trace warning
+5329647dad1bdb512e36905d0ae6a817b64f7f52 net: Use helpers to get/set UDP len tree-wide
+842870cdfa33b9191b46484a3264bd5126a90570 net: Enable BIG TCP with partial GSO
+47282504ad219d10a30d8b38a68a6697494d2d12 udp: Support BIG TCP GSO packets where they can occur
+efbc1aa8ed54d1f48d2855f8cff0017429531331 udp: Support gro_ipv4_max_size > 65536
+8475a3efe6e64c1136c3f2bb87294c072b95b7c1 udp: Validate UDP length in udp_gro_receive
+99ad24516295c170e968c4df5679846334d35aa9 udp: Set length in UDP header to 0 for big GSO packets
+f3d0f753f06665e1981936dfe343d89d6dda9f0f vxlan: Enable BIG TCP packets
+03ebe91b0f61536eeef834e3c08bbd83dc33b7c0 geneve: Enable BIG TCP packets
+5cb53743e1ff3a2e0eac415412c724b78c5f047f selftests: net: Add a test for BIG TCP in UDP tunnels
+4d3365d5d3283010a5d8ab44f568d65e75a06629 Merge branch 'big-tcp-for-udp-tunnels'
 3656a79f94c471827a08f2cacce5f94ad5e52c24 amt: re-read skb header pointers after every pull
 53969d704fa5b7c1751e277fac96bfc22b435eac amt: make the head writable before rewriting the L2 header
 06ec76fa534a2330fecb66deaa09be4db7ac620c Merge branch 'amt-fix-use-after-free-of-the-skb-head-across-pulls'
+ffdc1ee2d6d6f7554426f9d11cbcb0a32f324173 seg6: add FIB table attribute for post-encap SID route lookup
+1016a547c6851cde2f5f57f173cba08153e3bcef selftests: seg6: add test for post-encap SID route lookup
+40c705961d498f97b94b43db3eb046a2037a0e2d Merge branch 'seg6-add-fib-table-attribute-for-post-encap-sid-route-lookup'
 14fa65d10f5696b063a7d8d26e8291ea84a2c6ed net: hip04: fix RX buffer leak on build_skb failure
+f5cfb576ce39ba5647024c6d6eeb5b7a822fab6e net: libwx: disable TX VLAN offload for packets with >2 VLAN tags
 fec15bb3dab0c88dd513a5198173de66f830f289 Merge tag 'wireless-2026-07-22' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+0b577e2fe06c023ab996c3d7684538dbbf6e99bc net: dsa: realtek: rtl8365mb: add SGMII support for RTL8367S
+987137345f3312fd68cc9c11bd46b754bfb0046f net: dsa: realtek: rtl8365mb: add HSGMII support for RTL8367S
+fcaf2221b9703af2f2285fad1a13a4171b8368dd Merge branch 'net-dsa-realtek-rtl8365mb-add-sgmii-hsgmii-support-for-rtl8367s'
 9a67bbfe48ee5289a4be3f4020cd542b74122c60 Merge tag 'for-net-2026-07-21' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 9545fef46d363cdcd63da63259b6d48ebb586024 MAINTAINERS: add nci tests to nfc
+24d0af194bcca043bd82f8a0842a051cdde266ee geneve: fix geneve_config leak on register_netdevice() failure
 57a92aaba9089601bbe8f520fbc3c8d858498c21 Merge tag 'sound-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 43171c97e4714bf601b468401b37732244639c21 net: bridge: vlan: fix vlan range dumps starting with pvid
 679eb1e32d2cd1707de4984ca1b6e68f3d8da1ac selftests: net: bridge: test ranges with PVID VLAN
@@ -471,10 +569,22 @@ d0ec222d416230e08f31c5c0042b316ef5f7e66e Merge tag 'platform-drivers-x86-v7.2-3'
 4539944e515183668109bdf4d0c3d7d228383d88 Merge tag 'liveupdate-fixes-2026-07-22' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
 da2c6bcc5e30b1496ac587785dcacf6e849eb6ef net: dpaa: fix mode setting
 59a57128ae5231f9aa9d544fa9d3e38986f0efaa net: stmmac: dwmac4: mask interrupts when stopping DMA in suspend
+d6587d0c0f3d6ffe0be9ddc5569f0e4b1bb2ef7b selftests/net: Test PACKET_STATISTICS
+1451e5302941988cc2da2d2c0bc3e2f7b9f93451 selftests/net: Test PACKET_STATISTICS drops
+707f5c2de0469c76693a02af136929dece809056 selftests/net: Test PACKET_AUXDATA
+88f380ef2304db4c68bc4bf14fc6c1604f6dd15c Merge branch 'extend-packet-socket-selftests'
 dcd9b465965422b9654f6026e8a2fa8984f74c3c vxlan: mdb: Fix source list corruption on a failed replace
 8e04823c120b376ef7dab14b60ebf6823aa16c14 sctp: auth: verify auth requirement when auth_chunk is NULL
 34a71f5361fc3adb5b7138da78750b0d535a8252 vmxnet3: fix BUG_ON in vmxnet3_get_hdr_len() for Geneve packets
 92d3817649df2b0b6a008a686c8275c88d7ef594 ila: reload IPv6 header after pskb_may_pull in checksum adjust
+886f928a7849446f2dec127adc9ffe3b505172a3 dt-bindings: net: dsa: mediatek,mt7530: add econet,en7528-switch
+cf23fcc9437e5c383d9f282197d580a5a3fd6e6e net: dsa: mt7530: add EN7528 support
+a65340168529ea122a364062500b30eebfefbffb Merge branch 'net-dsa-mt7530-add-econet-en7528-built-in-switch-support'
+65f1820835f382de93857e0933915645b0b3669a net: mdio: Kconfig: Group mdio controller drivers in a submenu
+8a48eb846f7e2cf819495db8a6b194a1ad0e95fb net: mdio: Kconfig: Group mdio multiplexers in a submenu
+93902b441b6d7f59cc5f69c0d2c99a68ae99ad42 Merge branch 'net-mdio-rearrange-kconfig-menus'
+42310a24389c1bdda82e4c30750a6b72e98238d1 net: phy: motorcomm: Enable optional clock for YT8531
+1df10cef2d1e7f9f2fb7eddb67fc70d3abf101f9 net: sxgbe: fix null pointer dereference in probe error path
 f43ee0c0730d6191629b5ee1ceae27b1ebfdc047 net/sched: serialize qdisc_rtab_list against concurrent get/put
 9f29cd8a8e7901a2617c8064ce9f50fc67b97cb8 tipc: fix u16 MTU truncation in media and bearer MTU validation
 5499e0602d2faafd42c580d25f615903c3fbe11b net/x25: fix use-after-free in x25_kill_by_neigh()
@@ -487,6 +597,8 @@ c2de9edf4f7027d669fd7a95964353e2c0c46bbd Merge branch 'net-stmmac-l3-l4-filter-b
 ba0533fc163f905fe817cfabdf8ed4058da44800 tipc: clear sock->sk on the failed-insert path in tipc_sk_create()
 675ed582c1aa4d919dd535490de08c015005c653 net: gre: fix lltx regression for GRE tunnels with SEQ/CSUM
 3671f0419d90b98a02f313830595ab958c8b2025 mpls: Set rt->rt_nhn just before returning from mpls_nh_build_multi().
+6217246bc5bf33f3caccf290983f65b23edb38be selftests/net: Skip srv6_end_dt46_l3vpn_test if iproute2 too old
+92f0217f8afd8c96288a5e88263d1a15cf98ceec octeontx2-af: return VWQE timer delay in NIX HW info
 0d4d31e3cc5dd6204fa1495c4107f5075acce5ed octeontx2-vf: set TC flower flag on MCAM entry allocation
 793b9b729f1e8de57be8c8daf1a9838be96cabed mctp: serial: handle zero-length frames to prevent rx buffer overflow
 249447ff83967980ed6751660665cc682ff84e0c MAINTAINERS: remove Rengarajan Sundararajan from LAN78XX
@@ -499,6 +611,7 @@ e9c238f6fe42fb1b4dba3a578277de32cb487937 pppoe: reload header pointer after dev_
 e78f1ac37afcb16cb6fef8a2c92591eab6558956 ptp: ptp_s390: Add missing facility check
 4579866a7de3661fa0a034e1e96563ace0944444 Merge branch 'add-missing-facility-check-to-ptp_s390-driver'
 fe0c002928c6749b7f4a726f6f600f6dd70280ea hinic: remove unused ethtool RSS user configuration buffers
+94cdc6a2c837d33e64d9453e9110d35af3833eda selftests/net: use MAP_FAILED instead of (void *)-1 in tcp_mmap
 3b536db8fb32da9e9c62f2bb45e2e319331f0426 net: qrtr: restrict socket creation to the initial network namespace
 18f116931f52e3c3303ad4b15ff41eb89b0e4239 raw: annotate lockless match fields in raw_v4_match()
 fd3a3f28ed60c6af4b2a39933b151d6b27842c3b mac802154: llsec: reject frames shorter than the authentication tag
@@ -534,11 +647,14 @@ d9a33cadc70a94c1582f65e6042e81027cd200c6 mctp: check register_netdevice_notifier
 649ea07fc25a17aa51bff710baac1ab161022a7c net: airoha: fix ETS channel derivation in airoha_tc_setup_qdisc_ets()
 d73a2e81f3cf6d870ef59a94f7e30880f4ee56e3 Merge tag 'ovpn-net-20260720' of https://github.com/OpenVPN/ovpn-net-next
 47f42ff521b4eeb46e82f9a46a4783a99f7570d7 tipc: fix integer overflow in tipc_recvmsg() and tipc_recvstream()
+b8363908ea1ea08c726c4804211a38dd353219fe selftests: drv-net: Fix csum path in doc
+1306cf6dc1dfd34b97ccff98fcb08168c352dbef selftests: drv-net: Fix TSO test doc
 b9e558976bb968162c35ddccdb076a77fc906993 bnge/bng_re: fix ring ID widths
 0f71f852a96af9685858ce59fda34ecbf85c283d phonet: pep: fix use-after-free in pep_get_sb()
 d1ff66b66151c14b084e88040512a064b1c1e493 phonet: check register_netdevice_notifier() error in phonet_device_init()
 9b2854f86f0b56e9027d68e7a3fc909d1a9b566f sctp: don't free the ASCONF's own transport in DEL-IP processing
 234e5e898b713bc0b3a631b6f002897f43d046c8 mac802154: hold an interface reference across the scan worker
+1324135c41671f8da3bbe0b2539b6c83b09c6cb0 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 f3ca0ee2cc308e33896536789cbc5f3a12ca7b30 mptcp: decrement subflows counter on failed passive join
 9bc6d5e4ca9f3cbb41d43400b3a31cb0403796c9 mptcp: pm: userspace: fix use-after-free in get_local_id
 bd7aae448f6ee9d82599a4474664de1e6e91a535 mptcp: fix stale skb->sk reference on subflow close
@@ -549,10 +665,9 @@ e3213292c4fd69ba442c6ed4693f91a92b753140 selftests: mptcp: userspace_pm: fix und
 7089f7ab99c89f443c92d8fcc585e63f2727f0b3 drop_monitor: fix size calculations for 64-bit attributes
 fd098a23bf8fda7eae48db9b06e7c34fc4d228fa drop_monitor: perform u64_stats updates under IRQ-disabled section
 6a8da869fa338e008533dd6385a0eb35dee6acf4 Merge branch 'drop_monitor-take-care-of-32bit-kernels'
+ed6dc972c19ff9ffca504f5739848da4275219e3 net: dsa: microchip: Fix log typo in error path
 d326f83e819c53aa05c40d64f5805d6237b6aa1b Merge tag 'net-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-78f75d632f74b8de0f081a128588f7c37d0d1164 rds: tcp: hold the RCU lock across ipv6_chk_addr() in rds_tcp_laddr_check()
-9736d2efc99670054359e153a9f312ef4646ec7b MAINTAINERS: Update SHARED MEMORY COMMUNICATIONS (SMC) maintainer entries
-072cd1f21819dedd2252e704d255de3b0cfc61a7 nexthop: take nh->lock for f6i_list walks in replace check and notify
-4787a6d2629b4e8c0b6bacab1f75c1660eca44d9 nexthop: avoid unlocked f6i_list walk in nh_rt_cache_flush
+89d8006259b81dd25c962f6cc8d7ab268d6ea426 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+be6f0d0bae229ebd03e9bfe736f78e2d6b35885f selftests: drv-net: ncdevmem: Open /dev/udmabuf O_RDONLY
 
---===============3140901804348382288==--
+--===============3240732484712624531==--
