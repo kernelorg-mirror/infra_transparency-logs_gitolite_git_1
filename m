@@ -1,57 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4563070173945167676=="
+Content-Type: multipart/mixed; boundary="===============6637233672933488587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 24 Jul 2026 13:26:17 -0000
-Message-Id: <178489957778.3058912.12548214186762436280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 24 Jul 2026 13:37:24 -0000
+Message-Id: <178490024497.3066187.271084184420213527@gitolite.kernel.org>
 
---===============4563070173945167676==
+--===============6637233672933488587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2eba65d71484bdecd49062a437c08bfdcef2012a
-    new: ae6de49ce37801155121765a7db57d0e604f99a5
+  - ref: refs/heads/usb-linus
+    old: fb0bf289f5d529336ef490c8273e88a8a8b29f69
+    new: b6061b6cca72d6a20f5eccd72b8da78c2e460861
     log: |
-         b1487b8e03dabfabce306b6f440455c294e005c4 drop nova patches from 7.1
-         ae6de49ce37801155121765a7db57d0e604f99a5 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         42a97c0480f96a2977e6d51ce512adc780f1ef5d USB: serial: keyspan_pda: fix data loss on receive throttling
+         fad0fd120e29041b3e6cdf41bb12e3184fb524a2 USB: serial: ftdi_sio: add support for E+H FXA291
+         52beeed5e5d257e1da3e2d2f2fb25bc1e3cdb6d2 USB: serial: mxuport: validate firmware header size
+         6fcd91ce2a0787cd4bdf6a0b3cd4884566a3cdba USB: serial: io_ti: reject oversized boot-mode firmware
+         55645e4f3c6022ffb160ad3617d2b624eaa38501 USB: serial: option: add TDTECH MT5710-CN
+         faaddd811c5099f11a5f52e68a6b31a5898cda4f USB: serial: io_edgeport: cap received transmit credits
+         b6061b6cca72d6a20f5eccd72b8da78c2e460861 Merge tag 'usb-serial-7.2-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
          
 
---===============4563070173945167676==
+--===============6637233672933488587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784899565 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784899570-13d5c8b45ebaae4ca04134ae3c68e4a9ffff4835
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784900235 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1784900243-b9fde43d12eb9509eaba6d79279d96a56e10fa2e
 
-2eba65d71484bdecd49062a437c08bfdcef2012a ae6de49ce37801155121765a7db57d0e604f99a5 refs/heads/master
+fb0bf289f5d529336ef490c8273e88a8a8b29f69 b6061b6cca72d6a20f5eccd72b8da78c2e460861 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpjZ+4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2TgQALa+VdDdzKcm0wpM53T0
-OqFlURAQvuTfP6scO7thRUceLy/jp+IR53yzNEi38WAX5LLDKcjgkgX7paBmW5E6
-A8Bv6Bi7rOzF1L1gWyojs+1433Otj0mxkABgbOik7rYRlWd6ejeeMjf9PoKp1iAs
-qyZQjvqWtst827flOm0AGrpM3NLP1h57DhL+ru7mxPe088xxp+31X66w1c5pS9ou
-Bzq1BK2Or6nBYWsyXp5iOI6sI8HmdRlqsfN9eJJOlnYCnROtSXHsZV1Tjk1XblM9
-fNPquzKVBdzxV6UU/8a38hJuIYnOcYxprjgiY4r/0pcOnK57eiZ/ty1tdtFU2xcV
-Mv72SzcOoq13QR3gn+YiHt0muQsaOp9SCrQxx6kZnp1McTrSFnqARcmGl6wMiodt
-QTbCOOTdSdQ34JP+53sHBs0rvSh76hf57n8QT+oOZkk2tj1wTT9AFj2WLxJhjuwW
-D0F92BOvLv63owIBLJJVi3nWQN1o1DtUo4TJs85ho3qEpsNl7DnJlpuWUHLj6TeP
-dq04v20SGK2l1z6nltrqqcsajH0F8jB1afSOJmkulkZW+rppVCqo95AI+RX8R+VI
-t3kDJOn2Mwd0y7bquF3PORlzOde9p4el6MfTw2S9LCXuup2kNT6BCjHUZGRLunhd
-EFvptZisH+sNvg2A67LIkq0V
-=OY2n
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpjaosbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8T0P/iGxe7NqQt2xOcALmhyz
+2uk/fu0KmwtTq2YDPawwZCDb3wTG4wuCFX4qJD1THsYZF2zBQRRzYEOuPSlJyNVL
+zoAJswUPklkNwYBsPCM0HLe5/AeqaJ5Zdd4Do+x9H98UMzDYwaZkaSTKS3MlNPgu
+/OWrB4DkYLJTAM0II8JKRPlbyw6tG1PvXHn2A1vPaq+jzuLS2z1e1fzr7utQAVYB
+cuvJ6g4UXlD9XFpEsBhMOFm1CXfvIifDQlMJtx6rXExjm1WDnbqHkB/z3d52f41g
+5h8jht4vZRtIN+gBQNxOh1dEUvBzgySBjJptDuW2sxEz5LSIocZcp3p7vXb/wsqH
+jcEX0E+EeOWNEN2DpC+eJjlN++j5wHbX5G2Pq2zFtCB2Bgh06P6EeskdIeLSyTnT
+Fk65DEW2GpLGHct8jMl9hC1GlOqHu0KD7jujBBemOXcUcY1rS9WPwvn2Kb5ZtjPG
+L4WFQEW7rx9rOm1IiJucB909xdxrDLHtsTt4Vsv9DsSxhgwAD8PUQuVqEa9++hE/
+MvZjb+G4oXm5NA6rDsL70IapnJTe2eTNv537/hL+V8BvfU8V+A2758pSe7jtymWe
+xVFRd0817x6RATwkQt6ZPzRKoCEzIzfjtB18ZLJaK5E/9ibrRzRNKESrvmvBZvtH
+5qQlqDywBGa4u+INuN0o7q9e
+=aldZ
 -----END PGP SIGNATURE-----
 
---===============4563070173945167676==--
+--===============6637233672933488587==--
