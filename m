@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7790931592380349024=="
+Content-Type: multipart/mixed; boundary="===============5469451161630617949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Jul 2026 00:36:58 -0000
-Message-Id: <178485341803.2490806.3981378491753192815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 24 Jul 2026 00:37:10 -0000
+Message-Id: <178485343062.2491178.15720751728704134932@gitolite.kernel.org>
 
---===============7790931592380349024==
+--===============5469451161630617949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 998b8a6c8aff2f1364197abd0dc05ccb37e62801
-    new: ec926b3bcb49000bafb402a6864d19ae40a3d288
-    log: revlist-998b8a6c8aff-ec926b3bcb49.txt
+  - ref: refs/heads/for-next
+    old: 882c82b323ec1235187f5c6ca5f44f97350dc178
+    new: 4706fe376aa832191386ee24477276ba97b88840
+    log: revlist-882c82b323ec-4706fe376aa8.txt
 
---===============7790931592380349024==
+--===============5469451161630617949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1784853415 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1784853415-c6480ed15642c3066cc6d9a78dbab8be66452d71
-
-998b8a6c8aff2f1364197abd0dc05ccb37e62801 ec926b3bcb49000bafb402a6864d19ae40a3d288 refs/heads/asoc-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpis6cACgkQJNaLcl1U
-h9AFxQf9HZbNgDcxVzlL4Jepd7yyQEae0EpXA9wUm3mKk2oZOGABUmU7dkWtdB7I
-j1iTecHnt9if0ooqTa7b3YvmxFz0P+UutzNGa3LjhEGCACnP9TsptDveLklihLM3
-3o6SXHNGpU6L0XnGwO8PsaW9CxN0bwbo/SJ2Lec2eMFKAAnGyrj1B8HbvdC9Gleq
-HRXGQgpfKbnsTt7jnKXYEwjfVpOuDKXgqeuh4CuDYDar+TvPsJ6jzv2IOTxksv29
-I9jpAIg8jSL7JIu8ASa4gq90Hdn1QaD7FXRnn8gG8GE+OV7ZZ7hIpMVLDYokX3ZL
-ufNAbJDdLQBCUl5t9QO5EeXlivEMCg==
-=QL1M
------END PGP SIGNATURE-----
-
---===============7790931592380349024==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-998b8a6c8aff-ec926b3bcb49.txt
+Content-Disposition: attachment; filename=revlist-882c82b323ec-4706fe376aa8.txt
 
 847b7114df54b6a5448b784e74d0868bf65a69b7 ASoC: codecs: da7213: Use guard() for mutex locks
 47f85aa98bb2a23e42b24bde8fd3ac244f3f7c6c ASoC: codecs: da7219: Use guard() for mutex locks
@@ -88,5 +63,6 @@ baf390a9dc40552e7146fc3383d90d059dbf2b00 ASoC: codecs: Use guard() for mutex & s
 3a065257412f612d4f3fe538003c4520d6e4e4c0 ASoC: fsl: mpc5200_dma: use platform helpers and devm cleanup
 4c69d04958ec87163ba826e2506babab37192e4b ASoC: spacemit: rename clock inputs to match binding
 ec926b3bcb49000bafb402a6864d19ae40a3d288 ASoC: dt-bindings: sound: spacemit,k1-i2s: allow 6 clocks for K3 i2s1
+4706fe376aa832191386ee24477276ba97b88840 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
 
---===============7790931592380349024==--
+--===============5469451161630617949==--
