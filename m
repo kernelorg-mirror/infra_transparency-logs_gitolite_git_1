@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 24 Jul 2026 08:05:04 -0000
-Message-Id: <178488030481.2813931.16176567742351108981@gitolite.kernel.org>
+Date: Fri, 24 Jul 2026 08:09:33 -0000
+Message-Id: <178488057337.2816132.9802092143123477468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,63 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-integrator
 user: linusw
 changes:
-  - ref: refs/tags/ixp4xx-arm-v7.3
-    old: 0000000000000000000000000000000000000000
-    new: e6ead0b02889bc009fbedc003ddaf7db1c78034d
-  - ref: refs/tags/sent/20241028-comments-in-switch-to-0e24480e8495-v3
-    old: 0000000000000000000000000000000000000000
-    new: fa224456fba74a6f5f733e204043b1e6599a7819
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v7
-    old: 0000000000000000000000000000000000000000
-    new: bd00ce880c97c1977ede96f344e29bad0bfd03b7
-  - ref: refs/tags/sent/20260611-rtl8366rb-improvements-d69f2145219d-v2
-    old: 0000000000000000000000000000000000000000
-    new: 07be5b446a5f994666f710e546c19921b4f9200b
-  - ref: refs/tags/sent/20260616-dsa-fix-free-skb-bb028ce90802-v4
-    old: 0000000000000000000000000000000000000000
-    new: ba9c5a8a9bee62638705b46987d1f6d559108f2b
-  - ref: refs/tags/sent/20260616-dsa-fix-free-skb-bb028ce90802-v5
-    old: 0000000000000000000000000000000000000000
-    new: 23fbbb7245b5c2b49e72f9d0b27d44b1abe5a089
-  - ref: refs/tags/sent/20260622-arm-generic-irq-entry-v7-1-ff6c1d6c9c48-v1
-    old: 0000000000000000000000000000000000000000
-    new: 8990c3823fb4c6b7a9a41f81af66a540d6c5199d
-  - ref: refs/tags/sent/20260626-arm32-cfi-bug-10fb960749c4-v1
-    old: 0000000000000000000000000000000000000000
-    new: 19eee5ddbfe90dd269c94af426e03efa2419c063
-  - ref: refs/tags/sent/20260626-arm32-cfi-bug-10fb960749c4-v2
-    old: 0000000000000000000000000000000000000000
-    new: 103b4b36ced2b73ed84481c276f925d96d9e4b89
-  - ref: refs/tags/sent/20260626-arm32-cfi-bug-10fb960749c4-v3
-    old: 0000000000000000000000000000000000000000
-    new: 65d6e54b9cb87f0d0bb01f39544ebb8bdc2bbd9e
-  - ref: refs/tags/sent/20260626-arm32-cfi-bug-10fb960749c4-v4
-    old: 0000000000000000000000000000000000000000
-    new: a8b80ff2a0eab60760573d671a5f357a15c633b1
-  - ref: refs/tags/sent/20260701-v4l2-doc-c60195d38d00-v1
-    old: 0000000000000000000000000000000000000000
-    new: 5cc7a6552279a97eca5e832c42c38ac1d495961c
-  - ref: refs/tags/sent/20260702-rtl8366rb-fixes-a93f831ec2a4-v1
-    old: 0000000000000000000000000000000000000000
-    new: ca052e0725bbbad57d95be891283f355366586f9
-  - ref: refs/tags/sent/20260702-rtl8366rb-fixes-a93f831ec2a4-v2
-    old: 0000000000000000000000000000000000000000
-    new: e7853e0de42567b0f4add76e01c014a1d0de28dd
-  - ref: refs/tags/sent/20260705-ixp4xx-dts-gpio-cells-ed21349de298-v1
-    old: 0000000000000000000000000000000000000000
-    new: 1fce7514ece53d6b866ef77bf14d34a99781ccb3
-  - ref: refs/tags/sent/20260707-ixp4xx-little-endian-9930bd2f0325-v1
-    old: 0000000000000000000000000000000000000000
-    new: eb18b6690127f527d0059523a3f15b3fb4c74052
-  - ref: refs/tags/sent/20260709-ixp4xx-serial-hackfix-c5cd90dcca93-v1
-    old: 0000000000000000000000000000000000000000
-    new: 67c4940b2a9b53919ea25e00a64441af6e7fc839
-  - ref: refs/tags/sent/20260709-ixp4xx-serial-hackfix-c5cd90dcca93-v2
-    old: 0000000000000000000000000000000000000000
-    new: eed4d41f3b698dc4de7e3948cc44c7c456825db4
-  - ref: refs/tags/sent/20260724-ixp4xx-dts-fix-8ebb1198cffd-v1
-    old: 0000000000000000000000000000000000000000
-    new: 1b7d83d183b66ab133446adfde0a9a1535d2682f
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
+  - ref: refs/heads/ixp4xx-soc-for-soc
+    old: bf550a38548642ad63faf06e6648388ea5103531
+    new: 48e54749c1b6446f53f7419c50ebe7c84f81cb0b
+    log: |
+         01479280fa5d4691013bcd64fdfd935117b69769 soc: ixp4xx: qmgr: add missing MODULE_DEVICE_TABLE()
+         f0b93c158aa9214f119889668e10c33f00960896 soc: ixp4xx: npe: add missing MODULE_DEVICE_TABLE()
+         48e54749c1b6446f53f7419c50ebe7c84f81cb0b soc: ixp4xx: Remove redundant dev_err()
+         
