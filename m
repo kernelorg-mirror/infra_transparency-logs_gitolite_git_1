@@ -1,57 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7475386803578109501=="
+Content-Type: multipart/mixed; boundary="===============1149055541527560249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 24 Jul 2026 15:31:59 -0000
-Message-Id: <178490711982.3482889.1886530282834439459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 24 Jul 2026 15:44:18 -0000
+Message-Id: <178490785832.3490279.269789554299965416@gitolite.kernel.org>
 
---===============7475386803578109501==
+--===============1149055541527560249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: a6b7b785279cc2fafe26eee62a2e49de26403e7d
-    new: 205c48fab5fc8c22ade15d1c666e77ffc2efbab5
+  - ref: refs/heads/review-ilpo-next
+    old: caf8342512c3056005f475d350eeca089c3c6623
+    new: 5029bff09e79ad80883c5ee2828b8c4a263cf3dd
     log: |
-         b9682ef4fd7886289e44039110f03bd0bf3eedf4 assign some 7.1.3 cve ids
-         205c48fab5fc8c22ade15d1c666e77ffc2efbab5 strip the new mbox files
+         59f586eb9394c7697cfcd2e1bb172c95e772559e platform/x86: hp-wmi: Add GPU MUX switch support
+         30c906cff490c3601ee9ff110fe8115fabe75fd4 platform/x86: int1092: Fix potential memory leak in sar_probe()
+         f5eb833730c071b68a68de5d1df442aae4ae7e6e platform/x86: int1092: Fix info leak in parse_package()
+         5029bff09e79ad80883c5ee2828b8c4a263cf3dd platform/x86: ideapad-laptop: Fix driver unregistration order
          
 
---===============7475386803578109501==
+--===============1149055541527560249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784907110 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1784907119-60328d1e45a29a89b331d7149e32e1f28646fcc4
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1784907854 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1784907854-dcf6f14d9f821c9eee433fa36fe2ae39696ccafc
 
-a6b7b785279cc2fafe26eee62a2e49de26403e7d 205c48fab5fc8c22ade15d1c666e77ffc2efbab5 refs/heads/master
+caf8342512c3056005f475d350eeca089c3c6623 5029bff09e79ad80883c5ee2828b8c4a263cf3dd refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpjhWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wVQQAMwZARt31JJsdcx8Wf5g
-WgLi2qFbLM/XG+SuRkt34aUupX6E/9SRFYuBODNwoBwogE9Bva6LDIDVrZ6Vzyfu
-J9pufpmIQ/utohXRVwP2PZBYxhD4BFcS301TMbFj3ymrl2dHX2Nbh2EWizXw71tN
-a2UkDZif84BOea9HhpILQBRqF7kTc+Dz6odMJvqWeWSaGyfkF2VfMBBjScEBGclM
-3fW5zWziqFDkQ44B6wdNT0oL1d0DFkYtScoaIUvmAmCJ06B6Zropqwasc39D+FSl
-8GCrffbGGM4NzbgilOid4UbBAixkmPAOHm6CN7uuJHl9riYHawvudJDZHw6Vj0KI
-IDHxl/MFbfetRQZjf4jHMY95kes9FoNVc5kuZm4aPNTMfvZEG0Zm3wKSkW+LThpv
-OLo9cWHEmYjaRkno8ybmCLLTqBYiyyWX81HuGTUjJ9Llt6dZsWkxohCS/jDwzH3+
-BHXscgWGug1hHRZz8f6Cf68e/19VoLioFU7OHAzQZbIAKxmjcbj9uo4H8bjq+Cmd
-u7njkrj+6YbFbTF4JwoM4AFKHZl3hjFwxX9vODFmsCvjogoGG0RhOGXkInM4tvzg
-sNjVTjomgfobmGnbaDzyas3G8wUCwVIxxYzWy9WguHaaiIQEn68vkrNqQetSaG9z
-+olWkg0X+5jdZK5gw4EJF1zc
-=iR2q
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCamOIUQAKCRBZrE9hU+XO
+MQLoAQCSKJBsRW9hRhc6CgIoF/Ugj42idFMUKJqKekXN/1raIAEAoDcgkv/9b8HQ
+A/VD8s4WkiQia/gs/LiU8ej2I825mQk=
+=faZM
 -----END PGP SIGNATURE-----
 
---===============7475386803578109501==--
+--===============1149055541527560249==--
