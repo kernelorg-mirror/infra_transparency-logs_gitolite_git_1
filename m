@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6358647069522432328=="
+Content-Type: multipart/mixed; boundary="===============3155271373167871997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 25 Jul 2026 06:03:10 -0000
-Message-Id: <178495939084.4128681.15294245488225417244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 25 Jul 2026 06:03:45 -0000
+Message-Id: <178495942581.4129038.165841811244100911@gitolite.kernel.org>
 
---===============6358647069522432328==
+--===============3155271373167871997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 78c0ae77674d66c30ed1feaab05ee9aa1d309be1
-    new: c1959da4b83ee34c812f68f85b8b906d02ca4138
+  - ref: refs/heads/master
+    old: cfcf1673eb841f3b0c3d78ef0c6e155fcc157993
+    new: 54fcd28a288176ca5abe9e23ebb388140b370af5
     log: |
-         c1959da4b83ee34c812f68f85b8b906d02ca4138 Notes added by 'git notes add'
+         54fcd28a288176ca5abe9e23ebb388140b370af5 move 6.12 queue back in place
          
 
---===============6358647069522432328==
+--===============3155271373167871997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784959381 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1784959389-b2b62def4c5f9f47496534cd17b7012727c2e2f1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784959416 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1784959424-812db807c4c7c880b111751b305374b528d77fea
 
-78c0ae77674d66c30ed1feaab05ee9aa1d309be1 c1959da4b83ee34c812f68f85b8b906d02ca4138 refs/notes/signatures/tar
+cfcf1673eb841f3b0c3d78ef0c6e155fcc157993 54fcd28a288176ca5abe9e23ebb388140b370af5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkUZUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R3MQAKOSik0dbzBTHDv8UNbO
-s16POEd01AGogMHqRTM4/bMaWz2sa5Y1KRkLXvNjWUnu/irkbM6HQLSlF8z+stAw
-tzTQ7SNQeiOZs7h8tbOkupJ2R22NvbQmPxdMBgvnd+Jt+nE//S9tmGfkGR/EJmYd
-ev5/QikSGN8Be+0QrIicHkWxi7NbhmQeFIfaevHD6JYlYxYyFfqGicdi3jB3pw0W
-N0Vo3j1REuEnkoEFqMa40pU/AOpdE1kR+qOlN71MRf1ZqK4nUlTpcFh6PhSiZ2Gh
-+fE8vStxxRvjHTGSlWCSKUURmiVAE8uKpXk5qG7QQp3o5Yac19MnXzh3wn3/G3eG
-KGVJ0jQL8fFvDZ2m49I0gYadkyCWvF1YBal+JvIHyS+wZHcYDkR7bytg7ReFpyhc
-SQQSarHDUQFBTW34ulLVF6gHjswDEYV+EwYavQIYfmkiKMdCBmMpWpO8eYE4G6ab
-CX5Ym/NL8+Bf0xB3zPuNVIV5LAekG/brQvzd4Eulwaclyk9CuRRsNdniSXTpVP+a
-0oPSbWQhtjj76MyEwyJYJGfI65hP72uTfkzHc/Nq0zSgAX+SMRmhx58gYHESpj1Y
-HdCSEcMpfGYtrOkDaMekNynllmJfjvhW7MgdPSJWVF9/eWzwD/DQad8A2LdZCdfa
-IuaJ6p/Xi+8y6vKyIX0nxCjD
-=XoBl
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkUbgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tYsP/1AKzzvwJA8NabctRl/8
+rzh6AN+osD2Oax4CHReYEIEQdxEkdEV704yhhxiTJXSMIrCszeXiJo7u0scZDqqH
+ImI8ixgoi4O1QScMuwMK4VOdEc5t6tWhMiHg15qJQdW5218NjktryuRvg7CGaRag
+0duiVXLN+7V02p10807XSxzGlbti1LEn+JM0YgNg5DWqTvV+EajfqVw0ZN7pzlgz
+OYQsYbKgcIkE14uZkleXKmV55uiHCCK1Qc9uwK+dfl8DUuZE6Ir3tEpUy/ZjdpGD
+gJBeoI899eS9av2BH1BBMk4wkLWOP8gU92haA6EFrR9y6mwGIZPNETu4IUcXe4bn
++RQW9eTi7SMocQ2dWak2H1oRLEvZ3UqKEpJFnvhQHeMY53mmUZX8XSeDmxVrfZBV
+VAzkpv6fJV1BnsvyalfawgISPRWk58hcmUtXWjvIKVViJ74I4SZbey8MzcKGnnWk
+wiq5AEjuEHfyr2zrC/wIHpZgQKwm7VyHLQ5p0tSg9SsNeQLbmB/vjOA+ZbrFArLG
+us93iOqMiJmsvySAdWD7QlL1o8YoyCJW4YbSD2nc/OH0QfmVmgAUsiODY8SCGjt0
+O0RKfHVCZZ3Kz/yEA/gt6TUJnYUIYPnzVHB1EmjlbwqdhYhbFNowl13pjM8mNvK+
+m50kmmDghuYPEQaxqZpFXYQk
+=Sa4d
 -----END PGP SIGNATURE-----
 
---===============6358647069522432328==--
+--===============3155271373167871997==--
