@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3305966011858883185=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 25 Jul 2026 06:56:13 -0000
-Message-Id: <178496257374.29457.3683900191645187414@gitolite.kernel.org>
-
---===============3305966011858883185==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 25 Jul 2026 08:08:15 -0000
+Message-Id: <178496689518.78285.15672965114265469970@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: e6e63c00261e202436a380ca12ad43b53942416a
-    new: ee235887e829682df7c44782182c462bccd38ec2
+  - ref: refs/heads/scx-proxy-exec-next
+    old: fef532dae0fe3049a9b87b3e0e02cae4997f5f0b
+    new: fe10dbec4f78975ad88c1cb923162d5fd89b7d51
     log: |
-         ee235887e829682df7c44782182c462bccd38ec2 7.1-stable patches
+         24d40fbc9b267cbaa4b7caa19adf784b9dceba8f sched_ext: Delegate proxy donor admission to BPF schedulers
+         43fd572f5124ec3b788557aa56866abdbd86e409 sched_ext: Add selftest for blocked donor admission
+         186177203affa9f5637541eadcc498f13633d3ad sched_ext: scx_qmap: Add proxy execution support
+         fe10dbec4f78975ad88c1cb923162d5fd89b7d51 sched: Allow enabling proxy exec with sched_ext
          
-
---===============3305966011858883185==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784962562 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784962570-21b8617b920e4f0089a07b9816912f509232d8b8
-
-e6e63c00261e202436a380ca12ad43b53942416a ee235887e829682df7c44782182c462bccd38ec2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkXgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hrwQAJ1YvP77sbVdCEYCGjbw
-SPEw8mWztXVX5CH9AHJrA5mM2B5Jyy7qy29p3pwYqFEvYAfa963DuuM+yINqAgA5
-92S8xxLA/ml8/D1tdo8+0Lk424kSZSfAvZ+nrlyP7Q+xyYHcN202o6+fNNNjg+gc
-BPjUsplGvu0nAnnZgkbVbdkuoj3TREunXOnOQSvaCs92gMALRxSjwaBut6+mslD0
-NJedodaiejin1hZmSEiTyvNmAcbOLjWa/CQ5bJoS9WxBKUipVv5RY9bsrkjj7Xr2
-Q7KHxOQ9gdakM2eXwhc1cfj4Q6OfWq016Snn6C/CYmboSvzYJzcqKEVJqWGCkEs/
-XM5D9AO79vP08zujQYeBsCV1aonvBApD6+Zls4NL2iuVeGWW4vjuuKX89ugwQT8f
-rZeGYyG4PVSXnYlO9RmbItu2CrIGFZ92fe6Cwoj+2Y1DTRCSzKoXkMwhJ8s/icHg
-XbifZPuxCMpFVS3OmHPJHFHZy4VJ7VaD3ni+lOlsa0WvScnS19YFaz2xsUJBsNeO
-vJqlUepKUHXNXgAxMsUFQWwpRu3jFPNPquiAEFj7+oeGhGIA1cHVfaCa+QTW0RFA
-HtRo1Qe9b1pFmLPGrRORAdKXpvPcikYFQxNebnrGSG18nCg4ZdrEgMQCCkDrhPih
-yDTkMVCul9ONm/emyI8adky6
-=ITmU
------END PGP SIGNATURE-----
-
---===============3305966011858883185==--
