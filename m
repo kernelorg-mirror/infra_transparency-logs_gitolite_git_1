@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 25 Jul 2026 15:47:16 -0000
-Message-Id: <178499443611.459293.4545294371950142773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sat, 25 Jul 2026 16:00:22 -0000
+Message-Id: <178499522248.468858.9756551456523356784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/irq/gic-acpi-fixes
-    old: 6f593a412d6f8e22222285c85b618ddab3d7675a
-    new: 61f9a0d5fa5d7f6bdc5b0c04ae9c5c4b1472473c
+  - ref: refs/heads/nfsd-next
+    old: ac8aba075d20869c19e7fa4efbae242d16b2ad63
+    new: 9e713e029766963dd32a4b28305b5eb710f1559c
     log: |
-         61f9a0d5fa5d7f6bdc5b0c04ae9c5c4b1472473c irqchip/gic: Simplify Maintenance Interrupt ACPI parsing
+         9e713e029766963dd32a4b28305b5eb710f1559c Revert "security,fs,nfs,net: update security_inode_listsecurity() interface"
          
