@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3155271373167871997=="
+Content-Type: multipart/mixed; boundary="===============5150967211484203766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 25 Jul 2026 06:03:45 -0000
-Message-Id: <178495942581.4129038.165841811244100911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 25 Jul 2026 06:05:47 -0000
+Message-Id: <178495954758.4163805.18252561016762176725@gitolite.kernel.org>
 
---===============3155271373167871997==
+--===============5150967211484203766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cfcf1673eb841f3b0c3d78ef0c6e155fcc157993
-    new: 54fcd28a288176ca5abe9e23ebb388140b370af5
+    old: 205c48fab5fc8c22ade15d1c666e77ffc2efbab5
+    new: a1d2fbac773f96f4d70ce7f531b6161b6e1201bb
     log: |
-         54fcd28a288176ca5abe9e23ebb388140b370af5 move 6.12 queue back in place
+         a1d2fbac773f96f4d70ce7f531b6161b6e1201bb add some forgotten .dyad files
          
 
---===============3155271373167871997==
+--===============5150967211484203766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784959416 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1784959424-812db807c4c7c880b111751b305374b528d77fea
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784959538 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1784959546-ff91c893c03708c79231b3dcedf79612a443b9d2
 
-cfcf1673eb841f3b0c3d78ef0c6e155fcc157993 54fcd28a288176ca5abe9e23ebb388140b370af5 refs/heads/master
+205c48fab5fc8c22ade15d1c666e77ffc2efbab5 a1d2fbac773f96f4d70ce7f531b6161b6e1201bb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkUbgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tYsP/1AKzzvwJA8NabctRl/8
-rzh6AN+osD2Oax4CHReYEIEQdxEkdEV704yhhxiTJXSMIrCszeXiJo7u0scZDqqH
-ImI8ixgoi4O1QScMuwMK4VOdEc5t6tWhMiHg15qJQdW5218NjktryuRvg7CGaRag
-0duiVXLN+7V02p10807XSxzGlbti1LEn+JM0YgNg5DWqTvV+EajfqVw0ZN7pzlgz
-OYQsYbKgcIkE14uZkleXKmV55uiHCCK1Qc9uwK+dfl8DUuZE6Ir3tEpUy/ZjdpGD
-gJBeoI899eS9av2BH1BBMk4wkLWOP8gU92haA6EFrR9y6mwGIZPNETu4IUcXe4bn
-+RQW9eTi7SMocQ2dWak2H1oRLEvZ3UqKEpJFnvhQHeMY53mmUZX8XSeDmxVrfZBV
-VAzkpv6fJV1BnsvyalfawgISPRWk58hcmUtXWjvIKVViJ74I4SZbey8MzcKGnnWk
-wiq5AEjuEHfyr2zrC/wIHpZgQKwm7VyHLQ5p0tSg9SsNeQLbmB/vjOA+ZbrFArLG
-us93iOqMiJmsvySAdWD7QlL1o8YoyCJW4YbSD2nc/OH0QfmVmgAUsiODY8SCGjt0
-O0RKfHVCZZ3Kz/yEA/gt6TUJnYUIYPnzVHB1EmjlbwqdhYhbFNowl13pjM8mNvK+
-m50kmmDghuYPEQaxqZpFXYQk
-=Sa4d
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkUjIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+id4QAK7bRSnhYzGAloKWNyyI
+ls2+hKsDQUOR17bsi1TUpdaKwYn7lAAxB/JvtvJGRVUSWxJphD/woKPQ49HZBxFk
+UtDS+CH9jcfO6Qt4ZnK3xnjpPGUCrSG8Uo2RaSJG3mkSDaBfoakKcR+uZw+9PyDJ
+uWP0bPb0yH/iR54WnVpJNFqfgmNk21LIeiCaQJafTiABakKoCkZv6CjpMc/dQ0Op
+aseNwpsJRCooyQbtaFlzBUDta2twjydihaBq2Edl2mj3PeFtHVIReZkqgBwoJeIA
+gNPmbr3W9X7QmeyzxGMyLMUzhkec80mvEJYPIgZQpA0aVD+UbkvZLsZJ0hoHJzY6
+OQRqbQcvLSvouPi72omD+5TkpCrEqzE2twTP6Y0lJ70VFO7t2dW6QwQaBB7nidKh
+xdvlk3sKrIgj3TVbfWCsFL+FpFYgfMaUXhAMO3Mo4mzIZ54YNSAcCYEM+jnPr9A0
+6qTvdA1FLGE16HI1mcP+oUPTyZNWiu5D7Wg+hKr1BSOq671h31x3rSUZFszZV4u8
+fl3o5+ApOtBvqMoaGviWMN01TqaNuNi0bSypqjAAH2gCJmJAB3AzE4paLy5MWHza
+WBOt2l52T4HmuxhADg7JgFhIAO3cMqp3FOVT8Jl4wtr479MGLYuxtSqvID6EqZSS
+//ZWXj66bhgbGzyeuTskMQX2
+=wWr7
 -----END PGP SIGNATURE-----
 
---===============3155271373167871997==--
+--===============5150967211484203766==--
