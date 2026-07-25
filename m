@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5629137263541670130=="
+Content-Type: multipart/mixed; boundary="===============2273686696174489761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 25 Jul 2026 00:21:40 -0000
-Message-Id: <178493890051.3878457.17907015738977757568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Sat, 25 Jul 2026 00:25:22 -0000
+Message-Id: <178493912212.3881897.192285846218144680@gitolite.kernel.org>
 
---===============5629137263541670130==
+--===============2273686696174489761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: paulmck
 changes:
-  - ref: refs/heads/dev
-    old: 27fcf8c6b5305b059406467c4545014de818495d
-    new: 37e817a97af6beb9117720837fab3c23869f7548
-    log: revlist-27fcf8c6b530-37e817a97af6.txt
-  - ref: refs/heads/dev.2026.07.23a
-    old: 0000000000000000000000000000000000000000
-    new: 72bb64807a6dbefe2cf3b89e116470d68fbeb2ef
+  - ref: refs/heads/rcu/next
+    old: 6776507f809059f0a8249383802301339410e32f
+    new: 7774cf58f600b5a8f6bf7b1faa772a60142b94c4
+    log: revlist-6776507f8090-7774cf58f600.txt
 
---===============5629137263541670130==
+--===============2273686696174489761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27fcf8c6b530-37e817a97af6.txt
+Content-Disposition: attachment; filename=revlist-6776507f8090-7774cf58f600.txt
 
 aaca360ebb04ccd15a733bcbd863c2aebba8c1d5 rcu: Enable RCU callbacks to benefit from expedited grace periods
 942b3e8f3f3f51011161cb728375481ebbc84e22 rcu: Update comments for gp_seq and expedited GP tracking
@@ -54,26 +51,5 @@ b7688cd25711a6590de4d97d555e543dc7c542aa rcutorture: Make RCU Tasks Trace track 
 e100805174011c9ac8cd2c13d071547cc86ffbc8 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
 fffa102edb15d4bb54b78d895691a912ab5db6dc torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
 7774cf58f600b5a8f6bf7b1faa772a60142b94c4 Merge branches 'expcb.2026.07.24a', 'misc.2026.07.24a', 'rcu-tasks.2026.07.24a', 'srcu.2026.07.15a' and 'torture.2026.07.24a' into HEAD
-149b6adf088de1b98770f8c24d054211fee33ed9 Merge branches 'non-rcu.2026.07.23a' and 'rcu.2026.07.24a' into HEAD
-ea24e7dfcc5d66c8924212d17fef8d2cae221b52 EXP srcutiny: Make a Tiny SRCU grace period imply an RCU grace period
-c432c232202acee936718e96ca5db4df35386c67 EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
-3f862ea46793fcbdb4dffbd678a1f5e239bdd603 EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
-c9ba92d6ffac7d17f4bd312f9894556b69e9a28e EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
-6cc35a301dc384055c9804db55116485155de1b0 EXP locking/mutex: Add down_read_idle()
-d86185ae36bac5d19a2bb0fe24618de1d7c6f4fc EXP refscale: Make scale_type=bh safe for PREEMPT_RT kernels
-406181a6378a423545734d8a55c8c9b455bf5237 EXP fs/btrfs: KASAN "args" initialization gripe in btrfs_ioctl_get_csums()
-963489948032ee12f08a606d5f4c79a7b085346a EXP kcsan: avoid unintended access checking in NMIs
-4811e00b1ad77bbdbc851eba61a49888e597298b rcu: Mark interrupts-enabled accesses to rdp->cpu_no_qs.b.norm
-5ffb8dafabe64c5ebe042a0cf1e1b5608a689109 rcu-tasks: Rename tasks_rcu_exit_srcu_stall_timer to tasks_rcu_exit_stall_timer
-5487328166993b04eb0bc229de25c5046e5b5188 rcu-tasks: Fix some comments for call_rcu_tasks() and call_rcu_tasks_rude()
-0d67501a6126bf9a70dbd8b762117c9a1e8481db rcu: Remove unused rdp parameter from rcu_check_gp_start_stall()
-565c85a3c349cbfd17bc451d313b486c8cd28754 rcu: Mark accesses to ->rcu_urgent_qs and ->rcu_need_heavy_qs
-4275df3b9a5cc50f64a8f697cee9e102179e2e74 rcu: Reduce stack usage in show_rcu_gp_kthreads()
-1e29441ee381a0c9feccafe434dddedc97f13b28 rcu: Mark interrupts-enabled accesses to rdp->cpu_no_qs.s
-55809413061484828aeb13da1a3ee43e0d4ae661 pwm: gpio: Apply READ_ONCE() to hrtimer_resolution accesses
-5fac52664a4c35c288966854574589a2d08c8107 hrtimer: Apply {READ,WRITE}_ONCE() to hrtimer_resolution accesses
-23fe6881e8db068b8d2068a3a477320c6330e27f alarmtimer: Apply READ_ONCE() to hrtimer_resolution accesses
-76c285960ab322b31900ae9fc13fb637993d4c2f net/sched: Apply READ_ONCE() to hrtimer_resolution accesses
-37e817a97af6beb9117720837fab3c23869f7548 ALSA: Apply READ_ONCE() to hrtimer_resolution accesses
 
---===============5629137263541670130==--
+--===============2273686696174489761==--
