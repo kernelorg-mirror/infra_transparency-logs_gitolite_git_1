@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4008086311815010383=="
+Content-Type: multipart/mixed; boundary="===============6139424366588841170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 25 Jul 2026 22:44:44 -0000
-Message-Id: <178501948424.750228.15597138522026738377@gitolite.kernel.org>
+Date: Sat, 25 Jul 2026 22:44:47 -0000
+Message-Id: <178501948701.750319.16653170857270663402@gitolite.kernel.org>
 
---===============4008086311815010383==
+--===============6139424366588841170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,131 +15,154 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: a154d8a9e825090200e902038e9bf1852efda7c7
-    new: 369a7e6c5d59ed63e784bd3490704ba7aca1542c
-    log: revlist-a154d8a9e825-369a7e6c5d59.txt
+  - ref: refs/heads/master
+    old: 48a5a7ab8d6ab7090564339e039c421f315de912
+    new: 3dab139d4795f688e4f243e40c7474df00d329d9
+    log: revlist-48a5a7ab8d6a-3dab139d4795.txt
 
---===============4008086311815010383==
-Content-Type: text/plain; charset="us-ascii"
+--===============6139424366588841170==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a154d8a9e825-369a7e6c5d59.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-48a5a7ab8d6a-3dab139d4795.txt
 
-f6f663b2f8d619ce6efd82ae126992e2b9998639 ==== attrs monitoring followup ====
-ca3b28e39bc1676f150ac25c32f35b3d42676ffa mm/damon/core: show number of probes in valid_probe_params()
-833efc165c5175842d351aab93a24f5353bb7052 mm/damon/sysfs: remove probes number validation
-d72f4dc3971781261008e906af91db7dae0ff2fc mm/damon/tests/core-kunit: test damon_commit_filter()
-92cff18da384b586cc3e6644accb8698729918c2 mm/damon/tests/core-kunit: add damon_commit_probes() test
-1afb52ca8c44ea3a80e438e3bef1455e236714fd selftests/damon/drgn_dump_damon_status: dump probe weights
-f69f4bebcf5437ebffac4814cfdebdc7f0421424 selftets/damon/drgn_dump_damon_status: dump filters
-ab41d4363f59bdb5aacc0c238c252ed76973e287 selftests/damon/_damon_sysfs: implement DamonProbes
-11fae3aa1a644795baea8924a9607f28842a3036 selftests/damon/_damon_sysfs: implement DamonFilters
-63f5c04273cad4085682a75d4b115cfb12ba3258 selftests/damon/sysfs.py: assert probe weight
-a337debe627b4f7c6511be85bdd9249e469cfc5b selftests/damon/sysfs.py: assert damon filter
-43760b60003a6371534846481bac7a8c9c71cab1 selftests/damon/sysfs.py: test damon probes
-f91bf231a4d26055afad47a8e2e027231ceb6008 ==== access-as-an-attr ====
-3af2a46eb62d30a56fed7bfeb3ce634243669a2f mm/damon/core: introduce DAMON_FILTER_TYPE_PGIDLE_UNSET
-dcf51dea72d079417234837fcfd127e2048d55e9 mm/damon/paddr: support PGIDLE_UNSET probe filter type
-5c3d9e70405c245ef50419c64899cfd9654b409f mm/damon/sysfs: support pgidle_unset probe filter type
-cb8ea93697f870d71ab370257d5981a203dc017c Docs/mm/damon/design: document pgidle_unset probe filter type
-a55bbe52a4b7903187ba6de9884a7d09c59d3c32 mm/damon/core: introduce damon_prep struct
-e6233c9379d923202d746b5edf91958f9c2ee869 mm/damon/core: commit preps
-4883cfc5de106d983127c13a183cb896fda742bd mm/damon/core: introduce damon_operations->prep_probes()
-17754d5a8744b5b627dc5f7ce12af3798ea48ff1 mm/damon/paddr: support damon_prep
-f1361968074bdc0e786425a949eed17a5c4c35bb mm/damon/sysfs: implement preps directory
-96c4d4861ee9729df04795a52fddf88d2815340e mm/damon/sysfs: create probe preps directory
-b65b89b9b276b8d43611c1ae9fddd182e163559a mm/damon/sysfs: implement probe prep directory
-6e51c37278e339c78998a0c057dd3c4a1472fa72 mm/damon/sysfs: create probe prep files for preps/nr file write
-3e6cf0aca4d27eabe45bd2fa448204a4d322c9b1 mm/damon/sysfs: pass preps to DAMON core
-8aa35752a2b9ec2bd3ea731480dd48f677816f51 selftests/damon/sysfs.sh: test probe prep sysfs files
-b5241e535e2d94207f05e26375b9647c200b3489 Docs/mm/damon/design: document probe preps
-401a5590d09489873f423cf9bf564e54c8e64d27 Docs/admin-guide/mm/damon/usage: document probe preps sysfs files
-3969a89cd1ec3642c8b67543e8e761135c866d15 Docs/ABI/damon: document probe prep sysfs files
-c25714bcb4d5cd33f7ad4f3cf6ea62037605a787 ==== fault/report-based monitoring for per-cpu and write ====
-4b5676e79190d9130f76315e6fc9cdba2815da8a mm/damon/core: implement damon_report_access()
-d877c86e8ffe5381d2388c228c68044561f6ac46 mm/damon: (fixup) fix typos
-13fdebc38a4473247592982a70b0fde249222b4c mm/damon: define struct damon_sample_control
-f9df4b53fb45496248600f944608bb7c5b38b28e mm/damon/core: commit damon_sample_control
-46682afc8bc0c4c251a30375296d5e62dc16b64f mm/damon/core: implement damon_report_page_fault()
-52e82bdbdf0f44628c91f586bec2e67d86be0687 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-4e6c6a5e5ec92d1d738df7f3e0ddbf89f15088cd mm/damon/paddr: support page fault access check primitive
-08b8b7024d3a4049627b1cffdf0824c57fec3825 mm/damon/core: apply access reports to high level snapshot
-c1c99d357cbbf538f0909cf3faaac77b45b6285e mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-196f22e3f0223e9a8dab6b88472a225e74acd1f4 mm/damon/sysfs: implement sample/primitives/ dir
-7454303828245f48f5aeee794aec2ef84c1b7dba mm/damon/sysfs: connect primitives directory with core
-ab48b0c492cb7bb118572590a03866adbf6f68e9 Docs/mm/damon/design: document page fault sampling primitive
-e6e4bd10e70fbdcb4b864835d30e56ee6f850dd9 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-664da229b663f059c2147bdbecd04d9d96f2a49b mm/damon: extend damon_access_report for origin CPU reporting
-a7479c83f6712929e6291518551fadbe6c24fbc6 mm/damon/core: report access origin cpu of page faults
-8f4fa70110ba234e70cf54285b7351f32816eccf mm/damon: implement sample filter data structure for cpus-only monitoring
-963a10dcfb5cb57b52882927828f8853137de50e mm/damon/core: implement damon_sample_filter manipulations
-bbee2ed2966ebdbdea25b1c02ee9ac0cd806a5d2 mm/damon/core: commit damon_sample_filters
-a7e32d45e80535113190e4cd044dcf8854343e88 mm/damon/core: apply sample filter to access reports
-d69229632143faaae009d56d81a4a0bb7d8ea2a1 mm/damon/sysfs: implement sample/filters/ directory
-666939113f120d560b70b5f2b3f4f41381ea1899 mm/damon/sysfs: implement sample filter directory
-145b01aefefb6a46f45529138fb9e1a06da4f1ad mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-57459e67f25d894723b56f8143fd0c956399392c mm/damon/sysfs: implement cpumask file under sample filter dir
-f7e3db3a5ac8c23573e42389cf5a21b96d4b2e3f mm/damon/sysfs: connect sample filters with core layer
-62a16773990ba8c9586f9cf5553a379ed8c63ae7 Docs/mm/damon/design: document sample filters
-f6b66280ec6f15feedef58e0300a73f9cf59cd4b Docs/admin-guide/mm/damon/usage: document sample filters dir
-ca57c2e9236d56e09725b8bf1709178de4698458 mm/damon: extend damon_access_report for access-origin thread info
-7350827e6daa1b0ea199f2a6476b1e0f0d34f315 mm/damon/core: report access-generated thread id of the fault event
-4178004fc126c08013b130c58ef397db4e854e20 mm/damon: extend damon_sample_filter for threads
-77a786bea496d66dfb782b4fc85917b548347ac8 mm/damon/core: support threads type sample filter
-749cc769a37916e61fd0d2d3b8bca773f632fc39 mm/damon/sysfs: support thread based access sample filtering
-8b60ea73e52ed5b0f4a62614373158155faf8af3 Docs/mm/damon/design: document threads type sample filter
-445e838b23d86cb114793a6a43a98b707f73f659 Docs/admin-guide/mm/damon/usage: document tids_arr file
-85aa9a9d77701a03c22bda66a328eeddff81bf29 mm/damon: support reporting write access
-ff823e819e3672a5d3f72f67d05549defef135f0 mm/damon/core: report whether the page fault was for writing
-ce85bac339ee783e594fd2748f2339533250453f mm/damon/core: support write access sample filter
-5cfecffaf6cc0b9b4523e4fbd76d25fb474e129c mm/damon/sysfs: support write-type access sample filter
-eff0b8eb9073b8b22aa7bbe852df9c84009f6c7f Docs/mm/damon/design: document write access sample filter type
-c2e7640393050d7792ef5891f4d6261a43508007 mm/damon/core: elaborate access reports dropping behavior
-7c9ac04c9d347601fd428bdf32d09f377de116b8 ===== fault-based vaddr monitoring =====
-c7849f34a046e82ece0551c1c8f6dac687d9432a mm/damon: rename damon_access_report->addr to ->paddr
-177e9679f5dde6708807145341307c07848c3082 mm/damon: extend damon_access_report for virtual address
-5fcc1e19f7b34be36c0be4b966f7e96ac8dd4521 mm/damon/core: set damon_access_report->vaddr from page fault report
-3bcb09310de1cc199f367f01a0647afd2e640533 mm/damon/core: support vaddr reports
-9e6e7a98876076b5a297adef63cca75ef240147f mm/damon/sysfs: move sample directory code to sysfs-sample.c
-6f0b83ab2513fe23c0681464fd443f8b9ae6f90e ==== docs for DAMON and mm ====
-c53b32b1f3f7acc5e48a58d876f8a894d703e7a7 Docs/mm/damon/design: add table of contents for overall and DAMOS
-3cb0db9f68a74505c3c0e99b1fde0822cba1b983 Docs/process/2.Process: Update mm tree URL
-681b553bb9c211a38914638ddbc4bae94b6e6145 Docs/mm/damon/design: add API link to damon_ctx
-1a5f67297431fff8db08532e5dbe90bddc23a2d3 ==== ACMA ====
-39fd017f01f5f81c9867ab3d51a19a4e1f65d9f4 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-80a493aa220a5d1425c1813e1334a0d2b834217f mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-55215574b93f80222ac152ae6a786922f606359f mm/page_reporting: implement a function for reporting specific pfn range
-0e023a9c92510ab620a9a6d123936208c16bf469 mm/damon/acma: implement scale down feature
-0954cb6be32befcecb5507f2af06e5273ffba52c mm/damon/acma: implement scale up feature
-05df57bd430c899a909ad2adecb9ba5faf7ad321 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-c7e7c65358e223c3edeec9b2b3a7cf8224504854 mm/damon/acma: assume damon_stop() to always succeed
-ffdf1c8d013c81efa83b44c3c8192a1db77dcfbd === commits aiming not to be posted ===
-78358e8c59eb0e8f86e675187a4a84ab2da7dbee mm/damon/core: add debugging log for intervals auto-tuning
-4d4d64032f693335d030c820690e19b2bacf12ae mm/damon/core: add todo for DAMOS interval validation
-7a6175eeaf918bbfd3f273a772f618697209dbfc mm/damon/core: add debugging-purpose log of tuned esz
-ecbf13baa0b030907f195f6eaa34fbefa909a257 Add debug log for PSI
-7044bec4662d887a77b0a4b102f6915028de932e ==== unurgent fixes ====
-1f3dffffa31e7517c9f84f7d955ffdbeef39ec45 mm/damon/core: skip applying scheme if region split for quota fails
-7937012e196e08d3293f83f31c8975ea366f969d mm/damon/core: initialize damos_quota_goal->last_psi_total
-46e20e789225b47e5b993546cb5f44aa5780cb86 mm/damon/core: fix divide-by-zero in damos_get_in_active_mem_bp()
-cbf4f4547ffea490c1b0171a8daeda32d029b705 mm/damon/core: handle extremem memory state in get_node_memcg_used_bp()
-60dbb068002fdb0e3e20e454849054fd22704f54 mm/damon/core: avoid divide-by-zero in damon_get_node_mem_bp()
-c9c00ad75b5170e039dd9ccdbb1284145632382c mm/damon/paddr: respect folio end for DAMOS_PAGEOUT
-1b2586642482e5635e3905f0fca95ab12706708a mm/damon/paddr: respect folio end for DAMOS_[DE]ACTIVATE
-aae7a3c9464e7a69e7b002a3e2772406cb256cff mm/damon/paddr: respect folio end for DAMOS_MIGRATE
-3d38756fb620b655a51c2f50f2d6b2eadcbcae62 mm/damon/paddr: respect folio end for DAMOS_STAT
-75449afbf1930dfadb70bb520a44ab1f19991ef3 mm/damon/vaddr: handle middle of folio migration
-8903265d82df2b04d87d71854d5a3cfbc6983d61 mm/damon/vaddr: handle midd of folio stat
-2d7dfba0ebcb2f3f64c714b92deca83be642e620 ==== uncategorized ====
-5c8a10e27075543abf88f9f7310931db51130ac1 mm/damon/core: add an hacking idea concept interface prototype
-c535eb726a71e84c2683969204eaa7ff151295a2 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-4ba7ce626f5ae700a926c96199a95bb060335b13 mm/damon: add damon_call_control->cleanup_fn
-0167e1eefdb06e813d0848c9a36f567455ada435 mm/damon/core: call cleanup_fn()
-4df12f9a9ea30006f6a27c672b8e63a1d440a93a mm/damon/sysfs: use per-context next_update_jiffies
-8f5ef8a9296e08ed1ab9de89e291f478daebea01 Revert "mm/damon/sysfs: use per-context next_update_jiffies"
-ceda6f692ddd795c4e1565818b2ff623f11eb80f mm/damon: unconditionally trace damon_region_aggregated
-78b6c908733a1bbe562d2a59785d22db216c9095 selftests/damon/sysfs.sh: test hugepage_mem_bp quota goal
-369a7e6c5d59ed63e784bd3490704ba7aca1542c mm/internal: update vma_address_end() comment for removed vma_address()
+608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
+af9ea231c0b4530edc389a3126a69e0699b7699d mm/slub: fix lost local objects when bulk remote free batch fills
+4688cf884b3abcd12498e03b625d1916bf49a1e4 rust: allow `clippy::unwrap_or_default` globally
+2808a3963988f00081594f1c4a2758733839eaac rust: zerocopy: update to v0.8.52
+425e10586cf12b86af076d1746bb87b0bb3f18a1 rust: zerocopy: update to v0.8.54
+5a81c35c3b18cd59ded56171a6a9f643b92a6759 objtool/rust: add one more `noreturn` Rust function for Rust 1.99.0
+d52a13adbb8ccbab99cd3bad36804e87d8b5c052 firewire: net: Fix fragmented datagram reassembly
+1dba91a0493b7ffe9cbbcf7a8df1b361ddcac515 mm/slab: fix a memory leak due to bootstrapping sheaves twice
+982e31382d9a1a3c8c4e6a13702a53711f4efe9f mm/slab: decouple SLAB_NO_SHEAVES from SLAB_NO_OBJ_EXT
+a37b0066a10aabf3c968b4566706fb866eaf9a85 lib/alloc_tag: introduce mem_alloc_profiling_permanently_disabled()
+d9e6a7623938968e3752b67e37eaff097e559a54 mm/slab: prevent unbounded recursion in free path with new kmalloc type
+0db3a430d9681fdb29890bef6934cd89cd1745d0 iommu/amd: Fix IRQ unsafe locking in gdom allocation
+283c5c4c34b4c8d1ebd038d8f360c5ba7fcc767b iommu/amd: Fix nested domain leak
+e057b94772328221405b067c3a85fe479b915dc8 arm64: syscall: Ensure saved x0 is kept in-sync with tracer updates
+9469764292e0d6825c9bf51d75682e3a623b9b6b arm_mpam: Fix software reset values of MPAMCFG_PRI
+021118ce5ea954ec316d7e30bcf4506e12eb5222 arm_mpam: Fix MPAMCFG_MBW_PBM register setting
+977f52909c624210178a1247fab0b02b110c1106 arm_mpam: guard MBWU state before adding it to garbage
+21fc7ec93f8b633b60d5bddef2f1529ff6b36185 arm64: fixmap: Allow 256K early_ioremap() at any offset
+f797f51a185ffdc1e3f915afed55f308b376842f arm64: mm: When logging data aborts only decode Xs when ISV=1
+a19bda861b3a79e25417462539df8b0d77c6b322 rust: device: avoid trailing ; in printing macros
+40a22ad1b5cb86a27f54d7837be20113d0eb49d2 drm/appletbdrm: Allocate request/response buffers in begin_fb_access
+a3fdf74ffa5966e5b4a17f1e9c5687f73bb0d536 drm/ttm/pool: back up at native page order
+26b483d52417253d88a3a01262ac85914a7aec8e Revert "arm64: syscall: Ensure saved x0 is kept in-sync with tracer updates"
+62c740f823a8e47ffe56e45a7472c27cf988e2f6 drivers/virt: pkvm: Fix end calculation in mmio_guard_ioremap_hook()
+879a6754d3d11e30af24b7dc486f561510d62641 arm64: kprobes: Only handle faults originating from XOL slot
+23f851ac0078a908bf3422d6467ebc1db5828c46 arm64: kprobes: Allow reentering kprobes while single-stepping
+880c43b185ca52239e75bc546cc4f4d9154d0fed rust: time: fix as_micros_ceil() to round correctly for negative Delta
+432a9b2780c0a01caf547bd1fc2fcf28aeb8d173 ublk: wait on ublk_dev_ready() instead of ub->completion
+488f4902e1deba4d507b4b8c25547a366f5dac63 accel/amdxdna: Fix command timeout race
+a411ea4a87162898d2a0547fdfb721ddb7626be3 drm/i915/backlight: Remove DP_EDP_BACKLIGHT_AUX_ENABLE_CAP check for DPCD backlight
+17e2030f37600994440f875dc410615d5c66ee6d drm/imagination: acquire vm_ctx->lock before mapping memory to GPU VM
+57441577bac3637473da2c9644336eaa0ac5732f drm/xe/madvise: Skip invalidation for purgeable state updates
+b5fa40226e71c17847b9ff2816c6ca4133d0d994 fscrypt: Add missing superblock check in find_or_insert_direct_key()
+6fe4e4b8259e1330945b5f3c9476e08473b8e0e8 fscrypt: Avoid dynamic allocation in fscrypt_get_devices()
+b27e195d4db8dea263050bdbeb11881b2999c9c6 cdrom: fix stack out-of-bounds read in CDROMVOLCTRL
+847b371debf3c8c72384ab7b9a0c4123a74cc925 drm/gpusvm: Fix MM reference leak in drm_gpusvm_range_evict
+67b8bfd4ec7dac6e79a7ad9ad19a7a9d6fc35a26 drm/gpusvm: Zero HMM PFNs before scanning ranges
+5ff172f6c94d282d83cb88bdfec5f647ad9c6105 slab: silence sparse warning with type-based partitioning
+1e75a8255f11c81fb07e81e5029cfd75804350a0 iommu/amd: Wait for completion instead of returning early in iommu_completion_wait()
+780dfed688622ea01be3c9c2c55eec2207f05e04 iommu/vt-d: Disallow SVA if page walk is not coherent
+fb80117fddb5b477218dc99bb53911b72c3847f8 iommu/amd: Bound the early ACPI HID map
+754f8efe45f87e3a9c6871b645b2f9d46d1b407b iommu/intel: Fix out-of-bounds memset in dmar_latency_disable()
+093fbffe03f5c1bb9c10a9e5aa65b23250844403 MAINTAINERS: update my email address
+0c9e6367639548307d3f578f6943ce72c9d39087 drm/vc4: Prevent shader BO mappings from becoming writable
+b877075d0baa22c225842c2f19e3ea0a9cbcbe39 arm64: Correct value returned by ESR_ELx_FSC_ADDRSZ_nL()
+285f90a4d1141c7594f2368e19cbb307388eff30 arm64/mm: Check the requested PFN range during memory removal
+a4f55260f7f7d4dc4d0ee55063dfb0c457b77991 drm/vmwgfx: Validate vmw_surface_metadata::array_size
+18a551482a4a326790698b273e76d7575a51a57d accel: ethosu: Fix element size accounting for cmd stream validation
+6b7e0066294d23ad1fd37f4326c32e8090fb8b65 accel: ethosu: Handle U85 internal chaining buffer
+88b8c6ae2ccb3ef9dbb04c8e13a4d1a98c42e922 perf bench bpf: Add missing .gitignore file
+4a97144794920cb17e4a1c56c243edc757f42df9 tools headers UAPI: Sync linux/const.h with the kernel sources
+edc148762eae074bc722ffb25c3a4dba5be33e50 tools headers UAPI: Sync linux/rtnetlink.h with the kernel sources
+5bbaca187c5e4f5afd7cb05cf40ce46046eac7f9 tools headers: Sync linux/gfp_types.h with the kernel sources
+e619443bcc393f4e1c249393d19e6ec837f5c424 tools headers x86 cpufeatures: Sync with the kernel sources
+df3f28cd6861dcbdaab2d3025048eaaf950b1486 tools arch x86: Sync the msr-index.h copy with the kernel sources
+34ab6d10f82f56d18a0840b89d1c2e8e72216cb5 tools headers: Sync UAPI drm/drm.h with kernel sources
+dd1e6fb8ffdfe71b6f9812b1e5add25a48f231a5 perf beauty: Update copy of linux/socket.h with the kernel sources
+42bfbb3e8d1ce4611c407c0f9d0d2ffea51b67b9 tools headers: Sync UAPI linux/fs.h with the kernel sources
+fac520e43a60230b24026f462a2b63e4d170566e tools headers: Sync KVM headers with the kernel sources
+4c92afb4c143526d340545ca581e88e6952ea511 drm/xe/vf: Add drm_dev guards when detaching CCS read/write buffers
+1f1be4ba643fb67410d753111c37ae42a2e2a814 drm/pagemap: Clear driver-provided PFNs from migration PFN array
+04b177544a040cbafab760d6b766381c6b22e0a8 drm/pagemap: Guard HPAGE_PMD_ORDER use with CONFIG_ARCH_ENABLE_THP_MIGRATION
+f73a8edc2ccc6ec72c37d5c578e7592d2e1f9922 arm64: make huge_ptep_get handled unaligned addresses
+7a6004c230a7931569666a235e99d443b2319b66 mailmap: Update Maíra Canal's email address
+f7df2da0d1c375c1c4c70e1e0b569592de0d6b73 drm/v3d: Reach the GMP through the hub registers on V3D 7.x
+ab05caca123c6d0b41850b7c05b246e4dca4a770 io_uring/rw: fix missing ERESTARTSYS conversion in read paths
+07e769ba3d82ac614725c81c512a8b54d33f2c9e drm/v3d: Idle AXI transactions before disabling the clock on suspend
+fa989f2cc351aec3643350489553c9bdfb3adf9f drm/panel: ilitek-ili9881c: do not fail probe if iovcc is absent
+fc03f930bd9fd7c09617e41b1743e50ba659707c drm/panel: ilitek-ili9882t: fix unmet dependency for DRM_PANEL_ILITEK_ILI9882T
+3667bc164849fee4f1b18b182bdfe643f758ca17 drm/panel: s6e3ha8: fix unmet dependency on DRM_DISPLAY_HELPER
+aaa5be0258db1709e254b4150af5c2fa5518c548 drm/panel: fix unmet dependency bug for DRM_PANEL_HIMAX_HX83121A
+7dc3680b7ffe01add3e9299fde8471d2dd53a8ae drm/vc4: hvs/v3d: Fix null dereference in unbind
+e148e567a9252643baa125cb65d7ae9c2c6cf68a ksmbd: preserve VFS inherited POSIX ACL mask
+2bebf2470af1a72f87754a5c7b21e86af32b9c8f ksmbd: enforce signing required by the session
+58d97fcd0bf1aee694e244cc28635b9df95b543b ksmbd: bound DACL dedup walk to copied ACEs
+bbf0a8e931204ecdab494a88d43b0a24a04285c5 ksmbd: restore DACL size on check_add_overflow() to avoid malformed ACL
+5152c6d49e3fd4e9f2e857c57527aead752f1f87 ksmbd: validate ACE size against SID sub-authorities
+c74801ee524f477c174a1899782b6c3b6918d407 ksmbd: defer destroy_previous_session() until after NTLM authentication
+cfc0b8e5080aec87700774e8568765eaa4b7b92b ksmbd: validate minimum PDU size for transform requests
+5e1b924808568e89c5cb132ecebe1824bd91af0c ksmbd: reject undersized decompressed SMB2 requests
+af78c0020480aba3132fb9fa4db0fd1fb949feaa io_uring/zcrx: drop "notif" from stats struct names
+201e30810223a40275f17c5e6ee410fa857b6b44 io_uring/zcrx: rename ZCRX_NOTIF_NO_BUFFERS
+e366c15e1610ef11d0717ecd875ae63050282676 io_uring/zcrx: rename notif to event
+9b5ce5c496efd20c1c662cedba88465d39ec1f93 drm/gma500: return errors from Oaktrail HDMI I2C reads
+5d8ed6b64220ad629aade5f174e3f690c37435f9 drm/xe/i2c: Allow per domain unique id
+d2c6800ad1802bed72a6de1416536737f114f1d6 drm/xe/vm: Fix SVM leak on resv obj alloc failure in xe_vm_create()
+b04a248cfa6cfa1e7dc9ce91cb1eb88b1a70dd69 drm/tests: shmem: Set DMA mask to 64-bit in drm_gem_shmem
+7917d16d14fb512f8ffe3815b7940b6c93ff4fde LoongArch: Increase TASK_STRUCT_OFFSET up to 2040 for 32BIT
+7ea74820edcb22ffa3fb068076d73c6821d7e6d2 LoongArch: Fix build errors due to wrong instructions for 32BIT
+ea68d444a658783234a06f05414e41cf93a18fb2 LoongArch: Move jump_label_init() before parse_early_param()
+4e8f58620f6717f72f3d88a2c8f25c0c656d0ba7 LoongArch: Retrieve CPU package ID from PPTT when available
+485ed44db5694d8d2e5027f63ad608e705286f30 LoongArch: Fix address space mismatch in kexec command line lookup
+73555fdab5e1e4f24ca000c41a616b34edf4b55d LoongArch: Fix oops during single-step debugging
+dacd348b8a993373576fe2ee2d8b114740ba57a6 LoongArch: BPF: Zero-extend signed ALU32 div/mod results
+98917a499ec7064c14fc56d180a4fd636fc2784c libceph: Fix multiplication overflow in decode_new_up_state_weight()
+05f90284223381005d6bcddab3fda4a97f9c3401 libceph: reject zero bucket types in crush_decode
+40480eee361ed9676b3f844d532ac28b47251634 libceph: Reject monmaps advertising zero monitors
+4dbc71bcaf9a30abf3920a4e2cc4ed33bba78c02 ceph: fix pre-auth out-of-bounds read on snaptrace in ceph_handle_caps()
+a109a556115271ca7896dcda7b4b7e45e156c227 libceph: fix two unsafe bare decodes in decode_lockers()
+cbf59617cd715219e84c50d106a3d0e1e8ba054e ceph: fix writeback_count leak in write_folio_nounlock()
+d3c32939fa0e3ee9b883b9a0fd1972c5c444e3d0 libceph: bound get_version reply decode to front len
+e4c804726c4afce3ba648b982d564f6af2cfa328 libceph: remove debugfs files before client teardown
+bbeae12fda3384a90fbebc8a19ba9d33f85b5361 libceph: guard missing CRUSH type name lookup
+c3e64079d8b9663e3998d0caac9aba915b6b93ae ceph: fix refcount leak in ceph_readdir()
+937d61f86d377a3aa578adae7a3dfcecdddf9d89 libceph: refresh auth->authorizer_buf{,_len} after authorizer update
+9f00f9cf2be293efe899db67dc5272e3a9c62717 libceph: bound pg_{temp,upmap,upmap_items} length to CEPH_PG_MAX_SIZE
+a6c4250b81bd30beae94e1b7a4b26fa1193ad2e4 rbd: Reset positive result codes to zero in object map update path
+50958bb928bad3bdba9e5d1b7ff4bbadcf6951e6 ceph: fix hanging __ceph_get_caps() with stale mds_wanted
+cee38bbf5556a8e0a232ccae41649580827d7806 ceph: add owner/capability checks for CEPH_IOC_SET_LAYOUT*
+5b602344a49e039e792ce5a8923bcc61412ee134 ceph: avoid fs reclaim while using current->journal_info
+394586aa7e7233c7fbae7fef31b0115fa3d66b5f Merge tag 'drm-intel-fixes-2026-07-23' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+20277937f9a11e05f485caa2fc9b3440f9f0f823 Merge tag 'drm-xe-fixes-2026-07-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+6273dd3ffb54ec581855b82ae77331b66028249c drm/vc4: Shut down BO cache timer before teardown
+289e680c89ae8a0bb629fa8308313f5c8c6c76a3 bpf: Reject passing scalar NULL to nonnull arg of a global subprog
+55c7bd2ddee50fd37b3b4c0b7a76bb0fd565f38b selftests/bpf: Test passing scalar NULL to nonnull global subprog
+1ff399c4cd132a24c73e5e237a11cb9d6b68dff1 Revert "drm/pagemap: Guard HPAGE_PMD_ORDER use with CONFIG_ARCH_ENABLE_THP_MIGRATION"
+e24b02df4e9a1a78b2dbbf6ab21ebf24918f5c6a Merge tag 'drm-misc-fixes-2026-07-24' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+47e20d4b3da97ef3881d1e55e43545c22424f3fc LoongArch: BPF: Fix memory leak in bpf_jit_free()
+cf4dd800e49d35d48ebd63d511a6e200f39176f7 platform/loongarch: laptop: Stop setting acpi_device_class()
+91a70492c03040d51b36f595530d6491d5d6c541 platform/loongarch: laptop: Explicitly reset bl_powered state when suspend
+82730dba0cf9d9524af0ceeb7eb6b5c3ab1bdb87 drm/amd/display: Fix flip-done timeouts on mode1 reset
+86ba24c41adcf1d6e63827a828a9b5120a86917d Merge tag 'slab-for-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+fbbaca9e208733652828ea98d00f09f260a7770e drm/amd/display: Fix missing DCE check in dm_gpureset_toggle_interrupts()
+a93212b3d1f517859ec8f540cd8d587155edafc8 Merge tag 'iommu-fixes-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+0c452fbdf41374ff418cb069e59d141eb73f374a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+6c33542c01eac1ac4d5595c1ba2dace0e27e842d Merge tag 'amd-drm-fixes-v7.2-2026-07-24' of git://git.kernel.org/pub/scm/linux/kernel/git/superm1/linux into drm-fixes
+981f4a2baaf15a15fd4a22d311f15d066e28833b Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+dad0a87d79ff3e7e4ef35ebd588fe4f115329964 Merge tag 'ceph-for-7.2-rc5' of https://github.com/ceph/ceph-client
+e2a936998ab25cf7272847356390041c3143b498 Merge tag 'drm-fixes-2026-07-25' of https://gitlab.freedesktop.org/drm/kernel
+2d66a033864e27ab8d5e44cb36f31d9d2413bee4 bpf, sockmap: Fix cork use-after-free in tcp_bpf_sendmsg()
+ae453eef925945a02bb558bff9debbee352e33e9 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+8e371eff3f72afde801c36007fa15fc7dd5314f3 Merge tag 'v7.2-rc4-smb3-server-fixes' of git://git.samba.org/ksmbd
+73387b89d99f7b588870c5a98eb6a89689c65a1a Merge tag 'io_uring-7.2-20260724' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+0ce37745d4bfbc493f718169c3974898ffec8ee7 Merge tag 'block-7.2-20260724' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+3fb11702e4b2fe9eaaed7369bbe7e63177cc04a6 Merge tag 'loongarch-fixes-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+d99d2a953ad8d29e6b777f6770f10668a636842a Merge tag 'firewire-fixes-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+ef9ce800df95726978490534f9e2c14ca71858e8 Merge tag 'perf-tools-fixes-for-v7.2-1-2026-07-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+3dab139d4795f688e4f243e40c7474df00d329d9 Merge tag 'rust-fixes-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============4008086311815010383==--
+--===============6139424366588841170==--
