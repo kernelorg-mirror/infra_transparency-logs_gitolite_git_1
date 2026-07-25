@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 25 Jul 2026 00:49:44 -0000
-Message-Id: <178494058436.3897822.15409148329419141617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sat, 25 Jul 2026 01:01:18 -0000
+Message-Id: <178494127851.3907693.11593176733501059234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: 1590cf0329716306e948a8fc29f1d3ee87d3989f
-    new: 39d6e68f50f4a444a6ba23b9ea2eaee806601c6d
+  - ref: refs/heads/for-next
+    old: 863c32a83e4235eb0cbf6106f2b124e645302156
+    new: 81a10126cb33d553e9b08a5c09b0cb9835cab2d7
     log: |
-         39d6e68f50f4a444a6ba23b9ea2eaee806601c6d kbuild: Stop modifying $(objtree)/Makefile when building oot-kmods oos
+         7380075135496df3b07a61c002928af0582b2bf6 dt-bindings: power: supply: Add TI BQ25630 charger
+         81a10126cb33d553e9b08a5c09b0cb9835cab2d7 power: supply: Add driver for TI BQ25630 charger
          
