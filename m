@@ -1,44 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0801802803631553660=="
+Content-Type: multipart/mixed; boundary="===============1160259955996883125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 25 Jul 2026 08:37:58 -0000
-Message-Id: <178496867859.155892.10219794611311062105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 25 Jul 2026 08:47:34 -0000
+Message-Id: <178496925409.162913.3131016229572681216@gitolite.kernel.org>
 
---===============0801802803631553660==
+--===============1160259955996883125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: fe10dbec4f78975ad88c1cb923162d5fd89b7d51
-    new: 00af4a2f836710f4bc4576fc9f83af15868e7196
-    log: revlist-fe10dbec4f78-00af4a2f8367.txt
+  - ref: refs/heads/master
+    old: a1d2fbac773f96f4d70ce7f531b6161b6e1201bb
+    new: 96a6e8d0414ed28ff76f5855123594ccf3494b26
+    log: |
+         3c22a4bfe2ed1f4bb9c069e0a21df013f09a7c14 sort 7.1.4 review from greg
+         0ea8bd93277dfa9fa5e00cadf77b49a8d7455206 add some more 7.1.4 review from greg
+         96a6e8d0414ed28ff76f5855123594ccf3494b26 finish 7.1.4 review from greg
+         
 
---===============0801802803631553660==
+--===============1160259955996883125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe10dbec4f78-00af4a2f8367.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-04e25eb9c47d454501629b8c27c7590c65f45efb sched/core: Avoid false migration warning for proxy donors
-932949553fc3fc2a01db5d30c802f77730b3fc7e sched: Make NOHZ CFS bandwidth checks follow proxy donor
-d107e7d6b4f2a7cd358579befaa2694ca8b4b34b sched: Add helper to block retained proxy donors
-ff9459c19265edae762923a9d3e77e08b501977b sched: Add prepare_switch() class callback
-172d3c44b950f32becb0843231a96cf2b19758ec sched_ext: Block proxy donors across scheduler transitions
-ac00996d01dad5cec3f5a528fba60d0d9dd4b51d sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-154a909ac7a3c60d63835eef93e2de083bccdcf0 sched_ext: Generalize the reject DSQ reenqueue path
-b4a9a4834113bfa0231ae325a271d1d0c83648e3 sched_ext: Handle proxy-exec races in remote DSQ transfers
-887a27ad3f45714e5bea20cd3c4985ca1cd1a533 sched_ext: Split curr|donor references properly
-d4c54d61702fd5631e87d9b5b97f557bc553e5c6 sched_ext: Keep blocked proxy donors on the local DSQ
-f0a198342662131d1ae1829bd476fc08f029f524 sched_ext: Delegate proxy donor admission to BPF schedulers
-69e981455c95ba822bb5f32fd4a63303fa7cdea4 sched_ext: Add selftest for blocked donor admission
-7c84c8762c3e826dcd2c2107cdf518b8bcbe03d6 sched_ext: scx_qmap: Add proxy execution support
-00af4a2f836710f4bc4576fc9f83af15868e7196 sched: Allow enabling proxy exec with sched_ext
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784969169 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1784969250-7e80f59d4851626bfd8ea673e705cef693df058f
 
---===============0801802803631553660==--
+a1d2fbac773f96f4d70ce7f531b6161b6e1201bb 96a6e8d0414ed28ff76f5855123594ccf3494b26 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkd9EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kOMP/1u4/185bwshnvfBIlOj
+S1otdrqz4NEKooZ36eOYE3PwTeYCeODgfZWuNSS8qU4Kf6UGT3KsxrAgB3o5+dni
+UUruJp2vsVgE3NlY3S2KKsT+vuS0IeebmCHA43Ec9+KgZAySa3RfUnXWWtu1Z6J/
+nryVk9vS+CGfNFUA/vJHsBpkZsHpCWpZYpPCB/Hb14pYQ2KzwvG6G4isRHkgVQUb
+/iFhMzdlaRJcr1CNzJ4i7Evl6e2aHlQw7ZNREIzZugeuWcATZt9gviDZxwNbpvF0
+TetT2wBCSf8j57A1N+ghGKCRbVUSzUm5oAfdTA8OxO/oNhQTG25PUqobC8kyGVvM
+aDdR4VsR/QG6NT7JPs3Zp0Lk0iJUc58URYkrCm2P9iG9+MRZZ5bi65XGWFqZzDL6
+QOM9/lVsJ9sS6lrJz+Nq2+JC7tXeOJdh0euRT664H+TbP7X0l+YMuwGGlPvkeswA
+PcLqcA20zX5OMymz8nwDqzdP77Hmn8ud1l6o9piapL8kAvvRmU9ovBKHixqkHQ5O
+1xVmvzLPWdX2D6+GzPAK5z4vlOp4FIO82zlPxd4L3j0wijvhcuenQw1BSimj9MdZ
+7phTCXJnxfQfvmnlzmQfP8T+g1cBmkPDhnu5AtoN0e2RwJTXPi/MK3HDbka29W5I
+KHmjAAYI5iSNHYtwWLkn5P0T
+=nZWj
+-----END PGP SIGNATURE-----
+
+--===============1160259955996883125==--
