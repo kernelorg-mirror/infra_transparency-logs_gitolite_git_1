@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8268524893642911913=="
+Content-Type: multipart/mixed; boundary="===============1236647400570316749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 25 Jul 2026 08:14:34 -0000
-Message-Id: <178496727474.82886.15296049966930802143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 25 Jul 2026 08:31:17 -0000
+Message-Id: <178496827725.151537.16863000806116355731@gitolite.kernel.org>
 
---===============8268524893642911913==
+--===============1236647400570316749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 48a5a7ab8d6ab7090564339e039c421f315de912
-    new: 0ce37745d4bfbc493f718169c3974898ffec8ee7
-    log: revlist-48a5a7ab8d6a-0ce37745d4bf.txt
+    old: 2d2ae93bc5525c91031b218314855a8d43b6bbf6
+    new: e5a047a33377622ba54b759644b23a8a54e32044
+    log: revlist-2d2ae93bc552-e5a047a33377.txt
 
---===============8268524893642911913==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1784967192 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1784967273-7b90861eebbd2ba5bc3837a2dd0ea8426cc3cdca
-
-48a5a7ab8d6ab7090564339e039c421f315de912 0ce37745d4bfbc493f718169c3974898ffec8ee7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpkcBgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LZQQAMavszUvjxKMneAbvQ0w
-CeOgZ1f/CRjzoCtwmoVa5cPAiMFUve9zldAlyd+XJ0C4Sj3JWBlzN8BYmBdGc7Sw
-uwE7IP9SA2Hw5DEj9SX6MBK1ZTAR035vCRwszbRvbWJGy6ZKH6cMXDOw3EdVSHnC
-h5ir/D75RcSyluYM99hh88hp+Hncakma3bmggk4bD8qSH8qgCVlcY/WgeE6TjkcC
-mHz3glFuoVcSuXp8/rrdawLM+ZBM5rw43GF6cxmu5XL7IZ3taiNUe6AeBV5Qi1oh
-gVGLQES4jZi+UZb0Si0VaQOBc+ziJbLtjBAVdz9xWx+wT40c1MxEIBRARA9upRTD
-RzaVElxlS1WY/++nJS6AlrUKNn9xzIlzUJ1ZYvJLEbFfa0xM9HuX53UiIYgRKTiK
-YDrrRQW9QT4SVBlxWu96wsuUaBZo4uNijb/NT/s4mB6og4e3/t6QzLRg6lUJOEet
-+tzX2Ok3v6l6iYhqno5bKpXPTDsb11BxruJZ03nBr2t6bTBMOB7KDO6s+ykCxTlh
-j0DCa8T0b3/08g0LzqmsFWiFYwAAn1oaw7ydPwA3xVDd3Sm8/nxZRypOrVwobsiD
-CXIuenQhxMJ76I0kMEpYYhu9Um3KJfeM2vlsPLgI14X8XX+y5EVGgqoswoqGnts9
-WW7pGYBjnhObePpIN08L/MSx
-=+NWX
------END PGP SIGNATURE-----
-
---===============8268524893642911913==
+--===============1236647400570316749==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-48a5a7ab8d6a-0ce37745d4bf.txt
+Content-Disposition: attachment; filename=revlist-2d2ae93bc552-e5a047a33377.txt
 
 af9ea231c0b4530edc389a3126a69e0699b7699d mm/slub: fix lost local objects when bulk remote free batch fills
 1dba91a0493b7ffe9cbbcf7a8df1b361ddcac515 mm/slab: fix a memory leak due to bootstrapping sheaves twice
@@ -142,6 +111,9 @@ a6c4250b81bd30beae94e1b7a4b26fa1193ad2e4 rbd: Reset positive result codes to zer
 50958bb928bad3bdba9e5d1b7ff4bbadcf6951e6 ceph: fix hanging __ceph_get_caps() with stale mds_wanted
 cee38bbf5556a8e0a232ccae41649580827d7806 ceph: add owner/capability checks for CEPH_IOC_SET_LAYOUT*
 5b602344a49e039e792ce5a8923bcc61412ee134 ceph: avoid fs reclaim while using current->journal_info
+598ebce64c4cfaca54cbecdc25a7ef56ea701051 x86/topo: Map vendor CPU types to generic Linux such types
+bdb1b1f03b9b1cc1cde7d54f8b5b2f9a6bdda782 x86/topology: Name the AMD core-type values
+924be9d673eb75deef2f71ddee0d7d89fe69bb7b x86/topology: Add TOPO_CPU_TYPE_LOW_POWER
 394586aa7e7233c7fbae7fef31b0115fa3d66b5f Merge tag 'drm-intel-fixes-2026-07-23' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 20277937f9a11e05f485caa2fc9b3440f9f0f823 Merge tag 'drm-xe-fixes-2026-07-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 6273dd3ffb54ec581855b82ae77331b66028249c drm/vc4: Shut down BO cache timer before teardown
@@ -163,5 +135,7 @@ ae453eef925945a02bb558bff9debbee352e33e9 Merge tag 'bpf-fixes' of git://git.kern
 8e371eff3f72afde801c36007fa15fc7dd5314f3 Merge tag 'v7.2-rc4-smb3-server-fixes' of git://git.samba.org/ksmbd
 73387b89d99f7b588870c5a98eb6a89689c65a1a Merge tag 'io_uring-7.2-20260724' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 0ce37745d4bfbc493f718169c3974898ffec8ee7 Merge tag 'block-7.2-20260724' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+15cf222020f9042ab30a6c4bea159195dd9e463e Merge branch into tip/master: 'x86/cpu'
+e5a047a33377622ba54b759644b23a8a54e32044 Merge branch 'linus'
 
---===============8268524893642911913==--
+--===============1236647400570316749==--
