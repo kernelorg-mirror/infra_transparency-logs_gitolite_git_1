@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8179448746574672383=="
+Content-Type: multipart/mixed; boundary="===============7189469437709733379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Sat, 25 Jul 2026 12:51:36 -0000
-Message-Id: <178498389641.334852.12694965341458297924@gitolite.kernel.org>
+Date: Sat, 25 Jul 2026 12:52:08 -0000
+Message-Id: <178498392870.335259.2421939967060761459@gitolite.kernel.org>
 
---===============8179448746574672383==
+--===============7189469437709733379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: 07a1a6562ce29e2e0c134a57882d6e52e8758492
-    new: a8488ecbd7ba44d65b912dfe88a73f438eba2447
-    log: revlist-07a1a6562ce2-a8488ecbd7ba.txt
+  - ref: refs/heads/alloc-token
+    old: 4245d70a67cfcdc4c276b7ad41def5bef3e9a036
+    new: f08989ff702eaf00e4960b6564e7074d7a970b39
+    log: revlist-4245d70a67cf-f08989ff702e.txt
 
---===============8179448746574672383==
+--===============7189469437709733379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07a1a6562ce2-a8488ecbd7ba.txt
+Content-Disposition: attachment; filename=revlist-4245d70a67cf-f08989ff702e.txt
 
-da353a6b30086674c77bdbbfd86e9e0c7416ba99 drm/amd/display: set MSA MISC1 bit 6 when using VSC SDP for DCE 11.x
-0c01c811be47e6b146552dd59bfedbea8f09b8f4 drm/amdgpu: fix division by zero with invalid uvd dimensions
-3b4082fabc67c9780b06eb959e59dd92fa79c0f0 drm/amdgpu/vcn4: avoid rereading IB param length
-186bfdc4e26d019b2e7570cb121964a1d89b2e5b drm/amdgpu/vce: fix integer overflow in image size
-8cd2ea7bab77b7aa087b1a6cc26d2df03c2a6ed9 drm/amdkfd: Guard m->cp_hqd_eop_control setting by q->eop_ring_buffer_size
-923425ac7cf7a4f9e088b2d58d390e7d25c3effa drm/amd/display: Fix DCN42 null registers & register masks
-5b609a2a29540dfadd44610f4af397b75768871c drm/amd/display: Remove DCCG registers not needed in DCN42
-f87f926395690449dc748a8bbc6e378ff180e6a7 drm/amd/display: avoid large stack allocation in commit_planes_do_stream_update_sequence
-ea772a440d56b285f4d491affac50ecd41f6b402 drm/amdgpu: fix aperture mapping leak
-426ffae6ecc7ec77d32bf8be065c21a1b881b084 drm/amdkfd: clamp v9 CRIU control stack checkpoint copy to BO size
-0a3d35460320baf8744c7dcc3e287e07fbaf6d36 drm/amdgpu/gfx11: fix EOP interrupt routing for KQ and userq
-128abbbfa913e7e099b75ae652cc90cfd66c6d6b drm/amdgpu/gfx12: fix EOP interrupt routing for KQ and userq
-ac11060c6d4959e2d4ceada037d2e1e1bfcf6645 drm/amd/display: Handle struct drm_plane_state.ignore_damage_clips
-a609b6278bf3cde17eeee6620091465521e4b02c drm/amdgpu: reject mapping a reserved doorbell to a new queue
-020da7c5aac5b86bad8a1571f6eda6b8cff9331d drm/amdgpu: fix resource leak on ACP reset timeout
-28c9b3c5dc35cc790d11e26ca3fc6e068be63998 drm/amdgpu: invoke pm_genpd_remove() before freeing genpd
 75050390151a14802be433c3856ddcb483cecd24 drm/amd/display: use kvzalloc to allocate struct dc
 93c8fe6d56037f284be7116d0c8155847c6d7fbe drm/amd/display: guard against overflow in HDCP message dump
 5be7f6720a0ff93cf224c9bc81d1f493bf3fe632 drm/amdgpu: Only set bo->moved when the BO was actually moved
@@ -1049,6 +1033,22 @@ a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of gi
 980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
-a8488ecbd7ba44d65b912dfe88a73f438eba2447 kcsan: avoid unintended access checking in NMIs
+d57f39f0f4f3e6db7629b0d35b48a523a1e82758 x86: Implement _THIS_IP_ using inline asm for 32-bit
+e8f5c30ed1e6965d70531fcf8eaadfc59cc94b76 powerpc: Implement _THIS_IP_ using inline asm
+92bcea94f23ce65c34ea348c82c0792c4e792999 arm: Implement _THIS_IP_ using inline asm
+5783c600ce38787114987159a461b3e01e33d798 mips: Implement _THIS_IP_ using inline asm
+3487b9f693919827cddb6cf085ccd7d0f2b86385 m68k: Implement _THIS_IP_ using inline asm
+778a886b62d0175665003e8e85ed3bf13bbb68be openrisc: Implement _THIS_IP_ using inline asm
+bdb1b05b200315c150b02cfa18d7b8dd303c5541 alpha: Implement _THIS_IP_ using inline asm
+ca517fd3379241ebddca261bbac9b218bf7cd451 sparc: Implement _THIS_IP_ using inline asm
+a52e117270d566fcc7b540518af6441e54365719 arc: Implement _THIS_IP_ using inline asm
+36f69152daa0bea3c9e92646cc3dc3fd15fdd2cb hexagon: Implement _THIS_IP_ using inline asm
+7aead8065023d016aad274a69abf16c25fbdda29 parisc: Implement _THIS_IP_ using inline asm
+3234c93379ad09df495865e134314c4824f0f4cd sh: Implement _THIS_IP_ using inline asm
+0b8a0a0dea02d92411ea19d614d7dd03d67fb245 xtensa: Implement _THIS_IP_ using inline asm
+63fab3d9a8a9ba3d542397cf6dfdbbce3b46182e microblaze: Implement _THIS_IP_ using inline asm
+2623edbea69a71bbbc86d6dd1776fef1d2c8bd56 loongarch: Implement _THIS_IP_ using inline asm
+4f81ecf6b4fb5f7a6d98baf3f30df9ea6d055f7f csky: Implement _THIS_IP_ using inline asm
+f08989ff702eaf00e4960b6564e7074d7a970b39 slab: silence sparse warning with type-based partitioning
 
---===============8179448746574672383==--
+--===============7189469437709733379==--
