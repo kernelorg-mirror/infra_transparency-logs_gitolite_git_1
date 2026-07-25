@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1236647400570316749=="
+Content-Type: multipart/mixed; boundary="===============3338261006238030880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 25 Jul 2026 08:31:17 -0000
-Message-Id: <178496827725.151537.16863000806116355731@gitolite.kernel.org>
+Date: Sat, 25 Jul 2026 08:31:46 -0000
+Message-Id: <178496830669.151854.15885837242504680448@gitolite.kernel.org>
 
---===============1236647400570316749==
+--===============3338261006238030880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2d2ae93bc5525c91031b218314855a8d43b6bbf6
-    new: e5a047a33377622ba54b759644b23a8a54e32044
-    log: revlist-2d2ae93bc552-e5a047a33377.txt
+    old: e5a047a33377622ba54b759644b23a8a54e32044
+    new: ea64760048d32773454f645cdc81a7f0675e5125
+    log: revlist-e5a047a33377-ea64760048d3.txt
+  - ref: refs/heads/tip/urgent
+    old: 6fa1a9921b4696ac3fd2a0eb03ac5a74825f3e5d
+    new: 48ccc2fd035e96695e8af320f4356c7f880e5121
+    log: revlist-6fa1a9921b46-48ccc2fd035e.txt
 
---===============1236647400570316749==
+--===============3338261006238030880==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e5a047a33377-ea64760048d3.txt
+
+b1fe3d6667c3677648f86a3ed249ebc30294e4a6 Merge branch into tip/master: 'smp/urgent'
+48ccc2fd035e96695e8af320f4356c7f880e5121 Merge branch into tip/master: 'x86/urgent'
+6e82bb51f6fae2785dbc7f4fb7e544b85bf01027 Merge branch into tip/master: 'perf/merge'
+b512dbbc0390971034db1b11715f369a44d1a3bf Merge branch into tip/master: 'core/entry'
+a7610d8932410f016ffb1abd45b0bc3aa3be8008 Merge branch into tip/master: 'core/rseq'
+943dde100dcfa5814c0fc8d71deac8aa9b9d82e2 Merge branch into tip/master: 'irq/core'
+4134002f7f09be5a9e4543d54b4217cd446fa961 Merge branch into tip/master: 'irq/drivers'
+087b5bef94ed838c7925a7606e0e2315cf6da7f4 Merge branch into tip/master: 'locking/core'
+80a6c19432499dc217ca38231b8a330289ca8749 Merge branch into tip/master: 'locking/futex'
+acaedaff36beaeb48a7883f458a5ea4ab35a1e10 Merge branch into tip/master: 'ras/core'
+c7ddf7b437eed43c92905044fecea9823733dbbf Merge branch into tip/master: 'sched/core'
+2672506f6a20a1dd0effb374cd498f4cfabf7eab Merge branch into tip/master: 'smp/core'
+4400f936e652365de7634716241f03ec6ad7c8eb Merge branch into tip/master: 'timers/core'
+3a74e8487b2bc2e00cb4f4afcddf499db599563f Merge branch into tip/master: 'timers/vdso'
+80514dd7c1719ef39800c77055c210b344f7c88d Merge branch into tip/master: 'x86/alternatives'
+161e50b61a4b1704a40dfafc33511f9a23900689 Merge branch into tip/master: 'x86/boot'
+25a15784399e41a2791219a07bb309afa5cb1a2a Merge branch into tip/master: 'x86/build'
+30057a66946b3a31da9e43c6e7262249600f43e0 Merge branch into tip/master: 'x86/cache'
+ddd599ab8245f633e20f745752e026b1f83c0951 Merge branch into tip/master: 'x86/cleanups'
+379402a6189de8aae6f6586c49c53d5afb5b4f70 Merge branch into tip/master: 'x86/cpu'
+b5d40725c3eafec7fb543c843c08d44d12a834f9 Merge branch into tip/master: 'x86/entry'
+ee96d16f217830ce2d0a8c281355bf63743c3eaa Merge branch into tip/master: 'x86/mm'
+e0a004aa5ad1c09e5c45c98090a1f284ac4c6299 Merge branch into tip/master: 'x86/msr'
+ea64760048d32773454f645cdc81a7f0675e5125 Merge branch into tip/master: 'x86/tdx'
+
+--===============3338261006238030880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2d2ae93bc552-e5a047a33377.txt
+Content-Disposition: attachment; filename=revlist-6fa1a9921b46-48ccc2fd035e.txt
 
 af9ea231c0b4530edc389a3126a69e0699b7699d mm/slub: fix lost local objects when bulk remote free batch fills
 1dba91a0493b7ffe9cbbcf7a8df1b361ddcac515 mm/slab: fix a memory leak due to bootstrapping sheaves twice
@@ -111,9 +146,6 @@ a6c4250b81bd30beae94e1b7a4b26fa1193ad2e4 rbd: Reset positive result codes to zer
 50958bb928bad3bdba9e5d1b7ff4bbadcf6951e6 ceph: fix hanging __ceph_get_caps() with stale mds_wanted
 cee38bbf5556a8e0a232ccae41649580827d7806 ceph: add owner/capability checks for CEPH_IOC_SET_LAYOUT*
 5b602344a49e039e792ce5a8923bcc61412ee134 ceph: avoid fs reclaim while using current->journal_info
-598ebce64c4cfaca54cbecdc25a7ef56ea701051 x86/topo: Map vendor CPU types to generic Linux such types
-bdb1b1f03b9b1cc1cde7d54f8b5b2f9a6bdda782 x86/topology: Name the AMD core-type values
-924be9d673eb75deef2f71ddee0d7d89fe69bb7b x86/topology: Add TOPO_CPU_TYPE_LOW_POWER
 394586aa7e7233c7fbae7fef31b0115fa3d66b5f Merge tag 'drm-intel-fixes-2026-07-23' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 20277937f9a11e05f485caa2fc9b3440f9f0f823 Merge tag 'drm-xe-fixes-2026-07-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 6273dd3ffb54ec581855b82ae77331b66028249c drm/vc4: Shut down BO cache timer before teardown
@@ -135,7 +167,7 @@ ae453eef925945a02bb558bff9debbee352e33e9 Merge tag 'bpf-fixes' of git://git.kern
 8e371eff3f72afde801c36007fa15fc7dd5314f3 Merge tag 'v7.2-rc4-smb3-server-fixes' of git://git.samba.org/ksmbd
 73387b89d99f7b588870c5a98eb6a89689c65a1a Merge tag 'io_uring-7.2-20260724' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 0ce37745d4bfbc493f718169c3974898ffec8ee7 Merge tag 'block-7.2-20260724' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-15cf222020f9042ab30a6c4bea159195dd9e463e Merge branch into tip/master: 'x86/cpu'
-e5a047a33377622ba54b759644b23a8a54e32044 Merge branch 'linus'
+b1fe3d6667c3677648f86a3ed249ebc30294e4a6 Merge branch into tip/master: 'smp/urgent'
+48ccc2fd035e96695e8af320f4356c7f880e5121 Merge branch into tip/master: 'x86/urgent'
 
---===============1236647400570316749==--
+--===============3338261006238030880==--
