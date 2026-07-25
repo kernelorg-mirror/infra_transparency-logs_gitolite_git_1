@@ -1,42 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5532648083681267730=="
+Content-Type: multipart/mixed; boundary="===============1247893596795805046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Sat, 25 Jul 2026 12:09:03 -0000
-Message-Id: <178498134316.304478.12799612240846702956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 25 Jul 2026 12:15:50 -0000
+Message-Id: <178498175069.310643.5657513363593362929@gitolite.kernel.org>
 
---===============5532648083681267730==
+--===============1247893596795805046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/arm64/percpu-fixup
-    old: 78c0e9431a91507ae09e0f15f4d789c9227b0fd0
-    new: 7e996a5bbc856251b6a4ffe015036c757f7d0d5b
-    log: revlist-78c0e9431a91-7e996a5bbc85.txt
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 00af4a2f836710f4bc4576fc9f83af15868e7196
+    new: c6a2633b97b6fcf6578f7e47e333f47d059d7243
+    log: revlist-00af4a2f8367-c6a2633b97b6.txt
 
---===============5532648083681267730==
+--===============1247893596795805046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78c0e9431a91-7e996a5bbc85.txt
+Content-Disposition: attachment; filename=revlist-00af4a2f8367-c6a2633b97b6.txt
 
-ee9f35c314364f3eb1a9fb56a01181ec74ea3dcb arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
-a691683a9ba8aa911767895e16e12799f9174143 arm64: preempt: Treat should_resched() as unlikely
-d760c0d1a5305a22288998490e60c9e818ff9e68 arm64: ptrace: always inline pt_regs_[read,write}_reg()
-e7c513ec5a10b1430ed65170a9c570029bec2612 arm64: percpu: Factor out percpu offset asm
-7f21f6853714b611a603a65b7e57cdff01ced098 WIP: arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
-451f6ae2a53d760934b45b0abfd073cc7d79d6fe WIP: arm64: percpu: Make basic RW ops preemptible
-e1dfb645868086a094513669fa199f28c9b6e740 WIP: arm64: percpu: Make non-returning RMW ops preemptible
-f3e3723521807790ab744aa587b21b409a8c1711 WIP: arm64: percpu: Make return RMW ops preemptible
-8e90ea68fe8e2d724eecfdb7acb0198adf265604 WIP: arm64: percpu: Make XCHG ops preemptible
-a276d5f1a725e2cb4460a85e9d3f9f88ae90fecd WIP: arm64: percpu: Make CMPXCHG ops preemptible
-55fc325af5b84ef711ee67279497883f688df1c1 WIP: arm64: percpu: Make CMPXCHG128 ops preemptible
-7e996a5bbc856251b6a4ffe015036c757f7d0d5b WIP: arm64: percpu: Remove _pcp_protect*() wrappers
+8e36148999669a4ca3860fa2f12e363b035f5b81 sched: Add sched_ext hooks for proxy execution
+9823ddf99730094aedef1f29574130f8545cd76c sched_ext: Block proxy donors across scheduler transitions
+292ecb687bc6e8f47921ad4ab9f3d0bcf0f9ecd1 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+e1cf3ae8286c641e5e8589ca306de25371619286 sched_ext: Generalize the reject DSQ reenqueue path
+437c1700a9832bfa2882c063a3a0a07640cea70e sched_ext: Handle proxy-exec races in remote DSQ transfers
+b72938e0ee02298e29eeb4d66536e9c221d16964 sched_ext: Split curr|donor references properly
+2eb9bf049b8ba8984b035c92ab58a561a4c62d26 sched_ext: Keep blocked proxy donors on the local DSQ
+90a51e711cbfbd77549a105de4c4c14f47ce292c sched_ext: Delegate proxy donor admission to BPF schedulers
+83be149502e27e45db7ecfa37cb43220d1e0a860 sched_ext: Add selftest for blocked donor admission
+0503ab319d326e60983c808b2ea91a38ccfdc66f sched_ext: scx_qmap: Add proxy execution support
+c6a2633b97b6fcf6578f7e47e333f47d059d7243 sched: Allow enabling proxy exec with sched_ext
 
---===============5532648083681267730==--
+--===============1247893596795805046==--
