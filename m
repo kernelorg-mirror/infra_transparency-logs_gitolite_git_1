@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2402749079389156409=="
+Content-Type: multipart/mixed; boundary="===============7375639100759597164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 26 Jul 2026 08:41:31 -0000
-Message-Id: <178505529131.1169673.16406370134255813867@gitolite.kernel.org>
+Date: Sun, 26 Jul 2026 08:42:45 -0000
+Message-Id: <178505536583.1170245.16144587504269749094@gitolite.kernel.org>
 
---===============2402749079389156409==
+--===============7375639100759597164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ea64760048d32773454f645cdc81a7f0675e5125
-    new: 3493bcc053df332cbcdd276cb50c32dd8fefa45f
-    log: revlist-ea64760048d3-3493bcc053df.txt
+    old: 3493bcc053df332cbcdd276cb50c32dd8fefa45f
+    new: 8d0b0ef045143e7ebf2b4c3ad5347bc1e0e45a80
+    log: revlist-3493bcc053df-8d0b0ef04514.txt
+  - ref: refs/heads/tip/urgent
+    old: 48ccc2fd035e96695e8af320f4356c7f880e5121
+    new: d4c71071b6ab322ac03c53991f30fa50e7cbc0d6
+    log: revlist-48ccc2fd035e-d4c71071b6ab.txt
 
---===============2402749079389156409==
+--===============7375639100759597164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea64760048d3-3493bcc053df.txt
+Content-Disposition: attachment; filename=revlist-3493bcc053df-8d0b0ef04514.txt
+
+e04cc2194b1f2204980c94877d03086a2ab05fc2 Merge branch into tip/master: 'smp/urgent'
+d4c71071b6ab322ac03c53991f30fa50e7cbc0d6 Merge branch into tip/master: 'x86/urgent'
+302692d98b6d3508efc6eac5892d9d35df66dea4 Merge branch into tip/master: 'perf/merge'
+26150c23ff237d737e6cd04ecbc7956e69a19b3a Merge branch into tip/master: 'core/entry'
+eb89bfd8a8e415592109a2d325722afc827f2a44 Merge branch into tip/master: 'core/rseq'
+a245ccc6c6278eda5149a70a5bc64e0131971b4f Merge branch into tip/master: 'irq/core'
+b99b0fda35d8a712b2fc74f7df8fd892937de2d0 Merge branch into tip/master: 'irq/drivers'
+66958e251d167c6531bfecc46f460b7d8fb01d73 Merge branch into tip/master: 'locking/core'
+2906e2925afd666d9434d1506746a81606e736d0 Merge branch into tip/master: 'locking/futex'
+fe72f03b55e438b4fcf3830a2d4d8dc7144102e2 Merge branch into tip/master: 'ras/core'
+a31c72b7c13f23ac3e9d2c828a94d40f83a5db2e Merge branch into tip/master: 'sched/core'
+b2997796deccc770fa381c3cbae8ccd02b133864 Merge branch into tip/master: 'smp/core'
+e04c4c5ef7d14790db3050de8f5e85fa803aca50 Merge branch into tip/master: 'timers/core'
+3d7fd38b4abb258f654abac990b2d02bc19f4744 Merge branch into tip/master: 'timers/vdso'
+97314ecf35de33e67369c6233dc53dccc8e86c27 Merge branch into tip/master: 'x86/alternatives'
+b384db4152dba8f3410f33eb116e1384f4927358 Merge branch into tip/master: 'x86/boot'
+380d5a2838798bddc57d9f2d1d51cad8efa2f9ad Merge branch into tip/master: 'x86/build'
+211f2ebccbcdfa524e47c3e70f0f81c904f42128 Merge branch into tip/master: 'x86/cache'
+fc664b32defd2ed5d8bc4d5982a49a813de4f5ac Merge branch into tip/master: 'x86/cleanups'
+dbbc3d9b8e364991d1ddd47775e363ea86f55b01 Merge branch into tip/master: 'x86/cpu'
+0a7e4bf44cfa878cbdb4a8cd2c24b96f41ba4250 Merge branch into tip/master: 'x86/entry'
+c74b6fe3ead6ecaaf76b3819a72d5ec6eb5c86fc Merge branch into tip/master: 'x86/mm'
+f5b5600f277a2d4818a08141527ba508d0452c28 Merge branch into tip/master: 'x86/msr'
+8d0b0ef045143e7ebf2b4c3ad5347bc1e0e45a80 Merge branch into tip/master: 'x86/tdx'
+
+--===============7375639100759597164==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-48ccc2fd035e-d4c71071b6ab.txt
 
 608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
 4688cf884b3abcd12498e03b625d1916bf49a1e4 rust: allow `clippy::unwrap_or_default` globally
@@ -58,6 +93,7 @@ cf4dd800e49d35d48ebd63d511a6e200f39176f7 platform/loongarch: laptop: Stop settin
 d99d2a953ad8d29e6b777f6770f10668a636842a Merge tag 'firewire-fixes-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 ef9ce800df95726978490534f9e2c14ca71858e8 Merge tag 'perf-tools-fixes-for-v7.2-1-2026-07-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 3dab139d4795f688e4f243e40c7474df00d329d9 Merge tag 'rust-fixes-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-3493bcc053df332cbcdd276cb50c32dd8fefa45f Merge branch 'linus'
+e04cc2194b1f2204980c94877d03086a2ab05fc2 Merge branch into tip/master: 'smp/urgent'
+d4c71071b6ab322ac03c53991f30fa50e7cbc0d6 Merge branch into tip/master: 'x86/urgent'
 
---===============2402749079389156409==--
+--===============7375639100759597164==--
