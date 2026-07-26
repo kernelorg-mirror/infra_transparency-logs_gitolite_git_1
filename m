@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1922072651622274323=="
+Content-Type: multipart/mixed; boundary="===============6583024723896955357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 26 Jul 2026 12:42:38 -0000
-Message-Id: <178506975826.1393489.17198349406053262897@gitolite.kernel.org>
+Date: Sun, 26 Jul 2026 12:42:55 -0000
+Message-Id: <178506977564.1393728.1888423411328927165@gitolite.kernel.org>
 
---===============1922072651622274323==
+--===============6583024723896955357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: cccc42cd578b216630ad0bd37bddda70c816ec3f
-    new: 870dace194fe1d8186240dfd1018751e3dec3db4
-    log: revlist-cccc42cd578b-870dace194fe.txt
+  - ref: refs/heads/rndis
+    old: 186842a7d83388298e7d98b6cadc2642668d32a5
+    new: b1301ae5a2d3a66f14dacf5e0d8b2d0d6422d070
+    log: revlist-186842a7d833-b1301ae5a2d3.txt
 
---===============1922072651622274323==
+--===============6583024723896955357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785069732 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785069750 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785069741-93935b9a5298a476dde6a3024e9f6e64b57b4fa8
+nonce 1785069759-29d1db13b2920dd8634acb58fd52a7b30bbacbcb
 
-cccc42cd578b216630ad0bd37bddda70c816ec3f 870dace194fe1d8186240dfd1018751e3dec3db4 refs/heads/readfile
+186842a7d83388298e7d98b6cadc2642668d32a5 b1301ae5a2d3a66f14dacf5e0d8b2d0d6422d070 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpmAKUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SLoP/j2dPMMLhUUXXZw834oA
-pFi1AVdfUQG5EmStzy9xcRP0gcxYhd6jnwKFgHyq+/DRP3dPRUZiR4KYSFTEkLd5
-0qvq04rVIWyFFSjrKU/sBM5gf0TSiUYDjroENztAvu9fgO0D7n3ZqgRX5i7QHksR
-BSzbdxh/99AmmIEydmyREoie/gRAUacqjWYPnGWwRiDk2SQOje6hL7mVbpkOhpJu
-CO1gY5ZqVsygrchmBZZ1RevgcO6Tcpv2rPifK/PXiN0LV6EMGkINXv+4myrntWSb
-IttSjKJMa6UnF9MBaQnxCGAAV8XQWcWELIgmnqgi2/M6vITMi3h7brPEiFsSTgs0
-BTmjyYdAD9RuzEoFe/IxDIBhFhKbpDTROw9uH2nejljFFk+tcCdIGKCi9gsZ5Ei5
-3T5tWzZ+VONpbu9pwjagbq16UI8sOnDi8c+pm8D3u/PVU39d0gpwmFrrH7vgXGZ4
-sjZJL8EpDKig0KzLgjyqzS8FbazOGwaEoLYUN3zg74Mv3mY6MQzoyY1reDX/MiOl
-TlX8c2+W/PCMyWq1UePJr9XWkErHPA/ejqWcRFCcXar6LWzGZUM/hYvdkfkBeSV9
-qOBWagVB1s2DiL7veMvRcesv6qMujovnNCSsPvcWSUwGpBUENv77M7YQiI/2qcSK
-WX7YRPse6t62J9928r/VhHXO
-=zbJR
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpmALYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A1gQAJ0n8TqbrjschlyBKtQx
+09g68Xuhl6kiQgklGse8wJMRNEJmjsNuBfQ8PQILxlBZ8QzsStOfZ5kjS4JElepK
+xiaQSGCNl38vW6eWFny6eTtHTF52FlDB1P+KLydlqREGYvsYs892VA4dVGCEGMlS
+CyBBV1XavTqDMTstWrBH5jzMwP1QAwU5ZVCZzjv2uGn1fX9rsr4nCoBTVBK/C5lX
+sldgQ0jfrPAE85FFfoD4wywH5+Yc6ajGi67znHxE30ase9lKC4OHMIOD9hshFQEZ
+zqU5jyY5hdlbgb3z8ZTm0BIGXugmS4c9Ggb+ZPjLvDZYY9jg4k6ZWH4W99i5Pry1
+WNEA31y2GPYBMQviW3IPbAvSHmevU9ndBgiNljj1UJoTmtXPwlTE3E77Ff9Xd0DM
+OJkm2QKIjusfXkwOCdfI7ehY1sJp8Bbsd5s0WDqzbmAYzxMbOOvXC6rN7p4ON+lK
+AE+Qkh0NNCxtidO6GSVtsOWZCGE9F+QzpBNhstyEEeqDwkkYpu53jGaQWLOamXDy
+KAOBI591HgDkqWeoyw+FYaJTC5ZkDPUf03xmKDmL4p/KTt3LhM3mmMnXI4BvYHsX
+zGfYDRehLcI8dHHlY6Od9/1qRfnWucIE2JpiTOvrZ69ep0olMcjcf6VloxwXC8QG
+AVUn5ee6/9MtvM3WX4Hi7dwm
+=slV1
 -----END PGP SIGNATURE-----
 
---===============1922072651622274323==
+--===============6583024723896955357==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cccc42cd578b-870dace194fe.txt
+Content-Disposition: attachment; filename=revlist-186842a7d833-b1301ae5a2d3.txt
 
 608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
 2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
@@ -560,9 +560,8 @@ ae453eef925945a02bb558bff9debbee352e33e9 Merge tag 'bpf-fixes' of git://git.kern
 d99d2a953ad8d29e6b777f6770f10668a636842a Merge tag 'firewire-fixes-7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 ef9ce800df95726978490534f9e2c14ca71858e8 Merge tag 'perf-tools-fixes-for-v7.2-1-2026-07-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 3dab139d4795f688e4f243e40c7474df00d329d9 Merge tag 'rust-fixes-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-6009a3c27f63ce16e3152f73e2936229939e0777 readfile: implement readfile syscall
-1b3ce41c101e7e13407688bb53aa05558d777989 arch: wire up the readfile syscall
-86f34cb2a1f4daafdf77e302a7d17fa720fb6b45 readfile.2: new page describing readfile(2)
-870dace194fe1d8186240dfd1018751e3dec3db4 selftests: add readfile(2) selftests
+5e9c9bfd1ed37d31f6bb1d214b8fe7d0fba0a15f USB: disable all RNDIS protocol drivers
+6b8476472b31c5049aa62661b7aa450fb1245dab USB: potential rndis host fix
+b1301ae5a2d3a66f14dacf5e0d8b2d0d6422d070 rndis_host: add overflow check in rndis_rx_fixup()
 
---===============1922072651622274323==--
+--===============6583024723896955357==--
