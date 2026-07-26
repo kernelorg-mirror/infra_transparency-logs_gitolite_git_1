@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5322806095373798954=="
+Content-Type: multipart/mixed; boundary="===============6928292841638055179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 26 Jul 2026 12:43:02 -0000
-Message-Id: <178506978218.1393995.12005748414015823284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 26 Jul 2026 12:45:38 -0000
+Message-Id: <178506993811.1396823.16903906308089022503@gitolite.kernel.org>
 
---===============5322806095373798954==
+--===============6928292841638055179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/staging-7.2-rc5
+  - ref: refs/tags/tty-7.2-rc5
     old: 0000000000000000000000000000000000000000
-    new: d188b5b01fd502552c8360e249c4fc32052ab895
+    new: 4e554f1a7930eda55f34286e56cf9688340d7d9d
 
---===============5322806095373798954==
+--===============6928292841638055179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785069771 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1785069780-a83350859067b803485928f4f79be65994be11de
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785069927 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1785069936-876bbb82db8cead6ee265df58f6e02ef643dbd53
 
-0000000000000000000000000000000000000000 d188b5b01fd502552c8360e249c4fc32052ab895 refs/tags/staging-7.2-rc5
+0000000000000000000000000000000000000000 4e554f1a7930eda55f34286e56cf9688340d7d9d refs/tags/tty-7.2-rc5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpmAMwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M4cQALWHyQPq831xDrvcpM8d
-Ofk+CPgupv5FQMW247qqi7Nu4yebRVuljxzUS7aY0xi+r1sI0+ugcJn7SJV7e6mY
-sqEYg0O1u7NDSA7WvqVK68qpgJL3ne70xUJsSmxowb2L+BLi3vUIxUzM+NBxt50H
-u7Wip7LTdnJaHe3D5eXScX/zyiHErX6XsZI1PUkwBHD1+1SPvfO/ruB0U/iAkhjF
-3h9rzBE3hBcoD/Yg7vQ/nqU9VlJmA7zQZZvk6EzxW+lHwk61dHx9pCgjzib0Ba4G
-ZI+T4OCoV7esTE6XYDim6AJ/a0gdxC/tqf70zNDtXZSmQ10OyzDcrJ+EapOhfU1I
-qbd96/UIg3OiexYv8WF/AoTXNH3YFsNY6jjHhO4+9zSw1NBhKLZ8+1NkkDXKJ1bW
-ktbIuT1uUfQjrXVYzAjU185CAnKHJ9I0FXZ6tkKSJ4EJBXF9NiPnriwwWJ1171ya
-Zir2jOEVLPJRXIMMuYmNW+ZyGPbXqcnvw2vSkdJwzuZGKSrNzhljFA/X1z9VSmWH
-cgqvh1bZN5NCpNC+29Qbz9MwkUDUtnCTyvpFFVaQO9OPPu1aSfvejVz8vWTfBzWG
-uRPey87s/X11nJ99capvk/p3QKTFKgyGaZ7Q9YxBbKdRBAHPTAw09q0mgBtW8rVs
-5dYYHuTsF+wmY36xQ9ZXM876
-=HInG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpmAWgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+65oP/juWdchhSzFpNTiYXEaM
+GCJqYd6vO5y6eNpC/CH+m0py/cL696lCi4ruG9BBGt3d22nXQ9uOOBps1y5LGnRr
+6baHLpucsehTOA5yVeOFjsV2px6qkwDVDN3gcr0+m0Hc4ZPB76nLve4RwYwNZM2u
+2Fzq94w5GiTBb2TIywQpYZtUumKkTXRPxDOmVjKdOse/f9dV9pfBUL30n6/7WaUh
+ZoKdrU1XaCUsVF16PpSX5I7Q8wb9AQJ3RY7+WUzO5QWAf2Iacnhv9Vv3WUAvkpYh
+oZERamttU1ArtthlBAo9gU8P7QjUuJKf+OawwjtGX+gFDo+7enM/JmyIwl254jfs
+mnjf7naxPVoucppAUhGpfhol8TW/kSEIzhtLQHnrlgQwHHgw4xBeEfxoDdGbzBDZ
+B7KYNImpu/HQxSxEUnr4Wfea7WFmPwf0LAUjYRp0UqzuJmDzr7Segl76EhHhGLmz
+3St7b62AoDmPun5FOHmK23wGF/RIlzw+abqP+MeE4DVIbi+FpVWAB7S9RhOk5DkV
+Y2lV7a2zBUw/XOEf+MnIFdgKv1gIS0Q8+eSjbguEI57Mbae2h+CvIJvJOhO8Mtll
+OqNQhmmkCxLABNAU7UVh0BVDnAZRXkVqdKDRHctFJn8YrGXrthMFbZmtaGk9UB4k
+W0ADHWN823Es5YGq9BqUI+ke
+=jmYC
 -----END PGP SIGNATURE-----
 
---===============5322806095373798954==--
+--===============6928292841638055179==--
