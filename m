@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 26 Jul 2026 08:23:43 -0000
-Message-Id: <178505422330.1155506.13890187151386111582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlawall/linux
+Date: Sun, 26 Jul 2026 08:25:51 -0000
+Message-Id: <178505435138.1158427.13231613353866308060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jlawall/linux
+user: jlawall
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: ecdcc8a455b7845714b7b086a8ad229056867558
-    new: a273210687f255b12c2f6baf8f25ff80cdbb29ed
+  - ref: refs/heads/for-7.2
+    old: 3dab139d4795f688e4f243e40c7474df00d329d9
+    new: d3addcc656fad0b64cbc22fa26ccadb2676b9adf
     log: |
-         a273210687f255b12c2f6baf8f25ff80cdbb29ed RDMA/cxgb4: remove dead NULL checks after GFP_NOFAIL allocations
+         d3addcc656fad0b64cbc22fa26ccadb2676b9adf coccinelle: double_lock: improve performance when no double lock exists
          
