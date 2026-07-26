@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sun, 26 Jul 2026 21:42:43 -0000
-Message-Id: <178510216318.1774114.6702912929885479820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 26 Jul 2026 21:50:26 -0000
+Message-Id: <178510262609.1780534.8736883453610135621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-7.3
-    old: 6ee471b646e09203f8dca27ffff78bb454dc97ac
-    new: 34572206208c1ac646bf734b6035f9304c1da31d
+  - ref: refs/heads/master
+    old: 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b
+    new: f5098b6bae761e346ebcd9da7f95622c04733cff
     log: |
-         7706d6e4f2e3ad7dfb92b84cacd0c16e6e3c8381 sched_ext: Bound per-task reenqueues and eject the owning scheduler
-         34572206208c1ac646bf734b6035f9304c1da31d tools/sched_ext/include: Regenerate enum_defs.autogen.h
+         f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
          
-  - ref: refs/heads/for-next
-    old: b492a0559b87275df3400a26b9cd17cfc6874021
-    new: 77330d9f4759f7bd47063981447c6c62d1fbb16c
-    log: |
-         7706d6e4f2e3ad7dfb92b84cacd0c16e6e3c8381 sched_ext: Bound per-task reenqueues and eject the owning scheduler
-         34572206208c1ac646bf734b6035f9304c1da31d tools/sched_ext/include: Regenerate enum_defs.autogen.h
-         77330d9f4759f7bd47063981447c6c62d1fbb16c Merge branch 'for-7.3' into for-next
-         
+  - ref: refs/tags/v7.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a8e429896436e8c2d288181f875f92af8204bc58
