@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2032397437912356385=="
+Content-Type: multipart/mixed; boundary="===============5396427575248980841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 26 Jul 2026 12:37:38 -0000
-Message-Id: <178506945849.1333060.10485822621423156546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 26 Jul 2026 12:37:59 -0000
+Message-Id: <178506947994.1333330.7777813699170858110@gitolite.kernel.org>
 
---===============2032397437912356385==
+--===============5396427575248980841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 74b7d8f82e88d63f608c8e5d6e5c5b1eee1a753b
-    new: 51246832b1523e288dc87db0223e6becb53b3a3a
+  - ref: refs/heads/usb-next
+    old: 80574c40598aedbc1751c528e414d7e224bc6313
+    new: cae6572efdd0948a7b676b3c5a7cebf9483bc781
     log: |
-         51246832b1523e288dc87db0223e6becb53b3a3a drop kvm patch from 6.1 and 6.6 as it broke the build
+         205dc9cb39f52150861ed5adaad90274389d19cf usb: typec: tcpm: implement retry mechanism for Discover Identity VDMs
+         913910ed36ba14354ea6e1d4978e2e4c14c3df28 usb: gadget: f_mass_storage: Remove obsolete version log
+         a29496745aa335d97f617385809583241e118610 usb: core: Strengthen error handling in hub_hub_status()
+         cae6572efdd0948a7b676b3c5a7cebf9483bc781 usb: core: reformat error handling and messages
          
 
---===============2032397437912356385==
+--===============5396427575248980841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785069448 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785069456-5c217e34d64629743649c15adba40f0c71636f97
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785069469 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1785069478-f73de2d85ea246528b14bfc1b9cd05e14712f813
 
-74b7d8f82e88d63f608c8e5d6e5c5b1eee1a753b 51246832b1523e288dc87db0223e6becb53b3a3a refs/heads/master
+80574c40598aedbc1751c528e414d7e224bc6313 cae6572efdd0948a7b676b3c5a7cebf9483bc781 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpl/4gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XiwQAI3H7OvHVG4XIewN7dBZ
-rExzaXozNrbWjdY2cs2DQjucf2G6PFmsJsMGqN/4UPt0NIyUbyQirUoLirVAbwNX
-qJngkUegXXOo6KOxBBT36sOUjOI+RuBxZjGpbE9TsH142wyF7OitXf7wfhVegTeg
-NBqFackM2lUkTef+UYJ8a9yQ7VtVyrJlb0M5eZPSVhcJJO9Baj6dTvEJ+aWA/OEL
-2Fbm4xBvei3Cx7FNuoXICDpI22IvC0JDdPT4zv5VYgZJ4afMXgdnLa0eJ2gsl/17
-AiVYiFJpcVISiJ6BwAjaJXVaUqU5GuT8i68mn818rUlLbm11cN5+jaV8ngUAO4oE
-HP+wFONxAFm/OssORd7+bkHdNib0mw5FMAED8VOeolAdGhLVN74VnFaiTtkvt2l6
-p29Vptbv26TbC8+O2mUSNip4XRdDEOoSmL/Oq8qEjGouFkQiifV4hezVyUohdnHq
-WGud7dVS9RxYks7waA9trE+E3NPL1s5BnSCm1o7Q6Ix/etfV+2DpFENwZy2xuiwk
-0que0/x8kh0RtV+kA5nfgYeUesvSHKfp8ob8Fivm3e6x+VNzpeit5RrCh4L/utgn
-NF0YR58k8mIgn/pbmZZbs5YobcS96mnLvJAi9lukSH/b5osMPOp7aWYHzH85r+NX
-S0CG2lLrkCC4AZ/LLBrubOWh
-=CMaT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpl/54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0gUP/2WnBE3oljSMQL44oXRj
+hH2VvbWsEt4xNSKb5g1FL3OG58dLYcbE4I0vPWnWrTe+yZWJ0jUUtwdskJ/9CiVU
+83ivzuAfdQ9IgIC936eYb9Vs2dnb38jJUZqkWzXlu78WZhz9rqDfK2VrfD9WisW9
+jvrouHzHi5+mTpWXaNqDkasQZku1JSslDsJw8Nyfe3WE+lq7LXZLokXWjOLK7v6/
+xYHk3DO/f0v/DqrjgPIDLI9G0k0u98ZxwT3TcoogmWGT8xGWoMVJO4n3d4s8SjgA
+plQxTBpZIE7HJYEgzMAonMY6Zwf3D3c9Cmw6lPVW2fN7j4VN1dXavxwtfV3Hg4KK
+1uxXPJn01ZLAllYNdgsb7KdtXUDtIXgIRkip7WAXb4KxRMfYhWrV8wGTkSjvPB/2
+crp55ZcAe2g6l9uXD6K26cWnKOkltWS8p2qoQXNaBFmxuGtH2IQf04SSxd2nVdax
+eLdpA00TSnQ8jXsyN9ayh1VKyyBZXnNhPpXrkshIkLl6pSS0NsEa1qZwzsJGO+kO
+PYsmrWrUeHCGC1eTcPKdKzjRUvDl34u4gPTXVVS5NsloeqyDV5QakE+V1UvSRw0/
+BVvzG47+1vUg6r/XCUEXzhSRXfliEHXJGzzXIo26VPoye8iW+bDml3T5dhmhZjTb
+S9no2XRWGvCDO6pyX6qf2Ns8
+=sb0J
 -----END PGP SIGNATURE-----
 
---===============2032397437912356385==--
+--===============5396427575248980841==--
