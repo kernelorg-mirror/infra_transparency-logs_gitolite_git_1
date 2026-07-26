@@ -1,51 +1,53 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Sun, 26 Jul 2026 14:38:31 -0000
-Message-Id: <178507671161.1474641.17311920693772942543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Sun, 26 Jul 2026 14:59:17 -0000
+Message-Id: <178507795737.1488761.9489212072864521374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/arm/smmu/bindings
-    old: 7b97226bfb4ff96ecff7408160e8e50a5d70e48b
-    new: 20df8037968d3c088e507586bcac44b51aae3cbd
+  - ref: refs/heads/for-kernelci
+    old: b66b0005b6ce3924efcf341f70ac6b83f1f52289
+    new: 365f9c7a6b81889720fc221c166075b1ce81c641
     log: |
-         20df8037968d3c088e507586bcac44b51aae3cbd dt-bindings: iommu: Fix interrupt type in example
+         b6bd4d1a5b6c46be32bbe0d3447de59f8a5885e0 arm64: Don't number registers in cpu-feature-registers.rst
+         4788adeca0e03cc34d0846a25f3d028ab75eadd1 arm64: Document missing bitfields in cpu-feature-registers.rst
+         21a2ca869edd51373e3a953641ee97efee5c0557 arm64: Sort registers in cpu-feature-registers.rst
+         bc7f7ddc64df4b821d7dce97db58c5bf84e0efd1 arm64: Remove hidden bitfields from cpu-feature-registers.rst
+         221049874b6a78c7d87bc826581b0695cd338e2b arm64: RSI: fix field-spanning write warning in attestation token init
+         25ef34b541eb216c09cb304778915fec845ef7ec arm64: futex: Consolidate 'old == new' check in __lsui_cmpxchg32()
+         959343d0e4d6da18debbf5e6f1a1e8f91f14f344 Merge branches 'for-next/acpi', 'for-next/coco', 'for-next/cpufeature', 'for-next/errata', 'for-next/misc', 'for-next/perf' and 'for-next/uapi' into for-next/core
+         365f9c7a6b81889720fc221c166075b1ce81c641 Merge branches 'for-next/core' and 'for-next/fixes' into for-kernelci
          
-  - ref: refs/heads/master
-    old: 5f9f1eaf7e599a4ded1216822cc91a4dd7dd86e0
-    new: 15a5e7b2b1f3137c058334874b5a0a1793e19a13
+  - ref: refs/heads/for-next/coco
+    old: ecc2e046869ea8caf24142ea349d0eba38e1b930
+    new: 221049874b6a78c7d87bc826581b0695cd338e2b
     log: |
-         414cb6f3ac6217d67963d53866e0fc2288dd3556 iommu/rockchip: Drop global rk_ops in favor of per-device ops
-         ea0a9d453f60d5d065c377bbd20ab8a78b8620b7 iommu/rockchip: Fix silent probe success when all MMU resources fail
-         841363ebb5082a06c69ac34719e26659fe63dbd6 iommu/rockchip: Take all DT clocks
-         b10d5920cafa292ee3cab9c20f813da4fe4f00b8 iommu/rockchip: Clear stale page faults before enabling stall
-         20df8037968d3c088e507586bcac44b51aae3cbd dt-bindings: iommu: Fix interrupt type in example
-         52f2cf2665e6c03bb94d35501487cc8c6db3e224 Merge branches 'amd/amd-vi', 'arm/smmu/bindings', 'arm/smmu/updates', 'core', 'fixes', 'mediatek', 'rockchip', 'qualcomm/msm', 'riscv', 'ti/omap' and 'typos' into next
-         15a5e7b2b1f3137c058334874b5a0a1793e19a13 Merge branch 'next'
+         221049874b6a78c7d87bc826581b0695cd338e2b arm64: RSI: fix field-spanning write warning in attestation token init
          
-  - ref: refs/heads/next
-    old: 4bac11b896f4eafcf9ebcbf90580d4509f6f0862
-    new: 52f2cf2665e6c03bb94d35501487cc8c6db3e224
+  - ref: refs/heads/for-next/core
+    old: 656f61900f462cc072c227eb92dcf37ab2f0762a
+    new: 959343d0e4d6da18debbf5e6f1a1e8f91f14f344
     log: |
-         414cb6f3ac6217d67963d53866e0fc2288dd3556 iommu/rockchip: Drop global rk_ops in favor of per-device ops
-         ea0a9d453f60d5d065c377bbd20ab8a78b8620b7 iommu/rockchip: Fix silent probe success when all MMU resources fail
-         841363ebb5082a06c69ac34719e26659fe63dbd6 iommu/rockchip: Take all DT clocks
-         b10d5920cafa292ee3cab9c20f813da4fe4f00b8 iommu/rockchip: Clear stale page faults before enabling stall
-         20df8037968d3c088e507586bcac44b51aae3cbd dt-bindings: iommu: Fix interrupt type in example
-         52f2cf2665e6c03bb94d35501487cc8c6db3e224 Merge branches 'amd/amd-vi', 'arm/smmu/bindings', 'arm/smmu/updates', 'core', 'fixes', 'mediatek', 'rockchip', 'qualcomm/msm', 'riscv', 'ti/omap' and 'typos' into next
+         b6bd4d1a5b6c46be32bbe0d3447de59f8a5885e0 arm64: Don't number registers in cpu-feature-registers.rst
+         4788adeca0e03cc34d0846a25f3d028ab75eadd1 arm64: Document missing bitfields in cpu-feature-registers.rst
+         21a2ca869edd51373e3a953641ee97efee5c0557 arm64: Sort registers in cpu-feature-registers.rst
+         bc7f7ddc64df4b821d7dce97db58c5bf84e0efd1 arm64: Remove hidden bitfields from cpu-feature-registers.rst
+         221049874b6a78c7d87bc826581b0695cd338e2b arm64: RSI: fix field-spanning write warning in attestation token init
+         25ef34b541eb216c09cb304778915fec845ef7ec arm64: futex: Consolidate 'old == new' check in __lsui_cmpxchg32()
+         959343d0e4d6da18debbf5e6f1a1e8f91f14f344 Merge branches 'for-next/acpi', 'for-next/coco', 'for-next/cpufeature', 'for-next/errata', 'for-next/misc', 'for-next/perf' and 'for-next/uapi' into for-next/core
          
-  - ref: refs/heads/rockchip
-    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
-    new: b10d5920cafa292ee3cab9c20f813da4fe4f00b8
+  - ref: refs/heads/for-next/misc
+    old: 9315e22b0c0a5be708798c03dc8f27549667e475
+    new: 25ef34b541eb216c09cb304778915fec845ef7ec
     log: |
-         414cb6f3ac6217d67963d53866e0fc2288dd3556 iommu/rockchip: Drop global rk_ops in favor of per-device ops
-         ea0a9d453f60d5d065c377bbd20ab8a78b8620b7 iommu/rockchip: Fix silent probe success when all MMU resources fail
-         841363ebb5082a06c69ac34719e26659fe63dbd6 iommu/rockchip: Take all DT clocks
-         b10d5920cafa292ee3cab9c20f813da4fe4f00b8 iommu/rockchip: Clear stale page faults before enabling stall
+         25ef34b541eb216c09cb304778915fec845ef7ec arm64: futex: Consolidate 'old == new' check in __lsui_cmpxchg32()
          
+  - ref: refs/heads/for-next/cpufeature
+    old: 0000000000000000000000000000000000000000
+    new: bc7f7ddc64df4b821d7dce97db58c5bf84e0efd1
