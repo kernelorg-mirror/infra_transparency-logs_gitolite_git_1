@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 27 Jul 2026 20:37:24 -0000
-Message-Id: <178518464406.2923294.8167217881613898086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 27 Jul 2026 20:39:43 -0000
+Message-Id: <178518478388.2924248.7662570509250878813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: fde6b526a9ee0a20d70e992e67ef79f2dfe42362
-    new: a1f1b3b478b45259a7b5472ea9ec1b48ef6b5cd6
+  - ref: refs/bugs/25057dc86c968481244625f9dc6ba00f3484c06dc5baf6b1cd984584a259be29
+    old: 154f6bed6d0359c007ebfc5b8951a7597761d82a
+    new: 096f1c930d0dbd00efc7adbfc763be42c64ce863
     log: |
-         b47dcd7b41e22fa3383c2aa07f2935c7b8725f88 platform/surface: gpe: add missing err.h include
-         1c2c8484b9de941a5363d880e92d8b00a73065b0 base: soc: fixup sys_soc.h kernel-doc warnings
-         a1f1b3b478b45259a7b5472ea9ec1b48ef6b5cd6 rust: devres: use `cast_pin_init` instead of manual reimplementation
+         07345843ae09c663bac495fed53a7b26b577203c 
+         096f1c930d0dbd00efc7adbfc763be42c64ce863 
+         
+  - ref: refs/bugs/8bb6e4c54951c8ecbef57d0830332c739e6fa443a2d2955b226c6abd35f63c2f
+    old: 83dba8f0273184d3bb668ace3d17ae84a00bd391
+    new: c7ac03be4fb4ff43b1af335d9a5618512c0773d6
+    log: |
+         7e1149cd79c2d39ec80eeb21c18cc714eb804c03 
+         c7ac03be4fb4ff43b1af335d9a5618512c0773d6 
          
