@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0308144105650043360=="
+Content-Type: multipart/mixed; boundary="===============1055857607120822811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Jul 2026 12:20:06 -0000
-Message-Id: <178515480654.2507024.16354667781345534951@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 12:20:10 -0000
+Message-Id: <178515481089.2507214.16415820874996904067@gitolite.kernel.org>
 
---===============0308144105650043360==
+--===============1055857607120822811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 6e8c279f93dba93f42be7c9c6995bc8e318ba2e4
-    new: f5098b6bae761e346ebcd9da7f95622c04733cff
-    log: revlist-6e8c279f93db-f5098b6bae76.txt
+  - ref: refs/heads/char-misc-next
+    old: 2cedf2272f1bb42471e646868ac572cc5752bd91
+    new: 0957fbab972a9499626ac457fd924b24491c6315
+    log: revlist-2cedf2272f1b-0957fbab972a.txt
 
---===============0308144105650043360==
+--===============1055857607120822811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785154796 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785154799 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1785154805-62f11324da7e8c8dece162503fda31f4eba948e8
+nonce 1785154808-8fba7f399db855d8e01b803feeed7e361366d930
 
-6e8c279f93dba93f42be7c9c6995bc8e318ba2e4 f5098b6bae761e346ebcd9da7f95622c04733cff refs/heads/char-misc-linus
+2cedf2272f1bb42471e646868ac572cc5752bd91 0957fbab972a9499626ac457fd924b24491c6315 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnTOwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sKQP/j5WAKBkfgAsosvJ7sJN
-JXQB/YpVeY0/Rbha7GeM7RCED9SMBqLz3cFIvsVB2vHLIhKnUodIzm6yxrtAK2jv
-fPlc67uIy15hmuQ39P/ascU+d1NIaM2E3kptjbKtL3Rfbw1yYWp/c6FSB0c20E7x
-vUXDbiMK6FFmnij2u+bOdK0gzrTawul3BRkdcOrb9wUx2sWfvcnXeGABIuxKIh5l
-PYCOfzJkxrGFqZev6vb9ZJdxy3+d0G8+UxMvanOAxvICaOvfZXnQk9gKT48RSR5X
-g4NdtMS9/sWexObik0WD40/IXM2jBhjv3914oGXiFmls7gGb8RjFxoQO9NjJ6X+Z
-Jr9M06JegSx/eiNrh0E22EULVrgIgzcxzSngf5uab7iQ/wyXhPwqqhnZUGasaodT
-+uGopyTTnKevIbWud+oyTd9CBC3bjQg4zKhQzeSFtghy4vB18AcuACqivJ9QYwcR
-7kDefyoqQSWr7rZ+KgUgrHYdpmGdVvsIqpa3kckrkfmPAaEHLmj7OeptdpH35KRl
-oXmmWjP4vo3kYeFNFTaW+YXCkhKrgTmtY3YHoPHPr3zEhLjed8X7pUVdQco2CSUG
-bz0y9RfO9UKBcV/E6rmcZeWQHBVIpMrpSR17AJkUS1a8MkKdifEEhAFHS7WK9RGt
-7Y3r7L1phlMh7QSW6JkPLDRO
-=kc0L
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnTO8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zzsQAK6xlHUx4I8CA8ykDvQS
+XaqgAynNjXAPUbVW9qtVItOc+IxjzG84aT55CKdc/l2v3gGozg0UBFy4QqWFkmc+
+Luc4RChZx99n9SDbNGROVchEuGEOyB7R7PXSEdZiPg6DSV6oS+3YHEN1tBf8CJHT
+5KyZD+cWjp5NjnFX5ZJGlEKMTxbkhdiO09rFU+dPiVRGUOyFK9679rX2fkwhSA5K
+KtrCxC0lO1Gq+KVBGSYhVo6bTYgNHWBZ4tdrcsk+fSJMOHEnP/QkHUDLFg19Jlcs
+LdVWtNEW/xo1qn26gM+cg1Y/16zUyYU/BdvQVJQZvSeynyfjTTi9rzxUu10nD4IW
+BWeCCZxHTsUCZXCRHMpndb5buR7cJl1rDn9d9yqKSb3RE3bkYXx1Knvrb70wtJ4E
+uFt7oaSIYkTD6l185d+iXYhdqCs9CGILhuHE/dmmkgtf7bYGi3Q5kgQLJCjJUXmr
+yolCv7em15fnAeeKGoGydxtCAlBtzYXVkK8207kPDq00Qu4RmhNgjC4AFAEP087S
+t9BdZYHsFsF02/bQJfswzqSoBkt34criqJKIUTcEfV8Wol8mLH1014/jF5fXhqpq
+sf5BvX7LZ/uTR6QmDcGofFo72LglSTWlEIsZyijFVZSude770UTDkjXPQYB3ImSc
+6xj9Ifjx4RKn11v2ZsrTYrsy
+=G5tv
 -----END PGP SIGNATURE-----
 
---===============0308144105650043360==
+--===============1055857607120822811==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6e8c279f93db-f5098b6bae76.txt
+Content-Disposition: attachment; filename=revlist-2cedf2272f1b-0957fbab972a.txt
 
-2b0eab425e1f658d8fe1df7590e3b9af5959505e wifi: cfg80211: convert pmsr_free_wk to wiphy_work to fix deadlock
-0a2581cbae9e442835f68d22044157db61cdf54d wifi: ralink: RT2X00: init EEPROM properly
-13ff543e0b2c713aedeaadadde686686e949dc78 wifi: libertas: reject short monitor TX frames
-d06a3e60c8fead962f08cf951eb1de7bd22dab76 wifi: rsi: bound background scan probe request copy
-74ed3669f26803b1761c1f55403062bea44c3466 wifi: libipw: fix key index receive bound checks
-8ecdeb8b8a33b22c597299043c0dcfce50beb9ea wifi: rsi: validate beacon length before fixed buffer copy
-07a95ec2b54774201fdf4ef7ffb0ca2ab19ed29c wifi: nl80211: free RNR data on MBSSID mismatch
-57d503ce32eccfa7650065ca4c560f7e29a2e676 wifi: mac80211: validate extension-frame layout before RX
-4e5a4641e7b4763656336b7891d01359aaf363cd wifi: cfg80211: derive S1G beacon TSF from S1G fields
-293baeae9b2434a3e432629d7720b5603db2d77e wifi: ieee80211: validate MLE common info length
-7f4b01812323443b55e4c65381c9dc851ff009e3 wifi: nl80211: validate nested MBSSID IE blobs
-172f06023669f0a96d32511669ff45c600731380 wifi: nl80211: constrain MBSSID TX link ID range
-41aa973eb05922848dded26875c55ef982ac1c49 wifi: cfg80211: validate PMSR measurement type data
-36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
-69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
-57c05ce14fea03df01288fe1250f49197e161710 wifi: cfg80211: reject empty PMSR peer lists
 035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
 521f39ca93cc43ce1b3eae8d44201f8f55dd9151 mmc: sdhci-of-dwcmshc: check bus clock enable result in the probe() method
@@ -91,6 +75,8 @@ f35c08c092505f3a83ce097d94fe51eb8bc9c1b5 KVM: arm64: Only update XN attr when re
 85f56708a443ec02a290878f00d79a1ff5110e41 KVM: arm64: Fix sign-extension of MMIO loads
 65a38ddeaeed1a962bc1b4ca03c98201c877fea5 KVM: arm64: selftests: Add MMIO sign-extending load test
 b983c56426383e4a06fa5970c4e33cee879b1482 cgroup/cpuset: rebind mm mempolicy to effective_mems, not mems_allowed
+9119ceb76e987c2ec2b549ea100e3268ce3a1c7c firmware: stratix10-svc: fix memory leaks and list corruption bugs
+9b9a6e31bdd1ff20c3ffdab87431672d8bfc2a07 firmware: stratix10-svc: fix FCS SMC call kernel-doc
 f3858d5b1432098c1936e03d6e03dd0e33facf60 wifi: mac80211: free AP_VLAN bc_buf SKBs outside IRQ lock
 95fc02722edde02946d0d475221f2b2054d3d8ba wifi: mac80211: fix memory leak in ieee80211_register_hw()
 0c2ed186bbe14304415476d6707b747dddcd8583 wifi: cfg80211: use wiphy work for socket owner autodisconnect
@@ -407,6 +393,8 @@ f1596ba3e6b390aa0fef8466afce44efecf39d8d io_uring/kbuf: free the replaced iovec 
 cc609376e9a43166a2fba2aef6c5f9ea262ce722 io_uring/fs: check unused sqe fields for unlinkat
 9f86aea992568c2b4db78c80ff9508af9e050ff7 ASoC: fsl: imx-card: Skip sysclk reset for active DAIs in shutdown
 d39e4e27962aa1fb5b8f0df057e1079504d369eb ASoC: amd: yc: Add DMI quirk for MSI Vector A16 HX A8WIG
+9e1dc434ca708e1134332e45918935752f4410cd firmware: stratix10-svc: handle NO_RESPONSE in async poll
+bba85375f8751d6c949036269b529cdcb2a2ed8f firmware: stratix10-svc: fix teardown order in remove to prevent race
 71356737a7a55c76fee847563e3d33f8e6dc6b6d i2c: mlxbf: Fix use-after-free in mlxbf_i2c_init_resource()
 9fe595fad54d4ac6a402edb3f60bec859d52cea6 selinux: fix incorrect execmem checks on overlayfs
 deb35336b5bfed5db9231b5348bc1514db930797 i2c: mediatek: fix WRRD for SoCs without auto_restart option
@@ -585,7 +573,18 @@ af071d9e07e57cfff239e8d09d2f3b05ebc9c667 serial: sc16is7xx: implement gpio get_d
 56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
 30d49cba27f8905bc288cef5846963f0004f644c staging: rtl8723bs: fix inverted HT40 secondary channel offset
 0e95ff792ae0aa6fbad9455943e9e1e4062670e9 staging: rtl8723bs: fix OOB reads in rtw_get_wps_ie()
+48ca706b8f5fd5df25bf3a7b0abfce45b6ee650a Merge tag 'svc_fixes_for_v7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into char-misc-linus
+6815504f61e79383c77fa8fa8b219b1d6788475a MAINTAINERS: Add Greg Kroah-Hartman to GPIB
+87d3621ccc63b3999d756bb59f0cedd738c28eb3 uio_hv_generic: Bind to FCopy device by default
+17221216ae8ce6a24e8a4e787382e3ebc81b88a8 comedi: comedi_parport: deal with premature interrupt
+f97752cfe511c1ed9933057455c73aaac07d6517 selftests: ntsync: correct CONFIG_NTSYNC name
+ce1fed11d18e163baf7f875152a33bf80f625c1a misc: nsm: only unlock nsm_dev on post-lock error paths
+f112ea910e554d58b4b39a4492b7d302f0f4204f mei: bus: access mei_device under device_lock on cleanup
+3b231f1e9990f4c21220d0a69733ce2105891ff9 misc: nsm: pin the module while the device is open
+761b785a0cfbce43761227bc42a7f984f31f8921 intel_th: fix MSC output device reference leak
+bb66b1a3452534adb8b72abf2f761375970fe472 rust_binder: only print failure if error has source
 5c4851e4cdfc3204128f88991be64a6e3929d3d0 lockd: fix NLMv3 GRANTED_MSG handling
+6e8c279f93dba93f42be7c9c6995bc8e318ba2e4 MAINTAINERS: Update wine-devel list address
 40a22ad1b5cb86a27f54d7837be20113d0eb49d2 drm/appletbdrm: Allocate request/response buffers in begin_fb_access
 6917aa77675f48e7bd33392ed6590c8837001697 Merge tag 'powerpc-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 111e7b23e5b05e2298f2e1a4d2a632bee4dde8b0 Merge tag 'soc-fixes-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1081,5 +1080,6 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
+0957fbab972a9499626ac457fd924b24491c6315 Merge 7.2-rc5 into char-misc-next
 
---===============0308144105650043360==--
+--===============1055857607120822811==--
