@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7957397330776206041=="
+Content-Type: multipart/mixed; boundary="===============4104106608335989058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 27 Jul 2026 07:02:31 -0000
-Message-Id: <178513575132.2265487.15557734695672834366@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 07:02:35 -0000
+Message-Id: <178513575501.2265676.8406982769799619810@gitolite.kernel.org>
 
---===============7957397330776206041==
+--===============4104106608335989058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 0e95ff792ae0aa6fbad9455943e9e1e4062670e9
-    new: f5098b6bae761e346ebcd9da7f95622c04733cff
-    log: revlist-0e95ff792ae0-f5098b6bae76.txt
+  - ref: refs/heads/staging-next
+    old: cb08dcd0a896c3ac8073a57296f2377b106c35b4
+    new: 64c9e49eb15c33ba676491b5add8b748ec2b6d06
+    log: revlist-cb08dcd0a896-64c9e49eb15c.txt
 
---===============7957397330776206041==
+--===============4104106608335989058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135740 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135744 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1785135750-5e7a53bd37330c80bfdc6fa93677198a2f3eab28
+nonce 1785135753-4dc203250fda33bd5e4a71179feaf8370ef26671
 
-0e95ff792ae0aa6fbad9455943e9e1e4062670e9 f5098b6bae761e346ebcd9da7f95622c04733cff refs/heads/staging-linus
+cb08dcd0a896c3ac8073a57296f2377b106c35b4 64c9e49eb15c33ba676491b5add8b748ec2b6d06 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnAn0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4mwQAICJjLqtxSB5OL2HAcCe
-xAHSYxXE9XJ014iRUHOUNx2B7IrSV/Cedjmja8RRVr4zpB9rXW8JwbHAj31pmgVa
-azDM8PWBNjM7Q4ba/pEMFG0g8XeTsetVfIT53LtcJr+0um2p/igh63Gh1gT12zby
-Q4HaHou1WlNmc0ivmgcjc7zDAql1+lbEvtA7jRH8ViNptvKoR7Eh5FVHguDvCFz6
-IZQig7bxJVONVaitG+w8oNJV4/e0tMvWYz7Sz5FjiapCvtfQkecMCgk34NWZIXc0
-UvkoYjcQEoluGxpdI5QcPTxSmLMY+7svSEGs1/j74sy0xxBVNbb92ZNT5xSz41tF
-z4jvVctKEZnLBkDgSNgdZtWztTuognkb0uUVZD1m4bTEIoYTkHFWnLmwL8yajEbN
-YGDxjMsGCYtfCDm7mT2pXHIANW5EiDebFGVSsJzR2c2p6U0i/tuxfpdcu12WlWsn
-gVzTueUjTnvCBFMO5ZxurVlVE9NiiK67iEM0/QhTwEQ4m5WL8pB32SVvK75ShP6h
-0EonVbRSKbQKU8IKlegUN25BE7J/KAYj9gFWzzEtDrfnERiEVSXsDW7XitLvFoKp
-yfkC+tVTqC0xlk8BwB7rHWi2+iiucQMzPI8RJ6hE5hdaAZNdYvxOp5P9lOsH3wTU
-bARRzf+g6/qtj/sSEmmgnGAa
-=tZWV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnAoAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mBgQALd4/ld2ZNnUvQumG+sG
+8O0PrVGGuY85AeRX6RV5Bkmh+YbwVVFxRTXz1NrzaHNBTIXIxXfYNYae4oON1hVU
+UB5XzkuAGHHThAnVqB0OfUOnzN70dy2K7lpwZPCBSsDGMGfQW/9/qLDkzFpV0VJh
+f0kiS8MXpXeRpCYIOE3uWC9bDG10hTqQLkz0ogM2rta2u8mIqmwzIyv6wR3ZOoEc
+kDO1/c9/yYDD2X9w5Sx8r8ZgUjQ4n4Js/qVyr4UqLaDbulgoT/t5Bj7mdEhxJFht
+YcAohrRLkLYf+O4McxV8NcQkkBST0OXz8zmruhRWJ+qqmRD+LO2UkxJM3tL5ZPY8
+h7KehJzH6lgqpnzsGZTVi3P7or3oJsmDi2PfPodElceg2D4IzaZJx7D6RVnJxRa6
+Ih7SgOundUAMNW7wloTM8RYfm4IN/L1MAjR8i1lximpj0bZzv1DKiWeqjUKWIncR
+eEY6om4i0dpSQcvl/a+Soo7egW0/CitKoQnF0q6dJTkANXd8+p9DOyxl8sxJQh/i
+KkYvN5+9R1SmqhZDnHRhwqX/ZUK4Q6gZR4ByL18K4BdxiOjz4Z0wkPtdoSWsmfcM
+cFS3OVulE4yfuBUw4ch6x3BmWU4zDV2kTOaNZBliNSvttLGAAB4wWfrmQutV5Afd
+WfqjCcRg8q/nfN5lqwVW7eUq
+=bDW5
 -----END PGP SIGNATURE-----
 
---===============7957397330776206041==
+--===============4104106608335989058==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0e95ff792ae0-f5098b6bae76.txt
+Content-Disposition: attachment; filename=revlist-cb08dcd0a896-64c9e49eb15c.txt
 
-36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
-69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
-57c05ce14fea03df01288fe1250f49197e161710 wifi: cfg80211: reject empty PMSR peer lists
 035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
 521f39ca93cc43ce1b3eae8d44201f8f55dd9151 mmc: sdhci-of-dwcmshc: check bus clock enable result in the probe() method
@@ -574,6 +571,8 @@ af071d9e07e57cfff239e8d09d2f3b05ebc9c667 serial: sc16is7xx: implement gpio get_d
 04aeddf2dadd0eb7ad016a766dcbe9c983311f09 selftests: netconsole: only restore MAC when it changed on resume
 2c72eb6286347d05a885412fb076993bd5286b53 llc: fix SAP refcount leak when creating incoming sockets
 56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
+30d49cba27f8905bc288cef5846963f0004f644c staging: rtl8723bs: fix inverted HT40 secondary channel offset
+0e95ff792ae0aa6fbad9455943e9e1e4062670e9 staging: rtl8723bs: fix OOB reads in rtw_get_wps_ie()
 48ca706b8f5fd5df25bf3a7b0abfce45b6ee650a Merge tag 'svc_fixes_for_v7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into char-misc-linus
 6815504f61e79383c77fa8fa8b219b1d6788475a MAINTAINERS: Add Greg Kroah-Hartman to GPIB
 87d3621ccc63b3999d756bb59f0cedd738c28eb3 uio_hv_generic: Bind to FCopy device by default
@@ -1081,5 +1080,6 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
+64c9e49eb15c33ba676491b5add8b748ec2b6d06 Merge 7.2-rc5 into staging-next
 
---===============7957397330776206041==--
+--===============4104106608335989058==--
