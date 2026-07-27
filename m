@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 27 Jul 2026 07:26:07 -0000
-Message-Id: <178513716778.2284193.17261954467457568023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 27 Jul 2026 07:28:34 -0000
+Message-Id: <178513731417.2284968.7712252754726499130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: 868d32ac72cba21c5c6d8a66a814b7c25a3a5c01
-    new: 9972befc3e34ff8b6847198c84f11bfc312dde40
+    old: e1d7c5ac1c246ce5775f604515de0a59fbf2116e
+    new: 2aed51fc58d9ce450e2c116efb956160fd06fa02
     log: |
-         9972befc3e34ff8b6847198c84f11bfc312dde40 KVM: s390: Fall back to short-term pinning in MAP ioctl
+         763fe700b7c58ad64fe5202c5638848244dd4127 xfrm: avoid lock inversion in nat keepalive work
+         2aed51fc58d9ce450e2c116efb956160fd06fa02 xfrm: Fix skb double-free in xfrm_dev_direct_output()
          
