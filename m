@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 27 Jul 2026 11:49:50 -0000
-Message-Id: <178515299026.2482134.4672140376944116355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 27 Jul 2026 11:56:13 -0000
+Message-Id: <178515337385.2488644.13573509633146325811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: d7c244a453561bc424b9aa124de346656658115c
-    new: 983c450ae26317c58b62cac5afa58725ada7d256
-    log: |
-         983c450ae26317c58b62cac5afa58725ada7d256 RDMA/efa: Fix PBL chunk length computation
-         
+  - ref: refs/tags/asoc-aw88339-lib
+    old: 0000000000000000000000000000000000000000
+    new: 002f8e7b86148edb5d89b775af583e9be44b3b31
