@@ -1,27 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 27 Jul 2026 18:29:40 -0000
-Message-Id: <178517698070.2821611.12952240001592846483@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1415603235397556330=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 27 Jul 2026 18:29:46 -0000
+Message-Id: <178517698680.2821842.11836451153731257914@gitolite.kernel.org>
+
+--===============1415603235397556330==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 4b56754e9da3e0a5f89f9530e3a44fe7b2843bb9
-    new: dcf47a799e750c895bee7daeba7e603995fa775d
-    log: |
-         3d9ce6e4639c2b769b58544e67ddb324cf95527a Bluetooth: btintel: Validate length before parsing diagnostics TLV
-         6ec4edf6a8981465a1a47cab0a78171c6cc6fab7 Bluetooth: coredump: Introduce and apply hci_devcd_state_name()
-         77cb572c7be09343cc3b436c46e531379ded2236 Bluetooth: btusb: Make btusb_recv_{event,acl}() take struct hci_dev *
-         d08d8b62e7dfe928fcf01e224cb48265636d0b19 Bluetooth: btusb: Add a simple static btusb_prepare_reset()
-         ec28ad34dacc46af4d8413499323c985216002e1 Bluetooth: hci: Introduce hci_acl_handle() and hci_acl_dlen() helpers
-         ff3aa86c7ce48408b5fd19003713b245a8be29e4 Bluetooth: hci_core: Simplify hci_recv_frame() by hci_acl_handle()
-         1c74b9a166469e9ca9aa88dd5ed7879696d82915 Bluetooth: btusb: Simplify btusb_recv_bulk() by hci_acl_dlen()
-         3080fae8afcd2ea6bb1147e4a2750a48625ac0ee Bluetooth: btintel: Simplify btintel_classify_pkt_type() by hci_acl_handle()
-         dcf47a799e750c895bee7daeba7e603995fa775d Bluetooth: btmrvl_sdio: Do not free HCI_VENDOR_PKT frame by hci_recv_frame()
-         
+  - ref: refs/heads/x86/cache
+    old: 2566b5cd6a275c124e8f154fef6e815f92ec8d5c
+    new: 854db793d4073087fa799d886ed84a342e3f484a
+    log: revlist-2566b5cd6a27-854db793d407.txt
+
+--===============1415603235397556330==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2566b5cd6a27-854db793d407.txt
+
+f20bed0cc8da988edeabda77f48005cdef3344cb fs/resctrl: Use correct format specifier for printing error pointers
+097d3f227bbd0b07a6e02e3b9e6c6ae1e5e7e910 x86/resctrl: Protect against bad shift
+b3d683bf761d95716e60d6628eed802ad341d895 fs/resctrl: Change pattern used to track number of entries in enum resctrl_conf_type
+6cf4970e9d02556cfcfb682a99044d5191a25d29 fs/resctrl: Use accurate type for rdt_resource::rid
+cc2ca4296f72519686a9f949e725275f497f90ae fs/resctrl: Pass error reading event through to user space
+7a8c45106b68d76e3815fe45266b61821810e0bd fs/resctrl: Use accurate and symmetric exit flows
+242c0ab4d51dec094285fca4e1f55e1a2e923fce fs/resctrl: Change last_cmd_status custom during input parsing
+b37678cfe51c21f291caa290d1f0e26c74c65060 fs/resctrl: Add last_cmd_status support for writes to max_threshold_occupancy
+bb38d4571964ccc223892e9600e7d9a5cbf43414 fs/resctrl: Communicate resource group deleted error via last_cmd_status
+854db793d4073087fa799d886ed84a342e3f484a fs/resctrl: Inform user space when status buffer overflowed
+
+--===============1415603235397556330==--
