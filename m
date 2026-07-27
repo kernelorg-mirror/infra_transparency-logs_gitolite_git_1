@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3899681451175493442=="
+Content-Type: multipart/mixed; boundary="===============0189368468524732072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 27 Jul 2026 12:52:00 -0000
-Message-Id: <178515672058.2531476.1433666551145706123@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 12:53:34 -0000
+Message-Id: <178515681445.2532048.15782319343939363934@gitolite.kernel.org>
 
---===============3899681451175493442==
+--===============0189368468524732072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: ac8aba075d20869c19e7fa4efbae242d16b2ad63
-    new: 0361033e6de78c9f4458764c84f5a8394bd238ab
-    log: revlist-ac8aba075d20-0361033e6de7.txt
+  - ref: refs/heads/nfsd-testing
+    old: 8d4fbec07074c98f4b16c7e38964227fdf4d5cd3
+    new: 9542f5f94bd116e7e6562574f40c20f6cd1a5dc8
+    log: revlist-8d4fbec07074-9542f5f94bd1.txt
 
---===============3899681451175493442==
+--===============0189368468524732072==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ac8aba075d20-0361033e6de7.txt
+Content-Disposition: attachment; filename=revlist-8d4fbec07074-9542f5f94bd1.txt
 
 608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
 2b37415618bfc6a83d4aceb00fd8d6491096f2ed watchdog: s32g_wdt: remove incorrect options in watchdog_info struct
@@ -764,5 +764,94 @@ ccb1cc42c9577ab55f491fcf4155ad6d13a2f7c0 NFSD: Replace isdotent() macro
 ff8b9db640ba2e311dcc5c6651f08ebb0ded2fa7 lockd: Regenerate NLMv4 XDR code
 c6f8e631083740fb3e6a1da54a6484a076716303 lockd: preserve multiple NLM_SHARE grants from the same owner
 0361033e6de78c9f4458764c84f5a8394bd238ab SUNRPC: Restore NUMA_NO_NODE for svc thread allocations in global mode
+de282265419bed6047bd6aeba231bd99f46948e9 sunrpc: route to a populated pool in svc_pool_for_cpu()
+4a9d18cb094cdcbb2ab6c4bd86daee2705a01420 sunrpc: hardcode pool_mode to pernode, remove other modes
+9d4a8a109424a72f21f1c78031f94ee95b744e90 sunrpc: guarantee a thread per pool when auto-distributing
+efccb746034259cbdf2e12e3ee878ac577901466 sunrpc: tear down pool counters before dropping the pool map reference
+0a6c2cc029ee22a03959ff699d0a86b79af62802 sunrpc: derive the pool count instead of caching it in sv_nrpools
+90bc4bc8d9da1d361a7bed62bb1f7159c930007d NFSD: Prevent lock owner use-after-free during client teardown
+6cc952d8ff788c80b638e018fdd0d00fcdd79bdd NFSD: Prevent client use-after-free during delegation revoke
+95ebee5afb699a449f2b3642cafa2e92eed0afae NFSD: Prevent client use-after-free during admin state revocation
+a310d019a296b108e5bf3509454b3864f5137b04 NFSD: Prevent client use-after-free during export state revocation
+710654465fc7ed0e7548a27ac99c5005bed233e7 NFSD: Prevent client use-after-free during NFSv4.0 revoked-state cleanup
+432b618f7f681ab45666e825dc3c25c4abc08ed0 NFSD: Consolidate the revocation-path client unpin
+9f7f224c213722e7725339de2ab8f3bb9f1c034f NFSD: Prevent client use-after-free during blocked-lock reaping
+a5006a782405b2b40278405ff52a90a15b2b0f04 NFSD: Prevent client use-after-free during close_lru reaping
+d4e0137376b505a9b6bea5fad4720743566300db NFSD: Release the export reference when reaping open stateids
+6978562a45bc6acad55a10abb92f86c0911ee5fc nfsd: fix cpntf publish race in nfs4_init_cp_state
+d18cefc0f65fe269b5bd1ff22fffd0092e9448f1 nfsd: fix UAF in async copy cancel and shutdown
+964f21f8c201538eab454de7d424ab368f947b56 nfsd: fix stale s2s_cp_stateids IDR entry for async COPY
+b68133494042a8238d4d4aa4423c758f2ad29358 nfsd: initialize copy-notify stateid before publishing it
+2d8c8acd237ff4840cf01725bac47cfc4b96e530 nfsd: check client ownership when cancelling a copy-notify stateid
+1bbaca4d4c52a0e258ae7b85c8eba3bccc534d42 nfsd: revoke copy-notify stateids before dropping their reference
+c8c80982b47d2d47f8ff8076228b118fe909531d nfsd: return NFS4ERR_NOTSUPP for unsupported netloc4 types
+3a5545a53144f148826a4bd1112619682ed11990 nfsd: split nfsd4_copy into transient and durable async copy objects
+d0e7b9704528ba8a168f11b647d2aa6245651ba5 nfsd: make the copy offload stateid a first-class nfs4_stid
+754efc2165f9243e8184486b27afa3505eaffa83 nfsd: drop dead COPY-vs-COPYNOTIFY type handling from s2s stateid IDR
+f8976c05707f7b94fd8c697d251f1bce227b0647 NFSD: Encode only the status in NFS-ACL v2 GETACL error replies
+dad175e2f1626f49bf432c58fccfc23a1d9ed83c xdrgen: Emit a blank line ahead of enum declarations
+5c707d2b70b6ae07d5dedfe11ab52ddd61d60e78 xdrgen: Share void RPC procedure handlers across programs
+c0a50541dc2673f0c198c7ba74533806e6f8330f xdrgen: Do not declare union XDR functions in the definitions header
+b8240f9e1a87fce5391d47bc7f44747873d96979 xdrgen: Add XDR width macros for short integer types
+b1be22bfcecb1070bb62e064d7943dd039fd24ce xdrgen: Fix opaque and string encoders for unbounded members
+31bf75aa91a17a93419433639b422cdece539d6a xdrgen: Align the error caret under tab-indented source
+eee8d4dc6f16bc61cd2949ad4bdcb1b3713728c4 xdrgen: Record the source position of each declared identifier
+f1468c921b49d5d3e1ac8d9de9bab2c5fe527d32 xdrgen: Reject specifications that define a name twice
+1da9cf59ed7df79b8b65e5723d06ab25ad81776f xdrgen: Enforce RFC 5531 name and number scoping for RPC programs
+19d167717a2659e350214b01c38e3c7c0de33399 xdrgen: Reject out-of-range program, version, and procedure numbers
+e3876dd0c78169753820c9c1395178a6b2ba1194 NFSD: Make "stats.h" self-contained
+3fdb115e24fd0137df08e0a04bb79f4d17e576f4 NFSD: Explicitly include "stats.h"
+5e12f6c1cc26c90cc24f20a78cc2b1293afd1969 NFSD: include "netns.h"
+4d881a5bd871f77121c3dfbd9a7e56fe30c84e5c NFSD: Remove '#include "nfsd.h"' from fs/nfsd/cache.h
+346e3ba5e9c5a3e0d2fb6cdf8c7f4d7b3bb45eb8 NFSD: Move the export.h include from nfsd.h to auth.c
+336f61a994d7812743ac208c42b03a97d2e66c7d NFSD: Move struct readdir_cd
+f1bf5d4b37dfc5afc26576292cef739310ae7b97 NFSD: Relocate nfsd_user_namespace()
+bcac6d383996030f86bef324c7b8f333ec976884 NFSD: Relocate nfsd4_set_netaddr()
+b641ac0aecefbe5458ca549d483b62a3c4d638ee NFSD: Relocate NFSv4 "supported attributes" to new header
+ec5297aecd98055d72b05426134c4f0f7adf1f55 NFSD: Fix off-by-one in DRC bucket pruning limit
+35994409e7bf0b0cc1502c23560c8ad10ddf3086 NFSD: Eliminate percpu counter contention in DRC memory accounting
+f11f5ac1b447604c9dc5f390c4b3081f9c1e8f56 NFSD: Eliminate percpu counter contention in reply cache statistics
+3415d18bdf7aeb590bb6c20c8f9e54db981991d3 NFSD: Eliminate percpu counter contention in IO byte accounting
+c2d58ef4cf96cec0278ecbeffa29b84e82bce909 NFSD: Document reply_cache_stats ABI
+2e0d4932ef5c9880c7205cbc823b6a2c83f0f1ba sunrpc: add per-netns per-procedure call counts to svc_stat
+a4b22b4b574c44b1002b8e65fbdb2e474ac57cf1 sunrpc: use per-net counts in svc_seq_show()
+19c4cda7e5b400fc3e5c7d6f573061a9bd48dfff nfsd: implement server-stats-get netlink handler
+5ed55240e9d3c7e7bb954aa49d2038ce1d0b9782 sunrpc: remove unused svc_version vs_count field
+d9788faf7fc29717fe7b5b243aae5ae8104be24a nfsd: count NFSv4 callback operations per netns
+bbfe123bf0c20b724c1717d04c99b0e72a970c2a nfsd: export NFSv4 callback op stats via netlink
+c236054169d841394fc35f4e4f1fb89f5459acf1 nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1
+cf78c5a7d74263b9a15d592ef103bcebc9cb5fae nfsd: move check_nfsd_access() call into nfsd_cross_mnt()
+872853aedb8470a6866f4543bd84dad8a5b2fd22 nfsd: correctly handle CREATE of mounted-on files
+11d35b7a63318c4b8c2775dc838e7fc6e06581ed nfsd: replace fh_fill_both_attrs() with fh_fill_post_noop()
+7e05ff9e805f4b12054289ec58b9651a09f8d55a nfsd: move fh_want_write() after preamble in nfsd4_create_file()
+bc8d3e067f8c8a87c992735eda96051647b822ce nfsd: move more nfs-specific code into preamble of nfsd4_create_file()
+222de28629149c3702da71a0efd92be56d18fd4c nfsd: remove subtlety from nfsd4_create_file()
+c03d3f2832edaa5ca6063f600eca973e55c76feb nfsd: in nfsd4_create_file() let VFS report if file was created.
+8dae3d07695c2b8a087399f5d1b7f83cac560cb0 nfsd: nfsd4_create_file(): Move NFSD_MAY_CREATE check earlier
+7fefbddf629d2553c5e11a90bb4beafeea02b54f nfsd: fh_want_write) failure need not be immediately fatal for nfsd4_create_file()
+1a3f0ba371e3b1b6e147ecc0e92633bc4de80fca nfsd: (almost) always open file in nfsd4_create_file()
+c764385de0e32983ae2f1b12c1cd1523b4f87dbb nfsd: reduce range of directory lock in nfsd4_create_file()
+33de56c7d2025616574c1e46e04eca9cbf835b07 nfsd: open-code nfsd4_vfs_create() into nfsd4_create_file()
+efd22ad703ecf336b79e90a74becd8c3e93b850a nfsd: move some code out of the d_really_is_negative() branch in nfsd4_create_file()
+1ba9b6f04188ab7d1f85896dc820e0a85d2b23eb nfsd: reduce want-write range in nfsd4_create_file()
+6f6cc614db9825508ef60da80deb5190cf813c75 nfsd: move v0 checking out of nfsd_check_obj_isreg()
+5143cf703ab5386a0f67df40998acf5a882eabf2 nfsd: separate out VFS-specific code from nfsd4_create_file()
+3cb56fe3edf9c467f52fcf83375a00cce146489b nfsd: use do_lookup_open() for non-creating open requests too.
+08cf13990d004cba1b96ef3f52c754fb50988a53 NFSD: Move XDR encoding helpers out of xdr4.h
+a617a4f4816572f0f2514aac63195f284c65e9a2 NFSD: Move pre-xdr'ed status codes out of nfsd.h
+e535929a3a29f7b01e32f706347be6335ce525a5 NFSD: Remove two unused NFSv4 constants
+1d80c0a8502d2e9a4b053871a439aae5c6bc7e51 NFSD: Relocate NFSv4-internal constants to state.h
+df1b6de720060a599fd4dd2ed0467c98036fafe6 NFSD: Evacuate NFSv4 entry-point prototypes from nfsd.h
+92ad646b7d41fb421723fba3de779b81e6be4088 NFSD: Move nfsd_v4client() out of nfsd.h
+df8b474fdbd04b25922090c850144cf33a9e6b62 NFSD: Map flex file layout IDs through the request's user namespace
+2258c46ef1ad471fb29c1ca370ab0c47ccc3cc06 NFS: Add linux/nfs_fh.h
+8563d482ea14893b9e5d94d2afc7ae4cc0c78cd8 lockd: Switch linux/nfs.h to linux/nfs_fh.h
+ec387c68684d391ab3a61a951b855fd7fc5a7c07 NFSD: Use struct knfsd_fh in struct pnfs_ff_layout
+7d9b0586903b0945ae97eb063aac03006d657a76 nfs_common: Remove unused nfs_ssc_client_ops infrastructure
+9f79befbee721defb66067d1e2480cbf5ee1b1ee NFSD: Hoist nfs42_ssc_open() into fs/nfs_common/nfs_ssc.c
+58ffb8c2243a6dd311fb2d500e2ed984bf7c0f5c nfs_common: Synchronize access to the SSC client ops table
+85d11959cd7248d79d1db8e9158984cb2626b1a0 NFSD: Split linux/nfs_ssc.h
+d9064dfa6c4347bf7efe01e2d12316ac0d22e847 NFS: Move definition of enum nfs3_stable_how
+9542f5f94bd116e7e6562574f40c20f6cd1a5dc8 NFSD: Replace nfsd_write()'s "stable" argument with "iocb_flags"
 
---===============3899681451175493442==--
+--===============0189368468524732072==--
