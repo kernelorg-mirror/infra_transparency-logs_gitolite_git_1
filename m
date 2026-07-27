@@ -1,48 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6545267880178323416=="
+Content-Type: multipart/mixed; boundary="===============6391204867238367334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 27 Jul 2026 00:26:57 -0000
-Message-Id: <178511201701.1912717.34938086983696762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Mon, 27 Jul 2026 00:31:04 -0000
+Message-Id: <178511226422.1916342.10171285672970708423@gitolite.kernel.org>
 
---===============6545267880178323416==
+--===============6391204867238367334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/testing
-    old: d0816bc6f7acf4fbf016a93860222bb4f11d08ff
-    new: b0798cc8a7b09f630b1b4a5ec607d7c54c2a6684
-    log: revlist-d0816bc6f7ac-b0798cc8a7b0.txt
+  - ref: refs/heads/master
+    old: df373d39c6f038d176af303ae72f02c7c70b953d
+    new: 1163a476a568f6c0f852d469c8e4c5a5f805adac
+    log: revlist-df373d39c6f0-1163a476a568.txt
 
---===============6545267880178323416==
+--===============6391204867238367334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0816bc6f7ac-b0798cc8a7b0.txt
+Content-Disposition: attachment; filename=revlist-df373d39c6f0-1163a476a568.txt
 
-3e37fdbc6722314c6b18e3c73771547ac3b89ae4 dt-bindings: iio: magnetometer: add QST QMC6308
-8dc6d241fc1f50231d56d6600ef23a5ee4a53967 iio: magnetometer: add support for QST QMC6308
-1135d6875d2dbda3f6ec718f3421a6ce4378bd63 iio: chemical: sgp30: Handle IAQ thread creation failure
-019a4fbf9d66d1c6e59866ce1676c85439891593 iio: hid-sensor: als: scale each channel individually
-7d3edb5ec65a8abab0298b209138cf2673018b71 iio: adc: at91_adc: use const char * for DT string property
-356a6395d5382ef0701ddd2fbec124aa1f7a24c6 iio: accel: Remove redundant dev_err()/dev_err_probe()
-3f45c6abcc4f49ef6723406b58355cb8a05a364a iio: addac: ad74413r: Remove redundant dev_err_probe()
-a125aa4e4ed88844f3feded06734db728ae4878a iio: chemical: Remove redundant dev_err()/dev_err_probe()
-2e63bc0cdd64bd88cf9353124a6a83cb7b7d610c iio: st_sensors: Remove redundant dev_err()
-2ddc9ce87689def9e564313603394cef0e54864e iio: gyro: adxrs290: Remove redundant dev_err_probe()
-abd304eac37fcccc6d5affa4f6f93ac59589dd0f iio: health: Remove redundant dev_err()
-d83325fb957f9fadc6016ff17e2303d19a55b87b iio: humidity: Remove redundant dev_err()/dev_err_probe()
-0f8a13835847f18ca4f03326dd69b6a260bd4661 iio: imu: Remove redundant dev_err()/dev_err_probe()
-53dd9fac6d9ae43e9135515128c40f1ccbbc1f83 iio: magnetometer: Remove redundant dev_err()
-e3a32776fb5385c2a832d3425c96f5578aea4f82 iio: pressure: Remove redundant dev_err()/dev_err_probe()
-9bced6a6690f4d1b5fe0f6d5aaa89f2b0af6c11c iio: proximity: Remove redundant dev_err()/dev_err_probe()
-97740a7d9f9448f065b1d4820df0ff685fe3380e iio: light: Remove redundant dev_err()/dev_err_probe()
-b0798cc8a7b09f630b1b4a5ec607d7c54c2a6684 iio: temperature: Remove redundant dev_err()/dev_err_probe()
+fce20289dd622cc7ab78d72c8a979a9f8b7cb10e crypto: keembay - Initialize completion before requesting IRQ
+3360fa7604259a0341a9bdbb0a8cb0fd7f3109de dt-bindings: crypto: qcom,inline-crypto-engine: Fix legacy/new SoC strictness split
+bcfea926aa3ed65309f16a1501d2c1aebf3ae26c dt-bindings: crypto: qcom,inline-crypto-engine: Document Shikra ICE
+3c4ba9d03be3d12cf01b2f61ce382aa34d3da21f dt-bindings: crypto: qcom,prng: Document Shikra TRNG
+45834ff95a6fa1986898f2ef62b984d9736cf4e1 dt-bindings: crypto: qcom-qce: Document the Shikra crypto engine
+0a94091e29f914e4f233a208599ca4055882c01b crypto: keembay - publish OF module alias for OCS AES/SM4
+83418a2c5bc1c9a7f4c109fd58c583c8c3f37964 crypto: hisilicon/sec - use devm_platform_ioremap_resource in sec_map_io
+6e6a89b930ca3ea1a85170cb05b784d76a5001a1 crypto: omap-aes - use devm_platform_get_and_ioremap_resource
+f13b83d881254cabbf925ba0e039226bd9fb468e crypto: omap-sham - use devm_platform_get_and_ioremap_resource
+1d39231ee9ee5efd2e879f8295aa6714848b8d9d crypto: allwinner - Remove redundant dev_err()
+c32dd3367b975ac2c59e0fec6a8c100522f51c1c crypto: amlogic - Remove redundant dev_err()
+9d3c82be49130081392efc7fd769e7301675abcf crypto: aspeed - Remove redundant dev_err()
+53fa9d8d97ee77befedbd4ca9cebd7b9a658dc40 crypto: drivers - Remove redundant dev_err()/dev_err_probe()
+f9a1dd7a57c8482edaf63acdf6281e39186934bb crypto: ccree - Remove redundant dev_err()
+a63a547e26aaed490254e94f904544b49444e3aa crypto: sl3516 - Remove redundant dev_err()
+80283c1e1b87236b73ceed9c57ef56a9fbc7484f crypto: safexcel - Remove redundant dev_err()
+ac2ad1af8a1071eadbee57854ba0aea9b00cf7f5 crypto: keembay - Remove redundant dev_err()
+1222a24f79cad1c187a7c92bf104f94f8e0fcfa1 crypto: octeontx2 - Remove redundant dev_err()
+01138b819507b0bf9820c6bb03e5cf7b58f66a2f crypto: rockchip - Remove redundant dev_err()
+b0b85837193b106ab4d7beef5991d442694c66da crypto: stm32 - Remove redundant dev_err()
+67ca4ac78f37b91bffab1c30a0c8afca024eecf4 crypto: hisilicon/sec2 - fix uninitialized type_supported in sec_create_qp_ctx
+a7e2dfb7dafc8fb750b7ba0caec59043f5b73e00 crypto: hisilicon/sec2 - remove unused sec_ctx.hlf_q_num
+1163a476a568f6c0f852d469c8e4c5a5f805adac hwrng: stm32 - Fix runtime PM cleanup on registration failure
 
---===============6545267880178323416==--
+--===============6391204867238367334==--
