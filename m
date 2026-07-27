@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1385107762537577752=="
+Content-Type: multipart/mixed; boundary="===============4475841968504489767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 27 Jul 2026 07:00:29 -0000
-Message-Id: <178513562909.2263264.688394164302352939@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 07:00:36 -0000
+Message-Id: <178513563669.2263505.6900970030183901132@gitolite.kernel.org>
 
---===============1385107762537577752==
+--===============4475841968504489767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: af071d9e07e57cfff239e8d09d2f3b05ebc9c667
-    new: f5098b6bae761e346ebcd9da7f95622c04733cff
-    log: revlist-af071d9e07e5-f5098b6bae76.txt
+  - ref: refs/heads/tty-next
+    old: 782f4dbd1794b4f30dc116a7ca42c5962c409be8
+    new: a5339effdd523b4b3502fba5358d44e83c76a565
+    log: revlist-782f4dbd1794-a5339effdd52.txt
 
---===============1385107762537577752==
+--===============4475841968504489767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135618 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135624 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1785135626-68a02f12071907fab1e1c770783e548fcb7dcb67
+nonce 1785135633-66c81f2241b647f5060f6e3cffb22ff394c84829
 
-af071d9e07e57cfff239e8d09d2f3b05ebc9c667 f5098b6bae761e346ebcd9da7f95622c04733cff refs/heads/tty-linus
+782f4dbd1794b4f30dc116a7ca42c5962c409be8 a5339effdd523b4b3502fba5358d44e83c76a565 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnAgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iSMP/ArflcRkhvqk+u6ln0Ag
-Bms93e7rFvo8o4irsl2PyNfxZLsid0wmg5FEQONitdEgHzHk0tcMdep2IW8O/SHW
-X2+E3Th+i1Vjau9CR91anj6XOYnJmR3lUqRbFbBpGqoH/N4aUZFiYGp9sm4Mj9MF
-TVfDh3fTvDV3UK9FFGRqItgRYsRWcQC4GHy6mBUpeqMmZ5I/fjoSltnQTJPgf64A
-P89RU31DhIKuqiv8MSOp1zNLD1G2tUQtrJjB9sP1CY6715g/wMkqMvG4E9Sc99Mz
-Y5AbHd3jvxwMcoYCoQjB7MlrPHfj0qmLdrBtRLgzSWt3zlscGAr6XrVnG+TjG+2p
-IQ2DVFF0fd3Q8Rtpn0ol7o6m0/YH3s/jYwixoIcKbTzH3E5aY9UMZkxK+cj7Lzec
-bO4FFKMcPgKfzepF7nq9dxM54cSt+Tv8U1cZkUzcEjeYPDGSpQsVHuXbcU9TgvuS
-M1Dx0aCvpGsg0HC5xfynpAyqzxg2ln9VdLpupis+b417FEpf9lPauZygFsUrF9gv
-4eqZZIfqlfsyaCt2WbpD5FNg2ghift5Fy2p+li8tjfwfnC2rDVHIxd0mreppheiz
-0Y8khS8IfXHu2wQ0NCgZF7r5p5bALLGvAdZJiSbAmILpJ9qBod0GiTjgRsuL6BF4
-8bpNIr96C63Z3ITqH2/cU8o6
-=xwA3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnAggbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+51QQAIn44nJ8PUuhC7CT+9ip
+5SDFlmvVkKi00dY29BRZBcWoHVcftbmT0rQL5jSKWJ7bd44ftDaYoIEA49IKKDmo
+kGyVNYsdx7iiY/zN6lb/NwazuMOkFIXNS4YBrfCjp9BdbC534pYWOiycpKoFk1Zy
+HjTorWO8sBcHEKCP324WJI8sbqZI6EmNzR2+xk7h91jp7I343DLwEoNO3oYVGINL
+pgBwo4EhSLBqMBdt7dmKg6/V0DHWdpwtwz3UURS6iNorjajqvGHTFfXhh7qHx9Vy
+gD5bJAgvhueXcy33o0bgq2SeRC0wGc7IVqrfPkap76UJyGqA1J6sizuw8U9glu3I
+wHYzWNH3KpJEVN7K20QmyGD6cx3yYVtjZcpT56NnU65Nqkg4EwmZownJ/JYIa7Mc
+LDFjfBrFeSCGngzhiYsU4n8vuF1srZwGbPtLmQq+hvrl7xyYyXfF7X2ciZLCRvMh
+lC6yisAkYdDwvatZ7X6GvzNBka8gbuB7OtWezdW0xdJk9P6ctUGWyt1bPQIH6Te9
+aFRf5POtLtjxyxkCtfKc2wQz1c6l7seOrd9ummUZPd9nXySl61ccUOPC0aNTlLLy
+IOrUgDUOX7aiq+H/mdKtLTrQJ4DfuI0jZ1D9P6e1t7F6Iu4W0Mdknqu1yL8zQFXb
+I9QSa/1ByQUePVrounVCx3/S
+=034h
 -----END PGP SIGNATURE-----
 
---===============1385107762537577752==
+--===============4475841968504489767==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-af071d9e07e5-f5098b6bae76.txt
+Content-Disposition: attachment; filename=revlist-782f4dbd1794-a5339effdd52.txt
 
-36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
-69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
-57c05ce14fea03df01288fe1250f49197e161710 wifi: cfg80211: reject empty PMSR peer lists
 035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
 521f39ca93cc43ce1b3eae8d44201f8f55dd9151 mmc: sdhci-of-dwcmshc: check bus clock enable result in the probe() method
@@ -569,6 +566,8 @@ f1f5c8a3955f8fda3f84ed883ac8daa1847e724c net/sched: act_tunnel_key: Defer dst_re
 e0b5252a59383b77d1b8dbeda00b7184dd95f4d3 sctp: fix auth_hmacs array size in struct sctp_cookie
 71132cedd1ecbc4032d76e9928c18a10f7e39b80 usb: atm: ueagle-atm: reject descriptors that confuse probe and disconnect
 1cb8553c02e93e5a150cebd42f9ee3db0ece4707 bnxt_en: Handle partially initialized auxiliary devices
+7fb13fd7e9a59a37cd911efff83abe19e3ee029d serial: 8250_mid: Fix NULL function pointer dereference on DNV/ICX-D/SNR platforms
+af071d9e07e57cfff239e8d09d2f3b05ebc9c667 serial: sc16is7xx: implement gpio get_direction() callback
 04aeddf2dadd0eb7ad016a766dcbe9c983311f09 selftests: netconsole: only restore MAC when it changed on resume
 2c72eb6286347d05a885412fb076993bd5286b53 llc: fix SAP refcount leak when creating incoming sockets
 56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
@@ -1081,5 +1080,6 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
+a5339effdd523b4b3502fba5358d44e83c76a565 Merge 7.2-rc5 into tty-next
 
---===============1385107762537577752==--
+--===============4475841968504489767==--
