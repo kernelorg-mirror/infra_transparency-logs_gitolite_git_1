@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1904964267178168731=="
+Content-Type: multipart/mixed; boundary="===============3418368136018074436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 27 Jul 2026 14:21:21 -0000
-Message-Id: <178516208116.2599217.16703890606400238034@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 14:21:25 -0000
+Message-Id: <178516208535.2599394.5734155535106960360@gitolite.kernel.org>
 
---===============1904964267178168731==
+--===============3418368136018074436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1e15fbef3a3c465a6a2db0f38e3980d75420bd6d
-    new: 7b25c83e4711038989b5b08a8977fb68468c854e
-    log: revlist-1e15fbef3a3c-7b25c83e4711.txt
+  - ref: refs/heads/mm-unstable
+    old: c68210527d235e59afa54bc6aba6ecc532488a82
+    new: bf810459a6a20ac96a87bfeccb25abc3906b1e4d
+    log: revlist-c68210527d23-bf810459a6a2.txt
 
---===============1904964267178168731==
+--===============3418368136018074436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e15fbef3a3c-7b25c83e4711.txt
+Content-Disposition: attachment; filename=revlist-c68210527d23-bf810459a6a2.txt
 
 f8ec70550afb3b36327fff713a5eb15303213768 mm/hugetlb: fix null nodemask in alloc_fresh_hugetlb_folio
 f3b3eb8af7c13b13dfcf50e6dbd8060deec23703 mm: memcg: initialize *locked in memcg1_oom_prepare() stub
@@ -634,20 +634,5 @@ abf172648952ceaad88ae4339900b6bcc5eaf6e3 mm: page_alloc: __GFP_FS lockdep annota
 b66638556a2d0130e079cce7f65d71d37c7f2ff9 mm: compaction: support non-movable compaction for pageblock requests
 74c368ebaff302f8ce92c899bc5e8949cdb494ae mm: page_alloc: move capture_control to the page allocator
 bf810459a6a20ac96a87bfeccb25abc3906b1e4d mm: page_alloc: fix non-movable reclaim storm in defrag_mode
-20f54909c011eb6474378779017a643299c4f6f3 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-8ccfeb068e86c165efe3cd5ea22811069f05c998 mm/page_alloc: boost watermarks on atomic allocation failure
-9156c4ebc33dadaa27da66a0472abd097cbe76ee memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h
-32aa0504e01b3624e19a99289d125d0e4cbba560 mm: vmscan: fix node reclaim ignoring swappiness parameter
-5faf4d84d09351afeb115889d7ae15ef89ee4993 mm/vmstat, mm/memcontrol: add _monotonic vmstat readers
-405d78a27a52818ccbca6c4e2cc89ad70d8addf2 mm/vmscan: reduce lru_lock contention via vmstat-derived scan-balance cost
-1bde0edfb361cb78772209cfc23b1514e58333cf mm: use a folio in the softleaf_is_device_private path
-923f3cb6e52a7bcecae12237aae9f6e85a3bd8be mm: extract non-swap page handling to do_non_swap_page()
-6882936b6f295bf4278d6dcdf140a7a496fb17db selftests/mm: fix gup_longterm EINVAL error message
-99c175dacaa2b87a59ebf5ee388fbc4b1c9bdd70 zram: move lockmap to be per-zram instead per table
-4ae07f62880e1a7b365ab79c4fc5e702c2c1fc34 zram: use a custom key for each zram object
-6e4c678553fe160a7adbbec2aa702fb7e7b1f34e mm: memcg: stop reclaim when a limit update is superseded
-3d5c623754f52198030108096c4091262d55f406 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-ff6341512c4658ae3809e7a89871b5db9a32ae25 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-7b25c83e4711038989b5b08a8977fb68468c854e mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1904964267178168731==--
+--===============3418368136018074436==--
