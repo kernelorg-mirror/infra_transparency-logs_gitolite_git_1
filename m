@@ -1,30 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4343241778624155909=="
+Content-Type: multipart/mixed; boundary="===============0208306366892277378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Mon, 27 Jul 2026 16:04:36 -0000
-Message-Id: <178516827616.2710449.17492186181411556496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Mon, 27 Jul 2026 16:04:51 -0000
+Message-Id: <178516829173.2710748.12186625387388236788@gitolite.kernel.org>
 
---===============4343241778624155909==
+--===============0208306366892277378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: c5e32e86ca02b003f86e095d379b38148999293d
     new: 0d33d21e47d9dc66f91e44da3fc9220c74d93df7
     log: revlist-c5e32e86ca02-0d33d21e47d9.txt
-  - ref: refs/heads/stable
-    old: 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b
-    new: f5098b6bae761e346ebcd9da7f95622c04733cff
-    log: |
-         f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-         
   - ref: refs/tags/next-20260727
     old: 0000000000000000000000000000000000000000
     new: 3f1d864b10a17eed0336cdc0500c5a399078fc57
@@ -32,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: a8e429896436e8c2d288181f875f92af8204bc58
 
---===============4343241778624155909==
+--===============0208306366892277378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1063,4 +1057,4 @@ fbd67f161b57d6aafeb653e022fce1630603a44e Merge branch 'pwrseq/for-next' of https
 9dc226411127992e3051b6c113401dfd06dd7cb8 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 0d33d21e47d9dc66f91e44da3fc9220c74d93df7 Add linux-next specific files for 20260727
 
---===============4343241778624155909==--
+--===============0208306366892277378==--
