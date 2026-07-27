@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 27 Jul 2026 17:06:26 -0000
-Message-Id: <178517198617.2759039.10771610925135546943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Mon, 27 Jul 2026 17:08:59 -0000
+Message-Id: <178517213996.2759942.12044687788764236433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: da85966dfd23a3b03e00ee3bce6ad301f0a2b229
-    new: b2d4225695e6977cd7802fe425d8caa5822a5e7d
+  - ref: refs/heads/block-7.2
+    old: 093fbffe03f5c1bb9c10a9e5aa65b23250844403
+    new: e65848e4ce352bac9e3465099354c8b8f845391f
     log: |
-         d5a1d1270c898057afc5b51fb6d0f2defa89d56d tools/build: Allow versioning of all LLVM tools defined in Makefile.include
-         1d2af6c43bc22825a2e7ac2ea9cff32b0e2b1f22 tools/build: Indent if else blocks
-         738d0cc77e4e7f7fdc91d9f48c3b15d3cbb046ed tools/build: Allow versioning LLVM readelf
-         b2d4225695e6977cd7802fe425d8caa5822a5e7d tools/build: selftests: Remove some duplicate toolchain definitions
+         e65848e4ce352bac9e3465099354c8b8f845391f ublk: reset kernel-owned dev_info fields in ublk_ctrl_add_dev()
+         
+  - ref: refs/heads/for-next
+    old: 7791570bac6cd0c740fd63568f0f3811bc8ec7ab
+    new: 923b1b5a3a5cc642172d8cf8c6097ad1169b6217
+    log: |
+         e65848e4ce352bac9e3465099354c8b8f845391f ublk: reset kernel-owned dev_info fields in ublk_ctrl_add_dev()
+         923b1b5a3a5cc642172d8cf8c6097ad1169b6217 Merge branch 'block-7.2' into for-next
          
