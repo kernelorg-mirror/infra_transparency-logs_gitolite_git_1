@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 27 Jul 2026 13:03:41 -0000
-Message-Id: <178515742143.2539789.7579474401557427677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 27 Jul 2026 13:04:40 -0000
+Message-Id: <178515748006.2540272.9929075265671864738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 9dc325327babe7f159e84cbe9380a45342da0585
-    new: d233087c19f6607ef926ac3f47d776e2406ffd1f
+  - ref: refs/heads/for-next
+    old: 645448becbd0b52216c6741897dd412f9ff1b925
+    new: ab1112df8f4ffa88cb024dd370c432ced80f77d8
     log: |
-         67ff4bf723c8bd1f1b10450fa3e8f55762418104 gpio: gpio-by-pinctrl: Apply initial value in direction output wrapper
-         d233087c19f6607ef926ac3f47d776e2406ffd1f gpio: pca953x: fix cache_only and IRQ state on restore_context() failure
+         659cc3d8d5ef246263873fce72c8cadeeed073cc power: supply: max17040: propagate register read errors
+         ab1112df8f4ffa88cb024dd370c432ced80f77d8 power: supply: qcom_battmgr: terminate the strings from firmware
          
