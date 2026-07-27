@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3740502336701935159=="
+Content-Type: multipart/mixed; boundary="===============7957397330776206041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 27 Jul 2026 07:02:28 -0000
-Message-Id: <178513574810.2265353.7943375189860350543@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 07:02:31 -0000
+Message-Id: <178513575132.2265487.15557734695672834366@gitolite.kernel.org>
 
---===============3740502336701935159==
+--===============7957397330776206041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
+  - ref: refs/heads/staging-linus
+    old: 0e95ff792ae0aa6fbad9455943e9e1e4062670e9
     new: f5098b6bae761e346ebcd9da7f95622c04733cff
-    log: revlist-a13c140cc289-f5098b6bae76.txt
+    log: revlist-0e95ff792ae0-f5098b6bae76.txt
 
---===============3740502336701935159==
+--===============7957397330776206041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135737 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135740 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1785135746-a23ac906af016541d3d10d04e9b02ffb3b74bf3f
+nonce 1785135750-5e7a53bd37330c80bfdc6fa93677198a2f3eab28
 
-a13c140cc289c0b7b3770bce5b3ad42ab35074aa f5098b6bae761e346ebcd9da7f95622c04733cff refs/heads/main
+0e95ff792ae0aa6fbad9455943e9e1e4062670e9 f5098b6bae761e346ebcd9da7f95622c04733cff refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnAnkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s8UP/jFRfkIkakXS8PQUZDKB
-184RGgvIRtgYKV7+mTNKi8hYGtpN6MJoJu4P5RYGgsHuFnhC+yBHXrQ5hat5fFjt
-yWCaHhNaYH8Qcd3DGiVxw9VgFjgLqs3X9d+8q+MWWizfus8JMDqAbzWzn20uUTMv
-1T/fc0Qfn4YvxvQmeKOYwXvfz6zVDTUEazXoPKAw+XQ4fayGKehGVfXbJGt7Qx21
-rpPQ04PFa4vbVOeHGx5dCCXlC5tpdbJWCHsgOOzbG6qodw8SMoqEMw+MK34nfEf4
-qijeeSGF8SCjCPZMHdELMuMTmth0t0EpwaxQqhe7nzPRNDAhbLRgFKUnKxcaBmeh
-pQhVdjhNRHumAuFVtINtbek0EDU68jbxFUlQiCuhzc3a8pBWrm9/31DRjbe1sAzc
-vULhCBzLWRE3S2K+joKhsRSWRtwtoeAUtpbQmHWiN26Lpb1XWJ16hpzbJG9YveCh
-MtyfjEOu8q80qUtISWWCLTNDmQu0p2xym81ajKuilNY26SgAMQHAFDiT5uqkWoSo
-HQk66fETOMH+tOWMRgCS3iUjYNvtNbTQS7LdE0s2xvZxEq6/tLPRgPdX2jmdIEj1
-pHGWyX6MOEiH2L4/txcNIdQ9U5fMNibK2CHFLMzdrVbEc/RPEQv+SBbtyWIixRHJ
-CHyR34DPh8cFiEtCmcb2vbcb
-=UTmf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnAn0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4mwQAICJjLqtxSB5OL2HAcCe
+xAHSYxXE9XJ014iRUHOUNx2B7IrSV/Cedjmja8RRVr4zpB9rXW8JwbHAj31pmgVa
+azDM8PWBNjM7Q4ba/pEMFG0g8XeTsetVfIT53LtcJr+0um2p/igh63Gh1gT12zby
+Q4HaHou1WlNmc0ivmgcjc7zDAql1+lbEvtA7jRH8ViNptvKoR7Eh5FVHguDvCFz6
+IZQig7bxJVONVaitG+w8oNJV4/e0tMvWYz7Sz5FjiapCvtfQkecMCgk34NWZIXc0
+UvkoYjcQEoluGxpdI5QcPTxSmLMY+7svSEGs1/j74sy0xxBVNbb92ZNT5xSz41tF
+z4jvVctKEZnLBkDgSNgdZtWztTuognkb0uUVZD1m4bTEIoYTkHFWnLmwL8yajEbN
+YGDxjMsGCYtfCDm7mT2pXHIANW5EiDebFGVSsJzR2c2p6U0i/tuxfpdcu12WlWsn
+gVzTueUjTnvCBFMO5ZxurVlVE9NiiK67iEM0/QhTwEQ4m5WL8pB32SVvK75ShP6h
+0EonVbRSKbQKU8IKlegUN25BE7J/KAYj9gFWzzEtDrfnERiEVSXsDW7XitLvFoKp
+yfkC+tVTqC0xlk8BwB7rHWi2+iiucQMzPI8RJ6hE5hdaAZNdYvxOp5P9lOsH3wTU
+bARRzf+g6/qtj/sSEmmgnGAa
+=tZWV
 -----END PGP SIGNATURE-----
 
---===============3740502336701935159==
+--===============7957397330776206041==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a13c140cc289-f5098b6bae76.txt
+Content-Disposition: attachment; filename=revlist-0e95ff792ae0-f5098b6bae76.txt
 
+36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
+69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
 57c05ce14fea03df01288fe1250f49197e161710 wifi: cfg80211: reject empty PMSR peer lists
 035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
@@ -572,8 +574,6 @@ af071d9e07e57cfff239e8d09d2f3b05ebc9c667 serial: sc16is7xx: implement gpio get_d
 04aeddf2dadd0eb7ad016a766dcbe9c983311f09 selftests: netconsole: only restore MAC when it changed on resume
 2c72eb6286347d05a885412fb076993bd5286b53 llc: fix SAP refcount leak when creating incoming sockets
 56d96fededd61192cd7cc8d2b0f36adfd59036c3 mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n
-30d49cba27f8905bc288cef5846963f0004f644c staging: rtl8723bs: fix inverted HT40 secondary channel offset
-0e95ff792ae0aa6fbad9455943e9e1e4062670e9 staging: rtl8723bs: fix OOB reads in rtw_get_wps_ie()
 48ca706b8f5fd5df25bf3a7b0abfce45b6ee650a Merge tag 'svc_fixes_for_v7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into char-misc-linus
 6815504f61e79383c77fa8fa8b219b1d6788475a MAINTAINERS: Add Greg Kroah-Hartman to GPIB
 87d3621ccc63b3999d756bb59f0cedd738c28eb3 uio_hv_generic: Bind to FCopy device by default
@@ -1082,4 +1082,4 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
 
---===============3740502336701935159==--
+--===============7957397330776206041==--
