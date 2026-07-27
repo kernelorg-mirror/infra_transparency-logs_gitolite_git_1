@@ -1,50 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4084875045623797487=="
+Content-Type: multipart/mixed; boundary="===============4860677103083523956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 27 Jul 2026 21:39:38 -0000
-Message-Id: <178518837883.2973439.5313993350383543797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 27 Jul 2026 21:39:49 -0000
+Message-Id: <178518838930.2973761.5902905598911671610@gitolite.kernel.org>
 
---===============4084875045623797487==
+--===============4860677103083523956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 90ef2f2961c2dc55957dafe2f53b3efdb4675efc
-    new: d9eadfce2fac49445db40808fe4d8259f20a9d2b
+  - ref: refs/heads/for-7.3
+    old: 38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720
+    new: fd741c46ae0365d4bfd3c14d3a049b0515b9db23
     log: |
-         d9eadfce2fac49445db40808fe4d8259f20a9d2b spi: spi-cadence: Move TX FIFO full busy-wait into FIFO
+         a44a020465e34dacf5ca2f558ee920ec5add3eca spi: dt-bindings: qcom,sa8255p-geni-spi: Add compatible for Nord SA8797P
+         ed4b52b24c556cd681b99739e2bbef7cf48fe66e spi: spi-qpic-snand: Increase ECC strength for large OOB SPI-NAND devices
+         d710f43ce30975d197f73c543bfe47b958d8ba17 spi: oc-tiny: switch to managed controller allocation
+         fd741c46ae0365d4bfd3c14d3a049b0515b9db23 spi: ppc4xx: devm-ify probe and drop manual resource management
          
 
---===============4084875045623797487==
+--===============4860677103083523956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1785188377 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1785188376-1687ff90d977de94655ecc93a15a74227a652ca3
+pusher C3F436CA30F5D8EB 1785188387 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1785188387-407804e288ec599b23bd9a94dd0882648da10c48
 
-90ef2f2961c2dc55957dafe2f53b3efdb4675efc d9eadfce2fac49445db40808fe4d8259f20a9d2b refs/heads/spi-7.2
+38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720 fd741c46ae0365d4bfd3c14d3a049b0515b9db23 refs/heads/for-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpn0BkACgkQJNaLcl1U
-h9ABRAf/Zs71SKQXhlEJMQ/+fZv+Ndn6tCbOJDHJwkiHEsOttdzvX7VnOx/iIcyH
-id9LgsamGc/eWwRRlbtPFbNfJGKA//RGup3JpJa3LQwPF6on5Lx2Ljcs41REG4GU
-0mimgC6JyE0Qx0hJQXmbkQNJFY4Ibyb8q0igRdNNn6LP25Fpa1rwh5XsvzrDxFUX
-UAz/jR9LWFhYz4qxchG3tNQk3kDvN+Qmfq0Rjdvhepoo578XYaoGocSFn23LdgWP
-zYdVXOW2W0TlL0JXw+2b+rwwcLwERHEWrrOMi/rhE6Nv0H4x4QSWfBaSVA1zJpbJ
-WV45NA66ApNQSx+k6JT/K8yWj1tCEQ==
-=Ka9i
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpn0CMACgkQJNaLcl1U
+h9BjIAf+Mjh26Zfq7oi9m4MwiPEpoUoSuTvvz5udIW5ntZaxagM6OyPZQYHgTPem
+OavIjbssUyin0I3lr5PmLdm4gd5gn3aP6aREs+ZxnCsGjxGZeHCvpoQcd/U4WQf+
+o+iEI458a+L8kNOWwCUw1LAhHyIOnDu2U2VQywLPXm7coofSLqS4lEGiew16JBDT
+PtYbhMUSB15gJ4j/vN/NeOFtBeH5nbWcYLVaobQUtaFgMxY+XsYze6FPSQ6QDolB
+gvW8Khqun8JVUSz88DddnGFkOmr5gFQDgxEZbHAbvxn0VbxxPnp8bx/CDscGtVgw
+x2mnDrSJ5EM/rURv4bnvb8h8aFqmGg==
+=34zA
 -----END PGP SIGNATURE-----
 
---===============4084875045623797487==--
+--===============4860677103083523956==--
