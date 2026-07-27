@@ -1,25 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 27 Jul 2026 18:54:43 -0000
-Message-Id: <178517848380.2840985.9147310759993827631@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8432044746537038791=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 27 Jul 2026 18:56:52 -0000
+Message-Id: <178517861247.2843922.9284535579046491476@gitolite.kernel.org>
+
+--===============8432044746537038791==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: dcf47a799e750c895bee7daeba7e603995fa775d
-    new: 73b6871b261f332f218137d056d5c7ef19f642a4
+  - ref: refs/heads/review-ilpo-next
+    old: 946000e1d594a9005e178f4166a09941ad5d454a
+    new: 641b41a7a12537f8898b1e14c62e0d85a8b872c2
     log: |
-         3bf1394e88680457c21b0a9cae9158efd268a0de Bluetooth: hci_conn: hold conn reference in abort_conn_sync()
-         69a694ebe97f6b05bcf80a4ff93f14e7c47243ec Bluetooth: hci_sync: hold conn in hci_connect_acl/le_sync() callbacks
-         b1196afe58a92fee75974e7e8c5f6052b00f6822 Bluetooth: hci_sync: hold conn in hci_connect_big_sync() callback
-         cddfec3618d003afaff65757ccc6149294026bdd Bluetooth: hci_sync: hold conn in hci_connect_pa_sync() callback
-         3c5f5c6be8783b4813a271de197dac08af4641ec Bluetooth: hci_sync: hold conn in hci_past_sync() callback
-         423e5fc465eb12b76dfd15f81edb3314b6242737 Bluetooth: hci_sync: fix hci_conn_del() use in hci_le_create_conn_sync
-         73b6871b261f332f218137d056d5c7ef19f642a4 Bluetooth: hci_sync: remove unnecessary hci_conn_get in create_conn_sync
+         e860e561926bf75e323d43fe59a9bf25d2ef33a3 platform/x86/amd/pmf: Use per-SoC smu_regs struct for SMU mailbox registers
+         2f9db5881fb37e5723bd88f939c7bffb8e7789a3 platform/x86/amd/pmf: Add 1AH_M80H device IDs and extended SMU mailbox registers
+         2e34aca48f42ef0d3ff95d79e82268b2eacae486 platform/x86/amd/pmf: Move metrics code to dedicated file
+         d19eca503861824a6c8f8eea7eabc79e14479f84 platform/x86/amd/pmf: Add missing newline in dev_err message
+         9f29ec1f46d03a7b633c5d9a668ece059d539d4c platform/x86/amd/pmf: Use upper/lower_32_bits() in amd_pmf_set_dram_addr()
+         17f3e140d09da4d17dadef82ab67547e71215a64 platform/x86/amd/pmf: Refactor NPU metrics for platform extensibility
+         641b41a7a12537f8898b1e14c62e0d85a8b872c2 platform/x86/amd/pmf: Add 1AH_M80H metrics table and NPU metrics support
          
+
+--===============8432044746537038791==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1785178607 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1785178603-b3c825beabcf223b4fd03b77eafe8aad41f04683
+
+946000e1d594a9005e178f4166a09941ad5d454a 641b41a7a12537f8898b1e14c62e0d85a8b872c2 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCamep8wAKCRBZrE9hU+XO
+MSC9AP9UG8SSNxtM/mX7cunTqQ1lUNJL37QJCho5/e+XDwUatwD9HogKnRTYWMXB
+cK6KqPelXYuZmHVchSuJnsRisoIVVAI=
+=UeJ8
+-----END PGP SIGNATURE-----
+
+--===============8432044746537038791==--
