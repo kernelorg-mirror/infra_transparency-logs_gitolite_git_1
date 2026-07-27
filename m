@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 27 Jul 2026 22:30:45 -0000
-Message-Id: <178519144575.3013963.10183875458236543287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 27 Jul 2026 22:37:35 -0000
+Message-Id: <178519185511.3018498.7667580750760095614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: 9c88929cc18cdc252aa8a57e9fa8cb441dc47642
-    new: 9d8da8e0a9bce4a340af60dd0446bc7eb8d07587
+  - ref: refs/heads/master
+    old: 4748a67f711188cbd64bc72c3df636f627858ed0
+    new: fcf741584a562aaa89b0ace71f410b1c1a3e5193
     log: |
-         b4f1719dfea023220e0e6bd892b087d76b2a6a49 tipc: avoid use-after-free in poll trace queue dumps
-         6aea62e433fe1b586202a5fee8b5807ce635e1d7 net: ipv6: clear suppressed fib6 rule result
-         a39789f211b8a4125f0c70e05b30cf715f4f187d net: bridge: stop fast-leave after deleting a port group
-         9d8da8e0a9bce4a340af60dd0446bc7eb8d07587 sctp: reject stale cookies with mismatched verification tags
+         3c6e8a37eff15c3f834ba80c201932712e4b71d4 unix: Use kvmalloc_array() for BPF iterator batches
+         fcf741584a562aaa89b0ace71f410b1c1a3e5193 tcp: Use kvmalloc_array() for BPF iterator batches
          
