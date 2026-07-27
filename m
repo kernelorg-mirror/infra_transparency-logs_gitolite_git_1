@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4881963146111939440=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 27 Jul 2026 13:35:25 -0000
-Message-Id: <178515932573.2565277.8455766299062369310@gitolite.kernel.org>
-
---===============4881963146111939440==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 27 Jul 2026 13:36:38 -0000
+Message-Id: <178515939819.2565985.2728255185668036027@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 41573f8f30236da9c37e6af69e8060daacc0b17b
-    new: a4b19ba3e6dc7a82a1300ae40bd5864befb8d9e6
+  - ref: refs/heads/asoc-7.3
+    old: 7859b74c0bd600cddd86afd55a3dde285a8c2937
+    new: fad15cabb760ae0fd552f9bc98b0b1307970c57e
     log: |
-         a4b19ba3e6dc7a82a1300ae40bd5864befb8d9e6 7.1-stable patches
+         78a9d1426416248eec2afff8a86f1a8456780b4d ASoC: dt-bindings: Convert eukrea-tlv320.txt to yaml
+         ca9b51f41c9ddd9b5aab9171b78d647ab05ccb17 ASoC: remove conditional return with no effect
+         3799a56da8f3250e5765344aa5d280678dc89124 ASoC: amd: acp: remove conditional return with no effect
+         52c09577296275d96233429d6375b50fae24cd9c ASoC: Intel: atom: remove conditional return with no effect
+         cdb8b41357bb8319c1f57c5694b3323846d11dd5 ASoC: samsung: smdk_spdif: remove conditional return with no effect
+         619446b87c0eb6ca896170c30c0285e6adfa1594 ASoC: SOF: Intel: remove conditional return with no effect
+         fad15cabb760ae0fd552f9bc98b0b1307970c57e ASoC: remove conditional returns with no effect
          
-
---===============4881963146111939440==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785159314 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785159323-3e6656a3344dad38dee7f140d106a35d1a3e4139
-
-41573f8f30236da9c37e6af69e8060daacc0b17b a4b19ba3e6dc7a82a1300ae40bd5864befb8d9e6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnXpIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Kb0QAKxl2g6hJ0HWb5kozoie
-klg5I7xzLiktfonZPrQUvGeGdj9qvpKiyhW8wReNetTOGW6rxqxo5J35M9rGaLnR
-f/rp+IoA7xYN/OHz2h7xgzdHi9GWZHJWX0Ys1Tkw/1sVxIQyeegwHzMyLcp6rYeA
-d9J+huC2ayEIDXoaD3yHoiDpUocJbAEYAugncDLjOuKbIu0C6SrRKU6MZJptcLn8
-+ka6ORp3wgas6Rq/UGQkLjQSC0SuKqnytyI/eJV+YBqrXHdFlmrd6ey1+7MoXFB0
-jgHOXZs0hiw7m5CfcX7XG9/Ls85pDaxcloIU+zcgQyfAJiDBpRT0KIjCBtbSi4p+
-3vuY63hfOlIis3QVlt7csSEixWiKJhwY8RQUvbqWM/UgyzRLP5qSjjlb8lrIbHK3
-JUnK1SA5sqG0e1GfXYiABmRqBXfioqGIpVWibwVx5CbwYkpQ4Sm/JCRKmVoTByVe
-TVL1M1lOj5BVe26cwW4H/UwL5ZeeQku1+jBI/OF59qPhJzQCaeXVl/oxkDZxddlO
-sq9cq9mbWZ5n7Y5NvS9tr0fgooEFfHBXBKe57MHCNFoup4B9sWPTpx+nCuTXdA5e
-IOSDBvXnl4Q/T8sNEsg8ouhkrJW6vWI5gEtQgftR68sfoijGi1wTjh56llW87wze
-jHaoCydvkS2eFXpR4lwOO1Tr
-=ayfU
------END PGP SIGNATURE-----
-
---===============4881963146111939440==--
