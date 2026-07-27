@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3457777651545036095=="
+Content-Type: multipart/mixed; boundary="===============7407659025338734104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 27 Jul 2026 22:07:37 -0000
-Message-Id: <178519005728.2994829.12826587200896889285@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 22:08:32 -0000
+Message-Id: <178519011267.2995439.4063408917069538712@gitolite.kernel.org>
 
---===============3457777651545036095==
+--===============7407659025338734104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-next
-    old: f0385f08a2bc49d9d274b63bba11c38d12d224ee
-    new: 858071a1ca5f9a3330b4559dab41565086ab4862
-    log: revlist-f0385f08a2bc-858071a1ca5f.txt
+  - ref: refs/heads/watchdog
+    old: 66733ed01faea1c05100de4fbee29f8049d69a9b
+    new: 8d2b10eef6f3b1336be2d1197db29b0c697f1d41
+    log: revlist-66733ed01fae-8d2b10eef6f3.txt
 
---===============3457777651545036095==
+--===============7407659025338734104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0385f08a2bc-858071a1ca5f.txt
+Content-Disposition: attachment; filename=revlist-66733ed01fae-8d2b10eef6f3.txt
 
 608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
 9119ceb76e987c2ec2b549ea100e3268ce3a1c7c firmware: stratix10-svc: fix memory leaks and list corruption bugs
@@ -188,81 +188,6 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-b0e8adb2ccb43009796897ced09f91636685c9d3 hwmon: (nct6775-core) Fix number of temperature registers for NCT6116
-a64a7e8a0b012ba81b0eadbd7afc84ab0dbfd70c hwmon: (pmbus/core) notify on the hwmon device, not the i2c client
-e6c80061ca239f45c0eaf7e47a91d6d6df9bd636 hwmon: (ina2xx) Fix various overflow issues
-00feb1cce93dab948a299b69753d99c681d45a0b hwmon: (ltc4282) Fix reading the minimum alarm voltage
-f46d5ab43a572b84773015a76966f5da56fc1748 hwmon: (sht3x) Fix unaligned accesses
-aa9429edf9fc0e90d6f4da19ea4b5495a54ab117 hwmon: (lm90) Only report alarms if driver is ready
-080bbf42faf77e6489ab30d5114c5f8f6ccbb1b8 hwmon: (nzxt-smart2) DMA-align output buffer
-a60f58eb70e4e4c2ba4ace8b292dea64e5b7b290 hwmon: (lm63) Mask PWM frequency multiplier to supported bits
-d0b704e569ac3b8416d8e02270cdc9bf830ed395 hwmon: (nct6775-core) Prevent access to unsupported weight registers
-35e14515eeb3cdc11059df4781040366516dc8b1 dt-bindings: hwmon: ina2xx: add ina232 compatible
-d7a98535ffb4039324d51e5ff14a275a35e16959 hwmon: (ina2xx) Add support for INA232
-11c01e719d4a241933020565d8938aa64206d995 dt-bindings: hwmon: pmbus: Add bindings for Silergy SQ24860
-79048bf8c92a41226d83a28f0bb88778f09f20a7 hwmon: pmbus: Add support for Silergy SQ24860
-70987a5a4222d0793e655899f71bc349622d08cb hwmon: Add documentation for SQ24860
-7b608ec7866ff79ca5370fd2b5465495f9d8fedd dt-bindings: hwmon: pmbus: ti,lm25066: add current limit properties
-b1463841ff34f32dca3913716e6f7afba2ec7781 hwmon: (pmbus/lm25066) add current limit configuration support
-b26587e97c56320cc4b40215897fa77f22567e05 hwmon: coretemp: Fix documentation wording
-a42ea48a17d22d320b151c25927de6aa550dbbff hwmon: (coretemp) Clarify attr_size comment
-37686aa63d7672a22819e8d7bea23b8a85ef53bc hwmon: (pmbus/xdpe1a2g7b) Add regulator support
-d14dedaab697a2f2c30447e9ea7e50fc2af1a9f8 dt-bindings: hwmon: chipcap2: Add label property
-0e382f074721d236d1328a9ea4256e736f821d17 hwmon: (chipcap2) Add support for label
-9e6e68877a1226fcfc3a7af098336ac5ed486709 dt-bindings: adm1275: ROHM BD12780 hot-swap controller
-c837be1716ad5ef502e3dfaed53efb929c6e3dff hwmon: adm1275: Support module auto-loading
-b0f4b72415c3fc7331aada016b07183e384ce0fb doc: Add ROHM BD12780 and BD12780A
-bb756dd978773d706fe947910e9fac5571038507 hwmon: adm1275: Support ROHM BD12780
-0e16bc2ca7ca447f6ca5a9b2027d5b26bf51148a doc: adm1275: Add ROHM BD12790
-c16ac07e39180f5586383621cba910bd3b9e64ab dt-bindings: adm1275: ROHM BD12790 hot-swap controller
-0cc85ee04cfc23cc67b7f1770c722e776bc8288d hwmon: adm1275: Support ROHM BD12790
-7910b2d53158f6677b2d69f60f7a9c8d9586357d hwmon: xgene: Stop writing PCC shared memory signature
-b024576bdcb5f1847c8d0756093a90a93d66b780 hwmon: Driver for the temp/voltage sensor on PolarFire SoC
-56785395789b82f27ef1b9c56d1f9d3218c6bcb5 hwmon: (cros_ec) Implement custom kelvin to celsius conversions
-31870a01e70dc48088fffe983e574e4286e4baa4 dt-bindings: hwmon: Add Eswin EIC7700 PVT sensor
-7d888fa3d4a806eef6d49c84f52e4a48c77f331a hwmon: Add Eswin EIC7700 PVT sensor driver
-821e393d9ea2b058e898191754b47a30ca550750 hwmon: (acpi_power_meter) Stop setting acpi_device_name/class()
-fde5fdef09b7bdfc9aadb69f27b16366160d6340 hwmon: (asus-ec-sensors) add ROG Maximus Z790 Hero
-0d67ac1df44f542c0da45af7cceeaf9029a1af95 hwmon: (asus-ec-sensors) add ROG CROSSHAIR X870E HERO
-36a4fede56c900678142b0a0ce964e7668a6c643 hwmon: (asus-ec-sensors) add ROG STRIX X870E-E GAMING WIFI7 R2
-601d848c0737bd6e9d04d43a8288748a8a69d004 hwmon: (yogafan) Add support for Lenovo LOQ 15IAX9
-552bd21de88bbc6ebe71f6be1b64bd6f5cea87d2 hwmon: (asus_ec_sensors) add ProArt Z690-CREATOR WIFI
-95ed2b2f3ceffef47e3b7eea59327fc3b4950be3 hwmon: (tmp401) register with thermal subsystem
-bd387f4556f50045b8e035e9ba6c3b0a6c5304ce hwmon: (asus-ec-sensors) add T_Sensor for ROG STRIX X870E-E GAMING WIFI
-96853544b97ab7377c921f417f14eb1d456727db hwmon: (asus-ec-sensors) detect unconnected physical sensors
-291b1a6b5ed4dde903e908beea933473c1cbcfde dt-bindings: vendor-prefixes: Add GXCAS Technology
-1aabe2abf4d4efc37d5b46d41794506f0ba9c754 dt-bindings: hwmon: Add Sensirion SHT30 series
-df25212f306cb6fb5ca04e3bf0da2eaa61846b51 hwmon: (sht3x) Add devicetree support
-b6f0cbee7029c3c00d2e5fe58ba4b0bb59e3fbe7 hwmon: (sht3x) Document support for GXCAS GXHT30
-8576e5f3763aaecff9cb6c0faa388fbd090343a2 hwmon: (peci) Fix kernel-doc parameter names in common.h
-acf5ada3bf970788b186e602a343d8f73ada2730 dt-bindings: hwmon: Add MPS mpq82d00
-376e66bad0bb3fc31b4d4026adc8d738a906a847 hwmon: add MPQ82D00 driver
-741aa7986a0f076ee0b1c9a615341058fc39dbab hwmon: acbel-fsg032: add missing MODULE_DEVICE_TABLE()
-619ce3182daa04c96efd6f29bcc64c4cf5674f42 hwmon: (cros_ec) Register the thermal devices after the hwmon ones
-a8584ec44a51cd67a5c6c31105adaebb81281d5e hwmon: (cros_ec) Store the hwmon device in cros_ec_hwmon_priv
-96a32183ae8403a405beba6a98f4af1a13a48d8c hwmon: (cros_ec) Synchronize EC access from the thermal device callbacks
-949c0a5645d39ab17e6d3c7b42376b3b7912414a hwmon: (applesmc) Cache fan positions during register initialization
-77eb2061f9e1db56645c232956103e3038fc5fcf hwmon: (applesmc) Fix lockless cache validation data race
-f95d8f02ac91f958b1d0d99f8079ee5f717dbd09 hwmon: (applesmc) Convert to hwmon_device_register_with_info
-722b8e81f95b61156b29bf77392132fbdaaee6bb hwmon: (axi-fan-control) Remove redundant dev_err_probe()
-d75cfbcbcf2d0023047998dedd6bdc2b63cab9f9 hwmon: (da9055) Remove redundant dev_err()
-2391842e986fbe347b57c383a946c00bb00eada4 hwmon: (lm90) Remove redundant dev_err()
-4cac55e2234299b9f4c0c15aa5971552928accac hwmon: (npcm750-pwm-fan) Remove redundant dev_err()
-15d4993fa6b02af4eeda26570e8d1d5f1e1a3285 hwmon: (pwm-fan) Remove redundant dev_err()
-0a83e203d0445ea17a24e888f7c1baa305f540aa hwmon: (sht15) Remove redundant dev_err()
-6f988f7a9c29a8b25560f6c1d487fcc816a22869 hwmon: (pmbus) Remove redundant dev_err()
-f3c27acf1df8893a55ad421553454600ff2e70a5 dt-bindings: hwmon: hpe,gxp-fan-ctrl: remove fn2 and pl registers
-8d8cf7c4c6f7d5dd9fb0429d13ab7b2d2c463ddd hwmon: (gxp_fan_ctrl) Provide fan info via gpio
-8e887b7b90411da76b59af6500575adfdec6c16d hwmon: (pmbus/max34440): add support for newer version of max34451
-986fb578fd9b7b225dbff637e26bad7b5d57d2e5 hwmon: (pmbus/max34440): Add support for MAX34452
-55ebffdde8c4b9fc77775107ab5f68e861e7da18 hwmon: ltc4283: add missing MODULE_DEVICE_TABLE for OF match table
-6289a3fcd3e0aa0ab63ac06623039fe52bb18732 hwmon: (pmbus/mp2975) Eliminate dead code
-fa11092b3acd51fcaa9e6e939387e094e4fb93ec docs: hwmon: sg2042-mcu: fix spelling error
-d11ee94c2f55aba5b6d2ae2c346fee9e667c162f dt-bindings: Add vendor prefix for Kandou
-61524710c9b76e436446f42c5d4169af603f124a dt-bindings: trivial-devices: Add Kandou KB9002
-190d0aa96d68c27cb0e98c57c4a40b5654b11e0e hwmon: (kb9002) Add driver for Kandou KB9002 retimer
-e2aac2b2d61cb088a6090a655e046d9afc82d148 hwmon: (kb9002) Add documentation
-7221be72275fe4a46ac77f6c4dcf9ca0e07b1a77 dt-bindings: hwmon: pmbus: Add Analog Devices MAX16545/MAX16550 and Volterra VT7505
-858071a1ca5f9a3330b4559dab41565086ab4862 hwmon: (pmbus/vt7505) Add driver for Analog Devices MAX16545/MAX16550 and Volterra VT7505
+8d2b10eef6f3b1336be2d1197db29b0c697f1d41 watchdog: atcwdt200: fix return value when watchdog is enabled
 
---===============3457777651545036095==--
+--===============7407659025338734104==--
