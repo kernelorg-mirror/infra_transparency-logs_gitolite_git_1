@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1451236071433299776=="
+Content-Type: multipart/mixed; boundary="===============1958774303935609884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 27 Jul 2026 21:39:12 -0000
-Message-Id: <178518835292.2972781.3135852318588876436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Jul 2026 21:39:16 -0000
+Message-Id: <178518835663.2972944.10164618114863475016@gitolite.kernel.org>
 
---===============1451236071433299776==
+--===============1958774303935609884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: 52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a
     new: dd88cf6273de61f2f7206c2066af97798dbb38b0
     log: revlist-52a3a0cc28bf-dd88cf6273de.txt
 
---===============1451236071433299776==
+--===============1958774303935609884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1785188351 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1785188350-dc01afc13493cf9955ebd797124b1851b2cdcabe
+pusher C3F436CA30F5D8EB 1785188354 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1785188354-f0e103ae1ce44f1b69ac5924ef6b55cd891d3116
 
-52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a dd88cf6273de61f2f7206c2066af97798dbb38b0 refs/heads/for-7.2
+52a3a0cc28bf6fd8b38ef6c81b21f948bf13996a dd88cf6273de61f2f7206c2066af97798dbb38b0 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpnz/8ACgkQJNaLcl1U
-h9CneAf/Xp4HE3f3GWOxxCSppYGpXcsfcwhUsEko5rLfyxE0Z+pacY7G3vC0078k
-2yUik3Ye4mGnCA4QWRloCIFeb0g9FTOJ3hi2tcwRyG8z7n8evJvdrJiCrD4wHRkD
-DRQtbqzIW4ChmkIqQsgfEaJ7qdNeUCvrbHUDbzg0pJTd3phVBP/dxHKd/lrH53jR
-rqkLixLRaPNqLOuaGw5vjknG87pGyQUbUh+bUUBo8JHhc3TwkUAVNQZy+LCPd2C7
-1kxCwco92kl46HfrimanZtt8aVAYcx2Fuu9hXL7cKJQDjRao/EyPjzDtgI/gLdJi
-VfG62NZhmLIWf9lSZTbrNueFVXklAQ==
-=2V5P
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpn0AIACgkQJNaLcl1U
+h9A7rAf7BQIJjQadZc0SpuZTwcDmuEoJZcg3LyRACjSiIq+xMhZ2xNr0g/RLAKEy
+HkxCFxrqkrVz1MTlLRo7Zjs/518jXgKhywC7r9D1b/kEf7mIEjxelE9IQkftbj+Y
+1KvL1erwbngYeOJycNGsEDuSJOlmX6w+vjqHehljTKyJahRX8fLBIXPd1m3MI7Pv
+aV0SlWaUNTejbAMtvkapzT/rzHhIyc2Cwg1PVyGWHnuv22k5NzsH5hRwa/DaW1YN
+lhuvbMFom7GDXz7/2lGiKojDjSDRUjJxl+wHXaLoU9B4sMV90hza0UJzxe/kOQUY
+WCMmkANQeDoETCa+XzjAr2ilInj/4Q==
+=/CtQ
 -----END PGP SIGNATURE-----
 
---===============1451236071433299776==
+--===============1958774303935609884==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -660,4 +660,4 @@ bf1b7821f85383a8804441f8fd5165be148f3ec8 ASoC: SDCA: Move kcontrol search out of
 fc810085f6c8125866ffe04e6909107a539ee949 ASoC: Fix races on creation of SDCA jack detection
 dd88cf6273de61f2f7206c2066af97798dbb38b0 ASoC: tas2781: Use correct calibration data for SINEGAIN2 register
 
---===============1451236071433299776==--
+--===============1958774303935609884==--
