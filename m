@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4615447439733355342=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 27 Jul 2026 20:42:34 -0000
-Message-Id: <178518495458.2928211.12848756019621281745@gitolite.kernel.org>
-
---===============4615447439733355342==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 27 Jul 2026 20:46:07 -0000
+Message-Id: <178518516771.2932507.12342902332508307815@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: ab1112df8f4ffa88cb024dd370c432ced80f77d8
-    new: c84ccde22d9d3070a9ee144e825270a7a784c570
-    log: revlist-ab1112df8f4f-c84ccde22d9d.txt
-
---===============4615447439733355342==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab1112df8f4f-c84ccde22d9d.txt
-
-c1eb5905fdce35a66173658a93819641e5220c18 power: supply: Add registration init callback
-f05e30fd2ffd962e6f30dc0abd528b4182ecdf4b power: supply: max17042_battery: Separate MAX17055 initialization
-e8e7cdd9ce46a763e5428e2673e90c6a5f91f6d8 power: supply: max17042_battery: Use bool for init_complete
-01da1f4a6373f8d6a5a2d5d5adc256431087ccc4 power: supply: max17042_battery: Convert initialization to delayed work
-98d02b5128833c3d812e62a2616f33f1524c8394 power: supply: max17042_battery: Propagate status register errors
-fc9ff915b1fb6f6f826953d1bef3087d7a489d65 power: supply: max17042_battery: Retry failed MAX17055 initialization
-6f384023851d67bd242bf40e5a91328eb92edb5d power: supply: max17042_battery: Program MAX17055 EZ Config values
-111a2d606a493c3b2f03864ea34a29df3a9e7c06 power: supply: max17042_battery: Follow MAX17055 POR sequence
-ed2b9b4b9694239f9a39f3e5087d879f5e37e315 power: supply: max17042_battery: Initialize MAX17055 from battery info
-6a376b843d937d2330b0111404b62589236620c1 power: supply: max17042_battery: Honor MAX17055 charge voltage
-c84ccde22d9d3070a9ee144e825270a7a784c570 dt-bindings: power: supply: max17042: Allow generic power-supply properties
-
---===============4615447439733355342==--
+  - ref: refs/heads/master
+    old: 73b6871b261f332f218137d056d5c7ef19f642a4
+    new: a7ef68421906a8b1c4204dda9b2e52b90f6fd2ba
+    log: |
+         3501d7754c8548d29945e67157acafefe1c52c54 Bluetooth: btmtk: Fix short read errors in btmtk_usb_uhw_reg_read()
+         abcb881d99adfea28caf7e74d6b655ec17539a72 Bluetooth: btmtk: Fix short read errors in btmtk_usb_reg_read()
+         446e8fffe4def1eed2ba489b46ea1b1b544b3cf8 Bluetooth: btusb: Fix short read errors in btusb_qca_send_vendor_req()
+         cca1639df8fb424d362494a27b28395fb8327574 Bluetooth: use a named initializer for acpi_device_id
+         1bbd8346bc3c89b8c6a3baf4a2b026ce81cef6fc Bluetooth: hci_intel: drop unused assignment of acpi_device_id::driver_data
+         018d1e023ea5c3299cf4fbb490337b13c6effd3c Bluetooth: SCO: give the socket its own sco_conn reference
+         a7ef68421906a8b1c4204dda9b2e52b90f6fd2ba Bluetooth: btintel_pcie: Add vendor_reset PCI sysfs for PLDR
+         
