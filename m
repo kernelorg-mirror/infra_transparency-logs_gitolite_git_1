@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1825325877849329967=="
+Content-Type: multipart/mixed; boundary="===============1525738529471323433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Mon, 27 Jul 2026 09:14:25 -0000
-Message-Id: <178514366517.2363523.13996554375043624145@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 09:14:36 -0000
+Message-Id: <178514367640.2363778.529215224397469053@gitolite.kernel.org>
 
---===============1825325877849329967==
+--===============1525738529471323433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: e98d21c170b01ddef366f023bbfcf6b31509fa83
-    new: c5e32e86ca02b003f86e095d379b38148999293d
-    log: revlist-e98d21c170b0-c5e32e86ca02.txt
+  - ref: refs/heads/icssg-dev
+    old: 7aa6108bf5c5328d646e91a0451eeae42a672801
+    new: 0159872fd4f651c5018850cad9ca46011708b323
+    log: revlist-7aa6108bf5c5-0159872fd4f6.txt
 
---===============1825325877849329967==
+--===============1525738529471323433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e98d21c170b0-c5e32e86ca02.txt
+Content-Disposition: attachment; filename=revlist-7aa6108bf5c5-0159872fd4f6.txt
 
-6ee471b646e09203f8dca27ffff78bb454dc97ac sched_ext: Use rcu_access_pointer() for the first_task comparison
-b492a0559b87275df3400a26b9cd17cfc6874021 Merge branch 'for-7.3' into for-next
-0109905cfdf4b64da014596f31c2ee5029ef0870 hwmon: (pmbus/mp2975) Eliminate dead code
-0c480a338df05d141c1354087da8dc8c298cd657 hwmon: (ltc4282) Fix reading the minimum alarm voltage
-2cdb382276e92567daed9926c9055bc7bd308be8 hwmon: sht3x: Fix unaligned accesses
-0962125d9001077e91bc90656245f009e3c6c129 power: supply: Add helpers to get and put arrays of power supply handles
-df55823b98feda7190aae7c8b186b9b66b8730dc Merge tag 'ib-psy-array-helpers-for-v7.3-signed' into psy-next
-760318e2e69857214314e94ac477219f0c89106b hsi: omap_ssi: remove debugfs on port creation failure
 7c5c46b52f05e87ef2e0984bcb377c20b2ab4e4b HSI: nokia-modem: Remove redundant dev_err()
 659287caa77a73873ecd71f27b5f3d967a85fd3f HSI: omap_ssi: Remove redundant dev_err()
 e81250ec6b69248b00d38c523dc6a13efaf38aab hsi: omap_ssi_core: fix missing DMA mask setup for SSI controller device
@@ -1050,5 +1042,13 @@ d50881c630ad86d452ddb2e84ef28d639bd9f9fa Merge branch 'next' of https://git.kern
 d7f02c9e0ced3e9d81728dae248fcc717cecff0d Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 80489b8b7c62068b5223af10ead175367dcd127d Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 c5e32e86ca02b003f86e095d379b38148999293d Add linux-next specific files for 20260726
+1d59fd74c47bd9a04dc440e3becd355cae9d1d87 hsr: Allow to send a specific port and with HSR header
+fbe7d83bf1702267c6e7bcc3734c05c570cc5013 af_packet: Add port specific handling for HSR
+f477f4623c256aac6ce67941a1ed97eebfa97924 PENDING: net: ti: icssg-prueth: Add conditional checks for HSR offload behaviors
+a4507fe43e0e9606c076bd5ac4f77f25652bdeb9 devlink: Add generic ctf_queues parameter
+2d26863dc86cb7c440a63ec097b65180f248d7cc net: ti: icssg-prueth: Add Cut-Through Forwarding support via devlink
+e8622ecc17317435e0c6dd1fe78c4bcb7364b67c docs: networking: devlink: Document CTF parameter and add icssg-prueth
+738a73270d0c8e07783de15fbd5de7ce9ab34112 net: ti: icssg-prueth: Add Frame Preemption MAC Merge support
+0159872fd4f651c5018850cad9ca46011708b323 net: ti: icssg-prueth: Add ethtool ops for Frame Preemption MAC Merge
 
---===============1825325877849329967==--
+--===============1525738529471323433==--
