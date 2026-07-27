@@ -1,48 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5443175201776293442=="
+Content-Type: multipart/mixed; boundary="===============2725063181350640687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 27 Jul 2026 12:48:07 -0000
-Message-Id: <178515648775.2527874.12572657765106238584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 27 Jul 2026 12:51:27 -0000
+Message-Id: <178515668744.2531158.10579937612415823528@gitolite.kernel.org>
 
---===============5443175201776293442==
+--===============2725063181350640687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/objext_split-v3-bench
-    old: 0000000000000000000000000000000000000000
-    new: 00a963c6f8935eea26a26878ee6ddeedb456d5ba
+  - ref: refs/heads/master
+    old: 281e60c36a2c952014c63af5913319e28de80139
+    new: f0fca9a4c9b699f135ed1bf675215646a74df98a
+    log: |
+         686cdafff081a2612537c8c9dbbc0ca61c7f8099 CVE-2024-14040: Add CVSS 3.1 score (7.8 HIGH)
+         f0fca9a4c9b699f135ed1bf675215646a74df98a update based on new cvss score
+         
 
---===============5443175201776293442==
+--===============2725063181350640687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1785156483 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1785156483-46105759e5cd210607266edab6e9c8e630cf0430
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785156674 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1785156684-4a05e41385edfbe71dd70400a975a632d297d8be
 
-0000000000000000000000000000000000000000 00a963c6f8935eea26a26878ee6ddeedb456d5ba refs/heads/objext_split-v3-bench
+281e60c36a2c952014c63af5913319e28de80139 f0fca9a4c9b699f135ed1bf675215646a74df98a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpnU4MbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiadzMH/i5U867Anh4Fw9aRsaYJ
-U6hPa1xn2+lrJ9ZAuC7Z8yWTi8dViLIG8sTc9JHxVoNKGDdn6MMVbO+UYSXFj8qh
-UQwfZkDezdCFGf4OH4VvJrBJ4Lbs+975wv5XhWabiWxKEkLG2jy5KlvqmPd9/0D4
-RPLcAIKLLKUmINljQblh7oHQB6cPeFMTRlmbD0/d4GURCVx0L7/yJAs7yzTbyrX1
-8AShlEdqsmfxx+CXrEllBAALT3CHt4gSwFLwJIWG3p36RlMFAF5Z1noVwr/33YiG
-K6GOTCcnWHber8yFwYbw8YYu2xycpy/VW6hGl3wXDJjVJS9D2FCSqVtAaO9EX1Th
-uMg=
-=18lc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnVEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RToQALcQONt9RPV/lcQpksEk
+YdWu+75orboXQBjQFE/8N25PlDRIS8Ez5DvYgGvPsqagcV+jL0hXuH1RMjq6wVU5
+FP1oWkrOaRPWdleT3ZHpiU8ps+kW7CZ+NUlrc4QFLygHhGAmsNupNEOUwCcjZ6u4
+zGZLYWk79IOmSFDeLuFS3lciC5tZYNWb9VMLUqAr2/RKRqvcfEqleHWyZeKk2Z0R
+iLMVwl6nW6pB+UtwEge6Yfwcwt7naYEDZgMqDdIIEKxJLVRYXZWgVBhPycgPrzCk
+CyB72yYFYbZ2y6Cen3WOUtYGVCsC2lrpeRjOnOAiSnjYktVgJY2bSrSOkpCnKkkR
+f4xTiDxOLqlMGzY9NMrILpHYniItB/SAYKHuFDvU4saCY6xx08w3c1lSXm35G2tG
+J27z0bwyuDkWdSrX5dtKUNNfPaaqusJSCiybQUzwya4pkjslbWScVebeskGAzoOs
+WAybhuxYt74UrNkwuRreXoEpqVrVfJnTQMcXumaeqVRo0jJvVVMPImblKUJnnou/
+E9eBOnHZlD0FiPlLOrTq67O64nYXU/h03bSvCF4yk7+bWEl2dgaMJIg8I+JhoMBV
+86nEvZUFt5FwYo9LtVuP40V/TlPjLDlaWDanwKn2IPIzrFL8HxvUjmFmR5Px9E6g
+1OafmY/ZBJlKXRoOiPDduenQ
+=HEzv
 -----END PGP SIGNATURE-----
 
---===============5443175201776293442==--
+--===============2725063181350640687==--
