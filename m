@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 27 Jul 2026 03:07:39 -0000
-Message-Id: <178512165978.2034195.4349462261130127937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 27 Jul 2026 03:21:47 -0000
+Message-Id: <178512250756.2044480.4294970063702871267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/todo
-    old: 2883c9d288e0423a524fc63c8dc75b2dc0f0fbc9
-    new: 08a10c9b7445113f5b38a67894e37cc615c62258
+  - ref: refs/heads/clk-for-7.3
+    old: a9954d40de71cee344dbf9d61600b79379f74bb9
+    new: 0f87ded5f8398182fbac232f0f287d45baa10d6a
     log: |
-         00caf9dafbbf1d67a66b2b1ac1fe4fadb200b8e0 Meta/Count: do not add unnecessary @{now}
-         08a10c9b7445113f5b38a67894e37cc615c62258 What's cooking (2026/07 #12)
+         f9cbc4bddb636dd9d446bfba31f58fbceaf09424 dt-bindings: clock: qcom: Move glymur TCSR to own binding
+         0998cf30b0e0d02dbcdfc1f989b745137b21f682 dt-bindings: clock: qcom,glymur-tcsr: Add mahua support
+         22c70e5732005356a4bc2601e7dcf878aab101e0 clk: qcom: Add generic clkref_en support
+         0753091abc4b480abf76cb40c10fffe2764bfcf7 clk: qcom: tcsrcc-glymur: Add regulator supplies and migrate to clk_ref helper
+         0f87ded5f8398182fbac232f0f287d45baa10d6a clk: qcom: tcsrcc-glymur: Add Mahua QREF regulator support
          
