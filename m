@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 27 Jul 2026 22:16:57 -0000
-Message-Id: <178519061786.3002729.5241337465503571347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 27 Jul 2026 22:19:29 -0000
+Message-Id: <178519076902.3003636.13059768858845504770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: dbc3791e3b2472e1ccc08947e0f83b443470ff4f
-    new: 9c88929cc18cdc252aa8a57e9fa8cb441dc47642
+  - ref: refs/heads/master
+    old: a4b19ba3e6dc7a82a1300ae40bd5864befb8d9e6
+    new: e33d88e7b5f86256866a4e1422cc31e9385270c5
     log: |
-         1395a676ec15a0a02a2a6d86602324f2d5fd41d5 vxlan: re-fetch eth header after route_shortcircuit()
-         760d36e737f2b3867762f42af36c663f55babcc4 vxlan: unclone skb head before modifying eth header in route_shortcircuit()
-         8eca411347e1d38964f9ed2c8d3b6ab0e7e4473d vxlan: use neigh_ha_snapshot() in route_shortcircuit()
-         26bb2dd0a8839617e2c79ffbbe1923f8e4bab9fb vxlan: use pskb_network_may_pull() in route_shortcircuit()
-         b9553558b48db54ac9273e6b98d7263ef5c1a329 vxlan: use pskb_network_may_pull() for transmit path header pulls
-         9c88929cc18cdc252aa8a57e9fa8cb441dc47642 Merge branch 'vxlan-fixes-for-skb-header-pulling-cloning-and-concurrency-in-tx-path'
+         9077fe3508d7fc19d4290046a1371b1b351eb1ae Drop risc-v-kvm-serialize-virtual-interrupt-pending-state-updates.patch
+         e33d88e7b5f86256866a4e1422cc31e9385270c5 Fixes for all trees
          
