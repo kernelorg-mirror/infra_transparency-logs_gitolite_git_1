@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4665780547528750562=="
+Content-Type: multipart/mixed; boundary="===============2310433906695756917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 27 Jul 2026 22:56:42 -0000
-Message-Id: <178519300252.3034513.7208871375283316936@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 22:56:44 -0000
+Message-Id: <178519300496.3034730.7910171729217697157@gitolite.kernel.org>
 
---===============4665780547528750562==
+--===============2310433906695756917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4787a6d2629b4e8c0b6bacab1f75c1660eca44d9
     new: bd0e9289e2642f6a5c54faad304ce0f41e926d22
     log: revlist-4787a6d2629b-bd0e9289e264.txt
 
---===============4665780547528750562==
+--===============2310433906695756917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ a39789f211b8a4125f0c70e05b30cf715f4f187d net: bridge: stop fast-leave after dele
 9d8da8e0a9bce4a340af60dd0446bc7eb8d07587 sctp: reject stale cookies with mismatched verification tags
 bd0e9289e2642f6a5c54faad304ce0f41e926d22 sctp: prevent peer transport count overflow
 
---===============4665780547528750562==--
+--===============2310433906695756917==--
