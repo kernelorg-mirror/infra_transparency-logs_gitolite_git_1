@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1952463741906917621=="
+Content-Type: multipart/mixed; boundary="===============7270505083273572425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 27 Jul 2026 22:06:39 -0000
-Message-Id: <178518999998.2994084.6915032168457531458@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 22:06:55 -0000
+Message-Id: <178519001535.2994422.11886270749998753754@gitolite.kernel.org>
 
---===============1952463741906917621==
+--===============7270505083273572425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 7e12ea5aae19ee07d466e9613ccba753349c9c1d
-    new: d0b704e569ac3b8416d8e02270cdc9bf830ed395
-    log: revlist-7e12ea5aae19-d0b704e569ac.txt
+  - ref: refs/heads/master
+    old: e2a936998ab25cf7272847356390041c3143b498
+    new: f5098b6bae761e346ebcd9da7f95622c04733cff
+    log: revlist-e2a936998ab2-f5098b6bae76.txt
+  - ref: refs/tags/v7.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a8e429896436e8c2d288181f875f92af8204bc58
 
---===============1952463741906917621==
+--===============7270505083273572425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e12ea5aae19-d0b704e569ac.txt
+Content-Disposition: attachment; filename=revlist-e2a936998ab2-f5098b6bae76.txt
 
 608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
 9119ceb76e987c2ec2b549ea100e3268ce3a1c7c firmware: stratix10-svc: fix memory leaks and list corruption bugs
@@ -188,14 +191,5 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-b0e8adb2ccb43009796897ced09f91636685c9d3 hwmon: (nct6775-core) Fix number of temperature registers for NCT6116
-a64a7e8a0b012ba81b0eadbd7afc84ab0dbfd70c hwmon: (pmbus/core) notify on the hwmon device, not the i2c client
-e6c80061ca239f45c0eaf7e47a91d6d6df9bd636 hwmon: (ina2xx) Fix various overflow issues
-00feb1cce93dab948a299b69753d99c681d45a0b hwmon: (ltc4282) Fix reading the minimum alarm voltage
-f46d5ab43a572b84773015a76966f5da56fc1748 hwmon: (sht3x) Fix unaligned accesses
-aa9429edf9fc0e90d6f4da19ea4b5495a54ab117 hwmon: (lm90) Only report alarms if driver is ready
-080bbf42faf77e6489ab30d5114c5f8f6ccbb1b8 hwmon: (nzxt-smart2) DMA-align output buffer
-a60f58eb70e4e4c2ba4ace8b292dea64e5b7b290 hwmon: (lm63) Mask PWM frequency multiplier to supported bits
-d0b704e569ac3b8416d8e02270cdc9bf830ed395 hwmon: (nct6775-core) Prevent access to unsupported weight registers
 
---===============1952463741906917621==--
+--===============7270505083273572425==--
