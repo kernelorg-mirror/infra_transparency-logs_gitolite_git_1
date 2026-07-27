@@ -1,29 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 27 Jul 2026 16:24:47 -0000
-Message-Id: <178516948788.2727504.14669572427283721231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 27 Jul 2026 16:26:18 -0000
+Message-Id: <178516957808.2730279.8595042057336197652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 5608386899d9de8030980bce3d05bded28f9bfb8
-    new: 8a5a1e727fcaf4bc9f742bf71a4de7eb49de9623
+  - ref: refs/heads/pwrctrl
+    old: 62ef2a96fe7e66b8b5c4e756a8454146adee1817
+    new: ff5357a2d44edad11f683e88542e3a5ed8daf60d
     log: |
-         d9686ea2cd4ced566c1e93b4467771016709c33c mmc: host: Remove redundant dev_err()/dev_err_probe()
-         08f4661d40f41d6bfb94da1907eb3f7f172e652f mmc: moxart: use platform helpers for resource and IRQ
-         088eaa92fcebaa6b957ccf9635afdf39643a577d mmc: via-sdmmc: stop card-detect handling on probe failure
-         57e5d877f898d5e5c9d672a77bb6bdd24f0d9bf5 mmc: via-sdmmc: cancel card-detect work on remove
-         8a5a1e727fcaf4bc9f742bf71a4de7eb49de9623 mmc: omap_hsmmc: use platform_get_irq_optional for wake IRQ
+         9a089144d0b388f94a1b2f8104f18a87181126b3 dt-bindings: PCI: toshiba,tc9563: Restrict Tx Amplitude, DFE and N_FTS to USP, DSP1 and DSP2
+         8d7c02f070836a616c7aa10edbb307f9c779b964 PCI/pwrctrl: tc9563: Fix parsing the integrated Ethernet MAC Endpoint node
+         3d12b00178b7e3ea6b217f5f497924a0bb3d1260 PCI/pwrctrl: tc9563: Power off only the external ports in tc9563_pwrctrl_disable_port()
+         34796ce3d4c377750bc5b299ac6918bb4307ff13 PCI/pwrctrl: tc9563: Skip Tx amplitude and DFE tuning for DSP3
+         7d2aeab35a114cb6fa1944e278f5329c4ad6573f PCI/pwrctrl: tc9563: Rename DSP3 to VDSP
+         ff5357a2d44edad11f683e88542e3a5ed8daf60d PCI/pwrctrl: tc9563: Move Integrated MAC Endpoint out of 'tc9563_pwrctrl_ports' enum
          
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
