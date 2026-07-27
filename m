@@ -1,114 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============1946804407259562263=="
+Content-Type: multipart/mixed; boundary="===============7564522253959538341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 27 Jul 2026 08:47:52 -0000
-Message-Id: <178514207237.2343576.1237131837705746192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Mon, 27 Jul 2026 08:54:01 -0000
+Message-Id: <178514244131.2348070.13835005001735766708@gitolite.kernel.org>
 
---===============1946804407259562263==
+--===============7564522253959538341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/for-next
-    old: 115abb2cd2d89b510666f5dece88a6f45b655e9c
-    new: 88f46b866fe93b18abbca52085971ee382ece771
-    log: revlist-115abb2cd2d8-88f46b866fe9.txt
-  - ref: refs/heads/soc/arm
-    old: ab1c3ab445b44d6b412bc4f7fad3db4f3857a80e
-    new: 77d0531ac4903dea0db3bb8decb0a13f4afc7687
-    log: |
-         717ea4000867e6dffee5e1ed92150a9704ae9f68 ARM: lpc32xx: only run SoC init on LPC32xx hardware
-         d6ef4391897d8957f26397f381e78677c1277260 ARM: lpc32xx: remove a few manually populated OF devices
-         77d0531ac4903dea0db3bb8decb0a13f4afc7687 Merge tag 'lpc32xx-arm-for-7.3' of https://github.com/vzapolskiy/linux-lpc32xx into soc/arm
-         
-  - ref: refs/heads/soc/dt
-    old: 0bcfbb1f786d43372319bae28ea44b5657931029
-    new: a4bc8e323ddc6abe5b1e08a68a19ec0c93838959
-    log: revlist-0bcfbb1f786d-a4bc8e323ddc.txt
+  - ref: refs/heads/next
+    old: b3abb89e36a5e7c72ed649319173d3168acbba5b
+    new: 05585937f591a0e3c12319df6f4102504d062f28
+    log: revlist-b3abb89e36a5-05585937f591.txt
+  - ref: refs/heads/pci
+    old: b3abb89e36a5e7c72ed649319173d3168acbba5b
+    new: 05585937f591a0e3c12319df6f4102504d062f28
+    log: revlist-b3abb89e36a5-05585937f591.txt
+  - ref: refs/tags/for_autotest
+    old: f190a5cf09602bb1bb7d1feb72c8374329e86c3a
+    new: 219b6973ee5c964ea4327dc6d7fdbbe0a36d6eaa
+    log: revlist-f190a5cf0960-219b6973ee5c.txt
+  - ref: refs/tags/for_autotest_next
+    old: f190a5cf09602bb1bb7d1feb72c8374329e86c3a
+    new: 219b6973ee5c964ea4327dc6d7fdbbe0a36d6eaa
+    log: revlist-f190a5cf0960-219b6973ee5c.txt
+  - ref: refs/tags/for_upstream
+    old: f190a5cf09602bb1bb7d1feb72c8374329e86c3a
+    new: 219b6973ee5c964ea4327dc6d7fdbbe0a36d6eaa
+    log: revlist-f190a5cf0960-219b6973ee5c.txt
 
---===============1946804407259562263==
+--===============7564522253959538341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-115abb2cd2d8-88f46b866fe9.txt
+Content-Disposition: attachment; filename=revlist-b3abb89e36a5-05585937f591.txt
 
-35cf35e239477cb28e5f6ccd987933d70c21061f arm64: dts: renesas: rzv2h: Add audio clock inputs
-4e66920563d718732b743ae418860cde13265242 arm64: dts: renesas: rzg3e-smarc-som: Add I2C1 support
-c49ad13019771d5161290dc0eacb3ff6186c0953 arm64: dts: renesas: rzt2h-n2h-evk: Remove unused MII/GMII pins
-1f90a38214d52f773edd02bf02805aa905164ee0 arm64: dts: renesas: rzt2h-n2h-evk: Configure ETH pins
-1417a63d16ba5681fe137e546aaa9c5b2828c5d5 arm64: dts: renesas: rzt2h-n2h-evk: Configure SCI0 pins
-4fb32d9e4836c33ea9861f7c3e57beab6f546eb1 arm64: dts: renesas: r9a08g046l48-smarc: Enable rsci{1,2,3} nodes
-ba82a7f75e8a33963354c1be109793f2bccccb79 arm64: dts: renesas: r9a08g046: Add RSPI{0..2} nodes
-db60b8a6154af4221954065c695a0b35cee34b72 arm64: dts: renesas: r9a08g046l48-smarc: Enable RSPI2
-9f115f9c3133294dfe149fe2e8376a854b0124a5 arm64: dts: renesas: r8a78000: Enable application CPU cores via PSCI
-f0de09f7de324b2deed7ebdb26d775a0abe9e10d arm64: dts: renesas: r8a779g0: Add MFIS node
-31fd71751e699117d71ed998c58fc7fe9ec471fa arm64: dts: renesas: r9a09g047e57-smarc: Drop SW_SER0_PMOD condition for rsci4
-e3203a81238d59833adfe551ccad929245a1ea92 arm64: dts: renesas: r9a09g047: Add max-frequency to SDHI nodes
-2cc5ac6e859bcf3ec5d4c8725909918f8bb907a2 ARM: dts: renesas: r8a7740: Add FSI clocks
-e2b5bacc8e2056ca81b08a59529ae182cd80e3ff arm64: dts: renesas: r8a77965-salvator-x: Enable GPU support
-0d501c2fbcd931815380dc3db07f1dd77d151422 arm64: dts: renesas: r8a77965-salvator-xs: Enable GPU support
-e7f8013a1306ac9af01e43f1e05f13d235b566a7 arm64: dts: renesas: r8a77965-ulcb: Enable GPU support
-7cb769eb22d1f6b0536b2979b92c50cb5873e07a arm64: dts: renesas: r9a09g047: Add RZ/G3E Sound support
-c42be528a5a4da70eefa7d2e531dc719a8d103a4 arm64: dts: renesas: rzg3e-smarc-som: Add Versa3 clock generator
-14d21efe16dc5b92774a987ada0868e0bcf3dd91 arm64: dts: renesas: rzg3e-smarc-som: Add audio pinmux definitions
-3e23d2548ddb2d73b26b85c990a77925a9cf7f86 arm64: dts: renesas: r9a09g047e57-smarc: Add DA7212 audio codec support
-92b4465b221e4e1b38d56b6ce8290949555b72bd arm64: dts: renesas: Add soc: labels to soc nodes
-7589467672a86ae29f2f62715166f88a054f4b54 arm64: dts: renesas: rzt2h-n2h-evk-common: Add memory nodes
-a91b23a9d0ea08ed20df34bf2d9e9b10eb8da4c1 ARM: dts: renesas: r9a06g032: Describe SPI controllers
-f4f9b372a8a6aeb9b95e9ca4d9542b384ebb983c ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable SPI-FRAM
-c73b080d1d1bf89775d69f2e249820e3e242814b arm64: dts: renesas: r9a09g057: Add PCIe nodes
-90a9d595f36ba11d95568acfda641a7e371f627d arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Enable PCIe
-3e7259fb8a31c8b784628cfc417998447b0e5629 arm64: dts: renesas: r9a09g056: Fix PCIe dma-ranges memory space code
-24afcb87e6aca1ff3face276223eeea0012f8e2b arm64: dts: renesas: r9a09g047: Fix PCIe dma-ranges memory space code
-717ea4000867e6dffee5e1ed92150a9704ae9f68 ARM: lpc32xx: only run SoC init on LPC32xx hardware
-d6ef4391897d8957f26397f381e78677c1277260 ARM: lpc32xx: remove a few manually populated OF devices
-77d0531ac4903dea0db3bb8decb0a13f4afc7687 Merge tag 'lpc32xx-arm-for-7.3' of https://github.com/vzapolskiy/linux-lpc32xx into soc/arm
-a4bc8e323ddc6abe5b1e08a68a19ec0c93838959 Merge tag 'renesas-dts-for-v7.3-tag1' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/dt
-6abc7a059f75bf1b92c405e4e9032c3c964010cd Merge branch 'soc/dt' into for-next
-916f3bc8ce83b765a2768873b84522216d94486e Merge branch 'soc/arm' into for-next
-88f46b866fe93b18abbca52085971ee382ece771 soc: document merges
+5740376988d5625e271f4b0400c55537bc82f0bc libvduse: validate vq size
+74d974762355dcc3a67c5522a3f7610c91424ba1 virtio-iommu: fix OOM due to unbounded call_rcu
+a949377da553ad8d373ec9bbba8b62feceeb7a70 virtio-snd: check rx buffer descriptor size
+9d3eca8018c3c0898035d4b13616bc71baf534ad virtio-snd: check for overflow before g_malloc0
+d7a57cdecc23d4c51d1fc89a72defd9a062ba008 hw/pci-host/q35.c: Always initialize smram-region even if SMM disabled
+aee2e9d1119ea0e697a0d4c03016e35c82ee62e1 hw/pci-host/q35.c: Factor out creation of SMRAM MRs
+b13078849f3254a2716db03fcaf95ba1a15df69c hw/pci-host/q35.c: Avoid early return in mch_write_config()
+eb0d67971bdd4810aac3b3f1ca8f5e972cb4c23f hw/virtio/vdpa-dev: pass set_config buffer to vhost backend
+6062645e7efee7130d93ac1670ed42d591dcd349 hw/cxl: fix OOB access in cxl_doe_cdat_rsp via entry_handle
+4bb19dfedf6cc824c5d95a22028f8adcb255421d intel_iommu: Check address mask before using it in pasid-based iotlb invalidation
+d125ecbc8c3af8bbe593175211abc32f7e9e12ed hw/net/virtio-net: Protect from DMA re-entrancy bugs
+d0c09bc68dd1980199e9094b696c7093e6f1b513 hw/virtio-rng: Fix host use-after-free (CVE-2026-50624)
+f2fe2afd27ddf93b49a16a29e8224d16b9888953 backends/rng: cap request size to avoid oversized allocation
+166608bb065dc0f22ca97c73bfdfce12e03f0619 scsi: use scsi_req_unref_detach_hba() in HBA drivers
+0e0e4367a566388256db3ab3c25fd22677fe1d66 virtio-snd: bound PCM I/O staging buffers
+05585937f591a0e3c12319df6f4102504d062f28 audio: flush pending output tail before disable
 
---===============1946804407259562263==
+--===============7564522253959538341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bcfbb1f786d-a4bc8e323ddc.txt
+Content-Disposition: attachment; filename=revlist-f190a5cf0960-219b6973ee5c.txt
 
-6fa6ee724d8dadf392139e242ac936b5da730c4b arm64: dts: renesas: ironhide: Describe inline ECC carveouts
-35cf35e239477cb28e5f6ccd987933d70c21061f arm64: dts: renesas: rzv2h: Add audio clock inputs
-4e66920563d718732b743ae418860cde13265242 arm64: dts: renesas: rzg3e-smarc-som: Add I2C1 support
-c49ad13019771d5161290dc0eacb3ff6186c0953 arm64: dts: renesas: rzt2h-n2h-evk: Remove unused MII/GMII pins
-1f90a38214d52f773edd02bf02805aa905164ee0 arm64: dts: renesas: rzt2h-n2h-evk: Configure ETH pins
-1417a63d16ba5681fe137e546aaa9c5b2828c5d5 arm64: dts: renesas: rzt2h-n2h-evk: Configure SCI0 pins
-4fb32d9e4836c33ea9861f7c3e57beab6f546eb1 arm64: dts: renesas: r9a08g046l48-smarc: Enable rsci{1,2,3} nodes
-ba82a7f75e8a33963354c1be109793f2bccccb79 arm64: dts: renesas: r9a08g046: Add RSPI{0..2} nodes
-db60b8a6154af4221954065c695a0b35cee34b72 arm64: dts: renesas: r9a08g046l48-smarc: Enable RSPI2
-9f115f9c3133294dfe149fe2e8376a854b0124a5 arm64: dts: renesas: r8a78000: Enable application CPU cores via PSCI
-f0de09f7de324b2deed7ebdb26d775a0abe9e10d arm64: dts: renesas: r8a779g0: Add MFIS node
-31fd71751e699117d71ed998c58fc7fe9ec471fa arm64: dts: renesas: r9a09g047e57-smarc: Drop SW_SER0_PMOD condition for rsci4
-e3203a81238d59833adfe551ccad929245a1ea92 arm64: dts: renesas: r9a09g047: Add max-frequency to SDHI nodes
-2cc5ac6e859bcf3ec5d4c8725909918f8bb907a2 ARM: dts: renesas: r8a7740: Add FSI clocks
-e2b5bacc8e2056ca81b08a59529ae182cd80e3ff arm64: dts: renesas: r8a77965-salvator-x: Enable GPU support
-0d501c2fbcd931815380dc3db07f1dd77d151422 arm64: dts: renesas: r8a77965-salvator-xs: Enable GPU support
-e7f8013a1306ac9af01e43f1e05f13d235b566a7 arm64: dts: renesas: r8a77965-ulcb: Enable GPU support
-7cb769eb22d1f6b0536b2979b92c50cb5873e07a arm64: dts: renesas: r9a09g047: Add RZ/G3E Sound support
-c42be528a5a4da70eefa7d2e531dc719a8d103a4 arm64: dts: renesas: rzg3e-smarc-som: Add Versa3 clock generator
-14d21efe16dc5b92774a987ada0868e0bcf3dd91 arm64: dts: renesas: rzg3e-smarc-som: Add audio pinmux definitions
-3e23d2548ddb2d73b26b85c990a77925a9cf7f86 arm64: dts: renesas: r9a09g047e57-smarc: Add DA7212 audio codec support
-92b4465b221e4e1b38d56b6ce8290949555b72bd arm64: dts: renesas: Add soc: labels to soc nodes
-7589467672a86ae29f2f62715166f88a054f4b54 arm64: dts: renesas: rzt2h-n2h-evk-common: Add memory nodes
-a91b23a9d0ea08ed20df34bf2d9e9b10eb8da4c1 ARM: dts: renesas: r9a06g032: Describe SPI controllers
-f4f9b372a8a6aeb9b95e9ca4d9542b384ebb983c ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable SPI-FRAM
-c73b080d1d1bf89775d69f2e249820e3e242814b arm64: dts: renesas: r9a09g057: Add PCIe nodes
-90a9d595f36ba11d95568acfda641a7e371f627d arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Enable PCIe
-3e7259fb8a31c8b784628cfc417998447b0e5629 arm64: dts: renesas: r9a09g056: Fix PCIe dma-ranges memory space code
-24afcb87e6aca1ff3face276223eeea0012f8e2b arm64: dts: renesas: r9a09g047: Fix PCIe dma-ranges memory space code
-a4bc8e323ddc6abe5b1e08a68a19ec0c93838959 Merge tag 'renesas-dts-for-v7.3-tag1' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/dt
+5740376988d5625e271f4b0400c55537bc82f0bc libvduse: validate vq size
+74d974762355dcc3a67c5522a3f7610c91424ba1 virtio-iommu: fix OOM due to unbounded call_rcu
+a949377da553ad8d373ec9bbba8b62feceeb7a70 virtio-snd: check rx buffer descriptor size
+9d3eca8018c3c0898035d4b13616bc71baf534ad virtio-snd: check for overflow before g_malloc0
+d7a57cdecc23d4c51d1fc89a72defd9a062ba008 hw/pci-host/q35.c: Always initialize smram-region even if SMM disabled
+aee2e9d1119ea0e697a0d4c03016e35c82ee62e1 hw/pci-host/q35.c: Factor out creation of SMRAM MRs
+b13078849f3254a2716db03fcaf95ba1a15df69c hw/pci-host/q35.c: Avoid early return in mch_write_config()
+eb0d67971bdd4810aac3b3f1ca8f5e972cb4c23f hw/virtio/vdpa-dev: pass set_config buffer to vhost backend
+6062645e7efee7130d93ac1670ed42d591dcd349 hw/cxl: fix OOB access in cxl_doe_cdat_rsp via entry_handle
+4bb19dfedf6cc824c5d95a22028f8adcb255421d intel_iommu: Check address mask before using it in pasid-based iotlb invalidation
+d125ecbc8c3af8bbe593175211abc32f7e9e12ed hw/net/virtio-net: Protect from DMA re-entrancy bugs
+d0c09bc68dd1980199e9094b696c7093e6f1b513 hw/virtio-rng: Fix host use-after-free (CVE-2026-50624)
+f2fe2afd27ddf93b49a16a29e8224d16b9888953 backends/rng: cap request size to avoid oversized allocation
+166608bb065dc0f22ca97c73bfdfce12e03f0619 scsi: use scsi_req_unref_detach_hba() in HBA drivers
+0e0e4367a566388256db3ab3c25fd22677fe1d66 virtio-snd: bound PCM I/O staging buffers
+05585937f591a0e3c12319df6f4102504d062f28 audio: flush pending output tail before disable
 
---===============1946804407259562263==--
+--===============7564522253959538341==--
