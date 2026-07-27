@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 27 Jul 2026 09:48:54 -0000
-Message-Id: <178514573493.2390851.4331508369841560109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 27 Jul 2026 09:50:41 -0000
+Message-Id: <178514584188.2393879.17713884560654225881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/fixes
-    old: cbb0140379de69fa46526672f3003f128f0b4e2e
-    new: 3e013bc8b941bd52c8e3a99798d0ae8792cb71ca
+  - ref: refs/heads/master
+    old: daa3fe371481e00cae0e2f08d9efd08ed1303ae2
+    new: 939865353a627961a07639003499aedf73d350cc
     log: |
-         3e013bc8b941bd52c8e3a99798d0ae8792cb71ca pmdomain: mediatek: fix remaining %pOF after of_node_put()
+         34cd44e8e3eac2b4a373b843902d46d3499525a9 spi: dt-bindings: spacemit: add K3 SPI compatible
+         939865353a627961a07639003499aedf73d350cc Merge tag 'v7.2-rc5-dts-raw'
          
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
