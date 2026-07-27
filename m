@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5038864431321956007=="
+Content-Type: multipart/mixed; boundary="===============4861305631091055533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 27 Jul 2026 20:55:29 -0000
-Message-Id: <178518572969.2939691.721487488326681475@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 20:55:32 -0000
+Message-Id: <178518573222.2939902.13567004492886247207@gitolite.kernel.org>
 
---===============5038864431321956007==
+--===============4861305631091055533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: 877ed2eb9c14e07e19041e88470f98df684537ea
-    new: 82048795242f04275a3f49ffc66ad851b6120954
-    log: revlist-877ed2eb9c14-82048795242f.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: ff6aa34f0c7b597384fa211ba75e68600901037e
+    new: fd4495dd2d0d4b2dab7d821e77fa1282a026894d
+    log: revlist-ff6aa34f0c7b-fd4495dd2d0d.txt
 
---===============5038864431321956007==
+--===============4861305631091055533==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-877ed2eb9c14-82048795242f.txt
+Content-Disposition: attachment; filename=revlist-ff6aa34f0c7b-fd4495dd2d0d.txt
 
-172f06023669f0a96d32511669ff45c600731380 wifi: nl80211: constrain MBSSID TX link ID range
 41aa973eb05922848dded26875c55ef982ac1c49 wifi: cfg80211: validate PMSR measurement type data
 36230936468f0ba4930e94aef496fc229d4bb951 wifi: cfg80211: validate PMSR FTM preamble range
 69ef6a7ec277f16d216be8da2b3cbe872786c999 wifi: cfg80211: reject unsupported PMSR FTM location requests
@@ -1050,5 +1049,6 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
 cdac670237258c8ca063aa8a16998f680d81b80d i2c: spacemit: request IRQ after controller initialization
 82048795242f04275a3f49ffc66ad851b6120954 i2c: amd-mp2: Unregister callback on adapter add failure
+fd4495dd2d0d4b2dab7d821e77fa1282a026894d Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============5038864431321956007==--
+--===============4861305631091055533==--
