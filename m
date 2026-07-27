@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Mon, 27 Jul 2026 06:16:21 -0000
-Message-Id: <178513298130.2227351.9489129757246197598@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 06:20:05 -0000
+Message-Id: <178513320580.2230494.12849736414991903753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,48 +11,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
 user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/renesas-lts/v6.12.81-2026-04-13-sparrow-hawk
-    old: 3017e67db827ff894697a0468a62c223f0afd22c
+  - ref: refs/heads/renesas-lts/v6.18.21-2026-04-03-x5h-ironhide
+    old: 6fc5407c4ebb61a2f317008310a74a0bc9267d34
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.82-2026-04-20
-    old: 0de5499cb05758a3f2d5e788dcea7c5e69972dbb
+  - ref: refs/heads/renesas-lts/v6.18.21-2026-04-06-x5h-ironhide
+    old: 662713e84a58b670d8d2fcb2a967ff665af277f9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.82-2026-04-20-sparrow-hawk
-    old: 84c491f2d3544e9da81587603ae717cd05827229
+  - ref: refs/heads/renesas-lts/v6.18.21-2026-04-07-sparrow-hawk
+    old: b37d85ece7a3c0b10b475ed9a239201e70e00377
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.83-2026-04-24
-    old: 530fc519dc2381b96aa11cc2db25856b9c4f0994
+  - ref: refs/heads/renesas-lts/v6.18.22-2026-04-13-sparrow-hawk
+    old: 8851618b148b5dbe6224ef94bf8e5369660871b6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.83-2026-04-24-sparrow-hawk
-    old: 2e908ddd189ba8ea1640472b8f9b60f57ffb40ff
+  - ref: refs/heads/renesas-lts/v6.18.23-2026-04-20-sparrow-hawk
+    old: 3f849c069b757c0ae3e37dd4c48bfeab263d35fa
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.84-2026-04-28
-    old: be9ef6016fa8bbc01b94d7894141b5b20923e356
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.84-2026-04-28-sparrow-hawk
-    old: 646b286483b0e83f0d1b33912b0289a58f34ce51
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.85-2026-05-11
-    old: c174ce146b18779cb151fa54a167f9dc4f9a6e14
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.85-2026-05-11-sparrow-hawk
-    old: 107e3ce3a8f21806af86d55612bf417bdd5572e3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.86-2026-05-11
-    old: 9ae4cc1dce921bc689074329141a07ffe55dec28
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.86-2026-05-11-sparrow-hawk
-    old: 46b3143a5c06318c6cc05141c6d8d6e156981533
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.87-2026-05-11
-    old: 155851b0a2122e6d7875765b3e2766e851be7012
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.87-2026-05-11-sparrow-hawk
-    old: db7d024bc8c465f2fe2a182a7007f204a68c4554
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.88-2026-05-15
-    old: e91a537403c111b446b19dc9a477542fdf40c762
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-lts/v6.12.88-2026-05-15-sparrow-hawk
-    old: d4d1cdf6143140e4188397d483252f82861e2e11
+  - ref: refs/heads/renesas-lts/v6.18.23-2026-04-20-x5h-ironhide
+    old: d8eee519970e9d8ef3180416876edb8c6656d00f
     new: 0000000000000000000000000000000000000000
