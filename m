@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9024624692424201409=="
+Content-Type: multipart/mixed; boundary="===============2540689389286856876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 27 Jul 2026 09:59:25 -0000
-Message-Id: <178514636553.2400646.1493760967272413104@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 10:00:20 -0000
+Message-Id: <178514642062.2402974.4307157701499287897@gitolite.kernel.org>
 
---===============9024624692424201409==
+--===============2540689389286856876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: db79679595326fd3f6bd1e6fd0cefc3ba016039a
-    new: d6764992f17b23d91ff93ce905ab53c2aa7191f0
-    log: revlist-db7967959532-d6764992f17b.txt
+  - ref: refs/heads/next
+    old: d49d71ebec8f03eee2514304279a05a4952fadf7
+    new: e027dba038f0008df9bc9575f5c3e803e90636c6
+    log: revlist-d49d71ebec8f-e027dba038f0.txt
 
---===============9024624692424201409==
+--===============2540689389286856876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db7967959532-d6764992f17b.txt
+Content-Disposition: attachment; filename=revlist-d49d71ebec8f-e027dba038f0.txt
 
-542e88a4c6f7b6edd1326ce767d4cb3c2ea9d61d perf cs-etm: Reject CPU IDs that would overflow signed comparison
-e22a4228546f7220d0425630abf703fd2ef7c600 perf evsel: Add no-libtraceevent stubs for evsel__field() and evsel__common_field()
 9212e395c64d80f7b6af314ff6dfc4b526571493 perf evsel: Add lazy-initialized probe type detection helpers
 d669529868b355e1f10ff869539dc995cd25db3f perf trace: Guard __probe_ip suppression with evsel__is_probe()
 66725039f7090afe14c31bd259e2059a68f04023 Input: mms114 - reject an oversized device packet size
@@ -1047,8 +1045,10 @@ f21df873208d41ef816b15024d6447813b97ab5e Merge tag 'fbdev-for-7.2-rc1-2' of git:
 8b69c047587112f7bcb4b0d83f2729d8dd29ebe2 Merge tag 'input-for-v7.2-rc0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 0716f9b9338a86dd27796e00ed0fd560c653323a Merge tag 'ntb-7.2' of https://github.com/jonmason/ntb
 dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
-97b228e596740fca5eeeb1d8e619c1f457d7e2f0 thunderbolt: stream: Unmap buffers with mapped size
-d2ee4d47aacbd2ba456092eeec670dba35fde291 thunderbolt: Fix bandwidth group reservation indexing
-d6764992f17b23d91ff93ce905ab53c2aa7191f0 thunderbolt: Bound the DROM dual link port number before indexing sw->ports
+5f40cba7d4fa343cf074d1a764683c1392f3134e thunderbolt: Assert downstream port reset on shutdown
+45f104755af82afe24e104adeab69fe390fbeeca thunderbolt: Stop passing matched device ID to .probe()
+36eea3468c2c87bba132def3bf6ebf05c3c4b9c5 thunderbolt: Assert that a service driver has a probe callback
+9990c493ef109377eabe3cc1d337861b7bd1fd9d thunderbolt: Drop comma after device id array terminator
+e027dba038f0008df9bc9575f5c3e803e90636c6 thunderbolt: xdomain: Notify peers after enumeration
 
---===============9024624692424201409==--
+--===============2540689389286856876==--
