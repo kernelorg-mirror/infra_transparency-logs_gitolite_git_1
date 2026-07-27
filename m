@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4860677103083523956=="
+Content-Type: multipart/mixed; boundary="===============5673017294211632090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 27 Jul 2026 21:39:49 -0000
-Message-Id: <178518838930.2973761.5902905598911671610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Jul 2026 21:39:52 -0000
+Message-Id: <178518839248.2973923.12541348131657200320@gitolite.kernel.org>
 
---===============4860677103083523956==
+--===============5673017294211632090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.3
+  - ref: refs/heads/spi-7.3
     old: 38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720
     new: fd741c46ae0365d4bfd3c14d3a049b0515b9db23
     log: |
@@ -26,28 +26,28 @@ changes:
          fd741c46ae0365d4bfd3c14d3a049b0515b9db23 spi: ppc4xx: devm-ify probe and drop manual resource management
          
 
---===============4860677103083523956==
+--===============5673017294211632090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1785188387 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1785188387-407804e288ec599b23bd9a94dd0882648da10c48
+pusher C3F436CA30F5D8EB 1785188390 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1785188390-a2f6909293de6bddaacc341bd50d9e66944008a4
 
-38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720 fd741c46ae0365d4bfd3c14d3a049b0515b9db23 refs/heads/for-7.3
+38d11bb2cd1d902d7ab178f0a6d78d2bafd2d720 fd741c46ae0365d4bfd3c14d3a049b0515b9db23 refs/heads/spi-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpn0CMACgkQJNaLcl1U
-h9BjIAf+Mjh26Zfq7oi9m4MwiPEpoUoSuTvvz5udIW5ntZaxagM6OyPZQYHgTPem
-OavIjbssUyin0I3lr5PmLdm4gd5gn3aP6aREs+ZxnCsGjxGZeHCvpoQcd/U4WQf+
-o+iEI458a+L8kNOWwCUw1LAhHyIOnDu2U2VQywLPXm7coofSLqS4lEGiew16JBDT
-PtYbhMUSB15gJ4j/vN/NeOFtBeH5nbWcYLVaobQUtaFgMxY+XsYze6FPSQ6QDolB
-gvW8Khqun8JVUSz88DddnGFkOmr5gFQDgxEZbHAbvxn0VbxxPnp8bx/CDscGtVgw
-x2mnDrSJ5EM/rURv4bnvb8h8aFqmGg==
-=34zA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpn0CYACgkQJNaLcl1U
+h9AV9Af9FuYjrktCfssZfJ6GIGY/MpXNSLOinj+IN0gRMONQVRFgGmqfM8LieeEv
+lN1w81xcJbFKetseljHN3UZ4bve05EP4MNNd+VlOgjaNg0E0WSxX62sjVualaIUa
+vxF4h45ooHbmcCdOA6cTA1lP1S4ct1pF6p0Zs0f16sC+9CCP7QV+NfVLNG+dbtsY
+2eZwjI53d4HRtNS6sCHzYtcFkFJJjYF3VQGaa2kJZZbx7X3Y69PLljnX9M0gDfIC
+A9mGJgqKQlIWo+aMoMOVHsmSAXwjEQFkFCJKR2fRbEg4aXjDT+g8EgGLzYJk4YI3
+sSTgGEPylmUMr7PTlkxTm2/YQq/cXg==
+=KGyZ
 -----END PGP SIGNATURE-----
 
---===============4860677103083523956==--
+--===============5673017294211632090==--
