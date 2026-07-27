@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1811194204524173990=="
+Content-Type: multipart/mixed; boundary="===============6022485317855684238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 27 Jul 2026 08:47:13 -0000
-Message-Id: <178514203383.2342957.7662277553176655714@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 08:47:24 -0000
+Message-Id: <178514204417.2343254.12599207124505184365@gitolite.kernel.org>
 
---===============1811194204524173990==
+--===============6022485317855684238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 91a70492c03040d51b36f595530d6491d5d6c541
     new: a50e06f0d60579afe96d8a76650a07761e04cd60
     log: revlist-91a70492c030-a50e06f0d605.txt
 
---===============1811194204524173990==
+--===============6022485317855684238==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -635,4 +635,4 @@ f719232cdf686b397f66a5de52ca41d7bda87163 LoongArch: BPF: Implement branchless co
 e51bebe0bd9f7c96344e874b589bdc21a8064c38 LoongArch: BPF: Remove dead move_imm() call in BPF_NEG path
 a50e06f0d60579afe96d8a76650a07761e04cd60 LoongArch: BPF: Split unconditional branch JA paths statically
 
---===============1811194204524173990==--
+--===============6022485317855684238==--
