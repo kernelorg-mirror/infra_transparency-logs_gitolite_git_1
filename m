@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 27 Jul 2026 22:37:35 -0000
-Message-Id: <178519185511.3018498.7667580750760095614@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 22:41:27 -0000
+Message-Id: <178519208756.3022050.7279783507406036304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 4748a67f711188cbd64bc72c3df636f627858ed0
-    new: fcf741584a562aaa89b0ace71f410b1c1a3e5193
+    old: fcf741584a562aaa89b0ace71f410b1c1a3e5193
+    new: 59b9731addc7633a39d3a042ed968864f7b3aaf5
     log: |
-         3c6e8a37eff15c3f834ba80c201932712e4b71d4 unix: Use kvmalloc_array() for BPF iterator batches
-         fcf741584a562aaa89b0ace71f410b1c1a3e5193 tcp: Use kvmalloc_array() for BPF iterator batches
+         59b9731addc7633a39d3a042ed968864f7b3aaf5 bpf: Allow bpf_res_spin_lock() in all contexts
          
