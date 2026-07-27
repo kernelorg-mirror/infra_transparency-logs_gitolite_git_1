@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6140682216228117885=="
+Content-Type: multipart/mixed; boundary="===============0511687507311964125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 27 Jul 2026 07:06:23 -0000
-Message-Id: <178513598369.2269592.3377438234715957315@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 07:10:08 -0000
+Message-Id: <178513620835.2272765.14139091956059069614@gitolite.kernel.org>
 
---===============6140682216228117885==
+--===============0511687507311964125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 2577cf11e1be3d1addc741c99156c44e26fa07c2
-    new: 3cc0795c2f710a52178b348d6c17a2540092e6a8
-    log: revlist-2577cf11e1be-3cc0795c2f71.txt
+  - ref: refs/heads/readfile
+    old: 870dace194fe1d8186240dfd1018751e3dec3db4
+    new: e40836ee62c9f2c94f925c63283b1cf9b3b9e5d9
+    log: revlist-870dace194fe-e40836ee62c9.txt
 
---===============6140682216228117885==
+--===============0511687507311964125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135797 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785135975 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785135805-9d8e549d5bfe8a883765563006748d72b2ed72b2
+nonce 1785135984-40b6a682ef569ea50c22a47606a50b33eb71c431
 
-2577cf11e1be3d1addc741c99156c44e26fa07c2 3cc0795c2f710a52178b348d6c17a2540092e6a8 refs/heads/module_version_removal
+870dace194fe1d8186240dfd1018751e3dec3db4 e40836ee62c9f2c94f925c63283b1cf9b3b9e5d9 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnArUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N90P8wavByRJc9BM8p1mfWuM
-eqVLCkJH5lD6Ztdl5GYVcVyY46S7HAkk4cGrsuyJpVpgi/JQAVUjb+fkBGNIjK3i
-vxEtk3qlFOZ5T2MgwCDxoBzSkD1WZgkSstlWxrs+AW16b9Zl6LjRKqlua8onZok4
-/3gXrzRiAaittm3yYfsfdJ8uj0Lb4OYJL06QTlET133uLkKFBGFr5ijwCmgzL95C
-nIPF0J9VicGAzsmWZOS93Cvht4ZeqP0fQs+tmFeq9t5JJesD5RaWZ4+/kDUqu6eO
-1JdwevTzKV11NT+U9uFqfD1Vgtlzm2r9JcOotQkF4XVuV07eZigszYZZkA8LqxXS
-tBnVw5EqK634sikd0WnPk8FWiMJ/JsXWrZ+smqe2oV2I/0QGWmJ4U8bVc/5oU7Ga
-CO/NukuRo9jLf6c7tHI5qL4PuI5GOETQG5+a0m+cx7OAaMaO3fgClMiW7h5SWXfz
-/02BeEL5DZ8Fp5bLTajh7jeS39VsA+7JQI7G12sCgkP7uU/GPwgp+xvBPANlHuE4
-0ofxY8ed/9+4B+ZMYSZ/sjfkpsyOR6Jbk+Z2xLm1k3GNTmAuWZo7/vYD+T2WhvQK
-qp+AAKsqn1+dAohgSYnC7h/oRmmPvGN4/TBsua5yUC6hlESOhAUE29jOnO36FV1d
-EnPXgKMLPg+1AaRHRpnPb1I=
-=CgUV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpnA2gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qa8P/jrzy4vzye2MEN1tx4F1
+pck27vuSSaYSICQlqC3Eu8Tl2xJ8sIDaZLtGROpAFDiPhuzIMZckbl3RI9mQNTMp
+Nivt/b/uuiUmRlikljbRSM0UjeM8ExK43cBif+qTxf0od3/7SVeFhtmLIYmk1AFp
+1JkMwHxM4n8LQvNgxxUcv82VsHzD1NIasGkqA7bORD8Jy1aaLeeNffTzmlH6PQvk
+4QYUcl2tXEF7yprI2uA/2NpN9pIgrZbIbhYJWRNn+EGXYfg7a0PCFBbuoahgO9u/
+W0OeAsibl1MxH6Cr7YaBtisW5PXdPxWDSaSUQ88tqFBMp4MvORyZaWcY8jyJ2iLJ
+XE2Z1g7lHXtIfDxkoSyZ9h97iTMwzsHYjdmbDwERLfgQWhqyzCTlwMd6reOkBMLt
+DD99IprfnE9bOH/zB7W3UyDgnqMyidDB4iUQ0Fr7gI0AccAfDEjgvJHkR1xL5fWS
+Qi2JkwOjt2QknEec3NbhP1SYJQ0L6hzv+jOkURg1XL8YzOY7giZDDpEz9mtshrPX
++zg5Ce08GaKOB9RXzFz61vYC9iz8q1B2kXzUDc2KPvq80mQVAxMLwJNRgAkaAYAx
+f1nIU5hjv+TrHj4tlmUkD9DFLP4q7v8N2JnKMfjdC60Pr5R+sn5vkpU3Cr7WVHGF
+huiNzpwc+kAzXY6l/Ha0HxPG
+=mJda
 -----END PGP SIGNATURE-----
 
---===============6140682216228117885==
+--===============0511687507311964125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2577cf11e1be-3cc0795c2f71.txt
+Content-Disposition: attachment; filename=revlist-870dace194fe-e40836ee62c9.txt
 
 9119ceb76e987c2ec2b549ea100e3268ce3a1c7c firmware: stratix10-svc: fix memory leaks and list corruption bugs
 9b9a6e31bdd1ff20c3ffdab87431672d8bfc2a07 firmware: stratix10-svc: fix FCS SMC call kernel-doc
@@ -165,6 +165,9 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-3cc0795c2f710a52178b348d6c17a2540092e6a8 module: remove MODULE_VERSION()
+d8b5f0378ad4bdd6131a03a6ad5f2d9e4d07aac6 readfile: implement readfile syscall
+056113632d43cde03b578bcb9b13e9c0cd8583c3 arch: wire up the readfile syscall
+48b9a7fdeef420880f1f0a0f9e500f3bc4fa28dc readfile.2: new page describing readfile(2)
+e40836ee62c9f2c94f925c63283b1cf9b3b9e5d9 selftests: add readfile(2) selftests
 
---===============6140682216228117885==--
+--===============0511687507311964125==--
