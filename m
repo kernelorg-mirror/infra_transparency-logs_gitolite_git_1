@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0148418489053262119=="
+Content-Type: multipart/mixed; boundary="===============3822534886035399665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Jul 2026 09:27:49 -0000
-Message-Id: <178514446993.2375067.10719250927341141405@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 09:28:23 -0000
+Message-Id: <178514450315.2375498.10966572425308165585@gitolite.kernel.org>
 
---===============0148418489053262119==
+--===============3822534886035399665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8d0b0ef045143e7ebf2b4c3ad5347bc1e0e45a80
-    new: 398c761f749cb5ae63e05010a270836bbc346a36
-    log: revlist-8d0b0ef04514-398c761f749c.txt
+    old: 398c761f749cb5ae63e05010a270836bbc346a36
+    new: 57bfdbd9b8ed023aa0c992339158bbc8b1f6ceb2
+    log: revlist-398c761f749c-57bfdbd9b8ed.txt
+  - ref: refs/heads/tip/urgent
+    old: d4c71071b6ab322ac03c53991f30fa50e7cbc0d6
+    new: f5098b6bae761e346ebcd9da7f95622c04733cff
+    log: revlist-d4c71071b6ab-f5098b6bae76.txt
+  - ref: refs/tags/v7.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a8e429896436e8c2d288181f875f92af8204bc58
 
---===============0148418489053262119==
+--===============3822534886035399665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d0b0ef04514-398c761f749c.txt
+Content-Disposition: attachment; filename=revlist-398c761f749c-57bfdbd9b8ed.txt
+
+8757374fd8292424c10199a4a36467338a54bb16 Merge branch into tip/master: 'perf/merge'
+457678c3181473b20807ea3fd6741640bfa924fa Merge branch into tip/master: 'core/entry'
+cdff47b5a6251d2675c1c0da4d29584cc5275e1f Merge branch into tip/master: 'core/rseq'
+9b0555154a2d6087f048931cd16ebffb8c8f2fc6 Merge branch into tip/master: 'irq/core'
+c8f1209c5d783c3565c8ebc0c59c98a1cf869e56 Merge branch into tip/master: 'irq/drivers'
+95aabfca61106cbe6451ebc87bf4873c57e30d02 Merge branch into tip/master: 'locking/core'
+7ecd903da843318ccab8971fe8fad9659dbe5a1c Merge branch into tip/master: 'locking/futex'
+65c76bfe8ab6d3caa7906235ac7b60fe83eb7e51 Merge branch into tip/master: 'ras/core'
+4518ac8766d89b38e42f6cb70861870988a28af5 Merge branch into tip/master: 'sched/core'
+b5567c7df50ae123d57486366fb9799b8082bbc4 Merge branch into tip/master: 'smp/core'
+e324db7605dfbafa20b1537a60de248efdee0547 Merge branch into tip/master: 'timers/core'
+510801351d2c041e4bf48de2c321645923101d1b Merge branch into tip/master: 'timers/vdso'
+a0a6f220cb3ce6205ed6eb7d09d3f7c473364288 Merge branch into tip/master: 'x86/alternatives'
+46f780091ed157a19b1b66021dffe6217f77673a Merge branch into tip/master: 'x86/boot'
+9db12ac9067527aad24b1b784dd6ea51d8747871 Merge branch into tip/master: 'x86/build'
+177100ac5c26fe1ad9fd2df903d37c07c617cfd3 Merge branch into tip/master: 'x86/cache'
+5dd9b1bef075eacc92f8b77def59474fadca3fbe Merge branch into tip/master: 'x86/cleanups'
+7613a2acc9772c3045ffaa029fc1f2ec85df3421 Merge branch into tip/master: 'x86/cpu'
+2263258654fab30cd6b76a37068130e1004f0859 Merge branch into tip/master: 'x86/entry'
+e199ba30d78738ed51a19fc2129490dbe3428a0a Merge branch into tip/master: 'x86/mm'
+943ecde4b734a326a50d91666a5355dd4f3657f2 Merge branch into tip/master: 'x86/msr'
+57bfdbd9b8ed023aa0c992339158bbc8b1f6ceb2 Merge branch into tip/master: 'x86/tdx'
+
+--===============3822534886035399665==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d4c71071b6ab-f5098b6bae76.txt
 
 9119ceb76e987c2ec2b549ea100e3268ce3a1c7c firmware: stratix10-svc: fix memory leaks and list corruption bugs
 9b9a6e31bdd1ff20c3ffdab87431672d8bfc2a07 firmware: stratix10-svc: fix FCS SMC call kernel-doc
@@ -131,6 +167,5 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-398c761f749cb5ae63e05010a270836bbc346a36 Merge branch 'linus'
 
---===============0148418489053262119==--
+--===============3822534886035399665==--
