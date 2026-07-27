@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6391934982367774570=="
+Content-Type: multipart/mixed; boundary="===============8813830464872326435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 27 Jul 2026 23:54:05 -0000
-Message-Id: <178519644580.3077375.18530059993881944@gitolite.kernel.org>
+Date: Mon, 27 Jul 2026 23:54:08 -0000
+Message-Id: <178519644857.3077514.13518413573856933689@gitolite.kernel.org>
 
---===============6391934982367774570==
+--===============8813830464872326435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: be6f0d0bae229ebd03e9bfe736f78e2d6b35885f
     new: edc84a9396acf1a0e78c46230dd0bcee1b84ac53
     log: revlist-be6f0d0bae22-edc84a9396ac.txt
 
---===============6391934982367774570==
+--===============8813830464872326435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -138,4 +138,4 @@ e2834100751ab80b32a29390fac4c26660b86a9b octeontx2-af: add support for custom L2
 04026c998c24ac47eb76886b9790c5710b603eb4 net/rds: use krealloc_array() for iovector growth
 edc84a9396acf1a0e78c46230dd0bcee1b84ac53 Merge tag 'wireless-2026-07-26' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 
---===============6391934982367774570==--
+--===============8813830464872326435==--
