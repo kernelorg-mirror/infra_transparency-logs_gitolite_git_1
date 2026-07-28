@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8402290776191628920=="
+Content-Type: multipart/mixed; boundary="===============1137225377442568814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 28 Jul 2026 05:25:35 -0000
-Message-Id: <178521633597.3337075.8984058459644922643@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 05:25:53 -0000
+Message-Id: <178521635314.3337646.7060298687425110605@gitolite.kernel.org>
 
---===============8402290776191628920==
+--===============1137225377442568814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.5/configs
-    old: 82525aebee1b4f907e3462a3a9ac50cae85c1ce9
-    new: 554c0bda1e6ed749795a74cb2905400b524e8862
-    log: revlist-82525aebee1b-554c0bda1e6e.txt
+  - ref: refs/heads/kernel-7.1.5/main
+    old: ae6783669fff3445c382e7fc3860f66097395496
+    new: bf23ef044b5aff7276075fb17a03f84eb8d81f4e
+    log: revlist-ae6783669fff-bf23ef044b5a.txt
 
---===============8402290776191628920==
+--===============1137225377442568814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82525aebee1b-554c0bda1e6e.txt
+Content-Disposition: attachment; filename=revlist-ae6783669fff-bf23ef044b5a.txt
 
 50aa29eb7c9635be24346a7a3467c368e942c8dd redhat: various "fixes" to allow building ARK kernel on EL8 buildhost
 67fbb3b4319c80f0b240831ef2f79dcbdf4d2016 redhat: reenable 'with_tools' now that tools compilation is fixed for el8
@@ -48,5 +48,17 @@ a27822c89e425b4d326f7ff7f8804fa76baed497 redhat/configs: disable rxrpc and AFS w
 3f0541d081673cf2b673aa096aa6881b47bbe5ce Revert "[redhat] New configs in certs/Kconfig"
 ebd0bcf958814e8a42329b609e98144e1159c01f redhat/configs: remove all s390 config infra
 554c0bda1e6ed749795a74cb2905400b524e8862 kernel.spec: remove all s390 files and enablement
+2f7715b9d6911608d6528e234aa927de0bdf721e Merge branch 'kernel-7.1.5/block-DIO-alignment-fixes' into kernel-7.1.5/main
+01b018b7e1e88fcd4bbea4587df1cebb04c6f011 Merge branch 'kernel-7.1.5/nfsd-7.2' into kernel-7.1.5/main
+f9964595039031dc8137c9783148ec534a8fcfea Merge branch 'kernel-7.1.5/nfsd-7.2-1' into kernel-7.1.5/main
+3b4886c1c40a47d74ecf303897d7f842122081c1 Merge branch 'kernel-7.1.5/nfsd-7.2-2' into kernel-7.1.5/main
+2308776238d1a0bf1383646b01acd59ca1afe345 Merge branch 'kernel-7.1.5/nfs-for-7.2-1' into kernel-7.1.5/main
+86930fdbdef5e5dc5b34f2c5aeadd33fcc68362d Merge branch 'kernel-7.1.5/nfs-for-7.2-3' into kernel-7.1.5/main
+031c5ac2cab5fc0a9ab81aa5aaa82d8c2c86108e Merge branch 'kernel-7.1.5/nfs-testing-canary' into kernel-7.1.5/main
+179be40cfe1d1804a4d85b529dd81fcea6866a91 Merge branch 'kernel-7.1.5/nfsd-next' into kernel-7.1.5/main
+b5e368f955abf91594a5d3b3e2f050c3d2f6324d Merge branch 'kernel-7.1.5/nfsd-testing-canary' into kernel-7.1.5/main
+702c1b1fcf1390261fd605104ce2f264d6a941c9 Merge branch 'kernel-7.1.5/nfsd-testing-canary-dontcache' into kernel-7.1.5/main
+a018cfc63653ce8d183e3d37582b069ff05148fb Merge branch 'kernel-7.1.5/nfs4_acl-passthru' into kernel-7.1.5/main
+bf23ef044b5aff7276075fb17a03f84eb8d81f4e Merge branch 'kernel-7.1.5/changelog' into kernel-7.1.5/main
 
---===============8402290776191628920==--
+--===============1137225377442568814==--
