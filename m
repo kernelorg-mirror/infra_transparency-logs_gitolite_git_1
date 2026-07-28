@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2268721418030575343=="
+Content-Type: multipart/mixed; boundary="===============3963864083314050023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 28 Jul 2026 18:15:28 -0000
-Message-Id: <178526252896.3982837.17692906935179714538@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 18:15:31 -0000
+Message-Id: <178526253131.3983049.6209577173556668844@gitolite.kernel.org>
 
---===============2268721418030575343==
+--===============3963864083314050023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bd0e9289e2642f6a5c54faad304ce0f41e926d22
     new: e095f249e2209674f6366f6db0383a2b96e19239
     log: revlist-bd0e9289e264-e095f249e220.txt
 
---===============2268721418030575343==
+--===============3963864083314050023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ f621d6ebeebb6374342571e4ddf45fdbc420f6cd net/smc: fix socket use-after-free duri
 080695e6f005e2396f1207fd69d24c442cb230c6 net: udp_tunnel: fix memory leak in udp_tunnel_nic_unregister()
 e095f249e2209674f6366f6db0383a2b96e19239 net: ethernet: mtk_eth_soc: pass eth to mtk_handle_irq_rx in poll_controller
 
---===============2268721418030575343==--
+--===============3963864083314050023==--
