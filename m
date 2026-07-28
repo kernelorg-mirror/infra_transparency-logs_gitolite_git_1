@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 28 Jul 2026 22:01:28 -0000
-Message-Id: <178527608872.4153150.10171152116169522488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 28 Jul 2026 22:04:05 -0000
+Message-Id: <178527624558.4154245.16116715102531483107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: da93929634e0b982dfc41e74a80ea0a82e24f8a3
-    new: e5ffb11c979567adc16235eb493010e2a32e3eca
+  - ref: refs/heads/dev
+    old: 6da70adf93ea5097692efc2ab8095d81414ff6c0
+    new: c1e53064d49c963c75cdbf78a90d9d2145f058b3
     log: |
-         d3de2edd75ee2646bac8b00f6aadc10a3fbe6e80 i2c: qcom-geni: trace: Add trace events for Qualcomm GENI I2C
-         f957616d55a829b4695e56d179569f38971b35de i2c: qcom-geni: Add trace events for Qualcomm GENI I2C driver
-         e5ffb11c979567adc16235eb493010e2a32e3eca Merge branch 'i2c/i2c' into i2c/i2c-next
+         9b215f1c0cb30358fd41bbf551301b70aa0b4039 rcutorture: Announce declining to forward-progress test
+         c1e53064d49c963c75cdbf78a90d9d2145f058b3 rcutorture: Make {,s}rcu_read_delay() better handle forward-progress testing
          
