@@ -1,26 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 28 Jul 2026 07:42:11 -0000
-Message-Id: <178522453190.3479298.17046577533522508733@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3861739079967719234=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 28 Jul 2026 07:44:12 -0000
+Message-Id: <178522465299.3480065.17995504165422714041@gitolite.kernel.org>
+
+--===============3861739079967719234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 76ec98cb38f0a8ca04551274c137fb904e91b430
-    new: 254a41c7d1c001796dc1454a0a0ea48d2e20b989
-    log: |
-         8c81d25db04b7a74be45a281f533b24b052fd2dd mtd: spi-nor: add support for Macronix Octal flash
-         b67782a3ed30f9cf99a4699c779e0a20484ca7df clk: renesas: r9a09g077: Add xSPI core and module clocks
-         ce9c2d044d6c789525b55a5a38317a222bc9c470 dt-bindings: memory: renesas,rzg3e-xspi: Add RZ/T2H and RZ/N2H support
-         7670b303f6afb2b7bcfeb3e06236694dc8aeaecd memory: renesas-rpc-if: Fix duplicate device name on multi-instance platforms
-         6a572482a2699ed7e616cffd5e328ae0dac2e177 memory: renesas-rpc-if: Add suspend/resume support
-         3cd18db0ebeb250fd2d1364a44b924c06bf5ae93 arm64: dts: renesas: r9a09g077: Add xSPI nodes
-         8783e83311da6374f0c411a968c75ee4ed343338 arm64: dts: renesas: r9a09g087: Add xSPI nodes
-         254a41c7d1c001796dc1454a0a0ea48d2e20b989 arm64: dts: renesas: rzt2h-n2h-evk: Enable xSPI nodes
-         
+  - ref: refs/heads/staging-linus
+    old: 31dcdb3d95c809c9c2e2063ccfb99b9f3300a05f
+    new: 2c56ef658ac8c6bca36bc5574715e8f717207c6c
+
+--===============3861739079967719234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785224642 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1785224651-3d332962e75682141f8fef215253108ac38801e1
+
+31dcdb3d95c809c9c2e2063ccfb99b9f3300a05f 2c56ef658ac8c6bca36bc5574715e8f717207c6c refs/heads/staging-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpoXcIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GMsQAJXtbfcSFV4lxpd/oWhz
+cxBBivcVnsS9zQ+2A4z5XR+6v6uYje0k54Tr7NitVJtahyDx1+bo6fGcNhiwxvD2
+AIwLZ7vOdBtnbMY/oakHzfaDItIgL78WAEcoE5JIdMIx1mzLNzNXvFlyCQL7DoWc
+y82EufEnfASNzntJ1yn/iDo9F08VMa0aP/MXCs202hH7WH7c5ajqzL2/uy7NKDGo
+I9hCSf3aL5hhWQICDrNN1LKYE1ewDp10znzt6liUswdZnYAPdUKAQ5DyiAXcVwIt
+Ysgq8QgHIjp7XiAYFau3gYDD944q1cZuW0RvYiwGJ6Nk3+7zM6nzx6sAXaJzCrZX
+GqgRiODaqjE+TYxdfWumS2H2b6UVmbhlc2nvP0SrznDdVIQ/sfQxrr82LKOKSBbk
+cpYSc8rLYlpu6hUZaEsXqoqUraflTjN51PnkiXsBps+QvNA/sMnEvGju8Pi4PZkw
+XYF5acFUBzF6v2BAA+IozvX4dzhIND7eVUVXOKEZOO1vh9cFYiKeYCpBczJYP40N
+c/8mFyocmipqvrOqBiz6vhkD2bWO50eeb/6q1SHBV2Ek95usI+dPITn0218/BBUj
+x9GJ9/LCD5XvnCYsT+yqQVvWB9B5RSp35GTCRz0toyKiVVMZce5PnRUgUkP6/TfU
+D376J0p2QJfX6zKYTE13GzGc
+=7ytW
+-----END PGP SIGNATURE-----
+
+--===============3861739079967719234==--
