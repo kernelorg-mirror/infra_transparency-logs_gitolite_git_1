@@ -1,56 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============2771043250878627217=="
+Content-Type: multipart/mixed; boundary="===============3966690595499255967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 28 Jul 2026 14:17:23 -0000
-Message-Id: <178524824336.3799696.16026152855601416023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 28 Jul 2026 14:17:40 -0000
+Message-Id: <178524826052.3799976.812699129554893921@gitolite.kernel.org>
 
---===============2771043250878627217==
+--===============3966690595499255967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 84fa569b2eb3230284168d59863330bafb07bc52
-    new: 5086df53090b2fe9fa1c31351c05a78a12a4ba71
-    log: revlist-84fa569b2eb3-5086df53090b.txt
+  - ref: refs/heads/main
+    old: d326f83e819c53aa05c40d64f5805d6237b6aa1b
+    new: 57aa1718d5953dd532137d43b696c68545c2e0b3
+    log: revlist-d326f83e819c-57aa1718d595.txt
 
---===============2771043250878627217==
+--===============3966690595499255967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84fa569b2eb3-5086df53090b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-739640fe91c7c06830deffd515522862b328717f testsuite: remove overly verbose logging
-1e24317c565c64b372c0571bee8a0e2ff24c251b testsuite: convert a should-be-unreachable LOG to an ERR
-409f74c4bc69a2daeeca2281e41a3d8ca0ffcb70 testsuite: add TS_ prefix to logging macros
-3f85363bb99131bcc91ab6811ed27e881bbfcf4f testsuite: remove no longer needed undef hacks
-773f98cae675b7125a09421acfa82a2fc498ef6b testsuite: add FIXME note about libkmod-internal.h include
-1aca1d8d32032e33b187fa529a7dbe6dcbb4042b testsuite: tweak __{start,stop}_kmod_tests declaration
-80b3e249626f5341f109b182eadd9a7c174e26ed testsuite: flip testsuite iteration order
-ddd3de4442d7312ffbcc2ece99447a35b97fe84f testsuite: remove UNIQ(testname)
-6b44f3c1b14577ff4b7a7e0c9a5853be8ee46db1 shared: rename tmpfile-util -> tmpfile
-89dfa1eb958f1f8cce2b4a07a384b2027c693cd7 testsuite: rename test-array -> test-shared
-c8e6f238bc0594e04b181f9fffcfbe81ac7ab165 testsuite: fold test-hash into test-shared
-8ede1d246bd40d7d8e05ef69ea73258b2d547e71 testsuite: fold test-strbuf into test-shared
-116e16f5fe6ab40ee70116fe5f992a8e9ed35122 testsuite: fold test-util into test-shared
-723ad962b4faa41e9d82e17e47b056361b99bd60 testsuite: move modprobe test into test-modprobe.c
-a088b3da86312b844efb087d62ba1a350ddf4f39 testsuite: rename test-{init,remove} -> test-libkmod
-3590610d3bdbda8f8521549a65f9921d2815f557 testsuite: fold test-new-module into test-libkmod
-376860ef86e4aab899af94eaf880e500846901d4 testsuite: fold test-initstate into test-libkmod
-534f832087f35b21014964d743ac49b53f467f18 testsuite: fold test-blacklist into test-libkmod
-ba1cb5974fe9896585e671898e44672ce6cf0f12 testsuite: fold test-loaded into test-libkmod
-c1e5ea4286a82085641e9638418371d04852fb99 testsuite: fold test-dependencies into test-libkmod
-ddd3d5753581e194e92607f6f3f93a5ebc0d1937 testsuite: fold test-multi-softdep into test-libkmod
-82204dbb52a07eaaeee302abec36941121851d64 testsuite: fold test-weakdep into test-libkmod
-31c54ec8d5fce0995e08d16dcc86fa2751becba3 testsuite: rename test-list -> test-libkmod-list
-ae5763d4341c5be14537528e96989ac0194fa7e8 testsuite: add respective Copyright year
-30d2108f9457cf6e0c72114313ffd0d5e9b62ee3 Remove double-space in Copyright boilerplate
-5086df53090b2fe9fa1c31351c05a78a12a4ba71 COPYING: drop double-space the Copyright example
+certificate version 0.1
+pusher 7BF9099A 1785248225 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1785248225-e17e99a49e2fee2566510418dfdca35c328929ff
 
---===============2771043250878627217==--
+d326f83e819c53aa05c40d64f5805d6237b6aa1b 57aa1718d5953dd532137d43b696c68545c2e0b3 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmpoueEACgkQ10qiO8sP
+aAAUPw/+Kmp6KgUVszIhA9OJVwvkZitdlNSXBePIHMNLb+WnkkpOnlVwlHebr1Jk
+DIDmrGKQGRHAa0Pw74pTvjA7i8Zy5HEvxFuYam1hNZAhP711Bl66CZV03xPcwycQ
+P7Vh1WaK7AObzf3Zs5tVHRAJSNLUpX6dFaxsN8/KxF0MSq1xLBdWt7V43oEMZyKM
+B1VKb7fq0rmvbUQ7E8hZvLAVDc9QfZdFMBCXe6wDYYcxlr8Sjb3cEZdbfhcjYOnm
+Kx3wNqNnBdG1hiZzybu7YTlHq36Yg7Jx9Jb3/UryBzGUd3gRyTjgScDAyaSyRnoy
+B9ClgkCg1Mu9kzaRlgyJMn10Cws+tGhVuhChtA+iQtJjavEMPISlg1Qczd4EnW9L
+PO06rfYAjFrM6M9HMLRvWqCFuAQimEZAdKzZwyhQgX6HhTu1F21FKNYIhK69bqY4
+xFwaenULL1vmA5hc+mBUjJPp9HGX+fC7ZyjCjm64/hafWDILPNvjr8PdftZri5g+
+jZFIvKInx8K+Tef1BHuZshewWb4Xq8dHc6zn4iM2zhzrAotY6ICZWcHZLlCOJPjn
+n4OSlpZHcop/mEv0E3zkyalPR8oxYifPOw6nw8PSIAb+1qChwGHi6YkmeNBUbGZL
+p2Vbpj0XwswamTUx2/TgxBUaleEj9GZHeoc8Eq92TcS62A6DTls=
+=sQcH
+-----END PGP SIGNATURE-----
+
+--===============3966690595499255967==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d326f83e819c-57aa1718d595.txt
+
+47abd2ca281531deee38a3b3770d885e270e9fc9 wifi: ath12k: fix out-of-bounds clear_bit in ath12k_mac_dp_peer_cleanup()
+21ca38bb6b53a0b610998f370a91e656dc9e0542 wifi: ath12k: factor out peer assoc send-and-wait into a helper
+dd121ed779dd62c7679815f7c5a0b07da60a39bf wifi: ath12k: keep ATH12K_PEER_ML_ID_VALID set in ath12k_sta::ml_peer_id
+a08455ee85a2b32a5503b84fdc6b88a144cb2388 wifi: ath12k: add support for HTT_T2H_MSG_TYPE_MLO_RX_PEER_MAP
+378e659029d55cf57ee2eddf1d67672ed53c3bb4 wifi: ath12k: introduce host_alloc_ml_id hardware parameter
+1726a7a10c4fee262549bc6fa142e1051192be0c wifi: ath12k: do not advertise MLD peer ID for firmware-allocate devices
+a7619b3bcba42be62b3b4b941d4175234dce34f0 wifi: ath12k: defer dp_peer registration when firmware allocates MLD peer ID
+469d7e6077c1665754eaf330e1feabdca7b060ae wifi: ath12k: resolve PENDING ML peer ID from MLO_PEER_MAP HTT event
+2f067f5a450ea07efd249142a11d940a068fe29c wifi: mac80211: fix tid_tx use-after-free on BA session stop
+650a21e0bfe42b15c9b40f561baa41224e48338f Merge tag 'ath-current-20260727' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+a2f5286ca4f304d3fd469f01b96b518608912a5c wifi: cfg80211: validate IEs in cfg80211_wext_siwgenie()
+99a948382af8a225e2d5e54a7052158cd6281cc6 wifi: mwifiex: use the subframe length when parsing A-MSDU TDLS frames
+04513922958005046f8b481c0f77212c556a9c38 wifi: cfg80211: publish PMSR request before starting the driver
+0502d5077e419427d80f4d46ba95d0067f5fb916 wifi: mac80211: validate individual TWT params before driver setup
+57aa1718d5953dd532137d43b696c68545c2e0b3 wifi: iwlegacy: replace BUG_ON() with WARN_ON() on num_stations check
+
+--===============3966690595499255967==--
