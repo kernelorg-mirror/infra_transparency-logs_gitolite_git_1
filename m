@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 28 Jul 2026 04:33:48 -0000
-Message-Id: <178521322815.3297379.3576048212751303643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 28 Jul 2026 04:46:08 -0000
+Message-Id: <178521396803.3307726.7251835729256798730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/next
-    old: eef9f6d8c36f7610b5f837e196692ec34842a400
-    new: 21ed236e70bf3d48611c2ce1a438699234780cc7
+  - ref: refs/heads/kernel-7.1.5/changelog
+    old: 2426344d5c9558c9c531cbf3a428752925c95026
+    new: 4915d88d6d75317a74f95446a1b34660bbbc7665
+    log: |
+         4915d88d6d75317a74f95446a1b34660bbbc7665 kernel-7.1.5-1
+         
