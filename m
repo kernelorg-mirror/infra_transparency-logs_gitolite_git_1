@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 28 Jul 2026 08:49:47 -0000
-Message-Id: <178522858727.3551400.6056124686970845499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Tue, 28 Jul 2026 08:50:46 -0000
+Message-Id: <178522864648.3554098.12195014796089253669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: 97ac08560d236ca17f6606d9e671118e5eae5721
-    new: b14361aca6350ff7907b0e9903c7b94dc7d5d4a0
+  - ref: refs/heads/dev
+    old: 896fcc93574fd511ee04a4110e8ea59d6d8d43d7
+    new: ce12a39bed483008683438962b3a605374e6f803
     log: |
-         b14361aca6350ff7907b0e9903c7b94dc7d5d4a0 fou: Fix use-after-free in fou_create()
+         ce12a39bed483008683438962b3a605374e6f803 exfat: free new directory cluster if zeroing fails
          
