@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 28 Jul 2026 19:14:40 -0000
-Message-Id: <178526608039.4026408.16950403290679407038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 28 Jul 2026 19:45:29 -0000
+Message-Id: <178526792935.4049207.3143928033194657176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-next
-    old: 2510f6884231e3d84088aead1489c66e974cc90d
-    new: ca921732c63a45b33fa6c4110fe14cd2f9bf02b9
+  - ref: refs/heads/master
+    old: cca4b89f92e5381e7a1215bb227086fac023bb3f
+    new: 422b340501506e69074cf7292d8fde1aa2acadb6
     log: |
-         f60f44c24b10fe7fd1fa76b360646def1bea193a dt-bindings: arm: rockchip: Add ArmSoM CM5 and CM5-IO
-         44a48a23974b86d2c551afbabee15ad70b249df5 arm64: dts: rockchip: Add ArmSoM CM5 and CM5-IO
-         ca921732c63a45b33fa6c4110fe14cd2f9bf02b9 Merge branch 'v7.3-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v7.3-armsoc/dts64
-    old: 7707e4555cf1d52689621e3206df8ad2debaa0dd
-    new: 44a48a23974b86d2c551afbabee15ad70b249df5
-    log: |
-         f60f44c24b10fe7fd1fa76b360646def1bea193a dt-bindings: arm: rockchip: Add ArmSoM CM5 and CM5-IO
-         44a48a23974b86d2c551afbabee15ad70b249df5 arm64: dts: rockchip: Add ArmSoM CM5 and CM5-IO
+         e02301ac0121d61e5246a95a21491dbfca999c4b b4 review track: stop auto-promoting waiting series on update
+         5d603351afbf1e21ddd0aa7f4ac8cf7ad2e825ff b4 review tui: gate upgrade on has_newer, not status
+         94ef31d66006183068233f9b33f6343d42db7f42 b4 review tui: surface has_newer in the series list
+         422b340501506e69074cf7292d8fde1aa2acadb6 Merge branch 'has-newer-first-class'
          
