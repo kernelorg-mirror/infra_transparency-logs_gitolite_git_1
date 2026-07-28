@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 28 Jul 2026 04:32:10 -0000
-Message-Id: <178521313069.3296616.6605534251624747631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Tue, 28 Jul 2026 04:33:48 -0000
+Message-Id: <178521322815.3297379.3576048212751303643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 391b4b1d5476a39058bdd24d9c69430386f79659
-    new: 9ba392047856c4c08b2ede17f9b8b6ab13f899a8
-    log: |
-         9ba392047856c4c08b2ede17f9b8b6ab13f899a8 opp: Use clk_get_optional() to avoid leaving opp_table->clk as an error pointer
-         
+  - ref: refs/heads/next
+    old: eef9f6d8c36f7610b5f837e196692ec34842a400
+    new: 21ed236e70bf3d48611c2ce1a438699234780cc7
