@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 28 Jul 2026 17:47:58 -0000
-Message-Id: <178526087859.3961663.34225704964969622@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 17:55:56 -0000
+Message-Id: <178526135632.3968286.16335237120800153377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: cb6aebb3342b5e9e844f876a5c70a01d09d25536
-    new: 143ac2101467fceb642cc12fea92efdd268cc3c2
+    old: 143ac2101467fceb642cc12fea92efdd268cc3c2
+    new: e98ebced22a35091bef187056f7eeeda6891f828
     log: |
-         4ded0310dd192682955e093e8e125bf615804d11 wifi: ath12k: move firmware_mode enum to qmi.h
-         143ac2101467fceb642cc12fea92efdd268cc3c2 wifi: ath12k: rename firmware_mode enum members to use QMI namespace
+         73c7b1950e9c6c4006a0c12f7b08ad2523d8d30b wifi: ath12k: Use different RX release ring sizes as per memory profiles
+         e98ebced22a35091bef187056f7eeeda6891f828 wifi: ath12k: skip MLO multicast links during crash recovery in Tx path
          
