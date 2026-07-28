@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7936899215356123033=="
+Content-Type: multipart/mixed; boundary="===============0866969809691448159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 28 Jul 2026 04:46:10 -0000
-Message-Id: <178521397088.3307862.8290261301250821329@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 04:46:13 -0000
+Message-Id: <178521397346.3308029.14100751379854466517@gitolite.kernel.org>
 
---===============7936899215356123033==
+--===============0866969809691448159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.5/main
+  - ref: refs/tags/v7.1.5-1
     old: 9c21dc8695e1cb6591f4bd7628eda7074a9c8d3c
     new: ae6783669fff3445c382e7fc3860f66097395496
     log: revlist-9c21dc8695e1-ae6783669fff.txt
 
---===============7936899215356123033==
+--===============0866969809691448159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f8f89f97526d28a05fb8c6decf8143f9e1d496b5 Merge branch 'kernel-7.1.5/nfsd-testing
 65bcab567166f7db99f0c4abe891e1c61843593c Merge branch 'kernel-7.1.5/nfs4_acl-passthru' into kernel-7.1.5/main
 ae6783669fff3445c382e7fc3860f66097395496 Merge branch 'kernel-7.1.5/changelog' into kernel-7.1.5/main
 
---===============7936899215356123033==--
+--===============0866969809691448159==--
