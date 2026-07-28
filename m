@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2429464867599228757=="
+Content-Type: multipart/mixed; boundary="===============7378808015467201979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 28 Jul 2026 09:11:01 -0000
-Message-Id: <178522986191.3570342.2465684734370989373@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 09:11:30 -0000
+Message-Id: <178522989020.3570802.11523972900757861192@gitolite.kernel.org>
 
---===============2429464867599228757==
+--===============7378808015467201979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 369d9a2c6991b3b751edc6754e87c15f3d2289a6
-    new: 74786d36f0f205bf49e02470a9fd79d7c46000f3
-    log: revlist-369d9a2c6991-74786d36f0f2.txt
+  - ref: refs/heads/for-usb-linus
+    old: e177f92ed3161a1af0ebe4498f59a4845e5958f0
+    new: f5098b6bae761e346ebcd9da7f95622c04733cff
+    log: revlist-e177f92ed316-f5098b6bae76.txt
 
---===============2429464867599228757==
+--===============7378808015467201979==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-369d9a2c6991-74786d36f0f2.txt
+Content-Disposition: attachment; filename=revlist-e177f92ed316-f5098b6bae76.txt
 
+866d03de6def89c386cdfd457b28a1f566e02565 KVM: s390: vsie: Avoid potential deadlock with real spaces
+4d4a21e38f1b87a76b3e63d4f837ff4e9b52d5a6 KVM: s390: Fix dat_crste_walk_range() early return
+9489220fe0e69d2ca141e5062dd3ef3e2e55959f KVM: s390: Improve kvm_s390_vm_stop_migration()
+f4ef35efbb49527293309f668ea73ec5de9b8e7a selftests/net: fix EVP_MD_CTX leak in tcp_mmap
+2e2a83b4998af4384e677d3b2ac08565274279bf net: mana: Validate the packet length reported by the NIC
+c72a0f09c57f92113df69f9b902d11c9e4b132f5 net: mana: Sync page pool RX frags for CPU
+c26c33e632248b334ccf132bc8c4877522c3db95 Merge branch 'fix-mana-rx-with-bounce-buffering'
+27f575836cfebbf872dec020428742b10650a955 net: macb: drop in-flight Tx SKBs on close
+604e9594449b9907181f4285d0cd6a398bfc9d08 Merge tag 'batadv-net-pullrequest-20260708' of https://git.open-mesh.org/batadv
+97272a5704bf13369bba43951ad9fe8f806ccc7f ALSA: hda/realtek - Fixed Headphone noise issue for Dell QCM1255
+d595255241e5fec0c94adeebf2565524398e37c5 ALSA: hda/realtek: Add quirk for TongFang X6xx45xU
+c914307e1d41c2cb7bcdcbfde4cd2f214f6aa027 net/mlx5: Fix L3 tunnel entropy refcount leak
+b62869a81a7ce388d1fbb0fac5fa8300ea614d81 ethtool: rss: Fix hfunc and input_xfrm parsing on big endian
+24c4c88259464d38b35c3fbaecb68675de64137d Merge tag 'nf-26-07-08' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 fabb881df322da25442f98d23f5fa371e3c78ec4 octeontx2-af: fix VF bringup affecting PF promiscuous state
 34a4dd45cf210c04fee773b0dbc350aec285f03c drm/xe: Fix PTE index in xe_vm_populate_pgtable() for chunked binds
 af80e2bfde9312c76b60cf9274248dce0410b30d drm/xe: Wait on external BO kernel fences in exec IOCTL
@@ -1036,19 +1050,5 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-62febd9cca4c8912cd0bda5a5406e96a201233c7 xhci: fix frame id calculation and checks for isoc URBs
-e36ffe7b54bae0eff03ab7ebbd32bf60915d560a xhci: Set frame ID field of isoc TRB when starting an isoch stream
-46a03a7bd6b4d1f70b6f11b30eee652810f4095c xhci: include all root port children in recovery prevention on link error
-8ef347cd601feb6feb745658026415d8d1cbc8d3 xhci: prevent endpoint recovery after roothub disconnect
-b0254d3dacea44c850a0371150b7ed75e8b03ad1 xhci: avoid xHC endpoint changes after disconnect or link error.
-4b97be413545ae571ac22b8a5cb44e5f58484c1c xhci: move dequeue to next valid td instead of past cancelled one
-1c9704c48c493ebf2b7fb3b266ec1b3c95d0bebb usb: xhci: standardize multi bit-field macros
-ab2f207ea3da60132a8f49295264fd738f39af14 usb: xhci: use 64-bit Addressing Capability macro
-cf4117b3995bbc672c2f0d7b9c4ff6f3297bbcfc usb: xhci: remove redundant function wrapper
-6070c59be1c18905277182a54a94f7df790b5ec1 usb: xhci: remove redundant 'xhci' pointer from endpoint struct
-a5a5e9cf254646a2ee3d5f4663b30fcf998b72df usb: xhci: replace Unicode quotes with ASCII apostrophes
-3de3a9dcb9289e9e25f6362da5da95d05f14b760 xhci: dbgtty: Fix unregister on tty_register_driver() failure
-6732777e37c2b37f57ca7170cad9dfa2c7b5e35a xhci: dbgtty: Fix unregister on tty_alloc_driver() failure
-74786d36f0f205bf49e02470a9fd79d7c46000f3 xhci: dbgtty: Drop extra call to idr_destroy()
 
---===============2429464867599228757==--
+--===============7378808015467201979==--
