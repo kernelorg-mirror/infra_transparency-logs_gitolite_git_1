@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Tue, 28 Jul 2026 01:14:34 -0000
-Message-Id: <178520127481.3144344.17346866263804871278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 28 Jul 2026 01:14:56 -0000
+Message-Id: <178520129621.3144679.2356673202975018550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 4f3af3a2acfe891af70696380c5c6f8b66dc8302
-    new: b1e72f900f44a3c23065f91b471d7432a5d22446
+    old: 7f3008c3ca35a0b8dc8e92e31e26c235e8bc089d
+    new: ba6dadef134586efa4dec58087c91f184c442306
     log: |
-         31547a5ee10d8aa1513bb18e677ecd864964d9a3 fsck.f2fs: handle find_next_free_block failure gracefully
-         b1e72f900f44a3c23065f91b471d7432a5d22446 fsck.f2fs: sanitize invalid segment type during block update
+         ba6dadef134586efa4dec58087c91f184c442306 f2fs: fix to zero post-EOF data when extending file size
          
