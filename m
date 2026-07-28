@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 28 Jul 2026 22:15:03 -0000
-Message-Id: <178527690321.4164307.127138200094092984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 28 Jul 2026 22:26:35 -0000
+Message-Id: <178527759582.4172958.8846619295464956892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: c84ccde22d9d3070a9ee144e825270a7a784c570
-    new: 5584ad5706e594c7648655171785aa4fffdd3db5
+  - ref: refs/heads/master
+    old: b12a090919b400b401e5eb35be2065429fb6489e
+    new: 5cdb10f1a1334e8c7a3604ddfbaed4e4ff8ec30a
     log: |
-         15c53209e67ad450fb791aff5e0bd3dcc4349e36 dt-bindings: power: supply: sgm41542: document sgm41542
-         5584ad5706e594c7648655171785aa4fffdd3db5 power: supply: sgm41542: Add SG Micro sgm41542 charger
+         99f87a67e499cc8a3996e62bcae9b93588c06f30 man: Fixup dead links in man pages
+         5cdb10f1a1334e8c7a3604ddfbaed4e4ff8ec30a Merge branch 'man-page-fixes' of github.com:cmazakas/liburing
          
