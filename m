@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 28 Jul 2026 08:30:07 -0000
-Message-Id: <178522740704.3536119.1174047225311940065@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 08:38:51 -0000
+Message-Id: <178522793180.3541109.2462749063740676894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 2b55ea9ef8fceb67c0930baff4cf5475df02a67d
-    new: 6558438bd7a78dee2940d2e03e7c724a8e74129f
+  - ref: refs/heads/i2c/i2c
+    old: 0680fb5e3d0799922fdf32b1b3b87776ac8da966
+    new: d3ac4939fb795be89fe483f57455963f825d0c61
     log: |
-         0a4bb2abc3e56d7be6e69b050c88ba52c87e22bf i2c: designware: defer probe if child GpioInt controllers are not bound
-         6558438bd7a78dee2940d2e03e7c724a8e74129f Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
+         d3ac4939fb795be89fe483f57455963f825d0c61 dt-bindings: i2c: qcom,sa8255p-geni-i2c: Add compatible for Nord SA8797P
          
