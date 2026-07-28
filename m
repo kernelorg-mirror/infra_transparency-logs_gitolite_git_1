@@ -1,64 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8079289172792178268=="
+Content-Type: multipart/mixed; boundary="===============2908343284561442925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 28 Jul 2026 05:25:56 -0000
-Message-Id: <178521635616.3337766.11844452442182173487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 28 Jul 2026 05:56:48 -0000
+Message-Id: <178521820838.3359480.5038039656260460261@gitolite.kernel.org>
 
---===============8079289172792178268==
+--===============2908343284561442925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/tags/v7.1.5-1
-    old: ae6783669fff3445c382e7fc3860f66097395496
-    new: bf23ef044b5aff7276075fb17a03f84eb8d81f4e
-    log: revlist-ae6783669fff-bf23ef044b5a.txt
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 341db336088bb19e7ee0f3e1c1fafc05aeeb83d4
+    new: bbcc36d4992f9ebd7be3c3aee623c0b15ea14d1a
+    log: revlist-341db336088b-bbcc36d4992f.txt
 
---===============8079289172792178268==
+--===============2908343284561442925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae6783669fff-bf23ef044b5a.txt
+Content-Disposition: attachment; filename=revlist-341db336088b-bbcc36d4992f.txt
 
-50aa29eb7c9635be24346a7a3467c368e942c8dd redhat: various "fixes" to allow building ARK kernel on EL8 buildhost
-67fbb3b4319c80f0b240831ef2f79dcbdf4d2016 redhat: reenable 'with_tools' now that tools compilation is fixed for el8
-6db4f5b76aa35635b24cccf5bd336794f5c95c97 redhat: fix EL8 build so that it generates symvers.gz
-ca8cdd8aa6fd10895864d5a07a36f72773a05dcf redhat: add tools-tracing-rtla-fix-el8-compiler-errors.patch
-51ae3794c187da43c47fe72dc9a1963fd95d26ff redhat: various hacks to get kernel.spec.template compatible with EL8
-ec3934ddcabc8fa73450c04118cff86a41465464 redhat/kernel.spec: fix kernel_meta_package
-e0d45b2e68e516f3711d6f153ae7d759e1124b3c redhat/kernel.spec: for .el8 verify that gettid() is missing
-5fba1fbd0c03ce15988b1aed7d7a81bd22502b33 redhat/configs: enable CONFIG_MLX4 for x86_64 only
-f878673999d087ed113a1059343249d63c4aca93 redhat/configs: turn off CONFIG_PSI_DEFAULT_DISABLED
-18441ba4afb59b8cff8d08b2b7a9445087eab721 redhat/configs: enable CONFIG_LATENCYTOP
-72cd3f2edcdb89dc9a7b2d11476299f4dfa41b77 redhat/configs: switch THP default from always to madvise
-060cd1cd00167240933d7af2c08fce4f66851ac1 redhat/configs: disable CONFIG_NFS_FSCACHE
-55a40ac726da2fe8d8c678bf77fb5388217e3997 redhat/configs: disable CONFIG_NFS_V4_0
-496ad380a940528b9538079713837572d438dbed redhat/configs: disable CONFIG_NFSD_V4_POSIX_ACLS
-5e8b14d0bde3bea0850e7b3f6df13bcf89c10fdb tools: fix libcpupower Python bindings build to use python3-config
-6bd0fcd0a4821029e7a7539f5a3f55c60065e1a5 redhat: disable building rt-64k on arm; re-enable building debug kernels
-a27822c89e425b4d326f7ff7f8804fa76baed497 redhat/configs: disable rxrpc and AFS which depends on it
-3ede7eb12e8d8e5f4b6ab6e67ae78443451a51af Revert "[redhat] configs: Compress UEFI/PE kernels with zstd"
-367d170f115e172cfaa9c22bbcfe77bb9883ba77 redhat/configs: prepare for revert that follows
-3f0541d081673cf2b673aa096aa6881b47bbe5ce Revert "[redhat] New configs in certs/Kconfig"
-ebd0bcf958814e8a42329b609e98144e1159c01f redhat/configs: remove all s390 config infra
-554c0bda1e6ed749795a74cb2905400b524e8862 kernel.spec: remove all s390 files and enablement
-2f7715b9d6911608d6528e234aa927de0bdf721e Merge branch 'kernel-7.1.5/block-DIO-alignment-fixes' into kernel-7.1.5/main
-01b018b7e1e88fcd4bbea4587df1cebb04c6f011 Merge branch 'kernel-7.1.5/nfsd-7.2' into kernel-7.1.5/main
-f9964595039031dc8137c9783148ec534a8fcfea Merge branch 'kernel-7.1.5/nfsd-7.2-1' into kernel-7.1.5/main
-3b4886c1c40a47d74ecf303897d7f842122081c1 Merge branch 'kernel-7.1.5/nfsd-7.2-2' into kernel-7.1.5/main
-2308776238d1a0bf1383646b01acd59ca1afe345 Merge branch 'kernel-7.1.5/nfs-for-7.2-1' into kernel-7.1.5/main
-86930fdbdef5e5dc5b34f2c5aeadd33fcc68362d Merge branch 'kernel-7.1.5/nfs-for-7.2-3' into kernel-7.1.5/main
-031c5ac2cab5fc0a9ab81aa5aaa82d8c2c86108e Merge branch 'kernel-7.1.5/nfs-testing-canary' into kernel-7.1.5/main
-179be40cfe1d1804a4d85b529dd81fcea6866a91 Merge branch 'kernel-7.1.5/nfsd-next' into kernel-7.1.5/main
-b5e368f955abf91594a5d3b3e2f050c3d2f6324d Merge branch 'kernel-7.1.5/nfsd-testing-canary' into kernel-7.1.5/main
-702c1b1fcf1390261fd605104ce2f264d6a941c9 Merge branch 'kernel-7.1.5/nfsd-testing-canary-dontcache' into kernel-7.1.5/main
-a018cfc63653ce8d183e3d37582b069ff05148fb Merge branch 'kernel-7.1.5/nfs4_acl-passthru' into kernel-7.1.5/main
-bf23ef044b5aff7276075fb17a03f84eb8d81f4e Merge branch 'kernel-7.1.5/changelog' into kernel-7.1.5/main
+f883dbb64ca53f75d9006d1e73180c9d9ecfc9a2 sched_ext: Make exit claiming lock-free
+1bf623ebd50315260ce6da9601e4cd3e79659152 sched_ext: Format bstr exit messages after claiming the exit
+e06ece82d7b078b511d36fbaca46df231c647e16 sched_ext: Report NMI kicks with scx_error()
+3c4b38064937a761ebbf85b1649e812db85eb59e sched_ext: Abort directly from the hardlockup handler
+ee7aece608178e322ba150a73613ebace31df885 sched_ext: Report scx_link_sched() failures inline
+468b241761f7ec20b358c7f55ab4571f4432c642 sched/core: Avoid false migration warning for proxy donors
+22d1b53bbe120918e225b928ef92ed53287d673c sched: Make NOHZ CFS bandwidth checks follow proxy donor
+4db2b9c2683c3d98acede59dca0fdc5b388fa36e sched: Add helper to block retained proxy donors
+0ad95e3f97debb3720e2e21da83e4f847459c8b9 sched: Add prepare_switch() class callback
+40ce585964d52a38a45c2c5349de541d65e1607e sched: Add sched_ext hooks for proxy execution
+b09198274bba8dddbc31f8da24c14895795e8d22 sched_ext: Block proxy donors across scheduler transitions
+1bd27c00c0ced72fb40ecf17b9ed549d6dd4509c sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+f9ec3d1a4a22d7134cac5714a9bf59996c277d89 sched_ext: Generalize the reject DSQ reenqueue path
+f9b53c6fac8e3b596d7f1c03fe26072102015b8e sched_ext: Handle proxy-exec races in remote DSQ transfers
+6ba2c93a55987d8cf0fa3bd408bfcab08a423b53 sched_ext: Split curr|donor references properly
+9d97fba8b690003b524161bc2905705e534395bc sched_ext: Delegate proxy donor admission to BPF schedulers
+ebf3ffa2ffa9ed9b5b005942470408454418502d sched_ext: Add selftest for blocked donor admission
+d4e7bae7c6a9a18401e771592d05158c67eea0b6 sched_ext: scx_qmap: Add proxy execution support
+bbcc36d4992f9ebd7be3c3aee623c0b15ea14d1a sched: Allow enabling proxy exec with sched_ext
 
---===============8079289172792178268==--
+--===============2908343284561442925==--
