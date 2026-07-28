@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0068777427344881971=="
+Content-Type: multipart/mixed; boundary="===============7415146021598057009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 28 Jul 2026 04:03:41 -0000
-Message-Id: <178521142114.3274287.3752883962606433005@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 04:03:44 -0000
+Message-Id: <178521142418.3274385.10075101667805308253@gitolite.kernel.org>
 
---===============0068777427344881971==
+--===============7415146021598057009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7b25c83e4711038989b5b08a8977fb68468c854e
-    new: 2a4faffc103297c4822bb269d521249b75cc2261
-    log: revlist-7b25c83e4711-2a4faffc1032.txt
+  - ref: refs/heads/mm-unstable
+    old: bf810459a6a20ac96a87bfeccb25abc3906b1e4d
+    new: aedb150e27b7e8b7df3191a09e3a06c7ed8bc918
+    log: revlist-bf810459a6a2-aedb150e27b7.txt
 
---===============0068777427344881971==
+--===============7415146021598057009==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7b25c83e4711-2a4faffc1032.txt
+Content-Disposition: attachment; filename=revlist-bf810459a6a2-aedb150e27b7.txt
 
+70e76e700fc6c46afb4e17aec099a1ea089b4a22 hwmon: occ: validate poll response sensor blocks
+6fcd91ce2a0787cd4bdf6a0b3cd4884566a3cdba USB: serial: io_ti: reject oversized boot-mode firmware
+6c7b7a07db47df7745d30f4bca795f3bb5976b33 Add missing git branch info for cifs and ksmbd to MAINTAINERS file
+57441577bac3637473da2c9644336eaa0ac5732f drm/xe/madvise: Skip invalidation for purgeable state updates
+1d26f125501f3fbe6c259ab75bf6516299a0bf0e regulator: mt6358: use regmap helper to read fixed LDO calibration
+b5fa40226e71c17847b9ff2816c6ca4133d0d994 fscrypt: Add missing superblock check in find_or_insert_direct_key()
+6fe4e4b8259e1330945b5f3c9476e08473b8e0e8 fscrypt: Avoid dynamic allocation in fscrypt_get_devices()
+5c3f8dac531b454bf67b6ee3c2aac89f0aaaef74 ALSA: hda/realtek: Fix speakers on Lunnen Ground 14
+740b3c6780ec1f65aba2bc99a3f41d70bdb13477 ALSA: hda/realtek: Add HDA_CODEC_QUIRK for Samsung 750XBE/730XBE
+b6016332b8899a9775addf9b630b0a53a849c8ed ALSA: hda/tas2781: clear cali_data.total_sz when calibration read fails
+bbf5f639918dc011aaf60aab8480218758ee68c5 binfmt_misc: set have_execfd only once the interpreter is opened
+e9027ffbf5a0f3c12ca8900822e884eae9f0821b Bluetooth: hci_sync: Protect UUID list traversal
+c783399efc22d035443f1dfbf2a09bf9562aaa5e Bluetooth: RFCOMM: Fix session UAF in set_termios
+df541cd485ff80a5ddc579d99687bc7506df9851 Bluetooth: btusb: validate Realtek vendor event length
+7d8ca62d6a9ef593780161586b4efc811ac094fe net: phy: marvell: fix return code
+ef01724fa235a228e3d3e8b117e89403cd8feb25 selftests/net: Fix tun IPv6 test addresses to avoid 6to4 range
+f6e3b21608e974c4aaa4cfd73a239dacf1d8a9a3 netlink: specs: rt-link: convert bridge port flag attributes to u8
 50aff80475abd3533eef4320477037e6fcc6b56e net/packet: avoid fanout hook re-registration after unregister
 3f4920d165b29052255527d8ae7619e7ec132ece bpf: Reject redirect helpers without a bpf_net_context
 ec48b3be2c8595dd290be883dbd4fb8b2f9f5d5e net/sched: Handle TC_ACT_REDIRECT from qdisc filter chains
@@ -1033,22 +1050,5 @@ e130576350cbc7145a5164216f0ccb6bb4ce53aa mm: page_alloc: __GFP_FS lockdep annota
 f528e821adeeac582a24095a2314d038413f9352 mm: page_alloc: move capture_control to the page allocator
 fdfa5803d04ec01244a14e7fee98725b68c872b7 mm: page_alloc: fix non-movable reclaim storm in defrag_mode
 aedb150e27b7e8b7df3191a09e3a06c7ed8bc918 mm-page_alloc-fix-non-movable-reclaim-storm-in-defrag_mode-fix
-ff78e922ce26dd9631214354bb83fd4bc66f043d mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-76cba65916efdae24709c666a557eb543c6f2157 mm/page_alloc: boost watermarks on atomic allocation failure
-04899573ab9e4c239d858d8b5f5e4e34f5ae2267 memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h
-6339b93140ea892252c57709ffe7d3380532236d mm: vmscan: fix node reclaim ignoring swappiness parameter
-5c86a82f2a7e80ebeb4356354b5320ea8a36395d mm/vmstat, mm/memcontrol: add _monotonic vmstat readers
-3f941fea34166511b5b4d539ed6707c7b967700f mm/vmscan: reduce lru_lock contention via vmstat-derived scan-balance cost
-84f43113557b5f5bb517c14cb9f999aba960c550 selftests/mm: fix gup_longterm EINVAL error message
-ba407630f292814bc0c1a0b57c9b27de169dae4d zram: move lockmap to be per-zram instead per table
-911d83cb66685cdee820da9f83e56e389bd1e181 zram: use a custom key for each zram object
-39d992338144c970d50031c0ab819a3814477269 mm: memcg: stop reclaim when a limit update is superseded
-6c82e46540284109a5f26c42b6ff06216083c10b mm/migrate: report RCU-tasks quiescent states in migrate_pages_batch()
-1dd5c9872836dd0080ad5719e63a9e402f9fbf9c mm: fold userfaultfd_rwp() to false without CONFIG_ARCH_HAS_PTE_PROTNONE
-5f30a1b90e5819bef1fe9830d1b5a26e485b839b ksm: stop iterating VMAs when ksm_test_exit returns true
-e505f6ea3c669a903e2e5f4e2d12432c9eaa42e8 mm/page_reporting: Add page_reporting_delay_ms module parameter
-71ca38ae0431c1019259ebb0435f31a502c4ed34 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-2134f1b3f80cb017d7b82d0a2537cd5c06716443 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-2a4faffc103297c4822bb269d521249b75cc2261 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0068777427344881971==--
+--===============7415146021598057009==--
