@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 28 Jul 2026 01:37:58 -0000
-Message-Id: <178520267812.3166412.18390714560558711591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 Jul 2026 01:38:03 -0000
+Message-Id: <178520268325.3166703.16910281266362893920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0b7763e3a0ec1cb4b9fd749e29377083ba93d392
-    new: a50eba1e778ad4da5b6f9ddbbf57dabbea59bc05
+    old: 6fb7b769d6ed6d1d2e02af4a80e57a2477f35086
+    new: 97ac08560d236ca17f6606d9e671118e5eae5721
     log: |
-         a50eba1e778ad4da5b6f9ddbbf57dabbea59bc05 net: dns_resolver: allow shorter names in dns_query()
+         97ac08560d236ca17f6606d9e671118e5eae5721 ethtool: Embed FEC hist ranges as buffer in struct
          
