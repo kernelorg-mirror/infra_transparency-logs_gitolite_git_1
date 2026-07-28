@@ -1,49 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2908343284561442925=="
+Content-Type: multipart/mixed; boundary="===============1635567292449976923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Tue, 28 Jul 2026 05:56:48 -0000
-Message-Id: <178521820838.3359480.5038039656260460261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Tue, 28 Jul 2026 06:06:35 -0000
+Message-Id: <178521879584.3366808.14939935908987671582@gitolite.kernel.org>
 
---===============2908343284561442925==
+--===============1635567292449976923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: rppt
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 341db336088bb19e7ee0f3e1c1fafc05aeeb83d4
-    new: bbcc36d4992f9ebd7be3c3aee623c0b15ea14d1a
-    log: revlist-341db336088b-bbcc36d4992f.txt
+  - ref: refs/heads/next
+    old: 27b5546ec548d8f1bd50e8c9737ec77aba100ace
+    new: 3e879a54c0b64eb39f4c6df6f3f9a0f76cca6f22
+    log: revlist-27b5546ec548-3e879a54c0b6.txt
 
---===============2908343284561442925==
+--===============1635567292449976923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-341db336088b-bbcc36d4992f.txt
+Content-Disposition: attachment; filename=revlist-27b5546ec548-3e879a54c0b6.txt
 
-f883dbb64ca53f75d9006d1e73180c9d9ecfc9a2 sched_ext: Make exit claiming lock-free
-1bf623ebd50315260ce6da9601e4cd3e79659152 sched_ext: Format bstr exit messages after claiming the exit
-e06ece82d7b078b511d36fbaca46df231c647e16 sched_ext: Report NMI kicks with scx_error()
-3c4b38064937a761ebbf85b1649e812db85eb59e sched_ext: Abort directly from the hardlockup handler
-ee7aece608178e322ba150a73613ebace31df885 sched_ext: Report scx_link_sched() failures inline
-468b241761f7ec20b358c7f55ab4571f4432c642 sched/core: Avoid false migration warning for proxy donors
-22d1b53bbe120918e225b928ef92ed53287d673c sched: Make NOHZ CFS bandwidth checks follow proxy donor
-4db2b9c2683c3d98acede59dca0fdc5b388fa36e sched: Add helper to block retained proxy donors
-0ad95e3f97debb3720e2e21da83e4f847459c8b9 sched: Add prepare_switch() class callback
-40ce585964d52a38a45c2c5349de541d65e1607e sched: Add sched_ext hooks for proxy execution
-b09198274bba8dddbc31f8da24c14895795e8d22 sched_ext: Block proxy donors across scheduler transitions
-1bd27c00c0ced72fb40ecf17b9ed549d6dd4509c sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-f9ec3d1a4a22d7134cac5714a9bf59996c277d89 sched_ext: Generalize the reject DSQ reenqueue path
-f9b53c6fac8e3b596d7f1c03fe26072102015b8e sched_ext: Handle proxy-exec races in remote DSQ transfers
-6ba2c93a55987d8cf0fa3bd408bfcab08a423b53 sched_ext: Split curr|donor references properly
-9d97fba8b690003b524161bc2905705e534395bc sched_ext: Delegate proxy donor admission to BPF schedulers
-ebf3ffa2ffa9ed9b5b005942470408454418502d sched_ext: Add selftest for blocked donor admission
-d4e7bae7c6a9a18401e771592d05158c67eea0b6 sched_ext: scx_qmap: Add proxy execution support
-bbcc36d4992f9ebd7be3c3aee623c0b15ea14d1a sched: Allow enabling proxy exec with sched_ext
+bb9802b683abb8d02054746abd795fe48d6414b9 kho: generalize radix tree APIs
+b5eb358901449335c7547904d886618f85ef1891 kho: make radix max key width more obvious
+37c1c25fddc4ef059589943dbb1f239d8e2a1d8d kho: disallow wide keys in radix tree
+bba11ce2d39d1bb2d4ff0e85c9adffa01dcfedb7 kho: return virtual address of mem_map from kho_get_mem_map()
+0d15c344649c2f9095fa9b9792e032786fc4a65a kho: store incoming radix tree in kho_in
+269c0252bb6dcd870ba72e103263010e1b36677a kho: move all memory retrieval logic to kho_mem_retrieve()
+7289492b5dbc1fe7b96abb1d40ae19b061158c14 kho: add a struct for radix callbacks
+11479f8ed8025db9e4a0c8ac61375c57671f9c78 kho: add callback for table pages
+1b86b0abb228b0769af458be7546361c10125d2b kho: add data argument to radix walk callback
+4aa9c5d6258add6473cbc9d09377d37f9979b18d kho: allow early-boot usage of the KHO radix tree
+0eeb67e0f7103fa48172c97dc713deeb669e425a kho: allow destroying KHO radix tree
+c2fe6c9179ba2f48695455222c962d5af72afa83 kho: add kho_radix_init_tree()
+03db68f5d274dc84e674740473e57842a232621a kho: expose kho_scratch_overlap() to kexec_handover.h
+2f3c23cdf1e917cd5a790acc7a3cb07e4d0fcf90 kho: initialize kho_scratch pointer earlier in boot
+a035ce54e2aa5abc1c7e6c4534b3e71a275a4d00 kho: initialize preserved memory map radix tree earlier
+f50ee41b2cb44b3ef0a13682d001589af36cce29 mm/mm_init: simplify deferred_free_pages() migratetype init
+f476132a8999edf2225185652dce98a42347e8c9 mm/mm_init: don't rely on memblock to get KHO scratch migratetype
+91238980dcfc40ef64bb068641c1111614d977a9 kho: extend scratch
+7c967e2d549dc23ac10e01df94feef649363ee04 memblock: make HugeTLB bootmem allocation work with KHO
+f51ecb8eef41a53186731a8780123497ab7cd739 memblock: add memblock_reserved_hugetlb_size()
+43ada6fc24dad55b4703b4b1b8e3f361f3e20a1f kho: exclude hugetlb memory from scratch size calculation
+eb7145b5cb2a5e981860eaf80ae4417a9666c301 Merge patch series "kho: make boot time huge page allocation work nicely with KHO"
+3e879a54c0b64eb39f4c6df6f3f9a0f76cca6f22 Merge branch 'kho-scratch' into next
 
---===============2908343284561442925==--
+--===============1635567292449976923==--
