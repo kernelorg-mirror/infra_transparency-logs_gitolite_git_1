@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7612809939363157611=="
+Content-Type: multipart/mixed; boundary="===============6271725194495187039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Tue, 28 Jul 2026 20:14:12 -0000
-Message-Id: <178526965244.4070015.13694712589778583025@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 20:14:30 -0000
+Message-Id: <178526967021.4070323.2993931661831143745@gitolite.kernel.org>
 
---===============7612809939363157611==
+--===============6271725194495187039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
 user: vudentz
 changes:
-  - ref: refs/heads/master
-    old: 3328b4822220f90f48e977bf160e983d273133f0
-    new: abd93c85c8667add738ee82aeab95dd9fc8265a2
-    log: revlist-3328b4822220-abd93c85c866.txt
+  - ref: refs/tags/for-net-2026-07-28
+    old: 926f8c63e8da00b1dad07fcecdd3e0851dd78238
+    new: 8a8f7e6867b84eb79bcba3c07203ccd3e48b597d
+    log: revlist-926f8c63e8da-8a8f7e6867b8.txt
 
---===============7612809939363157611==
+--===============6271725194495187039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3328b4822220-abd93c85c866.txt
+Content-Disposition: attachment; filename=revlist-926f8c63e8da-8a8f7e6867b8.txt
 
 0786469ee242952008628ed0e2d386098e2065ab Bluetooth: ISO: fix CONNECTED -> CLOSED transition on shutdown/release
 89cf154d7c18e6e94a3da83051f3cf2bac317ae2 Bluetooth: ISO: lock sk in iso_sock_getname
@@ -50,4 +50,4 @@ b186c18c4843dd58adc29443369bddc71cb626a3 Bluetooth: btmtk: Fix short read errors
 cac43d360c928bc0cbbd18809632388265649761 Bluetooth: btusb: Fix short read errors in btusb_qca_send_vendor_req()
 abd93c85c8667add738ee82aeab95dd9fc8265a2 Bluetooth: SCO: give the socket its own sco_conn reference
 
---===============7612809939363157611==--
+--===============6271725194495187039==--
