@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 28 Jul 2026 18:18:37 -0000
-Message-Id: <178526271752.3984761.10350291276575307692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 28 Jul 2026 18:19:48 -0000
+Message-Id: <178526278867.3985243.16054374120385655136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ae93477d9ac0bca0ce84e01138202bc3ec884403
-    new: aa662e2b9a453ec05bb4ed8f89b6313533721805
+  - ref: refs/heads/spi-7.3
+    old: 151c6ac28d3451c237634fd0cf464f7bbbcc8d0e
+    new: 79052a6a6f5b019d24efbbb934f2d77a1db75211
     log: |
-         ebd37b7354957bb43f833234c1712a0b90454dc4 Drop a few riscv commits from 6.18
-         aa662e2b9a453ec05bb4ed8f89b6313533721805 Fixes for all trees
+         8955fbad8aad32d7e81fc75d23918e0e2cf6c5ef spi: spacemit: fix dangling TX DMA descriptor on RX prep failure
+         79052a6a6f5b019d24efbbb934f2d77a1db75211 spi: spacemit: drop redundant dev_err_probe() around irq helpers
          
