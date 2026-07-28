@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 28 Jul 2026 13:25:12 -0000
-Message-Id: <178524511254.3761284.5065746407402153106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 28 Jul 2026 13:36:22 -0000
+Message-Id: <178524578227.3769013.6188692648994531652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: a3f057032794a104a7a66208286cad3f74fed916
-    new: 8b519fe37c309df15d0ed4ca05bd01c05d733caa
+  - ref: refs/heads/main
+    old: 72207e1b15d4b9d28a3cbf1ed8f6dcb43bcf2617
+    new: af2e7bf9832f6f2b6abf60588a0af02f0e135438
     log: |
-         6a9255fe1c6bd763daab2723c89ad24261bf70f1 lsfd: fix typo.
-         8b519fe37c309df15d0ed4ca05bd01c05d733caa Merge branch 'lsfd/typo' of https://github.com/echoechoin/util-linux
+         11492872341100afefc2b923b4012743c78f5284 gve: use xdp_build_skb methods for XDP_PASS case
+         871657dc6996ec7e6b90a87369d52a4a59f22753 gve: add XDP metadata support for DQ RDA
+         af2e7bf9832f6f2b6abf60588a0af02f0e135438 Merge branch 'xdp-metadata-support-for-dq-rda'
          
