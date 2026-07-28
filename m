@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5121387732096098669=="
+Content-Type: multipart/mixed; boundary="===============2314913069462841973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Jul 2026 22:27:33 -0000
-Message-Id: <178527765385.4173575.3289845332042897267@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 22:27:36 -0000
+Message-Id: <178527765624.4173691.9994409180049782332@gitolite.kernel.org>
 
---===============5121387732096098669==
+--===============2314913069462841973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: edc84a9396acf1a0e78c46230dd0bcee1b84ac53
     new: b515dc54795ef370be3cb396e7c12ad91686b6d1
     log: revlist-edc84a9396ac-b515dc54795e.txt
 
---===============5121387732096098669==
+--===============2314913069462841973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ a50eba1e778ad4da5b6f9ddbbf57dabbea59bc05 net: dns_resolver: allow shorter names 
 af2e7bf9832f6f2b6abf60588a0af02f0e135438 Merge branch 'xdp-metadata-support-for-dq-rda'
 b515dc54795ef370be3cb396e7c12ad91686b6d1 net: ip6_tunnel: use tunnel parameters for fill_forward_path route lookup
 
---===============5121387732096098669==--
+--===============2314913069462841973==--
