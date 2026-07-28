@@ -1,19 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 28 Jul 2026 18:02:30 -0000
-Message-Id: <178526175010.3973165.9855698845029439448@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2148871017596123672=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 28 Jul 2026 18:15:26 -0000
+Message-Id: <178526252657.3982747.15632668999789308513@gitolite.kernel.org>
+
+--===============2148871017596123672==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 42c57c049054dfaa0be83f6721f7c4ce4a880e56
-    log: |
-         42c57c049054dfaa0be83f6721f7c4ce4a880e56 riscv: dts: starfive: jh7110-common: fix jh7110 SoC boot from SD-card.
-         
+  - ref: refs/heads/1GbE
+    old: bd0e9289e2642f6a5c54faad304ce0f41e926d22
+    new: e095f249e2209674f6366f6db0383a2b96e19239
+    log: revlist-bd0e9289e264-e095f249e220.txt
+
+--===============2148871017596123672==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bd0e9289e264-e095f249e220.txt
+
+5546da86894d5906f131b05890705a7abf949d84 net: bridge: mrp: fix Option TLV length in MRP_Test frames
+22666ba1420164753d7b0f5a841986b25ace5435 forcedeth: fix UAF of txrx_stats in nv_remove
+d211028bac1bd0fff0026bfa2a8328e5b78cd0e6 s390/qeth: Check CAP_NET_ADMIN for private ioctls
+6fb7b769d6ed6d1d2e02af4a80e57a2477f35086 rtase: fix double free of multi-frag skb on DMA map failure
+97ac08560d236ca17f6606d9e671118e5eae5721 ethtool: Embed FEC hist ranges as buffer in struct
+b14361aca6350ff7907b0e9903c7b94dc7d5d4a0 fou: Fix use-after-free in fou_create()
+295dd295e2137e10e9a5b1891d97e0f08de76f03 net: mpls: initialize rtm_tos in mpls_getroute()
+aef96eead2860cbfa371e4471d4f04412213b958 net/sched: cls_u32: validate offshift to prevent shift-out-of-bounds
+f621d6ebeebb6374342571e4ddf45fdbc420f6cd net/smc: fix socket use-after-free during link group termination
+88c17de85ddb459c3fe1e3c65d61fa366b1cf0a8 bpf: lwt: Fix dst reference leak on reroute failure
+080695e6f005e2396f1207fd69d24c442cb230c6 net: udp_tunnel: fix memory leak in udp_tunnel_nic_unregister()
+e095f249e2209674f6366f6db0383a2b96e19239 net: ethernet: mtk_eth_soc: pass eth to mtk_handle_irq_rx in poll_controller
+
+--===============2148871017596123672==--
