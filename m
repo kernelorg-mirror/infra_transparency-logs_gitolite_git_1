@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 28 Jul 2026 14:56:02 -0000
-Message-Id: <178525056287.3830252.10605406068115272535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 28 Jul 2026 15:12:02 -0000
+Message-Id: <178525152216.3840925.12925094197881847549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/probes/core
-    old: 5be3a9db600853578559681b2dd20a9bc7dd4fc5
-    new: c00e735410d7269c0c655219cf42846da6b435c7
+  - ref: refs/heads/pending
+    old: edc84a9396acf1a0e78c46230dd0bcee1b84ac53
+    new: 2daddbc3560cc4225a0f45046ca2aa57a446f193
     log: |
-         d0d7dc1a70da6d65bef565f647c41febf3d881dd docs: trace: fprobe: fix 'thos' spelling
-         c00e735410d7269c0c655219cf42846da6b435c7 tracing/probes: Treating longer symbol name on event comparation
+         fe61a8a91f6563befa9d79c829492e517ba5e451 wifi: ath12k: fix overreads in ath12k_wmi_process_csa_switch_count_event()
+         2daddbc3560cc4225a0f45046ca2aa57a446f193 wifi: ath11k: fix overreads in ath11k_wmi_process_csa_switch_count_event()
          
