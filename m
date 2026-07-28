@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 28 Jul 2026 15:33:55 -0000
-Message-Id: <178525283526.3859159.10110129389000240302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 28 Jul 2026 15:34:43 -0000
+Message-Id: <178525288304.3859726.8727025342428906761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 9fd394ee5ff1d04d74aedc7033a95b2abee2a31e
-    new: fcf01b68b2a37798acc1b45c9b173353157b2b01
+  - ref: refs/heads/i2c/i2c-fixes
+    old: 0a4bb2abc3e56d7be6e69b050c88ba52c87e22bf
+    new: 00d86dd5c2034e0e139e4806137b3b43e07ddd83
     log: |
-         96cd41eac1f59d4fc04ac267ddfe5537518c0898 media: dt-bindings: allwinner,sun4i-a10-ir: add A523 compatible
-         2b24f538652803dcead56a60d11e031dd564b2ad arm64: dts: allwinner: a523: add IR receiver nodes
-         a3bd47e62cb2ebd96ebe5b9a8c2b95e13f4aea77 arm64: dts: allwinner: a523: enable IR receiver on the X96Q Pro+
-         75dc83d420aa134b88bb1900fb08d7745f698bff arm64: dts: allwinner: a523: enable IR on the Avaota A1
-         dfc735fd93e4814e65894916ec5f807f25a391d1 arm64: dts: allwinner: sun50i-a64-pinephone: Fix mpu6050 mount matrix
-         3683d4f690b83a3ec8df566aa153076bfe2eb3f4 arm64: dts: allwinner: a523: Add SPDIF output PH pin mux option
-         35ab3805401110513d49022db9e995069b892699 arm64: dts: allwinner: a523: Enable SPDIF on X96QPRO+
-         fcf01b68b2a37798acc1b45c9b173353157b2b01 Merge branch 'sunxi/dt-for-7.3' into sunxi/for-next
+         00d86dd5c2034e0e139e4806137b3b43e07ddd83 i2c: imx: mark I2C adapter when hardware is powered down
          
