@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6243101212593713739=="
+Content-Type: multipart/mixed; boundary="===============3026626720506131160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Tue, 28 Jul 2026 05:11:28 -0000
-Message-Id: <178521548848.3325964.3084120249273356011@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 05:11:34 -0000
+Message-Id: <178521549428.3326226.16007142369067649506@gitolite.kernel.org>
 
---===============6243101212593713739==
+--===============3026626720506131160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: c5e32e86ca02b003f86e095d379b38148999293d
-    new: 0d33d21e47d9dc66f91e44da3fc9220c74d93df7
-    log: revlist-c5e32e86ca02-0d33d21e47d9.txt
+  - ref: refs/heads/icssg-dev
+    old: c5ac26ed1e9f02e9653aab1fa9a885bfd20340b1
+    new: 9f0cef2c942f471aa9823635ff26c85e6e667056
+    log: revlist-c5ac26ed1e9f-9f0cef2c942f.txt
 
---===============6243101212593713739==
+--===============3026626720506131160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5e32e86ca02-0d33d21e47d9.txt
+Content-Disposition: attachment; filename=revlist-c5ac26ed1e9f-9f0cef2c942f.txt
 
-8782f9cee5864e406288487e61121dcb5f4f28ac mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
-0a4b6d46c0d6484b403dd70691795ba768415481 x86/mm/pat: acquire init_mm write lock on collapse to avoid UAF
-3adc33ec284badbce4009b552d91666e67b03391 x86/mm/pat: acquire init_mm read lock on attribute change to avoid UAF
-4b8f08782a9a1e4b9f57850f4fb0964f73fb0479 mm/ptdump: always stabilise against page table freeing using init_mm
-f8c7f66bc28e7afb757169964f2e9ea41dd79cec arm64: remove redundant concurrent ptdump UAF mitigation
-94d0744663830fa1470a75d7d314b7bb11a7e957 mm: decrement MTHP_STAT_NR_ANON in free_zone_device_folio()
-2995c022a25f266922b39fea22182f4dfa600754 mm/migrate: exclude hugetlb folios from MTHP_STAT_NR_ANON accounting
-31b768328bb01a5b71b7e0b4064009ef0edd3842 riscv/mm: use physical alignment for vmemmap_start_pfn
-9842bbfb12489a4310fa3c4543e3b0d112c8ff04 mm/huge_memory: unlock i_mmap_rwsem before releasing after-split folios
-723d35944f556251687435337d0ee43885697426 MAINTAINERS: update address for Burak Emir
-7bd50ac30a756cc747f0129c256608ebd985d87f arm64, mailmap: update email address for Peter Collingbourne
-f3cb0414386cfce208fd1116c7dc394890b11155 MAINTAINERS: update Nico Pache's email address
-3dd346576e6607901ce77d8987f17309fd169dc4 mm: vmscan: abort proactive reclaim early when freezing for suspend
-2d5346e4f6bbdee90f1310ba1019782f894ec453 x86/mm/pat: allocate split page tables as kernel page tables
-d4c29b58e33a51e1bf5f2ea1e4ff8dceda416a95 mm/page_table_check: skip special zero mappings
 d462dfe165e959faae75b86f2606ee5837ff67b3 selftests/clone3: fix wild pointer access of getline due to missing init
 7d652723412b4c4a1c604afa23934a9c60bbd408 selftests/mm: fix potential wild pointer access of getline due to missing init
 b9991ea2e631dbbf59708e6b54d15325fc095b56 mm/page_reporting: use system_freezable_wq to fix UAF during suspend
@@ -1050,5 +1035,20 @@ fbd67f161b57d6aafeb653e022fce1630603a44e Merge branch 'pwrseq/for-next' of https
 36f1cac95b13829ba5ffabb4fa47289ab19b300d Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 9dc226411127992e3051b6c113401dfd06dd7cb8 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 0d33d21e47d9dc66f91e44da3fc9220c74d93df7 Add linux-next specific files for 20260727
+d01fe3ac737afe273840b5c351b3d54cb616bab6 devlink: Add generic ctf_queues parameter
+ecc167f162ba2f609bc8033991b33f677546c872 net: ti: icssg-prueth: Add Cut-Through Forwarding support via devlink
+9534a44ee4ad825a5501e096d91300c0b6b843ba docs: networking: devlink: Document CTF parameter and add icssg-prueth
+9afc0aedf7726716eece52a7661301fe5a99be7e net: ti: icssg-prueth: Add Frame Preemption MAC Merge support
+6234cdc97d52f8f9db79cbd56a490c3c63a125bd net: ti: icssg-prueth: Add ethtool ops for Frame Preemption MAC Merge
+6a21f03f1dcc5603fad80d8cf1409b2f05879046 hsr: Add header_ops::parse_protocol
+321dc1b0ebed1cadea78e3c0a8913a254987aa77 hsr: Use skb_clone() while adding the HSR header
+1534409a72d10059f1a24384f8265aa3575e656a hsr: Add a magic header for sending PTP packets
+ea3e7d8354a5f362b0ffa938ba60fb0561bfe087 hsr: Drop received PTP packets
+17d926a55674eab880a7379c2c08615335ceda29 hsr: Use the port and header information in hsr_forward_skb()
+194a4af94d552db9aea937669d4e3f0a161d3f25 hsr: Assign a socket for cloned skbs
+18be604b1c5b065f2de712d42f284fec7c936d98 hsr: Move struct hsr_ethhdr to a global header
+30e1205e7c0df4aa1557ab2718cc402a0c086618 selftests: hsr: Add test for the inline PTP header on HSR
+5f539a27ab442fc2af146c8f68509ba4a151c5a2 net: ti: icssg-prueth: Add override offload behaviors for hsr
+9f0cef2c942f471aa9823635ff26c85e6e667056 net: ti: icssg-prueth: Fix link-local addresses being forwarded out of slave ports
 
---===============6243101212593713739==--
+--===============3026626720506131160==--
