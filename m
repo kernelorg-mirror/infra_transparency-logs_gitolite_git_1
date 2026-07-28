@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 28 Jul 2026 01:17:15 -0000
-Message-Id: <178520143506.3147909.3718043717260435654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 28 Jul 2026 01:18:51 -0000
+Message-Id: <178520153159.3148769.1935262484235955433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 97af50d418210c526bcf3d58eb4ad42f54e206e6
-    new: cc0b1fb16d8c99b5ebeb1c30991b87b5d89e74aa
+  - ref: refs/heads/dev
+    old: 13f88c0865be96e5da96dd30f974f68441d8a8e3
+    new: cca7d3e30bf30333314e31bc70b9a739f1342167
     log: |
-         e5eb6e00c0f858a3a586af66fead0da52115b9f3 foo
-         86600809afbc632e3c4ba6b5c428a75fa60e911f foo
-         cc0b1fb16d8c99b5ebeb1c30991b87b5d89e74aa foo
+         cca7d3e30bf30333314e31bc70b9a739f1342167 f2fs: fix dentry folio leak in find_in_level
          
