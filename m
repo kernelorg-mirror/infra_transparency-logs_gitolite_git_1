@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7071730290686752138=="
+Content-Type: multipart/mixed; boundary="===============8050696599211366071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 28 Jul 2026 11:37:10 -0000
-Message-Id: <178523863069.3680699.531607929189070603@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 11:37:45 -0000
+Message-Id: <178523866583.3681088.3508713812450963129@gitolite.kernel.org>
 
---===============7071730290686752138==
+--===============8050696599211366071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: b3dcc8c608fbb6352bd94932ba935f2078c9090d
     new: cd21fdcbef3fb32136f72075ab668b075423b3f6
     log: revlist-b3dcc8c608fb-cd21fdcbef3f.txt
 
---===============7071730290686752138==
+--===============8050696599211366071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dc59e4fea9d83f03bad6bddf3fa2e52491777482 Linux 7.2-rc1
 e89485455ac49925565061733c0d73d568333fc0 clk: imx: imx8qxp-lpcg: add missing MODULE_DEVICE_TABLE()
 cd21fdcbef3fb32136f72075ab668b075423b3f6 clk: imx: imx8qxp: add missing MODULE_DEVICE_TABLE()
 
---===============7071730290686752138==--
+--===============8050696599211366071==--
