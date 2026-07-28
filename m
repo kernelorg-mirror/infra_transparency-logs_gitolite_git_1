@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4326558541515855298=="
+Content-Type: multipart/mixed; boundary="===============8118842045729939097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 28 Jul 2026 07:39:14 -0000
-Message-Id: <178522435445.3475858.17710473214028670122@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 07:41:24 -0000
+Message-Id: <178522448472.3478882.8489361052594366253@gitolite.kernel.org>
 
---===============4326558541515855298==
+--===============8118842045729939097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-linus
-    old: f5098b6bae761e346ebcd9da7f95622c04733cff
-    new: ae21407350151bddfd4fea7aa39bd0643c0ca9d3
+    old: ae21407350151bddfd4fea7aa39bd0643c0ca9d3
+    new: 31dcdb3d95c809c9c2e2063ccfb99b9f3300a05f
     log: |
-         1c3e23e78862493e8cf1adad02b10ffcb8b9921c staging: rtl8723bs: fix OOB read in rtw_get_wpa_ie()
-         ae21407350151bddfd4fea7aa39bd0643c0ca9d3 staging: rtl8723bs: fix OOB read in WMM_param_handler()
+         2c56ef658ac8c6bca36bc5574715e8f717207c6c staging: rtl8723bs: fix missing shared-key auth challenge length check
+         2ed3fb243b31c296520b3e7b5ae0c5eefe049047 staging: rtl8723bs: fix OOB read / stack overflow in rtw_get_wps_attr()
+         ba27e07274dd1edaf1b33c90962daca178dd5508 staging: rtl8723bs: fix OOB read in rtw_action_frame_parse()
+         e87b00119f7cac50728bcf72ace706a82f89abd9 staging: rtl8723bs: fix OOB read in rtw_restruct_wmm_ie()
+         31dcdb3d95c809c9c2e2063ccfb99b9f3300a05f staging: rtl8723bs: fix skb->len underflow in monitor TX path
          
 
---===============4326558541515855298==
+--===============8118842045729939097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785224343 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785224473 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1785224352-135a5e86ee3d8343a899fe10ab009542fec8421d
+nonce 1785224482-9e6bdabbb0bb6389d43948c0cab8074b6a1be61f
 
-f5098b6bae761e346ebcd9da7f95622c04733cff ae21407350151bddfd4fea7aa39bd0643c0ca9d3 refs/heads/staging-linus
+ae21407350151bddfd4fea7aa39bd0643c0ca9d3 31dcdb3d95c809c9c2e2063ccfb99b9f3300a05f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpoXJcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++tIQAIy3Bj3drxDJ5iOXd+YQ
-5gaT8OX1g1MYXYoMJBQ/expTisfc9kDelMENupmhkyyqTLdhha6AK2OU0Z5AXclT
-fzjfNp4k7OxhFHd+ZKbNcBKvFEpMyhI49pBL04cXFSC32KlKMJA3taTNpt8nAFKV
-MhxZB9uEadNgwFG+Jjxvl1mzZsRR8tStDrKAdN9XeAHfZDZqU68gRyse9JnKNiS7
-naCS0llhBngdkz2IWp4amQftdqCpUVJwxXV3xOznM14BC0xfYkC57RnlBXLFtN3R
-mbThzGdjTILQGsOpIXFlpQKNMuLmjbeEm9WmrHxqMMhIa1RzI+Z5eLLwekZlcn02
-OhaZ6Br22noEBGeEQOJ2ThyeNQvVcv1AudbJFMGAQjfSgWUTjoN77vAmoz4egeWZ
-yiidrnRuKm6fHh9/wycP5kIRjgPq5ZBi/NxSZL7NJVGLxV6fck+b4L7dFvoGONDh
-lnX7yOqn5mzL5DH+tFXkAAdTuT70rUNyLaQXf3RZACns/omLRJT4q5e790laD7gT
-W2Ox+owyzATFqLGqq4uKnNbCPMTkXzami0+A8mzfQhANBu1KgmAnRo3KSWclLTWh
-Alh3MLT6RjFZ8S+NJM+X4iGQ3zffeo3PSmDUXx0SGpBgt+NpYd+BQQKipcUljq7O
-vNFsSbOXpCjl7GOESuSGcAdF
-=9Odt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpoXRkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++PEP/A5Q3g36f1/C4xCSGn0r
+nhT9K20JsmfcqA/uSE8rymApuHmb237ysCaYNhpQlMeR9ZGiC+rHpOWTHdi/sAMz
+t3pbcbMtdo2uDHI2CCM9gX8Lzq1WFiwSLgCh9Rf2+/Fb6f2H4kLnThcC2uBo8bIg
+sMOLj6QTDb0QXkKo2W1/6ljYGj/kmBvrn1vTxeMiFiEOT0746fyvfvcfLTNL+poP
+05F969Tscdtswe1ihzzq0C5lekhAFvIO4t4VesWcAZDocWjScSTqJbqkVF3KAhn5
+Z5Uw60rxC79dCxwlYr0cTPQrjZH1mK9oj7Nsxn5IKfXvOF0YVGSbLPDn7h1W0eTx
+JzzlGpocpKFSabt2GrXIj4+YBkJyKUqIIAxo40jrPsMsuCWOptpToM+sEft1DEz/
+pdz9XFxS4/FKJBDgv6w2say3xUl77yYgfso4EQk+FLmKLV0cErI2dqwshdJwY0Tn
+czfxo5/EWiTntzLzYK06bDpy0j5VFgTSiMI3FhzBNZA3ohM71JXKFlkgMKG38XnP
+JFoO2BtQX3qO9n+/PUrk2SVObn0U7HkPJkTLZCwn+89T5bGzFuRDnjfSj+0wx9nM
+A5GfAcfZCkBSDBVM0PNmKl6rSNZNbbvOxf+vVLFmp5srugjRlO7lPeGutgXo1AzG
+evI3IXzCg8wPak7oJtCIM3lH
+=3Rbj
 -----END PGP SIGNATURE-----
 
---===============4326558541515855298==--
+--===============8118842045729939097==--
