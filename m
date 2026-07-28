@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Tue, 28 Jul 2026 13:01:00 -0000
-Message-Id: <178524366092.3743961.1120713265990349060@gitolite.kernel.org>
+Date: Tue, 28 Jul 2026 13:07:37 -0000
+Message-Id: <178524405739.3748113.15712669809202206083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
   - ref: refs/heads/ntfs-next
-    old: b4be3a47f8ba4dc0e9de706e2159eac6a05342b4
-    new: 6b022dbb947995d1471c0b214b915e747b6cbef1
+    old: 6b022dbb947995d1471c0b214b915e747b6cbef1
+    new: 5a46d8b2b9bfff4a47f9d20be74984b5754994e7
     log: |
-         6b022dbb947995d1471c0b214b915e747b6cbef1 ntfs: reject unprivileged writes to reserved $LX* xattrs
+         5a46d8b2b9bfff4a47f9d20be74984b5754994e7 ntfs: simplify ntfs_reparse_set_native_symlink()
          
