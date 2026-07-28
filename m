@@ -1,21 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 28 Jul 2026 00:30:56 -0000
-Message-Id: <178519865647.3105674.5838913574914139537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 28 Jul 2026 00:34:56 -0000
+Message-Id: <178519889698.3107479.3357012780306018367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 14df043a34e125ebed2fe7fde6e5f159e2234b4c
-    new: 0d40fedcd1b9e809f966c97d40f32943fb89e0d4
+  - ref: refs/heads/master
+    old: 1f988c09f4feec7fa3dacbe844b3d1e98d0776b8
+    new: bf9b72db8885e99adb7a3ee64d7da834fc76854c
     log: |
-         bd86119c3ee6ed7b8fc9be8298fe49f1a5355a46 perf ui hists: Fix dso_filter reference leak and exit zoom cleanup
-         b84e081e071da548a531875258fa4b513d786331 perf annotate: Be robust to annotating without a thread
-         0d40fedcd1b9e809f966c97d40f32943fb89e0d4 perf ui hists: Remove duplicated thread in popup_action
+         006500530b6d3e3b2db2cef2dd5c9977de4db5c2 _damon_sysfs: set read damon filter memcg path to DamonFilter
+         89ab90dab723a0bb2a0fe8377195ac2ac7f799ff _damon: handle pgidle_unset type in DamonFilter.to_str()
+         63f8b10c82822efc5cfd03fba2b4ee4e6d6c9356 damo_report_attrs: remove unused BoxValue and ColoredBox
+         ebc7305b9cf3023493fcb45922697b30b5263f8f damo_report_attrs: remove unused rescale()
+         bf722f8cdc4fd9ee4b74777f61b89679e92719a8 _damo_records: introduce DamoRecords
+         fb5dda5a12303723e6666d1618faded893af3aea _damo_records: implement get_damo_records()
+         8ba6b5eb02528e6d75c92c987d8f381ba05ab6c6 _damo_records: return DamoRecords from parse_json() if appropriate
+         aac03a99a3939fa07defd6699f7d1f3043574ecc release_note: update for next release
+         8fd5e9e57a04a6d66e27926f2b913fe37b1cd556 damo_report_attrs: show max probe hits on intervals line
+         879d62434a10126b686e0acf7bc540ef24161681 release_note: update
+         bf9b72db8885e99adb7a3ee64d7da834fc76854c Update the version
          
+  - ref: refs/heads/next
+    old: 8fd5e9e57a04a6d66e27926f2b913fe37b1cd556
+    new: bf9b72db8885e99adb7a3ee64d7da834fc76854c
+    log: |
+         879d62434a10126b686e0acf7bc540ef24161681 release_note: update
+         bf9b72db8885e99adb7a3ee64d7da834fc76854c Update the version
+         
+  - ref: refs/tags/v3.3.4
+    old: 0000000000000000000000000000000000000000
+    new: a3b8203afd79bf1fad86ba594f0723d51bb494cc
