@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/xfstests-dev
-Date: Wed, 29 Jul 2026 09:49:36 -0000
-Message-Id: <178531857679.507127.17985816383845962551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 29 Jul 2026 09:53:46 -0000
+Message-Id: <178531882607.510823.15193569764810178278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/xfstests-dev
-user: chao
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/wip
-    old: a28ec78adac3ebe8330397c9f0ecf3189cb8221a
-    new: 5024fade63000d2ba8e2c7f0795325af9344e4b4
+  - ref: refs/heads/locking/core
+    old: 051f5d223dfc1806e216f60e4b29c1bf35f5c2d3
+    new: c94a32912389d87512033e5e9471de0bcce348a2
     log: |
-         ef6e50ccaf37542fc07493a486dcfabe1b24b951 common/rc: support f2fs in _require_fanotify_ioerrors()
-         968b6b9bb740af1176f4ba56402e362056a307c8 f2fs/030: test recovery w/ sqlite transaction
-         5c717e69150f7bc15b31f1471f89ae837bd2db70 fsx: check pwritev2(,RWF_DONTCACHE)in test_dontcache_io as well
-         5024fade63000d2ba8e2c7f0795325af9344e4b4 f2fs: add testcase for GC and atomic file eviction race
+         775e0f2284554e24855c4372faeb957a5e515337 x86/runtime-const: Introduce runtime_const_mask_32()
+         a6690350a4ae7558b39d15fcc776c4d1ab5bbf39 arm64/runtime-const: Use aarch64_insn_patch_text_nosync() for patching
+         7eccf137dc044c802f11d3d60bc7fc29066fdf92 arm64/runtime-const: Introduce runtime_const_mask_32()
+         ee10b1028129a73857593801614d5bf75a15b9c7 riscv/runtime-const: Replace open-coded placeholder with RUNTIME_MAGIC
+         3f0d06613ae58ae09c48915638692d093168abc1 riscv/runtime-const: Introduce runtime_const_mask_32()
+         2593da6abcabe0b9d93d1bb9affff5769e16e844 s390/runtime-const: Introduce runtime_const_mask_32()
+         c24195555982b292efa05762aed9d98dfebb6585 asm-generic/runtime-const: Add dummy runtime_const_mask_32()
+         45ac711e2f14833534a57f785f17e20873b1ba21 futex: Use runtime constants for __futex_hash() hot path
+         c94a32912389d87512033e5e9471de0bcce348a2 futex: Optimise the size check get_futex_key()
          
