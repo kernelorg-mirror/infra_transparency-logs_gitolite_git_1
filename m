@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6780407552567173626=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 29 Jul 2026 13:19:42 -0000
-Message-Id: <178533118253.675642.15964099266923884254@gitolite.kernel.org>
-
---===============6780407552567173626==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 29 Jul 2026 13:22:59 -0000
+Message-Id: <178533137943.679049.12958470085022223759@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: b10794223569ffbfddc8aa65d66d6c84896d0250
-    new: 4d3eceef367622c4ede3bf49a1624470efa8c106
+  - ref: refs/heads/nfsd-testing
+    old: fe521a9894e7ffed2a2eda9383622d4533ad655f
+    new: 1a4554b564f98c1f8f0762519c9018de912b7df6
     log: |
-         4d3eceef367622c4ede3bf49a1624470efa8c106 5.15-stable patches
+         d381c73d54257536df68397e53240da279a6c7d1 NFSD: Move the RPC program definition for LOCALIO
+         e2b2c0bfd7d716e445c1c1e6cd2bd92e8da08a2b nfs_common: Remove "#include <linux/nfs.h>" from linux/nfslocalio.h
+         cbe1f9382da0e1ad86cf9cc0f8bfd18ed56ea9d7 NFSD: Tighten header includes in localio.c
+         8635387511bc7f3aead5c80bcdd94abc73fe681e NFSD: Name the fh_maxsize value that carries no NFS version
+         1a4554b564f98c1f8f0762519c9018de912b7df6 NFSD: Don't apply NFS version-specific behavior to LOCALIO requests
          
-
---===============6780407552567173626==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785331170 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785331180-d5669811c58c7a4ac929a9c7fe8062d76fba639a
-
-b10794223569ffbfddc8aa65d66d6c84896d0250 4d3eceef367622c4ede3bf49a1624470efa8c106 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpp/eIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vpUQAIGff+SawM2uVJYizVUK
-WkJaC77/DQ7xotU9ebx3XSHytyBJM+R9ngSbpvR6LDYxJfDvoEgpWcHZZ8OgQkvn
-wATnZFDZBvFnLSM6kNRGW7to3Rx9qhpxVExEe7952sMI8ZJEmuehbHJbiXMdtil0
-pO+xceAnS8rK3k2yUk6O4bWvMSMGU4DExzhtGmW0NOqg1N4qkcfSbGFRqWQ8FtW6
-ELXI0oOXj/aFD1Qx1Tt9MkBHM/qcc+auvnn+tVLinyXUkVpS/rw+2wHyEUi5nhC1
-2X1A/h73ZR6Q/Chv45an70fSDuChXmsjBPC5vjsJUZlqPFTuXyOAfILfSG/BT4AT
-MzUup96/eYWXmIkPM+h+QiObVGYkIqTZnwpUI9TV3ofVgancFB+p1iNBWZIheCar
-VtMaP1sGeWAmEJ6YH9XicNcKGZrdJb5qMMp2tF+CPJqwkTZuGqaFCTtyt/y3epOL
-uTENEz5GmMqZWTUapnNxmzf8eV0rVqsLXBZst51+0A4SQKHRFkYUNpTZ+ozpD24i
-4wa+RbFGJ12Y9aPtkj6DlGsb0rC/7zmxXnDdbGEHK4yczLmGD/7TeQDHi/71tthv
-4YVmjw+HBRlTPl6hXrlJusZ9BEYrFlUIqTd6xCUTNkIgorTPsce1Mk3w0symBMCN
-CFuEQLqL4tELOUv/VQ9fqLgi
-=Z93J
------END PGP SIGNATURE-----
-
---===============6780407552567173626==--
