@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 29 Jul 2026 19:46:23 -0000
-Message-Id: <178535438363.1089242.13500022707820494175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 29 Jul 2026 19:55:56 -0000
+Message-Id: <178535495648.1096046.17937108534259037524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 87c86183866a96a603addd905b988914f209136f
-    new: 2e2d8a4c143ee999cd598dc3ad96e7c50032ea9d
+  - ref: refs/heads/x86/urgent
+    old: a8c171c107c0b61a5e7e10cedab0fb72aeaf640d
+    new: 52075128273ace53e6254e37899a47d40d4baf45
     log: |
-         d91f147112ba46e443aac2d45777824362365dcb riscv: unaligned: stop using kthread for check_vector_unaligned_access()
-         2e2d8a4c143ee999cd598dc3ad96e7c50032ea9d Revert "riscv: hwprobe: Fix stale vDSO data for late-initialized keys at boot"
+         52075128273ace53e6254e37899a47d40d4baf45 x86/CPU/AMD: Carve out a Zen5 models range
          
