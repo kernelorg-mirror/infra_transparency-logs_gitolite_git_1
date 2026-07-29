@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5099764272243839882=="
+Content-Type: multipart/mixed; boundary="===============0131853870113832651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 29 Jul 2026 11:14:40 -0000
-Message-Id: <178532368044.573191.16328738239749436323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 29 Jul 2026 11:14:44 -0000
+Message-Id: <178532368489.573431.5094770387725161163@gitolite.kernel.org>
 
---===============5099764272243839882==
+--===============0131853870113832651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-7.3
-    old: 9396a1d9e14237f857046c0677ab24f3d5df340c
-    new: 99bc5744e966911e706b857feba7cd877ec3ccb4
+  - ref: refs/heads/master
+    old: f73b9782025aaba9b469f882ecb59fb28fa16ec2
+    new: ca9c4068015d52aa5f4db7d083f5e3aa9e5f9ff5
     log: |
-         bde9b2c351c8009a270054d3822e164af0ecfdb0 regulator: dt-bindings: Add fan53555 allowed modes
-         99bc5744e966911e706b857feba7cd877ec3ccb4 regulator: fan53555: Add support for mode operations on Silergy devices
+         ca9c4068015d52aa5f4db7d083f5e3aa9e5f9ff5 6.12-stable patches
          
 
---===============5099764272243839882==
+--===============0131853870113832651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1785323678 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1785323678-0a4e68967cb7a7a79edc5f60a83ca830cd55af32
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785323673 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1785323683-0f7b5c520da6cfaef771cfddc230910bcad06003
 
-9396a1d9e14237f857046c0677ab24f3d5df340c 99bc5744e966911e706b857feba7cd877ec3ccb4 refs/heads/regulator-7.3
+f73b9782025aaba9b469f882ecb59fb28fa16ec2 ca9c4068015d52aa5f4db7d083f5e3aa9e5f9ff5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpp4J4ACgkQJNaLcl1U
-h9AfsAf+KI/YctMalrn3B1pU3+4AaICzBMlnua1gWcvmdJJwcpwFcuRl9oDHx5Ns
-Cxde3Bqoil0EvN4fVgg/nUmMWfe91jtjBbF08BH/hSIdWswd465x7/Pu+2a6zIwc
-HFp5142RTkHaB8++Bd6bCPaD6fC9qDkLWUhoSXd73Wol50pWQYS8SSO6W1uT5Uv0
-mXEo+JjuR/qjYOFSm+MI+p3YlKHsKQL+6yrp+pK3ipqNYReaXDOzdZrpdyALfk+9
-rz4wlDGW+hidKS0oOxZYQkD913IIvh9JGWcs2y95B1Ii8JD91lsmP6UDhq5UiuzX
-hLDkQ4esN0LxyDA/hh8azvw9o5z/3A==
-=9LZz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpp4JkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kMEP/RmWPBB7kBNXPic2fQ/j
+uu6X2Tqq+1qAVeIyhe+RYMD9Mj5cww+2t3DpzosC79SfbWrqPqq8/VNkEICB20RG
+A2Gel2rUbQH5BOgZlbFpRmCr9ZxfZS8DEwYmi3zpfR0ovCzCOhY2opP7UxLXqFVU
+Hy5YyIBlCNoTGVIjAxot2Iq8dZ7xw7p2SFuFuPNnHL/Fm8ZJgiK+kq8UTe4ldz3h
+nBJJsN5R8i+pvaRm445HgmGko7leFOy5T/k9Eky3VBzNMyGw4wztbPYY3mBHzo5F
+l1Px9csmh5nMgGZhvPLlY0xfBLePVDsFnu+Bt8gCcVm/hr56xf0LXe3N1UCfXG5d
+m9eUeMA4l7p+DjzGWCmWVazLuJkbYAqdp/0gFPxzh5tUoOn3Teaz0AFvm/ZoGwTG
+ZkuDzBkuZlNDVdqwg5bGiwRq0iTiD1thu/0840kjUmyE/RxtQyIWCZehHaZ3MLQI
+6hu01yUCsB/Px9YQK5UvgWiihSsAf9UiT3NZQZmmYkT+561h4ehn9coJh7i7l/Db
+f+4kk4DVCqbGrEFbam6AmHq4/kAihVc20SmLzPdIj/DdRl3sgi0U1y1KB0LKFfCP
+4/Nf4dbOnFZ0YXmyrHevjh3VwGoOcV4lMq9G3J9jybQaeWnA9oh7xQgXeLuwhSBS
+/ewSEP8oKvBQ4M8KjgMs4vrm
+=7SQa
 -----END PGP SIGNATURE-----
 
---===============5099764272243839882==--
+--===============0131853870113832651==--
