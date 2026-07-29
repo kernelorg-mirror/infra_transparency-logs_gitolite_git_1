@@ -1,46 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2800493631034237370=="
+Content-Type: multipart/mixed; boundary="===============1519838454921923547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 29 Jul 2026 09:16:55 -0000
-Message-Id: <178531661579.483218.13576584222904451005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 29 Jul 2026 09:20:15 -0000
+Message-Id: <178531681573.486617.18173686125395311895@gitolite.kernel.org>
 
---===============2800493631034237370==
+--===============1519838454921923547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: c990e71f3011fdfff52400885575dc14dae5e2cd
-    new: 8d94e1a0acd5c2ef16e583adabdf46680677a0a8
-    log: revlist-c990e71f3011-8d94e1a0acd5.txt
+  - ref: refs/heads/master
+    old: 62cc90241548d5570ee68e01aaba6506964e9811
+    new: fc02acf6ac0ccde0c805c2daa9148683cdd01ba8
+    log: revlist-62cc90241548-fc02acf6ac0c.txt
 
---===============2800493631034237370==
+--===============1519838454921923547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c990e71f3011-8d94e1a0acd5.txt
+Content-Disposition: attachment; filename=revlist-62cc90241548-fc02acf6ac0c.txt
 
-838aa8ffbe32d82b866d947b530820fe140c8253 sched: Skip class callbacks with SCHED_FLAG_KEEP_PARAMS
-0b53e9e37946cc17ff36f259c812690b9b191641 sched/deadline: Skip bandwidth accounting with SCHED_FLAG_KEEP_PARAMS
-908c93c2de609cb3fd084893d334e41605b668a8 sched: Make NOHZ CFS bandwidth checks follow proxy donor
-b43c9b51acd314c29487883ca6d9e2ade7403269 sched/core: Avoid false migration warning for proxy donors
-db98e4f53b798083681fc3d6e576890d14e7971d sched: Add prepare_switch() class callback
-8cee9084ddaa4dfa5a3c9faef447de795229c5bb sched: Add helper to block retained proxy donors
-1abb4248c6a8ce77ae181f0ae06078193ad6aedc sched: Add sched_ext hooks for proxy execution
-3f078a7b629d048844e1e6eef36f807f1c83096b sched_ext: Block proxy donors across scheduler transitions
-deaa213edd9340d8c59c594629be95139d4195c5 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-c3c0dc2d99acaaead12926ffe1e45a599b05f71b sched_ext: Generalize the reject DSQ reenqueue path
-cb5bf27ec9e043afc962bb01c13dc8c06885327a sched_ext: Handle proxy-exec races in remote DSQ transfers
-345cfd231abeec43d7e0293da33b9bc4c4079851 sched_ext: Split curr|donor references properly
-39096b26ac9ef78b6d76a3408b05705e41b98b46 sched_ext: Delegate proxy donor admission to BPF schedulers
-437efe8cec0d8dc144d492e34c2b6287c0812590 sched_ext: Add selftest for blocked donor admission
-bfe4c6e0e299894d575def34b7eab0f247b51e61 sched_ext: scx_qmap: Add proxy execution support
-8d94e1a0acd5c2ef16e583adabdf46680677a0a8 sched: Allow enabling proxy exec with sched_ext
+c1f3e770eec26d6f96dd6d2ea30555ba7c09a244 fortify: Disable -Wstringop-overread in tests
+b3a7aa9c0020ae549a0d4964867ff66d2bd61709 selftests/lkdtm: rename STACKLEAK_ERASING to KSTACK_ERASE
+3421b9b056a6576d0ebac1030eafb48ad0544092 selftests/seccomp: Fix pointer type mismatch build error
+6881f45d0eb541f2cee8c37c84b3860a23823bb3 btrfs: fix leaking BTRFS_FS_STATE_REMOUNTING flag
+1ebe51c29fa9755d5b2fea28727c051117907cf8 btrfs: zoned: fix deadlock between metadata writeback and transaction commit
+5fabb1cf25d723274009d7b759545fd59f230c9d btrfs: zoned: reset meta_write_pointer on zone reset
+51a0e8399858621442807a26057bcd1cd3ced046 btrfs: skip global block reserve accounting for rescue mounts
+c438d34ec1eed4d23e2081d61c5e96f5176898a9 btrfs: report missing raid stripe tree root during lookup
+330dcc553f282e8dc0b88c9495b4c296465364e1 btrfs: raid56: fix an incorrect csum skip during scrub
+8bc4d7209611e8aa9d5409b6a4a86a9eb91b69a3 btrfs: zoned: fix missing chunk metadata reservation
+0d214d14be503f16238999723acfcbf63f04cc8b btrfs: initialize 'args' to avoid compiler warning in btrfs_ioctl_get_csums()
+ab602da96a915d42dcb1b0b322e8daea0f71b51f btrfs: zoned: skip fully truncated ordered extents at zone finish
+c4c0673e4cb15b0c127e6d00732a2427bdd12c11 btrfs: raid56: fix scrub read assembly submitting no reads
+39490ec6063d9dc3d995b7b48fc5106cd361a547 platform/x86: dell-dw5826e: fix ACPI _DSM function index and bitmask usage
+3b5f4b83c4abc0c9b0a7b9e2b44e816611b7f2ec Merge tag 'for-7.2-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+609f036d8b93f17d18dc904eecf50b2b086772f6 Merge tag 'hardening-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+fc02acf6ac0ccde0c805c2daa9148683cdd01ba8 Merge tag 'platform-drivers-x86-v7.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============2800493631034237370==--
+--===============1519838454921923547==--
