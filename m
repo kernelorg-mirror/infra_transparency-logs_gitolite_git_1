@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Wed, 29 Jul 2026 02:44:22 -0000
-Message-Id: <178529306223.170672.18302964044113282199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Wed, 29 Jul 2026 02:49:16 -0000
+Message-Id: <178529335628.174438.13008047297912738725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/spacemit/linux
-user: dlan
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-clk-v7.3
-    old: 8abba78dc0ee4ffa7c4e0e05b93c58bd94ff11c0
-    new: 8a7d4b1924d2a424b1a6fe69de4f9464ee1fb485
+  - ref: refs/heads/socfpga_firmware_for_v7.3
+    old: ef7453e1f986813d8bf734af33088e34bf91f70a
+    new: e69b8bcb1251728cb3fe79d1a6d1115509e10371
     log: |
-         cf59a8742581aa4a026b20c7a413be06f4fc9831 dt-bindings: soc: spacemit: k3: add i2s_sysclk, i2s_bclk_factor and i2s1_sysclk_src IDs
-         e6b17a690c2f920963d6a9328642bb090f3be587 clk: spacemit: k3: fix i2s clock topology
-         8a7d4b1924d2a424b1a6fe69de4f9464ee1fb485 clk: spacemit: k3: fix missing /2 factor in i2s sysclk dividers
+         728e9895bd648760fbac90f32a679415c44068a6 firmware: stratix10-svc: add async HWMON read commands and register socfpga-hwmon device
+         e69b8bcb1251728cb3fe79d1a6d1115509e10371 hwmon: add Altera SoC FPGA hardware monitoring driver
          
