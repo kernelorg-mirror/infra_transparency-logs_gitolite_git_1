@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0805870317887545298=="
+Content-Type: multipart/mixed; boundary="===============3744657145520914668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Wed, 29 Jul 2026 08:29:23 -0000
-Message-Id: <178531376325.446796.5768458578228811745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/xfstests-dev
+Date: Wed, 29 Jul 2026 08:30:12 -0000
+Message-Id: <178531381246.449067.1121041685150760102@gitolite.kernel.org>
 
---===============0805870317887545298==
+--===============3744657145520914668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/spacemit/linux
-user: dlan
+repo: pub/scm/linux/kernel/git/chao/xfstests-dev
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: a7259b5e9e1d93fca0e898ec58d50e3e577e814f
-    new: 83dd834e4b6f78b7888ed83fc2285b1a9b82ec6d
-    log: revlist-a7259b5e9e1d-83dd834e4b6f.txt
+  - ref: refs/heads/wip
+    old: e2cefd7ea981fa86a60344c7e8cf0796a52a054d
+    new: 7f54c7711c2714416142be0a9368a392f772fc9b
+    log: revlist-e2cefd7ea981-7f54c7711c27.txt
 
---===============0805870317887545298==
+--===============3744657145520914668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7259b5e9e1d-83dd834e4b6f.txt
+Content-Disposition: attachment; filename=revlist-e2cefd7ea981-7f54c7711c27.txt
 
-46380e4b1534c1626cecd7f4d0abb5e0cce09af6 riscv: dts: spacemit: k3: add USB controller and USB phy support
-cd01c677869affe1b01403ca2fad8fc0fe85e8bd riscv: dts: spacemit: k3: add i2s0-i2s5 nodes
-cf59a8742581aa4a026b20c7a413be06f4fc9831 dt-bindings: soc: spacemit: k3: add i2s_sysclk, i2s_bclk_factor and i2s1_sysclk_src IDs
-e6b17a690c2f920963d6a9328642bb090f3be587 clk: spacemit: k3: fix i2s clock topology
-8a7d4b1924d2a424b1a6fe69de4f9464ee1fb485 clk: spacemit: k3: fix missing /2 factor in i2s sysclk dividers
-9b371a8b13fd0e8e6f3b12f4ef7e58927d6f62ee riscv: dts: spacemit: Make dtschema recognize the etherent PHY correctly on K3 pico-itx board
-bff5af3c934740481a316c5ae1cd4a09a43134d0 riscv: dts: spacemit: Make dtschema recognize the etherent PHY correctly on K3 com260 board
-10a96e100f5703cc91badad6c51664ac95f1dc8b riscv: dts: spacemit: Add cpu scaling for Milk-V Jupiter
-3bfa529c5a414f941dae1561c9f3b0733b2f2dd4 riscv: dts: spacemit: Add a common board dtsi for Milk-V Jupiter boards
-c479165905d5ee651666af98477d5721898a8252 riscv: dts: spacemit: Add Milk-V Jupiter board (M1)
-741657cf076b8c9ac422dddb1aaca2ea5e37a345 Merge branch 'spacemit-clk-for-v7.3' into spacemit-for-next
-83dd834e4b6f78b7888ed83fc2285b1a9b82ec6d Merge branch 'spacemit-dt-for-next' into spacemit-for-next
+2c13d0a4a5546ece9046984816b5281e5da3e11e xfs: remove the v2log group
+921e3466e0f7e168b4ce4376f5eb2dabc8cd7868 common: log mkfs output in _test_streams
+b2e97cf30043334a72efaca4f860bb4768b95722 common/rc: fix mount options quoting in _mount
+eb4a22ad79b9f5505f6a9da62b47ebfba1feb6e5 generic/062: filter setfattr --restore symlink-safety warning
+8c2fa9b73b15a35ce6d8822b686fc547091ee79c fstests: generic: add a basic cachestat test case
+b3ee9a117b00250c2ec6233d7a47aaf847be474a fstests: btrfs: new test case for leaking BTRFS_FS_STATE_REMOUNTING flag
+1cd5dcb0545d27f46afe3c816817d06cc240ec87 generic/270: kill fsstress by exact name
+748bab28c5936fe8c4ce0ac53fa84fb209f7b2de xfs/333: require external scratch device
+1cca2bc0d7a9462bb1b59edb108bac7c9e7c424d fstests: vfstest: skip rejected tmpfile creation
+1e30cedac5abe8c12e47819ec41ebdcd32cb3c6d xfs/656: rearrange directio pread/pwrite for zoned filesystems
+154d755aa1df69884f2451e51b175a4d66329b4d xfs/65[56]: don't unset SCRATCH_RTDEV here
+56c410ad0f69da5b13c5807bc47b4876dcfa02b2 fstests: formalize and fix disabling the RT subvolume
+58aa4888f6b4c4e2a5faec8ed1256edef7e1aaf2 common/rc: support f2fs in _require_fanotify_ioerrors()
+1354cf6c31f29ac083be78539edc859bf6e03c6a f2fs/030: test recovery w/ sqlite transaction
+d0d90d356ab140c1358c045b6459319850b18602 fsx: check pwritev2(,RWF_DONTCACHE)in test_dontcache_io as well
+7f54c7711c2714416142be0a9368a392f772fc9b f2fs: add testcase for GC and atomic file eviction race
 
---===============0805870317887545298==--
+--===============3744657145520914668==--
