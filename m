@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7628363798742731789=="
+Content-Type: multipart/mixed; boundary="===============5559258160268827385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 29 Jul 2026 01:55:25 -0000
-Message-Id: <178529012566.136654.12122361972785686651@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 01:55:28 -0000
+Message-Id: <178529012853.136868.13522517174760673697@gitolite.kernel.org>
 
---===============7628363798742731789==
+--===============5559258160268827385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2a4faffc103297c4822bb269d521249b75cc2261
-    new: 6e832cea00bd7b1b91e9b737fdbeae201f256e00
-    log: revlist-2a4faffc1032-6e832cea00bd.txt
+  - ref: refs/heads/mm-unstable
+    old: aedb150e27b7e8b7df3191a09e3a06c7ed8bc918
+    new: c05a0a2c8d1408624977ca8e16e4ae273e9e8066
+    log: revlist-aedb150e27b7-c05a0a2c8d14.txt
 
---===============7628363798742731789==
+--===============5559258160268827385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a4faffc1032-6e832cea00bd.txt
+Content-Disposition: attachment; filename=revlist-aedb150e27b7-c05a0a2c8d14.txt
 
 1833ce36b35426504c64600c94f322437ea44bb2 mm: memcg: initialize *locked in memcg1_oom_prepare() stub
 4bd0c3515a041d9aa1558c4e8ea0efdb56509f9a mm: decrement MTHP_STAT_NR_ANON in free_zone_device_folio()
@@ -639,26 +639,5 @@ ad6838399053b08b45d4a3ea271fdc665d43ae52 riscv: remove unused __late_set_fixmap(
 c50e77306bd5c86b6fcc5586b9e5e48cf87ab453 mm: page_alloc: move capture_control to the page allocator
 74e7b7d65f1e18caaff8565a07a7544aa46e7adb mm: page_alloc: fix non-movable reclaim storm in defrag_mode
 c05a0a2c8d1408624977ca8e16e4ae273e9e8066 mm-page_alloc-fix-non-movable-reclaim-storm-in-defrag_mode-fix
-806910e85a9df2df5f367d60c470f92b2adfd97a mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-2ae2410b5e7ac49d940aa84f8fedd22be863f41a mm/page_alloc: boost watermarks on atomic allocation failure
-9a2940b38704e4fb81f0e2a5b60802f00240f311 memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h
-ce87c647a13f8cc29de2e28f1f14bebfc7a522d9 mm: vmscan: fix node reclaim ignoring swappiness parameter
-dc42adffdbd5826e8ab76636f8343c3cd246b899 mm/vmstat, mm/memcontrol: add _monotonic vmstat readers
-0448aedc53d49437281c52d43eca19be03d73c61 mm/vmscan: reduce lru_lock contention via vmstat-derived scan-balance cost
-02d75f2fa608764c43c27b323f7a24ca24a8b5aa selftests/mm: fix gup_longterm EINVAL error message
-aa09d2b24c18f7060a8d93caf38a8aa751f3b8e2 zram: move lockmap to be per-zram instead per table
-6944bf81ea8997edf6e71984cd6d617dc1999c2c zram: use a custom key for each zram object
-22627cf954e927315cc846612d25fe76a6b725e0 mm: memcg: stop reclaim when a limit update is superseded
-e2dbd8fe9ffa7e22270cefa1056ba0b78f40c329 mm/migrate: report RCU-tasks quiescent states in migrate_pages_batch()
-36bb06c5c00701bbfbd297c5fbf868d00d6f668e mm: fold userfaultfd_rwp() to false without CONFIG_ARCH_HAS_PTE_PROTNONE
-75e8ab4d3ad540cf98f19da728fef7694b6af649 ksm: stop iterating VMAs when ksm_test_exit returns true
-fd201959943077f1bcc458797288d43e5a43fc8a mm/page_reporting: add page_reporting_delay_ms module parameter
-b94e83f3ae2df4a179d85664c8925fd5fd77e2ed Documentation: zram: remove sections numbering
-898e50e29003f5728ee8300b71de172589a4d714 mm/zsmalloc: fix release order of locks in zs_page_migrate()
-f569ccae03b25356a7a5b31d873eaf20b669dab1 mm/shmem: downgrade final i_blocks check in shmem_evict_inode() to pr_warn()
-d732aa4e159c213931b221eec10762647b7adacf mm/khugepaged: replace mutex_lock/mutex_unlock usage with guard macro
-8067aa0cdafeeed4ade1da84328c4257813b6523 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-94a685fc36e04dad2edbca2047b839e87210e5bd mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-6e832cea00bd7b1b91e9b737fdbeae201f256e00 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============7628363798742731789==--
+--===============5559258160268827385==--
