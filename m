@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8903793068435175614=="
+Content-Type: multipart/mixed; boundary="===============8406776419161649366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Jul 2026 02:56:11 -0000
-Message-Id: <178529377144.182168.8532145204276377483@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 02:56:42 -0000
+Message-Id: <178529380268.182694.17384534969792890911@gitolite.kernel.org>
 
---===============8903793068435175614==
+--===============8406776419161649366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 79c894f215938f727f354e585f2e4d76e4336de8
-    new: 7ef2744a0e05305203ad0d6046667990147d70c8
-    log: revlist-79c894f21593-7ef2744a0e05.txt
+  - ref: refs/heads/7.3/scsi-staging
+    old: aec9f1f18ffdda04b4d68ddadbc3d893eb3a9cbb
+    new: d756863c9bdf7a85a3fa7fc2886aa32023fe7f76
+    log: revlist-aec9f1f18ffd-d756863c9bdf.txt
 
---===============8903793068435175614==
+--===============8406776419161649366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1785293744 -0400
+pusher 75C5DE3D 1785293778 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1785293744-b55a5d4c46330d2700b17a75a70cac2f941d6a35
+nonce 1785293774-14858950d55994adffc9e420d2bb1b70c3266ed9
 
-79c894f215938f727f354e585f2e4d76e4336de8 7ef2744a0e05305203ad0d6046667990147d70c8 refs/tags/mkp-scsi-staging
+aec9f1f18ffdda04b4d68ddadbc3d893eb3a9cbb d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 refs/heads/7.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa7AACgkQ7ulgGnXF
-3j0k2Q/8D3a/BC1MY+M+zjmizxFHkFPZCT12onba7wDFjfxnzsOuUU+Stwo2wi9+
-tzcCj9mMPfkDOCh5Gp8WThjXV7ds8MR/uoYWxDP29vQ+HSoVKyut3taZ8h2MY4/h
-64LrFbUMms6iBuXzLfhU1iIUWyDSPUgK77M/bHl23Q7XRAazkMp/SRMiGpYFZqI7
-21zjwfb/KGAfx7LhmWwMp7C+Ryzi74ea3DodUbE/W3no6vNn+51osLU+KVvofXoR
-xbHxAOWGysAI2KW6LxX45qUdE9lXivSXxSNTVxNGYVq9jQnsfY/ImExASKurVKzg
-rokgdc4mrsAdvMbASuj77hQtTM/i0sWVCVo4cZHnehhI/mzpPO1Dhx0r5Xo8YoP7
-86fHF4bFX19MIUbYyccMFi1wd3EsgS78689bXDqOy2ZJ9yKcYNRopCGP3hc4qXmR
-/NKRHs+Am8pWEOVHA5iTI/HPtAkDHEToPCzaJukcEXJlxVcXCbVXrE4IJ+lpgE6D
-cwLEW+CEEuzsjgNv+z8e4fSNcNDXdhETHwDo3CMDbeBK78ZbZZY91CuTg4YPaXXm
-ScihQgoiTvlmrme0rIar6RKV8fra0ziUD2RU49P82LEFBUl1CuS7AGtjJoDcwK8M
-7cvgDqCnommIRGitzdLZHGfjFhJqjL0Gp7b2Pij2eQ7rdgpB9D8=
-=Bpy5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa9IACgkQ7ulgGnXF
+3j2VQRAAtSIdhCmN7ja/mYSiUQUSOfBptmrFC7Yh1Jpyx1UGXJyr6qI6kDdl4MjQ
+tUpzyhu3OtDGpSsdSMDzo8WPoRx4OCaUbNFktSyi/E9Cw9GtV6xFVMlA00C2E/Gg
+UCnlblsfur8wDsnvhR+lw6okDz9AiIW3ZXMu9WtjKi4XbKeE+/SEExfMUkFOA+kU
+h27pYtYip9SmLbBmfEASIsp+e2DsG0xrzXfc0txskyFaxANfTvQ+y3HC4q/Et4bq
+Z6vWLs6Hw4fbGa48SO7QX4OtnINjMplCip5qKD6nsu+PCTZkRPXhUbqKBShppLUH
+DGm93XVoAlEo1DXetE8FR/X3OKz22K0NaGOu2KkktpRhAza6pUsdPKt4hPWnei0C
+XqkmBOmtnvLLRJWK+SRJYi8adALGgzzvjIbdlfCIzPnMNasaP8C/tCudCz8QM79Q
+FjGToE++kuqQ0kSMu5aiUJkQUohldppDvcIf7r7ltOkCbOvblxGwFvGEjr9ecIWC
+WEu4/P3wAUJVr4BIpIdVOQcQlGlz2zpanLCJ9CuaXdCBx+dSNdIH0XPyINBKNeUj
+CBMTRdnZFE8StOHZQ1N25qwHf5q21QRqYJCyoW/1mpS8/5y7kXLadKmSt3HitSap
+eYzhlLX9SAmT5qOw3DuSlHOpyvAqUmAkUFgi+x3y3UGLrcvwDcY=
+=JmnN
 -----END PGP SIGNATURE-----
 
---===============8903793068435175614==
+--===============8406776419161649366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79c894f21593-7ef2744a0e05.txt
+Content-Disposition: attachment; filename=revlist-aec9f1f18ffd-d756863c9bdf.txt
 
 51d182826659989db25f841b191dd5ed07135569 Merge patch series "scsi: mpt3sas: add hwmon support"
 9b61402740eb993fc2cb6c2c2d5e74f6be15ddca scsi: dc395x: Remove unused variable 'fact'
@@ -124,4 +124,4 @@ c79f9bf2d87f34904d9ae38f198929be2b4313e2 scsi: mpt3sas: Remove conditional retur
 2ad156d5300a24f21059432649dc0b726bcdbaa2 scsi: MAINTAINERS: Orphan the SCSI tape driver
 d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 scsi: isci: Remove unused macros from scu_task_context.h
 
---===============8903793068435175614==--
+--===============8406776419161649366==--
