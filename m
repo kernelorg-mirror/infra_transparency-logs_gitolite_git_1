@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 29 Jul 2026 06:33:26 -0000
-Message-Id: <178530680659.362912.9729992364370808336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 29 Jul 2026 06:46:21 -0000
+Message-Id: <178530758112.373683.11072667552370395777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: b049e3e5329af699dd6d057eeb3da6473a659373
-    new: 99fe195c0aa5a88be5033f87cad22bc32d27cbfe
-    log: |
-         99fe195c0aa5a88be5033f87cad22bc32d27cbfe b4 tui: quit on capital Q, warn on bare q
-         
+  - ref: refs/tags/ipsec-2026-07-29
+    old: 0000000000000000000000000000000000000000
+    new: ce6f95d3ec281fc7eff43bca6ea3b8ca226d1c1d
