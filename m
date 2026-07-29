@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 29 Jul 2026 16:17:38 -0000
-Message-Id: <178534185817.928259.9627891718026982725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 29 Jul 2026 16:18:49 -0000
+Message-Id: <178534192958.928998.15484912661754656796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: c2b9620359b759d2c73be47689b3a344cb4e091b
-    new: 5a53462aba161e809de90d45f2a39510a88b6ede
+  - ref: refs/heads/spi-7.3
+    old: cb2902c3866297df3560f33d6fbc3cf9de6c7442
+    new: ea408a05dc8f18b4a184b88d6e19d2fd1acc1527
     log: |
-         5a53462aba161e809de90d45f2a39510a88b6ede PCI: dwc: Force L2 entry during suspend if the platform powers off RC unconditionally
+         ea408a05dc8f18b4a184b88d6e19d2fd1acc1527 spi: davinci: switch to managed controller allocation
          
