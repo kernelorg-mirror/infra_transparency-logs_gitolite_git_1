@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 29 Jul 2026 11:58:07 -0000
-Message-Id: <178532628784.609300.150238251334184595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 29 Jul 2026 12:00:24 -0000
+Message-Id: <178532642471.611954.12077404424261850018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 17bc9b92e1ad6dd785b272e497be500cd4c33307
-    new: 0b52abb010aa86ba601dd568698fdf45ab4d2e2f
+  - ref: refs/heads/spi-7.3
+    old: 79052a6a6f5b019d24efbbb934f2d77a1db75211
+    new: cb2902c3866297df3560f33d6fbc3cf9de6c7442
     log: |
-         bde9b2c351c8009a270054d3822e164af0ecfdb0 regulator: dt-bindings: Add fan53555 allowed modes
-         99bc5744e966911e706b857feba7cd877ec3ccb4 regulator: fan53555: Add support for mode operations on Silergy devices
-         0b52abb010aa86ba601dd568698fdf45ab4d2e2f Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
+         a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed spi: spacemit: Correct TX FIFO slot calculation
+         6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 spi: dt-bindings: spacemit: add K3 SPI compatible
+         d3c87e71539cb183ea6173a99dc0e6f84fa0bc4f spi: spacemit: prepare both DMA descriptors before submitting
+         90ef2f2961c2dc55957dafe2f53b3efdb4675efc spi: qcom-qspi: Correct max DMA length to avoid 64K boundary failure
+         d9eadfce2fac49445db40808fe4d8259f20a9d2b spi: spi-cadence: Move TX FIFO full busy-wait into FIFO
+         8fd62901d6bf03f274a49dd0060793cc07dd51b0 spi: spi-qpic-snand: write the feature value before executing SET_FEATURE
+         cb2902c3866297df3560f33d6fbc3cf9de6c7442 spi: Merge up fixes
          
