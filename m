@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 29 Jul 2026 20:35:12 -0000
-Message-Id: <178535731274.1125059.5780208515418830629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 29 Jul 2026 20:38:01 -0000
+Message-Id: <178535748169.1126362.2177365449909975103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 01e407f4917c032d7f5daa8e63269e6f66c77e5b
-    new: 44a39816e8e9a5ef753d3aa169f29b56a45d2a89
+  - ref: refs/heads/experimental
+    old: bed101a6b18cfb269e1d8e7b32b48f95c29f8440
+    new: 4cdec3533651e65ccac0cff131d8414db1bbecd4
     log: |
-         a5c811aa0a1550c302855176b309e6ed46ce01fe dt-bindings: i2c: rcar-i2c: Document R-Car X5H support
-         87e713f2004811062e5283a5a4efb52c883bb355 i2c: rcar: add R-Car Gen5 support
-         44a39816e8e9a5ef753d3aa169f29b56a45d2a89 Merge branch 'i2c/i2c' into i2c/i2c-next
+         4cdec3533651e65ccac0cff131d8414db1bbecd4 erofs-utils: lib: fix memory leak in erofs_fragment_commit
          
