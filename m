@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7500194514036352765=="
+Content-Type: multipart/mixed; boundary="===============8903793068435175614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Jul 2026 02:55:40 -0000
-Message-Id: <178529374035.181576.5344990201894340197@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 02:56:11 -0000
+Message-Id: <178529377144.182168.8532145204276377483@gitolite.kernel.org>
 
---===============7500194514036352765==
+--===============8903793068435175614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,112 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 51d182826659989db25f841b191dd5ed07135569
-    log: revlist-dc59e4fea9d8-51d182826659.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 79c894f215938f727f354e585f2e4d76e4336de8
+    new: 7ef2744a0e05305203ad0d6046667990147d70c8
+    log: revlist-79c894f21593-7ef2744a0e05.txt
 
---===============7500194514036352765==
+--===============8903793068435175614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1785293738 -0400
+pusher 75C5DE3D 1785293744 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1785293738-a7b569d325c0c17001eb69b5f22e909172afcf36
+nonce 1785293744-b55a5d4c46330d2700b17a75a70cac2f941d6a35
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 51d182826659989db25f841b191dd5ed07135569 refs/heads/queue
+79c894f215938f727f354e585f2e4d76e4336de8 7ef2744a0e05305203ad0d6046667990147d70c8 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa6oACgkQ7ulgGnXF
-3j2Sew//cdvE/yv0zLh073Isl2GSl3TL+C/mLyChmnDOeLKLErPmrWUlaOidfCAB
-tYAJyRTpvBXxz7K8wfZ54nNJETYs8fjJe0lPVjf3uUnT32spQvZIVvgchzsFLycr
-CbePEN+5VbdDt24vmc/nx0UqAPlI7rf8hmAdUucY3UbPJx3o4sNDLZ2il4O4Hq/a
-UyXbCWfC0Lb6PjFbvDoOi5+GrCJqAC4ZJvWrOM8Ejr+C4Kj6Ms6RRcWQrEHY2itJ
-8ybJfsa4LnjBU2TutMd3TM5Z5qlEnrWc+NJ7EESvfG5iPmGHccfM++onbRhB8aOc
-czcrdrsk5Jddn474lMZJzCdw968VOAqH6M3o/4ho4a3zo1Ly32oaYbpytZ4zPdiy
-+aBuEXSN/pwf0HsawZC15uJtUtELsXvtG4etc3iAuM/MxiDCbGNPCIAaS0W6Q9Wz
-5fXKM6beVUfkf0uyvxagzwzZsl/UPyto3UT1Px6u9/PLAGz5iVvghCvGcMtY8AJK
-W+L5WKlg58GNrbQrSaAGcwcWAP0BlwRKZKSoaSrFjDITtDyEyAdkownZHAYoQtcy
-M78jlWYzXrjPHhl6cGI7pQwnDmST1/z/cH141t5h4KWLVZfzi/UtfacufcrmnNuH
-zu1KdnhULt3ZIrAvkdiKz9PG6NiELR1OLVJNe3o4tAHbKRTqxTM=
-=CGJw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa7AACgkQ7ulgGnXF
+3j0k2Q/8D3a/BC1MY+M+zjmizxFHkFPZCT12onba7wDFjfxnzsOuUU+Stwo2wi9+
+tzcCj9mMPfkDOCh5Gp8WThjXV7ds8MR/uoYWxDP29vQ+HSoVKyut3taZ8h2MY4/h
+64LrFbUMms6iBuXzLfhU1iIUWyDSPUgK77M/bHl23Q7XRAazkMp/SRMiGpYFZqI7
+21zjwfb/KGAfx7LhmWwMp7C+Ryzi74ea3DodUbE/W3no6vNn+51osLU+KVvofXoR
+xbHxAOWGysAI2KW6LxX45qUdE9lXivSXxSNTVxNGYVq9jQnsfY/ImExASKurVKzg
+rokgdc4mrsAdvMbASuj77hQtTM/i0sWVCVo4cZHnehhI/mzpPO1Dhx0r5Xo8YoP7
+86fHF4bFX19MIUbYyccMFi1wd3EsgS78689bXDqOy2ZJ9yKcYNRopCGP3hc4qXmR
+/NKRHs+Am8pWEOVHA5iTI/HPtAkDHEToPCzaJukcEXJlxVcXCbVXrE4IJ+lpgE6D
+cwLEW+CEEuzsjgNv+z8e4fSNcNDXdhETHwDo3CMDbeBK78ZbZZY91CuTg4YPaXXm
+ScihQgoiTvlmrme0rIar6RKV8fra0ziUD2RU49P82LEFBUl1CuS7AGtjJoDcwK8M
+7cvgDqCnommIRGitzdLZHGfjFhJqjL0Gp7b2Pij2eQ7rdgpB9D8=
+=Bpy5
 -----END PGP SIGNATURE-----
 
---===============7500194514036352765==
+--===============8903793068435175614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-51d182826659.txt
+Content-Disposition: attachment; filename=revlist-79c894f21593-7ef2744a0e05.txt
 
-1e9036e7580bd3eda6849ca64b07223ed80dc440 scsi: virtio_scsi: Fix up endian conversions for warning messages
-ce36dbeb2951607304cc5451a33ddcf06880d726 scsi: ufs: dt-bindings: Document static TX Equalization settings properties
-ecb8d6da1356abc3168e530fc328b3d461107d0f scsi: ufs: core: Add support for static TX Equalization settings
-e7896d02cb4d0e6b4e97c62af669109ab809c0ca scsi: ufs: core: Add get_hba_nortt callback for vendor-specific RTT capability
-75f529a7bcd4aaac7cf73dc885041d7f66403570 scsi: ufs: mediatek: Implement get_hba_nortt callback for RTT capability
-7ebadbae3dd793663f313e4046c1c20e12351769 scsi: ufs: core: Remove max_num_rtt field from ufs_hba_variant_ops
-26018997054dabe5d8f17495f2d75f211d01884b scsi: mpt3sas: Add IO Unit Page 7 config accessor
-8cbaf7b1ab4dd9ced322b6ebf60b079cc3a3d8d2 scsi: mpt3sas: Add hwmon support
-53b056ef7f7c0dfda981701f0236ca8704a787c9 scsi: MAINTAINERS: Update HiSilicon hisi_sas driver maintainer to Xingui Yang
-78f638ff3bc19d8faeac109b50dd0bab87871ff4 scsi: ufs: sysfs: Add HS_GEAR6 string in power_info/gear sysfs output
-e700a7c94fdc970b0cf112ae12119ee5f3d1c1bc Merge patch series "scsi: ufs: Add support for static TX Equalization settings"
-760fc6f0e25a72832c2fcf37ecf5f1b770ec8374 scsi: ufs: core: Avoid possible memory reclaim deadlock in TX EQTR context
-890b10e76e6cca5a3b4fa48a994eb3cdc566dec3 scsi: ufs: ufs-qcom: Restore TX Equalization settings on FOM failure
-4bd0875b7e571eeeed45fdab52672b850c1845a5 scsi: ufs: core: Tolerate RX_FOM read failures in TX EQTR
-f13faec1d4c16b3705d1eccffb8ba6723f1102ff scsi: ufs: core: Always run tx_eqtr POST_CHANGE notify
-c8744e71c8f1178b7936172ead26917d5949c5a9 Merge patch series "scsi: ufs: Harden TX EQTR error handling paths"
-35457edc5ba0017b0e1153c9c3cfd3e23536a3b7 Merge patch series "ufs: Add callback for vendor-specific RTT capability"
-c6cee609f614b790a72cb34d6d28b3635c874ddf scsi: ufs: Switch WriteBooster missing free space message as warn_once
-7268e509b43ac1734e1bdb7d18553f7e1080dfb4 scsi: qla2xxx: Handle INTx not connected while passing through
 51d182826659989db25f841b191dd5ed07135569 Merge patch series "scsi: mpt3sas: add hwmon support"
+9b61402740eb993fc2cb6c2c2d5e74f6be15ddca scsi: dc395x: Remove unused variable 'fact'
+0cad7bd51301678ad5c9aad701be29eab2ab4e7a scsi: ufs: host: Remove redundant dev_err()
+9c2aa65000f6f99e543500cabe4c67ff758d3ff6 scsi: ibmvfc: don't call locked done variant for MADs on send failure
+7e35396ec853983e7a85de9c4e5ad5b3c090c018 scsi: ibmvfc: flush rport_add_work_q during driver teardown
+0122eab60b151d7815f420a91c7315944a037714 scsi: ibmvfc: check for NULL evt in implicit LOGO and target delete path
+99143433f7f14139ac373c553ec8e1317d0ae58a scsi: ibmvfc: free ibmvfc_target allocations with mempool_free
+de7ac0f3f08b1b411adcc48835e90f36e242f0c3 scsi: ibmvfc: move target list from host to protocol specific channel groups
+4991c8f57b61480c83736f3224952a5f55e324df scsi: ibmvfc: add NVMe/FC protocol interface definitions
+848c70852e3fb82d881ea6b917436c4b1046fdc7 scsi: ibmvfc: split NVMe support into separate source file and add transport stubs
+018fc39652914c403d660da03234c8276e388dc0 scsi: ibmvfc: initialize NVMe channel configuration during driver probe
+319f6545a2d44e1f18c0b3cc0445c74daf381651 scsi: ibmvfc: alloc/dealloc sub-queues for nvme channels
+ecc03d958e371881cff4d8e5ebaa4ec760ab65ec scsi: ibmvfc: add logic for protocol specific fabric logins
+c34ca34f1dbdf40c368eed42efe273561c3800ba scsi: ibmvfc: add wrapper to get vhost associated with a channel struct
+a29ee1473ab5b5c85726efdc2f36c78d1a45ab41 scsi: ibmvfc: add helper for creating protocol specific discovery event
+8acacfa8b0f8b17e740730b3e96f99ff726065b2 scsi: ibmvfc: add helper to check NVMe/FC support with active channels
+fe150862d5b9bef1f0ccc4e2443677dc91c8a332 scsi: ibmvfc: allocate and free NVMe channel group discover buffer
+5e9dd03726ad4d7a8fb57f1c4921fc3dc955c47f scsi: ibmvfc: send NVMe target discovery MAD
+577608a2001977e54589b4357b277cba88dbab83 scsi: ibmvfc: add NVMe/FC Implicit Logout and Move Login support
+4bc896bf09592758756a451852af095c0dbc7c0e scsi: ibmvfc: add NVMe/FC Port Login support
+d11c05ddc2b69543353952b569f26d3f791ff339 scsi: ibmvfc: add NVMe/FC Process Login support
+5bdeab3c146786939e980cb5b040a3372aadc28f scsi: ibmvfc: add NVMe/FC Query Target support
+249313b3f7b5dbbf1aed31feff339ab48937a6fc scsi: ibmvfc: allocate targets based on protocol
+e0fca728a89f14c2edd3e9f5343d0f019d8f50dd scsi: ibmvfc: delete NVMe/FC targets as well as SCSI
+0a3ab63e43b8eeb19a454e5eedca3e99cd737a94 scsi: ibmvfc: update state machine to process NVMe/FC targets
+13b7fdf3274c2e7445e442cf83a80c9252fba702 scsi: ibmvfc: implement NVMe/FC stubs for local/remote port registration
+3831863f9f5663680e002d8dc3e85e57ef15bb47 scsi: ibmvfc: register local nvme fc port after fabric login
+696d1cc2aaa2d7041b64ea714a7460e2d365235c scsi: ibmvfc: process NVMe/FC rports in work thread
+28ec8670892c738cac121beb68d38e6c735a001c scsi: ibmvfc: extend ibmvfc_debug visibility to ibmvfc-nvme.h
+6fac8df932d8814e8a49736216614c26f51f83a0 scsi: ibmvfc: declare global function definitions
+86e4953580964323a727fc8eb8efb21e47cce1b0 scsi: ibmvfc: implement LLDD callbacks for mapping nvme-fc queues
+7088e1c8b665eaa50c80f364821e0b19832858c5 scsi: ibmvfc: implement nvme-fc LS submission transport callback
+73c13e30c56f92b7050cc3cd45b901f861b0c588 scsi: ibmvfc: implement nvme-fc IO command submission callback
+20bec08f0208fa6e94ef81ecc44a126cca6ab50f scsi: ibmvfc: implement nvme-fc LS abort handling callback
+4e70b8795ee3ac9aa24d55bff6c11674af2e7fcf scsi: ibmvfc: implement nvme-fc FCP abort callback
+4857949b58cdb61f8cd41ca4ffc674b85896ef61 scsi: ibmvfc: fail nvme-fc fcp-io and ls requests during transport reset
+1cd82d710eedab0140f21940c8eeca42648713a7 Merge patch series "ibmvfc: NVMe/FC support over IBM Virtual FC"
+e0329beb37abc50da5f1ef1d9f6f160fcda75c1f scsi: ufs: dt-bindings: Document the Maili UFS Controller
+98575b9ffc3ac3b4de8b997eb1c4243a287b8e82 scsi: ufs: ufshcd: Fix all kernel-doc warnings
+81d273096f122ebb27640fcf1ff0637f8c959f88 scsi: dma-mapping: Make dma_max_mapping_size() return 0 for no DMA capability
+6e468644fc17a8528f3494a28d31c9d2e7353fb6 scsi: core: Drop dev->dma_mask check in evaluating max_sectors
+225548863f0a2350c6f34231ca56710c3dd1a5d5 scsi: smartpqi: Fix AIO retry marker cleared by SCSI core between dispatches.
+c64b2ab2ff516a94109020e8caea605ae09ea6d9 scsi: smartpqi: Add support for CCISS_BIG_PASSTHRU ioctl
+1a220e6e87a31c2572cd07ff47023e5cd92ac80f scsi: smartpqi: Add new PCI device-ids
+913337c48e6aad5f8fac2f9d1a7b3a345b03b963 scsi: smartpqi: Update version to 2.1.42-011
+b20f266cc46e24e840493a7e36e4cef53b414902 Merge patch series "smartpqi: fixes and updates for 2.1.42-011"
+5994844195e9a2ead1d1f5ba65b653debb9f1e35 scsi: zfcp: Enhance fsf status read buffer tracing
+3efec904df6f7b0ca9e6267e9aea543402f01886 scsi: zfcp: Trace PLOGI and PRLI within open port response as payload
+dff03860a722e7f1d0a10bb22628d7896bd4b5ec scsi: zfcp: Trace return values of sysfs unit add store
+209824c83da3ec780e527231d3ef4cca35ef9340 Merge patch series "Request to queue zfcp enhancements for upstream merge window"
+b93c38a9f2ce5441c90de55776f8df97679cf8a2 scsi: fnic: Make debug logging protocol independent
+6128fec9417313690057e55d9313f4148941b9da scsi: fnic: Use fnic_num for non-SCSI identifiers
+12bd1b29128e31ae647802452b8104acf5f66741 scsi: fnic: Decode firmware role configuration
+20b991c3022904b7c2fd38c49ecfdaf17bc1d2f0 scsi: fnic: Advertise NVMe initiator service parameters
+188dfadf025a172142cca34ed5009f3dfcf2d0ad scsi: fnic: Add FDLS role handling for NVMe initiators
+5efdd5cf928188023080a01312323bb38e02656e scsi: fnic: Add the NVMe/FC transport path
+b3f4bc0a7aec4ff48780564f955aa4ee141864e9 scsi: fnic: Route completions and resets by initiator role
+021db11aba3b24525845a2b72981e3d21a591da9 scsi: fnic: Handle NVMe LS frames in FDLS
+39bf075599bd1eb533c2c7414c79a39dd36de063 scsi: fnic: Send NVMe LS requests through FDLS
+f06ee33d72f5baabcc27c60be6fed95d164a06c1 scsi: fnic: Abort timed-out NVMe LS requests
+d25a557d344f477ccdc6b711ace77c4d5484a370 scsi: fnic: Track NVMe transport statistics
+8ef412ce8bb3fa984d01f6960a3a3408c2843c33 scsi: fnic: Expose NVMe transport state in debugfs
+2265541d221dc550dc89b52e49e9d9eb2f824996 scsi: fnic: Bump up version number
+b98a500956140e579eb18459a71eb881620dd56c Merge patch series "Introduce functionality for NVMe initiator"
+c79f9bf2d87f34904d9ae38f198929be2b4313e2 scsi: mpt3sas: Remove conditional return with no effect
+2ad156d5300a24f21059432649dc0b726bcdbaa2 scsi: MAINTAINERS: Orphan the SCSI tape driver
+d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 scsi: isci: Remove unused macros from scu_task_context.h
 
---===============7500194514036352765==--
+--===============8903793068435175614==--
