@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3124291259537240825=="
+Content-Type: multipart/mixed; boundary="===============8394076628279885349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Jul 2026 03:04:54 -0000
-Message-Id: <178529429438.188744.16779245227213299116@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 03:04:59 -0000
+Message-Id: <178529429907.188862.11060232282107315751@gitolite.kernel.org>
 
---===============3124291259537240825==
+--===============8394076628279885349==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: d756863c9bdf7a85a3fa7fc2886aa32023fe7f76
     new: 1451ea14f885492635918b09543a0bf8ee69f993
     log: |
@@ -29,33 +29,33 @@ changes:
          1451ea14f885492635918b09543a0bf8ee69f993 Merge zorro updates from Uwe Kleine-König.
          
 
---===============3124291259537240825==
+--===============8394076628279885349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1785294292 -0400
+pusher 75C5DE3D 1785294297 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1785294292-417ba78916b13f30dda6898e7c26952f8cceda90
+nonce 1785294297-ac87def86f85ec3db270797fc0a02f0fcb1c3fe5
 
-d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 1451ea14f885492635918b09543a0bf8ee69f993 refs/heads/staging
+d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 1451ea14f885492635918b09543a0bf8ee69f993 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppbdQACgkQ7ulgGnXF
-3j39gw//XJ292GOlifURDiF+LoqaOsm3OOLlepePEbkqkmkz0G+WA/MUbrQH/tAo
-W6cz1r/pwRR5klhBOn00uW5q7CtB4q7L+4D1UBYpBwxc90a77ZJrZgsxOkerG6kM
-Wi47p1mzKHAbkpMeD0N8AEY6jQ4BpdlgZr24Jf+UW+mV41wysu1ltGZZFvNBDae2
-rr/WRy92drZjwCqgJqyRan3PutE0Ddbrmtzq2cSdYMmA3zVidLLYf0KHxwrE4OhR
-kq/GBAYy6dO9zzYlavfeNXXOzIZPWVcm0rvOjtTTNRMxruzdxyTRhBqJvKHZd2yk
-NNqK1hbMoCu2VOjqTkFmG2yaSxrcSZzDprMDpMVTEGqfRstZ8l47/QzemjSazGY+
-UxAgWMbp0lFLGRTr/rBJhEovUedKHmsAOnpUF1igppu8+xfSqrQkxRV3TE93JP0L
-o4bIaFVGFk61B/TTSCO0PsZbmRztDg5lbBFTm6aGI6PsEN1vGElGwDa3pD2DbLog
-t502IWDVxAFida8901lHPXg/5rarBz1yKJVQOwfZ6/bX4U9o0MZ6r4XyCSznhLxm
-DPaDBc8fwz7AtAx8u++c3vN5HuPZ8suDvjwurljLqYO8qNF0Z1UNycIQ56b6oda0
-nkygnRUAmaSkiiQsO8Iuh4jzBzgrmwrpRxnNp4FLjTUPKRsQZUs=
-=EFTN
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppbdkACgkQ7ulgGnXF
+3j0AnQ//Yaq1pbMBS4jKt/qvA/0Ol9KeAq/EIZzW/PL9WLJmwmxqiknQ3qq9GAHl
+DmSuZg1M7eKogKT7dMk/6lz6fKE8YU0B9ST6hPd2WKguKtL59sCUEgfg7gvZh25x
+K+TjMMlC1dClZJfvG6nDE2EZOgX2AEAP1lL217qsJrM/evmf0OBr1qKWF47D/Y1h
+3gsh0Z6t5z1LowjU+ZmOfFxMxBTkQzAMzCkskZDzwznaMkgIMtUtY10ooB8y8LWH
+lNF4gBKbLMxgTITQc+OwtsWRPAuvfyF9I8SaQ0WIo1VeKkZo1sTinGiKEDHTySEA
+ysRaZJAWNf23id24rcoEWWbHiDLshhEqKYMOMm5mTbNZcFg3SsD6M4p/Q4ujSz9P
+wEBOqu8XiAyxh5wYs/IX2Lxk003Y/NiNQ/MKl0x7U2AfpmtcuPTJazIHIRCz62Bm
+hloGKtCXJEvIqlujPGFQYna8oW6REvtrPUlA92DpNc0860dPLf7+Z2Gjvz49m9f9
+6USslO76X2zte5mevE2kogfmp7gTm/rYJsQ7EA/9oj3SUzhbta422RiUI01hZy/E
+tRGl5MwXVGW81BTAuNY2wiZPXrrlWtG8Ax8WLX/kOl2PFVBxV9FETUvRJZnxvhh+
+N7IAxhcO5YlEwKTD9iM/yjLRDvqajZhAkQmX36vObxzHVVjVriE=
+=M4vN
 -----END PGP SIGNATURE-----
 
---===============3124291259537240825==--
+--===============8394076628279885349==--
