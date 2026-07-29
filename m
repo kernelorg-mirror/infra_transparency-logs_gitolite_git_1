@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5201894065501738618=="
+Content-Type: multipart/mixed; boundary="===============2919443455096542213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Jul 2026 02:54:39 -0000
-Message-Id: <178529367951.178752.1251607327404154398@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 02:55:08 -0000
+Message-Id: <178529370849.180884.7523521502901363556@gitolite.kernel.org>
 
---===============5201894065501738618==
+--===============2919443455096542213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,65 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: e166bafc483e927150cb9b5f286c9191ea0df84e
-    new: 0279fd451a9971c0d5b959fc59f3e11b55e1694e
-    log: revlist-e166bafc483e-0279fd451a99.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 554e64673a52c14c374680d81523f4ac66caaf3b
+    new: 6e9226a76676ce5628bf54857799834a86d0c946
+    log: revlist-554e64673a52-6e9226a76676.txt
 
---===============5201894065501738618==
+--===============2919443455096542213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1785293677 -0400
+pusher 75C5DE3D 1785293683 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1785293677-47ddaa7c8446588dc43ce7ba1bcc17c63597cedc
+nonce 1785293683-0f06c0d31448db1bac597f3137116d7c911e01c8
 
-e166bafc483e927150cb9b5f286c9191ea0df84e 0279fd451a9971c0d5b959fc59f3e11b55e1694e refs/heads/fixes
+554e64673a52c14c374680d81523f4ac66caaf3b 6e9226a76676ce5628bf54857799834a86d0c946 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa20ACgkQ7ulgGnXF
-3j0Alw//S+jJBWWcQmFhwkhVm4MaAhWuKUpjsO+TiblsLQc5ELbUBCfHQdeTSA0T
-3vJJj6MkPvfdcgeSTselF+TBLYYFY5YLJLAAXGSpxEj9OS6c8OTc2+gAgO76R49+
-2MYfHfg8Xj8YfUe2+kKwfBFyvI2p+NE4s7BGstUYKyqH+qKPoExYVFJ7J7ge2uO0
-egKtaHYNTVFjMzpOnQ6043cjN3qMuh9ML5jmwWs8A1p/49CAIjduDxam7/X/GC29
-wYEfxaXkIzNIJRxjmx5nJmUfFAJjcrCY2t72pTdhoORez2Gg1ExUYqdbPa2Ag2Fc
-Bho1Puj1WwutB7kXoDYjqGfgxUlYmSdByTJ/7ockJPerjmyUubR+HS4RPrEeHMbm
-QUlpUCRR8oqSIpXSdSS/fXBa9Lr/SssFpMIkCFgfgJK9On6ivNaRDH8ftdR4e7mP
-1se9wcABzqcJx+IDbCEaxyyez4Fbnk/zQtzdguQjwGcnKF767dwecpFQkSHv9K+4
-OWPvAgfhmrZsT9NvyzJgRiWv74fM6pdU6e2xQfSHVbQIxbH+6UuU1bo5mCYK0LfY
-Jm767tnMnpb10W4RdnD2chQQ2hluzUG/R23ahD8UxIlwolzQULCFfWjnKLiH18fK
-gGkyglxjB1F0pHxSu1aZdUWt5NyrS3GZKb3phFa4pGTnwxq3EYc=
-=h7UB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa3MACgkQ7ulgGnXF
+3j1XjQ/9HD2xhWjEfR73GoTT3FfvxNJ5D0PiHLGT9ticXOYpwnJz71gwrUua23wq
+j0orLYzeIdMslEh5OzmXE50KZAZPIKBfjgC82XoSwoR13Nev3Fotmhzp7GdJ6QoJ
+RAEHUN6YRDBV6jupDNk1m1iDm2rMoSvaLLT0ybwt3XfGItYZfnVV4BYcTvfcLCAR
+RqCU4r5Kxg20u27fuN6DUUVZo9s/DFJyhJO1viM7q7If7wD7TaD0qTAcz5yffZoY
+YtrPkaWFZ762Ior0Y75Q7Xx+iXqa2KZPRdocyaqVXNOCv1dMKl1pFZm0ScmmRHzn
+jDGoZ/mmXBtEuWQo8z13KMd/RiHBn9RKZptK4KQ26YskQnEyQBetJI5vDvj4OFxi
+2N4WnSvvCzfC25DUwM22pldKP32KCQMrZ1D5HOh5u1PGc/XpA9T+F3WMwFVj7K2b
+CVA6G/2b56qFZv+D1ancNDZcWLCUTkEGEaCU1psIXIzKbFi+uPZZtywRbnRGjCJM
+e170ammKA9FqWf8o/x2dsjMy79Z1rQHV8Qla42yAXZeGcdlMju6bhXEQF6JezE2S
+stF5PZDaW4jJm3eUGzYq1x1Gq2yzq7FmsHX4e5nanvGGXEhFsj/AyhLBCi0Dej6o
+E9GIuLZQ02jt5dbw6kNwByHlOlEhWJVmRWHOE/Iuywlc8RuxkdQ=
+=oh54
 -----END PGP SIGNATURE-----
 
---===============5201894065501738618==
+--===============2919443455096542213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e166bafc483e-0279fd451a99.txt
+Content-Disposition: attachment; filename=revlist-554e64673a52-6e9226a76676.txt
 
-98b87885de4b7f605533a2860685f5689fce8e82 scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer
-c1dea15f819cded9b3faf58f8bec72323568b6e6 scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer
-3dbbbf656b850c9c8de05df6ad4a1dfc6ff02845 scsi: libsas: Fix HA resume deadlock and hisi_sas disk-wake race
-4d5282c06ca198319c2de41b10511ddcb8068f42 scsi: ufs: dt-bindings: Add missing mcq reg for qcom,sa8255p-ufshc
-9c33222bd387312874fbe36ca8002e5c945b9653 scsi: target: iblock: Fix wrong PR ops NULL check for PREEMPT/RELEASE
-93dde0bf2f39a0f9f57fd610aa3201ce5b753433 scsi: scsi_debug: Fix REPORT ZONES alloc_len underflow OOB write
-f71b4a30983b846b4075bf544e835121e70e6a43 scsi: ufs: core: Cancel RTC work in active-active suspend
-8a309036f557d3ff4efb2beea5132ba91172d934 scsi: ufs: core: Revert "Delegate the interrupt service routine to a threaded IRQ handler"
-b601fa590e667bd9643feed8c869b6b3e418480d scsi: zfcp: Fix memory leak during adapter release by destroying gid_pn_req
-a8ddfd2425bbbafadae8700d63ed8a61a4109878 scsi: target: Clear cmd_cnt when initial counter enrollment fails
-ccff8c92571500fcfed21281e33daaf645bf692f scsi: mpi3mr: Fix potential deadlock in mpi3mr_fault_uevent_emit
-0279fd451a9971c0d5b959fc59f3e11b55e1694e scsi: ufs: core: Initialize hba->rpmbs list in ufshcd
+1e9036e7580bd3eda6849ca64b07223ed80dc440 scsi: virtio_scsi: Fix up endian conversions for warning messages
+ce36dbeb2951607304cc5451a33ddcf06880d726 scsi: ufs: dt-bindings: Document static TX Equalization settings properties
+ecb8d6da1356abc3168e530fc328b3d461107d0f scsi: ufs: core: Add support for static TX Equalization settings
+e7896d02cb4d0e6b4e97c62af669109ab809c0ca scsi: ufs: core: Add get_hba_nortt callback for vendor-specific RTT capability
+75f529a7bcd4aaac7cf73dc885041d7f66403570 scsi: ufs: mediatek: Implement get_hba_nortt callback for RTT capability
+7ebadbae3dd793663f313e4046c1c20e12351769 scsi: ufs: core: Remove max_num_rtt field from ufs_hba_variant_ops
+26018997054dabe5d8f17495f2d75f211d01884b scsi: mpt3sas: Add IO Unit Page 7 config accessor
+8cbaf7b1ab4dd9ced322b6ebf60b079cc3a3d8d2 scsi: mpt3sas: Add hwmon support
+53b056ef7f7c0dfda981701f0236ca8704a787c9 scsi: MAINTAINERS: Update HiSilicon hisi_sas driver maintainer to Xingui Yang
+78f638ff3bc19d8faeac109b50dd0bab87871ff4 scsi: ufs: sysfs: Add HS_GEAR6 string in power_info/gear sysfs output
+e700a7c94fdc970b0cf112ae12119ee5f3d1c1bc Merge patch series "scsi: ufs: Add support for static TX Equalization settings"
+760fc6f0e25a72832c2fcf37ecf5f1b770ec8374 scsi: ufs: core: Avoid possible memory reclaim deadlock in TX EQTR context
+890b10e76e6cca5a3b4fa48a994eb3cdc566dec3 scsi: ufs: ufs-qcom: Restore TX Equalization settings on FOM failure
+4bd0875b7e571eeeed45fdab52672b850c1845a5 scsi: ufs: core: Tolerate RX_FOM read failures in TX EQTR
+f13faec1d4c16b3705d1eccffb8ba6723f1102ff scsi: ufs: core: Always run tx_eqtr POST_CHANGE notify
+c8744e71c8f1178b7936172ead26917d5949c5a9 Merge patch series "scsi: ufs: Harden TX EQTR error handling paths"
+35457edc5ba0017b0e1153c9c3cfd3e23536a3b7 Merge patch series "ufs: Add callback for vendor-specific RTT capability"
+c6cee609f614b790a72cb34d6d28b3635c874ddf scsi: ufs: Switch WriteBooster missing free space message as warn_once
+7268e509b43ac1734e1bdb7d18553f7e1080dfb4 scsi: qla2xxx: Handle INTx not connected while passing through
+51d182826659989db25f841b191dd5ed07135569 Merge patch series "scsi: mpt3sas: add hwmon support"
 
---===============5201894065501738618==--
+--===============2919443455096542213==--
