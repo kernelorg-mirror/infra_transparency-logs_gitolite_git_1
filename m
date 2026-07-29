@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0028989307189805318=="
+Content-Type: multipart/mixed; boundary="===============7995433442499768943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 29 Jul 2026 14:26:36 -0000
-Message-Id: <178533519677.730022.8009738628489068319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 29 Jul 2026 14:38:19 -0000
+Message-Id: <178533589937.737462.17595290837329303705@gitolite.kernel.org>
 
---===============0028989307189805318==
-Content-Type: text/plain; charset="utf-8"
+--===============7995433442499768943==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9518bddaef900dd832e3e16be1d88923c620b749
-    new: 37ca612fe6b9c34655e14741464aa5d479b4c54b
+    old: da4e0f51274e3739aa22af3d38a419242c031c0d
+    new: 0261215f43c98fda673fea4a98e99299d3c714a7
     log: |
-         1f855c666def0f36a1292044ff838b5d05f6a3bb Update 2DFBF4523E542FD9 (Will Deacon)
-         e6a85a245ad46bd449b1060b01678472e754af7c Resigned keys from 9AFB7B8C9A5F5BBC
-         37ca612fe6b9c34655e14741464aa5d479b4c54b Update 9AFB7B8C9A5F5BBC (Heiko Stübner)
+         0261215f43c98fda673fea4a98e99299d3c714a7 5.10-stable patches
          
 
---===============0028989307189805318==
+--===============7995433442499768943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1785335195 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1785335195-4558571b8b229bce10247344406eb79727c942d6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785335887 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1785335897-e64bdbb5bc00ef917450e2756163e2da8218d0cc
 
-9518bddaef900dd832e3e16be1d88923c620b749 37ca612fe6b9c34655e14741464aa5d479b4c54b refs/heads/master
+da4e0f51274e3739aa22af3d38a419242c031c0d 0261215f43c98fda673fea4a98e99299d3c714a7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCamoNmwAKCRC2xBzjVmSZ
-bBEIAP416EUiL8Tl+JB3M5G1jmaH4u602Yl3zC0Y8GKjOUcMrgD/YI+8xqgOww/j
-glPk0M7KDcNhrHcKGOi5B4bkUL/uyAA=
-=37km
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpqEE8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v1UQAKyTqrBhZEoQEZVnrsvo
+6GO+J6FNz70WofXvX0Ni3mJLLDLeywnNSqImkkZsYgjcsLwo/XeLUup6KClnMVVf
+I3uuVFFJUg1SY34wvJ+cTGDl0+g/tmXurQvLMzIGuCVSyy0Gw6NGHm/d2hgnqniw
+0lwWEMUws9WLlnSFDS7e7OemDOHXTaTHhQ5iAXQAk/3Rl7xdgDiZJR57jQqJv/0i
++Hi3XrN85E3amLfPHmIFbpn5QLq21MoSSVozpmH6sJuDdgztapAVv4lnfv8gVeUQ
+L1/1vfdwiI6QQ2XKKCWX11g9AWwr8NCvI8bCY0OnbqINOEF5SP9OhbqsqB2K4Z2g
+waaa1JZlCN1DCBgFG8feecX41itUYFJibE7Jkqz1zfpLG/kjNjJzmriI4BeLzxWg
+dgTXQJGDpCL2oe3WkmQdHA2jymjGUG08PIj6zCPsPb805hpjjkBLM+F5NGP9ioCf
+8EEwZimP8eP1oldYsSX6aYUzlgCvbcVwTph7pD5kSbUzcjPJXRrqRHFtchkegbSG
+sAC38oBdTuLoyk3VgtGIeYGTvr/gNKSPpzJ5xG+WmXhx8019kKBsLxIl/JsCQcYI
+8vL1LanRMGO81lxBpFb6NsDiXvlt85UggRUwh3xD2XLSKvhTWPeKgF09oZY58UII
+79IUDmOur9xbvmGeCB+TwXs4
+=60VF
 -----END PGP SIGNATURE-----
 
---===============0028989307189805318==--
+--===============7995433442499768943==--
