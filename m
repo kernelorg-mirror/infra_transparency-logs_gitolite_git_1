@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3821035124572111346=="
+Content-Type: multipart/mixed; boundary="===============1211193115079005842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 29 Jul 2026 11:14:15 -0000
-Message-Id: <178532365532.572317.1719119200511508438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 29 Jul 2026 11:14:25 -0000
+Message-Id: <178532366585.572544.7685817784522416118@gitolite.kernel.org>
 
---===============3821035124572111346==
+--===============1211193115079005842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: ffc64805cebac330b2a60b2f1f144fcc35b8ab46
-    new: 543f252fc4ffddbb2a70028fd6e47a9043331b10
+  - ref: refs/heads/master
+    old: a004c7865da03ea2e6c8cdc5a00ee606c86e0c39
+    new: 3dc3873782f242e0b2de83c9e9fa48857a5f957e
     log: |
-         db9c3501c0f9747fda8fa92d4f640b6fac8050e0 mm/slab: abstract slabobj_ext.objcg access
-         d86dbd49c91a104137093cee8f61e2d9dec48ccf mm/slab: abstract slabobj_ext.ref access
-         ee14dcba65a065592c2f4e8a8f98d5bcfbf102ac mm/slab: replace slab.stride with obj_exts_in_object
-         021a3fb2df30bf612698d986137dbec99a6e098d mm/slab: change struct slabobj_ext to a union
-         79d4f916ddc04d5974783e8854a90d18d9fdccca mm/slab: introduce slab_obj_ext_has_codetag()
-         85d3cc937642ef48548b320a04497a326568b7fd mm/slab: reduce slabobj_ext memory with allocation profiling disabled
-         24b9925de0e49b6186c59bcf8645afd5f3cd9397 mm/slab: add cache_ and slab_needs_objcg() helpers
-         6a15178b379859c91c6ca368c4d7aef3d6ff1630 mm/slab: stop allocating objcg pointers when unnecessary
-         a497bb91fef9dec256809cf2bab9f45a6525521f mm/slab, kfence, memcg: completely remove obj_ext for kfence objects
-         543f252fc4ffddbb2a70028fd6e47a9043331b10 Merge branch 'slab/for-7.3/objext_split' into slab/for-next
+         3dc3873782f242e0b2de83c9e9fa48857a5f957e 6.1-stable patches
          
 
---===============3821035124572111346==
+--===============1211193115079005842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1785323650 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1785323650-02cb4e29b87c8d4759ba03f0646cd95fdb8a5c2b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785323654 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1785323664-455eabf0ba2d688b138f6c69877208ad559ebd1c
 
-ffc64805cebac330b2a60b2f1f144fcc35b8ab46 543f252fc4ffddbb2a70028fd6e47a9043331b10 refs/heads/slab/for-next
+a004c7865da03ea2e6c8cdc5a00ee606c86e0c39 3dc3873782f242e0b2de83c9e9fa48857a5f957e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpp4IIbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaJmUIAJ+Kuxnx2yjDhYha2Gt6
-D8nXXjebRCrcv7xaURh2s1Nnj4JatOfJDHOGAZbzH8xxr0leiWfa1Kj2na4qgJ9Q
-rPageK9lYQWoSq1OWPxKvTXQJzGBM1u2UcFPEc/6/gOzXUQjwz4ZWqvPqOl2TBN3
-5/cUYcf4aMTSK3J9vPn2B3zM0tqsdW7W0lfiLaIDdDefrsuEti/9uodh3qQ0/FVj
-DExfz4O4Ptvg+f5DX9pLpMGM1DGrrQ5qJSW2z5bLNLvgPPvNPgVc+UH11KNSg+jG
-URi5ipkQgtzOfV8QeKEphSjdYR+VdTutka9YwlFti4Dwbj6Buwws4QkOgcVMohh5
-f5M=
-=BJBr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpp4IYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hr4QAIYqK+DnP4mILczS05WG
+DaiWnbgplQJf9V4+J0gyhoBDsAG+rNnYfkr4EVJv5J3payOqh57e2WnuRFKqI4Kk
+Liuqd9wutOcM9CPlEdyLiLldlfSl/r3Sijn5jqD8c2euOgGAehAYfSOdrDZWoJ0I
+JifuZx6AsnsKKm7FESRrIwXbxXheKvx3FwjfJfLkoY9zDCyUooycGbK6sekJTr3m
+R9UJqTh6d3CHcHPC/pJOmiQvrM8+NGWn7HN3YkoVJNeSCj0fovlpCjdS455khr6M
+5SSqUYE7WnQFO9egTCK6DE4v0NMPuHBkmGL6br+e+fTRismDsgtXIraP1k/y6w/H
+kt37jFU8nrjIb43HZ+EUAJbbTamc5CdtR+m4LW86Zldxounz8lg4PQt6BDfPOlhS
+PpacFOiJIPp0mHEXGo3zS9/9zqpVJujXnS3V4sgLzVOUDVkIsAuANP4rp8lkMCBF
+e/2+rFsAXsymRRuslSK81Ot78QV9WNjQDFYsYHfW5pvGHaYxsyquVMOnv8jQpwW3
+tfYBFS23IAoS7CZG+JdumYE0RcqtkI63/jwApuw2yoUnS2qLdfncuHtKsV4hLY2e
+psXqiGug255vPj3JTtWnNe5ogUghjmYoiLmcf2FLizYA63kyptDmiA1fT3SL7oDx
+MH9m4fAjoALZT/kGsfTbF5or
+=tKgQ
 -----END PGP SIGNATURE-----
 
---===============3821035124572111346==--
+--===============1211193115079005842==--
