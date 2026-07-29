@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Wed, 29 Jul 2026 23:17:07 -0000
-Message-Id: <178536702710.1241078.16671672640229341601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 29 Jul 2026 23:22:22 -0000
+Message-Id: <178536734260.1244944.4892628055890279381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jj/linux-apparmor
-user: jj
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/apparmor-next
-    old: 50507d6fc80117c3448029e4bd335704cd5e58ec
-    new: 9e4c1ef73b4301c5f9dc918982dd4f1ffb3e1052
+  - ref: refs/heads/kbuild-fixes-for-next
+    old: 39d6e68f50f4a444a6ba23b9ea2eaee806601c6d
+    new: e5a259d98823a93459643b239b71fed7589ab669
     log: |
-         9e4c1ef73b4301c5f9dc918982dd4f1ffb3e1052 apparmor: compressed_data not described in aa_get_data_from_compressed
+         e5a259d98823a93459643b239b71fed7589ab669 kbuild: rpm-pkg: Preserve BTF sections in kernel modules during debuginfo stripping
          
