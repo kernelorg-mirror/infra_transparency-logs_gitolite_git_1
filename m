@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 29 Jul 2026 02:15:01 -0000
-Message-Id: <178529130156.148632.13638084047973725601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Wed, 29 Jul 2026 02:44:22 -0000
+Message-Id: <178529306223.170672.18302964044113282199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/main
-    old: 11291f123073aa143709770ba988cba41bfc4057
-    new: 2bb54b49e9d522f54dc9c0fe10ba40fbc56041c8
+  - ref: refs/heads/for-clk-v7.3
+    old: 8abba78dc0ee4ffa7c4e0e05b93c58bd94ff11c0
+    new: 8a7d4b1924d2a424b1a6fe69de4f9464ee1fb485
     log: |
-         2bb54b49e9d522f54dc9c0fe10ba40fbc56041c8 ppp: convert chan_sem to a mutex
+         cf59a8742581aa4a026b20c7a413be06f4fc9831 dt-bindings: soc: spacemit: k3: add i2s_sysclk, i2s_bclk_factor and i2s1_sysclk_src IDs
+         e6b17a690c2f920963d6a9328642bb090f3be587 clk: spacemit: k3: fix i2s clock topology
+         8a7d4b1924d2a424b1a6fe69de4f9464ee1fb485 clk: spacemit: k3: fix missing /2 factor in i2s sysclk dividers
          
