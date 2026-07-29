@@ -1,32 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 29 Jul 2026 06:51:15 -0000
-Message-Id: <178530787507.377307.16255262263839800550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Wed, 29 Jul 2026 06:53:15 -0000
+Message-Id: <178530799578.378195.7710714643354308713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/srini/fastrpc
+user: srini
 changes:
-  - ref: refs/heads/for-linus
-    old: cee046679655b4822f76efc9658f19efee9ac979
-    new: 630c45e92db44b738d1e9224c5f3c032c76a33ca
+  - ref: refs/heads/for-next
+    old: f539c568ab628c9f50e17bb6276aab52f77fcce6
+    new: fde6bf0946580cc522cad1507d5bc4cae2617b37
     log: |
-         d0199ae1666ff9ae2d1d568d64c3430d4c47f0e5 ALSA: usb-audio: Fix DMA buffer out-of-bounds write when fill_max is set
-         8d7a30c50c2e58a6839634ed0acde14466d1dc61 ALSA: usb-audio: Clamp frame size in implicit-feedback mode
-         e93bb6f3acec5b70a5567efe78f1a96148a7291f ALSA: usb-audio: Add GET_SAMPLE_RATE quirk for C-Media CM6206
-         630c45e92db44b738d1e9224c5f3c032c76a33ca ALSA: hda/realtek: Add mute LED quirk for HP Victus 16-e0xxx (MB 88ED)
-         
-  - ref: refs/heads/master
-    old: 1ee14001fb4bc28417f88413672b7bca4a59eba5
-    new: 8290f62199818faf93744844aac4efd38e1457e7
-    log: |
-         d0199ae1666ff9ae2d1d568d64c3430d4c47f0e5 ALSA: usb-audio: Fix DMA buffer out-of-bounds write when fill_max is set
-         8d7a30c50c2e58a6839634ed0acde14466d1dc61 ALSA: usb-audio: Clamp frame size in implicit-feedback mode
-         e93bb6f3acec5b70a5567efe78f1a96148a7291f ALSA: usb-audio: Add GET_SAMPLE_RATE quirk for C-Media CM6206
-         630c45e92db44b738d1e9224c5f3c032c76a33ca ALSA: hda/realtek: Add mute LED quirk for HP Victus 16-e0xxx (MB 88ED)
-         8290f62199818faf93744844aac4efd38e1457e7 Merge branch 'for-linus'
+         7de6fc30fcf26d9096558ce41d58448fb5286f51 misc: fastrpc: fix memory leak in fastrpc_channel_ctx_free
+         ee830c47f2ae99b638832b6d1c2d03f8c9e0e55b misc: fastrpc: Replace hardcoded ctxid mask with GENMASK
+         954233cb6538c638c080e5fae7a2461c79b7b313 misc: fastrpc: Expand context ID mask for DSP polling mode support
+         f96786e99320e6413992217b14d31a3aaba19516 misc: fastrpc: Add polling mode support for fastRPC driver
+         57ce20ee18453ef008912b8a2edbfb99dcc7a5fd dt-bindings: misc: qcom,fastrpc: Document Nord FastRPC
+         67bf2522a5503c770ee15154490e0cff5d5ebf00 dt-bindings: misc: qcom,fastrpc: Add Maili FastRPC compatible
+         fde6bf0946580cc522cad1507d5bc4cae2617b37 Merge branch 'fastrpc-for-7.3' into fastrpc-for-next
          
