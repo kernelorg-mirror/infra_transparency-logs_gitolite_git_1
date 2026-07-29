@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 29 Jul 2026 15:41:42 -0000
-Message-Id: <178533970211.789299.2790168298012255896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 29 Jul 2026 15:44:27 -0000
+Message-Id: <178533986786.790313.11813114198810397811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/pending
-    old: d790ce3bf84d2a3d85304d4e164dcb06a0365208
-    new: c6ab3b1dfa3e62dbf42c66121037de460a182642
+  - ref: refs/heads/master
+    old: 729f96089cf66831d911385623ca932e0c245913
+    new: 98e5a74736e218f08b9928a931e4d537735fd2d8
     log: |
-         878654eb78c6aa0ff585baf1376567c775ca28ec wifi: ath12k: fix overreads in ath12k_wmi_process_csa_switch_count_event()
-         208d7fdb85976a737a715b81d54efaff6703880c wifi: ath11k: fix overreads in ath11k_wmi_process_csa_switch_count_event()
-         8e415b8068480d51a057197ded974e2637e8c42b wifi: ath12k: validate TLV length in process_tpc_stats()
-         0702eddffff1b637a9e90187785a0b44542bb365 wifi: ath12k: move firmware_mode enum to qmi.h
-         0090ec7ad252f1a597d782b7bce7eff7bdde00c0 wifi: ath12k: rename firmware_mode enum members to use QMI namespace
-         534459ac562b207ba1a9bb2c95dba77b5939e2da wifi: ath12k: Use different RX release ring sizes as per memory profiles
-         43c521c11ce8fe904e14d1ae0566ffea931cf2e9 wifi: ath12k: skip MLO multicast links during crash recovery in Tx path
-         96f46607bbcee8aac00c4b5a1213b7d82ceee36d wifi: ath12k: add AHB platform descriptor support
-         c6ab3b1dfa3e62dbf42c66121037de460a182642 wifi: ath12k: Share RootPD state across UserPDs to avoid duplicate operations
+         66d19bb2a02792cf30cd723b65d4c2110930a31e bap: fixed the return value of GIOFunc
+         fee4813d90af02c5f3882461ee6a1bc1d84931f2 rap: use session lookup for RAS operations
+         98e5a74736e218f08b9928a931e4d537735fd2d8 profiles: centralize reflector setup
          
