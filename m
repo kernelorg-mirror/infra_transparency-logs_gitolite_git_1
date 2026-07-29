@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3238410037110430625=="
+Content-Type: multipart/mixed; boundary="===============3944631783927044085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 29 Jul 2026 12:08:42 -0000
-Message-Id: <178532692235.617025.1983049971216190249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 29 Jul 2026 12:08:45 -0000
+Message-Id: <178532692552.617141.7793740652739655737@gitolite.kernel.org>
 
---===============3238410037110430625==
+--===============3944631783927044085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/regulator-7.2
     old: a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6
     new: 8d62dd89736f09a3e093b1490ceb075472abec6c
     log: revlist-a45cc646a3aa-8d62dd89736f.txt
 
---===============3238410037110430625==
+--===============3944631783927044085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1785326920 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1785326920-4b11a55ed7fd5d3b2a7c211641329d6f152477ce
+pusher C3F436CA30F5D8EB 1785326923 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1785326923-083ac90993236c33268ca4c1775748fba2971797
 
-a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6 8d62dd89736f09a3e093b1490ceb075472abec6c refs/heads/for-7.2
+a45cc646a3aa83eb4ab4c7ed2685785ea51dc5e6 8d62dd89736f09a3e093b1490ceb075472abec6c refs/heads/regulator-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpp7UgACgkQJNaLcl1U
-h9CrRwf+Ludl3C5eBv+P+8qvB5D/D56fGJ2c2MdJ5wyv3Ow8VU9xwP/ztBKicvV9
-w654Conr1zHxX58F2WwwO0Vf/prDbtuZ6NY4F6VeORM2PwaPlBwEJ5YNvDIkFf4V
-p44NU+J8MyR/dt0Wv5mC5Mxk04yoLvoSRm9Sf65vu+TZ2oTRffla+D241ajT83nY
-F5vc56ElD4vIEnEEgc4NsCJnahpNCfxnhXM2+Ot3vAZbPOYgd1SH6qZ3bcFWI7lo
-V83R1+0/4KlPBIEyHqHmuSs9iga+6fO6OrbjPDSuCaECu5UNGxePOT6o1SkosKbq
-Rz3M+NrqMnknCmu17GQKtpmhwKQqbA==
-=F0RC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpp7UsACgkQJNaLcl1U
+h9Dxuwf+PJtOc2XS6LVculN2X97mQSoE1N2CgGMV9863x8tq0FGISQGxt7wo0iTx
+K6T899uKTltZ3Y3OnezUiNk8F9XTBXIQ5Qv3LJbTpHM8hpzODAJtOSor6wvDCDtw
+0pcE0s+V0/vCXmB/rX8mtV3BIMpCeaC5subqot7/oV0m9dEGS1OFmCPno6hPA5DI
+o5J9LyQdgl9c5ehKU+4cB5QDyOlXSio7t+1DL30Xad+eoW26dvGdtpUDNHL3cotY
+GbntZ9rL9yql6tq1l9hmUGtLei5SLlz741hNc6K1KgVSqj7Ka8+EnF3jWD80eOEg
+uIz195sw2U9nVgVY+SBcOP8RxABDtQ==
+=IszT
 -----END PGP SIGNATURE-----
 
---===============3238410037110430625==
+--===============3944631783927044085==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -664,4 +664,4 @@ f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
 6753251cfc9622a90feedc0c0883e3b0a6fcde8a regulator: qcom-rpmh: Add support for PM8350B
 8d62dd89736f09a3e093b1490ceb075472abec6c regulator: PM8350B LDO support
 
---===============3238410037110430625==--
+--===============3944631783927044085==--
