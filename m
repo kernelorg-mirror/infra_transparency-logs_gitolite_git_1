@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2636913035493490436=="
+Content-Type: multipart/mixed; boundary="===============2364834858531853998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 29 Jul 2026 00:06:26 -0000
-Message-Id: <178528358637.49099.4419295298924860476@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 00:15:10 -0000
+Message-Id: <178528411075.55751.1353819797125297381@gitolite.kernel.org>
 
---===============2636913035493490436==
+--===============2364834858531853998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/trace/for-next
-    old: 9581123304b23049437324038698af9fb56ee663
-    new: efdcfd9b4f4f07aa70663ee02a79dbdf980bf582
-    log: revlist-9581123304b2-efdcfd9b4f4f.txt
+  - ref: refs/heads/for-next
+    old: 242798675d99ff522fc8720caf68a59ed93fdd6d
+    new: f9eb7ca58e1816797e6dff1163e9eade053fdb68
+    log: revlist-242798675d99-f9eb7ca58e18.txt
 
---===============2636913035493490436==
+--===============2364834858531853998==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9581123304b2-efdcfd9b4f4f.txt
+Content-Disposition: attachment; filename=revlist-242798675d99-f9eb7ca58e18.txt
 
-af80e2bfde9312c76b60cf9274248dce0410b30d drm/xe: Wait on external BO kernel fences in exec IOCTL
-91426ce50d14a49bde53b3ad1e48393556ba92cd drm/xe: remove duplicate <kunit/test-bug.h> include
 14abbed336a2d1bbd726c25d148d2ec0ff928073 drm/xe: free madvise VMA array on L2 flush failure
 f5ef65adf81da3dbce4e692e48c1754c0bb95da0 drm/xe/userptr: Stub notifier_lock helpers when DRM_GPUSVM=n
 78237e3c0720fcc6eb9b87e90fd70f63eeca886f dibs: loopback: validate offset and size in move_data()
@@ -1050,5 +1048,7 @@ ac00ffdbbc832f4c8ad5312217360d542f7e6690 samples/ftrace: Prevent division by zer
 b5cc230af5e536ff752f8bd5c30e23612936d5c3 tracing: Warn when an event dereferences a pointer in TP_printk()
 dca6a22aee1b9fb2fe26823bc3b302e8eba8d05c tracing: Use strscpy() instead of strcpy() in trace_sched_switch
 efdcfd9b4f4f07aa70663ee02a79dbdf980bf582 tracing: Use seq_buf for string concatenation
+08a470db8b02af197d6e56cdc51884525a352ecf Merge probes/for-next
+f9eb7ca58e1816797e6dff1163e9eade053fdb68 Merge trace/for-next
 
---===============2636913035493490436==--
+--===============2364834858531853998==--
