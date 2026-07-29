@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 29 Jul 2026 05:51:24 -0000
-Message-Id: <178530428466.333474.9138188061665308529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 29 Jul 2026 06:06:24 -0000
+Message-Id: <178530518414.344595.9206251576647687360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: bc2499558705abffca5eaf18d762e0963cc63ba7
-    new: b049e3e5329af699dd6d057eeb3da6473a659373
+    old: 7bad4bda74dc4713f398d3b7624ff05478e3a568
+    new: c12cbf56320fb633484ee0ca1fb7d68d6b64b213
     log: |
-         b049e3e5329af699dd6d057eeb3da6473a659373 b4 review tui: add b4.review-apply-base for the base dialog pre-fill
+         c12cbf56320fb633484ee0ca1fb7d68d6b64b213 xfrm: fix xfrm_state_construct() auth-trunc leak
          
