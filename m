@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8572154554832550493=="
+Content-Type: multipart/mixed; boundary="===============9119433741154490545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Jul 2026 02:54:07 -0000
-Message-Id: <178529364768.178186.2777145718677946986@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 02:54:34 -0000
+Message-Id: <178529367480.178535.9214910487949682677@gitolite.kernel.org>
 
---===============8572154554832550493==
+--===============9119433741154490545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: a3e483db3309f513b8d89a2e21017e5a24ac5f8d
-    new: 6ba01f4efbc3f311f65ed7f401db3c19e8bdd06a
-    log: revlist-a3e483db3309-6ba01f4efbc3.txt
+  - ref: refs/heads/7.2/scsi-fixes
+    old: e166bafc483e927150cb9b5f286c9191ea0df84e
+    new: 0279fd451a9971c0d5b959fc59f3e11b55e1694e
+    log: revlist-e166bafc483e-0279fd451a99.txt
 
---===============8572154554832550493==
+--===============9119433741154490545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1785293571 -0400
+pusher 75C5DE3D 1785293650 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1785293570-796039782407fa642734b62750e1d952818af7fe
+nonce 1785293650-c54d94016958c6956c7d4892cd6924d1835369c8
 
-a3e483db3309f513b8d89a2e21017e5a24ac5f8d 6ba01f4efbc3f311f65ed7f401db3c19e8bdd06a refs/tags/mkp-scsi-fixes
+e166bafc483e927150cb9b5f286c9191ea0df84e 0279fd451a9971c0d5b959fc59f3e11b55e1694e refs/heads/7.2/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppawMACgkQ7ulgGnXF
-3j2wlhAAmuMBkZX5nBzb52TXaKRlVUwa236Z7OUHuo33SONythEkYA6hPGRQWMZU
-ZydP+RB7TeGJVdbBT0kxEPzX+vDS35uFBQwAo76vMWJurIyWloPJiOWVOQI10Uun
-osevpavt5vjPIFCdFSddkbFvez4zgiMpcOIAFS289nvsTQotSP/uDrHKjx1k7h1o
-5lJYnnSCKg190dL0Mt1VGPIAXvEoSmGbIPQdnb+GYfM0/FTEQkdEbqpId6bY2cN+
-83wXebEuTPky6Rn5HXZP4n/rMRDGL+lJSuZJblpkUCbhUZkOZ+3F37yUN9NNgVhi
-y495/fwbPnG+vW36Ea0E+bWhKQ1PkG23FpGiFNPyv7mF22l0YfziO4CdXibb843q
-ZaEYvbxKA6Y0GHfMFX6kbds5iKuPnPDwjM038TFLBuM08TJ9Dzib7zeYpPwW6hN/
-7oAm8Lu7Aq2sAcBMiZ8/3I+NZkAGymIfR+IbfzvbS/IOo3FUM+QioDv8f0RymeNb
-+5D1Q0CDWCruqPxY6IvU+zNtWMC6c0nyGp/xYiVXMu7Xu+evEBXHS9tHkMZ5cROY
-Rd+juze8QKTcE9gPQmZXdd5SQJSR9QRMCf/j+QkoB8Ng6We38ZZ1z42JuXtfLg6m
-vo6bAVJAdsBQDcQ02aSIXLO1LErpxxx29QflyAcZ6LBKjEDtO7M=
-=ArWn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa1IACgkQ7ulgGnXF
+3j37Kw/9EqlUXzagp2YqYKr6E2Cc4RE0VACAYNvqJlvbIr+1H+JVK82yNFcvosQg
+iPRq5+9IMywo94Gij/uH7DOITo/GqTk58cngdRHkGTAeISMwFBbe1hbIeTmtCtqx
+Nt+Z7ykhqhF5m9cSqfdd71nOejLTTc5RJ1kivgaEBeWVG416V8VJrtuUXTF1jc/N
+xHbDAVCz63kO6fYfFp/V5LzOMkB3TaCFtM/DbFywtyj+XCN4xWX2SlDz7pB0paY5
+GiEdggG63gN1ZkbvNFeNdA/OxAbF9JOhqxd+kgKde7n2TrYekL/FZHfh7v2iiUue
+bx+MW/+MvKeSjbph1jnMFWCQpSstycWQG+5jdL+BE/8+aGFgGW+MSxcCBYBlXnO2
+UcXjMMqDBuURQHrhJoikJ8pL2dzJZir5sD4Lc/ecC3jjwK3ku7W3pUO4805VQqgL
+v2wniIK9BzDLdlqY/kAOmw/uvoeaWi+xhs53BxPUbfMEsg7c6b+K2n41xaGidtYp
+HCgT5GwaKYtz/BonF73b+2FZBlzgF7gG6GPEixEp4NZMYAk1pQ/9NkOOSe4OCUTO
+hFIBFRTMa3bg41uN2mlDmGPJ1kXR+xOOgeRJ17VZ43h93YyJ6xHH5KAxsSq7yj0V
+wiSYxH0ImTMjY+FqRMuucw9ugOIrvLKP1eu8pkNDdpIyLs6id6c=
+=ljqT
 -----END PGP SIGNATURE-----
 
---===============8572154554832550493==
+--===============9119433741154490545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3e483db3309-6ba01f4efbc3.txt
+Content-Disposition: attachment; filename=revlist-e166bafc483e-0279fd451a99.txt
 
 98b87885de4b7f605533a2860685f5689fce8e82 scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer
 c1dea15f819cded9b3faf58f8bec72323568b6e6 scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer
@@ -69,4 +69,4 @@ a8ddfd2425bbbafadae8700d63ed8a61a4109878 scsi: target: Clear cmd_cnt when initia
 ccff8c92571500fcfed21281e33daaf645bf692f scsi: mpi3mr: Fix potential deadlock in mpi3mr_fault_uevent_emit
 0279fd451a9971c0d5b959fc59f3e11b55e1694e scsi: ufs: core: Initialize hba->rpmbs list in ufshcd
 
---===============8572154554832550493==--
+--===============9119433741154490545==--
