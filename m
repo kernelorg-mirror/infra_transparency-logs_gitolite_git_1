@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 29 Jul 2026 17:58:57 -0000
-Message-Id: <178534793745.1007728.9267709211645474489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 29 Jul 2026 18:29:53 -0000
+Message-Id: <178534979360.1028787.5420007734660818240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 94c62041d0ace9455bb3321a51f9b3e613bca2d7
-    new: 7dc696a4ceebfe9f278a90358a8c0a2c364fec9f
+  - ref: refs/heads/main
+    old: b515dc54795ef370be3cb396e7c12ad91686b6d1
+    new: 2bb54b49e9d522f54dc9c0fe10ba40fbc56041c8
     log: |
-         9ed31a1c40548a1242e15233e04b9aa2e90ffd3e KVM: selftests: arm64: Only restore SPSR_EL1 and ELR_EL1 if they change
-         011326adad11e1016be739f71e591a5247fb485e tools: Synchronise the kernel esr.h
-         7dc696a4ceebfe9f278a90358a8c0a2c364fec9f KVM: selftests: arm64: Add GCS EXLOCK exception emulation test
+         16812d9674d4991ebbae80769b15f7342dbfa988 net_shaper: remove incorrect comment about group leaves
+         26bc4cfb17374f69717970699b4ccbdb1fd2a027 net_shaper: clarify the kernel API / comments
+         ff6461c1483420d0da542ff085dbd94e841afc1a net_shaper: add some notes on re-parenting
+         11291f123073aa143709770ba988cba41bfc4057 Merge branch 'net_shaper-clarify-kernel-api-docs'
+         2bb54b49e9d522f54dc9c0fe10ba40fbc56041c8 ppp: convert chan_sem to a mutex
          
