@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 29 Jul 2026 11:31:05 -0000
-Message-Id: <178532466569.590207.9684993745224946002@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 11:41:01 -0000
+Message-Id: <178532526129.597220.16217512769648877828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 229b42d7450c1cf96f45ec39ebb69211b06bc036
-    new: 373f3716a2de7adc739269ebb4d87e5bf4dc180c
+    old: 373f3716a2de7adc739269ebb4d87e5bf4dc180c
+    new: 033a79e308e4fe832b0924347eda8c4364055174
     log: |
-         373f3716a2de7adc739269ebb4d87e5bf4dc180c RDMA/cxgb4: Fix dereg_skb leak and double free in write_tpt_entry()
+         03826bc1fa6c90405bf05831f2b501a8368dcd27 RDMA/mlx5: Fix stack out-of-bounds read in cc_params debugfs
+         033a79e308e4fe832b0924347eda8c4364055174 RDMA/mlx5: Send cong param changes to the resolved port mdev
          
