@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 29 Jul 2026 06:06:24 -0000
-Message-Id: <178530518414.344595.9206251576647687360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Wed, 29 Jul 2026 06:30:58 -0000
+Message-Id: <178530665803.361609.3704247433793798651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: 7bad4bda74dc4713f398d3b7624ff05478e3a568
-    new: c12cbf56320fb633484ee0ca1fb7d68d6b64b213
+  - ref: refs/heads/fixes
+    old: 5c4a03afcb21783987ffc64562b76ddd5a21b12b
+    new: 3a0b8fa2eb36afc88b62a95f33f0c77c71fa5ded
     log: |
-         c12cbf56320fb633484ee0ca1fb7d68d6b64b213 xfrm: fix xfrm_state_construct() auth-trunc leak
+         3a0b8fa2eb36afc88b62a95f33f0c77c71fa5ded kho: fix size calculation in kho_preserved_memory_reserve()
          
