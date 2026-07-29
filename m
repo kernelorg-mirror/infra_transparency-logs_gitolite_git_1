@@ -1,108 +1,141 @@
-Content-Type: multipart/mixed; boundary="===============8775597395777891614=="
+Content-Type: multipart/mixed; boundary="===============4511677264178955508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 29 Jul 2026 15:58:09 -0000
-Message-Id: <178534068939.859018.12829049281629929437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 29 Jul 2026 15:58:20 -0000
+Message-Id: <178534070007.859238.14509574790058385483@gitolite.kernel.org>
 
---===============8775597395777891614==
+--===============4511677264178955508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
-    old: be0a929591973b37c6e4ab9fd9736675c4e1a8b7
-    new: 6776197cc88d0d397084bc47bca7e983017cecc2
-    log: revlist-be0a92959197-6776197cc88d.txt
-  - ref: refs/tags/ath-202607291549
-    old: 0000000000000000000000000000000000000000
-    new: 6776197cc88d0d397084bc47bca7e983017cecc2
+  - ref: refs/heads/for-next
+    old: 88f46b866fe93b18abbca52085971ee382ece771
+    new: 0c642cefc072fc2e94b3c6531529ff352a855e50
+    log: revlist-88f46b866fe9-0c642cefc072.txt
+  - ref: refs/heads/soc/drivers
+    old: 6bbf8038f8cae72f08007604b8c863492970c2f6
+    new: ce9af94e6d0742ee1a1a03efb7e8c1ee40e2a79e
+    log: revlist-6bbf8038f8ca-ce9af94e6d07.txt
+  - ref: refs/heads/soc/dt
+    old: a4bc8e323ddc6abe5b1e08a68a19ec0c93838959
+    new: ec563ef1c006e7de4b479df8d6695a4b6ebe7a6b
+    log: revlist-a4bc8e323ddc-ec563ef1c006.txt
 
---===============8775597395777891614==
+--===============4511677264178955508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be0a92959197-6776197cc88d.txt
+Content-Disposition: attachment; filename=revlist-88f46b866fe9-0c642cefc072.txt
 
-0ba1b366185b770440bf4eee3c4a929bc3cfc0e9 wifi: iwlwifi: Clean dangling pointer in tx path
-d6061f5f1318a0fc116fa442bea299095d211ad4 wifi: iwlwifi: fw: Fix spelling typo in error-dump.h
-67105abd6195a685a84dcb8a5daf54a1f4bfdb60 wifi: iwlwifi: dvm: fix memory leak in iwl_op_mode_dvm_start()
-94280e6e0c69a5327e377803732f494d8b5a74cd iwlwifi: dvm: add missing cleaup for on error path
-7410e4548a17bd868dfc60b48f2e78eacde3ad78 wifi: iwlwifi: validate PNVM SKU TLV length
-f051995c539582b05276abda4c5874fd4cafd2a5 wifi: iwlwifi: validate UEFI reduced-power SKU TLV length
-478cad8bba59e8ee0e08d49edabf14bf1fbde5e4 wifi: iwlwifi: add a compile time check for too long hcmds
-1e749bd58e556f69a0251cfc8cd110b986f641f0 wifi: iwlwifi: mvm: remove iwl_mvm_recalc_tcm()
-6800559a1042bfef9985b400f9dd971650d122f4 wifi: iwlwifi: claim UHR DBE capability for UHR devices
-3bff0d12c36247073fca976498b58a940fca72dc wifi: iwlwifi: support TTL platform device ID
-9119aeeddc210cdfce0537de3ea3bab9316b2589 wifi: iwlwifi: mvm: fix the FCS truncation logic in d3
-68f7d05494403ce89eba2b5476b2cd9ac03041db wifi: iwlwifi: mld: treat valid BAID without STA as a FW error
-21b3263b90e8006d488894e8a71c8debf45f6b88 wifi: iwlwifi: mvm: validate monitor notif link_id
-c99bc4d4e0ba6f4661b2b914c96a597d26e7cc05 wifi: iwlwifi: mld: cancel wiphy work before freeing wiphy
-4e777dcdfe70d9b3ddf38cb49de9e30306889b18 wifi: iwlwifi: mld: validate D3_END notif size
-5826799a26fd1c7dd954f6386a49e9fad747f21f wifi: iwlwifi: pcie: validate txq_id in txq_enable
-678148622fa8e5a118784fa3fcb9bd1876b8322a wifi: iwlwifi: ignore raw-DSM TLV for LARI cmd version 13 and above
-974cbad4c86d6442d9e08710322b924e4ae79023 wifi: iwlwifi: regulatory: add LARI_CONFIG_CHANGE command v14 support
-a51cc8131214870af92abbceab64877b27e690c2 wifi: iwlwifi: mvm: reset the smart fifo state upon FW stop
-0a00c3ec2db7674483dece4863f105b18a966202 wifi: iwlwifi: mvm: cleanup the driver state after device_powered_off
-71ac392d8b5c23c45c66f30eff1c319580ada4da wifi: iwlwifi: mld: reset the driver state upon firmware recovery
-ef704fc32ae1a519801ac4a06aa290fece5f403c wifi: iwlwifi: mld: support aborting an ongoing ftm request
-7e16dad5d47e29338db9effbeb26b4e8bcfbc2c0 wifi: iwlwifi: mld: validate WoWLAN notif header
-bbe2d2fa8780a04dac8de0ecaa3895d3f3bc093e wifi: iwlwifi: mvm/mld: fix PPE threshold debug print loop
-71e67b4b59337b2f9f4fef976a27de2dad7aabf2 wifi: iwlwifi: fix counter type in iwl_fwrt_dump_error_logs
-405ff50b72db1dfb86d7502c3c84208779809ab2 wifi: iwlwifi: mld: fix validation fallback in iwl_mld_notif_is_valid
-f6a6c01cbc046f68e6916a7e047a1bc881c8c9ab wifi: iwlwifi: mvm: fix off-by-one in TXF key sanitiser
-ad13072308f82a9aa2e68a135e70672454367d92 wifi: iwlwifi: mld: honor FW puncturing capability in MCC response
-ebc246e1d5a3e4502dba60cf9e9644de0fc5a8b6 wifi: iwlwifi: mvm: add LARI_CONFIG_EXTENSION command
-51c45bb2c884e0e2f56d6770011994d653371702 wifi: iwlwifi: mld: add PNVM_INIT_COMPLETE_NTFY to the hcmd names
-c5aeb11489150be84d3a700711abffd98969d2d5 wifi: iwlwifi: mld: fix read in wake packet notification handler
-7d8cc301bcba233f31b589a45f4c1c97f2bb90d6 wifi: iwlwifi: mei: check SAP message length before reading it
-c00a5d65b7ada536eb488280fae53fcf1724a7c3 wifi: iwlwifi: mei: skip data read if length is too short
-9318bc0c41b24705690cf80d1596cf6b711e7027 wifi: iwlwifi: guard against division by zero in iwl_dbg_tlv_alloc_fragments
-1c031ac5a39ebcc3269eace8b606043adc398bfa wifi: iwlwifi: mld: Do not cleanup FW state when the device is dead
-905f57aefde4f4092a411c8a55856182fb1c7598 wifi: iwlwifi: mei: pass correct argument to function
-c5cb9dd220ba9fdcf4ba485ce3d1d36ca32ac00b wifi: iwlwifi: mld: validate wake packet crypto overhead
-6aa811062cd78ad961410a64db55694ff609da57 wifi: iwlwifi: mld: initialize scan-abort status
-a790f60cc4d7dc64a2d7cadb94a3d9f60392bed4 wifi: iwlwifi: mvm: ignore sync frames when sync is disabled
-4f5384b58b483e4aec576ce461dec45b41df18db wifi: iwlwifi: mld: drop connection on D3 resume failure
-7e1d5ccac87ec618f393ec137743207282ef1af5 wifi: iwlwifi: fw: move SAR defines from acpi.h to regulatory.h
-340eafb30b35a600a66da333bb0c119a880b7062 wifi: iwlwifi: mld: support update_mcc notification v2
-ac8227e35ff7c8953a7d8adf7f5230127ad97aae wifi: iwlwifi: mld: add debug log after AP type command
-a47ab1b9c0827f5bd6717abb3f9e3f4f6eb5e00c wifi: iwlwifi: mld: move BIOS reading code to where it belongs
-01f41f5fd823fb70a2f28ea87f6cf85a268ef8b9 wifi: iwlwifi: regulatory: add LARI v15 DSM support bitmap
-4a2610a5a9fcf77eaad82bb030ec77ec5e381db8 wifi: iwlwifi: bump core version for BZ/SC/DR
-c706dc5da6e1764b2e75132f7815f75e75a6a34a wifi: cfg80211: change mesh_setup::ie_len to size_t
-36743788d685d9a8a7239c32d75f847a06e60d13 rfkill: repair malformed kernel-doc and add some descriptions
-905b418df8af2ca830c2237e029f174911b53415 Merge tag 'iwlwifi-next-2026-07-23' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-8e4f5ca8bf67efc6006c066e873f0535bd7a9cd9 wifi: nxpwifi: reject zero-length extension elements in beacon IEs
-094dc1619cb025b6fedbe609d09d3768cf645ab4 wifi: mac80211: factor out part of ieee80211_calc_expected_tx_airtime
-2f925427e27ab684bedd37b0047c89105270747c wifi: mac80211: estimate expected throughput if not provided by driver/rc
-836c1addd3bf42d47ca5f7a5780a7ec52abf332e wifi: mac80211: add AQL support for multicast packets
-9a197e71eb7b45860e37a9f3bdf61a843781ae12 wifi: mac80211: add ieee80211_txq_aql_pending()
-ef06882c7d8a7400b67d0d003b1008093dd589ed wifi: mwifiex: Detach sync cmd buffer on interrupted wait
-058d979d4f418510279383e508ebc0795ab956f2 wifi: mwifiex: Remove WQ_HIGHPRI from main workqueue
-7d86b0a8aceff34f7178e39261966903de01c2a1 wifi: mac80211: simplify airtime_flags_write()
-4a0bd262df757b25fc4e2a53c947317c119ced4e wifi: mac80211: fix per-STA profile length in cross-link CSA parsing
-d5a2ccf92c8ab3bcfadbae2f46349bf164c71eba bus: mhi: ep: Add mhi_cntrl->flush_async() callback to flush the async read/write
-9daf648da0049c99fd4f2dd06b7dc7d4a43c6d8e bus: mhi: ep: Flush async transfers before notifying disconnect in mhi_ep_abort_transfer()
-f502c0316c52b1f71fe544f99676805d90c554ba PCI: epf-mhi: Implement mhi_cntrl->flush_async() to flush DMA read/write
-878654eb78c6aa0ff585baf1376567c775ca28ec wifi: ath12k: fix overreads in ath12k_wmi_process_csa_switch_count_event()
-208d7fdb85976a737a715b81d54efaff6703880c wifi: ath11k: fix overreads in ath11k_wmi_process_csa_switch_count_event()
-8e415b8068480d51a057197ded974e2637e8c42b wifi: ath12k: validate TLV length in process_tpc_stats()
-0702eddffff1b637a9e90187785a0b44542bb365 wifi: ath12k: move firmware_mode enum to qmi.h
-0090ec7ad252f1a597d782b7bce7eff7bdde00c0 wifi: ath12k: rename firmware_mode enum members to use QMI namespace
-534459ac562b207ba1a9bb2c95dba77b5939e2da wifi: ath12k: Use different RX release ring sizes as per memory profiles
-43c521c11ce8fe904e14d1ae0566ffea931cf2e9 wifi: ath12k: skip MLO multicast links during crash recovery in Tx path
-96f46607bbcee8aac00c4b5a1213b7d82ceee36d wifi: ath12k: add AHB platform descriptor support
-c6ab3b1dfa3e62dbf42c66121037de460a182642 wifi: ath12k: Share RootPD state across UserPDs to avoid duplicate operations
-32d81735248e98a14dbee71d984242de564a7d3e Merge remote-tracking branch 'wireless/main'
-d7d7aa8787f649626e6119f30cd696773adfb740 Merge remote-tracking branch 'wireless-next/main'
-273aa1bc99b5d9eb67737d831e1b364b3e05e479 Merge branch 'ath-next'
-ca3d3526fe6c008a3100625d174b5a2ab7e75296 Merge remote-tracking branch 'mhi/mhi-next'
-6776197cc88d0d397084bc47bca7e983017cecc2 Add localversion-wireless-testing-ath
+fa476d53edd24e8105faace04e881b9c4179738f soc: samsung: exynos-pmu: fix of_node refcount leak in exynos_get_pmu_regmap()
+d3ebfcb66147497c1f6a4ceaed9a499cec2b3fe2 dt-bindings: soc: samsung: exynos-sysreg: Add hsi0 for ExynosAutov920
+2c19e75101ee17059bf10101f4cf0157f61776a2 arm64: dts: exynosautov920: Add hsi0 syscon node for PCIe PHY
+27dd768f89bef4ce0d584e8d5ae687124e4f1291 arm64: dts: socfpga: agilex5: Add per-channel interrupts to gmac0
+ea3aec9519e22c8c2bad7a4b7a3dd3880c5a44b0 arm64: dts: intel: keembay: Always use decimal interrupts
+10cf797f3f8a50d5ac7a823117e5097b87c7e51d arm64: dts: socfpga: agilex5: Enable the SMMU
+501a98280c6fa8959b5d7c032e6744c6b9f049ab arm64: dts: socfpga: agilex5: Add dma-coherent to XGMAC nodes
+d6d3f13d05994cd915f27a23942d6019294de609 dt-bindings: arm: altera: Add Agilex72 SoCFPGA compatible strings
+5eb1916efe763147dfee408e282b77a607aa0c42 arm64: dts: socfpga: agilex72: Add initial device tree
+da07acfd60891b499573b2720b1802a23032472d dt-bindings: net: altr,socfpga-stmmac: add more interrupts for Agilex5
+0764f42a8ba90cc390070dd48dbc0afde5146f86 arm64: dts: socfpga: agilex5: update channel interrupts for gmac1 and gmac2
+1527acf2295cf2d6e11e3e9b121d63709667e6e7 memory: stm32_omm: initialize ret in stm32_omm_set_amcr
+39ea7cb4019245ce488ea547b3ec68a3d7d57aef ARM: dts: intel: arria10: Correct indentation
+5239692170f1815c0bbc57de432d7eb8b616f8f1 memory: tegra: add multi-socket support to the memory interconnect
+8111c7f3723f414b7f655a3880775cbbd0e9de8e memory: tegra: Guard against NULL mc_regs in IRQ handler
+3527091de0feb27e437bce175048b54be835221b dt-bindings: samsung: exynos-pmu: Restrict children with unevaluatedProperties
+e131ca83dabc8bfb8c1d455d02bf2d7a7bc1198a dt-bindings: samsung: exynos-pmu: Narrow allowed reboot modes
+bd504200195c0bcb26706f363814d3426ef3baa7 ARM: dts: rockchip: add eeprom node to rk3288-tinker
+068a6bd57167cb97058b08f22db0584fabdaab95 dt-bindings: vendor-prefixes: add alientek
+f1522feb72aa5231532c9f69e7f5cc91972697e1 dt-bindings: arm: rockchip: Add Alientek DLRV1126
+17bee9ee734e56d512ec7803eb7948adb56d1d9c ARM: dts: rockchip: Add RV1126 I2C5
+44045aa7a9a9e6484617f44f77a3efb2d8e78565 ARM: dts: rockchip: Add Alientek DLRV1126
+4b4a2ce19af5badef165c109d0d6d9f7c102914a dt-binding: ARM: samsung: Add Samsung Exynos8855
+f03058d3768c3ec4af0fab7a36d0631423cb3cf5 arm64: dts: exynos: add initial support for Samsung Exynos8855 smdk
+a87d503a0ab077b0d9892290ab7dbec29f922eb1 MAINTAINERS: Add entry for Samsung Exynos8855 SoC
+6f0b46832eda0d142c5d2a7450cf57f3f1a30aba arm64: dts: realtek: Add EL2 virtual timer interrupt
+3c778f0c9fa36b6b9a26bd2146df24ed4e830ba4 arm64: dts: realtek: Add GPIO support for RTD1625
+23ef479b60e2da14d227ce488583ab31e3ea190c arm64: dts: cix: add sky1 DMA-350 node with channel IRQ entries
+5ed8cdb56cd90859e0c7f269b4a7c2b1571419b2 riscv: dts: thead: th1520: remove pclk for I2C1
+b6e4c8fe4cbeb71365e579904fbd4cb6437ff278 riscv: dts: thead: Add TH1520 I2C nodes
+c8f71218e9ac1a01fd355eabe62957df17d13b83 riscv: dts: thead: lpi4a: sort nodes
+01ba55917c27161f8480adf17c1bb8c6f6b62a09 riscv: dts: thead: Add IO labels for the IO expansion on I2C1
+15d32aaf6300b832814a9930fdbd20efdbc9adcf riscv: dts: thead: Add remaining Lichee Pi 4A IO expansions
+96aa6902ff2bf81b9b8e0fa228494595dc2374a9 memory: jz4780-nemc: Use dev_err_probe() for clock error
+ff98c9832fd430ba7b3158b8521002c8eb8aa16c arm64: dts: socfpga: use consistent QSPI boot partition label
+27fa9068181f09e4cc8658e7de1faf198d980c38 Merge tag 'realtek-dt-v7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/yu_chun/linux into soc/dt
+fcf7dd6d6ce4c51b75bcb7db418d51f73f317d44 Merge tag 'samsung-dt64-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
+37ce61435453ea6abdaa462029542f52778f00d4 Merge tag 'thead-dt-for-v7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/fustini/linux into soc/dt
+d2ccddbbcc708b5eddcfc0e7d870781377efda51 Merge tag 'v7.3-rockchip-dts32-1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
+dcfda9ceb6eb46038a8fc262dc62d6f8d2a89c26 Merge tag 'socfpga_dts_updates_for_v7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into soc/dt
+ec563ef1c006e7de4b479df8d6695a4b6ebe7a6b Merge tag 'cix-dt-v7.3-rc1' of https://github.com/cixtech/linux-mainline into soc/dt
+41cbe7ad14d740da3d6e245bb07f481540b722fe Merge tag 'memory-controller-drv-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
+ce9af94e6d0742ee1a1a03efb7e8c1ee40e2a79e Merge tag 'samsung-drivers-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers
+96775a68803e7706d021ccc962aab6da6b3cf1d6 Merge branch 'soc/dt' into for-next
+a0bcc4a2bac36c0ba45328ad51984521f911aa23 Merge branch 'soc/drivers' into for-next
+0c642cefc072fc2e94b3c6531529ff352a855e50 soc: document merges
 
---===============8775597395777891614==--
+--===============4511677264178955508==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6bbf8038f8ca-ce9af94e6d07.txt
+
+fa476d53edd24e8105faace04e881b9c4179738f soc: samsung: exynos-pmu: fix of_node refcount leak in exynos_get_pmu_regmap()
+d3ebfcb66147497c1f6a4ceaed9a499cec2b3fe2 dt-bindings: soc: samsung: exynos-sysreg: Add hsi0 for ExynosAutov920
+1527acf2295cf2d6e11e3e9b121d63709667e6e7 memory: stm32_omm: initialize ret in stm32_omm_set_amcr
+5239692170f1815c0bbc57de432d7eb8b616f8f1 memory: tegra: add multi-socket support to the memory interconnect
+8111c7f3723f414b7f655a3880775cbbd0e9de8e memory: tegra: Guard against NULL mc_regs in IRQ handler
+3527091de0feb27e437bce175048b54be835221b dt-bindings: samsung: exynos-pmu: Restrict children with unevaluatedProperties
+e131ca83dabc8bfb8c1d455d02bf2d7a7bc1198a dt-bindings: samsung: exynos-pmu: Narrow allowed reboot modes
+96aa6902ff2bf81b9b8e0fa228494595dc2374a9 memory: jz4780-nemc: Use dev_err_probe() for clock error
+41cbe7ad14d740da3d6e245bb07f481540b722fe Merge tag 'memory-controller-drv-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
+ce9af94e6d0742ee1a1a03efb7e8c1ee40e2a79e Merge tag 'samsung-drivers-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers
+
+--===============4511677264178955508==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a4bc8e323ddc-ec563ef1c006.txt
+
+2c19e75101ee17059bf10101f4cf0157f61776a2 arm64: dts: exynosautov920: Add hsi0 syscon node for PCIe PHY
+27dd768f89bef4ce0d584e8d5ae687124e4f1291 arm64: dts: socfpga: agilex5: Add per-channel interrupts to gmac0
+ea3aec9519e22c8c2bad7a4b7a3dd3880c5a44b0 arm64: dts: intel: keembay: Always use decimal interrupts
+10cf797f3f8a50d5ac7a823117e5097b87c7e51d arm64: dts: socfpga: agilex5: Enable the SMMU
+501a98280c6fa8959b5d7c032e6744c6b9f049ab arm64: dts: socfpga: agilex5: Add dma-coherent to XGMAC nodes
+d6d3f13d05994cd915f27a23942d6019294de609 dt-bindings: arm: altera: Add Agilex72 SoCFPGA compatible strings
+5eb1916efe763147dfee408e282b77a607aa0c42 arm64: dts: socfpga: agilex72: Add initial device tree
+da07acfd60891b499573b2720b1802a23032472d dt-bindings: net: altr,socfpga-stmmac: add more interrupts for Agilex5
+0764f42a8ba90cc390070dd48dbc0afde5146f86 arm64: dts: socfpga: agilex5: update channel interrupts for gmac1 and gmac2
+39ea7cb4019245ce488ea547b3ec68a3d7d57aef ARM: dts: intel: arria10: Correct indentation
+bd504200195c0bcb26706f363814d3426ef3baa7 ARM: dts: rockchip: add eeprom node to rk3288-tinker
+068a6bd57167cb97058b08f22db0584fabdaab95 dt-bindings: vendor-prefixes: add alientek
+f1522feb72aa5231532c9f69e7f5cc91972697e1 dt-bindings: arm: rockchip: Add Alientek DLRV1126
+17bee9ee734e56d512ec7803eb7948adb56d1d9c ARM: dts: rockchip: Add RV1126 I2C5
+44045aa7a9a9e6484617f44f77a3efb2d8e78565 ARM: dts: rockchip: Add Alientek DLRV1126
+4b4a2ce19af5badef165c109d0d6d9f7c102914a dt-binding: ARM: samsung: Add Samsung Exynos8855
+f03058d3768c3ec4af0fab7a36d0631423cb3cf5 arm64: dts: exynos: add initial support for Samsung Exynos8855 smdk
+a87d503a0ab077b0d9892290ab7dbec29f922eb1 MAINTAINERS: Add entry for Samsung Exynos8855 SoC
+6f0b46832eda0d142c5d2a7450cf57f3f1a30aba arm64: dts: realtek: Add EL2 virtual timer interrupt
+3c778f0c9fa36b6b9a26bd2146df24ed4e830ba4 arm64: dts: realtek: Add GPIO support for RTD1625
+23ef479b60e2da14d227ce488583ab31e3ea190c arm64: dts: cix: add sky1 DMA-350 node with channel IRQ entries
+5ed8cdb56cd90859e0c7f269b4a7c2b1571419b2 riscv: dts: thead: th1520: remove pclk for I2C1
+b6e4c8fe4cbeb71365e579904fbd4cb6437ff278 riscv: dts: thead: Add TH1520 I2C nodes
+c8f71218e9ac1a01fd355eabe62957df17d13b83 riscv: dts: thead: lpi4a: sort nodes
+01ba55917c27161f8480adf17c1bb8c6f6b62a09 riscv: dts: thead: Add IO labels for the IO expansion on I2C1
+15d32aaf6300b832814a9930fdbd20efdbc9adcf riscv: dts: thead: Add remaining Lichee Pi 4A IO expansions
+ff98c9832fd430ba7b3158b8521002c8eb8aa16c arm64: dts: socfpga: use consistent QSPI boot partition label
+27fa9068181f09e4cc8658e7de1faf198d980c38 Merge tag 'realtek-dt-v7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/yu_chun/linux into soc/dt
+fcf7dd6d6ce4c51b75bcb7db418d51f73f317d44 Merge tag 'samsung-dt64-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
+37ce61435453ea6abdaa462029542f52778f00d4 Merge tag 'thead-dt-for-v7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/fustini/linux into soc/dt
+d2ccddbbcc708b5eddcfc0e7d870781377efda51 Merge tag 'v7.3-rockchip-dts32-1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
+dcfda9ceb6eb46038a8fc262dc62d6f8d2a89c26 Merge tag 'socfpga_dts_updates_for_v7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into soc/dt
+ec563ef1c006e7de4b479df8d6695a4b6ebe7a6b Merge tag 'cix-dt-v7.3-rc1' of https://github.com/cixtech/linux-mainline into soc/dt
+
+--===============4511677264178955508==--
