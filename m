@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 29 Jul 2026 15:41:32 -0000
-Message-Id: <178533969277.788991.7604831922355857739@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 15:41:42 -0000
+Message-Id: <178533970211.789299.2790168298012255896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: edc84a9396acf1a0e78c46230dd0bcee1b84ac53
+  - ref: refs/heads/pending
+    old: d790ce3bf84d2a3d85304d4e164dcb06a0365208
     new: c6ab3b1dfa3e62dbf42c66121037de460a182642
     log: |
          878654eb78c6aa0ff585baf1376567c775ca28ec wifi: ath12k: fix overreads in ath12k_wmi_process_csa_switch_count_event()
