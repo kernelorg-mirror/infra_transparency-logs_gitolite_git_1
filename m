@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2641171259128161628=="
+Content-Type: multipart/mixed; boundary="===============2831236799689624622=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 29 Jul 2026 12:40:07 -0000
-Message-Id: <178532880725.640958.2319336214064026575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 29 Jul 2026 12:40:14 -0000
+Message-Id: <178532881425.641190.1177445079618732364@gitolite.kernel.org>
 
---===============2641171259128161628==
+--===============2831236799689624622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 317a44bc19b6c58ebe2156f65e96ae62c8147903
-    new: 7e39f8d1e8a5dbacca093c96466dcc6b6be510ab
+  - ref: refs/heads/for-7.3
+    old: 79052a6a6f5b019d24efbbb934f2d77a1db75211
+    new: cb2902c3866297df3560f33d6fbc3cf9de6c7442
     log: |
-         7e39f8d1e8a5dbacca093c96466dcc6b6be510ab 5.15-stable patches
+         a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed spi: spacemit: Correct TX FIFO slot calculation
+         6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2 spi: dt-bindings: spacemit: add K3 SPI compatible
+         d3c87e71539cb183ea6173a99dc0e6f84fa0bc4f spi: spacemit: prepare both DMA descriptors before submitting
+         90ef2f2961c2dc55957dafe2f53b3efdb4675efc spi: qcom-qspi: Correct max DMA length to avoid 64K boundary failure
+         d9eadfce2fac49445db40808fe4d8259f20a9d2b spi: spi-cadence: Move TX FIFO full busy-wait into FIFO
+         8fd62901d6bf03f274a49dd0060793cc07dd51b0 spi: spi-qpic-snand: write the feature value before executing SET_FEATURE
+         cb2902c3866297df3560f33d6fbc3cf9de6c7442 spi: Merge up fixes
          
 
---===============2641171259128161628==
+--===============2831236799689624622==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785328795 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785328805-71668f3fd7601afdc262b6eba8fe773383df89d6
+pusher C3F436CA30F5D8EB 1785328812 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1785328812-1d8e74859bd348802e2df0ceb4f3be0fcb6b5937
 
-317a44bc19b6c58ebe2156f65e96ae62c8147903 7e39f8d1e8a5dbacca093c96466dcc6b6be510ab refs/heads/master
+79052a6a6f5b019d24efbbb934f2d77a1db75211 cb2902c3866297df3560f33d6fbc3cf9de6c7442 refs/heads/for-7.3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpp9JsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eoYQAMchDnYDJ66eoc3KSq2b
-5B1sHlyJPnenZEiPGyi3iOMcMyPoXgVcfSQTfNzjbnqlxd8DErB8ibxUGUQSZDwO
-2nEMEj5lVpLSB6U5S8ImGzsV+Au3HmETWALKhF5c02UZp1W6nw5fSL7Aw2z0GPhL
-PQAz3Jzw6OFU/Kl/dF4wuYE6qkYJBmRDp0F+i4bUzXLo4zGdc1usBqrCj0kqemLB
-/f0KIR2UnNHn9xsgSCfuTnrTFAQBo+HLKYku//a2XEkmsDkN7nfYW+HtGut0CaAL
-tpWoIHgKTEXZM8PcuWVF3MCc1txOsSQXbDEkgWtlbygM6xRWkMCOrEJu9VO2jWS+
-j7cL2CDu5Gb/yJQzLRtna5JYv4ZHMB9sYky0Eb2p1y1ZdfIcMYmFMd8HNle/QCzR
-48MLR6UrMX2iGVPX21o38OuQjw4aBmo9j1UzAuOen8/NOXuM0+tQHTWBDqt1FCE/
-+o2uuw8JweCYQSOc5+ssQ5cD5ougMLgTRcBARg4OQhnLMNweA6Cvylof3zALiYp2
-NjXVq9f/dPSnodcYbmg9sTgNKTXZiTDThLxJf80oWtAiEtMRf8It+p1GA9ebfwLT
-fskrqpfdskiEmi3rnieTFGKNT85o1GjigqUtxznpLI1Txe3KH9Jg8zjgfzRwaZ4b
-0aQ/+MDEtiOe5EWLKdRbnN2P
-=fI9m
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpp9KwACgkQJNaLcl1U
+h9A2sgf+J2uhh955jSDHVMA0i/OCbNmTRUofUIYqiovTN3YaxKy2fG+0uN/q+/d1
+R7F+miwoRMnDGlQBZxIXdPxwbBlFEMZbpLHhoMF974NpnO4UV5IrK9I2ALlij6f8
+yBUWRUaToWANYTccpOLFwPK2a62XQUtKv6SbUHZQY8DZuJaetpTV5O5VvQuBm2HA
+iKwQTe6cb3FWlrjcajjhE7Fb/uz1c/8U1uAbbrogObP9QPvgVS3evZeQrsP8LfBC
+x8mPc4b11zMtN+9TTrNH5rjUW+65PdFrS9HchQ2rQhS81JMwklIvhYcUmcgngxvC
+qNpALIFLHJ4oXq/FuiQQDBVR01Qk0A==
+=HReu
 -----END PGP SIGNATURE-----
 
---===============2641171259128161628==--
+--===============2831236799689624622==--
