@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2919443455096542213=="
+Content-Type: multipart/mixed; boundary="===============8777234502567587630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 29 Jul 2026 02:55:08 -0000
-Message-Id: <178529370849.180884.7523521502901363556@gitolite.kernel.org>
+Date: Wed, 29 Jul 2026 02:55:35 -0000
+Message-Id: <178529373565.181360.12614382830561267856@gitolite.kernel.org>
 
---===============2919443455096542213==
+--===============8777234502567587630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 554e64673a52c14c374680d81523f4ac66caaf3b
-    new: 6e9226a76676ce5628bf54857799834a86d0c946
-    log: revlist-554e64673a52-6e9226a76676.txt
+  - ref: refs/heads/7.3/scsi-queue
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 51d182826659989db25f841b191dd5ed07135569
+    log: revlist-dc59e4fea9d8-51d182826659.txt
 
---===============2919443455096542213==
+--===============8777234502567587630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1785293683 -0400
+pusher 75C5DE3D 1785293711 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1785293683-0f06c0d31448db1bac597f3137116d7c911e01c8
+nonce 1785293711-b91ff18c13ad9d7fc83c8288debf73769f1963d6
 
-554e64673a52c14c374680d81523f4ac66caaf3b 6e9226a76676ce5628bf54857799834a86d0c946 refs/tags/mkp-scsi-queue
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 51d182826659989db25f841b191dd5ed07135569 refs/heads/7.3/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa3MACgkQ7ulgGnXF
-3j1XjQ/9HD2xhWjEfR73GoTT3FfvxNJ5D0PiHLGT9ticXOYpwnJz71gwrUua23wq
-j0orLYzeIdMslEh5OzmXE50KZAZPIKBfjgC82XoSwoR13Nev3Fotmhzp7GdJ6QoJ
-RAEHUN6YRDBV6jupDNk1m1iDm2rMoSvaLLT0ybwt3XfGItYZfnVV4BYcTvfcLCAR
-RqCU4r5Kxg20u27fuN6DUUVZo9s/DFJyhJO1viM7q7If7wD7TaD0qTAcz5yffZoY
-YtrPkaWFZ762Ior0Y75Q7Xx+iXqa2KZPRdocyaqVXNOCv1dMKl1pFZm0ScmmRHzn
-jDGoZ/mmXBtEuWQo8z13KMd/RiHBn9RKZptK4KQ26YskQnEyQBetJI5vDvj4OFxi
-2N4WnSvvCzfC25DUwM22pldKP32KCQMrZ1D5HOh5u1PGc/XpA9T+F3WMwFVj7K2b
-CVA6G/2b56qFZv+D1ancNDZcWLCUTkEGEaCU1psIXIzKbFi+uPZZtywRbnRGjCJM
-e170ammKA9FqWf8o/x2dsjMy79Z1rQHV8Qla42yAXZeGcdlMju6bhXEQF6JezE2S
-stF5PZDaW4jJm3eUGzYq1x1Gq2yzq7FmsHX4e5nanvGGXEhFsj/AyhLBCi0Dej6o
-E9GIuLZQ02jt5dbw6kNwByHlOlEhWJVmRWHOE/Iuywlc8RuxkdQ=
-=oh54
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmppa48ACgkQ7ulgGnXF
+3j0O5A/+NOyIgLBT4bXS2EKD2gFJNaJU4DwrHPXdvIqyfgR0Fj58BJdHxQ3GZBdx
+W6BM5nbGEcbKWTE5spxqcY7eAcjkfXnqFAIiHheKDgtaRRiVZvWM1n/sYfMNzZiR
+MD8qvATMsEJD8B6/0Wf9bBPPzdFJyENgqiNgPVLZP4lOGCdB/BjoP2WXUEGT50wN
+UNJjeeboSDP2k2CBaUNgolngSuG+bBNEUBgbC3sjgzNVU4GXuWO5pppWH60bCHHY
+lN2rdf3BN838HSNR85Cr9PLdc2D3zvnpHcPdbDzv3uzLzBSocXLjZbcAUcrndeGK
+0rjvRBx5SpC/hZPBFr/6Vly5fNxzuJ+Sd1OCBT/bdEwUJzb3RIu/TkFYhelQ6yRr
+hS/M3vEDtfDAxbHpgCa5lZvNgV64u7wu+D/AAW0W2il0YiIlKM+82MoOO4EbnzlD
++Set1dHImZtVigs0qdxOs8DjEAsWTasap9JdqDzo+b2fbXQbF2MfHxmji51sS0Yi
+44q+bQ662Tux+1WLdihEwkLBmxaQ9yNgcOkkSunWSgofJezGKayBly/nWj/qavBU
+WsRC1F/t3iPmsVB6n/p9+NrZfAJMHCp6K6WMZVUMx41yFHm6gHfmmsB5Eu9BbyK2
+A+DxmKjuMx7k3WtCOogWfebD3lVRfKs6vrnTTlKotQL/+7p3dDc=
+=MaqZ
 -----END PGP SIGNATURE-----
 
---===============2919443455096542213==
+--===============8777234502567587630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-554e64673a52-6e9226a76676.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-51d182826659.txt
 
 1e9036e7580bd3eda6849ca64b07223ed80dc440 scsi: virtio_scsi: Fix up endian conversions for warning messages
 ce36dbeb2951607304cc5451a33ddcf06880d726 scsi: ufs: dt-bindings: Document static TX Equalization settings properties
@@ -77,4 +77,4 @@ c6cee609f614b790a72cb34d6d28b3635c874ddf scsi: ufs: Switch WriteBooster missing 
 7268e509b43ac1734e1bdb7d18553f7e1080dfb4 scsi: qla2xxx: Handle INTx not connected while passing through
 51d182826659989db25f841b191dd5ed07135569 Merge patch series "scsi: mpt3sas: add hwmon support"
 
---===============2919443455096542213==--
+--===============8777234502567587630==--
