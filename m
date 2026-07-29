@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4060317195040677223=="
+Content-Type: multipart/mixed; boundary="===============4670397365299756816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 29 Jul 2026 09:24:15 -0000
-Message-Id: <178531705503.488262.1703791543001649614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 29 Jul 2026 09:25:20 -0000
+Message-Id: <178531712038.490625.460841485884152181@gitolite.kernel.org>
 
---===============4060317195040677223==
+--===============4670397365299756816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 273c87fb54aeaa97626013fbf65ce5ef7928d9d7
-    new: e983bd2665275a946bbae058b7061ead986c5dff
-    log: |
-         e983bd2665275a946bbae058b7061ead986c5dff fix up tipc_nl_mtu_range issue in older kernel branches
-         
+    old: 38eccba72916c4939010bc616a88efb88fb81baf
+    new: 2d7046c259cebd0c3b70e63f5a13155efc8fae1d
+    log: revlist-38eccba72916-2d7046c259ce.txt
 
---===============4060317195040677223==
+--===============4670397365299756816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-38eccba72916-2d7046c259ce.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785317041 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785317050-2b9e8e04bd4e2a398cee68407d6d701cc88f1569
+c1f3e770eec26d6f96dd6d2ea30555ba7c09a244 fortify: Disable -Wstringop-overread in tests
+b3a7aa9c0020ae549a0d4964867ff66d2bd61709 selftests/lkdtm: rename STACKLEAK_ERASING to KSTACK_ERASE
+3421b9b056a6576d0ebac1030eafb48ad0544092 selftests/seccomp: Fix pointer type mismatch build error
+6881f45d0eb541f2cee8c37c84b3860a23823bb3 btrfs: fix leaking BTRFS_FS_STATE_REMOUNTING flag
+1ebe51c29fa9755d5b2fea28727c051117907cf8 btrfs: zoned: fix deadlock between metadata writeback and transaction commit
+5fabb1cf25d723274009d7b759545fd59f230c9d btrfs: zoned: reset meta_write_pointer on zone reset
+51a0e8399858621442807a26057bcd1cd3ced046 btrfs: skip global block reserve accounting for rescue mounts
+c438d34ec1eed4d23e2081d61c5e96f5176898a9 btrfs: report missing raid stripe tree root during lookup
+330dcc553f282e8dc0b88c9495b4c296465364e1 btrfs: raid56: fix an incorrect csum skip during scrub
+8bc4d7209611e8aa9d5409b6a4a86a9eb91b69a3 btrfs: zoned: fix missing chunk metadata reservation
+0d214d14be503f16238999723acfcbf63f04cc8b btrfs: initialize 'args' to avoid compiler warning in btrfs_ioctl_get_csums()
+ab602da96a915d42dcb1b0b322e8daea0f71b51f btrfs: zoned: skip fully truncated ordered extents at zone finish
+c4c0673e4cb15b0c127e6d00732a2427bdd12c11 btrfs: raid56: fix scrub read assembly submitting no reads
+39490ec6063d9dc3d995b7b48fc5106cd361a547 platform/x86: dell-dw5826e: fix ACPI _DSM function index and bitmask usage
+3b5f4b83c4abc0c9b0a7b9e2b44e816611b7f2ec Merge tag 'for-7.2-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+609f036d8b93f17d18dc904eecf50b2b086772f6 Merge tag 'hardening-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+fc02acf6ac0ccde0c805c2daa9148683cdd01ba8 Merge tag 'platform-drivers-x86-v7.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+a8c171c107c0b61a5e7e10cedab0fb72aeaf640d x86/boot: Add volatile, clobbers and zero-length test in memcmp()
+fecdffa85fee91dab00e81617ed9cf9d6a5e907f Documentation/x86: Document the intricacies of GS context switching
+40688cb812d13a8bd2eed9413779b68c6b64281a Merge branch into tip/master: 'x86/urgent'
+f75719f3762cca4b174c91c3832969c5a6154187 Merge branch into tip/master: 'x86/misc'
+2d7046c259cebd0c3b70e63f5a13155efc8fae1d Merge branch 'linus'
 
-273c87fb54aeaa97626013fbf65ce5ef7928d9d7 e983bd2665275a946bbae058b7061ead986c5dff refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmppxrEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RHIQAJTXo6UzFWlnrIvEfnyy
-g51J5BIoIC2jaQiTg5d2311ktZC3BZpUdy6MxQsmN0ghOqeWLMROwEmXVhS+oKaJ
-KmVKSaVRYjRdjBoE0Qv5AQIyYk9cpY5ytpyJpHVBFRo3T8FzPgA9VgDesR9X4G0c
-SIrIpNTERamg5PL2HgAHOLOuj4dklh1GFvSgMNVDpY8QdGYpv+TJIzMd3vMkrhzD
-DudRSvNSw0JVZPi4BEXAouUuzug65RGtl5GPerfwskUNwWO6E0tvy9CvB++OcEMk
-wyM3XtZQ+RaUSLrfSl7ibDiXJgrdfJRoudI+CF0gPVJAyNLDVolIBlydnVELnQg/
-VNyvD5MHSxONBwdz1izJnjR6Wc/UUDcJlOzUAtTVU1nsNfhes4aObWRPzAQRKqSL
-ebVPEW1eUrXX6h6YUb6z6ubHrbBUWsvP9SDRQv8F49BbtpZIKlkaksBBimUtprlS
-CUy5kQQ4YpkcN2GOec+wftkr5r3STY48wR4nfMKHL3FSWRNHpQBCybyejafL9V1V
-ipZLFBvThDRcfEGnow40pMWqGqySZJ0I4nVDCuNMS+az04cdcpBm1lPWJYHRuCAW
-pXITijAeOlQYRQBRzieWSEfBN1f2ntzhTTSB0FO4BuhynEPgOtuuy1qRCTIWWqgB
-oi9TWU2PgtDMEhjasHMXPgJV
-=iof/
------END PGP SIGNATURE-----
-
---===============4060317195040677223==--
+--===============4670397365299756816==--
