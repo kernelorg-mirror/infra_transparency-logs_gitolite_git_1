@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 29 Jul 2026 01:54:47 -0000
-Message-Id: <178529008724.133282.11901822748738208445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 29 Jul 2026 01:54:50 -0000
+Message-Id: <178529009094.133421.1120404849867231255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0408e7f6f6a1af236ca32e668f5f3f5833bec5af
-    new: 3bd438a58e910db5dc369aa25dfed1fc95f1b596
+    old: b515dc54795ef370be3cb396e7c12ad91686b6d1
+    new: 11291f123073aa143709770ba988cba41bfc4057
     log: |
-         0fe1e3e8f3380d7862296a73b528d164e96c76b8 net: phylink: put link_gpio if phylink_create fails
-         3bd438a58e910db5dc369aa25dfed1fc95f1b596 octeontx2-af: Block VFs from clobbering special CGX PKIND state
+         16812d9674d4991ebbae80769b15f7342dbfa988 net_shaper: remove incorrect comment about group leaves
+         26bc4cfb17374f69717970699b4ccbdb1fd2a027 net_shaper: clarify the kernel API / comments
+         ff6461c1483420d0da542ff085dbd94e841afc1a net_shaper: add some notes on re-parenting
+         11291f123073aa143709770ba988cba41bfc4057 Merge branch 'net_shaper-clarify-kernel-api-docs'
          
