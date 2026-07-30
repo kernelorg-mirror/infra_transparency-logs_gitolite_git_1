@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 30 Jul 2026 10:35:13 -0000
-Message-Id: <178540771342.1836030.12392421833460739793@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 10:36:39 -0000
+Message-Id: <178540779931.1837155.14192779397459817658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fsnotify
-    old: a3aa899823dda059ab88a58254f9a605e03ec275
-    new: 17463fe751309330b74618560f181426f643aa3d
+  - ref: refs/heads/for_next
+    old: 4bd3483e5277e9c58091577225bb9459f2790b1b
+    new: 5adc9b3bbf762fa9906c91e4ae208bd81c556f14
     log: |
+         6abf69e2e7f91e20567367cd75ee539d39e510bf ext2: Simplify error handling of IO error when adding xattr
          44afeafb8847a8487940cf1f3480108db51e2b41 fsnotify: Remove Matt Bobrowski as a reviewer
-         17463fe751309330b74618560f181426f643aa3d fanotify: stop permission watchdog when timeout is zero
+         e0bd94c068d27c564eeb9ccbda61bba0923b88d8 Pull fsnotify maintainer entry update.
+         b9ef49ffd9ce556b74cff7ca4165c9b57660c803 udf: Fix data loss when converting inline inodes to out of line
+         5adc9b3bbf762fa9906c91e4ae208bd81c556f14 Pull UDF adinicb conversion fix.
          
