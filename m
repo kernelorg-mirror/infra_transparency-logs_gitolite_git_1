@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5965857122008677646=="
+Content-Type: multipart/mixed; boundary="===============8341099799385208926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 30 Jul 2026 23:30:35 -0000
-Message-Id: <178545423590.2622198.9019742725835020654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 Jul 2026 23:30:39 -0000
+Message-Id: <178545423918.2622310.2217781126594052240@gitolite.kernel.org>
 
---===============5965857122008677646==
+--===============8341099799385208926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/spi-7.2
     old: 8fd62901d6bf03f274a49dd0060793cc07dd51b0
     new: 9513b642d233bedb0b703ea75b5f3230eb6293a0
     log: revlist-8fd62901d6bf-9513b642d233.txt
 
---===============5965857122008677646==
+--===============8341099799385208926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1785454234 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1785454233-3ded971c283d9a4d0b9ffa6c17f3f06007fef746
+pusher C3F436CA30F5D8EB 1785454237 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1785454237-8358bcc8e8b414f1900940907524c3f0e2929d91
 
-8fd62901d6bf03f274a49dd0060793cc07dd51b0 9513b642d233bedb0b703ea75b5f3230eb6293a0 refs/heads/for-7.2
+8fd62901d6bf03f274a49dd0060793cc07dd51b0 9513b642d233bedb0b703ea75b5f3230eb6293a0 refs/heads/spi-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpr3poACgkQJNaLcl1U
-h9DgDQf9GrDrQUgJpiCRlv4BsCv8nREgRba2IWuSWRq6lBVlukOj/K4NcbRxL66f
-eUY19BnEej9oJxKTMGwM0oINw+FwXFru9l9B5k3Z/77YNX+0aqDoc4o5uhLU+498
-CwSQptYuz+CJXAm9+cKelfbuhXB/lC91a7hVObNNaDoUJemwoIToly+B3Lfv6z5I
-9qsSleOm6Pi7Y0/C+9qifqrc467oSvaAjBGO5GXl7npBd9hbcm3uTLh1Mv3MTdvJ
-Nq8mK/YEj/VNHXDBMzkf6+vO+u5UdhGIM9gM0HKX1xxRXA6hJ7kuVb7svpasjp5h
-uOpNqCKJCqYGy/6fMfCCKMm5s80i+g==
-=hJMb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmpr3p0ACgkQJNaLcl1U
+h9A7DQf+LnxHx6oYr5LmjRkOg6y+7t2jT68E1XFunqnUz8mDz8V1grigO1r76TlX
+Mt9BLPg9cIRxWYZotWLOlrEBxJprsDypdD4R1MM1N4WMoKMAeOF7BomOtGX0JhOZ
+7UbBDsNaKj94viEb1vml9iMm4xK5Eo7AAzTCIUhcApZzdCRSImBTPq9K6XE7ARKv
+3/0sItqSYLqcfgH7krT/rYKNfWs0wQNqddgGNb6lHoUoQzGWIArG5Ds3u6uNGvAI
+Vryu3mJAIS+INDrF0wHpsYDfTsY0tcxn64CqdfchzpxYZpdPJ22gX5GXGqQ1L3pc
+FvneUhZlGfmSf/3y86CFiQ6n3FrGKg==
+=i4Fy
 -----END PGP SIGNATURE-----
 
---===============5965857122008677646==
+--===============8341099799385208926==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -665,4 +665,4 @@ b4bde5cfff8e43e948219f0a598e4bf057ecfba4 spi: spi-nxp-fspi: enter stop mode befo
 b5902b9779796d515b7d65eb9205994b7a8d00cb spi: spi-nxp-fspi: propagate clock reconfig failures in nxp_fspi_select_mem()
 9513b642d233bedb0b703ea75b5f3230eb6293a0 spi: Few fix/improvement for spi-nxp-fspi
 
---===============5965857122008677646==--
+--===============8341099799385208926==--
