@@ -1,28 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 30 Jul 2026 20:13:59 -0000
-Message-Id: <178544243909.2459595.15316147755770422943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 30 Jul 2026 20:14:15 -0000
+Message-Id: <178544245541.2459938.13874360198428213349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/fix-p2p-acs-v1
-    old: a2ea3abed3176c83ebd7bf1089d289b8bda8fc8e
-    new: aaec2b13371c3c62fe07251c5446b12cd2c8bedc
+  - ref: refs/heads/edac-drivers
+    old: 36a6518e746dcd2e30391c61ce6a8c4bcafd7bb7
+    new: 1713cc6b0e1904cf2c2b477ff25faf163c43cbdf
     log: |
-         7d8dd1a82c9589ee6b72b706e8522f61226d7021 PCI: Add ACS egress control vector accessor
-         4ab6caa6918aae50e0e0ccb3d52024b45bc3f9b1 PCI: Account for ACS egress control in isolation checks
-         e1e9406a0de32c5a636d1e662635ce1de9958a1b PCI/P2PDMA: Safely terminate ACS redirect lists
-         ae03c8192500c6d9b6061cb06829c9e622df0eed PCI/P2PDMA: Evaluate ACS P2P routing per table 6-11
-         0c749b907b23c3d892612067f850c1578e790863 PCI/P2PDMA: Honor ACS egress control vectors
-         c0dc1f62c8f48d1160e73dce90358b11153fc71c PCI/P2PDMA: Document ACS egress control handling
-         d76dcc48402504382d3f32ac8d4ae4b4178e1f2d PCI/P2PDMA: Extract pure ACS routing decision helpers
-         d84f7acba7ade10b3ee9520703a077728cdf6cbd PCI/P2PDMA: Add KUnit tests for ACS routing decisions
-         2a941cd02cf9f8a2cdbda49289caa364a5dcf6e3 PCI/P2PDMA: Add KUnit coverage for the ACS P2P routing walk
-         aaec2b13371c3c62fe07251c5446b12cd2c8bedc PCI: Add KUnit coverage for ACS isolation checks
+         141556543c9917d7c3d527f7eca6e288ec6bb58b EDAC/ie31200: Decouple DIMM width decoding from enum order
+         f4008169bd320eedb9ddf2b39eeb21370ddac278 EDAC/igen6: Fix interleave boundary condition
+         540b79536f3a89a66c5b6c490110298d43025618 EDAC/igen6: Fix channel selection hash
+         7b348d0d401d478f1923ba20a34a61681d1f7971 EDAC/igen6: Fix channel address decode for non-hash mode
+         0361f576ec0dffca13edc94580c8666146a91e02 EDAC/igen6: Fix Raptor Lake-P logged error address
+         a118a5e2f172a5122d387022e5d1d41d30750738 EDAC/igen6: Remove unnecessary XOR on the zero-valued interleave bit
+         8ac9136d79e960b8b8b9a41b9d4076e4afe6de5e EDAC/igen6: Simplify compute die ID comments
+         e492449e39b7aee9bfcb1bda3181fa942d24cdd2 EDAC/igen6: Detect present memory controllers at runtime
+         1f43c17ce550e8ed628afd7fb3226c904076f864 EDAC/igen6: Remove redundant resource configuration tables
+         377c68b988d9c36beb6dceedf81ed0ff55331aa9 EDAC/igen6: Refactor address translation logic
+         1713cc6b0e1904cf2c2b477ff25faf163c43cbdf EDAC/igen6: Add Intel Starfire SoCs support
          
