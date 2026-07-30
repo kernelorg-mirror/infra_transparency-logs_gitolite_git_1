@@ -1,50 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0586652962564798528=="
+Content-Type: multipart/mixed; boundary="===============7787528011455115291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 30 Jul 2026 15:27:00 -0000
-Message-Id: <178542522059.2243224.17859358691829259578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 30 Jul 2026 15:27:04 -0000
+Message-Id: <178542522447.2243408.14377611530106621461@gitolite.kernel.org>
 
---===============0586652962564798528==
+--===============7787528011455115291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/regulator-7.3
-    old: 99bc5744e966911e706b857feba7cd877ec3ccb4
-    new: 623d9a55685c52b10b995d8dbde9da6283170220
-    log: |
-         623d9a55685c52b10b995d8dbde9da6283170220 regulator: tps65185: handle gpiod_get_value_cansleep() error returns
-         
+  - ref: refs/heads/probes/for-next
+    old: 1a416ae446afa42d2d8500ce25bd61c564508721
+    new: c00e735410d7269c0c655219cf42846da6b435c7
+    log: revlist-1a416ae446af-c00e735410d7.txt
 
---===============0586652962564798528==
+--===============7787528011455115291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1a416ae446af-c00e735410d7.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1785425219 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1785425213-3b3814ca5ed31d1edaec81aa2d10c827953bb367
+323853e2d125ec1a99df61893fb546728f4d738e tracing/probes: Remove duplicate MAX_ARRAY_LEN macro definition
+794b5640aa7b295623c1d6b6fc2fe229a30aad0d tracing/probes: Remove redundant boolean conversion in trace_probe_has_single_file()
+6e9328ed75afc2f2564514df53ff66259f805a2a tracing/probes: Remove redundant bounds check in trace_probe_compare_arg_type()
+5428fca0cd542d4fb7beb781c1b44292aedb7915 tracing/probes: Remove unused parameter from parse_probe_var_retval()
+78d252c935c9c54742443e871b7b39204ecb7a01 tracing/probes: Cleanup pointer arithmetic in store_trace_entry_data()
+0fb6fd1eb3e7c8649473bd0ea6d897c835740157 tracing/probes: Simplify BTF_KIND_PTR case in fetch_type_from_btf_type()
+36db65d0e5de923909e4d2b13524375b139568ac tracing/fprobe: Remove redundant snprintf in trace_fprobe_match_command_head()
+3d785646cc488d3f743e0cb67491e80b69200cfb tracing/fprobe: Remove redundant memset in fentry_perf_func()
+5b385fd434c75b6288a36722d606f04444db34eb tracing/kprobe: Remove redundant memset in kprobe_perf_func()
+5be3a9db600853578559681b2dd20a9bc7dd4fc5 tracing/probes: Fix extra whitespace in trace_probe_kernel.h
+d0d7dc1a70da6d65bef565f647c41febf3d881dd docs: trace: fprobe: fix 'thos' spelling
+c00e735410d7269c0c655219cf42846da6b435c7 tracing/probes: Treating longer symbol name on event comparation
 
-99bc5744e966911e706b857feba7cd877ec3ccb4 623d9a55685c52b10b995d8dbde9da6283170220 refs/heads/regulator-7.3
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmprbUMACgkQJNaLcl1U
-h9BRPwf8CzlCJBvreqtPNdB7XdMdL4oYA/QcHnbXDRM/hhlbe+eI5I9F9DhZ7m4X
-4a7g+treEg/TIlhWGjlryj6ZqZLeIJTtKrWHgE4Y6eZ45dVvRGWNzz1yl6R6TKp1
-OMADeX1L6NcGf2Ftv3DimW8dtF4MNECqcRI8Zykv8DyiebTmMZ+RN4E37K0BbYT2
-mX35ms9iATZGFeY6a4UWXxMkD8xfwT/rSyM157Mu+/Of9RkiwHZfBC1+qdFFMMxp
-FybmqnamTvXQKuOYPu3jBafxEmTBC1vWKE+GIhHkhgTlSQluYoU/p/r6gqtpsN9f
-FSuczNXyCXpiwOTRCl9mZ3lxvHG7YA==
-=LKIh
------END PGP SIGNATURE-----
-
---===============0586652962564798528==--
+--===============7787528011455115291==--
