@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 30 Jul 2026 10:52:13 -0000
-Message-Id: <178540873391.1852294.2172334512780700831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 Jul 2026 10:53:39 -0000
+Message-Id: <178540881981.1852802.7002706417482492886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: fdfb5cea4bf070cdb31d997efd87bb684df041fd
-    new: 43598807f71ac1c9164f26004acf2496d4038daf
+  - ref: refs/heads/main
+    old: dd16f1b5720f5dae33a79b5305e188e8290a3973
+    new: 732ed8f75ce583d115716f668dc80d730f3ad610
     log: |
-         957f92ea4022fb6af4618271615a2a21a7b5bef9 IB/isert: reject PDUs declaring more data than was received
-         2488b5b4827e5415768afc8daf097e8eb83c98df IB/isert: reject login PDUs declaring more data than was received
-         43598807f71ac1c9164f26004acf2496d4038daf IB/mad: cleanup all kernel-doc comments
+         732ed8f75ce583d115716f668dc80d730f3ad610 net: libwx: fix FDIR ATR queue mismatch for software VLAN packets
          
