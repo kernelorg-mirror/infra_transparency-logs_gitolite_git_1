@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1277381805288188623=="
+Content-Type: multipart/mixed; boundary="===============2674869194064646521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 30 Jul 2026 10:57:24 -0000
-Message-Id: <178540904441.1856301.7713467769168345326@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 10:57:26 -0000
+Message-Id: <178540904655.1856386.9433896230146956885@gitolite.kernel.org>
 
---===============1277381805288188623==
+--===============2674869194064646521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 77060f3640dfe58291af0f26b5b8225410ee35c0
-    new: c99c3cc1c6882442f995626a0b7ec03e93d92f93
-    log: |
-         b5343d2c8865daf3401ffd863d45fc13270daf29 move all queues out of the way.
-         e2f78fea685bdf42843005e63cb1caa51b5a75c4 oops, 7.1 is fine, move that queue back
-         36399a39df7e787dfe4709ea332be1ff10c66005 add some patches back into the queues...
-         c99c3cc1c6882442f995626a0b7ec03e93d92f93 Linux 5.10.262
-         
+  - ref: refs/tags/v5.10.262
+    old: 0000000000000000000000000000000000000000
+    new: 0fcaf8a2e1e8c9082ab0a75a7f3bcc41536f5326
 
---===============1277381805288188623==
+--===============2674869194064646521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785409032 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785409034 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785409042-b7fbc55c2ea891aa00687b9a573f4f66d3dfbf3d
+nonce 1785409045-6c8949f20edf99e0dc8e0aa9b82e8135e30a52a8
 
-77060f3640dfe58291af0f26b5b8225410ee35c0 c99c3cc1c6882442f995626a0b7ec03e93d92f93 refs/heads/master
+0000000000000000000000000000000000000000 0fcaf8a2e1e8c9082ab0a75a7f3bcc41536f5326 refs/tags/v5.10.262
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmprLggbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xAQP/RaB7w3aBd39VzrRvigz
-IJQhxN4LG1tD6BuUkXqgxPbmwStYXEn7M0aeJ7fY3mBFGYQ9i8YhpfMgwz/UKwij
-awSZnjskCV8Kp0kYVtRfkIkw+4Is+tp6C76c1rRTWwTMNsjpp3gZANd/TQH3wXvJ
-WlJj51rZpRoNrkJEyQXppqj+nz/y1JtWWwMM/Uzw6tSkiDEK4N7n1vRGKl9YoMJz
-H5B54SmkLm4NPUkPCs0QC/6tYTHavh+WgDJTLQ30LcfDrFvs+YTc0Ra2d4tP/bgt
-oPls+huT8agv2yi8+xrDNxUtzw4kQn07B6ADYiCDwl3fxk9vKItaXEVmmh+Nl6bj
-OjXvlcAkHG/qdVBRHd2Re4nJvcCcyrsJF+LePdpfeAWMzkm5vSwl4WpvPzbWzEtk
-a/rLqFXiZwco3pvgRds89/I2j2rK3scZExH9f/TymmQuLr9fKKl2hv50VA2LQGey
-z81lGZMOnxsjWEzqObLdjk5o/vkX99HY5czN433lOXwKfIvpGxnKxUTboQxsFI9I
-7VaNXdDyC3vgyccTVnS0WL85ZYJ02uRUHG1pBmPAMwcIkDc7ax3phts3Nvetj0QA
-HVo/yjwRtoz+F47LHQXINcqV1X+UZnovku4/CFyUSgXDXN0DVSjl6gDnor6CHk9R
-HZRyVByXql3rlP66e0SWvHcl
-=zzMb
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmprLgobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W2UP/05aPR4H3bfH2Tlw0hJ0
+d8u6byijtn7VDK/HKqKHX2A71gNyh0fGUS6+8v/IV57xHe/G1sSVeSXBgn4NKf4h
+QE03cxjJmT+ZaXpEWoUG6EiluizTozxb3G9BQ+YUlGw/d1wv3wTHTEHnkqSacJHy
+DiPMLAZ/ayjCW0r3ucM7+IrZ6GjN5PMIBFFA19B9Hh1cZBM/XAueXymoJhet2LoC
+Mt7XJSBE7avnDnQIfM3CUm4ydOdoljg3Kv4RviVMgcA3Nsm78d5+ZE45DQblJpNl
+uiQ2wA3Rv7UFPZa0Vf2eGTfYZ2WWuP3InRB+o+1PKeSDm81FUy1VKzEUxJxrQlrL
+13W+7tTHNL48ki0SCrHgjrivXw0LDWx+4eKHf75Hl716Vl9DfoHIQ4KIVt5H+D4M
+qP9tE0LEoJGQ0DHhwaPGW8MEAf6uTWkj4HS9iSQsdvcSv0Vg/CR1EBytcNXzC/nf
+02pgvE0tDi/OQGYzDG1mEiJCTnqvBi+gTXA5NFKdSRVdXFJ8jHUPVp5N0Vae4Zn7
+DH3giB3775juEsR+Ox1WJEy7IB0XSnJPRdlD6vNl7cDA7dhUIP9Eha3tCgEz9jff
+zEWZvFNUkvsOJkJEWR6mWNl/RA58yEgdBAFyiRrNnNw1rZ+r050paIohMmvrb7Rv
+VEmeW2/tqXN4ZVbF8z4GBq6D
+=ItJr
 -----END PGP SIGNATURE-----
 
---===============1277381805288188623==--
+--===============2674869194064646521==--
