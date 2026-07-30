@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1870539438961059329=="
+Content-Type: multipart/mixed; boundary="===============2475196969511770937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 30 Jul 2026 04:33:56 -0000
-Message-Id: <178538603615.1481333.299274863046093474@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 04:33:59 -0000
+Message-Id: <178538603913.1481446.4377963341443530444@gitolite.kernel.org>
 
---===============1870539438961059329==
+--===============2475196969511770937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ae98967f6e94c2239d81795f9f6c987add5518c8
-    new: eee677bbc48890b2bcaa42ea7942478302937a09
-    log: revlist-ae98967f6e94-eee677bbc488.txt
+  - ref: refs/heads/mm-unstable
+    old: c73b725a57f276a3702ca213bde78fca029bc619
+    new: 2ed26e8a624f41887d64e2e37a2f6ab36a118d1f
+    log: revlist-c73b725a57f2-2ed26e8a624f.txt
 
---===============1870539438961059329==
+--===============2475196969511770937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae98967f6e94-eee677bbc488.txt
+Content-Disposition: attachment; filename=revlist-c73b725a57f2-2ed26e8a624f.txt
 
 71e1936ebaec119e64b06fcf43cb7f059a7dbcf2 mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
 fdffe437c6627116d823fe85fd0f5a482c7248ad mm/ptdump: always stabilise against page table freeing using init_mm
@@ -517,23 +517,5 @@ ed30541bb815eeaf1ad4c2adcd284058b68c6c28 mm/migrate: report RCU-tasks quiescent 
 d891c2e9bac286301e6b13205022c056f4b8bc40 ksm: stop iterating VMAs when ksm_test_exit returns true
 adf8d17f3609e95a2900bc50570cb31c97a140d0 mm/page_reporting: add page_reporting_delay_ms module parameter
 2ed26e8a624f41887d64e2e37a2f6ab36a118d1f Documentation: zram: remove sections numbering
-36c9411ca501bffef797ee97429e3bc0fe6de98f mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-1f6059bd05370eb803858303841f31248ad34e9e mm/page_alloc: boost watermarks on atomic allocation failure
-9ca8e2364b090e283147d9b333ea6074aa997523 mm/zsmalloc: fix release order of locks in zs_page_migrate()
-4c9b5b635bf93827b658def4e2662cf549b83e09 mm/shmem: downgrade final i_blocks check in shmem_evict_inode() to pr_warn()
-2801202356748f93947afd127670bb6b6ed59fbe mm-shmem-downgrade-final-i_blocks-check-in-shmem_evict_inode-to-pr_warn-fix
-9cd4999a7ef236609e8531dbe4941fafcef0f7f3 mm/khugepaged: replace mutex_lock/mutex_unlock usage with guard macro
-36b919a45e7e9d188c4507d94f0d1824a9cd62e5 selftests/mm: unpoison pages in memory-failure teardown
-497382129fe88a3afff3a498b22212d5fa338cf1 mm/hugetlb_cma: support percentage-based hugetlb_cma reservation
-42279e2e8fb4c1d67c48f26dfe7fecb2724e7f26 mm/zswap: fix global shrinker when memory cgroup is disabled
-cd64652a54157b4ae12433cd97a19b6793225e50 mm/zswap: support batch writeback in shrink_memcg()
-fd81f48a3b47da4e3989de60389d9962fe89238f zram: set default primary compressor in zram_destroy_comps()
-14e97a706c2e8af96b08a2be93de1d620ac3fedf zram: validate deflate params
-68f322ac7d50d669c7ec5f70e5ce0ccbac2b68cf mm/huge_memory: separate out CONFIG_PERSISTENT_HUGE_ZERO_FOLIO logic
-3214c520c9072c3267b6cf17ee75adc5d2d0e1b9 mm/huge_memory: fix huge_zero_pfn race
-dcb21495bf7215e3a336dc9f8bc67768d2db7624 memcg: bypass the reclaim and oom killer for dying tasks once oom_reaper is done
-1e3148caa6e5d533a4f9ef0d0123d48ca63db98c mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-33da9d17d6e3a215b52d6dd7381ba2cf42186d44 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-eee677bbc48890b2bcaa42ea7942478302937a09 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1870539438961059329==--
+--===============2475196969511770937==--
