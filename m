@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 30 Jul 2026 20:51:49 -0000
-Message-Id: <178544470983.2494658.16805186869361667328@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 20:57:15 -0000
+Message-Id: <178544503562.2499285.14966306885870757196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,34 +11,11 @@ service: git-receive-pack
 repo: pub/scm/utils/b4/b4
 user: mricon
 changes:
-  - ref: refs/bugs/18b85000065c2959afabe15cffeca299657e67bca98cdd9414cf50de5d726ce4
-    old: f3683ad5cb74fe3c836c9756568ddcfcd5d0fc97
-    new: 39d916620bad4f080d6fc39f2155665ce9b9891e
-    log: |
-         7d0a0512e1d9a6ac957c49d26f927bdcd5dfc258 
-         a530b566c427b2d96a1f8bffb21fdd7413ce257c 
-         af4ac84ea2be89b437cdb6af5863c98f99a9c7c8 
-         39d916620bad4f080d6fc39f2155665ce9b9891e 
-         
-  - ref: refs/bugs/307bf13112c2048d3c0bd0b85b5c8030c9902350b1812f5629a6840e1e217830
-    old: 0000000000000000000000000000000000000000
-    new: 4ddbbef8db0c18c982ea0775aad66fdce760e590
-  - ref: refs/bugs/77d45c3609b88f71535f471bc5253295072e6a8e07207127f62792793fa51e64
-    old: 1d6626cbb6175341baee6730df4defb9d76586a7
-    new: b91ee56da974876ff5eda0acd9b6acca251d8e81
-    log: |
-         f8be322d429d21f030092e0dac6b9f6517935b47 
-         b91ee56da974876ff5eda0acd9b6acca251d8e81 
-         
   - ref: refs/bugs/9ff9da8dcbc412077fee999c56359b673cd6ef992f46d1684c0d9ba412eb8b6d
-    old: 0000000000000000000000000000000000000000
-    new: 8e8201e728efcd81d99bc09afb9a81425366c9f6
-  - ref: refs/bugs/5141426769b386df05a318d15d92ed6e6c97ecbcfc949134ca31370eca5bb1db
-    old: 0000000000000000000000000000000000000000
-    new: b0e4a0bbe2bd1ca185a4416191e573578ea81d83
-  - ref: refs/bugs/9ef6d0d3ee1f777e4850d94a05dd8030ff100af1c69488d9857b7862caa21cf9
-    old: 0000000000000000000000000000000000000000
-    new: 3f8088cc22d8dfc5682af844e10509509d1c630f
-  - ref: refs/bugs/c635da85f3d655bdf6e60f5d3d3a0ea29aef5d829e818dfd21a1e1427f0fa38b
-    old: 0000000000000000000000000000000000000000
-    new: d0d1a9845942fa743b508f349e579e8cf6d78ae2
+    old: 8e8201e728efcd81d99bc09afb9a81425366c9f6
+    new: 0ace5e84adeb220a9a400e342efbff684afecd59
+    log: |
+         af1bc40f4901926264f7d79ef12109387141fca2 
+         89389a43e824c23e2e4c2ceff5869896520836b0 
+         0ace5e84adeb220a9a400e342efbff684afecd59 
+         
