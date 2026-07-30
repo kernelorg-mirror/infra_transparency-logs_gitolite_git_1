@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2011912063438127292=="
+Content-Type: multipart/mixed; boundary="===============2987238905883079355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 30 Jul 2026 11:05:52 -0000
-Message-Id: <178540955200.1921429.12964136967762634667@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 11:05:55 -0000
+Message-Id: <178540955522.1921595.17734981294398054773@gitolite.kernel.org>
 
---===============2011912063438127292==
+--===============2987238905883079355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 720e8bcaa674dfa40b989207d6cdb44b3aaa8db6
-    new: 52a355b23cd2dd77b683ed1a1bbe2b7408bd9c74
-    log: |
-         e74443f5db0037c556ef436fa64b88bf4ea08f83 posix-cpu-timers: Prevent UAF caused by non-leader exec() race
-         52a355b23cd2dd77b683ed1a1bbe2b7408bd9c74 Linux 6.12.100
-         
+  - ref: refs/tags/v6.12.100
+    old: 0000000000000000000000000000000000000000
+    new: 3ce576f64c0314b371f77e56fdb8bd4b0407dc68
 
---===============2011912063438127292==
+--===============2987238905883079355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785409539 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785409542 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1785409549-c1dd9c4189511a232d53fc83ca3038298521dbbc
+nonce 1785409553-bcba44d7de66f56de2bd1dfb0aec29dacd6554e7
 
-720e8bcaa674dfa40b989207d6cdb44b3aaa8db6 52a355b23cd2dd77b683ed1a1bbe2b7408bd9c74 refs/heads/linux-6.12.y
+0000000000000000000000000000000000000000 3ce576f64c0314b371f77e56fdb8bd4b0407dc68 refs/tags/v6.12.100
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmprMAMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AXgQAIvX6cY+NDhL5WZgc0Zn
-M7dgXC+0YdWPhqEnW6Hhl+Ydk9QM19GSo4GY5jeqBwJtXoT2jUDXYeHFYi0thVcL
-0ub1ynWKddJkar9I3xrzFPdpHP5wgZmH4pBmakIXUVedzKmu3MLilkRzUKbDo7E4
-QItdwRPcaDXgFsZDsF/tcDMFjhFEVXI+A3EEgjThlpLqGYgqTpuxbqGEMqM77FOw
-X45gdy/ElUXrzc5fTxKI7lbPjCmVqD+cli2LUE6rFvdWnXCfEwiQ4R1ZjtVSRutV
-CMwplMZq9zDntcRlSSsJ08jYYhaTLTKORCS5GF1IONOgyP+/2yYfTmsLzlSzVAdI
-TqNV5uTwhxLv9kvmbmjQqbmhHoiyAtF1AU1H0lUIMjN2O0WZy0vOSf/NYhlqZ781
-iQqV/C+7ejZQeSB6g7g2j6O0jzC2hEHdDjAisAhVma5jmS8V3kX73fxpB4Z4Fy+i
-1QaGdKZd8PzcZqxofjJcxNheVh+vM11EXa5sFzFlsyoDhc2P1JKSF91zT3DJqSP6
-2Drn7znuQG69tbwnAHMLV1O1SJGbIuazk9pwRjwO21bLfWy/9+v8JVhEaMvjIU0j
-U3v08dgHhjBsONqwR8K3mzPm+3TUk8vYXSFooszQWvf/HQ0f0KutJUpWyY2MniOW
-C6BzTTG3Ni4Eb/tbX2q+ncpN
-=j41J
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmprMAcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vFcQAKC+qzelehI1MZZMbivt
+vsr4q37+V4EXrj5fQ3M4ZPG4RgptjJBrd/RD/VMryntu8Phz7aQoj8zAn0XbHkob
+AuMWlvPkb96faCSaM58BLaksf/3xOOqftmaNY9y2zLEQw3LxP2p+3e1WKtBNWpdN
+835OO+19iQxiynvul0AD9lwK779aUaiP3AeXVGc6v1hVYwfM3995BCufTuwnT3JA
+q5p3fugOd7+AXMNEEwUnxQ5eOB9BQbf45F1v6jPqzrC+E1opOdX2xmtpROftpz0z
+lmmnnB0sdK/TxUwe7BV3IfKbOHXyDtQrDMV0k6VFtekF2weCinJ9xGVNb/uFLvEY
+45riJ3IS8htu0+SZTFuB52gZFbpDs+SXmUebP/LDZLGRiUcrRiy7oDi/1thrjqza
+cDCjbfu4ETMDNxzQpDVqm2ReFyGxVT6FTxR4T0AQ+jDaMFDTv+cRx+6hVx/aMcue
+OjoJHkCHnyiAQbHt3L+p3XRvY6PAbvYOpLskieZMsbLjqE6H55N0OyspolxyTIoK
+Ugyz/khaXTzRz34V2HCrKVOAybCnkeieM3cnWkFZaHu//gvfI9z3nRu/y5Nr6hCM
+fLXY8GHpK03U1em/r4TYO7b66/mxrJY5A7lHfngR3dsJvRmbT1CGvqd2ySj/esEe
+nUwDXjAgL5zRQlc00vGXKal9
+=ms3h
 -----END PGP SIGNATURE-----
 
---===============2011912063438127292==--
+--===============2987238905883079355==--
