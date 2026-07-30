@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Jul 2026 10:19:13 -0000
-Message-Id: <178540675300.1801350.3902130989838405744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Thu, 30 Jul 2026 10:23:48 -0000
+Message-Id: <178540702880.1826079.14579564417576338094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/main
-    old: dcdd4035c983a4d534f4a20da5fd88c9fd292dad
-    new: 12b4b11c1125923a31a6864fd0c83a7dfc211220
+  - ref: refs/heads/master
+    old: 9972befc3e34ff8b6847198c84f11bfc312dde40
+    new: 38e90837857f03198a91290e2d266f5ee157f87e
     log: |
-         d93608b0a20e7e6ce51bfb5671c561fa07a60e81 netpoll: export carrier_timeout via netpoll_get_carrier_timeout()
-         bb996303efae1240b364ca7658b11473b1ce8a2d netpoll: export the netpoll_setup() helpers for netconsole
-         672ecd3bb145ac3b6e050e7fbdcaff0b46115c96 netconsole: take over netpoll_setup() from netpoll
-         6a55e81d4159e6745e4b77daac8362d85c30696e netconsole: move netpoll_local_ip_unset() as netcons_local_ip_unset()
-         3aa9ff037ba3ef12c75a924140955242e750fcbb netconsole: move netpoll_take_ipv4() as netcons_take_ipv4()
-         80fcfc3538f3176c823eaf52fcf658d7f210d116 netconsole: move netpoll_take_ipv6() as netcons_take_ipv6()
-         cf6de67ba41c2b361cdab4d649f757d817bc6975 netconsole: move egress_dev() as netcons_egress_dev()
-         a1116396476f643b748a1686184c48b44ac1c2e5 netconsole: move local_ip/remote_ip/ipv6 to netconsole_target
-         dc50a5c9cdeae6b71754446fae84b4d831957f85 netconsole: move netpoll_wait_carrier() as netcons_wait_carrier()
-         12b4b11c1125923a31a6864fd0c83a7dfc211220 Merge branch 'netpoll-finish-untangling-netconsole-from-netpoll'
+         ca5c750744356dc1ed916eecea9485683ba738c8 s390/vfio_ccw: free all memory if cp_init() fails
+         620475623e910d68a7da5affc914c6278aa99410 s390/vfio_ccw: limit the number of channel program segments
+         2092366790f378daa7b154d29e4b5b1945b7993d s390/vfio_ccw: fix out of bounds check on CCW array
+         3f3825c02d624da9a4f6c4ab5b63a3d9e5702819 s390/vfio_ccw: ensure first IDAW remains constant
+         af0e79588e54438644c21591e0d4043d34c4f990 s390/vfio_ccw: calculate idal length based on idaw type
+         b3b6665384d71dca7ed5fa5b384af760881017f1 s390/vfio_ccw: ensure index for read/write regions are within range
+         78043d6cd523d4b89f95c1e68c862ebad9f02492 s390/vfio_ccw: cancel existing workqueues
+         ac01077e6dace3ab100f0ec16d07cf5c7550dc42 s390/vfio_ccw: move cp cleanup out of not operational
+         7151ff3f59631c9ae946c71410459d8ff7448829 s390/vfio_ccw: selectively expand io_mutex
+         38e90837857f03198a91290e2d266f5ee157f87e s390/vfio_ccw: implement a crw lock
          
