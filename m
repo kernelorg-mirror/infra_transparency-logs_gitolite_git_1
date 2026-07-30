@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 30 Jul 2026 09:05:36 -0000
-Message-Id: <178540233664.1724641.16433993399376645061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Thu, 30 Jul 2026 09:06:02 -0000
+Message-Id: <178540236293.1725038.563955873103500808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 8bdba6f6cfc1eb68df883e6541ca443bdf300dd0
-    new: 6435d21cbd42fea6c66dfd4cfef7d58b9612497e
+  - ref: refs/heads/for-next
+    old: 995fa7932d9c1899648b057c46632f8815854f17
+    new: 3fca3cbc0516b839733a92be712aa34132249a93
     log: |
-         921ea990b651339d3d319f1ebb065c0f5431a7f9 Revert "gpio: realtek: Add driver for Realtek DHC RTD1625 SoC"
-         65caf947fe021c1d2c59e08a9c48f25c38cca9e8 gpio: regmap: Provide default IRQ resource request and release callbacks
-         2da8b903cf7039338e6cc1b1d0e9f9e1cf9159c3 gpio: regmap: Apply default resource callbacks for regmap IRQ chip
-         cf0f6ddd08f37808fd6893e2d9045f069c07a5a7 gpio: regmap: Order kernel-doc descriptions with the actual appearance
-         6c53312b7e2d9a972e509f5bac002e169e241eca gpio: regmap: Add gpio_regmap_operation to extend reg_mask_xlate callback
-         5f28e3dbd23199c778f5339c0d4488820435f6d5 gpio: regmap: Add value_xlate callback
-         ab91ecbc322424916efea4c4e6220e2046a80e8a gpio: regmap: Add set_config callback
-         de36d18cfc66519fd3bb0dabf92d5f7fbc1dc121 gpio: regmap: Add IRQ enable/disable helpers
-         6435d21cbd42fea6c66dfd4cfef7d58b9612497e gpio: realtek: Add driver for Realtek DHC RTD1625 SoC
+         b496282ee4ad07311a13489e15b74fb7078d9a01 riscv: dts: spacemit: k1-bananapi-f3: fix maximum CPU core voltage
+         56a77ddae794ca0516fc146f6e59bb8cdf4fd9d2 riscv: dts: spacemit: k1-milkv-jupiter: fix maximum CPU core voltage
+         ae0c38f0a24f95c8759b6b0eaaa5a0d36a7c6af2 riscv: dts: spacemit: k1-orangepi-rv2: fix maximum CPU core voltage
+         f045253a03589b2616332560b4120e584342a987 riscv: dts: spacemit: k1-musepi-pro: fix maximum CPU core voltage
+         d66267c35032c46c18b675601d03c80239bcd913 riscv: dts: spacemit: k1-orangepi-r2s: fix maximum CPU core voltage
+         a65e9b73b0f0f33078b63f039b3ff64af051a11f riscv: dts: spacemit: k1-bananapi-cm6: fix maximum CPU core voltage
+         e273d298b74ea63d5d586bd50240f919a9c33fb3 riscv: dts: spacemit: Add cpu scaling for Milk-V Jupiter
+         3fca3cbc0516b839733a92be712aa34132249a93 Merge branch 'spacemit-dt-for-next' into spacemit-for-next
          
