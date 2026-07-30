@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0786203274448667426=="
+Content-Type: multipart/mixed; boundary="===============9060649594567661091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 30 Jul 2026 20:29:23 -0000
-Message-Id: <178544336334.2473409.127831059412870295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 30 Jul 2026 20:29:26 -0000
+Message-Id: <178544336606.2473523.11212376578436138264@gitolite.kernel.org>
 
---===============0786203274448667426==
+--===============9060649594567661091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 3708dd9488440e35a165aee2bb2a1a7b1d0d5777
     log: revlist-1229e2e57a5c-3708dd948844.txt
 
---===============0786203274448667426==
+--===============9060649594567661091==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -975,4 +975,4 @@ b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.
 2812e64e1575e05500a35c405aaa6e99b7d7930b Merge tag 'net-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3708dd9488440e35a165aee2bb2a1a7b1d0d5777 Merge tag 'pm-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============0786203274448667426==--
+--===============9060649594567661091==--
