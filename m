@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0087847780401874633=="
+Content-Type: multipart/mixed; boundary="===============7234784917862141554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 30 Jul 2026 21:57:08 -0000
-Message-Id: <178544862877.2547778.13557394105846382788@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 21:57:16 -0000
+Message-Id: <178544863689.2548036.9417891797456695307@gitolite.kernel.org>
 
---===============0087847780401874633==
+--===============7234784917862141554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: f49afff90964a0df43cffc3175380d614341be2f
-    new: 84d9cbb535f956cd408c9fea1d1fff3e41fcdd35
-    log: revlist-f49afff90964-84d9cbb535f9.txt
+  - ref: refs/heads/1GbE
+    old: e095f249e2209674f6366f6db0383a2b96e19239
+    new: 2812e64e1575e05500a35c405aaa6e99b7d7930b
+    log: revlist-e095f249e220-2812e64e1575.txt
 
---===============0087847780401874633==
+--===============7234784917862141554==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f49afff90964-84d9cbb535f9.txt
+Content-Disposition: attachment; filename=revlist-e095f249e220-2812e64e1575.txt
 
 608045a91d9176d66b2114d0006bc8b57dff2ca9 rust: allow `suspicious_runtime_symbol_definitions` lint for Rust >= 1.98
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
@@ -490,69 +490,5 @@ c92922c02caf2b9bb506a59f32f9187a21ab0be9 Merge tag 'linux-can-fixes-for-7.2-2026
 b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 110b5cdd5b72bcef01b8d4dfe45d922bdd16de0e Merge tag 'gpio-fixes-for-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 2812e64e1575e05500a35c405aaa6e99b7d7930b Merge tag 'net-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-fbcb79b50b64befb05743904c401948851b26859 ice: Fix enable_cnt imbalance on resume
-30e2aba6ef49736c9b80816a2d7f5268e2eab502 ice: Fix enable_cnt imbalance on PCIe error recovery
-d8ca47d72868700d6f33e1b41ab0300c8364b504 i40e: Fix enable_cnt imbalance on PCIe error recovery
-62dfd645c1002b850c21d31342b4ef3bb9f0018d ice: fix FDB deletion
-5b791688fc1078a0f37931d2ff387914b5e248f0 ice: init desired_dcbx_cfg in default DCB config
-e351f0aa23eb054384d396e100632f978489491b ice: prevent integer overflow
-32064a63eca8520babe90981b86c84259b2eec57 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-3f0566529516246b3f5e848d3f3fe3903b292f82 ice: check cross-timestamp timeout bits
-eb9a045a40ee46f4a4855ce5cabacfa2271c2e1e i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
-b444790fa4b17770d6d181ae2bef7dfd781fb37c ice: fix null-ptr dereference on false-positive tx timeout
-951573253a0f468535df930f9d3326d8d06309f6 iavf: fix error path in iavf_request_misc_irq
-92304fd4c4cd50a1bc8f94628a463df9411a3dde iavf: prevent VSI corruption when ring params changed during reset
-a9c186df6cb55a96ea951d271da9e6a9ef6280c5 iavf: return 0 when TC flower filter not found after qdisc teardown
-00e19de4ca2745844ee62c92072b5e1b64c10feb ice: fix asymmetric pause negotiation reporting in ethtool
-fd6b9bcf51aff05a842dc9f59fa908bc9c226138 ice: fix autoneg disable when link partner doesn't support AN
-f10300790e7e2af32fbdbe1279da3336acc77849 ice: support RDMA on 4+-port E830 devices
-8099061a3a483b3c3827a59f4490ad6c082cbd9b ice: report EIPE checksum errors to the OS on E830
-f99fcc64dc7d9aa95055202513ee04cd6344a7b3 ixgbe: fix SWFW semaphore timeout for X550 family
-ec0e665f384c44084dd81a80cfa396543ec60c1c ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
-5769154cd63c53eb2c463b21e70eaa7a84a8fcca ixgbe: fix ITR value overflow in adaptive interrupt throttling
-2e821800569705fd3cb567a634386037296ce2eb ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
-344459ba60e622ea54f2a7b511b677079fa514c2 ice: only free LL TS IRQ when the handler is present
-37b298531b1acfa09600793842a20c1f2cdb6796 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
-f0dbd2c8acb676bd39c75e5588b3819959659a6a igb: Return state in pm_runtime_idle instead of power-down
-ff26ffff35a527ec30e5c28fb3a24e666a02aebd ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
-f61fe0ecbecdca6a67d3bd9bf7150ebcba6b12ee ice: Zero out the PTP control PF pointer at ice_adapter cleanup
-e72780db8cf8cc238211e8774664fa22e07cc27e ice: Cache struct ice_hw pointer for split register reads
-2864d7dabae359d208761ca465e63a3e3d77d939 ice: fall back to SBQ when LL PHY timer interface times out
-a50866ff691c6c6364f1096cbd470bae269f90ef i40e: fix netdev leak in i40e_vsi_setup() error paths
-aad5d5b27989560f04c31c4a3a6eacad46f7e8bd iavf: cap advertised max_pkt_size at the single-buffer HW limit
-ca2fc971b9f19294c3c959bc2c077ce94f4c8dc0 ice: eswitch: fix use-after-free of metadata_dst in repr release
-65d2f77a2f5ce1f21cf0fd94ba956e47146b2d22 ice: clear the default forwarding VSI rule when releasing a VSI
-8408e9461c922d9896f5b998c4bf9734e08622e2 igb: only strip Rx timestamp header on the first buffer of a frame
-17e8a97071bccccb489811c5e0fdc762229114b6 iavf: return EBUSY if reset in progress or not ready during MAC change
-227b3ed990b83f8f15afa646335c0f9b8e6fce6a i40e: skip unnecessary VF reset when setting trust
-cf9c598f6e5eeabe3fb7b7f9ff84a3b8a4d82770 iavf: send MAC change request synchronously
-1ca06f90b96cc2e53c9aa3a7927ba9a499457bf4 ice: skip unnecessary VF reset when setting trust
-079e6d11b3a1f8aa492398e6552ebbd71aceeb47 e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
-ba12681f7e1e11e3ff5c3d22bcc541d429314171 ice: use global queue index in TC to-queue offload
-5557b4c7251999707313f2d665912c585efa1622 igc: Fix RX HW timestamp reporting when NET_RX_BUSY_POLL is disabled
-de8a87a3565714171d4628b4bb2a4a64dce42c7f i40e: unregister netdev before clearing VSI on reinit failure
-9e15ef6ca089c271ff1e46c40b28957a650efd68 i40e: avoid null ptr dereference in i40e_ptp_stop()
-a369fc3865057d1db92d046cf1412c3972d5805f i40e: make ring pointers unreachable before freeing via rcu
-8067eab3cde3507611c4c343ab9aba9677ee786e i40e: avoid deadlock when calling unregister_netdev()
-33f9e3be6c82b7ec3177a42be1cf90abc0d183e4 i40e: fix potential UAF in i40e_vsi_setup()'s error path
-b07912c046898653fafea1523bdb91bdc91244b5 i40e: do not expose netdev too early
-162f1ee6cc8b5e54bb232939ac3bd7ec3132f88f i40e: keep q_vectors array in sync with channel count changes
-eba7cfe13f0cf48ebdc4b7bb8cc68b3fea00866d ice: move ice_vsi_realloc_stat_arrays() up
-e979d88b23fdc71b09a91a732a1d515b0c946d3c ice: fix stats array overflow via proper realloc
-141be3b41660b25fde79f59c37e58722a898a908 ice: add missing xa_destroy for sched_node_ids
-8c22e3d55aa73f33a788d00a6c274cc1f6a3311e ice: skip per-VLAN promisc rules when default VSI Rx rule is set
-0c62001b66fa68bcbe0efbe28afcee41942e87e7 ice: preserve uplink DFLT Rx rule on switchdev release
-1bf94c10b5f125649013821bb17ce9e046fa980e i40e: fix set_ringparam error path freeing live Tx rings
-f094e9341093aa68df929fb03be36c16649db513 ice: fix use-after-free in dynamic port cleanup
-abb6477191529a8c46a75d03e127f7c5ded6ac83 iavf: fix ASQ command buffer leak on init failure
-e891017a0cf498635d449c11efb6dc8461c74ed7 iavf: fix QoS capabilities memory leak
-c933dbf6cadfb2cf245d2df5cec28137e16260ae igc: fix netdev not re-attached after resume if interface is down
-2f5f1729d10c579a8eb80dbd716d74405748266e ice: acquire NVM lock around each flash read
-466bcd6e2f22c53cbb09e3badacac3a1e57776c2 ice: fix empty PTYPE set for GTP RSS profiles
-d9a17b55505ffadfce50f68ec7e95ed67d5a5313 idpf: disable DIM work before freeing q_vectors
-ff59380532d04d5ee6b4930a88fbb56ecb6fb9e2 idpf: disable PTM on probe failure and on remove
-95b11bdec825ced52c918f6c53c844ea540f9bc4 e1000e: Fix out-of-bounds MMIO access by validating BAR0 size
-c50aec4942141edd59802966e6cdae21222e6d81 igb/igbvf: disable work items before device removal
-84d9cbb535f956cd408c9fea1d1fff3e41fcdd35 i40e: xsk: fix multi-buffer XDP_PASS skb construction
 
---===============0087847780401874633==--
+--===============7234784917862141554==--
