@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 30 Jul 2026 22:51:24 -0000
-Message-Id: <178545188420.2591679.15854390947253102978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Thu, 30 Jul 2026 22:52:19 -0000
+Message-Id: <178545193938.2592181.7126856034696749604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: aschofie
 changes:
-  - ref: refs/heads/master
-    old: 31e960207bd9f7b56bcfb6dcf9ce9eb34fd8cae0
-    new: c3c895efa5806cb44ad0c6ad3fba724c6903efd1
+  - ref: refs/heads/libnvdimm-for-next
+    old: 6191eeb6c70b41f7bc71967055adab5ef93274dc
+    new: e99cb3ecd8334ca21e01ff9a79a916693f58f1fb
     log: |
-         46ad79119d764c2a9c1bb317cff2cbd89013c05b foo
-         bda2434a6e29a213bb3e83cd2c6a144cfba72174 foo
-         39d2eecf56f3694f9a63009f04d0438bdc7bd9d1 foo
-         c3c895efa5806cb44ad0c6ad3fba724c6903efd1 foo
+         1c454cec28d6ef9f04c32b10d268e699e09573a4 libnvdimm: nd.h: clean up kernel-doc warnings
+         e99cb3ecd8334ca21e01ff9a79a916693f58f1fb nvdimm-btt: clean up kernel-doc warnings
          
