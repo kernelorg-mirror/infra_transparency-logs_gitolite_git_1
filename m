@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Jul 2026 11:25:33 -0000
-Message-Id: <178541073321.1989683.14842418353681641544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Thu, 30 Jul 2026 11:35:55 -0000
+Message-Id: <178541135587.2052947.6566911969102322753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/main
-    old: 16809472409d998afcda402e32b8229b389337c4
-    new: a58a2b0ce354df531ebc71fc870058c2feb59f6b
+  - ref: refs/heads/for-usb-linus
+    old: f5098b6bae761e346ebcd9da7f95622c04733cff
+    new: 13543cc0d941001d8b23c662cbd38e21e08ef129
     log: |
-         a58a2b0ce354df531ebc71fc870058c2feb59f6b net: openvswitch: fix potential UAF on meter attach failure
+         13543cc0d941001d8b23c662cbd38e21e08ef129 usb: xhci: use BIT_ULL for CRCR bits
          
