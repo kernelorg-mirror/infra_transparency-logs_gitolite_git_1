@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7234784917862141554=="
+Content-Type: multipart/mixed; boundary="===============2034786514051516708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 30 Jul 2026 21:57:16 -0000
-Message-Id: <178544863689.2548036.9417891797456695307@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 21:57:19 -0000
+Message-Id: <178544863982.2548176.5642481075532421465@gitolite.kernel.org>
 
---===============7234784917862141554==
+--===============2034786514051516708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e095f249e2209674f6366f6db0383a2b96e19239
     new: 2812e64e1575e05500a35c405aaa6e99b7d7930b
     log: revlist-e095f249e220-2812e64e1575.txt
 
---===============7234784917862141554==
+--===============2034786514051516708==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -491,4 +491,4 @@ b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.
 110b5cdd5b72bcef01b8d4dfe45d922bdd16de0e Merge tag 'gpio-fixes-for-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 2812e64e1575e05500a35c405aaa6e99b7d7930b Merge tag 'net-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7234784917862141554==--
+--===============2034786514051516708==--
