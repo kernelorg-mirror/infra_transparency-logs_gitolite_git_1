@@ -1,40 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0952979436282867295=="
+Content-Type: multipart/mixed; boundary="===============5239475272581940517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 30 Jul 2026 19:43:02 -0000
-Message-Id: <178544058237.2436778.10472009547795951063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 30 Jul 2026 19:44:42 -0000
+Message-Id: <178544068236.2437397.11047959287133946634@gitolite.kernel.org>
 
---===============0952979436282867295==
+--===============5239475272581940517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
 user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 7774cf58f600b5a8f6bf7b1faa772a60142b94c4
-    new: af374f88f2fcfd60c523b2c005b1c2653844612f
-    log: revlist-7774cf58f600-af374f88f2fc.txt
+  - ref: refs/heads/non-rcu/next
+    old: 5c20b6ab59580182b3179aa33403a14738873c72
+    new: dd5dd271920a567261997747205ac00e9ac4f0ec
+    log: revlist-5c20b6ab5958-dd5dd271920a.txt
 
---===============0952979436282867295==
+--===============5239475272581940517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7774cf58f600-af374f88f2fc.txt
+Content-Disposition: attachment; filename=revlist-5c20b6ab5958-dd5dd271920a.txt
 
-8fe479568cddbe7f2023069a539d4040e05f3f87 rcu: Mark interrupts-enabled accesses to rdp->cpu_no_qs.b.norm
-7f28a4c8f3f723a3b99cc59425e906b429108c48 rcu: Remove unused rdp parameter from rcu_check_gp_start_stall()
-27d73e81195b395270117ff77c47be2ed9b09b12 rcu: Mark accesses to ->rcu_urgent_qs and ->rcu_need_heavy_qs
-df0ecbc497de851891847260f45805ca6ccb393f rcu: Reduce stack usage in show_rcu_gp_kthreads()
-76892716e187e1bb4be30c8c980204b501c28555 rcu: Mark interrupts-enabled accesses to rdp->cpu_no_qs.s
-ed61912b40dda92ef24014fb0daca7de852f9407 rcu-tasks: Rename tasks_rcu_exit_srcu_stall_timer to tasks_rcu_exit_stall_timer
-885d8314e5706ce7d176f2029454246c2d940bb3 rcu-tasks: Fix some comments for call_rcu_tasks() and call_rcu_tasks_rude()
-4ffdcc8b97faa561c1cc5536f7a58939ba52bf23 rcutorture: Announce declining to forward-progress test
-277684c2cffd48f9d17513b2fb43a0f419e5621e rcutorture: Make {,s}rcu_read_delay() better handle forward-progress testing
-af374f88f2fcfd60c523b2c005b1c2653844612f Merge branches 'expcb.2026.07.24a', 'misc.2026.07.30a', 'rcu-tasks.2026.07.30a', 'srcu.2026.07.15a' and 'torture.2026.07.30a' into HEAD
+a5a62b9b13db2e4be7f9695bc88e53c851190a3d pwm: gpio: Apply READ_ONCE() to hrtimer_resolution accesses
+84f2a4fba135341399d0d5660fbf339ea07796b7 hrtimer: Apply {READ,WRITE}_ONCE() to hrtimer_resolution accesses
+b210987ae4b4fad95daadecd28d9a5235a4065eb alarmtimer: Apply READ_ONCE() to hrtimer_resolution accesses
+2336db9e67556c5b09d01cb6dab93a15f8f6f819 net/sched: Apply READ_ONCE() to hrtimer_resolution accesses
+336001e302c17b3e5c1e0b2b1faa83b6b8bbd4b6 ALSA: Apply READ_ONCE() to hrtimer_resolution accesses
+07abbb755f8e36c136626161bb950b3939165b69 hrtimer: Apply READ_ONCE() to lockless base->running loads
+f898363c5407af6a1506279da193bbf51b635a06 rcu-tasks: Convert cond_resched_tasks_rcu_qs() to static inline
+164f89fd8b90b0ec31cd8ecf38cdb3b655decdab hrtimer: Check for interrupts disabled in __hrtimer_expires_remaining_adjusted()
+f823edf30459e73528cd151fec6e5286a81fce24 hrtimer: Check for interrupts disabled in hrtimer_update_lowres()
+8d90dc8b479f91c0fd6f1f92dcdec67c6333d917 hrtimer: Check for interrupts disabled in update_vsyscall()
+4ab1e4a45c3a04cfa6674cd736c46a84323a4c47 hrtimer: Check for interrupts disabled in snd_pcsp_create()
+dd5dd271920a567261997747205ac00e9ac4f0ec Merge branches 'arm64.2026.07.23a', 'hazptr.2026.07.23a', 'hrtimer_resolution.2026.07.30a', 'hrtimer_sleeper.2026.07.23a' and 'scftorture.2026.07.23a' into HEAD
 
---===============0952979436282867295==--
+--===============5239475272581940517==--
