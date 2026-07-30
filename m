@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8332614783804266278=="
+Content-Type: multipart/mixed; boundary="===============1570806985971924511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 30 Jul 2026 20:25:00 -0000
-Message-Id: <178544310060.2468705.17547934847024855609@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 20:25:19 -0000
+Message-Id: <178544311980.2471045.9794371383606090652@gitolite.kernel.org>
 
---===============8332614783804266278==
+--===============1570806985971924511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-7.2
-    old: 9fe595fad54d4ac6a402edb3f60bec859d52cea6
-    new: 9a82dcd98b6e6e11cfd162410967951f12152528
-    log: revlist-9fe595fad54d-9a82dcd98b6e.txt
+  - ref: refs/heads/next
+    old: 0bd2ec18e666a0721e86175226e27a6155969716
+    new: 7aaf97edc2c86fe18b59a5f488acec4c23075020
+    log: revlist-0bd2ec18e666-7aaf97edc2c8.txt
 
---===============8332614783804266278==
+--===============1570806985971924511==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9fe595fad54d-9a82dcd98b6e.txt
+Content-Disposition: attachment; filename=revlist-0bd2ec18e666-7aaf97edc2c8.txt
 
-035ed430ce6a2c35b01e211844a9f0a7643e57a4 wifi: mac80211: avoid non-S1G AID fallback for S1G assoc
 4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
 521f39ca93cc43ce1b3eae8d44201f8f55dd9151 mmc: sdhci-of-dwcmshc: check bus clock enable result in the probe() method
 04f15d8f393037ed72876399882265604a370b2b ASoC: sof_sdw: Add a quirk for 0x17aa383c laptop using sidecar amps with cs42l43
@@ -1050,5 +1049,6 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
 d14b5d0e97fccd27974fedc03b903408872907fd selinux: reject a permission value exceeding the class permission count
 9a82dcd98b6e6e11cfd162410967951f12152528 selinux: reject a class permission count below its inherited common
+7aaf97edc2c86fe18b59a5f488acec4c23075020 Automated merge of 'dev' into 'next'
 
---===============8332614783804266278==--
+--===============1570806985971924511==--
