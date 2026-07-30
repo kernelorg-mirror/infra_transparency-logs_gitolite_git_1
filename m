@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1706567038945659326=="
+Content-Type: multipart/mixed; boundary="===============9009546186344930383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 30 Jul 2026 22:17:38 -0000
-Message-Id: <178544985849.2565024.13457241629355153092@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 22:17:41 -0000
+Message-Id: <178544986137.2565113.1418978116194983386@gitolite.kernel.org>
 
---===============1706567038945659326==
+--===============9009546186344930383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 2bb54b49e9d522f54dc9c0fe10ba40fbc56041c8
     new: 5c458073553f0ef74f5c8db1bd459c87c722a299
     log: revlist-2bb54b49e9d5-5c458073553f.txt
 
---===============1706567038945659326==
+--===============9009546186344930383==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -585,4 +585,4 @@ b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.
 2812e64e1575e05500a35c405aaa6e99b7d7930b Merge tag 'net-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5c458073553f0ef74f5c8db1bd459c87c722a299 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1706567038945659326==--
+--===============9009546186344930383==--
