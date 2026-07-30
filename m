@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8936213390927813020=="
+Content-Type: multipart/mixed; boundary="===============6587766865108956633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 30 Jul 2026 12:26:00 -0000
-Message-Id: <178541436099.2090860.12452822336636152848@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 12:35:15 -0000
+Message-Id: <178541491582.2097404.9270421822880693763@gitolite.kernel.org>
 
---===============8936213390927813020==
+--===============6587766865108956633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 01bbf469d82129cc24de6b75008fcbd2ae40d513
-    new: 7c9cb80b4df486e75d71b962478686cd87958761
+    old: 7c9cb80b4df486e75d71b962478686cd87958761
+    new: 3ece4665b78cd07e4808d4aaf24b0a551027a953
     log: |
-         7c9cb80b4df486e75d71b962478686cd87958761 6.18-stable patches
+         400233bc57a09a219c3dd07212a25a582daebbea drop queue-6.18/kho-add-interfaces-to-unpreserve-folios-page-ranges-and-vmalloc.patch
+         3ece4665b78cd07e4808d4aaf24b0a551027a953 6.18-stable patches
          
 
---===============8936213390927813020==
+--===============6587766865108956633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785414348 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785414903 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1785414358-df7b5f81cd1c7f7a43ab9636e0c3f956c877ba8a
+nonce 1785414914-7324870e663cf51ceab88d550152fd85e68ffde3
 
-01bbf469d82129cc24de6b75008fcbd2ae40d513 7c9cb80b4df486e75d71b962478686cd87958761 refs/heads/master
+7c9cb80b4df486e75d71b962478686cd87958761 3ece4665b78cd07e4808d4aaf24b0a551027a953 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmprQswbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EyEQAISSOlRyVGjqivg5TlYa
-OW5h6pZGuyaHdkOMiFk5f7HMuuDlk6h4nq0Spt7+oE8RGMWkSLAercLS/ra8nFT4
-MJcXKsS0+JYYfgieigEuNVWsTXFfpQd8H+N3XoLsS+sOFgxAElYfLcFC7LmUAzfQ
-lsMwhOB7g8FKS7rq5IhizEWQmALnfEua0ufrnmwOckeFLpFLeZG7MurCvsyQ8i/U
-NHPzOmfYklihVPm1ywR8BCLyCQa2I82NtAxaTpB81U4UUBBqYJJ3qfSSEGfY6jEs
-sE0iYNb4HPeih/PEf1PcpuN2ffyo/cibZLqf8EE3wVp2SZ0oE9Z4nUjKmjOvwciD
-oQMC4mVEb1KDCxnSMxLRIwR/IRq7rCYPgvMHO0jEIa78mzofnr2PrtfTfz5Mm1Ic
-7y0sTiugK15wDh/VUVx+tJzD5pQIKX5aqVQmQoXVmTnM+7v/rQSjHKE6fny8Mkdh
-3zvGZAyeznrkszlCpRrJeLJ6LfwZtyuxTogYFMq89aMj8U381OiOjd2pX5F76Nr0
-7Am2ws03V2sYwZlbeR7uSkv4CTAIyFfJ9W9widzHpkq01jJ/S8Cls2e2gw/C18Dj
-WcSFicJ/AgmB/fH80gxCmT/1cQYsXR/kZh2bxVU3dVFEbxaA1pbgRvFp58S/MUJU
-6B+vxCfudRXIRqlDHNvSP3c7
-=TPVB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmprRPcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YmMQALIEREKrDxpav4FEGWL9
+So7npFu+1LuplCEqR02q+2F34r3UKehoK0iugw7+h3K2jkZQPLPziN/Wak01OpV3
+dMBE2UX6cvjUjIYky7Bv/z9jegjVlbaQYPVpc4TPgeNospqtIIQSdkmrPRmjMCgm
+R2k8d0MFAQPpMeh6tUkxgnkh1kkMmPbw0S3DMHODzhcUTKXqufScyxUmd0lzpo9i
+oeqmnE9Sb06SnT4zB6RSg0IRAwh2ifgTRr+KW1xVMzbIMHo2Yu4uK9Phlly8AHM6
+4r6P/PPbTCBmDX5+xhOVTJkipFuFkWsxQYqZDPBcJz1zqkGEEl+PpEHxWXb4dKcC
+SC2KQLmMohQw7rxhdLyr7mJ2YiyaRabftnt3gVsGoEJSeRiRcSs7qwZBfbmOE/nG
+53qBGg2edWNt6vvvkdVWzJhZCm6uKFQJguG4NE3Yh7hkRw+g0QF06u1lW7LSDXGN
+QJ79bNt8GUYVk7mRB1+5tkqxkRE6i4L9mFarllbqi8NWaHPs2AiNCtmdvJrcTGM5
+K5CMQWzUk6AKaK47NzNKdjBA0rT2G5M84s7bpCpKaPy3zveOvnEflCapHZdyjMNV
+BH/Q+I3BboTo+mf39pgRAWDlMVXfzWmFUIcoLwby178wAk1rdQ49d7Gu4RuePBnt
+3fhOPT5A8zAR1UP6/FbAATyv
+=7lnt
 -----END PGP SIGNATURE-----
 
---===============8936213390927813020==--
+--===============6587766865108956633==--
