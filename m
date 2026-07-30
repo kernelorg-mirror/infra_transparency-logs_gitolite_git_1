@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Jul 2026 22:27:40 -0000
-Message-Id: <178545046042.2572406.10891407308008210697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 Jul 2026 22:27:50 -0000
+Message-Id: <178545047035.2572643.6657442036234554579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 5c458073553f0ef74f5c8db1bd459c87c722a299
-    new: 61a878bafdf67748cde1358c0533b9dc73bda789
+    old: 2812e64e1575e05500a35c405aaa6e99b7d7930b
+    new: 3860d8748af315bfee6fe669fddc1fc17d3214db
     log: |
-         61a878bafdf67748cde1358c0533b9dc73bda789 dt-bindings: net: microchip: fix entry
+         3860d8748af315bfee6fe669fddc1fc17d3214db net: hns3: fix speed configuration residue after driver reload
          
