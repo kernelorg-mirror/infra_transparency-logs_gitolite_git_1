@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Jul 2026 00:53:56 -0000
-Message-Id: <178537283660.1317190.16481109434234911172@gitolite.kernel.org>
+Date: Thu, 30 Jul 2026 00:55:29 -0000
+Message-Id: <178537292971.1319918.7743442854068013205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4107af9967e9ec049091b8f009374c4981d458cf
-    new: e67cc80b50f587cd1d8ffc8989dcec3291720bc3
+    old: e67cc80b50f587cd1d8ffc8989dcec3291720bc3
+    new: 54ad7ea45d63146a8e3c57375f8a269d4cf7ecea
     log: |
-         e67cc80b50f587cd1d8ffc8989dcec3291720bc3 net: mana: Return error code from mana_create_rxq()
+         54ad7ea45d63146a8e3c57375f8a269d4cf7ecea ptp: netc: fix potential interrupt storm caused by incorrect unbind order
          
