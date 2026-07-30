@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 30 Jul 2026 09:02:50 -0000
-Message-Id: <178540217027.1700112.10566782240563718546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Thu, 30 Jul 2026 09:04:16 -0000
+Message-Id: <178540225680.1700787.18242528207008676952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/b-4.4-st78-rt62
-    old: 0000000000000000000000000000000000000000
-    new: bc6d4834a8ee69fd10f970df4821a7e912d3f128
+  - ref: refs/heads/dt-for-next
+    old: a65e9b73b0f0f33078b63f039b3ff64af051a11f
+    new: e273d298b74ea63d5d586bd50240f919a9c33fb3
+    log: |
+         e273d298b74ea63d5d586bd50240f919a9c33fb3 riscv: dts: spacemit: Add cpu scaling for Milk-V Jupiter
+         
