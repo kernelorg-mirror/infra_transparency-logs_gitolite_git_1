@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Thu, 30 Jul 2026 07:35:42 -0000
-Message-Id: <178539694221.1613906.3267374844410007392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Thu, 30 Jul 2026 07:37:49 -0000
+Message-Id: <178539706989.1614826.11624700821617179190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
-    old: 8173f7e2ce67e6ca1d4763f3da14e5b01ce77456
-    new: 6b36f13891ab4709b7d60023005176cdd5c368cf
+    old: 1163a476a568f6c0f852d469c8e4c5a5f805adac
+    new: a264cb967dbdbf9544c4de80e2f7188214b93f77
     log: |
-         438f4896f78f69ec73d5f32d2c024193f1223569 crypto: ccm - Set rfc4309 maxauthsize from child
-         360f2974fcea49c61f6d6f81554741a9eeee7168 crypto: tegra - fix rctx->cryptlen calculation in tegra_gcm_do_one_req()
-         1132c38927886259c694f77cd74fc577c2216eeb rhashtable: fix false-positive lockdep splat on rhltable destruction
-         9c75402286409f5e1a75e4a445555c84066f89db crypto: qce - fix error path in devm_qce_register_algs
-         6b36f13891ab4709b7d60023005176cdd5c368cf crypto: starfive - use scatterlist length before DMA mapping
+         8b1fea9dda01d0ee7ac0b7ec87dbb9fabbf244aa crypto: cesa - manage SRAM teardown with devm
+         37b70fa01b909b2d4d247789dbc41eaf4562e2ea crypto: bcm - use memcpy_and_pad in ahash_hmac_setkey
+         567fa6076cd1038171f5827a7a5d19d718cd0baf crypto: qce - drop redundant variable in qce_skcipher_done
+         83f11e115207fecd03b1ac5fe57b614ef9e09d6c crypto: octeontx - simplify get_{eng,ucode}_type_str helpers
+         57e599da2d3be1366214bd1d302a352dfc08d40a crypto: drivers - remove conditional return with no effect
+         a264cb967dbdbf9544c4de80e2f7188214b93f77 crypto: af_alg - clean up kernel-doc warnings
          
-  - ref: refs/tags/v7.2-p3
-    old: 0000000000000000000000000000000000000000
-    new: fab6913290255065d3b1e468854a78a2e3a333b0
