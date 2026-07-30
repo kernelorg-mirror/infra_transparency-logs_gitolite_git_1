@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Jul 2026 22:27:50 -0000
-Message-Id: <178545047035.2572643.6657442036234554579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 30 Jul 2026 22:28:50 -0000
+Message-Id: <178545053063.2573153.1207546255951563840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main
-    old: 2812e64e1575e05500a35c405aaa6e99b7d7930b
-    new: 3860d8748af315bfee6fe669fddc1fc17d3214db
+  - ref: refs/heads/master
+    old: 2659f94ed3be147942acbea96405efc562afb34c
+    new: 5c5997836381010fc5907b36bc17d3b19407e933
     log: |
-         3860d8748af315bfee6fe669fddc1fc17d3214db net: hns3: fix speed configuration residue after driver reload
+         5c5997836381010fc5907b36bc17d3b19407e933 bpf: Fix potential UAF in bpf_netns_link_update_prog
          
