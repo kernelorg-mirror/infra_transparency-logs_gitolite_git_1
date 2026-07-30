@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 30 Jul 2026 17:32:57 -0000
-Message-Id: <178543277744.2339175.3602381582438536860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 30 Jul 2026 17:50:11 -0000
+Message-Id: <178543381109.2352175.2486636111832407736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/at91-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: d6e7bce8d43920ea01a217b5bccf4a30bf4165b5
+  - ref: refs/heads/main
+    old: 1632180069e30535968376ca15d88cae25002a04
+    new: dea2e6d85cc089b2128d06e6eae6431baeb5a4cf
     log: |
-         632e1109192b920a3e94f844d926e9c2cc960998 clk: at91: Read "reg" with helper
-         8258a4bcfaa9ded9b19b3c230ed85df44d580935 arm64: dts: microchip: lan969x: add QSPI nodes
-         f5124852fd95ed2c5be561b7d6c06c2aaa62e649 Merge branch 'clk-microchip' into at91-next
-         d6e7bce8d43920ea01a217b5bccf4a30bf4165b5 Merge branch 'microchip-dt64' into at91-next
+         e235bb6f9ec6164f89ef4be08574b16d0a1eef67 Merge remote-tracking branch 'wireless/main'
+         977b3446075c0bdc2134d096d0cc2cd4fc5c050b Merge remote-tracking branch 'wireless-next/main'
+         f84f0b028321b688a869327ca6861181d305ce69 Merge branch 'ath-next'
+         acdcde022e825d2d5bfb339590f54a730accafb0 Merge remote-tracking branch 'mhi/mhi-next'
+         dea2e6d85cc089b2128d06e6eae6431baeb5a4cf Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202607301737
+    old: 0000000000000000000000000000000000000000
+    new: dea2e6d85cc089b2128d06e6eae6431baeb5a4cf
