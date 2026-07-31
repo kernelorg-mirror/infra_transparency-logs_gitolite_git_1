@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5017203487090190217=="
+Content-Type: multipart/mixed; boundary="===============3022358297386245674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 31 Jul 2026 11:58:45 -0000
-Message-Id: <178549912550.3235049.5155907989361620889@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 11:59:22 -0000
+Message-Id: <178549916251.3235489.1907011959218957616@gitolite.kernel.org>
 
---===============5017203487090190217==
+--===============3022358297386245674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: almagui
 changes:
-  - ref: refs/heads/tmp.next
+  - ref: refs/heads/next
     old: 16309722ec2f287de8d58e4c430f930016711a10
     new: 56ef6faac9522bdb402a6253a52821f987f46336
     log: revlist-16309722ec2f-56ef6faac952.txt
 
---===============5017203487090190217==
+--===============3022358297386245674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ f33622ef95781e02c81b99205341f905bf2af593 dwarves: Remove 6 dead functions found 
 0f08496fdb3f1656b22a20934c5df9e988370c52 btf_loader: Fix multi-dimensional array loading
 56ef6faac9522bdb402a6253a52821f987f46336 btfdiff: Remove --flat_arrays now that pahole encodes multi dim arrays in BTF
 
---===============5017203487090190217==--
+--===============3022358297386245674==--
