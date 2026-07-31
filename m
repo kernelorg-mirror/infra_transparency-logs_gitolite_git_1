@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 31 Jul 2026 14:58:02 -0000
-Message-Id: <178550988298.3381107.6836620828727821042@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4076494407339717586=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 31 Jul 2026 14:59:08 -0000
+Message-Id: <178550994836.3381696.17031782974766023440@gitolite.kernel.org>
+
+--===============4076494407339717586==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-fixes
-    old: 2a9e8921fefd722c5cb70b4d28f15e2048250a77
-    new: 68e14df76a673f8857cd41e453339645da9a453b
+  - ref: refs/heads/master
+    old: 37ca612fe6b9c34655e14741464aa5d479b4c54b
+    new: f8c2189fb65f36469bc66661110c27a488c38637
     log: |
-         7f03a417fc75fbe31a06199d8b609b8f313b5301 btrfs: disable large folios for systems with highmem
-         0fa78ef637deb5dbe341582f88553a4bce496de0 btrfs: lzo: reject inline extents without valid headers
-         d2a4e4e626b2f4670b69b430c357f03f53eb6632 btrfs: fix memory leak in btrfs_do_encoded_write()
-         4c375ac546ea667e619ab77d34cca6edcab7c448 btrfs: disable bs > ps support if no transparent hugepage support
-         0ef349734a93227b45f65fc50a3311d1cc5f03e9 btrfs: initialize inode mapping flags for cached inodes
-         ba89f8692af69a1993ac143ada494349e8ca5e0a btrfs: skip hole detection during full fsync for files without holes
-         c6446ba3a3bd220ea9457c75007810f6a84ef18b Merge branch 'misc-7.2-fixup-worker' into misc-7.2
-         68e14df76a673f8857cd41e453339645da9a453b Merge branch 'misc-7.2' into next-fixes
+         f8c2189fb65f36469bc66661110c27a488c38637 Add new key for Rafael Wysocki (AC2FA78C94A917EC)
          
+
+--===============4076494407339717586==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1785509947 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1785509947-f27ba1c490daa172da3ac21012c80782ff171d00
+
+37ca612fe6b9c34655e14741464aa5d479b4c54b f8c2189fb65f36469bc66661110c27a488c38637 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCamy4OwAKCRC2xBzjVmSZ
+bICDAPwO0kzZE6pp8UnHV0b1EzW3y6zxLMk7ulZGISALDeJAPAEA3NQlw1+PXEO3
+6o4IIKmeRa4M88XF0JpYFdowsjWyGQM=
+=mZFZ
+-----END PGP SIGNATURE-----
+
+--===============4076494407339717586==--
