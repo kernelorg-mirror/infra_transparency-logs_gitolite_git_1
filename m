@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 31 Jul 2026 22:19:11 -0000
-Message-Id: <178553635173.3720076.13878023168064656500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 31 Jul 2026 22:22:01 -0000
+Message-Id: <178553652135.3723332.4745328353573210012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/x86/cpu
-    old: bec89bf9eacbfdcaead88e9a611215fcad3c5cf4
-    new: 173dfdce3ba8b7d54d2476f76f723438dbaff391
+  - ref: refs/heads/asoc-7.3
+    old: cde33309169224df5a8a5200cb9dec8399b366e1
+    new: ea1224da5d61ea9a6c18d6b79562a1354dccf395
     log: |
-         21532edff7b08c9f9de743114375d635f95813f3 x86/cpu: Use parsed CPUID(0x0)
-         21834b541d933d52a3359ba368645f375f8c9ad1 x86/lib: Add CPUID(0x1) family and model calculation
-         173dfdce3ba8b7d54d2476f76f723438dbaff391 x86/cpu: Use parsed CPUID(0x1)
+         ea1224da5d61ea9a6c18d6b79562a1354dccf395 ASoC: SOF: Use high-priority workqueue for PCM period elapsed
          
