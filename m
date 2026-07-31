@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 31 Jul 2026 20:35:10 -0000
-Message-Id: <178553011021.3643248.11046452139767052156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 31 Jul 2026 20:37:12 -0000
+Message-Id: <178553023200.3644359.15217576020184759818@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 8d62dd89736f09a3e093b1490ceb075472abec6c
-    new: 66694b5f90f3876fccb87bbd02b453cdc33b3ae4
+  - ref: refs/heads/spi-7.3
+    old: 26bbeaa8b3b9a4c2b6aa44b1a726b0b4e828d349
+    new: 36bd2782549c867f07040e17d73b39c75fbaab7a
     log: |
-         66694b5f90f3876fccb87bbd02b453cdc33b3ae4 regulator: fp9931: Fix VPOS/VNEG voltage selector table
-         
-  - ref: refs/heads/for-next
-    old: f5f70462814b7580e9f747691a104f608e5037cc
-    new: 19e2ff782add11cb1f1d036501363ecf71fb26c7
-    log: |
-         03eab318cedd6ae34ecd34533cd986edf5237164 regulator: core: use system_freezable_wq for init complete work
-         7595f50ff82260b6dd95af9e339f1d47f45ce753 regulator: pfuze100: add set_suspend_disable for LDO ops
-         688a70ddb2b44870188759808eeb1fd53f3aac81 regulator: handle regulator late cleanup race with PM suspend
-         66694b5f90f3876fccb87bbd02b453cdc33b3ae4 regulator: fp9931: Fix VPOS/VNEG voltage selector table
-         19e2ff782add11cb1f1d036501363ecf71fb26c7 Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
+         d458c752cf6cdaa2e83c2758e40fc3ab496d3ab8 dt-bindings: spi: nuvoton,ma35d1-qspi: Add Nuvoton MA35D1 QSPI
+         78b16af159ae6d1f5506697c1f08d8172afdc037 spi: ma35d1-qspi: Add Nuvoton MA35D1 QSPI controller support
+         36bd2782549c867f07040e17d73b39c75fbaab7a spi: ma35d1-qspi: Add Nuvoton MA35D1 QSPI controller
          
