@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8565754487213153680=="
+Content-Type: multipart/mixed; boundary="===============1454397739542295589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 31 Jul 2026 12:28:44 -0000
-Message-Id: <178550092407.3259978.9918501875751395959@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 12:29:33 -0000
+Message-Id: <178550097318.3260502.3923562244314382834@gitolite.kernel.org>
 
---===============8565754487213153680==
+--===============1454397739542295589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: e40836ee62c9f2c94f925c63283b1cf9b3b9e5d9
-    new: c665c1730dbd9bdda38a461a5758efb12268a780
-    log: revlist-e40836ee62c9-c665c1730dbd.txt
+  - ref: refs/heads/module_version_removal
+    old: 3cc0795c2f710a52178b348d6c17a2540092e6a8
+    new: e018a50606c880e97bf32cea31c727fc705bdea1
+    log: revlist-3cc0795c2f71-e018a50606c8.txt
 
---===============8565754487213153680==
+--===============1454397739542295589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785500896 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785500944 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785500907-d5dcedcf1db928f5740294b571d00008eb56a446
+nonce 1785500955-c408b1c1e9c5cafe5c63488e7b970304c998aaf1
 
-e40836ee62c9f2c94f925c63283b1cf9b3b9e5d9 c665c1730dbd9bdda38a461a5758efb12268a780 refs/heads/readfile
+3cc0795c2f710a52178b348d6c17a2540092e6a8 e018a50606c880e97bf32cea31c727fc705bdea1 refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpslOAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GoIP/jPX2R6iumTmAle02Ggn
-4J+ASh0NmWes7GMk1ev5cXnwETQ3utZA4oMBZ9BvNAsZTAaW1/fxZyw2n8SW4GAN
-6bw7jqypo7FqUjTmPDpQpMLgJ7Mdfsyv+ISc4gKZg/ujqOrkOixfu3PRMcCzcbzv
-O9/pi1XWFGUPjRLy37Ahy9h9Xva+9o6qHxZApfkhhscdmDgTShSlCJoAOzwQB8mm
-TrKX37XGsapZqIYFCaAN+W2Ff1/nWBu3iF0Zc+vFB96eLh0SLnoKEH9sKyR9Kdph
-YmrbBbq8UMaL4bJzaC1s+HRJgngpketADfgP8ZlIVzZ2WSPpni/QYbiVW0sEoyG8
-TdcWFPx2cNiWU8UmTGydnDDo9LYLy8H7aZkmTZgcpuNkgCCjuw+hBGbLTa+ZDARD
-GrVBvm3fpu4z+ZdWDithNUoBTDf/S91hn+xzoIlem+ysC+EDT6bDzlW9MdBGruGk
-ZH1eiO0Dm4Qt7BvJ3SPLJvEPZkda5CPcfmOE4cyb8Q0WUgrZTAOMeDJXwbVbykoG
-qHXUtA3ExL+Mukn4vOx2pbvg78n6X+259LcNK6iMgha0sivusLNcDg8MPnSSyfwU
-TaEebeZ3aqIxFBH/c5Fe1oCDrYSajO3r4W5tflyqRYcHyayoOTaWy8KszDwJIoG1
-W9PUdYcdDUuxHnyBY8vhaDCI
-=Hc/a
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpslREbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HbUP/RPUQMTNwmXoemM/80yR
+70WmmQbER1FnTfYI/ybPDlAeoAtvINyUN2idQCaxymQpyobWF15vj/fHkkxSAp2d
+V/lihSL3m7eZuUSssOZndIiejWigC/6wjs3kKgNggHs2b3/jrUfXZuSh5bLLoUX1
+lWR2ky2d4mXQW4doe+a24rzaBC2lyRxsoyDkC4B5+xn/JHmo0qqKiufmbhL9YBuT
+N0DCBV9bFEqivqUa4Ss32SrS06pDgyRzcTc4LanzlVJZl9CcFuuaVPAubt+U3rHT
+OXb3umS+bS+hQrott+cR+EdDSuey7CBwl7N4zi2rsZmohVGB32chILxB3aQeH6Jb
+F79/6cz4ih2UH8tDzrB9c2Q67RseN1R6Iqm48RwADicqtWmmRnfL9VudM7caRfLS
+u2h5oa8a/PhuRqg52nEksiqXYkwrlq79NbDxOJy7Q8gArTHojeCpUXVhRU09s8+B
+QMM3oTlEs18qO1s0hV9FhaLXkTyypN5rLvcYqxvkzy+V1RjMdnOKJxlnBCo95SXi
+EDjHe53gUMXPSYC5vfTOgD22JgKSJMOZaBP5ZwWG5sbwAMypm++GVENeA2+lX2iY
+1onx3B5l00ukPWuI8Ujjs+SJD2+Gau8xEC5TvQS+xalAZJryNEfSFBwdPi5oplNZ
+oIc7juKWze+s0o4Wo7zZk7+9
+=bc8X
 -----END PGP SIGNATURE-----
 
---===============8565754487213153680==
+--===============1454397739542295589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e40836ee62c9-c665c1730dbd.txt
+Content-Disposition: attachment; filename=revlist-3cc0795c2f71-e018a50606c8.txt
 
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
 437a8d2aa1aa442c4a176fdf4700a9b3bb0c8794 pinctrl: qcom: sc8280xp: Add missing wakeup entries for GPIO143/151
@@ -357,9 +357,6 @@ b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.
 e05b559f9cda350d0ab33c44a8c1151ca62d2875 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 a11f030c83e6a13f99645e3f4b24befa4bf9efea Merge tag 'for-v7.2-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 8ba098e6b6ff0db8edf28528d1552be261af30d4 Merge tag 'v7.2-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-a6bf30e01e2fa89bb4ef505095fcf0ee56620df5 readfile: implement readfile syscall
-f6a2430a7a638b7cc9cf668a5f126f1144a51149 arch: wire up the readfile syscall
-52cd7e7eabc2405e962684c8f3c09f3d9b9f9316 readfile.2: new page describing readfile(2)
-c665c1730dbd9bdda38a461a5758efb12268a780 selftests: add readfile(2) selftests
+e018a50606c880e97bf32cea31c727fc705bdea1 module: remove MODULE_VERSION()
 
---===============8565754487213153680==--
+--===============1454397739542295589==--
