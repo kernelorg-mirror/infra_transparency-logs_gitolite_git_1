@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7619532467122415028=="
+Content-Type: multipart/mixed; boundary="===============9205956516080991857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 31 Jul 2026 12:55:49 -0000
-Message-Id: <178550254983.3283282.5626448820405581282@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 13:00:31 -0000
+Message-Id: <178550283143.3286777.14797868912061403785@gitolite.kernel.org>
 
---===============7619532467122415028==
+--===============9205956516080991857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/b4/module_ver_remove
-    old: 9481cde6f0676a762d19ca6547bd3d2ccbebb55f
-    new: 5ec1319a312fc5dc7af437797467a74655008a5f
+    old: 5ec1319a312fc5dc7af437797467a74655008a5f
+    new: 601eaeeca7f930d15030838e6256ff251ee36745
     log: |
-         77f4a7335f264bb9626ce9d3c5829cb917de27b4 module: remove MODULE_VERSION() and srcversion
-         d20607b65ce9f2c4e414f92a353760a0fd776e70 module: remove MODULE_VERSION()
-         5ec1319a312fc5dc7af437797467a74655008a5f module: remove srcversion module attribute
+         403799b7596173d17303f2c063de087bcfc500a6 module: remove MODULE_VERSION() and srcversion
+         ea8ae883c9dbd4e072c43093b119fedaccb4d1f1 module: remove MODULE_VERSION()
+         601eaeeca7f930d15030838e6256ff251ee36745 module: remove srcversion module attribute
          
 
---===============7619532467122415028==
+--===============9205956516080991857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785502519 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785502799 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785502529-5835ed03dca0fc7c46ca0386f8ea9d0a9710e372
+nonce 1785502810-7db66e454674c2973538c83e4781b353b4fd363b
 
-9481cde6f0676a762d19ca6547bd3d2ccbebb55f 5ec1319a312fc5dc7af437797467a74655008a5f refs/heads/b4/module_ver_remove
+5ec1319a312fc5dc7af437797467a74655008a5f 601eaeeca7f930d15030838e6256ff251ee36745 refs/heads/b4/module_ver_remove
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsmzcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vc0QAIDGajItVu8GnEWL7ORy
-MQFonlAIDF4DU3aFzDsVy+jtt+VU1VdIIEjqPR2gs80sFDoTHfDVO72hDFBqCisp
-HjZw+qXsGkoJ+xxNbCIYX0mNfHbtBpKTaKMiqxyn3/iIyJhHM2CrnwIPc31wFrxU
-Fc9nz+x+lPusr+88S5NpU1zQwp9RK86n+NkJlgKy+CZ4Y7Ozu9s/HRkeJR3FZxkk
-7m4omRR74lfUNl7y/EgG3hfe2w7YKxZLQ0+Zbx6H0JkaLJ51M4yZmQOR1R9MKtcr
-wXpzMcjeQwuwaa4VOLmcTv6WusudD7LhnKkXvZnknzRXC8MaxJf84LTLHtqlyB1f
-G2JbFyOHrksB09t00Gbz3m7pyQYbT2vmogjyHNQRH/c8kKvcKe7UCxucD7dN2iQH
-KqdBLcOIF0eS5Nw0Q1SNFgnOk+ORbd9mHQsccZEHPQWpb06EZ6Oa9Dhsw96ViNa0
-ArRaT7wCUzBDUM58HFOTS64rnyznKHynCuS4TRv5OA87cLLWNKwoKtNZ58goSqUB
-KP9kNFSTR6v/QTIIRCg5h8V+R3sr/Ui4C4x1+XPTyDswCNfUzZQNOw1sbHStUaKi
-ZXlEHaju5gjIcfhMXLyCRx4du3epUj9fKb8JqiTZk2bkVxxj0MvKEhVUwm1tw0FO
-tAgcK03taTTwp+KEvQEickql
-=K2Uz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsnE8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+krsP/jb0v9sGz1thfHaEN6vV
+rqwm59laftDx+lPQL9hoDzLHsFSkSLC1+4xC9xdxBMSVE6c6U3E0Fm6zY38TmnTL
+DPvEhJdrAWBlRvHv+5gFsShXdFPYgzPl6rJ0Zi41jWoKxBcaD60+49qpRNC3KLkL
+wXgm6G0GFofIIOZeIsM4ooBDKdkXDRn/N+xUiw8Y8TgEb8G7cptAwmfB0BvilqWp
+1SCgonrTkqT1PEO2rVlS6XCo5NyxBbMjaCDz4NcQmw1q12iiTEO1WunStb/9/w60
+xEr2zjfejmC6SVf+o/DC41YUXrKQbsQmogyoSphN+e81CkJbYWFD76gXeo+rLJy5
+vRWUnT/4H0BHECYKRQlktSmFuKOnRT5uGSzWt7Sy1X04w3j3XlnLA6pFC5WnJJ/j
+PLrZO8Q9BU+Uy1X6fCHKP+0jAByQLoFcx+DIuUGqh9TAWBc/WTXjDE1YETZ97vcO
+MYBJzeTDMCgXDCcptquL+qasnYsIeGoiqepLzm1kB35Q/Vbm1Dm/Lk+1GN7jJ6L0
+uhcTqgxUiaV7fPXML5gJDzNN4cE4a8p+rZV2lzp9AP+hNn94ebQ5o+bTwYn1TlhW
+/aCKJ5kyKYbLYspxzEsnxZ+OaNdB5qXBuvAJVZEJ4KsM2fdvhIyREHqc2GiSXnr/
+ge5ekiAtu8R2mTWamSVCXcJ/
+=75pj
 -----END PGP SIGNATURE-----
 
---===============7619532467122415028==--
+--===============9205956516080991857==--
