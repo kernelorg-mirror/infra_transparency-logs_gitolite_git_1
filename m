@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 31 Jul 2026 14:44:09 -0000
-Message-Id: <178550904979.3368322.15583639014453628722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
+Date: Fri, 31 Jul 2026 14:44:59 -0000
+Message-Id: <178550909933.3368714.1577380547162867890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/uml/linux
+user: rw
 changes:
-  - ref: refs/tags/hwmon-for-v7.2-rc6
+  - ref: refs/tags/uml-for-linus-7.2-rc5
     old: 0000000000000000000000000000000000000000
-    new: 8587b22d7e44ca193e8bf751191afcb5cd68dccf
+    new: a258a692b6d3cc22fce2fb4fefde06e461880eda
