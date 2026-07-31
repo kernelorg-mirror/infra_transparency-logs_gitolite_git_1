@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0043767470237548305=="
+Content-Type: multipart/mixed; boundary="===============7308610783781185455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 31 Jul 2026 09:01:25 -0000
-Message-Id: <178548848550.3103040.5787255987802273304@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 09:07:02 -0000
+Message-Id: <178548882239.3106980.8457124684715306846@gitolite.kernel.org>
 
---===============0043767470237548305==
+--===============7308610783781185455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: f5098b6bae761e346ebcd9da7f95622c04733cff
-    new: dd7aea9ee2091cfae3a5e376af87aa106d7735cd
+  - ref: refs/heads/char-misc-testing
+    old: 0641400df7988434b84fc6ce94f9d322202fbeca
+    new: 0be1bb450be4ad677794dbce7259c53ff48e5fdb
     log: |
-         ab99eaafb0c4b412cfeb895a8cf091626e2bbd86 misc: fastrpc: Fix initial memory allocation for Audio PD memory pool
-         6102ceb4eab845743ee57acd3863fbd06e93c927 misc: fastrpc: Remove buffer from list prior to unmap operation
-         b85a0e91d7d6cd06a53c881a46f749cfcef416a2 misc: fastrpc: take fl->lock when moving mmaps on interrupted invoke
-         310f7868399668c6d99d88acc9c4cf3462e69d5b misc: fastrpc: fix channel ctx ref leak when session alloc fails
-         2fae94ee14f7fea11d3f95e10383a87c01d21518 misc: fastrpc: fix memory leak in fastrpc_channel_ctx_free
-         ff10b6db0ab75b132aed69ab144ac04f63ef9bdb nvmem: apple-spmi-nvmem: wrap regmap calls to satisfy CFI
-         b5be879519291f139fa7b365fd0dbc84710e4919 nvmem: layouts: Add fixed-layout driver
-         dd7aea9ee2091cfae3a5e376af87aa106d7735cd rust_binder: do not query current thread for all ioctls
+         5f4cafad30a55be95dd6933ed6534d1722d6dc05 rust_binder: add ownership assertion to Node::add_death
+         a010077d1acaef14bff5d2b26861ce0191b593e3 rust_binder: Update looper_flags bitmaps to use kernel::impl_flags!
+         0be1bb450be4ad677794dbce7259c53ff48e5fdb rust_binder: Update transaction flags to use kernel::impl_flags!
          
 
---===============0043767470237548305==
+--===============7308610783781185455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785488472 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785488809 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1785488483-c23872f29e2d41fd271ba34fcbf0fd170624295b
+nonce 1785488820-2bc3f27490d4c70c073c930dead857ee3cda0182
 
-f5098b6bae761e346ebcd9da7f95622c04733cff dd7aea9ee2091cfae3a5e376af87aa106d7735cd refs/heads/char-misc-linus
+0641400df7988434b84fc6ce94f9d322202fbeca 0be1bb450be4ad677794dbce7259c53ff48e5fdb refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsZFgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EFwQAMUb4RrKQgP9gpSEQR/o
-8pJ1GLTxcoGYhtjjqanAgDiB/+2EKFtkM/JsqM6tV2fV8huxMdcC5UnI83yRLZhq
-BkZQx2UUGkBfn3DsPDJRY9EQKdAyCA2O8VA9qMHuH/fOz2HdAgBNdc/hxShytxW6
-6Cby55YlhH2x7yoXl8zbfwi04DYBXZiymb3XwH+uRWWzb7XVfxWMzOGbrHXXhkJe
-/dhDuCUn+XATIMhQvjNJdsWh3fmMicF6T9eIRoRTzamla0fGiKNhdUITwgPDwn8G
-Ra2gZi1oUHpNXkhuoRnuCnjwnd3bogD7J9ruyiRHoCFvEcT/wc2ZJPc/fYGEGn9M
-qyrv5Sui7cOQdpMb6DjCFd7L9n3esZPvrDXaO9y0lDjTpO7qKvHyXjtDyz5Xxk32
-QowTjfUZ2G7c/PcGorE+/oN+IOm74sJi6AadYmxfrdxqMxjBU1PmNMgYK4e7ezyZ
-3f9BLI2y14nVTN32qNH6OPkfqSIfHwcYgZOSu4UBXo3hc3n97nTgnd2lFZj3+RnY
-qO6/vBRQshtBDBPD5fHtLqbWYHs5rDz9TO7q0LTHG9zNsaOL8WBHjYrhkmGKvQ/J
-h7FpY6bVPeH7OgoGddhf7zGHlXB/SHOWSTgPqrjUzXr6rCVgRu5T2AEUqIq6SK23
-NzNz3m+OyEOPbzKeKpnpMrN7
-=4ShE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsZakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A6UQANDAI9dDNTrnPrp73yhT
+ZaB/Ffy/7hnutpD/9W/dssmN/LG6XS2xr/xdojEdxtfbH1ZPsbZ+HD6IrIT1q0tL
+R6XAW5Pq9d6UGadN9biwEMH8T5OFWSCbbSfsB84KhZL7jameqcKaypfpXXSldJD9
+8LlxhZDQv/vH6I9rTtCrgK5hKgUUSvsKI2ivWCgD5vivttNqGnI3nO8ASQwlquij
+tm7kXFfCqbikl5nvinCeQZw/qBugvaKwJW1waMhH/g7XezzMjn35tpLIMLx4HC6t
+L9Pw+1HFKpSdgq0DujmVXhsRgBdLWa5gt1xu3qHZOe5ifrbcycCTkMjKqOlLucWh
+iYTvg4CQi7qedrc/LPnmfphkEz7FRQQ3hPwqlgqtyACg2Z61j9upvCkTDoZKwHLR
+yDT4X0QhQkBj47MTcpoaIBEkXk7LU8cepzVfXA86LnnL2pXIZdNcKu/F2MsvytqO
+OqLDRyGVmxeyzAbCnsrnwIPfCbODT5hXLulBo/q1Je1sCsg6wmrbQgoCKT+Tn4Qb
+RNQ834yV8W4OrwCpVU6z9fJbhk3IZssjCgYaeu63fFBXTQbcmamDqQYddiIlubMX
+LreLYoL9O5O8fiBReG6ONRvDJ8HQg8Fg00L8f4sw9YTzIHI8vU2IXfpsQIg29z2O
+2qODH3GldKX0etRNq16SeXe/
+=KCeX
 -----END PGP SIGNATURE-----
 
---===============0043767470237548305==--
+--===============7308610783781185455==--
