@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7470448544291101950=="
+Content-Type: multipart/mixed; boundary="===============5975295732250609016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 31 Jul 2026 03:26:14 -0000
-Message-Id: <178546837461.2804982.11740912720670400433@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 03:26:16 -0000
+Message-Id: <178546837611.2805066.11859380252198839010@gitolite.kernel.org>
 
---===============7470448544291101950==
+--===============5975295732250609016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: 0ea50486978f109e6d4c32267fab01ed654a2160
-    new: 29a24fe87bc80d81fc5d3b0d7e7615985c0ac29d
-    log: revlist-0ea50486978f-29a24fe87bc8.txt
+  - ref: refs/heads/for-next
+    old: 8331a8c056973498d7fe6c593a1f1a83fc7c5a51
+    new: c32efb2ec6b73d6be773391b5c93c3ba70378fbe
+    log: revlist-8331a8c05697-c32efb2ec6b7.txt
 
---===============7470448544291101950==
+--===============5975295732250609016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ea50486978f-29a24fe87bc8.txt
+Content-Disposition: attachment; filename=revlist-8331a8c05697-c32efb2ec6b7.txt
 
 ac9e9980375bbec70cc4886842f98b2f471ccc65 dt-bindings: remoteproc: qcom,sm8550-pas: Add Eliza CDSP compatible
 844d8f49e9d7f0621c10aeea059d59fd957bbd1e remoteproc: qcom: pas: Add Eliza CDSP support
@@ -38,5 +38,6 @@ d402a23bf4337a5050306847ea19e1bdd8e05736 remoteproc: qcom: pas: Drop unused dtb_
 77a6aafb404dda8ed6c2689dd78e10377ccebb4d dt-bindings: remoteproc: qcom,sm8550-pas: Add Hawi and Maili MPSS compatible
 f0b6c2b40f78db917e72a5d273b031e99ab2c0e7 dt-bindings: remoteproc: qcom,nord-pas: Document Nord PAS
 29a24fe87bc80d81fc5d3b0d7e7615985c0ac29d remoteproc: qcom: pas: Add Nord ADSP and CDSP support
+c32efb2ec6b73d6be773391b5c93c3ba70378fbe Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
 
---===============7470448544291101950==--
+--===============5975295732250609016==--
