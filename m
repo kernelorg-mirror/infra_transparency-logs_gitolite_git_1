@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3952641860809014195=="
+Content-Type: multipart/mixed; boundary="===============3311312790186302109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 31 Jul 2026 06:44:42 -0000
-Message-Id: <178548028227.2940933.13061600022568145256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 31 Jul 2026 06:46:04 -0000
+Message-Id: <178548036468.2943941.6207462520327000709@gitolite.kernel.org>
 
---===============3952641860809014195==
+--===============3311312790186302109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ec79b8d125f72b47e5f74514212226551885762f
-    new: 56b9526616e328caac4d560e2700b4d8771517c6
+    old: 66001a4791f78c02b92a66187099b26b71ba8543
+    new: 6754c84f1bfa886c4022110cb8967cea7fc2737d
     log: |
-         56b9526616e328caac4d560e2700b4d8771517c6 proposed: Add Ruiqi's results for v7.1.5
+         2414f1ce2aeae41a5300e858db573bbc22cf13ae remove ceph patch on request
+         6754c84f1bfa886c4022110cb8967cea7fc2737d Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
          
 
---===============3952641860809014195==
+--===============3311312790186302109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785480269 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1785480281-b187875d97c8c9c618b517cea4fd96577a36c661
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785480352 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1785480362-868faa2e99537c4d736b7e30bc495fbc47fdf393
 
-ec79b8d125f72b47e5f74514212226551885762f 56b9526616e328caac4d560e2700b4d8771517c6 refs/heads/master
+66001a4791f78c02b92a66187099b26b71ba8543 6754c84f1bfa886c4022110cb8967cea7fc2737d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsRE0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f6oQALczMs6hRXY1bXsRAts/
-R5KN5q0Hsb1U+mG4yAAvc+n8rfzxT38bwtBLIo54qqNpborwzST+ZkM1/Jp4dQdN
-4k6LF21JFg7+zHRGXDk7bjNYpdD/pOh3TFPsvOzSg6QlPWCGDNM637CGCVmuOE2t
-fCKAWkFPqf2s4AwlfxLQ4Q+20aR5Ry9m2NyueDiv8UJs2CqggqZYIaos3tvVYipC
-WWo7peze2Ss7W5xlqhqNqzASOaxR/HJntfqA81eamaRtsY0tUH2NDe5zqSmqj81h
-Z7D21IZJv/rbq3BSq6fyntGVNsPoCdbsv7dWcEq6SfN04qPfJzR8qprSSP8eVFtN
-iOGEmV+5dES2vFtNWlBxr6CyR9woBdUJjYiMmNpan4i1I90N2RbiUSX6UTF1XrDX
-khj0iQ76alpzQraboJnhw+hj+7pV4xqaxDXWAdfSlRFQJjyGOlcPpswUIubyqZVh
-F3xiPKR1YoMe4p+fG/Ue7JkwpxNnuRt5TZoDzqJS3JY/oS9bmGd3Xw902fg/VQ2/
-u3tSN7P3RJgtD+I3TxjnVmDGkEjcRZ3sYiq7V4OI9zJLZMcegg3KXf/Mz8pnh4gG
-BrI4QO8kj07fZ/F8yueLbMfeuSpRUiY+L5ghJUnqzEFlgfzofj44fsGvRxEMgcBX
-WdC6eSHiBIx6epQEkRnZu8Ry
-=r18z
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsRKAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KlUQAM1+LJpTfICrMGLfk3NN
+RkCESawrexpv38ewp5G59BP/t1MX5DbZDyfQnCnAmMxGgXLDywOv3Lgjt6W8Uq4E
+M4ICZONLkis7uMwCex7DaUycLnuH1NZ2wmFT3MmuqydyQTuYxk4Yd9vLZfRziX6b
+UJpiQYHcaJ1/ze3o/HcdoQz7/jfpCRmfAXGyw33VxJUs2koGN08pUZervRkhVOiX
+C3F+rj4EBJxC67qu9bxqEoVYz6C0UyTBqZ0K5Aj3t9QcFLxHtvrOFiyi4f9oMx/g
+HqFx6+ef5xUmAtXBVF/kS1N3ohF2WC/0woonh3uO3AYhB7bdhq1cKqawGV1Xfta0
+iGEHSQUuyKoR+MOJvyyuvyY1e7cgth3+SRsBAcwNPhUqd1Hlx3pwP/I7nwXrMO6b
+y1JPICl5dAV5TAln4Mx6zi6h4LR1ghTQ5bBTj5lSEGdLISN+iOVcx8tGogoD3Vz+
+ZzhTEqKRE6cTHShj4qa+1tPdJaHohDpZhu6HOkui4zLDgqBETdpM05vrEOWrb44O
+REjwxGcjQGrCz48sZ1oE6dv1SreexTLIPykvsFrc+efORCEBBgljNx/h93HwjOmP
+IvD4Qcxs06caKRYQLTIjv6fnLStLZ7OFpQbzHIcTMWFtg/V0iv2ig2ZpstYbavSG
+CHjNlYZTle9vhoY8R53V6ATY
+=WuuH
 -----END PGP SIGNATURE-----
 
---===============3952641860809014195==--
+--===============3311312790186302109==--
