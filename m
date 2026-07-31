@@ -1,43 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5975295732250609016=="
+Content-Type: multipart/mixed; boundary="===============4225424229226355371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 31 Jul 2026 03:26:16 -0000
-Message-Id: <178546837611.2805066.11859380252198839010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Fri, 31 Jul 2026 05:09:28 -0000
+Message-Id: <178547456806.2874174.2040649264606174387@gitolite.kernel.org>
 
---===============5975295732250609016==
+--===============4225424229226355371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-next
-    old: 8331a8c056973498d7fe6c593a1f1a83fc7c5a51
-    new: c32efb2ec6b73d6be773391b5c93c3ba70378fbe
-    log: revlist-8331a8c05697-c32efb2ec6b7.txt
+  - ref: refs/heads/master
+    old: b1c280b9565d00fcbb7af93190d9cc15c30419dc
+    new: af86560d1c2fb7476e2a9d33925a6eaf0292100a
+    log: revlist-b1c280b9565d-af86560d1c2f.txt
 
---===============5975295732250609016==
+--===============4225424229226355371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8331a8c05697-c32efb2ec6b7.txt
+Content-Disposition: attachment; filename=revlist-b1c280b9565d-af86560d1c2f.txt
 
-ac9e9980375bbec70cc4886842f98b2f471ccc65 dt-bindings: remoteproc: qcom,sm8550-pas: Add Eliza CDSP compatible
-844d8f49e9d7f0621c10aeea059d59fd957bbd1e remoteproc: qcom: pas: Add Eliza CDSP support
-78fb78cb94d389c1696b439623cebe75775f1d4a dt-bindings: remoteproc: qcom,milos-pas: Move Eliza ADSP to SM8550 schema
-b589944ecd95fe4a51bc2aab13ce83b298b7bcc8 arm64: dts: qcom: eliza: Add fallback compatible for ADSP remoteproc
-142044ea7bbb83c180319368a8ba088452ceb7f5 remoteproc: qcom: annotate mem_region fields with __iomem
-c06c5ab4945392d2c2aded6d832ab6b58cabe351 remoteproc: qcom: pas: Guard dtb metadata release with dtb_pas_id check
-a5464fa3173c83da28b46e3c12be6d4a27bf5728 remoteproc: qcom: pas: Fix the PAS context creation placement
-0b0379fcf9ce395bb51cadb6552ec3b1380436bb remoteproc: qcom: pas: Map/unmap subsystem region before auth_and_reset
-d402a23bf4337a5050306847ea19e1bdd8e05736 remoteproc: qcom: pas: Drop unused dtb_mem_region field
-77a6aafb404dda8ed6c2689dd78e10377ccebb4d dt-bindings: remoteproc: qcom,sm8550-pas: Add Hawi and Maili MPSS compatible
-f0b6c2b40f78db917e72a5d273b031e99ab2c0e7 dt-bindings: remoteproc: qcom,nord-pas: Document Nord PAS
-29a24fe87bc80d81fc5d3b0d7e7615985c0ac29d remoteproc: qcom: pas: Add Nord ADSP and CDSP support
-c32efb2ec6b73d6be773391b5c93c3ba70378fbe Merge branches 'hwspinlock-next', 'rpmsg-next' and 'rproc-next' into for-next
+072c6f32cadee39fc66761421bd42fcb689a70fe b4 tui: preserve list scroll position across ListView rebuilds
+682920f6d1d34b1620f402d22fda7876d42a90d8 tests: cover scroll preservation across list rebuilds
+217605bbbe922aa5c0fbd82f6f63696c7590cc84 Merge patch series "b4 tui: preserve the list viewport across rebuilds"
+d0b501a40a210a3136587f5ab4b55c56f73e1073 b4 review: identify updated revisions by their cover letter too
+dbcb2505b76d50476aef902aabdbf0b05411f509 b4 review: test cover-letter titling on the update path
+3e016ed6c78ff2d0389fceb412a7d46dd64a4626 Merge patch series "b4 review: cover-letter titling on the update path"
+97e09203a66f7849500cd0258d83864c15535461 git_run_command: look past -c overrides for the subcommand
+ea34dcdac92304fa422ee90ab9b541931d7e527e shazam: ignore the user's submodule.recurse in the scratch worktree
+c9a21b8111ddd79485a4e8d787ff43158ee49aff review-tui: use the shared scratch-worktree overrides for test applies
+cecec5d1844fdbcc4cfa90e56b10f6358eb4948d fake-am: use the scratch-worktree overrides in the staging worktree
+0abeddbb46c2f86b052de4e31816912246bd9d23 send: use the scratch-worktree overrides when tagging a sent series
+6991ac96a05cd410c1734a0cd15307481f11860b tests: exercise the scratch worktrees under submodule.recurse
+af86560d1c2fb7476e2a9d33925a6eaf0292100a Merge patch series "Keep the user's git config out of b4's scratch worktrees"
 
---===============5975295732250609016==--
+--===============4225424229226355371==--
