@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5439475947518574354=="
+Content-Type: multipart/mixed; boundary="===============3579731011263149666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 31 Jul 2026 07:43:49 -0000
-Message-Id: <178548382933.3041853.4912266363401276035@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 07:44:47 -0000
+Message-Id: <178548388744.3042325.7002443087710778270@gitolite.kernel.org>
 
---===============5439475947518574354==
+--===============3579731011263149666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f5098b6bae761e346ebcd9da7f95622c04733cff
-    new: 8ba098e6b6ff0db8edf28528d1552be261af30d4
-    log: revlist-f5098b6bae76-8ba098e6b6ff.txt
+  - ref: refs/heads/clanker
+    old: c46bc12c6094c4080147054f2730de617b7b00d7
+    new: f5705a5eddf187a9be34b334505f7b81dea2ff6a
+    log: revlist-c46bc12c6094-f5705a5eddf1.txt
 
---===============5439475947518574354==
+--===============3579731011263149666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785483813 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785483859 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785483824-0f29069734ac16788a8b4ce8f78737ad7213bf81
+nonce 1785483870-2836da1e5fdecde989f7d4952c12fc7e55c3b3da
 
-f5098b6bae761e346ebcd9da7f95622c04733cff 8ba098e6b6ff0db8edf28528d1552be261af30d4 refs/heads/main
+c46bc12c6094c4080147054f2730de617b7b00d7 f5705a5eddf187a9be34b334505f7b81dea2ff6a refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsUiYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i5MP/irwygfYRndLp4GDeBkY
-mwadOm7lN2qbNJabS/7nVaUpt1T2ZyJUPucm7kL9gjJ9DJRd1KKT7Cn+zozcl20e
-yrTMMa0AFhthBW+NLhMPeR8b5IMIbXimiivFXli1cx6qnbim/a9ISUjEfUuzB0YJ
-CbCZ/+ka+YPP1TaRHWod5tNq0xnLKZ7/nJq+NMl8qota16kyR5oDktwAK19TOBF0
-eNwaGH8faNVkPVrjBf1DaW3DiwpkNf9KeBJx9OFuqpTJvekKoR3DI0IT3ZHu2fLc
-C949gE0oMuMJFp2vGNGvlv2Jw4He/olBkuGFSGjN9Rdc3D8KgBQv82zx7kioFyGb
-+Io+MJ1uYotOWAo4jiAucBeNCBo3YbtyoNthV8GCK8/XThmFAHu9kenxgCIps7DR
-LGkOgYdNOtGihuP7SKiBBGlv3sExz7nMO87BVuwNEta/o5kWh4C7EHytyWxOsdzd
-/0Igswn6912zcnpnN46EUybDPVZTlEK/f/qsxlt/3BUUl76JaaNdY2UyGHD0z/4m
-3vi6dAjkSjS71VgKQqt3mO8cwN1zlHEMxgYzD2wT5bOxMsWyEIw4TWjIFlm09KmK
-kxpy6JRjhon4ywAk6WbRK/wac8eLW8o7K/pkI8So3ijRWIDbPuBz4QoBx+Q67Zcl
-Nsha5mmjtGU9YECQAeQlajW/
-=Bz8T
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsUlQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EVkP/RpP/k4DSDtxdwT5FciX
+XrN/MlumCc0nsV63K5Pg3gkDvAfPz4WEt//L6p9jeGKZfzYRDyqixacoxy2DTONu
+jnCJNTMAiw6mBuV//jGXTW1SNtdVeWhByAKDVck5jEvoZ65rwsHoIKrG3Kt2cJ7I
+Gjnkhv/gT2WqDssb6J+9/XBb85+NZqYV7hwUBbIVkuwvzk9cUZnZbdfCQ9BvCsS7
+pkDYpGf3+NI657uLO4eMmZ3tQeVuXEsUEE67YsW1PWxit8gUOx6zMf2jvgyvhpnl
+SQho5geuwrNbrL0gy+E/gjp2nqyuc1Diz7Thd+DodlqceFA1CmlWa4ylmhMCMSuB
+oE7JB8dlj9v8BNIAOlpb7ExfXu3RAgo4DdRDCsnlxMGjUFq1WzQwR3xz8uiNWKUY
+9vPllzACZ6dZHsdR2yI7Ry3yN83LsG1DafFOFg54Bky/31a83vtPZfZE1Yz3j995
+0w8JXiB61xuXi6xNJjO1lh0N3bCdJiqZ38hPH7S5Q+ni2EI6o2n1qtF+UYymiowL
+5KdQjI6PV0z6M93IIat7oMoH5lP4AmINRgenIYdhHJTGGx5RBAlI+OqfrxT+QnnP
+JkCN7sXjAvs0x2sx98KSwmxihG76nTZduZSx0uBVHlmiH3jLcoiUldXTnyqB9ymu
+1OEoRrjopXKTKlV2gqnBf+sM
+=jf3I
 -----END PGP SIGNATURE-----
 
---===============5439475947518574354==
+--===============3579731011263149666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5098b6bae76-8ba098e6b6ff.txt
+Content-Disposition: attachment; filename=revlist-c46bc12c6094-f5705a5eddf1.txt
 
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
 437a8d2aa1aa442c4a176fdf4700a9b3bb0c8794 pinctrl: qcom: sc8280xp: Add missing wakeup entries for GPIO143/151
@@ -357,5 +357,37 @@ b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.
 e05b559f9cda350d0ab33c44a8c1151ca62d2875 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 a11f030c83e6a13f99645e3f4b24befa4bf9efea Merge tag 'for-v7.2-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 8ba098e6b6ff0db8edf28528d1552be261af30d4 Merge tag 'v7.2-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+428395e9de55d2677e388cde0dfce689bf136d6b net: mctp: usb: properly drop the usb interface on probe error
+0bdc8c54aaabf1e9250885bbf2f9ca28d7b968a8 wifi: rtw88: properly drop usb interface reference on error
+de1b88d56de80a528063c95bbec6b40595279c0d mmc: moxart: fix potential use-after-free on remove path.
+5ac2ee7e1d92b266ba92f9a9e20ce8073031eff4 mmc: meson-gx: fix potential use-after-free on remove path.
+c033a2feaa3987468081acb09fb12f4b6095c4a8 f2fs: fix potential deadlock in f2fs_convert_inline_inode
+eabe32fca3506deb8db45fc3d14f7dc466d080c6 drm/amdkfd: stop speculation on the kfd_ioctl path
+e8b78b45aafe8895aa5f886e17cae0cdef8cb04e media: adv7604: avoid negative array index in log_status when cp_read fails
+664de31b8d76f3ac92f5ff2e7c1ddbc90d0e05bc media: stv090x: bound DiSEqC reply length to msg[] size
+23cd0d0bf9197efd56db90fd01c4cf910bd84f57 media: stv0900: bound DiSEqC reply length to msg[] size
+df4211bbdfafb366387d82d2af2805a2f90f7408 NFC: digital: Bounds check Felica response before sensf_res memcpy
+fe58f035240ddb07e1f52d37f0208c8efc4235b8 net: usb: cdc_ncm: reject negative chained NDP offsets
+3e5dd9909d85da2d0c7a207c5e3dfa9367cecf9f net: sched: em_text: require NUL-terminated algo name
+d6724e505f7c10f614bf3745f41af1fd1b64eaf1 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+b87685625cb2d58ca0566f900fdc03aca5eb9166 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+3e2c8ca0a227a614e39c27f3171bf54514132089 io_uring: depend on MMU
+778a53c04733b84cf2ad862fc2565f2c270fc1f7 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
+62f7589d9b3b7b3de6aa32d25b78ccf024be2296 usb: typec: tcpm: validate VDO count before reading Attention status VDO
+0fc675be05c1e11a40728480b444837d73b20640 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+421e4bb511dca8a4d44383d97cae86b29f4b50d5 fpga: dfl: fme: add error handling
+67c16b8fcd98f05e094487a3a12917f65fea0e45 drivers/perf: thunderx2_pmu: add error handling
+edfe2bf402845eeb374b7ddf4ccadb78d2cad568 soc: imx9: devm_kasprintf error handling
+df39dde6b4379b86317c0039bb9a59c3cec5db6b dmaengine: fsl-edma: Add error handling for devm_kasprintf
+ccf82a1cb32240c2a800dc5ad19659ace489d226 nfc: st-nci: Add error handling to IRQ handlers
+8b2f8e7bfc1d10b3c1ec81c3a1da93255326c702 nfc: mrvl: spi: Unregister dev on allocation fail
+8a03e39b01e8d320eb8b305ed12cd2bd458e0277 nfc: nxp-nci: Add remove on IRQ error
+3863f9beb1cba04f39b7b7674c964651c2564d0d rndis_host: add overflow check in rndis_rx_fixup()
+bc2b8e38be3fcd1da76ec4b8a1e6c00d380cfc50 nvme: bound ns descriptor header and body to identify buffer
+60ad878b50ef3c07de420b10ccc1ec7449fa1101 nvme: clamp FDP nruhsd to allocated RUH status descriptor count
+4522e4dd95f7780699742989e81c5e93edb01462 misc: amd-sbi: Add null check for devm_kasprintf()
+a48e8534352bc5818b27b683bde8db0293edd6ca soc: mediatek: mtk-socinfo Add error handling in devm_kasprintf()
+c8cfaf78bbe6b54d8f0e3441f33b3dce83f39145 mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
+f5705a5eddf187a9be34b334505f7b81dea2ff6a nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
 
---===============5439475947518574354==--
+--===============3579731011263149666==--
