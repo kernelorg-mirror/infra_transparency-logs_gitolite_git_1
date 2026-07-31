@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4213504235003462688=="
+Content-Type: multipart/mixed; boundary="===============5002286386520386960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 31 Jul 2026 13:54:19 -0000
-Message-Id: <178550605943.3326237.14884550328941995732@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 13:57:13 -0000
+Message-Id: <178550623355.3329543.18114792799857389596@gitolite.kernel.org>
 
---===============4213504235003462688==
+--===============5002286386520386960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,42 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.3/objext_split
-    old: a497bb91fef9dec256809cf2bab9f45a6525521f
-    new: d4115d11b59c13b84fb908596eee297c06ae9c4a
-    log: revlist-a497bb91fef9-d4115d11b59c.txt
+  - ref: refs/heads/slab/for-7.3/kfree_rcu_nolock
+    old: b01f6ed9ff0c4581fc669044fa5b82a93b4ef144
+    new: c4ab02f7d6166bce7ac7118a18bc6326145df41f
+    log: |
+         f3521fbec2b2839698eba2b7013ed20119416e6d mm/slab: handle the !allow_spin case in kfree_rcu_sheaf()
+         f8e0c305995fa2931e77a6e669e8362458ae4eba mm/slab: use call_rcu() in unknown context if irqs are enabled
+         69abda97a09b2e7df26d21cb534f4930201b4186 mm/slab: extend deferred free mechanism to handle rcu sheaves
+         2a8bb29ec9b202d3d7bd094c800e6990fee278ba mm/slab: allow kfree_rcu_sheaf() on PREEMPT_RT
+         4a174eb10b24147460c327ae06928c2f19bbe2bd mm/slab: introduce struct kvfree_rcu_head for kvfree_rcu batching
+         0958c000fbdc799d27c7543444546df2423b9332 mm/slab: introduce kfree_rcu_nolock()
+         c4ab02f7d6166bce7ac7118a18bc6326145df41f slub_kunit: extend the test for kfree_rcu_nolock()
+         
 
---===============4213504235003462688==
+--===============5002286386520386960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1785506055 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1785506229 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1785506055-a27d21a7da15be859ed5151e434197ec9f3cc50d
+nonce 1785506229-e7d98eff692f027d7d95fb7262b4003a1cc8f84d
 
-a497bb91fef9dec256809cf2bab9f45a6525521f d4115d11b59c13b84fb908596eee297c06ae9c4a refs/heads/slab/for-7.3/objext_split
+b01f6ed9ff0c4581fc669044fa5b82a93b4ef144 c4ab02f7d6166bce7ac7118a18bc6326145df41f refs/heads/slab/for-7.3/kfree_rcu_nolock
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpsqQcbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaSW0H/3vHYx+/D0g3yuFxzZAi
-mhyYgSJgkaCPN7jTdujPbrgJJ8WI4VDRIEDEo6wnNye7Vtu/sEWCYf/mox5kUeCF
-suJdkpyKeh1rkInpu6MkQnF/jjQ6b1YpH8ioEWN3W7RnYORxbVGmREn6tD5gZyUf
-4CCfFCLOMNVxIF9ST0guXL0IJXgvRI/Su+9aZkKdz5LvIWHkGmRbRN/cPThkVncu
-ZSepw3rJCrQFjwXoy1wol5N5YqTXQCBFpqr479d/LkT9J/U7bw9wUZ8OEzB97KR0
-uDr04J6F5x/TZK+qwhYTif68AQRjcCma/Lv6J9M9UMg6lmmkV5WaGpXTaQaZpxvA
-K2I=
-=jry/
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmpsqbUbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaquMH/RfISP5a3FtircgprUvI
+sAPoAeun27lDv2aemIjVonmSVkd6JTgMPzsJZMt2mThZE9n5PiSt021FvwwiIqMN
+I7gUDPcHqRXfZ4S8Ol+yHCDxHuS7a/I7jXToIRQxFMfweMsESn+H9CHoiv4f1azv
+Y0fJG5oqAK2E/+4Aaf6KF1qJ0Tq24mvvxuzZEJ+JUR9biIXB9Qr9uoxaC0ewyuMV
+ReyrFpHXVHwzeBs6+JWfewBVDYB2nTQG6C+5p6jUN24uN6oybNmaQUwhLwVywTvX
+T5gtztGrQ48YPOrYd0g9wnzqsfjedREQlO9QInWzwjo8oD1XFJxLNbO/8Keq91+x
+p8A=
+=eanF
 -----END PGP SIGNATURE-----
 
---===============4213504235003462688==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a497bb91fef9-d4115d11b59c.txt
-
-3a11935cd3e8c78a747c3b4144488926f9226329 mm/slab: skip kfence objects in allocation profiling
-a867ffa398f24f22384eb5aa4fac182026b95692 mm/slab: remove objs_per_slab()
-215bb51fff467cdaa40d2df098a62ed2ae3e212d mm: move struct slabobj_ext to mm/slab.h
-b215520d41db22dcac6d10e2e2a757d3433802b6 mm/slab: make slab_obj_ext() determine object index
-060324c5531021f64514a0372790b177eed87559 mm/slab: abstract slabobj_ext.objcg access
-e684ee3bb54084eda60eb3d55e220f70b22b67ff mm/slab: abstract slabobj_ext.ref access
-b5bc35ace2c5c03440fb6fcf09e855a90cd89ffd mm/slab: replace slab.stride with obj_exts_in_object
-f901ed647994859884c89620c26c8092d538af01 mm/slab: change struct slabobj_ext to a union
-fd4b381675990d22f247b7f543c490fc9a1b4af3 mm/slab: introduce slab_obj_ext_has_codetag()
-c68ccf08d4344df2538ab4324befcd3596ba9cee mm/slab: reduce slabobj_ext memory with allocation profiling disabled
-ba27153443d9f12e385411fe6247cce31d725187 mm/slab: add cache_ and slab_needs_objcg() helpers
-72019606720a97b62b3a01ad54f24ff3ca714409 mm/slab: stop allocating objcg pointers when unnecessary
-d4115d11b59c13b84fb908596eee297c06ae9c4a mm/slab, kfence, memcg: completely remove obj_ext for kfence objects
-
---===============4213504235003462688==--
+--===============5002286386520386960==--
