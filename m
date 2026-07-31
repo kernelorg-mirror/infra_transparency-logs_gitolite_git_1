@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1053461593996510721=="
+Content-Type: multipart/mixed; boundary="===============0043767470237548305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 31 Jul 2026 08:59:12 -0000
-Message-Id: <178548835281.3100017.15046139173541843822@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 09:01:25 -0000
+Message-Id: <178548848550.3103040.5787255987802273304@gitolite.kernel.org>
 
---===============1053461593996510721==
+--===============0043767470237548305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 0957fbab972a9499626ac457fd924b24491c6315
-    new: 0641400df7988434b84fc6ce94f9d322202fbeca
-    log: revlist-0957fbab972a-0641400df798.txt
+  - ref: refs/heads/char-misc-linus
+    old: f5098b6bae761e346ebcd9da7f95622c04733cff
+    new: dd7aea9ee2091cfae3a5e376af87aa106d7735cd
+    log: |
+         ab99eaafb0c4b412cfeb895a8cf091626e2bbd86 misc: fastrpc: Fix initial memory allocation for Audio PD memory pool
+         6102ceb4eab845743ee57acd3863fbd06e93c927 misc: fastrpc: Remove buffer from list prior to unmap operation
+         b85a0e91d7d6cd06a53c881a46f749cfcef416a2 misc: fastrpc: take fl->lock when moving mmaps on interrupted invoke
+         310f7868399668c6d99d88acc9c4cf3462e69d5b misc: fastrpc: fix channel ctx ref leak when session alloc fails
+         2fae94ee14f7fea11d3f95e10383a87c01d21518 misc: fastrpc: fix memory leak in fastrpc_channel_ctx_free
+         ff10b6db0ab75b132aed69ab144ac04f63ef9bdb nvmem: apple-spmi-nvmem: wrap regmap calls to satisfy CFI
+         b5be879519291f139fa7b365fd0dbc84710e4919 nvmem: layouts: Add fixed-layout driver
+         dd7aea9ee2091cfae3a5e376af87aa106d7735cd rust_binder: do not query current thread for all ioctls
+         
 
---===============1053461593996510721==
+--===============0043767470237548305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785488339 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785488472 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1785488350-acb1e89ed49f9270927645060130c2f0554bf439
+nonce 1785488483-c23872f29e2d41fd271ba34fcbf0fd170624295b
 
-0957fbab972a9499626ac457fd924b24491c6315 0641400df7988434b84fc6ce94f9d322202fbeca refs/heads/char-misc-testing
+f5098b6bae761e346ebcd9da7f95622c04733cff dd7aea9ee2091cfae3a5e376af87aa106d7735cd refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsY9MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+47QP/RubtJCR7FgKLy302h3Y
-K3VtY1AdTd9aaQNtVNwPqNIQ7ghAi61eh4pctzbF2AQpYKHnXX5OqVMER/mMOwW1
-7WzaHKVogFV9uWmVq98t4n472hCmtjVnKAdY7hI+Ev/+FMCAgLRhUOyXJN3s4ZrL
-wwThf2zUa9A6K4ibZ9l8KETZc4KaAYcJy3wMRqADIdMkRKStCK3sTG3Zb4wHgSFB
-z5qwCl8jbFqYJyDrwjui/fA1eoSX64Gj2DilZmIFdjbDPDDCHE586oBaVb7y7a+5
-N4/mJiL/lA/j5BzRng2J4WYUlLOzf1RbdMqiL60WXRXj7XleMhxz87H2uU8PjIOu
-KtNDFhllPR2DRm9Yl0A/jY5BWSYU2Kn/uifuZi7ioA0PV956hEqvSnfOlx/EO2Ke
-R/ov+QvYv4BQPjBdSSYf5KOK6rWfz80KLZjCyRc91Hxbp81PPyC9h3B+fI1P9C29
-lpL//yXPCp4J+htYI6o3VaDCKSYtMLUQYUg6nBTtyGMBfzYwlg9dpt9T5RbZZGTH
-wMPNqWBLMjxtuClnwW/7141uRqaPr1ZqG7IfnYRf4xPFvkVuxcH4zo5Y03hU0ZMG
-luQ47DAMHM2OPcEea4hkR2Zp549uL54sOvXOzjKxTYO8ck6S29eLXtRICkks4ZiF
-ade3n4byyLJg6mkoDsQDFDeW
-=M+hb
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsZFgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EFwQAMUb4RrKQgP9gpSEQR/o
+8pJ1GLTxcoGYhtjjqanAgDiB/+2EKFtkM/JsqM6tV2fV8huxMdcC5UnI83yRLZhq
+BkZQx2UUGkBfn3DsPDJRY9EQKdAyCA2O8VA9qMHuH/fOz2HdAgBNdc/hxShytxW6
+6Cby55YlhH2x7yoXl8zbfwi04DYBXZiymb3XwH+uRWWzb7XVfxWMzOGbrHXXhkJe
+/dhDuCUn+XATIMhQvjNJdsWh3fmMicF6T9eIRoRTzamla0fGiKNhdUITwgPDwn8G
+Ra2gZi1oUHpNXkhuoRnuCnjwnd3bogD7J9ruyiRHoCFvEcT/wc2ZJPc/fYGEGn9M
+qyrv5Sui7cOQdpMb6DjCFd7L9n3esZPvrDXaO9y0lDjTpO7qKvHyXjtDyz5Xxk32
+QowTjfUZ2G7c/PcGorE+/oN+IOm74sJi6AadYmxfrdxqMxjBU1PmNMgYK4e7ezyZ
+3f9BLI2y14nVTN32qNH6OPkfqSIfHwcYgZOSu4UBXo3hc3n97nTgnd2lFZj3+RnY
+qO6/vBRQshtBDBPD5fHtLqbWYHs5rDz9TO7q0LTHG9zNsaOL8WBHjYrhkmGKvQ/J
+h7FpY6bVPeH7OgoGddhf7zGHlXB/SHOWSTgPqrjUzXr6rCVgRu5T2AEUqIq6SK23
+NzNz3m+OyEOPbzKeKpnpMrN7
+=4ShE
 -----END PGP SIGNATURE-----
 
---===============1053461593996510721==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0957fbab972a-0641400df798.txt
-
-224486f9beb35d8cd9cadd38b16a940c1849da74 misc: fastrpc: Move prints outside spinlock in fastrpc_cb_probe
-deb2635d411841881258134eb5df1f0f45e88af7 misc: fastrpc: Allow fastrpc_buf_free() to accept NULL
-cf8187d5a5a6f6a494d0a193636aa5f7538cadbd MAINTAINERS: fastrpc: remove inactive maintainer and add reviewer
-cf1daa477f7027cf13ff81d961fab68fae0ab5d5 misc: fastrpc: Move fdlist to invoke context structure
-883e3ca210c05849001b58034703490b866fb103 misc: fastrpc: Replace hardcoded ctxid mask with GENMASK
-91485927d63630d5a0dcea767cf2aaf890353a48 misc: fastrpc: Expand context ID mask for DSP polling mode support
-3bbb87d780515672a3155238345b76da0fd0ad7e misc: fastrpc: Add polling mode support for fastRPC driver
-74f250c44505273c8780e3ff2bab5df6dfeeef88 dt-bindings: misc: qcom,fastrpc: Document Nord FastRPC
-2892293ed12644c8b97391e08e687f357e6e3fde dt-bindings: misc: qcom,fastrpc: Add Maili FastRPC compatible
-9997f29eb7fbc78cc148eaf75f39ba64ce362975 misc: fastrpc: Drop unhandled DSP PD exit notification
-6d335d95f0689bc97f82fe045fc36e0caf1a38e0 nvmem: remove unused field from struct nvmem_device
-637dcba0b724338677d5cf87ba64016e57656b79 nvmem: return -EOPNOTSUPP to in-kernel users on missing callbacks
-96e1fc6c600531eab1ebfebfa23fbcabdcbea92b nvmem: check the return value of gpiod_set_value_cansleep()
-c8b97651459f57aaa76bbaaeba3eaaa7df51697d nvmem: simplify locking with guard()
-8533ba732b1a5fae5f09083aa4a4928fd9dedc3c nvmem: remove unneeded __nvmem_device_put()
-32edfe775552d1871c11d5fa814300e8ec5e05bb nvmem: split out the reg_read/write() callbacks out of struct nvmem_device
-b4c746c5d644182560939d22edfd8239f386c9c4 nvmem: simplify nvmem_sysfs_remove_compat()
-dabf5bf8625d0f0e2b5c8a3218ff641e3c965d3e eeprom: move nvmem EEPROM drivers to drivers/nvmem/
-eb4c84e7d11716c8cca78914440af93c05d90fde nvmem: airoha: add ARM64 dependency
-ce767a9ca39098e68a0c547ed3cc9569960eab2e nvmem: brcm_nvram: reject empty NVRAM partition
-5c9a7bd35ca3e3dba50a11203c76d4ab2ceb6eae nvmem: brcm_nvram: fix out-of-bounds access on malformed flash data
-0641400df7988434b84fc6ce94f9d322202fbeca dt-bindings: nvmem: qfprom: Add ipq5210 & ipq9650 compatible
-
---===============1053461593996510721==--
+--===============0043767470237548305==--
