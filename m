@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 31 Jul 2026 16:28:29 -0000
-Message-Id: <178551530950.3455355.1021641718308481749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 31 Jul 2026 16:46:20 -0000
+Message-Id: <178551638025.3469737.5741193824829872196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: af86560d1c2fb7476e2a9d33925a6eaf0292100a
-    new: 1af191c5e5bf6503deda3ae91df873c390d7e6f5
+  - ref: refs/heads/controller/dwc-qcom
+    old: 7b7f5c32762109be07298e7499a251cbf04c3f06
+    new: 65ccb2203ef8919390ccdcbe34ac6f8ec1fee672
     log: |
-         0325393bace65b7b071cc54edc9f91beb2bb84fa review: add "b4 review forget" to erase a tracked series
-         1af191c5e5bf6503deda3ae91df873c390d7e6f5 review: hint at "b4 review forget" when a series is already tracked
+         65ccb2203ef8919390ccdcbe34ac6f8ec1fee672 PCI: qcom: Clear Attention Button Present in Slot Capabilities
          
