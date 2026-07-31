@@ -1,46 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============4076494407339717586=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 31 Jul 2026 14:59:08 -0000
-Message-Id: <178550994836.3381696.17031782974766023440@gitolite.kernel.org>
-
---===============4076494407339717586==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 31 Jul 2026 15:00:49 -0000
+Message-Id: <178551004954.3384308.8799406495063815927@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 37ca612fe6b9c34655e14741464aa5d479b4c54b
-    new: f8c2189fb65f36469bc66661110c27a488c38637
+  - ref: refs/heads/for-7.3/block
+    old: 14b007e178811db72fbb1ebb3535160db6ec1e6a
+    new: 8b5ffb43ae9d27eed9165e1962963d685d879219
     log: |
-         f8c2189fb65f36469bc66661110c27a488c38637 Add new key for Rafael Wysocki (AC2FA78C94A917EC)
+         8ed0831b5263e1aa48d99063795a1f20e4e69b50 block: introduce bio_in_atomic()
+         77e73fa61b3888c9765a549af02c928372522cc9 block: add task-context bio completion infrastructure
+         efbde6f9f449da3306f5b5d32f08829954ffb44d iomap: use BIO_COMPLETE_IN_TASK for dropbehind writeback
+         a2c924c240e74dc2dd14ff763245dc86b93db714 buffer: set BIO_COMPLETE_IN_TASK for dropbehind writeback
+         8b5ffb43ae9d27eed9165e1962963d685d879219 block: enable RWF_DONTCACHE for block devices
          
-
---===============4076494407339717586==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1785509947 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1785509947-f27ba1c490daa172da3ac21012c80782ff171d00
-
-37ca612fe6b9c34655e14741464aa5d479b4c54b f8c2189fb65f36469bc66661110c27a488c38637 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCamy4OwAKCRC2xBzjVmSZ
-bICDAPwO0kzZE6pp8UnHV0b1EzW3y6zxLMk7ulZGISALDeJAPAEA3NQlw1+PXEO3
-6o4IIKmeRa4M88XF0JpYFdowsjWyGQM=
-=mZFZ
------END PGP SIGNATURE-----
-
---===============4076494407339717586==--
+  - ref: refs/heads/for-next
+    old: 34b960ca9504830c1d35bf01e903707ba61764f0
+    new: b36c780ae0038c1a82c4a1eb3a4c81afc5d6312b
+    log: |
+         dcba277d119af323c267d1f27f61b868dac62753 s390/dasd: Fix path verification interrupted by concurrent dasd_sleep_on_immediatly
+         9973026f572db6b67570cadc30942f3014e41079 s390/dasd: Fix potential NULL pointer dereference
+         7f40b346462f563a0d6e841a77b5163d2a882a04 s390/dasd: Fix undersized format-check buffer
+         f7e09ac8d624c97d2af56f29912dac9818d9cca1 Merge branch 'block-7.2' into for-next
+         8ed0831b5263e1aa48d99063795a1f20e4e69b50 block: introduce bio_in_atomic()
+         77e73fa61b3888c9765a549af02c928372522cc9 block: add task-context bio completion infrastructure
+         efbde6f9f449da3306f5b5d32f08829954ffb44d iomap: use BIO_COMPLETE_IN_TASK for dropbehind writeback
+         a2c924c240e74dc2dd14ff763245dc86b93db714 buffer: set BIO_COMPLETE_IN_TASK for dropbehind writeback
+         8b5ffb43ae9d27eed9165e1962963d685d879219 block: enable RWF_DONTCACHE for block devices
+         b36c780ae0038c1a82c4a1eb3a4c81afc5d6312b Merge branch 'for-7.3/block' into for-next
+         
