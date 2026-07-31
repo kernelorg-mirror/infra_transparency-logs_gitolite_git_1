@@ -1,50 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0418269198330522456=="
+Content-Type: multipart/mixed; boundary="===============1543538988460954132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zab/linux-rpdfs
-Date: Fri, 31 Jul 2026 19:42:49 -0000
-Message-Id: <178552696975.3602120.4586564741107051217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zab/rpdfs-progs
+Date: Fri, 31 Jul 2026 19:42:56 -0000
+Message-Id: <178552697693.3602346.18029495836341648143@gitolite.kernel.org>
 
---===============0418269198330522456==
+--===============1543538988460954132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zab/linux-rpdfs
+repo: pub/scm/linux/kernel/git/zab/rpdfs-progs
 user: zab
 changes:
-  - ref: refs/heads/rpdfs-initial
-    old: 8118711fdd31bf974b0488f83b92289fc883070a
-    new: 7dd9571ed4664ad741e8519b4a4369a2d84523f6
-    log: revlist-8118711fdd31-7dd9571ed466.txt
+  - ref: refs/heads/main
+    old: 5acbf75d73d6d002036f3ea8ea620f7ca1ee4564
+    new: 1cca10f55f635b195ce72da3e60218bca8a08e1a
+    log: revlist-5acbf75d73d6-1cca10f55f63.txt
 
---===============0418269198330522456==
+--===============1543538988460954132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8118711fdd31-7dd9571ed466.txt
+Content-Disposition: attachment; filename=revlist-5acbf75d73d6-1cca10f55f63.txt
 
-f6a0ab930579ac372fdbbb8cab6884cb2f208154 rpdfs: add rpdfs_ht_inc refcount helper
-39c1d0626da1ddb966d8b7246cccbb842cf9abb6 rpdfs: add initial rendezvous addr mapping
-30362c06f101e835222ac0dd2777b7e58c29778c rpdfs: add printf macros for new structures
-2145038a33845d55dbbd856a3ab64de08c09be42 rpdfs: update format headers for the refactor
-cc62bdcb71d96120aa9cf805b59cc3a159a36e1d rpdfs: update rpdfs_fs_info for refactor
-a46ee3744c0823203bd2783902eaa8c0ac3ca3ce rpdfs: make mount params visible after mount
-fc41ebdc2049d153917931104fd7d149a732039f rpdfs: add aops for block IO using folios
-77189942bca8d4f8a491268a4669d52f4ba131c6 rpdfs: add rlock code
-bc6c59466912ed0c3e69c4283a40e05484ed517c rpdfs: add ehtable for indexing key-value pairs
-2658c3c902752b51b9bebb9bb36cf7dcde32d28d rpdfs: add meta code for caching metadata
-ca29d34b2ba425ec26d7b54856f8ba86cb233d41 rpdfs: update mkfs
-2f7d4b4295890ece08df31aa8e2d0150594c6c07 rpdfs: update inode code
-ed1091d21e6c33da0b183b2b778209fdfbf14a16 rpdfs: add file read/write operations
-0d000cf6936937d37fbef67d758565e822ce6c02 rpdfs: update dir code
-e12c4458ed9731de225cf33c4ef67c4b2e9e45b0 rpdfs: update xattr code
-007d92272595c74bef214041918d3a13e9b1daf1 rpdfs: remove block granular cache design
-f68bf1f4c728b50e879265c20d0ffbce599b096f rpdfs: remove unused mapping functions
-0e46d98d0b2b59d9299562ffb88d3bd078cf188a rpdfs: add a bdi
-b236b1a6c1ac660444873cce301c8fcdef6c9dc7 rpdfs: put net size checks in recv fns
-7dd9571ed4664ad741e8519b4a4369a2d84523f6 rpdfs: terminate fs_info trace assignment
+7ba998ae46ac85860164037063427530da77c8e9 rpdfs-progs: add rlock server
+ff95c4a3a7a38e657fe4b5fc4e558020fd30f4b4 rpdfs-progs: add memmove_array_tail
+4106041053a822036e9f3b8fbc3ac80b4ef0265c rpdfs-progs: add format support for dev log
+9f47cf0a917fb80a0f428864992b7bc552aa20db rpdfs-progs: add rpdfs_block_key
+458241c3113fe398138ff3eaab2554153b3f2042 rpdfs-progs: add utask waiters wrappers
+ca36712cf23e9ba986b32bbdd59b608f51565377 rpdfs-progs: add simple shared block cache
+afe7b831c36a5e3d73de78c4c32ef4cdcdf2f446 rpdfs-progs: add devd btree
+24ead070ece1f43aaf92e8e04f5529f26c7d1cb5 rpdfs-progs: add the dev log-based storage
+cd78336a59751357d68e23b622a810c288875c57 rpdfs-progs: switch devd to use new protocol
+bbe1dc1556832cec315ea8e036d8ad517aadce2c rpdfs-progs: format-device writes log structures
+6a12d51a457899e9ef9f451eea97bf12442676c6 rpdfs-progs: remove bstore and cache-mode
+86d4fa232720e93646b8f1199819c8fff0f703aa rpdfs-progs: rework hash_table for objs with keys
+3c3a4f08bea3636f08d31c9931bbef49030c0f14 rpdfs-progs: update format-block client changes
+8d45ed99b63705646320af1830b460b0212f9ef8 rpdfs-progs: extend log to write to file
+f71559c4983c170584afb1b47932de9b221b8257 rpdfs-progs: add log file argument to devd
+8094f6e64e9d63db11a319b30c1b36f11b5962c9 rpdfs-progs: add error messages to devd
+2812088e0f8f7cdc3125e199480d168ec72ba4da rpdfs-progs: add printf fmt/arg macros
+1cca10f55f635b195ce72da3e60218bca8a08e1a rpdfs-progs: add crash message
 
---===============0418269198330522456==--
+--===============1543538988460954132==--
