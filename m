@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7307839059452510223=="
+Content-Type: multipart/mixed; boundary="===============1819178960488525594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Fri, 31 Jul 2026 14:38:19 -0000
-Message-Id: <178550869976.3363277.11499107198270433616@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 14:38:33 -0000
+Message-Id: <178550871398.3363557.464243444099010506@gitolite.kernel.org>
 
---===============7307839059452510223==
+--===============1819178960488525594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5c935e90db5acaad10b6a080f956de473e4a9c60
-    new: ab20614793ab50f900e655be38b7b9ab2241fbdb
-    log: revlist-5c935e90db5a-ab20614793ab.txt
+  - ref: refs/heads/m68k-queue
+    old: 597e760bb0d15d7f02f4450c83a93d9cbf48b5af
+    new: ec7f1bebc572fc2e0bb6fa66979ebfa8dd679682
+    log: revlist-597e760bb0d1-ec7f1bebc572.txt
 
---===============7307839059452510223==
+--===============1819178960488525594==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5c935e90db5a-ab20614793ab.txt
+Content-Disposition: attachment; filename=revlist-597e760bb0d1-ec7f1bebc572.txt
 
-4a360c6e18dfa9d70006c7247a6a8cc8dfe0d60f wifi: mac80211: validate deauth frame length before reason access
 521f39ca93cc43ce1b3eae8d44201f8f55dd9151 mmc: sdhci-of-dwcmshc: check bus clock enable result in the probe() method
 04f15d8f393037ed72876399882265604a370b2b ASoC: sof_sdw: Add a quirk for 0x17aa383c laptop using sidecar amps with cs42l43
 4c9854ad3cdc7ce408453207f153bb910cc6f3c1 ASoC: rt712-sdca: reset codec at io_init to fix silent headphone
@@ -1048,7 +1047,8 @@ e6bfeebfe1ada9ebe33daddc35a291be1c98f709 Merge tag 'regulator-fix-v7.2-rc4' of g
 72841e8e8345ebf1005095149cc08eb6e2889a54 Merge tag 'spi-fix-v7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 4235cb24ec1e8e96843f3671ba4da2a6ccca2c7b Merge tag 'vfs-7.2-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f5098b6bae761e346ebcd9da7f95622c04733cff Linux 7.2-rc5
-766717fded16c9cb20323094854c06bc50690d7c Merge tag 'v7.2-rc4'
-ab20614793ab50f900e655be38b7b9ab2241fbdb Merge tag 'v7.2-rc5'
+bb93bd81d35533a247f302b068213df79a3ea5d8 m68k: atari: usb: Add ISP1160 USB host controller support
+654603fd8e624737b65a79905df1cb1f34fa0269 m68k: atari: Update Kconfig.bus help text
+ec7f1bebc572fc2e0bb6fa66979ebfa8dd679682 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7307839059452510223==--
+--===============1819178960488525594==--
