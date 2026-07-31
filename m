@@ -1,57 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============7774242774662667460=="
+Content-Type: multipart/mixed; boundary="===============5945446313634051087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 31 Jul 2026 12:03:47 -0000
-Message-Id: <178549942746.3239296.2576768384215707428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 31 Jul 2026 12:11:13 -0000
+Message-Id: <178549987390.3246428.10136029028079687849@gitolite.kernel.org>
 
---===============7774242774662667460==
+--===============5945446313634051087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/next-test
-    old: b9254d222d0b38cc6f7b73119fad6316f65278be
-    new: fa40f9dbdd4af53e7445d9135b5b207eb8adf372
-    log: |
-         4cc4b586007fbbf8edba4f1d0849e9a06b0cf6c3 powerpc/crash: Fix possible memory leak in update_crash_elfcorehdr()
-         761eda315a6e1fda3e8e2185b28430771fb1ac29 powerpc/kexec_file: Fix null-ptr-def in extra size calculation
-         fa40f9dbdd4af53e7445d9135b5b207eb8adf372 powerpc/kexec_file: Prevent kexec range truncation
-         
+  - ref: refs/heads/arm64/percpu-fixup
+    old: d1bf23b2ad173d4e8810016cbc69f2fb8f33ca93
+    new: f14d3c444eacd9a722e55ff59e30cce2b1ac8985
+    log: revlist-d1bf23b2ad17-f14d3c444eac.txt
 
---===============7774242774662667460==
+--===============5945446313634051087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d1bf23b2ad17-f14d3c444eac.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1785499425 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1785499424-2a22bd0146cd97978ceb9061b2f07aaa7bd46bd4
+cd8f83de33c1bf36a1c25eaa1b7f7865cdf44493 HACK: arm64: Add percpu.c
+4f81978a6273d51b28aea37d1fdf5c614b362e52 arm64: percpu: Fix this_cpu_and() mask generation
+26e7b6240f8752dcc5296850823d8d9c922c70d8 WIP: arm64: cmpxchg: Avoid unnecessary extension of 32-bit 'old' value
+f6ccdd3f1f8acb0cb34a9a6a5da7f041a27ec5b4 arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
+f920d6f0b9418a3bb39e4345324f8305225018c9 arm64: preempt: Treat should_resched() as unlikely
+7adbc7950416ebf597e2975a47183b5663ddc1c3 arm64: ptrace: Always inline pt_regs_[read,write}_reg()
+8ebb6561bd14dc4f75d9695d53bb06b478c885da arm64: percpu: Factor out percpu offset asm
+2d858f13fecbdc4e77ed8e39f0da6b77d05dba68 arm64: gpr-num: Add wxN aliases for wN registers
+e223cb32507e52361a7261c2660f885ab53371ec arm64: gpr-num: add __GPR_NUM() helper
+d025469604aa71ecbd7b251f8a0b620c41ad87c9 arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
+55cddf3387a963a59fa5f7e0df28d64fc2d8aa51 arm64: percpu: Implement preemptible read/write ops
+0eca24d26e11551324d06a696ecbbc093aea4150 arm64: percpu: Implement preemptible void RMW ops
+0c45ca71496c9ebc3f4b2bfebf8425b4266d966f arm64: percpu: Implement preemptible return RMW ops
+519830cffc432bda8645173961a0635bcef0ad1e arm64: percpu: Implement preemptible XCHG ops
+77d5cf0c2a25eeec3bd2e5ade17d5be8b91ea05f arm64: percpu: Implement preemptible CMPXCHG ops
+c74eafc650ad559dff9212f0971c42ee55613343 arm64: percpu: Implement preemptible CMPXCHG128 ops
+f14d3c444eacd9a722e55ff59e30cce2b1ac8985 arm64: percpu: Remove _pcp_protect*() wrappers
 
-b9254d222d0b38cc6f7b73119fad6316f65278be fa40f9dbdd4af53e7445d9135b5b207eb8adf372 refs/heads/next-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmpsjyEACgkQpnEsdPSH
-ZJSyHRAAxNlKweMQEL98u/s9dok/hL1I0zyBvituHIf5W89zuSa3zprm/kHknOAl
-M1WR28tGCuSVGwx/gxkre45+wCdKVlfuW6fsUx+S9nhIy6l79Zl6qysyS+gNpzbi
-sp4F1VDvPwwed6ZOGwCPre5rWSymmstNcURPpyX2rIvVTiAnVUy5/GDbwMZk93pz
-sdjzFAIOx9MvdPtvGU7M00pmeZ0onOmQ+/isZoQRBic2IWESmibWZTd/DhiZmuOu
-/VJaFzcgE/OgWSArg3kqvDO7Vbxkz4bbFQaUmsJlIazwXPcrMVutFT3nYwH4GCn4
-qdLZKNjjep2CmaA0NZAsaqd41Va4BfmNtmjmOAOLfX675xKIPBOdBXH+YDQS48IU
-5oiW1JMBBiu1go1kVIYAoUy/0BpY/zu/yUSW4ImYot5FMwZpxAa7pINA6Hm+OgL2
-AwPo3IdewLSZX+btY4iHETn8lTh/wmhlDlOVPnBlfq3xIJueocGvcvHr9EfIWAVo
-3tzNSv8wOOjthmfDznYRQ6nR0gC2BpyNXY56xzBNOIyn7k2v0xAqykUVoqGUAFEb
-5HJsNuQeXx5GPs3/Mg9DFdIvmBodu8kKRUZnxrd7nTiqykZvOrftJCtU0332bydk
-51P8RxbueK/AATg+pEG74P/11WhZlk+20gB7HZkMetllM1XElLI=
-=B4wm
------END PGP SIGNATURE-----
-
---===============7774242774662667460==--
+--===============5945446313634051087==--
