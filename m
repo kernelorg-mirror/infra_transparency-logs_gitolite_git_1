@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 31 Jul 2026 08:20:13 -0000
-Message-Id: <178548601376.3071439.5846345757054405883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 31 Jul 2026 08:23:44 -0000
+Message-Id: <178548622439.3073105.8746716078332422980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 35d1a6ff4eb4d5f26f415ae71461f90ac24273a0
-    new: d6d4236027e31e9a54fd3916ff130b1d41e78027
+    old: 615fd5657323bae52f295b8ae42aa7572d5735c4
+    new: 50caf961eb20eb7c3556f9c395e0c6a9ea0cb3b9
     log: |
-         2d8d811c789fcc60814d87bf8981d89452e042d1 libfrog: make cmn_err() emit each message atomically to avoid torn output
-         b7876c0e11a36485e2778c7256242fa95be24c94 copy: log the error number when failing to write
-         d6d4236027e31e9a54fd3916ff130b1d41e78027 copy: always align to at least page size
+         314ac2403ac961b1d4aeb2e66d4f881e839ae1b9 dt-bindings: nvmem: qfprom: Add compatible for Qualcomm Maili
+         50caf961eb20eb7c3556f9c395e0c6a9ea0cb3b9 Merge branch 'nvmem-for-7.3' into nvmem-for-next
          
