@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 31 Jul 2026 23:08:22 -0000
-Message-Id: <178553930267.3755663.14442298192962742105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 31 Jul 2026 23:14:44 -0000
+Message-Id: <178553968450.3759768.18415796247972105300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: b77771f71a465271effab0f3d7aa57c85fe6d8e4
-    new: 8152eb52d9a92f02c14e843545acec7ee1946479
+  - ref: refs/heads/tmp.perf-tools-next
+    old: b56de9f26245c45bb5cb140fefd287b371b7e28d
+    new: bec06676f4b2a4276b6277783eb91cd3cffd4b33
     log: |
-         b3feb733f5fde4b9fd14d61c0736d053e1b54efe man/man3/str*.3: NAME: Explain the names
-         7a06ee7f7e761e8655d241fae864f56476624fc0 man/man3/strpbrk.3: BUGS: Clarify the NAME
-         69f0c458bec5303abae433a0e09b84b6b3612081 man/man3/mem*.3: NAME: Explain the names
-         dcd1507df29b94800db01b3ba9e880c02ae4480d man/man3/[b]string.3: Rewrite and merge
-         8152eb52d9a92f02c14e843545acec7ee1946479 man/man4/console_codes.4: Document more xterm codes
+         f2effca1ef5d30b1ead61d74faea5e251f604a26 perf unwind-libdw: Fix unwinding of multi-threaded processes
+         022bcb6ba2d384d772f68477d11b2684afd6e715 perf libdw: Fix outer-frame name resolution and spurious "(inlined)" tag
+         2b8a2e5d424f0b3369054305d0bf6a5b9faee6c1 perf hisi-ptt: Fix PTT trace TLP header parsing
+         d5f9d46232545507c906d0a9626d0d5297d1f753 perf hisi-ptt: Strengthen auxtrace event handling and packet type detection
+         bec06676f4b2a4276b6277783eb91cd3cffd4b33 perf hisi-ptt: Fix spelling and abbreviation errors
          
