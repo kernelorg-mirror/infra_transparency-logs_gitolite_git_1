@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 31 Jul 2026 20:52:28 -0000
-Message-Id: <178553114899.3656968.7803670403623157745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 31 Jul 2026 20:55:02 -0000
+Message-Id: <178553130228.3658015.14172665764614377860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sve-test-sme-only
-    old: 0000000000000000000000000000000000000000
-    new: 84128c40cbf4eaf5218e3bc9e4bcaa01b6f4e89a
+  - ref: refs/heads/asoc-7.3
+    old: a56338f229401cfe5cd485805ef38f44dc1dd516
+    new: cde33309169224df5a8a5200cb9dec8399b366e1
+    log: |
+         cde33309169224df5a8a5200cb9dec8399b366e1 ASoC: dapm: Add encoder and decoder widget types to kcontrol handling
+         
