@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7909702370583696944=="
+Content-Type: multipart/mixed; boundary="===============5878587832212001669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 31 Jul 2026 09:29:51 -0000
-Message-Id: <178549019177.3123424.16894949949227073860@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 09:33:31 -0000
+Message-Id: <178549041157.3126983.6350032098503868397@gitolite.kernel.org>
 
---===============7909702370583696944==
+--===============5878587832212001669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e811152a1de6a33cf5a933770821477757f69f99
-    new: 1ed6b26ef71a7b73838549378e5b0a092089a949
-    log: revlist-e811152a1de6-1ed6b26ef71a.txt
+    old: 1ed6b26ef71a7b73838549378e5b0a092089a949
+    new: 113ddccd039e8bab091f89628421badf5da9ecb2
+    log: revlist-1ed6b26ef71a-113ddccd039e.txt
+  - ref: refs/heads/tip/urgent
+    old: 4b19b6bb71d9abc487d91c13255ffce00500c279
+    new: 930b2c21b96ca9725b738b0783688a4403f37572
+    log: revlist-4b19b6bb71d9-930b2c21b96c.txt
 
---===============7909702370583696944==
+--===============5878587832212001669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e811152a1de6-1ed6b26ef71a.txt
+Content-Disposition: attachment; filename=revlist-1ed6b26ef71a-113ddccd039e.txt
+
+cd23f9a4393def17bca8edfaec507dda039bfe4f Merge branch into tip/master: 'perf/urgent'
+0c869da856847f17215c74d87800d1ca595e8364 Merge branch into tip/master: 'sched/urgent'
+930b2c21b96ca9725b738b0783688a4403f37572 Merge branch into tip/master: 'x86/urgent'
+001776db1a9fe5a5b55254ad841bcb9cc20ad3cb Merge branch into tip/master: 'x86/merge'
+d04c8af1142e1a5fa83fb23af276ebc2843e39ce Merge branch into tip/master: 'perf/merge'
+e2a4fed53394caa6c09c802fa013b6565897b9c7 Merge branch into tip/master: 'core/entry'
+4ebf75b57d71f70ceb65574a7928d04bab6d63ba Merge branch into tip/master: 'core/rseq'
+26bb4a35b0aa3789f681a02b41c935be18873b2b Merge branch into tip/master: 'irq/core'
+16538a96698f8765d5c09579941cde5e5a1b6c74 Merge branch into tip/master: 'irq/drivers'
+9ddc198abbeb7c55f45475cf1728c15b684fc526 Merge branch into tip/master: 'locking/core'
+d1f7045efa264a140d14817464843d45be2659a8 Merge branch into tip/master: 'locking/futex'
+5ac430e2554d984d8d0207a24e53bb87faf0afd6 Merge branch into tip/master: 'ras/core'
+f6c964fa94016a5f556fec08965140dda6767544 Merge branch into tip/master: 'sched/core'
+a2f9fcd7d7a1610ff937993c8b431d3967ce135d Merge branch into tip/master: 'smp/core'
+8f4f33926e40500d70fec9c23a303013fd6c87cd Merge branch into tip/master: 'timers/core'
+9bf9e528a90a63e9db5fcf862ee922c4a603c19e Merge branch into tip/master: 'timers/vdso'
+33cb377ed619907826523ca4719a98b8c88ceb9d Merge branch into tip/master: 'x86/alternatives'
+e4b77f7d941b0b78fc3ce31a56e3e4dc956d46ae Merge branch into tip/master: 'x86/boot'
+69089deec9006f6537654921c8d887859c7ad4ac Merge branch into tip/master: 'x86/build'
+1b4de3eb467f12aadc2434af0fb17e508379a83b Merge branch into tip/master: 'x86/cache'
+b96caec91667910812ae684fab1a02ce85bf713c Merge branch into tip/master: 'x86/cleanups'
+773951c12a287484b128851d7662d44052890f0b Merge branch into tip/master: 'x86/core'
+92bdc8cea8d58f81933ad6637d2a04ac50bb895b Merge branch into tip/master: 'x86/entry'
+0e2603a5ded93bf99120a665514f41be0522783f Merge branch into tip/master: 'x86/misc'
+9374e8bae478a7eded8d87ca08de0d2dfc013319 Merge branch into tip/master: 'x86/mm'
+113ddccd039e8bab091f89628421badf5da9ecb2 Merge branch into tip/master: 'x86/tdx'
+
+--===============5878587832212001669==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4b19b6bb71d9-930b2c21b96c.txt
 
 ba5c0f28a26e7d9be1e0997f8920dd638e2782fd iommufd: Fix wrong hwpt passed to iommufd_auto_response_faults on replace
 5f3fc0ad9a41883a62098359b9fdbe4257f20e53 iommufd: Reject DMABUF pages from the access pin path
@@ -246,14 +283,13 @@ b96890b3e5e0995a4bcf731bb9d6af2bbdf8ec42 Merge tag 'powerpc-7.2-3' of git://git.
 110b5cdd5b72bcef01b8d4dfe45d922bdd16de0e Merge tag 'gpio-fixes-for-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 2812e64e1575e05500a35c405aaa6e99b7d7930b Merge tag 'net-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3708dd9488440e35a165aee2bb2a1a7b1d0d5777 Merge tag 'pm-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-474a57058e84c05665c3ffbe7953fab56c032f0d futex: Prevent robust futex exit race more
 9e2e9da4de7518f65063607209744e5b77dc0450 Merge tag 'audit-pr-20260730' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 e05b559f9cda350d0ab33c44a8c1151ca62d2875 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 a11f030c83e6a13f99645e3f4b24befa4bf9efea Merge tag 'for-v7.2-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 8ba098e6b6ff0db8edf28528d1552be261af30d4 Merge tag 'v7.2-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 cc679d7a6303e84d769f2afcde1fc51c51f127cd uprobes: Fix NULL pointer dereference in hprobe_expire()
-91fd18e0b69aa23b551502fec3912ec251664a1c Merge branch into tip/master: 'perf/urgent'
-2b6eba7283f45e2e45e02eb08306e79c4b12a4b5 Merge branch into tip/master: 'locking/futex'
-1ed6b26ef71a7b73838549378e5b0a092089a949 Merge branch 'linus'
+cd23f9a4393def17bca8edfaec507dda039bfe4f Merge branch into tip/master: 'perf/urgent'
+0c869da856847f17215c74d87800d1ca595e8364 Merge branch into tip/master: 'sched/urgent'
+930b2c21b96ca9725b738b0783688a4403f37572 Merge branch into tip/master: 'x86/urgent'
 
---===============7909702370583696944==--
+--===============5878587832212001669==--
