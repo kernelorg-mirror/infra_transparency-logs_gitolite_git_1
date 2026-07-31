@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8678927512126438822=="
+Content-Type: multipart/mixed; boundary="===============7776731114061849648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 31 Jul 2026 14:29:29 -0000
-Message-Id: <178550816941.3354482.10411272254780337631@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 14:29:32 -0000
+Message-Id: <178550817259.3354591.7745394032639372657@gitolite.kernel.org>
 
---===============8678927512126438822==
+--===============7776731114061849648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 0c39e2f552f5e16be695cec3a1c77d6a6bf086bb
-    new: 9e25ce807d1c5df0fb7ec68cc9eb4253ac4bd055
-    log: revlist-0c39e2f552f5-9e25ce807d1c.txt
+  - ref: refs/heads/mm-unstable
+    old: 7ac819a245c1204288c02b6d645462dd279758c4
+    new: e0722b3da834dc2eba3b0aec1b48af0df0e1b9c5
+    log: revlist-7ac819a245c1-e0722b3da834.txt
 
---===============8678927512126438822==
+--===============7776731114061849648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c39e2f552f5-9e25ce807d1c.txt
+Content-Disposition: attachment; filename=revlist-7ac819a245c1-e0722b3da834.txt
 
 2817eaec9cfa3f819427be11abf11d11b8f6dd71 mm/damon/core: use kvmalloc for target regions array
 e214b3d81ac7f3353639df6dfa3d6947053f825d mm/damon/stat: use secs_to_jiffies() instead of msecs_to_jiffies()
@@ -531,12 +531,5 @@ de947ea99602a1c2a67f4cd172bd593c6687ce2c mm/zswap: support batch writeback in sh
 8331ac9dad3652cbc7d2abe098a88cdbe0c16b00 zram: validate deflate params
 f9aeb59c6f1b74237e996f137b97c92f557ac882 mm: memcg: stop reclaim when a limit update is superseded
 e0722b3da834dc2eba3b0aec1b48af0df0e1b9c5 Documentation: zram: correct algo parameters configuration documentation
-e3f6f3a1c71e93d178494d1c97697b14ad0dfeb4 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-8dec3a262d2fc4f7f187340cea6624c60dbc8271 mm/page_alloc: boost watermarks on atomic allocation failure
-a832918b5a3123c9cdaea9b703361775433e4d9d memcg: bypass the reclaim and oom killer for dying tasks once oom_reaper is done
-c37a18f687c06da0ceda9d34e1326be02d9176f3 mm: use proper PTE accessor in move_ptes()
-16821063c370c1fed56ff2afd9ae311f3e205da8 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-82b2638f3b96a2aa82305c99950522a5f8844c0d mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-9e25ce807d1c5df0fb7ec68cc9eb4253ac4bd055 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8678927512126438822==--
+--===============7776731114061849648==--
