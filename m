@@ -1,47 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============2834645890446708072=="
+Content-Type: multipart/mixed; boundary="===============0439170353050978361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Fri, 31 Jul 2026 12:22:50 -0000
-Message-Id: <178550057083.3255512.2865493386173319202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 31 Jul 2026 12:27:53 -0000
+Message-Id: <178550087338.3259274.8945095542773482125@gitolite.kernel.org>
 
---===============2834645890446708072==
+--===============0439170353050978361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-steve
-    old: 6fdaab4e163609772bcc617b052a62435e89d77c
-    new: 8129d3fc1b3afd8a84a03e3b9ad66f17c1986ffe
-    log: revlist-6fdaab4e1636-8129d3fc1b3a.txt
+  - ref: refs/heads/char-misc-testing
+    old: b187532ac6dba56df9367ae7698001b4623d4cba
+    new: 9bcb5dbf0d0284c982613ebce7d2fda726159589
+    log: revlist-b187532ac6db-9bcb5dbf0d02.txt
 
---===============2834645890446708072==
+--===============0439170353050978361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fdaab4e1636-8129d3fc1b3a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d9e4c61a12dd4ac58a780bc8a6b3bb1a9a8e2120 rv: Use generic rv_this for the rv_monitor variable in LTL
-bc4eca3f24e2806c0117215c671013f5297141b6 tools/rv: Fix exit status when monitor execution fails
-c737b725b1ac601816dab5c5072f80ddd413aa6e verification/rvgen: Improve rv_dir discovery in RVGenerator
-85b43f84547c5c33d86d022c886b34c670262cc1 verification/rvgen: Use pathlib instead of os.path
-0ab69fdd4384138c63794788ed1c29c31f1923e0 verification/rvgen: Improve consistency in template files
-92f0ce55299082a37ac88c12b552059b278afcbf tools/rv: Add selftests
-522b9d8a0ee8d4a6f9d1655cb242afcf93a3e3b9 verification/rvgen: Add golden and spec folders for tests
-3d89f060c82131ca3e5f38cd713668cb72fb2806 verification/rvgen: Add selftests
-f578cec247ccf3347ff97f681cd8ee3ef71be947 verification/rvgen: Add the rvgen kunit subcommand
-2627d2b723f285d3aaa9146bf6754d33cb3cf8e8 verification/rvgen: Add selftests for rvgen kunit
-43d488cfada0132f2a514d5d47841a84aebb3a52 rv: Export task monitor slot and react symbols
-55a1ce2b20422e7956277207cbefb437801b3528 rv: Add KUnit tests for some DA/HA monitors
-02ee235ea237e43e4edb926a774a4ff8139f58a9 rv: Add KUnit mock for current
-990846227e116e69ae91d91b1c7b7786e3f51856 rv: Add KUnit tests for some LTL monitors
-4404917dee6344142751feaa1d2bcb9b43f48e12 selftests/verification: Fix wrong errexit assumption
-f923d7ae82ac1f92a276067a254a8eb951e4f9c2 selftests/verification: Rearrange the wwnr_printk test
-8129d3fc1b3afd8a84a03e3b9ad66f17c1986ffe selftests/verification: Add selftests for deadline and stall monitors
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785500859 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1785500871-7c4b4e436149a396957785a60e2f941558f6e455
 
---===============2834645890446708072==--
+b187532ac6dba56df9367ae7698001b4623d4cba 9bcb5dbf0d0284c982613ebce7d2fda726159589 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpslLsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qqoQAIfMZHVssDOZ1vPSO4ri
+XI0PWiyO5Uky130S9Kjmkq6g5iIaY86xUSGaLdGqYlfImhpB0tUqM3nU9L11Ip+D
+a1ALv7xLRv6acZN3VWUqrMlY8yzHpPvWEr4dFaBDO/fbDbFTF6VVyUSvqhVUdxTR
+4GfL3p0JOUxhnGvVoj7pS7rArg6iBD+1gd1LKNsVrRs9KKsvAB7Rs8+sLbWYQ7r1
+bkKmNRHKv2IFN4xJTWIQ6o1bvqdeX2GgiwvCFTqfdqxzeNsK2PFQZIGTnSzx8P/A
+RMnjUt3j7yJzwjcWYS89dS1QzxRUP/y0X38y0phyQB0lPzyEKfuFocM/jhUJ/o6D
+IfRbYoosmevfIT+CY8v36ezDx7vXWvKfOIgHUOVW3uUbv+edHTb3u4P3cZ7znLE+
+5znS7YY+67mR0UKYQ/7PouFpVnLcj3sugK5j5gbzKCxYug0GCNtILQ2WKtoOQ/vl
+dlhLRzuNhMFl0JVPTUJ/NOrd/e1895qpHPAN9/31p4sU/hRtMKSxU6AoCt773xrQ
+UZyFak4/GnickU1AR1YiNcNWUvlxNEJCKeb7RxIREGSxesjpvvsnDZ5Zd7e2KyDE
+bjZvMRg1SwHEFyZyU7BBuLWMz8h1rDAChQIpuWfDMMw4V8dWv4cN2krMM2yRZBxW
+ArUHkDlywwQ+J+UaMVfF118d
+=xhfP
+-----END PGP SIGNATURE-----
+
+--===============0439170353050978361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b187532ac6db-9bcb5dbf0d02.txt
+
+4eb0946caf764350e0787fc6fbefe260ed949873 misc: Drop unused assignment of spi_device_id driver data
+125e27168b7866eff0f1b709adc9e7dddef7c738 misc/pvpanic: Drop unused assignment of acpi_device_id driver data
+f21139e60b515d14fecb98344913a0cc35a8e2bc misc: genwqe: Drop unused assignment of pci_device_id driver data
+230cb31dc3cb8163772fe7c47440227d5285f1e4 misc: eeprom: Use named initializers for arrays of i2c_device_data
+a4fa3300f02e2c47ccd3ff95b364256782576320 misc: Use named initializers for arrays of i2c_device_data
+3e97a4e171abe676dd6018ad4aa6170e68b87b85 misc: Use named initializers for arrays of spi_device_data
+3cd092ac5508993dc98bcf7ae32aea578cae9640 misc: mei: Use named initializers for acpi_device_id array
+14e8c32dbc6b0b60f199074a887c4298890b9fd7 misc: mei: Use named initializer for platform_device_id array
+a503587751651b23461646c91f7ee6d1d3cd8ff0 misc: ibmvmc: Use named initializers for vio_device_id array
+50b712469c068a960e3b5cb24e5a007852824847 misc: eeprom: idt_89hpesx: Unify style of of_device_id array
+6658673030d3c90038ddac0ec6ec40e2cc889ded misc: Unify style of of_device_id arrays
+f06bae4ddc70db7ccd3c434b4ef8f40b478ae955 misc: Unify code style for various *_device_id arrays
+c8295feb756f5e3ccf02c14a90a2ee0aed95e409 uio: fsl_elbc_gpcm: use platform helpers for resource and IRQ
+63d436b42395d714c3a1c55e0c42733a26673460 EISA: Use str_plural() in eisa_probe()
+6f4acc3a3c300e174e3f586b97b04ed8f5948c36 cdx: Fix double free when sysfs file creation fails
+284497419abd878994f0e0bdda962758f0a568dc issei: Fix size_t printk specifier in heci_{write,read}_buf()
+9bcb5dbf0d0284c982613ebce7d2fda726159589 misc: hisi_hikey_usb: remove untested role-switch driver
+
+--===============0439170353050978361==--
