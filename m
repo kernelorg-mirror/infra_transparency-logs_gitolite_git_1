@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 31 Jul 2026 15:53:35 -0000
-Message-Id: <178551321531.3427904.15682627503086306960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 31 Jul 2026 16:00:06 -0000
+Message-Id: <178551360697.3434012.5056856081367676839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 71bb0c13dbe2cfee7500c483d3fa51491118e291
-    new: baad247dc5ca9e22cb910e68ffbc679f5bb27415
+  - ref: refs/heads/pending
+    old: 8f0bca918dacbd48a69a180eed7597fdd24c14c1
+    new: 4db873154316312aa0eb4e2b6a789a46fd65a344
     log: |
-         51618a6c7eb7647af1fdff291ded56c19148fe9b dt-bindings: display: solomon,ssd1307fb: add SH1107 compatible
-         baad247dc5ca9e22cb910e68ffbc679f5bb27415 fbdev: ssd1307fb: add support for Sino Wealth SH1107 controller
+         2b3922b3f7fae030d68b201d38cb4d0cb6950f82 wifi: ath10k: filter non-UTF testmode events
+         4db873154316312aa0eb4e2b6a789a46fd65a344 wifi: ath10k: snoc: use memcpy_fromio() for MSA ramdump
          
