@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 31 Jul 2026 15:46:14 -0000
-Message-Id: <178551277421.3423655.3623599875763148642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Fri, 31 Jul 2026 15:53:35 -0000
+Message-Id: <178551321531.3427904.15682627503086306960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 66c4f11a250d340cde40c2108a060f9ea4c41846
-    new: dc15652b92a8772a6d6a07b1d18ea88cf0b826d3
+  - ref: refs/heads/for-next
+    old: 71bb0c13dbe2cfee7500c483d3fa51491118e291
+    new: baad247dc5ca9e22cb910e68ffbc679f5bb27415
     log: |
-         dc15652b92a8772a6d6a07b1d18ea88cf0b826d3 ASoC: SOF: Intel: hda-stream: clear hstream->running flag in hw_params
+         51618a6c7eb7647af1fdff291ded56c19148fe9b dt-bindings: display: solomon,ssd1307fb: add SH1107 compatible
+         baad247dc5ca9e22cb910e68ffbc679f5bb27415 fbdev: ssd1307fb: add support for Sino Wealth SH1107 controller
          
