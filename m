@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5407735886007942142=="
+Content-Type: multipart/mixed; boundary="===============8520547665954002928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 31 Jul 2026 01:52:55 -0000
-Message-Id: <178546277512.2733987.1945998046700373314@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 01:53:13 -0000
+Message-Id: <178546279399.2734295.14706825252641970258@gitolite.kernel.org>
 
---===============5407735886007942142==
+--===============8520547665954002928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.3
-    old: c3ac0aa6c3100f973b44bb0b0882f435075ed215
-    new: c50ed4627e333934aaf0473a822169786c83dce5
-    log: revlist-c3ac0aa6c310-c50ed4627e33.txt
+  - ref: refs/heads/for-next
+    old: cc334c1a2ff7a9e90fdf4a1180577600d4dea0e6
+    new: d64a540488ff2153c033c317d4e41cf7e6c686e0
+    log: revlist-cc334c1a2ff7-d64a540488ff.txt
 
---===============5407735886007942142==
+--===============8520547665954002928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3ac0aa6c310-c50ed4627e33.txt
+Content-Disposition: attachment; filename=revlist-cc334c1a2ff7-d64a540488ff.txt
 
 30df43c14050365b8e26ea428b75b0d33de77fdb ASoC: stm: stm32_adfsdm: Drop redundant error message
 a6cdfb6230944082e7be64f9166eed64656b1162 ASoC: stm: stm32_i2s: Drop redundant error messages
@@ -61,5 +61,6 @@ a0acf55be73414db280372e2ad5aae705b9de403 ASoC: Intel: catpt: Streamline runtime-
 4075b9d256ef5c22688e2ae812c1b89ac791182a ASoC: Intel: catpt: Streamline control-variables naming
 cd88e3d3e1ad570d69a89508b08906346c696aa7 ASoC: Intel: catpt: Code cleanup and renames
 c50ed4627e333934aaf0473a822169786c83dce5 ASoC: SOF: ipc4: Add decoder for RESOURCE_EVENT notifications from firmware
+d64a540488ff2153c033c317d4e41cf7e6c686e0 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
 
---===============5407735886007942142==--
+--===============8520547665954002928==--
