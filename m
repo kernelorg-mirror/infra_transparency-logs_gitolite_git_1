@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 31 Jul 2026 00:49:39 -0000
-Message-Id: <178545897902.2680648.1150656656558346151@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 01:03:57 -0000
+Message-Id: <178545983700.2695033.6112915133955899362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
   - ref: refs/heads/for-7.2
-    old: d0ecbedd6a70f2fe768d46de740265dc8a4424e3
-    new: 0c0e418dbcf0582bf80d8dbfd9b306607c065992
+    old: 0c0e418dbcf0582bf80d8dbfd9b306607c065992
+    new: e780e4917d43683224812400fe3dc4816fceba75
     log: |
-         0c0e418dbcf0582bf80d8dbfd9b306607c065992 ASoC: SOF: ipc4-topology: Refresh copier IPC payload before widget setup
+         ae63720dd7c3647d64f7a85e5e1870f90eb569d6 ASoC: SOF: topology: Use acpi mach from the machine driver
+         e780e4917d43683224812400fe3dc4816fceba75 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
          
