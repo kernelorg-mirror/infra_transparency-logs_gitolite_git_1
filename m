@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4389247398721370229=="
+Content-Type: multipart/mixed; boundary="===============6261745859763272206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 31 Jul 2026 13:03:44 -0000
-Message-Id: <178550302410.3288379.12328550023572171004@gitolite.kernel.org>
+Date: Fri, 31 Jul 2026 13:04:34 -0000
+Message-Id: <178550307471.3289005.17463054763199411296@gitolite.kernel.org>
 
---===============4389247398721370229==
+--===============6261745859763272206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/module_ver_remove
-    old: 601eaeeca7f930d15030838e6256ff251ee36745
-    new: 78e121554a150dc8d6eb9322d4a5bc5a832cf7f6
-    log: |
-         4dcabd14eb05da4657a1d7b8fe0d691ad682c35d module: remove MODULE_VERSION() and srcversion
-         12055ac308134ce47ee3c5ab2cb74e9435ba9305 module: remove MODULE_VERSION()
-         78e121554a150dc8d6eb9322d4a5bc5a832cf7f6 module: remove srcversion module attribute
-         
+  - ref: refs/heads/module_version_removal
+    old: e018a50606c880e97bf32cea31c727fc705bdea1
+    new: 0000000000000000000000000000000000000000
 
---===============4389247398721370229==
+--===============6261745859763272206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785502997 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785503062 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785503008-7aa643b1744bacc6b20f59a527ce1f1b09bce2cb
+nonce 1785503073-02f52ac77fbac00ce3beeb4e58e2a9562aaf344e
 
-601eaeeca7f930d15030838e6256ff251ee36745 78e121554a150dc8d6eb9322d4a5bc5a832cf7f6 refs/heads/b4/module_ver_remove
+e018a50606c880e97bf32cea31c727fc705bdea1 0000000000000000000000000000000000000000 refs/heads/module_version_removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsnRUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uMQP/i9F0GvAZtxgSmJ/JNJw
-UqNnKE83jtmbm1TVouu7RK4deB6MtK6MnLb//H2ATIq1Gg5pdbeBq/4bkkm7WgdT
-6tN0N57BGsTWJrqz12lKDqz5t49oDASHRKFjO1I61cQaifQHzMVHL8GiRK+eCRPz
-hEAfSgma9zn74PduDNC4K4EDeXKb8tpDpHBbxdMdLvnqjjWII0/nxDtWs9H1PQgc
-J+qzn2B1s6bwzFY6e3cnL81wd83zTcGNWsZrpmmrhNtTYHq6+bSikc4SQQQZGaki
-I2XxeDUFB5RzPsK2adQkIObzyB27ZsCboOj8UKCaNXoLi8Yy7ibwLic+LDEopOP0
-LS2E0Tl6gHDz8FLk8RlHHkF0+PemU++49RoQomZT4FwCH+zhkOHLNROlWAa8C7qB
-rGgZLWATBkD2FhZzZKxpeWhMJB+pDFV+VqcS0+Aq9yss1p15+Fg9P2cu6SRx2CJb
-3LEflgEK+3xypX2hB+rLXevxnQ1icZCxVIIGxL+zsJbLXVxYuJZ5iyf7bDYbOcBS
-yqmAYRsq8CyQDqQ2PakyX6uAjUQJJF3PFxY83yZ86r1vAJLefvM9KUlswOaTxCcA
-DIGm3uRPSVtaHYwsbgMHeLsJKqmWJyp9yjZLg7fampEHCl1kaiXSBVTyXig6MrOT
-++5pdZz4TuccbKz2VW7zBKxI
-=hXKI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpsnVYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+REkQAJG8ii862hA8PqAky0C4
+bp8y5KwO5lVfOVz+Yq8ZqVbmRVbvyboGM3twzkJVj5tv2Psuv70NqXLDcjE+faBO
+2FAWwleLf5WTEZaHm+lDtNTp5OdZohgo+OVuM9ON4b1DNNz0GLMSm0mNUJIdatOV
+ODKDEJmDGKGWhN0wirZT8LnpgBPd2H3MMfv5Y5OWPpPhJGeT8XGs0k0KpASE09uZ
+rvdCtYuUK/9hRBTCdRLKRCRNgn6kYfZ/RKr4ZAMuL6Hw/N0ZTztm0f32l75JFh/J
+G243r5QwiXDkLm5AJve+/ENEl6eOuGWrSBSWGY/avj5BItegz0lnbI0DeFOPcCwJ
+0bIBKe/gvfyBQ8LJW84PZOBE2AgSBRted8DyTb1ap0woPcag35k6bRqNFMWgbJUI
+vQxiT/p2/hNlFqFqdgOHQjiD+gZUsUZEmuVL/xtiaCSU77FIoK9mb2r6QkkOPHKl
+TrIya751w3WtKeuPl5neDL961oIku9wh1C3tIuRkcbyogdRhHjv0k4ABFTP+4u2v
+19NCra4NogDckb7EXf+pqM8cJdPpObZEjn6O6zFUIoPTFz6lK8ZLHtFHu3sFBTSt
+A7ISpe73x0SS4R1D6FAMh55meLJoy1014l2GG1iQU2PAqXIZh87WHHt7Is9ehZ9s
+3GbYMzLzmdm77EkkGDkRqDRw
+=4PzN
 -----END PGP SIGNATURE-----
 
---===============4389247398721370229==--
+--===============6261745859763272206==--
