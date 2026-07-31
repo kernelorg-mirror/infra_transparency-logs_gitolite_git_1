@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 31 Jul 2026 00:38:19 -0000
-Message-Id: <178545829954.2672521.7826196469930744238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
+Date: Fri, 31 Jul 2026 00:41:14 -0000
+Message-Id: <178545847462.2675784.18303147581589384599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/mdraid/linux
+user: yukuai
 changes:
-  - ref: refs/heads/for-7.3
-    old: 875e906efdc4e68025c97aaa8e258d9e1fc1ba2e
-    new: c3ac0aa6c3100f973b44bb0b0882f435075ed215
+  - ref: refs/heads/md-7.3
+    old: 3fe5b7c9fb72ccc29bfd0f955b124892af7e3674
+    new: fe8d6b0187469c91d57dbc25ece5b503bfb3bc26
     log: |
-         3906ea776a08d13bd5ef221b1d8112a49988c644 ASoC: tlv320aic32x4: remove global header with platform data
-         5143ae134636577d45de02de925da9f640259e6b ASoC: tlv320aic32x4: do not allocate gpio config separately
-         4ef61518b03d32bea9b13728eebb0673aeeee52d ASoC: tlv320aic32x4: consolidate programming functions
-         2ba6a4dba620bcee0f2210f532b25510a0872cf1 ASoC: tlv320aic32x4: move regmap_config into i2c and spi drivers
-         dfefa7dc25ee58a38b3a6d8777ba952cda5aeaac ASoC: tlv320aic32x4: do not make clocks bulk data static
-         e86ba7c5f24fd0346284f96093aebc128859eb31 ASoC: tlv320aic32x4: factor out rate configuration helper
-         c3ac0aa6c3100f973b44bb0b0882f435075ed215 ASoC: tlv320aic32x4: clean up driver code formatting and logging
+         c7d34d17ea43ebc86b45d439ebb435e11ca44bca md: recheck spare changes before starting sync
+         86d801e895b853667a886918998e1628fcc3174e md/raid1: restrict atomic write limits and handle runtime constraints
+         3409bf2f9678d769a4c33bd232a3571c51fac481 md/raid10: consistently fail atomic writes that require splitting
+         addb977450a662e1961d272b6ebfcb477d115044 md/raid10: remove unnecessary barrier around bio_submit_split_bioset()
+         6bc3deb600ee8c234204c6f4ea703ee04a11de2f md: widen badblock sectors param from int to sector_t
+         798d79a7e4b04819a8ee575e5e1911215489e2ae md: suspend array when sync_action=reshape
+         8e9171decb5ed5c3fe0430a559f45ca556e94d26 md/raid10: resize r10bio_pool for reshape
+         fe8d6b0187469c91d57dbc25ece5b503bfb3bc26 md/raid10: free r10bio before ending master_bio in raid_end_bio_io() and raid_end_discard_bio()
          
