@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 01 Aug 2026 00:17:54 -0000
-Message-Id: <178554347460.3810320.7559455082676239067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Sat, 01 Aug 2026 00:20:10 -0000
+Message-Id: <178554361085.3813019.15574174564297971135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: ba8615b3bdb2bf9d8dff15bca125e935ed49c882
-    new: bae33ec381a257a93d2b81df7329735ec2fedfd9
-    log: |
-         bae33ec381a257a93d2b81df7329735ec2fedfd9 ASoC: qcom: sc8280xp: add Monaco/Monza (MAX98090) support on QCS8275
-         
+  - ref: refs/tags/ntfs-for-7.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 507bff9b818ee6ba60c8137f63169f805d3a25d6
