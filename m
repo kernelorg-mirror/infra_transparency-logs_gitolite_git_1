@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 01 Aug 2026 01:30:33 -0000
-Message-Id: <178554783363.3866119.6387593802019952719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 01 Aug 2026 01:30:34 -0000
+Message-Id: <178554783406.3866186.12869227986598536730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: f2e88029e97150fda6ed60061ce7258e1e3a0ad7
-    new: e966b5c21c74ddb512a49fba3d71d8a1bd8d49ec
+  - ref: refs/heads/main
+    old: f307a7dc32097c11413178fca437a10d20890bc2
+    new: 43e970d961ad3cc0c23e89db255c7fa4a353eff9
     log: |
-         5ba35dea3f4683795a3d0ecc26ffef39c4d070d4 patches/next: unurgent patch: wordsmith commit message
-         e966b5c21c74ddb512a49fba3d71d8a1bd8d49ec patches/next: unurgent fix: write commit message for pageout skip fix
+         1c4dac9bf1d2ac31da63b794bdec697777cbd0fd devlink: fix net namespace reference leak in reload
+         43e970d961ad3cc0c23e89db255c7fa4a353eff9 net/mlx5: SF, Handle function changed event
          
