@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Sat, 01 Aug 2026 12:55:14 -0000
-Message-Id: <178558891439.209155.10526704658275424774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Sat, 01 Aug 2026 13:02:30 -0000
+Message-Id: <178558935024.213776.13606239477888253126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 06e4e0a9a86ace73d23e06d646c6b8c139e84473
-    new: a282daa40bc3439b20b95f51f04e1cce52588ee6
+  - ref: refs/heads/next
+    old: b4c1bfc231521b627214bf654417bfef3721da79
+    new: 44e4ec1a802d2078743f7a77f46af3e2213a3b4e
     log: |
-         a282daa40bc3439b20b95f51f04e1cce52588ee6 amd-s2idle: Flag ASPM disabled via pcie_aspm=off on the kernel command line
+         44e4ec1a802d2078743f7a77f46af3e2213a3b4e efi: apple-properties: validate setup data header length
          
