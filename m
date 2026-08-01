@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 01 Aug 2026 00:15:45 -0000
-Message-Id: <178554334580.3809464.1206489337879861807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 01 Aug 2026 00:17:54 -0000
+Message-Id: <178554347460.3810320.7559455082676239067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 63488dba65ef91373ef616575b32eb0eb21459f4
-    new: 653d7ddf6cba867777a3d14c4f83ace008c5ad13
+  - ref: refs/heads/asoc-7.3
+    old: ba8615b3bdb2bf9d8dff15bca125e935ed49c882
+    new: bae33ec381a257a93d2b81df7329735ec2fedfd9
     log: |
-         653d7ddf6cba867777a3d14c4f83ace008c5ad13 inet: frags: publish queues before arming timer
+         bae33ec381a257a93d2b81df7329735ec2fedfd9 ASoC: qcom: sc8280xp: add Monaco/Monza (MAX98090) support on QCS8275
          
