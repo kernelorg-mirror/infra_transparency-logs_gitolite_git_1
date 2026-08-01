@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 01 Aug 2026 01:39:46 -0000
-Message-Id: <178554838682.3871957.2592340779303894304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 01 Aug 2026 01:40:05 -0000
+Message-Id: <178554840556.3874172.11631143864469772391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: bae33ec381a257a93d2b81df7329735ec2fedfd9
-    new: f82522bb52108ad62e1528914d3355048d143f8f
+  - ref: refs/heads/master
+    old: fe28d4a05072bdd0f71e69e34bda6dfff748026e
+    new: df6f16472a45966aa0e18cf9ed40752c5fce57f1
     log: |
-         f82522bb52108ad62e1528914d3355048d143f8f ASoC: qcom: sc8280xp: add Monaco/Monza (MAX98090) support on QCS8275
+         181b643efaa11f4be410e861bc16143162c541ce Drop selftests-ftrace-reset-triggers-at-top-level-before-instance-loop.patch
+         df6f16472a45966aa0e18cf9ed40752c5fce57f1 Fixes for all trees
          
