@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2081738271277792088=="
+Content-Type: multipart/mixed; boundary="===============2993457563695344299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 01 Aug 2026 16:03:09 -0000
-Message-Id: <178560018932.342840.15715813407811349375@gitolite.kernel.org>
+Date: Sat, 01 Aug 2026 16:03:11 -0000
+Message-Id: <178560019189.342959.13078781669346834943@gitolite.kernel.org>
 
---===============2081738271277792088==
+--===============2993457563695344299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a8efbe7d22d1d32bb8a5fab8c132bd7f31864735
-    new: 1dbd7c34bb92dd9c0b0363b75f6ec444299af108
-    log: revlist-a8efbe7d22d1-1dbd7c34bb92.txt
+  - ref: refs/heads/mm-unstable
+    old: 742d350ba5e25bb9d5f4afa28043a5a0a60f46b8
+    new: 94f9b3980dd446b56acf1dfed649e9b32a9f3813
+    log: revlist-742d350ba5e2-94f9b3980dd4.txt
 
---===============2081738271277792088==
+--===============2993457563695344299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8efbe7d22d1-1dbd7c34bb92.txt
+Content-Disposition: attachment; filename=revlist-742d350ba5e2-94f9b3980dd4.txt
 
 9876ffe70fa3ed94362e299b62faafd280484c5c mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
 821ef7d9f2c68cf89ba71bb3e3299ac3f147782b mm/ptdump: always stabilise against page table freeing using init_mm
@@ -423,27 +423,5 @@ eab53018f9e77e909f74a8f9b0ded434fda69abe Documentation: zram: correct algo param
 7451c4b0d1b59a46dde8cd3a46ffd0405380d761 mm: use proper PTE accessor in move_ptes()
 1843a6ac66cdd60cc7fd6c982439e95f200cebc0 hugetlb: only adjust reservation during unmapping if mapcount is 0
 94f9b3980dd446b56acf1dfed649e9b32a9f3813 mm/page_reporting: Add page_reporting_delay_ms module parameter
-9a565336ca52e5b74bd08a2832e3354ed9e0656d mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-8d84a8802db232a96dc6ec026cc8b903424b06a5 sh: remove CONFIG_NUMA and related configuration options
-f0ba496f6d745a171828ec2293a06e5798638a8d sh: mm: remove numa.c
-485da7cf87d5d778851d950921ef22bf46103390 sh: mm: drop allocate_pgdat()
-e7f5aaf3ae0da7ef2b4d9fef0f96acdef2bb9231 sh: remove setup_bootmem_node() and plat_mem_setup()
-92f7bd32f57246ea82a3990674666c1d49a3bd81 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-a82907c2ceaa1de3986500a5c06576154526a24b sh: drop include/asm/mmzone.h
-8896ac5a05cdb13f03cc88aa6047a110464e0be3 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-556f8b0dce1b571ca8820dfe82c7777a419f1b15 sh: init: remove call the memblock_set_node()
-fae698d41efbfaf2d882657b25351a31ef330d0d sh: remove SPARSEMEM related entries from Kconfig
-7d37eac783bc1122569109230ba97321c015be09 sh: drop include/asm/sparsemem.h
-99cf84da3838f1613deed700ddfb033163b28106 mm/sparse: correct init section annotations
-fb5f5ffdda56d6c68df6525f9df444a6feb66c90 mm: zswap: drop list_lru param from zswap_lru_add() and _del()
-456ffaf73a94b813da2b38bdc1b3642b3f327499 mm/migrate_device: clear stale mapping after freeing swapcache
-b8efbd3ce934213cc55fc018e24c7bb6f70adce6 mm: shmem: reject page-aligned fallocate end overflow
-2299f4baa184f0387ddd410ea7dae8efd2e791c0 mm/huge_memory: use folio's memcg inside __folio_split()
-15df3e239c7aa68ccba23d6f3ceb76d31e1b8f4b xarray: honor XA_FLAGS_ACCOUNT in xas_split_alloc()
-7fa9c260aad6683b23c3c863b1d0f79ab63c1bfb mm/swap: reject swapon() on filesystem-level encrypted files
-3e23dc76217c601c05d5f07b96250d98a14af63f mm/gup: fix always draining LRU caches in collect_longterm_unpinnable_folios()
-cc007fed44a92acaa2e414264994f56fa32b14ea mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-6a70f71b393e99a63796da30aebea4782b2283aa mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1dbd7c34bb92dd9c0b0363b75f6ec444299af108 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2081738271277792088==--
+--===============2993457563695344299==--
