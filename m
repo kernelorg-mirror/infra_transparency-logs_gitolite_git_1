@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 01 Aug 2026 01:30:34 -0000
-Message-Id: <178554783406.3866186.12869227986598536730@gitolite.kernel.org>
+Date: Sat, 01 Aug 2026 01:32:48 -0000
+Message-Id: <178554796802.3867565.4815905058622039026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f307a7dc32097c11413178fca437a10d20890bc2
-    new: 43e970d961ad3cc0c23e89db255c7fa4a353eff9
+    old: 43e970d961ad3cc0c23e89db255c7fa4a353eff9
+    new: af39eb111ce6b5eba9c08513b62c4868eb7e7fd5
     log: |
-         1c4dac9bf1d2ac31da63b794bdec697777cbd0fd devlink: fix net namespace reference leak in reload
-         43e970d961ad3cc0c23e89db255c7fa4a353eff9 net/mlx5: SF, Handle function changed event
+         af39eb111ce6b5eba9c08513b62c4868eb7e7fd5 net/mlx5: fw_tracer, return NULL on create error
          
