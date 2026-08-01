@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 01 Aug 2026 08:42:58 -0000
-Message-Id: <178557377842.39281.5130888913990264309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Sat, 01 Aug 2026 08:43:12 -0000
+Message-Id: <178557379201.39665.3472163560339064169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/scx-rescue-v1
+  - ref: refs/tags/i2c-fixes-7.2-rc6
     old: 0000000000000000000000000000000000000000
-    new: 685795f097eb81035cc1ce0f3da8af846fb4e38c
+    new: a08617f91f69c780d62de0c6d5fbfb3caac8a426
