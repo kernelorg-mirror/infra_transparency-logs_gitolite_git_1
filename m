@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Sun, 02 Aug 2026 02:23:43 -0000
-Message-Id: <178563742382.777601.7063256449031933664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 02 Aug 2026 03:16:42 -0000
+Message-Id: <178564060273.816852.11164276183015503000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/spacemit/linux
-user: dlan
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/spacemit-dt-for-7.3-1
-    old: 0000000000000000000000000000000000000000
-    new: fb6cf6add4c01e752cabd2a7da551c7b2edd376b
+  - ref: refs/heads/master
+    old: 7e00201606ee37da1687241bd6dbe19729638f6b
+    new: b51643fffe8090bef86b6c39f87d5c98622f522b
+    log: |
+         b51643fffe8090bef86b6c39f87d5c98622f522b drop 22 patches based on RC review feedback
+         
