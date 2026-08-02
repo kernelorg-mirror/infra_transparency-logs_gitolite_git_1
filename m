@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============5482455501894303266=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 02 Aug 2026 14:53:03 -0000
-Message-Id: <178568238385.1308172.8532794284613275415@gitolite.kernel.org>
-
---===============5482455501894303266==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 02 Aug 2026 15:07:47 -0000
+Message-Id: <178568326783.1318750.3769036052136909111@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,29 +12,16 @@ repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
   - ref: refs/heads/fix-p2p-acs-v1
-    old: aaec2b13371c3c62fe07251c5446b12cd2c8bedc
-    new: e447227172a2c190e3bccf327c8ca02aeb347552
-    log: revlist-aaec2b13371c-e447227172a2.txt
-
---===============5482455501894303266==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaec2b13371c-e447227172a2.txt
-
-0d2579f938ce741f09afc119cb3a1479cdbc5706 PCI/P2PDMA: Fix ACS egress control handling
-75e3f2d4cb04faf4c419c1fe56939f08288fad42 PCI/P2PDMA: Safely terminate ACS redirect lists
-19c4b7058fc30fcf31973b28d3ba338ead098ed0 PCI/P2PDMA: Report ACS ports when the paths share no upstream bridge
-f6835da84ada9167ec48699b5990100b1771d6c7 PCI/P2PDMA: Document the Address Type assumption
-78147230caac40cea7f88b5c7bb0c774299556ce PCI: Account for Direct Translated P2P in ACS isolation checks
-e2e167d8504f4acb009ddfdcacfb76763240da7e PCI: Add ACS egress control vector accessor
-52538b85287105ab90dc80afb6b5cdbbb1a2b120 PCI: Account for ACS egress control in isolation checks
-b836dbbdb65a685e8322f1d475279cea0b0e909e PCI/P2PDMA: Derive peer-to-peer routing from ACS control bits
-2aabd66fe79337c0a0f2893d4a1af6920eb82925 PCI/P2PDMA: Honor ACS egress control vectors
-580789bab95bd84e1dbc5aa7cab6764abdbc8186 PCI/P2PDMA: Document ACS egress control handling
-6a11db80110195340427066a42acc924020fff98 PCI/P2PDMA: Extract pure ACS routing decision helpers
-5ed25481e0ecd7887a3211209e95eec2c79925ec PCI/P2PDMA: Add KUnit tests for ACS routing decisions
-ee17c55540abd8e62635e68fbb2fe95b600e020c PCI/P2PDMA: Add KUnit coverage for the ACS P2P routing walk
-e447227172a2c190e3bccf327c8ca02aeb347552 PCI: Add KUnit coverage for ACS isolation checks
-
---===============5482455501894303266==--
+    old: e447227172a2c190e3bccf327c8ca02aeb347552
+    new: 8c71cb6870bf4bf5b5ca8c2dc79214a9fa737418
+    log: |
+         9f3442636dea0e95f94e68658cff2eaaf99e2206 PCI: Add ACS egress control vector accessor
+         58ea35f1ff962e2fd227b628cffae3abf3aa943b PCI: Account for ACS egress control in isolation checks
+         18a69871de0c0df9e211cfc808a491bdf46581bd PCI/P2PDMA: Derive peer-to-peer routing from ACS control bits
+         ed809b407c4640535a6f958e9c57155e7be64040 PCI/P2PDMA: Honor ACS egress control vectors
+         f58d705ee27664826eb381d508e11c27d5bc2e3d PCI/P2PDMA: Document ACS egress control handling
+         32e8a8fee98c36ad2e61072acac084cc53ce11b2 PCI/P2PDMA: Extract pure ACS routing decision helpers
+         7682d59d05c916078aa8147e2c99655d67ef36cc PCI/P2PDMA: Add KUnit tests for ACS routing decisions
+         5f782b5db38c21e64528a9aa225e9d032fff02d7 PCI/P2PDMA: Add KUnit coverage for the ACS P2P routing walk
+         8c71cb6870bf4bf5b5ca8c2dc79214a9fa737418 PCI: Add KUnit coverage for ACS isolation checks
+         
