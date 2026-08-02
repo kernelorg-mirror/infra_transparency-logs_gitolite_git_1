@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 02 Aug 2026 16:38:40 -0000
-Message-Id: <178568872025.1384642.8891746154209852085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Sun, 02 Aug 2026 16:39:51 -0000
+Message-Id: <178568879129.1385212.5073281911179391943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/kvm-arm64/vncr-fixes-7.3
-    old: 9ac8a8c4092888fc6a8212521a33bca3dd008edf
-    new: b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c
-    log: |
-         0158a71f0c0a8b84a3a14c42d4954a95276067ac KVM: arm64: Handle VNCR TLB invalidation race with vcpu_put() VNCR unmapping
-         d0f1d0efef9d2634d6a52b9c1e134742786dc6b1 KVM: arm64: Sign-extend VA for range-based TLBI invalidation
-         abd115a8e3356d6614cb495bbee07a912976819d KVM: arm64: Make VNCR invalidation participate in MMU invalidation retry
-         b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c KVM: arm64: Add VNCR TLB tracking again
-         
+  - ref: refs/heads/for-7.3/arm/core
+    old: aa5d0900ee9d5772a23316ef129d3c29b497d721
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-7.3/arm64/dt
+    old: 2aedc7afffc61449ddd44bf2a4b3195729cb46ac
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-7.3/dt-bindings
+    old: f63ecc70c341682f2f78403be84069876d3eac0c
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-7.3/soc
+    old: 97ffe9cb67ccafb4644f820ef68662217b76c224
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-next
+    old: 48713e5ff96a2c04286071a2136455545e4c72a5
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
