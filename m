@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Sun, 02 Aug 2026 12:49:00 -0000
-Message-Id: <178567494008.1219924.5397278947054160593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 02 Aug 2026 13:49:17 -0000
+Message-Id: <178567855785.1261676.616105196766763861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/counter-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 353b2e09f44a91e64c6b8117df46b6999c52e465
+  - ref: refs/heads/kvm-arm64/vncr-fixes-7.3
+    old: 9ac8a8c4092888fc6a8212521a33bca3dd008edf
+    new: b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c
     log: |
-         505d48c93896948c9a430fa96a303af114566db9 counter: stm32-timer-cnt: Remove redundant dev_err()
-         ccd73fc6fbd775b4981855717f85b769f0cf4f59 counter: ti-ecap-capture: Remove redundant dev_err_probe()
-         353b2e09f44a91e64c6b8117df46b6999c52e465 counter: ti-eqep: Remove redundant dev_err_probe()
+         0158a71f0c0a8b84a3a14c42d4954a95276067ac KVM: arm64: Handle VNCR TLB invalidation race with vcpu_put() VNCR unmapping
+         d0f1d0efef9d2634d6a52b9c1e134742786dc6b1 KVM: arm64: Sign-extend VA for range-based TLBI invalidation
+         abd115a8e3356d6614cb495bbee07a912976819d KVM: arm64: Make VNCR invalidation participate in MMU invalidation retry
+         b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c KVM: arm64: Add VNCR TLB tracking again
          
