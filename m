@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Sun, 02 Aug 2026 07:36:29 -0000
-Message-Id: <178565618923.999689.14517857928269188893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 02 Aug 2026 07:44:43 -0000
+Message-Id: <178565668398.1004279.10112573143952049302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: b9fc5a1742b0c8fb7edf066cc17fa0b18b7be623
-    new: b58afc8d1cf85688601b8d7e271125fff666f661
-    log: |
-         b58afc8d1cf85688601b8d7e271125fff666f661 tools/nolibc: add support for Alpha
-         
+  - ref: refs/tags/perf-urgent-2026-08-02
+    old: 0000000000000000000000000000000000000000
+    new: dbe19ebf8c3f5651a5424f1541bc792bb44173ae
