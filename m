@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1949638368476723007=="
+Content-Type: multipart/mixed; boundary="===============8637574842126749010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Sun, 02 Aug 2026 10:46:07 -0000
-Message-Id: <178566756731.1133861.1136116230008854535@gitolite.kernel.org>
+Date: Sun, 02 Aug 2026 10:46:46 -0000
+Message-Id: <178566760611.1134254.8035614215402212163@gitolite.kernel.org>
 
---===============1949638368476723007==
+--===============8637574842126749010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/liveupdate/linux
 user: rppt
 changes:
-  - ref: refs/heads/kho-scratch
-    old: eb7145b5cb2a5e981860eaf80ae4417a9666c301
-    new: 6106b1bc175dc91cc2f584bc4149411809580bc9
-    log: revlist-eb7145b5cb2a-6106b1bc175d.txt
+  - ref: refs/heads/next
+    old: 5d2f217b8c3cd1edb89b75f835ed41ae3bf8cb37
+    new: 5ab8d80d42bd2bd95865bd7b94790bd9c8d1450e
+    log: revlist-5d2f217b8c3c-5ab8d80d42bd.txt
 
---===============1949638368476723007==
+--===============8637574842126749010==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-eb7145b5cb2a-6106b1bc175d.txt
+Content-Disposition: attachment; filename=revlist-5d2f217b8c3c-5ab8d80d42bd.txt
 
 90941d9c925d66a482c9121919ec3546a6988c16 netfilter: flowtable: use correct direction to set up tunnel route
 a2f57827bf7c695b8c72dc4511cae8e86582369d ipvs: reload ip header after head reallocation
@@ -310,7 +310,6 @@ d35e236282992e583ed9c1b7ab52e9ef1b873585 partitions: aix: bound the lvd scan to 
 daff723f2d4c618d5f9186a990f47bf75878abeb block: do not warn when doing greedy allocation in folio_alloc_greedy()
 e144887d3ae659dd3510bc177977e9864f964197 Merge tag 'linux_kselftest-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 37e2f878a7a660a216cc7a60459995fefd150f25 Merge tag 'linux_kselftest-kunit-fixes-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-4416f8a9ed5f49256dc69c664f1386b496ca16a1 liveupdate: fix GET_NAME ioctl argument validation
 a3d6d3cedfe87bbd5a677d52b22ac20d28e59cf8 ALSA: hda: codecs: hdmi: disable keep-alive before audio format change
 ac1e8d01f4ea0d4a5739c6f40b07484c6385cfbb ALSA: hda/realtek: Add inverted LED quirk for HP ZBook 8 G2a
 25f744ffa0c8e799e06250ce2e618367b166b0d4 KVM: SVM: Bump asid_generation on CPU online to avoid ASID collision after hotplug
@@ -1050,5 +1049,6 @@ da87b17bcdda075b5e943df1f2974a276364a03f kho: extend scratch
 be597412f8673d5317eb903e7e5d88de8019e154 memblock: add memblock_reserved_hugetlb_size()
 2b811cec35ea00254eb422afb43aef6af1b5c3c9 kho: exclude hugetlb memory from scratch size calculation
 6106b1bc175dc91cc2f584bc4149411809580bc9 Merge patch series "kho: make boot time huge page allocation work nicely with KHO"
+5ab8d80d42bd2bd95865bd7b94790bd9c8d1450e Merge branch 'kho-scratch' into next
 
---===============1949638368476723007==--
+--===============8637574842126749010==--
