@@ -1,74 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============5621931030517349267=="
+Content-Type: multipart/mixed; boundary="===============7843089539584336073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 02 Aug 2026 17:51:55 -0000
-Message-Id: <178569311550.1438482.939690953366980979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Sun, 02 Aug 2026 17:54:39 -0000
+Message-Id: <178569327949.1439518.16594188027590666681@gitolite.kernel.org>
 
---===============5621931030517349267==
+--===============7843089539584336073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/master
-    old: 2d2338c93da79b3bfe4b6099a931d9468d539952
-    new: bd1dde877520385f6638af2d0f2bd4f212eb8f34
-    log: revlist-2d2338c93da7-bd1dde877520.txt
+  - ref: refs/heads/export
+    old: ca43dbbb8a8abda8ead4866bfd62b06bdf1c7d08
+    new: ff8e53068f03a934be5192cdcad821833c10136a
+    log: revlist-ca43dbbb8a8a-ff8e53068f03.txt
 
---===============5621931030517349267==
+--===============7843089539584336073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d2338c93da7-bd1dde877520.txt
+Content-Disposition: attachment; filename=revlist-ca43dbbb8a8a-ff8e53068f03.txt
 
-9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
-ab1150115e68a46b687eb38c1ab92782018c9f2c dmaengine: sun6i-dma: Fix reclaim descriptors while terminating DMA
-ec2d428b2e32dd157de8f86a86dd85c5b2c8f45c dmaengine: idxd: fix double free of wq, engine, and group structs
-ee1d7274102285d78a53161fc705a8d8cd40b066 dmaengine: idxd: fix fdev setup failure cleanup in idxd_cdev_open()
-867621ba203027338b525af6729719c544135336 dmaengine: qcom: bam_dma: Fix command element mask field for BAM v1.6.0+
-361f533a2dce2c2841fe4dc0c9d85a67117edf95 phy: qcom: m31-eusb2: Fix return value of init call
-be2b5b17b7053fee142939076746d26b2d6c9702 phy: rockchip: naneng-combphy: Always configure SSC spread direction
-e4779e2a16d600892aaf743438f6ce8cc4eb3c4c phy: zynqmp: fix clock error handling in xpsgtr_phy_init()
-f3506e15cf72e94f62d5f2d173e5b7008f644cde phy: zynqmp: fix runtime PM leak on probe allocation failure
-6cb22477929489a412df8d153e550e77a012e701 phy: zynqmp: fix L0_TM_DISABLE_SCRAMBLE_ENCODER mask
-21e0749f931702765b9d52d05740092bc87fcd8d phy: zynqmp: use read-modify-write for SERDES scrambler bypass
-7eb61caf45607e1e1270f51f8f93f0ded53146da phy: zynqmp: keep SERDES scrambler and 8b/10b enabled for USB
-98b87885de4b7f605533a2860685f5689fce8e82 scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer
-c1dea15f819cded9b3faf58f8bec72323568b6e6 scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer
-3dbbbf656b850c9c8de05df6ad4a1dfc6ff02845 scsi: libsas: Fix HA resume deadlock and hisi_sas disk-wake race
-4d5282c06ca198319c2de41b10511ddcb8068f42 scsi: ufs: dt-bindings: Add missing mcq reg for qcom,sa8255p-ufshc
-d568a43f6dbba3ba006304d95fd09862bd482a2f afs: Fix afs_fs_fetch_data() to set call->async
-222052c6be186f2074b3a4d741d5de200f654c43 afs: Fix afs_fs_fetch_data() to subtract transferred from len
-4af1ec68d54b3871155914d584fb10669c41a861 afs: Fix UAF when sending a message
-2c1766964cd10455c6065498862273b93f0d0117 Merge patch series "afs: Miscellaneous fixes"
-a81fc9266e1c5fef9ccf675a9b44b2f4ab464923 netfs: clear PG_private_2 on copy-to-cache append failure
-37a1c535c80c67d98668d190c7432f9ebda43310 netfs: handle single writeback rolling buffer allocation failure
-87eb3d272dcbcbbfe5c1576c10e5dc72810cf1f6 netfs: release readahead folios on iterator preparation failure
-1d78d56c43ef3768183e8370e7367b162700e049 netfs: Fix folio_queue ENOMEM in writeback by adding a mempool
-3a91b494fda793663df19ed318fa9aa69088d5ef Merge patch series "netfs: Miscellaneous fixes"
-79055d82772b9584f259b747fe40ff56a076678d binfmt_misc: don't let an 'F' entry pin its own instance
-5d03425c63b4def9d4309b6f35de7449cce2b287 Merge patch series "binfmt_misc: don't let an 'F' entry pin its own instance"
-db1856ea9196cf6e015d12199a34c0b9313c7bfa binfmt_misc: restore write access when removing an entry
-fa5990ca8fd917003e526036bcc50413edb9722c binfmt_misc: use exe_file_deny_write_access() for the interpreter clone
-8e85d50ba1117fd446bf9a250bd8a97d48384bdc binfmt_misc: reject a flag character as the field delimiter
-b8206f516fe7cbe785cf44bf09c17c438d7c3cad binfmt_misc: don't leak the user namespace when the mount fails
-9c33222bd387312874fbe36ca8002e5c945b9653 scsi: target: iblock: Fix wrong PR ops NULL check for PREEMPT/RELEASE
-93dde0bf2f39a0f9f57fd610aa3201ce5b753433 scsi: scsi_debug: Fix REPORT ZONES alloc_len underflow OOB write
-f71b4a30983b846b4075bf544e835121e70e6a43 scsi: ufs: core: Cancel RTC work in active-active suspend
-8a309036f557d3ff4efb2beea5132ba91172d934 scsi: ufs: core: Revert "Delegate the interrupt service routine to a threaded IRQ handler"
-b601fa590e667bd9643feed8c869b6b3e418480d scsi: zfcp: Fix memory leak during adapter release by destroying gid_pn_req
-a8ddfd2425bbbafadae8700d63ed8a61a4109878 scsi: target: Clear cmd_cnt when initial counter enrollment fails
-ccff8c92571500fcfed21281e33daaf645bf692f scsi: mpi3mr: Fix potential deadlock in mpi3mr_fault_uevent_emit
-0279fd451a9971c0d5b959fc59f3e11b55e1694e scsi: ufs: core: Initialize hba->rpmbs list in ufshcd
-c679ce3be6cb63763d68ab9b5d9d73ddc0a40762 iomap: add a separate bio_set for iomap_split_ioend
-40814468ee62a9156f18afba3c958d45e102f89a Merge tag 'phy-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-49c9f4657b2d584690b050169b646cbcee6e7958 Merge tag 'dmaengine-fix-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-a84c804215062d17c14141988ff3c69af961b49d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-bd1dde877520385f6638af2d0f2bd4f212eb8f34 Merge tag 'vfs-7.2-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+f0377cd8fdbe2952195ea02da5abcfd60ac4e112 DO-NOT-MERGE: git markup: net
+dbaa661e44059603d054846d3255d99860eb61a4 DO-NOT-MERGE: git markup: fixes other trees
+6ba0e6fdb2d429454dadf36a32a7664b75f11488 mptcp: fastopen: only mark MPTFO subflows with SYN data
+2f04b4ddc4958d09b6dd82be48d6ed1d2d018b7e mptcp: pm: fix data race in add_addr timer callback
+d1b13dc9aa70722a3905562bad96ebf8148941e2 selftests: mptcp: join: mark tests with data corruption as failed
+0a858d45d75fb0dac776319756b622c834cdfeb0 mptcp: reclaim forward-allocated memory on RX path errors
+c589bcbee0076e8a29c82668062070ee3eb28cfb mptcp: avoid combining some incoming suboptions
+4dd0e3bf1cf8eda5a5ea6451357ef94047b6fc8b mptcp: pm: fix memory leak from alloc-during-teardown race
+fdcbbe5d63ac0cec2434888ac9451c6d565435df DO-NOT-MERGE: git markup: fixes net
+c9c738de94d38ac9ff5c733488b79b15d2d045e7 DO-NOT-MERGE: mptcp: add CI support
+2462c7b641079804e598d0f3f12a79c0e187338f DO-NOT-MERGE: git markup: end common net net-next
+8e72de7d89b478b48018e0c23d0172bbfad4c8aa TopGit-driven merge of branches:
+fd01641a7751877cb77f604ca79cbbb2af314b95 DO-NOT-MERGE: git markup: net-next
+18258edce2d271056b5489385ff963e8b3fb7645 DO-NOT-MERGE: git markup: fixes net-next
+710f9d5d30eda7390a135dce8d6cf1a200abb44b mptcp: pm: init and release mptcp_pm_ops
+86527009fca8a49d259aaba9c80b8d4cae7b187e mptcp: pm: add get_local_id() interface
+1da035704ad47cb825c280d08f6f1217c0a48f16 mptcp: pm: add get_priority() interface
+cef6d9da164f3536d7cc3d80aa6a1494661be358 selftests: mptcp: connect: test name in pcap file
+9569367702359473e0ea8179e281dd6caa810d9c selftests: mptcp: simult_flow: test name in pcap file
+0cae81c5e17f64fcb65640060c61b573941aa642 selftests: mptcp: pcap: drop most of the payload
+3d2cf9f070786896cbae7b5fa041b1192561f18c mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
+76afc7e71a8876416de3d32f231382af7bae2193 mptcp: remove unused data_ack from struct mptcp_ext
+e4888717824f017c0b1ea3cf7cf264e850de0d67 mptcp: move the retrans loop to a separate helper
+68c3a346e2ff27ffb2e5fe923817f06c7683a391 mptcp: let the retrans scheduler do its job
+2f0cb73a433713cd296512c27e4f2d8339fd078f mptcp: explicitly drop over memory limits
+c1b08f49ab5e52f3131e2872df3f7e393825e08f mptcp: enforce hard limit on backlog flushing
+8594ffe93b11d77678ed8b54389cec8f210e9ae3 mptcp: implemented OoO queue pruning
+e80632ca4fae78fed9d5e4e6cb82d107fe429f34 selftests: mptcp: fix const qualifier warnings in strchr usage
+16ab032766c3053b9379bfd2274971e75dce5681 mptcp: support MSG_ERRQUEUE on the parent socket
+abafb7ded9cbd7007de3ab5bebe8c821d01ec70f mptcp: sockopt: factor inet_flags propagation into a mask
+9f867018c037f6f6e9256db790629b8306aa4245 mptcp: propagate RECVERR sockopts to subflows
+bc45ba6d6743975e2b8f24929ddf4a12059b3dad selftests: mptcp: cover IP_RECVERR sockopt propagation
+3f7bedb609cfb2a2a4b6c8cf391df8d9863042d5 selftests: mptcp: diag: fix stack buffer overflow in get_subflow_info()
+9ba570635e3ba40fdb07c4d426ba24c1eb5d0fbc DO-NOT-MERGE: git markup: features net-next
+d45552263977993e4f936d6a3e3cdf34d1fe420d DO-NOT-MERGE: git markup: features net-next-next
+2c7b4b0365d795526393fb498ec77e4d51512ba2 bpf: Add mptcp_subflow bpf_iter
+9380762245ad69de1965e1d414487caa80852944 selftests/bpf: More endpoints for endpoint_init
+e72bfd2dc5bba5f9e45e27a20cd17304d664abd3 selftests/bpf: Drop cgroup_fd of run_mptcpify
+8ee18d70e6ae43d57cecf2fa405a1bdfd8d39b3f bpf: Add mptcp packet scheduler struct_ops
+21a581f06f5e6a7b8256b90a590633dfb8fdccbe bpf: Export mptcp packet scheduler helpers
+7ceea19b1977771cac8f30fe3bb8d055b69052a0 selftests/bpf: Add bpf scheduler test
+ec20225c3c4289eb51064e579d738219f96e2fa0 selftests/bpf: Add bpf_first scheduler & test
+a86c54b75dcba6ef278a8106f04c039df8f03707 selftests/bpf: Add bpf_bkup scheduler & test
+7bdf3022bb24d3d2041617e7fd2ae4e6171ec1e8 selftests/bpf: Add bpf_rr scheduler & test
+a1b0c3901c19d81b7fb393bd6139fa2888ebcc60 selftests/bpf: Add bpf_red scheduler & test
+318a9db7454888efa6e8858464a872a179293e81 selftests/bpf: Add bpf_burst scheduler & test
+43d377c39c3967a4ddce27965ac41220f65d60e5 DO-NOT-MERGE: git markup: features other trees
+75b9bd619337c12f0a5b2dc82c033ccdfed4a78b DO-NOT-MERGE: mptcp: improve code coverage for CI
+ff8e53068f03a934be5192cdcad821833c10136a DO-NOT-MERGE: mptcp: enabled by default
 
---===============5621931030517349267==--
+--===============7843089539584336073==--
