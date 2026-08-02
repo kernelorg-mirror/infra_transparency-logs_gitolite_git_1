@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sun, 02 Aug 2026 20:11:19 -0000
-Message-Id: <178570147924.1539130.13226601180481190268@gitolite.kernel.org>
+Date: Sun, 02 Aug 2026 20:18:29 -0000
+Message-Id: <178570190990.1543632.1856291723787471324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,17 @@ repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.3
-    old: ee7aece608178e322ba150a73613ebace31df885
-    new: ea1d489c6dabf9c099b7b3dd359acf7091cd34d5
+    old: ea1d489c6dabf9c099b7b3dd359acf7091cd34d5
+    new: c5b9316cf3d5371d53022352c7c9d248e14b801f
     log: |
-         c4238d225fe01db78d2839bec972d33c9129d662 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
-         ea1d489c6dabf9c099b7b3dd359acf7091cd34d5 sched_ext: Set errno on ENABLING -> ENABLED transition failure
+         680e0718b9f0b9f3067b2c3947088c2878f55442 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
+         c5b9316cf3d5371d53022352c7c9d248e14b801f sched_ext: Set errno on ENABLING -> ENABLED transition failure
          
   - ref: refs/heads/for-next
-    old: 51e77c08590159771d439d3a99c43834053b0b6c
-    new: b8909b401fedd99d53cbd9c015c63c2b6fc178f7
+    old: b8909b401fedd99d53cbd9c015c63c2b6fc178f7
+    new: 28f8a8e15781501f76fde10f3710283c11616253
     log: |
-         c4238d225fe01db78d2839bec972d33c9129d662 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
-         ea1d489c6dabf9c099b7b3dd359acf7091cd34d5 sched_ext: Set errno on ENABLING -> ENABLED transition failure
-         b8909b401fedd99d53cbd9c015c63c2b6fc178f7 Merge branch 'for-7.3' into for-next
+         680e0718b9f0b9f3067b2c3947088c2878f55442 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
+         c5b9316cf3d5371d53022352c7c9d248e14b801f sched_ext: Set errno on ENABLING -> ENABLED transition failure
+         28f8a8e15781501f76fde10f3710283c11616253 Merge branch 'for-7.3' into for-next
          
