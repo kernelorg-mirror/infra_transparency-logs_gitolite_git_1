@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Sun, 02 Aug 2026 19:51:21 -0000
-Message-Id: <178570028102.1524763.17895646802045417644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sun, 02 Aug 2026 20:11:19 -0000
+Message-Id: <178570147924.1539130.13226601180481190268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.3
-    old: ae649c9636244a7529a1559c143d4ce9c5da62fa
-    new: 77bc7e952f660a7bab9741fe352f960f3675a650
+    old: ee7aece608178e322ba150a73613ebace31df885
+    new: ea1d489c6dabf9c099b7b3dd359acf7091cd34d5
     log: |
-         77bc7e952f660a7bab9741fe352f960f3675a650 selftests/cgroup: add user_usec sanity check in test_cpucg_nice
+         c4238d225fe01db78d2839bec972d33c9129d662 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
+         ea1d489c6dabf9c099b7b3dd359acf7091cd34d5 sched_ext: Set errno on ENABLING -> ENABLED transition failure
          
   - ref: refs/heads/for-next
-    old: 287640bd35c179475aac5647b47e6f29d90d5c3d
-    new: 365d4b75e1ac510ddcb10740725168ad7a1a72ec
+    old: 51e77c08590159771d439d3a99c43834053b0b6c
+    new: b8909b401fedd99d53cbd9c015c63c2b6fc178f7
     log: |
-         77bc7e952f660a7bab9741fe352f960f3675a650 selftests/cgroup: add user_usec sanity check in test_cpucg_nice
-         365d4b75e1ac510ddcb10740725168ad7a1a72ec Merge branch 'for-7.3' into for-next
+         c4238d225fe01db78d2839bec972d33c9129d662 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
+         ea1d489c6dabf9c099b7b3dd359acf7091cd34d5 sched_ext: Set errno on ENABLING -> ENABLED transition failure
+         b8909b401fedd99d53cbd9c015c63c2b6fc178f7 Merge branch 'for-7.3' into for-next
          
