@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Sun, 02 Aug 2026 05:54:21 -0000
-Message-Id: <178565006129.926327.9033849985764074378@gitolite.kernel.org>
+Date: Sun, 02 Aug 2026 06:07:01 -0000
+Message-Id: <178565082117.936322.16331335244338261492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,45 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 51f556d630bbabf582ef61e3c59850b8b18b6c49
-    new: 99b1947ba2f82b30c0a4ef3e457eacc31d1b0220
-    log: |
-         99b1947ba2f82b30c0a4ef3e457eacc31d1b0220 drm/exynos: hdmi: take i2c adapter module reference
-         
+  - ref: refs/tags/drm-fixes-2026-05-23
+    old: 0000000000000000000000000000000000000000
+    new: d5888a266518f3c43b59eb3be4ba2a2641aa4775
+  - ref: refs/tags/drm-fixes-2026-05-30
+    old: 0000000000000000000000000000000000000000
+    new: 8f6c42afefbc0e806bba90619f43a0bb0f65e58d
+  - ref: refs/tags/drm-fixes-2026-06-06
+    old: 0000000000000000000000000000000000000000
+    new: 2e513b69abd5600d1c48a8b361e9733f0297da23
+  - ref: refs/tags/drm-fixes-2026-06-13
+    old: 0000000000000000000000000000000000000000
+    new: bc00f17708863b6c5397f3ed548964ca99372437
+  - ref: refs/tags/drm-fixes-2026-06-27
+    old: 0000000000000000000000000000000000000000
+    new: c1802b6b16fd9de592b647a0979db32c986169cd
+  - ref: refs/tags/drm-fixes-2026-07-04
+    old: 0000000000000000000000000000000000000000
+    new: f5b53ce5134a356640bc721334f792b4c41e6545
+  - ref: refs/tags/drm-fixes-2026-07-10
+    old: 0000000000000000000000000000000000000000
+    new: 42fa1f253e853874b0e4a0fdb273701a4fc0cd7a
+  - ref: refs/tags/drm-fixes-2026-07-18
+    old: 0000000000000000000000000000000000000000
+    new: 40e2c8ca60ea533c5b430352d5750561ed1c78d6
+  - ref: refs/tags/drm-fixes-2026-07-18-1
+    old: 0000000000000000000000000000000000000000
+    new: 62ee0103446128a05e134acca0f94b249e9b78bf
+  - ref: refs/tags/drm-fixes-2026-07-25
+    old: 0000000000000000000000000000000000000000
+    new: 5fa99bd23fe86630e1aa91f87a5f64067486bd16
+  - ref: refs/tags/drm-fixes-2026-08-01
+    old: 0000000000000000000000000000000000000000
+    new: 2760cf1ecc2822b396a8f63815b18471137e004f
+  - ref: refs/tags/drm-next-2026-06-17
+    old: 0000000000000000000000000000000000000000
+    new: b72683a15c3f4b240387a184e786c9bb8daaa00f
+  - ref: refs/tags/drm-next-2026-06-27
+    old: 0000000000000000000000000000000000000000
+    new: 3696d07837d1df13a5603d77f667685e7dfb3c53
+  - ref: refs/tags/exynos-drm-next-for-v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 2a7d8d4c1e61ff3311bfd2d5c8ba6af533aafff9
