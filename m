@@ -1,70 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8296785490042745123=="
+Content-Type: multipart/mixed; boundary="===============5029129151387028740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 02 Aug 2026 04:32:40 -0000
-Message-Id: <178564516057.869040.9830420557691538216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sun, 02 Aug 2026 04:48:58 -0000
+Message-Id: <178564613894.879886.17946153562050944374@gitolite.kernel.org>
 
---===============8296785490042745123==
+--===============5029129151387028740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: a9bfc3d03629295388b8ebc48a6f085b68d1e548
-    new: a183fb35e3bf32615819e07e5693ec36bcb74347
-    log: revlist-a9bfc3d03629-a183fb35e3bf.txt
-  - ref: refs/heads/tip/urgent
-    old: bca4f2dc21b8716a02dc5e008225738f98aca4c7
-    new: 75c6b03066dcef0ef5d73ea78421ba67fc57f53d
-    log: revlist-bca4f2dc21b8-75c6b03066dc.txt
+    old: 8ba098e6b6ff0db8edf28528d1552be261af30d4
+    new: 2d2338c93da79b3bfe4b6099a931d9468d539952
+    log: revlist-8ba098e6b6ff-2d2338c93da7.txt
 
---===============8296785490042745123==
+--===============5029129151387028740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9bfc3d03629-a183fb35e3bf.txt
-
-1365721def94d0b3bd5bb01147c9a75ec4d83e56 Merge branch into tip/master: 'perf/urgent'
-914a27f6b4f2724d7c56e5f4632358ee707053ef Merge branch into tip/master: 'sched/urgent'
-75c6b03066dcef0ef5d73ea78421ba67fc57f53d Merge branch into tip/master: 'x86/urgent'
-69484b8b1489184371e6de17ce4adb41627dcbc2 Merge branch into tip/master: 'x86/merge'
-fd33e30d3e0c73d719833a6e3b684e8eab201fa2 Merge branch into tip/master: 'perf/merge'
-06ad8f12643ac1ba4c2101125694c3fea2ac1214 Merge branch into tip/master: 'core/entry'
-4ae3c10152ff9a6bced374ec7b0e08150ac3e261 Merge branch into tip/master: 'core/rseq'
-2b3560fe20de4cf12fd35ca5c645b9ff5fda9ac3 Merge branch into tip/master: 'irq/core'
-f15c46d432c30a0f29ac977d230bf09ca17243c8 Merge branch into tip/master: 'irq/drivers'
-d3beb33a3ece09d8ffc29aa93e09f78b9039c227 Merge branch into tip/master: 'locking/core'
-1dee5a81bd9bcb3f531b748dca824bff5877ce02 Merge branch into tip/master: 'locking/futex'
-eb0b63bbcea0fb63e375f125419e0f5e21e605af Merge branch into tip/master: 'perf/core'
-93e57fdbb5dd8709a852c92b4b4649f4765d7589 Merge branch into tip/master: 'ras/core'
-d709f16d84e90c727ec6db53158aef18b2a61726 Merge branch into tip/master: 'sched/core'
-4f8e3eb9b0b885ed4acdc44497c1c91fa82cebe8 Merge branch into tip/master: 'smp/core'
-cfcc69081f469e688d2d0923d2d9197766ec8cdd Merge branch into tip/master: 'timers/core'
-b285bbb8b3de438a81ec3e740f943e8bd61bb8be Merge branch into tip/master: 'timers/vdso'
-a4e24a8289bf2e1e224236446a9e9f0e0179feac Merge branch into tip/master: 'x86/alternatives'
-b2c61c3a5b5f23ba2418159722d7d59fd6b73ca1 Merge branch into tip/master: 'x86/boot'
-a19511b993435b9580c83e18fdd5773d7f49fa14 Merge branch into tip/master: 'x86/build'
-ffd404d135c4c2a6b93aff6ebf18508e95408a76 Merge branch into tip/master: 'x86/cache'
-ccafd8d13dcf425bbb03774b1dc03cd8d8e6b3bf Merge branch into tip/master: 'x86/cleanups'
-b1988b26821cafa6945c8b5d34c8a2e639617bc1 Merge branch into tip/master: 'x86/core'
-bf2efaec0eb50e2cae317372169150a5c38018c3 Merge branch into tip/master: 'x86/cpu'
-d8fdcb004b45d5379c86b72010372c04145a34fb Merge branch into tip/master: 'x86/documentation'
-91443230bd0a0f312876566855c514aeb23800f2 Merge branch into tip/master: 'x86/entry'
-450e687f3d59240e1cf080a1a71fce7b15cfb97f Merge branch into tip/master: 'x86/misc'
-199396a143b77543eed7a8fa62a8fc0ffe64de7a Merge branch into tip/master: 'x86/mm'
-a183fb35e3bf32615819e07e5693ec36bcb74347 Merge branch into tip/master: 'x86/tdx'
-
---===============8296785490042745123==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bca4f2dc21b8-75c6b03066dc.txt
+Content-Disposition: attachment; filename=revlist-8ba098e6b6ff-2d2338c93da7.txt
 
 34db32102439d948e0c9aea060e48f979aae827d MAINTAINERS: Drop Karthikeyan Mitran from Mobiveil PCIe entry
 b4bee12ebeccfcd5959ace2c3a4af08f5a917d4c PCI: imx6: Keep i.MX6 Root Port MSI/MSI-X Capabilities with iMSI-RX to work around hardware bug
@@ -314,8 +274,5 @@ bc29fe1c617883f65da693be6abde0335d85f24c Merge tag 'v7.2-rc5-smb3-server-fixes' 
 2aa6a5e889594687d6617f9a0cc8a288ac236852 Merge tag 'trace-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 02dc699f83d04069fdabc996fc22d47cda47a4a9 Merge tag 'kbuild-fixes-7.2-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 2d2338c93da79b3bfe4b6099a931d9468d539952 Merge tag 'i2c-fixes-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-1365721def94d0b3bd5bb01147c9a75ec4d83e56 Merge branch into tip/master: 'perf/urgent'
-914a27f6b4f2724d7c56e5f4632358ee707053ef Merge branch into tip/master: 'sched/urgent'
-75c6b03066dcef0ef5d73ea78421ba67fc57f53d Merge branch into tip/master: 'x86/urgent'
 
---===============8296785490042745123==--
+--===============5029129151387028740==--
