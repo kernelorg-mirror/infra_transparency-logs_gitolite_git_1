@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Sun, 02 Aug 2026 16:38:37 -0000
-Message-Id: <178568871757.1384424.5122540590872291022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 02 Aug 2026 16:38:40 -0000
+Message-Id: <178568872025.1384642.8891746154209852085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/fixes
-    old: f5098b6bae761e346ebcd9da7f95622c04733cff
-    new: aac3acdc508d9958dbea061def3850495182a0dc
+  - ref: refs/heads/kvm-arm64/vncr-fixes-7.3
+    old: 9ac8a8c4092888fc6a8212521a33bca3dd008edf
+    new: b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c
     log: |
-         a7c28483fd57dd0e1487024af70622315320774b arm64: tegra: Add EL2 virtual timer interrupt for Tegra194
-         aac3acdc508d9958dbea061def3850495182a0dc Merge branch for-7.2/arm64/dt-fixes into fixes
+         0158a71f0c0a8b84a3a14c42d4954a95276067ac KVM: arm64: Handle VNCR TLB invalidation race with vcpu_put() VNCR unmapping
+         d0f1d0efef9d2634d6a52b9c1e134742786dc6b1 KVM: arm64: Sign-extend VA for range-based TLBI invalidation
+         abd115a8e3356d6614cb495bbee07a912976819d KVM: arm64: Make VNCR invalidation participate in MMU invalidation retry
+         b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c KVM: arm64: Add VNCR TLB tracking again
          
-  - ref: refs/heads/for-7.2/arm64/dt-fixes
-    old: f5098b6bae761e346ebcd9da7f95622c04733cff
-    new: a7c28483fd57dd0e1487024af70622315320774b
-    log: |
-         a7c28483fd57dd0e1487024af70622315320774b arm64: tegra: Add EL2 virtual timer interrupt for Tegra194
-         
-  - ref: refs/tags/tegra-for-7.2-arm64-dt-fixes-v2
-    old: 0000000000000000000000000000000000000000
-    new: df87b65a15fc22677f3cc9262993b229444d8507
