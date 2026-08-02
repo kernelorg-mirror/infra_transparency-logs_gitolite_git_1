@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 02 Aug 2026 16:46:44 -0000
-Message-Id: <178568920486.1392524.3200004715282273228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Sun, 02 Aug 2026 16:49:25 -0000
+Message-Id: <178568936510.1393583.16256456431975281349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: d04ef71492fad7230d474efe33d05f4c0563d409
-    new: dbd2505061349bbee9c3282472f14ae27da8adfd
-    log: |
-         3a13ed3111ce45c0735406c03973d1d6792a9c6f perf symbols: Skip dynamic symbols with invalid section indexes
-         dbd2505061349bbee9c3282472f14ae27da8adfd perf build: Fix a build error on 32-bit x86
-         
+  - ref: refs/heads/for-7.3/arm/core
+    old: aa5d0900ee9d5772a23316ef129d3c29b497d721
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-7.3/arm64/dt
+    old: 2aedc7afffc61449ddd44bf2a4b3195729cb46ac
+    new: f5098b6bae761e346ebcd9da7f95622c04733cff
+  - ref: refs/heads/for-7.3/dt-bindings
+    old: f63ecc70c341682f2f78403be84069876d3eac0c
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-7.3/soc
+    old: 97ffe9cb67ccafb4644f820ef68662217b76c224
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-next
+    old: 48713e5ff96a2c04286071a2136455545e4c72a5
+    new: dc59e4fea9d83f03bad6bddf3fa2e52491777482
