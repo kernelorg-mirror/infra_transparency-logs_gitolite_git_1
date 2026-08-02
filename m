@@ -1,53 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4953146654923913082=="
+Content-Type: multipart/mixed; boundary="===============5482455501894303266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cris/linux
-Date: Sun, 02 Aug 2026 14:52:49 -0000
-Message-Id: <178568236935.1307817.7362316677552322222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 02 Aug 2026 14:53:03 -0000
+Message-Id: <178568238385.1308172.8532794284613275415@gitolite.kernel.org>
 
---===============4953146654923913082==
+--===============5482455501894303266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cris/linux
-user: cris
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/scmi_telemetry_ng_V7
-    old: 1f2fbceb925eca5c782ba02a84cbbffc688b4573
-    new: 3641367bfd4bc1a806c15e8d16419b9ee7fa4e2a
-    log: revlist-1f2fbceb925e-3641367bfd4b.txt
+  - ref: refs/heads/fix-p2p-acs-v1
+    old: aaec2b13371c3c62fe07251c5446b12cd2c8bedc
+    new: e447227172a2c190e3bccf327c8ca02aeb347552
+    log: revlist-aaec2b13371c-e447227172a2.txt
 
---===============4953146654923913082==
+--===============5482455501894303266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f2fbceb925e-3641367bfd4b.txt
+Content-Disposition: attachment; filename=revlist-aaec2b13371c-e447227172a2.txt
 
-33acff78d71c443c274307f2c0c95986b3e9f230 firmware: arm_scmi: Add new SCMIv4.0 error codes definitions
-d339bf7a9a062ee04f0b5d3af9a9c6dda6387591 firmware: arm_scmi: Allow registration of unknown-size events/reports
-e5104b90384c957d6625ac26f766b8a56e03726b firmware: arm_scmi: Introduce protocol instance notifiers
-e9c75c7c4d479925399c0cc1510621c70b0c1010 dt-bindings: firmware: arm,scmi: Add support for telemetry protocol
-d5c289ac7b552d95c4ff8b0168ea2179e9ae1677 include: trace: Add Telemetry trace events
-058b74c1d8896ead40e79ee946603e572bfe47e9 firmware: arm_scmi: Add basic Telemetry support
-4c8943d50c68b237f24af3645e7ca86dc2fe3484 firmware: arm_scmi: Add support to parse SHMTIs areas
-ff0108a289e794d10871728933a245908e02ad48 firmware: arm_scmi: Add Telemetry configuration operations
-fb614db9e51a79ae8578603da1c6c53c2526819b firmware: arm_scmi: Add Telemetry DataEvent read capabilities
-1e0da6d4b13b89ac4804a6f4a4ac73988437d62a firmware: arm_scmi: Add support for Telemetry reset
-24dc4471bc5f4852a56b82cb59fc2a88afb37c09 firmware: arm_scmi: Add Telemetry notification support
-9927d7c29449f0ef1adda9bf873362449be9e5c7 firmware: arm_scmi: Add support for boot-on Telemetry
-b25dcad8c677f7cd1a21b98330495a5b7f88b70c firmware: arm-scmi: Add telemetry generic event support
-7dc398ae1f586cb89f444ee2dbc4cfb2f2713539 firmware: arm_scmi: Add Telemetry generation counter event
-d4af47fce54d753318e9822bfe88f69f4f1baeef firmware: arm_scmi: Add common per-protocol debugfs support
-00f0830e2cfbbffdca4ef3eca64845940485f21e firmware: arm_scmi: Add Telemetry debugfs SHMTI dump support
-71b8a282123a8dc677308cc94cbf1a0befd4b929 firmware: arm_scmi: Add Telemetry debugfs ABI documentation
-ced151d5c0bb92501783051af3ee6cea1ca02082 firmware: arm_scmi: Expose per-instance identifier
-774ae761eb116ea769f78ad3dc2afd6bcd9df942 uapi: Add ARM SCMI Telemetry definitions
-b6105621341a50b970fa645c2e461633f900769a firmware: arm_scmi: Add System Telemetry driver
-6f1b8b077c1d0b9c8aaf295237ed84622d853ac2 docs: ioctl-number: Add SCMI Ioctls
-c8568710c233bdba168b6160a45f1f26ad074b46 [RFC] Documentation: Add SCMI System Telemetry documentation
-3641367bfd4bc1a806c15e8d16419b9ee7fa4e2a [RFC] tools/scmi: Add SCMI Telemetry testing tool
+0d2579f938ce741f09afc119cb3a1479cdbc5706 PCI/P2PDMA: Fix ACS egress control handling
+75e3f2d4cb04faf4c419c1fe56939f08288fad42 PCI/P2PDMA: Safely terminate ACS redirect lists
+19c4b7058fc30fcf31973b28d3ba338ead098ed0 PCI/P2PDMA: Report ACS ports when the paths share no upstream bridge
+f6835da84ada9167ec48699b5990100b1771d6c7 PCI/P2PDMA: Document the Address Type assumption
+78147230caac40cea7f88b5c7bb0c774299556ce PCI: Account for Direct Translated P2P in ACS isolation checks
+e2e167d8504f4acb009ddfdcacfb76763240da7e PCI: Add ACS egress control vector accessor
+52538b85287105ab90dc80afb6b5cdbbb1a2b120 PCI: Account for ACS egress control in isolation checks
+b836dbbdb65a685e8322f1d475279cea0b0e909e PCI/P2PDMA: Derive peer-to-peer routing from ACS control bits
+2aabd66fe79337c0a0f2893d4a1af6920eb82925 PCI/P2PDMA: Honor ACS egress control vectors
+580789bab95bd84e1dbc5aa7cab6764abdbc8186 PCI/P2PDMA: Document ACS egress control handling
+6a11db80110195340427066a42acc924020fff98 PCI/P2PDMA: Extract pure ACS routing decision helpers
+5ed25481e0ecd7887a3211209e95eec2c79925ec PCI/P2PDMA: Add KUnit tests for ACS routing decisions
+ee17c55540abd8e62635e68fbb2fe95b600e020c PCI/P2PDMA: Add KUnit coverage for the ACS P2P routing walk
+e447227172a2c190e3bccf327c8ca02aeb347552 PCI: Add KUnit coverage for ACS isolation checks
 
---===============4953146654923913082==--
+--===============5482455501894303266==--
