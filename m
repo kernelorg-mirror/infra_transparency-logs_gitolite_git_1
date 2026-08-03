@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 03 Aug 2026 23:03:42 -0000
-Message-Id: <178579822237.3022035.11405788080300892314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 03 Aug 2026 23:14:24 -0000
+Message-Id: <178579886414.3029457.6494324219754947576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 36cba6edf01545a57eff81f90fe76b247d5c8115
-    new: cf07f148068cdfdc29580da445f3cc3ce429f764
+  - ref: refs/heads/for-7.2-fixes
+    old: 3fd70e96914d761c17c376aadd0b0d1a3c9badba
+    new: 3971921a055330669b281962ff723d1abb76a58c
+    log: |
+         3971921a055330669b281962ff723d1abb76a58c ata: libata-core: Disable LPM on WDC WD141KFGX-68FH9N0
+         
