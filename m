@@ -1,107 +1,89 @@
-Content-Type: multipart/mixed; boundary="===============0904262983997968329=="
+Content-Type: multipart/mixed; boundary="===============4238910075130247714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 03 Aug 2026 15:17:59 -0000
-Message-Id: <178577027961.2639909.14778301574873462505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 03 Aug 2026 15:19:00 -0000
+Message-Id: <178577034010.2640641.15264350502327787039@gitolite.kernel.org>
 
---===============0904262983997968329==
+--===============4238910075130247714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 02dc699f83d04069fdabc996fc22d47cda47a4a9
-    new: 075b74841bd0065a3bda3440873c747938e69b68
-    log: revlist-02dc699f83d0-075b74841bd0.txt
+    old: 9fa9f565c1d1d66914c9475cd3b9ae4553fce5c5
+    new: aee1b64789c3c4e9ee8b64cea269cb73a1efb642
+    log: revlist-9fa9f565c1d1-aee1b64789c3.txt
 
---===============0904262983997968329==
+--===============4238910075130247714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02dc699f83d0-075b74841bd0.txt
+Content-Disposition: attachment; filename=revlist-9fa9f565c1d1-aee1b64789c3.txt
 
-9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
-ab1150115e68a46b687eb38c1ab92782018c9f2c dmaengine: sun6i-dma: Fix reclaim descriptors while terminating DMA
-ec2d428b2e32dd157de8f86a86dd85c5b2c8f45c dmaengine: idxd: fix double free of wq, engine, and group structs
-ee1d7274102285d78a53161fc705a8d8cd40b066 dmaengine: idxd: fix fdev setup failure cleanup in idxd_cdev_open()
-867621ba203027338b525af6729719c544135336 dmaengine: qcom: bam_dma: Fix command element mask field for BAM v1.6.0+
-361f533a2dce2c2841fe4dc0c9d85a67117edf95 phy: qcom: m31-eusb2: Fix return value of init call
-be2b5b17b7053fee142939076746d26b2d6c9702 phy: rockchip: naneng-combphy: Always configure SSC spread direction
-e4779e2a16d600892aaf743438f6ce8cc4eb3c4c phy: zynqmp: fix clock error handling in xpsgtr_phy_init()
-f3506e15cf72e94f62d5f2d173e5b7008f644cde phy: zynqmp: fix runtime PM leak on probe allocation failure
-6cb22477929489a412df8d153e550e77a012e701 phy: zynqmp: fix L0_TM_DISABLE_SCRAMBLE_ENCODER mask
-21e0749f931702765b9d52d05740092bc87fcd8d phy: zynqmp: use read-modify-write for SERDES scrambler bypass
-7eb61caf45607e1e1270f51f8f93f0ded53146da phy: zynqmp: keep SERDES scrambler and 8b/10b enabled for USB
-98b87885de4b7f605533a2860685f5689fce8e82 scsi: libiscsi: Fix stale-data leak into the SCSI sense buffer
-c1dea15f819cded9b3faf58f8bec72323568b6e6 scsi: libiscsi_tcp: Bound SCSI Response data segment to the connection buffer
-3dbbbf656b850c9c8de05df6ad4a1dfc6ff02845 scsi: libsas: Fix HA resume deadlock and hisi_sas disk-wake race
-4d5282c06ca198319c2de41b10511ddcb8068f42 scsi: ufs: dt-bindings: Add missing mcq reg for qcom,sa8255p-ufshc
-cdac670237258c8ca063aa8a16998f680d81b80d i2c: spacemit: request IRQ after controller initialization
-82048795242f04275a3f49ffc66ad851b6120954 i2c: amd-mp2: Unregister callback on adapter add failure
-d99607c888f26e8a4e9fe9772860cef4aff86bb4 i2c: jz4780: Cache host clock rate at probe to prevent CCF prepare_lock deadlock
-d568a43f6dbba3ba006304d95fd09862bd482a2f afs: Fix afs_fs_fetch_data() to set call->async
-222052c6be186f2074b3a4d741d5de200f654c43 afs: Fix afs_fs_fetch_data() to subtract transferred from len
-4af1ec68d54b3871155914d584fb10669c41a861 afs: Fix UAF when sending a message
-2c1766964cd10455c6065498862273b93f0d0117 Merge patch series "afs: Miscellaneous fixes"
-0a4bb2abc3e56d7be6e69b050c88ba52c87e22bf i2c: designware: defer probe if child GpioInt controllers are not bound
-a81fc9266e1c5fef9ccf675a9b44b2f4ab464923 netfs: clear PG_private_2 on copy-to-cache append failure
-37a1c535c80c67d98668d190c7432f9ebda43310 netfs: handle single writeback rolling buffer allocation failure
-87eb3d272dcbcbbfe5c1576c10e5dc72810cf1f6 netfs: release readahead folios on iterator preparation failure
-1d78d56c43ef3768183e8370e7367b162700e049 netfs: Fix folio_queue ENOMEM in writeback by adding a mempool
-3a91b494fda793663df19ed318fa9aa69088d5ef Merge patch series "netfs: Miscellaneous fixes"
-79055d82772b9584f259b747fe40ff56a076678d binfmt_misc: don't let an 'F' entry pin its own instance
-5d03425c63b4def9d4309b6f35de7449cce2b287 Merge patch series "binfmt_misc: don't let an 'F' entry pin its own instance"
-db1856ea9196cf6e015d12199a34c0b9313c7bfa binfmt_misc: restore write access when removing an entry
-fa5990ca8fd917003e526036bcc50413edb9722c binfmt_misc: use exe_file_deny_write_access() for the interpreter clone
-8e85d50ba1117fd446bf9a250bd8a97d48384bdc binfmt_misc: reject a flag character as the field delimiter
-b8206f516fe7cbe785cf44bf09c17c438d7c3cad binfmt_misc: don't leak the user namespace when the mount fails
-00d86dd5c2034e0e139e4806137b3b43e07ddd83 i2c: imx: mark I2C adapter when hardware is powered down
-98f2e9e6d6f91a6abb43f166b244b428ba85fa2b i2c: iproc: reset bus after timeout if START_BUSY is stuck
-d64ec362c369bbc33833f7936d5f3a706b0d5c45 i2c: imx: Fix slave registration race and error handling
-6ac7702b6cc2b94aaed9ef2d95bfbefcdc90061f i2c: imx: Cancel hrtimer before clearing slave pointer
-b08c9857aa1f5f3a81d375d6d4bb1d8b92f22ebc i2c: qcom-cci: drop custom suspend/resume and rely on runtime PM helpers
-a8c171c107c0b61a5e7e10cedab0fb72aeaf640d x86/boot: Add volatile, clobbers and zero-length test in memcmp()
-9c33222bd387312874fbe36ca8002e5c945b9653 scsi: target: iblock: Fix wrong PR ops NULL check for PREEMPT/RELEASE
-93dde0bf2f39a0f9f57fd610aa3201ce5b753433 scsi: scsi_debug: Fix REPORT ZONES alloc_len underflow OOB write
-f71b4a30983b846b4075bf544e835121e70e6a43 scsi: ufs: core: Cancel RTC work in active-active suspend
-8a309036f557d3ff4efb2beea5132ba91172d934 scsi: ufs: core: Revert "Delegate the interrupt service routine to a threaded IRQ handler"
-b601fa590e667bd9643feed8c869b6b3e418480d scsi: zfcp: Fix memory leak during adapter release by destroying gid_pn_req
-a8ddfd2425bbbafadae8700d63ed8a61a4109878 scsi: target: Clear cmd_cnt when initial counter enrollment fails
-ccff8c92571500fcfed21281e33daaf645bf692f scsi: mpi3mr: Fix potential deadlock in mpi3mr_fault_uevent_emit
-0279fd451a9971c0d5b959fc59f3e11b55e1694e scsi: ufs: core: Initialize hba->rpmbs list in ufshcd
-779e0eb18c774b81a462a6ee89cfbc9eb2d3cee5 riscv: time: Add missing __iomem in get_cycles() and get_cycles_hi()
-9a22a1542ca03381dcbf000d7a264cbee61e7203 riscv/sifive: remove warning in errata
-cfca5a48b03fbd33c8cb84cb73ee2e34467f3a33 riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB
-f51fed61eea0daba2f95f1a6074085e4cd513c7b riscv: drop __init from vec_check_unaligned_access_speed_all_cpus
-52075128273ace53e6254e37899a47d40d4baf45 x86/CPU/AMD: Carve out a Zen5 models range
-a0188cc133696627857d16054e43f9ebc7efc821 riscv: mm: Fix out-of-bounds page-table walk during memory hot-remove
-c052927905710de1ab7364bf1925efbd12517ea3 riscv: vdso: Only try to install vDSO when present
-1842bf97af109f5ebf830175c9725bf81ebb78b1 sched/deadline: Use revised wakeup rule only for running dl_server
-cc679d7a6303e84d769f2afcde1fc51c51f127cd uprobes: Fix NULL pointer dereference in hprobe_expire()
-c679ce3be6cb63763d68ab9b5d9d73ddc0a40762 iomap: add a separate bio_set for iomap_split_ioend
-b7ab86bdc65eadcfc43a0e3faf682a3f750cfb96 s390/pci: Fix s390_pci_mmio_write syscall error return without MIO
-06afe425d5283b9764303de47f554da5a808ce8a s390/zcrypt: Validate length for CCA AES cipher key requests
-a9ae0f6dd45c3ccc1d69363f7aea8af179122730 s390/zcrypt: Validate length for CCA ECC private key requests
-36b230835b8a008266aad22168ca52afacc8a58d s390/zcrypt: Fix buffer over-read in cca_cipher2protkey
-983279d7f86ade73db86f886e09172dd567031b5 s390/zcrypt: Fix wrong domain value verification with EP11 CPRBs
-e935cd525af4c6ed2e2c6404aa27ca19c7f39ddb s390/zcrypt: Close speculative mem read possibility
-01476391aecef36a3b789ee844357b22fbc90665 s390/zcrypt: Fix missing mem scrub at clear key import in cca_clr2cipherkey()
-2d2338c93da79b3bfe4b6099a931d9468d539952 Merge tag 'i2c-fixes-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-40814468ee62a9156f18afba3c958d45e102f89a Merge tag 'phy-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
-49c9f4657b2d584690b050169b646cbcee6e7958 Merge tag 'dmaengine-fix-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-a84c804215062d17c14141988ff3c69af961b49d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-bd1dde877520385f6638af2d0f2bd4f212eb8f34 Merge tag 'vfs-7.2-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e1f05cd3fc71f14a63015143bf7fa5a7e3731aec Merge tag 'perf-urgent-2026-08-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-65bfd707fd9807586b970bdad85fc23c83b65521 Merge tag 'sched-urgent-2026-08-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8eae6c90b7094481dd8e0d4153fe8269041dcd3e Merge tag 'x86-urgent-2026-08-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0e672789d442d3ef08f30b7cd50cbc685f7956a2 Merge tag 's390-7.2-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-075b74841bd0065a3bda3440873c747938e69b68 Linux 7.2-rc6
+06528a8d794f3ba729783cfdf3746d71d67e3ce4 patches/next: unurgent fixes: squash folio skip fixes of same Fixes:
+ddaff23bb48d361f73ecaadd3bce5fd677fff7b5 patches/next: unurgent fixes: wordsmith
+6ae72d096abc06d9b1c56c3577537c034aeff037 patches/next: unurgent fixes: sort by fixes date
+e7a66986ca4fd45216c9cbb5a5d4277c0b074184 patches/next: unurgent fixes: fix order and write cv
+1211bef6e11fdaa8723bc1c80058306297a64b09 patches/next: unurgent fixes: wordsmith
+878eb46c6b6a7d8b5568c817e2d995bb8f0b425d patches/next: unrgent fixes: move to hotfix rfc section
+925c9a8482b6a9c512ce68cf25e4f7111bb6aae8 patches/posted: add unurgent fixes for 7.3-rcX rfc v1
+52e64f3641729a00e0c65eac905b1ba66f0539a0 todo-reported: update
+dadfd2b1e87f4925019590342dc361bb3af8d5e9 patches/next: unurgent fixes: fixup checkpatch warning
+c6f1eddd4b849b39403bc08648b382186c7a8644 patches/next: unurgent fixes: add proactive changelog
+aa48437830c21cce642072d4bf6cb492bd5fe5dd todo-reported: update
+f88fa15355c57b1a130e3a9bd8507ea9a3008414 patches/next: unurgent fixes: add fixups and new fix
+b392e3adc9a0b3372a09ee40ccde5c0903de760b patches/next: mtier division by zero: wordsmith
+e11fea621c2946f055a0875b534fcee3c2e8a2f1 patches/next: move mtier hotfix to hotfix section
+afe9efc06282927cec9fab7cbe9e4d73b7a81b22 patches/posted: add mtier division by zero fix
+a34922de5129586e6c81ad4c05d174cf9964b21c todo-reported: update
+8124a5be37bd387aa534d96c17efba57ccb4993b patches/next: mtier division by zero fix: add praoctive changelog
+f5829808b79fce1a8870065db38af5f29e4ef468 patches/next: unurgent fixes: move fixups into the section
+9faefb6b5715ba2e2dbec9ce347f5fb1ab61c384 patches/next: unurgent fixes: fixup wrong function name in commit message
+049e485f057522496555bb3f65acfc41ae4e9d5d patches/next: unurgent fixes: squash fixups
+611c6a4304919c71fa98d1e216c1b21363e3fcc6 patches/next: unurgent fixes: fixup compile error
+cb597c6ae3f6c799168d352b098e4cd58728d4a0 patches/next: add lru_sort division by zero hotfix
+af9d732ca390b454aa16b41d7d22699ec8b5e8c8 patches/next: damos_quota_score() division by zero: revision
+06a50460edcd1a9be83d6fb05911d9013ab97b83 patches/posted: change mtier_divide_by_zero
+d2c28b1daed32fd76cf2bbf899ad383c4732ac8a patches/posted: add zero quota goal target value fix rfc v2
+b1d48cbf57805ce9b603880454cc0382c9848fb3 todo-reported: update
+026d6cb44f5365b8eb95a0b659838969633d6ce9 patches/next: zero quota target value fix: add proactive changelog
+130498b27299dc7e5883b7a14f32e3dde03c841d patches/posted: add unurgent fixes for 7.3-rc1 rfc v1.1
+d56c62cdf1e92f792acbf940daf90d85e6daf057 todo-reported: update
+f5aaeffd891bf2dbb8da11e2ab51483603c5407d patches/next: unurgent fixes for 7.3-rcX: add proactive changelog
+440dbf1e7e7f5632e3aee6b1a1a1f1b85a06bea4 todo-reported: update
+377652942db6a418f93269a70b64428bca8c8d0c patches/next: add lru_sort hang fix
+815c275179832f8ea4371741d1381631585aed08 patches/next: unurgent fixes: add fixups
+de76aa7e24932f12704072f1121e1ed58eb99894 patches/next: unurgent fixes: squash fixes
+14153490f438b41765ebc8c50f31efb8c287c44f patches/next: unurgent fixes: wordsmith cv
+705232e17ed6e0ecafea1b059a93204a85988b1f patches/next: last_psi_total initialization: add TODO
+14f41477a6f52c7348539ea65e42c31123f1c257 todo-reported: update
+1f62d9ec62c37665fa3d407024ea58b874ff99dc patches/next: add patches for commit_inputs hang
+a380de8ca57a320b5d772cde9309925ceac9f364 patches/next: wordsmith infinite hang commit_inputs fixes
+80f76d64e564f663ea91c01ed4b9e44377051947 patches/next: unurgent fixes: wordsmith
+c02ca18e07628a4c3be98f3f43840f30151359f1 patches/next: move hang fixes to hotpatch rfc and wordsmith
+bb49edf39772c0ce16de96d03174ab058bfeaca7 patches/next: commit_inputs hang fixes: fix typos in subjects
+9c1ac4f05869bfa4efed1d1bae008568083593e1 patches/posted: add commit_inputs hang fix rfc v1
+89a4765f7656f9401bfeb837d650e6cfdeb47564 todo-reported: update
+f04db68f7f59dc674419867d438068f750394271 patches/next: commit_inputs hang fix: add proactive changelog
+5e4f171bf142f27ab1ee5104f824a5ec8d59d4cd todo-reported: update
+97186ca7032cebf158f91419757fe7a170a9a9cd todo: update
+20eb2e62bdc90365624689ca8eb8ad4537ae7693 patches/next: mtier,lru_sort zero target_value: update changelog
+8a99b52648e6c0cac2e6c00752ed6acd48bbaea6 patches/posted: add zero quota gaola target_value fix v1
+276a8ff50bf904330ce78038b63b1b9ba2069bcb todo-reported: update
+6563299ad6117929da4d76e985980db3a142ddc0 patches/next: mtier,lru_sort zero target value: add proactive changelog
+b4c37394ba1891289a5479cec439e3be3334dd56 patches/next: commit_inputs hang fix: update changelog
+a9953f2410921ffa3dd9f0dc8b35c71635001472 patches/posted: add commit_inputs infinite hang fix v1
+cff698b83b0dc72f620c570db589cc9f4d06a107 todo: update
+925428cd8d546997b88ca3bee7be6ae6fd2e5c32 todo-reported: update
+aaceed131301ac1037721ac664c37ed6894a9588 patches/next: commit_inputs hang: add proactive changelog
+d18b01d02b4d1e68534fa8b66e26f9667e1128ec patches/next: handle NULL and unstarted ctx in damon_call()
+191ce27eff3d6f72a49b2580d0a6edefdfba0fee todo: add items for more testing
+aee1b64789c3c4e9ee8b64cea269cb73a1efb642 patches/next: more damon_call() input validation
 
---===============0904262983997968329==--
+--===============4238910075130247714==--
