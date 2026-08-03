@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0960764121565920033=="
+Content-Type: multipart/mixed; boundary="===============8707761293179753465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 03 Aug 2026 03:52:07 -0000
-Message-Id: <178572912707.1876554.11489559824969775206@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 03:53:08 -0000
+Message-Id: <178572918882.1877041.7606664776095131337@gitolite.kernel.org>
 
---===============0960764121565920033==
+--===============8707761293179753465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 8e4b6b4af0d15c6ee95e6f4a1b29a4d5dfb97cfd
+  - ref: refs/heads/dev
+    old: e1a16b5ff51218dce414629f7634923162824001
     new: ae8673ccefbfc5996b2c55e0c3378a082f9b9972
-    log: revlist-8e4b6b4af0d1-ae8673ccefbf.txt
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
+    log: revlist-e1a16b5ff512-ae8673ccefbf.txt
 
---===============0960764121565920033==
+--===============8707761293179753465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e4b6b4af0d1-ae8673ccefbf.txt
+Content-Disposition: attachment; filename=revlist-e1a16b5ff512-ae8673ccefbf.txt
 
 9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
@@ -647,4 +644,4 @@ f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of 
 65aa8f4872c6eb7cdc0f8ec38add676c46d2ab20 erofs: accept source file descriptor via fsconfig
 ae8673ccefbfc5996b2c55e0c3378a082f9b9972 erofs: fix typo in error messages
 
---===============0960764121565920033==--
+--===============8707761293179753465==--
