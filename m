@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3587286675789394531=="
+Content-Type: multipart/mixed; boundary="===============0183319851976363082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 03 Aug 2026 22:16:56 -0000
-Message-Id: <178579541672.2986736.4248599707548022315@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 22:20:05 -0000
+Message-Id: <178579560584.2989616.2106595593894999129@gitolite.kernel.org>
 
---===============3587286675789394531==
+--===============0183319851976363082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,77 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/test
-    old: 87788dbbfeab24e56b32e78f000efd32344e4bac
-    new: ca6ab7cae21dff09c1779961c6459b5c88688481
-    log: revlist-87788dbbfeab-ca6ab7cae21d.txt
-  - ref: refs/heads/vhost
-    old: 87788dbbfeab24e56b32e78f000efd32344e4bac
-    new: ca6ab7cae21dff09c1779961c6459b5c88688481
-    log: revlist-87788dbbfeab-ca6ab7cae21d.txt
+  - ref: refs/tags/for_linus
+    old: 235aed9201913e2c8ad6d3f3dc0eab9392b1f942
+    new: 1413c3cd8a1bc58af54a1e688a6e941e5bab1132
+    log: revlist-235aed920191-1413c3cd8a1b.txt
 
---===============3587286675789394531==
+--===============0183319851976363082==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-87788dbbfeab-ca6ab7cae21d.txt
+Content-Disposition: attachment; filename=revlist-235aed920191-1413c3cd8a1b.txt
 
+6eb9466f75c175c44520954be7bf501fb5628f99 Merge tag 'regulator-fix-v7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+432a9b2780c0a01caf547bd1fc2fcf28aeb8d173 ublk: wait on ublk_dev_ready() instead of ub->completion
+8b752c85019958558972b75c8703caccd6fd7c47 Merge tag 'spi-fix-v7.2-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+a2b81de43ca64832fe09844bbf97d1251115d80f Merge tag 'io_uring-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+980ab36ae5972c83f683b939e50c469c4947229e Merge tag 'block-7.2-20260717' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+f6d6a4147ace0c417035f65b021027c209c75190 ALSA: usb-audio: Add FIXED_RATE quirk for JBL Quantum650 Wireless
+82a47586c0b9266622657009aa30573dddf09f53 Merge tag 'riscv-for-linus-7.2-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+1590cf0329716306e948a8fc29f1d3ee87d3989f Linux 7.2-rc4
+8e957e4907c58e9ca944f98799524f2bbb9cf68a ASoC: tas2562: fix DVC coefficient write order
+bdb0fd6de403fcea7b85dc9d38f0a571583ebe80 ASoC: tas2562: fix broken entries in the volume lookup table
+2330e5fee602116357f6c9e56b4c9bcf25ff1327 ASoC: tas2562: fix Digital Volume Control
+8fb41964f7e4e4207c8999af2056894caa7a252a ASoC: tas2562: Validate values for volume writes
+9a9269dbbf1aba4bf329f770d6c473dc9cfb29e8 ASoC: tas2562: Fix event generation for volume control
+58b638e7c4559b35367a25e319adfe91e8f5ebe7 ASoC: tas2562: Fix default digital volume
+07f545657dabf9b009fc484414933fd2a359b4d3 ASoC: tas2562: Volume setting fixes
+8e29ed571788f41d1121e1e515ba8745695a38dc ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
+a88df1d92fcf23d848e5fa6d7d2a1c38fd0174ed spi: spacemit: Correct TX FIFO slot calculation
+890b4253134f3a39883af7d5bea67af9c494c56d ASoC: fsl_asrc: fix m2m_init error path to use goto instead of bare return
+a54bc0eef90ea760039c14bb7f3b5db42529f84d ASoC: fsl_easrc: fix m2m_init error path to use goto instead of bare return
+a9058504f11150308c44f6c0683eb04c822b821d ASoC: fsl: fix m2m_init error path cleanup in fsl_asrc and fsl_easrc
+41e116ad01d8a704883187743b52d57e11bc3ef0 m68k: coldfire: fix breakage of missed IO access update
+488f4902e1deba4d507b4b8c25547a366f5dac63 accel/amdxdna: Fix command timeout race
+f6f5ee2aa33b350c671721b965251c42cebb962e smb: client: validate DFS referral PathConsumed
+f8cf09a53a0dc1da298e9dd0ba5f21710cf119d6 smb: client: bound dirent name against end of SMB response in cifs_filldir
+70d28bfcd6224eed75986b3b987b997e59643fa4 ALSA: timer: don't re-enter an instance callback that is still running
+bdefe1346a8e6b8dc8593406dc2617e985fcbcab ALSA: timer: drain a slave's callback before its master detaches it
+a411ea4a87162898d2a0547fdfb721ddb7626be3 drm/i915/backlight: Remove DP_EDP_BACKLIGHT_AUX_ENABLE_CAP check for DPCD backlight
+361f533a2dce2c2841fe4dc0c9d85a67117edf95 phy: qcom: m31-eusb2: Fix return value of init call
+be2b5b17b7053fee142939076746d26b2d6c9702 phy: rockchip: naneng-combphy: Always configure SSC spread direction
+b52c5103f64ee825996ca1ab8df7283cde8c5f86 ovpn: avoid putting unrelated P2P peer on socket release
+63bbe18fc03062f483c627838a566a707b62da79 ovpn: fix peer refcount leak in TCP error paths
+a4710ae2e7e322fdaefb4be8604228279cfaf48c ovpn: hold peer before scheduling keepalive work
+0bd9cfebc1c91e1066e56d6261b99691b9df6008 selftests/net: ovpn: fix getaddrinfo memory leak in ovpn_parse_remote()
+e1ad6fe5db719874efa45b2caf9934552e09fc43 ovpn: fix use after free in unlock_ovpn()
+17e2030f37600994440f875dc410615d5c66ee6d drm/imagination: acquire vm_ctx->lock before mapping memory to GPU VM
+52beeed5e5d257e1da3e2d2f2fb25bc1e3cdb6d2 USB: serial: mxuport: validate firmware header size
+f7e6287ccd3abeed9e638b581dc3fdf742106ba3 ovpn: use monotonic clock for peer keepalive timeouts
+70e76e700fc6c46afb4e17aec099a1ea089b4a22 hwmon: occ: validate poll response sensor blocks
+6fcd91ce2a0787cd4bdf6a0b3cd4884566a3cdba USB: serial: io_ti: reject oversized boot-mode firmware
+317e21532e6ffa1de026bdbce5ba98e1b70ca5c6 ASoC: max98095: fix missing IS_ERR() before PTR_ERR() on mclk lookup
+6c7b7a07db47df7745d30f4bca795f3bb5976b33 Add missing git branch info for cifs and ksmbd to MAINTAINERS file
+a792ce0fad61a70793ec565743f11d6ca534de59 ASoC: max98090: fix missing IS_ERR() before PTR_ERR() on mclk lookup
+57441577bac3637473da2c9644336eaa0ac5732f drm/xe/madvise: Skip invalidation for purgeable state updates
+1d26f125501f3fbe6c259ab75bf6516299a0bf0e regulator: mt6358: use regmap helper to read fixed LDO calibration
+b5fa40226e71c17847b9ff2816c6ca4133d0d994 fscrypt: Add missing superblock check in find_or_insert_direct_key()
+6fe4e4b8259e1330945b5f3c9476e08473b8e0e8 fscrypt: Avoid dynamic allocation in fscrypt_get_devices()
+5c3f8dac531b454bf67b6ee3c2aac89f0aaaef74 ALSA: hda/realtek: Fix speakers on Lunnen Ground 14
+740b3c6780ec1f65aba2bc99a3f41d70bdb13477 ALSA: hda/realtek: Add HDA_CODEC_QUIRK for Samsung 750XBE/730XBE
+b6016332b8899a9775addf9b630b0a53a849c8ed ALSA: hda/tas2781: clear cali_data.total_sz when calibration read fails
+abc69ae5d23e7910dc5a77f8d8b2c34d335724c0 Merge tag 'v7.2-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+b95f03f04d475aa6719d15a636ddf32222d55657 Merge tag 'mm-hotfixes-stable-2026-07-20-11-37' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+db3dbdfea1b8f38774419c5c2c14e4b81c48708d of: reserved_mem: prevent OOB when too many dynamic regions are defined
+bbf5f639918dc011aaf60aab8480218758ee68c5 binfmt_misc: set have_execfd only once the interpreter is opened
+e9027ffbf5a0f3c12ca8900822e884eae9f0821b Bluetooth: hci_sync: Protect UUID list traversal
+c783399efc22d035443f1dfbf2a09bf9562aaa5e Bluetooth: RFCOMM: Fix session UAF in set_termios
+df541cd485ff80a5ddc579d99687bc7506df9851 Bluetooth: btusb: validate Realtek vendor event length
+b056f21a38276ead20353d71d50a52206609d242 power: supply: bd71828: add a terminating table border
+725668c6b6aa3971fe850659102c250d0d676e18 power: supply: max17040: handle missing status supplier
+f7b253a6e217f71d754d70c525e9b4c1dcbd4414 power: supply: macsmc: Support macOS 27 SMC firmware
+ea3034b2b00fa50c8d2518d0804c9d427bbafa86 mm/vmstat: fold stranded per-cpu node stats when a node comes online
 4fc089235378d1f9ddb6bcbe67c192ffdcaae0ed lib: test_hmm: use device devt for coherent device range selection
 4165b7d1c45c2da0dfefe528f8d1fb7d79f0d344 userfaultfd: wait on source PMD during UFFDIO_MOVE
 07b4377bdbe74a3ec0c8da5849d014f70e003384 fs/proc/task_mmu: fix PAGEMAP_SCAN written state for unpopulated ptes
@@ -994,65 +1050,5 @@ b383a8516dfbc1c7c173edff02f06462f63de39d vsock/virtio: prevent workers from usin
 8f0b24143ad9a9b23771162b571e8b35c1f444fc vhost: reset the vring metadata cache on vring reconfiguration
 6b5cacb9258d2f40798716175a7f8f876c676873 vhost-scsi: flush backend after device ioctls
 8274636af6086581c05eca78d31854ff7eebb4ab vhost-scsi: reject feature changes after endpoint
-689dbb89fda35624d0fd7587fb5fb519d3e1abeb virtio_balloon: prime stats vq after virtio_device_ready()
-946513d9e8c879524d7eeab2e1e92961c03a6225 vhost/vsock: split out vhost_vsock_drop_backends helper
-d1a701272ec32e86b4ff97fb7bfbd7667ec9274b vhost/vsock: suppress EHOSTUNREACH fast-fail during CPR pause
-ccc86b9b43964f43984e259b7a686555bf4ef2a1 vhost/vsock: re-scan TX virtqueue on device start
-1339f5fb40715b99c3cfc65454129f7f56818586 vhost: synchronize with RCU readers when freeing workers
-bb94c4f090a01eb5397b88cf5aae49af9ac1b1b2 vhost/vsock: add VHOST_RESET_OWNER ioctl
-37e99a5e7411a37dbb51cb647a575c0d830b9023 virtio-mmio: add support for transport version 3
-93794a75b15f9ca083b316d20c1be81953506e6b virtio_balloon: disable indirect descriptors
-fcfa160cbf4a2c3ba284ae064ac201a01fd9433c vdpa_sim: fix cleanup after worker creation failure
-857406402dfa1f0db20f4f1d880da7505b5d7a60 iov_iter: export iov_iter_restore
-b4572b2d0de2bd10ea31a6d0fb84fd2a7c41276c vsock/virtio: restore msg_iter on transmission failure
-d8612e80f1c85ee10bc5846b041d82adbf4f8a79 crypto: virtio - bound the akcipher result length
-dc577fa7a2d79eae6d05b7b9fac6db1053dd99f7 crypto: virtio - fix missing le64_to_cpu() conversions
-0de7273e8651aaefdd3b5dc2359d3a1a30dcfbbb virtio: Add ID for virtio media
-784c974a6c6a1e464f18ead5e515ada956c63aff virtio: add virtio_device_shutdown() helper
-0eaf40d4d1b75d24a2076c628cd88bdb3fd1e79d virtio_balloon: factor out virtballoon_quiesce()
-a34c2abc7d578034c4b58adf6178ac3c658c1dfe virtio_balloon: quiesce balloon work before device shutdown
-4c97198e12f4fa0e92a0f195e1bdf0823301d4e7 virtio_balloon: warn on failed buffer add in tell_host()
-70507dc0a9fcce9692803cee8dc253501e0dc884 virtio_balloon: warn on failed buffer add in stats_handle_request()
-ed3a379bc3c81748392b53ca1136ef9eb2f3305a vhost/net: fix clear_user start address in VHOST_GET_FEATURES_ARRAY
-5ab8c69b7d11cd99ea54c35c3e4051411fc4da69 tools/virtio: Remove unsupported --batch option from vhost_net_test
-2f96787c182e8734b10542db675f1365ea839050 vdpa_sim: clear pending_kick on device reset
-b1ff9e72c38128166709fefd0a5906932a6b76ce vdpa_sim: hold iommu_lock across dma_unmap passthrough transition
-bfb068fb6160ee597a0e6edc818fe4eacf4493ea virtio_dma_buf: fix typo in kdoc comment: get_uid -> get_uuid
-dba0db43bf789bb8537c76f7f7fef45531feba46 virtio_mem: fix hardcoded 'vm' variable in bbm iteration macros
-7d7b755e6418a35f2645c463b8aef3cff209d3e1 virtio_pci: fix wrong queue index for admin vq in intx path
-4fabfed63849e81b4e739c0f054cc59859063f9f nvdimm: preserve flush callback -ENOMEM
-ea380b8dbab1c4a6c752a155d936c31835e6405e nvdimm: pmem: keep PREFLUSH before data writes
-6a2a7f70babba85a6e01e8d653f5424547c90cda nvdimm: pmem: guard data loop for dataless bios
-47ad2f2afb2da90d31e98433193dec54af1511de nvdimm: virtio_pmem: stop allocating child flush bio
-00d9989a88068e889c27da4f0a32753170bada46 nvdimm: virtio_pmem: use GFP_NOIO for flush requests
-f3ad19abb45b0197105b1e7fd798d966cda6c7f1 nvdimm: virtio_pmem: always wake -ENOSPC waiters
-6ebc2808647a9174778766b2c9b59e644fdb6d05 nvdimm: virtio_pmem: use READ_ONCE()/WRITE_ONCE() for wait flags
-b2b33eaa3035c24f89dc7d348e64870a44826467 nvdimm: virtio_pmem: refcount requests for token lifetime
-9eb32fb935437a48a8b64d0fd80f2d20ad328e33 nvdimm: virtio_pmem: publish done with release/acquire
-a39853097a86f8d1efa1f7d92c080f31b5c33d59 nvdimm: virtio_pmem: isolate DMA request buffers
-6461baa06683e891c655b50784e94f015165956d nvdimm: virtio_pmem: converge broken virtqueue to -EIO
-a26fc99a3512be1c57e4720938f39c9441210954 nvdimm: virtio_pmem: drain requests in freeze
-d4188b4ce75881ad99ec72bb622a20ce098d7cba vdpa/mlx5: fix wrong list iterated in add_direct_chain error path
-c533a69606210350a1eec129ee7ce9c085c4e61f vdpa: alibaba: add missing MODULE_DEVICE_TABLE()
-d74ab77aaae71cb1a2cac9605e49d13de0679901 vdpa: octeon_ep: add missing MODULE_DEVICE_TABLE()
-fbd4545705eac15eee028152ae873b901bf8a2a3 vdpa/mlx5: fix wrong MLX5_ADDR_OF struct type in alloc_inout()
-df402cd02700d6f8fddd703c857b34030443638f virtio: rtc: time out alarm requests
-c13d1bed70fc7c1ca0706dffbceccb24fd7db032 vhost: fix inaccurate kdoc in iotlb helpers
-536c7838dc6e81373d2ca25ca9c04c78a17385a4 virtio: fix article before virtio in dma-buf comment
-00e232ac9c5329bbbe9663f90d6a4c95b3a90fc5 vdpa/solidrun: fix typos in snet_ctrl comments
-f7ce70ebd7678d6a479445a9076e1ec1d32c5c1b virtio_mem: fix typo in comment
-86fd0f36340cfe5315f9a17ea044d390b8cf3ba2 MAINTAINERS: remove Gabriel from LiteX and fw-cfg drivers
-3466419916675f8137817c4276fbfa50bf021844 vdpa/mlx5: roll back MR update after VQ setup failure
-ac05e341f5b38c23bf9b4dfcb537aeb6892a0f4e virtio_ring: fix infinite loop in virtnet_poll_cleantx when device is broken
-c884f7daa3d47fa6f31971c8fd98fedfa373b09a vdpa: Remove redundant dev_err()
-17426d0b6e981b312cbac4d9af7ead2aa3f843db vhost: reject zero-size IOTLB INVALIDATE
-cbf942990ea4dbfab6d25378c71198d3ef23c5e5 tools/virtio: Fix userspace typo in vringh test comment
-9ab78dc153528c558594d3a29c1d723fb8d3ce19 tools/virtio: Fix control typo in trace agent comment
-9a2498f821c94f0b299c20f71923b5862becbaad vduse: store control device pointer
-bf86bd35e8d27b4b673e1487259025e7f5cd63b0 vduse: add VDUSE_GET_FEATURES ioctl
-cc83ad5b5cd79fe0825f25bfa346774bffe032b9 vduse: add VDUSE_SET_FEATURES ioctl
-b45a623e59abc64ec5b52498defef915a7b7fe46 vduse: add F_QUEUE_READY feature
-cce3dc1ed909d148ddabfcb739389d8b7c311b17 vduse: do not take rwsem at reset work flush
-ca6ab7cae21dff09c1779961c6459b5c88688481 vduse: Add suspend
 
---===============3587286675789394531==--
+--===============0183319851976363082==--
