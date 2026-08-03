@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 03 Aug 2026 23:23:05 -0000
-Message-Id: <178579938508.3038107.14429040986616879765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 03 Aug 2026 23:24:57 -0000
+Message-Id: <178579949702.3038702.7957590205531165274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/hwmon
-    old: 71638a456852a18a4578f52d51926ba1d223053b
-    new: 59bd68ab05a8f9c9a60b6ec44682084184803ff4
+  - ref: refs/heads/main
+    old: e8aaf6ba33c7d875523fcbae20fbd70ab57f9c48
+    new: 5aed8f404401bfa1570cf0c3ffed7b752f568e83
     log: |
-         59bd68ab05a8f9c9a60b6ec44682084184803ff4 hwmon: (pmbus) Fix type confusion in notification logic
+         5aed8f404401bfa1570cf0c3ffed7b752f568e83 ppp: use netdev_from_priv()
          
