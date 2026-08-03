@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 03 Aug 2026 19:26:47 -0000
-Message-Id: <178578520788.2848136.15832853752841674867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 03 Aug 2026 19:27:22 -0000
+Message-Id: <178578524247.2848570.5765772378800539045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 6c033b2c47928ae51eb1e6c8532d1659be456410
-    new: b46ff38a110c3f830798a969a966b65fbddada62
+  - ref: refs/heads/for-7.2/upstream-fixes
+    old: be00988cce4ed44db1e61231d0ab71a64bab44cd
+    new: 4253fe22b137c4ee68f36b707fdb1b44b191edc4
     log: |
-         e2b462ac574ef330caf4aac7dd566c50fb1f9d1f plan: add Chuck Lever's "file" cover strategy to the 0.17 roadmap
-         a68abeaee97923d8b6c6a073027d3fb53f0f57fb shazam: fall back to non-interactive merge when stdin is not a tty
-         b46ff38a110c3f830798a969a966b65fbddada62 tests: cover shazam -M with stdin at EOF
+         4253fe22b137c4ee68f36b707fdb1b44b191edc4 HID: magicmouse: re-enable multitouch after reset-resume
+         
+  - ref: refs/heads/for-next
+    old: 876c5692bbf888bad37888213e8e76485743f4b6
+    new: be63bae7297763ed4a429306106fc83d70347b0b
+    log: |
+         4253fe22b137c4ee68f36b707fdb1b44b191edc4 HID: magicmouse: re-enable multitouch after reset-resume
+         be63bae7297763ed4a429306106fc83d70347b0b Merge branch 'for-7.2/upstream-fixes' into for-next
          
