@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============8119538103825415596=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 03 Aug 2026 18:55:31 -0000
-Message-Id: <178578333176.2821350.9880336331852875684@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 19:01:11 -0000
+Message-Id: <178578367131.2825329.10616813115400611690@gitolite.kernel.org>
+
+--===============8119538103825415596==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,27 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
-  - ref: refs/heads/for-7.3/intel-thc-hid
-    old: 447c7737ab9e399f31a928e0a51ed9b3ab9a4d95
-    new: b6fc74d818479945b0eb15a7b07f21eba9907aea
-    log: |
-         1d46b8d406550896a2f996eb36823be1f72e939a HID: Intel-thc-hid: Intel-thc: Add API to reset read DMA
-         2e045a140cf06a445eccbb1a197c2827defc3172 HID: Intel-thc-hid: Intel-quicki2c: Refine recover callback
-         b6fc74d818479945b0eb15a7b07f21eba9907aea HID: Intel-thc-hid: Intel-quickspi: Refine recover callback
-         
-  - ref: refs/heads/for-7.3/roccat
-    old: 7a5f1acd06e5d195cf0934b68256536e5404ef47
-    new: bbff0ccbff360a5498075525005f6a913239a3d7
-    log: |
-         bbff0ccbff360a5498075525005f6a913239a3d7 HID: roccat: free buffered reports when destroying device
-         
   - ref: refs/heads/for-next
-    old: 9f8e8d4c1e1eef36b39f80da8fd23e67609f5d34
-    new: 4af86c404dce80e05517f515b7c030d3e15e8b20
-    log: |
-         1d46b8d406550896a2f996eb36823be1f72e939a HID: Intel-thc-hid: Intel-thc: Add API to reset read DMA
-         2e045a140cf06a445eccbb1a197c2827defc3172 HID: Intel-thc-hid: Intel-quicki2c: Refine recover callback
-         b6fc74d818479945b0eb15a7b07f21eba9907aea HID: Intel-thc-hid: Intel-quickspi: Refine recover callback
-         bbff0ccbff360a5498075525005f6a913239a3d7 HID: roccat: free buffered reports when destroying device
-         4af86c404dce80e05517f515b7c030d3e15e8b20 Merge branches 'for-7.3/intel-thc-hid' and 'for-7.3/roccat' into for-next
-         
+    old: 4af86c404dce80e05517f515b7c030d3e15e8b20
+    new: 2caf9fe6d30d55c5406228918aac8869144320ff
+    log: revlist-4af86c404dce-2caf9fe6d30d.txt
+  - ref: refs/heads/for-7.3/steam
+    old: 0000000000000000000000000000000000000000
+    new: fcfa7db89f7a00c220146695668842de34210d63
+
+--===============8119538103825415596==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4af86c404dce-2caf9fe6d30d.txt
+
+749111cf5cbd348e6ad439a032bddb969a1ad583 HID: steam: Update documentation
+3d3c6ab5b07e16ed73070076e4b7f5130da2404f HID: steam: Refactor and clean up report parsing
+6afec3c8fff2af0050ca802c9b731303ce0e2b8e HID: steam: Rename some constants that got renamed upstream
+2eb7cf02b52156ebd19c7c14a7f5228c6adfcf97 HID: steam: Add support for sensor events on the Steam Controller (2015)
+1d4549fd1115a5e2eda08797e37a037ab1732557 HID: steam: Coalesce rumble packets
+cd33a91d37eb4d7c6ce56aa7f4688066309808eb HID: steam: Fully unregister controller when hidraw is opened
+ddce9641ce924ed91ec8304577e463823a29ffaf HID: steam: Rearrange teardown sequence
+de435b770cd9492b803346b84df69fe345b845f2 HID: steam: Improve logging and other cleanup
+9f8ee99f831b2711624ef81d0abba1d183f28b09 HID: steam: Zero-initialize reply in serial lookup
+33ff7b49c38b39b1f3d27db508ac0720fb25c08a HID: steam: Reject short reads
+fcfa7db89f7a00c220146695668842de34210d63 HID: steam: Retry send/recv reports if stale
+2caf9fe6d30d55c5406228918aac8869144320ff Merge branch 'for-7.3/steam' into for-next
+
+--===============8119538103825415596==--
