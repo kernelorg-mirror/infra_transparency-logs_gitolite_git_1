@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 03 Aug 2026 00:14:41 -0000
-Message-Id: <178571608117.1711508.18428213866127214574@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 00:18:29 -0000
+Message-Id: <178571630945.1715161.17893774711449609555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: eb3e156b50d4847f002f1996631d4592910bd839
-    new: ab1cc19d0352b30da2792c4e6c4e722909fcdf21
+    old: ab1cc19d0352b30da2792c4e6c4e722909fcdf21
+    new: 0b843378be66c15cb11ba76038e9cd4dfa62d3c6
     log: |
-         ab1cc19d0352b30da2792c4e6c4e722909fcdf21 man/man3/memccpy.3: CAVEATS: Document that this function is not appropriate for strings
+         0b843378be66c15cb11ba76038e9cd4dfa62d3c6 man/man3/stpncpy.3: CAVEATS: Remove unreal recommendation
          
