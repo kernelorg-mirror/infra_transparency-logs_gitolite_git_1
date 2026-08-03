@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8307210696745859007=="
+Content-Type: multipart/mixed; boundary="===============3742175993743709451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 03 Aug 2026 19:14:31 -0000
-Message-Id: <178578447154.2835704.4901430135286037808@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 19:14:32 -0000
+Message-Id: <178578447272.2835787.18294969318654841259@gitolite.kernel.org>
 
---===============8307210696745859007==
+--===============3742175993743709451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: d699a5da103942fdc0a8a5383359bdec01fc19dd
     new: 7bcc15b25674b7443a69b887e2b223366a3ad26a
     log: revlist-d699a5da1039-7bcc15b25674.txt
 
---===============8307210696745859007==
+--===============3742175993743709451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b27b15d06e664d72d477ca576dcf7ca588cadd49 Docs/translations/it_IT: sync changes.r
 816d9992d9ed434ec52cfbd63080d518e535a41b coding-assistants: simplify attribution
 7bcc15b25674b7443a69b887e2b223366a3ad26a docs: xforms_lists: support DEFINE_IDTENTRY_IRQ()
 
---===============8307210696745859007==--
+--===============3742175993743709451==--
