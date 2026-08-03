@@ -1,82 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3669580245539789752=="
+Content-Type: multipart/mixed; boundary="===============1844269046774335424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Mon, 03 Aug 2026 13:03:51 -0000
-Message-Id: <178576223162.2530130.16154810423356596581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Mon, 03 Aug 2026 13:07:31 -0000
+Message-Id: <178576245182.2533663.4631178133815080275@gitolite.kernel.org>
 
---===============3669580245539789752==
+--===============1844269046774335424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/merge
-    old: e15474c8dfc2526f582e268565dd2af41c13b1ce
-    new: c29abb2e0d79f53042a971bc455ee0c6d28b9ccc
-    log: |
-         c29abb2e0d79f53042a971bc455ee0c6d28b9ccc Revert "KVM: PPC: Book3S HV: Validate arch_compat against host compatibility mode"
-         
-  - ref: refs/heads/next-test
-    old: fa40f9dbdd4af53e7445d9135b5b207eb8adf372
-    new: c87e12326207bb9bb7a9f848f7ea0f4d36715e9a
-    log: revlist-fa40f9dbdd4a-c87e12326207.txt
+  - ref: refs/heads/soc_fsl
+    old: 044667223313f901454960a572120b0a83f705ce
+    new: ab71a25d6658d2412c74bdd1158cc5fb805cab9e
+    log: revlist-044667223313-ab71a25d6658.txt
 
---===============3669580245539789752==
+--===============1844269046774335424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-044667223313-ab71a25d6658.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1785762226 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1785762225-c5adee2ab34b0fa791ce4d06569bc8fbc0bbb083
+e2414b289c2b68afab361def612ca3791cd70d12 soc: fsl: qe: properly scan GPIO nodes at startup
+4175a6c0e964dfbe53557b9a74a9ec1005fe5303 drivers/bus/fsl-mc: Use strscpy() to copy strings into arrays
+20a8c2530247be7ab4b5cb8896a5897e66324d42 MAINTAINERS: Update drivers/soc/fsl/dpio maintainer
+92eed60bf3c4d1beea686f51c10a81293417b8c4 soc: fsl: dpio: Remove redundant dev_err()
+e460ef309f44b39480209970f1dd462f051d6f30 soc: fsl: qe: implement get_direction()
+7e47fe56415847732419ca8cef9307bf111dd368 soc: fsl: qe: Add chained_irq_{enter,exit}() calls in cascade handler
+890af4d0464ef10f61a30c69295075f2a6e09a1a dt-bindings: soc: fsl: qe: Set #interrupt-cells to 2 to support interrupt type encoding
+b6a375b38c279a22149b08426e80a0947baa2eb2 dt-bindings: soc: fsl: qe: Convert QE GPIO to DT schema
+5ddc1624b3aca9c63712f3a5be578c6c3b222627 dt-bindings: soc: fsl: qe: Add support of IRQ in QE GPIO
+9727108464115732a9957f268be510a916a13c07 soc: fsl: qe: Use generic_handle_domain_irq()
+0887d5f68c9c3413acf4d1e083dd83f1be4205ee soc: fsl: qe: Iterate over all pending interrupts in cascade handler
+feaa9dc2a792e1d0766960368f911bc6b4feaa20 soc: fsl: qe: Handle spurious interrupts
+159dae1b6b76d34b0e55c486a48cfd05ddf82f72 soc: fsl: qe: Convert to generic IRQ chip
+17ee1c7e48a36d4e03a24092674abfd07751c0f2 soc: fsl: qe: Rename irq variable to parent_irq
+e75fcf32f93ef32cd020a63ffc1808303655a43b soc: fsl: qe: Add support of IRQs in QE GPIO
+7b771dc8425e89984de5b7e6bb651f2f6e0058aa bus: fsl-mc: Remove redundant dev_err()
+7bcaa4f39ac01ceb2c2ed88c2de32ed01266a0ac soc: fsl: fix kernel-doc warnings and typos
+3e7c937f1074ca76528db7f5c9df63af7ab85eaf soc: fsl: dpio: fix kernel-doc typos
+30d0872877774176c340c7425ec3140da33e5d4b soc: fsl: guts: perform fsl_guts_init() error teardown in reverse order of setup
+dde14c20a2433d97b9060730f25f1696bc66776b soc: fsl: guts: use a macro to encode the DCFG CCSR space
+70d3f6053696997dae577839ba4d6ad32266cd0f soc: fsl: guts: add a global structure to hold state
+ae8f8d041d2010ae077f23f2a22c19037c53220d soc: fsl: guts: add a central fsl_guts_read() function
+85489d29650618a38ad6702e8a3809dabdc8742b soc: fsl: guts: make it easier to determine on which SoC we are running
+7d48564602b68173bd9d323cc68d07e755ca85ec soc: fsl: guts: make fsl_soc_data available after fsl_guts_init()
+1b29770f76ba01e8bbf9b34d413eb57efac2ab4e dt-bindings: fsl: layerscape-dcfg: define DCFG_DCSR region
+7a22ac87828e7f9969d64041945619765a4562fd soc: fsl: guts: implement the RCW override procedure
+1cd9d214c7122c44a4caab937ecdb58f8d3d1932 phy: lynx-10g: use RCW override procedure for dynamic protocol change
+060325071fab5d889740f6393e4e8ecd990e6cd1 soc: fsl: qe: check platform_driver_register() in qe_ic_of_init()
+ab71a25d6658d2412c74bdd1158cc5fb805cab9e bus: fsl-mc: drop unused assignment of acpi_device_id::driver_data
 
-e15474c8dfc2526f582e268565dd2af41c13b1ce c29abb2e0d79f53042a971bc455ee0c6d28b9ccc refs/heads/merge
-fa40f9dbdd4af53e7445d9135b5b207eb8adf372 c87e12326207bb9bb7a9f848f7ea0f4d36715e9a refs/heads/next-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmpwkbIACgkQpnEsdPSH
-ZJTRQA/+M5oJnC9nvgXeGLh+ydtHIPNfKlFH2Pd3uiJ9lFEJzd7Pm0mClP9s/O7r
-bVIYpZlVLDkCAyrNjkxlypSmYqv0SeykHQMId69bgo240Huf6Mq2h/cUcR9DvEik
-eD71rWy0DFde0ipgLOyJQWVmPcV5PMwghdT4mJ2ItK8S4SOfnnze6fMytFrANJw2
-CWuT6GbtlNken0iWZFaI7n92QUnSmhY8hSo7D2sgIbqfp2H/B4SnhOLAGn6XI0e3
-FPg3UbqxGlOkpqfDyGUgkw7JRFjL4a30FhQZxS5d/xC6Dt6CO2R/neJQaKUOzZRo
-qMdA0XLcdZSpNf+oTbJR5+SUkn5lpOqOVt+BfCOebZ9OrBVKmRl40NkicyDtQhfs
-8zQrs35lgF/anvM0Tqpl2uIKv3Tn4YGaQpUKqQ4w6wFJCQDa/3mHpEmQ2Q75vL1F
-FOez6Anlw5lq2bYdYZWlsejP83bJNE+NmNtp77lEI00+rt28pKq+7jDhTipkq52P
-Dg6mv3LdwCL/TpRsg3YRti8VtcapubHaTjiaOa6VRcqEOHMJmoSd9k+Q6UDTakHi
-DKW3lFBljzTp3RFUnuWDCRZ/xOmQj7I0UM8yMb+gNtYtp8j4tvxPuRLaPhyH9+9q
-2ms8HYsq8iYrN1L11GLF7vEFGINEdxweFfZaM3lVQMYmAFXLcX8=
-=OtNt
------END PGP SIGNATURE-----
-
---===============3669580245539789752==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa40f9dbdd4a-c87e12326207.txt
-
-f068fca7e8b7014014296b0e458ba9c5aa77f954 powerpc/xive: make xive IPI allocation NULL-safe
-ab5ae5dceb86614f6c9e7488f91b652000edfdc5 powerpc/xive: add error return value to xive_smp_probe()
-411a3c016e7a95f5fa105a0587e07d0647a77727 powerpc/xive: propagate IPI init errors to prevent use-after-free
-37d401c9c4b89c3c193726e177493ef06c657f40 powerpc/xive: defer setting cause_ipi until IPI init succeeds
-5aabc192702defb8950e7c81b05c3f4ca8ee43ec powerpc/smp: add NULL guard for cause_ipi in smp_muxed_ipi_message_pass
-884ea0283f4effac97ee8f451464a7d1be480d7c KVM: PPC: Book3S HV: Validate arch_compat against host compatibility mode
-516a254918453ec99660201263d01189c082332c powerpc/pseries: Move H_WATCHDOG definitions to a common header
-e65b526affa621b50646cafdf6b06505af07032e powerpc/pseries: Handle and log pseries-wdt registration failures
-fb43ba4256543ce18ca0540fc37022bda438a293 powerpc/crash: stop watchdogs before booting kdump kernel
-69cb2be898be6d5826cacd1a628f6945a24480b6 powerpc/syscall: Fix syscall skip handling for seccomp and ptrace
-e8ee988c0087248324dbd3da486d22045e4a4079 powerpc64/bpf: Fix build break in bpf_jit_emit_func_call_rel()
-e1e5e682511eda648aa91372542cc8f665ad0bff powerpc64/bpf: Fix build break for arch_bpf_timed_may_goto
-00be69070d91d2be978e752bb117a0a4db0e1281 powerpc/irq: Fix missing r2 clobber in PCREL inline assembly
-76ea1257924f64521f708db91c99014ce7249bbf powerpc/64s: Clarify copy_and_flush() cache sync loop comment
-c87e12326207bb9bb7a9f848f7ea0f4d36715e9a KVM: PPC: Validate irqchip index in MPIC routing
-
---===============3669580245539789752==--
+--===============1844269046774335424==--
