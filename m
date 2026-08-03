@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 03 Aug 2026 21:23:03 -0000
-Message-Id: <178579218304.2945107.945334329454731854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 03 Aug 2026 21:27:21 -0000
+Message-Id: <178579244163.2949465.15229064791103159138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: eb829375ad1105dbebbed98113df209bd92dc5ef
-    new: 62c5a3c2f841dd6533a9009e6ab4fee104bf3b04
+  - ref: refs/heads/main
+    old: af39eb111ce6b5eba9c08513b62c4868eb7e7fd5
+    new: d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824
     log: |
-         62c5a3c2f841dd6533a9009e6ab4fee104bf3b04 review-tui: hide the D binding when no other revisions are known
+         0e125ecfe20c077625cf0be8d750d5c3abc0dce9 tcp: do not change rcv_ssthresh in tcp_measure_rcv_mss()
+         9f2cf069a9a72a2d6b97ca8b4c70e714aac99749 sctp: keep chunk->transport in step with the list it is queued on
+         d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824 ipv6: fix Route Information option length validation
          
