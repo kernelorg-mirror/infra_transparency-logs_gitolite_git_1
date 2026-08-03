@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8847726725012553485=="
+Content-Type: multipart/mixed; boundary="===============0640403839467087056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 03 Aug 2026 09:04:47 -0000
-Message-Id: <178574788740.2185000.11059709751647745949@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 09:05:04 -0000
+Message-Id: <178574790492.2187233.14930905796722428948@gitolite.kernel.org>
 
---===============8847726725012553485==
+--===============0640403839467087056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: ab20614793ab50f900e655be38b7b9ab2241fbdb
-    new: ea53a2fed84d2e1181a19aafe8c4b403120b5045
-    log: revlist-ab20614793ab-ea53a2fed84d.txt
+  - ref: refs/heads/m68k-queue
+    old: ec7f1bebc572fc2e0bb6fa66979ebfa8dd679682
+    new: b679a027ea480828cb67ac4a3d6a5262729657ee
+    log: revlist-ec7f1bebc572-b679a027ea48.txt
 
---===============8847726725012553485==
+--===============0640403839467087056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab20614793ab-ea53a2fed84d.txt
+Content-Disposition: attachment; filename=revlist-ec7f1bebc572-b679a027ea48.txt
 
 9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
@@ -641,6 +641,8 @@ e1f05cd3fc71f14a63015143bf7fa5a7e3731aec Merge tag 'perf-urgent-2026-08-02' of g
 0e672789d442d3ef08f30b7cd50cbc685f7956a2 Merge tag 's390-7.2-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 075b74841bd0065a3bda3440873c747938e69b68 Linux 7.2-rc6
-ea53a2fed84d2e1181a19aafe8c4b403120b5045 Merge tag 'v7.2-rc6'
+7a5fddea14861c13ac11c195caeb19bfdd621ce4 m68k: atari: usb: Add ISP1160 USB host controller support
+0f7e940956acee2f208014872ed5d1f3428701b7 m68k: atari: Update Kconfig.bus help text
+b679a027ea480828cb67ac4a3d6a5262729657ee m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8847726725012553485==--
+--===============0640403839467087056==--
