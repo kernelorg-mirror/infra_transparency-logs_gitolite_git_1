@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 03 Aug 2026 21:27:21 -0000
-Message-Id: <178579244163.2949465.15229064791103159138@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 21:30:31 -0000
+Message-Id: <178579263161.2952478.12731770018364720479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: af39eb111ce6b5eba9c08513b62c4868eb7e7fd5
-    new: d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824
+    old: d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824
+    new: d1000fd7995e51deec872d154e0a40d82f7a539f
     log: |
-         0e125ecfe20c077625cf0be8d750d5c3abc0dce9 tcp: do not change rcv_ssthresh in tcp_measure_rcv_mss()
-         9f2cf069a9a72a2d6b97ca8b4c70e714aac99749 sctp: keep chunk->transport in step with the list it is queued on
-         d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824 ipv6: fix Route Information option length validation
+         d1000fd7995e51deec872d154e0a40d82f7a539f bnxt: fix memory leak in bnxt_queue_mem_alloc error cases
          
