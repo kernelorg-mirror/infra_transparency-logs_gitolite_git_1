@@ -1,29 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 03 Aug 2026 01:30:49 -0000
-Message-Id: <178572064971.1775374.10459598800465180839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 03 Aug 2026 01:33:54 -0000
+Message-Id: <178572083450.1776478.566782907590136282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 337e5910dcbc38a656e446a6c8a7b37bd496f476
-    new: 50411cada028f54d859d4b2361c1d87168562c49
+  - ref: refs/heads/seen
+    old: 642eb2611b810bd7ad18c5a3b1a001eb4a9c9396
+    new: 38a489ac9c43e7e517700745791577d8da2c54e1
     log: |
-         116087d9db1502de054fb0453fdb002c0562019d Input: samsung-keypad - clean up wakeup configuration logic
-         9ce8270e30f567a10a9f98083084938e02de957d Input: samsung-keypad - keep interrupt disabled while closed
-         50411cada028f54d859d4b2361c1d87168562c49 Input: samsung-keypad - use pm_runtime_active guard
+         e9423671ca5503a5545128089b49157fc41d50bb completion: complete tracked paths for git diff
+         38a489ac9c43e7e517700745791577d8da2c54e1 Merge branch 'jc/complete-diff-tracked-paths' into seen
          
-  - ref: refs/heads/next
-    old: 337e5910dcbc38a656e446a6c8a7b37bd496f476
-    new: 50411cada028f54d859d4b2361c1d87168562c49
+  - ref: refs/notes/amlog
+    old: 6820906f94255bdcc433f5081222144a37cc830f
+    new: 2702ca91b2cb78044a1a773694f4537b09c43a5e
     log: |
-         116087d9db1502de054fb0453fdb002c0562019d Input: samsung-keypad - clean up wakeup configuration logic
-         9ce8270e30f567a10a9f98083084938e02de957d Input: samsung-keypad - keep interrupt disabled while closed
-         50411cada028f54d859d4b2361c1d87168562c49 Input: samsung-keypad - use pm_runtime_active guard
+         c551545a1f7d78d123a8fb57d991eda9d02784b3 Notes added by 'git notes add'
+         2702ca91b2cb78044a1a773694f4537b09c43a5e Notes added by 'git commit --amend'
          
