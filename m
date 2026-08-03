@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3815323168790401066=="
+Content-Type: multipart/mixed; boundary="===============2108956995333281620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 03 Aug 2026 13:16:39 -0000
-Message-Id: <178576299991.2543572.16655442821558639824@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 13:16:46 -0000
+Message-Id: <178576300617.2543804.3296974720309822584@gitolite.kernel.org>
 
---===============3815323168790401066==
+--===============2108956995333281620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 106c31f3d72c56fce98bb2f0e8b3de1a0024228d
-    new: 4063bb9edf3394b8c8dad0140d6bdf6e93a3f53a
-    log: revlist-106c31f3d72c-4063bb9edf33.txt
+  - ref: refs/heads/nfsd-next
+    old: 0361033e6de78c9f4458764c84f5a8394bd238ab
+    new: f96af04615d70b673dd80fd7a02c0e4459e52a12
+    log: revlist-0361033e6de7-f96af04615d7.txt
 
---===============3815323168790401066==
+--===============2108956995333281620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-106c31f3d72c-4063bb9edf33.txt
+Content-Disposition: attachment; filename=revlist-0361033e6de7-f96af04615d7.txt
 
 9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
@@ -812,56 +812,5 @@ d91538c90709a5fb4443bddd51ec113e02df9f17 NFSD: Move the export.h include from nf
 0840e5755839c061a05595abe11569a6a5ac0aa9 NFSD: Relocate nfsd_user_namespace()
 bcb0be8e3c6555437f5885bb080c9f1026e8e146 NFSD: Relocate nfsd4_set_netaddr()
 f96af04615d70b673dd80fd7a02c0e4459e52a12 NFSD: Relocate NFSv4 "supported attributes" to new header
-98cf231c133c86970b5189f4c94fb1f6b8303d78 NFSD: Fix off-by-one in DRC bucket pruning limit
-b4873377a983acc2547eee94135e342559cba305 NFSD: Eliminate percpu counter contention in DRC memory accounting
-7da1ee5a5ffda295ef4f3159b3facf54e279fd7b NFSD: Eliminate percpu counter contention in reply cache statistics
-103254033ae649495e6eda4dfcb65b315820399d NFSD: Eliminate percpu counter contention in IO byte accounting
-9808ed9f7f9e689114529e8b83d5032c7c3f83fa NFSD: Document reply_cache_stats ABI
-ca9b7c3fe4669a38932f18e6ccb183a9466928aa sunrpc: add per-netns per-procedure call counts to svc_stat
-55ce3f333d5b71b0a0b0e361851f9f9b11af9606 sunrpc: use per-net counts in svc_seq_show()
-640b0f3792b471009de89e2a3c85f35d6d2e7bf0 nfsd: implement server-stats-get netlink handler
-e2cf14b3b0b2cec441f74f26b028baf9836e46bb sunrpc: remove unused svc_version vs_count field
-1f5775b9561d936eff546a65b13b0fa5e1521c7a nfsd: count NFSv4 callback operations per netns
-1ae1c2fe29360fc19100634213f90cba8afb8e44 nfsd: export NFSv4 callback op stats via netlink
-5800a27641d3b2df7d9fee448c8ef73f08e9197c nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1
-521a2ac70a321cce1808f5d9c271bcee6a0e8852 nfsd: move check_nfsd_access() call into nfsd_cross_mnt()
-16d6891c0b815208b84edf49b3634e25de4b8072 nfsd: correctly handle CREATE of mounted-on files
-476b9dedcdc5e6f6acc9c3e6a0e2967be87fee54 nfsd: replace fh_fill_both_attrs() with fh_fill_post_noop()
-b75454380182ae40365cbb38911b42fb29d2a293 nfsd: move fh_want_write() after preamble in nfsd4_create_file()
-6f20527c46590771c052e0cbdbc951254da4b5c9 nfsd: move more nfs-specific code into preamble of nfsd4_create_file()
-90c7f17111d77421c63d4913f993ec4e037f6f18 nfsd: remove subtlety from nfsd4_create_file()
-9c052d9ccbe3b6ffa78af0f59bbc93cdf83f0ede nfsd: in nfsd4_create_file() let VFS report if file was created.
-74be0a69ed3aa227018d562f20862301011a2bf0 nfsd: nfsd4_create_file(): Move NFSD_MAY_CREATE check earlier
-6c4d9ed0814d20a60a1f3fb204a4f22b9702724d nfsd: fh_want_write) failure need not be immediately fatal for nfsd4_create_file()
-42ebfa6709f3d0ae5d045f8ec226578ca768a7f1 nfsd: (almost) always open file in nfsd4_create_file()
-60f279f03e684539ec432594eb674ffb988741b5 nfsd: reduce range of directory lock in nfsd4_create_file()
-671074c1e6bb8e36dbf65f97c1ea324cfde8a4d4 nfsd: open-code nfsd4_vfs_create() into nfsd4_create_file()
-98de5ba250d143351635a67568cbd278339783a3 nfsd: move some code out of the d_really_is_negative() branch in nfsd4_create_file()
-dd12f7d78b20e8c43a3c92ff3bc15e8fcbeadfd9 nfsd: reduce want-write range in nfsd4_create_file()
-b2c4682a8a158f517e5c697e9a4a38407e8aee6c nfsd: move v0 checking out of nfsd_check_obj_isreg()
-5ffad423b363935d213d232d29543e3ede53f9bc nfsd: separate out VFS-specific code from nfsd4_create_file()
-a5df6e753cf7a20e62e3bcb311fb7f4c8a1e4834 nfsd: use do_lookup_open() for non-creating open requests too.
-a3a9ff46e51468b2dd5b9dd4ade6fc5ffe17d632 NFSD: Move XDR encoding helpers out of xdr4.h
-bb75c67f52643e64fe5e48dd40f57d035ecfcc7a NFSD: Move pre-xdr'ed status codes out of nfsd.h
-942f258c37e01c7c4cfafc2edf23ba474e700c11 NFSD: Remove two unused NFSv4 constants
-e6a84ae8a40e034913a21be3e73a08906ef735aa NFSD: Relocate NFSv4-internal constants to state.h
-5c1b9a46cfd25b97e6da54acadc1b50f7e0aff89 NFSD: Evacuate NFSv4 entry-point prototypes from nfsd.h
-780b832dbd3aa992aefb02aa1299358f2d5dbd94 NFSD: Move nfsd_v4client() out of nfsd.h
-16c6277a90767f989d85b8ce67b1ca352ee80ae4 NFSD: Map flex file layout IDs through the request's user namespace
-8ea7731c3df498fc05c6eb6220faa9d265b5f61d NFS: Add linux/nfs_fh.h
-5e836fff7eb81e26822dc9c85176cc77797e12a8 lockd: Switch linux/nfs.h to linux/nfs_fh.h
-f0cd5fcb52a3ee7cf1c7e5d08576c77eca58f497 NFSD: Use struct knfsd_fh in struct pnfs_ff_layout
-5ae62e312f4aa474932c12ffb9f71a187b2341d8 nfs_common: Remove unused nfs_ssc_client_ops infrastructure
-0ff3bf477343f5574d2c9c6dd5c87a85c11b76a2 NFSD: Hoist nfs42_ssc_open() into fs/nfs_common/nfs_ssc.c
-3566e08b53f8c13dc2e4d20f3fb4fc183883daef nfs_common: Synchronize access to the SSC client ops table
-b4ea2bcac914d1a23ac9cfc5a0712b43b3e3865f NFSD: Split linux/nfs_ssc.h
-3222892eec50d5931f320969855d97a49c536a6f NFS: Move definition of enum nfs3_stable_how
-a543ee7e2970967642bae3da74fd82c1a9c7c3d4 NFSD: Replace nfsd_write()'s "stable" argument with "iocb_flags"
-5dee786a8a2b268fa7242962b10560fbb729ac1f nfsd: fix race between client_info_show() and free_client()
-e15756fd4304a23f696aae1115f40446040a18f0 NFSD: Move the RPC program definition for LOCALIO
-2c59a3fa9287a7d12bf2051c0c92ce758e60e1ef nfs_common: Remove "#include <linux/nfs.h>" from linux/nfslocalio.h
-1154e7ca4e442c231f0317ed7ca9b99d0df2eb63 NFSD: Tighten header includes in localio.c
-e1d5efdb9d418dc6416efa94058a594bdd54a837 NFSD: Name the fh_maxsize value that carries no NFS version
-4063bb9edf3394b8c8dad0140d6bdf6e93a3f53a NFSD: Don't apply NFS version-specific behavior to LOCALIO requests
 
---===============3815323168790401066==--
+--===============2108956995333281620==--
