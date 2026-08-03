@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2712888118646466373=="
+Content-Type: multipart/mixed; boundary="===============2380773783467076260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Aug 2026 16:54:07 -0000
-Message-Id: <178577604722.2716646.4902936579483157263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 03 Aug 2026 16:54:09 -0000
+Message-Id: <178577604918.2716733.5980584348553036622@gitolite.kernel.org>
 
---===============2712888118646466373==
+--===============2380773783467076260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 075b74841bd0065a3bda3440873c747938e69b68
     log: revlist-3708dd948844-075b74841bd0.txt
 
---===============2712888118646466373==
+--===============2380773783467076260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -367,4 +367,4 @@ e1f05cd3fc71f14a63015143bf7fa5a7e3731aec Merge tag 'perf-urgent-2026-08-02' of g
 f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 075b74841bd0065a3bda3440873c747938e69b68 Linux 7.2-rc6
 
---===============2712888118646466373==--
+--===============2380773783467076260==--
