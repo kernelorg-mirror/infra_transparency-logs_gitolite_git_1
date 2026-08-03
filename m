@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 03 Aug 2026 22:55:32 -0000
-Message-Id: <178579773233.3016410.5116404370974042897@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 22:55:35 -0000
+Message-Id: <178579773577.3016551.5284169975271377277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20260729-kvm-arm64-idreg-final-77cbc46b558a-v2
-    old: 0000000000000000000000000000000000000000
-    new: 0a0f69ac4d81aeab9ea3aa951dcec51ad21c876e
+  - ref: refs/heads/kvm-arm64-idreg-final
+    old: ae191639a262f7f58677242a5daa285f76b5af28
+    new: cd76cbdfa188bf197e51f8de8deca5e6ac25ff55
+    log: |
+         2161fd2b09115bd6bcec7cb6e502d050cdb2bfac KVM: arm64: ID register finalisation fixes
+         927cfa919e0b8cbf33018751a51ac86734430366 KVM: arm64: Finalize guest-wide sysregs prior to per-vCPU sysregs
+         cd76cbdfa188bf197e51f8de8deca5e6ac25ff55 KVM: arm64: Block ID register changes after we rely on the values
+         
