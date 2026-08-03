@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 03 Aug 2026 23:17:57 -0000
-Message-Id: <178579907750.3034081.1165955350575646647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 03 Aug 2026 23:21:32 -0000
+Message-Id: <178579929294.3037539.6635741972063131023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/experimental
-    old: 3dc93b4b84f3257e749e322baa8ee9a9100b9c91
-    new: b260119b8edba42af444e8f782c81acc0624dcdb
+  - ref: refs/heads/main
+    old: d661abdc30c254649c32ef6e0aa1e621e04ff0a7
+    new: e8aaf6ba33c7d875523fcbae20fbd70ab57f9c48
     log: |
-         b260119b8edba42af444e8f782c81acc0624dcdb erofs-utils: mkfs: emit an inode's xattrs in a canonical order
+         e8aaf6ba33c7d875523fcbae20fbd70ab57f9c48 netxen: unregister notifiers if PCI registration fails
          
