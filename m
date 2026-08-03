@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5005504441514460182=="
+Content-Type: multipart/mixed; boundary="===============0944128348331390009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 03 Aug 2026 22:51:19 -0000
-Message-Id: <178579747911.3012704.18374170087879164601@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 22:51:21 -0000
+Message-Id: <178579748146.3012814.3745963899948670897@gitolite.kernel.org>
 
---===============5005504441514460182==
+--===============0944128348331390009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 2812e64e1575e05500a35c405aaa6e99b7d7930b
     new: d1000fd7995e51deec872d154e0a40d82f7a539f
     log: revlist-2812e64e1575-d1000fd7995e.txt
 
---===============5005504441514460182==
+--===============0944128348331390009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ af39eb111ce6b5eba9c08513b62c4868eb7e7fd5 net/mlx5: fw_tracer, return NULL on cre
 d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824 ipv6: fix Route Information option length validation
 d1000fd7995e51deec872d154e0a40d82f7a539f bnxt: fix memory leak in bnxt_queue_mem_alloc error cases
 
---===============5005504441514460182==--
+--===============0944128348331390009==--
