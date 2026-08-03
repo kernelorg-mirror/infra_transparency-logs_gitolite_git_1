@@ -1,42 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3742175993743709451=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 03 Aug 2026 19:14:32 -0000
-Message-Id: <178578447272.2835787.18294969318654841259@gitolite.kernel.org>
-
---===============3742175993743709451==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 03 Aug 2026 19:16:39 -0000
+Message-Id: <178578459974.2838967.11080422300471316835@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/docs-next
-    old: d699a5da103942fdc0a8a5383359bdec01fc19dd
-    new: 7bcc15b25674b7443a69b887e2b223366a3ad26a
-    log: revlist-d699a5da1039-7bcc15b25674.txt
-
---===============3742175993743709451==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d699a5da1039-7bcc15b25674.txt
-
-5ffcd42a9af340764f9bd0ce3f50b156840c196a scripts/kernel-doc: Fix kdoc for Python 3.9-3.11
-8ebbb89c27936dc337e3f25e9c7853767b8d1497 MAINTAINERS: docs: add reviewer
-a88263995bc32c9e6ade0edb12f76181e9ec9326 docs: kernel-parameters: Remove smsc-ircc2 IrDA parameters
-adda90179b35f3bc49bc091383dc558c439c65d7 docs: ipmi: fix word order in create-user description
-3046f4bebd5f322d73afbd1b7fad8ae4ee672284 docs: kdoc_parser: drop extraneous blank line in warning message
-3858d39e55a7fc392211af6e6b317ce3182d8588 Documentation: fix "readng" typo in EDAC memory-repair ABI doc
-b27b15d06e664d72d477ca576dcf7ca588cadd49 Docs/translations/it_IT: sync changes.rst requirements
-1e6c6d69b695410110d8103adc061ed5166cdb6e doc:it_IT: align doc-guide translation
-73d56059fa15f9badde3f8ff9eece712312c1728 docs: pt_BR: process: Translate the security-bugs.rst
-4ada4a44b6abf1bc63bbc08ca3c4669cf2ef8890 docs: translations: pt_BR: translate email-clients.rst
-816d9992d9ed434ec52cfbd63080d518e535a41b coding-assistants: simplify attribution
-7bcc15b25674b7443a69b887e2b223366a3ad26a docs: xforms_lists: support DEFINE_IDTENTRY_IRQ()
-
---===============3742175993743709451==--
+  - ref: refs/heads/for-7.2/upstream-fixes
+    old: 091c05c184f3a75a275ccc7ae29e17125dfaa661
+    new: bfff246b3a31cb45ec297ca5e2a77c1410b207ac
+    log: |
+         934b7778aa7b7c8f6bb073d2a73ba3674885bae0 HID: hyperv: validate initial device info bounds
+         83df7b5fa6735b5084ecd296a0f67208650ba497 HID: hyperv: add KUnit coverage for device info bounds
+         bfff246b3a31cb45ec297ca5e2a77c1410b207ac HID: quirks: Add ALWAYS_POLL quirk for Beitong BTP-KP20D dongle
+         
+  - ref: refs/heads/for-next
+    old: ff8c52cb45e4d93d4279d12a7b1d41da52f677bc
+    new: 75cb5feb881748854e8d23c2f18d76a744bee591
+    log: |
+         934b7778aa7b7c8f6bb073d2a73ba3674885bae0 HID: hyperv: validate initial device info bounds
+         83df7b5fa6735b5084ecd296a0f67208650ba497 HID: hyperv: add KUnit coverage for device info bounds
+         bfff246b3a31cb45ec297ca5e2a77c1410b207ac HID: quirks: Add ALWAYS_POLL quirk for Beitong BTP-KP20D dongle
+         75cb5feb881748854e8d23c2f18d76a744bee591 Merge branch 'for-7.2/upstream-fixes' into for-next
+         
