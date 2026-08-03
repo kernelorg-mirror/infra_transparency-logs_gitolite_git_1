@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 03 Aug 2026 17:33:03 -0000
-Message-Id: <178577838346.2748520.6297506969240089853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 03 Aug 2026 17:35:46 -0000
+Message-Id: <178577854650.2751645.15684541710765712652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: d04ef71492fad7230d474efe33d05f4c0563d409
-    new: dbd2505061349bbee9c3282472f14ae27da8adfd
+  - ref: refs/heads/for-7.2/upstream-fixes
+    old: dd5be4d9ce2dfc4d4a4527ef7d31d21a78e3cdac
+    new: 9dc6fdaaa730b24b535e747db64403926c4d46c3
     log: |
-         3a13ed3111ce45c0735406c03973d1d6792a9c6f perf symbols: Skip dynamic symbols with invalid section indexes
-         dbd2505061349bbee9c3282472f14ae27da8adfd perf build: Fix a build error on 32-bit x86
+         9dc6fdaaa730b24b535e747db64403926c4d46c3 HID: asus: add i2c entry for FA808UM and other TUFs
+         
+  - ref: refs/heads/for-next
+    old: 2720cbb17a8a1ee24a2f7ccef5cce4c0bfaab39f
+    new: df748b61aa4b95e9315b0cb08bf456a82df1cbee
+    log: |
+         9dc6fdaaa730b24b535e747db64403926c4d46c3 HID: asus: add i2c entry for FA808UM and other TUFs
+         df748b61aa4b95e9315b0cb08bf456a82df1cbee Merge branch 'for-7.2/upstream-fixes' into for-next
          
