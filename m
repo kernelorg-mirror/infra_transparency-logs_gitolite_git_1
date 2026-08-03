@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4245015696288297548=="
+Content-Type: multipart/mixed; boundary="===============0722489429520252576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 03 Aug 2026 15:24:35 -0000
-Message-Id: <178577067539.2645428.10220462490034595641@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 15:26:14 -0000
+Message-Id: <178577077461.2648318.9812854815792432991@gitolite.kernel.org>
 
---===============4245015696288297548==
+--===============0722489429520252576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 134044e9fa33b599dd57d15c818cba1f3618cab3
-    new: c2f811314be351d86b6ab41e9297ae80d8da6f86
+    old: c2f811314be351d86b6ab41e9297ae80d8da6f86
+    new: f3988e68fc089f6a5883f4f807955a3825bb7d45
     log: |
-         50b303f3d0f7de543ee90d50879970783d06da33 usb: cdnsp: fix incorrect endian conversions for APB timeout register
-         6b1c8a9403a26cb0fed7a648916c74dc236da591 usb: gadget: f_ncm: Use unsigned int for ndp_index
-         7e22c9f79b200672f3e477421b6c9050d8cf70a5 usb: misc: usbio: check ibuf_len against rxbuf_len in bulk msg
-         c2f811314be351d86b6ab41e9297ae80d8da6f86 usb: atm: cxacru: properly kill rcv_urb on error in cxacru_cm()
+         152f174a13618bec1f842d2deb69245cb2ace51f usb: core: Add quirk for 255-bytes initial config read
+         37a6e2f9c30245d06de4d5755a9d8cc1de3923f6 usb: hub: Split announce_device() to log device identity before enumeration
+         f3988e68fc089f6a5883f4f807955a3825bb7d45 usb: quirks: Add ShanWan gamepad to quirk list
          
 
---===============4245015696288297548==
+--===============0722489429520252576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785770660 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785770759 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1785770673-8227748b6408efee6a73298ecc3994073a1f773e
+nonce 1785770772-4949e3e9757de93cb2691fe51a1455756e575a39
 
-134044e9fa33b599dd57d15c818cba1f3618cab3 c2f811314be351d86b6ab41e9297ae80d8da6f86 refs/heads/usb-linus
+c2f811314be351d86b6ab41e9297ae80d8da6f86 f3988e68fc089f6a5883f4f807955a3825bb7d45 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpwsqQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R0UP/idCoA1EvA7Pyb0DTbLp
-Fjk3GG3RpEdyvk0Lb8kr0lWh0tozptHhAKqa76I61HwhosgS+/qkR2pxuBkEh0Rb
-uK/16XC4QMpzGJsfzJs7OYJAAYHu1GdEYxQlM4wqrbuk8nwTFZXA2QPyk3wv8zg+
-JcDhamot4y7PKz6W0MFnz44/s9q13U5tAe8pRu3MmrJy7Y8rzloq2T2Ai4k7SK/o
-BaDE77AGClzMpA81BCgV9Y2bmIbKAuANEFDCSYyXJSVeziI9Q7BZy6MRtn0N7/zj
-gqwIsWdmR+3oN91vM3b6iLoLKc2HDBlo2SmYT5H9CTO/O36Rmnz83fpOPUUqwOTS
-Os4oRXVNGnLhTZO4El/DCRNkYJhrtQsIN5iWziBy7Xwjx4kynn4WoRh5DQvlj/Gt
-sb/t7i5UTjhvvb+GjRWdrbfj+mrDcpprJX/0LMqa4hE6OHLSptZ2+u3Qq9Xj/aKH
-6kThRu6nris6BWz7BYThwVperyBga5fmZRcat77ig7n9b7xyxa+zYzlO8xWFmepw
-RamMXMIK5qZj3kP+p8SKT4PnvQz2hc37kwz3qlfGAA/FYDd9Rqsu6nIIkU/Ip3a4
-oVN5Th/nHc8Wn3jUR3Tqmuma6AHyXDve8ni8n3xF4VALRivAyJDQjmNhwfGQwtJv
-zfKQjjX4r/iAknZgwyGUiZ+g
-=6vcc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpwswcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4wwP/05MszjTT9kasKRx9zzm
+xkVvnWVARixqFrMklYEmtbv5Kp9SqoYSSRI7INiW6kRPSQeTo6TNfz5w30PBV5pb
+Acj527/AYV7t4YrpbNX1PNWI5ZvwMeIJTQmB9xzNRL1kKJr0h96VxWu85IIcXW1g
+tvFScDybdlwWI+0RKUwD21/R7cr/YO2JmhbphTV+AcBmuOVFNJnuGdpIZ2mYenJQ
+sU+lFBi29hoEmfywdjGt+6JpTOUAFFwZH4S5hPUA7FIt32z1MyjrvNNqxhjccwV1
+CfBjhPEysj6/GlXjegPJOGnq6xL1XCci02JDg6rh0vr1IvrWcZ5CwrWV5wfh9Nb+
+RIEoDt+QD+v9CKsFZpDG+Aiygevg/hJALWncp7TodS+7GVQqe0igBOgVb8dXmbHV
+RunNA7nrL5Qu206hoH4SIe2K26ylebaCCIRn3A1rwsQR66YGibYGMkFMDZp32PgF
+Y55RmOGiGpCz0qyjlRF5i1W8waVoK2sWlDr7Q9ljdqfkEQulUJCrxmk6HdAlcqRq
+Ba0HWtR+c8xMHWX5VbHcyxU/0XQW2uhvH+x3Eo7WOy5fOzTXob7pF69u7lzhietd
+YeYB0d+dp2u+S4dytVhOmxKNCR9CW26OiwMOz7QCDdS6VMYcmMF47eviG74yhWIl
+FYFdqhXwEJHZroIvKFbn1Nb0
+=HR0P
 -----END PGP SIGNATURE-----
 
---===============4245015696288297548==--
+--===============0722489429520252576==--
