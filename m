@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 03 Aug 2026 19:25:14 -0000
-Message-Id: <178578511482.2846926.2843628886271097594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 03 Aug 2026 19:26:47 -0000
+Message-Id: <178578520788.2848136.15832853752841674867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-7.2/upstream-fixes
-    old: eb51c9f8cb4f064981d9c6cae13de8eda280785d
-    new: be00988cce4ed44db1e61231d0ab71a64bab44cd
+  - ref: refs/heads/master
+    old: 6c033b2c47928ae51eb1e6c8532d1659be456410
+    new: b46ff38a110c3f830798a969a966b65fbddada62
     log: |
-         be00988cce4ed44db1e61231d0ab71a64bab44cd HID: lg4ff: validate report length before fixed offsets
-         
-  - ref: refs/heads/for-next
-    old: ea7f8f1d467495af01b540a80092651ec54a3c8d
-    new: 876c5692bbf888bad37888213e8e76485743f4b6
-    log: |
-         be00988cce4ed44db1e61231d0ab71a64bab44cd HID: lg4ff: validate report length before fixed offsets
-         876c5692bbf888bad37888213e8e76485743f4b6 Merge branch 'for-7.2/upstream-fixes' into for-next
+         e2b462ac574ef330caf4aac7dd566c50fb1f9d1f plan: add Chuck Lever's "file" cover strategy to the 0.17 roadmap
+         a68abeaee97923d8b6c6a073027d3fb53f0f57fb shazam: fall back to non-interactive merge when stdin is not a tty
+         b46ff38a110c3f830798a969a966b65fbddada62 tests: cover shazam -M with stdin at EOF
          
