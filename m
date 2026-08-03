@@ -1,27 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Mon, 03 Aug 2026 09:18:25 -0000
-Message-Id: <178574870563.2197216.17275443839401833036@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7441132072953563707=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 03 Aug 2026 09:18:26 -0000
+Message-Id: <178574870691.2197324.4284792283134629459@gitolite.kernel.org>
+
+--===============7441132072953563707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 56c410ad0f69da5b13c5807bc47b4876dcfa02b2
-    new: cdee846745477f98a1c9dcf5f7f927256549a779
-    log: |
-         bbb3a73297abd4c5381c4ece9a9c9967c8ee4509 generic/064: allow 50 extents on F2FS after fcollapse
-         361b5e5d5bf9c2a8d2a93af6bbb6b26bbc727731 btrfs: add missing commit IDs to kernel fixes of some tests
-         feb1bf12484df3772dfd44564745bc7288770ef6 generic/761: add to the rw group
-         85c96f44d69346fa546821b9560703f3307fcb76 xfs: test xfsdump subtree restores
-         c5d0fefe6e4830ce8af1a76dc7202ce8708a4f38 btrfs: test POSIX ACL changes for RO btrfs property
-         4f884b59f6a1b4728b6f243f533fad03f5bfddb0 fstests: fix build errors on kernels before v5.1
-         8cd99fc1f3de287aa5b3ac2ba97a645446fb1e1c common/rc: support f2fs in _require_fanotify_ioerrors()
-         4075587bc2907e78214ab0cae801f6cf810cde39 generic/645: notrun if FS doesn't have enough free inodes/blocks
-         cdee846745477f98a1c9dcf5f7f927256549a779 xfs: verify CoW after exchangerange with FILE1_WRITTEN on shared extents
-         
+  - ref: refs/tags/v6.12.101
+    old: 0000000000000000000000000000000000000000
+    new: 5f1c1124e2003a48ba26b38e31be2f13e22b703b
+
+--===============7441132072953563707==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785748693 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1785748705-340eeff1473deb04fc77f0764e39cf2537c5b09d
+
+0000000000000000000000000000000000000000 5f1c1124e2003a48ba26b38e31be2f13e22b703b refs/tags/v6.12.101
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpwXNUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X4EQAMix37HhhkLsl2+mYcyz
+suKhg7NfSB626Mk0V3qv5XfXY937NWNxxqoTX1wOEF75r2b//InFdw7aTbav9nyV
+h3tp+/o5ESLtyBZ1wdqJ1GTaQBkbLsgtEpGdgiFaWFHCOghFdeW9IsVlIjubguUb
+3L22hTh7w+UYw62dpZ9J8bZ3qHfAZUbdoBD05batyfMFeRzXXhrXYp8o3/+jHIHJ
+x/M5fMjKwck54tjOLlOgZxBcY3SF2zK5hwNOQNb/wtIkiYe1R3XpYf4HHGS0atb2
+aTfpBpGPjTQoRCNPoSuGxv1UR3jXB+QhCW+179rVteVn8jOcG6ibOzVxkgYWpxfr
++hbMtAFgpOsD/65vv5Yi1zqNwmHQo4HDS6cb9rakje5GxAnxVwsCHPqfYU+CRWuN
+pcHXHb01uhdHnyCfzcsbJgcWkpS67K6cWkt0oPog6sq/TJP6Q7E1wGc1MIzzcApF
+XXVKxk3l7WYJG6oY0JtE1TUlt76aDToAOOnGCOpvZj7HM8FYgI5dM26LK/ErrRmn
+j8ka8R3CBkMhFheYHBH1tYxwo8IuUHtH4NYTXFVDIB2mMjSSl5i66zBPAoWSJ7hs
+zB7Bfe/lfEFmDJMkqdMPcmXL2PtvAa4wJmP4SBUaHMkeAYVdXvwxFPJpeLxDHRjQ
++vFNKrVMOarrniBA5hailEeB
+=ubsN
+-----END PGP SIGNATURE-----
+
+--===============7441132072953563707==--
