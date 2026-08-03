@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3165366265950706425=="
+Content-Type: multipart/mixed; boundary="===============2764733751774037950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 03 Aug 2026 21:01:03 -0000
-Message-Id: <178579086397.2928384.10372803511156480585@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 21:01:06 -0000
+Message-Id: <178579086637.2928499.9854940366278068134@gitolite.kernel.org>
 
---===============3165366265950706425==
+--===============2764733751774037950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5c458073553f0ef74f5c8db1bd459c87c722a299
     new: d661abdc30c254649c32ef6e0aa1e621e04ff0a7
     log: revlist-5c458073553f-d661abdc30c2.txt
 
---===============3165366265950706425==
+--===============2764733751774037950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ f0667918d5fcaf13c9016a94442726832ff29dd0 net: phy: realtek: add support for RTL8
 8c7badd19e13ceeb7ae34ea0b25fc5e4e13c43d3 selftests: drv-net: enable devmem TCP in the test config
 d661abdc30c254649c32ef6e0aa1e621e04ff0a7 net: ngbe: correct misleading interrupt comment
 
---===============3165366265950706425==--
+--===============2764733751774037950==--
