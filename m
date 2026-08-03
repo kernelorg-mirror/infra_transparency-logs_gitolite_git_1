@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3843736493767851033=="
+Content-Type: multipart/mixed; boundary="===============7395532651580718829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 03 Aug 2026 08:08:56 -0000
-Message-Id: <178574453662.2142803.16017231482744502177@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 08:08:59 -0000
+Message-Id: <178574453943.2142892.1345610877672293929@gitolite.kernel.org>
 
---===============3843736493767851033==
+--===============7395532651580718829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 0656d68827864b55f8f1864ff5dbbd59838e47cd
-    new: df241233a87a6710106976a60b85b58eff418649
-    log: revlist-0656d6882786-df241233a87a.txt
+  - ref: refs/heads/main
+    old: 8ba098e6b6ff0db8edf28528d1552be261af30d4
+    new: 075b74841bd0065a3bda3440873c747938e69b68
+    log: revlist-8ba098e6b6ff-075b74841bd0.txt
 
---===============3843736493767851033==
+--===============7395532651580718829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785744504 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785744525 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1785744516-92aa4a99bffeb47ece0c18b18846ca968c3c93af
+nonce 1785744537-e937a0b377b9b2faf569d05d7760f74e08c6f629
 
-0656d68827864b55f8f1864ff5dbbd59838e47cd df241233a87a6710106976a60b85b58eff418649 refs/heads/clanker
+8ba098e6b6ff0db8edf28528d1552be261af30d4 075b74841bd0065a3bda3440873c747938e69b68 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpwTHgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nGYP/0W1vpQpDVlra7d12tuq
-eVj0eIINTaqEthfTRodSZQdLPaLE3t2HHwjfw7WoboVQZu/ejZXeumBJJFDJg8oF
-GYPkS7NFgh/JofBvgPGdfRYtsYg+k1lZZl2y2IHoJAusqj/l8vkPPUxO4pPB4sNi
-f7XjwOXrxn1pbO+87fbriSHAWyrYdP0Uk0tkmjL3sIuyQ15zNyJhcbs4A0MoVvxe
-PldlnUyEk4hfkq22GdLex1HcKOaPHT+xdId0qJvP56q7wHIujrnCoKywgQkAiik0
-nbrIMBHAgialwDaxXlYv2pqBuC/zPxYTgv+H/ChCCaYDV4mwt2+29sXoCaOUI2LK
-4TdGyHYbJQ+8MXRndioogPAxrSiIBIF9J3WZaLq/95wCgSYGzTpUW69TEABWdfUo
-VTqkvIPQJHjpoAfPua+3qHlXuYGIUDrQOeD6uTJMTBaImviuDQNEadsHVpaMIMoQ
-qzx8HYaEOIxdQnIG+GHAdtZ90yDOH9xmXzgCNREHCsI3ueAUfTkCOYl9K6xHnpOB
-PRW5RD6v5Jc8vQVY49v/UJ/IseykJO7MmoX0PEF2vJ26JvDkKiz/Kv/alzGoCB2N
-bgLMurbKiRx5f6vIzIu0vePEi4HlcOebnb7z9EjrbraK5+MkM99lmPNnGRTRcvWL
-MTb+4s+MIoOz+OSv8TWUSQdu
-=7Giy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpwTI0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nD8P/1gluHEGgH4ao09RB2Xo
+E3f6b90/GN9F0GhqpEAkUuq9VKiQOWs/SCnm5ymbMcsU9hZK0tK8ZD3kNAWpsTwA
+RqbYea5iVsvI4z8OqWfgVddxxgY4Arj2ebvoXVSArNHHjsQqDlW23Iq3xi2VltlD
+jU0o8ncN2wHH7RYDXcIyhCtqvksmdXRndUc3DTyVWTmi2mulPSrZkwABwexweMfR
+rC5ZNGpL+qTJ+kf0V4GousvoT1vBbHyqp9OCAfNyHqtaZ24qD/hKCTlqbhzYSlpq
+JkOY+3AV4jpz8FqABRj3n4+pRAhN+3uWBHGKyRmLdeY+B7gpfs/LXST48FZwuk2U
+kq4HRQs0+9vsMxANm9o64Lzl4exKDAINbMkz2kEX4S6tx8z4Yn//kM0EHStutRQL
+Y+t9JyzJ2N3kbzoNIdmQse6dkoSdxEBXcZk/XxYkT+3rCOcbSrabnYBklnrmIxpW
+Pa0/ksqd1YzzuQ1JgvFCjMEp14OCWBCnI3wZVA6MwJYxJUmnEx7t6z+WCJBmvf7e
+HwaeL6eTO6ae+EHKx1/sqKwJP9bMQR2kpqhFNtXmdnF2rDp41QesYbebtBWITPsv
+TLbTCuY64dPhDoJF51PmWcg/kV4gzUcj1tpclbiRboTLSxzcD5cSjuwL4nb782Gk
+SE83sl/g4D8bxnpbW5w5bE0g
+=doiG
 -----END PGP SIGNATURE-----
 
---===============3843736493767851033==
+--===============7395532651580718829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0656d6882786-df241233a87a.txt
+Content-Disposition: attachment; filename=revlist-8ba098e6b6ff-075b74841bd0.txt
 
 9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
 ab1150115e68a46b687eb38c1ab92782018c9f2c dmaengine: sun6i-dma: Fix reclaim descriptors while terminating DMA
@@ -372,43 +372,5 @@ e1f05cd3fc71f14a63015143bf7fa5a7e3731aec Merge tag 'perf-urgent-2026-08-02' of g
 0e672789d442d3ef08f30b7cd50cbc685f7956a2 Merge tag 's390-7.2-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 075b74841bd0065a3bda3440873c747938e69b68 Linux 7.2-rc6
-fc8e83d3ed2027e19d33c0663ce1a7e7e88a33b7 net: mctp: usb: properly drop the usb interface on probe error
-e022f63bfedd1ca7cc40cb8d00664a7be940c0c7 wifi: rtw88: properly drop usb interface reference on error
-d7d32c8a9d5fbe4d050e60e4d17458c46d97e66a mmc: moxart: fix potential use-after-free on remove path.
-2ff27d4aaedf1af60ff1b4e92a26b6bd1b2e71b9 mmc: meson-gx: fix potential use-after-free on remove path.
-50bb58008b52bdd2e852a879abf1dc1f9d2e986d f2fs: fix potential deadlock in f2fs_convert_inline_inode
-47c967571f459aac3a0458db5682c5a49e48a3c0 drm/amdkfd: stop speculation on the kfd_ioctl path
-12e5ddc337ffa0d7805ce59a1dc56293f25721fd media: adv7604: avoid negative array index in log_status when cp_read fails
-77e0c004875e2eb8c93fa780463015fb73a979e6 media: stv090x: bound DiSEqC reply length to msg[] size
-1ec06f67733de4c341a449b4a17747f497f61f67 media: stv0900: bound DiSEqC reply length to msg[] size
-fb8b08a180d36dadc0502819d7a35efa4a2452f8 NFC: digital: Bounds check Felica response before sensf_res memcpy
-390121fed67feaf4a84e7bd3883ddd1aef8970d1 net: usb: cdc_ncm: reject negative chained NDP offsets
-d7b03619aa77cf54b262a1fa3adc14b358cb7178 net: sched: em_text: require NUL-terminated algo name
-5e4ea54fe54b49a4e385cfb1a7b08e90c3a17dde staging: rtl8723bs: fix OOB write in HT_caps_handler()
-0b43d166c5cac3f8ceda7d21b4c52820cb90de1a ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
-11ba3b335cf4f1f2e36a70124735e0ed19031f00 io_uring: depend on MMU
-00a7fd7f9c784a3fbda9316d3d9fce472ff50ccc mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-27aa3837caa5d5b7b7f56973b1fd4e3aa6740330 usb: typec: tcpm: validate VDO count before reading Attention status VDO
-171d8363a0e321d9d4780b78ff5235beb2fa9f67 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
-ff3100f9b9d4e7c206ef2da7702319470ad5957f fpga: dfl: fme: add error handling
-577609ba4ec0aa3b3f07114509d8feb935cc19e9 drivers/perf: thunderx2_pmu: add error handling
-5cd61a27eef1337f9b6ce2d2cd300a6ac7565796 soc: imx9: devm_kasprintf error handling
-9f85435f6b648938ed5a564d75963d868e5173ef dmaengine: fsl-edma: Add error handling for devm_kasprintf
-3082777afe192e990f0587bb147b85286bfdb85f nfc: st-nci: Add error handling to IRQ handlers
-667cc0373d8548e22b52723a46bab6fceb7267d8 nfc: mrvl: spi: Unregister dev on allocation fail
-7894f5eb648d6e4be406613844797ba3c113f9c6 nfc: nxp-nci: Add remove on IRQ error
-2aeed8242570129ddd6af6cbfc03c14953ad4979 rndis_host: add overflow check in rndis_rx_fixup()
-1e801acee2c26f5bfa1f79744068bd7dda5d83d3 nvme: bound ns descriptor header and body to identify buffer
-d2174fe063028b472354e697c323efc53e688dc5 nvme: clamp FDP nruhsd to allocated RUH status descriptor count
-35fad967f15eced365a0c0f37df9749f0e129b33 misc: amd-sbi: Add null check for devm_kasprintf()
-b56ca2a34c0b49ee23e9d89a8d4e8366578802de soc: mediatek: mtk-socinfo Add error handling in devm_kasprintf()
-a5c4fb963a28279557ed4e3b031953119e804c0c mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
-f23ca9146fff36c3c2b63bb6d926c4d52c67b8f5 nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
-9e0ca20440ac8163b0bbb825b6f390bacdf5d1e5 vt: stabilize tty reference in kbd_keycode with tty_port_tty_get
-36b1019f6adbb4c33aba4a1f5a54cd74ecc734a7 vt: add permission check for KDSKBMETA ioctl
-bf608d43421082152d1aca6929d2f44f3d576e9a tty: vcc: zero-initialize control packet in vcc_send_ctl()
-45ec33eebae345ea2e92a7b244615685da1760fa tty: vcc: hold port lock when clearing tty pointer in vcc_cleanup
-a127ebe7586bba724639de171a6d032d87609f9d serdev: fix race between tty-port unregister and in-flight callbacks
-df241233a87a6710106976a60b85b58eff418649 serdev: use tty_port_tty_get() in ttyport_write_buf() to prevent UAF
 
---===============3843736493767851033==--
+--===============7395532651580718829==--
