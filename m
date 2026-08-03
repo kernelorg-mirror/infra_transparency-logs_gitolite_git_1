@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 03 Aug 2026 19:42:11 -0000
-Message-Id: <178578613119.2862639.13078272515777922937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 03 Aug 2026 19:43:41 -0000
+Message-Id: <178578622155.2863260.1238506124332873439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/for-next
-    old: b1da391b2ef4deee3b208eeb741dcce81941e984
-    new: 54fde72342444f6b019bf016a2576ac181434e56
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 5a3e6136e31c47837afacb44415415c39b564dc5
+    new: d67241d43b709af4d13051bb8494892b654aba41
     log: |
-         a9517958e828429ffd88558a8dae80f49f8cfbea HID: hid-msi: Add MSI Claw configuration driver
-         93ff13ed1c4b49e0574e92dfb2f833e10ba88e5e HID: hid-msi: Add M-key mapping attributes
-         f27e2e3c80edb2ff09c3bb3ee1605c86c64fcaa8 HID: hid-msi: Add RGB control interface
-         95547c53f1c627aa2a02af474311dddd60f1d94f HID: hid-msi: Add Rumble Intensity Attributes
-         54fde72342444f6b019bf016a2576ac181434e56 Merge branch 'for-7.3/msi' into for-next
+         ab9c84d1cd59e6b3b73de34982a35a76e3a9b032 perf thread-stack: Fix heap buffer overflow on branch stack wrap copy
+         96fcc9ea5f18c083a1fa73da23afef7e953f7dca perf auxtrace: Fix queue grow overflow and old array leak
+         c4362d5e1a5ed4ce2098798f655a636c4340fa20 perf intel-pt: Fix off-by-one in auxtrace_info minimum size check
+         b9fb8225951ce27e62a2235a71f3ab01137aaec3 perf intel-bts: Fix off-by-one in auxtrace_info minimum size check
+         d67241d43b709af4d13051bb8494892b654aba41 perf arm-spe: Reject zero nr_cpu in metadata to prevent division by zero
          
-  - ref: refs/heads/for-7.3/msi
-    old: 0000000000000000000000000000000000000000
-    new: 95547c53f1c627aa2a02af474311dddd60f1d94f
