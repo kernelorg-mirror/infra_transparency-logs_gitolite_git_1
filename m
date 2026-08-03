@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 03 Aug 2026 22:59:59 -0000
-Message-Id: <178579799997.3018187.357950350412583583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 03 Aug 2026 23:01:08 -0000
+Message-Id: <178579806871.3021167.3513412820232410010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/next-fixes
-    old: 68e14df76a673f8857cd41e453339645da9a453b
-    new: 7933464cc0a8c2d34356ea588efdfa6a76a7761a
+  - ref: refs/heads/for-next
+    old: 9d34c9d660c3d0931d2cc749c46c47cf31f96e48
+    new: 609af0ceeaefdfa42cd01dd060b20f2e41f9a232
     log: |
-         ae2567b11c3df43861d05f856bdb3434b3961aa1 btrfs: flush the fixup workers during close_ctree
-         fc496eac002fe3cea5115566a51d4e66d6a48277 Merge branch 'misc-7.2-fixup-worker' into misc-7.2
-         7933464cc0a8c2d34356ea588efdfa6a76a7761a Merge branch 'misc-7.2' into next-fixes
+         75b1e88d34254f4fb7753345e21bfee47abddd7f power: supply: ab8500_fg: fix use-after-free on remove
+         831c29a12d560f8a3225f43050b3fbb5dfd79c66 power: supply: lp8788-charger: fix use-after-free on remove
+         609af0ceeaefdfa42cd01dd060b20f2e41f9a232 power: supply: ucs1002: fix use-after-free on remove
          
