@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 03 Aug 2026 04:52:12 -0000
-Message-Id: <178573273292.1919847.5551945914679685940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 03 Aug 2026 04:55:02 -0000
+Message-Id: <178573290281.1921461.11775179495043166031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/v7.2-rc6
+  - ref: refs/heads/wip-libcrypto
     old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
+    new: 8dc720abb8293f112dabff47b73ffd3aac47da39
