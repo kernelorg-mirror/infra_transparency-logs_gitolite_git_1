@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 03 Aug 2026 20:52:09 -0000
-Message-Id: <178579032928.2920543.8665374622789369175@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 20:55:24 -0000
+Message-Id: <178579052472.2923457.15219234406347164854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 2230d38828506c1c84d39da03e2158e7fc0542fe
-    new: 5391b147d9fd8d4736e28c629cda00fd37c2304a
+    old: 5391b147d9fd8d4736e28c629cda00fd37c2304a
+    new: 928369abdd9bf21da698b86d99a7eca2a74c9bed
     log: |
-         5391b147d9fd8d4736e28c629cda00fd37c2304a rust: dma: return zero for Coherent reads past EOF
+         928369abdd9bf21da698b86d99a7eca2a74c9bed rust: net/phy: remove expansion from doc
          
