@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8647331398155648864=="
+Content-Type: multipart/mixed; boundary="===============4151251747360045242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 03 Aug 2026 21:33:03 -0000
-Message-Id: <178579278397.2953726.2390004497978282416@gitolite.kernel.org>
+Date: Mon, 03 Aug 2026 21:33:17 -0000
+Message-Id: <178579279720.2954009.10872610845762476999@gitolite.kernel.org>
 
---===============8647331398155648864==
+--===============4151251747360045242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 8217ab3720acaa985f6aacef96781abca908ff36
+  - ref: refs/heads/togreg
+    old: e0484d62e8e1cff75b210938be835ea6221bda59
     new: 5b89d37603d2303b90fa9576bac42fab90a3380d
-    log: revlist-8217ab3720ac-5b89d37603d2.txt
+    log: revlist-e0484d62e8e1-5b89d37603d2.txt
 
---===============8647331398155648864==
+--===============4151251747360045242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8217ab3720ac-5b89d37603d2.txt
+Content-Disposition: attachment; filename=revlist-e0484d62e8e1-5b89d37603d2.txt
 
 ac75550ab5b5d73649bffea245c2075fd9249bd0 iio: light: tsl2772: fix ALS calibscale readback
 c6955f7de5506990853ca7da74950088da101b2d iio: adc: ti-ads112c14: add support for I2C CRC8
@@ -60,4 +60,4 @@ a972cf48d9bf4703aa81657dea796bc88e7aedde dt-bindings: iio: flow: add Sensirion S
 2b60eafc5b04de27f299f0553d50e1f44234182b iio: imu: st_lsm6dsx: Update enable mask when using sensor fusion
 5b89d37603d2303b90fa9576bac42fab90a3380d iio: Update email for Maxwell Doose
 
---===============8647331398155648864==--
+--===============4151251747360045242==--
