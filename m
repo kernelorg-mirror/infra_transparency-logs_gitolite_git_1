@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 03 Aug 2026 16:06:27 -0000
-Message-Id: <178577318784.2680506.8881372247176730454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 03 Aug 2026 16:08:13 -0000
+Message-Id: <178577329319.2681375.1903917174857469064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/dm-7.3
-    old: 68c5c42567bc462139128968ebbfadd0aefff519
-    new: f4627bc8638cd95eca3a8b883bd1f276cad743b5
-    log: |
-         ae0276c22846057d7d49b6fdb67c6b0468681071 dm array: validate array block headers on read
-         f4627bc8638cd95eca3a8b883bd1f276cad743b5 dm array: reject an array block whose value size is not the caller's
-         
+  - ref: refs/tags/sunxi-config-for-7.3
+    old: 0000000000000000000000000000000000000000
+    new: 1bab554789d0104a4d0ff1410af75c63cd2f9be1
+  - ref: refs/tags/sunxi-dt-for-7.3
+    old: 0000000000000000000000000000000000000000
+    new: dfee18c295f22095b36220fcec7436c6782e38f2
