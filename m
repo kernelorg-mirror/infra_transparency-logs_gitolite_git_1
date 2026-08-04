@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 04 Aug 2026 20:35:05 -0000
-Message-Id: <178587570512.4035542.193807182631562276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 04 Aug 2026 20:46:31 -0000
+Message-Id: <178587639175.4043381.1406657444402271749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/soc-fixes-7.2-2
-    old: 0000000000000000000000000000000000000000
-    new: 1868664f11656b274859e8a7e84557dd33fb2319
+  - ref: refs/heads/asoc-7.3
+    old: 99ddfbba9e71617494c14b95ed85b9d25bc3202c
+    new: 222e8029a7b08240c035c8522c5c0ec42576959a
+    log: |
+         222e8029a7b08240c035c8522c5c0ec42576959a ASoC: wm8940: drop unneeded semicolon
+         
