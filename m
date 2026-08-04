@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 04 Aug 2026 04:39:32 -0000
-Message-Id: <178581837258.3286401.8017083641494734870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Tue, 04 Aug 2026 04:41:37 -0000
+Message-Id: <178581849739.3289487.3217465483442374067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/dev
-    old: 5709508715f41b17c3e6801149e7d67522ac516e
-    new: c04100f12caff8e9835e8d9132cc11461b3fd2f0
+  - ref: refs/heads/rust-sync
+    old: 7d27f8d582ba6cfcf9cf694bdbb5b244b42f1eae
+    new: e85edb347987a9784106d8fecb8b59a57686eea7
     log: |
-         c04100f12caff8e9835e8d9132cc11461b3fd2f0 hazptrtorture: Fix inverted sleep condition in do_pending kthread
+         e85edb347987a9784106d8fecb8b59a57686eea7 WIP
          
