@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5657534774348658119=="
+Content-Type: multipart/mixed; boundary="===============6061879351177084273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 04 Aug 2026 03:09:07 -0000
-Message-Id: <178581294718.3217122.9231330406629171403@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 03:09:22 -0000
+Message-Id: <178581296223.3217385.9354189792078846090@gitolite.kernel.org>
 
---===============5657534774348658119==
+--===============6061879351177084273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/test
+  - ref: refs/heads/linux-next
     old: 3ebebb3d7d348ab2839445a465bd18b40d4840dc
     new: ae864da7d762b4c692e2cdf83cad43110d5d46ee
     log: revlist-3ebebb3d7d34-ae864da7d762.txt
-  - ref: refs/heads/vhost
-    old: 3ebebb3d7d348ab2839445a465bd18b40d4840dc
-    new: ae864da7d762b4c692e2cdf83cad43110d5d46ee
-    log: revlist-3ebebb3d7d34-ae864da7d762.txt
-  - ref: refs/tags/for_linus
-    old: 74c8301578a114d1bb7d488f1cdd679b5c76093a
-    new: f80e3afa2013262a7169312dd5d00c7cd18c492f
-    log: |
-         d876c493fc4b811941bfeb4c80beb2dfc4bf025e vhost-scsi: Validate T10 PI scatterlist counts
-         de845981da67a6b049080c87e605130b0c30adc5 vhost: reset the vring metadata cache on vring reconfiguration
-         22598f55a4c2b510b3df5e69e563387a963222ae vhost-scsi: flush backend after device ioctls
-         42bc45df5905e2b7dccb72adaf7730f66cfbe03f vhost-scsi: reject feature changes after endpoint
-         
 
---===============5657534774348658119==
+--===============6061879351177084273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +91,4 @@ f66f0b2d4486973b847451368142eb9a07bd03dc vduse: add F_QUEUE_READY feature
 78bbdaecb2d8ac460a69175dd61c27bf77e7e2f8 vduse: do not take rwsem at reset work flush
 ae864da7d762b4c692e2cdf83cad43110d5d46ee vduse: Add suspend
 
---===============5657534774348658119==--
+--===============6061879351177084273==--
