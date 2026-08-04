@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Tue, 04 Aug 2026 17:59:23 -0000
-Message-Id: <178586636366.3909071.15304101918517488027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 04 Aug 2026 18:00:39 -0000
+Message-Id: <178586643942.3911816.18045348529574333496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev/gpu-metrics
+  - ref: refs/tags/locking-urgent-2026-08-04
     old: 0000000000000000000000000000000000000000
-    new: 589532e65ab48bee6949d94e61c272348988e696
+    new: 660d2d3297745f2ab3a40d437a759b9ec0658335
