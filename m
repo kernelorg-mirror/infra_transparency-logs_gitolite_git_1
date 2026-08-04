@@ -1,47 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7724960782784126131=="
+Content-Type: multipart/mixed; boundary="===============5032526513123267025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 04 Aug 2026 17:28:27 -0000
-Message-Id: <178586450727.3885305.2417453534405035798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 04 Aug 2026 17:36:21 -0000
+Message-Id: <178586498195.3891861.9896394888287071966@gitolite.kernel.org>
 
---===============7724960782784126131==
+--===============5032526513123267025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: d67241d43b709af4d13051bb8494892b654aba41
-    new: ed41071ddb9786b89c2ac290c397c44e6259c727
-    log: revlist-d67241d43b70-ed41071ddb97.txt
+  - ref: refs/heads/master
+    old: d264c90ca22e2034ef46b1831d38b1f47af44380
+    new: 8b715ab95872c377f6813ec8dc29230d1021e418
+    log: revlist-d264c90ca22e-8b715ab95872.txt
 
---===============7724960782784126131==
+--===============5032526513123267025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d67241d43b70-ed41071ddb97.txt
+Content-Disposition: attachment; filename=revlist-d264c90ca22e-8b715ab95872.txt
 
-00ab8057cc87de9011a69aff65f7cc8713053109 perf vendor events intel: Fix Novalake CPUID regex in mapfile.csv
-30606b653fa9d80deca0f9db901a4da1cfe1af8c perf c2c: extract shared data structures into c2c.h
-f0d7effbe8d7869143829ef871855d7a9e558aac perf c2c: add function view browser skeleton
-23bdda13631ac23f8ef40d9117e41e659cd1a150 perf c2c: add column rendering for function view
-0378d74cfee30057a7298903fbfd7dc498a821fa perf c2c: add HPP list parsing for function view columns
-b0273873dceae1d509e01a2c74eac6a87a032b54 perf c2c: add function view stats merge and memory management
-18bdadafa94511d97f1904b0b11e1048954bc629 perf c2c: add function view hierarchy entry creation
-de5afb22cb8766e2ef1ab79a06553bda112d1e61 perf c2c: build and finalize the function view hierarchy
-1eab577995f3143f7ce5c69633a2a895dae65f29 perf c2c: add function view browser UI and cacheline detail
-b2d85dcc7aeedfa15bd88d8b9e958b3713128981 perf c2c: document function view in perf-c2c man page
-b50c8081373a6768ae130535c9e7e2422080bb94 perf c2c: Fix error masking, OOM, and unchecked caller errors in hpp_list__parse()
-ccf27a0a8fc924a3aab082db1404d07fb74f3f23 perf c2c: Clean up registered formats on c2c_hists__init() failure
-3863d97ffa3027b11126a83538291f85034d498d perf trace: Format fields with hex specifiers in print_fmt as hexadecimal
-2ee3e487754b7a9b08d9816a9f5e9a1fba0df7da perf libbfd: Validate BPF prog info arrays before pointer cast
-3e163e1ad71744795cd7f1bd32567cb9aa0a493c perf header: Use write lock when translating BPF prog info pointers
-ebad3ce9f582e3cdd56b8af52ee67ef89b4afd7b perf bpf: Add PROG_TAGS to required arrays in __bpf_event__print_bpf_prog_info()
-ed41071ddb9786b89c2ac290c397c44e6259c727 perf libbfd: Fix memory leaks and NULL fclose in BPF disassembly
+b974e13aafe9d7cadfe380b638fe90ed1c348847 Bluetooth: L2CAP: use proto_lock for l2cap_data to fix l2cap_disconn_ind
+d740cf77461a47de93a9b309f01e70db4398d730 Bluetooth: add annotations for l2cap_data locking context
+d56d51cc0cb6c2ffe272187466fc25ea64afac8c Bluetooth: btmrvl: fix event packet length validation
+bece7ec4e2596cfeb89c808c41c80d0e299ebe92 Bluetooth: hci_event: validate LE Set CIG Parameters response
+7f850420355198104f1ec497f7116b4714f619ae Bluetooth: btintel: Fix diagnostics event detection
+6e3259bb80898bd4b563ce4f2ae3ab62d004bc22 Bluetooth: btintel: Remove redundant (hdr->plen > 0) in btintel_recv_event()
+6a915734366c96b14286063140d5e93bfc8a2a82 Bluetooth: coredump: Expose header size and end marker to drivers
+d9af840ede53d3ca9a79d8abec210d74cb5b5681 Bluetooth: hci_core: Introduce __hci_reset_dev() with a hardware error code
+cdad88fc4ba3b4e1cfd59a92a3f95b9d9251645f Bluetooth: btnxpuart: Simplify nxp_set_ind_reset() by __hci_reset_dev()
+a77003b4a5687e940f351e613f4a93b9a1e471e0 Bluetooth: hci_event: Introduce handle_ev_vendor() for HCI_EV_VENDOR
+a8eead4caa14aeb399020a46b9b8d27b8ea9f5cc Bluetooth: hci_event: Use 255 as max event payload length in hci_ev_table[]
+8b715ab95872c377f6813ec8dc29230d1021e418 Bluetooth: hci_sync: Fix accept list UAF during suspend
 
---===============7724960782784126131==--
+--===============5032526513123267025==--
