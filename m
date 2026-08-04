@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3297263381422266219=="
+Content-Type: multipart/mixed; boundary="===============1111647061593542657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 04 Aug 2026 22:19:37 -0000
-Message-Id: <178588197779.4111387.12545557062868387443@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 22:19:42 -0000
+Message-Id: <178588198230.4111629.18431852864436798445@gitolite.kernel.org>
 
---===============3297263381422266219==
+--===============1111647061593542657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/dev-queue
     old: 1de7df24840578efde8ea6b34d2d6809ea1b8575
     new: 73b4d58aba769f4c9fc2a2bb938b7e1e5fa274b2
     log: revlist-1de7df248405-73b4d58aba76.txt
 
---===============3297263381422266219==
+--===============1111647061593542657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ a968c5c2962e0bad2482f4b05a3fb627b871ca89 Merge branch 'robot/pr-0-1785507100' in
 dbe44d7f98ffdb2b458d98285d3efb8741badad2 linux-firmware: Add firmware for new project
 73b4d58aba769f4c9fc2a2bb938b7e1e5fa274b2 Merge branch 'robot/patch-0-1785551577' into 'main'
 
---===============3297263381422266219==--
+--===============1111647061593542657==--
