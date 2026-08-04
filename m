@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1875882662231152697=="
+Content-Type: multipart/mixed; boundary="===============3139170032742815072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 04 Aug 2026 03:47:27 -0000
-Message-Id: <178581524775.3247353.9242835240555619122@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 03:47:30 -0000
+Message-Id: <178581525044.3247457.13435202640837326184@gitolite.kernel.org>
 
---===============1875882662231152697==
+--===============3139170032742815072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1dbd7c34bb92dd9c0b0363b75f6ec444299af108
-    new: eddba4a07ebc590bad8391455471d53b51417f80
-    log: revlist-1dbd7c34bb92-eddba4a07ebc.txt
+  - ref: refs/heads/mm-unstable
+    old: 94f9b3980dd446b56acf1dfed649e9b32a9f3813
+    new: 9d9e4891d82f4a245d39b64470a4b28d5c5349ff
+    log: revlist-94f9b3980dd4-9d9e4891d82f.txt
 
---===============1875882662231152697==
+--===============3139170032742815072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1dbd7c34bb92-eddba4a07ebc.txt
+Content-Disposition: attachment; filename=revlist-94f9b3980dd4-9d9e4891d82f.txt
 
 befd6571c4f50895a9a407c6d28c600c48164d27 mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
 57df503b2d4f871f0334a2c8c88b09ff7846a2b0 mm/ptdump: always stabilise against page table freeing using init_mm
@@ -450,20 +450,5 @@ ecb96f80aa4fbb264c9994996b5b047dd0c5c30f mm/gup: fix always draining LRU caches 
 563ba5f5f0191671fc8913a0fa220664bce216eb mm/swap: reject swapon() on filesystem-level encrypted files
 5cef47167e0308ae46f250180f1d2949a5e6dcea mm/page_alloc: only update lowmem_reserve_ratio on sysctl write
 9d9e4891d82f4a245d39b64470a4b28d5c5349ff mm-page_alloc-only-update-lowmem_reserve_ratio-on-sysctl-write-fix
-a5c55b0cb217272d4aea7720646222912ef82ae2 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-2c9bbae87da741d0a309e48df1ee81c8afa98574 selftests/cgroup: test_zswap: skip test_no_kmem_bypass if debugfs is unavailable
-325db28cf0eb63b20344cecc8411e87aa6006d7c mm/ksm: avoid missing ksmd wakeups in ksm_enter
-7a25cbc08a98d79ac5e15af743ee65d5abfaa1b6 mm: kmemleak: default min_unref_scans to 2 for verbose auto-scan
-78cd1e9114fc9d3cf5a2aff7bc771f20042b4540 Documentation: kmemleak: document the conditional min_unref_scans default
-249d934b9caa4930350c4973aeade887dafe6c79 selftests/mm: kmemleak: drop stale min_unref_scans default from comments
-86a4410bc1af41bfb77d0baaf27b91ab825b1c84 mm/memory-failure: fix refcount leak on soft-offline LBS folio
-631b869737e26d6c6080d64f526fc6c2528a3f48 selftests/mm: rename local_config.h to local_config.h_gen
-1d8d77cdce9b8bdb5969aa93cad7dd9a8e023560 selftests/mm: use pattern matching in .gitignore
-072a7158092f2b3a028022039ebe25c741e69096 mm: use a folio in the softleaf_is_device_private path
-1f58346bbd210b07250cbecdfb474bd75d13495f selftests/mm: read memory information without popen
-2887615ef743c103eeeab169c3ded461c68b2af2 mm/vmalloc: do not warn on -ENOMEM from va_alloc()
-77cd7833e65e294a3d5449e90cc058b46fb4a26b mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-5c3f621e7b5d36c8415d608bd8d06b8229f0b4b9 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-eddba4a07ebc590bad8391455471d53b51417f80 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1875882662231152697==--
+--===============3139170032742815072==--
