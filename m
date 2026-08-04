@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 04 Aug 2026 23:19:07 -0000
-Message-Id: <178588554775.4158818.8630838611437938806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 04 Aug 2026 23:21:44 -0000
+Message-Id: <178588570419.4162037.14943619860576067196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e2baf9cc374d5374e28702cb40e78551e82dd183
-    new: 6655c409707ec8ce9ce0850ffe4fe02331fd4d9c
+  - ref: refs/heads/spi-7.3
+    old: d2f5a606710ad70c341dc609430a20a5645618d5
+    new: 362a11ef1beadbc301ea949b85748e6bd1e0f384
     log: |
-         6655c409707ec8ce9ce0850ffe4fe02331fd4d9c bpf, cgroup: Fix invalid storage access after __cgroup_bpf_attach failed
+         362a11ef1beadbc301ea949b85748e6bd1e0f384 spi: ath79: use devm everywhere in probe
          
