@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 04 Aug 2026 16:38:42 -0000
-Message-Id: <178586152296.3847387.9060968823924150577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 04 Aug 2026 16:40:12 -0000
+Message-Id: <178586161219.3849808.5679531212724518773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/integrity-fixes
-    old: 4ef2607481939519ddbbfdc6523ddab723f169d8
-    new: b80bed5c871a80151351342c065579405ce77145
+  - ref: refs/heads/kvm-arm64/vncr-fixes-7.3
+    old: b3f95bdf40ff803cf6fa7bc8ff53f3cb714afd5c
+    new: 720b97f323fb67be5497e7ca1734114139ac148d
     log: |
-         779e0eb18c774b81a462a6ee89cfbc9eb2d3cee5 riscv: time: Add missing __iomem in get_cycles() and get_cycles_hi()
-         9a22a1542ca03381dcbf000d7a264cbee61e7203 riscv/sifive: remove warning in errata
-         cfca5a48b03fbd33c8cb84cb73ee2e34467f3a33 riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB
-         f51fed61eea0daba2f95f1a6074085e4cd513c7b riscv: drop __init from vec_check_unaligned_access_speed_all_cpus
-         a0188cc133696627857d16054e43f9ebc7efc821 riscv: mm: Fix out-of-bounds page-table walk during memory hot-remove
-         c052927905710de1ab7364bf1925efbd12517ea3 riscv: vdso: Only try to install vDSO when present
-         f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-         075b74841bd0065a3bda3440873c747938e69b68 Linux 7.2-rc6
-         5ff232d31106f45ac87c3b64e1d35a0667777797 ima: fix out-of-bounds read in xattr_verify()
-         b80bed5c871a80151351342c065579405ce77145 ima: Instantiate file_truncate and path_truncate hooks
+         9de2a85d64eefa3c9f4e0bc7f8b6f595317ad091 KVM: arm64: Remove VM-wide VNCR mapping counter
+         79f390574aad5fbbc6b55bd115066dd65c282dd0 KVM: arm64: Handle negative S1 walk levels in VNCR TLB size evaluation
+         558f3ed3cd1024b741046c1faa02d9f2ae0ce535 KVM: arm64: Consider SCTLR_EL2.M when mapping the L1 VNCR page
+         269b71821747e618cd7896ed93aa5478e40d26d6 KVM: arm64: Correctly handle end of VA space TLBI invalidation
+         0ce6804c65a94192c4f0a0bcdef7b7f554bfb93e KVM: arm64: Handle VNCR TLB invalidation race with vcpu_put() VNCR unmapping
+         4548707908496d9c9ec54968329e0fbd51dff20f KVM: arm64: Sign-extend VA for range-based TLBI invalidation
+         f3a25f98f09e982d179f558bc0cf63678e7ef58e KVM: arm64: Make VNCR invalidation participate in MMU invalidation retry
+         720b97f323fb67be5497e7ca1734114139ac148d KVM: arm64: Add VNCR TLB tracking again
          
