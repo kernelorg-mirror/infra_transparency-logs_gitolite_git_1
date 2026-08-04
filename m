@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 04 Aug 2026 19:23:38 -0000
-Message-Id: <178587141823.3977208.17548561615462550960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
+Date: Tue, 04 Aug 2026 19:24:08 -0000
+Message-Id: <178587144822.3977505.8104841169289043433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/docs/linux
+user: corbet
 changes:
-  - ref: refs/heads/aspeed/fixes
-    old: 0000000000000000000000000000000000000000
-    new: 1acef6d85bfd98bd9dfe1f08bffa397a4dda8a6f
+  - ref: refs/heads/docs-mw
+    old: 7144308f14eae601132dbc548b8579fb629d0d1c
+    new: 70ca6a2ab4599e74979f540c46612b582b0fdcfa
+    log: |
+         70ca6a2ab4599e74979f540c46612b582b0fdcfa docs: pt_BR: process: Translate CVE documentation
+         
