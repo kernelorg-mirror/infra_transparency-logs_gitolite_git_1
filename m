@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 04 Aug 2026 01:46:26 -0000
-Message-Id: <178580798691.3154929.8367727284240715513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 04 Aug 2026 01:47:30 -0000
+Message-Id: <178580805002.3155416.12902000017258724405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: d0f86fb36eb260abd10007b62c9dcc1028e03e61
-    new: 2a33516f9ef59ad11844d4fc152f889449b5daf3
+  - ref: refs/heads/master
+    old: b6bca4deeecc7d7f8f6fbd67f5695eb0f100cfe9
+    new: ab3294667e5812111df48775446b10d487c20894
     log: |
-         2a33516f9ef59ad11844d4fc152f889449b5daf3 net/sched: sch_cake: drop WARN_ON(1) for malformed packets in ACK filter
+         4e1d3cff637ce0ef0033f1b577646799f9963452 foo
+         2dd38d14f843ab52b93671ed7ef11cb436956074 foo
+         e48f582d4e81afac84c9fa78ea4d538f25bfaf1d foo
+         ab3294667e5812111df48775446b10d487c20894 foo
          
