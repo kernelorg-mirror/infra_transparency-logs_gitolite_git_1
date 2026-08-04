@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 04 Aug 2026 12:17:29 -0000
-Message-Id: <178584584931.3626793.7651452883964246837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 04 Aug 2026 12:29:32 -0000
+Message-Id: <178584657265.3634473.13707480871304606611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 845110c0e25d3b87efed66dbd530e5ce85aefb55
-    new: 91dd044960b630560b99be4ebb05fe56d328cbe2
+  - ref: refs/heads/experimental
+    old: 37fc4113694e1c9690bd871aefe91f55bf8bd029
+    new: 3c84b1e4b9bd9fcfaf4fdc29a9ac67c9d2c583d5
     log: |
-         ae159eb6a8fe95340373c15634d82bcc0d4febc4 man/man3head/memory.h.3head: HISTORY: Add details about SVID1 and XPG3
-         91dd044960b630560b99be4ebb05fe56d328cbe2 man/man3/: Put first <string.h> in SYNOPSIS, then comment about <memory.h>
+         3c84b1e4b9bd9fcfaf4fdc29a9ac67c9d2c583d5 erofs-utils: release 1.9.3
          
