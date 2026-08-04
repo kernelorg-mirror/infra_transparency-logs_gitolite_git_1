@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5562411144238659978=="
+Content-Type: multipart/mixed; boundary="===============1527030068805939029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 04 Aug 2026 05:42:43 -0000
-Message-Id: <178582216322.3334880.2031862294246860877@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 05:42:46 -0000
+Message-Id: <178582216603.3335034.3447606633455804978@gitolite.kernel.org>
 
---===============5562411144238659978==
+--===============1527030068805939029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: eddba4a07ebc590bad8391455471d53b51417f80
-    new: 5e3a87dc1900dcb972b1914064f759346972ca98
-    log: revlist-eddba4a07ebc-5e3a87dc1900.txt
+  - ref: refs/heads/mm-unstable
+    old: 9d9e4891d82f4a245d39b64470a4b28d5c5349ff
+    new: 0909169a8ce849dc290a23b3dcac5d25076b61d0
+    log: revlist-9d9e4891d82f-0909169a8ce8.txt
 
---===============5562411144238659978==
+--===============1527030068805939029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eddba4a07ebc-5e3a87dc1900.txt
+Content-Disposition: attachment; filename=revlist-9d9e4891d82f-0909169a8ce8.txt
 
 7d0ceaf66560ffb502889f5663e39697e8a7347f mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
 7c5cc93cbf28bb95e11a82481c40116edcb2f92c mm/ptdump: always stabilise against page table freeing using init_mm
@@ -453,20 +453,5 @@ eae33242179ec59a0d5bc7403885b42019f8432e mm/swap: reject swapon() on filesystem-
 a9655c706d8fa9ae64c36c93f628cb59a675e593 tmpfs/ramfs: let memfd_create() work on nommu
 eccb43222fbb02bc5a7362ae0de7af392ee47464 riscv: mm: exclude invalid THP PMDs from page table check
 0909169a8ce849dc290a23b3dcac5d25076b61d0 riscv: mm: fix concurrency in mark_new_valid_map()
-e7a715bac34947e6fce5998cb3407279b86f10ca mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-ec0ecfbf97e9e01a14a1089bcca7b258c6849bd9 selftests/cgroup: test_zswap: skip test_no_kmem_bypass if debugfs is unavailable
-8cb1aaea7c9347f26607eba2b9dc566cbee7d19b mm/ksm: avoid missing ksmd wakeups in ksm_enter
-9f9f972098137f360a50b2da5a23776931643951 mm: kmemleak: default min_unref_scans to 2 for verbose auto-scan
-fdbf0fbc4d993686600ad90ff52172c5293beb2c Documentation: kmemleak: document the conditional min_unref_scans default
-b0653e3170ddba7c493ca5474269bda049a0faf7 selftests/mm: kmemleak: drop stale min_unref_scans default from comments
-66eb2dc77c8a009273481c2092c67c2f768b4fd0 mm/memory-failure: fix refcount leak on soft-offline LBS folio
-2ffa2473989b8272fc7385384915d4be54150ea2 selftests/mm: rename local_config.h to local_config.h_gen
-50efaa84ea6f0e7b9057b2647c8c8f3c0be4da46 selftests/mm: use pattern matching in .gitignore
-212dcb13447722a62cd9b6b29f13acb473ebe111 mm: use a folio in the softleaf_is_device_private path
-c6eaad2de29184d456921617d8222beaed5eef49 selftests/mm: read memory information without popen
-850cc2fc132fc207307966fb4d8c9c784bdf0e86 mm/vmalloc: do not warn on -ENOMEM from va_alloc()
-522b7bd7567207284f5eb657baa85821a6cac5c9 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-4101c9461d54bd751198e552f158c2bda8e7164c mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-5e3a87dc1900dcb972b1914064f759346972ca98 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5562411144238659978==--
+--===============1527030068805939029==--
