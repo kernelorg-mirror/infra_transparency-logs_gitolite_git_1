@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 04 Aug 2026 12:30:25 -0000
-Message-Id: <178584662502.3636728.487737195019937153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 04 Aug 2026 12:32:40 -0000
+Message-Id: <178584676039.3638090.14399435340549404744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/experimental
-    old: 3c84b1e4b9bd9fcfaf4fdc29a9ac67c9d2c583d5
-    new: 156d8ff0778b1cb57dbe571c7183eb351e13d35c
+  - ref: refs/heads/for-next
+    old: ab9a157cf155f8ed635144c495b94ace41ba4fcd
+    new: 6ffb94d1d21c927b2a6d7fcc5faba39794e6725b
     log: |
-         156d8ff0778b1cb57dbe571c7183eb351e13d35c erofs-utils: release 1.9.3
+         36c3ea84289913d16dd2ed783534193c957055b9 regulator: dt-bindings: ti,pbias-omap: Convert to DT schema
+         6ffb94d1d21c927b2a6d7fcc5faba39794e6725b Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
          
