@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3036579055427439565=="
+Content-Type: multipart/mixed; boundary="===============3594592508165382051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 04 Aug 2026 00:26:53 -0000
-Message-Id: <178580321321.3087009.1066477187740650713@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 00:28:59 -0000
+Message-Id: <178580333971.3087763.2031602422581735989@gitolite.kernel.org>
 
---===============3036579055427439565==
+--===============3594592508165382051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: pjw
 changes:
-  - ref: refs/heads/fixes
-    old: c052927905710de1ab7364bf1925efbd12517ea3
-    new: 075b74841bd0065a3bda3440873c747938e69b68
-    log: revlist-c05292790571-075b74841bd0.txt
+  - ref: refs/heads/for-next
+    old: ea6dd15239414252aef826c245574aaf5c7c81fd
+    new: ff492e321c47df9e87251b44c1003b165142280e
+    log: revlist-ea6dd1523941-ff492e321c47.txt
 
---===============3036579055427439565==
+--===============3594592508165382051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c05292790571-075b74841bd0.txt
+Content-Disposition: attachment; filename=revlist-ea6dd1523941-ff492e321c47.txt
 
 9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
@@ -529,6 +529,7 @@ fc9c7ca5fcbf7fe3bcba87d1ff72f0009071ba86 psp: fix NULL genl_sock deref race with
 93cad1f6bd1e27c75c4a5ab000c2a2fc01181ccf ipv6: release fib6_null_entry on subtree failure
 1c15e75dc21fc61f7bb62f2e8c86d86da01608c5 MAINTAINERS: make Luiz a maintainer and myself reviewer for Realtek DSA
 74b21f52c5c5a71a05c0ff70e513f4f04ff28b17 sctp: validate Adaptation Indication parameter length
+c052927905710de1ab7364bf1925efbd12517ea3 riscv: vdso: Only try to install vDSO when present
 11028ab62899e4191e074ee364c712b77823a9c4 Merge tag 'probes-fixes-v7.2-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 82f0e98ba302c30594e61c8f0d7a7908da78bd82 Merge tag 'wireless-2026-07-29' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 f11b48aa674b475f196bede7d69593c050107fc5 Revert "tun/tap & vhost-net: avoid ptr_ring tail-drop when a qdisc is present"
@@ -635,5 +636,19 @@ e1f05cd3fc71f14a63015143bf7fa5a7e3731aec Merge tag 'perf-urgent-2026-08-02' of g
 0e672789d442d3ef08f30b7cd50cbc685f7956a2 Merge tag 's390-7.2-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 f5a7e2ae5f0a9a5caf59501457938eeb249a7dc8 Merge tag 'riscv-for-linus-7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 075b74841bd0065a3bda3440873c747938e69b68 Linux 7.2-rc6
+1defba07ca774254533332405006e0f6b8b47286 riscv: efi: Power off via EFI runtime services when available
+b3a8f8f96d1fd5d54a7d826e1c4b75e62c6829db riscv: Restart via EFI runtime services when available
+e619d94ae496ccfc2d405a35ebffb35b754ef8a8 ACPI: tables: Add missing #include <asm/fixmap.h>
+c8fd6c8874fb7f2eb0c01e91af6c016438ee87ea riscv: acpi: Enable ARCH_HAS_ACPI_TABLE_UPGRADE
+577b101100cd8d7e088cfd5f88bcb1209badaf39 riscv: probes: simulate c.jal instruction
+9d8607ae4808c3c3d634014aed9cc4a085e86366 riscv: kprobes: add test case for c.jal instruction simulation
+7ce68dad9bfb520e7ba62b9ed3ad1b6d35ee367f riscv: mm: Use ASID in update_mmu_cache()
+7bca16816afe3a7b0b113fe1d5e4c2107eb9785f riscv: mm: Apply Svinval in update_mmu_cache()
+3c1e60aa5a56113d00ad2f896660967f29272ef5 riscv: vdso: Simplify cflags remove logic
+5472466a5c8b11edc1301f9072bb50f0f226b79a riscv: cfi: reduce shadow stack size limit from 2GB to 512MB
+0449791c7157a3f1f8d3c5035659b8ac65f7e0ee riscv: mm: Move dma_contiguous_reserve() after NUMA initialization
+5c2353b42114f9c01ef09083534824d761738d68 riscv: Mark default_power_off() as __noreturn
+0cbbb0fae34034bf52a4b487f4cf6abf0b20506f riscv: unaligned: stop using kthread for check_vector_unaligned_access()
+ff492e321c47df9e87251b44c1003b165142280e Revert "riscv: hwprobe: Fix stale vDSO data for late-initialized keys at boot"
 
---===============3036579055427439565==--
+--===============3594592508165382051==--
