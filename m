@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 04 Aug 2026 13:22:39 -0000
-Message-Id: <178584975900.3676138.4287868177771489763@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 13:23:15 -0000
+Message-Id: <178584979509.3676467.16234466148889782617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,19 +12,15 @@ repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
   - ref: refs/heads/for-7.3/block
-    old: d73b5b0690e36b2a9e6022f6712e9fa7fd338632
-    new: 3bf9a21e7bccfd8c35b440efd114c61cc9838a41
+    old: 3bf9a21e7bccfd8c35b440efd114c61cc9838a41
+    new: 4d73bf0ca4fbe7f252154ce98d6693c6c198164c
     log: |
-         6c13180dba60f835d6909e2a3b4f50862de156c6 block: remove bip_should_check
-         738f01912a1ad68c81a6aed06cac94e09b5f609d block: lift BIP_CHECK_FLAGS to include/linux/bio-integrity.h
-         3bf9a21e7bccfd8c35b440efd114c61cc9838a41 block: handle nogenerate/noverify properly in fs-integrity
+         4d73bf0ca4fbe7f252154ce98d6693c6c198164c block/blk-iocost: annotate ioc_pd_stat reads with data_race()
          
   - ref: refs/heads/for-next
-    old: 4c45e8354f91173bb9e84bfa8638a9404c786e2e
-    new: 8b293a15bb77875db4f88db7b83037436370b3a9
+    old: 8b293a15bb77875db4f88db7b83037436370b3a9
+    new: 34a7668036335998a9458c620bca441aa57a3095
     log: |
-         6c13180dba60f835d6909e2a3b4f50862de156c6 block: remove bip_should_check
-         738f01912a1ad68c81a6aed06cac94e09b5f609d block: lift BIP_CHECK_FLAGS to include/linux/bio-integrity.h
-         3bf9a21e7bccfd8c35b440efd114c61cc9838a41 block: handle nogenerate/noverify properly in fs-integrity
-         8b293a15bb77875db4f88db7b83037436370b3a9 Merge branch 'for-7.3/block' into for-next
+         4d73bf0ca4fbe7f252154ce98d6693c6c198164c block/blk-iocost: annotate ioc_pd_stat reads with data_race()
+         34a7668036335998a9458c620bca441aa57a3095 Merge branch 'for-7.3/block' into for-next
          
