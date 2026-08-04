@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Aug 2026 01:13:08 -0000
-Message-Id: <178580598842.3127748.16343574539492831957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 04 Aug 2026 01:27:39 -0000
+Message-Id: <178580685934.3138612.9252705726687373252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: dc3b7209b5d32194b9088fb40f1787130f34ea5e
-    new: c98610c2eb7002436f6fca55b21c63200644549a
+    old: 1f428e30947395d9b9aacee03e25a4e6cfcad7a4
+    new: 1cb4298810e27e037d3ca07286ecbb97e89ba58d
     log: |
-         c98610c2eb7002436f6fca55b21c63200644549a selftests: drv-net: Test queue stall upon reconfig
+         1cb4298810e27e037d3ca07286ecbb97e89ba58d bnge: Fix NULL pointer dereference in aux device release
          
