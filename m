@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 04 Aug 2026 17:49:46 -0000
-Message-Id: <178586578672.3900040.18120690309490940743@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 17:51:56 -0000
+Message-Id: <178586591678.3903091.10189814335546292343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 156d8ff0778b1cb57dbe571c7183eb351e13d35c
-    new: 7036748fe55e0283197b0309664d9cfa7c80530b
+    old: 7036748fe55e0283197b0309664d9cfa7c80530b
+    new: 8a27877ac7e1b5fe95660f42f84596c5192919ce
     log: |
-         7036748fe55e0283197b0309664d9cfa7c80530b erofs-utils: release 1.9.3
+         8a27877ac7e1b5fe95660f42f84596c5192919ce erofs-utils: release 1.9.3
          
