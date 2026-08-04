@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5622422488662325145=="
+Content-Type: multipart/mixed; boundary="===============9087064455427323382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 04 Aug 2026 15:33:54 -0000
-Message-Id: <178585763416.3798030.42051608433108257@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 15:38:42 -0000
+Message-Id: <178585792276.3801840.2257254490794795206@gitolite.kernel.org>
 
---===============5622422488662325145==
+--===============9087064455427323382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,35 @@ repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
   - ref: refs/heads/arm64/percpu-fixup
-    old: 89438e146f979000c06bd5b7141c7093119f360f
-    new: 722f5a71500dc829410f85228fc15ae9a2cefc8d
-    log: revlist-89438e146f97-722f5a71500d.txt
+    old: 722f5a71500dc829410f85228fc15ae9a2cefc8d
+    new: 664440141a07570d6dae2078b3bc2c6f5d02cb13
+    log: revlist-722f5a71500d-664440141a07.txt
 
---===============5622422488662325145==
+--===============9087064455427323382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89438e146f97-722f5a71500d.txt
+Content-Disposition: attachment; filename=revlist-722f5a71500d-664440141a07.txt
 
-cd76cee9fb5f08061e5608564813012e303cc1d8 arm64: percpu: Fix this_cpu_write() casting
-b088f7efca92d406a8b0506e05adfc842a275ec7 arm64: percpu: Fix this_cpu_and() mask generation
-41101f4ae3b950993810213f8809a257d6ba9d5c arm64: cmpxchg: LL/SC: Avoid redundant extension
-0553a2fc25837eec559effbad6d1bd5651fc804c arm64: cmpxchg128: LSE: Remove redundant operands
-0c12c5f8065a7a2ba429cf7d75e9b999d280e14c arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
-a6821217763dcec827ac15cc0e374fe810b129eb arm64: preempt: Treat should_resched() as unlikely
-e7c1976276c1dfd338868decd2e9f4537efa0a32 arm64: ptrace: Always inline pt_regs_[read,write}_reg()
-07db40642f3014de3162344dede88d8135475351 arm64: percpu: Factor out percpu offset asm
-8263eaa9f517fa9fda13011a878538190be6fecc arm64: gpr-num: Add wxN aliases for wN registers
-47fcdb731e523ab5a196486023155bf6b3a644b9 arm64: gpr-num: add __GPR_NUM() helper
-3b474f56841e8dd91aefe5e8cc008a188f2b4567 arm64: entry: sdei: Restore all clobberable GPRs
-24813256a5835eff5a3921dfdc2ef963411a0e6d arm64: entry: sdei: Make 'tsk' available
-6102144bb0bf99cb2ed7999e856c25e3b49cc10b arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
-6bff2fc8f1431a146ae5a2d108080fb9a039eab8 arm64: percpu: Implement preemptible read/write ops
-4b5b027809b133386e2004309137e16b3a2c72e6 arm64: percpu: Implement preemptible void RMW ops
-5c5509d0e03f87b0c16b187bbc0de2501015cfc2 arm64: percpu: Implement preemptible return RMW ops
-a1307e098a069c3159552e7be3ca6a627694708e arm64: percpu: Implement preemptible XCHG ops
-af5f7daefa938ee62f9425824ae74517c4c209cd arm64: percpu: Implement preemptible CMPXCHG ops
-2b09e53ee97c14ef41e7561fd71f7d7a8228aa23 arm64: percpu: Implement preemptible CMPXCHG128 ops
-722f5a71500dc829410f85228fc15ae9a2cefc8d arm64: percpu: Remove _pcp_protect*() wrappers
+2b01313e67376c94b8cc314b5c2466957aae9274 arm64: percpu: Fix this_cpu_write() casting
+bcb50bdacd5567bee113eeae86aeb772d0130e19 arm64: percpu: Fix this_cpu_and() mask generation
+2077508aa728a36be3627fd271b56b09efd0911b arm64: cmpxchg: LL/SC: Avoid redundant extension
+14dc5f395f806db8fb19ebafbf71787b728f0aa8 arm64: cmpxchg128: LSE: Remove redundant operands
+d1b4747ff307dc926ac84088bbb556b9238b98ec arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
+9a88687d629b0087ca3364f28ac10257241e4dba arm64: preempt: Treat should_resched() as unlikely
+2c7fa99e74fcf4caa1c9e4c117362f0bf78fcd03 arm64: ptrace: Always inline pt_regs_[read,write}_reg()
+de97250513987c97ebc8dbd59c04876ca40a1b60 arm64: percpu: Factor out percpu offset asm
+9ea96f63bf05330532b055a2c680e33613e3c250 arm64: gpr-num: Add wxN aliases for wN registers
+04018ac16b4119c05df5096ea3fa2f61f61f6bdd arm64: gpr-num: add __GPR_NUM() helper
+a4b434536dff8700f2e0dbfbf52e1735f0e2046d arm64: entry: sdei: Restore all clobberable GPRs
+a852043457133cf2c289fc0b30e56102cf5495f9 arm64: entry: sdei: Make 'tsk' available
+b82ec916fc69363682335ad4bf3d0bd6d50b0e00 arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
+1d04e2feba26ef06e76a097d2a1f090d32db5077 arm64: percpu: Implement preemptible read/write ops
+68af6fb5217222fd0c3c00b841f5056c3b5661db arm64: percpu: Implement preemptible void RMW ops
+7f83d5f18748d7bb937cfca59a641086fd5d08d9 arm64: percpu: Implement preemptible return RMW ops
+4bf5784c0dead35a31cbe09eac552de4178ecd0d arm64: percpu: Implement preemptible XCHG ops
+47f8bcbe382892d821a4348558b6c61a3b8cea1f arm64: percpu: Implement preemptible CMPXCHG ops
+f34b6b9c714d0e2e9c2baf7e62f1bee902ff6e00 arm64: percpu: Implement preemptible CMPXCHG128 ops
+664440141a07570d6dae2078b3bc2c6f5d02cb13 arm64: percpu: Remove _pcp_protect*() wrappers
 
---===============5622422488662325145==--
+--===============9087064455427323382==--
