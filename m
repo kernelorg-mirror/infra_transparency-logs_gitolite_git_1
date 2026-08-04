@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Tue, 04 Aug 2026 00:56:29 -0000
-Message-Id: <178580498969.3110644.7092608024144685221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 04 Aug 2026 01:05:45 -0000
+Message-Id: <178580554510.3122408.475486593791248590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/rust-sync
-    old: 9ccdf57368f4e4e2f5c9a6df6f6a973299713123
-    new: b2f3f76b6cbb897f6aaf7e058b5ad4ffc87d1cfa
+  - ref: refs/heads/master
+    old: 8de2c875deccecc6191ba1a7b7e4fc967eb831d5
+    new: c47877e7a018b93bb90b8a33f4c077a19999e941
     log: |
-         a40ec270851ab33f42216e2ea94e1862137ed646 rust: sync: Add SpinLockIrq
-         b2f3f76b6cbb897f6aaf7e058b5ad4ffc87d1cfa rust: sync: Introduce SpinLockIrq::lock_with() and friends
+         c47877e7a018b93bb90b8a33f4c077a19999e941 Fixes for all trees
          
