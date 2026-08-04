@@ -1,85 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============1111647061593542657=="
+Content-Type: multipart/mixed; boundary="===============4248484459421333546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Tue, 04 Aug 2026 22:19:42 -0000
-Message-Id: <178588198230.4111629.18431852864436798445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 04 Aug 2026 22:20:44 -0000
+Message-Id: <178588204479.4114263.12579011879204108673@gitolite.kernel.org>
 
---===============1111647061593542657==
+--===============4248484459421333546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 1de7df24840578efde8ea6b34d2d6809ea1b8575
-    new: 73b4d58aba769f4c9fc2a2bb938b7e1e5fa274b2
-    log: revlist-1de7df248405-73b4d58aba76.txt
+  - ref: refs/heads/40GbE
+    old: 3438ffc6783cc84f4be7b90cfaf31e2f223494ba
+    new: 1e945a8131e44bcdfb7a5fd6866c97d7ae75bf9c
+    log: revlist-3438ffc6783c-1e945a8131e4.txt
 
---===============1111647061593542657==
+--===============4248484459421333546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1de7df248405-73b4d58aba76.txt
+Content-Disposition: attachment; filename=revlist-3438ffc6783c-1e945a8131e4.txt
 
-75692adea893e2574a623c63e6dc86c3fa058fb7 iwlwifi: update cc/Qu/QuZ firmwares for core24.60-33 release
-5abccaee12472424364126b224ac30b710141dfa iwlwifi: update ty/So/Ma firmwares for core24.60-33 release
-8eb7bc3078cfea2e628bf422e25712afc25e2592 iwlwifi: Add Hr/Gf firmware for core24.60-33 release
-2ab4ce216003ee2c2396c69e19455e4379b0e1f0 iwlwifi: add Bz/Sc FW for core24.60-33 release
-456685425c176d8a668a9cd5d69bafac568947cc Merge branch 'robot/pr-0-1782995542' into 'main'
-bd651de1f551cb19a8941c6e58d595071e03e2e4 QCA: Add Bluetooth firmware for WCN6855 ROM 1.0
-28624f4c34102142553a12651c0fc7a1c4530098 Merge branch 'robot/pr-0-1783060817' into 'main'
-ea557820eaac3c6e7c413ebf789ae3c1a3cda831 cirrus: cs42l45: Update CS42L45 SDCA codec firmware for Dell laptops
-c95059a3774b1164a2d6a4db5371fb8406b22692 Merge branch 'cs42l45-e13-e14' into 'main'
-b2306fcd2b757c0a92969e42fa9d5fc67b766321 qcom: vpu: add Gen2 firmware binary for Purwa
-2484241ff84f55595f74a503a7e4082a77ba7dc6 Merge branch 'video-fw-Purwa-Gen2' into 'main'
-b81cba4304c7385149dcb3261c9e10b10d855aec cirrus: cs35l56: Update firmware for the ASUS UX5406SA
-404a8ec6f1af2a30d2ce5b9ffcdbb9dc6bce9c43 Merge branch 'robot/pr-0-1783347458' into 'main'
-dc065e7d9a309526056d7d9d79d0bae06d9b0c3a xe: Release GuC firmware for NVL-S
-2c35b1ed46f661baaf14b08cebb9201ca802f939 Merge branch 'main' into 'main'
-0b1b0d6f1623e3903ef86dc15a69ede64780f838 qcom: Update DSP firmware for sa8775p platform
-8c254462365953a2c0f5e95a0b6f2a33098b922d Merge branch 'robot/pr-0-1784091313' into 'main'
-f328d8c751ab4d2fae0e66b600bd02779d777808 powervr: add firmware for Imagination Technologies BXM-4-64 GPU
-85336dd8506867f700b52ba8ae98b84c809eb351 Merge branch 'powervr-2026-07-13' into 'main'
-9bc90ae3a3f0cd75bfa6dff97bc17ef1463fbf61 qcom: add ADSP firmware for hawi platform
-924d73c9a2501a256d18a26cbe640548c70b3a9a Merge branch 'robot/pr-0-1784191359' into 'main'
-eca4f58a491ff70602558d97f9087b2de3005c1a amdgpu: DMCUB updates for various ASICs
-1168e26f77312e0f55a763891fb57b66d405b5f3 amdgpu: DMCUB updates for various ASICs
-fb91c990e602c85f0bb2f98d89480c080fe63f68 Merge branch 'amd-staging' into 'main'
-1d052c175dd7bf2d7d0247ebeaa31bfcca4943ac linux-firmware: Update firmware file for Intel Scorpius core
-b33e6a8d48a0489f3f11c925c3bf2b7bf563d437 linux-firmware: Update firmware file for Intel BlazarI core
-a17cf7dce1e733275c1922fe7cc04bc1a5591afa linux-firmware: Update firmware file for Intel BlazarU core
-c410f2d2706ba980eb3111e1a9554817463f0d22 linux-firmware: Add firmware file for Intel BlazarIW
-18cf97993f06c0a28d88cee30b7b646807642acd Merge branch '24.60_Rev4' into 'main'
-5dbe9737a58f7a2c3e6bb555a1a8f1b2c9858a21 linux-firmware: Update AMD cpu microcode
-d92478c78e4d808ead68434ba71fdb28dc38f6d7 Merge branch 'amd-ucode-7-24-26' into 'main'
-9f04ff1e66905750cd6a89fd26f294a006ff1c54 rtw88: add firmware v41.0.0 for RTL8723B
-566ee54a46a7db1acb05ad4da21556c2ac057655 Merge branch 'RTL8723B' into 'main'
-43cc9de7f7542d42063f0d5fa67138b4e35ef68b linux-firmware: Add firmware for new soundwire projects
-96a12486a22fd076b6d626a592207b88082b1d76 Merge branch 'tas2783' into 'main'
-b20d3b461730aecad5dad8f29102829a179fe246 qcom: Update DSP firmware for qcs8300 platform
-9d4523dac119d94ec2be48276161767fc3750b08 Merge branch 'robot/pr-0-1785138343' into 'main'
-3c12682c1d3ec6c39e43777300971cbab4e44890 intel_vpu: Update NPU firmware
-73951fa54d466bb6be875cfb89ce03d7bf665246 Merge branch 'vpu_update-2026ww28' into 'main'
-495465e0e7742d29f52674ff3172445a8f03a3a7 amdgpu: DMCUB updates for various ASICs
-5a44cf96e3443bcd486a7b0ed47c2733a510ee62 Merge branch 'amd-staging' into 'main'
-cefc3e9ed0a378c1c3d4cac517b78e0576666fec qcom: Update qdsp6sw firmware for shikra platform
-543b8f5f987c4da3f21550cf4827c69276986fbb Merge branch 'robot/pr-0-1785232691' into 'main'
-c0dbea2109401d31168f3f135159292272733d98 qla2xxx: Add ql2900_fw.bin firmware for 29xx adapters
-e65263dd10c449eb10a5c489d458c4d12597adf4 Merge branch 'robot/patch-0-1785317130' into 'main'
-1d737d9cb97d0bf0045c690a3c66a87a102a22ca qcom: venus-5.4: fix vp9 decoder assertion failure
-48d27ba4bec1da103113ffac1055243fe0eb0912 Merge branch 'venus-5.4-update' into 'main'
-ebd5656443f6d921588caa52641e4b18f9c1c7d7 rtw89: 8922d: add fw 0.35.113.2
-9cedbdc3ed074797d0a2ea7355ed0627a14ca5d4 Merge branch 'main' into 'main'
-bb7c02330655a5025a9bf0eb3741d49c6407b9e0 cirrus: cs35l57: Add firmware for Cirrus Amps for some Samsung laptops
-a968c5c2962e0bad2482f4b05a3fb627b871ca89 Merge branch 'robot/pr-0-1785507100' into 'main'
-68e5d7dc9f410f8e4bd55d76545dd07878c6dc7c qcom: Add gpu firmwares for Eliza chipset
-72ec309be40064e6b5748043fdc2da71dc385de5 Merge branch 'robot/pr-0-1785777533' into 'main'
-dbe44d7f98ffdb2b458d98285d3efb8741badad2 linux-firmware: Add firmware for new project
-73b4d58aba769f4c9fc2a2bb938b7e1e5fa274b2 Merge branch 'robot/patch-0-1785551577' into 'main'
+3860d8748af315bfee6fe669fddc1fc17d3214db net: hns3: fix speed configuration residue after driver reload
+1881f2efbf7f78dc0a79a387b29fde6ff56d3731 Revert "net: thunderbolt: Enable end-to-end flow control also in transmit"
+683c6ba6e58e6ed1037831ea97dd58d9c0e76b8d bonding: alb: re-check primary_is_promisc under RTNL in bond_alb_monitor
+53a43508ee332d8bffe40590c3d189c92a551f9f net: devmem: prevent net-iov / page mixing
+c2707480cfbf19c7619acc9c089d17f20869821f net/packet: reset the MAC header on the packet-socket transmit path
+ec680ea4ba1bca92a767fb7e7869758bfdd886e3 enic: fix tx_hang_reset use-after-free on device removal
+6ddfba2ea98db21b001e0e5c472499156224650c net/mlx5e: TC, Check if flow is PEER before acquiring devcom lock
+cd09971dcc1c499ae0879010a00e9dba87abdc4f pds_core: keep the health thread stopped during reset
+57d635329d799b79096155cdf47ee0013d6780d1 pds_core: cancel pending PCI reset work on AER recovery
+2195424c3da2ef1829a63b807e3a900a90e57d85 net/x25: fix use-after-free of the socket by its timers
+976245094925bab9bc39366b2e9ab44ffcde61d0 net/smc: fix qentry overwrite for CONFIRM_LINK and ADD_LINK_CONT in smc_llc_event_handler()
+63488dba65ef91373ef616575b32eb0eb21459f4 net: bridge: mrp: fix uninitialised bytes on the wire
+653d7ddf6cba867777a3d14c4f83ace008c5ad13 inet: frags: publish queues before arming timer
+47d7f7051253bdc02b1d245d87e38f16d31a74df net/sched: cls_route: fix fastmap use-after-free on filter
+f307a7dc32097c11413178fca437a10d20890bc2 net: hisilicon: hix5hd2_gmac: remove redundant NAPI delete
+1c4dac9bf1d2ac31da63b794bdec697777cbd0fd devlink: fix net namespace reference leak in reload
+43e970d961ad3cc0c23e89db255c7fa4a353eff9 net/mlx5: SF, Handle function changed event
+af39eb111ce6b5eba9c08513b62c4868eb7e7fd5 net/mlx5: fw_tracer, return NULL on create error
+0e125ecfe20c077625cf0be8d750d5c3abc0dce9 tcp: do not change rcv_ssthresh in tcp_measure_rcv_mss()
+9f2cf069a9a72a2d6b97ca8b4c70e714aac99749 sctp: keep chunk->transport in step with the list it is queued on
+d1ad8fb2ac6a1afb71dc22d9ae8efb4dda96c824 ipv6: fix Route Information option length validation
+d1000fd7995e51deec872d154e0a40d82f7a539f bnxt: fix memory leak in bnxt_queue_mem_alloc error cases
+ebac8f6b1ef0e9278afe204b8692a7479988dace vsock/virtio: read virtqueues under worker locks
+a31e0ad444698d8aa7534a0f89fda543730f97a5 vsock/virtio: avoid refilling the RX queue after teardown
+d5c5ecea1fb4ed0c32d639c023a64e906e038bc3 Merge branch 'vsock-virtio-fix-worker-access-after-virtqueue-teardown'
+1bb30b181d9f0484e141f8411e15ed906d5c6780 xsk: require at least 16 bytes of TX metadata
+19366db6dfccac9b0867a151678cd7b89fb8fd99 xsk: pass TX metadata pointer by reference
+9f60a67df8d3c862503bee62bada8e7089cba438 xsk: clear metadata pointer when no timestamp is requested
+439ce2dddf3d22129b9113a7881637256a35e936 xsk: validate launch-time metadata size
+ddd0d6c5bfe2fef7c7cf31f62265f29b7b9eb9ef xsk: move xsk_tx_metadata_request() to xdp_sock_drv.h
+849b1664dbda1cf6c63e0fd4f9dec23782b8c851 xsk: validate metadata when processing requests
+5243c3e3ad20d879d89f533198ee1c50506182ff Merge branch 'xsk-harden-tx-metadata-validation-against-races'
+1f428e30947395d9b9aacee03e25a4e6cfcad7a4 net: usb: ax88179_178a: fix skb leak in ax88179_tx_fixup()
+1cb4298810e27e037d3ca07286ecbb97e89ba58d bnge: Fix NULL pointer dereference in aux device release
+5d9686af2976741bbd79b150d1c9e60b81e7f12e net: smc: fix splice entry lifetime imbalance in smc_rx_splice
+4ff9548d84945d2cbf9e4c207288063a200ea397 ipv4: Fix fib_nlmsg_size() for RTA_VIA nexthops
+d141f087b1af656f055d7c5793a3e87817ba0bbe s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+d0f86fb36eb260abd10007b62c9dcc1028e03e61 udp: fix potential use-after-free in tunnel segmentation
+2a33516f9ef59ad11844d4fc152f889449b5daf3 net/sched: sch_cake: drop WARN_ON(1) for malformed packets in ACK filter
+1a35da325cac4d5bcad76a2aa943408a6f1d9000 packet: synchronize pressure clearing with ring reconfiguration
+cf6f8b29befb92173659bcef6a441d274947bfae net/openvswitch: check Ethernet header length in key_extract()
+a347304b2ca1a5377d5bd2d8a72e4b4f12afe648 net/sched: cls_api: Always acquire rtnl_lock when destroying locked classifiers
+3cf5ae1f0a423c24d6306d544b760bc707ffcf74 iavf: return EBUSY if reset in progress or not ready during MAC change
+04286e875a84473a63579d23bc27b498c4745db0 i40e: skip unnecessary VF reset when setting trust
+31d926a7fb6d0a11b4e7e4b8234cbd4877a75cf3 iavf: send MAC change request synchronously
+3223cc68bd379890f9c92a520a6fe13031929026 ice: skip unnecessary VF reset when setting trust
+39af4ce679968b4295ece8cd9f89ef3a0d3adad1 ice: move ice_vsi_realloc_stat_arrays() up
+8b0e6060c6d251c4a1f36b2faaabd320f7eb8591 ice: fix stats array overflow via proper realloc
+c542707e63b261dfda0d92ee7109f5a9a3fad676 ice: eswitch: fix use-after-free of metadata_dst in repr release
+aeaf2189b0466cdf670bcb6ad2f5d76ddb8939ef i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+3b93afa336ebf6c294bb47e88b719c0883d5e145 i40e: fix netdev leak in i40e_vsi_setup() error paths
+1e945a8131e44bcdfb7a5fd6866c97d7ae75bf9c igc: fix netdev not re-attached after resume if interface is down
 
---===============1111647061593542657==--
+--===============4248484459421333546==--
