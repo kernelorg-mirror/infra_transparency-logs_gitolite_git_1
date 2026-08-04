@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Tue, 04 Aug 2026 19:24:09 -0000
-Message-Id: <178587144941.3977588.5924378563245501369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 04 Aug 2026 19:27:25 -0000
+Message-Id: <178587164582.3981016.1790602974358179588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/docs-next
-    old: 7144308f14eae601132dbc548b8579fb629d0d1c
-    new: 70ca6a2ab4599e74979f540c46612b582b0fdcfa
-    log: |
-         70ca6a2ab4599e74979f540c46612b582b0fdcfa docs: pt_BR: process: Translate CVE documentation
-         
+  - ref: refs/heads/renesas/i2c-gpio-tests
+    old: f22c3a5a68a41ad369c52003063191ccf0d15f64
+    new: 0000000000000000000000000000000000000000
