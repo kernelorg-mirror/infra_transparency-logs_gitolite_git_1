@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Tue, 04 Aug 2026 21:14:22 -0000
-Message-Id: <178587806240.4063407.5819393911977652698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 04 Aug 2026 21:18:11 -0000
+Message-Id: <178587829188.4066955.8215277442928076721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 8d905d34daa8c8512c98ba7976df080b5dd377e6
-    new: 600f5de277ab8736529ec845751bef13721b211f
+  - ref: refs/heads/for-7.3
+    old: 9405de42b9d52a4213fbce7b85b0e791f1163d30
+    new: d2f5a606710ad70c341dc609430a20a5645618d5
     log: |
-         9ed48de2d9c4c71c0f560e13bc71fb2c7c8defd5 scripts: headers_install.sh: Normalize __ASSEMBLER__ to __ASSEMBLY__
-         600f5de277ab8736529ec845751bef13721b211f scripts: headers_install.sh: Normalize __ASSEMBLY__ to __ASSEMBLER__
+         82024a7ae057351db26493813f0dbca438a5c76c spi: dt-bindings: andestech,ae350-spi: Drop redundant num-cs
+         9ec27e118da72aafc3c4427661c7df65093642e3 spi: dt-bindings: marvell,armada-3700-spi: Drop redundant num-cs
+         577ada5875dc29e995ab36665835ee7ec7d8a8cb spi: dt-bindings: axiado,ax3000-spi: Drop duplicated type/ref
+         ad0dcba3ab9cd4690b056545c2ff96cdc0f6bf75 spi: dt-bindings: spi-cadence: Drop duplicated type/ref
+         463c840f54f85182da90b22bd71f1867f4a13b90 spi: atcspi200: Drop redundant andestech,qilai-spi compatible
+         2766401a9291bb246e62af40295fdc811703f912 spi: Few cleanups while looking at num-cs
+         3b0cee02664041aea7e4f787c66cb86c82eb4e97 spi: bcm63xx-hsspi: disable clocks on resume failure
+         2b62c2c134fa32d9d3a9e7323c8ac74518eeb4ac spi: bcm63xx: disable clock on resume failure
+         d2f5a606710ad70c341dc609430a20a5645618d5 spi: bcmbca-hsspi: disable clocks on resume failure
          
