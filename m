@@ -1,1085 +1,1066 @@
-Content-Type: multipart/mixed; boundary="===============5955247286991641119=="
+Content-Type: multipart/mixed; boundary="===============4785522265327442595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 04 Aug 2026 13:25:27 -0000
-Message-Id: <178584992790.3679102.7323715809713781850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Tue, 04 Aug 2026 13:27:19 -0000
+Message-Id: <178585003977.3680401.4512507336774555398@gitolite.kernel.org>
 
---===============5955247286991641119==
+--===============4785522265327442595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
+  - ref: refs/heads/for-next
+    old: 686ad3a72dfcc6b9f46098361c3325d0b502d2f3
+    new: 93f78478d5ff35ccadb8e914fd35056408a98acc
+    log: revlist-686ad3a72dfc-93f78478d5ff.txt
+  - ref: refs/heads/for-next-fixes
+    old: 251bce1848c820a36bb564a34031913acf5ecbe7
+    new: 0d0a5ba1a6b2652522597218a9060681ad72006c
+    log: revlist-251bce1848c8-0d0a5ba1a6b2.txt
+  - ref: refs/heads/for-test
+    old: eb544db5f7b84fd3008a71bddc527d5c8a6c944b
+    new: 9e5a7da176b46f312ff899baeb736a49f3e61acb
+    log: revlist-eb544db5f7b8-9e5a7da176b4.txt
   - ref: refs/heads/master
-    old: f4776d16765e054e5532950a41ff34bb693f2d0c
-    new: e7175aebf2002e179fec219b22cdaf66cb0b9140
-    log: revlist-f4776d16765e-e7175aebf200.txt
+    old: 075b74841bd0065a3bda3440873c747938e69b68
+    new: 848acc8ffe1b7cd5f1bf427b93069becfebc2c9d
+    log: revlist-075b74841bd0-848acc8ffe1b.txt
+  - ref: refs/tags/mm-next-fixes-2026-08-04
+    old: 0000000000000000000000000000000000000000
+    new: 0d0a5ba1a6b2652522597218a9060681ad72006c
+  - ref: refs/tags/mm-next-2026-08-04
+    old: 0000000000000000000000000000000000000000
+    new: 93f78478d5ff35ccadb8e914fd35056408a98acc
+  - ref: refs/tags/mm-test-2026-08-04
+    old: 0000000000000000000000000000000000000000
+    new: 9e5a7da176b46f312ff899baeb736a49f3e61acb
 
---===============5955247286991641119==
+--===============4785522265327442595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-686ad3a72dfc-93f78478d5ff.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785849906 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1785849920-e891b21795f241047f6d3de8fc1a59ce24d750ca
+fadeedd7cfc5d73d33fa3d7ac54b9b27aabd09d2 sched/psi: Create the psimon kthread outside of cgroup_mutex
+5457025fa8ca3c0d2732109513de839e3e797190 sched/psi: Shut down rtpoll_timer in psi_cgroup_free()
+477869bfafea65492d23de62c1b5208147c09dd2 sched_ext: Reject setting disallow from init_task outside the enable path
+5f8b69642d18e1f3e11996707842ac530444e959 sched_ext: Take cgroup_lock() first in scx_cgroup_lock()
+8c13364db9c9a43ed286f3a8d0fb9477b1adc43c sched_ext: Skip sub-disable teardown for never-linked sub-schedulers
+5cdc928598095b2c7d5f265e5f21eadd1634bfbe sched_ext: Don't enable non-ext tasks in the sub-sched task loops
+9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
+d4a00d61a5c2c24973175ace5368d1f6acf9bb0a selftests/sched_ext: Handle sleeping task affinity changes in numa test
+797fe91e50d6927f90f0c3b4444277c2c7c8b42b kho: align kho_scratch to MAX_ORDER_NR_PAGES pages
+cf6c993c0feca7984797e634deba3c80342e199a fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+d2f96bcb89d36d488a10e3bcf819b98536968286 fs,fsverity: remove check for fsverity being enabled in setattr_prepare()
+2fd9b4cfcefe30cb506072f78f2cd3b6dc8a29b1 Docs/admin-guide/cgroup-v2: document io.latency rotational vs non-rotational behavior
+35e66f03de8f5343825adfc21bcaec4a99d3d4c2 Merge tag 'cgroup-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+be76b516e681e5a620877bd3d0e1251b2ab38366 Merge tag 'sched_ext-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+c8e0d43058e6aaaf198e418a1d28a8da6e2dda69 Merge tag 'liveupdate-fixes-2026-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+2e718c88315af1c0a04fd9c295d605944a7949af Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+848acc8ffe1b7cd5f1bf427b93069becfebc2c9d Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+10d8ba097e2e1a62c8c22ac33f6b5a42f127f4d6 mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
+8e088f770db6a4242c7f6b80f309ad4019f4563b mm/ptdump: always stabilise against page table freeing using init_mm
+bcc4f4acd3136b24f87c01381d910fbef88e8f3c arm64: remove redundant concurrent ptdump UAF mitigation
+4ae2eacd28f540ce15d4f60b523eb9ddc5149047 mm/page_table_check: skip special zero mappings
+73125a2cb069295272b0d15740948d8aa077c1e7 mm/huge_memory: initialise workingset state before folio split
+985a9f7d60f15849dff4d8c3e9e663f63e9971df mm/damon/ops-common: putback folios on invalid migrate nid
+95e85309ad1fb4e9427ca62040f8e43c3a8b0614 mm/hugetlb_cma: dix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
+49a2d0a1e17708d5cfd10b9395279c2382c5b551 microblaze: restore the page alignment of swapper_pg_dir
+bfbbbfe5e7d9d72d58a1f84194ff5713120ca5f1 mm/filemap: __filemap_add_folio() restore index before retrying
+dadff7959441540e1604cd4cf284edaac8a203e8 mm/damon: adjust isolated pages stat for DAMOS_MIGRATE_{HOT,COLD}
+56b3434c033c485aefa1d661258f30503dd55675 MAINTAINERS: update address for Brendan Jackman
+b41f6948348b6dbae9b2dae228652f108c95e44f mm/huge_memory: fix huge_zero_pfn race
+559e9d16bc3f2fd67a9e3ea72e752d2716378c15 mm/huge_memory: separate out CONFIG_PERSISTENT_HUGE_ZERO_FOLIO logic
+18d9f4008bf65f8e05524804534b6309dda7de8b mailmap: map old addresses to Danila Tikhonov
+d85b627acd2f178ed9de567de633b1ea5c418214 samples/damon/mtier: error out for zero quota goal target values
+dbc61ec2db641b2c20aeaa64ca238567b8adb8b7 mm/damon/lru_sort: error out for >10000 active_mem_bp
+460f14245c020cb5c89c160eae5c205793878ef8 mm/damon/reclaim: skip damon_call() if ctx has not started
+23c7b6eb43887eba25b5110fd40bd0d242961532 mm/damon/lru_sort: skip damon_call() if ctx has not started
+9bae764e54db10bb98c16302aa361d50d66a2385 mm: fix incorrect flush address in direct page table reclaim
+1fdf95f0d6f36fbbd1de99626eaac91e5dcb493d x86/mm/pat: acquire init_mm write lock on collapse to avoid UAF
+23d5638ca0635da9a646ed7fc249cb06d3fb0100 x86/mm/pat: acquire init_mm read lock on attribute change to avoid UAF
+fabfaaa8090a83cbc97836cc70d47c69fa9e8c61 x86/mm/pat: allocate split page tables as kernel page tables
+0cae3cf6634fc35c4ddc521084e4cfdecfa088ee foo
+09b7eedac7d7faccd9e8a75465282c8e3537288e memcg: bail out memory.high when memcg is dying
+538309f5d71ee39f1407e0275734ea02f6e2dad5 memcg: bail out memory.max when memcg is dying
+4e24388dea98e9978bb85e019629ac18c35f08ba memcg: bail out proactive reclaim when memcg is dying
+649f0096dcf8df09cc3442fc9aefded31064800f memcg-v1: bail out reclaim when memcg is dying
+f1eec68786f5cad94ff59049ba69dd762410b9d7 mm/memory-failure: drop dead error_states[] entry for reserved pages
+d2f1e2a606fad7d59f6abdecdd810b918ffc13db mm/memory-failure: surface unhandlable kernel pages as -ENOTRECOVERABLE
+21ece609603711e14448b31f944b124fcf34c4b4 mm/memory-failure: report MF_MSG_KERNEL for unrecoverable kernel pages
+4a4c1bf97571c5b5b102ebf82aa20fe9620666ea mm/memory-failure: add panic option for unrecoverable pages
+c0cc9ddfcb152ece82ce2cd81780b4f8206c2b33 Documentation: document panic_on_unrecoverable_memory_failure sysctl
+70ac95c186fa9bc4c7e37d428066e803728722e2 percpu: replace __ASSEMBLY__ with __ASSEMBLER__ in percpu-defs.h header file
+f8d4f2d4d1f59f0eb9534c0d1777363cf9b944ca lib/maple_tree: add missing spaces after switch keyword
+038a3cacc2cb6ad916c3b832e955bd99e20796d7 selftests/damon: check correct path in ensure_file() not_exist case
+23ad7129056bcf386a33c605ccb27c51fb0572a8 mm/damon/core: stop ctxs in damon_start() before returning an error
+07ce124e8b81349e2cc371f722c650de3e99d22b samples/damon/mtier: do not stop first context for damon_start() failure
+8baadde4c3eae330ead6ba39a151be0012ff3399 mm/damon/core: make damon_stop() never fail
+ad06c26f8551d005b9246574038fd245c2d9e67d mm/damon/sysfs: ignore damon_stop() return value
+0257412ea6456b06549500f112ba0397508c9338 mm/damon/reclaim: ignore damon_stop() return value
+13eb21a8e0e4dedc7de473b82488bc0f3ccdfc1f mm/damon/lru_sort: ignore damon_stop() return value
+4be93ee4cb5be6680c29a181d48efe4fdd8538e3 mm/damon/core: change damon_stop() return type to void
+f916ec6216bf7cf91af0ff2e391f2dbb685af011 samples/damon/mtier: stop all contexts with single damon_stop() call
+f1a04b90ec6877bf52909ebcb96002f34818ae2c mm/damon/core: wait ctx stop in damon_call() before reruning an error
+e49948a0efb6766d8537283b0edd7694f2cce2c5 samples/damon/wsse: do not stop ctx for damon_call() failure
+684a4561f1881a82a5b93db857b1e38213d3f45f samples/damon/prcl: do not stop DAMON for damon_call() failure
+955b090ccb3b080767743e39103ef30c7e663a3e mm/percpu-km: clear page->private before free them
+7a90c51a9532fc256f5505c780e64c283e7968a2 mm/compaction: stop recording free page order in page->private
+5921133a461c51493aa56088a23e159752a3f665 mm/huge_memory: add page->private check back in __split_folio_to_order()
+8039619b9a13d1f4c170852ec5a249f804d9e0ab mm/page_alloc: make sure tail_page->private is zero at page free time
+2a299aea4c38856ca8d7825f91feece6c2c2363e mm/page_alloc: remove set_page_private() in prep_compound_tail()
+c10da2021e22f9e748aafcc50346601a4dc1e69b mm: avoid unnecessary lru drain for wp_can_reuse_anon_folio()
+86a7ce1cbc33ee1e715fb305916b8a7bd60c5a9e mm: rename in_lru_cache to maybe_in_lru_cache
+948fc4adf05b81245636ec42e0d30a175454ec38 mm: drop stale folio_ref_count()==1 check in do_swap_page reuse logic
+39116525e6ff0210130f24607c20cdfff904fca7 mm-drop-stale-folio_ref_count==1-check-in-do_swap_page-reuse-logic-fix
+1b4a3b45f8588c6cb382b7b59ffc29a8545a938c mm: entirely remove lru_add_drain in do_swap_page
+61fc1ffab40c80de2d18434da12f74fded5a2105 mm: clarify the folio_free_swap() for do_swap_page()
+4241d270830f3a8345713ed9aac64655914dd986 mm/swap: colocate page-cluster sysctl with swap readahead
+8ed6d702d44294f4bf3a3144966d80fb210f9c05 mm: rename swap.c to folio.c
+d566a36cd34d373400d7071a45114d0378f0e7a8 mm: move reclaim-internal declarations out of swap.h
+fb9130d0d0f4b53a80b7d022172e8bc579b87067 mm/shmem: annotate benign data-race in shmem_getattr()
+7a389ff96c3a758099a96d8903ffa894bf313132 mm: decouple protnone helpers from CONFIG_NUMA_BALANCING
+8798b8750bf8e8b3a937b833a33213c59da02288 mm: rename uffd-wp PTE bit macros to uffd
+5b79ede1d41afacdd8c3314d7bcf19f6c91d6825 mm: rename uffd-wp PTE accessors to uffd
+7ad4b30baabff3a336b370d69e16b488b0db391e userfaultfd: test uffd VMA flags through the vma_flags_t API
+f5ef824971dd5dd8e853d0f6e9d5706a77fb7502 mm: add VM_UFFD_RWP VMA flag
+fbb414a54319ec4d35e3b9a13a8951abd81f5430 mm: add MM_CP_UFFD_RWP change_protection() flag
+2e77877ee6e66f4e61bee4d99fcb574ebe3f77c9 mm: preserve RWP marker across PTE rewrites
+f661bd829ae11dbef013857fc37063331fa3923c mm: handle VM_UFFD_RWP in khugepaged, rmap, and GUP
+46667279916999c56824c92c3d901d45822bd4e2 userfaultfd: add UFFDIO_REGISTER_MODE_RWP and UFFDIO_RWPROTECT plumbing
+69e571f6b8b6cfa73b11b86ee24d0e9f335f88a3 mm/userfaultfd: add RWP fault delivery and expose UFFDIO_REGISTER_MODE_RWP
+0f3c872b3513c45d90c6a3db1cdff71367b416f6 mm/pagemap: add PAGE_IS_ACCESSED for RWP tracking
+0e3e8b8a467f35fd84ee28fe64a6d8dbce88af4a userfaultfd: add UFFD_FEATURE_RWP_ASYNC for async fault resolution
+87fbd4e6063c874b3a116ee0917bb1734c526ee6 userfaultfd: add UFFDIO_SET_MODE for runtime sync/async toggle
+44356812e77e53cb28b6ee56bd94126589afeb49 selftests/mm: add userfaultfd RWP tests
+b9d682b6641096407597ad899ecea4c861cd2c29 Documentation/userfaultfd: document RWP working set tracking
+6f023e88801efc9b6080fdb50438c40bb4710ef5 mm: nommu: fix the error path when vma_iter_prealloc() fails
+d247a9947abd91b7d6b11bbedcd6d3eef8031f00 x86/mm: drop order parameter from free_pagetable()
+e3e44da825b88db2b076b02d2a9a8ebbc6569fa3 mm: provide free_reserved_pages(), removing x86 variant
+85a085c41516e5b123a384a8fabd1f23a8758ac1 s390/mm: use free_reserved_pages() in vmem_free_pages()
+aa3bc93da9ab81ea055d6022fb639d3cf1038f9a mm/bootmem_info: allow calling free_bootmem_page() on pages without a bootmem_type
+fcf46bc73ba3fae87bf3067ae1d0178556466fd8 x86/mm: stop marking vmemmap as SECTION_INFO
+7f119b3fb6a3d2e63cfd4417bf8c458e33a3d036 x86/mm: stop marking page tables as MIX_SECTION_INFO
+2f2b66aac29831cf1796c58e9d3a0d587175b94a x86/mm: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
+026e9def17f54365d557447daf6ffe873e05ebbc mm/hugetlb_vmemmap: remove bootmem_info leftovers
+b59528a26e1ba21f2bd0f42fdc1c429de405c6f3 mm/sparse: remove bootmem_info.h include
+aa35b2becb8b42c89962f12c3750f4b5815a7aa8 mm/bootmem_info: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
+2a186dc7befdf8f5327acf11d39e30420bb6197a mm/damon/core: remove comment and test for nr_to_bp() divide-by-zero
+77be4f0a2e04ff09fc4d4a96a6bb9ae30bdff898 mm/damon/core: s/damon_max_nr_accesses()/damon_nr_samples_per_aggr()/
+040da09a1bed4308a26ccc49b0ba8d2a661ac9e2 mm/damon/core: s/accesses_bp_to_nr_accesses/sample_bp_to_count/
+eef002da78a297b6320294d6ef23e00be2350278 mm/damon/core: s/nr_accesses_to_accesses_bp/sample_count_to_bp/
+d94386f7885fe63b11173182b5149078aab21cae mm/damon/core: s/nr_accesses_for_new_attrs/nr_samples_for_new_attrs/
+9e82b98f253975789bfa9c59edd07392e7411964 mm/damon/core: update probe hits for new parameter commit
+d8e2e47278fbd83263db43a013e1d3db28baaf3a mm/damon/core: handle unreset probe_hits in probe_hits_mvsum()
+9d20d11f94d108aecfacf6360d90f3d838827ea3 ksm: add linear_page_index into ksm_rmap_item
+dbfdd03f8dcbd01fcd30a42d361a0dc4ae060ba9 ksm: optimize rmap_walk_ksm by passing a suitable page index
+435933b643df0b11e8515f62d84592db28c84f71 ksm: add mremap selftests for ksm_rmap_walk
+2a0b6d4ff7e4c8b32ed6428ed00b4bf9a268612a mm: split out mm_init and memblock declarations from internal.h
+a8cd53f9290c974cd96356f8b5c6b6ab266919f1 memblock tests: split stubfs from internal.h to mm_init.h
+84817984ffc0db8a7deac6010cb5e8e0be21279b mm: split out sparse declarations from internal.h
+176c7e692fdbe1d09b9944af8f5867d1660c4e47 mm: split out vmalloc declarations from internal.h
+5d707cea3a656d29a049c9c9bb203054c7afe25d mm/ksm: initialize the addr only once in collect_procs_ksm
+a7b19181eebd1025c63c5f16bcc9ffb3b63dd9c4 ksm: use precise linear_page_index instead of the whole address space
+0fcf196d13bbe7b44628bf290f78f99313f9aa1e selftests/mm: fix memleak in migration benchmark
+ad848e0d72e70ffbf70488de2651fd73cb914dc7 selftests/mm: handle EINVAL when configuring gigantic hugepages
+bfad79ee2ea6a6cc98f474e4b0cb867ddcbab59c selftests/mm: fix ksm NUMA merge test for systems with memoryless NUMA nodes
+36ce6515a5689a66dacab9a2cb96b7c4ffc2faf6 selftests/mm: fix ternary operator precedence in ksm_tests
+ae75e88d8c258fd849de594e7d468b5263e7b3e3 mm/gup: fix GUP-fast fallback for NULL-mapping order-0 folios
+a09f48727d3f60e891ea71bed012dbdeb4ff00b5 mm: remove wb_writeout_inc
+7f64c9ce1c17c1e23fef34df5f4620cbcbe39e5d mm/damon/core: introduce damon_probe->weight
+dfbc8e8193db559a93bb4ac2e847693394a84e4d mm/damon/core: ask apply_probes() ops callback to set sampling address
+00ce33ae6646aac1c1dd7388b0264b8bf4e3c15e mm/damon/paddr: set samples in apply_probes() if requested
+9164892a24241f5c4cfb740346bdbb0aedf70071 mm/damon/core: ask apply_probe() to return max probe hits weighted sum
+bd30862ffcdf5015e01c62ceadd569beb5e1be92 mm/damon/core: implement damon_probe_hits_wsum()
+8d534726ae3238cfa97c4664882767580f55e5dd mm/damon/paddr: respect return_max_wsum
+d4befe1eb0fd8b3bf4c8587ec8de9fbd299044ce mm/damon/core: use abs_diff() instead of abs()
+7d70f7b793fa544944d70991c146e3a263934e0a mm/damon/core: extend merge function to work with probe hits
+14481db1c686259ee9286b9f0bbeff7f7731f5df mm/damon/core: disallow probe_hits overflow on attrs only monitoring
+01239079335a87d182d122454fe3d94c27dc54e0 mm/damon/core: validate params for probe hits weighted sum overflow
+8406f336c2c0b988e2dfe387e75ce4c51dff88f2 mm/damon/core: disable access monitoring when probe weights are set
+42688422bc7d2141075d7d4580f1e77d22f8fb9d mm/damon/core: set samples in apply_probes() if probe weights are set
+41fff84262e2c3f0f10c1860246d787dca6f031a mm/damon/core: s/max_nr_accesses/max_merge_score/ in kdamond_fn()
+d13326b6877e049c655c8546a5319e331482529b mm/damon/core: get merge threshold from probe hits when weights are set
+e2063d47ea412ad1bb67cfba7a06f1b9aeccd315 mm/damon/core: implement damon_has_probe_weight()
+7bf6566f992099713319701bbab79f04b2d6a53f mm/damon/sysfs: implement probe/weight file
+304a1fef3adb10994aa45ba705462c7027d38d41 Docs/mm/damon/design: document attrs-only monitoring
+68fe0e01080803fb601fa9135c1faf2a64787d74 Docs/admin-guide/mm/damon/usage: document weight sysfs file
+eecb6f2c9d5e5029423b79f2da20e35c442b81fa Docs/ABI/damon: document probe weight file
+77a65bde09b3d4be2f8dbbbe2b17674f47658184 mm/hmm: make CONFIG_HMM_MIRROR select CONFIG_MMU_NOTIFIER
+eedebd0854eb6dacb94dbd24c6d86bb2914acab0 mm/hmm: move page fault handling out of walk callbacks
+b31697ddf904e60f8550b246d198b98c7d8b7390 mm/hmm: add hmm_range_fault_unlocked_timeout() for mmap lock-drop support
+a77c8c3cd6cc0079f614f1f420a49ea36112b8cd selftests/mm: add HMM test for mmap lock-dropping faults
+8e3897cd9a951b6eb12fdbe73c298625925d6782 mshv: use hmm_range_fault_unlocked_timeout() for region faults
+684c2d93ab13cdb86c516ac7194d98f018e155b9 drm/nouveau: use hmm_range_fault_unlocked_timeout() for SVM faults
+0f5cb61b4227ad3196029e93969f995a336226c0 RDMA/umem: use hmm_range_fault_unlocked_timeout() for ODP faults
+83dfe60cf408c41128561f4b8a75ee9999e057ed accel/amdxdna: use hmm_range_fault_unlocked_timeout() for range population
+135c8295d63c05a7dc35349b04b8763a915e7e12 drm/gpusvm: use hmm_range_fault_unlocked_timeout() for range faults
+b133cfc28bbf2a0e3d7501facc624adc4b007aed mm: move vma_start_pgoff() into mm.h and clean up
+3e7885c583a15faa738f953d681102ebdcd849f6 mm: add kdoc comments for vma_start/last_pgoff()
+85cd8bfa10abc21036e2c0d1a8787c3d5f024988 tools/testing/vma: use vma_start_pgoff() in merge tests
+fd64ddb25a3bf7bc58949a500b3107c6338064ff mm: introduce and use vma_end_pgoff()
+35aaddf940d5b13e9169711317a7956ff32a6d96 mm/rmap: update mm/interval_tree.c comments
+465f326305f084c91ae9583c61467a045e4f9d91 mm/rmap: parameterise vma_interval_tree_*() by address_space
+3af00bb3d1789a804c131e23aab8df0df0c767d6 mm/rmap: elide unnecessary static inline's in interval_tree.c
+c8c1182af8c2b87db172903fe43aa462a96eb517 mm/rmap: rename vma_interval_tree_*() to mapping_rmap_tree_*()
+3e6d3d8cbd15d32f5ee4f05cdd8c911ae031e5e0 mm/rmap: parameterise anon_vma_interval_tree_*() by anon_vma
+5fe55fd69fdd6bc85355580faa510d116700c802 mm/rmap: rename anon_vma_interval_tree_*() params and use pgoff_t
+2496b7bdb2a9ccee3d27f71f3c06fc45239f6314 mm/rmap: rename anon_vma_interval_tree_*() to anon_rmap_tree_*()
+c053a1371ad4931500b25cfc99ec721815bd7f4a MAINTAINERS: move mm/interval_tree.c to rmap section
+5873c80af0868643fe91bee08ae34501b4a4c8cd mm/vma: introduce and use vmg_pages(), vmg_[start, end]_pgoff()
+dc07831ac36fa71ea65b93fa7a2644cb5fee43a4 mm/vma: clean up anon_vma_compatible()
+adcef94727576c71465ee75d110f08ae2d753769 mm/vma: refactor vmg_adjust_set_range() for clarity
+1fa8de59fff31291f3f80f3f4babd2b3819b8b89 mm/vma: minor cleanup of expand_[upwards, downwards]()
+b52ebad6cdea0f2e65ade70f221b128753e9c564 mm: introduce and use linear_page_delta()
+6cabe6e6e2868d76fbb36e6f7459d073d92fedd7 mm/vma: use vma_start_pgoff(), linear_page_index() in mm code
+22a5a1a6866090a9ce7605561c809f437fd83f50 mm: prefer vma_[start,end]_pgoff() to vma->vm_pgoff in kernel/
+9ca9b1636a94d3928dacb5eb7ef5e02fef6ed155 mm/vma: remove duplicative vma_pgoff_offset() helper
+f7be7d842b02f9d0b76f6848219e2c05564e5e54 mm: use linear_page_[index, delta]() consistently
+0f6e70aedd546986970b2989a5ece611c41a161e mm/vma: introduce vma_assert_can_modify()
+71edeab4d5e5d719a3c83390dc675812805bb750 mm/vma: add and use vma_[add/sub]_pgoff()
+15a01b569b403cc742e2201774c6c6a2fdaf3f6d mm-vma-add-and-use-vma__pgoff-fix
+ae99f526cb8d7dfab44771c7c681424fb4c1db4f mm/vma: move __install_special_mapping() to vma.c
+6e56a0c7b118e4fbd950ce23af631697487c9194 mm/vma: make vma_set_range() static, drop insert_vm_struct() decl
+37323d2db97b0ca2e5f03b9097c120d0b878614e mm/vma: update vma_shrink() to not pass start, pgoff parameters
+7d84150881579880e4eecf1791b428c3b5340058 mm/vma: update vmg_adjust_set_range() to offset pgoff instead
+8d121ed4998f2f1777279a86bf899fe85d2a9a7a mm/vma: slightly rework the anonymous check in __mmap_new_vma()
+d24cadf9e7099b435c53baf53dd2f8ccbe8b99ad mm/vma: introduce and use vma_set_pgoff()
+de1ef54624ccaceb4f77438de46557d41e9e829d mm/vma: correct incorrect vma.h inclusion
+e17377252878dedcc3f6edf80eede8baee6a2c40 mm/vma: use guard clauses in can_vma_merge_[before, after]()
+696ea4dfe173ffb47d7cceea82f1880cebc8b7e9 tools/testing/vma: default VMA, mm flag bits to 64-bit
+3e16fe13201780683e6bf0d4ba5b9a5f5cbbfeb8 tools/testing/vma: output compared expression on ASSERT_[EQ, NE]()
+22a32d8aa6af32ab323366e04b530732f3a7b155 mm/mempolicy: skip non-present PMDs when queueing folios
+406e0ac1b01b419b06550a772e4a4fae8e860d5f mm/madvise: skip device-private PMDs in cold and pageout walks
+6feb5ba760e211a285039e884cedb81e84c0bd47 mm/huge_memory: skip device-private PMDs in madvise_free_huge_pmd
+d77790aa079c1f7187ee35ffa8d795943af4e6d3 selftests/mm: remove obsolete hugetlb vmemmap test
+5b327baedc9151449fa960c7d673f11998380487 mm/rmap: convert page -> folio for hwpoison checks
+7a37d7f685ddc4d1d109cc2a2931ec4fdba4b15a mm/rmap: add try_to_unmap_poisoned_hugetlb_one
+aeef9252945a5d57c7b45c8e922412d4a061ab22 mm/rmap: refactor some code around lazyfree folio unmapping
+8c21b47aab6ff4424746ef6bb28e47e307eb5b2f mm/rmap: refactor anon folio unmap in try_to_unmap_one
+b8713c8bf38d51098325d88f4bb4111acb03821b mm/rmap: add anon folio unmap dispatcher
+a91c677f25743bf5b085560b56b7cf4a8ca50144 mm: memcontrol: update state_local when flushing NMI stats
+24f074e357bf57700ec58afa52979507b51034b6 mm: memcg-v1: account vmpressure event allocations
+254296775caf5c9bc72a0d7f9c2e11d90262913f mm: memcg-v1: fix wrong linux-mm list address in deprecation warnings
+44edaab31c3c3f22818736f9fecb407e897d2786 mm: memcontrol: drop unused cpu argument from flush_nmi_stats
+f37f515895a88b2330e1edd014244eaa9a56f50d mm: memcontrol: factor out memcg kmem uncharge sequence
+54541a8c3e5ad23b77d026326afc7d3e46df8c7c mm: memcg-v1: make mem_cgroup_oom_notify_cb() return void
+e4e869b6a629806ace9fbedfbea3ac6631a0d244 mm/damon/tests/core-kunit: test damon_nr_accesses_mvsum()
+d8369d0bbdcfdc98e18e2cefa87d7d07d1ac1f47 mm: kmemleak: confirm suspected leaks with a second scan
+4df6b2ef5d149745946a9c5c22c31456b466b406 mm: kmemleak: report leaks only after N consecutive unreferenced scans
+971de748c8a67e71c40624f40b65e8c52d9b9d7c mm: kmemleak: factor leak confirmation into a helper
+9f366c75fde008161f764f72580d21d73c1e2ca6 selftests: mm: test kmemleak's N-consecutive-scan leak confirmation
+65395ffd14842779c4c1a99c750b08b477c93558 selftests: mincore: count file-mmap readahead on both sides
+2b307c4631c9aaecd3df2783250532d09bef7e0a selftests/mm: fix on-fault-limit false failure under sudo-rs
+f88448378ae6f103d929a94f1b0f006416b70e62 mm: huge_memory: fix kobject cleanup in thpsize_create error
+465bf09db5ac3da3bb51a4eb87a3b19faaf3b0f7 mm/swap: clarify unreachable cond_resched() in swap_reclaim_full_clusters
+5c173944de263f68f2d3048ff4d8a6051cd2d583 selftests/mm: factor out hmm_buffer_alloc() to consolidate buffer setup
+d9df3e650a46fbb898edf6026dbdea97ce62ab7b mm/damon/core: skip aging from repeated aggressive merging
+3fe57ad91a65bde01b0b5cfe263b9f3bed14c41e Docs/ABI/damon: fix typo in intervals_goal sysfs path
+422aae13382041265392e08bbeb697fdc344005b Docs/ABI/damon: fix typos
+ec783208def7d8be61c36838099aa63f2bcb685f Docs/ABI/damon: document update_tuned_intervals state command
+0260348ef00dd37e9d609594bf2718b182b6805d Docs/ABI/damon: document tried_regions probe hits
+999f26fa32f8f183acd4690cc5fca8ebac85c14c mm/memory: add memory_block_aligned_range() helper
+107832c6390d9a02e9defe23a8826cc71036af2a mm/memory_hotplug: add mhp_online_type_to_str() and export string helpers
+628a91eb5469bd8743cde1db504f9155ddce86ef mm/memory_hotplug: pass online_type to online_memory_block() via arg
+7ad8f5f586029710c5b945b390fe56019d27394e mm/memory_hotplug: export mhp_get_default_online_type
+c6b6a216f9dc42b032bcb8d1a62fa3c6215c509d mm/memory_hotplug: add __add_memory_driver_managed() with online_type arg
+44e236d08d05f14466b24d4931acdd2437b7462f mm/memory_hotplug: add offline_and_remove_memory_ranges()
+0f24d5734453856462d06c64dddd42fa27ecf613 dax/kmem: resolve default online type at probe time
+2be88e27f1cfc5bb340e00e54c4f14ee5644912e dax/kmem: extract hotplug/hotremove helper functions
+8a715cdbdd7b018f3f4f3f1f5bbf9fedc9f7e797 dax/kmem: add sysfs interface for atomic whole-device hotplug
+d9e296fe9378e49b90d32f2ffea2bbb216659783 selftests/dax: add dax/kmem hotplug sysfs regression test
+05d1268de9bfcf6530a83b99612137ec08bcac15 mm: introduce vma_flags_can_grow() and vma_can_grow()
+0d6e1386a381e0a6d2ceaffa0f9ad81e1a6cbd42 mm/vma: update do_mmap() to use vma_flags_t
+0f8b8f1bd6350ce8c56dcc167fbae9345a536f1e mm: convert __get_unmapped_area() to use vma_flags_t
+be150abd44b3c2a9c01c07e926c17bd6df925521 mm: update generic_get_unmapped_area[_topdown]() to use vma_flags_t
+3b011c1e2bbcda94c53c41b84c3510d132eb1c0d mm: prefer mm->def_vma_flags in mm logic
+88483083ca28240ebfa4fc48db3239898cf54f1b mm/vma: convert vm_pgprot_modify() to use vma_flags_t and rename
+c6fde7ee2525c92ac67af863f17486748c3c3e80 mm/vma: rename vma_get_page_prot to vma_flags_to_page_prot
+07f7c972bfa4de75b08e5b1307b811bc40e05a9f mm: introduce vma_get_page_prot() and use it
+a06c0d5648259e1cc01997cf011edf7a13e5a108 mm/vma: update create_init_stack_vma() to use vma_flags_t
+31653bc2e1f7168639232e8d36cdd78e23176803 mm/vma: convert miscellaneous uses of VMA flags in core mm
+9e348a8ad5bdc5d834edf2cd64f3fa78e16f0f1b mm/mlock: convert mlock code to use vma_flags_t
+db01e94fbe5041bea4a78880d0c01f1fb1a737fb mm/mprotect: convert mprotect code to use vma_flags_t
+8fea4a176201e5430eb6a0cfa34cb86896e399db mm/mremap: convert mremap code to use vma_flags_t
+b054ff7f9512dfb28fd80359251657fc7d0d29b1 mm/mm_slot.h: add a helper function mm_slot_remove
+59889ed75025038cd9d4a808c4197462b834d460 mm/mm_slot.h: add comments for mm_slot_lookup/insert
+965ec792bbe8fa2af90bb62f33557833295ccbcd mm/damon/core: hide private damon_region fields
+145d37707ec59ad69a145660aebde80472489999 mm/damon/core: hide private damon_target fields
+0ef2a8eec8374c96e76e2a023899df0a540a352a mm/damon/core: hide private damos_quota_goal fields
+f0ea6f271ac57b7d27e74323835fd71eafacb813 mm/damon/core: hide private damos_quota fields
+68f8022feb5f6bc93447135666af6deb7126262b mm/damon/core: hide private damos_filter fields
+494d0324bcfe77cefd18e807a35b05c52964c5c6 mm/damon/core: hide private damos fields
+1000cb46c879754908dcba1aadb4ac7be2594d1e mm/damon/core: hide private damon_filter fields
+3d49ab72b3f4be1c702e2df2bc88b62fc6eaa9fc mm/damon/core: hide private damon_probe fields
+3a66889b470202285516d1ef95fa19753e130e4b mm/damon/sysfs: do not directly access damon_ctx->ops
+05642781ccb34a05194b59a3bb37b3ec73018639 mm/damon/core: hide core-private damon_ctx fields
+08d642319c4aab46d848b5b6533ecb297c0a2b57 mm: let node_reclaim() return the number of pages reclaimed
+97873588e303d7e272fea782496838d3749b489d mm/damon/core: avoid infinite kdamond_merge_regions() internal loop
+7d3fe8b72ec9a434679d40eb588233d6e221150e mm/damon/tests/core-kunit: catch test failure in test_merge_regions_of()
+0f27c9da0df6fad28bf85214446415497b2e9a25 mm/damon/vaddr: drop last same folio access check optimization
+8c4b6c650cb571932050563c2f15733731ad1b81 mm/damon/paddr: drop last same folio access check reuse optimization
+3cce3ddb53b97782b988b64b91aa70b67f75d657 mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
+025205cec46f4692671b23ec2ec1fc3835c3870c mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
+0e2a6558d54de2ac0a709cb97f78c151da771ebd mm/secretmem: don't allow highmem folios
+b8657a38337b0623c9888edc0c4557ebe41382cc docs/mm: fix braces
+6a4dfd6e1e4281a011780c8d5106fb50ef4f2ede selftests/mm: add PAGEMAP_SCAN test for THP PMD holes
+3267711415300a87417d6572d77ba054489e19dd mm/page_alloc: don't spin_trylock() in NMI on UP
+48fe8619b82728209bfc64b12362e38804842017 mm/page_alloc: don't spin_trylock() when disallowed in free_one_page()
+2883fd4d309705980fa0569140203d11d9530922 mm/page_alloc: rename FPI_TRYLOCK -> FPI_NOLOCK
+45787f7f3dec0bd7ffb8a27c7a55a3c4080759fa cgroup/cpuset: update some comments about the page allocator
+7234622a0ca105d4e5ebbb463f515d940cc106a9 mm/page_alloc: fixup alloc_pages_nolock_noprof() comment
+9d3ce9c32db03baaa68d95a817f17a5ec09b335e mm/page_alloc: remove a couple of VM_BUG_ON()st
+ca1ee833270bb412ecc6cb000a2c20e0f32688c1 mm/mseal: remove superfluous comments, fix confusion around mm
+d3721ce1076ec6be6cfaa77ea2e5368aa88bb37c mm/mseal: limit scope of mseal address zero to address zero
+3daf959f7d6e9ad8daa8f31dd670ada293a861b0 mm/mseal: remove further superfluous comments, do_mseal()
+ae79df2435e58454557e667e38ae0c8c46830f22 mm/mseal: fix mseal documentation for 32-bit kernels
+f9ca452af096dfaac546da2eebdaf3d13a24a3b5 mm/vmscan: fix anon-only reclaim evicting file pages when swappiness=max
+6037536460db7ae52fe031ea6d20ac77e50df882 mm: vmscan: propagate real error code from per-node proactive reclaim
+79e5012acbe48344f0be0886cc081389e6633412 mm: vmscan: drop unused gfp_mask parameter from __node_reclaim()
+ad257249a7b05bf52c7351d436c901908ead0c1f mm/mglru: fix anon-only reclaim evicting file pages when swappiness=max
+a0f4c86926ebc21bed7d7d3fe780285f5ba774f9 selftests/mm: fix BUG_ON checking wrong variable in mremap_dontunmap
+6eb0ee7d846566d7c863ea63d97212174c35627d mm: introduce pud_is_huge() helper
+9b62d54f355a49d303f5360fe2bbf02b202163b2 mm: mincore: remove special handling for VM_PFNMAP
+675e47daa0ebdbfd84f438d25b3fd844a33f9dfb mm: mincore: fixup for remove special handling for VM_PFNMAP
+76b5bb309e70631b9f123b48e3b173ef822b15d7 mm: mincore: replace __get_free_page() with kmalloc()
+4e7aa78d607499bba855b22ce9338e674e10921a mm: mincore: remove xa_is_value() in mincore_swap()
+a33b22a8104292227f8a60dc6c1923215db4ec1f mm: mincore: improve mincore_hugetlb()
+a2f10ad7b04a1afff6a5be6f285b0c303edb8593 mm: mincore: fixup improve mincore_hugetlb()
+e68eb28aa3201ff1a7354e3f8ae944135581c14e mm: mincore: refactor mincore_page()
+a7522f23670970b9e7b336b4d8dd146c8bdf72db mm/huge_memory: remove unused can_split_folio()
+baa7c0ba882e377c9d5ab99881c049f3f57d6997 mm/huge_memory: fold split_folio_to_list_to_order() into split_folio_to_order()
+f109d7d334227d3f2cebd15dd335d4df1815254e mm/damon/core: initialize damos->last_applied
+414c662984fefac19bb0029479303969a7308a72 mm/damon/core-kunit: check region count before testing in split_at()
+aa4a53f8ebb074b1c33c88fdd043672c4146d64f mm/damon/vaddr-kunit: check region count in three_regions test
+106246ee5ff9dd4fa83c25e66c783603e279188a mm/damon/core-kunit: handle region split failure in filter_out()
+945c9e397141300aa6e349d78b130d416a2ff6d8 mm/damon/core-kunit: skip wrong dest walk in commit_dests_for()
+cd1ab8f5b27a95b4c989d727f962b9f3b76d8221 mm/damon/core-kunit: skip wrong quota goal walk in commit_quota_goals()
+1c83e6ea681aec16ed750d2479012af7cf6735b9 mm/damon/core-kunit: skip wrong region walk in commit_target_regions()
+f9bbe8e1de73054fa6418e302199ebed139a9e26 mm/damon/ops-common: remove redundant local variable in damon_migrate_folio_list()
+d21a647782d9203c7fd0ab45cd8caefdd81da2c3 hugetlbfs: release subpool on fill_super failure
+4187be95b721ab8529d390fc0673baa032fc4014 mm/damon/ops-common: use nr_accesses moving sum for quota score
+90429895ab7251196e925a13941fb2cfb01771b8 mm/damon/core: handle region split failure in apply_min_nr_regions()
+0d7d1bc02ad9bfddf2056135f95bf0ea83d60487 docs/mm: Physical Memory: remove deferred_split_queue
+0eeddc632c98243724125740151693e100b138da fs: stable_page_flags(): use BIT_ULL() for KPF flags
+4aff9195b1f6c7409be7202502941a47a012dd46 fs: stable_page_flags(): use folio_test_*() helpers
+ea4d8c81005ebdcfa37fa8e327c47ecb9c76eb38 fs: stable_page_flags(): simplify KPF_IDLE handling
+e00a8c5bdf7c1f6e478d7a3c62bf76a8ae8f7ffa hugetlb: make hugepage_put_subpool() tolerate NULL
+1f0bf5cccd48d26109ecf20a0b483d3960d638ce mm/memory: move pte_install_uffd_wp_if_needed() into memory.c
+4f38fbf0adabb6ecf5eb1771d6c13383ea764ea6 mm/memory: batch set uffd-wp markers during zapping
+e38a8a0065ec96fe626868c5855d2e7b2941645f mm/rmap: batch unmap file folios belonging to uffd-wp VMAs
+1c3413d1c787d6755b8dc53443b617092895789f selftests/mm: use MAP_FAILED for mmap error check
+a6c14cab950900f3d562b6da0da8001315a7320a selftests/mm/pagemap_ioctl: fix missing NULL checks after calloc()
+47a6f43a3eac4e0efcf8b430ba4a43f54d2c5687 mm/early_ioremap: clarify early_ioremap_reset() semantics
+04a4c4d9acbe7964998c0e061caccdd1577c57be riscv: remove unused __late_set_fixmap() and __late_clear_fixmap()
+3aa8d4f9a110f75faf962bea1443a886257509e6 arm64: remove early_ioremap_reset() call and __late_* macros
+27a2be326e03ba3e61d1a0544fa9b22bb9a4aa98 mm/damon: update outdated comment about DAMOS filter handling
+62542a0dfe4fec0d3bef52c1ccb1b098a9c1fcb8 mm/damon/ops-common: prevent migration fallback to non-target nodes
+ce5ed5293fa893fc04ada3439a13ecc9443cb1ce mm/damon: remove trailing semicolons after function definitions
+95bd96fbbac4bb6c866eb8ff12780e35611d5e98 hugetlb: evaluate subpool free state while locked
+796e27c68d9a7abfc8a068e82cdff4bccc79b057 mm: page_alloc: __GFP_FS lockdep annotation for direct compaction
+ad9dd26df6dca7f8e1437c4c709618d6ca4f2fe3 mm: compaction: support non-movable compaction for pageblock requests
+a0e36da0f563badd3efc8e444e71cf512fb8fba9 mm: page_alloc: move capture_control to the page allocator
+6ec7d98407a41e1c4544f9db09a61eb18b585642 mm: page_alloc: fix non-movable reclaim storm in defrag_mode
+b83a5574a9dc7101696c98927784dc4258ec4dc7 mm-page_alloc-fix-non-movable-reclaim-storm-in-defrag_mode-fix
+9a060e40cb40c7b8bb722fd535a26c36a5cb3406 selftests/mm: fix gup_longterm EINVAL error message
+3eba8f54992526bd9723af5482b329dc7e6d911d zram: move lockmap to be per-zram instead per table
+a535392e59f2ef406efee81b705b83e72282016a zram: use a custom key for each zram object
+6f2fec66651e63a18624b123017f292b3ea9c51f mm/migrate: report RCU-tasks quiescent states in migrate_pages_batch()
+f24aed36e2a103b91b69d47ac3979a4bd707a0a5 mm: fold userfaultfd_rwp() to false without CONFIG_ARCH_HAS_PTE_PROTNONE
+f8644a23ca4b2bd47c3837cee7fecead9f31ceb1 ksm: stop iterating VMAs when ksm_test_exit returns true
+ef79db5e6d2f2b927b2c99d257d3e40da2c48bd0 Documentation: zram: remove sections numbering
+f92fbb995665f86b2ce0c9bb513dc8ce68cd656f mm/zsmalloc: fix release order of locks in zs_page_migrate()
+45bd089d8e211e1cff3f62707893f631e9669757 mm/khugepaged: replace mutex_lock/mutex_unlock usage with guard macro
+25f6392ba7f29464244f4af71966c9fcd8549e66 mm/shmem: downgrade final i_blocks check in shmem_evict_inode() to pr_warn()
+72259e02ac0d0e54071aed4ad0caa22d2ca2e1f7 mm-shmem-downgrade-final-i_blocks-check-in-shmem_evict_inode-to-pr_warn-fix
+8b0be09af8a5c5c3f9933ac1ffec3c1a30f4cd7e selftests/mm: unpoison pages in memory-failure teardown
+b359be8e16155b762879fc1d40fe85528a6829bf mm/userfaultfd: clear uffd-wp PTE state when re-registering without WP
+ea5ef8cc711e2243439337209dbb8ddac2eee837 mm: mempolicy: fix automatic numa balancing for shmem
+52a6d473e254e81d68f7cd1a5bf2714b91e12580 maple_tree: add rcu locking check when LOCKDEP is enabled
+33d848a4208fd38654586d74a121a5c9cb818270 locking/lockdep: add sequence counter to held_lock
+785da24e631c9b0141c4c869f4661b4152270cf7 maple_tree: add write lock checking with lockdep sequence numbers
+f1bed86118178d2ec0537bf49834f588b35d6447 maple_tree-stop-flooding-logs-when-debug_locks-is-set-to-zero-fix
+fb63c949fba5f9bbe9b325082a9fe7bb50cead0e maple_tree: documentation fix
+af14cafeb540bfae03e15e73071eea5855a30d3c maple_tree: drop dead code from mas_extend_spanning_null()
+bd01773f95c2f8ce7c7a2ac0cbe0f52fd15d9ce5 maple_tree: drop MAPLE_ALLOC_SLOTS
+2ed37618aabd3204d0f9465acdacd83ed2504568 maple_tree: clarify comments on mas_nomem()
+6a7c7d1c3db2cf81693445b59e21d74da015e7c0 maple_tree: use prefetched value in mas_wr_store_type()
+d5ff54b1e6e59df68088c42d9a35d7948ac167d9 maple_tree: optimise mas_wr_node_store() when not in rcu mode
+6810a43ed63f69736b6af85710f2880bab54cf27 maple_tree: micro optimisation of mas_wr_store_type()
+006e676ad4f368c6f2c066e3d016af0c8d8dfa96 maple_tree: add bulk parent set helper
+bf22db27830ca40fd12f97e45155ff4d2b10346f maple_tree: catch race in mas_alloc_cyclic()
+5056c3194f0a36c3b417ddb47041ebca39277306 maple_tree: document that erase may use GFP_KERNEL for allocations
+dfa5e3f625dd90d17696f356653faa0d5c92cf77 maple_tree: WARN_ON_ONCE when allocations fail
+c111b5b66fb3c644257660c2a683b7698c61a496 maple_tree: document erase and allocations better
+e38035bffd3b02f0270842260de27f852a5300fe maple_tree: change two GFP flags in tests
+2dba48c335bbf9bef1d472e293574f0ceb6d16a3 maple_tree: fix argument name in header
+5a4323adf4d275919effee6e9aa87e2cbdd1746c maple_tree: avoid extra gap calculation
+bfa37987664bee970ec1842bd2d488f3a51bfd69 maple_tree: add helper mas_make_walkable()
+816bed69bc68a726ffcd3da4e5ed13e621e15da7 mm/zswap: use ratelimited stats flush in zswap_shrinker_count()
+95516576afdae53b61083b5cfd8ca40a81dc0ed0 radix-tree: fix kmemleak false positives on tree head reassignment
+5f6a4cd033fd5433bcfed7f4fb10d419eae89745 mm: nommu: point to the write iterator upon split_vma
+03613cb1df212b5c60ae3dbcedcd83d445a5712f maple_tree: remove undocumented CONFIG_MAPLE_RCU_DISABLED macro
+3a2b68831e9ce3788d7f32f04fdb8240a3253222 mm/kconfig: drop redundant memory hotplug dependencies
+775fa8e6d60f3230104ddc6fa14743d0d1888de8 mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
+bc3da70ba4d94fd7d2ebfff9f495ef69657e9ea1 alloc_tag: add ioctl to /proc/allocinfo
+5a1ff308f46d07096a4ba977099c225e8bd97430 alloc_tag-add-ioctl-to-proc-allocinfo-fix
+7b85185da5cc59aeec0628de3d1a0350159a5f41 alloc_tag: add ioctl filters to /proc/allocinfo
+7519f05eed6d63bdb9173d5ef8ee0b41c1acd622 alloc_tag: add size-based filtering to ioctl
+b011dfc9f8d63794072b9760343877bbdef7e0a2 alloc_tag: add accuracy based filtering to ioctl
+359316c5044534ff1daa2a7856745bddb15d2f15 kselftest: alloc_tag: add kselftest for ioctl interface
+caba89f72ba4584514a328b63265ab57aeb1dc07 kselftest: alloc_tag: extend the allocinfo ioctl kselftest
+dfddf95d5ee92c27b92d3aa881aca8f73b441e13 arm64/hugetlb: extend batching of multiple CONT_PTE in a single PTE setup
+8f733a622482cc2a3180a6f75a48010c55871b4b arm64/vmalloc: allow arch_vmap_pte_range_map_size to batch multiple CONT_PTE
+5bb41ac4c85a6cda552aaa4fa5fed08ef8e193d3 mm/vmalloc: extract vmap_set_ptes() to consolidate PTE mapping logic
+5312e7d4742729a186b9d92d0a8b13c1454369ad mm/vmalloc: extend page table walk to support larger page_shift sizes and eliminate page table rewalk
+5b1ae68f52f50e13cd0ede515e3250ba9ce3c09d mm/vmalloc: extract vm_shift() to consolidate mapping shift selection
+0fbf88ab3fae4684ffc777731af00980ff33da85 mm/vmalloc: map contiguous pages in batches for vmap() if possible
+be1ce6e2f3f6e0ed4253288629553804bbef43f9 mm/vmalloc: simplify vmap batching helper and limit scan by PFN alignment
+f47eb7b20e6ff04a8b0c2f976d4dfa4f7be006f7 mm/vmalloc: align vm_area so vmap() can batch mappings
+ea4b26f64c15506ffa52037269423e7e67177b9b mm: standardize printing for pgtable entries
+9db7b87579ee790ad83430f5ed2d61209c1aa1ff shmem: provide a shmem_write_folio wrapper
+259df813f94eb945c95111a80d2263fc63eb0636 mm/swap: introduce struct swap_io_ctx
+86e77b5f589a4607cf4662320d154b4e4854cd0c mm/swap: also use struct swap_iocb for block I/O
+117ba8901b87cacff5681596a8a0321594447e30 mm/swap: remove count_swpout_vm_event
+d6d968e052c50e10f4943121fbf90fdbdcb13cb5 mm/swap: use swap_ops to register swap device's methods
+f35525f8f17a7a062879519dee0f9215c9ce55fe mm/swap: remove SWP_FS_OPS
+92ec24f422613329982f5e4c9ec23ef5752c3464 mm/vmstat: add NRSWP{IN,OUT} counters
+7207fe1fa18ac90aabb3dc1c8635298b1d7eb82b mm/kconfig: drop redundant dependency wrappers
+4fa1814a50327ba9751b730c06e42690d188ebcb mm/swap: fix swap_cluster_lock() !CONFIG_SWAP stub signature mismatch
+a9f066530b2e82c44309c7213dc01a6125f0dfa4 mm/vma: introduce VMA virtual page offset field and add helpers
+cb4fcbd74b61fb4d85de11ee4ae130acc13fc19f mm: introduce linear_virt_page_index()
+da6b8abb1fec4923018fc62fffcc294cd2db2b36 mm: abstract vma_address() and introduce vma_anon_address()
+ef58a4799751381346dde0503bff5d9e53a34518 mm: update print_bad_page_map() to show virtual page index
+b9910d74e735e5aec8a3e2e972bc97cf5c57238b mm: introduce and use vma_filebacked_address()
+6e2fadc09035352994c388d9c908f5087c3428e7 mm: propagate VMA virtual page offset on map, remap, split + merge
+1c3d13626bbdf2d7bcd93960545ab364c0195cf7 mm/rmap: track whether the page VMA mapped walk is anonymous
+30786243303c267097150921f9ac9d962f502ec8 mm: introduce and use linear_folio_page_index()
+697fe2519109748020e52f4b9d4f0e7088ddc0b3 mm/rmap: use virt pgoff for MAP_PRIVATE file-backed anon folios
+c90f492d4c2fd55811b55d1fc5b1c51892506c69 tools/testing/vma: expand VMA merge tests to assert virt pgoff
+8c95e3247825fc4815654dba1f504cfcf95eded2 tools/testing/selftests/mm: test virtual page offset merge behaviour
+6ce85f42773cb422eea130db01191c5eabb48ad3 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
+d2e78dd6517fdfd01e85ac62e9203c3931970302 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
+6d3a42ed5c67f1cb3b3d7a60e6bbb1c8db0c9b97 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
+6623b9e3626575471d4ba329b116da2de483aa86 tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
+b7f7ebc7e1acb0c22197d456c36197aea2781d99 mm/kmemleak: report RCU-tasks quiescent states during the scan
+f49ed3614309722c9c989276fde75e4023d84286 mm: vmscan: convert folio_referenced() to use vma_flags_t
+999125b48d09f3cba13ee801d5a34a9230ae5c71 mm: vmscan: add a helper to identify file-backed executable folios
+cb5b7a618e965e5643afe6065ff932030e37081e mm: mglru: promote mapped executable folios after first usage
+907156c25c319008bcb0ccfe4a73a35680bdfb5e selftests/mm: transhuge-stress: check duration inside page loop
+90d72b0ccddf1dded315339746c9a26fc159f0f6 memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h
+b5b7645798185e761c3723f5ad62de6c876a38b1 mm: vmscan: fix node reclaim ignoring swappiness parameter
+b97e15d2604287cd22b9b7c71fad439d865c9b02 mm/vmstat, mm/memcontrol: add _monotonic vmstat readers
+ba0ce6e2174787a5e0f7cd4fbabccf1d8576deb0 mm/vmscan: reduce lru_lock contention via vmstat-derived scan-balance cost
+85965a9a14183fd5400e009bdd8fcba446020b55 mm/hugetlb_cma: support percentage-based hugetlb_cma reservation
+b5acd8b4ac0a27469ae6ae8d1ffcb00ece5ea120 zram: set default primary compressor in zram_destroy_comps()
+e0ff52d6581f0bfdb52cda2ceff8c7552959a450 zram: validate deflate params
+489af0c1d89ce546142a1d777190955c63084954 mm: memcg: stop reclaim when a limit update is superseded
+d07020e5ee6eb4ab986fc2698ebf6f6966b2bd08 Documentation: zram: correct algo parameters configuration documentation
+73a9f78e246fdd132aab8ecc59a1935db9bb9bf5 mm/page_alloc: boost watermarks on atomic allocation failure
+a8d7723b5cb67a95f97a4bdbe5ee3718dd3cbcd7 memcg: bypass the reclaim and oom killer for dying tasks once oom_reaper is done
+d2b885e83bd7a129fa5d42039018b52b7b5e7c11 mm: use proper PTE accessor in move_ptes()
+1b2f9f80b3e3d301a893e8b38e28be453c0ae003 hugetlb: only adjust reservation during unmapping if mapcount is 0
+598925d6ecc863b64a294824d8c60c1e290524f6 mm/page_reporting: add page_reporting_delay_ms module parameter
+4785177329eafc9db29e5b978bf9be98728e83e3 sh: remove CONFIG_NUMA and related configuration options
+f102f3b9a43777580d7b5f83b2ec1fa3cd4ff1ce sh: mm: remove numa.c
+34c7478058c7937a74c502036e3c4c1fe480c98a sh: mm: drop allocate_pgdat()
+c4844f649a07c45d08a8d781d2714df7de8219cc sh: remove setup_bootmem_node() and plat_mem_setup()
+994ce49d738d744b5e2d2ceea7a4f07f5b9adac2 sh: drop dead code guarded by #ifdef CONFIG_NUMA
+249c81b78fec1fd9d8b01690cab00515804c1bf0 sh: drop include/asm/mmzone.h
+d678c571a663d05f850b40f591072a265a2b96db init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+569f7745146cd0e9c32cfde654d12eebe42e0501 sh: init: remove call the memblock_set_node()
+99bae1445a646bdc09f37ca73b2a137baae423f7 sh: remove SPARSEMEM related entries from Kconfig
+e0b40ee41206125a7e2791e8ecf9795b63ff6746 sh: drop include/asm/sparsemem.h
+b53ace219ef96372a421fe0a69212f0a927eefea mm/sparse: correct init section annotations
+5e9b8e95ce74d76044531a9290f9b5acb7af10ee mm: zswap: drop list_lru param from zswap_lru_add() and _del()
+ef7e672a0288f2cfcb89f18321a38b58d5918351 mm/migrate_device: clear stale mapping after freeing swapcache
+37f2f627ba0fd6b417abca09a600ce4d7000cdf3 mm: shmem: reject page-aligned fallocate end overflow
+c79d41d56b200924bf2fd61210c82c192fe230ba mm/huge_memory: use folio's memcg inside __folio_split()
+85f7209b4939e3b4f6251ba5d809b9ac7cb5513d xarray: honor XA_FLAGS_ACCOUNT in xas_split_alloc()
+2d345a8f66d7be270fbb1e34aff0d264e3c2107e mm/gup: fix always draining LRU caches in collect_longterm_unpinnable_folios()
+58b9dd0eb990f8f359b3d2ea944b69b51c102b0e mm/vmalloc: make vm_struct.nr_pages an unsigned long
+40da27bff9581638f2769087090f724b871fa2e1 mm/swap: reject swapon() on filesystem-level encrypted files
+856becec8b7075df01315c31c5b3a03a2619c0df mm/page_alloc: only update lowmem_reserve_ratio on sysctl write
+026b51de4bd506f9ab1ce4c6dd29a71e53f0a34a mm-page_alloc-only-update-lowmem_reserve_ratio-on-sysctl-write-fix
+53c0a8be17f98ae786da009636d355e51cfc5412 tmpfs/ramfs: let memfd_create() work on nommu
+8870ee49fd0476bc2e2440587c511ac49c84e4aa riscv: mm: exclude invalid THP PMDs from page table check
+486855239e38a91d3eae26618ccb7845c1764625 riscv: mm: fix concurrency in mark_new_valid_map()
+580258a19284fce98de9013baa81633ab9d93515 mm/slab: introduce slab_obj_ext_has_codetag()
+c4ec6cb55750c80fc3d43b310eb7ccab33df3dcd mm/slab: reduce slabobj_ext memory with allocation profiling disabled
+acc6fdade62c11d822f7b73f16092ebd365fc1c2 mm/slab: introduce struct kvfree_rcu_head for kvfree_rcu batching
+3bc999d944b35dead1755b2bde1911cd5892225e mm/slab: introduce kfree_rcu_nolock()
+7df60eeb6736013ee1555a19e261a7d14e84f250 slub_kunit: extend the test for kfree_rcu_nolock()
+648294a02bfcd0eddae51877e3b30f8bbb2d4bb6 mm/slab: stop exporting kvfree_rcu_barrier[_on_cache]()
+7def2e8549e5186cd4de97ab5ce56f7944d3da59 mm/slab: add cache_ and slab_needs_objcg() helpers
+d4404b0f5b8b0ff4656d018a0ddfafdbd78879e2 mm/slab: stop allocating objcg pointers when unnecessary
+a6172cca157f3f50c9744a8b9b563f8b14371ed9 mm/slab, kfence, memcg: completely remove obj_ext for kfence objects
+2666b0cb7a6dcd778efc07f05ac58afbae998f5e Merge branch 'slab/for-7.3/objext_split' into slab/for-next
+e7f630142df2afccce90555e4972e60008222311 Merge branch 'slab/for-7.3/kfree_rcu_nolock' into slab/for-next
+0ae579d916ade97a30715b98c4916b167ea159a3 Merge https://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git fixes into for-next-fixes
+0d0a5ba1a6b2652522597218a9060681ad72006c Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
+3276f4aa51660b464da9b23445800391953c265c Merge https://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab.git slab/for-next into for-next
+026e70c215d815b879c28094839005deb393215e Merge https://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git for-next into for-next
+93f78478d5ff35ccadb8e914fd35056408a98acc Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-unstable into for-next
 
-f4776d16765e054e5532950a41ff34bb693f2d0c e7175aebf2002e179fec219b22cdaf66cb0b9140 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpx6DIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wAUP/RtUfku6SZV7qZwOrjL3
-o2Kz5JkraXM3+UmTOivEuAkm+0KuePLxWn5uDqmCS6LWro0WqSMqs7T3mtFZn2YI
-G1zV/kENFV+JCYVZ0PBZSUgEklN0ZlvHq+It/VKTqS63BU8oQM63CYLkFjidsaXc
-svn69pvH2FJUyNgAjgnfVEsogBPjTg3B9audTsU+m/8TBfn4L4fsnQM7onQZszEn
-4pWgyZTlkI06O6weqG4jkHheLPnCoDyinsJ3wzc53j7h/eZlXSoN7eGRSL4vHzao
-moKTcJVoygJRsYemSxk2cdiLEbKEmooUmGO6YHGNvwswEn9FDZ4jOMbc4kVND3nu
-WGDwk3sLxgxqLVD1aHmkneLNsfFWIP2jP5jhb8QGWfEeFQILSetzxXoDQeBhjQzY
-ZAWT5t6q6R7ePlA9H36TN2u2UaWSE7jIcOAUUbEh6dWqJUV1AxnHrDXh71nXcPS+
-xd9bxZoM11I4TrKZbVSqQfwhpELMtYbjJpP3Sp2ICHeWmXVHQQ3OnguCaw/Hw5Vc
-poE3rcalk4Agfd+Kir63CFX3n/pwiFyUihLdlMkN/c4ZuZrR+blbi/VLWUaPnKyp
-MWmjvrCZCUCb3hlEEPz9ovvS2J6HalW7WCvGCh0SXdLfHfbqpKp3HoJ2ZaJuaGIG
-7DcHVkW3OuFbcP6TbTfbCj/q
-=qD3J
------END PGP SIGNATURE-----
-
---===============5955247286991641119==
+--===============4785522265327442595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4776d16765e-e7175aebf200.txt
+Content-Disposition: attachment; filename=revlist-251bce1848c8-0d0a5ba1a6b2.txt
 
-1636c23502aa58affd3a7153f93dbb37fadf0dc3 CVE-2023-53795: Add CVSS 3.1 score (7.8 HIGH)
-368e711edbc0b4900152538f2bbec883aa557685 CVE-2023-53764: Add CVSS 3.1 score (8.8 HIGH)
-dff7f8bf97ddc4ade02de52066872805a17f59be CVE-2023-53781: Add CVSS 3.1 score (7.8 HIGH)
-9c21fc7fdaf3c2e3877a6e1d1eccc6a1fb1bcb8a CVE-2023-53759: Add CVSS 3.1 score (7.8 HIGH)
-9919df83796c0cd08c22f8386a851a5b27bfc27c CVE-2023-53762: Add CVSS 3.1 score (8.8 HIGH)
-1b57a5b77875dd69b684a72fa038b89195889575 CVE-2023-53751: Add CVSS 3.1 score (9.8 CRITICAL)
-97498b7a39b6526975f7724ac0225cbc7218282d CVE-2023-53769: Add CVSS 3.1 score (9.3 CRITICAL)
-77ef6c5728f30e202f0b975f716db4f6703e6fb5 CVE-2023-53747: Add CVSS 3.1 score (7.8 HIGH)
-489d5c4bcb13d1eb255ced1f7887f493cbe9c900 CVE-2023-53763: Add CVSS 3.1 score (7.8 HIGH)
-bd38e20c7c2dfd21ff482eb509e5784c56855af7 CVE-2023-53778: Add CVSS 3.1 score (7.8 HIGH)
-f7cd5735da29eeb0588abb4172086f301ecc6ea5 CVE-2023-53753: Add CVSS 3.1 score (7.8 HIGH)
-2763504d3d99842a32baf24db6fdb8906aaaff59 CVE-2023-53748: Add CVSS 3.1 score (7.1 HIGH)
-baae94f04c1ce7dacf81c1bab19386f590ed3062 CVE-2023-53752: Add CVSS 3.1 score (7.8 HIGH)
-8ec8eb20f3cc0ae19339ad28e4dafc9a149c36b9 CVE-2023-53729: Add CVSS 3.1 score (7.8 HIGH)
-d21d210dfcb58ff9b08e9a693b36e9adbc529056 CVE-2023-53718: Add CVSS 3.1 score (7.8 HIGH)
-9c2120eef8a4279e1bdd57f43fc8e23a1c708e43 CVE-2023-53726: Add CVSS 3.1 score (7.1 HIGH)
-e82febeca152b483d05e9c02090f79a1bc6bd604 CVE-2023-53713: Add CVSS 3.1 score (7.8 HIGH)
-2034a8513d6b073a47c824c623cfb07f00680616 CVE-2023-53733: Add CVSS 3.1 score (7.8 HIGH)
-89f456c9f21523f91f65ea70f38c217da34c27e6 CVE-2023-53692: Add CVSS 3.1 score (7.8 HIGH)
-488e1657bc2f6051ad33486288fcc9fd9aeaabda CVE-2023-53698: Add CVSS 3.1 score (7.8 HIGH)
-31d22c808efb4a31c07b8b0b22d783d909195ea2 CVE-2023-53683: Add CVSS 3.1 score (7.8 HIGH)
-6a3aac75204c4f7a54a3cde16de4d07bda1c342b CVE-2023-53673: Add CVSS 3.1 score (8.8 HIGH)
-d0f5ebe309466de832e7b3ae80eb6ce9a212b653 CVE-2023-53707: Add CVSS 3.1 score (7.8 HIGH)
-bab14ae8eb5e92665f26efa30a075f80b2c0c080 CVE-2023-53674: Add CVSS 3.1 score (7.8 HIGH)
-efedaecc75cb7aba8cb395731b09f9e788ce79fd CVE-2023-53705: Add CVSS 3.1 score (8.2 HIGH)
-de37acea076565d14c85c65b8f51ab0a97b519ef CVE-2023-53695: Add CVSS 3.1 score (7.8 HIGH)
-5ccae41b3c5fae6f6807e25aa36f07bb27df87bd CVE-2023-53675: Add CVSS 3.1 score (8.8 HIGH)
-b18816de4b545dccd836189e11b2e8245ec5aa0a CVE-2023-53679: Add CVSS 3.1 score (8.3 HIGH)
-dd10db875e9ae0273fa8e2db095e4b2b81ff2b94 CVE-2023-53669: Add CVSS 3.1 score (7.8 HIGH)
-09a64cca43065d01a6e83f0ab1106cab30f58438 CVE-2023-53676: Add CVSS 3.1 score (8.8 HIGH)
-426c9bca604930408c95c17530ad2d5ec7e7e6f2 CVE-2023-53680: Add CVSS 3.1 score (7.5 HIGH)
-67c0cdd4ed5753f214067d5893e137c4fb9a8083 CVE-2023-53711: Add CVSS 3.1 score (8.2 HIGH)
-45b72f5433cd9d51f6044e476c0fa5dacba7e9fb CVE-2023-53660: Add CVSS 3.1 score (7.8 HIGH)
-d9c93f162691114a6d42fe947e7328b747ce071e CVE-2023-53651: Add CVSS 3.1 score (7.8 HIGH)
-aee2c27cd8c17a3f39ecb57ceb459cd57a9342c7 CVE-2023-53638: Add CVSS 3.1 score (7.0 HIGH)
-d1b78071d16c30e3831699bee1e74569f8296c6b CVE-2023-53643: Add CVSS 3.1 score (7.8 HIGH)
-5cb7fd46d5b69f90384eb084e50df05832dee986 CVE-2023-53645: Add CVSS 3.1 score (7.8 HIGH)
-c416ebc5121a2f7c219eef0a90e52a6dbeb1d1f6 CVE-2023-53646: Add CVSS 3.1 score (7.8 HIGH)
-c0d2688e3f42aee5cd8860d76d8aca2dbedfdf85 CVE-2023-53659: Add CVSS 3.1 score (7.8 HIGH)
-42b631a2c08e77b86113075244260481297ac9f8 CVE-2023-53629: Add CVSS 3.1 score (9.8 CRITICAL)
-9812e5da64c503307bd7c39a76c5637d920f398e CVE-2023-53630: Add CVSS 3.1 score (8.8 HIGH)
-72c9e3b241f0bc269adb3023756121e2e3e4be9b CVE-2023-53635: Add CVSS 3.1 score (8.2 HIGH)
-68ba94ed22a735fbca4bb7cef1c0081b5be5d6c3 CVE-2023-53615: Add CVSS 3.1 score (8.8 HIGH)
-1b0426b8d250fed7b8f7bf5791507313c2ea6acb CVE-2023-53627: Add CVSS 3.1 score (7.8 HIGH)
-03b5d7da934185eadd2ab217194254882c1b4d39 CVE-2023-53616: Add CVSS 3.1 score (7.8 HIGH)
-a5305ca5ca3af1eaecf78cd38e6f85a55a428480 CVE-2023-53626: Add CVSS 3.1 score (7.8 HIGH)
-ab8e794519e9806be7827c2652db59fbb8af057b CVE-2023-53598: Add CVSS 3.1 score (8.4 HIGH)
-8a017debf7d9a10cdf4c5b8a3455dd02de89ac6b CVE-2023-53600: Add CVSS 3.1 score (9.1 CRITICAL)
-a66aa77585632844cff3b84ad225f0d707417262 CVE-2023-53619: Add CVSS 3.1 score (7.8 HIGH)
-f5d0944a2d093891bd1e1c76bce6328a865e90a8 CVE-2023-53597: Add CVSS 3.1 score (7.5 HIGH)
-91b3f62b41f7ad6e6810b4f9a767afec2830ba51 CVE-2023-53606: Add CVSS 3.1 score (7.5 HIGH)
-48a3dfe5c365099bbf7e280f398ac166d9473ff8 CVE-2023-53609: Add CVSS 3.1 score (7.8 HIGH)
-34b155b81cca794b2f23ec3af2e2f302bdbd5a00 CVE-2023-53587: Add CVSS 3.1 score (7.8 HIGH)
-f8287862ae6291c3ed6ebe1f90b2947a6927556f CVE-2023-53599: Add CVSS 3.1 score (7.8 HIGH)
-bd93baba40a7c332b0cb03059d095f4c590667a9 CVE-2023-53589: Add CVSS 3.1 score (8.8 HIGH)
-a3ead2a605623abb5550f859d542a019d3c6466b CVE-2023-53586: Add CVSS 3.1 score (8.8 HIGH)
-10045dbc54c270be1dad40be51a4f8574a69b98f CVE-2023-53640: Add CVSS 3.1 score (7.3 HIGH)
-e94a1738d011b405491aac2f50a1aade232d346b CVE-2023-53570: Add CVSS 3.1 score (7.8 HIGH)
-cae1393813f64d39a8b1c01001a67fecfa0804dd CVE-2023-53580: Add CVSS 3.1 score (7.8 HIGH)
-809045d11284154f836a23db7f828ec73c4e17ab CVE-2023-53560: Add CVSS 3.1 score (7.8 HIGH)
-3d619d05f19f08b4bbf1c4cdc35e18577a43668e CVE-2023-53566: Add CVSS 3.1 score (7.8 HIGH)
-0a5900b2b421807ecb007b0774bf9814ae747062 CVE-2023-53577: Add CVSS 3.1 score (7.8 HIGH)
-686cccfad374122b00e5f850de05e0817bc7ce17 CVE-2023-53608: Add CVSS 3.1 score (7.8 HIGH)
-c91314311cc52a3e172e9532d791accce1273735 CVE-2023-53557: Add CVSS 3.1 score (7.8 HIGH)
-e9656e31c8da58fbc004f2f8a3fcb1df8f7d60a1 CVE-2023-53559: Add CVSS 3.1 score (7.8 HIGH)
-807969dc41511bca143f48799964bdf512a82312 CVE-2023-53545: Add CVSS 3.1 score (7.8 HIGH)
-01456479fbf6f269c526160928b188c07ec4c52c CVE-2023-53554: Add CVSS 3.1 score (7.8 HIGH)
-fc8830e4facade46bf93067f8dbc129d8546a146 CVE-2023-53552: Add CVSS 3.1 score (7.8 HIGH)
-de03791911f85b5c9367cad4b35327922a5e7a2d CVE-2023-53556: Add CVSS 3.1 score (7.8 HIGH)
-0f4a35182b63d27cff37f3f5f5468f3dd849f52a CVE-2023-53536: Add CVSS 3.1 score (7.8 HIGH)
-d86b4805e9d52fcef756bab64ab63f1270b040f6 CVE-2023-53572: Add CVSS 3.1 score (7.0 HIGH)
-9bd54ad38582c02a779679f1fbdcddf36d444228 CVE-2023-53531: Add CVSS 3.1 score (7.8 HIGH)
-312be6bcc73decadcdf8dae402dd6e3848750584 CVE-2023-53526: Add CVSS 3.1 score (7.8 HIGH)
-56024af20218db78333bf0176c0dcfbcc4ea6e9c CVE-2023-53540: Add CVSS 3.1 score (7.1 HIGH)
-2cbef8ef4b8da4687502c651be2605794ca6f73c CVE-2023-53539: Add CVSS 3.1 score (7.8 HIGH)
-3128a681aa912c5be9b3cbb3ff866a8fa46a923b CVE-2023-53535: Add CVSS 3.1 score (7.1 HIGH)
-2df2e4b32e012e231202699812669d44e05ff890 CVE-2023-53517: Add CVSS 3.1 score (9.8 CRITICAL)
-bc6424b1e6697050203a5a0cdd055e889f3b1620 CVE-2023-53537: Add CVSS 3.1 score (7.8 HIGH)
-c97f81c5fbdf0b2e4310c1c20d2f5d888322163f CVE-2023-53518: Add CVSS 3.1 score (7.8 HIGH)
-f0ab497047d6d34c9286cfcb6dd279c1b4f971a8 CVE-2023-53520: Add CVSS 3.1 score (7.8 HIGH)
-d6caf18bd425565f8f8b21deb6d719e2b22f5785 CVE-2023-53504: Add CVSS 3.1 score (7.8 HIGH)
-ce60a4cb9ce2a31fd0ee0abe02a778fc4980b8db CVE-2023-53506: Add CVSS 3.1 score (7.8 HIGH)
-374957a5bcc661c0a977c7f209493ee9ad6c7417 CVE-2023-53499: Add CVSS 3.1 score (7.0 HIGH)
-7829ae3264fb2278d4661378b0814360afab577c CVE-2023-53490: Add CVSS 3.1 score (7.8 HIGH)
-ffe5d048e3680738941ff5c907a27fae49db94d9 CVE-2023-53494: Add CVSS 3.1 score (7.8 HIGH)
-7765b0c5d97f050464cc6b3e0b113d5a6938b923 CVE-2023-53492: Add CVSS 3.1 score (7.8 HIGH)
-618e0405fe5c36d7a49a047ca411c6ced6793171 CVE-2023-53478: Add CVSS 3.1 score (7.8 HIGH)
-820268c40fe1c42da02f4b75bd695401e5e9fe43 CVE-2023-53493: Add CVSS 3.1 score (8.4 HIGH)
-90f279caf477427c437bb73938ad2bc4dfd4d325 CVE-2023-53495: Add CVSS 3.1 score (7.8 HIGH)
-9d0df6eba3626c63c20081be8635eae47e4771bd CVE-2023-53481: Add CVSS 3.1 score (7.8 HIGH)
-5b69837cbb29c2bb6747e4a655da0f8e385a29c1 CVE-2023-53491: Add CVSS 3.1 score (7.5 HIGH)
-3472da55d8dda55e15e58b0329a99b3a29a28ba6 CVE-2023-53463: Add CVSS 3.1 score (7.5 HIGH)
-408c6985760d849171e4c0684591ce416a33b57f CVE-2023-53485: Add CVSS 3.1 score (7.8 HIGH)
-cbc8f034984f10f4e86c3c424963b6a21deefaca CVE-2023-53474: Add CVSS 3.1 score (7.8 HIGH)
-d2ead0cc11df1c855f2ae9425257716bc6ca87d7 CVE-2023-53484: Add CVSS 3.1 score (7.8 HIGH)
-0fb637a9c5c96e9fbefb45156485f86e40ae1535 CVE-2023-53500: Add CVSS 3.1 score (7.3 HIGH)
-5d30091d42cb9f197df72e3afe804988057e9e39 CVE-2023-53486: Add CVSS 3.1 score (7.8 HIGH)
-c5313bc472e7e511758f81235dd6d0facaa37c65 CVE-2023-53465: Add CVSS 3.1 score (7.8 HIGH)
-47045a5758d9a2097d8fdfcb2a469c0088cb14f1 CVE-2023-53445: Add CVSS 3.1 score (7.8 HIGH)
-abdf9ba4db75d7e0d629a5beebe4189a7fb0acb2 CVE-2023-53510: Add CVSS 3.1 score (7.8 HIGH)
-4709e8018d761caf71c08e24a931b402a6253e99 CVE-2023-53473: Add CVSS 3.1 score (7.8 HIGH)
-858d0a9f920f4981d06027f3849dab846835c13b CVE-2023-53462: Add CVSS 3.1 score (7.1 HIGH)
-9b2982ccd1837c7522baa18552d39e1758ad5548 CVE-2023-53440: Add CVSS 3.1 score (7.8 HIGH)
-3b6160909e03f662addac18ea713a65385d4e917 CVE-2023-53431: Add CVSS 3.1 score (8.8 HIGH)
-9615289c052ddc7fc4c676fbfabd887dd2c76e31 CVE-2023-53426: Add CVSS 3.1 score (7.8 HIGH)
-42892bb23da9af1e286e9527e4b5ccd6bb227a2e CVE-2023-53432: Add CVSS 3.1 score (8.8 HIGH)
-9ded83b7a59b4447e9c3e393b2692286af5580d4 CVE-2023-53454: Add CVSS 3.1 score (8.8 HIGH)
-54c121619c9b8ed4b4329bca8066bd7484828418 CVE-2023-53429: Add CVSS 3.1 score (7.8 HIGH)
-fd3f0481ed49eb232ae722a096a3259b1f562c21 CVE-2023-53420: Add CVSS 3.1 score (7.1 HIGH)
-50f6ffaeda1b4d8bdbfe4c52b51b6277d9fccd36 CVE-2023-53399: Add CVSS 3.1 score (7.5 HIGH)
-b59c3958117afb48ab7567f27d39d91b43aa376b CVE-2023-53398: Add CVSS 3.1 score (7.8 HIGH)
-1fdff41f461f4f304cc7c3fb79e0ac9e7a2b237c CVE-2023-53394: Add CVSS 3.1 score (7.8 HIGH)
-ec1cf1769ed78dca2acef0025572284ee0dd9a69 CVE-2023-53388: Add CVSS 3.1 score (7.8 HIGH)
-979cb6d5316146617fb163ca56216b6e68a6a096 CVE-2023-53387: Add CVSS 3.1 score (7.8 HIGH)
-f549c8c1d768124413f01f74a3663cd29ee007fb CVE-2023-53382: Add CVSS 3.1 score (9.8 CRITICAL)
-4d116a4fe0a200d63f455e75711085cfa37b8fce CVE-2023-53381: Add CVSS 3.1 score (7.5 HIGH)
-2c9eb4f600df5217b922b58b3c933830553869ee CVE-2023-53378: Add CVSS 3.1 score (7.8 HIGH)
-2969c92e531ee85e52b298050b99b2b8de5de484 CVE-2023-53376: Add CVSS 3.1 score (7.8 HIGH)
-9565f1005f807af224f9252d932a77641939a75f CVE-2023-53377: Add CVSS 3.1 score (7.8 HIGH)
-67114c1befa8cd6e4cbd7edc05936ff4ed3775b3 CVE-2023-53373: Add CVSS 3.1 score (7.8 HIGH)
-e4457d7527db61396199a83032dce33f98729b5d CVE-2023-53374: Add CVSS 3.1 score (8.8 HIGH)
-6c1e2312d67e457a0a4dc9f8abcd593429a3aa19 CVE-2023-53386: Add CVSS 3.1 score (7.8 HIGH)
-a0e3593b300b7f32f6ddf92f15516dee32fdb5bf CVE-2023-53372: Add CVSS 3.1 score (8.2 HIGH)
-0e0b4fc56e67663a75560e2b92ae7ecd9ef62e75 CVE-2023-53360: Add CVSS 3.1 score (9.8 CRITICAL)
-02940971d1ff9b35a2100c692d097d4ca4b176f0 CVE-2023-53358: Add CVSS 3.1 score (8.8 HIGH)
-b8fa7ef8462d9220a67a69b7f11a34c23cf598a0 CVE-2023-53340: Add CVSS 3.1 score (7.8 HIGH)
-e2d70e74f9e0fe694703dceab9e47f792bf69286 CVE-2023-53354: Add CVSS 3.1 score (7.8 HIGH)
-b2764d7f8c8d3114fe22cfafcb6721e9733227d4 CVE-2023-53338: Add CVSS 3.1 score (9.8 CRITICAL)
-46fa2ad361aee352d513a16f18b52ac7b2df3b11 CVE-2023-53333: Add CVSS 3.1 score (8.2 HIGH)
-47e786c9377fde3c3a35b61e339f06f0ab1480b7 CVE-2023-53335: Add CVSS 3.1 score (7.5 HIGH)
-6411bc87d4d204b10a4d6a1739a1f613b8be190f CVE-2023-53331: Add CVSS 3.1 score (7.8 HIGH)
-aabfa32ce252fa5a72390430e2db62df86160ef7 CVE-2023-53322: Add CVSS 3.1 score (8.8 HIGH)
-3ba50976e97e26d03d4a0cec73111410b382bf2c CVE-2023-53321: Add CVSS 3.1 score (7.1 HIGH)
-9b32a3f1786b343b52dcbdaa0dfc21c2ba93072a CVE-2023-53315: Add CVSS 3.1 score (8.8 HIGH)
-f0b08b55496e95a4bca5d2a8263bf4bdacb9c0c6 CVE-2023-53311: Add CVSS 3.1 score (7.8 HIGH)
-aaab306d593310c036b73635e45add8be7349092 CVE-2023-53305: Add CVSS 3.1 score (8.8 HIGH)
-fd3874aa545c241eb7e80193de29bca0269a5794 CVE-2023-53314: Add CVSS 3.1 score (7.8 HIGH)
-dbd323c39b19944d6446b3300ea07e3391da7830 CVE-2023-53297: Add CVSS 3.1 score (8.8 HIGH)
-a37a56f1c88c77e2fcb1cae2927c7b7f7900496c CVE-2023-53286: Add CVSS 3.1 score (7.8 HIGH)
-498995880704fb925819b4ad97c420a014d4dafa CVE-2023-53285: Add CVSS 3.1 score (7.1 HIGH)
-563d8dcee2744f2a683249930e4c4e7dcfd51afa CVE-2023-53274: Add CVSS 3.1 score (7.8 HIGH)
-be1af2bc1de0d88a60bf757d6b5a9ce26df31e86 CVE-2023-53263: Add CVSS 3.1 score (7.8 HIGH)
-824812c271a6ef2dccba2e58d28d6c70c5b4c100 CVE-2023-53252: Add CVSS 3.1 score (7.8 HIGH)
-97dc44e5d223023e2cb9149b80bc7e1b6a2b3df7 CVE-2023-53257: Add CVSS 3.1 score (7.1 HIGH)
-50faff9c45ab1e7b5b6817cf7341fef4b7d7e937 CVE-2023-53254: Add CVSS 3.1 score (7.8 HIGH)
-819311c51c6dbabf0be5e7cb6c901b5fec5bbdbc CVE-2023-53253: Add CVSS 3.1 score (8.8 HIGH)
-5dd819ff88cfd201e38748a92bdaade0b865ee60 CVE-2023-53242: Add CVSS 3.1 score (7.1 HIGH)
-117202a4d1d3325bb2bc15663317218d5f329796 CVE-2023-53236: Add CVSS 3.1 score (7.8 HIGH)
-b05c9d6d66b0fc87354dbf7d94fcdd66fb3682fe CVE-2023-53226: Add CVSS 3.1 score (8.8 HIGH)
-3c2b61ae438c09e5368f9cf8044fc0a934d900cd CVE-2023-53222: Add CVSS 3.1 score (7.8 HIGH)
-4cf9139ce6881d9ee4770f0ad8cd194edc19af25 CVE-2023-53219: Add CVSS 3.1 score (7.8 HIGH)
-947f9035356f6189312eea9131d927a73e928b23 CVE-2023-53216: Add CVSS 3.1 score (7.8 HIGH)
-a3f4ec66a0b71f975ba1e124f4e0a472c65fe02b CVE-2023-53213: Add CVSS 3.1 score (8.1 HIGH)
-80bf8658f76262544d654ed527de180916435aad CVE-2023-53214: Add CVSS 3.1 score (7.0 HIGH)
-b19dc9a43952d76ee221fae22c8a713c0912ca67 CVE-2023-53194: Add CVSS 3.1 score (8.4 HIGH)
-4798a2a34d9bcc5bdb96aeb57c78a69b7a964033 CVE-2023-53184: Add CVSS 3.1 score (7.8 HIGH)
-eb432a9159acf356d854c1c86ac3d0359eec600d CVE-2023-53192: Add CVSS 3.1 score (9.8 CRITICAL)
-88ee50d5108eb1803eb8cc7dfe9ed269618e926f CVE-2023-53189: Add CVSS 3.1 score (7.8 HIGH)
-84ef67fe58912f7716dc0c1b771b8119945c6382 CVE-2023-53187: Add CVSS 3.1 score (7.8 HIGH)
-cdf75d0bf5d7f9c46ee8adf460ca4b8a8228cb0c CVE-2023-53205: Add CVSS 3.1 score (7.3 HIGH)
-f1edb2c765bbd748546faaf21c71ddd2de2adf07 CVE-2023-53229: Add CVSS 3.1 score (7.1 HIGH)
-c2b6ea80939a651276995eab6b12cf7b483087d7 CVE-2023-53179: Add CVSS 3.1 score (7.8 HIGH)
-cd082b045857b61f2864a2e3e167c41e7a7f4696 CVE-2023-53186: Add CVSS 3.1 score (8.1 HIGH)
-4caa475a97962c372b513f87df9cea9516f555e6 CVE-2023-53178: Add CVSS 3.1 score (7.8 HIGH)
-91462599953f11af7c9857dc6b6e4f11e38e7702 CVE-2023-53176: Add CVSS 3.1 score (7.8 HIGH)
-d37a7756f5e8995b34da83758464c098a76fa711 CVE-2023-53170: Add CVSS 3.1 score (7.8 HIGH)
-9afee29f17e2f0a97bd1962258e46ecf06befda0 CVE-2023-53138: Add CVSS 3.1 score (7.8 HIGH)
-67a8a696dfe66c04da4765380c14b377b0fa5831 CVE-2023-53116: Add CVSS 3.1 score (9.8 CRITICAL)
-c2ed1f60e981d7e7b93e81b32e9178872a767309 CVE-2023-53111: Add CVSS 3.1 score (7.8 HIGH)
-f578a17f81b35210af3a35a36d1d54020029cd9d CVE-2023-53107: Add CVSS 3.1 score (7.8 HIGH)
-127faf7b6e0c82becaf4c91db9de4fb94f693989 CVE-2023-53110: Add CVSS 3.1 score (7.5 HIGH)
-239dc1953f96cdb5613d1f591118447283c1a568 CVE-2023-53102: Add CVSS 3.1 score (7.8 HIGH)
-fa68b3e8ff09932bb26d13c19ce01d1ca407e4be CVE-2023-53100: Add CVSS 3.1 score (7.8 HIGH)
-e375c88258dbf6c09ccccbdb1bdc91fe6cc42526 CVE-2023-53094: Add CVSS 3.1 score (7.8 HIGH)
-100b0a9dd1c7d529f857995bdcfd61e478308bd2 CVE-2023-53088: Add CVSS 3.1 score (7.8 HIGH)
-68bdba3c43f18c34a872bf979f8a642b7b452eb3 CVE-2023-53090: Add CVSS 3.1 score (7.8 HIGH)
-c5f06c0a58c17aa24ab120575fcf86465f2f07b0 CVE-2023-53083: Add CVSS 3.1 score (9.8 CRITICAL)
-8517591d65acfcb60ea6fb659bf088052a8c9b57 CVE-2023-53084: Add CVSS 3.1 score (7.8 HIGH)
-1d8d881e2866855db48b2cea6b43e3abcbbcc6b1 CVE-2023-53086: Add CVSS 3.1 score (8.8 HIGH)
-3370259b6ba646740bef16a19dff1bd5a7f2ffdf CVE-2023-53087: Add CVSS 3.1 score (7.8 HIGH)
-50f3dcd5073161a03187accc3bab6625d81d6505 CVE-2023-53080: Add CVSS 3.1 score (7.8 HIGH)
-100bb2a21ea220698c514ab2928adf3faec94d27 CVE-2023-53072: Add CVSS 3.1 score (7.8 HIGH)
-05b9aaffde7de932d1f382fc6d30f16fcee4cf34 CVE-2023-53065: Add CVSS 3.1 score (7.8 HIGH)
-2f6d9311aa5472ec421635afd153ffb111d9c3ad CVE-2023-53057: Add CVSS 3.1 score (7.8 HIGH)
-2dda4d9cc53aee3b01c87b2e05ce93d0fe42968b CVE-2023-53052: Add CVSS 3.1 score (7.8 HIGH)
-906ca6791e404e667c23a75cca8116bf64b22d3e CVE-2023-53047: Add CVSS 3.1 score (7.8 HIGH)
-11884104234f04a008f6ca06cf3b65c670068c39 CVE-2023-53043: Add CVSS 3.1 score (7.8 HIGH)
-baefbb31aa497834bb8f01859e7e3023af3149a1 CVE-2023-53046: Add CVSS 3.1 score (7.8 HIGH)
-3eeb976a5fb30f9e09cf714380fcf04596979520 CVE-2023-53039: Add CVSS 3.1 score (7.8 HIGH)
-d50c3a3f61ae2497c51e39d1e8e37550a99e8434 CVE-2023-53033: Add CVSS 3.1 score (7.8 HIGH)
-7f6bc770baab191d3d14fc4b247048eb35f9feb9 CVE-2023-53034: Add CVSS 3.1 score (7.1 HIGH)
-4699e0a67746ef456cc4e41a77cf6a25bdb35cad CVE-2023-53026: Add CVSS 3.1 score (7.8 HIGH)
-9cd941df011804d6c50a66a06afcfc050738cb37 CVE-2023-53021: Add CVSS 3.1 score (7.8 HIGH)
-a130094f201981245df5b88f78788a6111502764 CVE-2023-53023: Add CVSS 3.1 score (7.8 HIGH)
-50ed591e8be67a2066fa84cbba9aa73b951ce4d0 CVE-2023-53028: Add CVSS 3.1 score (7.8 HIGH)
-0fbe71c0db7b7d3126022c221c70643a8982e542 CVE-2023-53009: Add CVSS 3.1 score (7.8 HIGH)
-1338ef90e5a588718cfdd09ba32a0e2d00a54241 CVE-2023-53006: Add CVSS 3.1 score (9.8 CRITICAL)
-7e69440137616e642a6994b6dad8670fad983bca CVE-2023-52999: Add CVSS 3.1 score (7.8 HIGH)
-ab03d98dbd255e2b17d152d91949dcb3d2c18046 CVE-2023-52991: Add CVSS 3.1 score (7.5 HIGH)
-7372f52072f755b5e387612925e7bc4d3cc17f70 CVE-2023-52988: Add CVSS 3.1 score (7.8 HIGH)
-5eccae71122da55c681aa86b697fbeebc6441b35 CVE-2023-52987: Add CVSS 3.1 score (7.8 HIGH)
-2ec1ff606ee295d703d2c1b320af0df28ed14b22 CVE-2023-52981: Add CVSS 3.1 score (7.8 HIGH)
-584d03ece50b3c657f6057f52f91cf2080c2111c CVE-2023-52983: Add CVSS 3.1 score (7.8 HIGH)
-6811a068864864fd33a1dba9b6527227a6a231a2 CVE-2023-52973: Add CVSS 3.1 score (7.8 HIGH)
-9ed66f7e6b445402c5606d235689f51e08ead107 CVE-2023-52974: Add CVSS 3.1 score (7.8 HIGH)
-96f9bd6ed9b6fa9745f7023e6dc0b9e7ef8c4bc5 CVE-2023-52975: Add CVSS 3.1 score (7.8 HIGH)
-56037ae99e82ec07ff0aafa3079085560eb0676f CVE-2023-52935: Add CVSS 3.1 score (7.8 HIGH)
-bbdf93b2e9c798a0a5337c79c805deb7ee64a3a0 CVE-2023-52930: Add CVSS 3.1 score (7.8 HIGH)
-e56cb20c13faff2ee835ba80ff70b83871227e0c CVE-2023-52931: Add CVSS 3.1 score (7.8 HIGH)
-b42fbc899371ff4738170df6e0eaf7aa928bbbf4 CVE-2023-52934: Add CVSS 3.1 score (7.8 HIGH)
-bd2a84e4037c6d6a03e9268d22421ddd7f591055 CVE-2023-52927: Add CVSS 3.1 score (7.8 HIGH)
-2cb04e00dc2f2eeaf0b59605aef94c7679ccf94f CVE-2023-52922: Add CVSS 3.1 score (7.8 HIGH)
-264bbca31efbfc178c4f2980619b12e23030ee52 CVE-2023-52921: Add CVSS 3.1 score (7.8 HIGH)
-37a35bd9b9bec263ca8490bf53cc962fe3dd938d CVE-2023-52923: Add CVSS 3.1 score (7.8 HIGH)
-2ddc2e809e43d4627f0666ec51185e05fc11d29e CVE-2023-52920: Add CVSS 3.1 score (7.8 HIGH)
-58989acefdd37aec56d8a33a2052d2a105cf81f5 CVE-2023-52916: Add CVSS 3.1 score (7.8 HIGH)
-955189ec7ce698509a7b6921c097e6a322e41f3e CVE-2023-52913: Add CVSS 3.1 score (7.8 HIGH)
-38988b1716e38a9703657377b0b40244516e2d09 CVE-2023-52926: Add CVSS 3.1 score (7.8 HIGH)
-e64b29e7aa4ac55a25366ed84250143d45b328f0 CVE-2023-52909: Add CVSS 3.1 score (7.5 HIGH)
-ec9be846e7cc3081e81b5fe0f673f86cf0f8182e CVE-2023-52907: Add CVSS 3.1 score (7.8 HIGH)
-5e80ab20093b087f43db51d26b48c618023803b6 CVE-2023-52910: Add CVSS 3.1 score (8.8 HIGH)
-91ac4ceb798be8b37814e28f9908a3c75b7f4f17 CVE-2023-52903: Add CVSS 3.1 score (7.8 HIGH)
-b92056b46a4c6e81f5ac0b3903c2f1ce9b64a767 CVE-2023-52885: Add CVSS 3.1 score (8.1 HIGH)
-fabf1ca562237ab61f2bca090d49c4b10e6f593e CVE-2023-52887: Add CVSS 3.1 score (7.5 HIGH)
-895c70685c7a153718612ce7b65552b235d39d46 CVE-2023-52881: Add CVSS 3.1 score (9.8 CRITICAL)
-9328b6e1e9c1461917f65be067275ca4b6f48f60 CVE-2023-52879: Add CVSS 3.1 score (7.8 HIGH)
-cbbf21a7252b327eb6993db4f7f4e2b12caaa059 CVE-2023-52871: Add CVSS 3.1 score (7.1 HIGH)
-2879a2762993c7f2a62e0e2dbdf75d378d52d04c CVE-2023-52874: Add CVSS 3.1 score (7.1 HIGH)
-d021bb3fc2dd46af16add70f5c9ef5100c744d29 CVE-2023-52872: Add CVSS 3.1 score (7.8 HIGH)
-d665a9882c78ad58b0c67658ece4775f1946f477 CVE-2023-52880: Add CVSS 3.1 score (7.8 HIGH)
-0a28835167ede4ec97ee47e8d79761f1f8925f5b CVE-2023-52867: Add CVSS 3.1 score (7.1 HIGH)
-13ea91597cd40deb8bb16935bebbdb40e3dcf892 CVE-2023-52864: Add CVSS 3.1 score (7.0 HIGH)
-e07bdca0467d8d8fc44089044f45512b99431fcd CVE-2023-52847: Add CVSS 3.1 score (7.8 HIGH)
-0d42a84aa73fe658f5402c5a2aeff609826b32b9 CVE-2023-52852: Add CVSS 3.1 score (7.8 HIGH)
-8910970aa109f542950e2e25f6cb633c8d8a60fd CVE-2023-52846: Add CVSS 3.1 score (8.8 HIGH)
-432f9b8387019dafa0ae5b45254ca7cb4f4dad64 CVE-2023-52837: Add CVSS 3.1 score (7.8 HIGH)
-9e95d96a021cc2127a4ba9f68d02d626e176b2c4 CVE-2023-52845: Add CVSS 3.1 score (7.1 HIGH)
-9a963662da04f83a136ffbd908111ecefb8cb62c CVE-2023-52834: Add CVSS 3.1 score (7.5 HIGH)
-b46b5b0f495cdff187a6a96befe7e300fd85ee30 CVE-2023-52829: Add CVSS 3.1 score (8.4 HIGH)
-af02566242c812a09927d18666f60abae8d5f07c CVE-2023-52825: Add CVSS 3.1 score (7.8 HIGH)
-da453649561e98252ad295eb46f04f41322d7108 CVE-2023-52827: Add CVSS 3.1 score (7.7 HIGH)
-2b8e591d9a7ed0660990b5f7fa6bddb9afda9976 CVE-2023-52810: Add CVSS 3.1 score (7.8 HIGH)
-15c999fe4cc5769292f896e31466b9b7f94a9ff3 CVE-2023-52805: Add CVSS 3.1 score (7.8 HIGH)
-03153f44bc13b0bf18344120137e46cf0bd8f0ad CVE-2023-52804: Add CVSS 3.1 score (7.8 HIGH)
-77888b37f1c4f8732efe147f5885c418e7acf8b9 CVE-2023-52801: Add CVSS 3.1 score (8.8 HIGH)
-6e400940c626b7228e3b4218544c369b15a24b63 CVE-2023-52799: Add CVSS 3.1 score (7.8 HIGH)
-9936a668efbb4e3b931fe5c5a7d6208b56ada775 CVE-2023-52798: Add CVSS 3.1 score (8.8 HIGH)
-e3cfbfca630236825801832d1e2d0a4957ef4360 CVE-2023-52776: Add CVSS 3.1 score (8.8 HIGH)
-875f43571cc45cc6819b343f107928754419caa6 CVE-2023-52777: Add CVSS 3.1 score (7.8 HIGH)
-9cad0c72cd855cbca05f11b432ef8a1c8bcbaf9a CVE-2023-52790: Add CVSS 3.1 score (8.8 HIGH)
-dfe786c2377296a93841dd08297ead5a74968eff CVE-2023-52772: Add CVSS 3.1 score (7.8 HIGH)
-f4ec47b06d3676ff09cf89212ef90667e21f709b CVE-2023-52775: Add CVSS 3.1 score (8.2 HIGH)
-9eec03db419e5713feb344e180dd5cc19bb88553 CVE-2023-52768: Add CVSS 3.1 score (7.8 HIGH)
-9b2cbe6b29dff813058ba76fec96683d81fea328 CVE-2023-52769: Add CVSS 3.1 score (8.8 HIGH)
-66ec64291e1a6186b33b772b35ab982a4857c977 CVE-2023-52760: Add CVSS 3.1 score (7.8 HIGH)
-3f374f4a47b2d73797ec79f4e5cf3fee1677751c CVE-2023-52752: Add CVSS 3.1 score (7.8 HIGH)
-557f00248a2fbc097861a601709df50a2578bafa CVE-2023-52766: Add CVSS 3.1 score (7.8 HIGH)
-c2e9e93592c3a2a8c7bece8f3cb64cdf3856c018 CVE-2023-52761: Add CVSS 3.1 score (7.8 HIGH)
-f265728cb05e66a2d45abf8cdb580e10ad1191ed CVE-2023-52751: Add CVSS 3.1 score (7.8 HIGH)
-c5e45b166f7fcc9dc0cfe9e80508bf76622c4a19 CVE-2023-52755: Add CVSS 3.1 score (9.8 CRITICAL)
-9ca3916bdce8f49cb27dc4b067c0556599e88430 CVE-2023-52745: Add CVSS 3.1 score (7.8 HIGH)
-294e9d5eaeef7cab1bb9fa8f99ff2b9f2a6a86e3 CVE-2023-52739: Add CVSS 3.1 score (7.8 HIGH)
-cca2656d2a8ae49de51dc1a376f0b2530e190bb2 CVE-2023-52741: Add CVSS 3.1 score (9.8 CRITICAL)
-07cd8c08c4e758fa99fb54666595fcb350df383f CVE-2023-52732: Add CVSS 3.1 score (9.8 CRITICAL)
-2c5aac87091c23d180d50b31adee55b16a7ada05 CVE-2023-52707: Add CVSS 3.1 score (7.8 HIGH)
-1f4968f7ec823d573cd79a6d4b19650679d60d35 CVE-2023-52731: Add CVSS 3.1 score (7.8 HIGH)
-d4cb4e68aba6a8f4998e63ebe0a07aba3ae752db CVE-2023-52704: Add CVSS 3.1 score (7.8 HIGH)
-25b124126d2ee2d884e97bd7920b1203f8051098 CVE-2023-52691: Add CVSS 3.1 score (7.8 HIGH)
-08c8c6d680d796d71b6a9bde545de6e665810f4e CVE-2023-52688: Add CVSS 3.1 score (7.8 HIGH)
-ba47a8c22e42d9f12cdb36bfa664f5ff88c87742 CVE-2023-52687: Add CVSS 3.1 score (9.8 CRITICAL)
-46665a4a2913b830e4a4aae88ed2bf20b7c51044 CVE-2023-52679: Add CVSS 3.1 score (7.8 HIGH)
-6b442c84a77e96f705b0b696a1c47a236b89da96 CVE-2023-52678: Add CVSS 3.1 score (7.8 HIGH)
-6db5629aa6cb70d565f500bc0aaa0266bb6d6051 CVE-2023-52676: Add CVSS 3.1 score (7.8 HIGH)
-6434ac912e38aa9358656564e966bc6835958e52 CVE-2023-52667: Add CVSS 3.1 score (7.8 HIGH)
-8e46a3b5fec37099ca505e72892837f7cd916e93 CVE-2023-52669: Add CVSS 3.1 score (8.2 HIGH)
-ff6e3852d0e6ca20e3202ca862cc1dee40545734 CVE-2023-52662: Add CVSS 3.1 score (7.8 HIGH)
-c2eaa874a42cda6c1534ded5f83783952daf8b4a CVE-2023-52664: Add CVSS 3.1 score (7.8 HIGH)
-13c9e7cbd6eb1bf81bf4c503e090ce037956f086 CVE-2023-52654: Add CVSS 3.1 score (7.8 HIGH)
-ed0e550cdf89332a00b052332ddb6cc155233e4d CVE-2023-52656: Add CVSS 3.1 score (7.8 HIGH)
-0632d20a8d8c3661db6c43472738327b697ec9e1 CVE-2023-52640: Add CVSS 3.1 score (7.1 HIGH)
-bf76870e5d93ea13e29e9aa2cf59ceb1a027304b CVE-2023-52637: Add CVSS 3.1 score (7.8 HIGH)
-41ea5c8035e025e0ef66f3fd23880834023a6f29 CVE-2023-52636: Add CVSS 3.1 score (8.2 HIGH)
-456f0cdb8aa22d7eada482823e598df4f233ce01 CVE-2023-52628: Add CVSS 3.1 score (7.8 HIGH)
-1cea714c7373438a92885990d612651562446e92 CVE-2023-52623: Add CVSS 3.1 score (7.8 HIGH)
-2b4fc7ad401d0a63e49896c974b41faed6d565d2 CVE-2023-52614: Add CVSS 3.1 score (7.8 HIGH)
-c055ab42fdaeddf1de0f62f3145aec9249c38846 CVE-2023-52612: Add CVSS 3.1 score (7.8 HIGH)
-6a68ad355dbfab416ced21475877d24cf2c211f3 CVE-2023-52604: Add CVSS 3.1 score (7.8 HIGH)
-302ec564507b388a8a42dd5e2d3b14927c8870fc CVE-2023-52616: Add CVSS 3.1 score (7.8 HIGH)
-d0b1cd3e03e5d187d992924b089485547d5aa611 CVE-2023-52610: Add CVSS 3.1 score (7.5 HIGH)
-5ac5e21cea09eb3a49f136c17ba2cd24a1bcd9a3 CVE-2023-52600: Add CVSS 3.1 score (7.8 HIGH)
-135b10416216973891a4cb156c15ba35811fd418 CVE-2023-52606: Add CVSS 3.1 score (7.8 HIGH)
-4799c67db2dc8fc70aa405f741bc4d56bf855443 CVE-2023-52602: Add CVSS 3.1 score (7.8 HIGH)
-35931a6ff3ac0f03ac8ed803d78b9e47ee2500b3 CVE-2023-52599: Add CVSS 3.1 score (7.8 HIGH)
-5021ecadd4de5782f184c8681456ce07f15a3215 CVE-2023-52601: Add CVSS 3.1 score (7.8 HIGH)
-f1209156c32b79c58927e9b5ba10070cdeaa176e CVE-2023-52603: Add CVSS 3.1 score (7.8 HIGH)
-d389ab6520f81a39b468fd7bbab5ac20a38d9688 CVE-2023-52588: Add CVSS 3.1 score (7.3 HIGH)
-fffd3894cbecf956e0f23b3ab2aa257468267020 CVE-2023-52591: Add CVSS 3.1 score (7.8 HIGH)
-3247bc3efb6adfa6f326ea0623a1aec5e3b35a90 CVE-2023-52586: Add CVSS 3.1 score (7.8 HIGH)
-c4d0c387f6da6e7e1474688ab4b8018c80b5b831 CVE-2023-52590: Add CVSS 3.1 score (7.8 HIGH)
-f7cafad87f2a7934bf078a3888cddcbc5cf62785 CVE-2023-52574: Add CVSS 3.1 score (7.8 HIGH)
-1bdeb236c20226e0841d1c317d9d759c8866b89f CVE-2023-52572: Add CVSS 3.1 score (7.8 HIGH)
-e816366997901097b39b9efd091586d07583169b CVE-2023-52530: Add CVSS 3.1 score (8.8 HIGH)
-d02481492b400e7d627815c6175f6bfb7c2043b1 CVE-2023-52565: Add CVSS 3.1 score (7.1 HIGH)
-67a30ba20aed3baded8341a1ae5782c5a7fc65ed CVE-2023-52523: Add CVSS 3.1 score (7.8 HIGH)
-b78a77a9a498dd570cd550467261b24dd133859a CVE-2023-52517: Add CVSS 3.1 score (7.8 HIGH)
-231f7c4bc19790e19cb3dc26a212840d0c616056 CVE-2023-52522: Add CVSS 3.1 score (8.8 HIGH)
-113b84bdae479ec37d434adf1bb05d02b5ceed96 CVE-2023-52515: Add CVSS 3.1 score (9.8 CRITICAL)
-a7af485abaa90f0a0e3efd2fc3b1bb3e1f45e4b5 CVE-2023-52509: Add CVSS 3.1 score (7.8 HIGH)
-4b60b62adf0c1151e592fba098208885f3da8abf CVE-2023-52503: Add CVSS 3.1 score (7.8 HIGH)
-68738c3dba73e0ae934162021c019539edbe11a9 CVE-2023-52502: Add CVSS 3.1 score (8.8 HIGH)
-d827e617f9d1590ff166a57ca9e02e0e4134d2e3 CVE-2023-52513: Add CVSS 3.1 score (7.5 HIGH)
-5132fa5ab344eb463c3cae4720f8992a5a0ccf29 CVE-2023-52497: Add CVSS 3.1 score (7.1 HIGH)
-ccc53bc5163a35241c58b00fd8e5e78b8a77df36 CVE-2023-52491: Add CVSS 3.1 score (7.8 HIGH)
-41ee981f2c7e0c9ade0e50920e79dfc85936d771 CVE-2023-52486: Add CVSS 3.1 score (7.8 HIGH)
-e0c905e93728233f462721db2b71118d53be5b1f CVE-2023-52483: Add CVSS 3.1 score (7.8 HIGH)
-8bef576f17955964622cf284bd63b6d3f1a4bf99 CVE-2023-52480: Add CVSS 3.1 score (9.8 CRITICAL)
-0817a2c0a1850ed90dbb6fe43e881bb84129d5f4 CVE-2023-52478: Add CVSS 3.1 score (8.8 HIGH)
-dd8a856d6f20b89a7d0376200ffd55c32a7fff8e CVE-2023-52474: Add CVSS 3.1 score (7.8 HIGH)
-10ecf0ab89fc571bc431d34b0dc71ff9f76d12b0 CVE-2023-52479: Add CVSS 3.1 score (8.8 HIGH)
-407cd9ebb7f2e3288870b3fb0d11877cf810f824 CVE-2023-52469: Add CVSS 3.1 score (7.8 HIGH)
-2737a88aa0ee2a17e64075aed2d3608c0a579bad CVE-2023-52454: Add CVSS 3.1 score (7.5 HIGH)
-6a4304e671c3d795680345736e4efd316d0ec9a3 CVE-2023-52461: Add CVSS 3.1 score (7.8 HIGH)
-fc7a48391e642dcd61482e3a7995ada5f791369b CVE-2023-52453: Add CVSS 3.1 score (7.1 HIGH)
-619037fabc3a96055dc17563c8f8de74f1e7c8c0 CVE-2023-52447: Add CVSS 3.1 score (7.8 HIGH)
-542c3797e01dad0e221a17ed4bced137aa6f27d1 CVE-2023-52444: Add CVSS 3.1 score (7.8 HIGH)
-573cc3c4262e87064fc3ee30345faf1495eaa062 CVE-2023-52438: Add CVSS 3.1 score (7.8 HIGH)
-21f83b5203ddb379664388eb3baabfeb7abd898f CVE-2023-52440: Add CVSS 3.1 score (9.8 CRITICAL)
-bf909c58f73966052327d04f130c04b17b1802f6 CVE-2023-52441: Add CVSS 3.1 score (9.1 CRITICAL)
-4afeda85dc340f6b0c2030fdfc8bad025882a3d4 CVE-2023-52439: Add CVSS 3.1 score (7.8 HIGH)
-9464e749b37a1ada91a49fdabc6abaa2765e62e0 CVE-2023-52442: Add CVSS 3.1 score (9.1 CRITICAL)
-fcdc5cd5e0c474a68182f531d0de374a57e4adf5 CVE-2023-52433: Add CVSS 3.1 score (7.8 HIGH)
-4562dbf2c636202796f2d28e049fe07b1fef2045 CVE-2023-52436: Add CVSS 3.1 score (7.8 HIGH)
-afa8725e11126e1a5703dbca3fa1d440d0fb5c4d CVE-2023-52434: Add CVSS 3.1 score (8.1 HIGH)
-9a924528d9d10ee426ba55c5a4ac84212e890523 CVE-2023-3866: Add CVSS 3.1 score (7.5 HIGH)
-0ede1e3ef85bb05a51555c8288a3fe33a4675bc5 CVE-2023-4515: Add CVSS 3.1 score (9.1 CRITICAL)
-8e55c73ff45a260c53867cdcf0c51431180a350d CVE-2023-3867: Add CVSS 3.1 score (9.1 CRITICAL)
-852515a923e5688d7dd0e0e5f9b94110f8142200 CVE-2023-4130: Add CVSS 3.1 score (8.1 HIGH)
-d5242c98e10c816c052d38996d417ad132d56787 CVE-2023-3865: Add CVSS 3.1 score (8.1 HIGH)
-fa89f6d7bef69c1bb19a84e89bc5e1e85d1ae623 CVE-2022-50885: Add CVSS 3.1 score (7.5 HIGH)
-ab9b91404e87c5fd88497b8686e4de1a94ba54ed CVE-2022-50880: Add CVSS 3.1 score (8.8 HIGH)
-f9bc2e80f0515e5df728fb1c1023e514e035db48 CVE-2023-32249: Add CVSS 3.1 score (9.1 CRITICAL)
-6712d7159f3ede93806348d60b7ce46bd1417079 CVE-2022-50871: Add CVSS 3.1 score (7.8 HIGH)
-f9ae750f31fa0b09bfecd1cd750114370d1bad99 CVE-2022-50869: Add CVSS 3.1 score (7.8 HIGH)
-3bf126c4ced4a3a3048d55590d0b1506b95a2aa2 CVE-2022-50867: Add CVSS 3.1 score (7.8 HIGH)
-30066040faecc87fb020db7b616870852fd06012 CVE-2022-50865: Add CVSS 3.1 score (7.5 HIGH)
-36c61c83a511796724f5ca9a76033ea0b10ea380 CVE-2022-50861: Add CVSS 3.1 score (7.5 HIGH)
-545b8ec19aaaf6a5382ff1b4d58b03344629e71c CVE-2022-50860: Add CVSS 3.1 score (7.8 HIGH)
-302a40de2c629a7516ef2c26864f1719397e8656 CVE-2022-50841: Add CVSS 3.1 score (7.8 HIGH)
-f55f788bd22b536e32b35a1304b7e005868fc213 CVE-2022-50822: Add CVSS 3.1 score (7.8 HIGH)
-566b7b154ee21ed28d4cbf707b7ef04cb334ff9f CVE-2022-50780: Add CVSS 3.1 score (7.8 HIGH)
-2c1002a1ed1362027bed7c913b5938a55a94ad7e CVE-2022-50785: Add CVSS 3.1 score (7.8 HIGH)
-fe777ae796aaf6a3420fc59b1ab56f0cd15717e5 CVE-2022-50757: Add CVSS 3.1 score (7.8 HIGH)
-6af1afd102257a5a6bbf985e435fdd8195d8455e CVE-2022-50755: Add CVSS 3.1 score (7.8 HIGH)
-264a8ba90416d8168633fdfa5c2f24010c7b25bc CVE-2022-50756: Add CVSS 3.1 score (7.8 HIGH)
-da30e54b79b14d0d8043711a730b4c35c6c6b96c CVE-2022-50737: Add CVSS 3.1 score (7.8 HIGH)
-b8515a44cb82b7c39860e6fdcd285c958cf5d58f CVE-2022-50736: Add CVSS 3.1 score (7.1 HIGH)
-3be825c583ed8bc65ddfb4abd157371fb206e6ee CVE-2022-50732: Add CVSS 3.1 score (8.8 HIGH)
-7cda3e9e49d88ad6f4d008732c689ffaa2734b9a CVE-2022-50726: Add CVSS 3.1 score (7.8 HIGH)
-323f75153e811921ed5887a548d5d01809a301aa CVE-2022-50717: Add CVSS 3.1 score (9.8 CRITICAL)
-37c862ad45a5250c49e21b96184f7fe7a5a0f31e CVE-2022-50719: Add CVSS 3.1 score (7.8 HIGH)
-c008cc5efd6a5c9788b77b44980331ec8834c32c CVE-2022-50701: Add CVSS 3.1 score (7.1 HIGH)
-cd4c2aecea1b1bc2a56edd17d1d31eaf4c0124b9 CVE-2022-50697: Add CVSS 3.1 score (7.8 HIGH)
-d1a7393cb2a99143a0cea472ed4c7275ae952a0a CVE-2022-50753: Add CVSS 3.1 score (7.8 HIGH)
-d0e5998f5000eca0982205422ca302cd3a875f61 CVE-2022-50700: Add CVSS 3.1 score (7.5 HIGH)
-80530982ba74ae4fe699cbbb3222811e59332ad0 CVE-2022-50676: Add CVSS 3.1 score (7.5 HIGH)
-225e32f7bae7bc2ac52ae07ed56b9e5794390bb1 CVE-2022-50673: Add CVSS 3.1 score (7.8 HIGH)
-7e927c46aab857b84df22e38a87cac0e3d3d4f2c CVE-2022-50671: Add CVSS 3.1 score (7.5 HIGH)
-6bba54d92a0d2b01d945de915091cf70343b344d CVE-2022-50668: Add CVSS 3.1 score (7.5 HIGH)
-034acfa52df8eb589569460e99a3d4c35f00b2d0 CVE-2022-50677: Add CVSS 3.1 score (7.0 HIGH)
-7848d74b59dcb3482d71e2a1f6f67b07dece8719 CVE-2022-50666: Add CVSS 3.1 score (9.8 CRITICAL)
-f11a20593e73dcdcc9f6f64fd01d176129dc48fb CVE-2022-50665: Add CVSS 3.1 score (7.1 HIGH)
-c3c3bad742e3f4fa98deb910b554c9cc9993e296 CVE-2022-50656: Add CVSS 3.1 score (8.1 HIGH)
-820bbab8507a209d87882caadbe6d7992f885c79 CVE-2022-50650: Add CVSS 3.1 score (7.8 HIGH)
-77257c9d5a91dd8259f951b521101253920a16ef CVE-2022-50630: Add CVSS 3.1 score (7.8 HIGH)
-9ffe770a55601310ab7847982a501ab231f2acf9 CVE-2022-50623: Add CVSS 3.1 score (7.8 HIGH)
-c36f2a0e5142f58864ad493aca197988ea7c55eb CVE-2022-50567: Add CVSS 3.1 score (7.8 HIGH)
-250d73bbfa789e18bef25a3161ef3c28f2f647c4 CVE-2022-50570: Add CVSS 3.1 score (7.8 HIGH)
-4b135ee4f832b93435b02fa294037692e6f8c7c5 CVE-2022-50569: Add CVSS 3.1 score (7.8 HIGH)
-8b7ee07ec87fc228bdad3fa0431d50907643a871 CVE-2022-50581: Add CVSS 3.1 score (7.8 HIGH)
-1e9f9b803944bb30164c9aab957b950a97595a5b CVE-2022-50555: Add CVSS 3.1 score (7.8 HIGH)
-903372b442e766c431157bf8694ef712912464bc CVE-2022-50543: Add CVSS 3.1 score (7.8 HIGH)
-26eab5193f90502a757cb7c1e34143033f357a7e CVE-2022-50536: Add CVSS 3.1 score (7.8 HIGH)
-efb3ad70ef3ff2d9275e284d97093b36a92c0d96 CVE-2022-50528: Add CVSS 3.1 score (7.8 HIGH)
-7bf1850b393eb6e17ed1d9455ccfa734331ef7e8 CVE-2022-50517: Add CVSS 3.1 score (7.8 HIGH)
-573f8ac938aa3fcee7ce760e0cd163a0f2a04cd1 CVE-2022-50518: Add CVSS 3.1 score (7.8 HIGH)
-8e997547d3ac4755ab871138423509a77a2b3e5b CVE-2022-50507: Add CVSS 3.1 score (7.8 HIGH)
-778b700e4419d9da78cf05f3d2f2ade011c54ba5 CVE-2022-50508: Add CVSS 3.1 score (7.1 HIGH)
-ffce5b7c28ac1123372562070cd1ea32a08448dc CVE-2022-50493: Add CVSS 3.1 score (8.8 HIGH)
-90ca0efa226715bbbd3a74f24a80a57c65a532c8 CVE-2022-50488: Add CVSS 3.1 score (7.8 HIGH)
-9f048d85002b7f147da551bf7e2fb705183d2f25 CVE-2022-50492: Add CVSS 3.1 score (7.8 HIGH)
-6136749ca0a110e4e6cf0e8a770d2d3ef0a38def CVE-2022-50490: Add CVSS 3.1 score (7.1 HIGH)
-475c07b4ff0ae6d6c4f7ac439a3c452b6d882d74 CVE-2022-50483: Add CVSS 3.1 score (7.5 HIGH)
-c37cf5ad7d4b1d5c621697e2a19583e5b00929d2 CVE-2022-50472: Add CVSS 3.1 score (7.5 HIGH)
-045f2a2ac0211541d832a67997c4dd3348ee9c6d CVE-2022-50454: Add CVSS 3.1 score (7.8 HIGH)
-c92239175b3cbd9207469b78c1b6e287a63e356e CVE-2022-50459: Add CVSS 3.1 score (7.8 HIGH)
-881c6e52856a3631755e9d6618b5a1554128155a CVE-2022-50442: Add CVSS 3.1 score (8.4 HIGH)
-56d1e5f04c5d9190a19b89eb421c38350992dfd3 CVE-2023-52620: Add CVSS 3.1 score (7.8 HIGH)
-a7f98cb4e0da9be3650b74e31373dbe8be198ca5 CVE-2022-50440: Add CVSS 3.1 score (7.8 HIGH)
-0ade07acc2a01d5cb6875f0edaeaa4fe601d8757 CVE-2022-50437: Add CVSS 3.1 score (7.8 HIGH)
-f91dbc404abf89544ef7ebaa974f1709b5a7626f CVE-2022-50417: Add CVSS 3.1 score (7.8 HIGH)
-66b85a11e510715906e6e19ad6c768937a788028 CVE-2022-50421: Add CVSS 3.1 score (7.8 HIGH)
-a2372ed65d026f785640619e36f0adcbd6f8518e CVE-2022-50413: Add CVSS 3.1 score (8.8 HIGH)
-d653dd9d3f7c77f45849f1ce5aa6e40ca8393e37 CVE-2022-50423: Add CVSS 3.1 score (7.8 HIGH)
-992e33ccc308642b2ef4d822daa28952b6459463 CVE-2022-50411: Add CVSS 3.1 score (7.8 HIGH)
-e7b4bbfe2ede0e725d084f32a92bc5733c11c3bb CVE-2022-50419: Add CVSS 3.1 score (8.8 HIGH)
-0a42e919c64de5ce9fc9878b201719ac0befd1c5 CVE-2022-50432: Add CVSS 3.1 score (7.8 HIGH)
-0ea3e6941a22eccf0754b79917981cdf099bb6f1 CVE-2022-50405: Add CVSS 3.1 score (7.8 HIGH)
-2689f87e086ac9c5336742ffba7c8522d43e8425 CVE-2022-50399: Add CVSS 3.1 score (7.8 HIGH)
-c16a7dd0aaf018d09066b51077ab2dcf9d2d16c8 CVE-2022-50394: Add CVSS 3.1 score (7.8 HIGH)
-74c2698e9a804a8f8c4923146ccf9c05a145884b CVE-2022-50406: Add CVSS 3.1 score (7.8 HIGH)
-db7385f8095c67f8d50d62268715e87e2b5318b5 CVE-2022-50401: Add CVSS 3.1 score (9.8 CRITICAL)
-edcfab17ae7dafbc14d24fcad1d286bc7662e846 CVE-2022-50393: Add CVSS 3.1 score (7.8 HIGH)
-2b21ab4d3e24dd451bb78bb1d256bbc50ae53e99 CVE-2022-50408: Add CVSS 3.1 score (7.8 HIGH)
-f2f3ecfb067d5fa79f5b463cff471392c45ebe4f CVE-2022-50410: Add CVSS 3.1 score (9.8 CRITICAL)
-3edf177e5599e365d72957b176c476854ee0ca87 CVE-2022-50386: Add CVSS 3.1 score (8.8 HIGH)
-3feac0a4987164a95565bd18309b5dedf4b35598 CVE-2022-50373: Add CVSS 3.1 score (9.8 CRITICAL)
-1fb961c368f78815018acb6c1d8db45682ec11f6 CVE-2022-50367: Add CVSS 3.1 score (7.8 HIGH)
-2eca357bdd04bc984623c30962e35b95396dc79f CVE-2022-50368: Add CVSS 3.1 score (7.8 HIGH)
-b6725268de9af71a4f22424900540b7a439e7646 CVE-2022-50362: Add CVSS 3.1 score (7.8 HIGH)
-04a410a35d74ea417d138db7792f4dc37a4d3d4b CVE-2022-50363: Add CVSS 3.1 score (9.8 CRITICAL)
-f1a31e7bce8310d34f760b8fbfdc0ba65548a566 CVE-2022-50365: Add CVSS 3.1 score (7.5 HIGH)
-7b5747cc741c554644660b449920ecd9a8b08a53 CVE-2022-50355: Add CVSS 3.1 score (7.8 HIGH)
-845b8a36fc91bea3d14b2146944fcc19ebb3e73c CVE-2022-50350: Add CVSS 3.1 score (9.8 CRITICAL)
-c6186505bbe6b36de783d4bc1e18289095f2cbee CVE-2022-50329: Add CVSS 3.1 score (7.8 HIGH)
-2f36411dd31bcc716520d5c9850c0b77f5c92ad9 CVE-2022-50330: Add CVSS 3.1 score (7.1 HIGH)
-ea5eb32c097282f8a57b3b6172b909660f59af9c CVE-2022-50341: Add CVSS 3.1 score (7.8 HIGH)
-93bf041858283b6dee2af5642dea64b1989053cc CVE-2022-50335: Add CVSS 3.1 score (9.8 CRITICAL)
-516416a25b919a410c5980c39bb2869b5b8caf74 CVE-2022-50333: Add CVSS 3.1 score (7.8 HIGH)
-f334b388ed11181e22bd02545bb13a5b86d5c643 CVE-2022-50328: Add CVSS 3.1 score (7.8 HIGH)
-6bd8682e29bb75dc14b3dd05d5a12c5e72121772 CVE-2022-50339: Add CVSS 3.1 score (7.8 HIGH)
-02db016e356b7cb2ffb4294dffa07eb8f707895c CVE-2022-50354: Add CVSS 3.1 score (7.8 HIGH)
-4780e4d42b7114e2b43915b80eee6eac8640bc71 CVE-2022-50300: Add CVSS 3.1 score (7.8 HIGH)
-4845a354b1903df8ff98ce4ef0053b17e0dba373 CVE-2022-50303: Add CVSS 3.1 score (7.8 HIGH)
-021f92606aa934991e9c030d20384cf3f46d9a24 CVE-2022-50302: Add CVSS 3.1 score (7.5 HIGH)
-778d65c2683f69ac35708b34072dc50d4e1223f2 CVE-2022-50306: Add CVSS 3.1 score (7.1 HIGH)
-3799ca1afbe83186c5a4d95c8912ea7a800cd7a4 CVE-2022-50325: Add CVSS 3.1 score (7.8 HIGH)
-8521bbcb63760c5a96a8df447989c657bea2e744 CVE-2022-50315: Add CVSS 3.1 score (7.8 HIGH)
-c51ced41c1315b45e97cf455cb114c4c145cf3a7 CVE-2022-50283: Add CVSS 3.1 score (7.8 HIGH)
-90af667307b1e866affc5fd35db7fe5073dc67a0 CVE-2022-50310: Add CVSS 3.1 score (7.8 HIGH)
-efb25d28abc798c42dda272a00c2dd8f4d7314c5 CVE-2022-50286: Add CVSS 3.1 score (7.8 HIGH)
-854f9a2ff6632204e3d00803a5b2d2bd4bb80cb7 CVE-2022-50274: Add CVSS 3.1 score (7.8 HIGH)
-a30bf70f6f664a2599fdb9d43f056ca8c3908489 CVE-2022-50259: Add CVSS 3.1 score (7.8 HIGH)
-c22f05a6a6b5f5e46db1d22d41c06cc6cbe43243 CVE-2022-50270: Add CVSS 3.1 score (7.1 HIGH)
-817cf3617533c59da6d332c0cc9a39825668244c CVE-2022-50243: Add CVSS 3.1 score (7.8 HIGH)
-56ae8038f0de0baea3761030a243199bae68cf4a CVE-2022-50248: Add CVSS 3.1 score (7.8 HIGH)
-3b804d0ea07f02ec680a32821cfa850e57fbc406 CVE-2022-50252: Add CVSS 3.1 score (7.8 HIGH)
-09641b4cf945260f9f79b277601f04020f048ec9 CVE-2022-50241: Add CVSS 3.1 score (8.8 HIGH)
-cf13994188b0c749d659591d09e88e245b14939f CVE-2022-50255: Add CVSS 3.1 score (7.8 HIGH)
-4db0bb9d63688fcbd9e79187a5408b3d4c896a70 CVE-2022-50213: Add CVSS 3.1 score (7.8 HIGH)
-ef7ae5e6a634c975742fe8206b95a56e0ca72f80 CVE-2022-50235: Add CVSS 3.1 score (9.8 CRITICAL)
-9731d9938ebe813c8824c0d46326ca9bae42dd3c CVE-2022-50231: Add CVSS 3.1 score (7.1 HIGH)
-546db9cee5ec60fb8ff00a063df0784afed57e42 CVE-2022-50234: Add CVSS 3.1 score (7.8 HIGH)
-e4a8ed3ca82e1c04348c32d7aed1e270ca755a45 CVE-2022-50219: Add CVSS 3.1 score (7.8 HIGH)
-f55fb7437903d1f7ec8367511488d2782fe48510 CVE-2022-50233: Add CVSS 3.1 score (7.8 HIGH)
-8643410e37a95c92b1c4ba4476e7fedb4d7d7aa6 CVE-2022-50221: Add CVSS 3.1 score (7.8 HIGH)
-77f487bc0f9a329312fe3762a3271386f30d3db9 CVE-2022-50212: Add CVSS 3.1 score (7.8 HIGH)
-a3c22dadcdf4f440e49efdff9447f5e737a96663 CVE-2022-50240: Add CVSS 3.1 score (7.8 HIGH)
-5a7572848972a34a291d3c1e36ee65c0c92c70a8 CVE-2022-50168: Add CVSS 3.1 score (7.8 HIGH)
-15ec4705937f9be33d2616e300d3ca555954ac5f CVE-2022-50156: Add CVSS 3.1 score (7.8 HIGH)
-6e3470f88d3cc4bd1048e55890803a84e8357d0f CVE-2022-50164: Add CVSS 3.1 score (8.8 HIGH)
-7d49db855dafb038b9c5882994bca5d9f26dd42d CVE-2022-50215: Add CVSS 3.1 score (7.8 HIGH)
-c5b2d94431d94992b36023e62b8ddea576dc94dd CVE-2022-50167: Add CVSS 3.1 score (7.8 HIGH)
-f8ffc51df4e64cc8c3566f80d59bed2584a1090b CVE-2022-50171: Add CVSS 3.1 score (7.5 HIGH)
-f14e68109c8bd4a0592035dca55be82a73c117eb CVE-2022-50136: Add CVSS 3.1 score (7.5 HIGH)
-a3806a86ca85b59af1f939057578d634b000aff1 CVE-2022-50145: Add CVSS 3.1 score (7.8 HIGH)
-04b88d0eed36f6a60d75a7c604ee47adee687ac6 CVE-2022-50137: Add CVSS 3.1 score (7.8 HIGH)
-ee5a7ff7d2bd2c533bc75eb56c28a0b8c76e1933 CVE-2022-50129: Add CVSS 3.1 score (7.0 HIGH)
-d868115d554cbe0a1ac485185773cf0306ccb490 CVE-2022-50131: Add CVSS 3.1 score (7.8 HIGH)
-b3961e040b9f54d808079858a130a48be80da7df CVE-2022-50098: Add CVSS 3.1 score (8.8 HIGH)
-73505624e6b16b35590fc13c6f943ee3bdea3534 CVE-2022-50101: Add CVSS 3.1 score (7.8 HIGH)
-aa76f897264b8eb9e3ff2447f7695d2fb7704b75 CVE-2022-50099: Add CVSS 3.1 score (7.8 HIGH)
-b3350333c3e74688be3a0dff09e865055499ed7a CVE-2022-50087: Add CVSS 3.1 score (7.8 HIGH)
-5f5843a82af5ff87bff874f295bd72b0174eb21a CVE-2022-50095: Add CVSS 3.1 score (7.8 HIGH)
-6b21b27cb2337666665173f8b59b2f18058d19fd CVE-2022-50097: Add CVSS 3.1 score (7.1 HIGH)
-bae95b29eb2c20057fb15bbcbfa28578de2a8756 CVE-2022-50072: Add CVSS 3.1 score (7.8 HIGH)
-2efd461c1234010d26896eb54d89e88cbf2fdadd CVE-2022-50079: Add CVSS 3.1 score (7.0 HIGH)
-2348b1fe7f4ba89b629bbb05588adb48ea07d6f5 CVE-2022-50064: Add CVSS 3.1 score (7.8 HIGH)
-fafd8ea50d651656890ad85c247b339c412df2ba CVE-2022-50062: Add CVSS 3.1 score (7.5 HIGH)
-9e18cc705de8833fc9d8f8f4ff30a516ff7be3cf CVE-2022-50070: Add CVSS 3.1 score (7.8 HIGH)
-4deb08e4233b7d9c9b453a72a2bdb436cd6fcd06 CVE-2022-50048: Add CVSS 3.1 score (7.8 HIGH)
-a800f124ea6a18ea27d227bb6dd8f3b0f0cfa000 CVE-2022-50035: Add CVSS 3.1 score (7.8 HIGH)
-43db179c550c72a573ef520ab769fb5b4b4d736b CVE-2022-50028: Add CVSS 3.1 score (7.8 HIGH)
-9905853054509446dc0f84baceef3ec3521e00d1 CVE-2022-50022: Add CVSS 3.1 score (7.8 HIGH)
-572cea0958d3005e5bc9b98c036e41e27ed06bd9 CVE-2022-50014: Add CVSS 3.1 score (7.8 HIGH)
-878391ade16d9e627ca4caafe143f64134624386 CVE-2022-50059: Add CVSS 3.1 score (7.5 HIGH)
-a76102d19e1618d5f963be46d7abdc9b3c62c08c CVE-2022-50000: Add CVSS 3.1 score (7.8 HIGH)
-b588049354fa4e8f6b502189cea81e023a5bbfff CVE-2022-49999: Add CVSS 3.1 score (7.8 HIGH)
-6ed854035ae1314a8d3d353620ecf373a0b32cbd CVE-2022-49998: Add CVSS 3.1 score (7.8 HIGH)
-d879bfc5d1676fe1f09aed385ae3200c90e1faff CVE-2022-49990: Add CVSS 3.1 score (7.8 HIGH)
-ffc925c548b010555722f4dcd227a6617f9268d4 CVE-2022-49997: Add CVSS 3.1 score (7.5 HIGH)
-548c9a40a9e583a7dcc7227ddf20912a157a3cfb CVE-2022-49995: Add CVSS 3.1 score (7.8 HIGH)
-f09e58df9a1be257c9d8c6e8c7da1d20ef2c09ff CVE-2022-49972: Add CVSS 3.1 score (7.8 HIGH)
-9216bab60bbe662c3c583496319c6831dd0f2a18 CVE-2022-49985: Add CVSS 3.1 score (7.8 HIGH)
-297c753f9c82e90941cb897499ed8916bc057e48 CVE-2022-49991: Add CVSS 3.1 score (7.8 HIGH)
-0774ab88790fa8895093220473b791a94b4ba28b CVE-2022-49974: Add CVSS 3.1 score (8.8 HIGH)
-00331395a956f2c1c153d4811d02636345162cd7 CVE-2022-49963: Add CVSS 3.1 score (7.8 HIGH)
-a6f25561455ea28d95777525022af3c1aa723128 CVE-2022-49977: Add CVSS 3.1 score (7.8 HIGH)
-1817b54a4b8b826c3b42b638abbcf8fbbe23273e CVE-2022-49939: Add CVSS 3.1 score (7.8 HIGH)
-52a63035b94464cb44278d8915f722e3890e336f CVE-2022-49950: Add CVSS 3.1 score (7.8 HIGH)
-1d7192ff7546d489fe2d5728ca4dd42ae845a306 CVE-2022-49948: Add CVSS 3.1 score (7.8 HIGH)
-a3efa8b05226fa9c10abdc415382b1240a21218e CVE-2022-49944: Add CVSS 3.1 score (7.8 HIGH)
-7bd420c700a04d29fdc26e2f74814bc41ca25629 CVE-2022-49935: Add CVSS 3.1 score (7.8 HIGH)
-cc671681a629980c7d41511855ca8e6e6dabdd03 CVE-2022-49934: Add CVSS 3.1 score (8.8 HIGH)
-057d9405c1f91113157b8276f203fdcd136f9be2 CVE-2022-49968: Add CVSS 3.1 score (8.0 HIGH)
-a7ed5c298323a410661e65c55c3af61a58203f4a CVE-2022-49956: Add CVSS 3.1 score (7.0 HIGH)
-7c96c8ac05e0b8248bdbef8222e3573817d9bfeb CVE-2022-49928: Add CVSS 3.1 score (7.5 HIGH)
-ed9da442c5c69f2a3aee8921f13b7bbad73bc44c CVE-2022-49921: Add CVSS 3.1 score (7.8 HIGH)
-81656dfcc91573ca197485c3a9dbe971cf4ca3eb CVE-2022-49920: Add CVSS 3.1 score (7.8 HIGH)
-23f71889c7a5c81a61a86f9e302c2bf80d311792 CVE-2022-49931: Add CVSS 3.1 score (8.8 HIGH)
-83b8e4123e85088ef75ae45093d938a41067c89b CVE-2022-49952: Add CVSS 3.1 score (7.8 HIGH)
-b01d50d7810d7e80d9bdf363f135bd759eac6cd0 CVE-2022-49910: Add CVSS 3.1 score (8.8 HIGH)
-f1f8931c2afab8a423e02044d71faaf1bc8cb883 CVE-2022-49919: Add CVSS 3.1 score (7.8 HIGH)
-e1eca97266931324dd17bb5579334100db101de4 CVE-2022-49899: Add CVSS 3.1 score (7.8 HIGH)
-1cb1395cbd1b4466adfc3ef88f33a1fa80b1ae9e CVE-2022-49905: Add CVSS 3.1 score (7.8 HIGH)
-9bb8c460ebc2692f3a27f3420c15402f2998e8ab CVE-2022-49892: Add CVSS 3.1 score (7.8 HIGH)
-80660ade9724b576470aa2095eab09fbf76b7d93 CVE-2022-49883: Add CVSS 3.1 score (7.1 HIGH)
-ee8f9040889f374223222174483f77247a7a5ce4 CVE-2022-49884: Add CVSS 3.1 score (7.8 HIGH)
-18d71e12bc81ccc67c64be86be95877427705f1d CVE-2022-49872: Add CVSS 3.1 score (7.5 HIGH)
-4ec9f143e68c8082de3e60f5c8f4992d1b951d26 CVE-2022-49846: Add CVSS 3.1 score (7.8 HIGH)
-36504cb012cbae2e7a0a9f8f5550699fbfb45fe3 CVE-2022-49858: Add CVSS 3.1 score (7.8 HIGH)
-3b8bf3bece40df91dcdfaf8c230d8dd5cc32b5b0 CVE-2022-49898: Add CVSS 3.1 score (7.8 HIGH)
-56aec2c17bc20b8861f6fe3a4868cb1c57f6f7a9 CVE-2022-49834: Add CVSS 3.1 score (7.8 HIGH)
-8e322fa72eb3bd71b006227f94024aee1ec1ca3f CVE-2022-49886: Add CVSS 3.1 score (8.4 HIGH)
-a504cdcdf57dfbd0f3440b0bad3d0b49b23ee591 CVE-2022-49979: Add CVSS 3.1 score (7.8 HIGH)
-189ac9a40800b30d06b1495b3cf123cc100e11b7 CVE-2022-49844: Add CVSS 3.1 score (7.1 HIGH)
-0a4276a1750a405e1a0b72d0fce96cbacd385d59 CVE-2022-49882: Add CVSS 3.1 score (7.8 HIGH)
-63498bd5debbf7b256b4bfbf47685f7d20c06bf2 CVE-2022-49826: Add CVSS 3.1 score (7.8 HIGH)
-e77fb9810e567c68b1b3bf0d1cac03a88a2c2a93 CVE-2022-49814: Add CVSS 3.1 score (7.8 HIGH)
-7e03ef29362d63c60dedf070f75b0dcb22a56b47 CVE-2022-49804: Add CVSS 3.1 score (7.8 HIGH)
-d23828b322583827f89e4058a9ca3cfc8a924f24 CVE-2022-49775: Add CVSS 3.1 score (7.8 HIGH)
-9755dbc0d3b685de331a3ae1328207cf2c068ce6 CVE-2022-49770: Add CVSS 3.1 score (9.8 CRITICAL)
-d8071317634e1fa1cb73e7d016e2a548baf435a1 CVE-2022-49789: Add CVSS 3.1 score (7.0 HIGH)
-f4eca6cb2c61b3208fc4a6f94277bbb3a1bee5cb CVE-2022-49792: Add CVSS 3.1 score (7.3 HIGH)
-c355521e1a98358beef08c54a0df8e61291485ce CVE-2022-49763: Add CVSS 3.1 score (7.8 HIGH)
-f82961aa051eeee2dfcb9e7d5421febad5bbd8a5 CVE-2022-49768: Add CVSS 3.1 score (7.5 HIGH)
-4ca94c6ca05ae0d50a169be2f955e8c32a46bcd7 CVE-2022-49755: Add CVSS 3.1 score (7.8 HIGH)
-a4cedc240d28354505884ea0d855a584ff26aa6a CVE-2022-49733: Add CVSS 3.1 score (7.8 HIGH)
-c8e13e323e2d71cf2fd15607bf477f43903866ff CVE-2022-49738: Add CVSS 3.1 score (7.1 HIGH)
-e62ec24b2201702a7d9febe8f56c837a8607f09c CVE-2022-49760: Add CVSS 3.1 score (7.8 HIGH)
-9ebf3881f5053f0dab1580d5c72e8a75595924a4 CVE-2022-49743: Add CVSS 3.1 score (7.5 HIGH)
-8cd208e6b950c90a167a692c7d7a83e2cdf1bc77 CVE-2022-49722: Add CVSS 3.1 score (7.8 HIGH)
-ad5bd56cd13fc1edb75a2f8d701edbbf197eb182 CVE-2022-49739: Add CVSS 3.1 score (7.1 HIGH)
-a8c935cf557c099ba877152d6e54bfb64e954dd4 CVE-2022-49701: Add CVSS 3.1 score (7.8 HIGH)
-b1f09f790d3f69ba176e25a692849c789712689b CVE-2022-49725: Add CVSS 3.1 score (7.8 HIGH)
-c106590a9ee67076d2af13527bc2467759c1e502 CVE-2022-49695: Add CVSS 3.1 score (7.8 HIGH)
-e7e66471cafc859b0882873592422668e6dbb7b3 CVE-2022-49700: Add CVSS 3.1 score (7.8 HIGH)
-530b078f774d0aef0201c102d5d0f08fa486f25b CVE-2022-49667: Add CVSS 3.1 score (7.8 HIGH)
-8a0c239daeb619fd10330bacabd7e970e5ddef07 CVE-2022-49664: Add CVSS 3.1 score (7.5 HIGH)
-18bf44e5e69f4901c96cd3870b233b64068d2575 CVE-2022-49670: Add CVSS 3.1 score (7.5 HIGH)
-af34bd90109fb6eb7e9f0f39df3284da89877dcc CVE-2022-49672: Add CVSS 3.1 score (7.8 HIGH)
-9c87cd99e2c273392e25f477c2f0afda5afaa2d8 CVE-2022-49645: Add CVSS 3.1 score (7.8 HIGH)
-fc79ca89c450e26adec76b78a2f60fb5886a5e3a CVE-2022-50384: Add CVSS 3.1 score (7.8 HIGH)
-3ef0b2029b294473eee3caf696bd3b201422a3a1 CVE-2022-49647: Add CVSS 3.1 score (7.8 HIGH)
-2cb0d035b07dfd4128183deb93fb6d58964d75d2 CVE-2022-49651: Add CVSS 3.1 score (7.8 HIGH)
-54a4dbc7e76a16d5928470eb8e9f9fe0b5041514 CVE-2022-49669: Add CVSS 3.1 score (7.8 HIGH)
-fc849d0ced33592df834014db29270d6a3b63887 CVE-2022-49696: Add CVSS 3.1 score (7.8 HIGH)
-755c4e6df29aa87f60f654c447b8b474c59baca4 CVE-2022-49643: Add CVSS 3.1 score (7.1 HIGH)
-f64a60be3da2b79fcb00d2121c7922b006ed1cd1 CVE-2022-49622: Add CVSS 3.1 score (7.8 HIGH)
-ca782c1e1c760cb6dfcafd6c61c67ed9e1fabc4e CVE-2022-49560: Add CVSS 3.1 score (7.8 HIGH)
-ccb4ee5eb96b4f6cbe2f68f9bc1ce77ba417e34d CVE-2022-49561: Add CVSS 3.1 score (9.8 CRITICAL)
-c0bc964a8dedef52e85387b13a01edc951b5ec09 CVE-2022-49562: Add CVSS 3.1 score (7.8 HIGH)
-c455152fc71e29fea2f1ae0b47e7ac459540e811 CVE-2022-49554: Add CVSS 3.1 score (7.8 HIGH)
-5c1f3cf9354cdc61087604321642b8a2f9a12c7b CVE-2022-49557: Add CVSS 3.1 score (7.8 HIGH)
-5cc0a45ae81b9dc63fbb1c5db2c91849f1073fca CVE-2022-49553: Add CVSS 3.1 score (7.8 HIGH)
-7d0fede329faef8e16b39e3893161fd17b6bf7fe CVE-2022-49545: Add CVSS 3.1 score (7.8 HIGH)
-d7073972a61a9c7fe53bc4cbd2af3eea4bf13849 CVE-2022-49555: Add CVSS 3.1 score (7.8 HIGH)
-d761da65262d2b059cce7ada71c85be3bec069e5 CVE-2022-49564: Add CVSS 3.1 score (7.8 HIGH)
-99c57ed2a1b07501eea7e047428be02bbe8e36aa CVE-2022-49563: Add CVSS 3.1 score (7.8 HIGH)
-c938fc104d8b8a3c4dc11c826ee186b91f763e4c CVE-2022-49533: Add CVSS 3.1 score (7.8 HIGH)
-21e9b40c12bae411f02dd971e2659271a760390d CVE-2022-49581: Add CVSS 3.1 score (7.8 HIGH)
-03b1e42c550a362a240a7cb1a20825cd61c37dec CVE-2022-49541: Add CVSS 3.1 score (7.8 HIGH)
-961c4537ef34f220804f5da329d1753bccb87db2 CVE-2022-49511: Add CVSS 3.1 score (7.8 HIGH)
-1a25fbfd624ae3141de2a9e877e8d3a98b6c7bdb CVE-2022-49519: Add CVSS 3.1 score (8.8 HIGH)
-4ed70fb692e1e5e94ca266b0adc89f065c8e1bc1 CVE-2022-49535: Add CVSS 3.1 score (8.8 HIGH)
-08faf15f46887c088c397416a522c3ddfe8e79e8 CVE-2022-49505: Add CVSS 3.1 score (7.8 HIGH)
-eb5a0681996f6ee44c0a8f61fb60dea14eadb660 CVE-2022-49500: Add CVSS 3.1 score (8.8 HIGH)
-f9e284dffd655b22057ef1be4214ce0f12cd72ef CVE-2022-49530: Add CVSS 3.1 score (7.8 HIGH)
-17b2eed778639eb13dc367a09de8b415b4167971 CVE-2022-49465: Add CVSS 3.1 score (7.8 HIGH)
-ed28fbb00182ffeba2b08b8303c9ce13f02faf64 CVE-2022-49479: Add CVSS 3.1 score (8.8 HIGH)
-0c1f2cfe1ec2b747b3311c9730419f7b5c85754e CVE-2022-49470: Add CVSS 3.1 score (8.8 HIGH)
-99edc0f2325e73d90eab2ff663e2dc8bc0e6068b CVE-2022-49531: Add CVSS 3.1 score (7.8 HIGH)
-7981cb3991d4b9347f13d73e68d9d93f99551c52 CVE-2022-49456: Add CVSS 3.1 score (7.8 HIGH)
-9ddf4981e8ed035eb404039102ccba7ef476b3ec CVE-2022-49452: Add CVSS 3.1 score (7.5 HIGH)
-1367d64f887900303bf690c5a2444764bf7f6942 CVE-2022-49464: Add CVSS 3.1 score (7.8 HIGH)
-7d9ba59173329bd8bf89bbe991c466a402a2e72c CVE-2022-49471: Add CVSS 3.1 score (8.8 HIGH)
-dd5cd005ae7b39fb53921a4038dbb004791f27a4 CVE-2022-49474: Add CVSS 3.1 score (7.8 HIGH)
-5f0f6de616819ffe72e78e913b05177964f3e7fc CVE-2022-49426: Add CVSS 3.1 score (7.8 HIGH)
-7cd27d3016c11c9f408909ff920657b38a9c175d CVE-2022-49412: Add CVSS 3.1 score (7.8 HIGH)
-091ebcc0bf2702a0815eedfce160852da76ddd38 CVE-2022-49416: Add CVSS 3.1 score (8.8 HIGH)
-284833c9274009962d20f905e064d39703ea82bb CVE-2022-49411: Add CVSS 3.1 score (7.8 HIGH)
-886c53d4d4ceedf0f788bc453c7325db2d67a840 CVE-2022-49413: Add CVSS 3.1 score (7.8 HIGH)
-338369ce80db4d370af86b4f95dd635bb32be87b CVE-2022-49451: Add CVSS 3.1 score (8.4 HIGH)
-d23f46335fdfbec16b8779a34767e586422f89bf CVE-2022-49410: Add CVSS 3.1 score (7.8 HIGH)
-5d048c778f148db97ea1afc6f27ca3779a69dc4d CVE-2022-49425: Add CVSS 3.1 score (7.8 HIGH)
-ed90a2828a1fb3d6be1e70d5e7018f7bcba8cc25 CVE-2022-49405: Add CVSS 3.1 score (7.8 HIGH)
-5ae1950354d20211465715013c0400773e13f5a8 CVE-2022-49390: Add CVSS 3.1 score (7.8 HIGH)
-014697cc5f095ed3de725ead9beb51bed4fcbd26 CVE-2022-49418: Add CVSS 3.1 score (9.8 CRITICAL)
-4bcaad9e5b165b0de44f06c0e8ffe86e1422560c CVE-2022-49393: Add CVSS 3.1 score (7.8 HIGH)
-c33ca7f8a5a23ed4c0f9b4e5b868b917867cc723 CVE-2022-49368: Add CVSS 3.1 score (7.1 HIGH)
-19e4b2cf6ed15e5b4685f038cbba98d4354ed163 CVE-2022-49362: Add CVSS 3.1 score (9.8 CRITICAL)
-349444895406077ca9ceefc56221935bfedabc88 CVE-2022-49359: Add CVSS 3.1 score (7.8 HIGH)
-a9411fb4f7192d4fedf5506faa11e4a0f4aa8eda CVE-2022-49363: Add CVSS 3.1 score (7.8 HIGH)
-4c3b2b05a9a14c9020b93c4d622233b38652c765 CVE-2022-49377: Add CVSS 3.1 score (7.8 HIGH)
-041558516827f7a0470a93129257ebd324caada1 CVE-2022-49349: Add CVSS 3.1 score (7.8 HIGH)
-3ee01c02cdf49dfa49e9e66dd3c845cf8255e979 CVE-2022-49407: Add CVSS 3.1 score (9.8 CRITICAL)
-3f7ac7cce77a0ff9618397c928a0ba9ce7505526 CVE-2022-49356: Add CVSS 3.1 score (9.8 CRITICAL)
-8488b7313859f6cb41ff6a1a59fea520f6216f4e CVE-2022-49337: Add CVSS 3.1 score (7.8 HIGH)
-1f1b82dd82e6336b581a6152c0b2dcd6a6011e80 CVE-2022-49343: Add CVSS 3.1 score (7.8 HIGH)
-78efe953fa17ae0b25cee5ba198f8f35d3253277 CVE-2022-49336: Add CVSS 3.1 score (7.8 HIGH)
-5af09f23f88eb43b4fa81b7ac9b2eee48be92782 CVE-2022-49330: Add CVSS 3.1 score (7.5 HIGH)
-bcc44ba068ce5a57a67c3954e523737b74f741f6 CVE-2022-49328: Add CVSS 3.1 score (8.8 HIGH)
-a964d09d4acb529bed389ddb3829d6c29764a616 CVE-2022-49385: Add CVSS 3.1 score (7.8 HIGH)
-625b90b15371314d91b32dc93293162e2eee29f9 CVE-2022-49340: Add CVSS 3.1 score (7.1 HIGH)
-e5a9c28a60cfa6dbd290cb2ce5edfffd133a45d1 CVE-2022-49321: Add CVSS 3.1 score (7.5 HIGH)
-3e771cc8c5099f2a3ebb47e6c88ec52cbc5a3b0a CVE-2022-49290: Add CVSS 3.1 score (7.8 HIGH)
-1a26dff47712874d2cbe346cf9f2c1e7488eac3d CVE-2022-49295: Add CVSS 3.1 score (7.0 HIGH)
-6cd3b55914ae51eba607a0d155b617d30f2abd60 CVE-2022-49291: Add CVSS 3.1 score (7.8 HIGH)
-14749e72ed1f655a9e3b4adc4eb7a3193dba4e78 CVE-2022-49275: Add CVSS 3.1 score (7.8 HIGH)
-3606780ebb45aef673b3edd01d793270278f3026 CVE-2022-49279: Add CVSS 3.1 score (8.2 HIGH)
-3a7dfcdc74cd2ea4d659fbbce0f2c9c47f676dca CVE-2022-49280: Add CVSS 3.1 score (9.8 CRITICAL)
-01d67ca3ab7f019d2b58b8f42a91756ec75e3050 CVE-2022-49261: Add CVSS 3.1 score (7.8 HIGH)
-566706abaf9ad43d5b79dd791cae46cfa02801db CVE-2022-49292: Add CVSS 3.1 score (7.8 HIGH)
-80b3884a2ad2b4a78651a0f0aa656be7fb88f59a CVE-2022-49264: Add CVSS 3.1 score (7.8 HIGH)
-47af610fabf32d128feb2e48a7c3e04a39385b9f CVE-2022-49289: Add CVSS 3.1 score (7.8 HIGH)
-b80f81c0a071aad73a0c1752e19276cda4b725c8 CVE-2022-49238: Add CVSS 3.1 score (8.8 HIGH)
-143d70352c05a0df04fac03ecaeb1fa53e4520c1 CVE-2022-49260: Add CVSS 3.1 score (9.8 CRITICAL)
-ad96cebd6d401e67eecb70a38506b245f434beaa CVE-2022-49231: Add CVSS 3.1 score (7.8 HIGH)
-d9e53a076d569a169d34a73a420a73564848dcb4 CVE-2022-49234: Add CVSS 3.1 score (7.8 HIGH)
-97dfde9cbcd5f61009515a8e47156e413901251a CVE-2022-49325: Add CVSS 3.1 score (7.5 HIGH)
-2d0f6d36ecb9093ac8575df61c5a434aefee45b7 CVE-2022-49274: Add CVSS 3.1 score (7.8 HIGH)
-08a8e498a0ece869b3a89f956e5334cef740f3f7 CVE-2022-49215: Add CVSS 3.1 score (7.8 HIGH)
-1329be16f0db39ec51eab7a2edc87e09fc1ba7bc CVE-2022-49203: Add CVSS 3.1 score (7.8 HIGH)
-87ae6788f0f2703b9c794153de5de6232936fac8 CVE-2022-49287: Add CVSS 3.1 score (7.0 HIGH)
-1967d4fcd938ea8df3ad3f1d1e8105f03f3d33a1 CVE-2022-49201: Add CVSS 3.1 score (9.8 CRITICAL)
-b828bed36fe1a03e6189ddd130088b77e2b53b2f CVE-2022-49176: Add CVSS 3.1 score (7.8 HIGH)
-40e054fe680d187532242f4921823d8577ae9a14 CVE-2022-49178: Add CVSS 3.1 score (7.8 HIGH)
-fffea73e851ebccc0035950b0f5aa40d47703e67 CVE-2022-49174: Add CVSS 3.1 score (7.8 HIGH)
-9a579bd3d842a041f59d8be9eff88e5f07060ae9 CVE-2022-49179: Add CVSS 3.1 score (7.8 HIGH)
-5603d75816d8d183648721a7a66195490eeb4381 CVE-2022-49194: Add CVSS 3.1 score (9.8 CRITICAL)
-5b0d244a93bbcfef2b3ce737f4b10e08a976a63a CVE-2022-49170: Add CVSS 3.1 score (7.8 HIGH)
-04227903bf86761f06decfb8ff63767ec5de8fee CVE-2022-49159: Add CVSS 3.1 score (8.8 HIGH)
-aeadad444c9d64c0fef41fa741ed6578c0d873f5 CVE-2022-49167: Add CVSS 3.1 score (7.8 HIGH)
-af88ff2d677b32d9bcffb3bb09e3aeacff687809 CVE-2022-49163: Add CVSS 3.1 score (7.1 HIGH)
-2e417497da7cec84b73a20d5609bc50bd8117998 CVE-2022-49172: Add CVSS 3.1 score (7.8 HIGH)
-d4898b55ba3aa70baa13aba802475f1a15987d06 CVE-2022-49182: Add CVSS 3.1 score (7.8 HIGH)
-6ce3de07962bb26430cdd845e499da366bfb2c2f CVE-2022-49149: Add CVSS 3.1 score (9.8 CRITICAL)
-fc1d31cd2a074f9c5c6bcad952661358b5b1e96f CVE-2022-49168: Add CVSS 3.1 score (7.8 HIGH)
-8ad3ff3706595f08673f2531d70c3e2299fa9b40 CVE-2022-49162: Add CVSS 3.1 score (7.8 HIGH)
-e74d8167ad344a7e8f105aa89b547983fdd56d6a CVE-2022-49160: Add CVSS 3.1 score (7.5 HIGH)
-bd8a8de86b39ad7cabddc1bc18b4a5d2f621149e CVE-2022-49138: Add CVSS 3.1 score (8.8 HIGH)
-e766b50ed3d176454b3a8d75dd694b7fe868d8ca CVE-2022-49142: Add CVSS 3.1 score (7.5 HIGH)
-6e3e6829ecf1a172aa95b15ccfddf9a232f516cc CVE-2022-49129: Add CVSS 3.1 score (7.8 HIGH)
-68c1840cf56dab8a6328cbf12932e7fc93d119a4 CVE-2022-49136: Add CVSS 3.1 score (7.8 HIGH)
-c24949dc29de4105c4f4ebd5b9e5fab6653f2f51 CVE-2022-49154: Add CVSS 3.1 score (7.8 HIGH)
-63c2a23d397e2efc65b084bdfc01e27715646e37 CVE-2022-49127: Add CVSS 3.1 score (7.0 HIGH)
-429ac33cfba4cbc2d66aa2b698fecf82552d779f CVE-2022-49111: Add CVSS 3.1 score (8.8 HIGH)
-8906f36fd8029b8c58723f383d65f67244b61a5a CVE-2022-49114: Add CVSS 3.1 score (8.8 HIGH)
-f33c6dbec97e0b2907dc94b9511778b24a1efebc CVE-2022-49110: Add CVSS 3.1 score (7.5 HIGH)
-4e2b050f67d3b373b2683535a6549fd7b5ac4569 CVE-2022-49094: Add CVSS 3.1 score (9.8 CRITICAL)
-9178f50e3b6052667468d23cc7f531c9c88640f0 CVE-2022-49089: Add CVSS 3.1 score (7.8 HIGH)
-96df5b91d405c3388a089288c38fceb6bb0343e2 CVE-2022-49096: Add CVSS 3.1 score (7.8 HIGH)
-40c45847de07c640a07707c2fde1fb0de9e8ab45 CVE-2022-49087: Add CVSS 3.1 score (7.8 HIGH)
-4bc380e9dc443dba84fb91ed739b042b1e3a4ca2 CVE-2022-49092: Add CVSS 3.1 score (7.1 HIGH)
-8aff8d72c3db02c4b4ec7c10f0bda45be1b729fc CVE-2022-49076: Add CVSS 3.1 score (7.8 HIGH)
-71e37df94bb5dceac47f6b2c3cebcf0893c84ef7 CVE-2022-49084: Add CVSS 3.1 score (7.5 HIGH)
-359844db81731b0d01344102615eaa7ccda5337b CVE-2022-49093: Add CVSS 3.1 score (9.8 CRITICAL)
-23c9f656b026906ceb4da38aca6fb62e582b5e21 CVE-2022-49085: Add CVSS 3.1 score (7.8 HIGH)
-6b71ba8557008b35ef35c25d427a7556bf0cbf59 CVE-2022-49075: Add CVSS 3.1 score (8.1 HIGH)
-145421008ce94bb2fa655132257333638c18d1a6 CVE-2022-49073: Add CVSS 3.1 score (7.8 HIGH)
-474eb8fa2eab08dd5ce415924980a548397fbce9 CVE-2022-49078: Add CVSS 3.1 score (7.8 HIGH)
-f9c51b84f06837303c8414246b411b1a51f32eda CVE-2022-49062: Add CVSS 3.1 score (7.8 HIGH)
-1f15c746940973498b26bb72d843400764735f90 CVE-2022-49065: Add CVSS 3.1 score (7.5 HIGH)
-f1fe15fd007e0596831e3b4c052516bdc7c95e2b CVE-2022-49053: Add CVSS 3.1 score (7.8 HIGH)
-178c4d59e7bc004907d9dac329f06b113e1ae7b1 CVE-2022-49029: Add CVSS 3.1 score (7.8 HIGH)
-39cd112ba717f90acbbbd9aa4176ac69557026e1 CVE-2022-49058: Add CVSS 3.1 score (9.1 CRITICAL)
-5c7bce9e43e67e31ef4215fdd7dc4891f704eb70 CVE-2022-49025: Add CVSS 3.1 score (7.8 HIGH)
-2b4de033e36cfe80a273d73bc7136abc69096107 CVE-2022-49026: Add CVSS 3.1 score (7.8 HIGH)
-8f0ad01087df5687b958b7c75fefee17dc9b6c9b CVE-2022-49022: Add CVSS 3.1 score (8.1 HIGH)
-2e3d2b1c1473ebbc20426480bb780826fc535bdf CVE-2022-49023: Add CVSS 3.1 score (7.1 HIGH)
-850a156869380053fa8f2fa84cccd02700574e21 CVE-2022-48989: Add CVSS 3.1 score (7.8 HIGH)
-cb875878ecaa42c98b8aa57b9dd2e8df56b9cdad CVE-2022-48981: Add CVSS 3.1 score (7.8 HIGH)
-0917b8a31a5221cae1d47d2148adf719ba33dc6b CVE-2022-48985: Add CVSS 3.1 score (9.8 CRITICAL)
-596bcb5ced7fbefff915ac0a5d3fcdaa0bdf1a39 CVE-2022-48990: Add CVSS 3.1 score (7.8 HIGH)
-340c4c7e1a6e2fd659ef4cf5ba8ee7f605b59d41 CVE-2022-48967: Add CVSS 3.1 score (8.8 HIGH)
-2f0873b86d06e959f2a648453f8506357cdad6bd CVE-2022-49030: Add CVSS 3.1 score (7.8 HIGH)
-9a30d48b6f6d1a50543bf111ae451cfc03bc29fa CVE-2022-48962: Add CVSS 3.1 score (8.8 HIGH)
-b42f030a78695146df11c9044733893c457774ed CVE-2022-48956: Add CVSS 3.1 score (7.8 HIGH)
-11760cfc465dfe3df28ddb3dca973a589b7bcd4f CVE-2022-48954: Add CVSS 3.1 score (8.8 HIGH)
-647a876e0bbdfb297a398b93ebf75e8b69b9ed44 CVE-2022-49017: Add CVSS 3.1 score (8.8 HIGH)
-9b63008486dfe299555fec77df03bd0f47156aa9 CVE-2022-48964: Add CVSS 3.1 score (8.8 HIGH)
-e9fb8d861f57b776c842e46069468ed980b73a3d CVE-2022-49014: Add CVSS 3.1 score (7.8 HIGH)
-29b2170aeda3417e55b48f90d850025ef2490440 CVE-2022-48986: Add CVSS 3.1 score (7.8 HIGH)
-185f5e595db727621f935b75e59c945f817841aa CVE-2022-48960: Add CVSS 3.1 score (8.8 HIGH)
-931f0e2a42d72c57e1e69695151cd86d22f8e37f CVE-2022-48950: Add CVSS 3.1 score (7.8 HIGH)
-d964b79cb907b32b6cdebb3b2452f96c29953fb5 CVE-2022-48945: Add CVSS 3.1 score (7.8 HIGH)
-21cdf746d6d526b153abcc182baf18510a96f3c6 CVE-2022-48991: Add CVSS 3.1 score (8.8 HIGH)
-bf7c339dec10d4afa385d0a2470af145f4496bdc CVE-2022-48943: Add CVSS 3.1 score (7.1 HIGH)
-a120c077aae88db38c7617c218e00bc769a99ad5 CVE-2022-48940: Add CVSS 3.1 score (7.8 HIGH)
-40f13a6635b242de7320bb8649fd9441a02bafe0 CVE-2022-48941: Add CVSS 3.1 score (8.8 HIGH)
-ac080e612ad8a553e55b2d31b09ace524f253772 CVE-2022-48927: Add CVSS 3.1 score (7.8 HIGH)
-4bd6d16dee1c3df69ef51e573aa9d5c1d4468b6c CVE-2022-49054: Add CVSS 3.1 score (7.1 HIGH)
-bf4e93ef0ae94c84835c76b60482a87d2a068a27 CVE-2022-48925: Add CVSS 3.1 score (7.8 HIGH)
-44184dfc2e173329ad72d6a64d0f9e20168b1f78 CVE-2022-48979: Add CVSS 3.1 score (7.8 HIGH)
-924b80b3ce348d5823c15a8c89f68b550cae7a87 CVE-2022-48923: Add CVSS 3.1 score (7.8 HIGH)
-add4f2bb08b1e41b57896c0d20c00eb0834c0d01 CVE-2022-48912: Add CVSS 3.1 score (7.8 HIGH)
-08737693e461a755678dc3b7ce39a6ee2b96399c CVE-2022-48919: Add CVSS 3.1 score (8.8 HIGH)
-8d3dccfe8a42c33b2b8d0115bf0aaadaf701abbb CVE-2022-48911: Add CVSS 3.1 score (7.8 HIGH)
-8e03966446dd07012a5edb82f63ec69b564d2481 CVE-2022-48913: Add CVSS 3.1 score (7.8 HIGH)
-3362ad4305beb25c74bd196ac4d628fd3eea2787 CVE-2022-48932: Add CVSS 3.1 score (7.8 HIGH)
-30285b42af14ca1adffc98f713a7562a8fa247cb CVE-2022-48998: Add CVSS 3.1 score (7.8 HIGH)
-f89d340805e7ee87decb5da19545f4eb782aff5d CVE-2022-48883: Add CVSS 3.1 score (7.8 HIGH)
-99c301018bdd03fee17eadd33dea4ac35a49efbe CVE-2022-48935: Add CVSS 3.1 score (7.8 HIGH)
-392417ad57b1b451e68104f22d8dbec838225756 CVE-2022-48892: Add CVSS 3.1 score (7.8 HIGH)
-3355701ac5ccd545988841b5af79372188eab40d CVE-2022-48887: Add CVSS 3.1 score (7.8 HIGH)
-7198666c0c46eab5e8c27ebb8ad7df73e10d36ca CVE-2022-48899: Add CVSS 3.1 score (7.8 HIGH)
-39e36f106c9bba11a3b63999eedcf5c14aa77f1b CVE-2022-48878: Add CVSS 3.1 score (7.8 HIGH)
-c43013459413e17e52e4a0a75f1ed330a39bc2a6 CVE-2022-48872: Add CVSS 3.1 score (7.8 HIGH)
-29ccafd6de1d60af1122c2743f3106464dac3aed CVE-2022-48871: Add CVSS 3.1 score (8.8 HIGH)
-9408200b9d979da5b07f0ba2b13cc43fb1af22b9 CVE-2022-48864: Add CVSS 3.1 score (8.8 HIGH)
-5c72186a47e663cf25d9e6a9750f0f5ff54c824d CVE-2022-48858: Add CVSS 3.1 score (7.0 HIGH)
-a7248ef8141f8cb27b2c39f05f6417e038336b5e CVE-2022-48874: Add CVSS 3.1 score (7.8 HIGH)
-0cdebda6dd73f1d0ffa72a32a13ad44e9942e3b3 CVE-2022-48873: Add CVSS 3.1 score (7.8 HIGH)
-5d05fe15b4902ad83591d50e454c9df043ba39f7 CVE-2022-48847: Add CVSS 3.1 score (7.8 HIGH)
-8dfb74317d7d83d023c011cc503baaca93c4fcca CVE-2022-48851: Add CVSS 3.1 score (9.8 CRITICAL)
-a31f407f39755f0cc96df8113eb28ba0e0f8a2fa CVE-2022-48839: Add CVSS 3.1 score (7.8 HIGH)
-140cceb6f761302f594d4bef88dc206a553a7bf8 CVE-2022-48821: Add CVSS 3.1 score (7.8 HIGH)
-fea65cd1aa3f2a816afe39826cfbcf52458f2801 CVE-2022-48830: Add CVSS 3.1 score (8.8 HIGH)
-e8c6e5e535f2be2bac873f7645adfa55ac94e5f8 CVE-2022-48822: Add CVSS 3.1 score (7.8 HIGH)
-33aa6d3b1d97dafcdebf3c3b162eb8e716703c6d CVE-2022-48828: Add CVSS 3.1 score (9.1 CRITICAL)
-fd204ad313091df745b6a3e992cd78e80d18c8a9 CVE-2022-48803: Add CVSS 3.1 score (7.3 HIGH)
-372028b0acc1a70521dd208a58ba8c2047b0fb4e CVE-2022-48801: Add CVSS 3.1 score (7.8 HIGH)
-3a3ad79885b2df7049edd7d3fc309bb4344ce9ec CVE-2022-48816: Add CVSS 3.1 score (7.8 HIGH)
-915f37b6b49c91a4bbb9a04d633d1c97f87d78be CVE-2022-48829: Add CVSS 3.1 score (9.1 CRITICAL)
-65bb35d337075f6a4dd5f51f22049a741cb3ed36 CVE-2022-48791: Add CVSS 3.1 score (7.8 HIGH)
-95cdab1e9fb5e84d9af227735fcd450d298f7cca CVE-2022-48790: Add CVSS 3.1 score (9.8 CRITICAL)
-c73f25106460ac74b1601dc060591967d99fde66 CVE-2022-48797: Add CVSS 3.1 score (7.1 HIGH)
-d38e527cd7c1931d7fb7f8c12ee3163ae4e05219 CVE-2022-48787: Add CVSS 3.1 score (7.8 HIGH)
-32f5758a4f2aca9a7a233befe098ec1f1dda8c21 CVE-2022-48792: Add CVSS 3.1 score (7.8 HIGH)
-6c64f83b8ab99faf29d2e4e2d7fa27936905b557 CVE-2022-48786: Add CVSS 3.1 score (7.8 HIGH)
-b271a175594eb3b4d02bf6a05df73eacaa88510f CVE-2022-48782: Add CVSS 3.1 score (8.8 HIGH)
-9f601b2a271c5965d5652239b15c8c8a7679a6fc CVE-2022-48796: Add CVSS 3.1 score (7.8 HIGH)
-f54d08960425b13232cd18aa2866f0dd7dd62bbf CVE-2022-48785: Add CVSS 3.1 score (8.8 HIGH)
-9970e1253984854536faa2db7451ea3bc44b01ca CVE-2022-48771: Add CVSS 3.1 score (7.8 HIGH)
-7d661ed58f872f20840d48fff853abf10e2390f0 CVE-2022-48779: Add CVSS 3.1 score (7.8 HIGH)
-262502390021f5d937add15d9937da8f3fdda033 CVE-2022-48788: Add CVSS 3.1 score (9.8 CRITICAL)
-1335b5164b23801b5e28aa0f2fd6f7d3d68c9e8b CVE-2021-47060: Add CVSS 3.1 score (7.8 HIGH)
-ad5de83f6eccaa8849724ae9b336fdaea1ec069e CVE-2021-47055: Add CVSS 3.1 score (7.1 HIGH)
-fc2adfe9b61a5da85bc6c430ab164bfe61125ea6 CVE-2021-47068: Add CVSS 3.1 score (7.8 HIGH)
-5d38144f39674552863a3c593ffdb9699631a3b2 CVE-2021-47078: Add CVSS 3.1 score (7.8 HIGH)
-b4f9a17cfe854ea1d10a99a2f474426f266be901 CVE-2021-47069: Add CVSS 3.1 score (7.8 HIGH)
-471c470cae152097434f0cdd6ec780556504a81b CVE-2021-47081: Add CVSS 3.1 score (7.8 HIGH)
-8683ad1404254bd4fab7ef24e50a84f1b8d4ef24 CVE-2021-47066: Add CVSS 3.1 score (7.1 HIGH)
-0299abf417bfc3d50ef4c0054d541b83d9e55f9d CVE-2021-47082: Add CVSS 3.1 score (7.8 HIGH)
-7ff7143071ec3db92e29edf5fdfdaa04bbb2a371 CVE-2021-47061: Add CVSS 3.1 score (7.8 HIGH)
-0d419ccc66ec9a29be4c49d2892408ca866cca2a CVE-2021-47048: Add CVSS 3.1 score (7.8 HIGH)
-feaf8553c4109079044e2707fb8592b29e762d0b CVE-2021-47049: Add CVSS 3.1 score (8.4 HIGH)
-ef4d1a4b78153b88a9f5b322ce0f714ce8d07eab CVE-2021-47040: Add CVSS 3.1 score (7.8 HIGH)
-ae29091729eb9f9428019d449892f7e8926f9515 CVE-2021-47041: Add CVSS 3.1 score (7.5 HIGH)
-ce87371bbc2648f2d101f7615726497c92b47eff CVE-2021-47011: Add CVSS 3.1 score (7.8 HIGH)
-c7a33136fb3ff45a1cf8c0d30e13ca11241cb221 CVE-2021-47028: Add CVSS 3.1 score (7.1 HIGH)
-89ed522bd695959a0499b586a05bc10654e570d0 CVE-2022-48827: Add CVSS 3.1 score (7.5 HIGH)
-9f52e16606eb961d4aadc4c297c9bb522c1fb538 CVE-2021-47017: Add CVSS 3.1 score (8.8 HIGH)
-53b3c4df42ee100f90dd7b64cf53c4aa043ad87d CVE-2021-47004: Add CVSS 3.1 score (7.1 HIGH)
-82aa5933b891f8df8996512f799b62adf83dc9eb CVE-2021-47012: Add CVSS 3.1 score (7.8 HIGH)
-7ba9f159f5c11332e5e44e425595170706ad7110 CVE-2021-47036: Add CVSS 3.1 score (9.8 CRITICAL)
-ee2fcf8c93e1b98cf28f335d440eaf37d3571a17 CVE-2021-47035: Add CVSS 3.1 score (8.8 HIGH)
-e028a2153a8970c6d5933ef4b3302de4ab3ab0be CVE-2021-47013: Add CVSS 3.1 score (9.8 CRITICAL)
-d7fecb53ab213bc8267edaa6bc7f9725636509da CVE-2021-47001: Add CVSS 3.1 score (7.5 HIGH)
-0cc40d1e9a30816602194f5cc938d720fa7b775d CVE-2021-47014: Add CVSS 3.1 score (7.8 HIGH)
-c8ef948fe0b47386e6619c6ae10540446c65d363 CVE-2021-46999: Add CVSS 3.1 score (9.8 CRITICAL)
-e545fb1f007e1995ea660977e19f53387900c082 CVE-2021-46984: Add CVSS 3.1 score (7.8 HIGH)
-7339cb3bb26c911fd5b3ec16f4c89d1088606ec3 CVE-2021-46983: Add CVSS 3.1 score (7.5 HIGH)
-54e3d352b33caa93f5a4889848b5a4ea32d54461 CVE-2021-46998: Add CVSS 3.1 score (7.8 HIGH)
-12a4d82d3c972eab0e5a58971a2efc682e8a7d40 CVE-2021-46993: Add CVSS 3.1 score (7.8 HIGH)
-7c6f99020ff959708c32d8f1d5caf0c9061bd93c CVE-2021-46989: Add CVSS 3.1 score (7.1 HIGH)
-8c3d168438effec44aebd3d0e718c33c8d732cd7 CVE-2021-46992: Add CVSS 3.1 score (7.8 HIGH)
-fff9a574a38c8984f2a0884db55631480a514a8a CVE-2021-46969: Add CVSS 3.1 score (7.8 HIGH)
-2f76d9d28df214150bf81adb7e8b7a5150210417 CVE-2021-46973: Add CVSS 3.1 score (7.8 HIGH)
-300027af00ccbb4794b02c14ab92cb26a48b1661 CVE-2021-46958: Add CVSS 3.1 score (7.8 HIGH)
-e169264b3fd03b2159fea7e81b6a1b0b4b4fb514 CVE-2021-46974: Add CVSS 3.1 score (7.1 HIGH)
-6d46c5ddf7122be56432035eee9fc1059119ee0f CVE-2021-46960: Add CVSS 3.1 score (7.5 HIGH)
-328a0c9970c2d5a0bee018c5a503c87037bec2ab CVE-2021-46967: Add CVSS 3.1 score (7.8 HIGH)
-0dbc4570a603485c265918fc1051084161b33111 CVE-2021-46963: Add CVSS 3.1 score (7.8 HIGH)
-b8d0d2a2075eadca89dcdeaaa990bc72b6e76b78 CVE-2021-46933: Add CVSS 3.1 score (7.8 HIGH)
-97f46ba258adec0d54b25932897b39dffb6f9339 CVE-2021-46922: Add CVSS 3.1 score (7.8 HIGH)
-e9dd216ed884a11ffb14d613d6a685380658b1cc CVE-2021-46948: Add CVSS 3.1 score (7.5 HIGH)
-10e1426c743f5c56c011ff153305386d7008954a CVE-2021-46955: Add CVSS 3.1 score (8.2 HIGH)
-8707b4e5c745c136a7f46e0ce0fbf65ef65f0aab CVE-2021-46911: Add CVSS 3.1 score (9.8 CRITICAL)
-2e6bd3a5035806cb82d4f4389da5e33d484e8d75 CVE-2021-46921: Add CVSS 3.1 score (7.8 HIGH)
-cd89e5c3573cb83c993ba96f5f4e2438e6d8ef2a CVE-2021-4454: Add CVSS 3.1 score (7.5 HIGH)
-ea642d9484edfbaeabad0bc4f965b33b875842a5 CVE-2021-46913: Add CVSS 3.1 score (7.8 HIGH)
-d6ed24b3d8ddd7b5ed66bb28930a9d56b84cd8e9 CVE-2020-36788: Add CVSS 3.1 score (7.8 HIGH)
-ca020ccd21309e586e82d3e3b5e14dcfb4badcd0 CVE-2021-46977: Add CVSS 3.1 score (7.8 HIGH)
-7acdf7ec15b92ac331622182763e0316013387e8 CVE-2020-36785: Add CVSS 3.1 score (7.8 HIGH)
-c62af3f575dbae7925b36e2e8965a2e536ca5da7 CVE-2020-36787: Add CVSS 3.1 score (7.8 HIGH)
-768c72a10dc23b29de843ae32c208f2fed228006 CVE-2020-36791: Add CVSS 3.1 score (7.8 HIGH)
-da0b79c71ec28bdd6130c021ed0e871e4fc1411e CVE-2021-46912: Add CVSS 3.1 score (7.3 HIGH)
-5cb677f47ede139894649ef055d224ac7667f25c CVE-2021-46910: Add CVSS 3.1 score (7.0 HIGH)
-e4700948b6d58a7089c4dbdf79f477eba1969b3f CVE-2021-46936: Add CVSS 3.1 score (7.8 HIGH)
-5a915776c01064641bfe6ab18fc40f0bb35d10bd CVE-2021-46929: Add CVSS 3.1 score (7.8 HIGH)
-2937fd7484276dad3da3c9a78dfd80a3a6d11515 CVE-2019-25160: Add CVSS 3.1 score (9.1 CRITICAL)
-400c88419381b2604af91e872b0dc85e65b346c2 CVE-2021-46908: Add CVSS 3.1 score (7.1 HIGH)
-6ee5c4fabf924f25d193a39dfde31f67eb50ed4b CVE-2019-25162: Add CVSS 3.1 score (7.8 HIGH)
-fd09eadb945f834b6477e73065f560d063c516f5 CVE-2021-46925: Add CVSS 3.1 score (7.8 HIGH)
-aba102645ffa661fb871b3a7e3f2317c47c9f2cf CVE-2022-50758: Add CVSS 3.1 score (7.8 HIGH)
-91bffe75a1c6faa425f0d184cd82123759a74284 CVE-2022-50746: Add CVSS 3.1 score (8.4 HIGH)
-9474feb231b18f855bfb22e33264a35a7029a489 CVE-2022-50747: Add CVSS 3.1 score (7.8 HIGH)
-cb6ec675ef149a31fe25df34356daf23559eb826 CVE-2022-50750: Add CVSS 3.1 score (7.8 HIGH)
-79288df2f8ec47ae94da4bdb957c2a290a867ca2 CVE-2022-50745: Add CVSS 3.1 score (7.8 HIGH)
-612dcca653df002786b90162dff525788d2672a9 CVE-2022-50752: Add CVSS 3.1 score (7.8 HIGH)
-74285b582cffd60f2f638d2c363692f80672968e CVE-2022-50200: Add CVSS 3.1 score (7.8 HIGH)
-4d0b20c1e9edf91a7f76540c98d1315625e119e6 CVE-2022-50182: Add CVSS 3.1 score (7.8 HIGH)
-a9f0c800c8d8d658b25c1fa39a6e5ce3292c3cdf CVE-2022-49052: Add CVSS 3.1 score (7.1 HIGH)
-96b1aa031328da8679ff61123d36c2b194cc0fc8 CVE-2022-50227: Add CVSS 3.1 score (7.8 HIGH)
-36915a1c37c02199f2e4cb03b10b9a685dfc4d2f CVE-2022-49048: Add CVSS 3.1 score (7.5 HIGH)
-8da4ebc4b0e5609c0e302d58938f0d481efea9c5 CVE-2022-49015: Add CVSS 3.1 score (8.8 HIGH)
-5f2085ff9bbefa684dd82afc328f1213243a6852 CVE-2022-48999: Add CVSS 3.1 score (7.1 HIGH)
-fb88b907ff3452d9171a5817a87f7b5e6931dc1e CVE-2022-49003: Add CVSS 3.1 score (9.8 CRITICAL)
-6efe9884350b771f119d0009aee7fbbdfb4829d4 CVE-2022-49001: Add CVSS 3.1 score (7.0 HIGH)
-94ffd9799b20c4f1d97f7ba9c849e31bbf4452f9 CVE-2022-48988: Add CVSS 3.1 score (7.8 HIGH)
-c16de06cc463d9d9b1bd7d966c5eb4389d3e7060 CVE-2022-48743: Add CVSS 3.1 score (8.1 HIGH)
-ec4a4b33cd64feefc924f491fa0228ed8a6bcf08 CVE-2022-48742: Add CVSS 3.1 score (7.8 HIGH)
-58a1647f138e1493b18d144f80059445a9944654 CVE-2022-48739: Add CVSS 3.1 score (7.1 HIGH)
-ca1911a985380ecdc75b4fb1644e5e16c223e55d CVE-2022-48733: Add CVSS 3.1 score (7.8 HIGH)
-c85dd27af280bd6fd0d7db61ad5f2211dc4d0ecf CVE-2022-48735: Add CVSS 3.1 score (7.8 HIGH)
-39dbb47a53922803937c0caf8b694046ae60270a CVE-2022-48729: Add CVSS 3.1 score (7.8 HIGH)
-26fe8714c85c556aa614875283c48f6f846c56e1 CVE-2022-48726: Add CVSS 3.1 score (7.8 HIGH)
-e4238392cd36670606c70004b50fe66c735ebd01 CVE-2022-48727: Add CVSS 3.1 score (7.3 HIGH)
-f2b93855e26e91945db1acd6652d913a42333019 CVE-2022-48721: Add CVSS 3.1 score (7.8 HIGH)
-df5b6794a2ac482f6dff5f595aafacc3579d10f3 CVE-2022-48789: Add CVSS 3.1 score (9.8 CRITICAL)
-85566bf98591bd74e9648cbfbab7536babac148f CVE-2022-48759: Add CVSS 3.1 score (7.8 HIGH)
-e00f464c6549bd708d2e2b1ec5d6106fdb196ac6 CVE-2022-48716: Add CVSS 3.1 score (7.8 HIGH)
-9b85e169cabee0bdc4032d8c0f5076e527f3f778 CVE-2022-48720: Add CVSS 3.1 score (7.8 HIGH)
-1a72f1e8704c08ecf0177f2e6c8f231e9ac6f5b9 CVE-2022-48717: Add CVSS 3.1 score (7.1 HIGH)
-ce83bfafededab435ab26eb78c8bfbf1b0250465 CVE-2022-48711: Add CVSS 3.1 score (9.8 CRITICAL)
-50d8f4d60271f435cc23381a1a98b6564a4fa226 CVE-2022-48702: Add CVSS 3.1 score (7.8 HIGH)
-9ee7369d6dc4ed5e9bcf6a316e8a070c378e7d74 CVE-2022-48694: Add CVSS 3.1 score (7.5 HIGH)
-2c7ff0d7ecd055f1292d6dad4ecd6b7840bbe140 CVE-2022-48695: Add CVSS 3.1 score (7.8 HIGH)
-2df750dbc63eaf4480927adc5462ca85f26584a2 CVE-2022-48697: Add CVSS 3.1 score (9.8 CRITICAL)
-7f5cb758998d85e330881d2067f31c313d1dd869 CVE-2022-48692: Add CVSS 3.1 score (7.5 HIGH)
-269e90d9154731517796b38f83b81956f3b04302 CVE-2022-48696: Add CVSS 3.1 score (7.1 HIGH)
-8849f999f7a3df071c6c3da94d97a54f42bf6326 CVE-2022-48674: Add CVSS 3.1 score (7.8 HIGH)
-487f12d4fc6768c85fc76bf8cd7b0dee419b67fc CVE-2022-48673: Add CVSS 3.1 score (9.8 CRITICAL)
-109773186a46d0f6c7f63d870968ea3c4babb2fc CVE-2022-48665: Add CVSS 3.1 score (7.1 HIGH)
-a07009310fd394ee5ff9455dc697af7fa525d534 CVE-2022-48686: Add CVSS 3.1 score (9.8 CRITICAL)
-2d683e55543a3615bdd8a0d3b43297889a264672 CVE-2022-48658: Add CVSS 3.1 score (7.5 HIGH)
-f01658bf2bff072f268df081e2c86a3a3de1efe3 CVE-2022-48654: Add CVSS 3.1 score (7.1 HIGH)
-d017b87da652eb801d3fb786c40ad9741dd6d130 CVE-2022-48652: Add CVSS 3.1 score (8.8 HIGH)
-ab801f9bf41d327bdcedc13d343f6f1af84c0178 CVE-2022-48666: Add CVSS 3.1 score (9.8 CRITICAL)
-4c27a9e227334169d0ca4f7da98e0f98a3f4574d CVE-2022-48637: Add CVSS 3.1 score (7.8 HIGH)
-916a698581d95344c749577cadb86b20d4fafaf3 CVE-2022-48636: Add CVSS 3.1 score (7.8 HIGH)
-18a879cbd8fa5dde0e742160c3dea6214d714897 CVE-2022-48632: Add CVSS 3.1 score (7.8 HIGH)
-45a8a83b6b02a576cdd6b6467338876b1115b2a9 CVE-2022-48629: Add CVSS 3.1 score (8.1 HIGH)
-70a0162bf67ed1ed138d9e642effc361e5779a5f CVE-2021-47668: Add CVSS 3.1 score (8.8 HIGH)
-a713e7d2c8b0ece0e45c49498f48e1d518487203 CVE-2022-21546: Add CVSS 3.1 score (7.5 HIGH)
-82ab45793b4ea282c92cd61a86a3aea7d800abd7 CVE-2021-47669: Add CVSS 3.1 score (7.8 HIGH)
-a0b92f53c2224dd78a63bbdca6bccfbb290e1961 CVE-2021-47670: Add CVSS 3.1 score (8.8 HIGH)
-1c4fd067e4e077252dd8d4a08aed942930e5e60d CVE-2021-47656: Add CVSS 3.1 score (7.8 HIGH)
-9da75e6bcb0c73ecfb219f5fc3e4ff36657d6d70 CVE-2021-47646: Add CVSS 3.1 score (7.8 HIGH)
-47f65ac7ce68b869001ce450002b2ce1d1bb0748 CVE-2021-47639: Add CVSS 3.1 score (7.8 HIGH)
-4e4f668741647c54efb0c2d158d2501927393f5a CVE-2021-47636: Add CVSS 3.1 score (7.1 HIGH)
-14bdd74df8371b1c00f73031a0049a9b8b37d06d CVE-2021-47638: Add CVSS 3.1 score (7.8 HIGH)
-cf1ea4b7359e38864cc44a0ac6d5d846ff3b2a50 CVE-2021-47635: Add CVSS 3.1 score (7.8 HIGH)
-3e45ecba22f2c4de03d61f2cbb231821200db71c CVE-2021-47616: Add CVSS 3.1 score (7.8 HIGH)
-bd848ca4481195d2cb0fb1f06a2ffc4c312f7abc CVE-2021-47613: Add CVSS 3.1 score (7.8 HIGH)
-90cba796d583cc0564ccafa6b22b0b1a9399d925 CVE-2021-47614: Add CVSS 3.1 score (7.8 HIGH)
-5383d7b89e28fbef34ea80e6d3db73929c900520 CVE-2021-47611: Add CVSS 3.1 score (8.1 HIGH)
-9f44b404f1570cc6e98abcf6c0ca6cff4397586b CVE-2021-47620: Add CVSS 3.1 score (8.1 HIGH)
-6ad923558328e383d21ebfaae87c8f171b0829f6 CVE-2021-47605: Add CVSS 3.1 score (7.8 HIGH)
-0069e798f3709560ce237a5369a99877ac99eb1f CVE-2021-47600: Add CVSS 3.1 score (7.8 HIGH)
-c75e9649b2b69987816002942c7bae086689b61b CVE-2021-47598: Add CVSS 3.1 score (7.8 HIGH)
-c4a87cbd25b2120d2ff40670852e696a1146284e CVE-2021-47604: Add CVSS 3.1 score (7.1 HIGH)
-ecc4af14126891e5eaffab13b5bfc0f26a98dfeb CVE-2021-47588: Add CVSS 3.1 score (7.8 HIGH)
-149e44298af4cdf373450aabac4e406c0dbfbf15 CVE-2021-47587: Add CVSS 3.1 score (9.8 CRITICAL)
-579005a13698fdf0ae39a2fea785d33519df0b0e CVE-2021-47580: Add CVSS 3.1 score (7.1 HIGH)
-0cee763725cd9d067f7bf8df2a640eab142c5f12 CVE-2021-47576: Add CVSS 3.1 score (7.8 HIGH)
-aa7db2028ab4a09d712ec605f2b848473d95bad6 CVE-2021-47577: Add CVSS 3.1 score (7.8 HIGH)
-d98a124dab9ba379399f3f1ea1c85c0804c00a08 CVE-2021-47561: Add CVSS 3.1 score (7.8 HIGH)
-213d1a9b864ef425ef6e047d8ac338fe3348e271 CVE-2021-47559: Add CVSS 3.1 score (7.5 HIGH)
-32a340adf5e133af6ad861ee827156024ca929e7 CVE-2021-47555: Add CVSS 3.1 score (7.8 HIGH)
-5377880d42e93b076aa481cd9b8867a77a52b289 CVE-2021-47541: Add CVSS 3.1 score (7.8 HIGH)
-425d6b76ccbfb868ce73d8581a3dcedf82bc6774 CVE-2021-47533: Add CVSS 3.1 score (7.8 HIGH)
-539039d83768bc0170f1b1f51709dc6fbab92c41 CVE-2021-47535: Add CVSS 3.1 score (7.8 HIGH)
-4c2af241223783bfa3424f9d5391574cd9ff9f3b CVE-2021-47552: Add CVSS 3.1 score (7.8 HIGH)
-74d07559c5f9c40f680850740ce8b61a5f606fb6 CVE-2021-47536: Add CVSS 3.1 score (9.8 CRITICAL)
-c4d6ea1937ec0018ca103f542bc2822cb30a9399 CVE-2021-47544: Add CVSS 3.1 score (9.8 CRITICAL)
-1bacfcae10905b6952029efb3edc1c7ee62b0d26 CVE-2021-47520: Add CVSS 3.1 score (8.8 HIGH)
-a25fc846cceaf276a5416a5751ff3a2d3b79a834 CVE-2021-47517: Add CVSS 3.1 score (7.8 HIGH)
-6c464805d2baa7c07ece2014c15bdcf9ab3ed8bf CVE-2021-47515: Add CVSS 3.1 score (7.5 HIGH)
-f58fc1c68fcda557231dc4b62b9c2e3c1216cda1 CVE-2021-47506: Add CVSS 3.1 score (9.8 CRITICAL)
-d570c9491b793139414cbb55d53f8c6f5b05e2e2 CVE-2021-47505: Add CVSS 3.1 score (7.8 HIGH)
-2f18f319e17064cd2eee09da77e88626a1f2da68 CVE-2021-47502: Add CVSS 3.1 score (7.8 HIGH)
-eef1c3083390cd853577e6ea4a6394d6e72a552d CVE-2021-47500: Add CVSS 3.1 score (7.8 HIGH)
-27f03d49dacb783321167a2575c260916d2dc935 CVE-2021-47496: Add CVSS 3.1 score (9.8 CRITICAL)
-5748e14f0661f037dbf715a823dc68024dfc885d CVE-2021-47493: Add CVSS 3.1 score (7.8 HIGH)
-2d74313fcfc0c8d4be646cdd9767a8f85bd9d6ed CVE-2021-47494: Add CVSS 3.1 score (7.8 HIGH)
-44bd40d2cb328909126e36a050f622e9a3c13ee4 CVE-2021-47492: Add CVSS 3.1 score (7.8 HIGH)
-6c8699f8e8e2f0e6ff12aaa39ac83c23bf085246 CVE-2021-47485: Add CVSS 3.1 score (7.8 HIGH)
-c481b86d06c3741cdb08a7bd88ea8bb784c93d64 CVE-2021-47483: Add CVSS 3.1 score (7.8 HIGH)
-eea2fb8fd82fd9fbd96010b81f34152142dbe671 CVE-2021-47512: Add CVSS 3.1 score (7.8 HIGH)
-7428497b7c7e2797bcfe1dfc25832a4e47ff4e0f CVE-2021-47478: Add CVSS 3.1 score (9.1 CRITICAL)
-a05f72e8ca6845861261f9088e83155343430649 CVE-2021-47465: Add CVSS 3.1 score (7.1 HIGH)
-99b720755a3ff91c1c42a5d7a550fb02453c8f8f CVE-2021-47459: Add CVSS 3.1 score (7.8 HIGH)
-4fac7db095718a369554671cef8f716ec6ef4ce9 CVE-2021-47461: Add CVSS 3.1 score (7.8 HIGH)
-f709ee3bdfa8945b08f71ba4d440c06d81b5a0fe CVE-2021-47458: Add CVSS 3.1 score (7.1 HIGH)
-f3c9b2ccfe36610940a82decf04474bd7a213e1c CVE-2021-47451: Add CVSS 3.1 score (7.8 HIGH)
-e9fece42d8429d23048cd9e111acd5b7096b2ff7 CVE-2021-47450: Add CVSS 3.1 score (8.8 HIGH)
-54adb768c957de36e4c751836abf6b68cecac162 CVE-2021-47448: Add CVSS 3.1 score (7.5 HIGH)
-6151d7cc58bd9f2f11643a7efc9106f492fe6aef CVE-2021-47447: Add CVSS 3.1 score (7.8 HIGH)
-a03728d7b1e121a215eae2d08a8d503a1aa6bb03 CVE-2021-47446: Add CVSS 3.1 score (7.8 HIGH)
-cc38b625b0478a739056b63cd51b17b7a0fe35fa CVE-2021-47438: Add CVSS 3.1 score (7.1 HIGH)
-f120022481fdaca9c51b338bbeab3ea97232cf28 CVE-2021-47433: Add CVSS 3.1 score (8.1 HIGH)
-e19f9cd1ede7adef0a612032934c8462b9ffb73c CVE-2021-47427: Add CVSS 3.1 score (9.8 CRITICAL)
-2ffc98aa8696d17994e7fc69eaf30cf21abfd28e CVE-2021-47419: Add CVSS 3.1 score (7.8 HIGH)
-3bf750cf159e30d72e1184dbcf03c79f06b86b8c CVE-2021-47421: Add CVSS 3.1 score (7.8 HIGH)
-372086eed399a661acd0148ed75ae9abb13eacd0 CVE-2021-47412: Add CVSS 3.1 score (7.8 HIGH)
-d445a21b01f65698b5f04fb9c1be5e9595c8036c CVE-2021-47402: Add CVSS 3.1 score (7.8 HIGH)
-61c7dd6ad19f2ba001f60b9b68b8b0536d21f131 CVE-2021-47401: Add CVSS 3.1 score (7.1 HIGH)
-cbbe7b2133fd63925930dac4598dcf71b74097a3 CVE-2021-47400: Add CVSS 3.1 score (7.8 HIGH)
-a9f0e1c404cad41d80b48822e19791c764b985b4 CVE-2021-47397: Add CVSS 3.1 score (7.5 HIGH)
-f0ea241fc007b30ce624d9cad7a8ef4b41ef41bd CVE-2021-47394: Add CVSS 3.1 score (7.8 HIGH)
-63b2351cbec0463da74cc3b7970bfff17ebb1bb3 CVE-2021-47390: Add CVSS 3.1 score (8.8 HIGH)
-4feaf95d0c4616211ba449c2bb8c158a31d1803b CVE-2021-47388: Add CVSS 3.1 score (8.8 HIGH)
-15814218cd31d9ff7d39026df4728758c959048b CVE-2021-47383: Add CVSS 3.1 score (7.8 HIGH)
-b9e347f15a27fc54949737e97370f43d590c1105 CVE-2021-47374: Add CVSS 3.1 score (7.5 HIGH)
-cb840d872928290bb31e5fefafc9519cd3a85a45 CVE-2021-47378: Add CVSS 3.1 score (9.8 CRITICAL)
-122550bab9926611e44c53c02328eccd1cdf4281 CVE-2021-47368: Add CVSS 3.1 score (7.1 HIGH)
-ba16332e53146bf3e09b073c8e6e6043df67efaa CVE-2021-47366: Add CVSS 3.1 score (7.1 HIGH)
-f7267bbdb57c593439332b1ca210d091eadd7d23 CVE-2021-47380: Add CVSS 3.1 score (7.8 HIGH)
-77d226d8347f96e1d0230ad1cc423393357f579b CVE-2021-47358: Add CVSS 3.1 score (7.8 HIGH)
-e8a190cc650698796a46b8836264044980ef9ac6 CVE-2021-47354: Add CVSS 3.1 score (7.1 HIGH)
-ed58450abc0e2864ba455c33d8a954a3c00943ef CVE-2021-47351: Add CVSS 3.1 score (7.8 HIGH)
-d354d3c6cec8cf3204174bde4910c92ae9c9f108 CVE-2021-47391: Add CVSS 3.1 score (7.8 HIGH)
-eeab4f3b9b9f37f99f322f4bf0b06e6d4df1456c CVE-2021-47346: Add CVSS 3.1 score (7.1 HIGH)
-4d2a343000e9464ccc502ebf8b79669e9faeae50 CVE-2021-47347: Add CVSS 3.1 score (7.8 HIGH)
-ae903f9e5cc64ab038a2abe117ec886dcc566300 CVE-2021-47352: Add CVSS 3.1 score (8.4 HIGH)
-e7ab235313b64cdfc0ed42f64ff53d613cbf2918 CVE-2021-47341: Add CVSS 3.1 score (7.8 HIGH)
-e1d00455af8e0cc9bb0dc9feb41be21a45e81c80 CVE-2021-47343: Add CVSS 3.1 score (7.8 HIGH)
-0de3054df38a4b899bc98d7c2610f2ce8a43f91f CVE-2021-47338: Add CVSS 3.1 score (7.8 HIGH)
-abbade5111142de7c47f2b0ed9313549d185cd90 CVE-2021-47328: Add CVSS 3.1 score (9.8 CRITICAL)
-97331a755dceacfa963c8b7af5a3b9f393fb3cfa CVE-2021-47316: Add CVSS 3.1 score (7.5 HIGH)
-372465a160d8a9086f0bc4f6b737210234e346f0 CVE-2021-47317: Add CVSS 3.1 score (7.8 HIGH)
-9be2e25fa442a484a4c36b4720cc98657141304d CVE-2021-47309: Add CVSS 3.1 score (7.8 HIGH)
-37e3c074e9d752968a7922f55d659fb58bac0087 CVE-2021-47308: Add CVSS 3.1 score (8.8 HIGH)
-e4d978ad092467cc2a7d38fbdb8c6097b0e3bd85 CVE-2021-47307: Add CVSS 3.1 score (7.5 HIGH)
-f14fda65b168217a8f2a39720e7b2937db2a09ab CVE-2021-47300: Add CVSS 3.1 score (7.8 HIGH)
-023ca86a72b78f8c044bb973f1bea13b6d3b0fc4 CVE-2021-47296: Add CVSS 3.1 score (7.8 HIGH)
-7c6998985759e589e82767224822e54b984cdea0 CVE-2021-47291: Add CVSS 3.1 score (7.8 HIGH)
-722be772e0e29ef8d4a745bc1ff6bbaf64923875 CVE-2021-47290: Add CVSS 3.1 score (7.5 HIGH)
-f2b93d4dc5bb16d089654c85babc991466d9e149 CVE-2021-47303: Add CVSS 3.1 score (7.8 HIGH)
-f5280f04d860ed6067be164ce1fe44ac81b33479 CVE-2021-47282: Add CVSS 3.1 score (7.8 HIGH)
-e050864117aff8faf72b6e98f955f8cac4b607e7 CVE-2021-47281: Add CVSS 3.1 score (7.8 HIGH)
-2f9d8398b5465c0d55aaf277fe86e4fb11070d16 CVE-2021-47274: Add CVSS 3.1 score (7.8 HIGH)
-c757b4684f68bd0bb6dec117081dc0dfce10de89 CVE-2021-47261: Add CVSS 3.1 score (7.8 HIGH)
-df076eb91af6b30741fa13d150829b1f4d60de46 CVE-2021-47259: Add CVSS 3.1 score (7.8 HIGH)
-ae7dccb1e44a957262448d8f3826b37d5969af3b CVE-2021-47254: Add CVSS 3.1 score (7.8 HIGH)
-012a4d82f9c1d10a77ba0972ad6e5ab32ae80b91 CVE-2021-47247: Add CVSS 3.1 score (7.8 HIGH)
-a0f6cff564bb23a2149d1aefeb10845316893cf7 CVE-2021-47245: Add CVSS 3.1 score (8.2 HIGH)
-d749f2558232f6d2bcbf0530b631d9087b5d2330 CVE-2021-47248: Add CVSS 3.1 score (7.8 HIGH)
-444469dd829a63b18889c3878e8b52cb0ea880a1 CVE-2021-47242: Add CVSS 3.1 score (7.5 HIGH)
-8c4594e5545b66d0af2e3a18d7d1823ab982b0a2 CVE-2021-47244: Add CVSS 3.1 score (8.2 HIGH)
-8b34949c93748344b5ffc6dff8f350754794fa8f CVE-2021-47243: Add CVSS 3.1 score (7.1 HIGH)
-7beef556598081c96dde0216af3d0b5032ae0414 CVE-2021-47240: Add CVSS 3.1 score (8.4 HIGH)
-c75857ccca18535fda79b58f63a85f5e04612184 CVE-2021-47232: Add CVSS 3.1 score (9.8 CRITICAL)
-7589ebada10e436d7dabccd65f7528f4bbccf8ab CVE-2021-47226: Add CVSS 3.1 score (7.1 HIGH)
-bc80257331b195d736b0336c6888697144514958 CVE-2021-47224: Add CVSS 3.1 score (7.8 HIGH)
-2a67ba02f95d85e16fabb56cbc851d79b190cad3 CVE-2021-47222: Add CVSS 3.1 score (7.8 HIGH)
-273c928865b06335dff0d9784dcb39175cd9a99b CVE-2021-47209: Add CVSS 3.1 score (7.8 HIGH)
-c7cbd49a6a29b14a4c69a53e3255d8683a19e85c CVE-2021-47203: Add CVSS 3.1 score (8.8 HIGH)
-5c63df5fb0b917db10b4739d60ed28d1a5fccf27 CVE-2021-47200: Add CVSS 3.1 score (7.8 HIGH)
-532838be3979c6f6d193b798717d3d45a02272b8 CVE-2021-47196: Add CVSS 3.1 score (7.8 HIGH)
-2c9002602873c958afb3eac4d9235bb96d15f3e7 CVE-2021-47197: Add CVSS 3.1 score (7.8 HIGH)
-ca119b6d8c65045354f4639eb08f3ee8abccb749 CVE-2021-47194: Add CVSS 3.1 score (7.8 HIGH)
-196706b3cb998927b868a03424160890711e3af3 CVE-2021-47191: Add CVSS 3.1 score (7.1 HIGH)
-b677afa32d5201a24c744cbbf1ac3f617b1387cf CVE-2021-47189: Add CVSS 3.1 score (7.8 HIGH)
-3040f50563ad71286f2906fffa7f4159cbd4f55d CVE-2021-47188: Add CVSS 3.1 score (7.8 HIGH)
-d573834db8727120bd218c05df2923f540ed5c47 CVE-2021-47219: Add CVSS 3.1 score (7.1 HIGH)
-ac92e6f1bfe097015fba96750a387f89a0b4898c CVE-2021-47183: Add CVSS 3.1 score (8.8 HIGH)
-8604c866f6b607a139e0b012c9298bdb56313d7f CVE-2021-47184: Add CVSS 3.1 score (8.8 HIGH)
-51c54cd2c8135d831707e591f7f3054acfe269bc CVE-2021-47215: Add CVSS 3.1 score (9.8 CRITICAL)
-e62721183aba1b66fcf7f207824e39268d1fc18f CVE-2021-47179: Add CVSS 3.1 score (7.5 HIGH)
-4fe11daf9d0049223bc579141599374a4bc7eab4 CVE-2021-47178: Add CVSS 3.1 score (7.5 HIGH)
-2731933cf676082c019bff1fa49e13927687216c CVE-2021-47175: Add CVSS 3.1 score (7.8 HIGH)
-161ded721be5c7d0549ddba974cb6f3451b486e5 CVE-2021-47182: Add CVSS 3.1 score (7.8 HIGH)
-6980c4c6f64fc04bf2e7b102a1ef805c05162656 CVE-2021-47201: Add CVSS 3.1 score (7.8 HIGH)
-0fd04d3d2876474058b4df2a416a38fe04f299cd CVE-2021-47168: Add CVSS 3.1 score (9.8 CRITICAL)
-a5d849988d741783e32d391f8f747f96e8d4f1c0 CVE-2021-47162: Add CVSS 3.1 score (9.8 CRITICAL)
-24a20c7975c598f437a8c9fdd6cb12f3eb98d283 CVE-2021-47160: Add CVSS 3.1 score (8.1 HIGH)
-9e0e06b1b0e14badf10659a420a0578437de7e17 CVE-2021-47152: Add CVSS 3.1 score (7.8 HIGH)
-3433f85a4263d7ab7c78827eafc2e07ed822cf23 CVE-2021-47159: Add CVSS 3.1 score (7.8 HIGH)
-410ca3e8691016cc7b869b574e6ba48b02eb9a99 CVE-2021-47158: Add CVSS 3.1 score (7.8 HIGH)
-2a5c3f9ca4cd2deddfad683941f04e88f6ae4a42 CVE-2021-47153: Add CVSS 3.1 score (7.8 HIGH)
-7b58c2e7ae2f3d593319a2a9e8045182e7ce5c1b CVE-2021-47163: Add CVSS 3.1 score (7.8 HIGH)
-7796a0da69e70de6ff8b45c812a1de8784114863 CVE-2021-47148: Add CVSS 3.1 score (7.8 HIGH)
-789fc2880b3aa985f2fc937854cd753b9c77a9c0 CVE-2021-47142: Add CVSS 3.1 score (7.8 HIGH)
-5ee27f693f94af11b02a2d6d24f80388cc0c762b CVE-2021-47135: Add CVSS 3.1 score (7.8 HIGH)
-e99451d5e82c3b9c43fc22b0c16d1d602b8cd213 CVE-2021-47137: Add CVSS 3.1 score (9.8 CRITICAL)
-d26cda2b1696cbf1ec686c158b2d1f1a7224b60c CVE-2021-47136: Add CVSS 3.1 score (8.6 HIGH)
-bb60b3200cddb7c5345a9aade731b74198b43b4a CVE-2021-47132: Add CVSS 3.1 score (7.5 HIGH)
-ffd5e8ed5d5e002aca8a16e7411b599606019334 CVE-2021-47131: Add CVSS 3.1 score (8.1 HIGH)
-2403991f79b8a643f1b59d7217cd8ad10f5fbd25 CVE-2021-47130: Add CVSS 3.1 score (7.5 HIGH)
-4c694126ab0a27c77d95332ec82ac068b6a60a0d CVE-2021-47129: Add CVSS 3.1 score (7.8 HIGH)
-f896e58f41ceb6d15133c20557b4b088b475ab1e CVE-2021-47126: Add CVSS 3.1 score (7.8 HIGH)
-a759b1dde6f8d51c6e5531f19286caa2f0440a1c CVE-2021-47123: Add CVSS 3.1 score (7.8 HIGH)
-6e4ab440849de8cff3a5db6ed2ffa902d50e80c5 CVE-2021-47124: Add CVSS 3.1 score (7.8 HIGH)
-b9cf5f4522b47cf135777a1abbb83331bff6221f CVE-2021-47111: Add CVSS 3.1 score (8.8 HIGH)
-b5cfede1d51db95c409558b745b968397568de77 CVE-2021-47113: Add CVSS 3.1 score (7.1 HIGH)
-e09896860da26e08fb06d20aac244b859d696d93 CVE-2021-47107: Add CVSS 3.1 score (9.8 CRITICAL)
-ac78ab398632bbfd1a91585f4d076ea55548e8c8 CVE-2021-47112: Add CVSS 3.1 score (7.8 HIGH)
-d4337e74c1d92a0f1e173eacbb1aaa5c17dae7a6 CVE-2021-47109: Add CVSS 3.1 score (7.5 HIGH)
-83561316e3f9cdaa6a3bef0c77db87101bdc442d CVE-2021-47106: Add CVSS 3.1 score (7.8 HIGH)
-e25e67b1a4d2533b4386969a5f42aa7cffa4540c CVE-2021-47102: Add CVSS 3.1 score (7.1 HIGH)
-c266ecd08852a1c94b2580d2db2f174634cf7b41 CVE-2021-47103: Add CVSS 3.1 score (9.8 CRITICAL)
-42c8726725c2fba216f66567ac4dd9b39a22c003 CVE-2021-47099: Add CVSS 3.1 score (7.8 HIGH)
-48c340431e56b14bc461e672e57f0784e56922a6 CVE-2021-47094: Add CVSS 3.1 score (7.8 HIGH)
-7a90d4bae796aae5f880dd1254c709b0ce1c2819 CVE-2021-47087: Add CVSS 3.1 score (7.8 HIGH)
-993e3eb0414da7cdc91f257ab5b1aaa62359fe4a CVE-2021-47083: Add CVSS 3.1 score (7.1 HIGH)
-06f89f7e0c98f17c5bddb91b9fb8b48956ef0b7c CVE-2022-48762: Add CVSS 3.1 score (7.8 HIGH)
-5be8f34eeaf31221ff9e96b8382cff1dd09e1009 CVE-2022-48751: Add CVSS 3.1 score (7.8 HIGH)
-c4b4f41bf6870bc202f29bdff5a76a9e079cd6e4 CVE-2021-47551: Add CVSS 3.1 score (7.8 HIGH)
-9077c1eef28cb573dbbdc344c6be831fa91a48d5 CVE-2022-48754: Add CVSS 3.1 score (7.8 HIGH)
-9a76f443f4177066093f90ac431518781ba2bd71 CVE-2022-48744: Add CVSS 3.1 score (7.5 HIGH)
-ac93128013ff09b6ea519dd399c4ce02b3e4426b Merge branch 'sasha-cvss-important'
-e7175aebf2002e179fec219b22cdaf66cb0b9140 updates based on new cvss scores.
+fadeedd7cfc5d73d33fa3d7ac54b9b27aabd09d2 sched/psi: Create the psimon kthread outside of cgroup_mutex
+5457025fa8ca3c0d2732109513de839e3e797190 sched/psi: Shut down rtpoll_timer in psi_cgroup_free()
+477869bfafea65492d23de62c1b5208147c09dd2 sched_ext: Reject setting disallow from init_task outside the enable path
+5f8b69642d18e1f3e11996707842ac530444e959 sched_ext: Take cgroup_lock() first in scx_cgroup_lock()
+8c13364db9c9a43ed286f3a8d0fb9477b1adc43c sched_ext: Skip sub-disable teardown for never-linked sub-schedulers
+5cdc928598095b2c7d5f265e5f21eadd1634bfbe sched_ext: Don't enable non-ext tasks in the sub-sched task loops
+9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
+d4a00d61a5c2c24973175ace5368d1f6acf9bb0a selftests/sched_ext: Handle sleeping task affinity changes in numa test
+797fe91e50d6927f90f0c3b4444277c2c7c8b42b kho: align kho_scratch to MAX_ORDER_NR_PAGES pages
+cf6c993c0feca7984797e634deba3c80342e199a fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+d2f96bcb89d36d488a10e3bcf819b98536968286 fs,fsverity: remove check for fsverity being enabled in setattr_prepare()
+2fd9b4cfcefe30cb506072f78f2cd3b6dc8a29b1 Docs/admin-guide/cgroup-v2: document io.latency rotational vs non-rotational behavior
+35e66f03de8f5343825adfc21bcaec4a99d3d4c2 Merge tag 'cgroup-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+be76b516e681e5a620877bd3d0e1251b2ab38366 Merge tag 'sched_ext-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+c8e0d43058e6aaaf198e418a1d28a8da6e2dda69 Merge tag 'liveupdate-fixes-2026-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+2e718c88315af1c0a04fd9c295d605944a7949af Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+848acc8ffe1b7cd5f1bf427b93069becfebc2c9d Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+10d8ba097e2e1a62c8c22ac33f6b5a42f127f4d6 mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
+8e088f770db6a4242c7f6b80f309ad4019f4563b mm/ptdump: always stabilise against page table freeing using init_mm
+bcc4f4acd3136b24f87c01381d910fbef88e8f3c arm64: remove redundant concurrent ptdump UAF mitigation
+4ae2eacd28f540ce15d4f60b523eb9ddc5149047 mm/page_table_check: skip special zero mappings
+73125a2cb069295272b0d15740948d8aa077c1e7 mm/huge_memory: initialise workingset state before folio split
+985a9f7d60f15849dff4d8c3e9e663f63e9971df mm/damon/ops-common: putback folios on invalid migrate nid
+95e85309ad1fb4e9427ca62040f8e43c3a8b0614 mm/hugetlb_cma: dix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
+49a2d0a1e17708d5cfd10b9395279c2382c5b551 microblaze: restore the page alignment of swapper_pg_dir
+bfbbbfe5e7d9d72d58a1f84194ff5713120ca5f1 mm/filemap: __filemap_add_folio() restore index before retrying
+dadff7959441540e1604cd4cf284edaac8a203e8 mm/damon: adjust isolated pages stat for DAMOS_MIGRATE_{HOT,COLD}
+56b3434c033c485aefa1d661258f30503dd55675 MAINTAINERS: update address for Brendan Jackman
+b41f6948348b6dbae9b2dae228652f108c95e44f mm/huge_memory: fix huge_zero_pfn race
+559e9d16bc3f2fd67a9e3ea72e752d2716378c15 mm/huge_memory: separate out CONFIG_PERSISTENT_HUGE_ZERO_FOLIO logic
+18d9f4008bf65f8e05524804534b6309dda7de8b mailmap: map old addresses to Danila Tikhonov
+d85b627acd2f178ed9de567de633b1ea5c418214 samples/damon/mtier: error out for zero quota goal target values
+dbc61ec2db641b2c20aeaa64ca238567b8adb8b7 mm/damon/lru_sort: error out for >10000 active_mem_bp
+460f14245c020cb5c89c160eae5c205793878ef8 mm/damon/reclaim: skip damon_call() if ctx has not started
+23c7b6eb43887eba25b5110fd40bd0d242961532 mm/damon/lru_sort: skip damon_call() if ctx has not started
+9bae764e54db10bb98c16302aa361d50d66a2385 mm: fix incorrect flush address in direct page table reclaim
+1fdf95f0d6f36fbbd1de99626eaac91e5dcb493d x86/mm/pat: acquire init_mm write lock on collapse to avoid UAF
+23d5638ca0635da9a646ed7fc249cb06d3fb0100 x86/mm/pat: acquire init_mm read lock on attribute change to avoid UAF
+fabfaaa8090a83cbc97836cc70d47c69fa9e8c61 x86/mm/pat: allocate split page tables as kernel page tables
+0ae579d916ade97a30715b98c4916b167ea159a3 Merge https://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git fixes into for-next-fixes
+0d0a5ba1a6b2652522597218a9060681ad72006c Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
 
---===============5955247286991641119==--
+--===============4785522265327442595==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-eb544db5f7b8-9e5a7da176b4.txt
+
+fadeedd7cfc5d73d33fa3d7ac54b9b27aabd09d2 sched/psi: Create the psimon kthread outside of cgroup_mutex
+5457025fa8ca3c0d2732109513de839e3e797190 sched/psi: Shut down rtpoll_timer in psi_cgroup_free()
+477869bfafea65492d23de62c1b5208147c09dd2 sched_ext: Reject setting disallow from init_task outside the enable path
+5f8b69642d18e1f3e11996707842ac530444e959 sched_ext: Take cgroup_lock() first in scx_cgroup_lock()
+8c13364db9c9a43ed286f3a8d0fb9477b1adc43c sched_ext: Skip sub-disable teardown for never-linked sub-schedulers
+5cdc928598095b2c7d5f265e5f21eadd1634bfbe sched_ext: Don't enable non-ext tasks in the sub-sched task loops
+9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
+d4a00d61a5c2c24973175ace5368d1f6acf9bb0a selftests/sched_ext: Handle sleeping task affinity changes in numa test
+797fe91e50d6927f90f0c3b4444277c2c7c8b42b kho: align kho_scratch to MAX_ORDER_NR_PAGES pages
+cf6c993c0feca7984797e634deba3c80342e199a fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+d2f96bcb89d36d488a10e3bcf819b98536968286 fs,fsverity: remove check for fsverity being enabled in setattr_prepare()
+2fd9b4cfcefe30cb506072f78f2cd3b6dc8a29b1 Docs/admin-guide/cgroup-v2: document io.latency rotational vs non-rotational behavior
+35e66f03de8f5343825adfc21bcaec4a99d3d4c2 Merge tag 'cgroup-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+be76b516e681e5a620877bd3d0e1251b2ab38366 Merge tag 'sched_ext-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+c8e0d43058e6aaaf198e418a1d28a8da6e2dda69 Merge tag 'liveupdate-fixes-2026-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+2e718c88315af1c0a04fd9c295d605944a7949af Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+848acc8ffe1b7cd5f1bf427b93069becfebc2c9d Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+10d8ba097e2e1a62c8c22ac33f6b5a42f127f4d6 mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
+8e088f770db6a4242c7f6b80f309ad4019f4563b mm/ptdump: always stabilise against page table freeing using init_mm
+bcc4f4acd3136b24f87c01381d910fbef88e8f3c arm64: remove redundant concurrent ptdump UAF mitigation
+4ae2eacd28f540ce15d4f60b523eb9ddc5149047 mm/page_table_check: skip special zero mappings
+73125a2cb069295272b0d15740948d8aa077c1e7 mm/huge_memory: initialise workingset state before folio split
+985a9f7d60f15849dff4d8c3e9e663f63e9971df mm/damon/ops-common: putback folios on invalid migrate nid
+95e85309ad1fb4e9427ca62040f8e43c3a8b0614 mm/hugetlb_cma: dix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
+49a2d0a1e17708d5cfd10b9395279c2382c5b551 microblaze: restore the page alignment of swapper_pg_dir
+bfbbbfe5e7d9d72d58a1f84194ff5713120ca5f1 mm/filemap: __filemap_add_folio() restore index before retrying
+dadff7959441540e1604cd4cf284edaac8a203e8 mm/damon: adjust isolated pages stat for DAMOS_MIGRATE_{HOT,COLD}
+56b3434c033c485aefa1d661258f30503dd55675 MAINTAINERS: update address for Brendan Jackman
+b41f6948348b6dbae9b2dae228652f108c95e44f mm/huge_memory: fix huge_zero_pfn race
+559e9d16bc3f2fd67a9e3ea72e752d2716378c15 mm/huge_memory: separate out CONFIG_PERSISTENT_HUGE_ZERO_FOLIO logic
+18d9f4008bf65f8e05524804534b6309dda7de8b mailmap: map old addresses to Danila Tikhonov
+d85b627acd2f178ed9de567de633b1ea5c418214 samples/damon/mtier: error out for zero quota goal target values
+dbc61ec2db641b2c20aeaa64ca238567b8adb8b7 mm/damon/lru_sort: error out for >10000 active_mem_bp
+460f14245c020cb5c89c160eae5c205793878ef8 mm/damon/reclaim: skip damon_call() if ctx has not started
+23c7b6eb43887eba25b5110fd40bd0d242961532 mm/damon/lru_sort: skip damon_call() if ctx has not started
+9bae764e54db10bb98c16302aa361d50d66a2385 mm: fix incorrect flush address in direct page table reclaim
+1fdf95f0d6f36fbbd1de99626eaac91e5dcb493d x86/mm/pat: acquire init_mm write lock on collapse to avoid UAF
+23d5638ca0635da9a646ed7fc249cb06d3fb0100 x86/mm/pat: acquire init_mm read lock on attribute change to avoid UAF
+fabfaaa8090a83cbc97836cc70d47c69fa9e8c61 x86/mm/pat: allocate split page tables as kernel page tables
+0cae3cf6634fc35c4ddc521084e4cfdecfa088ee foo
+09b7eedac7d7faccd9e8a75465282c8e3537288e memcg: bail out memory.high when memcg is dying
+538309f5d71ee39f1407e0275734ea02f6e2dad5 memcg: bail out memory.max when memcg is dying
+4e24388dea98e9978bb85e019629ac18c35f08ba memcg: bail out proactive reclaim when memcg is dying
+649f0096dcf8df09cc3442fc9aefded31064800f memcg-v1: bail out reclaim when memcg is dying
+f1eec68786f5cad94ff59049ba69dd762410b9d7 mm/memory-failure: drop dead error_states[] entry for reserved pages
+d2f1e2a606fad7d59f6abdecdd810b918ffc13db mm/memory-failure: surface unhandlable kernel pages as -ENOTRECOVERABLE
+21ece609603711e14448b31f944b124fcf34c4b4 mm/memory-failure: report MF_MSG_KERNEL for unrecoverable kernel pages
+4a4c1bf97571c5b5b102ebf82aa20fe9620666ea mm/memory-failure: add panic option for unrecoverable pages
+c0cc9ddfcb152ece82ce2cd81780b4f8206c2b33 Documentation: document panic_on_unrecoverable_memory_failure sysctl
+70ac95c186fa9bc4c7e37d428066e803728722e2 percpu: replace __ASSEMBLY__ with __ASSEMBLER__ in percpu-defs.h header file
+f8d4f2d4d1f59f0eb9534c0d1777363cf9b944ca lib/maple_tree: add missing spaces after switch keyword
+038a3cacc2cb6ad916c3b832e955bd99e20796d7 selftests/damon: check correct path in ensure_file() not_exist case
+23ad7129056bcf386a33c605ccb27c51fb0572a8 mm/damon/core: stop ctxs in damon_start() before returning an error
+07ce124e8b81349e2cc371f722c650de3e99d22b samples/damon/mtier: do not stop first context for damon_start() failure
+8baadde4c3eae330ead6ba39a151be0012ff3399 mm/damon/core: make damon_stop() never fail
+ad06c26f8551d005b9246574038fd245c2d9e67d mm/damon/sysfs: ignore damon_stop() return value
+0257412ea6456b06549500f112ba0397508c9338 mm/damon/reclaim: ignore damon_stop() return value
+13eb21a8e0e4dedc7de473b82488bc0f3ccdfc1f mm/damon/lru_sort: ignore damon_stop() return value
+4be93ee4cb5be6680c29a181d48efe4fdd8538e3 mm/damon/core: change damon_stop() return type to void
+f916ec6216bf7cf91af0ff2e391f2dbb685af011 samples/damon/mtier: stop all contexts with single damon_stop() call
+f1a04b90ec6877bf52909ebcb96002f34818ae2c mm/damon/core: wait ctx stop in damon_call() before reruning an error
+e49948a0efb6766d8537283b0edd7694f2cce2c5 samples/damon/wsse: do not stop ctx for damon_call() failure
+684a4561f1881a82a5b93db857b1e38213d3f45f samples/damon/prcl: do not stop DAMON for damon_call() failure
+955b090ccb3b080767743e39103ef30c7e663a3e mm/percpu-km: clear page->private before free them
+7a90c51a9532fc256f5505c780e64c283e7968a2 mm/compaction: stop recording free page order in page->private
+5921133a461c51493aa56088a23e159752a3f665 mm/huge_memory: add page->private check back in __split_folio_to_order()
+8039619b9a13d1f4c170852ec5a249f804d9e0ab mm/page_alloc: make sure tail_page->private is zero at page free time
+2a299aea4c38856ca8d7825f91feece6c2c2363e mm/page_alloc: remove set_page_private() in prep_compound_tail()
+c10da2021e22f9e748aafcc50346601a4dc1e69b mm: avoid unnecessary lru drain for wp_can_reuse_anon_folio()
+86a7ce1cbc33ee1e715fb305916b8a7bd60c5a9e mm: rename in_lru_cache to maybe_in_lru_cache
+948fc4adf05b81245636ec42e0d30a175454ec38 mm: drop stale folio_ref_count()==1 check in do_swap_page reuse logic
+39116525e6ff0210130f24607c20cdfff904fca7 mm-drop-stale-folio_ref_count==1-check-in-do_swap_page-reuse-logic-fix
+1b4a3b45f8588c6cb382b7b59ffc29a8545a938c mm: entirely remove lru_add_drain in do_swap_page
+61fc1ffab40c80de2d18434da12f74fded5a2105 mm: clarify the folio_free_swap() for do_swap_page()
+4241d270830f3a8345713ed9aac64655914dd986 mm/swap: colocate page-cluster sysctl with swap readahead
+8ed6d702d44294f4bf3a3144966d80fb210f9c05 mm: rename swap.c to folio.c
+d566a36cd34d373400d7071a45114d0378f0e7a8 mm: move reclaim-internal declarations out of swap.h
+fb9130d0d0f4b53a80b7d022172e8bc579b87067 mm/shmem: annotate benign data-race in shmem_getattr()
+7a389ff96c3a758099a96d8903ffa894bf313132 mm: decouple protnone helpers from CONFIG_NUMA_BALANCING
+8798b8750bf8e8b3a937b833a33213c59da02288 mm: rename uffd-wp PTE bit macros to uffd
+5b79ede1d41afacdd8c3314d7bcf19f6c91d6825 mm: rename uffd-wp PTE accessors to uffd
+7ad4b30baabff3a336b370d69e16b488b0db391e userfaultfd: test uffd VMA flags through the vma_flags_t API
+f5ef824971dd5dd8e853d0f6e9d5706a77fb7502 mm: add VM_UFFD_RWP VMA flag
+fbb414a54319ec4d35e3b9a13a8951abd81f5430 mm: add MM_CP_UFFD_RWP change_protection() flag
+2e77877ee6e66f4e61bee4d99fcb574ebe3f77c9 mm: preserve RWP marker across PTE rewrites
+f661bd829ae11dbef013857fc37063331fa3923c mm: handle VM_UFFD_RWP in khugepaged, rmap, and GUP
+46667279916999c56824c92c3d901d45822bd4e2 userfaultfd: add UFFDIO_REGISTER_MODE_RWP and UFFDIO_RWPROTECT plumbing
+69e571f6b8b6cfa73b11b86ee24d0e9f335f88a3 mm/userfaultfd: add RWP fault delivery and expose UFFDIO_REGISTER_MODE_RWP
+0f3c872b3513c45d90c6a3db1cdff71367b416f6 mm/pagemap: add PAGE_IS_ACCESSED for RWP tracking
+0e3e8b8a467f35fd84ee28fe64a6d8dbce88af4a userfaultfd: add UFFD_FEATURE_RWP_ASYNC for async fault resolution
+87fbd4e6063c874b3a116ee0917bb1734c526ee6 userfaultfd: add UFFDIO_SET_MODE for runtime sync/async toggle
+44356812e77e53cb28b6ee56bd94126589afeb49 selftests/mm: add userfaultfd RWP tests
+b9d682b6641096407597ad899ecea4c861cd2c29 Documentation/userfaultfd: document RWP working set tracking
+6f023e88801efc9b6080fdb50438c40bb4710ef5 mm: nommu: fix the error path when vma_iter_prealloc() fails
+d247a9947abd91b7d6b11bbedcd6d3eef8031f00 x86/mm: drop order parameter from free_pagetable()
+e3e44da825b88db2b076b02d2a9a8ebbc6569fa3 mm: provide free_reserved_pages(), removing x86 variant
+85a085c41516e5b123a384a8fabd1f23a8758ac1 s390/mm: use free_reserved_pages() in vmem_free_pages()
+aa3bc93da9ab81ea055d6022fb639d3cf1038f9a mm/bootmem_info: allow calling free_bootmem_page() on pages without a bootmem_type
+fcf46bc73ba3fae87bf3067ae1d0178556466fd8 x86/mm: stop marking vmemmap as SECTION_INFO
+7f119b3fb6a3d2e63cfd4417bf8c458e33a3d036 x86/mm: stop marking page tables as MIX_SECTION_INFO
+2f2b66aac29831cf1796c58e9d3a0d587175b94a x86/mm: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
+026e9def17f54365d557447daf6ffe873e05ebbc mm/hugetlb_vmemmap: remove bootmem_info leftovers
+b59528a26e1ba21f2bd0f42fdc1c429de405c6f3 mm/sparse: remove bootmem_info.h include
+aa35b2becb8b42c89962f12c3750f4b5815a7aa8 mm/bootmem_info: remove CONFIG_HAVE_BOOTMEM_INFO_NODE
+2a186dc7befdf8f5327acf11d39e30420bb6197a mm/damon/core: remove comment and test for nr_to_bp() divide-by-zero
+77be4f0a2e04ff09fc4d4a96a6bb9ae30bdff898 mm/damon/core: s/damon_max_nr_accesses()/damon_nr_samples_per_aggr()/
+040da09a1bed4308a26ccc49b0ba8d2a661ac9e2 mm/damon/core: s/accesses_bp_to_nr_accesses/sample_bp_to_count/
+eef002da78a297b6320294d6ef23e00be2350278 mm/damon/core: s/nr_accesses_to_accesses_bp/sample_count_to_bp/
+d94386f7885fe63b11173182b5149078aab21cae mm/damon/core: s/nr_accesses_for_new_attrs/nr_samples_for_new_attrs/
+9e82b98f253975789bfa9c59edd07392e7411964 mm/damon/core: update probe hits for new parameter commit
+d8e2e47278fbd83263db43a013e1d3db28baaf3a mm/damon/core: handle unreset probe_hits in probe_hits_mvsum()
+9d20d11f94d108aecfacf6360d90f3d838827ea3 ksm: add linear_page_index into ksm_rmap_item
+dbfdd03f8dcbd01fcd30a42d361a0dc4ae060ba9 ksm: optimize rmap_walk_ksm by passing a suitable page index
+435933b643df0b11e8515f62d84592db28c84f71 ksm: add mremap selftests for ksm_rmap_walk
+2a0b6d4ff7e4c8b32ed6428ed00b4bf9a268612a mm: split out mm_init and memblock declarations from internal.h
+a8cd53f9290c974cd96356f8b5c6b6ab266919f1 memblock tests: split stubfs from internal.h to mm_init.h
+84817984ffc0db8a7deac6010cb5e8e0be21279b mm: split out sparse declarations from internal.h
+176c7e692fdbe1d09b9944af8f5867d1660c4e47 mm: split out vmalloc declarations from internal.h
+5d707cea3a656d29a049c9c9bb203054c7afe25d mm/ksm: initialize the addr only once in collect_procs_ksm
+a7b19181eebd1025c63c5f16bcc9ffb3b63dd9c4 ksm: use precise linear_page_index instead of the whole address space
+0fcf196d13bbe7b44628bf290f78f99313f9aa1e selftests/mm: fix memleak in migration benchmark
+ad848e0d72e70ffbf70488de2651fd73cb914dc7 selftests/mm: handle EINVAL when configuring gigantic hugepages
+bfad79ee2ea6a6cc98f474e4b0cb867ddcbab59c selftests/mm: fix ksm NUMA merge test for systems with memoryless NUMA nodes
+36ce6515a5689a66dacab9a2cb96b7c4ffc2faf6 selftests/mm: fix ternary operator precedence in ksm_tests
+ae75e88d8c258fd849de594e7d468b5263e7b3e3 mm/gup: fix GUP-fast fallback for NULL-mapping order-0 folios
+a09f48727d3f60e891ea71bed012dbdeb4ff00b5 mm: remove wb_writeout_inc
+7f64c9ce1c17c1e23fef34df5f4620cbcbe39e5d mm/damon/core: introduce damon_probe->weight
+dfbc8e8193db559a93bb4ac2e847693394a84e4d mm/damon/core: ask apply_probes() ops callback to set sampling address
+00ce33ae6646aac1c1dd7388b0264b8bf4e3c15e mm/damon/paddr: set samples in apply_probes() if requested
+9164892a24241f5c4cfb740346bdbb0aedf70071 mm/damon/core: ask apply_probe() to return max probe hits weighted sum
+bd30862ffcdf5015e01c62ceadd569beb5e1be92 mm/damon/core: implement damon_probe_hits_wsum()
+8d534726ae3238cfa97c4664882767580f55e5dd mm/damon/paddr: respect return_max_wsum
+d4befe1eb0fd8b3bf4c8587ec8de9fbd299044ce mm/damon/core: use abs_diff() instead of abs()
+7d70f7b793fa544944d70991c146e3a263934e0a mm/damon/core: extend merge function to work with probe hits
+14481db1c686259ee9286b9f0bbeff7f7731f5df mm/damon/core: disallow probe_hits overflow on attrs only monitoring
+01239079335a87d182d122454fe3d94c27dc54e0 mm/damon/core: validate params for probe hits weighted sum overflow
+8406f336c2c0b988e2dfe387e75ce4c51dff88f2 mm/damon/core: disable access monitoring when probe weights are set
+42688422bc7d2141075d7d4580f1e77d22f8fb9d mm/damon/core: set samples in apply_probes() if probe weights are set
+41fff84262e2c3f0f10c1860246d787dca6f031a mm/damon/core: s/max_nr_accesses/max_merge_score/ in kdamond_fn()
+d13326b6877e049c655c8546a5319e331482529b mm/damon/core: get merge threshold from probe hits when weights are set
+e2063d47ea412ad1bb67cfba7a06f1b9aeccd315 mm/damon/core: implement damon_has_probe_weight()
+7bf6566f992099713319701bbab79f04b2d6a53f mm/damon/sysfs: implement probe/weight file
+304a1fef3adb10994aa45ba705462c7027d38d41 Docs/mm/damon/design: document attrs-only monitoring
+68fe0e01080803fb601fa9135c1faf2a64787d74 Docs/admin-guide/mm/damon/usage: document weight sysfs file
+eecb6f2c9d5e5029423b79f2da20e35c442b81fa Docs/ABI/damon: document probe weight file
+77a65bde09b3d4be2f8dbbbe2b17674f47658184 mm/hmm: make CONFIG_HMM_MIRROR select CONFIG_MMU_NOTIFIER
+eedebd0854eb6dacb94dbd24c6d86bb2914acab0 mm/hmm: move page fault handling out of walk callbacks
+b31697ddf904e60f8550b246d198b98c7d8b7390 mm/hmm: add hmm_range_fault_unlocked_timeout() for mmap lock-drop support
+a77c8c3cd6cc0079f614f1f420a49ea36112b8cd selftests/mm: add HMM test for mmap lock-dropping faults
+8e3897cd9a951b6eb12fdbe73c298625925d6782 mshv: use hmm_range_fault_unlocked_timeout() for region faults
+684c2d93ab13cdb86c516ac7194d98f018e155b9 drm/nouveau: use hmm_range_fault_unlocked_timeout() for SVM faults
+0f5cb61b4227ad3196029e93969f995a336226c0 RDMA/umem: use hmm_range_fault_unlocked_timeout() for ODP faults
+83dfe60cf408c41128561f4b8a75ee9999e057ed accel/amdxdna: use hmm_range_fault_unlocked_timeout() for range population
+135c8295d63c05a7dc35349b04b8763a915e7e12 drm/gpusvm: use hmm_range_fault_unlocked_timeout() for range faults
+b133cfc28bbf2a0e3d7501facc624adc4b007aed mm: move vma_start_pgoff() into mm.h and clean up
+3e7885c583a15faa738f953d681102ebdcd849f6 mm: add kdoc comments for vma_start/last_pgoff()
+85cd8bfa10abc21036e2c0d1a8787c3d5f024988 tools/testing/vma: use vma_start_pgoff() in merge tests
+fd64ddb25a3bf7bc58949a500b3107c6338064ff mm: introduce and use vma_end_pgoff()
+35aaddf940d5b13e9169711317a7956ff32a6d96 mm/rmap: update mm/interval_tree.c comments
+465f326305f084c91ae9583c61467a045e4f9d91 mm/rmap: parameterise vma_interval_tree_*() by address_space
+3af00bb3d1789a804c131e23aab8df0df0c767d6 mm/rmap: elide unnecessary static inline's in interval_tree.c
+c8c1182af8c2b87db172903fe43aa462a96eb517 mm/rmap: rename vma_interval_tree_*() to mapping_rmap_tree_*()
+3e6d3d8cbd15d32f5ee4f05cdd8c911ae031e5e0 mm/rmap: parameterise anon_vma_interval_tree_*() by anon_vma
+5fe55fd69fdd6bc85355580faa510d116700c802 mm/rmap: rename anon_vma_interval_tree_*() params and use pgoff_t
+2496b7bdb2a9ccee3d27f71f3c06fc45239f6314 mm/rmap: rename anon_vma_interval_tree_*() to anon_rmap_tree_*()
+c053a1371ad4931500b25cfc99ec721815bd7f4a MAINTAINERS: move mm/interval_tree.c to rmap section
+5873c80af0868643fe91bee08ae34501b4a4c8cd mm/vma: introduce and use vmg_pages(), vmg_[start, end]_pgoff()
+dc07831ac36fa71ea65b93fa7a2644cb5fee43a4 mm/vma: clean up anon_vma_compatible()
+adcef94727576c71465ee75d110f08ae2d753769 mm/vma: refactor vmg_adjust_set_range() for clarity
+1fa8de59fff31291f3f80f3f4babd2b3819b8b89 mm/vma: minor cleanup of expand_[upwards, downwards]()
+b52ebad6cdea0f2e65ade70f221b128753e9c564 mm: introduce and use linear_page_delta()
+6cabe6e6e2868d76fbb36e6f7459d073d92fedd7 mm/vma: use vma_start_pgoff(), linear_page_index() in mm code
+22a5a1a6866090a9ce7605561c809f437fd83f50 mm: prefer vma_[start,end]_pgoff() to vma->vm_pgoff in kernel/
+9ca9b1636a94d3928dacb5eb7ef5e02fef6ed155 mm/vma: remove duplicative vma_pgoff_offset() helper
+f7be7d842b02f9d0b76f6848219e2c05564e5e54 mm: use linear_page_[index, delta]() consistently
+0f6e70aedd546986970b2989a5ece611c41a161e mm/vma: introduce vma_assert_can_modify()
+71edeab4d5e5d719a3c83390dc675812805bb750 mm/vma: add and use vma_[add/sub]_pgoff()
+15a01b569b403cc742e2201774c6c6a2fdaf3f6d mm-vma-add-and-use-vma__pgoff-fix
+ae99f526cb8d7dfab44771c7c681424fb4c1db4f mm/vma: move __install_special_mapping() to vma.c
+6e56a0c7b118e4fbd950ce23af631697487c9194 mm/vma: make vma_set_range() static, drop insert_vm_struct() decl
+37323d2db97b0ca2e5f03b9097c120d0b878614e mm/vma: update vma_shrink() to not pass start, pgoff parameters
+7d84150881579880e4eecf1791b428c3b5340058 mm/vma: update vmg_adjust_set_range() to offset pgoff instead
+8d121ed4998f2f1777279a86bf899fe85d2a9a7a mm/vma: slightly rework the anonymous check in __mmap_new_vma()
+d24cadf9e7099b435c53baf53dd2f8ccbe8b99ad mm/vma: introduce and use vma_set_pgoff()
+de1ef54624ccaceb4f77438de46557d41e9e829d mm/vma: correct incorrect vma.h inclusion
+e17377252878dedcc3f6edf80eede8baee6a2c40 mm/vma: use guard clauses in can_vma_merge_[before, after]()
+696ea4dfe173ffb47d7cceea82f1880cebc8b7e9 tools/testing/vma: default VMA, mm flag bits to 64-bit
+3e16fe13201780683e6bf0d4ba5b9a5f5cbbfeb8 tools/testing/vma: output compared expression on ASSERT_[EQ, NE]()
+22a32d8aa6af32ab323366e04b530732f3a7b155 mm/mempolicy: skip non-present PMDs when queueing folios
+406e0ac1b01b419b06550a772e4a4fae8e860d5f mm/madvise: skip device-private PMDs in cold and pageout walks
+6feb5ba760e211a285039e884cedb81e84c0bd47 mm/huge_memory: skip device-private PMDs in madvise_free_huge_pmd
+d77790aa079c1f7187ee35ffa8d795943af4e6d3 selftests/mm: remove obsolete hugetlb vmemmap test
+5b327baedc9151449fa960c7d673f11998380487 mm/rmap: convert page -> folio for hwpoison checks
+7a37d7f685ddc4d1d109cc2a2931ec4fdba4b15a mm/rmap: add try_to_unmap_poisoned_hugetlb_one
+aeef9252945a5d57c7b45c8e922412d4a061ab22 mm/rmap: refactor some code around lazyfree folio unmapping
+8c21b47aab6ff4424746ef6bb28e47e307eb5b2f mm/rmap: refactor anon folio unmap in try_to_unmap_one
+b8713c8bf38d51098325d88f4bb4111acb03821b mm/rmap: add anon folio unmap dispatcher
+a91c677f25743bf5b085560b56b7cf4a8ca50144 mm: memcontrol: update state_local when flushing NMI stats
+24f074e357bf57700ec58afa52979507b51034b6 mm: memcg-v1: account vmpressure event allocations
+254296775caf5c9bc72a0d7f9c2e11d90262913f mm: memcg-v1: fix wrong linux-mm list address in deprecation warnings
+44edaab31c3c3f22818736f9fecb407e897d2786 mm: memcontrol: drop unused cpu argument from flush_nmi_stats
+f37f515895a88b2330e1edd014244eaa9a56f50d mm: memcontrol: factor out memcg kmem uncharge sequence
+54541a8c3e5ad23b77d026326afc7d3e46df8c7c mm: memcg-v1: make mem_cgroup_oom_notify_cb() return void
+e4e869b6a629806ace9fbedfbea3ac6631a0d244 mm/damon/tests/core-kunit: test damon_nr_accesses_mvsum()
+d8369d0bbdcfdc98e18e2cefa87d7d07d1ac1f47 mm: kmemleak: confirm suspected leaks with a second scan
+4df6b2ef5d149745946a9c5c22c31456b466b406 mm: kmemleak: report leaks only after N consecutive unreferenced scans
+971de748c8a67e71c40624f40b65e8c52d9b9d7c mm: kmemleak: factor leak confirmation into a helper
+9f366c75fde008161f764f72580d21d73c1e2ca6 selftests: mm: test kmemleak's N-consecutive-scan leak confirmation
+65395ffd14842779c4c1a99c750b08b477c93558 selftests: mincore: count file-mmap readahead on both sides
+2b307c4631c9aaecd3df2783250532d09bef7e0a selftests/mm: fix on-fault-limit false failure under sudo-rs
+f88448378ae6f103d929a94f1b0f006416b70e62 mm: huge_memory: fix kobject cleanup in thpsize_create error
+465bf09db5ac3da3bb51a4eb87a3b19faaf3b0f7 mm/swap: clarify unreachable cond_resched() in swap_reclaim_full_clusters
+5c173944de263f68f2d3048ff4d8a6051cd2d583 selftests/mm: factor out hmm_buffer_alloc() to consolidate buffer setup
+d9df3e650a46fbb898edf6026dbdea97ce62ab7b mm/damon/core: skip aging from repeated aggressive merging
+3fe57ad91a65bde01b0b5cfe263b9f3bed14c41e Docs/ABI/damon: fix typo in intervals_goal sysfs path
+422aae13382041265392e08bbeb697fdc344005b Docs/ABI/damon: fix typos
+ec783208def7d8be61c36838099aa63f2bcb685f Docs/ABI/damon: document update_tuned_intervals state command
+0260348ef00dd37e9d609594bf2718b182b6805d Docs/ABI/damon: document tried_regions probe hits
+999f26fa32f8f183acd4690cc5fca8ebac85c14c mm/memory: add memory_block_aligned_range() helper
+107832c6390d9a02e9defe23a8826cc71036af2a mm/memory_hotplug: add mhp_online_type_to_str() and export string helpers
+628a91eb5469bd8743cde1db504f9155ddce86ef mm/memory_hotplug: pass online_type to online_memory_block() via arg
+7ad8f5f586029710c5b945b390fe56019d27394e mm/memory_hotplug: export mhp_get_default_online_type
+c6b6a216f9dc42b032bcb8d1a62fa3c6215c509d mm/memory_hotplug: add __add_memory_driver_managed() with online_type arg
+44e236d08d05f14466b24d4931acdd2437b7462f mm/memory_hotplug: add offline_and_remove_memory_ranges()
+0f24d5734453856462d06c64dddd42fa27ecf613 dax/kmem: resolve default online type at probe time
+2be88e27f1cfc5bb340e00e54c4f14ee5644912e dax/kmem: extract hotplug/hotremove helper functions
+8a715cdbdd7b018f3f4f3f1f5bbf9fedc9f7e797 dax/kmem: add sysfs interface for atomic whole-device hotplug
+d9e296fe9378e49b90d32f2ffea2bbb216659783 selftests/dax: add dax/kmem hotplug sysfs regression test
+05d1268de9bfcf6530a83b99612137ec08bcac15 mm: introduce vma_flags_can_grow() and vma_can_grow()
+0d6e1386a381e0a6d2ceaffa0f9ad81e1a6cbd42 mm/vma: update do_mmap() to use vma_flags_t
+0f8b8f1bd6350ce8c56dcc167fbae9345a536f1e mm: convert __get_unmapped_area() to use vma_flags_t
+be150abd44b3c2a9c01c07e926c17bd6df925521 mm: update generic_get_unmapped_area[_topdown]() to use vma_flags_t
+3b011c1e2bbcda94c53c41b84c3510d132eb1c0d mm: prefer mm->def_vma_flags in mm logic
+88483083ca28240ebfa4fc48db3239898cf54f1b mm/vma: convert vm_pgprot_modify() to use vma_flags_t and rename
+c6fde7ee2525c92ac67af863f17486748c3c3e80 mm/vma: rename vma_get_page_prot to vma_flags_to_page_prot
+07f7c972bfa4de75b08e5b1307b811bc40e05a9f mm: introduce vma_get_page_prot() and use it
+a06c0d5648259e1cc01997cf011edf7a13e5a108 mm/vma: update create_init_stack_vma() to use vma_flags_t
+31653bc2e1f7168639232e8d36cdd78e23176803 mm/vma: convert miscellaneous uses of VMA flags in core mm
+9e348a8ad5bdc5d834edf2cd64f3fa78e16f0f1b mm/mlock: convert mlock code to use vma_flags_t
+db01e94fbe5041bea4a78880d0c01f1fb1a737fb mm/mprotect: convert mprotect code to use vma_flags_t
+8fea4a176201e5430eb6a0cfa34cb86896e399db mm/mremap: convert mremap code to use vma_flags_t
+b054ff7f9512dfb28fd80359251657fc7d0d29b1 mm/mm_slot.h: add a helper function mm_slot_remove
+59889ed75025038cd9d4a808c4197462b834d460 mm/mm_slot.h: add comments for mm_slot_lookup/insert
+965ec792bbe8fa2af90bb62f33557833295ccbcd mm/damon/core: hide private damon_region fields
+145d37707ec59ad69a145660aebde80472489999 mm/damon/core: hide private damon_target fields
+0ef2a8eec8374c96e76e2a023899df0a540a352a mm/damon/core: hide private damos_quota_goal fields
+f0ea6f271ac57b7d27e74323835fd71eafacb813 mm/damon/core: hide private damos_quota fields
+68f8022feb5f6bc93447135666af6deb7126262b mm/damon/core: hide private damos_filter fields
+494d0324bcfe77cefd18e807a35b05c52964c5c6 mm/damon/core: hide private damos fields
+1000cb46c879754908dcba1aadb4ac7be2594d1e mm/damon/core: hide private damon_filter fields
+3d49ab72b3f4be1c702e2df2bc88b62fc6eaa9fc mm/damon/core: hide private damon_probe fields
+3a66889b470202285516d1ef95fa19753e130e4b mm/damon/sysfs: do not directly access damon_ctx->ops
+05642781ccb34a05194b59a3bb37b3ec73018639 mm/damon/core: hide core-private damon_ctx fields
+08d642319c4aab46d848b5b6533ecb297c0a2b57 mm: let node_reclaim() return the number of pages reclaimed
+97873588e303d7e272fea782496838d3749b489d mm/damon/core: avoid infinite kdamond_merge_regions() internal loop
+7d3fe8b72ec9a434679d40eb588233d6e221150e mm/damon/tests/core-kunit: catch test failure in test_merge_regions_of()
+0f27c9da0df6fad28bf85214446415497b2e9a25 mm/damon/vaddr: drop last same folio access check optimization
+8c4b6c650cb571932050563c2f15733731ad1b81 mm/damon/paddr: drop last same folio access check reuse optimization
+3cce3ddb53b97782b988b64b91aa70b67f75d657 mm/damon/sysfs: read addr_unit only once in damon_sysfs_apply_inputs()
+025205cec46f4692671b23ec2ec1fc3835c3870c mm/damon/sysfs: read ops_id only once in damon_sysfs_apply_inputs()
+0e2a6558d54de2ac0a709cb97f78c151da771ebd mm/secretmem: don't allow highmem folios
+b8657a38337b0623c9888edc0c4557ebe41382cc docs/mm: fix braces
+6a4dfd6e1e4281a011780c8d5106fb50ef4f2ede selftests/mm: add PAGEMAP_SCAN test for THP PMD holes
+3267711415300a87417d6572d77ba054489e19dd mm/page_alloc: don't spin_trylock() in NMI on UP
+48fe8619b82728209bfc64b12362e38804842017 mm/page_alloc: don't spin_trylock() when disallowed in free_one_page()
+2883fd4d309705980fa0569140203d11d9530922 mm/page_alloc: rename FPI_TRYLOCK -> FPI_NOLOCK
+45787f7f3dec0bd7ffb8a27c7a55a3c4080759fa cgroup/cpuset: update some comments about the page allocator
+7234622a0ca105d4e5ebbb463f515d940cc106a9 mm/page_alloc: fixup alloc_pages_nolock_noprof() comment
+9d3ce9c32db03baaa68d95a817f17a5ec09b335e mm/page_alloc: remove a couple of VM_BUG_ON()st
+ca1ee833270bb412ecc6cb000a2c20e0f32688c1 mm/mseal: remove superfluous comments, fix confusion around mm
+d3721ce1076ec6be6cfaa77ea2e5368aa88bb37c mm/mseal: limit scope of mseal address zero to address zero
+3daf959f7d6e9ad8daa8f31dd670ada293a861b0 mm/mseal: remove further superfluous comments, do_mseal()
+ae79df2435e58454557e667e38ae0c8c46830f22 mm/mseal: fix mseal documentation for 32-bit kernels
+f9ca452af096dfaac546da2eebdaf3d13a24a3b5 mm/vmscan: fix anon-only reclaim evicting file pages when swappiness=max
+6037536460db7ae52fe031ea6d20ac77e50df882 mm: vmscan: propagate real error code from per-node proactive reclaim
+79e5012acbe48344f0be0886cc081389e6633412 mm: vmscan: drop unused gfp_mask parameter from __node_reclaim()
+ad257249a7b05bf52c7351d436c901908ead0c1f mm/mglru: fix anon-only reclaim evicting file pages when swappiness=max
+a0f4c86926ebc21bed7d7d3fe780285f5ba774f9 selftests/mm: fix BUG_ON checking wrong variable in mremap_dontunmap
+6eb0ee7d846566d7c863ea63d97212174c35627d mm: introduce pud_is_huge() helper
+9b62d54f355a49d303f5360fe2bbf02b202163b2 mm: mincore: remove special handling for VM_PFNMAP
+675e47daa0ebdbfd84f438d25b3fd844a33f9dfb mm: mincore: fixup for remove special handling for VM_PFNMAP
+76b5bb309e70631b9f123b48e3b173ef822b15d7 mm: mincore: replace __get_free_page() with kmalloc()
+4e7aa78d607499bba855b22ce9338e674e10921a mm: mincore: remove xa_is_value() in mincore_swap()
+a33b22a8104292227f8a60dc6c1923215db4ec1f mm: mincore: improve mincore_hugetlb()
+a2f10ad7b04a1afff6a5be6f285b0c303edb8593 mm: mincore: fixup improve mincore_hugetlb()
+e68eb28aa3201ff1a7354e3f8ae944135581c14e mm: mincore: refactor mincore_page()
+a7522f23670970b9e7b336b4d8dd146c8bdf72db mm/huge_memory: remove unused can_split_folio()
+baa7c0ba882e377c9d5ab99881c049f3f57d6997 mm/huge_memory: fold split_folio_to_list_to_order() into split_folio_to_order()
+f109d7d334227d3f2cebd15dd335d4df1815254e mm/damon/core: initialize damos->last_applied
+414c662984fefac19bb0029479303969a7308a72 mm/damon/core-kunit: check region count before testing in split_at()
+aa4a53f8ebb074b1c33c88fdd043672c4146d64f mm/damon/vaddr-kunit: check region count in three_regions test
+106246ee5ff9dd4fa83c25e66c783603e279188a mm/damon/core-kunit: handle region split failure in filter_out()
+945c9e397141300aa6e349d78b130d416a2ff6d8 mm/damon/core-kunit: skip wrong dest walk in commit_dests_for()
+cd1ab8f5b27a95b4c989d727f962b9f3b76d8221 mm/damon/core-kunit: skip wrong quota goal walk in commit_quota_goals()
+1c83e6ea681aec16ed750d2479012af7cf6735b9 mm/damon/core-kunit: skip wrong region walk in commit_target_regions()
+f9bbe8e1de73054fa6418e302199ebed139a9e26 mm/damon/ops-common: remove redundant local variable in damon_migrate_folio_list()
+d21a647782d9203c7fd0ab45cd8caefdd81da2c3 hugetlbfs: release subpool on fill_super failure
+4187be95b721ab8529d390fc0673baa032fc4014 mm/damon/ops-common: use nr_accesses moving sum for quota score
+90429895ab7251196e925a13941fb2cfb01771b8 mm/damon/core: handle region split failure in apply_min_nr_regions()
+0d7d1bc02ad9bfddf2056135f95bf0ea83d60487 docs/mm: Physical Memory: remove deferred_split_queue
+0eeddc632c98243724125740151693e100b138da fs: stable_page_flags(): use BIT_ULL() for KPF flags
+4aff9195b1f6c7409be7202502941a47a012dd46 fs: stable_page_flags(): use folio_test_*() helpers
+ea4d8c81005ebdcfa37fa8e327c47ecb9c76eb38 fs: stable_page_flags(): simplify KPF_IDLE handling
+e00a8c5bdf7c1f6e478d7a3c62bf76a8ae8f7ffa hugetlb: make hugepage_put_subpool() tolerate NULL
+1f0bf5cccd48d26109ecf20a0b483d3960d638ce mm/memory: move pte_install_uffd_wp_if_needed() into memory.c
+4f38fbf0adabb6ecf5eb1771d6c13383ea764ea6 mm/memory: batch set uffd-wp markers during zapping
+e38a8a0065ec96fe626868c5855d2e7b2941645f mm/rmap: batch unmap file folios belonging to uffd-wp VMAs
+1c3413d1c787d6755b8dc53443b617092895789f selftests/mm: use MAP_FAILED for mmap error check
+a6c14cab950900f3d562b6da0da8001315a7320a selftests/mm/pagemap_ioctl: fix missing NULL checks after calloc()
+47a6f43a3eac4e0efcf8b430ba4a43f54d2c5687 mm/early_ioremap: clarify early_ioremap_reset() semantics
+04a4c4d9acbe7964998c0e061caccdd1577c57be riscv: remove unused __late_set_fixmap() and __late_clear_fixmap()
+3aa8d4f9a110f75faf962bea1443a886257509e6 arm64: remove early_ioremap_reset() call and __late_* macros
+27a2be326e03ba3e61d1a0544fa9b22bb9a4aa98 mm/damon: update outdated comment about DAMOS filter handling
+62542a0dfe4fec0d3bef52c1ccb1b098a9c1fcb8 mm/damon/ops-common: prevent migration fallback to non-target nodes
+ce5ed5293fa893fc04ada3439a13ecc9443cb1ce mm/damon: remove trailing semicolons after function definitions
+95bd96fbbac4bb6c866eb8ff12780e35611d5e98 hugetlb: evaluate subpool free state while locked
+796e27c68d9a7abfc8a068e82cdff4bccc79b057 mm: page_alloc: __GFP_FS lockdep annotation for direct compaction
+ad9dd26df6dca7f8e1437c4c709618d6ca4f2fe3 mm: compaction: support non-movable compaction for pageblock requests
+a0e36da0f563badd3efc8e444e71cf512fb8fba9 mm: page_alloc: move capture_control to the page allocator
+6ec7d98407a41e1c4544f9db09a61eb18b585642 mm: page_alloc: fix non-movable reclaim storm in defrag_mode
+b83a5574a9dc7101696c98927784dc4258ec4dc7 mm-page_alloc-fix-non-movable-reclaim-storm-in-defrag_mode-fix
+9a060e40cb40c7b8bb722fd535a26c36a5cb3406 selftests/mm: fix gup_longterm EINVAL error message
+3eba8f54992526bd9723af5482b329dc7e6d911d zram: move lockmap to be per-zram instead per table
+a535392e59f2ef406efee81b705b83e72282016a zram: use a custom key for each zram object
+6f2fec66651e63a18624b123017f292b3ea9c51f mm/migrate: report RCU-tasks quiescent states in migrate_pages_batch()
+f24aed36e2a103b91b69d47ac3979a4bd707a0a5 mm: fold userfaultfd_rwp() to false without CONFIG_ARCH_HAS_PTE_PROTNONE
+f8644a23ca4b2bd47c3837cee7fecead9f31ceb1 ksm: stop iterating VMAs when ksm_test_exit returns true
+ef79db5e6d2f2b927b2c99d257d3e40da2c48bd0 Documentation: zram: remove sections numbering
+f92fbb995665f86b2ce0c9bb513dc8ce68cd656f mm/zsmalloc: fix release order of locks in zs_page_migrate()
+45bd089d8e211e1cff3f62707893f631e9669757 mm/khugepaged: replace mutex_lock/mutex_unlock usage with guard macro
+25f6392ba7f29464244f4af71966c9fcd8549e66 mm/shmem: downgrade final i_blocks check in shmem_evict_inode() to pr_warn()
+72259e02ac0d0e54071aed4ad0caa22d2ca2e1f7 mm-shmem-downgrade-final-i_blocks-check-in-shmem_evict_inode-to-pr_warn-fix
+8b0be09af8a5c5c3f9933ac1ffec3c1a30f4cd7e selftests/mm: unpoison pages in memory-failure teardown
+b359be8e16155b762879fc1d40fe85528a6829bf mm/userfaultfd: clear uffd-wp PTE state when re-registering without WP
+ea5ef8cc711e2243439337209dbb8ddac2eee837 mm: mempolicy: fix automatic numa balancing for shmem
+52a6d473e254e81d68f7cd1a5bf2714b91e12580 maple_tree: add rcu locking check when LOCKDEP is enabled
+33d848a4208fd38654586d74a121a5c9cb818270 locking/lockdep: add sequence counter to held_lock
+785da24e631c9b0141c4c869f4661b4152270cf7 maple_tree: add write lock checking with lockdep sequence numbers
+f1bed86118178d2ec0537bf49834f588b35d6447 maple_tree-stop-flooding-logs-when-debug_locks-is-set-to-zero-fix
+fb63c949fba5f9bbe9b325082a9fe7bb50cead0e maple_tree: documentation fix
+af14cafeb540bfae03e15e73071eea5855a30d3c maple_tree: drop dead code from mas_extend_spanning_null()
+bd01773f95c2f8ce7c7a2ac0cbe0f52fd15d9ce5 maple_tree: drop MAPLE_ALLOC_SLOTS
+2ed37618aabd3204d0f9465acdacd83ed2504568 maple_tree: clarify comments on mas_nomem()
+6a7c7d1c3db2cf81693445b59e21d74da015e7c0 maple_tree: use prefetched value in mas_wr_store_type()
+d5ff54b1e6e59df68088c42d9a35d7948ac167d9 maple_tree: optimise mas_wr_node_store() when not in rcu mode
+6810a43ed63f69736b6af85710f2880bab54cf27 maple_tree: micro optimisation of mas_wr_store_type()
+006e676ad4f368c6f2c066e3d016af0c8d8dfa96 maple_tree: add bulk parent set helper
+bf22db27830ca40fd12f97e45155ff4d2b10346f maple_tree: catch race in mas_alloc_cyclic()
+5056c3194f0a36c3b417ddb47041ebca39277306 maple_tree: document that erase may use GFP_KERNEL for allocations
+dfa5e3f625dd90d17696f356653faa0d5c92cf77 maple_tree: WARN_ON_ONCE when allocations fail
+c111b5b66fb3c644257660c2a683b7698c61a496 maple_tree: document erase and allocations better
+e38035bffd3b02f0270842260de27f852a5300fe maple_tree: change two GFP flags in tests
+2dba48c335bbf9bef1d472e293574f0ceb6d16a3 maple_tree: fix argument name in header
+5a4323adf4d275919effee6e9aa87e2cbdd1746c maple_tree: avoid extra gap calculation
+bfa37987664bee970ec1842bd2d488f3a51bfd69 maple_tree: add helper mas_make_walkable()
+816bed69bc68a726ffcd3da4e5ed13e621e15da7 mm/zswap: use ratelimited stats flush in zswap_shrinker_count()
+95516576afdae53b61083b5cfd8ca40a81dc0ed0 radix-tree: fix kmemleak false positives on tree head reassignment
+5f6a4cd033fd5433bcfed7f4fb10d419eae89745 mm: nommu: point to the write iterator upon split_vma
+03613cb1df212b5c60ae3dbcedcd83d445a5712f maple_tree: remove undocumented CONFIG_MAPLE_RCU_DISABLED macro
+3a2b68831e9ce3788d7f32f04fdb8240a3253222 mm/kconfig: drop redundant memory hotplug dependencies
+775fa8e6d60f3230104ddc6fa14743d0d1888de8 mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
+bc3da70ba4d94fd7d2ebfff9f495ef69657e9ea1 alloc_tag: add ioctl to /proc/allocinfo
+5a1ff308f46d07096a4ba977099c225e8bd97430 alloc_tag-add-ioctl-to-proc-allocinfo-fix
+7b85185da5cc59aeec0628de3d1a0350159a5f41 alloc_tag: add ioctl filters to /proc/allocinfo
+7519f05eed6d63bdb9173d5ef8ee0b41c1acd622 alloc_tag: add size-based filtering to ioctl
+b011dfc9f8d63794072b9760343877bbdef7e0a2 alloc_tag: add accuracy based filtering to ioctl
+359316c5044534ff1daa2a7856745bddb15d2f15 kselftest: alloc_tag: add kselftest for ioctl interface
+caba89f72ba4584514a328b63265ab57aeb1dc07 kselftest: alloc_tag: extend the allocinfo ioctl kselftest
+dfddf95d5ee92c27b92d3aa881aca8f73b441e13 arm64/hugetlb: extend batching of multiple CONT_PTE in a single PTE setup
+8f733a622482cc2a3180a6f75a48010c55871b4b arm64/vmalloc: allow arch_vmap_pte_range_map_size to batch multiple CONT_PTE
+5bb41ac4c85a6cda552aaa4fa5fed08ef8e193d3 mm/vmalloc: extract vmap_set_ptes() to consolidate PTE mapping logic
+5312e7d4742729a186b9d92d0a8b13c1454369ad mm/vmalloc: extend page table walk to support larger page_shift sizes and eliminate page table rewalk
+5b1ae68f52f50e13cd0ede515e3250ba9ce3c09d mm/vmalloc: extract vm_shift() to consolidate mapping shift selection
+0fbf88ab3fae4684ffc777731af00980ff33da85 mm/vmalloc: map contiguous pages in batches for vmap() if possible
+be1ce6e2f3f6e0ed4253288629553804bbef43f9 mm/vmalloc: simplify vmap batching helper and limit scan by PFN alignment
+f47eb7b20e6ff04a8b0c2f976d4dfa4f7be006f7 mm/vmalloc: align vm_area so vmap() can batch mappings
+ea4b26f64c15506ffa52037269423e7e67177b9b mm: standardize printing for pgtable entries
+9db7b87579ee790ad83430f5ed2d61209c1aa1ff shmem: provide a shmem_write_folio wrapper
+259df813f94eb945c95111a80d2263fc63eb0636 mm/swap: introduce struct swap_io_ctx
+86e77b5f589a4607cf4662320d154b4e4854cd0c mm/swap: also use struct swap_iocb for block I/O
+117ba8901b87cacff5681596a8a0321594447e30 mm/swap: remove count_swpout_vm_event
+d6d968e052c50e10f4943121fbf90fdbdcb13cb5 mm/swap: use swap_ops to register swap device's methods
+f35525f8f17a7a062879519dee0f9215c9ce55fe mm/swap: remove SWP_FS_OPS
+92ec24f422613329982f5e4c9ec23ef5752c3464 mm/vmstat: add NRSWP{IN,OUT} counters
+7207fe1fa18ac90aabb3dc1c8635298b1d7eb82b mm/kconfig: drop redundant dependency wrappers
+4fa1814a50327ba9751b730c06e42690d188ebcb mm/swap: fix swap_cluster_lock() !CONFIG_SWAP stub signature mismatch
+a9f066530b2e82c44309c7213dc01a6125f0dfa4 mm/vma: introduce VMA virtual page offset field and add helpers
+cb4fcbd74b61fb4d85de11ee4ae130acc13fc19f mm: introduce linear_virt_page_index()
+da6b8abb1fec4923018fc62fffcc294cd2db2b36 mm: abstract vma_address() and introduce vma_anon_address()
+ef58a4799751381346dde0503bff5d9e53a34518 mm: update print_bad_page_map() to show virtual page index
+b9910d74e735e5aec8a3e2e972bc97cf5c57238b mm: introduce and use vma_filebacked_address()
+6e2fadc09035352994c388d9c908f5087c3428e7 mm: propagate VMA virtual page offset on map, remap, split + merge
+1c3d13626bbdf2d7bcd93960545ab364c0195cf7 mm/rmap: track whether the page VMA mapped walk is anonymous
+30786243303c267097150921f9ac9d962f502ec8 mm: introduce and use linear_folio_page_index()
+697fe2519109748020e52f4b9d4f0e7088ddc0b3 mm/rmap: use virt pgoff for MAP_PRIVATE file-backed anon folios
+c90f492d4c2fd55811b55d1fc5b1c51892506c69 tools/testing/vma: expand VMA merge tests to assert virt pgoff
+8c95e3247825fc4815654dba1f504cfcf95eded2 tools/testing/selftests/mm: test virtual page offset merge behaviour
+6ce85f42773cb422eea130db01191c5eabb48ad3 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
+d2e78dd6517fdfd01e85ac62e9203c3931970302 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
+6d3a42ed5c67f1cb3b3d7a60e6bbb1c8db0c9b97 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
+6623b9e3626575471d4ba329b116da2de483aa86 tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
+b7f7ebc7e1acb0c22197d456c36197aea2781d99 mm/kmemleak: report RCU-tasks quiescent states during the scan
+f49ed3614309722c9c989276fde75e4023d84286 mm: vmscan: convert folio_referenced() to use vma_flags_t
+999125b48d09f3cba13ee801d5a34a9230ae5c71 mm: vmscan: add a helper to identify file-backed executable folios
+cb5b7a618e965e5643afe6065ff932030e37081e mm: mglru: promote mapped executable folios after first usage
+907156c25c319008bcb0ccfe4a73a35680bdfb5e selftests/mm: transhuge-stress: check duration inside page loop
+90d72b0ccddf1dded315339746c9a26fc159f0f6 memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h
+b5b7645798185e761c3723f5ad62de6c876a38b1 mm: vmscan: fix node reclaim ignoring swappiness parameter
+b97e15d2604287cd22b9b7c71fad439d865c9b02 mm/vmstat, mm/memcontrol: add _monotonic vmstat readers
+ba0ce6e2174787a5e0f7cd4fbabccf1d8576deb0 mm/vmscan: reduce lru_lock contention via vmstat-derived scan-balance cost
+85965a9a14183fd5400e009bdd8fcba446020b55 mm/hugetlb_cma: support percentage-based hugetlb_cma reservation
+b5acd8b4ac0a27469ae6ae8d1ffcb00ece5ea120 zram: set default primary compressor in zram_destroy_comps()
+e0ff52d6581f0bfdb52cda2ceff8c7552959a450 zram: validate deflate params
+489af0c1d89ce546142a1d777190955c63084954 mm: memcg: stop reclaim when a limit update is superseded
+d07020e5ee6eb4ab986fc2698ebf6f6966b2bd08 Documentation: zram: correct algo parameters configuration documentation
+73a9f78e246fdd132aab8ecc59a1935db9bb9bf5 mm/page_alloc: boost watermarks on atomic allocation failure
+a8d7723b5cb67a95f97a4bdbe5ee3718dd3cbcd7 memcg: bypass the reclaim and oom killer for dying tasks once oom_reaper is done
+d2b885e83bd7a129fa5d42039018b52b7b5e7c11 mm: use proper PTE accessor in move_ptes()
+1b2f9f80b3e3d301a893e8b38e28be453c0ae003 hugetlb: only adjust reservation during unmapping if mapcount is 0
+598925d6ecc863b64a294824d8c60c1e290524f6 mm/page_reporting: add page_reporting_delay_ms module parameter
+4785177329eafc9db29e5b978bf9be98728e83e3 sh: remove CONFIG_NUMA and related configuration options
+f102f3b9a43777580d7b5f83b2ec1fa3cd4ff1ce sh: mm: remove numa.c
+34c7478058c7937a74c502036e3c4c1fe480c98a sh: mm: drop allocate_pgdat()
+c4844f649a07c45d08a8d781d2714df7de8219cc sh: remove setup_bootmem_node() and plat_mem_setup()
+994ce49d738d744b5e2d2ceea7a4f07f5b9adac2 sh: drop dead code guarded by #ifdef CONFIG_NUMA
+249c81b78fec1fd9d8b01690cab00515804c1bf0 sh: drop include/asm/mmzone.h
+d678c571a663d05f850b40f591072a265a2b96db init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+569f7745146cd0e9c32cfde654d12eebe42e0501 sh: init: remove call the memblock_set_node()
+99bae1445a646bdc09f37ca73b2a137baae423f7 sh: remove SPARSEMEM related entries from Kconfig
+e0b40ee41206125a7e2791e8ecf9795b63ff6746 sh: drop include/asm/sparsemem.h
+b53ace219ef96372a421fe0a69212f0a927eefea mm/sparse: correct init section annotations
+5e9b8e95ce74d76044531a9290f9b5acb7af10ee mm: zswap: drop list_lru param from zswap_lru_add() and _del()
+ef7e672a0288f2cfcb89f18321a38b58d5918351 mm/migrate_device: clear stale mapping after freeing swapcache
+37f2f627ba0fd6b417abca09a600ce4d7000cdf3 mm: shmem: reject page-aligned fallocate end overflow
+c79d41d56b200924bf2fd61210c82c192fe230ba mm/huge_memory: use folio's memcg inside __folio_split()
+85f7209b4939e3b4f6251ba5d809b9ac7cb5513d xarray: honor XA_FLAGS_ACCOUNT in xas_split_alloc()
+2d345a8f66d7be270fbb1e34aff0d264e3c2107e mm/gup: fix always draining LRU caches in collect_longterm_unpinnable_folios()
+58b9dd0eb990f8f359b3d2ea944b69b51c102b0e mm/vmalloc: make vm_struct.nr_pages an unsigned long
+40da27bff9581638f2769087090f724b871fa2e1 mm/swap: reject swapon() on filesystem-level encrypted files
+856becec8b7075df01315c31c5b3a03a2619c0df mm/page_alloc: only update lowmem_reserve_ratio on sysctl write
+026b51de4bd506f9ab1ce4c6dd29a71e53f0a34a mm-page_alloc-only-update-lowmem_reserve_ratio-on-sysctl-write-fix
+53c0a8be17f98ae786da009636d355e51cfc5412 tmpfs/ramfs: let memfd_create() work on nommu
+8870ee49fd0476bc2e2440587c511ac49c84e4aa riscv: mm: exclude invalid THP PMDs from page table check
+486855239e38a91d3eae26618ccb7845c1764625 riscv: mm: fix concurrency in mark_new_valid_map()
+823598afcce43f69fdac7c51ecd5f699abc2d8db mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
+96422fa0945a6a76c3fe38015ba0be2e364d3688 selftests/cgroup: test_zswap: skip test_no_kmem_bypass if debugfs is unavailable
+6ee017fbe59045965c8410096d86429f01a41671 mm/ksm: avoid missing ksmd wakeups in ksm_enter
+27fa850fe465cdb7508054f18799ea1457ea7a2e mm: kmemleak: default min_unref_scans to 2 for verbose auto-scan
+10fae132fac8e29a95edb00e7fe4e82439ba4b03 Documentation: kmemleak: document the conditional min_unref_scans default
+d8929d5791a1c223a40564b6bc48c02f88379ec1 selftests/mm: kmemleak: drop stale min_unref_scans default from comments
+3418d78585b8aa5c37c49004c820018b0e9aabf5 mm/memory-failure: fix refcount leak on soft-offline LBS folio
+48bcab0cd6acf9e02e7dbd5d972c7e99c7565d61 selftests/mm: rename local_config.h to local_config.h_gen
+e051bf0188c9ae10e822a532aac5821c2cc0632a selftests/mm: use pattern matching in .gitignore
+45f76c244a3740c1c5601ea0c8093b62037244fd mm: use a folio in the softleaf_is_device_private path
+f22e6b434f3c63e471c4367d532616efa22bad8a selftests/mm: read memory information without popen
+7f7d0f7ce836a7cf39a4733dfbe2490a40b029ff mm/vmalloc: do not warn on -ENOMEM from va_alloc()
+39048ef975b842896e54308eaf1deb4f224aebde mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
+881e58a70e5fbd9d66d9e435a36ace82c291cf4b mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
+e47602c51d20a93fa1711ed896dc9480de4374d9 mm/swap, PM: hibernate: atomically replace hibernation pin
+580258a19284fce98de9013baa81633ab9d93515 mm/slab: introduce slab_obj_ext_has_codetag()
+c4ec6cb55750c80fc3d43b310eb7ccab33df3dcd mm/slab: reduce slabobj_ext memory with allocation profiling disabled
+acc6fdade62c11d822f7b73f16092ebd365fc1c2 mm/slab: introduce struct kvfree_rcu_head for kvfree_rcu batching
+3bc999d944b35dead1755b2bde1911cd5892225e mm/slab: introduce kfree_rcu_nolock()
+7df60eeb6736013ee1555a19e261a7d14e84f250 slub_kunit: extend the test for kfree_rcu_nolock()
+648294a02bfcd0eddae51877e3b30f8bbb2d4bb6 mm/slab: stop exporting kvfree_rcu_barrier[_on_cache]()
+7def2e8549e5186cd4de97ab5ce56f7944d3da59 mm/slab: add cache_ and slab_needs_objcg() helpers
+d4404b0f5b8b0ff4656d018a0ddfafdbd78879e2 mm/slab: stop allocating objcg pointers when unnecessary
+a6172cca157f3f50c9744a8b9b563f8b14371ed9 mm/slab, kfence, memcg: completely remove obj_ext for kfence objects
+2666b0cb7a6dcd778efc07f05ac58afbae998f5e Merge branch 'slab/for-7.3/objext_split' into slab/for-next
+e7f630142df2afccce90555e4972e60008222311 Merge branch 'slab/for-7.3/kfree_rcu_nolock' into slab/for-next
+0ae579d916ade97a30715b98c4916b167ea159a3 Merge https://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git fixes into for-next-fixes
+0d0a5ba1a6b2652522597218a9060681ad72006c Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
+3276f4aa51660b464da9b23445800391953c265c Merge https://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab.git slab/for-next into for-next
+026e70c215d815b879c28094839005deb393215e Merge https://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git for-next into for-next
+93f78478d5ff35ccadb8e914fd35056408a98acc Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-unstable into for-next
+9e5a7da176b46f312ff899baeb736a49f3e61acb Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-new into for-test
+
+--===============4785522265327442595==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-075b74841bd0-848acc8ffe1b.txt
+
+fadeedd7cfc5d73d33fa3d7ac54b9b27aabd09d2 sched/psi: Create the psimon kthread outside of cgroup_mutex
+5457025fa8ca3c0d2732109513de839e3e797190 sched/psi: Shut down rtpoll_timer in psi_cgroup_free()
+477869bfafea65492d23de62c1b5208147c09dd2 sched_ext: Reject setting disallow from init_task outside the enable path
+5f8b69642d18e1f3e11996707842ac530444e959 sched_ext: Take cgroup_lock() first in scx_cgroup_lock()
+8c13364db9c9a43ed286f3a8d0fb9477b1adc43c sched_ext: Skip sub-disable teardown for never-linked sub-schedulers
+5cdc928598095b2c7d5f265e5f21eadd1634bfbe sched_ext: Don't enable non-ext tasks in the sub-sched task loops
+9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
+d4a00d61a5c2c24973175ace5368d1f6acf9bb0a selftests/sched_ext: Handle sleeping task affinity changes in numa test
+797fe91e50d6927f90f0c3b4444277c2c7c8b42b kho: align kho_scratch to MAX_ORDER_NR_PAGES pages
+cf6c993c0feca7984797e634deba3c80342e199a fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+d2f96bcb89d36d488a10e3bcf819b98536968286 fs,fsverity: remove check for fsverity being enabled in setattr_prepare()
+2fd9b4cfcefe30cb506072f78f2cd3b6dc8a29b1 Docs/admin-guide/cgroup-v2: document io.latency rotational vs non-rotational behavior
+35e66f03de8f5343825adfc21bcaec4a99d3d4c2 Merge tag 'cgroup-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+be76b516e681e5a620877bd3d0e1251b2ab38366 Merge tag 'sched_ext-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+c8e0d43058e6aaaf198e418a1d28a8da6e2dda69 Merge tag 'liveupdate-fixes-2026-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+2e718c88315af1c0a04fd9c295d605944a7949af Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+848acc8ffe1b7cd5f1bf427b93069becfebc2c9d Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+
+--===============4785522265327442595==--
