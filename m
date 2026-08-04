@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Tue, 04 Aug 2026 19:30:13 -0000
-Message-Id: <178587181382.3983787.1201400062148522217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Tue, 04 Aug 2026 19:33:33 -0000
+Message-Id: <178587201381.3985306.12102807504125582742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/tags/kbuild-next-unstable-2026-08-04.2
-    old: 0000000000000000000000000000000000000000
-    new: 3f3810a66c969ed034eb9436cbb0ecad9660cde4
+  - ref: refs/heads/kbuild-for-next
+    old: d861c735d9480643d3131a7f3e4a1fca1dabc611
+    new: 40b2656b9400a400352f2a5228ad114a0c5f2c40
+    log: |
+         40b2656b9400a400352f2a5228ad114a0c5f2c40 MAINTAINERS: add Julian Braha as Kconfig reviewer
+         
+  - ref: refs/heads/kbuild-next-unstable
+    old: d861c735d9480643d3131a7f3e4a1fca1dabc611
+    new: 40b2656b9400a400352f2a5228ad114a0c5f2c40
+    log: |
+         40b2656b9400a400352f2a5228ad114a0c5f2c40 MAINTAINERS: add Julian Braha as Kconfig reviewer
+         
