@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 04 Aug 2026 12:32:40 -0000
-Message-Id: <178584676039.3638090.14399435340549404744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
+Date: Tue, 04 Aug 2026 12:46:15 -0000
+Message-Id: <178584757561.3648313.10152725219496983287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/nsc/kbuild
+user: nsc
 changes:
-  - ref: refs/heads/for-next
-    old: ab9a157cf155f8ed635144c495b94ace41ba4fcd
-    new: 6ffb94d1d21c927b2a6d7fcc5faba39794e6725b
-    log: |
-         36c3ea84289913d16dd2ed783534193c957055b9 regulator: dt-bindings: ti,pbias-omap: Convert to DT schema
-         6ffb94d1d21c927b2a6d7fcc5faba39794e6725b Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
-         
+  - ref: refs/tags/sent/20260802-kconfig-warn-on-dead-select-for-choice-value-bd71a1de1a96-v1
+    old: 0000000000000000000000000000000000000000
+    new: dab7992614c31e4dd648f98da79d9397d88ca3d5
