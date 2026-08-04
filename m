@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5509293198862749714=="
+Content-Type: multipart/mixed; boundary="===============2178306772191619996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Tue, 04 Aug 2026 06:54:54 -0000
-Message-Id: <178582649433.3387720.3580595766524776588@gitolite.kernel.org>
+Date: Tue, 04 Aug 2026 06:57:11 -0000
+Message-Id: <178582663124.3390956.16349901324462598374@gitolite.kernel.org>
 
---===============5509293198862749714==
+--===============2178306772191619996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/liveupdate/linux
 user: rppt
 changes:
-  - ref: refs/heads/kho-scratch
-    old: 6106b1bc175dc91cc2f584bc4149411809580bc9
-    new: bc0f793c5c41601b273a2ca64c768adca1d447f5
-    log: revlist-6106b1bc175d-bc0f793c5c41.txt
+  - ref: refs/heads/next
+    old: 5ab8d80d42bd2bd95865bd7b94790bd9c8d1450e
+    new: dac05265332eb6b34caf229b7e308d08639876b0
+    log: revlist-5ab8d80d42bd-dac05265332e.txt
 
---===============5509293198862749714==
+--===============2178306772191619996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6106b1bc175d-bc0f793c5c41.txt
+Content-Disposition: attachment; filename=revlist-5ab8d80d42bd-dac05265332e.txt
 
 770b080b00da8f9b93a7e1e971ba982a807f6b78 kho: generalize radix tree APIs
 23c346727b036d3394b6af487bc7aedbdb9e6b23 kho: make radix max key width more obvious
@@ -47,5 +47,6 @@ ec7c0b1a0d77b65f99353b9f870a82a385406dea kho: expose kho_scratch_overlap() to ke
 c9b7ec87e3b6f96effcaf203d2d8ccf08a89c265 memblock: add memblock_reserved_hugetlb_size()
 fdd843f2be1a639a1f7522388e43283b60f26397 kho: exclude hugetlb memory from scratch size calculation
 bc0f793c5c41601b273a2ca64c768adca1d447f5 Merge patch series "kho: make boot time huge page allocation work nicely with KHO"
+dac05265332eb6b34caf229b7e308d08639876b0 Merge branch 'kho-scratch' into next
 
---===============5509293198862749714==--
+--===============2178306772191619996==--
