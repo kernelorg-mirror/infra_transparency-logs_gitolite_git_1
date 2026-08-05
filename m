@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 05 Aug 2026 02:55:10 -0000
-Message-Id: <178589851005.139092.10666401265328666938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 05 Aug 2026 02:56:56 -0000
+Message-Id: <178589861619.140301.5234532603759405822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: b8d69e7159cc939ab798a4d07d571eb7a40e4178
-    new: 0a789a48cfdfea3e0d850372da813658cba96e58
+  - ref: refs/heads/main
+    old: e7386770be1bf810bcd6af39d1e4bfeab3408430
+    new: 6183a645aaeb17572058a8125a3ac2699ce858bb
     log: |
-         7c717ef45fd0f971979371459757ed297230bf23 dt-bindings: riscv: Add Ssqosid extension description
-         5f94a58f4103c99b93b0064bd8911869ae0dc024 riscv: Detect the Ssqosid extension
-         0a789a48cfdfea3e0d850372da813658cba96e58 riscv: defconfig: thead: enable PCA953X GPIO driver
+         1d0fc6c7ea49994b8ff50d02979d1e4207ec6c4f bnxt_en: Move RSS table fill outside __bnxt_hwrm_vnic_set_rss()
+         53f01cd594e223aabb538d5288e60111523c96f2 bnxt_en: Determine and store default RX ring in vnic structure
+         0b137529a8997caf67190ca1d71ba8bbdb44fbfb bnxt_en: Refresh VNIC default ring on queue restart if needed
+         c3faf548a00f4c17100cc9204746975fa46a73b9 bnxt_en: Disable EOP for TPA on all chips to prevent data corruption
+         80eaf88efec33ac77ed7726d066c4f2f932cc329 bnxt_en: Fix PTP PPS setting bug
+         6183a645aaeb17572058a8125a3ac2699ce858bb Merge branch 'bnxt_en-bug-fixes'
          
