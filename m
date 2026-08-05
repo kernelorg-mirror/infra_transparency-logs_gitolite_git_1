@@ -1,62 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============0491742653309607572=="
+Content-Type: multipart/mixed; boundary="===============5700685882183269431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 05 Aug 2026 08:50:37 -0000
-Message-Id: <178591983749.396320.4397551624507604374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 05 Aug 2026 08:51:39 -0000
+Message-Id: <178591989902.397128.3823480809843628586@gitolite.kernel.org>
 
---===============0491742653309607572==
+--===============5700685882183269431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
-    old: 0aed135ea22a5037e3bc32f183772329fe15c73c
-    new: 29c5a5355ba6c573b9ab8d6be03e96cc5890ce1d
-    log: revlist-0aed135ea22a-29c5a5355ba6.txt
+  - ref: refs/heads/master
+    old: da0226b96ef2699bcfd6bc28a5cb9c4d1aa79460
+    new: 4c1d08707b0595b411d686edc38d2cf92d583a51
+    log: |
+         e851c86428f3f3457ca88135b849f578b77bac44 cve_utils: add CVSS rationale parsing and .cvss file handling
+         45e5b846a7cff71a057d55c78f4fb85a2f924b26 bippy: publish the CVSS rationale as metrics[].scenarios
+         14c48b830ebdcc120422ec98b599594b07fd1aaf cvss: add --rationale and --check
+         91595ab26a77e7ee3294c67dc0ebf6196ddb5734 cve: document the .cvss file format
+         08443967822619e32235a058ef74ae0a8758c6c5 cvss: add a one-shot rationale backfill tool
+         756f6da54a4ca1a57cca630ba1efc9635a20c32a cve: move CVSS rationale from commit messages into .cvss files
+         d24a4edd69532b2a8e24b626daf9ae346c99a31b CVE-2026-63944: Restore the CVSS rationale
+         23b423d2d896e454ca3f28f516b7529882632f72 Merge branch 'sasha-cvss-schema' into master
+         33aae5da5ce8229e854e117a2602b358c7b7650a update 2019 CVE entries with new cvss info
+         fcc70da492d122e2a63e222187caa063e417f78a update 2020 CVE entries with cvss info
+         4c1d08707b0595b411d686edc38d2cf92d583a51 update 2021 CVE json records
+         
 
---===============0491742653309607572==
+--===============5700685882183269431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0aed135ea22a-29c5a5355ba6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-680e0718b9f0b9f3067b2c3947088c2878f55442 sched_ext: Fix stale @cgroup_id in sched_ext_ops kernel-doc
-c5b9316cf3d5371d53022352c7c9d248e14b801f sched_ext: Set errno on ENABLING -> ENABLED transition failure
-ba190ed3f47f0e177e4be525d4a6330bd2fbd1f1 sched_ext: Initialize idle masks as busy
-12da4723b679374ed914dc79f1c33faae212811a selftests/sched_ext: Make allowed_cpus idle validation race-free
-8b3b8522c9139c18b8dbbafbeb0c903609e5a27d sched_ext: Rename scx_local_or_reject_dsq() to scx_resolve_local_dsq()
-2d091012a41ad3e29ca66afd3c6a160e485ba8ac sched_ext: Make several ext.c helpers available outside ext.c
-f82b16b8e8f91e973e7c4ca4f6ac84b6385e48eb sched_ext: Factor out __scx_bpf_now()
-1fd50778b18d44095adfe5dab2f2a84fcc0fb7a4 sched_ext: Reject internal enq_flags in the dsq move kfuncs
-78f8d726e62e0b72a4b11e5778d2d7e252b076c0 sched_ext: Make SCX_ENQ_IGNORE_CAPS waive the preemption cap too
-13f1eae3b66257625f865babd4fb7c251c8c981e sched_ext: Synchronize slice and dsq_vtime writes
-9cfc6ab34a3184b3683d27dcccc5c05bede41c37 sched_ext: Add SCX_TASK_PROTECTED
-5fd501744b10814f5c12899ce86d223cee2c51ca sched_ext: Add bandwidth-limited rescue execution for stranded tasks
-bb70e4fb626b70895b7917ee97c256f24d019c34 sched_ext: Eject the top rescue consumer on overload
-1f15b9a9495a1439bebba1f2ebae3000057a8323 sched_ext: Sync tools autogen enum headers
-62069801861973fb90b15049dbab7544f927f216 sched_ext: scx_qmap - Idle-check pinned tasks before direct dispatch
-e158e309cd90249a90cc84e6d29e46a3d5551b7b sched_ext: scx_qmap - Add rescue support
-7ad51b16fd228fff3c9e234d9c245ba30dedb6db sched: Reject policy changes with SCHED_FLAG_KEEP_PARAMS
-d7062db1ec57174a07e07197e07223780d51e93e sched: Make NOHZ CFS bandwidth checks follow proxy donor
-2f76703ad66afb2e21f6771d685619c757d6028e sched/core: Avoid false migration warning for proxy donors
-1b2b99599b3e19fdf46fa6bf59e06e55e3fdc573 sched: Add prepare_switch() class callback
-3c7b1a7d13900ad37c46fc819cbafe9bf4052958 sched: Add helper to block retained proxy donors
-609661b350d99d30e18c80794975fb944008d20b sched: Add sched_ext hooks for proxy execution
-a6e9ae420ec9235b7c6eb43a284edbd32c5fabd9 sched_ext: Block proxy donors across scheduler transitions
-894d0e6f217b89a86df0a1081c7c4f5830a9e788 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-a18aec6f77164ce7d4adbbd8a0b59de9edb295b6 sched_ext: Move reject DSQ draining into core
-4419643392218e75af3da16bfb5c92a9c979256c sched_ext: Generalize the reject DSQ reenqueue path
-736a59b75c1eed5546ad4c79f4ed40fb2ef90e83 sched_ext: Handle proxy-exec races in remote DSQ transfers
-f008bef624e4f3acc6425213d326f77d56c5ea92 sched_ext: Split curr|donor references properly
-3965372ff6c002eae7e5b18d72db9aa42c9cb1b8 sched_ext: Delegate proxy donor admission to BPF schedulers
-9106c8f536c38714d70a00f4fdb5899a77e45e35 sched_ext: Add selftest for blocked donor admission
-1761dc1d857f62c51f37ea7bb30f518cd68a0fcf sched_ext: scx_qmap: Add proxy execution support
-29c5a5355ba6c573b9ab8d6be03e96cc5890ce1d sched: Allow enabling proxy exec with sched_ext
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785919880 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1785919895-b09cf60509202f675f8e5ecfbd8a2e51f5fa7d15
 
---===============0491742653309607572==--
+da0226b96ef2699bcfd6bc28a5cb9c4d1aa79460 4c1d08707b0595b411d686edc38d2cf92d583a51 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpy+YkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oz8P/3Z9hyyDiISToO/XOpYZ
+rhA9bRcCjW57mpTqt0Z4XXSE6ZdzP8SZ+/yQra+gsGpeoLXF0bs7tNT+y+Ot5ixW
+v/1fpVeCh72Ad2UWZGmZTQIVQNT3BMtwBrUL4Ll3DGUtViDYasVEJkwW/sE2O4wJ
+6jmbKWFDX08TVdLCBaa9IvbPwi+jGXNHnUwelwfoHn7Zt1Hh+F6us2+uEcCGgken
+7v/MyJMPv7Z1e+SgeQT+0O90fqVtH+fWJnQXXwlGrxrx2v81G+psikHfdNJDEvMe
+5EJaxSEXHH/4HHUEd6r7g5EqQWQmZlnif0AjAYNrlNsm/v2JrwzLS++me67ZFSPt
+XWbhNQKXT5mcBhd609YlNSDjuPYeVNBtFgzlnOcFWX5fM6OlOyDPTU7nTcZbSWld
+Yuu43vo51OONiqthZXT+HLQCu17v+DCumEsloDVRmp7f+PPtfBnNGF2mIVavikuI
+/Ur7vJl8cQzZA+dbs438LjStsMcoTgS4dWMz+w7AS75f9Dgfp80kyv/tdI0a3m6E
+qm+LK9HfZz+m+ntCRtEJAO7JVaSnIarEmn4wF/sj/OvozHFrmOv3vs0otXfL0zDw
+xw07GMRFZZnkHyGp4P8bPfMGNsM+fIGUJw6EhIakKgcyitsjhR1oZt5YuI2TnsL9
+35qgzaQT/NOcqFgZX0HQPrZz
+=eMvs
+-----END PGP SIGNATURE-----
+
+--===============5700685882183269431==--
