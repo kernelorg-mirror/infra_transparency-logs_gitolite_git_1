@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 05 Aug 2026 15:05:55 -0000
-Message-Id: <178594235534.863158.7846153229683720936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 05 Aug 2026 15:09:21 -0000
+Message-Id: <178594256101.864318.7251748311374067889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: a52eeff32024f190b3bdc99088c7becccd4fa60b
-    new: 961ac0f0c5e414abdd6b33fae84b311d9fde0bd0
+  - ref: refs/bugs/40117f89e6331723420c14a43029a60ca8923c2501220db81683f88194f96cf1
+    old: 2833ec76125c5ce955035d66ee0e484d6b100e43
+    new: d4751060e00136166ab759fca9781c579cb5bf53
     log: |
-         961ac0f0c5e414abdd6b33fae84b311d9fde0bd0 RDMA/srp: fix heap information leak on a truncated SRP_CRED_REQ
+         d4751060e00136166ab759fca9781c579cb5bf53 
          
