@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Wed, 05 Aug 2026 15:34:56 -0000
-Message-Id: <178594409685.884859.11306397342591819980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 05 Aug 2026 15:37:56 -0000
+Message-Id: <178594427662.888328.15437741263873828764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/renesas-r8a78000-dt-binding-defs-tag2
-    old: 0000000000000000000000000000000000000000
-    new: 666d3d4128a425993e628c26ca081e21cda9dc4e
+  - ref: refs/heads/master
+    old: 5ef6ceda8218833e555932fe0d9d9142341a0802
+    new: 642f6d786f3770295bc46ed768b0789241a88cd3
+    log: |
+         100ca517a451ba3bd4e1c4a01d4dd6a4e63c0721 tests: skip TUI wrapper tests when textual is unavailable
+         642f6d786f3770295bc46ed768b0789241a88cd3 deps: refresh lockfile and hashed requirements for 0.16
+         
