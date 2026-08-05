@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 05 Aug 2026 13:47:03 -0000
-Message-Id: <178593762343.801680.13641472911662704332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Wed, 05 Aug 2026 13:53:27 -0000
+Message-Id: <178593800758.807180.14527050745946903084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/arm64/percpu-fixup
-    old: 664440141a07570d6dae2078b3bc2c6f5d02cb13
-    new: 9b6f1bf16751eef9f1d6138a6987788762ee49f4
+  - ref: refs/heads/rust-sync
+    old: 3ed7928f52a370042978c428944be8c2e7eaeada
+    new: 2d9974d8f13de19c6389dac350eb72674aa5d829
     log: |
-         c40997d48905f077744ea62fdc6928a40d74c557 arm64: percpu: Implement preemptible read/write ops
-         783f1a4f6723a7f82b18ead696217690098d6acd arm64: percpu: Implement preemptible void RMW ops
-         609f18f905cf9771542b0656d370e8b263280705 arm64: percpu: Implement preemptible return RMW ops
-         a4d0c35659ff8e930a8b902c11876087f0454024 arm64: percpu: Implement preemptible XCHG ops
-         57928086f91b647f0222afaf58c72a4437170bc9 arm64: percpu: Implement preemptible CMPXCHG ops
-         8543fba8cb1c4063c66380f87a16e1dba25be9e5 arm64: percpu: Implement preemptible CMPXCHG128 ops
-         9b6f1bf16751eef9f1d6138a6987788762ee49f4 arm64: percpu: Remove _pcp_protect*() wrappers
+         065e3bfa65c415bcc420c0e012664693d3fb349f preempt: Introduce HAS_SEPARATE_PREEMPT_RESCHED_BITS
+         1a415f4103b07307ac06598ddc68e5757d6d8ab2 arm64: sched/preempt: Enable HAS_SEPARATE_PREEMPT_RESCHED_BITS
+         853057e8a2efbc928759ac91b8a17ea6ea3736f5 s390/preempt: Enable HAS_SEPARATE_PREEMPT_RESCHED_BITS
+         f8af4ebbcc554c329630dd4188138b7ce04676a3 rust: Introduce interrupt module
+         e113d3efcd29df3c43aaec0d1e8e7a899fce1a89 rust: helper: Add spin_{un,}lock_irq_{enable,disable}() helpers
+         eae1b6d89216c5a75aef29dd8e5a9172e4c100eb rust: sync: Use super::* in spinlock.rs
+         de81ee50a3462cac39c7883b94781183edecb24f rust: sync: Add SpinLockIrq
+         e1307e8663308a8ea002216d580fbea634083bde rust: sync: Introduce SpinLockIrq::lock_with() and friends
+         2d9974d8f13de19c6389dac350eb72674aa5d829 WIP
          
