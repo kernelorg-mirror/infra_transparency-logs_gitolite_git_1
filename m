@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2375378961824751468=="
+Content-Type: multipart/mixed; boundary="===============7954448116904572102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 05 Aug 2026 03:19:12 -0000
-Message-Id: <178589995268.157567.14205720069903371966@gitolite.kernel.org>
+Date: Wed, 05 Aug 2026 03:19:15 -0000
+Message-Id: <178589995553.157692.13902893482337271501@gitolite.kernel.org>
 
---===============2375378961824751468==
+--===============7954448116904572102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e47602c51d20a93fa1711ed896dc9480de4374d9
-    new: 46afcaee70e813dd8c75551715ca059783d1031d
-    log: revlist-e47602c51d20-46afcaee70e8.txt
+  - ref: refs/heads/mm-unstable
+    old: 486855239e38a91d3eae26618ccb7845c1764625
+    new: 3395a7f292a01cdc9a7c9299a33f12ad620d37cf
+    log: revlist-486855239e38-3395a7f292a0.txt
 
---===============2375378961824751468==
+--===============7954448116904572102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e47602c51d20-46afcaee70e8.txt
+Content-Disposition: attachment; filename=revlist-486855239e38-3395a7f292a0.txt
 
 bb127b4a9b73577338851a1d8fac87f42a91998e mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
 98fb66351f58966fc7c568a7565728314e537d3b mm/ptdump: always stabilise against page table freeing using init_mm
@@ -465,31 +465,5 @@ ba2f4a3e7fbb5fb3df45c00dc5f3e083cde114ad selftests/mm: kmemleak: drop stale min_
 1da547cee780e8511a2e93b00221948da6dcbf58 selftests/mm: rename local_config.h to local_config.h_gen
 dfd1f3bd5499787b8e19333f7454a815cd39383a selftests/mm: read memory information without popen
 3395a7f292a01cdc9a7c9299a33f12ad620d37cf selftests/mm: use pattern matching in .gitignore
-8c4fe0713c97d09dcf82fd654bcddb58c1d6a04e mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-c02f54365e48c75815af19e5b38b4c3e59cb19d3 mm: use a folio in the softleaf_is_device_private path
-fb8cf6b696e30a343e45f23dbd879767f53ab8f7 mm/vmalloc: do not warn on -ENOMEM from va_alloc()
-774fb4f48013f630b781c6310c386f3f8bcb1cb6 mm: add some missing includes to mm-local headers
-4b4fedf8e8da3a585aab39a71c904f39ccb1be18 mm/Kconfig: make FLATMEM depend on !NUMA
-6fcae4168d6228350810eb3e507157b0db8a7e37 mm/page_ext: remove pgdat_page_ext_init()
-a9ac072fcf8bf500b46436fac63069d054aaffa9 selftests/mm: khugepaged: skip swap tests when no swap available
-41aaa3fe10ac0c45ae85d0ff1164deeaef2f758c zram: do not release zstd global params from error paths
-10c11fb247a39db5da5526913231572e6b8d1333 zram: reject zero-size dictionary
-38decf553ee6c23558e77f34dad9d392144eefca zram: add pr_fmt to backend files
-d0fce46485097dc3fbb48d916d9aeaf449527349 zram: validate parameters in each backend's setup_params
-8735f74da154b6e725ee825f8a285c2df27f7072 zram: reset per-priority params when changing algorithm before init
-d39af09335b62f0e7e118c60989f08942b245df7 zram: fix out-of-bounds access in writeback_store()
-e842d6ba04fd087c28e1e3b229be955820de8ceb zram: fix out-of-bounds access in read_block_state()
-18e55712ba25723eb76d90df6de8aff2d713bfd1 mm/khugepaged: refactor per-scan state clearing into collapse_control_init_scan()
-2216da4884dde021fec76a07f10a1ccad57689d0 mm/khugepaged: extract young page check into pte_is_referenced() helper
-e286d72d1bf6c73d9bf88c78345e5b6937830d88 mm/khugepaged: introduce a count_collapse_event() helper
-11f3108a0aef0206de7170ea6c11552cecf57e3c mm/khugepaged: fix outdated comments
-80848bfa1b1d9c07783458bc4ad31c50c549065f mm/khugepaged: refactor the PTE state checks into a helper
-17932802eb331e8ffe51007e2fc0bb88b99162b5 mm/khugepaged: unmap pte before releasing vma write lock
-40b8e11535cf2b46171545a2856d1c5f8904b346 mm: Documentation: clarify where the mTHP stats live
-48fdbd2dc7ca8220c21135941fc32f5f786b36f6 alloc_tag: fix undetected compressed tag overflow when profiling is disabled
-3c0d3699a1d2777197a3090983ca97f92e87f55d mm/memory-failure: fix refcount leak on soft-offline LBS folio
-33fd5219494917b7b9ec5327df7676f5d431d464 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-8e5a12c0bc34bf42e3e6bfb106a5423826afa9b0 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-46afcaee70e813dd8c75551715ca059783d1031d mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2375378961824751468==--
+--===============7954448116904572102==--
