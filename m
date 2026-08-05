@@ -1,44 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 05 Aug 2026 07:37:56 -0000
-Message-Id: <178591547658.341842.14594884531772728019@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4853191654654028391=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 05 Aug 2026 08:06:37 -0000
+Message-Id: <178591719702.362408.5489393673973370790@gitolite.kernel.org>
+
+--===============4853191654654028391==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 2615f0fb90df8cf5a96133ca4be74294ed288604
-    new: 2ca1eea3cd17930daffe9e429a7c89232036ec24
-    log: |
-         69ee44e1a23be62318189dc4b37fa4ad94053269 ALSA: usb-audio: fix OOB write on Type II inbound URBs
-         2ca1eea3cd17930daffe9e429a7c89232036ec24 ALSA: usx2y: bound the hwdep mmap fault offset
-         
-  - ref: refs/heads/for-next
-    old: 6cd3d2c82651a9e77aa5b1b9c12aa918c0d6c0a9
-    new: 4335e387786479889e6db691fe06d345e52ea536
-    log: |
-         eaf46ee96599e20c56c46401c937102f18e081bf ALSA: control: tidy up whitespaces
-         86cac980c9668106b32ffca3bda106cbb6d7ac2b ALSA: control: add ioctl to retrieve full card components
-         a478893b59e36cfe7d77a76b352f2db55502e879 ALSA: 6fire: bound the MIDI event length from the device
-         459d3a64766f5ca2f1886daeaf24582831a5f5ab ALSA: bcd2000: clear the URB pointers on disconnect
-         4335e387786479889e6db691fe06d345e52ea536 ALSA: FCP: do not copy out an uninitialised init response
-         
   - ref: refs/heads/master
-    old: c4462b271aca4dc5f047acfde81c97607307b799
-    new: a65204f76e8d30676c4199bfc6638ae1d217196f
+    old: f25ff14309a803df91abc7becc6b7140cd08f5c7
+    new: f080c063c4f25ebc61c9a29d7195477fafc3f8a9
     log: |
-         eaf46ee96599e20c56c46401c937102f18e081bf ALSA: control: tidy up whitespaces
-         86cac980c9668106b32ffca3bda106cbb6d7ac2b ALSA: control: add ioctl to retrieve full card components
-         a478893b59e36cfe7d77a76b352f2db55502e879 ALSA: 6fire: bound the MIDI event length from the device
-         459d3a64766f5ca2f1886daeaf24582831a5f5ab ALSA: bcd2000: clear the URB pointers on disconnect
-         69ee44e1a23be62318189dc4b37fa4ad94053269 ALSA: usb-audio: fix OOB write on Type II inbound URBs
-         2ca1eea3cd17930daffe9e429a7c89232036ec24 ALSA: usx2y: bound the hwdep mmap fault offset
-         4335e387786479889e6db691fe06d345e52ea536 ALSA: FCP: do not copy out an uninitialised init response
-         245fd39841dedf0ec4fa33411ece629e21b1de99 Merge branch 'for-linus'
-         a65204f76e8d30676c4199bfc6638ae1d217196f Merge branch 'for-next'
+         de4c59c3edac25a064aad0e098d52dba856e149f updates due to new .vulnerable files
+         2b0556947e6e2d5e7dfb3319dd18e6e9822a01df proposed: Add Allen's v7.1.5 results
+         f080c063c4f25ebc61c9a29d7195477fafc3f8a9 assign a CVE id on request
          
+
+--===============4853191654654028391==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785917179 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1785917193-c9a5977e99743c8dac311dacd8270e58dd3f3112
+
+f25ff14309a803df91abc7becc6b7140cd08f5c7 f080c063c4f25ebc61c9a29d7195477fafc3f8a9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpy7vsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Vw4QAMQDZZhI+JJWu7EUfuVT
+m183s2vxY5a48S0tEl9j2ghBmZ6ulwHeNuR2NbMrAgomAn540gApb9dildIjeoWh
+aMALRI8v368VcmBjzTbmHiO6XLnP6oOLxzr2SLYixUfSQBZqSVbAMtYzzEV4v4bZ
+Q3NkwvwEpJNchhcFYW+xSZWHt94pSPYYduqI8RuhFxyZdBFoaBsKax3BO71GgwAQ
+ll0bwZCQyOU9gFxzthE33gzD/FODbM5E0B86TOvWmMZqCwrZxGM8fVY6Gz6sprfr
+9ZskjYwJr/5AcI4AqCkPLv3s3ay2IiY82cGnqjgN83P1pKfJy6leLcVBYv7m7wqO
+AR1R34Ar3ugDUnnPUSmW961Cz6CzIIWgjONxbXUBzSZgXqlYbf9s0WoGp/Tpi6wE
+dtD5KasfbwWt/iS2Ut2pZCeC8EL/+Tw8dGM23J7mE4WG6A8BbDRbJ8MsZpXfcMzf
+Q5RBnqUcaTRBbqyfh5ph5GgEnHSi9tFhhBzgO806gcQHek1XrywuVk181BDWvqnR
+FpV+7ojeIeTOHueXMnjoNFn74WjHyLvAsV00eGkpOtlqzVOSTJ7eAIyfranXww6y
+YEjyNzBbKLQk5mBKV+8lpyJqAztaJmfOr/dMZgB+yqBifnn5pZwlCw7fYFbx3KnI
+F7mZCJ5KqEAwnMSUnOSYr+bd
+=yqi3
+-----END PGP SIGNATURE-----
+
+--===============4853191654654028391==--
