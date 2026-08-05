@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 05 Aug 2026 19:01:29 -0000
-Message-Id: <178595648901.1049477.17117099731425210430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 05 Aug 2026 19:36:04 -0000
+Message-Id: <178595856414.1074331.13828144262924542254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 3e1186817a49eab59bb633e3bbc8e3e386db8e63
-    new: 362b87aa4d036884c36e4bfb9cdbdee626aba3bf
+    old: 2f3e9ae60c697bde5f3878d70faa50f38287b975
+    new: 8f2dafd71b8fdf8421ca8799a4daca712b4f23fb
     log: |
-         a29800003c76d3f7a45cc517c2676172a2d1e0cd Bump version to 0.17-dev
-         362b87aa4d036884c36e4bfb9cdbdee626aba3bf pyproject: adopt PEP 639 license metadata
-         
-  - ref: refs/heads/stable-0.16.y
-    old: 3e1186817a49eab59bb633e3bbc8e3e386db8e63
-    new: 04c46697c2de2857afe274b0d09935afa3ddc99f
-    log: |
-         e9e45ea03e9531c20da742ccb653757219c05c37 pyproject: adopt PEP 639 license metadata
-         04c46697c2de2857afe274b0d09935afa3ddc99f Bump version to 0.16.1-dev
+         32a6238ff14773e86e74947b6dddfa70d7920748 foo
+         2509f53f755d1c4ceb3e5b5ad5a16909c0bd5af9 foo
+         1b93c6c11dd5bc773ac791390f59e423f790363d foo
+         ec9f81963447989e3bc12bb79f2124ac529db46e foo
+         4d02bd36afe06b695f32bd16cc0d6036f2897e8e foo
+         8f2dafd71b8fdf8421ca8799a4daca712b4f23fb foo
          
