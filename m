@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8282711837116231647=="
+Content-Type: multipart/mixed; boundary="===============8405485378450205137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 05 Aug 2026 03:33:28 -0000
-Message-Id: <178590080867.168462.11521388082904906392@gitolite.kernel.org>
+Date: Wed, 05 Aug 2026 03:33:30 -0000
+Message-Id: <178590081024.168572.10363486921012109112@gitolite.kernel.org>
 
---===============8282711837116231647==
+--===============8405485378450205137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.3
-    old: 58a273157af32b7d8e6fbd7930db3a5044c2ad10
-    new: b426fedcef8c277574bd7beed0ae9d482c03605a
-    log: revlist-58a273157af3-b426fedcef8c.txt
+  - ref: refs/heads/for-next
+    old: 75bb5323dd0db94deeacafba9c64f012435d676b
+    new: 064935ef6be39d086f4c40766d2b76181b70b3e1
+    log: revlist-75bb5323dd0d-064935ef6be3.txt
 
---===============8282711837116231647==
+--===============8405485378450205137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58a273157af3-b426fedcef8c.txt
+Content-Disposition: attachment; filename=revlist-75bb5323dd0d-064935ef6be3.txt
 
 ff7155df9a9543af1eb9722563e6dcda33c1a97d arm64: dts: qcom: sc8280xp-blackrock: Fix swapped USB QMP PHY vdda-phy/vdda-pll supplies
 1960614611142e4b57f8a4e276f36ff8b6db2a1d arm64: dts: qcom: sa8540p: Fix swapped USB QMP PHY vdda-phy/vdda-pll supplies
@@ -53,5 +53,6 @@ c3c6b388edba50aad0d41b0b2a5e50482e320611 arm64: dts: qcom: glymur: Fix swapped U
 6b1195eeb204b455973fb05e10563a63bdd71c57 arm64: dts: qcom: eliza-mtp: Fix swapped USB QMP PHY vdda-phy/vdda-pll supplies
 3b50c16faa8452fd7ff021919c669c7b38227ca4 arm64: dts: qcom: sa8155p-adp: Fix swapped USB and UFS QMP PHY vdda-phy/vdda-pll supplies
 b426fedcef8c277574bd7beed0ae9d482c03605a arm64: dts: qcom: talos-evk: Fix swapped USB QMP PHY vdda-phy/vdda-pll supplies
+064935ef6be39d086f4c40766d2b76181b70b3e1 Merge branches 'arm32-for-7.3', 'arm64-defconfig-for-7.3', 'arm64-fixes-for-7.2', 'arm64-for-7.3', 'clk-fixes-for-7.2', 'clk-for-7.3' and 'drivers-for-7.3' into for-next
 
---===============8282711837116231647==--
+--===============8405485378450205137==--
