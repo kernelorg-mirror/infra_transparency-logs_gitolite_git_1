@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 05 Aug 2026 21:35:07 -0000
-Message-Id: <178596570729.1166552.17088493450986149281@gitolite.kernel.org>
+Date: Wed, 05 Aug 2026 21:35:10 -0000
+Message-Id: <178596571057.1166637.1238377645200614298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20260805-arm64-selftest-fix-filter-h-build-a6da720750b7-v1
+  - ref: refs/heads/arm64-selftest-fix-filter-h-build
     old: 0000000000000000000000000000000000000000
-    new: a21fa811a1dca17e1bcdd8e890a304de49062dc4
+    new: e5f958db66cace003ba545f2b4b312cce7c29e2d
