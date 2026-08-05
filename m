@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3543896919870977274=="
+Content-Type: multipart/mixed; boundary="===============6109986492172562766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 05 Aug 2026 16:51:27 -0000
-Message-Id: <178594868729.952089.12691223376284916528@gitolite.kernel.org>
+Date: Wed, 05 Aug 2026 16:51:29 -0000
+Message-Id: <178594868965.952179.12690350098932176739@gitolite.kernel.org>
 
---===============3543896919870977274==
+--===============6109986492172562766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d661abdc30c254649c32ef6e0aa1e621e04ff0a7
     new: a23b36233d4103def55dc8cf65698106d0bd1e62
     log: revlist-d661abdc30c2-a23b36233d41.txt
 
---===============3543896919870977274==
+--===============6109986492172562766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ fbe3647fd464e8b4051543c5b16368e877c2d37c bnge: add ndo_set_rx_mode_async support
 1b1e855e4306e227b610c5c2c7d475281a912f29 bnge: send hwrm for interface down/up transitions
 a23b36233d4103def55dc8cf65698106d0bd1e62 Merge branch 'bnge-add-more-functionality'
 
---===============3543896919870977274==--
+--===============6109986492172562766==--
