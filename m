@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7065508113319506585=="
+Content-Type: multipart/mixed; boundary="===============7847797513203801555=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 05 Aug 2026 08:08:04 -0000
-Message-Id: <178591728444.363317.13020958130124751049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 05 Aug 2026 08:08:32 -0000
+Message-Id: <178591731239.363627.10234327005446849166@gitolite.kernel.org>
 
---===============7065508113319506585==
+--===============7847797513203801555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: fd0ece3c082632334ded22076932b302a048c7de
-    new: cb8bc008d9366919d46a036224c9e47d9b2b4956
-    log: revlist-fd0ece3c0826-cb8bc008d936.txt
+    old: f080c063c4f25ebc61c9a29d7195477fafc3f8a9
+    new: 71d69862506af8f6d4087badd065ea6d7af7d3da
+    log: |
+         71d69862506af8f6d4087badd065ea6d7af7d3da assign some cve ids on request
+         
 
---===============7065508113319506585==
+--===============7847797513203801555==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd0ece3c0826-cb8bc008d936.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-cf616096a0f3a2b60f7d68b6b39674a6867ded9c NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
-4aeb63d5ac2dba2a474e7b64d60776d9dd1c6cd2 NFS: Decrement refcounts if allocating nfs_free_stateid_data fails
-e053b624f5d36669756990743346157be9f68c34 NFSv4.2: fix nfs4_listxattr size accounting
-1ed35ac7f3fe2b4396bdd29ac3a7f0ebc0829e94 vhost_iotlb: bound map allocation in add_range
-0619aaa34c0c2a2dcb07f0e9c8a34e7efb8c4cdf vhost/vdpa: reject overflowing PA map page counts on 32-bit
-727e1f569855df83579edbd73dcb4a0723543a12 vdpa/mlx5: Fix buffer length in create_direct_keys()
-d876c493fc4b811941bfeb4c80beb2dfc4bf025e vhost-scsi: Validate T10 PI scatterlist counts
-de845981da67a6b049080c87e605130b0c30adc5 vhost: reset the vring metadata cache on vring reconfiguration
-22598f55a4c2b510b3df5e69e563387a963222ae vhost-scsi: flush backend after device ioctls
-42bc45df5905e2b7dccb72adaf7730f66cfbe03f vhost-scsi: reject feature changes after endpoint
-5ff232d31106f45ac87c3b64e1d35a0667777797 ima: fix out-of-bounds read in xattr_verify()
-b80bed5c871a80151351342c065579405ce77145 ima: Instantiate file_truncate and path_truncate hooks
-7c350d079e79cccd6a30d7632fb3211e7f6fedb4 Merge tag 'nfs-for-7.2-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
-562bfb501c54a4d676528fbb70552f520fe6603b Merge tag 'integrity-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-31996e14bd59840692d6c1c6e41ef878b77a2967 Merge tag 'locking-urgent-2026-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c21bb4193868a8de71fc4693fa741e195fdf5d86 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-a213dfaa2596c1c0dc4dae91c14fbfa499c03223 x86/mce: Set up the polling timer before CMCI discovery
-ac673814556e415c7629ecaf6819610f725261d6 Merge branch into tip/master: 'x86/urgent'
-cb8bc008d9366919d46a036224c9e47d9b2b4956 Merge branch 'linus'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785917297 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1785917311-8b0be39371910792be27bd0c15bb8a365ed185f1
 
---===============7065508113319506585==--
+f080c063c4f25ebc61c9a29d7195477fafc3f8a9 71d69862506af8f6d4087badd065ea6d7af7d3da refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpy73EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lw0P/0q+cFJmQhVVo8iP9TY8
+1E5cLkC783y1MYMaMkKiBxS8jE7yfZipiEarmcGJ1WA6yesBScsgNeARa3IBM9Cq
+L/RqQdb6iHeC1w0+SiQDyTavNpHjQT1YIr8QhBGOC1Pt6mecsA2iyzDWnFUBXz+6
+RwtNGKn1s6eJQULpj+psxhzWe+MiXdplQTw2U02fJ0HXf4OKVEAjr8XdM5ne03W3
+qHqs8Qu6xJEht1b8rbLKh79NCODQ6JfgqyeJKeX4QGlq6806ZpMM4s4KMDfeivHf
+SaL1zCAWj4j0ydprc2Tp3Q0oc/xpbjZmU+gDBrJULUvM2jEW7aTkGzJxAQhUM4gc
+nAxbpP8TbBa+RKjgnHwKiXkZzhmJEa7OeLLWVK2lapYjpkWjJNvFNI0ooh7nNsIG
+xGuJwDg7BJSiloNpScYgAnvbicx7yBjpiCAJ6fK7vdwSsUbOQTkCOcXxLsoOzTS5
+UdlSUFT1eKO8TEIkSNHVH2e5adyQpAORdOJMsPF5d09vIRKOwv47LbM9TKy1Z5f/
+MLiQ7qykqM4gXBAWxQH9KK4LSouoBbBNbr528mag6Gtb9Ljeb9YNbQw6SCa+CoT/
+dyNb7AxvCOvtFfAGVK9Bp/OEZIi5fhRr26cPZwqKZIf8O2eVQ6tKdzjcluwpSY+n
+gvBFEi4PJqrp4NzPvBGPh8T3
+=ITrU
+-----END PGP SIGNATURE-----
+
+--===============7847797513203801555==--
