@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 05 Aug 2026 20:43:59 -0000
-Message-Id: <178596263978.1123647.8918055791111373834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 05 Aug 2026 20:44:12 -0000
+Message-Id: <178596265215.1123936.6976320448630464504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 212e015fc34712c849653cdb3179cd643c915015
-    new: 5d109da47693aa49929d5abb921d38ef2bceb7d0
+  - ref: refs/heads/dev
+    old: 77c23bd0ad638ba0c6f28d3994d06f789d981342
+    new: f95a69b35e46be8e4aab16500df9d55e85d3d2b4
     log: |
-         8a80d3d65cd06ee35b913d8517fb2f2319f8e70c cxl/pmem: Format the nvdimm serial number as unsigned decimal
-         95a84b7cb4bbc5bd929adc9b1cd1282fca737662 cxl/core: Format the memdev serial number as unsigned in TP_printk
-         94d84e3d89594f6ad6dc5ed5bed05956bf146149 cxl/test: Assign one mock memdev a full-width serial number
-         5d109da47693aa49929d5abb921d38ef2bceb7d0 Merge branch 'for-7.3/cxl-misc' into cxl-for-next
+         72a0723ad9a4527a61d5af8b7b256c4ad9fe3929 rcutorture:  Disable fragile readers during overload testing
+         f95a69b35e46be8e4aab16500df9d55e85d3d2b4 EXP rcutorture: Enable RCU_BOOST where supported
          
