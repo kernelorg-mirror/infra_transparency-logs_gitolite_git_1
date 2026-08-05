@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 05 Aug 2026 03:04:59 -0000
-Message-Id: <178589909924.145698.10451446600149440538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 05 Aug 2026 03:06:36 -0000
+Message-Id: <178589919629.148759.3518336245873787179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: b16bab325801c7be004222cad0ae296aa5982e79
-    new: a23b36233d4103def55dc8cf65698106d0bd1e62
+  - ref: refs/heads/master
+    old: 52bd4d35943d854dbff57cf2c560506fbfa912d8
+    new: 2f3e9ae60c697bde5f3878d70faa50f38287b975
     log: |
-         d5d7b17b3f9b0fb5eb5a755a9b34d89a39813d50 bnge: refactor rx mode helpers to accept explicit address lists
-         fbe3647fd464e8b4051543c5b16368e877c2d37c bnge: add ndo_set_rx_mode_async support
-         1b1e855e4306e227b610c5c2c7d475281a912f29 bnge: send hwrm for interface down/up transitions
-         a23b36233d4103def55dc8cf65698106d0bd1e62 Merge branch 'bnge-add-more-functionality'
+         acaae4f0522ef01cd23dd247c5d2a6a205cd5a6f foo
+         ba8499f101b2b0d590a6ff31bac69efd394ad188 foo
+         08c4482373074d38d3c44d11f7d919dfdc068dae foo
+         2e7557c8bc373b81d7b06bbe4e4065a99b2ac9e4 foo
+         01bfdf1970774e5e79a9a1683253df5bab7dea37 foo
+         2f3e9ae60c697bde5f3878d70faa50f38287b975 foo
          
