@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 05 Aug 2026 01:20:09 -0000
-Message-Id: <178589280949.65580.8560101355708972469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 05 Aug 2026 01:31:46 -0000
+Message-Id: <178589350679.74753.7280359908462587379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: e7175aebf2002e179fec219b22cdaf66cb0b9140
-    new: f25ff14309a803df91abc7becc6b7140cd08f5c7
+  - ref: refs/heads/main
+    old: 1505b2cb6ae1c7e8ac0c6e4590a204ffc3ab2b24
+    new: 5d1c224dd914579524a183a514c12b95095d12ce
     log: |
-         044871035f1628fd2af065571c0b99c06422fade CVE-2026-64534: Add .vulnerable file
-         9563dbb638731b2815738276f72afb91887e5f46 CVE-2026-64535: Add .vulnerable file
-         f25ff14309a803df91abc7becc6b7140cd08f5c7 sasha: review v7.1.6
+         5d1c224dd914579524a183a514c12b95095d12ce net: openvswitch: reallocate update replies for mismatched IDs
          
