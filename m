@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 05 Aug 2026 00:02:14 -0000
-Message-Id: <178588813439.4193773.5716492835377079210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Wed, 05 Aug 2026 00:13:42 -0000
+Message-Id: <178588882237.7582.2705448850616738571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 0ca4fa0b1d732e3cd498443fad3ed1720cbb7753
-    new: 0b6d2c7e3abca8d17fddeecb6e4c32a8438ec2fb
+  - ref: refs/heads/testing
+    old: 0efaefce4e95a3331550329c0078b2fb38b3ff1f
+    new: 350d1fb9204b13c5f95e511e98b8bcb47574d425
     log: |
-         0b6d2c7e3abca8d17fddeecb6e4c32a8438ec2fb NFSD: Point contributors and sashiko.dev to the nfsd-testing branch
+         3a2f15765b1d2df7152d63c6498883e70f1844d6 dt-bindings: iio: dac: add support for mcp47a1
+         350d1fb9204b13c5f95e511e98b8bcb47574d425 iio: dac: mcp47a1: add support for new device
          
