@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 05 Aug 2026 14:44:48 -0000
-Message-Id: <178594108830.844443.1501755335732871597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 05 Aug 2026 14:47:25 -0000
+Message-Id: <178594124507.847595.9284140961282993677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: d24ce259185e76be64ac9a895057371be548cd39
-    new: 6aad80a1d4e70cf6adac73e12e15abee3100dbe7
-    log: |
-         a489ab44ab73a6dfab8bf2556f647364ee0e0940 RDMA/mana_ib: unify QP lookup table
-         6aad80a1d4e70cf6adac73e12e15abee3100dbe7 RDMA/mana_ib: UC QP support for UAPI
-         
+  - ref: refs/heads/sasha-cvss-schema
+    old: d24a4edd69532b2a8e24b626daf9ae346c99a31b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sasha-webform
+    old: 2bc07cdcf17d948607b940a106c44c8b4095b804
+    new: 0000000000000000000000000000000000000000
