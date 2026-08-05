@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0352477417053544287=="
+Content-Type: multipart/mixed; boundary="===============4442657771067379702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 05 Aug 2026 15:42:03 -0000
-Message-Id: <178594452320.893029.12743599252295230672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 05 Aug 2026 15:42:21 -0000
+Message-Id: <178594454135.893365.10062793667868850465@gitolite.kernel.org>
 
---===============0352477417053544287==
+--===============4442657771067379702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 0f6da28aab51b16762ed82e8fdeaa5042da45b08
     new: 1701fda2f58e345c050f4309971bdc07cd6146ba
     log: revlist-0f6da28aab51-1701fda2f58e.txt
-  - ref: refs/heads/stable
-    old: 848acc8ffe1b7cd5f1bf427b93069becfebc2c9d
-    new: c21bb4193868a8de71fc4693fa741e195fdf5d86
-    log: revlist-848acc8ffe1b-c21bb4193868.txt
-  - ref: refs/tags/next-20260505
-    old: a8f1a8e8729f6f867a91e18fe1a79cd7cbe694ae
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260805
     old: 0000000000000000000000000000000000000000
     new: b19e11d4f1fc76a3bfcd153e8eeb4e67f6b9f645
 
---===============0352477417053544287==
+--===============4442657771067379702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,28 +1054,4 @@ b5e68e4944b44afaec438df8fc47aa83336ebd59 Merge branch 'caps-next' of https://git
 4b720531a75daece83ba7a2b6b4567d8b7f408c9 Revert "tracing: Expose tracepoint BTF ids via tracefs"
 1701fda2f58e345c050f4309971bdc07cd6146ba Add linux-next specific files for 20260805
 
---===============0352477417053544287==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-848acc8ffe1b-c21bb4193868.txt
-
-cf616096a0f3a2b60f7d68b6b39674a6867ded9c NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
-4aeb63d5ac2dba2a474e7b64d60776d9dd1c6cd2 NFS: Decrement refcounts if allocating nfs_free_stateid_data fails
-e053b624f5d36669756990743346157be9f68c34 NFSv4.2: fix nfs4_listxattr size accounting
-6d4514ca9cdf61fec4ec634cf50386f6f7e69748 futex: Prevent robust futex exit race some more
-1ed35ac7f3fe2b4396bdd29ac3a7f0ebc0829e94 vhost_iotlb: bound map allocation in add_range
-0619aaa34c0c2a2dcb07f0e9c8a34e7efb8c4cdf vhost/vdpa: reject overflowing PA map page counts on 32-bit
-727e1f569855df83579edbd73dcb4a0723543a12 vdpa/mlx5: Fix buffer length in create_direct_keys()
-d876c493fc4b811941bfeb4c80beb2dfc4bf025e vhost-scsi: Validate T10 PI scatterlist counts
-de845981da67a6b049080c87e605130b0c30adc5 vhost: reset the vring metadata cache on vring reconfiguration
-22598f55a4c2b510b3df5e69e563387a963222ae vhost-scsi: flush backend after device ioctls
-42bc45df5905e2b7dccb72adaf7730f66cfbe03f vhost-scsi: reject feature changes after endpoint
-5ff232d31106f45ac87c3b64e1d35a0667777797 ima: fix out-of-bounds read in xattr_verify()
-b80bed5c871a80151351342c065579405ce77145 ima: Instantiate file_truncate and path_truncate hooks
-7c350d079e79cccd6a30d7632fb3211e7f6fedb4 Merge tag 'nfs-for-7.2-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
-562bfb501c54a4d676528fbb70552f520fe6603b Merge tag 'integrity-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-31996e14bd59840692d6c1c6e41ef878b77a2967 Merge tag 'locking-urgent-2026-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c21bb4193868a8de71fc4693fa741e195fdf5d86 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-
---===============0352477417053544287==--
+--===============4442657771067379702==--
