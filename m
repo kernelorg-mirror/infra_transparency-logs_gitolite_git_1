@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1598430361793818926=="
+Content-Type: multipart/mixed; boundary="===============3335707140091044099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 05 Aug 2026 03:44:32 -0000
-Message-Id: <178590147218.176730.1305855773126824684@gitolite.kernel.org>
+Date: Wed, 05 Aug 2026 03:44:35 -0000
+Message-Id: <178590147541.176880.9299089966079221783@gitolite.kernel.org>
 
---===============1598430361793818926==
+--===============3335707140091044099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 46afcaee70e813dd8c75551715ca059783d1031d
-    new: 0b53bff4fa05ff0d3ffbd3d3bb10fae69dfab498
-    log: revlist-46afcaee70e8-0b53bff4fa05.txt
+  - ref: refs/heads/mm-unstable
+    old: 3395a7f292a01cdc9a7c9299a33f12ad620d37cf
+    new: a946fa1d96648b92c9f37f0488e0e47a85f9e235
+    log: revlist-3395a7f292a0-a946fa1d9664.txt
 
---===============1598430361793818926==
+--===============3335707140091044099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46afcaee70e8-0b53bff4fa05.txt
+Content-Disposition: attachment; filename=revlist-3395a7f292a0-a946fa1d9664.txt
 
 330f108fd36df5933f41f2e3936b303d99b4461e Merge branch 'mm-hotfixes-stable' into mm-stable in order to pick up vmscan.c changes which are required by "memcg: bail out proactive reclaim when memcg is dying".
 0beeaf14e7b96676f116847d57281800177bc3dc memcg: bail out memory.high when memcg is dying
@@ -457,31 +457,5 @@ d6638707bd076903d1fa198ce524ce55e0ad1ddb selftests/cgroup: test_zswap: skip test
 4794d7e06071f6324972b68bbadd3c3546470122 selftests/mm: rename local_config.h to local_config.h_gen
 60196408c884b76c162cc2799c3e48bef0a99290 selftests/mm: read memory information without popen
 a946fa1d96648b92c9f37f0488e0e47a85f9e235 selftests/mm: use pattern matching in .gitignore
-07660619b02065008bf426a7ab98425e002409d2 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-ee5982c18273e2c701cd9e059c80ef6a7cc61c31 mm: use a folio in the softleaf_is_device_private path
-8c4651d86b69407ad22522aa821f98dc504179c6 mm/vmalloc: do not warn on -ENOMEM from va_alloc()
-938e833173e6cc7c1b6671f3463d36511d6dbb51 mm: add some missing includes to mm-local headers
-41c2b68f0fcefd5fbf59fbf1d345f0ea33ede294 mm/Kconfig: make FLATMEM depend on !NUMA
-ec27a6c1e5209b3de83f2a8aa111afa7bd7df6b7 mm/page_ext: remove pgdat_page_ext_init()
-4799977a6703f4a0f5360895f232ea6c37306532 selftests/mm: khugepaged: skip swap tests when no swap available
-43abe01b4c3da890db324e0e6266dbf2d0520c6b zram: do not release zstd global params from error paths
-b5e43637c12df5792d4fa3fd4bc7e9422e3bfb9f zram: reject zero-size dictionary
-3e3461b983e2c5561b56dc703ba70112123ab38c zram: add pr_fmt to backend files
-e12ee651c519b57ef68b9f6c5999b9cf2b3ba685 zram: validate parameters in each backend's setup_params
-8165ed5b8381947b5dec4dee5e736d2361e72cac zram: reset per-priority params when changing algorithm before init
-04e70a11e4b918ee3c40c7537c510aa6241fdc0c zram: fix out-of-bounds access in writeback_store()
-f779ad0751327315bc255beb1cce5d337c486b04 zram: fix out-of-bounds access in read_block_state()
-a7e63baddd84907e871810f1d0c61751d166fc3a mm/khugepaged: refactor per-scan state clearing into collapse_control_init_scan()
-319580f63e22fe806944435797aaf4e7d4e513a6 mm/khugepaged: extract young page check into pte_is_referenced() helper
-b8404d23f4f2267a17d36e95418526acede46c74 mm/khugepaged: introduce a count_collapse_event() helper
-9603cab5dc8e160c44d20a50ae6b6da5012879c8 mm/khugepaged: fix outdated comments
-d6a2a55aab9bce054cb6369d6c02d35798305a71 mm/khugepaged: refactor the PTE state checks into a helper
-d5075a07942aeebb5d5ce90c8b1175bd2d81458f mm/khugepaged: unmap pte before releasing vma write lock
-7e22983e2fa4284d1084c02cc2a44e2d513920f0 mm: Documentation: clarify where the mTHP stats live
-9c4379a531bdc3c504bf0c612ac6e44e818affb5 alloc_tag: fix undetected compressed tag overflow when profiling is disabled
-cf78935f4242d8573b2c4e840da26047f5fe8b69 mm/memory-failure: fix refcount leak on soft-offline LBS folio
-dd6dae56dfe27aa5db48ef06281343ff7d12655e mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-87bcff791fb8e0c511c8e10dc05adf882ccc1496 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-0b53bff4fa05ff0d3ffbd3d3bb10fae69dfab498 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1598430361793818926==--
+--===============3335707140091044099==--
