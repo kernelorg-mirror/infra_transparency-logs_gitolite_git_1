@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7094219518501373086=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 05 Aug 2026 11:25:04 -0000
-Message-Id: <178592910467.625613.11060333715627209009@gitolite.kernel.org>
-
---===============7094219518501373086==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 05 Aug 2026 11:27:16 -0000
+Message-Id: <178592923684.627295.13558403702942217634@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: afab4cef457371bd59faa9735c295e8bc0a32a23
-    new: 731baa687c739a4e36fcfceca0c88baf4e73da87
+  - ref: refs/heads/fixes
+    old: 521f490c074058622352f7f92feccdd5aa3f9e0b
+    new: 39cd7b5ec8fe62bb4ac533f629819a2203828db5
     log: |
-         731baa687c739a4e36fcfceca0c88baf4e73da87 2023 cve ids updated
+         ff8da20b6f47c48d46e47f93f7a59e2d56ee9107 Revert "thermal/drivers/hwmon: Cleanup coding style a bit"
+         39cd7b5ec8fe62bb4ac533f629819a2203828db5 Merge branch 'thermal-hwmon' into fixes
          
-
---===============7094219518501373086==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1785929086 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1785929100-465888fafb6a69aeb61461da1d62e7b82ecc5371
-
-afab4cef457371bd59faa9735c295e8bc0a32a23 731baa687c739a4e36fcfceca0c88baf4e73da87 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmpzHX4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7KkP/01ILSKymerZ+18iwyyZ
-xyxnVHanZprtd/oEvefixkMdbrfEkSEtD1HZkFDzsxyFrjv7b5ByFeD+36L4gp2P
-YNBRwXK1rglW52i7CyNaXSs9cLUjARXvEglUUCMZk/Q5frPazAPakragLk6SP/iq
-Ais+UYIcTk5isthMa94mjIH7VCoO7MFscxxDu3kYuhKJ+sOZZMJ0EOeBmnO7H6CB
-GwgZkRj1OHZvO01ZHcQpwysCcgQc6FBHGxvv8LFPnNZpAd64992WfXPqXL7bQ9wg
-docFGB/vRjzkK6VJHtEBrx/NnFPS15pZNGcFDKesZQI6aCptpivqjHNqjlQpEXs3
-PGh35QEIIlxs/ctYxG7HT3wG6gVa8MLYT3dvk4nhGEde2THIyxzvxCfr/+/Bk41D
-lo26Tdc78XkOmQOE86tS+LTTyfVcNCoyn4fwMq17f+k9XEoiFys6pnqNjdAyNzYv
-XPVULO5HU7/WCq/5UwwIvXZigAVdSlHE+EZnP6xcRUWsUcHg2qxLsL9qSDDMTUsB
-J2g10cmPkT5V4sy0CxQN1aa/mHj0IRexAGVBDOkSpxg9NxoRNAliIPs+fxl072UG
-a/brKDGeLdK1+AKeXhtPJuHQCSeXc8SgdZV+lxDVAy8obac1GGnGr0Smc4S1FMwV
-p3d2gSzMIw68AtFaVlTCYV5d
-=hgyO
------END PGP SIGNATURE-----
-
---===============7094219518501373086==--
+  - ref: refs/heads/linux-next
+    old: 04aee9d6bc5b2cd089e78bb48306d43b0fff6048
+    new: 0b626fc257bf90f6b93c5677d7f7343ce72d37a3
+    log: |
+         ff8da20b6f47c48d46e47f93f7a59e2d56ee9107 Revert "thermal/drivers/hwmon: Cleanup coding style a bit"
+         39cd7b5ec8fe62bb4ac533f629819a2203828db5 Merge branch 'thermal-hwmon' into fixes
+         0b626fc257bf90f6b93c5677d7f7343ce72d37a3 Merge branch 'fixes' into linux-next
+         
