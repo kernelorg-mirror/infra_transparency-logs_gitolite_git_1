@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3824372771858666839=="
+Content-Type: multipart/mixed; boundary="===============7621071923000961749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 05 Aug 2026 23:54:27 -0000
-Message-Id: <178597406795.1265298.12140180041218314150@gitolite.kernel.org>
+Date: Wed, 05 Aug 2026 23:54:30 -0000
+Message-Id: <178597407067.1265382.11500592479646134850@gitolite.kernel.org>
 
---===============3824372771858666839==
+--===============7621071923000961749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 0b53bff4fa05ff0d3ffbd3d3bb10fae69dfab498
-    new: 1fb556c523f6c18b43b1f52fb366f61c9963ce06
-    log: revlist-0b53bff4fa05-1fb556c523f6.txt
+  - ref: refs/heads/mm-unstable
+    old: a946fa1d96648b92c9f37f0488e0e47a85f9e235
+    new: bacc32cc7de65ffff70080a48eb294f89e434d5e
+    log: revlist-a946fa1d9664-bacc32cc7de6.txt
 
---===============3824372771858666839==
+--===============7621071923000961749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b53bff4fa05-1fb556c523f6.txt
+Content-Disposition: attachment; filename=revlist-a946fa1d9664-bacc32cc7de6.txt
 
 26444eb71465c9934d9d418ef69c43f61185329b mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
 27c32e5538344b13c1505a08861e04620c125d47 mm/ptdump: always stabilise against page table freeing using init_mm
@@ -314,23 +314,5 @@ f9d3073dd2875f6b3e5d44eb82e028f55d0eea29 zram: validate parameters in each backe
 98a7867ce2341ede3ca82f4ef6868135c7ff53d1 zram: reset per-priority params when changing algorithm before init
 80e28adb51066cf1491dd1b85e493b581fb9cbfb zram: fix out-of-bounds access in writeback_store()
 bacc32cc7de65ffff70080a48eb294f89e434d5e zram: fix out-of-bounds access in read_block_state()
-606d2f6935109a6c843d79388a4d973a9b50c3f8 mm: fix CONFIG_STACK_GROWSUP typo in tools/testing/vma/include/dup.h
-37cce5755092f1e1327ceda5f0ee26004a4242d5 mm/khugepaged: refactor per-scan state clearing into collapse_control_init_scan()
-ad180ae53e813368d6bb6ed2801b9c9a4d64c4a5 mm/khugepaged: extract young page check into pte_is_referenced() helper
-a7bdd051789a8d3b66422ce304b45c79e9cf3bbe mm/khugepaged: introduce a count_collapse_event() helper
-db378ccf0123d48b04c8a209e65582c378fd50d5 mm/khugepaged: fix outdated comments
-d6554930f35733027986cc568155b41642b9529b mm/khugepaged: refactor the PTE state checks into a helper
-d9c8f452bec8eea005c576042339727fdd91c1d2 mm/khugepaged: unmap pte before releasing vma write lock
-51a23246424eb6a229ff2e0d2cc755e4e94ce499 mm: Documentation: clarify where the mTHP stats live
-f3f0ea08a6ba6c6d62ac226d12a2d33eaa2bf718 mm/memory-failure: fix refcount leak on soft-offline LBS folio
-7acf7d305c63aba39713c3bb4319e77a64eda379 mm: debug_page_alloc: fix type mismatch for debug_guardpage_minorder
-4b53bd4d389289531ffeb5d0f465259b2eb9bcc0 alloc_tag: fix undetected compressed tag overflow when profiling is disabled
-0f6ba8c2480fa79cbb95ca8230f0370f7fbc9bf4 alloc_tag: expose boot-time compression configuration
-5dd53b050f7ce93ca892dd22f1f552c19ac563e9 mm/sparse: keep mem_section_usage_size() internal
-def32aea692f8c1b632e4d80ff1d790cccebe282 mm/show_mem: fix format string inconsistencies and type mismatches
-4ee4b02a8fb928c522e82577f6ca10f02f702506 zram: reject disksizes that exceed slot index range
-f478032747ef6f4887607a7a21fd66762900e057 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-7b14c0583de806bf8cc011bf69fadfe0d46a9fe5 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1fb556c523f6c18b43b1f52fb366f61c9963ce06 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============3824372771858666839==--
+--===============7621071923000961749==--
