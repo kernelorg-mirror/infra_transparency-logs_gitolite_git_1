@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 05 Aug 2026 14:53:45 -0000
-Message-Id: <178594162580.852204.17787709401921622721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 05 Aug 2026 14:57:58 -0000
+Message-Id: <178594187809.855846.3951580039847801612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/hwmon
-    old: 0dabe8a56f772f0ece46d2597799f412c277d874
-    new: 378ace0a7a1e27f342b4c1d881285aad173e3d17
+  - ref: refs/heads/x86/cpu
+    old: cb1e042a320e3c42fae60c4789c2adc618e0833d
+    new: 6cc3a72caa6eb118c38f887d4608b9adb80e90e8
     log: |
-         0828d897061b23290f58d5b3c5cfd552e8c747bb hwmon: corsair-psu: fix possible out-of-bounds access on missing string termination
-         378ace0a7a1e27f342b4c1d881285aad173e3d17 hwmon: (ads7828) Fix external VREF regulator handling
+         6cc3a72caa6eb118c38f887d4608b9adb80e90e8 x86/CPU: Rename struct cpuid_read_output to struct cpuid_output
          
