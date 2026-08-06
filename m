@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 06 Aug 2026 09:17:42 -0000
-Message-Id: <178600786277.1735815.9891114747306614156@gitolite.kernel.org>
+Date: Thu, 06 Aug 2026 09:17:56 -0000
+Message-Id: <178600787645.1736026.15191165207146014412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 5186ef36909c792591fda7a1ae2afc168f60bc90
-    new: 24546b95ff72b801d3421be8ef4e3e30b08bc82f
+  - ref: refs/heads/locking/core
+    old: f84558e3143f5980f48339be7efde7ac204ff48e
+    new: 462cc56c6674c9eaa1703e7b2e66e12306559290
     log: |
-         29e7bd4a0c00a286cf2e37a2a7e4215c183d0ace sched/fair: Prefer fully idle cores for NOHZ balancing
-         1d353e48cbde0fb194d9a0a5cd8fdce4a31a6d09 sched/fair: Do not skip CPUs of similar capacity with busy SMT siblings
-         3ee10e67ae6b071b57b4a7d4dcb590c7afd837bf sched/fair: Also gate overloaded status update for SD_ASYM_CPUCAPACITY
-         b11ba49b098f52e2588bba59d85d17057f5fa5b7 sched/fair: Check CPU capacity before comparing group types during load balance
-         c4e5144c004514b2c324eee7a122c98c09a87a3e sched/fair: Skip misfit load accounting when the destination CPU cannot help
-         6c1d9148eaf41b846eb4e0f403fbd27d99fa3314 sched/fair: Allow load balancing between CPUs of identical capacity
-         24546b95ff72b801d3421be8ef4e3e30b08bc82f sched/topology: Restore SD_PREFER_SIBLING in domains with asymmetric capacity
+         8a78342d14c3ad5c9a7f6a4f81af269f05e10ec6 futex: Fix race in futex_pivot_pending() during private hash resize
+         4665bbd4254e05a02c17bb8c28f074a01ab5a688 x86/paravirt: Use static_call() for the paravirt spinlock ops
+         e0f524146d062aff7c52b2cc5be3190c054835b7 locking: Factor out queued_spin_release()
+         6cb38416cd58fc6c6dc72ce03de496e4dbb8c433 locking/qspinlock: Add contended_release tracepoint
+         7ee3b34aec8d7d8cd27987d20c7eccc0f8c627ac tracing/lock: Use TRACE_EVENT_FN() for contended_release
+         462cc56c6674c9eaa1703e7b2e66e12306559290 x86/paravirt: Trace contended_release on unlock
          
