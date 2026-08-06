@@ -1,145 +1,137 @@
-Content-Type: multipart/mixed; boundary="===============7037837170750489117=="
+Content-Type: multipart/mixed; boundary="===============3589708652399715004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/editors/uemacs/uemacs
-Date: Thu, 06 Aug 2026 18:30:23 -0000
-Message-Id: <178604102383.2386302.13092134471055503555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 06 Aug 2026 18:33:59 -0000
+Message-Id: <178604123938.2387574.11465024179029538624@gitolite.kernel.org>
 
---===============7037837170750489117==
+--===============3589708652399715004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/editors/uemacs/uemacs
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 1c1b25ef723c952ca557cb5ff6d8db159ef1d4bc
-    new: 325a8e97973729da7d288e6deb49b36afa0b252a
-    log: revlist-1c1b25ef723c-325a8e979737.txt
+    old: 075b74841bd0065a3bda3440873c747938e69b68
+    new: fcaeecb8b0cd44f77d03b28de0671258d4db18f8
+    log: revlist-075b74841bd0-fcaeecb8b0cd.txt
 
---===============7037837170750489117==
+--===============3589708652399715004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c1b25ef723c-325a8e979737.txt
+Content-Disposition: attachment; filename=revlist-075b74841bd0-fcaeecb8b0cd.txt
 
-9b7d9865413afcc9141eb8607d1204dfbd5010b6 Get rid of various unused options
-8da713a0a7e19580b546700b0d552be1d4cf66fd Do more cleanup of random stale config variables
-236ef14df19f30f8b835168b8a3599042a51000a Remove SCROLLCODE code
-0067e374701c023b86712bf38b323d63ac42e3db Remove various random smaller legacy config variables
-e5104a452976bc2ccdae68a345a930065022c151 Remove the partial line update optimizations
-7193d038661b117a8e174dc3fea28998fef2c20b Use 'install' rather than just copying the executable
-41eb0db2f82dfe447417724d44cb14ecc056ca91 updateline: reorganize and incorporate spell check
-c04d44bb93af6fb3d4252f56bbe9c156f913e7b5 Clean up and update Makefile
-008d370182c026fb66cd73d86ae615d5249df3a1 Use the preexisting 'Spell' mode for spell check
-5d36b7f22c00874ee20fa837cb12197d259d7620 Add LICENSE and README.md files
-7f1a6a45ead8f20af6085ab154a0874078cd028b Add local dictionaries if they exist
-b7fab9e2efb4815d6b5344380546f52122e41da6 Fix up some Unicode character width issues, ignore others
-bf02f2ee3abf3da399df1b347991fdc4f760b3f3 Fix possible string overflow in internal_getval()
-5a7d194d76bf7df1b3869b2eed529745f6b25c88 Add 'next_column()' helper function
-34244049b9c483d15e893dbdc7f78f7bf3b6a64a Pointless reformatting
-350db99bf14e91eec3f3a8cdb658a7ade7a59025 Remove more config options (CVMVAS, CFENCE, and NBRACE)
-373fc838ef32e608210092c57a26fc7f2291a632 Remove WORDPRO ("Advanced word processing features") option
-92b13e7028ea4a2aa2739470b64efed04bb66a96 More always-on config option de-configuration: AEDIT
-7b69960fe5fdf5933d1324165e4c561f202fa37b Get rid of remaining legacy always-on config options
-239fe879be754bdf568c07949f66fb84dedf3c7f Remove the "physical screen" representation
-11d175d47ef82df4af49362fdf596e1899edf8c1 Get rid of one of the strncpy() warnings
-184532e50ccb277622087379f7a9e6a0e803eb11 Get rid of 'apropos' and 'help'
-d20d4cb46293f9e8b6985c5d6156f66a60b52966 Remove much - but not all - of the window code
-3db9fe26b6a36be8d3723307b34b651be1602cf6 Get rid of window list
-c929e0de8a16f8ee0203df4b99899f11fe9c5363 More window state removal
-b66f6ba49355c700dd70b05bca2c559dfc49e456 Get rid of w_toprow and w_ntrows window fields
-4920c51d32da6aa327a00e02accfaff3b3f91fc8 Fix terminal pause. After decades.
-b250a22389e628e704d6bd28597d6e6f99e20dad Fix odd pauses with auto-repeat of control characters
-b8e555ac8d9093e7e5bc29aade6533ecd5086b3e Get rid of odd 'throw repeated commands away during type-ahead' logic
-2089be86cbd71808f4d243d1cbb3393357418894 Don't bother redrawing page-up when already at the top
-0a1d2e80a1a30e7269a673a5d7a09aacb992f447 Minor usability tweaks
-fbb23f2467e6367d6580a4e37ebacc26282c97c0 Fix silly thinko in "don't do anyting on PgUp on first line" change
-db96f0e6cef99c0b160a4b6057a81d2b0e188fc0 Remove stale crypt.c leftovers from header files
-b6be2500d1153a8be5c0f4049c359f8837baea50 Remove stale vtfree, resize, and swindow declarations
-bca4060fc3e193db2ae698eaf9c6e3957c5fff0b Remove unused color variables and flags
-4aaec001cf5f377e41855675192d998edcfdf8a0 Remove dead flickcode, envram, and palstr variables
-e8ae31ca2611d7f5b68677237630e61577124990 Remove screen resolution change machinery
-d4464e39099ec7739f53e6d4c5317b16bdbc6242 Use memcpy/memmove in linsert_byte()
-77804e9ad72b4a25640adabb5744e3bae8af4989 Partial merge of https://github.com/dardevelin/uemacs.git remove-vscreen-cleanup
-8bd72de2506fcf218f3a235625dc708b0a70ce73 Always call update() if the buffer is marked for refresh
-cd97e0874819ed5714d0c7201c432995501c0ce1 Use flock() rather than a .lock~ file
-0a65e97880ee10e2b8719ef465ef19d8ddf2330a Drop lockrel(), the kernel releases the locks at exit
-51b39d5b993ad18822d0f2b34668b8157ea8073d Remove the source and depend rules, and depend on all the headers
-9d90efb2fb45047b91a35bfcc320f2c6aaa8cc36 Remove dead leftovers from the Makefile
-732d4b2caced15fb34c71a4a4b4a99b38e6cd14c Warn before overwriting a file that changed under us
-9b1c36b1099194694756cc2cd5ac19703ff44fee Paint the mode line directly
-b9a74058cd4c43f5e954bd8edd61544bca5febb2 Paint the text from the buffers
-cec4891bd474ff3d52d6de53df5915727821a820 Stop passing run-time strings to mlwrite() as the format
-fd677a7a380be9fb0b27652258168d9f62ac3f81 Use mystrscpy() for the incremental search pattern save
-e8d71a5f655e38e4e3840c907c4b637685e43846 Split update() rather than pass it a boolean
-cc96e5f9d588f31d340f169a8a5be02900576325 Call the terminal directly instead of through a vtable
-00fc39957d1c64d884de75956da110fb325b36f5 Do not repaint the screen from the SIGWINCH handler
-6d8b6a416b36d6fa69e78f7758cfe4a7a65d4691 Stop faking a zero-sized terminal after a shell escape
-b446ea0153a1e19c771658787cdb6615b222f104 Call the terminal functions by their own names
-430316b69c57beca7d3829b2f78fbfb2387381cb Keep the search prompts inside their buffers
-1b317e689d34e1eb52be1d3edf69a563e90b9ae0 Let the C library format the message line
-03cf70dd9a923b834f739402bb579f924bb8d2b7 Name the display entry points after what they do
-a8663261a05b72e45974c041fa29a8fa205147cd Name the file I/O layer after what it does
-edd97b8626e8e789bc0fb972e35ed724e0be9bf8 Drop declarations for three functions that no longer exist
-bb4d7d5173420e740c41111618c030eeb7b71f53 Mark the bindable commands, and name them after themselves
-8d74f0a52021e63594a60ae5158d23e6a5ed0052 Tell the message line, the mode line and the prompts apart
-8f23ec501c86814e3f1470926e6763c6b2ff19ef Remove taboff, which nothing has declared since the painter changed
-4ba030114b12fe65c71d97b674af5894b1babe8e Split the line helpers into the two families they always were
-69d5eec4490a0ef817cda1d5d66e34e218f32f7e Rename edef.h to globals.h
-b4233798353793d938ee42db4427b49b7065c3eb Name the globals behind the editor's settings
-4810f57e0dc6f236997ca1aacd293297d61809f7 Name the prefix and control characters
-3c9300d01c9d42ac8b7d4ffcd4aec7aa826ed4b0 Name the keyboard macro state
-b80681c043b54782ebef9fac1646160825f4b798 Name the macro text capture, which is not the keyboard macro
-049e331577b8164804fbcc21884f8653fbbb0397 Name the kill buffer
-07b875e94f0347559ac53fe5681c5b36df31dfbb Tell the cursor's two positions apart
-6fc557810dd1930cc88ef1df705bced1a76d33ab Name the buffer a file line is read into
-9288340c042ad24133b7c67c1ec964548a59a9d2 Name the two display state flags
-6b47d612178244e75f2da03593a4d3877e2da1a0 Name the two terminal capability flags
-548f7bbaf9b3d1aaf9f70ce331165f4e77fec354 Name the macro language's execution state
-f405f58e69e8e95a9a9f478b13821c5861f4ff63 Make $rval the exit status it always claimed to be
-a55d5af310e5c1aee953421c942b471759313878 Declare the search patterns once
-7e523641e1e45702691648b6b6d60453d7b3f6e4 Name the search patterns, and stop spelling one backwards
-0691634af6098dab2bc79caa775944ea7eaa2590 Name where the last search matched, in bytes
-8fd9ba7cd549d165a83aa72d44c12acabcf7a8d0 Name the buffer chain and the goal column
-25fb375efa082561332fe3fb86d4f70845c7c4f8 Name the macro language's literals and directive table
-13a2c952546d0cb873d7eb1313d46068de263509 Name the -n flag, and say what tabmask is
-cfad0e90a74ef3b7bde72412c19c2ddb3663c8bf Restore list-buffers, without needing a window to put it in
-8f9f0a5024d5c3bde9b4fec4332dc616cdd29483 Run the buffer-change hook again
-f4ecfd53c5b7069f7f70b2d418518be6d4162dac Drop five more declarations for functions that no longer exist
-a66fbc3243a971f3e78196805ab013ce762483b8 Work on big cleanups with Opus
-cee03080c8e4bee4e966ac808f13f0d551d75226 Page by two thirds of a window again
-5b72ae7885a37d811c76ca95c39e86a3c50f2337 Stop rewriting the mode line when it has not changed
-c3807de5a4c95246bc076e418787fd7a754d003a Give the window back its own size and position
-4c542de3587d431e084a340e04f51c35b95e04ee Put the window list back
-abe9e7fd318ac8ec66d0eee353876e18782eec20 Paint every window there is, rather than the one
-4df3a5124fc5f37e3bc1201f538fc13f461c7275 Bring back splitting the screen into windows
-44f3d0795888dfbd7f041a986183d28d000d80fe Bring back the rest of the window commands
-c3cb3a8a19373c9d5662d9aa06f7e789e87f98a7 Let help find the help file where it was installed
-c306526453df2a87915d79e00d873da952a815d5 Bring back describe-bindings and apropos
-833c3b928c4da7f946fad98cbb011c0b0d0ca452 Bind the Help key to help as well
-f6b3705871e5605fd4e4b0f283afdebd8aa83024 Bring back pipe-command, with the space it always needed
-cbe48c021b71429e11e33d261c432c303bf1a755 Name the macro language's lookups
-732e0efacb6ee0bbfe4d53dfddc8d7910e3dfcda Name the two that convert between a key code and a character
-15dd5621a3d80f6ad58bb7b063218e5d155b77ca Name the buffer operations
-078102a554f7c3c2c55cee509de01858a98448e5 Name the file lookup, and the flag that says where to look
-a14090036553bbc78017ea4d7bb66eab8e6d0cbc Use strstr() instead of a hand-written substring search
-3fb62f841d8b151cc2d8d62a909d556936c206c7 Name the numbered macro runner and the cursor placement
-eaf22a2440fce6e404b455fd34f09ac2200d1012 Name the two refusals, the two truth values, and a boundary
-8da26d808a761d0445eb8a00d89463217e4a2951 Call the mode name buffer mode_name, not execute_numbered_macro
-b7488e0717a2f3944a3c58bb1ba6828dbc0492a5 Count the modes there are, rather than one more
-6b39259c41456d5a9814d905c9636d72c1f690cd Give ASAVE the bit that add-mode actually sets
-149b1d3cd8996d60826588ad6794629e28270ecd Call the local dictionary's argument filename again
-ea15f1e802ece99f755fd9bd303b932649f82ef2 Accept both the American and the British spelling
-51745a3585981213fcc6f5f56ded5b5745458f69 More cleanups - and feature restoral - with Opus
-e70caaa1e6b367d21343e4083887a6b393d882bc main.c: Fix typo in comment
-38e919a65e15e031b1631e39d349a62ea3457032 Makefile: Respect the user's CFLAGS
-dae72d567060d333728bc1bfd09d18e7d0620a3f Move the spell checking into its own file
-c64ee3c63598726e79d9e34bff0f399c51c39119 Make the spell checking optional
-630c025378811daccc2ae2db2bae8afa70bbe618 Rebuild when the build flags change, not just when a file does
-325a8e97973729da7d288e6deb49b36afa0b252a Update the main branch with all the recent cleanup work
+52c7084c8fe57c259e50ff0a7d4f99ccecfc4c7a arm64: dts: qcom: glymur: fix PCIe SMMU interrupts
+a74a98f956ef8e075f28d58507bc5dad7f937fb4 arm64: dts: qcom: glymur: fix QUP serial engine IRQs
+4cd774c1feb3f720265c512174c5c3312eca1be2 arm64: dts: qcom: purwa: Fix GPU IOMMU property
+d291245e2fb1eba55d751f88613a41e292958a96 arm64: dts: qcom: monaco: Add default GIC address cells
+41d237b1546af5d5cf877175930cd23163422c83 arm64: dts: qcom: sm8650: Fix IPA IMEM slice
+96f65d01f3132a163a8c0e84aca00f2acdc75e9b arm64: dts: qcom: sc8280xp: add several missing pdc map entries
+6267f93eac9aa6963797c5bc1a18de9571ccac26 arm64: dts: qcom: sc8280xp: gaokun3: correct EC interrupt pin
+07db10de262f4150e24fd631a7a6c428f7bf80c9 arm64: dts: qcom: sdm850-lenovo-yoga-c630: lower PSCI cluster idle
+fadeedd7cfc5d73d33fa3d7ac54b9b27aabd09d2 sched/psi: Create the psimon kthread outside of cgroup_mutex
+5457025fa8ca3c0d2732109513de839e3e797190 sched/psi: Shut down rtpoll_timer in psi_cgroup_free()
+477869bfafea65492d23de62c1b5208147c09dd2 sched_ext: Reject setting disallow from init_task outside the enable path
+5f8b69642d18e1f3e11996707842ac530444e959 sched_ext: Take cgroup_lock() first in scx_cgroup_lock()
+8c13364db9c9a43ed286f3a8d0fb9477b1adc43c sched_ext: Skip sub-disable teardown for never-linked sub-schedulers
+5cdc928598095b2c7d5f265e5f21eadd1634bfbe sched_ext: Don't enable non-ext tasks in the sub-sched task loops
+b7e53968cb8882c2d276429ea8550848a4940874 xfs: propagate errors from xfs_rtginode_load
+cf616096a0f3a2b60f7d68b6b39674a6867ded9c NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
+4aeb63d5ac2dba2a474e7b64d60776d9dd1c6cd2 NFS: Decrement refcounts if allocating nfs_free_stateid_data fails
+75952cfc7752c52a2b692b59d34ce160d3edabb2 arm64: dts: broadcom: bcm2712: Remove non-functional EL2 virtual timer
+1acef6d85bfd98bd9dfe1f08bffa397a4dda8a6f soc: aspeed: lpc-snoop: Fix usercopy overflow in snoop_file_read
+87b2a82e135ba81e49d82b59e3d72468cb66ea98 xfs: clear zapped attr fork state when bmap repair finds no attr fork
+cc3144da377de5fb422d44a2311f978623f7c900 xfs: fix off-by-one in rtrefcount btree root level validation
+813f8136a2ce1fee266d02a7df73db6e8a541604 xfs: bounds-check buffer log item's dirty bitmap
+d852729c5f4f830fbe7413df032e29459b3daf83 xfs: handle NULL b_addr in xfs_buf_free
+7aa67044e7d8b6eebc44b25745f16c83ccc40a94 xfs: update BDI {io,ra}_pages values based on the RT device limits
+270ffcd9b0a46254fbf3079d0e3341db7d7ec0e6 xfs: check cowextsize in xrep_inode_cowextsize
+61606f8846a9da8ab7d2d36ff4617134c9d6df1b xfs: fix transaction block reservation in xrep_rtbitmap
+8ed78104722b57df69478b0b1608a408c1036085 xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error
+49933254ba8d421ed706cbe6ed0fbc264e572cab xfs: zero i_nlink before repair puts inode on unlinked list
+b28d23c51635b646784a2a62c71ba99458c07d5e xfs: mark nonzero sb_gquotino as corrupt on metadir filesystems
+8eb052f48331474c2789d07b7f11165c323bd2f9 ARM: npcm: Fix OF node refcount leaks in SMP setup
+9591fcc95dddfd24298724f8eb5239e907980779 sched_ext: Mark waker CPU busy when selected in WAKE_SYNC case
+d4a00d61a5c2c24973175ace5368d1f6acf9bb0a selftests/sched_ext: Handle sleeping task affinity changes in numa test
+1df696a7d18d5a14e6482a8dd3ca6e588735ac65 Merge tag 'arm-soc/for-7.2/devicetree-arm64-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
+645effc0984ba8cd83cdf31e5a29945cd40973e1 MAINTAINERS: ARM/FREESCALE: merge Layerscape entry into i.MX entry
+797fe91e50d6927f90f0c3b4444277c2c7c8b42b kho: align kho_scratch to MAX_ORDER_NR_PAGES pages
+7e7f81cf6f5ca3311e526308f55d7c54d3ba71f9 x86/bugs: Make Safe-RET robust against interrupt injection
+cf6c993c0feca7984797e634deba3c80342e199a fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+d2f96bcb89d36d488a10e3bcf819b98536968286 fs,fsverity: remove check for fsverity being enabled in setattr_prepare()
+a3ba349af8e1bb7e0efdcd2dd53d69282f18478a arm64: dts: qcom: eliza: Fix DSI1 phy reference clock rate
+bab4d538f8485e0d48538fcb82b285df3779278e ARM: dts: BCM5301X: fix PCIe controller 2 second interrupt
+6de6732c4c784ce64e2457630ca800dfe5efb774 ARM: dts: BCM5301X: EA9200: fix NVRAM size
+0e1ffa6f9d72726321bd62abf849d71703324198 Merge tag 'imx-maintainers-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
+111b787c9e31ff4cb2ac4d17513b492fcd99aca7 Merge tag 'qcom-arm64-fixes-for-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+d14b5d0e97fccd27974fedc03b903408872907fd selinux: reject a permission value exceeding the class permission count
+9a82dcd98b6e6e11cfd162410967951f12152528 selinux: reject a class permission count below its inherited common
+28254722a459938d97150d3b0712b81e06d0645e selinux: bpf: check SBLABEL_MNT before isec init
+e053b624f5d36669756990743346157be9f68c34 NFSv4.2: fix nfs4_listxattr size accounting
+6d4514ca9cdf61fec4ec634cf50386f6f7e69748 futex: Prevent robust futex exit race some more
+2fd9b4cfcefe30cb506072f78f2cd3b6dc8a29b1 Docs/admin-guide/cgroup-v2: document io.latency rotational vs non-rotational behavior
+b2d5a81dae385333f9734910277fbf94c78bd17f xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
+fb082235c67551d526704e07a4efb82ac3a9ba48 xfs: fix inverted clearance of inode junk flags
+97efed1091a50e4dbf31307015138b43a972d2e4 xfs: only check mergeability of bnobt records
+5fc643fb86599e29b38e7b2c2680b4b15bf8f772 xfs: don't double-lock when deleting a self-referential directory
+8af9cd79cdf6ee96ec610d707db22244fa21eb40 xfs: don't return EFSCORRUPTED when scrubbing corrupt parent pointers
+5ee37132ea81abd36213b31a72140660c2aac54b xfs: don't zap the attr fork on repair when there are queued pptr updates
+b1a296fc2241f724ef8f14da6a4efa800d444dac xfs: nlink scrub must take IOLOCK before determining ILOCK state
+0c88e10d12de9ca7cbed1467bb1b52310101bff8 xfs: avoid UAF on sc->tempip in xrep_tempfile_create
+7cdafd8f10ebdf745ba6046b9fa67490c343a17f xfs: hoist per-bucket unlinked list check to helper
+527eaaefddb6ec5c83a06c9a1559960dd6361753 xfs: don't livelock in scrub on a circular unlinked list
+1e96a00e0d3a00be6e4f368b2f18e2d345f813ce xfs: don't walk off the end of a null sc->sa.agi_bp in AGI repair
+6b9cd540138a06660a843a519facc147060acbef xfs: load next_agino from the correct xfarray in xrep_iunlink_relink_prev
+5644fab990fc72406dddc91cbb8304659d77f3f1 xfs: pass runtime errors from xrep_iunlink_mark_ondisk_rec up to callers
+2daf3ed5d059dec79c123aec42eb8d28e0c016d4 xfs: check xfarray iteration errors when committing unlinked inode lists
+68ab37650ce5195b4f4f8466444a36a78207840c xfs: fix allocated inodes that show up in the unlinked list
+6d67c6b99f1fc07c64b97fcbc974c6f1ada7f622 xfs: fix another iunlink infinite loop bug in online fsck
+af146cb7ff8ff5c54162f35c238f3ff1d5ad110f xfs: set the prev pointer when reinserting an inode on the unlinked list
+0052633527158b49762ab427e73924e4f8d25e6c xfs: don't ignore runtime errors in xrep_iunlink_reload_next
+63320a0f70f66f311f4bccff3af0719c2119f46c xfs: fix ilock leak on error in xfs_dq_get_next_id
+e2b4a856085e9bd939bde2dee0d08b1d41babde9 xfs: don't swallow dquot recovery verification errors
+63de19199342e2598373cbb99186fa93e9116603 xfs: add a separate bio_set for spliting GC writes
+ec6978e6bf68fb6f51edd4f700f9a554dc0da894 xfs: add a comment to describe xfs_gc_bio.victim_rtg
+eb6b2cc1fc8ad566d746d128a559989ff0bba5cc xfs: check v5 superblock features early
+cf3eb490ff57d1ce1bd7dcee59ed03de757ce979 Merge tag 'arm-soc/for-7.2/devicetree-fixes-v2' of https://github.com/Broadcom/stblinux into arm/fixes
+35e66f03de8f5343825adfc21bcaec4a99d3d4c2 Merge tag 'cgroup-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+be76b516e681e5a620877bd3d0e1251b2ab38366 Merge tag 'sched_ext-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+c8e0d43058e6aaaf198e418a1d28a8da6e2dda69 Merge tag 'liveupdate-fixes-2026-08-03' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+1ed35ac7f3fe2b4396bdd29ac3a7f0ebc0829e94 vhost_iotlb: bound map allocation in add_range
+0619aaa34c0c2a2dcb07f0e9c8a34e7efb8c4cdf vhost/vdpa: reject overflowing PA map page counts on 32-bit
+727e1f569855df83579edbd73dcb4a0723543a12 vdpa/mlx5: Fix buffer length in create_direct_keys()
+2e718c88315af1c0a04fd9c295d605944a7949af Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+848acc8ffe1b7cd5f1bf427b93069becfebc2c9d Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+e5c0235a3c4e9eb047a16cd02323fe4ecf2f570e selinux: do not cancel a policy conversion that never started
+b98a8ac50775540f3804397ed08f61ef9910bcab selinux: require a class's permission values to cover its permission count
+22b05fec62c0fe9864cfceb52f7d0f3a34d9b1dd selinux: reject an unclaimed class value in security_get_classes()
+a93d37a09b863810653f93d371fb197457d59deb selinux: require every boolean value to be defined
+d876c493fc4b811941bfeb4c80beb2dfc4bf025e vhost-scsi: Validate T10 PI scatterlist counts
+de845981da67a6b049080c87e605130b0c30adc5 vhost: reset the vring metadata cache on vring reconfiguration
+22598f55a4c2b510b3df5e69e563387a963222ae vhost-scsi: flush backend after device ioctls
+42bc45df5905e2b7dccb72adaf7730f66cfbe03f vhost-scsi: reject feature changes after endpoint
+6cdd8cbbf89611da6c948d58daed1c53f4bf8321 MAINTAINERS: add Ryan Chen and Billy Tsai as reviewer for ARM/ASPEED
+7140eea2470c6a1147ee0e21c11737620e6f6983 Merge tag 'aspeed-7.2-driver-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
+9c1cc4a7f79275ef93746f6247685763b475bfb0 selinux: check level category sets once at load time
+5ff232d31106f45ac87c3b64e1d35a0667777797 ima: fix out-of-bounds read in xattr_verify()
+b80bed5c871a80151351342c065579405ce77145 ima: Instantiate file_truncate and path_truncate hooks
+7c350d079e79cccd6a30d7632fb3211e7f6fedb4 Merge tag 'nfs-for-7.2-3' of git://git.linux-nfs.org/projects/anna/linux-nfs
+562bfb501c54a4d676528fbb70552f520fe6603b Merge tag 'integrity-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
+31996e14bd59840692d6c1c6e41ef878b77a2967 Merge tag 'locking-urgent-2026-08-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c73d40a1e700d8362439954b48ecdf4d6b062a05 Merge tag 'nuvoton-7.2-arm-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
+c7a127371ce5dc3d073cc69ba70145c2c420d8e2 Merge tag 'aspeed-7.3-maintainers-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
+c21bb4193868a8de71fc4693fa741e195fdf5d86 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+6e3abef2a27e7402a94111c9eff85d887e64a309 selftests/ftrace: refactor eprobes test to fix argument checks
+478a1c3abebfc717db0d1281a9cdd7befafee542 mm: fix incorrect flush address in direct page table reclaim
+0d839570765118029aa8bf4a95444c6a11aacf85 Merge tag 'soc-fixes-7.2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+c5096fec0c58a4f4d2475d4d88697c505800e50e Merge tag 'selinux-pr-20260805' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+f5fdd6665ac4d8528ed1c9242cb1cf7a7f5bdb0e Merge tag 'x86_bugs_saferet' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ad7d48f1fb6599a51fcf51472439a555e6b802be Merge tag 'xfs-fixes-7.2-rc7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+fcaeecb8b0cd44f77d03b28de0671258d4db18f8 Merge tag 'probes-fixes-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============7037837170750489117==--
+--===============3589708652399715004==--
