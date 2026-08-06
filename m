@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 06 Aug 2026 21:21:23 -0000
-Message-Id: <178605128386.2511084.13150493492944473339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 06 Aug 2026 21:27:58 -0000
+Message-Id: <178605167867.2515388.651624660713039973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/for-next
-    old: 333125935b619ac37e15007603b2d992de6f78ac
-    new: cd8c950380511cc44f007975d8dc7f48e57f2c8b
+  - ref: refs/heads/driver-core-next
+    old: f2687db25dd52319cb06ef4aa8cc2a13fa0203fa
+    new: 98c63ce4d7606b2362d8702f159b07f77f75547e
     log: |
-         6d29372998a308bb77e91548b69c9de64850d648 ASoC: codecs: NeoFidelity: repair the kernel-doc format
-         a4ed0860e3a66e12e174f4f64153428134f997db ASoC: fsl_asrc: avoid kernel-doc warnings
-         11c3fb527b8bc27dc8d801f43133e1b3af61804e ASoC: fsl-dma: fix all kernel-doc warnings
-         6a59c9a79aa06e860976d68cc2952018d8b8c11f ASoC: fsl_easrc: use struct keyword on structs
-         728b72e10742b71e5b023ac96c85ab17153b75cd ASoC: fsl: mpc5200_psc_i2s: avoid kernel-doc warnings
-         f881c12ca1f0434b3262b23748f2c75107961060 ASoC: uniphier: don't use "/**" for non-kernel-doc comment
-         ff322994c76c53d7fd2353c7c7c328bec6171510 ASoC: SDCA: correct enum names and add a missing struct field
-         cd8c950380511cc44f007975d8dc7f48e57f2c8b Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         ebb314763f975af722a9f3c86752cdf82b61c78a rust: io: register: dispatch shortcut rules internally
+         78e9b438923165e13340031761d5e08b52d3b0c8 rust: io: register: remove unused rule arguments
+         2230d38828506c1c84d39da03e2158e7fc0542fe rust: io: register: use path fragment for alias destination
+         5391b147d9fd8d4736e28c629cda00fd37c2304a rust: dma: return zero for Coherent reads past EOF
+         928369abdd9bf21da698b86d99a7eca2a74c9bed rust: net/phy: remove expansion from doc
+         98c63ce4d7606b2362d8702f159b07f77f75547e rust: irq: make Registration compatible with lifetime-bound drivers
          
