@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 06 Aug 2026 00:17:50 -0000
-Message-Id: <178597547024.1283375.7431901523185721176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Aug 2026 00:24:34 -0000
+Message-Id: <178597587428.1287580.12111344657834582309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: cc606b6c2328b4864885db6afcad7e78c0ac7a73
-    new: 61abeb28f7c4ff3ee242b4e2b8f3a93a78a8d5d3
+  - ref: refs/heads/main
+    old: 8aecf0bbcc72605592134c917c222207d8f63ab0
+    new: 67a4c0bad8c4cd1c406880971ebbb41c3760f627
     log: |
-         24fb36c1936bdf4fcda6ad3c99c862fbc8703e93 ASoC: cpcap: Remove modem-specific voice call support
-         26a92a696897a1746e507febc0b00ecd4ceaa165 ASoC: codecs: cpcap: set voice DAI format as specified in DT
-         61abeb28f7c4ff3ee242b4e2b8f3a93a78a8d5d3 ASoC: cpcap: Use standard ASoC DAI link configuration for voice
+         5f26a690e8efa54315e4922368daf54e0b8f5515 mac802154: fix netdev use-after-free in beacon worker
+         0f02fec6e3ba273d658dab0ac534149a6c7c6ece ip6_tunnel: use skb_cow_head() in ip6_tnl_xmit()
+         67a4c0bad8c4cd1c406880971ebbb41c3760f627 net/ncsi: fix heap OOB read in NCSI_CMD_SEND_CMD payload length
          
