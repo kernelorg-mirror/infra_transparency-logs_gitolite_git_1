@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9064646818063263669=="
+Content-Type: multipart/mixed; boundary="===============1598035807399374595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Aug 2026 17:32:08 -0000
-Message-Id: <178603752896.2288347.9775719671400829036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 06 Aug 2026 17:37:28 -0000
+Message-Id: <178603784897.2291137.220820897883115874@gitolite.kernel.org>
 
---===============9064646818063263669==
+--===============1598035807399374595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b56187032124d98e735a50cc1e7c439ca0312b88
-    new: c8474333ad52d0f1fc3f38cb1df226d0ff42a360
+    old: a82cad7f4b08da51ee6bf14b2bc9a54c48f9c8b1
+    new: cef5141a7b007b64523c5a8ebe901f8459ab75e5
     log: |
-         e844b75b8f92fe33a559583f94792b3f3623ad99 delete 6.12 queue
-         c8474333ad52d0f1fc3f38cb1df226d0ff42a360 put all queues back
+         cef5141a7b007b64523c5a8ebe901f8459ab75e5 assign a reserved CVE id now that it is public
          
 
---===============9064646818063263669==
+--===============1598035807399374595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786037510 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786037524-bfe8b1507ef26de54fe5e479464febdf2b73b8a1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786037833 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1786037848-130aeb0e37f5bea6e41ef8b5e62ead8ae7884630
 
-b56187032124d98e735a50cc1e7c439ca0312b88 c8474333ad52d0f1fc3f38cb1df226d0ff42a360 refs/heads/master
+a82cad7f4b08da51ee6bf14b2bc9a54c48f9c8b1 cef5141a7b007b64523c5a8ebe901f8459ab75e5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0xQYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GMAQAMfpQJniQv+BKYVQK0/s
-lq7cQDfhf7KRqSItahJWXju7+bgNcc/NylhK3z2b5OihheaIKJFux+dXaUQPGuln
-wKwS0WSMhpk8uDZyMUKoMPIK1biGvKLJ1jVgzwmx07arwW8+k4vg7vyvVhxP12yq
-B2yQ9em2cx/JVo4YUVUBi5nEfWv13nWHr2JFdsKAC/xKQtHE5n7vbfFBAmST4j+4
-1a3rZUsQIeASjorzAHRl9g+2EyWOEOLFmZjrjcjtQ0eiczZa3tKv1nfRHYSgydmC
-qZLHYiitnkdVB5CW0iyqAhMEK3m2kjzzLAqRLYSiELYb2YFfxt8r8UP+c8J9yyLN
-XrLb6gFJsNL9Nf/g6RNyQ5YiVqbAzdKZG8Qt9ZSJIkPh9rBXJ3KykrklUQ2Io5MW
-Nx3c3G0oAKOS5Tcugam8Mv4I3JviLaDsmA/khBwykfDSIK5YJNTxbqFq7m2INLGy
-xvtuBsIxwaeu/sz3asmbxXrzLKd9airm2+3fZGTb20yoqI92KsdCkcQbp5Mx529l
-6hDvd1zUTpVLlLOltkjifwA6QIv1bX/Qff3h17PcR8o5/TBU2QLxGVbYJJ6B3SD9
-551H5FFcV1f9z0S+RlhAjj8NYRzh47TD9twkXIWz1h85980SZS3YBi6FXULVR62g
-AFxpgtY6FP/zLZZmXspJYiGM
-=Gm+J
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0xkkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mgEP/3AaI86DoPxEfQ1Kl6n/
+pLeosIna30w/YIcODfy4QiUnxw7QMLxZ7skoQNqZIgiFqKh/NayVsZEx1V0+UCV6
+dmqnoBVg3jUUTzrFI02p/yodfcedjzEVMg3uL8Ew8li+JbNWYJUksFXwYmpvxNlr
+DEW4BdFb4vnTUCkhGzez/XojSy+HHk1FqHJkX0QrBznKxViak4bXB+A8aHIv9pBF
+lWTqb5W8AL0QFcogVLOS0kjluhXq1a+58McEMtU91BmkSSkUZQV1Z1wU7hInIMVl
+N/tQLxmsv68zXzKpXEVI5YDRcyWyIjpkqqfaH5TVSy2Pdlp/qmJTo84i6LkJ6OcX
+g2KYJalM4Gld8rHG9fs3TXTHKdnapqTT9MrEXH+R0VZjwmNaXGEhZAZJIdHAwZmY
+XOQsrRUgmrgEh/0/ZAo7geSqug1oM1ppVkJc0pY3POb8mX/rTrW0P1sax5osg7Hp
+rra1KNUbLtbZybeALr/Dk/Z7Dt+G09Ap/npmWeJk4imBuOE0DCLqy63cKXMEiTE1
++1m893K2Ogdj6a6w4Uj1zmpacezl6NMDoj79UVKP1kiGWoPYGuj9Ri65YCwSjKNb
+e/fjdxOwR5s73dJn4EfVNGdHw8ceMnmViPdTNgRdYaMD9ge9IjkSvuN+FM2YZhsw
+CXXNLPQjeEvIZgsUKhQsrpR4
+=vd5D
 -----END PGP SIGNATURE-----
 
---===============9064646818063263669==--
+--===============1598035807399374595==--
