@@ -1,60 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6204081838993505199=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 06 Aug 2026 05:41:55 -0000
-Message-Id: <178599491564.1569968.6382067441402897813@gitolite.kernel.org>
-
---===============6204081838993505199==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 06 Aug 2026 05:44:45 -0000
+Message-Id: <178599508587.1571061.80876279068110564@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/next-test
-    old: 5458b50b5291390ce0af2872a1baa51cc58e8f08
-    new: 0fcdb510932b90160c47d3c38f6ce43852d7e14f
+  - ref: refs/heads/klp-fixes
+    old: f7aa7f27c504588b2588f5f9870c21f45adfdcfd
+    new: e0d725acb4774747f0e271308b4ca33daae2d5db
     log: |
-         972a7b78722cd2faee75148278322d844f4274bb powerpc/pseries: Limit PVR list to 16 entries for CAS negotiation
-         e671e147ea51e95d7535940ccb2b76ce681ff765 powerpc: Add Power12 raw mode
-         287df870bf47d191875ca12f951dde7a6f913251 powerpc: Add Power12 architected mode
-         aca7cf5b1ffe07f1a1aab5db71a6cd14e07165f4 powerpc/perf: Add power12 Base Performance Monitoring support
-         ad0889338bfed33da6b8127d7d8ae0a4d6e4cd5d KVM: PPC: booke: Use min() in watchdog_next_timeout()
-         0fcdb510932b90160c47d3c38f6ce43852d7e14f KVM: PPC: Use min() in kvm_vm_ioctl_check_extension()
+         5a3cc4cded743167dd0878220201d80f7e48e5d7 objtool/klp: Fix vmlinux .klp.symid link error for .no_trim_symbol symbols
+         913e691c5009397df832c7c9a18cd5cf71b42737 objtool/klp: Fix size of empty special section entries
+         7a885b70974795c3417f3358869e62aafd4ef783 objtool/klp: Ignore replacement offset of empty x86 alternatives
+         516e14f84cfbffa27dc19d3dcf35097504097966 objtool/klp: Explicitly disallow patching or referencing init code/data
+         ee93a08f3e55e76ffa67d04e283917ddaa893f09 objtool/klp: Fix cross-module klp relocation section naming
+         dafc7c017d1f62e2190a20dc84a52fbfc4c70210 objtool/klp: Don't match local symbols against exports
+         e0d725acb4774747f0e271308b4ca33daae2d5db objtool/klp: Allow new references to module exports
          
-
---===============6204081838993505199==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1785994910 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1785994909-03e6205d2b4b96e8bbeb179b4bf47aa3576c999b
-
-5458b50b5291390ce0af2872a1baa51cc58e8f08 0fcdb510932b90160c47d3c38f6ce43852d7e14f refs/heads/next-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmp0Hp4ACgkQpnEsdPSH
-ZJT2mw//ctXvx89Y7oWOp38ulLkxhQh9Ca2dtGpUTHzB5CP8stg1iFkAxY+u8JTw
-vpMuDWUASufXKQmcLpeCVOxfrGBXwu6ypZWQjvuCxwqnwBlXdo9WQyZyt5cCxeAc
-cbYhEit3y9u0wMSlElHOMBq6Q6bNB1JAIuP9nriTdaHkkHxQcX9rBtGbjUbrmItr
-2NHaT88AcoKBgPHVWsCfe0dyu5mQ+JsR15mnRph+PnC/pU9hbsBJ7pQB6Cbfb5jl
-XNNWucMInVwHC5Ydb7NMBxumz0VOTCHkCfwqpiDgqXXfnnE8I7orfvFGYpOtqKdF
-U9B5ju+XALUJV8fJd5uoLVEISHdCAXiRYmlBosCCxrRbfso8KzgMTkOrvTODo4dX
-22JWIsReFrviH5QKXkDV3CoSq9IgoJkjTwqdPvlBMqTm+ySZfoNvT5vykV0fBS3C
-HtfjdKR1OlDrgKj7JuwEDZWRfSYXerQGVhaVrdImrLt5uUAkydrFqlyl0JGpmZte
-HKZMwAND5N/AyujQfdeUBjbuob9zIMsNU/I+jaZKcxmu7se+kiV3oJgI1r4yrL/Z
-HDn3D/9i4HzYg4zAtR2RLtkQhQ9+3GurJ8mCtna8mbXY//5VA7kFGlkAtgUjOyU/
-jySQiH4pejGp4PZJRftBqRaZqUvqZKl+WNHuN/SLgJUkiIb+P5Q=
-=omh1
------END PGP SIGNATURE-----
-
---===============6204081838993505199==--
