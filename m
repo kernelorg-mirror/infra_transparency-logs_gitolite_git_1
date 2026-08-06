@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Aug 2026 11:35:59 -0000
-Message-Id: <178601615938.1837458.2533491459043772983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Aug 2026 11:39:38 -0000
+Message-Id: <178601637834.1839044.14523270893155831859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 1b01a96c59c5044f23fb9f42e9bdf0a51c49a15c
-    new: 5536f5228d2300ee063755fa3acb19ef21b89e9e
+  - ref: refs/heads/main
+    old: b8a39a09ae4eaae04309e1e38ed6a1101d967496
+    new: 185a4caeecabc150106deda1da170b09f2ad803f
     log: |
-         5536f5228d2300ee063755fa3acb19ef21b89e9e Fixes for all trees
+         185a4caeecabc150106deda1da170b09f2ad803f net/smc: fix TOCTOU race between smc_listen_out() and listener close
          
