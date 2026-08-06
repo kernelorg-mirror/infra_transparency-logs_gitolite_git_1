@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8901025528075727719=="
+Content-Type: multipart/mixed; boundary="===============6128793501474210201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 06 Aug 2026 07:10:56 -0000
-Message-Id: <178600025671.1636774.5613273103903941696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 06 Aug 2026 07:14:25 -0000
+Message-Id: <178600046599.1638080.5070737462940246465@gitolite.kernel.org>
 
---===============8901025528075727719==
+--===============6128793501474210201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 801c60e0c26f49cb0869b0c46e88c7f6ae80e7eb
-    new: 2aa88e1647edfaa0eb413a3c9e524869b92c3579
-    log: revlist-801c60e0c26f-2aa88e1647ed.txt
+  - ref: refs/heads/master
+    old: 867cd1fe59f496b8280678c18c4bd74c9e30e0d1
+    new: fdd500f072222517bdceabdd2a7f2a7e961e3be5
+    log: |
+         fdd500f072222517bdceabdd2a7f2a7e961e3be5 assign some more 7.1.4 cve ids
+         
 
---===============8901025528075727719==
+--===============6128793501474210201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-801c60e0c26f-2aa88e1647ed.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-116793d66d3be09025140f8fd0f1cab25bff2500 f2fs: print error information in f2fs_put_super()
-3369a0291ff76b0eb71523acc2de102bfbbc77f1 f2fs: support dynamic reserve/release for device aliasing
-235c79655249fefbc85ac033bac30554854295ce f2fs: call __add_ino_entry out of the eviction path
-3c8ddf870670c16272ed1b8e19da701f9b94c219 f2fs: quiesce background threads during system suspend using PM notifier
-023eade52f637a4ab23304baff65191d0292eb30 f2fs: fix to zero post-EOF data when extending file size
-203d54bb035362c242a415669704b35a130b6fef f2fs: reduce memory footprint of ino management
-efcb2a9a7162ee8df006c8b647c8a542839e9567 f2fs: fix to avoid grabbing large folio in move_data_block()
-69c5eb603c6504e9f04e10c6224561ad20d7279f f2fs: use killable function to be aware of SIGKILL
-5f9530c821444751e848d95c79836d10bf21e755 f2fs: introduce trace_f2fs_enable_checkpoint()
-aa48121bd69daf1a0c3b7121308b9f417b0dafde f2fs: introduce trace_f2fs_map_lock()
-ffdb9723c69dea4d3df8f4fe4272a0e3144c730a f2fs: introduce errors=ignore mount option
-2aa88e1647edfaa0eb413a3c9e524869b92c3579 f2fs: support to detect inconsistent type of segments in large section
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786000450 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1786000465-ffb91f0904b3f974cf995c196b40239d6dec5740
 
---===============8901025528075727719==--
+867cd1fe59f496b8280678c18c4bd74c9e30e0d1 fdd500f072222517bdceabdd2a7f2a7e961e3be5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0NEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YMoP/ia4AkFx5jplmw+tdU7I
+LcYmYaRK4lmTjVU82lQ7St73ok3w4miiBadYqURWbzAErXI2hCxwaubBcOYzi1IZ
+nEmMv1lKTzqfkqzDKfmDDmxQ075Ob8HrgbKK569+Ky/X0AonoWrXO3VGzGcI6xqW
+QYTz0FvS72VYxJxHnXBdmDOQMgZPzzyqiKp14LEpkqGfJMdX4X2WvSyyWsS+1tW0
+GF1+3o6RzDBOmuo3FADbDBYAwRewuaIcksBqPXpsPF4u1yrru+mxcCdS4KGgdzGT
+Fue5tVnhdqr6H17/ZKwLjuiLQ7/E++sSk81l1HZWdp3PvrTEjZKasvTY2SpNZtVl
+qoNDMaRyGna9OSXmmeIfOhSCPXeksZnB5RUIesUwKMgkuLxEkh4uX31qiTj2KZo1
+1jP92cn0dJAkxC5r0fd7BhZ/ctUl1PlA3iTWCNxZ0npyREraSPSBa2SGSH0PkxZf
+SJduFiCgT0firE6DMnLS19SQO3AaC/Uvfgamr4TZO2saMY7sf+uDo3CKWzdUVYgP
+RZ4ZYxiqWf8sgDy0XIKdeXGjQfnfMubj2fUUBpIlSXvZByF5kk1qX01TEy626tOZ
+FcTwFNqFxE7mwqtQi+bzThUxl8DJ/MNAqkFvXzMSaY4Cp8XJDNRIGb+xIt5/w7O5
+SqyJtYstYsG8dso44HRjdxzS
+=MddK
+-----END PGP SIGNATURE-----
+
+--===============6128793501474210201==--
