@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 06 Aug 2026 15:58:01 -0000
-Message-Id: <178603188191.2150297.16247760205254516925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Thu, 06 Aug 2026 15:58:57 -0000
+Message-Id: <178603193724.2150782.9851297791046682236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 667d0fb32149f023b8b34a1f6f3d384556eafb5a
-    new: f88db65aece9f9d26287b6377b7c7730ecf9f11a
+  - ref: refs/heads/for-7.2-fixes
+    old: 3971921a055330669b281962ff723d1abb76a58c
+    new: 7700a31039cdc6715cb6cce7e7a664ee4e945f67
     log: |
-         4f5f23846d6713c05481c8cfc710bb23817bf5e9 rust: io: gate ioremap/iounmap on CONFIG_HAS_IOMEM
-         f88db65aece9f9d26287b6377b7c7730ecf9f11a rust: io: gate ioremap doctests on CONFIG_HAS_IOMEM
+         7700a31039cdc6715cb6cce7e7a664ee4e945f67 ata: pata_sl82c105: fix bridge revision use-after-free
          
