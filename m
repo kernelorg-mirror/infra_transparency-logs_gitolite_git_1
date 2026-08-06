@@ -1,20 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 06 Aug 2026 15:01:03 -0000
-Message-Id: <178602846323.2048173.13201339035632480657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 06 Aug 2026 15:03:13 -0000
+Message-Id: <178602859342.2049116.675662464921856975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 145dfec3ca138f129f1d21286706daeb39db2447
-    new: 0481bd1f13f74097a0538e621fee3272161a02be
+  - ref: refs/heads/for-next
+    old: a7e2cca7941bb99d0b1081bf05f00f6c9ecde2d4
+    new: 2a611c4a1cbcb179cd8079a7ccadee390dac66f6
     log: |
-         cc4fcb3d3a3e595729be47a9dd76b6f50a448ad0 patches/next: vaddr: support probes
-         0481bd1f13f74097a0538e621fee3272161a02be patches/next: vaddr probe: fixup compile warning
+         02442d5fe8ee365a084b055d4fa81a0c1abfc3fd ALSA: dummy: Check card index validity at probe
+         9c04742e73b32fb3912e1d9fb9f804affb340dce ALSA: rawmidi: Work around false-positive mutex lockdep warning
+         2a611c4a1cbcb179cd8079a7ccadee390dac66f6 ALSA: hda: cix-ipbloq: Avoid build with 32bit archs
+         
+  - ref: refs/heads/master
+    old: 28a6aff8559eac7c131f4e444ffca3f90d60969c
+    new: f775059f247f6f78712ece126c633e11b5636874
+    log: |
+         02442d5fe8ee365a084b055d4fa81a0c1abfc3fd ALSA: dummy: Check card index validity at probe
+         9c04742e73b32fb3912e1d9fb9f804affb340dce ALSA: rawmidi: Work around false-positive mutex lockdep warning
+         2a611c4a1cbcb179cd8079a7ccadee390dac66f6 ALSA: hda: cix-ipbloq: Avoid build with 32bit archs
+         f775059f247f6f78712ece126c633e11b5636874 Merge branch 'for-next'
          
