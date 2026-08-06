@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 06 Aug 2026 10:50:12 -0000
-Message-Id: <178601341224.1802639.3182338432637955167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 06 Aug 2026 10:54:08 -0000
+Message-Id: <178601364837.1804384.7496292538655725253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 5247dde9daac7e107853b6fea043f7f47be033f7
-    new: a9394971825933074032794a5feee5211509c774
+  - ref: refs/heads/main
+    old: b0057c68df711bf6a62033c072ac61c4f9d3cbc1
+    new: 51e15308c6ae634ddae8f241d711ff5866909b58
     log: |
-         a9394971825933074032794a5feee5211509c774 RDMA/siw: Fix use-after-free in siw_accept()
+         51e15308c6ae634ddae8f241d711ff5866909b58 rtnetlink: cap IFLA_VFINFO_LIST at a documented number of VFs
          
