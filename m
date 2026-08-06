@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 06 Aug 2026 07:22:05 -0000
-Message-Id: <178600092543.1645260.17359414833879049060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 06 Aug 2026 07:41:34 -0000
+Message-Id: <178600209449.1659133.9783068518355561154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 2aa88e1647edfaa0eb413a3c9e524869b92c3579
-    new: 4591dfd1c770d3551001ed4a998d1f1bc3d50397
+  - ref: refs/heads/master
+    old: d02fe3051e7b8dc6d9b8380cf1b4b994c6292ed8
+    new: 59cfdd07bfa214b55745e7bfc54c11afe5d4eb06
     log: |
-         e8e2bc42ba6f83cc9087b7d059a122f0b5362f50 f2fs: fix to pass folio->index to f2fs_sanity_check_node_footer()
-         ab7851f41e3cdcd11f588060ccc0da663fd477c8 f2fs: fix to avoid grabbing large folio in move_data_block()
-         6852dd9e1a0bf62e44a5b06641e462b2e18eeaa5 f2fs: use killable function to be aware of SIGKILL
-         c0cd0291e8d745421951b111aa5b33454ed4f52f f2fs: introduce trace_f2fs_enable_checkpoint()
-         1f8f2ebd82f62006b88ecceeeebf1dc483f940d9 f2fs: introduce trace_f2fs_map_lock()
-         53e324017821b98c22a73d571d08909b3b87d5c5 f2fs: introduce errors=ignore mount option
-         4591dfd1c770d3551001ed4a998d1f1bc3d50397 f2fs: support to detect inconsistent type of segments in large section
+         c980eafc5b738f274b36fac634f06ff000a07038 x86/mm: Use guard() in cpa_collapse_large_pages()
+         7558828805dae97ed82c8662119667189d062415 x86/mm: Use guard() for pgd_lock
+         7da514d819a0afb148634aac92b3d190f34947c3 x86/mm: Fix and document DEBUG_PAGEALLOC
+         6cc3a72caa6eb118c38f887d4608b9adb80e90e8 x86/CPU: Rename struct cpuid_read_output to struct cpuid_output
+         33a581d800670e5d91e99203536d15ef7451ad69 Documentation/arch/x86/amd-debugging: Add example for reset register
+         0fef8577a6f21f72c564253a9dc91bf3f6944e0c Merge branch into tip/master: 'x86/cpu'
+         e1c3dfff322e2fe33f8f63c8f94cb6b635162fd6 Merge branch into tip/master: 'x86/documentation'
+         59cfdd07bfa214b55745e7bfc54c11afe5d4eb06 Merge branch into tip/master: 'x86/mm'
          
