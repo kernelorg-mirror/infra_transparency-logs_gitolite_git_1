@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6401830423778794453=="
+Content-Type: multipart/mixed; boundary="===============6459196241813868728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Aug 2026 17:26:20 -0000
-Message-Id: <178603718048.2282677.11630580478686590700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 06 Aug 2026 17:26:27 -0000
+Message-Id: <178603718712.2283015.14505076750828495880@gitolite.kernel.org>
 
---===============6401830423778794453==
+--===============6459196241813868728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.6.149
-    old: 0000000000000000000000000000000000000000
-    new: b6a7fb9c59e8ada9f28965161b8ad31279ecfc4d
+  - ref: refs/heads/linux-6.6.y
+    old: aa0e49877a2e61e9f4ca10e039727a34f59e9964
+    new: 80dfb0405055d6b289119040f62b20a5d89aaa9b
+    log: |
+         608c8f5dccaaf8b8d2b28c0fbdd439d144be62b0 x86/bugs: Make Safe-RET robust against interrupt injection
+         80dfb0405055d6b289119040f62b20a5d89aaa9b Linux 6.6.149
+         
 
---===============6401830423778794453==
+--===============6459196241813868728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786037165 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786037179-8e5dc1f95b202252b720d73a86b375d0d0b26ad1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786037170 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1786037184-c2ff7f6241a84259eb048cda65b45759737f3dc4
 
-0000000000000000000000000000000000000000 b6a7fb9c59e8ada9f28965161b8ad31279ecfc4d refs/tags/v6.6.149
+aa0e49877a2e61e9f4ca10e039727a34f59e9964 80dfb0405055d6b289119040f62b20a5d89aaa9b refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0w60bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q18P/1lI0D6OxKGezhldkmo/
-JTb7CL82DSefDeDjIKfk1yyrhZoSsRQvF1qprbLkECxnq2YN8lHxU6fxdt0oJbPK
-tYQqxWPlhIVbhmDU8dz+UtOSSoBnnyF0ol+4BRRQnEHUxlS1hbKXCHOuLgcPScD1
-soPYLdwmZpxr2yd4mbPtzaN0gGzrB41sjJlJ+MLnqoVMu2e2Q9nPDriMCc5nyEpP
-GiJgxhsv3LGdfaeXTsQMqBrLx3xyFv5T95+sjAO1QWsJ1QjiA/mE98OdvSRiX8LM
-4pAt29x006vfMKgLT8TOdFN6fK6oy5P5Mw+xWcQPNxPctmhPQw8VLd5eVhQOBzTx
-Dp6FqFgb1NM26/9G/AKIgi4Nrs6soIJekjtveea7SUtYB0H7Gfi8UWwjSPGhP+S/
-JyZBxnXeUlUKuHIYmusLukkn1qDI6cIgfGKtJdcHvvjesDup+AhuetqWTt47CGiR
-AHJjOXuxQcMGLQCWvKfnNOzJAOd2WPBD/lwU92lNVtR9RTNjaxiD3Q86PX3MCOAW
-7/bT5lPZ3nzMqEQ5T/wtBswGyzOfyfudEd/1nbXLHSqBqNfwQSk5dlzGXfgWX2J9
-3koMKNrBZXa+g2IwBUlo7YPVfaJ4aQuvjBtk6w/Nxgl0PB94azg2FqTC6DcVJ94U
-hZFRIh3etZ6pM7d8ZpgFKvxW
-=pwTw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0w7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S+QP/ip6DPVrR1P9KqAwLIMh
+X6bNFYr7SgyivbxEnCcVRDOekAxyQ7p6V9AHEge/YCeVrGKnlOAzIRKMZ62kcDo0
+ODLMog1BuaB5kbstsSUlkx69ybk55+qTcFNljaGKu7xf3paxFnY15W9Pw2ykB0PH
+KLkYdynYpL32lmAp5TlgN7t4WKzVivYB5JvKoNtQ6u2pie4M2PptUrd8FtFwBXoV
+OrI9+110l2s1GjxMQ7ikNgKKaDGoYy0vc0BO6o2inh1nxqt/A+zeFu+1W9hN+pYm
+eRVMAoTWgzvlJ0fNHZVuxLUXDCXZkYceKXyd1TLwvUGHzaHaI2UIgE4J9TxPlc8u
+GhinN9v/r8CR6T1IE5YFRCWc60FCC7cDAQ6NFKtgDaNk47md8/DQiQUtrXd3DZp5
+4KpC4ceeoskPAlqstxFmZVqGnu+La7HrT+Jp8tqe0zxPYsoRjaFA/i5HvDm4qSbt
+ZX8No1QUsmXfEq2hto9r34giZAmRNkp1ZP1cRN0daHOWzzYzG8sYaeQYfBRXYv13
+uOX77O9twN8a8I7cR+cKIfzMeVSLad/59LcbH9+tHnmdj7707buSvmUTRf+CQ5gx
+beccAc5bZiGNavm8TqOb9U4qP9banSJmElmRd9eE7ICo/LzsWzGHvDBSEtPhxv8c
+ktjC++dZ6TtgBPYE+IQ/fNEk
+=k7G6
 -----END PGP SIGNATURE-----
 
---===============6401830423778794453==--
+--===============6459196241813868728==--
