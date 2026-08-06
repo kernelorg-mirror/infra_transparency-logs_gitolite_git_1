@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 06 Aug 2026 15:00:07 -0000
-Message-Id: <178602840718.2047038.7190162245311288211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 06 Aug 2026 15:00:31 -0000
+Message-Id: <178602843162.2047432.7325771955828767526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/damon/next
-    old: 3b7c160ee22d1038ab97a2b8f0d8e49116856987
-    new: 30771d761f325d387fd2b8799f375c597969e92d
+  - ref: refs/heads/for-next
+    old: 7d008cde75c07713cf5bb9371d187a0ad3a37a4c
+    new: 8c7f55d60aa3512fd3da7e9cf313723460e487b4
     log: |
-         0e1e3dea62b02446f5a295e43f3d6b176499cb8f mm/damon/paddr: remove pa parameter from damon_pa_filter_pass()
-         97a59dc93b9d5c32ef262e54d2f2217a93deca9e mm/damon/paddr: move probe filter handling to ops-common
-         9809aed844a3b5d8da0372f1e2f8a24764a5b38b mm/damon/vaddr: support probes
-         30771d761f325d387fd2b8799f375c597969e92d mm/damon/vaddr: fixup compile warning on !HUGETLB
+         d65739bf93be5160c1e0af00064874bbe262d5b6 bpf: Account for preempt and IRQ state in RCU protection
+         a7f62506df941a506a138caa3849f48c11af22ec selftests/bpf: Test overlapping RCU protection
+         8c7f55d60aa3512fd3da7e9cf313723460e487b4 Merge branch 'bpf-track-overlapping-rcu-protection'
+         
+  - ref: refs/heads/master
+    old: 7d008cde75c07713cf5bb9371d187a0ad3a37a4c
+    new: 8c7f55d60aa3512fd3da7e9cf313723460e487b4
+    log: |
+         d65739bf93be5160c1e0af00064874bbe262d5b6 bpf: Account for preempt and IRQ state in RCU protection
+         a7f62506df941a506a138caa3849f48c11af22ec selftests/bpf: Test overlapping RCU protection
+         8c7f55d60aa3512fd3da7e9cf313723460e487b4 Merge branch 'bpf-track-overlapping-rcu-protection'
          
