@@ -1,51 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0100368934165643247=="
+Content-Type: multipart/mixed; boundary="===============2295437947485586453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Thu, 06 Aug 2026 05:45:59 -0000
-Message-Id: <178599515974.1573769.3544332711099640032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 06 Aug 2026 05:53:06 -0000
+Message-Id: <178599558650.1578355.379257635371259444@gitolite.kernel.org>
 
---===============0100368934165643247==
+--===============2295437947485586453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/klp-build-arm64
-    old: bfe2586ce91a8819db72a8256116f6ccc12a22e3
-    new: 1e3926b801edc0c1b9fb41d28e4a173d3b8ce33d
-    log: revlist-bfe2586ce91a-1e3926b801ed.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: fe3ab00d55aa56b4d55cbc1150448f0aadd6732c
+    new: d74fb8c4c87f10fd147114133f786a10f7e58d8a
+    log: revlist-fe3ab00d55aa-d74fb8c4c87f.txt
 
---===============0100368934165643247==
+--===============2295437947485586453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfe2586ce91a-1e3926b801ed.txt
+Content-Disposition: attachment; filename=revlist-fe3ab00d55aa-d74fb8c4c87f.txt
 
-a4b3b3c1eda4789d30d39fd23a57b4402b920839 klp-build: Reject patches to init/*.c
-2723146e002466ea0715b6ab4644d0e1439dc1d0 arm64: Annotate intra-function calls
-d780597c3931bb2d158294b97f6ed1330522d9e7 arm64: Fix EFI linking with -fdata-sections
-2ad3594593291b18548db48afbae6d0a629bf7ba arm64: Rename TRAMP_VALIAS -> TRAMP_VALIAS_ASM in asm-offsets
-35711b017410576ac90cbde7aa3eb7154a2ac950 arm64: vdso: Discard .discard.* sections
-08f01969fc24e8d5a41da3b2f0fe3095a671a4db arm64: Annotate special section entries
-31b0a63c90a2db7ad5296e09f183ae57e867ad04 crypto: arm64: Move data to .rodata
-f727f931c1d10c292ee28c5c166f6e33e0e7feb3 objtool: Allow setting --mnop without --mcount
-170130b7dbf6688bcc3d1eb5676657387644df08 kbuild: Only run objtool if there is at least one command
-4d921b16c3650fbf41ad068bc5d788914367999a objtool: Ignore jumps to the end of the function for checksum runs
-eb67baf626f9d026988e0150ecea9144dbd5ab1c objtool: Allow empty alternatives
-8b3aac06ac224b1260e4f70474f5f3f2afb84032 objtool: Refactor elf_add_data() to use a growable data buffer
-1fcab32ce22d68d0403e0c3ddba9ec64d7435c4a objtool: Reuse string references
-6d6db229e754043df13be5c74e75ad5eafc1b434 objtool: Prevent kCFI hashes from being decoded as instructions
-07b25da9e7daafeba7f2798b239ad4d58b23b037 objtool/klp: Add arm64 support for prefix/PFE detection
-9748d242fd3c3635e75262125ff0d66d6f7cb9c6 objtool/klp: Filter arm64 mapping symbols in find_symbol_by_offset()
-3c219d73e93d3c6daf1d4e72c25f9660220ced92 objtool/klp: Don't correlate arm64 mapping symbols
-6af45ec1208498630ab68c60b103d77666febdfd objtool/klp: Clone inline alternative replacements
-252df16fb44722ab711912a1917181d99aa8c607 objtool/klp: Introduce objtool for arm64
-0e36a2476c985db9b5f7a46fd4eabbda259fea17 klp-build: Support cross-compilation
-1e3926b801edc0c1b9fb41d28e4a173d3b8ce33d klp-build: Add arm64 syscall patching macro
+f53f5c2437c1bd76fc0063a30a069a5207de8802 perf c2c: Fix error masking, OOM, and unchecked caller errors in hpp_list__parse()
+6d421f609bba7b0b1a11741ec4b19feadfd27051 perf c2c: Clean up registered formats on c2c_hists__init() and c2c_hists__reinit() failure
+effe233ffd4a68ab0c376cb4316d751c097692f6 perf stat: Include PMU name and split uncore events per PMU in metric-only JSON output
+bc1504935ff2d9ab38e753b9f36e47885a1147db perf trace-event: Fix buffer overflow in read_string()
+9890fcd6be2bdd902536380d9bc12080b3466d3e perf trace-event: Fix integer truncation in do_read() and skip()
+af75c9e067ed9b3c850e9595d250fe8babdbaf1e perf trace-event: Avoid double free and leak in trace_event__cleanup()/trace_event__init()
+405fe73c5d2b29b0899c6ab8cffaa2c770b8f1b7 perf trace-event: Fix heap overflows in read_ftrace_printk()/read_saved_cmdline()
+6474ba05a25c73911930a52a6e00aff572ac07a7 perf trace-event: Fix infinite loop in skip()
+f3ec9120d1e0dbfe40828b1055fc098e9ab41f55 perf find-map: Remove PATH_MAX 128-byte stack array restriction
+0e4a79ed7412410995f1c8911b9d2801b0c9716e perf synthetic-events: Fix line synchronization, bounds, and truncation bugs in proc maps reader
+c36690dad123aec22a363509d076362a1495f39d perf synthetic-events: Fix stack buffer overflow and bounds in cgroup synthesis
+17134d69c3084f6777fb3dae2ccfa37736bad403 perf synthetic-events: Fix bounds, stale state, and misc flags in kernel module synthesis
+d74fb8c4c87f10fd147114133f786a10f7e58d8a perf synthetic-events: Fix bounds and union member access in mmap2 build_id synthesis
 
---===============0100368934165643247==--
+--===============2295437947485586453==--
