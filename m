@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 06 Aug 2026 16:24:08 -0000
-Message-Id: <178603344852.2173174.5805951142121454963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 06 Aug 2026 16:27:01 -0000
+Message-Id: <178603362165.2176288.2302769645197932871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 7c39d92d52c28686e7ae21eb726dc008fa1b2f0b
-    new: cccc77d8ce40baf2b1aaa2db884d75e83d58d09a
+  - ref: refs/heads/for-7.3
+    old: d4c669890ed0862bc2abb7d9a6e50c7057124081
+    new: 476567107f8b52b907bd351252fbb1e3670928aa
     log: |
-         1e1b256e50cac2c6abd52643e239ddd95661da40 perf sched: Suppress latency table output when trace samples are missing
-         9b27c1f5d0583f83e03555cc7bb7b09a16c166d6 perf sched: Handle missing trace samples in pipe mode
-         a6a39d047f3254e8eb14f0e811b6830031f4e0a3 perf sched latency: Auto-scale latency and runtime display units
-         cccc77d8ce40baf2b1aaa2db884d75e83d58d09a perf sched latency: Add histogram and time interval options
+         6a236928b43c54541c428085996e66aa94f3fcfe ASoC: SDCA: Tidy up error message
+         3dcc74d51b223e07b54e0ad83700601598cae994 ASoC: SDCA: Remove unused dev pointer argument
+         c03f0b9a7d9966b1846f561e4f49ed481c524a0a ASoC: SDCA: Move HID registration to IRQ time
+         f3243b79026e31da037d1cbbbbda44317e3cbcb2 ASoC: SDCA: Move HID descriptors to function
+         01dba3e93486d333c2a192b5250c1ed4dbb3093b ASoC: SDCA: Update HID DisCo parsing
+         df1fd5d8ab403c264b364abe187ce94b2fa7b96f ASoC: SDCA: Add missing destroy for HID device
+         3ede9e98ca1c85c176b1ee3de664495790e84ea5 ASoC: SDCA: Add missing HID kernel doc
+         a50e530e05fad766003f84c0e206058c6efd70c8 ASoC: SDCA: Pass swft table through sdca_dev_register()
+         476567107f8b52b907bd351252fbb1e3670928aa ASoC: Rework the SDCA HID code
          
