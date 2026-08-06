@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Thu, 06 Aug 2026 12:40:17 -0000
-Message-Id: <178602001759.1900541.2697872764302206175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 06 Aug 2026 12:41:16 -0000
+Message-Id: <178602007680.1901334.17631425037088616956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
-user: nsc
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/kbuild-next-unstable-2026-08-06
-    old: 0000000000000000000000000000000000000000
-    new: de2b086f0119023f92a0ed090a3a1bad9c9e1abe
+  - ref: refs/heads/asoc-7.3
+    old: 61abeb28f7c4ff3ee242b4e2b8f3a93a78a8d5d3
+    new: d4c669890ed0862bc2abb7d9a6e50c7057124081
+    log: |
+         d4c669890ed0862bc2abb7d9a6e50c7057124081 ASoC: dt-bindings: cirrus,cs42l43: Add CS42L44 variant
+         
