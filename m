@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 06 Aug 2026 15:43:22 -0000
-Message-Id: <178603100256.2138096.985045221955399304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Aug 2026 15:43:42 -0000
+Message-Id: <178603102248.2138408.14528236176221632126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 6c76412dd575b57f54b3d9646503b2e9b2e390df
-    new: c8c3575e3952c85cfd47f6b8080de6f4edc1462d
+  - ref: refs/heads/main
+    old: 7fc1c937b6b37c77df4ba374c37435ab06a2e945
+    new: fde39b8a521780391fb4e5bda2c0aa4928947f12
     log: |
-         197df050a10fe216971b45a79f07195c86a02236 arm64: dts: ti: k3-am64: Fix MDIO clock reference for ICSSG0 node
-         c8c3575e3952c85cfd47f6b8080de6f4edc1462d arm64: dts: ti: Correct white-space style
+         68bf02b6b4ad3f748c6db71fd77b6c0402d252f4 net: thunderbolt: Tear down DMA paths before stopping the rings
+         fde39b8a521780391fb4e5bda2c0aa4928947f12 net: usb: ipheth: fix carrier_work UAF on disconnect
          
