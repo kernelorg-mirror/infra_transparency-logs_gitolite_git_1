@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Aug 2026 18:18:00 -0000
-Message-Id: <178604028084.2375438.9460295216274551665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 06 Aug 2026 18:21:05 -0000
+Message-Id: <178604046565.2378640.16614572787068119538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/tags/net-7.2-rc7
+  - ref: refs/tags/v7.2-rc6
     old: 0000000000000000000000000000000000000000
-    new: f2656c92469e7696d8ad37d42f051bdb75ec3f67
+    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
