@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2828766181563668226=="
+Content-Type: multipart/mixed; boundary="===============5794639251552251753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Aug 2026 17:22:03 -0000
-Message-Id: <178603692356.2220492.16750635868249797546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 06 Aug 2026 17:22:14 -0000
+Message-Id: <178603693456.2220830.4566170063900255622@gitolite.kernel.org>
 
---===============2828766181563668226==
+--===============5794639251552251753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.263
-    old: 0000000000000000000000000000000000000000
-    new: 0ee1961dd57ccfdfd313fc65d6661c3267687efd
+  - ref: refs/heads/linux-5.10.y
+    old: 065a677fad98698de04279ba2cb152a472ab8b1f
+    new: a77ab369471931938dca32e232688aa328cbc051
+    log: |
+         9de1a49e8f1fbf7c372902573a27a97d4ab4d0af x86/bugs: Make Safe-RET robust against interrupt injection
+         a77ab369471931938dca32e232688aa328cbc051 Linux 5.10.263
+         
 
---===============2828766181563668226==
+--===============5794639251552251753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786036908 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786036922-58a6a0432809b3f27a3cf208a0ea5627b6ebbeb3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786036918 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1786036932-254b60321cb8f16bdc29b31da229bceef2e55cce
 
-0000000000000000000000000000000000000000 0ee1961dd57ccfdfd313fc65d6661c3267687efd refs/tags/v5.10.263
+065a677fad98698de04279ba2cb152a472ab8b1f a77ab369471931938dca32e232688aa328cbc051 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0wqwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aVQP+wTMwTyijqoBMToGLZDr
-nW8oItxbh3B55ZYSr6f9Mi8NUeO53x5G1oEAWuKwPskh9hbyBcdfH109LkHqJa11
-64/3Q81/VfK027Mc7uaQI7xB6IKRpsjuiNWSAqCAecnSx2//bFId+DCbFCDBBZXg
-+6L+kSzG2+s252VPPKFp7W7+GmkLOBLgZ3xdZHRr5QkQcdS8xnvkf6sYb9Gwwm/n
-dGvbuIk3Ug/pEhJQUF4TH513cYJtqKjVJqs3sYWqIjOOO7at/pwQbRmQ13aPfcKC
-1pPe0PARA7ahsR8Z8KUWwge7gp3mtP4aD1jPbvPvq9yP/37c/N6MaS3lme2mCseQ
-mTZmxQ8iUbvhgFRZe9TMRHzYRCqPoAkE0ubHuuJ8dXW93DmRiHZX6DQOFqWZQ8ld
-n9WCXEobvQGUiIPab2pILH8KJh20h4WwaczH0lEsf2+Zj89mgsrXVjjYbmXktM2x
-XGNe5qwITYipuML4PnlocsC8eOYDz0fNK5i/taH7IqMEjb8GxcxUZQmKNiIVsXxb
-3PjUa8ATOaoGQX34bt/VeksSdq+KhWAvPWgb6fhTSLbd39M4L2xVayM3W6kOhYyg
-MV4kb4XPBTxWRnSEgbUVdNQWggEqV03tRRbxNAyeN8iPSKKpYXcepvAgeUFyqFc9
-djEZIn3rKYssyhrjr0ZDLGf6
-=TFMZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0wrYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pjEP/iNXjsYmdmN4UtZytH7M
+BPOJuf+E8437NIHSv2CE6tCXPIO5+tn84pCPXpMreDYEtEvDbXrIeMPHWva9l9+f
+Qd/2iC7flIvwFEY1P+oK1Op866zOtG9gqYithx8VmDKqLSP/fRfOxXYQM9GA/i/Q
+BTpfF4lJz9Uq1xVQrtzxSG5Udjk42Amx8jzx5O7d4yPumvKlQ8DcjYD4doSGgHrr
+q/CFAf5xx12qsVZ3U+1kXTbfX1oHgiXZoNzmSAOmKeJAbneAKHu8x8C3QpIJASkg
+IWj/vRD6tXOm7/HEKsX4KORCqISSsESkkPvl8VfVadLo9FFAMOU7wHAxtYdZD5ix
+F/C3yR6cY9WKg8rpnAK4gLnN7H/KWWVlmuP/cXeuvijVfvKS9PPQdc0/nZnJjBtE
+UvboQgRNjHFkf7Ilko8Bu64+Umvqm2jg0lTpMmiwAmrD6UOxJWXLCXVo40K3FMqx
+HEa+PYabBQGBSqCicPwlTgTuJTLGz0PufVG1Hx/GhyTuR4wjHkb/5eJEjhtENK1Y
+Upfq27SJP+2EQc5TVcWKzCzD8tO3SGf5+FsHhhUhzSuIe5Z21CI/jeSM6ZLygJu1
+d2VbNcvNxQoo/z3gWlL0gZMPugiKHkU1U3sAPYa9JyDA1SWN8dmc559NXzp4Oe3t
+mMXfBjAUX8BIcJ9j+mVWk8ZM
+=lpFt
 -----END PGP SIGNATURE-----
 
---===============2828766181563668226==--
+--===============5794639251552251753==--
