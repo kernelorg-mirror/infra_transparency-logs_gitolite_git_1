@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 06 Aug 2026 17:13:40 -0000
-Message-Id: <178603642034.2210485.1634379123164859978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 06 Aug 2026 17:15:10 -0000
+Message-Id: <178603651052.2213120.16111719255572271908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/tvs
-    old: 729c6c35d6d0d2a654b3d63dcb68ced6938c3543
-    new: 228c0d765ae1ea18fe31e741b270220a496e0719
-    log: |
-         228c0d765ae1ea18fe31e741b270220a496e0719 WIP
-         
+  - ref: refs/heads/cxl
+    old: 0000000000000000000000000000000000000000
+    new: 7098e9cd98a05c0c5de2fae0c2465f9d966fdd07
