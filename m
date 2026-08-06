@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zab/rpdfs-progs
-Date: Thu, 06 Aug 2026 20:21:17 -0000
-Message-Id: <178604767711.2467875.5587090074529274401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zab/linux-rpdfs
+Date: Thu, 06 Aug 2026 20:21:47 -0000
+Message-Id: <178604770708.2468340.593168362342313784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zab/rpdfs-progs
+repo: pub/scm/linux/kernel/git/zab/linux-rpdfs
 user: zab
 changes:
-  - ref: refs/heads/main
-    old: 1cca10f55f635b195ce72da3e60218bca8a08e1a
-    new: 593401d044a3baf06decb596bdfa0f0bf182d61f
+  - ref: refs/heads/rpdfs-initial
+    old: 7dd9571ed4664ad741e8519b4a4369a2d84523f6
+    new: b637f85072542b0acc0e67cde40a0a8caf052de1
     log: |
-         3b9b735c3c1bea07e7899848be24657206ead6f7 rpdfs-progs: devd hashes client locks with id
-         bd9046c00eb710636454181c68f464a69019a839 rpdfs-progs: use correct rlock size in devd
-         883ba12a8c017abe2c11931c37400268768ff812 rpdfs-progs: rlock checks correct incompat mode
-         593401d044a3baf06decb596bdfa0f0bf182d61f rpdfs-progs: don't cache logical block keys
+         cb5ca5951c335d5ea2fa6ff4e638fd9703378c2c rpdfs: add keys.h key struct translations
+         c754c116f348a8be52dd36d7d630254faa3226db rpdfs: add rpdfs_inode_rlock_refresh_many
+         b637f85072542b0acc0e67cde40a0a8caf052de1 rpdfs: add inode cache invalidation, use in dir
          
