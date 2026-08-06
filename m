@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 06 Aug 2026 20:31:34 -0000
-Message-Id: <178604829413.2475918.16169345860635466399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlawall/linux
+Date: Thu, 06 Aug 2026 21:13:25 -0000
+Message-Id: <178605080515.2503666.11199594856778319850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jlawall/linux
+user: jlawall
 changes:
-  - ref: refs/heads/master
-    old: 629bcc0df8f8a633d5249b1a5b78f3e9d7e36fef
-    new: fceefdc61bd30ae139f2c237f978b72dee8f50b2
+  - ref: refs/heads/for-7.2
+    old: 7d7387762b59fd8c0dc86ad37f08658f161b4335
+    new: 45d2798dc45e3661b6583291576f4104e042c953
     log: |
-         5864e1b870491fa0a509511a4a85d60929516963 foo
-         a5608cefbb3df40d2dbd641627c1c04884349259 foo
-         fceefdc61bd30ae139f2c237f978b72dee8f50b2 foo
+         45d2798dc45e3661b6583291576f4104e042c953 coccinelle: mini_lock: improve performance when searching loops
          
