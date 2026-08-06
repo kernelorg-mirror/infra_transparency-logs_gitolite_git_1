@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Aug 2026 00:12:02 -0000
-Message-Id: <178597512295.1279372.15579129916073127732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 06 Aug 2026 00:17:50 -0000
+Message-Id: <178597547024.1283375.7431901523185721176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 9113e98eb7e353a70428c24e4e4765ba8279ce20
-    new: 8aecf0bbcc72605592134c917c222207d8f63ab0
+  - ref: refs/heads/asoc-7.3
+    old: cc606b6c2328b4864885db6afcad7e78c0ac7a73
+    new: 61abeb28f7c4ff3ee242b4e2b8f3a93a78a8d5d3
     log: |
-         a0ab2ba83e35159d81cec830a92e885ecf8139be tcp: fix TFO max_qlen accounting across reuseport migration
-         8aecf0bbcc72605592134c917c222207d8f63ab0 netfilter: nf_flow_table: drop existing skb dst before skb_dst_set_noref()
+         24fb36c1936bdf4fcda6ad3c99c862fbc8703e93 ASoC: cpcap: Remove modem-specific voice call support
+         26a92a696897a1746e507febc0b00ecd4ceaa165 ASoC: codecs: cpcap: set voice DAI format as specified in DT
+         61abeb28f7c4ff3ee242b4e2b8f3a93a78a8d5d3 ASoC: cpcap: Use standard ASoC DAI link configuration for voice
          
