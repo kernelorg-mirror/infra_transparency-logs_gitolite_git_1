@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 06 Aug 2026 01:47:35 -0000
-Message-Id: <178598085573.1360394.7758631960471871945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Aug 2026 01:59:35 -0000
+Message-Id: <178598157534.1368346.12354693856706290140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ff3a8694c2e8800272e020c97bd1a7d0fe89297e
-    new: eaebed6b2f50d8cf230af1b536a752e5bf512633
+    old: c27e360545373b7aee9862a5beef3b9fb3df0c25
+    new: 44871eadd07a7f004aa00cb87399461eea08c630
     log: |
-         eaebed6b2f50d8cf230af1b536a752e5bf512633 pppoe: remove redundant xmit wrapper
+         44871eadd07a7f004aa00cb87399461eea08c630 MAINTAINERS: add myself as a maintainer for Hisilicon Network Subsystem
          
