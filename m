@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 06 Aug 2026 00:37:04 -0000
-Message-Id: <178597662400.1298844.3705519715909097838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 06 Aug 2026 00:45:11 -0000
+Message-Id: <178597711195.1305065.7651841971338155175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 8980f3363128a7179f2c289c95449bdb0f95bf76
-    new: ced18ba79509c4408f961b48949a2c2e0ad55c58
+    old: 31883adc3365e7ce78127dc672def2a5e17c54e2
+    new: f9c3bd1724b20f627dc5bf7b96cf70028f25f380
     log: |
-         376608d9210ab81225bd0f30e113d303bf8dbc77 qlcnic: drop unneeded semicolon
-         ced18ba79509c4408f961b48949a2c2e0ad55c58 netlink: drop unneeded semicolon
+         4291fa65d3055297136cad6370e54113e27662ff xe: Update GUC to v70.72.1 for BMG, LNL, PTL, NVL-S
+         f9c3bd1724b20f627dc5bf7b96cf70028f25f380 Merge branch 'intel/guc-v70721' into 'main'
          
