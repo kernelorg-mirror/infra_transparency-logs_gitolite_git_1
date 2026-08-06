@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4121902066908467493=="
+Content-Type: multipart/mixed; boundary="===============7082185811273814135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Aug 2026 17:24:23 -0000
-Message-Id: <178603706335.2223293.13537005427184082998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 06 Aug 2026 17:24:32 -0000
+Message-Id: <178603707288.2223509.15542295677148513023@gitolite.kernel.org>
 
---===============4121902066908467493==
+--===============7082185811273814135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1.181
-    old: 0000000000000000000000000000000000000000
-    new: ff75db9c6ccd354dacd8bfd23be2abcb5ebb7955
+  - ref: refs/heads/linux-6.1.y
+    old: fb28aa725e05025101446230b14b1defe4c66666
+    new: 03f3a99e8e93f6b670c359265b67661c0f0e0446
+    log: |
+         95b08cdd603fe79d2e9d5212fbb13d577c835f4f x86/bugs: Make Safe-RET robust against interrupt injection
+         03f3a99e8e93f6b670c359265b67661c0f0e0446 Linux 6.1.181
+         
 
---===============4121902066908467493==
+--===============7082185811273814135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786037047 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786037061-a6e1cedf462a0fbafe98903a83c7f8a02ccf907e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786037056 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1786037070-8f48b3573f6d12bc506e2228a258ce651907574a
 
-0000000000000000000000000000000000000000 ff75db9c6ccd354dacd8bfd23be2abcb5ebb7955 refs/tags/v6.1.181
+fb28aa725e05025101446230b14b1defe4c66666 03f3a99e8e93f6b670c359265b67661c0f0e0446 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0wzcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zVEP/R82MFo4HgaV36pOZlc7
-2RtRbFxTNyo+XphzYs4Z5zh9Crr/S/i5WgMhucMU1aLnmrM5TIVet/g+oFIk+q6b
-zLRswric+ub+YmRrlMp6czrTF+Ws27lEsk1boWJTRCdGjF47MnrUyCzW3LPZpqeU
-G5cgQQclzfJvRUglDRaNlvZLqXc6QvlkVPpzEFkAGsL6Nxm3kG7HfvbskuxcWkAT
-qu4wWDDhG/hwsnMjzTqPSo7vOCqYkXaHEr56Yx1Je6/fZ6mB1qwXszb3wxaekvF2
-sEJJUrDDBirIDNVFtUm16dp4drTXkYQhvvTya5fHffbmLVE6P1wjZ+V6ZyR3jdCp
-8XkI5NhEODGnjVIohPXIM3o/UcH1Esm9XMXO+7eVx10nzmuPGrNQdC7ArqiV3pX2
-TtMo89VLPkSWxCX0Q5Ezf0Q8Tii8Nfaf5do+uGJ3f6+kYvX8XY5jgpk2K+4vvTnR
-AC50jfVOPVperouBSvccQsmQz3uyCtdVJI9X4VpGc62j32EjqI/6OtTsHNjOmmV9
-rxWE5F59l9OyXtvS/JoWxYKnRVPRSxpHi4enpqy5GQCpFzNIMMKoecysnHtS8HRr
-xmO189OmL2H3lfA23pgKVnKMSINCQ2AsG3Cx0eItYCDCvePoQN0kO/AGWiNgkCbm
-W3ft8b/BLoeDvjfncrZUw9l6
-=CKmr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp0w0AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uMcQALBsPB2wrsEo8nVhKqGq
+TVR04DjbqJ980+YFaeeZI9hs1s/Uk1O40mp10NXCn6CDSLdDMfJCJOkoOTaEWCyV
+AY8GJnFyKSEbE9lNZvaW3itv7ixdhEv4hZ5tMh7RhEmbZeNPA6SspkJgI3uXuAHc
+qFRN2+SbHjsUhZ3ZPwsKXW4lzOc2BfSJG+H3bZxRw5ZVgRjZsoBnLTWK9/bm4A5Z
+IZ4h2Hr9h1QvoPRLAnrP2WhQsc9BG7D/hkLAM4dJrj5fmHZvECb0SP/Ob/EBZxVB
+atDOfQM0WqCfTL6QVeyoIjqn7SqLr0WNQUhHpEL3fQAhx1YYkL9lkII8WSebBAx3
+qcui2Yf3vNbfWk3vuyAvXz6pHDH38Nug1LQKFTTOHCfxdgWUN84oE81BziH/g2zL
+VNDL8/n5MlJwznsklPqHnNpHiKZWpovQWxvcxxjmXGrhdMEvS8oZcrVjZbOKhmVM
+7CHN3vhdovTraK5jmDDM2nKKmDUSaAPXVwOBmYLJFvSAeOlOvkbJFDMhzYPRDPXO
+Ph+gfQpdMzxFWYotiomCW8kfGyApkTjdolMinQi8NuzeQ8SFFwotFSIRumLFBVmA
+2JVD+ZDwLsQsxwUTLcDCUT2HsLhWmLc+ikKJvulpg1TdnI4TU9TORq9Xy0fVho42
+woau2no8fXa9WMXL0mLUPHtl
+=sPh6
 -----END PGP SIGNATURE-----
 
---===============4121902066908467493==--
+--===============7082185811273814135==--
