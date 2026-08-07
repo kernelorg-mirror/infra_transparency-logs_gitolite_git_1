@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1687211460428184399=="
+Content-Type: multipart/mixed; boundary="===============2135538556963570627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 07 Aug 2026 06:11:31 -0000
-Message-Id: <178608309117.3123342.18371639519754455552@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 06:11:36 -0000
+Message-Id: <178608309600.3123488.3129636182124499005@gitolite.kernel.org>
 
---===============1687211460428184399==
+--===============2135538556963570627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 80dfb0405055d6b289119040f62b20a5d89aaa9b
-    new: 6436c12a2ced865a3382b867e3882d08c2d2bf8d
-    log: |
-         4c34a21ff85ce1e066afac4023e56e5f193ab668 Revert "x86/bugs: Make Safe-RET robust against interrupt injection"
-         6703dba1d14cbd6647cd1ccfa3a3fa94b64dd096 x86/bugs: Make Safe-RET robust against interrupt injection
-         6436c12a2ced865a3382b867e3882d08c2d2bf8d Linux 6.6.150
-         
+  - ref: refs/tags/v6.6.150
+    old: 0000000000000000000000000000000000000000
+    new: 4bbe9f3649ff031ff9ec079727932dea4e792ba4
 
---===============1687211460428184399==
+--===============2135538556963570627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786083074 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786083079 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1786083088-bbf27f2f67aa599398c7d34e197534fe51880c54
+nonce 1786083093-6d0c4f6cece5c4b57a57d7b4962a92f3a1b635ae
 
-80dfb0405055d6b289119040f62b20a5d89aaa9b 6436c12a2ced865a3382b867e3882d08c2d2bf8d refs/heads/linux-6.6.y
+0000000000000000000000000000000000000000 4bbe9f3649ff031ff9ec079727932dea4e792ba4 refs/tags/v6.6.150
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1dwIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7DoP/2GkiFE7Dl4Y2A1GA2o4
-HXvsAAAr5X91vNSUcFk+IW+GI3Vu50ALGSkqcEIPeJ8bQeTIHyfcJJzr8MJ7tXt3
-T1iZuFdLK4u274DCceIlXSikGEfB7Su2tLyDtUBLjnLd7UrY/1BqVVm+i32P4c1e
-7lnmsXt1EnOE9n+sW5a8KO5zDO0zFG5P3xC0fIF2Fcvimv6kiSkRRfa/b1sysjPb
-SA6L5vh78UJXOoo5OCB6xZtxRHOYvjpid1T0tgilmob6v51sLEBXpuxEtR6Zsv9l
-4oPkwoX/eNBo6/s36VXpNe8aGzbtEY3LYrHC7x1jQbXf18006vIlL+sSF18/PG1U
-Lvz79sBI9mWSLH/TzCHZTxpfAVizJSlvGsiGm0q6q2mr3fmsFStnMLs7tfs6j3lB
-mEx+tjOsp1MZyeQPSt/s4WVJCSkQf51terfCqfXuPgkrFdUbJQ+qH3iD++wwAPVV
-tOvQbXTrhAZWshu0fjbLqdE3/cVjIkCC5p7UvoiZux6Kv6wEAA9TjJ79/kdwqHmr
-2v2AS4EgIf503Vr+fUHm32SpOeRQrSxrCwtUjS0ziXq6cTRZecprhJiBRPB+rO9E
-n3VhrQy8160kMfW1qizH4WPxqXuFAsIeX54TZYOt3iqvFnaMo9/XTUd6FoXfIAvv
-lqFA62M1vbZdRF+ZMtvIAboL
-=77sa
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1dwcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dAMP/0ctDyOI5MIIZKPogZMz
+fbn1FAvVdarM4jR8yTARpst9QO2wzGT4N3Mift51Iv5LwrL+3blJ1Hcp6ODojQxy
+qkw5PSGlnyaHbOCgflteaK0nJemH1FE1Hzplw5NljzbDbywBzassQWc21owvca2V
+35N5dEmLq+KgEjRkg7zOEB1sCncrElW2Lrd/1M5t3qAWGzXJvqwxfWehMEucfa/z
+hPN9cxfFmYKVPDg6A+tViFb/yXZYocHpJGu0B3+B9rjeZldEppGrTx+PCkhfJ4Tc
+hs31PkYNv71QK8wEK5AcOp0JpxLgZRmXGgpJMFsIsVYobfoNp1Wxb71m5HP+1ruR
+EVnwrDcqy3sRMoD6Jntx4TnTqA+Jvv3Hl+Gv4d+P0Cb+kcUTDBsQs0sLbzaIU4e2
+rmROr0kTcQXfaj9IvppL+bw7q1jnIpAqU4PEJIDH39ZOp90/At10AtJWDC7iY1vs
+9gl8KbHzcBSI+hTXR8+vM/qN4/yQ932Nx5+6rd6UAk9Rm6OFvy5J8JShOwf5kC3B
+7TZS/YuWIVrZJqGnZCwjhpbHJv0Z84Yt3CCKhVGqCarYgmRzQTX3Bkfws8fELOu6
+wd4H69WdB7AB1Lsvs2EqVLtiwOGmy6iqfTlm/aofNEOakugXyaxHv+YLkK+0ac9L
+XMt6fDeu9AQtCiJa+Xy6slaR
+=F2TJ
 -----END PGP SIGNATURE-----
 
---===============1687211460428184399==--
+--===============2135538556963570627==--
