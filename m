@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6500614578999555334=="
+Content-Type: multipart/mixed; boundary="===============8323187318386239722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 07 Aug 2026 12:45:49 -0000
-Message-Id: <178610674967.3472808.5745430072475765183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 07 Aug 2026 12:51:55 -0000
+Message-Id: <178610711595.3476724.11416866623646648414@gitolite.kernel.org>
 
---===============6500614578999555334==
+--===============8323187318386239722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/b4/kfree_nolock_kmalloc
-    old: 64974ffbc1d25083985a3a250fddf2cbf697b763
-    new: ed8dd3c414ae8584a77c891e64927c1907f95721
-    log: |
-         9baa46e972c9c8bd2d1e965df4cfa0d6fa779f2a mm/slab: cleanup deferred free handling
-         e3cd3e18967e762e2c2e549b163a1f920f2b28d1 mm/slab, kfence: support kfence objects in kfree_nolock()
-         43575b1fa357cf523514f02e86035adea226ffdb mm/slab, kmemleak: handle kmemleak freeing in kfree_nolock()
-         ed8dd3c414ae8584a77c891e64927c1907f95721 mm/slab: handle large_kmalloc objects in kfree_nolock()
-         
+  - ref: refs/heads/arm64/percpu-fixup
+    old: a4d97438eec91db6866e4cb4e328d8157503faba
+    new: 53260d345e28dc820c03f9516caf00a5cf7fc618
+    log: revlist-a4d97438eec9-53260d345e28.txt
 
---===============6500614578999555334==
+--===============8323187318386239722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a4d97438eec9-53260d345e28.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1786106746 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1786106746-589ab82226be895b5ed62a7cd4f79192efcf7594
+92a36434657bffacd89cbc121acfb80a08329e8f arm64: percpu: Fix this_cpu_write() casting
+26749ff14aee5deedba712e8f09e2f009bf11986 arm64: percpu: Fix this_cpu_and() mask generation
+983a9d38071b51a6cff637ad6a36880ce33964b4 arm64: percpu: Fix LSE operations on {8,16}-bit types
+7d85be59f0f563c6e009d834fcee6af9106ad0be arm64: cmpxchg: LL/SC: Avoid redundant extension
+ad4c6adc82cfe55f2f22c9c4cd20dbdc38c348da arm64: cmpxchg128: LSE: Remove redundant operands
+aa2ef13e98ac6d8b46e28ee11cb962a4acd9bfe8 arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
+f902e9127f6c46751bdd551d581957a8121960d6 arm64: preempt: Treat should_resched() as unlikely
+f08a4292896252462444922c736fa0723addd879 arm64: ptrace: Always inline pt_regs_[read,write}_reg()
+56b99205b17b3d5838262a21e8b77fb9c7b17bfb arm64: percpu: Factor out percpu offset asm
+34f237e1a0705a6966a06dabc73e47eb7bc72fd6 arm64: gpr-num: Add wxN aliases for wN registers
+f8a0b25f42261b96172881080c22279acbebf479 arm64: gpr-num: add __GPR_NUM() helper
+ca26ad068be976c30e07e02a9bf0d381bf90f8d4 arm64: entry: sdei: Restore all clobberable GPRs
+4b9f77220acf8b7eb0f53e2ba1053bf38007af74 arm64: entry: sdei: Make 'tsk' available
+7cd48bca451b7ea4be3900b797e1ef8a5e89b933 arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
+5563cf2cab6bd457d6941c0933d4b33b59e11a3a arm64: percpu: Implement preemptible read/write ops
+26ce84f5f941a79c7dfc190d37f4f44cd314e329 arm64: percpu: Implement preemptible void RMW ops
+bf72910c4e65a6b14149f7589fd12203aed67d6e arm64: percpu: Implement preemptible return RMW ops
+d69609df04b5fea58e2a05211153874219e61e69 arm64: percpu: Implement preemptible XCHG ops
+d4d43b40cfebcfda218d65fe448f4aa3bc6253d4 arm64: percpu: Implement preemptible CMPXCHG ops
+c598f6ff260334311e9b87f1fa25cb2b104302df arm64: percpu: Implement preemptible CMPXCHG128 ops
+53260d345e28dc820c03f9516caf00a5cf7fc618 arm64: percpu: Remove _pcp_protect*() wrappers
 
-64974ffbc1d25083985a3a250fddf2cbf697b763 ed8dd3c414ae8584a77c891e64927c1907f95721 refs/heads/b4/kfree_nolock_kmalloc
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmp103obFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiab/0H/1jyVwcUpcS7BqbzbeRA
-RqOno2FCDrIyqYs7scaaIBe5t76wQie1HXvwuBIn/4vCKPGRHD/bA5Qlwa6yzrps
-CRGghERt66S/k6+aHrmX73iDLc72Skxq8+yX+jPulepM0kUdWLd46w3oANiPnm/e
-R4iyqiUhXqMmSKS8rUtJvvEDYEODNv61wE75iBMn9kWjLgkkgApL1xyJyk8XXVCI
-2aHTRpThtl0gd80Pn5WlCyVnA2t4IjIjHHp7miiF1ios9ubiLaWNuLhD8lQHpUa2
-5x9I608rxYKXaFndZzPfcrwRUxIDZ/Z2oDBpRVpPdKfu72PiI5WHicpwjqm1ypkB
-W7A=
-=m5ob
------END PGP SIGNATURE-----
-
---===============6500614578999555334==--
+--===============8323187318386239722==--
