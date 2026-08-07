@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9044665328154479737=="
+Content-Type: multipart/mixed; boundary="===============5919853592877813459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 07 Aug 2026 18:19:23 -0000
-Message-Id: <178612676305.3732498.18090782306705603269@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 18:19:27 -0000
+Message-Id: <178612676784.3732685.1440657680760536905@gitolite.kernel.org>
 
---===============9044665328154479737==
+--===============5919853592877813459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6e9226a76676ce5628bf54857799834a86d0c946
-    new: 0a63a1da45cb3b4a8caa1595dedf18e282882758
-    log: revlist-6e9226a76676-0a63a1da45cb.txt
+  - ref: refs/heads/7.3/scsi-queue
+    old: 51d182826659989db25f841b191dd5ed07135569
+    new: 1451ea14f885492635918b09543a0bf8ee69f993
+    log: revlist-51d182826659-1451ea14f885.txt
 
---===============9044665328154479737==
+--===============5919853592877813459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1786126761 -0400
+pusher 75C5DE3D 1786126766 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1786126760-1fb560ad7932fe0bf67a4d459ab5b15245368ae1
+nonce 1786126765-5595ace7ee83eb93a18065d7e0bf8c5fc85b044c
 
-6e9226a76676ce5628bf54857799834a86d0c946 0a63a1da45cb3b4a8caa1595dedf18e282882758 refs/tags/mkp-scsi-queue
+51d182826659989db25f841b191dd5ed07135569 1451ea14f885492635918b09543a0bf8ee69f993 refs/heads/7.3/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp2IakACgkQ7ulgGnXF
-3j3R6hAAgYSRnI0JzRMZ1Jgio9mSGcppeZBb3dLBE5Pux7gzys29mY5UiOETA/ZN
-L/F+bhuq5EWxjVXKwh19xgp+Y3sE2MoPU48keanPYdiSoXYNnTRzcUBCeEptF2C0
-Q6ECtwpWrnW02zA/JTBY8uIGzW76hihqdXNr82MOoh+jDrCKY+niI2iwaNbQP7T2
-6VHkPNQ7VSuPaZSxRhZsMXwcW5Bo3pqD8X/phPeoFRS46kjFnnt19i4r+OymvDXg
-d1p3xG6QSFm+zfQ/FwOfHIB4d2gsc3HyzSNmEYnNP0JKuBhxXdnpx++ii9C/1swX
-dLCt+X2vavwM/Oqa+kvguCz8+4H5zPtZjffT5vQRrPNV2bV0FDiWGHNJiCDpJ31u
-2Ge8QggabpF13E0ALcZvfADjfalKz1vIQdgI8LJuHoCLLAVyjUJ+zUdAbr4Lwkb9
-yoqkXWc7zzOyym702tCGjKWNG45o42W8yYN/yXSVLkj8b0ItYg9JcgdT2br7BYBl
-EzyK0ofAP1gIFVLlx3fDWndd3saQging93Ho+uyFIuVz+tkrNWEgoi1/FcLOf70W
-HO/h6lDvfa1jpBLq9vAVQjxfwzNTuRQ3cdraEXiXcCfzsSSiwBvUY/C9lR5cZYLB
-S4fDW/iVRB3Q1/bWX+ih0oge6C9Z5+SdnNpmQ8YVw6rQSUQxjdA=
-=0Gnx
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp2Ia4ACgkQ7ulgGnXF
+3j2ZVg//cJH03Kh4aL0vm6226SkXBuE+cEjjTvVPlakAb7KMjYoKyRPr3meM+5lt
+EvHAlxiDp8rcxdmrfOnjCqFxzMk+g5codnceUFQjdRKDdcLLh+WUEgAfwLDbQYWn
+Q4fd/wBWcstBe7O+9mgfJk88MUGLGi4fV68OO+iwzcES6JgLIzZ6SM1d9K3X65mr
+kaQwIfYXS1Gwz8dqz+nZH6fdOwc3EWsNOTp3255bb3ybzn/Fc1eNeuKsDYnvr1zH
+x3N63CiFtnaAUBNL+5RxiK5VVp++918Tuv7LJ18GqTILyL7O7eIOvhwmU1jscHzZ
+nulVqXvFR0X556t8C9T0kcIhOUsWvr5IkunJAybvi+RNrXb4xwdFx9lEIjkHeNq5
+SgIwxoUne1rmDJddzVOVQKY64vF/7Ku1nD2BaFTYo/yP/k/tj/YdzKvjtvwGAbB3
+cG6yyVz/JOH+4PQpTaR9FGP3NcDrtD0/gb4JvBiynP4XD3gyHBHXMAnRWw/cD/GT
+w1xv1RPAKYqlhDwTDmJEhe+OJrvERrBIRz0xAu7ZZatxpQISwl36tQe+D/0ngFPW
+okLeKCsDZJxiVLC0G7eiP+JetaL0aSdn9cXpBBojYbzNNfoJcQjkgE5rxV7C/z0B
+eCr3ZU3GywAcIoMUwoWqn9LgwIqK/4xldlEd8xyqbs7d/uC8Wsg=
+=erot
 -----END PGP SIGNATURE-----
 
---===============9044665328154479737==
+--===============5919853592877813459==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6e9226a76676-0a63a1da45cb.txt
+Content-Disposition: attachment; filename=revlist-51d182826659-1451ea14f885.txt
 
 18ae351fec146e77a454449a47f3268db591ff7f scsi: ata: pata_budda: Use named initializer for zorro_device_id
 85666bde770cbbfa59f25e2d704776e56466ff52 scsi: aha1542: Improve style of pnp_device_id array terminator
@@ -130,4 +130,4 @@ c79f9bf2d87f34904d9ae38f198929be2b4313e2 scsi: mpt3sas: Remove conditional retur
 d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 scsi: isci: Remove unused macros from scu_task_context.h
 1451ea14f885492635918b09543a0bf8ee69f993 Merge zorro updates from Uwe Kleine-König.
 
---===============9044665328154479737==--
+--===============5919853592877813459==--
