@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8215733392237827455=="
+Content-Type: multipart/mixed; boundary="===============1220117032926442143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 07 Aug 2026 14:14:09 -0000
-Message-Id: <178611204950.3538634.921611516195921847@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 14:14:39 -0000
+Message-Id: <178611207924.3539014.11382775285253691574@gitolite.kernel.org>
 
---===============8215733392237827455==
+--===============1220117032926442143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 85de4712bccfa0004bb50994001ee132869336af
     new: 70200b99a36e1c1474d6ef9b7fd24e0026d1a7df
     log: revlist-85de4712bccf-70200b99a36e.txt
 
---===============8215733392237827455==
+--===============1220117032926442143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786112032 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786112063 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1786112047-78341b142154f20583a523bb11fb61e1115fb1a1
+nonce 1786112078-ecea865890588ddfa4349cf1d9aa5ed2c6545c6e
 
-85de4712bccfa0004bb50994001ee132869336af 70200b99a36e1c1474d6ef9b7fd24e0026d1a7df refs/heads/char-misc-testing
+85de4712bccfa0004bb50994001ee132869336af 70200b99a36e1c1474d6ef9b7fd24e0026d1a7df refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp16CAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xGgQAII/Fa3i+3Sm6CRNiF5H
-OKV6G9O0y7g2siPLTVyUKnUC852kTadokLURWpmAXt7bSVy8uG+S1jgCtpV7rDo6
-9EnQCJ6kPpd02joLm/icy5s2yXT+HFsrKOXVeZy84QI0pR3ednxNCt9sfOf2Jplq
-e514co5mJ1b7jA5PIA1Ut6eDdig0fqc/4ycF7hrSSlt4ORdL8aBNz7pvLn46LF+H
-qGrRRus7qV05Vc/ompOPpifa6ztCWUgj/QNRE7QIrW9xXZAsZ765kj5DkNiihPEz
-EQL/9w3G02OeESKqfmg88p9Nx3MSucBh726oe1rMFwR4PudFaGKv20OjlKyZIYz+
-Yh9/ixf0scRp22igp7JoqF0ajgKC50kKIlM5TPgFT0jEq8h1s8Z0LdD78dxdWXJ1
-BHiVCljhbDGMQOTHNtK9BZF4V0qKvRPzxUIUdB9w0ecVHYqT9FGB+nsJBGF83FKP
-GtxkMe7HYBfIRN8LO00nmzggPClgbVLro/geqabBnj5SF12+fraH9qkQ5KfGFAvV
-tONotbBjq90CJjWSfZL2pWsoQN58XhwrNDK0XIWlSsOBE5wU61W8WG5TuFbNOgiM
-3zwGtzohT9HfpJWg4aNrvqG2SqBIjxipybaHKNDeWp/R1Kha5H77478ImuWVKXmh
-3u5am4Lha2wx6naDDR7Cfo68
-=6UTI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp16D8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5dMQAIBnn1fb60o1vJjmItmd
+NTOKJ8PxvmOWK2JSmvHZ0y3EeAZ1JtyzW1vSVMo8BWVa9HFrM2/jPDAw+GROe+8q
+bKTlY1HllLlbG2SLW4j0qavKFD70TtCjP0Htpr3BC7MC3p4Y8o3DT3/AogJ8Ff4B
+3uSDV7pPb2IdrRT3XbzJH3+4cmkHGTElMTIc0nyDkZNvyq+eUPip3rZKmpqsSMWy
+UMbS9Xk522iRuzMjI8a9T13HBkOqjWWaJINqVEIBzpY1wVFwpsvMmnMTOjfwJFUZ
+MXnmP5a8lBoyekfFxfYVsywZv41ByiAOrezAX0h1Xwj2sA3lN8XjYiQi9HCEC8nL
+Zk0R3ZgMlwK3mBWQBtHq5pqstovUpf6v464BsUMq77ZT9EnG3b0TzqwSnO44lHl4
+B3DxnifJ/An/qOGMeFYVPRrBCFlOLJhw+fzXrdB9JXPmu9ZnngLiWyWouIYZIg5Z
+uxas2WwELAAUzjJN/EgLzPyxmkaDhJUAceIrAJcvlxP0lC6EG+G3zQxFFcpnNjr4
+kMXRLnbinRqw3d+Yvq6DFIZNnAHEEm8ZU21Mwa8ACa46zfJfRDHDjb1tUCdHg5hL
+vmXBdlnHkyly/ErB4bd831+wzQKl1iGHQwuLrPpLPe2VR/7mCXnR+e9pTZR3SNDG
+U5iiPIX5bBuGFLgIMzV/CTEF
+=4+FM
 -----END PGP SIGNATURE-----
 
---===============8215733392237827455==
+--===============1220117032926442143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ abe5c5f1ad5575d04e53a91d5c2ead2bb50292a7 bus: mhi: Clean up some kernel-doc warn
 9656bcd4c321a799148d00dd830ce7ebf20011da PCI: epf-mhi: Implement mhi_cntrl->flush_async() to flush DMA read/write
 70200b99a36e1c1474d6ef9b7fd24e0026d1a7df Merge tag 'mhi-for-v7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
 
---===============8215733392237827455==--
+--===============1220117032926442143==--
