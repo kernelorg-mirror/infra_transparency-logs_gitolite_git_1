@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2524206547645567639=="
+Content-Type: multipart/mixed; boundary="===============7732223216851903962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 07 Aug 2026 18:13:34 -0000
-Message-Id: <178612641491.3727404.1643757131431004545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 07 Aug 2026 18:13:51 -0000
+Message-Id: <178612643195.3727692.7837196004323284168@gitolite.kernel.org>
 
---===============2524206547645567639==
+--===============7732223216851903962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: a13307e97d5c54b65720bb71fa379960ded1e51a
     log: revlist-075b74841bd0-a13307e97d5c.txt
 
---===============2524206547645567639==
+--===============7732223216851903962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -368,4 +368,4 @@ a8934c2c6dfd72901cf3cc0de28e85eb902a61a4 ALSA: usb-audio: Fix sticky mixer regre
 0150da6be1c71cd0ad9262293971cb9ea371672b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 a13307e97d5c54b65720bb71fa379960ded1e51a Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============2524206547645567639==--
+--===============7732223216851903962==--
