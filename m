@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4039606044869831144=="
+Content-Type: multipart/mixed; boundary="===============3368541575788647355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Aug 2026 06:52:12 -0000
-Message-Id: <178608553207.3206750.7354724728157122190@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 06:52:46 -0000
+Message-Id: <178608556637.3207122.15045544820112924435@gitolite.kernel.org>
 
---===============4039606044869831144==
+--===============3368541575788647355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,55 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6949feed6e32823a6628873000602988a4cafe06
-    new: 85a74367f084d2d1acb0cd9b550c7773ee551979
-    log: revlist-6949feed6e32-85a74367f084.txt
+    old: 85a74367f084d2d1acb0cd9b550c7773ee551979
+    new: a0b672c2f3114c6d2c2802f3c1d0bc9e0f890dc1
+    log: revlist-85a74367f084-a0b672c2f311.txt
+  - ref: refs/heads/tip/urgent
+    old: e5db218773925cf83c274f9457a4d8443d5cf964
+    new: ef4efb93744a25de3340c053465c9a193437e1cd
+    log: revlist-e5db21877392-ef4efb93744a.txt
 
---===============4039606044869831144==
+--===============3368541575788647355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6949feed6e32-85a74367f084.txt
+Content-Disposition: attachment; filename=revlist-85a74367f084-a0b672c2f311.txt
+
+243c10edd6369a4faba2e027ad9f0ccc79e0b744 Merge branch into tip/master: 'core/urgent'
+ef4efb93744a25de3340c053465c9a193437e1cd Merge branch into tip/master: 'x86/urgent'
+1586fb30c09addd9e55c67660f1d687f73a5bb1a Merge branch into tip/master: 'x86/merge'
+31d7f486e0a779341305ff1f49669c1e089ffc60 Merge branch into tip/master: 'perf/merge'
+0f4ec06bc6889a5d0da56196c840a60cc7135af8 Merge branch into tip/master: 'core/entry'
+036c36061bd4097ff8e7ab50dc41b10db23bae51 Merge branch into tip/master: 'core/rseq'
+b7f3149231c6f40fc449da367274382c1f28dbd8 Merge branch into tip/master: 'irq/core'
+9fad694c4653ba6ca0319d3673270217218bda58 Merge branch into tip/master: 'irq/drivers'
+d2ac9860c549056682092dd944c9f62119ac535d Merge branch into tip/master: 'locking/core'
+a4342af56c3bf1e5332ae33a635fb6a8079146ff Merge branch into tip/master: 'locking/futex'
+a74de0fce1900d8fb5e75bbd5ce294e99d2f813c Merge branch into tip/master: 'objtool/core'
+b72a57648117facffd5136eec58fd7dfffab7b6a Merge branch into tip/master: 'perf/core'
+054ded8fd0c3ac17dbeab91a953696d3ac191280 Merge branch into tip/master: 'ras/core'
+3d3fbd9a7d241fa4827130b2d27e2d857b37ebbf Merge branch into tip/master: 'sched/core'
+2589404f0bed75923e4ed5884e8d4292c9eb3495 Merge branch into tip/master: 'smp/core'
+ee07052112ce7d537c6d14d337f2c26f9732e146 Merge branch into tip/master: 'timers/core'
+ecc3489a7834d65e09887a2cc836c4be45a1815d Merge branch into tip/master: 'timers/vdso'
+6f8aef6cbc31b74af124a8f02471b02e59824296 Merge branch into tip/master: 'x86/alternatives'
+047e61b67df1c81f5dcdeca0b3eb369c27dcdf66 Merge branch into tip/master: 'x86/boot'
+1179b9606f8eac20e0f7f6f9c0bf3cea3c9ea740 Merge branch into tip/master: 'x86/build'
+c7a7abe97cb2488d4149287d1af442c385128849 Merge branch into tip/master: 'x86/cache'
+cb832f0050055653bfa4c1f8a48ac1d4488e2c99 Merge branch into tip/master: 'x86/cleanups'
+8da5554a91a5df02897c27c6c7bbaccfa228d9e2 Merge branch into tip/master: 'x86/core'
+b37bf5c673474285ec3d2e942c3ab75b913bf7f6 Merge branch into tip/master: 'x86/cpu'
+6c7402aabb40b09ef0d17e3c7d3d8d60a18ab58c Merge branch into tip/master: 'x86/documentation'
+7b713e2255a312bbe7eaf30006afbb63eff6ccab Merge branch into tip/master: 'x86/entry'
+8e2a076d7621f10c1f3a801b4e32b0e4973ee255 Merge branch into tip/master: 'x86/misc'
+bfd867674a10b2855ce1832ecb2a9fae8fa8f09f Merge branch into tip/master: 'x86/mm'
+a0b672c2f3114c6d2c2802f3c1d0bc9e0f890dc1 Merge branch into tip/master: 'x86/tdx'
+
+--===============3368541575788647355==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e5db21877392-ef4efb93744a.txt
 
 b7e53968cb8882c2d276429ea8550848a4940874 xfs: propagate errors from xfs_rtginode_load
 87b2a82e135ba81e49d82b59e3d72468cb66ea98 xfs: clear zapped attr fork state when bmap repair finds no attr fork
@@ -237,7 +277,7 @@ b0ce5fd9fabe7c79463cf4602217d4dfeff5b1fd igc: fix netdev not re-attached after r
 c0a27675eaf08255017b3cabc28c99c0cd71f468 Merge tag 'v7.2-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 364465ab19defc0635d06f13f170c8d5c096de7c Merge tag 'v7.2-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
 f9a2394a23482bfd330911e9c8295b71724feacd Merge tag 'mm-hotfixes-stable-2026-08-06-18-44' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-3ed1dd41217113f2f5508cb4a238c82bab3a5452 Merge branch into tip/master: 'core/urgent'
-85a74367f084d2d1acb0cd9b550c7773ee551979 Merge branch 'linus'
+243c10edd6369a4faba2e027ad9f0ccc79e0b744 Merge branch into tip/master: 'core/urgent'
+ef4efb93744a25de3340c053465c9a193437e1cd Merge branch into tip/master: 'x86/urgent'
 
---===============4039606044869831144==--
+--===============3368541575788647355==--
