@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7279381943962686646=="
+Content-Type: multipart/mixed; boundary="===============0877600349329976600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 07 Aug 2026 12:58:02 -0000
-Message-Id: <178610748224.3480546.222714939663014044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 07 Aug 2026 13:06:00 -0000
+Message-Id: <178610796062.3487023.3061294952894839360@gitolite.kernel.org>
 
---===============7279381943962686646==
+--===============0877600349329976600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 8c7f55d60aa3512fd3da7e9cf313723460e487b4
-    new: 2b1f9f69ae25cb46d0a84ff14398596eb2bfce44
-    log: revlist-8c7f55d60aa3-2b1f9f69ae25.txt
   - ref: refs/heads/master
-    old: 41c129fdc28b6414d259da72679567c5e72a55dd
-    new: 2b1f9f69ae25cb46d0a84ff14398596eb2bfce44
+    old: c8d5f77e1cf4f709b408fb04cc1997ea2c37d416
+    new: 9ccebd32953d1f7a136f2690e52a88fd98aa1358
     log: |
-         7db0a00445f1a40bacfe9b747405c11cb5f10fc9 bpf: Reject load-acquire from pointers requiring fault protection
-         e2577cd62060be91a3d7d11a56e5a61faae4b7f7 bpf, riscv: Add and use bpf_atomic_is_load_acq() helper
-         4cf8def58b779ad2827f81760837b7a844d6c7d6 bpf, x86: Fix exception table metadata for arena load-acquire
-         af22d273aa1f61fb86ec712b3ed785da73c3296e bpf, arm64: Fix exception table metadata for arena load-acquire
-         007466d9e49738222054f1df87c111a945633ddd selftests/bpf: Add arena fault test for load-acquire
-         2b1f9f69ae25cb46d0a84ff14398596eb2bfce44 selftests/bpf: Add load-acquire test for probe-memory pointer types
+         9ccebd32953d1f7a136f2690e52a88fd98aa1358 6.12-stable patches
          
 
---===============7279381943962686646==
+--===============0877600349329976600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c7f55d60aa3-2b1f9f69ae25.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3d72aca40b83040aae08c3a3a3dfc5a42c26abe9 resolve_btfids: Deduplicate BTF after btf2btf transformations
-27a78c2e7eeea8397ad3c28171084e695d4c12af resolve_btfids: Process KF_ARENA_* flags in resolve_btfids
-ef77140f4b3ad1802ef6d84a2f803d1171a086ae selftests/bpf: Verify arena type tags in resolve_btfids test
-692393104909ee14686488995ad5009a618fb0c7 resolve_btfids: Emit bpf_kfunc and bpf_fastcall decl tags
-9f3881ecad886bbcd7b69355bc14a6deb071672c selftests/bpf: Verify decl tags emission in resolve_btfids test
-fd5425b67355da4972c76b4ca266f05515172a9b docs, resolve_btfids: Document kfunc BTF annotation emission
-41c129fdc28b6414d259da72679567c5e72a55dd Merge branch 'resolve_btfids-implement-btf-tags-emission-for-kfuncs'
-7db0a00445f1a40bacfe9b747405c11cb5f10fc9 bpf: Reject load-acquire from pointers requiring fault protection
-e2577cd62060be91a3d7d11a56e5a61faae4b7f7 bpf, riscv: Add and use bpf_atomic_is_load_acq() helper
-4cf8def58b779ad2827f81760837b7a844d6c7d6 bpf, x86: Fix exception table metadata for arena load-acquire
-af22d273aa1f61fb86ec712b3ed785da73c3296e bpf, arm64: Fix exception table metadata for arena load-acquire
-007466d9e49738222054f1df87c111a945633ddd selftests/bpf: Add arena fault test for load-acquire
-2b1f9f69ae25cb46d0a84ff14398596eb2bfce44 selftests/bpf: Add load-acquire test for probe-memory pointer types
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786107944 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1786107958-62d4fd17976bf4ce57713be8afb08ce07de6e098
 
---===============7279381943962686646==--
+c8d5f77e1cf4f709b408fb04cc1997ea2c37d416 9ccebd32953d1f7a136f2690e52a88fd98aa1358 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp12CgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UX0P+wRQ7yFITORXQj/OSbat
+HU6zEdblc1YWFdnb67GYN0onaRyIkhg1vmlPitP5Z9tmPUOVMFswiW6vtVlFtCVy
++jF9ZSoqfw89kE82UgUTCrQQjmvd/iVJ72ml1sH9cgmBcfrHZpg6aEmBKlxDJgtx
+Wi32GjU3Vf245cszvxdmwqbBZmuyycPYgkJzUvoLOyk9ru3Dl9QO46BMj2D1nyxT
+Lp3/VCF9ADa91SdetD67uYIFTfq3PiqfsRYvGG0AQDutaVgi/KJNiezrinfPz9++
+XNVXIyVi/jqko8TAeUgRuH2wMP2Ab7RgS/nWWGMlfvOcJs7PrvBdTYkcP6lhe7p7
+Es86Gm8SQSR13w1D4DdmoKmsCr/yX1TVHljGgPFqDLyce7GznYjcjLRBdXU/SM9/
+G2TodQRYZsxppAKTCfJ5kFqVja5YFy0mSsRW+h8EpghuNPevBQ+qlSLsBVLOYbIX
+lawP+4OC2uE9/nH5FJmFb22zVIgeajzPnVLko+fhrmSHD77XhnPMpZ6NPHNlKZtr
+9TWGH4xzYafJTq8SEo/RbXaJf0P3AzAYpyPLATi56s4KgCpVoYC+1o74OKIe+7uW
+Z+7MMtiOYTqo8gXeNZSsw4qt23vfk6TYSo3zstEfP+F00rdnZuaAQlbQLxfrrWLj
+QBIpeQz27d1guMA3TSU2rQC0
+=cERh
+-----END PGP SIGNATURE-----
+
+--===============0877600349329976600==--
