@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0081649807379578223=="
+Content-Type: multipart/mixed; boundary="===============3071915848809798763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 07 Aug 2026 13:50:18 -0000
-Message-Id: <178611061861.3521996.1867380450926957381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Fri, 07 Aug 2026 13:52:12 -0000
+Message-Id: <178611073278.3522903.16682331261778272068@gitolite.kernel.org>
 
---===============0081649807379578223==
+--===============3071915848809798763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: a056aba41a78193150e416fe3b243d5562eda1ee
-    new: 9cd88d790248c29bfb0953d2b3ec3e4251ff1690
+  - ref: refs/heads/b4/kfree_nolock_kmalloc
+    old: 006f2b204c7b51027fed6394d92fbc0668f42208
+    new: b222163be8855a64c090505d5bff53ddc34cf1fe
     log: |
-         9cd88d790248c29bfb0953d2b3ec3e4251ff1690 6.6-stable patches
+         b16b11ebd29312a424985f3442b555cfd6d07399 allow kfree_nolock() handle kmalloc() objects
+         0949cbe2654942917885a108f4930f8c058a925b mm/slab: cleanup deferred free handling
+         e9a338321f7b841b22034b3defe6775adcbc079d mm/slab, kfence: support kfence objects in kfree_nolock()
+         72db7a53287a8a316e162d0551c3f5fc3540fb56 mm/slab, kmemleak: handle kmemleak freeing in kfree_nolock()
+         83b0b842600c9cd99a4f532091b2416f22f1a72e mm/slab: handle large_kmalloc objects in kfree_nolock()
+         b222163be8855a64c090505d5bff53ddc34cf1fe sched: use kfree_nolock() instead of kfree_rcu()
          
 
---===============0081649807379578223==
+--===============3071915848809798763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786110601 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786110616-acb6bb09fa0d10afbfb051dd1fc57b523542b690
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1786110729 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1786110728-b64ccdc3dba97dfc702d630ceb198dcd56d92d9e
 
-a056aba41a78193150e416fe3b243d5562eda1ee 9cd88d790248c29bfb0953d2b3ec3e4251ff1690 refs/heads/master
+006f2b204c7b51027fed6394d92fbc0668f42208 b222163be8855a64c090505d5bff53ddc34cf1fe refs/heads/b4/kfree_nolock_kmalloc
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp14okbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xBEQAMAhawJb287TRNwfzw51
-Ir9hqXTTmytmGpl8sUHr4mdjNYs8vbTpwMZraLFod8jbEGeVCClQX6aj4XTX7Exp
-08+O0H+rKf1Jle0reXIabtmtW1r66+JcaMmpstvC5ufx8/lNS1q4D69e/nAtkvNU
-R7zhgRIf3y2iPnuM5S/cbV61QNKVbRrchujAyAorH/WpZeWL5zeM+Mwm5X919/j2
-nAtar+NXywgR9UCCCFoFiyJvKL9jPL4bBvWdw+SFbeSVLxr9fXv0SMZCcyMyQQTu
-NAN0JZXldmtIM0wLwhB1h9BLxVtTY+dn9GuLqaBZAsk2g2y0B4QS49FGg7qBXZFm
-/qW3AmaYg5kMM+UzMPBUSxcO7fZhe1iWy4IxOnNmR8uW8jLH4zfwV5ubIk30M+EW
-mYGpJ7FwhBmuzE50SRvi7qMygMvSnQIZiPNW7TwwnV3aE4nBboU91HdYhap455Sa
-wOhBIDucVOcHg4vLDWJcRxZD4QrnqMnyWIx9V8CC3+8Yi9L8FOQPHM+1uh9Y/ZZM
-3bBAXowOPIEirUU0uR+Oaw87L1EHRY3MPUrtBagVF6JL/QZ1TZmDl8Py1qzaULNZ
-zDm9sVoZa1EX/FLYtklZwoz+i8cAbJzWlddUyPlJspMiw6Aqo6vDsnwE10ji9GWq
-utOnmPJxd5Xap8sRhLsN+II6
-=LGqP
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmp14wkbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaHuQH/igOLOrIG4mHXDpYj8J/
++kSmwTKWGBySotbofwdNye0krRJyVxdo8TA5Y8k0Nj3/fL8wCaT+jvwqcGyzDTCb
+3vZOjIYs8z+bkl7XUd+txmULCdzEmVck2p7Ems2oYsKNTGQlOA7o4e7NWlC2Og4E
+lprVhSNiWqCuxv83IzDp+Tn/RTLEhaUy9AkdSGWGust+HoKX762Lls7L37vZ/CD3
+SKfkddVqPnkJrVO/fR//CIn2zJkSoTxsA6AzICd7GG4wxAk0aO+0QVBufDaum7id
+jOeWdRqE+1IxAqBTLjDVSpAJuibvHncRJFgEFCJCeFF4mJqDmzPYDDlW/c8vfjtJ
+Dlg=
+=7AtZ
 -----END PGP SIGNATURE-----
 
---===============0081649807379578223==--
+--===============3071915848809798763==--
