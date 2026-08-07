@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 07 Aug 2026 21:08:18 -0000
-Message-Id: <178613689856.3908062.7829130202876594841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 07 Aug 2026 21:34:26 -0000
+Message-Id: <178613846695.3925831.10748342269930667503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 611f4cbac429c09a7db4bb2aebf64e3423109639
-    new: 6b23abf5b65491bf9a75d42e68231f315528f437
+  - ref: refs/heads/klp-fixes
+    old: e0d725acb4774747f0e271308b4ca33daae2d5db
+    new: 133e16bb0c7cb916f10bbfb017eba525449ad1d6
     log: |
-         a2e4860f48c971bccc6c208b956ae6949a953322 hwmon: (corsair-psu) Update documentation
-         6b23abf5b65491bf9a75d42e68231f315528f437 hwmon: (sysfs) Allow drivers to register const attributes
+         fe5a00818e06ec613344d41d5944de054fcd8832 objtool/klp: Fix relocations for EXPORT_SYMBOL_FOR_MODULES() symbols
+         133e16bb0c7cb916f10bbfb017eba525449ad1d6 objtool/klp: Fix line numbers in Module.symvers parse errors
          
