@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1081327024585763368=="
+Content-Type: multipart/mixed; boundary="===============8246248859432005617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 07 Aug 2026 21:06:11 -0000
-Message-Id: <178613677135.3907003.15843031885319231035@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 21:07:03 -0000
+Message-Id: <178613682384.3907573.13603202561334363798@gitolite.kernel.org>
 
---===============1081327024585763368==
+--===============8246248859432005617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2b1f9f69ae25cb46d0a84ff14398596eb2bfce44
     new: e1d9b82db5447c88405b216f9c5c87daedaa2971
     log: revlist-2b1f9f69ae25-e1d9b82db544.txt
 
---===============1081327024585763368==
+--===============8246248859432005617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a8934c2c6dfd72901cf3cc0de28e85eb902a61a4 ALSA: usb-audio: Fix sticky mixer regre
 a13307e97d5c54b65720bb71fa379960ded1e51a Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 e1d9b82db5447c88405b216f9c5c87daedaa2971 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.2-rc7
 
---===============1081327024585763368==--
+--===============8246248859432005617==--
