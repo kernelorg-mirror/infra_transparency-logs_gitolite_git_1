@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 07 Aug 2026 14:39:08 -0000
-Message-Id: <178611354874.3558605.4586863051682947335@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 14:39:15 -0000
+Message-Id: <178611355563.3558835.12758635349142760766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: cd4fae98bba46a7114b83134846c3a4bdd7bc9df
+  - ref: refs/heads/dt/next
+    old: f08fdaae63fc963c1757b2aba346d1157968943d
     new: 2bbb0e03344b67f4b7dd022647e3976211d2d02b
     log: |
          bfd4e4b12d6fc5f74557963b13ca703f297520bf dt-bindings: gpu: powervr-rogue: Add MediaTek MT8173 GPU
