@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5133296638906161203=="
+Content-Type: multipart/mixed; boundary="===============5634126671409365477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Aug 2026 19:31:17 -0000
-Message-Id: <178613107744.3831230.4646197312773186566@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 19:33:32 -0000
+Message-Id: <178613121231.3832090.12926330727534841712@gitolite.kernel.org>
 
---===============5133296638906161203==
+--===============5634126671409365477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,56 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a0b672c2f3114c6d2c2802f3c1d0bc9e0f890dc1
-    new: f962fff1685a5aa11a81b2f8d0f531f13b3e0b1b
-    log: revlist-a0b672c2f311-f962fff1685a.txt
+    old: f962fff1685a5aa11a81b2f8d0f531f13b3e0b1b
+    new: 7ddbc4a1c66f9b9712827641fbec7f2cc1addb52
+    log: revlist-f962fff1685a-7ddbc4a1c66f.txt
+  - ref: refs/heads/tip/urgent
+    old: ef4efb93744a25de3340c053465c9a193437e1cd
+    new: 533688d7433ebb4e9963ce7a59318001495d0c54
+    log: revlist-ef4efb93744a-533688d7433e.txt
 
---===============5133296638906161203==
+--===============5634126671409365477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0b672c2f311-f962fff1685a.txt
+Content-Disposition: attachment; filename=revlist-f962fff1685a-7ddbc4a1c66f.txt
+
+558c0385d8b8a0dc71a4856616268d3b6558a506 Merge branch into tip/master: 'core/urgent'
+d307449b3f8e48f50491b4999a88ff36d029b7ad Merge branch into tip/master: 'locking/urgent'
+533688d7433ebb4e9963ce7a59318001495d0c54 Merge branch into tip/master: 'x86/urgent'
+13190f8031d1abeaa2972a595d9eb456c975aef2 Merge branch into tip/master: 'x86/merge'
+e889fa9e3af67eeb874db1394ea0097cbd5a9e74 Merge branch into tip/master: 'perf/merge'
+9013e84af56d7bf3e33258afce0857d04b8f8afa Merge branch into tip/master: 'core/entry'
+3633349ce5ab5d2bf3efcae24ad967ddbe8b65c1 Merge branch into tip/master: 'core/rseq'
+ff75093ddb9d7e08206bd331992121b35599e9cb Merge branch into tip/master: 'irq/core'
+9737294027843604734e2e98409da7424c2e805e Merge branch into tip/master: 'irq/drivers'
+b5e33719bfd3963f0446c1dc6a25dad057319b12 Merge branch into tip/master: 'locking/core'
+409a7c57f6ddda71b95a3d4257b16087d2e85f21 Merge branch into tip/master: 'locking/futex'
+51d9d8cdd8ef64ea986977b60ea2d5e341d5ccb0 Merge branch into tip/master: 'objtool/core'
+415decbcc811756c24ec91d26dede0c42d82d5ca Merge branch into tip/master: 'perf/core'
+d465227afa76567e70a46151d7cd84dc2c6b8537 Merge branch into tip/master: 'ras/core'
+843e9cdbcf3f2e202f2b276b9195e78fe6948270 Merge branch into tip/master: 'sched/core'
+5651b7c3bd5a0f824a8ef39ac324068f6934c83d Merge branch into tip/master: 'smp/core'
+8633805f7d85a752470b93e10f556fd275b7950a Merge branch into tip/master: 'timers/core'
+838e40b95956bf24c9da46a24a716c758aa539da Merge branch into tip/master: 'timers/vdso'
+b31fa73d31c3baec0466c80322180f7f0f7be23f Merge branch into tip/master: 'x86/alternatives'
+0c052d6c1b7613531ba4b696d92f4f6d36ad78c8 Merge branch into tip/master: 'x86/boot'
+4c43cfe2beba79f0fa758071cee47fea73c2d98e Merge branch into tip/master: 'x86/build'
+1c58c0f39023631b3a05e7047733df3a498f8de6 Merge branch into tip/master: 'x86/cache'
+42440255694155fdc6bc352094e8631f6ee4f2fd Merge branch into tip/master: 'x86/cleanups'
+2a21aab1dd2f8e54fa0358fb76cac9521ca3961b Merge branch into tip/master: 'x86/core'
+b6f8071855723a31dab7e05432f82410ccb4e97f Merge branch into tip/master: 'x86/cpu'
+67e953988501c2e2bca70ab1ccc10840ddeec5cf Merge branch into tip/master: 'x86/documentation'
+7edab3d94f9d0d701a44072b923d983188c48968 Merge branch into tip/master: 'x86/entry'
+ce6fe2f644790d656787d6c7a093d83426b4a0e3 Merge branch into tip/master: 'x86/misc'
+c4a5aa4e728a9f73e7a5ab0ddc5e0ddea42feb0c Merge branch into tip/master: 'x86/mm'
+7ddbc4a1c66f9b9712827641fbec7f2cc1addb52 Merge branch into tip/master: 'x86/tdx'
+
+--===============5634126671409365477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ef4efb93744a-533688d7433e.txt
 
 74186c2968f8f756ac3226b545b598457c910c75 s390/vfio_ccw: Free all memory if cp_init() fails
 5405c90d6a47b3014e74ee0618a162449abbbc93 s390/vfio_ccw: Limit the number of channel program segments
@@ -74,12 +115,6 @@ feadc5e84dcb53422a437556c35af9efd9826fd5 KVM: s390: Fix cleanup in kvm_s390_pv_c
 3e8ec7c0387273329374f5c7bd61f5f38af71fe1 fsverity: Fix bpf_get_fsverity_digest() dynptr assumptions
 7c68ed5c5ad4c185ea9654f5d8ee36560277b7dd fsverity: Fix silent truncation in bpf_get_fsverity_digest()
 7cd8645d2b23e396228c78d83ef80a210154a1d9 Merge branch 'fixes-for-bpf_get_fsverity_digest'
-1fb92e0625596985b3941925afe7906fef41214b rust: sync: Add abstraction for synchronize_rcu()
-042278f5fa9e681420ab486d6cbf464e26667461 rust: revocable: Use safe synchronize_rcu() abstraction
-47c3367ff096e66f614ed3cdadece26ffc04b5e8 rust: sync: Use safe synchronize_rcu() abstraction in poll
-79d3d667af401eaa452f046595209aae6933c485 rust: sync: Add helpers for mb, dma_mb and friends
-72856afd33f2fa166c06f1536003e300e51ecf09 rust: sync: Add generic memory barriers
-3f90c16d413b2f68407f1c5bb112a1b16ea35dc4 rust: revocable: Use LKMM atomics instead of Rust atomics
 05eebef3c7b2e8595fdd1bd46912aac9c1de8587 MAINTAINERS: add SpacemiT K1/K3 I2S entry
 620f1e52a46f604635efd0fb78138afd6a513b5d ALSA: FCP: fix OOB write in fcp_meter_ctl_get()
 2615f0fb90df8cf5a96133ca4be74294ed288604 ALSA: us144mkii: re-anchor capture URBs on resubmission
@@ -105,14 +140,8 @@ a8934c2c6dfd72901cf3cc0de28e85eb902a61a4 ALSA: usb-audio: Fix sticky mixer regre
 0150da6be1c71cd0ad9262293971cb9ea371672b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 a13307e97d5c54b65720bb71fa379960ded1e51a Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8e7ff730dd96519a333d1570edf1c3fabb6d3629 futex: Fix race in futex_pivot_pending() during private hash resize
-fc6ad5eadcd1694d2f1ee2717c8024efd8152e20 x86/paravirt: Use static_call() for the paravirt spinlock ops
-216c6c67f7f1292474de1a3d1ae7d1cb95514264 locking: Factor out queued_spin_release()
-f7e2cb6d495aa1a88368650970a230b45870859b locking/qspinlock: Add contended_release tracepoint
-b359800c6970cb653d41ed2af18fd8e95dbb822f tracing/lock: Use TRACE_EVENT_FN() for contended_release
-087116fefbf343ce63b8911cf494e059e9679432 x86/paravirt: Trace contended_release on unlock
-58ae9eb82577d76da3defe1b2139348f6dd320c6 Merge branch 'rust-sync-next' of git://git.kernel.org/pub/scm/linux/kernel/git/boqun/linux into locking/core
-69e112752a732a2ed9e7e19a0d144edc9ded3809 Merge branch into tip/master: 'locking/urgent'
-b238f8c9e7cfd8828d48dd180087858d08ce799a Merge branch into tip/master: 'locking/core'
-f962fff1685a5aa11a81b2f8d0f531f13b3e0b1b Merge branch 'linus'
+558c0385d8b8a0dc71a4856616268d3b6558a506 Merge branch into tip/master: 'core/urgent'
+d307449b3f8e48f50491b4999a88ff36d029b7ad Merge branch into tip/master: 'locking/urgent'
+533688d7433ebb4e9963ce7a59318001495d0c54 Merge branch into tip/master: 'x86/urgent'
 
---===============5133296638906161203==--
+--===============5634126671409365477==--
