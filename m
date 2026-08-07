@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7530143821753999896=="
+Content-Type: multipart/mixed; boundary="===============1519523278560784055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 07 Aug 2026 14:52:37 -0000
-Message-Id: <178611435721.3571075.16666170536543015905@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 14:52:39 -0000
+Message-Id: <178611435998.3571161.4839969095299117991@gitolite.kernel.org>
 
---===============7530143821753999896==
+--===============1519523278560784055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1fb556c523f6c18b43b1f52fb366f61c9963ce06
-    new: 8086604be9733378461a5534c39cb72635226b23
-    log: revlist-1fb556c523f6-8086604be973.txt
+  - ref: refs/heads/mm-unstable
+    old: bacc32cc7de65ffff70080a48eb294f89e434d5e
+    new: 7e4ead2558f28da16d82a8f5845eee44555ff6ba
+    log: revlist-bacc32cc7de6-7e4ead2558f2.txt
 
---===============7530143821753999896==
+--===============1519523278560784055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fb556c523f6-8086604be973.txt
+Content-Disposition: attachment; filename=revlist-bacc32cc7de6-7e4ead2558f2.txt
 
 4949916db619403bb157f3131f618d3fd02b45a7 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 45864c144d4d745e3c7bc777f54dcdd8617fa5b9 memcg: keep folio's objcg same as its node
@@ -326,20 +326,5 @@ c9526bcac0e20232ba90b165ba2d5010defaecdf selftests: mm: move gather_after_split_
 9739a17dc16c94fc87dbf6d5a51e83de32210f2f selftests: mm: add mTHP collapse test cases
 b782fecdfe446cd3a89e218095252e0a8a903b7d selftests/mm: drop duplicate test_seal_mprotect_two_vma_with_gap() call
 7e4ead2558f28da16d82a8f5845eee44555ff6ba mm: debug_page_alloc: fix NULL buf in debug_guardpage_minorder_setup
-576c49cec7f5daadf6eb0d3a358fd092ab3bcfde selftests/mm/vm_util.c: correct __pagemap_scan_get_categories return value
-b22f113d9201eab6a071f6b9e83f0743aaa5d52c selftests/mm: fix soft-dirty kselftest supported check
-b33fddc87f4d63d9278c7d64fa17e98f34265e11 selftests-mm-fix-soft-dirty-kselftest-supported-check-fix
-95ec983eea67bcf726dcd3d04a266279f0f85abb maple_tree: remove unused mas_is_root_limits()
-5e0ec9494d8b2c4450b9b4e6d7752d32fb8c5273 selftests/mm: skip COW tmpfile cases when fallocate() is unsupported
-3b3ee05b9998d1960b5ab7adab46266dc20dcd1b selftests/mm: skip guard hole-punch test if MADV_REMOVE is unsupported
-09170290e0281c2d8387ab6aee0d5342e212b7d6 selftests/mm: skip khugepaged swap tests without swap
-7164cc9576e07b55da8ab7e95eb92729ea5c5b92 selftests/mm: skip hard dirty page-cache test on NFS
-da02331cd8d28690a6dc4540edd54578558738b9 selftests/mm: retry migration failures for the full runtime
-0aca0487c139dd1b832dd9b54225bf73e930aa5f mm/zswap: fix global shrinker when memory cgroup is disabled
-11e6758e217652fa919f30593be0984291702c45 mm/zswap: support batch writeback in shrink_memcg()
-07c3fbc6a05b9c125d6565b20f0e5485c8a98b0f drivers/base, mm: move arch_numa.c to mm/
-892dc8a9a7b2767f44316dba3afff14921236b71 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-79a31650bd2d94b9e06fa3153b3204423feecdb1 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-8086604be9733378461a5534c39cb72635226b23 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============7530143821753999896==--
+--===============1519523278560784055==--
