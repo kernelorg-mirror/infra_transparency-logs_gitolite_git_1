@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5639277559207807893=="
+Content-Type: multipart/mixed; boundary="===============4159932405807755499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Aug 2026 20:55:37 -0000
-Message-Id: <178613613735.3897123.15755663188791023828@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 20:55:40 -0000
+Message-Id: <178613614076.3897262.2898646988722890214@gitolite.kernel.org>
 
---===============5639277559207807893==
+--===============4159932405807755499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a23b36233d4103def55dc8cf65698106d0bd1e62
     new: 4fa4977a0d900f936bcae5cd2c510be5554e8dd6
     log: revlist-a23b36233d41-4fa4977a0d90.txt
 
---===============5639277559207807893==
+--===============4159932405807755499==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ca10634ebcca850dec2f1507ad5bfe70b82a9c00 tcp: honor BPF_SOCK_OPS_RWND_INIT on th
 1962afd211597001c0582414a9dee66908a8ad8a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4fa4977a0d900f936bcae5cd2c510be5554e8dd6 Merge tag 'wireless-next-2026-08-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 
---===============5639277559207807893==--
+--===============4159932405807755499==--
