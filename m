@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8540060089364244391=="
+Content-Type: multipart/mixed; boundary="===============5124324179471227559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 07 Aug 2026 13:23:00 -0000
-Message-Id: <178610898025.3498413.2545740392939314166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 07 Aug 2026 13:26:58 -0000
+Message-Id: <178610921839.3501758.12526224907513112507@gitolite.kernel.org>
 
---===============8540060089364244391==
+--===============5124324179471227559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/kfree_nolock_kmalloc
-    old: ed8dd3c414ae8584a77c891e64927c1907f95721
-    new: f03b847c021085f5a1aa2ddba0b549b80e7c2a72
+  - ref: refs/heads/master
+    old: 6ef63f56430b2d10405c0dc2c3feffb3c4b5d139
+    new: fcb8ea9062c7353f75475b50f2078f5ad0cc8a6d
     log: |
-         f03b847c021085f5a1aa2ddba0b549b80e7c2a72 mm/slab: handle large_kmalloc objects in kfree_nolock()
+         fcb8ea9062c7353f75475b50f2078f5ad0cc8a6d drop drm patch
          
 
---===============8540060089364244391==
+--===============5124324179471227559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1786108977 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1786108976-f7c76137093471c2d3ded774ef1b61196282ae76
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786109199 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1786109214-121d34707cdac7dd3922ffbf06b8b192b91cfdfe
 
-ed8dd3c414ae8584a77c891e64927c1907f95721 f03b847c021085f5a1aa2ddba0b549b80e7c2a72 refs/heads/b4/kfree_nolock_kmalloc
+6ef63f56430b2d10405c0dc2c3feffb3c4b5d139 fcb8ea9062c7353f75475b50f2078f5ad0cc8a6d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmp13DEbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaTj0H/RzsgR4XYpDnC0cj9DN0
-w/hNQU0SQ2n5S49x4ncHmihcqqCjTv6+G4RGggvolegDDr7yo1uiJgQ40vkr5+YP
-dSTDVAcqThV6m45W8UsJwhr+n24BqrjtVqExW4XKz8vxHzyvUXsJ5RrmyZhWFkef
-1a8lVvW5FIJnADMU3uRMh+3EBsRmhprW7px2Xf5rHkDgp/XPzvHA31zcS3J6Oqf+
-juvocP4OnpwSTle+SIWdxgV+N+z7Y+CPQ0AwT7KMu6v/ME0t70TdMQy3yCqfQjlw
-s1id29mh2f4HZlu8SVHWDrDUxehgmVDi2j/98NAQtnRNPQEHH6zUgqklzZ04HPSw
-Puc=
-=idO6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp13Q8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1+EQAIJiQWJssGlwdgrfqshT
+77qIx6GjV7KiveBGhb3rh3ehzjYGZrauRvSRfpLkM/AUlqQdY4dKnP6mZ2de8drx
+bXV72aMxSPxzqYGplB102bG7rjtBBiO9u4Q18i8ojv/gNfUYSFGG+ZzMHhxUkNQE
+TUi0u8zMKveNesBR92LdYQabXQGWihaS3t2tbq8HAcYWeiDZHHvxkC3OLmMIIbrT
+vIGSVVFVaXAcXVBicSkE8onQFt0/Tt2hgZN1lYt2zA8BXGLq5jSjwDDH/aMxUG6S
+gN22oSJv6mwhSNZVMGKWheyCJdiMPqb2F3huLCuY2BUimqy9L6Pqg0ujguMQyiEq
+hbHfefbzh/8OhLdQz1Wo4lOAJpTCzE5zy77FFcWNdh3CWLGTP01phU6BpWj6/Dq5
+0gLl+jY7yT3+Y5jjPZDLrAU/RiRPafFxW1ahsGRa79vG4B0qtDR1bo1fEWmdiglW
+6vlgbqYJYfBV3Atp9AbY+hEZ7ySOTnnrhqycgeY06aFDwAZH5LieSWw/rt9phxTl
+UgPj4OAvKPFZbuq1Ye1+8ua+ATAlhmaK9KMi+aaHvhq4bahRlFn8COVXZUlU3Ppt
+1ju2Cd4/fu1Km/eAGYnjeHxM9AMR27Jb0JyGMRmI9wTcs0v74JtmrSQ8TUaYZWm/
+MpJ8sTfBCozkZJycbKEZ2g9K
+=kuAz
 -----END PGP SIGNATURE-----
 
---===============8540060089364244391==--
+--===============5124324179471227559==--
