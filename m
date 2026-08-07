@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 07 Aug 2026 23:01:27 -0000
-Message-Id: <178614368719.3994676.1561163325534403066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 07 Aug 2026 23:20:42 -0000
+Message-Id: <178614484220.4008511.11382188654384220797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-test
-    old: 7b76dcfee62a67b788a24af595a301d1d823c40b
-    new: 4cae0e7c5a0fd58e4357567eaa3b33d81ede87ac
+  - ref: refs/notes/amlog
+    old: 8840d3de75e7e1434dfaedf6d50878e3a0f4efb8
+    new: 05e1eaa6d36d365cf0e8d6dbce17bdc88ad85ee5
     log: |
-         7e188e9f9437ab47c3237d609f1b26348d6fea1a f2fs: fix to pass folio->index to f2fs_sanity_check_node_footer()
-         fdf87dbd2fcab767107160ec2ad4df4c70828a58 f2fs: fix to off-by-one issue in f2fs_zero_post_eof_page()
-         3ef5ae5e7a7f416aad74a2fdce2ba80b8735542b f2fs: fix to zero post-EOF data when extending file size
-         197abef0d7d72d1685a54a54d1925f74a9243223 f2fs: quiesce background threads during system suspend using PM notifier
-         ac7e07d6bdfa523e016182289520b41568a54d26 f2fs: support dynamic reserve/release for device aliasing
-         58f52c71e2e66e727c76dada1f4a6efcd3d47fd8 f2fs: refactor f2fs_evict_inode having three major parts
-         4cae0e7c5a0fd58e4357567eaa3b33d81ede87ac f2fs: call __add_ino_entry out of the eviction path
+         1de53bf870bfd0b600bfab5c991d4a870c49e882 Notes added by 'git notes add'
+         dfe23c7a0365f4f9c07c6ed4a94eb2f86f166428 Notes added by 'git notes add'
+         a2d31678a08550c5d63db1811b53122b51afea28 Notes added by 'git notes add'
+         3d6a91cb6764413ab4cd02e97f4fb0d8115e7a50 Notes added by 'git notes add'
+         a545fd411b1449914b81ea6ac6c65f8509543960 Notes added by 'git notes add'
+         566f48a85682d94ddad851b4324239858bfa55a5 Notes added by 'git notes add'
+         1773f2b15e805a7d5fc589152164d1813e94be54 Notes added by 'git notes add'
+         05e1eaa6d36d365cf0e8d6dbce17bdc88ad85ee5 Notes added by 'git notes add'
          
