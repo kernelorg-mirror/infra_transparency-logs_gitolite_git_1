@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4519455563487060372=="
+Content-Type: multipart/mixed; boundary="===============7078458430508997488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 07 Aug 2026 13:40:18 -0000
-Message-Id: <178611001882.3512712.2438337732594242751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 07 Aug 2026 13:44:28 -0000
+Message-Id: <178611026811.3514196.8537269137965965993@gitolite.kernel.org>
 
---===============4519455563487060372==
+--===============7078458430508997488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/kfree_nolock_kmalloc
-    old: f03b847c021085f5a1aa2ddba0b549b80e7c2a72
-    new: 006f2b204c7b51027fed6394d92fbc0668f42208
+  - ref: refs/heads/master
+    old: 7caecf29d011fdbb906d5428e910fb56c9a96344
+    new: 57a1b95d1785e53ebad9df60997930df685587c8
     log: |
-         006f2b204c7b51027fed6394d92fbc0668f42208 sched: use kfree_nolock() instead of kfree_rcu()
+         57a1b95d1785e53ebad9df60997930df685587c8 6.12-stable patches
          
 
---===============4519455563487060372==
+--===============7078458430508997488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1786110015 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1786110015-20a8a564a8ca91dee90bf55c18a0cbc0b78ffaaf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786110251 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1786110266-00624ece3e7c2cbb2d57f5193ac9298760e86cf1
 
-f03b847c021085f5a1aa2ddba0b549b80e7c2a72 006f2b204c7b51027fed6394d92fbc0668f42208 refs/heads/b4/kfree_nolock_kmalloc
+7caecf29d011fdbb906d5428e910fb56c9a96344 57a1b95d1785e53ebad9df60997930df685587c8 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmp14D8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia1cwIAJEXDrPDj/NkJcSf4eun
-zYWKsWvabR3SIHPv5tQ1FuMerEXupUNz12ukjfX0+ZrqhwUq5BkxZ/lsv+/1txaP
-9EJmy1r8rBMTc++hMbHijB+GVibDZjYPd6+anuhuodpSD18lvvbiQTfgUqe2Xj8b
-0pfJK1aJfVj9e7XGfSHnOPlIR8Ho9t+9ITXpHkzNwUKNa5p/XXEEdwJX7oFWX3pM
-0JrVtrIjjqitlmmFjFBWohMNQiFuVRHMe2e0HM5HsGxshgfuNumIlV4WvhitWaVO
-I1ngg/aEnMCYRkci1+yxAZOlnbGuvwOCO36Xcb3TDxk2ZfJImUMm+ny2nCjU10+L
-nPQ=
-=uQqs
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp14SsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tiwQANPTnacFrTrkSufR7fQJ
+h5r6p3nhfsJ9pex3A80aTq6vUGqCWv8lnoccYvIAs4lDpEKlxPD/PXQCisrZ6pC2
+18Lp5dbnNxFw13DntHu9r9g3Ib1oV7dR2udjO7LZSzLzcCahbj8gjZYbhdPUg5Z5
+VgJwe9HDQfGhXoOKrsgI9s05M/hddZCXgJPtn5tcB1wsKpQeMK1Qhz7iyllENJa4
+Z8QBCog/Yq5N0AzIWQR5mzzmKZHAp2HDHr66djIMQMafI1PAtPngn+hgqvkeCTAY
+20bTCXySvlzTmjk4jG2StVfn4tW2GcNO++VDWfqjUFrcmMZVDCPCuI1GOC7SljgN
+Wv/FgqPl2SrYPRYrNxbofwbfyKPbvzAtdmCECOz7m+vAfQERaP87T9KIOgw4N4e+
+WicWkRnV43JBqm1V2bcE5ZRUT2cOBDuesolsVRMjS1xgKT77q9PNgQ9899dUCe2w
+5EWbdMk8WwcMNI2MzaizIdKKHqMGizaq7x7kCEHG9Du9tlowodEXchT2v99LvrP9
+yxfsukEKzAFACkNiFJkOEqdywW3UulV8UMgLiSDjQJVxSs2aEvMkFRbzAcMQNrbX
+06c0otyPrVzaU2ZN3uSUSriLVeFgbdyC6zBVB1i3IVZ0Tr+SBMbhbmHogMVRSUhV
+7MKAt0EG6pY0Q91ApB+zLE57
+=d76/
 -----END PGP SIGNATURE-----
 
---===============4519455563487060372==--
+--===============7078458430508997488==--
