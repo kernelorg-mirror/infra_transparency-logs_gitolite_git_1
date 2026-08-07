@@ -1,16 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Fri, 07 Aug 2026 20:09:24 -0000
-Message-Id: <178613336444.3860015.15296575882465095467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 07 Aug 2026 20:09:44 -0000
+Message-Id: <178613338495.3860297.9798768688941624025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/tags/kbuild-next-unstable-2026-08-07
-    old: 0000000000000000000000000000000000000000
-    new: 6b820b0ea6fc5f5a37c9cac0b1ae19a22a7296ae
+  - ref: refs/heads/kbuild-for-next
+    old: 8fbf553d973f4e464d287917dbdb4c5b4f1a1ea6
+    new: bbeb002cdd3772d1c0156ebd2ca828a2d61612ec
+    log: |
+         ae3de10fe9f3c1b7d880f4abaac2e97c3a3e35a9 modpost: add module as parameter to modpost_log()
+         bbeb002cdd3772d1c0156ebd2ca828a2d61612ec modpost: use mod_warn() and mod_error(), clean up logging
+         
+  - ref: refs/heads/kbuild-next-unstable
+    old: 8fbf553d973f4e464d287917dbdb4c5b4f1a1ea6
+    new: bbeb002cdd3772d1c0156ebd2ca828a2d61612ec
+    log: |
+         ae3de10fe9f3c1b7d880f4abaac2e97c3a3e35a9 modpost: add module as parameter to modpost_log()
+         bbeb002cdd3772d1c0156ebd2ca828a2d61612ec modpost: use mod_warn() and mod_error(), clean up logging
+         
