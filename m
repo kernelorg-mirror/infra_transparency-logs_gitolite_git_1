@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4310662807204479635=="
+Content-Type: multipart/mixed; boundary="===============1994371262970544820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 07 Aug 2026 20:40:49 -0000
-Message-Id: <178613524991.3885064.633330856535973180@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 20:40:52 -0000
+Message-Id: <178613525275.3885200.18156994339954395852@gitolite.kernel.org>
 
---===============4310662807204479635==
+--===============1994371262970544820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: aa2e13ae8d3cbe2c15ef4f7e971b2de0832794aa
     new: 594d905195024b228c962627ae5ae7c17bd582a4
     log: revlist-aa2e13ae8d3c-594d90519502.txt
 
---===============4310662807204479635==
+--===============1994371262970544820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -542,4 +542,4 @@ b0ce5fd9fabe7c79463cf4602217d4dfeff5b1fd igc: fix netdev not re-attached after r
 315f4bd234b3b8a3ed3a71fd4c53b110cf373720 Merge tag 'net-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 594d905195024b228c962627ae5ae7c17bd582a4 af_unix: Unlink scc_entry in unix_del_edge().
 
---===============4310662807204479635==--
+--===============1994371262970544820==--
