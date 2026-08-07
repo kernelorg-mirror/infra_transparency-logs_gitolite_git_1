@@ -1,34 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 07 Aug 2026 18:18:13 -0000
-Message-Id: <178612669394.3731602.13258394920579239365@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1008591577331357906=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Fri, 07 Aug 2026 18:19:07 -0000
+Message-Id: <178612674743.3732031.6282990614417656694@gitolite.kernel.org>
+
+--===============1008591577331357906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 42597bb78a34ea80d8f3346779440f498510e96d
-    new: 140fe610af607fd70da95c447943fc2690855519
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 6ba01f4efbc3f311f65ed7f401db3c19e8bdd06a
+    new: e4d2465549255d76d6d711dc6de2e2b6736f89a1
     log: |
-         e00a6a89900dfa4cda3669558d2f3581cd41a656 ALSA: hda/realtek: Add quirk for Acer Nitro ANV16-42 headset mic
-         3c6886dec94c7dbe0d8e83e4c7d66a037ae4f7da ALSA: hda/realtek: Add quirk for Acer Gadget E10 ETBook left speaker
-         f2d08f3651fb12634347fef2c41687a807a7dcba ALSA: hda/realtek: Fix headset mic on ASUS Vivobook S14 S5406SA
-         d152afd1cd7a69c752236b6e825c4e62a74788eb ALSA: hda/conexant: Add pin config quirk for Huawei Matebook
-         140fe610af607fd70da95c447943fc2690855519 ALSA: hda/realtek: Fix speakers on ASUS ROG Zephyrus G14 GA403UM
+         872f486259ae0bc6b73ca4735a15d013241f73e9 scsi: core: pair EH runtime PM get and put
+         732cb6bb37fd26863d5786522fb1997e7f5865b4 scsi: core: Do not block on tag allocation in scsi_eh_lock_door()
+         c4f6916a99cf105c3ff340b6210fcbba3fa66b35 scsi: scsi_debug: Negate wrapped memcmp() result
          
-  - ref: refs/heads/master
-    old: d1923af63ef6e213760c64c660160465c08e3e7a
-    new: 10b143783a890d88840ddf17e42bce6556913ffc
-    log: |
-         e00a6a89900dfa4cda3669558d2f3581cd41a656 ALSA: hda/realtek: Add quirk for Acer Nitro ANV16-42 headset mic
-         3c6886dec94c7dbe0d8e83e4c7d66a037ae4f7da ALSA: hda/realtek: Add quirk for Acer Gadget E10 ETBook left speaker
-         f2d08f3651fb12634347fef2c41687a807a7dcba ALSA: hda/realtek: Fix headset mic on ASUS Vivobook S14 S5406SA
-         d152afd1cd7a69c752236b6e825c4e62a74788eb ALSA: hda/conexant: Add pin config quirk for Huawei Matebook
-         140fe610af607fd70da95c447943fc2690855519 ALSA: hda/realtek: Fix speakers on ASUS ROG Zephyrus G14 GA403UM
-         10b143783a890d88840ddf17e42bce6556913ffc Merge branch 'for-next'
-         
+
+--===============1008591577331357906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 75C5DE3D 1786126745 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1786126744-c3a175b0c335f26145de3f8e9f757ccfbd07170e
+
+6ba01f4efbc3f311f65ed7f401db3c19e8bdd06a e4d2465549255d76d6d711dc6de2e2b6736f89a1 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp2IZkACgkQ7ulgGnXF
+3j2Kxw/3VzZm+aNQcxUY7DkoJ2kpTAwJwy9x59YcFwCUdZJtRs9kJHnJkQybSwBM
+j9UoiCuuigIFoKfl4IFEjrJCGKfWO03VImD/zjvsgVBIkElQY7BfXEGUvyoZscNw
+O1qB68CBmGs+TG4S780RnmCYYqHbQ9XxpDx049mx6A6A0rb0oKibRwPwm0ppmR+l
+yICZ6wBhQjW/l6qid+4/nFhg4150nG5YPzSwE87xPSMPrPrtLSZgxMmVwSHazXIz
+bSgQJ2X/Cuw7edkY4V9zelMWrfGs7Itnz5hTqLeOge8HjSsc8NbeFQtzVVS58AVY
+VMxdXfXHLqSOOiSmgRiJnqXbcHqs4kqNJlMQoFCgnYs+tuwkAyMvVdrYI3vDIwMn
+CLKkpuhsz5Mz8P0XeqZPnKJh4pxvG0GqBUMSlt25aqihQowC1tDft9mjfhqUdckr
+4DNelUo1sqkXCptHkSm/w5xDMraYHlhMQNP7WvtLWzNGNb+9FvQYRDZKSa5RCYmN
+EztxLhUFWqZASZ7S4pQig+aRZc+cFp1xzkRNw4KeBx/LnNxrX9Av/eE7SVAG9d4O
+Uo5tH5XHjmB3HU1dFD1oCyQl1M9K8qQsl9qhhcc+7/BNZPzkaQR2MX5NC18CdEyR
+oTnSZS8D2pJDl12/ZDjpYt3tCWwHfDg61Xv6LMuPh7R7VKfSsA==
+=zrW1
+-----END PGP SIGNATURE-----
+
+--===============1008591577331357906==--
