@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1920663239981950847=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 07 Aug 2026 05:37:53 -0000
-Message-Id: <178608107329.2979809.11514554927629953260@gitolite.kernel.org>
-
---===============1920663239981950847==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 07 Aug 2026 05:37:55 -0000
+Message-Id: <178608107560.2980000.5708025171623547037@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/v6.12.102
-    old: 0000000000000000000000000000000000000000
-    new: 2b90d3a4ba2ceb3e6420d3ddb364456ae4d83ae0
-
---===============1920663239981950847==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786081057 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1786081071-db72b8ac28e5c8144311a8ae05a900de86fef904
-
-0000000000000000000000000000000000000000 2b90d3a4ba2ceb3e6420d3ddb364456ae4d83ae0 refs/tags/v6.12.102
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1byEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KocQAJ11sDshiqx17BeGsolZ
-rf73HNuzlTcj191ppgtAKZMB3qeaTXGk8qD3JkkcSg53HAS7AhcZpYI/LPvvcYVh
-X+B1FAcuVZ/0tlChb3cp8EBgOzeL7oNOe7vAdex2Xz8qzSrqYQDlh9mrP0+LEy1L
-x5l5nK91TSARHssfDdRqAxn0YNDBoU/9ExT5hyFU6JJyJuhPnRQTEgGt5dCHL5Ej
-P9OdyCiOYYttHXOC4+4+9OEtONKn8ktjdx8KglcEt9gjU5XrNaXckrU7/Fqedzim
-nP2807KbZZPIB1IsrxS41u68xoKrpc0auWfO9p2IigbiF7BO2nBCVxwFU63E4rpO
-4NBJRjzq2Cyp9qujxE6q4sRgD6pdZh9zgw5nPbaJoxNNdf3e2jpwEpfuYbw8bgEx
-Gcr9Mv2R+pIwEOIx6H45T2gDetv0ngP1xsIPaNWOF/LvEmP9Pe21i+BrjXPr6KHY
-gd34g6y2uOhdjzQhMcJyJeMBepGtCYLKZP+f8KuwOo3+/P6YTILQimJ3g0AgsJMV
-vixeKlo802lDoQzfYff7aZeJXkg15hWdl0ypXE733INRIAxiY6HiW/8lbhfQDIg1
-sParCgrOhxsLmEGHPIXLTWbaEF1QUy9D3zZ99z6VTDQnx9v8vlju3plc3U9FqDR4
-HGZMd0M1rlh+5l1V9/hBGLL+
-=/JVm
------END PGP SIGNATURE-----
-
---===============1920663239981950847==--
+  - ref: refs/heads/hwmon
+    old: cb7edec289c85b9b4f949daa92e1d81942c0d772
+    new: c6c4234928d2eb4f61fecb61067e612d9bdbd2ff
+    log: |
+         36c4d73ce05d1d8896c2669eb0730d35a02a2ec1 hwmon: (corsair-psu) fix possible out-of-bounds access on missing string termination
+         fddb5ceaf901b050ed2a1a7deeecbf97e003435a hwmon: (ads7828) Fix external VREF regulator handling
+         edd11a94335747423569500a194c6eaa915f2963 hwmon: (ltc4282) Avoid overflow in maximum power calculation
+         e253dd5f9f6d875a317895bf43ec9534ed7523cb hwmon: (ltc4282) Clamp negative current limits
+         335698fd7f60b6707b21fda725f97f35fa956b07 hwmon: (ltc4282) Fix parsing adi,current-limit-sense-microvolt
+         2da6050809d437a805e7a3aa22398a15073b0234 hwmon: (corsair-psu) serialize debugfs access against hwmon
+         c6c4234928d2eb4f61fecb61067e612d9bdbd2ff hwmon: (corsair-psu) Fix linear11 calculation
+         
