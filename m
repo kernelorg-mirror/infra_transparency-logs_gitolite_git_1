@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Fri, 07 Aug 2026 19:43:09 -0000
-Message-Id: <178613178948.3839800.6841931280664158715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 07 Aug 2026 19:43:46 -0000
+Message-Id: <178613182685.3840123.13099425526574775635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
-user: nsc
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/b4/kconfig-warn-on-dead-select-for-choice-value
-    old: 813ac56477da48001e09a16d17edda8ad3727db8
-    new: ab001fabd34257c4489020e1b2754285aba5b46e
+  - ref: refs/heads/master
+    old: a13307e97d5c54b65720bb71fa379960ded1e51a
+    new: 3f008280327ba5ad132965abab0c7846283cef0c
     log: |
-         864fa7b9353fbe9d4f9d035deb105c52e5540622 Depends on related fixes in Kconfig files: https://lore.kernel.org/r/20260807175041.3299349-1-julianbraha@gmail.com # under-review https://lore.kernel.org/r/20260801160140.2391000-1-julianbraha@gmail.com # under-review https://lore.kernel.org/r/20260714112047.2304856-1-julianbraha@gmail.com # under-review https://lore.kernel.org/r/20260723104933.117413-1-julianbraha@gmail.com # applied to mips-next https://lore.kernel.org/r/20260723122818.437802-1-julianbraha@gmail.com # applied
-         ab001fabd34257c4489020e1b2754285aba5b46e kconfig: Warn on dead select or imply for choice values
+         4a2e2c563b0ee2253a7902f775bf71232820186d pinctrl: qcom: ipq9650: fix audio_sec_mclk_in1/out1 group pins
+         687f39faccba29ab26de965411db37e849af8ec2 pinctrl: qcom: ipq806x: mark gpio as a GPIO pin function
+         fd46760956509f580f7d3d25db4de10e7c6f949b pinctrl: qcom: ipq806x: mark pci reset as a GPIO pin function
+         696ff859f5f93a7cedab2a2afa20bd1635918fcf Merge tag 'pinctrl-qcom-fixes-for-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into fixes
+         3f008280327ba5ad132965abab0c7846283cef0c Merge tag 'pinctrl-v7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
          
