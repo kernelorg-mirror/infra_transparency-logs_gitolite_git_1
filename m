@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5255641442335866459=="
+Content-Type: multipart/mixed; boundary="===============4370050825614577294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 07 Aug 2026 06:09:25 -0000
-Message-Id: <178608296552.3062867.8798784794694604712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 07 Aug 2026 06:09:30 -0000
+Message-Id: <178608297097.3063086.2725182385824670275@gitolite.kernel.org>
 
---===============5255641442335866459==
+--===============4370050825614577294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.215
-    old: 0000000000000000000000000000000000000000
-    new: f56ce645712ebabd139a1e257becffd7528249b1
+  - ref: refs/heads/linux-5.15.y
+    old: 9c7634c60784e6ed4d11e314d38802b82ff0bbc7
+    new: aabd761612dbeb7d40750d485da219d11433718a
+    log: |
+         41285da14071a31729220bda683c0983246c011f Revert "x86/bugs: Make Safe-RET robust against interrupt injection"
+         52db77a13be224e09eb4ba6b4252ae8ab9085c2c x86/bugs: Make Safe-RET robust against interrupt injection
+         aabd761612dbeb7d40750d485da219d11433718a Linux 5.15.215
+         
 
---===============5255641442335866459==
+--===============4370050825614577294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786082949 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786082964-1b1d23eaa761f68933893d0941443c7bdde2c67f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786082954 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1786082969-de97f2484dafdea814c1bab55f629c205b603ed7
 
-0000000000000000000000000000000000000000 f56ce645712ebabd139a1e257becffd7528249b1 refs/tags/v5.15.215
+9c7634c60784e6ed4d11e314d38802b82ff0bbc7 aabd761612dbeb7d40750d485da219d11433718a refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1doUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++xwP/1OJ+MiYCKxeXA8mx1qa
-f87ppoo2KPLYYRezBX6LHreMk9BmmWd6rghyyCN96LjSoO0zRjLr0OZlm7GK2k9/
-SakDkmusCacj5Nh1cLsLVrvLVpV6AAI81ZXOKpkiVSXY/ZwQQhttJyMyQqG/PYiu
-FG7B4N41FseBUp4PPB5orM52ysFwnwXlhox6ViHCpaxGaKyfvTRF10HpSUC39RD5
-gMACx1MKPXTfu7G3PVMrPnIOhy2i8MVFFtyIbOTu2jwYOi++2LQNA6NQTvmUeUdc
-1EoEeZmO0D/FlV6UvJw73s+T0g7G9vXQq+9WnMPBBePqAxdRTFNTVJOtfrgiFNDG
-B5PiSibKazij5jb6ke0vuy4Y8ZsHOCwxhGL0cupx/PT72N1VelWzfR4PJPzUPtX8
-7IZKxVUY1Nwl0O7oJuF+tKgQEy/A3JgDCB8ZWOnlSUFY/0c1kr2j1J/qkJwq8cUm
-rcdUq27wx0TkAh+19pJLQNWpMriypRy7UaKOd2MV81JaUiXdi5ekd7SF6SBTB2OR
-XpoSzxnOh+CaAnoJuW89zIgSRQI4ZlZTn28ebpOQxP68JQzobtfi94AYd1M0L2I1
-s21Sh/UokAPyGMv58eok5Bg17AhmNuEbKfJ2F/UWT6LSbDwGKQTqGt9LMmzQMKDz
-NJ6FaDVTnySqNQSSwOB+3Aog
-=x5AL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1dosbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4kwP+wd3cZOSZzSmpZOssJB8
+L9PHqoiXxgG7fZPdSVKTpIJm6d1cPOlMBOJY2FPW+sqJUxVbFnGTk7RbTZvM4dc7
+JEKZyZtA5kbMjYhpkhCMQM/X8m3SKr+ikChfZ6BLe3MZ36pe02kdp+9pDxM0cbj2
+Vrjid6exypzal4mt6m3yHNZlwE97ACL1NSiUwuC62NuRz0IxMKvmGFUQUX/GXdag
+Nz2KbD7eQJmlUwWXgcD/YhLNkGkKCZ19djORSNmZ2oedJvOA4nOToDQKFeVT+Q5D
+1nUZPEi8toXAsFbJ/Mkfrf+u71KVF22aDvuIVooz3sDaC4tlu4l012B24VADPGbe
+DL7vbIG2uQ72uuHzZcPW0fifyIANeoMJOjxx4vuhOt7SahO+mxlxSXh2scE7of5h
+RhkeYanaNVIpu6aYmAq7BNmy0UnOY2w2XekylbKr+Ri/ZSluTSIaYgihnvQ/mjJx
+q4dEVGzjllyaS1IytTn4hsZmFwjmx0mtjrc5q1DSaQEigRGwNyjm+L7M4cPJLZsu
+si9zp2XzYQhS19lpvA/AsEPzyRMhrrOAFAHJmR6oMLkzv2ZtSwVxhUouxOwu8byd
+LqV9NkvHXtbMJG4daXrWIOxi1fmYVY2+MIn3+Th8maXrmoyCBdWnbn5viwpu7rr9
+5d3UvJRetDNx8B5+uv+DyT22
+=fo+X
 -----END PGP SIGNATURE-----
 
---===============5255641442335866459==--
+--===============4370050825614577294==--
