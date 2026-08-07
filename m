@@ -1,51 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============8323187318386239722=="
+Content-Type: multipart/mixed; boundary="===============7279381943962686646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 07 Aug 2026 12:51:55 -0000
-Message-Id: <178610711595.3476724.11416866623646648414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 07 Aug 2026 12:58:02 -0000
+Message-Id: <178610748224.3480546.222714939663014044@gitolite.kernel.org>
 
---===============8323187318386239722==
+--===============7279381943962686646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/arm64/percpu-fixup
-    old: a4d97438eec91db6866e4cb4e328d8157503faba
-    new: 53260d345e28dc820c03f9516caf00a5cf7fc618
-    log: revlist-a4d97438eec9-53260d345e28.txt
+  - ref: refs/heads/for-next
+    old: 8c7f55d60aa3512fd3da7e9cf313723460e487b4
+    new: 2b1f9f69ae25cb46d0a84ff14398596eb2bfce44
+    log: revlist-8c7f55d60aa3-2b1f9f69ae25.txt
+  - ref: refs/heads/master
+    old: 41c129fdc28b6414d259da72679567c5e72a55dd
+    new: 2b1f9f69ae25cb46d0a84ff14398596eb2bfce44
+    log: |
+         7db0a00445f1a40bacfe9b747405c11cb5f10fc9 bpf: Reject load-acquire from pointers requiring fault protection
+         e2577cd62060be91a3d7d11a56e5a61faae4b7f7 bpf, riscv: Add and use bpf_atomic_is_load_acq() helper
+         4cf8def58b779ad2827f81760837b7a844d6c7d6 bpf, x86: Fix exception table metadata for arena load-acquire
+         af22d273aa1f61fb86ec712b3ed785da73c3296e bpf, arm64: Fix exception table metadata for arena load-acquire
+         007466d9e49738222054f1df87c111a945633ddd selftests/bpf: Add arena fault test for load-acquire
+         2b1f9f69ae25cb46d0a84ff14398596eb2bfce44 selftests/bpf: Add load-acquire test for probe-memory pointer types
+         
 
---===============8323187318386239722==
+--===============7279381943962686646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4d97438eec9-53260d345e28.txt
+Content-Disposition: attachment; filename=revlist-8c7f55d60aa3-2b1f9f69ae25.txt
 
-92a36434657bffacd89cbc121acfb80a08329e8f arm64: percpu: Fix this_cpu_write() casting
-26749ff14aee5deedba712e8f09e2f009bf11986 arm64: percpu: Fix this_cpu_and() mask generation
-983a9d38071b51a6cff637ad6a36880ce33964b4 arm64: percpu: Fix LSE operations on {8,16}-bit types
-7d85be59f0f563c6e009d834fcee6af9106ad0be arm64: cmpxchg: LL/SC: Avoid redundant extension
-ad4c6adc82cfe55f2f22c9c4cd20dbdc38c348da arm64: cmpxchg128: LSE: Remove redundant operands
-aa2ef13e98ac6d8b46e28ee11cb962a4acd9bfe8 arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
-f902e9127f6c46751bdd551d581957a8121960d6 arm64: preempt: Treat should_resched() as unlikely
-f08a4292896252462444922c736fa0723addd879 arm64: ptrace: Always inline pt_regs_[read,write}_reg()
-56b99205b17b3d5838262a21e8b77fb9c7b17bfb arm64: percpu: Factor out percpu offset asm
-34f237e1a0705a6966a06dabc73e47eb7bc72fd6 arm64: gpr-num: Add wxN aliases for wN registers
-f8a0b25f42261b96172881080c22279acbebf479 arm64: gpr-num: add __GPR_NUM() helper
-ca26ad068be976c30e07e02a9bf0d381bf90f8d4 arm64: entry: sdei: Restore all clobberable GPRs
-4b9f77220acf8b7eb0f53e2ba1053bf38007af74 arm64: entry: sdei: Make 'tsk' available
-7cd48bca451b7ea4be3900b797e1ef8a5e89b933 arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
-5563cf2cab6bd457d6941c0933d4b33b59e11a3a arm64: percpu: Implement preemptible read/write ops
-26ce84f5f941a79c7dfc190d37f4f44cd314e329 arm64: percpu: Implement preemptible void RMW ops
-bf72910c4e65a6b14149f7589fd12203aed67d6e arm64: percpu: Implement preemptible return RMW ops
-d69609df04b5fea58e2a05211153874219e61e69 arm64: percpu: Implement preemptible XCHG ops
-d4d43b40cfebcfda218d65fe448f4aa3bc6253d4 arm64: percpu: Implement preemptible CMPXCHG ops
-c598f6ff260334311e9b87f1fa25cb2b104302df arm64: percpu: Implement preemptible CMPXCHG128 ops
-53260d345e28dc820c03f9516caf00a5cf7fc618 arm64: percpu: Remove _pcp_protect*() wrappers
+3d72aca40b83040aae08c3a3a3dfc5a42c26abe9 resolve_btfids: Deduplicate BTF after btf2btf transformations
+27a78c2e7eeea8397ad3c28171084e695d4c12af resolve_btfids: Process KF_ARENA_* flags in resolve_btfids
+ef77140f4b3ad1802ef6d84a2f803d1171a086ae selftests/bpf: Verify arena type tags in resolve_btfids test
+692393104909ee14686488995ad5009a618fb0c7 resolve_btfids: Emit bpf_kfunc and bpf_fastcall decl tags
+9f3881ecad886bbcd7b69355bc14a6deb071672c selftests/bpf: Verify decl tags emission in resolve_btfids test
+fd5425b67355da4972c76b4ca266f05515172a9b docs, resolve_btfids: Document kfunc BTF annotation emission
+41c129fdc28b6414d259da72679567c5e72a55dd Merge branch 'resolve_btfids-implement-btf-tags-emission-for-kfuncs'
+7db0a00445f1a40bacfe9b747405c11cb5f10fc9 bpf: Reject load-acquire from pointers requiring fault protection
+e2577cd62060be91a3d7d11a56e5a61faae4b7f7 bpf, riscv: Add and use bpf_atomic_is_load_acq() helper
+4cf8def58b779ad2827f81760837b7a844d6c7d6 bpf, x86: Fix exception table metadata for arena load-acquire
+af22d273aa1f61fb86ec712b3ed785da73c3296e bpf, arm64: Fix exception table metadata for arena load-acquire
+007466d9e49738222054f1df87c111a945633ddd selftests/bpf: Add arena fault test for load-acquire
+2b1f9f69ae25cb46d0a84ff14398596eb2bfce44 selftests/bpf: Add load-acquire test for probe-memory pointer types
 
---===============8323187318386239722==--
+--===============7279381943962686646==--
