@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 07 Aug 2026 11:20:19 -0000
-Message-Id: <178610161934.3394947.2586656353526583156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 07 Aug 2026 11:23:18 -0000
+Message-Id: <178610179894.3397385.3526682385139655890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 98c63ce4d7606b2362d8702f159b07f77f75547e
-    new: b48373c901951fad1a26bd7c33ad91172b3945b5
+  - ref: refs/heads/for-7.3
+    old: 85665ff342c7432e1f77f58e005af53d23a62391
+    new: 6d0451f9bf1a3d62e902bfdd68dc997409d65694
     log: |
-         56c193a5cb375bab9b9c94adb9da9bd8815fc106 rust: pci: Mark Device refcount methods inline
-         b48373c901951fad1a26bd7c33ad91172b3945b5 firmware_loader: do not queue completed sysfs fallback requests
+         6d0451f9bf1a3d62e902bfdd68dc997409d65694 ASoC: sophgo: remove unneeded devm_kmemdup() for DAI driver
          
