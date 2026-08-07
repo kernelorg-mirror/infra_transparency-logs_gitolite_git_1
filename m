@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7161158179257595465=="
+Content-Type: multipart/mixed; boundary="===============5639277559207807893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Aug 2026 20:42:31 -0000
-Message-Id: <178613535152.3886920.1521923867453634855@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 20:55:37 -0000
+Message-Id: <178613613735.3897123.15755663188791023828@gitolite.kernel.org>
 
---===============7161158179257595465==
+--===============5639277559207807893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,189 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6da7adaa29975305bcae253c620c9f5c710c9e21
-    new: f64226c81f218523712836074480fb44f07c0a99
-    log: revlist-6da7adaa2997-f64226c81f21.txt
+  - ref: refs/heads/1GbE
+    old: a23b36233d4103def55dc8cf65698106d0bd1e62
+    new: 4fa4977a0d900f936bcae5cd2c510be5554e8dd6
+    log: revlist-a23b36233d41-4fa4977a0d90.txt
 
---===============7161158179257595465==
+--===============5639277559207807893==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6da7adaa2997-f64226c81f21.txt
+Content-Disposition: attachment; filename=revlist-a23b36233d41-4fa4977a0d90.txt
 
+257cdb2c6e380e30bf61ed4607b46765e60c747c wifi: rtw89: coex: Extend bt_slot_req for dual MAC wifi
+77e219a25501a0c042d9337e538a4c1a7232697c wifi: rtw89: coex: Move Bluetooth related counters to BT info
+195ce7889423f1fc068490cfbaaed4eaa16a093f wifi: rtw89: coex: Refine third party module related coexistence
+ebb69df34148c3acffb46c18b76865cbddfb40cd wifi: rtw89: coex: Add TX/RX RF parameter format version 9
+600649fa9c10e517818bdf42c911fe207bbc243f wifi: rtw89: coex: Renaming drvinfo_type to drvinfo_ver
+5c071a06bbba0f36806cd3ac4a8bb3403c20fd16 wifi: rtw89: coex: Add Wi-Fi firmware 0.35.94.1 support for RTL8922D
+9a149cf572e90157769ab3a8a3bc8cf5601dcfaa wifi: rtw89: coex: Add RTL8922D chip string
+0819de0fd2906236dd38fdd89e52dcb53cd853b2 wifi: rtw89: mac: finish active TX immediately without waiting for DMAC
+14dfbfeba17b98d5cb3a7e31bbff4d21e74302c9 wifi: rtw89: mac: pass chip version to firmware
+e50c0fb7867e6b2b0714c79b8385ab6db2c5567a wifi: rtw89: fw: lower debug level for UDM1 debug register
+c99498b4cbd75f7e1b45e354c2108f4646c0944b wifi: rtw89: drop packet offload entry on H2C addition failure to avoid scan issue
+b993046234fc3110f5ca3eb561492f8072ccc689 wifi: rtw89: disable sniffer mode in RX filter when initialization for Wi-Fi 7 chips
+0ec249ffc060cd91f3f6cefd7e7008c17bcb20b9 wifi: rtw89: pci: disable phy error flag related to refclk
+c1eabaaa088ddbb1b937cd339adfa4c18e93c93d wifi: rtw89: fw: fix link ID filling for LPS MLO common info
+76edcedda6437647ecd09b4b47593990a003b07a wifi: rtw89: wow: use MLD address in WoWLAN ARP replies for MLO stations
+03a963f4aeda538acad50806e94ef25d95b78743 wifi: rtw89: wow: add QoS control field to WoWLAN ARP response for MLO
+dbff9040587e9bd6d3ee337315971957f9f76612 wifi: rtw89: wow: only WiFi 6 chips initialize RF registers in WoWLAN mode
+a8cddb62c573f28eef5f887a8f3156e8ee22776a wifi: rtw89: check return values in rtw89_ops_start_ap()
+2aba608a86e9b099c9af2ea70b620552dee2b628 wifi: rtw89: fix HE extended capability length check
+04a46c2dbf3b516c96a1d19b72917b56055ad6c1 wifi: rtlwifi: fix disabling of ASPM for RTL8723BE with AER flooding
+676e59a3825c6dff56318f0a502769853b72f223 wifi: rtlwifi: convert pci if-statement to ID table
+2b7858891b100587c10c136cf07205335a897be0 wifi: rtlwifi: disable ASPM for RTL8723BE with subsystem ID 17aa:b736
+07db10de262f4150e24fd631a7a6c428f7bf80c9 arm64: dts: qcom: sdm850-lenovo-yoga-c630: lower PSCI cluster idle
+0b79ae7b09a86ff2b925b3ec738dc18ba073d924 wifi: rtw89: coex: Add Init info version 10
+c595e0a0958c5b700eed0a91ce0bf25290587f0f wifi: rtw89: coex: add rtw89_btc_init() entry for initialization once
+2c5af470819ba6c8a996c297d2beb06987215f8f wifi: rtw89: coex: Update TDMA descriptor for dual MAC
+2b497ba92abe3f31a66643e5d05a7b27a1de0c56 wifi: rtw89: coex: Add Bluetooth binding for Bluetooth TX power setting
+fe8f6ddb9095caa156983f920922d5f8b9b25e1c wifi: rtw89: coex: Add Bluetooth binding for Bluetooth RX gain setting
+564dd7a9504767bbf1ed9c855f334f042ee4ae7d wifi: rtw89: coex: Add WiFi/Bluetooth adapter binding info
+3244261af91596da1f17adc0812e42cb7fea9983 wifi: rtw89: coex: Add TDMA binding for dual MAC
+36f90091ee57deae8eef55e891f07458f08127eb wifi: rtw89: coex: Update scoreboard related logic for dual Bluetooth
+d01bcd34dd98d74c38a6c3e8bdbd94c00ee86a8f wifi: rtw89: coex: Add Co-RX logic
+be8aedb68c9645d5b76f262f7efc7e6a5581bc9a wifi: rtw89: 8922d: remove CCK bandwidth compensation
+daa3fda5aeb9a8dc8a3f961dcbca8c740f59be07 wifi: rtw89: 8922d: dynamic adjust channel smoothing
+8da4883c81ae69e3abc86328b256c828748d035f wifi: rtw89: 8922d: fix EMLSR BB switch sequence for MLO mode transition
+852927114f6ef37530952b3dba063d24e60b38d9 wifi: rtw89: phy: fix bandedge primary channel for 2.4GHz 40MHz and 6GHz
+390f58e29de3a3ddb05dd739a5fb12ed973d9088 wifi: rtw89: 8922d: set TX compensation by format v2
+d193bdc73396110a1d803c51d6e99ee2b3e42c15 wifi: rtw89: efuse: no need to export rtw89_efuse_read_ecv_be()
+4260edb3b1a6da71b8cd362f57a9ac4329eb538c wifi: rtw89: efuse: read thermal calibration value for RTL8922D
+4e199cd6661457e426e0f10a63c553c6c50b5262 wifi: rtw89: 8922d: read default digital voltage calibration values
+47ad03f1eca5ddbc44562b9a4add5003fdca34c7 wifi: rtw89: add thermal protect by digital voltage reduction
+b7911466b6dbba6df7c282044b65eaa8700584cb wifi: rtw89: 8922d: set ANA CLK enter to 500KHz
+79afed9426ce4cc1bf6807dfadda081124ca2c4a wifi: rtw89: 8922d: update scaling factor for RX path
+9bf6bd6ed5accb57544d04ded911a2ef1642d48f wifi: rtw89: 8852a: fix RSSI report when average beacon RSSI is not ready
+235fa79d756106028b92505e78bd281698d9fb44 wifi: rtw89: phy: add NCTL check for WiFi 7 chips
+5c925d7722c674fe4d0819f2bb176d144a3eaae2 wifi: rtw89: unify access struct of TX power track tables
+56d32cdc6040440b08edfd5d7262250a721233f8 wifi: rtw89: set needed firmware elements for early chips transition
+6c080026ecc17eecb103f8927c64ea73a74bb818 wifi: rtl8xxxu: fix use-after-free from rx_urb_wq on stop
+ba5c0f28a26e7d9be1e0997f8920dd638e2782fd iommufd: Fix wrong hwpt passed to iommufd_auto_response_faults on replace
+5f3fc0ad9a41883a62098359b9fdbe4257f20e53 iommufd: Reject DMABUF pages from the access pin path
+339bd11591593ab7ce88136ab7fd01ef3813b724 iommufd/viommu: Release the igroup lock on the vdevice_size error path
+9be311cfbe6154da146a7408e0d5e518a9321ed3 iommufd/viommu: Publish a vDEVICE only after vdevice_init() succeeds
+c3b8ee84a965058b41275069d4696f37a8b14bf6 iommu/arm-smmu-v3-iommufd: Require exactly one Stream ID for a vDEVICE
+0ba1b366185b770440bf4eee3c4a929bc3cfc0e9 wifi: iwlwifi: Clean dangling pointer in tx path
+d6061f5f1318a0fc116fa442bea299095d211ad4 wifi: iwlwifi: fw: Fix spelling typo in error-dump.h
+67105abd6195a685a84dcb8a5daf54a1f4bfdb60 wifi: iwlwifi: dvm: fix memory leak in iwl_op_mode_dvm_start()
+94280e6e0c69a5327e377803732f494d8b5a74cd iwlwifi: dvm: add missing cleaup for on error path
+fadeedd7cfc5d73d33fa3d7ac54b9b27aabd09d2 sched/psi: Create the psimon kthread outside of cgroup_mutex
+5457025fa8ca3c0d2732109513de839e3e797190 sched/psi: Shut down rtpoll_timer in psi_cgroup_free()
+7410e4548a17bd868dfc60b48f2e78eacde3ad78 wifi: iwlwifi: validate PNVM SKU TLV length
+f051995c539582b05276abda4c5874fd4cafd2a5 wifi: iwlwifi: validate UEFI reduced-power SKU TLV length
+478cad8bba59e8ee0e08d49edabf14bf1fbde5e4 wifi: iwlwifi: add a compile time check for too long hcmds
+1e749bd58e556f69a0251cfc8cd110b986f641f0 wifi: iwlwifi: mvm: remove iwl_mvm_recalc_tcm()
+6800559a1042bfef9985b400f9dd971650d122f4 wifi: iwlwifi: claim UHR DBE capability for UHR devices
+3bff0d12c36247073fca976498b58a940fca72dc wifi: iwlwifi: support TTL platform device ID
+9119aeeddc210cdfce0537de3ea3bab9316b2589 wifi: iwlwifi: mvm: fix the FCS truncation logic in d3
+68f7d05494403ce89eba2b5476b2cd9ac03041db wifi: iwlwifi: mld: treat valid BAID without STA as a FW error
+21b3263b90e8006d488894e8a71c8debf45f6b88 wifi: iwlwifi: mvm: validate monitor notif link_id
+c99bc4d4e0ba6f4661b2b914c96a597d26e7cc05 wifi: iwlwifi: mld: cancel wiphy work before freeing wiphy
+4e777dcdfe70d9b3ddf38cb49de9e30306889b18 wifi: iwlwifi: mld: validate D3_END notif size
+5826799a26fd1c7dd954f6386a49e9fad747f21f wifi: iwlwifi: pcie: validate txq_id in txq_enable
+678148622fa8e5a118784fa3fcb9bd1876b8322a wifi: iwlwifi: ignore raw-DSM TLV for LARI cmd version 13 and above
+974cbad4c86d6442d9e08710322b924e4ae79023 wifi: iwlwifi: regulatory: add LARI_CONFIG_CHANGE command v14 support
+a51cc8131214870af92abbceab64877b27e690c2 wifi: iwlwifi: mvm: reset the smart fifo state upon FW stop
+0a00c3ec2db7674483dece4863f105b18a966202 wifi: iwlwifi: mvm: cleanup the driver state after device_powered_off
+71ac392d8b5c23c45c66f30eff1c319580ada4da wifi: iwlwifi: mld: reset the driver state upon firmware recovery
+ef704fc32ae1a519801ac4a06aa290fece5f403c wifi: iwlwifi: mld: support aborting an ongoing ftm request
+7e16dad5d47e29338db9effbeb26b4e8bcfbc2c0 wifi: iwlwifi: mld: validate WoWLAN notif header
+bbe2d2fa8780a04dac8de0ecaa3895d3f3bc093e wifi: iwlwifi: mvm/mld: fix PPE threshold debug print loop
+71e67b4b59337b2f9f4fef976a27de2dad7aabf2 wifi: iwlwifi: fix counter type in iwl_fwrt_dump_error_logs
+405ff50b72db1dfb86d7502c3c84208779809ab2 wifi: iwlwifi: mld: fix validation fallback in iwl_mld_notif_is_valid
+f6a6c01cbc046f68e6916a7e047a1bc881c8c9ab wifi: iwlwifi: mvm: fix off-by-one in TXF key sanitiser
+ad13072308f82a9aa2e68a135e70672454367d92 wifi: iwlwifi: mld: honor FW puncturing capability in MCC response
+ebc246e1d5a3e4502dba60cf9e9644de0fc5a8b6 wifi: iwlwifi: mvm: add LARI_CONFIG_EXTENSION command
+51c45bb2c884e0e2f56d6770011994d653371702 wifi: iwlwifi: mld: add PNVM_INIT_COMPLETE_NTFY to the hcmd names
+c5aeb11489150be84d3a700711abffd98969d2d5 wifi: iwlwifi: mld: fix read in wake packet notification handler
+7d8cc301bcba233f31b589a45f4c1c97f2bb90d6 wifi: iwlwifi: mei: check SAP message length before reading it
+c00a5d65b7ada536eb488280fae53fcf1724a7c3 wifi: iwlwifi: mei: skip data read if length is too short
+9318bc0c41b24705690cf80d1596cf6b711e7027 wifi: iwlwifi: guard against division by zero in iwl_dbg_tlv_alloc_fragments
+1c031ac5a39ebcc3269eace8b606043adc398bfa wifi: iwlwifi: mld: Do not cleanup FW state when the device is dead
+905f57aefde4f4092a411c8a55856182fb1c7598 wifi: iwlwifi: mei: pass correct argument to function
+d4157cd3aeab49e994826733aba628f45c7fcf0a wifi: rtlwifi: rtl8192d: remove dead SMPS rate mask code
+af7f59e8e8763d4120f00f17683d3cf93801742a wifi: rtw89: coex: Add Wi-Fi role info version 10
+3b6dd05aee282bcbba5410babccebb1272cbf6b2 wifi: rtw89: coex: Rearrange coexistence control structure
+404edeea3b182d08ccdcdba1a1c43ae4ed7f4f0f wifi: rtw89: coex: Update driver outsource info to firmware version 6
+a20edfbc15a50ad5a445db2dc13a6a5780308deb wifi: rtw89: ceox: Update antenna & grant signal setting
+5d5a5eb7ae2ed66ec77febd76807804dcdd0279f wifi: rtw89: coex: Rearrange Bluetooth firmware report entry
+a67bb858ba4dbd64e5be901cab414110c06e86d3 wifi: rtw89: coex: Refine send firmware command function
+aaba33e780f5be7d71d7119578012e964f1846c4 wifi: rtw89: coex: Refine _reset_btc_var()
+f59f0767348ac196e94f4471585201e20d1cff6b wifi: rtw89: coex: Correct SET_RFE settings
+578f9b48276c07e3bc9a8a5f208a18b42da1e1bb wifi: rtw89: coex: Add firmware report control report v11
+aed0d7771d52d0e21eba4d3a4969fae4e450d23e wifi: rtw89: coex: update external control length by case
+c2d96cd05c17c7b53f52395c766f629df3a78b3a wifi: rtw89: coex: Update coexistence version to 9.24.0
+b45b22bbe9d51493e8d4b5466d3dc0c7b7e26278 wifi: rtw89: pack I/O during bb_sethw to reduce API execution time
+07c26ead36e7dc9a598b815ed750d35440c440fa wifi: rtw89: mac: abstract register definition of firmware boot debug
+b9f582e939f6777df5b11d3c99549fec60737644 wifi: rtw89: 8922d: add TX time limit for 2GHz band
+ed74acea8320fa60d89abe0c3b6212d60fcd8227 wifi: rtw89: introduce helper to get tx shape index
+7054b03136e4bd5645d12cbd8d93b15afae4b8be wifi: rtw89: add tx shape v0 to keep built-in arrays compatible during transitions
+b4eaac15cbb4ae90130bdde9952d2e50deeb40c3 wifi: rtw89: extend tx shape format for regulatory 6 GHz power type
+b5bf2dc96f95a34378df32ed0e271875c5242908 wifi: rtw89: fw: do bb_preinit before downloading firmware
+3c15399ef64e89270b8c4cddb857e2f8886cb140 wifi: rtw89: debug: add diagnosis for RF
+73aecc221e7df482b2dcf1a643e840ffce1b83c3 wifi: rtw89: wow: fix unsupported cipher debug messages
+730dbda6dc70d29180eb2a7e9fa36823838bb042 wifi: rtw89: fw: use MAC source for IO offload delay command
+b4bee12ebeccfcd5959ace2c3a4af08f5a917d4c PCI: imx6: Keep i.MX6 Root Port MSI/MSI-X Capabilities with iMSI-RX to work around hardware bug
+523307b8516fc740895238af8473aa0630b3e088 ntfs: preserve RECALL_ON_OPEN on WSL special-file reparse points
+ef19a9cf037957fe3a35df8355c76ff0a63a0436 ata: sata_mv: accept 1 or 2 resources in platform probe
+4d99a91574c420decab56cc880fad0dc15b8a7a3 ata: ahci_ceva: fix error paths in ceva_ahci_platform_enable_resources()
+477869bfafea65492d23de62c1b5208147c09dd2 sched_ext: Reject setting disallow from init_task outside the enable path
+5f8b69642d18e1f3e11996707842ac530444e959 sched_ext: Take cgroup_lock() first in scx_cgroup_lock()
+8c13364db9c9a43ed286f3a8d0fb9477b1adc43c sched_ext: Skip sub-disable teardown for never-linked sub-schedulers
+5cdc928598095b2c7d5f265e5f21eadd1634bfbe sched_ext: Don't enable non-ext tasks in the sub-sched task loops
+c5cb9dd220ba9fdcf4ba485ce3d1d36ca32ac00b wifi: iwlwifi: mld: validate wake packet crypto overhead
+6aa811062cd78ad961410a64db55694ff609da57 wifi: iwlwifi: mld: initialize scan-abort status
+a790f60cc4d7dc64a2d7cadb94a3d9f60392bed4 wifi: iwlwifi: mvm: ignore sync frames when sync is disabled
+4f5384b58b483e4aec576ce461dec45b41df18db wifi: iwlwifi: mld: drop connection on D3 resume failure
+7e1d5ccac87ec618f393ec137743207282ef1af5 wifi: iwlwifi: fw: move SAR defines from acpi.h to regulatory.h
+340eafb30b35a600a66da333bb0c119a880b7062 wifi: iwlwifi: mld: support update_mcc notification v2
+ac8227e35ff7c8953a7d8adf7f5230127ad97aae wifi: iwlwifi: mld: add debug log after AP type command
+a47ab1b9c0827f5bd6717abb3f9e3f4f6eb5e00c wifi: iwlwifi: mld: move BIOS reading code to where it belongs
+8e957e4907c58e9ca944f98799524f2bbb9cf68a ASoC: tas2562: fix DVC coefficient write order
+bdb0fd6de403fcea7b85dc9d38f0a571583ebe80 ASoC: tas2562: fix broken entries in the volume lookup table
+2330e5fee602116357f6c9e56b4c9bcf25ff1327 ASoC: tas2562: fix Digital Volume Control
+8fb41964f7e4e4207c8999af2056894caa7a252a ASoC: tas2562: Validate values for volume writes
+9a9269dbbf1aba4bf329f770d6c473dc9cfb29e8 ASoC: tas2562: Fix event generation for volume control
+58b638e7c4559b35367a25e319adfe91e8f5ebe7 ASoC: tas2562: Fix default digital volume
+07f545657dabf9b009fc484414933fd2a359b4d3 ASoC: tas2562: Volume setting fixes
+8e29ed571788f41d1121e1e515ba8745695a38dc ASoC: amd: yc: Add DMI quirk for ASUS EXPERTBOOK PM1403CDA
+890b4253134f3a39883af7d5bea67af9c494c56d ASoC: fsl_asrc: fix m2m_init error path to use goto instead of bare return
+a54bc0eef90ea760039c14bb7f3b5db42529f84d ASoC: fsl_easrc: fix m2m_init error path to use goto instead of bare return
+a9058504f11150308c44f6c0683eb04c822b821d ASoC: fsl: fix m2m_init error path cleanup in fsl_asrc and fsl_easrc
+b7e53968cb8882c2d276429ea8550848a4940874 xfs: propagate errors from xfs_rtginode_load
+361f533a2dce2c2841fe4dc0c9d85a67117edf95 phy: qcom: m31-eusb2: Fix return value of init call
+be2b5b17b7053fee142939076746d26b2d6c9702 phy: rockchip: naneng-combphy: Always configure SSC spread direction
+317e21532e6ffa1de026bdbce5ba98e1b70ca5c6 ASoC: max98095: fix missing IS_ERR() before PTR_ERR() on mclk lookup
+cf616096a0f3a2b60f7d68b6b39674a6867ded9c NFS: Pin the 'struct nfs_server' during a FREE_STATEID call
+4aeb63d5ac2dba2a474e7b64d60776d9dd1c6cd2 NFS: Decrement refcounts if allocating nfs_free_stateid_data fails
+a792ce0fad61a70793ec565743f11d6ca534de59 ASoC: max98090: fix missing IS_ERR() before PTR_ERR() on mclk lookup
+db3dbdfea1b8f38774419c5c2c14e4b81c48708d of: reserved_mem: prevent OOB when too many dynamic regions are defined
+b056f21a38276ead20353d71d50a52206609d242 power: supply: bd71828: add a terminating table border
+725668c6b6aa3971fe850659102c250d0d676e18 power: supply: max17040: handle missing status supplier
+f7b253a6e217f71d754d70c525e9b4c1dcbd4414 power: supply: macsmc: Support macOS 27 SMC firmware
+8bed376124ab4505b70083a2b91f2c7ef6d51e24 ntfs: harden runlist realloc size calculations
+4e646ecd44759e552b0b9ccd995f3f608daab414 ntfs: drop stale page-cache when shrinking a non-resident attr
+fafb66e5903c2bcfc7b7e259042a8282f18a6faa rtla/timerlat_top: Fix on-threshold actions firing on signal
+f7074624bafc44b236ddc7159d962075c3747f2b ASoC: amd: yc: Add MSI Crosshair A16 HX D7WFKG to quirk table
+75952cfc7752c52a2b692b59d34ce160d3edabb2 arm64: dts: broadcom: bcm2712: Remove non-functional EL2 virtual timer
+e4779e2a16d600892aaf743438f6ce8cc4eb3c4c phy: zynqmp: fix clock error handling in xpsgtr_phy_init()
+f3506e15cf72e94f62d5f2d173e5b7008f644cde phy: zynqmp: fix runtime PM leak on probe allocation failure
+b5e24d6377f9062aff79c3c493bcbe923deb380c ALSA: usb-audio: Add iface reset and delay quirk for Generic USB Headphone
+704de5697008ea5caa04bb6a7266624699801ddc ALSA: hda/realtek: Add quirk for HP Pavilion All-in-One 27-ca1xxx
+1acef6d85bfd98bd9dfe1f08bffa397a4dda8a6f soc: aspeed: lpc-snoop: Fix usercopy overflow in snoop_file_read
+87b2a82e135ba81e49d82b59e3d72468cb66ea98 xfs: clear zapped attr fork state when bmap repair finds no attr fork
+cc3144da377de5fb422d44a2311f978623f7c900 xfs: fix off-by-one in rtrefcount btree root level validation
+813f8136a2ce1fee266d02a7df73db6e8a541604 xfs: bounds-check buffer log item's dirty bitmap
+d852729c5f4f830fbe7413df032e29459b3daf83 xfs: handle NULL b_addr in xfs_buf_free
+7aa67044e7d8b6eebc44b25745f16c83ccc40a94 xfs: update BDI {io,ra}_pages values based on the RT device limits
+270ffcd9b0a46254fbf3079d0e3341db7d7ec0e6 xfs: check cowextsize in xrep_inode_cowextsize
+61606f8846a9da8ab7d2d36ff4617134c9d6df1b xfs: fix transaction block reservation in xrep_rtbitmap
+8ed78104722b57df69478b0b1608a408c1036085 xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error
+49933254ba8d421ed706cbe6ed0fbc264e572cab xfs: zero i_nlink before repair puts inode on unlinked list
+b28d23c51635b646784a2a62c71ba99458c07d5e xfs: mark nonzero sb_gquotino as corrupt on metadir filesystems
+11055a46f398779b69aa36afb7c9f4124529a075 ACPI: CPPC: Check all controls for fast switching
 9753c0ab89b7516aba4884dc3cc725ca33c2e3da cpufreq: cppc: Sanitize lockless policy limit snapshots
 f0a3f042293a8c5a2152346b3637ea60866c503a cpufreq: schedutil: Publish util hooks only after all sg_cpu are initialized
 8eb052f48331474c2789d07b7f11165c323bd2f9 ARM: npcm: Fix OF node refcount leaks in SMP setup
@@ -878,177 +1050,5 @@ ca10634ebcca850dec2f1507ad5bfe70b82a9c00 tcp: honor BPF_SOCK_OPS_RWND_INIT on th
 315f4bd234b3b8a3ed3a71fd4c53b110cf373720 Merge tag 'net-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 1962afd211597001c0582414a9dee66908a8ad8a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4fa4977a0d900f936bcae5cd2c510be5554e8dd6 Merge tag 'wireless-next-2026-08-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
-25ad466ffc57881e70cd93eda4a736fc036935cf ice: Fix enable_cnt imbalance on resume
-7b67d7290adb1c8d6b0fb8d44f9240c201ce95dc ice: Fix enable_cnt imbalance on PCIe error recovery
-b57387eb37c3b047fb26628f2c9f9d3e14c5662f i40e: Fix enable_cnt imbalance on PCIe error recovery
-3b35bfa03c074b36ae0256be986673d09ff4c0fa ice: fix FDB deletion
-4272d70b1cecb7b190d4dca00fb22ff26a9b35e5 ice: init desired_dcbx_cfg in default DCB config
-c0c74338b941283c8f630272c09debeb6f9f77c8 ice: prevent integer overflow
-d360aaae1455c7bbedd31e7a858ba034d45b50b4 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-30253b6c8cdbe8a71f7ad2c06c36c879b2648a9d ice: check cross-timestamp timeout bits
-ed44096808fa1c8a058a27c7c4aa9ddd62da8cc7 i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
-b89cf4da29f328b30aeaf7803fdf2c0280736662 ice: fix null-ptr dereference on false-positive tx timeout
-d37035b37aa0fb5425761876ce931f79fa238aa1 iavf: fix error path in iavf_request_misc_irq
-3c681d186521c42cebd397d9c2826dea313640dc iavf: prevent VSI corruption when ring params changed during reset
-9560d8ecc81c9b168d5595e42621dff7174dbdb0 iavf: return 0 when TC flower filter not found after qdisc teardown
-3140fc581ce1907b5ef5a4debac66281c10893b2 ice: fix asymmetric pause negotiation reporting in ethtool
-62b00c906e198045d838d76a42f2a464a64f8c03 ice: fix autoneg disable when link partner doesn't support AN
-d448e51752318d03300d130b8cb70fc8ede11b23 ice: support RDMA on 4+-port E830 devices
-8ba5ddec30860deea9cd5ae13c643c4be9fab157 ice: report EIPE checksum errors to the OS on E830
-1c1c2fb991b6c19234b35efa168c128c1a0fdd4e ixgbe: fix SWFW semaphore timeout for X550 family
-19d5f3c53cbd75b536ef0baee25ac3eb3e984c1d ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
-9c88cc7a3df42d005860bd548f3d6d9666c08224 ixgbe: fix ITR value overflow in adaptive interrupt throttling
-232d679a2b91477f6585e6328423493980bfc44c ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
-be9058fe9550192a93b864c22d8f6ded02ac3ed3 ice: only free LL TS IRQ when the handler is present
-532e0ae2cd5378de94b1d20ec6e43e285818182b ice: always do GCS if hardware supports it
-44a0b8986ebab186f55545b76c32b6b963284450 ice: use NETIF_F_HW_CSUM instead of IP/IPV6
-de1c2f90c9f376caddbc38f473d8ef3a324b6bac ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
-455d892a1a3324c4df81a40fd4f3160732b3ed4a igb: Return state in pm_runtime_idle instead of power-down
-1742bdb5256d0d80a2dc282c1a71280d766c1834 idpf: handle NULL adev in idpf_idc_vdev_mtu_event
-e461b54a867c6443ace76fc0e4273e65f76b7130 ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
-4a5efee65b144c31625d51997590dd649aac29ea ice: Zero out the PTP control PF pointer at ice_adapter cleanup
-40522d7c552353bbdc5ac59535d4f481c295430e ice: Cache struct ice_hw pointer for split register reads
-b09677944a9d2fddc6153384228b5efccef9920c ice: fall back to SBQ when LL PHY timer interface times out
-9bee6cadeb9560ee8fc425c2b90c9fceb831992b i40e: fix netdev leak in i40e_vsi_setup() error paths
-b37ab18f3d9a936c80a42ae9652fe4c92849ed10 iavf: cap advertised max_pkt_size at the single-buffer HW limit
-72e0d32538549bbf22c1770aae81660ca49a816b ice: eswitch: fix use-after-free of metadata_dst in repr release
-7eeb3e180da0fc1f81ab8fd759edaafa40d910fa ice: clear the default forwarding VSI rule when releasing a VSI
-11b0e86024e93c445afe30a52bf26693b6368aec igb: only strip Rx timestamp header on the first buffer of a frame
-e76cc63a92b0219ccb04f45a5b936ec62b3f45a5 iavf: return EBUSY if reset in progress or not ready during MAC change
-f1473c764c211e3bff277d1c5896fe21d5643ed7 i40e: skip unnecessary VF reset when setting trust
-f5ba2a219db3b857c57830653242b173d904b680 iavf: send MAC change request synchronously
-73be7a11d9cf8da22641efaf54fbeee208451d43 ice: skip unnecessary VF reset when setting trust
-2f3b4eaa0b4625046f6fc5d3d7ecc2dd96256938 e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
-541fe39e9c0e3d24d3d8ace93386a76283bc7efb ice: use global queue index in TC to-queue offload
-682aefb3077e5dd05079d6fdeef5301dcca1bc31 igc: Fix RX HW timestamp reporting when NET_RX_BUSY_POLL is disabled
-dfbafedef4ef5e88971c4c768b164772d3d83149 i40e: unregister netdev before clearing VSI on reinit failure
-b4201d8a109eedac980ae53b6b8e5c27188d858b i40e: avoid null ptr dereference in i40e_ptp_stop()
-4104cc8ed84ba0358cc5857676a01e37c51a6aba i40e: make ring pointers unreachable before freeing via rcu
-5f4e4c1952276e5e112597d64766722a75517aec i40e: avoid deadlock when calling unregister_netdev()
-1448cdf098275625306550b200f08d1c85c4da53 i40e: fix potential UAF in i40e_vsi_setup()'s error path
-016d53a9852fbbf53bf96415fd4be2c432f50874 i40e: do not expose netdev too early
-ef1e22979ce9fc432c8284e6316093de1f248bb6 i40e: keep q_vectors array in sync with channel count changes
-71e3a34ab3db33713673b0645e1b279c767ffbcf ice: move ice_vsi_realloc_stat_arrays() up
-69ac60f694f11b0ae9e5dffbcdf2b1b0ca8d3101 ice: fix stats array overflow via proper realloc
-80765244da1f2ac4ee774215ceb3201b2d6aa714 ice: add missing xa_destroy for sched_node_ids
-95bc0cfbd62b8890edab60c7042355c395c32289 ice: skip per-VLAN promisc rules when default VSI Rx rule is set
-a14d5034bc70ef716057a8c48315c3082c41ff89 ice: preserve uplink DFLT Rx rule on switchdev release
-e42191b2634f719959195557e9b28e9ec7d4c4c0 i40e: fix set_ringparam error path freeing live Tx rings
-e9497b7505e3f794b6c0b9efefb3cf8aa13378e1 ice: fix use-after-free in dynamic port cleanup
-d144bb233e276b948bbe7be4c53192f1dc8b8609 iavf: fix ASQ command buffer leak on init failure
-68cf99908ac8678be08e720c4602f1003f7d5295 iavf: fix QoS capabilities memory leak
-fc8555370433c283d068b2b3f44116d3a9256c9a ice: fix empty PTYPE set for GTP RSS profiles
-e07aa3f88d9805142e4252ead3f0bd943ae3bb6a idpf: disable DIM work before freeing q_vectors
-8c211c9b1a6874736f0c8a0eec0e74b360f39bdc idpf: disable PTM on probe failure and on remove
-2af7c1537c829a6d488ae876d17b647df5e8668d e1000e: Fix out-of-bounds MMIO access by validating BAR0 size
-bde6b67a134b36e003e935e80d841710d1dd9f3d igb/igbvf: disable work items before device removal
-8bd7ed01c37d6d6500a82e4c62fcaac88fa823b8 i40e: xsk: fix multi-buffer XDP_PASS skb construction
-db1060fd919c229e1676abef2935aedae49d2412 ice: Restore Ordered MMIO Writes for Tx Doorbells
-ed42273937179f1ab50ceab6d7e51434fd7845f2 idpf: add missing cpu_to_le32 in idpf_tx_splitq_build_flow_desc
-a8fa704131683e760b9d4b0252701ecd6e96d18f ice: acquire NVM lock around each flash read
-99d6197d06d60db6d6615d96084af951245fb782 virtchnl: move virtchnl and virtchnl2 headers to 'include/linux/net/intel'
-02a4b7a3b5d28261a7d84808dd52b488a1a9f13c libie: add PCI device initialization helpers to libie
-569091611e4e5f28caad97691fa5a6081354d358 libeth: allow to create fill queues without NAPI
-9fbef1ae5d00bc76acd72429870afc0f5a12109d libie: add control queue support
-54300ff5d436ec486062ed716350586c920e459a libie: add bookkeeping support for control queue messages
-95f6e475bc12e534d3df10efd4620cdcfd34da40 idpf: remove 'vport_params_reqd' field
-141e19ca2ad61b3f23ce1d233c94599f1c03fa4b idpf: remove unused code for getting RSS info from device
-1e33e143e151aeadd3ff603ac4c15da9649ee743 idpf: refactor idpf to use libie_pci APIs
-01d1a98bde80f24f2a385d7e8ee54f8646a7555f idpf: refactor idpf to use libie control queues
-43b9891fef39e32404d7780b3fdf05e1e6b3a939 idpf: make mbx_task queueing and cancelling more consistent
-e726a6be4915dafd53c4ed0414a67314ed53b9d7 idpf: print a debug message and bail in case of non-event ctlq message
-dcab413043097d3dfea65019f54bfb343193361e ixd: add basic driver framework for Intel(R) Control Plane Function
-28f502abc04da97881f0e0ffd56c53640b3ddb82 ixd: add reset checks and initialize the mailbox
-a58351d13719c9805a50999b987059272133320c ixd: add the core initialization
-2a47ffa43cae21f28c1fb934c1bfa985071eefc3 ixd: add devlink support
-bc698aa66857061427fb02d128f58d703eafcf8a ixgbe: e610: add ACI dynamic debug
-72f3dee031d8227cb86d7a8d9ef18c89174e8ab8 ice: in dvm, use outer VLAN in MAC, VLAN lookup
-2cd5e0d9ccd455065525e25bed3461e9023f61b9 ice: allow creating mac, vlan filters along mac filters
-a9eabfa71cc371fea824cb4897be014996dde348 ice: allow overriding lan_en, lb_en in switch
-3b0696c729de531cdf7f6df077cefd0d6fbbfa89 ice: update mac, vlan rules when toggling between VEB and VEPA
-72356f95ae29bc4cd8626c12e9a5c960136ebfdd ice: add functions to query for vsi's pvids
-a3c8772dac856998dfdcfd5f624f05f451b70674 ice: add mac vlan to filter API
-23348b8542313601f80baac7ce245eb66a5959a6 ice: in VEB, prevent "cross-vlan" traffic from hitting loopback
-75537fe84afdea17010b68ef2c22d6865389e620 ice: add support for unmanaged DPLL on E830 NIC
-aa2c15e6ec8c3b574318fad43ad08c2a0d38632a igc: set RX hardware timestamps in igc_build_skb()
-18ec529584783f15ce3bb5d963ef22961ecaec4b igc: enable build_skb on the non-XDP small-frame RX path
-57629fee73768440629a65999d34f2271d11cc76 i40e: prepare for XDP metadata ops support
-d1ecafc2291a269f1bf4f4a674dd0946cb901802 i40e: add support for bpf_xdp_metadata_rx_hash()
-ba944b29bb9228f10125eafcc926da85bb5590ab i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
-08d64443de625a89cdad0a4f20b2b51f8081f864 iavf: fix VF stats not updating due to PTP command preemption
-6c45f15a35039b4c9a7e4eae6102d7098087e716 i40e: fix napi_disable hang in i40e_down() during firmware update
-f7c584c20a452cdf6c1a6f7122c9501dfc4c4328 idpf: account for VLAN header when parsing RSC packet header
-8659d4fdb2192737e7f47e471a3dc9a3fc534413 virtchnl: add VIRTCHNL_VLAN_ETHERTYPE_88E7 support
-c3d22099d12260fc189e20cb582296ef4e0fed2e ice: add 0x88E7 handling to SW validation paths
-08d22248d0c093ff659d5c501f4090d47a96dae2 ice: reduce loglevel to debug for 'Can't delete DSCP' message
-49b20a9cafa8bc8668de7bdc3277d6af164c0f54 ice: use ice_fill_eth_hdr() in ice_fill_sw_rule()
-bffe0e12bf32ecb9ca129f0971124c5e5d6c36e6 ice: remove excessive memory allocation in ice_create_lag_recipe()
-fa94eee8200728d0ec8614139d2c9fad7b78332d ixgbe: lower IXGBE_ITR_ADAPTIVE_MAX_USECS to prevent RX starvation
-316e3bef4c83dd69c6dc58c9e7a8e7d0c66c6aa8 ixgbe: add ixgbe_container_is_rx() helper and refine RX adaptive ITR
-4589ad4464838cb77fc17f2a49702bbe0c977583 ixgbe: limit ITR decrease in latency mode to prevent ACK overdrive
-261789431723ec542a640d0cd07a82848778d986 ixgbe: add IXGBE_ITR_ADAPTIVE_MASK_USECS constant
-45bfc1bfa7581ab7c6663a1ff9bb03112f4d45b8 ixgbe: remove ixgbe_ping_all_vfs() from link state change handlers
-ed57dbc1a09e624b834027c7781dc8582573fc48 ixgbe: use ktime_get_real_ns() in ixgbe_ptp_reset()
-8cd4e75174fecf738030f7ae1e9b3fdfb1dbae42 ixgbe: use int instead of u32 for error code variables
-8b42b3cf36f1d42d6901a8c316bb68e6cdd91dcb ice: promote Tx FIFO drain timeout message from dev_dbg to dev_warn
-98ae1eee3ca5d38a47b71a466da52d4b1d89df0e ice: translate FW to SW for max num TCs encoding
-38fa3f2beb2b6ef759ccf690c0211c566ce42c80 ice: allow setting advertised speed and duplex for all media types
-64718057c6b838ffd03bbe74fcdc5156715c8c13 ice: add PORT_AUI and PORT_NONE ethtool port type reporting
-5582d9e4b6ca6064d435bcc85fbda6a4ca82aa6b ice: reorder ice_flash_info fields to eliminate padding
-f35e06046481833d1e34d5d748edf2c716b1eeb7 ice: improve Add/Update VSI error messages in ice_vsi_init()
-18a1a5fe71656bc4b8a158e6344fb1044a5228f7 ice: increase OICR interrupt moderation rate to 20K interrupts/sec
-d77f139fa8b34c8dbce9f30ea43be6a3d0a81cad ice: emit user-visible info message for non-contiguous ETS TC config
-48e5b06346b5f7906f8df1ed94f80b85667fbb8d ice: use inline helpers instead of memcmp() for IPv6 mask checks in ice_ethtool_fdir
-14459f274fde704cee0a211635b2dea239891832 virtchnl: remove unused defines
-73a7532b9d5c354ba6947563eb029e74c2d75d1d virtchnl, iavf, ice, i40e: store VIRTCHNL_VF_* flags in bitmaps
-37528f001fab440bbdf98191f13bb4213fc3d1f1 virtchnl, iavf, ice, i40e: add extended generic VF capability flags
-e3d41ef7610f9765bf730cc8fd7cad41634b1e38 e1000e: Avoid DMA re-mapping on RX copybreak
-6e0609b8d2788d2cd05f703866b6fb6f04723cee libie: log more info when virtchnl fails
-96d43e77b0b00f5495d2aa0ee4f85f7d0d94ffea ice: add rx timestamp tracepoint for debugging
-75daa8fb88d0e77d98e79f3110ca9d40067a1880 i40e: pass the return value of skb_checksum_help()
-5634469d0032c1b84376b03f8c198aa2f65fbdec iavf: pass the return value of skb_checksum_help()
-cfa633d13a823ca1f9447bec881cfe3cc13f25ac idpf: pass the return value of skb_checksum_help()
-794065b8d3e20b61e8b9acc627704571eaaeec9f i40e: Avoid repeating RX filter warning
-d020c1647725b67f2e304464dcb22b5b4eef6766 iavf: convert crit_section to DECLARE_BITMAP
-43bc26687dd88c47115b8fa671dccdff11674b8e ixgbe: LinkSec deprecated macros cleanup
-5918d48bfc03ee6d13548c5ef482635a4446b952 ice: convert hw->agg_list from linked list to xarray
-d33d37c356b746dd37ca526a246a8ae93847c32a ice: count number of VSIS in agg_vsi_list
-67e0f0accd3d605729a9365e35dfcf7baee02ffb ice: extract function to allocate aggregator info structure
-5aab10fceb04b689ee7ac26e5e5ad42b6b91a8fe ice: remove ice_agg_node wrapper structure
-cc9523cb515ff63899098e9671c2a9ff4c148eab ice: remove unused aggregator node functions
-c7caeee5c64caba3f4a3c6ee9ecd7a95d2438f4f ice: refactor ice_sched_cfg_agg to take agg_info pointer
-a40a345fc192f6f2dc84beb201774d412137fb33 idpf: remove conditional MBX deinit from idpf_vc_core_deinit()
-a34bb390e176882120f9ef225c56d0055680ed2a idpf: implement pci error handlers
-32343cdad0d16b7521439e63e328c7793fe7ad15 ice: rename shared Flow Director functions and structs
-8f93eaa9f44eaba9184e4b6026f18a5ab286bacc ice: remove unused ICE_FD_FLUSH_REQ from PF state
-e3d152256c4a821b647e837e946497be1961259d ice: initialize ACL table
-95615c38d399fa4a7dfa2f6c4bcda0bc7a95806e ice: initialize ACL scenario
-576028a188e4d9b7faec67ebdbd4aa14a8caeb84 ice: create flow profile
-70ad6166ec480dff4a2752e8af04680190fdbe66 Revert "ice: remove unused ice_flow_entry fields"
-99cf019253bfe86748ec9098e224a624f2c2917a ice: use plain alloc/dealloc for ice_ntuple_fltr
-74e39a77d21e1646406d6362f6b5a935400bffb1 ice: create ACL entry
-1549dae87e47be512505e59bce93a65794bfa6d5 ice: program ACL entry
-647ce1f591a25110f91a2591ecf4eb2dac74f6c8 ice: add ACL reset recovery and NTUPLE feature toggle
-b4c16c61f3898b8ede3256e3d2642428e0802ce0 ice: re-introduce ice_dealloc_flow_entry() helper
-ba2d8268ad16acd0c629b02840e79d5a906456cd ice: use ACL for ntuple rules that conflict with FDir
-144ab27e53168ccc18351653da93a03bd626a361 ixgbe: E610: init Link Status Events mask just once
-c9da3458c218c8a47be3193a3b92da2d5111b4d2 ixgbe: E610: prevent from disabling LSE
-bec7084f89e1c61f0d31eefe1e7c41662f8fb0f3 ixgbe: E610: do not disable LSE on driver down/remove
-622994dc1d19dd0847c44c881cd7854aa47ffb8a ixgbe: E610: re-enable LSE unconditionally
-12ee03ce743d5da06dca2fc5e4de73f5140daa40 ixgbe: E610: add MAC address runtime refresh
-94db8e8221ebe81261f0f0740787c941dfbad90b ixgbe: take rtnl lock before ixgbe_reset() is called
-6c2668d864f8db379e9f7f38e21f386a48393392 ixgbe: E610: force phy link to get down when interface is down
-fbde991ec80f66a4857ff37bf72214f6ef11206c igc: Support ACPI-based MAC passthrough
-aa698efcdd99e96252b600c806a63e2b6c250543 ice: rephrase LLDP filter fallback message
-86c59570f068d8ab1f284213f6078cd35a337289 igb: detect M88E1112 100BASE-FX SGMII mode
-7755860df0f94ed3ee4524b866409872dd95029a igb: read SFP module EEPROM through igb_read_sfp_data_byte
-7b4e468575aac0c17b35d8ae15ad7ca1c1ef771f ice: parser: use kcalloc for table allocation
-eaa4d5baf94e36df9a57b2da890a5e3897212482 i40e: move ATR sample rate from ring to PF level
-a1911f59c74cac39fbfc9b8490eeb243b9ef63a4 i40e: add devlink parameter for Flow Director ATR sample rate
-b55fd17d0fd8f9129e643aba83b9985c14f2e919 i40e: trigger PF reset when re-enabling ATR via ethtool
-1ff34d313ac1d1e89a9c423228f7015fb224d8f7 i40e: xsk: use xdp_build_skb_from_zc() for XDP_PASS
-c5c23351c919291f1aea5416480ada81f83cc1c0 ice: monitor TSPLL lock from PTP periodic worker
-b2f53315c7609076c9b34fb99d58dcd5fe4b5646 ice: add TSPLL DPLL device and TIME_REF pin for E825
-f64226c81f218523712836074480fb44f07c0a99 ice: use per-interface clock_id for E825 generic DPLLs
 
---===============7161158179257595465==--
+--===============5639277559207807893==--
