@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5919853592877813459=="
+Content-Type: multipart/mixed; boundary="===============7555264612734840227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 07 Aug 2026 18:19:27 -0000
-Message-Id: <178612676784.3732685.1440657680760536905@gitolite.kernel.org>
+Date: Fri, 07 Aug 2026 18:19:32 -0000
+Message-Id: <178612677252.3732824.6892421650626111850@gitolite.kernel.org>
 
---===============5919853592877813459==
+--===============7555264612734840227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/7.3/scsi-queue
+  - ref: refs/heads/queue
     old: 51d182826659989db25f841b191dd5ed07135569
     new: 1451ea14f885492635918b09543a0bf8ee69f993
     log: revlist-51d182826659-1451ea14f885.txt
 
---===============5919853592877813459==
+--===============7555264612734840227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1786126766 -0400
+pusher 75C5DE3D 1786126770 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1786126765-5595ace7ee83eb93a18065d7e0bf8c5fc85b044c
+nonce 1786126770-c2c9b5be124205aad21d743b79f2d38e005808b3
 
-51d182826659989db25f841b191dd5ed07135569 1451ea14f885492635918b09543a0bf8ee69f993 refs/heads/7.3/scsi-queue
+51d182826659989db25f841b191dd5ed07135569 1451ea14f885492635918b09543a0bf8ee69f993 refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp2Ia4ACgkQ7ulgGnXF
-3j2ZVg//cJH03Kh4aL0vm6226SkXBuE+cEjjTvVPlakAb7KMjYoKyRPr3meM+5lt
-EvHAlxiDp8rcxdmrfOnjCqFxzMk+g5codnceUFQjdRKDdcLLh+WUEgAfwLDbQYWn
-Q4fd/wBWcstBe7O+9mgfJk88MUGLGi4fV68OO+iwzcES6JgLIzZ6SM1d9K3X65mr
-kaQwIfYXS1Gwz8dqz+nZH6fdOwc3EWsNOTp3255bb3ybzn/Fc1eNeuKsDYnvr1zH
-x3N63CiFtnaAUBNL+5RxiK5VVp++918Tuv7LJ18GqTILyL7O7eIOvhwmU1jscHzZ
-nulVqXvFR0X556t8C9T0kcIhOUsWvr5IkunJAybvi+RNrXb4xwdFx9lEIjkHeNq5
-SgIwxoUne1rmDJddzVOVQKY64vF/7Ku1nD2BaFTYo/yP/k/tj/YdzKvjtvwGAbB3
-cG6yyVz/JOH+4PQpTaR9FGP3NcDrtD0/gb4JvBiynP4XD3gyHBHXMAnRWw/cD/GT
-w1xv1RPAKYqlhDwTDmJEhe+OJrvERrBIRz0xAu7ZZatxpQISwl36tQe+D/0ngFPW
-okLeKCsDZJxiVLC0G7eiP+JetaL0aSdn9cXpBBojYbzNNfoJcQjkgE5rxV7C/z0B
-eCr3ZU3GywAcIoMUwoWqn9LgwIqK/4xldlEd8xyqbs7d/uC8Wsg=
-=erot
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp2IbMACgkQ7ulgGnXF
+3j27cg/+LrewcKaGOcs0jA4QJsA8yf6MtBTHa6QXSW7VVMPeB+WGwkGRLEZqdgon
+oZVvsnonsS4vslmERwDcfXft4OJIXkGk0oPzNw6Hx8wYdTbY+Xhe4NXzhKWcYa0y
+Lz8pDDHCkIuwpzMK3toq7zpgdWczIYMxbGv93H4tDeNbvuA8Vos05U7M9/Xevm7E
+pGVskmr29JRx2/tTikuQFG5ZRywWZr15Aygay0K6bml9miZbTmsIsxzyWqWEiYB5
+k1PUuJ3CTc9xSVkWeJvAFX+Cp/bkysBMW2eixbcqZjaufhDSQb3k4AkoXJmg2+rN
+AlGi99Ady9AEWPMo3a3CNt12Qi4NzaFiQEcN+iDHsjqhP3u1DZmx6ZJlRjYlqup2
+upBdMljAWqreOyePypXxquyp2hQhTQtfVaS4RDxFr/ZFBzBN7TIeaGosTbqiyt2v
+WcGT5aQ86HW3Mlf8SFHwsYbBoZ0JGB7E9hmnD114xKVmZnAyY5lK833nyBYPV5CB
+lGJkgfI25Fp5YHgAZ9yeiPL5ubvuCFFov85UYzf6R5pF8v6sO7uGpH18txPJ9RsQ
+e50KvCfAWweCDhkM4KAcVSbnWfQSgICRfHni7zFH4JKjIBznqKLd8DYxavbhpic0
+mj0XDg2vNzTMdOyvniRR6Z1aDjJ5w50RyoNT8J1rwe/crsA0rgc=
+=WHTO
 -----END PGP SIGNATURE-----
 
---===============5919853592877813459==
+--===============7555264612734840227==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -130,4 +130,4 @@ c79f9bf2d87f34904d9ae38f198929be2b4313e2 scsi: mpt3sas: Remove conditional retur
 d756863c9bdf7a85a3fa7fc2886aa32023fe7f76 scsi: isci: Remove unused macros from scu_task_context.h
 1451ea14f885492635918b09543a0bf8ee69f993 Merge zorro updates from Uwe Kleine-König.
 
---===============5919853592877813459==--
+--===============7555264612734840227==--
