@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7562130488340212082=="
+Content-Type: multipart/mixed; boundary="===============1481917460182927706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 07 Aug 2026 06:07:28 -0000
-Message-Id: <178608284864.3061118.12077750421665786216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 07 Aug 2026 06:07:34 -0000
+Message-Id: <178608285498.3061347.10213479356571309273@gitolite.kernel.org>
 
---===============7562130488340212082==
+--===============1481917460182927706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.264
-    old: 0000000000000000000000000000000000000000
-    new: f71043079fef11192adb6871955fac19c9717668
+  - ref: refs/heads/linux-5.10.y
+    old: a77ab369471931938dca32e232688aa328cbc051
+    new: acccef89f184a697fee1c96a1dc9cccbba36937b
+    log: |
+         ad5e69629ebcec7615745142af5f6456ef942e80 Revert "x86/bugs: Make Safe-RET robust against interrupt injection"
+         dfefa3c51370f84acb643cddf98bb42c885d0483 x86/bugs: Make Safe-RET robust against interrupt injection
+         acccef89f184a697fee1c96a1dc9cccbba36937b Linux 5.10.264
+         
 
---===============7562130488340212082==
+--===============1481917460182927706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786082832 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1786082847-8f41d04e00e974d481a77e96e86c867162924657
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786082838 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1786082853-13069d85bd6da3776888d4dbdb549d960cfb8614
 
-0000000000000000000000000000000000000000 f71043079fef11192adb6871955fac19c9717668 refs/tags/v5.10.264
+a77ab369471931938dca32e232688aa328cbc051 acccef89f184a697fee1c96a1dc9cccbba36937b refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1dhEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ubEQAJAPs7Txp06Ig0aZeqTI
-JxrWnwK9g+jgNfOq8q4x2imVhSRiqhJWnckpMewGgd9NtEnlhf5tMyy+rJIwOahO
-7Oy+54LaiWLwuKvQXcqAsiDIeKEZpgqGOGH8Ua6vqDNKUog9Izzx5SEtqGE3qzA5
-QS2/VJGXLNsk7UGcJyEBrLfOL1saV+N/rYuQSK0LBY+QyRnqgGco8AEOABBIBZM2
-XOU3GV1n4M9FbpRBnZ1vzjujXE8CHD5RbW5w4FuFF/GSHO+PhrREW1TmsPkImocC
-S/0OEdzVd6p73YLepLJAlCSJfGrzty3KVGL7bmcan+AEKS5WEEAgE05Camif+Ea3
-clqVoj7MQfSw42n4zvFgrEhSvOahf780Y35Dg1lni5KmNedXJAQM7OleD17wT3PC
-MzmGYYYU50SAbfTxMSi1EHkPlw+seFZ2Z5VNog6BIizbCCY6tAU7L7tcbcaGQBrF
-zuZMuGcw7aw8OT9q+TYMPmvLHuGfSBoRRMmgML19IOb+toA2dwPemh8CIMnyRcZt
-aQ3wAV9ta7UxtJkOAeDsBLc5n72G7GM+hrFBD66qdPkVEhKpHGvfXVI9EI1WcBaQ
-X0EPLmpgbe7DkQZtcxWkd81UeEFtmcDUqFVr7pcNezh3ooHy9IyIZa0sxUBzgerh
-up3eE2iO6u3CJ/YpNLvRq1Ui
-=PdPf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp1dhcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sq0QAIpHU3UQoFdmlMIzp3/A
+x/2hlw5a0bOxFoA+hkN9SmL5f65z1xFOdmRiL+hAuO9xDJ4KgFObT0cQzvIENGRF
+xfweGYHj9392RJGFFLatwMKaXqnMMAgdTd6DKVA1Z84Ftc6VqFiHlSKqDopKSy09
+MDeIeFghn78dXt+Cc2dnTR8snGnkbGhxWoUqr8uKtwb4JBtm3U/zV2NpnI+lFleG
+qWlCdKiu8fgU5i87Mks5XHYOnaiS69G8505z9IAWVaSw/xGWDCxdLUcRdxFpRsVO
+DErsgyt5VNKEWNJvRXaBq415by4cnxxDunspMZX6cx4Sd19F6QVlQKIXQfsSQIr7
+CFxHsy4091dvbFKk1G3LUhrkS7XNAsj26scWITYwNpp+Equ66M7t9/4aCSFyb3pT
+kEBjDyn8dunlGJYh5xuzPiLRvlSbUxRChDn6jFM26ULusOuRY9JEXMT8FjXYO+lN
+RCIZWH/mXhSE0PIvkZkuZLbhYpO908LG5JuY7rwebOBxvDPWTs7mOO3yMXMpbTqv
+MwbZXUD7kasutw6wE3Fnntjmis5hTH9zp4SKQJDbmSdwN4NNXOlyqqw6JrYZ2RM0
+6Yj75Vq1Rjx+yqvFHN1ZFkVpGtD8hUUGOBMxMS/ulpywA+MOzxHj61londz2+T0f
+7lxQSzUjwnS0cvsdBVI0qZYK
+=3z3H
 -----END PGP SIGNATURE-----
 
---===============7562130488340212082==--
+--===============1481917460182927706==--
