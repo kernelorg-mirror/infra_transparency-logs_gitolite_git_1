@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3103116491197648572=="
+Content-Type: multipart/mixed; boundary="===============5445090028413792752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 08 Aug 2026 00:45:58 -0000
-Message-Id: <178614995872.4073739.13921413270970897194@gitolite.kernel.org>
+Date: Sat, 08 Aug 2026 00:46:01 -0000
+Message-Id: <178614996136.4073842.4380593257297313093@gitolite.kernel.org>
 
---===============3103116491197648572==
+--===============5445090028413792752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 8086604be9733378461a5534c39cb72635226b23
-    new: c25f32cd69a7a5f531e20738f5a09d5493c3c426
-    log: revlist-8086604be973-c25f32cd69a7.txt
+  - ref: refs/heads/mm-unstable
+    old: 7e4ead2558f28da16d82a8f5845eee44555ff6ba
+    new: ac89da2dbba77d893fbcc93b21c63f59974435fe
+    log: revlist-7e4ead2558f2-ac89da2dbba7.txt
 
---===============3103116491197648572==
+--===============5445090028413792752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8086604be973-c25f32cd69a7.txt
+Content-Disposition: attachment; filename=revlist-7e4ead2558f2-ac89da2dbba7.txt
 
 466dd08cdc93a35e5ac1b5485308d3134a7d308b mm: memcg-v1: account vmpressure event allocations
 45b1ec4887bdcc58af885540d9fefa8b67d17d57 mm: memcg-v1: fix wrong linux-mm list address in deprecation warnings
@@ -331,19 +331,5 @@ c65b9ab62ed2e3f7207b222c8f4204d1d4a3b56f selftests/mm: drop duplicate test_seal_
 9080b9d1279829835aad7679d73d043cc1ece3ef selftests-mm-fix-soft-dirty-kselftest-supported-check-fix
 75a451ba7b37cda3088708b35d4dd8c310d40363 maple_tree: remove unused mas_is_root_limits()
 ac89da2dbba77d893fbcc93b21c63f59974435fe mm/execmem: fix fallback_end description in kernel-doc
-ea0301e9a36d06bf4e3d548d6974fe3054512b06 selftests/mm: skip COW tmpfile cases when fallocate() is unsupported
-cdab395b6c6d44b1edf5f268e077b37992b44764 selftests/mm: skip guard hole-punch test if MADV_REMOVE is unsupported
-039f6fe1174b6bf48535e15c56914cc3949dd4f7 selftests/mm: skip khugepaged swap tests without swap
-a6ca62497e3c9bf28cf7336f156792f9ab5d9572 selftests/mm: skip hard dirty page-cache test on NFS
-bd9ef1b3a6a0c34e21f58c428ddd8adf3a3cd721 selftests/mm: retry migration failures for the full runtime
-d0de9bd507d1169e4212e86d50e292138e20fde5 mm/zswap: fix global shrinker when memory cgroup is disabled
-d904c2bf1227c56f00438375f2064d827f9a03d9 mm/zswap: support batch writeback in shrink_memcg()
-37d6979734b6e10bb5755dac3921943d05c84dd1 drivers/base, mm: move arch_numa.c to mm/
-0890bbf2574515251a21223fc04420940d9458cc mm: Make VM_FAULT_RESULT_TRACE compatible with sparse
-2e13cfe2ffe6b39f4766601862e5dec987d8ca81 mm/hugetlb_cma: support percentage-based hugetlb_cma reservation
-6fc0f33a6ca5a2fc0ffb75bf6ab3676092423ae0 selftests/mm: fix read_file() return value check
-90d257e0dfa4b3742ce6ed8a92e9f92b9e675fdc mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-f1e8c8166383466ef8de13e22f235a02836e3ea3 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-c25f32cd69a7a5f531e20738f5a09d5493c3c426 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============3103116491197648572==--
+--===============5445090028413792752==--
