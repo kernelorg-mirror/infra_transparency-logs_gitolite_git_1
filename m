@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Sat, 08 Aug 2026 07:57:20 -0000
-Message-Id: <178617584032.196260.14966159334860065418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 08 Aug 2026 08:26:31 -0000
+Message-Id: <178617759183.217178.13034096496705973954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: 66e1201c3775716607c28afd2bbb2b3afb08b695
-    new: 5008d1d6a356b8d0a78060da2e1021507d529cff
+  - ref: refs/heads/for-next
+    old: e1d9b82db5447c88405b216f9c5c87daedaa2971
+    new: fa9dcacdcdf487f0ffef64bf67622f1caed509f1
     log: |
-         5008d1d6a356b8d0a78060da2e1021507d529cff pylibfdt: Replace removed SWIG Python 2 compatibility macros
-         
-  - ref: refs/heads/master
-    old: 66e1201c3775716607c28afd2bbb2b3afb08b695
-    new: 5008d1d6a356b8d0a78060da2e1021507d529cff
-    log: |
-         5008d1d6a356b8d0a78060da2e1021507d529cff pylibfdt: Replace removed SWIG Python 2 compatibility macros
+         3f562c537e9ecf4bc5e206cfffc2cc047f1b7e94 bpf, cgroup: Fix storage null-ptr-deref after replacing prog
+         fa9dcacdcdf487f0ffef64bf67622f1caed509f1 bpf: Fix mmap_lock leak in irq_work path
          
