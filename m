@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9050885600161499217=="
+Content-Type: multipart/mixed; boundary="===============5719408972551431092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sat, 08 Aug 2026 14:49:58 -0000
-Message-Id: <178620059881.491165.17666898047733350862@gitolite.kernel.org>
+Date: Sat, 08 Aug 2026 14:50:46 -0000
+Message-Id: <178620064695.493806.2971962027766018003@gitolite.kernel.org>
 
---===============9050885600161499217==
+--===============5719408972551431092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-7.3
-    old: 36c3ea84289913d16dd2ed783534193c957055b9
-    new: 6ab838a01b12f9d101c26ff8cebbf4029a8c9e09
-    log: revlist-36c3ea842899-6ab838a01b12.txt
+  - ref: refs/heads/for-next
+    old: 6ffb94d1d21c927b2a6d7fcc5faba39794e6725b
+    new: 64cc3b11de7563c5b0a737a07121f2816e890763
+    log: revlist-6ffb94d1d21c-64cc3b11de75.txt
 
---===============9050885600161499217==
+--===============5719408972551431092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36c3ea842899-6ab838a01b12.txt
+Content-Disposition: attachment; filename=revlist-6ffb94d1d21c-64cc3b11de75.txt
 
 9d12eb98582fec2578d17e025b13740dcfb57d8e dmaengine: switchtec-dma: fix FIELD_GET misuse when programming SE threshold
 859e02a369ab328a77dfcabf59562100e55f9c5c pinctrl: qcom: Unconditionally mark gpio as wakeup enable
@@ -646,5 +646,6 @@ abd14bebb87e0fa2749371272c8b31d6ee5f0a36 regulator: qcom-rpmh: Fix PMIC5 BOB byp
 09d99ff7fc3c802c9b31ded9ffdf992d966a0835 regulator: qcom-rpmh: readback voltage/bypass/mode set during bootup
 216e8873bc80e9e9ab5bfe325a4f6d17bb3b8229 regulator: qcom-rpmh: Fix coding style issues
 6ab838a01b12f9d101c26ff8cebbf4029a8c9e09 regulator: qcom-rpmh: Support RPMH address reads and use it for rpmh-regulators
+64cc3b11de7563c5b0a737a07121f2816e890763 Merge remote-tracking branch 'regulator/for-7.3' into regulator-next
 
---===============9050885600161499217==--
+--===============5719408972551431092==--
