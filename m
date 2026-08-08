@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Aug 2026 10:42:48 -0000
-Message-Id: <178618576805.316311.15444213673711876602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 08 Aug 2026 11:10:04 -0000
+Message-Id: <178618740440.336114.13084147020890288261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/locking/core
-    old: 58ae9eb82577d76da3defe1b2139348f6dd320c6
-    new: fcb8ada1287227a1392930ee52d7b6c6cab0f0b2
+  - ref: refs/heads/master
+    old: 1d84d765d91c0b7be175dcafb55ff62d8c2a9671
+    new: 629dd3a2197ce5c78bc59bfebac71d6281bcea5a
     log: |
-         fcb8ada1287227a1392930ee52d7b6c6cab0f0b2 futex: Tell kmemleak we're not leaking __futex_queues
+         629dd3a2197ce5c78bc59bfebac71d6281bcea5a queue-6.12: fix duplicate inline in mm/slab backport
          
