@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5089086272070509352=="
+Content-Type: multipart/mixed; boundary="===============3882004106522461000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 08 Aug 2026 16:46:55 -0000
-Message-Id: <178620761516.640530.18026141752569618226@gitolite.kernel.org>
+Date: Sat, 08 Aug 2026 16:46:57 -0000
+Message-Id: <178620761779.640660.15907364113537811123@gitolite.kernel.org>
 
---===============5089086272070509352==
+--===============3882004106522461000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c25f32cd69a7a5f531e20738f5a09d5493c3c426
-    new: e0ffd277b09a7c9f1a436e5f75be37ac490bc59f
-    log: revlist-c25f32cd69a7-e0ffd277b09a.txt
+  - ref: refs/heads/mm-unstable
+    old: ac89da2dbba77d893fbcc93b21c63f59974435fe
+    new: 17e5919bdca144d4e67337f53bf57d7811f62192
+    log: revlist-ac89da2dbba7-17e5919bdca1.txt
 
---===============5089086272070509352==
+--===============3882004106522461000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c25f32cd69a7-e0ffd277b09a.txt
+Content-Disposition: attachment; filename=revlist-ac89da2dbba7-17e5919bdca1.txt
 
 e9c31bc96aceafe6f4942ab0ff5e618f43ebdde9 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 1674223bf75469e9ea9b934c768d0751fdc988fb memcg: keep folio's objcg same as its node
@@ -212,8 +212,5 @@ f83520dc8e5a3c63e5b79e1b51ccd639d942bc6b sh: drop dead code guarded by #ifdef CO
 e63dfb11ec4f5ffe9e63d56ef7a92191df727801 sh: init: remove call the memblock_set_node()
 24f219a1e87319e64d60b3cdded731a354f14526 sh: remove SPARSEMEM related entries from Kconfig
 17e5919bdca144d4e67337f53bf57d7811f62192 sh: drop include/asm/sparsemem.h
-45009f1b60f4f0aed1843082ad39d457a29687c4 mm/gup_test: fix race with PIN_LONGTERM_TEST ioctls
-492f6744bf6c89627f07128cde376bbb274ee9f5 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-e0ffd277b09a7c9f1a436e5f75be37ac490bc59f mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5089086272070509352==--
+--===============3882004106522461000==--
