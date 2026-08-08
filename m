@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1585526377905023394=="
+Content-Type: multipart/mixed; boundary="===============5187646878454317199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Aug 2026 06:37:35 -0000
-Message-Id: <178617105507.138919.9786719982941806975@gitolite.kernel.org>
+Date: Sat, 08 Aug 2026 06:38:44 -0000
+Message-Id: <178617112440.139573.3420602907251054121@gitolite.kernel.org>
 
---===============1585526377905023394==
+--===============5187646878454317199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,56 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7ddbc4a1c66f9b9712827641fbec7f2cc1addb52
-    new: 1233941c6f4d2cd4d5595ed1d2c48e62a44c8220
-    log: revlist-7ddbc4a1c66f-1233941c6f4d.txt
+    old: 1233941c6f4d2cd4d5595ed1d2c48e62a44c8220
+    new: 38516229ccaf8413b1f75d49dd97af8b7d61e12c
+    log: revlist-1233941c6f4d-38516229ccaf.txt
+  - ref: refs/heads/tip/urgent
+    old: 533688d7433ebb4e9963ce7a59318001495d0c54
+    new: 8bb23bd6df2db23f833539bee9276737a74b79b0
+    log: revlist-533688d7433e-8bb23bd6df2d.txt
 
---===============1585526377905023394==
+--===============5187646878454317199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ddbc4a1c66f-1233941c6f4d.txt
+Content-Disposition: attachment; filename=revlist-1233941c6f4d-38516229ccaf.txt
+
+684076ea83e91296b5959e35624f66be5f5631a3 Merge branch into tip/master: 'core/urgent'
+41d3e74f68dd9174ab27da54d154e8cd665a9c07 Merge branch into tip/master: 'locking/urgent'
+8bb23bd6df2db23f833539bee9276737a74b79b0 Merge branch into tip/master: 'x86/urgent'
+87e8e3a80d0627f388e4a13d5ae413038a9b1161 Merge branch into tip/master: 'x86/merge'
+3aa1d5ce553d103ce42e12bf1b0f6110076a79ae Merge branch into tip/master: 'perf/merge'
+6d45eec5244b95eebfaaae06f7088ff469d60797 Merge branch into tip/master: 'core/entry'
+b7002aa4e0ac6e79fbdb3f512f1bf03d34c66058 Merge branch into tip/master: 'core/rseq'
+ed670a7222ca46016d52f5fa738e6c24e45ba02e Merge branch into tip/master: 'irq/core'
+fc1b4119eaf4637e28dc4a6c4e4837760f6589b1 Merge branch into tip/master: 'irq/drivers'
+7232d4ddf7a69a917859429c0c05aa94d3986a07 Merge branch into tip/master: 'locking/core'
+3fd94d956573575884f711c73ecc5f2cf56bfb6d Merge branch into tip/master: 'locking/futex'
+9e842b733295f28cfce945c1ef0de28e77376bcf Merge branch into tip/master: 'objtool/core'
+c802849aac310dbee086b10fac2011ef435f6a9e Merge branch into tip/master: 'perf/core'
+8c3c093286d26cee3f6c35f1600d547cead35a4b Merge branch into tip/master: 'ras/core'
+d764b71223bec4ddea37b0188b4b809755575e26 Merge branch into tip/master: 'sched/core'
+a353828c2572d674c7625d91e4606df64f6c0ab4 Merge branch into tip/master: 'smp/core'
+1539ab44ecd0eaaaff9ec2b83bd833441bdc89aa Merge branch into tip/master: 'timers/core'
+bd45fee4c5fa0dc444ae3a35af2e76fb59a7de78 Merge branch into tip/master: 'timers/vdso'
+dea378a481df275a67e8322963a8d42d2c6a9d95 Merge branch into tip/master: 'x86/alternatives'
+24912a46a5bffbcb8b13b23c33669fba4bfede68 Merge branch into tip/master: 'x86/boot'
+77c747a8c97d9ff05f0414d076ff17549a1f72b0 Merge branch into tip/master: 'x86/build'
+bba4be07978fbc751f8af5ae8a97bc9bb8393075 Merge branch into tip/master: 'x86/cache'
+897fc39af8eb1b879482e4ee443db058ca711658 Merge branch into tip/master: 'x86/cleanups'
+0455eebc54232f6251c5ddb53b652959e1b67ea9 Merge branch into tip/master: 'x86/core'
+65b1a4859e25ffb7b8e2fd7eac297569a62d1094 Merge branch into tip/master: 'x86/cpu'
+7c5007f7064dda509d636753d12c4022178e870b Merge branch into tip/master: 'x86/documentation'
+e40ed1e793f18f5b5622b11461749600f4e63ec2 Merge branch into tip/master: 'x86/entry'
+a64dd9bd9d17f23588fdd1ecbdd221b3ed562bc3 Merge branch into tip/master: 'x86/misc'
+c4c1b960147fad1a3cefdebafa0a72da6408107e Merge branch into tip/master: 'x86/mm'
+38516229ccaf8413b1f75d49dd97af8b7d61e12c Merge branch into tip/master: 'x86/tdx'
+
+--===============5187646878454317199==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-533688d7433e-8bb23bd6df2d.txt
 
 4a2e2c563b0ee2253a7902f775bf71232820186d pinctrl: qcom: ipq9650: fix audio_sec_mclk_in1/out1 group pins
 8d2b10eef6f3b1336be2d1197db29b0c697f1d41 watchdog: atcwdt200: fix return value when watchdog is enabled
@@ -75,13 +116,13 @@ e253dd5f9f6d875a317895bf43ec9534ed7523cb hwmon: (ltc4282) Clamp negative current
 c6c4234928d2eb4f61fecb61067e612d9bdbd2ff hwmon: (corsair-psu) Fix linear11 calculation
 0f7f5029eb964ebfcb946b7083b703cd89d6e1f2 Merge tag 'drm-misc-fixes-2026-08-06' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 5fb210754ed66ce2dbd3ccffd508df769ff0bcdc Merge tag 'amd-drm-fixes-7.2-2026-08-06' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-d824ed1307680dd482f607b0e707c575f70668c4 x86/locking: Use sfence for wmb() if SSE is available
 3f008280327ba5ad132965abab0c7846283cef0c Merge tag 'pinctrl-v7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 bcc44b6785f216eb939226ade6e3910baa30516b Merge tag 'drm-fixes-2026-08-08' of https://gitlab.freedesktop.org/drm/kernel
 9a143525f62bd6a871a49a61a5b3e07f5d54f654 Merge tag 'ata-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 5d78d199bec44519a7d63c7485d44243498744bf Merge tag 'hwmon-for-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 a59f57e2aa127c5354168d2ec4bac920df1be4f4 Merge tag 'watchdog-for-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-f776da4be95f30d0ccb24e9423207aad08e2382c Merge branch into tip/master: 'x86/core'
-1233941c6f4d2cd4d5595ed1d2c48e62a44c8220 Merge branch 'linus'
+684076ea83e91296b5959e35624f66be5f5631a3 Merge branch into tip/master: 'core/urgent'
+41d3e74f68dd9174ab27da54d154e8cd665a9c07 Merge branch into tip/master: 'locking/urgent'
+8bb23bd6df2db23f833539bee9276737a74b79b0 Merge branch into tip/master: 'x86/urgent'
 
---===============1585526377905023394==--
+--===============5187646878454317199==--
