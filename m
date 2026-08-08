@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sat, 08 Aug 2026 13:12:46 -0000
-Message-Id: <178619476629.424141.2664482483622153580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Sat, 08 Aug 2026 13:17:23 -0000
+Message-Id: <178619504319.427931.10438961698422068775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/i3c/next
-    old: 7315aad228c29508ec77ab64a7c75377981e8c4f
-    new: b6e56fd8c8a8ac7992868a28702192372ab04015
+  - ref: refs/heads/main
+    old: 72741a3f3e7b8b5ce547b0bba4bec0470b80aa6e
+    new: f66e9159e7464c5c435d342b6476d5a0774841bd
     log: |
-         b6e56fd8c8a8ac7992868a28702192372ab04015 i3c: renesas: Don't register devices when ENTDAA times out
+         f66e9159e7464c5c435d342b6476d5a0774841bd qemu: Always provide graphics
          
