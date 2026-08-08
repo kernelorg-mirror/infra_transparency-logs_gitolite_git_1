@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Sat, 08 Aug 2026 13:17:23 -0000
-Message-Id: <178619504319.427931.10438961698422068775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sat, 08 Aug 2026 13:52:16 -0000
+Message-Id: <178619713600.452061.18364861252932299589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 72741a3f3e7b8b5ce547b0bba4bec0470b80aa6e
-    new: f66e9159e7464c5c435d342b6476d5a0774841bd
+  - ref: refs/heads/for-7.3
+    old: e04cf4dd5faac8bfe22a70b30fa40b07df853e25
+    new: 82b6d37621b00ffbf32552b822d1a339fcf20d86
     log: |
-         f66e9159e7464c5c435d342b6476d5a0774841bd qemu: Always provide graphics
+         82b6d37621b00ffbf32552b822d1a339fcf20d86 ASoC: fsl_easrc: fix missing return on success in runtime_resume
          
