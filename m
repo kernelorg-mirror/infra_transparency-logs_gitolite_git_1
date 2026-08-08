@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4599871138082854081=="
+Content-Type: multipart/mixed; boundary="===============4667761537362820501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sat, 08 Aug 2026 16:30:48 -0000
-Message-Id: <178620664820.627551.2071811035795535865@gitolite.kernel.org>
+Date: Sat, 08 Aug 2026 16:31:28 -0000
+Message-Id: <178620668848.628220.16851773898347565297@gitolite.kernel.org>
 
---===============4599871138082854081==
+--===============4667761537362820501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-7.3
-    old: a2d6aa3b84466b2b5bfb74e07eb5b0b308b7022d
-    new: 1ec281b42ee249cfe9bad52a54149de29ed6aa78
-    log: revlist-a2d6aa3b8446-1ec281b42ee2.txt
+  - ref: refs/heads/for-next
+    old: 26ce680e72f4e3db5219940e0d36158e19907f3b
+    new: e2c2ba2eb88eae0dac691e94c02615ff5bcbc337
+    log: revlist-26ce680e72f4-e2c2ba2eb88e.txt
 
---===============4599871138082854081==
+--===============4667761537362820501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2d6aa3b8446-1ec281b42ee2.txt
+Content-Disposition: attachment; filename=revlist-26ce680e72f4-e2c2ba2eb88e.txt
 
 c4a452dd40aa6c8e30925eb734c1027bd07e9931 spi: atmel-quadspi: use modern PM macros
 6fe48b995296ea525fd71db504739c865d07fd77 spi: amlogic-spifc-a1: use modern PM macros
@@ -66,5 +66,6 @@ e3f3d046f3f6467785ae35cefef33e3b7c774be4 spi: tegra210-quad: use modern PM macro
 2dae40e9dcfbacd6362244de68868538c11967a1 spi: topcliff-pch: use modern PM macros
 bec2ec4186d0ce0a921ca23fc03969305fc76564 spi: zynqmp-gqspi: use modern PM macros
 1ec281b42ee249cfe9bad52a54149de29ed6aa78 spi: use modern PM macros
+e2c2ba2eb88eae0dac691e94c02615ff5bcbc337 Merge remote-tracking branch 'spi/for-7.3' into spi-next
 
---===============4599871138082854081==--
+--===============4667761537362820501==--
