@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 08 Aug 2026 06:42:39 -0000
-Message-Id: <178617135908.143091.6975125042475376443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 08 Aug 2026 06:55:07 -0000
+Message-Id: <178617210713.153060.13678954100302451656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/fbdev-for-7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: e1604279a27f7e3b9ce79d6310191554f7bc7303
+  - ref: refs/heads/master
+    old: 7f7aacc26f1f8867948e1fdcf78035c1db416c17
+    new: 01056d3bf90bddbd81d68e87d45b3d188c58948a
+    log: |
+         01056d3bf90bddbd81d68e87d45b3d188c58948a foo
+         
