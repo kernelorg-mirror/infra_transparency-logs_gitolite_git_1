@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 08 Aug 2026 01:20:28 -0000
-Message-Id: <178615202851.4101601.5593204599445751258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 08 Aug 2026 01:21:02 -0000
+Message-Id: <178615206213.4102238.6973237354823218518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d47b06aa3ea1c62540e422173b694dd028411528
-    new: dd057113ac7ba5bdd2aed3d9405305911152f911
+    old: 417c619e7dbbafec2ac75a6d918e090e0396421f
+    new: 1dd5bc0b9a07417ca9ec15d22f20708226eca793
     log: |
-         dd057113ac7ba5bdd2aed3d9405305911152f911 mailmap: add entries for Christoph Paasch
+         1dd5bc0b9a07417ca9ec15d22f20708226eca793 MAINTAINERS: add Ivan Vecera as DPLL reviewer
          
