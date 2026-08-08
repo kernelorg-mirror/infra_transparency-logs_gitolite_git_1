@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 08 Aug 2026 03:49:49 -0000
-Message-Id: <178616098991.11977.2701903158171302542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
+Date: Sat, 08 Aug 2026 04:26:42 -0000
+Message-Id: <178616320274.44655.13067183357919353987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bcain/linux
+user: bcain
 changes:
-  - ref: refs/heads/master
-    old: 01dccfd7e8606d0368e35139662e4ccbe754aff7
-    new: 7f7aacc26f1f8867948e1fdcf78035c1db416c17
-    log: |
-         7f7aacc26f1f8867948e1fdcf78035c1db416c17 foo
-         
+  - ref: refs/tags/bcain-hmx-aug8-2026
+    old: 0000000000000000000000000000000000000000
+    new: 5f98c0617838d0c1487d5ce9bdfe9f9dbc4d626b
