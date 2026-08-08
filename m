@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Aug 2026 08:42:03 -0000
-Message-Id: <178617852399.228653.13635393140308744564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 08 Aug 2026 08:43:26 -0000
+Message-Id: <178617860661.229296.3707563891614726042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/core/urgent
-    old: f81845889e128d2e5f8f2f38eb7339cc74640f4f
-    new: 075b74841bd0065a3bda3440873c747938e69b68
+  - ref: refs/heads/for-next-v7.3
+    old: f0fb955513c10b79ed403f45ef0f16e2d05d27a4
+    new: d8b16a6922c292d9db4fed843000193afe8e7242
+    log: |
+         d8b16a6922c292d9db4fed843000193afe8e7242 fbdev: mb862xxfb: Silence possibly unused functions
+         
