@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5119348071341942969=="
+Content-Type: multipart/mixed; boundary="===============5922637077497773469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 09 Aug 2026 04:32:45 -0000
-Message-Id: <178624996552.1206671.12610130146655418062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 09 Aug 2026 05:10:30 -0000
+Message-Id: <178625223091.1233795.2044256901058216669@gitolite.kernel.org>
 
---===============5119348071341942969==
+--===============5922637077497773469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/readfile
-    old: b5cb8b42625447092d026e1aa873496c891e1a0a
-    new: f913cbe1a67a862dfa338c53b63234b18f5b2bac
-    log: revlist-b5cb8b426254-f913cbe1a67a.txt
+  - ref: refs/heads/master
+    old: 9e740afbba43cb74e305cebc3b874bab285b8e0d
+    new: 97e205496c64b6de466d3401f6d5759ca0f974eb
+    log: revlist-9e740afbba43-97e205496c64.txt
 
---===============5119348071341942969==
+--===============5922637077497773469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786249861 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1786249948-fd254ea490c10476b2e16407888aeef29574ee7d
-
-b5cb8b42625447092d026e1aa873496c891e1a0a f913cbe1a67a862dfa338c53b63234b18f5b2bac refs/heads/readfile
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp4AoUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4l4P/jLYAANT1a2J2VNdI8hf
-dnwY/FJuIFujy/a47Q7VhYnyCNod/HQrrYFeRHRycjMoma1bZ2ZmzLSygMBA5HWP
-nSQE7Dg7X0stqtB6PDLcPK1nCZ5fxil741LmeLIPMn2t0ignQ0JgCmMIpaT9gRQX
-BfUtyFvoRx56B6A1zOzKJ8Gb4bWSmySJeRvOluj69XPzkqI+LinElVrG7nuY47/O
-TsM56+5DzjwHmZJOSpEp8mu276xzaW9eOjjkzIewg6to6r0qC+wnOdd1bOmuw92J
-atnv/+2JNJbQDL7Yi/7M+luNsZLyRZaRW2MNngVkLOjMWLNiuSKL/R6ga7oUKWXx
-EED3GfhV2VGycJKg5nJqpGPeeI6kUShmxWrGjxt92SQhzUu3RIz0gFegahTwk5zv
-W1kguxPM6zeN8fM8+aKsPY+5480f7S3zoDOtuBCpxRdJneSO/5SwVbrouTovO1+9
-SUA5qkd1PVuktqr3b6fbZMNdTDnKx5IW7fjfmdc6IrwpMWeKrXPY5c7R37RVDdhr
-KtwEOAcN8p8cnFfw4fFNZEwT5ztmQiwyh4xPtnaeURIRyg14jrf5qoxNyJVEU+nV
-1MUBZY881E3BKmBMP2dVXWJluYGpHME2qo9NwibJB3Y0j8vM7M5qYpGLxbRaCE7P
-NUD+SF631CYuAsjovcP2N8eH
-=hr2b
------END PGP SIGNATURE-----
-
---===============5119348071341942969==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5cb8b426254-f913cbe1a67a.txt
+Content-Disposition: attachment; filename=revlist-9e740afbba43-97e205496c64.txt
 
 97b228e596740fca5eeeb1d8e619c1f457d7e2f0 thunderbolt: stream: Unmap buffers with mapped size
 d2ee4d47aacbd2ba456092eeec670dba35fde291 thunderbolt: Fix bandwidth group reservation indexing
@@ -99,18 +68,13 @@ bea79063a35121e49a86801671cca56fc4d83f7d docs: threat-model: clarify "security b
 e447f7f33fa0a50d42d0539c161a662e67bd1a2c docs: security-bugs: clarify what counts as a valid version
 3d7c44f73765d98665fb97a4fb89c002c88ba1b9 docs: coding-assistant: explain important steps when looking for bugs
 6ffecfe0805e8811e7637e8f381b6740a3e9767b docs: security-bugs: clarify some mandatory steps for AI reports
-a213dfaa2596c1c0dc4dae91c14fbfa499c03223 x86/mce: Set up the polling timer before CMCI discovery
 2c30f9745625a0dd4dda28d9f088d486374827c4 Merge tag 'counter-fixes-for-7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-8e7ff730dd96519a333d1570edf1c3fabb6d3629 futex: Fix race in futex_pivot_pending() during private hash resize
 5668ba23042e54757a19bffbb9e325a206a2227e Merge tag 'char-misc-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 e663f6deac9d113d158eb0ba7433659fe4d95ade Merge tag 'staging-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 e4836b67bad62f10e142f8dd71e67473778de518 Merge tag 'tty-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 91a73db6970aa7cd3d2ea73a4a11eeb3519737db Merge tag 'usb-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 d4eee3bdb8af1010a0c1edf571c00a7f41c5abe3 Merge tag 'locking-urgent-2026-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 06cf61899d6498b33e4b7c87d99d5bd471ccc375 Merge tag 'x86-urgent-2026-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-03e92f6db92a2d3cd4abf59cdb39de9b0dc2cd0a readfile: implement readfile syscall
-700be68fd5a7a4867fc2015d0a5f04f4b0ae6a59 arch: wire up the readfile syscall
-506553b0d6c060299cb341e36c02d64ac260cddc readfile.2: new page describing readfile(2)
-f913cbe1a67a862dfa338c53b63234b18f5b2bac selftests: add readfile(2) selftests
+97e205496c64b6de466d3401f6d5759ca0f974eb Merge branch 'linus'
 
---===============5119348071341942969==--
+--===============5922637077497773469==--
