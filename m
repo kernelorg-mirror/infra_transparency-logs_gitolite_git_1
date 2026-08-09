@@ -1,69 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============0005893296680405924=="
+Content-Type: multipart/mixed; boundary="===============4347212890421808938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 09 Aug 2026 04:18:14 -0000
-Message-Id: <178624909419.1138818.14606659160219299278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Sun, 09 Aug 2026 04:19:35 -0000
+Message-Id: <178624917516.1139597.9285153555836983452@gitolite.kernel.org>
 
---===============0005893296680405924==
+--===============4347212890421808938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a59f57e2aa127c5354168d2ec4bac920df1be4f4
-    new: 06cf61899d6498b33e4b7c87d99d5bd471ccc375
-    log: revlist-a59f57e2aa12-06cf61899d64.txt
+  - ref: refs/heads/clanker
+    old: 4f95ab7d0c543772cf692392401acd090b9b2f0c
+    new: 20569707e3b242ef1d9f6c217770e0d791b80a90
+    log: revlist-4f95ab7d0c54-20569707e3b2.txt
 
---===============0005893296680405924==
+--===============4347212890421808938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786249001 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1786249088-754e29228a6c9092ca8c6f7bd6af7e78e4d8b85f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786249070 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1786249156-5558ca1d92e93149b8baf32b34a34f749d7b62a3
 
-a59f57e2aa127c5354168d2ec4bac920df1be4f4 06cf61899d6498b33e4b7c87d99d5bd471ccc375 refs/heads/master
+4f95ab7d0c543772cf692392401acd090b9b2f0c 20569707e3b242ef1d9f6c217770e0d791b80a90 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp3/ykbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4LAQAJzVMviqSDbjBwJy0cs6
-/sCrvsmRprbcn0QIUECCa/Md4MDJhzdnbSTtq6Nvt0brED2PBgq+bDrB2CJW6p8T
-XQSY8/Ltk+usfB5F0cbdsU4IlYn53MYt9pgXA8TC1fhcFdYLvtKHZSwhguqbDtQv
-daALrSE+XYs9W4DrSZnzvFwXe/hHglwRcTdECRSSl+fPkHGump4TQvwwkgDQ+8MH
-qu2m84lJuX9vcATPB3q/H8ZGy3X5Ks3Jj670MEaPpBDEBvhTu74r3/tEq6EZ9ymo
-QdFA66NmB0Yxe5Qd27a5fFNcViaaTvy+q9MnE0MkGObIDMimXG4Nhv3qx2pVKahD
-6WaS+p7OprFQzk1OpwiOAlO2qsHYngACMmMpYFHGDtSi2bkCWCv+Q8Xv7CNh58AH
-If85VNUzTqz+BiXQnRY0D5jI3lJTTnXstNqsdkJq+ZeH9JI4/e/qZxAbbLVr/p4U
-xCdo6ZwV7egVIZOzq94LFSCoSdINH9lA4u1EAdizjmwCt9LexmnxldZEbZFwaNWa
-w1Zr09K2ctXFeQBfUDGtD392vc0Wd00ey46Z/bXk035D58L4I2Mxow3q36jjA4LU
-oydwdUr3YV+1CnJMkRG9YcKmhO7Ly8Y4KEPOqIaUH7usJL44XVAGkfnOprZv/xun
-tFFrh2XuLhJOpcojlU3oOcX+
-=4u0E
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp3/24bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AJwP/jVVHi/fjQ6mYRE37S26
+sR7eYxDg6LTfR9iawvjVzcBKh53o+DiFLsY8ajmsmw3oYYUMsT203Gw+pRwr6FPk
+CkZK56kXANnWS9woMWGi/Qxaw7I/7cKcR3g/9qEsySCssWkrx72UvqSdgO1hePsu
+76asLDqb3W9tBZRTXFfUlR1S4dXKq4mRWQJEXB4i6Nz+aLDr3W36IsNgMNzOHa9q
+x84E1v4k4K3GJzmgQM97jKfUhRHUIOEH+o3GhHUa5dlmbyyjqxt0RnoUpKR0yqPT
+LQaP73m2Bq9nH91Oc5b2l3cb/EXTvlMDI50S8zNMRt3oct1CQu0gj7fUxEPjpgYU
+wW3vx52SUf0FvHlUSLrW6dGINdg8DatHjMGYjHAO6tpFxUIUlGBBL8savyvBv8G9
+SkyzBuhhMjZMbSv4ZgMHtR+289tPTDG37HpwGToRFxBYTdJzcDkxlBYHsl2dO0vE
+jo3v3QyCmU1fQz/gHSDiUN+gHXDOWf+DwDMbVcysFy4SMC42p7lIJFLuoVMYy9ZN
+5FBAUyABJvw+wsXFeUyEVBDy+qVq4mwFIS0DDXvUtm4Ot7TQbRLTtsCpRIg69wd/
+J5wO73DyrtlgIHqf+BU6svQ6RTn24XoHwQt67XGK/AKIZPJHOYUum8JpNaikaT5T
+Ba8o8g1bpiEft5m/U5Wy+QoG
+=fybr
 -----END PGP SIGNATURE-----
 
---===============0005893296680405924==
+--===============4347212890421808938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a59f57e2aa12-06cf61899d64.txt
+Content-Disposition: attachment; filename=revlist-4f95ab7d0c54-20569707e3b2.txt
 
-667d0fb32149f023b8b34a1f6f3d384556eafb5a driver core: add missing kernel-doc for union members
-c83e79c0842ed29860648bcce5022ef0ba5001c6 Input: byd - synchronize timer deletion before freeing private data
-ad1d940efbf13fba516821f3d00fbd34a26e289e Input: edt-ft5x06 - ignore contacts with an out-of-range slot id
-7d971337ebfad0b173cb46097c709db174ac3557 Input: xpad - add support for ZENAIM LEVERLESS
-7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d Input: cs40l50-vibra - validate custom data from user space
-732f38c36059e68ba3b4b89c56911d777fd3185c Input: psxpad-spi - set driver data before use
-5751c781d3c97ab6ce0e2a966156ed882152c415 Input: iforce - validate input packet lengths
 97b228e596740fca5eeeb1d8e619c1f457d7e2f0 thunderbolt: stream: Unmap buffers with mapped size
 d2ee4d47aacbd2ba456092eeec670dba35fde291 thunderbolt: Fix bandwidth group reservation indexing
 d6764992f17b23d91ff93ce905ab53c2aa7191f0 thunderbolt: Bound the DROM dual link port number before indexing sw->ports
@@ -86,10 +79,6 @@ b5be879519291f139fa7b365fd0dbc84710e4919 nvmem: layouts: Add fixed-layout driver
 dd7aea9ee2091cfae3a5e376af87aa106d7735cd rust_binder: do not query current thread for all ioctls
 b0495bb58af06a7de4628c72d500e3d5e180d808 mei: pull kvfree out of spinlock
 f1a3a9946aab611dd2200c01ff122f64b033dad2 counter: microchip-tcb-capture: Fix DT channel validation
-3a046db33bb9f28b43a951a7a090db771dc0f8b3 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-410c44b1096789d0c40fbee706520e981dba7bc1 Input: atkbd - skip deactivate for HONOR ZQC-P
-296736076b3fd078742651c719555a488624023a Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-4c77b45fa23015d41d7401f684bc22ca585b41fe fixp-arith: convert comments to kernel-doc format
 134044e9fa33b599dd57d15c818cba1f3618cab3 Merge tag 'thunderbolt-for-v7.2-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 1423415471274abda87024967d7fe2206ceee0ea serial: 8250_of: clear stuck empty-FIFO RX-timeout on LPC32xx
 e25d47a526939ad44b75f778b8a7500562b84fc1 vt: stabilize tty reference in kbd_keycode with tty_port_tty_get
@@ -104,8 +93,6 @@ c2f811314be351d86b6ab41e9297ae80d8da6f86 usb: atm: cxacru: properly kill rcv_urb
 152f174a13618bec1f842d2deb69245cb2ace51f usb: core: Add quirk for 255-bytes initial config read
 37a6e2f9c30245d06de4d5755a9d8cc1de3923f6 usb: hub: Split announce_device() to log device identity before enumeration
 f3988e68fc089f6a5883f4f807955a3825bb7d45 usb: quirks: Add ShanWan gamepad to quirk list
-90f305f2c7a30257c683e13f4bf7c798eea992a0 Input: evdev - fix information leak in evdev_pass_values()
-27f380ef0e1d3de3cde114e02d33f9320ce3a5a6 Input: hynitron_cstxxx - validate touch count and finger IDs
 3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9 usb: xhci: use BIT_ULL for CRCR bits to fix incorrect 64bit mask
 bea79063a35121e49a86801671cca56fc4d83f7d docs: threat-model: clarify "security bug" vs "vulnerability"
 11f46e30e6885734be609e337e65a4784bdd282d docs: threat-model: move fake devices out of "non production use"
@@ -113,34 +100,49 @@ e447f7f33fa0a50d42d0539c161a662e67bd1a2c docs: security-bugs: clarify what count
 3d7c44f73765d98665fb97a4fb89c002c88ba1b9 docs: coding-assistant: explain important steps when looking for bugs
 6ffecfe0805e8811e7637e8f381b6740a3e9767b docs: security-bugs: clarify some mandatory steps for AI reports
 a213dfaa2596c1c0dc4dae91c14fbfa499c03223 x86/mce: Set up the polling timer before CMCI discovery
-6058f0fea10f3caf63a435677358d1b8e9325114 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-dc76c3c8e8ad09362b8c1561f3928288c15cba2e Input: synaptics-rmi4 - zero report size on F54 work error
-49c5adc2b7d6e43c5cf033e1c86fdb9c16ababb1 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-fbfd76746adc16d64be29ff113f673b70bc3f5c2 Input: synaptics-rmi4 - block s_input when F54 queue is busy
-8786d74bf50e6797b6f655eb381ef6b25451161f Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-3abd29c61d2ef37c4102cf755b18be53bb9dbea6 Input: evdev - sanitize event type index when fetching event masks
 2c30f9745625a0dd4dda28d9f088d486374827c4 Merge tag 'counter-fixes-for-7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
-4f5f23846d6713c05481c8cfc710bb23817bf5e9 rust: io: gate ioremap/iounmap on CONFIG_HAS_IOMEM
-f88db65aece9f9d26287b6377b7c7730ecf9f11a rust: io: gate ioremap doctests on CONFIG_HAS_IOMEM
 8e7ff730dd96519a333d1570edf1c3fabb6d3629 futex: Fix race in futex_pivot_pending() during private hash resize
-5b17f3f34391372faf03e79d947e0c50ab6dd258 powerpc/pseries: papr-phy-attest - validate cmd.length, plug mem leak
-649c10bff5cb7a514bf299094833ec8c9190aac3 powerpc/pseries: pci - logic bug
-fb442a6673ff1046bf67754957d95880fdb394b5 powerpc/pseries: lparcfg - fix kbuf[] underflow
-d15d51fb26e830af58f3f21964f1c09c239077ea fbdev: bound mode sysfs output to the sysfs buffer
-95e647d2a5304a8fd11f1ba3c8502de700650131 fbdev: clear fb_info->mode before deleting a videomode
-061db6b7a910b8378f3b2df64f8c0a3ddc6e85f2 fbdev: serialize mode sysfs access with lock_fb_info()
-81cc73be40c6f028f1ee3f438ace46afe666dbae fbdev: core: Fix pointer desynchronization in fb_io_read()
-ef7656e85f1a4400999625cd398b655517368e7e fbdev: Fix out-of-bounds access when rotating console after font resize
-e033cbf3975a8465f879ebd5989dc35b04423a4d fbdev: bitblit: bound-check glyph index in bit_cursor()
-afe80aebd320848964682ad5a1ffee678ce9af99 Merge tag 'powerpc-7.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-7d8c681eef3e410eb6a846ef1ef777f5781b4878 Merge tag 'input-for-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-361efac9e90e03d97e46743c49558466dd5b4bb6 Merge tag 'driver-core-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-a7c7074b58d28c4206d666a12aa2e33447b3c581 Merge tag 'fbdev-for-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 5668ba23042e54757a19bffbb9e325a206a2227e Merge tag 'char-misc-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 e663f6deac9d113d158eb0ba7433659fe4d95ade Merge tag 'staging-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 e4836b67bad62f10e142f8dd71e67473778de518 Merge tag 'tty-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 91a73db6970aa7cd3d2ea73a4a11eeb3519737db Merge tag 'usb-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 d4eee3bdb8af1010a0c1edf571c00a7f41c5abe3 Merge tag 'locking-urgent-2026-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 06cf61899d6498b33e4b7c87d99d5bd471ccc375 Merge tag 'x86-urgent-2026-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b662c60287a4f116fb367cd86579f1cf5ea73f66 net: mctp: usb: properly drop the usb interface on probe error
+7bfb72ccdcb3ac9c26e270c36ba050bd04bbac4c wifi: rtw88: properly drop usb interface reference on error
+0263a59c085e040f2081b32b247f8fec9e9b1e5d mmc: moxart: fix potential use-after-free on remove path.
+8dd98cde6b2767629e27d8288cd70a66edb2446b mmc: meson-gx: fix potential use-after-free on remove path.
+0e1bdaf2ace13d5424294d9ddea5b407de74d6a8 f2fs: fix potential deadlock in f2fs_convert_inline_inode
+7f23c8861c27f3d63c7a6a9b057287eee991531f drm/amdkfd: stop speculation on the kfd_ioctl path
+fcbd2d52368769eeeacc5705f4d006bc9ce4c5b6 media: adv7604: avoid negative array index in log_status when cp_read fails
+ed8b38a294c451b094bb2f81dca3c5ad962a111e media: stv090x: bound DiSEqC reply length to msg[] size
+ae04ab70d6e6cf0e3aabd83e73b30113eca75848 media: stv0900: bound DiSEqC reply length to msg[] size
+9c855b028c56d381bae4d4da108c4336a6fac431 NFC: digital: Bounds check Felica response before sensf_res memcpy
+7b48013665a8da3404fe3a35b988abe4270c00c8 net: usb: cdc_ncm: reject negative chained NDP offsets
+4b5c4e7068dc8d02729e810203fa503d042a02b5 net: sched: em_text: require NUL-terminated algo name
+83070fa13044130776e0455a53d45d847ea84c13 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+8cc102e00c857dd675a0efbbe70739d6b286b97f ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+76893e2e5ca0101b2fb1a91f2d2c260bb832b959 io_uring: depend on MMU
+1aa015710e6c1d2967ca8e8e766cd00b1270d3cd mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
+7f012636199a93acae3688c99cb464d5e2c87f9e usb: typec: tcpm: validate VDO count before reading Attention status VDO
+bd47172e7acc631251b59ea6eca1b4ec757f48b8 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+14b38bd5ee8a13e5f9427e802c316638e9f80d79 fpga: dfl: fme: add error handling
+52519490d40f6d34f271c53968d0c97ce3756781 drivers/perf: thunderx2_pmu: add error handling
+fd49f0550727ec8e1142dc66db9447452fc97e5e soc: imx9: devm_kasprintf error handling
+dc886d82e2ab115dcdcb5285b300334182be63df dmaengine: fsl-edma: Add error handling for devm_kasprintf
+bda1ef414b3e9153f93367df8303dc51a48fe634 nfc: st-nci: Add error handling to IRQ handlers
+fc0df378f09cbc8388db661842d677442400573f nfc: mrvl: spi: Unregister dev on allocation fail
+035fdb2819761350a3a3567f6f86e3edae504426 nfc: nxp-nci: Add remove on IRQ error
+978b995a63cdfa20fc276a058a6df52c8050b7fc rndis_host: add overflow check in rndis_rx_fixup()
+4305988b921dfffd19833c72d5a662ec56dc6ca3 nvme: bound ns descriptor header and body to identify buffer
+64e90d9c1e5c6514c694c0b4d58b6452ab9134d8 nvme: clamp FDP nruhsd to allocated RUH status descriptor count
+ccc528de23a7f0138f04b8c862101509dd2a089d misc: amd-sbi: Add null check for devm_kasprintf()
+fafc805a1d4284ab6edce24603aa7dc8d4d49814 soc: mediatek: mtk-socinfo Add error handling in devm_kasprintf()
+2a48413376cdc07ffd78866f15706041d39df184 mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
+5d66237436a866277720adadb9e64f67e41932d5 nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
+bfdb2d5b10ba07d86a192491cb43b8338b6f92f8 tty: vcc: zero-initialize control packet in vcc_send_ctl()
+7190ed3f49fc4de15f197b6e291fb051e431546d tty: vcc: hold port lock when clearing tty pointer in vcc_cleanup
+e933c8f988fb6a263c522f67c7e90409a3374c73 serdev: fix race between tty-port unregister and in-flight callbacks
+20569707e3b242ef1d9f6c217770e0d791b80a90 serdev: use tty_port_tty_get() in ttyport_write_buf() to prevent UAF
 
---===============0005893296680405924==--
+--===============4347212890421808938==--
