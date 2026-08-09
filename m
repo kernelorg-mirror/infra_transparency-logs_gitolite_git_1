@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7264786959765201586=="
+Content-Type: multipart/mixed; boundary="===============4634137015954646088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 09 Aug 2026 05:18:51 -0000
-Message-Id: <178625273117.1239098.6288728951948990512@gitolite.kernel.org>
+Date: Sun, 09 Aug 2026 05:19:43 -0000
+Message-Id: <178625278388.1239600.4215888213913468226@gitolite.kernel.org>
 
---===============7264786959765201586==
+--===============4634137015954646088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,136 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 97e205496c64b6de466d3401f6d5759ca0f974eb
-    new: d823ca2231c6c50fffb20f309565060e5a21b2e5
-    log: revlist-97e205496c64-d823ca2231c6.txt
+    old: d823ca2231c6c50fffb20f309565060e5a21b2e5
+    new: 8c0f614fbda9a409b7d6aef600eeb9767fbb03a8
+    log: revlist-d823ca2231c6-8c0f614fbda9.txt
+  - ref: refs/heads/tip/urgent
+    old: c640f8184e5653a510e3f60f39a1d04573788928
+    new: 06cf61899d6498b33e4b7c87d99d5bd471ccc375
+    log: revlist-c640f8184e56-06cf61899d64.txt
 
---===============7264786959765201586==
+--===============4634137015954646088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97e205496c64-d823ca2231c6.txt
+Content-Disposition: attachment; filename=revlist-d823ca2231c6-8c0f614fbda9.txt
 
-b54aa0edf0594a6e1138e626bfd8a352ed582ae9 preempt: Track NMI nesting to separate per-CPU counter
-9634d860ac15dad51a62955566424c9d2996b15c preempt: Introduce HARDIRQ_DISABLE_BITS
-4ad87eee546ef97e3a5ad80414327f41f48a4e70 preempt: Introduce __preempt_count_{sub,add}_return()
-e35e7700029b936356d736d6378cf596019e4cc8 openrisc: Include <linux/cpumask.h> in smp.h
-91e05ca8322a875eef160b70a48a46294567ccd7 Merge branch into tip/master: 'x86/merge'
-19f524f47cbc50065367085d78cfae7e9f20e0fd Merge branch into tip/master: 'perf/merge'
-98fb93d603ba49872a16aea6e1ab8ab08e961971 Merge branch into tip/master: 'core/entry'
-f709c77db30961905373a99bf1707eb36a8e7a72 Merge branch into tip/master: 'core/rseq'
-4f31e54d32fe9bad1e07ccf5adb1c607ad7013ae Merge branch into tip/master: 'irq/core'
-6a1f7132b480973262ea4c9e5d8dcb7955eb7bc8 Merge branch into tip/master: 'irq/drivers'
-9d0a5cb2088d055cb4fe2d1e761b0f2e8b9d87c9 Merge branch into tip/master: 'locking/core'
-28d8cf6d975dc37f4a01db4fff9182c03049371f Merge branch into tip/master: 'locking/futex'
-3ff3d12500482c3ba8ca02058b83aac8ae58894a Merge branch into tip/master: 'objtool/core'
-cd32a5513a7df60949b78e9961859fcdb2bde454 Merge branch into tip/master: 'perf/core'
-12eed64fb2a682b185d5da81c297750a6c135228 Merge branch into tip/master: 'ras/core'
-ec7fed3eedb58ec09e5fec270722276a521d093c Merge branch into tip/master: 'sched/core'
-cfb5bc94c9c35b1a3c9cc4657af6a7e41d47aded Merge branch into tip/master: 'smp/core'
-b5d17259718f0fe46feeff9a4a70d8059439c84a Merge branch into tip/master: 'timers/core'
-4e6f2aa880eb913f1df011ebfdabcb7972c0ba7f Merge branch into tip/master: 'timers/vdso'
-dca114dda973c9bc3509e44653fa0ab74caf06d0 Merge branch into tip/master: 'x86/alternatives'
-755d2bd2a75990beb14014c12c0b572dd9bf928d Merge branch into tip/master: 'x86/boot'
-7090f992f31461f9887b636f7979f5052f3e9c2f Merge branch into tip/master: 'x86/build'
-ebf7b8818cdbcf3d77ac18f47e272894f932d5f4 Merge branch into tip/master: 'x86/cache'
-652fc9624af78193dee195b016ec54a26bcfacd3 Merge branch into tip/master: 'x86/cleanups'
-63cfff060a5335b4315e75c01cfaa074c284d574 Merge branch into tip/master: 'x86/core'
-0d098954bbbb1bdd285556d5e8dfaeb03e6e1314 Merge branch into tip/master: 'x86/cpu'
-8235fa8b51aeaab4b80599d41e1e3dbcfebb475a Merge branch into tip/master: 'x86/documentation'
-f9186c0a403cbb06c6937d919450a191fa059a0d Merge branch into tip/master: 'x86/entry'
-0a5c29216a2b0efc7f9c8d880a048495b3212073 Merge branch into tip/master: 'x86/misc'
-6cef581f7bd30d71ed65d4f7a82d87ebefafcfc7 Merge branch into tip/master: 'x86/mm'
-437fbf2f888be6127d150b1cee54e16e84364aaf Merge branch into tip/master: 'x86/tdx'
-d823ca2231c6c50fffb20f309565060e5a21b2e5 Merge branch into tip/master: 'locking/core'
+5f8ad7b03d3448033cb95a927eca29cc9effe09b Merge branch into tip/master: 'x86/merge'
+2e96da96de01c5884d83422af7fd1182cb5c6f2c Merge branch into tip/master: 'perf/merge'
+ea267c13f1adf1f606b7ded057aaf6ab341bf7ec Merge branch into tip/master: 'core/entry'
+8a68fb2af8a45f0ac6b2c7b94ab4b1f9f16fea36 Merge branch into tip/master: 'core/rseq'
+855683b87bbba5a311b549a813bbc9a6e51f3dff Merge branch into tip/master: 'irq/core'
+981eaa94ac5be946e56afeeb5f7e2d394ccc011c Merge branch into tip/master: 'irq/drivers'
+06fadf67d87832838a1b8c9eae2ac481f95002c9 Merge branch into tip/master: 'locking/core'
+e22c4cb7e84f1592b3da449cb6296f8d8e7231c7 Merge branch into tip/master: 'locking/futex'
+5f37108d10f93a26ebfe25337aee846ce3a3849a Merge branch into tip/master: 'objtool/core'
+1d42ac8e468d80d0744566f9eb672464511f98f5 Merge branch into tip/master: 'perf/core'
+774662c8ece13c8d657a5152c7ddf584d8642748 Merge branch into tip/master: 'ras/core'
+d896c23086301b356614fd70cec0769b864e5ada Merge branch into tip/master: 'sched/core'
+876f7b29aae35fe1fa06f614adf10f1dbedb5407 Merge branch into tip/master: 'smp/core'
+481360bb32cce5da64e539304b09772b87229049 Merge branch into tip/master: 'timers/core'
+68e5f962e8b4eca63088bc66bc16f334fbf54550 Merge branch into tip/master: 'timers/vdso'
+26a2050918b4bb4fd1301b0cf34647b5e83f0311 Merge branch into tip/master: 'x86/alternatives'
+72240e2b971981f93172d764b0091557d0aa357c Merge branch into tip/master: 'x86/boot'
+2278dbd6280fabb445b5c3c9b38d61a5225b0921 Merge branch into tip/master: 'x86/build'
+df50db9e38738fd4b45c3f01cef4ba8dcf47051b Merge branch into tip/master: 'x86/cache'
+05df19953324a557ee458d181e5d7b6697a4c305 Merge branch into tip/master: 'x86/cleanups'
+06e0cf75998a257bda96162755bc188e42f1f594 Merge branch into tip/master: 'x86/core'
+377af24f793f67ea8655e8fa2968e0524ca2a7e0 Merge branch into tip/master: 'x86/cpu'
+7091613ac0edcdfe978e04f3ea9fbc9e88f8f9f2 Merge branch into tip/master: 'x86/documentation'
+915421cd09bf36ebaf3e9ce5e5ca87b2c2cb3ac9 Merge branch into tip/master: 'x86/entry'
+efd6f44c9ea578f03c004380fcef7839651aff89 Merge branch into tip/master: 'x86/misc'
+1347e56abdfbdc1f6fd0783cbcd4db2ed0454588 Merge branch into tip/master: 'x86/mm'
+8c0f614fbda9a409b7d6aef600eeb9767fbb03a8 Merge branch into tip/master: 'x86/tdx'
 
---===============7264786959765201586==--
+--===============4634137015954646088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c640f8184e56-06cf61899d64.txt
+
+667d0fb32149f023b8b34a1f6f3d384556eafb5a driver core: add missing kernel-doc for union members
+c83e79c0842ed29860648bcce5022ef0ba5001c6 Input: byd - synchronize timer deletion before freeing private data
+ad1d940efbf13fba516821f3d00fbd34a26e289e Input: edt-ft5x06 - ignore contacts with an out-of-range slot id
+7d971337ebfad0b173cb46097c709db174ac3557 Input: xpad - add support for ZENAIM LEVERLESS
+7d5c576cb1c86047b1fcb1aa9532e17fc5e46c1d Input: cs40l50-vibra - validate custom data from user space
+732f38c36059e68ba3b4b89c56911d777fd3185c Input: psxpad-spi - set driver data before use
+5751c781d3c97ab6ce0e2a966156ed882152c415 Input: iforce - validate input packet lengths
+97b228e596740fca5eeeb1d8e619c1f457d7e2f0 thunderbolt: stream: Unmap buffers with mapped size
+d2ee4d47aacbd2ba456092eeec670dba35fde291 thunderbolt: Fix bandwidth group reservation indexing
+d6764992f17b23d91ff93ce905ab53c2aa7191f0 thunderbolt: Bound the DROM dual link port number before indexing sw->ports
+e48844ece5e3ed1d1eb865f6da2b16f62cd9f86d thunderbolt: icm: Preserve USB4 proxy data-valid bit
+1c3e23e78862493e8cf1adad02b10ffcb8b9921c staging: rtl8723bs: fix OOB read in rtw_get_wpa_ie()
+ae21407350151bddfd4fea7aa39bd0643c0ca9d3 staging: rtl8723bs: fix OOB read in WMM_param_handler()
+2c56ef658ac8c6bca36bc5574715e8f717207c6c staging: rtl8723bs: fix missing shared-key auth challenge length check
+6829665d050983907b560173e49dcc6c11cb2730 staging: rtl8723bs: validate monitor transmit frame lengths
+9cbc63400f7dc000adf898bbbc8208dfd93091d7 thunderbolt: Initialize ->domain_released completion before it is being used
+246ac114f485c2affb454240f3ea4fabfce22456 serial: sc16is7xx: enable THRI before filling TX FIFO
+e2fe6a0efecbef00e3ecc2db64dd5afa8c212b41 serial: 8250_dma: Clear stale RX state on shutdown
+e3c04834ae1ab5e9cfbe8ac54ec734aa4774249d serial: qcom-geni: fix TX DMA buffer flush
+ab99eaafb0c4b412cfeb895a8cf091626e2bbd86 misc: fastrpc: Fix initial memory allocation for Audio PD memory pool
+6102ceb4eab845743ee57acd3863fbd06e93c927 misc: fastrpc: Remove buffer from list prior to unmap operation
+b85a0e91d7d6cd06a53c881a46f749cfcef416a2 misc: fastrpc: take fl->lock when moving mmaps on interrupted invoke
+310f7868399668c6d99d88acc9c4cf3462e69d5b misc: fastrpc: fix channel ctx ref leak when session alloc fails
+2fae94ee14f7fea11d3f95e10383a87c01d21518 misc: fastrpc: fix memory leak in fastrpc_channel_ctx_free
+ff10b6db0ab75b132aed69ab144ac04f63ef9bdb nvmem: apple-spmi-nvmem: wrap regmap calls to satisfy CFI
+b5be879519291f139fa7b365fd0dbc84710e4919 nvmem: layouts: Add fixed-layout driver
+dd7aea9ee2091cfae3a5e376af87aa106d7735cd rust_binder: do not query current thread for all ioctls
+b0495bb58af06a7de4628c72d500e3d5e180d808 mei: pull kvfree out of spinlock
+f1a3a9946aab611dd2200c01ff122f64b033dad2 counter: microchip-tcb-capture: Fix DT channel validation
+3a046db33bb9f28b43a951a7a090db771dc0f8b3 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+410c44b1096789d0c40fbee706520e981dba7bc1 Input: atkbd - skip deactivate for HONOR ZQC-P
+296736076b3fd078742651c719555a488624023a Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+4c77b45fa23015d41d7401f684bc22ca585b41fe fixp-arith: convert comments to kernel-doc format
+134044e9fa33b599dd57d15c818cba1f3618cab3 Merge tag 'thunderbolt-for-v7.2-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+1423415471274abda87024967d7fe2206ceee0ea serial: 8250_of: clear stuck empty-FIFO RX-timeout on LPC32xx
+e25d47a526939ad44b75f778b8a7500562b84fc1 vt: stabilize tty reference in kbd_keycode with tty_port_tty_get
+a7ad0034453ba4c353f9b8f810ee2569de33d283 vt: add permission check for KDSKBMETA ioctl
+dcb2f7576ce460eb4f6b9048b7c266c8da5848a8 serial: amba-pl011: fix indefinite RS485 post-send delay
+36672c8d7d14e9c43287528455d2c97b526ea6ad serial: amba-pl011: cancel RS485 hrtimers after freeing IRQ
+440915499231e9db1c361aa45bb702e8fd3b4a32 serial: amba-pl011: synchronize DMA teardown
+50b303f3d0f7de543ee90d50879970783d06da33 usb: cdnsp: fix incorrect endian conversions for APB timeout register
+6b1c8a9403a26cb0fed7a648916c74dc236da591 usb: gadget: f_ncm: Use unsigned int for ndp_index
+7e22c9f79b200672f3e477421b6c9050d8cf70a5 usb: misc: usbio: check ibuf_len against rxbuf_len in bulk msg
+c2f811314be351d86b6ab41e9297ae80d8da6f86 usb: atm: cxacru: properly kill rcv_urb on error in cxacru_cm()
+152f174a13618bec1f842d2deb69245cb2ace51f usb: core: Add quirk for 255-bytes initial config read
+37a6e2f9c30245d06de4d5755a9d8cc1de3923f6 usb: hub: Split announce_device() to log device identity before enumeration
+f3988e68fc089f6a5883f4f807955a3825bb7d45 usb: quirks: Add ShanWan gamepad to quirk list
+90f305f2c7a30257c683e13f4bf7c798eea992a0 Input: evdev - fix information leak in evdev_pass_values()
+27f380ef0e1d3de3cde114e02d33f9320ce3a5a6 Input: hynitron_cstxxx - validate touch count and finger IDs
+3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9 usb: xhci: use BIT_ULL for CRCR bits to fix incorrect 64bit mask
+bea79063a35121e49a86801671cca56fc4d83f7d docs: threat-model: clarify "security bug" vs "vulnerability"
+11f46e30e6885734be609e337e65a4784bdd282d docs: threat-model: move fake devices out of "non production use"
+e447f7f33fa0a50d42d0539c161a662e67bd1a2c docs: security-bugs: clarify what counts as a valid version
+3d7c44f73765d98665fb97a4fb89c002c88ba1b9 docs: coding-assistant: explain important steps when looking for bugs
+6ffecfe0805e8811e7637e8f381b6740a3e9767b docs: security-bugs: clarify some mandatory steps for AI reports
+6058f0fea10f3caf63a435677358d1b8e9325114 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+dc76c3c8e8ad09362b8c1561f3928288c15cba2e Input: synaptics-rmi4 - zero report size on F54 work error
+49c5adc2b7d6e43c5cf033e1c86fdb9c16ababb1 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+fbfd76746adc16d64be29ff113f673b70bc3f5c2 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+8786d74bf50e6797b6f655eb381ef6b25451161f Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+3abd29c61d2ef37c4102cf755b18be53bb9dbea6 Input: evdev - sanitize event type index when fetching event masks
+2c30f9745625a0dd4dda28d9f088d486374827c4 Merge tag 'counter-fixes-for-7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
+4f5f23846d6713c05481c8cfc710bb23817bf5e9 rust: io: gate ioremap/iounmap on CONFIG_HAS_IOMEM
+f88db65aece9f9d26287b6377b7c7730ecf9f11a rust: io: gate ioremap doctests on CONFIG_HAS_IOMEM
+5b17f3f34391372faf03e79d947e0c50ab6dd258 powerpc/pseries: papr-phy-attest - validate cmd.length, plug mem leak
+649c10bff5cb7a514bf299094833ec8c9190aac3 powerpc/pseries: pci - logic bug
+fb442a6673ff1046bf67754957d95880fdb394b5 powerpc/pseries: lparcfg - fix kbuf[] underflow
+d15d51fb26e830af58f3f21964f1c09c239077ea fbdev: bound mode sysfs output to the sysfs buffer
+95e647d2a5304a8fd11f1ba3c8502de700650131 fbdev: clear fb_info->mode before deleting a videomode
+061db6b7a910b8378f3b2df64f8c0a3ddc6e85f2 fbdev: serialize mode sysfs access with lock_fb_info()
+81cc73be40c6f028f1ee3f438ace46afe666dbae fbdev: core: Fix pointer desynchronization in fb_io_read()
+ef7656e85f1a4400999625cd398b655517368e7e fbdev: Fix out-of-bounds access when rotating console after font resize
+e033cbf3975a8465f879ebd5989dc35b04423a4d fbdev: bitblit: bound-check glyph index in bit_cursor()
+afe80aebd320848964682ad5a1ffee678ce9af99 Merge tag 'powerpc-7.2-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+7d8c681eef3e410eb6a846ef1ef777f5781b4878 Merge tag 'input-for-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+361efac9e90e03d97e46743c49558466dd5b4bb6 Merge tag 'driver-core-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+a7c7074b58d28c4206d666a12aa2e33447b3c581 Merge tag 'fbdev-for-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+5668ba23042e54757a19bffbb9e325a206a2227e Merge tag 'char-misc-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+e663f6deac9d113d158eb0ba7433659fe4d95ade Merge tag 'staging-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+e4836b67bad62f10e142f8dd71e67473778de518 Merge tag 'tty-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+91a73db6970aa7cd3d2ea73a4a11eeb3519737db Merge tag 'usb-7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+d4eee3bdb8af1010a0c1edf571c00a7f41c5abe3 Merge tag 'locking-urgent-2026-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+06cf61899d6498b33e4b7c87d99d5bd471ccc375 Merge tag 'x86-urgent-2026-08-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+
+--===============4634137015954646088==--
