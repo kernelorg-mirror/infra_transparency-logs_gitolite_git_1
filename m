@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 10 Aug 2026 14:56:01 -0000
-Message-Id: <178637376166.2823865.4431455172016304519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 10 Aug 2026 14:56:03 -0000
+Message-Id: <178637376385.2824019.7369401191395168438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/cache-for-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 8a5d6c13cc7cf7f7f096094c5015c82b2fb36131
-    log: |
-         8a5d6c13cc7cf7f7f096094c5015c82b2fb36131 cache: hisi_soc_hha: use named initializers for acpi_device_id
-         
+  - ref: refs/tags/v7.2-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 2ee859ebf156157609f71060ae472711c8cbc326
