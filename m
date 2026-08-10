@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4726447243206163943=="
+Content-Type: multipart/mixed; boundary="===============5199170908481697761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 10 Aug 2026 00:12:24 -0000
-Message-Id: <178632074424.2148590.8382162125177928038@gitolite.kernel.org>
+Date: Mon, 10 Aug 2026 00:19:17 -0000
+Message-Id: <178632115767.2152892.11669373166247353162@gitolite.kernel.org>
 
---===============4726447243206163943==
+--===============5199170908481697761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 67b1e7245bd60f54f820859b9e400136a7b6d00a
     new: dbaafe9cc56a996931eedfe043eb34418cc9cd9b
     log: revlist-67b1e7245bd6-dbaafe9cc56a.txt
 
---===============4726447243206163943==
+--===============5199170908481697761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
 dbaafe9cc56a996931eedfe043eb34418cc9cd9b Merge tag 'v7.2-rc7' into driver-core-next
 
---===============4726447243206163943==--
+--===============5199170908481697761==--
