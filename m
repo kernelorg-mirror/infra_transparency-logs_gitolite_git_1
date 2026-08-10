@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 10 Aug 2026 14:44:49 -0000
-Message-Id: <178637308961.2812730.13973626768962010549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 10 Aug 2026 14:52:16 -0000
+Message-Id: <178637353699.2819502.9009304924083425875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-7.2
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
-    new: 566fec6a33075a0ea5c441c26571221f17f4ed98
+  - ref: refs/heads/watchdog-next
+    old: 8eaf1db0898df8e896a6c93fc0c7c2aa54ee2732
+    new: 09ab8a290ad0ccee3899ade1a24a93984dc479f0
     log: |
-         566fec6a33075a0ea5c441c26571221f17f4ed98 ASoC: tas2781: fix clang build error for goto bypassing cleanup variable
+         120efd1e29894921141570bdf5723f4658a2b217 watchdog: qcom: Propagate errors from optional IRQ lookup
+         09ab8a290ad0ccee3899ade1a24a93984dc479f0 watchdog: orion_wdt: Propagate errors from optional IRQ lookup
          
