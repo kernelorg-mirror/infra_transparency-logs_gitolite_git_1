@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3071273858448107341=="
+Content-Type: multipart/mixed; boundary="===============2018648448308566952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 10 Aug 2026 04:26:47 -0000
-Message-Id: <178633600718.2333709.7125033984669627209@gitolite.kernel.org>
+Date: Mon, 10 Aug 2026 04:28:20 -0000
+Message-Id: <178633610025.2334447.6138284873694009910@gitolite.kernel.org>
 
---===============3071273858448107341==
+--===============2018648448308566952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
-    old: 32ffba0f7023b6a852045fa006e30d6bc8dc3bd2
-    new: c5959723aaae06aa617253528e6b228b3c858215
-    log: revlist-32ffba0f7023-c5959723aaae.txt
+  - ref: refs/heads/loongarch-next
+    old: 75259d08b70e6b62efb0c1e9cba27cdd55745da0
+    new: 0dd3757e7009381448176407868a4fa05e4a1e4b
+    log: revlist-75259d08b70e-0dd3757e7009.txt
 
---===============3071273858448107341==
+--===============2018648448308566952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32ffba0f7023-c5959723aaae.txt
+Content-Disposition: attachment; filename=revlist-75259d08b70e-0dd3757e7009.txt
 
 a5518ad7ef7dc1837258d37ba0a11dcb5d7ecaba LoongArch: KVM: Advertise already-supported capabilities
 fe41c0759b11b982f945633b7abb4b49dfaf8ce4 LoongArch: KVM: Reload one-shot TVAL on migration destination
@@ -38,5 +38,6 @@ ab382eae730e231021667e26a520ef2fe58f4b33 LoongArch: KVM: Use internal API to del
 9b61ad973c4bf8f0453116e8f452c5adf91d410b LoongArch: KVM: Replace kvm_err() with kvm_pr_unimpl()
 7513f2298c9248ceb38dd82979e9f90567925ee7 KVM: LoongArch: selftests: Enable LSX/LASX by auto detection
 c5959723aaae06aa617253528e6b228b3c858215 KVM: LoongArch: selftests: Add FPU/LSX/LASX test cases
+0dd3757e7009381448176407868a4fa05e4a1e4b Merge branch 'loongarch-kvm' into loongarch-next
 
---===============3071273858448107341==--
+--===============2018648448308566952==--
