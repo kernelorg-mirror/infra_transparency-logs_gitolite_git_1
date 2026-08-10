@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 10 Aug 2026 12:24:46 -0000
-Message-Id: <178636468675.2703014.2993118207869382241@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8825061199946163042=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 10 Aug 2026 12:27:36 -0000
+Message-Id: <178636485612.2706250.104753311894570924@gitolite.kernel.org>
+
+--===============8825061199946163042==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 8dbc99a1c317b5cd7191688a4bcf13ce19fc3f59
-    new: 3105276cef9dcbc81a9b5302e542eaca723c9493
+  - ref: refs/heads/master
+    old: 23cd054fa4845c76db4f9fd3f3550c46219c33fa
+    new: b951b5b499ec8ef8df85207807a70c48aec6041b
     log: |
-         b5e93a1496a86bb0dee7261cc999ae1df0daded8 KVM: s390: Remove double 64bscao feature check
-         2ac76c04d3095c1b6b5ad0b730b858ac6cc9fbe9 KVM: s390: vsie: Remove duplicate assertion
-         38926a93f7792da96681bf40051c3fe8095435f0 KVM: s390: vsie: Convert shift to phys_to_pfn()
-         7cdbd4c7436d3c744002825f6001bf90c81c2242 KVM: s390: vsie: Assert mcck_info offset in vsie_page
-         6a3fe9ecc255e780e7f93dbaf4bfb94d7222c4b1 KVM: s390: vsie: Assert crycb alignment in vsie_page
-         3105276cef9dcbc81a9b5302e542eaca723c9493 KVM: s390: vsie: Create constant SCB_ALIGNMENT_SHIFT
+         b951b5b499ec8ef8df85207807a70c48aec6041b add first cut of 7.1.8 review from greg
          
+
+--===============8825061199946163042==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786364763 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1786364853-de37cdfdb65f1b04e7b8680031b6bb6e594a89f6
+
+23cd054fa4845c76db4f9fd3f3550c46219c33fa b951b5b499ec8ef8df85207807a70c48aec6041b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp5w1sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sVQQAMNYjIgaQtGoYE01HkN/
+En3cXY7+wqu7+foo3cW1+BeIQZ/TlItfp4mN7cylUYJtGxQlSpzME0KtKhW2ZkTt
+XY7wuTpUeFM8OzZpak08ocmv+EIcSxM9oueVeEqw3bQ6eOIZNlC9OL36Hg+Wb+SI
+ovglb0fvQl12COScdykHlbHdAibPBaIzwC5VXsdJ1tRIEJlVqRQU5dFb/VlbvlL7
+Z4tnKPcuP5vEH7kXmwndeWXqQ02FcMattRxUpcFMWEDuD78epUlUnfTPNotaTtu5
+mJrjaseepeda/ceTETHPGr576j3riIfSJGPl4gGZfUArHv3iyQ2zGa1QJ77b+1EN
+WmBjhrUgWbeb0HrWcsVvK2AikEZR6UqKxe96cUF38rhwkHbGSFzpEy0pEUWSuvbu
+4M+zBhuW8vqwekskYl/oRsBR1cvJ4mKhPqqlWoJY68ufqMU5zIbIaZSv5ODwOevv
+NFsNHfuZBI0L7RRcjKiB9FEXHy8O6giOxctuIbNYrS60QJRnaYQloLF7P5vYJDnc
+DhPcM83ikdmSNOxa0LF6i0TxWRpLYVfj8KqgV+9qj8FVBffgHp5U2lrqIavjKO4l
+z2hkU9lXVcNBSazh//jiJzZ33IfFcrk7sRp73XlTMDkbeKDvbimBOsYCQeMiEf7U
+q1FciL/Q24YeWWNAFp3c//Ec
+=DR9m
+-----END PGP SIGNATURE-----
+
+--===============8825061199946163042==--
