@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 10 Aug 2026 08:54:42 -0000
-Message-Id: <178635208289.2533062.16519565673290181458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 10 Aug 2026 08:57:16 -0000
+Message-Id: <178635223686.2536154.17206562194409989414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/locking/core
-    old: e35e7700029b936356d736d6378cf596019e4cc8
-    new: 3484440a7b194ed80fa4ae2d25fe1a3fcade98f3
+  - ref: refs/heads/stm32-next
+    old: 395890b455d2e1cf698358c73741707bcdb7ac1d
+    new: 87bbe6f23fd791be31693098f7c85ac1dfe7a2c3
     log: |
-         e901c1510e24726dcbd6340ee927b3ac8b992043 irq,spin_lock: Add counted interrupt disabling/enabling
-         07a88e2bcd5b5bd7881b2e12b6aad1897a7ee1de irq: Add KUnit test for refcounted interrupt enable/disable
-         1b086687483371621e684e2a05b2bcd2cf07b634 locking: Switch to _irq_{disable,enable}() variants in cleanup guards
-         ac4231a77973fc20808ed84c4af343eca2342d4b sched: Remove the unused preempt_offset parameter of __cant_sleep()
-         560fcaa92ef983315023eb4ebfc1ebae1132fb2a sched: Avoid signed comparison of preempt_count() in __cant_migrate()
-         3b0e2a22d4086ed7c1294584c4417f7d19f1ac67 preempt: Introduce HAS_SEPARATE_PREEMPT_RESCHED_BITS
-         264bbd32a31ba80e634bec5c1df8514c0e97fe7e arm64: sched/preempt: Enable HAS_SEPARATE_PREEMPT_RESCHED_BITS
-         3484440a7b194ed80fa4ae2d25fe1a3fcade98f3 s390/preempt: Enable HAS_SEPARATE_PREEMPT_RESCHED_BITS
+         759d2d79a5ca4b7146c658f6375d6c4fa2f7e050 ARM: dts: stm32: add sram[123] nodes on stm32mp131
+         0b6dda3c968d4ba7840866e2afbb4fddc30c4141 ARM: dts: stm32: add pins for spi4 and spi5 in stm32mp15-pinctrl
+         0bd09d86484387da514623f89d4dba412f0c3d2a ARM: dts: stm32: Use DMA FIFO mode for all spi in stm32mp151
+         cb72caaf12cbbd968e048a3249c57ef01cbc85fb ARM: dts: stm32: Add disabled spi4 and spi5 in stm32mp15xx-dkx
+         6aa9dda968ed437e0f220126a91f31176262957c ARM: dts: stm32: add sram pool to spi4 for DMA-MDMA chaining on MP15 DK
+         87bbe6f23fd791be31693098f7c85ac1dfe7a2c3 ARM: dts: stm32: add sram pool to spi5 for DMA-MDMA chaining on MP13 DK
          
