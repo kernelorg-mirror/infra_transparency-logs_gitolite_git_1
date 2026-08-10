@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5530121701950945562=="
+Content-Type: multipart/mixed; boundary="===============6154669977993264097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Aug 2026 09:08:48 -0000
-Message-Id: <178635292845.2543979.16440804465675455003@gitolite.kernel.org>
+Date: Mon, 10 Aug 2026 09:08:53 -0000
+Message-Id: <178635293338.2544196.3634964766909254331@gitolite.kernel.org>
 
---===============5530121701950945562==
+--===============6154669977993264097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: ea53a2fed84d2e1181a19aafe8c4b403120b5045
-    new: 94e53cb879b00547c472b6c038a5e127547aef2a
-    log: revlist-ea53a2fed84d-94e53cb879b0.txt
+  - ref: refs/heads/m68k-queue
+    old: b679a027ea480828cb67ac4a3d6a5262729657ee
+    new: f229d67f90016ad719b26401cdfd1bca3abeb624
+    log: revlist-b679a027ea48-f229d67f9001.txt
 
---===============5530121701950945562==
+--===============6154669977993264097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea53a2fed84d-94e53cb879b0.txt
+Content-Disposition: attachment; filename=revlist-b679a027ea48-f229d67f9001.txt
 
 667d0fb32149f023b8b34a1f6f3d384556eafb5a driver core: add missing kernel-doc for union members
 52c7084c8fe57c259e50ff0a7d4f99ccecfc4c7a arm64: dts: qcom: glymur: fix PCIe SMMU interrupts
@@ -526,6 +526,8 @@ bf98d7b0d5a99991e47e66cee4eb1d3fa514be97 ring-buffer: Prevent subbuf order chang
 b643e495ae92e2aa75a54c557a756e02f049781d Merge tag 's390-7.2-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
-94e53cb879b00547c472b6c038a5e127547aef2a Merge tag 'v7.2-rc7'
+9cfc133f013f0026ad9a755ced6a980aa0668b64 m68k: atari: usb: Add ISP1160 USB host controller support
+c838ffeaa232221d3afb3aff435ce81835e269e8 m68k: atari: Update Kconfig.bus help text
+f229d67f90016ad719b26401cdfd1bca3abeb624 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5530121701950945562==--
+--===============6154669977993264097==--
