@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Mon, 10 Aug 2026 12:21:42 -0000
-Message-Id: <178636450291.2701884.10716761431942214836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Mon, 10 Aug 2026 12:24:46 -0000
+Message-Id: <178636468675.2703014.2993118207869382241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: 45f05a9164aa69d9481902d0d7349848177adddd
-    new: 89547f706c867dd3f9cd6220608b880eb4cc74fc
+  - ref: refs/heads/next
+    old: 8dbc99a1c317b5cd7191688a4bcf13ce19fc3f59
+    new: 3105276cef9dcbc81a9b5302e542eaca723c9493
     log: |
-         298d312c0ff3f49061316ba799257277f4bb9bc4 MAINTAINERS: update tree for DMA MAPPING HELPERS
-         89547f706c867dd3f9cd6220608b880eb4cc74fc Merge branch 'dma-mapping-coco' into dma-mapping-for-next
+         b5e93a1496a86bb0dee7261cc999ae1df0daded8 KVM: s390: Remove double 64bscao feature check
+         2ac76c04d3095c1b6b5ad0b730b858ac6cc9fbe9 KVM: s390: vsie: Remove duplicate assertion
+         38926a93f7792da96681bf40051c3fe8095435f0 KVM: s390: vsie: Convert shift to phys_to_pfn()
+         7cdbd4c7436d3c744002825f6001bf90c81c2242 KVM: s390: vsie: Assert mcck_info offset in vsie_page
+         6a3fe9ecc255e780e7f93dbaf4bfb94d7222c4b1 KVM: s390: vsie: Assert crycb alignment in vsie_page
+         3105276cef9dcbc81a9b5302e542eaca723c9493 KVM: s390: vsie: Create constant SCB_ALIGNMENT_SHIFT
          
