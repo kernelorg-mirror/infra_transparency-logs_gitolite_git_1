@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 10 Aug 2026 07:24:17 -0000
-Message-Id: <178634665731.2461198.12254396140781612693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 10 Aug 2026 07:24:22 -0000
+Message-Id: <178634666216.2461453.189415521481099906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: andy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
+  - ref: refs/heads/locking/urgent
+    old: 8e7ff730dd96519a333d1570edf1c3fabb6d3629
+    new: 0f5c25e6e04e8c4732ed59080f3d0c664886c287
+    log: |
+         3c5c7131b8fafef977c7966704b44ff23321ac1e futex/pi: Reject cross-mm private futex owners
+         b4039cd2d2dbdf313c07a83efade0b7c3d2f31b1 futex: Sanitize and document task_struct::futex::state transitions
+         4edfc5517a71083d1753b4b23bf2216f43e48af3 futex/pi: Plug private futex exec() race
+         0f5c25e6e04e8c4732ed59080f3d0c664886c287 futex: Clean up the redundant exit/exec functions
+         
