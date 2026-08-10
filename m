@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 10 Aug 2026 17:42:44 -0000
-Message-Id: <178638376477.2954490.7086473824372388586@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3288466013133914276=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 10 Aug 2026 18:21:28 -0000
+Message-Id: <178638608841.2981651.17878083493248528679@gitolite.kernel.org>
+
+--===============3288466013133914276==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 54f133c6178d06b169dceae18cc92c4945933b8c
-    new: 3b138b01036309b0196379dc080c23641b9d7510
-    log: |
-         785095112f4198de49760552374f364043c8dbdf rv: Fix 32-bit build of nomiss KUnit test
-         7d81675d1bb2cc6db61a2d93b1e0dc7fb0929f9c Documentation/rv: Explain epoll and aborted sleeps
-         c13fcd3951dcc19524ce0b3e852844b16cd32b22 selftests/ftrace: Force C locale in ftracetest
-         d093d4524bb12eda49c3654cb04ad4663c2471f8 tracing/boot: Add support for eprobe, fprobe, and tprobe events
-         29a86c5e6361caffa7e75e891169e813f82ff688 fprobe: Simplify fprobe_remove_ips() by reusing existing helpers
-         9946e31c56fd39a746a2ee86913672fffde38cd1 Merge bootconfig/for-next
-         e15d93d1bbd68c604b7abaa7152b137f1c7b1dfe Merge latency/for-next
-         591adaf8f90047ecc8830ce6f40b041ac657e0ff Merge probes/for-next
-         e55fd1974978ed5bbaf752995331d0da2f730fbf Merge rv/for-next
-         3b138b01036309b0196379dc080c23641b9d7510 Merge trace/for-next
-         
+    old: 43598807f71ac1c9164f26004acf2496d4038daf
+    new: a12d9145145b21c50531afb6e3f711b1f34e1465
+    log: revlist-43598807f71a-a12d9145145b.txt
+
+--===============3288466013133914276==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-43598807f71a-a12d9145145b.txt
+
+09d09e5d79f3174bc082fcea85743a6ce4b69016 RDMA/core: Prevent rereg_mr for dmabuf umems
+d24ce259185e76be64ac9a895057371be548cd39 RDMA/irdma: Remove dmabuf checks in rereg_mr
+a489ab44ab73a6dfab8bf2556f647364ee0e0940 RDMA/mana_ib: unify QP lookup table
+6aad80a1d4e70cf6adac73e12e15abee3100dbe7 RDMA/mana_ib: UC QP support for UAPI
+98df2aee1459ee1c62c70cbe9b370d2a532aea36 RDMA/erdma: Hold CQ references when processing EQ events
+a52eeff32024f190b3bdc99088c7becccd4fa60b RDMA/erdma: Hold QP references for AE and CM processing
+961ac0f0c5e414abdd6b33fae84b311d9fde0bd0 RDMA/srp: fix heap information leak on a truncated SRP_CRED_REQ
+464f5afa92d071a226f88424803b0fcf88093ede IB/isert: delay the final Login Response until the session is registered
+5247dde9daac7e107853b6fea043f7f47be033f7 IB/isert: post the full-feature receive buffers after session registration
+a9394971825933074032794a5feee5211509c774 RDMA/siw: Fix use-after-free in siw_accept()
+1d0f877d593438a494ca5b05cc8699150409005a RDMA/ionic: Cap eq_count to the eth driver's interrupt vector budget
+cf3ebd89e754015625fee90aa938f6bc79a2c974 RDMA/ionic: Embed counter driver data in rdma_counter allocation
+a12d9145145b21c50531afb6e3f711b1f34e1465 RDMA/erdma: restrict the driver to little-endian systems
+
+--===============3288466013133914276==--
