@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 10 Aug 2026 11:30:08 -0000
-Message-Id: <178636140895.2650798.6776287871248974838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 10 Aug 2026 11:32:10 -0000
+Message-Id: <178636153038.2651825.16329123501774826191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/next
-    old: f7c0e02eb61284395f74424edaefbbd323f83c4e
-    new: e8158c8a6a232a70ae70c5acfaf7008a99b716c1
+  - ref: refs/heads/for-linus-7.3
+    old: 5d00a11d484e7b31a358cd81afebccb4602dbe8c
+    new: d58b51bf1d31080bd46d493bfcb78e17af6a9fac
     log: |
-         e8158c8a6a232a70ae70c5acfaf7008a99b716c1 thunderbolt: Use min() for the DMA path credit cap
+         9a86dc7b97c39017956f917b6f39b650cff7f540 x86/xen: Remove redundant config dependency on X86_LOCAL_APIC
+         0d91b71af94734a10f1dcc0ae317923f84ca43ee xen: Drop CONFIG_XEN_PVHVM
+         4d3d4ee612e22f396744b433ad901e986cb60bcf xen: Drop CONFIG_XEN_AUTO_XLATE
+         d58b51bf1d31080bd46d493bfcb78e17af6a9fac x86/xen: Drop CONFIG_XEN_PVHVM_SMP
          
