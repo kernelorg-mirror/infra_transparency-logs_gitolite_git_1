@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 10 Aug 2026 14:16:00 -0000
-Message-Id: <178637136007.2790560.9725131818009255727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Mon, 10 Aug 2026 14:17:35 -0000
+Message-Id: <178637145548.2791194.9642617739774946916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: dbe017731c9a662374528db6f0881e55c87beb3a
-    new: 2adc20f82b95ef09dfb6e34f958c16530ff83cbf
+  - ref: refs/heads/next
+    old: 6b4b1b1938adf622dc83f9ec7f15a174953528c9
+    new: 79e6c01180feaf9f811d292b402baab36e45f3e0
     log: |
-         7c9ef2f59ef64764501bf56db3d8f1d395f210ff man/man3head/memory.h.3head: Add stpncpy(3)
-         a324db4ffa813231f0ed42819704c7cfc8648889 man/man3/strndup[a].3: Rename parameter
-         86aadab29180c5d13b68ddd6e55a5138cefdb2bd man/man3/strndup.3: Don't describe in terms of strdup(3)
-         c16751e0fc6f380ee28f9909b1a353028e738015 man/man3/streq.3: Describe in terms of memeq(3)
-         2adc20f82b95ef09dfb6e34f958c16530ff83cbf man/man3/strcmp.3: CAVEATS: Add section
+         3314c90a2eda3df7da4ab6f4388e667b2758de7f pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
+         4a096d54f99e1bd6faa4fec49838789fd34e7c8d dt-bindings: power: Document Renesas R-Car X5H Module Controller
+         98dc55dc056f26d3d33d7c1abac24c98d35e6c68 pmdomain: Merge branch dt into next
+         79e6c01180feaf9f811d292b402baab36e45f3e0 pmdomain: Merge branch fixes into next
          
+  - ref: refs/tags/v7.2-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 2ee859ebf156157609f71060ae472711c8cbc326
