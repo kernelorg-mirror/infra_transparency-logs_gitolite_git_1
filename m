@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 10 Aug 2026 14:44:16 -0000
-Message-Id: <178637305617.2812349.12039745625805926832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 10 Aug 2026 14:44:49 -0000
+Message-Id: <178637308961.2812730.13973626768962010549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: e7a5d3b04cc6aaabed031c0e08b369dee46e2ded
-    new: 564db8b8da8d5293424406114244c24ef947dd1c
+  - ref: refs/heads/for-7.2
+    old: db2ddb87143519e20a95aa36c60b36107b736a58
+    new: 566fec6a33075a0ea5c441c26571221f17f4ed98
     log: |
-         564db8b8da8d5293424406114244c24ef947dd1c ASoC: dwc: Propagate -EPROBE_DEFER from IRQ lookup
+         566fec6a33075a0ea5c441c26571221f17f4ed98 ASoC: tas2781: fix clang build error for goto bypassing cleanup variable
          
