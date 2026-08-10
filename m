@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1761845259026351292=="
+Content-Type: multipart/mixed; boundary="===============9168671395673298291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 10 Aug 2026 12:39:42 -0000
-Message-Id: <178636558265.2714700.15162447055873336850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 10 Aug 2026 12:46:14 -0000
+Message-Id: <178636597477.2721044.11325893914829911793@gitolite.kernel.org>
 
---===============1761845259026351292==
+--===============9168671395673298291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.2
+  - ref: refs/heads/for-7.2
     old: 33c5aaf693d3fb78f6b8a9658939b72b7638243d
-    new: f7e118fce3878201cb521f67a0df19fdea0bc3a9
-    log: revlist-33c5aaf693d3-f7e118fce387.txt
+    new: db2ddb87143519e20a95aa36c60b36107b736a58
+    log: revlist-33c5aaf693d3-db2ddb871435.txt
 
---===============1761845259026351292==
+--===============9168671395673298291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33c5aaf693d3-f7e118fce387.txt
+Content-Disposition: attachment; filename=revlist-33c5aaf693d3-db2ddb871435.txt
 
 667d0fb32149f023b8b34a1f6f3d384556eafb5a driver core: add missing kernel-doc for union members
 52c7084c8fe57c259e50ff0a7d4f99ccecfc4c7a arm64: dts: qcom: glymur: fix PCIe SMMU interrupts
@@ -509,10 +509,5 @@ bf98d7b0d5a99991e47e66cee4eb1d3fa514be97 ring-buffer: Prevent subbuf order chang
 b643e495ae92e2aa75a54c557a756e02f049781d Merge tag 's390-7.2-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
-566fec6a33075a0ea5c441c26571221f17f4ed98 ASoC: tas2781: fix clang build error for goto bypassing cleanup variable
-fe21db8c5e7c2a9815a9be54a1f5d556f905506e ASoC: amd: yc: Add DMI quirk for HyperX OMEN Gaming Laptop 16-ap1xxx
-8560d458509f798d8518d11cfee5c5cc58170558 ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in NVL match table
-d10549c4bcaad7ef69641c58db15470ec6ec5761 ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for NVL.
-f7e118fce3878201cb521f67a0df19fdea0bc3a9 ASoC: Intel: Add HDMI-In capture match table for NVL
 
---===============1761845259026351292==--
+--===============9168671395673298291==--
