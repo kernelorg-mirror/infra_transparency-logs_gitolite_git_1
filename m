@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7018464085443555151=="
+Content-Type: multipart/mixed; boundary="===============5971580034649215351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 10 Aug 2026 18:45:52 -0000
-Message-Id: <178638755222.3001908.5510457532152500123@gitolite.kernel.org>
+Date: Mon, 10 Aug 2026 18:45:53 -0000
+Message-Id: <178638755387.3001993.6580555270609501680@gitolite.kernel.org>
 
---===============7018464085443555151==
+--===============5971580034649215351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-7.3
-    old: c7d44572a85ae1b897e0bf95357439ee75ddbcc7
-    new: 23fee7d2f1f1c600c190a950a421eee52772236e
-    log: revlist-c7d44572a85a-23fee7d2f1f1.txt
+  - ref: refs/heads/for-next
+    old: 064935ef6be39d086f4c40766d2b76181b70b3e1
+    new: ed2647532a225739e86c7f236a2ce82764ec2772
+    log: revlist-064935ef6be3-ed2647532a22.txt
 
---===============7018464085443555151==
+--===============5971580034649215351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7d44572a85a-23fee7d2f1f1.txt
+Content-Disposition: attachment; filename=revlist-064935ef6be3-ed2647532a22.txt
 
 bfe412a7a3ffc01abe84549f7851c32c81574340 dt-bindings: clock: qcom: Add Hawi GPU clock controllers
 21e33a757766223ceb82648ac41c00c29939aa53 clk: qcom: Add support for Hawi GPUCC
@@ -56,5 +56,6 @@ c4b84911eac4493f7b6639cb9d109a768f1dd4af clk: qcom: Fix camera rivian PLL config
 60eb9e0879cfc66c997e233c8caa40a3447cad11 clk: qcom: dispcc-sm8450: Fix disp_cc_mdss_mdp_clk_src ops
 ace1365aff94bbc00a5bb8c2f87fac2f13f1eb79 clk: qcom: dispcc-sm8450: Migrate to qcom_cc_driver_data
 23fee7d2f1f1c600c190a950a421eee52772236e clk: qcom: alpha-pll: Check Lucid Ole PLL status before configuring
+ed2647532a225739e86c7f236a2ce82764ec2772 Merge branches 'arm32-for-7.3', 'arm64-defconfig-for-7.3', 'arm64-fixes-for-7.2', 'arm64-for-7.3', 'clk-fixes-for-7.2', 'clk-for-7.3' and 'drivers-for-7.3' into for-next
 
---===============7018464085443555151==--
+--===============5971580034649215351==--
