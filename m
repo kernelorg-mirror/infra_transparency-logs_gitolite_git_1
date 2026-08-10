@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 10 Aug 2026 19:34:48 -0000
-Message-Id: <178639048813.3040795.4340355083248413335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 10 Aug 2026 19:35:03 -0000
+Message-Id: <178639050330.3042639.1330023647455206504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/tags/20260810
-    old: 0000000000000000000000000000000000000000
-    new: 8bb35b3bb662d7572810f254c7f8672570409e10
+  - ref: refs/heads/for-7.3
+    old: 75e79a20190040800445ec95a4c4a84193d16992
+    new: 3345c7248a9e2a91cb9e2477c29af16881706f4f
+    log: |
+         3345c7248a9e2a91cb9e2477c29af16881706f4f docs: cgroup-v2: fix stale "io" controller introduction
+         
+  - ref: refs/heads/for-next
+    old: 372abd4b8a9df1f6bb96115af51a75ad71dbd295
+    new: 570f0a20f4cecfc7cc135e63995f40a3ff001240
+    log: |
+         3345c7248a9e2a91cb9e2477c29af16881706f4f docs: cgroup-v2: fix stale "io" controller introduction
+         570f0a20f4cecfc7cc135e63995f40a3ff001240 Merge branch 'for-7.3' into for-next
+         
