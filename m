@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 10 Aug 2026 11:38:27 -0000
-Message-Id: <178636190761.2658113.2061695235921598448@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3802384923597676872=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 10 Aug 2026 11:42:08 -0000
+Message-Id: <178636212885.2663782.18038313551477613194@gitolite.kernel.org>
+
+--===============3802384923597676872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: a9253ee6771c8ab3c6de07ea75d9e2c1cef3cd97
-    new: 44f3468a0aef1aabdad551898ab7cfa2a9d20e99
+  - ref: refs/heads/master
+    old: 3c1573999f1077f73692f1d2ccc11ae0ec198849
+    new: a981c8ea6a81204e4b5af022b4956719a5515424
     log: |
-         44f3468a0aef1aabdad551898ab7cfa2a9d20e99 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
+         a981c8ea6a81204e4b5af022b4956719a5515424 assign a CVE on request
          
-  - ref: refs/heads/gpio/for-next
-    old: 6435d21cbd42fea6c66dfd4cfef7d58b9612497e
-    new: 2f2b1a84fc141575eeabfacbd7c35af0b5dbb0b9
-    log: |
-         67c077553d338e1c79b8792d9e9e858df4bc3cef gpio: allow COMPILE_TEST for IOPORT drivers
-         338c551bcd62ff4f97ff02359baf9d6f7f1f9fda gpio: Use IRQ trigger mask helpers
-         2f2b1a84fc141575eeabfacbd7c35af0b5dbb0b9 dt-bindings: gpio: rockchip,gpio-bank: Add rockchip,grf property
-         
+
+--===============3802384923597676872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786362035 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1786362125-11da24c8480ec0e86efcb8d55a3d3dc3b64b1c8b
+
+3c1573999f1077f73692f1d2ccc11ae0ec198849 a981c8ea6a81204e4b5af022b4956719a5515424 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp5uLMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AvEQAMtiSqpvCOE/TKoWHpFi
+aZaQ8aDsRw6XX0zP/wmfvELmTnPmRRWQWyutMUzOYnSLoyeYo5r6ojh9DOfzIZmf
+DsPDvFSHFINMeARMCXjmo74VBQaumc4zzZeld6hLrpgt2CGp/VFFnxTB+4X13rzM
+lgBJHHkA/YREr8HYn7GfNFK6IcpT3vz2EHNRqQrI5pAcn/164hHQZnRQXhIFTqDY
+X1Rn9jqyUnUUMzcMtAvtDamBi9YP0FXLY3M+Tn3pLHQy/IwN1lnXMsVetip6mgQS
+njlL8PAejLj5qV7F5pwAI+mESnzdciYAlakLry721jGc46oy8tLg86+Ux+qkps5A
+3XbYyCch8modfVNjBDriEJV3VZDGM/JRQ7UYIdex3Ok8Hd3FI5Adxy3xljWHAbbc
+v+eeR9mBo7k1fDlkq0ORiOyGbu5dD0Mkv7/0w/Q0bQYcUaiISEQqLFk3P8EHp1fm
+LDs50PXM6aI4s3+f5ZCjOEtpiIFUTJM7TWSOp5C0jPenlFAuyeKad89Tp8DaW6Iz
+hZSFLKNkHjQIQiNYCi1WQPz0FCzSalP6oD1qXODTN4kvxYCT1IToO8z6odntGHN6
+ABOumMEQ+eEfUIa2Rav1cQaMUz2zBl8DjBAH647LQ2wbnjpVkwmaeWolwZi2HoM5
+mL7eBrRea3o3Pzt0PeJJ2yBY
+=q2uN
+-----END PGP SIGNATURE-----
+
+--===============3802384923597676872==--
