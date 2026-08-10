@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 10 Aug 2026 16:19:46 -0000
-Message-Id: <178637878682.2888892.11991151858972849101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 10 Aug 2026 16:26:25 -0000
+Message-Id: <178637918508.2895873.8853395641003047282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/kvm-arm64/vncr-fixes-7.3
-    old: 4f72b98a4232e36aa1e6fac4e74dbd27b40bbdb8
-    new: a923d139091ba925748f8ce84be206a0fbc9101d
+  - ref: refs/heads/hwmon
+    old: db2ddb87143519e20a95aa36c60b36107b736a58
+    new: 08426a786dabad8f2373834867f5c856fafa87d4
     log: |
-         39d7350359ca9adfc80e859e4d8edd59c4087e09 KVM: arm64: Correctly cap TLBI Range to the architural limit
-         a923d139091ba925748f8ce84be206a0fbc9101d KVM: arm64: nv: Fix life cycle of the nested_mmus array
+         5054037356c2d5b7d64b86eddc7170c4c2c2f934 hwmon: (max6621) fix temperature clamp range
+         08426a786dabad8f2373834867f5c856fafa87d4 hwmon: (max6621) fix negative temperature offset and crit readings
          
