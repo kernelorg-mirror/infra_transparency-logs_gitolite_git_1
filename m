@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 10 Aug 2026 19:35:03 -0000
-Message-Id: <178639050330.3042639.1330023647455206504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 10 Aug 2026 19:44:44 -0000
+Message-Id: <178639108462.3049662.9461875742634458119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.3
-    old: 75e79a20190040800445ec95a4c4a84193d16992
-    new: 3345c7248a9e2a91cb9e2477c29af16881706f4f
+    old: e158e309cd90249a90cc84e6d29e46a3d5551b7b
+    new: 4dc310b41aba43e9d8dfafe46dce86f8b55c0354
     log: |
-         3345c7248a9e2a91cb9e2477c29af16881706f4f docs: cgroup-v2: fix stale "io" controller introduction
+         4dc310b41aba43e9d8dfafe46dce86f8b55c0354 selftests/sched_ext: Check skeleton open failure in exit test
          
   - ref: refs/heads/for-next
-    old: 372abd4b8a9df1f6bb96115af51a75ad71dbd295
-    new: 570f0a20f4cecfc7cc135e63995f40a3ff001240
+    old: d84f4dc5e835e21c82b75837c77e8a25980bb27a
+    new: cbf51f8c385cdaa6ade926c379548dfad23cc792
     log: |
-         3345c7248a9e2a91cb9e2477c29af16881706f4f docs: cgroup-v2: fix stale "io" controller introduction
-         570f0a20f4cecfc7cc135e63995f40a3ff001240 Merge branch 'for-7.3' into for-next
+         4dc310b41aba43e9d8dfafe46dce86f8b55c0354 selftests/sched_ext: Check skeleton open failure in exit test
+         cbf51f8c385cdaa6ade926c379548dfad23cc792 Merge branch 'for-7.3' into for-next
          
