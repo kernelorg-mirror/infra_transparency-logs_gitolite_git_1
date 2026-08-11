@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Tue, 11 Aug 2026 22:09:46 -0000
-Message-Id: <178648618687.95436.18152859516073457957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
+Date: Tue, 11 Aug 2026 22:11:06 -0000
+Message-Id: <178648626646.98265.12164903436589671032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/rw/ubifs
+user: rw
 changes:
-  - ref: refs/heads/for-next
-    old: bcdf1f2eed01c611b7957a38a985a1c97625f814
-    new: c669fd4e3b59d814da282b374c10c2fdc1f44420
+  - ref: refs/heads/next
+    old: d68851fbac230fabaeeae25b19fe60ece173da88
+    new: a5e0055eac837a1168c781653943d4a0d9920af3
     log: |
-         c669fd4e3b59d814da282b374c10c2fdc1f44420 alpha: read $gp and $sp explicitly for clang
+         95d27c1708bb6e8823c8e7c623f9abc2a91bf4bf ubifs: fix out-of-bounds read in signature length check
+         5b0a6b554e12a97f9771a9a9f4ea1f5457373c73 ubi: Fix rollback for explicit UBI device numbers
+         31dd710cd84d5dd63c49f640d3a9f36c9699ca95 mtd: ubi: Release device reference on busy detach
+         ff7937d14f5333ec7e6fb50d00a152d7974f4105 UBI: fix two issues in the ubi.mtd MODULE_PARM_DESC
+         a5e0055eac837a1168c781653943d4a0d9920af3 UBI: support per-device wear-leveling threshold
          
