@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7933452536534150335=="
+Content-Type: multipart/mixed; boundary="===============6457357261537909542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 11 Aug 2026 16:34:30 -0000
-Message-Id: <178646607038.4035683.14765500654664704870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Tue, 11 Aug 2026 16:34:46 -0000
+Message-Id: <178646608655.4035932.6966135003578934752@gitolite.kernel.org>
 
---===============7933452536534150335==
+--===============6457357261537909542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: f5bbbfec59b4e2fb7520a91de3df8a6174325d6a
     log: revlist-db2ddb871435-f5bbbfec59b4.txt
 
---===============7933452536534150335==
+--===============6457357261537909542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ Content-Disposition: attachment; filename=revlist-db2ddb871435-f5bbbfec59b4.txt
 d58772d8520c7ef247c4b95c9bd76d3a25da9ff5 Merge tag 'regmap-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 f5bbbfec59b4e2fb7520a91de3df8a6174325d6a Merge tag 'probes-fixes-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============7933452536534150335==--
+--===============6457357261537909542==--
