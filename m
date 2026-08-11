@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 11 Aug 2026 00:07:57 -0000
-Message-Id: <178640687719.3244092.12091831966807699402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 11 Aug 2026 00:18:06 -0000
+Message-Id: <178640748663.3251327.14289688846440743525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: d36b39aef52e762867963ce3f0beaac1e813b08b
-    new: 144440f804d8e6ef44505c94053f26a1447ed87f
+  - ref: refs/heads/main
+    old: 855631afe0f5a1fac96abdd8a30e3ccda966e15f
+    new: 20232e99e8bfa44a6d77e8c3e0da2358f617e653
     log: |
-         82a5296ae5abb8d671c274f6e3cda47373050663 KEYS: trusted: Fix TPM teardown ordering
-         c558b779b707a441806f6a6e3f6904f9c7b4eb72 tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
-         bd650b6d6c7c4d52f50dae92d9c251fd85d9bfde tpm: Remove redundant dev_err()
-         144440f804d8e6ef44505c94053f26a1447ed87f tpm: atmel: depend on X86
+         4d422c526fcf1c45ad15d83f976ea5a881cb5ce1 s390/ctcm: Add __context_unsafe() attribute to various functions
+         5da9639bdd2003374465cd5f21fe012b6d63fca2 drivers/s390/net: Enable CONTEXT_ANALYSIS
+         ab40240945532e90cd068dd8fd2830df5fd3c96b Merge branch 'drivers-s390-net-enable-context_analysis'
+         20232e99e8bfa44a6d77e8c3e0da2358f617e653 net: sfp: fix hwmon_name memory leak on hwmon registration failure
          
