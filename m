@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1929619854521787419=="
+Content-Type: multipart/mixed; boundary="===============8647502803184163162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 11 Aug 2026 08:19:33 -0000
-Message-Id: <178643637300.3664489.687565544743216324@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 08:19:52 -0000
+Message-Id: <178643639209.3664814.15884825484754695317@gitolite.kernel.org>
 
---===============1929619854521787419==
+--===============8647502803184163162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 82a5296ae5abb8d671c274f6e3cda47373050663
-    new: d239c5a8828cbf615a968e449efed9634d6b1f0a
-    log: revlist-82a5296ae5ab-d239c5a8828c.txt
+  - ref: refs/heads/for-next-tpm
+    old: 144440f804d8e6ef44505c94053f26a1447ed87f
+    new: 9ab874896167123cb4b035bf457a96dc752ff15e
+    log: revlist-144440f804d8-9ab874896167.txt
 
---===============1929619854521787419==
+--===============8647502803184163162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82a5296ae5ab-d239c5a8828c.txt
+Content-Disposition: attachment; filename=revlist-144440f804d8-9ab874896167.txt
 
-9f00f9cf2be293efe899db67dc5272e3a9c62717 libceph: bound pg_{temp,upmap,upmap_items} length to CEPH_PG_MAX_SIZE
-a6c4250b81bd30beae94e1b7a4b26fa1193ad2e4 rbd: Reset positive result codes to zero in object map update path
-50958bb928bad3bdba9e5d1b7ff4bbadcf6951e6 ceph: fix hanging __ceph_get_caps() with stale mds_wanted
 cee38bbf5556a8e0a232ccae41649580827d7806 ceph: add owner/capability checks for CEPH_IOC_SET_LAYOUT*
 5b602344a49e039e792ce5a8923bcc61412ee134 ceph: avoid fs reclaim while using current->journal_info
 af421e9aed3920c7ac88c24daa48606c7112feca um: vector: fix use-after-free in vector_mmsg_rx()
@@ -1050,5 +1047,8 @@ db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
 5eabf07a0bf317723da229376b4e910f12b4644b Merge tag 'v7.2-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 d58772d8520c7ef247c4b95c9bd76d3a25da9ff5 Merge tag 'regmap-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 d239c5a8828cbf615a968e449efed9634d6b1f0a KEYS: trusted: Fix TPM teardown ordering
+67c9068fd3ca9d889b68d40a9b1681d8c5d5f3d9 tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
+8fafb05b6dc1d4df06d93f172bf40f7ad3f76c37 tpm: Remove redundant dev_err()
+9ab874896167123cb4b035bf457a96dc752ff15e tpm: atmel: depend on X86
 
---===============1929619854521787419==--
+--===============8647502803184163162==--
