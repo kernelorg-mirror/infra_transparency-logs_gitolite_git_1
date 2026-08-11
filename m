@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1844891369723013025=="
+Content-Type: multipart/mixed; boundary="===============0367612069425151495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 11 Aug 2026 02:25:40 -0000
-Message-Id: <178641514060.3353595.8542123779505228807@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 02:25:48 -0000
+Message-Id: <178641514800.3353824.14425668339484975487@gitolite.kernel.org>
 
---===============1844891369723013025==
+--===============0367612069425151495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2c30f9745625a0dd4dda28d9f088d486374827c4
+  - ref: refs/heads/main
+    old: f5098b6bae761e346ebcd9da7f95622c04733cff
     new: db2ddb87143519e20a95aa36c60b36107b736a58
-    log: revlist-2c30f9745625-db2ddb871435.txt
+    log: revlist-f5098b6bae76-db2ddb871435.txt
 
---===============1844891369723013025==
+--===============0367612069425151495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786415049 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786415057 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1786415138-dfc820a82432b98b5e5003420e9e8e19012c1420
+nonce 1786415146-40fb11f508c80b29a15cf7985b25a068ed7aa26f
 
-2c30f9745625a0dd4dda28d9f088d486374827c4 db2ddb87143519e20a95aa36c60b36107b736a58 refs/heads/char-misc-linus
+f5098b6bae761e346ebcd9da7f95622c04733cff db2ddb87143519e20a95aa36c60b36107b736a58 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp6h8kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NFIQAJjjzJR8Q6bLd0w9QYfC
-JcqQ+EbAqFXn2JmYCz/MZUE4Wtwl4LYNWeephOPplO3xfV7CydP82C3DtjLhLuNQ
-rt2Sd7vAR5w5bKvgeO5XAKqGfwpHNBTfkW1yoq6xpPiT/EtbHYWlQ7YQTOSv8/kq
-nLN1pkS/85k7dmH45IIuRwTlVQQvQ1jnDq8e3mE1sqFss8yD7xCKV/kbn+QbP+bg
-1Zl7dsLe4Qj22BfCR+VHR4uQVmhE8RZ3tE3Xc2u5/7ysCznjoAz5nPICIRBG7kF2
-vDx70/wwD4e6OZkkIbmy5rJQtwRMBzs90wE3lOG989+/L8XximXyO5qeSnpeBQbv
-Kv+yia6k5DGRi7MqZmjmwKGz9g8e6AzuXoLPUOjtPDX+FEY5ktaPuIHXTd7qIg8H
-yoPXAuCSwhciLZ6zlg1Te6XO8QonHPPJpNgLBCv/7XrLn9mNq8S7qRcp2UlV6NyF
-Lmn13wr+70qap5bGhaV9GkABl1Pr1P6DU+KTaiG4cnKlmrp3B1ArY6ZOt8B96S3J
-I7nwNSyaDoZmACR/KeRVjlkDRksVY3k3TA+YnfI+KLaEqsd/K3mnYFkhgi3zuEKd
-aRNkpn+L8lphnH2SzACQW0F0CevVXAkatDWax5Rqh9UQcM1MQcUf+72jVG1Gx+pK
-uwSghhZXYlKMu6aRN9BAU/9d
-=Ptzk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp6h9EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pD0QAKSbu7RFcbWx/JQQ6OuW
+ZdB356P53oVDdHyW/Va/CFSr2082XkTC8jg57PGjHgTiR79nyZ7aS6uLm8jmGQE+
+EcvNRq/AvfUqCYfkr/H6aUgMl+o/m6vCaOLuv3wj5okAiW952uO6bsAxdgEZ1+TC
+dPJNsTGlkcL7EN6FXWKoz/p0bmNFkGIyxJfVAwf6/yyTYogcn6xjOWzEiekut++W
+QEOztMNy5i0Vqhj2nS1BI/8KfMmZNMUOfDzu/AesxZxUiJASpk2ye0jix29tC2TG
+nYYBuM3zzPLcvG8RlwTACDYiLCs0W/AlTiMJUNZAJas0Gk/DhTtazgEgkCD6DaVe
+0gAUgB0SQB6MLNi7EBiUp4YnyIz0bA5xddF7fzE7xt8iZFFLsiS9fMlZ1R8dvStx
+KMXGAglM4LJOQf770EsCSg0zQdDQMTukouWto6/eK3S/bGE2l63BBDsMuV3STaL6
+eH8OdV2dT97Wn0u5/MlZDLkXf1qCaTYNTTbkkROUm1DTt8BBC5YoPnn4DMElTILn
+WUhVJY3xW1Ayi1cR5jSHFcm4xmGhUKjbSTOnQL/mHt2gJBd/dToCtNW1oHDWPxuM
+zxNgCy+fP0492lR4u9JHrWAyBOvS1BUXeOO7E32+dP436C1Nv9/2M1IPwax/oOGD
+gldkKbX47d02WRvIWqYqnJow
+=Nsi2
 -----END PGP SIGNATURE-----
 
---===============1844891369723013025==
+--===============0367612069425151495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c30f9745625-db2ddb871435.txt
+Content-Disposition: attachment; filename=revlist-f5098b6bae76-db2ddb871435.txt
 
-1ebe51c29fa9755d5b2fea28727c051117907cf8 btrfs: zoned: fix deadlock between metadata writeback and transaction commit
-5fabb1cf25d723274009d7b759545fd59f230c9d btrfs: zoned: reset meta_write_pointer on zone reset
-51a0e8399858621442807a26057bcd1cd3ced046 btrfs: skip global block reserve accounting for rescue mounts
-c438d34ec1eed4d23e2081d61c5e96f5176898a9 btrfs: report missing raid stripe tree root during lookup
-330dcc553f282e8dc0b88c9495b4c296465364e1 btrfs: raid56: fix an incorrect csum skip during scrub
-8bc4d7209611e8aa9d5409b6a4a86a9eb91b69a3 btrfs: zoned: fix missing chunk metadata reservation
-0d214d14be503f16238999723acfcbf63f04cc8b btrfs: initialize 'args' to avoid compiler warning in btrfs_ioctl_get_csums()
-ab602da96a915d42dcb1b0b322e8daea0f71b51f btrfs: zoned: skip fully truncated ordered extents at zone finish
-c4c0673e4cb15b0c127e6d00732a2427bdd12c11 btrfs: raid56: fix scrub read assembly submitting no reads
-8bed376124ab4505b70083a2b91f2c7ef6d51e24 ntfs: harden runlist realloc size calculations
-4e646ecd44759e552b0b9ccd995f3f608daab414 ntfs: drop stale page-cache when shrinking a non-resident attr
-8a570b19b4b16a8a3b5ffa2b332bd5613110b2d8 KVM: arm64: vgic: Avoid double-deactivate of IRQs in the nested context
-5aab4d46278df6e9e94bd0a92df9a135a5fe16ad KVM: arm64: Update Fuad Tabba's email address
-fafb66e5903c2bcfc7b7e259042a8282f18a6faa rtla/timerlat_top: Fix on-threshold actions firing on signal
-f7074624bafc44b236ddc7159d962075c3747f2b ASoC: amd: yc: Add MSI Crosshair A16 HX D7WFKG to quirk table
-75952cfc7752c52a2b692b59d34ce160d3edabb2 arm64: dts: broadcom: bcm2712: Remove non-functional EL2 virtual timer
 97ab5aa5177cfa8759bd3861d71e047ea084a829 MAINTAINERS: update Hongbo Li's email address
 e4779e2a16d600892aaf743438f6ce8cc4eb3c4c phy: zynqmp: fix clock error handling in xpsgtr_phy_init()
 f3506e15cf72e94f62d5f2d173e5b7008f644cde phy: zynqmp: fix runtime PM leak on probe allocation failure
@@ -653,7 +637,16 @@ efbac20ac44894d1238b37a3e1dadb0f3f73a8fe Merge tag 'drm-xe-fixes-2026-07-30' of 
 cbad2668c26b830ce67307530a959f0f6764d585 Merge tag 'amd-drm-fixes-7.2-2026-07-30' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 256325820a46b2d69e04b4911f0d95c0bd50fb32 Merge tag 'drm-intel-fixes-2026-07-30' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 cc679d7a6303e84d769f2afcde1fc51c51f127cd uprobes: Fix NULL pointer dereference in hprobe_expire()
+ab99eaafb0c4b412cfeb895a8cf091626e2bbd86 misc: fastrpc: Fix initial memory allocation for Audio PD memory pool
+6102ceb4eab845743ee57acd3863fbd06e93c927 misc: fastrpc: Remove buffer from list prior to unmap operation
+b85a0e91d7d6cd06a53c881a46f749cfcef416a2 misc: fastrpc: take fl->lock when moving mmaps on interrupted invoke
+310f7868399668c6d99d88acc9c4cf3462e69d5b misc: fastrpc: fix channel ctx ref leak when session alloc fails
+2fae94ee14f7fea11d3f95e10383a87c01d21518 misc: fastrpc: fix memory leak in fastrpc_channel_ctx_free
+ff10b6db0ab75b132aed69ab144ac04f63ef9bdb nvmem: apple-spmi-nvmem: wrap regmap calls to satisfy CFI
+b5be879519291f139fa7b365fd0dbc84710e4919 nvmem: layouts: Add fixed-layout driver
+dd7aea9ee2091cfae3a5e376af87aa106d7735cd rust_binder: do not query current thread for all ioctls
 c679ce3be6cb63763d68ab9b5d9d73ddc0a40762 iomap: add a separate bio_set for iomap_split_ioend
+b0495bb58af06a7de4628c72d500e3d5e180d808 mei: pull kvfree out of spinlock
 b7ab86bdc65eadcfc43a0e3faf682a3f750cfb96 s390/pci: Fix s390_pci_mmio_write syscall error return without MIO
 06afe425d5283b9764303de47f554da5a808ce8a s390/zcrypt: Validate length for CCA AES cipher key requests
 a9ae0f6dd45c3ccc1d69363f7aea8af179122730 s390/zcrypt: Validate length for CCA ECC private key requests
@@ -734,6 +727,7 @@ af39eb111ce6b5eba9c08513b62c4868eb7e7fd5 net/mlx5: fw_tracer, return NULL on cre
 a76624733730e541e4955fdecf506af2f6b20558 bpf, sockmap: Fix sk_redir use-after-free in send verdict
 fdeba03fea78407a8c52faa99177c9f7f29f90eb bpf: Fix netns reference imbalance in conntrack kfuncs
 6d4514ca9cdf61fec4ec634cf50386f6f7e69748 futex: Prevent robust futex exit race some more
+f1a3a9946aab611dd2200c01ff122f64b033dad2 counter: microchip-tcb-capture: Fix DT channel validation
 40814468ee62a9156f18afba3c958d45e102f89a Merge tag 'phy-fixes-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 49c9f4657b2d584690b050169b646cbcee6e7958 Merge tag 'dmaengine-fix-7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a84c804215062d17c14141988ff3c69af961b49d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -864,6 +858,11 @@ de845981da67a6b049080c87e605130b0c30adc5 vhost: reset the vring metadata cache o
 cf6f8b29befb92173659bcef6a441d274947bfae net/openvswitch: check Ethernet header length in key_extract()
 05eebef3c7b2e8595fdd1bd46912aac9c1de8587 MAINTAINERS: add SpacemiT K1/K3 I2S entry
 617bbd08714857c1613d7c550d43a9092ec0fb97 drm/shmem_helper: Check VMA boundaries for PMD mappings
+bea79063a35121e49a86801671cca56fc4d83f7d docs: threat-model: clarify "security bug" vs "vulnerability"
+11f46e30e6885734be609e337e65a4784bdd282d docs: threat-model: move fake devices out of "non production use"
+e447f7f33fa0a50d42d0539c161a662e67bd1a2c docs: security-bugs: clarify what counts as a valid version
+3d7c44f73765d98665fb97a4fb89c002c88ba1b9 docs: coding-assistant: explain important steps when looking for bugs
+6ffecfe0805e8811e7637e8f381b6740a3e9767b docs: security-bugs: clarify some mandatory steps for AI reports
 a347304b2ca1a5377d5bd2d8a72e4b4f12afe648 net/sched: cls_api: Always acquire rtnl_lock when destroying locked classifiers
 9c1cc4a7f79275ef93746f6247685763b475bfb0 selinux: check level category sets once at load time
 620f1e52a46f604635efd0fb78138afd6a513b5d ALSA: FCP: fix OOB write in fcp_meter_ctl_get()
@@ -953,6 +952,7 @@ c27e360545373b7aee9862a5beef3b9fb3df0c25 dibs: initialise dibs->lock in dibs_dev
 44871eadd07a7f004aa00cb87399461eea08c630 MAINTAINERS: add myself as a maintainer for Hisilicon Network Subsystem
 3abd29c61d2ef37c4102cf755b18be53bb9dbea6 Input: evdev - sanitize event type index when fetching event masks
 e0d2b5902c5c0d3943af95728753aae165ed1346 drm/panthor: Check VMA boundaries for PMD mappings
+2c30f9745625a0dd4dda28d9f088d486374827c4 Merge tag 'counter-fixes-for-7.2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 b8a39a09ae4eaae04309e1e38ed6a1101d967496 net: remove WARN_ON_ONCE() from sk_mc_loop()
 185a4caeecabc150106deda1da170b09f2ad803f net/smc: fix TOCTOU race between smc_listen_out() and listener close
 d03cdb1c3694a0c2334ea7f864660ad8e8672eb9 Merge tag 'asoc-fix-v7.2-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -1082,4 +1082,4 @@ b643e495ae92e2aa75a54c557a756e02f049781d Merge tag 's390-7.2-7' of git://git.ker
 b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
 
---===============1844891369723013025==--
+--===============0367612069425151495==--
