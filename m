@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 11 Aug 2026 21:56:10 -0000
-Message-Id: <178648537040.86184.17509460793901614384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 11 Aug 2026 21:57:43 -0000
+Message-Id: <178648546356.86881.7969773660836178846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ez
 changes:
-  - ref: refs/heads/for-next
-    old: 2bbb0e03344b67f4b7dd022647e3976211d2d02b
-    new: f963a45a11520a7113d16f467953cf786f51c53f
+  - ref: refs/heads/master
+    old: d114bb98936770c501c958bf2bc5fb6b7c0bad7b
+    new: 07cb86aa50816b070b99c89bf948762ef035a1f2
     log: |
-         f423482666be05c5f74f2a75caee04aa493d524c dt-bindings: interrupt-controller: Add StarFive JHB100 plic
-         b71ace1a003e57886ee65c21cab052d404c5b049 of: reserved_mem: Introduce devres-managed initialization function
-         9d56904975097c5b040e09363aa0f9993c228e4b dt-bindings: power: Convert TI SmartReflex to DT schema
-         f963a45a11520a7113d16f467953cf786f51c53f dt-bindings: arm: omap: Convert L4 interconnect to DT schema
+         83608e303b95d07afba1c15da0b5d9e513c2f15a bpf: Compare iterator types during state pruning
+         81f209d5f7435646df047400a88bc81e0a16b9eb selftests/bpf: Test RCU iterator state pruning
+         07cb86aa50816b070b99c89bf948762ef035a1f2 Merge branch 'bpf-compare-iterator-types-during-state-pruning'
          
