@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 11 Aug 2026 08:46:19 -0000
-Message-Id: <178643797915.3687732.15997768200319372010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 11 Aug 2026 08:47:39 -0000
+Message-Id: <178643805916.3688342.14768804763968778938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: d67e5dbda22604d0fcde32fce58c65f88676e676
-    new: 5d3ae80ecddeb82b492a2cf31ac3e44412b426f4
+  - ref: refs/heads/objtool/core
+    old: 6e5716b187faf50e5d33f0986ea25827cbdaa294
+    new: 6e70aef598a2779389be297afda9f61b3d19759f
     log: |
-         5d3ae80ecddeb82b492a2cf31ac3e44412b426f4 sctp: auth: propagate HMAC calculation errors to callers
+         6e70aef598a2779389be297afda9f61b3d19759f objtool/headers: Sync tools/include/linux/objtool_types.h with include/linux/objtool_types.h
          
