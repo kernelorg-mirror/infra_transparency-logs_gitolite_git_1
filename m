@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Tue, 11 Aug 2026 09:57:18 -0000
-Message-Id: <178644223813.3741179.13444888217088363154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Tue, 11 Aug 2026 10:22:46 -0000
+Message-Id: <178644376644.3758660.9953891732178610555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/sysctls-v3
-    old: 0000000000000000000000000000000000000000
-    new: b5c5a5b075f61f062cb2d253d35c118b8eecc40b
+  - ref: refs/heads/fixes
+    old: 3314c90a2eda3df7da4ab6f4388e667b2758de7f
+    new: b48a0a0a76ccecec60f0568e2af4d89994b08bec
+    log: |
+         b48a0a0a76ccecec60f0568e2af4d89994b08bec pmdomain: qcom: rpmhpd: Add missing MXC and MMCX power domains for Eliza
+         
