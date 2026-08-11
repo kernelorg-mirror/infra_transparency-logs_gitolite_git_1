@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Aug 2026 14:27:32 -0000
-Message-Id: <178645845266.3937872.11233774203790807124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 11 Aug 2026 14:43:19 -0000
+Message-Id: <178645939929.3948914.17308901852384974433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.3
-    old: 39114474232476503f95bd21837a8b8b63d26810
-    new: c10b7f5e0cb1deeba89af670d7fe19cf2454aa2b
+  - ref: refs/heads/for-7.3
+    old: 564db8b8da8d5293424406114244c24ef947dd1c
+    new: ce76c44c34ad1d4e0b1671ba376db814afbb3e83
     log: |
-         f092e1c935015ee0a0fea1a0374f4cab7b71953c spi: sprd-adi: Fix probe succeeding without registering the controller
-         c10b7f5e0cb1deeba89af670d7fe19cf2454aa2b spi: meson-spifc: use devm_pm_runtime_set_active_enabled
+         6f14f6a24f110f665023211bbfb6abc2ce12c948 ASoC: tas2781: Fix compiling warning for tasdevice_set_capture_profile_id()
+         ce76c44c34ad1d4e0b1671ba376db814afbb3e83 ASoC: Intel: KMB: Propagate -EPROBE_DEFER from IRQ lookup
          
