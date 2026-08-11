@@ -1,23 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 11 Aug 2026 16:27:11 -0000
-Message-Id: <178646563106.4030802.3137601669252064698@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7933452536534150335=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 11 Aug 2026 16:34:30 -0000
+Message-Id: <178646607038.4035683.14765500654664704870@gitolite.kernel.org>
+
+--===============7933452536534150335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/dev-test
-    old: 314c9e476ffcc77289c25d354c611aa6d1209784
-    new: 1ccc6814828aca8954fc88d67be8405730813085
-    log: |
-         9394869d621a0c8127b4f7aeede09440ba5783ae f2fs: fix to off-by-one issue in f2fs_zero_post_eof_page()
-         f04d59e39031ae45bb3d59e6cce0116fff8a1fec f2fs: fix to zero post-EOF data when extending file size
-         f600441b79f248ea6e43ff5a94525b2264ef9603 f2fs: return symlink writeback errors
-         331dbec659bfd2c543f493c0f0bf424643d94478 f2fs: unify add/remove ino entry API for all ino types
-         1ccc6814828aca8954fc88d67be8405730813085 f2fs: reduce memory footprint of ino management
-         
+  - ref: refs/heads/linus
+    old: db2ddb87143519e20a95aa36c60b36107b736a58
+    new: f5bbbfec59b4e2fb7520a91de3df8a6174325d6a
+    log: revlist-db2ddb871435-f5bbbfec59b4.txt
+
+--===============7933452536534150335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-db2ddb871435-f5bbbfec59b4.txt
+
+438f4896f78f69ec73d5f32d2c024193f1223569 crypto: ccm - Set rfc4309 maxauthsize from child
+360f2974fcea49c61f6d6f81554741a9eeee7168 crypto: tegra - fix rctx->cryptlen calculation in tegra_gcm_do_one_req()
+1132c38927886259c694f77cd74fc577c2216eeb rhashtable: fix false-positive lockdep splat on rhltable destruction
+9c75402286409f5e1a75e4a445555c84066f89db crypto: qce - fix error path in devm_qce_register_algs
+6b36f13891ab4709b7d60023005176cdd5c368cf crypto: starfive - use scatterlist length before DMA mapping
+285d8204638cf8be0dc304dc40f0290ada701340 crypto: af_alg - Allow cbc(paes)
+9ed3d974a26644ad57b3d4d067e279188b2038b6 regcache: Use a consistent sort for defaults table
+4b05ccb17f92268384d483221a577fccfc291c7a regcache: Sort the local copy of an unsorted reg_defaults array
+24aa630f6259e6a2107936c06fed72063f712b64 selftests/ftrace: Convert ELF entry point to file offset in uprobe test
+5eabf07a0bf317723da229376b4e910f12b4644b Merge tag 'v7.2-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+d58772d8520c7ef247c4b95c9bd76d3a25da9ff5 Merge tag 'regmap-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+f5bbbfec59b4e2fb7520a91de3df8a6174325d6a Merge tag 'probes-fixes-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+
+--===============7933452536534150335==--
