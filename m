@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 11 Aug 2026 17:45:15 -0000
-Message-Id: <178647031538.4094680.13769533641416111207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 11 Aug 2026 17:55:08 -0000
+Message-Id: <178647090804.4101690.4019558957294984865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/arm64-bti-veneers
-    old: 0000000000000000000000000000000000000000
-    new: 82615c616e8cf0642701dd7adc233e43f761d580
+  - ref: refs/heads/for-7.2
+    old: f12afefb7b01f94d6d66d397f323a9914edbf70e
+    new: 079e27f52b929b554b90514b081ea40b3d632a25
+    log: |
+         079e27f52b929b554b90514b081ea40b3d632a25 ASoC: Intel: NVL: Add entry for HDMI-In capture support to non-I2S codec boards.
+         
