@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Aug 2026 15:39:51 -0000
-Message-Id: <178646279193.3990858.450858521198285589@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 15:39:55 -0000
+Message-Id: <178646279530.3990999.6980332397895964575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 0a8de89790e3b7125fcade308a708486e7aa3f75
-    new: 596403cf24469928b5d2c27f63313b00b4436c55
+  - ref: refs/heads/regmap-7.2
+    old: 4b05ccb17f92268384d483221a577fccfc291c7a
+    new: ae7fd6ff4c6713270d2efe6db87a4a58ccb7cc61
     log: |
-         596403cf24469928b5d2c27f63313b00b4436c55 ASoC: pxa: Use devm_clk_get_optional() for extclk clock
+         ae7fd6ff4c6713270d2efe6db87a4a58ccb7cc61 regmap: sdw-mbq: Fix swap of timeout and retry times
          
