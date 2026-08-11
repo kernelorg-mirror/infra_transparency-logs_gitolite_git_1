@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6700226140822093909=="
+Content-Type: multipart/mixed; boundary="===============9042293201044274801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 11 Aug 2026 17:30:19 -0000
-Message-Id: <178646941938.4082888.3862839912077988129@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 17:30:21 -0000
+Message-Id: <178646942188.4082980.10125402422652840503@gitolite.kernel.org>
 
---===============6700226140822093909==
+--===============9042293201044274801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4fa4977a0d900f936bcae5cd2c510be5554e8dd6
     new: 31397cf1819210bd63fa3d2c7d8c24f7c8667d99
     log: revlist-4fa4977a0d90-31397cf18192.txt
 
---===============6700226140822093909==
+--===============9042293201044274801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -196,4 +196,4 @@ b8f554e13899fe2635a59f0260eec9a047247009 net: hns3: add missing const qualifier 
 f57b277e8b6f6e6d3bc082be6b67c6bec02d5cbd net: hns3: use txqueue parameter directly in ndo_tx_timeout
 31397cf1819210bd63fa3d2c7d8c24f7c8667d99 Merge branch 'net-hns3-some-cleanups-for-hns3-driver'
 
---===============6700226140822093909==--
+--===============9042293201044274801==--
