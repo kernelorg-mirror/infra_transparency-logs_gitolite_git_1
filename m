@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 11 Aug 2026 02:38:40 -0000
-Message-Id: <178641592004.3362377.14480136314944015443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Tue, 11 Aug 2026 02:52:18 -0000
+Message-Id: <178641673805.3372662.11230659009425567382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/hwmon
-    old: 08426a786dabad8f2373834867f5c856fafa87d4
-    new: 139602524ad533716d786bfd1a11ab576cf77485
+  - ref: refs/heads/main
+    old: 56d36ebb5ca6f36ac8920e859d9c37c84206326c
+    new: 8652ebe1ed067a85b678f0a4ab4a44a3d26c549a
     log: |
-         139602524ad533716d786bfd1a11ab576cf77485 hwmon: (coretemp) Fix core_data leak on CPUs without PTS
+         d8c0a21b0c5915b072d6a23ff5c7d5907c11d712 buildroot: build Raspberry Pi EDK2 firmware
+         3d0f8ebd770485a5b704095f95e4aaed67f2c19f board: generate one universal ARM64 image
+         8652ebe1ed067a85b678f0a4ab4a44a3d26c549a build: use the universal ARM64 image
          
