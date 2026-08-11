@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 11 Aug 2026 01:26:58 -0000
-Message-Id: <178641161803.3307487.14307143262554177731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
+Date: Tue, 11 Aug 2026 01:52:38 -0000
+Message-Id: <178641315863.3326548.15308012163446535042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bcain/linux
+user: bcain
 changes:
-  - ref: refs/heads/main
-    old: 30dbc21f637522e9d6a0e6786fa44a12025c805b
-    new: d67e5dbda22604d0fcde32fce58c65f88676e676
+  - ref: refs/tags/bcain-hex-kcfi-aug10-2026
+    old: f5debfeae808bae06ccbc26605a5c1404eba2588
+    new: ce0e62c277ea2fc51b37b0625eeacdc5631a488f
     log: |
-         7c62c481bb43488147b8755cd92e467085ab106b tools: ynl: check for null ptr on dump free
-         153f709c86394919ddf42a9a76c3bce064841c8d tools: ynl: check alloc fails in generated getter code
-         d67e5dbda22604d0fcde32fce58c65f88676e676 Merge branch 'update-null-pointer-handling-in-generated-code'
+         fb22c57bb59d328e0c6609e85448ab100e321595 hexagon: add KCFI failure handling
+         57823257c3562d70fa7c3e76f6344f74c265f702 fork: prepare the shadow call stack after copying thread_info
+         849396c81ef1258a3b32100c42ec15e0eb31250c hexagon: enable KCFI
+         6e8ff5a2760b02a168d372662b1f382a8864673b hexagon: add shadow call stack support
+         9f4e068d6aa9acfc40d2bb17965a4a9bca4c183f hexagon: enable UBSAN
+         ea7961ddcf5bff4755258a6f3216f00699abb1f0 hexagon: add KASAN support
+         ce0e62c277ea2fc51b37b0625eeacdc5631a488f hexagon: instrument the atomic bitops
          
