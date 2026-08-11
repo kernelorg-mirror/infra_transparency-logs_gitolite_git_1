@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 11 Aug 2026 22:37:31 -0000
-Message-Id: <178648785175.116706.9173692175669284428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 11 Aug 2026 22:38:03 -0000
+Message-Id: <178648788316.117099.11706701806032411805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: baac55998ab68c96a801f6164ce88d7e3d35b83f
-    new: 62f71d29185aa0ebda63b744c676fc0e51c5aaa8
+    old: b00c00f7dc742953ac8f5008aa3de2cfec538ccf
+    new: 25c99a02dc62e2a4e4f0176d2787f9b87e32a8ab
     log: |
-         9e0698b77684c38f12eb86f828e8a49cc5624304 ASoC: ti: omap-twl4030: Check for missing card name after parsing
-         daa7ffd765ae67a83e77dae32c66ce2d6d995d19 ASoC: qcom: q6apm: keep the graph start count in sync with the DSP
-         6ec64d757af9b75a3c64f9f7dad76bdc1efc06ca ASoC: pxa: Use devm_clk_get_optional() for extclk clock
-         0286324da660875dc504fd65b3be87e9c8b9a547 ASoC: fsl-asoc-card: defer probe when the CPU DAI device is not ready
-         4d788788e36652cc965853d9f84f11759a259fb4 ASoC: dt-bindings: qcom,sm8250: Add Maili sound card
-         19b7493a71625bcc8f29e1b858e99c7e42790156 ASoC: qcom: sc8280xp: Add Maili sound card support
-         0f688241da8269c363ea50a0b26528bde6f798cd ASoC: dt-bindings: qcom,sm8250: Add Maili sound card
-         62f71d29185aa0ebda63b744c676fc0e51c5aaa8 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
+         0d51ff742b416ea42ac36c73c0476f968c1a787a spi: spi-qpic-snand: move command mapping helper
+         cdb1dbba490205c32f1e72aaaad26715c8f98f80 spi: spi-qpic-snand: add quad mode support
+         7e3ffa9f46b7157d4f4c562f46b200336c34e25b spi: spi-qpic-snand: Handle Macronix quad read opcode 0x6b
+         32c55bfb29f24a3b8b0d2503d6e3317f531e9ca6 Add quad mode support for QPIC SNAND
+         25c99a02dc62e2a4e4f0176d2787f9b87e32a8ab Merge remote-tracking branch 'spi/for-7.3' into spi-next
          
