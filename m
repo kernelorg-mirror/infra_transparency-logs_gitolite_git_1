@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 11 Aug 2026 20:11:32 -0000
-Message-Id: <178647909240.8122.5544292610233469520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 11 Aug 2026 20:16:27 -0000
+Message-Id: <178647938703.12047.4885596245251412632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 690c16df606733626a0a7d6bc2b83a3244d4ced1
-    new: 10df0bb748449ba00ffe04fc4d77f4d287b97161
+  - ref: refs/heads/wip/jgg-for-next
+    old: ecbe7d36dc2de07e5dfbb4a8ff5b315ab43de820
+    new: c6d1ec4fbe56492bb88987d577f04a5fb6955f26
     log: |
-         45747c6d0c853e1d711f24d1e7dc85a99d085925 tools/l2cap-tester: add tests changing BT_SECURITY after connecting
-         ea77a7229c76a88e348c502a66ce500278cfa868 client: Avoid scan prompt when discovery is already active
-         10df0bb748449ba00ffe04fc4d77f4d287b97161 emulator: btvirt: support debug for -s socket server
+         a7100601aa1a39f799a566acce10db20eaf4b7f2 RDMA/cxgb4: Cancel reg_work before freeing device on remove
+         fe5c16bb6252dea6025b748257ddc3b2665495b0 RDMA/cxgb4: Free debugfs on registration failure
+         c6d1ec4fbe56492bb88987d577f04a5fb6955f26 RDMA/cma: Fix WARNING in res_to_rt
          
