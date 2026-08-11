@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Aug 2026 14:27:24 -0000
-Message-Id: <178645844466.3937616.5165019036840907813@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 14:27:28 -0000
+Message-Id: <178645844825.3937708.4653422290008508562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: ce76c44c34ad1d4e0b1671ba376db814afbb3e83
-    new: daa7ffd765ae67a83e77dae32c66ce2d6d995d19
+  - ref: refs/heads/spi-7.2
+    old: e3775cbffaf0e61fda4808a06963a6bc3fcddf82
+    new: 133c71b2c0bc976a4751f9e05ef7cdea67f964e5
     log: |
-         9e0698b77684c38f12eb86f828e8a49cc5624304 ASoC: ti: omap-twl4030: Check for missing card name after parsing
-         daa7ffd765ae67a83e77dae32c66ce2d6d995d19 ASoC: qcom: q6apm: keep the graph start count in sync with the DSP
+         133c71b2c0bc976a4751f9e05ef7cdea67f964e5 spi: dw: fix wrong RX_SAMPLE_DLY setting after resume
          
