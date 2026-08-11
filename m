@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 11 Aug 2026 22:38:03 -0000
-Message-Id: <178648788316.117099.11706701806032411805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 11 Aug 2026 22:47:16 -0000
+Message-Id: <178648843689.124025.10805988311991398924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-next
-    old: b00c00f7dc742953ac8f5008aa3de2cfec538ccf
-    new: 25c99a02dc62e2a4e4f0176d2787f9b87e32a8ab
+  - ref: refs/heads/master
+    old: 2dcc5278601b355300bf593297b3dfe3a717c648
+    new: 95544ba72b9c10db654381dd4dfc1982e2abddf9
     log: |
-         0d51ff742b416ea42ac36c73c0476f968c1a787a spi: spi-qpic-snand: move command mapping helper
-         cdb1dbba490205c32f1e72aaaad26715c8f98f80 spi: spi-qpic-snand: add quad mode support
-         7e3ffa9f46b7157d4f4c562f46b200336c34e25b spi: spi-qpic-snand: Handle Macronix quad read opcode 0x6b
-         32c55bfb29f24a3b8b0d2503d6e3317f531e9ca6 Add quad mode support for QPIC SNAND
-         25c99a02dc62e2a4e4f0176d2787f9b87e32a8ab Merge remote-tracking branch 'spi/for-7.3' into spi-next
+         cde64701deebd7a60af31ce44d322ce402937bdd review-tui: Provide progress indications when upgrading a series
+         95544ba72b9c10db654381dd4dfc1982e2abddf9 send: sign messages before opening the SMTP connection
          
