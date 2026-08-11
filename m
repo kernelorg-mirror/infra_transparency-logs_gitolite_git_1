@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 11 Aug 2026 14:04:56 -0000
-Message-Id: <178645709667.3918340.12654134180798002467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 11 Aug 2026 14:05:09 -0000
+Message-Id: <178645710924.3920521.12824689363274365269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: b54074ffb813aa4b97585d97ae1ead69d96432b5
-    new: 31397cf1819210bd63fa3d2c7d8c24f7c8667d99
+    old: 2135b2f7714a3a514c989b9728f51f36144cab6f
+    new: e3c0c4b70f50ae77bea557b4a44be04413d3f3ed
     log: |
-         4f20c628b62eb86babdc28cbd1befa6bd858a62d net: hns3: set msg->desc to NULL after kfree in hclge_query_reg_info()
-         b8f554e13899fe2635a59f0260eec9a047247009 net: hns3: add missing const qualifier to hclge_log_error() reg parameter
-         f57b277e8b6f6e6d3bc082be6b67c6bec02d5cbd net: hns3: use txqueue parameter directly in ndo_tx_timeout
-         31397cf1819210bd63fa3d2c7d8c24f7c8667d99 Merge branch 'net-hns3-some-cleanups-for-hns3-driver'
+         4cfb1cd751cb5e0d943e79e4240472436255603a cirrus: cs35l63: Add Cirrus CS35L63 firmware mappings for some Dell laptops
+         e3c0c4b70f50ae77bea557b4a44be04413d3f3ed Merge branch 'robot/pr-0-1786456716' into 'main'
          
