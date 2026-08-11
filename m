@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Tue, 11 Aug 2026 07:33:00 -0000
-Message-Id: <178643358053.3631349.17847729922098097331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Tue, 11 Aug 2026 08:11:40 -0000
+Message-Id: <178643590089.3658951.7721846422551367250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
   - ref: refs/heads/for-next
-    old: df4a6ff9dbf98ed87f97533f3ea9ac9a3fdba68e
-    new: e1ff7d58f90807e67def4675f136398b4c6f1e52
+    old: a5367912ba81dfb3180fce89b545b009e57f17a5
+    new: f744022705b7eb479a1931ddd95aae4e9a4be221
     log: |
-         6d0380de22dcfc8c2ca33afdf61f0f9042f7428f alpha: run the remote RTC access in a worker, not an IPI callback
-         e1ff7d58f90807e67def4675f136398b4c6f1e52 alpha: annotate hardirqs-off on IPL 7 interrupt entry
+         1f9b65cf57081035547b4d3ca1805df20892e9db firewire: core: add KUnit test skeleton for node tree
+         7b763ea17152cf61ede5289c3c66bf133c8aafa7 firewire: core: add KUnit tests for successful tree building
+         f744022705b7eb479a1931ddd95aae4e9a4be221 firewire: core: add KUnit tests for failure of tree building
          
