@@ -1,42 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7998038134575508856=="
+Content-Type: multipart/mixed; boundary="===============6832488594397715585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
-Date: Tue, 11 Aug 2026 16:35:03 -0000
-Message-Id: <178646610312.4037262.8779295031603646637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Tue, 11 Aug 2026 16:37:55 -0000
+Message-Id: <178646627588.4039436.4020567784036059684@gitolite.kernel.org>
 
---===============7998038134575508856==
+--===============6832488594397715585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fwctl/fwctl
-user: jgg
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
-  - ref: refs/heads/linus
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
-    new: f5bbbfec59b4e2fb7520a91de3df8a6174325d6a
-    log: revlist-db2ddb871435-f5bbbfec59b4.txt
+  - ref: refs/heads/master
+    old: 0d4aa685c1a3f5f0213d236624dac119d02db52f
+    new: 68826e09729e9318d3b2ab898f1f4e866eaddcc6
+    log: revlist-0d4aa685c1a3-68826e09729e.txt
 
---===============7998038134575508856==
+--===============6832488594397715585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db2ddb871435-f5bbbfec59b4.txt
+Content-Disposition: attachment; filename=revlist-0d4aa685c1a3-68826e09729e.txt
 
-438f4896f78f69ec73d5f32d2c024193f1223569 crypto: ccm - Set rfc4309 maxauthsize from child
-360f2974fcea49c61f6d6f81554741a9eeee7168 crypto: tegra - fix rctx->cryptlen calculation in tegra_gcm_do_one_req()
-1132c38927886259c694f77cd74fc577c2216eeb rhashtable: fix false-positive lockdep splat on rhltable destruction
-9c75402286409f5e1a75e4a445555c84066f89db crypto: qce - fix error path in devm_qce_register_algs
-6b36f13891ab4709b7d60023005176cdd5c368cf crypto: starfive - use scatterlist length before DMA mapping
-285d8204638cf8be0dc304dc40f0290ada701340 crypto: af_alg - Allow cbc(paes)
-9ed3d974a26644ad57b3d4d067e279188b2038b6 regcache: Use a consistent sort for defaults table
-4b05ccb17f92268384d483221a577fccfc291c7a regcache: Sort the local copy of an unsorted reg_defaults array
-24aa630f6259e6a2107936c06fed72063f712b64 selftests/ftrace: Convert ELF entry point to file offset in uprobe test
-5eabf07a0bf317723da229376b4e910f12b4644b Merge tag 'v7.2-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-d58772d8520c7ef247c4b95c9bd76d3a25da9ff5 Merge tag 'regmap-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-f5bbbfec59b4e2fb7520a91de3df8a6174325d6a Merge tag 'probes-fixes-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ea1895367c76ff989a6ca00b5bd6eef78b7c5d97 Warn if CFS quota is set when nohz_full is used
+82777dd5964e5fa65eab405a9925d891caa35edc cpuset code refactoring
+9681ee309b33d31b307409adb26f0c0e57fc5f80 Fix: isolcpus flag handling when paarsing cpulist
+1744535713bdcb83234e3d2c7b72ce3d03e5f436 noise_parse: Add workqueue_execute_end event
+1d4778daf6ff57980c41d3926e218a38796f5e66 Merge branch 'nohzfull-cfsquota' into 'master'
+4d05039a8095563f955a556146e4c5703ccf83a2 Merge branch 'bugfix-isolcpus' into 'master'
+7ab13dfbb64b9bcfeda88b0d28fca2e5166e76c5 Merge branch 'workqueue_end_event' into 'master'
+2f5d9ccfc156cd8fbd2c1b49aebed30e902ff98c Avoid running config. checks if cpulist is present
+fad959c451fcc3ee7dab73511855a4aa10a38df3 Merge branch 'check-config-without-cpulist' into 'master'
+5c120df43f019eba3629fec15d32772f6f540c71 Revert "Avoid running config. checks if cpulist is present"
+c21b70e5adde78cd3c89c9ce14bd85a44165baa7 Merge branch 'revert-cpulist-change' into 'master'
+e935ece5eaf26067434a1471675cb5717957e20c Return 0 if smt file is not found
+fb738769a75ddfd8646cac084e7a5c85f5b352ac check_configs_lib: Print formatted output with a custom class
+d509e446d46b40f48a592accbe60a94d752310f2 noise_parse: Avoid config check if -s is present
+226ac279c5f0fbbcf16af12dd542df29ff17862a Merge branch 'better-cofig-info' into 'master'
+8c4479638a4cb7ec16e2504589b8c5a3575f4334 noise_parser: Fix check trace_file not present
+02e4669507c016c0ef0484d44ee657047b63e01d Merge branch 'fix-open-trace' into 'master'
+568fade455f290d8d98213f6b91754183bdb18a0 dynticks-testing: Add workqueue_execute_end event
+8ff7930ab42f50a7ba5e9eaf4df1b99cb3b75bcc dynticks-testing: Open the event only if the path exists
+162f7a4181a182b8ad6b4b8f6d7e363c096a813f dynticks-testing: Improve cpulist check
+44cbed9a8c6c120c954693d9cea1e3655e76b103 noise_parse: Add softirq_exit and time duration accounting
+68826e09729e9318d3b2ab898f1f4e866eaddcc6 Merge branch 'improvements' into 'master'
 
---===============7998038134575508856==--
+--===============6832488594397715585==--
