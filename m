@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Tue, 11 Aug 2026 08:38:46 -0000
-Message-Id: <178643752651.3680904.17580652235086913634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 11 Aug 2026 08:42:10 -0000
+Message-Id: <178643773065.3684116.13745976882290817697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 5c244a0e9ca95468f4c2087b2c9269825429a13f
-    new: db1a995fc20438da220f9eb7c3ef573a426a302d
+  - ref: refs/heads/for-next
+    old: a9ac75b664d917220dfe2e3c1005402d7a18e84b
+    new: 108704eecab9563a457ef6f32c7eef06e7703a5e
     log: |
-         50e78f7d9738a90e211b1398c0575e4f7bb9e6cb ntfs: allow index root relocation
-         db1a995fc20438da220f9eb7c3ef573a426a302d ntfs: verify run length exceeding volume boundary
+         108704eecab9563a457ef6f32c7eef06e7703a5e ALSA: hda/realtek: Rename Line Out control to Headphone on ThinkPad X1 Carbon 6th
+         
+  - ref: refs/heads/master
+    old: d4006671735e5c588f6d6910ecdf696e95b605e4
+    new: 0b59b6b51f7c37818c182e00f734ea08665eeef2
+    log: |
+         108704eecab9563a457ef6f32c7eef06e7703a5e ALSA: hda/realtek: Rename Line Out control to Headphone on ThinkPad X1 Carbon 6th
+         0b59b6b51f7c37818c182e00f734ea08665eeef2 Merge branch 'for-next'
          
