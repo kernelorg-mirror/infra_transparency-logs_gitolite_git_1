@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1475732426129937475=="
+Content-Type: multipart/mixed; boundary="===============7982317445969980875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 11 Aug 2026 08:24:40 -0000
-Message-Id: <178643668063.3669109.16165875243628679563@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 08:25:31 -0000
+Message-Id: <178643673178.3671761.16513645713736504544@gitolite.kernel.org>
 
---===============1475732426129937475==
+--===============7982317445969980875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,71 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 99b9d5e127ad1f68abd00f93a5264d595aa6fde2
-    new: 83275fea11d19f2d8014c9cb598fca625c76de4e
-    log: revlist-99b9d5e127ad-83275fea11d1.txt
+    old: 83275fea11d19f2d8014c9cb598fca625c76de4e
+    new: 8aca9800d272f1d43b85c624bf59d345d9cc20a3
+    log: revlist-83275fea11d1-8aca9800d272.txt
+  - ref: refs/heads/tip/urgent
+    old: fc4fd518b63040416480d08798d0371da6887f0f
+    new: f00ee5a86f7a1d84d055aeff43160a85fffbc4bc
+    log: revlist-fc4fd518b630-f00ee5a86f7a.txt
 
---===============1475732426129937475==
+--===============7982317445969980875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99b9d5e127ad-83275fea11d1.txt
+Content-Disposition: attachment; filename=revlist-83275fea11d1-8aca9800d272.txt
+
+d11b5956623b35133f0f3d6f7ba83e46c9796040 Merge branch into tip/master: 'core/urgent'
+5c91fa3652dc667cd8e4df1272a11e10379e0ecb Merge branch into tip/master: 'locking/urgent'
+cecb517e4f8032c2a9690d7e9fca012b2db4f19d Merge branch into tip/master: 'perf/urgent'
+acd171e2ae2765d1e68a90a522ff8b30ff08df8b Merge branch into tip/master: 'timers/urgent'
+f00ee5a86f7a1d84d055aeff43160a85fffbc4bc Merge branch into tip/master: 'x86/urgent'
+9ba6890d9b1580fc34897710ff1d09015da7e8b3 Merge branch into tip/master: 'x86/merge'
+0cd5a90387ae6e36fa526f6951acae33cc3261b9 Merge branch into tip/master: 'perf/merge'
+4107b57214254e64bb42dafce6d693e1c3121343 Merge branch into tip/master: 'core/entry'
+7dfc6bdfd47ff60a9abd9bf439280bcbfddfb646 Merge branch into tip/master: 'core/rseq'
+dadc42975865a7bd0921c41bc6cebf4e8a23ec21 Merge branch into tip/master: 'irq/core'
+e3513e67ce5124e4649833220d88ed4717943d55 Merge branch into tip/master: 'irq/drivers'
+80e9c281ca4086df4d2934eb610746786e8bac93 Merge branch into tip/master: 'locking/core'
+02c2eb0d40b7bcc60a24cd27c51b828372f280e6 Merge branch into tip/master: 'locking/futex'
+776d99248cd3d163408927d423de253525463e04 Merge branch into tip/master: 'objtool/core'
+5f6272a3601a2be8fc13aa46d309c95fac533ad6 Merge branch into tip/master: 'perf/core'
+afd803bb888bd487c81cf88c5a386719af84fa9e Merge branch into tip/master: 'ras/core'
+045751b244bce4a1fbfaa7c1af6534a99cdfbf25 Merge branch into tip/master: 'sched/core'
+f81240494503fe6649a026a811e8af88b1231f60 Merge branch into tip/master: 'smp/core'
+ce20e4a8748053a0150cfd61e1bf66b1bc361938 Merge branch into tip/master: 'timers/core'
+815d2fcb216f5d45ddca73b2cc8fa579f18fba5e Merge branch into tip/master: 'timers/vdso'
+58cd01277bca7a265be5204440540d525e5f7645 Merge branch into tip/master: 'x86/alternatives'
+e3ab034d44fa10c0e0c910bb8055953d6b3e50df Merge branch into tip/master: 'x86/boot'
+e96d47258bd00b4b8ff23ecef507cddf7e487685 Merge branch into tip/master: 'x86/build'
+41b380867cb84c9b4667fe36f91770269a0f90f3 Merge branch into tip/master: 'x86/cache'
+9e7b0119d411c6e38c72e33589ab4f1b7f8ee175 Merge branch into tip/master: 'x86/cleanups'
+c2242583dd53f6740fff2bda639f0d31ccc1f9a4 Merge branch into tip/master: 'x86/core'
+e6dcff0a1558c14450962c3691f45d9e1e84a11f Merge branch into tip/master: 'x86/cpu'
+7101e679ae81060eb28c1340cfd2ba6b621a1083 Merge branch into tip/master: 'x86/documentation'
+bbe0e9850a1665e6d66244af6d7d1899a0f519df Merge branch into tip/master: 'x86/entry'
+0fe6ce622fbc11b1b23232dd383150d41dafd4a9 Merge branch into tip/master: 'x86/misc'
+62f4583e57f2451322717864b66b3cfabee3b512 Merge branch into tip/master: 'x86/mm'
+8aca9800d272f1d43b85c624bf59d345d9cc20a3 Merge branch into tip/master: 'x86/tdx'
+
+--===============7982317445969980875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fc4fd518b630-f00ee5a86f7a.txt
 
 fa091f46c3833fb22384f10eade2b4e1e1d0b278 perf: Reject exited events as group leaders
 42c5ca1f0a288a52878bd72a5595b08261057438 perf/core: Fix group leader use-after-free after sibling detach
-c6df517796189723ffbdd7679206c97d3642c2ef perf/x86/intel/pt: Factor out pt_config_enable()
-265bb4ef75fa657f4957d72087a6a246b89d5f0d perf/x86/intel/pt: Use bitwise access for PERF_HES_STOPPED
-2e17bf3a469a41457a3bc31b1f8fd66b6ce94a6d perf/x86/intel/pt: Fix stop/start with no update
 59b3732f95dda1fbd2234514d35f4fb6b5bb6d85 futex/pi: Reject cross-mm private futex owners
 f9ece060cc43eae8a1f148737d193ba0d07b8f88 futex: Sanitize and document task_struct::futex::state transitions
 6963d5470dda3279d32272a2cb50f09b38818d90 futex/pi: Plug private futex exec() race
 36a48625df6d91302438fb9f49a54e391fd9b63b futex: Clean up the redundant exit/exec functions
-e901c1510e24726dcbd6340ee927b3ac8b992043 irq,spin_lock: Add counted interrupt disabling/enabling
-07a88e2bcd5b5bd7881b2e12b6aad1897a7ee1de irq: Add KUnit test for refcounted interrupt enable/disable
-1b086687483371621e684e2a05b2bcd2cf07b634 locking: Switch to _irq_{disable,enable}() variants in cleanup guards
-ac4231a77973fc20808ed84c4af343eca2342d4b sched: Remove the unused preempt_offset parameter of __cant_sleep()
-560fcaa92ef983315023eb4ebfc1ebae1132fb2a sched: Avoid signed comparison of preempt_count() in __cant_migrate()
-3b0e2a22d4086ed7c1294584c4417f7d19f1ac67 preempt: Introduce HAS_SEPARATE_PREEMPT_RESCHED_BITS
-264bbd32a31ba80e634bec5c1df8514c0e97fe7e arm64: sched/preempt: Enable HAS_SEPARATE_PREEMPT_RESCHED_BITS
-3484440a7b194ed80fa4ae2d25fe1a3fcade98f3 s390/preempt: Enable HAS_SEPARATE_PREEMPT_RESCHED_BITS
 abe7c8b09bd72a9c726016257c6281f129b4c02d x86/CPU: Add a tlbi= cmdline switch
-2d69b891e6461eb3dc9af4741ded915966db4e01 kbuild: Support generated asm-headers in subdirectories
-1bafc1f65972fb1ca9b87bb4ead593436162c4be vDSO: Make clockmode constants available without CONFIG_GENERIC_GETTIMEOFDAY
-b86aefb11c6dd60c192b222a0a601115196b72a5 MIPS: csrc-r4k: Remove CONFIG_GENERIC_GETTIMEOFDAY ifdeffery
-02e7d58cdd93a606b61f941f6ad5285cffa5436c clocksource/drivers/mips-gic-timer: Remove CONFIG_GENERIC_GETTIMEOFDAY ifdeffery
-3e56253e0c94337590b5131174dce0e7637bbe48 clocksource/drivers/arm_arch_timer: Remove CONFIG_GENERIC_GETTIMEOFDAY ifdeffery
-f9217a8cc4f19510a7f2176b92546a7438a279ac clocksource/drivers/timer-riscv: Remove CONFIG_GENERIC_GETTIMEOFDAY ifdeffery
-1f8258de239da872fd3cdccfb97b406ccb354ce3 LoongArch: Remove CONFIG_GENERIC_GETTIMEOFDAY ifdeffery
-92e785d887a8a61a897289f2b342f754cf02551b random: vDSO: Drop custom PAGE_SIZE definitions
 45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc tick: Include ktime.h and jiffies.h in linux/tick.h
-977991fdc43dbe2f3f473699bbe45207969f020f x86/platform/geode: Remove old TODO message about leds-net5501.c
-d7fc133bf91f713df72facebd41ae9dfc83e35f7 timekeeping: Use READ_ONCE/WRITE_ONCE() for xtime_sec to prevent tearing
-4b61084b11bcecce86d03804ff30f8d7b465593c timekeeping: Check the return value of tk_get_aux_ts64 in __do_adjtimex()
-0f6c87fe2abb4296bdc52f638c8320f3a2aa79dc Merge branch into tip/master: 'locking/urgent'
-2c9f353ee143985c1ce8a2a1610cd0bc97e1021a Merge branch into tip/master: 'perf/urgent'
-de1f6df04efb63af169fad62058c1fe7798e6c28 Merge branch into tip/master: 'timers/urgent'
-8092433274499776225fcfe582b1c23aa5700ad6 Merge branch into tip/master: 'x86/urgent'
-72286065d058ef2c661d6b12cc870492f3051b38 Merge branch into tip/master: 'locking/core'
-a8e6e51a223ab3ebe9707ed952826974fa44e371 Merge branch into tip/master: 'perf/core'
-1e0da5cddbd366b56db754e9591fa00831e330dd Merge branch into tip/master: 'timers/core'
-a24fe20b3e670fc33f44a9b78bee36d43d8b2cef Merge branch into tip/master: 'timers/vdso'
-83275fea11d19f2d8014c9cb598fca625c76de4e Merge branch into tip/master: 'x86/misc'
+d11b5956623b35133f0f3d6f7ba83e46c9796040 Merge branch into tip/master: 'core/urgent'
+5c91fa3652dc667cd8e4df1272a11e10379e0ecb Merge branch into tip/master: 'locking/urgent'
+cecb517e4f8032c2a9690d7e9fca012b2db4f19d Merge branch into tip/master: 'perf/urgent'
+acd171e2ae2765d1e68a90a522ff8b30ff08df8b Merge branch into tip/master: 'timers/urgent'
+f00ee5a86f7a1d84d055aeff43160a85fffbc4bc Merge branch into tip/master: 'x86/urgent'
 
---===============1475732426129937475==--
+--===============7982317445969980875==--
