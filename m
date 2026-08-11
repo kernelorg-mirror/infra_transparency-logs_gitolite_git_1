@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 11 Aug 2026 23:36:06 -0000
-Message-Id: <178649136614.161938.953588755212657249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Tue, 11 Aug 2026 23:37:56 -0000
+Message-Id: <178649147686.162664.17336712204505832403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/master
-    old: 95544ba72b9c10db654381dd4dfc1982e2abddf9
-    new: 7e39aea237a4eb86cd4836e190d4a713c03ca007
+  - ref: refs/heads/for-next
+    old: 00aedd67d75d7b86681bdecaa3b20394e1447d2e
+    new: 627b7865c062ff642c0000f3a4775f1a44b986a4
     log: |
-         f6b44c86c5c7b26f0979fe56ad76c40df11b9ccb Support python argcomplete
-         7e39aea237a4eb86cd4836e190d4a713c03ca007 command: declare argcomplete as an explicit completion dep
+         627b7865c062ff642c0000f3a4775f1a44b986a4 hfsplus: validate extent record length before writing it back
          
