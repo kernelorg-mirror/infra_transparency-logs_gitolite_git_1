@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Tue, 11 Aug 2026 18:44:41 -0000
-Message-Id: <178647388132.4135837.41662071549473416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Tue, 11 Aug 2026 18:54:27 -0000
+Message-Id: <178647446749.4143078.4565046367280823627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/nova/irq
-    old: e9a07e40a4e53384070062a2bbe0d0f211983aca
-    new: e889acbd28e7d85e258142fa3e8312aa3c01c5fd
+  - ref: refs/heads/next
+    old: 0613e7934ee233d726af8d8c89f251a1c4df738d
+    new: 0d995da5fb97e8c312834575604d4423eb6225b7
     log: |
-         bfc519886e03aac50413d698010fee7756cd1188 rust: pci: convert IrqVectorRegistration to a lifetime-managed owning type
-         cde6c4c939727f015b2d76b31ef7e8b0748f014e rust: pci: resolve IRQ in vector() and embed IrqRequest in IrqVector
-         e5774a410a36e3adddbd71443b32dd8bd045a733 rust: pci: remove request_irq() and request_threaded_irq() from Device
-         73b1674b01c20d8d4ccb18b47ab1e91c7b625464 PCI: add pci_irq_type() to query the allocated interrupt type
-         e889acbd28e7d85e258142fa3e8312aa3c01c5fd rust: pci: expose the allocated interrupt type
+         2ea04dca8e627f722caa7a2037cfbae0257f3501 dmaengine: fsl-edma: tracing: no ptr dereference during log output
+         a50184171235045d96104811414b25cf5338cf86 dmaengine: qcom-bam-dma: fix autosuspend cleanup during removal
+         04b8c3de13871653a8ecbd9f1adfea4d0694ecfe dmaengine: qcom_hidma: remove conditional return with no effect
+         4a8b7929550eb94d60b32c2c06479444672da381 dmaengine: idxd: assign all engines to group 0 in IAA defaults
+         0d995da5fb97e8c312834575604d4423eb6225b7 dmaengine: dw-edma: Mark emulated IRQ as level-triggered
          
