@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8459445606760377700=="
+Content-Type: multipart/mixed; boundary="===============4129473894960901532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 11 Aug 2026 17:23:54 -0000
-Message-Id: <178646903451.4075377.14611514368164258458@gitolite.kernel.org>
+Date: Tue, 11 Aug 2026 17:23:56 -0000
+Message-Id: <178646903683.4075470.11333037737340584555@gitolite.kernel.org>
 
---===============8459445606760377700==
+--===============4129473894960901532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 594d905195024b228c962627ae5ae7c17bd582a4
     new: cba9ccb47e9fa4cc77692fb896cc5ab57a667882
     log: revlist-594d90519502-cba9ccb47e9f.txt
 
---===============8459445606760377700==
+--===============4129473894960901532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ cbb35cbe8db268fefe34c23df15348cf99025298 net: tap: fix wrong transport_header wh
 71b3ced5047a94c2776e796fe79c387ad9c31d5a Merge branch 'net-tls-fail-splice-after-a-failed-async-decrypt'
 cba9ccb47e9fa4cc77692fb896cc5ab57a667882 tipc: read le->link under the node lock in tipc_node_link_down()
 
---===============8459445606760377700==--
+--===============4129473894960901532==--
