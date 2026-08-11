@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Aug 2026 16:03:37 -0000
-Message-Id: <178646421774.4010403.5001114031722780647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 11 Aug 2026 16:08:48 -0000
+Message-Id: <178646452814.4014422.13563463026815984704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/spi-7.3
-    old: c10b7f5e0cb1deeba89af670d7fe19cf2454aa2b
-    new: e4702b6ff30e2c0c52688d2c76090ee73c6e0299
+  - ref: refs/heads/timers/core
+    old: 18c7d85864e554adc8fad1e8d2e9d2cb6c3911c8
+    new: 32a05ba399fc52661f59f38efd2e606f45eb2c8f
     log: |
-         e4702b6ff30e2c0c52688d2c76090ee73c6e0299 spi: hisi-sfc-v3xx: Propagate errors from optional IRQ lookup
+         32a05ba399fc52661f59f38efd2e606f45eb2c8f hrtimer: Account nr_retries on recovered interrupt retries
          
