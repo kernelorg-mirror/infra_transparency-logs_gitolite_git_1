@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Aug 2026 17:07:12 -0000
-Message-Id: <178655443225.943928.10262461135325648810@gitolite.kernel.org>
+Date: Wed, 12 Aug 2026 17:07:15 -0000
+Message-Id: <178655443559.944042.12914639117120588495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 3d7fb01b36aa85b2fc912b51305fbe011d1c3290
-    new: 4fc945d8fdfcbe8d484a7ca840ea891b56145eda
+  - ref: refs/heads/regulator-7.3
+    old: 6ab838a01b12f9d101c26ff8cebbf4029a8c9e09
+    new: e739acbe05b06de78ef7089470f122432f651faa
     log: |
-         4fc945d8fdfcbe8d484a7ca840ea891b56145eda ASoC: samsung: i2s: drop secondary DAI for i2sv7 hardware variant
+         e739acbe05b06de78ef7089470f122432f651faa regulator: fan53555: Add support for FAN53555BUC23X type
          
