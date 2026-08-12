@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6588991270288824987=="
+Content-Type: multipart/mixed; boundary="===============0886133623434204831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 12 Aug 2026 00:48:28 -0000
-Message-Id: <178649570880.218145.17013844849631242496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 12 Aug 2026 00:52:00 -0000
+Message-Id: <178649592069.221344.14261959842265524078@gitolite.kernel.org>
 
---===============6588991270288824987==
+--===============0886133623434204831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 631aa943006150ef4742784a5adebdd020009e17
-    new: dfab8c3e8822ff8a6556e5c1619dde6dd52b7229
-    log: |
-         dfab8c3e8822ff8a6556e5c1619dde6dd52b7229 re-review for 7.1.6 from greg
-         
+  - ref: refs/heads/perf-tools-next
+    old: bf10e6ee2ac3034c9068e03eed418fd16961984e
+    new: 16a12a54e9a1151a37aab74914a51b86f7f58d0e
+    log: revlist-bf10e6ee2ac3-16a12a54e9a1.txt
 
---===============6588991270288824987==
+--===============0886133623434204831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bf10e6ee2ac3-16a12a54e9a1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786495615 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1786495705-837f6a1e9a2cac1ef0bf2f6271e29ebc0b1c8870
+d4171c774070e9d1c45324e3667d7dcba9be7749 perf script: Fix metric_evlist leak in script_find_metrics
+340641a4b5fff4f4b12261c9d92169f6e2ea11f4 perf stat: Fix evsel_list leak in cmd_stat
+08e96e3c737bf63d917c6c4e0bb67450ad53f1d8 perf tools: Fix sb_evlist leaks in top and record
+38d778acbee3ee96c14e33863b747e674d975eae perf python: Fix memory leak in pyrf_evlist__get_pollfd
+54ba44db4dddc4ca06b49bae0f9d6c5861430b18 perf synthetic-events: Fix uninitialized pthread_join
+44e82c4d2ff37f073946b594840fd549ab6b9fb8 perf test: Fix skiplist leak in cmd_test
+612aca22a978d43f6e6765272676a17afdba8572 perf python: Check counts_values size in set_values
+9a142beb1eba42b986dc7016f4fc1a3bc28b8c09 perf python: Validate CPU and thread maps in pyrf_evsel__open
+0b274050c4d427828595c12c2e4e53d98612b4f9 perf python: Validate attribute setters in pyrf_evsel
+b365402cd5ea9e932b1458ee966d2258105da75d perf python: Zero initialize perf_data in pyrf_data__init
+b3d7c6c1a998c0dd4607558893ba03a374ee343f perf python: Add thread and PMU uninitialized checks
+b9514a9a13fc782546df0fae7d5767dadd2094f5 perf python: Fix MetricGroup return type in perf.pyi
+cb45ede21d02cc85de18ce6b60a51a7449f4179b perf python: Fix count_values memory leak in pyrf_evsel__read
+1ec13016ba36f1bf7dc61e054068fe00f2f628c7 perf python: Fix memory leak in pyrf__metrics_cb
+16a12a54e9a1151a37aab74914a51b86f7f58d0e perf synthetic-events: Fix divide by zero in perf_event__synthesize_threads
 
-631aa943006150ef4742784a5adebdd020009e17 dfab8c3e8822ff8a6556e5c1619dde6dd52b7229 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp7wn8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aGcQAKbhAY+z5NmB7B3LN+IW
-Nc276tvhwWySzzdSG/EzejBCOlp7dqfwG5RuakroDA+V90WH0OxBOZZkNw1aZ+nF
-qgAJntSHIdRN7rMvNsfWiaFBdX4f5o5MK0tzSyIsf747vtwa2d3cx3rNLgnSPVbL
-Rv5usBjsLcLDUYouF9gZ01gBfMz2/ryRRWgVLU/dHV40V6U04cUJ/mqG10z3KJXH
-nS7XUhrQeRZ7befzGaboEkM4TXTQa+BfO/VlM/XcGVBG69h9+awGtu2U0+dmrRke
-8CfCn5mAWNBm0iDQOpQfw/4V4k8QtA5s7LwOJDEPsOaOCj5pM8HhFlWdxEUQ1kVm
-5qNLfiknSvRQdiC7qywZCDO96RNfQBIHECsH1uXbD9rChHzA6AkcbKX6Y5y74Q34
-VxZIh4Q0j+64ISLgJd2GziKoxSKRnontI9SDiPkxW+2YluWyOgrYI43Yxcon0aAf
-RmW8MuZzfhTVcJhTC6wMuLcQj9O+Lw6lS9Mn0tO3UN2/bukCu8bo8oy1wxrgL2Wq
-MM8c5UndyzoU12CIqiIOniaxAg0ac0b6/ohQVhLqcj7Yqcj6KrGqdi1tfaNTfcBA
-Lfjdym5HGxZOnN3bq98wA06ATTzgPM2J5QD8Pj102Vxfmi9AOAKWf3eC32yN/Ut3
-vLit9ign5iv6Gg6OgczWjlzN
-=AWXS
------END PGP SIGNATURE-----
-
---===============6588991270288824987==--
+--===============0886133623434204831==--
