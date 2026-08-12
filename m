@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 12 Aug 2026 18:55:52 -0000
-Message-Id: <178656095227.1032510.2613093987731754818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 12 Aug 2026 19:09:01 -0000
+Message-Id: <178656174111.1040547.9690424040383361985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: c868c45e294a397cafe360a706cfbb53163a9619
-    new: de7051270554f99559f9b6bcf3c4fb695c7c223d
+  - ref: refs/heads/for-7.3
+    old: 4fc945d8fdfcbe8d484a7ca840ea891b56145eda
+    new: 79a883d53960fb2eaf02f72a37182078b4fc938e
     log: |
-         fced96df83e491cc182e9ec3ac6cf9234e705410 nfsd: pass caller-provided attrmask storage into nfsd4_setup_notify_entry4()
-         de7051270554f99559f9b6bcf3c4fb695c7c223d nfsd: back CB_NOTIFY notify_mask words with per-delegation storage
+         79a883d53960fb2eaf02f72a37182078b4fc938e ASoC: pxa: Drop redundant probe error messages
          
