@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8257559762395052132=="
+Content-Type: multipart/mixed; boundary="===============7145075927211554187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 12 Aug 2026 17:02:58 -0000
-Message-Id: <178655417803.939629.13487048077754944636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 12 Aug 2026 17:03:37 -0000
+Message-Id: <178655421770.940078.462418664010191473@gitolite.kernel.org>
 
---===============8257559762395052132==
+--===============7145075927211554187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 31397cf1819210bd63fa3d2c7d8c24f7c8667d99
-    new: ac155a26750a595703e7dadff84735456d75a479
-    log: revlist-31397cf18192-ac155a26750a.txt
+  - ref: refs/heads/main
+    old: cba9ccb47e9fa4cc77692fb896cc5ab57a667882
+    new: 7b53449540502cb21b32bca62a6258e22cd97bbe
+    log: revlist-cba9ccb47e9f-7b5344954050.txt
 
---===============8257559762395052132==
+--===============7145075927211554187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31397cf18192-ac155a26750a.txt
+Content-Disposition: attachment; filename=revlist-cba9ccb47e9f-7b5344954050.txt
 
-e6802833990725e855f1a4bb78b08ad67b2599a2 MAINTAINERS: make Tung an official TIPC maintainer
-6266eeb24fd7028f1ae871e7592a7c1b150629aa MAINTAINERS: add myself as QCA8K maintainer
-26ba30221c03364d6ed9910be8da4c1fd871b07b devlink: add generic device max_sfs parameter
-38c35fdd801eaa67b83ea3b4d317f3fd2b87de63 net/mlx5: implement max_sfs parameter
-bc27fa08d090a0a921064ab9fa61b47d497c177d Merge branch 'devlink-add-generic-device-max_sfs-parameter'
-bfad9937de98755fa73bba4181e1de05069e7d54 selftests: net: test IPV6_FL_A_RENEW
-39dd045c15143b9a40473e4b79263b3f94d5f3a0 selftests: net: test IPV6_FL_F_REMOTE
-03df0d155ba11ec37e0b48bb93fede143ffef556 selftests: net: create own netns in ipv6_flowlabel_mgr
-b2690523a71fedf92c0bd1f8908c1cd7b62e26f6 selftests: net: test IPV6_FL_F_REFLECT
-b5d24f604506e75bd6eb606f116e03976d89b642 selftests: net: adopt harness for flow label mgr
-0ed2ebecd5388a9ccd986437f4edfda9ea7afd5f Merge branch 'net-selftests-adjustments-to-ipv6_flowlabel_mgr'
-5838193edccab7810d5dc51c165a316089272dc6 bnxt_en: enable PTM function
-878b56de01e255172745775cd8afcec2bd80268a selftests: drv-net: hide the devlink port_split test
-789e6a844b51bf6362a7e7f551553ba988f3dc92 mptcp: move the retrans loop to a separate helper
-6cafe51e0f98fe60a106783d30b2f4c4b6039f4c mptcp: move the stale logic out of retrans scheduler
-96d846e3e2a7ea01ff8a584a0b5e2a42fa9ccc1e mptcp: let the retrans scheduler do its job
-e0e4d56b050597a690b4dd1c281af532469b0636 mptcp: explicitly drop over memory limits
-b1224c4b40f6dfc10fa5654e8f0b690b83bb2905 mptcp: enforce hard limit on backlog flushing
-996643574cc8fc05ee70f78081f5c2af3601ecf5 mptcp: avoid code duplication in __mptcp_move_skb()
-e468d371180d3c5b3333660bd742103b88703adf mptcp: implemented OoO queue pruning
-ac155a26750a595703e7dadff84735456d75a479 Merge branch 'mptcp-out-of-order-queue-pruning'
+0c88868271653537ed443272dd8e7d13634d214b netfilter: ipset: fix refcount race between list:set GC and swap
+d45cc8020d7c0a9f01dee42ff5c40bc14c9af72f netfilter: bridge: release template ct on non-IP path
+04d2feaed8d0103c498727191ba04001d5100e67 ipvs: add totalconns for dest
+8f843441c4e7eae8ea83491e8c203c2b192edcf5 ipvs: properly update the overload flag on dest edit
+cdcc4e46180df8161f4d2f3c6fd6beaf6990133d ipvs: separate destination availability state
+2d19b95c9723001f214f7a47d67b09f46238f200 netfilter: nf_conntrack: defer invalid log until after unlock
+33d1469b0124cc0baaea7a2032123b77a81e0940 netfilter: nfnetlink_log: wait for rcu grace period before freeing pernet state
+e0ba936287dfe9783426aac27e5fd76fe35b38c9 ipvs: clear IPv4 options after rebasing tunnel ICMP errors
+d93660df4dd1d116f608ada4a29a80a5d6f0a6ed ipvs: revalidate ihl to prevent out-of-bounds access
+d02f592064347e0c1e0d84f24941ad338838cc48 netfilter: nf_tables_offload: suppress WARN_ON_ONCE for ENOMEM in abort path
+2014ac62df9d45bb9a004a043e85df7be09ed780 netfilter: flowtable: publish GC-visible tuple last
+4cbd69766b35a089664cadb1f613bb85f7ef77a9 netfilter: ipset: fix list type element drift bug
+490937b88cb592cc0c5367758edd700fd5abd15c netfilter: ipset: let destroy callbacks adjust ext mem size
+6bcd76c134c55c697148acb5c0194e9666abdf84 af_packet: Don't send zero-byte data in tpacket_snd().
+f60b396ee174206fe08ebf997d16cd3801b77b22 net/sched: act_api: fix TOCTOU NULL deref on a->goto_chain
+6bf14575c65569dcded90ef78afb8a6d57323f04 gve: fix zero-length skb frag with header-split
+3992ced109c70b771efad9e51ae68e5c7a04dea3 gve: fix NULL dereference due to missing ptp adjfine
+484ec2ab78438b06153fb12b16827992a5ab8204 Merge branch 'gve-bug-fixes-for-header-split-and-ptp'
+6d3724e616faf952c3adcf8414fc21a828ef3709 net/sched: cls_u32: skip hash tables in u32_bind_class()
+7b53449540502cb21b32bca62a6258e22cd97bbe Merge tag 'nf-26-08-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============8257559762395052132==--
+--===============7145075927211554187==--
