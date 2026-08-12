@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1584425213612644619=="
+Content-Type: multipart/mixed; boundary="===============2789933297356540445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 12 Aug 2026 03:43:29 -0000
-Message-Id: <178650620935.351011.17933024881527162767@gitolite.kernel.org>
+Date: Wed, 12 Aug 2026 03:43:32 -0000
+Message-Id: <178650621202.351113.407310463020591348@gitolite.kernel.org>
 
---===============1584425213612644619==
+--===============2789933297356540445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e0ffd277b09a7c9f1a436e5f75be37ac490bc59f
-    new: bcfb85788fbb0b1e8dbb7d5adc010ace0998b767
-    log: revlist-e0ffd277b09a-bcfb85788fbb.txt
+  - ref: refs/heads/mm-unstable
+    old: 17e5919bdca144d4e67337f53bf57d7811f62192
+    new: 47870fb9b0e3bd20b45e3a069b4c766f3dcb721a
+    log: revlist-17e5919bdca1-47870fb9b0e3.txt
 
---===============1584425213612644619==
+--===============2789933297356540445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0ffd277b09a-bcfb85788fbb.txt
+Content-Disposition: attachment; filename=revlist-17e5919bdca1-47870fb9b0e3.txt
 
 f33f3b940a442eaa1db88387bb4f85f51a51369a memcg: keep folio's objcg same as its node
 5cb3d98dda244b41dc31ec1cd2da5f00b1384c69 MAINTAINERS: remove git URL for Squashfs
@@ -213,20 +213,5 @@ b3ce674c481fe676cbd72a24ee1e0204467cfcfb sh: remove SPARSEMEM related entries fr
 81734573a70f2017453269bbec7a41ad9dc3c1d9 mm/cma: remove stray newline from auto-generated CMA area name
 75991802e2c78dcf221f06b833bca5508fd8ac69 kasan: fix cache shrink race with CPU hotplug
 47870fb9b0e3bd20b45e3a069b4c766f3dcb721a mm/gup_test: keep longterm pin state per file
-2358b078a09b815fd345d49072df055bdb762df5 mm/hmm.c:hmm_do_fault(): suppress sparse warning
-31b62d64de40dddb03199b99260b5f3a770c0762 mm-hmmc-hmm_do_fault-suppress-sparse-warning-fix
-7bb358a0087ccd7c3c1c5073d6b4093682799091 zram: fix slot lock bit position on big-endian 64-bit
-cb2012ccd63ef6984a0fd850d44097193bb70e01 mm/page-writeback: document folio_mark_dirty() locking more explicitly
-b8449732528f740fa0540ba6eba9eb5762a19f4f zsmalloc: account for handle size in class lookup
-44bd5660e7e9378562172a681a2a5e9316b76e13 selftests/proc: make proc-maps-race work with READ_IMPLIES_EXEC
-1bc2e715cfc21e35c382354b3b36b8e677688cf4 mm/swap: revert to single-folio writes for synchronous swap devices
-cc822db334944bc4e3c82eeaeb27ddbcfbda3af3 mm/swap: add a new swap_ops.h header to allow for pluggable swap ops
-f40f367f0741cde99a45992887db47db98f0fc97 mm/swap: move swap_ops into file systems for file system-based swap
-a7468588a4a6adf0735c4070e6004e93c7d3c50d lib/Kconfig.debug: make DEBUG_FORCE_WEAK_PER_CPU depend on S390||ALPHA
-81542d867042f573d8d770ea1f70a6156833e092 kasan: fix quarantine_size accounting during cache removal
-4e228e45a134509387bdd7f9975546e029fded4c selftests/cgroup: test_zswap: skip test_no_kmem_bypass if debugfs is unavailable
-79bec91e8dde231411df8298fafad688b21888a4 selftests-cgroup-test_zswap-skip-test_no_kmem_bypass-if-debugfs-is-unavailable-fix
-e5c10950c2c7c7e3b9f1a45be5576118176ee884 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-bcfb85788fbb0b1e8dbb7d5adc010ace0998b767 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1584425213612644619==--
+--===============2789933297356540445==--
