@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Wed, 12 Aug 2026 12:17:23 -0000
-Message-Id: <178653704311.718480.4179691180016549796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Wed, 12 Aug 2026 12:18:07 -0000
+Message-Id: <178653708749.718839.16283288968681712628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: imbrenda
 changes:
-  - ref: refs/heads/next
-    old: cd4a294c4b2dcdf86b87128ce4d2023fc016a285
-    new: 5b08a3afd2995e5312c4c47ffea9d21b651e8e13
-    log: |
-         5b08a3afd2995e5312c4c47ffea9d21b651e8e13 soundwire: dmi-quirks: Disable ghost Realtek on Asus ROG Zephyrus Duo
-         
+  - ref: refs/heads/master
+    old: 511f4e533681ed065c470d3a0076581b6c7ea8a2
+    new: 30300ec2780efa6cb9ea0887d1b94506af9c4eea
