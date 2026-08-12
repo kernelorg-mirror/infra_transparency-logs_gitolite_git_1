@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krisman/unicode
-Date: Wed, 12 Aug 2026 16:29:23 -0000
-Message-Id: <178655216367.910895.6129437007335296969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 12 Aug 2026 16:29:46 -0000
+Message-Id: <178655218632.911135.3394574120461271350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krisman/unicode
-user: krisman
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/tags/unicode-for-next-7.3
-    old: 0000000000000000000000000000000000000000
-    new: 26d856b66a7fd2937f60da2755de6fff29136a0a
+  - ref: refs/heads/for-7.3
+    old: ba1d87b2bf151c642e0ab29d22e408545f89fbec
+    new: 3d7fb01b36aa85b2fc912b51305fbe011d1c3290
+    log: |
+         3d7fb01b36aa85b2fc912b51305fbe011d1c3290 ASoC: mediatek: mt8365: use devm_platform_ioremap_resource helpers
+         
