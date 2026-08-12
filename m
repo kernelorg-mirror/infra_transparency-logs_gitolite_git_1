@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 12 Aug 2026 03:44:33 -0000
-Message-Id: <178650627308.351587.9512560354972855970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 12 Aug 2026 04:07:28 -0000
+Message-Id: <178650764835.368576.10167426423118426318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: a2a68089f8576be333c9aae8107b9d8b088e367f
-    new: 3a7435444699995b28cb00e51f632efe09d70b3b
+    old: ddb24e84cba96fc3e643a593ed3017f228cda1c8
+    new: 3c8142d4a7db748bcaef52207579ac73055019e3
     log: |
-         04deb82a777049007721dd4a6b3b807b64e27268 patches/mm: update
-         55354570f3be2989e7692b932d06bc681f69883b todo: add todo for vaddr probe support
-         62fb57c3ca942280187b61a616e130f61bf0ae29 patches/next: rebase to latest mm-new
-         144ae35c66ae2478cc00a21bbd72311a681559bc patches/mm: update
-         3a7435444699995b28cb00e51f632efe09d70b3b patches/next: rebase to latest mm-new
+         8cd6c252eeacd5987f7d9f7bcf15ed867ebfacab foo
+         3c8142d4a7db748bcaef52207579ac73055019e3 foo
          
