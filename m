@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Aug 2026 18:52:57 -0000
-Message-Id: <178656077764.1028102.5254881558427167539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 12 Aug 2026 18:54:33 -0000
+Message-Id: <178656087302.1028926.16574869506009652769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/spi-7.3
-    old: 32c55bfb29f24a3b8b0d2503d6e3317f531e9ca6
-    new: 923e41ed59511cffe98357c7d58d0294a1c157ee
+  - ref: refs/heads/master
+    old: d1e611a525487f7c1f18d5ae826a9b9271e68f95
+    new: adc5d27610447efcfd4f937f0b61d9a6e9c74584
     log: |
-         356d5869bc33abda94e3dc01eea2293363230efb spi: mtk-nor: Propagate errors from optional IRQ lookup
-         560fbcf4720b6d671597f271911fb6b60787738e spi: mtk-nor: Propagate errors from IRQ request
-         923e41ed59511cffe98357c7d58d0294a1c157ee spi: img-spfi: don't disable runtime PM on DMA deferred probe
+         adc5d27610447efcfd4f937f0b61d9a6e9c74584 docs: smtp-timeout ships in 0.16.1, not 0.17
+         
+  - ref: refs/heads/stable-0.16.y
+    old: d57d184c92eaf0fd58d937dc7ad5e2bbb87dd405
+    new: 70db55c27aa002e561c2a3542c2c16ec292ba45a
+    log: |
+         70db55c27aa002e561c2a3542c2c16ec292ba45a docs: smtp-timeout ships in 0.16.1, not 0.17
          
