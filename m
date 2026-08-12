@@ -1,31 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Wed, 12 Aug 2026 15:00:44 -0000
-Message-Id: <178654684464.842756.16492365012619204769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Wed, 12 Aug 2026 15:08:10 -0000
+Message-Id: <178654729096.847273.17237078646046791249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/v5.10-rt-next
-    old: 048073fee30e85832c8a2d8ef6792cab7620c1e8
-    new: 2438f8a5dd7b14df389e3a88a7a7aa1f6b46fce2
+  - ref: refs/heads/cpa-fixes
+    old: 6d4bdaa17badcf6572818232b261e8ef12d0711c
+    new: 23fa304705d959c48d98fe63f950de65fc2dc917
     log: |
-         9de1a49e8f1fbf7c372902573a27a97d4ab4d0af x86/bugs: Make Safe-RET robust against interrupt injection
-         a77ab369471931938dca32e232688aa328cbc051 Linux 5.10.263
-         ad5e69629ebcec7615745142af5f6456ef942e80 Revert "x86/bugs: Make Safe-RET robust against interrupt injection"
-         dfefa3c51370f84acb643cddf98bb42c885d0483 x86/bugs: Make Safe-RET robust against interrupt injection
-         acccef89f184a697fee1c96a1dc9cccbba36937b Linux 5.10.264
-         c5392483fa8165b743971abf841ee67048bb1931 Linux 5.10.262-rt158
-         114b1183b66cace79d821f3a80729cae816640f8 Merge tag 'v5.10.263' into v5.10-rt
-         3e430830080c5c92c590e8700f3461df61a3c14f Linux 5.10.263-rt159
-         2e3b14587086e5a17a6b3432191ec5abe1feab9d Merge tag 'v5.10.264' into v5.10-rt
-         2438f8a5dd7b14df389e3a88a7a7aa1f6b46fce2 Linux 5.10.264-rt160-rc1
+         c980eafc5b738f274b36fac634f06ff000a07038 x86/mm: Use guard() in cpa_collapse_large_pages()
+         7558828805dae97ed82c8662119667189d062415 x86/mm: Use guard() for pgd_lock
+         7da514d819a0afb148634aac92b3d190f34947c3 x86/mm: Fix and document DEBUG_PAGEALLOC
+         c949657f06599c5ed33d7626e4c280549c5f4128 x86/mm/pat: acquire init_mm write lock on collapse to avoid UAF
+         bbe7d7397af14436bf3b4f3c0d2d13c84e246c2f x86/mm/pat: acquire init_mm read lock on attribute change to avoid UAF
+         aae434cbad05053b33809a9174490966337ccb12 x86/mm/pat: allocate split page tables as kernel page tables
+         e7598bc2bb43dfcc51711da0507027c86973ec3e x86/mm/pat: fix effective RW computation in lookup_address_in_pgd_attr()
+         23fa304705d959c48d98fe63f950de65fc2dc917 x86/alternative: exclude text poking against change_page_attr()
          
-  - ref: refs/tags/v5.10.264-rt160-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fdacd1ea2a923cadfefb429ed0f7f2a5089bc0d5
