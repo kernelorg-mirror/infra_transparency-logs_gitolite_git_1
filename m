@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0147978598684784322=="
+Content-Type: multipart/mixed; boundary="===============3587378553290742177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 12 Aug 2026 14:22:52 -0000
-Message-Id: <178654457250.810535.5791651439178461366@gitolite.kernel.org>
+Date: Wed, 12 Aug 2026 14:22:55 -0000
+Message-Id: <178654457527.810649.14409853304117677217@gitolite.kernel.org>
 
---===============0147978598684784322==
+--===============3587378553290742177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: bcfb85788fbb0b1e8dbb7d5adc010ace0998b767
-    new: 9eba1ecd48e4d85eacdb2a351de4f8cc1527c395
-    log: revlist-bcfb85788fbb-9eba1ecd48e4.txt
+  - ref: refs/heads/mm-unstable
+    old: 47870fb9b0e3bd20b45e3a069b4c766f3dcb721a
+    new: 102d38f88828bba4bec1e382a62e87a57de96b80
+    log: revlist-47870fb9b0e3-102d38f88828.txt
 
---===============0147978598684784322==
+--===============3587378553290742177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcfb85788fbb-9eba1ecd48e4.txt
+Content-Disposition: attachment; filename=revlist-47870fb9b0e3-102d38f88828.txt
 
 673502e7af885a18b42e4126031cb4eb103e00c3 memcg: keep folio's objcg same as its node
 47342c3d8c0c3755b89977d4f1574ecf9f13c11e MAINTAINERS: remove git URL for Squashfs
@@ -215,9 +215,5 @@ fbb292dfcd377d4600f5887b1e281bc44b9b0480 lib/Kconfig.debug: make DEBUG_FORCE_WEA
 ed929b6783572b190f5cfbc9edc46e4223b1d69e kasan: fix quarantine_size accounting during cache removal
 23a1b92948fa940337dbd6c0a1f1374a4e269119 selftests/cgroup: test_zswap: skip test_no_kmem_bypass if debugfs is unavailable
 102d38f88828bba4bec1e382a62e87a57de96b80 selftests-cgroup-test_zswap-skip-test_no_kmem_bypass-if-debugfs-is-unavailable-fix
-b9d5ac4254920df89ab896d1b14b8478140da52a mm/hmm.c:hmm_do_fault(): suppress sparse warning
-cd65f6ae781022a6dd32401620b45136b2f476d7 mm-hmmc-hmm_do_fault-suppress-sparse-warning-fix
-cd9bcdd26e5f1a45dbb6bc39ce2f76191df96c02 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-9eba1ecd48e4d85eacdb2a351de4f8cc1527c395 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0147978598684784322==--
+--===============3587378553290742177==--
