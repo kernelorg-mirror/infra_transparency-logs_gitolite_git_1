@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 12 Aug 2026 02:19:56 -0000
-Message-Id: <178650119660.290991.5161772079351504532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 12 Aug 2026 02:37:08 -0000
+Message-Id: <178650222809.304284.7170890622590772353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-7.3
-    old: 6dd5d93f6c48a461157c73b9e2ce7f6d19d57f5a
-    new: 44f57a2b1b9fabe3735a9b2669bb146ddb571fce
+  - ref: refs/heads/aspm
+    old: ec3d987fcaf92516d13ee18c305c82281557046d
+    new: 189e27e36cf12e9dd9feebcb9ee336102fabe9f0
     log: |
-         44f57a2b1b9fabe3735a9b2669bb146ddb571fce cgroup/cpuset: Add test for partition root invalidation returning wrong CPUs
-         
-  - ref: refs/heads/for-next
-    old: 88549dbe7f8580f02fe68c5b72257553d738b011
-    new: 5c37027ab53fba3f9cd95230f76d30f0df19329d
-    log: |
-         44f57a2b1b9fabe3735a9b2669bb146ddb571fce cgroup/cpuset: Add test for partition root invalidation returning wrong CPUs
-         5c37027ab53fba3f9cd95230f76d30f0df19329d Merge branch 'for-7.3' into for-next
+         75a3b50ad9dc99ce9693a0086b968c6d3501db21 PCI/ASPM: Use pcie_capability_clear_and_set_word() for ASPM disable/restore
+         8e10970f6baf21ecb828b9a161078f561bc92d7d PCI/ASPM: Disable/restore ASPM on every function for multi-function devices
+         189e27e36cf12e9dd9feebcb9ee336102fabe9f0 PCI/ASPM: Mask ASPM states based on Devicetree properties
          
