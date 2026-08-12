@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/liblore/liblore
-Date: Wed, 12 Aug 2026 19:47:16 -0000
-Message-Id: <178656403630.1070035.13726193971147398276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 12 Aug 2026 20:11:10 -0000
+Message-Id: <178656547015.1087557.10144272743959204417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/liblore/liblore
-user: mricon
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: c2430d3b7586ef0d33bafd77ecf0e800a1467cf3
-    new: ac6e56d0b80983002b93ceb4640b3aafeb1a1323
-    log: |
-         79d687d666f15150fc610b33bf74ead27a24d6c5 deps: refresh dependency pins and fix new toolchain findings
-         ac6e56d0b80983002b93ceb4640b3aafeb1a1323 Release v0.9.0
-         
-  - ref: refs/tags/v0.9.0
+  - ref: refs/heads/for-7.3-arena-args
     old: 0000000000000000000000000000000000000000
-    new: 98415160163984816b50be80e8fa240b864f9929
+    new: 294d95ff251b4333c1449ff000ed0aef478fbc9d
+  - ref: refs/heads/arena-args
+    old: 0000000000000000000000000000000000000000
+    new: a05c5b5cb5cfc2c2b27ce05a690dd0af1bcdf099
