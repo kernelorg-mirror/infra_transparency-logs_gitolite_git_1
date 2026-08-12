@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4405210235805711130=="
+Content-Type: multipart/mixed; boundary="===============1156118874468557548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 12 Aug 2026 17:30:12 -0000
-Message-Id: <178655581292.963240.17514362044977476717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 12 Aug 2026 17:30:30 -0000
+Message-Id: <178655583018.963651.16681230609070740301@gitolite.kernel.org>
 
---===============4405210235805711130==
+--===============1156118874468557548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 5e6de6a2b522f659defacb1551d0465ba6ce13cf
     new: 28d012efb4327f9c75d5e042a7c91e9a542efa98
     log: revlist-5e6de6a2b522-28d012efb432.txt
-  - ref: refs/heads/stable
-    old: d58772d8520c7ef247c4b95c9bd76d3a25da9ff5
-    new: f5bbbfec59b4e2fb7520a91de3df8a6174325d6a
-    log: |
-         24aa630f6259e6a2107936c06fed72063f712b64 selftests/ftrace: Convert ELF entry point to file offset in uprobe test
-         f5bbbfec59b4e2fb7520a91de3df8a6174325d6a Merge tag 'probes-fixes-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         
   - ref: refs/tags/next-20260812
     old: 0000000000000000000000000000000000000000
     new: 6acdac8eb0ebd00921759e69070aa997b55f5041
 
---===============4405210235805711130==
+--===============1156118874468557548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -873,4 +866,4 @@ f551b1df60f31423c6dc22650041f6a34830664a Merge branch 'for-next' of https://git.
 33adbc4986c44c78e0974aee4bbf9909ab048cfc Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 28d012efb4327f9c75d5e042a7c91e9a542efa98 Add linux-next specific files for 20260812
 
---===============4405210235805711130==--
+--===============1156118874468557548==--
