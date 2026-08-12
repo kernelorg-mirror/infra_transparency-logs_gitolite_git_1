@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3971270833877817575=="
+Content-Type: multipart/mixed; boundary="===============1687750914862342514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 12 Aug 2026 17:07:55 -0000
-Message-Id: <178655447562.944475.17301345254159541910@gitolite.kernel.org>
+Date: Wed, 12 Aug 2026 17:07:57 -0000
+Message-Id: <178655447797.944564.13677474598616052628@gitolite.kernel.org>
 
---===============3971270833877817575==
+--===============1687750914862342514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: cba9ccb47e9fa4cc77692fb896cc5ab57a667882
     new: 7b53449540502cb21b32bca62a6258e22cd97bbe
     log: revlist-cba9ccb47e9f-7b5344954050.txt
 
---===============3971270833877817575==
+--===============1687750914862342514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ f60b396ee174206fe08ebf997d16cd3801b77b22 net/sched: act_api: fix TOCTOU NULL der
 6d3724e616faf952c3adcf8414fc21a828ef3709 net/sched: cls_u32: skip hash tables in u32_bind_class()
 7b53449540502cb21b32bca62a6258e22cd97bbe Merge tag 'nf-26-08-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============3971270833877817575==--
+--===============1687750914862342514==--
