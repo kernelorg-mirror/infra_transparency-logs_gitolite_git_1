@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1634871170785324872=="
+Content-Type: multipart/mixed; boundary="===============8257559762395052132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 12 Aug 2026 17:02:55 -0000
-Message-Id: <178655417563.939539.3703068571774173755@gitolite.kernel.org>
+Date: Wed, 12 Aug 2026 17:02:58 -0000
+Message-Id: <178655417803.939629.13487048077754944636@gitolite.kernel.org>
 
---===============1634871170785324872==
+--===============8257559762395052132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 31397cf1819210bd63fa3d2c7d8c24f7c8667d99
     new: ac155a26750a595703e7dadff84735456d75a479
     log: revlist-31397cf18192-ac155a26750a.txt
 
---===============1634871170785324872==
+--===============8257559762395052132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ b1224c4b40f6dfc10fa5654e8f0b690b83bb2905 mptcp: enforce hard limit on backlog fl
 e468d371180d3c5b3333660bd742103b88703adf mptcp: implemented OoO queue pruning
 ac155a26750a595703e7dadff84735456d75a479 Merge branch 'mptcp-out-of-order-queue-pruning'
 
---===============1634871170785324872==--
+--===============8257559762395052132==--
