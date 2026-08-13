@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1791587200330101490=="
+Content-Type: multipart/mixed; boundary="===============7742204904625385076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 13 Aug 2026 01:14:49 -0000
-Message-Id: <178658368933.1317870.17456161935848312940@gitolite.kernel.org>
+Date: Thu, 13 Aug 2026 01:14:52 -0000
+Message-Id: <178658369207.1318025.16443376279526405912@gitolite.kernel.org>
 
---===============1791587200330101490==
+--===============7742204904625385076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9eba1ecd48e4d85eacdb2a351de4f8cc1527c395
-    new: 7ba5daade5ab61776382020b708b1ef75c9af1ea
-    log: revlist-9eba1ecd48e4-7ba5daade5ab.txt
+  - ref: refs/heads/mm-unstable
+    old: 102d38f88828bba4bec1e382a62e87a57de96b80
+    new: f9ca2fa9ef7e9b39ec79a0596929d1a1f8704c5f
+    log: revlist-102d38f88828-f9ca2fa9ef7e.txt
 
---===============1791587200330101490==
+--===============7742204904625385076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eba1ecd48e4-7ba5daade5ab.txt
+Content-Disposition: attachment; filename=revlist-102d38f88828-f9ca2fa9ef7e.txt
 
 17f6044366d6373a595a202c6777063e01a3199d memcg: keep folio's objcg same as its node
 6726bbbd1958720545a80f14862717ca17adbc9c MAINTAINERS: remove git URL for Squashfs
@@ -218,12 +218,5 @@ f21a0d22201d045f5ca2716702f91265d3fe5803 mm/khugepaged: fix outdated comments
 be4b063fba413cc05de7fe6f24649033c31217f1 mm/khugepaged: unmap pte before releasing vma write lock
 76c35665d157d0eb50c348d074c5e48bc1384b6e mm: Documentation: clarify where the mTHP stats live
 f9ca2fa9ef7e9b39ec79a0596929d1a1f8704c5f Docs/mm: fix outdated "radix tree" in page_migration
-30d37d994c94c0c6d1950ffc7f8e9d90e462ea6d mm/hmm.c:hmm_do_fault(): suppress sparse warning
-a64db2ec1f8b6665fc29e573589e31fe29fa2d46 mm-hmmc-hmm_do_fault-suppress-sparse-warning-fix
-043569d812279b042bd00c50f7b59d6ef2116b95 mm/mglru: fix and remove redundant unevictable folio handling
-a190ad17a1b17b166e7b535e24960db8e6615b09 percpu: drop CONFIG_DEBUG_FORCE_WEAK_PER_CPU
-85a93363b0f376fe23aac105103e5a63434bf6ba lib/test_hmm: fix garbage pfn and wrong direction in devmem fault debug
-6a15526397ad63ca5977c082d551a1058899fe9a mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-7ba5daade5ab61776382020b708b1ef75c9af1ea mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1791587200330101490==--
+--===============7742204904625385076==--
