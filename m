@@ -1,41 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2950230817483931743=="
+Content-Type: multipart/mixed; boundary="===============6008428923280621124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 13 Aug 2026 11:14:38 -0000
-Message-Id: <178661967866.1826309.14136303806993823821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Thu, 13 Aug 2026 11:15:52 -0000
+Message-Id: <178661975269.1829101.1942195673660053265@gitolite.kernel.org>
 
---===============2950230817483931743==
+--===============6008428923280621124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/core
-    old: 6e70aef598a2779389be297afda9f61b3d19759f
-    new: 7df1638df97b2aaaff4731b72d4940053257c952
-    log: revlist-6e70aef598a2-7df1638df97b.txt
+  - ref: refs/heads/sched/core
+    old: 24546b95ff72b801d3421be8ef4e3e30b08bc82f
+    new: dfe49bd77211ea948d46a2c12c25639f7c67899c
+    log: revlist-24546b95ff72-dfe49bd77211.txt
 
---===============2950230817483931743==
+--===============6008428923280621124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e70aef598a2-7df1638df97b.txt
+Content-Disposition: attachment; filename=revlist-24546b95ff72-dfe49bd77211.txt
 
-3a83d9cd3d0e66c0ef99ce84f972ed26f50c990f objtool/klp: Fix vmlinux .klp.symid link error for .no_trim_symbol symbols
-1ea786097cd79522b76cbd41beeb8f84ef3a76f4 objtool/klp: Fix size of empty special section entries
-636f230ce21e2730072c58280f1fa0bed4a00eed objtool/klp: Ignore replacement offset of empty x86 alternatives
-69f361b8a7a2f65c1bb236ea0899cdaad7267653 objtool/klp: Explicitly disallow patching or referencing init code/data
-07f14d6af9d7791fdc2b44a3dd0693e42c71d2b8 objtool/klp: Fix cross-module klp relocation section naming
-86a697572c6271083694025eefa8de518eeef623 objtool/klp: Don't match local symbols against exports
-72d76d0c18ebd40f6a32df875ff40528564849c1 objtool/klp: Allow new references to module exports
-4cd3cfb8b54feca89a682720434092a87bfa4967 objtool/klp: Fix relocations for EXPORT_SYMBOL_FOR_MODULES() symbols
-51c1de13486315ad46a74b40ec17124916a08277 objtool/klp: Fix line numbers in Module.symvers parse errors
-6656cf1e975aa152c082012b820efffaebd49979 objtool/klp: Fix vmlinux .klp.symid link error for .exitcall.exit symbols
-7df1638df97b2aaaff4731b72d4940053257c952 objtool/klp: Fix .kcfi_traps special section extraction
+293f9611ae73564febc553935830074f0f300694 sched/fair: Prefer fully idle cores for NOHZ balancing
+180ff97c186971c2106e68470e4370ace0b8fbbc sched/fair: Do not skip CPUs of similar capacity with busy SMT siblings
+6060d61d13a10da8c90da4eadf4a421825149883 sched/fair: Also gate overloaded status update for SD_ASYM_CPUCAPACITY
+50b101f6e586b4417d060a976fd831cd87e86e2b sched/fair: Check CPU capacity before comparing group types during load balance
+0fbd428d078876cefe908efdbee47a4d5adc5f24 sched/fair: Skip misfit load accounting when the destination CPU cannot help
+7fd540b1bcaf59289e6e921463037d4eadc1d75b sched/fair: Allow load balancing between CPUs of identical capacity
+f2c2ba7219e535afdb2ae7d66e6e3df0332eab70 sched/topology: Restore SD_PREFER_SIBLING in domains with asymmetric capacity
+2b58c749b8c5244e259a0230bc57b10b010dc545 sched/isolation: Defer freeing of cpumask memblock memory to initcall
+101a16b56c1f045f9fe4fb729634d68782065c4f sched/core: Don't steal a proxy-exec donor
+675f08bad880c50c8021ce7b7d41341b59c21416 sched/core: Avoid migrating blocked_on tasks
+e5f45db80e4d372284021728ada4cb20ad373a31 sched/core: Don't proxy-exec unmatched cookie lock owners
+dae6fbbdbd2f1154bae98a27df682ae557ccd7e2 sched: Switch rq->next_class in proxy_reset_donor()
+07b6e0e747eb42c0d93d43d00ddb4e9aaa335298 sched: Break out core of attach_tasks() helper into sched.h
+dfe49bd77211ea948d46a2c12c25639f7c67899c sched: Migrate whole chain in proxy_migrate_task()
 
---===============2950230817483931743==--
+--===============6008428923280621124==--
