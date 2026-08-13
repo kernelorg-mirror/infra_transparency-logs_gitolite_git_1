@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5912557430176414369=="
+Content-Type: multipart/mixed; boundary="===============3779672332433677722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 13 Aug 2026 21:57:29 -0000
-Message-Id: <178665824902.2320984.11981454699469168535@gitolite.kernel.org>
+Date: Thu, 13 Aug 2026 21:57:31 -0000
+Message-Id: <178665825190.2321168.15805334205036641985@gitolite.kernel.org>
 
---===============5912557430176414369==
+--===============3779672332433677722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: b08c9857aa1f5f3a81d375d6d4bb1d8b92f22ebc
-    new: db2ddb87143519e20a95aa36c60b36107b736a58
-    log: revlist-b08c9857aa1f-db2ddb871435.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 527dd7fb6209857f8ff4426055b3a418e60faa8b
+    new: fd773ef990c2f30c6a506432f6296544dbb8d860
+    log: revlist-527dd7fb6209-fd773ef990c2.txt
 
---===============5912557430176414369==
+--===============3779672332433677722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b08c9857aa1f-db2ddb871435.txt
+Content-Disposition: attachment; filename=revlist-527dd7fb6209-fd773ef990c2.txt
 
-ab602da96a915d42dcb1b0b322e8daea0f71b51f btrfs: zoned: skip fully truncated ordered extents at zone finish
 c4c0673e4cb15b0c127e6d00732a2427bdd12c11 btrfs: raid56: fix scrub read assembly submitting no reads
 8bed376124ab4505b70083a2b91f2c7ef6d51e24 ntfs: harden runlist realloc size calculations
 4e646ecd44759e552b0b9ccd995f3f608daab414 ntfs: drop stale page-cache when shrinking a non-resident attr
@@ -1050,5 +1049,6 @@ bf98d7b0d5a99991e47e66cee4eb1d3fa514be97 ring-buffer: Prevent subbuf order chang
 b643e495ae92e2aa75a54c557a756e02f049781d Merge tag 's390-7.2-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
+fd773ef990c2f30c6a506432f6296544dbb8d860 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============5912557430176414369==--
+--===============3779672332433677722==--
