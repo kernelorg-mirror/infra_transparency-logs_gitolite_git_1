@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 13 Aug 2026 00:52:33 -0000
-Message-Id: <178658235323.1293995.763755540947449199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Aug 2026 00:53:08 -0000
+Message-Id: <178658238850.1294416.15908993209688067470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: df2175350ec272f0250d30bc7ee762b4d23030cf
-    new: 108d44070e14d7cee3202879d00796e11f9e9219
+  - ref: refs/heads/main
+    old: dbf34acdfb29781dd4a8a86f7111d99c016fc7e8
+    new: d77f3f01682688ff5db18f027f66c34b4b39e1ac
     log: |
-         0253073fb7d79a2dd2eae9581ea16db2aef395a6 bpf: Fix UAF in bpf_trampoline_multi_attach_free on update failure
-         7c6beeb8c88f92866daab4516220667d1234d3c9 bpf: Make bpf_trampoline_multi_detach return void
-         108d44070e14d7cee3202879d00796e11f9e9219 Merge branch 'bpf-fix-trampoline-image-uaf-on-multi-detach-failure'
+         d77f3f01682688ff5db18f027f66c34b4b39e1ac r8169: give RTL_GIGA_MAC_VER_EXTENDED a distinct value
          
