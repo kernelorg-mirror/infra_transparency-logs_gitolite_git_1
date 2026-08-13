@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 13 Aug 2026 17:01:29 -0000
-Message-Id: <178664048956.2099096.11950160892891611646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 13 Aug 2026 17:01:35 -0000
+Message-Id: <178664049553.2099367.16072855297273331262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
-  - ref: refs/heads/for-7.3-arena-args
-    old: 294d95ff251b4333c1449ff000ed0aef478fbc9d
-    new: a05c5b5cb5cfc2c2b27ce05a690dd0af1bcdf099
+  - ref: refs/heads/for-7.3
+    old: 4e0ee51cc2b7a542e5679edaa14aaa82be3b4abb
+    new: 20a80e7f6b71bd664c98e95589f0cbc68804d200
     log: |
-         67f1f4a48c24974e392188602b477741186fa8ce sched_ext: Pass kernel arena pointers to ops_cid callbacks
-         a8dc810968af02190f55cc7574bc87c93156f266 sched_ext: Convert sub-cap kfuncs to __arena cmask arguments
-         a05c5b5cb5cfc2c2b27ce05a690dd0af1bcdf099 sched_ext: Convert scx_bpf_cid_override() to __arena array arguments
+         20a80e7f6b71bd664c98e95589f0cbc68804d200 workqueue: annotate racy p->wake_cpu accesses in kick_pool_pick()
+         
+  - ref: refs/heads/for-next
+    old: 0734d6b094ada1681811811084bee6e9a254f74d
+    new: 8f8bb3bad36e9f7afbb435840f70e3d2e7b894b3
+    log: |
+         20a80e7f6b71bd664c98e95589f0cbc68804d200 workqueue: annotate racy p->wake_cpu accesses in kick_pool_pick()
+         8f8bb3bad36e9f7afbb435840f70e3d2e7b894b3 Merge branch 'for-7.3' into for-next
          
