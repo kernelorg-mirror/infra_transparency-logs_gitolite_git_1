@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 13 Aug 2026 08:24:29 -0000
-Message-Id: <178660946912.1631223.6729726942667413624@gitolite.kernel.org>
+Date: Thu, 13 Aug 2026 08:30:10 -0000
+Message-Id: <178660981042.1637380.18342373857074841635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/tags/pwrseq-updates-for-v7.3-rc1
+  - ref: refs/tags/pinctrl-qcom-fixes-for-v7.2
     old: 0000000000000000000000000000000000000000
-    new: 6b0773ccdce17b808b5d5ca02d53e8c4593dcac3
+    new: 557169d44c3dd46c9309333d4c4ad24f241c1d67
