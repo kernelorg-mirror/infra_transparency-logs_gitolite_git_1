@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 13 Aug 2026 11:46:17 -0000
-Message-Id: <178662157753.1854594.13117559320943682718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 13 Aug 2026 11:51:01 -0000
+Message-Id: <178662186163.1858198.15254223021582564805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: efebfb46cfc7707ec884149a1b1c824331a5dbfc
-    new: ec6defc6963f2b617aa330fab2e7a5d0471a599e
+  - ref: refs/heads/hwmon
+    old: 139602524ad533716d786bfd1a11ab576cf77485
+    new: f7c9176d2326eacae3a87fa3f5214a78c818cc07
     log: |
-         560fbcf4720b6d671597f271911fb6b60787738e spi: mtk-nor: Propagate errors from IRQ request
-         ec6defc6963f2b617aa330fab2e7a5d0471a599e Merge remote-tracking branch 'spi/for-7.3' into spi-next
+         f7c9176d2326eacae3a87fa3f5214a78c818cc07 hwmon: (emc1403) Drop hysteresis for low limit temperature
          
