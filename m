@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Thu, 13 Aug 2026 10:58:40 -0000
-Message-Id: <178661872033.1815132.6619803108770192283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 13 Aug 2026 11:00:48 -0000
+Message-Id: <178661884837.1818028.6143768763320731946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: rppt
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/kexec-v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbf3d4a42ef02b45bc4f1c7c0c3bbf0f9e31c100
-  - ref: refs/tags/liveupdate-v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e1658195069f3071cc008845a66a24b636153110
+  - ref: refs/heads/master
+    old: 3fc1d685659a32b0deac7d5a05788e54c315afae
+    new: e813ef5674e0891b822dd47dd2434833923f94dc
+    log: |
+         3cca44d988a5bb420cff0901d1718eb9e6e5785e cache: fix memory leak in test program by freeing cache before reusing variable
+         e813ef5674e0891b822dd47dd2434833923f94dc Merge branch 'branch-02' of https://github.com/Leefancy/util-linux
+         
