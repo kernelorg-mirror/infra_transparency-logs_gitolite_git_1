@@ -1,80 +1,232 @@
-Content-Type: multipart/mixed; boundary="===============7527065628412354842=="
+Content-Type: multipart/mixed; boundary="===============5930737712451764580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 13 Aug 2026 23:34:37 -0000
-Message-Id: <178666407787.2390542.8947501897433444635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 13 Aug 2026 23:57:43 -0000
+Message-Id: <178666546382.2407721.11583278632506872224@gitolite.kernel.org>
 
---===============7527065628412354842==
+--===============5930737712451764580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: d55d5a8f3d852baab49dba910dcb04b6d8091b05
-    new: 24d15dace26e940fcfaf5aefb36b33a5228c8375
-    log: revlist-d55d5a8f3d85-24d15dace26e.txt
+  - ref: refs/heads/master
+    old: 735ac3bf80f891ae263d3aa4c825fa0863293a84
+    new: 40738a44cbd9ebb1e88433c533ed42baeec781a5
+    log: revlist-735ac3bf80f8-40738a44cbd9.txt
 
---===============7527065628412354842==
+--===============5930737712451764580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d55d5a8f3d85-24d15dace26e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ec3d987fcaf92516d13ee18c305c82281557046d PCI/ASPM: Avoid L0s for Realtek RTS525A
-f7b2ceb411479b4c95aee1c0dd720af53367ff8b dt-bindings: PCI: Correct white-space style
-d4c79b63d82d408c81f1629bcdc8cdbeebd85014 PCI: Allow D3 for native hotplug-capable Root Ports on non-x86 platforms
-071e245ab749c52338ec4eb7fe0a9bb2cee97492 PCI: Add support for PCIe WAKE# interrupt
-75a3b50ad9dc99ce9693a0086b968c6d3501db21 PCI/ASPM: Use pcie_capability_clear_and_set_word() for ASPM disable/restore
-1af156149d9a7de8e6cc44f09f4150cb677bf1bf Documentation: PCI: Document how to write PCI Host Controller drivers
-733cd811b3ac50586164a0864c4351fe23e21890 PCI/ASPM: Disable/restore ASPM on every function for multi-function devices
-eacf92a29af970b33f7323bf3e00a25bb23c8b19 PCI/ASPM: Mask ASPM states based on Devicetree properties
-6d99b198629dde79aa098214e82f2a99ea44f330 PCI: dwc: Add PCI ID for LECARC PCIe PMU
-face365457413173d4ef4baf887e93b3e3edd805 PCI: dwc: Handle return value from endpoint .init callback
-c1366b72ad4e87be60b57b74635a3a0bc58d2b0b PCI: dwc: Handle return value from endpoint .pre_init callback
-23d7eed5974989de56273c964d7e510e4aad91e8 PCI: Fix 32-bit config write in Intel PCH Root Port MPC ACS quirk
-117eb9c6011d5fee5735de223ae30c251c4eb973 Merge branch 'pci/aer'
-cf5dcee6940e3d3df1aa73d8c5f79da14c88bd8a Merge branch 'pci/aspm'
-d18e07dcf1505222c80e692c4a000f726897af80 Merge branch 'pci/doc'
-3ff436da374187e72e7f86cc9d5969c1434d18a4 Merge branch 'pci/dpc'
-f2b8b47eb498bdd7bde0c4a929665904229fc650 Merge branch 'pci/enumeration'
-15768248c37373131faef2dbe3b812f7dbe743b8 Merge branch 'pci/hotplug'
-740bfe54f9fbaa563a47c7a03d1193521cbb7701 Merge branch 'pci/p2pdma'
-a1636882eeae11ecad939f45a5564e5d14d41100 Merge branch 'pci/pm'
-77471c680285d8de71d3f1555e27f662b9186db8 Merge branch 'pci/portdrv'
-fb9a9062cb4abecb7456859f8e218b38ccf8b05c Merge branch 'pci/procfs'
-4121bbcd23cc0d5259cd8815a758731a2042b57f Merge branch 'pci/pwrctrl'
-579aa3b15fcce478d3760cb700b8eeb2b4129d2b Merge branch 'pci/resource'
-eb7dfd21bede71d3ba6af3800764567b48b36ebf Merge branch 'pci/switchtec'
-a90ad88a6fb9e751c917032a2ed83581a7e2b5da Merge branch 'pci/sysfs'
-fb0adc42a111bc3b5a0e793625b33e1b714020bc Merge branch 'pci/virtualization'
-2ce3732dbeed3c0a40bde981519b1484ae39771e Merge branch 'pci/wake'
-a76c91ba0eaa98514b7599cfc402aea63a5372f5 Merge branch 'pci/dt-binding'
-421a5270c513a6f1f98ff51b97c9f81733b3b85f Merge branch 'pci/endpoint'
-496eee02a55fa0aefc779141ed31bd304645b2ef Merge branch 'pci/controller/root-port-reset'
-c4488c1a0e62834562b84c0bcd4968bcddab8aa1 Merge branch 'pci/controller/host-generic'
-85b88ef8311f9ae31187d55380946ed2ddcfda2f Merge branch 'pci/controller/aspeed'
-b0322fb616f2ba94a23a29e14e1c0dc90127e075 Merge branch 'pci/controller/cadence'
-0e63eddeb38ae21a8b4067f6715c92557be4675e Merge branch 'pci/controller/dwc'
-7f70d6d2225673d47a3ec8a27de593083ac2b284 Merge branch 'pci/controller/dwc-imx6'
-719fd34e1d4810599d745aab560d0436aee4f463 Merge branch 'pci/controller/dwc-keystone'
-58347468d86d294349bbfb560c23fc1820740af9 Merge branch 'pci/controller/dwc-meson'
-efc33f7449291473515039c7b3b6857667f8af99 Merge branch 'pci/controller/dwc-qcom'
-44680cbc5ad13401de12860a5db6649d9a6617c1 Merge branch 'pci/controller/dwc-rcar-gen4'
-2ac746edb1f4d1bbff3c0f405f45e1f6c9b11c6f Merge branch 'pci/controller/dwc-spacemit-k1'
-31fd7fee2aa021795fee2fd67167ca33e3ee933c Merge branch 'pci/controller/dwc-ultrarisc'
-84211bde80219d91984073519dd6481573c3d798 Merge branch 'pci/controller/plda-host'
-5f3f28429c065855bca1d81381fd1b2ddfd49e10 Merge branch 'pci/controller/plda-starfive'
-f4296589bbb4e30e873b847388488c9acf4d2277 Merge branch 'pci/controller/mediatek'
-462fdb311d06ed751a9c94083882da8719b68fa7 Merge branch 'pci/controller/rzg3s-host'
-5d07baad31da1a3db03c6e8f700685ee53dacdbc Merge branch 'pci/controller/vmd'
-c16985a26d52d4dcbfa6009fcb07b94986c14ebf Merge branch 'pci/controller/xgene'
-9cbbe5d6c6f3bc8bfe22951a12fb2feff04bf3b3 Merge branch 'pci/controller/misc'
-24d15dace26e940fcfaf5aefb36b33a5228c8375 Merge branch 'pci/misc'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786665368 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1786665459-9fc5272e6a4a26df518fdcef4ce2485551e52159
 
---===============7527065628412354842==--
+735ac3bf80f891ae263d3aa4c825fa0863293a84 40738a44cbd9ebb1e88433c533ed42baeec781a5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+WZgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XMIP/RCRvU3jzVdv9SAEUD27
+jeDC5iEtRi6cEyT7fv0IydVuWWjy+QQRSoGs3D6uHP+ze6JHIOGT8YJzMnKlxDG4
+XpT+6UvpSEPYMGQtd5JyZpIpIUSt7bxKGNR5AralwLpM9AngKwaOPNt+K30tQCK1
+FhjzyiqpebI0t7A8J0TOqngjZBrtdY1xZSnvICyJnTPYynuW9bRnjw1VBhy0jz/x
+MhJktwCFgRRUw/U20F2VzPO/TW1Y4kPek1Puew6Ml4xJXKnj+v+S7DG2XuD03b5c
+JPswATkigBOtTr+G1t4iqSl044SrDvWlSuH2492PlZRHNxTnyySUooJjV20NSpwj
+ugT3OFviDcp5GjBtaz66oE4B+LMq8vwjTAOBLNPyJPBXbMSUii+4ovtT61bHfp8j
+NyZn83HgdoZCv/1RcGKzbZ4eedKRwwWMiRkxhyOOEwWHGmcCl/JXahuoTB6z35Jv
+WFPhnaRMNcx6oKV64FrmCB5Radqz+vNATsdbR4eGTtCtVKzZUupkU2uQRQxYABWn
+7YW5deazikRTW440VCcjy8hjfFop41ZwnF3rr0C+1/ZRkWJLH79AX2ne8yQf6qRK
+zMCQTXAy7UnYar1s6eu/5yTRUPLaFmw6jZ3xEe8FAICSGoUuPddL7mPrVpXpCxQZ
+vVX9Ezc4qRlFuHTAWYe/0uSv
+=NIFZ
+-----END PGP SIGNATURE-----
+
+--===============5930737712451764580==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-735ac3bf80f8-40738a44cbd9.txt
+
+222661d17e8b6e12741180f3f3caf7a114244705 CVE-2026-68451: Add CVSS 3.1 score (7.8 HIGH)
+00365f85a957c9f1982070b3c36b03b03c5d3ec9 CVE-2026-68452: Add CVSS 3.1 score (7.8 HIGH)
+1fd81f67a73c455ce900f85f9359884ec5804a3d CVE-2026-68445: Add CVSS 3.1 score (7.8 HIGH)
+c365c0a849aa8febd3288913375dfcfc97dfce42 CVE-2026-68454: Add CVSS 3.1 score (8.8 HIGH)
+c084c68ff55a455fe6c2c2170ec02d7038bcd76e CVE-2026-68446: Add CVSS 3.1 score (7.8 HIGH)
+cca19fc2f5360b4ab96f36e42899af0ed729ef6c CVE-2026-68453: Add CVSS 3.1 score (7.1 HIGH)
+44a97e659afcd5959ab30ad4feca386c7e69c6c6 CVE-2026-68447: Add CVSS 3.1 score (7.1 HIGH)
+c8c9251e75809481f3971a0bf046907e515cf693 CVE-2026-68442: Add CVSS 3.1 score (7.8 HIGH)
+bb4b177fd1855e920b37a608ff754ec73eb5221b CVE-2026-68440: Add CVSS 3.1 score (7.8 HIGH)
+1cf1b9f08096af2d0df9c8bda42f04f7bd02b910 CVE-2026-68432: Add CVSS 3.1 score (8.8 HIGH)
+9303e0776c4382962b9b2f22c63b7785e5425b7e CVE-2026-68433: Add CVSS 3.1 score (8.6 HIGH)
+95db74e6b40a9cab0a72c524bc8b5c89368d0e7c CVE-2026-68427: Add CVSS 3.1 score (7.8 HIGH)
+3cedec386fdc4b2347dcbcf4359bbfb998bff9e9 CVE-2026-68431: Add CVSS 3.1 score (9.1 CRITICAL)
+c387f95267d048758c94b2e52657677ec6de6f2b CVE-2026-68426: Add CVSS 3.1 score (9.8 CRITICAL)
+74e3754d678879f77c0fd9125c4b9200b6323367 CVE-2026-68420: Add CVSS 3.1 score (7.1 HIGH)
+796b23cc3851fd6f32e9a547ffea2a9bd90575a6 CVE-2026-68425: Add CVSS 3.1 score (7.1 HIGH)
+dd078e20174a2ff8d8ad5463abdd50fdbf1ef850 CVE-2026-68419: Add CVSS 3.1 score (7.8 HIGH)
+728b35b974fa9fd3d4c24d2573cad91fadffbf1b CVE-2026-68417: Add CVSS 3.1 score (7.8 HIGH)
+540300c80d5bdc14995ae2152bf375fd7df9ff3f CVE-2026-68414: Add CVSS 3.1 score (7.5 HIGH)
+e3c16802c5aea462218f88bc6eb52992dcc54222 CVE-2026-68415: Add CVSS 3.1 score (7.8 HIGH)
+b47a65622dbe23208e385b5d57ec10e3288c25e6 CVE-2026-68409: Add CVSS 3.1 score (8.8 HIGH)
+12336a4c53b13c3cff78bed7e5f0bda447de8261 CVE-2026-68404: Add CVSS 3.1 score (7.8 HIGH)
+f3142ed1908f243fc91fb66b075b746d6879ceaa CVE-2026-68402: Add CVSS 3.1 score (7.1 HIGH)
+2ef89a0248fc33daa9855cfbb61f335f8de69442 CVE-2026-68398: Add CVSS 3.1 score (7.8 HIGH)
+e2305c3cca94e90b6c9ca7c76b7d307b585dda1e CVE-2026-68397: Add CVSS 3.1 score (8.8 HIGH)
+0ce4a0db055854b8a9289d57bbcfe9b06809c9fc CVE-2026-68399: Add CVSS 3.1 score (7.8 HIGH)
+045455adcd98c1731db7485c33884de5fcacd88b CVE-2026-68400: Add CVSS 3.1 score (7.8 HIGH)
+149aeac9aa407b7f8f51da104a16aa8399f7ed29 CVE-2026-68401: Add CVSS 3.1 score (7.8 HIGH)
+d2db300956bc363e925a294da67f50bc87714273 CVE-2026-68394: Add CVSS 3.1 score (7.8 HIGH)
+5b5defbeb830d19525cc76f227e7d315e40a3526 CVE-2026-68393: Add CVSS 3.1 score (8.8 HIGH)
+212078484adad41510e1c55e02cef390c433cc1a CVE-2026-68392: Add CVSS 3.1 score (7.8 HIGH)
+9c224084aae1319b040dacead340003d39cbeab6 CVE-2026-68391: Add CVSS 3.1 score (7.8 HIGH)
+924baf184a8601b4c6366ccbcd3763b0412c2f0d CVE-2026-68389: Add CVSS 3.1 score (8.8 HIGH)
+b4d67eea64973c28b3c9aade46b134eb33e82d96 CVE-2026-68388: Add CVSS 3.1 score (9.8 CRITICAL)
+057ef73a0899e20050946a3de84a925a484e1cd6 CVE-2026-68387: Add CVSS 3.1 score (7.8 HIGH)
+b1dafe88df4b0b841120b43181c20f564364b22c CVE-2026-68390: Add CVSS 3.1 score (8.8 HIGH)
+e42025f87874ea07a25825ed28c1c9090de52e0b CVE-2026-68384: Add CVSS 3.1 score (7.8 HIGH)
+1e031344e9047c1587048e9ff400521ac9a27de5 CVE-2026-68383: Add CVSS 3.1 score (7.8 HIGH)
+566a2691856ebaafd6bde40aa4680646968653b4 CVE-2026-68380: Add CVSS 3.1 score (7.8 HIGH)
+6978e5cfc8781398bbfd5d6cf2e715379814620a CVE-2026-68385: Add CVSS 3.1 score (9.8 CRITICAL)
+4b62a02b784d938717f649a7c812d1ac238d766f CVE-2026-68381: Add CVSS 3.1 score (9.8 CRITICAL)
+592542f86e6d09681b8f57e42511aca28f345df5 CVE-2026-68382: Add CVSS 3.1 score (7.8 HIGH)
+67ad7b061cc5655ca94f76463ce52f8dde1d3b32 CVE-2026-68379: Add CVSS 3.1 score (7.5 HIGH)
+a63beeb061185bae3e2447e94f73fce61c30d759 CVE-2026-68377: Add CVSS 3.1 score (7.8 HIGH)
+4d456878e65e119579daaa447fa11137edd79cdc CVE-2026-68374: Add CVSS 3.1 score (7.8 HIGH)
+9df74315cc0c20d18900f312608680e04d4b21d3 CVE-2026-68373: Add CVSS 3.1 score (8.1 HIGH)
+75fa80b1075a82abff0623a1a4d19e17b7d2bbb3 CVE-2026-68370: Add CVSS 3.1 score (7.8 HIGH)
+2b32c1dbffa90ddcf77a16e76c004f429a58280a CVE-2026-68371: Add CVSS 3.1 score (8.4 HIGH)
+9fa8224365dd51c1222cd70ffa21bcae79d4274d CVE-2026-68376: Add CVSS 3.1 score (8.1 HIGH)
+518a98148b78c30e95e0568097ea0306c4ed80dc CVE-2026-68352: Add CVSS 3.1 score (8.3 HIGH)
+11b4866e249006770a5138f6ef3091b38a4e96b2 CVE-2026-68353: Add CVSS 3.1 score (8.1 HIGH)
+6a462a4cd2d0002cad46d484a26e50b4eddbb3aa CVE-2026-68354: Add CVSS 3.1 score (8.8 HIGH)
+8e3e47e9da047b98490c5ffbd075604f173cb790 CVE-2026-68348: Add CVSS 3.1 score (7.1 HIGH)
+25f9ad350d55aeb6453eaf94fbb61a56c98fff0c CVE-2026-68343: Add CVSS 3.1 score (9.1 CRITICAL)
+2919a4060497b509519bc04e02c95c2151712bfb CVE-2026-68338: Add CVSS 3.1 score (7.8 HIGH)
+84761e37f2edf2cb705b0f103e211b51b8fee37a CVE-2026-68340: Add CVSS 3.1 score (7.7 HIGH)
+396514cb0b216f3c175f228efac925b57e888849 CVE-2026-68341: Add CVSS 3.1 score (8.8 HIGH)
+b3cbc83f3a44a6f36b29855b562843268317b834 CVE-2026-68335: Add CVSS 3.1 score (7.8 HIGH)
+ad8ed10d91594ba2d66bc7b0a8fb87bd5150eaa1 CVE-2026-68329: Add CVSS 3.1 score (8.8 HIGH)
+8e4e8b79a4158b262be0401f459675827df7aaa8 CVE-2026-68330: Add CVSS 3.1 score (7.8 HIGH)
+d099b05ac0373dc2953b00497ad7b91afff68aaf CVE-2026-68323: Add CVSS 3.1 score (7.8 HIGH)
+f1d02c5a8af266764e824f395566aebc15ced7f5 CVE-2026-68326: Add CVSS 3.1 score (8.8 HIGH)
+d63523de0eaa69b42b387498e74a7cfc40ee25ea CVE-2026-68316: Add CVSS 3.1 score (7.8 HIGH)
+167275565ec5263f504db25783063547f9d72bb5 CVE-2026-68320: Add CVSS 3.1 score (7.3 HIGH)
+3c028579379fbb468d3aa3ba14a51f28394d3c75 CVE-2026-68314: Add CVSS 3.1 score (7.8 HIGH)
+fe9e726345f6b117e2e67e1a8851a09eb3d9d861 CVE-2026-68315: Add CVSS 3.1 score (7.5 HIGH)
+051414932e0b5edacdd1765ec1a901491a2062a7 CVE-2026-68305: Add CVSS 3.1 score (7.8 HIGH)
+8c369ce9b91ef25e6455a8e002c0f2c7ac8a1a25 CVE-2026-68299: Add CVSS 3.1 score (7.5 HIGH)
+280caa301852f6a0080a8dfc24d173cff816a7e2 CVE-2026-68302: Add CVSS 3.1 score (9.8 CRITICAL)
+92a43785d6148e799c2caeac6d7eda7d8027d475 CVE-2026-68298: Add CVSS 3.1 score (7.8 HIGH)
+e079af43c7023be82353ea57cbc778a083b72f1b CVE-2026-68297: Add CVSS 3.1 score (7.8 HIGH)
+6724a63b204c5f8454fe6ffdaa02439d1db0d17f CVE-2026-68295: Add CVSS 3.1 score (7.8 HIGH)
+a318e431613d60c3dd0a015bb16839989e69a3ef CVE-2026-68294: Add CVSS 3.1 score (8.8 HIGH)
+b1c64d07e07bdb95519896ee810ec1a815652850 CVE-2026-68300: Add CVSS 3.1 score (9.8 CRITICAL)
+da24482d78a9a075ba3bdd696e622d6cf5e7d53e CVE-2026-68290: Add CVSS 3.1 score (7.8 HIGH)
+b83ca21bce4f0a0ec2e8e3176e1070fd25ee6d2d CVE-2026-68293: Add CVSS 3.1 score (7.1 HIGH)
+cd2d95b7c893676ea694cd2556dfc16c4fd74605 CVE-2026-68284: Add CVSS 3.1 score (7.8 HIGH)
+9219209fe1d693597843f2544d91c3fb1dbad862 CVE-2026-68283: Add CVSS 3.1 score (8.8 HIGH)
+a8eae83c38b13f846913e4b653b2d33db80c5610 CVE-2026-68287: Add CVSS 3.1 score (7.5 HIGH)
+a0b4b5c1da37377860a9c0f73811fccdaedd5d09 CVE-2026-68274: Add CVSS 3.1 score (7.8 HIGH)
+e84f3764f4b471ee667c9a9ae81d638ccbd15e20 CVE-2026-68273: Add CVSS 3.1 score (7.8 HIGH)
+b3e1ad69c1511f2c98263cd8f3a0c46cb7e688b1 CVE-2026-68264: Add CVSS 3.1 score (7.8 HIGH)
+d0112ec0e18cc6598ba1da31ad6fc1735489ed50 CVE-2026-68263: Add CVSS 3.1 score (7.8 HIGH)
+4e5b3d44bef525718353a966d92062dda2a34256 CVE-2026-68266: Add CVSS 3.1 score (7.8 HIGH)
+5ab2bef1f28f815cef9a666fc2f64337907f886f CVE-2026-68265: Add CVSS 3.1 score (7.3 HIGH)
+352ae3f45518c8231260dcd7a045ff80cf84d85f CVE-2026-68262: Add CVSS 3.1 score (7.1 HIGH)
+bf3500211156fa0e7054cc0013ddf8744a3a5d8b CVE-2026-68260: Add CVSS 3.1 score (7.8 HIGH)
+f56059abaa61c2de0116dc9102be4588daa02eaa CVE-2026-68255: Add CVSS 3.1 score (7.7 HIGH)
+937eb0314e65cc961367ef33800ca6870ab756da CVE-2026-68257: Add CVSS 3.1 score (7.8 HIGH)
+f800c48f168c9e0d69a19c1406c202c22a28ae05 CVE-2026-68253: Add CVSS 3.1 score (7.8 HIGH)
+160b6041aec9773eb97f3321014af867d436a7ec CVE-2026-68258: Add CVSS 3.1 score (7.1 HIGH)
+4adb62fd6f57ed8ad5ab61cc5a9befdb268e2eba CVE-2026-68245: Add CVSS 3.1 score (7.8 HIGH)
+f24c684d73e343a3643f0d4e9f0e0250eba02dcc CVE-2026-68236: Add CVSS 3.1 score (7.8 HIGH)
+f24e681d2db0ba87abedbd79aa56f9a4e519cf63 CVE-2026-68240: Add CVSS 3.1 score (8.8 HIGH)
+53d2331c45c58d7683ca7af00e97b4651039f952 CVE-2026-68228: Add CVSS 3.1 score (7.8 HIGH)
+427c2b26e6b98062f9d63532c898f7a80320618b CVE-2026-68229: Add CVSS 3.1 score (7.1 HIGH)
+e6259e93b5ed0acf426f770c8aaa037c22102192 CVE-2026-68230: Add CVSS 3.1 score (7.3 HIGH)
+d08ce679435e2b31f0d877863e2376e8299db521 CVE-2026-68222: Add CVSS 3.1 score (7.8 HIGH)
+eeb0493a59fb1c25d7e80bbfe5e108c7e0c603e6 CVE-2026-68219: Add CVSS 3.1 score (7.8 HIGH)
+fc42cf51950af84fcf7787c5b8c572c48304802f CVE-2026-68216: Add CVSS 3.1 score (7.8 HIGH)
+4425e4089f160626999dfe532830e530ac4abe51 CVE-2026-68210: Add CVSS 3.1 score (7.8 HIGH)
+e88e4d04a7dc1f739bd56b45de32e9d78bdcab7e CVE-2026-68209: Add CVSS 3.1 score (7.8 HIGH)
+d2ac6d0df2486ddf6d5ce5a901d8b089ef80022c CVE-2026-68213: Add CVSS 3.1 score (7.8 HIGH)
+d6e04e7db6871871ddc7f8c2bd4c59c46e749ecf CVE-2026-68204: Add CVSS 3.1 score (7.8 HIGH)
+bb99d118bf9890d16f7ab5f371440e2c20a9364b CVE-2026-68202: Add CVSS 3.1 score (7.8 HIGH)
+7dabcccc9edbb1515ae6d11c1e7fa99fb8f09abe CVE-2026-68200: Add CVSS 3.1 score (7.8 HIGH)
+154425361980fa37c94592bdf5152dd23056995f CVE-2026-68201: Add CVSS 3.1 score (7.8 HIGH)
+66cec1bd377f0134e3bcef6e04b8527421a7ba9a CVE-2026-68206: Add CVSS 3.1 score (7.8 HIGH)
+eec726a7cf4ec4af4dda97a3b0ad9d078dba8e37 CVE-2026-68198: Add CVSS 3.1 score (8.8 HIGH)
+d15c7df1cab3193a566967cffcfb6b5ced72fb07 CVE-2026-68199: Add CVSS 3.1 score (8.8 HIGH)
+7beec2285cbcfa52d1138cd289bdbf0ed2729b4b CVE-2026-68192: Add CVSS 3.1 score (8.8 HIGH)
+76fc92f62261a6c094b1056911e9b76c47edf53e CVE-2026-68196: Add CVSS 3.1 score (8.3 HIGH)
+246c1ce13abf33560ebebea0a593621b34041d14 CVE-2026-68189: Add CVSS 3.1 score (7.8 HIGH)
+3fc3683a9e01eb4190eb086ff1bf5238520ea699 CVE-2026-68179: Add CVSS 3.1 score (8.4 HIGH)
+95f01214acfbecdeb0f12c27e49b36f50db68ddc CVE-2026-68177: Add CVSS 3.1 score (7.8 HIGH)
+7bafbe5c372542958022f24aafe1293028f3c94b CVE-2026-68173: Add CVSS 3.1 score (7.1 HIGH)
+2f782c5368a9644abc3dcafdc0963b4ff16ecfb2 CVE-2026-68178: Add CVSS 3.1 score (7.8 HIGH)
+0820df2f4f7cbe0d89f35758b8e0938825900a38 CVE-2026-68172: Add CVSS 3.1 score (7.1 HIGH)
+797b2a9a8911196e8ff4f300b93bd25390dc3424 CVE-2026-68170: Add CVSS 3.1 score (9.8 CRITICAL)
+3014d8f0a650155193a6b0f815ae16cc8aacbfc2 CVE-2026-68163: Add CVSS 3.1 score (7.8 HIGH)
+50b1bfeab5c232b756c3a0e364ca09033ee5d944 CVE-2026-68162: Add CVSS 3.1 score (7.8 HIGH)
+fcf41bab499c7597d3de99f43ced52445bea33a4 CVE-2026-68160: Add CVSS 3.1 score (9.8 CRITICAL)
+11c7e25735d13f3f7501b75d6e0a91647ca71fd2 CVE-2026-68159: Add CVSS 3.1 score (9.8 CRITICAL)
+652712fefd700a60d9e968b7badafba403a8e3ed CVE-2026-68161: Add CVSS 3.1 score (9.8 CRITICAL)
+647850d4f99b9e0eb1c9a61b25f0649f630d2ad8 CVE-2026-68158: Add CVSS 3.1 score (9.8 CRITICAL)
+ee8d9eaee9fcc0db914ce71619209ffa187bf6fd CVE-2026-68157: Add CVSS 3.1 score (7.5 HIGH)
+e17b6cbd6cf5c03b2fa07733e1592b6b9fd7cdbc CVE-2026-68155: Add CVSS 3.1 score (7.5 HIGH)
+b5f8289821b28e8f842886de4e6afabf8eff196d CVE-2026-68156: Add CVSS 3.1 score (9.8 CRITICAL)
+f49f0e89eb9a02816f636862f04b796726355560 CVE-2026-68152: Add CVSS 3.1 score (7.8 HIGH)
+529f53f92a7503d118b00d8a8f54affe72cee6c5 CVE-2026-68154: Add CVSS 3.1 score (9.8 CRITICAL)
+833278dcc07da93f0c6cc320740ccd36ffedb62c CVE-2026-68149: Add CVSS 3.1 score (8.4 HIGH)
+20fcd41e3e6261221fa2fc2c57a775522d33ece4 CVE-2026-68153: Add CVSS 3.1 score (7.8 HIGH)
+06acba780141c1fc02bde904a9fbb3636a3f252b CVE-2026-68148: Add CVSS 3.1 score (7.8 HIGH)
+3b98be6c5a1d06811308058a4557fc7c69c22cb4 CVE-2026-68144: Add CVSS 3.1 score (9.8 CRITICAL)
+b487c9a96e0f6bbfab530a813906a15e50cc7b33 CVE-2026-68147: Add CVSS 3.1 score (7.8 HIGH)
+9eaa0a4498167a0cc9d4a3b551526880dd54e7e1 CVE-2026-68145: Add CVSS 3.1 score (7.8 HIGH)
+2d2856408b8ce8e4847ead2256af7ef1a6c2d65e CVE-2026-68142: Add CVSS 3.1 score (8.8 HIGH)
+219fd59866e31cc417581b04161b25ab64acc70d CVE-2026-68141: Add CVSS 3.1 score (7.5 HIGH)
+e3d2f621abdbf6dc437ce2feffae1feeb5a01af3 CVE-2026-68138: Add CVSS 3.1 score (7.8 HIGH)
+be54058fb1ba612657cdf4f3f17d43a69fb8ada1 CVE-2026-68143: Add CVSS 3.1 score (7.8 HIGH)
+0dd575e4b25ed94956ed8662bcd9f1718271d0d1 CVE-2026-68140: Add CVSS 3.1 score (8.8 HIGH)
+786681893ae7482b93f60895b41dcb4b091ecdb2 CVE-2026-68136: Add CVSS 3.1 score (9.8 CRITICAL)
+cf21a29ca2e57a55842baf9e1f7ad762aea3d390 CVE-2026-68137: Add CVSS 3.1 score (9.8 CRITICAL)
+5efc30752e4288a1753dde8d1391b276275d6e18 CVE-2026-68134: Add CVSS 3.1 score (7.3 HIGH)
+2f0a866521bea1796567f25955df57e04820b88b CVE-2026-68131: Add CVSS 3.1 score (7.5 HIGH)
+1a1f9bd7d93d15193c79b256ed0cb6c20c6bdfee CVE-2026-68129: Add CVSS 3.1 score (7.5 HIGH)
+576421edbdd638edc5f4e9c02e3aeed246aacc7c CVE-2026-68128: Add CVSS 3.1 score (8.8 HIGH)
+61bdd979bdcd6d46371559a629a09d8672a4e748 CVE-2026-68127: Add CVSS 3.1 score (9.8 CRITICAL)
+f96ac3bba63f1bdbbf4c218d23a4a96933e4a126 CVE-2026-68124: Add CVSS 3.1 score (9.6 CRITICAL)
+9875c681a6fe0240d332bcc808e6c676325f6ff9 CVE-2026-68125: Add CVSS 3.1 score (8.8 HIGH)
+66c62e552341f71c9b17faedfbaaf4afffb9805e CVE-2026-68120: Add CVSS 3.1 score (7.5 HIGH)
+80f158a4c43a79dff1a68d5cb95833977e0e379f CVE-2026-68121: Add CVSS 3.1 score (7.8 HIGH)
+d4e8b14066d4bf0d797b10f846a740023694f75d CVE-2026-68123: Add CVSS 3.1 score (9.8 CRITICAL)
+ea0629a740ba33d9776344c39d0b12e208307ddb CVE-2026-68118: Add CVSS 3.1 score (8.2 HIGH)
+31ec827a6ab207cb1b9e8c1f7ca65d642af5b2f8 CVE-2026-68119: Add CVSS 3.1 score (7.5 HIGH)
+ce1ae77e04a9c24d807c7e76f8b8f0263da97756 CVE-2026-68117: Add CVSS 3.1 score (9.8 CRITICAL)
+85a1cdb7a61a3655b9903c6817533d3973e0aeb8 CVE-2026-68116: Add CVSS 3.1 score (7.9 HIGH)
+20b157564e072e46a0c2e552deba3932ea5e4ae1 CVE-2026-68108: Add CVSS 3.1 score (8.8 HIGH)
+505ff75ae55da865c0b3c549fa2751e8ce5e12f2 CVE-2026-68106: Add CVSS 3.1 score (7.8 HIGH)
+2ee597f29815987164ab9741da859bb38050a1ba CVE-2026-68107: Add CVSS 3.1 score (8.8 HIGH)
+93b59282db88f93b40b2db7df83a39bbd3e6c7b6 CVE-2026-68103: Add CVSS 3.1 score (7.1 HIGH)
+89ef67a184afd06a867b59da082a8b2e69794c68 CVE-2026-68104: Add CVSS 3.1 score (7.8 HIGH)
+d04d363ab5e2883d774619ebf6953fa5b68e152a CVE-2026-68100: Add CVSS 3.1 score (8.1 HIGH)
+8bed0c831880ac5acc34419fb366fe04197f61a6 CVE-2026-68098: Add CVSS 3.1 score (8.8 HIGH)
+9fe4727be3b6462d8981795840431d2435a44155 CVE-2026-68097: Add CVSS 3.1 score (8.8 HIGH)
+fcf83c31d306c25bcb3a438cfbeacf57fea5061d CVE-2026-68096: Add CVSS 3.1 score (7.5 HIGH)
+b7ea15ae93917ce90f13ddacf8a13665e56872f5 CVE-2026-68085: Add CVSS 3.1 score (8.0 HIGH)
+8c99c5b5cc33de13dd4128f66869033f0b103bd5 CVE-2026-68083: Add CVSS 3.1 score (9.1 CRITICAL)
+ecfd51190e9a8d84e011621561b77d62385215fc CVE-2026-68082: Add CVSS 3.1 score (9.8 CRITICAL)
+b7075e914ee45eccff54058e01229c14968b9141 CVE-2026-68091: Add CVSS 3.1 score (8.8 HIGH)
+40738a44cbd9ebb1e88433c533ed42baeec781a5 updates due to new cvss scores added.
+
+--===============5930737712451764580==--
