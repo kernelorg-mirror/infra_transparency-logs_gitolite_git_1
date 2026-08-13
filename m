@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6178312932397655615=="
+Content-Type: multipart/mixed; boundary="===============0040642810451202246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 13 Aug 2026 21:12:16 -0000
-Message-Id: <178665553683.2285470.15197707615522628455@gitolite.kernel.org>
+Date: Thu, 13 Aug 2026 21:12:24 -0000
+Message-Id: <178665554432.2285946.15890941804047060060@gitolite.kernel.org>
 
---===============6178312932397655615==
+--===============0040642810451202246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.5/nfs-testing-canary
-    old: d71db1de9fe003d6fb2a17fcb0c22577f3225242
-    new: 23c55809ffa28a544f6a9dbbd74cfb923a90599c
-    log: revlist-d71db1de9fe0-23c55809ffa2.txt
+  - ref: refs/heads/kernel-7.1.5/main
+    old: d63d5c79c1d24b32fe0b9eefd059b9807688b0b8
+    new: d9710f6413ff0f5dc5d64c7e608fe2fa01ba9fd8
+    log: revlist-d63d5c79c1d2-d9710f6413ff.txt
 
---===============6178312932397655615==
+--===============0040642810451202246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d71db1de9fe0-23c55809ffa2.txt
+Content-Disposition: attachment; filename=revlist-d63d5c79c1d2-d9710f6413ff.txt
 
 27c75cf40eccd48340cd5c4297c2879fe69f3fd6 SUNRPC: check rpc_sockaddr2uaddr() return value in rpcb_register_inet4/6
 6b06c6bdef42c97aa3e40d7a1e83fdb774d589e7 sunrpc: xprtsock: annotate shared socket callbacks with READ_ONCE/WRITE_ONCE
@@ -58,5 +58,18 @@ bb6ee2e00b82c859078b221d340706818315b048 NFS/localio: fix nfs_local_dio_misalign
 997808965e1f696bf3227c52eb891b8ed120f02e nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
 2ce7832679315715cf6bbd9d583eb1f20269a284 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
 23c55809ffa28a544f6a9dbbd74cfb923a90599c nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
+64a6952c24cfb7222a37a815df67112f69a2ba40 Merge branch 'kernel-7.1.5/block-DIO-alignment-fixes' into kernel-7.1.5/main
+dbfff3112f38ebb6631e916df912f55c29820fbc Merge branch 'kernel-7.1.5/nfsd-7.2' into kernel-7.1.5/main
+60e8f8c0b81d36f64117f9b682015ab7ccc9307b Merge branch 'kernel-7.1.5/nfsd-7.2-1' into kernel-7.1.5/main
+168a5609b174c8b2d5f916ca6aa8e9d0cebacd5c Merge branch 'kernel-7.1.5/nfsd-7.2-2' into kernel-7.1.5/main
+5447739fa641eb8e60ac3dba55990235c4f5193f Merge branch 'kernel-7.1.5/nfs-for-7.2-1' into kernel-7.1.5/main
+cb7cdd52dabaf22a65abc23a5ab4859b8600661f Merge branch 'kernel-7.1.5/nfs-for-7.2-3' into kernel-7.1.5/main
+7ef46319ba5dadb3790a7387a0f54c916bca13cd Merge branch 'kernel-7.1.5/nfs-for-7.3-1' into kernel-7.1.5/main
+01bc74374cfa72abd9fd8c9e79411aa292add206 Merge branch 'kernel-7.1.5/nfs-testing-canary' into kernel-7.1.5/main
+69c16987d5c94f0b6322cfbe0916a952e008f697 Merge branch 'kernel-7.1.5/nfsd-next' into kernel-7.1.5/main
+c0516f9dd3f3d72da9cb06388c36b72241c1d24b Merge branch 'kernel-7.1.5/nfsd-testing-canary' into kernel-7.1.5/main
+deadd5ac18d3a31def743190ef3ca0189afe2c06 Merge branch 'kernel-7.1.5/nfsd-testing-canary-dontcache' into kernel-7.1.5/main
+de24afe26f5a00f6dae52d462b67bb75aeefdf2a Merge branch 'kernel-7.1.5/nfs4_acl-passthru' into kernel-7.1.5/main
+d9710f6413ff0f5dc5d64c7e608fe2fa01ba9fd8 Merge branch 'kernel-7.1.5/changelog' into kernel-7.1.5/main
 
---===============6178312932397655615==--
+--===============0040642810451202246==--
