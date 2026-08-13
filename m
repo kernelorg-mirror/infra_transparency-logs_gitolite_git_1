@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4357261977511508470=="
+Content-Type: multipart/mixed; boundary="===============6178312932397655615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 13 Aug 2026 21:12:13 -0000
-Message-Id: <178665553398.2285357.3480715476788503068@gitolite.kernel.org>
+Date: Thu, 13 Aug 2026 21:12:16 -0000
+Message-Id: <178665553683.2285470.15197707615522628455@gitolite.kernel.org>
 
---===============4357261977511508470==
+--===============6178312932397655615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.5/nfs-for-7.3-1
-    old: 257c888a3028d0f4acc98f14ae85ff55c56cd6b3
-    new: ff0ebff383c8e24cc84b728e1f264969e11618b9
-    log: revlist-257c888a3028-ff0ebff383c8.txt
+  - ref: refs/heads/kernel-7.1.5/nfs-testing-canary
+    old: d71db1de9fe003d6fb2a17fcb0c22577f3225242
+    new: 23c55809ffa28a544f6a9dbbd74cfb923a90599c
+    log: revlist-d71db1de9fe0-23c55809ffa2.txt
 
---===============4357261977511508470==
+--===============6178312932397655615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-257c888a3028-ff0ebff383c8.txt
+Content-Disposition: attachment; filename=revlist-d71db1de9fe0-23c55809ffa2.txt
 
 27c75cf40eccd48340cd5c4297c2879fe69f3fd6 SUNRPC: check rpc_sockaddr2uaddr() return value in rpcb_register_inet4/6
 6b06c6bdef42c97aa3e40d7a1e83fdb774d589e7 sunrpc: xprtsock: annotate shared socket callbacks with READ_ONCE/WRITE_ONCE
@@ -54,5 +54,9 @@ f42b4cefe884892fd48479690965d09459caaaf4 NFS/localio: issue commit inline when n
 6d06d7a7193d7f6bcd272a645f9eea8e84a9d861 NFSv4: Fix incorrect argument passed to nfs4_delete_lease() in nfs4_add_lease()
 9053fdc524d737ad9069538aabe2a4398e9d40a4 SUNRPC: wait for in-flight client TLS handshake callback
 ff0ebff383c8e24cc84b728e1f264969e11618b9 nfs: fix ENXIO on O_CREAT open of existing symlink over NFSv3
+bb6ee2e00b82c859078b221d340706818315b048 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+997808965e1f696bf3227c52eb891b8ed120f02e nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
+2ce7832679315715cf6bbd9d583eb1f20269a284 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
+23c55809ffa28a544f6a9dbbd74cfb923a90599c nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
 
---===============4357261977511508470==--
+--===============6178312932397655615==--
