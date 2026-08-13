@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 13 Aug 2026 08:56:04 -0000
-Message-Id: <178661136465.1664594.3353663965398982473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Thu, 13 Aug 2026 09:03:05 -0000
+Message-Id: <178661178515.1671075.15151435754971733051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 2f96d52eabe576780fea9e4a4220470237b66172
-    new: 8827f0c17f50f1c48b26503c38357735eab8a088
+  - ref: refs/heads/cpa-fixes
+    old: 23fa304705d959c48d98fe63f950de65fc2dc917
+    new: e8e5d9d2e5468cda51812af0203fc9a22eb43e19
     log: |
-         01ff09e1e3c127c6c12262a38564d4fced946e87 RDMA/efa: Decouple admin command payload from admin header
-         0cb1da7751e4dd7baf683d91c29858010f4db51a RDMA/efa: Generalize the admin SQ
-         2e08988a3f621987ed5ab46c9ce822f976712157 RDMA/efa: Add support for 128B admin v2 SQ entry
-         8827f0c17f50f1c48b26503c38357735eab8a088 RDMA/ucma: Allow path records to exactly fit the output buffer
+         fad3486ab92f9a7d85b9ec708fc36ca9e72a5c88 x86/alternative: exclude text poking against change_page_attr()
+         45b90e735351a97f0248b5e5244c48b5cf2999d6 x86/mm/pat: allocate split page tables as kernel page tables
+         e8e5d9d2e5468cda51812af0203fc9a22eb43e19 x86/mm/pat: fix effective RW computation in lookup_address_in_pgd_attr()
          
