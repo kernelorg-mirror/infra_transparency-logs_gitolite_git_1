@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 13 Aug 2026 16:35:29 -0000
-Message-Id: <178663892925.2078795.1179443346898994345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
+Date: Thu, 13 Aug 2026 16:40:17 -0000
+Message-Id: <178663921780.2082528.4739182200274811894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 133c71b2c0bc976a4751f9e05ef7cdea67f964e5
-    new: 11058bd3d47d57eb3473935feae53868d6d168b7
-    log: |
-         11058bd3d47d57eb3473935feae53868d6d168b7 spi: virtio: mark device ready before registering the controller
-         
+  - ref: refs/tags/timers-v7.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 589af936bf74d599b05baa522f16b2d25f72f416
