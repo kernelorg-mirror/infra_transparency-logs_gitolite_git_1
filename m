@@ -1,38 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3215205582351513498=="
+Content-Type: multipart/mixed; boundary="===============8350713956437254250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 13 Aug 2026 15:45:58 -0000
-Message-Id: <178663595840.2038992.9584218120972729543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 13 Aug 2026 15:46:17 -0000
+Message-Id: <178663597715.2039522.10471982469600076026@gitolite.kernel.org>
 
---===============3215205582351513498==
+--===============8350713956437254250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 28d012efb4327f9c75d5e042a7c91e9a542efa98
     new: 2697ef8943c9985c14708a6429e21812693857b2
     log: revlist-28d012efb432-2697ef8943c9.txt
-  - ref: refs/heads/stable
-    old: f5bbbfec59b4e2fb7520a91de3df8a6174325d6a
-    new: 3d6d817622b0a9721e3cc404df3469171582be13
-    log: |
-         872f486259ae0bc6b73ca4735a15d013241f73e9 scsi: core: pair EH runtime PM get and put
-         732cb6bb37fd26863d5786522fb1997e7f5865b4 scsi: core: Do not block on tag allocation in scsi_eh_lock_door()
-         c4f6916a99cf105c3ff340b6210fcbba3fa66b35 scsi: scsi_debug: Negate wrapped memcmp() result
-         3d6d817622b0a9721e3cc404df3469171582be13 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-         
   - ref: refs/tags/next-20260813
     old: 0000000000000000000000000000000000000000
     new: ef19dc9bbfdf7bb75210a2bb2467d898bd86d73f
 
---===============3215205582351513498==
+--===============8350713956437254250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1025,4 +1016,4 @@ d472c64780e4b4c26bd24df509daf8b76ccc1bcb Merge branch 'pwrseq/for-next' of https
 42c4383ed12a3081c8137898720adcfbd8ddf7e9 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 2697ef8943c9985c14708a6429e21812693857b2 Add linux-next specific files for 20260813
 
---===============3215205582351513498==--
+--===============8350713956437254250==--
