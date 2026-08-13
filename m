@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 13 Aug 2026 12:19:58 -0000
-Message-Id: <178662359814.1878600.9755373347671015990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 13 Aug 2026 12:20:23 -0000
+Message-Id: <178662362310.1880823.17864677697371620040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-7.3
-    old: f5360c8a830f1f73d8a71f087fb17c2a0ecbd701
-    new: 0a91bb72980e4aa5f0c1be33d691e7767d7db9ed
+    old: 560fbcf4720b6d671597f271911fb6b60787738e
+    new: 923e41ed59511cffe98357c7d58d0294a1c157ee
     log: |
-         0a91bb72980e4aa5f0c1be33d691e7767d7db9ed ASoC: spacemit: advertise only DMA-backed DAI streams
+         923e41ed59511cffe98357c7d58d0294a1c157ee spi: img-spfi: don't disable runtime PM on DMA deferred probe
          
