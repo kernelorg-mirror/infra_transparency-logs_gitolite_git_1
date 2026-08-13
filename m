@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 13 Aug 2026 15:08:13 -0000
-Message-Id: <178663369336.2007807.10448698610627840182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 13 Aug 2026 15:10:01 -0000
+Message-Id: <178663380176.2008597.14306332598039757619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/for-next
-    old: 0c4ef23e66a715019e27e679502e2be3bc358f81
-    new: 74ef3ac6434b0708b525c1e1e9f7a62eeee5e8e0
+  - ref: refs/heads/features
+    old: 29a63aa52d698006211461d49fd3f00dfb62d9cc
+    new: 101782f8945a125044347312d74d488c05741c4a
     log: |
-         4d205e151c9fe7e14fb3b629a4007b9fd626bfcb ALSA: seq: midi: Optimize event_input locking with RCU
-         74ef3ac6434b0708b525c1e1e9f7a62eeee5e8e0 ALSA: hda/intel: Add sanity check for BAR0 size
-         
-  - ref: refs/heads/master
-    old: 32321188f0548d678bb6fafee07bf8bea6465c14
-    new: 9758d63c791bfe1584120819765d4f07eb9577c9
-    log: |
-         4d205e151c9fe7e14fb3b629a4007b9fd626bfcb ALSA: seq: midi: Optimize event_input locking with RCU
-         74ef3ac6434b0708b525c1e1e9f7a62eeee5e8e0 ALSA: hda/intel: Add sanity check for BAR0 size
-         9758d63c791bfe1584120819765d4f07eb9577c9 Merge branch 'for-next'
+         337bd95507a16063687cfc286ea90de5cca48c37 s390/cpum_cf: Handle CPU hotplug via prepare/dead callbacks
+         445c31ac638fd1af203d79bdf25fc0cb3149fbbc s390/debug: Fix deadlock during unregister
+         101782f8945a125044347312d74d488c05741c4a s390/percpu: Fix MVIY_PERCPU() with older binutils
          
