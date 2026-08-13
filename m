@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 13 Aug 2026 00:20:21 -0000
-Message-Id: <178658042198.1269991.18273942377860498188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 13 Aug 2026 00:22:08 -0000
+Message-Id: <178658052865.1271016.11801260494045811651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: ac155a26750a595703e7dadff84735456d75a479
-    new: dbf34acdfb29781dd4a8a86f7111d99c016fc7e8
+  - ref: refs/heads/master
+    old: f5bbbfec59b4e2fb7520a91de3df8a6174325d6a
+    new: 3d6d817622b0a9721e3cc404df3469171582be13
     log: |
-         095887cb96a36b917dbdf163c165e2f294d8eefa ppp: annotate lockless queue empty check
-         a0d6255b4adcd5b903c289921284c3c362fc1fd6 pptp: drop packets received before connect
-         dbf34acdfb29781dd4a8a86f7111d99c016fc7e8 selftests: drv-net: so_txtime: fix qdisc replace with handle
+         872f486259ae0bc6b73ca4735a15d013241f73e9 scsi: core: pair EH runtime PM get and put
+         732cb6bb37fd26863d5786522fb1997e7f5865b4 scsi: core: Do not block on tag allocation in scsi_eh_lock_door()
+         c4f6916a99cf105c3ff340b6210fcbba3fa66b35 scsi: scsi_debug: Negate wrapped memcmp() result
+         3d6d817622b0a9721e3cc404df3469171582be13 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
          
