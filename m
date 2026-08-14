@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Fri, 14 Aug 2026 19:48:43 -0000
-Message-Id: <178673692359.3349972.2585394989282615719@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 19:56:45 -0000
+Message-Id: <178673740532.3357040.580424947093396555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-7.2-fixes
-    old: d954004205c1a1d3f59ce8482b559266c15600fa
-    new: 4cb119f4bbf68cc799d4c4ec0c203f8757632547
+  - ref: refs/heads/for-7.3
+    old: 03506edca637a8465dba9f635c50e9884fbcaf4e
+    new: 94c20e1fb334c2082b443c4470a86ad982f67282
     log: |
-         4cb119f4bbf68cc799d4c4ec0c203f8757632547 sched_ext: Fix scx_bpf_dsq_move_to_local___v2 compat detection
+         94c20e1fb334c2082b443c4470a86ad982f67282 sched_ext/scx_flatcg: expire cached hweights on weight changes
          
   - ref: refs/heads/for-next
-    old: 0193d772061ab23dbb05e78dea073312de9d9110
-    new: b361a85215be71e1d0c16c59eea9053a0919ce26
+    old: b361a85215be71e1d0c16c59eea9053a0919ce26
+    new: fa0145d647fde477c2e03f485f513761d9228424
     log: |
-         4cb119f4bbf68cc799d4c4ec0c203f8757632547 sched_ext: Fix scx_bpf_dsq_move_to_local___v2 compat detection
-         b361a85215be71e1d0c16c59eea9053a0919ce26 Merge branch 'for-7.2-fixes' into for-next
+         94c20e1fb334c2082b443c4470a86ad982f67282 sched_ext/scx_flatcg: expire cached hweights on weight changes
+         fa0145d647fde477c2e03f485f513761d9228424 Merge branch 'for-7.3' into for-next
          
