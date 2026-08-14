@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============2128180986135329203=="
+Content-Type: multipart/mixed; boundary="===============2766770346767028011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 14 Aug 2026 17:17:30 -0000
-Message-Id: <178672785039.3236576.4237779897191311583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 14 Aug 2026 17:18:05 -0000
+Message-Id: <178672788502.3236968.18011939993468130485@gitolite.kernel.org>
 
---===============2128180986135329203==
+--===============2766770346767028011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 0c7aeb0f5eceb95b5887bd8e83fef865e5a49a13
-    new: 9ff0d561ec059966a30e2cfbd98a44a74135431b
-    log: revlist-0c7aeb0f5ece-9ff0d561ec05.txt
+  - ref: refs/heads/master
+    old: 10df0bb748449ba00ffe04fc4d77f4d287b97161
+    new: bd8989620ed6e80755f06cfdb18f5b4a3913493c
+    log: revlist-10df0bb74844-bd8989620ed6.txt
 
---===============2128180986135329203==
+--===============2766770346767028011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c7aeb0f5ece-9ff0d561ec05.txt
+Content-Disposition: attachment; filename=revlist-10df0bb74844-bd8989620ed6.txt
 
-566fec6a33075a0ea5c441c26571221f17f4ed98 ASoC: tas2781: fix clang build error for goto bypassing cleanup variable
-fe21db8c5e7c2a9815a9be54a1f5d556f905506e ASoC: amd: yc: Add DMI quirk for HyperX OMEN Gaming Laptop 16-ap1xxx
-8560d458509f798d8518d11cfee5c5cc58170558 ASoC: Intel: soc-acpi: Add entry for HDMI_In capture support in NVL match table
-d10549c4bcaad7ef69641c58db15470ec6ec5761 ASoC: Intel: sof_rt5682: Add HDMI-In capture with rt5682 support for NVL.
-f7e118fce3878201cb521f67a0df19fdea0bc3a9 ASoC: Intel: Add HDMI-In capture match table for NVL
-54b279699279411c77c8afbc73b83c70740a7303 ASoC: rt5645: Perform the initial jack detect at probe
-9b30521074f01aff856f539c1241a48342b69f7c ASoC: rt1320: run the initialisation preset on the first hardware init
-78983d82dc4c677c5cd2941ef828b1903ca51c9e ASoC: tac5xx2-sdw: select REGMAP_SOUNDWIRE_MBQ
-f12afefb7b01f94d6d66d397f323a9914edbf70e ASoC: xilinx: formatter_pcm: pass aud_drv_data to irq handlers
-079e27f52b929b554b90514b081ea40b3d632a25 ASoC: Intel: NVL: Add entry for HDMI-In capture support to non-I2S codec boards.
-63fbf1f83bc543e6dd6f6275a681b191c72b2644 ASoC: codecs: add SN624x SDCA SoundWire driver
-85870d670b5ac60a5a562ebfa3ed302f2b037389 ASoC: sdw_utils: add Senary SN624x helpers and codec_info
-16e81aec7443807d9926a297f72b96f515e95253 ASoC: Intel: soc-acpi: add SN624x entries for ARL/LNL/MTL/PTL
-9ff0d561ec059966a30e2cfbd98a44a74135431b ASoC: add Senary SN624x SoundWire SDCA support
+e55ff8818f722dfbefc62b9646f69bad19014fdd unit: Add test for sdp_xml_parse_record()
+985e643d78b09afc81d606bc0a08581fc05b1b15 sdp-xml: Fix crash caused by type confusion when parsing crafted SDP XML
+a92683ce81ab92cd7dffd3350284579fbe0d4c30 unit: Add test for sdp-xml type-confusion bug
+ae6c543e892f1fc55d16584ce1ef02e1969352af sdp-xml: Fix memory leak when adding duplicate attributes
+ab91b45282297e052b2e3be22c198265d19ac097 unit: Add test for sdp-xml duplicate attribute bug
+308e3536688c0011e11b2d9bfdc94cb38e52c060 sdp-xml: Optimise parsing large sequences
+95fa5735562e9f020c174199f19016cbb1c09ff2 unit: Add test for slow element_end() append
+e9caa7d3e2bf746203348e50654e7758fc84285d sdp-xml: Fix stack overflow when converting large sequences to XML
+d01ba78b1d8a3294f82ae003479c922e1499ed49 unit: Add convert_sdp_record_to_xml() to SDP XML testing
+5cf94acaea718d1955d4bcc16dea57f31fae14ad adv_monitor: Fix buffer overflow caused by integer overflow
+14347c86fb999416959720fd844427d02e241ba8 adv_monitor: Ignore additional patterns past what's supported
+a01be7144cd89e3c76618409fce40c2a9b5785db attrib: Fix smatch "non-ANSI function declaration" warning
+bd8989620ed6e80755f06cfdb18f5b4a3913493c avrcp: Fix Out-of-Bounds Read in AVRCP GetFolderItems parsing
 
---===============2128180986135329203==--
+--===============2766770346767028011==--
