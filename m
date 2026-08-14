@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 14 Aug 2026 16:22:56 -0000
-Message-Id: <178672457639.3193737.6554549477929192528@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 16:30:14 -0000
+Message-Id: <178672501495.3200176.9916200749097732284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 073574da7a8e6055b1687c256bea070ab4b4ebea
-    new: c7e617552938dc5e28d9ad87ae485caa35389be7
+    old: c7e617552938dc5e28d9ad87ae485caa35389be7
+    new: b0e872a31e157d48479507c2821ba8bf6323b7ad
     log: |
-         c7e617552938dc5e28d9ad87ae485caa35389be7 selftests/bpf: Make pyperf600 a success again
+         b0e872a31e157d48479507c2821ba8bf6323b7ad bpf: Fix arm64 KASAN false positive after bpf_throw
          
