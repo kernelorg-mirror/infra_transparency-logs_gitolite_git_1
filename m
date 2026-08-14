@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 14 Aug 2026 19:15:40 -0000
-Message-Id: <178673494087.3326470.14015628691983301468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 14 Aug 2026 19:18:18 -0000
+Message-Id: <178673509834.3327495.14579008712903036785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 9ff0d561ec059966a30e2cfbd98a44a74135431b
-    new: 0c7aeb0f5eceb95b5887bd8e83fef865e5a49a13
+  - ref: refs/heads/for-7.3
+    old: 1d0a73dd0c4f5a904ece163fdd24c7e03de0fb1b
+    new: 03506edca637a8465dba9f635c50e9884fbcaf4e
+    log: |
+         03506edca637a8465dba9f635c50e9884fbcaf4e sched_ext: Fix exit_task leak on fork failure during enable
+         
+  - ref: refs/heads/for-next
+    old: 7d2fbf6c9a0f74dea6c7776a012f2871cbb962bf
+    new: 0193d772061ab23dbb05e78dea073312de9d9110
+    log: |
+         03506edca637a8465dba9f635c50e9884fbcaf4e sched_ext: Fix exit_task leak on fork failure during enable
+         0193d772061ab23dbb05e78dea073312de9d9110 Merge branch 'for-7.3' into for-next
+         
