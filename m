@@ -1,148 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============6553964388221127148=="
+Content-Type: multipart/mixed; boundary="===============5140319650289581748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 14 Aug 2026 23:11:17 -0000
-Message-Id: <178674907716.3508595.14025292651720662171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 14 Aug 2026 23:20:06 -0000
+Message-Id: <178674960696.3515443.137229208024492671@gitolite.kernel.org>
 
---===============6553964388221127148==
+--===============5140319650289581748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/jch
-    old: 511cb12954f4d9ed249cf7b6d9bf1e87b2a5eedd
-    new: be268fefe992043e5c9b0909940c62a5d097f6f0
-    log: revlist-511cb12954f4-be268fefe992.txt
-  - ref: refs/heads/seen
-    old: 1c0daa0ee5e074c22c607f7e615406c76477f62b
-    new: fb82148c314a4e9182a3e9ecaec2d87b83fb429a
-    log: revlist-1c0daa0ee5e0-fb82148c314a.txt
+  - ref: refs/heads/dev
+    old: e0411d671d2a19a98137b108f90aae84ad8edeb5
+    new: f14809a3a56cacc09bc3aadf2ee1af6af590b9c5
+    log: revlist-e0411d671d2a-f14809a3a56c.txt
+  - ref: refs/heads/dev.2026.08.11b
+    old: 0000000000000000000000000000000000000000
+    new: e0411d671d2a19a98137b108f90aae84ad8edeb5
 
---===============6553964388221127148==
+--===============5140319650289581748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-511cb12954f4-be268fefe992.txt
+Content-Disposition: attachment; filename=revlist-e0411d671d2a-f14809a3a56c.txt
 
-f73310fa46660da74a368224c109af8113a1ca2a Merge branch 'jm/t0213-skip-emulated-ancestry-tests' into jch
-641868a782ff0e4b97426dd8cb825b343a0f06b4 Merge branch 'tn/packfile-uri-concurrency' into jch
-8d26cba3c1ce53e2ff697cc5904d61f7ad1ff901 Merge branch 'kl/t7528-ssh-agent-for-csh-users' into jch
-4c45d0d7267c6c61bca0d3a7849bcd26a3b5790e Merge branch 'jc/add-resolved' into jch
-2035bffb0cb24910f974dadf1dd054d0cb829883 Merge branch 'kh/doc-refs-migrate-limitations' into jch
-a0ff7df36e816baab90c826abc8a916f1f9a953a Merge branch 'ps/writev' into jch
-a7a2938517f3fb73677b33abd3dde81c46ccddf4 Merge branch 'hn/bisect-reset-when-found' into jch
-5eb9bfae5c0d1541523c66ee45a9178424755773 Merge branch 'hn/branch-delete-merged' into jch
-abda96ec884d65e1eba592dd853d641332858195 Merge branch 'ps/odb-make-creation-pluggable' into jch
-e14f2edef586a2dee1bc60e7ea83d843ffaf945e Merge branch 'kh/doc-trailers' into jch
-677421ebf5eb87473d611d26bbbc74cea6eb3548 ### match next
-154823002450e90512c789bf2c784be5c911eb98 Merge branch 'ps/cat-file-remote-object-info-type' into jch
-7c2f0703989243207c605cf4e1fc11d2157099f6 Merge branch 'cc/fast-import-usage' into jch
-6a2d0fe94e1d0b2f3574625c82fabce843074490 Merge branch 'ps/odb-streams' into jch
-bc0c6cc1388a5576137fbc60d360bad652f55953 Merge branch 'hn/send-email-missing-subject-error' into jch
-e2449e8ae57c9f7d4276750de70be745c17043d3 Merge branch 'js/coverity-unchecked-returns-fix' into jch
-dd5c8112185242c8e28d99588892fa099d165696 Merge branch 'en/sequencer-lose-pretty-given' into jch
-11f87594557022fddc25ab03a6e6d4a815fa5bfb Merge branch 'js/sequencer-release-odb-before-commit' into jch
-d5c6f9b7e819f99ab90965529b1f51746ec934ef Merge branch 'js/packfile-fast-append' into jch
-6debc83d105d05f73e81145438d63dd993162702 Merge branch 'kk/merge-base-exhaustion' into jch
-e0f89a670659ad2dff6794e7690cc7265a9aeb22 Merge branch 'cc/git-shallow-file-wo-value' into jch
-82f16035b101ac5c5ba49a2f47dc2fa36fc14539 Merge branch 'jc/complete-diff-tracked-paths' into jch
-a296e72e49f819d3f32e4da6960ece6669fb215e Merge branch 'js/pack-objects-delta-size-t' into jch
-822f05d165bc8083fae9fdb76c777f5906295c8b Merge branch 'bl/t7412-use-test-path-helpers' into jch
-3075b9cf8a07e83cc2c0271d03252048e0773963 Merge branch 'za/completion-hide-dotfiles' into jch
-6ce27af5b14a89f67758a5e993c88a9a6bc8cb23 Merge branch 'ij/subtree-reject-v2-config' into jch
-69f65f2317307a9246491ede6678350028a9e64f Merge branch 'tc/replay-linearize' into jch
-02e47649bd33a93943f61da3ca6049d655e1fd2f Merge branch 'cl/regexec-macos-leak' into jch
-163a177b990c6deb24184a0668beee45067f83ad Merge branch 'hn/checkout-m-autostash-refine' into jch
-5bc80c2e2dcc30a7b7937794fcb7d9025d570cd2 Merge branch 'hn/ci-cancel-stale-pr-runs' into jch
-112930c43cf1739a998a6df689179251b85c0def Merge branch 'js/mingw-build-updates' into jch
-87bd23e10b2b8049ecab2c9c22f4e3299960a84d Merge branch 'kh/trailers-no-urls' into jch
-8539fec05da8b7fac648146d7941be51666b3275 Merge branch 'en/serve-promisor-remote-fix' into jch
-59ce20c6cf464a472a2ce688f6c1cd011b44ba4e Merge branch 'ps/odb-eagerly-load-alternates' into jch
-508eda5aac529a460ca73b7f31ab1aa382f82a50 Merge branch 'ps/t7900-deflake-maintenance' into jch
-a72e0ee3bb68720e206a092117d3acb8f42a5d36 Merge branch 'jc/complete-checkout' into jch
-be268fefe992043e5c9b0909940c62a5d097f6f0 Merge branch 'en/diff-l-opt-help' into jch
+50df5afa6d410ddfa32f58cdb2976d16fc3785b3 rcutorture: Check for immediate deboosting at reader end
+5ac693414b51acb8c4b92813ca3ab4fc6686ddf9 rcutorture: Test RCU readers from hardware interrupt handlers
+f424566105c946ef42f2643230362598c06a29f1 rcutorture: Use cpumask_next_wrap() in rcu_torture_preempt()
+e7b6d505c7080d6d40e5dbbeb01b612de9f08a78 rcutorture: Use task_state_to_char() for task-state reporting
+75a88fe00b67b2a065461940b5392dc5487acfff rcutorture: Add nwriters module parameter
+d1ff05605db14d8d6d1578f289595210c60b385f rcutorture: Add a stall_only module parameter
+560b35bd7c8aa1b7cd20adf28c401e93da567400 rcutorture: Test RCU Tasks Trace GP implying RCU GP
+86fa5387b473c160c26b781dff55014c4e1b3db0 rcutorture: Make RCU Tasks Trace track Reader Batches
+ed55bb915047934acd28e2f0ea1ef9586b254bf0 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
+aaf43c458c491748ae79f8e6afc39fd09a36e77b torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
+6c22d640117c3da7fa7fffa0b1ddebc667507ad9 rcutorture: Announce declining to forward-progress test
+20ed97cfde0536991fcb1785453a7748fb131620 rcutorture: Make {,s}rcu_read_delay() better handle forward-progress testing
+301d28fefd141d1504b4226e8fa87db6a31f3ca1 rcu: Add closing parenthesis in comment in rcu_read_unlock_strict()
+9cc63f8bcd560c760d0b12e15bba8f81c86237cf Merge branches 'expcb.2026.07.24a', 'misc.2026.07.30a', 'rcu-tasks.2026.07.30a', 'srcu.2026.08.11a' and 'torture.2026.08.14a' into HEAD
+5a7725a403766b49f76b9b45aeb51b90dc96dfe1 Merge branches 'non-rcu.2026.08.11a' and 'rcu.2026.08.14a' into HEAD
+9444262c1284246fb8cb4e75eafbac40b167218b EXP srcutiny: Make a Tiny SRCU grace period imply an RCU grace period
+decd0da879896ae3385b264d52d8916ebeeb65a3 EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
+2f3588ab887709e7f28496d85a2fa2e0c7fc8b2f EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
+f0bb05653c9e21ada95ffe6823f306c1ba8e9c8c EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
+f0ba139558ceb2b5219a36abea8349b49042d2f2 EXP locking/mutex: Add down_read_idle()
+5683cf0b871290d87b84e9a26be24593068a780a EXP refscale: Make scale_type=bh safe for PREEMPT_RT kernels
+ec2c3215d5ebd259f757d6b72e8471a0db160075 EXP fs/btrfs: KASAN "args" initialization gripe in btrfs_ioctl_get_csums()
+f88451d22ee86ea8fb21cea0b2438ccf327d4434 EXP kcsan: avoid unintended access checking in NMIs
+352c78cedb4a70c5f56c815ee1d4e13da528893f timers: Mark updates to hlist_node ->pprev field
+529d03b0b68a7b6a59827a43a9e38da25cdf714e x86/nmi: Enable panic() when NMI handler runs too long
+e5fd7be5b52b9b493d67ea70b7f59830ecc30688 timers/migration: Mark updates to tmigr_event ->field
+707648d611a1d1919192a1cd99355940908e73ac hrtimer: Apply READ_ONCE() to lockless base->running loads
+f0b99c0dba173a4f6d593d4985ec8cf694ff8ffc rcutorture:  Disable fragile readers during overload testing
+b8e8ef660d468971e5a256beb6e2ab60c7ea6a99 EXP rcutorture: Enable RCU_BOOST where supported
+ce9dd3786297f6e17831d03fa0b683cb1e15efd8 doc: Update stallwarn.rst based on RCU Tasks Trace as SRCU
+451a885ef64940b9b3b6fbbc4c1e440deda3761d EXP arm64: Disable KCSAN instrumentation in delay.o
+b3e31ad7f03604efb3ed2c41c8e27d9c523434a0 rcu-tasks: Disable callback contend/collapse messages by default
+f532aca64d0734fda615369e586a2a86f0b70f59 rcu: Make call_rcu() safe to call from any context
+d536f35fd5b7dd12a495d39891117b71c1dd179c rcu: Make Tiny call_rcu() safe to call from any context
+c1a0be1da8f07b70852a31b41c5dba7f3784b1e6 srcu: Make call_srcu() safe to call from any context
+dca9c2bfe0ed9620582f6bc4530eb03a2ca003a8 srcu: Make Tiny call_srcu() safe to call from any context
+f1da2b705daf794c7c223fb2db6145fdd43e448a rcutorture: Exercise ->call() from NMI context
+435d8134f888d91b62a8ed3e93d91a7e28c7c560 selftests/bpf: Add a call_srcu() re-entry reproducer
+2940ceb0a0b2322c3a05e7f0b2a26435e5efe34b locking/csd-lock: Pack csd_lock_wait_toolong() state into a struct
+07e27c0b26b0ae65b7720b68588b9fbd50b1242c locking/csd-lock: Report how long a stuck CSD lock took to recover
+f14809a3a56cacc09bc3aadf2ee1af6af590b9c5 lib/test_csd_lock: Add a module to stall a CPU on a CSD lock
 
---===============6553964388221127148==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c0daa0ee5e0-fb82148c314a.txt
-
-f73310fa46660da74a368224c109af8113a1ca2a Merge branch 'jm/t0213-skip-emulated-ancestry-tests' into jch
-641868a782ff0e4b97426dd8cb825b343a0f06b4 Merge branch 'tn/packfile-uri-concurrency' into jch
-8d26cba3c1ce53e2ff697cc5904d61f7ad1ff901 Merge branch 'kl/t7528-ssh-agent-for-csh-users' into jch
-4c45d0d7267c6c61bca0d3a7849bcd26a3b5790e Merge branch 'jc/add-resolved' into jch
-2035bffb0cb24910f974dadf1dd054d0cb829883 Merge branch 'kh/doc-refs-migrate-limitations' into jch
-a0ff7df36e816baab90c826abc8a916f1f9a953a Merge branch 'ps/writev' into jch
-a7a2938517f3fb73677b33abd3dde81c46ccddf4 Merge branch 'hn/bisect-reset-when-found' into jch
-5eb9bfae5c0d1541523c66ee45a9178424755773 Merge branch 'hn/branch-delete-merged' into jch
-abda96ec884d65e1eba592dd853d641332858195 Merge branch 'ps/odb-make-creation-pluggable' into jch
-e14f2edef586a2dee1bc60e7ea83d843ffaf945e Merge branch 'kh/doc-trailers' into jch
-677421ebf5eb87473d611d26bbbc74cea6eb3548 ### match next
-154823002450e90512c789bf2c784be5c911eb98 Merge branch 'ps/cat-file-remote-object-info-type' into jch
-7c2f0703989243207c605cf4e1fc11d2157099f6 Merge branch 'cc/fast-import-usage' into jch
-6a2d0fe94e1d0b2f3574625c82fabce843074490 Merge branch 'ps/odb-streams' into jch
-bc0c6cc1388a5576137fbc60d360bad652f55953 Merge branch 'hn/send-email-missing-subject-error' into jch
-e2449e8ae57c9f7d4276750de70be745c17043d3 Merge branch 'js/coverity-unchecked-returns-fix' into jch
-dd5c8112185242c8e28d99588892fa099d165696 Merge branch 'en/sequencer-lose-pretty-given' into jch
-11f87594557022fddc25ab03a6e6d4a815fa5bfb Merge branch 'js/sequencer-release-odb-before-commit' into jch
-d5c6f9b7e819f99ab90965529b1f51746ec934ef Merge branch 'js/packfile-fast-append' into jch
-6debc83d105d05f73e81145438d63dd993162702 Merge branch 'kk/merge-base-exhaustion' into jch
-e0f89a670659ad2dff6794e7690cc7265a9aeb22 Merge branch 'cc/git-shallow-file-wo-value' into jch
-82f16035b101ac5c5ba49a2f47dc2fa36fc14539 Merge branch 'jc/complete-diff-tracked-paths' into jch
-a296e72e49f819d3f32e4da6960ece6669fb215e Merge branch 'js/pack-objects-delta-size-t' into jch
-822f05d165bc8083fae9fdb76c777f5906295c8b Merge branch 'bl/t7412-use-test-path-helpers' into jch
-3075b9cf8a07e83cc2c0271d03252048e0773963 Merge branch 'za/completion-hide-dotfiles' into jch
-6ce27af5b14a89f67758a5e993c88a9a6bc8cb23 Merge branch 'ij/subtree-reject-v2-config' into jch
-69f65f2317307a9246491ede6678350028a9e64f Merge branch 'tc/replay-linearize' into jch
-02e47649bd33a93943f61da3ca6049d655e1fd2f Merge branch 'cl/regexec-macos-leak' into jch
-163a177b990c6deb24184a0668beee45067f83ad Merge branch 'hn/checkout-m-autostash-refine' into jch
-5bc80c2e2dcc30a7b7937794fcb7d9025d570cd2 Merge branch 'hn/ci-cancel-stale-pr-runs' into jch
-112930c43cf1739a998a6df689179251b85c0def Merge branch 'js/mingw-build-updates' into jch
-87bd23e10b2b8049ecab2c9c22f4e3299960a84d Merge branch 'kh/trailers-no-urls' into jch
-8539fec05da8b7fac648146d7941be51666b3275 Merge branch 'en/serve-promisor-remote-fix' into jch
-59ce20c6cf464a472a2ce688f6c1cd011b44ba4e Merge branch 'ps/odb-eagerly-load-alternates' into jch
-508eda5aac529a460ca73b7f31ab1aa382f82a50 Merge branch 'ps/t7900-deflake-maintenance' into jch
-a72e0ee3bb68720e206a092117d3acb8f42a5d36 Merge branch 'jc/complete-checkout' into jch
-be268fefe992043e5c9b0909940c62a5d097f6f0 Merge branch 'en/diff-l-opt-help' into jch
-0f5291497c04f2386283c47d708b9fc9237c3c90 Merge branch 'hn/checkout-track-fetch' into seen
-6039c57eb47f85a6e31f90b9940ab8c41faf3127 Merge branch 'ec/commit-fixup-options' into seen
-2df69fe14709a61490be8f8fb67a1291513b68af Merge branch 'sn/rebase-update-refs-symrefs' into seen
-34f020d8b033d6d14b2c56baffc2e3200a2c2886 Merge branch 'tb/midx-incremental-custom-base' into seen
-35179bc56149f685c38e69c193b461b6fd76542b Merge branch 'mm/line-log-limited-ops' into seen
-fc4e8b3d4dc4743978ac49d39103d3b2ac35a207 Merge branch 'tb/repack-geometric-cruft' into seen
-d101983ae868c0a2cbea2de924f7826d4848c98c Merge branch 'zy/apply-abandoned-header-fix' into seen
-9534f9a6851a25cfbb11b4a847c5d756e7c97db5 Merge branch 'gr/add-e-use-apply-api' into seen
-f1a28796149e0cca42df860caaa51565331b13fa Merge branch 'ds/trace2-tolerate-failed-timestamp' into seen
-2f21e85054f346781e2ade8a7b48256a9ec52e27 Merge branch 'kj/repo-info-more-path-keys' into seen
-45979201e19fbb406be6b7578544e76001ac2951 Merge branch 'tc/last-modified-bloom' into seen
-28d4c85a93a1253a592b45de88f6b86385152b97 Merge branch 'hs/rebase-continue-edit' into seen
-d65b317bbb37e700f7dbb43532cd5e401c9852e2 Merge branch 'pz/fetch-submodule-errors-config' into seen
-18469c99884ae46e1e8442d34709a9718e585001 Merge branch 'tb/pack-with-duplicates' into seen
-b1069ad27a4194f27d6c1bd2d67f015d7a3daf95 Merge branch 'bc/restrict-hex-to-lowercase' into seen
-89bf96d2be44577793981790bf96c8a412e1cbdf Merge branch 'ty/repo-config-cleanups' into seen
-502515e3f5e5fb9217b7db986e08814710753295 Merge branch 'vm/complete-history' into seen
-b02babca0f6d0a3d19e7b61489c3f357d214bce5 Merge branch 'dk/use-nsec-runtime' into seen
-f37be1e01c116e9e6573f61b713b6a026af47b2c Merge branch 'cc/lazy-fetch-trusted-bit' into seen
-f8b23d39aad151282a31171c55f5810d3ee6a7b8 Merge branch 'yn/worktree-add-no-dwim-with-b' into seen
-04e90f76274c863f1c18902434bc4183dc57b7f3 Merge branch 'jt/receive-pack-pluggable-writes' into seen
-d9eb0b8f150f983509bdee07b96eebdbeaa5bbb5 Merge branch 'mm/lib-httpd-cgi-safe' into seen
-1c686033ab883d3fef74a9ec532f836b14229ddc Merge branch 'gg/http-ssl-verify-status' into seen
-06e63f14b8b98c207dbc7cd11c93cf96d057c261 Merge branch 'ps/odb-pluggable-pack-generation' into seen
-b3fd9749eed7493eab695a7b7813c5f7d4350958 Merge branch 'ty/repository-fetch-if-missing' into seen
-624058284463ebaa9ca094b389dc337d2839ecd2 Merge branch 'kh/format-rev-more-options' into seen
-d40843bbdfcc44a927fee7876f8703349772f9df Merge branch 'ss/repack-drop-filtered' into seen
-b833908b6afc24fe126c295e7cae5bc696fdc41a Merge branch 'hn/history-squash' into seen
-c2add490bccf5b414d45b6452361018da8ac9cef Merge branch 'mm/diff-process-hunks' into seen
-1d08c2efb92882a9dbc34fe28931854b7778afd0 Merge branch 'ns/ref-symref-additional-tests' into seen
-4ee1c4fe19bdd73bc5a07d0a34f9b4668b628a23 Merge branch 'ss/submittingpatches-typofix' into seen
-3ff361a627da306352b21b9e76c8a545a4ffd0a9 Merge branch 'ch/chdir-notify-drop-name' into seen
-fb82148c314a4e9182a3e9ecaec2d87b83fb429a Merge branch 'kh/format-rev-doc-synopsis' into seen
-
---===============6553964388221127148==--
+--===============5140319650289581748==--
