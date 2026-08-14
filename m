@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Fri, 14 Aug 2026 22:19:39 -0000
-Message-Id: <178674597979.3466839.1995258038226168429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 14 Aug 2026 22:19:51 -0000
+Message-Id: <178674599185.3467115.11962121036571460549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-v7.3
+  - ref: refs/heads/board-remove
     old: 0000000000000000000000000000000000000000
-    new: 627b7865c062ff642c0000f3a4775f1a44b986a4
+    new: 057394422bc04420585b2790b230d8a1f350ace8
