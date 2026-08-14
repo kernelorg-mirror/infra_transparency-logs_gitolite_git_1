@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 14 Aug 2026 07:04:07 -0000
-Message-Id: <178669104741.2767576.11604826999794110625@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 07:04:57 -0000
+Message-Id: <178669109749.2768051.17170580571026965002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
   - ref: refs/heads/dev-test
-    old: e587a984d332b76ab89fab546f1594f61f73d5f6
-    new: e199bb902fc0a1ae513f65eb1a8716dcde635ea0
+    old: e199bb902fc0a1ae513f65eb1a8716dcde635ea0
+    new: 427b5e510fa089bbfbaa8a75d73d1f076899da33
     log: |
-         e199bb902fc0a1ae513f65eb1a8716dcde635ea0 erofs: fix interlaced ztailpacking pclusters
+         427b5e510fa089bbfbaa8a75d73d1f076899da33 erofs: fix interlaced ztailpacking pclusters
          
