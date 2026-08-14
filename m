@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 14 Aug 2026 15:51:43 -0000
-Message-Id: <178672270326.3169042.16034251967755581231@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 15:51:47 -0000
+Message-Id: <178672270722.3169257.5032694861378169256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: a698e4a60fa54268a38f4e66378851a196cb139b
-    new: 0c7aeb0f5eceb95b5887bd8e83fef865e5a49a13
+  - ref: refs/heads/spi-7.3
+    old: 122970a4a6f3ebaceeb994878044699fd5bcbebb
+    new: 23688febe4b44b10f4b454eb1cde0ba379a84119
     log: |
-         0c7aeb0f5eceb95b5887bd8e83fef865e5a49a13 ASoC: tas2783-sdw: do not treat read-only Controls as writable
+         367cea239fc93094e5c16a72724800e0358f5c46 spi: Fix DMA mapping ownership on partial map failure
+         b82b2dfc93d3c7729250e1107b7121775f5dfd40 spi: Move __spi_unmap_msg() before __spi_map_msg()
+         af6aaacd42f74e2139391f9853d770d61ac430ce spi: Clear current DMA devices when unmapping a message
+         9b81a87c5244bc139357460a262d4536226ba41d spi: Add KUnit coverage for DMA mapping error paths
+         23688febe4b44b10f4b454eb1cde0ba379a84119 spi: Fix DMA mapping ownership on partial map failure
          
