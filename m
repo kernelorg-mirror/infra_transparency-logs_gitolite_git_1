@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Fri, 14 Aug 2026 14:42:09 -0000
-Message-Id: <178671852997.3119390.15867479032011445312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Fri, 14 Aug 2026 14:43:28 -0000
+Message-Id: <178671860866.3119967.9755307823447724607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/ntfs-next
-    old: db1a995fc20438da220f9eb7c3ef573a426a302d
-    new: df7dce2090342170b7643d36f694204cae7792a9
+  - ref: refs/heads/dev
+    old: 27af3392196ddfa4c212f4c883b9964a6dcd5f95
+    new: 2de727471b3b13409466a4af4f8824a86073bf4b
     log: |
-         c16b42e33d3b6c2fd0fdc36495dbf09e507371c6 ntfs: serialize resident iomap reads with mrec_lock
-         08967ab59970fedfa74b5d7daf220de682526ff5 ntfs: validate non-resident attribute offsets
-         37403cd626b0781ef9bb523b068fd97b096a8acf ntfs: allow index root relocation
-         df7dce2090342170b7643d36f694204cae7792a9 ntfs: verify run length exceeding volume boundary
+         2de727471b3b13409466a4af4f8824a86073bf4b exfat: keep FITRIM within the requested range
          
