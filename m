@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0471461114296653249=="
+Content-Type: multipart/mixed; boundary="===============4778605305070304437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Fri, 14 Aug 2026 23:23:15 -0000
-Message-Id: <178674979564.3516865.2694133046258142546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Fri, 14 Aug 2026 23:28:05 -0000
+Message-Id: <178675008527.3520715.9805570561193609294@gitolite.kernel.org>
 
---===============0471461114296653249==
+--===============4778605305070304437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: paulmck
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/next
-    old: a01f45a7c88ffef0d3db20c14c4ce37d1aacce62
-    new: 9cc63f8bcd560c760d0b12e15bba8f81c86237cf
-    log: revlist-a01f45a7c88f-9cc63f8bcd56.txt
+  - ref: refs/heads/main
+    old: e8cd58e0ae8a98b4b89409896618ef819ac75117
+    new: 00c5a4c704c229ad158a40d6a5d331e83b1b049b
+    log: revlist-e8cd58e0ae8a-00c5a4c704c2.txt
 
---===============0471461114296653249==
+--===============4778605305070304437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a01f45a7c88f-9cc63f8bcd56.txt
+Content-Disposition: attachment; filename=revlist-e8cd58e0ae8a-00c5a4c704c2.txt
 
-50df5afa6d410ddfa32f58cdb2976d16fc3785b3 rcutorture: Check for immediate deboosting at reader end
-5ac693414b51acb8c4b92813ca3ab4fc6686ddf9 rcutorture: Test RCU readers from hardware interrupt handlers
-f424566105c946ef42f2643230362598c06a29f1 rcutorture: Use cpumask_next_wrap() in rcu_torture_preempt()
-e7b6d505c7080d6d40e5dbbeb01b612de9f08a78 rcutorture: Use task_state_to_char() for task-state reporting
-75a88fe00b67b2a065461940b5392dc5487acfff rcutorture: Add nwriters module parameter
-d1ff05605db14d8d6d1578f289595210c60b385f rcutorture: Add a stall_only module parameter
-560b35bd7c8aa1b7cd20adf28c401e93da567400 rcutorture: Test RCU Tasks Trace GP implying RCU GP
-86fa5387b473c160c26b781dff55014c4e1b3db0 rcutorture: Make RCU Tasks Trace track Reader Batches
-ed55bb915047934acd28e2f0ea1ef9586b254bf0 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
-aaf43c458c491748ae79f8e6afc39fd09a36e77b torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
-6c22d640117c3da7fa7fffa0b1ddebc667507ad9 rcutorture: Announce declining to forward-progress test
-20ed97cfde0536991fcb1785453a7748fb131620 rcutorture: Make {,s}rcu_read_delay() better handle forward-progress testing
-301d28fefd141d1504b4226e8fa87db6a31f3ca1 rcu: Add closing parenthesis in comment in rcu_read_unlock_strict()
-9cc63f8bcd560c760d0b12e15bba8f81c86237cf Merge branches 'expcb.2026.07.24a', 'misc.2026.07.30a', 'rcu-tasks.2026.07.30a', 'srcu.2026.08.11a' and 'torture.2026.08.14a' into HEAD
+a0622d0602b84b773caea1ba619b29066913678f Update benchmark chart to 2026-08-10 results
+be445d59bd040bc5b542cce22a243c67e149be9a Muse glimmer workaround
+8ce3b632ab60921b20171af56a0ef58cda87d2f6 Cleanup: clarify enable_relocation timing in can_retry
+8042f04f60a69376c9cfdc99bef5fdce4698d6be Move git diff extraction into conflict resolution loop
+b1a584d3bf3d0cd6dd2a63db1b223b870a711b63 Reset retries before continuing rebase
+ce8bd64d0ec7b4ac745b9c417cd575e55d1bd3d4 Remove api_cache.rs
+bd34e6abfbe74ec20769f41de6823d10a74128bf Use rebase message for commit header in --continue
+1cae573094789c20951cddadd516d670c1f6484b Interrupt rebase if no rebase message
+ae36fd039991e8dca79d354d07a76f3c8213a3b6 feat: add synthmerge status to merge message on --continue
+758dcc828d5605bd2b698d9af965afeeac513c99 Cleanup exit codes for apply_vibe_resolution errors
+3521591b5ff2bc1628e2d69effd2efd982c48760 feat: handling of both sides adding a file during merge
+da03b23850facc8931df9f1bec52396944c909be version
+00c5a4c704c229ad158a40d6a5d331e83b1b049b Add more benchmarks
 
---===============0471461114296653249==--
+--===============4778605305070304437==--
