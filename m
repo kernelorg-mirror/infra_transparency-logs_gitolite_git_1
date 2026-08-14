@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 14 Aug 2026 08:19:44 -0000
-Message-Id: <178669558414.2823352.7923993950938038078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 14 Aug 2026 08:25:41 -0000
+Message-Id: <178669594137.2829554.9420595231930980587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/dev
-    old: 427b5e510fa089bbfbaa8a75d73d1f076899da33
-    new: 69a7da56adc40e42211905946b65d938ae14747a
+  - ref: refs/heads/for-linus-7.3
+    old: d58b51bf1d31080bd46d493bfcb78e17af6a9fac
+    new: d330fb86a7170f845123ae82d95df440fad9b707
     log: |
-         69a7da56adc40e42211905946b65d938ae14747a erofs: guard on-disk algorithm IDs against Z_EROFS_COMPRESSION_MAX
+         d330fb86a7170f845123ae82d95df440fad9b707 xenbus: Unregister reboot notifier on init failure
          
