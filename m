@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0385564671230738447=="
+Content-Type: multipart/mixed; boundary="===============5642447208451298379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 14 Aug 2026 08:26:17 -0000
-Message-Id: <178669597719.2830378.5094478261683423004@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 08:26:35 -0000
+Message-Id: <178669599516.2830906.18011636307843468481@gitolite.kernel.org>
 
---===============0385564671230738447==
+--===============5642447208451298379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,100 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs-7.3.misc
-    old: f1cebdec9739911cf066e6ce2e02c511f0d124d5
-    new: dcacab904fe78d60840ba947a104993ee9ded887
-    log: |
-         ab018b7733bd8f5f998d476528c24924ebeb9959 selftests/epoll: add a regression test for pipe->poll_usage
-         dcacab904fe78d60840ba947a104993ee9ded887 selftests/namespaces: Fix racy pipe handshake in timens and pidns_separate
-         
+  - ref: refs/tags/vfs-7.2-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 8a6ea31a8ce7e4e1881332474df93fcf937b4b63
+  - ref: refs/tags/ipc-7.3-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: b4031675cf87fde644f0e106f0676b1a188933db
+  - ref: refs/tags/kernel-7.3-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: e92e55c93d22ace1412634b98e3d4177ff0cb654
+  - ref: refs/tags/vfs-7.3-rc1.binfmt
+    old: 0000000000000000000000000000000000000000
+    new: 92518ec9972157b9c354647f3d8c6bdfe49c76c6
+  - ref: refs/tags/vfs-7.3-rc1.efs
+    old: 0000000000000000000000000000000000000000
+    new: eb846758fe369b98bc552c2a5a81c6b487b0131c
+  - ref: refs/tags/vfs-7.3-rc1.failfs
+    old: 0000000000000000000000000000000000000000
+    new: fb73a9f48f16b4f4a252d33fae7c82ccf9288e86
+  - ref: refs/tags/vfs-7.3-rc1.fat
+    old: 0000000000000000000000000000000000000000
+    new: e097e21d9e2161c41788da16cf790eec09e900c2
+  - ref: refs/tags/vfs-7.3-rc1.freevxfs
+    old: 0000000000000000000000000000000000000000
+    new: ad475400d32938360cf1dd59aefc344accd8a967
+  - ref: refs/tags/vfs-7.3-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: f7bc72c502218a82f4dda47ef280a5d77a55e63e
+  - ref: refs/tags/vfs-7.3-rc1.kfunc
+    old: 0000000000000000000000000000000000000000
+    new: 40ad2c54a4a2e380adb458ac6d412b75f726362b
+  - ref: refs/tags/vfs-7.3-rc1.kthread
+    old: 0000000000000000000000000000000000000000
+    new: 5b20b4cb697b3b5a0e6f3f475f6703d9fa7757a2
+  - ref: refs/tags/vfs-7.3-rc1.lookup
+    old: 0000000000000000000000000000000000000000
+    new: 45f648e081060fd2e3f54c3791ffa04543537270
+  - ref: refs/tags/vfs-7.3-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 377da60dcc74e4a9235ea73310c895f23a75aa28
+  - ref: refs/tags/vfs-7.3-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: fe11e535fe78a40dab915cf8e260a6a995722a41
+  - ref: refs/tags/vfs-7.3-rc1.netfs
+    old: 0000000000000000000000000000000000000000
+    new: ade42121f12f098f968faa71098872493cec7922
+  - ref: refs/tags/vfs-7.3-rc1.nilfs2
+    old: 0000000000000000000000000000000000000000
+    new: 9ad6a740c9dcffed148f377b3f30bcef41bc2135
+  - ref: refs/tags/vfs-7.3-rc1.ovl
+    old: 0000000000000000000000000000000000000000
+    new: b358318b8a1371487c6fa5f77b408e4a68bd3d8c
+  - ref: refs/tags/vfs-7.3-rc1.super
+    old: 0000000000000000000000000000000000000000
+    new: 5330448a643b4c4fbf0f127770c9f333e4d37fcf
+  - ref: refs/tags/vfs-7.3-rc1.sync
+    old: 0000000000000000000000000000000000000000
+    new: 13e76b95ba85f2bc1b70b30b93badbcb6a811a2d
 
---===============0385564671230738447==
+--===============5642447208451298379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1786695976 +0200
+pusher 0x91C61BC06578DCA2! 1786695992 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1786695975-6da762479f98a9090415ee2451a4f1b5df3b77de
+nonce 1786695992-2d0c7a17f5ebca2c3c656cb32fa95cbaea9322dc
 
-f1cebdec9739911cf066e6ce2e02c511f0d124d5 dcacab904fe78d60840ba947a104993ee9ded887 refs/heads/vfs-7.3.misc
+0000000000000000000000000000000000000000 8a6ea31a8ce7e4e1881332474df93fcf937b4b63 refs/tags/vfs-7.2-rc8.fixes
+0000000000000000000000000000000000000000 b4031675cf87fde644f0e106f0676b1a188933db refs/tags/ipc-7.3-rc1.misc
+0000000000000000000000000000000000000000 e92e55c93d22ace1412634b98e3d4177ff0cb654 refs/tags/kernel-7.3-rc1.misc
+0000000000000000000000000000000000000000 92518ec9972157b9c354647f3d8c6bdfe49c76c6 refs/tags/vfs-7.3-rc1.binfmt
+0000000000000000000000000000000000000000 eb846758fe369b98bc552c2a5a81c6b487b0131c refs/tags/vfs-7.3-rc1.efs
+0000000000000000000000000000000000000000 fb73a9f48f16b4f4a252d33fae7c82ccf9288e86 refs/tags/vfs-7.3-rc1.failfs
+0000000000000000000000000000000000000000 e097e21d9e2161c41788da16cf790eec09e900c2 refs/tags/vfs-7.3-rc1.fat
+0000000000000000000000000000000000000000 ad475400d32938360cf1dd59aefc344accd8a967 refs/tags/vfs-7.3-rc1.freevxfs
+0000000000000000000000000000000000000000 f7bc72c502218a82f4dda47ef280a5d77a55e63e refs/tags/vfs-7.3-rc1.iomap
+0000000000000000000000000000000000000000 40ad2c54a4a2e380adb458ac6d412b75f726362b refs/tags/vfs-7.3-rc1.kfunc
+0000000000000000000000000000000000000000 5b20b4cb697b3b5a0e6f3f475f6703d9fa7757a2 refs/tags/vfs-7.3-rc1.kthread
+0000000000000000000000000000000000000000 45f648e081060fd2e3f54c3791ffa04543537270 refs/tags/vfs-7.3-rc1.lookup
+0000000000000000000000000000000000000000 377da60dcc74e4a9235ea73310c895f23a75aa28 refs/tags/vfs-7.3-rc1.misc
+0000000000000000000000000000000000000000 fe11e535fe78a40dab915cf8e260a6a995722a41 refs/tags/vfs-7.3-rc1.mount
+0000000000000000000000000000000000000000 ade42121f12f098f968faa71098872493cec7922 refs/tags/vfs-7.3-rc1.netfs
+0000000000000000000000000000000000000000 9ad6a740c9dcffed148f377b3f30bcef41bc2135 refs/tags/vfs-7.3-rc1.nilfs2
+0000000000000000000000000000000000000000 b358318b8a1371487c6fa5f77b408e4a68bd3d8c refs/tags/vfs-7.3-rc1.ovl
+0000000000000000000000000000000000000000 5330448a643b4c4fbf0f127770c9f333e4d37fcf refs/tags/vfs-7.3-rc1.super
+0000000000000000000000000000000000000000 13e76b95ba85f2bc1b70b30b93badbcb6a811a2d refs/tags/vfs-7.3-rc1.sync
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCan7RKAAKCRCRxhvAZXjc
-oqEJAQDGQVf0PsKjOhKBPWsaeYkEiqOo32rz0fThUF3UgRHOnAEApJRk06bwVjmK
-02KYITkVrv2r+aoTmaW5JgZfafdPfAI=
-=S0Vy
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCan7ROAAKCRCRxhvAZXjc
+oknGAQCXDIfamVgBo9t1yd6ITR0j5WMWU27UieH5GktS+roN5gD9G0nGTj3SiMJ2
+9pCUJSjuWT9AVUU5O309S8b8nrjlFwQ=
+=od3e
 -----END PGP SIGNATURE-----
 
---===============0385564671230738447==--
+--===============5642447208451298379==--
