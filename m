@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
-Date: Fri, 14 Aug 2026 23:32:39 -0000
-Message-Id: <178675035989.3524671.2586908889678873738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 14 Aug 2026 23:53:04 -0000
+Message-Id: <178675158456.3538721.11684407708939647428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/synthmerge
-user: andrea
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/main
-    old: 00c5a4c704c229ad158a40d6a5d331e83b1b049b
-    new: da03b23850facc8931df9f1bec52396944c909be
+  - ref: refs/heads/for-next
+    old: 12f16a37f2982028e21919466401179647f603c7
+    new: 8c07df7cdfcf52f1ff276c588612aabc6c6b8399
+    log: |
+         d616de490ec0242dcf78f02f1adf7baa035c4d0d iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
+         8c07df7cdfcf52f1ff276c588612aabc6c6b8399 iommufd: Fix UAF in selftest IOPF reporting
+         
