@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3902922775725607720=="
+Content-Type: multipart/mixed; boundary="===============0026057601590255501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Aug 2026 01:28:01 -0000
-Message-Id: <178667088139.2478338.6877413684637734964@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 01:28:45 -0000
+Message-Id: <178667092535.2478773.13495153535199392403@gitolite.kernel.org>
 
---===============3902922775725607720==
+--===============0026057601590255501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,63 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: acbecf60145a2d6259ff3e059fd295cf626ed574
-    new: 05abeffcc27ec965391e21f9029bc14dc1dd18e9
-    log: revlist-acbecf60145a-05abeffcc27e.txt
+  - ref: refs/heads/usb-testing
+    old: 05abeffcc27ec965391e21f9029bc14dc1dd18e9
+    new: 3d9eeb336131bc5a174367c384fa00c15c8744fd
+    log: revlist-05abeffcc27e-3d9eeb336131.txt
 
---===============3902922775725607720==
+--===============0026057601590255501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786670789 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786670830 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1786670880-e212fe13f47a7118df918c68d3284b6b5d0e8ccb
+nonce 1786670921-dad7470335ff6e3bf22dc67955fdb256aad976ff
 
-acbecf60145a2d6259ff3e059fd295cf626ed574 05abeffcc27ec965391e21f9029bc14dc1dd18e9 refs/heads/usb-next
+05abeffcc27ec965391e21f9029bc14dc1dd18e9 3d9eeb336131bc5a174367c384fa00c15c8744fd refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+bsUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fLEQAIuIKp6H9xOCnKxyDIkr
-oMBqjqZFpa4L46+YZDyu7iAa5xD53XqxzS0mYyjZ68RQzGk7kZPxnD9/oxwOI8kr
-ezm1FtyepHDT4xTMhpJdlAJNTDhCCQTrWvi2p0KqXj5wSweihXmAdCDOtLihVrMk
-QFctSygxiKdxY8327l54e/iUH3hZ2Uu/EOAMRRkVNjKBm2VBSEYTul36iqbgI9Hk
-AhAjt8OLtGxAMyZSmEvx+m/V8o61L1GEUf2yyiNU7yiVmQtbJ2d9TV/xF6xDIpb2
-ydxkXXxH0l10R5fxNFBrOuy+vgb+UZv7LmttkU9aE4C2Glmv54qvfF1Zu39DlIxm
-Ix2BrqsmjcS8VyvfnMy1F0TIBWmM+poDEilj6T64sEtqtb/poE2KTzYmS/+Ay8Fy
-uW1/xaCTFgYQmISmBi93XnF2vVSIY0JePLy23nje1dERijRaprNJD+qYMbh2FYjm
-j77Rh8xmX8GNiTirAGfY+gxw5vBWibQeJHR6K01ZVjDIVkdx8IL0CoWI3y63Mrhy
-M6LxZ7/qgRfQKReddNvvE41O77wEEnF63Jp53s1Z8cmi+lrQW1QPiE8XCEqOjL6A
-fbGSgEyQfovpibpsVQB4TW4aTgEL1xWpT8N9xe0qfDBebrH/pd2aiTeRoXwJsAXh
-SyEH8N/02j9sMx9qlX6cu50T
-=laUE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+bu4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1KEP/0fp3jzaTxqbBxDAy7DE
+e4Mt6L0H7HmAdVrTr1EiCBeyHBVjNXmxcnMzPbrqet2hWClcaFgVEthEOWhRvKet
+CUGFyuJXptLmojeQ55iyRfY/LxZjkrENhRdLpJeeS2m1O8qkiwVOmiBw/dUwO0v+
+OtaRUsVsW22sbPzVtxKXcYAffoSB4MRaF4hPQcZgsY7acJ2dKjqzjLYZlEAlaCId
+skTjZqst4yNKKk2i3tnT45JiJnbpOx6sV3y9KRu4BXFo84QzlCBu74ykdOvyV+Hc
+zlF2ZgaO21yPW8mCOZffhlbGSZDdJuUU2zc/rG6l+JkeytlSOmTYCKSrBfUPXK1q
+yEZgyTNbVCAXkiAbCn+MArrKID9c8b5fL96rMYvkoM9L2THu7toQ+/K0gv2yN+zD
+SZ/sZoBouXPnNS12v5D66p60JiF8j8XzUVJb8AUbO3NfwR1tEm8bPj3FBfcsGzrC
+aBCZsspTgzEVE3sH+xcKszYrkF9Y3mBrc1tC2Y9ravjF6I34F/ixolNjpcX4iGmy
+MPwPc/iysbL9dd+yN6CPWObsiQ/1jPlcLidJezblCVJB6jeK5IvFRrqvrPance5D
+2rjvJORknAWuyuojKHOWHq0sRq2lWFPWfxJ/tkhQ3oyN3Oi3AqrV1RfUYfjjAE9H
+XY/Xlqr4SarJkjnVMpLbw0wl
+=Iu5R
 -----END PGP SIGNATURE-----
 
---===============3902922775725607720==
+--===============0026057601590255501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acbecf60145a-05abeffcc27e.txt
+Content-Disposition: attachment; filename=revlist-05abeffcc27e-3d9eeb336131.txt
 
-2ed12514074d06e19fca473eb7e24e9245393db2 USB: serial: digi_acceleport: do not log stopping of urbs as errors
-54ad7212195812e76bf33f561009a8e025bbfbd1 USB: serial: digi_acceleport: fix port registration order
-9da927878069208d2f581aa703c45ab013eca685 USB: serial: digi_acceleport: drop unused wait queue
-5d17fbd6296db34d84aef771c87387c86eae7d2b USB: serial: digi_acceleport: always stop write urb on close
-1c44f3b971ffa979191f83c98823e1f83f169208 USB: serial: digi_acceleport: add oob port helper
-dc2723aab475ebdfa51608670617ef51f71b94e1 USB: serial: digi_acceleport: clean up declarations and whitespace
-58ef164543a4b7b0d4b704989fc580d1260fc058 USB: serial: digi_acceleport: drop redundant driver data sanity checks
-747e057e55308f07198c1cafb01c34185b5f2941 USB: serial: digi_acceleport: stop OOB I/O when not in use
-6f04e550a6247acf57fc736e346d4479c92bb70d USB: serial: digi_acceleport: drop unused in-buf define
-6016799d33f27648ed41c82c3a0e1ac8e025b18b USB: serial: digi_acceleport: clean up xfer buf length expression
-cc94b7b0cd203497bc89c520bd9a42724a335849 USB: serial: digi_acceleport: clean up write completion
-fdb85e08aa7a935eae6a60c5d721b34106d8a73a USB: serial: digi_acceleport: clean up inb command submission
-c3c1852355c8ee171dcc71f71a328d672a604179 USB: serial: digi_acceleport: fix oob port dev_printk()
-c41d491929bbb2e3fcd9f0233e563b1f6e1120a7 USB: serial: metro-usb: replace unnecessary atomic allocation
-563cd5aacd759376e7a6af63ca5fbe7237a3b9de USB: serial: metro-usb: fix unthrottle race
-79c6baf62ee4aa0a18ef8a61597158125745f171 USB: serial: metro-usb: drop redundant initialisations
-091738d09786ae4da789b5297cb4dae3024d1c13 USB: serial: keyspan_pda: drop unused driver data usb-serial pointer
-885d802f544ca7bfa8f3984d94233cce715bb6b3 USB: serial: option: fix slab OOB read in interrupt URB callback
-177b48f840c79dbee24c59e311e1f463cf462737 USB: serial: digi_acceleport: add port lock nesting annotation
-15734de99517b0c81a1a5a3bccaff4593ef8d953 USB: serial: pl2303: add support for PL256X multi-port devices
-d37186bd95a07e334447f47274a38a311dad2172 USB: serial: spcp8x5: drop broken carrier detect support
-248fe6d163caae06b498cd9e68e2f16950b57ebb Merge tag 'usb-serial-7.2-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-05abeffcc27ec965391e21f9029bc14dc1dd18e9 Merge tag 'usb-serial-7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
+add8469b3e0031a2e0243dd0d18c555cac8b7eea xhci: fix frame id calculation and checks for isoc URBs
+b08d153c95f1164093b14b8656bfcf4b6e1b0835 xhci: Set frame ID field of isoc TRB when starting an isoch stream
+e3d757dc9257f2638ca61eda4faef26c2daeea10 xhci: include all root port children in recovery prevention on link error
+042aad8d0db6607ac9789fc43b6221909bd6a3bc xhci: prevent endpoint recovery after roothub disconnect
+7e0ef4332ed9b70309fa1f22ec26a8c3c63686ea xhci: avoid xHC endpoint changes after disconnect or link error.
+7c0c31c66a7f9daace156bac427aafb2f4bbb5fc xhci: move dequeue to next valid td instead of past cancelled one
+a916fa66a43e10f63198b6ce978badffc678821a xhci: dbgtty: Fix unregister on tty_register_driver() failure
+25b8dfc13495a6c1cf4abacc8ef20196c7f20e5c xhci: dbgtty: Fix unregister on tty_alloc_driver() failure
+d4dd5d43fadf6953e2527de02d090c50de6e0fd4 xhci: dbgtty: Drop extra call to idr_destroy()
+78203d5b54a40f0e36196ebf31c9c7a380fc8811 usb: xhci: bail out of setup if the controller is inaccessible
+6d45e9556d4a11b726e897d86e095b96db4550d8 usb: xhci: standardize multi bit-field macros
+bd15c4cb9e44b94023586f4fa8d500277d373793 usb: xhci: use 64-bit Addressing Capability macro
+77f60a6e8e83526fe8c17167349b87d6291fc1d2 usb: xhci: remove redundant function wrapper
+bf9acb77c88f22c984ae1b78473deb5430265782 usb: xhci: remove redundant 'xhci' pointer from endpoint struct
+91be401f28059b3bdbaedf82629ecade37c81c6c usb: xhci: replace Unicode quotes with ASCII apostrophes
+3e91ec3e7d80a327fb558207613c80415d3bf756 usb: xhci: Handle USB3 port events when there is one roothub
+3d9eeb336131bc5a174367c384fa00c15c8744fd usb: xhci: Handle bogus TRB pointers in Missed Service Error events
 
---===============3902922775725607720==--
+--===============0026057601590255501==--
