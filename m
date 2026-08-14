@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4379761245767670701=="
+Content-Type: multipart/mixed; boundary="===============0411415261305733472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 14 Aug 2026 02:28:23 -0000
-Message-Id: <178667450398.2526145.2463828792275452324@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 02:28:28 -0000
+Message-Id: <178667450828.2526337.749586432922294158@gitolite.kernel.org>
 
---===============4379761245767670701==
+--===============0411415261305733472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0a63a1da45cb3b4a8caa1595dedf18e282882758
-    new: 5c6ec28fef9ca8d9a32451dc031ce70c391a921b
-    log: revlist-0a63a1da45cb-5c6ec28fef9c.txt
+  - ref: refs/heads/7.3/scsi-queue
+    old: 1451ea14f885492635918b09543a0bf8ee69f993
+    new: 376a3960e5efe85ff765abfb5b5b7e4655ad6aed
+    log: revlist-1451ea14f885-376a3960e5ef.txt
 
---===============4379761245767670701==
+--===============0411415261305733472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1786674502 -0400
+pusher 75C5DE3D 1786674506 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1786674501-7bc525fb495937c9b725027892e43915fa5c290d
+nonce 1786674506-1959c543be6f20600a63a7f6c05d76020b5fb391
 
-0a63a1da45cb3b4a8caa1595dedf18e282882758 5c6ec28fef9ca8d9a32451dc031ce70c391a921b refs/tags/mkp-scsi-queue
+1451ea14f885492635918b09543a0bf8ee69f993 376a3960e5efe85ff765abfb5b5b7e4655ad6aed refs/heads/7.3/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp+fUYACgkQ7ulgGnXF
-3j33nA//a5pkHjJGWcYwGO79CvpN26VDFtXwSarjOyT4p1ZF0U419/Q+N3r0jIJY
-9XOzMMDpZSayQXHjerzioh+V6P4Y7vTnpFaIC1ErajllWSYY562gvJkA38E7+zjf
-sxwVeZFsJ8kghILp7hyDTe8qBuScqTjYyLcOzEcc39Ty5JBmf+qsptQdZ/C9Ldp3
-6eXz8pGRjcAJBSdbFJn6L8N5fobs9WOqp76g/wcv9+8LhrpjB/EgKXXXo62LOXO2
-erQGIpbTe54UXps6p0eqL+x4Fp9TgMEXyUZeIyrxU7wMAtBZbYauQpFZqimDooTQ
-PjnHsmri8Xetj/SNB0+hfKo4tNFjmO4BI3WnahARmFBs8//i3A8BI2pjHF7N26HS
-Qp66Sgb5YLIfjc8D9FG7OpVgKnZmK10BoI9r7bZjyh+NOMuyWoyr2enaj/FjuJIk
-nwyI2vIoIh5teMn9uMmP4BQxKl/4l2nY2T2mUl1vTipYXBLQ0cbr2z4WCnCeQ9Tf
-LYWqgQJN6HTANrTb0ZgJ+oWqUhO4Ptsi8HD4Y0Vj19y/k4LiIzjjLmnQkcrBIst2
-+hPYoR5dQCPAADvD1yx1oWsv8P05yu8yuOeLN8TW3ccBuIf2bd4scZAaX5sSNpyv
-0JtFNPTUpr+KYFxcKvdIO9O4uP5SlNE/iqHUvAfrTYqBuHlWpC0=
-=58kb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmp+fUoACgkQ7ulgGnXF
+3j1XDg/7Bi5LNc49YEEu5R83GKW9KlH2QCZRjTiQLWsI//J8lX8m02QXFIeNUwk6
+RGUBe09az+CQkS6krC//PYAFMsqKfNn72YXFXY5TUQrUL6t2u5+7AORiDSicjOlS
+e2ETBA7XTizpTwdJ5ogNhhw27iNFNiJpV0ScN05YOdsUfFsbWJ+GrlSstI9XCGYR
+kg2AnZNsvR3sQQG6/096ZMaNF7lcuvq3BMYqbo+jngbYtdtzlNCcTACwMKHR6OpO
+FEmQy0ZxEpkI/cFnGrBr68RRQl/0lJGBZ7F5BI/2s2VeYozQdTM7Pe0vCT1Gz7Zi
+qkFJk6LPAHlpXLTnjLzjq++UTKIVcPGjNinvgSkbF1CUVXNXBFcS917WtWujQDjI
+u2N1UBu/FdKfQPyJIDuegOMOKYVzoecoup/uQOxK06DvTE2+4ZBr5iBs3hdGqzfM
+BJXY2xSgX57ux0f9rp/tsBKN8iHXImXmqX4N1Z+f3r18UqXzk0RBu8O/yb7GJVNE
+7ssmL4o0qIrm87BvQp+0gpBnGtoFds3g31WDWEymuLhtwXL5S7/p4q6KP7EjaOYc
+lpk1RCG3lyyVTrWA1zkYeVfupKUjoDRnHbg0Gb/mSjAjymUjIBE7Ux5dhbU+SWsL
+ww3HWlN+PTzowXCK+aPCpcfoC+PJ8g2e/SJSm47QOsXU4cKNW9g=
+=YieC
 -----END PGP SIGNATURE-----
 
---===============4379761245767670701==
+--===============0411415261305733472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a63a1da45cb-5c6ec28fef9c.txt
+Content-Disposition: attachment; filename=revlist-1451ea14f885-376a3960e5ef.txt
 
 d96e83d028d7d8762e424e49c671d49ac2ecf14f scsi: ufs: core: Validate string descriptors
 331bda797e6afc143127ce72b1469d73316f49b4 scsi: ufs: Avoid NULL CQE dereference when reporting invalid tags
@@ -175,4 +175,4 @@ ea598cfa561bcc0c8e7bc07fd9b1c22b64c756b3 scsi: zfcp: Add __must_hold() attribute
 15b7fe6db602d0202761902d2c50bc1e8bbe6cea scsi: fnic: Fix invalid comparison for error
 376a3960e5efe85ff765abfb5b5b7e4655ad6aed scsi: fnic: Fix built-in NVMe/FC build
 
---===============4379761245767670701==--
+--===============0411415261305733472==--
