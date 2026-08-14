@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6881318511851148544=="
+Content-Type: multipart/mixed; boundary="===============5994474930694283643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 14 Aug 2026 13:27:51 -0000
-Message-Id: <178671407182.3064228.12568569222026439153@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 13:28:27 -0000
+Message-Id: <178671410740.3064696.18069820548052444511@gitolite.kernel.org>
 
---===============6881318511851148544==
+--===============5994474930694283643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 7adbe28e057f5a63600b2a40d26622d8843ba168
-    new: d8d5a99de6f1e0ddb69cb6ee2f439282e7daee31
-    log: revlist-7adbe28e057f-d8d5a99de6f1.txt
+  - ref: refs/heads/export-net
+    old: cfc6097737df827f6d7523b3295b7952bc42d9a6
+    new: d6efc573cdb85e0a3a3ec25966ba67db88a579c5
+    log: revlist-cfc6097737df-d6efc573cdb8.txt
 
---===============6881318511851148544==
+--===============5994474930694283643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7adbe28e057f-d8d5a99de6f1.txt
+Content-Disposition: attachment; filename=revlist-cfc6097737df-d6efc573cdb8.txt
 
 667d0fb32149f023b8b34a1f6f3d384556eafb5a driver core: add missing kernel-doc for union members
 c83e79c0842ed29860648bcce5022ef0ba5001c6 Input: byd - synchronize timer deletion before freeing private data
@@ -316,100 +316,26 @@ f5bbbfec59b4e2fb7520a91de3df8a6174325d6a Merge tag 'probes-fixes-v7.2-rc7' of gi
 3d6d817622b0a9721e3cc404df3469171582be13 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 120977e2c096deea4e866e4273be9220b957c29e net/sched: cls_bpf: reject dev-bound programs bound to a different device
 9006c116dd111d457bf5d074990210f70a4ad2c8 l2tp: fix tunnel and session refcount leak on seq_file release
-cc17e386f8a5fc23a3bf49a45d17cd45b49fbb01 ipv6: add ip6_del_rt_reason()
-352c6732ffb2c5a45a10096bfef13c343484c22f ipv6: propagate the route deletion reason to fib6_del_route()
-e8636445b771c0936cf3c2fe3bbdb281b4cf6acf ipv6: record the reason for kernel-initiated route deletions
-b0215102356bef144e1375aeb1633b37ec7999ad ipv6: add a deletion reason argument to rt6_fill_node()
-1e6a83af59141b9caabb86a9d7d069ab696101e2 ipv6: expose the route deletion reason in RTM_DELROUTE
-09f19ce3de67deb859cd95315d55a69a6ca45b40 ipv6: add inet6_rt_del_notify()
-bf517422fb26d36f0bdcc4a8e38837b4de675535 netlink: specs: rt-route: add route notifications
-8621a7ed80f00f83a6741ad8bd1e1c500d2c5b74 netlink: specs: rt-route: split out the request attribute list
-b13ba4e82bfd5ab8318ae75d545cf3c23abf7a6b netlink: specs: rt-route: add the route deletion reason
-046d883265068cac3a5122335cd4abf1b9be38c1 selftests: net: verify RTA_DEL_REASON on route deletion
-2f886609bd9a9084d66315a8b9967c6c8da8dc5e Merge branch 'ipv6-report-why-a-route-was-deleted-in-rtm_delroute'
-a364a7c168d0a0b9fccee01669ceb9bb7b844056 net/rds: reinitialize to_be_dropped on rds_send_xmit() restart
-ff8376b2458d9026a51c615075e2d77e79757f31 net/rds: initialize i_conn_path in rds_inc_init()
-782de55a8f6b907cf72a4f36ec3933d6b095f56c Merge branch 'net-rds-bug-fix-ports-part-2'
-68b3d4dbaf20539fc3268a2def90aa5e3b79bcb9 net/rds: clear i_rx_lat_trace in rds_inc_path_init()
-ef6cb145e216b0378686bce356f3317284d54231 net: enforce net sysctl registration
-09190c59cd101e0bf87a1c5a32ebae25c91e6d81 net: Const qualify ctl_tables that kmemdup unconditionally
-0abc76bc20826e2582c4589e43b7fb8f3612911c net: Const qualify network templated ctl_tables Arrays
-379122479ba7b30daa6c858a254316f2bcd13240 Merge branch 'net-sysctl-const-qualify-sysctl-ctl_table-arrays'
-03a105c83243a8c9cc147a44a7ec7bfd4c10ee8c net/mlx5: rsc_dump and hv_vhca return NULL on create error
-1da1a037bc60c3744a6cdcb7610917a20ba1a318 net: mana: Route ring-buffer access through offset-based helpers
-23adfc77c22cb959ac84e08dc8a77bac656f1caa net: mana: Fall back to scattered pages for GDMA queues
-885a48b521b40aa515ad47f5581535b5763d105c Merge branch 'net-mana-avoid-dma-queue-allocation-failure-under-memory-fragmentation'
 42d217add8d80d6e7d9f58f80d11ea9b07ea113e firewire: ohci: fix NULL pointer dereference in ar_context_release
-a9560343d4e9da962616110140afed20249f81c2 netconsole: publish the userdata payload with RCU
-3d2452c2fb2fe37d8b1eb5b814561e71eb8652f3 selftests: netconsole: add a userdata torture test
-3205699d79f262412c1be7fc1c04066610d3cd52 Merge branch 'netconsole-replace-target_list_lock-by-rcu-on-userdata-hot-path'
 64dc3ba55effbf8afcc0099162dfb4138009ad48 Merge tag 'm68k-for-v7.2-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 b4f5144d37403d529334573ef2a1bb6ca4a2c553 Merge tag 'gpio-fixes-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 83a4f90e9835d3d61fe3dd39ffbbcac752467d09 Merge tag 'firewire-fixes-7.2-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 e14aacefb78d942d2308d9821fe52d75d21a824e Merge tag 'net-7.2-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3aa1dcaa4f6f5ae08936491e08bd456f331f2d40 Revert "wifi: mt76: Disable napi when removing device"
-3da8c3c8b8fa99505624b65ef590482f48e766b6 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ebb16fca011ce08fa710cec42ee43a33bf331893 net: phy: add PHY package locking helpers
-20663d78f1a1c242ad865967a31ee716dd1e52a1 net: phy: dp83640: embed pin configuration in clock
-e8b166c1f0a53312bd50355ea4db77b2a6728e0f net: phy: dp83640: clear state after PTP registration failure
-854ac5fde2215a3cb06f6d05b744869a31889064 net: phy: dp83640: fix per-bus clock lifetime
-a1ca9d0abea8a2374435021aea4267f49ef4904c Merge branch 'net-phy-dp83640-fix-shared-clock-lifetime-and-probe-error-cleanup'
 36cdf5d48ca191dcd71c28cadbe0981b1d25318d net/smc: unregister the connection before draining the rx tasklet
 b395dd319cea422239cb45b998fb38d7e373af87 net/smc: do not dereference an unset send buffer on the SMC-D teardown path
 9fdbb1674f04cfbc14da5ad22e7002214b79978c Merge branch 'net-smc-close-the-smc-d-teardown-window-around-the-ghost-send-buffer'
-ed267f783c0c283171e132bb660f8753b40a2660 l2tp: send netlink notifications in the tunnel's net namespace
 447c9303942c439a117d9b76ce6d6e2116b38ee7 net: tun: bound receive headroom
-b3217bdb0091e52887e23896cd82483f7808914a netdevsim: drop the ability to change max_vfs via debugfs
-a7c44619c6977fd64da99a6d1c2b73e2ad9af873 net: stmmac: intel: Add missing pci_free_irq_vectors() calls
-77e80af7d2d4dc223716c90e9fc043bc66a8335f ethtool: tsconfig: reject zero-valued tx_type and rx_filter bitsets
-5ba017f9efef3cf65cc60005aae4cbbf70b9b2b8 net: phylink: treat PSGMII as an inband capable interface
-07a9e3975039c099c71f9bc5ceab39c1cd949234 selftests/net/openvswitch: add SCTP flow key support and test
-9702af05a007e9dffbdbf566e8afdd70b89f82da net: openvswitch: unexport ovs_vport_alloc/free
-4f93b12cf7b25fbf8e73d222722805b049f0a6d3 net: usb: lg-vl600: fix Ethernet header on fragmented RX packets
 24ef02f934eeb48830cff6b739abc3c62b1d107b net: page_pool: fix UAF in __page_pool_release_netmem_dma on xa_cmpxchg race
-0a63d70628cbdfd5b668f6abf4074a21d930bfc9 DO-NOT-MERGE: git markup: net
-fed51a60d36ff7dedcd9801decd5264f0c061c54 DO-NOT-MERGE: git markup: fixes other trees
-7cf12eb0b05f0be30b65607517090340d7fb4034 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
-a88f64642a5c18d3363f603a01d47fa6519854a5 mptcp: pm: userspace: fix address ID overflow
-faff2fe3c67d6d12d32c2459caea0b10f7213995 DO-NOT-MERGE: git markup: fixes net
-213efda6d1e29961a5b67a3e02f66d0c3871dfb4 DO-NOT-MERGE: mptcp: add CI support
-b4ad6f49db02c378e3004b12aa043a92009212f1 DO-NOT-MERGE: git markup: end common net net-next
-10c65ac26962fa625221ff7d7a7e4c3ad171a0c0 TopGit-driven merge of branches:
-8044a8d9b19946da35ca3f62944fe0b22b68a98d DO-NOT-MERGE: git markup: net-next
-0e02f89725fbce5ce00c849e30d4b11ca315141d DO-NOT-MERGE: git markup: fixes net-next
-59c5d357db0c12766146817f61954e745584534c mptcp: pm: init and release mptcp_pm_ops
-67d3ebc91d4d240a95a614aab992e0ea60438d5c mptcp: pm: add get_local_id() interface
-721bb3f0f3ce7b7cfb9a2484e1e07d8ec7b2a465 mptcp: pm: add get_priority() interface
-36fb0fcae20c58223372ebf175aec73ac95c42ee selftests: mptcp: connect: test name in pcap file
-5ae96cbc0c4b4044f5fab9a2a0ea4b81e616ebae selftests: mptcp: simult_flow: test name in pcap file
-b609454837b745ba0922c1b540c936985c7fa0cb selftests: mptcp: pcap: drop most of the payload
-feda07c716c5ac0e64834fc2dcb0306777cb9b82 mptcp: pm: add WARN_ON_ONCE guards on extra_subflows underflow
-12d3f98d9471095b56f5a77b42f938d86e2f8dfa mptcp: remove unused data_ack from struct mptcp_ext
-d67549d02a5671472472701477bfe0f627181d84 selftests: mptcp: fix const qualifier warnings in strchr usage
-d16322d4846ca6296f7437dab707fe8d1e996cb3 mptcp: support MSG_ERRQUEUE on the parent socket
-2dcd6bd00fead01f89e99ff7cdec00df990c4f97 mptcp: sockopt: factor inet_flags propagation into a mask
-260a100b6b280ea06742a0e951c648c8fad70323 mptcp: propagate RECVERR sockopts to subflows
-95e73a110fd69aa0ea9ab850f571d3eafeef549c selftests: mptcp: cover IP_RECVERR sockopt propagation
-626ca929e4c4e499b26e6edde6c338f38d494b95 selftests: mptcp: diag: fix stack buffer overflow in get_subflow_info()
-f34a20412d0258191e2ace0831904b959b988d46 mptcp: honour configured min/max RTO in retransmit paths
-a0f757790df8eb264ff845721521ef1158709674 mptcp: add per-event MIB counters for MPTCP_RST_EMPTCP resets
-a1b9181e1ab0df8b186b13f97330294468501e09 selftests: mptcp: check per-event MPTCP_RST_EMPTCP counters
-d6f3f177a6dde70e9ee9ce2d1b6b8f778a80c903 mptcp: pm: userspace: make remove_addr_entry static
-03cbfaf413a56cea7ee28a3ea232fadffb19c936 DO-NOT-MERGE: git markup: features net-next
-4bff3e5550da6bd83be2b07c84481853b9bd9dd3 DO-NOT-MERGE: git markup: features net-next-next
-594c8967d2f12070cd581550fad64f4d891a19f6 bpf: Add mptcp_subflow bpf_iter
-57e829b78699ff28b7a4074ba62b1a8d116de5b4 selftests/bpf: More endpoints for endpoint_init
-5dcad27269672a034e68147a31feb137569917ca selftests/bpf: Drop cgroup_fd of run_mptcpify
-98715c4931ade0c92790407a27c5ff8a0864ece0 bpf: Add mptcp packet scheduler struct_ops
-62c080e931175541bd5c01447e8d8c8959477254 bpf: Export mptcp packet scheduler helpers
-d4a2f478e7115b62acbd58643812541745df52ca selftests/bpf: Add bpf scheduler test
-c72a7e0c7378726a2bf5f17c64538feb1a5c6ee4 selftests/bpf: Add bpf_first scheduler & test
-535daaf0b5f76dfb5e477e97366b6e80cf1a36d7 selftests/bpf: Add bpf_bkup scheduler & test
-d38e5f5e0d06db50928304c970373816ce2d03a5 selftests/bpf: Add bpf_rr scheduler & test
-23127549dddc197ad648575ceaa1f27dd843dea3 selftests/bpf: Add bpf_red scheduler & test
-71275ae8683c8ba2e79bc9935c06b7f860e0cdb1 selftests/bpf: Add bpf_burst scheduler & test
-b5671049b60bc4503fa566c8d18f89c04893c9eb DO-NOT-MERGE: git markup: features other trees
-88df86ddd934d5a2c28fd34e9f8a881b73171870 DO-NOT-MERGE: mptcp: improve code coverage for CI
-d8d5a99de6f1e0ddb69cb6ee2f439282e7daee31 DO-NOT-MERGE: mptcp: enabled by default
+eb4fd06588a517e196dd9ea946abf3ce35cf6c2d DO-NOT-MERGE: git markup: net
+7dde954a7f8461992a6cfdb64d48e0da116f4256 DO-NOT-MERGE: git markup: fixes other trees
+f5f461078d898140a78f70d91a2e676c2df50cf1 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+b109213781dad8e04814e09a0550b3ec9f50f6ec mptcp: pm: userspace: fix address ID overflow
+ddcfce0aa9ed4adf5af899f0af78fa5a08feb35d DO-NOT-MERGE: git markup: fixes net
+4b13d2b391bb8104a0dd4f2468e7c72226ee4cb1 DO-NOT-MERGE: mptcp: add CI support
+17f841a8424a946ec985c1bdc90b25399f99e76f DO-NOT-MERGE: git markup: end common net net-next
+f4f891482c5a077d9ebb02b0baf490e810dd80db DO-NOT-MERGE: git markup: fixes net only
+844c7c8c310b38542f27686b66a290a7600497c7 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+d6efc573cdb85e0a3a3ec25966ba67db88a579c5 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6881318511851148544==--
+--===============5994474930694283643==--
