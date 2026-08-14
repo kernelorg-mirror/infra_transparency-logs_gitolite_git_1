@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Fri, 14 Aug 2026 21:31:39 -0000
-Message-Id: <178674309967.3428390.14279872214899426095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 14 Aug 2026 21:32:48 -0000
+Message-Id: <178674316879.3428883.16974382495613739265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-7.3
+  - ref: refs/tags/lsm-pr-20260814
     old: 0000000000000000000000000000000000000000
-    new: fd6e2388a3ea55e58cbbbef840c1d8aa2067dbb3
+    new: e7912befec14fe566b62b5487dfa2966d002febb
