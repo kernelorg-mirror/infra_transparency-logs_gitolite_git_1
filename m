@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7792287308892878111=="
+Content-Type: multipart/mixed; boundary="===============6343089290942110558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Aug 2026 05:41:58 -0000
-Message-Id: <178668611859.2710079.16006761094203578680@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 05:43:06 -0000
+Message-Id: <178668618604.2710841.12963182515461501098@gitolite.kernel.org>
 
---===============7792287308892878111==
+--===============6343089290942110558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,58 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c51bcb8c4aaec754296aa72bb9126e2f811cb667
-    new: 5859b09c2f4f29955040f25fabb466fec9c3fc3a
-    log: revlist-c51bcb8c4aae-5859b09c2f4f.txt
+    old: 5859b09c2f4f29955040f25fabb466fec9c3fc3a
+    new: e605a6b4905ec6842da72c2947b319b3661a3931
+    log: revlist-5859b09c2f4f-e605a6b4905e.txt
+  - ref: refs/heads/tip/urgent
+    old: 2cdc3ef8b8c436bb66241730f6f90eb5b185c035
+    new: 76417bfa866289a5f24b319aac3eb5881dd291b3
+    log: revlist-2cdc3ef8b8c4-76417bfa8662.txt
 
---===============7792287308892878111==
+--===============6343089290942110558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c51bcb8c4aae-5859b09c2f4f.txt
+Content-Disposition: attachment; filename=revlist-5859b09c2f4f-e605a6b4905e.txt
+
+1a168f06615d86b5b62d0988286eac52169c9def Merge branch into tip/master: 'core/urgent'
+344941800644b1b3f9926d289850822a65fc6d10 Merge branch into tip/master: 'locking/urgent'
+a2d323a8ae0f155ba789f7ff8dc0e846ba02f600 Merge branch into tip/master: 'perf/urgent'
+b2956da5a32613e65b9d81f6717430a1d2746add Merge branch into tip/master: 'timers/urgent'
+76417bfa866289a5f24b319aac3eb5881dd291b3 Merge branch into tip/master: 'x86/urgent'
+fe3d5192798cec348c827ae3f63d68638298cb81 Merge branch into tip/master: 'x86/merge'
+5266c654fb776131a729580b26c7c30d25e6b52d Merge branch into tip/master: 'perf/merge'
+0efcf9aae832477805b7c493149366ab10826589 Merge branch into tip/master: 'core/entry'
+25dbc3fdb05c220df4328ff8f69635f654e75f7b Merge branch into tip/master: 'core/rseq'
+aea770eda1e61adb0734d84546d973da46d71542 Merge branch into tip/master: 'irq/core'
+8b07b245c3690b99d859f53b42d82ba3e8234e57 Merge branch into tip/master: 'irq/drivers'
+9d21c43c0edf9ff80aa0b888ce381ba99d81117d Merge branch into tip/master: 'locking/core'
+afbdc31b1d09c967eb73213c605e9ff05dce2ea3 Merge branch into tip/master: 'locking/futex'
+d37d08eea5571925a3b5e78beb3db41946d6bdb3 Merge branch into tip/master: 'objtool/core'
+ec0bbc4e0ea9fc586360110db535ad59d364397c Merge branch into tip/master: 'perf/core'
+4122249cc6f89f3b85cbad6d95a5e95e0d716531 Merge branch into tip/master: 'ras/core'
+4bb1cdb830a658b6fa17799d2da9e2b2f142b689 Merge branch into tip/master: 'sched/core'
+6a6daed75152bb97d3a87bf1af65372ef4933a92 Merge branch into tip/master: 'smp/core'
+0bbc1aa4b7d285a89ad54a137eea8abf021fca87 Merge branch into tip/master: 'timers/core'
+dcccb8b32000a341f09817148a7edc092b5a6cb1 Merge branch into tip/master: 'timers/vdso'
+51fa598e8b74a530ab59613ed801c4815e80310b Merge branch into tip/master: 'x86/alternatives'
+e8e1480054ca1a89bfccdbfa2a19036f13ff0e64 Merge branch into tip/master: 'x86/boot'
+24cb7a91d588accffb6009e21fb02f593fe18d42 Merge branch into tip/master: 'x86/build'
+02acbe7e7925195e6b65b0d1cf9e3de7035a1eca Merge branch into tip/master: 'x86/cache'
+0cf81b3db1a29b967c3eded53426907f8349194f Merge branch into tip/master: 'x86/cleanups'
+59863fdaf08ac4dfcc6d7c4f5801c9cd03c66434 Merge branch into tip/master: 'x86/core'
+46e3902e1796a3a4a516d628c558059d2f8cb371 Merge branch into tip/master: 'x86/cpu'
+2e01bf0a1c804a596e5d61d88d60baa9e820fe7b Merge branch into tip/master: 'x86/documentation'
+f6e5fe97f93ae8614043eeb51490ba18dd8c8a94 Merge branch into tip/master: 'x86/entry'
+fc9faf4ccfce0adee2e49ced286bf402917f1b60 Merge branch into tip/master: 'x86/misc'
+0d0884b077b8b2ab2572aa2a180d75c4cb9f9f2b Merge branch into tip/master: 'x86/mm'
+e605a6b4905ec6842da72c2947b319b3661a3931 Merge branch into tip/master: 'x86/tdx'
+
+--===============6343089290942110558==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2cdc3ef8b8c4-76417bfa8662.txt
 
 d761c7e38a000603a9d16270a1af770a0e8efb5e gpiolib: Check gc->get_direction() before calling gpiod_get_direction()
 594d905195024b228c962627ae5ae7c17bd582a4 af_unix: Unlink scc_entry in unix_del_edge().
@@ -79,15 +122,6 @@ cbb35cbe8db268fefe34c23df15348cf99025298 net: tap: fix wrong transport_header wh
 8a422297391328b8128e5f6b7e1c49b0240ffa82 selftests: tls: cover splice after a failed decrypt
 71b3ced5047a94c2776e796fe79c387ad9c31d5a Merge branch 'net-tls-fail-splice-after-a-failed-async-decrypt'
 cba9ccb47e9fa4cc77692fb896cc5ab57a667882 tipc: read le->link under the node lock in tipc_node_link_down()
-3a83d9cd3d0e66c0ef99ce84f972ed26f50c990f objtool/klp: Fix vmlinux .klp.symid link error for .no_trim_symbol symbols
-1ea786097cd79522b76cbd41beeb8f84ef3a76f4 objtool/klp: Fix size of empty special section entries
-636f230ce21e2730072c58280f1fa0bed4a00eed objtool/klp: Ignore replacement offset of empty x86 alternatives
-69f361b8a7a2f65c1bb236ea0899cdaad7267653 objtool/klp: Explicitly disallow patching or referencing init code/data
-07f14d6af9d7791fdc2b44a3dd0693e42c71d2b8 objtool/klp: Fix cross-module klp relocation section naming
-86a697572c6271083694025eefa8de518eeef623 objtool/klp: Don't match local symbols against exports
-72d76d0c18ebd40f6a32df875ff40528564849c1 objtool/klp: Allow new references to module exports
-4cd3cfb8b54feca89a682720434092a87bfa4967 objtool/klp: Fix relocations for EXPORT_SYMBOL_FOR_MODULES() symbols
-51c1de13486315ad46a74b40ec17124916a08277 objtool/klp: Fix line numbers in Module.symvers parse errors
 6bcd76c134c55c697148acb5c0194e9666abdf84 af_packet: Don't send zero-byte data in tpacket_snd().
 f60b396ee174206fe08ebf997d16cd3801b77b22 net/sched: act_api: fix TOCTOU NULL deref on a->goto_chain
 6bf14575c65569dcded90ef78afb8a6d57323f04 gve: fix zero-length skb frag with header-split
@@ -96,8 +130,6 @@ f60b396ee174206fe08ebf997d16cd3801b77b22 net/sched: act_api: fix TOCTOU NULL der
 6d3724e616faf952c3adcf8414fc21a828ef3709 net/sched: cls_u32: skip hash tables in u32_bind_class()
 7b53449540502cb21b32bca62a6258e22cd97bbe Merge tag 'nf-26-08-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 1fd495ef09eef96169a379a749c24b5e69974bb8 m68k: Define NR_CPUS to 1
-6656cf1e975aa152c082012b820efffaebd49979 objtool/klp: Fix vmlinux .klp.symid link error for .exitcall.exit symbols
-7df1638df97b2aaaff4731b72d4940053257c952 objtool/klp: Fix .kcfi_traps special section extraction
 9e6869be49064915edb6c8776b27c376cfdb0df5 net/dibs: Correct freeing of dmb_clientid_arr
 beb33f8ee1ca83acddb2a5ae80f3d22ec550b4c3 sctp: clear new_transport when removing a peer
 36a05d2820077bb3955acb8111e1041d39148037 net: ethernet: ti: am65-cpsw-nuss: Fix port_id extraction from SRC TAG
@@ -105,20 +137,19 @@ beb33f8ee1ca83acddb2a5ae80f3d22ec550b4c3 sctp: clear new_transport when removing
 2bb155e92167cd5ad6aae312e83291da2454f8b0 Merge tag 'ovpn-net-20260809' of https://github.com/OpenVPN/ovpn-net-next
 120977e2c096deea4e866e4273be9220b957c29e net/sched: cls_bpf: reject dev-bound programs bound to a different device
 9006c116dd111d457bf5d074990210f70a4ad2c8 l2tp: fix tunnel and session refcount leak on seq_file release
-2b58c749b8c5244e259a0230bc57b10b010dc545 sched/isolation: Defer freeing of cpumask memblock memory to initcall
 42d217add8d80d6e7d9f58f80d11ea9b07ea113e firewire: ohci: fix NULL pointer dereference in ar_context_release
 64dc3ba55effbf8afcc0099162dfb4138009ad48 Merge tag 'm68k-for-v7.2-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
 b4f5144d37403d529334573ef2a1bb6ca4a2c553 Merge tag 'gpio-fixes-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 83a4f90e9835d3d61fe3dd39ffbbcac752467d09 Merge tag 'firewire-fixes-7.2-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 e14aacefb78d942d2308d9821fe52d75d21a824e Merge tag 'net-7.2-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3aa1dcaa4f6f5ae08936491e08bd456f331f2d40 Revert "wifi: mt76: Disable napi when removing device"
-dee87e09b0dd63da9b1e1876167ccae37842dfd0 x86/pkeys: Fix pkey_alloc() return value when pkeys are not supported
 b69859204d4db3acd86c1c2dadcef0d77b451933 tracing: Fix NULL pointer dereference in module event cache removal
 c3730b8373bb5059d735509b9e6a00d7eb337d7c tracing: Fix race between update_event_fields and, event_define_fields
 2f1baf1fc8929e6c48370be543ad028ac7ad4131 Merge tag 'trace-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-bced580768b2012ff93265692b5f3e9b7662c556 Merge branch into tip/master: 'objtool/core'
-d777807cd9e4e74185d28822a0d579f3fbe7b814 Merge branch into tip/master: 'sched/core'
-80ea458faac95b38fd6cd70c84c8cb599ee9f155 Merge branch into tip/master: 'x86/mm'
-5859b09c2f4f29955040f25fabb466fec9c3fc3a Merge branch 'linus'
+1a168f06615d86b5b62d0988286eac52169c9def Merge branch into tip/master: 'core/urgent'
+344941800644b1b3f9926d289850822a65fc6d10 Merge branch into tip/master: 'locking/urgent'
+a2d323a8ae0f155ba789f7ff8dc0e846ba02f600 Merge branch into tip/master: 'perf/urgent'
+b2956da5a32613e65b9d81f6717430a1d2746add Merge branch into tip/master: 'timers/urgent'
+76417bfa866289a5f24b319aac3eb5881dd291b3 Merge branch into tip/master: 'x86/urgent'
 
---===============7792287308892878111==--
+--===============6343089290942110558==--
