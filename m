@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0812290836878534781=="
+Content-Type: multipart/mixed; boundary="===============3902922775725607720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Aug 2026 01:27:23 -0000
-Message-Id: <178667084362.2477916.10406611341230650478@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 01:28:01 -0000
+Message-Id: <178667088139.2478338.6877413684637734964@gitolite.kernel.org>
 
---===============0812290836878534781==
+--===============3902922775725607720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 248fe6d163caae06b498cd9e68e2f16950b57ebb
+  - ref: refs/heads/usb-next
+    old: acbecf60145a2d6259ff3e059fd295cf626ed574
     new: 05abeffcc27ec965391e21f9029bc14dc1dd18e9
-    log: revlist-248fe6d163ca-05abeffcc27e.txt
+    log: revlist-acbecf60145a-05abeffcc27e.txt
 
---===============0812290836878534781==
+--===============3902922775725607720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786670748 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786670789 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1786670839-ea1d86eb10609a7aa1fbcee01e6b1f761222e311
+nonce 1786670880-e212fe13f47a7118df918c68d3284b6b5d0e8ccb
 
-248fe6d163caae06b498cd9e68e2f16950b57ebb 05abeffcc27ec965391e21f9029bc14dc1dd18e9 refs/heads/usb-testing
+acbecf60145a2d6259ff3e059fd295cf626ed574 05abeffcc27ec965391e21f9029bc14dc1dd18e9 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+bpwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rukQANRli30kbGIr1bwF5LVl
-8WzJSslM7s608bGMkjen8T3K/6UKaJ0UZZzcjj9xSOtj2Xf/il8AbQmWGzVnaIxQ
-Jf7WXy5H5J3twL46plOU+jqMcL96rswx+fa1wO5++bEo+XqFEo4HntuR8cbWyrYB
-j6v3I2RDiI81OQSV7213TF/JBHWT0mnyjzwJ3dtSSTXY7vJ6Xhqc3wZslAYgPkWB
-deRlfmcaJD/VBvnpiEO37sTNAUQWdeASk9v4CXJY1UhGdHQwxjweAnpX/O18nKzJ
-p7eruaoIVLtddWocvwys7UQ36EUkaqGkXRxpUm/ppsEIgnGD6XlFfy5lnwLlS0p2
-3riDW/ZTS8RdNVp6AjySyaFlNhYVGk1ZGIgiY9M+iCvVsw+1S+uJwAGLzhdCzZfi
-eFQoPTJKjlGb0Wtmz4O2njTHXIyL3Ju2zzSQOxRz/7ifxX2PnDvr0gvEZ7cqbKG0
-dmTKX/5bTSMRaxUOjtSbZWOp2LGvp/6k46+Qq/3SSVaUlI7sHGCiyBLy+s8Fd3X1
-dxHYT9dAAhhF8qMRtn2uUVT7pqzrgXP2yQYwD4+jAuen1QgOx/vxxxqU7UqVM6bZ
-uZ5juT8Y+Obb1FrZaORTGmUUH3dcWqI4CFmaCCOaXLZ7R4Mf0nj8+e1fldfGgZ5w
-9WLq725uswWZK8+ots7bRY2m
-=4e5v
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+bsUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fLEQAIuIKp6H9xOCnKxyDIkr
+oMBqjqZFpa4L46+YZDyu7iAa5xD53XqxzS0mYyjZ68RQzGk7kZPxnD9/oxwOI8kr
+ezm1FtyepHDT4xTMhpJdlAJNTDhCCQTrWvi2p0KqXj5wSweihXmAdCDOtLihVrMk
+QFctSygxiKdxY8327l54e/iUH3hZ2Uu/EOAMRRkVNjKBm2VBSEYTul36iqbgI9Hk
+AhAjt8OLtGxAMyZSmEvx+m/V8o61L1GEUf2yyiNU7yiVmQtbJ2d9TV/xF6xDIpb2
+ydxkXXxH0l10R5fxNFBrOuy+vgb+UZv7LmttkU9aE4C2Glmv54qvfF1Zu39DlIxm
+Ix2BrqsmjcS8VyvfnMy1F0TIBWmM+poDEilj6T64sEtqtb/poE2KTzYmS/+Ay8Fy
+uW1/xaCTFgYQmISmBi93XnF2vVSIY0JePLy23nje1dERijRaprNJD+qYMbh2FYjm
+j77Rh8xmX8GNiTirAGfY+gxw5vBWibQeJHR6K01ZVjDIVkdx8IL0CoWI3y63Mrhy
+M6LxZ7/qgRfQKReddNvvE41O77wEEnF63Jp53s1Z8cmi+lrQW1QPiE8XCEqOjL6A
+fbGSgEyQfovpibpsVQB4TW4aTgEL1xWpT8N9xe0qfDBebrH/pd2aiTeRoXwJsAXh
+SyEH8N/02j9sMx9qlX6cu50T
+=laUE
 -----END PGP SIGNATURE-----
 
---===============0812290836878534781==
+--===============3902922775725607720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-248fe6d163ca-05abeffcc27e.txt
+Content-Disposition: attachment; filename=revlist-acbecf60145a-05abeffcc27e.txt
 
 2ed12514074d06e19fca473eb7e24e9245393db2 USB: serial: digi_acceleport: do not log stopping of urbs as errors
 54ad7212195812e76bf33f561009a8e025bbfbd1 USB: serial: digi_acceleport: fix port registration order
@@ -75,7 +75,10 @@ c41d491929bbb2e3fcd9f0233e563b1f6e1120a7 USB: serial: metro-usb: replace unneces
 79c6baf62ee4aa0a18ef8a61597158125745f171 USB: serial: metro-usb: drop redundant initialisations
 091738d09786ae4da789b5297cb4dae3024d1c13 USB: serial: keyspan_pda: drop unused driver data usb-serial pointer
 885d802f544ca7bfa8f3984d94233cce715bb6b3 USB: serial: option: fix slab OOB read in interrupt URB callback
+177b48f840c79dbee24c59e311e1f463cf462737 USB: serial: digi_acceleport: add port lock nesting annotation
 15734de99517b0c81a1a5a3bccaff4593ef8d953 USB: serial: pl2303: add support for PL256X multi-port devices
+d37186bd95a07e334447f47274a38a311dad2172 USB: serial: spcp8x5: drop broken carrier detect support
+248fe6d163caae06b498cd9e68e2f16950b57ebb Merge tag 'usb-serial-7.2-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 05abeffcc27ec965391e21f9029bc14dc1dd18e9 Merge tag 'usb-serial-7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 
---===============0812290836878534781==--
+--===============3902922775725607720==--
