@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6479003162486770546=="
+Content-Type: multipart/mixed; boundary="===============8450957681356211428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 14 Aug 2026 11:27:46 -0000
-Message-Id: <178670686637.2961009.10780798464860217445@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 11:37:32 -0000
+Message-Id: <178670745203.2968259.14611323107762021161@gitolite.kernel.org>
 
---===============6479003162486770546==
+--===============8450957681356211428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.3
-    old: 583e44f2828b9628535c099ebdeb8758c9b2d90f
-    new: ba5401135aa508f0cb5414f269edba1fe90460da
-    log: revlist-583e44f2828b-ba5401135aa5.txt
+  - ref: refs/heads/for-next
+    old: 321e8efc1fcd0c24d82c8cd23082c581f85d4962
+    new: 492dbe7565fd56e97b7e51dbcb59d1bbfd6e12d4
+    log: revlist-321e8efc1fcd-492dbe7565fd.txt
 
---===============6479003162486770546==
+--===============8450957681356211428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-583e44f2828b-ba5401135aa5.txt
+Content-Disposition: attachment; filename=revlist-321e8efc1fcd-492dbe7565fd.txt
 
+583e44f2828b9628535c099ebdeb8758c9b2d90f ASoC: meson: aiu: make aiu_formatter_i2s_drv static
 931f4a1223e154fdea63071074cbaa633ebf394b ASoC: rockchip: rk3288_hdmi_analog: Drop redundant probe error messages
 06f5854050f56775977f9972b78a21806de001f0 ASoC: rockchip: rk3288_hdmi_analog: Use dev_err_probe() for error handling
 b5e4b1159743e72564030256949ab37108184ed8 ASoC: rockchip: rockchip_i2s: Use dev_err_probe() for error handling
@@ -48,5 +49,6 @@ de27e0cadcce09053a8ae07575ecd5a327d8fec6 ASoC: fsl-asoc-card: Move bound-compone
 0196c4b4f82beec2114ee3c13888314ca551e32a ASoC: amd: acp: pass audio_drv_data to dma_irq_handler
 bc34c37ed8265250c4c41c18953ab82fcc491c83 ASoC: dt-bindings: es8316: Fix supply property constraints
 ba5401135aa508f0cb5414f269edba1fe90460da ASoC: tas2781: Refactor calibration start kcontrol creation to separate helper
+492dbe7565fd56e97b7e51dbcb59d1bbfd6e12d4 Merge remote-tracking branch 'asoc/for-7.3' into asoc-next
 
---===============6479003162486770546==--
+--===============8450957681356211428==--
