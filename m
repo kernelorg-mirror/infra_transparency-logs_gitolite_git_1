@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3883883121478199454=="
+Content-Type: multipart/mixed; boundary="===============1045175759426501952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Aug 2026 01:19:33 -0000
-Message-Id: <178667037396.2470460.2803739662725425926@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 01:19:46 -0000
+Message-Id: <178667038649.2470684.12118970135388013065@gitolite.kernel.org>
 
---===============3883883121478199454==
+--===============1045175759426501952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9
-    new: db2ddb87143519e20a95aa36c60b36107b736a58
-    log: revlist-3d26cd1f3ff2-db2ddb871435.txt
+  - ref: refs/heads/usb-next
+    old: 5d5fd841c34649f1b09220fe58e59dffd61c447d
+    new: acbecf60145a2d6259ff3e059fd295cf626ed574
+    log: revlist-5d5fd841c346-acbecf60145a.txt
 
---===============3883883121478199454==
+--===============1045175759426501952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786670281 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786670291 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1786670372-30be0df2da5f7cf978dba6bdb74a854354f48fa8
+nonce 1786670382-b880a13f1b80f58ef08a05ef1f8ca0e98ae71f84
 
-3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9 db2ddb87143519e20a95aa36c60b36107b736a58 refs/heads/usb-linus
+5d5fd841c34649f1b09220fe58e59dffd61c447d acbecf60145a2d6259ff3e059fd295cf626ed574 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+bMkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KMsQAMH+LfFJVtdOwqy40YlX
-k9VhqtdPR+dHdQV2jhwoY+oKEcCyrohwli87tT0S6H7jJ9r8Rp/7uFCxPUixhvZj
-UlawuIdLIEz/DQZQ5og08lQuXmDpOAzLLMik3MK3/YJsxcmlWj784NpJX5JBqkLi
-Mopfvqf4PDciHhVKtFrHh5x6xWUgQmjp7GH1zb6sAVDTFfsQWvcJopJv7L2JEp6D
-fNOH3KPEQO9bAd0ZO41byYOkIzK45wxbgNWtOqOrHfTj5VHm0dPeUFt22z/ao3oK
-kHa8b2YCpRVxC5RvSxQMzoVdjpLbtpMunh/L3lXGPXRrbeluVZNgguY9l4OL254s
-h8eLZ5d/+bjeUqXiWF4ctaqcd5F3sRB/QmoVBjaMGqgZtybBjIW7cXmZMftrwALJ
-GCUoXRnBfC85MmCbfXkuGZxgEY4gY4I1i/M+MhCmTMPA9qPihbx3ep+2Am1af6JN
-Typ9Vxt6xtmM67mlsdHb9QAfk/OpLokU9jTY5hZQzBqKUcWNc5EDEeJuwfo+t1Pe
-pHLMg1DDjJzf6NGee7sB0rBD3OuFGcjjn0ihjZpcqILg/G2IC1EXbItuBEeaPlET
-UaaccMi1EEegCg6PsQMRfeFw9LBpPRLaYEvn+yRhwGlIT5mA5q17WHnvI9f1P84b
-66X6Gi+zQPzw2QDtEPUVElzO
-=Q7uD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmp+bNMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GSYQANXu0clscKs/VV3hPq+o
+oImaRAd43u6x5KWXu/KjxtVUwj85mMultJR1P56apInM4TPme5va9U2RWhx1gSWz
+qJ8+4sIOccKMu4SAOv+OvF48yl8w3QzEQXjI2Tillf5XQ8bCtlr7THY1T9+UngA8
+5hpXBSnH2H5Gm1PBfTYm/+391qyHQL3FQ19uPLAOAAx9k90TBmaZjc76YC1sxISX
+JOYqzsCYG4vW4fWe1F4P671E47F5Sp4DyKcpW0/Ve+1kmLrOsiYDlNLSvsOBFVFZ
+guzM9zonJurmaXkS+SinEtVAFFESRW1zq+JcGMgxiOd7iWzIeblLylRHEvn4pIWI
+ATSjpbcMfVKwhuB37TNUxNmZWog8ll5djNwuaxd5J4XQn3jpxmqw0H75WMWTSUuF
+BXKiq8TaWLtyOFweT7eC6mQ1t/2KGC6xW1S3A94ttYzxzpcMXNnyhJhqIUmjdTZ+
+HuCRhlfMHMqrSG+WaxJICWFT4qXD71LfwT4dcpUXT2yTOLqQuUEUJ8VG5A57GuW6
+0Xai9a4kHowQiBwhHsfC7dNG6tM500pK4PH62g3m/DhooDZzANp/mPozCl7hcdba
+PaTN+LHdk7+ZtItCsyHvw7HoccTaALkSAf6Xif/ibB3mGb2UHoxVKFmhDpDOASYD
+pHvvke37dqojrU8U9FLy1n2h
+=OZAZ
 -----END PGP SIGNATURE-----
 
---===============3883883121478199454==
+--===============1045175759426501952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d26cd1f3ff2-db2ddb871435.txt
+Content-Disposition: attachment; filename=revlist-5d5fd841c346-acbecf60145a.txt
 
-51a0e8399858621442807a26057bcd1cd3ced046 btrfs: skip global block reserve accounting for rescue mounts
-c438d34ec1eed4d23e2081d61c5e96f5176898a9 btrfs: report missing raid stripe tree root during lookup
-330dcc553f282e8dc0b88c9495b4c296465364e1 btrfs: raid56: fix an incorrect csum skip during scrub
-8bc4d7209611e8aa9d5409b6a4a86a9eb91b69a3 btrfs: zoned: fix missing chunk metadata reservation
-0d214d14be503f16238999723acfcbf63f04cc8b btrfs: initialize 'args' to avoid compiler warning in btrfs_ioctl_get_csums()
-ab602da96a915d42dcb1b0b322e8daea0f71b51f btrfs: zoned: skip fully truncated ordered extents at zone finish
-c4c0673e4cb15b0c127e6d00732a2427bdd12c11 btrfs: raid56: fix scrub read assembly submitting no reads
-8bed376124ab4505b70083a2b91f2c7ef6d51e24 ntfs: harden runlist realloc size calculations
-4e646ecd44759e552b0b9ccd995f3f608daab414 ntfs: drop stale page-cache when shrinking a non-resident attr
-8a570b19b4b16a8a3b5ffa2b332bd5613110b2d8 KVM: arm64: vgic: Avoid double-deactivate of IRQs in the nested context
-5aab4d46278df6e9e94bd0a92df9a135a5fe16ad KVM: arm64: Update Fuad Tabba's email address
-fafb66e5903c2bcfc7b7e259042a8282f18a6faa rtla/timerlat_top: Fix on-threshold actions firing on signal
-f7074624bafc44b236ddc7159d962075c3747f2b ASoC: amd: yc: Add MSI Crosshair A16 HX D7WFKG to quirk table
-75952cfc7752c52a2b692b59d34ce160d3edabb2 arm64: dts: broadcom: bcm2712: Remove non-functional EL2 virtual timer
-97ab5aa5177cfa8759bd3861d71e047ea084a829 MAINTAINERS: update Hongbo Li's email address
 e4779e2a16d600892aaf743438f6ce8cc4eb3c4c phy: zynqmp: fix clock error handling in xpsgtr_phy_init()
 f3506e15cf72e94f62d5f2d173e5b7008f644cde phy: zynqmp: fix runtime PM leak on probe allocation failure
 b5e24d6377f9062aff79c3c493bcbe923deb380c ALSA: usb-audio: Add iface reset and delay quirk for Generic USB Headphone
@@ -213,6 +198,10 @@ aed0714255c80d143e9f6d4ae00ee14423204ad5 smb: client: remove conditional return 
 96b2dbbe58a1ea5df8d29c2fe24b5f04715f4443 erofs: ensure valid f_path for page cache sharing
 c9b47e6b23114e939b17f818471c7a46e59006e7 erofs: cap LZMA stream pool size
 9972befc3e34ff8b6847198c84f11bfc312dde40 KVM: s390: Fall back to short-term pinning in MAP ioctl
+97b228e596740fca5eeeb1d8e619c1f457d7e2f0 thunderbolt: stream: Unmap buffers with mapped size
+d2ee4d47aacbd2ba456092eeec670dba35fde291 thunderbolt: Fix bandwidth group reservation indexing
+d6764992f17b23d91ff93ce905ab53c2aa7191f0 thunderbolt: Bound the DROM dual link port number before indexing sw->ports
+e48844ece5e3ed1d1eb865f6da2b16f62cd9f86d thunderbolt: icm: Preserve USB4 proxy data-valid bit
 67ff4bf723c8bd1f1b10450fa3e8f55762418104 gpio: gpio-by-pinctrl: Apply initial value in direction output wrapper
 6a39ca1286dd97ad02bb8e03bbb65ee05368d778 drm/bridge: display-connector: Fix I2C adapter resource leak
 d233087c19f6607ef926ac3f47d776e2406ffd1f gpio: pca953x: fix cache_only and IRQ state on restore_context() failure
@@ -569,6 +558,7 @@ e67cc80b50f587cd1d8ffc8989dcec3291720bc3 net: mana: Return error code from mana_
 a95f3e9b8985fc0e21bfcf727e941c1f03476927 net: dsa: realtek: use devm_mutex_init for vlan_lock
 442ecdc83d00d6c2312541c4e0ada47e02805fcb net: dsa: realtek: use devm_mutex_init for l2_lock
 dd16f1b5720f5dae33a79b5305e188e8290a3973 Merge branch 'net-dsa-realtek-use-devm_mutex_init'
+9cbc63400f7dc000adf898bbbc8208dfd93091d7 thunderbolt: Initialize ->domain_released completion before it is being used
 0e1ffa6f9d72726321bd62abf849d71703324198 Merge tag 'imx-maintainers-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
 111b787c9e31ff4cb2ac4d17513b492fcd99aca7 Merge tag 'qcom-arm64-fixes-for-7.2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
 935dc3bb20e0fee89b598e10d1f5f1f500ddc79a ovpn: limit keepalive values to one day
@@ -784,6 +774,7 @@ ec6978e6bf68fb6f51edd4f700f9a554dc0da894 xfs: add a comment to describe xfs_gc_b
 eb6b2cc1fc8ad566d746d128a559989ff0bba5cc xfs: check v5 superblock features early
 cf3eb490ff57d1ce1bd7dcee59ed03de757ce979 Merge tag 'arm-soc/for-7.2/devicetree-fixes-v2' of https://github.com/Broadcom/stblinux into arm/fixes
 496e0f706b8ad7831bf7189ff9deb8701d2ebc2b KVM: s390: Fix unlikely NULL gmap dereference
+134044e9fa33b599dd57d15c818cba1f3618cab3 Merge tag 'thunderbolt-for-v7.2-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 1423415471274abda87024967d7fe2206ceee0ea serial: 8250_of: clear stuck empty-FIFO RX-timeout on LPC32xx
 e25d47a526939ad44b75f778b8a7500562b84fc1 vt: stabilize tty reference in kbd_keycode with tty_port_tty_get
 a7ad0034453ba4c353f9b8f810ee2569de33d283 vt: add permission check for KDSKBMETA ioctl
@@ -802,6 +793,13 @@ e4d678900a1ae66112812fe4d2aff16044ca37f2 KVM: s390: Free the mmu cache when kvm_
 216c5289dd66d9cde6b42cbe68ee8dec5669678a KVM: s390: Return -EINTR if a signal is pending while faulting-in
 9187a9186d0ac7b260b07917aabc672a80d37c3c KVM: s390: Fix ordering when adding to SCA
 feadc5e84dcb53422a437556c35af9efd9826fd5 KVM: s390: Fix cleanup in kvm_s390_pv_create_cpu()
+50b303f3d0f7de543ee90d50879970783d06da33 usb: cdnsp: fix incorrect endian conversions for APB timeout register
+6b1c8a9403a26cb0fed7a648916c74dc236da591 usb: gadget: f_ncm: Use unsigned int for ndp_index
+7e22c9f79b200672f3e477421b6c9050d8cf70a5 usb: misc: usbio: check ibuf_len against rxbuf_len in bulk msg
+c2f811314be351d86b6ab41e9297ae80d8da6f86 usb: atm: cxacru: properly kill rcv_urb on error in cxacru_cm()
+152f174a13618bec1f842d2deb69245cb2ace51f usb: core: Add quirk for 255-bytes initial config read
+37a6e2f9c30245d06de4d5755a9d8cc1de3923f6 usb: hub: Split announce_device() to log device identity before enumeration
+f3988e68fc089f6a5883f4f807955a3825bb7d45 usb: quirks: Add ShanWan gamepad to quirk list
 35e66f03de8f5343825adfc21bcaec4a99d3d4c2 Merge tag 'cgroup-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 be76b516e681e5a620877bd3d0e1251b2ab38366 Merge tag 'sched_ext-for-7.2-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 0710dd08824a6f3b9892fc5be24acd2e4a36f178 smb: compress: reject Pattern_V1 when not negotiated
@@ -853,6 +851,7 @@ de845981da67a6b049080c87e605130b0c30adc5 vhost: reset the vring metadata cache o
 3e8ec7c0387273329374f5c7bd61f5f38af71fe1 fsverity: Fix bpf_get_fsverity_digest() dynptr assumptions
 7c68ed5c5ad4c185ea9654f5d8ee36560277b7dd fsverity: Fix silent truncation in bpf_get_fsverity_digest()
 7cd8645d2b23e396228c78d83ef80a210154a1d9 Merge branch 'fixes-for-bpf_get_fsverity_digest'
+3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9 usb: xhci: use BIT_ULL for CRCR bits to fix incorrect 64bit mask
 7140eea2470c6a1147ee0e21c11737620e6f6983 Merge tag 'aspeed-7.2-driver-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
 1a35da325cac4d5bcad76a2aa943408a6f1d9000 packet: synchronize pressure clearing with ring reconfiguration
 cf6f8b29befb92173659bcef6a441d274947bfae net/openvswitch: check Ethernet header length in key_extract()
@@ -1081,5 +1080,6 @@ bf98d7b0d5a99991e47e66cee4eb1d3fa514be97 ring-buffer: Prevent subbuf order chang
 b643e495ae92e2aa75a54c557a756e02f049781d Merge tag 's390-7.2-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
+acbecf60145a2d6259ff3e059fd295cf626ed574 Merge 7.2-rc7 into usb-next
 
---===============3883883121478199454==--
+--===============1045175759426501952==--
