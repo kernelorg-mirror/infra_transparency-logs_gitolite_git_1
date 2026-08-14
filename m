@@ -1,82 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============6324736644423763883=="
+Content-Type: multipart/mixed; boundary="===============5580223792314572094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux
-Date: Fri, 14 Aug 2026 10:36:13 -0000
-Message-Id: <178670377310.2923661.4695340307593985393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Fri, 14 Aug 2026 10:39:38 -0000
+Message-Id: <178670397818.2925439.11447975322997456438@gitolite.kernel.org>
 
---===============6324736644423763883==
+--===============5580223792314572094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux
-user: sashal
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/noble-cves
-    old: 86e8d8b1062e9723ca3b32b5798bc8fdf23dad5b
-    new: 594b3aa94f800728330baf2576d5e31f2a8d7da1
-    log: revlist-86e8d8b1062e-594b3aa94f80.txt
+  - ref: refs/heads/next
+    old: 09264530e79777e47321c32eaba2e4c6d76f1f2a
+    new: 534a31128efb89384c43062e656c219bc4a8c5f6
+    log: revlist-09264530e797-534a31128efb.txt
 
---===============6324736644423763883==
+--===============5580223792314572094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86e8d8b1062e-594b3aa94f80.txt
+Content-Disposition: attachment; filename=revlist-09264530e797-534a31128efb.txt
 
-54fea1ba24aeb0fd4ee9537e7145847d3302f886 net: adopt skb_network_offset() and similar helpers
-74f550548735629d45d3174098a6de88746a3bbe xfrm: hold device only for the asynchronous decryption
-18f0666a22fa21e1299960a72bc94a38fc9d7734 xfrm: hold dev ref until after transport_finish NF_HOOK
-93d5e8ca24f41d59e677ca8ba4c98f7e15fce47b bpf: Fix incorrect pruning due to atomic fetch precision tracking
-0e94a482e78292676fe9e3a8d5c850db1c48d53d netfilter: ctnetlink: ensure safe access to master conntrack
-24b3d26b6c6c11c27ed95b0728fcdad11d8c0dd6 media: chips-media: wave5: Pass file pointer to wave5_cleanup_instance()
-b24974fbb09ae8fe2f728121f2532a30370b5f6d media: chips-media: wave5: Fix Null reference while testing fluster
-c012c33346335e55946d703a5c8150b5945d4078 ipvs: skip ipv6 extension headers for csum checks
-cd9085ae4b9ad3df54633cda8126eb7d76e5be39 Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths
-5824c4f3c9ebf41c1cf84096aec0f1c8a379cb9f tap: free page on error paths in tap_get_user_xdp()
-fd293e7335e83447dec19a0ccc34d35997e43517 Revert "net/smc: Introduce TCP ULP support"
-0885c64b423350a725c84a75f0eb5962e1fbdff7 [AUTOMATED CONFLICT RESOLUTION] Documentation for df31a6b0a3057e66994ad6ccf5d95b9b9514f033
-db1fc0369271b52a4d7a93bbb25a7373fe53d217 RDMA/umem: Add support for creating pinned DMABUF umem with a given dma device
-d6f05dfcb3ffbb811bb61644366dc6fd5f43d161 RDMA/umem: Introduce an option to revoke DMABUF umem
-1e683b7e7e01340431a9f7bfda312188c3ba82b2 RDMA/umem: Add ib_umem_dmabuf_get_pinned_and_lock helper
-3b7b704c6e15971b199e84e2e8d594323c41ae77 RDMA/umem: Move umem dmabuf revoke logic into helper function
-e9da4af1286ce333a0501a54319eb00f7d29d52a RDMA/umem: Add helpers for umem dmabuf revoke lock
-859b6e58854bc8e4150592625e1e4f46f2ad214e RDMA: During rereg_mr ensure that REREG_ACCESS is compatible
-a21c6d69926f8007ae207cbf99863dc655d062d0 net: rename netns_local to netns_immutable
-965acd231989ea94d1bb28bbdd11bb35e62d9d7d bpf: Free reuseport cBPF prog after RCU grace period.
-9c9f7a7d24cf30754ceb8b71106e985f2fcc41d0 bpf: save the start of functions in bpf_prog_aux
-7d32238f16d9bc6193351af83c876603cd499b73 bpf: Fix ld_{abs,ind} failure path analysis in subprogs
-148caaa75f540d1faba5e4ec0bd774b7eed8a89c [AUTOMATED CONFLICT RESOLUTION] Documentation for ee861486e377edc55361c08dcbceab3f6b6577bd
-8a2db454ba9fe80faff5894ed4477992d4332712 thunderbolt: Clamp XDomain response data copy to allocation size
-b1bbe53647fb391d842964ff39105264f2c9f563 misc: fastrpc: fix DMA address corruption due to find_vma misuse
-5cf44dd94d0a1366a59b99d2f4997ddf96f873e5 wifi: nl80211: reject oversized EMA RNR lists
-29bb4ba07ba7b0dfd69697e79e8288ebb8089e2c zram: fix use-after-free in zram_bvec_write_partial()
-fcb2e9d37301aaaa5e5c395c967d9526b0595e71 RDMA/srp: bound SRP_RSP sense copy by the received length
-061807fb567d3ca9a7a770f6661254b7c01d8c61 USB: serial: io_ti: fix heap overflow in get_manuf_info()
-67cb32ad884b03a62e83bd30e42e0d0773e6b8b0 ksmbd: fix use-after-free of a deferred file_lock on double SMB2_CANCEL
-31c3e4a17ae7f772727b45cfa4e1908482ae75b1 lib/crypto: sha1: Rename sha1_init() to sha1_init_raw()
-3f165ffe7f4f6d821a31cdfedab4bf21e617fe26 sctp: validate cached peer INIT chunk length in COOKIE_ECHO processing
-5cfe2dc198ed450a5eaa4e965d6be851cf30ab8a sctp: validate embedded INIT chunk and address list lengths in cookie
-6a8972a29ee106dac005352077c73e0c0c00996f xfrm: policy: fix use-after-free on inexact bin in xfrm_policy_bysel_ctx()
-01b21dcfc0b61538fb94654f693b978e9a2fef11 xsk: Fix __xsk_generic_xmit() error code when cq is full
-5183e0575cbfc4912b08cde01a6c3995b80528a2 xsk: remove @first_frag from xsk_build_skb()
-26a47a5f3c9309264e321863d76d868789053911 xsk: cache csum_start/csum_offset to fix TOCTOU in xsk_skb_metadata()
-c10e49c5f045fe5bb49ed91796efe123646019af [AUTOMATED CONFLICT RESOLUTION] Documentation for 22ba97ea9cc1f63a0d0244fae38057ed452b6ac7
-8deb7aef8d63351e162ef55d7b22087c2b4298af Bluetooth: RFCOMM: validate skb length in MCC handlers
-75a90da699562221add53384470513db9582109e Bluetooth: RFCOMM: hold listener socket in rfcomm_connect_ind()
-9f9a80bedbbd3b1bdf5e1b1b7d4052767a501927 l2tp: don't set sk_user_data in tunnel socket
-61c7871095dbcd447351236f127b657a3f43b555 l2tp: delete sessions using work queue
-bc4b34f0cfc6b638a056a200db358cc2e4253cda l2tp: refactor ppp socket/session relationship
-5070fd223fd656959a86d2794d7570b7b767a52b l2tp: cleanup eth/ppp pseudowire setup code
-554afe23c26989a1be8581687c4c962826911e81 l2tp: improve tunnel/session refcount helpers
-da4ef49caef236317bd3153df5f295c6b89cf50a l2tp: pppol2tp: hold reference to session in pppol2tp_ioctl()
-a391092513fac47fb2a0feafc38c8ef9dd69d8cb net/sched: act_api: use RCU with deferred freeing for action lifecycle
-73fe9f687f5ba8acfd4f8bcca14793b26408d5d5 netfilter: bridge: make ebt_snat ARP rewrite writable
-d983ea2886b4ef506f6b07ae5d7fcba0eace42e8 netfilter: synproxy: add mutex to guard hook reference counting
-d1229e83e88c55028891360988d57c61b0b0fc50 ipvs: clear the svc scheduler ptr early on edit
-f7a656da1c0ca884cac6baf8ef3e6fa2fdcbd39e ipv6: mcast: Fix use-after-free when processing MLD queries
-594b3aa94f800728330baf2576d5e31f2a8d7da1 net: openvswitch: reject oversized nested action attrs
+07dca8ef89fc92b89ce36d9727547b10d8e840d6 landlock: Harden sock_is_scoped() against file-less sockets
+198c43590a9c6669bac8a3518d04bf40b762c594 landlock: Document fs.resolve_unix audit blocker
+6b88ff2b9a0eb0b3b6cfc68652cb9cd9765737bb landlock: Documentation wording cleanups
+525acde34dc6b14970d9c464776120a8d2735580 selftests/landlock: Fix spelling error in fs_test comment
+583169fb7d9732df2f2c0572d174396739eb8e9a selftests/landlock: Use an actual chardev for MAKE_CHAR audit test
+72f9428f76ff4ddca587b06284f04af86177bb8e landlock: Require LANDLOCK_ACCESS_FS_MAKE_REG for whiteout creation
+bf50671b25ac6e59fa0e9bbb23d98c5cc13c3f17 selftests/landlock: Add tests for whiteout object creation
+05b6c1a822ce1bec35e870e3794a2b660b5c26a2 selftests/landlock: Add audit test for whiteout object creation
+619b129354b734cb5127fb1897ee3f78a9897dde selftests/landlock: Test whiteout object behaviour in OverlayFS renames
+aac4507f9ff708d5ab33e31b46500cab7fa64dc4 landlock: Link the erratum documentation for whiteout objects
+43b09cbdad67493d8a304e3732a9e17cd78d0aa0 landlock: Check landlock_restrict_self(2)'s flags before privileges
+48846c1f3742f323312acc7eb49817aaf637e781 landlock: Add LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS
+e229480808d4182a82caf864b0379246982a82f0 selftests/landlock: Test LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS
+264cd4f80b5ce2d8786452d5a3d4b6bb5429e251 landlock: Document LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS
+bf525fe12b27821ab01c7159fb0a445aea502551 samples/landlock: Add LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS to sampler
+e1027e353da55e3decc2f710a08dece36788f40c landlock: Prepare ruleset and domain type split
+62d6b3f7b2a99e7d4bbec7efecca1938a112e189 landlock: Move domain query functions to domain.c
+f84079caac03e7aa2fe41c9f1984941a86b8858d landlock: Split struct landlock_domain from struct landlock_ruleset
+85581a537836a44685b592c1217c371c0b3e3552 landlock: Split denial logging from audit into common framework
+48380b1d56e3f71b131d336fb87c4aa232417849 landlock: Decouple the per-denial logging decision from CONFIG_AUDIT
+fe7f4d5a83a5b7bfd27436192f7945009f0f2a69 landlock: Consolidate access-right and scope names in a shared header
+9d61466766ded6026699327621f51bff0279c10b landlock: Add create_ruleset and free_ruleset tracepoints
+1852a3b6af4b95ae6f27b25ac0e43afb60c868d0 landlock: Add landlock_add_rule_fs and landlock_add_rule_net tracepoints
+8bbca7566ef132c2f306f78f96f78e95dbc8fd2b landlock: Add create_domain and free_domain tracepoints
+f7e91741710652875497a7ddfb995aa95d7bcf17 landlock: Add landlock_enforce_domain tracepoint
+758dde8b9c39f5053440328035e3ec33ef095567 landlock: Add tracepoints for rule checking
+7f0ada7de494cb5867f3a167a740d41b2a86a70d landlock: Add landlock_deny_access_fs and landlock_deny_access_net
+da69f5d29ebe33dca400923bb9672d47d412f0d4 landlock: Add tracepoints for ptrace and scope denials
+c979406a45ebb51240f8ca5ffbc0704792f6e211 selftests/landlock: Add trace event test infrastructure and tests
+d6291c362c4172e75bbdedaacb4c7696c9791f08 selftests/landlock: Add filesystem tracepoint tests
+27811a29cec1e0eeb439c1bf0b85ea5e7f07f321 selftests/landlock: Add network tracepoint tests
+097b94deb84a2202305b8c7ce626fe28950c2583 selftests/landlock: Add scope and ptrace tracepoint tests
+c874297e982b6592e645b250b12244e4e57d2292 selftests/landlock: Add landlock_enforce_domain trace tests
+534a31128efb89384c43062e656c219bc4a8c5f6 landlock: Document tracepoints
 
---===============6324736644423763883==--
+--===============5580223792314572094==--
