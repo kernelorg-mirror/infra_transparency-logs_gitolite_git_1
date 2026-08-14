@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 14 Aug 2026 00:36:41 -0000
-Message-Id: <178666780116.2435837.1263131632016248295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 14 Aug 2026 00:36:45 -0000
+Message-Id: <178666780530.2436034.3018037683459642996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 9fdbb1674f04cfbc14da5ad22e7002214b79978c
-    new: 447c9303942c439a117d9b76ce6d6e2116b38ee7
+    old: a1ca9d0abea8a2374435021aea4267f49ef4904c
+    new: ed267f783c0c283171e132bb660f8753b40a2660
     log: |
-         447c9303942c439a117d9b76ce6d6e2116b38ee7 net: tun: bound receive headroom
+         ed267f783c0c283171e132bb660f8753b40a2660 l2tp: send netlink notifications in the tunnel's net namespace
          
