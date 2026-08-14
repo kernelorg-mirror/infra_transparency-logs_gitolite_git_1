@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4896107772142453560=="
+Content-Type: multipart/mixed; boundary="===============4521685085784985162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 14 Aug 2026 14:15:40 -0000
-Message-Id: <178671694089.3099164.13947027892032731420@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 14:15:51 -0000
+Message-Id: <178671695131.3099421.6202459290814631141@gitolite.kernel.org>
 
---===============4896107772142453560==
+--===============4521685085784985162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 9f6d929ee2c6f0266edb564bcd2bd47fd6e884a8
-    new: 333238da9a193ffc58792995f3e951e4cb87bfd2
-    log: revlist-9f6d929ee2c6-333238da9a19.txt
+  - ref: refs/heads/sched/core
+    old: dfe49bd77211ea948d46a2c12c25639f7c67899c
+    new: 68e37487810a3da43c48340fab7a55b3b6efdae3
+    log: revlist-dfe49bd77211-68e37487810a.txt
 
---===============4896107772142453560==
+--===============4521685085784985162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f6d929ee2c6-333238da9a19.txt
+Content-Disposition: attachment; filename=revlist-dfe49bd77211-68e37487810a.txt
 
-05f90284223381005d6bcddab3fda4a97f9c3401 libceph: reject zero bucket types in crush_decode
-40480eee361ed9676b3f844d532ac28b47251634 libceph: Reject monmaps advertising zero monitors
 4dbc71bcaf9a30abf3920a4e2cc4ed33bba78c02 ceph: fix pre-auth out-of-bounds read on snaptrace in ceph_handle_caps()
 a109a556115271ca7896dcda7b4b7e45e156c227 libceph: fix two unsafe bare decodes in decode_lockers()
 cbf59617cd715219e84c50d106a3d0e1e8ba054e ceph: fix writeback_count leak in write_folio_nounlock()
@@ -1050,5 +1048,7 @@ b643e495ae92e2aa75a54c557a756e02f049781d Merge tag 's390-7.2-7' of git://git.ker
 b9b3e33b70b71e516930117e21de3ad2a7723747 Merge tag 'trace-v7.2-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 db2ddb87143519e20a95aa36c60b36107b736a58 Linux 7.2-rc7
 333238da9a193ffc58792995f3e951e4cb87bfd2 sched: Update time before requeueing delayed entities
+3f8fa8fe90cae74bf7b72c99f30f04e012c5c41b Merge branch 'sched/urgent'
+68e37487810a3da43c48340fab7a55b3b6efdae3 sched/fair: Fix flat hierarchy
 
---===============4896107772142453560==--
+--===============4521685085784985162==--
