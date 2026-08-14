@@ -1,160 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============0858148618807673655=="
+Content-Type: multipart/mixed; boundary="===============8431627163409661732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 14 Aug 2026 22:23:32 -0000
-Message-Id: <178674621227.3470928.16666710474439920008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 14 Aug 2026 22:24:57 -0000
+Message-Id: <178674629780.3471594.902927930271358946@gitolite.kernel.org>
 
---===============0858148618807673655==
+--===============8431627163409661732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/jch
-    old: faf3f712557dd004a9d433dcd923baf4c6174e9b
-    new: 511cb12954f4d9ed249cf7b6d9bf1e87b2a5eedd
-    log: revlist-faf3f712557d-511cb12954f4.txt
-  - ref: refs/heads/seen
-    old: 799dea83ad37e67c37c73b73705f76a777b3d366
-    new: 1c0daa0ee5e074c22c607f7e615406c76477f62b
-    log: revlist-799dea83ad37-1c0daa0ee5e0.txt
-  - ref: refs/notes/amlog
-    old: 1f6fdc53662d28c80c71039c8af970378ecc6056
-    new: 1ae26cbc1a8b763c6508774ee9a8d49f0c8d5acf
-    log: |
-         86395229929be59c0e4bd1d5e141701316d57e46 Notes added by 'git notes add'
-         1ae26cbc1a8b763c6508774ee9a8d49f0c8d5acf Notes added by 'git notes add'
-         
+  - ref: refs/heads/next
+    old: 24d15dace26e940fcfaf5aefb36b33a5228c8375
+    new: 03ffab4b0227353164147d7872e96d664d548259
+    log: revlist-24d15dace26e-03ffab4b0227.txt
 
---===============0858148618807673655==
+--===============8431627163409661732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-faf3f712557d-511cb12954f4.txt
+Content-Disposition: attachment; filename=revlist-24d15dace26e-03ffab4b0227.txt
 
-026636128f6a99854562412104a6f58db0df47bc doc: fix typo in submitting patches
-d32ed10291c05880229b6110911cf20f7a2ec90e Merge branch 'jm/t0213-skip-emulated-ancestry-tests' into jch
-a4bf7f91f8c8c2ccf420f14100453c41150a9e00 Merge branch 'tn/packfile-uri-concurrency' into jch
-1222091e3ccf2fdf3ad49e92b94430cbbbbe6359 Merge branch 'kl/t7528-ssh-agent-for-csh-users' into jch
-8fbb5c75c3b1ad4a185b88408ae88951a741b2f3 Merge branch 'jc/add-resolved' into jch
-52efbf3d0e0cb0c4ec476f43d767ab50776cbefc Merge branch 'kh/doc-refs-migrate-limitations' into jch
-1f986ea2c81b656aa4a123a61229455ff5ae3670 Merge branch 'ps/writev' into jch
-d24dd610e2b2360bd88156d8274abe081769debc Merge branch 'hn/bisect-reset-when-found' into jch
-250090d3736eca0b4c1085d2f8b2ef4ea1c05d4c Merge branch 'hn/branch-delete-merged' into jch
-a920e69ff5fe7d90db74031f03658e2d545deef3 Merge branch 'ps/odb-make-creation-pluggable' into jch
-c5fb81ac610c8767bc9f9e75a74e8a591efc1f95 Merge branch 'kh/doc-trailers' into jch
-72fa5a01b679d1858f26d34118eb6dedfb2d8425 ### match next
-9541003d81ce04f8998a1b63f20587bc77b82de4 Merge branch 'ps/cat-file-remote-object-info-type' into jch
-3d82a7bd3161644e6bc578787f8a3c0087ee9109 Merge branch 'cc/fast-import-usage' into jch
-bbe1c16cc35c9db5036942ba739ab1d30402da01 Merge branch 'ps/odb-streams' into jch
-6d6e8765ec53bbc61ea6936b26732d87c3bbc776 Merge branch 'hn/send-email-missing-subject-error' into jch
-1b83e08c28a52523bd77e55950bff283328f92ed Merge branch 'js/coverity-unchecked-returns-fix' into jch
-92ffb1cc214e046221fca9afd4638ce0c52d10e9 Merge branch 'en/sequencer-lose-pretty-given' into jch
-8a3750571fcba3172bce0fa3038ff48283e96f43 Merge branch 'js/sequencer-release-odb-before-commit' into jch
-07621346f0c0082a5cd0279591c69669104a4817 Merge branch 'js/packfile-fast-append' into jch
-c57715a93506009030a19ff5324df11c0e7e6339 Merge branch 'kk/merge-base-exhaustion' into jch
-8f7661e1939c87a0bc38f02dba14ac45239b7813 Merge branch 'cc/git-shallow-file-wo-value' into jch
-fbcadc61918dbe46bfebaeb1e94cdde038a935b2 Merge branch 'jc/complete-diff-tracked-paths' into jch
-53ebb435470b0093a810a9d25a7ca646ba2341d0 Merge branch 'js/pack-objects-delta-size-t' into jch
-2eedaadcc7b649a0ffaeeb06233d7a06fc62bc87 Merge branch 'bl/t7412-use-test-path-helpers' into jch
-e6d35544349c91719e2baf2586b3e51029a745a3 Merge branch 'za/completion-hide-dotfiles' into jch
-f87fe79d4197bc3f377b93f7e7c120cedd187ab1 Merge branch 'ij/subtree-reject-v2-config' into jch
-f829f06b184780489883fe5ed5ac7ecc46e01d94 Merge branch 'tc/replay-linearize' into jch
-8b01ff634c537bd08e80007aeba2f9c141a2433b Merge branch 'cl/regexec-macos-leak' into jch
-daf1bd7e7bff863cc958ce4778676b5af7fef054 Merge branch 'hn/checkout-m-autostash-refine' into jch
-23f35b1c52a2c2ab168c7d44169d68144d1e0213 Merge branch 'hn/ci-cancel-stale-pr-runs' into jch
-76b25b4ddcc1783f5a11d3a8b5b0f4273552910b Merge branch 'js/mingw-build-updates' into jch
-89fcc42b4d17b633c50bba23057d2302b37104b5 Merge branch 'kh/trailers-no-urls' into jch
-87fdb01e74206daecb69f60cd6f0e9b7972d1de8 Merge branch 'en/serve-promisor-remote-fix' into jch
-1dc58218340230e2d61cc6361b6786a987010bdf Merge branch 'ps/odb-eagerly-load-alternates' into jch
-86f5518441980a79572c0c88580a0f42ad2e1c26 Merge branch 'ps/t7900-deflake-maintenance' into jch
-d485ad0d8c27676c9bd61c4de81114b4efd05629 Merge branch 'jc/complete-checkout' into jch
-f35e484704ac959b097f7d63e319da64f3d7a37c Merge branch 'kh/format-rev-doc-synopsis' into jch
-5bcc0fe3e3cfb6bbf08dca6e37d8d7aa3cb22d86 Merge branch 'en/diff-l-opt-help' into jch
-511cb12954f4d9ed249cf7b6d9bf1e87b2a5eedd Merge branch 'ss/submittingpatches-typofix' into jch
+c243e6c470c4695965cc8287767925bc1d9a7867 PCI: Introduce PCI_SLOT_PLACEHOLDER constant for slot_nr placeholder value
+dcc5bec09e23bbc4f9de055a11fce9937244f2c8 PCI: Allow per function PCI slots to fix slot reset on s390
+e18d1abc3bff0a24a5299f3c150ab9546e9439aa PCI: Avoid saving config space state if inaccessible
+ad05c16b290be93e0ff02151b22c5d137f655908 PCI: Fail FLR when config space is inaccessible
+231c7a57d19304beb0931e6cbe3a4929daf49747 PCI/MSI: Enable memory decoding before restoring MSI-X messages
+39f758dc5fbd140e7ed5a595abf5fef630b1769f dt-bindings: PCI: mediatek-gen3: Split Airoha schema and document 2-lanes
+26c53c644350f02a444b2e0dbee9f5cf78511ff5 PCI: mediatek-gen3: Add 2-lane mode support for Airoha AN7581
+b584bfcf3b12a010a9e498c72eea84ec733daf77 Merge branch 'pci/aer'
+5018ef096f3da46ecd84f30fd8990958ebe9fffc Merge branch 'pci/aspm'
+d154bb8f88186ddcd2152cbfb1ee5906125b45aa Merge branch 'pci/doc'
+a17ce816e19c079c99a5f8385ec636e5a2961457 Merge branch 'pci/dpc'
+099986c48cf53e38ea1fb3138854a19c493bf453 Merge branch 'pci/enumeration'
+a3546baed4b4a9d14570a09fa559633601063899 Merge branch 'pci/hotplug'
+6516ec78987e10df4bb8cbbebe59f6be4974fb88 Merge branch 'pci/p2pdma'
+1c5028cc087021281bd17be6061489beeddf4d93 Merge branch 'pci/pm'
+9d7dad399d655a8ae7444cdb2bbe1397057bed70 Merge branch 'pci/portdrv'
+cf594ec6e5ee0a600c4086914fd377eb66f27a43 Merge branch 'pci/procfs'
+b9cb38ab37ccc9a1e56daa6b4432d6c87fa8d21c Merge branch 'pci/pwrctrl'
+d9d6f0af2e1282e2f41b080e31d3c7834a11f720 Merge branch 'pci/resource'
+61554ce87031c113cade1693db262f4c7a264d57 Merge branch 'pci/slot'
+2cb0e73257ebf46de42583ea19312f98d22e10b6 Merge branch 'pci/switchtec'
+ba25292d53368ea6c1e9a0ae89b48b2028f0b0f4 Merge branch 'pci/sysfs'
+a4713c5d97332d6b2584386b0aafa93df8855c6f Merge branch 'pci/virtualization'
+830b48e462b170532b9bc84c3381c58332636897 Merge branch 'pci/wake'
+896e26a2afb5224e6acfacd8aabe6ac3036832e5 Merge branch 'pci/dt-binding'
+cc6a9d6b5156e58a9735c4e965cc893953943cfc Merge branch 'pci/endpoint'
+b1607443c709729daef0e8b36f436ada7fb3dfb4 Merge branch 'pci/controller/root-port-reset'
+5ace97dab216c2a3253bf1706071f25d63e4bbe7 Merge branch 'pci/controller/host-generic'
+46269068b1d1dae54c6f141941d52a1af2644ca9 Merge branch 'pci/controller/aspeed'
+0e695bcc24b37daa4ec55f051771a758d689b675 Merge branch 'pci/controller/cadence'
+1ff90f176708e241c144f3524fa4073ef8b8b4e4 Merge branch 'pci/controller/dwc'
+b10fad1b82c3abe005fda7f1d59785bc337df820 Merge branch 'pci/controller/dwc-imx6'
+38dba8e48c062e80a5f398b5fd78cd67e0619162 Merge branch 'pci/controller/dwc-keystone'
+b0a6ed80eccb50b4bf98746d8a3ee855d4a634c2 Merge branch 'pci/controller/dwc-meson'
+d6e01baac17dd76bce8c3ffeb071cc57da944626 Merge branch 'pci/controller/dwc-qcom'
+9214ebe0eb9b16ea2c3bea09482de39adcb933c2 Merge branch 'pci/controller/dwc-rcar-gen4'
+df6e5b3d6a2062ee2e4cd3e4fb4b7146f64380eb Merge branch 'pci/controller/dwc-spacemit-k1'
+cf4399a2eb06cee0b711d6b3d1dd9ad9f2fb6467 Merge branch 'pci/controller/dwc-ultrarisc'
+941f3d293f79a621ae0140aea84f3226bc134586 Merge branch 'pci/controller/plda-host'
+f21d977597dc040002ef01dabfed4f5bc78df5ab Merge branch 'pci/controller/plda-starfive'
+79f91b95d48b14800579c99472eb3a533139095c Merge branch 'pci/controller/mediatek'
+f281334a4e829fad65e67b6ddeab4e538a9932f8 Merge branch 'pci/controller/mediatek-gen3'
+401b0b81f89ab27696c9893adbfa2165ca900692 Merge branch 'pci/controller/rzg3s-host'
+06cb3e90bf1a49b523ecbc9d338ca47b9e53acf9 Merge branch 'pci/controller/vmd'
+f7e8937e10ee98f17812309d41925d7d407c880f Merge branch 'pci/controller/xgene'
+81be67f80153ec3fe0712090f3e50cf9f64d872f Merge branch 'pci/controller/misc'
+03ffab4b0227353164147d7872e96d664d548259 Merge branch 'pci/misc'
 
---===============0858148618807673655==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-799dea83ad37-1c0daa0ee5e0.txt
-
-026636128f6a99854562412104a6f58db0df47bc doc: fix typo in submitting patches
-d32ed10291c05880229b6110911cf20f7a2ec90e Merge branch 'jm/t0213-skip-emulated-ancestry-tests' into jch
-a4bf7f91f8c8c2ccf420f14100453c41150a9e00 Merge branch 'tn/packfile-uri-concurrency' into jch
-1222091e3ccf2fdf3ad49e92b94430cbbbbe6359 Merge branch 'kl/t7528-ssh-agent-for-csh-users' into jch
-8fbb5c75c3b1ad4a185b88408ae88951a741b2f3 Merge branch 'jc/add-resolved' into jch
-52efbf3d0e0cb0c4ec476f43d767ab50776cbefc Merge branch 'kh/doc-refs-migrate-limitations' into jch
-1f986ea2c81b656aa4a123a61229455ff5ae3670 Merge branch 'ps/writev' into jch
-d24dd610e2b2360bd88156d8274abe081769debc Merge branch 'hn/bisect-reset-when-found' into jch
-250090d3736eca0b4c1085d2f8b2ef4ea1c05d4c Merge branch 'hn/branch-delete-merged' into jch
-a920e69ff5fe7d90db74031f03658e2d545deef3 Merge branch 'ps/odb-make-creation-pluggable' into jch
-c5fb81ac610c8767bc9f9e75a74e8a591efc1f95 Merge branch 'kh/doc-trailers' into jch
-72fa5a01b679d1858f26d34118eb6dedfb2d8425 ### match next
-9541003d81ce04f8998a1b63f20587bc77b82de4 Merge branch 'ps/cat-file-remote-object-info-type' into jch
-3d82a7bd3161644e6bc578787f8a3c0087ee9109 Merge branch 'cc/fast-import-usage' into jch
-bbe1c16cc35c9db5036942ba739ab1d30402da01 Merge branch 'ps/odb-streams' into jch
-6d6e8765ec53bbc61ea6936b26732d87c3bbc776 Merge branch 'hn/send-email-missing-subject-error' into jch
-1b83e08c28a52523bd77e55950bff283328f92ed Merge branch 'js/coverity-unchecked-returns-fix' into jch
-92ffb1cc214e046221fca9afd4638ce0c52d10e9 Merge branch 'en/sequencer-lose-pretty-given' into jch
-8a3750571fcba3172bce0fa3038ff48283e96f43 Merge branch 'js/sequencer-release-odb-before-commit' into jch
-07621346f0c0082a5cd0279591c69669104a4817 Merge branch 'js/packfile-fast-append' into jch
-c57715a93506009030a19ff5324df11c0e7e6339 Merge branch 'kk/merge-base-exhaustion' into jch
-8f7661e1939c87a0bc38f02dba14ac45239b7813 Merge branch 'cc/git-shallow-file-wo-value' into jch
-fbcadc61918dbe46bfebaeb1e94cdde038a935b2 Merge branch 'jc/complete-diff-tracked-paths' into jch
-53ebb435470b0093a810a9d25a7ca646ba2341d0 Merge branch 'js/pack-objects-delta-size-t' into jch
-2eedaadcc7b649a0ffaeeb06233d7a06fc62bc87 Merge branch 'bl/t7412-use-test-path-helpers' into jch
-e6d35544349c91719e2baf2586b3e51029a745a3 Merge branch 'za/completion-hide-dotfiles' into jch
-f87fe79d4197bc3f377b93f7e7c120cedd187ab1 Merge branch 'ij/subtree-reject-v2-config' into jch
-f829f06b184780489883fe5ed5ac7ecc46e01d94 Merge branch 'tc/replay-linearize' into jch
-8b01ff634c537bd08e80007aeba2f9c141a2433b Merge branch 'cl/regexec-macos-leak' into jch
-daf1bd7e7bff863cc958ce4778676b5af7fef054 Merge branch 'hn/checkout-m-autostash-refine' into jch
-23f35b1c52a2c2ab168c7d44169d68144d1e0213 Merge branch 'hn/ci-cancel-stale-pr-runs' into jch
-76b25b4ddcc1783f5a11d3a8b5b0f4273552910b Merge branch 'js/mingw-build-updates' into jch
-89fcc42b4d17b633c50bba23057d2302b37104b5 Merge branch 'kh/trailers-no-urls' into jch
-87fdb01e74206daecb69f60cd6f0e9b7972d1de8 Merge branch 'en/serve-promisor-remote-fix' into jch
-1dc58218340230e2d61cc6361b6786a987010bdf Merge branch 'ps/odb-eagerly-load-alternates' into jch
-86f5518441980a79572c0c88580a0f42ad2e1c26 Merge branch 'ps/t7900-deflake-maintenance' into jch
-d485ad0d8c27676c9bd61c4de81114b4efd05629 Merge branch 'jc/complete-checkout' into jch
-f35e484704ac959b097f7d63e319da64f3d7a37c Merge branch 'kh/format-rev-doc-synopsis' into jch
-5bcc0fe3e3cfb6bbf08dca6e37d8d7aa3cb22d86 Merge branch 'en/diff-l-opt-help' into jch
-511cb12954f4d9ed249cf7b6d9bf1e87b2a5eedd Merge branch 'ss/submittingpatches-typofix' into jch
-c03492a5f045254de75b773521fac02dc4d8901c Merge branch 'hn/checkout-track-fetch' into seen
-d4c120d6ef9d6127dfe6dcccbebdc36e32607a47 Merge branch 'ec/commit-fixup-options' into seen
-f91bb58712786698e29cafc13763819022839c08 Merge branch 'sn/rebase-update-refs-symrefs' into seen
-9b90c8388e1fb7953f563d84037fc52eba7868b2 Merge branch 'tb/midx-incremental-custom-base' into seen
-1f2915c9dbb0cd5b8cc4cbb6ae9788057168ff28 Merge branch 'mm/line-log-limited-ops' into seen
-eb7d863bbdd5941da26c2e19b8005400d6104cf7 Merge branch 'tb/repack-geometric-cruft' into seen
-7ef421310eeedc54b2a03441f35ec72b4f85cfc8 Merge branch 'zy/apply-abandoned-header-fix' into seen
-f50a6011ce96e5d18ef8aae5c49114247a0bd278 Merge branch 'gr/add-e-use-apply-api' into seen
-d1ea1318e6c1b3fa79f9fe87cf234ec595d9034b Merge branch 'ds/trace2-tolerate-failed-timestamp' into seen
-a5e0ab48ae5fad3058be93f753ad5c2abc1eeec8 Merge branch 'kj/repo-info-more-path-keys' into seen
-f83c0e83cabac8996743f09c96e0ebdd3dc8aa00 Merge branch 'tc/last-modified-bloom' into seen
-55cdb0b1fded8be17964edaaec4259bb382843c8 Merge branch 'hs/rebase-continue-edit' into seen
-adc35e35061355f863b5ca979be568d25c13b1c3 Merge branch 'pz/fetch-submodule-errors-config' into seen
-9771dbd91063d5c24de876b561affc19b4c45416 Merge branch 'tb/pack-with-duplicates' into seen
-fabacd2f2f8f593ec2bc116c9c15db5180b212d1 Merge branch 'bc/restrict-hex-to-lowercase' into seen
-c4cfd0c35376cba4386c006d462c88b45deb38bf Merge branch 'ty/repo-config-cleanups' into seen
-9ecb1ad2aaae4cb1b338d641753dfd866cd91c2b Merge branch 'vm/complete-history' into seen
-881bde0b7caea4a6ae8ff5af2e8eecb7facb22d7 Merge branch 'dk/use-nsec-runtime' into seen
-201cbab64a0a42efb581dc43aa02e5cdd9ff46a9 Merge branch 'cc/lazy-fetch-trusted-bit' into seen
-90d31ed08f113a4c9cdcf7eeb50527d4fd0a6ff8 Merge branch 'yn/worktree-add-no-dwim-with-b' into seen
-2806eccbcae35e0a9c45fb6dd5a98632824d090f Merge branch 'jt/receive-pack-pluggable-writes' into seen
-586e319c7223417b34e5703aa0a48d23fca9aaab Merge branch 'mm/lib-httpd-cgi-safe' into seen
-9c9c987890d48a223299edd6d91ddbe3a3645360 Merge branch 'gg/http-ssl-verify-status' into seen
-223aa7d55b60a1b76f9da76bcc4bfc1eac91c4cf Merge branch 'ps/odb-pluggable-pack-generation' into seen
-0277d8409feebd27992e8608e353b5cbd61280da Merge branch 'ty/repository-fetch-if-missing' into seen
-cd19a51af48bf31c6e6d0fdc7840668981302da8 Merge branch 'kh/format-rev-more-options' into seen
-8b71ec4d3497f3c905276a25fe4816e888ba38a9 Merge branch 'ss/repack-drop-filtered' into seen
-22228bd5dbd4787e5270830657baefaf4278f16f Merge branch 'hn/history-squash' into seen
-4c5cade0d85c8fce74c024b8d7d184c453f8a93e Merge branch 'mm/diff-process-hunks' into seen
-6a097bdd5bfe1ef5d6c0e0b985d9c8ce234a069d Merge branch 'ns/ref-symref-additional-tests' into seen
-f17d211c97f511d8bd21bf7a956edda99381986a chdir-notify.h: Removed unused param 'name'
-1c0daa0ee5e074c22c607f7e615406c76477f62b Merge branch 'ch/chdir-notify-drop-name' into seen
-
---===============0858148618807673655==--
+--===============8431627163409661732==--
