@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 14 Aug 2026 05:57:50 -0000
-Message-Id: <178668707070.2721887.13090239581345517809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
+Date: Fri, 14 Aug 2026 06:23:57 -0000
+Message-Id: <178668863710.2739582.12502409219859731781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/kwilczynski/linux
+user: kwilczynski
 changes:
-  - ref: refs/heads/for-next
-    old: 403f7f3ad3808a0096d84cf228fab68dc253fd9d
-    new: 9c0564fcc21aec4f5b7648f61865ce3fc2b84a7f
+  - ref: refs/heads/kwilczynski/device-label-fix-v1
+    old: 7318a4282e41b82d96989a8aa12920052296ee48
+    new: a5653e974eff64387921b51a1e783e1370f77b79
     log: |
-         9c0564fcc21aec4f5b7648f61865ce3fc2b84a7f ALSA: usb-audio: Rename the Audient iD14 monitor mix volume control
-         
-  - ref: refs/heads/master
-    old: 2e4935f19aa4eefb0f3124b3ef1337fd9365437d
-    new: 8dce52fe949116de49c3e6adfaee4cbf001e0352
-    log: |
-         9c0564fcc21aec4f5b7648f61865ce3fc2b84a7f ALSA: usb-audio: Rename the Audient iD14 monitor mix volume control
-         8dce52fe949116de49c3e6adfaee4cbf001e0352 Merge branch 'for-next'
+         9e9ea42b86db92d92516eb1c2aa091096111a42a PCI/sysfs: Stop reporting _DSM failures as -EPERM
+         63396b9d67aab682fc66f26029091d50b9ea71dd PCI/sysfs: Decouple acpi_index from the optional device name element
+         1fdec24227064a53ec8496b866b8777f804b5034 PCI/sysfs: Handle a malformed _DSM result in acpi_attr_is_visible()
+         a5653e974eff64387921b51a1e783e1370f77b79 PCI/sysfs: Pass the device name length in UTF-16 code units
          
