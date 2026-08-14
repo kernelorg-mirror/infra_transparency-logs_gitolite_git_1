@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8877017253827023678=="
+Content-Type: multipart/mixed; boundary="===============7598577810885723156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 14 Aug 2026 02:55:33 -0000
-Message-Id: <178667613310.2554634.531355775235924348@gitolite.kernel.org>
+Date: Fri, 14 Aug 2026 02:55:36 -0000
+Message-Id: <178667613633.2554770.9261523850944559793@gitolite.kernel.org>
 
---===============8877017253827023678==
+--===============7598577810885723156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7ba5daade5ab61776382020b708b1ef75c9af1ea
-    new: 6c2cdf00fe5205942b5f29e16905603a1717b931
-    log: revlist-7ba5daade5ab-6c2cdf00fe52.txt
+  - ref: refs/heads/mm-unstable
+    old: f9ca2fa9ef7e9b39ec79a0596929d1a1f8704c5f
+    new: e737cebb8de0d38e8f64584a8bbfbcf9176c7537
+    log: revlist-f9ca2fa9ef7e-e737cebb8de0.txt
 
---===============8877017253827023678==
+--===============7598577810885723156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ba5daade5ab-6c2cdf00fe52.txt
+Content-Disposition: attachment; filename=revlist-f9ca2fa9ef7e-e737cebb8de0.txt
 
 e4498c4bbefcf6ac388ae6a619fcf0b848b4b512 memcg: keep folio's objcg same as its node
 3cfb0a2be19a166e41ad59c63ab23f38aaaf89a2 MAINTAINERS: remove git URL for Squashfs
@@ -214,9 +214,5 @@ f715b7e785b908baffa2e2b9ec1f0ab64608c164 mm/mglru: fix and remove redundant unev
 355b16817f48420bc1a00c651b71a8385f38184c percpu: drop CONFIG_DEBUG_FORCE_WEAK_PER_CPU
 e69ff444d65e08f2620a4c245c61aa85ca2a5ca5 lib/test_hmm: fix garbage pfn and wrong direction in devmem fault debug
 e737cebb8de0d38e8f64584a8bbfbcf9176c7537 mm/Kconfig: make MEMORY_FAILURE select MIGRATION
-dc24628d77cd04552636ceea176f7aee3d2c3856 mm/hmm.c:hmm_do_fault(): suppress sparse warning
-a6200a922622081e82f56512a4d02084722acb10 mm-hmmc-hmm_do_fault-suppress-sparse-warning-fix
-19f5e809518681f269ca1fef675278e78d16fd2c mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-6c2cdf00fe5205942b5f29e16905603a1717b931 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8877017253827023678==--
+--===============7598577810885723156==--
