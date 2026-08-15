@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8176356456028906229=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 15 Aug 2026 12:32:39 -0000
-Message-Id: <178679715911.4087123.8696914189290475547@gitolite.kernel.org>
-
---===============8176356456028906229==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 15 Aug 2026 13:32:38 -0000
+Message-Id: <178680075856.4128568.17940082555501271730@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: b267027bf1ed985ed24baaa9cb9eb77e09ec6220
-    new: a7fe788b0c3ba9d8330d0ae7eef79d7461972393
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 646ebe310f52ade4b7cc129957ab43ee21b345a8
+    new: bae0d4050663810b9337392dd497e14296d2dc87
     log: |
-         a7fe788b0c3ba9d8330d0ae7eef79d7461972393 reject CVE-2022-48877
+         b6d40f2428aff58d8e6488e32c715d7c12eeb9ee perf dso: Guard against errno==0 when dso__get_filename() returns NULL
+         a05f33e93091b34084a681221b9304dde225bd88 perf dso: Guard close() against invalid fd in dso__decompress_kmodule_path()
+         158f3d410cc0ae9490db9698df197e813c3831b0 perf dso: Use stored fd error instead of stale errno in file_read() and file_size()
+         8d0567c000b3e7b8300255bead4e0965a0cd7fd9 perf dso: Guard against cache underflow on short reads in dso_cache__memcpy()
+         4b7507990e516db323f989dc1ee7307d14923ef7 perf dso: Replace assert with runtime check in dso__read_symbol()
+         bae0d4050663810b9337392dd497e14296d2dc87 perf test sample-parsing: Validate PERF_FORMAT_GROUP values without LOST
          
-
---===============8176356456028906229==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786797066 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1786797158-140d961329152512e0f4b370987ed6a48f3b7987
-
-b267027bf1ed985ed24baaa9cb9eb77e09ec6220 a7fe788b0c3ba9d8330d0ae7eef79d7461972393 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqAXAobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IysP/RkrWiz3Y6Iq6OXg8kxW
-G9YX8V24WofETeZueV849xdBkdM3CKETaZUs5b67mISqzkeV1fc4InfRGk9Miqcn
-zkEJ+ZSGC4ZA53VK8SkIcHvOHJzqpfox1zPDhxcAMjroBgnXij7siRQ24pacs0Kc
-0ZjBL2cN8XPTDyG6KtJyaQLp9WYHcsKLpdBDcE0vgICiFYEYfb/zZraxJQNJOkAo
-CftgEJ5n5D3GUxpdL0ii6czm6zDMs532A0RuZdl7d/PjkNbuket/kXx4IFDYpFNG
-iLtUKNkuUsJcP5L9K6bo2bqCsm6eajdMYQ4zJ+oX2//OGa+JiH3WUEPaxHTtKAe+
-YA14v3oKs0y2iaka0EDhs8j/RvA1NMBv4btjuQxpjTGqctOH0rQ/q6UFsKgcctw5
-kWAhx1OrDNV7Y3hfc4LppJPOU2MDjG/3oSrbbIlzV/1+73X1MdkrVL+PJRzLg5wM
-azXZ49ur8ZTozTDLhdBdoBNcsjhWQgQJyV6toxN0UnexU+V5Yz8Tcsy2HrTQ6IFf
-LjFw81octw5QdPhOdsmefJ6ffXgaAqVycJKOOb1MGVgbhsgW9F6chvn743RQp/Yw
-PrOVRZjK5nT5nPLacma2wxtxhfRhR4D6wJo45yvrbS8l948pAaqwP2JKgZbJi9JM
-JkdscaurL/qBkKZLbeg5X9+d
-=FPHF
------END PGP SIGNATURE-----
-
---===============8176356456028906229==--
