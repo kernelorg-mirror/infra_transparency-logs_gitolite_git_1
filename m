@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1917822608127900034=="
+Content-Type: multipart/mixed; boundary="===============6760079685865042859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 15 Aug 2026 18:46:25 -0000
-Message-Id: <178681958514.158893.5995351050753281137@gitolite.kernel.org>
+Date: Sat, 15 Aug 2026 18:46:27 -0000
+Message-Id: <178681958793.159012.6048712640971728936@gitolite.kernel.org>
 
---===============1917822608127900034==
+--===============6760079685865042859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 6c2cdf00fe5205942b5f29e16905603a1717b931
-    new: 33f61b12d297562321533c048e034b1fb21c1cf3
-    log: revlist-6c2cdf00fe52-33f61b12d297.txt
+  - ref: refs/heads/mm-unstable
+    old: e737cebb8de0d38e8f64584a8bbfbcf9176c7537
+    new: c971f65a6e2fb2c19aa5fecd768b3019b66806c3
+    log: revlist-e737cebb8de0-c971f65a6e2f.txt
 
---===============1917822608127900034==
+--===============6760079685865042859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c2cdf00fe52-33f61b12d297.txt
+Content-Disposition: attachment; filename=revlist-e737cebb8de0-c971f65a6e2f.txt
 
 bf4ade7dbd76d4ec8697840e4ebb15ed77c5ec26 memcg: keep folio's objcg same as its node
 3366ddf30edabf285b43685ed67c0a78282b3b65 MAINTAINERS: remove git URL for Squashfs
@@ -218,7 +218,5 @@ ef1da648d0870f5acf12c166fb58c02b0395eed6 sh: remove setup_bootmem_node() and pla
 128ff5763a76991bf3eccc9d8b80ecf538dc48b7 sh: remove SPARSEMEM related entries from Kconfig
 368a7ab944db789fa65ba7819ff4cadda2b78a9e sh: drop include/asm/sparsemem.h
 c971f65a6e2fb2c19aa5fecd768b3019b66806c3 arch_numa: avoid false positive fortify warning in setup_node_to_cpumask_map()
-be9a24aa26f6d1d78a40dc731092c9b255798083 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-33f61b12d297562321533c048e034b1fb21c1cf3 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1917822608127900034==--
+--===============6760079685865042859==--
