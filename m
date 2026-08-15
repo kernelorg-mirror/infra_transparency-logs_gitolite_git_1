@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 15 Aug 2026 20:40:39 -0000
-Message-Id: <178682643960.240858.6516033050167407504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Sat, 15 Aug 2026 20:54:45 -0000
+Message-Id: <178682728543.249240.6393436988173362834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
-  - ref: refs/heads/testing
-    old: 350d1fb9204b13c5f95e511e98b8bcb47574d425
-    new: e778f7f8365e5c4bb260abce1517909a4db3d4dc
+  - ref: refs/heads/master
+    old: 607ecc4a3b7a353bf0328b3ad55f8a001cbca47f
+    new: 64441350999124f44f43f491b8f05fcaea39d0a3
     log: |
-         5aab5b52852795fecaf93cff5250c7c5cc0cde6d iio: accel: mma8452: convert to bulk regulator usage
-         03414c36f5cd3a4dbef27d5915466f342fc1d788 iio: accel: mma8452: use local struct device
-         a822ba0848ec5218f81a478c913fd770b18a34ca iio: accel: mma8452: Use IIO cleanup helpers
-         23e0258fc2a012d2089021ee22184418d2af9af1 iio: accel: mma8452: use guard() to release mutexes
-         668fe05e999da98fc84e0b7e22116e94f68fa6f5 dt-bindings: iio: adc: ti,ads1100: add support for ADS1110
-         280aa0f2aaaba1c79e00d0f83f648631d7a06b11 iio: adc: ti-ads1100: Fix incorrect reading when datarate changed in single mode
-         e778f7f8365e5c4bb260abce1517909a4db3d4dc iio: adc: ti-ads1100: Add ti-ads1110 support to ti-ads1100 driver
+         c9cb84cd2b295602bcd51af243ac65237cdcf2c9 Flag to avoid colored output
+         d1f476c780cefd5aabdd080f7c5746cc1ed0a944 check_configs: Removed VM_STAT_INTERVAL
+         b84ccc68d01e960a41685f7e8c92b0cb43ddb688 dynticks-testing: Affine IRQ to HK CPUs
+         a0c6ee24b58dacfd2871211c9d68aa600c534048 log_output: Print dynamic header box
+         6515dc3faf7f2db33a54ffef5e917741c39650b6 noise_parse: Add description on top of parse output
+         59737d60da2265e005b5937a64b55d8d0cbf7406 Bugfix and dynticks-testing renamed in cpunoise
+         64441350999124f44f43f491b8f05fcaea39d0a3 Merge branch 'check-configs-changes' into 'master'
          
