@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 15 Aug 2026 10:31:50 -0000
-Message-Id: <178678991017.4002663.4001873893174400330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sat, 15 Aug 2026 10:58:28 -0000
+Message-Id: <178679150842.4020489.1811671632443551030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/tags/i2c-7.3-part1
-    old: 0000000000000000000000000000000000000000
-    new: ce1b40bff475d095b7d15c39d78f207097655728
+  - ref: refs/heads/b4/tracing-cli-event-filter
+    old: dfd7ada96ceaa48bce6bd68227796cd99b3c8f1f
+    new: 8bf737a894e04570f22f2ab3590d9970628c1363
+    log: |
+         93aa8e71599cd1cf26249bff37df5b5e1d25a05e tracing: Add a test for ftrace_parse_event_string()
+         7f994a4095debbc93e18691f501c086b6adb9f79 tracing: Add a filter argument to __ftrace_set_clr_event()
+         8bf737a894e04570f22f2ab3590d9970628c1363 tracing: Parse filter from boot event string
+         
