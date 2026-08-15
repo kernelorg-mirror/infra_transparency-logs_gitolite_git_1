@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 14 Aug 2026 23:53:04 -0000
-Message-Id: <178675158456.3538721.11684407708939647428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 15 Aug 2026 00:02:36 -0000
+Message-Id: <178675215648.3547445.16085259266620590523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 12f16a37f2982028e21919466401179647f603c7
-    new: 8c07df7cdfcf52f1ff276c588612aabc6c6b8399
+  - ref: refs/heads/todo
+    old: 4584c40425a0607ccf1d6888d476759327019fd0
+    new: 8f32772a42bf021fe6ae929e6d066736d037115c
     log: |
-         d616de490ec0242dcf78f02f1adf7baa035c4d0d iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
-         8c07df7cdfcf52f1ff276c588612aabc6c6b8399 iommufd: Fix UAF in selftest IOPF reporting
+         d6e7d0aed7db7a36d3317f867bb75fe29ee7b222 Meta/cook -w: give cf and source links for candidates for 'next'
+         bb6d7d0b33b3dfe60ad928f51eb47292251abb08 Meta/Dothem: $T == --test=X must come early on Meta/Make command line
+         8f32772a42bf021fe6ae929e6d066736d037115c What's cooking (2026/08 #06)
          
