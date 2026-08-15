@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 15 Aug 2026 13:32:38 -0000
-Message-Id: <178680075856.4128568.17940082555501271730@gitolite.kernel.org>
+Date: Sat, 15 Aug 2026 13:37:36 -0000
+Message-Id: <178680105630.4132414.10124255089840298624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: 646ebe310f52ade4b7cc129957ab43ee21b345a8
-    new: bae0d4050663810b9337392dd497e14296d2dc87
+    old: bae0d4050663810b9337392dd497e14296d2dc87
+    new: 6ae6fb96ccd48032b00a38d5f8e0e0a2cce4972b
     log: |
-         b6d40f2428aff58d8e6488e32c715d7c12eeb9ee perf dso: Guard against errno==0 when dso__get_filename() returns NULL
-         a05f33e93091b34084a681221b9304dde225bd88 perf dso: Guard close() against invalid fd in dso__decompress_kmodule_path()
-         158f3d410cc0ae9490db9698df197e813c3831b0 perf dso: Use stored fd error instead of stale errno in file_read() and file_size()
-         8d0567c000b3e7b8300255bead4e0965a0cd7fd9 perf dso: Guard against cache underflow on short reads in dso_cache__memcpy()
-         4b7507990e516db323f989dc1ee7307d14923ef7 perf dso: Replace assert with runtime check in dso__read_symbol()
-         bae0d4050663810b9337392dd497e14296d2dc87 perf test sample-parsing: Validate PERF_FORMAT_GROUP values without LOST
+         51a7a9ddcb3ebc86615886b1f44e85bdea9df326 perf dso: Guard against errno==0 when dso__get_filename() returns NULL
+         10f452dc2de401be76ae8e7395c9663313df8b53 perf dso: Guard close() against invalid fd in dso__decompress_kmodule_path()
+         075d2c32353ded0fe5f3b62f4aa4e98dccb3fb29 perf dso: Use stored fd error instead of stale errno in file_read() and file_size()
+         390a9461cd73bdd13acc0f6d763618ae1ff8fa17 perf dso: Guard against cache underflow on short reads in dso_cache__memcpy()
+         62972e5644e48255dcc715e6ec4401882f8b37d1 perf dso: Replace assert with runtime check in dso__read_symbol()
+         6ae6fb96ccd48032b00a38d5f8e0e0a2cce4972b perf test sample-parsing: Validate PERF_FORMAT_GROUP values without LOST
          
