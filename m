@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 16 Aug 2026 12:18:43 -0000
-Message-Id: <178688272325.902779.8675368783211928839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Sun, 16 Aug 2026 14:12:49 -0000
+Message-Id: <178688956931.982362.6760632464786175638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/heads/regmap-kunit-cache-high-bit
-    old: 107ad3670954ce248ded9eb75c3919ff3a375b21
-    new: 9f379ba7bfe12bcb04c3933ae499c79cef106d40
+  - ref: refs/heads/for-next
+    old: c669fd4e3b59d814da282b374c10c2fdc1f44420
+    new: b39c748d9db0c6f3ada5e7cef7f56415827d5f81
     log: |
-         9f379ba7bfe12bcb04c3933ae499c79cef106d40 regmap: Test rbtree and maple caches for very high register numbers
+         b39c748d9db0c6f3ada5e7cef7f56415827d5f81 alpha: read $gp and $sp explicitly for clang
          
