@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Aug 2026 22:55:54 -0000
-Message-Id: <178692095470.1360786.4808886530502621351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
+Date: Sun, 16 Aug 2026 23:00:53 -0000
+Message-Id: <178692125396.1364944.17113173765858318518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/netdev/misc
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: fd923b32d7614047c8b2acecae3915ec94f7afab
-    new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
+  - ref: refs/heads/main
+    old: 97cc660cdff5ca1a51e810e7178edc46fe00ea8f
+    new: c521d12c1abc9665323cf5d432aace7ab5de17d8
     log: |
-         8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
+         c521d12c1abc9665323cf5d432aace7ab5de17d8 web: net-next is closed (for v7.3 merge window)
          
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
