@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0612312482183425820=="
+Content-Type: multipart/mixed; boundary="===============2381274407569462351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 16 Aug 2026 19:17:37 -0000
-Message-Id: <178690785789.1201855.16363356771263383657@gitolite.kernel.org>
+Date: Sun, 16 Aug 2026 19:17:40 -0000
+Message-Id: <178690786094.1202008.6967218256981284182@gitolite.kernel.org>
 
---===============0612312482183425820==
+--===============2381274407569462351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 33f61b12d297562321533c048e034b1fb21c1cf3
-    new: 4b65683fd25fe596b5b5947d934bb176413d077b
-    log: revlist-33f61b12d297-4b65683fd25f.txt
+  - ref: refs/heads/mm-unstable
+    old: c971f65a6e2fb2c19aa5fecd768b3019b66806c3
+    new: 3b1d6bd7bb11fd040bfa7b712486f5bd41a276cf
+    log: revlist-c971f65a6e2f-3b1d6bd7bb11.txt
 
---===============0612312482183425820==
+--===============2381274407569462351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33f61b12d297-4b65683fd25f.txt
+Content-Disposition: attachment; filename=revlist-c971f65a6e2f-3b1d6bd7bb11.txt
 
 08745c62350126bc31b09548137be87e2866f628 selftests/mm: thuge-gen: fix test_shmget() for PAGE_SIZE check
 39ca249a8757ac33220560a244d7609547acd5d0 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
@@ -210,7 +210,5 @@ bba02c51b0879e7cc5d65cee2f7646208fb375b0 sh: init: remove call the memblock_set_
 28c1f14a23efcd8cb2cf88c8dd1a586e2cf5be69 sh: remove SPARSEMEM related entries from Kconfig
 dda7731d392f611678e1cc51a886b8cb4820221f sh: drop include/asm/sparsemem.h
 3b1d6bd7bb11fd040bfa7b712486f5bd41a276cf arch_numa: avoid false positive fortify warning in setup_node_to_cpumask_map()
-c802107dc06b71e3a461eb580c099f35cdecdc2a mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-4b65683fd25fe596b5b5947d934bb176413d077b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0612312482183425820==--
+--===============2381274407569462351==--
