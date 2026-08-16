@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 16 Aug 2026 19:17:43 -0000
-Message-Id: <178690786319.1202117.10885388201279492944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 16 Aug 2026 19:18:46 -0000
+Message-Id: <178690792683.1202606.6434595967374268418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/mm-stable
-    old: 288058d8db5d35623228d84f48d9bea3707d5c85
-    new: 08745c62350126bc31b09548137be87e2866f628
+  - ref: refs/heads/master
+    old: 357c646d27b192b5ae8852f3f16f68fa6e4696ec
+    new: ee80c24c4b6c2affd792e7294963ef0e9478aac2
     log: |
-         08745c62350126bc31b09548137be87e2866f628 selftests/mm: thuge-gen: fix test_shmget() for PAGE_SIZE check
+         ad417ed6139f66addfe2f6b0540201653bb6f669 patches/mm: update
+         ee80c24c4b6c2affd792e7294963ef0e9478aac2 patches/next: rebase to latest mm-new
          
