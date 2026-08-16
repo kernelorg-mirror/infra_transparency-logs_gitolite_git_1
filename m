@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sun, 16 Aug 2026 19:39:33 -0000
-Message-Id: <178690917371.1218177.4886230381201633950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 16 Aug 2026 20:10:49 -0000
+Message-Id: <178691104962.1241845.13903134464973679049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/todo
-    old: 8f32772a42bf021fe6ae929e6d066736d037115c
-    new: eb17606c718c93a69a64a8c3fd764899a68ba9f2
+  - ref: refs/heads/testing
+    old: 908ec2220d9af1c95aaf25c083779e8b36a65c70
+    new: 0acbb84f1debe7320f65e2538703df8651a38f57
     log: |
-         eb17606c718c93a69a64a8c3fd764899a68ba9f2 What's cooking (2026/08 #07)
+         0acbb84f1debe7320f65e2538703df8651a38f57 staging: iio: frequency: ad9832/ad9834: add comment explaining do_div usage
          
