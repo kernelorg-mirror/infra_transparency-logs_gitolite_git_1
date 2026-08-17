@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 17 Aug 2026 08:09:23 -0000
-Message-Id: <178695416387.1871475.2578225502337350886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 17 Aug 2026 08:15:24 -0000
+Message-Id: <178695452429.1877354.4950184308800989070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 8eb18920646415f6b4f100b34bd456c4fe002196
-    new: d99bda7f017b47aff45accbb321facba9f7dd799
+  - ref: refs/heads/dev-test
+    old: 99ba5aec51ea0ebe6f79aaccd5dd1b44a74726e9
+    new: 22ccf83fa4f1d75c0184dbf18a12e5d63cfb8917
     log: |
-         09c447564fcac5c531a19e3003d14c9c0a68fd19 bpf: Keep fault protection when merging pointer types
-         f438ba7a4c3efa627dc91a132c4653725723a6bc bpf: Treat a fault prone PTR_TO_MEM as a pointer type mismatch
-         ee9ad135b2087f9335eed97d062f5853e70f89fe bpf: Reject a store through a fault prone pointer
-         d99bda7f017b47aff45accbb321facba9f7dd799 bpf: Rewrite any fault prone load out of a mem or btf_id pointer
+         862427ebb81d1f6abbf74d799790e1694b37b187 erofs: fix interlaced ztailpacking pclusters
+         6847d4d1a24a686ca6c8a0f68501a984f9a0d059 erofs: guard on-disk algorithm IDs against Z_EROFS_COMPRESSION_MAX
+         22ccf83fa4f1d75c0184dbf18a12e5d63cfb8917 erofs: fix unused pcluster_pools for higher page sizes
          
