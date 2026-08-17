@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8176952791143887908=="
+Content-Type: multipart/mixed; boundary="===============1495614683597329999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 17 Aug 2026 06:20:42 -0000
-Message-Id: <178694764262.1789962.6165094019695344508@gitolite.kernel.org>
+Date: Mon, 17 Aug 2026 06:25:00 -0000
+Message-Id: <178694790065.1791418.6474717409325086692@gitolite.kernel.org>
 
---===============8176952791143887908==
+--===============1495614683597329999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/aisle-tty-vcc
-    old: 9131bb65710faeaf27d9d633da03589a7e0c16b6
-    new: 51b40ab918d477a921b668c43cf08c212252212e
-    log: revlist-9131bb65710f-51b40ab918d4.txt
+  - ref: refs/heads/b4/module_ver_remove
+    old: 4b9017965e6a8b53b85f6d899bece5f45617b92b
+    new: b1be1303f28d7918497f8e3ebc590aa74904e74a
+    log: revlist-4b9017965e6a-b1be1303f28d.txt
 
---===============8176952791143887908==
+--===============1495614683597329999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786947531 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786947791 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1786947623-1fad829928c0823cc4af767db3564e796226169b
+nonce 1786947883-6aeb8af850bc416c23666a91abf1c8a026192a50
 
-9131bb65710faeaf27d9d633da03589a7e0c16b6 51b40ab918d477a921b668c43cf08c212252212e refs/heads/b4/aisle-tty-vcc
+4b9017965e6a8b53b85f6d899bece5f45617b92b b1be1303f28d7918497f8e3ebc590aa74904e74a refs/heads/b4/module_ver_remove
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqCp8sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jesP/3dr/vG/9wBmy8s2/5ao
-CZ2KQT7ZoyL/cNf4XdTMze8YHEaCf6jvoOz9nkG+65MHp7U3mESsKW4nJOPXKYZC
-Xsk5UzofSChleXyz4nZASjM9FbBdGO9/TUrSUe7A8TFKJMomK7491x+QTU0qX+5M
-IfDYkPi+bzOCdgO9mbChFWweJFnwPVJTXnZxcw1D/AtFeoFc6jbZohC2r0hLJAtZ
-Gwdg3eF/63wRqyI4tDCN5n0uGvRK6cWAWzf4f+nzpgeBDS1e2CvY4ZuMVLAatW/4
-BS+A9c8uF5bII6Ragzyol1yzrHRlSdRvmZLWCxGvR7tSUbok/F1wEPkrfbyjKCMv
-U67pwNRMr+k3BA4/FodAKytZW+ya+Pv4gVwtxIcOLhz/ze/H3JTxA7fxVW+JyzOe
-99Aes0mKI8iYOeXiKOU6q1WIaPEQCfjLQU4mKDuPWCSdnOVuuA1xfrurVazDj2ay
-5Un4o0dJwsYWwfQ5TWsCKc55LGBem/YhcI4qOcfAuw5BuvnEfPRw3jU/y1mMTUOr
-RoWVvxFpgjCk9K0qmp7yg7arDIAD/+RhGQ009lCA+TD2wXSP6dZCTYP0vHUbn3xt
-ko0iInwqbhDtSnaK5Gy0hWKHlD0OPi2RkTZ0rNKj7JxjYe66UhWZwf2edzyr1A3r
-az3kH625JSWoLlbsh86Aog3r
-=OsQ1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqCqM8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2/YQAKNNe1EuyuKtWDdMkogS
+wb6D92pDkZ8UYoJLUZoZ1tfKy8Qcv8zbm2Hd5Je4lRzesrRlKpG8rzHa/YvKPDb3
+ytH2MgWNLjiiX9B78q2GSSrfyFF3BYoCC0vByog32Wx4yuLI9Mzyy7kmAW17Zko4
+X48DGzuBj0TBuy9V1IqUnWQHCJ7KejE7XXv5I+w3c5wk1nekjVyQ3iejv8BGHcNL
+A9w5K0GUZVNH+OzL397PjLJ67P1/IHWrwBLjZIoasCWV6DB81cqLkG52oMapAGVB
+9ECL8YdS0SIVAdrNNQ7dpb7DunrfcjS9FqXdSrRxgBFn2Zd5iilDmxbXMZM8TqKC
+GDAVJOpK/a9OJNkyAMepdSn6cVIUdYzoQ4May7qvK8qzvbEXbnEdJXhCgy58IGrF
+8tdPzaugKiZw2HCx+K7fLU/uh1d9/9sp+TSY+167ybOiC1c/ZcwWD9Fhing6tqaw
+pC0ecIkV5DXaGAJ0QlStKGlEYUDLJ3PHd5gxQs50gotimKA9RFqUGl1Ze6aU6VQq
+p8q9w5zmOxDkzfNv3Ii/clwip+zTjsAjoNeDZE6tfc+f1FZJbs8uv6GX6lo1+q6p
+DhU+pDMVLNSOTmEHmRZLYTmqP4Tp3e2w36BtS4nPRRZUKRNOKhijVLYKOQpGs6JS
+z1yPkjh39j8UJHz7e2j/YQxL
+=FyUy
 -----END PGP SIGNATURE-----
 
---===============8176952791143887908==
+--===============1495614683597329999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9131bb65710f-51b40ab918d4.txt
+Content-Disposition: attachment; filename=revlist-4b9017965e6a-b1be1303f28d.txt
 
 946352b2f88fd2378f0341312e47dff1e8dc2fac clk: rockchip: rk3588: don't disable unused I2S MCLK output gates
 2ef00630c5c0b7b2c08aba7643f47594952d357e clk: qcom: dispcc-eliza: Fix disp_cc_mdss_mdp_clk_src RCG stall on Eliza EVK
@@ -324,8 +324,8 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-e853a837a56518f0062427637365f8978b352e9f tty: vcc: Some small vcc bugfixes found by code scans
-de1a2d4ae08ae5fb69b97eaefe347eaf648d1434 tty: vcc: zero-initialize control packet in vcc_send_ctl()
-51b40ab918d477a921b668c43cf08c212252212e tty: vcc: hold port lock when clearing tty pointer in vcc_cleanup
+8e22ccf1069385a1f5e0e07a2a9f2c0c8233d636 module: remove MODULE_VERSION() and srcversion
+f81a3703fc3db27e5382bdeb109f4a05ebff630c module: remove MODULE_VERSION()
+b1be1303f28d7918497f8e3ebc590aa74904e74a module: remove srcversion module attribute
 
---===============8176952791143887908==--
+--===============1495614683597329999==--
