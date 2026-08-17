@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7717536056767383106=="
+Content-Type: multipart/mixed; boundary="===============5788706133085073344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 17 Aug 2026 18:00:53 -0000
-Message-Id: <178698965347.2342215.13136410871949130112@gitolite.kernel.org>
+Date: Mon, 17 Aug 2026 18:00:55 -0000
+Message-Id: <178698965588.2342389.5971818694447459787@gitolite.kernel.org>
 
---===============7717536056767383106==
+--===============5788706133085073344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.5/nfs-for-7.3-1
-    old: ff0ebff383c8e24cc84b728e1f264969e11618b9
-    new: 4ed8c9398ff365eb4799be6026d0e2cd6916835a
-    log: revlist-ff0ebff383c8-4ed8c9398ff3.txt
+  - ref: refs/heads/kernel-7.1.5/nfs-testing-canary
+    old: 23c55809ffa28a544f6a9dbbd74cfb923a90599c
+    new: 40e9f69141ad660bed2876f665471d2ab57c1cbc
+    log: revlist-23c55809ffa2-40e9f69141ad.txt
 
---===============7717536056767383106==
+--===============5788706133085073344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff0ebff383c8-4ed8c9398ff3.txt
+Content-Disposition: attachment; filename=revlist-23c55809ffa2-40e9f69141ad.txt
 
 e5b0293f5afca73d9d47bcd179cb63bcd59f2992 nfs: replace atomic bitops sequence with clear_and_wake_up_bit helper
 b6661e783355eb7484852576e6a9c46552c2bdae nfs: refactor pNFS functions using clear_and_wake_up_bit
@@ -51,5 +51,9 @@ c057c8fc4a7cabfd5361542d847985c6b58c0bb1 lockd: fix NULL dereference on lockowne
 1bed46f37e728b791933926d9b161a11e75eade8 NFSv4: Fix incorrect argument passed to nfs4_delete_lease() in nfs4_add_lease()
 3c4572b8578e96cbabb79147e53d1795570603f2 SUNRPC: wait for in-flight client TLS handshake callback
 4ed8c9398ff365eb4799be6026d0e2cd6916835a nfs: fix ENXIO on O_CREAT open of existing symlink over NFSv3
+7b4359673c2130ed05dd9130e0c82a0b49a65458 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+b3ec9385988ea3229288698372c737c2a5581e60 nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
+11dc3461feb2931565a4c58f0cc127e31ebd1055 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
+40e9f69141ad660bed2876f665471d2ab57c1cbc nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
 
---===============7717536056767383106==--
+--===============5788706133085073344==--
