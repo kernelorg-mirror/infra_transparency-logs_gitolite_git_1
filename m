@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 17 Aug 2026 09:40:52 -0000
-Message-Id: <178695965203.1945115.4772580288357226206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 17 Aug 2026 09:41:00 -0000
+Message-Id: <178695966057.1945608.3632090452604475087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: adb771973026efe54627bcbe927e7205d04d6c68
-    new: 6b0835ac79b2e43a7948c911add88246baea0a98
-    log: |
-         1b5aacd5b2419b0790e955e466d389a61c79b4b1 bpf: Reject negative optlen in cgroup getsockopt hook
-         6b0835ac79b2e43a7948c911add88246baea0a98 selftests/bpf: Exercise negative optlen in cgroup getsockopt hook
-         
+  - ref: refs/tags/core-entry-2026-08-17
+    old: 0000000000000000000000000000000000000000
+    new: a9e6a2144500ab52dc298593f287ad4de55301f9
