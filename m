@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 17 Aug 2026 19:51:30 -0000
-Message-Id: <178699629016.2426550.1507858753264250203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 17 Aug 2026 19:52:09 -0000
+Message-Id: <178699632958.2426851.15884046421402727819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/soc-arm-7.3
-    old: c213d0b8a28589963848c6bdef42ad4588fd70f5
-    new: e119035ad107319c9048739d49acc9bd2f2a9d4b
-  - ref: refs/tags/soc-defconfig-7.3
-    old: 2ee8d4d9e889bee4fe94b1a96da2b87b0adeee6b
-    new: 7756ee90d4cadca549c04ddba04a19aee0671028
-  - ref: refs/tags/soc-dt-7.3
-    old: e39337450d472d8e7b4051b61782ca70c5049079
-    new: 3a969b88055f8b1e5ce4b451f47a60e53b5792eb
+  - ref: refs/heads/main
+    old: a085e68b13906a6a4d8b16e3b763e13f05904cc8
+    new: f98ca137c2ddd45562fbddcb6aedf93d4570ff7e
+    log: |
+         f98ca137c2ddd45562fbddcb6aedf93d4570ff7e net: pktgen: use a consistent flow count
+         
