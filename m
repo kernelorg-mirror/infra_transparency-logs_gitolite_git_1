@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 17 Aug 2026 02:56:48 -0000
-Message-Id: <178693540833.1531387.18239452199034183108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 17 Aug 2026 03:25:50 -0000
+Message-Id: <178693715041.1552031.2532658146930479555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/chrome-platform-v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 0d0825466581cb585373c63c9be9bec7bcca0eff
-  - ref: refs/tags/chrome-platform-firmware-v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 52970fa430dfd957649a9c1dd16a872dca854559
+  - ref: refs/heads/master
+    old: b699f28fdda302a241cdcb21a27a0d9d2cfa453b
+    new: e6f1ddad0ead932bcc8637044559553f72f1ccde
+    log: |
+         e6f1ddad0ead932bcc8637044559553f72f1ccde Fixes for all trees
+         
