@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 17 Aug 2026 02:46:03 -0000
-Message-Id: <178693476340.1524111.4888329012777481894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 17 Aug 2026 02:56:48 -0000
+Message-Id: <178693540833.1531387.18239452199034183108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/testing
-    old: 6890609d1a1149a301a5260a2f64d100b84a871b
-    new: fc69c7ed31f2c36d0232a6d04750acec8f9e0c31
-    log: |
-         4fdc4d7df3c7cec442b55a212ba35f85f29c0b25 dt-bindings: iio: adc: add Axiado AX3000/AX3005 SARADC
-         fc69c7ed31f2c36d0232a6d04750acec8f9e0c31 iio: adc: add Axiado SARADC driver
-         
+  - ref: refs/tags/chrome-platform-v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 0d0825466581cb585373c63c9be9bec7bcca0eff
+  - ref: refs/tags/chrome-platform-firmware-v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 52970fa430dfd957649a9c1dd16a872dca854559
