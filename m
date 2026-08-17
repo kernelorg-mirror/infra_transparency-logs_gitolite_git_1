@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7871356616742311347=="
+Content-Type: multipart/mixed; boundary="===============6255517757434084608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 17 Aug 2026 14:03:06 -0000
-Message-Id: <178697538656.2161359.12692607310879375046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 17 Aug 2026 14:04:40 -0000
+Message-Id: <178697548074.2161960.5129919186237594985@gitolite.kernel.org>
 
---===============7871356616742311347==
+--===============6255517757434084608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: db2ddb87143519e20a95aa36c60b36107b736a58
     new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
     log: revlist-db2ddb871435-8d3ae59288f1.txt
 
---===============7871356616742311347==
+--===============6255517757434084608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -274,4 +274,4 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
 
---===============7871356616742311347==--
+--===============6255517757434084608==--
