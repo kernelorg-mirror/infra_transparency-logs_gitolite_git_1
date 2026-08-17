@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 17 Aug 2026 21:01:35 -0000
-Message-Id: <178700049554.2484005.8919603321291629559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Mon, 17 Aug 2026 21:07:03 -0000
+Message-Id: <178700082316.2487879.4142854583529352962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/main
-    old: 4f1d06cf8aaa9d2cb18e5ee8835aff6177256bc6
-    new: 92c1bf630abf0af646562398eaa36f80b5ff677d
-    log: |
-         92c1bf630abf0af646562398eaa36f80b5ff677d pppox: drain queued packets on channel handoff
-         
+  - ref: refs/tags/v7.2
+    old: 0000000000000000000000000000000000000000
+    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
+  - ref: refs/tags/v7.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
+  - ref: refs/tags/v7.2-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 2ee859ebf156157609f71060ae472711c8cbc326
