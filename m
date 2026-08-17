@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 17 Aug 2026 19:52:52 -0000
-Message-Id: <178699637272.2427467.13822035730094031845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 17 Aug 2026 19:59:39 -0000
+Message-Id: <178699677997.2431560.3644657691862166511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 43b0213529c6ae2fd4cbf8dbb9baff87a34c27d7
-    new: 273480bb836e515353f30a1e70b21a2382de666e
+    old: f98ca137c2ddd45562fbddcb6aedf93d4570ff7e
+    new: 1056e79fffd0841f43c6a1b25664b196b3caf1c6
     log: |
-         273480bb836e515353f30a1e70b21a2382de666e ptp: netc: skip PEROUT disable if channel is not enabled
+         1056e79fffd0841f43c6a1b25664b196b3caf1c6 net: usb: qmi_wwan: add Telit Cinterion FE990D50 composition
          
