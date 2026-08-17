@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 17 Aug 2026 23:14:22 -0000
-Message-Id: <178700846288.2580456.15788570533537886332@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2841828915575684996=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Mon, 17 Aug 2026 23:23:42 -0000
+Message-Id: <178700902281.2587482.9669876378121050717@gitolite.kernel.org>
+
+--===============2841828915575684996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 6ae6fb96ccd48032b00a38d5f8e0e0a2cce4972b
-    new: 78148c85297024ffe7a709acb7cc4fc907271176
-    log: |
-         734150717a7bec55d0e4d5a23e5433ed67849e19 perf c2c: extract shared data structures into util/c2c.h
-         e9ffc77f3ff34b69ebf695107b051ccf0ae38699 perf c2c: add function view model skeleton
-         1b4eb7a2ddcde2eb97e8debeaf2d8a70fe6170aa perf c2c: add column rendering for function view
-         e888662432362ccf589c7b6919464cbc22064552 perf c2c: add HPP list parsing for function view columns
-         929c4ebb542ff3015385e9ba11294ff0cc68b7b6 perf c2c: add function view stats merge and memory management
-         473a047faa8f12cc529e31cdadaf8942fd6765a2 perf c2c: add function view hierarchy entry creation
-         776356199431d92469276fc9b4b9229f803929c4 perf c2c: build and finalize the function view hierarchy
-         1975d27d11924d99319562889d8a15214bb84cc7 perf c2c: add function view browser UI and cacheline detail
-         16e113d46d29eb8bf13a5a58de6fb38f24f1aec2 perf c2c: document function view in perf-c2c man page
-         78148c85297024ffe7a709acb7cc4fc907271176 perf evlist: Warn when 'sleep' workload is used without system-wide (-a) option
-         
+  - ref: refs/tags/linux-can-next-for-7.3-20260818
+    old: 0000000000000000000000000000000000000000
+    new: 970e74e05d7e53f0f5c2d4a43219f49b5a256f0e
+
+--===============2841828915575684996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1787009018 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1787009018-9b5dde883a1a59f6442cf6d9650a33db97bb4701
+
+0000000000000000000000000000000000000000 970e74e05d7e53f0f5c2d4a43219f49b5a256f0e refs/tags/linux-can-next-for-7.3-20260818
+-----BEGIN PGP SIGNATURE-----
+
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaoOX+hMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SnhgBAOmonEhdGuHMcQoJ+5cy20Kt34VwMc8G
+WL8I7TJu2CMrAQDP/tHhaJcsotYIRLzd9N+w8YzJSFkQnPfZkn6Zd7wiBg==
+=bITz
+-----END PGP SIGNATURE-----
+
+--===============2841828915575684996==--
