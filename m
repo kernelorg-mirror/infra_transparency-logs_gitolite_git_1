@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1474784363718025631=="
+Content-Type: multipart/mixed; boundary="===============2785245407637940870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 17 Aug 2026 19:13:45 -0000
-Message-Id: <178699402572.2396493.13514685858569627053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 17 Aug 2026 19:13:54 -0000
+Message-Id: <178699403496.2396753.357101358625474829@gitolite.kernel.org>
 
---===============1474784363718025631==
+--===============2785245407637940870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 7f9003bd79606a55af339740b017db74ce0dd7e5
-    new: 40c8d4270e46e3291ff38d17e72b255c4f568be0
-    log: revlist-7f9003bd7960-40c8d4270e46.txt
+    old: 6db02d855ce89504059c2125fca4baf3cb641c33
+    new: d0db3d89effa1ebff996584671f03cad9409f257
+    log: revlist-6db02d855ce8-d0db3d89effa.txt
 
---===============1474784363718025631==
+--===============2785245407637940870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f9003bd7960-40c8d4270e46.txt
+Content-Disposition: attachment; filename=revlist-6db02d855ce8-d0db3d89effa.txt
 
 810d07fb4cf7577847f85a6fd6273b69cad8d580 powerpc/pseries: Ensure vpa,slb_shadow & dtl are unregistered during crash
 8f45abd50aaa4155a72ec539f371dafb039786df powerpc/pseries: Skip vpa_init() for boot cpu in smp_setup_cpu()
@@ -1049,6 +1049,6 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-40c8d4270e46e3291ff38d17e72b255c4f568be0 audit: add a Linux Audit specific README.md and SECURITY.md
+d0db3d89effa1ebff996584671f03cad9409f257 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============1474784363718025631==--
+--===============2785245407637940870==--
