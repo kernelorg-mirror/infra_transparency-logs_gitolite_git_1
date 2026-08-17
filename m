@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1353880948420512809=="
+Content-Type: multipart/mixed; boundary="===============2348828518025591373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 17 Aug 2026 06:33:00 -0000
-Message-Id: <178694838057.1798388.16481218805631013869@gitolite.kernel.org>
+Date: Mon, 17 Aug 2026 06:33:17 -0000
+Message-Id: <178694839790.1798757.11347575244488339068@gitolite.kernel.org>
 
---===============1353880948420512809==
+--===============2348828518025591373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: f913cbe1a67a862dfa338c53b63234b18f5b2bac
-    new: eabe218cdd8ac20738c815bfc8e691c18c65a0a0
-    log: revlist-f913cbe1a67a-eabe218cdd8a.txt
+  - ref: refs/heads/rndis
+    old: 66711a3d19385e14698280d7bc64394f7064dec8
+    new: b5d11ce45f648f96e40ba9fce68ebe5341c4c03d
+    log: revlist-66711a3d1938-b5d11ce45f64.txt
 
---===============1353880948420512809==
+--===============2348828518025591373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786948272 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786948289 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1786948364-f9194475e51fc7365aa35e6edcd4275fc1fb08f1
+nonce 1786948381-faf301fe54dc35ff13ab51974da0cd922d96421d
 
-f913cbe1a67a862dfa338c53b63234b18f5b2bac eabe218cdd8ac20738c815bfc8e691c18c65a0a0 refs/heads/readfile
+66711a3d19385e14698280d7bc64394f7064dec8 b5d11ce45f648f96e40ba9fce68ebe5341c4c03d refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqCqrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3xUP/jvsdRZ1bxvbde4zG1+t
-hgbsbEv/jESIGwf8AmIs/qDTbxHwwbs3/2V+zN4yL98L8qWVVht3lFJu7FCyZh8B
-d0xzOLXcKUTAqC9pvHg0l+HiIxahMK5b8YjOBNG37hkLQ38wyxBP8SoYKbBSfKOr
-1BBay2DAgobFBco7qVvYeIoESn0J9gUqANKKwRFxJU4K+fI7eeLz4vefFa6REUiA
-i5ZkqIpapEJEVRmMKYWu7LaQZnFA0ABf8YFPEDpuy+iuGDaSI4wXZthVdwJrIcRc
-O52lI/bG8/jxgo64ZXaanGzu8JJZki6FexPrDtsV3Iw2wk/BbqIPq7VCOfE9Vwe5
-+ySTNILj8jbfpMrPi9CXg+hx347hJmoT7NVXg5eQ4Sede6mK42gS/VeaMNSkduBG
-N5djXMuU/HwTNyIGm5NZAPFq94/pRDtQoJkTXXhetKqiQXZK7/LUl2tkF9JMU8dx
-RYWawQjVNMDcFdez6/FeN6HNiMxb76oR2y49Vs53A3uf18tAvMubohFXA1NOhHCb
-8hWRgFwEAQz4iRZ4sW6aYHnvb1/3Q3w25ycHLY8EEs0jk0xqMCpkHf/K3CI7hHuz
-hSHlZl+NClTXAbiIWgUJlnoeheqAn1sBL+DSXOxuMeegATyFIXhyq0uqy+vho478
-rj5wRv8pzrBzjAKdmCA4aMgd
-=l26g
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqCqsEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GG0P/jg8bEgxOFGKhkbK4EGj
+rOkCePmM4VM60gPhHOjbibAlydO0MNLHvExh+fxsiJryH1K9HiAxkrgYw2A0fUY5
+OMCI7zbnc4hkDwCaNF7eGm0P7BrY7EOUeaIlWw5nZR0n3MFcDqmcP1xOaSdKiSfD
+YZCv/CfHdlm1lMBbJBxVm8lV9+oMXvZIx5dEWMzecfPNC3SugnlZmVSLItfhWNaN
+CuQn2mG/5f7oHa7LdvGxMYNLw1Zy5NfNtxTzOzAUz4V8LfNiMOjScfN1bZZM0yJh
+Itcp6ZMsbZ8rSPAEgtqOO+WzEet1wtKj+IPNlts4qOB+LNBAjCdYUvmA3lqYtwhZ
+DMUsmgtlwhk/4lXw3H423rlGnI69L4SYRXIIxp2FpyNLzg4lhIO/8EtBRm2xneYk
+bzDYvmfyhEOn+V/ZDm2TyhX4gQCg8Kvu5WYFgkQPFtPoMFC0W+j1yJSnzGdDNoXs
+GhYKjMYzC+pp8T4RPoTb7XYWfJfILRK0rhRgnlkNHf37Lo1sTJzK6jTezx5AapK0
+mWIjMLG80xPbbDeyJuQu3jdeN9wfnyGXUam2WFs5SfUiaO2rjSIEBw1yziQrWUo7
+PiRdBrWxHjqd3Kqy5qpNIjpuGbcrl7QS2IQjAUMHIpiC5VPV3UG4nEqdtqpAAlXz
+LDcU9FmOjvss9uioalPteeDH
+=iTG5
 -----END PGP SIGNATURE-----
 
---===============1353880948420512809==
+--===============2348828518025591373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f913cbe1a67a-eabe218cdd8a.txt
+Content-Disposition: attachment; filename=revlist-66711a3d1938-b5d11ce45f64.txt
 
 946352b2f88fd2378f0341312e47dff1e8dc2fac clk: rockchip: rk3588: don't disable unused I2S MCLK output gates
 2ef00630c5c0b7b2c08aba7643f47594952d357e clk: qcom: dispcc-eliza: Fix disp_cc_mdss_mdp_clk_src RCG stall on Eliza EVK
@@ -324,9 +324,8 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-85bf8fa2b654a7caecffc0978146fa4f87aed34b readfile: implement readfile syscall
-a43434b911a18b0509083f791024450dd743fcfd arch: wire up the readfile syscall
-d2b9dc1770feac82bc42cc006065e9e45741fcdd readfile.2: new page describing readfile(2)
-eabe218cdd8ac20738c815bfc8e691c18c65a0a0 selftests: add readfile(2) selftests
+9a68bc87c2c10f0b46799a008ece516e2db01bdf USB: disable all RNDIS protocol drivers
+c0f1962699009dd8afabc98689246c5ff664001c USB: potential rndis host fix
+b5d11ce45f648f96e40ba9fce68ebe5341c4c03d rndis_host: add overflow check in rndis_rx_fixup()
 
---===============1353880948420512809==--
+--===============2348828518025591373==--
