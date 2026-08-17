@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 17 Aug 2026 12:04:24 -0000
-Message-Id: <178696826402.2058444.9498777485627230162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Mon, 17 Aug 2026 12:11:05 -0000
+Message-Id: <178696866598.2064975.18328509053805655773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 0084708434d7c8d9553af1ecde194aee5471eb70
-    new: a242d74789ac400ba33d8940c4e8e2153d8b1d80
+  - ref: refs/heads/ksmbd-for-next
+    old: 5980f75043c4436cacb42bae7e7d0d0e3aecf150
+    new: 0173cf91be7fe5fb74fe0cfc0df651e1f7d55b87
     log: |
-         169f3afbcad94c8b191c4dd1dbe2eea523038104 tests: (lsfd) use -r,--raw option to make output stable (1/2)
-         96ba91ce32035ed01d34a3bf99f0f8beb795b2a1 tests: (lsfd) use -r,--raw option to make output stable (2/2)
-         a242d74789ac400ba33d8940c4e8e2153d8b1d80 Merge branch 'lsfd--test-with--raw-option' of https://github.com/masatake/util-linux
+         ac0fd2e3ac959666b72b084b87ef2e531e3e9ef5 smb/server: warn if ksmbd_proc_create() fails
+         949d0b0ac647065f938c7774091c6c85ef5f1369 smb/server: fix session leak in ksmbd_session_register()
+         0447f3844c1e36e4efdf66cb64358a096bd942c9 smb/server: update session counter under sessions table lock
+         0173cf91be7fe5fb74fe0cfc0df651e1f7d55b87 smb/server: fix session counter on session removal
          
