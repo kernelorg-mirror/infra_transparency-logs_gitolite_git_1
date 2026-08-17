@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 17 Aug 2026 09:41:56 -0000
-Message-Id: <178695971624.1947062.9316090599867435177@gitolite.kernel.org>
+Date: Mon, 17 Aug 2026 09:42:05 -0000
+Message-Id: <178695972540.1947380.12560004185059199306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/tags/timers-clocksource-2026-08-17
+  - ref: refs/tags/timers-core-2026-08-17
     old: 0000000000000000000000000000000000000000
-    new: 5ac381720bfa973e86b0d6bfa529b6fa8311ee10
+    new: 8f8e39d43025923d0de3f41552013dcdd73aa3f2
