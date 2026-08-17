@@ -1,82 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7713816274409139240=="
+Content-Type: multipart/mixed; boundary="===============1643556767962920512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Mon, 17 Aug 2026 11:46:30 -0000
-Message-Id: <178696719097.2045522.841885689608987332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 17 Aug 2026 11:52:20 -0000
+Message-Id: <178696754072.2049594.14919770021240046626@gitolite.kernel.org>
 
---===============7713816274409139240==
+--===============1643556767962920512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next-fixes
-    old: ad1cfd893d5532904e6ce3b8f4b65a00fc3db04e
-    new: d42ad64048d2189bbf001166b363511598c74ede
-    log: revlist-ad1cfd893d55-d42ad64048d2.txt
   - ref: refs/heads/master
-    old: dcb68831eac76dbfda1cf5930d3003d938890d34
-    new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
-    log: revlist-dcb68831eac7-8d3ae59288f1.txt
-  - ref: refs/tags/mm-next-fixes-2026-08-17
-    old: 0000000000000000000000000000000000000000
-    new: d42ad64048d2189bbf001166b363511598c74ede
-  - ref: refs/tags/mm-next-2026-08-17
-    old: 0000000000000000000000000000000000000000
-    new: 4f530f9dbccc55690995d546ece0cab0c8775399
-  - ref: refs/tags/mm-test-2026-08-17
-    old: 0000000000000000000000000000000000000000
-    new: 75bcfb60a3da15ef6ac9bbc86c8088d6006b611b
+    old: 6a09504cb50ea968ee9d27fd58909c6c8829cdc3
+    new: 8670943db0e83502250d56f98384ae55fa4657e4
+    log: |
+         8670943db0e83502250d56f98384ae55fa4657e4 drop packet-use-consistent-hard_header_len-in-tx_ring-send-path.patch for older kernels
+         
 
---===============7713816274409139240==
+--===============1643556767962920512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad1cfd893d55-d42ad64048d2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fa091f46c3833fb22384f10eade2b4e1e1d0b278 perf: Reject exited events as group leaders
-42c5ca1f0a288a52878bd72a5595b08261057438 perf/core: Fix group leader use-after-free after sibling detach
-ada54c2ba652348c590d1ace6a2f4ff77cbbf809 rseq: Prevent hard lockup on granted time slice extension
-abe7c8b09bd72a9c726016257c6281f129b4c02d x86/CPU: Add a tlbi= cmdline switch
-45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc tick: Include ktime.h and jiffies.h in linux/tick.h
-94f39e4c017e66130e476268bdaa0bf61e914fa2 clocksource/drivers/arm_arch_timer: Workaround bcm2712 broken EL2 virtual timer
-333238da9a193ffc58792995f3e951e4cb87bfd2 sched: Update time before requeueing delayed entities
-16429bb371999e26b243f6462234d841d271c5f1 Merge tag 'x86_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9da3fc37f5fe8b5adc0c6dd798d2caa3855dac4c Merge tag 'perf_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d5b95e612cde33f9def1a7a6c3242d03d3bbde3a Revert "i2c: designware: defer probe if child GpioInt controllers are not bound"
-d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd update to fix recursive mutex deadlock
-7820dd4a127ae83b530e177faa8e213c2d5717e1 Merge tag 'core_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-d9cb97ed69b2dad2f9158239a1dc51ac5f5e52e4 Merge https://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock.git fixes into for-next-fixes
-d42ad64048d2189bbf001166b363511598c74ede Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1786967536 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1786967534-2ecf3a9047c00ce6002d868a5cbd371f5a4467f1
 
---===============7713816274409139240==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb68831eac7-8d3ae59288f1.txt
+6a09504cb50ea968ee9d27fd58909c6c8829cdc3 8670943db0e83502250d56f98384ae55fa4657e4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-fa091f46c3833fb22384f10eade2b4e1e1d0b278 perf: Reject exited events as group leaders
-42c5ca1f0a288a52878bd72a5595b08261057438 perf/core: Fix group leader use-after-free after sibling detach
-ada54c2ba652348c590d1ace6a2f4ff77cbbf809 rseq: Prevent hard lockup on granted time slice extension
-abe7c8b09bd72a9c726016257c6281f129b4c02d x86/CPU: Add a tlbi= cmdline switch
-45f8dffc0714c3ef49c83e5bba4c56a4499bd5fc tick: Include ktime.h and jiffies.h in linux/tick.h
-94f39e4c017e66130e476268bdaa0bf61e914fa2 clocksource/drivers/arm_arch_timer: Workaround bcm2712 broken EL2 virtual timer
-333238da9a193ffc58792995f3e951e4cb87bfd2 sched: Update time before requeueing delayed entities
-16429bb371999e26b243f6462234d841d271c5f1 Merge tag 'x86_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9da3fc37f5fe8b5adc0c6dd798d2caa3855dac4c Merge tag 'perf_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d5b95e612cde33f9def1a7a6c3242d03d3bbde3a Revert "i2c: designware: defer probe if child GpioInt controllers are not bound"
-d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd update to fix recursive mutex deadlock
-7820dd4a127ae83b530e177faa8e213c2d5717e1 Merge tag 'core_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqC9fAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dgIP/ilFW1FwOaaiHsWmvHGm
+Q1GFt5+RNeSBX6VYc1YXqtVI+hg+OObzkhG3E2e1ZLct0cJbQimxGFvWvdjVd06w
+EnDEjtZva9s/c8CAqBYTy+azqelxHMmPOPPURcQGIqXQJOLH5ZFqzoLzqVgSplxe
+SUEtU5OcWiZqsb8/ScqxlsjTUu+OI871UgK8Q4b6b8JU3rSTiMaVYzpO+l1SFIiU
+A2A/hbOJu42Fha9AmoeqFIDA8UVIE7WupKBHO9ryIuifT2dz8kisMc+K2g/db9s1
+9zM/9vNeIVoC8H5e+mf4jhBt9G02vrMIq9k1f0C9DAjTXHOCpjXevQAk31A1ETJj
+cOMQDUi1qq5clFn73A8zrPVhOadsunZCQMiK9eN6qW1eiVGRtSO4q4l2R2jcuekD
+NMf0752BLKz5WglqlGiuqkhwQDEKTr36n/jfBkzsrbgdc7WU2JUyGomTmfJ2IwSF
+K7pCT0AxAIfyv61iBQ27bGFr4lIsgFZmd980h5r8I7MQqGg/Da60o/diLThVbvbc
+kLATqlaqAUA9vjQwBag5KERHed1n1+5Ua50wI2Fyxx6R38PBS5JZkGlSGvZPm6Fc
+8Y+9sTrEC4T9UD/vndXwI0RSnVZeWiHryekncmyRMHHxaDiUpIzYDvGi7MSckEBM
+AwytHD454wYoxnkgm9/ChJ7C
+=Or2z
+-----END PGP SIGNATURE-----
 
---===============7713816274409139240==--
+--===============1643556767962920512==--
