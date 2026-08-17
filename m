@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 17 Aug 2026 18:07:27 -0000
-Message-Id: <178699004711.2347430.7069594484142477763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 17 Aug 2026 18:07:29 -0000
+Message-Id: <178699004932.2347516.16122159138036061518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2bd4177d964d6128a2b6f06674a6390c55801ae7
-    new: 97a1e65df7eef996693d604ae90aaf2530578912
+    old: ad27ed7d2309419a129078d781504f486b1b469a
+    new: 4b92a3710d4a1d850ed6421c773e735cdca69b07
     log: |
-         96bf660d4c14948293fe5d8e26d2de536f8eb1d8 selftests: net: separate ipv6_flowlabel_mgr test
-         cf85f810f911234a06a4ef2439e8694b93b717fc net: psp: use psp_dev_is_registered() in psp_assoc_free()
-         97a1e65df7eef996693d604ae90aaf2530578912 psp: use unrcu_pointer() for the cmpxchg() on netdev psp_dev
+         4b92a3710d4a1d850ed6421c773e735cdca69b07 octeontx2-af: initialize lmac_bmap in rvu_mcs_set_lmac_bmap()
          
