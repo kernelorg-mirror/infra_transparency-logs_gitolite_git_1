@@ -1,42 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3670752882346734214=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 17 Aug 2026 18:26:13 -0000
-Message-Id: <178699117393.2361948.12113175119501989099@gitolite.kernel.org>
-
---===============3670752882346734214==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Mon, 17 Aug 2026 18:28:34 -0000
+Message-Id: <178699131467.2362933.18077734763051414022@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/heads/master
-    old: d67f4a43e7ef8cff8aa8fe1df2f088390af41b6d
-    new: 14a97a38ba8f2208fd394cebaa3889566d6869f5
-    log: revlist-d67f4a43e7ef-14a97a38ba8f.txt
-
---===============3670752882346734214==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d67f4a43e7ef-14a97a38ba8f.txt
-
-771e812f94b320614147b7cd64d0a7b1186933ea Bluetooth: btmtk: Do not report success when subsys reset fails
-54c03e6bc71882a46f6f4fe2fd09409950c7c814 Bluetooth: btmtk: Do not discard the subsystem reset timeout
-951d9f743029bc73032aa32140ed3ca5af47de18 Bluetooth: btmtksdio: Take exclusive ownership of the SKB before TX
-262cb784c96cbcd4cb511466e492b2f077135341 Bluetooth: btmtksdio: Fix out-of-bounds DMA read in the TX path
-f716a05f496718a7f70a7765291ad8e7858c81a2 Bluetooth: btnxpuart: Check remote M.2 connector availability before pwrseq
-f4fe51177b82176080035025754d89f8e730f72f Bluetooth: hci_core: add lockdep check to hci_conn lookups
-26cf20d065b31a9a591ec01086e7661fbd80040c Bluetooth: hci_sync: add conditional locking annotations
-a7b612da9059f045103bad244a0adba9e233c63d Bluetooth: L2CAP: avoid maybe-return-locked in l2cap_get_chan_by_scid/dcid
-a3dd57c495646a7b56f7b9e64f37a6d9b27e5254 Bluetooth: L2CAP: add locking annotations for l2cap_chan_lock/unlock
-c519ffc1e2c669296b976d11f5e7a79d2f82debb Bluetooth: enable context analysis for headers
-1fcf216462ec38f634ca1955572fe01372513370 Bluetooth: btnxpuart: Validate the FW dump header length
-14a97a38ba8f2208fd394cebaa3889566d6869f5 Bluetooth: eir: Fix OOB read in eir_get_service_data()
-
---===============3670752882346734214==--
+  - ref: refs/tags/alpha-for-v7.3-tag
+    old: 0000000000000000000000000000000000000000
+    new: d2203eb7309d21a290a58b8c9f97b52fa3032855
+  - ref: refs/tags/v7.1
+    old: 0000000000000000000000000000000000000000
+    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
+  - ref: refs/tags/v7.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: bb1459368dd795c43380057523f571d5eb0ddded
+  - ref: refs/tags/v7.1-rc4
+    old: 0000000000000000000000000000000000000000
+    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
+  - ref: refs/tags/v7.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
+  - ref: refs/tags/v7.1-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 3bc831df9ee16fceee851872315161377ca1417d
+  - ref: refs/tags/v7.1-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+  - ref: refs/tags/v7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
+  - ref: refs/tags/v7.2-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
