@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1575048100147845144=="
+Content-Type: multipart/mixed; boundary="===============7220675634415127320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Aug 2026 09:37:09 -0000
-Message-Id: <178695942963.1941487.2161783074180708618@gitolite.kernel.org>
+Date: Mon, 17 Aug 2026 09:37:32 -0000
+Message-Id: <178695945220.1941810.1930903873076263657@gitolite.kernel.org>
 
---===============1575048100147845144==
+--===============7220675634415127320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 09f71dbeb287e367beea56d9ac8a3d356ef5e02a
+  - ref: refs/heads/for-linus
+    old: 1fd495ef09eef96169a379a749c24b5e69974bb8
     new: 2f8e3cad53b5c36ab0ed5d3195bfc55c59ea61a5
     log: |
+         8ee36ff23676cfb8d90d803d8544f015a3eeccb3 m68k: amiga: Remove redundant amiga_reset() prototype
+         993e1b93dbf64177551271496d92512a1d2c8643 m68k: defconfig: Update defconfigs for v7.2-rc1
+         09f71dbeb287e367beea56d9ac8a3d356ef5e02a m68k: Fix backtraces for non-running tasks
          2f8e3cad53b5c36ab0ed5d3195bfc55c59ea61a5 m68k: nfcon: Do not call console_is_registered() in nfcon_device()
          
-  - ref: refs/heads/for-v7.3
-    old: 09f71dbeb287e367beea56d9ac8a3d356ef5e02a
-    new: 2f8e3cad53b5c36ab0ed5d3195bfc55c59ea61a5
-    log: |
-         2f8e3cad53b5c36ab0ed5d3195bfc55c59ea61a5 m68k: nfcon: Do not call console_is_registered() in nfcon_device()
-         
-  - ref: refs/heads/master
-    old: 72cd0f7b1c0fbc889461845742f106803a6c1cf2
-    new: 430075db163607e33af279ef7e246e1a460c6293
-    log: revlist-72cd0f7b1c0f-430075db1636.txt
+  - ref: refs/heads/m68k-queue
+    old: 9126fd319336eb999ef268af60cb01abbcc1f67c
+    new: 825839acf054eb8dd078aca4ef2d99cda096dba3
+    log: revlist-9126fd319336-825839acf054.txt
 
---===============1575048100147845144==
+--===============7220675634415127320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72cd0f7b1c0f-430075db1636.txt
+Content-Disposition: attachment; filename=revlist-9126fd319336-825839acf054.txt
 
 946352b2f88fd2378f0341312e47dff1e8dc2fac clk: rockchip: rk3588: don't disable unused I2S MCLK output gates
 2ef00630c5c0b7b2c08aba7643f47594952d357e clk: qcom: dispcc-eliza: Fix disp_cc_mdss_mdp_clk_src RCG stall on Eliza EVK
@@ -285,7 +282,11 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-e12a26070d47dbd81b2759e76fc0043805c8e5c6 Merge tag 'v7.2'
-430075db163607e33af279ef7e246e1a460c6293 m68k: nfcon: Do not call console_is_registered() in nfcon_device()
+a31c6a08426322e1ea84deeb3d64d57d051544cb m68k: amiga: Remove redundant amiga_reset() prototype
+7c32fe6424d4c41b9a5ee3311faff84455906f60 m68k: Fix backtraces for non-running tasks
+fd8e6ed67d2fc65e15a0f19efdfeab3d7cd98949 m68k: nfcon: Do not call console_is_registered() in nfcon_device()
+41b0bdcbdeb98aa8c11403a388ecc33d5412c0ca m68k: atari: usb: Add ISP1160 USB host controller support
+b86fbb476137def5a337bb328f2fdb0df5837bd3 m68k: atari: Update Kconfig.bus help text
+825839acf054eb8dd078aca4ef2d99cda096dba3 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1575048100147845144==--
+--===============7220675634415127320==--
