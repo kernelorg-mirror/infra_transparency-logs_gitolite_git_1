@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 17 Aug 2026 20:45:00 -0000
-Message-Id: <178699950016.2469614.12480417718747454215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 17 Aug 2026 20:46:02 -0000
+Message-Id: <178699956298.2472431.17427250071623268946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: 33f016b23a219fe034213849b51436b8e79df251
-    new: b0346dd64e4905291cc9c479f2e6cf1884ced4e6
-    log: |
-         b0346dd64e4905291cc9c479f2e6cf1884ced4e6 net: kcm: Hold RCU read lock while running BPF parser
-         
+  - ref: refs/tags/bpf-next-7.3
+    old: 0000000000000000000000000000000000000000
+    new: 015c0ac1b394d63221586ef85558cb3c1d4dc70d
