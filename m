@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9019782704196233723=="
+Content-Type: multipart/mixed; boundary="===============2059236160522247092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Tue, 18 Aug 2026 06:43:01 -0000
-Message-Id: <178703538165.2915339.1187589129666750287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 18 Aug 2026 06:56:52 -0000
+Message-Id: <178703621223.2927597.13600074720989106715@gitolite.kernel.org>
 
---===============9019782704196233723==
+--===============2059236160522247092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 98b4ca2378e1f6b6c06a74f699623ebecfb3549d
-    new: 64b0b5cacbd2fea88001464cb712c9dfc795b26e
-    log: revlist-98b4ca2378e1-64b0b5cacbd2.txt
+  - ref: refs/heads/master
+    old: 204a262012d4684b008f896616b443aa931ee9f5
+    new: 7e42687771206c29f80032692dd2f9ce1ab594c3
+    log: |
+         7e42687771206c29f80032692dd2f9ce1ab594c3 updates based on new .vulnerable files
+         
 
---===============9019782704196233723==
+--===============2059236160522247092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98b4ca2378e1-64b0b5cacbd2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-51e08eaf954de51b991889a5f5b5b5edcc712c6c io_uring/rsrc: rename io_buffer_register_bvec()/io_buffer_unregister_bvec()
-fbc32d5f44d3e2134443909e816c5f9c657e81ad io_uring/rsrc: split io_buffer_register_request() logic
-bd62a2cfff9f37d85927050f082ffc3a423e6b53 io_uring/rsrc: add io_buffer_register_bvec()
-95961b72c57b29a96c14f86d16f1d32787f2e009 io_uring/rsrc: rename and export IO_IMU_DEST / IO_IMU_SOURCE
-6330b1f61ed1d17850fc61bdb8920ca1056e2cf9 fuse: decouple fuse_ring creation from ent registration
-ebed9ea5b469588c6074f3ed5b8d8ec63c4ccf48 fuse: add FUSE_IO_URING_CMD_ADD_QUEUE
-b45aaabc628bc7356e21bd2eb0c2ae9bdfa13894 fuse: add io-uring buffer pools
-96caf2496e15b3b12e1e4f3ac592648291333ecb fuse: support registered buffer pools in io-uring
-43f8343858eb942d7f7c49964b31c54dcc314890 fuse: add zero-copy over io-uring
-767094250c6c87cc5d1a9951bbfb80409759a956 docs: fuse: document io-uring buffer pool and zero-copy uapi
-6e64df0f73f1c070db816ef71ada96c847bca1c9 fuse: make dentry_tree_work static
-64b0b5cacbd2fea88001464cb712c9dfc795b26e fuse: wait for FR_FINISHED on abort_on_kill to prevent use-after-free
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787036114 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1787036208-d21ebc7d62aeb5ac48e8092c205774072ce3a281
 
---===============9019782704196233723==--
+204a262012d4684b008f896616b443aa931ee9f5 7e42687771206c29f80032692dd2f9ce1ab594c3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqEAdIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uXsQAKfYBkU6MmtZotjhvzQb
+PvcwSkJD7oi3j+gU/e5hSC+vUfpZ6rwBF3G2hQnAY9bVzt0dEXiuE/XkXT3ILWYZ
+dhHafc+IL7I7y+pmTyX86r6cKAc4YTKhQKvnWzY5dxIerMzWKaPEZhb6jsGrO0Lj
+MeaIEw8e0Ww3xUck1JhUGMZI+t0yldmT8AYVhD1jssjFY8htIqOI3a/FpgTM8T9N
+eYpUvpXttAOgCysjvrdunfY5D6vxif0HdcQAHYaj8xFMNJpx2qpXZ3fr5c1I4f6E
+fD2aOfOe8qV4u5TX51ZNqeDfj9soE1g6IdscodZ454sH2w7bWtovFYJT6+Fd71AV
++bhqfJ2dqVRhMBtFm44G/zPs06rbLi8mrLFPRRW5NL2pfOCausKmnK0g1ClCNAxd
+9ArUyyu9wLUe1vZ8n9TrZQwlUXo/mpl8LoM6orXR7DTmI+LCD5QPeAxzBY0HwOJU
+8kPLXI7y/hJzeYmILCxnXNlpJLoyed9sy0v2yFWOlkP5ynthFYI9eznLxqX6K4Ui
+eZFTW+yk/PhMlU6EBe8VM7FEhiL9gT+lVkKlWVL7KWnAsyCzYmjZS/8kxn2hw9Np
+gktWd+0s3VMPLAX9yWzG12akrQE6ASwNY0eWH1br001ZwBwGdh8b4BOTu9HkfbMU
+Df3OJFyB+pCcJBzy0prrvOj7
+=SsEp
+-----END PGP SIGNATURE-----
+
+--===============2059236160522247092==--
