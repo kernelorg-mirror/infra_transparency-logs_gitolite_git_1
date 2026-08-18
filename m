@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 18 Aug 2026 02:59:39 -0000
-Message-Id: <178702197936.2753392.11177213857322021087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 18 Aug 2026 03:15:51 -0000
+Message-Id: <178702295172.2766352.3955229240434943886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/experimental
-    old: d91fc81373228849446fa5728fe65cb95b3abef7
-    new: fb5ee69425b5b6a249cbd1c68d2cdb308d7ee397
-    log: |
-         fb5ee69425b5b6a249cbd1c68d2cdb308d7ee397 erofs-utils: mkfs: fix uninitialized z_erofs_mt_ctrl.mutex
-         
+  - ref: refs/tags/hwmon-for-v7.3
+    old: 0000000000000000000000000000000000000000
+    new: e3580f12930a40e9075f919d572488547f2913f4
