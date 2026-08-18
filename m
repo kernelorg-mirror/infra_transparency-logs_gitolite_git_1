@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7902106757544511383=="
+Content-Type: multipart/mixed; boundary="===============8834714886442100494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 18 Aug 2026 15:52:05 -0000
-Message-Id: <178706832586.3332369.2654750252301554095@gitolite.kernel.org>
+Date: Tue, 18 Aug 2026 15:52:08 -0000
+Message-Id: <178706832868.3332483.576681505735805640@gitolite.kernel.org>
 
---===============7902106757544511383==
+--===============8834714886442100494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 24ef02f934eeb48830cff6b739abc3c62b1d107b
     new: a3dee9bb902ee4357fa02e49b415d7724ee0140a
     log: revlist-24ef02f934ee-a3dee9bb902e.txt
 
---===============7902106757544511383==
+--===============8834714886442100494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -92,4 +92,4 @@ b8c899cf5e7be29840a172c183dedd8d3e7a0287 vsock: don't check the listener's sk_er
 96cbf89993091a163bfedec52a3bd683dc94b3b4 vsock: use sock_error() to consume sk_err after a failed connect
 a3dee9bb902ee4357fa02e49b415d7724ee0140a Merge branch 'vsock-fix-stale-sk_err-handling-after-a-failed-connect'
 
---===============7902106757544511383==--
+--===============8834714886442100494==--
