@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 18 Aug 2026 18:03:32 -0000
-Message-Id: <178707621241.3432919.4857692967269389591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Tue, 18 Aug 2026 18:08:35 -0000
+Message-Id: <178707651569.3436731.6560874143657566658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: dd0ae9a2e19a24c532c9aa80a44f572b4907bcdf
-    new: 046173b98de316211b81d9909cde81ca582604a8
+  - ref: refs/heads/master
+    old: 67c1bd4a9d314144086a829bb6276e5aeca588df
+    new: 5f04dbfd8cb938194cab026389b5e408e566cfba
     log: |
-         046173b98de316211b81d9909cde81ca582604a8 ASoC: sdw_utils: fix double put_device() on aggregated amps
+         5f04dbfd8cb938194cab026389b5e408e566cfba Document the "Network unavailable" GUI status
          
