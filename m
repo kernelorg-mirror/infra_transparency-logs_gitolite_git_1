@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2009954577959094059=="
+Content-Type: multipart/mixed; boundary="===============5082755120050159568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 18 Aug 2026 13:40:04 -0000
-Message-Id: <178706040487.3229678.1687069609531036759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Tue, 18 Aug 2026 13:40:22 -0000
+Message-Id: <178706042237.3229904.15324288207178791797@gitolite.kernel.org>
 
---===============2009954577959094059==
+--===============5082755120050159568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 0f23d56f17fdfc7db69d51f64c8b91bbab947aa9
     log: revlist-f5bbbfec59b4-0f23d56f17fd.txt
 
---===============2009954577959094059==
+--===============5082755120050159568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -699,4 +699,4 @@ fc8c78bce3335860ff4ae9fcfd3b2eb1f674efbb Merge tag 'libcrypto-tests-for-linus' o
 fd89b0be5503dbbbdbd53c8158ea6ba0e57357fc Merge tag 'linux_kselftest-kunit-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 0f23d56f17fdfc7db69d51f64c8b91bbab947aa9 Merge tag 'linux_kselftest-next-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============2009954577959094059==--
+--===============5082755120050159568==--
