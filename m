@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 18 Aug 2026 18:25:01 -0000
-Message-Id: <178707750170.3449636.483350839273218366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 18 Aug 2026 18:39:05 -0000
+Message-Id: <178707834508.3460261.1043818693065424879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 046173b98de316211b81d9909cde81ca582604a8
-    new: 721d6331add566f6f90f5b954299694a7237dd9b
+  - ref: refs/heads/nfsd-testing
+    old: c5f58d03c50196301ac2ce7da81e8be33eba57c6
+    new: 364a0bb202b135ddcc98e2627c6c65cf3461d697
     log: |
-         c41ac86802fc0a22a886915a43bcad2e8d482b02 ASoC: dt-bindings: qcom,q6dsp-lpass-ports: Rename QAIF clock IDs
-         9c9fb79f9769ba9042086817ee57aa4eef8b8a97 ASoC: qcom: qdsp6: Zero-initialize AudioReach module config
-         0a9e00d5ebdfcf460902f463e765f737d3fe935e ASoC: qcom: common: Distinguish missing and invalid TDM slot configuration
-         8593dc5f052e791748eaa76397ad95b9e32edac3 ASoC: qcom: sc8280xp: Fix TDM hw_params error handling
-         721d6331add566f6f90f5b954299694a7237dd9b ASoC: qcom: Fix AudioReach TDM review findings
+         d3401f3fadeebadd26b6da8c7dce03ea37c252f6 NFSD: Move the nfs3.h include out of nfsd.h
+         b7d9bdf3e9cdc21294b1bf3590baaf10f85a505a NFSD: Include <linux/nfs_fh.h> where struct nfs_fh is used
+         364a0bb202b135ddcc98e2627c6c65cf3461d697 NFSD: Clean up header guards in fs/nfsd/xdr.h
          
