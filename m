@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5688933383290499357=="
+Content-Type: multipart/mixed; boundary="===============5223670997181857335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 18 Aug 2026 16:44:19 -0000
-Message-Id: <178707145993.3371316.17409259210743426122@gitolite.kernel.org>
+Date: Tue, 18 Aug 2026 16:44:22 -0000
+Message-Id: <178707146275.3371428.3025450942818695475@gitolite.kernel.org>
 
---===============5688933383290499357==
+--===============5223670997181857335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e6a5d573d24cd375e09d24f136523cb3cc85c9d3
     new: 25b00c01fe1062ef1f2aaa3c4ee6638ec9beb239
     log: revlist-e6a5d573d24c-25b00c01fe10.txt
 
---===============5688933383290499357==
+--===============5223670997181857335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -126,4 +126,4 @@ c9c235775bc4ca66bf64f2a62161b9a73cd6ec23 net: phy: mediatek: add phy driver for 
 15062bb05e161bb851963c7fce8c2e789056e8f0 net: dsa: initial support for MT7628 embedded switch
 25b00c01fe1062ef1f2aaa3c4ee6638ec9beb239 Merge branch 'net-dsa-mt7628-embedded-switch-initial-support'
 
---===============5688933383290499357==--
+--===============5223670997181857335==--
