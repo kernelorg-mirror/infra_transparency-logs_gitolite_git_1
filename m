@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 18 Aug 2026 10:44:54 -0000
-Message-Id: <178704989435.3096594.18071150638245052083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 18 Aug 2026 10:49:53 -0000
+Message-Id: <178705019345.3100369.8772865475100077156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 175cf7f03e38840f547c2286374f2b929cdefd36
-    new: 71dd4453fbf52d81fe5d12e50274987ffaddcb51
+  - ref: refs/heads/main
+    old: 8acf691d8017012e1476c30e7381513c1e929c94
+    new: 116e8fe495d811d2a727177a4668e7f79fdffef2
     log: |
-         c617233d92a7d49b2d2eda79e3b8a7f006609447 treewide: replace magic numbers with USEC_PER_SEC and friends
-         71dd4453fbf52d81fe5d12e50274987ffaddcb51 Merge branch 'PR/fix-time-magic-numbers' of https://github.com/karelzak/util-linux-work
+         505b6d296c486ef7d1274f279d4c43a172f63224 ip6_gre: fix hardware header length for NBMA tunnels
+         6b222adeb9340306e2ff97127c76117abb9b3df8 net: cap advertised IP tunnel headroom
+         116e8fe495d811d2a727177a4668e7f79fdffef2 Merge branch 'net-fix-ip6gre-header-length-before-capping-tunnel-headroom'
          
