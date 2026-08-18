@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 18 Aug 2026 16:41:18 -0000
-Message-Id: <178707127869.3369908.16537356724160321655@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9161023092102756056=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 18 Aug 2026 16:42:44 -0000
+Message-Id: <178707136463.3370520.1939029187383955367@gitolite.kernel.org>
+
+--===============9161023092102756056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: a3dee9bb902ee4357fa02e49b415d7724ee0140a
-    new: a5edadbae57e2298a56cf7a4e774a027905a331f
+  - ref: refs/heads/review-ilpo-next
+    old: e0d6312578e1fd03738fc2ac8ac21c8bd84e965e
+    new: 54745d563114b74f6fecebce68cd020d06c1772b
     log: |
-         8ccc9bf9afeeb46a437081c07154fbf5964682b2 bonding: initialize err for empty target lists
-         c0726f0caf8c6b3208552949e17d23634a2f3129 ipv4: reject undersized MTUs in ip_do_fragment()
-         a5edadbae57e2298a56cf7a4e774a027905a331f ptp: vmclock: prevent read-only mappings from becoming writable
+         54745d563114b74f6fecebce68cd020d06c1772b platform/x86: think-lmi: Fix current password length check
          
+
+--===============9161023092102756056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1787071361 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1787071360-893b429af69cabfdb50a62330e863e7c156cad84
+
+e0d6312578e1fd03738fc2ac8ac21c8bd84e965e 54745d563114b74f6fecebce68cd020d06c1772b refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaoSLgwAKCRBZrE9hU+XO
+MfwTAQC8oryQkfZAyZy4p0eT+yfyfu2bqic1B4mCmyjEuE8z+gEA4zoQUnOryeM7
+ZYvia3DxXbCMa/B05Kv/ipjE3elRGwk=
+=h5BQ
+-----END PGP SIGNATURE-----
+
+--===============9161023092102756056==--
