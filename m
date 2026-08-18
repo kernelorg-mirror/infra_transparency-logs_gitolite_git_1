@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 18 Aug 2026 07:36:40 -0000
-Message-Id: <178703860012.2959118.2987743624679478620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Tue, 18 Aug 2026 07:38:16 -0000
+Message-Id: <178703869658.2960043.17912560229494839348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/tags/v7.3-p1
+  - ref: refs/tags/loongarch-7.3
     old: 0000000000000000000000000000000000000000
-    new: b498d70c923e68f33a7a5a0ef51c2578cf32201b
+    new: 02b773f24b98a61168fe46926b0c137406c8139e
