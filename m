@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 18 Aug 2026 13:53:00 -0000
-Message-Id: <178706118043.3238783.13576328005561093363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Tue, 18 Aug 2026 14:02:10 -0000
+Message-Id: <178706173021.3245752.8299929888804161654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 194e4ffd2ede5b5c635f2db3bd313ef4ba9d26b7
-    new: 25b00c01fe1062ef1f2aaa3c4ee6638ec9beb239
+  - ref: refs/heads/master
+    old: 50d9e431fc2bbc0226686608a3837873d4a99753
+    new: 7759d6e9ece29b65a14d6b7cb885aee039673070
     log: |
-         2873d364f40803276fa0fa4b4479988614a135cc dt-bindings: net: dsa: add MT7628 ESW
-         c9c235775bc4ca66bf64f2a62161b9a73cd6ec23 net: phy: mediatek: add phy driver for MT7628 built-in Fast Ethernet PHYs
-         44204fd425afb6ca5e9d6d363c1a2917a2828f27 net: dsa: initial MT7628 tagging driver
-         15062bb05e161bb851963c7fce8c2e789056e8f0 net: dsa: initial support for MT7628 embedded switch
-         25b00c01fe1062ef1f2aaa3c4ee6638ec9beb239 Merge branch 'net-dsa-mt7628-embedded-switch-initial-support'
+         2e42344887b60dc0f09f986051bfee4dfeee14ad git-patchwork-bot: add a per-server circuit breaker for pwrun()
+         804157c0c0de88cbeb096717d0e96e43130765e6 git-patchwork-bot: add a per-rev pending-ops ledger for isolated failures
+         7759d6e9ece29b65a14d6b7cb885aee039673070 git-patchwork-bot: log run start/finish with bot version and stats
          
