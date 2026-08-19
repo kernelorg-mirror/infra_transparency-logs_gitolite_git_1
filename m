@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Wed, 19 Aug 2026 16:10:01 -0000
-Message-Id: <178715580163.412957.9945725067897041620@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5766646649027795709=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 19 Aug 2026 16:13:32 -0000
+Message-Id: <178715601257.416481.16607794798331191882@gitolite.kernel.org>
+
+--===============5766646649027795709==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
-user: will
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/overflow-stack
-    old: 9b70b606041ac601c8e20da25dae7d3e4d3ffccf
-    new: 0fad03c113a51c761a725cfa32fee7960361ba8e
+  - ref: refs/heads/master
+    old: d94b0b8bc70cf2a031461f707a69d3a29e190e28
+    new: 4ed1b17ac258eba058149c075cb73fa58a537121
     log: |
-         7dda96213bb24d8d78c2112b9d3c37b33d7197df KVM: arm64: Preserve handler/thread bit of EL1 mode in __finalise_el2()
-         ccb3105a3dad2b4bc127b5774eb5a20b163735a5 arm64: sdei: Guard most of asm/sdei.h with CONFIG_ARM_SDE_INTERFACE
-         2d1656f061fb2713f6ab891b5c37e555dbad058d arm64: sdei: Support SDEI events from kernel handler and thread modes
-         ec28c46fb2730e28d5ccf11db068be53a5bccf64 arm64: entry: Point SP_EL0 at the overflow stack
-         25b7a0e242c3ea4a477f3df201f89b8fa88211b6 arm64: entry: Implement EL1t exception handlers for overflow stack
-         827c7fa2bb964e53c258093391cb539d051c065c arm64: entry: Use SPSel to switch to overflow stack
-         ae220e864d801543837dd117ec050c5d85a4491e arm64: entry: Split up kernel_ventry macro into separate helper macros
-         74bf181e0ec98e9dae3cf97b80bf37b6333cc3c0 arm64: entry: The great stack switcheroo
-         0982de59a5f2cd39778a449bb73e22b618befca7 arm64: tracing: Advertise a mode of EL1t in synthetic kernel regs
-         0fad03c113a51c761a725cfa32fee7960361ba8e arm64: Rename 'overflow_stack' and OVERFLOW_STACK_SIZE
+         4ed1b17ac258eba058149c075cb73fa58a537121 Linux 6.6.152
          
+
+--===============5766646649027795709==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787156011 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1787156009-9a48bbe378dfbfe7e81267240b5828f51e7bbc50
+
+d94b0b8bc70cf2a031461f707a69d3a29e190e28 4ed1b17ac258eba058149c075cb73fa58a537121 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqF1isbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/fAP/Am9aJmFg8bKBTte1GSz
+6BTAtl1THys57dS5NIRHju6BXiRzTZyLRpoDeMt96B31OBzm4BX4iB2WPgJrCy9F
+S3ZuatM+G71tUpfxOVM8LCCRo/xpZpwE3wA2wxw0Y/vnuRSXVSFKcBF71j4NWEFt
+N75dEAr4ElII+WLToq+n3gWA3p31OVsehekq3okDQlvhcYJry0FxsDcL138Om8vd
+mXmnIMgOVaw/abT+LvPjTKPgQKjC6Arnq2q/x6ubq193ufR/NdBLl570cNi40swi
+9YOFZpsTspe0rTKsYZLlNYNAJd5J1vwNjRSLtb3ndepE9XRfZ4e5GCje7RNNP0tN
+UkOIovIY17aurvtQkUsPiWeV+x20o/LeCF2rMboaz2g3Ab7JlaXQVl/NeHCbz2ca
+5Ta+fwrk3SeFa1rfsypOR0mIIwsaxfqbS4ZUUJrXY7jRu9wEj/cLgr613GFnY4AL
+gMAOdUFaZt6FsQTJ7NkTeyJU9Ok89Th23AHFsXlTEZK7XuGingKqYmZUzCnQpCPo
+wsa3Vi7lTnQjPWjcMETv23a5QcnXZBWwzgC4thJmo0IQWrCZ9VNBYQyJrlMUzkgq
+kpoYG+4dt+6fJjvBWGfy+LhP7QXFwdwHOL3SM0TN0f0bRj65ox4NBRg4htFt7Pus
+xe86PI4oSEnb30T51/8Okghf
+=VUZh
+-----END PGP SIGNATURE-----
+
+--===============5766646649027795709==--
