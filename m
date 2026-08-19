@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 19 Aug 2026 14:22:47 -0000
-Message-Id: <178714936779.199895.4194836766928090901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Wed, 19 Aug 2026 14:24:34 -0000
+Message-Id: <178714947446.200578.13989706142975123832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 6c0d79a83791167f897c9bf644674db8f0b47178
-    new: 59940c21b927207e99789f97120cc365069118d0
+  - ref: refs/heads/master
+    old: 273ea41bc460128d6f174e492647ab2b2245db07
+    new: a1a0f276c06210eebf504d26b7a99aa039c7337c
     log: |
-         59940c21b927207e99789f97120cc365069118d0 Notes added by 'git notes add'
+         a1a0f276c06210eebf504d26b7a99aa039c7337c git-patchwork-bot: report active patch count, not the all-time total
          
