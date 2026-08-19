@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2444423940531679041=="
+Content-Type: multipart/mixed; boundary="===============9144507087662611541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Wed, 19 Aug 2026 09:15:32 -0000
-Message-Id: <178713093253.4107631.7841053942527799697@gitolite.kernel.org>
+Date: Wed, 19 Aug 2026 09:17:50 -0000
+Message-Id: <178713107087.4108948.17927923944268690537@gitolite.kernel.org>
 
---===============2444423940531679041==
+--===============9144507087662611541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,53 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: dd3210c47e8d3ac6b4e9141fc68acc03b38c0ba3
-    new: bd5f485f3f026225b86573e559af0b7254ef4184
-    log: revlist-dd3210c47e8d-bd5f485f3f02.txt
+  - ref: refs/heads/ntfs-next
+    old: df7dce2090342170b7643d36f694204cae7792a9
+    new: d9e00c457d4ab8ab59c6e4b8554c921260e4e16c
+    log: revlist-df7dce209034-d9e00c457d4a.txt
 
---===============2444423940531679041==
+--===============9144507087662611541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd3210c47e8d-bd5f485f3f02.txt
+Content-Disposition: attachment; filename=revlist-df7dce209034-d9e00c457d4a.txt
 
-42bc45df5905e2b7dccb72adaf7730f66cfbe03f vhost-scsi: reject feature changes after endpoint
-244b7f86d60544c99f6e3774fbf0e1aafd3a30f4 soc: aspeed: add missing MODULE_DEVICE_TABLE()
-6cdd8cbbf89611da6c948d58daed1c53f4bf8321 MAINTAINERS: add Ryan Chen and Billy Tsai as reviewer for ARM/ASPEED
-27f380ef0e1d3de3cde114e02d33f9320ce3a5a6 Input: hynitron_cstxxx - validate touch count and finger IDs
-db23b4aab4252f793d9fa97dc5d6f8d99c5e8e4b arm64: dts: exynos: Correct white-space style
-e2b3acf8c227beda488f00d06f1266f83b9b5c08 ARM: dts: Correct white-space style
-7c78d6fa9aec67a72a498cda5cdbaced890cb038 arm64: dts: Correct white-space style
-3e8ec7c0387273329374f5c7bd61f5f38af71fe1 fsverity: Fix bpf_get_fsverity_digest() dynptr assumptions
-7c68ed5c5ad4c185ea9654f5d8ee36560277b7dd fsverity: Fix silent truncation in bpf_get_fsverity_digest()
-7cd8645d2b23e396228c78d83ef80a210154a1d9 Merge branch 'fixes-for-bpf_get_fsverity_digest'
-f48c13da21f2c7a7ae34824e3b4c8263dec8b867 Merge branch 'kexec-fixes' into kexec-next
-42b847795b0db87ceb55d17de36aea341d7c3a63 Merge branch 'kexec-misc' into kexec-next
-9d50f7c5ad5b4b031c9b85f9a43c626d8268ab51 Merge branch 'crashkernel-cma' into kexec-next
-942af88ae903ca19f54cace42d6fd0b6a73b9d6c Merge branch 'fixes' into next
-6ef2a1e11cd337455d4bdd2652199a1cdb872b33 Merge branch 'misc' into next
-bcf2a0b55e322a663c9602c9e773770b87d3e629 Merge branch 'selftests-lib' into next
-3d26cd1f3ff25cebd10d4b0e8188cf40dade28e9 usb: xhci: use BIT_ULL for CRCR bits to fix incorrect 64bit mask
-7140eea2470c6a1147ee0e21c11737620e6f6983 Merge tag 'aspeed-7.2-driver-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
-1a35da325cac4d5bcad76a2aa943408a6f1d9000 packet: synchronize pressure clearing with ring reconfiguration
-5011466bade64483bb52bc4a926719d6794e6dab riscv: dts: sophgo: cv180x: Allow the DMA multiplexer to set channel number for DMA controller
-418bd91075ccee25828db79390848da1ab3ef0a7 riscv64: dts: sophgo: add SG2000 dtsi
-66153532fb18474c83f9bcbb27b039c7788e664f riscv64: dts: sophgo: add initial Milk-V Duo S board support
-06c236909705fcc92f59b0f2dd05a45b22902769 dt-bindings: soc: sophgo: add Milk-V Duo 256M board
-76237a509a0e91665c4d9c96b72a78ec66ea3fe4 riscv: dts: sophgo: cv180x: Add PWR_GPIO controller
-59c682ffc76ebda27ecbbbd1423e23ec482d61b9 riscv: dts: sophgo: Add Milk-V Duo 256M board support
-d5e1ea5b05fe62c296701251c628ced6c68a6a80 arm64: dts: sophgo: add initial Milk-V Duo S board support
-0f289334af68a1331d4a2d2a95799ffa4ff8a046 riscv/runtime-const: Disable linker relaxation for RUNTIME_MAGIC
-1c7efabfbaf796f11000a46094a69955a01ec6cc futex: Avoid private hash use-after-free on final put
-cf6f8b29befb92173659bcef6a441d274947bfae net/openvswitch: check Ethernet header length in key_extract()
-ae31bcc92bb42502bb7c9029e6dc7a824cf6cd14 mmc: sdhci: make tuning_err a signed int
-9e9f561269dff35e6f84ed21776ec37fd6360b03 mmc: sdhci: unmap the bounce buffer before device release
-1fb92e0625596985b3941925afe7906fef41214b rust: sync: Add abstraction for synchronize_rcu()
-042278f5fa9e681420ab486d6cbf464e26667461 rust: revocable: Use safe synchronize_rcu() abstraction
-47c3367ff096e66f614ed3cdadece26ffc04b5e8 rust: sync: Use safe synchronize_rcu() abstraction in poll
-79d3d667af401eaa452f046595209aae6933c485 rust: sync: Add helpers for mb, dma_mb and friends
-72856afd33f2fa166c06f1536003e300e51ecf09 rust: sync: Add generic memory barriers
 3f90c16d413b2f68407f1c5bb112a1b16ea35dc4 rust: revocable: Use LKMM atomics instead of Rust atomics
 c125ee35a49a0518521b52b27631eef061b8719a mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
 a2d0c34f6dc0b00f677cbe2c27d19b55bfa0c541 perf: Remove redundant dev_err()/dev_err_probe()
@@ -1050,5 +1014,41 @@ cbe8aadf1551f3f4a853f24b3b96d9f0eea49c53 Merge tag 'soc-dt-7.3' of git://git.ker
 368cf60c36a3a311474de08e52dc6314df3b06ce Merge tag 'soc-drivers-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 6eb1ea5ff48d647deb67c58b7a0e97bbf4de088a Merge tag 'soc-defconfig-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 bd5f485f3f026225b86573e559af0b7254ef4184 Merge tag 'soc-arm-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+650a2751c9ae179fe0d8e5b5194a2b1c0d09412c ntfs: validate final EA attribute size
+772e4c8f25559e3b5c6c526253b3f771a4a4c02c ntfs: remove empty EA attribute pair
+41e1cf4ec10d2338f9a206af0300c34ca63160c7 ntfs: rewrite EA stream before updating metadata
+ffc755828de12d115b5386687b0487e3ba838df7 ntfs: Fix min_len for compressed/sparse attributes in ntfs_non_resident_attr_value_is_valid()
+f98d80d51777e2c8a26efec9b86541b3b5a154ae ntfs: Inline zero_partial_compressed_page()
+a3976da121aef2b9bf0709e0fd257b2a7ae2749c ntfs: Remove use of __folio_index in handle_bounds_compressed_page()
+8a81803f87504ffd735f2a77f1299eadf2cbdf32 ntfs: Use zero_user_segment() in handle_bounds_compressed_page()
+f6ce4cbcc53cf258ae0c8f77106f2eab40a1e412 ntfs: Remove references to page->__folio_index
+6e03fbd5f772ad24ea64f7632e4d0d73184787ca ntfs: fix kmap_local_page() usage in compress
+fbd74e665e188e58e6846be9aa7defa9d8e11f2a ntfs: file extension before write submission
+5c32f0b8d791c3464d7b280859f312b006e08fab ntfs: use pagecache_isize_extended() on size extension
+e36dbad0882646443b347273111b50eeb66095ba MAINTAINERS: update mailing list address for ntfs
+5e150dc65d87bc533255408185dbdbc018058289 ntfs: reparse: remove redundant NULL checks before kvfree()
+eec908b5c0d33961f1ed893d3aedf6d684870001 ntfs: mft: use kmemdup() instead of kmalloc() and memcpy()
+34d22551add7aa0d44d664d13cf106d66b67e9fa ntfs: dir: use kmemdup() instead of kmalloc() and memcpy()
+3e497af63725c8ef24f7f8d34d8fd7975142c71d ntfs: propagate compression context allocation errors
+f2b2aeeaadce5c2e30dd5cab995c121f95132ee4 ntfs: support large pages in compressed writes
+2bd734ee2cc8a9fe19ee96a34fc7038117c3b181 ntfs: punch all-zero compressed blocks
+eb67671cd8149d563c04764d39fda16f17194eae ntfs: write compressed data before replacing old clusters
+b54559689a00eb50308fb768e05fbb5036c7b1b0 ntfs: fix initialized size and page state after compressed writes
+33200693eb226df9caaa9affe0584744d44a28b1 ntfs: reuse the compression context during writes
+8cd2bf1d7af98ead863c17ee9168270af2cae19b ntfs: reuse compression output workspace across write units
+a8a4681f2bfca3a782d6dfbba64d9f2a0ec90ba4 ntfs: submit one bio per compressed write unit
+5b676a77f3e47a20c7e6849e6e832cb43112f6e8 ntfs: skip reads for full compression unit overwrites
+7ed0028126b5a19f278183abbae2b3166d3ca9ac ntfs: fix resident conversion in ntfs_new_attr_flags
+0ab6dc1ac4601c8d79e5448a024daed6b0c5ef64 ntfs: move attribute payload before shrinking its record
+dc09bf79b76f9a7157e225f449655f3f62f96c9c ntfs: Fix index_root heap OOB write in ntfs_ir_to_ib()
+71feaa7686fb9cc08fc81c8a09d120b6204b51a0 ntfs: apply Windows name checks only with windows_names
+4d730a4dd78caa7bf29dda36fa5340a0237a8689 ntfs: respect per-file chmod mode over mount masks
+19cac7902a8ab748e15f98ddaafcf5f8882be21d ntfs: bound the free-cluster bitmap scan to the volume
+ea6a67ef64451d2da298f15baa35865b4bb6372a ntfs: reject unprivileged writes to reserved $LX* xattrs
+121dedb3b6660d79f2004162f44e865a496af0ae ntfs: simplify ntfs_reparse_set_native_symlink()
+a83e82b0ec3ae523028e24813f23f18b43e8fc1c ntfs: validate non-resident attribute offsets
+9badcfb91bc3bd5edb530fbcdd16f25d66640f33 ntfs: allow index root relocation
+fea9e4488f384c0ef1c0e3d96b565127c1b98447 ntfs: verify run length exceeding volume boundary
+d9e00c457d4ab8ab59c6e4b8554c921260e4e16c ntfs: serialize resident iomap reads with mrec_lock
 
---===============2444423940531679041==--
+--===============9144507087662611541==--
