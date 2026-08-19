@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 19 Aug 2026 20:07:09 -0000
-Message-Id: <178717002937.760171.15765133320745810162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 19 Aug 2026 20:07:43 -0000
+Message-Id: <178717006384.760653.11493605084850272562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: dc2aa1e1be68af29e7088d3dcfec9ce57d0f3a1d
-    new: e0c62cce00d19e9d9d6edc845e38b2ecb505daed
-    log: |
-         0c893d170ff8efe7b4067552932d26e7defba307 selftests/cgroup: set the test plan after the setup checks
-         e0c62cce00d19e9d9d6edc845e38b2ecb505daed Merge branch 'for-7.3-fixes' into for-next
-         
   - ref: refs/heads/for-7.3-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 0c893d170ff8efe7b4067552932d26e7defba307
+    old: 5f01293930d18f8473681b378bb483b7087fc0dd
+    new: 4fb8d6379d2c7ceecb2b3e111954d29089d59492
+    log: |
+         4fb8d6379d2c7ceecb2b3e111954d29089d59492 sched_ext: Fix nonexistent field in sched-ext.rst example
+         
+  - ref: refs/heads/for-next
+    old: 5f01293930d18f8473681b378bb483b7087fc0dd
+    new: 4fb8d6379d2c7ceecb2b3e111954d29089d59492
+    log: |
+         4fb8d6379d2c7ceecb2b3e111954d29089d59492 sched_ext: Fix nonexistent field in sched-ext.rst example
+         
