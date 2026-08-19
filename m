@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7445116433204452138=="
+Content-Type: multipart/mixed; boundary="===============0448547787986386440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 19 Aug 2026 08:02:47 -0000
-Message-Id: <178712656711.4054334.15534419264012267864@gitolite.kernel.org>
+Date: Wed, 19 Aug 2026 08:02:50 -0000
+Message-Id: <178712657045.4054501.5937414333666466898@gitolite.kernel.org>
 
---===============7445116433204452138==
+--===============0448547787986386440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: bdab5605259ba5d6ff927c1a85cc83eb3ecfdacc
     new: e1e6e541c5c9cf548e9fdc35fc26808c82074440
     log: revlist-bdab5605259b-e1e6e541c5c9.txt
 
---===============7445116433204452138==
+--===============0448547787986386440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787126564 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787126569 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1787126564-930741c9197f0a19bf0b9023c5232c984febce48
+nonce 1787126569-f359db2cc58e778350c4a36894216e4c7b489957
 
-bdab5605259ba5d6ff927c1a85cc83eb3ecfdacc e1e6e541c5c9cf548e9fdc35fc26808c82074440 refs/heads/usb-next
+bdab5605259ba5d6ff927c1a85cc83eb3ecfdacc e1e6e541c5c9cf548e9fdc35fc26808c82074440 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqFYyQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EVsP/1c6ccYATdR6QdBAzNba
-5LfDJdrSX5pB2Mq/KWCVlfxY7vrpv7DNVNDZ4s5p4/R9YL1Zujs7U/dLHHKBgbMp
-x5CitDfX40BBLgLxHoWSYtjjkE2Cb8QtEBNwZqsdCQR+SZL6/eAb7su42BkOPwhh
-gFdvN/fSpk5U8gq5F83tvmj7/Gzd0PJkOyqw/8LlU2k2cQ9H4zGlIPxWHEvvjCqK
-SzIJKk/puh1k1T5sVk2hCgsx5HyFI+rXxZg6wiOYroLZhOdBY30eU6YXO7by1ywM
-g2zIVxBsTE2AIv7mCU/3xurdwbKqbpBsI4TYZCZZ6Atv+7644Fs2qdqOD1JrAFun
-1hdUFsEXwfk6ws6WkSSzGf+jwNvzKpmLhwMq7fcNytn+XqVe18yV4SJ9GBAh0lcz
-Op2i5A7iAgGij+9HnmyybQUtHg9eUKi1bbwV7wXa/gxFPcS4cxWaguTcts11MDZz
-VihEMF/C3GJszzlmb2LwwdZvh0bBjv5qynfViMVc/sC6yuvOWRntSbF8bcbw4ACG
-gOudSX3GbWg5SJkkp3zsZf3y3ANUWFAwUrTUk64DM7+ccA3+au5tf7veuaG4MHwt
-9Uq6K9BwGiVgPMly+AH5YXV/7h+HOKKSiwR0k8ObJSbXP6VkXYv9fJ+eDi1xtMBn
-yp45Xy6AKfxUZV/FBSJaRpZl
-=Mhqk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqFYykbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yGAP+wfnGsc+mU30Rfsz+HCk
+fPrlCMZGJw+ZdpAOJNdIx/iQ3BjiqrnI07WTEeMdouAfasHABeBqsxxmtANvwEzu
+O9UvV8LrHed0wRIXUSM7ohsf2DgxLN+1xCXqFU/te/LYVCj3uZSq+Ce5KtH8GTE+
+KISr4bGtgbofg2BOYXstuon9hwu9dWU42pFvU7SLR1iNh7lb9TrNH0p/BLd2tlTv
+UguSAxKyCgMjJ1+xt5mIsEr7S6Jb3+UHqJde253GMPL9FhL4x4e3wI69SRUkCCBj
+3TrhWxAC4a+/ThPw5eHIx2I7keu0w9DFTB9nFlP7qTnQ2vNVr/5yeDuDO025ZTx7
+aylVi86A5Oa2M7mnr1YSqNu/GTW9zHiNHtwksKQca3F70AIsuTX+GWARGhz5csjU
+vj+PgxXlHdMJ3aBpE6xdsoETAv/638XhGgWbOkpAzbzm9ImsHqUrhg+xjz2i1tNH
+SfOBc0L3eqoXbLefwJR44FjyIdqGFkGtuw0NSk/60wuyAfe27phiS40jmNJPA0f6
+lxJ/LsOBE+enyBko7rbWl+7KfbVZKENIXYoC4xHDdzVreEEzhUFC/CI3cGTVpTRd
+fvmWHAroVlkuF+Cky49DPKo+p1y55Y63H6mAIp1ZCgo6vN59VM10/BsM/xp2qfyi
+M143og0Xtd3Hr5lWRHu1n6gx
+=wwuA
 -----END PGP SIGNATURE-----
 
---===============7445116433204452138==
+--===============0448547787986386440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ e8158c8a6a232a70ae70c5acfaf7008a99b716c1 thunderbolt: Use min() for the DMA path
 86feaba911f2f1a540a7695c8f4a98fd0fd60ac4 thunderbolt: Clamp DMA tunnel credits to what a hop register can hold
 e1e6e541c5c9cf548e9fdc35fc26808c82074440 Merge tag 'thunderbolt-for-v7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 
---===============7445116433204452138==--
+--===============0448547787986386440==--
