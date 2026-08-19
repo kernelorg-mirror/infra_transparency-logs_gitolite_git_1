@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0817502851385744108=="
+Content-Type: multipart/mixed; boundary="===============7076080095767815253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 19 Aug 2026 13:39:48 -0000
-Message-Id: <178714678869.108206.15020242700961301276@gitolite.kernel.org>
+Date: Wed, 19 Aug 2026 13:39:51 -0000
+Message-Id: <178714679181.108317.12320586488639998872@gitolite.kernel.org>
 
---===============0817502851385744108==
+--===============7076080095767815253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b2bc330b1513b0dcbb45b6c89e040843b227229a
-    new: 36f0f67c5c0065f65c0f4ee459cddbfe4045bccb
-    log: revlist-b2bc330b1513-36f0f67c5c00.txt
+  - ref: refs/heads/mm-unstable
+    old: da12d8fa9119fe0a52c83915bb8bf37b5e22e1a1
+    new: f846a3b344a4bf90197e294658c33bdd18120297
+    log: revlist-da12d8fa9119-f846a3b344a4.txt
 
---===============0817502851385744108==
+--===============7076080095767815253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2bc330b1513-36f0f67c5c00.txt
+Content-Disposition: attachment; filename=revlist-da12d8fa9119-f846a3b344a4.txt
 
 255de1b0ff042116938fea4e31468d89f0ee45e7 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 1e16b64d9704fe6f23074a9825a2dcae62b0bcdd memcg: make the v1 soft limit knob inert
@@ -221,7 +221,5 @@ e42d4e96850b9c114e9c4fb56c6f3f944ac3c2f4 arch_numa: avoid false positive fortify
 0cd2fa4cee0c5c0d8d0a2fdf5f3f38fdbd5f9e81 selftests/mm: fix unchecked ftruncate return value in soft-dirty test
 f6cc09def8838519be48bf68f8174a0f8b62a901 mm, swap: ratelimit bad swap entry reports
 f846a3b344a4bf90197e294658c33bdd18120297 hugetlb: add cond_resched() to __unmap_hugepage_range()
-9426384086f766938dbba5b78127608d8d87f40f mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-36f0f67c5c0065f65c0f4ee459cddbfe4045bccb mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0817502851385744108==--
+--===============7076080095767815253==--
