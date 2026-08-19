@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Wed, 19 Aug 2026 11:51:41 -0000
-Message-Id: <178714030167.28557.1194835434270304604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Wed, 19 Aug 2026 11:51:51 -0000
+Message-Id: <178714031129.28897.4225149819772017604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/i3c/next
-    old: 455b454c87bb01ffcebe0e0c09303d6af685bd2a
-    new: cab40cfc9e116acd4d60f95b4b1264cab78f3803
-    log: |
-         cab40cfc9e116acd4d60f95b4b1264cab78f3803 i3c: dw: reduce do_daa time if there's no client
-         
+  - ref: refs/heads/ppavlu-module-include
+    old: 0000000000000000000000000000000000000000
+    new: fcbfd3cbe0a054838436812cc0b664f71ba1d0a4
