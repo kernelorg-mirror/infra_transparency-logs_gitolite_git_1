@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 19 Aug 2026 17:08:15 -0000
-Message-Id: <178715929578.624090.364454805084955527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 19 Aug 2026 17:09:40 -0000
+Message-Id: <178715938099.624616.14170760933148125186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 78148c85297024ffe7a709acb7cc4fc907271176
-    new: 9453bc6a69ef43755f1c28d5688cacdd69fa16bd
+  - ref: refs/heads/controller/tegra264
+    old: 2ee8225baa568c979ced10a89e90319db69b1f94
+    new: 9425b1536569fdbd0ea02fdf6042dbd31d00336d
     log: |
-         2d85e13c5526eee5f4d5670472a949f1489707ed perf vendor events arm64: fix swapped MetricGroup for Tegra410 L1 prefetcher metrics
-         9453bc6a69ef43755f1c28d5688cacdd69fa16bd perf vendor events arm64: Fix Tegra410 Olympus event 0x0197
+         d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
+         0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
+         9425b1536569fdbd0ea02fdf6042dbd31d00336d PCI: tegra: Add Tegra264 support
          
