@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6167944408975367761=="
+Content-Type: multipart/mixed; boundary="===============7914465200088913826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 19 Aug 2026 19:54:55 -0000
-Message-Id: <178716929575.748871.13670169285165997955@gitolite.kernel.org>
+Date: Wed, 19 Aug 2026 19:54:59 -0000
+Message-Id: <178716929972.749083.5530135585994306077@gitolite.kernel.org>
 
---===============6167944408975367761==
+--===============7914465200088913826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
-    new: abea5c349368a683e40fdc2e745099aaaacc89d7
-    log: revlist-db2ddb871435-abea5c349368.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: fc62b3634860a4e2f14f9d6b3fe606540d4538bc
+    new: 7e82b26944c63afd919cc32394b4727929b88447
+    log: revlist-fc62b3634860-7e82b26944c6.txt
 
---===============6167944408975367761==
+--===============7914465200088913826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db2ddb871435-abea5c349368.txt
+Content-Disposition: attachment; filename=revlist-fc62b3634860-7e82b26944c6.txt
 
-873fa6bd9a4f735575cd46a2824e0f0a454d8779 arm64: dts: exynos: Align continued properties and add missing blank lines
 b9014d9fb72b890254ff99b6b1d1c8a0f31ad9cb arm64: dts: exynos5433: Override thermal zones by phandle
 5128b3fbfbcabd55ca7a53f8a6182683287e28aa arm64: dts: exynos: Re-order clocks and align continued properties
 56bca5626deb478ecb8d3981f415737557701327 arm64: dts: google: Move 'status' to the end to match coding style
@@ -1050,5 +1049,6 @@ a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://gi
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+7e82b26944c63afd919cc32394b4727929b88447 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============6167944408975367761==--
+--===============7914465200088913826==--
