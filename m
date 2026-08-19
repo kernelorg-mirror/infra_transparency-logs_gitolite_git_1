@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 19 Aug 2026 20:00:00 -0000
-Message-Id: <178716960076.753314.15929348452094296005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 19 Aug 2026 20:07:09 -0000
+Message-Id: <178717002937.760171.15765133320745810162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 7e82b26944c63afd919cc32394b4727929b88447
-    new: e9ee0d8de260a5913d706a0939fc9e4bdad9234d
+  - ref: refs/heads/for-next
+    old: dc2aa1e1be68af29e7088d3dcfec9ce57d0f3a1d
+    new: e0c62cce00d19e9d9d6edc845e38b2ecb505daed
     log: |
-         d1f112e2fa9b7f60f5dfa51118a0dad57fd3df88 i2c: busses: drop redundant dev_err_probe() around irq helpers
-         cbd043b00ee3f542c115c8809c4d9a67465c07d5 i2c: imx-lpi2c: properly unwind resources on probe failure
-         a4c419356a33324bb14f88511b990e2eee6dce56 i2c: imx-lpi2c: reset controller in probe stage
-         43eb13f13385a1e7251978a1977ac61b99edef01 i2c: ocores: Disable clock on failed resume
-         62edb8ca0aa44517cc23cfa26cd8a51f15ea92fe i2c: mux: demux-pinctrl: fix OF node leak on kstrdup failure
-         777979e627115734052b323d2721cdb500e81dcf i2c: mxs: fix DMA channel leak on probe error
-         e9ee0d8de260a5913d706a0939fc9e4bdad9234d Merge branch 'i2c/i2c' into i2c/i2c-next
+         0c893d170ff8efe7b4067552932d26e7defba307 selftests/cgroup: set the test plan after the setup checks
+         e0c62cce00d19e9d9d6edc845e38b2ecb505daed Merge branch 'for-7.3-fixes' into for-next
          
+  - ref: refs/heads/for-7.3-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 0c893d170ff8efe7b4067552932d26e7defba307
