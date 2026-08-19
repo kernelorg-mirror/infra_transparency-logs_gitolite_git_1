@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7916738085519025981=="
+Content-Type: multipart/mixed; boundary="===============7345975297981536755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 19 Aug 2026 07:57:19 -0000
-Message-Id: <178712623903.4049439.4546893897077884363@gitolite.kernel.org>
+Date: Wed, 19 Aug 2026 07:58:52 -0000
+Message-Id: <178712633270.4050104.16119762660228452766@gitolite.kernel.org>
 
---===============7916738085519025981==
+--===============7345975297981536755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,63 +17,55 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-next
-    old: 258ad625930ff4535ba6b438c8b49509e9a1c2dd
-    new: 1f7267d8043e394933b0ed06070bfa7921d7c830
-    log: revlist-258ad625930f-1f7267d8043e.txt
+    old: 1f7267d8043e394933b0ed06070bfa7921d7c830
+    new: 8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55
+    log: revlist-1f7267d8043e-8992f32c5760.txt
 
---===============7916738085519025981==
+--===============7345975297981536755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787126238 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787126330 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1787126237-806d7b0e8b0efabd0aaa9fc2fb289c8bfe7b142a
+nonce 1787126329-25a4fd6dc5a7156973d0fbdac6a757be1ba4f3fd
 
-258ad625930ff4535ba6b438c8b49509e9a1c2dd 1f7267d8043e394933b0ed06070bfa7921d7c830 refs/heads/char-misc-next
+1f7267d8043e394933b0ed06070bfa7921d7c830 8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqFYd4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZNoQANQy1nyA+WVosXxkzamm
-2eAr0+vrWd3stviwb9n3zvQdlPlhD6q2SCfx29M1BJDo+bWUwEixJ4+XxC4diE2a
-ymeE3OSmyMiL2X+F8GrnWl+xWouXseToFDYwYkhxl+HP84rsjCeLHh9ovLD2qfIT
-IpqpP4chyBT2F1J6UtQTqdjjyz0vAEYIVgQOBZk//BLZJezCTzKI1ExPCn9bfLfk
-AFW0tS4QG64qCsNv3olgTGktIWM97opPYMgBZUp1mkKOpv4fJXILft+c3uxTT6Tm
-Uk6Dwcg9Tm04zdV3ruapntZaskU0Xkom2V7PwzaqpMpeZZnARUUcrRxY0PDcxx0i
-InsSUu2GTm5nDtnbxQNGJAn4odYLHm/9ix/emR8AHG9/HDULo2ByxG4qnv+EYzwQ
-utB9auJGdVvAlN7fPSX/imnAJwkVesLnbWiDg+8wgOztcSExdng+hgsjiU1z5pgq
-UwpyhLuiSlz+c1vzUGFf1KKMuoqOvx8VusM3u8jHgKeij9QoELkTuvHz5NAYw2ME
-AAe46qq5PTZP+OWj7U1ueJcdS4kYS8Wj/e0WbsndV/ubmBnXgti45uV51NftYCQH
-MQ4a0/AoHCL+ZEZT9wcSmP4Mn29qYZgpEsELzwwVszyhJGKlgMcbkcL5JzkhdXtJ
-m+YjCdKjiLeUkxrkEI/vy7pj
-=CIYw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqFYjobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FGEQAM3x+y820JyIXpP98ji+
+vdhwOWdmfgBEk06lEe5W7BTVNi9zmjETuJRLZQVV1md7UmWhu8HHpDyMnh7CmUv7
+mTa/Ye+nvsINnIy5H99hEeiIjiPXW0ZBtitJJ7QF2N+0rVb969UP1rt6b1tiU5C3
+f7H8aM8JDkT2rwpXWN/aHHpl8XprRMfno9ZqnFw10sTMAcPfDRhudIfUDqHtEIwd
+o4GxTBuevGp+ICMY0fTvFBxnoBfV2yHN8DjNjVxOw/D3VJUy5WHmDj3GIu07znMT
+hs7H0RYLzxZBMVUXy3rFQyS5D1bIe3lLlsKnWU20DF4QqD641cbN06sT2d6A6XyR
+NKZrzYMiugNrguDpzteqpOl0SmXHNqlUzkNRMfQ0OKu9hmOUlWB9pejqQd7QiiG+
+C/kEFPu60Nmvo65eecTFjt3TkAPEtS8oAVCWiaumTH8mkwDUKCgz0J/QoeZ88LNq
+ITgmK77WFezgq/1+T2IgI+k03+tlP9Ngugf2C/HRnmABJyuZh6TBDmzttkJv7dL6
+ihMwDbaurFJRwqSZe1M2nO2OM7Xc6sPNISdZsgqH4+DBoRUQkQcYGFpQPqeX5FYZ
+Y8BP8MlZIPP6RY8ZGfIr5pfMAx5ndHrUfJeiw7GIc8TviJk72hYR3OFHcqfWl61c
+ydx/cV6DcNccZBjogVbgqhYZ
+=czBV
 -----END PGP SIGNATURE-----
 
---===============7916738085519025981==
+--===============7345975297981536755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-258ad625930f-1f7267d8043e.txt
+Content-Disposition: attachment; filename=revlist-1f7267d8043e-8992f32c5760.txt
 
-2c12d05d863708bc2e9d1ee13c6c1534bb990c0d dt-bindings: interconnect: qcom,sc8280xp-rpmh: Add reg and clocks for QoS
-3ee8b9b7c4255f3858ea45f32b0907fa5f88b9cf interconnect: qcom: sc8280xp: Enable QoS configuration
-921d93aea07bd3c13287dd646c9cea4904369ad4 Merge branch 'icc-sc8280xp' into icc-next
-b09a9fc46657f210e5fbc5299b7624ff54f7ee6e dt-bindings: interconnect: qcom,x1e80100-rpmh: add clocks property to enable QoS
-5a8b2cc36e796d595c9d97eab23c2be22805cc1c interconnect: qcom: x1e80100: enable QoS configuration
-3b828034ad9e2976f3f0cdc4fa25ec727ff23c70 Merge branch 'icc-x1e80100' into icc-next
-070c42f9e6d937087ac95cd00381d36d3b3c1de9 dt-bindings: interconnect: qcom,osm-l3: Add EPSS L3 DT binding for Qualcomm Shikra SoC
-b148c1f785f3a641fa58a23da5f344a0dfa038a1 interconnect: qcom: Add EPSS L3 scaling support for Shikra SoC
-565de44266e64bec1554e86584083b41ab76d9bd dt-bindings: interconnect: qcom: document the RPMh Network-On-Chip interconnect in Maili SoC
-fb8190f09bffaac5005084cf665743aef199b01f interconnect: qcom: add Maili interconnect provider driver
-c96fc14322cee45cdf751cb4ae62c9eab25bc643 interconnect: qcom: add COMPILE_TEST
-bd8a131fbe4989b8e57aa74fdc974900460ac387 interconnect: qcom: simplify allocation
-ecf20a5e15f9c81a97b1249c979b9c439e777592 interconnect: debugfs-client: add NULL check for platform_device_alloc
-25c7e242aca084fdc1098248194032317dca625d interconnect: Fix use after free in icc_get() and of_icc_get_by_index()
-d5aee2777edbc0835ed806a784c39197da724014 Merge branch 'icc-shikra' into icc-next
-07522964616d08b45eb9dc590fc9177e386d31cf Merge branch 'icc-maili' into icc-next
-9621c81fd2eb7db4b647814b7b6e537744831e60 Merge branch 'icc-misc' into icc-next
-1f7267d8043e394933b0ed06070bfa7921d7c830 Merge tag 'icc-7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
+41fb4e925528aefa4b7a5f76c7f81db99c0d0f38 coresight: etm3x: Fix cntr_val_show() to match cntr_val_store() behavior
+f67379bcf6c8440acdb00eb347b3e2cc9dd84a89 MAINTAINERS: Update HiSilicon PCI Trace and Tune maintainer
+75d42d990335322852ed5f7ce324b701c0949d79 hwtracing: hisi_ptt: Propagate DMA reset timeout in trace_start()
+856119909d8de99d540edbdfb5431efab936f649 hwtracing: hisi_ptt: Remove unnecessary trace buffer zeroing in trace_start()
+0e1cd4270b42a257c139165622091e1e8c7104a7 coresight: etm4x: fix wrong check of etm4x_sspcicrn_present()
+1674d9bff8073bdee5dbc200f56fc3caa28d0566 coresight: etm4x: fix underflow for usage of (nrseqstate - 1)
+467e5862ccb0eed907002f4c6d3badfe34360940 coresight: etm4x: fix leaked trace id
+0a47f0be6557b4a851addd430383a4dc7ee08752 coresight: etm4x: missing cscfg_csdev_disable_active_config() in perf enable
+9e3604d7369cfc0110100eb1a0acab1865ee2d18 coresight: etm4x: remove redundant fields in etmv4_save_state
+8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 Merge tag 'coresight-next-v7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 
---===============7916738085519025981==--
+--===============7345975297981536755==--
