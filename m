@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 19 Aug 2026 18:44:55 -0000
-Message-Id: <178716509583.696477.10994617383515136970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 19 Aug 2026 18:47:35 -0000
+Message-Id: <178716525573.699792.5406140591072785064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 6bfe0f9180f95d23b0c7e9724d2d0c84972141a4
-    new: 27255f4ceda937b3540e425ed58284f5c03c8ad4
+  - ref: refs/heads/nfsd-testing
+    old: 364a0bb202b135ddcc98e2627c6c65cf3461d697
+    new: 01c2994ccb0197cb44b0db89aacab460110f6347
     log: |
-         e620d33bbb533685dc6bbdd708bf8f53fe6d2697 queue: check EXT_ARG support before flushing registered waits
-         27255f4ceda937b3540e425ed58284f5c03c8ad4 Merge branch 'fix/reg-wait-feature-check' of github.com:srkyn/liburing
+         b583b6bbd11213e2e411f4df7942dc0681d3b619 NFSD: Move the nfs3.h include out of nfsd.h
+         401078a5507cd4ea66f2355d9300e92d97ba6bcd NFSD: Include <linux/nfs_fh.h> where struct nfs_fh is used
+         39093b3a4c44578da2c496c22d71e28126d3a435 NFSD: Clean up header guards in fs/nfsd/xdr.h
+         01c2994ccb0197cb44b0db89aacab460110f6347 NFSD: Resolve the recall-any mask names in the trace format
          
