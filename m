@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 19 Aug 2026 17:58:11 -0000
-Message-Id: <178716229163.660767.16316095261196497877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 19 Aug 2026 17:59:46 -0000
+Message-Id: <178716238600.661369.6255841907889055303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/pending/pwrctrl
+  - ref: refs/heads/kernel-7.1.8/vfs-7.3-rc1.iomap
     old: 0000000000000000000000000000000000000000
-    new: 4943d7a5559f0734e5c725c992dfeb02e7306b6a
+    new: d765879af46334c0af8643d41546ae68a096f688
