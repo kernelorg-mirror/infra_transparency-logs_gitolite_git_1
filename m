@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5949881814789610361=="
+Content-Type: multipart/mixed; boundary="===============5640064513798906541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 20 Aug 2026 11:32:14 -0000
-Message-Id: <178722553419.1522955.443928354125582267@gitolite.kernel.org>
+Date: Thu, 20 Aug 2026 11:34:23 -0000
+Message-Id: <178722566353.1524122.14765521921376531510@gitolite.kernel.org>
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,539 +16,595 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/5.10
-    old: 31cf5f5bb567d0e148a2173b71bdb4fa9087153f
-    new: 48e5f0024549c0f7fca767c754d3cbe4f0b42fd5
-    log: revlist-31cf5f5bb567-48e5f0024549.txt
+    old: 48e5f0024549c0f7fca767c754d3cbe4f0b42fd5
+    new: f5b86f3008f0d8d243cbc5e3ea9ddf1fc72e5dbc
+    log: revlist-48e5f0024549-f5b86f3008f0.txt
   - ref: refs/heads/queue/5.15
-    old: e2b361e82a4c44dbbb17df17bf2e42d3abd87ed0
-    new: e17dd62752a87355cfcb0116c6ca3929a34b9811
-    log: revlist-e2b361e82a4c-e17dd62752a8.txt
+    old: e17dd62752a87355cfcb0116c6ca3929a34b9811
+    new: 00682f6097abe4536740f2d9c56234117fa808d4
+    log: revlist-e17dd62752a8-00682f6097ab.txt
   - ref: refs/heads/queue/6.1
-    old: f1f20aa2ca0453ce1553881d91b8ad28c613d7ab
-    new: 28a5f45adeaacf50e2810e1010d628982cc5bfd9
-    log: revlist-f1f20aa2ca04-28a5f45adeaa.txt
+    old: 28a5f45adeaacf50e2810e1010d628982cc5bfd9
+    new: 8087dc0c7c970da6c8ef94a5ec908e710550414e
+    log: revlist-28a5f45adeaa-8087dc0c7c97.txt
   - ref: refs/heads/queue/6.12
-    old: 814e915b3c81857fb22d1529093c27c6a7f2f2fe
-    new: 5f84366224f0f7a99b263d76cc801dcf32f5df9d
-    log: revlist-814e915b3c81-5f84366224f0.txt
+    old: 5f84366224f0f7a99b263d76cc801dcf32f5df9d
+    new: f6faaf4c7ac3d4afe04a935e77abb342e10e3b0e
+    log: revlist-5f84366224f0-f6faaf4c7ac3.txt
   - ref: refs/heads/queue/6.18
-    old: c5600100a2080035eb65948c33974d77d41d760a
-    new: b2a021a663a913dc8e731278ffc5f46ffbba0388
-    log: revlist-c5600100a208-b2a021a663a9.txt
+    old: b2a021a663a913dc8e731278ffc5f46ffbba0388
+    new: 95277d67a2d3fafbd6e462aec8e32107dcd1a0be
+    log: revlist-b2a021a663a9-95277d67a2d3.txt
   - ref: refs/heads/queue/6.6
-    old: ad0e5511f3a7e6b7f7c99d4fe9cf039a86778d1a
-    new: d89196ca7f4ac6d264376ac7bf8f041cd0c4a51e
-    log: revlist-ad0e5511f3a7-d89196ca7f4a.txt
+    old: d89196ca7f4ac6d264376ac7bf8f041cd0c4a51e
+    new: 5529d865157dc242a845d87d38815aa8ae1516ea
+    log: revlist-d89196ca7f4a-5529d865157d.txt
   - ref: refs/heads/queue/7.1
-    old: c4e5fd522de3f670a9ded2ccefbe7aa205e78b95
-    new: 59e61bed6aae41f25be26e5e585af01f6d8c7bc6
-    log: revlist-c4e5fd522de3-59e61bed6aae.txt
+    old: 59e61bed6aae41f25be26e5e585af01f6d8c7bc6
+    new: 31b1b047a1488f47c8befc6c0146e9de6491617a
+    log: revlist-59e61bed6aae-31b1b047a148.txt
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31cf5f5bb567-48e5f0024549.txt
+Content-Disposition: attachment; filename=revlist-48e5f0024549-f5b86f3008f0.txt
 
-112d7930a244789167c0a320f3adfe354278e3ac media: mtk-vcodec: potential null pointer deference in SCP
-355504b7d0dfa78376858299a7e01d61e681db68 media: mediatek: vcodec: Fix a resource leak related to the scp device in FW initialization
-16f9a6c0623ffd904677230519c1e3f130b44984 ipvs: separate destination availability state
-83d81401cf690437acaaecdc8cbc70f848efd63f selinux: require every boolean value to be defined
-1f2b125397754fa95a2c517e4931acf14d651fc4 selinux: reject a class permission count below its inherited common
-d7bf995dbaaee96b8ec45f0466cf4477d27349c0 selinux: do not cancel a policy conversion that never started
-8d87586f420b3e5bdc0554bbc4d0225739185678 mptcp: options: reset DSS fields in case of unexpected size
-3931bcad1dbd1ecc679794358b8153689f276852 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-d92e4fc2f7c42deadbccedc8eb2505a541afc949 ASoC: cs4265: sort the register default table
-515a67e3004f158d04b0e4c5ce9e0f1091ea8c56 powerpc/pseries: pci - logic bug
-3f7a43a88eb88776e8ac20f644c259eb6f42bef9 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-6ea64c535b789ab84d76ecca231f60ffee7611f3 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-7f65d685c50f8e4675549eb2498c0db88281a709 Input: psxpad-spi - set driver data before use
-e006da762f713a4c05c0518e5fefa22127089bca Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-521917f7c1e4c44807904db46bdf2d3519ead9d4 Input: iforce - validate input packet lengths
-a016b6445be5a944b87e6eb8187b5bc01485019f powerpc/pseries: lparcfg - fix kbuf[] underflow
-d71822d9be61627074111bedc3f9d9dfa980dc39 Input: synaptics-rmi4 - zero report size on F54 work error
-2822f7e37d6ea81f76c3fa765db7ab3b573e37fe Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-55e3ede1400f3913e52bac3059b10b4c1aea45fa Input: synaptics-rmi4 - block s_input when F54 queue is busy
-2d96048be20e770968883c3c22b00b1206365bf3 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-e98993fd9745768ecc48f233848b5e5edb925bff crypto: qce - fix error path in devm_qce_register_algs
-fcda901b1269f043373f7626411e99be265b9bde libceph: fix multiple unsafe decodes in decode_locker()
-e8b0541ffcd61f36826eb42cf7d3843fce9d75a8 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-8d0b56e98b403d6c3861c2d86834f7ad88949c63 openrisc: signal: do not restore privileged SR bits on sigreturn
-28d17c4b8c7f37617cf5089afbf9b7a9b32e00e3 Input: sur40 - fix input device registration ordering
-a1c483d55870b99006d4340c9b4c4d0d584f3439 Input: sur40 - fix V4L error path cleanup
-eea7791fc7fade517bac1ee4da880f287277eb9e libceph: Avoid using invalid osd indices from primary_temp
-fbc18266534a19f1626ff4f050127add29561c3d ceph: fix MDS random selection readiness predicate
-d2aac7a1daccf08e52b2a98b7ccdbb6848b16d69 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-0787e30c4b48df7675f8f0de89088ecd20c75314 mmc: sdhci: unmap the bounce buffer before device release
-1a7d1e97ee61d4208f9c10df005416a2ae7a46c3 mmc: sdhci: make tuning_err a signed int
-a9311dd71e7a31b9d636da82e7c1dd72b2226078 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-ba77737ba6beba7299670b898d815fb849ad6024 drm/radeon: fix autosuspend cleanup during teardown
-616ac556142ec9d20fa6e5d9bf589b0462631bce s390/vfio_ccw: Fix out of bounds check on CCW array
-d9dafde733e8c5e6d85d81099139e8d9db03ac89 drm/amdgpu: Reject UVD message with invalid number of h265 refs
-132b816d673b762746c52bfbb7009f182a044579 drm/amdgpu: validate GEM_CREATE domain combinations
-557e7f5269a27ac8f9090e0f20c404c3ab3d2650 drm/amdgpu: Reject UVD message with dimensions above 4096
-a6e37a48ca5873e879b2047ae92b3584c72be03d drm/amdgpu: Implement insert_end for VCE 3
-48e5f0024549c0f7fca767c754d3cbe4f0b42fd5 drm/amdgpu: Fix UVD decode image min size calculation
+21d857e25430bdb25b3a32b42bd487d01d640e87 media: mtk-vcodec: potential null pointer deference in SCP
+99d47dbf7900c7589e2123f0ee2e8f37b907e687 media: mediatek: vcodec: Fix a resource leak related to the scp device in FW initialization
+534a42a89036d4b431a61a250623b42f96b27a40 ipvs: separate destination availability state
+359c0d9323b461673b769b362fa4179a8e1d1413 selinux: require every boolean value to be defined
+dd15509df1d3681c3672e81703badf0268d6b0e4 selinux: reject a class permission count below its inherited common
+bcf26ebf64cd2795758f377b9a15ae2cdca1d401 selinux: do not cancel a policy conversion that never started
+dcc340d8c89eacae64a8d617a42dec1f4707701d mptcp: options: reset DSS fields in case of unexpected size
+9c589bdef1d9d5363bbd51e31fcda750fd16bb6b s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+7b4275956a479b333c88f994652c8e6ebb3e79c8 ASoC: cs4265: sort the register default table
+7f681ddcacac2f6cc653592748fb9b4f8a742c6d powerpc/pseries: pci - logic bug
+4c48224bd81598caf660ce95673ad26bdaa0a7b0 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+fd6b694580a08daffbba12e8b41605fc233fdd60 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+657a7ba74ed3a97c54c7d18ca0ee76563e2c2fbd Input: psxpad-spi - set driver data before use
+ddabf8e325efe4a5e6a6ba8006a70a025d9ba2ca Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+b373f175276b51307547c23d8b3ff1504f46ca41 Input: iforce - validate input packet lengths
+77e05a704c3e81a037f1bf241b2f64f734e6e931 powerpc/pseries: lparcfg - fix kbuf[] underflow
+9275a348db4f4f56e0aba5b67949c4a8c62151e0 Input: synaptics-rmi4 - zero report size on F54 work error
+7960e3b84d42ba87b6bb760d6fbe36bac6918ec6 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+74f763c47e280f8b3de1862138e99d1057beb05d Input: synaptics-rmi4 - block s_input when F54 queue is busy
+26cd41b599edf644d277205e6bbf3f193e6d44b1 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+eca7ec199d1deccb18595bf09e6f2aa20f35c0b9 crypto: qce - fix error path in devm_qce_register_algs
+8457fe41a86d6a0b8e85907d1d09ca7d29bb2a12 libceph: fix multiple unsafe decodes in decode_locker()
+799c6c374714e023b1098791e7cf7f4543212099 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+bd3defca82af3b486de659c37f5eb9e7416f38c5 openrisc: signal: do not restore privileged SR bits on sigreturn
+77c2d98dea699573811ffc8516da620822a17b31 Input: sur40 - fix input device registration ordering
+8e7852ff35ea85614cf6d884ce9825f05d9cdd8e Input: sur40 - fix V4L error path cleanup
+45859f723446bfdcc918361ad955dc37b4f1953a libceph: Avoid using invalid osd indices from primary_temp
+70e4b546ffb5cc4b22c312b0045ffcef19c60de4 ceph: fix MDS random selection readiness predicate
+a81502a2cdeee92ba5e79be157af28e514bdd074 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+4661c18fdaf953cbb9d9dbf7aa4bafdd3f3675d1 mmc: sdhci: unmap the bounce buffer before device release
+cfbab4d76a77581dabc405465df4f908082f333d mmc: sdhci: make tuning_err a signed int
+7bd30ae893fddc07ec202c63f4c0e680fa8948f2 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+a195c3cc69a0480da5b65d55fe97fa5a52239546 drm/radeon: fix autosuspend cleanup during teardown
+194dc5157011c2576621559161c736d8b27b46a3 s390/vfio_ccw: Fix out of bounds check on CCW array
+5067af3a61e0ff2ccd51c3484f9bac3feeab203c drm/amdgpu: Reject UVD message with invalid number of h265 refs
+55dd441efc6c060f651fd606f475e47200344f12 drm/amdgpu: validate GEM_CREATE domain combinations
+de7518542aa9925f19734cbd7ce16aa621ddbff1 drm/amdgpu: Reject UVD message with dimensions above 4096
+d6d0cee84fc9d6278492f2358dc4630efa9958f6 drm/amdgpu: Implement insert_end for VCE 3
+f5b86f3008f0d8d243cbc5e3ea9ddf1fc72e5dbc drm/amdgpu: Fix UVD decode image min size calculation
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2b361e82a4c-e17dd62752a8.txt
+Content-Disposition: attachment; filename=revlist-e17dd62752a8-00682f6097ab.txt
 
-d5e3323311df55628846f1430e365dde97ad74ff f2fs: fix UAF issue in f2fs_merge_page_bio()
-7dab07f7ac4c184fb6bef1588a3850c48f08a13d media: mtk-vcodec: potential null pointer deference in SCP
-0c9cee45284373bed9341bd1f720c623f68091a6 media: mediatek: vcodec: Fix a resource leak related to the scp device in FW initialization
-6c267027a715a0479f6b5bb78511d18a6684dc44 fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
-054e1c1a97941b0345f7371dbba3aeb823a5b705 ipvs: separate destination availability state
-eb4d7c045f34087e84f0da0628f4da08a0e86a87 selinux: require every boolean value to be defined
-d8837436591a50984eec5a08e09a5a4fde79e3f0 selinux: reject a class permission count below its inherited common
-fa8f4a6426e91251374eed5945ae5661b5488cf4 selinux: do not cancel a policy conversion that never started
-30b9f359a086c8038cd7cd169b953fe37d02d497 mptcp: options: reset DSS fields in case of unexpected size
-3406e11b9d23fbb636be07936469375bcbdb4f0b s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-2f3066ae091dd5b99f6cad367f35cf4704391379 ASoC: cs4265: sort the register default table
-9965ec844a1a75326261e473c6935480444c974d ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
-5e4f8912bcd45fc834a3c2c4139da014f05d6cd9 powerpc/pseries: pci - logic bug
-6548f81c8e9a76e72f3d9f069bdf456ea77f6c8a Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-523fb6e5ae50cef396df4596946f7b545571d40b Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-259756e4c65bcb781916d530a8d497a4edcf6692 Input: psxpad-spi - set driver data before use
-48be11be30207b848d98723ee23e4b63fd82a57d Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-0730edcb0307b9f0d75813bf92296f53635e90b2 Input: iforce - validate input packet lengths
-db23a2e0158878cba20dbbb50f69a2ade7a5ce37 powerpc/pseries: lparcfg - fix kbuf[] underflow
-56ee5ad06d9dd10a17b3c10847f899ecc6f7e053 Input: synaptics-rmi4 - zero report size on F54 work error
-cf01119d2a419ae6f138e1da49e5048e9d20fd94 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-88ae16f173d48d5b27b2a3c4c0fab802089f7c50 Input: synaptics-rmi4 - block s_input when F54 queue is busy
-00c23bf822c3948173b52fd2c7926689e7a4590c Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-08378dcb401715bc37ceea90403b388ad32c5bd9 crypto: qce - fix error path in devm_qce_register_algs
-eb49270851d8ec73c57297a53cd5c9586b590f90 libceph: fix multiple unsafe decodes in decode_locker()
-af112d24c492edc6b55707b61eb476d71469c3c7 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-711b05fe59738676b8c20bb6ab2670955b6f11d5 openrisc: signal: do not restore privileged SR bits on sigreturn
-d1f84420388bd25847357e934d143a2e4d8f314e Input: sur40 - fix input device registration ordering
-c80ef21166f5ade626d558d8adea6106c12b2d4a Input: sur40 - fix V4L error path cleanup
-ca578190ec46096a42897b0e7ffd9b84ddb33e7e libceph: Avoid using invalid osd indices from primary_temp
-ae781bb50821b1e2800887894a235d3deea5c5af ceph: fix MDS random selection readiness predicate
-ed468eedd069a87c4fee152c6266950fa08cbe2c libceph: tolerate addrvecs with multiple entries of the same type
-5f7f2d159479b1d7de1c84d8d63c183abe771551 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-ec9fb0a9dd7421c38eb12c9923d5beb68e5d1f81 mmc: sdhci: unmap the bounce buffer before device release
-5d59d2e5c3bb406d6dff8a3269061132484052b4 mmc: sdhci: make tuning_err a signed int
-32fef7d69e519d89dd351578a114f6ce67edb4dd mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-302afaaf49b503a6f3fcbb5b927940fffeca69d6 drm/radeon: fix autosuspend cleanup during teardown
-72a3480de918bdf4b374622622d1a6262a696f55 s390/vfio_ccw: Fix out of bounds check on CCW array
-9b58cb1e2b5da991c15e5aeaf0693aec6dde0adf drm/amdgpu: Reject UVD message with invalid number of h265 refs
-668a91ba5559805944efc57a490205fcf76af9c5 drm/amdgpu: validate GEM_CREATE domain combinations
-280d02e22f84140f4a00a28e59be5cdddc0b79f9 drm/amdgpu: Reject UVD message with dimensions above 4096
-d10e39ff5c6b7760a4db9efd2ef7004ee78c3bdb drm/amdgpu: Implement insert_end for VCE 3
-e17dd62752a87355cfcb0116c6ca3929a34b9811 drm/amdgpu: Fix UVD decode image min size calculation
+629b3c2f526397ff6042ef907aa99540c7669f38 f2fs: fix UAF issue in f2fs_merge_page_bio()
+c7227a50d7e21eb6f2cfa4c01285aae99d7f97b5 media: mtk-vcodec: potential null pointer deference in SCP
+da1311ec7c59aa7b63f1dac94745af20c89c41ee media: mediatek: vcodec: Fix a resource leak related to the scp device in FW initialization
+6d2698ea11db5091cf339e2fcfd6e663f1d92252 fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+f960326b342df49129e41344bb2eb7c13f7048f2 ipvs: separate destination availability state
+e8dadc98c67f426e3dceb577981b3c29bc8de5a8 selinux: require every boolean value to be defined
+fc5e0f44384a58e3d3c0bb1e90d622664c86a792 selinux: reject a class permission count below its inherited common
+0f298ea48d7d2910d948cb90bf384e4e3f19206c selinux: do not cancel a policy conversion that never started
+ae23bdc1ef12aec058f6e16ab0e2347881c3e16e mptcp: options: reset DSS fields in case of unexpected size
+4beb1e2fa915915412b311d94279fe77fccf1484 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+d12cdf23a3bcd365f400fadf0759ad27b6710d26 ASoC: cs4265: sort the register default table
+383d05d749793ff8096f8a1d3398b59d4736a395 ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
+729951fbadc2b9155045a08aa94b38ff4da21bb6 powerpc/pseries: pci - logic bug
+7a1bd7d14c1c4cacc1c403ff657e95209de45cda Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+2475faf35c1ca4da0c45d67e8761a68a315ec0fd Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+49be3ee6d4f59e573af2f31c64bcf8a89f107f9e Input: psxpad-spi - set driver data before use
+2eb570e1ed36f5a5ad66e999ff226e2795a986ca Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+c323af43714bfe1c033fd601ce6864996d1b7791 Input: iforce - validate input packet lengths
+3e4dfa08e50b81a0c5ea51abfa0461e061b73b3c powerpc/pseries: lparcfg - fix kbuf[] underflow
+ea0f378a4d8656411e0b759358accd19145812d8 Input: synaptics-rmi4 - zero report size on F54 work error
+0d22d737849f23e4be69b7e95a072a286a00cde2 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+bc102ad4bc99549a884a1f18767699e125c0aee6 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+ea66e085d63b980c353c2ad6aac75f2dd21e5f7f Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+cacca89a8ff092883c2871e133d3dab47a14b3ee crypto: qce - fix error path in devm_qce_register_algs
+229952d61241f47569e93d49b141949598bba91c libceph: fix multiple unsafe decodes in decode_locker()
+e835c43fa677a5b09f3e514b2d13da01c0046f13 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+f28efff5879ccf2ddb83e698401dcaed2eec4092 openrisc: signal: do not restore privileged SR bits on sigreturn
+e59e5dacddd2d0b0c9a4f1b614a4f13a37bd95e4 Input: sur40 - fix input device registration ordering
+f54b1adef309ff8224afb2ab695991d3f96762ac Input: sur40 - fix V4L error path cleanup
+e269c1c87def14be4664efdf359e7deabbdb93be libceph: Avoid using invalid osd indices from primary_temp
+47b65f945d01da6028f984dde2371b9769de7244 ceph: fix MDS random selection readiness predicate
+11d306e8a68e4fc1ae5496c30243da317ead314e libceph: tolerate addrvecs with multiple entries of the same type
+67cd88eeb8b7cfd183e4a5dcc7f0b83c22dec199 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+e1b6799b68bc65eaa94207e19ce3264e661e4b3f mmc: sdhci: unmap the bounce buffer before device release
+6c1bf719643034cc1a4151cb0e79863ebccbf25e mmc: sdhci: make tuning_err a signed int
+5196985a338a6445166740df8e34ef57ef88c6c4 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+56b9bf08f40ac0158688ec6a7c3fec0b5f85e550 drm/radeon: fix autosuspend cleanup during teardown
+cc9f33b068a7c257b7b48f1cb8db93c0c58926eb s390/vfio_ccw: Fix out of bounds check on CCW array
+2069a050efee851d150816b157adf2803181934e drm/amdgpu: Reject UVD message with invalid number of h265 refs
+92bafbe04b3f5b03f9aa16d6da8f05ccabc450bc drm/amdgpu: validate GEM_CREATE domain combinations
+c01f41611be53e5c7628e84b64a31f88027b867c drm/amdgpu: Reject UVD message with dimensions above 4096
+15e4d3790162c9d079362ea05da0380e43b45eca drm/amdgpu: Implement insert_end for VCE 3
+00682f6097abe4536740f2d9c56234117fa808d4 drm/amdgpu: Fix UVD decode image min size calculation
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1f20aa2ca04-28a5f45adeaa.txt
+Content-Disposition: attachment; filename=revlist-28a5f45adeaa-8087dc0c7c97.txt
 
-7c865fa44cfd6813fe8381ab3ed2f5b095d45b68 block: stop the timeout timer when releasing a never added disk
-0fbaf54c6625c9f5f939a32744d2ffa835ebe699 kernel/user: Allow user_struct::locked_vm to be usable for iommufd
-3a1b62986cc21e7c05a201d60453ccc94d9ac095 KVM: s390: pci: Fix memory accounting for pinned/unpinned pages
-9b33e71138ff4ba0fa252e2e1f758ad6c6776e51 KVM: s390: pci: Fix missing error codes and memory unaccounting
-7d0825019baa6f4c4858a06c0c66a8a248da9143 KVM: s390: pci: Fix resource leak on IRQ registration failure
-64d9e05f5db1eff42fe40081cbb56225f61d0fe2 KVM: s390: pci: Fix aisb calculation
-8e5c59376d976fc844c839043c904bb0b0b50396 f2fs: fix UAF issue in f2fs_merge_page_bio()
-a6c45f81d0e0c2edca44fb7f263fddf75e956d07 fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
-c0e25354e70cf224cdbf35e605fbcee5902f611a ipvs: separate destination availability state
-6f7634c348e847a4306bb0b65b508afa0142b0dc selinux: require every boolean value to be defined
-f0a1cac6ee05b215cdef781e2c1076eaeed5f4a0 selinux: reject a class permission count below its inherited common
-be3f6ad754162fde155482b15c158a1f24c132ce selinux: do not cancel a policy conversion that never started
-d5d9f735e6506376c40cd06a2d1cf6e383a87f45 selftests: mptcp: join: mark tests with data corruption as failed
-8dd69d3642f89324f73d9c6f92edfc58e6e9a334 mptcp: options: reset DSS fields in case of unexpected size
-b09c3a339e3ce52fce2fc8b2a23dbb05f1de6eaa s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-292e998282b33a55951d80b82d80899089b7e06a ASoC: cs4265: sort the register default table
-5c14887c3a0c03ad873cbed192bc037edcb30d2f ASoC: cs35l41: sort the register default table
-2b09be2c2fa7b9d0608f8fb4b58c1922255cd240 ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
-3f7429363910097d0a97691d7a7284e570f89977 powerpc/pseries: pci - logic bug
-e129905eeff8fe1b89aaca77fb6e2486c17efd6a Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-f7c5e3002661d0f649916b67d2f3e0de81876f48 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-c12ca1e25705b8405be8689ab066b5669d3e7017 Input: psxpad-spi - set driver data before use
-f4c1aecb55ffb587e6e6bbe9bba465df94550685 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-9524781f7340a24c7c494bd916c391ed04d767ce Input: iforce - validate input packet lengths
-cdbab6f7e2eea5508ea4f1a9ecec004d4b59d606 powerpc/pseries: lparcfg - fix kbuf[] underflow
-03fc23672affb65a7bc34f40b37febd022a15d83 Input: synaptics-rmi4 - zero report size on F54 work error
-48c343b54152d1159243b9f73a84e0621ad39b5b Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-237fd9601005149e52c4c61d911edcbb233df1f0 Input: synaptics-rmi4 - block s_input when F54 queue is busy
-3438870fb4425d62f877392c10a8f71f4d534529 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-01933fa27cc2b0655fd1de046225c0aa01bb174a crypto: qce - fix error path in devm_qce_register_algs
-60744459d10ab429030b8304f9e657b0d2699e0e libceph: fix multiple unsafe decodes in decode_locker()
-f6063f616888e1b40e3aa283a31a2ca8dacfc2fe ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-48c7bcda95dbf28563598567754c447322e63bca openrisc: signal: do not restore privileged SR bits on sigreturn
-61685059eade73748fe8d4a7a65bedfa4d586ddc Input: sur40 - fix input device registration ordering
-34c62b1ea179f75ca6dc2dd8a2e23ebe0e2311a4 Input: sur40 - fix V4L error path cleanup
-9d8843cfd6094abb2a68d354ea6faf36c65a604c libceph: Avoid using invalid osd indices from primary_temp
-5a6027e8bc4bbddaaa96188245c7a95b4f8685ef ceph: fix MDS random selection readiness predicate
-44dd8f4e6d9f7676b4d054e749829f9cba189c1b libceph: tolerate addrvecs with multiple entries of the same type
-accb3c1f7e52e48a95fe933f28676b00a0d4ba7d mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-ebeeb1401259d392e24079b3efa9d757190961fb mmc: sdhci: unmap the bounce buffer before device release
-73b929974a655f2c1f55158c47f87a5158886b8c mmc: sdhci: make tuning_err a signed int
-77a6fffdc2c54421b5202737b0f979b43123be8b mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-629d71fea844d27d3e09c0f7c180cbef5994c21e drm/radeon: fix autosuspend cleanup during teardown
-aad47eb20c23d7d37d30a12430791ab399af5cc4 s390/vfio_ccw: Ensure index for read/write regions are within range
-99c1af3c652280913a2ab5825db3681092ace19f s390/vfio_ccw: Fix out of bounds check on CCW array
-b39ecd255a8a3484491aa102c1a3d0fc2b87f6b7 drm/amdgpu: Reject UVD message with invalid number of h265 refs
-280aa09607ed59dc65cffafb5d697118a70a76a9 drm/amdgpu: validate GEM_CREATE domain combinations
-bba201ffbca1337bb7e095f7df362d8676dc4880 drm/amdgpu: Reject UVD message with dimensions above 4096
-df292950bb14c6a2cf296628b0e632218132cfc3 drm/amdgpu: Implement insert_end for VCE 3
-28a5f45adeaacf50e2810e1010d628982cc5bfd9 drm/amdgpu: Fix UVD decode image min size calculation
+0fba637e1458901ec04ff6d2ffe6c299a5256676 block: stop the timeout timer when releasing a never added disk
+d8f2826d1fef70d6e0786975ec0f090f49c6e4f5 kernel/user: Allow user_struct::locked_vm to be usable for iommufd
+b39f9cf29304822007bb235b7f713b264cf93839 KVM: s390: pci: Fix memory accounting for pinned/unpinned pages
+f9f4e5dd8f6c634f3549e76f2edc1c6fc72d9333 KVM: s390: pci: Fix missing error codes and memory unaccounting
+b21d70029f452a6940c8e74bc4ce4b8d19f733f0 KVM: s390: pci: Fix resource leak on IRQ registration failure
+40bc575aeefa6552c295c57599bacdb461dc588f KVM: s390: pci: Fix aisb calculation
+86ca484e71bd6770466d5d34975a35a581aca7d9 f2fs: fix UAF issue in f2fs_merge_page_bio()
+c470a13eaa51103b076e37a20cac815b49d104e0 fscrypt: use the mount idmap for the owner check in fscrypt_ioctl_set_policy()
+6a3029d21ae0b127c609cd25e27817cb744c6d78 ipvs: separate destination availability state
+f74a9b6f8394d17d8ac7c001135dfab14e4b0cb0 selinux: require every boolean value to be defined
+ed5b2d5c61471bd424134e462650c7c93cec88f0 selinux: reject a class permission count below its inherited common
+5a12644d09ba9cb299f8fec0a0ccefd12bcc2158 selinux: do not cancel a policy conversion that never started
+09c55b4172f516c8571ffd1b37ede89d76c0428c selftests: mptcp: join: mark tests with data corruption as failed
+47238b29a4f616e91dff414cd1620d58243e4500 mptcp: options: reset DSS fields in case of unexpected size
+64e045f7835a76a2180b75d3ca434f33559f0630 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+b599c4c41f8b7ec77f9f9ca0e342e42e1baa8394 ASoC: cs4265: sort the register default table
+5774b7d08272b79a7db8f2f43b9f59f83b1b1d30 ASoC: cs35l41: sort the register default table
+5cf491d020d335dbc69ac85abd84d54a37177c4e ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
+ae5aacc9bd4d7c12941f25aa9b48d217dbdef834 powerpc/pseries: pci - logic bug
+ba6afbf60e739b0ba23ff2aecf3362863230735c Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+10214d3a91bc8411e8ccc417b20ee621895eedfa Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+aa5f870caa6abe9c5fc955d9c3e686be831b8718 Input: psxpad-spi - set driver data before use
+32314fe93c0d4489f4e8e5bdee8cf684140ae96b Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+7fa22b4586d697168e4a87c73e488ea9a9e97987 Input: iforce - validate input packet lengths
+9b833fd8df2935cac478d63fc5654079592ce451 powerpc/pseries: lparcfg - fix kbuf[] underflow
+c950a0b9e6947e8099fb59488dbc8b20fe570d2b Input: synaptics-rmi4 - zero report size on F54 work error
+fe5d609e38fbcf2177ed59925d69a3b1ed038488 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+d9c6288cebbb6ebcca925a5b1fc69540a329c895 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+a741725dd6b673496cb1558d9556d83c3047011c Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+57f89caba881c792163087d4422b20433becc456 crypto: qce - fix error path in devm_qce_register_algs
+3e1cbcb94ba441884bbf465e5d3010ed7f8ac9db libceph: fix multiple unsafe decodes in decode_locker()
+141da415c4c60fdb7be0e0c189c8a9139952b568 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+11c7cd128f32d207ae8a39363e8fd0427ba49465 openrisc: signal: do not restore privileged SR bits on sigreturn
+ba4e4be18434bfba525d408606106478f5b86dd5 Input: sur40 - fix input device registration ordering
+be216d5a15cab86811753b0e5e1bc3fbc3ed1155 Input: sur40 - fix V4L error path cleanup
+cd139b8fc65e70cbde359a647920ea6400701f5b libceph: Avoid using invalid osd indices from primary_temp
+66faef66e0e8a45885de63546517c630bd4e914e ceph: fix MDS random selection readiness predicate
+d6d90abf3a512aa473a24ff1d5d28c5d1703ed55 libceph: tolerate addrvecs with multiple entries of the same type
+8e4d43eee5cd23ebee07882c388fae3e32d0e664 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+dc697b76fbbe24736a66446b1dc3c3e4443d2abc mmc: sdhci: unmap the bounce buffer before device release
+1656adae346ce62fe096071daef4c5e86529c7d3 mmc: sdhci: make tuning_err a signed int
+2a48627373d10274dbaf1e668e63725d8ee2e329 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+fdf6081f0da1574e46ac1d8ad6e341a8ded980fe drm/radeon: fix autosuspend cleanup during teardown
+a4ad167331a3186e6a790e8218be698a8128eec4 s390/vfio_ccw: Ensure index for read/write regions are within range
+dd9098ddade0be9b8916462fb79c45ff52f665d6 s390/vfio_ccw: Fix out of bounds check on CCW array
+eb200ab2b3db343ee60dc6e1ba71325609ef091f drm/amdgpu: Reject UVD message with invalid number of h265 refs
+2e797e8db5ac357257ab1125033a7ff5c02f4a2d drm/amdgpu: validate GEM_CREATE domain combinations
+a4ba3f3ebe6c6cb504b76531ec337d6aef872b2c drm/amdgpu: Reject UVD message with dimensions above 4096
+20633646acba04cd18e35bcb96af135d789271c9 drm/amdgpu: Implement insert_end for VCE 3
+8087dc0c7c970da6c8ef94a5ec908e710550414e drm/amdgpu: Fix UVD decode image min size calculation
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-814e915b3c81-5f84366224f0.txt
+Content-Disposition: attachment; filename=revlist-5f84366224f0-f6faaf4c7ac3.txt
 
-11f0945217081d97ad66a079d277b311d959b9f9 block: stop the timeout timer when releasing a never added disk
-2468ff330320f654afa1753a1a6cdea806cb68ae bpf: Fix linked reg delta tracking when src_reg == dst_reg
-e67240de3d5986d32738149b598e1393576abe6e bpf: Clear delta when clearing reg id for non-{add,sub} ops
-a627e3c8d7b501e5476840099f45aff188e76e4a selftests/bpf: Add tests for delta tracking when src_reg == dst_reg
-dfcaf069aab16e76014ec1829d74a090b81e17c3 selftests/bpf: Add tests for stale delta leaking through id reassignment
-38dfacac40638b69d10ff8b7197ff3b711b8186e f2fs: fix UAF issue in f2fs_merge_page_bio()
-5d3948b1da4227816ec8d6d3f4754d58accc8eb2 mtd: ubi: skip programming unused bits in ubi headers
-0f34be9c3c596a0e931ae9ef944672fed788b001 ubi: fastmap: fix ubi->fm memory leak
-2fafae3f3f491f70c9f260b2c110981faba6fa5b mm/damon/ops-common: putback folios on invalid migrate nid
-332ef9cc80f60d27f7422dd1b28a0c0e702a086c mm/damon: adjust isolated pages stat for DAMOS_MIGRATE_{HOT,COLD}
-15ee397eb67faf0acdd2f9e1e2c0de79f6cd56a7 igc: fix netdev not re-attached after resume if interface is down
-58be732d0628d68c9c6290f520201e9e6fbc32aa ipvs: separate destination availability state
-0d434a298f608f477dc4f0b496951f8365a45b0d net: mana: Fix EQ leak in mana_remove on NULL port
-7edba0ac16a1822f9048b5efcf2ac5c1cd0d5dcc crypto: ccp: Add external API interface for PSP module initialization
-55d96a46a0acef48b31277c0cf2166a8b11aa0b1 KVM: SVM: Ensure PSP module is initialized if KVM module is built-in
-6f92d14b88f335aec3846350554949d23e5d0f59 selinux: require every boolean value to be defined
-019578efe5e2e1434ba2fe74c055494116317659 selinux: reject a class permission count below its inherited common
-00495a2c17fbf1cc511d84115514f3a0e66fd6ba selinux: do not cancel a policy conversion that never started
-57bec8002185e2b88d08dd30a97a585d15a6ae1a selinux: reject an unclaimed class value in security_get_classes()
-9079ee080ebe82c4a263d4af52d440707ca3e707 selftests: mptcp: join: mark tests with data corruption as failed
-b3f500805b560dcacbf93f0af532b7e12e582d70 mptcp: avoid combining some incoming suboptions
-e73fe82ccbe916433788a140dda71b59ce20596e mptcp: options: reset DSS fields in case of unexpected size
-3a2f19583820c383096fc41965af707dcd5c0aeb mptcp: fastopen: only mark MPTFO subflows with SYN data
-8f94419b97f680398a9226c8760621cb8ca9b8b7 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-2de1dab28cec877bfbbe1544df53d138d16a03f7 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
-d3f264b43c0c313b0b0d4fe869ef593562c14cea ASoC: cs4265: sort the register default table
-dbaab95874cf1b77c3ed47475af33d78a8df3a84 ASoC: cs35l45: sort the register default table
-c58f69205e00a4d6098627ca8776729e439fa648 ASoC: cs35l41: sort the register default table
-8a8756fa74f4768ef0f121476f8b5b454f7e8284 ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
-ad5844ded6df2d1471a8bd79421124048ab06d36 fbdev: core: Fix pointer desynchronization in fb_io_read()
-d679758af94efc96aaff84474a4036f2904388a0 drm/panthor: skip zero-sized firmware sections
-b5dae17c355c63094cf48644daf66b9d734e0857 drm/amdgpu: reject oversized IBs with per-ring packet limits
-757ec87e2e97dfc1d3b1ed9f19fec340bac87939 drm/amdgpu: read TRUNCATE_COORD_MODE on gfx12
-ffab857a70458a858099313ba94284e2981ea52c drm/amdgpu: fix aperture iounmap skipped on device removal
-b9d8981610d6a6511fc488af7017ce92c7c66943 ASoC: SOF: topology: Use acpi mach from the machine driver
-2a5e905e14767518f6fa137d7f3008e892fe8a5f Input: xpad - add support for ZENAIM LEVERLESS
-27761c77ec0f7c623339c1f63ed32fb83bed2f36 Input: cs40l50-vibra - validate custom data from user space
-8036f4f761575be615e4e90aecbeba38031f14a2 powerpc/pseries: pci - logic bug
-e6094887228e441bb94878af6306330d63cf3706 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-074866812422c1d475274e60b3ad6aeaccd2d9e9 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-3c72d107e9282b15b610c356b2fce7e6dd0809f5 Input: psxpad-spi - set driver data before use
-9deec26c99c8d58ceb5f8db7fde92acc7feaece3 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-aaf2c2692e6c76a8aebca74deaf42a9981df21ab Input: iforce - validate input packet lengths
-2378d36684beb867ff6c8f9bac4c07d3af4dfd30 powerpc/pseries: lparcfg - fix kbuf[] underflow
-bc7e2af98fef94484816edea6da4f32f1362ae0c Input: synaptics-rmi4 - zero report size on F54 work error
-2705db7f7e3ae84e2bd3136d19a5a92d91dbc072 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-a099d8384a5993bca23d39573a240d13034ed862 Input: synaptics-rmi4 - block s_input when F54 queue is busy
-2e623245b0830a45cbf0dff32b4a147ebbba0f2f Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-7359f5f97673b83de6119219eee8bcbd7b85903f Input: hynitron_cstxxx - validate touch count and finger IDs
-5ca7d21bb18b1490ad9055c66af90cab8f705b5d crypto: starfive - use scatterlist length before DMA mapping
-597600c81c78bd597b1ff83fd7134d37558aabdd crypto: qce - fix error path in devm_qce_register_algs
-319ae9e901322b4cbdc65d4ee06952fa57681d50 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
-c04858b6e784cb05d8b8ed6406154c38ea919f77 pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
-04c3bfd83790431bbf0a25e1ca78f6132be4f625 libceph: fix multiple unsafe decodes in decode_locker()
-0c0f0721362df82521cf1a1887f2825e97f4ff18 ftrace: Protect direct_functions in ftrace_find_rec_direct
-694977cc83ce74a271edb93fe03a76d96e81f971 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-8f1b26f365eaa5ccbc33dc63367c3c02285ddfb6 openrisc: signal: do not restore privileged SR bits on sigreturn
-82ba534f8d06219c90971a5632be8978738dee09 Input: sur40 - fix input device registration ordering
-294f2758ae99a9ce1d8e02034b7fbaeb36ee6d60 Input: sur40 - fix V4L error path cleanup
-6e09edacd86057cafb481e5e324be4fb381c626e libceph: Avoid using invalid osd indices from primary_temp
-fec6242e759ac11686914d6c3abd06bafdb3cbb3 ceph: fix MDS random selection readiness predicate
-bba0dd607339bbdd4ad20e1ac5165836dffca6d0 libceph: tolerate addrvecs with multiple entries of the same type
-ca7565648b757d42a0f7e6a050b4170dfdb021d3 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-250c01546b1d3073a8ba60e16ae028cadc46f78b mmc: sdhci: unmap the bounce buffer before device release
-9c0b5975d1d781947284b3d87c7c6feaf499cd17 mmc: sdhci: make tuning_err a signed int
-a83557b077a75301363a8427a30d683e43c45fcc mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-42c442749496afdf8249bf5094b565e1a36ccee0 drm/connector/hdmi: Fix out of bounds memory read
-9601d972f7cdfaf43d940dd87f4e597801a5e26a drm/xe: Order ring writes before ring tail updates
-27fa642be19d7603ae608b53a35d7e925eda11a6 drm/radeon: fix autosuspend cleanup during teardown
-867d023a214d2fa4aff1fb2ee41b88b469fa8b0a s390/vfio_ccw: Free all memory if cp_init() fails
-2ec53c7dd73f6f27d0ed0e90da0337491fa19c59 s390/vfio_ccw: Limit the number of channel program segments
-ac56648e3431fa3c8bfa133779baec65534133bf s390/vfio_ccw: Cancel existing workqueues
-8d2e96ecd8edd6bda398efc7245da7da007d70c1 s390/vfio_ccw: Ensure index for read/write regions are within range
-79b49b17fa267d7d72078efc51a0ec38bee3e367 s390/vfio_ccw: Ensure first IDAW remains constant
-6ec4f5515b596983bcc3e7731f02d5997cec6537 s390/vfio_ccw: Fix out of bounds check on CCW array
-c3728a308a59bcee88c9ca59d51de3d39d1259d8 s390/vfio_ccw: Move cp cleanup out of not operational
-6483365afc589953e14e9f4544970b285de5fc8f s390/vfio_ccw: Selectively expand io_mutex
-3fba492f77a256eed06a956d7897bf85286d3543 s390/vfio_ccw: Calculate idal length based on idaw type
-a718da4ec77118a15d992b237c23a23aa5c119d9 s390/vfio_ccw: Implement a crw lock
-a2d56d58fdcfc60d291beaee95cc23c90ecf2c98 drm/amd/display: fix BT.2020 YCbCr limited output CSC matrix
-dcf704fcd703bcba16d577c78e866f76a3d17912 drm/amd/display: fix BT.2020 YCbCr output CSC matrices for DCE
-a47b018631cd828e61b550aa9c61432dc7a313ec drm/amdgpu: Reject UVD message with invalid number of h265 refs
-95d739a174bf7db4e4cbde4f54c793ddebfd88c3 drm/amdgpu: fix nbif 6.3.1 l1 low power not functional
-ad83c32d1dfad7d63d5027afecaa8bf1a8b8654a drm/amdgpu: check ASPM on the dGPU host link
-fe9ea9e29688d4cbfe675483d9754d4cd4b2424f drm/amdgpu: validate GEM_CREATE domain combinations
-3af025aef7f4d91c4cc435b635827217d3a513b6 drm/amdgpu: Reject UVD message with dimensions above 4096
-5c99b6d421f783b3342f4a6e0b18eea44944be8d drm/amdgpu: Implement insert_end for VCE 3
-51f2e1dc7a369479c6fc7ecf71e7aadd49ce71f7 drm/amdgpu: Fix UVD min buffer sizes
-2a85acaf90fdcdb296622761a43e131c386755f0 drm/amdgpu: Fix UVD dpb min size calculation for H264
-e3e33cbd4656def6ab0e83b8c171f04057ee2752 drm/amdgpu: Fix UVD decode image min size calculation
-5f84366224f0f7a99b263d76cc801dcf32f5df9d drm/amdgpu: disallow multiple FENCE chunks in one submit
+214fb9ef3fa1236eb6f6386733a76af81fea63b0 block: stop the timeout timer when releasing a never added disk
+baa1f0da49dbc7b6a9261cef934042865f4dcf1e bpf: Fix linked reg delta tracking when src_reg == dst_reg
+e6dd735381fc9f1135f7e1390d37fee90ba33f2a bpf: Clear delta when clearing reg id for non-{add,sub} ops
+d3c28879c0d73874ff46cbb8b848ededfa3bc286 selftests/bpf: Add tests for delta tracking when src_reg == dst_reg
+8e3111d712b3bfecc742f7b42766f140d08d92c1 selftests/bpf: Add tests for stale delta leaking through id reassignment
+b59175cc3121035c87677d9e983c65a2ff959f13 f2fs: fix UAF issue in f2fs_merge_page_bio()
+12c034a4cccc80420130dcf380dedda8a86fc117 mtd: ubi: skip programming unused bits in ubi headers
+c8683008f3d0b1378cc206402df4c791faaf89de ubi: fastmap: fix ubi->fm memory leak
+86a568e139cde7a3545670198e4e301d91e30217 mm/damon/ops-common: putback folios on invalid migrate nid
+6f94ca0a46cc20337030ee5edb66790c889e44c8 mm/damon: adjust isolated pages stat for DAMOS_MIGRATE_{HOT,COLD}
+99e87f76114ddb9a79094a7bce29ad680607428d igc: fix netdev not re-attached after resume if interface is down
+f200050dd79574d8cf31128a922a785daf94d3a3 ipvs: separate destination availability state
+35aa4b1870f6dd4536e36dcb0fb514dc301fbc06 net: mana: Fix EQ leak in mana_remove on NULL port
+0780742af04fb614d8b677432c8ea25f39df9165 crypto: ccp: Add external API interface for PSP module initialization
+7caf543bc8dbf34584b0162b0a3694708cb208d7 KVM: SVM: Ensure PSP module is initialized if KVM module is built-in
+8971556ed35ca2dc49f3764f8f305dd1b00f62ca selinux: require every boolean value to be defined
+ce77e31bb9ea5fcaad97e5cd0d8bd8eed0c36e15 selinux: reject a class permission count below its inherited common
+560bb752250a0f8cf23332f8ec397f122b455abe selinux: do not cancel a policy conversion that never started
+b338d9705adf640f6b5a888fc6ce3faa66d4ad71 selinux: reject an unclaimed class value in security_get_classes()
+377b75fe576e9e7605653ff5ed07700a9ebcfbea selftests: mptcp: join: mark tests with data corruption as failed
+8ea1290651b839cd3e9e6808d8edcc46ab6fa511 mptcp: avoid combining some incoming suboptions
+815f3928f9c57153d5444d81a234411b07cce534 mptcp: options: reset DSS fields in case of unexpected size
+574ba9197489bcacb8243e45534db20aa277e0a3 mptcp: fastopen: only mark MPTFO subflows with SYN data
+95da0bcb841b6d34923abdcc7bfb75ad49cf01cc s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+84d5defc0fcd770138346881a878e99dda2a0ffe ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
+268593f9386d814245d451ca4e59cf972b304bb2 ASoC: cs4265: sort the register default table
+7658e5d5204fb7e845ef334b74da5bdd6f38ed97 ASoC: cs35l45: sort the register default table
+075857c862c2e43ec8d2be5d803d95072980d70b ASoC: cs35l41: sort the register default table
+304280f2f2633b30c99fab94e053207b1a1b465d ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
+b85f0429cab91e02401ee4edba549dd3a2990889 fbdev: core: Fix pointer desynchronization in fb_io_read()
+7f4c20a991cf6bd0766248cbebd53925557d503a drm/panthor: skip zero-sized firmware sections
+fc018edba3f4fffb241c2bcc21420e03b7a49da7 drm/amdgpu: reject oversized IBs with per-ring packet limits
+95380a8676f498ca751a1bfcf71ea6708b43db89 drm/amdgpu: read TRUNCATE_COORD_MODE on gfx12
+ac5f6175c03d01d52871b63180a2cd1edda858cc drm/amdgpu: fix aperture iounmap skipped on device removal
+5b5615aa43445f940d66a57ce124b2364e91b21d ASoC: SOF: topology: Use acpi mach from the machine driver
+4b41e98e21bc4da4b1193b4b6e5de5204cd949e4 Input: xpad - add support for ZENAIM LEVERLESS
+2ee7cb53cf42b437f5bf80dd3621ff6918e6808a Input: cs40l50-vibra - validate custom data from user space
+b1e4de1dc6f33f4e83978322c275f9c3ff1150ac powerpc/pseries: pci - logic bug
+253c1c2edf520cda1c87a1f6eb7ecd260357dedc Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+59e50c55ee97fb37081a045fbb3b3ece27e8f6ad Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+43505220ea71f64c72d44ad038dcdb9d412b29cd Input: psxpad-spi - set driver data before use
+eeb84419c8d20fd9db82abece6e25a3d98dbcc95 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+4f091fcc7cd9c3f5c47c1f451af444e2b77f9567 Input: iforce - validate input packet lengths
+5ccdb17d80959902da2c332dd1a3efad7abd0bc0 powerpc/pseries: lparcfg - fix kbuf[] underflow
+051869d7324a75238f0e7c3d31349ba05daa4e74 Input: synaptics-rmi4 - zero report size on F54 work error
+3e12bc8ee41d5d9683b281fd349497d53da7a845 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+8d378815640e55f2d1bd9d30532b944bdfa37984 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+f51f008dc9d9f833afb015e55253704c84dd38f1 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+c0b6eb02256f6c7b95842622d577bc43e8743b58 Input: hynitron_cstxxx - validate touch count and finger IDs
+8b967d7e32b6ab48ceb09d74ccd2b521c53ebee0 crypto: starfive - use scatterlist length before DMA mapping
+b432a780aa3f86eb93450ac8f7ba7eded53c6806 crypto: qce - fix error path in devm_qce_register_algs
+f8ae0ffedd7b90b36bad7a37f485d6ef64b31978 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
+0897a0ff9cb825e05f0c3366f553b8108d1ab9d8 pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
+b1806d60f6c11169e62314cbfa5ff742f11b54f6 libceph: fix multiple unsafe decodes in decode_locker()
+e7b0ee22dfe877ddfd26c22057f2b9cd75e8e05e ftrace: Protect direct_functions in ftrace_find_rec_direct
+fdf8a7223777cc1186c82346566d323933045146 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+b389513e42b04d55bcbfbab42f92a9989ea75e2c openrisc: signal: do not restore privileged SR bits on sigreturn
+7f4d02f51839ff574737af561fea638706e0f295 Input: sur40 - fix input device registration ordering
+f5274bb07934242e55d5fb663e1e384decb51880 Input: sur40 - fix V4L error path cleanup
+5c78acf464e1bb9ee6c11bb4a80a7ec937e35fc8 libceph: Avoid using invalid osd indices from primary_temp
+3a0b88e11e912040f438dea50d232d2e58e4ae04 ceph: fix MDS random selection readiness predicate
+62c46c33b8a35d186f07bb4fc5007732279fba95 libceph: tolerate addrvecs with multiple entries of the same type
+6e0e2ff2499e130072792e563b9b6ee5429f19a7 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+f887fb595af702f6ecb609ceeec60ed16e906a8d mmc: sdhci: unmap the bounce buffer before device release
+88d636eb1599549b40fbf2dd213258b9b258ae79 mmc: sdhci: make tuning_err a signed int
+f2b830d5ba2161ca009b7d8c05d17845f7bc0c05 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+421d9ede2d89eb53acacbad3dc23c12b3e65d4bf drm/connector/hdmi: Fix out of bounds memory read
+aac1fd7b9255ee75cce0b033598884f20d51bda1 drm/xe: Order ring writes before ring tail updates
+14afe2768d26f6f8eb06ad79b0e5d232dd27f8df drm/radeon: fix autosuspend cleanup during teardown
+87ec8ad4a901f5591f2e1288ad463fbfe208740a s390/vfio_ccw: Free all memory if cp_init() fails
+227b4d7363bb44f200739f5df0025528b75c9e2a s390/vfio_ccw: Limit the number of channel program segments
+5b938ab09a6e90b713eb266f9bd1d77052b8713b s390/vfio_ccw: Cancel existing workqueues
+93e16789d3e9f948ab5f15126199929e15e74d0f s390/vfio_ccw: Ensure index for read/write regions are within range
+182a2e09703af2daa5ec41bb509b2515b223d81f s390/vfio_ccw: Ensure first IDAW remains constant
+44943920beeab066ce14e7f0caebadb4ed5e1fba s390/vfio_ccw: Fix out of bounds check on CCW array
+8d63e9cd614cb674afa3d41890e87baed8d5655a s390/vfio_ccw: Move cp cleanup out of not operational
+fbd6873c9c3b163a5f96d9c43df7a597026fab7d s390/vfio_ccw: Selectively expand io_mutex
+fd8a1f3caf5f63dccd81a760ed655f19021f5848 s390/vfio_ccw: Calculate idal length based on idaw type
+270cb459ad1a9605564f497e0216693e08de08ef s390/vfio_ccw: Implement a crw lock
+03df194a734946971c612314a8c674383fadcc3f drm/amd/display: fix BT.2020 YCbCr limited output CSC matrix
+8d27cc6ea727e450ee72486edd94455df2b71bd5 drm/amd/display: fix BT.2020 YCbCr output CSC matrices for DCE
+ba0cd4526942b786bac1ec52fcf9b5a57fd2c239 drm/amdgpu: Reject UVD message with invalid number of h265 refs
+fb36d1af329b0f86678eb10a55d9c79a3e63f80b drm/amdgpu: fix nbif 6.3.1 l1 low power not functional
+a32d86c12bc2f99044aa6b4019b04cf6581f6d3e drm/amdgpu: check ASPM on the dGPU host link
+073c580d59ef6b956047d94c027c129cac90d785 drm/amdgpu: validate GEM_CREATE domain combinations
+b25d3b930422bdb7cbdb6ef71ecd4ac97912bcd9 drm/amdgpu: Reject UVD message with dimensions above 4096
+3a2880fccdd1a6fae6d7a21bc3c7390c1d3e6f8f drm/amdgpu: Implement insert_end for VCE 3
+3ca18b2f0100c79459f721c7ee41153f85c52eb3 drm/amdgpu: Fix UVD min buffer sizes
+863d589964c8841f64d7e6cdb8135771de1714c2 drm/amdgpu: Fix UVD dpb min size calculation for H264
+37e01cdcccdc877b80c782e80f36833db0f997cb drm/amdgpu: Fix UVD decode image min size calculation
+f6faaf4c7ac3d4afe04a935e77abb342e10e3b0e drm/amdgpu: disallow multiple FENCE chunks in one submit
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5600100a208-b2a021a663a9.txt
+Content-Disposition: attachment; filename=revlist-b2a021a663a9-95277d67a2d3.txt
 
-3785880d7084d80c3134b1ed33f23a450019dee9 ALSA: hda/realtek: Add quirk for HP Dragonfly Folio G3 2-in-1 (103c:8a05)
-0c6c716869902d177a50558d184fc05f35092dbc block: stop the timeout timer when releasing a never added disk
-bc0cbb53f48bd257527e66dcdc5e6de02d46399e mtd: ubi: skip programming unused bits in ubi headers
-114e57a0c69d68b7400cbc590b147b4332fdb8c7 ubi: fastmap: fix ubi->fm memory leak
-18d09bb313b2adba69d29e50aa3c3fe94795323c ipvs: separate destination availability state
-9bae39b36220aadfd4cf3bc6e6193c40acfb2475 selinux: require every boolean value to be defined
-fed056286e733ce44d636278b8167666b2e9232c selinux: reject a class permission count below its inherited common
-013c74656b5e4c44ad00afd117a3122100463e0e selinux: do not cancel a policy conversion that never started
-67cc1193a494aaa1d805ff513731b77cbca2799d selinux: reject an unclaimed class value in security_get_classes()
-08d27e210455a4674085ae2812594a169b820ed8 selinux: reject a permission value exceeding the class permission count
-bdd40e2d336bff2516df89a9c72b918d0e2f8741 mptcp: reclaim forward-allocated memory on RX path errors
-71e2e9fd7dcda16c8153cb88d797b1714c2a3e44 selftests: mptcp: join: mark tests with data corruption as failed
-b4262ef727a965598232ae064ef0daff2adfafb3 mptcp: avoid combining some incoming suboptions
-24f2e5bb5ae68f5271422d81733a208d3d4ebac3 mptcp: options: reset DSS fields in case of unexpected size
-710d15ed7a5037b952f8fd37298812fabdb5394c mptcp: pm: fix data race in add_addr timer callback
-653b8ae7fca302635789210048c57eae38cd978e mptcp: fastopen: only mark MPTFO subflows with SYN data
-c135be74e843715b597ad7eef29e5dd0c3ee7b2e s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-7817dcc5cbf79c9ae21ce6490866a78aa3e2ed39 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
-88173d1f80d1a850a7575314984c389f1f2b5fd1 ASoC: SOF: ipc4-pcm: Continue the pipeline trigger in case of IPC timeout
-0d4a190f650288dafda9005281aa14de80b765e2 ASoC: cs4265: sort the register default table
-93caf4a16d3a1c576b7d24762147fe48d9c8aefc ASoC: cs35l45: sort the register default table
-2e54460bd5a2fc402bdb604f4c1be735b813d610 ASoC: cs35l41: sort the register default table
-f8e19caa614714494db7cb45a10dfd7d4a92d50a ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
-9ab4ed590d7c3ac0a677c915f52945a3d3507b10 fbdev: core: Fix pointer desynchronization in fb_io_read()
-a758f2291bb0377300addf41450f3416aefc0e90 drm/panthor: skip zero-sized firmware sections
-70e38ec50ba4040600d5b4195db0bfe35cc3f86e drm/amdgpu: reject oversized IBs with per-ring packet limits
-e6cd56f175817319d9e2473f16d59f3495ee0fb6 drm/amdgpu: read TRUNCATE_COORD_MODE on gfx12
-a9badba23b3bc5f5878d71063068670438ed815b drm/amdgpu: fix JPEG v5.0.0 queue reset failure in DPG mode
-acecc1c075879fcc055af49c3dcfba791e027481 drm/amdgpu: fix JPEG v4.0.5 queue reset failure in DPG mode
-872c2fc9721331335e9a83f308a65177107632ad drm/amdgpu: fix aperture iounmap skipped on device removal
-d81652ab4cb68e111ba537e4778d67c26fd64a75 ASoC: SOF: topology: Use acpi mach from the machine driver
-d2a079c5437a86b099d30bb261e0cedaf643a94e Input: xpad - add support for ZENAIM LEVERLESS
-0cd10bb203763cbafb5459a3ebe0f7a487d7ab9f Input: cs40l50-vibra - validate custom data from user space
-e63ca07c4ae8847a59e95dabbcd89acb41f93591 powerpc/pseries: pci - logic bug
-a36796fdf098fd73e7d6c0ca4d069dd4842803e7 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-394cc90d54e923868d627eb46e068c732ebcf3ee Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-14468f288c6e07c407c2fc5d8d091442c1302ad8 Input: psxpad-spi - set driver data before use
-4877b84ba84a462490fad2305a537fcd5f4054d0 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-5822f6075eeb011854d4909817865b9aceb0c89f Input: iforce - validate input packet lengths
-9c51edf46d7df597ca06c039be48fc95de7baa83 Input: byd - synchronize timer deletion before freeing private data
-d1c81f0620f56203f53917643aa5957c45532b62 powerpc/pseries: lparcfg - fix kbuf[] underflow
-68dbe9801a2ed04ec7bff60933a5d168d32fe776 powerpc/pseries: papr-phy-attest - validate cmd.length, plug mem leak
-b094d23f384d075bf1adf3e08d4ae49ba7f56c82 Input: synaptics-rmi4 - zero report size on F54 work error
-d33da59d56ff33d2c497e9277c5a058fa4f22aa8 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-232b7227133467aeb1207ff922f61e2ed1afa6cb Input: synaptics-rmi4 - block s_input when F54 queue is busy
-66e8d3716d7063fc42f5206f6e924e964ec22e5b Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-58c694559b3f1f8c8c7ce74771b2c3fb1f6c7653 Input: hynitron_cstxxx - validate touch count and finger IDs
-e6bec9b3c4689e8a0e15601347dadc3fbeda4cfd crypto: starfive - use scatterlist length before DMA mapping
-9c728a96ca2cf3871eb7ac793f8658a4bc43fc9d crypto: qce - fix error path in devm_qce_register_algs
-2044ea1f726f837e5a42340d385835c420d86435 gve: fix NULL dereference due to missing ptp adjfine
-c5e63b0d08861701b8b2c8fab4d7668ab7c3fd97 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
-7e6a5d491c4647c2feab0c742b38e0edd1a4df44 selftests/ftrace: Convert ELF entry point to file offset in uprobe test
-6c84f81dc87e2ee19ea05040f1da68ddec0faf2f gve: fix zero-length skb frag with header-split
-bbac387dd8f3e3618664fbfdd4502b603820c0db gpio: ml-ioh: use raw_spinlock_t for the register lock
-c955b07b015a6849733c4a37d11162df8f0945b6 pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
-eb746c054d371d5f7801679fc0b38fd0e22412ee libceph: fix multiple unsafe decodes in decode_locker()
-4b7176ca373d1f1c5d630826d1222b9117df0943 ftrace: Protect direct_functions in ftrace_find_rec_direct
-ac9dc6b8577d94fa7059217b383c482f72156e9c ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-dfe1f1b035918e7a300c02ba9fb90766b51f9acc openrisc: signal: do not restore privileged SR bits on sigreturn
-7fb4247d06bea25457da6db033cd1c1a3b9a6c95 Input: sur40 - fix input device registration ordering
-29e82ba4ff15b6969dd7bea4a346fe4b9082c31c Input: sur40 - fix V4L error path cleanup
-4d5e4de23cfe53767c819f24f2abe5b9ee277ded libceph: Avoid using invalid osd indices from primary_temp
-0920f953ab4b934716092b3d15752953696a8491 ceph: fix MDS random selection readiness predicate
-8779943238dd58e3653f21f5c401c7c62c006e48 libceph: tolerate addrvecs with multiple entries of the same type
-85a7a5425bd8e9841ae18b2bea4a513f4dd7b905 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-499149683498f372518936fbc70218292c9a5040 mmc: sdhci: unmap the bounce buffer before device release
-93004bd79a33e3061bf8fe33ee3877ed1d6a4d4e pmdomain: mediatek: fix remaining %pOF after of_node_put()
-ef1eb5169470092f989b6de347110921c23618bf mmc: sdhci: make tuning_err a signed int
-ee4842444b0b1b520650608f00fa83531ae9b649 pmdomains: mediatek: Avoid setting RTFF's CLK_DIS before NRESTORE
-797a24023040762e94e080a904508382d3e7963c mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-1bdfaeaaa8201db4676d765f46b07da19a02a391 drm/connector/hdmi: Fix out of bounds memory read
-0144ce5915f26fe5b17119fa69b36275aaa1974b mmc: loongson2: Fix sg iteration in data reorder functions
-873ab765fcc01a6aa456e1c172e822b059b50707 pmdomain: mediatek: Fix mt8183 hang on boot
-aee05e76c9f0ccd4dd3ad4e9bdd4ff124960d8d8 drm/xe: Order ring writes before ring tail updates
-1fb8989f3e3b5f3b37ce38eb364634a40e947465 drm/xe: Fix xe_device_probe() failure
-1a8321906371d416b06025c1ac6145ec54ddaa2a drm/radeon: fix autosuspend cleanup during teardown
-e161416d432f21a695e26921d6e1b9b25d8a7f79 eth: bnxt: always set the queue mgmt ops
-b2a021a663a913dc8e731278ffc5f46ffbba0388 eth: bnxt: make sure we populate the qcfg defaults on old FW/HW
+10b2cbb28f23d293dfe8d317b9dd93d3681739a5 ALSA: hda/realtek: Add quirk for HP Dragonfly Folio G3 2-in-1 (103c:8a05)
+c6c2ae70c32c096b00475db0acad45cdbc84a1e8 block: stop the timeout timer when releasing a never added disk
+016ce57a97108c2eb4c616f266d5d37644c714e1 mtd: ubi: skip programming unused bits in ubi headers
+a268c0adb18d32af2f990a7182737bd8df9614bc ubi: fastmap: fix ubi->fm memory leak
+48d8fb75fb2fc1d3b85c11bbbf978dd515f99ed3 ipvs: separate destination availability state
+d05ea1782219384780a2aff458d409d752b7e8d4 selinux: require every boolean value to be defined
+a79bb89bad750727c76e6985f6edb0ec3591a5d7 selinux: reject a class permission count below its inherited common
+7418342adbb5e3f97fcab7398b35b299483d08d4 selinux: do not cancel a policy conversion that never started
+fd587036f7f772a94cb44cf7b927791537d9d947 selinux: reject an unclaimed class value in security_get_classes()
+5df54ad08d61cdbfc8811a289577bfffbf535ef9 selinux: reject a permission value exceeding the class permission count
+118f391da0fa56871221372b0caa3064b8b247de mptcp: reclaim forward-allocated memory on RX path errors
+b76d26e6fb9994ef7d8956a19b65e6e3409af85f selftests: mptcp: join: mark tests with data corruption as failed
+5dc6eb147265b1aede590de0feaff7ba0f94dcf7 mptcp: avoid combining some incoming suboptions
+cc992c235bcfb7687fa56a9d90eae8b49914fc3c mptcp: options: reset DSS fields in case of unexpected size
+0b6be1446b461b387920bc146e0d42f01076befe mptcp: pm: fix data race in add_addr timer callback
+6a9e229db275022c7aa9f914d75b05fe307d9798 mptcp: fastopen: only mark MPTFO subflows with SYN data
+7d7ff58dd2b3bfc5c82ac87cc38cd32ad6e77764 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+a0f1365bccedd0a5ee4c7a5e0ca283d1484727e4 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
+5a361cf60d99531d173d3423f1c9e92a71157335 ASoC: SOF: ipc4-pcm: Continue the pipeline trigger in case of IPC timeout
+09b700c8e6fe22cc80593d530f601ace7db6b4bd ASoC: cs4265: sort the register default table
+f408db97c46a84e03920819d37b8c0dd71a67f90 ASoC: cs35l45: sort the register default table
+e8ced53d8b9d721c223bfbb371b3f8f0646eedca ASoC: cs35l41: sort the register default table
+c0df4458f6aa4db80ec09b616e26d3c478724770 ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
+e56c3e04589bb350790d6a25bb5649fc480b1cb1 fbdev: core: Fix pointer desynchronization in fb_io_read()
+365e98b5ae7d25d9a697a9f4a7cb3fa879fae3bd drm/panthor: skip zero-sized firmware sections
+67cd267f8889be40a899e5d1898dfd6276d0da11 drm/amdgpu: reject oversized IBs with per-ring packet limits
+2d3740ad768f38988998e5efafa3cfeb89713e7e drm/amdgpu: read TRUNCATE_COORD_MODE on gfx12
+f1b85529bbcefa732208ed444b01e56bda542555 drm/amdgpu: fix JPEG v5.0.0 queue reset failure in DPG mode
+e1329e55c0c0a8c5f6c9443a782c891e6631bd2b drm/amdgpu: fix JPEG v4.0.5 queue reset failure in DPG mode
+54a888bbafc35aa0085a1a3f9ee7744cb97ec41f drm/amdgpu: fix aperture iounmap skipped on device removal
+b5288ea656b0678d5da80a938e5ce14dc08a7416 ASoC: SOF: topology: Use acpi mach from the machine driver
+a638189dda57f7c940a444931315c6e7220568b0 Input: xpad - add support for ZENAIM LEVERLESS
+89bbe8d7d234d0dbe4a530ced02d9362674ff18c Input: cs40l50-vibra - validate custom data from user space
+c0be84f8b1162692788712340c54d24ac246fb08 powerpc/pseries: pci - logic bug
+2113fb580b670cf6d04ebe2f3934d377154e82ff Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+3c51b250b276815300f1f49a3ed389374c05d062 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+ed3c06be0a132b5a11f647d7b8e689b8cba3a842 Input: psxpad-spi - set driver data before use
+fc0f6e9b81b468ad37beef78a00ecb70cf0227b3 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+4e412829edbfc7fe71a389e5e8a23a94ac1c9037 Input: iforce - validate input packet lengths
+686e79f21a4431e74af30a7e54cd66c43c3f2445 Input: byd - synchronize timer deletion before freeing private data
+bf8f2250a0d0c581cd2eac7819cf8e3a479327c1 powerpc/pseries: lparcfg - fix kbuf[] underflow
+c9b1815edf7143f860ea6178d05b4d09488dfcfc powerpc/pseries: papr-phy-attest - validate cmd.length, plug mem leak
+0cf169d1e78634b5befa782bb9256fbcf2bb034a Input: synaptics-rmi4 - zero report size on F54 work error
+a5662d9d964ae73ca4b3c40c8338e996320af369 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+62d76f3e15fb5cd892997f0c83c63ac4e809b4c6 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+889a8ccae3320404a552614c9306a300436da146 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+863717e0d0188db785d3387161808576c5f9d772 Input: hynitron_cstxxx - validate touch count and finger IDs
+74fb38b8ca321339d77857d5524a2faee4661405 crypto: starfive - use scatterlist length before DMA mapping
+ffd671d5218e4b2d81525e3297506112421f3f35 crypto: qce - fix error path in devm_qce_register_algs
+79b5d296686ad0e7c090804082268c7018d080df gve: fix NULL dereference due to missing ptp adjfine
+c0c36a5b5285fdfcc09486103eef8cf118481330 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
+35960c69d133f748a8937b34b32fe3143fa72599 selftests/ftrace: Convert ELF entry point to file offset in uprobe test
+a2f8957fe2aceda2a0c71482fcc6a7bfd8d17fe4 gve: fix zero-length skb frag with header-split
+7a2070deac59f8ee1b200af080debd6cced0b12c gpio: ml-ioh: use raw_spinlock_t for the register lock
+94dd47e930b92ee73cb35e53d785bb7d4f4f3d40 pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
+22d06ecdeba14a9ad1d90076ccdf86a3c6c4a277 libceph: fix multiple unsafe decodes in decode_locker()
+3994a1efaeccd593bf104e2580e05b4fe84ce94b ftrace: Protect direct_functions in ftrace_find_rec_direct
+cfaee11acab4c85109ef72f0c94018f1d9bb9f4c ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+a41ab653a2da6fc268663709b0ce682f4ae6c57e openrisc: signal: do not restore privileged SR bits on sigreturn
+01f49560d3048e98f26dd452f77ab5fc07e5cd31 Input: sur40 - fix input device registration ordering
+f2ecc558a6a1a99788302e1d2d49bfae40f1283e Input: sur40 - fix V4L error path cleanup
+a05050227f389e1ec006ce541c430b6a1bf358c2 libceph: Avoid using invalid osd indices from primary_temp
+336faba423a7af00746ba6e6470c80e125a84960 ceph: fix MDS random selection readiness predicate
+5736069acb2b7e5947cf3fa3cd58ec85af1bd2eb libceph: tolerate addrvecs with multiple entries of the same type
+be20334b666395e3552a3261f901d01cb8688eda mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+209ee67b49c3455f2d2e37524e876951598cf936 mmc: sdhci: unmap the bounce buffer before device release
+9cdf1b3b02243b951621413bb1b73a6ba220e342 pmdomain: mediatek: fix remaining %pOF after of_node_put()
+8b168d081537fa8b139dafeb3c8107e695756f84 mmc: sdhci: make tuning_err a signed int
+6e7227276046fb8eba0c8990af8c7bbede175a36 pmdomains: mediatek: Avoid setting RTFF's CLK_DIS before NRESTORE
+48ecacccc1c6d9df0df6a39938d814d10fd94b9d mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+60927d3b783961163480697cbe44cb49fe9e4773 drm/connector/hdmi: Fix out of bounds memory read
+c6b7451197502c24f93c57959242b9548d9677d8 mmc: loongson2: Fix sg iteration in data reorder functions
+67cce1b9c1b1fd984cfd82c49830a0119f9428b7 pmdomain: mediatek: Fix mt8183 hang on boot
+c7460a8bef1319092034f007349081c4e84a083d drm/xe: Order ring writes before ring tail updates
+e0a5354fd678a2fcbdaf8683fc978d12afe9aceb drm/xe: Fix xe_device_probe() failure
+4bd7137b0425cc73a3b43c2d58de71911b6e76f5 drm/radeon: fix autosuspend cleanup during teardown
+d6e0ff7e12f1cb4b375ca06a6a327e3ba61893ec eth: bnxt: always set the queue mgmt ops
+1294833b30b184b58ceba3408d5c2f38970eee7f eth: bnxt: make sure we populate the qcfg defaults on old FW/HW
+643f238b289dcbcda34a1a6bc788dcbab7934904 s390/vfio_ccw: Free all memory if cp_init() fails
+39884bc4a9978a2acabb146b5b7710ce5227d0b5 s390/vfio_ccw: Limit the number of channel program segments
+e397b80dce7bf068c6529d18c481fd4de8a98708 s390/vfio_ccw: Cancel existing workqueues
+c0b97ac4c2247a27e4bb4ce9ca9718d7f79ba96d s390/vfio_ccw: Ensure index for read/write regions are within range
+092c1b67c52d5624ba78dd628f38ad87050c5b0a s390/vfio_ccw: Ensure first IDAW remains constant
+e825b02cd78c831d922eef2e12a1c92983dcaa08 s390/vfio_ccw: Fix out of bounds check on CCW array
+8547440474954b9e0b0290fd6fa6949a11607c97 s390/vfio_ccw: Move cp cleanup out of not operational
+3e267a54e3c1662705bdae84f9a6696d1405be94 s390/vfio_ccw: Selectively expand io_mutex
+a4aef3fb68824701372cec81e5a1b75916752fbf s390/vfio_ccw: Calculate idal length based on idaw type
+f1fb8135e60b0cfe7f29dc0a36854a1957862bb9 s390/vfio_ccw: Implement a crw lock
+9bcb6c4fd9a198c12a2d6dcdd500d8f7f41195c1 s390/zcrypt: Fix CPRB memory allocation in zcrypt misc code
+d5d30a8c9d016aa1025446b59697e24207f992b4 drm/amd/display: Fix NULL pointer dereference in amdgpu_dm_crtc_set_vblank()
+29423b9069b081b1c3977ad12a3dba30e8ad6818 drm/amd/display: fix BT.2020 YCbCr limited output CSC matrix
+022f87d44da83621e15692da7990dd5e1adaea7d drm/amd/display: fix BT.2020 YCbCr output CSC matrices for DCE
+fdf461adac4a656aadebc9fa2466ae1b8ce81821 drm/amdgpu: Reject UVD message with invalid number of h265 refs
+fb891b5733c533a0342750b8a32292f473be08ce drm/amdgpu: fix nbif 6.3.1 l1 low power not functional
+5f046f465d6c290ea22bdda75f9bdb99216a957e drm/amdgpu: check ASPM on the dGPU host link
+ed59930346e665e9d50e7dcc7b20cbd9dd7b9109 drm/amdgpu: validate GEM_CREATE domain combinations
+7cf553b437c06e88938da773f165d34e710c1f01 drm/amdgpu: Reject UVD message with dimensions above 4096
+08fec384ea001297ade0aaa2d135af2ac770fc35 drm/amdgpu: Implement insert_end for VCE 3
+ceb4f7193850705159e8057cea171534e0ebcc19 drm/amdgpu: Fix UVD min buffer sizes
+0bc87febc30cda9e59db6f1766dd73624827c762 drm/amdgpu: Fix UVD dpb min size calculation for H264
+17de8dd907b0fa7f7da0184512e0189875769c70 drm/amdgpu: Fix UVD decode image min size calculation
+3af3523330cc1a24f00dd98914a447e655d238f3 drm/amdgpu: disallow multiple FENCE chunks in one submit
+95277d67a2d3fafbd6e462aec8e32107dcd1a0be xfs: propagate errors from xfs_rtginode_load
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad0e5511f3a7-d89196ca7f4a.txt
+Content-Disposition: attachment; filename=revlist-d89196ca7f4a-5529d865157d.txt
 
-ebe1a9d8833b1830038c158919d2fbf5b30202b7 block: stop the timeout timer when releasing a never added disk
-c36d1b15ef5ed6343177f69699bc7a171755f2cb f2fs: fix UAF issue in f2fs_merge_page_bio()
-d9e094ff7536cf6ae4bbdb57062398167c4435a4 ipvs: separate destination availability state
-dd007b3a4eb753100cd6ecad172d0f42085b475b net: mana: Fix EQ leak in mana_remove on NULL port
-929fcd6bdbaa6a2520dcf88fd0fc2a45e6b2c89d selinux: require every boolean value to be defined
-5ddead70fe8eb6ba482b8a5feb4091bea05c96f3 selinux: reject a class permission count below its inherited common
-4e2d9fbcd5bcd1c041ce03da867819e027634336 selinux: do not cancel a policy conversion that never started
-d04e8891a6648817e30549dc31800b4ad1fa57dc selinux: reject an unclaimed class value in security_get_classes()
-5e5455cc2e9264fff844e79a45973adbbe582488 selftests: mptcp: join: mark tests with data corruption as failed
-9dd6205ad117029b16eeafea3288b929dbe585f9 mptcp: avoid combining some incoming suboptions
-6265e67eb00da9216294f4e6465e1858db2b82d4 mptcp: options: reset DSS fields in case of unexpected size
-d391c09675537e8bb9ab4066428a86044c1e5541 mptcp: fastopen: only mark MPTFO subflows with SYN data
-0cb77b8cd702e6a69d624e2e414faaf25fd75e2f s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-77026648acf2bbc1a01f89adce7a478ae466f690 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
-36b3fb44932de8e4907273f7ea935c731d168e77 ASoC: cs4265: sort the register default table
-db0490f6cac23d00b706631adb8ed710d22477d9 ASoC: cs35l45: sort the register default table
-613a52c12903229651be2638ff9b3b889dc5a879 ASoC: cs35l41: sort the register default table
-9277592b6251c542afe6135843e66c44d6bb9f4f ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
-4cfedd34febb0b6496200abac72001317e2ac56e fbdev: core: Fix pointer desynchronization in fb_io_read()
-d047822c934a73880fb16b2f81b4746a032d7fe1 drm/amdgpu: fix aperture iounmap skipped on device removal
-c95b3700c214e6269d28c82c9933a906f40f6a7a Input: xpad - add support for ZENAIM LEVERLESS
-161cf367d1d541de30e8da27b21794dd293fa329 powerpc/pseries: pci - logic bug
-980d01133929f29046356a5b7d4578f8d0b3083e Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-628f82d8285ecc0f08580035471484618aeab706 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-0184c545313e6995375527ecbae44440db45ea66 Input: psxpad-spi - set driver data before use
-5840c8e190feeb1d839cb54c9ddef57259888f6b Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-b8accb03fb56436f7a81694144627b30de4a30d8 Input: iforce - validate input packet lengths
-cbbb338d97cd82c84a611c75204f69cbadc1a693 powerpc/pseries: lparcfg - fix kbuf[] underflow
-8ab37130924b8d158c3977f3306efa9ec3da59cd Input: synaptics-rmi4 - zero report size on F54 work error
-825ed97ca0c83e8b38ac72a7bd3fde67b9e95718 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-79ff3d32e92929a7e4a5ede761832e2730c793a9 Input: synaptics-rmi4 - block s_input when F54 queue is busy
-0309d5fd8739e564320778f420add7253d76e2e1 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-d34ea6534a2d05b587cb7b1074012c0ed3a5074f Input: hynitron_cstxxx - validate touch count and finger IDs
-2b6b3138d1a47c759667a5fb6cda7772541cb0f4 crypto: qce - fix error path in devm_qce_register_algs
-e8e058527d33d2180647f98c79438475aa27ecd9 libceph: fix multiple unsafe decodes in decode_locker()
-f288a05075666890061aeefca00958910fdec9e6 ftrace: Protect direct_functions in ftrace_find_rec_direct
-6d1ae7e3a19e80cbff0f8b65d03cfa5763291fa6 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-eed591d356931b254fa3f8cc631fcc7371153ba2 openrisc: signal: do not restore privileged SR bits on sigreturn
-3a826380fb9877f89f558a635a7ba49b00b2e4e8 Input: sur40 - fix input device registration ordering
-7e426309078d7321d5b466c1a26ebfc70024b7cf Input: sur40 - fix V4L error path cleanup
-ab73f62117e506c4f5969d6ac1321300db654c70 libceph: Avoid using invalid osd indices from primary_temp
-88dfeca30d79e3a5572e61d8ec00f0b60ec74ff1 ceph: fix MDS random selection readiness predicate
-e7aa5158776befe015f864c04a62fc745541c332 libceph: tolerate addrvecs with multiple entries of the same type
-8d30e1a180e937ef3c3332c7baefdb73cae489af mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-7e695713c041e65f744f5635a1d21360322229f3 mmc: sdhci: unmap the bounce buffer before device release
-983200293455be2d47a062b9879aaf4c3c2b0c2f mmc: sdhci: make tuning_err a signed int
-c8c68aa504dc32d08c248569f0c52e6ff320a35a mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-ea77fec2185a5950ae4bbc6bafc508fed5ae43bc drm/radeon: fix autosuspend cleanup during teardown
-ad0c153cc21c66862a2249a60566093c71a94cd3 s390/vfio_ccw: Free all memory if cp_init() fails
-39e9159217ae56b537885829b422f021e411b1b7 s390/vfio_ccw: Limit the number of channel program segments
-410cf472ebdc7f7a9c63423753b27fae0123515f s390/vfio_ccw: Cancel existing workqueues
-029188dcb76810d49452b2141c45d9ac41766f16 s390/vfio_ccw: Ensure index for read/write regions are within range
-15b83a9e6b06f795cb3f6f1a739741c7ae05fe99 s390/vfio_ccw: Fix out of bounds check on CCW array
-fe2783f0f7dd3df4098f927e3b9dd5897be7865e s390/vfio_ccw: Move cp cleanup out of not operational
-1e84776aea2225c6e42516e49537f8c81efdaf33 s390/vfio_ccw: Selectively expand io_mutex
-2841313a267b793e0ab3495c67b7678981ee78c4 drm/amdgpu: Reject UVD message with invalid number of h265 refs
-5e54db8c0915bdf7b7bdf30a5c95519ce5d56ddb drm/amdgpu: validate GEM_CREATE domain combinations
-ffbbdb2ab97f567ccfa8fe4f9d887a6cd3b7c026 drm/amdgpu: Reject UVD message with dimensions above 4096
-cc98b4a1c1780441eae5f0ab55d9a3827b8e1b08 drm/amdgpu: Implement insert_end for VCE 3
-79da4f4d558ddf76d7bd94aeabf014a787ed607e drm/amdgpu: Fix UVD min buffer sizes
-806a7ae4791a39d090e0c5a05cd5a48d62bca443 drm/amdgpu: Fix UVD dpb min size calculation for H264
-f873919a4dd603ef66b0ba9cbcda720bd786f933 drm/amdgpu: Fix UVD decode image min size calculation
-d89196ca7f4ac6d264376ac7bf8f041cd0c4a51e drm/amdgpu: disallow multiple FENCE chunks in one submit
+60aea4b47e1a2641f56dbcb6ecff7bf8db245f76 block: stop the timeout timer when releasing a never added disk
+7cbe4a715d76311299826cfc367196f436c21f0e f2fs: fix UAF issue in f2fs_merge_page_bio()
+e81a50f1840894186fc6366df987571f4c240457 ipvs: separate destination availability state
+63b47089161bdf0d31441529bf659374eae5aa46 net: mana: Fix EQ leak in mana_remove on NULL port
+86c7cdb04ad1a7a66cf1437f6dbaad997a891157 selinux: require every boolean value to be defined
+e6c6888531fedd9ec095260cd243dae816ccf9b7 selinux: reject a class permission count below its inherited common
+31323f61f5220e4e00be0b423c2d48669ee1ba8f selinux: do not cancel a policy conversion that never started
+665972924b58f05bd0ed22fe4df8e61340727fa1 selinux: reject an unclaimed class value in security_get_classes()
+d1c6d0a63bef0d3dd3c817ca76f01c8a4912f1c7 selftests: mptcp: join: mark tests with data corruption as failed
+5e8c5bbc523165e07424f055262617176bc16f56 mptcp: avoid combining some incoming suboptions
+c9cbc27b65097a2ac2fd793ca08d6142359261ba mptcp: options: reset DSS fields in case of unexpected size
+666bd01a87cec6656058f4704d5530eb2be6c931 mptcp: fastopen: only mark MPTFO subflows with SYN data
+25e788f7792332e3e1e2737ca069cf02e76fa405 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+2adf5e1fb3d8ba02d49502c129e5963c1ec53906 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
+60f01e36b4060d5c0e07e25ef1950055069cb8a1 ASoC: cs4265: sort the register default table
+3443e5d6e055cea7e12966130518943a9fb35b90 ASoC: cs35l45: sort the register default table
+87b974c6ff32a7a1cef9a2e7c7c75177eb508a34 ASoC: cs35l41: sort the register default table
+921e503ed3c5b698e67d65c29cab4b300d11a178 ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
+04f2e986f9a98c120d93685a5cb04c29aa8485ae fbdev: core: Fix pointer desynchronization in fb_io_read()
+00ce514bc8508be7efcaa0c893d3fb5b77a7bf7d drm/amdgpu: fix aperture iounmap skipped on device removal
+383218894a4c0cfa9d1bc9b5331a0088f6d1c8ee Input: xpad - add support for ZENAIM LEVERLESS
+e7edfe40a71943e391dd5b424110e75dafbb0650 powerpc/pseries: pci - logic bug
+06a6d72812e53fced2266eff492614ec66c20411 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+7e616bfdcf6ee4f11c7a8632ee4237951a62d0dd Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+cac982623529e27d5d2df75740fe74bc92c09078 Input: psxpad-spi - set driver data before use
+c8b4a8a4e4a8c1fdbaf5488132869d32fcf5bfe8 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+50939b237816d8bdef150bdf56104b52b05647ec Input: iforce - validate input packet lengths
+0b04e773608b1fda6ff7b4f457ffc67c31b2da54 powerpc/pseries: lparcfg - fix kbuf[] underflow
+9cc8cf5f55e3b7e900713b0615519a9aa729c71c Input: synaptics-rmi4 - zero report size on F54 work error
+86fa98334cd159f37e4d21bf799bfd70e8d47f12 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+a1e2b89c2d743be68e0ec4a86261b43ec4568914 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+ca65c1aafabc2dd9903fe6665a601819a0564d3f Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+65996674b3fa00af7273e1a6cd8a18eff8b66d42 Input: hynitron_cstxxx - validate touch count and finger IDs
+a35641d7f4e3f9166002d06e5221257401dbbc6d crypto: qce - fix error path in devm_qce_register_algs
+81a75ea5e4360e1eeeb50981c1b0a5324b9491c0 libceph: fix multiple unsafe decodes in decode_locker()
+3a2087f5cc16fa90f44fdb0817afcb6b46b3ff0b ftrace: Protect direct_functions in ftrace_find_rec_direct
+488c32a74c00fd8285787fb0a33d2aaf5fb904ad ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+4a8622d9b7787134c781ba83c6177aabc99ac028 openrisc: signal: do not restore privileged SR bits on sigreturn
+6843471792cdc311ca1fc445a12e90f0ad7598c3 Input: sur40 - fix input device registration ordering
+dca07cc559b3d2404b7ec7d851b1cebb1bf4186d Input: sur40 - fix V4L error path cleanup
+ae96c5e66bde35e7f4011ef619be786167c36ad4 libceph: Avoid using invalid osd indices from primary_temp
+cba332942e0b5c4951a9d19ba7524d0ca639e2e2 ceph: fix MDS random selection readiness predicate
+03dee84b339c861658b2e266f2c7e5ff8edce3bf libceph: tolerate addrvecs with multiple entries of the same type
+b581b01f7f249ff95f4e30b9aa04577cb9634c64 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+55dbfd8c2d58c37a88cd462a558d2bfb5c6ebaec mmc: sdhci: unmap the bounce buffer before device release
+89dd4adb2f5808e94d4a9ae4d19e49a81f78010b mmc: sdhci: make tuning_err a signed int
+9a932dbd24d1192ffc6dba2996994afa24848e3b mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+878de2fc99aa8c442048493a8dd60c4197bb54d5 drm/radeon: fix autosuspend cleanup during teardown
+7002b071356cf714da4af5de4468e7ab60a44cac s390/vfio_ccw: Free all memory if cp_init() fails
+5fb5672b2c8af7a84e6ed8f7e3f7f7d69608ac8f s390/vfio_ccw: Limit the number of channel program segments
+09cc5cf3c7629017e59607048ac2fdc26ac9f658 s390/vfio_ccw: Cancel existing workqueues
+3488cf45ed47b2c70250517e7dbf7391a7006c85 s390/vfio_ccw: Ensure index for read/write regions are within range
+faa30ca3018477a71c2c2c322e320d29cd108733 s390/vfio_ccw: Fix out of bounds check on CCW array
+22c1e48dd64e70e1e98fa8e54458cc97e6db861d s390/vfio_ccw: Move cp cleanup out of not operational
+0e891fd1a918f5e25a7ec2b908cd9ecd3a8b89dd s390/vfio_ccw: Selectively expand io_mutex
+f9d696385622b4d77f2bf39bfda5ac2632452307 drm/amdgpu: Reject UVD message with invalid number of h265 refs
+02392881130d1ddabef58ce051b1aa3f62382d6e drm/amdgpu: validate GEM_CREATE domain combinations
+25b0727ad5d616c696b534805d59bc8bcd108aa4 drm/amdgpu: Reject UVD message with dimensions above 4096
+06b275422327b1655689af06d9593bfe8964fef5 drm/amdgpu: Implement insert_end for VCE 3
+9b2900e65fd771f7c0d2a06d724416875b954ee3 drm/amdgpu: Fix UVD min buffer sizes
+a45920bfa282237e7317c100a3f77783de0994e4 drm/amdgpu: Fix UVD dpb min size calculation for H264
+2e143e038e06219a9a4ac07f6d2a89005c7b59de drm/amdgpu: Fix UVD decode image min size calculation
+5529d865157dc242a845d87d38815aa8ae1516ea drm/amdgpu: disallow multiple FENCE chunks in one submit
 
---===============5949881814789610361==
+--===============5640064513798906541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4e5fd522de3-59e61bed6aae.txt
+Content-Disposition: attachment; filename=revlist-59e61bed6aae-31b1b047a148.txt
 
-3fb2815282e9ca279d95229d6080807041f5fbff block: stop the timeout timer when releasing a never added disk
-7b8f5cf4b373db945903879c3c4b33c6882daf86 selinux: require every boolean value to be defined
-44665e3a76cb88d99990576bbbb6ea35afb62a48 selinux: reject a class permission count below its inherited common
-55b18e602af0872a00f0e45855861bbcc4e4b037 selinux: do not cancel a policy conversion that never started
-f90fa01af3c22c208d13093b1960b7a3d91e6726 selinux: reject an unclaimed class value in security_get_classes()
-18a1d7b055797b257bebbd39c5822d52ae9ab684 selinux: reject a permission value exceeding the class permission count
-d7ee2e1ace0bcbce71af35bb90862e935da27133 mptcp: reclaim forward-allocated memory on RX path errors
-2afb9095cff357ea1549ae440291e9357d579a45 selftests: mptcp: join: mark tests with data corruption as failed
-daecd174120f94176b50a54dcc5957c5b82276f5 mptcp: avoid combining some incoming suboptions
-59f61d8c956f4648a3bc6a76b7e54b72af04f719 mptcp: options: reset DSS fields in case of unexpected size
-7baa6a1ebff65ee5e9357e5ec1a53fce8f08d745 mptcp: pm: fix data race in add_addr timer callback
-001a188790b749c7b8be4683af97fca5343c3075 mptcp: fastopen: only mark MPTFO subflows with SYN data
-1499b60295394ac2860660fb47be4465caaa5d76 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
-a2c360deef3eab06365ac1d5d4108b9757a1f178 microblaze: restore the page alignment of swapper_pg_dir
-e2d9a49bf08ad762936f8eda315d37968e769db5 ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses
-2836049073691e7270541d8ecfc918a1bb297362 drm/shmem_helper: Check VMA boundaries for PMD mappings
-efa36b0d42d0d0295c283aa6c5718b9eb38d7db4 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
-bf610ff959a0e8fbccbce626a6a4c1764d24c0cd ASoC: SOF: ipc4-pcm: Continue the pipeline trigger in case of IPC timeout
-7aa093872cc16440fd657c6595f7fcc7bcabd0e1 ASoC: cs4265: sort the register default table
-ce5d8a63d41d6ce6c415f40e681e926aaf99c394 ASoC: cs35l45: sort the register default table
-152dcf82f180eb3d801409172356cc2e75c26be8 ASoC: cs35l41: sort the register default table
-101f01dc2f39512f5a172fcc26de09a4f195c8ce ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
-85fd8bbfbfa1dc0c43eecd062ed95686ac36693d fbdev: bound mode sysfs output to the sysfs buffer
-8159871f064973986f6cbad4927fc76dcd28aeb7 fbdev: clear fb_info->mode before deleting a videomode
-c87c215289dc7ce31572349da2010b633e48772c fbdev: core: Fix pointer desynchronization in fb_io_read()
-cc5efe4ce805aee5dd366aa16a2c12f0f3550390 drm/panthor: skip zero-sized firmware sections
-8498130fec5ffd9629b38b272097720a71f302f3 drm/amdgpu: reject oversized IBs with per-ring packet limits
-3ac86b6b8a92e0b0f81685d733ffdb9c88ffe65b drm/amdgpu: read TRUNCATE_COORD_MODE on gfx12
-ddbf8a253163d6186393bd5a2b70d4e72da1dd91 drm/amdgpu/userq: serialize queue map against GPU reset
-ea1e3f2d583933c8a09e5a564be8f170a00d362a drm/amd: Disable DP audio spread spectrum for Cyan Skillfish
-4019b2e02d2c1fe30eb67a2a42203c66d010cbb1 drm/radeon: restore hardware polling in fence_is_signaled to fix performance regression
-667683710af59ae2438eac1cd544ad43bb2f140f drm/amdgpu: Use virtual alloc during coredump
-dc6d8329a3e0aecd644e88272945c1800a62b422 drm/amdgpu: fix JPEG v5.3.0 queue reset failure in DPG mode
-70f9e09e1a5be1857524602d0bf37dbc78a91514 drm/amdgpu: fix JPEG v5.0.0 queue reset failure in DPG mode
-a623fd2d54d4bbd2262940e24bc448395d73151e drm/amdgpu: fix JPEG v4.0.5 queue reset failure in DPG mode
-0255892e9af5cf3789281b2576b2d8c8e6f3fdbc drm/amdgpu: fix aperture iounmap skipped on device removal
-6c779effdd033948bde372c8ecd4077dd6b2f0e7 drm/amdgpu/gmc12.1: implement tlb inv semaphore
-f475d9edd550ae7bee161f8c82fde3fc07d6000f drm/amdgpu/gmc12.1: fix MMHUB0 check in pasid tlb flush
-c727b8fdd25474ce6132d7700bb1590c13eaf648 ASoC: SOF: topology: Use acpi mach from the machine driver
-6a30d90481e8a8c270884146829e3eadd703860b Input: xpad - add support for ZENAIM LEVERLESS
-d259e9ac797dbb2d3202b8df8ae35c3c0b1d73ff Input: cs40l50-vibra - validate custom data from user space
-a00da2e5e55f7a19a703341da7d0bc0206eb86ec powerpc/pseries: pci - logic bug
-96a78081036cee751d9a256ded9e3ddd52439abc Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
-25d868a397648d6787ae3aa9f46f9079adcd5444 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
-5fb72a45376cbdd182cc219c7a65cad94f129f21 Input: psxpad-spi - set driver data before use
-5ee5713628f0824b0ad547e51ac1d990e1df66a6 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
-cbd5d3eab8a5efb50bbf14d5bef2869a34bfe4a4 Input: atkbd - skip deactivate for HONOR ZQC-P
-a5d9e5e1c6460350468fb7e1c229f67479bd73f3 Input: iforce - validate input packet lengths
-1db03c9f57eb278832416dd09a5464ecf7ee729c Input: byd - synchronize timer deletion before freeing private data
-9975d403a37b546c2e53d6090f00c2ae3408aa0b powerpc/pseries: lparcfg - fix kbuf[] underflow
-c3ff3ebd37f6d078fa4b04593ef605f43a6c1246 powerpc/pseries: papr-phy-attest - validate cmd.length, plug mem leak
-72e9c082644f15343b51cb4eedfd3f7b312fb865 Input: synaptics-rmi4 - zero report size on F54 work error
-403ef9071c4da0b20bc252468c1301a2e2a0241b Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
-53cfeb82becdae94ed361202cd618bffe28b12ea Input: synaptics-rmi4 - block s_input when F54 queue is busy
-3c96fa45d95919ab2b02a2f631147346d3c60db1 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
-f8cd1f774409c0fc4b8f4e32ae45fa3aeb1297ab Input: hynitron_cstxxx - validate touch count and finger IDs
-7833f914ac72503749d5f244178f90d6c2c3bd85 crypto: starfive - use scatterlist length before DMA mapping
-ab60d98dc4b4d08f37e5b20f696807edeecd0446 crypto: qce - fix error path in devm_qce_register_algs
-9346368cba1e51c4d108763b3c35178f3822f2aa gve: fix NULL dereference due to missing ptp adjfine
-6966fd1c673103ceceb4e1b6c3b475fe6452d018 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
-54633a2722590fd34c23f7de6a7f3ac563b584fb selftests/ftrace: Convert ELF entry point to file offset in uprobe test
-21c138011c6871ed07bac1d5ec687a5c1b07e535 gve: fix zero-length skb frag with header-split
-3907653fd223ea50e46c06c9dccee1b96d51c2a0 gpio: ml-ioh: use raw_spinlock_t for the register lock
-2678aa0b0954dec576b013a1cb32f64e5e65e6be pmdomain: qcom: rpmhpd: Add missing MXC and MMCX power domains for Eliza
-5aae148a84e5b90747edc08ec276b0e1bb6bfe66 pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
-545785f0ab5307ba24e598f49897d71f7b780f17 libceph: fix multiple unsafe decodes in decode_locker()
-945c139353e558c6baebbfb7cebbd55ead5e934c pmdomain: mediatek: mfg: initialize prev_o in mtk_mfg_attach_dev()
-4ec91223019e8298990cd2a377006350fb53b4ab ftrace: Protect direct_functions in ftrace_find_rec_direct
-670e852b771a904f2a38072fd4fc8dbef34e3b11 ftrace: Protect direct_functions in update_ftrace_direct_del
-348fd3847454c78a55ddefb91183d791606ec6d9 ftrace: Protect direct_functions in update_ftrace_direct_mod
-1d4a83c43e7410259230d58fa2d6c794aab74254 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
-41884f1a526d638d945861fc4408871dc00bf8c8 openrisc: signal: do not restore privileged SR bits on sigreturn
-6e244cdefceac236aa0330cd8befe29d9dde55ca Input: sur40 - fix input device registration ordering
-51dd74b26c0cba781731bf05057221b20c641154 Input: sur40 - fix V4L error path cleanup
-923d5020e8c303abb4fd61b0a6532c35ca141ce2 libceph: Avoid using invalid osd indices from primary_temp
-e76cdc11055a76d527b9ee5c54feb7d4e94f00f4 ceph: fix MDS random selection readiness predicate
-98bf294c85fac7a8955084354daa9d8f9cdc938b libceph: fix OOB read in decode_watchers() via missing bounds check
-fb2cd2cabea48a2aa53fbee6d0ad356d7fca8f6f libceph: tolerate addrvecs with multiple entries of the same type
-1a2d0d5773e523190e35e66cfb1201c45e7cc719 mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
-b3b57737cf0e1b17089c4e82b7e8e92435ebd6ea mmc: sdhci: unmap the bounce buffer before device release
-80d473db6c55856ee5558b3ef762a8edc2dd7222 pmdomain: mediatek: fix remaining %pOF after of_node_put()
-731fa3bb167dbb1c4b4820083243980ce5c0399c mmc: sdhci: make tuning_err a signed int
-b3d9612a3e35daca0d81ea5a98477bd1c7c98f1c pmdomains: mediatek: Avoid setting RTFF's CLK_DIS before NRESTORE
-2e426224abe9e582ba1f03038179ef92fe1edc08 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-7bde5a99140a05f6df69c1a8085e4d4b43a937eb drm/connector/hdmi: Fix out of bounds memory read
-22667f4ead1b69ee11644a096e201251827233d9 mmc: loongson2: Fix sg iteration in data reorder functions
-d789a70c274501f3e4f5019c53275460c4b3d6ba pmdomain: mediatek: Fix mt8183 hang on boot
-354f922d3bb54e4375f00e9406a2afce2ffde373 riscv: hwprobe: Register unaligned probes before usermode
-a0cda8a4f9fcc6a93d38089b68db69bdfbfabe22 drm/xe: Order ring writes before ring tail updates
-44d4b6a0beebf11752a74ca374f57184d534a556 drm/xe: Fix xe_device_probe() failure
-7abe676724018035b02adb2938262d757bd00edb drm/xe/guc_ads: allocate UM queues in a separate BO
-8b8d65828fbbeca606b9d20ab145733d114f928b drm/xe/guc_ads: allocate UM queues in VRAM on dGFX
-be115be36e897cda9ff93a9ae613cd4d8bfc6e63 drm/xe/guc_ads: use uncached mapping for UM queue BO
-59e61bed6aae41f25be26e5e585af01f6d8c7bc6 drm/radeon: fix autosuspend cleanup during teardown
+ac39e4273cbde4b3c290e847852701fef5cbf084 block: stop the timeout timer when releasing a never added disk
+2811536293b668a89ddf433074cb5d50b8a6413f selinux: require every boolean value to be defined
+033c9d80926761b1814419e1341a7696368a761d selinux: reject a class permission count below its inherited common
+66d3771148171e6b5b0d231abec22122b41d69af selinux: do not cancel a policy conversion that never started
+3f08d3a48955efc3c827888bb3c739a9c3e9dba8 selinux: reject an unclaimed class value in security_get_classes()
+d6addc2b9f7b3f9eb027f714f3c206544e2e0f45 selinux: reject a permission value exceeding the class permission count
+991211db17bfb5557a3e703442683f9926f8f707 mptcp: reclaim forward-allocated memory on RX path errors
+6efbb2610a28cf204e6847271091e2cfb95c98b6 selftests: mptcp: join: mark tests with data corruption as failed
+0434616fb5d91af76e9512c7d84970366ba2d67b mptcp: avoid combining some incoming suboptions
+3440aa305877784c511722ef498177b16aea7ad6 mptcp: options: reset DSS fields in case of unexpected size
+32dfe4e52d36f7a0ed16a1646a5135490608db92 mptcp: pm: fix data race in add_addr timer callback
+8b0105e1f3a707314f78f307872aa9d400e4e3e6 mptcp: fastopen: only mark MPTFO subflows with SYN data
+4d4ef773579d469f601400882b03074729a37248 s390/qeth: validate user buffer length in SNMP and ARP query ioctls
+5b5f848954727668876c7c8ed794eb4e08447309 microblaze: restore the page alignment of swapper_pg_dir
+10da0bd3ebdb81cfee7059ef643c364e42878d2c ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses
+82577f0d2117c48a2e856a23796e8ec204f543f7 drm/shmem_helper: Check VMA boundaries for PMD mappings
+f27b99a061a0b83cd919db48d28bdb4e125f1fe2 ASoC: SOF: sof-audio: Fix error path in sof_widget_setup_unlocked()
+d97ebb3d02b1516f3a18fed13c971e5efe328c8b ASoC: SOF: ipc4-pcm: Continue the pipeline trigger in case of IPC timeout
+81f8f596739fce8560e945780b3902ad3fada0da ASoC: cs4265: sort the register default table
+bf9822dfbd3c1c08197f6e5e1940203ad33610e6 ASoC: cs35l45: sort the register default table
+a1e63b6475ab5c1575342c44f04ab735e6f86e7b ASoC: cs35l41: sort the register default table
+77137f6937297d986ef96a0ad076fd96d0a6f55d ASoC: codecs: lpass-wsa-macro: Fix enum kcontrol accesses
+4a3cca948c82b13650c75037bc5187e2b9bb54e3 fbdev: bound mode sysfs output to the sysfs buffer
+3279afc7281a8aff71691a6f042438ab986ea7ee fbdev: clear fb_info->mode before deleting a videomode
+294554b5a78588e9b8322a54713c89210f974682 fbdev: core: Fix pointer desynchronization in fb_io_read()
+0bcf2d2ca44c3c7153da4fa4693f78593d4f43b2 drm/panthor: skip zero-sized firmware sections
+459a529b71bbf87d7f797bce2982b451508369b4 drm/amdgpu: reject oversized IBs with per-ring packet limits
+324091212668f06298287e2dc29f33e78219e659 drm/amdgpu: read TRUNCATE_COORD_MODE on gfx12
+8d7cc7ee1d8263ce435515eeb707f4899c2090e9 drm/amdgpu/userq: serialize queue map against GPU reset
+70b1695640714f902f097a14288c468f2132e41b drm/amd: Disable DP audio spread spectrum for Cyan Skillfish
+03da58b8fb8ab62873f23ee72653fae8e1b3e33e drm/radeon: restore hardware polling in fence_is_signaled to fix performance regression
+fa69f7d3892adaa988cda19dccdcfeca2d55e726 drm/amdgpu: Use virtual alloc during coredump
+137120e163366075fd9df8b579917f861a5fa2fa drm/amdgpu: fix JPEG v5.3.0 queue reset failure in DPG mode
+03d012d28fb0825ea876d214e1cedee43784066e drm/amdgpu: fix JPEG v5.0.0 queue reset failure in DPG mode
+3434f778469613a74a32ede2ca28e6f64bb6e0d9 drm/amdgpu: fix JPEG v4.0.5 queue reset failure in DPG mode
+a7e8a0215a741722ff842555dc89c765fc10fa1e drm/amdgpu: fix aperture iounmap skipped on device removal
+7da8a0c1dfe3eae855b133a2b691ec02b04983ad drm/amdgpu/gmc12.1: implement tlb inv semaphore
+d34587c16b16f2ef655ce641f58117382c0fa616 drm/amdgpu/gmc12.1: fix MMHUB0 check in pasid tlb flush
+f485753b803c46922d70e70c2c5bf069b337fec7 ASoC: SOF: topology: Use acpi mach from the machine driver
+a8d291169aef8aafbef75bced4d68e6a976be180 Input: xpad - add support for ZENAIM LEVERLESS
+0c0b3fba6171ba802302b63fc89081728e124047 Input: cs40l50-vibra - validate custom data from user space
+4e2242cfdf413385424f4991064d459c330e4f10 powerpc/pseries: pci - logic bug
+aa195f2ed26de74b4e8446543b29b592695061f3 Input: synaptics-rmi4 - fix F55 transmitter electrode count typo
+b2aa1a3fe3e6df5a1530a3f5de17edaa761b9d17 Input: focaltech - fix array out-of-bounds in focaltech_process_rel_packet
+55d7fca0124352b4bd6fd38ffdbf2a17586b468d Input: psxpad-spi - set driver data before use
+070eb8c4e09aabc78f171212256df2b2139306f8 Input: atkbd - skip deactivate for Xiaomi Book Pro 14's internal keyboard
+dbc86cde4a007f02dd2dac33c0f4b032a952b613 Input: atkbd - skip deactivate for HONOR ZQC-P
+1a640ff1f6af5a18c85ed1235fd9fb11b004f8de Input: iforce - validate input packet lengths
+4de4fef974dd9d401a8e88b2b734074d57572aa5 Input: byd - synchronize timer deletion before freeing private data
+89ef522477115e19532a50e1ec3c96db629164c9 powerpc/pseries: lparcfg - fix kbuf[] underflow
+cee42acb35555a797b083f7ebf4ef030bb0bfb86 powerpc/pseries: papr-phy-attest - validate cmd.length, plug mem leak
+5b76d298ad1265a7a7523398a515c12978b7d494 Input: synaptics-rmi4 - zero report size on F54 work error
+7fc9cbf7bf2eece80683ce546656496e07f12bc5 Input: synaptics-rmi4 - bound the F54 report size to the allocated buffer
+b3d21e0e4bf5cef9a4cfe25f0b58e854d0745b60 Input: synaptics-rmi4 - block s_input when F54 queue is busy
+7ed826734db7d831440227ce3c9bfdf1472474d6 Input: synaptics-rmi4 - propagate F54 worker errors to V4L2 queue
+265a3042915a7ada364f15648576bd1a9296776a Input: hynitron_cstxxx - validate touch count and finger IDs
+e3873eeedc7f607ad399db04bf4b8d5dbe917a6b crypto: starfive - use scatterlist length before DMA mapping
+88519fce68b82c2a6c6cb21cc4fc59b2f5f98166 crypto: qce - fix error path in devm_qce_register_algs
+c4a8a5ed9117d372338f3b91930366fcd9a0f418 gve: fix NULL dereference due to missing ptp adjfine
+e06b652421428f314316af511652cba30649da51 gpio: sloppy-logic-analyzer: fix use-after-free via debugfs trigger on unbind
+078f5861d6991fe6c70894679f04b3245a33f0c4 selftests/ftrace: Convert ELF entry point to file offset in uprobe test
+99a1b8b810c1d56c493a187f0e5042aa5f035f30 gve: fix zero-length skb frag with header-split
+5d6b189eb6bc598e8ee4a2684b9b3e603f1d97e5 gpio: ml-ioh: use raw_spinlock_t for the register lock
+fb6186c5a5322a4421a667fe170b533c5b794daa pmdomain: qcom: rpmhpd: Add missing MXC and MMCX power domains for Eliza
+ce8ddba9fbb5d57707c8d49ef672163823c86b76 pmdomain: arm: Fix -EINVAL from scmi_pd_set_perf_state() on state 0
+a4abd48549e494667fe49bd914f68a775e37abcc libceph: fix multiple unsafe decodes in decode_locker()
+1cf1a899dccd6b1e9df794d22b32fc24d65f8ea0 pmdomain: mediatek: mfg: initialize prev_o in mtk_mfg_attach_dev()
+b152459be5e5b9279373bf9775a51ec5970a71e8 ftrace: Protect direct_functions in ftrace_find_rec_direct
+352e09738887a0af9d1856a6408b1e260ee118a0 ftrace: Protect direct_functions in update_ftrace_direct_del
+39052393c3a4de8f07fc43b6ed837748307ed949 ftrace: Protect direct_functions in update_ftrace_direct_mod
+7490591a3deeccebf910af4e05073dd759c4cd84 ftrace: Fix off-by-one fentry site disable in ftrace_free_mem()
+246defb555594517be570a712078d5f4eb142a6e openrisc: signal: do not restore privileged SR bits on sigreturn
+41d28d2a0874cf96b315b7a34e7ebc9a3fb1901e Input: sur40 - fix input device registration ordering
+1b03666a87dfd3854c9d37c608b36c92906db48a Input: sur40 - fix V4L error path cleanup
+8e4858377860db9c2dcb4473eac55c9b029f2ba7 libceph: Avoid using invalid osd indices from primary_temp
+764c215d1872b6b84c820c24470a8a1daa913f87 ceph: fix MDS random selection readiness predicate
+b38ee4d31a9a9fd5d0f8c880e6fb52ecef162106 libceph: fix OOB read in decode_watchers() via missing bounds check
+837b9a8fb78929d6606f5efd999c4bec0e9f90d3 libceph: tolerate addrvecs with multiple entries of the same type
+44870a3b540c12c237177edf7c5a07bf9d8fdb7f mmc: omap_hsmmc: fix busy_timeout overflow in ns conversion on 32-bit
+a3b47d0b49b8bb06349f44a29cae03d6cfe0e777 mmc: sdhci: unmap the bounce buffer before device release
+149bc7db1510163027c751d9e036dba19aa577ec pmdomain: mediatek: fix remaining %pOF after of_node_put()
+958d06ed77b5d42faafaecd7c1bd008a5d948eb5 mmc: sdhci: make tuning_err a signed int
+b022d90e78e9da2533b5cbda83f03a600be3db29 pmdomains: mediatek: Avoid setting RTFF's CLK_DIS before NRESTORE
+a4d931668b05e069a58849ea2a8b9305a03556c3 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+a258fbcd81fe48131c12446b8f67a1bcc0b78755 drm/connector/hdmi: Fix out of bounds memory read
+1adece0d01552ee762307dd52a875eb72ce196cc mmc: loongson2: Fix sg iteration in data reorder functions
+4e6d963c32ad617019a0f75c71a8e6434a92fa44 pmdomain: mediatek: Fix mt8183 hang on boot
+3969f26b68bd697ede6a25c2aaa3794c52e07790 riscv: hwprobe: Register unaligned probes before usermode
+914f6f448fdb95993f2e84e9f410094f455fe94d drm/xe: Order ring writes before ring tail updates
+893310c4c308eb2848eadd2586fce77809c410d1 drm/xe: Fix xe_device_probe() failure
+17a451e3ef87d729b2e9195437dc2ffa21d908cd drm/xe/guc_ads: allocate UM queues in a separate BO
+1def9da10236d71419c3f11bec35c077284d370d drm/xe/guc_ads: allocate UM queues in VRAM on dGFX
+2d9391badedda7477d11e49fb4f0d0a9638d8006 drm/xe/guc_ads: use uncached mapping for UM queue BO
+1ed4cb379069a7390b7314c5173c0272fc17b7fb drm/radeon: fix autosuspend cleanup during teardown
+8dc6f1875744c66af080207e5db6f9ebee84c31e s390/vfio_ccw: Free all memory if cp_init() fails
+500874b10d251b0c3df6944363bf090512c8f0ff s390/vfio_ccw: Limit the number of channel program segments
+35fdb0b8dce14e15bab5a1d82523f281f701e204 s390/vfio_ccw: Cancel existing workqueues
+1db26d72317324fdaf2be7d80f27312185731e0f s390/vfio_ccw: Ensure index for read/write regions are within range
+394ad5130f5122d4508670693b8bed77af0630fa s390/vfio_ccw: Ensure first IDAW remains constant
+9144f1b542682b820810f69b420aa724303ddb10 s390/vfio_ccw: Fix out of bounds check on CCW array
+d4e0254be02592a018591ee39a9499d923b30a40 s390/vfio_ccw: Move cp cleanup out of not operational
+6da73d6a86356485041e97f65f50f92d2969cedb s390/vfio_ccw: Selectively expand io_mutex
+0c7a01a88c12b18b211279f04a39ad3f0f69ddee s390/vfio_ccw: Calculate idal length based on idaw type
+bde0c7805ecd3a41b6e0efae9c46b389c3c84fb6 s390/vfio_ccw: Implement a crw lock
+1510a9d45f28a6780a4aef89c0f58b1f851cfec8 s390/zcrypt: Fix CPRB memory allocation in zcrypt misc code
+bdb2f4a7261134482240b3a2911ec572857fc860 s390/zcrypt: Improve CCA CPRB length and overflow checks
+730b2d3bfdac54884016077c802572cc4275248c s390/zcrypt: Improve EP11 CPRB length and overflow checks
+60993bba4c1d3d7f5faf2193dd59e38ad33931c7 s390/zcrypt: Improve EP11 CPRB domain handling with ASN.1 parsing
+140ba90b1764cf31ad43e4bc302cbdb4b2f9387e s390/zcrypt: Pad trailing CCA or EP11 message with zeros
+fabfc923c5443f6cb25219d5a5236099809765cb drm/amd/display: Fix NULL pointer dereference in amdgpu_dm_crtc_set_vblank()
+288f1b51644ec108dfda051b05bf827aba92efd4 drm/amd/display: fix BT.2020 YCbCr limited output CSC matrix
+9b75832a45854ecc3831e63283529dbef440e237 drm/amd/display: fix BT.2020 YCbCr output CSC matrices for DCE
+b385de84bbd8df11dc9f4151226333bc837e1ddf drm/amdgpu: Reject UVD message with invalid number of h265 refs
+1a909e04c4d0f6fa6495b78151513f63780ced8e drm/amdgpu: Prefer default discovery offset
+a22b34c983a6b0f144478923f1ddd91783eed6a3 drm/amdgpu: fix nbif 6.3.1 l1 low power not functional
+432b947874f0b4daaddc6a03064eb6df83510d74 drm/amdgpu: fix missing check in vm_flush()
+bca4ee3e2d47887863b3c36ee6ace343275f11cb drm/amdgpu: check ASPM on the dGPU host link
+02f3a7d4cbb59fa3c4ea4b78412dd1b8117c5dfe drm/amdgpu: validate GEM_CREATE domain combinations
+912eba4c1246dd40e0f3b216ebce3062b5314355 drm/amdgpu: Reject UVD message with dimensions above 4096
+2ce3599e28011b71db8db3f6c9e8a6d9c106d902 drm/amdgpu: Implement insert_end for VCE 3
+7fcd09f0b6b1c9ce80d580773e41a322a620a148 drm/amdgpu: Fix UVD min buffer sizes
+c2387c8014f22f6cf1dc923771ec63fa4725b3ac drm/amdgpu: Fix UVD dpb min size calculation for H264
+db905eba2b832a0a4858e3c259d770fe4f91bd93 drm/amdgpu: Fix UVD decode image min size calculation
+10633a25e27b5ed907a430def62c0804f3949ec2 drm/amdgpu: disallow multiple FENCE chunks in one submit
+31b1b047a1488f47c8befc6c0146e9de6491617a xfs: propagate errors from xfs_rtginode_load
 
---===============5949881814789610361==--
+--===============5640064513798906541==--
