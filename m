@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8085975076366629864=="
+Content-Type: multipart/mixed; boundary="===============8783209547618614722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 20 Aug 2026 19:10:38 -0000
-Message-Id: <178725303877.1889524.981562412799606761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 20 Aug 2026 19:11:15 -0000
+Message-Id: <178725307527.1890037.1218110007954652189@gitolite.kernel.org>
 
---===============8085975076366629864==
+--===============8783209547618614722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/master
-    old: 840ef6c78e6a2f694b578ecb9063241c992aaa9e
+    old: e771677c937da5808f7b6c1f0e4a97ec1a84f8a8
     new: 11260c335ec6071af5543aef73000b28f041c124
-    log: revlist-840ef6c78e6a-11260c335ec6.txt
+    log: revlist-e771677c937d-11260c335ec6.txt
 
---===============8085975076366629864==
+--===============8783209547618614722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-840ef6c78e6a-11260c335ec6.txt
+Content-Disposition: attachment; filename=revlist-e771677c937d-11260c335ec6.txt
 
 5cdcca5d62a66eda6b774110a44cba67bc1a8d1d nfc: st21nfca: validate ATR_REQ length against the received frame
 5718fc62198c38c2de5316020a90506f9e75e0bb nfc: pn533: purge fragmented skbs during cleanup
@@ -1051,4 +1051,4 @@ a4ff2be345d0abc943da8dd8da98151843b750dc Merge tag 'v7.3-p1' of git://git.kernel
 40d8c81577db09b71ee5402ba336b642d32d6a82 Merge tag 'cgroup-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 11260c335ec6071af5543aef73000b28f041c124 Merge tag 'sched_ext-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 
---===============8085975076366629864==--
+--===============8783209547618614722==--
