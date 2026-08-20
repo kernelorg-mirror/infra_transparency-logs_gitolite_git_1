@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 20 Aug 2026 02:15:40 -0000
-Message-Id: <178719214069.1029415.16046547543560847107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Thu, 20 Aug 2026 02:15:43 -0000
+Message-Id: <178719214331.1029552.13075538528257903106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/testing
-    old: f3cf44af74aa93b8cffdaf28afb3365aa9d72179
-    new: b9b37b5f678d8630699f1e8feb1ff8a06b625518
+  - ref: refs/heads/main
+    old: 219380d198eba16497642c93d40691e8811a26e4
+    new: 6451a33adb515e1c88de14fcdcb7581ce414769b
     log: |
-         cd84f32f6ae73245d0bab4ee0070c0c7d928aecc iio: accel: kionix-kx022a: use scan struct for one-shot and trigger reads
-         dde6125d0d65b924b17dc5e88fa7cc6c90229c5b iio: accel: kionix-kx022a: use iio_push_to_buffers_with_ts()
-         f50f5d161b504fa10eab984138989a555f2446cd iio: gts-helper: fix error headers
-         3c5c64efff96d49f6fc35983450e94ab097e69ba dt-bindings: iio: proximity: move LIDAR-Lite v2 out of trivial-devices
-         b9b37b5f678d8630699f1e8feb1ff8a06b625518 dt-bindings: iio: proximity: document LIDAR-Lite v3 fallback compatible
+         0ad8867fe43d3057c27d54f37e7dfd7194e91393 buildroot: update to 2026.08-rc1
+         f0e0f70054d19553f39b383c0cf88c19dab461fc build: cache SDK toolchains as external compilers
+         6451a33adb515e1c88de14fcdcb7581ce414769b qemu: replace qemu-exec with libvirt domains
          
