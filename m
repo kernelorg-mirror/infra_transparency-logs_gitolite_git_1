@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5907830728023441116=="
+Content-Type: multipart/mixed; boundary="===============2673009448134822108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 20 Aug 2026 13:53:34 -0000
-Message-Id: <178723401416.1641139.2881900218341246828@gitolite.kernel.org>
+Date: Thu, 20 Aug 2026 13:53:37 -0000
+Message-Id: <178723401707.1641266.14595940309044801780@gitolite.kernel.org>
 
---===============5907830728023441116==
+--===============2673009448134822108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 36f0f67c5c0065f65c0f4ee459cddbfe4045bccb
-    new: 5425e1a8f93c809cf379b0621c499d12701adfce
-    log: revlist-36f0f67c5c00-5425e1a8f93c.txt
+  - ref: refs/heads/mm-unstable
+    old: f846a3b344a4bf90197e294658c33bdd18120297
+    new: 4b2ae13f3393ef4b4bce0021e8762790354f369f
+    log: revlist-f846a3b344a4-4b2ae13f3393.txt
 
---===============5907830728023441116==
+--===============2673009448134822108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36f0f67c5c00-5425e1a8f93c.txt
+Content-Disposition: attachment; filename=revlist-f846a3b344a4-4b2ae13f3393.txt
 
 dc9208cfce3c1fadbe3d93dd11a24519de9307e4 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 9c0dcbe06dad13a0cb8903d96224b43162a0071b memcg: make the v1 soft limit knob inert
@@ -223,7 +223,5 @@ f13c52ab5d0fef69a096a0970779d52e11581b5c mm: include swap.h in swapops.h
 9004cb6982de9d03a32b7daa3dd6507339eaff30 mm, swap: ratelimit bad swap entry reports
 8b5cfe698768b413e70290d68eedb242504b7bf0 hugetlb: add cond_resched() to __unmap_hugepage_range()
 4b2ae13f3393ef4b4bce0021e8762790354f369f selftests/mm: check stat() return value in khugepaged get_finfo()
-9198188f0480391f7349bc5ec0c916f9b9aadc41 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-5425e1a8f93c809cf379b0621c499d12701adfce mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5907830728023441116==--
+--===============2673009448134822108==--
