@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8783209547618614722=="
+Content-Type: multipart/mixed; boundary="===============0852451193599748639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 20 Aug 2026 19:11:15 -0000
-Message-Id: <178725307527.1890037.1218110007954652189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Thu, 20 Aug 2026 19:11:33 -0000
+Message-Id: <178725309380.1890318.3397520082846980609@gitolite.kernel.org>
 
---===============8783209547618614722==
+--===============0852451193599748639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 11260c335ec6071af5543aef73000b28f041c124
     log: revlist-e771677c937d-11260c335ec6.txt
 
---===============8783209547618614722==
+--===============0852451193599748639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a4ff2be345d0abc943da8dd8da98151843b750dc Merge tag 'v7.3-p1' of git://git.kernel
 40d8c81577db09b71ee5402ba336b642d32d6a82 Merge tag 'cgroup-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 11260c335ec6071af5543aef73000b28f041c124 Merge tag 'sched_ext-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 
---===============8783209547618614722==--
+--===============0852451193599748639==--
