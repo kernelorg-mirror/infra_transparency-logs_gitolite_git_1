@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Thu, 20 Aug 2026 08:04:24 -0000
-Message-Id: <178721306449.1359290.13376025205602750143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 20 Aug 2026 08:24:07 -0000
+Message-Id: <178721424730.1378563.4444069847788777988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/b4/dma40-fixes
-    old: 8ec066edff0e2c84b9b09a74a1dcd55b42c5183f
-    new: 18e6fce7e82547c24abc4c7330fa1ab177a37414
+  - ref: refs/heads/irq/urgent
+    old: 34b7e953d19a39515f8fc6c0820ebf243ea6b026
+    new: a1ee1a1ca75b674f503c74eb8b3ca77612ba3c0c
     log: |
-         6b2d7fd04c63d17bd2f0c081eebe8eba316d77dc dmaengine: ste_dma40: Fix probe and allocation bugs
-         7f1d039e74bc665468c67dbec27c04dd2141e08b dmaengine: ste_dma40: Fix failed start cleanup
-         841e677c8257bf11ead6b0a734c6b539ebd7671f dmaengine: ste_dma40: Fix probe runtime PM disable
-         a09f8421fe1ea6a49c9dbd13e33b55e7e249d311 dmaengine: ste_dma40: Fix probe IRQ leak
-         18e6fce7e82547c24abc4c7330fa1ab177a37414 dmaengine: ste_dma40: Fix logical channel bounds check
+         3dfc0ab5fefd052c6028c4632b1fad8bdaf7967e irqchip/gic-v5: Clear per-CPU IRS data on teardown
+         ac6db0e0bee18cd4385418c752a007e1aba4ec14 irqchip/gic-v5: Synchronize CPU interface disable
+         328affc639ce9873a7a0a3fd6b8339f19767529b irqchip/gic-v5: Check get_logical_index() return value in MADT IAFFID parsing
+         aa079dbf4c2598c2613a0e464efcb2c232753c51 irqchip/gic-v5: Check for NULL LPI domain on domain teardown
+         79b115c2a29204cb7e836b0df0b8c466be4b2250 irqchip/gic-v5: Disable IRSes on probe failures
+         183750b276c229c5253b3b11581f6cd8877b753e irqchip/gic-v5: Fix gicv5_init_common() error paths
+         dc2eae1620bdb4562aa43f1c34c8427308ab4436 irqchip/gic-v5: Release IRS iomem region on driver init failure
+         9dfcc2187282816d42b9f8aa2b689c732ebbcc01 irqchip/gic-v5: Use logical cpu 0 irs_data for dynamic IST allocation
+         a1ee1a1ca75b674f503c74eb8b3ca77612ba3c0c irqchip/gic-v5: Defer default SPI and LPI IAFFID programming
          
