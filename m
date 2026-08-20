@@ -1,54 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5414627342247984279=="
+Content-Type: multipart/mixed; boundary="===============8446812119472822058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 20 Aug 2026 19:11:50 -0000
-Message-Id: <178725311050.1890904.7609925443133558422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 20 Aug 2026 19:13:07 -0000
+Message-Id: <178725318799.1891591.13341135041085722179@gitolite.kernel.org>
 
---===============5414627342247984279==
+--===============8446812119472822058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 91ec2035134982b98fab0609a9fd8480e8217dc1
-    new: 50720728b18e3c4ce660bf31ca13b7eaaefc1538
-    log: revlist-91ec20351349-50720728b18e.txt
+  - ref: refs/heads/master
+    old: 11260c335ec6071af5543aef73000b28f041c124
+    new: cf62c7084acfa9f1ef98ce81b38c934c7ea10f93
+    log: revlist-11260c335ec6-cf62c7084acf.txt
 
---===============5414627342247984279==
+--===============8446812119472822058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91ec20351349-50720728b18e.txt
+Content-Disposition: attachment; filename=revlist-11260c335ec6-cf62c7084acf.txt
 
-5d9e3bf34fec9a5d237e4b7cef4a707bc2e091bc xfrm6: fix out-of-bounds write in xfrm6_input_addr() when secpath is full
-21697720ff43b8dfa25b8e8d9ca7f56f4597fc80 esp: do not unref managed frag pages in esp_ssg_unref()
-deb232e884877bf10b4ce2580909eedec986c284 xfrm: espintcp: fix UAF during close
-e1d7c5ac1c246ce5775f604515de0a59fbf2116e xfrm: drop ESP-in-TCP packets with no ingress device
-763fe700b7c58ad64fe5202c5638848244dd4127 xfrm: avoid lock inversion in nat keepalive work
-2aed51fc58d9ce450e2c116efb956160fd06fa02 xfrm: Fix skb double-free in xfrm_dev_direct_output()
-7bad4bda74dc4713f398d3b7624ff05478e3a568 xfrm: ah6: validate routing header segments_left
-c12cbf56320fb633484ee0ca1fb7d68d6b64b213 xfrm: fix xfrm_state_construct() auth-trunc leak
-0fda52de8bbd4ca9a852c8a7ef6536cf82bd71fd Revert "esp: do not unref managed frag pages in esp_ssg_unref()"
-112e447d17f78d08485b3076a8baa1dfb9794bd8 netfilter: validate L4 headers after userspace packet writes
-e80456d79ec83b00a6bd44c377684b1632ccc3c7 netfilter: ipset: remove need to allocate memory on delete operations
-7904b94768e983bcb2be34a8d6d1f3450f5b838b netfilter: nf_tables: don't queue packet path object notifications
-5fc04d4648f4e699e0df7982e37bcdec23daf39c netfilter: nf_conntrack_expect: consolidate check for insertion of dead expectation
-322371b09058ad10d0282a0e7ec8eaa764e6aaac netfilter: ctnetlink: do not expose expectation DEAD flag
-b343ededb3f961dd44b16d148b7ada697fe80c95 netfilter: nf_tables: move set_update_list to nftables per-netns
-1e3b9e1c77fe262c6999c50f6f23c20f96faf5ce netfilter: nf_tables: call set ops .commit when building new ruleset blob
-e625a9477d12baaff4025c5f9989184a907ea8fc ipvs: fix integer overflow in ftp helper port/address parsing
-4e9442ce551ebd84b52ad649df721e2dc28af95a xfrm: bound nat keepalive state collection
-e37b2abca80473e106176e41712a369fd2f72117 xsk: fix NULL pointer dereference in __xsk_rcv()
-b74a072d8fb71d3c9ffba4a17d5943e63266fb38 net: bridge: Reject descending VLAN tunnel ranges
-3cbfd627ee720f3d2460d2cbe2fe9e4130240db6 net: ipa: fix stalled modem TX queue after runtime resume
-47cdab0d51aaa9bd85f8e4904585bd5bd4df4488 ipv6: use RCU iterator to dump route exceptions
-066ae87fe95e6a6421daf1c11eac0c8d2df7436f Merge tag 'nf-next-26-08-18' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-50720728b18e3c4ce660bf31ca13b7eaaefc1538 Merge tag 'ipsec-2026-08-18' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+a8488ecbd7ba44d65b912dfe88a73f438eba2447 kcsan: avoid unintended access checking in NMIs
+6ec12414164e9d66966909e6da08453be5b6c4cc bitmap: Replace __ASSEMBLY__ with __ASSEMBLER__ in header files
+e61575a62fae531e7c656a35e4c19f15f4ca3e1d psci: simplify hotplug_tests()
+199dc60543109ad2b7b5904297a3ff54d5a7a0b3 lib: bitmap: add tests for bitmap_find_next_zero_area_off()
+df81d444dc740778f7c7a2d4c3500136851375aa lib: bitmap: optimize bitmap_find_next_zero_area_off()
+1c61b0a6e5c472737619f74f79c390363ee258df bitops: make the *_bit_le functions use unsigned long
+1a9adacbbb1b034bfd6de9a552134423f0e41658 arm: Use sysfs_emit() for cpumask show callbacks
+bf7f33aada102e171d3777efc55be856f5591d42 powerpc: Use sysfs_emit() for cpumask show callbacks
+163d9808b9358de119b621df94a19b5cd21831bb x86/events: Use sysfs_emit() for cpumask show callbacks
+32dfaab71f28574490d2ad37674f1784c1f18b6e cpu: Use sysfs_emit() for cpumask show callback
+b4b58c39e85f703f18b05a2bf26e51fbca846b7c devfreq: Use sysfs_emit() for cpumask show callbacks
+4f984fbb7078d279ee096a944ea583470297d8dd fpga: dfl-fme-perf: Use sysfs_emit() for cpumask show
+9041d5897d8a22bc9249a958c64ccfe1bc5de4d5 hwtracing: hisi_ptt: Use sysfs_emit() for cpumask show
+bf34237870aa4151480a99595f6745f9858b3cb9 RDMA/hfi1: Use sysfs_emit() for cpumask show helper
+9e368c54216433b735456fc13058e49b7810f31f PCI/sysfs: Use sysfs_emit() for cpumask show callbacks
+b3fe8cc7374ecbb6f5194b0c69f84c11c0c68aa8 perf: Use sysfs_emit() for cpumask show callbacks
+be9eae3e839e8b1b687d4d0f3399c3db1cf796f0 lib/bitmap-str: get rid of cpumap_print_to_pagebuf()
+36f78b0dfa7df4892ba067ccf00d95a4513b4935 bitmap: Properly initialise destination bitmap for scatter & gather test
+c4f392a35c4f39ebb2c83979361b01521bc9a82e nodemask: reduce bitmap width to nr_node_ids in __nodemask_pr_numnodes()
+ae44a037ac03d7f8bc8a17da02163c7f5c63bf50 bitmap: drop bitmap_next_set_region()
+d00e89988e0192b3a1e413ec095e1699e5d23f2b ARM: dma-mapping: Treat bitmap size as allocation failure
+6abf50fde2da0f8146fde313ae567277e562f1f9 powerpc/msi: Treat bitmap size as allocation failure
+c69269f941b8c0c527ea2319556df0e21b8f3f52 crypto: ccp: Treat bitmap size as allocation failure
+e46185c13953500ed868751b944a96974eaca923 media: s5p-mfc: Treat bitmap size as allocation failure
+bf7e3686b708683efe6b7ee79ae4c83a875dbc6f bitmap: Return size when no zero area is found
+ab11176bd3a76058ecafd066d0f9c718dc80f389 x86/elf: Correct comment for STACK_RND_MASK()
+f4806cc63cc65bd752fd72d84937614dca6504ec lib: test bitmap vs IDA vs Maple Tree performance for region allocations
+216b3f432a36549767ca750e64badd71340b8c0f Merge tag 'kcsan-20260817-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/melver/linux
+ae814200e8393fa504dd246e98fcba8f5493de28 Merge tag 'bitmap-for-7.3' of https://github.com/norov/linux
+cf62c7084acfa9f1ef98ce81b38c934c7ea10f93 Merge tag 'execve-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============5414627342247984279==--
+--===============8446812119472822058==--
