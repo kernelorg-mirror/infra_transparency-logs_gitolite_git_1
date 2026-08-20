@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7977643453495588009=="
+Content-Type: multipart/mixed; boundary="===============8759371302109784512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Aug 2026 07:00:07 -0000
-Message-Id: <178720920708.1290758.12499658673415429037@gitolite.kernel.org>
+Date: Thu, 20 Aug 2026 07:00:32 -0000
+Message-Id: <178720923278.1291595.2175347962270980497@gitolite.kernel.org>
 
---===============7977643453495588009==
+--===============8759371302109784512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: f41fb7c80aba2c433d2e46242fff12e3aeed25cb
+    new: 57e0daeacc1da5a31da885b868e82d930efb2193
+    log: |
+         0f67fd0e16ce63e3d4f705e344f252cda32077ea Merge branch into tip/master: 'core/urgent'
+         2153cdcc46976dd72f2143328e83c35afaaf8db6 Merge branch into tip/master: 'irq/urgent'
+         57e0daeacc1da5a31da885b868e82d930efb2193 Merge branch into tip/master: 'locking/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: 6d3a145276d74e982d75757e5f4bcfd0aa12cd2a
-    new: f41fb7c80aba2c433d2e46242fff12e3aeed25cb
-    log: revlist-6d3a145276d7-f41fb7c80aba.txt
+    new: 57e0daeacc1da5a31da885b868e82d930efb2193
+    log: revlist-6d3a145276d7-57e0daeacc1d.txt
 
---===============7977643453495588009==
+--===============8759371302109784512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d3a145276d7-f41fb7c80aba.txt
+Content-Disposition: attachment; filename=revlist-6d3a145276d7-57e0daeacc1d.txt
 
-7f9f9045153c0d74ee98406e824b3b24878f69b7 ASoC: codecs: wcd938x: Use guard() for mutex locks
 5a230b65cebec2622f6a417671bb6df0b7e82128 ASoC: codecs: wcd939x: Use guard() for mutex locks
 c7e517ed25438f3cc572ca27fbcdb6d0dc0af04f ASoC: codecs: wm0010: Use guard() for mutex & spin locks
 b0515499ffdd5d72884eb780dc2cc58dd2a18ba8 ASoC: codecs: wm2000: Use guard() for mutex locks
@@ -1048,7 +1055,8 @@ cbad8981fa3b1fc726e6e5652e92fd76c01e543c Merge tag 'Smack-for-7.3' of https://gi
 a51ec5e8e5dae80824239f0344210060cb92a4b0 Merge tag 'integrity-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 a4ff2be345d0abc943da8dd8da98151843b750dc Merge tag 'v7.3-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 34b7e953d19a39515f8fc6c0820ebf243ea6b026 irqchip/ast2700-intc: Disable all interrupt merge banks on probe
-437f50a363c428efd43a87422817bee2274cba9b Merge branch 'linus'
-f41fb7c80aba2c433d2e46242fff12e3aeed25cb Merge branch into tip/master: 'irq/urgent'
+0f67fd0e16ce63e3d4f705e344f252cda32077ea Merge branch into tip/master: 'core/urgent'
+2153cdcc46976dd72f2143328e83c35afaaf8db6 Merge branch into tip/master: 'irq/urgent'
+57e0daeacc1da5a31da885b868e82d930efb2193 Merge branch into tip/master: 'locking/urgent'
 
---===============7977643453495588009==--
+--===============8759371302109784512==--
