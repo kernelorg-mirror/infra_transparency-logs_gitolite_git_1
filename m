@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Thu, 20 Aug 2026 01:27:32 -0000
-Message-Id: <178718925209.992627.17036012150243271824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 20 Aug 2026 01:38:28 -0000
+Message-Id: <178718990840.1001553.13333078297000683871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 868d32c873f21e5eead8d23ffcb456d4e9440508
-    new: d63c645423bbd274ba66b891f112ed0616d90fb1
+  - ref: refs/heads/fixes-togreg
+    old: 6933c59ebb70436df2c882cd208392a98ce63c6d
+    new: 16989c88e98fb6b795d514ba81ecb5493babfe09
     log: |
-         b8105bb5a6ed2cc94b63b031878754315e5342d7 hkml: add version command
-         d63c645423bbd274ba66b891f112ed0616d90fb1 hkml_tag: profile entire tag files write time
+         16989c88e98fb6b795d514ba81ecb5493babfe09 iio: frequency: adf4377: Make sure clk_init_data is fully initialized
          
