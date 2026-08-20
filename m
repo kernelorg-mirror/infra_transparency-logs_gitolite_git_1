@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 20 Aug 2026 04:16:43 -0000
-Message-Id: <178719940343.1114518.1310937108197927325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 20 Aug 2026 04:19:28 -0000
+Message-Id: <178719956843.1115432.8195058178827706221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/kvmarm-7.3
-    old: 0000000000000000000000000000000000000000
-    new: 21cc9fe39f8b6d24463d9a108bd414f995eb295e
+  - ref: refs/heads/master
+    old: 9159e91186f7b6ed20b41e377092c01b5e3d7aac
+    new: 786eb22656b8d4f06dc50e462bf549ddd831d68a
+    log: |
+         786eb22656b8d4f06dc50e462bf549ddd831d68a Fixes for all trees
+         
