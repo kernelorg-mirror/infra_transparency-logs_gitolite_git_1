@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 20 Aug 2026 21:10:38 -0000
-Message-Id: <178726023888.1981269.7714328045667590560@gitolite.kernel.org>
+Date: Thu, 20 Aug 2026 21:12:29 -0000
+Message-Id: <178726034926.1982445.16977562564638371583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 52ffb39e710db4b08cb0434741b96a9baf1a1934
-    new: f2849b1fd059ec9b3281b771e6ac5aad9feee851
+    old: f2849b1fd059ec9b3281b771e6ac5aad9feee851
+    new: 5ee0ceddc7785c6dcf4a8107fef01f0414a354f4
     log: |
-         f2849b1fd059ec9b3281b771e6ac5aad9feee851 net: phylink: correctly validate returned PCS in phylink_inband_caps
+         036322025d6e440cb75fc6fecbba9a16b271a2ae net/smc: free stashed qentry before overwrite in REQ_ADD_LINK to ADD_LINK transition
+         5ee0ceddc7785c6dcf4a8107fef01f0414a354f4 net/smc: free pending qentry in smc_llc_flow_stop() before memset
          
