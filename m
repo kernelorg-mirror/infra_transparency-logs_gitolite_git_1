@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 21 Aug 2026 14:00:09 -0000
-Message-Id: <178732080940.2759920.2759784510699084274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 21 Aug 2026 14:05:29 -0000
+Message-Id: <178732112919.2763848.3425491596756630484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-7.3/upstream-fixes
-    old: 445fcd33c501be4be41806715f5b7ec80200f9f7
-    new: d0ad81b2b5feea2e8b08a529c0e0d1fbaca98333
-    log: |
-         d0ad81b2b5feea2e8b08a529c0e0d1fbaca98333 HID: hyperv: make pointer arithmetics understandable for FORTIFY_SOURCE
-         
+  - ref: refs/tags/devm_notifier_chain_register-for-7.3
+    old: a23beacd09f6b0e5b77043e02fac9147b396d4e7
+    new: 23bc896cb10114c128acb3861d91867d1d8226d6
