@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 21 Aug 2026 15:46:12 -0000
-Message-Id: <178732717232.2843542.950792145781333525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Fri, 21 Aug 2026 15:53:42 -0000
+Message-Id: <178732762267.2848071.11035478851674193750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/dev-test
-    old: fa17edb595635a645a9bb1f49f16fc42692b6241
-    new: c4d3993b19b14725923535972355250bfe77ed4f
+  - ref: refs/heads/b4/ux500-dts-ab8500-regulators
+    old: 758e5b2a1d62f68330f9f85df3f9aaea78ec3792
+    new: 32521d9e986d36d933197bea7710dfae47e3c6e0
     log: |
-         258c95150c26a30db1896eacd3bdef26314f2ca1 f2fs: avoid setting SBI_NEED_FSCK on transient resize failure
-         8ec06f50ddd8d201bd7e55b896ae28ed9d4cb7d1 f2fs: fix to migrate all curseg types during free_segment_range
-         0f448bb3767ef6119f5cdeabcae3f10d6e75aed6 f2fs: fix i_size when pinned fallocate partially fails
-         9a9ee7408a1f8271bd1978baff2dd09457054ef4 f2fs: reduce memory footprint of ino management
-         f9c899ec50ab4d32bb6a07f1f79d5fe310efb702 f2fs: use f2fs_{down, up}_(read, write}_trace() for nat_tree_lock
-         d2a70b3d25569059790f7a7ea5c4c982867d327b f2fs: fix to reset all pinned status during fggc
-         27d0e27c096d21c91650c566213c1755ef8c46cd f2fs: fix error handling on device alias check in rename and unlink
-         21f83c8cf96d4c2f572f5c5cac6ed1e052979614 f2fs: return symlink writeback errors
-         c8149c0b3089324e87c17be6a88acd2c2f2a1aed f2fs: fix to propagate error from f2fs_sync_fs()
-         c4d3993b19b14725923535972355250bfe77ed4f f2fs: don't leave the hashed inode while it's unlinked
+         953c53a0f887835d6dece8558c87838b32e38d83 dt-bindings: mfd: ab8500: Add regulators
+         1cd1ede7993e970daf6d166bdd5a1d548ef8f019 regulator: ab8500: Add buck converter support
+         e7efe4f75db83b0426bcde3c612a2a667f521de1 regulator: ab8500: Preserve OTP-enabled buck regulators
+         ca55c3e748f831ccdc04c2e0b8bfb1d3f91dfa50 ARM: dts: ux500: Add new AB8500/AB8505 regulators
+         32521d9e986d36d933197bea7710dfae47e3c6e0 ARM: dts: ux500: Fix up regulator assignments
          
