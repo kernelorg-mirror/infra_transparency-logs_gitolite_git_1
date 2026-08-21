@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7007347419806136010=="
+Content-Type: multipart/mixed; boundary="===============1339727065996782333=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 21 Aug 2026 12:49:26 -0000
-Message-Id: <178731656621.2707126.8462710472519721256@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 12:50:31 -0000
+Message-Id: <178731663180.2709729.16855825623894478196@gitolite.kernel.org>
 
---===============7007347419806136010==
+--===============1339727065996782333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
+  - ref: refs/heads/rndis
+    old: b5d11ce45f648f96e40ba9fce68ebe5341c4c03d
     new: 818bebeb63dd6bf5f4e07e145f6cdbace520a34c
-    log: revlist-8d3ae59288f1-818bebeb63dd.txt
+    log: revlist-b5d11ce45f64-818bebeb63dd.txt
 
---===============7007347419806136010==
+--===============1339727065996782333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787316540 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787316630 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1787316539-6fe887773b9fb16e8fe56552afad429f47289adb
+nonce 1787316629-802978784a8e51dd6602ba856ed138661cf81ebd
 
-8d3ae59288f1e7d58d76558a6ee96d533bc5019f 818bebeb63dd6bf5f4e07e145f6cdbace520a34c refs/heads/main
+b5d11ce45f648f96e40ba9fce68ebe5341c4c03d 818bebeb63dd6bf5f4e07e145f6cdbace520a34c refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqISTwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T2UP/A8eloaWUPJstuGOsHZq
-cuitigqlUQoKEKJ8kBvRI9GKRfDdwEcVZrwwxQ1NZBTjn6ukEL8gDmOd/jeIGIHw
-A9cOKLt6I3+o/yerRU9wJ739grZDsmGyPoHptAGPaPQJbudXQpfsrCA5aDarhp7S
-JytTsRmRk/myB9v6QPcmzaKlq52BhhLAJwud5h7vStfW+i/Bwm0zGBpUMsqBMCd+
-vytXUGhF5YPKyaymNOE+WxeR2ui+XchzvCuDz/VuDBo03+O8U4XzBWTctN3IWsvF
-Fs7Em564bW+WkMChJHFrq1DoUKXBVHwGmDbrGBjoF0PTHFtLXiCnhLVfSHptNubg
-/R15xuIxIe+7pBvN5SfKRrd0lmOtQx9CHSG88Hl6PTe47itCYMJtD6yAw3FMypgn
-rUrm6neYwk/9oLtjkDqpoUzNA4ZJpkYfA8KH8tYaOtM1In/vYiqGDDasIfNEpBqO
-D7mgm7BdT/NK0FNTtfAziO+aLqxE2+64CzusVxl4miHMqKFO8L0MQaxSyq/clffJ
-+6QZlvTt/ESVOGt6mcP4fr+/xzzVdNIv6lXIO16UY/k7HcPXHDQxchrLqiq8tlPO
-oWlEERUiK4F6QdLhsXPlyF2AjBEgaosac4S+gxFrX0llHMfVfb1jyVssyosCKwYa
-krVHzT8t76ycNNi1vvDOGw2Y
-=0dJo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqISZYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nH0QALK2Xm4WP5Ma2Ljxy0wO
+gxU6G0cKZEb3UKqSq7Ocrl5f6Z8daTL57OANfqk/123bzR6IlBLf2XvpVPGiFlmw
+vWPNB0bwOSXt0J6t3J7cAxIo0iGS9kilaQh5YJn/hrEmdsXPCUAv657WAMwzlpHt
+YXB20VXKS7QlGlsJFs7Odhopan/v+GsZyMVpp2RVjR1XXgE6FbLOmXqqSP/tVNnG
+Vj7ERx/9GL5216xXKlXbpZKd1sYBNoxyxyTORneGAwLRaG1z3uSscSvEeUjVjDFg
+9bAUC5yFohFfjpVrjJMOYP/tS4Zsx8YfoAFzp09+VG4oEHcF8bfWSZKn2Guobpit
+cdxOieKW5fxYwxKSaCzEV3EfN+MiQoTLmP+sBLpjgUHqHHLOxLGw+HtXMPe2gshv
+mZRFUztDk0iIVm178w9qN8pV6750XIbkcT0FmyxH+f/OAEcoTiLKWC5gOTYYJmy3
+cJzDsE8+uRapMLrVaKp14Z0H6Db3fLokPg6vuOjwgyXNIWSBavkVznxMKNDUydn8
+nCLufo5p8RhgC1WXnqPDd1KQQJmMfbUd+O254DkUikbTCQDBLVCdkVV15lfZ25MQ
+vQA8KtDW5K66c83w7GQl/vjO2picZMAx6HDGM12FaoZqZ9ZhNfJR7Xng3RH28Qix
+MATyxoNoGeYoOvQRtY+JZI8o
+=kd6w
 -----END PGP SIGNATURE-----
 
---===============7007347419806136010==
+--===============1339727065996782333==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d3ae59288f1-818bebeb63dd.txt
+Content-Disposition: attachment; filename=revlist-b5d11ce45f64-818bebeb63dd.txt
 
 b71ace1a003e57886ee65c21cab052d404c5b049 of: reserved_mem: Introduce devres-managed initialization function
 9d56904975097c5b040e09363aa0f9993c228e4b dt-bindings: power: Convert TI SmartReflex to DT schema
@@ -1082,4 +1082,4 @@ ed3b875bea55a3ec4837113356df2ead11115af9 Merge tag 'mm-stable-2026-08-18-18-39' 
 8dbbc7e188949b6e1f6be4e82a44dd1d8b1d6c8b Merge tag 'mm-hotfixes-stable-2026-08-19-21-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 818bebeb63dd6bf5f4e07e145f6cdbace520a34c drm/xe: Don't hand out the flat CCS storage as usable VRAM
 
---===============7007347419806136010==--
+--===============1339727065996782333==--
