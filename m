@@ -1,38 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Fri, 21 Aug 2026 21:21:16 -0000
-Message-Id: <178734727643.3097720.3795029723299214557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 21 Aug 2026 21:25:13 -0000
+Message-Id: <178734751362.3100969.17326680706859467601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 9204c0f64f400714795a65da0e43b2b0c4087897
-    new: fce739fa4f2ec83206d8d9435aa94ce22f09cdb1
+    old: 816712f583a59cf6de9df6ac5fe0ea4d47d1ae14
+    new: 8c7fac62c0d1c3b8915f596effc1ef6e95fd6b5f
     log: |
-         faceb3260ab264402ac7515538f1bb73179f6b08 ip: drop unnecessary fallback to ioctl for tx queue length
-         7385bcedf313c1e2edfc1e17c0a3659e2f137d7d SECURITY: add threat model
-         da2ccdf862cb1eab45de082cc71fcb4e5d712e78 man/ip-ntable: fix app_probes typo
-         880505966c17d90243c39e446d79da6236fb06ba v7.2.0
-         30365d0967bd4ec993600bb8f27532061bec7413 ip/bond: add lacp_strict support
-         fce739fa4f2ec83206d8d9435aa94ce22f09cdb1 Merge remote-tracking branch 'main' into next
+         3e260acd406f0a7c6422daf60ae26ae54123115b amdgpu: add GC 11.7.0 firmware
+         efc2d5a57db56a6df9c78bdea822e031f821b367 amdgpu: add GC 11.7.1 firmware
+         6ac64aa9d26c0b75661222aa314c96e1508817fd amdgpu: add PSP 15.0.0 firmware
+         c627626828a5a44fd5c5ab0b617f0860a548f639 amdgpu: add PSP 15.0.9 firmware
+         3e5fe4714e02a28d55bd8bb0798f9240ce76427e amdgpu: add DCN 4.2 firmware
+         84b00ed1fd275ed1062887d37d02635f8137476d amdgpu: add SDMA 6.1.4 firmware
+         9a53463c13f6b1acfff7e7849e3bb7a44b66528d amdgpu: add VPE 2.0.0 firmware
+         8c7fac62c0d1c3b8915f596effc1ef6e95fd6b5f Merge branch 'amd-staging' into 'main'
          
-  - ref: refs/heads/master
-    old: 9204c0f64f400714795a65da0e43b2b0c4087897
-    new: fce739fa4f2ec83206d8d9435aa94ce22f09cdb1
-    log: |
-         faceb3260ab264402ac7515538f1bb73179f6b08 ip: drop unnecessary fallback to ioctl for tx queue length
-         7385bcedf313c1e2edfc1e17c0a3659e2f137d7d SECURITY: add threat model
-         da2ccdf862cb1eab45de082cc71fcb4e5d712e78 man/ip-ntable: fix app_probes typo
-         880505966c17d90243c39e446d79da6236fb06ba v7.2.0
-         30365d0967bd4ec993600bb8f27532061bec7413 ip/bond: add lacp_strict support
-         fce739fa4f2ec83206d8d9435aa94ce22f09cdb1 Merge remote-tracking branch 'main' into next
-         
-  - ref: refs/tags/v7.2.0
-    old: 0000000000000000000000000000000000000000
-    new: ef50f7fb33425ec4998d8e162b9a16d5e53faca5
