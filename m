@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 21 Aug 2026 00:31:17 -0000
-Message-Id: <178727227796.2129022.16208343538089163075@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 01:06:47 -0000
+Message-Id: <178727440798.2158268.6153563825948247748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: b9b37b5f678d8630699f1e8feb1ff8a06b625518
-    new: e98dcc15d2f2fac8864397c82bb817a32d766597
+  - ref: refs/heads/fixes-togreg
+    old: 16989c88e98fb6b795d514ba81ecb5493babfe09
+    new: 0d71608ae248476e89e6e23f34343045b1beba99
     log: |
-         441ad80784b22e237b6077098c92c36eeb6a4db9 dt-bindings: trivial-devices: add Aosong AM2315 and AM2320 chips
-         e98dcc15d2f2fac8864397c82bb817a32d766597 iio: humidity: am2315: add support for am2320
+         0d71608ae248476e89e6e23f34343045b1beba99 iio: frequency: adf4377: Fully initialize clk_init_data and clk_parent_data
          
