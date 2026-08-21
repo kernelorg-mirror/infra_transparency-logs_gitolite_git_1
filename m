@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2359559236630464944=="
+Content-Type: multipart/mixed; boundary="===============0375154362071310264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Aug 2026 17:11:50 -0000
-Message-Id: <178733231024.2909694.581140038020863462@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 17:11:55 -0000
+Message-Id: <178733231544.2909886.6589113235127511389@gitolite.kernel.org>
 
---===============2359559236630464944==
+--===============0375154362071310264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a3dee9bb902ee4357fa02e49b415d7724ee0140a
     new: 746fc0787f616da418ffc04a110296fe95d53491
     log: revlist-a3dee9bb902e-746fc0787f61.txt
 
---===============2359559236630464944==
+--===============0375154362071310264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b824059a673b2283e78c7aae2c7d257aad7f0e1d vxlan: fix reading neigh ha
 e264c048709469096f3927fcd35a2c45f9e38eb8 Merge branch 'bridge-vxlan-fix-reading-neigh-ha-without-synchronization'
 746fc0787f616da418ffc04a110296fe95d53491 net: usb: cdc_ncm: add Apple MacBook Pro USB product ID 0x1902
 
---===============2359559236630464944==--
+--===============0375154362071310264==--
