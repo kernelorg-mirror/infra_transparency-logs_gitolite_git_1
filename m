@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6653852847564313856=="
+Content-Type: multipart/mixed; boundary="===============1197807276090674601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 21 Aug 2026 07:10:22 -0000
-Message-Id: <178729622251.2421170.7207103417884068139@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 07:31:37 -0000
+Message-Id: <178729749741.2435642.2982299482598207789@gitolite.kernel.org>
 
---===============6653852847564313856==
+--===============1197807276090674601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.3-fixes
-    old: 3708f6188677fa7d3eb88ac80b03a56ef415d9bc
+  - ref: refs/heads/for-next
+    old: 0877338ade31b825884a744e03f27c8de300f101
     new: 412f89fb3988a344175899776c8bc7073524ad84
-    log: revlist-3708f6188677-412f89fb3988.txt
+    log: revlist-0877338ade31-412f89fb3988.txt
 
---===============6653852847564313856==
+--===============1197807276090674601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3708f6188677-412f89fb3988.txt
+Content-Disposition: attachment; filename=revlist-0877338ade31-412f89fb3988.txt
 
 4fc945d8fdfcbe8d484a7ca840ea891b56145eda ASoC: samsung: i2s: drop secondary DAI for i2sv7 hardware variant
 00268f9452d2a0d660aa9c1bb0ca07a994af6a4f regmap: sdw-mbq: don't call an unset readable_reg callback
@@ -1051,4 +1051,4 @@ e2f62a9744ebad3bcb6347a648e615026e9efeff xfs: fix capability check in xfs
 be9c45bdb19461889b16c91c185a284d665ea72d xfs: replace ns_capable_noaudit
 412f89fb3988a344175899776c8bc7073524ad84 capability: unexport has_capability_noaudit
 
---===============6653852847564313856==--
+--===============1197807276090674601==--
