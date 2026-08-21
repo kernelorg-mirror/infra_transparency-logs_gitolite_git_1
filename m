@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2849074905252413183=="
+Content-Type: multipart/mixed; boundary="===============7331335841515872275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 21 Aug 2026 01:36:07 -0000
-Message-Id: <178727616798.2182199.905073410874463463@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 01:36:57 -0000
+Message-Id: <178727621703.2182742.6806939802542329796@gitolite.kernel.org>
 
---===============2849074905252413183==
+--===============7331335841515872275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 9ab874896167123cb4b035bf457a96dc752ff15e
-    new: b631bdf2ff2280881870e24398cb94772f828d6f
-    log: revlist-9ab874896167-b631bdf2ff22.txt
+  - ref: refs/heads/for-next-keys
+    old: d239c5a8828cbf615a968e449efed9634d6b1f0a
+    new: 5e2d672280d97d83de43031d93761b12dadd7b8a
+    log: revlist-d239c5a8828c-5e2d672280d9.txt
 
---===============2849074905252413183==
+--===============7331335841515872275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ab874896167-b631bdf2ff22.txt
+Content-Disposition: attachment; filename=revlist-d239c5a8828c-5e2d672280d9.txt
 
+191fe151eb85ff6cb24189fc88c970745497c057 ALSA: hda/conexant: Add mute LED quirk for HP ProBook 440 G5
+931cd1d1baeae68e8eb2c23bc1f3d8934dca6241 drm/amdgpu: disallow multiple FENCE chunks in one submit
+5e9d136ad74df4edec67e502ce267597064d8f86 drm/amdgpu: validate GEM_CREATE domain combinations
+f2a1c4c6fe0a6fcde02e59dde546dba28d283635 drm/amd/display: Fix NULL pointer dereference in amdgpu_dm_crtc_set_vblank()
+47cd31185090bd1439d4587b835ac22d7ba6f1e3 drm/amdgpu: fix missing check in vm_flush()
+587be7a17358ef8c0106775fcedae5a7bef50735 drm/radeon: fix autosuspend cleanup during teardown
 2a9c5154a5650c09ad44ff5e1dff74754e15a3c6 drm/amdgpu: check ASPM on the dGPU host link
 8c9aebcdd9f46f7a14b98d6ab18574b7a48fbb08 drm/amdgpu: Reject UVD message with dimensions above 4096
 21a8084cd76223a13493237e04d45f5226d7cee6 drm/amdgpu: Fix UVD dpb min size calculation for H264
@@ -1044,11 +1050,5 @@ caf325ab81be0bc22adf75248ecd22f52f01ad21 Merge tag 'loongarch-7.3' of git://git.
 a625b2a387628df94e385faf5c81bf252f304ed9 Merge tag 'vfio-v7.3-rc1' of https://github.com/awilliam/linux-vfio
 7f063b2f17eaba2a35e251aa53627f2a70d536e2 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 5e2d672280d97d83de43031d93761b12dadd7b8a KEYS: trusted: Fix TPM teardown ordering
-c1797957f72b42a79dcd881320e150bed1abd59b tpm: tpm_i2c_nuvoton: disable IRQ on wait timeout
-9258e0e17ab4ad98958aea4b38296f01fa054fa3 tpm: Remove redundant dev_err()
-587d4794bc7ccdc7dc936b721819f6d7a7ac7c77 tpm: atmel: depend on X86
-2d8c6343a22ed58c87a4a0d3cb52d2464cc84464 tpm: tpm_tis_spi: fix nodef CR50 tpm_tis_spi_resume is null
-04f97f888b18b71e7c0ec65e64b6630f98d26fdc tpm: st33zp24: Return zero on status read failure
-b631bdf2ff2280881870e24398cb94772f828d6f tpm: st33zp24: Validate locality read result
 
---===============2849074905252413183==--
+--===============7331335841515872275==--
