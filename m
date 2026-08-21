@@ -1,119 +1,117 @@
-Content-Type: multipart/mixed; boundary="===============0847129187110724296=="
+Content-Type: multipart/mixed; boundary="===============3590358127850186330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 21 Aug 2026 20:24:49 -0000
-Message-Id: <178734388932.3056737.8067280984551121496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 21 Aug 2026 20:36:30 -0000
+Message-Id: <178734459092.3066529.6074915812142115190@gitolite.kernel.org>
 
---===============0847129187110724296==
+--===============3590358127850186330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2be02a7c996aa733bb36e29e07715621b0de9736
-    new: 26260251022fbc2f248a3d747a9b2b961b18d2d8
-    log: revlist-2be02a7c996a-26260251022f.txt
+  - ref: refs/heads/dev-queue
+    old: 8488b3bd60e96b825ee4dd0843032bc6dcd1bbe1
+    new: ddb94d444660e7d658d02c10e6ddd5125178e1aa
+    log: revlist-8488b3bd60e9-ddb94d444660.txt
 
---===============0847129187110724296==
+--===============3590358127850186330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2be02a7c996a-26260251022f.txt
+Content-Disposition: attachment; filename=revlist-8488b3bd60e9-ddb94d444660.txt
 
-1a38fd13c31ed8e7c7b598cc975ecc0f41fca468 livepatch: Fix NULL pointer dereference in klp_find_func()
-e77f165d26f72c280654cff248f5106cb9a53951 kbuild: unset sub_make_done before calling kselftest build system
-8121880ddce74a6761548d797ed34ab8021fe8f1 MIPS: kernel: proc: Use two seq_putc() calls in show_cpuinfo()
-1235933df87e4fae54fdaf83fb6beeca6c23b713 MIPS: TXX9: Remove tx4938_spi_init() and txx9_spi_init()
-4e913a7350b5c9fb8bed75ee3d7e0851dd7ea98e MIPS: TXX9: Remove txx9_7segled_*() forward declarations
-0caeacb1169193b31f0a00e3b1cb2ba452ca2da4 MIPS: TXX9: rbtx4927: Use GPIO lookup table for SIO DTR
-7b3b8146d3fcd4f324f3a688e95038e47f24f84c MIPS: TXX9: rbtx4927: Use GPIO lookup table for TXx9 LEDs
-efa0ec75a010df67e4fcacc43b9ff1d6f531f015 MIPS: TXX9: Reduce TXX9_IOCLED_MAXLEDS to 3
-a84d39adcf93864aa24deada92305d0f407e42b4 MIPS: TXX9: Use GPIO lookup table for iocled LEDs
-4af9ffbec42667e4e0d2319f7176eb38328bcb80 MIPS: TXX9: Drop GPIOLIB_LEGACY select
-1d6f300c8edc7b364000bbdd389eca6f2b1f9508 MIPS: TXX9: Convert gpio_txx9 to dynamic GPIO base allocation
-b0034259e90de02c786dd49c922e3b802a10886c MIPS: TXX9: Clean up txx9_iocled_init()
-4a352e45cc773eb771f76eab68325c886310d5b9 MIPS: ip22-gio: Drop #include of <linux/mod_devicetable.h>
-8595a9689182d16ae4f9e193d56ee5e7c3c3616d bcma: gpio: Add and register software node for GPIO controller
-430efd697374891bbb289054580c29144cfc69f8 ssb: gpio: Add and register software node for GPIO controller
-27c61f8565a438b2d1dea6f6a47af0e6dc12c112 MIPS: BCM47XX: Convert buttons to software nodes
-5babe9c177c364521e3e682b949c5a8c47f4a441 ecryptfs: reject oversized encrypted_key_size in parse_tag_3_packet
-219644a3ad5518217b2d62cad6d2c36a2308c949 ecryptfs: release message context on send failure
-779972513c2fa8c7938e54976f686091dafff22f ecryptfs: hold msg ctx list lock when cleaning daemon queue
-2602b79c5b3e2f6fce12e38a670f8e3fda4e46a2 ecryptfs: pass packet set buffer size to parser
-8b2ec0f56f55477f547d332526c9ae2a8fabc0a5 ecryptfs: fix tag 11 packet exact-fit size check
-e97bbe1b2bd82ec2ae37ad2e4965b4d3e78bbf7f ecryptfs: reject too-small tag 70 packets
-95540462e630edbc8504e9537d16453d6942d143 eCryptfs: bound the packet-length peek to the user buffer
-496ec2d0852a02d2e631771b5c439130b9c7dce7 ecryptfs: show filename encryption options
-8fafd7c86fc35bd11eb34d4ab2d6282b3354f30f ecryptfs: avoid heap allocation for inode size write
-21a6287ae2489426d23979e2213033dd204aa9fa ecryptfs: use filemap_dirty_folio for address space operations
-f81cb44f9a4b88d73ee5dec4a1ccdb0232fd2e3f ecryptfs: ecryptfs_kernel.h: clean up kernel-doc comments
-09fbaddec89ebf3b6fa4b54271402186aa043a27 mips: remove dead select
-5475c03fa25f31cfd5f8c7e552f8d10347bbaad9 MIPS: ptrace: Fix syscall skipping via PTRACE_SYSCALL
-8ae6e79ee0ce7a533c005d12c9a230b273f32ef1 mips: econet: add multi-vpe capability to EN751221
-3b7711be02612845e44b5e9ef7c0b9f203cf29b6 mips: dts: econet: Describe dual-VPE 34Kc processor
-0e9f090a4e9bfae5a190ccf89eab3bf14f6b0f96 module/kallsyms: fix nextval for data symbol lookup
-df8de94eb3dce16ac9b7b2696efe9b11aed4f3a5 params: fix path of /sys/module/XYZ/parameters/ in comment
-93c29ebd1622fb0670701e1c1b3a978a5cac08b7 module: use strscpy() to copy module names in stats and dup tracking
-a3126c746ddfe1cc3f6eee70475a33906e173ece module: procfs: use matching type for accumulator in module_total_size()
-a347812c2ef0fafef587d2580be145d8101a0137 module: Remove unused DISCARD_EH_FRAME definition from module.lds.S
-391ef7a88e8fef92ec472db14422468be477f0bb xtensa/simdisk: Avoid referring to module::args
-6b722d1ec0384d2479ae453c994c6546c6093687 module: Remove unnecessary module::args
-327d44754c54060baf9679ac073a21839912be16 rust: module_param: return value by copy from `value`
-da991304c9afc0f1567033ac743ce27dcc947652 rust: module_param: support bool parameters
-d258ed8a86bb46bbbbc84fb914478259a1e694a4 module/dups: Inform duplicate requests about the result directly
-5eecb11b543f9f417bcf0dea239ff99c6af65dbd module/dups: Fix use-after-free in kmod_dup_req lifetime handling
-96e6f752fc25af366de2b3f8aa09c93963d00d2a module/dups: Avoid unnecessary kmod_dup_req allocations
-c85e76535b6d66cf89e6895721d36cf63b233c6a module/dups: Use scope-based cleanup helpers
-cc6e79b2080da3310dbf9749c6ee61ae1641ec70 module/dups: Use strcmp() to compare module names
-2a7ecc5fbde76fd48f37c2878e52c50ae8928e0a module/dups: Clean up includes
-9a5ff45689329835f874cefe5174e577d141d423 module: validate string table section types
-3dfaae04243cde460d82dfc2a7dd0bb6664d20ae params: fix charp corruption on allocation failure
-07dca8ef89fc92b89ce36d9727547b10d8e840d6 landlock: Harden sock_is_scoped() against file-less sockets
-198c43590a9c6669bac8a3518d04bf40b762c594 landlock: Document fs.resolve_unix audit blocker
-6b88ff2b9a0eb0b3b6cfc68652cb9cd9765737bb landlock: Documentation wording cleanups
-525acde34dc6b14970d9c464776120a8d2735580 selftests/landlock: Fix spelling error in fs_test comment
-173b1bd8730825e1f6862dbd07856e7d68447a41 selftests/landlock: Use an actual chardev for MAKE_CHAR audit test
-672fa082d48b21e1fb62cdb184fee41513e53421 landlock: Require LANDLOCK_ACCESS_FS_MAKE_REG for whiteout creation
-ee890889b30b22f9a21636061def7a04e4f89380 selftests/landlock: Add tests for whiteout object creation
-8c46c6acbebe0d8544fd1b55e5ddf36828d7b9ea selftests/landlock: Add audit test for whiteout object creation
-17522b96dc965a95b780edb376548e80fc7dab2b selftests/landlock: Test whiteout object behaviour in OverlayFS renames
-bfff8bec73106336c422783298ec189d81234045 landlock: Link the erratum documentation for whiteout objects
-c2fe8b60b8e414af48a9c09f196ef99baf09afa4 landlock: Check landlock_restrict_self(2)'s flags before privileges
-6887c03bf2600beaa1a24e0a8c00053c236c1071 landlock: Add LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS
-71f98bc6e5ad4e04f021a6bcfcdde919fcbe431e selftests/landlock: Test LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS
-f2c55c76bdbdb7233c21267cef5956a1717cff49 landlock: Document LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS
-6b3fac7fc1d6fd6f3ece67a32c48497a241a9832 samples/landlock: Add LANDLOCK_RESTRICT_SELF_NO_NEW_PRIVS to sampler
-e76ef456bb673c7fc5def433502a338631df0ebf landlock: Prepare ruleset and domain type split
-2bbba0905a795b46c20159cecf44033c96b87d22 landlock: Move domain query functions to domain.c
-38411604162e6abe02741d3c364a4df46d6f612f landlock: Split struct landlock_domain from struct landlock_ruleset
-e761a88cedeb46de17b6d9e8c7c41c7671e83a6b landlock: Split denial logging from audit into common framework
-69ca5782f812742e89faa44748968aad1a69e8b6 landlock: Decouple the per-denial logging decision from CONFIG_AUDIT
-bc62ec60343183713055cb6b6247efe0209d9cd6 landlock: Consolidate access-right and scope names in a shared header
-b4540a72be4138a97c7cb74f803e57a7350a55ec landlock: Add create_ruleset and free_ruleset tracepoints
-63747c94774d4a5a0a9d9e739da0df29937aebea landlock: Add landlock_add_rule_fs and landlock_add_rule_net tracepoints
-67567f03a4bf75905684b333f518da8c21f58514 landlock: Add create_domain and free_domain tracepoints
-132d84b16b5fe729fd228b169fa9e55f3e56b7af landlock: Add landlock_enforce_domain tracepoint
-3f1f106e4c14071ad8cb8ae6775d2d11780a7d01 landlock: Add tracepoints for rule checking
-01ce260f5ccf0fe7e38d2fd548e776f594409cf6 landlock: Add landlock_deny_access_fs and landlock_deny_access_net
-bb91730f16c064f4eb0dc15ed27814c8f9aef670 landlock: Add tracepoints for ptrace and scope denials
-2651712a15a008aa3a025563d4bc27a946ef369b selftests/landlock: Add trace event test infrastructure and tests
-30478db56cf03db2f6ecd0e0d133b12c3fe83a57 selftests/landlock: Add filesystem tracepoint tests
-6e2df0117b6b23f88755d7397270cdaa2ac99a92 selftests/landlock: Add network tracepoint tests
-aef2dd32ddedcbd85ddec02d662af6f56b5ac309 selftests/landlock: Add scope and ptrace tracepoint tests
-ac6d193de58b3b5eacf2fb8ffa48eff076cacc32 selftests/landlock: Add landlock_enforce_domain trace tests
-172b6a6d8463562b0cbebfd66f770b078f81966b landlock: Document tracepoints
-934753d26f1ed7fadeedf1b9e7df6fe75de303e8 MAINTAINERS: Replace Steve French as CIFS maintainer
-614b9fb585f143d65162f17f1a4b4ec4cbdf5794 Merge tag 'cifs-maintainer-switch-7.3-rc1' of https://git.manguebit.org/linux
-7199989f3f3194d653b024ce8e79cea6b15e38b9 Merge tag 'landlock-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-af33c5a2a9fd52f07ffb428255b7f060da1de49d Merge tag 'ecryptfs-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs
-27a59c0251e5d1f41a3a6fbae7c4dc478c34d919 Merge tag 'mips_7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-2f0f6b0773be0a1ec475097ae54848eea42adc7d Merge tag 'modules-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
-26260251022fbc2f248a3d747a9b2b961b18d2d8 Merge tag 'livepatching-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+97fb487852b69c7dec6cea18c71578cfa415c59b ice: propagate ETH56G deskew poll failures
+fc01c77c497c338f987ef5a28d7121fdc183fc6e ice: fix metadata_dst refcount handling on representor teardown
+8effa7e759ed66f823bcd027a93560ecd944eda3 ice: allow reading the last byte of the NVM and Shadow RAM regions
+dc599ea29ada2bdc07e25105a1f2a02efca61461 ixgbe: e610: add ACI dynamic debug
+78fd9f1fa079190315eeb447b61f671c63ed2d22 ice: in dvm, use outer VLAN in MAC, VLAN lookup
+8ff8648b1b5a6c1381aae31cc5ebaf4237b5ac60 ice: allow creating mac, vlan filters along mac filters
+442bf51f368b2346d317f47f257813e7c0ff4e8d ice: allow overriding lan_en, lb_en in switch
+dac8bc9c42d56aaeaf89f7c7d6dc8888df6dbd8a ice: update mac, vlan rules when toggling between VEB and VEPA
+1ad1511e6f62186b9c1151a2bbc72338f611e8f1 ice: add functions to query for vsi's pvids
+e56d04bba070234bd57de5ea6f8d583f158781a1 ice: add mac vlan to filter API
+e5439b95aef5ad6674bb4033e67ed3239a203a6a ice: in VEB, prevent "cross-vlan" traffic from hitting loopback
+612391358a7972ee87d65996ac13262e055bd79c igc: set RX hardware timestamps in igc_build_skb()
+c0f295aecff7a1fb8f4d92de90dea788d9271667 igc: enable build_skb on the non-XDP small-frame RX path
+39273ac385d218ba635e562c735026ead9d93ab6 i40e: prepare for XDP metadata ops support
+97c6e384a39e45eb0ae3b9a2449ce07575986635 i40e: add support for bpf_xdp_metadata_rx_hash()
+e581456159ca21081c1e628a29b379c7d11ce47e i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
+7d1f00ef27c7b9ca4df78927c08baa0ba35a63f6 iavf: fix VF stats not updating due to PTP command preemption
+f4e44b82af5938a11cb446a6153950a00359f84b i40e: fix napi_disable hang in i40e_down() during firmware update
+ef1031a00a4ddbfb24d1e8ddd1e1b3aa37b3b8d1 idpf: account for VLAN header when parsing RSC packet header
+eb2f64cd36948915a3f824be9c21447305cd162b ice: reduce loglevel to debug for 'Can't delete DSCP' message
+c8bf3abfb43d3063956b604793b54adaeda523f4 ice: use ice_fill_eth_hdr() in ice_fill_sw_rule()
+d798631ee5214202e38ed468f3365713c32f2eb3 ice: remove excessive memory allocation in ice_create_lag_recipe()
+f2365798662fe485d3db6e7df6c60555a04e135a ixgbe: lower IXGBE_ITR_ADAPTIVE_MAX_USECS to prevent RX starvation
+4c1a2f257c9d9c0d5bf9c2cd6f09ad5604f25eae ixgbe: add ixgbe_container_is_rx() helper and refine RX adaptive ITR
+4433ae846933df368e17b8c93567139c78abdbfd ixgbe: limit ITR decrease in latency mode to prevent ACK overdrive
+2771db6029b4d6072fcd02fc886e3820c7959e21 ixgbe: add IXGBE_ITR_ADAPTIVE_MASK_USECS constant
+b357369c13d81321442b740c5a4994eeb22119e5 ixgbe: remove ixgbe_ping_all_vfs() from link state change handlers
+785a96879169983469ad7be4003b96a1ee472580 ixgbe: use ktime_get_real_ns() in ixgbe_ptp_reset()
+2f4bad2b37e03c50157fee0233c7d1a1e63c08c1 ixgbe: use int instead of u32 for error code variables
+96450cd2ffebe9c43b993c0194986064da1b402b ice: promote Tx FIFO drain timeout message from dev_dbg to dev_warn
+74d42d4ccc03021af04a941de834449bff0f76c1 ice: translate FW to SW for max num TCs encoding
+0e6401bf032178e77111252774e78ef14b83605c ice: allow setting advertised speed and duplex for all media types
+e89888f395896814ff6579db5cc145e0cbfc19f9 ice: add PORT_AUI and PORT_NONE ethtool port type reporting
+ae87f3760546528dc865ac5ec33df1bce3a12f38 ice: reorder ice_flash_info fields to eliminate padding
+11fae7a99e3825ef97f1fe8ac39d68f567b67782 ice: improve Add/Update VSI error messages in ice_vsi_init()
+ca3099b8f4873e5cab4c48739f75fe4cdcd78e13 ice: increase OICR interrupt moderation rate to 20K interrupts/sec
+2e72aa4cee3a88d01c89cfd39a93edfc94f547a6 ice: emit user-visible info message for non-contiguous ETS TC config
+3fcc0740abce6a91daf981b6f70298f44efad7e0 ice: use inline helpers instead of memcmp() for IPv6 mask checks in ice_ethtool_fdir
+2d8d90eb37d01b2779e998ac1ba5d95951985e7e virtchnl: remove unused defines
+eff9ce5e351406459a2000337786e258a7e0c177 virtchnl, iavf, ice, i40e: store VIRTCHNL_VF_* flags in bitmaps
+ef6a59108d8d703ce98a72236c0f213c271f9ecc virtchnl, iavf, ice, i40e: add extended generic VF capability flags
+873a8f6ec4fe7cc93753ac2f89138dc7a775cc1b libie: log more info when virtchnl fails
+241b932843331a5a6c0b5b3aa580162baae5936e ice: add rx timestamp tracepoint for debugging
+1ecdfb3c8d4da190f2c0074eafd5a7d340f47808 i40e: pass the return value of skb_checksum_help()
+7e43971e90a5f981fdf14982eca9d0ebe7d4c83a iavf: pass the return value of skb_checksum_help()
+1a7fc8f710937cc6beb05d8bc30b45a09dd83446 idpf: pass the return value of skb_checksum_help()
+f6ae484085635c757a042c2c4d878b5c746d357a i40e: Avoid repeating RX filter warning
+a88857371440f51f1cce1316e024b9e780bf8bd0 iavf: convert crit_section to DECLARE_BITMAP
+a97e5c5403dc53974c86c01438a3dd5ad321aa02 ixgbe: LinkSec deprecated macros cleanup
+740253223ffeb936531741d37ad8f37ea5523ca3 ice: convert hw->agg_list from linked list to xarray
+73d7d521f30fd674702a02a08e1a9377ad39dca7 ice: count number of VSIS in agg_vsi_list
+ce2c0f74912a07c770365d409b7f00d542ad1212 ice: extract function to allocate aggregator info structure
+ea0b3859a5da3a042e4f00e12e3fe83bf59ea15a ice: remove ice_agg_node wrapper structure
+d49c4eddf80f3cc66e1298877c9114ee082168ac ice: remove unused aggregator node functions
+deaae413ee6b82494fa8511a488ac6d0e4b569ac ice: refactor ice_sched_cfg_agg to take agg_info pointer
+efb6637cbdb2cb0e1c1057f8579792482a19344a idpf: remove conditional MBX deinit from idpf_vc_core_deinit()
+0d2a6869067ee6510a1f5da34d30b806e949d7e4 idpf: implement pci error handlers
+666840c4884e3e5d6fd1b8d293746b5ad79374ce ice: rename shared Flow Director functions and structs
+b026a69b0de1ab18033e011490ffd9157afacff0 ice: remove unused ICE_FD_FLUSH_REQ from PF state
+a7b3b5639370706e40b6c0a2b08e8ba8af652685 ice: initialize ACL table
+c77b4e5fbb2c58b851c620c6bff6b05cc95d0bf2 ice: initialize ACL scenario
+e7d32d7701dfe2ac9134f8a5f32bece0497209a8 ice: create flow profile
+dc51ddbc8fe2c6f75f06ff8e8458c7502c6a58e9 Revert "ice: remove unused ice_flow_entry fields"
+42a9687fe72cec1d2a6bddda10c5277de3b24ba9 ice: use plain alloc/dealloc for ice_ntuple_fltr
+c0cda94bbf26c29e3be4ede3a63965e281cb000f ice: create ACL entry
+321a181a4f4cd7bfdb3aa53e2ed0c6dd1c6c36d0 ice: program ACL entry
+ff8b5bdc745a35162ed656e0298d1841ba431f91 ice: add ACL reset recovery and NTUPLE feature toggle
+85a17132e70ad200eb91ccdfa2860fac3b83a34f ice: re-introduce ice_dealloc_flow_entry() helper
+f8d7fb6193a1d30fbc056449147ad014a2f3aeae ice: use ACL for ntuple rules that conflict with FDir
+d11120975cef0151528273bb6d0faaefcca13993 ixgbe: E610: init Link Status Events mask just once
+e4ed5e3db1cb63d831e352466210c7c5ff1b1fa0 ixgbe: E610: prevent from disabling LSE
+c3b0ac93e7c0e41e0d8ff98a2584fcfad7b29670 ixgbe: E610: do not disable LSE on driver down/remove
+58d649768191eef256c1db1e1949faecc8b1d014 ixgbe: E610: re-enable LSE unconditionally
+da57f1202304f5a58ac647cdbefc72116e1b1756 ixgbe: E610: add MAC address runtime refresh
+9c7f8398ebe7175bb5ef9d88397b5a1051bf69d9 ixgbe: take rtnl lock before ixgbe_reset() is called
+05f905627668e75546a506e63dead8a6c93ba1f4 ixgbe: E610: force phy link to get down when interface is down
+bffa927dc67afff592bf521c13bbab58add2586c igb: detect M88E1112 100BASE-FX SGMII mode
+d3286113d24a4ad8d547940e28ff718570f238a9 igb: read SFP module EEPROM through igb_read_sfp_data_byte
+32366646999a2d4009a48221e95ca0b2503dcd49 ice: parser: use kcalloc for table allocation
+644874d44f8b0302ad20fda6dc046fc122524646 i40e: move ATR sample rate from ring to PF level
+e52a93ace1e0323ee85cc8bc2fdb00f8c341d096 i40e: add devlink parameter for Flow Director ATR sample rate
+bce41a23b98ae8946bc6b7f5776ab5cf6f0514b2 i40e: trigger PF reset when re-enabling ATR via ethtool
+b4855e53d7dda1908a574bde77c9717cd4570b19 i40e: xsk: use xdp_build_skb_from_zc() for XDP_PASS
+0edefe1da3d847abfdaaddcc739489adedc4eecf ice: monitor TSPLL lock from PTP periodic worker
+86d608c1da2fc9fa96da768c74ba6e35df3caca5 ice: add TSPLL DPLL device and TIME_REF pin for E825
+8b2422c7a547ce5d0eb59d3688152ab79639353a ice: use per-interface clock_id for E825 generic DPLLs
+ddb94d444660e7d658d02c10e6ddd5125178e1aa ixgbe: implement Total Port Shutdown for E610
 
---===============0847129187110724296==--
+--===============3590358127850186330==--
