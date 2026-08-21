@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6864543234697452920=="
+Content-Type: multipart/mixed; boundary="===============9015446148878646500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 21 Aug 2026 01:49:53 -0000
-Message-Id: <178727699319.2191176.5731010014551639110@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 01:50:15 -0000
+Message-Id: <178727701561.2193442.3448966824531729544@gitolite.kernel.org>
 
---===============6864543234697452920==
+--===============9015446148878646500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: pjw
 changes:
-  - ref: refs/heads/fixes
-    old: 8d9d4fd2a15ff961a5f4ddd8ac672ec4628542be
-    new: 5d8b56956da28eedd30620bc9c10789cf9891ecb
-    log: revlist-8d9d4fd2a15f-5d8b56956da2.txt
+  - ref: refs/heads/for-next
+    old: 8da45c93dfa98f25b148512d92ecfa75d027a5cc
+    new: 9af29da26678f9c14a6e743100b4521fb8f761f4
+    log: revlist-8da45c93dfa9-9af29da26678.txt
 
---===============6864543234697452920==
+--===============9015446148878646500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d9d4fd2a15f-5d8b56956da2.txt
+Content-Disposition: attachment; filename=revlist-8da45c93dfa9-9af29da26678.txt
 
-b2690523a71fedf92c0bd1f8908c1cd7b62e26f6 selftests: net: test IPV6_FL_F_REFLECT
 b5d24f604506e75bd6eb606f116e03976d89b642 selftests: net: adopt harness for flow label mgr
 0ed2ebecd5388a9ccd986437f4edfda9ea7afd5f Merge branch 'net-selftests-adjustments-to-ipv6_flowlabel_mgr'
 6bf14575c65569dcded90ef78afb8a6d57323f04 gve: fix zero-length skb frag with header-split
@@ -1050,5 +1049,6 @@ bacc5c979bb6db4b94238ffe59eb9f23930b61f1 riscv: mm: make EXECMEM_KPROBES writabl
 3c98c447483851b2182b34ab5cb0a12c960a9779 riscv: patch: skip fixmap mapping when kernel text is already writable
 e2715cca37c2e20e8428f00fbf14345c2a64f161 Revert "riscv: Reset pmm when PR_TAGGED_ADDR_ENABLE is not set"
 5d8b56956da28eedd30620bc9c10789cf9891ecb riscv: use string helper in setup_global_riscv_enable()
+9af29da26678f9c14a6e743100b4521fb8f761f4 riscv: Add support for early boot errata application on MIPS chips
 
---===============6864543234697452920==--
+--===============9015446148878646500==--
