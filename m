@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6646058058518257787=="
+Content-Type: multipart/mixed; boundary="===============3044749514359386149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Aug 2026 17:12:04 -0000
-Message-Id: <178733232479.2910199.7884051477350191490@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 17:12:15 -0000
+Message-Id: <178733233554.2910488.10054273010959013800@gitolite.kernel.org>
 
---===============6646058058518257787==
+--===============3044749514359386149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,83 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: a3dee9bb902ee4357fa02e49b415d7724ee0140a
-    new: 746fc0787f616da418ffc04a110296fe95d53491
-    log: revlist-a3dee9bb902e-746fc0787f61.txt
+  - ref: refs/heads/dev-queue
+    old: 03570c7b1731e71284f3502bc0ca4a00058024b7
+    new: 46f0b8cf7522e399dd7f272485efdb8350d57b8e
+    log: revlist-03570c7b1731-46f0b8cf7522.txt
 
---===============6646058058518257787==
+--===============3044749514359386149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3dee9bb902e-746fc0787f61.txt
+Content-Disposition: attachment; filename=revlist-03570c7b1731-46f0b8cf7522.txt
 
-b09bd2d92ee1bbbf6db4533d5d9d2a7b39ae48c4 lib/crypto: tests: Add KUnit test suite for AES-GCM
-faa6c4c4e4ac69926564688a926105621295d613 kunit: irq: Continue increasing hrtimer interval for longer
-d1a5224851bec09c10b1ee0e1c46778a3d4accad kunit: irq: Unregister on-stack timer and work from debugobjects
-561131a27f5533e6e63520b4bc43d9c832a27c09 lib/crypto: aes-cmac: Use __cleanup() instead of memzero_explicit()
-3921cfc2e8155a767235801be88cbd0e4c73508d powerpc/configs: enable CONFIG_RAS to fix EDAC support
-3aeb2997680ecbce5564b6aa9a56c6d4f1fed209 rust: pwm: replace `core::mem::zeroed` with `pin_init::zeroed`
-b4e94b0418ad6dbe62b6ca53369159ed3d9f0d8c pwm: th1520: use vertical import style
-1304643a1c20badbb91b86a5084dd76cb7620c05 powerpc/pseries/iommu: switch to Default DMA window during kdump
-4900cad020c0580dfb1be27776ff10a4ef110cfa media: ipu-bridge: check all DMI entries when overriding sensor rotation
-04a8e286bb2e3a0dc37980a8b7da76da339d1a88 ALSA: hda/realtek: Add quirk for Acer Predator PH16-71
-9976513eb6422e7c3a1f35df49ad4ba2e1b9ac8b ALSA: hda/realtek: Add quirk for Lenovo Legion Pro 5 16ADR10
-9508f9f122d4af799cf4a422eb31eedd888b76d2 ALSA: usb-audio: Fix popping noise on Valeton GP-200
-a9ac75b664d917220dfe2e3c1005402d7a18e84b ALSA: pci: asihpi: use pcim_iomap for managed PCI memory mapping
-108704eecab9563a457ef6f32c7eef06e7703a5e ALSA: hda/realtek: Rename Line Out control to Headphone on ThinkPad X1 Carbon 6th
-5322e19fc5acf013784207bc38191cd418a8bb48 iommu/amd: Fix incorrect device ID in invalid PASID error message
-589f0cc1e099720aaffe4abf2d4d1a19c62a975a iommu/amd: Introduce PPR_TAG_LAST_PAGE() macro
-bc1f5ec826bfa510e7138e2be5aad23907850874 iommu/amd: Fix missing CMD_COMPLETE_PPR response for invalid PPR requests
-abdbd786c5c7f45afb4b65a3603af059104bf5b4 iommu/amd: Rate limit INVALID_PPR_REQUEST error logging
-c94252cd5bbcdab3b1a9a25c638302678fa7721f iommu/amd: Fix GN bit setting in COMPLETE_PPR_REQUEST command
-cb2860ad6c4ff7e15bb69c7e3a6842bbea743229 iommu/amd: Add SNP page mode 0 support
-3c6a2bac15247bc4f28125247ff89165324612fe Merge branches 'arm/smmu/updates', 'arm/smmu/bindings', 'mediatek', 'qualcomm/msm', 'rockchip', 'ti/omap', 'riscv', 'intel/vt-d', 'amd/amd-vi', 'core' and 'typos' into next
-5d3ae80ecddeb82b492a2cf31ac3e44412b426f4 sctp: auth: propagate HMAC calculation errors to callers
-6e70aef598a2779389be297afda9f61b3d19759f objtool/headers: Sync tools/include/linux/objtool_types.h with include/linux/objtool_types.h
-88b8d85e889e2fe1cce3e66e50c3029dda94842a selftests: net: reuseport_bpf_numa: consider cpuless numa node
-1b515771872174553fe70eadb8efecfa49035922 timekeeping: Remove the unused ktime_get_clock_ts64()
-2838bdb772e4e94591a90437bf595dba485a3162 timekeeping: Annotate auxiliary clock accessors with __must_check
-346630e46b387ad6db7b3b254ba6f6d513d64d14 dpll: zl3073x: update all DPLL channels on ref_sync_set
-84e85c325e5ed6781758685bf236021cc6aeed17 dpll: use pin owner's dpll ref for pin-level attribute setting
-b54074ffb813aa4b97585d97ae1ead69d96432b5 Merge branch 'dpll-use-pin-owner-s-dpll-ref-for-pin-level-set-callbacks'
-409d09194c4a405af555464777e903e73a13ab78 rust: doctest: use vertical import style
-ec90dfcf05f02206c280bb59af660bbb3ae177d0 rust: time: fix as_micros_ceil() rounding near i64::MAX
-2e2203d885a395cb0dfbe96fffda15b1f9fa0995 rust: time: make Delta generic over its time unit
-2e0d41002a2766cfc6742be02ea8b078567200d2 rust: time: add jiffies time unit for Delta
-d481d999967d4e7ebcecf472fc29b8f5dfcfcc29 rust: time: add Delta::as_millis_ceil()
-cdfcaa36ac93aa96df8310d7e57860f7600b2861 rust: uapi: replace direct asm-generic/ioctl.h include with linux/ioctl.h
-119b5984675cb43c2ecdf54195b418d3155eef94 rust: num: use const_assert! in Bounded
-223aa25aee82e188ddf043a8703b16e5fdfc37d8 rust: num: reject Bounded::shr overshifts at build time
-8fe5e5f62bdb9660999449a4b5eaebcc37d7f842 rust: num: add Bounded::shr_exact
-b48a0a0a76ccecec60f0568e2af4d89994b08bec pmdomain: qcom: rpmhpd: Add missing MXC and MMCX power domains for Eliza
-558df30e1c88956c11bee015c4d26b92ccd3b98d pmdomain: Merge branch fixes into next
-067f029c6463ab3bc980053bd0d50f98d7edfa3e irqchip/gic-v3: make the unmasking of pseudo-NMIs explicit when handling IRQs
-39aebe0e89469c2904e60b1e977e0d4dbf33326b arm64: entry: Avoid unnecessary local_irq_disable() on kernel exit
-b17006b45283f012a6e166517f5ca3e1af2f806a nohz: Replace dead select with choice default
-6f14f6a24f110f665023211bbfb6abc2ce12c948 ASoC: tas2781: Fix compiling warning for tasdevice_set_capture_profile_id()
-18c7d85864e554adc8fad1e8d2e9d2cb6c3911c8 timers/itimer: Zero-init old itimerval before copy to userspace
-ce76c44c34ad1d4e0b1671ba376db814afbb3e83 ASoC: Intel: KMB: Propagate -EPROBE_DEFER from IRQ lookup
-78983d82dc4c677c5cd2941ef828b1903ca51c9e ASoC: tac5xx2-sdw: select REGMAP_SOUNDWIRE_MBQ
-9e0698b77684c38f12eb86f828e8a49cc5624304 ASoC: ti: omap-twl4030: Check for missing card name after parsing
-4f20c628b62eb86babdc28cbd1befa6bd858a62d net: hns3: set msg->desc to NULL after kfree in hclge_query_reg_info()
-b8f554e13899fe2635a59f0260eec9a047247009 net: hns3: add missing const qualifier to hclge_log_error() reg parameter
-f57b277e8b6f6e6d3bc082be6b67c6bec02d5cbd net: hns3: use txqueue parameter directly in ndo_tx_timeout
-f092e1c935015ee0a0fea1a0374f4cab7b71953c spi: sprd-adi: Fix probe succeeding without registering the controller
-31397cf1819210bd63fa3d2c7d8c24f7c8667d99 Merge branch 'net-hns3-some-cleanups-for-hns3-driver'
-c10b7f5e0cb1deeba89af670d7fe19cf2454aa2b spi: meson-spifc: use devm_pm_runtime_set_active_enabled
-daa7ffd765ae67a83e77dae32c66ce2d6d995d19 ASoC: qcom: q6apm: keep the graph start count in sync with the DSP
-408866669ce01b8f2111afdea2c13d15a8960bff gpio: gpio-by-pinctrl: Apply initial value in direction output wrapper
-133c71b2c0bc976a4751f9e05ef7cdea67f964e5 spi: dw: fix wrong RX_SAMPLE_DLY setting after resume
-d3359af21fc9e7a47577ff90e821b6510ec34dee arm64: bti: Disable in-kernel BTI with recent versions of Clang
-0456323ddd676446ac79aacd69c3443e64197843 tracing: Report every TP_printk double dereference
-a8aaf7445bfcdb6e61ee4b8e4946d684c1b4a228 tracing: Cleanup event_enable_trigger_parse() by using __free()
-f12afefb7b01f94d6d66d397f323a9914edbf70e ASoC: xilinx: formatter_pcm: pass aud_drv_data to irq handlers
-ae7fd6ff4c6713270d2efe6db87a4a58ccb7cc61 regmap: sdw-mbq: Fix swap of timeout and retry times
-e4702b6ff30e2c0c52688d2c76090ee73c6e0299 spi: hisi-sfc-v3xx: Propagate errors from optional IRQ lookup
-788c49cb94a915b8cda1ce0d4742106aff0e0689 dt-bindings: hwmon: Document SMSC EMC1402/1403/1404/1428
-799bea4b95797770599df91491563f35be70a170 hwmon: (emc1403) Convert to use OF bindings
-aa85c604799790dcfbee6d15b7605321cbbdca04 hwmon: (emc1403) Add regulator support
 7a00741653f66c0b46dd6c2a41f6d7a209791105 Documentation: hwmon: (nct6775) Add missing NCT6797D and NCT6798D
 54743b5ab981d686b885c3da639d4ed6cc995e8b hwmon: (nct6775) Add NCT5585D to list of supported chips
 32a05ba399fc52661f59f38efd2e606f45eb2c8f hrtimer: Account nr_retries on recovered interrupt retries
@@ -1050,5 +984,71 @@ f2849b1fd059ec9b3281b771e6ac5aad9feee851 net: phylink: correctly validate return
 b824059a673b2283e78c7aae2c7d257aad7f0e1d vxlan: fix reading neigh ha
 e264c048709469096f3927fcd35a2c45f9e38eb8 Merge branch 'bridge-vxlan-fix-reading-neigh-ha-without-synchronization'
 746fc0787f616da418ffc04a110296fe95d53491 net: usb: cdc_ncm: add Apple MacBook Pro USB product ID 0x1902
+32bb4d44a96d9ecc78afac534f9be5daaa28bdcb ice: Fix enable_cnt imbalance on resume
+9c1a1b75d4f37b55699cfa34aa5553bc74a4d416 ice: Fix enable_cnt imbalance on PCIe error recovery
+256556cdaa43c0458aef4dda8dd989906cc29edb i40e: Fix enable_cnt imbalance on PCIe error recovery
+84b9f827c0339da8e9389ccc33aead77be353ab8 ice: fix FDB deletion
+a1db2a2402bb7e4796220a7b8a14390be1348c73 ice: init desired_dcbx_cfg in default DCB config
+bad74692fb8e82d185665645c36f9bb80fcf3839 ice: prevent integer overflow
+fee39bfbd169111b9902ebd7e4c375ae735d064e ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+8b81869202561cb83ed7ef1dd78656bbdc309636 ice: check cross-timestamp timeout bits
+f7cf0ba354fbbfcbd53ec8268b63d7a09a873844 ice: fix null-ptr dereference on false-positive tx timeout
+53cde076b57671357316829fbfa0e64db0b40d87 iavf: return 0 when TC flower filter not found after qdisc teardown
+d3cd518d8ed17e89b2bd11ed696558a3fa41c24f ice: fix asymmetric pause negotiation reporting in ethtool
+e8ae73e6e57c111c636e111f329c604377060afe ice: fix autoneg disable when link partner doesn't support AN
+303f47e8212ffb9868f461d04b45e17a431756a4 ice: support RDMA on 4+-port E830 devices
+85f2994e850f4350b1c3da0c5dee6d5aa81dd9cc ice: report EIPE checksum errors to the OS on E830
+3f7c16950a55473722a4b26325c4e4af84a8c11d ixgbe: fix SWFW semaphore timeout for X550 family
+7a0ea29e39cb416ed228b86d888a55e223812a15 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
+7eed9f3ccc50224315513186de97a018c0185156 ixgbe: fix ITR value overflow in adaptive interrupt throttling
+67230467c66b07750a4f03c7cb81b569fed837d9 ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
+cd945ba71e28b1fd5946461ff53053d13166349b ice: only free LL TS IRQ when the handler is present
+618c9daf542e4913a3f1967d688af43579b45b53 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
+c6c173b4bbe59ebd6142449e469f7286728aa7ce igb: Return state in pm_runtime_idle instead of power-down
+6fe312bf703aca5c63b4879076cccf08833e6c7a ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
+d448b86342215a1437e0f5c443cad0dad23090aa ice: Zero out the PTP control PF pointer at ice_adapter cleanup
+702c6d2ac07c2d4d6ca43b58fc3ac6f15e75cacf ice: Cache struct ice_hw pointer for split register reads
+444e79cdebee5c5b6f21f44abddab520348ec670 iavf: cap advertised max_pkt_size at the single-buffer HW limit
+114ce4419074540e7011f0c0de55bb1abf17800d igb: only strip Rx timestamp header on the first buffer of a frame
+0cb0f3e2beed9029d075a5f34e6913839486390e iavf: return EBUSY if reset in progress or not ready during MAC change
+c86a4d29967a075dd6e0f98f5be14d70c1dda754 i40e: skip unnecessary VF reset when setting trust
+029280f574393bf4c72ba6dcb36d3aaf637078e2 iavf: send MAC change request synchronously
+5b255c39aaf92ab7c1a6a3b2420002a63d783c0c ice: skip unnecessary VF reset when setting trust
+a2d50cb119507c6f12e42bb263d9ee02b15186f6 e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
+0783155874cf088229a1a190e315d7379dab8b71 ice: use global queue index in TC to-queue offload
+e7c762ba2bef75496f58394959bf1254c4d8b5fa igc: Fix RX HW timestamp reporting when NET_RX_BUSY_POLL is disabled
+b72d6e9cb26768a378ed962816210ee888178d12 i40e: unregister netdev before clearing VSI on reinit failure
+66f01ef3b44e260a40374cbd0e48b7afdd33ee06 i40e: avoid null ptr dereference in i40e_ptp_stop()
+a0c72c7345d21de1755b3109890a572e256b2c83 i40e: make ring pointers unreachable before freeing via rcu
+cc0bd4830364fa19ddb906d147f65c1e4758e4b2 i40e: avoid deadlock when calling unregister_netdev()
+cb497bed2c175568ae7d33acf1ff1519c2a50500 i40e: fix potential UAF in i40e_vsi_setup()'s error path
+35a15a83d90dce26c757c944498f658ca215a24e i40e: do not expose netdev too early
+a0c88774568a2a59ea39741d093b86126624a5c4 i40e: keep q_vectors array in sync with channel count changes
+58be66ebab004afc093d705945396b65e025ba14 ice: add missing xa_destroy for sched_node_ids
+11e6aed2628176e1bd005e262bc0ca1593455ea7 ice: skip per-VLAN promisc rules when default VSI Rx rule is set
+1e68bbae585e719cdb81af3de48547c6b7be5be5 ice: preserve uplink DFLT Rx rule on switchdev release
+66d03510811fb8f799af40d374a4564f0bca36d6 i40e: fix set_ringparam error path freeing live Tx rings
+0dbf1f1b818837764737fb593f0da7ba5e0190e0 ice: fix use-after-free in dynamic port cleanup
+8b70cdc8ff39fad2c89168e9a8d0e431943fca34 iavf: fix ASQ command buffer leak on init failure
+042de35aa0b9cbdcb5ffd3a371296b5b2eb3f16a iavf: fix QoS capabilities memory leak
+c02bc24496fb8ae69b4203174940ed0e9545c3d0 ice: fix empty PTYPE set for GTP RSS profiles
+5031f4f51993621745d7802e167cedfc98790ae4 idpf: disable DIM work before freeing q_vectors
+bec352a75abe79b183effbb89e3d3633722eae77 idpf: disable PTM on probe failure and on remove
+030fea0374004b516872c38d3929ab5ad9d71692 e1000e: Fix out-of-bounds MMIO access by validating BAR0 size
+d115dd90d84e0aee9d3f2919987d342a070f2e92 igb/igbvf: disable work items before device removal
+f94b4f4c33e17e2cbb663a639e2c39075b45eb42 i40e: xsk: fix multi-buffer XDP_PASS skb construction
+0c2e7c47b50caed996a50c9c0a5353bd82110abf iavf: fix VF stats not updating due to PTP command preemption
+119d6f41e9cebf5809d9e5231d7762eff49d4c96 i40e: fix napi_disable hang in i40e_down() during firmware update
+09408bb0eaeaae9f444e32591b66e05e43f93618 idpf: account for VLAN header when parsing RSC packet header
+55d68cd9f710dbd14b534e2799a912cbcf41f023 ice: Restore Ordered MMIO Writes for Tx Doorbells
+c192ff6acf706a19ee09f2bad68d0d25a01a7110 i40e: serialize Tx timestamp skb ownership
+a348ef9529f10bf1f9b620310701d41f97f05222 i40e: serialize timestamp configuration with PTP teardown
+22d6434b452893b6140927aa82fa07bcc5065121 i40e: synchronize reset recovery with device removal
+5a928e5f9658f59daabdf7a2588ad625b1eea8a8 i40e: replace reset polling with wait-bit synchronization
+53924409455a5127b1a0b5e79ecf3194e4717534 i40e: fix races in PTP external timestamp work handling
+6fd36485d69070f7961872c70c1c132f51ffd312 e1000e: fix incorrect modified flag check in e1000_read_nvm_spt()
+5468d064b6df688a036ce97d3bc2b37be6c390b3 idpf: fix possible race on remove during a reset
+3532272bf4cadaed71dd8c38cc85d129cf328a9f ice: Fix incorrect LLDP filter assumptions
+46f0b8cf7522e399dd7f272485efdb8350d57b8e ice: Recalibrate PHY after settime64 on E825-C
 
---===============6646058058518257787==--
+--===============3044749514359386149==--
