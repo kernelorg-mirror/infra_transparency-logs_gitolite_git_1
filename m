@@ -1,69 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6953578094248385714=="
+Content-Type: multipart/mixed; boundary="===============7086671048639314815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 21 Aug 2026 22:05:39 -0000
-Message-Id: <178734993977.3134557.6135281483869946237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Fri, 21 Aug 2026 22:56:10 -0000
+Message-Id: <178735297003.3169638.17788743688132673358@gitolite.kernel.org>
 
---===============6953578094248385714==
+--===============7086671048639314815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/pci-v7.3-changes
-    old: e9fa3f3cdba2fd1f86b51c5bad97f50475136170
-    new: 5b14d19dab99fd7707ceef67c2d276a59f32da4a
-    log: revlist-e9fa3f3cdba2-5b14d19dab99.txt
+  - ref: refs/heads/main
+    old: 880505966c17d90243c39e446d79da6236fb06ba
+    new: fce739fa4f2ec83206d8d9435aa94ce22f09cdb1
+    log: revlist-880505966c17-fce739fa4f2e.txt
 
---===============6953578094248385714==
+--===============7086671048639314815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9fa3f3cdba2-5b14d19dab99.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d358e9ad15c20cc1f5fb5015f81f66dea6d47de9 Merge branch 'pci/aer'
-606866edbcd7eacbccbdfdd8cf5daf298b2eae73 Merge branch 'pci/aspm'
-749fa6a99e73e66b96225868bbf15b66751c06fc Merge branch 'pci/doc'
-ea55835bc53825bd3486a2eaa59af4b326baa4cd Merge branch 'pci/dpc'
-cc6fa623ca8d33e2ce561ad294ac4bb478a3acd9 Merge branch 'pci/enumeration'
-908ccdf5e378e926ce92459082435138f7915a56 Merge branch 'pci/hotplug'
-c9bb08a01e6eb66b614f1662f3d6f439e46b32f3 Merge branch 'pci/p2pdma'
-057b93af1d1c5ae529de799367ffcd380f1ef14a Merge branch 'pci/pm'
-56948ac2a27528d19d2707b9a8b88b15a7327a66 Merge branch 'pci/portdrv'
-9f91b2b716a08634473c0f37fae57eebae3d5cbb Merge branch 'pci/procfs'
-f1093b32f8f0df06446c8c9c71a9ad9314b37240 Merge branch 'pci/pwrctrl'
-adea2f75b7a3c2eca7d22b1c6c90c6eed92dc2cc Merge branch 'pci/resource'
-5572ea216f891f64fb314c588d0309770ea27ff0 Merge branch 'pci/switchtec'
-c1a7b1aad517bfea7a29570bc21c22115aa41e1a Merge branch 'pci/sysfs'
-97ab14ecc7553717695b12dbf28c3f538a4b4901 Merge branch 'pci/virtualization'
-b4b07fb82b9e91958cf37e35be08d2309fa16fbe Merge branch 'pci/wake'
-625ae0ff41e5138303992547e59f665f7dcb9585 Merge branch 'pci/dt-binding'
-e3a6268803d5283f9f8cf26a4c070ee7396c9b67 Merge branch 'pci/endpoint'
-4fe60541de1176c55028aedf755a8968bfab1b97 Merge branch 'pci/controller/root-port-reset'
-c4afb0b2d3341ed0bd746705ff8fa174976afae6 Merge branch 'pci/controller/host-generic'
-1ef0f8a7f0847e988c594eed441bd2962ceabe1e Merge branch 'pci/controller/aspeed'
-4bba1f93069eea16be0e9d8cd78f9e115cb1254e Merge branch 'pci/controller/cadence'
-71aabbe6d49ba17f84a5178252dfc6ec75796ac5 Merge branch 'pci/controller/dwc'
-3e01ebb61957d1c61ce950c635b17431a07544c1 Merge branch 'pci/controller/dwc-imx6'
-ab345fad8f7f9c21e36e008fe42dc23e9a8b6a90 Merge branch 'pci/controller/dwc-keystone'
-9bb52aa1972d895b1bbd31aed5813c39ddc33a18 Merge branch 'pci/controller/dwc-meson'
-1579362594999e8357ac671ecc45775740714da9 Merge branch 'pci/controller/dwc-qcom'
-45b3d1baf4d6062ea61c23b0c60eb6e4720e4936 Merge branch 'pci/controller/dwc-rcar-gen4'
-2a66fae91e356ae0713f7e7fd3caddd089ac2c46 Merge branch 'pci/controller/dwc-spacemit-k1'
-3d3fce9435088be669e4473425877259e1cabac3 Merge branch 'pci/controller/dwc-ultrarisc'
-e6859eee417d32ef838131c1dc98dfdf01146978 Merge branch 'pci/controller/plda-host'
-2d022e66d5d962fe1323ea8f5f5f858168b06a58 Merge branch 'pci/controller/plda-starfive'
-707ba6063c47125dedb712fb075e6a7e5239218d Merge branch 'pci/controller/mediatek'
-003bb33da95b0465ea524b32c94c3534bc8e01cc Merge branch 'pci/controller/rzg3s-host'
-b130a2caf5d3f65c14e9524c65bcf0d64be298d9 Merge branch 'pci/controller/tegra264'
-e0aba454f87aeb3d2c86fcc401daa7db03061bdb Merge branch 'pci/controller/vmd'
-25a22c9078d2626fa833969c0c04c5927adf673f Merge branch 'pci/controller/xgene'
-70cbec6fec2c5b7e73d7edbeb6810e57fad66138 Merge branch 'pci/controller/misc'
-9324becc398a1f9e67c91a3d652a7c56e5afc7f4 Merge branch 'pci/misc'
+certificate version 0.1
+pusher Stephen Hemminger <stephen@networkplumber.org> 1787352969 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1787352969-486c08a9b6d1d14198569a73549899943263ac4b
 
---===============6953578094248385714==--
+880505966c17d90243c39e446d79da6236fb06ba fce739fa4f2ec83206d8d9435aa94ce22f09cdb1 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmqI14kbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+lXcP/3xYzZdDgt2CcDqIVISb
+PEpIqdP8S45P8E8NAD4ke4iuOzIHy8LZA5wf4VB4bR1+k7xf1i/qc9NKKnv43dOw
+LGMwyXq/vza2SouV14nb7P+jWdRKgIRJKSiUsuSja9bmE+YOaJqDT9DApQA4aBCj
+1e0SiIMucBaxvifbzbj93mxcuqyReD8wqRweqgsH+lOyo/xJaVeM5/X4wSTfUszj
+5VS1VlvAuNyQAiixRAnItpvHSZ0kCt7PfPGXQ3ZsA+O5j4y69m+ZHMEykQZrNW6C
+bkoikzQDCgKRu5/sjsrshcDL3MjSi4yswwaQYH8FA7fBS4/aUKFEwAac2j9EEoIG
+M82exotxzBvaAXLkR1dlzSjFvd+wuELdOWd+ZCNIrQ25fX4UdBpT6gDQ+TDpO2HY
+IysUrbx2LGjDzRhPdWVUxANX1Bx9dGJGmYLHpfbhef+PhH02mq2TIYYXyFf23mui
+mLBbNbczm/u3ddh/I0o82IZTEUcbqqDOjysxd+XmMG5rxiJ+jQDoggUej/qLRRyr
+S1M7f3ickIPqql+AF9zj18kZKaK7wakdBNzAexzdHgM02zIbRE4y3SuhWLVxmrK+
+0r2TFXVOSaMDX8UF/tf/jiPETUkrt338h/1d6uREP+HW/39GoeJEOTG4lFhesbWJ
+KFD1xYhwykXGLT4TmxqixvYc
+=kXEs
+-----END PGP SIGNATURE-----
+
+--===============7086671048639314815==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-880505966c17-fce739fa4f2e.txt
+
+92f89d0e66b2a2a889c39cd6d0846b95e61e9a87 ip: add OVPN device mode support
+3c0b939e88e440a3059944f84e05f34fe67c571f ss: stop displaying dccp sockets
+41b13849fcd17b4035aa6fc242c2c664b100323e Update kernel headers
+32e2a8832a53059cb249825215f302b883e4007a devlink: use DEVLINK_VAR_ATTR_TYPE_* in param show/set
+37c491d82cebef070173878e167076a1956dcd92 devlink: support u64-array values in devlink param show/set
+20e860c632e314a9e985f8a549ff962c1cfcaf98 ip: display DPLL pin information in link details
+39eb3a40d967b2111369001342f733e0b0f52d8c rdma: update uapi headers
+35a237091c24858cac6c6679175bb6a628cbe400 rdma: display resource limits in curr/max format
+9b464a11979d89da380f5453bd80535969864993 Update kernel headers
+144c45b656ad1b9f128f490d158b61ddfbac4908 seg6: add support for lookup attribute in SRv6 encap routes
+ce0464ea123844bfffa74e524fd5527420da13ee seg6: man: document the lookup attribute for SRv6 encap routes
+b8cdda55904b70eef1f66da17a231e2e1ba379e0 ipmaddr: use RTM_GETMULTICAST to list multicast addresses
+68f2b2cc05d366d83de229a7302ad7e6eac1a2e2 Update kernel headers
+ad2b2d95fd1149abeb50727474a3e597372fcc6f ip nexthop: support fdb destination port
+9204c0f64f400714795a65da0e43b2b0c4087897 Merge remote-tracking branch 'main' into next
+30365d0967bd4ec993600bb8f27532061bec7413 ip/bond: add lacp_strict support
+fce739fa4f2ec83206d8d9435aa94ce22f09cdb1 Merge remote-tracking branch 'main' into next
+
+--===============7086671048639314815==--
