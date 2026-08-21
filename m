@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0105632054753783372=="
+Content-Type: multipart/mixed; boundary="===============8135475047850084316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 21 Aug 2026 11:36:22 -0000
-Message-Id: <178731218244.2656269.18015102635915907404@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 11:37:20 -0000
+Message-Id: <178731224049.2656802.6133117826755546935@gitolite.kernel.org>
 
---===============0105632054753783372==
+--===============8135475047850084316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/work.coredump.filter.base
+  - ref: refs/heads/work.coredump.filter
     old: 0000000000000000000000000000000000000000
-    new: 19f075830e5d874749f55d837fc4e8af98df0559
+    new: 5870ce43c013ad564b3b83bae330b160e056df67
 
---===============0105632054753783372==
+--===============8135475047850084316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1787312181 +0200
+pusher 0x91C61BC06578DCA2! 1787312239 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1787312180-5246a8e9fbd7edc5fd0760615d4a623226a8d476
+nonce 1787312238-6d77ed531d1aae3ef5231da6fed0bbca77fff2ee
 
-0000000000000000000000000000000000000000 19f075830e5d874749f55d837fc4e8af98df0559 refs/heads/work.coredump.filter.base
+0000000000000000000000000000000000000000 5870ce43c013ad564b3b83bae330b160e056df67 refs/heads/work.coredump.filter
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaog4NQAKCRCRxhvAZXjc
-ohTrAP9NYaNrllxkI/51n6BmGy9TbU2sf81MUebk1JO9v5xIjAD9E8nvfixhC0RR
-cRaqfz29y6+FMXL59mq1AzaIQNN9wwo=
-=tLqB
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaog4bwAKCRCRxhvAZXjc
+ouuHAP0UQy6S2ppamB2WAn1C7O7w7qgYrnBNXwao3pv6m8Ko5gD9F/SiUvRVPlrZ
+tUQYxZph9PPXyFt3ZjptXapxHI7nHwo=
+=pIdi
 -----END PGP SIGNATURE-----
 
---===============0105632054753783372==--
+--===============8135475047850084316==--
