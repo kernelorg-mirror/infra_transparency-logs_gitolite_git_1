@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 21 Aug 2026 15:45:55 -0000
-Message-Id: <178732715585.2843209.4370968242588864838@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 15:46:12 -0000
+Message-Id: <178732717232.2843542.950792145781333525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 0a1703eba23707e3b2edfa2a2329352e7abc0ffa
-    new: c8149c0b3089324e87c17be6a88acd2c2f2a1aed
+  - ref: refs/heads/dev-test
+    old: fa17edb595635a645a9bb1f49f16fc42692b6241
+    new: c4d3993b19b14725923535972355250bfe77ed4f
     log: |
          258c95150c26a30db1896eacd3bdef26314f2ca1 f2fs: avoid setting SBI_NEED_FSCK on transient resize failure
          8ec06f50ddd8d201bd7e55b896ae28ed9d4cb7d1 f2fs: fix to migrate all curseg types during free_segment_range
@@ -24,4 +24,5 @@ changes:
          27d0e27c096d21c91650c566213c1755ef8c46cd f2fs: fix error handling on device alias check in rename and unlink
          21f83c8cf96d4c2f572f5c5cac6ed1e052979614 f2fs: return symlink writeback errors
          c8149c0b3089324e87c17be6a88acd2c2f2a1aed f2fs: fix to propagate error from f2fs_sync_fs()
+         c4d3993b19b14725923535972355250bfe77ed4f f2fs: don't leave the hashed inode while it's unlinked
          
