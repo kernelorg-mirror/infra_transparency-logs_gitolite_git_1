@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8135475047850084316=="
+Content-Type: multipart/mixed; boundary="===============9197343380241107624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 21 Aug 2026 11:37:20 -0000
-Message-Id: <178731224049.2656802.6133117826755546935@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 11:41:30 -0000
+Message-Id: <178731249054.2660429.495607766621534167@gitolite.kernel.org>
 
---===============8135475047850084316==
+--===============9197343380241107624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,27 +17,30 @@ user: brauner
 git_push_cert_status: E
 changes:
   - ref: refs/heads/work.coredump.filter
-    old: 0000000000000000000000000000000000000000
-    new: 5870ce43c013ad564b3b83bae330b160e056df67
+    old: 5870ce43c013ad564b3b83bae330b160e056df67
+    new: 9a7e82ef5079b343a1185b95fdf4879339830cf4
+    log: |
+         9a7e82ef5079b343a1185b95fdf4879339830cf4 coredump: select memory types per request
+         
 
---===============8135475047850084316==
+--===============9197343380241107624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1787312239 +0200
+pusher 0x91C61BC06578DCA2! 1787312489 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1787312238-6d77ed531d1aae3ef5231da6fed0bbca77fff2ee
+nonce 1787312489-231c45b1a3845dc4d1b974ace6474aa8362b6727
 
-0000000000000000000000000000000000000000 5870ce43c013ad564b3b83bae330b160e056df67 refs/heads/work.coredump.filter
+5870ce43c013ad564b3b83bae330b160e056df67 9a7e82ef5079b343a1185b95fdf4879339830cf4 refs/heads/work.coredump.filter
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaog4bwAKCRCRxhvAZXjc
-ouuHAP0UQy6S2ppamB2WAn1C7O7w7qgYrnBNXwao3pv6m8Ko5gD9F/SiUvRVPlrZ
-tUQYxZph9PPXyFt3ZjptXapxHI7nHwo=
-=pIdi
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaog5aQAKCRCRxhvAZXjc
+ovU5AP0R/PR+fdB1krZODkMSSUoScSjxErzl0Q4+HZiou40azQEA+CdVyuzjvc04
+43mvZtXulnFRN+mQ+31FAfC91N/2Jgg=
+=ZpAt
 -----END PGP SIGNATURE-----
 
---===============8135475047850084316==--
+--===============9197343380241107624==--
