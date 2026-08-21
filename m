@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8421490318905562290=="
+Content-Type: multipart/mixed; boundary="===============0214712268804327567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 21 Aug 2026 14:53:40 -0000
-Message-Id: <178732402005.2800035.6859115803094565986@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 14:55:20 -0000
+Message-Id: <178732412070.2802647.9301563763381364186@gitolite.kernel.org>
 
---===============8421490318905562290==
+--===============0214712268804327567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/aisle-tty-vcc
-    old: 51b40ab918d477a921b668c43cf08c212252212e
-    new: af523b79d74e51a6794ab63cfd95c308711fcbde
-    log: revlist-51b40ab918d4-af523b79d74e.txt
+  - ref: refs/heads/b4/module_ver_remove
+    old: b1be1303f28d7918497f8e3ebc590aa74904e74a
+    new: d8afdb0d58feb764ff012fdc934febaa0b4241ee
+    log: revlist-b1be1303f28d-d8afdb0d58fe.txt
 
---===============8421490318905562290==
+--===============0214712268804327567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787324000 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787324102 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1787323999-4ac502541fa85702230fa979a163d1a411a4ac6e
+nonce 1787324101-023ceb207a0483cf6b29ae2c27166bbe5f19a121
 
-51b40ab918d477a921b668c43cf08c212252212e af523b79d74e51a6794ab63cfd95c308711fcbde refs/heads/b4/aisle-tty-vcc
+b1be1303f28d7918497f8e3ebc590aa74904e74a d8afdb0d58feb764ff012fdc934febaa0b4241ee refs/heads/b4/module_ver_remove
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqIZmAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wYQP/3Adi3iKufEi6FOa8fFe
-UiaCvoVmJYE7UvIxZPp41Ue/6wJg9amxzVOv5LTiJdAhrf6llXGtJIAxoJFmYUxV
-H/UFEtwWMVznMFeHh//pvSvMQSlFe1yJ8uDMMiCL68bS71/2sjBdetTy95Lmr/hw
-3Dc7lT9wBK43I5+hMb89qiyfySs7syBD98DlmwdnETp6yupded/o4cBu1yE6eNJ0
-TDgX3ciT6KnG10Qu0oNbiMDz7JoE0Q2suYjB5JzqE5bn8ZE6aTDyk6h5dM/IkRJC
-TI/jG+YGXsxyEsdC6OcaG8NnLJtDfRh+uSetLdu7PfUzaCCcC/bS1yXZ/6SNGe0X
-Wnm8usDoZfGJ/QsQ9AcTMi5zzg0r5LSnA/uW6utthHyipwIMLvD48nnIHVruBrdy
-Z5vk1B0kwXwrS/se+eL1Onmt6ts9RyC4Yz2PlcrmN1lrA+KTOSP26+p2HN3r8EHQ
-qNahRxcgy9Ypl245VbnC+x3Hl9o08NexwvlkOEQqcXLEbVopPDe58ty8UMJgm04G
-m102sP9AYZdBvblYMWFT/hcYheqroSRWCltfT/jsFJvODipb4mLZl86o4Sqk51Ip
-vBUVeoGWjCfV96VfwAOK8I49OsvF7aOaaNn0WWvCpVZ6s+p5VWmrBCSnjx791La5
-7RmzJ0przWA05xcwR+0Zjufz
-=/zgm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqIZsYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EdEQAJ6TffRPPCkTMvUKLyEb
+m0tjW4YVEly0HMYhrp/puFHshFFt2BO5pleY3BKHMfHr3cFSTKJ9Ronlfv4+rR0i
+q2NTE9r6XAoSsJ2trBmsyuGNG94+5vJdycr709tLi3Cc4aZ94v8r445M7pgHdqkz
+/XSuMgy/ED011BdBsMDLcXqdU6WOEZsiTQLivIS4gGPGTL4eA3iQCX39v0pNrp5U
+Jrk2I3w7MYo2TO4HKbC/ga8M2YScR5N0WsPHXnxW1wvx0bGErGmV/Cf3nRLzPvkZ
+ktlT0fMj4WekIbzXvY4o5Vxb5xOOQWC4t+z9AnhtbISIW9aAgir9Q4DLfVGONV/3
+fnrJV4P9QqfME0Dq6zZBkYK4vgJFehTaAX2WSBcv8dpjyZRkv377pwnHqN5hN4D5
+Df1Fb+lsyRcv91gYrQ81IVF1BF1qVLlYVQRpurT2ujfNDJuWsFhjPkta3ThGfkFn
+Vh+n54yJD7EtROe9nMfCP++W+O1WJfrNlXId8RKSAcpSF7LYJPZx3Ai/FucZDbiS
+KwtSy9Kb1tTVbK1mNBVNZgBtZwGLplu5HTBQBbR4/J39E26Q1QPd82/C2vowqYAM
+qrv0SvWsIYNxp3AuZ3BG2GgbzetdErcWCvazARNx4YNL+JaZG+boGUEq+hsWfioa
+1+Sz9oO/VTzDq2hU018Rm6K4
+=DUAh
 -----END PGP SIGNATURE-----
 
---===============8421490318905562290==
+--===============0214712268804327567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51b40ab918d4-af523b79d74e.txt
+Content-Disposition: attachment; filename=revlist-b1be1303f28d-d8afdb0d58fe.txt
 
 83608e303b95d07afba1c15da0b5d9e513c2f15a bpf: Compare iterator types during state pruning
 81f209d5f7435646df047400a88bc81e0a16b9eb selftests/bpf: Test RCU iterator state pruning
@@ -1078,8 +1078,8 @@ a625b2a387628df94e385faf5c81bf252f304ed9 Merge tag 'vfio-v7.3-rc1' of https://gi
 ed3b875bea55a3ec4837113356df2ead11115af9 Merge tag 'mm-stable-2026-08-18-18-39' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 8dbbc7e188949b6e1f6be4e82a44dd1d8b1d6c8b Merge tag 'mm-hotfixes-stable-2026-08-19-21-33' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 818bebeb63dd6bf5f4e07e145f6cdbace520a34c drm/xe: Don't hand out the flat CCS storage as usable VRAM
-0df452d3520638b709d8701e38a69a76661c68d3 tty: vcc: Some small vcc bugfixes found by code scans
-1d47d524070f776d4ddc5c2eafca3a6c6a744279 tty: vcc: zero-initialize control packet in vcc_send_ctl()
-af523b79d74e51a6794ab63cfd95c308711fcbde tty: vcc: hold port lock when clearing tty pointer in vcc_cleanup
+0afcff7e62fa1aa96c3a422fdbac6e2a0d346a00 module: remove MODULE_VERSION() and srcversion
+d8fa9aae43bf29ca16025942f0fc73d7199c9db3 module: remove MODULE_VERSION()
+d8afdb0d58feb764ff012fdc934febaa0b4241ee module: remove srcversion module attribute
 
---===============8421490318905562290==--
+--===============0214712268804327567==--
