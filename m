@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3992069078413195025=="
+Content-Type: multipart/mixed; boundary="===============2849074905252413183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 21 Aug 2026 01:35:25 -0000
-Message-Id: <178727612591.2181537.6959650491073569213@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 01:36:07 -0000
+Message-Id: <178727616798.2182199.905073410874463463@gitolite.kernel.org>
 
---===============3992069078413195025==
+--===============2849074905252413183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 35300078a8f7560d68b9dd97280b845038a54625
+  - ref: refs/heads/for-next-tpm
+    old: 9ab874896167123cb4b035bf457a96dc752ff15e
     new: b631bdf2ff2280881870e24398cb94772f828d6f
-    log: revlist-35300078a8f7-b631bdf2ff22.txt
+    log: revlist-9ab874896167-b631bdf2ff22.txt
 
---===============3992069078413195025==
+--===============2849074905252413183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35300078a8f7-b631bdf2ff22.txt
+Content-Disposition: attachment; filename=revlist-9ab874896167-b631bdf2ff22.txt
 
 2a9c5154a5650c09ad44ff5e1dff74754e15a3c6 drm/amdgpu: check ASPM on the dGPU host link
 8c9aebcdd9f46f7a14b98d6ab18574b7a48fbb08 drm/amdgpu: Reject UVD message with dimensions above 4096
@@ -1051,4 +1051,4 @@ c1797957f72b42a79dcd881320e150bed1abd59b tpm: tpm_i2c_nuvoton: disable IRQ on wa
 04f97f888b18b71e7c0ec65e64b6630f98d26fdc tpm: st33zp24: Return zero on status read failure
 b631bdf2ff2280881870e24398cb94772f828d6f tpm: st33zp24: Validate locality read result
 
---===============3992069078413195025==--
+--===============2849074905252413183==--
