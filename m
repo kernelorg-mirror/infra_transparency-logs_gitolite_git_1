@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4089751146855178042=="
+Content-Type: multipart/mixed; boundary="===============1341057403278973844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 21 Aug 2026 00:16:45 -0000
-Message-Id: <178727140516.2117899.7595109184490222469@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 00:16:47 -0000
+Message-Id: <178727140780.2118059.9886409033687393177@gitolite.kernel.org>
 
---===============4089751146855178042==
+--===============1341057403278973844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5425e1a8f93c809cf379b0621c499d12701adfce
-    new: e6ec1f96013b26f437895636a2cdd2214ae8ab64
-    log: revlist-5425e1a8f93c-e6ec1f96013b.txt
+  - ref: refs/heads/mm-unstable
+    old: 4b2ae13f3393ef4b4bce0021e8762790354f369f
+    new: eca88fd2e21483bc8769d003c2fc2341b3f298e4
+    log: revlist-4b2ae13f3393-eca88fd2e214.txt
 
---===============4089751146855178042==
+--===============1341057403278973844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5425e1a8f93c-e6ec1f96013b.txt
+Content-Disposition: attachment; filename=revlist-4b2ae13f3393-eca88fd2e214.txt
 
 acae0bdc9fc28704bc102afea2cd01ab6238eb36 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 8a82083743257cb8001ef711491beeb55ad0c35f memcg: make the v1 soft limit knob inert
@@ -210,21 +210,5 @@ c174b3ca3816707c2b8fce6d076650dc224bd1e4 maple_tree: document erase and allocati
 678923906b27d3a5fee0fdab69f8a3e39e598032 maple_tree: fix argument name in header
 3b0565d7fc0fe16ef984fef6d9692d4d89a171e8 maple_tree: avoid extra gap calculation
 eca88fd2e21483bc8769d003c2fc2341b3f298e4 maple_tree: add helper mas_make_walkable()
-9e1f9d89c7490f4c8a788f7e4c8a6cab0a6bf840 selftests/mm: fix soft-dirty kselftest supported check
-6786740ad738460287ca89f85c711c677e4474b9 riscv: mm: fix concurrency in mark_new_valid_map()
-caefed13ff27fbda42c94d7c89fe76d854004c73 riscv: mm: exclude invalid THP PMDs from page table check
-6f8a7bc5a4f8a37423d51aa3f9fbf93ec4cb4967 sh: remove CONFIG_NUMA and related configuration options
-b2c42f1b2f1c448ffaa36f415011fd77c16371bf sh: mm: remove numa.c
-7ebde8939b94d4d583c05fdb8c816c71794e5b23 sh: mm: drop allocate_pgdat()
-bbfc90dcbd82fc0d7392e62e1846d1945b787c4f sh: remove setup_bootmem_node() and plat_mem_setup()
-2931209d19274ae6fb632c155e88aed9f6496a3b sh: drop dead code guarded by #ifdef CONFIG_NUMA
-21bc2c64e19829865c539e63ba6efb3b2369d8cf sh: drop include/asm/mmzone.h
-945139db6eb40709f0b10beacf6d55289ee733fc init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-8991e0f6e4d1f961ac2c3daee5c951c653b67c9b sh: init: remove call the memblock_set_node()
-466db33afe539e3010089edfc8da0be12a7460ba sh: remove SPARSEMEM related entries from Kconfig
-3b104add8a3b69445ceec23cfa3df5baeceb7619 sh: drop include/asm/sparsemem.h
-92dcffebb8d40970ec18978c33b002d9e3c6ce81 hugetlb: add cond_resched() to __unmap_hugepage_range()
-ba9f1bbcfefb63332a433cfeb665e18926352da3 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-e6ec1f96013b26f437895636a2cdd2214ae8ab64 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4089751146855178042==--
+--===============1341057403278973844==--
