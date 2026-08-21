@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4305211186978889982=="
+Content-Type: multipart/mixed; boundary="===============5285491879413986946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Fri, 21 Aug 2026 16:22:51 -0000
-Message-Id: <178732937183.2870618.9478353722078402442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 21 Aug 2026 16:32:15 -0000
+Message-Id: <178732993553.2878198.4526838082219171318@gitolite.kernel.org>
 
---===============4305211186978889982==
+--===============5285491879413986946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fix-p2p-acs-v4
-    old: f206021ca30b0fa9e62e2d60d6afe69c700f5251
-    new: cb2f7cf6d6f212c8a9d9637de4be9c885c4c7782
-    log: revlist-f206021ca30b-cb2f7cf6d6f2.txt
+  - ref: refs/heads/master
+    old: dc9e43dca3599caa88cfb93d0eed8aab1723acfc
+    new: d9dda40c8f21126303839427ebc8652167302488
+    log: |
+         d9dda40c8f21126303839427ebc8652167302488 assign some more CVE ids on request
+         
 
---===============4305211186978889982==
+--===============5285491879413986946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f206021ca30b-cb2f7cf6d6f2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f67ecc39b785815681bc78ddeba1112846047fc2 PCI/P2PDMA: Fix ACS egress control handling
-d50ae162329211f89f7881165746d6026ecf7eb0 PCI/P2PDMA: Do not tear down the allocate attribute on registration failure
-fee3481e7318a942a0f02071ede967d7a541a40e PCI/P2PDMA: Wait for RCU readers before freeing state
-3ffb4fd22745da7c9bb2f33bf0a7cd8c36480323 PCI/P2PDMA: Restrict the p2pmem search to pool backed providers
-b3c347b8d86109dbe88f3a7fdf567747bebaf667 PCI/P2PDMA: Safely terminate ACS redirect lists
-6c10ead5ec93cba8f7153a72678d2db971d5f7a8 PCI/P2PDMA: Document the pdev->p2pdma lifetime and RCU rules
-64bf0663a0f038559c269af6928b74a3d8af9395 PCI/P2PDMA: Gate the host bridge whitelist warning on verbose
-cad210848189788367d0f24b97a7f14348311391 PCI/P2PDMA: Document the Address Type assumption
-dd5c773bbda8b950edfdb7bbe5f21e174086c72b PCI: Account for Direct Translated P2P in ACS isolation checks
-687b69282c0c8f9aa85697f3ac029af75e87db2b PCI: Add ACS egress control vector accessor
-f7ac7b96b82e425fe4d57ce720d8516caa166bc4 PCI: Account for ACS egress control in isolation checks
-f8662d124114af5e5b709b5d2e83bfc27c312917 PCI/P2PDMA: Derive peer-to-peer routing from ACS control bits
-7e7e2671048b2d1d01269ea9c007d585d0e6d343 PCI/P2PDMA: Honor ACS egress control vectors
-1260a23b4c2f971ac7ab66cf657fa064cb01eadc PCI/P2PDMA: Document ACS egress control handling
-8cd2d67e12796aa42f6c00de4466b4bef2fb33e0 PCI/P2PDMA: Extract pure ACS routing decision helpers
-0f06b61f3d6db5d7afbffe4ad33a8295f12bf237 PCI/P2PDMA: Add KUnit tests for ACS routing decisions
-7d7ef85b18e18886ec4c6c3f9506b82692598427 PCI/P2PDMA: Add KUnit coverage for the ACS P2P routing walk
-8f58a97463488ebecfe7606c95b38e7f205ad263 PCI: Add KUnit coverage for ACS isolation checks
-cb2f7cf6d6f212c8a9d9637de4be9c885c4c7782 PCI/P2PDMA: Log detailed ACS routing diagnostics
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787329932 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1787329932-dd1c49b5de76d03ffc171bd43bc102ebb219347b
 
---===============4305211186978889982==--
+dc9e43dca3599caa88cfb93d0eed8aab1723acfc d9dda40c8f21126303839427ebc8652167302488 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqIfYwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ybMP/iF3qhh8azFvXnt8kTGU
+GNTP3UeRVviMOLLSs3eDVuPBsl759kH9n0Bpg69jCIFi1g/NaqQsumNhmycxrR5a
+vUhKmTVe3s0a1IxV0rpqpzp78DbUCPcmwc6j/iOjkI8jNaNTsmi58EHItt8G5KV8
+G9sbMe8zzEgUo2EIhICJCH/KYyvYrxF5wa/TEJSAkUHy/BQwwueMZwcPyQNtETVo
+crvdx+7eMIjyxGXqAhvSORtCE1SJazadxePjvJjlkP870vLVkk17nv9P5h3i7sLR
+sdm0slL/GY/oEl9hp39AhIAUYXOvsnHVEOHBGe2EKw4FeBb5s4DfYCVYmqFFykrV
+iCjCk5eXKJLxowqau2VdqCUSmJSss797yDO5qjRFEwJueJUhuxk+5Yw0BgW2I0UV
+yq0imWcYkRETminXSsql2eRRYtu8uPWt2nOldv85Va1yD8Lz0xO0TRE3aPi5rPtL
+JtnRMMhBeQ3PAgW/Qxcszpw9UUGn/KxPX2QUwA1U5kV1aW4+iTmZKTA2JT1VHZNQ
+3BzSkevCCCYjGjBqyBZ3C8Rnmwu0uTWWgJqHzckkqefqPRqSFWHs3HZbuNJjKwio
+osg+gkoIGjXiGlpfRZ2bYaH5qCHCGBtwe5lmZRnRQXAp1zTw7Sp/LOsUd4Az54sP
+6HjJ31BPlreRy2+Kv0ouncOD
+=Hfxa
+-----END PGP SIGNATURE-----
+
+--===============5285491879413986946==--
