@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5976439105666340150=="
+Content-Type: multipart/mixed; boundary="===============9022843729064257324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Aug 2026 17:35:59 -0000
-Message-Id: <178733375945.2929360.14536098181065088609@gitolite.kernel.org>
+Date: Fri, 21 Aug 2026 17:36:04 -0000
+Message-Id: <178733376433.2929720.591893399078463418@gitolite.kernel.org>
 
---===============5976439105666340150==
+--===============9022843729064257324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 25b00c01fe1062ef1f2aaa3c4ee6638ec9beb239
     new: 91ec2035134982b98fab0609a9fd8480e8217dc1
     log: revlist-25b00c01fe10-91ec20351349.txt
 
---===============5976439105666340150==
+--===============9022843729064257324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a4ff2be345d0abc943da8dd8da98151843b750dc Merge tag 'v7.3-p1' of git://git.kernel
 5a8cd539ac19f7a68e68e1d25ef9ca2ff55b8500 Merge tag 'bpf-next-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 91ec2035134982b98fab0609a9fd8480e8217dc1 Merge tag 'net-next-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============5976439105666340150==--
+--===============9022843729064257324==--
