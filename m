@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 22 Aug 2026 13:54:33 -0000
-Message-Id: <178740687363.3814081.3594050083351673870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Sat, 22 Aug 2026 13:57:32 -0000
+Message-Id: <178740705213.3817196.13068709399531333046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 6dc0d1c446afaab3f77318605ea2d47ded01bebb
-    new: 2b7a815f42aa61332cf54481225f6f97e9f8b494
-    log: |
-         2b7a815f42aa61332cf54481225f6f97e9f8b494 man/man2/statmount.2: SYNOPSIS: Fix incorrect function signature
-         
+  - ref: refs/tags/exfat-for-7.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1974750e3393a19a385bd277d4b951a08b04b2b4
