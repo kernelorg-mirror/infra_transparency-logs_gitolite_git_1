@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1445910899446001033=="
+Content-Type: multipart/mixed; boundary="===============0971399086153095891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 22 Aug 2026 21:09:19 -0000
-Message-Id: <178743295911.4184462.17711759007001701864@gitolite.kernel.org>
+Date: Sat, 22 Aug 2026 21:09:37 -0000
+Message-Id: <178743297783.4184775.17796456911967946756@gitolite.kernel.org>
 
---===============1445910899446001033==
+--===============0971399086153095891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: ec4966d0a8cee0faa78b893929e0f625af71b7b9
+    new: 1bf0b3db4e04bf871a50723cb54e1fb1a679ae9b
+    log: |
+         c6cf36ef7da1359ffb2224392ada2480ca63c41f Merge branch into tip/master: 'locking/merge'
+         00ced8edd10452f3f4afd3d0f3da3fb24bcda555 Merge branch into tip/master: 'core/urgent'
+         c324ef65c04167fdd997be48d701d7c549d9063a Merge branch into tip/master: 'irq/urgent'
+         026d1af172f56f7111d5ad7fe4350666bbfff891 Merge branch into tip/master: 'sched/urgent'
+         1bf0b3db4e04bf871a50723cb54e1fb1a679ae9b Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: 3c80747f4b112af10a4044ad4a785e6f88622d5f
-    new: ec4966d0a8cee0faa78b893929e0f625af71b7b9
-    log: revlist-3c80747f4b11-ec4966d0a8ce.txt
+    new: 1bf0b3db4e04bf871a50723cb54e1fb1a679ae9b
+    log: revlist-3c80747f4b11-1bf0b3db4e04.txt
 
---===============1445910899446001033==
+--===============0971399086153095891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c80747f4b11-ec4966d0a8ce.txt
+Content-Disposition: attachment; filename=revlist-3c80747f4b11-1bf0b3db4e04.txt
 
 faa0abae75f7116d461415ab268f70cacb736741 perf util: Sort includes and add missed explicit dependencies
 01fa2d416aceab51f97ec2769e8da9971a605eeb perf python: Add missed explicit dependencies
@@ -281,6 +291,10 @@ e888662432362ccf589c7b6919464cbc22064552 perf c2c: add HPP list parsing for func
 473f6c8f437b049f8ec015d57cd59bb983b1d85c Merge tag 'perf-tools-for-v7.3-2026-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 728785f8fb07ae9c295b1be6d7d672b9ebfc3c05 Merge tag 'exfat-for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 66fb95a521110da673090294561844c9f76ebe64 Merge tag 'caps-pr-20260820' of git://git.kernel.org/pub/scm/linux/kernel/git/sergeh/linux
-ec4966d0a8cee0faa78b893929e0f625af71b7b9 Merge branch 'linus'
+c6cf36ef7da1359ffb2224392ada2480ca63c41f Merge branch into tip/master: 'locking/merge'
+00ced8edd10452f3f4afd3d0f3da3fb24bcda555 Merge branch into tip/master: 'core/urgent'
+c324ef65c04167fdd997be48d701d7c549d9063a Merge branch into tip/master: 'irq/urgent'
+026d1af172f56f7111d5ad7fe4350666bbfff891 Merge branch into tip/master: 'sched/urgent'
+1bf0b3db4e04bf871a50723cb54e1fb1a679ae9b Merge branch into tip/master: 'timers/urgent'
 
---===============1445910899446001033==--
+--===============0971399086153095891==--
