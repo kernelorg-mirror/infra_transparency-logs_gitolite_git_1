@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1615763909365708945=="
+Content-Type: multipart/mixed; boundary="===============6614413722467525153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sat, 22 Aug 2026 10:28:20 -0000
-Message-Id: <178739450047.3669157.1581997771476772827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sat, 22 Aug 2026 10:31:54 -0000
+Message-Id: <178739471436.3672638.11234662595208321407@gitolite.kernel.org>
 
---===============1615763909365708945==
+--===============6614413722467525153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
-    log: revlist-254f49634ee1-8d3ae59288f1.txt
+  - ref: refs/heads/extcon-testing
+    old: 4fcc290389f08c4593b498777bbe7feeb42d7d62
+    new: 9ea926d4eb4378a6042312aad88c11bc8531d137
+    log: revlist-4fcc290389f0-9ea926d4eb43.txt
 
---===============1615763909365708945==
+--===============6614413722467525153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-8d3ae59288f1.txt
+Content-Disposition: attachment; filename=revlist-4fcc290389f0-9ea926d4eb43.txt
 
-1e024d2b41ee32bc06818f7f09a3562c58842cf9 ata: libata-eh: Increase STANDBY IMMEDIATE timeout
 810d07fb4cf7577847f85a6fd6273b69cad8d580 powerpc/pseries: Ensure vpa,slb_shadow & dtl are unregistered during crash
 8f45abd50aaa4155a72ec539f371dafb039786df powerpc/pseries: Skip vpa_init() for boot cpu in smp_setup_cpu()
 bddf7540099bf653eaea339e886add6f62555cf3 powerpc/970: fix nap return address corruption on async interrupt exit
@@ -1050,5 +1049,6 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
+9ea926d4eb4378a6042312aad88c11bc8531d137 extcon: ptn5150: Avoid IRQ vs probe race and drop mutex
 
---===============1615763909365708945==--
+--===============6614413722467525153==--
