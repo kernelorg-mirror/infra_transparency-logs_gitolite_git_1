@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 21 Aug 2026 23:44:20 -0000
-Message-Id: <178735586096.3203496.14788165553661862760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 22 Aug 2026 00:22:03 -0000
+Message-Id: <178735812318.3232441.9277741369930415610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dev-test
-    old: ffc11a07a856dd067c0af75ac327d628e70ee39d
-    new: 4d7a5480508b7ea98f0f6b055f982609d18ca936
+  - ref: refs/heads/testing
+    old: e98dcc15d2f2fac8864397c82bb817a32d766597
+    new: 77b1e9a8ddaa2728f111543f0bf8e3fe257db90e
     log: |
-         23ec59b67f30869894e5cf434e30ff98f6245411 fsck.f2fs: fix to avoid memory leak reported by LeakSanitizer
-         6b5d6a2b0a021b42f5c4eacb07b3715e1f65eea3 fsck.f2fs: sanity check i_extra_isize correctly
-         4d7a5480508b7ea98f0f6b055f982609d18ca936 fsck.f2fs: sanity check quota file size in v2_init_io
+         47fe4aa1596e2cc18c03afe9e8af01e207e7dd47 iio: accel: adxl380: reject out-of-range FIFO entry count
+         77b1e9a8ddaa2728f111543f0bf8e3fe257db90e iio: accel: adxl367: reject out-of-range FIFO entry count
          
