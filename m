@@ -1,44 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1768020469662481520=="
+Content-Type: multipart/mixed; boundary="===============2632266678474378781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sat, 22 Aug 2026 19:07:25 -0000
-Message-Id: <178742564567.4097245.9806954202921310076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sat, 22 Aug 2026 19:15:41 -0000
+Message-Id: <178742614109.4104112.16520077822619481639@gitolite.kernel.org>
 
---===============1768020469662481520==
+--===============2632266678474378781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/b4/ux500-dts-ab8500-regulators
-    old: aa95bdd56415c3d4e25eea454dd3340911c429b7
-    new: af98abc1b761e2373e5507a06543fff613a01f9c
-    log: revlist-aa95bdd56415-af98abc1b761.txt
+  - ref: refs/heads/noreturn
+    old: 209a478bed181eddde654870739e58f30fc7605d
+    new: dcbfbdc907dd9259c5db2924a62b1e0c57fd85d3
+    log: revlist-209a478bed18-dcbfbdc907dd.txt
 
---===============1768020469662481520==
+--===============2632266678474378781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa95bdd56415-af98abc1b761.txt
+Content-Disposition: attachment; filename=revlist-209a478bed18-dcbfbdc907dd.txt
 
-cbdb9a477b1121a398ab1bfd6172cc9d32c41a24 Add AB8500 buck regulators to the Ux500 device tree
-a9cdeb596ad23ce19661bf76990f9478190cbe0d regulator: ab8500: Fix AB8505 VANA voltage selectors
-930eb52deb8e4f5aa2a539e47bf0853f78cfcff9 regulator: ab8500: Add AB8505 VAUX3 3.05 V setting
-b80d5fc391a80bc1eb04ee3b6df432d0fff2d8b3 regulator: ab8500: Handle AB8505 VINTCORE selector 7
-3076297a62a6b8ec0bd26b4c19d56763a7607684 regulator: ab8500: Treat cut 1.0 VAUX3 as fixed
-1dccfc34a47957c9fe32f158c5d0e481622d750b regulator: ab8500: Test dedicated enable bits only
-332886114dad1e276b9166f002380de5c2c28136 regulator: ab8500: Propagate mode enable read errors
-21a932bdf6673427ace2c71e822bf5f57df81bbb regulator: ab8500: Use linear ranges for LDO voltages
-81c04b8cddc46832ae4ff4c13e6ffa987ca02f5f dt-bindings: mfd: ab8500: Add regulators
-de38aabc4cf19232adcc68826998c778213c057f regulator: ab8500: Add buck converter support
-516b27812f1b32ee0d504db55a56a23a2ac15bbc regulator: ab8500: Preserve OTP-enabled buck regulators
-b9f07e60f78769f4941c9b9e57f0db24f8ff1c01 regulator: ab8500: Use scoped guard for shared mode mutex
-d1ab5bc5d4d099a227e5016cba8c0268b4bc95cc ARM: dts: ux500: Add new AB8500/AB8505 regulators
-af98abc1b761e2373e5507a06543fff613a01f9c ARM: dts: ux500: Fix up regulator assignments
+70f2061dd45d44b2dea0d51b8a9e9293bca7dce5 objtool: Make .discard.stack_frame_non_standard non-allocatable
+4fc8c7266ee70e6c083d87001625962fdbcca572 efi/libstub: Drop .discard.addressable from the stub objects
+363c943b4aeb43ebbd27ff539fffdfc8b7d9f737 efi/loongarch: Mark loongarch efi_boot_kernel() non-standard for objtool
+e308c50c266d9be1c32fc5ca584d9872427033d4 objtool: Add ANNOTATE_IGNORE_NORETURN()
+d39991a359532a80cf0dd9d389a9aa5c3029a75b LoongArch: Annotate reboot and kexec paths as returnable
+fb22fb6538f8c3aebc9208e3dd45c16c2f3f4985 kbuild: Defer running objtool to link time for all CFG features
+6e76dc80b10b86e6cb82794b0296658ac947a519 rust: Annotate the intrinsic stubs as returnable
+a7b64230ef23acd64b541ec0e306ea011a998cb2 panic: Mark abort() __noreturn
+862a41778f65605c7bdff3c259bc726d3c4d0ca8 objtool: Detect noreturns in weak functions
+8212d30374b2d3dbbe7a2d7b14b5278381437451 x86/entry: Make rewind_stack_and_make_dead() a real function
+2b7be0c9e1a2b451e55a5f1299ca570d1a5517b9 x86/xen: Make xen_cpu_bringup_again() a real function
+fdc1842b24c39b88979c6ee2a3f211cfce8f3aae x86/xen: Make xen_start_kernel() noreturn
+2e0e7f43a43c890fb456b42cf175b71ec5167272 x86/boot: Rework how pi startup symbols get exposed to vmlinux
+8e07233d4adf41979570d3f4b1dd3bb89fccc138 objtool: Fix noreturn detection for non-sibling jumps to SYM_CODE
+e9d545bb83587d3f386d7d841e96a7ce13481769 objtool: Add options to write/read exported noreturns to/from a file
+3a60240b4aff935d9d1d6cbbc7f31ed710fd65af kbuild: Do the per-module objtool pass right before linking
+520ccaf4c2989c5e37fc65acf1a53b4b82d8be4e kbuild: Generate the noreturn list and validate modules against it
+c5650db6035c8f4bdc944bc9deb14d7fcec776c3 objtool: Add ANNOTATE_EXPORTED_NORETURN()
+dcbfbdc907dd9259c5db2924a62b1e0c57fd85d3 objtool: Annotate all module-exported noreturns
 
---===============1768020469662481520==--
+--===============2632266678474378781==--
