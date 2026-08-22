@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4151909472611664244=="
+Content-Type: multipart/mixed; boundary="===============8730308668917430052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sat, 22 Aug 2026 10:25:30 -0000
-Message-Id: <178739433038.3666312.2758904655208745547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sat, 22 Aug 2026 10:25:36 -0000
+Message-Id: <178739433639.3666561.17204764055938677693@gitolite.kernel.org>
 
---===============4151909472611664244==
+--===============8730308668917430052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
     log: revlist-7fd2df204f34-8d3ae59288f1.txt
 
---===============4151909472611664244==
+--===============8730308668917430052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
 
---===============4151909472611664244==--
+--===============8730308668917430052==--
