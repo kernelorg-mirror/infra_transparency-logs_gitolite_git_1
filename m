@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8166058242071662547=="
+Content-Type: multipart/mixed; boundary="===============0467427006070434786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sat, 22 Aug 2026 10:27:47 -0000
-Message-Id: <178739446797.3668475.16522630296462115836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Sat, 22 Aug 2026 10:27:55 -0000
+Message-Id: <178739447575.3668726.5322207182999863110@gitolite.kernel.org>
 
---===============8166058242071662547==
+--===============0467427006070434786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: c096be11c2a9d4acca8e75f1f8edeb744aceb521
-    new: 9a222650d9e70d0027126e4df5b00b1b5b678a97
-    log: revlist-c096be11c2a9-9a222650d9e7.txt
+  - ref: refs/heads/extcon-fixes
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
+    log: revlist-254f49634ee1-8d3ae59288f1.txt
 
---===============8166058242071662547==
+--===============0467427006070434786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c096be11c2a9-9a222650d9e7.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-8d3ae59288f1.txt
 
+1e024d2b41ee32bc06818f7f09a3562c58842cf9 ata: libata-eh: Increase STANDBY IMMEDIATE timeout
+810d07fb4cf7577847f85a6fd6273b69cad8d580 powerpc/pseries: Ensure vpa,slb_shadow & dtl are unregistered during crash
+8f45abd50aaa4155a72ec539f371dafb039786df powerpc/pseries: Skip vpa_init() for boot cpu in smp_setup_cpu()
+bddf7540099bf653eaea339e886add6f62555cf3 powerpc/970: fix nap return address corruption on async interrupt exit
+263e5159e00aa46bf26f3496ff7aae1fc9a6c826 powerpc: Fix exit_flags field placement in pt_regs for ptrace
 c824ab65685bb119c6c6a3a200b3428c72862d5a powerpc/boot: Fix simpleboot CPU node lookup check
 43863f6575d2211e8c5157fefb83ad0ad046aab4 powerpc/boot: Fix treeboot-currituck CPU node lookup check
 b24fc8278b70a9d27ec801a427ab4de9b769d69a powerpc/boot: Fix treeboot-akebono CPU node lookup check
@@ -1045,10 +1050,5 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-eb6eaeb5d28df03aa7a21555398f83554f587eca PM / devfreq: Fix possible null pointer issue in devfreq_add_governor()
-a0f11920bacdd86c9d1f2509f8a2bd5617040ed2 PM / devfreq: Fix available_governors_show() when no governor is set
-0f02633e08f799f5829569a0f0eb42b65ddacbe0 PM / devfreq: Optimize error return value of governor_show()
-d0d288caaae9c4d43adb2ce00ed6f8f00b43c523 PM / devfreq: event: rockchip-dfi: Fix missing clk_disable_unprepare() on error
-9a222650d9e70d0027126e4df5b00b1b5b678a97 PM / devfreq: Fix governor_store() failing when device has no current governor
 
---===============8166058242071662547==--
+--===============0467427006070434786==--
