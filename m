@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 23 Aug 2026 19:33:07 -0000
-Message-Id: <178751358765.1219927.16765521049054267455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sun, 23 Aug 2026 19:58:35 -0000
+Message-Id: <178751511503.1237435.15530069919426095171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: a284ed47ec1fd4aa63d2318d87f457cc421a93b5
-    new: 5e289c5a4a526e870efac0ca658635c47138593a
+  - ref: refs/heads/rtc-next
+    old: b418fa370ea69fc5824e70b63d9f4c93249762e7
+    new: a12eac458814f70ed9b0b2e3293b7478c7032eaa
     log: |
-         5e289c5a4a526e870efac0ca658635c47138593a bpf: Annotate bpf_obj_memcpy with data_race
-         
-  - ref: refs/heads/master
-    old: a284ed47ec1fd4aa63d2318d87f457cc421a93b5
-    new: 5e289c5a4a526e870efac0ca658635c47138593a
-    log: |
-         5e289c5a4a526e870efac0ca658635c47138593a bpf: Annotate bpf_obj_memcpy with data_race
+         db005bdaa5ff4ea52095aa213507134dcaff42cc rtc: hym8563: Make sure clk_init_data is fully initialized
+         bdcedfee8b87067dbc907e9e94310c5be4311133 rtc: m41t80: Make sure clk_init_data is fully initialized
+         096c7ef4ef6670e64ebfc22f8989cb48f560fe10 rtc: nct3018y: Make sure clk_init_data is fully initialized
+         5ef3d51a3aaae642f8e5515a2c67c17f6b7cb01c rtc: philips: Make sure clk_init_data is fully initialized
+         a12eac458814f70ed9b0b2e3293b7478c7032eaa rtc: microcrystal: Make sure clk_init_data is fully initialized
          
