@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 23 Aug 2026 14:43:44 -0000
-Message-Id: <178749622461.1016973.11096881482065049446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 23 Aug 2026 16:20:15 -0000
+Message-Id: <178750201539.1085458.2838663429782626281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/dev
-    old: f83c7a54e928b1a844cb5b0df50e286c39514f4f
-    new: ed719479a37667856d322ae6dfc10fc1b9d23dc3
+  - ref: refs/heads/for-next
+    old: 4954de7dbd1cfafecafcf7e4e801c50c11be49d9
+    new: 669e4fa766000ae4137bb02eb22ce75ba78ad32d
     log: |
-         f9cc449a6ad31d865432b69849e28b4703f7e9c4 erofs: skip sufficiently large global buffers when resizing
-         ed719479a37667856d322ae6dfc10fc1b9d23dc3 erofs: simplify z_erofs_gbuf_growsize()
+         e40f61a31688898e7cf81e91074a42f805883e4d libbpf: Avoid overflow in BTF.ext bounds check
+         669e4fa766000ae4137bb02eb22ce75ba78ad32d selftests/bpf: Allocate a larger timeout for connection
          
