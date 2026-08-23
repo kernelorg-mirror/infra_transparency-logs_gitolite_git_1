@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4507072650754314874=="
+Content-Type: multipart/mixed; boundary="===============7289472572233150637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 23 Aug 2026 07:56:09 -0000
-Message-Id: <178747176999.448730.14541080320920617075@gitolite.kernel.org>
+Date: Sun, 23 Aug 2026 07:56:41 -0000
+Message-Id: <178747180105.449076.3778249082495560216@gitolite.kernel.org>
 
---===============4507072650754314874==
+--===============7289472572233150637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/perf/merge
-    old: c364506b98ef947174c1e8554c6861383712e141
+  - ref: refs/heads/x86/merge
+    old: eb610545f051208dc951537a91f4baeaf0162ee8
     new: 2709dd5ae32f0828f386327c76bba9f39f63a1c6
-    log: revlist-c364506b98ef-2709dd5ae32f.txt
+    log: revlist-eb610545f051-2709dd5ae32f.txt
 
---===============4507072650754314874==
+--===============7289472572233150637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c364506b98ef-2709dd5ae32f.txt
+Content-Disposition: attachment; filename=revlist-eb610545f051-2709dd5ae32f.txt
 
 8621a7ed80f00f83a6741ad8bd1e1c500d2c5b74 netlink: specs: rt-route: split out the request attribute list
 b13ba4e82bfd5ab8318ae75d545cf3c23abf7a6b netlink: specs: rt-route: add the route deletion reason
@@ -1051,4 +1051,4 @@ d4fd1603f302e6d9a35e4475725479b7fde5c5d9 Merge tag 'irq-urgent-2026-08-22' of gi
 0d78592583949b531318b51763ade7ff536ba9bc Merge tag 'locking-urgent-2026-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2709dd5ae32f0828f386327c76bba9f39f63a1c6 Merge tag 'sched-urgent-2026-08-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============4507072650754314874==--
+--===============7289472572233150637==--
