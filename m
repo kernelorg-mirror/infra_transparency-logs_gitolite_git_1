@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Mon, 24 Aug 2026 04:51:42 -0000
-Message-Id: <178754710230.1625094.15817867936186869841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 24 Aug 2026 04:56:33 -0000
+Message-Id: <178754739393.1629106.16799663389997413350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/renesas-lts/v6.12.100-2026-08-04-for-test
-    old: 03c91effc0020b816ea8b2ec86424008b110d6a9
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 4e9442ce551ebd84b52ad649df721e2dc28af95a
+    new: d2f5082f9e84653fa1a9e8aebaaff23e688f5e19
+    log: |
+         d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
+         89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
+         42d100f5232f39b8ea7b00a7c2482325c7f032a4 xfrm: add missing RCU read lock in xfrm_send_migrate_state()
+         dc33262be1fe43d0eb0b84fb58c6ed42e2f64a8c xfrm: iptfs: fix runt reassembly panic from short inner tot_len
+         6973a21ee73c5567f883813c8ef414774b45892f ipv6: xfrm: use full sockets in local error paths
+         d1ebd9081879fd9ae9c8fb7e8928f19cc88ae320 xfrm: fix compat ALLOCSPI request use-after-free
+         d2f5082f9e84653fa1a9e8aebaaff23e688f5e19 xfrm: add missing rcu_read_lock(), skb_dst_force() and dev_hold() for xfrm_trans_reinject()
+         
