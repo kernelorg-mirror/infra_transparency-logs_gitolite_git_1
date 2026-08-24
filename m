@@ -1,56 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============4421138257632386027=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Aug 2026 13:58:19 -0000
-Message-Id: <178757989964.2165544.15111113690073159556@gitolite.kernel.org>
-
---===============4421138257632386027==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 24 Aug 2026 13:59:34 -0000
+Message-Id: <178757997455.2166471.7542181158604439384@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 13eaff71cff03a05e85ff7f7d8463946d823b1d2
-    new: cc7c9db565e27c4df540606c9dec3f0f02ac2d9e
-    log: |
-         cc7c9db565e27c4df540606c9dec3f0f02ac2d9e 7.2-stable patches
-         
-
---===============4421138257632386027==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787579897 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1787579897-8ced2ed389c35d1d580162cc654dddcde1ea800f
-
-13eaff71cff03a05e85ff7f7d8463946d823b1d2 cc7c9db565e27c4df540606c9dec3f0f02ac2d9e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqMTfkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ArUP/R9lNf7MTksbyvPnztOi
-wfUTYcJIJBIX3OBgWfw7BHuVMMcpX0pB++PAYj7q1WImvdw7IM9zj8TUklT4CXhl
-jOrJ+9cB6o6RxcKRJfZDBoGr4aqwYmFGWEfcsksa88WZoRc8Oy0OnH9biLdw889h
-9SexWSSnOJjwFxzhB6NP8R+Q6MiGDT6OPG7CXRDu68QvcP+FzXpdmJDQBHGMXqc4
-yHVz2G41ojTpRiSGC25ndZrxgsbIjcNo2YrnR3Wy6HJG8lcR1yhJj6Ul3yfsCg3e
-T4rgP4QsxZNX9A+69RizDN9zqKkkVBw4jNy2LmOueYQZ9zj0qeUxlF2P2qs3dRbG
-O1p5tq5iZyvlSHuNM/7D0KKwkivkxvriC3GxFTF9j7j0AixOxG/abVr0bW+u31TK
-0rC+9a1RDqJxoCwWtbgznw04Mg16/Mgbbj5vN/bGKqs2V0azFIv9sMC8GAAJDBAA
-dA+1Y5Gn72mcuJs4kMAkSY1DcTavpBPeRFa3Z4CF3oYXgMKmvoBxx8DaLo8axMqd
-xx8Q+iB3DLHLJYsG7NPHHYIeMJItQc8eUkFJXEkzufKGjs1xxASxRhDewUu9R4TK
-gSMQH2fusyD5NITADXXFLCK1d43LC1NVRyduY1BgOz6wiW8aUVe14/zP+U7earF1
-ta54DH+PmJ7KV8ECnN01mNF5
-=BDBM
------END PGP SIGNATURE-----
-
---===============4421138257632386027==--
+  - ref: refs/heads/aer
+    old: eddba19b8b5f76d57424ee328a68fd495c5db857
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/aspm
+    old: eacf92a29af970b33f7323bf3e00a25bb23c8b19
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/doc
+    old: 1af156149d9a7de8e6cc44f09f4150cb677bf1bf
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dpc
+    old: 97ca178c899d0049210d325b123ed024eb5ac000
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dt-binding
+    old: f7b2ceb411479b4c95aee1c0dd720af53367ff8b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/endpoint
+    old: 0a6f72eda328c773324555491e1ad7f0b0153155
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/enumeration
+    old: 3ffc4c9690c33ee28cdb3d0182b12f9c623e3acc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hotplug
+    old: 985fb7419fe27bc2ba17397f9bd8cc52151350ba
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/misc
+    old: ce3294cef61c85559059a9a49fa99a38df55d633
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/p2pdma
+    old: 894a78088fc3ddf7e582c814294afa4311900ccc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pm
+    old: d4c79b63d82d408c81f1629bcdc8cdbeebd85014
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/portdrv
+    old: 834171efeefffb1a0f2136f32e76669bbc11db86
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/procfs
+    old: f82f53e75eff382fc8f56b73279b54f7cf5a5c65
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pwrctrl
+    old: b9851611bad7cb227c93c1401dca48995a815d94
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/resource
+    old: 5012a69532081deb36f05e39511afb77edfabede
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/slot
+    old: 231c7a57d19304beb0931e6cbe3a4929daf49747
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/switchtec
+    old: 00a479ba1d01249d43ca5e453380d1ed60946f8a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sysfs
+    old: 1b7c9855bb686f271f4e356cc01dab788957c5fb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/virtualization
+    old: 23d7eed5974989de56273c964d7e510e4aad91e8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/wake
+    old: 071e245ab749c52338ec4eb7fe0a9bb2cee97492
+    new: 0000000000000000000000000000000000000000
