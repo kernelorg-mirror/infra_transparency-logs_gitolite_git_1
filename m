@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6429183551083534962=="
+Content-Type: multipart/mixed; boundary="===============4463037302736708910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 24 Aug 2026 13:35:07 -0000
-Message-Id: <178757850779.2142421.14296461272811208031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Aug 2026 13:39:55 -0000
+Message-Id: <178757879593.2144252.387797314286741648@gitolite.kernel.org>
 
---===============6429183551083534962==
+--===============4463037302736708910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/slab-for-7.3
-    old: 0000000000000000000000000000000000000000
-    new: 1a98d40d6fd2bb08a921b36f5cf6c212a1aaecfb
+  - ref: refs/heads/master
+    old: b4b306a678203bae34877b61a0caf19612c778a5
+    new: 278a95cd551c5606136005b23bc75d2722544d0e
+    log: |
+         278a95cd551c5606136005b23bc75d2722544d0e 6.1-stable patches
+         
 
---===============6429183551083534962==
+--===============4463037302736708910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1787578504 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1787578504-52663457fcf2caf816168cac0db4201ad76da002
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787578793 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1787578793-657ca868096a04433d01990710d85b4f81da437b
 
-0000000000000000000000000000000000000000 1a98d40d6fd2bb08a921b36f5cf6c212a1aaecfb refs/tags/slab-for-7.3
+b4b306a678203bae34877b61a0caf19612c778a5 278a95cd551c5606136005b23bc75d2722544d0e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmqMSIgbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaURoH/jmBboR9uoxtpwVUv06u
-GmvySjcCftZ/vve+/vFeCXWL9RWSSW8DJjs0ANrHA60oI3bcejuroNsx5x7BbNvt
-uMp/z4xRhWw0lNVNNKen7bI/XfGc49Vu/5dy+IfYgIIgtiRsPgR15D2Lmrv0iskr
-l3InOgVnWCMEnNUTv6J6GmukhCWB9neh+WWxldLlNKd1YbToRD6l4nkJyAiryT0e
-T77HtFs1P5GlfEC2V4WxhCcmke4Pt80aqVq66h2D4gWmO35Y05fZHCVu3/cgOwL3
-VxyY1tQo8Tn7A2uOPINQHlgJgp8D8OURygQ/N3ZiVStxDTkakqgA3Lqnopi/3w4K
-ki8=
-=0p3T
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqMSakbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6xYP/0boe5jblPzkp9itDiM8
+w9pKzOzzIrk7Kzevo1YIhzWZ878Ol2u3e1EruUgmQanQF0e+yzydkqFJGtLxGKe4
+SADwN3McPldGbC3JetiakOqCIdf9YyFbmBXwKkWzt2StNJig8p6bIM0s9aYGrLA5
+BCoTejWB58EzF+4zGir5Xq3YkaFj5hJ5JQRGi0TJ90I02JNGrRElrvvsgqU6eXQ5
+rwxRiCjlsYKuxoHDpADOmvLiw6W4R9ah0r4vUhriJbnPvvfiAxRTfRozSzBb9toC
+wuPsGGwMPU9KZTphN7LJoqtugEXO3rLxdtFXrpr4qx2myrFXpwmd8wKCl535u6Ob
+96NH7cLJNOJgBFR/d5150kJz6KRnNhiZQEtDbmZ9IQursCyj4zNFuNAJT84+Snai
+QYfyep+wYENuu5mHfnvvsIwy3/dR6JG06NxitdPHda8fz+D4S7dddPbX2dwkjT5g
+M7uQ1LDt5aYJK+dl/CCpQh8Jtd9DQe0DDN/Ha78ZJgYQcMWQHWCJ1Um0AmnjFRj9
+A43aKRBSP+oVd6qRncWQIMOw6Nsogaws9+wf0M5oY/kci1ZiVlVPUk+gQewNP+Gv
+eOuPxFbkfl/tpVeFFAdVV4hx5RiWlrcSjZa+XBMJOSRykDax5np4WXfgqnWXctrl
+7SujSjTK+9zjfXOb+iMAoALq
+=BiHE
 -----END PGP SIGNATURE-----
 
---===============6429183551083534962==--
+--===============4463037302736708910==--
