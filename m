@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 24 Aug 2026 14:59:20 -0000
-Message-Id: <178758356002.2213303.1083734787602219075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Mon, 24 Aug 2026 14:59:39 -0000
+Message-Id: <178758357945.2213602.1796139137168610682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/netfs-next
-    old: 9371f31e544d59e6f636eb1aef1118b7940486f4
-    new: 8f0e78ba82ccca8613b01c5f0215f8ce7c7c5cf3
+  - ref: refs/heads/for-next
+    old: 1b04ca2aca2d4015e7e1e17e7911f9484fe16fd9
+    new: 34b5c4a6e4fb9dbb3f9d87f3b0fb0372105c8302
     log: |
-         8f0e78ba82ccca8613b01c5f0215f8ce7c7c5cf3 cachefiles: Preset the state xattr when creating a new file
+         34b5c4a6e4fb9dbb3f9d87f3b0fb0372105c8302 fuse: zero the partial EOF page when extending a file
          
