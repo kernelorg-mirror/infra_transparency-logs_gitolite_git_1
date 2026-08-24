@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1235064596316752024=="
+Content-Type: multipart/mixed; boundary="===============1183874748949075816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 24 Aug 2026 14:31:20 -0000
-Message-Id: <178758188070.2192207.2467089991201926799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Mon, 24 Aug 2026 14:41:01 -0000
+Message-Id: <178758246171.2199365.14891800869483172905@gitolite.kernel.org>
 
---===============1235064596316752024==
+--===============1183874748949075816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 46db3c8a1be96a354758b44b1d4fbb4b70d09a20
-    new: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
-    log: revlist-46db3c8a1be9-8d3ae59288f1.txt
+  - ref: refs/heads/netfs-next
+    old: 3ae015ad2054541c8e406c9dc3e838849bacbabc
+    new: 9371f31e544d59e6f636eb1aef1118b7940486f4
+    log: revlist-3ae015ad2054-9371f31e544d.txt
 
---===============1235064596316752024==
+--===============1183874748949075816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46db3c8a1be9-8d3ae59288f1.txt
+Content-Disposition: attachment; filename=revlist-3ae015ad2054-9371f31e544d.txt
 
 946352b2f88fd2378f0341312e47dff1e8dc2fac clk: rockchip: rk3588: don't disable unused I2S MCLK output gates
 667d0fb32149f023b8b34a1f6f3d384556eafb5a driver core: add missing kernel-doc for union members
@@ -773,5 +773,40 @@ d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd updat
 240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
+49ec9f39e95fe0db7433f3ad642f2e8204959703 netfs: Fix uninitialized return value in netfs_unbuffered_write()
+32b0f22b79ac8913f9538dac3196ede0400a3c47 netfs: Fix read progress reporting
+9c71fa22f4e7b941f7ede1bc81dbbf052c57f0ec cachefiles,netfs: sunset ondemand mode
+4c173430bd8fe2c71ee171c690e9e176587c64ce cachefiles: Fix potential UAF/KASAN warning
+065fcff19aed9f0ac0507d4522699228b5eb079b netfs: Use uoff_t instead of unsigned long long and loff_t
+9a79a4bd94d11eaff970f966bdcf45084856c3b5 mm: Make readahead store folio count in readahead_control
+fd86f07520c9e3cd0e91e4b6e218b0d45862eb1f netfs: Bulk load the readahead-provided folios up front
+5dc7d2ff70f3b665619b6a034cf31ff5de3335fe Add a function to kmap one page of a multipage bio_vec
+58f4a97791ac49540222a6d03a5242e8e9e54392 iov_iter: Make iov_iter_get_pages*() wrap iov_iter_extract_pages()
+88e278057f0af57034268bc30135f9de2630301a iov_iter: Add a segmented queue of bio_vec[]
+1705aa77980bdae61cc207dddcffc7852af3c64d netfs: Add some tools for managing bvecq chains
+04ca42eb592be2e176817b2c2e9b7b113d28293f netfs: Make mempool available for bvecq
+a350c0eba05dc1e233588d319c34426f373187a1 netfs: Add a function to extract from an iter into a bvecq
+a2b8eeca596290fe9392af29318da96c26e025a7 afs: Use a bvecq to hold dir content rather than folioq
+936c3bbcc6ab33036462d27819b8e3e6df4b0dfe cifs: Use a bvecq for buffering instead of a folioq
+d932c4d7e5a8500d6cb8fa6505d39d061f071f18 smbdirect: Support ITER_BVECQ in smbdirect_map_sges_from_iter()
+8052afe399ce4f37fbf6591284eb2f0bcabb208a netfs: Remove the writethrough code
+54714b90488af0db59d3ae6c761840e08a5bea36 netfs: trace: Change the "clear" folio traces to "endwb"
+f55d7bdcc9b4d5815c160970ea2d41aab0c55a37 netfs: trace: Rejig a couple of the tracepoints
+db03a0e745337319f9d140d32fb153694425017e netfs: Add some functions to wrap the all-queued handling
+3e7625b1e12412ef7e730cd7881fba78dfaa1527 netfs: Make deprecated PG_private_2 support optional
+04064d7a78017d6d26018caf5e7f60fb8daeb062 cachefiles: Don't rely on backing fs storage map for most use cases
+32951d3c5556054b231ba6de9d78e71c82e2af70 netfs: Add the cache object ID to netfs_read/write tracepoints
+f174d5671052ee4be509e9205176b9d6554f4a31 netfs: Switch to using bvecq rather than folio_queue and rolling_buffer
+5863e58c6e1722f4ced1769310b07379fdc43e30 smbdirect: Remove support for ITER_FOLIOQ from smbdirect_map_sges_from_iter()
+ab536cb06f33ae3ccdc1763e77bb09d07b00b674 netfs: Remove netfs_alloc/free_folioq_buffer()
+40010deef576e8fdfe32f4e2d4e9c873de8f30ef netfs: Remove netfs_extract_user_iter()
+a1436c14b499b0a74bd4997b51d24a6ddffefbaa iov_iter: Remove ITER_FOLIOQ
+1969fe6625089fbcf557e23a41d9796408976af1 netfs: Remove folio_queue and rolling_buffer
+9a1b4756f330cb3deb74dd8eeb5abcbee01d808b netfs: Simplify read abandonment
+5c4494ac6e8c272cf826edbeda9d5aa253f9cbe9 netfs: Check for too much data being read
+ab5111d3f3ca265fbc1689afc4eede4a5508ce74 netfs: Add a method to get an estimate of the amount that can be written
+e09967cf018fd9ee7f1324d6ccea2d0a5f6b0f46 netfs: Rework writeback to use a separate list of regions to be unlocked
+8833e070f0a4f661a2fe65fbbc238f39d08ead23 netfs: Combine prepare and issue ops and grab the buffers on request
+9371f31e544d59e6f636eb1aef1118b7940486f4 netfs: Clean up now-unused code
 
---===============1235064596316752024==--
+--===============1183874748949075816==--
