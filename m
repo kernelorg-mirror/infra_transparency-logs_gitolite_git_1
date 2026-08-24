@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3322872302201681484=="
+Content-Type: multipart/mixed; boundary="===============8735703660807798031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 24 Aug 2026 02:37:03 -0000
-Message-Id: <178753902312.1528626.3123252177838014454@gitolite.kernel.org>
+Date: Mon, 24 Aug 2026 02:37:08 -0000
+Message-Id: <178753902886.1528822.7766319396162098089@gitolite.kernel.org>
 
---===============3322872302201681484==
+--===============8735703660807798031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,56 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 376a3960e5efe85ff765abfb5b5b7e4655ad6aed
-    new: 30733f28c0347d237ffb5333fdfab7a9a2d4ed34
-    log: revlist-376a3960e5ef-30733f28c034.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 1b1f0ed2b8ced7e48596882200e224507abdc634
+    new: 2bc0b5bbaf889f6726a75baae57b99c7f67c4a34
+    log: revlist-1b1f0ed2b8ce-2bc0b5bbaf88.txt
 
---===============3322872302201681484==
+--===============8735703660807798031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1787539021 -0400
+pusher 75C5DE3D 1787539026 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1787539021-3afbc6ae1d2d9b6bf77ce1e1fb9e1f834d075ca7
+nonce 1787539026-5eb7c0ed3ba6f0dd41fc948c3071f85f1d2589b8
 
-376a3960e5efe85ff765abfb5b5b7e4655ad6aed 30733f28c0347d237ffb5333fdfab7a9a2d4ed34 refs/heads/queue
+1b1f0ed2b8ced7e48596882200e224507abdc634 2bc0b5bbaf889f6726a75baae57b99c7f67c4a34 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqLrk0ACgkQ7ulgGnXF
-3j054Q/8C+8cLB3fN7AQTIA6TN5VGyL/qDO+MWGG5GyDBsdT9GMwxLzXzaQ14rEL
-LQSFZ8k5abSMNfccCsfu2dXO6HIqJwRVTvN13K1bbyDgEaICkGBYoVc05EeaTYNQ
-yeGe49ayA54+eaatfjLd5Dvrbyh40E8Qy9VKbRSH5j9sGOT0hpJiXoOt0bNeVCS2
-9rxvEuq5oagq1H1DcbMx7CRJG3PkVRccuI7AE+yFgDp0u0HHqIwx9vP9r1RYDQWV
-kq+ZPIz0sX9FN4EaCgaoOk1P2C8tRooohXwb8WwP8S0+WIQyLSDS6hCxAG3q1+zH
-mmB7VSe5fgThdCWoVubLaT/P82+hC3e6XSvZd5SM9rmL1jSuv5ic9n5RPhd5XDIn
-q9zwRB47neVWKSIZRUh+ACuKgxeNJbe9MyA6gnVB9EyH4spJshd3tm88dCV//wyb
-pNGP2wO6NHWwermoE2ucNsZ/UBel0TEJ8hW0zxPFRpIyTq8RQg7UYgY7qS3J/JsJ
-6aSXWZmCS2AWYe7MxFQawY48XJo1Cs8dmFj00ZUDvg0hPqUdWtVZyarEpnLMEnuF
-Irsf2+vNOkIj8vz1Bn/sneKGiMXegnbhbSVcUt1LLUVpZg0Ebk+xbqQIwNDoA+eY
-zJuwHODAhbEJ4iRtWgk9yqUj2SHsPjh0vB9jb5+zW0mMqYr2788=
-=pfMt
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqLrlMACgkQ7ulgGnXF
+3j2egg//YwxiFshf8vLZV02gJ9fDx5i5eUdHf9FjpbzDxqJiWKs0UzeeGxmt37Va
+7qGG36MRcNRmZhRZ8yG9hkj0LERblB3plyze3Q1WV5cMSYRffLgwAIpay29JdSWJ
+qDj+LZVa2vHGKwzVZsxzOGECJx5Yol4wxwqlLxNmimh+qMNmTwXuI3jhM5HVJuxP
+rT93dgKBzk+b0T0SPmJt68rzNbaPYfS8pwQ+aVJwQm3WcA/9hpDxdkQ+ELTV/62a
+HXO9TOoPGlGJh6LvQ6w/cd04cv6ba+KV6S8GiLQXKOEon1ykjUJTq/UFzagC+guK
++HEvXk47U809MLbVXKJQ8Fr4PG0W1+2tlNybfGEDVdqeWFJ4dh2qQJ54NlzpkWef
+RYKR2mp0p3yobk4qxB3I31Jruc4oH2GW5r3hUQC8H7LEv7i/VwB26QDp8mxuJtgM
+PU2QiuKcmJPESQj4Z5plGJ+S30N6lsuAAxvhx+NkOzOGh0SWjdbuIdLSS3Q05/Q/
+Ocy0qu1C9erv+yZUhHLJxZWWi4H5+0Kjdq/EpDyJW3SQw8o21H7zFt1MNcQBL9Se
+Z7b9MoQ7FaAn4JhylktriAY8a3W4GqZq/DEzPmjAAHy4bABqZeK0OE8e6JQqtHpQ
+gpctZtrA8Gqze76mBpNeUDM9t2U8Be2IU91KC+HAfDeV3inGFv8=
+=K7fg
 -----END PGP SIGNATURE-----
 
---===============3322872302201681484==
+--===============8735703660807798031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-376a3960e5ef-30733f28c034.txt
+Content-Disposition: attachment; filename=revlist-1b1f0ed2b8ce-2bc0b5bbaf88.txt
 
-431e735e9bb6b7fd8e2ea9d83f0627bb5c5687ee scsi: qla2xxx: Fix size_t format specifier in qla29xx_process_rd_image()
-b9f679dfe629004b593f018df33b330d799bcee4 scsi: mpt3sas: Avoid freeing unallocated PCIe SGL buffers
-4c2128c1a399318859d9eea0b74613d90f4bcb66 scsi: libsas: Add sas_ex_phy_to_dev() helper
-db441dcb8c1452279956b7ea4e394b5ce8ce77f1 scsi: libsas: Add linkrate and sas_addr change detection in rediscover
-dc1b802f8e035de4a0e99b5e3e3a333e8a618540 Merge patch series "libsas: rediscover improvements for linkrate/sas_addr"
-720d8b2f2457f4962ca353dd90395e2660d9a10d scsi: ufs: core: Set task state before io_schedule_timeout()
-ff5d552022b35f7475bdc538173b3ceb95d55d85 scsi: ufs: core: Enable context analysis
-e70647b25a641b9f5602558839182d036b512de5 scsi: core: Pass the SCSI host pointer directly to scanning functions
-09982efcc07e739c7e4ac6089e3e521132388b53 scsi: core: Add lock context annotations
-4c461ee2b2a5a7c327fe092b41de1fcc002adc01 scsi: core: Protect host state changes with the host lock
-fb0fc67db96292a65539e63f536c6f586490c78b scsi: core: Enable context analysis
-99d1623c08e91f67c0c6ec677b4a909e27d92014 Merge patch series "Enable context analysis in the SCSI core and UFS driver"
-5a03dbfd670092a6960de433005aae1734c18f1f scsi: lpfc: Replace strlcat() with seq_buf in lpfc_info()
-07f46a9f8964b91d56951ef7f74c551af0eddeac scsi: lpfc: Replace strlcat() with scnprintf() in lpfc_vport_symbolic_node_name()
-22d4cbf6f7509f0aab58d60d488a0082916a2fb0 scsi: lpfc: Replace strlcat() with seq_buf in lpfc_rx_monitor_report()
-4832a60e0a7818400afffa392b74776d084ddf4a scsi: lpfc: Replace strlcat() with seq_buf in the debugfs dump helpers
-36b6dcb2b7463b290d63c83d82bec8065a1a93de scsi: lpfc: Replace strlcat() with sysfs_emit_at() in the sysfs show functions
-30733f28c0347d237ffb5333fdfab7a9a2d4ed34 Merge patch series "scsi: lpfc: Remove all strlcat() uses"
+d34a88f53a7ab0a4d84fbff137c9077701e95b06 scsi: core: Enable context analysis for hosts.o
+b79b88b655a84187aed12d773566dabf5ab72ed6 scsi: ibmvfc: Fix use of uninitialized rport in ibmvfc_do_work()
+ff9365a4c9991cca68fd48c7729808f2fdae2036 scsi: qla2xxx: Fix an error code in qla_get_tmf()
+11e48f5201fd86ffa038809dd9c41144d43ee2e4 scsi: qla2xxx: Fix an loop timeout test
+0ec418204f23f0a1dfff79d5f6721080ec006042 scsi: lpfc: Remove unnnecessary NULL check
+970f69b6bf71562df5afcefb89c77b4e971d68de scsi: leapraid: Balance host references for firmware log VMAs
+00b7c8d4ce441aa9ac704840332ba4738e1c6d51 scsi: leapraid: Serialize firmware log mmap with teardown
+46f861d300e87283f81faf9ee377d1e73682903d scsi: leapraid: Standardize NCQ priority sysfs attributes
+764587d7d76846716a568dea7ae48be1c50ecc18 scsi: MAINTAINERS: Leave the cumana_1 and oak drivers to the RISCPC maintainers
+df125bd16280b19835bfa2eef6504b505790f1f6 scsi: MAINTAINERS: Update my email address
+12e67eb89eb2b9516685c744d3f7de0a2d1bd701 scsi: snic: Fix SCSI host leak on workqueue allocation failure
 
---===============3322872302201681484==--
+--===============8735703660807798031==--
