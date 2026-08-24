@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4374984209713648800=="
+Content-Type: multipart/mixed; boundary="===============4099154224797550641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 24 Aug 2026 12:14:53 -0000
-Message-Id: <178757369340.2068878.15830596775332482201@gitolite.kernel.org>
+Date: Mon, 24 Aug 2026 12:15:15 -0000
+Message-Id: <178757371549.2071126.10997544091260780037@gitolite.kernel.org>
 
---===============4374984209713648800==
+--===============4099154224797550641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 8ff26825a673fb98ff86413940a0254088cf0bd3
-    new: e8899c00d7cb4a67dfa232126fce63953187d0ce
-    log: revlist-8ff26825a673-e8899c00d7cb.txt
+  - ref: refs/heads/export-net
+    old: 71a020c17359779f858419627d7933171dafee9a
+    new: c5314bca74e34c7eba79053f2972c028c8c5b7d9
+    log: revlist-71a020c17359-c5314bca74e3.txt
 
---===============4374984209713648800==
+--===============4099154224797550641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ff26825a673-e8899c00d7cb.txt
+Content-Disposition: attachment; filename=revlist-71a020c17359-c5314bca74e3.txt
 
 ad46c907d7d9975a285c1e89a4adde652eaa93f5 batman-adv: fix stale receive device on merged fragments
 08645ab95768b88e2ff85a89211994651710465b batman-adv: bla: avoid CRC corruption due to parallel claim add
@@ -62,51 +62,27 @@ e16d750a906b05fa5cf475749668a96928aa0cbc Merge branch 'net-smc-fix-out-of-bounds
 137b8ae233cabe7fc77cce86f5ba33bf1b369e26 net_sched: sch_fq: fix pacing delay underflow with pacing offload
 11efd7963dac9b036a7c9a435ab0e621188910e8 net: hibmcge: fix page_pool DMA direction mismatch
 7cbfb180945ce529608e4d4e24a6d483699fab1e net/sched: sch_cake: fix autorate reconfiguration throttling
-48c5d02fdef6bde472e51c95d72c434388eb07be DO-NOT-MERGE: git markup: net
-3d86a994799abb30416abefaf8bd0f777e2a95a5 DO-NOT-MERGE: git markup: fixes other trees
-fbbedd88a6898705f4a0967a894a766b77fc5f42 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
-f800ad2b35a761f60cd4414cacc3efcb72331385 mptcp: pm: userspace: fix address ID overflow
-d35d1a4bc7ca3c3d5d460f542ab93c852d6dcb7f mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
-3ee54b30eaecf95555092344adc5a38b9ebb7b2a mptcp: options: handle MPC data + csum reqd + no csum
-dccd42c7dfd528289f3eaf8761faae8cf03eb4bf selftests: mptcp: fix an UAF in mptcp_connect.c
-d6d39037cd63ba9fbbe85131a4abceb91d7242d8 mptcp: options: fix uninit-value in mptcp_write_data_fin
-df4ce51ef1fe409fd2a28522ad5e0c696464ebfc selftests: mptcp: lib: dump nstat for the right test
-1c1755df5719b4ff76464b08b0c1386be62876e7 selftests: mptcp: lib: get counters for the right test
-2835a5445608b9820831b4888975d830b4c79e3d mptcp: syncookies: remember the request backup flag
-c8c727ca0842a96585c02cbdf68763796c9c6e70 mptcp: subflow: no need to copy thmac during ulp_clone
-5aaf63a5e02fd85998ffc4b8c95da0a4fc1a385e mptcp: being below memory limit is a likely() condition
-a079af3466d8b7d2e67f9f627ec1304f2bb05663 mptcp: avoid pruning for OoW data
-c09bca4a7c7d8c9879c5a756ea49dfe57368a3e7 mptcp: remove unneeded READ_ONCE() annotation
-cba552254e22a352fcbe69973a79dc91ba96d2cd mptcp: do not reschedule the RTX timer for fallback sockets
-4c5729ca74d48c2931f2b0075c7390e53856fdcd DO-NOT-MERGE: git markup: fixes net
-254b478ed19a8feb3acc486f88b509a105ca3677 DO-NOT-MERGE: mptcp: add CI support
-50abae4376e8044697c461f17e69e2941a3e9adc DO-NOT-MERGE: git markup: end common net net-next
-d3e7290a3b39447d1c40ef2d6d1c9ff76f1103e8 TopGit-driven merge of branches:
-a3e5ced925864450eabff029f9f06303ff0f0450 DO-NOT-MERGE: git markup: net-next
-8e22402d0e13b0cbb39989943347320ce117fa5c DO-NOT-MERGE: git markup: fixes net-next
-3ba2d17fa35c94c2d776939ade9454f742b16c90 mptcp: pm: init and release mptcp_pm_ops
-8979b4049e4f08ad544ce05ba00f8ab90d65637d mptcp: pm: add get_local_id() interface
-834aab2af2c58da837d826f001f6235def481e62 mptcp: pm: add get_priority() interface
-5dbd0aec3581a96bd39aaebb7289ec6dad8e215e mptcp: support MSG_ERRQUEUE on the parent socket
-6a911aa9bbf6c898510b247f626e0c6252f7e130 mptcp: sockopt: factor inet_flags propagation into a mask
-93b1306771ada2935474b04aaf58679c0f7ba2b8 mptcp: propagate RECVERR sockopts to subflows
-5222ce7bef6760c7d6a3b0471e4a189becfbb69c selftests: mptcp: cover IP_RECVERR sockopt propagation
-9d1fb39bd8180c6d81c8c5aa2e492090adb23ea4 mptcp: remove thmac from subflow ctx
-41cd9a6ebeea529ebe7da1e0b89de274f5401b85 DO-NOT-MERGE: git markup: features net-next
-0d745096f7923c3124bd8ab8236c7f5131c725dc DO-NOT-MERGE: git markup: features net-next-next
-3f666a3e888dd4aacfb0a5bd740c4e1448696f03 bpf: Add mptcp_subflow bpf_iter
-ea91702383da652bd5166a9056e47ffc55c2300a selftests/bpf: More endpoints for endpoint_init
-c0adef8269deaa5206113e29dbb9d0a434f6f8d5 selftests/bpf: Drop cgroup_fd of run_mptcpify
-0c20492b887699b46dfe5084259512bcd6a933a5 bpf: Add mptcp packet scheduler struct_ops
-9f34de2d629362b7f637fadd142e38cb9b8c8dbc bpf: Export mptcp packet scheduler helpers
-9e6671528c192ea554743f82047ef0935b5036b6 selftests/bpf: Add bpf scheduler test
-37f6034e11aa95435bc53fef01eaa6f0f542f7c0 selftests/bpf: Add bpf_first scheduler & test
-7b9c14ed7134f45ab07bc31e49c44c49ac00ba46 selftests/bpf: Add bpf_bkup scheduler & test
-9d0046856bae560a4f46146f434bf1b9c560547b selftests/bpf: Add bpf_rr scheduler & test
-58932e76314488e6de0b791ba94fb0c9c6cda4ce selftests/bpf: Add bpf_red scheduler & test
-5b14028e2fb0f3341b8c50cc606ba6071ba6a514 selftests/bpf: Add bpf_burst scheduler & test
-9f6afe85b48ae4940721955a7ca0e0cdca261fcb DO-NOT-MERGE: git markup: features other trees
-839eed38d4e55d31df6f56230c2a90c8a2ca0461 DO-NOT-MERGE: mptcp: improve code coverage for CI
-e8899c00d7cb4a67dfa232126fce63953187d0ce DO-NOT-MERGE: mptcp: enabled by default
+2ca09946d4df62dffa2f6727815bdcc489d1b05c DO-NOT-MERGE: git markup: net
+4fc30363e3aa370f1ecb3b90e00ed83af970a215 DO-NOT-MERGE: git markup: fixes other trees
+dca287824dd387e334600916f5a1eaf33ee541da mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+4ab960a98c41cf6edb696b1f718f6e8b5f6e6fa9 mptcp: pm: userspace: fix address ID overflow
+8f305800f0f6538ad2e01595bd64360f061af855 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
+fa07aa3e74d3c82fccef6b0bf53e66c06646029d mptcp: options: handle MPC data + csum reqd + no csum
+2e962939e75a535b20817fcf0f26624ee98a7ec4 selftests: mptcp: fix an UAF in mptcp_connect.c
+2ec47c5e7d11e22f2d7ee978d7af8c20707b17d5 mptcp: options: fix uninit-value in mptcp_write_data_fin
+d8660bf14c3020d0d83a51f7f3db51991ed65527 selftests: mptcp: lib: dump nstat for the right test
+5b43cb810e7b5a69b2644cf3f0630088fc997e0c selftests: mptcp: lib: get counters for the right test
+d3ec239973f6c0cd96af590d55c396b18019a898 mptcp: syncookies: remember the request backup flag
+1322033c7b854feb6a1c250484a83eb0eca37407 mptcp: subflow: no need to copy thmac during ulp_clone
+8fd1a39512347c0749b3caa2af18da341024915b mptcp: being below memory limit is a likely() condition
+101d11efd9bf6eb98e45521069c5dfd433be2779 mptcp: avoid pruning for OoW data
+edd55994f1b3d50a48477ea7ba5062fd011ee544 mptcp: remove unneeded READ_ONCE() annotation
+9b0c94799262bda0ee481e085ad80c6d13e339dd mptcp: do not reschedule the RTX timer for fallback sockets
+77137e23091b93d1eb089d8eafc37fa3aec79c68 DO-NOT-MERGE: git markup: fixes net
+4eee054e6b7180325683e683f533ad2a427c9a75 DO-NOT-MERGE: mptcp: add CI support
+ae8088c393e69ee6265c41189ab707ac49d01efd DO-NOT-MERGE: git markup: end common net net-next
+c3d75f5319864985b8a88efa72cdc55d240c9c2b DO-NOT-MERGE: git markup: fixes net only
+c4ca576b1b156a244bd6070de47730f6e0e483ba DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+c5314bca74e34c7eba79053f2972c028c8c5b7d9 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============4374984209713648800==--
+--===============4099154224797550641==--
