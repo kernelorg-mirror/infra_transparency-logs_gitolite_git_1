@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0861105032948581284=="
+Content-Type: multipart/mixed; boundary="===============2690046863208549065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 24 Aug 2026 16:10:15 -0000
-Message-Id: <178758781581.2270180.6767038141432412949@gitolite.kernel.org>
+Date: Mon, 24 Aug 2026 16:10:16 -0000
+Message-Id: <178758781629.2270262.14969694443348538043@gitolite.kernel.org>
 
---===============0861105032948581284==
+--===============2690046863208549065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.18.y
-    old: 88ad4328638acbaa8b17a278e5e4cedeafb45ea6
-    new: 4983dd43ff8aa24bc816586e5c0ba22e80e9c983
-    log: revlist-88ad4328638a-4983dd43ff8a.txt
+  - ref: refs/heads/linux-7.1.y
+    old: 13fc5c50078c63a39e4a4a6f1622c22208ed1f83
+    new: 38513931e66204a1e1434fc783b1dd07c4a115c2
+    log: revlist-13fc5c50078c-38513931e662.txt
 
---===============0861105032948581284==
+--===============2690046863208549065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,79 +32,81 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787587813 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1787587814-5e2286f44b7c14edcbf9bc0e184f9432cba0231a
 
-88ad4328638acbaa8b17a278e5e4cedeafb45ea6 4983dd43ff8aa24bc816586e5c0ba22e80e9c983 refs/heads/linux-6.18.y
+13fc5c50078c63a39e4a4a6f1622c22208ed1f83 38513931e66204a1e1434fc783b1dd07c4a115c2 refs/heads/linux-7.1.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqMbOUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6VkQAJEr+q1/I5seQCnBPhHV
-OAELLo3bFNv4U3hUCy8vuM7HvgsWbejsoAdzRDunhx8ziIWok7Dem7PhaLVQyaQD
-bbo0V1yZTK8d/tS7HBcdW2WQm0qOC4b08g9NBALvewAllL5bGNYIsL7SAbxTeOYW
-FMLC6OU5wCVl8oL74jMdTekquBCOzXHhrwZQblBh51SNmaSchzhJO58+V7DcJT7M
-iLlo2RIRcA8F9G+kq17xwc6hOqf5VJ5+DGN4GqFmG7tUItnkvwe/BIjWeTOGndAE
-8u+2QtyCmfxCBEwtN7Xpj+KQn+Gt6WrRFHdDoUjYmz4G4FOfZBPYykHjv4Zp8QDj
-Mdow2AudWudNCAIHxfiFqw8g4j+y23w86d96ueEePAH9y+NEoQghJEpav0cYURty
-wJgPMHlutkaC2QZyTb2zqnIX34OfYFjIZBlREGODUsBvow2uvscqYg9aAUi0GvrR
-ZXJNlLbKO0h+T4Sd3TKDtVdE+EQMRYv21EgQpSi9uCfgIBRV/4hBk0oKRkb1/1Uc
-bCyv7nkKbiC6gsxJOpasbFo8pppwO9Ybj3xFUiZ04LRhQwNjYDvG7bThBmwdrqp2
-JeSp6//teLz0JvPOKECQKBcu2+0IBfdM8i1qNMzCnLy+RTrMD+FdOswWIYMwbLoO
-Uk2nz/Y5+P/TEZ05IpFhaMoP
-=/AJR
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WpYQAIip1HuMU1B+1E4xswxs
+c6n5i8vDSMQOle0eAASWf+ocZoi/5ruzHN2hjz34tQ/NQy+QqOOQiFbUGybd9x4T
+JGVgPmQHXMVTj9sPZ5pN6UI7w0v0fgTcogiZMrxV7r0HzbwljfPDVIFgxJ5qtrTE
+5ZQrh68R6Ae0GHVLYmCpJI5r/IU6R0VE3niPH1lSytoqsBKVsfhWNrhL4EB6IGCf
+4lYWporkraLMeIjZRJFCTS6togXBCrLh1V0kOgP2zLFRcADVwlvqXRsLSM1EcVJr
+IvchRtRPsesBDv3kCHd/LpOxbU7jd+c5UJILt6ax7AK5gTT/5IXtfkLTqHahq7qi
+oLo5bFeS/Q35khZ26vkMA+wsze3t1D76V0O8d09VJbSTtwtHbpAOR4B0ymxzpR/0
+T8Vx4SiR1iWhNAPbFTXokMqNC+QVLKtO0oiC5FTluUuIz0ztIF357lx2W4+L1hT7
+RP6mY5ToxtEE4WBrXsq92EuJSO4vcP+K9jKEUP7dFLR8N8bwSUo1WEYNaTYfxFkD
+metn99K66UsXaehkmftdw5/oAKhS350k5/KmmV9j+Yzhrx/Qxu9uJxe4Sm+Q56Xt
+QnlabxnBOvkxvIuwjC6cfNUPi0oeOWt2n8T0q8MfQR0q547eIdhOOkyaBaYMMQzv
+uQujJhysE00hOsLrEERfgVio
+=Cu8h
 -----END PGP SIGNATURE-----
 
---===============0861105032948581284==
+--===============2690046863208549065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88ad4328638a-4983dd43ff8a.txt
+Content-Disposition: attachment; filename=revlist-13fc5c50078c-38513931e662.txt
 
-c887151119e0c5a3427762336e7d6716381f3af8 serial: sc16is7xx: rename EFR mutex with generic name
-480b81704723fa9a20e1c929929eae117003a7c7 serial: sc16is7xx: use guards for simple mutex locks
-91729d14ec520eaf197442c52770d5c2f3b2a90c serial: sc16is7xx: enable THRI before filling TX FIFO
-6919deedb025e8735034b59e1bc5cf330a07d710 xfs: add a xchk_ip_set_corrupt helper
-491fea9ce549df237c450de16c52ac33ba97702b xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error
-e9193721153acbbc39b2acc71775495f6dfa1161 xfs: hoist per-bucket unlinked list check to helper
-9c6b41dd5673627e94d02fea43ca529e54e4ebb7 xfs: don't livelock in scrub on a circular unlinked list
-0e8ac4378484a256ab4ce9a7610f007f27913fd2 PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
-b56470f4968c6a1578a61c54697701d40a29c4f4 Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
-9178ff5160fc7e07379d3264043a5cb8cc146927 iommu/tegra241-cmdqv: Fix CMD_SYNC use-after-free on teardown
-3463e6d2159ce87197dfa1cf856d4162efe8f064 iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
-fb1e2ca871e51c575ac3df045edbcd02dcef401c ALSA: FCP: Use a private URB for the notification endpoint
-fc03c1ee77abcd62086c41d10fe98377242013d7 ALSA: scarlett2: Use a private URB for the notification endpoint
-2879874ae702c1a3f5901a2046c0dad9dbaa23f8 rndis_host: add overflow check in rndis_rx_fixup()
-a60fe2a5bc2a4c15ae94ef293be17ca2bb115792 nvmet: fix NULL pointer dereference in nvmet_execute_identify_nslist()
-8753173dfaa19d9a8ec86bfb1ce8155650a70f6f io_uring/futex: don't mark futex wake requests as inflight
-e2f967d2deceaa0ba8712c466809b3c11e096af0 ALSA: dummy: Check card index validity at probe
-b10807d57ce4fc1cf1cc7bc072446376b45d3d5f io_uring/cmd: fix iovec leak when the async cmd is not recycled
-93c42e1fc2866b13aaf1490edd8957906f15b017 io_uring/io-wq: fix worker accounting when canceling creation callbacks
-9da6c23b7f0420191fc2ee0195415c7dcb3fc0bb io_uring/rsrc: fix folio size overflow in io_vec_fill_bvec()
-875f1742780b07c7a87e795c06eb25373ed2ced7 io_uring/uring_cmd: don't skip completion for a synchronous multishot cmd
-50e1c3b51c725484c11506f7c62b33ecfad697d2 ocfs2: fix missing metadata reservation for large xattrs
-59210182f92bbf66ba7bdba8adfc889c811da940 null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
-0eab2ae6b20f9d471e01f173398e676791502fb1 kcov: fix data corruption and race conditions on PREEMPT_RT
-5b3b2c3dfba9455964ff8e73985fcc7cb4620fd7 ext4: stop retrying saturated xattr cache entries
-5b49bc44d4df7d923d3e7e0b62b83f7d37e9320b nilfs2: reject invalid block index in GC ioctl
-3fa1c8b5b9fcbc19028bcf2710681a6de038b9aa ext4: clear error before retrying inode xattr space fallback
-d863e57b5193d58be609dac53552691545fd2a8f ext4: avoid tail write_begin walk for uptodate folios
-db16bd56539fde9333bd25c7b985973b6eaa4220 ext4: propagate errors from fast commit range replay
-2893c90c1de39baf008d1afcea3e112aaf06a6ea ext4: don't enable DAX on new encrypted files
-3dcfd30a36967c49d8c32709680fd0bf50fab269 ext4: fix incorrect function call when initializing s_resgid
-d88416eb9563df35d8288fc6b923186b05198560 xfs: validate attr entry pointer before field access
-12881173f3b9a3c46657a0b95c04e68867b956d0 libceph: fix OOB read in decode_watchers() via missing bounds check
-0f6875447c964d1d517c6516bb26431939b62645 nfc: digital: clamp SENSF_RES length to the destination buffer
-fc293786a5a1bb688f5653750bf55f343bcec37a nfc: fdp: bound the device-reported read length and fix an skb leak
-8531e5b9a279720f4b274d3cb223e30af08012ff nfc: microread: validate target discovery payload lengths
-89202bc5f872a88c886d944e5ccfceddd9ff87f3 nfc: llcp: bound the connect_sn TLV walk to the skb
-9024e5b96a63bf7e234607a40cc30c7172ddacad nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
-14c966faede009f23dc835b5e57cb935035f3304 nfc: llcp: reject PDUs shorter than the LLCP header
-6c38ce256af572fc166cba6bb7e5fc1c906b58cc nfc: pn533: purge fragmented skbs during cleanup
-3c555aaeeb33d43d2ed581ac97d6de120e81e8a7 nfc: st21nfca: validate ATR_REQ length against the received frame
-07cc61d919fb80122e8367fbf6d047358d37b05d nfc: nci: add data_len bound checks to activation parameter extractors
-5612b008f053ee8fecbed5af2f22dd177b238cef nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
-c49dff6b5f04b12f9834e5358614654c5332e877 nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
-59e548f7fdaa4adec4cdd88c08333aa4b1654f3b nfc: nci: free destination parameters when closing a connection
-866ea4d3933a0b3a2df4e54c5d5aeb7c3ef25a6a drm/xe: Fix DPT allocation paths.
-c747529b145ecf4c3c683fcb1f186bfc6de46a64 ipv4: reject undersized MTUs in ip_do_fragment()
-bc7148e29b51fe9a59f28886ec4e0f8222596637 ipv6: fix use-after-free in ip6_finish_output2()
-4983dd43ff8aa24bc816586e5c0ba22e80e9c983 Linux 6.18.47-rc1
+034335ecedebec5d5aec3ae19f67a0bda962b91e xfs: hoist per-bucket unlinked list check to helper
+041be1f7090e721fdee412fa78797dda24326ff8 xfs: don't livelock in scrub on a circular unlinked list
+f5c87a64b25add269c2602047b8f0ad18e39d2de xfs: add a xchk_ip_set_corrupt helper
+80b4f35c8abc9c428d0a003b57a0ef30560ee0b5 xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error
+1d156756b62157f33f0f6cf32df13166de08574c PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
+9936abe42df40da1eb9bc6930a2bef4043028430 Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
+0afc340ff9964a35ea009689626bd85453d33bb8 iommu/tegra241-cmdqv: Fix CMD_SYNC use-after-free on teardown
+405c0b19867fb0c620710b13090d93f5c4529258 iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
+fa14fc41e3ab7f65e85647fa5350ab6587d2488d ALSA: FCP: Use a private URB for the notification endpoint
+d2366589f901f4e7a7a905b9fa2190e62dcd8e75 ALSA: scarlett2: Use a private URB for the notification endpoint
+c5b26d5e11c41df7a5d02a28d1bc426b3b851931 rndis_host: add overflow check in rndis_rx_fixup()
+3cff3dadf1755b305917501c663f65370b9b74c3 nvmet: fix NULL pointer dereference in nvmet_execute_identify_nslist()
+a29afa4a15a9fad79f99bf030a06eb1484825313 io_uring/futex: don't mark futex wake requests as inflight
+d8d23df6a194532001109149ca9aa2b77d80a183 io_uring/futex: only mark private futex waits as inflight
+8c1329fa15c9669df7606ca82f535ae79c486f47 ALSA: dummy: Check card index validity at probe
+a40a3886ed21e9791615daa5377ab54eb5999c04 io_uring/cmd: fix iovec leak when the async cmd is not recycled
+0af33bc2962966fa3e14cd1c3a54e195e9214de8 io_uring/io-wq: fix worker accounting when canceling creation callbacks
+7dbccceb84a7d11d0405c321fc17b4199533f505 io_uring/rsrc: fix folio size overflow in io_vec_fill_bvec()
+10661bed1956ae3c44c67f8506f74f599ccf51d9 io_uring/uring_cmd: don't skip completion for a synchronous multishot cmd
+f62fe934c664d703d7865454e5a27b7ebc7eaacf io_uring: defer eventfd signaling when queued from a wakeup handler
+315b0c4086269f8f35da998096e0b4136fabb9d4 ocfs2: fix missing metadata reservation for large xattrs
+a28b0f294affce5f94f952aad2abe662badf6323 null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
+2ac07dceaf864a7d9fb5ab5b988cbe2dd6aebbcb kcov: fix data corruption and race conditions on PREEMPT_RT
+9c082ad4d01f98157c5fb5761beb86003687ae26 ext4: stop retrying saturated xattr cache entries
+9ff42ecb22cda06c3c42b76c666b147fb3349258 nilfs2: reject invalid block index in GC ioctl
+d6ae0570717f65ed838d63369452912ddb983142 ext4: clear error before retrying inode xattr space fallback
+59124e67146e30f2436297529305fcf2f802e0a0 ext4: avoid tail write_begin walk for uptodate folios
+017a7832e11481ac3cb9d3512d39f2e9bc8c459f ext4: propagate errors from fast commit range replay
+cd76d1f21e6f292ec0806ff0568e577e05d64f51 ext4: don't enable DAX on new encrypted files
+4a9e28d27553d6ac14c869262352e6b0cf6ecdf7 ext4: fix incorrect function call when initializing s_resgid
+4da7c01d9fce7194b5a60ea444305ae5355e7daf xfs: validate attr entry pointer before field access
+829b2897e703829c45352502e1e1fd3a62162f93 xfs: restore nofs context unconditionally in xfs_trans_roll
+74a5db97f3e819b2efe1c408412c6468ca0a43cd drm/i915/pin: s/dev_priv/i915/ and drop struct drm_device usage
+21e874b8660cf61d6e19003243de6f62aa8752f4 drm/i915: Track fence region ID in plane state
+d7a0bb3ec5d4e9d4780a30b00658e6d8cc2fff23 drm/i915: Introduce struct intel_fb_pin_params
+745369cd891ad20b3a53387983d83c495fb5cef2 drm/xe: Fix DPT allocation paths.
+481c8e3c6a1dc83cb6ddc7eace26f5a5a6b10a46 nfc: digital: clamp SENSF_RES length to the destination buffer
+8c5f4e6815146dc1750188a3eb2713b55771a6a0 nfc: fdp: bound the device-reported read length and fix an skb leak
+e1234007b958bbda5d2cf5115b34410c66084660 nfc: microread: validate target discovery payload lengths
+738cb846dd88f254cf62b99a072a2fb7a1d1e2b9 nfc: llcp: bound the connect_sn TLV walk to the skb
+6b36fe87af43c488c5745e9ffa877f03de6b06f6 nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
+bbeb3bd69e4743ca525c513bf46cc15dd89b1cf5 nfc: llcp: reject PDUs shorter than the LLCP header
+75b931c87ce8cd5e835f3ffadf821cca087de2f2 nfc: pn533: purge fragmented skbs during cleanup
+9648e1469adce475cfdfe3b2a1c519cfe22df964 nfc: st21nfca: validate ATR_REQ length against the received frame
+221441031d309ecf3762e85fb4eeb2ebd4e93869 nfc: nci: add data_len bound checks to activation parameter extractors
+83890a4801eaf40ab95bfedc7f431ab3b5c2c43f nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
+ed1428e11d3823b33dc81b16aec85206904de103 nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
+bc8d7320a5de8f11ce2c4f1de5d0b95f0a6d3ba4 nfc: nci: free destination parameters when closing a connection
+381efd289e4ab947cd0b808bfbf0c8679ddf11bd ipv4: reject undersized MTUs in ip_do_fragment()
+cdf56b06a34134a1d4c80bb183b2b6e00629ccc0 ipv6: fix use-after-free in ip6_finish_output2()
+38513931e66204a1e1434fc783b1dd07c4a115c2 Linux 7.1.11-rc1
 
---===============0861105032948581284==--
+--===============2690046863208549065==--
