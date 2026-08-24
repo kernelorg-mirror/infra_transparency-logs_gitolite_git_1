@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 24 Aug 2026 20:12:53 -0000
-Message-Id: <178760237333.2450666.12720158077244276832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 24 Aug 2026 20:30:24 -0000
+Message-Id: <178760342412.2463321.10682823062970773260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dev-test
-    old: 556f15f254c088e268ac533f42b4b726a9168fef
-    new: 262a6b3e3f069f022f52f2dbea02353ec78e8260
+  - ref: refs/heads/master
+    old: df8f0873a16ff1c6725806a44d8e36324d64e23f
+    new: 9f5adb00c7c1d3fcfa0afeaf53633eac90b5a927
     log: |
-         3b2c5d35cf4398edf47c4a3ad076838654a30015 f2fs: use adjusted write range after f2fs_write_checks()
-         bd4c8f9738c6580482f5377b316cf3e1e9774aa4 f2fs: don't leave the hashed inode while it's unlinked
-         262a6b3e3f069f022f52f2dbea02353ec78e8260 f2fs: support resizable tail section and unify pinned allocation
+         3b3e0589b1bbc94f89ee59e410160d6d847a1209 build: Ignore the test-sdp-xml binary
+         a8d22214940dd370e26f03df4a880c14d4018202 player: Fix crash on MediaItem1.Play() without a browsing scope
+         ede23fb50e4133f2092a8b4b4ad8285b38de7795 player: Answer pending request when the player is destroyed
+         3215010456f16765123b89575e18db96acbdf6f0 player: Fix NumberOfItems never being updated on SetBrowsedPlayer
+         a93047cd044fb17d687f43bef95289ec834876b2 player: Report EBUSY from a busy Search()
+         9f5adb00c7c1d3fcfa0afeaf53633eac90b5a927 unit/test-media-player: Add media player tests
          
