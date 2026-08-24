@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7835052687901434772=="
+Content-Type: multipart/mixed; boundary="===============1747540686123875781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
-Date: Mon, 24 Aug 2026 10:23:31 -0000
-Message-Id: <178756701130.1971629.14910767876640807403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
+Date: Mon, 24 Aug 2026 10:24:00 -0000
+Message-Id: <178756704082.1971993.9151804352922921174@gitolite.kernel.org>
 
---===============7835052687901434772==
+--===============1747540686123875781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/linux
+repo: pub/scm/linux/kernel/git/a.hindborg/configfs
 user: a.hindborg
 changes:
   - ref: refs/heads/configfs-next
@@ -20,7 +20,7 @@ changes:
     new: 41a9c2b48e258ed97e9a7153110ab583a2f3145b
     log: revlist-6363844fdbbb-41a9c2b48e25.txt
 
---===============7835052687901434772==
+--===============1747540686123875781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of gi
 8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
 41a9c2b48e258ed97e9a7153110ab583a2f3145b MAINTAINERS: configfs: split configfs entry in C and Rust parts
 
---===============7835052687901434772==--
+--===============1747540686123875781==--
