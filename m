@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0705299610534957402=="
+Content-Type: multipart/mixed; boundary="===============1575971043631495646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Aug 2026 07:39:44 -0000
-Message-Id: <178755718490.1802454.15649891098291361297@gitolite.kernel.org>
+Date: Mon, 24 Aug 2026 07:39:59 -0000
+Message-Id: <178755719999.1802737.15333398199235052804@gitolite.kernel.org>
 
---===============0705299610534957402==
+--===============1575971043631495646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/tip/urgent
     old: 2709dd5ae32f0828f386327c76bba9f39f63a1c6
     new: 0a0d1d55dad570724bf8c7ea83409639cfb4be9b
     log: revlist-2709dd5ae32f-0a0d1d55dad5.txt
 
---===============0705299610534957402==
+--===============1575971043631495646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -703,4 +703,4 @@ b6b019a1d9b90ac51174f0ca15b1338b61506bf9 Merge tag 'parisc-for-7.3-rc1' of git:/
 83684c4e4d62cb02b2e4d0d18963d1035439278e Merge tag 'rcu.2026.08.18a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 0a0d1d55dad570724bf8c7ea83409639cfb4be9b Merge tag 'scftorture.2026.08.18a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 
---===============0705299610534957402==--
+--===============1575971043631495646==--
