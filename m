@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 24 Aug 2026 13:10:08 -0000
-Message-Id: <178757700828.2118535.16894285214007454714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 24 Aug 2026 13:12:19 -0000
+Message-Id: <178757713978.2119812.8184233669450169888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: 89dcd917f690259f82b3d08efbba34db07423aa5
-    new: 6afcbccc10ce54c84fd06ece157a4f767138f898
+  - ref: refs/heads/todo
+    old: 99fa371e24c0268d13c26f460d502dc48abe715f
+    new: d943b576be15b655107ba965726f059b1d4c9380
     log: |
-         ccbeeb0dcc56c6fa099d802a7210d62657d70a01 copy-firmware: Do not fail without GNU parallel
-         6afcbccc10ce54c84fd06ece157a4f767138f898 Merge branch 'unparalleled' into 'main'
+         301ed736b814110b8ed3eabfcb1fa24dde434965 What's cooking (2026/08 #10)
+         b127831ed1f3cbfde90b3c131bd6d171ebdcd279 Meta/onemerge: force C locale on comm
+         d943b576be15b655107ba965726f059b1d4c9380 Dothem/Make: prepare for proper worktree support
          
