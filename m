@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
-Date: Mon, 24 Aug 2026 14:50:41 -0000
-Message-Id: <178758304135.2207600.11505746448889644627@gitolite.kernel.org>
+Date: Mon, 24 Aug 2026 14:51:13 -0000
+Message-Id: <178758307345.2207985.11877664370435070215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,72 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mm/memblock
 user: rppt
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/tags/memblock-6.19-rc1
     old: 0000000000000000000000000000000000000000
-    new: b3c1ec1a9ad84ec2f14d343d28c6032feaec5b79
-  - ref: refs/heads/fixes
+    new: 52f12d1861b65dac30f2bdb396eedf205cd83cb5
+  - ref: refs/tags/memblock-v5.11-rc1
     old: 0000000000000000000000000000000000000000
-    new: 97090500d776c3f6d08e857e3a0a7cf092999094
+    new: 647dd430e02270c9330e8be191477d82d77a7091
+  - ref: refs/tags/memblock-v5.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 144063f6d8e1df76145e1dd987a3b27c6163b801
+  - ref: refs/tags/memblock-v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 0603a60f0dd8a1d93b71f1080b0bd46e5e1f6c8f
+  - ref: refs/tags/memblock-v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1299e2aae8efeda744691e02aebcf106990b47d2
+  - ref: refs/tags/memblock-v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: fdb13d576845ea0b942ac27f359813a298e10c9a
+  - ref: refs/tags/memblock-v5.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 23c9220aa84dddd4179035f368fb1d33facb91c2
+  - ref: refs/tags/memblock-v5.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a6b9b200ea3c1ff82ea61c667792252039510ab1
+  - ref: refs/tags/memblock-v5.20-rc1
+    old: 0000000000000000000000000000000000000000
+    new: b659acafcd3b774ec8a8bbc75a5e12d86cc7e699
+  - ref: refs/tags/memblock-v6.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d543d793b414dba6da77b6b20170d4fee32ab216
+  - ref: refs/tags/memblock-v6.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 26e0c7d65985629a57bb94c032ca26f5cce64552
+  - ref: refs/tags/memblock-v6.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 282cb254aec2bdf18b503662d55f4b1e35adb00b
+  - ref: refs/tags/memblock-v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c6c9948897ba1e8cfa0f3cec016740da1d91c08d
+  - ref: refs/tags/memblock-v6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 311e9c91dc32c1912ebefffe178d58bc2e16eb50
+  - ref: refs/tags/memblock-v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: b667a01e4e7459f5080176d2f113568556619c8c
+  - ref: refs/tags/memblock-v6.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d17e80b47403351dec26b58d4fa93c7049ac0eba
+  - ref: refs/tags/memblock-v6.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 36f4239643bd93604c96ff682e55f385b051336d
+  - ref: refs/tags/memblock-v6.7-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 258d1a5da6f0d3c73ab9f5fbaf31d2fb546a256c
+  - ref: refs/tags/memblock-v6.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d8f5ee688bee90d5300b835caa1d7f629a219d91
+  - ref: refs/tags/memblock-v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3bb39ec9db212a05c39a599ea53008d0c4704c48
+  - ref: refs/tags/memblock-v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 23647e4946b8e315e97ae82a37c90a0dc1d96320
+  - ref: refs/tags/memblock-v7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8e8eb3eafb936bc9ad97e801b10ab357bc306591
+  - ref: refs/tags/memblock-v7.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 05b191fae2fe0e52bbd7478aa62a896a5dea6551
