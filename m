@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Mon, 24 Aug 2026 20:36:18 -0000
-Message-Id: <178760377871.2467570.7092009239571473352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 24 Aug 2026 21:25:01 -0000
+Message-Id: <178760670106.2499379.9516390835565458669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: b41ce14da749fb44ca7940ba9797027bfa62c23e
-    new: e59acdfd937b4f15f8f4343a7211b6ca7fb0cbf1
+  - ref: refs/heads/for-later
+    old: ea31b5336369a76952767f1aa9f81a343de4d4ca
+    new: 391f1e1e60fd8b4158e75092ebf9f2a8b3aac66f
     log: |
-         e59acdfd937b4f15f8f4343a7211b6ca7fb0cbf1 lspci: Determine bridge window address size from bridge_flags
+         391f1e1e60fd8b4158e75092ebf9f2a8b3aac66f fs: gfs2: Fix typos in comments
          
