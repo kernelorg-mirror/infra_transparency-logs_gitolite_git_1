@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0611041450080280276=="
+Content-Type: multipart/mixed; boundary="===============7106528645957072164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 24 Aug 2026 02:37:13 -0000
-Message-Id: <178753903316.1529040.17791307822578596950@gitolite.kernel.org>
+Date: Mon, 24 Aug 2026 02:37:17 -0000
+Message-Id: <178753903748.1529146.16862746850996416659@gitolite.kernel.org>
 
---===============0611041450080280276==
+--===============7106528645957072164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/7.3/scsi-staging
+  - ref: refs/heads/staging
     old: 30733f28c0347d237ffb5333fdfab7a9a2d4ed34
     new: 12e67eb89eb2b9516685c744d3f7de0a2d1bd701
     log: revlist-30733f28c034-12e67eb89eb2.txt
 
---===============0611041450080280276==
+--===============7106528645957072164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1787539031 -0400
+pusher 75C5DE3D 1787539035 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1787539031-29859319598a226027963498d3dd0b9f397a0d04
+nonce 1787539035-7622a68052d4fe08c9489dfeee3b6201bd356bac
 
-30733f28c0347d237ffb5333fdfab7a9a2d4ed34 12e67eb89eb2b9516685c744d3f7de0a2d1bd701 refs/heads/7.3/scsi-staging
+30733f28c0347d237ffb5333fdfab7a9a2d4ed34 12e67eb89eb2b9516685c744d3f7de0a2d1bd701 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqLrlcACgkQ7ulgGnXF
-3j1+4Q//bDXEOMjyOTihg67LORb/p4AraNU+Ra+CmRKi/rahpMMgn+S3yI38SyS2
-UUoTncr7xMnAp3SIhElPuMAIskiZiaX+yHEd9w7hpgqRrOgOpfMLZZwkAC4Xi1rH
-AS8wdJkGRW66w1y5NWaTq6W4T/aQ4xnZciO6BL5DXxl5dmlbhy9n+99hACeRPs/Z
-E/0nla5BhX9dCXUp/exMGXOZECnlAYzSbnFJWQXim+wRgtx+NxOFhaIvSxf4BolS
-lAo6B42W6KlJRnlmzUnCxq1ZLJ0/cq0WoAQ3WtM6hYuE51pXsRxCP/xdBFC46jbR
-9cxoI91BX/RUbfpia0mu0TSvK/FLd9Z//dOdqu0m8SxsrQJDTvsF+2oL3AQs+MQS
-WubUs95zYo1IvBWbq100GlnWVAW+8Xb0ZuaisfEjGfn0+KfJ3cSf5BJV/N25twIu
-QxopZHvBxUX4SU30HLH+3MOhG3qVqfOIeaxNU6Dgj5+0rpsuEkNFR0HGmFqLocRk
-f2wpxyKaEu2gKbLrBngM1q6PYErl4z6gIpOQvWp6F0QhnW8JUgA7qzdsQcxgD4Hs
-XbPvu4510GX3x7OobETJecUKus8X5GUXrFXkAtMP5tKVn7TEjwIAV2FdIgnMlcrp
-+qxN4Afo5qUbWRVT4+9dztHK8oYFx0G0AZUWK58eJ4EMSbA6HCg=
-=GblB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqLrlsACgkQ7ulgGnXF
+3j2PjhAAlSZ+O0SEOFYrk7SRLOWxkMagYU4OpExEI+tpyJ1xOtzeX5ddT4ryWSjy
+p9AiTM5G8G28qXXuX+110JDN8xcnGOZc+Xe/pABwn+zzH8jWfBD1y//rItFFupDK
+ptXSev1Z1eSPG0YrodGmdXb/GLwpZ2cxFC9Bs/MGdBSqs666ZhP/de64SXFhzVes
+G2ROi18PLzvFQFzmRWqIJhTNSadvUX79XBEyQ1qQ7GZPgqdIaTkEqdqXMnre91yj
+AaNt5K4TZDN/sA5JEqzGCAVHuGieoOKuBQie5hhcO6kFiHuGVfWqLOeauwTT6X8f
+agzKx8IeamgnCUdgq9Y1ssOMFZ5rUzi1LC7obory6uMFVgzTucCYqagIPHzOEkL/
+Np+FMSx2y+sZ7HkdIGXKibGSBVCi9sE/0Ocikz8IDQZdUdC/GqrxcFHKms37VXRO
+YkXbKSzdBnsE7WL+7glcOmsl2hnHz++68DTu3CY+ssCFtLpn1XKSK9LRp5YSDokQ
+OshKEe9/jAOw43TUwOrkXCQhKYhnJP+khjwFJ2R6D+KCxeSIP8kPoziMreVUtHlS
+s4wOO6riNPBBNsW2yxIMLaAfMa3RIOPbyXr46zQymX7rTsG0NaWoIvY2O7AeCqgX
+ms+L/lPlZi23bs8SBgC6u/Pk/c/znVcdtggFmjdtX3xK7P6FJe0=
+=GwJZ
 -----END PGP SIGNATURE-----
 
---===============0611041450080280276==
+--===============7106528645957072164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ ff9365a4c9991cca68fd48c7729808f2fdae2036 scsi: qla2xxx: Fix an error code in qla
 df125bd16280b19835bfa2eef6504b505790f1f6 scsi: MAINTAINERS: Update my email address
 12e67eb89eb2b9516685c744d3f7de0a2d1bd701 scsi: snic: Fix SCSI host leak on workqueue allocation failure
 
---===============0611041450080280276==--
+--===============7106528645957072164==--
