@@ -1,62 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============4041800043252107547=="
+Content-Type: multipart/mixed; boundary="===============1164042983017808277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 25 Aug 2026 14:37:31 -0000
-Message-Id: <178766865104.3304353.3941547144299053547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Tue, 25 Aug 2026 14:37:36 -0000
+Message-Id: <178766865631.3304580.4841516205005366953@gitolite.kernel.org>
 
---===============4041800043252107547==
+--===============1164042983017808277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
-    new: 66498c75b4f8017f62d720d9b59675bdf3abce91
-    log: revlist-db2ddb871435-66498c75b4f8.txt
+  - ref: refs/heads/readfile
+    old: eabe218cdd8ac20738c815bfc8e691c18c65a0a0
+    new: 5bfb2d3cf337deebb3d6020e472466366c2ee599
+    log: revlist-eabe218cdd8a-5bfb2d3cf337.txt
 
---===============4041800043252107547==
+--===============1164042983017808277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668648 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1787668648-b8848c5b5522b93288058c4dc1fb617c108f715d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668633 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1787668633-e212331373258ea5490c916dbd9858b974217833
 
-db2ddb87143519e20a95aa36c60b36107b736a58 66498c75b4f8017f62d720d9b59675bdf3abce91 refs/heads/main
+eabe218cdd8ac20738c815bfc8e691c18c65a0a0 5bfb2d3cf337deebb3d6020e472466366c2ee599 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqKgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++bcQAMwHncOXNPL52c6dSZe1
-i+xnYcy8ew7/pq10hGSuS6JF6PgjiMwfC/WCD8ZfrdSLSdxgtYqlNU4g1M0AaYz+
-kgxDbRYIobfNKVegDHKveDdNZRVyBe5yC0gZ1co0nM5XxICzNht7IFtX2iGtu5YI
-yhSDah1sUR7J26xvr9Qwy7uqoO7TEkgn62k5M/Y1mcERk9uOkxaQxKbNgGL1WwWR
-2L8c4Ekn8+IZ0TFdfhr2i7isxY2zuAxVVlJmtj9h5SCzWbSj2bkZH3/1ZPOzOkgP
-oEH2Ap1WMrmeIRSdM4gNr/utZvKbIV7QYSSBoEYB+w04ciniJA1gK0bN+P7X1R4l
-c5xU7w4pTHnr+hr3MVsZPA6Z8MiD6ONlUvqEGJ1YIyMWs+12/Zl671dYFmgXwa9t
-AxBwzmfIcZf3wsn7XkxknYpP41C9x5XqkH3Dz25h/vZy449jepZWbeULdUryWZl1
-yP5/eJrCqxp92dlwwqWgmnnrribhSlc0+lFF5BkFo1zMR+rqsAb/kO0cgo+wpMi/
-kNLoeqS+AMOZ7FVLadtZKW9vWxXz2GR6Ivv2D3qMhiJEb6/Hu4xpUlR4whB6ra5p
-FgB1/40WfvL4+HS8kbwoHqtundEHo6thFjpC+hzZAw1y/vDlMEc29QgsFP4GAHOR
-35r+roLV1C0BDHL0sz+IkfnL
-=h3nQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqJkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4/0QAKtW/0wPeaRsREC27doo
+T+1sOB9cyg76hwlZk6/3zApPVAFjyUHbVkGnFjYzKvZ2zrdjI+FcedxdrP8TfaBC
+vB2Z4Sh79BnbeP+6dzPu2jKhUeweNjYsIT845VxHUv83HUVgx6TJz65L0GBgwM4E
+i68TDRfKYjtsv+kDRQcJWvabb/ioqy58xhE0oSWYIbHz3j2S4EmSlQdKsZsmFcLA
+MotR+T7pjdMtY3vdrNrHR8yBv0knAqACH8xrnaSnNLPMKh3n6Xl8o4MPB/u8VxIN
+7Wo/ArZrPqucEQFyZOd8x2tFNgPnK5/7x9lmfzlvTuchVGFD7CJdWX7q/ttNAYj1
+94GB1+YcKMce9bTkRT4RBk8+vNvUIC/nx2msiS/5qLy3clNWQzi1I92cprEK2IS9
+kD5Jaw+oKlrfC+V13Ahj8AgJmsTTdFMIb3AjyYkx7A7NmXTCo2fSOiHQ/zp2AlrE
+PKNX8pH792Tp1y2EdbQBHQhHjwMJE/cvOfDeMDgctdFhXqERenqEMyRh5DDMtUfD
+YdHg0Z3Cb2I2/68xDmwXUysyFeNFhXSF+ERkEcdlAHtEunEhCobkrn8c1pvSya/C
+S0bVzg4XnMjScRtGJ/ATKjm6JKZ7l5QP2JkRe8hdqn7xURmcAC9pCQyWOjFYhvDv
+sAcE4+OFGwruocK0AthSxL0V
+=TT5t
 -----END PGP SIGNATURE-----
 
---===============4041800043252107547==
+--===============1164042983017808277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db2ddb871435-66498c75b4f8.txt
+Content-Disposition: attachment; filename=revlist-eabe218cdd8a-5bfb2d3cf337.txt
 
+e8b51396b575d4586bec83323a8aa9cae97c437c dt-bindings: interrupt-controller: mediatek,mt6577-sysirq: Drop invalid JSON pointer
+7f1e3dd7c80d4f56eaebb289de8794f6a29ff197 dt-bindings: devfreq: samsung,exynos-ppmu: Use standard regex syntax
+3cb36d5626383c3032feaa019a2306345ba0cf23 media: dt-bindings: ti,da850-vpif: Convert to dt-schema
+87aec8a16cb6d1bbbafdab2f2be7c31a474cb724 dt-bindings: power: reset: ti,keystone-reset: Convert to DT schema
+2d51fa600462a2126d3cc50911a11428d8b8038e dtc: dt-check-style: Add missing /dts-v1/ to few test cases
+d863ae623af406dd525ecbcd43780e577e09efad dtc: dt-check-style: Simplify setting depth of DtsLine
+e6a5d573d24cd375e09d24f136523cb3cc85c9d3 net: dsa: drop explicit NULL comparisons
+62f3d531e41a7e6e0dc8d37ea377c50488decb56 sched_ext: Fix scx_bpf_dsq_reenq___compat kfunc extern prototype
+50df5afa6d410ddfa32f58cdb2976d16fc3785b3 rcutorture: Check for immediate deboosting at reader end
+5ac693414b51acb8c4b92813ca3ab4fc6686ddf9 rcutorture: Test RCU readers from hardware interrupt handlers
+f424566105c946ef42f2643230362598c06a29f1 rcutorture: Use cpumask_next_wrap() in rcu_torture_preempt()
+e7b6d505c7080d6d40e5dbbeb01b612de9f08a78 rcutorture: Use task_state_to_char() for task-state reporting
+75a88fe00b67b2a065461940b5392dc5487acfff rcutorture: Add nwriters module parameter
+d1ff05605db14d8d6d1578f289595210c60b385f rcutorture: Add a stall_only module parameter
+560b35bd7c8aa1b7cd20adf28c401e93da567400 rcutorture: Test RCU Tasks Trace GP implying RCU GP
 86fa5387b473c160c26b781dff55014c4e1b3db0 rcutorture: Make RCU Tasks Trace track Reader Batches
 ed55bb915047934acd28e2f0ea1ef9586b254bf0 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
 aaf43c458c491748ae79f8e6afc39fd09a36e77b torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
@@ -67,15 +82,11 @@ a2b83a8c8430b5a4cb43a1671c62535afcfce78d selftests/bpf: Fix selftest build after
 3f611e9b820ee0d01af89bb0643ccfac76cc569d bpf: Fix available-data accounting on 32-bit wrap in overwrite mode
 fdd4fad0bbbd08501465c5f9b556963093c5d58a libbpf: Fix ring buffer consumer loop on 32-bit position wrap
 e052daab94ee8c4081c91de3549772bd1c235729 rust: introduce abstractions for fwctl
-53313bf327bbc7fa6580d9be314a135513e46fa9 Merge tag 'regulator-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 0e3a6e977c14b87861e5295ceff0b5141f017246 selftests/sched_ext: Make numa idle validation race-free
-06d9a86e0222dcf6858544ba7257994bfe9e63c7 Merge tag 'spi-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 f5b57e9e9cfd9736246eb9a5f385da451d199039 bpf: Populate mmap-able array map memory lazily
 e72979d3264a87a6a2dfb44fe0f5723a17d2ef84 selftests/sched_ext: Fix flaky ddsp failure tests on busy systems
-b26d316aaa8e8b7ff6f4f77006a9b7c20ee848c8 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 301d28fefd141d1504b4226e8fa87db6a31f3ca1 rcu: Add closing parenthesis in comment in rcu_read_unlock_strict()
 9cc63f8bcd560c760d0b12e15bba8f81c86237cf Merge branches 'expcb.2026.07.24a', 'misc.2026.07.30a', 'rcu-tasks.2026.07.30a', 'srcu.2026.08.11a' and 'torture.2026.08.14a' into HEAD
-dac3e89a2c90c2feeb471e1f22a2512ad424b792 Merge tag 'drm-fixes-2026-08-15' of https://gitlab.freedesktop.org/drm/kernel
 f7d53dd3f267e46a784f219a75072f2f400d42b9 crypto: krb5 - use kfree_sensitive() for derived key buffers
 ce64a0e7e619a9bdc10c69810efdecc319a6c8ee crypto: eip93 - use struct_size() and flexible array for ring allocation
 b82f60be50c87b3d75e207852c5ca74fa18f66cf crypto: hisilicon/sec2 - fix CCM algorithm long packet failure
@@ -91,8 +102,6 @@ a229e50741de3d78d7acdd952b70509ab971215d crypto: iaa - use bounce buffer for mul
 ff2ac77a034e03b64e2ba34f775097427dfa5547 crypto: keembay - use crypto_memneq() to compare CCM AEAD tags
 7537036a2e6fe96f8ed82034f755c54714a0e417 crypto: lskcipher - propagate errors from unaligned crypt
 b4d85f863e5a6f1fa01b186001af0f68f4f5239e Merge branch 'next' into for-linus
-15ef2f78c49d20d53ec7c0f1c9b40b02e089f2d6 Merge tag 'input-for-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-32ef1b30ad736519f7a207bcc2986f3d4129d972 openrisc: signal: do not restore privileged SR bits on sigreturn
 5bbbce02e500d47d8e259a45be5a7be9741d0533 bpf, x86: Fix per-CPU address resolution into an extended register
 f61306e8c98ce63021efb3091d422260b6be25bb selftests/bpf: Check per-CPU address resolution per register
 d82ebfc685c91e7f5623a8be949da1ddb767420b Merge branch 'bpf-x86-fix-per-cpu-address-resolution-into-an-extended-register'
@@ -127,8 +136,6 @@ e0253dd04beb03e79477c5ef4768b11135687206 sched_ext: Keep kick_sync waiting on th
 390a9461cd73bdd13acc0f6d763618ae1ff8fa17 perf dso: Guard against cache underflow on short reads in dso_cache__memcpy()
 62972e5644e48255dcc715e6ec4401882f8b37d1 perf dso: Replace assert with runtime check in dso__read_symbol()
 6ae6fb96ccd48032b00a38d5f8e0e0a2cce4972b perf test sample-parsing: Validate PERF_FORMAT_GROUP values without LOST
-5e060ff9d18748dbb21b12b821fcfc738823ba93 Merge tag 'for-linus' of https://github.com/openrisc/linux
-3eb40771c00a8488fa6ed2cc1fe203477908bf38 Merge tag 'soc-fixes-7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 5ad746166341e3c07250ee09518d7e4ab5cfb966 bpf: Add verifier diagnostics report helpers
 b9c5d822f677e065971481c4bafe5d84b5451082 bpf: Add source and instruction diagnostic context
 daf8248701b621d8df7ea134793dbb750d4887c0 bpf: Add verifier diagnostic event log
@@ -229,7 +236,6 @@ f12f0234cc14886bcfd53ffb7c8df4216dad51f1 io_uring/memmap: account the pages a co
 360941242f09437a1e07cbed9b5a96663ffeabb6 io_uring/uring_cmd: don't skip completion for a synchronous multishot cmd
 c384ab8a0b13741982669790a36a152acb2ede82 sched_ext: Move the config-off sub-cap kfunc stubs into sub.c
 1207dbb91c111e2422e94b2e75091367369e6476 blk-mq: add missing call to srcu_barrier() in blk_mq_free_tag_set()
-c71bf113dfdf426bdaf106636f573ef87b6613a0 drbd: don't leak the shared secret to unprivileged netlink dumps
 fe247030f1ce74e6bb917e219fe152270613073d nbd: simplify find_fallback() by removing redundant logic
 04d8fb23e520419a283dd53c1d9cdfb7c5b1705e nbd: disallow NBD_SET_SOCK on an active device
 0fdee7c5fa886554503001cecea049f053237381 nbd: clear queue limits on disconnect
@@ -243,20 +249,10 @@ f7b6d128dd49a6eec09066ecfd29095f12588786 sched_ext: Fix inverted ops.core_sched_
 006dd4d04b379f4d76c0439b3f4b15d1216dac18 sched_ext: Make core-sched task ordering hierarchy-aware
 d023aa69c3b5f22a442fb67a37f17b04602eb43f sched_ext: Drop the dead SCX_DEQ_CORE_SCHED_EXEC test in dequeue_task_scx()
 08745c62350126bc31b09548137be87e2866f628 selftests/mm: thuge-gen: fix test_shmget() for PAGE_SIZE check
-0bae94aab8208b7107a2dda5de6ce046466663fd Merge tag 'io_uring-7.2-20260815' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 b39c748d9db0c6f3ada5e7cef7f56415827d5f81 alpha: read $gp and $sp explicitly for clang
-dcb68831eac76dbfda1cf5930d3003d938890d34 Merge tag 'block-7.2-20260815' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 04cf68c9a76e3c6b67ad056a66a14923abf85925 parisc: Fix alignment of asm statements in head.S
 e4c90e39c941b1ecf52f01dc35a119293d1bd8ab Merge tag 'pinctrl-qcom-fixes-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
 d067f0f4c96cb5402a111cf649b7bf9c5771ec74 Merge tag 'pinctrl-qcom-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
-16429bb371999e26b243f6462234d841d271c5f1 Merge tag 'x86_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9da3fc37f5fe8b5adc0c6dd798d2caa3855dac4c Merge tag 'perf_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d5b95e612cde33f9def1a7a6c3242d03d3bbde3a Revert "i2c: designware: defer probe if child GpioInt controllers are not bound"
-d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd update to fix recursive mutex deadlock
-7820dd4a127ae83b530e177faa8e213c2d5717e1 Merge tag 'core_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
 24fbeb83d9b750a36da42cb835a154d80fd3d495 hwmon: (max6621) fix temperature clamp range
 acc52bd431e2d8698fae8d82a74ac45d79b62e0a hwmon: (max6621) fix negative temperature offset and crit readings
 0cd8450c257faa0cece0e0c43d3b55d1a389acc7 hwmon: (coretemp) Fix core_data leak on CPUs without PTS
@@ -1081,5 +1077,9 @@ a0300e8cf0ed685851232973ccadbf62681f7f6d Merge tag 'configfs-for-v7.3-rc1' of gi
 ab9b9b51baa9bb964e9219f81682c4f1761ee47d Merge tag 'soundwire-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 16e6a1a3cb3fa5fa11cd76a9d71235d927923329 Merge tag 'phy-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 66498c75b4f8017f62d720d9b59675bdf3abce91 Merge tag 'dmaengine-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+f36418969157692e224498e560c801bf5f9306e7 readfile: implement readfile syscall
+90a38b437346233c03359ebc25014aa8da82e91f arch: wire up the readfile syscall
+a3d279c2e0bea7711b31ecd068b0f607b9b9c56e readfile.2: new page describing readfile(2)
+5bfb2d3cf337deebb3d6020e472466366c2ee599 selftests: add readfile(2) selftests
 
---===============4041800043252107547==--
+--===============1164042983017808277==--
