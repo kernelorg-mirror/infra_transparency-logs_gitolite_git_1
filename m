@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6796985225126464843=="
+Content-Type: multipart/mixed; boundary="===============4628910314760043403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Aug 2026 03:03:04 -0000
-Message-Id: <178762698432.2769158.7643867034968215798@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 03:03:06 -0000
+Message-Id: <178762698691.2769303.1635041820855727665@gitolite.kernel.org>
 
---===============6796985225126464843==
+--===============4628910314760043403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,42 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 55b50d965aee5f66cefe4dde3907a0e272f96b91
-    new: 169393fff5d1ec2690934067eeb95544ff5ebdd7
-    log: revlist-55b50d965aee-169393fff5d1.txt
+  - ref: refs/heads/mm-stable
+    old: 08745c62350126bc31b09548137be87e2866f628
+    new: 0685630fdccb62dcb0e3f44525a40578da5f6dc8
+    log: revlist-08745c623501-0685630fdccb.txt
 
---===============6796985225126464843==
+--===============4628910314760043403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55b50d965aee-169393fff5d1.txt
+Content-Disposition: attachment; filename=revlist-08745c623501-0685630fdccb.txt
 
+26444eb71465c9934d9d418ef69c43f61185329b mm/vmalloc: acquire init_mm lock on huge vmap to avoid ptdump UAF
+27c32e5538344b13c1505a08861e04620c125d47 mm/ptdump: always stabilise against page table freeing using init_mm
+9d3277b2c07ccc9508d648098b3bbb46c61b7f3c arm64: remove redundant concurrent ptdump UAF mitigation
+c2689266e5f70ecc960e64d40516518c038ae34e microblaze: restore the page alignment of swapper_pg_dir
+86da3f7e1e609e1e8bfbab198af68467c5a015a5 mm/filemap: __filemap_add_folio() restore index before retrying
+50124648db87fb63d9548b6d09deb6d2c6359dfa MAINTAINERS: update address for Brendan Jackman
+33192a26cddea7a7e4ca66e5c3eebd36fa8be2bb mm/huge_memory: fix huge_zero_pfn race
+98bd3af0bb6bfdb0fb39cbfa05456acb374b691e mm/huge_memory: separate out CONFIG_PERSISTENT_HUGE_ZERO_FOLIO logic
+4194140a51201e76c02c666ba83c07a81cefb6cc mailmap: map old addresses to Danila Tikhonov
+a16fd3ad9d89b05475864da97327870464611736 samples/damon/mtier: error out for zero quota goal target values
+06befa61c427e74319781e6f35a364cfc32dbae8 mm/damon/lru_sort: error out for >10000 active_mem_bp
+b9b6bad94c62cbccb9e0ad34635c49fc5f9c52cb mm/damon/reclaim: skip damon_call() if ctx has not started
+0f1868310347f99f1b80d5c6a613ddc747288355 mm/damon/lru_sort: skip damon_call() if ctx has not started
+8db4bab826ccc9ec10fa41736a48031cd338d392 mm/page_table_check: skip special zero mappings
+aca1f2d5de17e138bc6c4859126b77e516b82541 mm/huge_memory: initialise workingset state before folio split
+5deb65c34e682e7c5f5df417a70e223e8fcc5f5a mm/damon/ops-common: putback folios on invalid migrate nid
+1ec0e6b6f7321feb769f50d2f094a0aa6c2eda63 mm/damon: adjust isolated pages stat for DAMOS_MIGRATE_{HOT,COLD}
+bf4ade7dbd76d4ec8697840e4ebb15ed77c5ec26 memcg: keep folio's objcg same as its node
+3366ddf30edabf285b43685ed67c0a78282b3b65 MAINTAINERS: remove git URL for Squashfs
+bd24ce159b0e3212b2080f3a72ba4d89a57f7482 MAINTAINERS, mailmap: update email address for JP Kobryn
+2100f04bc635ba0b328e6e27e5fb1742e421f620 mailmap: add entries for Guodong Xu
+25f52e81216884a7444bf07a606691feb09a94e3 mm/vmscan: report RCU-tasks quiescent states in shrink_lruvec()
+92192e9c5ee07efc657d3654bc264081fb0aa01b mm: memcg-v1: fix memsw and TCP failcnt accounting
+10d9012e83efedde8718ceaa5053f836e0c8596c mm, swap: don't free a hibernation slot that is in the swap cache
+aedf2efd18977e0cef7eb963166e2b1fcc0aa321 mm/pagewalk: fix stale walk->action escaping walk_pmd_range()
 4b47e81e5657ea0d9c157399b366776a042ac8d8 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up already-upstream changes to memcontrol.c, needed by "memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h".
 d230991493b521eeff39f32434fddcbcdb109eb0 mm: mempolicy: fix automatic numa balancing for shmem
 644ad84870ab503f5619d21cf3d37efb134e82de mm: nommu: point to the write iterator upon split_vma
@@ -199,18 +224,5 @@ d17c749d32b2d6d16981ac003ff1cae85860e819 maple_tree: add helper mas_make_walkabl
 5d3fe91b70e7b71174d2a29eb9731a5601e7df0c mm/vmscan: fix comment logic in balance_pgdat
 0e0ac326c511d514817cc7b6d7741afd59098ce2 memcg: move LRU size accounting on reparenting instead of copying it
 0685630fdccb62dcb0e3f44525a40578da5f6dc8 selftests/proc: make proc-maps-race work with READ_IMPLIES_EXEC
-b9e0a6a15c3946a68887a8e3ad970c3ad402a7a6 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
-8bf94f2d1ff71ef3e9399024e1fe821a4e5e8a08 memcg: make the v1 soft limit knob inert
-b355cb3249ad997c60008d732c2d8c27553fc8d2 mm/hugetlb_cgroup: call page_counter_set_max() outside VM_BUG_ON()
-f20d9bcf38085cd052fcc8f11ca1cb99a5ab0c18 mm/migrate_device: avoid out-of-bounds writes for compound folios
-20deb550d94f6fbdf1bc7de50c3b70a1ec9dc742 mm/hugetlb: keep max_huge_pages when dissolving surplus folios
-e132eaf5958977b18e38b5db9b8603a3b819c631 mm: fix incorrect vm_flags usage when checking allowable orders for tmpfs
-532f50107207063d813be703fd0bab54950bd3a9 userfaultfd: reset err to be 0 when move_pages_ptes succeeded
-19e6dbe0cce21a83af78802d383d066f9730a0ac MAINTAINERS: add Lance Yang as a hung task detector co-maintainer
-87cce20be8091c52b25f56f024399eb91d2cd044 mm/huge_memory: transfer the pmd dirty bit to the folio on zap
-74628a1a93c22a31ab29e2d57cfb111522665939 mm/mempolicy: fix sleeping allocation in alloc_pages_bulk_weighted_interleave()
-b238a2e2bebef36248420ff4abf056848e8eec2a module: fix lost error code from codetag_load_module()
-8a9091052cc81caa5570835049c809da804baa3f mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
-169393fff5d1ec2690934067eeb95544ff5ebdd7 foo
 
---===============6796985225126464843==--
+--===============4628910314760043403==--
