@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4629424285456050988=="
+Content-Type: multipart/mixed; boundary="===============6796985225126464843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Aug 2026 03:03:01 -0000
-Message-Id: <178762698116.2768913.8502497564385829025@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 03:03:04 -0000
+Message-Id: <178762698432.2769158.7643867034968215798@gitolite.kernel.org>
 
---===============4629424285456050988==
+--===============6796985225126464843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: d268963816d3c5ef1ae011821581e4d951c74542
-    new: 1a46b1e97bde62afa7d925bb0dcd9f9748a1d7c3
-    log: revlist-d268963816d3-1a46b1e97bde.txt
+  - ref: refs/heads/mm-unstable
+    old: 55b50d965aee5f66cefe4dde3907a0e272f96b91
+    new: 169393fff5d1ec2690934067eeb95544ff5ebdd7
+    log: revlist-55b50d965aee-169393fff5d1.txt
 
---===============4629424285456050988==
+--===============6796985225126464843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d268963816d3-1a46b1e97bde.txt
+Content-Disposition: attachment; filename=revlist-55b50d965aee-169393fff5d1.txt
 
 4b47e81e5657ea0d9c157399b366776a042ac8d8 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up already-upstream changes to memcontrol.c, needed by "memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h".
 d230991493b521eeff39f32434fddcbcdb109eb0 mm: mempolicy: fix automatic numa balancing for shmem
@@ -212,22 +212,5 @@ e132eaf5958977b18e38b5db9b8603a3b819c631 mm: fix incorrect vm_flags usage when c
 b238a2e2bebef36248420ff4abf056848e8eec2a module: fix lost error code from codetag_load_module()
 8a9091052cc81caa5570835049c809da804baa3f mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
 169393fff5d1ec2690934067eeb95544ff5ebdd7 foo
-1a1bbcf475a98073207f80d37390759f976e8478 selftests/mm: fix soft-dirty kselftest supported check
-0b928a60870600b7d521c1f37c9305f63e2955e4 riscv: mm: fix concurrency in mark_new_valid_map()
-f26635a8740e40da1c9c4f8f90e69ebe441a142b riscv: mm: exclude invalid THP PMDs from page table check
-ca98c1962e5e6b7cda29c2fba9ef24490fa1fb89 sh: remove CONFIG_NUMA and related configuration options
-b065e13d6ec2b09279044d0fac21b15d1698cd1b sh: mm: remove numa.c
-65c302db713c850552c0329b0986f92b1bbdbc60 sh: mm: drop allocate_pgdat()
-a32b34ce2309be2251611e99fc6cb27eee63130a sh: remove setup_bootmem_node() and plat_mem_setup()
-9ea945583b213156e18491a9a7144b8cbada9f45 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-f8de12af88a5fc2c48d3562c7036fc8a9955048c sh: drop include/asm/mmzone.h
-cdbb7a266f03bc64d5df24ae9e1502f6540ca859 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-59b9f1a4f12027f28b12786671c7d4c8ddea52d8 sh: init: remove call the memblock_set_node()
-c5152300f7a1f2d07261457428a4e2f713d3dc79 sh: remove SPARSEMEM related entries from Kconfig
-7b23a9a3a86d7d409906319bbf4791e44720caed sh: drop include/asm/sparsemem.h
-dff3662b4836c334640255f3abe7c31854ae141a mm: use a folio in the softleaf_is_device_private path
-6b3c494f0dff93899f83c722e78cd815376f7e33 mm: drop stale MAX_ORDER references
-6054bd6a80c8360a733d7f683acab244a1ae9f77 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1a46b1e97bde62afa7d925bb0dcd9f9748a1d7c3 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4629424285456050988==--
+--===============6796985225126464843==--
