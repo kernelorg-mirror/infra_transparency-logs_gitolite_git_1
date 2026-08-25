@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8157439716971645627=="
+Content-Type: multipart/mixed; boundary="===============8428319840649690301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 25 Aug 2026 14:37:41 -0000
-Message-Id: <178766866102.3304776.16597769625070055526@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 14:37:45 -0000
+Message-Id: <178766866577.3305059.10408159794636732991@gitolite.kernel.org>
 
---===============8157439716971645627==
+--===============8428319840649690301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 3b5ea0f078e1b72276e99c237f3dfc2fd72938bb
     new: 66498c75b4f8017f62d720d9b59675bdf3abce91
     log: revlist-3b5ea0f078e1-66498c75b4f8.txt
 
---===============8157439716971645627==
+--===============8428319840649690301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668658 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668663 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1787668659-c9cc67ad53ca01793c9e438e61492a8fb35f6900
+nonce 1787668663-60dddf2898128f0560e5a7a380d720a716079551
 
-3b5ea0f078e1b72276e99c237f3dfc2fd72938bb 66498c75b4f8017f62d720d9b59675bdf3abce91 refs/heads/driver-core-next
+3b5ea0f078e1b72276e99c237f3dfc2fd72938bb 66498c75b4f8017f62d720d9b59675bdf3abce91 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqLIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MysP/jQhRkPIY+obm5LjGtg5
-23Myp3j3hlgj2nkML4UYzggIZdJ2rVvNnoOM201YJXQ+WGEHA8yKvqo3qLMMFNuU
-Sp/0Z+YNSevSHKBrvyHxdipWtvvczZgUR6P8lkC59kYx8uFM2WyoFmyJ1K/oIkcr
-Y0q6QFj/vTIutLVCNxMOR4j5o4KoWhXhyoliw3hhW97F1QKDnuopjmPWOBcwcOGj
-ipRcptU+47ODbLzP+PsJVm+ro5+l6IF6N1Abm++693raxsATbXsc0KFNGhAtyIqF
-wSu0NMq8RTsYwsYMUnaGxHayVY2kCSAw5u6qQz00EzkrB7Rei8Y0yxWkHenGUCW1
-m2owlssasydiOOVkd1eJq/c7nt9iSzssJTSO6pKonQfJYNYqueaXvqk50dROPUqU
-0xsad02LWTTsRjTG4H1Lyc8sTnMQUHEqsRZmseJp26yP3Pnwc9sumab9KZnyR+Ls
-ML/o5LlzRKS+2Vf7jx1LXIwNTpwTbOemno/RzzMNw0nTD1SUM/KSK7o4QjvUGmjC
-97V+P4HrpfEjl3oWBwNg74js3HISz0F4EnO5pqleG/Gh1oHCRkTm8TqM+RTyjonp
-5g4IizBuZyC747YHEJxDLflf8pbI/LjHzfyA1sMRBuxoqReolm98gqo83VWo36WX
-poWMBoe71xpy17j3R/7jMCeu
-=0Kao
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqLcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7b4QAL2RIy6/XTyMKEhuf60I
+b+1NTR1I7vumykB9KANwLtHeEV+sYVvHLcG9W9UE8mfdA+YH1/U6Gco2l1kEpIfe
+ImDGWO63P0UySarBSZAffBPocmTFWTP3JDdos4A2pEn1++8WoBxZzrHsLqGDun/7
+WoC95WWT49H2TPKHnPNf0jDlUoXzQb5hFB9C4AxPQGenClwxTHK2sBZJ3q8oyzag
+V9KkHFpuwDEinzr96EYLePMfufZXHy6d4hY1ZJJ0wRk6Gd1Jua8pjaQxF4Cv8L9c
+dpZpH/8RjGc7040jjcbsWit5uc/sz9DXh6DAzyNZR4bdc2s5egvlU33RkcWGNtWW
++Yo62UJ7kk5vQqUp/Mmie0V0zt65hxpFkJToBo+GvEq134Gzi+jtVb3028+L+M6y
+5S44RzJrgulbbEb3iBkXAEbp9afgkAJuPEWYusRSoXc2oxYIYjZaj7Y0R2VGEH7+
+UooGAfiWChKpD1prJvHSdK8nAfgiR6aDUEpsB91esbt9MqTsNxb403gKQ91u43RQ
+X9dfrF8DCniFhruZ2XBR+OO6lUf8bgJHbbO3WSX7F+M9QHecJtGoaW8wA8XI5kkT
+oGMzPEKSlRmO/KV3rFu/4PQkqwfDZPh97bBysogHVbxe6+cCA+oDELG921UsZeqv
+LXbMhHB/tHiC+zi7KzEFUCOw
+=54aj
 -----END PGP SIGNATURE-----
 
---===============8157439716971645627==
+--===============8428319840649690301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ ab9b9b51baa9bb964e9219f81682c4f1761ee47d Merge tag 'soundwire-7.3-rc1' of git://
 16e6a1a3cb3fa5fa11cd76a9d71235d927923329 Merge tag 'phy-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 66498c75b4f8017f62d720d9b59675bdf3abce91 Merge tag 'dmaengine-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 
---===============8157439716971645627==--
+--===============8428319840649690301==--
