@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 25 Aug 2026 12:10:09 -0000
-Message-Id: <178765980979.3175595.18124498102674285631@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 12:15:09 -0000
+Message-Id: <178766010927.3180818.16812718412196899111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 6afcbccc10ce54c84fd06ece157a4f767138f898
-    new: 43ce006300efa774a3e7eb63e952050f3b2e366b
+    old: 43ce006300efa774a3e7eb63e952050f3b2e366b
+    new: 298b2f56023201fb46ddad6ff5d1a0ee1151daa9
     log: |
-         3c11e660d3a8f8b35e12809b4b721a722b597148 linux-firmware: update firmware for MT7925 WiFi device
-         43ce006300efa774a3e7eb63e952050f3b2e366b Merge branch 'mt7925' into 'main'
+         50e034a2c2141c902089c09aa5fe9363c1be6e56 mediatek MT7925: update bluetooth firmware to 20260813113236
+         298b2f56023201fb46ddad6ff5d1a0ee1151daa9 Merge branch 'mt7925-bt' into 'main'
          
