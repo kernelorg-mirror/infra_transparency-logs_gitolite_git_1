@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2307182112842586346=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 25 Aug 2026 14:23:26 -0000
-Message-Id: <178766780610.3291602.14866530245403052984@gitolite.kernel.org>
-
---===============2307182112842586346==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 25 Aug 2026 14:24:33 -0000
+Message-Id: <178766787370.3292134.3477289141226658263@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/vfs-7.4.misc
-    old: 0000000000000000000000000000000000000000
-    new: 6878ba0a7e63d58e4ba69c133cfecff6b66d5e37
-
---===============2307182112842586346==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1787667805 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1787667804-bc35241501db131032ce2624642dfe1f2dfe1327
-
-0000000000000000000000000000000000000000 6878ba0a7e63d58e4ba69c133cfecff6b66d5e37 refs/heads/vfs-7.4.misc
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCao2lXQAKCRCRxhvAZXjc
-ohhfAPsEUcZBx0OQiwWRJ4I82px0P1XszCW4hKvCLVQFplqFhgD8CJbR0F4W9uSR
-pKzMKfUoYOG/XgkadfhHkl0iuDz/SgA=
-=xF4V
------END PGP SIGNATURE-----
-
---===============2307182112842586346==--
+  - ref: refs/heads/for-next
+    old: d83fba28c25ea6d3485072ea173e16b397d45d48
+    new: ce36e38beb6863664994f5676122359c8d323203
+    log: |
+         ce36e38beb6863664994f5676122359c8d323203 selftests/bpf: Resolve bpftool through bpftool_helpers in core_reloc
+         
+  - ref: refs/heads/master
+    old: d83fba28c25ea6d3485072ea173e16b397d45d48
+    new: ce36e38beb6863664994f5676122359c8d323203
+    log: |
+         ce36e38beb6863664994f5676122359c8d323203 selftests/bpf: Resolve bpftool through bpftool_helpers in core_reloc
+         
