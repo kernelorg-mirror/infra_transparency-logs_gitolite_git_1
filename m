@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2113488406724044747=="
+Content-Type: multipart/mixed; boundary="===============4185557776128071678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 Aug 2026 07:09:54 -0000
-Message-Id: <178764179410.2943703.8914753302147730903@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 07:10:12 -0000
+Message-Id: <178764181223.2946074.17745876685406298648@gitolite.kernel.org>
 
---===============2113488406724044747==
+--===============4185557776128071678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 30c179d5299c7e903573cb112dd4c34fd130a3f8
-    new: ea23bb8e8c0e32cbf692fe3f77a4d022e39b98f0
-    log: revlist-30c179d5299c-ea23bb8e8c0e.txt
+    old: ea23bb8e8c0e32cbf692fe3f77a4d022e39b98f0
+    new: c9eeb0a80a122cb1539a4291e8a3ed275ebf43d7
+    log: |
+         41fda182f78644fda677f3085309748943a4d20d Merge branch into tip/master: 'locking/urgent'
+         c9eeb0a80a122cb1539a4291e8a3ed275ebf43d7 Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
+    old: e7bb1f1ccd17038d89bf00d060035d971229ca93
+    new: c9eeb0a80a122cb1539a4291e8a3ed275ebf43d7
+    log: revlist-e7bb1f1ccd17-c9eeb0a80a12.txt
 
---===============2113488406724044747==
+--===============4185557776128071678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30c179d5299c-ea23bb8e8c0e.txt
+Content-Disposition: attachment; filename=revlist-e7bb1f1ccd17-c9eeb0a80a12.txt
 
 62a3aa000055efcc86483e8953775943513fe44d pinctrl: qcom: Avoid assigning unused private context in test cases
 b49024d79fb7304f646003fcd8846ef26dea7e92 Merge tag 'v7.2-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into pinctrl-qcom/for-next
@@ -594,6 +601,8 @@ a0300e8cf0ed685851232973ccadbf62681f7f6d Merge tag 'configfs-for-v7.3-rc1' of gi
 ab9b9b51baa9bb964e9219f81682c4f1761ee47d Merge tag 'soundwire-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 16e6a1a3cb3fa5fa11cd76a9d71235d927923329 Merge tag 'phy-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 66498c75b4f8017f62d720d9b59675bdf3abce91 Merge tag 'dmaengine-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-ea23bb8e8c0e32cbf692fe3f77a4d022e39b98f0 Merge branch 'linus'
+64f74d8f728877858372c52067e5c0c091f8db24 um: Use asm-generic/timex.h over the host architecture one
+41fda182f78644fda677f3085309748943a4d20d Merge branch into tip/master: 'locking/urgent'
+c9eeb0a80a122cb1539a4291e8a3ed275ebf43d7 Merge branch into tip/master: 'timers/urgent'
 
---===============2113488406724044747==--
+--===============4185557776128071678==--
