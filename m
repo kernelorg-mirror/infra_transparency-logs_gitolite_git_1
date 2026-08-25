@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Tue, 25 Aug 2026 20:27:48 -0000
-Message-Id: <178768966814.3559944.4919994700897735576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 25 Aug 2026 20:30:58 -0000
+Message-Id: <178768985834.3563542.15759782035267570597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/rust-fixes
-    old: d24f5cdbeff8b6a063fca92d0a1f94122a799b59
-    new: 1b0bab4a873f1034c27573cfc613394cff7e0a5b
+  - ref: refs/heads/renesas/x5h/i2c-experimental
+    old: 73c45a896d0a9a71ccfc65d7879ad36a8c78b1b7
+    new: 9db86649d80cadd1ebbbf1ddde2c515a3923b005
     log: |
-         a5c7d35e2fd3e24c411816c91f8f6cc78e652e0c rust: kernel: list: fix incorrect pop_back example comment
-         993f235c4af49d0e912cc28abe6d733531600237 objtool/rust: add one more `noreturn` Rust function
-         dea1bf38143f8505747c19b953ef12fb809d5d77 rust: jump_label: skip arch-specific asm in `testlib` builds
-         29b03d1de967a177176d12811d970cac7882afcf rust: cfi: disable function merging if CFI is enabled
-         0bff7711c19ba05ff3b686554c5a2d503c3e9797 kbuild: rust: preserve unreachable traps with inline helpers
-         5febf432df1cfa5b25d99b54c32103fafbdd0eb9 kbuild: rust: keep Rust objects out of Clang LTO with inline helpers
-         7dd6343fc127935425a81a8f1989907996c2868d rust: num: restrict bool conversion to unsigned Bounded
-         1b0bab4a873f1034c27573cfc613394cff7e0a5b rust: kbuild: disambiguate `zerocopy_derive` for `rusttest`
+         2f540987c39b16539f2112e818ea482c2662d2d0 dt-bindings: i2c: renesas,rcar-i2c: allow 6 DMA channels
+         8f624887ac8f74b9d58bf37f45336e7d06f7f34b dmaengine: sh: rcar-dmac: fix style in struct initialization
+         4431db534eb1e4b046eecce276be6196e010023a dmaengine: sh: rcar-dmac: SMMU doesn't need IPMMU workaround
+         6e7b144939d2536fcd1e33a0b8f747f1958f8e1e dt-bindings: renesas,rcar-dmac: Add support for R-Car X5H SoC
+         5c31830d3178726804467821a8bc01ff5eee54a9 dmaengine: sh: rcar-dmac: Add support for R-Car Gen5 SoCs
+         77dbe1bc78e2bade5f3768178dc2b7dae22a66a9 DTSI DMA-SYSC add
+         b5626988dfe44cd5a05234b89156f6e43ca3d579 arm64: dts: renesas: r8a78000: I2C
+         9db86649d80cadd1ebbbf1ddde2c515a3923b005 arm64: dts: renesas: ironhide: I2C
          
