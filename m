@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6869278992498118575=="
+Content-Type: multipart/mixed; boundary="===============8742206844124759507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 25 Aug 2026 14:30:48 -0000
-Message-Id: <178766824825.3299061.2352026701717806859@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 14:31:40 -0000
+Message-Id: <178766830062.3299760.2175103111423945494@gitolite.kernel.org>
 
---===============6869278992498118575==
+--===============8742206844124759507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
+  - ref: refs/heads/for-next
     old: 54745d563114b74f6fecebce68cd020d06c1772b
     new: 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a
     log: revlist-54745d563114-5b05bb3f6c57.txt
 
---===============6869278992498118575==
+--===============8742206844124759507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1787668242 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1787668295 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1787668241-1d358ad84af678166dc1c11b3425c1e6a6d3f5a3
+nonce 1787668294-15994418e9ca416ec9455228df043a5eaa28f983
 
-54745d563114b74f6fecebce68cd020d06c1772b 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a refs/heads/review-ilpo-next
+54745d563114b74f6fecebce68cd020d06c1772b 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCao2nGAAKCRBZrE9hU+XO
-MbHTAP0bzswseS/iMHkoyQJdnT5KZpDpA4RFl+v/NGQKHmVfCQEAxUb2jFz1fFXn
-hoooAbidULHR4IcULAMArzwPrg6tRQ8=
-=VCB4
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCao2nTAAKCRBZrE9hU+XO
+MVnuAQDVHr7dDFPyAdKQP2/Vgx7ag7T9IJ7v5n+iOmNogsh3twD/SqfvwpPAIPnq
+63FhEATUJ+5SKxu50zOlQXl4SkP6Hgc=
+=RrqS
 -----END PGP SIGNATURE-----
 
---===============6869278992498118575==
+--===============8742206844124759507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ cf9610f9116d55c5a66ef9f1faecacabd93a9322 Merge tag 'pinctrl-v7.3-1' of git://git
 8bfab832ad6905ba70e69bad87a78f6d90cce64a Merge tag 'mailbox-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a Merge tag 'platform-drivers-x86-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============6869278992498118575==--
+--===============8742206844124759507==--
