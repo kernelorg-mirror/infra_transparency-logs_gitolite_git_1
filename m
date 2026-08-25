@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 25 Aug 2026 11:30:08 -0000
-Message-Id: <178765740813.3145760.11868017258935966433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 25 Aug 2026 11:43:33 -0000
+Message-Id: <178765821391.3154119.14640220009356472165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 72dd0ec09e7cc98ed58ddeac26575e5d1ab8a93d
-    new: ffe0486b139e45cd9c9ca2584f04a1910fe4f8a6
+  - ref: refs/heads/master
+    old: 477a9e8102b1d9771d2615b177d6b1504430e8d7
+    new: dffeecca6e8280143a5af7080d879d0fc7442fb5
     log: |
-         ffe0486b139e45cd9c9ca2584f04a1910fe4f8a6 console: fix /dev/kmsg reference in flags kernel doc
+         dffeecca6e8280143a5af7080d879d0fc7442fb5 Fixes for all trees
          
