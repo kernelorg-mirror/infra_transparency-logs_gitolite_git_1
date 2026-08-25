@@ -1,61 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4705707251894831279=="
+Content-Type: multipart/mixed; boundary="===============4041800043252107547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 25 Aug 2026 14:32:53 -0000
-Message-Id: <178766837375.3300508.2893032753662602113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 25 Aug 2026 14:37:31 -0000
+Message-Id: <178766865104.3304353.3941547144299053547@gitolite.kernel.org>
 
---===============4705707251894831279==
+--===============4041800043252107547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 39490ec6063d9dc3d995b7b48fc5106cd361a547
-    new: 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a
-    log: revlist-39490ec6063d-5b05bb3f6c57.txt
+  - ref: refs/heads/main
+    old: db2ddb87143519e20a95aa36c60b36107b736a58
+    new: 66498c75b4f8017f62d720d9b59675bdf3abce91
+    log: revlist-db2ddb871435-66498c75b4f8.txt
 
---===============4705707251894831279==
+--===============4041800043252107547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1787668371 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1787668370-c623fd6eb45b4aad5be1b91b23a19d8f07ac89e5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668648 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1787668648-b8848c5b5522b93288058c4dc1fb617c108f715d
 
-39490ec6063d9dc3d995b7b48fc5106cd361a547 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a refs/heads/review-ilpo-fixes
+db2ddb87143519e20a95aa36c60b36107b736a58 66498c75b4f8017f62d720d9b59675bdf3abce91 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iHQEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCao2nlQAKCRBZrE9hU+XO
-MenTAP91pgYeATviBlXE9LhsYUUVmjCjothom/pbMFUtf8ZSTAD3fM/8zY66xrpi
-9/9ElBktsgxJ0KUc95I2awYhDOeBBQ==
-=RSVy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqKgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++bcQAMwHncOXNPL52c6dSZe1
+i+xnYcy8ew7/pq10hGSuS6JF6PgjiMwfC/WCD8ZfrdSLSdxgtYqlNU4g1M0AaYz+
+kgxDbRYIobfNKVegDHKveDdNZRVyBe5yC0gZ1co0nM5XxICzNht7IFtX2iGtu5YI
+yhSDah1sUR7J26xvr9Qwy7uqoO7TEkgn62k5M/Y1mcERk9uOkxaQxKbNgGL1WwWR
+2L8c4Ekn8+IZ0TFdfhr2i7isxY2zuAxVVlJmtj9h5SCzWbSj2bkZH3/1ZPOzOkgP
+oEH2Ap1WMrmeIRSdM4gNr/utZvKbIV7QYSSBoEYB+w04ciniJA1gK0bN+P7X1R4l
+c5xU7w4pTHnr+hr3MVsZPA6Z8MiD6ONlUvqEGJ1YIyMWs+12/Zl671dYFmgXwa9t
+AxBwzmfIcZf3wsn7XkxknYpP41C9x5XqkH3Dz25h/vZy449jepZWbeULdUryWZl1
+yP5/eJrCqxp92dlwwqWgmnnrribhSlc0+lFF5BkFo1zMR+rqsAb/kO0cgo+wpMi/
+kNLoeqS+AMOZ7FVLadtZKW9vWxXz2GR6Ivv2D3qMhiJEb6/Hu4xpUlR4whB6ra5p
+FgB1/40WfvL4+HS8kbwoHqtundEHo6thFjpC+hzZAw1y/vDlMEc29QgsFP4GAHOR
+35r+roLV1C0BDHL0sz+IkfnL
+=h3nQ
 -----END PGP SIGNATURE-----
 
---===============4705707251894831279==
+--===============4041800043252107547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39490ec6063d-5b05bb3f6c57.txt
+Content-Disposition: attachment; filename=revlist-db2ddb871435-66498c75b4f8.txt
 
-d2ed9eaaf2631a4f1c1f3b2fc267aecb2150a7b2 Merge tag 'mmc-v7.2-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-50df5afa6d410ddfa32f58cdb2976d16fc3785b3 rcutorture: Check for immediate deboosting at reader end
-beea256806c4ec5a6d04dca910ec78a4e270e083 Merge tag 'regmap-fix-v7.2-rc7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-5ac693414b51acb8c4b92813ca3ab4fc6686ddf9 rcutorture: Test RCU readers from hardware interrupt handlers
-f424566105c946ef42f2643230362598c06a29f1 rcutorture: Use cpumask_next_wrap() in rcu_torture_preempt()
-e7b6d505c7080d6d40e5dbbeb01b612de9f08a78 rcutorture: Use task_state_to_char() for task-state reporting
-75a88fe00b67b2a065461940b5392dc5487acfff rcutorture: Add nwriters module parameter
-d1ff05605db14d8d6d1578f289595210c60b385f rcutorture: Add a stall_only module parameter
-560b35bd7c8aa1b7cd20adf28c401e93da567400 rcutorture: Test RCU Tasks Trace GP implying RCU GP
 86fa5387b473c160c26b781dff55014c4e1b3db0 rcutorture: Make RCU Tasks Trace track Reader Batches
 ed55bb915047934acd28e2f0ea1ef9586b254bf0 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
 aaf43c458c491748ae79f8e6afc39fd09a36e77b torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
@@ -1066,10 +1067,19 @@ b6b019a1d9b90ac51174f0ca15b1338b61506bf9 Merge tag 'parisc-for-7.3-rc1' of git:/
 14af7a96afa39f4f3c1972705489b9ba15c01857 mailbox: add Axiado AX3005 mailbox driver
 83684c4e4d62cb02b2e4d0d18963d1035439278e Merge tag 'rcu.2026.08.18a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 0a0d1d55dad570724bf8c7ea83409639cfb4be9b Merge tag 'scftorture.2026.08.18a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
+41a9c2b48e258ed97e9a7153110ab583a2f3145b MAINTAINERS: configfs: split configfs entry in C and Rust parts
+160dcfe7f94346623abe9e3c9cb4173908698422 Merge branch 'slab/for-7.3/objext_split' into slab/for-next
+564ed40708ebc60a78f280944799cbe8e3401816 Merge branch 'slab/for-7.3/kfree_rcu_nolock' into slab/for-next
 0b0e645ed2c858978a8de877ecb6355d30a6ba91 Merge tag 'auxdisplay-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
 cf9610f9116d55c5a66ef9f1faecacabd93a9322 Merge tag 'pinctrl-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 47096fc3d064a07c0842f748b99ebf01be120f2b Merge tag 'i2c-7.3-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 8bfab832ad6905ba70e69bad87a78f6d90cce64a Merge tag 'mailbox-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a Merge tag 'platform-drivers-x86-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+a0300e8cf0ed685851232973ccadbf62681f7f6d Merge tag 'configfs-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/a.hindborg/linux
+918e25291ce95ef26c288234b088e9d433ecd94e Merge tag 'slab-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+2f43193b88188b184a967c9427602e019f1b8708 Merge tags 'dma-mapping-7.3-2026-08-24' and 'dma-mapping-7.3-2026-08-24-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+ab9b9b51baa9bb964e9219f81682c4f1761ee47d Merge tag 'soundwire-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
+16e6a1a3cb3fa5fa11cd76a9d71235d927923329 Merge tag 'phy-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
+66498c75b4f8017f62d720d9b59675bdf3abce91 Merge tag 'dmaengine-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 
---===============4705707251894831279==--
+--===============4041800043252107547==--
