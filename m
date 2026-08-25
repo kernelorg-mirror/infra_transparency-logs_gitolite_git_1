@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1923527814253508828=="
+Content-Type: multipart/mixed; boundary="===============1781093930197267659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 25 Aug 2026 13:35:30 -0000
-Message-Id: <178766493046.3255977.10157109434914832222@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 13:35:33 -0000
+Message-Id: <178766493354.3256163.4268988265294015867@gitolite.kernel.org>
 
---===============1923527814253508828==
+--===============1781093930197267659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: abea5c349368a683e40fdc2e745099aaaacc89d7
-    new: 47096fc3d064a07c0842f748b99ebf01be120f2b
-    log: revlist-abea5c349368-47096fc3d064.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: cd5fec79af3fa04e88e5900cdfa56d5525f5740b
+    new: 2eef2f88eb8fff14eecdfc5f3dfa874486100b82
+    log: revlist-cd5fec79af3f-2eef2f88eb8f.txt
 
---===============1923527814253508828==
+--===============1781093930197267659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abea5c349368-47096fc3d064.txt
+Content-Disposition: attachment; filename=revlist-cd5fec79af3f-2eef2f88eb8f.txt
 
+36969d97fea854b524784e486322325f6d2c74cb ipc: only destroy orphaned shm segments on sysctl write
+f7f824e54b842c1e33a8e2e7304cd72def3c622e lib/xz: use size_t instead of uint32_t in a few places
+1a1b9b027049683f56aa66f854b982d7a4b82226 lib/xz: fix comments
+36ffbe1d5e99ebe17bea60e65e053dbcd89bc04c taskstats: drop the dead NULL attribute check in parse()
+c4904c4ae33c5f76c10b03a2283e47d8a6736941 taskstats: fold the two cpumask handlers into one
+aa27e55f24402ab7de5dc2593b54145f9b6dc3fe hung_task: update DETECT_HUNG_TASK_BLOCKER Kconfig help
+825cef942cd58ddf6d26d1f45a9d70d28ea63d55 tools/mm: prevent page_owner_sort from truncating input
+2780860eddecba9ffe210bb9436eee3cf22bfcdd include/linux/list.h: mark list_add and __list_add as __always_inline
 809f455a75fdfebf8cf3fee5ec6275989b2acedf MAINTAINERS: add IRC and patchwork for LTP
 8f1d96a16c6313afb58b1ccc1ea0e8df4bd6efd7 selftests/prctl: fix non-anonymous VMA mapping in set-anon-vma-name test
 b2d31acbd3b182755b019183fb46949ba5e39b9f ocfs2: validate orphan slot during inode read
@@ -867,13 +875,6 @@ faabe2db712e8310dbe38fb81d33e5313ff0f059 Merge tag 'ata-7.3' of git://git.kernel
 85e0d1de369cdf827dae8c759f40696de81b7ca7 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 b76eee9c2157223aa4aac42ceebb563288e078aa irqchip/ast2700-intc: Avoid allocating in the irq_domain activate() callback
 98f21c54f99519329c18e2625b0ea6db14524d09 Merge tag 'for-linus-fwctl' of git://git.kernel.org/pub/scm/linux/kernel/git/fwctl/fwctl
-d1f112e2fa9b7f60f5dfa51118a0dad57fd3df88 i2c: busses: drop redundant dev_err_probe() around irq helpers
-cbd043b00ee3f542c115c8809c4d9a67465c07d5 i2c: imx-lpi2c: properly unwind resources on probe failure
-a4c419356a33324bb14f88511b990e2eee6dce56 i2c: imx-lpi2c: reset controller in probe stage
-43eb13f13385a1e7251978a1977ac61b99edef01 i2c: ocores: Disable clock on failed resume
-62edb8ca0aa44517cc23cfa26cd8a51f15ea92fe i2c: mux: demux-pinctrl: fix OF node leak on kstrdup failure
-777979e627115734052b323d2721cdb500e81dcf i2c: mxs: fix DMA channel leak on probe error
-7a79b02dd1b09c235c3cf6075bccca2160d1b826 i2c: rcar: fix reset handling for Gen5
 55ee4b931a7ffedc886175d265dd6e6d08fd4151 Merge tag 'trace-rv-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 3793b558ff3b1cae64a3eddb497ab9e5636bf022 Merge tag 'trace-tools-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 00d66b29a66ce18e417a8436076c629d03186a27 Merge tag 'ftrace-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -1022,8 +1023,6 @@ e0aba454f87aeb3d2c86fcc401daa7db03061bdb Merge branch 'pci/controller/vmd'
 25a22c9078d2626fa833969c0c04c5927adf673f Merge branch 'pci/controller/xgene'
 70cbec6fec2c5b7e73d7edbeb6810e57fad66138 Merge branch 'pci/controller/misc'
 9324becc398a1f9e67c91a3d652a7c56e5afc7f4 Merge branch 'pci/misc'
-b5fa55ad007059547c9139d4c4872e158ae255f2 i2c: rust: mark I2cAdapter methods as inline
-d576a9561a1c80ae593539fb0ce0743d66825ac2 Merge tag 'rust-i2c-for-7.3' into i2c/i2c
 47f05f71ad988c3180bdba807151e6e86ed75aa3 Merge tag 'firewire-updates-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 473f6c8f437b049f8ec015d57cd59bb983b1d85c Merge tag 'perf-tools-for-v7.3-2026-08-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 728785f8fb07ae9c295b1be6d7d672b9ebfc3c05 Merge tag 'exfat-for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
@@ -1050,5 +1049,6 @@ b6b019a1d9b90ac51174f0ca15b1338b61506bf9 Merge tag 'parisc-for-7.3-rc1' of git:/
 0b0e645ed2c858978a8de877ecb6355d30a6ba91 Merge tag 'auxdisplay-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
 cf9610f9116d55c5a66ef9f1faecacabd93a9322 Merge tag 'pinctrl-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 47096fc3d064a07c0842f748b99ebf01be120f2b Merge tag 'i2c-7.3-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+2eef2f88eb8fff14eecdfc5f3dfa874486100b82 Merge branch 'mainline' into i2c/i2c-next
 
---===============1923527814253508828==--
+--===============1781093930197267659==--
