@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0319202293283391145=="
+Content-Type: multipart/mixed; boundary="===============3555258290271647095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 25 Aug 2026 13:27:26 -0000
-Message-Id: <178766444627.3248446.786747276930625177@gitolite.kernel.org>
+Message-Id: <178766444675.3248527.14836520637161278529@gitolite.kernel.org>
 
---===============0319202293283391145==
+--===============3555258290271647095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 0d75724169e5b70c3ebf174c8e41ab61e9f6b126
-    new: dd3dc5dea566dfa90a6864dcf067736ee496fbab
-    log: revlist-0d75724169e5-dd3dc5dea566.txt
+  - ref: refs/heads/linux-6.6.y
+    old: 28be2e0d1adededa4d05b6839b227226c47d3205
+    new: 8147a3c12dd2c1cc9721cc0f05cb0d7f04a3550b
+    log: revlist-28be2e0d1ade-8147a3c12dd2.txt
 
---===============0319202293283391145==
+--===============3555258290271647095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,112 +30,120 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787664346 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1787664443-7754bf74c07803bacfc30489b7c6b493c2c1502d
+nonce 1787664444-1921e999b29f5873407db9a4057701dc0e55bec1
 
-0d75724169e5b70c3ebf174c8e41ab61e9f6b126 dd3dc5dea566dfa90a6864dcf067736ee496fbab refs/heads/linux-6.1.y
+28be2e0d1adededa4d05b6839b227226c47d3205 8147a3c12dd2c1cc9721cc0f05cb0d7f04a3550b refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNl9obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+inwP/iTgo+UDafMiuqmcba7c
-OfZiqIU8RYwAqWDIXznO/Yub7mIqTKunPStfu84gUJQCw+Bf+8raeO/tA22XT25j
-XNULw3JBNvEELVo/s9UcsjSEAKfNQgyLjSXIbStPtdvSpXat2q/GVqFlHgt53Y7d
-NxAuYxTu6j1bgXn8Xi5eRyTr9xW1sp2dV1Nx/ntY1hoGjA0t/afsQk7+90ZmPGzw
-dbcIKyYgrVa5VLgZuyjrtyKka9/h/2qMZwRHbToVqrhf8G+uREzkZ0MXTA3mar2Q
-fOgOCJTGDy49ovhZ2q5dfvW3h4uAYUdGgHBTotxj882hnUIVSrW276+4qXfqAr3a
-SSohSFgRYg3ii5d0vZn2sf6B5e1KjhtfAojB78Jm0D8Yaie2kBWhK3MC4geGRBAB
-2TemeaDXIc8Vvn8RwI5O1+nOXx2DDHp9fLTgea4NEnhMFWS4kVC5puWDTug8TO0W
-8o2o/br9Z0g7CxxxUUJ/t0UWGO+XqZ+NmxVZXU3lPCLjlNeUaVsiaBIvU+F3NrS6
-XbcCfuZugK1AbO3QuRNrQsvWDa7SS0oaDAriDB/r91SKD2nyS6FKS1PnxieapiYk
-/jkObgG1Itct5tdavld9fZ+YPRX2xM9Ze74CwP+aOfB9fi9h4DsCovUYmgTriK5H
-sLuGZ2ejhCc7jsL6WhZQu4pY
-=ppuw
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PIoP/1DfZjnsJXKZ3u1upUh2
+iRjkRrp31NYKuyu0d7RvvjycnmgKleKoB8W917OsIVEk/H2dM7o+SZg4ibz2m5v+
+bslB13IWg5xnxzpqA67U/Q0wr1pYs5uTEg9l/kNJXC6hiiAr+pF83BSMcomYf0Pg
+c7yp4aS2lMBCqut2HvHO2xuCuOovM9AJgaGwCjcuDHXmB3GLfJiZpKgukegC/fr/
+1aPq3ImsAQFrUH673aYtYKnXVkxh3ZJPwyLByhrYTbN1tiK4VPCWoIQRIo26fGHb
+2t1gzgiYmDkxsZRbn+a2dZPT1mF1ysg3o3u3iTDZpzrQcRk0X9PgwVmtulQRPgAl
+mVtZM9kGkLPg8/b3GsFWy5zYg9fntKsMsSbL3RHlbcjRT2ENc1zG20WAsLx4t5xv
+IAZFC2xnmUoiGd1fp1sFIR1n4nMIJM5GWJMWNkWMI7d/zQ3+6cYhsiwIJOHVrd7K
+hIVtcZ7l17lTm+XBqNLts9e9rrvJehIxo9F2UJ7eCH+mkw0BSpuP19nk+aDsJ/Iu
+Vnpka7YkN9XafBYbsYs8LHkp0G/izcep/D4h24CEe/M7wEIarYvr+ov1M8c3NUik
+q7w3lIpw8wu1MWq9S2VZ6Qqn0QjFnsFiCULz38EkakvIv43XTyIPiakLfqUeV5cQ
+RAe59lymODLe9NE0yO1Od2BJ
+=YYzf
 -----END PGP SIGNATURE-----
 
---===============0319202293283391145==
+--===============3555258290271647095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d75724169e5-dd3dc5dea566.txt
+Content-Disposition: attachment; filename=revlist-28be2e0d1ade-8147a3c12dd2.txt
 
-56f7297c8702fc5c1217a540e00949e9b7f3da2a PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
-c2cff5bfee688eb83b017a4847c38c4fc5ba33b0 Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
-910fe0b3c3c4aface57fc6414e134aa041b2caa5 rndis_host: add overflow check in rndis_rx_fixup()
-88f455ef7d08da6e04dbbde6266fba62651411e6 ALSA: dummy: Check card index validity at probe
-93e05886e99c6e66a4f4eca1f86fea6b4eef6369 ocfs2: fix missing metadata reservation for large xattrs
-37330707e58f4694d5004933c9a8aea0ed2dbc15 null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
-582079b775274f9a2489f4a4d427d7fbef2f5438 kcov: fix data corruption and race conditions on PREEMPT_RT
-cc489f9852993bbc427c11dac3b02a4252c22804 ext4: stop retrying saturated xattr cache entries
-9c4a5a2b567a988b66c8a2b49edb0d4d9ea0dfef ext4: clear error before retrying inode xattr space fallback
-bcb04f3f8798ef5ddd8be894cc13e0f5a50288d9 xfs: validate attr entry pointer before field access
-8a37bcae4a2d79ed84797c85b1d0a4c46f14fd7e misc: fastrpc: Rework fastrpc_req_munmap
-aad7aa01bcaafb1a0f8c6013c70b9e3f110a8650 misc: fastrpc: Remove buffer from list prior to unmap operation
-1638f012c0807585d63b4ae915c4955d86ef85a6 NTB: ntb_netdev: Preserve RX queue depth on allocation failure
-9e219f7bc5248e11bd56980ec730fb96e4073f37 serial: amba-pl011: synchronize DMA teardown
-ccea42a1bfe947b8fc595ab5a76344df42e28990 perf/core: Fix child_total_time_enabled accounting bug at task exit
-10aba0a6aca349c9785738ce8da14a536adb5ee5 perf: Fix cgroup state vs ERROR
-9dd7a21b78334cf7156e2c0c5335a770fdc0d198 perf: Fix dangling cgroup pointer in cpuctx
-ba9fbdc070ca71a93a16fce643aad58c3e70af08 perf/core: Fix group leader use-after-free after sibling detach
-3d79fa4942c4931829d08725be345a1a0b8efe0e packet: use consistent hard_header_len in non-ring send paths
-f58cb36219256119290f718242a7e1190af3e9fc packet: use consistent hard_header_len in TX_RING send path
-b82be10df41486ad50af8d991597632e76cdd331 serial: sc16is7xx: fix copy-paste errors in EFR_SWFLOWx_BIT constants
-159ccebac3e36ce0e18f45b7a850744ac198dd23 serial: sc16is7xx: convert bitmask definitions to use BIT() macro
-71f254e8aa9290c0770274ae5518a32485b4465c serial: sc16is7xx: rename EFR mutex with generic name
-a8993c861d44ba9241d44ea63fe912265fa5e961 serial: sc16is7xx: use guards for simple mutex locks
-a2c28b8e015016c45292979126a812fedea128cb serial: sc16is7xx: enable THRI before filling TX FIFO
-8198d0d106254301f03b579f15cd65bc9efb356c net/packet: convert po->pressure to an atomic flag
-e95b0cfcdf8f9de304fa493de7d69b34ab6c6f9e packet: synchronize pressure clearing with ring reconfiguration
-7474e26f000dc7d31c32a3f9f52b7b8034ff198f inet: frags: publish queues before arming timer
-bcc928f305808b86d3b926022453e69367833730 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
-a5f8032841e8e139a44101c00a19f350c029ba54 s390/vfio_ccw: Cancel existing workqueues
-d3c27bc2e749c8d69c5f700a8c09f66f27ea4f42 drm/amdgpu: disallow multiple FENCE chunks in one submit
-e599c3bb78f89818546fe93fa596089239f96e7e s390/vfio_ccw: Move cp cleanup out of not operational
-6c1cc69c922fbd2214d1913a7a08ad27d4a42df5 s390/vfio_ccw: Selectively expand io_mutex
-5f99d5582b98cfe374448f0176963321c2a4e6ee s390/vfio_ccw: Implement a crw lock
-8a489d481e658ac6dd0689ed6248ccef0a2db90f xfs: don't use a xfs_log_iovec for ri_buf in log recovery
-eab303d9c498673071c2e2cc972492763a53505c xfs: bounds-check buffer log item's dirty bitmap
-9e0011f92e086ae2c265654dc4be0ca95ca92375 drm/amdgpu: check ASPM on the dGPU host link
-dc44094b57749722f9bbf4ecaed5d11aa7394cfb gpio: ml-ioh: use raw_spinlock_t for the register lock
-d1f5d5affd96d4b6adedb1124466ebe0eb906b55 tls: fix lockless read of strp->msg_ready in ->poll
-fcd94d00e822d07560733f1ca055381be425327c tls: handle data disappearing from under the TLS ULP
-c21ab8fb12426ad4d73e5a4431959211ce326272 iomap: adjust read range correctly for non-block-aligned positions
-ea5fb2728e8f18bff8937dea1b9f822be7266b1e nfc: digital: clamp SENSF_RES length to the destination buffer
-e16e79ebb5c302f89e4897004a4fc825122806d0 nfc: fdp: bound the device-reported read length and fix an skb leak
-8d3f0fb113ac5baea35cb694f75173ef01371450 nfc: microread: validate target discovery payload lengths
-2de8a6d18ecb7ea7de2f58e129de65da31246494 nfc: llcp: bound the connect_sn TLV walk to the skb
-d855b9bdfb12db8d8c926a021412ab2c26d7bedb nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
-571816e5de8aa58ad56e9d0e600466cce5a424fa nfc: llcp: reject PDUs shorter than the LLCP header
-6c946bbe28dfc23e9674bda54211e196215fbd7e nfc: pn533: purge fragmented skbs during cleanup
-f0ee242de9402af4e904bd1917c891f98a4fed23 nfc: st21nfca: validate ATR_REQ length against the received frame
-2db3f0798f332a34d5b6740de6be8a8c125a328e nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
-d22d3557532e2cbbf4209b0b0b57e5a10432791e nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
-50f4e3afa04c32cdb4b25fbc3c1a5d38416c3e17 nfc: nci: free destination parameters when closing a connection
-1a4402cc129870e299dc55c13836a2538dc987b4 ndisc: ndisc_send_redirect() cleanup
-f837995d5bb72984de7217d6736a7a6736a18bec libceph: fix OOB read in decode_watchers() via missing bounds check
-3f12fbae5237b9cc7d3a829aded45a27e95fb59d ipv4: reject undersized MTUs in ip_do_fragment()
-b83195d78b76c99aada93393780188263e9a1d96 ipv6: fix use-after-free in ip6_finish_output2()
-79acf536ab235310b3fa54a51c438ce2ff69350d nvmet-auth: zero the AUTH_RECEIVE response buffer
-a2bc3046acb53bacd54294e211899d3b9e7a2be2 nvmet-fc: fix invalid free in LS IOD error path
-b1532aeb6b96289a78855662efc8fb6e4f010d42 nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
-c38db985d534cd4a8574dc071c439537181a3277 Input: byd - synchronize timer deletion before freeing private data
-19ac7c948f169e2264a14bca9e2f6fa0363523ab ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses
-52b32fe746b5371bcd58e772060ece2c58689ad8 mptcp: pm: ADD_ADDR rtx: always decrease sk refcount
-0c5c6ccf4f94e6ff513357e689f86020b7681f19 mptcp: pm: ADD_ADDR rtx: free sk if last
-0ab94cbc8d1a0d7eb77679df1e6fca7ca5201bd4 mptcp: pm: fix data race in add_addr timer callback
-2831cbd9fbffc5f9592243edbd9651a39d5bb324 HID: magicmouse: do not keep a stale msc->input if no input is claimed
-01802a73082291a4f3cb1a9568ed14c34717662f HID: magicmouse: Prevent out-of-bounds (OOB) read during DOUBLE_REPORT_ID
-86ce586b3d47401fc2492c03b9ca6ba6920258eb HID: core: fix OOB read of field->usage in hid_set_field()
-78ec76307723b960374bec77624ff2211ae57700 xfrm: fix sk_dst_cache double-free in xfrm_user_policy()
-6133584796740f683c4a63a2336f6381641a7a1c s390/vfio_ccw: Free all memory if cp_init() fails
-220a15e5d0de66c7b9144847965b724009947b61 Input: atkbd - skip deactivate for HONOR FMB-P's internal keyboard
-d5249ac86ea1a5def57832bdb81a2e51c744e013 Input: atkbd - skip deactivate for HONOR ZQC-P
-1acad02f6e47c3e92ee20039c8ce8f1f4f1b168b can: use skb hash instead of private variable in headroom
-af6f4ef3b4e65c05b3117b75389d21680cfad3f2 can: isotp: fix timer drain order, wakeup handling and tx_gen ordering
-a15db03bdd413587000e74d5ce22fa37deb3b8b2 misc: fastrpc: Fix double free of 'buf' in error path
-63253e5b8e64511999bd9e138cccfd418c60bc62 HID: nintendo: fix out-of-bounds read in joycon_ctlr_read_handler()
-084ba89db422a706257271a1b52a8874750aa3b7 HID: core: fix number/pointer type confusion on long items
-633368218ef0688b57e25f8d1df99f817725aed6 HID: sensor: custom: Fix use-after-free in enable_sensor
-7fd7e0d55ae37a94fd409049ec3b18a03faf7ce5 HID: hyperv: validate initial device info bounds
-11f662fb591096b351e39fdfdec2b137c4731221 Bluetooth: hci_event: fix LE list UAF on reset
-dd3dc5dea566dfa90a6864dcf067736ee496fbab Linux 6.1.185-rc1
+7bbe5f1d7770f49a28a85268de618e884e10a822 PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
+92f14cf30fafceb72e5fde12fd7f0fb891c68f85 Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
+c8c255ee1d2300762a1c226a0dca31cf03560fc9 rndis_host: add overflow check in rndis_rx_fixup()
+326e1f4225d40c50c7349188644e628870e03e63 NTB: ntb_netdev: Preserve RX queue depth on allocation failure
+12e49f343d926afa72ef20c45860145ab009377c serial: amba-pl011: synchronize DMA teardown
+686d05f77b2473bfdbabc14e05d3797ac1108161 perf: Unify perf_event_free_task() / perf_event_exit_task_context()
+c492de3e6a53bdfb353a2cf86ebbd181218e13b8 perf/core: Fix group leader use-after-free after sibling detach
+91f5b8020f063bfc77fff7de6f2b007e8bc92c02 serial: qcom-geni: fix TX DMA buffer flush
+f36753ff5303ed5956c8cac982897687f39cc7b8 serial: sc16is7xx: fix copy-paste errors in EFR_SWFLOWx_BIT constants
+e429f1bd7ab53be2a6e2c1bbbb1415e6ae0d5119 serial: sc16is7xx: convert bitmask definitions to use BIT() macro
+9783f8992a09f957f2024bdbed8973d5fdc5559b serial: sc16is7xx: rename EFR mutex with generic name
+6be96f79842d1b726fd9f93e2a90e6bda7fd38ae serial: sc16is7xx: use guards for simple mutex locks
+e6ed7ffe9a4604f0651aa66f302f47ea7c7bb8da serial: sc16is7xx: enable THRI before filling TX FIFO
+f97e077e1b15076181bb10490a0b73439adcdbc0 inet: frags: add inet_frag_putn() helper
+2fe351a95e7f5a8a5b1f3ddef0e3d07d15717a5a ipv4: frags: remove ipq_put()
+332ef4af8493c908d51ffbc7251c423a8fdfd493 inet: frags: change inet_frag_kill() to defer refcount updates
+91401a75a33561b6b5261e2c4092bed6efb62054 inet: frags: save a pair of atomic operations in reassembly
+9da87b80f22e4c67eb5fea05e006dda00ad17fd5 inet: frags: publish queues before arming timer
+31c43680057b36a30fe1f57e4852b1da343f9532 mmc: atmel-mci: Fix use-after-free in atmci_remove due to race condition
+234ced55c2b57d86c051c6d1c6d6eb89a7637e4f xfs: don't use a xfs_log_iovec for ri_buf in log recovery
+e60590abe5e8979fae721dc86333abe47a1ad938 xfs: bounds-check buffer log item's dirty bitmap
+1823e7f320e044bba804056d25bdf92e58601597 ALSA: dummy: Check card index validity at probe
+4a58d8d5d9530ed2022d7f3bae81192aebfd4ed1 ocfs2: fix missing metadata reservation for large xattrs
+b633fbae361e821e149c04e2cbb41e064969f5b2 null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
+b9cbaa0a5121042a0b0a9eed2438846f7349667c kcov: fix data corruption and race conditions on PREEMPT_RT
+267c2d49d4fb8e898a0cba9e3c7fcbcc0ee28f7e ext4: stop retrying saturated xattr cache entries
+5e3ac0703921f3d1867d8f64744226d3d8beef61 ext4: clear error before retrying inode xattr space fallback
+00cd94dcfdb61932764f240031e24483838de851 xfs: validate attr entry pointer before field access
+3ff980a09005794e8fd3647fe616c9208979bc16 gpio: ml-ioh: use raw_spinlock_t for the register lock
+f84ce998c3c8754d40e07686bd7033ec67b6adf6 s390/vfio_ccw: Free all memory if cp_init() fails
+11ead9cc998b3b59bf2bdc9873870e7f442e7ab9 s390/vfio_ccw: Ensure first IDAW remains constant
+8bbcd513c44ceedea488184e1d7ff4ad5637ca4e s390/vfio_ccw: Calculate idal length based on idaw type
+02b4b8bec9ab008a37d9b8bc011bd38bee0394a7 s390/vfio_ccw: Implement a crw lock
+9319a0062e40f4d3b56e73b79b422b284a3d4809 drm/amd/amdgpu: disable ASPM in some situations
+952bbe5aa637cfbf151c611be3d200fe95dca3a1 drm/amd/display: Fix BT2020 YCbCr limited/full range input
+9c83ece2c803e4cd2facb0520a1acd6a81ee54c8 drm/amd/display: fix BT.2020 YCbCr limited output CSC matrix
+2bbc13c003186accfd3852d593c189badc7d3494 drm/amdgpu: check ASPM on the dGPU host link
+cd484fab6bf46229b6c0b3d261f900e9ddd62428 nfc: digital: clamp SENSF_RES length to the destination buffer
+d087812118d0f423ef886cc059c50d1cb7a4ea26 nfc: fdp: bound the device-reported read length and fix an skb leak
+7c6e7b229d0e8e2406bffd1195931788c30f4caf nfc: microread: validate target discovery payload lengths
+4f01142abc4eb52f0dfe342eedb189ca93308f91 nfc: llcp: bound the connect_sn TLV walk to the skb
+3a0fa54dfa221ccd342dc7372fda12612fbfe8ba nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
+c88a76ef144221eab23d0b3baf06b34dd4b95e6d nfc: llcp: reject PDUs shorter than the LLCP header
+4fc3476b68ba7e9c863342a464fee38de71d0285 nfc: pn533: purge fragmented skbs during cleanup
+a6f6401c456863001516e2654bbeb226e36880e4 nfc: st21nfca: validate ATR_REQ length against the received frame
+d6f156da730aa87af6be7ae9988ce9a272efbf4b nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
+161a48d2fa052451d1616f82ae75af48cefc3543 nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
+747ebafd70acab5128ca28c5c7aeb920c866abff nfc: nci: free destination parameters when closing a connection
+f8ab9af2a99c69cd780972b737d8514cec3b0e40 ndisc: ndisc_send_redirect() cleanup
+f757ef36979b162955a9dbd3bff2494d9387b31b Input: byd - synchronize timer deletion before freeing private data
+8db2c25ea0b6828d9a7edba760ef4c4712294b37 libceph: fix OOB read in decode_watchers() via missing bounds check
+c6a7f19c6e16518f0b5d58402edbb099ac07f19b ipv4: reject undersized MTUs in ip_do_fragment()
+45fb252003e07fa1296de0a3711dbb4a62331cc9 ipv6: fix use-after-free in ip6_finish_output2()
+443b438acdaf5fc85b15ac3f41b472536942b449 nvmet-auth: zero the AUTH_RECEIVE response buffer
+d35a6d8ba85f430f795650c11cd444c6a9975a17 nvmet-fc: fix invalid free in LS IOD error path
+205a503f103ab9fb1979c19905453025a04cfb9f nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
+811a1cde59d0772455f9e8f2048fff7d2005d35d ASoC: sof: pcm: use snd_pcm_direction_name()
+a66971b9d0004d058654c54162cba5d0e3053c96 ASoC: SOF: Relocate and rework functionality for PCM stream freeing
+f1c0e29960ed2aa2bfe4ac95c97dec2a93a4e136 ASoC: SOF: pcm: Move period/buffer configuration print after platform open
+0861feee5c212c1d58d7168584b375dedbdf5498 ASoC: SOF: pcm: Add snd_sof_pcm specific wrappers for dev_dbg() and dev_err()
+56e8e7df19c828746f948a1b4ffb5875c569213a ASoC: SOF: ipc4-pcm: Continue the pipeline trigger in case of IPC timeout
+5a44c65257b9d2e4d4bb38e9080f6b288b6e1375 ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses
+c34e556472e7b71ec1e31635a5a811b5618f15eb mptcp: pm: fix data race in add_addr timer callback
+913c624445952ca4c752497fc08927608d1000e9 HID: magicmouse: fix battery reporting for Bluetooth Magic Trackpad USB-C
+a92397e1a0c7377f900b390123760caf70fcb842 HID: magicmouse: do not keep a stale msc->input if no input is claimed
+20aedeab8df4880e55e2b25941169a1a6045e7f7 HID: magicmouse: Prevent out-of-bounds (OOB) read during DOUBLE_REPORT_ID
+8b4b643028af0129387e0b7be2c39cad65f3ab3a HID: core: fix OOB read of field->usage in hid_set_field()
+d4a514d839db670d1896e1a0933b78b211c5552e xfrm: fix sk_dst_cache double-free in xfrm_user_policy()
+29486b6d82dad3ddf655082f5f38024b9e4425a9 Bluetooth: hci_sync: Fix advertising data UAFs
+ab6da4a8bd2de0d3e4eb3eac67abd6e1be74ab65 Input: atkbd - skip deactivate for HONOR FMB-P's internal keyboard
+7813f6a39ce1926644388a41c832c2721c7a1e7c Input: atkbd - skip deactivate for HONOR ZQC-P
+d492b3a1b698e7c2b22abedf723c1d155834789a mptcp: pm: fix memory leak from alloc-during-teardown race
+5fe9be7dca6da8715bb9d095debe7d8937a761d5 selinux: fix style issues in security/selinux/ss/policydb.h
+39c459251a11e12b65c5848a69dfcdb410aedd23 selinux: fix style issues in security/selinux/ss/policydb.c
+fe6f982be135f7b2d217d78fb688497c0ff0f08e selinux: use known type instead of void pointer
+27d36ba952da09a1c06dfd8b1a680e49944d05d8 selinux: avoid unnecessary indirection in struct level_datum
+88fac4f82428ae9aea92c32471845a6427214d74 selinux: make more use of str_read() when loading the policy
+4440c9266179878206e4f16c2eaf405789a38815 selinux: use u16 for security classes
+264a23ec13753c12031b208a3c41a3136bb19c21 selinux: more strict policy parsing
+f34e4a923b8b56529f0f0db16873605f092b0aef selinux: reject a permission value exceeding the class permission count
+aeecc5eddd677b8e2b05d31571b920b2a41e35c8 selinux: require a class's permission values to cover its permission count
+cea8578d3059baa0754d551d416a9ef4c7174455 HID: nintendo: fix out-of-bounds read in joycon_ctlr_read_handler()
+c57d1b96a6f9ab83d710827fea8604a6dcf58712 HID: core: fix number/pointer type confusion on long items
+fbaa663fc044a8011fc19706912e12ac9a196b95 HID: sensor: custom: Fix use-after-free in enable_sensor
+08dfe8ce2231c9e948789aaa8c9cac7135057b98 HID: hyperv: validate initial device info bounds
+de120ceaf4639f794571a6532347a78bee171a6c Bluetooth: hci_event: fix LE list UAF on reset
+e107f4bc8a3523ee9d3dbe6328b827b374ddaad0 Bluetooth: hci_event: validate LE Set CIG Parameters response
+8147a3c12dd2c1cc9721cc0f05cb0d7f04a3550b Linux 6.6.154-rc1
 
---===============0319202293283391145==--
+--===============3555258290271647095==--
