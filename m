@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 25 Aug 2026 15:01:02 -0000
-Message-Id: <178767006284.3324203.6259338562477230207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 25 Aug 2026 15:10:25 -0000
+Message-Id: <178767062534.3331594.3081597270251707263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: ce36e38beb6863664994f5676122359c8d323203
-    new: 05ea1b6e2a5d008c24b7a2c6eaa3f708d9026994
+  - ref: refs/heads/master
+    old: aa754fea2bccbcc9ac6ed2c523ada20c06fe8e8d
+    new: 505029e10b9411b957123b87679eb9edf89c3e5c
     log: |
-         ea0b60fae724aa1147d4a07eda5131d3a9a9977e bpf: Reject oversized stream read buffers
-         05ea1b6e2a5d008c24b7a2c6eaa3f708d9026994 selftests/bpf: Cover oversized stream read buffers
+         bb9b8fffe32e75cac8f91ea21701bfbce208d2dd keys: fix lost wakeup when reaping a dead key type
+         505029e10b9411b957123b87679eb9edf89c3e5c keys: translate request_key_auth pid for the reading procfs instance
          
