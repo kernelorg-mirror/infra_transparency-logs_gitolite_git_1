@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1882660176203361748=="
+Content-Type: multipart/mixed; boundary="===============8157439716971645627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 25 Aug 2026 14:37:37 -0000
-Message-Id: <178766865728.3304623.153417172806962930@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 14:37:41 -0000
+Message-Id: <178766866102.3304776.16597769625070055526@gitolite.kernel.org>
 
---===============1882660176203361748==
+--===============8157439716971645627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
+  - ref: refs/heads/driver-core-next
+    old: 3b5ea0f078e1b72276e99c237f3dfc2fd72938bb
     new: 66498c75b4f8017f62d720d9b59675bdf3abce91
-    log: revlist-db2ddb871435-66498c75b4f8.txt
+    log: revlist-3b5ea0f078e1-66498c75b4f8.txt
 
---===============1882660176203361748==
+--===============8157439716971645627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668654 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787668658 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1787668655-8e57ad5a53d29c42b143a40e8caccd87d4ea3320
+nonce 1787668659-c9cc67ad53ca01793c9e438e61492a8fb35f6900
 
-db2ddb87143519e20a95aa36c60b36107b736a58 66498c75b4f8017f62d720d9b59675bdf3abce91 refs/heads/driver-core-linus
+3b5ea0f078e1b72276e99c237f3dfc2fd72938bb 66498c75b4f8017f62d720d9b59675bdf3abce91 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqK4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QgsP/RI61+8cdJ8lJQhiVooh
-d+U4uKRurKSZSuh1LDlEPWO9PCKNt/lfKsG1EeebmbidWMje+rQXBys6RmHThJio
-j0H3C7HU09oVExs87lcS7627QjP5IG9RLGPeDIgtVlYowcpFM6wRc1dKBT4MKIOE
-gY5G+r5GEQ1n/MOWK+M12yCwK0jYhN98rubGa7nToraG//V5q/9vi4/RcMSBEXXr
-tGcBrhSqrSxOccOxJxiduBQqX6AYzt2Fx8zcM6w+Qom8BVswZqD71uGWzuKeBAnk
-g4Ai4iHnnExjJn1HrdFmfqxNqVw9CAX4+s7iaANW7M77N19bJA4j+hB019bwLF90
-9MsHbJ/j7IQ2X1svPJ5RTwMh1WnSNeeF7E3b5wdzjHACJrRlPRzOwDRBdEo9kpsk
-dhe4fJ6Yu59A3B4VXuVFFUV0ofuOftzX3kcgeyOI33bRJaYC63TkxJEa6RyRg8Gk
-tQztse1xcHO6zcfqY/5A2/NuewzZRqV/rtk4VytcsdU/4p1AC0cQnLvK2c4oxPHU
-C5QRPTzZQYFVlw/PmN+0fAiEmrnggIjub87rpetBa8csPrDUais9/rwTyJKRXZqp
-aT3anGhTPCuoKcrMZrWbs/vOS4W3gGoqi8fcRHZwOWz0UmPr57JOBraYboeu8kci
-jACdJREO5tk1Qx1mMPW7CoL9
-=r/gS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNqLIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MysP/jQhRkPIY+obm5LjGtg5
+23Myp3j3hlgj2nkML4UYzggIZdJ2rVvNnoOM201YJXQ+WGEHA8yKvqo3qLMMFNuU
+Sp/0Z+YNSevSHKBrvyHxdipWtvvczZgUR6P8lkC59kYx8uFM2WyoFmyJ1K/oIkcr
+Y0q6QFj/vTIutLVCNxMOR4j5o4KoWhXhyoliw3hhW97F1QKDnuopjmPWOBcwcOGj
+ipRcptU+47ODbLzP+PsJVm+ro5+l6IF6N1Abm++693raxsATbXsc0KFNGhAtyIqF
+wSu0NMq8RTsYwsYMUnaGxHayVY2kCSAw5u6qQz00EzkrB7Rei8Y0yxWkHenGUCW1
+m2owlssasydiOOVkd1eJq/c7nt9iSzssJTSO6pKonQfJYNYqueaXvqk50dROPUqU
+0xsad02LWTTsRjTG4H1Lyc8sTnMQUHEqsRZmseJp26yP3Pnwc9sumab9KZnyR+Ls
+ML/o5LlzRKS+2Vf7jx1LXIwNTpwTbOemno/RzzMNw0nTD1SUM/KSK7o4QjvUGmjC
+97V+P4HrpfEjl3oWBwNg74js3HISz0F4EnO5pqleG/Gh1oHCRkTm8TqM+RTyjonp
+5g4IizBuZyC747YHEJxDLflf8pbI/LjHzfyA1sMRBuxoqReolm98gqo83VWo36WX
+poWMBoe71xpy17j3R/7jMCeu
+=0Kao
 -----END PGP SIGNATURE-----
 
---===============1882660176203361748==
+--===============8157439716971645627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db2ddb871435-66498c75b4f8.txt
+Content-Disposition: attachment; filename=revlist-3b5ea0f078e1-66498c75b4f8.txt
 
+5ac693414b51acb8c4b92813ca3ab4fc6686ddf9 rcutorture: Test RCU readers from hardware interrupt handlers
+f424566105c946ef42f2643230362598c06a29f1 rcutorture: Use cpumask_next_wrap() in rcu_torture_preempt()
+e7b6d505c7080d6d40e5dbbeb01b612de9f08a78 rcutorture: Use task_state_to_char() for task-state reporting
+75a88fe00b67b2a065461940b5392dc5487acfff rcutorture: Add nwriters module parameter
+d1ff05605db14d8d6d1578f289595210c60b385f rcutorture: Add a stall_only module parameter
+560b35bd7c8aa1b7cd20adf28c401e93da567400 rcutorture: Test RCU Tasks Trace GP implying RCU GP
 86fa5387b473c160c26b781dff55014c4e1b3db0 rcutorture: Make RCU Tasks Trace track Reader Batches
 ed55bb915047934acd28e2f0ea1ef9586b254bf0 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
 aaf43c458c491748ae79f8e6afc39fd09a36e77b torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
@@ -166,7 +172,6 @@ b37c4d0a2fd90c0c31223acd37f763eb8953ed1a mailbox: mchp-ipc-sbi: Add null check f
 7dffb1a4a336075182b8665ce97bcbca12658e3c mailbox: cix: fix DT property name string typo and use dev_err_probe()
 b568b68320cb757f010e430be75939d92af9d727 dt-bindings: mailbox: Convert TI Message Manager to DT schema
 e1c13aed4a1641550e8c9518c96f016e1d52d09b dt-bindings: interconnect: qcom-bwmon: Add Maili cpu-bwmon compatible
-d5e81a5650b5258c73768366db123b6d5bc48e32 kernfs: avoid iattr allocation in listxattr
 5bd369c05576ec12f62f02c65b576bf0bf074131 net: Add connect_socket() helper
 7ae4eb14c5f9d9bf0e0feabeab206151b1280512 bpf: Add ksock kfuncs
 c7838e3dc61a1e3e0a44f73267ffd33fa2d5e083 selftests/bpf: Add ksock kfunc test
@@ -262,11 +267,6 @@ acc52bd431e2d8698fae8d82a74ac45d79b62e0a hwmon: (max6621) fix negative temperatu
 0cd8450c257faa0cece0e0c43d3b55d1a389acc7 hwmon: (coretemp) Fix core_data leak on CPUs without PTS
 75f2c0b3690702c90863c2e138cb5520670845ea hwmon: (emc1403) Drop hysteresis for low limit temperature
 4bc49ae344d65cfcef738f281ac575cf73ca2fc5 bpf: Check pointer type for all atomic RMW paths
-17d4a399e8b8de0bb7d78cb46f92ffa9d629965d rust: pci: convert IrqVectorRegistration to a lifetime-managed owning type
-2fb7755b0a7efb811d7d09f3a6ea06fd611d1ba4 rust: pci: resolve IRQ in index() and embed IrqRequest in IrqVector
-6ca38086b4ee457801b742862e5f3871567e2788 rust: pci: remove request_irq() and request_threaded_irq() from Device
-f146c7bc85a51f95c05e0f8173d484eb301ece78 PCI: Add pci_irq_type() to query the allocated interrupt type
-3b5ea0f078e1b72276e99c237f3dfc2fd72938bb rust: pci: expose the allocated interrupt type
 5ab9fbeca8f7da1b40697cf4e75257b9447f03f2 selftests/bpf: Cover mixed arena and stack atomics
 8eb18920646415f6b4f100b34bd456c4fe002196 Merge branch 'bpf-reject-mixed-arena-and-ordinary-atomic-paths'
 7019a11f79dc408f2b47b1027240e7f198784c9a ksmbd: reject SMB3.1.1 binding with mismatched cipher
@@ -1082,4 +1082,4 @@ ab9b9b51baa9bb964e9219f81682c4f1761ee47d Merge tag 'soundwire-7.3-rc1' of git://
 16e6a1a3cb3fa5fa11cd76a9d71235d927923329 Merge tag 'phy-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 66498c75b4f8017f62d720d9b59675bdf3abce91 Merge tag 'dmaengine-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 
---===============1882660176203361748==--
+--===============8157439716971645627==--
