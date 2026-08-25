@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2432483440845895772=="
+Content-Type: multipart/mixed; boundary="===============1377182220296062707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 25 Aug 2026 06:50:30 -0000
-Message-Id: <178764063053.2930348.6961107400807651029@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 06:50:35 -0000
+Message-Id: <178764063535.2930562.11658973705591015804@gitolite.kernel.org>
 
---===============2432483440845895772==
+--===============1377182220296062707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: 31b7c700670830a0e8a4cdcd451c88a13cc5dc48
     new: 8049741ac93acd3a590dac070e12571fddf0e294
     log: revlist-31b7c7006708-8049741ac93a.txt
 
---===============2432483440845895772==
+--===============1377182220296062707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fab939caf8acfecdd4cfe84294dafcb9842a605f Merge rdma branch 'for-rc' into 'for-ne
 60a42d510113f46de47e86a84bf5758597644487 RDMA/uverbs: Guard legacy bundles without method_elm
 8049741ac93acd3a590dac070e12571fddf0e294 RDMA/ucma: Allow path records to exactly fit the output buffer
 
---===============2432483440845895772==--
+--===============1377182220296062707==--
