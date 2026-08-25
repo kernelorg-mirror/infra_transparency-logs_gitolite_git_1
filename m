@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 25 Aug 2026 08:23:50 -0000
-Message-Id: <178764623055.3003270.7271406995617844139@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4042960584531391136=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 25 Aug 2026 08:25:42 -0000
+Message-Id: <178764634211.3005869.9279632575989079671@gitolite.kernel.org>
+
+--===============4042960584531391136==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: e72d5659a2606056a0c34af212b46a3275a55bbf
-    new: 1739a976312e110c93a8dee66a1cdf893a1b187e
+  - ref: refs/heads/master
+    old: 2da6b9369c63f9b3348dcfa5b2ca52ceadfcaea7
+    new: 106a75e25b57134162b047a8f0995522ebb9886c
     log: |
-         b3be0e5bed8ab9adbf127a3eee3806e61190ec14 ALSA: usb-audio: Skip reading sample rate on M-Audio Venom
-         4c0ec35e011309bd7091053ad5bbc01420967a66 ALSA: usb-audio: Skip mixer creation on M-Audio Venom
-         15fd93cbbff7d9d92cd19f38a94355462fa91930 ALSA: aoa: i2sbus: Check IRQ before requesting it
-         be79a45e2ec289eb9fad519e8f5a3d4fc3789dd0 ALSA: hda/realtek: Add quirk for Lenovo IdeaPad Slim 3 15ABR8
-         1739a976312e110c93a8dee66a1cdf893a1b187e ALSA: usb-audio: Complete cleanup after system-resume errors
+         106a75e25b57134162b047a8f0995522ebb9886c 7.1-stable patches
          
+
+--===============4042960584531391136==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787646339 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1787646339-dd28eeb7c0f3fc0332a342fbad59f7a01ce5f094
+
+2da6b9369c63f9b3348dcfa5b2ca52ceadfcaea7 106a75e25b57134162b047a8f0995522ebb9886c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNUYMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6CsP+gJ3S60HDIPU/LBqxIpV
+pzBnkO8r+wpkXyRi4+4ukMGmhnDM/wQDt/47LB9bjJ2fzjYossF49DENlRip4+0i
+mpHLdQc2ezyydWbcOae7oQO+rzpnkrDlIHx9LpFV+cixzU2in7Nq9M7iG+qUt3CY
++W32IEWiNmd6nhWqi9vOyBfs+n3PFL4uYahI68j28ZhTwAi3uizphIhGqpJZo66x
+Em9GxqY/OOZro6rfHNo0AmEpvGN8NDYDW1gGeOZUE3KVanENbb/sJ2LPGzbv8zeQ
+7QiHwLO3CAl9zh9EuAJf4GLM8RkX7Kp/GpA95kvns6KkG9K8R+H9O+jx3gH9cPM2
++54ZKKS6kWRfRqXj956IjVTiUXARv94ZNK9UeIOywlkeLH9T0rF/0DznXJxhAvWt
+Xtm3JanrOlfJUXH5EdhkVLN+W1Aa7c3xWSc8E9jtbhbGRvSzI1TCNnr2qsBz232e
+Zl4IWFACRObEnuK/EsIUIJ++oynnzRB+6M4qEaMHq4Orpa1xz4kryv6+PXPWICNb
+RE7R5tZ618jf5vcloYzwzP+DklqJTljBVQi+EptCQlnqt89JXS1q9RWOLWDkW2+b
+ynQbyrNpFBW+mUR0fjTFYWK70E7iNetBGbklf2NElYj8ThGfxkyoH3GEjeHc4GGe
+SerweRfdaow8qf5jM35lQypM
+=OtQp
+-----END PGP SIGNATURE-----
+
+--===============4042960584531391136==--
