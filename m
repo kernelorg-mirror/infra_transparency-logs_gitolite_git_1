@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 25 Aug 2026 00:15:12 -0000
-Message-Id: <178761691285.2642806.11050418076674083998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Tue, 25 Aug 2026 00:19:40 -0000
+Message-Id: <178761718039.2644652.13877823549902934451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/renesas-lts/v6.18.41-2026-08-24-x5h-ironhide
-    old: 0000000000000000000000000000000000000000
-    new: 780cb07421871587ab49c79b9850e8b3db417c82
-  - ref: refs/heads/renesas-lts/v6.18.42-2026-08-24-x5h-ironhide
-    old: 0000000000000000000000000000000000000000
-    new: b3f461e572b18de25bba6e0437bf702506aa8390
-  - ref: refs/heads/renesas-lts/v6.18.43-2026-08-24-x5h-ironhide
-    old: 0000000000000000000000000000000000000000
-    new: 0f9c31db7ba68c3a9a6f4699a5d30773efb997ac
-  - ref: refs/heads/renesas-lts/v6.18.44-2026-08-24-x5h-ironhide
-    old: 0000000000000000000000000000000000000000
-    new: 756434ff51a87a9fe14f7219f48c02844afcc1fe
+  - ref: refs/heads/master
+    old: c79329042ae7ff01dacc38c65188c589027a01a4
+    new: 71d32ac01631c5eb07e57b54fdfd8c656183814d
+    log: |
+         2421296b69dc58db0e9578147530dd78510c339a tftpd.8: document --chroot alias for --secure
+         71d32ac01631c5eb07e57b54fdfd8c656183814d CHANGES: release notes for 5.5 relase
+         
