@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3803263332564503771=="
+Content-Type: multipart/mixed; boundary="===============5293544540695937926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 25 Aug 2026 13:26:13 -0000
-Message-Id: <178766437329.3247043.2968023128583281595@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 13:26:20 -0000
+Message-Id: <178766438078.3247272.10353472064884313836@gitolite.kernel.org>
 
---===============3803263332564503771==
+--===============5293544540695937926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,129 +16,141 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-7.2.y
-    old: 081024774d23e9ef7c06cc89df2dc7527b34b5b6
-    new: fbab5eba590503516712697b372bcaf53735a041
-    log: revlist-081024774d23-fbab5eba5905.txt
+  - ref: refs/heads/linux-6.18.y
+    old: e061da790dbc1963d4fa92ce6f6b839dcf9b2fbc
+    new: 42c2e4bd8cc0762a7a13c547e51cdd7245afb488
+    log: revlist-e061da790dbc-42c2e4bd8cc0.txt
 
---===============3803263332564503771==
+--===============5293544540695937926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787664273 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787664281 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1787664370-2d79ad2a6c44e3a11406950075ea992b2e00771d
+nonce 1787664377-fdc56b799820880ffa284ba28c9f511224cca9f5
 
-081024774d23e9ef7c06cc89df2dc7527b34b5b6 fbab5eba590503516712697b372bcaf53735a041 refs/heads/linux-7.2.y
+e061da790dbc1963d4fa92ce6f6b839dcf9b2fbc 42c2e4bd8cc0762a7a13c547e51cdd7245afb488 refs/heads/linux-6.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNl5EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MEEP/A+JIBZNA6yTS6dClVsX
-rubVPZwn5xghCqlEq5euCWpeSrzAb6khuJCwBZb2wBMgRhnu7QHeZZGrQWhXrFW/
-k0cnRCQom90oN9PbQN0zPoV8AeNGxHKXOQ+20uq2T7Q/5G72PIJRbo03PNrZmvWT
-9qUiVcvSTJeNnJdVmW8vRu5sIie9GBL5lfk4QJhJ7+YgvIz2QO+D/akB3DHadK6q
-eVK9eqC92KrVJJRkmtaxrwKKxDATLNk0Ztw56C1GJh/yVDt9USj19viXJpOIBxo9
-n2VdPaCw0z4cPv7FGMwZVGiA6xLsGo2oxO+iZTA/B95+IsZXSS1uvtS0CVpFd1es
-wu5/qT2p+KB0AUUJ/g5qT5fA+Fu+vuxleT2iMYeh3zprmt2Y8dq9ajU9DFSXemEg
-Ofxm6mYx1ck8hYH4/1l0+cn+5SVbiSkMt5OnNRLmzEz9SkLIIl1SOd325CtF4B80
-V+s63ryN6tp7Lqme6EMU+5z721fi9o03txJBHc9AtFzNKswXIcBKsdE2+6H6Ugd0
-VKILxSmHOxCgnPkGtGRI1tHrSbbx5wP5MJpIyau7yTgA0aYRjKy8XSPRtKbOGHQL
-I1WUWtIxsLcH1RzBwxD4yN8ejzLWycpDZAXY/iVQKkXdAnevEu2AgvbP+bo/nHCg
-cxsWt1EnSb4c2TouPFed2236
-=vm8Z
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqNl5kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u7UP/1lLftCo8TsK6dUX4tHg
+pxpjXhorRFEpM/ixCCpTxkjwGyAo/OSjp/gYJ5/nhpZPoAyO01OWOUAXL/N4h/d4
++3Qqpre5tA73o7IcWCvaC+ag/rzOO4QFlpEYck2KY76zQoflYcUQUHqZIgBw2snm
+imeEwWA+x65M03pXWZPlxAYqzyoCiBWi4vJNzdOzxzwsk0zyV3YGa5npMc8EQEhr
+j9jXWVOXQNEQZUUeWFiKJ4iC5i7pl4bJHxY6OOiAQLd2YZVcVeP6U1Ww92ljflz5
+WpTcndJFFNXljsDscRjhbeOJBplr62qAdWjsKJNgmjnY97eAOslUy+FjWHVnlb+k
+ReDu64LGi2/fRE+i9+/Pv+SB7w1DYBb0WBQo0oF8pvWdnpUuOb2izj2jra6IfRLR
+NGB7/eTx48aLVJd5ut3wJsyDOTEygUXqah0Sjj5fRLoQr3lVz5Y896PPpLTAKZ9a
+rMPsI9KPce9twBs9eAnb99BwPgr0wjEcDrUaAOWT6ZG0tStUc1pio+dW37fGRk/5
+Z4B6nMmBgdtEmVz6oMOCjoTzUA+9M75NpcjgZzQPn277pWPz+UWSfgjuWy5q3hTN
+kdjZObXjDXPJS5X+jCe7OtsoPQ+WTAh4dAAN51ZYVKQgV92VEGNLpKATlaBfdPq4
+j3pBSjkQtW1hEYDCU2jgoUaC
+=c5Hp
 -----END PGP SIGNATURE-----
 
---===============3803263332564503771==
+--===============5293544540695937926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-081024774d23-fbab5eba5905.txt
+Content-Disposition: attachment; filename=revlist-e061da790dbc-42c2e4bd8cc0.txt
 
-d4383fd6a7bf1c7858a13dde35f22f5215ddb2ba PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
-55030da911407fab70fd337f626ffd5cdc76c984 Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
-565cb1f480f4e886d42006117c0afad8ddc2f5b4 iommu/tegra241-cmdqv: Fix CMD_SYNC use-after-free on teardown
-93953621e7276462a7146cf3732bd1abe5c2db85 iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
-fbb616c2b448cc3310320ebd8500805401795777 ALSA: FCP: Use a private URB for the notification endpoint
-841c6cb8925de37f9878bbb7a62706241920b5b2 ALSA: scarlett2: Use a private URB for the notification endpoint
-eca2e703d90c27db205f93b8378c08bcd75d81bf rndis_host: add overflow check in rndis_rx_fixup()
-cbb616b8f921638088b6be43b99fbd1f1c8d3ef2 nvmet: fix NULL pointer dereference in nvmet_execute_identify_nslist()
-ac9601f797ad48d9b515fd38f9689f0192e122f0 futex/pi: Reject cross-mm private futex owners
-062c0a676f99ee6b8bdf189b04a7c4b6f3fdbfe8 futex: Sanitize and document task_struct::futex::state transitions
-4ba362298bfad81db2ccd48b9acdff0aa08bd094 futex/pi: Plug private futex exec() race
-0fed21428249e8895430e213becbe78a813d17aa futex: Avoid private hash use-after-free on final put
-3084e5b3d69a6743bd37d54a87845fe113f7c9e6 futex: Fix race on the initial mm->futex.phash.ref allocation
-172973afbbdce2605114c8121ceacb117547544c io_uring/futex: don't mark futex wake requests as inflight
-49ebf144c4be4b262c00a5f281aed7bea30ebe75 io_uring/futex: only mark private futex waits as inflight
-c0f0e6f09fdee28d3b0d07277c7a751185ccd288 ALSA: dummy: Check card index validity at probe
-f5e7d4b34b63455065d48d9363cd4550303a193a io_uring/cmd: fix iovec leak when the async cmd is not recycled
-44dcc1ccceb4a9d2f69f34f0e17b9f179962c9c8 io_uring/io-wq: fix worker accounting when canceling creation callbacks
-85770791384fbbd099593eb7d7b5901010a26ec2 io_uring/rsrc: fix folio size overflow in io_vec_fill_bvec()
-dc8c5f527bcc32f37918ac5f7a1244110b88e45a io_uring/uring_cmd: don't skip completion for a synchronous multishot cmd
-f0d9990182ad675039abf5d32adf396640044ce8 io_uring: defer eventfd signaling when queued from a wakeup handler
-46d1ef74c70db26b9d6aa27b7d44a6927bde2957 ocfs2: fix missing metadata reservation for large xattrs
-8f7e76e5a1e488137c16ab8fb8b7837d01aef2b6 null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
-d540de00ecaf2caa6b592bb31af564b7eceaac0d kcov: fix data corruption and race conditions on PREEMPT_RT
-52c4ff971ec478ce42d9be81a43e15c8e1da02c7 ext4: stop retrying saturated xattr cache entries
-1ed08464cbcc162440cbfea7874dc0a327ae46e6 nilfs2: reject invalid block index in GC ioctl
-fc1aba2ea1a9e6b60279d73b3936e24ecd34e319 ext4: clear error before retrying inode xattr space fallback
-38e5b26ed61c253dc9fae4377cba2eb596a91232 ext4: avoid tail write_begin walk for uptodate folios
-6c7798298d3c0b070d32e3704b0c7a5473254c90 ext4: propagate errors from fast commit range replay
-fc784b647e7b2e28fab68abd659c4babb50dcf66 ext4: don't enable DAX on new encrypted files
-8cfe86c958a78e511220b5e1a346ff060a7b4736 ext4: fix incorrect function call when initializing s_resgid
-d91e0d22cb578bb475e59923353195b428030102 xfs: validate attr entry pointer before field access
-b24e4d92b941413785074d8e5422a033a4ab675f xfs: restore nofs context unconditionally in xfs_trans_roll
-b5ab6fd0c8e08da1d63892f6ee69fef0a56a83f4 nfc: digital: clamp SENSF_RES length to the destination buffer
-029e2492200bffd29b1553c9515ea2e82851e22a nfc: fdp: bound the device-reported read length and fix an skb leak
-0b7833d5bb3c1d91a361dea938324afecb4726ee nfc: microread: validate target discovery payload lengths
-296401f598b909bdc81d6a3141d50a880458286a nfc: llcp: bound the connect_sn TLV walk to the skb
-076aa1fe66414e38005c13d1458e844e672bea5b nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
-c632dfc38430d9fd2484ed2b963b54e3381d1582 nfc: llcp: reject PDUs shorter than the LLCP header
-9a8c34e36e510521186bc31b7460667f94bb40d6 nfc: pn533: purge fragmented skbs during cleanup
-4eb8d94e1a44ba02fed686e156d5deb7499924a8 nfc: st21nfca: validate ATR_REQ length against the received frame
-1338adec8ec9a64f20fdf5c3c57b7326148589ca nfc: nci: add data_len bound checks to activation parameter extractors
-816bb7a6603087f123a71bc41656b4a109bccbfd nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
-9d6bf74b4dccd0da44e5eb3b4d04287ab221b047 nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
-ae6645ebcd91ca7ea40727893a385429d46dd690 nfc: nci: free destination parameters when closing a connection
-7233d8f7cff2ba7b2e52afbd484da0a9941f4a14 ipv4: reject undersized MTUs in ip_do_fragment()
-ba9989e4296d9c8defc889bf88da7ed8c01485b5 ipv6: fix use-after-free in ip6_finish_output2()
-c272dee5d2c81f9fb4e525a64360dfc9b112ce18 mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
-5efba2e90998cbc20aa2ea118784d17cbe86210a dmaengine: fsl-edma: Add error handling for devm_kasprintf
-537da37187f602400a366f195ec2ffaf4387edd7 nvmet-auth: zero the AUTH_RECEIVE response buffer
-78d6fa57a576876dc2dcc343ab8286abbd45c920 nvmet-fc: fix invalid free in LS IOD error path
-9f753c9a9ef2d71696ce8be5d236d3853d3e7874 nvmet-tcp: bound SGL data length before allocating command buffers
-4138a745ad79342cff6eef2a80f6190d5fdbd66e nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
-5c4071b20deb932575613e003a1f4f996f239e7d nvmet: pci-epf: fix use-after-free in nvmet_pci_epf_exec_iod_work()
-0c0f9a50b8f634b1241f79acad6b9f1f4db67275 nvmet: pci-epf: put CQ ref on create_cq mapping failure
-a98ff175a341bb1434566b42194a4f253824914e HID: magicmouse: fix battery reporting for Bluetooth Magic Trackpad USB-C
-4cfcafbdc02fe0160195f30b5417361c0382ef83 HID: magicmouse: prevent unbounded recursion in magicmouse_raw_event()
-f97e4af24c072aa1410db75300cb50951ca88af1 HID: magicmouse: re-enable multitouch after reset-resume
-5ffcf5a2b584e38d6ab1ff48f8a0b070d1c8d1dd HID: magicmouse: do not keep a stale msc->input if no input is claimed
-bdf8bfe7892293c79d6243176e352993c1f0a776 HID: core: fix OOB read of field->usage in hid_set_field()
-7a237c032ce0bb4836844a27da3983e1f7cded47 HID: pidff: fix OOB write when hid->inputs is empty
-62d8df72460ba78a5ae9b4e577b5f5e620a52bbc net/ionic: avoid OOB TX partner lookup for hwstamp RXQ
-e38305434673d7b418c79d62393cc0ee0cb3332b HID: asus: fix missing hid_is_usb() check
-f2d9833d1a725a408ede522619965fa895498da7 HID: huawei: fix missing hid_is_usb() check
-dceaf157935a7158de9733e9bff452b769850b55 HID: nintendo: fix out-of-bounds read in joycon_ctlr_read_handler()
-16bcadcb048b7df83fa3e65c3fae1234114be6aa HID: nintendo: register input device after capabilities are set
-6c338bdb048915a5a8cd8b744d4e5788aaf1c525 HID: nintendo: stop device IO before hid_hw_stop on probe failure
-94460dd105ac6e2e53d743599d94fa53d94c4146 HID: rapoo: fix missing hid_is_usb() check
-855176321ba6cd6c03c678774abef8e2fcde1c55 HID: core: fix number/pointer type confusion on long items
-c98feccf4c2815f7b25a2f9013a43419d44d2858 HID: ft260: fix stack-use-after-return write in I2C read race
-360bbd42b0ef843378594f9209a7fdf3168184c1 HID: sensor: custom: Fix use-after-free in enable_sensor
-2b8d75d05bb8b94e31d38bfd0cff4664836c8a2d HID: uclogic: fix use-after-free of inrange_timer on remove
-d006ad439ba0869c9257f58144ec809834a6774a HID: hyperv: validate initial device info bounds
-9a5f9f084aeb05f913d1d0b81e990753efee8639 HID: input: read battery capacity from its actual report offset
-5b61faedee70efe3c1b223a180b7b221813f38a8 drm/xe: Don't hand out the flat CCS storage as usable VRAM
-74ca0f59f68e7d31f4c8a12a3885283ba697ce1a Bluetooth: hci_event: fix LE list UAF on reset
-add532ad718c7b8fda55fb713897e19a3214a74c Bluetooth: hci_event: validate LE Set CIG Parameters response
-77b93d627724f7ded2155fb44f9e596b87aa5a50 Bluetooth: hci_sync: Fix accept list UAF during suspend
-248638b39adc44340c093ed04cc719ceb77b4414 Bluetooth: ISO: do not force BT_LISTEN after a failed BIG sync
-a8e386bee48a0b897e3ca892b9783db543a75472 Bluetooth: ISO: zero the sockaddr before returning it in getname
-e7f07f74eeb4ac7bebf506f04c24a13dd35c0f09 Bluetooth: MGMT: reject HCI_CMD_SYNC params_len above 255
-0ceb37f7459623a9903886ae3a2e3835fc815f65 Bluetooth: hci_aml: validate firmware segment lengths
-fbab5eba590503516712697b372bcaf53735a041 Linux 7.2.1-rc1
+1c3bd6988add4fe0ca7770e4d8728fb4cf211820 serial: sc16is7xx: rename EFR mutex with generic name
+008be598151188df530be845c474515f9e98e413 serial: sc16is7xx: use guards for simple mutex locks
+122aac9acd7257ed22637650388f4ee418aa9b9b serial: sc16is7xx: enable THRI before filling TX FIFO
+9913554eebed98facbfc182752be818bd4954fe3 xfs: add a xchk_ip_set_corrupt helper
+db3802c7cc85d9a04ac955ef21e47bf4a116e55c xfs: rtsummary scrub should treat rtbitmap corruption errors as an xref error
+11cc729a5b82158c93635ced269683873f3dbe37 xfs: hoist per-bucket unlinked list check to helper
+c37825f42a99eea01d0d84f9cd4b5b1238b13086 xfs: don't livelock in scrub on a circular unlinked list
+004d8452bd3d6c2523da69debb5491b5a4200b6a PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
+d8a3dc8966294d9fdcad630a1996fcb0f2233d1c Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
+c2397852e4cd5e3a81228bd4dd0ab23b1cd5d402 iommu/tegra241-cmdqv: Fix CMD_SYNC use-after-free on teardown
+5808644cce147b3ad13ecf9c8e6b9c0ffe6672db iommu/iommufd: Fix NULL pointer deref in iommufd_ioas_change_process when racing with iopt_map_file_pages
+2068e72f00ce9616a9b6102e8a0865ff0ba57e38 ALSA: FCP: Use a private URB for the notification endpoint
+5bf6686beeec86ee847253cd58fce201f0eecf94 ALSA: scarlett2: Use a private URB for the notification endpoint
+0190503dcea648f2a9f119e35b0571a328c2b8fd rndis_host: add overflow check in rndis_rx_fixup()
+713f4d88c9eb852c00f07f78fb049df0cbc384df nvmet: fix NULL pointer dereference in nvmet_execute_identify_nslist()
+b6c060d759e1b72c306933b341bc953ccf5c3427 io_uring/futex: don't mark futex wake requests as inflight
+6df6d1845891a33e71ca2ca6a39e20bbf56c40c0 ALSA: dummy: Check card index validity at probe
+5130092ba7409d153f6b0de4ae3622bc117dd3e3 io_uring/cmd: fix iovec leak when the async cmd is not recycled
+1284d0b06ad07166de4cf57edf0875831363a7ef io_uring/io-wq: fix worker accounting when canceling creation callbacks
+f9c0d36e87b6cfecf36730d295dc7e174a8d020c io_uring/rsrc: fix folio size overflow in io_vec_fill_bvec()
+375f7d5f5d9a744b2ffe9822e6ef3172540747b8 io_uring/uring_cmd: don't skip completion for a synchronous multishot cmd
+c2481f7703c2bd6989d0b50b11667190f1f94533 ocfs2: fix missing metadata reservation for large xattrs
+1b71ac543ed2745a89542000f39bfab3ef5567b9 null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
+3a19b8a27ca19149a3e5e4dc4994d687f5f2203b kcov: fix data corruption and race conditions on PREEMPT_RT
+b1052144f950bec8dd0b94769362b217f15eb54a ext4: stop retrying saturated xattr cache entries
+8f4fdd210be700042ab47b2ab8b55536b434b248 nilfs2: reject invalid block index in GC ioctl
+fb3cce87de89a065d60c4a1c62d05446a017aeb0 ext4: clear error before retrying inode xattr space fallback
+ec1e6c9790b2a76887174b7163c48a7be5bf0915 ext4: avoid tail write_begin walk for uptodate folios
+c57605fc6d24058c88182e299440f3a89a52bc91 ext4: propagate errors from fast commit range replay
+dda87fe768545a7935c12c0d05edf976caaf2b94 ext4: don't enable DAX on new encrypted files
+3f2ebd8ab43ba346319c3f51a35609189eba127d ext4: fix incorrect function call when initializing s_resgid
+ec031bc6442fb28d31a1ea2482edaece621eaed6 xfs: validate attr entry pointer before field access
+52535e97b8a2819efbbba53c242fa540354b638c libceph: fix OOB read in decode_watchers() via missing bounds check
+5421c2cdd8a8e2606ad64d36738396eeed3e10a6 nfc: digital: clamp SENSF_RES length to the destination buffer
+34b22663617809c2a01f83d6722c5ddc394411f2 nfc: fdp: bound the device-reported read length and fix an skb leak
+d26d01dff9f076a52555e109c418af8d39d452af nfc: microread: validate target discovery payload lengths
+ea8745ce54748bc2d6050809414cf762e8c71d08 nfc: llcp: bound the connect_sn TLV walk to the skb
+ed8996073a46276431daad81e333c38522a0f876 nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
+a7935ca8e50286cded8598d2ba2f7509c34c2598 nfc: llcp: reject PDUs shorter than the LLCP header
+57a65911ef5dc8ed34592fc3d4cab3b3844baae2 nfc: pn533: purge fragmented skbs during cleanup
+64d6762db776d471379993eccfa6e4cec173dd9b nfc: st21nfca: validate ATR_REQ length against the received frame
+b9bec7afb4f44edfffbd9302f02940ddaab71bd9 nfc: nci: add data_len bound checks to activation parameter extractors
+0dc8795e57b617f1e711473a93f6256af4ac09a2 nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
+cfc2615c683b249ec05eac95433070853ae636f4 nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
+ccbb9df3568af3a71437fab5ec766f5d27652239 nfc: nci: free destination parameters when closing a connection
+037349994071aa758e1a0b4d5a8b8c381dba6688 drm/xe: Fix DPT allocation paths.
+ef841c9dc11692962caff354c36383bcd975f260 ipv4: reject undersized MTUs in ip_do_fragment()
+b5428cb0eee2d3e593a04e73460741cdba595a6f ipv6: fix use-after-free in ip6_finish_output2()
+d0d3bd57fd6fdeea21a26fcee634c0b6cadaa1e3 mailbox: mchp-ipc-sbi: Add null check for devm_kasprintf()
+3d194fade1f2e90f44be4fcc200ab62d9a186e76 dmaengine: fsl-edma: Add error handling for devm_kasprintf
+a9794cef498981538ba952dcacff4dccda6dbd43 nvmet-auth: zero the AUTH_RECEIVE response buffer
+de485220081b25b3cdda03cf8554dff0d6f9dcc2 nvmet-fc: fix invalid free in LS IOD error path
+5e7b44c289a28eeed48d41b03d979d51d9ebf786 nvmet-tcp: bound SGL data length before allocating command buffers
+36bd13434fbc76384a0b01689e5bab938fe3cd3c nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
+0bf4561d8b08161a49b99f76d6c3df25f0727892 nvmet: pci-epf: fix use-after-free in nvmet_pci_epf_exec_iod_work()
+caa7c1899ab0451648fa8676094c835f840f70d5 nvmet: pci-epf: put CQ ref on create_cq mapping failure
+cdb16dc14ce130ce72874d58828a749bc2239ebf mptcp: pm: use for_each_subflow helper
+dbeb5a064dfd670fc46f3ff45fc7194bc500588d mptcp: pm: rename add_entry structure to add_addr
+5ee1a9995ca168136a695e66950bae8f77738509 mptcp: pm: uniform announced addresses helpers
+ae1e1e1551a78a24e69a26c3688715dfba1bab23 mptcp: pm: fix memory leak from alloc-during-teardown race
+7f70aef445fbd50ccfa0df9a6972c13288404a5f selinux: use u16 for security classes
+20105c79385d7c11c2b67ae0d1ac68508683131f selinux: more strict policy parsing
+969e91fecc30c90b012ff8bd20818f9be61ac39e selinux: require a class's permission values to cover its permission count
+2958e8e583ab98861468c59530c1f125d2eca19b ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses
+2b7d8d7408f2e56db9e5be8c0ee982d87b968967 HID: magicmouse: fix battery reporting for Bluetooth Magic Trackpad USB-C
+0c93c4ea037d57fad690803ba00ba540914ced3b HID: magicmouse: re-enable multitouch after reset-resume
+f151feec8960f7663ca19f4a4db20f71dfb9d1ae HID: magicmouse: do not keep a stale msc->input if no input is claimed
+2021a7cad9aa981c80d30eac0d70d7f0b4792938 HID: magicmouse: Prevent out-of-bounds (OOB) read during DOUBLE_REPORT_ID
+a198ac80b97959b036e81e833b768c22acc47631 HID: core: fix OOB read of field->usage in hid_set_field()
+a4a7ff2955050861477772fde2bff76e99b3e54c HID: pidff: fix OOB write when hid->inputs is empty
+00afdd49fb69d8d50ce7613e5a7ad18307171880 net/ionic: avoid OOB TX partner lookup for hwstamp RXQ
+a3bb43cd1db901de91b9ee48c58adb61fe1ac9e7 xfrm: fix sk_dst_cache double-free in xfrm_user_policy()
+8f1791274378df7bad8ff10f245f7dbfa66a0ef8 Input: atkbd - skip deactivate for HONOR FMB-P's internal keyboard
+c0bba86b9a7dcb59ada7bbc4c63a22398c74a1d6 Input: atkbd - skip deactivate for HONOR ZQC-P
+036eb00172215f06c49eed4b4bf955f98a8dc3ce futex/pi: Reject cross-mm private futex owners
+37f2384885c62dea1067d649489909ea6c97d78c futex: Sanitize and document task_struct::futex::state transitions
+7d7d26910d46686069906b47ac6b97d7dd526d1d futex/pi: Plug private futex exec() race
+a20734e6a152f7e471e64ba70eb809954887fa7f futex: Fix race on the initial mm->futex.phash.ref allocation
+1352181d478ef347727fc8e8dce31f1d2b176b5e futex: Fix might_sleep() warning in futex_pivot_pending()
+9bb4cb01237535f66f110e504dda382d48c7c74d HID: nintendo: fix out-of-bounds read in joycon_ctlr_read_handler()
+99e5cdc431b90939d0643658708d032ef9e15e7a HID: nintendo: register input device after capabilities are set
+dffc42c316345e1ba04d794ecade11d00fb244f4 HID: nintendo: stop device IO before hid_hw_stop on probe failure
+f86ed6321f7dd9d7430e66c3cd5aaa454c4a0c38 HID: core: fix number/pointer type confusion on long items
+eff1c6bb1c4384c5780db8477e9fee516004d246 HID: sensor: custom: Fix use-after-free in enable_sensor
+21e215e31d8fb0900f533d5fa2583068d8817479 HID: uclogic: fix use-after-free of inrange_timer on remove
+f2d26c8bc9c2696be0d4bb77e1e2c1483dfbb5e4 HID: hyperv: validate initial device info bounds
+2144d7dd1b47743c13e0b8ff71dfa526fadc3c23 drm/xe: Don't hand out the flat CCS storage as usable VRAM
+380dd44c7f6a9bf1c6c6d1ca031a2cc7f4a8eaa0 Bluetooth: hci_event: fix LE list UAF on reset
+9cd845f07f669ebe0c3b18b3f46153ab70ee72ff Bluetooth: hci_event: validate LE Set CIG Parameters response
+a465532b0b851d0e9b887f0fddb1d4e44f0c49fd Bluetooth: hci_sync: Fix accept list UAF during suspend
+586beabdda91529052ef2c01e41f56728207d289 Bluetooth: ISO: do not force BT_LISTEN after a failed BIG sync
+1819b057f71c34ad756439c43181bece1b5e4126 Bluetooth: ISO: zero the sockaddr before returning it in getname
+04c59f85c49a2ebb2782a4e7d9a8e2c258d08d01 Bluetooth: MGMT: reject HCI_CMD_SYNC params_len above 255
+9ddc28fb77fb01de8932fa05a7622bfd753c72d2 Bluetooth: hci_aml: validate firmware segment lengths
+42c2e4bd8cc0762a7a13c547e51cdd7245afb488 Linux 6.18.47-rc1
 
---===============3803263332564503771==--
+--===============5293544540695937926==--
