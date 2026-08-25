@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1587568659523206529=="
+Content-Type: multipart/mixed; boundary="===============4705707251894831279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 25 Aug 2026 14:32:10 -0000
-Message-Id: <178766833096.3300212.798051855683458725@gitolite.kernel.org>
+Date: Tue, 25 Aug 2026 14:32:53 -0000
+Message-Id: <178766837375.3300508.2893032753662602113@gitolite.kernel.org>
 
---===============1587568659523206529==
+--===============4705707251894831279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: 78bf392ba77dd8b2a25656e489449d2f91cfd1eb
+  - ref: refs/heads/review-ilpo-fixes
+    old: 39490ec6063d9dc3d995b7b48fc5106cd361a547
     new: 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a
-    log: revlist-78bf392ba77d-5b05bb3f6c57.txt
+    log: revlist-39490ec6063d-5b05bb3f6c57.txt
 
---===============1587568659523206529==
+--===============4705707251894831279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1787668326 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1787668371 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1787668325-eed93e8e388161e239c9c88b439f948bb30a7153
+nonce 1787668370-c623fd6eb45b4aad5be1b91b23a19d8f07ac89e5
 
-78bf392ba77dd8b2a25656e489449d2f91cfd1eb 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a refs/heads/fixes
+39490ec6063d9dc3d995b7b48fc5106cd361a547 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCao2nagAKCRBZrE9hU+XO
-MWVcAP0QnVveWI76CcP5Shm3/QBNCtBepWY1ZpPQHbWSiZlrlAD/fYLzDX32xlsB
-pgSPE5KRMjbDSAxx46ukGYQ1RJui2Q0=
-=hpvA
+iHQEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCao2nlQAKCRBZrE9hU+XO
+MenTAP91pgYeATviBlXE9LhsYUUVmjCjothom/pbMFUtf8ZSTAD3fM/8zY66xrpi
+9/9ElBktsgxJ0KUc95I2awYhDOeBBQ==
+=RSVy
 -----END PGP SIGNATURE-----
 
---===============1587568659523206529==
+--===============4705707251894831279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78bf392ba77d-5b05bb3f6c57.txt
+Content-Disposition: attachment; filename=revlist-39490ec6063d-5b05bb3f6c57.txt
 
 d2ed9eaaf2631a4f1c1f3b2fc267aecb2150a7b2 Merge tag 'mmc-v7.2-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 50df5afa6d410ddfa32f58cdb2976d16fc3785b3 rcutorture: Check for immediate deboosting at reader end
@@ -1072,4 +1072,4 @@ cf9610f9116d55c5a66ef9f1faecacabd93a9322 Merge tag 'pinctrl-v7.3-1' of git://git
 8bfab832ad6905ba70e69bad87a78f6d90cce64a Merge tag 'mailbox-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a Merge tag 'platform-drivers-x86-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============1587568659523206529==--
+--===============4705707251894831279==--
