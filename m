@@ -1,26 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Wed, 26 Aug 2026 09:11:39 -0000
-Message-Id: <178773549900.4123057.1164967390266513371@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3254180495162433286=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Wed, 26 Aug 2026 09:20:53 -0000
+Message-Id: <178773605359.4129785.10225014454168131082@gitolite.kernel.org>
+
+--===============3254180495162433286==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: egrumbach
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b313b4869031cfbf0f77c66c885ab4cb6c2c74c9
-    new: 1fcd9d619e6bc455ed618b3054889452e48c7916
+  - ref: refs/heads/b4/bind_taint
+    old: 8744cda235db58c111723aabf8940f7754775e1f
+    new: 4e7138a1daee9eb75210ccca9d770ae287d5d5f3
     log: |
-         93211037f4bc736917a6e03ed3653c3bdde5d051 wifi: iwlwifi: support for another device ID
-         04574cb03e404171005b045cb0edb63242cf3a4b [BUGFIX] wifi: iwlwifi: mvm: validate BAID from FW
-         d54013b30253f33f75fd840191d2ec8cb7d38e74 wifi: iwlwifi: add standalone WRSS/EWSS BIOS table loading
-         cf9bfbbc73a215c4e157933378e135b5717ae656 wifi: iwlwifi: send standalone SAR to firmware
-         8461b199230d971167f05b1e24e408e5382baf99 [BUGFIX] wifi: iwlwifi: uefi: Fix SAR enable check to use mode parameter correctly
-         e6389b39bcb35d8e8ee384c9ddcb527818c52a4f [BUGFIX] wifi: iwlwifi: fw: harden UEFI reduced-power TLV parsing
-         0a5135849b464fa19bcaf9df81838d5ffcfc72af wifi: iwlwifi: fw: add Samsung to TAS and PPAG allow lists
-         1fcd9d619e6bc455ed618b3054889452e48c7916 [BUGFIX] wifi: iwlwifi: pcie: order RX reads after the write pointer
+         a7c9a3978e7f8262714f61f1378d6c420a865b71 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
+         035ad9c66237c2b6b92f40e34864656c6ac3af8c module: pull out add_taint_module() to be public
+         4e7138a1daee9eb75210ccca9d770ae287d5d5f3 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
          
+
+--===============3254180495162433286==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787736030 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1787736029-7958691e7ff344d9f2481e6eb1b9a8963f95d007
+
+8744cda235db58c111723aabf8940f7754775e1f 4e7138a1daee9eb75210ccca9d770ae287d5d5f3 refs/heads/b4/bind_taint
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOr94bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6bsP/2Kn8uIRIbgc0wPNlozy
+L2zNGrbe3JtDlKOxEuXLI18/u3//860ReTPp3LnmGxwwt3buKOPEcYCNwnQtTSz2
+ccSKtQUBnm5+wmwAG0u8VqU5cC+wXrZ9ztxYqJXXBYbF3XdapwmJGSs8TQZgVFwI
+CoALDyLKJdv7B6eTKbduk/ujicp6BGZ9oGq2Rbo8fe6u4gqgPemZnXLr/HQ2CUFt
+zG5dVFKg9u/MTHbDX3Q1fuEyxP/19NGTQE4SfLW3Tu1vH52MvC14wilErA3WrR7N
+79upSw9zGVnONPtTMVA/zGtm9ZvN/k2Y0cQFyXPw33UIGZg1L3tl5eN6zI7Vmjvh
+RCQIiw8em9BHkT8GVdGO6hUIn3nb9qYWvgnFCV9LpZqZhgRejqEaqmp+FtwUeMJd
+oJ1O5YRUuZMJXEPAAUeWfy8MOM5Q9ht10UYEGVTw7LZPUkWfquvZepPVBjbOTquM
+S6QCbbIUdJS8nHFiemE9+oxKbRhqOPCp5JiGBTQDmvBdgF6pPKS5IMGtXrT7yKlV
+VlSHEUvjPewKuJrVYRvSW4wGIs6CoXi7scfMxSH0ZE4P8K917v7lSiTwtMUhfV1I
+xqeh2QGZH2tRghaSkBb+aemnp/+2WfEMDxFP81zHVd+3+xax6gZWhhI1+8ZzfdtE
+J4zfsO8SISul9v+4FJw+Qm9K
+=9gch
+-----END PGP SIGNATURE-----
+
+--===============3254180495162433286==--
