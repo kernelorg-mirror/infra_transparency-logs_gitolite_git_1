@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0503275698631255988=="
+Content-Type: multipart/mixed; boundary="===============8501969401288703754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 26 Aug 2026 06:34:11 -0000
-Message-Id: <178772605105.3996955.6806188029519537638@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 06:34:29 -0000
+Message-Id: <178772606986.3997358.7882112012815661859@gitolite.kernel.org>
 
---===============0503275698631255988==
+--===============8501969401288703754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: 442065326d089945239c40750b3c7fcf9cfddd8c
+    new: ec8477a492cb24f2c334847c8734ca56c7ffdd29
+    log: |
+         4bc2698231bcfd889c764958b9728750fc0f3328 Merge branch into tip/master: 'locking/urgent'
+         ec8477a492cb24f2c334847c8734ca56c7ffdd29 Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: c9eeb0a80a122cb1539a4291e8a3ed275ebf43d7
-    new: 442065326d089945239c40750b3c7fcf9cfddd8c
-    log: revlist-c9eeb0a80a12-442065326d08.txt
+    new: ec8477a492cb24f2c334847c8734ca56c7ffdd29
+    log: revlist-c9eeb0a80a12-ec8477a492cb.txt
 
---===============0503275698631255988==
+--===============8501969401288703754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9eeb0a80a12-442065326d08.txt
+Content-Disposition: attachment; filename=revlist-c9eeb0a80a12-ec8477a492cb.txt
 
-581829501360bda487b93ec7d7eff0da6296f187 KVM: arm64: Drop the unused EL2-side is_created write
 9b36eda4dfe0bcd76233b3f1318b66478c1d0698 KVM: arm64: Remove unreachable early checks in pkvm_init_host_vm()
 008ea7a6aa01877a2439bc911426c27a03a6d9e3 KVM: arm64: Drop redundant READ_ONCE() in pkvm_hyp_vm_is_created()
 5a5a48e788e02fd8a8eb7188ce440572d6c12418 rpmsg: glink: fix deadlock in endpoint destroy during driver detach
@@ -1049,6 +1055,7 @@ f4d50813c0958b7d6bc79a7e0a77193372cbfd03 Merge tag 'usb-7.3-rc1' of git://git.ke
 fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-442065326d089945239c40750b3c7fcf9cfddd8c Merge branch 'linus'
+4bc2698231bcfd889c764958b9728750fc0f3328 Merge branch into tip/master: 'locking/urgent'
+ec8477a492cb24f2c334847c8734ca56c7ffdd29 Merge branch into tip/master: 'timers/urgent'
 
---===============0503275698631255988==--
+--===============8501969401288703754==--
