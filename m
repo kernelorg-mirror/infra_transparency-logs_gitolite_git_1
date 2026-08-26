@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7307390951889030606=="
+Content-Type: multipart/mixed; boundary="===============3738469823977476431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 26 Aug 2026 08:54:58 -0000
-Message-Id: <178773449802.4107734.10762105555581967152@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 08:55:03 -0000
+Message-Id: <178773450313.4108344.11403243458608746541@gitolite.kernel.org>
 
---===============7307390951889030606==
+--===============3738469823977476431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 440915499231e9db1c361aa45bb702e8fd3b4a32
+  - ref: refs/heads/tty-next
+    old: 8b0b29fdcb47907ae0296b8fe829e918e05e300f
     new: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
-    log: revlist-440915499231-45c13f3f9e3b.txt
+    log: revlist-8b0b29fdcb47-45c13f3f9e3b.txt
 
---===============7307390951889030606==
+--===============3738469823977476431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734494 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734499 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1787734495-0bea7b07f11effb92d0923e6055a9fb513f4899e
+nonce 1787734500-078ea706c62597e2e862de58d7dbe719f7a9e8dc
 
-440915499231e9db1c361aa45bb702e8fd3b4a32 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/tty-linus
+8b0b29fdcb47907ae0296b8fe829e918e05e300f 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqd4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ThMQAIfILEcok2IU4aFJT6K6
-CaGynDIF91l05Vz16xNLhxKIUYxWCz6Oo3nQmM2buaJRoQsf4kTwvAIRWqW1U93n
-+63InrpW1aLCiS1liGZIXJN4Ks0cVgWT1hEa26Dsgf8I52JPT0TxnVi8yxqGWIEt
-vPKLiHjGoDJRW9PazwfWrwQDxgy9B1/8mo14RPVjbV4b6l4jC1RYbD0eysbhtkKc
-kRc86b0mTAW36ABdCz+U9EIUnvt5rxftlXViLJV0s5ylSq/MdMtsTeebY8zykx+s
-ZqTgq7e0MOBtPFFHbunAs2HDBq68P6ryinOXt+2qg2xUdpvvndG+9IAfOv1LpuMg
-txkbrDLNLxSp5o6oPgof5wb7TtNxuc7YFp56Qjzh2qqo7Ngpp3bKsGwcltnPTH34
-CVuqRwY/+xT1cnFVgMdEV2NLJRfZgfial75bmRhXxuu4K4JGYVVBjT75v9a+Q1Mi
-6ej4OC41x170YgovXsx3GWFPShaVYF3cKwcjErytOM41MaeF4xyU6MyyLtP7Uuv2
-CidvWuTVY8HK/BCOUV0q9Ry6QVLhr8+Y3MRbKjXdJt01QBKjgTHwwvO6V4mSjjxb
-SHYLwWasC//BGZz9bYamsThJ+qcBP2riOOfIvNYbk8H2P/4id54he+5aqaB/cKqE
-Zd6t0o/8dW1dmyOGTMntED3r
-=F1M7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqeMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jCwP/3e5QdxpbeGixI6TJ/rp
+CX9pvJuSf2fTdOf/qYBcluVRUdaW1NWqnuBNixCOF475rPJhC/Z2s7FJQx0Juy58
+2CRiFYo89PfRDWup/RV4rDzw4iDyGKQIrqylYiOJe5jchvRvPuosWIXZUkAiuP0H
+yTv8X4Arar5omI0oAHqSLun0+guksL0kilr76j5USBFGeKgzzbkBXqi1Cw2hGcig
+iyNGqIHxPQ8rub43CgCyo+8+a3vUNesGoxEVdinD1d70JdIGqbp25uN4G1/0LH/c
+8nvkz6bObc1DTLtgm9+A5sGzT8MysN0hDAmRxhb4sIaAh9V+Jgp8w6E3VC+Kme2A
+L1pmRc0SPGxSYltWg4PNguoS6cy0ZXTFl9hctap4YCjT35JMR8Ld718zliJbDRRi
+SrB2ifNZu1vYVdN2JbI6phE1Wy5PegisegBxNdOEq2CiTlmg+w7T7ZqE5iDS2nlT
+F8Zsw9OK5Fd/XpdhAytxsuvKHZWPp/K9w6NFEsclDBqutm8eI8y1sR34C1XbG6Ff
+Xv0Mn/A8o2q97DKXkHBCFjm3Ep6OAwJJ5vfWVBW6R2g0YRoLL5PZ0OTTeYZFDUqj
+xT0O5xZliJiGC2nDVeKmcj2y+JkmZFx5mWb6S+1oDwh9+ajbW38Jd3g9Q5p10TSj
+5cLjcVsg4cd54jYoRJyKAbvp
+=2VGd
 -----END PGP SIGNATURE-----
 
---===============7307390951889030606==
+--===============3738469823977476431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-440915499231-45c13f3f9e3b.txt
+Content-Disposition: attachment; filename=revlist-8b0b29fdcb47-45c13f3f9e3b.txt
 
 3c8a5e271594f6ba6d2af40f229cbcd0bcb08c06 io_uring/zcrx: add dynamic area provisioning
 06a2ff603f1f22dd314e24c50092717b4b8c3ade loop: Fix recently introduced lock inversion
@@ -1082,4 +1082,4 @@ fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.ker
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============7307390951889030606==--
+--===============3738469823977476431==--
