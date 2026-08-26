@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 26 Aug 2026 07:39:14 -0000
-Message-Id: <178772995458.4043204.7019059114964346102@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 07:45:14 -0000
+Message-Id: <178773031465.4049781.2806330611277707306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/feature/cache
-    old: a6d19ed339ef92cfd16e3d293a5257659b527e4b
-    new: 01c7fcdfc6661b8a39a17e7ba063492aa4893269
+  - ref: refs/heads/dev-test
+    old: d8745ba260abbcaf75fd458881381019ab3c5c07
+    new: ffc718f26548dea2861b3a818807b534ca8a49f2
     log: |
-         1cead0bf307d5354e23d3c9d88b9e737677f65af f2fs: introduce metadata cache
-         c4c4300385f558e49b427f92d971da0f56e9b41f f2fs: cache: implement metadata cache
-         3796cfae0f5773715d77b9b46dd8f28f7ea553cb f2fs: cache: initialize meta cache
-         459da3709fe3c42b5af39d237a4e5114c3ae8b45 f2fs: cache: introduce shrinker
-         1cb17301ba0b779a3ec0f45d1c2471de01e88230 f2fs: cache: introduce writeback thread
-         48a7d0c90491aaa6c6229be5879d39fbb241452c f2fs: cache: use meta cache
-         83dc3d58253ec8022cd27f316743942e11879075 f2fs: cache: initialize node cache
-         56adca46522bc1608ce9b4b8f4c223433ffd1ce2 f2fs: cache: use node cache
-         3909befcf7cc2c939a71c11d28286c19e41222db f2fs: cache: initialize compress cache
-         b85731520a6d1a7a5c25a640422bc48cb1a796a9 f2fs: cache: use compress cache
-         96b051b20604859e86106626600c22c154d336ec f2fs: cache: support fault injection
-         542e3e55d65c2ff50c910f76ef281e722735a484 f2fs: cache: introduce tracepoints
-         01c7fcdfc6661b8a39a17e7ba063492aa4893269 f2fs: cache: show per-cache usage in debugfs
+         8c963d1738fdca400082ff5f9d99e083de4f4e70 f2fs: accurately adjust free_sections during free_segment_range
+         4bd7a52d44740f766b999d9c01846ec8967bf9bf f2fs: don't leave the hashed inode while it's unlinked
+         bfaf2117dd5844f27e3f82dacbfce46401dccac1 f2fs: support resizable tail section and unify pinned allocation
+         bd80ab48268f62edc3470cace5bc9496e7c7e12e f2fs: fix to check continuousness in f2fs_sync_meta_pages() correctly
+         ffc718f26548dea2861b3a818807b534ca8a49f2 f2fs: remove invalid error path in __write_node_folio()
          
