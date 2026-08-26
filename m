@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 26 Aug 2026 21:51:18 -0000
-Message-Id: <178778107879.483340.2042288493792161349@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 21:55:36 -0000
+Message-Id: <178778133631.486730.14466391513000066923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 4632d4442589e8ed76582e033ed57d1d8def25f3
-    new: ef8098f74db61b1eeac98fcf34543812f6d77af1
+    old: ef8098f74db61b1eeac98fcf34543812f6d77af1
+    new: ad4e4b8acef4d1b0b48037b34e5aa1720d18115c
     log: |
-         ef8098f74db61b1eeac98fcf34543812f6d77af1 src/bin/diffman-git: Fix error message
+         ad4e4b8acef4d1b0b48037b34e5aa1720d18115c src/bin/diffman-git: err(): Add function for handling errors
          
