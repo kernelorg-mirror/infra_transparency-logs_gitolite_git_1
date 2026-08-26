@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Wed, 26 Aug 2026 07:04:27 -0000
-Message-Id: <178772786731.4018707.3053199247206159490@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 07:23:46 -0000
+Message-Id: <178772902689.4032536.14745559708801845618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jj/linux-apparmor
 user: jj
 changes:
-  - ref: refs/heads/apparmor-next
-    old: 7e2d19582fe90a3bdc882e6ea36af96d35624f85
-    new: 3daad923a8685adb66087e0d819559b7eb6ba975
-    log: |
-         3daad923a8685adb66087e0d819559b7eb6ba975 apparmor: policy_int make sure list heads are initialized before fail path
-         
+  - ref: refs/tags/apparmor-pr-2026-08-26
+    old: 0000000000000000000000000000000000000000
+    new: bb4d5d0ca953567dda983ab39252dbe41d5ff993
