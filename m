@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 26 Aug 2026 03:51:34 -0000
-Message-Id: <178771629464.3885632.12408288835979987066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 26 Aug 2026 04:01:43 -0000
+Message-Id: <178771690366.3892952.9414681053374309922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
   - ref: refs/heads/dev
-    old: dc5bf5c8fb26db2d1ff68a50bf14de1532c8371c
-    new: 2fd51c89aeaed6a541b41f0e8a165dce7b6ac09e
+    old: 8c963d1738fdca400082ff5f9d99e083de4f4e70
+    new: 24c1a47f1ed28f8b31db9a36eb26d1ffbd089d7a
     log: |
-         9e1a3bab7cf0089798d1b4f35aae31cf0bdbabb4 fixup! srcutiny: Add an atomic Tiny SRCU
-         1132a03aa208fcdee3c74fb9ac71455063feb3c9 fixup! srcutree: Add an atomic Tree SRCU
-         2fd51c89aeaed6a541b41f0e8a165dce7b6ac09e fixup! rcutorture: Add support for testing synchronize_srcu_atomic()
+         24c1a47f1ed28f8b31db9a36eb26d1ffbd089d7a f2fs: don't leave the hashed inode while it's unlinked
          
