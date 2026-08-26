@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1530139947902026047=="
+Content-Type: multipart/mixed; boundary="===============6470658789991393349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 26 Aug 2026 10:44:45 -0000
-Message-Id: <178774108573.4186943.14616186899072404437@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 10:45:08 -0000
+Message-Id: <178774110879.4189202.15838699724557922620@gitolite.kernel.org>
 
---===============1530139947902026047==
+--===============6470658789991393349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: e8899c00d7cb4a67dfa232126fce63953187d0ce
-    new: 21f4dd6665f74afe8fe39591e4abd5971828cf08
-    log: revlist-e8899c00d7cb-21f4dd6665f7.txt
+  - ref: refs/heads/export-net
+    old: c5314bca74e34c7eba79053f2972c028c8c5b7d9
+    new: 64089c476f0ec010e7dff2e581c105518769b1e1
+    log: revlist-c5314bca74e3-64089c476f0e.txt
 
---===============1530139947902026047==
+--===============6470658789991393349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8899c00d7cb-21f4dd6665f7.txt
+Content-Disposition: attachment; filename=revlist-c5314bca74e3-64089c476f0e.txt
 
 cb19774faa57c51efa189d8b8606aeabccebc53b Bluetooth: hci_sync: Clear HCI_CMD_PENDING when dropping the last request
 dc6b7c771a963e20aedf4a21ffa22543b9837ba8 Bluetooth: hci_bcm: fix usage_count leak when autosuspend_delay is negative
@@ -106,51 +106,27 @@ a687f2ae995fc366a6f2ef180451e6db4c6b4530 Merge branch 'net-sched-fix-quantum-mtu
 3faf13aff243ca9f78d08b1a2956ef5a6fc77b6e sctp: fix stream->outcnt underflow on duplicate RECONF responses
 b95dbcdd718f38fd27eb13e63d8bfe4bf6e26ab3 Merge branch 'sctp-handle-wrapped-and-duplicate-reconf-responses'
 dc4b95b8fee95113587e93ca116356032d271371 net/sched: sch_teql: restore skb->dev on the slave failure path
-6455ac351a309328894888575d4f6b90897fac12 DO-NOT-MERGE: git markup: net
-116bd391caa70b7b4c5ea7cc2779ad938197e740 DO-NOT-MERGE: git markup: fixes other trees
-6422f2289a390320467798e2a716aeb0ac1cf982 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
-8ae671d56bd26f88c5f465cd6c180839c9a882ef mptcp: pm: userspace: fix address ID overflow
-3a09c28abb0c9a6fb0fd795fb3cc3fa4e0c2dac6 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
-ee7026893a23bca3c8dfcc0cb9485be7d97c4240 mptcp: options: handle MPC data + csum reqd + no csum
-a57f76f06cc05dff58ac376fde352c8c8674df97 selftests: mptcp: fix an UAF in mptcp_connect.c
-109c2432472b2df441725566c34bf5b0e6434676 mptcp: options: fix uninit-value in mptcp_write_data_fin
-c729956518233294c70bb95264110c40a61e0d88 selftests: mptcp: lib: dump nstat for the right test
-592af93d76d361c42c74c0ad56a07d55ac62b28a selftests: mptcp: lib: get counters for the right test
-20245c90b709870a4c99c127fd2431b2e0f0f6ee mptcp: syncookies: remember the request backup flag
-cd21686c7785f4d3c24007e979ca508643ef5c6b mptcp: subflow: no need to copy thmac during ulp_clone
-f310050f2a203eea3e721eb584c1b13dde1ac367 mptcp: being below memory limit is a likely() condition
-976dbbe2ea65fe26d55b12485537b523c220f93d mptcp: avoid pruning for OoW data
-2d5e66adc0dd99dfb60746a526b443ace56a2255 mptcp: remove unneeded READ_ONCE() annotation
-a743fa736d6b5d2f6ece3a982b19bfa7319727ca mptcp: do not reschedule the RTX timer for fallback sockets
-c2b2e30def6ddd91945747386594d414ad8f0347 DO-NOT-MERGE: git markup: fixes net
-212f82592245c3f5f9cdf58e543ce5810a9f0d64 DO-NOT-MERGE: mptcp: add CI support
-c79292f30d9990a811e8adb728a52a8e10836910 DO-NOT-MERGE: git markup: end common net net-next
-160da1969f1eb2957ea7d40038d07587cea46a12 TopGit-driven merge of branches:
-62a529327790ac2870d176667d4defd4adc735cc DO-NOT-MERGE: git markup: net-next
-0f43338c5fa4d42279662296cedd9313b89f2736 DO-NOT-MERGE: git markup: fixes net-next
-8e0f315ec68cefadd948d6588c3047f5e6433988 mptcp: pm: init and release mptcp_pm_ops
-ca0df634f16caab01949e8990165145ea881e2a7 mptcp: pm: add get_local_id() interface
-114b7d99cb0712a8684c933c986387c19108c3df mptcp: pm: add get_priority() interface
-706a4e8b81a47d8ef2b48bfc1b8635f6b8cdea58 mptcp: support MSG_ERRQUEUE on the parent socket
-4ab66b3b215533fc6866e9be3cd5852d73d9f40c mptcp: sockopt: factor inet_flags propagation into a mask
-03b1624084260d5f7e01630243feee775ff9539b mptcp: propagate RECVERR sockopts to subflows
-1be2385a9265dc9f7d3023d77a6b44c44fe93499 selftests: mptcp: cover IP_RECVERR sockopt propagation
-ea46ee621f3830bfe492d6252b755c90050503eb mptcp: remove thmac from subflow ctx
-38512114431cbb09268eea525bf8d8759c7899a2 DO-NOT-MERGE: git markup: features net-next
-7aa7860129e58be591841b52436c5f2480effe7a DO-NOT-MERGE: git markup: features net-next-next
-6895c8cc562bdeaed3c4fd091787739f39c91ffd bpf: Add mptcp_subflow bpf_iter
-7572202425e77a5b9cc4f64f285ef7b9d00b540b selftests/bpf: More endpoints for endpoint_init
-e8229a79fbbdeb531b059d86f0bd93b6b42853de selftests/bpf: Drop cgroup_fd of run_mptcpify
-e584b0e5130ae3c9e2573a74d476bae5913f36e2 bpf: Add mptcp packet scheduler struct_ops
-c8382b27a5b5befad513a0b2326694974491fb3f bpf: Export mptcp packet scheduler helpers
-f2995ed5b0579aaf53a628b7c913bcfee608597a selftests/bpf: Add bpf scheduler test
-f1b72290e5061164230fea3674931716e90e10d9 selftests/bpf: Add bpf_first scheduler & test
-89d2a7c20b51941fc38061a9db9a945c7c66140b selftests/bpf: Add bpf_bkup scheduler & test
-a67a478e4a72d06de22c8a4e5177ec1f0b740422 selftests/bpf: Add bpf_rr scheduler & test
-915bb425a63c52766732f13b9b38a30e33800ad4 selftests/bpf: Add bpf_red scheduler & test
-f10f7d1e784d637803cc416fb6c6200d9b32f154 selftests/bpf: Add bpf_burst scheduler & test
-db7fe7066df257be61800c10c002ea0f01a98e5f DO-NOT-MERGE: git markup: features other trees
-4d50c8dc144791e51df963bdbc769696f1aac9b3 DO-NOT-MERGE: mptcp: improve code coverage for CI
-21f4dd6665f74afe8fe39591e4abd5971828cf08 DO-NOT-MERGE: mptcp: enabled by default
+a311bb927516fc85be17a34ea24bf2342ef85ec5 DO-NOT-MERGE: git markup: net
+a778fab5dd809625f79efc7ade29755d8f78d321 DO-NOT-MERGE: git markup: fixes other trees
+452abce31045dde194c6cbf3b486f8b03382d434 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+efa7383bb8fec335b79eb0359ed787357d0e60aa mptcp: pm: userspace: fix address ID overflow
+feef8e21af969f4976b8b8c4a7b4e9e8d0da8a15 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
+bc989674fe184b1395a73fa38e7003cfb4160ca3 mptcp: options: handle MPC data + csum reqd + no csum
+e5e7345f3379329eaa4ea580742f78069deab28c selftests: mptcp: fix an UAF in mptcp_connect.c
+ea9e47ca373c4efc60223913995f9bfcf4f702df mptcp: options: fix uninit-value in mptcp_write_data_fin
+a76c28c2e0d327d9216ab2f116e7103a72e764b6 selftests: mptcp: lib: dump nstat for the right test
+ad8ac26afc011ee7098f19ff02d0c5a8430f357a selftests: mptcp: lib: get counters for the right test
+63545a7ee4e99c24f8969cea44b2340de5a63e2f mptcp: syncookies: remember the request backup flag
+7ecc4e2ab77ee81eb6ad7f99b29500410731cc6a mptcp: subflow: no need to copy thmac during ulp_clone
+aa90ee61a8bdb6c0b868c0fb3821725668b7a6af mptcp: being below memory limit is a likely() condition
+6578425c9cdb1c651da076b02b7e4f0df0e9d9a9 mptcp: avoid pruning for OoW data
+2ed21fbc033410293fa8e778404fbdd91c1ecf6f mptcp: remove unneeded READ_ONCE() annotation
+6073e187df379a3771b37e895b2509ae90ab9930 mptcp: do not reschedule the RTX timer for fallback sockets
+0fb38c6b5bed67c074c73a07b1d44e1c64c4b1ee DO-NOT-MERGE: git markup: fixes net
+82df8f087cba88cf3229fc8fd1ec10905684e68c DO-NOT-MERGE: mptcp: add CI support
+904d715093d949946299f7858ece4df8c9486287 DO-NOT-MERGE: git markup: end common net net-next
+b5a64531a4dc3140572a5447845d47ac84843ece DO-NOT-MERGE: git markup: fixes net only
+928c6a33769da5ec556aa25564bc7198591d276f DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+64089c476f0ec010e7dff2e581c105518769b1e1 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============1530139947902026047==--
+--===============6470658789991393349==--
