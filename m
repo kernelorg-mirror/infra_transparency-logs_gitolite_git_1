@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3738469823977476431=="
+Content-Type: multipart/mixed; boundary="===============6846721924742989930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 26 Aug 2026 08:55:03 -0000
-Message-Id: <178773450313.4108344.11403243458608746541@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 08:55:08 -0000
+Message-Id: <178773450828.4110006.1055285985559855188@gitolite.kernel.org>
 
---===============3738469823977476431==
+--===============6846721924742989930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: 8b0b29fdcb47907ae0296b8fe829e918e05e300f
     new: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
     log: revlist-8b0b29fdcb47-45c13f3f9e3b.txt
 
---===============3738469823977476431==
+--===============6846721924742989930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734499 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734505 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1787734500-078ea706c62597e2e862de58d7dbe719f7a9e8dc
+nonce 1787734506-5acc1284915b442c391d3a1fa5add998d8cc7398
 
-8b0b29fdcb47907ae0296b8fe829e918e05e300f 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/tty-next
+8b0b29fdcb47907ae0296b8fe829e918e05e300f 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqeMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jCwP/3e5QdxpbeGixI6TJ/rp
-CX9pvJuSf2fTdOf/qYBcluVRUdaW1NWqnuBNixCOF475rPJhC/Z2s7FJQx0Juy58
-2CRiFYo89PfRDWup/RV4rDzw4iDyGKQIrqylYiOJe5jchvRvPuosWIXZUkAiuP0H
-yTv8X4Arar5omI0oAHqSLun0+guksL0kilr76j5USBFGeKgzzbkBXqi1Cw2hGcig
-iyNGqIHxPQ8rub43CgCyo+8+a3vUNesGoxEVdinD1d70JdIGqbp25uN4G1/0LH/c
-8nvkz6bObc1DTLtgm9+A5sGzT8MysN0hDAmRxhb4sIaAh9V+Jgp8w6E3VC+Kme2A
-L1pmRc0SPGxSYltWg4PNguoS6cy0ZXTFl9hctap4YCjT35JMR8Ld718zliJbDRRi
-SrB2ifNZu1vYVdN2JbI6phE1Wy5PegisegBxNdOEq2CiTlmg+w7T7ZqE5iDS2nlT
-F8Zsw9OK5Fd/XpdhAytxsuvKHZWPp/K9w6NFEsclDBqutm8eI8y1sR34C1XbG6Ff
-Xv0Mn/A8o2q97DKXkHBCFjm3Ep6OAwJJ5vfWVBW6R2g0YRoLL5PZ0OTTeYZFDUqj
-xT0O5xZliJiGC2nDVeKmcj2y+JkmZFx5mWb6S+1oDwh9+ajbW38Jd3g9Q5p10TSj
-5cLjcVsg4cd54jYoRJyKAbvp
-=2VGd
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqekbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m0MQAIP8B+pdCmnClJcl2aVK
+MSIeXDPkjXT0LsDqQB6UAkiKXAGF08eHZ/rhET/+I80VuVL7u7HKnOJ4Nb9pnvqJ
+Y6u+zIibalXjEyN2cfjMI3+ZLdwEOte4NZTDJXZAXOXjL5ewOWlp/HI55uiWLC7p
+fQUGhmfky271/ORe4j8HqbyztwPZEbxd/Y7mcTKqQJs5WTGyW7/OxQsIrcIZLCHO
+loca965UOHsGW1Ti0U5uzynMH4+kLWDs8cbMvCclwyzl8zcXqhgQhbmmJvynVlu3
+f1nudZc0PxR6lVUhdqQ0Wh7g5NdD4iP+NnnyjhHsM5j6G77VkXnJDshr5iTc3poh
+DBxuasyQxZC5vIMTGaKDUlZ0rO7Z+AfLIccGMSHIyneaYo++s6gV7t9PsmkZaFtN
+si1I5dQoFn165IXr5xwjv/PnAXwOcTsyZ8YSj50olMdaM7ZUhGKQFuovoYT+P5my
+Bq1Ubh54Fd7J37dn2zo6owU4AC7MqZtTeZ/gtHtNu/o7BHqPA1Hbd1J/v7LqJT7c
+O8uiM3wegvnr2+nSGHwjDoLihg5T3NjaL7EOh3kRIe0IZ5jiiXbWNiPsnxwU+dbh
+BKwTtz9/3pYlAdSaU92cC//ywKqmjJ1/XFidgeG2Yd93Vtrv3pDI9Qxu0MzAH/St
+5t8y88E3i5RFus8leEQ++yxD
+=sp2G
 -----END PGP SIGNATURE-----
 
---===============3738469823977476431==
+--===============6846721924742989930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.ker
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============3738469823977476431==--
+--===============6846721924742989930==--
