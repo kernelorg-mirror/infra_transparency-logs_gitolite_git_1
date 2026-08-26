@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2307060401870680121=="
+Content-Type: multipart/mixed; boundary="===============1997273600738128158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 26 Aug 2026 20:48:30 -0000
-Message-Id: <178777731034.435977.12053156877968107724@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 20:48:39 -0000
+Message-Id: <178777731902.436213.14882227237682088354@gitolite.kernel.org>
 
---===============2307060401870680121==
+--===============1997273600738128158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,84 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
-    new: d7f4c3a7a16060a854dc2e4f64341c364d4e3712
-    log: revlist-8d3ae59288f1-d7f4c3a7a160.txt
+  - ref: refs/heads/nfsd-testing
+    old: 3a4d7c7c9466a07fa4176ce35180149709d92c22
+    new: 51f18ae5fab20299d35d44b838dd72a5b528badd
+    log: revlist-3a4d7c7c9466-51f18ae5fab2.txt
 
---===============2307060401870680121==
+--===============1997273600738128158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d3ae59288f1-d7f4c3a7a160.txt
+Content-Disposition: attachment; filename=revlist-3a4d7c7c9466-51f18ae5fab2.txt
 
-463f7cc26ce3ccc8fb76d6194f83214be7105e2f HID: tmff: Use 64-bit arithmetic for force feedback scaling
-2de727471b3b13409466a4af4f8824a86073bf4b exfat: keep FITRIM within the requested range
-0c7aeb0f5eceb95b5887bd8e83fef865e5a49a13 ASoC: tas2783-sdw: do not treat read-only Controls as writable
-367cea239fc93094e5c16a72724800e0358f5c46 spi: Fix DMA mapping ownership on partial map failure
-b82b2dfc93d3c7729250e1107b7121775f5dfd40 spi: Move __spi_unmap_msg() before __spi_map_msg()
-af6aaacd42f74e2139391f9853d770d61ac430ce spi: Clear current DMA devices when unmapping a message
-9b81a87c5244bc139357460a262d4536226ba41d spi: Add KUnit coverage for DMA mapping error paths
-23688febe4b44b10f4b454eb1cde0ba379a84119 spi: Fix DMA mapping ownership on partial map failure
-073574da7a8e6055b1687c256bea070ab4b4ebea selftests/bpf: Use ping_command() for IPv6 pings in lwt_ip_encap
-c7e617552938dc5e28d9ad87ae485caa35389be7 selftests/bpf: Make pyperf600 a success again
-b0e872a31e157d48479507c2821ba8bf6323b7ad bpf: Fix arm64 KASAN false positive after bpf_throw
-f2aaa621591093cfe8224a25ef2f04a3b1e304b0 riscv, bpf: Fix missing sign-ext for signed 1-byte and 2-byte kfunc args
-234b1a72e9706fe20c08c96f4374ec8e83b934cb ring-buffer: Free cpu_buffer::free_page with subbuf_order
-24974bd0da1b47fd56c975533ead50abf754e74d ring-buffer: Hold cpu_buffer::lock when resizing a subbuf
-7a1fb95de5404134f8758c1295ce88986bdf117c ring-buffer: Make cpu_buffer::free_page a buffer_data_read_page
-8a5f63637890f03177146efddaba5ec7a1b4d61f ring-buffer: Fix subbuf resize race with ring buffer readers
-e743527c5bfdceda1095bc0a9e596e2aebb6a9c3 ring-buffer: Fix subbuf resize race with ring_buffer_alloc_read_page()
-472ac478b14d940b555153e50f3a34ac1c5e71ff ring-buffer: Dynamically calculate max_data_size
-d9b5e22bf24d5c82522475306cd332b287ac43bc ring-buffer: Remove trace_buffer::cpus
-8b502bf6eb3da15f4b954ad3632335ff10ed746a ring-buffer: Remove ring_buffer_per_cpu::mapped
-d7832ba1a4a4f462ce94c81960adf10f7e87ae7a sched_ext: Set up ops.sub_ecaps_updated() dispatch context on the executing CPU
-b20ee9aee8779427d2f9de99cbb578b048bf7c04 hwmon: (asus_rog_ryujin) Add per-device configuration
-cd258aca0dc489cfa9206f0a4dfa1715ac54e0aa hwmon: (asus_rog_ryujin) Add ROG Ryujin III support
-21b21a8c202ad1a0a1abb4e29ea45535da834b33 hwmon: (asus_rog_ryujin) Add ROG Ryujin III White Edition
-2d19207f3fc8e08bab3270af2e3835358ab1473a selftests/cgroup: Remove redundant chown in test_cgcore_lesser_ns_open
-791e420360669d55b7f90ca0c6d61b10e4992aec Doc: admin-guide: pm: Remove unnecessary backticks and fix a spell
-273ce3b12fec8d5eb6ca7d977913b36c4a754b27 Documentation: sched_ext: fix events sysfs path and show_state example
-1d0a73dd0c4f5a904ece163fdd24c7e03de0fb1b sched_ext: fix stale references in doc comments
-03506edca637a8465dba9f635c50e9884fbcaf4e sched_ext: Fix exit_task leak on fork failure during enable
-4cc4f59258a99f43713e7d9a5042c56350b4eeaf Merge tag 'nf-next-26-08-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-486e5419b7ec357da8f287efef7ccc1ebc1421e9 net/mlx5: SD, prefer sd_group_size from vport context
-35e4b60792cd45d57c3af00f67bb5bf9ae4243e9 kconfig: fix submenu rendering of negative dependencies
-a765d3c6cd88696fd233b9596b721400c6b25396 modpost: add module as parameter to modpost_log()
-94c20e1fb334c2082b443c4470a86ad982f67282 sched_ext/scx_flatcg: expire cached hweights on weight changes
-9958e69b98930834a576e156f6458166d1db1c02 gre: fix ERSPAN o_flags race/corruption in xmit and fill_info
-3808171428f563633d532a801197ed9b410735bf libbpf: Avoid unnecessary mmap resize for percpu data maps
-90bd0329abd4a1f9fbf6c46c3aa64f638443c368 selftests/bpf: Improve readability in iter test for percpu data
-e8b51396b575d4586bec83323a8aa9cae97c437c dt-bindings: interrupt-controller: mediatek,mt6577-sysirq: Drop invalid JSON pointer
-7f1e3dd7c80d4f56eaebb289de8794f6a29ff197 dt-bindings: devfreq: samsung,exynos-ppmu: Use standard regex syntax
-3cb36d5626383c3032feaa019a2306345ba0cf23 media: dt-bindings: ti,da850-vpif: Convert to dt-schema
-87aec8a16cb6d1bbbafdab2f2be7c31a474cb724 dt-bindings: power: reset: ti,keystone-reset: Convert to DT schema
-2d51fa600462a2126d3cc50911a11428d8b8038e dtc: dt-check-style: Add missing /dts-v1/ to few test cases
-d863ae623af406dd525ecbcd43780e577e09efad dtc: dt-check-style: Simplify setting depth of DtsLine
-e6a5d573d24cd375e09d24f136523cb3cc85c9d3 net: dsa: drop explicit NULL comparisons
-62f3d531e41a7e6e0dc8d37ea377c50488decb56 sched_ext: Fix scx_bpf_dsq_reenq___compat kfunc extern prototype
-50df5afa6d410ddfa32f58cdb2976d16fc3785b3 rcutorture: Check for immediate deboosting at reader end
-5ac693414b51acb8c4b92813ca3ab4fc6686ddf9 rcutorture: Test RCU readers from hardware interrupt handlers
-f424566105c946ef42f2643230362598c06a29f1 rcutorture: Use cpumask_next_wrap() in rcu_torture_preempt()
-e7b6d505c7080d6d40e5dbbeb01b612de9f08a78 rcutorture: Use task_state_to_char() for task-state reporting
-75a88fe00b67b2a065461940b5392dc5487acfff rcutorture: Add nwriters module parameter
-d1ff05605db14d8d6d1578f289595210c60b385f rcutorture: Add a stall_only module parameter
-560b35bd7c8aa1b7cd20adf28c401e93da567400 rcutorture: Test RCU Tasks Trace GP implying RCU GP
-86fa5387b473c160c26b781dff55014c4e1b3db0 rcutorture: Make RCU Tasks Trace track Reader Batches
-ed55bb915047934acd28e2f0ea1ef9586b254bf0 rcutorture: Use this_cpu_inc() for rcu_torture_count[] and rcu_torture_batch[]
-aaf43c458c491748ae79f8e6afc39fd09a36e77b torture: Don't leak shuffle_tmp_mask when shuffler kthread fails to start
-6c22d640117c3da7fa7fffa0b1ddebc667507ad9 rcutorture: Announce declining to forward-progress test
-20ed97cfde0536991fcb1785453a7748fb131620 rcutorture: Make {,s}rcu_read_delay() better handle forward-progress testing
-a2b83a8c8430b5a4cb43a1671c62535afcfce78d selftests/bpf: Fix selftest build after filter.h update
-6ff5b56a50c5351aeeb180e34327736576c038fa bpf: Fix pending_pos walk on 32-bit ring position wrap
-3f611e9b820ee0d01af89bb0643ccfac76cc569d bpf: Fix available-data accounting on 32-bit wrap in overwrite mode
-fdd4fad0bbbd08501465c5f9b556963093c5d58a libbpf: Fix ring buffer consumer loop on 32-bit position wrap
-e052daab94ee8c4081c91de3549772bd1c235729 rust: introduce abstractions for fwctl
 0e3a6e977c14b87861e5295ceff0b5141f017246 selftests/sched_ext: Make numa idle validation race-free
+06d9a86e0222dcf6858544ba7257994bfe9e63c7 Merge tag 'spi-fix-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 f5b57e9e9cfd9736246eb9a5f385da451d199039 bpf: Populate mmap-able array map memory lazily
 e72979d3264a87a6a2dfb44fe0f5723a17d2ef84 selftests/sched_ext: Fix flaky ddsp failure tests on busy systems
+b26d316aaa8e8b7ff6f4f77006a9b7c20ee848c8 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 301d28fefd141d1504b4226e8fa87db6a31f3ca1 rcu: Add closing parenthesis in comment in rcu_read_unlock_strict()
 9cc63f8bcd560c760d0b12e15bba8f81c86237cf Merge branches 'expcb.2026.07.24a', 'misc.2026.07.30a', 'rcu-tasks.2026.07.30a', 'srcu.2026.08.11a' and 'torture.2026.08.14a' into HEAD
+dac3e89a2c90c2feeb471e1f22a2512ad424b792 Merge tag 'drm-fixes-2026-08-15' of https://gitlab.freedesktop.org/drm/kernel
 f7d53dd3f267e46a784f219a75072f2f400d42b9 crypto: krb5 - use kfree_sensitive() for derived key buffers
 ce64a0e7e619a9bdc10c69810efdecc319a6c8ee crypto: eip93 - use struct_size() and flexible array for ring allocation
 b82f60be50c87b3d75e207852c5ca74fa18f66cf crypto: hisilicon/sec2 - fix CCM algorithm long packet failure
@@ -108,6 +49,8 @@ a229e50741de3d78d7acdd952b70509ab971215d crypto: iaa - use bounce buffer for mul
 ff2ac77a034e03b64e2ba34f775097427dfa5547 crypto: keembay - use crypto_memneq() to compare CCM AEAD tags
 7537036a2e6fe96f8ed82034f755c54714a0e417 crypto: lskcipher - propagate errors from unaligned crypt
 b4d85f863e5a6f1fa01b186001af0f68f4f5239e Merge branch 'next' into for-linus
+15ef2f78c49d20d53ec7c0f1c9b40b02e089f2d6 Merge tag 'input-for-v7.2-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+32ef1b30ad736519f7a207bcc2986f3d4129d972 openrisc: signal: do not restore privileged SR bits on sigreturn
 5bbbce02e500d47d8e259a45be5a7be9741d0533 bpf, x86: Fix per-CPU address resolution into an extended register
 f61306e8c98ce63021efb3091d422260b6be25bb selftests/bpf: Check per-CPU address resolution per register
 d82ebfc685c91e7f5623a8be949da1ddb767420b Merge branch 'bpf-x86-fix-per-cpu-address-resolution-into-an-extended-register'
@@ -142,6 +85,8 @@ e0253dd04beb03e79477c5ef4768b11135687206 sched_ext: Keep kick_sync waiting on th
 390a9461cd73bdd13acc0f6d763618ae1ff8fa17 perf dso: Guard against cache underflow on short reads in dso_cache__memcpy()
 62972e5644e48255dcc715e6ec4401882f8b37d1 perf dso: Replace assert with runtime check in dso__read_symbol()
 6ae6fb96ccd48032b00a38d5f8e0e0a2cce4972b perf test sample-parsing: Validate PERF_FORMAT_GROUP values without LOST
+5e060ff9d18748dbb21b12b821fcfc738823ba93 Merge tag 'for-linus' of https://github.com/openrisc/linux
+3eb40771c00a8488fa6ed2cc1fe203477908bf38 Merge tag 'soc-fixes-7.2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 5ad746166341e3c07250ee09518d7e4ab5cfb966 bpf: Add verifier diagnostics report helpers
 b9c5d822f677e065971481c4bafe5d84b5451082 bpf: Add source and instruction diagnostic context
 daf8248701b621d8df7ea134793dbb750d4887c0 bpf: Add verifier diagnostic event log
@@ -222,6 +167,7 @@ f12f0234cc14886bcfd53ffb7c8df4216dad51f1 io_uring/memmap: account the pages a co
 360941242f09437a1e07cbed9b5a96663ffeabb6 io_uring/uring_cmd: don't skip completion for a synchronous multishot cmd
 c384ab8a0b13741982669790a36a152acb2ede82 sched_ext: Move the config-off sub-cap kfunc stubs into sub.c
 1207dbb91c111e2422e94b2e75091367369e6476 blk-mq: add missing call to srcu_barrier() in blk_mq_free_tag_set()
+c71bf113dfdf426bdaf106636f573ef87b6613a0 drbd: don't leak the shared secret to unprivileged netlink dumps
 fe247030f1ce74e6bb917e219fe152270613073d nbd: simplify find_fallback() by removing redundant logic
 04d8fb23e520419a283dd53c1d9cdfb7c5b1705e nbd: disallow NBD_SET_SOCK on an active device
 0fdee7c5fa886554503001cecea049f053237381 nbd: clear queue limits on disconnect
@@ -235,8 +181,18 @@ f7b6d128dd49a6eec09066ecfd29095f12588786 sched_ext: Fix inverted ops.core_sched_
 006dd4d04b379f4d76c0439b3f4b15d1216dac18 sched_ext: Make core-sched task ordering hierarchy-aware
 d023aa69c3b5f22a442fb67a37f17b04602eb43f sched_ext: Drop the dead SCX_DEQ_CORE_SCHED_EXEC test in dequeue_task_scx()
 08745c62350126bc31b09548137be87e2866f628 selftests/mm: thuge-gen: fix test_shmget() for PAGE_SIZE check
+0bae94aab8208b7107a2dda5de6ce046466663fd Merge tag 'io_uring-7.2-20260815' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 b39c748d9db0c6f3ada5e7cef7f56415827d5f81 alpha: read $gp and $sp explicitly for clang
+dcb68831eac76dbfda1cf5930d3003d938890d34 Merge tag 'block-7.2-20260815' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 04cf68c9a76e3c6b67ad056a66a14923abf85925 parisc: Fix alignment of asm statements in head.S
+16429bb371999e26b243f6462234d841d271c5f1 Merge tag 'x86_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9da3fc37f5fe8b5adc0c6dd798d2caa3855dac4c Merge tag 'perf_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d5b95e612cde33f9def1a7a6c3242d03d3bbde3a Revert "i2c: designware: defer probe if child GpioInt controllers are not bound"
+d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd update to fix recursive mutex deadlock
+7820dd4a127ae83b530e177faa8e213c2d5717e1 Merge tag 'core_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
 24fbeb83d9b750a36da42cb835a154d80fd3d495 hwmon: (max6621) fix temperature clamp range
 acc52bd431e2d8698fae8d82a74ac45d79b62e0a hwmon: (max6621) fix negative temperature offset and crit readings
 0cd8450c257faa0cece0e0c43d3b55d1a389acc7 hwmon: (coretemp) Fix core_data leak on CPUs without PTS
@@ -1050,5 +1006,49 @@ a5add57746d0b460aab1e16564c2dc4f56eb93bf NFSD: Budget the CB_OFFLOAD opcode
 2049c5ec11fa5bfc1f217bab8c200013897f55f2 NFSD: Destroy a recalled delegation the client does not hold
 4492ec6caa95b1604b97f3154ec503baeebdbdfd NFSD: Send referring calls with CB_RECALL
 d7f4c3a7a16060a854dc2e4f64341c364d4e3712 NFSD: Point contributors and sashiko.dev to the nfsd-testing branch
+b5003925f6138a46962b716dd1ce74b7e45b898c SUNRPC: Do not credit control-record octets to the RPC stream
+bbcacf9370006e4c98cb4b18193aca266ca86d6c SUNRPC: Reject a TLS alert record that is not two octets
+118fcc279452c19c9cf914c69a733a627ce9ebde SUNRPC: Treat every TLS error alert as fatal
+b0ad98d2468bae92dd1cd3c4ce8b655bfe9af347 SUNRPC: Resume receiving after a TLS control record
+af8f1b6c28ee84dfc5c85397c70b41aa5834e10f SUNRPC: Reject a client-side TLS alert record that is not two octets
+31bd0558d21e16fabef3f200e30be24642af0615 SUNRPC: Treat every client-side TLS error alert as fatal
+3b0a6858e1c9c8f3fd5ac6ecd5580cd046fc185d SUNRPC: Fold xs_sock_process_cmsg() into its only caller
+60a3a3d4ffbc0590119aa21f856719fd14015a1d NFSD: Replace NFS3_ACCESS_FULL in nfsd4_access()
+b7750932bb4e6500e079929227a708bdf1438f4c NFSD: Move version-specific ACCESS maps into per-version code
+b61bf665bfd66850d83aaaba3aac4d2d8595aa4b NFSD: Make the write verifier reset helper available outside vfs.c
+0918c41d4d1af1393a6d64d59ebae10b12b74202 NFSD: Move NFSv4-specific CLONE logic into nfsd4_clone()
+192d04f375b85095bcf4d374413406a60ff5c504 NFSD: Remove xdr-related headers from fs/nfsd/vfs.c
+b3ee203c5f9f8b88ead365d5e68136ef211b5781 nfsd: pass caller-provided attrmask storage into nfsd4_setup_notify_entry4()
+dc4472723a726927416191f4d696ef54b2fd1739 nfsd: back CB_NOTIFY notify_mask words with per-delegation storage
+a386baedc012be8dc315cb9d96eaca8685fd4d04 sunrpc: treat empty auth.unix.gid replies as negative entries
+0bd93b49fe33e106389a5503919e402fc3dc0d4c sunrpc: honor the netlink unix_gid NEGATIVE flag
+c0a3892ca548b70dc3e92c4deebd92c4da4f3367 SUNRPC: Reject a socket that already has an svc_sock attached
+ddba59ce5974474bc5bf65a3a1675c0b32194c47 NFSD: Fail a pool_threads read whose reply does not fit
+fec2614429a90328646b2d5a78a1be782068c3da nfsd: preflight SEQUENCE replies before accepting a slot
+6b21871b179550548b18a44a7d7f1ee7f3511694 nfsd: set op->status when an operation's header cannot be encoded
+c8e0baeb8874905e694be0098c72a07bcb011e87 NFSD: Do not send CB_RECALL_ANY to NFSv4.0 clients
+f586aa8b8006498d4d9f7665f3a25f61c9964847 NFSD: Count the delegations held by each client
+77acad3b70abe6989f24a39ceec5cb1e335ee530 NFSD: Name directory delegations in the CB_RECALL_ANY type mask
+89bbb0f5ce95bc040799200460b71ed2320527bb NFSD: Send a meaningful CB_RECALL_ANY keep count
+eeaefa0de87e0adb3ea89384043a09e68086af06 NFSD: Count delegations per network namespace
+1681f74f3e78066efeaf5f530335308419f7e790 NFSD: Give delegations their own state shrinker
+af846430f825f401a0bb87e573f2675313ccdd85 NFSD: Pace the state shrinker's scan requests
+1ed477c11af5534a82cad40c4fa1ea621fb1719e NFSD: Apportion CB_RECALL_ANY recalls among clients
+c997ba18570c3b40312d240e7e4ba11dd8e9593b NFSD: Move the nfs3.h include out of nfsd.h
+71174981d7731ece12bb0d77ee7fa18d19dda5cd NFSD: Include <linux/nfs_fh.h> where struct nfs_fh is used
+fc483bf2fff3eb3151d19453db78010e99b9ab76 NFSD: Clean up header guards in fs/nfsd/xdr.h
+e50ecce2530dbf5e369be122694bdbb94d280a7e NFSD: Resolve the recall-any mask names in the trace format
+08a0d2106e9a40e9c59291e9f1ae849b0c1b7c89 SUNRPC: Separate the TLS control-record receive from its policy
+f46d9a87042f4347bbb7d259210059f5b0515f5f SUNRPC: Close the transport on an unhandled TLS record type
+1a698baf9a6f076d1e2962421669497c88681efd SUNRPC: Flush a received record's pages once it is complete
+a72914342d459f40216e2095b075382ce6449f00 SUNRPC: Receive RPC records with ->read_sock
+c0e80e029d17984c75bd486ea96e463dc6367463 SUNRPC: Bypass sock_recvmsg() for the TLS control-record receive
+7ab295d783300d3b6c42625335533f8bab2716fd NFSD: docs: Fix pNFS SCSI Kconfig symbol
+21b924c9bd15f6eb1d9a9a9d603f09e01c6a6cba lockd: Fix use-after-free in nlmsvc_retry_blocked
+1dc065d7ac648caceb99662b51cae133c8bca843 lockd: Serialize block retries against host teardown
+60f3f6b86ae291cc3d65aa5d581c5fca6aacab74 nfsd: fix handling of NFSEXP_PNFS in the netlink codepath
+b76f8d7c47b943feaba7b6a40437dd11a044a843 nfsd: don't modify a session slot when replaying its cached reply
+2b804a41203a421e46899ffa997a03bf97a0925d NFSD: Fix out-of-bounds read in the rpc_status dump
+51f18ae5fab20299d35d44b838dd72a5b528badd NFSD: Fix POSIX ACL leak in unexecuted NFSv4 COMPOUND operations
 
---===============2307060401870680121==--
+--===============1997273600738128158==--
