@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Wed, 26 Aug 2026 13:59:22 -0000
-Message-Id: <178775276264.136186.13785611805767748504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 26 Aug 2026 14:08:58 -0000
+Message-Id: <178775333828.143160.1532412031568859505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: c3b374d3a50e9ea461c950f45090e138441b67fb
-    new: 0087d00fd8544da2ba9e89e704f6fb27c83b5777
+  - ref: refs/heads/i2c/i2c
+    old: 47096fc3d064a07c0842f748b99ebf01be120f2b
+    new: a8d1c746bf1a67e8339e234d10b43961b3721d0c
     log: |
-         0087d00fd8544da2ba9e89e704f6fb27c83b5777 ksmbd: fill in FileSysIdentifier in FS_POSIX_INFORMATION
+         a8d1c746bf1a67e8339e234d10b43961b3721d0c i2c: acpi: Add DELL0A86 to i2c_acpi_force_100khz_device_ids
          
