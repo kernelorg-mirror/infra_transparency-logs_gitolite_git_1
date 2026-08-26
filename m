@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 26 Aug 2026 08:35:40 -0000
-Message-Id: <178773334002.4090793.7688190854125968775@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6181886699904650871=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Wed, 26 Aug 2026 08:38:03 -0000
+Message-Id: <178773348382.4092097.10776643361906200394@gitolite.kernel.org>
+
+--===============6181886699904650871==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas/x5h/i2c-experimental
-    old: 9db86649d80cadd1ebbbf1ddde2c515a3923b005
-    new: 11f35bb2c1b798864f14960a8bcdbdefd9afdf6c
+  - ref: refs/heads/b4/bind_taint
+    old: fc3fe6a127267f6951827cdf5922c4c60fa39dc6
+    new: 8744cda235db58c111723aabf8940f7754775e1f
     log: |
-         d7f53312e73c3179d31045aa4c982816d69dc578 dt-bindings: i2c: renesas,rcar-i2c: allow 6 DMA channels
-         1dc57f3e02a6303ba56844b969ae47335cc3399a dmaengine: sh: rcar-dmac: fix style in struct initialization
-         dd13773ebae653f0875107c966f14fc70e4c31f9 dmaengine: sh: rcar-dmac: SMMU doesn't need IPMMU workaround
-         73a61a50d662755520b107f1f886b8addcfd0f0e dt-bindings: renesas,rcar-dmac: Add support for R-Car X5H SoC
-         082d78a12a744bd05cb561ee06d3aa8047c5eb67 dmaengine: sh: rcar-dmac: Add support for R-Car Gen5 SoCs
-         9733c0154eb7acc74ce5c62e197a7776bfac0d3e DTSI DMA-SYSC add
-         10d75f736a34c24cdbd1b61f6fc9017f7f80e8b8 arm64: dts: renesas: r8a78000: I2C
-         11f35bb2c1b798864f14960a8bcdbdefd9afdf6c arm64: dts: renesas: ironhide: I2C
+         8744cda235db58c111723aabf8940f7754775e1f driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
          
+
+--===============6181886699904650871==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787733465 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1787733465-794c97055075d3b3bea5bd9d27e1c145cf2ea11d
+
+fc3fe6a127267f6951827cdf5922c4c60fa39dc6 8744cda235db58c111723aabf8940f7754775e1f refs/heads/b4/bind_taint
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOpdkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R8QP/iii3nVT0rALTVYF8fTO
+EmhnN6++PkuUwXeJX5ot2YQg8g7Xpe/Sf9tuAIvP4/sawSB+FZ8P8a81v+Jq6Wcd
+JcdRyxfqGlo55PbDLM/sXpderdmUgw2UqKst0Zhjy6LWOuB/n7klP9yF88KBunvV
+uY0SptyOqQVgHZzfEZxfPTRB21/ufWwIzV6NSPpOoYoBgW1PPedQqM30HAaXDq1f
++yHwlNFWSc4PXt8KunZ6m1cZw1hLXh8REJlD/aBfApx8QVhQIQfGsVGqxMvkBqS8
+Ta/bpaYvLRWAgJKpWnUUxIeJX2LMdLYv9xoVD9D9RcnxNMGFAL2QqR0rCDLvq+B3
+TUliC7Vny0q0r+s2AOeTblfTTmchDF4XRguBvYxKMLltDoKjEpmEwcDus818KGZ4
+aCcmeq348zIP0FtlXMcHMYKcgR+FGmYGW61tTmvbHvYVBpF39zdKkJoK5/5Dgj34
+cIS4attPMeUicIBH3HE6MlsK/oJ16SPwwsXwKqfJfQBhJY6a1RsW/HQ9wnRJeTFX
+aU6O1BT+/qXu4HlCFHEz9Xb+f7Vppc/kmePvcirhAO+Q3C/J2kTvCavi1Ogw3KbK
+xGKrmiSYC2yzHQ3/Uw0zBsx1HYGE9VHQgifYZ/KOahbhECq3/1fdbh9jbZZl08u/
+PuZLKLsZ3zCtc8W2MQirilSN
+=7PwK
+-----END PGP SIGNATURE-----
+
+--===============6181886699904650871==--
