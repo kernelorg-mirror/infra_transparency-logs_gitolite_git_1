@@ -1,62 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============3453586842929942785=="
+Content-Type: multipart/mixed; boundary="===============6494914415245212505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Wed, 26 Aug 2026 08:01:10 -0000
-Message-Id: <178773127001.4062367.17176461274222496543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Wed, 26 Aug 2026 08:03:13 -0000
+Message-Id: <178773139325.4063105.13121396586379312943@gitolite.kernel.org>
 
---===============3453586842929942785==
+--===============6494914415245212505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
-  - ref: refs/heads/b4/bind_taint
-    old: defc07ac80c7dfb5ea4abbb757632c30e16df1b4
-    new: fc3fe6a127267f6951827cdf5922c4c60fa39dc6
-    log: revlist-defc07ac80c7-fc3fe6a12726.txt
+  - ref: refs/heads/master
+    old: 66498c75b4f8017f62d720d9b59675bdf3abce91
+    new: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
+    log: revlist-66498c75b4f8-45c13f3f9e3b.txt
 
---===============3453586842929942785==
+--===============6494914415245212505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-66498c75b4f8-45c13f3f9e3b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787731246 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1787731246-7b211319e3541e094ee87b38ad260aca5490cb53
-
-defc07ac80c7dfb5ea4abbb757632c30e16df1b4 fc3fe6a127267f6951827cdf5922c4c60fa39dc6 refs/heads/b4/bind_taint
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOnS4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t7UP+wZVArsRSGRuD/gIGiqC
-th6YP/Tmh3cirx1q0y5x6Q1Z+gjWCBbypAE/DaJ2IimW9pAyZNvX9mrTNiKpPZKm
-UXonK1+Kzwiq/NusDPaHYaMez8Lujr02QR8Tvp5cFndHM7+xuEZpYhdQeEU6BjzL
-G+ShRAL/uW0+8cUty6prhA0+yEg00EW77uwNuRwDEO6BJW188MYsXhTVDqS+QyDC
-zJRKL6E2ykZ1wJiaOokM4INWjvJcCVSh5adBGfniDxGNOKIrZE+q7556rzwl3Nu6
-nL+rVZCRLxXVnhDk2LMuB6OtAAS6eu+m6grcTxPa3akQW/sZQFZzwHmEg8SiFRe2
-m733gVj+kRbrLVv9lM9kccExq1LjJNbfGl+jpfm0n6LldWbEh9yqWgDX0oYEQhdK
-+9iACtnBAucPn83vJ35G8fcNfm9IrtKmvwT86+Yagu9nsi+Yb8/E4dkMF7Rk4m9L
-58gaXFSYHMonUVaFJjHDFQqjbifkdxIEFPl18qvdMij1+o0Lqt0HPiDglrSnb/5W
-8htHcJqqRobOEposLnE9dHk6kLaQeKE3q42DEHX3/OPS+RHtoXHJDTDeOd5sr91+
-1vNkpDGctZTX4Bu32OkkuzGoStCuvRTMFIAohMfJNxiMFThMi0bouCZGzuYYkuV0
-APaCSqzvgl/VQ1xVSMB55aek
-=otU5
------END PGP SIGNATURE-----
-
---===============3453586842929942785==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-defc07ac80c7-fc3fe6a12726.txt
-
+007e0f0fd9b77b9fa8f0d86253bac690f523460e KVM: arm64: Avoid naming collision in tracing
+581829501360bda487b93ec7d7eff0da6296f187 KVM: arm64: Drop the unused EL2-side is_created write
+9b36eda4dfe0bcd76233b3f1318b66478c1d0698 KVM: arm64: Remove unreachable early checks in pkvm_init_host_vm()
 008ea7a6aa01877a2439bc911426c27a03a6d9e3 KVM: arm64: Drop redundant READ_ONCE() in pkvm_hyp_vm_is_created()
 5a5a48e788e02fd8a8eb7188ce440572d6c12418 rpmsg: glink: fix deadlock in endpoint destroy during driver detach
 786439ad58763e04b91bc2ec5f590e463939f197 rpmsg: glink: smem: order FIFO read after availability check
@@ -1078,8 +1050,5 @@ f4d50813c0958b7d6bc79a7e0a77193372cbfd03 Merge tag 'usb-7.3-rc1' of git://git.ke
 fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-0d518b40ddceb163602acccf277c1b868d82dfd9 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
-c46b144ca96e01d525bd72c3dfbdb40a87bdab72 module: pull out add_taint_module() to be public
-fc3fe6a127267f6951827cdf5922c4c60fa39dc6 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
 
---===============3453586842929942785==--
+--===============6494914415245212505==--
