@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0229988802862067090=="
+Content-Type: multipart/mixed; boundary="===============6873268607714563442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Aug 2026 08:56:48 -0000
-Message-Id: <178773460859.4112021.6363681427963491220@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 08:56:53 -0000
+Message-Id: <178773461380.4112184.8617783737812643953@gitolite.kernel.org>
 
---===============0229988802862067090==
+--===============6873268607714563442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
+  - ref: refs/heads/usb-next
+    old: e1e6e541c5c9cf548e9fdc35fc26808c82074440
     new: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
-    log: revlist-db2ddb871435-45c13f3f9e3b.txt
+    log: revlist-e1e6e541c5c9-45c13f3f9e3b.txt
 
---===============0229988802862067090==
+--===============6873268607714563442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734605 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734610 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1787734606-3faf7d579e054749925f1a1a6dbd496af92ce64a
+nonce 1787734611-dee43e48e5e41534f37a8de567636e477ae5c9aa
 
-db2ddb87143519e20a95aa36c60b36107b736a58 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/usb-linus
+e1e6e541c5c9cf548e9fdc35fc26808c82074440 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqk0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3qoP/3zbAFKGO0ujT6HDJBVu
-R8t3AbiUXTbQBM6b8V9qdbnrHdqZVliS7MKhLVsjsqbi349ElO7vR6JrCbI+ffe7
-KuncDSEWs1ZbCitZFNAZ1D/lNm82iL7EHnP5tFayKBW7J0YMABphzGTAwCmGZGVh
-DwyXKEctNwsC/jPzL4PR0/f5X2gNEmp6PmIxNF1cWrNskeVc020qy/O35dObDQeY
-aU2CR9lDNLeCPrySK97AQb6CvcbqmQvu6WYfwGrgLo3Qjui32rUBI73dEKZS+9dp
-S/ub/jadDZaZw8xaAijN6cG4jzCMqT4knrwfT09zjDYpBobDNES14KFirvF6kCNk
-Ovm+6sBJu3QCmhENH+TwvELHKrG52370lC6WJBvYd4s8VukGRbF+1FxF+73iUf2E
-BjifNzs2H+iUDTdhBT0AsziZABW2HDx2RLGpQ941WNnWEGCAmvoPFvuiZKkKUFQG
-4pEeCtx+9k46s0uEkidftN/naaZJZX39CnT5wkUTr/eRWGHX5oe2wevS+efbLaul
-iwriU2KMaDzomeFVt6TbrJ2ehq+GYlQ7kA8lOlfTZjLdnxyMqvPsj7GxlyJq7FYi
-OfFbt5+JFY5P5OXAdNsgFwi/8NLKFIIZX0AZ1xSnTvIMJqmDVRSUp7R/aPS57yP+
-sO0HlfcjgCFaprO2bbIXaB17
-=8bfy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqlIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l14P/3gudStE6LmSx0HNB0Ie
+9QXLr3JQ1uJAVybxHmZTeS/oKj5D/vfPAVfJmJrYXqeLqDC5GWVxoFKNvE/Il6Eb
+Bs1WJK4XYfTFVSbcOARXsbdx+C3yUnV3+XceQ+k0Z6G7xl7+XCa7umgn6fJOUgwg
+SogfVrtfLOVJboXBL3fPm+KPZyfba26Loivgjk+ieTScJiEAcYNGoSFDHsevd7MR
+iS+R+wrYEBjXYOgFjW/RUzBez1C4CQVcHX9xLOcMtCak2YkLO5RoOPeOaTfD8XkR
+jWyU/NCBXRKStvWn086rsYiJlOGRz9YMOi4aspXmN9GjrK1cD1/d/Qwc1E6Zyr8C
+pHxq43zCSjIVvtMSfChmsYsR13Ncj4ZNwnyUAqXKRyjUF7rzCmOtnU6/y49Cwldl
+YyP8WMG0z3fQATt9oAhC6wWcs6ygBXyzSyCRhKQwm1vtCX0mTAWcMa7ydOa3wiOp
+uhSVr9fnxjEFf/TIslTIhNlAFy4pd/Y+lpunHtjqbyBn3WR6VCPN+LBQD1KTiZG0
+VLnpVcjoBAdWvE5VJKh7go8Pd7OnRxHCA0A+h8JF8uC2CNiKWAsfKi+gAR806Z00
+opYrGEQ88KW+70EUUGZZK7bquw6eHMpKGMPFxHjIqnNLK9MaxKL0S1fRSgbVEhJz
+LZ+uo0VZ+RZsK7NdthH5BVg3
+=6Z/m
 -----END PGP SIGNATURE-----
 
---===============0229988802862067090==
+--===============6873268607714563442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db2ddb871435-45c13f3f9e3b.txt
+Content-Disposition: attachment; filename=revlist-e1e6e541c5c9-45c13f3f9e3b.txt
 
+5a22bfdd615bf47a0ea5e11f5090b1011764b3a4 io_uring/zcrx: lock area creation with pp_lock
 3c8a5e271594f6ba6d2af40f229cbcd0bcb08c06 io_uring/zcrx: add dynamic area provisioning
 06a2ff603f1f22dd314e24c50092717b4b8c3ade loop: Fix recently introduced lock inversion
 913dcbc5670cb772bddf9799d17f975e020e8326 xfs: avoid double deferrals for RWF_DONTCACHE writes
@@ -680,7 +681,6 @@ cab40cfc9e116acd4d60f95b4b1264cab78f3803 i3c: dw: reduce do_daa time if there's 
 8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 Merge tag 'coresight-next-v7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 70b1f4413e7501acfc7412d127289cbb7bec42dc Merge branch 'for-7.3-trivial' into for-linus
 3783364ce6f883b5020b031e65cab6d3cd450b82 Merge branch 'for-7.3-console-registration-cleanup' into for-linus
-e1e6e541c5c9cf548e9fdc35fc26808c82074440 Merge tag 'thunderbolt-for-v7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 650a2751c9ae179fe0d8e5b5194a2b1c0d09412c ntfs: validate final EA attribute size
 772e4c8f25559e3b5c6c526253b3f771a4a4c02c ntfs: remove empty EA attribute pair
 41e1cf4ec10d2338f9a206af0300c34ca63160c7 ntfs: rewrite EA stream before updating metadata
@@ -1082,4 +1082,4 @@ fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.ker
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============0229988802862067090==--
+--===============6873268607714563442==--
