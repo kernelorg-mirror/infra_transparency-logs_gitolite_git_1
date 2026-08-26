@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8491257062252525022=="
+Content-Type: multipart/mixed; boundary="===============6118952293101257544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 26 Aug 2026 12:01:36 -0000
-Message-Id: <178774569694.52179.12043923421484147997@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 12:01:45 -0000
+Message-Id: <178774570586.52404.3147426761117879301@gitolite.kernel.org>
 
---===============8491257062252525022==
+--===============6118952293101257544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,36 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 7cbfb180945ce529608e4d4e24a6d483699fab1e
-    new: dc4b95b8fee95113587e93ca116356032d271371
-    log: revlist-7cbfb180945c-dc4b95b8fee9.txt
-  - ref: refs/heads/master
-    old: 7cbfb180945ce529608e4d4e24a6d483699fab1e
-    new: dc4b95b8fee95113587e93ca116356032d271371
-    log: revlist-7cbfb180945c-dc4b95b8fee9.txt
+  - ref: refs/heads/testing
+    old: c05faa9833f273f0fa5da3396a6565d8e2357df6
+    new: 475cb4ea138f4b0e7f43ff79220f4013a6a840b8
+    log: revlist-c05faa9833f2-475cb4ea138f.txt
 
---===============8491257062252525022==
+--===============6118952293101257544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1787745693 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1787745702 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1787745692-2fd368515bb938692c8891d6cce648bb3048bff1
+nonce 1787745702-b4338f3111d2be42cf4bd0be503e3b10cfbaba1c
 
-7cbfb180945ce529608e4d4e24a6d483699fab1e dc4b95b8fee95113587e93ca116356032d271371 refs/heads/main
-7cbfb180945ce529608e4d4e24a6d483699fab1e dc4b95b8fee95113587e93ca116356032d271371 refs/heads/master
+c05faa9833f273f0fa5da3396a6565d8e2357df6 475cb4ea138f4b0e7f43ff79220f4013a6a840b8 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCao7VnRMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SkZ8A/2VSJC2MdD07gwDYmQd4OneU0usCT5Pr
-UItlZ1QZrecBAQDysDoIfi9haRhiv633TSdbnCZXKyI78mGcZHreiBcxBA==
-=vSSc
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCao7VphMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SdSAA/ibxYrzypkJY/r7BbULwVzzrCVNaAFdJ
+Pm4avF6BX5TrAQDkQUbA0Z36BxS10PwKv7EI7kMsG176XCaznZKf+lhaDg==
+=sryb
 -----END PGP SIGNATURE-----
 
---===============8491257062252525022==
+--===============6118952293101257544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cbfb180945c-dc4b95b8fee9.txt
+Content-Disposition: attachment; filename=revlist-c05faa9833f2-475cb4ea138f.txt
 
 cb19774faa57c51efa189d8b8606aeabccebc53b Bluetooth: hci_sync: Clear HCI_CMD_PENDING when dropping the last request
 dc6b7c771a963e20aedf4a21ffa22543b9837ba8 Bluetooth: hci_bcm: fix usage_count leak when autosuspend_delay is negative
@@ -132,5 +127,22 @@ a687f2ae995fc366a6f2ef180451e6db4c6b4530 Merge branch 'net-sched-fix-quantum-mtu
 3faf13aff243ca9f78d08b1a2956ef5a6fc77b6e sctp: fix stream->outcnt underflow on duplicate RECONF responses
 b95dbcdd718f38fd27eb13e63d8bfe4bf6e26ab3 Merge branch 'sctp-handle-wrapped-and-duplicate-reconf-responses'
 dc4b95b8fee95113587e93ca116356032d271371 net/sched: sch_teql: restore skb->dev on the slave failure path
+5d35132c2dcef88b5b82433bd3c15916a517f7f0 can: dev: can_dropped_invalid_skb: drop CAN XL frames on non-CAN XL devices
+6a7d6b7b665042ba55f7ba899ee3ae028d0d1341 can: convert unreliable ARPHRD_CAN type checks to robust can_get_ml_priv()
+c7d93eb8a28b81fdc5b1a60b38f5dece03158266 can: bittiming: fix divide-by-zero in can_calc_bittiming()
+95d0742967e3c6df29eb0aaa77aa37edcf6ddd4d can: bittiming: fix bitrate error calculation on unsigned operands
+44216635a6eed040c78c053a5d78a4f2aed34cb4 can: rockchip_canfd: prevent TX stall on echo skb failure
+5949bd34eeb9e3f65350f0498e2bc4c6436e9775 can: rockchip_canfd: retry the outstanding TX buffer
+1cf46af1661f6b93b8aad6a132059a158e1e0ab7 can: rockchip_canfd: serialize TX state and command writes
+55fb892011904d7384b3c7307dc4361b27e8875f Merge patch series "can: bittiming: fix two defects in the userspace bitrate conversion"
+58a234969832e21919e99f230bf61a45bc0cde59 Merge patch series "can: rockchip_canfd: prevent TX stall on echo skb failure"
+7da631e3cda5855ae6e73f228217e5ba44e7bf70 can: skb: make echo skb freeing safe in any IRQ context
+6bccb4fa395409cc7f21993471cdce97041f80d0 can: skb: make CAN skb allocation failure paths IRQ-safe
+7aae9dbf05653b442494b5b6fe535a96fce697f1 can: dev: can_put_echo_skb(): free skb on invalid echo index
+d05a68f8b18ca3b60f5371d7846a2345f3eda7e7 Merge patch series "can: skb: make echo skb freeing safe in any IRQ context"
+44be6c33a33e292b73e07cb5a05aa985087b7c12 can: kvaser_pciefd: fix use-after-free in bec poll timer
+1899a072351cea7a19faea96c0c65a3be423709e can: kvaser_usb: validate command format before parsing in hydra receive path
+cfc9bc6e7d37c5a085397bb98839dfa993c92ab8 can: usb: f81604: fix struct f81604_int_data size mismatch
+475cb4ea138f4b0e7f43ff79220f4013a6a840b8 can: hi311x: drop hi3110_lock before free_irq() on open failure
 
---===============8491257062252525022==--
+--===============6118952293101257544==--
