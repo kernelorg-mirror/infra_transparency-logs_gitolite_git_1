@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 26 Aug 2026 23:26:45 -0000
-Message-Id: <178778680565.551834.9188629184748083074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Wed, 26 Aug 2026 23:41:08 -0000
+Message-Id: <178778766841.562399.17991054275398590056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/arm64-test-gcs-locking-no-enable
-    old: 0000000000000000000000000000000000000000
-    new: e6ca903ba2ca21ec49d79b0e0a3200c88994e817
+  - ref: refs/heads/master
+    old: c4352217af072da1039abd95952e27efa7e5372f
+    new: 350b029b528b3d0388058ca973a9425425c0a852
+    log: |
+         350b029b528b3d0388058ca973a9425425c0a852 Add github copilot instructions
+         
