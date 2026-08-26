@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6539341591027188804=="
+Content-Type: multipart/mixed; boundary="===============0292983892347621543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 26 Aug 2026 10:58:19 -0000
-Message-Id: <178774189938.4979.8011975559736746280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 26 Aug 2026 11:00:47 -0000
+Message-Id: <178774204796.8146.14850716310273454699@gitolite.kernel.org>
 
---===============6539341591027188804==
+--===============0292983892347621543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 05b14f2c2352bb4e107f6a772dc045782721503e
-    new: 81b0e18d38374f97097e268ef42c3c8d3298ad30
+    old: c46cdaeca9a4a6dbddb81259da1a1d199f60d49a
+    new: 34a9a5bcfff06ba5c3014a57279419e31c4e02b5
     log: |
-         81b0e18d38374f97097e268ef42c3c8d3298ad30 drop drm-xe-don-t-hand-out-the-flat-ccs-storage-as-usable-vram.patch for now
+         f3da1a9ac4d86c38044d08a94936e73c7c02e2c9 Revert "CVE-2020-36785: Add .vulnerable file"
+         c522d21a33981c9c98c89f582403008e9336de4a Revert "CVE-2021-47644: Add .vulnerable file"
+         34a9a5bcfff06ba5c3014a57279419e31c4e02b5 updates based on .vulnerable reverts
          
 
---===============6539341591027188804==
+--===============0292983892347621543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787741899 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1787741897-396e8ce5ed7ba3d96294efc50bdda427bf523727
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787742048 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1787742047-351089dc71a7ef546a2fcc4034904b7ae025c439
 
-05b14f2c2352bb4e107f6a772dc045782721503e 81b0e18d38374f97097e268ef42c3c8d3298ad30 refs/heads/master
+c46cdaeca9a4a6dbddb81259da1a1d199f60d49a 34a9a5bcfff06ba5c3014a57279419e31c4e02b5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOxssbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+czsQAKtgqAQvRyXjLuIoaZAD
-EOkx9vPUafgPO4miXKwG9wDEu40cQRnJH8L1nNQn0roKEb3GWq27mOykzWMrDZpC
-hiJM94s3TkVerJAKJC0yiXUI580j2JOnLwxyyB+iDzby6u25JuItOXKBZG+w1v2Q
-yJqVbalvqbNqM6BOWdxa0VYQgdGHogQ/W9mdTDKPPALQpiCsu9/XdFIqI3Rlhew5
-BUTNNK64NoMTSYiYSuMjGQG1k4aEhlqzvNcyOjl5qIhg9QXPEVvdyUds69qmgeye
-YUpoa1yFG2wjoV4E8zHZCyk6SO5aB/C1IDYVI4aRZhOhFj0ylXq8fyPJaTqgaiuf
-K2hn+jG9O3+5MSkVvtJ3+r3wQTnVb6A2X2UC59ZLPfhvNIuP1FbGo8VhHc4Appdb
-epXugILfLdofqYdva5uYNrhDiHduv+5M3m+LNYtGwSLAENf+mLvMWbxx4EbHkqZB
-4bMUXs81dCnsK8m9pQitoaIzDojmoViHDB5WuNszSrTC0DYoneMtmGEsL+dMiLGr
-ReuKIrXw3xASNYuFTJrdVvowsgU9UXLK4H5N/UmTATBvS4gaKjb+w1Y0u5oWsGfd
-QKLJg8B0TMGWEf9/cK1gnSeHZVjUR5pdIb9gaJV3otnM9EHbYpW5TZb4G5y2nwu/
-JQLVc+QV7qLwzXWpx9d6lIlk
-=vVn6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOx2AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NUAQAMu/npk+53J27tzD/TLU
+CneoYoZBaPkPOCWBx5mzPgOVvhFb4JxxvS0lQcfFN33Jdm9rLe+BYERxwBes+k/l
+cVKo6VhcEyK5ByjfPpq898iapA4Bs6Wy/X+1JNn2Xp7heFu/BWjb5AqiT8DKnw3M
+Yzs32OFRq1k4+OKmHHx1DaOnRe+w5mHrXjn0ZNMZ2d4A4qFPjGRCeGtChvCKinSP
+2CYEeFn/jMYRFrvawg/jNbCs1fjwUOt5tTIIofAChoJexPqh8OdFU9j0dNoWJWvF
+6uoYtp7qtbvVi6mAelubmYynpKIFGMOnCJpq7aszNdIfxJLZaE+HXQET/1gRYklu
+PiwwiVPAjrt9T6WnhfcV29cKOKV1Z4RH50zTQf8PIaRtV0ZMzRGQuJ2AzA0yFoAn
+d/Dv+LVaeSzw/azpMUnSg4gnkWGSmMqYtdrDlzaDY9o9fd+ltP1+lTDhBZBNOXYg
+F04XKDmmzlN7DgPp29H0a4a8Zl4XoAEif4xuJD6qOxzDN9OjDfE6sVcZo2lYhFgL
+gPEHCMdl9sS7J6fkKl7Q3PSn/eRxM9crNI7uQHlfQvKbP1XVyQRVTQFzmZqxj4C3
+z83KKRjj5Qtlkem0mzMSMO614Sl23nC2pZcj7x6wGLqVtyMvbU5jmIuQrmWu44dU
+BwawBm/D1g8fLYef3XcmCe+o
+=lB3+
 -----END PGP SIGNATURE-----
 
---===============6539341591027188804==--
+--===============0292983892347621543==--
