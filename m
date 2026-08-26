@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6409654328867401229=="
+Content-Type: multipart/mixed; boundary="===============0151917127291511828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 26 Aug 2026 08:49:15 -0000
-Message-Id: <178773415583.4099984.5941596952130021112@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 08:49:20 -0000
+Message-Id: <178773416097.4100098.14750684933939136820@gitolite.kernel.org>
 
---===============6409654328867401229==
+--===============0151917127291511828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,51 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: db2ddb87143519e20a95aa36c60b36107b736a58
+  - ref: refs/heads/char-misc-next
+    old: 8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55
     new: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
-    log: revlist-db2ddb871435-45c13f3f9e3b.txt
+    log: revlist-8992f32c5760-45c13f3f9e3b.txt
 
---===============6409654328867401229==
+--===============0151917127291511828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734152 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734157 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1787734154-3af78cad8ce034ddb2453b866dd036098319bbde
+nonce 1787734158-8077ee83c0aaf2a68a8a5c2ac3afe1a2d52fc181
 
-db2ddb87143519e20a95aa36c60b36107b736a58 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/char-misc-linus
+8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqIgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FhIQAK/kBEOKXRT5L/ETv3H2
-SS/o0dUeFRrbc95Vbxd1X+m3lHFWbgdY+7Y7+80vZ/NNhTijpe5X7DOcfLh+r2KN
-kyKt84hUYyx9BBlxSP/bCePBhu3V6SyhnI59omj5IxTYW+jZy+IsoADSC82xiYZd
-Z7hKawqrpcWVDnT1qr2PQEMPMEWYomabGOAVRXfoO4ui0B5N69gePi/ehpN8QA3O
-5wStdY+rs8sCyMXchGe/mbLc6vSnrzieGCPlqTcdgJux8RVANJVPZYNfGFvFqtI5
-zN+7a9WHXatzOMD1BlRR4RciqKOkR6uLjsZWnS4HLZoaqgjLSJ4Y4BYeRYSkWe8P
-hYDP5VvXCysAlCdooTHKXeNm4G8pW35QammrQ6IaZK5Bvi4OrrHG6I40sGYxHPkX
-V9phTpi1NN3vsvoycDsF/CbGCW1/Vxy2kRulkV7IO9KpR6K6z2LYZRc4vYJ4E8Dd
-Vbvm4+5kEN2GaydgQbIxQ/nmag3QraY9yEUOmzm1NVDm1oFOB+KuX4geUEglAasV
-IaQSzZ6yJULsuQhx2quKkRCF9cKkebscHqZoBIHw9W0qy9Skry2pD3MZPiq9NDcA
-mC7JCfS2DVWa+PEI8s1ggEa7gvxsp05iUf9fHrqH8GLN953zdAPmxkschzH5itmh
-2oRvUc5Z/huSkJp1jZWkAliy
-=77m/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqI0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JycP/RtJDjW4GNy6aACO6fHU
+Zmm3XQhK9HzjxviZP6+wlcIbyid1VpN3UtlV3627RwOgYsu94MbDrH2v+MYKcsJv
+Ix4qsQ1yXglL5k9Uq0r3ttuYyABnZpjgyOalq2gSO9/fltcDgkah31POl2UrgOZm
+H5uInTbb82B+jmO1Ou25uHh67uw+cVEqKtY0ISoaMJunyQxHKGJggS9TWGv+178W
+ttr99Di97i9Jx7PjqNJZRM7OwB5+f/q/Bpi56rr2qg2/wjzoIgDd6oBv01pohO4t
+W22K67vhi0reVIG38SSzKLBjzAX7dXa7P3zvmwxZDejIjetwbzwy/8nwXYhy1H7I
+qGGHziNMd1VGc2OhHPljxQq0LIOc8QWIxNYrXHJI4/iD3tYrDeQZA1mKtdmoJO8c
+ocgBVoRox7+a2uNY+59upXRgKgWYwKe3CBnR86UDDO2KoBMdgbxpKJ0kPnjocthI
+yJiyeT72zi+mTvdbBwJlwosXp/BjbjAeh4raFwnEmfIpcpGOlPOBHR274BM7Q7Cu
+8zQJInSbJPwxwNviSFdblavbS2bfs/v3QHOgCcHvp6m/qX0+4vnBUDNC0CFqF84X
+ZBd9FYIR8/fXEQ6MJaT1le419rhs65FLtsa21y04Jzp/PdZ8tA72qdEVNQUuBGhn
+/qxhja7un1UK+ycvqzwzL2aa
+=unn2
 -----END PGP SIGNATURE-----
 
---===============6409654328867401229==
+--===============0151917127291511828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db2ddb871435-45c13f3f9e3b.txt
+Content-Disposition: attachment; filename=revlist-8992f32c5760-45c13f3f9e3b.txt
 
+6bc4d9dec9059f1373eb140fc80b6f64fd153ecd io_uring/zcrx: unmap under netdev lock
+7d5d94fe9af1b402271236ff8536252789f3eb17 io_uring/zcrx: move freelist lock to struct zcrx
+ef0f0e10ee66d9c96298b5331515f46ab074957e io_uring/zcrx: keep array of areas
+5a22bfdd615bf47a0ea5e11f5090b1011764b3a4 io_uring/zcrx: lock area creation with pp_lock
 3c8a5e271594f6ba6d2af40f229cbcd0bcb08c06 io_uring/zcrx: add dynamic area provisioning
 06a2ff603f1f22dd314e24c50092717b4b8c3ade loop: Fix recently introduced lock inversion
 913dcbc5670cb772bddf9799d17f975e020e8326 xfs: avoid double deferrals for RWF_DONTCACHE writes
@@ -674,10 +678,6 @@ ea1a0889f96db54ce2e4676bd21b5d956aff3ab4 Merge branch 'for-7.3/i2c-hid' into for
 db95550340f45899edb1aecf8cf8310b877ab9b9 Merge branch 'for-7.3/amd-sfh' into for-linus
 d89f04ac41e3b83a25b02c8d818ce09d7afc74c9 Merge branch 'for-7.3/core' into for-linus
 cab40cfc9e116acd4d60f95b4b1264cab78f3803 i3c: dw: reduce do_daa time if there's no client
-05fa77078bf9af38ec541e47f3a3d01ccb5b2b6b Merge tag 'iio-fixes-for-7.2b-take2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-258ad625930ff4535ba6b438c8b49509e9a1c2dd Merge tag 'iio-for-7.3a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-1f7267d8043e394933b0ed06070bfa7921d7c830 Merge tag 'icc-7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 Merge tag 'coresight-next-v7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 70b1f4413e7501acfc7412d127289cbb7bec42dc Merge branch 'for-7.3-trivial' into for-linus
 3783364ce6f883b5020b031e65cab6d3cd450b82 Merge branch 'for-7.3-console-registration-cleanup' into for-linus
 e1e6e541c5c9cf548e9fdc35fc26808c82074440 Merge tag 'thunderbolt-for-v7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
@@ -1082,4 +1082,4 @@ fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.ker
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============6409654328867401229==--
+--===============0151917127291511828==--
