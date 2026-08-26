@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Wed, 26 Aug 2026 08:03:23 -0000
-Message-Id: <178773140386.4063526.9069424088211281351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 26 Aug 2026 08:09:39 -0000
+Message-Id: <178773177986.4067903.11173667058620356731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/mm-next-fixes-2026-08-26
-    old: 0000000000000000000000000000000000000000
-    new: 53c7310601a54b75b764d000461e34276f5e6156
-  - ref: refs/tags/mm-next-2026-08-26
-    old: 0000000000000000000000000000000000000000
-    new: d969d86add48cfe2761e67d3fbb6130847aaa9b6
-  - ref: refs/tags/mm-test-2026-08-26
-    old: 0000000000000000000000000000000000000000
-    new: f81da4247dee0c1e8a85f7ee32def80c4b0d8ae7
+  - ref: refs/heads/pwrseq/for-next
+    old: a39ac4651e3b9d2ca78b6d3dc2a81a6bd25fa616
+    new: d51fc9d4cd6eb18ac82913d83ecf7bd8c85f71ee
+    log: |
+         d51fc9d4cd6eb18ac82913d83ecf7bd8c85f71ee power: sequencing: rename pwrseq_power_on/off() to pwrseq_enable/disable()
+         
