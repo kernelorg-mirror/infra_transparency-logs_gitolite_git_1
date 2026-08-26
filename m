@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0151917127291511828=="
+Content-Type: multipart/mixed; boundary="===============6716686886216075028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 26 Aug 2026 08:49:20 -0000
-Message-Id: <178773416097.4100098.14750684933939136820@gitolite.kernel.org>
+Date: Wed, 26 Aug 2026 08:49:25 -0000
+Message-Id: <178773416569.4100313.5413009575395445431@gitolite.kernel.org>
 
---===============0151917127291511828==
+--===============6716686886216075028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55
     new: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
     log: revlist-8992f32c5760-45c13f3f9e3b.txt
 
---===============0151917127291511828==
+--===============6716686886216075028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734157 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787734162 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1787734158-8077ee83c0aaf2a68a8a5c2ac3afe1a2d52fc181
+nonce 1787734163-62a1d2d0651a1bafbb64fca6d9101320cc170152
 
-8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/char-misc-next
+8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqI0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JycP/RtJDjW4GNy6aACO6fHU
-Zmm3XQhK9HzjxviZP6+wlcIbyid1VpN3UtlV3627RwOgYsu94MbDrH2v+MYKcsJv
-Ix4qsQ1yXglL5k9Uq0r3ttuYyABnZpjgyOalq2gSO9/fltcDgkah31POl2UrgOZm
-H5uInTbb82B+jmO1Ou25uHh67uw+cVEqKtY0ISoaMJunyQxHKGJggS9TWGv+178W
-ttr99Di97i9Jx7PjqNJZRM7OwB5+f/q/Bpi56rr2qg2/wjzoIgDd6oBv01pohO4t
-W22K67vhi0reVIG38SSzKLBjzAX7dXa7P3zvmwxZDejIjetwbzwy/8nwXYhy1H7I
-qGGHziNMd1VGc2OhHPljxQq0LIOc8QWIxNYrXHJI4/iD3tYrDeQZA1mKtdmoJO8c
-ocgBVoRox7+a2uNY+59upXRgKgWYwKe3CBnR86UDDO2KoBMdgbxpKJ0kPnjocthI
-yJiyeT72zi+mTvdbBwJlwosXp/BjbjAeh4raFwnEmfIpcpGOlPOBHR274BM7Q7Cu
-8zQJInSbJPwxwNviSFdblavbS2bfs/v3QHOgCcHvp6m/qX0+4vnBUDNC0CFqF84X
-ZBd9FYIR8/fXEQ6MJaT1le419rhs65FLtsa21y04Jzp/PdZ8tA72qdEVNQUuBGhn
-/qxhja7un1UK+ycvqzwzL2aa
-=unn2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqOqJIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i2UQAJMy4N29c+CWA9kRE+Xl
++F4C3xRgtCmEu97F0sy9UUidsotYlyi8eO+RWUBjzNtWU3lOaLzZO4NKQb5NAP2J
+fWiWPq84j4CffkBZWobl4zbXAxCRMYv8VyG4sB5fcURketKlYe7JSO07i1OB3bEz
+h80hf/7wgFrn/BQb+8LFEicqH6x8lPodH7G+ePhRmHAEeBmaSRAnumOY1tZnH8hX
+jYthUr28I3RSj6BclL7k5LfaNMpCpON6pvZ4OhZDHKrol1dUsUnaSIRThlYW2rkJ
+/qrNTVhUQIxQsNquI9xAyfPLoqEIV1EmpHIg0/vqI94Ye3FJ7sPVmQ12/J13Izzh
+tvA/gW4IW0O9DTWAuIolyns+8v+yxZzLA50MHIFlzoxgNOuUGEAYtzbtIVq1Kimd
+SYBRp4egEeogLXE+VEUJl70aabCbwH3rsmhnxJ1DR5xtg++yj86GCmhB4HgtZ5Wj
+OtwVe+1cnsaNkiP4uUyh3KxMUBInO2mXhzGSZalYhWtVO56+QBSKHd7XuEfhd5B5
+v/MoCXI1bXlZoekmVedjuzKAYB0FoSL+Q0DjiuUH94wvDe4LbVp8IXmso+4EKH77
+b6DlXQCbWeuNXtwUNwjsXOaOy0FkPg9kU+s4TJ9ayvr6KlRgugnCiqb4KR5W62SE
+1F1NyoEzMngqODpvtPoA2Z+E
+=LoUx
 -----END PGP SIGNATURE-----
 
---===============0151917127291511828==
+--===============6716686886216075028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.ker
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 
---===============0151917127291511828==--
+--===============6716686886216075028==--
