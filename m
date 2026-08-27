@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 27 Aug 2026 12:56:33 -0000
-Message-Id: <178783539390.1320452.13249091431499903872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 27 Aug 2026 13:19:57 -0000
+Message-Id: <178783679719.1332276.1400056362942183985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 67aded1da114dc44808315f249bd9e7e440f799d
-    new: ac727d86fb84bdc9626ba9c756c26767459f3083
+  - ref: refs/heads/nfsd-testing
+    old: 51f18ae5fab20299d35d44b838dd72a5b528badd
+    new: e247236b7ffa1e0940f834787feade8570c5db91
     log: |
-         ac727d86fb84bdc9626ba9c756c26767459f3083 ntfs: leave HasEA flag untouched on setxattr failure
+         a59c0a443bb40fc4000a42631ccdb6c70381f2a6 NFSD: Fix POSIX ACL leak in unexecuted NFSv4 COMPOUND operations
+         8041ca0cf50a68a1f93936d937fbcde2e255e757 NFS: Import NFS3ERR definitions
+         e247236b7ffa1e0940f834787feade8570c5db91 NFSD: Rework be32 nfserr definitions
          
