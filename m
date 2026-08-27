@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8898646938779331831=="
+Content-Type: multipart/mixed; boundary="===============2946825683607471663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 27 Aug 2026 05:54:13 -0000
-Message-Id: <178781005311.893179.2003815365225870218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 27 Aug 2026 06:17:48 -0000
+Message-Id: <178781146856.910176.1036922046690573026@gitolite.kernel.org>
 
---===============8898646938779331831==
+--===============2946825683607471663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: c13e40134f2ddaf278219d391cf2b951b7fbbfae
-    new: 791cb8abef0b6a7c14817835c978c03ac4f3a666
-    log: revlist-c13e40134f2d-791cb8abef0b.txt
+    old: 72717fcd9e206d6b5b159f1ef0a3367f74ab38f7
+    new: 660b9532f36a25c1b88ba17061643ca2aa3db9fd
+    log: |
+         660b9532f36a25c1b88ba17061643ca2aa3db9fd 6.18-stable patches
+         
 
---===============8898646938779331831==
+--===============2946825683607471663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c13e40134f2d-791cb8abef0b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8b4fe8339a06154bac44343840b83747940da88c patches/next: add _damon_sysfs.py fix from zhaozhengzhuo
-39018d349f66c3e42618b5ab04c7a2de76db1b1c patches/next: move patch from zhaozhonzhu to contributions section
-f21a10d0185adbf8e478803e9a3721c948cf3965 patches/next: update last_psi_total on commit time
-2dd2dfe8539b8ada112a384f5980110af0fa0bb2 patches/next: squash last_psi_total commit time init
-c2a73ceba08332a5ef890d0e94bfabcd0c4d3a8c patches/next: write cv for unurgent fixes 2
-fca30e84c6376cddbf4f18efc827ea6636d280fc patches/next: move unurgent fixes 2 to the rfc section
-3d0a92baad144618cc9c260241d3ba7415d00df4 patches/posted: add last_psi_total and refresh_ms fixes rfc v1
-297e32a2cb938479c72f12540f41cb48b3bbdee9 todo-reported: update status
-77c969ecbb95d7dad898ed79902fd7127871a35b patches/next: damos psi goal and refresh_ms fixes: add proactive changelog
-f0f9f125e7e8b9aec702e80ad0cdf174eba7cbdf patches/next: fixup last_psi_total initialization compile error
-04f207db658d4aae26178eded70697e5bd5e2e79 todo-reported: update
-2917f5d7f0d8123529f6f588d6549f160081e839 patches/next: update nid for eligible_mem_bp goal commit
-baee4488db1d0b8626dc16b3693794ebc60eee6d patches/next: squash last_psi_total initialization fixup
-72bd117be53a249a2cf17284e77110a9e6935f1e patches/next: wordsmith eligible_mem_bp commit fix
-b0f33d0373480ee7bb495209c9b63d5e2924ac6e patches/next: add eligible_mem_bp fix to unurgent fixes 2
-791cb8abef0b6a7c14817835c978c03ac4f3a666 patches/next: fix build error
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787811369 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1787811466-51ba03f7c4d55a7a4d0018c8c80a32d2c3004b4b
 
---===============8898646938779331831==--
+72717fcd9e206d6b5b159f1ef0a3367f74ab38f7 660b9532f36a25c1b88ba17061643ca2aa3db9fd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqP1ikbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BaIP/RJuM/3lHnX2jxDkWE22
+4HLsNR5sIV0FInwIBveYMEOWFvHGyB5DkUVtEmjmYlAdO9U8AwGjyNPX+QwDGJJD
+Akl7WU1OmTVGGLcSRoGLP1u1Ym7TuiNMQk14mP6yPsKk1g5mvaI2sSEOeBk9A8NA
+cnrVEeRMgUBCr6fUqK9mmuBxowT/ULkD2rSBquLUHrLN1JS9Vmka56oKOPMf3LcV
+SU/kX3ORyBikm3BDaHxXf59nbgW/U8tHdAtrsve1mltyqYOq0pM7tNBRCsIR1kf8
+Pn9thRDvw602u0j/PWMH4olvngPXM6oQgtBnrKeccQZ9BUcWoiaezh1nXwG0i/eN
+IEqSOaZWIA5Uv0lSRm+BeUSYAR/QSueQOXqY3GNN3qBN7s0QKVXpEWkAyTbpzZME
+Wt4WdbD9+quiM8JHNmeiNoxBtWNWzIvJaLF7nRPAqE318tERvwnVq6NTxvIq5mCS
+0kcp0LamyXa5k8jtgXlNArxplVkT+gsScqlA4aMtx3B5osQxaZzd55LjRD+zufFD
+3GhixHLSB2dzmOQ9a0yc3kexSSZnSL7JtKIQXXWhVVysPJ0IKOFAtwjJpPtw8wdj
+CLmOSn/Gg0FK0GM4x6lwdwVHUUSOk+JOFewMQo507wUFOpL39x0sXktQyFcHwIMw
+Mca5UVF9G99DF2jFgfoKRQHe
+=oVCX
+-----END PGP SIGNATURE-----
+
+--===============2946825683607471663==--
