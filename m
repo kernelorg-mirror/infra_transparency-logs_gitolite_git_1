@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3800151156396862887=="
+Content-Type: multipart/mixed; boundary="===============1973126749939047787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 27 Aug 2026 05:28:17 -0000
-Message-Id: <178780849747.873744.8390305886906323180@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 05:29:35 -0000
+Message-Id: <178780857537.874442.4481122555044616083@gitolite.kernel.org>
 
---===============3800151156396862887==
+--===============1973126749939047787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 63e4e62d0010069aa644a16da654fdf915cfa953
-    new: d20570edfd75c6e3963ef69a47f9b83fa9772641
-    log: revlist-63e4e62d0010-d20570edfd75.txt
+  - ref: refs/heads/main
+    old: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
+    new: 73e3f0710014fe6d4ed98cfc02292f6121db7558
+    log: revlist-45c13f3f9e3b-73e3f0710014.txt
 
---===============3800151156396862887==
+--===============1973126749939047787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787808380 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787808474 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1787808479-dc138a7f22353ea151662134fab2ae8904c48185
+nonce 1787808573-ee0fa2ffbc06512e22ae93c3b729f1f09899c36e
 
-63e4e62d0010069aa644a16da654fdf915cfa953 d20570edfd75c6e3963ef69a47f9b83fa9772641 refs/heads/readfile
+45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 73e3f0710014fe6d4ed98cfc02292f6121db7558 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqPynwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nywQAIC9DSY5Pp2IJ6vA3k1C
-10CtOYMGnjV3qUabRNs5W7j223LvGaA5d2m8TnF4rRuJqhAT4oLeYE1oYvd0nTRz
-BTTElL9h89YD783k/q3/KCXMM3QVzNd4efmrjFhQfSeNYq2doJil1qKD9GTX+q6w
-+P5SDZuVam38yrAiTfKh+qPlTNblirPlmBMTAo2yidVwLfdB1JQyjg48LWro78O9
-8WqR6md7zjnOmxjX5dTKkrRR5sMh3uGlAUeKn0iKUKGLaZ0o6U7vpzi5/stdhgTd
-PF/gDs/0F2+RWB3MX4BfUKZFA+Ab/TLigO0Ngga5IZ0qP5qIoqEhp6PWSYcqDSsV
-nsfDY1f3Ajz1P4DHJkmScNAZJrOcIizhSfRXdp7G9zRfkbIdCmKEzudbTnXXJ94P
-iSACU8q2UVVejKpxzLV2RFk+6j2jiS7m1DuI/dloEnXvMEUmVOzmrmdWIpTX4fqX
-k82Pm8BEGdtCkYVb4Q8QQn/yx5yXfHsXbzdz2ik1tpwqFjq9yO0yXiHEpZzxYkQM
-QdfWQkzBu1uhGr3dYzqK1qkXlrJ/pjb4ag2PsQldoGmfofVZ4L3mejosCCYiHCe3
-IGx4tz855gZYsjO6Ga/K4SL6ElML91AVLsrmd8oW/TpGw/KO566H+BKg120mN7Lk
-PbVaoOWQ2spuot6v+zTkkQCV
-=o0Np
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqPytobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ecQAM8VFVZQHI5SesTtrY7q
+5ZpXysOrCApJ2l8g1I/I0AdZ8QppLH2A5wXfly2/bUjwd/HtbrulGcCV1S7sTcZq
+fvx/VlQQIPpZQkUEb94rnNtSmSkRLPSHhGYZF/B17oGpnOphzF/ctwfwAMQ+8oVi
+w4PFKB6Xi1d3FRaWnk49Rhpr6fQqUYuc8QmXHKUgsQZ/xr6nw2aWDTbC2LDGo8Ii
+lWEf9yvXe793K4NvlF8Q2sQLtVgezUtsZ6C8EkfaViK8tZJNz7Prvpt3RGAbs3SG
+34eGx5eC/wOhfL9pmWl58Q5eW9ITtM9Unto2U2NmBZTxQYU6CQPsXwe3XvXvuxOp
+soRH9KY94Nuq5YtdX51UbY4RPxyEHV9OG9GWoN2E77vMZMtC5QBrY/1eM+mru1Et
+OevIDJaXhaq+V8S6HuRxdZzVtmFGAShH5uqdH0VAFoUFu0nx0PzffvhFJiVwhQae
+KrWZdm/NHNXnp2Kod/WlwGltYZaUgCiYRLeQbG4rWv+R8WySntrpIMWgjp1izYG1
+al7WQihjtVOUaBwwD5FEikX5X0P0Xy4FQYWe91VMhmuYVFexHd+ecaVZMC7tfUxH
+kn3aPRpS8vZfEWQm58yAs/xlG1qE6XnoFdYtgkMi5G2sxQUJfMmNTfAmOO9oHID0
+yHzcJHuZESTa/BmsQvNdxweG
+=LO08
 -----END PGP SIGNATURE-----
 
---===============3800151156396862887==
+--===============1973126749939047787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63e4e62d0010-d20570edfd75.txt
+Content-Disposition: attachment; filename=revlist-45c13f3f9e3b-73e3f0710014.txt
 
 c4a16f90797e2d8bebf875fd02547fef76ae3b76 dt-bindings: clock: renesas,r9a09g077/87: Add LCDC_CLKD clock ID
 2b005b458f6eeffdbe7705e6667437013b54e209 dt-bindings: clock: renesas,r9a09g077/87: Add PCLKRTC clock ID
@@ -498,9 +498,5 @@ ea10c0b334e0dca944de2b5ecf57cf7e366674f4 Merge branches 'acpi-battery', 'acpi-bu
 b81e34131907d2c243c51117a4aff8dbe22ccc9c Merge tag 'thermal-7.3-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 b035a8be20ddfb932205beb9a1cbd80ea42e6cfb Merge tag 'trace-rv-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 73e3f0710014fe6d4ed98cfc02292f6121db7558 Merge tag 'nfs-for-7.3-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-f91ab00018967f72bde8ca4393b24a2e0369c570 readfile: implement readfile syscall
-9e878c373abb1787d73e64129391ffaa0d47d718 arch: wire up the readfile syscall
-06c7d22a0d204d1cbfd0628b9317848cdbfbac8f readfile.2: new page describing readfile(2)
-d20570edfd75c6e3963ef69a47f9b83fa9772641 selftests: add readfile(2) selftests
 
---===============3800151156396862887==--
+--===============1973126749939047787==--
