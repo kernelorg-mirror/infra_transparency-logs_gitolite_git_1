@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 27 Aug 2026 09:51:30 -0000
-Message-Id: <178782429071.1069405.738823645064972342@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 09:51:59 -0000
+Message-Id: <178782431963.1069802.9252416428571029611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/tags/v6.12-rc2
+  - ref: refs/tags/v6.9.1
     old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
-  - ref: refs/tags/v6.12-rc3
+    new: f101a83ed2aa07aca9bf9d9b536513c2f0506d40
+  - ref: refs/tags/v6.9.10
     old: 0000000000000000000000000000000000000000
-    new: 6801a93b4309318c0a7341338184fcd4ce865936
-  - ref: refs/tags/v6.12-rc4
+    new: 4b6dd7c9572b42c6944a79043ba20a51ba2de303
+  - ref: refs/tags/v6.9.11
     old: 0000000000000000000000000000000000000000
-    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
-  - ref: refs/tags/v6.12-rc5
+    new: c88dcac4f2c7af71a0fa1e2a00c2bd364af8b633
+  - ref: refs/tags/v6.9.12
     old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
+    new: 50eeae8625433c6fb96451013df633c8e92063bf
+  - ref: refs/tags/v6.9.2
+    old: 0000000000000000000000000000000000000000
+    new: e1f35b5102d10022334d4cf6d8e3fdd8f2ab643e
+  - ref: refs/tags/v6.9.3
+    old: 0000000000000000000000000000000000000000
+    new: c07949865f91d5b564037a21023571cc3b5c71f4
+  - ref: refs/tags/v6.9.4
+    old: 0000000000000000000000000000000000000000
+    new: 58cae6b766607138f8a4b1be4acba98a6e1987d4
+  - ref: refs/tags/v6.9.5
+    old: 0000000000000000000000000000000000000000
+    new: dc3d0817d0994f92bba9596ce53bc82570ad422b
+  - ref: refs/tags/v6.9.6
+    old: 0000000000000000000000000000000000000000
+    new: 185c18dcbe7edb086251c0a4fadb752f0b42aaaa
+  - ref: refs/tags/v6.9.7
+    old: 0000000000000000000000000000000000000000
+    new: 9e3a9e7b9f701e0790f5e9b1418fefc40632b926
+  - ref: refs/tags/v6.9.8
+    old: 0000000000000000000000000000000000000000
+    new: 770818eb02e75695be4d7878ce3441ec5819e5eb
+  - ref: refs/tags/v6.9.9
+    old: 0000000000000000000000000000000000000000
+    new: 9f770268b561d153ceff0ad7f993bf950051918a
