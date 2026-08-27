@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2356717069916685966=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Aug 2026 12:40:49 -0000
-Message-Id: <178783444987.1254766.15611056617247057498@gitolite.kernel.org>
-
---===============2356717069916685966==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Thu, 27 Aug 2026 12:41:44 -0000
+Message-Id: <178783450400.1255326.17575670508338571357@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: cbfe02a138834ae47ace76aecc6781b2cf38cad4
-    new: 48038b6d14a568ef670c1f243c487ae4b76f6edc
+  - ref: refs/heads/ksmbd-for-next
+    old: ca02b23e4a627b1a27c733dcb7f676a04f923371
+    new: 35205b06fbb8a16074aa93f846666eb42b7b2e9f
     log: |
-         48038b6d14a568ef670c1f243c487ae4b76f6edc updates for new stable releases
+         73fe5e0a8daf3f2ee3a603b466e6f3fc3caa5d5c ksmbd: test smb_check_perm_dacl() DACL walk boundary
+         f327cd3a5e60926c2484ce830f8e3815c01ad7c5 ksmbd: test maximal-access DACL walk boundary
+         e2c8f213734927a22d7f0f19d0625c6a76e4c113 ksmbd: zero the FS_OBJECT_ID_INFORMATION buffer before filling it in
+         f3af299a336327980c17c86bea1c8bac01ca2a76 ksmbd: initialize FileSystemControlFlags in FS_CONTROL_INFORMATION
+         13cbd480ee3947f447c7997ccbeec00c6146cd54 ksmbd: fill in FileSysIdentifier in FS_POSIX_INFORMATION
+         9b07ccaeba54f5fe892eab048fe2312f2f65d4ad MAINTAINERS: Add Paulo Alcantara as an SMBDIRECT co-maintainer
+         35205b06fbb8a16074aa93f846666eb42b7b2e9f MAINTAINERS: Update the KSMBD entry
          
-
---===============2356717069916685966==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787834449 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1787834448-cf4ddd9fb58446296da3d15ddd2e2784a83cff16
-
-cbfe02a138834ae47ace76aecc6781b2cf38cad4 48038b6d14a568ef670c1f243c487ae4b76f6edc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqQMFEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GhMQANV/tOATglDWhha3EocG
-VW1onswKAOQ8KXqZdv8ijssE7DJiz3P1lydA1iOOwsAJ15GsLNbK7IliHS0qFvKe
-0ax8ai+qTG1p6UvjVvCdPG8lDmondJyuBBwCLlFp4uSlFUjquddDGgw2KYxSxOaA
-O5IL3u7LoCWurqmI5cTik5O4KvzWx9a/hunuGyZLEvXr49udPLwcXegkBs6iMdXj
-Cc7gdC8R/97BIP6k5Wfkxeeabo71Jn3Ye3qWxd020SibJ484ega6c2P9uuZr+PNi
-Tk4pyp9UANbfesCSlsXPyEEQU1UjqAu73Sspq3nfIOU2NxwQB0oEwEGKYSxxgnv8
-yzVs15wtSnQ5rf9INfjJFElzgqJsBWRAsCem2FrdiZEIbUgoOtTzwFaX8ojsn1d6
-30Sm2QIoAwG2F8LEqrE3b8AQHUOFJ0qw3EmRuKzN4+X2XCTKX5robTwXHRBlWB5t
-8vAqnpQJhE397OTDBqADaFWhEPSSAbPBQv42RMSJ03RIra7Fv/8zNBi7YLMxNhrD
-bzBUDp/k7YtT+4dgHeyzogIfuu8KshK06tYY5tN1ub4Ylvon/1l3FFoTGJR9jFvl
-YU+K0OPN3d/fpE8659qxy4APGlgvfPApMODuQS95T8GhInzIm4BbRqHqtHHJ8CWz
-PphPxj/1pC4Qy1jiQxLPeSsH
-=6zot
------END PGP SIGNATURE-----
-
---===============2356717069916685966==--
