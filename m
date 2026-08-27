@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 27 Aug 2026 09:45:15 -0000
-Message-Id: <178782391529.1061809.2180930643289151417@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 09:45:31 -0000
+Message-Id: <178782393151.1062432.2477289765897585183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,24 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/tags/v7.1
+  - ref: refs/tags/v7.0
     old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc2
+    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
+  - ref: refs/tags/v7.0-rc4
     old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
-  - ref: refs/tags/v7.1-rc3
+    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+  - ref: refs/tags/v7.0-rc5
     old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
-  - ref: refs/tags/v7.1-rc4
+    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/tags/v7.0-rc6
     old: 0000000000000000000000000000000000000000
-    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
-  - ref: refs/tags/v7.1-rc5
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+  - ref: refs/tags/v7.0-rc7
     old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
+    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
