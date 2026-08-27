@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 27 Aug 2026 20:47:23 -0000
-Message-Id: <178786364363.1667368.6450068632067202257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 27 Aug 2026 20:59:10 -0000
+Message-Id: <178786435020.1674934.14888154643362199987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/net-7.3-rc1
+  - ref: refs/tags/for-next-tpm-7.3
     old: 0000000000000000000000000000000000000000
-    new: 7b1efdd6c1cc16384ea05f6a5a13d74760e90b7c
+    new: d6c3f464d5220cf224602cb876819d3e3919d372
