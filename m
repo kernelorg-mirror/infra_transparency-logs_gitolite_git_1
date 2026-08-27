@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4444460776496795657=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 27 Aug 2026 06:34:40 -0000
-Message-Id: <178781248090.921280.4561498864383667734@gitolite.kernel.org>
-
---===============4444460776496795657==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 27 Aug 2026 06:46:46 -0000
+Message-Id: <178781320667.931055.11881693593552547608@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/master
-    old: c45f24d49b137928ae4389fdd62781790f1ae3a8
-    new: 3737e46adb11ed25df20d1559c9169d95bf0c596
+  - ref: refs/heads/feature/cache
+    old: 8fafd7309b0cc0d9f4730fab09b7a4ae44acda12
+    new: 50aa5ba75b5d6e15c12b0d7f14e914e9c58c759a
     log: |
-         3737e46adb11ed25df20d1559c9169d95bf0c596 6.12-stable patches
+         f35e1fbd12a9d85ac8305f59126557f9158dbff2 f2fs: introduce metadata cache
+         f8396b9eb65d16eec10df5821400a4abeb63f9d2 f2fs: cache: implement metadata cache
+         2fda95249ad25d6c9471c2fd3c3fc61a1da881a3 f2fs: cache: initialize meta cache
+         9e6b9484e4aa371caa5a0448ba082f3902adb878 f2fs: cache: introduce shrinker
+         564d14eafec13d4c40f6daaff511ca1301fe402a f2fs: cache: introduce writeback thread
+         71791caeb3251950930a3d4527e39515da5e89d8 f2fs: cache: use meta cache
+         ee5e2f1ffedde62f4e38c25ec8ab7e84bb3d569b f2fs: cache: initialize node cache
+         b45ce2706140776fc3871affe781dfa282b2ffad f2fs: cache: use node cache
+         3c0d02a94f552857fd1d3d8abce96a1bf9ccabad f2fs: cache: initialize compress cache
+         ce0074e31ab476f051ad1f1f4bda8fb88b6d0b21 f2fs: cache: use compress cache
+         78f882f4a06428e17ea8262ef3a583fba276f180 f2fs: cache: support fault injection
+         296c01ec4ecc2d4371297f53de109d5e15bd8bb4 f2fs: cache: introduce tracepoints
+         50aa5ba75b5d6e15c12b0d7f14e914e9c58c759a f2fs: cache: show per-cache usage in debugfs
          
-
---===============4444460776496795657==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787812381 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1787812479-597e7ab088c9f1ffa7859fff0fea9009eefb0ce8
-
-c45f24d49b137928ae4389fdd62781790f1ae3a8 3737e46adb11ed25df20d1559c9169d95bf0c596 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqP2h0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NrMQAMnOppl2EXvr5taho5AJ
-qKyA8SgARlwuwbfAlVCtw86IwXMWxwSijvIDW5qzEMY6RZO7Xxf8W2GqwzPc98ag
-x2w4GMMVra9A12QL8A3uIJVXzBoi0YAkGeTgEuXxzETP/brk/rhJv7Q2WHOjVCy8
-mD8lON1oeSjtU3OpwR9d3p/3yXJbu8Jvl7YMR08CQMZSatbXLwzREug4s91X1ccT
-GZdCskpd/Gg1ECcENBBohsOAnguEmofVy9C91T95uWF27viaGvZNlQ1ZNDZ0XgTm
-MVf39MI3HGzWf4Iy6XoeuMDIhdumR6HB/L/G8mGLxo2Z4OXxqIzTMWOAuSWpfyiD
-9aFhvvNcyoOkiGNddhZt8XPnb4PnUG3KCiqVBsrMRCcG9RI0x6yQR++oNYtm18P2
-EHBg3hQAxwxFwa0+BIrvZVYWLQ/gEYgjcAkNwJ0GvK2ThVjKVvkXKSh+yqgupT5n
-cypEU5OO54AAgvYZMlxSts34dGK4KAri+KHPHqkXA0u/1DgJiTfW/HkubeBx7Jrq
-8qySDf4g+Y5r6pdff94riQMmEADSpR/kdKTHmxB80OU2fQPsUJsqse/vw2qmgM9E
-rvjeadNKCK+iZLtBBv+JSdfpBAghLvyF1Ea97zklVG0XktI+i0lCU6izjaCzioSg
-MSEUoSLm6DmNqhI2Ez64NGnx
-=Gzsf
------END PGP SIGNATURE-----
-
---===============4444460776496795657==--
