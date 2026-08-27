@@ -1,33 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 27 Aug 2026 12:39:00 -0000
-Message-Id: <178783434048.1253228.4542406496991397957@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2356717069916685966=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 27 Aug 2026 12:40:49 -0000
+Message-Id: <178783444987.1254766.15611056617247057498@gitolite.kernel.org>
+
+--===============2356717069916685966==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 21efadc62272cabee9bec27777ae75d84a9ca8a8
-    new: 4d7fa28e151a6a6f24098d9e60f558f8ea61ddaa
-    log: |
-         4d7fa28e151a6a6f24098d9e60f558f8ea61ddaa dt-bindings: input: mediatek,mt6779-keypad: add mt6572
-         
   - ref: refs/heads/master
-    old: 9a29ee801f525bcad71fea021bfe2a030885c8df
-    new: fcc1d6eab4ce4ba86ae05a87ecf7ce06cd2ca4d8
+    old: cbfe02a138834ae47ace76aecc6781b2cf38cad4
+    new: 48038b6d14a568ef670c1f243c487ae4b76f6edc
     log: |
-         5a7c42811589e2da5e7f1fcd45328e7ead70d008 Input: snvs_pwrkey - tidy up error reporting in probe
-         fcc1d6eab4ce4ba86ae05a87ecf7ce06cd2ca4d8 Input: st-keyscan - improve probe error handling
+         48038b6d14a568ef670c1f243c487ae4b76f6edc updates for new stable releases
          
-  - ref: refs/heads/next
-    old: 9a29ee801f525bcad71fea021bfe2a030885c8df
-    new: fcc1d6eab4ce4ba86ae05a87ecf7ce06cd2ca4d8
-    log: |
-         5a7c42811589e2da5e7f1fcd45328e7ead70d008 Input: snvs_pwrkey - tidy up error reporting in probe
-         fcc1d6eab4ce4ba86ae05a87ecf7ce06cd2ca4d8 Input: st-keyscan - improve probe error handling
-         
+
+--===============2356717069916685966==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787834449 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1787834448-cf4ddd9fb58446296da3d15ddd2e2784a83cff16
+
+cbfe02a138834ae47ace76aecc6781b2cf38cad4 48038b6d14a568ef670c1f243c487ae4b76f6edc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqQMFEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GhMQANV/tOATglDWhha3EocG
+VW1onswKAOQ8KXqZdv8ijssE7DJiz3P1lydA1iOOwsAJ15GsLNbK7IliHS0qFvKe
+0ax8ai+qTG1p6UvjVvCdPG8lDmondJyuBBwCLlFp4uSlFUjquddDGgw2KYxSxOaA
+O5IL3u7LoCWurqmI5cTik5O4KvzWx9a/hunuGyZLEvXr49udPLwcXegkBs6iMdXj
+Cc7gdC8R/97BIP6k5Wfkxeeabo71Jn3Ye3qWxd020SibJ484ega6c2P9uuZr+PNi
+Tk4pyp9UANbfesCSlsXPyEEQU1UjqAu73Sspq3nfIOU2NxwQB0oEwEGKYSxxgnv8
+yzVs15wtSnQ5rf9INfjJFElzgqJsBWRAsCem2FrdiZEIbUgoOtTzwFaX8ojsn1d6
+30Sm2QIoAwG2F8LEqrE3b8AQHUOFJ0qw3EmRuKzN4+X2XCTKX5robTwXHRBlWB5t
+8vAqnpQJhE397OTDBqADaFWhEPSSAbPBQv42RMSJ03RIra7Fv/8zNBi7YLMxNhrD
+bzBUDp/k7YtT+4dgHeyzogIfuu8KshK06tYY5tN1ub4Ylvon/1l3FFoTGJR9jFvl
+YU+K0OPN3d/fpE8659qxy4APGlgvfPApMODuQS95T8GhInzIm4BbRqHqtHHJ8CWz
+PphPxj/1pC4Qy1jiQxLPeSsH
+=6zot
+-----END PGP SIGNATURE-----
+
+--===============2356717069916685966==--
