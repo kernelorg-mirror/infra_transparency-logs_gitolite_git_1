@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5036867576498269589=="
+Content-Type: multipart/mixed; boundary="===============8161392851294496953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Aug 2026 09:35:18 -0000
-Message-Id: <178782331879.1052386.17632458394582021250@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 09:36:32 -0000
+Message-Id: <178782339237.1053219.7069496428259684068@gitolite.kernel.org>
 
---===============5036867576498269589==
+--===============8161392851294496953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: f634e265aa2e8c437fbc03c3996e263545fe636f
+    new: d2f36b6e31d423d9331596b1095267157c433ae8
+    log: |
+         39a55ebbed45dea1bed33faee68797ddb31c1978 Merge branch into tip/master: 'locking/urgent'
+         d2f36b6e31d423d9331596b1095267157c433ae8 Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: ec8477a492cb24f2c334847c8734ca56c7ffdd29
-    new: f634e265aa2e8c437fbc03c3996e263545fe636f
-    log: revlist-ec8477a492cb-f634e265aa2e.txt
+    new: d2f36b6e31d423d9331596b1095267157c433ae8
+    log: revlist-ec8477a492cb-d2f36b6e31d4.txt
 
---===============5036867576498269589==
+--===============8161392851294496953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec8477a492cb-f634e265aa2e.txt
+Content-Disposition: attachment; filename=revlist-ec8477a492cb-d2f36b6e31d4.txt
 
 c4a16f90797e2d8bebf875fd02547fef76ae3b76 dt-bindings: clock: renesas,r9a09g077/87: Add LCDC_CLKD clock ID
 2b005b458f6eeffdbe7705e6667437013b54e209 dt-bindings: clock: renesas,r9a09g077/87: Add PCLKRTC clock ID
@@ -467,6 +474,7 @@ ea10c0b334e0dca944de2b5ecf57cf7e366674f4 Merge branches 'acpi-battery', 'acpi-bu
 b81e34131907d2c243c51117a4aff8dbe22ccc9c Merge tag 'thermal-7.3-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 b035a8be20ddfb932205beb9a1cbd80ea42e6cfb Merge tag 'trace-rv-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 73e3f0710014fe6d4ed98cfc02292f6121db7558 Merge tag 'nfs-for-7.3-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
-f634e265aa2e8c437fbc03c3996e263545fe636f Merge branch 'linus'
+39a55ebbed45dea1bed33faee68797ddb31c1978 Merge branch into tip/master: 'locking/urgent'
+d2f36b6e31d423d9331596b1095267157c433ae8 Merge branch into tip/master: 'timers/urgent'
 
---===============5036867576498269589==--
+--===============8161392851294496953==--
