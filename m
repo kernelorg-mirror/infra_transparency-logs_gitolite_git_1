@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8644272953852824587=="
+Content-Type: multipart/mixed; boundary="===============2282256617558058520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 27 Aug 2026 02:14:41 -0000
-Message-Id: <178779688161.677140.10077077963066213420@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 02:14:45 -0000
+Message-Id: <178779688525.677303.16965752130714522906@gitolite.kernel.org>
 
---===============8644272953852824587==
+--===============2282256617558058520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1a46b1e97bde62afa7d925bb0dcd9f9748a1d7c3
-    new: dde94c26af59f5020adafafa08ece21ccd32590b
-    log: revlist-1a46b1e97bde-dde94c26af59.txt
+  - ref: refs/heads/mm-unstable
+    old: 169393fff5d1ec2690934067eeb95544ff5ebdd7
+    new: 234e77148199ae43b83a0a03a3f481e03460a286
+    log: revlist-169393fff5d1-234e77148199.txt
 
---===============8644272953852824587==
+--===============2282256617558058520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a46b1e97bde-dde94c26af59.txt
+Content-Disposition: attachment; filename=revlist-169393fff5d1-234e77148199.txt
 
 9e69c5090526380796bb7d62bddb6d912e33ca0b mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 9c5bba85734a3d79b4e6f35dd38c47a389f5944d memcg: make the v1 soft limit knob inert
@@ -42,22 +42,5 @@ be5e644df02eb40fb3ccbe2e88615025ee15a295 Revert "once: don't use a work queue to
 85ad260e5d6c6b04dfca73e3597cb39f9c4ecd88 MAINTAINERS: remove Lorenzo as THP co-maintainer
 3c0b4d372777df5cc631aefc10a2955293202321 MAINTAINERS: mailmap: update entries for Thorsten Blum
 234e77148199ae43b83a0a03a3f481e03460a286 foo
-43a7ad711f969b6a6da5bab9767d1baedea9d46e selftests/mm: fix soft-dirty kselftest supported check
-ab4c8333413158702b323cc0d18e56e5ad4fd49b riscv: mm: fix concurrency in mark_new_valid_map()
-fe430b106fec4b32b3288f1525aaab3f027a5981 riscv: mm: exclude invalid THP PMDs from page table check
-27151421343a955b2f3b7c17ae98b9339e87549b sh: remove CONFIG_NUMA and related configuration options
-9425ce50f863167a8a1d247faae91f172960d937 sh: mm: remove numa.c
-fae774a016f7e3450f8a92ae95ea43bc4071ddfa sh: mm: drop allocate_pgdat()
-31eb201ad34e1f88d0e02424f4bcf44e176d9ac7 sh: remove setup_bootmem_node() and plat_mem_setup()
-d82de41d04e12f724fba0f1fbbd1bed6f350568e sh: drop dead code guarded by #ifdef CONFIG_NUMA
-241ee0c5edb554f1a9ebf0bdfb310d4a05ee5374 sh: drop include/asm/mmzone.h
-cceb781908da0d02e29bd1fbb5a1d1aca955dacd init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-8b7365c13ff66ccf583d9d9e160dc2ab7f0822b0 sh: init: remove call the memblock_set_node()
-3057d52781505e1149945b717ccb2f089dfae719 sh: remove SPARSEMEM related entries from Kconfig
-b6a7a2e14dd33fa1d04dfc1314aa6fbf8c0e5a33 sh: drop include/asm/sparsemem.h
-1aec8001ec4d185a0770b18fd2981e4cbc60add5 mm: use a folio in the softleaf_is_device_private path
-615225d1a727b1daa6eb3f1ea39c2c3af363452d mm: drop stale MAX_ORDER references
-55a319af41eb7e45f46285412f8050386d0de0c0 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-dde94c26af59f5020adafafa08ece21ccd32590b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8644272953852824587==--
+--===============2282256617558058520==--
