@@ -1,26 +1,58 @@
+Content-Type: multipart/mixed; boundary="===============4946157454215057223=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Aug 2026 04:57:12 -0000
-Message-Id: <178780663234.794897.10349787111089663704@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 04:59:51 -0000
+Message-Id: <178780679151.795872.13652088648557208838@gitolite.kernel.org>
+
+--===============4946157454215057223==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/security/vulns
-user: sashal
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b57bb2943757087df1cfce6e6bb4e001cfe6fd38
-    new: 5fddce3cd4e5f9b5a1c8920626000bc7f3b0da7d
+    old: 5fddce3cd4e5f9b5a1c8920626000bc7f3b0da7d
+    new: e89c2b080256d4d86f6deaffafbf0ff2c8450b7b
     log: |
-         5d405ffeeedf43278a9a0effce1a1d2a5b8d2e29 CVE-2026-80526: Add .vulnerable file
-         eb50658fd4d6e8d2b545efc0ea0ed7dd2b66c35d CVE-2026-80540: Add .vulnerable file
-         b421c792319a163b87488bbfea5edec23720611f CVE-2026-80541: Add .vulnerable file
-         4bc1bad3bbb7297aaaf8d0170dfa9270ab356a58 CVE-2026-80559: Add .vulnerable file
-         b65225eb39c7a7c1fc412ddfc9254a0f7eb39309 CVE-2026-80573: Add .vulnerable file
-         cf0abe2114af5c4ab5cfc3717f4dd2fc53c6e464 CVE-2026-80576: Add .vulnerable file
-         2148326d4c40a4620b3b09d081ee1e6b56325d81 CVE-2026-80579: Add .vulnerable file
-         5fddce3cd4e5f9b5a1c8920626000bc7f3b0da7d CVE-2026-80580: Add .vulnerable file
+         5d2968a23b0d04180d82fd07a0c57b05593aac8d updates based on new .vulnerable files
+         26a1232effae63a865653d7ec60d92135e7b6cab proposed: Add Allen's v7.1.[9/10] results
+         e89c2b080256d4d86f6deaffafbf0ff2c8450b7b proposed: Add Ruiqi's results for v7.1.10
          
+
+--===============4946157454215057223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787806789 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1787806788-65e90f98c901bd0dc6cba986b8ee40f6e53e9627
+
+5fddce3cd4e5f9b5a1c8920626000bc7f3b0da7d e89c2b080256d4d86f6deaffafbf0ff2c8450b7b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqPxEUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NJwQAJ1uWSfgrYh17qhYzCXG
+oFcxakYygSnBZREGCUdSUoENMT9ir6MAd3FSVhSkJjRoBcygwaeUSLi+ycKNo/ci
+z7MkRxo2aG2E9T3RUm8fuxgrxd5i3Z7Fv1CHFN4YrrckeNv0AKFtX84OecdaDTAr
+3Bazh9xusHBZXxGPXIYjnD0pk0Y/CFf44T60aOL7GKG+DX6nW0T/WVdF31Ya3gDG
+T0DPQqWCVuWRrZ4pRZp1NyD+6aeXpFe95/98jAuyq3f/+mTKgoBbeH3xn/Mm2+xT
+CwM5R0HLs3z4cOPh13zpncjSa4Daxr1RrAnvhzWSk/dI9czQNeUY/jSGP3DuolO8
+jIPwImYOSJ1VnS6WwkBbVGboAIB8SINM/eUmETUeQ8bB6XxQP80d0rTlCXVkJR/1
+51qMU4+j9PhljBCbtVKZmHZuBZtupvKHdCnYoqyg4X+Zc8ZCewi+D8nPBAAZUKO+
+7KBikrr+467Cr15W8sno8xY8ZYQUg2DxZS2JbnAJgTLJnf3B1kYLHywa5v/3HGgR
+2o/IfvaNm7glH8tbo+0Qjpypq54gbMvTxG1uGNaDXEA/IAVRNxMXnroKATD5UriP
+zVNPVgsFDaBvatlHsmCtMWlcTNIANcVjwi1fFH9c+CWDxFhhVJ+KRPJtlk5dvScW
+u75si5l8pJEUK0s74eYwzBh8
+=uj5N
+-----END PGP SIGNATURE-----
+
+--===============4946157454215057223==--
