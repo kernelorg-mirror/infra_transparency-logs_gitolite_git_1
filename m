@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Aug 2026 20:44:33 -0000
-Message-Id: <178786347361.1663824.4976420186276639824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 27 Aug 2026 20:45:47 -0000
+Message-Id: <178786354761.1666326.17755133362964909473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 4a7471db8e6b0d2b430bc136f6387ce288dd9972
-    new: 3ca6e93c82e8060e9fcf432294a46ed1dcc1daa0
+  - ref: refs/heads/dev-staging
+    old: e57a09c84406448d312f6466b77198c60474799d
+    new: a7f637962e837dd92f0e267d27a796cb31b9f9ce
     log: |
-         3ca6e93c82e8060e9fcf432294a46ed1dcc1daa0 dedup: Lee's v7.1.8 results
+         a7f637962e837dd92f0e267d27a796cb31b9f9ce lsm: don't call security_backing_file_free() multiple times
          
