@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1973126749939047787=="
+Content-Type: multipart/mixed; boundary="===============4319076487589738065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 27 Aug 2026 05:29:35 -0000
-Message-Id: <178780857537.874442.4481122555044616083@gitolite.kernel.org>
+Date: Thu, 27 Aug 2026 05:30:03 -0000
+Message-Id: <178780860344.875757.5944183463396001971@gitolite.kernel.org>
 
---===============1973126749939047787==
+--===============4319076487589738065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
-    new: 73e3f0710014fe6d4ed98cfc02292f6121db7558
-    log: revlist-45c13f3f9e3b-73e3f0710014.txt
+  - ref: refs/heads/clanker
+    old: 987bbeb1310aad5c2bcafe42ee9973455127301b
+    new: 7c35d1b6f41a6f48dbfbed4a4a291c94af29f66e
+    log: revlist-987bbeb1310a-7c35d1b6f41a.txt
 
---===============1973126749939047787==
+--===============4319076487589738065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787808474 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787808488 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1787808573-ee0fa2ffbc06512e22ae93c3b729f1f09899c36e
+nonce 1787808586-a8181ceefa05d47c10150d4b3835ef84d538862e
 
-45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 73e3f0710014fe6d4ed98cfc02292f6121db7558 refs/heads/main
+987bbeb1310aad5c2bcafe42ee9973455127301b 7c35d1b6f41a6f48dbfbed4a4a291c94af29f66e refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqPytobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1ecQAM8VFVZQHI5SesTtrY7q
-5ZpXysOrCApJ2l8g1I/I0AdZ8QppLH2A5wXfly2/bUjwd/HtbrulGcCV1S7sTcZq
-fvx/VlQQIPpZQkUEb94rnNtSmSkRLPSHhGYZF/B17oGpnOphzF/ctwfwAMQ+8oVi
-w4PFKB6Xi1d3FRaWnk49Rhpr6fQqUYuc8QmXHKUgsQZ/xr6nw2aWDTbC2LDGo8Ii
-lWEf9yvXe793K4NvlF8Q2sQLtVgezUtsZ6C8EkfaViK8tZJNz7Prvpt3RGAbs3SG
-34eGx5eC/wOhfL9pmWl58Q5eW9ITtM9Unto2U2NmBZTxQYU6CQPsXwe3XvXvuxOp
-soRH9KY94Nuq5YtdX51UbY4RPxyEHV9OG9GWoN2E77vMZMtC5QBrY/1eM+mru1Et
-OevIDJaXhaq+V8S6HuRxdZzVtmFGAShH5uqdH0VAFoUFu0nx0PzffvhFJiVwhQae
-KrWZdm/NHNXnp2Kod/WlwGltYZaUgCiYRLeQbG4rWv+R8WySntrpIMWgjp1izYG1
-al7WQihjtVOUaBwwD5FEikX5X0P0Xy4FQYWe91VMhmuYVFexHd+ecaVZMC7tfUxH
-kn3aPRpS8vZfEWQm58yAs/xlG1qE6XnoFdYtgkMi5G2sxQUJfMmNTfAmOO9oHID0
-yHzcJHuZESTa/BmsQvNdxweG
-=LO08
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqPyugbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vSkQAIN/xs1q07UbubW/HZBr
+o83//2giurEfDGbStz2vDSDCMmA88NOrEKhci298+IvoeRY/XowfmAGnqvPLruyj
+jQfbzd0TzMPirgNUonMTng8xT8QK/WNIAfPrNpfxPCOWEcHbs4CA9vU2wyuBmdOA
++9X1j8r7w/2o9fw6IyqXo9I224QD3x3mGDTOXRcQryoAGsR+6/cegIYoz673VUMD
+PkJvdaAinyKZu5WmCzch8egs7Kv6U2xRyfejS4qWGmVEvI4NN1H4mR0tSS2pEg0L
+aUtPOV1997fRij1aKVaud+BkPvtYbVTupx880cS1pGeNZdeE03dIQPX5ifjvNcwb
+YdfyoT/4UuSC2oLuC20ws2hxnb5Pp2nK8D7ndH8O5x1xnb6/HXzasRDCM6asBawg
+o+Q3ublWbJec+3bAz2a9+oZ6jKAmUM+IgnRcDmam9zjL3XCziAh9YATUa/GU6bm6
+GD3ANnShs/49GBcGIbbqPLR5l/kaG4Q3ML163HXzs3tQNR9ERPJo2KzjaV5WZNb4
+hiutzJLC/bPybVrBmuaJFxos6DlxjY/odHsX5liY0ObULM4rxZiEN+hnvdvCnQ9S
+by/05HX0UJpVor97MkpCKl2ACqnEWnuE3vGyuAqRGFjRH5ukfU3KDZLi2jCn/qpd
+vFFdPvQAHsQTvRI7acovflQL
+=ttzb
 -----END PGP SIGNATURE-----
 
---===============1973126749939047787==
+--===============4319076487589738065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45c13f3f9e3b-73e3f0710014.txt
+Content-Disposition: attachment; filename=revlist-987bbeb1310a-7c35d1b6f41a.txt
 
 c4a16f90797e2d8bebf875fd02547fef76ae3b76 dt-bindings: clock: renesas,r9a09g077/87: Add LCDC_CLKD clock ID
 2b005b458f6eeffdbe7705e6667437013b54e209 dt-bindings: clock: renesas,r9a09g077/87: Add PCLKRTC clock ID
@@ -498,5 +498,29 @@ ea10c0b334e0dca944de2b5ecf57cf7e366674f4 Merge branches 'acpi-battery', 'acpi-bu
 b81e34131907d2c243c51117a4aff8dbe22ccc9c Merge tag 'thermal-7.3-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 b035a8be20ddfb932205beb9a1cbd80ea42e6cfb Merge tag 'trace-rv-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 73e3f0710014fe6d4ed98cfc02292f6121db7558 Merge tag 'nfs-for-7.3-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+484aad0924653397e05ceeba452059d83ffbf526 net: mctp: usb: properly drop the usb interface on probe error
+1b07a9166decd5d03b4cee5a8a60cc67bca87c5f wifi: rtw88: properly drop usb interface reference on error
+061b2c45b84fc30d86898b89d21b8abcc9a5a54a mmc: moxart: fix potential use-after-free on remove path.
+dc530ca8e522ef1b8a3326b222ca70e24a97447e mmc: meson-gx: fix potential use-after-free on remove path.
+a77e428da0913517c39ebe7c344d958b1a97379a f2fs: fix potential deadlock in f2fs_convert_inline_inode
+28a0a0c32ae207148b338040aa7662e15774c899 drm/amdkfd: stop speculation on the kfd_ioctl path
+d3e8a5a810df2322db88b3a5edb35ade626b2660 media: adv7604: avoid negative array index in log_status when cp_read fails
+d9c1d1ff0807b38e74178003c4a6259dbe1e2d69 media: stv090x: bound DiSEqC reply length to msg[] size
+6248767a4397f947c943b3d0c01ff70873c8a18b media: stv0900: bound DiSEqC reply length to msg[] size
+0734a9bd49f638eba5067ac5d5cba5fa98547163 NFC: digital: Bounds check Felica response before sensf_res memcpy
+59f9d61d6760216af9ebeb6d941a984ef3b22323 net: usb: cdc_ncm: reject negative chained NDP offsets
+67451e98270627c7782e9ad7e3a8cf89a6c7d3fa net: sched: em_text: require NUL-terminated algo name
+28fc226d20a1b574a2add8adc095a4aef449cdc1 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+5e4f94bad083f26f545a4661a297f211e1d41e9b ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+11add202afe264a9b3e45a1914a4d3424e2aa8d3 io_uring: depend on MMU
+d8240e81209a694c0a8a51f58328003312589062 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
+b038d13fad2d968ee8ca8a1ad04e1b81111b5c68 usb: typec: tcpm: validate VDO count before reading Attention status VDO
+f052eb24d0fd572070aa969c9bba3314da59e3bc iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+ab24e98bfc284c8db5ee2cb5348d9b5cd071d201 drivers/perf: thunderx2_pmu: add error handling
+5ac98d9d5026de1be3a7d2f59402a4d8aed70ec9 nfc: st-nci: Add error handling to IRQ handlers
+682589f56fee0b6b608c53cc717446303e4d481d tty: vcc: zero-initialize control packet in vcc_send_ctl()
+4f301aff64b64a3d49d383b21cd3a4080b8435cb tty: vcc: hold port lock when clearing tty pointer in vcc_cleanup
+60a58ef6082f3ea9430c7b14c9f21be8643dadad serdev: fix race between tty-port unregister and in-flight callbacks
+7c35d1b6f41a6f48dbfbed4a4a291c94af29f66e serdev: use tty_port_tty_get() in ttyport_write_buf() to prevent UAF
 
---===============1973126749939047787==--
+--===============4319076487589738065==--
