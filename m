@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0279743764220290604=="
+Content-Type: multipart/mixed; boundary="===============0040932246220381937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 28 Aug 2026 23:10:05 -0000
-Message-Id: <178795860594.3020582.16407677759076532090@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 23:10:58 -0000
+Message-Id: <178795865849.3021354.15552300080404621225@gitolite.kernel.org>
 
---===============0279743764220290604==
+--===============0040932246220381937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 6b9f23b5460818aaf199dda90210d5fc08d66c8f
-    new: 57f74a9c2f12b09d840524f197ab1bbafed591f0
-    log: revlist-6b9f23b54608-57f74a9c2f12.txt
+  - ref: refs/heads/testing
+    old: 22359083a9e74d538ce383d5c0ee30cc20182187
+    new: 4d1e40fa8c03cd60e92bea911381d2285f127399
+    log: revlist-22359083a9e7-4d1e40fa8c03.txt
 
---===============0279743764220290604==
+--===============0040932246220381937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b9f23b54608-57f74a9c2f12.txt
+Content-Disposition: attachment; filename=revlist-22359083a9e7-4d1e40fa8c03.txt
 
-dcb68831eac76dbfda1cf5930d3003d938890d34 Merge tag 'block-7.2-20260815' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-04cf68c9a76e3c6b67ad056a66a14923abf85925 parisc: Fix alignment of asm statements in head.S
-e4c90e39c941b1ecf52f01dc35a119293d1bd8ab Merge tag 'pinctrl-qcom-fixes-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
-d067f0f4c96cb5402a111cf649b7bf9c5771ec74 Merge tag 'pinctrl-qcom-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
-16429bb371999e26b243f6462234d841d271c5f1 Merge tag 'x86_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9da3fc37f5fe8b5adc0c6dd798d2caa3855dac4c Merge tag 'perf_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d5b95e612cde33f9def1a7a6c3242d03d3bbde3a Revert "i2c: designware: defer probe if child GpioInt controllers are not bound"
-d6e7d57ed967def9c964a58328ffba409f7efb64 wifi: mt76: mt7921: refactor regd update to fix recursive mutex deadlock
-7820dd4a127ae83b530e177faa8e213c2d5717e1 Merge tag 'core_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-240de1acf318ba53b6d34094030822797c65154a Merge tag 'timers_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fd923b32d7614047c8b2acecae3915ec94f7afab Merge tag 'sched_urgent_for_v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8d3ae59288f1e7d58d76558a6ee96d533bc5019f Linux 7.2
-24fbeb83d9b750a36da42cb835a154d80fd3d495 hwmon: (max6621) fix temperature clamp range
-acc52bd431e2d8698fae8d82a74ac45d79b62e0a hwmon: (max6621) fix negative temperature offset and crit readings
-0cd8450c257faa0cece0e0c43d3b55d1a389acc7 hwmon: (coretemp) Fix core_data leak on CPUs without PTS
-75f2c0b3690702c90863c2e138cb5520670845ea hwmon: (emc1403) Drop hysteresis for low limit temperature
-4bc49ae344d65cfcef738f281ac575cf73ca2fc5 bpf: Check pointer type for all atomic RMW paths
-17d4a399e8b8de0bb7d78cb46f92ffa9d629965d rust: pci: convert IrqVectorRegistration to a lifetime-managed owning type
-2fb7755b0a7efb811d7d09f3a6ea06fd611d1ba4 rust: pci: resolve IRQ in index() and embed IrqRequest in IrqVector
-6ca38086b4ee457801b742862e5f3871567e2788 rust: pci: remove request_irq() and request_threaded_irq() from Device
-f146c7bc85a51f95c05e0f8173d484eb301ece78 PCI: Add pci_irq_type() to query the allocated interrupt type
-3b5ea0f078e1b72276e99c237f3dfc2fd72938bb rust: pci: expose the allocated interrupt type
-5ab9fbeca8f7da1b40697cf4e75257b9447f03f2 selftests/bpf: Cover mixed arena and stack atomics
-8eb18920646415f6b4f100b34bd456c4fe002196 Merge branch 'bpf-reject-mixed-arena-and-ordinary-atomic-paths'
-7019a11f79dc408f2b47b1027240e7f198784c9a ksmbd: reject SMB3.1.1 binding with mismatched cipher
-df35438ba9d5687335a405418772b6cd30383687 ksmbd: validate SMB2 write offsets
-cc2f133e80eb2c4a04bfa77a2f207749fe2f516a ksmbd: fix maximum allowed access checks
 e5f42cb7577221080e4db0498d71e6db7e67f1a5 ksmbd: support access-based directory enumeration
 5d47ebb2795d0dab7bf718ae6665ffdaa7bb880c ksmbd: honor owner rights ACEs in maximal access
 497dbc5999a52efd55e079589b166e5c18a20fe3 ksmbd: reject delete-on-close for read-only files
@@ -615,10 +588,6 @@ ea1a0889f96db54ce2e4676bd21b5d956aff3ab4 Merge branch 'for-7.3/i2c-hid' into for
 db95550340f45899edb1aecf8cf8310b877ab9b9 Merge branch 'for-7.3/amd-sfh' into for-linus
 d89f04ac41e3b83a25b02c8d818ce09d7afc74c9 Merge branch 'for-7.3/core' into for-linus
 cab40cfc9e116acd4d60f95b4b1264cab78f3803 i3c: dw: reduce do_daa time if there's no client
-05fa77078bf9af38ec541e47f3a3d01ccb5b2b6b Merge tag 'iio-fixes-for-7.2b-take2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-258ad625930ff4535ba6b438c8b49509e9a1c2dd Merge tag 'iio-for-7.3a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
-1f7267d8043e394933b0ed06070bfa7921d7c830 Merge tag 'icc-7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-8992f32c57607bdfaf5de2a2cd26b3b71f3a9d55 Merge tag 'coresight-next-v7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
 70b1f4413e7501acfc7412d127289cbb7bec42dc Merge branch 'for-7.3-trivial' into for-linus
 3783364ce6f883b5020b031e65cab6d3cd450b82 Merge branch 'for-7.3-console-registration-cleanup' into for-linus
 e1e6e541c5c9cf548e9fdc35fc26808c82074440 Merge tag 'thunderbolt-for-v7.3-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
@@ -1022,33 +991,64 @@ f4d50813c0958b7d6bc79a7e0a77193372cbfd03 Merge tag 'usb-7.3-rc1' of git://git.ke
 fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-f13054a27603379ec592d42c3fbfa5ce91f2305a iio: health: max30102: fix NULL dereference in interrupt handler
-63e49ed4e0d79e2dc261c9844332ba568274d2a9 iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
-0cb6ea24835835dd858ae92424f63d72b5d0d9d9 iio: light: gp2ap020a00f: drain irq_work after free_irq
-cb734cfd781135fda82141d38a5fe4545d8b086b iio: adc: adi-axi-adc: Initialize state mutex
-74e1a689d1549bcf4c78cc52268445bc8d145ade iio: adc: ade9000: request interrupts after powering the device
-4a0043c0adb57d908bd67f64d5bcb2e64570516b iio: adc: ade9000: fix overlapping scan_index for current and voltage channels
-1873651f5c9d3aad7aa6366c1ce3cbca2d71baae iio: adc: ade9000: handle Phase C dip events in IRQ1 handler
-05405a0b037e624dbb112d178910eed3e265da41 iio: adc: max1363: sign-extend bipolar differential channel reads
-e6b60f957fa3c23f6f8b3561ba494271d69543c0 iio: adc: rohm-bd79124: Fix rising alarm
-bc5f710b6571fc9aaeff55eabb5c12def314f084 iio: adc: rohm-bd79124: Fix channel initialization
-645c7d907e4e9d6f5713bcfc51f707014c93cf18 iio: adc: rohm-bd79124: Fix GPIO mask check
-d80c09ccbfd2a57cb417810bb2f6443d63735e6c iio: adc: rohm-bd79124: Catch regmap errors at measurement start/stop
-843d3b173a15c7dd5037ed60ba782789b348c81a iio: dac: rohm-bd79703: Do not allow writing SCALE
-9fcad76d28dacbcc28432c83c4a1b4f2ad3193e3 iio: pressure: rohm-bm1390: Return error when read fails
-489a732dd48bba263f83822756e9370116ea0a3c iio: light: rohm-bu27034: Fix error return
-4a0f2432aec43627bb8cf756028e34b110a7cf8c iio: accel: kionix-kx022a: Fix array boundary check
-673f126f8231785f026303480a68358ea8d1d624 iio: proximity: sx9324: Correct proximity channel resolution
-5e95d70e12f109ca8d49a842a0fb2cb50c727f9b iio: frequency: adf4377: Fully initialize clk_init_data and clk_parent_data
-9f44013c2d1d048655c8f23f0440833a59aa7f30 iio: proximity: aw96103: validate firmware data length
-87cabd82a6b16d528591e8496d649e061f623bea iio: buffer: Ensure bounce buffer used for unaligned case is zeroed.
-6ae7fa93324f028ed7a38826aef8ca81f6828766 iio: adc: xilinx-xadc: free IRQ before cancelling the unmask worker on unbind
-de0835b552efd7ad1bcae657af82deddb0b1f180 iio: imu: adis16480: fix unprotected debugfs reads
-eb12a7947e0a06aea2ceba4cef7f55a56f90b96e iio: imu: adis16400: fix unprotected debugfs reads
-40cc26b0919b68c6dba3db4c5786d1283af14a11 iio: gyro: adis16136: fix unprotected debugfs reads
-213063dabda728b487b99bbc24895deb8656d5b8 iio: admv1013: initialize callback mutex before registering notifier
-91d6a69aaacc7fae6f75c4b4932e959da1feae3f iio: accel: sca3000: fix frequency divider condition check
-1a97642874d5777bbc6acf4fab07e949385b1f27 iio: frequency: admv1013: fix wrong channel field used in admv1013_read_raw()
-57f74a9c2f12b09d840524f197ab1bbafed591f0 iio: trigger: cancel reenable_work before freeing trigger
+c08f2eb9b064ede0c6ad1db962e15ff6b9c98ff7 iio: accel: mma8452: convert to bulk regulator usage
+c24a5c10c4afcbfab4b79f2b80803deddcc0e88b iio: accel: mma8452: use local struct device
+32697cc871425bdf43b6abac0d4275d413b2cba0 iio: accel: mma8452: Use IIO cleanup helpers
+2e14352636f75535552810af32b5520d3a16e878 iio: accel: mma8452: use guard() to release mutexes
+834b4f914e6d25213f44c1899ae1e9996dd609e4 dt-bindings: iio: adc: ti,ads1100: add support for ADS1110
+6f27c13c8d32ce2cb7f503f3a72f6d0248e7392a iio: adc: ti-ads1100: Fix incorrect reading when datarate changed in single mode
+a846f33d8a2f90f523e456f7a7ee9f413ff37e65 iio: adc: ti-ads1100: Add ti-ads1110 support to ti-ads1100 driver
+58b960dbd42b6542560ae20816cae52f1433b593 iio: light: veml3328: reshape scale array for readability
+c0f4ab93b9e06b27d9fadc84300b76b141fc9775 iio: adc: bcm_iproc_adc: Remove redundant probe error messages
+cb3b844f50f2f95d7056380ec7f971dd0ddb6fcb iio: adc: bcm_iproc_adc: Introduce local device pointer
+958446e5abcc03ca81bb7aaea170ff4823431308 iio: adc: bcm_iproc_adc: Convert probe error handling to dev_err_probe()
+fede687685747efaee20c7db4545b1e6e27d45a0 staging: iio: frequency: ad9832/ad9834: add comment explaining do_div usage
+cfab75fea8aeca01159f3edf43f2dc60a49de0f2 iio: humidity: hts221: report available values via read_avail()
+f8018fe840d8add5bf1c03001027e1ce7fb5d651 iio: humidity: hts221: Allow unknown whoami for DT fallback
+d41a4d4c757d1c29714d3536a80e5f9882346bd3 iio: humidity: hts221: use dev_err_probe() in probe paths
+e731fc96697c871f71448d31b7e679e071ea5b55 iio: humidity: hts221: fix division by zero in calibration parsing
+0549ba5aa041c6b0a24eebb6288e823ddf0b1a6c dt-bindings: iio: adc: add Axiado AX3000/AX3005 SARADC
+bc2cf74ce84a778416a3b9a69beae241da661d01 iio: adc: add Axiado SARADC driver
+bd9c1de82e674470da73fd715f1f9612c02a21f4 iio: accel: kionix-kx022a: use scan struct for one-shot and trigger reads
+9c63c405df3fd5344edb8d30e3656cd5c221fec0 iio: accel: kionix-kx022a: use iio_push_to_buffers_with_ts()
+fee0fa4cc2e41114b567a81e244208229e9e8eee iio: gts-helper: fix error headers
+81bd55479c42c37b7401c85e551bc736bce2475a dt-bindings: iio: proximity: move LIDAR-Lite v2 out of trivial-devices
+02e54c524ecd538b06be222b756c01bdb4d7d26f dt-bindings: iio: proximity: document LIDAR-Lite v3 fallback compatible
+cfbe6f2927e7b12d7cad66c97f39374da1887b89 dt-bindings: trivial-devices: add Aosong AM2315 and AM2320 chips
+20a053f37c04c59dd59c830108dac0882ccdb3b7 iio: humidity: am2315: add support for am2320
+13f77882f502534390c68c3f89da2fb9017a3e1d iio: accel: adxl380: reject out-of-range FIFO entry count
+093fb56ba9b5cec2444c3276c0d9a306932ab002 iio: accel: adxl367: reject out-of-range FIFO entry count
+d0a728c62622e6906c8fec975926c465dc0f7d84 iio: light: Unshadow error codes in ->store()
+dc674f000a0c0f442e07c2b177312d771e22f497 iio: imu: inv_mpu6050: Unshadow error codes in ->store()
+f14f54f8a7285aad3efa9abd7179475125f31217 iio: chemical: sps30: Unshadow error codes in ->store()
+86e53ab16831dff18102e7a1dde00c9a2e61a945 iio: adc: pac1934: Unshadow error codes in ->store()
+4c87f5fe96f8c0b267d8b86b1e2cb2cf994f5068 iio: adc: sophgo-saradc: Handle errors from optional IRQ lookup
+852385c866b974d63ba01688408a11ca9c0f3172 iio: accel: bma400: remove completed tasks from TODO list
+22dc694949d1ef5e0637f4826370c8fa16756bc6 MAINTAINERS: add patchwork link to iio entry
+8580f6afcae417e40a92c0285262ca4687a27787 dt-bindings: iio: light: ltr501: Sort compatible enum array
+2e71fc437d660fd9c8c6a53dcd4c7d2d25595d54 dt-bindings: iio: light: ltr501: Add missing ltr303 compatible
+7b2935dbd633f4b53eef824c999c1727dd5b5261 dt-bindings: iio: light: ltr501: Add ltr329 compatible
+869cff0e27a53d9015c7c82b23cbcc3351bfd05e iio: light: ltr501: Power down chip if request irq fails
+da9f9f59f334fba9201fe59cf4ef64641f93d097 iio: light: ltr501: Add ltr329 driver support
+2e9ff4e8c48a97d2190611fbca6aa64422cfc4e6 iio: light: ltr501: Fix sorting order of device arrays
+ad3917f6e98308edac51ac64ee001d6df2d7591e dt-bindings: iio: light: ltr501: Make proximity-near-level conditional
+797b133a5bd93330be78d89a99006cb6c65cdcfd iio: humidity: ens210: Extend I2C functionality check
+642c14d04534cadfac24f61ff825d0f4b81d4518 iio: gyro: adxrs290: use iio_push_to_buffers_with_ts()
+87fe5631efec573d8817fce17cafc9814b6de357 iio: gyro: bmg160: use iio_push_to_buffers_with_ts()
+383640a498079cb0e8dd2307e0949ece77499bf2 iio: gyro: itg3200: use iio_push_to_buffers_with_ts()
+06ced959620604fe43f3ff3c64482d20d3f8357e iio: adc: meson-saradc: Make sure clk_init_data is fully initialized
+0a8667ab6aef534d387ee6085c44dd29ef5b6c44 iio: imu: inv_icm42600: sort device id tables numerically
+506b2753b3e5aa8c06d20fd1b8f594262859c5c7 iio: imu: inv_icm42600: log whoami mismatch instead of failing probe
+0160c5a1870379bc617b30cb36b23da9486c636a dt-bindings: iio: imu: icm42600: add icm42630
+a51558fe6c3a2284b0e65466b315c56b44420f42 docs: iio: Correct ADXL380 filter descriptions
+a47a0157681736ff73177cdf276ab56ce72f1734 iio: temperature: tmp117: fix calibbias cache update on I2C write failure
+dca0e3efdbcc849fefec2dade036a84ebfe4e448 iio: proximity: aw96103: Fix early return in IRQ handler loop
+9b8de581c046bbe32cb7de7282699ed2b0b373fc iio: adc: ade9000: introduce chip_info structure
+72f683da85e09e24a13d9e15ca7b9f74f27ac41d dt-bindings: iio: adc: adi,ade9000: add adi,ade9078 compatible
+2ce14260ce3014648a1dc4d333b406256bf32673 iio: adc: ade9000: add support for ADE9078
+6c8a1401402db0c47f069fe64495560b6b409bfe docs: iio: ade9000: document ADE9078 support
+239839b7543b5633303b79df82af48ddeb81f9b9 iio: light: apds9999: register standby action after enabling device
+c5cefce586b292a309ba0b88ef1afec33ff5283e iio: pressure: rohm-bm1390: Fix AVE_NUM initialization
+4d1e40fa8c03cd60e92bea911381d2285f127399 iio: frequency: adf4350: Make sure clk_init_data is fully initialized
 
---===============0279743764220290604==--
+--===============0040932246220381937==--
