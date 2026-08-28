@@ -1,27 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 28 Aug 2026 12:15:56 -0000
-Message-Id: <178791935614.2539418.16565707393824384563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 28 Aug 2026 12:18:57 -0000
+Message-Id: <178791953773.2540570.7976834306740268346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/kdevops
-    old: 6e360c3adfd2595ea509714aa359668e141f7e2c
-    new: c946be2670499b6258cb17cf9d59999dadc11cfb
+  - ref: refs/heads/feature/cache
+    old: 130c7d945ff6f27c9ce2ebcbf9d967feecf99435
+    new: 9810eb093a33a6570e37af99bfc1405c86cf7619
     log: |
-         e506adbe1242e75a136f05d7c12ff355ed6fdfcd SUNRPC: report local rpcbind calls that get no answer
-         9f9f4f6d597a2d22c8ddc5c7275c43b956d77889 SUNRPC: stop svc_register() once rpcbind stops answering
-         cd02fd3aced6597d6e5cedbed2266b5fb5955fc7 SUNRPC: stop the svc_unregister() sweep once rpcbind stops answering
-         6ffdb511d92a6701a2c4df5bfcffa7eeeeba2040 SUNRPC: stop unregistering listeners once rpcbind stops answering
-         7b2bfc08b20f096d9726630c8ef1b4fa45e6132d NFSD: stop registering with rpcbind after a failure in listener_set
-         be2e3d92b6ab0f8600b97c3aef788e16613c0743 selftests/nfsd: exercise listener_set request validation
-         29c5d243b698ec2a2ca1cb93cabee3f40414decd selftests/nfsd: add a per-netns rpcbind stub and the listener round-trips
-         e77fccf87e5258534131fe95efc49a3d46ecf654 selftests/nfsd: check that listener_set asks rpcbind once
-         c946be2670499b6258cb17cf9d59999dadc11cfb selftests/nfsd: check that listener removal asks rpcbind once
+         c1aa4e680b88e4cd77f3dd5ccad1f078cf0fb805 f2fs: cache: implement metadata cache
+         d401ce573438e62f2def586fc7520b78de1185ce f2fs: cache: initialize meta cache
+         ef86398186db8782ddfb1c2534ead99f1d810181 f2fs: cache: introduce shrinker
+         cc3413ab7c8375055f5871795a8121a0f6eab248 f2fs: cache: introduce writeback thread
+         c42757ba1345a8a618b85df6b770330ea2adb71d f2fs: cache: use meta cache
+         ab05e24700f52bfe48a4e8e2b369d02d717a0bff f2fs: cache: initialize node cache
+         aaacd4bb39b253b15a9d9f7ce664b28e7531842c f2fs: cache: use node cache
+         1d81362d4f68345484e2d74c82c45f9c555b814b f2fs: cache: initialize compress cache
+         9e8e6980ec47dbf5569c477fcad313a846833e1f f2fs: cache: use compress cache
+         bb20f102b8fd5f5fe38f00277c890cc9c1de3c8e f2fs: cache: support fault injection
+         f82618fc886e2424623b03ba0f4b5eb57f148917 f2fs: cache: introduce tracepoints
+         9810eb093a33a6570e37af99bfc1405c86cf7619 f2fs: cache: show per-cache usage in debugfs
          
