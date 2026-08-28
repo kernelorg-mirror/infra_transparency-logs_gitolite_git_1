@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 28 Aug 2026 21:20:50 -0000
-Message-Id: <178795205038.2941597.1075816397768050999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 28 Aug 2026 21:28:19 -0000
+Message-Id: <178795249937.2946326.10161744839932858962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/b4/ks8995-to-ksz8-v7.3
-    old: 16daab6b779d9648af2d7f9336c4db8fbc9038e3
-    new: e870feafde32352110513f47b785b6edcced3a9f
+  - ref: refs/heads/master
+    old: 27255f4ceda937b3540e425ed58284f5c03c8ad4
+    new: ae61c975e168d78a9d10c6d332d2f0a4839a8b71
     log: |
-         dbfc5703353d2674a79ea5c951be36519a2d7d5a net: dsa: microchip: Support Microchip KSZ8995XA / KS8995XA
-         e870feafde32352110513f47b785b6edcced3a9f net: dsa: ks8995: Delete surplus driver
+         ae61c975e168d78a9d10c6d332d2f0a4839a8b71 setup: dynamically detect default huge page size
          
