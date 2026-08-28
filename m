@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1036584605747409419=="
+Content-Type: multipart/mixed; boundary="===============7201191209647310793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 28 Aug 2026 22:46:19 -0000
-Message-Id: <178795717927.3003445.10431507122118887460@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 22:46:37 -0000
+Message-Id: <178795719715.3003756.10589731240596097983@gitolite.kernel.org>
 
---===============1036584605747409419==
+--===============7201191209647310793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: acme
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/tmp.next
     old: 0863972346e5b008b259b04ee781f54dbab8bbda
     new: 2cb95a21681fa42e23a5e70ef4f5f12d2f3bde86
     log: revlist-0863972346e5-2cb95a21681f.txt
 
---===============1036584605747409419==
+--===============7201191209647310793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ c06e32c125567b9c2c8bf697a6d821858e0ccccf tests: Add enumerator search test
 7420498efcdf851dd72cb93fd5ea94aaf5953d54 build: Add tarball targets similar to kernel's perf-tar-src-pkg
 2cb95a21681fa42e23a5e70ef4f5f12d2f3bde86 build-and-test-cmd.sh: Move build-dir detection to test_lib.sh, fix container PATH
 
---===============1036584605747409419==--
+--===============7201191209647310793==--
