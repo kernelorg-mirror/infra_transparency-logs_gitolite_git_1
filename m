@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Fri, 28 Aug 2026 02:22:51 -0000
-Message-Id: <178788377126.1944114.10781182939802599680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 28 Aug 2026 02:41:35 -0000
+Message-Id: <178788489543.1957891.16135646402942767546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 2e15442dd0cd42c59c2a473f98d11ed7d0c57b0b
-    new: e811acfdda31271e2788d1ee22fd2c36986c2ecb
+  - ref: refs/heads/kernel-7.1.8/configs
+    old: db56413ca37d7cb93c1b196760276da40df1872b
+    new: 53f42e8a27158a3987ff8713e2a4fb804fe25ead
     log: |
-         e811acfdda31271e2788d1ee22fd2c36986c2ecb tftp: add block size support to the client
+         53f42e8a27158a3987ff8713e2a4fb804fe25ead kernel.spec: relax --with tools BuildRequires for libtraceevent-devel
          
