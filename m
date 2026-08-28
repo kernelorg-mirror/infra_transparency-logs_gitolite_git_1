@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6293924465233838053=="
+Content-Type: multipart/mixed; boundary="===============3184638879153579546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 28 Aug 2026 01:11:15 -0000
-Message-Id: <178787947566.1867510.9052531726755384589@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 01:11:19 -0000
+Message-Id: <178787947970.1867695.12320618399700057133@gitolite.kernel.org>
 
---===============6293924465233838053==
+--===============3184638879153579546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,51 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: dde94c26af59f5020adafafa08ece21ccd32590b
-    new: 1aa578423d57b9b993d45bdb9032d142978bdf3f
-    log: revlist-dde94c26af59-1aa578423d57.txt
+  - ref: refs/heads/mm-unstable
+    old: 234e77148199ae43b83a0a03a3f481e03460a286
+    new: a74303019eb700aba7a9cc98848d73f3a564be91
+    log: revlist-234e77148199-a74303019eb7.txt
 
---===============6293924465233838053==
+--===============3184638879153579546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dde94c26af59-1aa578423d57.txt
+Content-Disposition: attachment; filename=revlist-234e77148199-a74303019eb7.txt
 
+4c670ccd5790816fc0f5714d5ee3c67dd5a9c67a ksmbd: extend procfs server statistics
+bc2f3f3dd69424f76e2ed3dc53d29bfd6c9966d4 ksmbd: honor client signing-required in all modes
+d6bf101da7dd5d2c2fd6e21de67d4ac43900110e ksmbd: fix durable V2 persistent handle handling
+eebdd3f1157e35a50df5ff2d3d9a305901df3254 ksmbd: do not advertise unimplemented CA support
+08f41323f549b1ad9ad2e67e7b5c5ac312c1cb1a ksmbd: fix maximal access leak when object has no NT ACL
+7b461610882c8baa64d56dade57cdbfb686739fa ksmbd: fix AsyncId zeroed before use in smb2_lock() cancel response
+fd8c97d7c1ccedb2321a3869e87f3211bbe21570 ksmbd: implement the command sequence window
+7405d0ba294306721843bc551611775e6edef516 ksmbd: fix slab-out-of-bounds read in ksmbd_alloc_user()
+fe2c0cacbcff9d56c03b296f68f22151c4223b04 smb: smbdirect: free completion queues with ib_free_cq()
+383a9480f5f40bc46454cce27ccfad532cedad9c smb: smbdirect: destroy QP before mem pools on accept failure
+76fa42c004eb95a983bed8fd0e6e0e8428c751a5 smb: smbdirect: avoid recursive listen.lock during cleanup
+db82fbe4bb68e68e4aef00ef5b79f92991d8ef8e smb: smbdirect: release pending child sockets outside the handler lock
+e9b33376bd07bca4175f7bcc2d6034ef250f8181 ksmbd: validate ipc response length before dereferencing its fields
+df3e2150f3ea44256688ad1be9cbd7453fcf0ca2 smb/server: fix signing when a response uses more than one iov
+4fd5bad647bfa45eb86bfd2f03ba1bef3fcd5851 smb/server: cancel async requests when closing connection
+528af7cf69f3e6f1d8899561441c75a1616ef779 smb/server: avoid registering async requests during connection close
+06c7b1d731bc105a8644f1b70165ba8b9416cbab ksmbd: free preauth sessions on connection teardown
+3f220a0a62e6b9b391c9d1f0e6580b05173cc7f7 ksmbd: only rebind the reopened file's own oplock on durable reconnect
+25e414db703334954747cb1b3eedf914b093ff8c ksmbd: report holes in allocated range queries
+84c41b731b019f1e5a97c21ac1a4a4c63b6be38f ksmbd: stabilize allocation size after buffered writes
+a47634cd729b42dfe372048b056d98ba4e128eaa ksmbd: expire SMB sessions when Kerberos tickets expire
+f39ec312c3eb5ae1f6b4d1c5d8c556d844a20c0c smb/server: fix unbuffered file position alignment check
+b0148dc5625dbfd50596ac63c7487c12e8a8ab03 ksmbd: serialize oplock close with pending break ownership
+54d90311f9b4eb23f3b0b62650b0cfddb11a12ef ksmbd: fix SMB2 byte-range lock end offset
+5ce5227cd60b7213359e91837727ed1b6d457d49 ksmbd: recognize replayed SMB2 lock sequences
+054bcca4cd9f00719b01f7108b51a2168fb94f15 ksmbd: safely discard unregistered deferred locks
+16a7f7c2ecf3c893b65f0fb78fa7a7171ae0ba9e ksmbd: reject blocking compound lock requests
+6eac877e0ea53b82fe726ba80bb1a349bd0b592b ksmbd: remove extra byte from ipc_msg_alloc() size calculations
+d2ccf905f47d2344270749f4dfa905afcd3edeb0 smb/server: fix null-ptr-deref in ksmbd_ipc_tree_connect_request()
+3ce2f9491963c9c9c02129deaf7e8a0809775e97 smb/server: fix memory leak in ksmbd_vfs_set_durable_owner()
+bef46b604732d83f8da29f782868de4d25bf972c smb/server: fix invalid pointer dereference in ksmbd_stop_durable_scavenger()
+db97f3763727d652112ae70038d4e17b3ce277bb smb/server: abort initialization when proc setup fails
+f43cbe3b58ce989ce420c3bc875d48e7754c8aba smb/server: call ksmbd_proc_cleanup() on module init failure
+73541bd2bab77e7e8e89b1edb5d342f4190dd4d0 smb/server: preserve error status in smb2_handle_negotiate()
 3a98de41b0a4d80e0aa57f677f7592e5f5321613 ksmbd: fix use-after-free in lease break notification
 29f74f0f2e6df3b393b7b66e810136d0c64e3c59 ksmbd: defer publishing granted locks to prevent UAF/double-free race
 a3bcea7c819a6c69ca937a68631311711bf20e66 ksmbd: exempt FSCTL_PIPE_TRANSCEIVE from the generic file-id lookup
@@ -1016,39 +1050,5 @@ aca92a235fd21e4edee80f27daa20e45af94f607 MAINTAINERS: mailmap: update entries fo
 b3918cce92f38967e43984d0bbc02d3260def89c tmpfs: fix unicode_map leaks in casefold option handling
 2d390cf687916da6a2947cb74d47c14d98fc4f68 mm/mremap: reset unfaulted VMA page offset for MREMAP_DONTUNMAP
 a74303019eb700aba7a9cc98848d73f3a564be91 mm/secretmem: properly account locked pages
-27d4d802e40ce5c961f6a918b489a3b851467ac7 mm: use a folio in the softleaf_is_device_private path
-d46fee73071a4cd0e58c84621c3f2725e74177b4 mm: drop stale MAX_ORDER references
-fe66add208621f7a37796177886c325a5909e8aa mm/vmscan: drop the combined limit gate in __node_reclaim()
-453743a5187819fc2a44e8a07c22d4b133396c80 mm/vmalloc: avoid false sharing with drain_vmap_work
-4ea53e9495a8975985c5e1b31ef64ce108968199 mm/hugetlb: fix resv_huge_pages double decrement in memfd error path
-9ddd4d69d96246b2ea1847d30ba90bf497e91255 selftests/mm: remove the local PKEY_UNRESTRICTED fallback
-109566501810333e8c9ee34209c83d973a2fc2af mm/mglru: preserve inactive placement when enabling MGLRU
-17fc5fc5f7c2ba2b01ed181daf742bfb7a9e5114 mm/ksm: mark migration stores with WRITE_ONCE()
-29c5bf7202d3ce14eaced924089dd3acf7058e6e alloc_tag: skip percpu counter allocation when profiling is disabled
-765789fc8ffe0b46be0d531106c13b6bb2b9bedb alloc_tag: remove /proc/allocinfo outside of mod_lock
-d3cc798b707722878295e02e6403ff2266858c79 mm/hugetlb: use hugetlb_vmemmap_optimizable() in boolean contexts
-68ac815f27468aaa352a49bfbb7c23b9abd9703a docs: ksm: fix typos in sysfs knob names
-635f56be5ad560f6097bb000ee68731aa13aac9f mm/ksm: fix advisor_min_pages_to_scan description
-24ae233613811b1294ed454e1f7bc65b9eb4daee selftests/mm: fix line buffer leak in mremap_test is_range_mapped()
-35a3a9a3a368f31d6a3cb903fcca470612c029a4 mm/memcontrol: fix data-race on reading jiffies_64
-de3f61b1b824c06190bd1bbe29910b1c9d763368 mm: remove out-dated document of __GFP_NOFAIL
-17edf573b4e8c4048bf2a22e71d0cf736feabf1c mm/vmstat: annotate data race for per-cpu pageset fields
-305732e093edf55147f5846185b697be5f1a30df mm: remove unused anon_vma_trylock_write()
-9820ade97bcb934586449de7037d2d01ad5907dc mm/swap: remove unused declaration swapcache_clear()
-c20f4e97ce6ac50102c9357294f3caa370fb51d3 selftests/mm: fix soft-dirty kselftest supported check
-b01e296c92e2591fe1e3ce7ebe48d193abff1989 riscv: mm: fix concurrency in mark_new_valid_map()
-2d70cf134bfe94ec6906049fdcc833ae131fdc1e riscv: mm: exclude invalid THP PMDs from page table check
-07780bc5fbdc86c8c576507d1271a110d7fbd602 sh: remove CONFIG_NUMA and related configuration options
-412df95a3557894d847e994a564037a815d53968 sh: mm: remove numa.c
-92896a4217bd733e540ded4f649a968cdf013892 sh: mm: drop allocate_pgdat()
-ba54bb5ef4a8e39f0803ae83a3740d47f07bf5b8 sh: remove setup_bootmem_node() and plat_mem_setup()
-8015e22b98589b996578745fb9532dc39494bf6a sh: drop dead code guarded by #ifdef CONFIG_NUMA
-3ad7bd4b6283260dac8dfba793d3a1bce1d07725 sh: drop include/asm/mmzone.h
-208d20fe010d1811a3b126eaa707f523d2c2ace3 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-ea2d37f3e294de7ceb3f6ab3af7ee05c988c9cc2 sh: init: remove call the memblock_set_node()
-7e46e144d7b4bfba75acdef01a718463e54c42f7 sh: remove SPARSEMEM related entries from Kconfig
-9f2e31ac9f995e8d8dc9427176a266115fecd339 sh: drop include/asm/sparsemem.h
-14e40638607b7f4972356e3192dd76b461b8f16f mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-1aa578423d57b9b993d45bdb9032d142978bdf3f mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6293924465233838053==--
+--===============3184638879153579546==--
