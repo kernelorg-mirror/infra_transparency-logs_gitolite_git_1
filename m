@@ -1,57 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3078380189546447651=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 28 Aug 2026 12:09:31 -0000
-Message-Id: <178791897141.2533040.17150720908377571204@gitolite.kernel.org>
-
---===============3078380189546447651==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 28 Aug 2026 12:15:56 -0000
+Message-Id: <178791935614.2539418.16565707393824384563@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: f04a56972c51e5dd4cb3fb127842ac6bdace765c
-    new: 606e3a1f97aa2fd993f3229914d655c849660d6f
+  - ref: refs/heads/kdevops
+    old: 6e360c3adfd2595ea509714aa359668e141f7e2c
+    new: c946be2670499b6258cb17cf9d59999dadc11cfb
     log: |
-         8cf4604c735b691a6a93f06fc03612283f248879 add a .vulnerable file for CVE-2026-80697
-         606e3a1f97aa2fd993f3229914d655c849660d6f update based on new .vulnerable record
+         e506adbe1242e75a136f05d7c12ff355ed6fdfcd SUNRPC: report local rpcbind calls that get no answer
+         9f9f4f6d597a2d22c8ddc5c7275c43b956d77889 SUNRPC: stop svc_register() once rpcbind stops answering
+         cd02fd3aced6597d6e5cedbed2266b5fb5955fc7 SUNRPC: stop the svc_unregister() sweep once rpcbind stops answering
+         6ffdb511d92a6701a2c4df5bfcffa7eeeeba2040 SUNRPC: stop unregistering listeners once rpcbind stops answering
+         7b2bfc08b20f096d9726630c8ef1b4fa45e6132d NFSD: stop registering with rpcbind after a failure in listener_set
+         be2e3d92b6ab0f8600b97c3aef788e16613c0743 selftests/nfsd: exercise listener_set request validation
+         29c5d243b698ec2a2ca1cb93cabee3f40414decd selftests/nfsd: add a per-netns rpcbind stub and the listener round-trips
+         e77fccf87e5258534131fe95efc49a3d46ecf654 selftests/nfsd: check that listener_set asks rpcbind once
+         c946be2670499b6258cb17cf9d59999dadc11cfb selftests/nfsd: check that listener removal asks rpcbind once
          
-
---===============3078380189546447651==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787918869 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1787918968-e50bb806d9be18a330b2e2c23b3ca43591dafe22
-
-f04a56972c51e5dd4cb3fb127842ac6bdace765c 606e3a1f97aa2fd993f3229914d655c849660d6f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqRehUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0g0QALIvFsR1vZmT+IWlv3r7
-YPs/i1ePZbI6GAoL8rIjYL6sTLijs07TvpaUbTwMG/WEepl2WElU98eIl3qlhDr+
-bzz50s95I9U4fczT1auijLgh7hLOpYsPGfAN1bDEOlHpw9NMHZVfkYqYkwbG0IW/
-fLIevAT/Tj4uA9nQ2PSRQv3jjVtSwWQw+5qSjPVO5y3Fcjq/ypzRD3HSaVipibW2
-TXhqM05/m0As2Vt8rkLsOOxjte8QyNpka8LV+YrDhAXDigr0xUfqrQPSGj4cxkry
-XG8Bwp9U+YR1jMglah/TVQEeVlV7xxKNQFnBea+F0okVBfWCUrRqBEDenjFv2Ker
-v6U4gRvFjc6Wv8l0IODD32hTYlXmynoJIZiOxNKNzxdoRVWBnePmX6SrSG+ZpAki
-FXJx6kGj2Yr3nDO3MMaUqDkscHBhfZri/0CXwLM3xO3Nyo16BzWVqHTGowLnxr6E
-ESdTV6ufdsxc0lkxoYHQYS/6AFb8Z7ZZ4wROfOQqlJz06iGVx4vU8mRFpvtyCeim
-bFEQQg96NXaRsf/mlbmqLyRrIwnjvIfE82MezO8Hx85CFTV7xZEeroWlcDo6i1Lb
-Ss4NJox4De4t82eF2GiPP8SClJHEWwXx9u3+1wpY/TeGFw3Zg/8Vzfr37RYe5DTm
-5np3K48VZIJjJ4teaFxrnHLm
-=MOVn
------END PGP SIGNATURE-----
-
---===============3078380189546447651==--
