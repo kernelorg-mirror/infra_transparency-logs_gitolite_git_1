@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 28 Aug 2026 00:39:20 -0000
-Message-Id: <178787756041.1836190.18219562386696287153@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 00:41:50 -0000
+Message-Id: <178787771020.1839554.4251935372788168176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: afe528ce740db11bd1263cb773a45e4287aa48e1
-    new: 69cc3dfb0153e437a9e013d5b6b2b956e0b0e296
+  - ref: refs/heads/i2c/i2c
+    old: 4ed7013b77f56a3bab06b77aa25754d832b22870
+    new: 3cae804dd2a459b18a130f4f97d9d8598eb862b4
     log: |
-         77549d01edecc20da73c8599e14648877198ce9b i2c: designware: Enable interrupt mask workaround for HJMC3001
-         69cc3dfb0153e437a9e013d5b6b2b956e0b0e296 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
+         3cae804dd2a459b18a130f4f97d9d8598eb862b4 dt-bindings: i2c: xlnx,xps-iic-2.00.a: Drop bouncing mocean-labs.com
          
