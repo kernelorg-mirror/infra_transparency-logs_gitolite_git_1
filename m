@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 28 Aug 2026 10:36:53 -0000
-Message-Id: <178791341343.2468275.14121385228665908295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 28 Aug 2026 11:31:37 -0000
+Message-Id: <178791669713.2506628.3671800120405642176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: 0a0d1d55dad570724bf8c7ea83409639cfb4be9b
-    new: d1b432080f57a2799a1b2d03531f7990be044414
+  - ref: refs/heads/experimental
+    old: 73ca347e3c664593bed06f637ae9b5a26a575b0f
+    new: 3fb05e10f09d9be848d0f1bcff161c95dfcecf97
     log: |
-         d1b432080f57a2799a1b2d03531f7990be044414 exfat: map allocated extents for swap activation
+         3fb05e10f09d9be848d0f1bcff161c95dfcecf97 erofs-utils: lib: use cpu_to_le16() for chunk index startblk_hi
          
