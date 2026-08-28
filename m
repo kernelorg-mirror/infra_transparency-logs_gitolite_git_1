@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Fri, 28 Aug 2026 10:12:36 -0000
-Message-Id: <178791195637.2450909.7667896993842257689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Fri, 28 Aug 2026 10:36:53 -0000
+Message-Id: <178791341343.2468275.14121385228665908295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 139aeb3493dfa14e5a4d12aff2df7eadb8a7b230
-    new: 3e1ee800e52a0f53d7d9a7809be1ffc80ec1788f
+  - ref: refs/heads/dev
+    old: 0a0d1d55dad570724bf8c7ea83409639cfb4be9b
+    new: d1b432080f57a2799a1b2d03531f7990be044414
     log: |
-         984845aec939a2e63c45eddad605e11e1ca1fb23 check: refactor argument parsing with getopt
-         d0f510629f945968e104363adcbe22916e3213d9 check: update usage and README to reflect new argument parsing
-         a5eccab3a04093b50ad8b460cfca347fb6412ebd check: consolidate argument handling into function
-         3e1ee800e52a0f53d7d9a7809be1ffc80ec1788f check: add deprecated options warning
+         d1b432080f57a2799a1b2d03531f7990be044414 exfat: map allocated extents for swap activation
          
