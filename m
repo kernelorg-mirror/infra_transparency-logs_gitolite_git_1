@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4562521632441672416=="
+Content-Type: multipart/mixed; boundary="===============1103268265361731831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 28 Aug 2026 06:27:02 -0000
-Message-Id: <178789842229.2240428.13861820223885818518@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 06:28:37 -0000
+Message-Id: <178789851735.2241027.1466973084447542102@gitolite.kernel.org>
 
---===============4562521632441672416==
+--===============1103268265361731831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,52 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 1963f40cb8c1fa5dcd63cfb1fca2772440881e70
-    new: 1df82f58fe1ffb4fe45953a1db2521a2a79e7499
+  - ref: refs/heads/linux-rolling-lts
+    old: 7d92803242afbafe8b374f1249028232cd45e094
+    new: 19ccd439d0087525b48dfcc8e584a0a940230744
     log: |
-         1df82f58fe1ffb4fe45953a1db2521a2a79e7499 Notes added by 'git notes add'
+         c49f04e8d2b94dbb8d9fd99731dd3f00589c8ace inet: frags: strip GSO state from fragments before reassembly
+         5bbb9c9f8f808710e2123f2b30f0d61d7d698f52 Linux 6.18.48
+         19ccd439d0087525b48dfcc8e584a0a940230744 Merge v6.18.48
+         
+  - ref: refs/heads/linux-rolling-stable
+    old: e6168edb7a99315c1382b5c58f28e9c2cde2ebea
+    new: 031eae08f997ca954427f27c41a0877694c081a1
+    log: |
+         69b73b74d9eb45f5560a8fe4fa406ada580e1340 inet: frags: strip GSO state from fragments before reassembly
+         badc4fe5a9c1a3671ec5ae1294d49ace55128f7b Linux 7.1.12
+         031eae08f997ca954427f27c41a0877694c081a1 Merge v7.1.12
          
 
---===============4562521632441672416==
+--===============1103268265361731831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787898421 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787898516 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1787898420-f26559822905cb728278d3aa13ca6759987b9ae4
+nonce 1787898515-ad6222b43df36421d2c390369693482df869bcf8
 
-1963f40cb8c1fa5dcd63cfb1fca2772440881e70 1df82f58fe1ffb4fe45953a1db2521a2a79e7499 refs/notes/signatures/tar
+7d92803242afbafe8b374f1249028232cd45e094 19ccd439d0087525b48dfcc8e584a0a940230744 refs/heads/linux-rolling-lts
+e6168edb7a99315c1382b5c58f28e9c2cde2ebea 031eae08f997ca954427f27c41a0877694c081a1 refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqRKjUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iIoQAMFsF59tLeAsiNeQW5Iw
-ghsJ2Gf1zA/dEsuFJAesDxoLIFLPdjXRaPrbSemUwIRCvImrmgP+B/Bgr5Pt4+N9
-lMU/L2bDQJo2+Fo7Rvptmqj3O+Gwe5Vf+eoqq6yiZh5+yreYA9Hr2ERNo1+4P0g3
-ikxYRNqvfyfzx4zcvh9IOubTQEOtsXYKVsgRM97FA3UKr31uo0O4z5S+jZ03pkYw
-wSqEKaOpIqTFffp6R/kNz/0PGOaL5M65e3PU2F9jhUatWRdCjj+NEuwRbf7KA0Dv
-f9Wm/Elap955Aa0b1tD8ipmYfnkBTHDts0P32igu+Lx5fL8tk+eIjG8AIEbxvsfx
-Hv5RdUeTKc/9k+z0zx+zA8KTY41of0iz1u7bvfa1SHqqTsXrkiCP9/rcCd5qf/2J
-LEYnnIWvWwIF2rm98uLS+5YqKwto2wopKUZ3Wu3kgBHUtfXaVMGt13YbziQ7Z/FO
-MSYO12UuhYkLAOKapGo6tqoG5XkBB4tyDTZQKKRJpDHxQ73Jj6EwJWl7knkPgZBd
-7zdbZC6L8sxg+tF1t3A9WecB//RRzF647ZeSQb8uw/AXI59/ANv/xNTgqWJMdpiy
-ds3mH24ggdkZ1oCwIRTbvYF7AIR6efvxz9YH5ICChaR/W0opD38vVleIlB1oTSZ/
-QJxIvJWCYLkQiGL7vOq4Wh7e
-=O1d+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqRKpQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+My8P/RqW2VhQBalRNyylFI6i
+QV9en6aJFp/Eyc6jjn1pcubMb0kxh7Dvp5lSFBZ0UwP6I67qdxVIdcyEDi/esDuf
+Rnt33EiWlzOXs83tN50+ocbSqbJkzpYnFPdd+2i4RvtaQ/kd90MnsMgTS9LFvDne
+d1XOlgJ/UDpnalX0GgRcsC7TAIbtyXBACuLj3t9uxbni8GWTpvmQaJ5+2cW83SeJ
+vvVB9Ke5+lPnR5HAslby00tAbV71G8LCgxettpLtbyrO7g50m6Gl9SGCrdHt1xkT
+roRXLW7L3vQ0YHNBtLECn3zwFBPpvCXc2zU8yEYBuiTP/TyhSewPmROqgBMsfc6q
+nK8oTZ6qoVsVZYJtvsDqMQsNTKxSlU65BC/N3/onc6OUWGP0REaKR/TLoe7CWD2V
+MCs9xL844x0Wv/w7hhrl9pYHc6Y00+riYecSkRgeQtnIdBauypEVBgGx8PWd1v4u
+TqnVWvfpCNibeEahyeIKQNYcguvt9TSFDD0djW4PZ4q9XdeKwmdAZ9u8yRkXtB1G
+ELh17P00Dqb2aIuBl5yKBcYQpoXnosCoH52wb5NwiyYptQ7tlmJDZ/PGiGsWrMeP
+zgZlW6J4qTWf6C/0y8HuZ4SkU50eOPGkjzEGpaYId6+FAGR83GbiYkReJehqJY3p
+ce3DUIvFPAgELzuDYWDig4oP
+=UKHa
 -----END PGP SIGNATURE-----
 
---===============4562521632441672416==--
+--===============1103268265361731831==--
