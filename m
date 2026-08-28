@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4358279029662625685=="
+Content-Type: multipart/mixed; boundary="===============6559043694972808757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 28 Aug 2026 12:39:27 -0000
-Message-Id: <178792076745.2554797.17920301113003737148@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 12:39:43 -0000
+Message-Id: <178792078345.2555118.638002051741629952@gitolite.kernel.org>
 
---===============4358279029662625685==
+--===============6559043694972808757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: 6923906a4fd743711fc366cd0314ec4b169b9805
+    new: 5385e8f4cb975bf4cc651e739ef06a4cc3cc2850
+    log: |
+         ed9d3ca61304802c0c11d476c7c5464be417a59c Merge branch into tip/master: 'locking/urgent'
+         5385e8f4cb975bf4cc651e739ef06a4cc3cc2850 Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: d2f36b6e31d423d9331596b1095267157c433ae8
-    new: 6923906a4fd743711fc366cd0314ec4b169b9805
-    log: revlist-d2f36b6e31d4-6923906a4fd7.txt
+    new: 5385e8f4cb975bf4cc651e739ef06a4cc3cc2850
+    log: revlist-d2f36b6e31d4-5385e8f4cb97.txt
 
---===============4358279029662625685==
+--===============6559043694972808757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2f36b6e31d4-6923906a4fd7.txt
+Content-Disposition: attachment; filename=revlist-d2f36b6e31d4-5385e8f4cb97.txt
 
 782cca1ac6f43f5e6d0b1512b63fa517da223aca leds: pwm-multicolor: Introduce default-intensity property
 7ddc04d1bd08f80ffc1e2fb97f3fc6cacab0ffc0 leds: trigger: netdev: Extend speeds up to 100G
@@ -552,6 +559,7 @@ d5dc1e69fd7258ea605c9952e5d5947539159ae3 inet: frags: strip GSO state from fragm
 3ba13f5e7180c034b0a1ef7e052fb780856b134e Merge tag 'devicetree-fixes-for-7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 4a9d62a8774f130a5b8de26ca9f415e6050a9d51 Merge tag 'nf-26-08-27' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 1b78070aaef63512688aebfbc82365ef9d6660f1 Merge tag 'net-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-6923906a4fd743711fc366cd0314ec4b169b9805 Merge branch 'linus'
+ed9d3ca61304802c0c11d476c7c5464be417a59c Merge branch into tip/master: 'locking/urgent'
+5385e8f4cb975bf4cc651e739ef06a4cc3cc2850 Merge branch into tip/master: 'timers/urgent'
 
---===============4358279029662625685==--
+--===============6559043694972808757==--
