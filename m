@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7127023570280568164=="
+Content-Type: multipart/mixed; boundary="===============8234718508185758659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 28 Aug 2026 06:22:35 -0000
-Message-Id: <178789815582.2177571.7565574136494357553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 28 Aug 2026 06:22:41 -0000
+Message-Id: <178789816154.2177770.11255887081869794132@gitolite.kernel.org>
 
---===============7127023570280568164==
+--===============8234718508185758659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.12.107
-    old: 0000000000000000000000000000000000000000
-    new: 1e88bb5ebcb081b8cede80453b198cd719ed2749
+  - ref: refs/heads/linux-6.12.y
+    old: 8b74a2fbba5adab77f2ea88386e9d9fc224be987
+    new: f717995cb7dcd8998ab15516b8006aea09cfde0d
+    log: |
+         dec2edb7aaf12a8878b3a03172ea8fc277b8eaad inet: frags: strip GSO state from fragments before reassembly
+         f717995cb7dcd8998ab15516b8006aea09cfde0d Linux 6.12.107
+         
 
---===============7127023570280568164==
+--===============8234718508185758659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787898155 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1787898154-0fb587bb2d27657a7521a140493af2aca4cfa397
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787898160 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1787898159-6258ef8b7261dd4cc1603d0458414d8f502776cc
 
-0000000000000000000000000000000000000000 1e88bb5ebcb081b8cede80453b198cd719ed2749 refs/tags/v6.12.107
+8b74a2fbba5adab77f2ea88386e9d9fc224be987 f717995cb7dcd8998ab15516b8006aea09cfde0d refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqRKSsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3Y4P/RMI6Y6WoZDURa7poIff
-CEfD5SXsfukUYw2zBvSoj3OTlt6yISLGWHrAGdD1eqP9pqc2ZS9lR/bFF9whLBPl
-o0VjegkQ+MVKgQMo0PLLymOwah4aynhTlmEmHjcsOetqnH2OL3WY5/N3vm7+gvdU
-wEwrcGgMa1XyqwPAHENXpX5bq9WgJ7iPM3dIVHPJ91GUAedRlYP8kQjQzp3UFy6K
-xpd6niQLFGU9nuDKQD5ldFep4KtIFeQ2ELnQWdHli2JwIpTTaRrlrAerGIQ7D7G6
-GHXeZeafmuwgZqaL1rIu/4+A+VCtoCt6ltR0YI271oPCRimVNmC5rMT/dO+tfqAQ
-RctagRSJ6ofQ7/7im4icjhHZZdUe2dQShdLnLjebq+3d3pgmJi7LWIql67oPjiDj
-Rf+3x7bzoxIF+ujcThUaZICHJIH4KUcoUUN79uTsDojrAgK3bEAjh4Ckbq+sv0Ab
-bQz99s3LxvFkzDZQ1OPE1SpkCC5Gnc+4p+LbWQUg1glz52iJEPDATE7xwLKGPsSX
-6ZLQRiG+XlPiP+uqJuNMdvJr6frbmCrAJMN6Q7aCycyh4ptVgLd9oVNMdGlaD0rS
-0MlPDTbkBYJJAlnHUVIFoAKYAXKvGDdqEypY9Pz6rUoYSVmCsel8JHnrVjYUPCXt
-5ve5T0Bcdw1dPSjen5vq21yX
-=OZVo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqRKTAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pq0P/j9NsaGRVW2+LA6i2f6L
+F+LD3GMqdvNcJjKtMAVCEpQ44ZlTZo0cvDEAv9enqmzinwMd2neK/VrkY8xbHJAB
+0/iGRDm7yvyW2lVNU/MsHpH5ldfkCeMBmnDQ3c8ZSZ7FXSsmRClC46XLIl0Coo3Z
+A7Bw5GJKMUgUBKS5WiL2ACEV5py5o4ecIJlSquXAx8WY5Z//sQwZdPBxNoAXAkZR
+0ckG7sEH1/2KLH94O0v54c/HMmtpZJVnEAo3VgsMG3x3/nN4Owa+2CwrukBuBraE
+NMnpjVUeYuLPn536/aKjcBU4sUw+hrECwWUIY5akE3ODm+D6LnclcgyuoqyEZqXU
+89SAdLYnuXeLyXtNyB3ubIuDunPWrL14OMnU36A4aYZT+4YzpY24ke9fwwBLe2Ok
+g5YdEczt9FmMrmAEBwbaQZ1oQUmgLF1RLDkXkW7gmdN2ArYGDmWew90sW9JBNEKZ
+CJxcWkmDRttV7YDv88vcdAVdOelcLNhs+Kp3TijuWJ3KNVOCk2THq8I8uRpZvJRX
+UqXgG7jstjQjqUybpF40Yub+w2c0Mc8ul1+9qLevtOl6Z4P4WYragdqC4FNpIAen
+MjQc0gnItCZH+I8yjWmpMXPeOrsBivilgNPoCymvDhyaawvcH821egMMbM5DJnrb
+uF0ZhEqt+JiZBua260AxZVDw
+=kbsc
 -----END PGP SIGNATURE-----
 
---===============7127023570280568164==--
+--===============8234718508185758659==--
