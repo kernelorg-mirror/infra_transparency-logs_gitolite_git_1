@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3184638879153579546=="
+Content-Type: multipart/mixed; boundary="===============9013062996871752304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 28 Aug 2026 01:11:19 -0000
-Message-Id: <178787947970.1867695.12320618399700057133@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 01:11:23 -0000
+Message-Id: <178787948391.1867907.3672543335175269135@gitolite.kernel.org>
 
---===============3184638879153579546==
+--===============9013062996871752304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 234e77148199ae43b83a0a03a3f481e03460a286
-    new: a74303019eb700aba7a9cc98848d73f3a564be91
-    log: revlist-234e77148199-a74303019eb7.txt
+  - ref: refs/heads/mm-stable
+    old: 0685630fdccb62dcb0e3f44525a40578da5f6dc8
+    new: 18fbf5151d2c0bfe433c7428eef03cabf5fdb2fa
+    log: revlist-0685630fdccb-18fbf5151d2c.txt
 
---===============3184638879153579546==
+--===============9013062996871752304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-234e77148199-a74303019eb7.txt
+Content-Disposition: attachment; filename=revlist-0685630fdccb-18fbf5151d2c.txt
 
+9907ed8457af0e867b0a0d6e3e92019ee6cedd83 ksmbd: add AAPL READDIR_ATTR V2 support
+689f1eb3719d61700b58f984ac8602837f004f8c ksmbd: report actual xattr value length in stream enumeration
+6cbb144f8ed7ab7cb86f2f120740f578db9b62e0 ksmbd: quiet mdssvc RPC log spam in create_smb2_pipe
+350684e0498512d06963858b810101f58563810b ksmbd: handle allocated range queries on dense files
+3c707d4b3f926fc9b7b13b5bfe71462cb0e0e5d8 ksmbd: fix permission checks for file allocation ioctls
+8b57448a147d2378088e63cd473e7f2a967d6802 ksmbd: honor byte-range locks for zero data
+a72692c5bcabb67d2320e1630192f78874a7c524 ksmbd: support file level trim
+96db370817d5f21a1dc10efb2210db05163f312e ksmbd: fall back to copy for duplicate extents
+cb946cd133f7958da4a62a102cf560de4857b2dc ksmbd: validate file ids for query network interface info
+99580a386220b8b0f156738c4bf195da53d3ba85 ksmbd: send lease breaks for handle-caching share conflicts
+7f8029591bed054aceba18ca333e6ab20064441f ksmbd: synchronize lease breaks before renaming files
+8dd5ca858d26f947c59297ba96a8446a11d7aebf ksmbd: check base file delete pending for stream opens
+dd562212178ef7bcd24e17efff172143fe2b705e ksmbd: validate object id handles before response buffers
+125c471ca9c954ab171cb02035f8a05baf04404a ksmbd: preserve DOS attributes across truncating opens
+f495154703cbcc0050cfd53469bd56965791616b ksmbd: retain connection for pending notify work
+bb8bf7eb13b518b379356a0c5dee8a23d6ee37ac ksmbd: add SMB3 request replay support
+1f7dd03a88a8405143aab195f6fa9ed2243494b1 ksmbd: fix malformed procfs status output
+fe4dc5987d7daa87e2b61d29cb840f4bff3ac689 ksmbd: expose connection runtime state in procfs
+7f9832651e6da5493f241438034376f5aff5e972 ksmbd: report session and open file details in procfs
+1248f400e0997b6e881454488baaf91f8e1828d5 ksmbd: add procfs monitoring for active shares
 4c670ccd5790816fc0f5714d5ee3c67dd5a9c67a ksmbd: extend procfs server statistics
 bc2f3f3dd69424f76e2ed3dc53d29bfd6c9966d4 ksmbd: honor client signing-required in all modes
 d6bf101da7dd5d2c2fd6e21de67d4ac43900110e ksmbd: fix durable V2 persistent handle handling
@@ -1030,25 +1050,5 @@ b035a8be20ddfb932205beb9a1cbd80ea42e6cfb Merge tag 'trace-rv-v7.3-2' of git://gi
 73e3f0710014fe6d4ed98cfc02292f6121db7558 Merge tag 'nfs-for-7.3-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 5e6ff28676dd92a608eb00eeb8d1319ad34024dc Merge tag 'hyperv-next-signed-20260826' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 18fbf5151d2c0bfe433c7428eef03cabf5fdb2fa Merge tag 'mm-stable-2026-08-26-15-22' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-0c4b1a09f5cc325e96667de1b9593a29c134e612 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
-58e84116d657a9787ded702f1366c8051233c1aa memcg: make the v1 soft limit knob inert
-d4d081d524b2586e37435a4dec589316c152cbef mm/hugetlb_cgroup: call page_counter_set_max() outside VM_BUG_ON()
-f05dc611ac09e7ec034171c7521329f7d9cbb940 mm/migrate_device: avoid out-of-bounds writes for compound folios
-ab97a72b51e03fe2b7f134e102a9e6dacae28084 mm/hugetlb: keep max_huge_pages when dissolving surplus folios
-d30d09a5bab2d1fdec84a43f38e4b4a4a23c55cf mm: fix incorrect vm_flags usage when checking allowable orders for tmpfs
-075ed60634f26658c82db7cd9d2605ecd4b56cdd userfaultfd: reset err to be 0 when move_pages_ptes succeeded
-4a6983a217b4358b6c648e5b280261ca533544d9 MAINTAINERS: add Lance Yang as a hung task detector co-maintainer
-bb287a9d130e4ec4d51a2c1978c4f620596388bd mm/huge_memory: transfer the pmd dirty bit to the folio on zap
-61f04edb01700facfa80400472b9595f7b5d22a3 mm/mempolicy: fix sleeping allocation in alloc_pages_bulk_weighted_interleave()
-8e3de38f4e343c459e2af42d8eec87b07f38157c mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
-cdf11750966aa030a14795eee1932b69a9e6af27 Revert "once: don't use a work queue to reset sleepable static key"
-43034abc8011217b7157bf8f0d92be370988c3de MAINTAINERS: remove Lorenzo as THP co-maintainer
-aca92a235fd21e4edee80f27daa20e45af94f607 MAINTAINERS: mailmap: update entries for Thorsten Blum
-941af39a0916ca70490dd9a3af126760c637b946 module: fix lost error code from codetag_load_module()
-111fcf0007d156585a9a1d6b5dced6ded307e627 MAINTAINERS: cover all of RAID
-84bed12969501e37e4b0d3070b89a16cb7b6c44e MAINTAINERS: add Kiryl as a THP reviewer
-b3918cce92f38967e43984d0bbc02d3260def89c tmpfs: fix unicode_map leaks in casefold option handling
-2d390cf687916da6a2947cb74d47c14d98fc4f68 mm/mremap: reset unfaulted VMA page offset for MREMAP_DONTUNMAP
-a74303019eb700aba7a9cc98848d73f3a564be91 mm/secretmem: properly account locked pages
 
---===============3184638879153579546==--
+--===============9013062996871752304==--
