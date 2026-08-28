@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7641910920358067781=="
+Content-Type: multipart/mixed; boundary="===============1512275842328203143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 28 Aug 2026 20:43:28 -0000
-Message-Id: <178794980834.2912739.5833198763769959616@gitolite.kernel.org>
+Date: Fri, 28 Aug 2026 20:43:33 -0000
+Message-Id: <178794981351.2912953.10755436633136526299@gitolite.kernel.org>
 
---===============7641910920358067781==
+--===============1512275842328203143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 91ec2035134982b98fab0609a9fd8480e8217dc1
     new: 1b78070aaef63512688aebfbc82365ef9d6660f1
     log: revlist-91ec20351349-1b78070aaef6.txt
 
---===============7641910920358067781==
+--===============1512275842328203143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d5dc1e69fd7258ea605c9952e5d5947539159ae3 inet: frags: strip GSO state from fragm
 4a9d62a8774f130a5b8de26ca9f415e6050a9d51 Merge tag 'nf-26-08-27' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 1b78070aaef63512688aebfbc82365ef9d6660f1 Merge tag 'net-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7641910920358067781==--
+--===============1512275842328203143==--
