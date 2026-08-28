@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 28 Aug 2026 01:14:38 -0000
-Message-Id: <178787967817.1869586.14557777545791192774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Fri, 28 Aug 2026 01:46:22 -0000
+Message-Id: <178788158200.1894408.4383717174449655564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 37c12dc88c75275236e9039ac4fe14a28e89d371
-    new: b68b2b3f8ba86b9934c86451c6ea0ffe655c6c4e
+  - ref: refs/heads/master
+    old: 350b029b528b3d0388058ca973a9425425c0a852
+    new: 1db833eae65890e3d4f782ba17fe3e99b52cd3b9
     log: |
-         b15b548d52b43ba8ac4652bc2c7244a8dd1e9622 i2c: core: fix debugfs UAF on adapter removal
-         b68b2b3f8ba86b9934c86451c6ea0ffe655c6c4e Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
+         59c12999d091fa983ec448d277d0caa355ab4cd3 Support the TFTP windowsize option (RFC 7440)
+         0a1b12106f132f58c12a54a6bb796e9d228d4937 tftpd: make the max windowsize configurable, default to 256
+         1db833eae65890e3d4f782ba17fe3e99b52cd3b9 version: call this branch 6.0
          
