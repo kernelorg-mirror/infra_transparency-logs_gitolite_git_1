@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3856539225340263927=="
+Content-Type: multipart/mixed; boundary="===============2924124114452687315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 29 Aug 2026 02:26:51 -0000
-Message-Id: <178797041111.3158652.803275063472400801@gitolite.kernel.org>
+Date: Sat, 29 Aug 2026 02:26:55 -0000
+Message-Id: <178797041538.3158870.12766956009469358783@gitolite.kernel.org>
 
---===============3856539225340263927==
+--===============2924124114452687315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 2bc0b5bbaf889f6726a75baae57b99c7f67c4a34
-    new: 200d7349e06a4f329c961b0b271194fa93de0f6b
-    log: revlist-2bc0b5bbaf88-200d7349e06a.txt
+  - ref: refs/heads/7.3/scsi-staging
+    old: 12e67eb89eb2b9516685c744d3f7de0a2d1bd701
+    new: d5869dae5080e976d4b03cc33eb7ceb527f242bf
+    log: revlist-12e67eb89eb2-d5869dae5080.txt
 
---===============3856539225340263927==
+--===============2924124114452687315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1787970407 -0400
+pusher 75C5DE3D 1787970413 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1787970407-f42fb3f784e28df8ba4d43f8c282a38b13070a1d
+nonce 1787970413-3ff9c50744cdf58f30419fb1c36583a677972c8e
 
-2bc0b5bbaf889f6726a75baae57b99c7f67c4a34 200d7349e06a4f329c961b0b271194fa93de0f6b refs/tags/mkp-scsi-staging
+12e67eb89eb2b9516685c744d3f7de0a2d1bd701 d5869dae5080e976d4b03cc33eb7ceb527f242bf refs/heads/7.3/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqSQ2gACgkQ7ulgGnXF
-3j1lsg/2LCLuKIIinD/tIfut9mhwjrqc1W0N/p8VXAPK0M+CIRrL9q+197BUR0vf
-+ECim7pbUDoJiL9yCTUdva+9CUAH2xf4FqHMhDBlkYjR15qHiBYZdL2zdH/2CoX9
-h412/QtrfafNkbb950VvVOjeHuSKfvKSossXLlVtP0EpL24GrgwjYG6Ek2VLIHLK
-xAzYDBjFo4uWLNdy769u442pSLibWaRd74559N6FEQBZ1P92bllcouPvL/gc5FWa
-Y/bipF7+RtzOScaGWgMmB4kulHEt1rFiud58002+ncN4CkQMWh6qJ2v3gW/n/mXA
-A8BB06UDBYAQ8iiAaVy4aUKdB7Rx0niBktWQ6OTpLAHukdFdgAMtszzzrCZjK9qC
-Xw7I8ox/rHNPaVd+z/7GA37NojedWKqmWebEfD8MSQ8UNn7qL333PNJopV9nFRM/
-ZAXNU1qBWAWh2heMKlywKcjsAinFvcEZw2oig6jWnpTD/kt6utUZBOmp+VpOsIrD
-SYcFNJoLSD4IW6OQxEdTCqxp/OJ0g9ZpEW28xYkD8Qas7HRsi/t0hhPvcJJtryRG
-rfhJHw6BTwXJ/prn8w0ZWeOddlgWSp6zOHbU5AG4eTxBbGMK1vIzbDv3DDi01Ld0
-o1F2L7v7sY2vIk9/kTE277aufS9HmkS9shFD9NcjIy5SenEFaA==
-=roOb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqSQ20ACgkQ7ulgGnXF
+3j0PGw//dSS6J7JjZkxtUyzNyL6MvQ+C1pXNC1GAx8vaysuBaT5v1hlho/sEDsnT
+9Qw0CxxDcuQR/PuGvUETiuFmKFXQ+LUmnktHr6NrNRFXWXRWQQa1F7xKIeah6W+u
+u9lxy9lUcJxZW7N6FmQkcU3B6kUQDCJZfuwH/01T0FzOoxDlg0VkdswtWLT09ZBY
+5/ocMkSmnZcpAgc3ArGMdWdg1NKVOHL1rZgU/vSM2R0PbUDqSXRfpLoZap50SUQ+
+1BGdrzmB0Wlp9PNipR3rezCRzwRzxA5mrau9Pl0XViabGJBzW0dl7W+zzAqjZoyY
+/Q6tAqJiRbEiVh6GlBtc56WIV6+f6I9UzE7ZmX033MsI5XjbD4p9RjfTzlz1yMi0
+xmTy6233l5CG6bqDlD/TLE0Iw+9B5hwo/O4cgVDpuFVQPq13rYl0fTg1S8M9k0P5
+EZ/10R/4cliBofopACTsWr5VvDStL3YQicB133wHYQE9E04m94l0NyNL+Tp7hAux
+WQEdxgYpfp4Al/0z4uix3h0wfGdogCSnpw/ioEtQP+fdAOpdjqNszpyrFwf8vhfm
+NbGQcCQd4cd+yysVe3UGItPhFkggNtrvXDcBjtpQjKe3V5yETCJWfZPW3MuJD8LD
+o4FCWUplXlo/NDv09dqdHuBGZLTCjYZ8YR8K2D7TqfYjlnGTwTM=
+=hf7l
 -----END PGP SIGNATURE-----
 
---===============3856539225340263927==
+--===============2924124114452687315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bc0b5bbaf88-200d7349e06a.txt
+Content-Disposition: attachment; filename=revlist-12e67eb89eb2-d5869dae5080.txt
 
 98f0a1422e285f6132a73932ebd4fe5c6f513261 scsi: fnic: Initialize the NVMe local port info before registering
 3f92a64545165bdbb36dee8fa35626b295463313 scsi: pm8001: Use rollback index when freeing MSI-X vectors
@@ -69,4 +69,4 @@ ef675ea168453a9b3e635b8ac543f92938bdd03b scsi: ufs: ufs-pci: Add support for Int
 c46cc9cee39bd6f395ab9ac98b1794705df13d7c scsi: ufs: ufs-pci: Add MCQ support for Intel UFS 4.0 controllers
 d5869dae5080e976d4b03cc33eb7ceb527f242bf scsi: target: iscsi: Fix hang for aborted WRITE_PENDING commands
 
---===============3856539225340263927==--
+--===============2924124114452687315==--
