@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0382437277396820990=="
+Content-Type: multipart/mixed; boundary="===============0029599607920585538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 29 Aug 2026 08:55:17 -0000
-Message-Id: <178799371735.3423624.17810782010212603277@gitolite.kernel.org>
+Date: Sat, 29 Aug 2026 08:55:38 -0000
+Message-Id: <178799373859.3424264.16289133158906781281@gitolite.kernel.org>
 
---===============0382437277396820990==
+--===============0029599607920585538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: d8a388ef9c8aa2518b8f015be1a4a80afaeb3007
+    new: 652d8bb42a854ebf7cf5e719a515535a00ea1e30
+    log: |
+         82896b02f7fb52355c1d64e4a63caf83c4eaac05 Merge branch into tip/master: 'locking/urgent'
+         652d8bb42a854ebf7cf5e719a515535a00ea1e30 Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: 5385e8f4cb975bf4cc651e739ef06a4cc3cc2850
-    new: d8a388ef9c8aa2518b8f015be1a4a80afaeb3007
-    log: revlist-5385e8f4cb97-d8a388ef9c8a.txt
+    new: 652d8bb42a854ebf7cf5e719a515535a00ea1e30
+    log: revlist-5385e8f4cb97-652d8bb42a85.txt
 
---===============0382437277396820990==
+--===============0029599607920585538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5385e8f4cb97-d8a388ef9c8a.txt
+Content-Disposition: attachment; filename=revlist-5385e8f4cb97-652d8bb42a85.txt
 
 84477867e122251b8c47db240a8d699b0836aa6f tty: xtensa/iss: use strnlen to improve iss_console_write
 a7c958e8721eb2724ee2e2ef13129bc67e1c8a75 xtensa: correct CONFIG_XTENSA_CALIBRATE_CCOUNT macro name in comment
@@ -404,6 +411,7 @@ ce727a090be04dc7c51edd5c0da2a41d2fb6e106 Merge tag 'ubifs-for-linus-7.3-rc1' of 
 4cc4cc367fd5c37ddef3279038bccbf152ef68d9 Merge tag 'for-linus-7.3-1' of https://github.com/cminyard/linux-ipmi
 a99d741df7372f2175677673d78a6335f3e0706f Merge tag 'drm-next-2026-08-29' of https://gitlab.freedesktop.org/drm/kernel
 cf72cbb39da84b6f02f90c07f33b102fc10b16f0 Merge tag 'io_uring-7.3-20260828' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-d8a388ef9c8aa2518b8f015be1a4a80afaeb3007 Merge branch 'linus'
+82896b02f7fb52355c1d64e4a63caf83c4eaac05 Merge branch into tip/master: 'locking/urgent'
+652d8bb42a854ebf7cf5e719a515535a00ea1e30 Merge branch into tip/master: 'timers/urgent'
 
---===============0382437277396820990==--
+--===============0029599607920585538==--
