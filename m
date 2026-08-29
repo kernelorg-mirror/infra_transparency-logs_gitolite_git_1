@@ -1,37 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0029599607920585538=="
+Content-Type: multipart/mixed; boundary="===============8016917691227837867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 29 Aug 2026 08:55:38 -0000
-Message-Id: <178799373859.3424264.16289133158906781281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 29 Aug 2026 08:56:56 -0000
+Message-Id: <178799381630.3424947.12260903864073933820@gitolite.kernel.org>
 
---===============0029599607920585538==
+--===============8016917691227837867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d8a388ef9c8aa2518b8f015be1a4a80afaeb3007
-    new: 652d8bb42a854ebf7cf5e719a515535a00ea1e30
-    log: |
-         82896b02f7fb52355c1d64e4a63caf83c4eaac05 Merge branch into tip/master: 'locking/urgent'
-         652d8bb42a854ebf7cf5e719a515535a00ea1e30 Merge branch into tip/master: 'timers/urgent'
-         
-  - ref: refs/heads/tip/urgent
-    old: 5385e8f4cb975bf4cc651e739ef06a4cc3cc2850
-    new: 652d8bb42a854ebf7cf5e719a515535a00ea1e30
-    log: revlist-5385e8f4cb97-652d8bb42a85.txt
+    old: 1b78070aaef63512688aebfbc82365ef9d6660f1
+    new: cf72cbb39da84b6f02f90c07f33b102fc10b16f0
+    log: revlist-1b78070aaef6-cf72cbb39da8.txt
 
---===============0029599607920585538==
+--===============8016917691227837867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5385e8f4cb97-652d8bb42a85.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787993710 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1787993809-266a901f5f1332e4076b9d4dea472c85cd5b0cef
+
+1b78070aaef63512688aebfbc82365ef9d6660f1 cf72cbb39da84b6f02f90c07f33b102fc10b16f0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqSnm4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2+AP/ROZrEjsXenUliSA54j2
+amEHVs6le9ei9WlszbVmV1fd/+EitrqV+prXmhgXScPvcyRLChKlzymPsxrIByKP
+MkZxBf1Ow3Kl+ytYQzVj6Sj3Yz+tBhtURDKjLL695iTeIR08C28rN7NQOZCkiT8+
+ljWRaNV0u6V3KsTIqVL7P7Usz7KtWNzps41eI4WR2t7eH0BC5iQdqdMm4FAlB2HF
+vxwnDtinNjfbzzYBPZAAgT+n4/1eI+GshEJQYdEAjXFfEks5taBGClX9iFiOrlgm
+Tihmv5wVMOxkbbfw5N5PUg5csXhPm4n7oKvYDS75s0kNqLWJ2XCje4ub5m6O/qwT
+i3vvb+xFh0XPWd2WP5qvbKa04xRGnKR2gBBmqcm4mCvRbk9JvDyyW1oHmCQGzB/Y
+y6FGvNndQz2s531W8bSTdgyZnr7VABj1ZhCsUJ55gO/FXfK9CPj/TpR8C30lj265
+nB01Er6wJ/fmf7eMSAV4v7m2ImSkd5FC/1FbymQ0gKpksDB2Fc7ecl0f0+N3DEF4
+SJdzwO5AqMYlMwoSNHzethPAF1Pyv4VxJN/8sKGUgT6Gikl2P4p022sSKM4ltNjO
+SZMMpwozJFdQCDRljBEzGNRUYWT07GkRIxEIU5DbwfCHLK8GsYB5+UrTDpTfj7ab
+3msdbIr4PJdZF6lOTlE44s//
+=5NYR
+-----END PGP SIGNATURE-----
+
+--===============8016917691227837867==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b78070aaef6-cf72cbb39da8.txt
 
 84477867e122251b8c47db240a8d699b0836aa6f tty: xtensa/iss: use strnlen to improve iss_console_write
 a7c958e8721eb2724ee2e2ef13129bc67e1c8a75 xtensa: correct CONFIG_XTENSA_CALIBRATE_CCOUNT macro name in comment
@@ -411,7 +435,5 @@ ce727a090be04dc7c51edd5c0da2a41d2fb6e106 Merge tag 'ubifs-for-linus-7.3-rc1' of 
 4cc4cc367fd5c37ddef3279038bccbf152ef68d9 Merge tag 'for-linus-7.3-1' of https://github.com/cminyard/linux-ipmi
 a99d741df7372f2175677673d78a6335f3e0706f Merge tag 'drm-next-2026-08-29' of https://gitlab.freedesktop.org/drm/kernel
 cf72cbb39da84b6f02f90c07f33b102fc10b16f0 Merge tag 'io_uring-7.3-20260828' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-82896b02f7fb52355c1d64e4a63caf83c4eaac05 Merge branch into tip/master: 'locking/urgent'
-652d8bb42a854ebf7cf5e719a515535a00ea1e30 Merge branch into tip/master: 'timers/urgent'
 
---===============0029599607920585538==--
+--===============8016917691227837867==--
