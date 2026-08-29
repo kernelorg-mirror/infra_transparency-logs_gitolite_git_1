@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0812725647241384571=="
+Content-Type: multipart/mixed; boundary="===============3490450075332878193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 29 Aug 2026 09:00:15 -0000
-Message-Id: <178799401533.3432136.15294541949209477753@gitolite.kernel.org>
+Date: Sat, 29 Aug 2026 09:00:18 -0000
+Message-Id: <178799401883.3434723.3993950783630116669@gitolite.kernel.org>
 
---===============0812725647241384571==
+--===============3490450075332878193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: d20570edfd75c6e3963ef69a47f9b83fa9772641
-    new: 331172ebe898be02aa3e63c9c8b269c004af9369
-    log: revlist-d20570edfd75-331172ebe898.txt
+  - ref: refs/heads/main
+    old: 73e3f0710014fe6d4ed98cfc02292f6121db7558
+    new: cf72cbb39da84b6f02f90c07f33b102fc10b16f0
+    log: revlist-73e3f0710014-cf72cbb39da8.txt
 
---===============0812725647241384571==
+--===============3490450075332878193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787993894 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1787993917 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1787993994-7ba11cea29060393068972b98b7c18da698e0737
+nonce 1787994016-186a1e9c583c70f6540e0e96c53adc49fa4a1f21
 
-d20570edfd75c6e3963ef69a47f9b83fa9772641 331172ebe898be02aa3e63c9c8b269c004af9369 refs/heads/readfile
+73e3f0710014fe6d4ed98cfc02292f6121db7558 cf72cbb39da84b6f02f90c07f33b102fc10b16f0 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqSnyYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a2QQAMsjtkiuZY+LJzx7EYTd
-xGqAfF/GKJqs1YHdRKJssgOreNTzOTjCF6ZpVKfM+lbw+Da271zqxQdfGy0+5V/u
-wQ5V5VV7Yf+HJDnsjICu85swkjMqx54XWhrjcZS9TxSP2jkAaoLoBl82+yihP81t
-SaA+VeTc5MnLBkFMMy9KwuGEEUM3wY3hKE/0ni7h2R3c536dYtcY8g0oobQf6D+g
-TbXzRQUqJpAfwq5S24+pbNG6VamQ8VV30/t8MpOjbZ0kSJUtecji89uMguHe7dWH
-dScQHWwbBLsyU4zEBzwAgQFuNbHnNPsCjRGIntOAxUJWd591ybEwwAV/FHdwjRaP
-AhOYuYWFeFfa/D0HLI2MgRSQa8XQFwUQFe8voMx9Zdw5oKQrm3fL7zcd9rl5B/OS
-d/5BqqA3pAiIjswU+yo9Hd6TDQXRfC3/9rcUoRmYdliNqmUmQP6nYe1eGG27X6VS
-NH/BFJKAhagWT8Nb7NzYQ+BEgGNPq7em9Tz0Ibu+plpB3x2Bi5t9pREJQomMsZNM
-/M7XDPDBV6RjsqvZYk9PVSRzIs0yMx+vkzSQ41+O3xU64v2Ol+n/DbdiQ7z3nzmM
-7Gh/yZVwIcJ75yPcRIpXA7z+u7JOb86Y9ruplW3hKpvL/yNUEC5zMo6LABzVnWl1
-S5YlsrXCS+/m9U3LzI2MaHP7
-=NBkD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqSnz0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wPYQAI2Vh7fVDL8KifPpHaNu
+uSjwqhrBlQvl6entv1qVKLVZdCxk6ZNZrY8SLD9rK/Kx/XEaQihTeLvXJShiLEYO
+Vyjn28hR+ejDf6/daxpd6pA3SbwJDkQMIT4R9lk2WbXW4U03zqF5N+1niU56PwtC
+l+IvOdfpzWCCARappK7CyQoX2XxCVAErbiYKpy2Lf34tPuSW+KAnc78e7aGvnQkw
+9XuKyDDQt82YQngP5kogFcGRWXaEcWze3L88TNJIiKTFLueaAJ6aAq2LZJ6EhgnX
+sJKm0e7AgFnVaoqjAgFsoBoE1BUQld0xOMF7ilYh0px4WfR7EvEDURZRn77WpT8N
+r7XzxOIljWK8agGytQVJhtG+aUQcNiI79yE38LCOOt/WG8SsTkRLGcjUwQ1xvyTb
+KrfHDhN3czMXSRIwFyaUtI7I0Lfa1H/ycYb1j+mo8BNRJ04HtI32lM23oWffvcAg
+jL7qLYasUMwZ4V3hHRrhEgEP4htzdOQyw7Nu4sUyJqyvR1DrUoFrkbgaB9IjtMFD
+aDfEVmxj4l376/mx9jwxOZMRgw/XM90BBVPTpmTxYxTyxrETLekTGZbU574lKcXQ
+YtURwfDtKFrm9dDatEvv+T6vu/nyj+OaFSzJ1pL5XR1RUE0mdK5lzm6xB6P0fSey
++k+hmmC5lhAqCLsGx2ahEdoU
+=wK3k
 -----END PGP SIGNATURE-----
 
---===============0812725647241384571==
+--===============3490450075332878193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d20570edfd75-331172ebe898.txt
+Content-Disposition: attachment; filename=revlist-73e3f0710014-cf72cbb39da8.txt
 
 84477867e122251b8c47db240a8d699b0836aa6f tty: xtensa/iss: use strnlen to improve iss_console_write
 a7c958e8721eb2724ee2e2ef13129bc67e1c8a75 xtensa: correct CONFIG_XTENSA_CALIBRATE_CCOUNT macro name in comment
@@ -961,9 +961,5 @@ ce727a090be04dc7c51edd5c0da2a41d2fb6e106 Merge tag 'ubifs-for-linus-7.3-rc1' of 
 4cc4cc367fd5c37ddef3279038bccbf152ef68d9 Merge tag 'for-linus-7.3-1' of https://github.com/cminyard/linux-ipmi
 a99d741df7372f2175677673d78a6335f3e0706f Merge tag 'drm-next-2026-08-29' of https://gitlab.freedesktop.org/drm/kernel
 cf72cbb39da84b6f02f90c07f33b102fc10b16f0 Merge tag 'io_uring-7.3-20260828' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-54d6c7b8ea3205f0b3e34f92e13886b724409457 readfile: implement readfile syscall
-2c90dca23d738989af7323694ad39f4b07ede051 arch: wire up the readfile syscall
-62116217731dc5d67c0cf67b3ffbd98836c8e837 readfile.2: new page describing readfile(2)
-331172ebe898be02aa3e63c9c8b269c004af9369 selftests: add readfile(2) selftests
 
---===============0812725647241384571==--
+--===============3490450075332878193==--
