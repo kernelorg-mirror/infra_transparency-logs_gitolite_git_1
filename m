@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Sat, 29 Aug 2026 02:02:22 -0000
-Message-Id: <178796894294.3141303.6922028342437433758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 29 Aug 2026 02:13:12 -0000
+Message-Id: <178796959259.3148414.11458148375271939701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: a3e4684ccb9dc54c5ece9f67ef8c736be1d84547
-    new: 06fde53f647a3ced9a9cddfc43a76c162652eacf
+    old: a70fde231ee017ce382fb9188ccb09262bfc00c1
+    new: 3edd9810d36ed8fddb900b198366e1206626519d
     log: |
-         06fde53f647a3ced9a9cddfc43a76c162652eacf tftp_set_socket_buffers(): set a bit more of a conservative value
+         0d1daf9a5eafe49aadfec65dc31aa0727513af2f foo
+         36d71aa5e046debf4af987d848c25e5e2ae97b0d foo
+         3edd9810d36ed8fddb900b198366e1206626519d foo
          
