@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7913163422137106023=="
+Content-Type: multipart/mixed; boundary="===============1334553468382951903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 30 Aug 2026 22:37:49 -0000
-Message-Id: <178812946910.928223.5755857654730242838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Sun, 30 Aug 2026 22:39:33 -0000
+Message-Id: <178812957370.928824.8382277715035042520@gitolite.kernel.org>
 
---===============7913163422137106023==
+--===============1334553468382951903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/arm64-fp-stress-kvm
-    old: cacdfd6ed2eae1318dbd7822ae4d8e0a78aa44e4
-    new: c2588af26beed87817fac86b50cbcfec43819ec9
-    log: revlist-cacdfd6ed2ea-c2588af26bee.txt
+  - ref: refs/heads/b4/ux500-dts-ab8500-regulators
+    old: b173b6f24531107eacedf184f8e023b3227629e6
+    new: a1a674b44a7d4e9e9c7ba7d43c46a48093732181
+    log: revlist-b173b6f24531-a1a674b44a7d.txt
 
---===============7913163422137106023==
+--===============1334553468382951903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cacdfd6ed2ea-c2588af26bee.txt
+Content-Disposition: attachment; filename=revlist-b173b6f24531-a1a674b44a7d.txt
 
-307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -1038,17 +1036,19 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-4a82eff3d950ac3a7faf6a14d72608da925f2205 kselftest/arm64: Add coverage of interactions with KVM to fp-stress
-f5ff24c57c83c219e24c12d0ff6f43b544c0d7bc kselftest/arm64: Factor Linux syscalls out of asm-utils.S
-d6a6b76def6993b1c72bed766b94d224dd782ecb kselftest/arm64: Factor shared signal handlers out of fp-stress loads
-adde9ef1fb2f5fb980abe7a83a258c0ac3016629 kselftest/arm64: Move exit calls out of fp-stress loads
-5055449703e5574a1d66b53dc307f5c432afde7e kselftest/arm64: Use exit_error() rather than SIGABRT in fp-stress
-d44af8ed4c3da72765831016db51164d138dd344 kselftest/arm64: Exit with an error code on data mismatches in fp-stress
-c104c02f3d91367d789e86b605ccf3a67902e630 kselftest/arm64: Factor startup code out of fp-stress load programs
-22f957071eca0f38106b842465488cfb9faa170e kselftest/arm64: Remove the sched_yield()s from the fp-stress loads
-670da44a0bc43de0dac97f263fee2199aa392fb7 kselftest/arm64: Add a very simple VMM for use in fp-stress
-ec0acb96e44e09bc287b79b43f7bca0b81173cf8 kselftest/arm64: Build KVM guest versions of the fp-stress loads
-fd0f23be39315b3ea44775d672e107c08f85f5cb kselftest/arm64: Use execv() to start fp-stress test loads
-c2588af26beed87817fac86b50cbcfec43819ec9 kselftest/arm64: Run KVM guests from fp-stress
+82a87ef046f8f0f7a9f301618f4a4b95bb6c0b19 Add AB8500 buck regulators to the Ux500 device tree
+8071a5e353dd46e40bf086717ebd48749f3577ff regulator: ab8500: Fix AB8505 VANA voltage selectors
+9245022bed3d7eb6e5fac780af8c6413b6fe265c regulator: ab8500: Add AB8505 VAUX3 3.05 V setting
+d2876507e0783f49acd675112e69de9cc3dd6382 regulator: ab8500: Handle AB8505 VINTCORE selector 7
+21e8134287e30b4371c5c8aa4425c5e5e1d96cc0 regulator: ab8500: Treat cut 1.0 VAUX3 as fixed
+1b358fb5565622c883b1455ae0aa0d405f70b4e9 regulator: ab8500: Test dedicated enable bits only
+451a3f29e36009fd165929ce886ee184e0f46824 regulator: ab8500: Propagate mode enable read errors
+b6eabad7ae8e6c78b4c75ee51d0b4f0087d2ea87 regulator: ab8500: Use linear ranges for LDO voltages
+c2bfbc58cb02e78cf1288624874b5acd27bb973a dt-bindings: mfd: ab8500: Add regulators
+19eee21e2eb85ad85f2144e095d2ae82bad12790 regulator: ab8500: Add buck converter support
+cb17584c5dff4697f7285323eb7d4f547cc18280 regulator: ab8500: Preserve OTP-enabled buck regulators
+8d702b9422bbea80c752d1e088915bd2cbe446b7 regulator: ab8500: Use scoped guard for shared mode mutex
+f6a22699615da7c9d885bf9582fe274a7b0bd9e5 ARM: dts: ux500: Add new AB8500/AB8505 regulators
+a1a674b44a7d4e9e9c7ba7d43c46a48093732181 ARM: dts: ux500: Fix up regulator assignments
 
---===============7913163422137106023==--
+--===============1334553468382951903==--
