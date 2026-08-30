@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 30 Aug 2026 15:00:29 -0000
-Message-Id: <178810202992.608192.1146325219355768412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Sun, 30 Aug 2026 15:19:37 -0000
+Message-Id: <178810317725.620257.9409144501948373365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/tags/i2c-fixes-7.3-rc1
+  - ref: refs/heads/irqflags
     old: 0000000000000000000000000000000000000000
-    new: 4eaab0de1a92abef4eee0adb9ace639396f69e61
+    new: d5c6783a39c9f3ae4513eb61038d5306e4ba5f5b
