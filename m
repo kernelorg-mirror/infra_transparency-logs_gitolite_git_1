@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3786848537639375726=="
+Content-Type: multipart/mixed; boundary="===============8192013626386363855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Sun, 30 Aug 2026 22:03:57 -0000
-Message-Id: <178812743757.902983.8670147742174063875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 30 Aug 2026 22:04:45 -0000
+Message-Id: <178812748532.903484.11205085047155714789@gitolite.kernel.org>
 
---===============3786848537639375726==
+--===============8192013626386363855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: 23e790697fd8ebbb53dcaa5222520fb4a704aacd
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-23e790697fd8-cee9395acd80.txt
+  - ref: refs/heads/arm64-test-gcs-locking-no-enable
+    old: e6ca903ba2ca21ec49d79b0e0a3200c88994e817
+    new: 2f79c433bff5b9b2100fd5cb0b0550c1a3945059
+    log: revlist-e6ca903ba2ca-2f79c433bff5.txt
 
---===============3786848537639375726==
+--===============8192013626386363855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23e790697fd8-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-e6ca903ba2ca-2f79c433bff5.txt
 
-1be05c6afbb2c4052d0a13fc91ddcd89aaee9614 Merge tag 'input-for-v7.3-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
@@ -505,6 +502,7 @@ c9e17e381e021536a9f0fe36f4c9c693d6c0f27c rtc: msc313: Select by default on MSTAR
 60e73c07b3fc12958a63de77b482d18bda413a6a ASoC: rt766: add RT766/RT767 VA1 device IDs
 902caade3cfd60f99bf71b355e7c86344bd831e5 arm64: ptdump: Make note_page_flush() range aware
 beca1b97a21d81eae9cbd267ecc44b5d2193e60a KVM: arm64: ptdump: Flush the last region
+1476cca098f6d3a553fcec6fe9b7d86e15c00b59 dma-contiguous: fix truncation of numa_cma / cma_pernuma sizes >= 2G
 b8f070ac3167595069feb1f794c127b805115645 arm64: process: Fix context switching MTE store-only tag check
 34b5c4a6e4fb9dbb3f9d87f3b0fb0372105c8302 fuse: zero the partial EOF page when extending a file
 0b0e645ed2c858978a8de877ecb6355d30a6ba91 Merge tag 'auxdisplay-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
@@ -1050,5 +1048,7 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+a286af405df258cc2da0ab9165215d54ef6bc39e EDITME: cover title for arm64-test-gcs-locking-no-enable
+2f79c433bff5b9b2100fd5cb0b0550c1a3945059 kselftest/arm64: Extend gcs-locking to cover cases where enable is unlocked
 
---===============3786848537639375726==--
+--===============8192013626386363855==--
