@@ -1,42 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============3322962499847590987=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 30 Aug 2026 01:18:09 -0000
-Message-Id: <178805268963.4154659.5370408316174187837@gitolite.kernel.org>
-
---===============3322962499847590987==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sun, 30 Aug 2026 01:18:47 -0000
+Message-Id: <178805272727.4155479.8088472872768941922@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 6ae934b5b799446b58f327d723b4acd3178e9330
-    new: 776c86a3e72265bb2e71d515995fec0992a715a8
-    log: revlist-6ae934b5b799-776c86a3e722.txt
-
---===============3322962499847590987==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ae934b5b799-776c86a3e722.txt
-
-264d8fd2794fabe76a89abd5d4f5f8c1ed5fad85 bpf, keys: Add a bpf keyring for program signature validation
-abaa0835b4f381067cc04bfd58180679d813578b bpf: Refuse caller-supplied keyrings when the bpf one is active
-300b348e6d5e8e96c065c42c9999baca224c1661 bpf: Raise the bound on a program's signature size
-d37168c99361b6ee36d5be0c1e159b594f32473c bpftool: Support ML-DSA program signing
-6754aeca602224a3f5e8c6703c6549791d8f6227 selftests/bpf: Add a test for the sealed bpf keyring
-e7ada0800ce2a6dcc35ca0e1dfdab37bfb2ea4a9 selftests/bpf: Rebuild signed lskels when signing key changes
-1841d6cbc5c777d5dfba3723965ab14a9764d96e selftests/bpf: Rename the verify_sig_setup.sh setup into setup-rsa
-478cf384def8cc4cb7f92739b73c76acbac976ca selftests/bpf: Add an end-to-end ML-DSA signed loader test
-b638a82d64f1ee480c4b6c6c8e3da2ae84c1edb0 selftests/bpf: Allow appending to guest kernel cmdline in vmtest.sh
-1c8cb8bf73293264e2a44d0b029a5047a7dd5e20 selftests/bpf: Add tests for bpf keyring in signed loader
-8588fa592985accc22c6757d6397d588fe71752d Documentation/bpf: Document the bpf keyring and improve examples
-776c86a3e72265bb2e71d515995fec0992a715a8 Merge branch 'bpf-keyring-and-signed-loader-ml-dsa-support'
-
---===============3322962499847590987==--
+  - ref: refs/heads/master
+    old: c6ff14f1cd9e9b7d5631882ff509fbc29e90cfe0
+    new: 28d75dd3eb60812b3a87cbdf0d52c42f51b28a78
+    log: |
+         28d75dd3eb60812b3a87cbdf0d52c42f51b28a78 selftests/bpf: Bound the offset accumulator in __tld_fetch_key()
+         
