@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5710482489611920210=="
+Content-Type: multipart/mixed; boundary="===============3382530790910447446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 30 Aug 2026 01:16:45 -0000
-Message-Id: <178805260589.4152386.16154563256029512854@gitolite.kernel.org>
+Date: Sun, 30 Aug 2026 01:16:52 -0000
+Message-Id: <178805261287.4152747.8569267232252824090@gitolite.kernel.org>
 
---===============5710482489611920210==
+--===============3382530790910447446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: cd35e1b10182c42b4ae31ee49119463b17d8ba7f
     new: 6ae934b5b799446b58f327d723b4acd3178e9330
     log: revlist-cd35e1b10182-6ae934b5b799.txt
 
---===============5710482489611920210==
+--===============3382530790910447446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f7213961e8e24b3ed98b13406c06fcf91138ad2f selftests/bpf: Test kfuncs returning ar
 25b0d73a7742d7415156c607f6278682efc12fc2 docs/bpf: Document arena pointers in a by-value return
 6ae934b5b799446b58f327d723b4acd3178e9330 Merge branch 'bpf-allow-arena-pointers-in-by-value-returns'
 
---===============5710482489611920210==--
+--===============3382530790910447446==--
