@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6136499738086868183=="
+Content-Type: multipart/mixed; boundary="===============6878012938881604522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sun, 30 Aug 2026 23:23:05 -0000
-Message-Id: <178813218567.960625.1354163573561439177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sun, 30 Aug 2026 23:23:08 -0000
+Message-Id: <178813218848.960710.2777321693703169813@gitolite.kernel.org>
 
---===============6136499738086868183==
+--===============6878012938881604522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-7.3
-    old: 44f7b876b7c6c7b3a219b7a810d3d9548df21540
+    old: a9c2f0d401fd1e11ce59e4243946a59bd818e8c5
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-44f7b876b7c6-cee9395acd80.txt
+    log: revlist-a9c2f0d401fd-cee9395acd80.txt
 
---===============6136499738086868183==
+--===============6878012938881604522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44f7b876b7c6-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-a9c2f0d401fd-cee9395acd80.txt
 
+f1daef2834042f2d45e120f55a74bd76a711e5c2 rtc: s32g: add missing MODULE_DEVICE_TABLE()
+1be05c6afbb2c4052d0a13fc91ddcd89aaee9614 Merge tag 'input-for-v7.3-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -135,8 +137,6 @@ bb50e70f4ffe12ad1710883603ba8109bb5d6dfd efi/runtime-wrappers: honour EFI_RUNTIM
 01787ed2fde4ac42bc35339dae799a5abb094ed0 efi: make efi_guid_to_str() take a const GUID pointer
 eb01ffabeb52251f821c18438af8a65391f7ac79 efi: apple-properties: validate setup data header length
 b2326338dc683e8c1067c0cbf7a47986c4190902 efivarfs: Rate limit statfs() handler
-b2702908ee23ef31bfcf241a2e07ace0eb76bd71 spi: amlogic-spisg: Make sure clk_init_data is fully initialized
-a9c2f0d401fd1e11ce59e4243946a59bd818e8c5 spi: loongson: pm: add .freeze .poweroff .thaw .restore
 dfb8bc1d286fd97b7cf47e3af5df84cfb068d214 ASoC: rt712-sdca: Pull high JD2 to prevent from entering TV mode
 13087ad7817e6e5f210064518bfc4d6d58a9c2f3 drm/xe: don't WARN on kernel job timeout when device already wedged
 c73cb5b7c159246dd572277c668851a56e516019 ALSA: mtpav: shut down output timer before card teardown
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6136499738086868183==--
+--===============6878012938881604522==--
