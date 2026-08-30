@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2190675341232466887=="
+Content-Type: multipart/mixed; boundary="===============6136499738086868183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Sun, 30 Aug 2026 23:23:02 -0000
-Message-Id: <178813218289.960366.16292713963941701609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 30 Aug 2026 23:23:05 -0000
+Message-Id: <178813218567.960625.1354163573561439177@gitolite.kernel.org>
 
---===============2190675341232466887==
+--===============6136499738086868183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-7.3
-    old: ef4f2357df6e9dd6213ce00d01253f3c458d5df0
+    old: 44f7b876b7c6c7b3a219b7a810d3d9548df21540
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-ef4f2357df6e-cee9395acd80.txt
+    log: revlist-44f7b876b7c6-cee9395acd80.txt
 
---===============2190675341232466887==
+--===============6136499738086868183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef4f2357df6e-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-44f7b876b7c6-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============2190675341232466887==--
+--===============6136499738086868183==--
