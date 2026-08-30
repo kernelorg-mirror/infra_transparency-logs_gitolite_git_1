@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2956609410738679573=="
+Content-Type: multipart/mixed; boundary="===============3322962499847590987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 30 Aug 2026 01:18:04 -0000
-Message-Id: <178805268407.4154457.12142461530419100802@gitolite.kernel.org>
+Date: Sun, 30 Aug 2026 01:18:09 -0000
+Message-Id: <178805268963.4154659.5370408316174187837@gitolite.kernel.org>
 
---===============2956609410738679573==
+--===============3322962499847590987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6ae934b5b799446b58f327d723b4acd3178e9330
     new: 776c86a3e72265bb2e71d515995fec0992a715a8
     log: revlist-6ae934b5b799-776c86a3e722.txt
 
---===============2956609410738679573==
+--===============3322962499847590987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b638a82d64f1ee480c4b6c6c8e3da2ae84c1edb0 selftests/bpf: Allow appending to guest
 8588fa592985accc22c6757d6397d588fe71752d Documentation/bpf: Document the bpf keyring and improve examples
 776c86a3e72265bb2e71d515995fec0992a715a8 Merge branch 'bpf-keyring-and-signed-loader-ml-dsa-support'
 
---===============2956609410738679573==--
+--===============3322962499847590987==--
