@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 30 Aug 2026 22:50:13 -0000
-Message-Id: <178813021398.937994.2158399268366484707@gitolite.kernel.org>
+Date: Sun, 30 Aug 2026 22:50:17 -0000
+Message-Id: <178813021763.938093.3118702950306478485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 15b975f173f18ad5f5097d94c005e6fe57deb040
-    new: fd97db580cea937d447dce7f5ac7f3d185fe0038
+  - ref: refs/heads/regulator-7.4
+    old: 7a89ec1b4fcc89420b3473705da33097edf6aea6
+    new: f7396c2dbbc1bed6c2c554d1ddf80d16e4780a7d
     log: |
-         040a7beba8bf9457db82dd84a021eb54dbfcb9a7 ASoC: fsl_mqs: Add DAPM output widgets for MQS_L/MQS_R pins
-         e1c41b5395a1f3b04681ffa38fbc72ef14b4d8b7 ASoC: mediatek: mt2701: Use devm_clk_get_optional() for audio_mrgif_pd
-         d468c1c89e7d777d1fbf35618f9d8b98d88ffd6d ASoC: mediatek: mt2701: Use dev_err_probe() for error handling
-         fd97db580cea937d447dce7f5ac7f3d185fe0038 ASoC: mediatek: mt2701: Drop redundant probe error messages
+         97350c1541d0182195f022f459840a8bd3747b2b regulator: pca9450: Use LDO5 low-control enable mask
+         0c47038219a048b12c7e095d6f4b0cdd146e878a regulator: pca9450: Support regulator-off-in-suspend
+         f7396c2dbbc1bed6c2c554d1ddf80d16e4780a7d regulator: fixed: reject incompatible platform devices
          
