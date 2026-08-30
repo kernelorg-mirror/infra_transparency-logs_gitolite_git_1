@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8192013626386363855=="
+Content-Type: multipart/mixed; boundary="===============5137612573110226315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 30 Aug 2026 22:04:45 -0000
-Message-Id: <178812748532.903484.11205085047155714789@gitolite.kernel.org>
+Date: Sun, 30 Aug 2026 22:09:13 -0000
+Message-Id: <178812775316.906857.8430353908434426281@gitolite.kernel.org>
 
---===============8192013626386363855==
+--===============5137612573110226315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-test-gcs-locking-no-enable
-    old: e6ca903ba2ca21ec49d79b0e0a3200c88994e817
-    new: 2f79c433bff5b9b2100fd5cb0b0550c1a3945059
-    log: revlist-e6ca903ba2ca-2f79c433bff5.txt
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: 86d7fa4d65bde9a4aa323592066426c4cf1c0b3e
+    new: 1ea197c995fac113130738fdb3b3bec1600458de
+    log: revlist-86d7fa4d65bd-1ea197c995fa.txt
 
---===============8192013626386363855==
+--===============5137612573110226315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6ca903ba2ca-2f79c433bff5.txt
+Content-Disposition: attachment; filename=revlist-86d7fa4d65bd-1ea197c995fa.txt
 
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
 bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
@@ -1048,7 +1047,8 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-a286af405df258cc2da0ab9165215d54ef6bc39e EDITME: cover title for arm64-test-gcs-locking-no-enable
-2f79c433bff5b9b2100fd5cb0b0550c1a3945059 kselftest/arm64: Extend gcs-locking to cover cases where enable is unlocked
+f0adcf725dc6c33c66b4b317bf7cc244ca13a4ee arm64/sve: Performance improvements with SVE state saving
+5c8456ddad6c3e52ffc975670eb061b9860577d3 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
+1ea197c995fac113130738fdb3b3bec1600458de arm64/sve: Disable TIF_SVE on syscall once per second
 
---===============8192013626386363855==--
+--===============5137612573110226315==--
