@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5917043653018628552=="
+Content-Type: multipart/mixed; boundary="===============4390579508074653529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 30 Aug 2026 02:30:05 -0000
-Message-Id: <178805700563.26859.3264171733428057589@gitolite.kernel.org>
+Date: Sun, 30 Aug 2026 02:30:22 -0000
+Message-Id: <178805702272.27152.8151830863830792209@gitolite.kernel.org>
 
---===============5917043653018628552==
+--===============4390579508074653529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: 9ac751b6fbdf017ab99c370c11c47ca9c65100f8
+    new: 34918d90e55a4325a42dc646695d2ef30badc9e4
+    log: |
+         37ca8fd62ea4b98a7c21e0519232c80274503409 Merge branch into tip/master: 'locking/urgent'
+         34918d90e55a4325a42dc646695d2ef30badc9e4 Merge branch into tip/master: 'timers/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: 652d8bb42a854ebf7cf5e719a515535a00ea1e30
-    new: 9ac751b6fbdf017ab99c370c11c47ca9c65100f8
-    log: revlist-652d8bb42a85-9ac751b6fbdf.txt
+    new: 34918d90e55a4325a42dc646695d2ef30badc9e4
+    log: revlist-652d8bb42a85-34918d90e55a.txt
 
---===============5917043653018628552==
+--===============4390579508074653529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-652d8bb42a85-9ac751b6fbdf.txt
+Content-Disposition: attachment; filename=revlist-652d8bb42a85-34918d90e55a.txt
 
 431e735e9bb6b7fd8e2ea9d83f0627bb5c5687ee scsi: qla2xxx: Fix size_t format specifier in qla29xx_process_rd_image()
 b9f679dfe629004b593f018df33b330d799bcee4 scsi: mpt3sas: Avoid freeing unallocated PCIe SGL buffers
@@ -56,6 +63,7 @@ ff9365a4c9991cca68fd48c7729808f2fdae2036 scsi: qla2xxx: Fix an error code in qla
 df125bd16280b19835bfa2eef6504b505790f1f6 scsi: MAINTAINERS: Update my email address
 12e67eb89eb2b9516685c744d3f7de0a2d1bd701 scsi: snic: Fix SCSI host leak on workqueue allocation failure
 08dbfad3f5040f5bdb6c529da20d6d4e81fefd72 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi
-9ac751b6fbdf017ab99c370c11c47ca9c65100f8 Merge branch 'linus'
+37ca8fd62ea4b98a7c21e0519232c80274503409 Merge branch into tip/master: 'locking/urgent'
+34918d90e55a4325a42dc646695d2ef30badc9e4 Merge branch into tip/master: 'timers/urgent'
 
---===============5917043653018628552==--
+--===============4390579508074653529==--
