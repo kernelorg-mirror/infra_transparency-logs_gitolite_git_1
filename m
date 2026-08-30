@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sun, 30 Aug 2026 02:47:38 -0000
-Message-Id: <178805805880.39272.4884731854847387614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 30 Aug 2026 03:01:41 -0000
+Message-Id: <178805890109.49827.16971073167589060081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/ntfs-next
-    old: ac727d86fb84bdc9626ba9c756c26767459f3083
-    new: 03c6ecc4b4b13a3901f207152451fdd2d82e40c4
+  - ref: refs/heads/master
+    old: c213be531ab9f9e5d2f51d0988f34e324963b471
+    new: 6df4c4330f1bfb13d28fb87c601882ac383383b5
     log: |
-         41a52ba4a5fe25b2cca431fe76fb5f3d8ad35139 ntfs: read WOF chunks outside the decompression lock
-         03c6ecc4b4b13a3901f207152451fdd2d82e40c4 ntfs: fix FITRIM range alignment
+         6df4c4330f1bfb13d28fb87c601882ac383383b5 Fixes for all trees
          
