@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5858432263618962053=="
+Content-Type: multipart/mixed; boundary="===============9080742058265814152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Mon, 31 Aug 2026 18:09:29 -0000
-Message-Id: <178819976960.1891631.7667462178898200871@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 18:09:33 -0000
+Message-Id: <178819977358.1891790.8447299193487246551@gitolite.kernel.org>
 
---===============5858432263618962053==
+--===============9080742058265814152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fscrypt/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 7dd38d9dd7a05329825fe2324d4d8e27ad4b3cec
+  - ref: refs/heads/for-current
+    old: cf6c993c0feca7984797e634deba3c80342e199a
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-7dd38d9dd7a0-cee9395acd80.txt
+    log: revlist-cf6c993c0fec-cee9395acd80.txt
 
---===============5858432263618962053==
+--===============9080742058265814152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7dd38d9dd7a0-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-cf6c993c0fec-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============5858432263618962053==--
+--===============9080742058265814152==--
