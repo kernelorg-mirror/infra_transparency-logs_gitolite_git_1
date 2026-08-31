@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 31 Aug 2026 21:20:42 -0000
-Message-Id: <178821124201.2099534.11437871347201726145@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:20:43 -0000
+Message-Id: <178821124357.2099837.4496226211867075754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/tags/samsung-soc-4.5
-    old: 9d75caabf3dc94a08500c80a966247a442d82527
+  - ref: refs/tags/samsung-soc-4.6-2
+    old: 74a33c6a04a04c650cb036f87d4779af667fa2bb
     new: 0000000000000000000000000000000000000000
