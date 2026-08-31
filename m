@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4073546871245033762=="
+Content-Type: multipart/mixed; boundary="===============9060625173505755517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 31 Aug 2026 16:41:33 -0000
-Message-Id: <178819449354.1821302.18128335254185128672@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 16:42:10 -0000
+Message-Id: <178819453015.1821701.7530322383346903353@gitolite.kernel.org>
 
---===============4073546871245033762==
+--===============9060625173505755517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/test
+  - ref: refs/heads/devel
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============4073546871245033762==
+--===============9060625173505755517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============4073546871245033762==--
+--===============9060625173505755517==--
