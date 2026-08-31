@@ -1,31 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============6538723691879513384=="
+Content-Type: multipart/mixed; boundary="===============3383213189878780359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Mon, 31 Aug 2026 11:36:53 -0000
-Message-Id: <178817621355.1564959.10657861236565818739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 31 Aug 2026 11:36:59 -0000
+Message-Id: <178817621917.1565185.16899949563309121090@gitolite.kernel.org>
 
---===============6538723691879513384==
+--===============3383213189878780359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: b3c1ec1a9ad84ec2f14d343d28c6032feaec5b79
-    new: c1a6b4ca3b68ef794f5e754af00592721dddc10d
-    log: revlist-b3c1ec1a9ad8-c1a6b4ca3b68.txt
+  - ref: refs/heads/vfs.base
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============6538723691879513384==
+--===============3383213189878780359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3c1ec1a9ad8-c1a6b4ca3b68.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1788176216 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1788176215-062467bb1fd6594871ab147e84b607a3d9c50f7a
+
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/vfs.base
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapVnWAAKCRCRxhvAZXjc
+osgYAQDx6k/vqnk1mcZ0J0p4Hof12NusWIL7QQxexai8Pza4+QEAmQLlWOhlGk0+
+xWEPRDAkuPmC7fsgqUiUDKTv+h8qRAs=
+=et/B
+-----END PGP SIGNATURE-----
+
+--===============3383213189878780359==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
+
+a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
@@ -1048,7 +1071,5 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-69c61d4b7e42ed308cd9b9d5dc46bc5e1dc4bae5 memblock: simplify reset_all_zones_managed_pages()
-c1a6b4ca3b68ef794f5e754af00592721dddc10d memblock: remove conditional return with no effect
 
---===============6538723691879513384==--
+--===============3383213189878780359==--
