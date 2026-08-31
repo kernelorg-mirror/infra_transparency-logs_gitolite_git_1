@@ -1,58 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8192010427582388432=="
+Content-Type: multipart/mixed; boundary="===============2261743531011602471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 Aug 2026 09:43:42 -0000
-Message-Id: <178816942228.1476485.13183162066051429215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Mon, 31 Aug 2026 09:44:43 -0000
+Message-Id: <178816948390.1476958.4824778503152498811@gitolite.kernel.org>
 
---===============8192010427582388432==
+--===============2261743531011602471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mm/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/usb-linus
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: ff44dfb03a293bf30e31f98772a1dd316a6071d1
-    log: |
-         045b5bef916d1cb1a52cb6aa68f78fd8b1235cef usb: xhci: Fix HCS_ERST_MAX conversion
-         05506a76f13a279a204b6f9b89b8352b646e54d3 usb: xhci: Fix isochronous scheduling regression
-         ff44dfb03a293bf30e31f98772a1dd316a6071d1 xhci: fix lost bounce buffers on TDs spanning several ring segments
-         
+  - ref: refs/heads/slab/for-next-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 5ff172f6c94d282d83cb88bdfec5f647ad9c6105
 
---===============8192010427582388432==
+--===============2261743531011602471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788169419 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1788169419-a463147e4539bc41563da25434e729dc2678f047
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1788169480 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
+nonce 1788169479-98501aaf1399d01545a5a1553c375a04aa5782b8
 
-cee9395acd8043be0644b25c34bfa86623f2b935 ff44dfb03a293bf30e31f98772a1dd316a6071d1 refs/heads/usb-linus
+0000000000000000000000000000000000000000 5ff172f6c94d282d83cb88bdfec5f647ad9c6105 refs/heads/slab/for-next-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVTMsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gUEP/0dCHlln/utVowkniQs1
-2j6AVcP/rZM84ttluRNq7qFR+McDNApFnwBtBlDV19rsjuiz74lDw2+ZTLLS4Za9
-qvmVSjvxsrdts3VtCYbmAvp6nO+5XYur2R0NgTq8EEucjl7ew0v0fImLuvEi8bGi
-dObF7aKci+qQp721tKCH4qi/iVwzSKhYMz/zaBzG0CgxT0+1FdoEy1sTyHHpucwR
-7Geb6Ipde/jlKXYvOJXazaNMNHSauWry8kPTSn14yLHsxAwY0fxW0SUEZkTC+iUq
-SKBrwB7yP9tlD4Jxr+nZmZ/Pi2RQvo3l9zdKRx4T/exm/0GRp+NBYLd0cnd55sxK
-3EaO6wn1uYHn6HWpOKR0WfE80rtNd++1luH+FcJLsWQIZ7XJCGxbJrX5aOV7xdIK
-sSN5jl4882fmwY0JbMSH0ClJuhcXgYCYRsS/ddsVbprw988wTeT8d0OV6ms24Cdl
-uB/fvnguFWrW1QrgLNV+TV6lmIOKTzsmPdy5T2KgywXegknYHG6OYyFL79ncyq2j
-Q+/Meq0p5XNjaqKiTn0eIWG+u4O4wcuRuTI7Iev796LxrtZ5+jW3H8mrp8QD0iQj
-i1PCUnyfj70ptIxREsM4KNNEwNKP4DU2DmeWV/ySjGwQbZRo1VhU6iQZUlSqDnnP
-rtFMmRuRfSAKXEwZpuHJPHwI
-=EIhv
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmqVTQgbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiada8H/A9s/JAOswpqQZAg6/zF
+U8lMayLhwSq531VY1yIQzL/Tk1jaNFYkxiW1qRWrvnc4BeJczTeQxB6tswQXZo6I
+AWlm35/XLsWfOjyudOkhAMgirNp8+2kHxTkGlpm+KgkvBBrQrXxDsUAETuZHrE6e
+hHK6MkGVDe4HURgtNXn84D+xG15jhbNmvU49IdPdQgcoq5q6yRi0Brb+g9Han4YV
+Gl5o2g+KWCG/X9Zr8vMcg9T6EBOcTYiwAyqNVtisQ1n5gP7ah+EasmuyoeCcBHHC
+IoZzFZXj+ged045MopiTGfN8VZigoKLUxA0ePn+YpDyxWaaKzWRtQ2LCo8qG/DrC
+obQ=
+=kmqZ
 -----END PGP SIGNATURE-----
 
---===============8192010427582388432==--
+--===============2261743531011602471==--
