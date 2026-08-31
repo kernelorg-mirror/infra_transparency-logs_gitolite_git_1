@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7064838598562350125=="
+Content-Type: multipart/mixed; boundary="===============8112311341399636518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 31 Aug 2026 20:48:00 -0000
-Message-Id: <178820928030.2016755.7895584201154745977@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 20:48:05 -0000
+Message-Id: <178820928541.2017018.13026174469799727987@gitolite.kernel.org>
 
---===============7064838598562350125==
+--===============8112311341399636518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 9453bc6a69ef43755f1c28d5688cacdd69fa16bd
     new: 92d50319b4f0c0bbee8a236a09063272cd22faab
     log: revlist-9453bc6a69ef-92d50319b4f0.txt
 
---===============7064838598562350125==
+--===============8112311341399636518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bfde6848c1e24fd979d0138c57c1cc28c35093c3 perf jitdump: Fix funlockfile on unlock
 98bfe1142ccbaa5ffdca5dcdddd26f238ad33585 perf jitdump: Validate sym string NUL-termination in code load
 92d50319b4f0c0bbee8a236a09063272cd22faab perf jitdump: Validate unwinding sizes against record payload
 
---===============7064838598562350125==--
+--===============8112311341399636518==--
