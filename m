@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3212094691446390086=="
+Content-Type: multipart/mixed; boundary="===============7409404747263613412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 31 Aug 2026 07:17:53 -0000
-Message-Id: <178816067376.1364010.448938387841067571@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 07:18:12 -0000
+Message-Id: <178816069250.1364334.7597086073382735177@gitolite.kernel.org>
 
---===============3212094691446390086==
+--===============7409404747263613412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: cf72cbb39da84b6f02f90c07f33b102fc10b16f0
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-cf72cbb39da8-cee9395acd80.txt
+  - ref: refs/heads/readfile
+    old: 331172ebe898be02aa3e63c9c8b269c004af9369
+    new: dfc6a5679a97b3ebf85a309af44c733d326224d4
+    log: revlist-331172ebe898-dfc6a5679a97.txt
 
---===============3212094691446390086==
+--===============7409404747263613412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788160558 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788160575 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1788160658-af7061ba15362660855482653939b19bc81bf281
+nonce 1788160675-7fbd041e7896597a8a84eff7d7d9d996f56c74be
 
-cf72cbb39da84b6f02f90c07f33b102fc10b16f0 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/main
+331172ebe898be02aa3e63c9c8b269c004af9369 dfc6a5679a97b3ebf85a309af44c733d326224d4 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVKi4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0+UQAIcoKAJ+ltHjGQaC3jY5
-etomSB1b6CBF2alABsXtQcGF1wuGEaIoYOt+s8zipZfZqTd7odA+H4ySG9P1B7eD
-586IQjmrsrr/12eYH+OEincVXb2x5NZNVKE7Z2BcZC821IYbk3FKmWdha/wUplc0
-7uZmldbqtJS+jvxqrBjR4YsNCQiJC3SCJyuUOLl4v+GPHEdCBq5Jb3AxWsQLNNrO
-9JH/Rqd27sPnvk03Xvd0Hhq8qBn6YZkRRTKEA78bmx5bdcJJxoMZ0AGWcGbBvrTp
-FxA79HTQbTK+UEnAADfIXsdmaJzXIzDlTSiN1dU9FINEP3iF6q0W+ogP7QURIAHO
-zugccPyRXqbt/g/PCQnv00ve9md0TOxFog+jNrQsmYkAdL804Izi5i+WMAiwe2PN
-7LWvyknWuMcz4tF+QDUofPXBSCccxmZcUIFwSQI5tqivj2VSBV6fAnfSTIZs/5Sp
-zro3V8X82FLZ9qUwc273yyB50M+LoVibOHzNpktmpw0G59JIoWlykt0Q9beb8Nh5
-iSSy9D0Cf/9vGOB6tZhmfgxnYfyeMNgn04l7xTaHr+nSCrNNMCrv4PyaSFCXe9Kh
-2pu+o+sQMeGmPmj7HCXLT1T1yAFN3tGDV7Te3J688L/6Q6c3quj4tZ+v5pTiHXWP
-HZH26vDmRdi0+ESAWjW8nNmq
-=PuNB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVKj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KMUP/0naFJ+rSpWtN+vfCejt
+5jPgsUuMelHfpe2gzBhlrdFerkZHolZ8TrV25+MiY4bDsRIqVfE0EYCi/bIo4EC5
+7eqgbhg39TUCOPboUHJrviHNTC6uWcTBbDFuryC0RZ7Z+e7wveCYIpwLDZAU1ugf
+F5pJRvp1EXz9ekxd2S2A5YC8FHWotVBm0ZqAQrt2ReJalmwtoxSMIGqi+DDSx0qS
+1P9BLqOUjwD1MmXjljmxNfF/ZG3aF0i3mVAL9dFwvBjJdISa0V9aTRGwoVK3JNTR
+R7o01VpYQ31AlNevhTNmr4qC1o4LdqE6/yPNGT/uMobThlWPx5AnELh/DdVO0Czt
+pjFS3LtOkI31a0qzMxhZiiiqCvkODFgdLv4ckiy/dRCxSl4R7OxmEnUQCpQzsJXg
+CDrswbLy5TbAzaRq6cN3gpmLBX12m8+TYNyEp6QpVWhpLRgcN1yQC+APWypVHYHh
+kyA3URsCFT3fgPBLOvn5YEzxu4PQtwPcZEOPKdCJkL3TXMy/K3I9AU4TjtndMkKA
+Je8mu0uot7QopW3idy8Nij4OfFI6ed170TU4yvjQl0Mx8VqInvehxJhAs1Kf8iJf
+lHvP98w+IEulQyqSFwjYAmcbLacbv4be9Ea1KtLWsP/jYPYrUqv/tf1OoVjQMNDm
+G0LkkiGHW0yDKg3zJzEprpIY
+=xmJA
 -----END PGP SIGNATURE-----
 
---===============3212094691446390086==
+--===============7409404747263613412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf72cbb39da8-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-331172ebe898-dfc6a5679a97.txt
 
 d5bbc9b3d20c3f90b31a64c62bb4a800b9a5941c ARM: 9473/1: kprobes: test: add MODULE_DESCRIPTION
 7e8ee82e69fde9d589272ec5e6f702358903be1f ARM: 9477/1: Disable broken eBPF JIT on the Risc PC
@@ -152,5 +152,9 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+cd2ce04d2be2c48d34a44706199675f21c1b012d readfile: implement readfile syscall
+d0aa27f268a52bf0484d9b38d3870855286c07c7 arch: wire up the readfile syscall
+56b33fc51a416b3c50b51d1f1eae0dbdd9b74072 readfile.2: new page describing readfile(2)
+dfc6a5679a97b3ebf85a309af44c733d326224d4 selftests: add readfile(2) selftests
 
---===============3212094691446390086==--
+--===============7409404747263613412==--
