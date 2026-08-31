@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5874920263579787648=="
+Content-Type: multipart/mixed; boundary="===============3996179609639458640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 31 Aug 2026 04:37:20 -0000
-Message-Id: <178815104010.1181442.7367185864111619584@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 04:37:28 -0000
+Message-Id: <178815104801.1181667.13422027366297478364@gitolite.kernel.org>
 
---===============5874920263579787648==
+--===============3996179609639458640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: e3e3bf40916c1e810df03958cfa7ba6883cdce79
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-e3e3bf40916c-cee9395acd80.txt
 
---===============5874920263579787648==
+--===============3996179609639458640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============5874920263579787648==--
+--===============3996179609639458640==--
