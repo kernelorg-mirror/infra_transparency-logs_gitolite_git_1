@@ -1,41 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3301253266948757082=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 31 Aug 2026 12:45:13 -0000
-Message-Id: <178818031346.1623831.6341195713607356260@gitolite.kernel.org>
-
---===============3301253266948757082==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 31 Aug 2026 12:48:18 -0000
+Message-Id: <178818049800.1625125.17450835316899223949@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/scx-proxy-exec
-    old: df1430f5c10e073dda060e4bdc7aa4d07bf03bcd
-    new: 71025cf1af9260694900af99baaf20b6f8084c6f
-    log: revlist-df1430f5c10e-71025cf1af92.txt
-
---===============3301253266948757082==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df1430f5c10e-71025cf1af92.txt
-
-2d9330237fb9e7caf7afd92dfc0bc4f5308758e6 sched: Introduce WF_ON_RQ wake flag
-ba74c789ee323496cbcb17107074231bad9c0858 sched_ext: Block proxy donors across scheduler transitions
-f1a358fd69c46326a5b83a8880092640a0976940 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-a87cc7505deb45edeea91c373e9801971f01f6dd sched_ext: Move reject DSQ draining into core
-983acb2f73f248ee363c980764289269444e18a4 sched_ext: Generalize the reject DSQ reenqueue path
-40b5eafa08958c88fc75cc186b2de93c59f54327 sched_ext: Handle proxy-exec races in remote DSQ transfers
-bc52f9a9b799b920ff80735a8ece12b8bd44bc24 sched_ext: Split curr|donor references properly
-310186d793deef22984421a33cf6bdd19e842169 sched_ext: Delegate proxy donor admission to BPF schedulers
-aca1ff4bfff5edc78fef8a1707f99003b9e04b58 sched_ext: Add selftest for blocked donor admission
-ff8a6af8cb7c9ee0e224d30a8bdf412ff6289fa1 sched_ext: scx_qmap: Add proxy execution support
-71025cf1af9260694900af99baaf20b6f8084c6f sched: Allow enabling proxy exec with sched_ext
-
---===============3301253266948757082==--
+  - ref: refs/heads/for-next
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: 56485fac0a2c1820787ad30b288cb7748773d2a4
+    log: |
+         882de800bf583dd15969836088789edbf035a944 arm64: dts: amlogic: t7: use the real UART pclk
+         c793a084ab3088744516aef437b4239d0d98623f arm64: dts: amlogic: t7: khadas-vim4: allow the SD card to be power cycled
+         ae7be5c58a819259e5eb98a3abfa60842478f2ae arm64: dts: amlogic: t7: fix the pin groups of two PWM outputs
+         1e5a53bd16ac501e68463e84023d1bff543cc696 arm64: dts: amlogic: t7: khadas-vim4: add the PWM-driven supplies
+         406292fd75f95aa3010fec95b5beb5a8b7e3ba3a arm64: dts: amlogic: t7: fix the pin groups of the vsync PWM
+         56485fac0a2c1820787ad30b288cb7748773d2a4 Merge branch 'v7.3/fixes' into for-next
+         
