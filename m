@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7978167797237073853=="
+Content-Type: multipart/mixed; boundary="===============1268985288964335304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 31 Aug 2026 06:20:26 -0000
-Message-Id: <178815722640.1318455.767563372297668814@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 06:20:35 -0000
+Message-Id: <178815723570.1318675.565378984322334652@gitolite.kernel.org>
 
---===============7978167797237073853==
+--===============1268985288964335304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-next
     old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-a13c140cc289-cee9395acd80.txt
 
---===============7978167797237073853==
+--===============1268985288964335304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============7978167797237073853==--
+--===============1268985288964335304==--
