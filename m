@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7377473826645293516=="
+Content-Type: multipart/mixed; boundary="===============5271049086043895939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 31 Aug 2026 08:04:53 -0000
-Message-Id: <178816349394.1397881.10565566088205829050@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 08:05:04 -0000
+Message-Id: <178816350423.1399707.9431059564885933464@gitolite.kernel.org>
 
---===============7377473826645293516==
+--===============5271049086043895939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,37 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs-7.4.coredump
-    old: bc811aeb720ebc6afe8d705821cd5a4cd82dc066
-    new: 086bab03a8f4d0326dc3e161159b1da0a940c706
-    log: revlist-bc811aeb720e-086bab03a8f4.txt
+  - ref: refs/heads/vfs-7.4.kernfs
+    old: f78e0cb3fd377cfe90fe07a0eeec20584c0f4907
+    new: e626ea246428d65c362c72849a68be350f2b084f
+    log: revlist-f78e0cb3fd37-e626ea246428.txt
 
---===============7377473826645293516==
+--===============5271049086043895939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1788163492 +0200
+pusher 0x91C61BC06578DCA2! 1788163503 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1788163492-4f2236bb14157921950df730d42efde1e4e2b0d3
+nonce 1788163501-09d9a6a131960b801f2c147db8248a62061d0f9c
 
-bc811aeb720ebc6afe8d705821cd5a4cd82dc066 086bab03a8f4d0326dc3e161159b1da0a940c706 refs/heads/vfs-7.4.coredump
+f78e0cb3fd377cfe90fe07a0eeec20584c0f4907 e626ea246428d65c362c72849a68be350f2b084f refs/heads/vfs-7.4.kernfs
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapU1pAAKCRCRxhvAZXjc
-ohcqAP9n3q9H3WFm9FMqvHrKaif9kF7K221ceRrByob3YFLI2gD+JNwyNjZQKTCA
-Nz0E7kD4LlmL/8Jo3viIV3jkirED7w4=
-=nmq7
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapU1rwAKCRCRxhvAZXjc
+ovpUAQCjUOooFdcI/TlysRu7J6EH/gxt9Q7nTsKJkNhlA4bKZgD/VC1sCOUpFgIJ
+u5pNgPkYTNpjld7XWM0iFmPv30jy4g8=
+=fifz
 -----END PGP SIGNATURE-----
 
---===============7377473826645293516==
+--===============5271049086043895939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc811aeb720e-086bab03a8f4.txt
+Content-Disposition: attachment; filename=revlist-f78e0cb3fd37-e626ea246428.txt
 
-0dd68b5d01d022fc9c5e71c82a82b0a94d3d0671 usb: usbfs: fix use-after-free of usb_device in usbdev_release()
-10ff55ff552b3bf1dadba03fcc430ea205fa2761 usb: typec: hd3ss3220: fix VBUS regulator error message
-bdab5605259ba5d6ff927c1a85cc83eb3ecfdacc usb: gadget: uvc: fix dangling pointers in uvc_function_bind() and uvc_function_unbind()
-4c2128c1a399318859d9eea0b74613d90f4bcb66 scsi: libsas: Add sas_ex_phy_to_dev() helper
 db441dcb8c1452279956b7ea4e394b5ce8ce77f1 scsi: libsas: Add linkrate and sas_addr change detection in rediscover
 dc1b802f8e035de4a0e99b5e3e3a333e8a618540 Merge patch series "libsas: rediscover improvements for linkrate/sas_addr"
 720d8b2f2457f4962ca353dd90395e2660d9a10d scsi: ufs: core: Set task state before io_schedule_timeout()
@@ -1070,6 +1066,10 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-086bab03a8f4d0326dc3e161159b1da0a940c706 Merge patch series "coredump: allow to create sparse coredumps on the coredump socket"
+0ef1e65c9f63c37d4665869263e9736281d9773b kernfs: Use VFS lookup context in d_revalidate()
+ea1c84cca6ab94c7680a68a2560fcf992f3728ba kernfs: Prepare directory revisions for lockless reads
+4c291d7d3dbd449ead467219b00f1a669358da38 kernfs: Avoid namespace dereference in d_revalidate()
+8c2a5e65a977685056513677c45d4f08d87ef081 kernfs: Remove kernfs_rwsem from dentry revalidation
+e626ea246428d65c362c72849a68be350f2b084f Merge patch series "kernfs: remove kernfs_rwsem from dentry revalidation"
 
---===============7377473826645293516==--
+--===============5271049086043895939==--
