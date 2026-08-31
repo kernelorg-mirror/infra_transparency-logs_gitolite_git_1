@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Mon, 31 Aug 2026 13:22:34 -0000
-Message-Id: <178818255474.1658440.1800113954190476354@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7103640465285677212=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 31 Aug 2026 13:22:35 -0000
+Message-Id: <178818255572.1658560.2159662590706940429@gitolite.kernel.org>
+
+--===============7103640465285677212==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 2917e43945abfe9225d86eb1f470c5ef75f10aaa
+  - ref: refs/heads/master
+    old: b2e184b028bcdb22ef8e80a976befba968c992af
+    new: caa4972073208f3784d2dc0c9fe046f24bc90c90
     log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         2f4a0fb66d313f03832f061bc3ec25b33c8198c9 soc/tegra: fuse: Add missing newline to APBMISC error message
-         07dcfba25718697fdd30aeb6612f118e46db131b Merge branch for-7.3/soc into fixes
-         2917e43945abfe9225d86eb1f470c5ef75f10aaa Merge branch for-7.3/arm64/dt into fixes
+         caa4972073208f3784d2dc0c9fe046f24bc90c90 5.15-stable patches
          
-  - ref: refs/heads/for-7.3/arm64/dt
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: b86eaddf467a9ddb69dbaa46eea9dda7f93347a3
-    log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         
-  - ref: refs/heads/for-7.3/soc
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 2f4a0fb66d313f03832f061bc3ec25b33c8198c9
-    log: |
-         2f4a0fb66d313f03832f061bc3ec25b33c8198c9 soc/tegra: fuse: Add missing newline to APBMISC error message
-         
+
+--===============7103640465285677212==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788182553 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1788182553-326c5a491df39e60ed86d9639aaaeb813cc4fb29
+
+b2e184b028bcdb22ef8e80a976befba968c992af caa4972073208f3784d2dc0c9fe046f24bc90c90 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVgBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e10QAJB68q4hsB83kY9nFO79
+0m9YAdAxveHchyrNaPUIJrGfHae8KVXxQAEvHUgsxBtzCOtX9yFKbL2ADNhuiLqL
+WfwFvh6Dc48Vhwx2Vrd4UJg962E6nFolmofd+ztRizyGeCVFe/4zQm0HD+FN+A8f
+Zi4sDy5evQ+vt5q/h00QtDDRUYR1qZBtJQDQm5hhSb3+a+j6uyaoi3T7bkg1AyS7
+VrjQlr8SaIpIps49v2uUh+rCh65ysYf/9W7PpE0yJFc4TNlCECsCIuq5b7jaOgcP
+ugFy1zxiGNpmuUrvabsmT4yE8sVK4doIwkl/CBYn7YNe0PaW5+IYGJLMqh56ndr6
+E08pZfS2EcqR0fTx8TLr1xlcmVOlOwmmC2FlqGlBnaKz56uajr6VY5HOXSwoMgkY
+u8hp/x+sJTqwx56rxEzVRQTdfFaFBqPe/rnp87kZBwqPX1k3r5mnROA7E63262Px
+bzuI/GYmFVjG6GmRuISRD4gZVPBkJXgfL6FYosrgGiq8Ilf8cvS6QorAiqD328Sh
+qzNGpqnSN3zY/IYgW2DGE0RBWC8+Vv+oWRcYjWlshBb7H7aP6wEBNsO7mVTavCkP
+pHI+iVnT83y1SEZdvUzbLFVgI3NKFHwmNGof78idf6W5GVuBNM1tTB+KhzAxER7q
+VlPh++ffBgZqUB1NDoOFGjYT
+=wJeh
+-----END PGP SIGNATURE-----
+
+--===============7103640465285677212==--
