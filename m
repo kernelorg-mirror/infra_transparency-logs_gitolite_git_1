@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 31 Aug 2026 23:24:46 -0000
-Message-Id: <178821868651.2199090.12495065516012843584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 31 Aug 2026 23:44:37 -0000
+Message-Id: <178821987743.2212085.13486501747515287554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: f05f0d85cd025aa87fede7577f69f23d2536f294
-    new: 7b120a771943ffc3cbce787daecdd23eccb0505f
+  - ref: refs/heads/pending
+    old: e1fd2d99ea59ef51074368b1a550fb490771950d
+    new: 34bd1c3723a4a6074ed1450257df0d17ae373c10
     log: |
-         d7e7e98d23f42a92d9ab7e36302bd96bd9b33b5f net/sched: cls_u32: fix duplicate handle when node ID pool is exhausted
-         7b120a771943ffc3cbce787daecdd23eccb0505f selftests: tc-testing: add u32 node ID pool exhaustion test
+         2e339561e68c387b225da5d60e7b040686370db2 wifi: ath11k: fix sporadic WLAN initialization failures
+         6c52cdad8e4dfa2aa4527979b92ee7694733be40 wifi: ath11k: fix NULL dereference in ahb remove when QMI init incomplete
+         34bd1c3723a4a6074ed1450257df0d17ae373c10 wifi: ath11k: unregister PM notifier on QMI init failure path
          
