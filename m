@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 31 Aug 2026 22:51:52 -0000
-Message-Id: <178821671257.2177863.14180489625176032593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 31 Aug 2026 22:53:36 -0000
+Message-Id: <178821681601.2178452.6250374933704923207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 1376afc7660bad2a1a5ee0876898312a486cf8bd
-    new: fa5acd038ea657ad5033713d6916214cbd349151
+  - ref: refs/heads/bpf-pending
+    old: d47f0958b4d7898ca4df8267bce5f14b4f170171
+    new: 00d7266aafbfd466d4aad686ef24fc0ebc06f391
     log: |
-         fa5acd038ea657ad5033713d6916214cbd349151 net/iucv: fix the recvmsg window update
+         00d7266aafbfd466d4aad686ef24fc0ebc06f391 bpf: crypto: Use AES-CBC and AES-ECB libraries
          
