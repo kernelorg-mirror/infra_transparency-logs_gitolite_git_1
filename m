@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5803604714639134140=="
+Content-Type: multipart/mixed; boundary="===============3572502131174085064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 31 Aug 2026 08:57:22 -0000
-Message-Id: <178816664264.1438243.17426756233022357896@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 08:57:35 -0000
+Message-Id: <178816665568.1438480.1608513932502049412@gitolite.kernel.org>
 
---===============5803604714639134140==
+--===============3572502131174085064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 68e37487810a3da43c48340fab7a55b3b6efdae3
-    new: aac19e50543a5f18e197b9c4f4606a6e2d901792
-    log: revlist-68e37487810a-aac19e50543a.txt
+  - ref: refs/heads/perf/urgent
+    old: 42c5ca1f0a288a52878bd72a5595b08261057438
+    new: 095f0a93d745207bb0c417df2a11c234909685af
+    log: revlist-42c5ca1f0a28-095f0a93d745.txt
 
---===============5803604714639134140==
+--===============3572502131174085064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68e37487810a-aac19e50543a.txt
+Content-Disposition: attachment; filename=revlist-42c5ca1f0a28-095f0a93d745.txt
 
+d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
+7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
+bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
+12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
+da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
+abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
+0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
 f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
 c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
@@ -1031,24 +1049,6 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-1c928d238716c7b373d69498633f73c27ea1c8c7 sched/fair: Use update_curr_eevdf() for the remaining root cfs_rq callers
-4d08304e9c0ebbc522b6110b09c0e51890799da9 sched/rt,dl: Skip migrate-disabled tasks when picking a push candidate
-cd2663217eec2a8924b955e824e5a9a3b85b1f72 sched/core: Skip rq->avg_idle update without a valid idle_stamp
-fee313e4bd6c9b5279df36325bdc96c6bfb8f62b sched/core: Don't steal a proxy-exec donor
-bd71a8a62e121ffd6584628cb4ab1e1a1f153d93 sched/core: Avoid migrating blocked_on tasks
-249545d6c72c970e0a7027057bedf91475c80991 sched/core: Don't proxy-exec unmatched cookie lock owners
-f38f500e6e2dfdfab77aa218dce72feb70dfab26 sched: Switch rq->next_class in proxy_reset_donor()
-4862f82168d44a3c7ea2d02dac9197378043ba97 sched: Break out core of attach_tasks() helper into sched.h
-96d1f8aca4e6698f833851f7bcb415b3e229d872 sched: Migrate whole chain in proxy_migrate_task()
-eeb0434442e90c3c6844e38d655de8827119f08d sched: dynamic: Make PREEMPT_DYNAMIC depend on ARCH_HAS_PREEMPT_LAZY
-37e4bb542da379c8207a4916916276520d4537de sched: dynamic: Simplify {cond,might}_resched()
-e32b6ef5fc80a2e69ef20e0da91b35888e218793 sched: dynamic: Simplify preempt_schedule{,_notrace}()
-376a1718a07b23543abddea0a0ad83cddd032936 sched: dynamic: Simplify irqentry_exit_cond_resched()
-c19029cd35d4890a1dd123dafb7c56c6a73ddfea sched: dynamic: Remove HAVE_PREEMPT_DYNAMIC_{CALL,KEY}
-36f76ea72ac89efd0f44756563b461bc05a58028 sched: dynamic: Simplify preempt model accessors
-4adfd1190571932f01897836c94309b79385a56d sched: Convert paravirt_steal to new static key APIs
-f90993965aed5e366bbabe56373e0f551d7a35f8 sched/feat: Use the new static key API for sched_feat
-5b1261314f6a9b164fd4bc9c9f5ecaf12e1c072c sched/deadline: check start_dl_timer expiry with ktime_before()
-aac19e50543a5f18e197b9c4f4606a6e2d901792 sched: Remove unneeded function type cast in do_balance_callbacks()
+095f0a93d745207bb0c417df2a11c234909685af perf/core: Skip empty AUX records with only format flags
 
---===============5803604714639134140==--
+--===============3572502131174085064==--
