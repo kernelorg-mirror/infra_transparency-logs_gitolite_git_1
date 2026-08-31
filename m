@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6531043154067665972=="
+Content-Type: multipart/mixed; boundary="===============4394471713608777915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 31 Aug 2026 07:09:53 -0000
-Message-Id: <178816019373.1355528.10262427373786875504@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 07:10:23 -0000
+Message-Id: <178816022377.1357762.15477229673303468830@gitolite.kernel.org>
 
---===============6531043154067665972==
+--===============4394471713608777915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/soc64
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/for-next
+    old: acde40ba506aae78633e080b5704d33cf4bc13c6
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-dc59e4fea9d8-cee9395acd80.txt
+    log: revlist-acde40ba506a-cee9395acd80.txt
 
---===============6531043154067665972==
+--===============4394471713608777915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1788160191 +0200
+pusher krzk@kernel.org 1788160221 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1788160190-245a240d1717e244ea5ef4ee7a7fd23572681daa
+nonce 1788160220-4913aa59001de4e310cb45b68e7b3be881745bac
 
-dc59e4fea9d83f03bad6bddf3fa2e52491777482 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/next/soc64
+acde40ba506aae78633e080b5704d33cf4bc13c6 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqVKL8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14aPD/9n/6qTC4VbVgnHdsFp4hBloFGXNOKFDOJN
-M9ScbILRyybc4r0zeBanWHxMedW2zCXaw0jQ2SZJ7paFF2wRCMonByznKEoUxu2d
-Hx+b/bbhOs36O8WGhMIjsT8v7JyIQigKhefTZYEIfmcrjKwlgnWjeUskr5UYeaVW
-yRC0dRXddMxmlC2/L4iuk2PiN/PBcGvvAthFmMn5AvqHu1f3HzeoK7oNE0mjRw+g
-CXFoidNhmYbgR3kLFnU7kl2i10zghkk2PrthiP+5u5aG4J9gCSL2O9hdoBHrBmIs
-6P8AwsWUwuXXz+PyBRogw3yD5LkVWV+k8yCkxkj3B38CH8yB7m2Iux9Bg3lXDOdR
-ikCqUfe4rB8OItofw8e34+NCKqLfaa3sB0h3eK81ia7gnqp5+K6s6ObdiYF++MDn
-InewhUokLURb2Vxd7bGQi99zLEqsGVXqXuKS5fzIFL5duN66J92ZWbwFYY+0cjeW
-nZRK7cplLSsjighuVr2lzkceombdu7z3uijoXmpgrzthkGe5pSS8vewTtSxYWqqg
-eeb7LiQclshvTkLhtycj60LRbq9pLnOi0YSNq1JI8Z8N/5Psd8NkOniQpzsL1Hue
-3avf24exCsztYmK0ljl+oRLnquZHDj5LIUBlvC5mag2iZJ/dScfA4l7sroxwzB/D
-Bht0MNQNmg==
-=TIDp
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqVKN0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18f7D/9LFxs0z/+Wu3b0X0pGVAOu5+aFxWeGeSQK
+U9WSgA8qiU/Il3kHzT+q3+O7A+gDJKqAguhoRCVpgjgscssSfLVwKrd/E3cpUTF7
+jHbB7IjM/CJNgbOwp01fCdZ0PejfiXewmdmhfwQH37PffdXqqJrsRvEsUEcrOVxL
+4AnRgYWS5MQuNSEf+PSKPrl8rKHwq4BuDkOhVXZo+/XT8fZ9Lu/AneJ8G2xpvDfa
+oL5r0QiML7TGPzkbz0KS5kKFH/U1J37kIhzKmZAX6I40OcZoHzofdZnSJ0z9FkQ6
+bqoj6xLBKPT/KCE9nj+1gXYas1Fi2NUpYnUAd3NQG/AeJaf0FWg46lkq6PfEFRcK
+e8BAlPGYLhaY35AWRKbxtfv36cswdwypxGz7mgosUVFJ2ahlILaA4MqLlzcIFVmz
+Jql5ra8rx0eP9itIvVB1YpXa9RzTqB/C+kiivHHSfr2Ue3nC/lyCdqlD9Qo3XST6
+T6u5KTS8/5tvo3c1vbdEo+Puoe/LjxkIoBVldAGs3mWp9SDhP70cjB+dbJu4nWXI
+txFxiId0tcwVB+g6MT76vWjNSJdxyEsXIYQuoLalwr6E8YD1Y0a5pxaOc5LZKyTA
+MJDy85BQrVA5JLK5hJ6LGck5CoXHXrkt7A6QqljYFFPsAK4pWF570RTz9iJaWrJc
+rGzKDnA+ZA==
+=MVAD
 -----END PGP SIGNATURE-----
 
---===============6531043154067665972==
+--===============4394471713608777915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-acde40ba506a-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1082,4 +1082,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6531043154067665972==--
+--===============4394471713608777915==--
