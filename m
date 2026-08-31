@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2336142645937786507=="
+Content-Type: multipart/mixed; boundary="===============0944610930244584921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 31 Aug 2026 14:43:04 -0000
-Message-Id: <178818738453.1727443.2793620220730145832@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 14:43:39 -0000
+Message-Id: <178818741993.1727758.8730667114484334714@gitolite.kernel.org>
 
---===============2336142645937786507==
+--===============0944610930244584921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/review-ilpo-next
     old: 5b05bb3f6c5716fab6911e12d60dd1f43ad9806a
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-5b05bb3f6c57-cee9395acd80.txt
 
---===============2336142645937786507==
+--===============0944610930244584921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1788187379 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1788187417 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1788187378-08a7ec835f3c8f2aac27160d6122b670a5248176
+nonce 1788187416-75a8021d6441abce125521cf82e4670298516d3c
 
-5b05bb3f6c5716fab6911e12d60dd1f43ad9806a cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/review-ilpo-fixes
+5b05bb3f6c5716fab6911e12d60dd1f43ad9806a cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCapWS9wAKCRBZrE9hU+XO
-MfXjAQDqSsveYW1wHZKNZ1gWghgSqC2+dWBhY4t8OHa2abP2awEAiKVSN2eHwcB9
-wjbNvEobQMYQ9U+Ve9gJOh8V82DLGQE=
-=ouSG
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCapWTGwAKCRBZrE9hU+XO
+MabeAQD0/6lcZUqb1U7+8BZUmHoVxfKxti86OOpmdMAZHJf4LAD/V+uIfSj3o47I
+dsU/NFgzZmmc+O/vYv4CfxCDsE7qiA0=
+=Y5+P
 -----END PGP SIGNATURE-----
 
---===============2336142645937786507==
+--===============0944610930244584921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============2336142645937786507==--
+--===============0944610930244584921==--
