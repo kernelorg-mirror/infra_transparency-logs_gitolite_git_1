@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0346571774126940067=="
+Content-Type: multipart/mixed; boundary="===============2633704485402492286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 31 Aug 2026 21:33:14 -0000
-Message-Id: <178821199413.2115111.17094620626175858196@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:33:32 -0000
+Message-Id: <178821201267.2115412.1283596543976738478@gitolite.kernel.org>
 
---===============0346571774126940067==
+--===============2633704485402492286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/heads/clk-rockchip
-    old: 1353d95e637b576e83ef0551d31a72002014cf88
+  - ref: refs/heads/clk-imx
+    old: 9af2b738227fef3ee0f211b15c5b7abff6270d8e
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-1353d95e637b-cee9395acd80.txt
+    log: revlist-9af2b738227f-cee9395acd80.txt
 
---===============0346571774126940067==
+--===============2633704485402492286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1353d95e637b-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-9af2b738227f-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============0346571774126940067==--
+--===============2633704485402492286==--
