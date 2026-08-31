@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6937877263364717459=="
+Content-Type: multipart/mixed; boundary="===============6257348042746026339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 31 Aug 2026 09:05:24 -0000
-Message-Id: <178816712433.1446114.6856099443604741589@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 09:05:29 -0000
+Message-Id: <178816712949.1446256.18251320776217104856@gitolite.kernel.org>
 
---===============6937877263364717459==
+--===============6257348042746026339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/master
-    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
+  - ref: refs/heads/fixes
+    old: eb363254472493e3458156fc11fd56dca92f4333
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-8d3ae59288f1-cee9395acd80.txt
+    log: revlist-eb3632544724-cee9395acd80.txt
 
---===============6937877263364717459==
+--===============6257348042746026339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d3ae59288f1-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-eb3632544724-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6937877263364717459==--
+--===============6257348042746026339==--
