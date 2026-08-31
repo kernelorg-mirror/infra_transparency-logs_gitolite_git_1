@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7197124339653615770=="
+Content-Type: multipart/mixed; boundary="===============6177980187487858316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 31 Aug 2026 11:24:14 -0000
-Message-Id: <178817545459.1553121.7191856925165244528@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 11:24:17 -0000
+Message-Id: <178817545791.1553286.9831432893878685856@gitolite.kernel.org>
 
---===============7197124339653615770==
+--===============6177980187487858316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-45c13f3f9e3b-cee9395acd80.txt
 
---===============7197124339653615770==
+--===============6177980187487858316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788175452 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788175455 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1788175453-1ecb9e42e33fd09c5577bd53bb57fc3d766993ed
+nonce 1788175456-2ec44e71b504656230473e3bf31d625395035435
 
-45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/staging-linus
+45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVZFwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4kMQAJFItWD/2uYdM9k+VKUZ
-X+J1x1f5V0yHx5OSMkA0BhJB9DNiB7QrFD1pSNgqjJ1kgR4yP3NbGzgAzdISRza7
-IRxDNGwFUbYavGeSTaws1CUTKWYfkmNgnagwF2U0Yn62TI04OhrVohUWC1BsrICF
-6p7gUYk0cC1xLqhXGLOXW1yNBOkz5LvT44uYk5pTq6nsBMk/UzEBXOoIvr5+6Gzx
-1040B0rclSR0LSj+kHGuhTZ4t88rrn7MOUEpL8exO2O0q3uusIKq36g6fUwQP6jo
-gzDbhSXwiolzDrfxSHd8BLsejdAO80rwl/L0hLUBJZGgJimacDMZO19uMhmCcx2W
-CqTZtbDm+QsJwmgG8eFbts7iYnM/wj/WEvqC6qVnpenm0tLztIeFj/yDB4y0HegM
-HWlIXv+NYKpnzVdxVsNgqfQ6x7uM1ocvWPY+izbHqMno+Bfyn7sjLpNQXFUqTGye
-EajE/WKGxbleB/61J0u5P0fJ7VLp4MWkSEDh+EI5ouY9vUlKtfcTaoHT6sEaQn//
-Ic5matieGqSCTNLDiXHko6kkOEcyzEx5KLSs0Nb/KTwE3g9dh3hQJnNp4rYKMQFV
-mPUPI3ML6sq/5F4qzggbiFoQK7xBFMct2t9uhCfVlDsArJHo4Kr3B1MLeVLJaleO
-TH5v5RDj0sP2x02HvE9nsG7O
-=ngBz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVZF8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GpsP/1WwMipq+CDAcCj4T4PI
+f9/2s+FvwnPRcqAJx9ru8U8A7SYwtFpre+nS8BQtMrfvrRTEb8AEA7aaypmFoZbF
+exsmZo90t0dZQL/YP9g91Ph9BX3ZOfD7WxCX40jdsyG8D2yMJRWUqzvZmSfJdgem
+DjCu4ho6OgyEieIONDM+uomhWQaemSpc2zXDly5IMVDmK989S6Ex/YjgDe56vr6s
+EEVoZZHrGuH15o3TuQJOSFxhRMWnHjwxz3ec2EYPeey6EXFOMdqDh77sf7cCAw7D
+reTlO92b3VF9+DY+kPBqjUZnKUQgNW/afngv71othCI2b2eDsl1tW/woOv4yDJc6
+2b9m2GeDDw1OXVmx1hC8FxM5ePtUU6X45UFdKAFmDs+2v559IWmRzRB6L4W4xPvB
+Fdq1e7KBcGTHJgQ8DWKKRgJwfEJR1LJfQfsviUL5GfOBHfpfmCjQeCfBteXtuQhT
+UNR75sOnL+E/CXTy4TLL1cPhUyaxLi2gshs/j+0nmuKCyWZuwJHjMtFnLFnJMugl
+agRuIDVfeRshTQPhBKFAIJ7pyXRPTBzg/YmrWXiVmLOjNibJRLMAT+F+3Omjmtw9
+QEmlO0O1Zv3pQeSTyIA4SQKqVL/9zunQesE8zYN/ZHRIzg4fSzj4oWyrfVzSVvCj
+K96EePWz2pdi5XA+RYRi1/v1
+=lJYT
 -----END PGP SIGNATURE-----
 
---===============7197124339653615770==
+--===============6177980187487858316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============7197124339653615770==--
+--===============6177980187487858316==--
