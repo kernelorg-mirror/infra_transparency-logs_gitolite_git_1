@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0312553811615309916=="
+Content-Type: multipart/mixed; boundary="===============8398529093486759813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 31 Aug 2026 21:30:36 -0000
-Message-Id: <178821183645.2112249.6693818118882764299@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:31:04 -0000
+Message-Id: <178821186405.2113064.17029225055536028900@gitolite.kernel.org>
 
---===============0312553811615309916==
+--===============8398529093486759813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: b4e94b0418ad6dbe62b6ca53369159ed3d9f0d8c
+  - ref: refs/heads/pwm/for-nexxt
+    old: 17b4db6750cedbf4b22fa3895631465a5688cff0
     new: 6b0c6ff76795f62981352cc0be00163077d0961b
-    log: revlist-b4e94b0418ad-6b0c6ff76795.txt
+    log: revlist-17b4db6750ce-6b0c6ff76795.txt
 
---===============0312553811615309916==
+--===============8398529093486759813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4e94b0418ad-6b0c6ff76795.txt
+Content-Disposition: attachment; filename=revlist-17b4db6750ce-6b0c6ff76795.txt
 
+402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
 bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
 12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
@@ -274,7 +275,6 @@ f39cd3f7fcafe2681f7d1fe916748f3e42be0c4c ntfs: port lzx/xpress decompressors fro
 7ddb3fef353231adcaba2c6c891463226e9c199f ntfs: implement codec ops for LZX and XPRESS
 2bef615ebf2884f33036123ada4dc00c0f54904d ntfs: add non-resident WOF decompression
 a7b842f182d126a07838d81be8201d8d953c67c0 ntfs: support resident WOF decompression
-e38b9eda475fd5ef8d256ae3ced566452c1c5d58 notifier: add device-managed registration APIs
 78acddfde75177a27000f076e3e828743e38877e rtc: pcf85363: Add error checking to regmap calls in probe()
 7617cc05df28dcae967cca109de74084321eaa62 ACPI: scan: Do not combine resources that overlap completely
 4e69c1856bfd9ffb7e9d335a25842fa211628929 Merge tag 'drm-next-2026-08-20' of https://gitlab.freedesktop.org/drm/kernel
@@ -1051,4 +1051,4 @@ cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 ebda76359238e3d064370674d70fb34305e3420f Merge tag 'devm_notifier_chain_register-for-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux into HEAD
 6b0c6ff76795f62981352cc0be00163077d0961b pwm: iqs620a: Use devm_blocking_notifier_chain_register()
 
---===============0312553811615309916==--
+--===============8398529093486759813==--
