@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4372348693751801880=="
+Content-Type: multipart/mixed; boundary="===============0558685485366570486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 31 Aug 2026 16:45:19 -0000
-Message-Id: <178819471978.1825128.8758532026691417108@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 16:45:28 -0000
+Message-Id: <178819472850.1825347.10215254432040872928@gitolite.kernel.org>
 
---===============4372348693751801880==
+--===============0558685485366570486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/fixes
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============4372348693751801880==
+--===============0558685485366570486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============4372348693751801880==--
+--===============0558685485366570486==--
