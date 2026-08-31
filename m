@@ -1,42 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Mon, 31 Aug 2026 13:22:40 -0000
-Message-Id: <178818256097.1658888.3797037502169393090@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5211389855385891459=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 31 Aug 2026 13:22:45 -0000
+Message-Id: <178818256599.1659277.6113953955548529@gitolite.kernel.org>
+
+--===============5211389855385891459==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.4/arm64/dt
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 9263ab9369b26dd8b8f210e114084640bf9bf5b1
+  - ref: refs/heads/master
+    old: caa4972073208f3784d2dc0c9fe046f24bc90c90
+    new: 8f47ec5614a9c03230ac906cb911f6145e13dd69
     log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         9263ab9369b26dd8b8f210e114084640bf9bf5b1 arm64: tegra: Enable DMA Support on Tegra194 QSPI
+         8f47ec5614a9c03230ac906cb911f6145e13dd69 6.1-stable patches
          
-  - ref: refs/heads/for-7.4/soc
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: dc9c9c4fcb88a5660259dcef93c1ef5acd767189
-    log: |
-         dc9c9c4fcb88a5660259dcef93c1ef5acd767189 soc/tegra: pmc: Add PMC support for Tegra410
-         
-  - ref: refs/heads/for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: bd876831b1ddff135c67ee9474e3a8d37975de5e
-    log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         dc9c9c4fcb88a5660259dcef93c1ef5acd767189 soc/tegra: pmc: Add PMC support for Tegra410
-         9263ab9369b26dd8b8f210e114084640bf9bf5b1 arm64: tegra: Enable DMA Support on Tegra194 QSPI
-         0921d451065591110a4b5da6f96d992be77a245e Merge branch for-7.4/soc into for-next
-         bd876831b1ddff135c67ee9474e3a8d37975de5e Merge branch for-7.4/arm64/dt into for-next
-         
+
+--===============5211389855385891459==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788182563 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1788182564-da926d53f3785b260f37e50b060318941f9ab256
+
+caa4972073208f3784d2dc0c9fe046f24bc90c90 8f47ec5614a9c03230ac906cb911f6145e13dd69 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVgCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HksP/A1joHJ+LTAXraYSZu2j
+0HKHn6H8cWbcYrjrpFjNTqfN/IPgjb9IbfvaKLYD+CXbydBCVqPnstEzcjxbzQJp
+MLvfNi+DJnNFNnHBxI4/F9/FQS26dG7nvIaKonFi4uo8VN1i3WEnSNzR9PnGfeK0
+5SNGWqS66PgBQC6aQb8YN/wTLpINsak9skFlAeRWmh8rADkXeuF9KiM9Z8ld6Rps
+lSoBERttk24YwH5dKNcjjVTUkt4JqMileC5xRgyb2SR0ajS+51KtbV1PzzYZf1F2
+AjVRuvoFU60jnKy9sitKIDD6sA6F/HOgmz1mvTcdcVGoo7l6t4Eekb5ng8ibttG3
+mgVJnC6F4AXimD3SRcAgG5op6uIf0NjUv8C+HHLGl3Uwmck5j+xfa9z+nJ9NHOmv
+HLWE5jmc0cgQcbokkoSO/BU3wVzc/F9YbJJlxZWPZ+/w/vkyLH05fyC6gcondbX1
+8QJMKxplixcPU06Tdxh1PRHmdgcdv2bGnxvaPjhBdCNZb5/9Db11vQ/oBbwsCCFc
+YSKb0LV5I7fTBiJxu7UgcpZS2X92K2K5pgk8LEvwKsIGZq0Q/ir0SLvyxB1ALmLC
+Tx6ajKuhnel1ssSnZHs9tZUtDtbYF7ZItE4Xyjvnq1lvARNoxYSZO4Hgr3pMoALK
+qe5w9QZiyGCRN5GE9cHW1kOv
+=ICv8
+-----END PGP SIGNATURE-----
+
+--===============5211389855385891459==--
