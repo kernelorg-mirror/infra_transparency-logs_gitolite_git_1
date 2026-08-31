@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 31 Aug 2026 23:00:40 -0000
-Message-Id: <178821724042.2184269.11134913778964141509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 31 Aug 2026 23:07:27 -0000
+Message-Id: <178821764795.2188635.13145685857839591112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: ae61c975e168d78a9d10c6d332d2f0a4839a8b71
-    new: 4cf73437863c2e492d2a1d0f24330f391c0f075b
+  - ref: refs/heads/main
+    old: fa5acd038ea657ad5033713d6916214cbd349151
+    new: f05f0d85cd025aa87fede7577f69f23d2536f294
     log: |
-         88add766c22ca9cee55e84145de29bd9d78dd685 man: Fix FUTEX_WAIT/FUTEX_WAKE explanation
-         914062b3b65644cb9deee25083bffe69d54f1e94 man/io_uring_submit*.3: Point to error code documentation
-         4cf73437863c2e492d2a1d0f24330f391c0f075b test/iowait.t: Skip if system is not quiesced for too long
+         5443d9c4f55d46634b95432e1e8a40b824019bbb net: ethernet: oa_tc6: Protect skb pointer used by two different kernel instances
+         172c974113bffe5723b80b1acac17593bb50513c net: ethernet: oa_tc6: Improve the error recovery
+         349c366365876b7f67120827a0deb44899f59303 net: ethernet: oa_tc6: Disable tx queues on fatal error
+         3cc2aa96b97184abd6fc106aac626ddf14389813 net: ethernet: oa_tc6: Fix for the wrong data type
+         f05f0d85cd025aa87fede7577f69f23d2536f294 Merge branch 'fix-to-possible-skb-leak-due-to-race-condtion-in-tx-path'
          
