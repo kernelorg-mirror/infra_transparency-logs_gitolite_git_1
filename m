@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7589189866721518600=="
+Content-Type: multipart/mixed; boundary="===============2123513882568338954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 31 Aug 2026 09:46:41 -0000
-Message-Id: <178816960136.1480185.12830339650702202301@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 09:46:53 -0000
+Message-Id: <178816961381.1480513.4837879229074239786@gitolite.kernel.org>
 
---===============7589189866721518600==
+--===============2123513882568338954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/main
     old: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-45c13f3f9e3b-cee9395acd80.txt
 
---===============7589189866721518600==
+--===============2123513882568338954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============7589189866721518600==--
+--===============2123513882568338954==--
