@@ -1,81 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5657676363812073231=="
+Content-Type: multipart/mixed; boundary="===============6153222530840647876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 31 Aug 2026 16:16:00 -0000
-Message-Id: <178819296026.1799653.14083706202950999335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Mon, 31 Aug 2026 16:20:09 -0000
+Message-Id: <178819320964.1803158.6187766950130430151@gitolite.kernel.org>
 
---===============5657676363812073231==
+--===============6153222530840647876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/kunit
-    old: dea754ded9518b51740c417d2c1e02ff540784c6
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-dea754ded951-cee9395acd80.txt
+  - ref: refs/heads/for-next
+    old: 9400c5b6aa357be2379c98ae86a207bc21dc7a48
+    new: 331e0c6aae27c5aeb2e5229bf20aaa122efeb3e2
+    log: revlist-9400c5b6aa35-331e0c6aae27.txt
 
---===============5657676363812073231==
+--===============6153222530840647876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dea754ded951-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-9400c5b6aa35-331e0c6aae27.txt
 
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
-7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
-bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
-12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
-da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
-abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
-0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
-f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
-c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-55aa45154fe48b7d8e96bc031ad27d5b0edfcdb8 PCI: vmd: Add Nova Lake (NVL) and Dunlow (DNL) Device IDs
-59e6295fac26b8e85c1ea859cdd89fa1e47519d7 Merge tag 'driver-core-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-028d8df0a1e376c6a87409302d9b6131ea4374f6 KVM: arm64: Avoid mismatched accesses to 'struct kvm_nvhe_init_params'
-d3a1b28ea25d4c1899a05833e1a9bc79d7c642c3 KVM: arm64: vgic: Free gic_kvm_info on initialization failure
-93cfad8da7164b095b2402ec9b2067fa15d6f250 KVM: arm64: vgic: Prevent speculative SPI array underflow
-2962174fdfa63e272082ea7ae989a8fdef29bd0e KVM: arm64: vgic: Reject out-of-range GICv5 PPI IDs
-302f94dc3f8c21c97d5e91a61a8987810803be6f KVM: arm64: Validate GICv5 timer PPIs before claiming ownership
-f18145128354f565f9f7518a2ed816e90099fc40 Merge branch 'kvm-arm64/pmu-7.3' into next
-5279b2f42286a610fb991a0ae45b0661c63a9799 Merge branch 'kvm-arm64/pkvm-7.3' into next
-5f44f603b0daeda535b6d307cd02ef9a24b3b8c5 Merge branch 'kvm-arm64/feat-nv3' into next
-c75d616c082e19d004b1ff9959adf53717b9f9f7 Merge branch 'kvm-arm64/vncr-fixes' into next
-faabe2db712e8310dbe38fb81d33e5313ff0f059 Merge tag 'ata-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-7fa7d4c6038bb4b394478ba1b31a6e8d89ed4f60 Merge tag 'for-7.3/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-4994ef0fe01e0c58a9af187f98a030c35dfb1a93 Merge tag 'iommu-updates-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-50b10bd0c2d721ad38abd1abe3acdefb6caa0944 irqchip/renesas-rzg2l: Fix loss of interrupt
-85e0d1de369cdf827dae8c759f40696de81b7ca7 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-b76eee9c2157223aa4aac42ceebb563288e078aa irqchip/ast2700-intc: Avoid allocating in the irq_domain activate() callback
-98f21c54f99519329c18e2625b0ea6db14524d09 Merge tag 'for-linus-fwctl' of git://git.kernel.org/pub/scm/linux/kernel/git/fwctl/fwctl
-d1f112e2fa9b7f60f5dfa51118a0dad57fd3df88 i2c: busses: drop redundant dev_err_probe() around irq helpers
-cbd043b00ee3f542c115c8809c4d9a67465c07d5 i2c: imx-lpi2c: properly unwind resources on probe failure
-a4c419356a33324bb14f88511b990e2eee6dce56 i2c: imx-lpi2c: reset controller in probe stage
-43eb13f13385a1e7251978a1977ac61b99edef01 i2c: ocores: Disable clock on failed resume
-62edb8ca0aa44517cc23cfa26cd8a51f15ea92fe i2c: mux: demux-pinctrl: fix OF node leak on kstrdup failure
-777979e627115734052b323d2721cdb500e81dcf i2c: mxs: fix DMA channel leak on probe error
-7a79b02dd1b09c235c3cf6075bccca2160d1b826 i2c: rcar: fix reset handling for Gen5
-55ee4b931a7ffedc886175d265dd6e6d08fd4151 Merge tag 'trace-rv-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-3793b558ff3b1cae64a3eddb497ab9e5636bf022 Merge tag 'trace-tools-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-00d66b29a66ce18e417a8436076c629d03186a27 Merge tag 'ftrace-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 2791de535400bc40fd837baa756117434df7895d Merge branch 'kvm-arm64/vtr-patch' into next
 081e5bf2a9d941da60cd70c97c5a704b29e47f7f Merge tag 'trace-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 aa8e5dc6a7a2a1141ab40706a51010adcd0e57d2 Merge branch 'kvm-arm64/misc-7.3' into next
@@ -849,8 +799,16 @@ aa4174127fe63f3b6521529d0f1d66470ae4d8ad Revert "thermal/core: Allocate the ther
 73ae59e975966d24e32926247ddb45a537ebe184 Merge tag 'erofs-for-7.3-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 1b0bab4a873f1034c27573cfc613394cff7e0a5b rust: kbuild: disambiguate `zerocopy_derive` for `rusttest`
 fc710de0dd25ed50a087833b4171eb1a46737a9e Merge tag 'rproc-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+26b2c52685c146b65f354b0623b0044626c35494 dt-bindings: display: bridge: ldb: allow a single reg for fsl,imx6sx-ldb
+58627dbbd8e8ea7f4429b69b15b1c443681bf05a dt-bindings: soc: imx-iomuxc-gpr: allow bridge@18 as child node
+17c5e5980b6fe3be98b21c046adf2aaa62006f0d dt-bindings: display: lcdif: Allow display0 child node for i.MX6UL
+955326b06028ae72e1a46b23c2d3db749e9be47c ARM: dts: imx6ul-tx6ul: rename disp0 to display0
 f2ed28dce9396b94097376643527112228c2eb83 Merge tag 'rpmsg-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 Merge tag 'hwlock-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+aff53f8f5831c55cba94e0588dcf7d1dcde8b75d ARM: dts: vf-colibri: apply the EXT_IO pin group
+04f9032ad6b65fe527cf4e3e825be3556ba92ad0 ARM: dts: vf-colibri: name the SODIMM gpio lines
+3d8a67a1fbc8a18b99acfdb7af06d79e4f4ebcb8 dt-bindings: arm: fsl: add the Colibri VF50 and VF61 on Iris
+43d4b5153ae513d03b45a5767aa084b676302c72 ARM: dts: vf: add Iris carrier board support for Colibri VF50 and VF61
 aef2ca9353c2f26dbacfb3b8e6f33fecfbf2e67d drm/amdgpu/mes: fix the inconsistent indenting for mes_userq_map()
 d36fbf82189319e9af564c93900d30e55e87e7e0 drm/amdgpu/userq: lock and validate wptr BOs before reading their GPU offset on restore
 6760f5cb12d2366ddd58a2d8637f7583d73f596b drm/amdgpu: avoid force-completing uninitialized UVD rings
@@ -1050,5 +1008,47 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+73c3b40e536d9cb624db90b460bc384147576a57 arm64: dts: imx8qm-ss-conn: add usbotg3 iommu information
+bc2f1c482286f5bd236ba42f438ab327b1b06c49 arm64: dts: imx8qm-ss-conn: Add HSIC usb@5b0e0000 node
+264480ac044bd4d51489ccb7b17b7b50e2e5bf3f arm64: dts: imx93-11x11-frdm: factor out common parts into dtsi
+d9f4c2390151c091ee23b1669c11e22d39dcc63e dt-bindings: arm: fsl: Add i.MX93 Wireless FRDM board
+cac63565a186028ed6c6564c277910cdfe592828 arm64: dts: imx93: Add i.MX93 Wireless FRDM board support
+232998b3286f02ab1defab7093480fcb584fcf31 arm64: dts: freescale: Correct white-space style
+47580f0648398f837aaa3019ba3b7437ed1dea1b arm64: dts: imx95-15x15-frdm: fix duplicated can-phy node names
+cffa94c6fff068e6b16c2cbe5ba36554d103f3fe arm64: dts: imx8mp: Add DT label to SPBA5 bus
+9c1214fbc1658ccae46e77073fde450dc97331e2 arm64: dts: imx8mm: imx8mp: Add LVDS DTOs for Data Modul i.MX8M Mini and Plus eDM SBC
+4f55798077dab63ef09d2e1caeb67f836d05d393 arm64: dts: imx8mm: imx8mp: Add legacy board DTOs for Data Modul i.MX8M Mini and Plus eDM SBC
+75cd15a15ad3d039998e254f67eac37bb1a25cd6 arm64: dts: imx8mm: imx8mp: Add HDMI DTOs for Data Modul i.MX8M Mini and Plus eDM SBC
+9a14f327dfcbbb0fa24974cb3a928ea3d7409768 arm64: dts: imx8mm: imx8mp: Add CM DTOs for Data Modul i.MX8M Mini and Plus eDM SBC
+af4f12046675a37ceae3dd894e3dbbe590787e4e arm64: dts: imx8mm: imx8mp: Add FIO1 DTOs for Data Modul i.MX8M Mini and Plus eDM SBC
+4a2011c3d756f49adc6203d5173c2a165e234fc5 arm64: dts: imx8mm: imx8mp: Add FIO1-Audio DTOs for Data Modul i.MX8M Mini and Plus eDM SBC
+28fc10c538d80dcc55f44ec882b74751dbaeef9a arm64: dts: imx8mq-evk: add regulator-off-in-suspend for VGEN1/VGEN6
+95117f04d31abfe13ec72b4b73e284c39eecc680 dt-bindings: arm: fsl: add i.MX952 FRDM board
+4725482e4e6c9d7b5adfaecd48230d7d83111ecd arm64: dts: freescale: add i.MX952 FRDM Board support device tree
+70ed8c8923f1b325e7c846e5ed4fee4cc35ecd2e arm64: dts: imx91: Override dpi_bridge's compatible string
+f3ed7514ce95aabbccca83042175042c169f9c4e arm64: dts: imx91: Assign media_{axi,apb}_root clock parents/rates
+0f90cfe91522125eb89c699fd30cb66a8848cd9f arm64: dts: imx91-9x9-qsb: Add tianma,tm050rdh03 panel
+aadd03cbb635ae153d4f13cdb34931b123d7265e arm64: dts: imx95-19x19-evk: Describe the PCIe M.2 Key E connector
+2659fa4fd6f7e3ba63ce3e22fbf49635189b14fa ARM: dts: vf500: describe the Cortex-A5 L1 caches
+cea697d5f84f94c0cd0d72e4581a6e51538d5b8b ARM: dts: vf610: describe the L2 cache geometry
+e12dca0aa2f50034ace8cc47306fbcdb1f82b58e arm64: dts: imx943-evk: Describe the PCIe M.2 Key E connector
+0a2d2c55750e52ddcde84b80f340b526807e9354 arm64: dts: imx95-15x15-frdm: Move PCIe PERST# and vpcie supply to Root Port node
+81b0564d4d442205978946cfaa5788b2edd33a08 arm64: dts: imx95-15x15-frdm: add boot phase properties
+1e723caaf0138add254e52654af16466eac09380 ARM: dts: imx7d-colibri-emmc: Add Toradex Capacitive Touch Display 7" Parallel
+64e7d6ba2037eace0272d21bb32d38081eff74f5 ARM: dts: imx7d-colibri-emmc: Add Toradex Capacitive Touch Display 7" Parallel with Touch Adapter
+392bbdb0357b726b116ce3b962c4d8029b8e40b3 ARM: dts: imx7d-colibri-emmc: Add Toradex Resistive Touch Display 7" Parallel
+94f3c5be8d67d19cf9913c1f5ffbf79a41fdaa3f ARM: dts: nxp: Correct white-space style
+54852806f5b464e0971ab1d00593aabc083418ce dt-bindings: display: bridge: ldb: allow a single reg for fsl,imx6sx-ldb
+1d9ca906059d106bf2f96cde213dc7382205a82f dt-bindings: soc: imx-iomuxc-gpr: allow bridge@18 as child node
+a22ad7abfe9c19296a9c1d5a73aba2d405f827f4 dt-bindings: display: lcdif: Allow display0 child node for i.MX6UL
+98501598dfebb343e3c9205d30563ced989cb8ba ARM: dts: imx6ul-tx6ul: rename disp0 to display0
+4d1e805aaead7f77e36022bae757425e53076728 ARM: dts: vf-colibri: apply the EXT_IO pin group
+d376cd7c51345c4dc77d0a4ee3f533333f426400 ARM: dts: vf-colibri: name the SODIMM gpio lines
+3f9c219e7539705a8d77d590ace67b8ce86264f8 dt-bindings: arm: fsl: add the Colibri VF50 and VF61 on Iris
+c90f5f176da7f2a163840fd877712939dd28379f ARM: dts: vf: add Iris carrier board support for Colibri VF50 and VF61
+dc5bfc682b4df23b105ceacd387865a42099aba9 ARM: imx: Replace __ASSEMBLY__ with __ASSEMBLER__
+9d183de1df061377bf5d29f33dc4814382187649 soc: imx: Replace __ASSEMBLY__ with __ASSEMBLER__ in header file
+1c3f5701bc0ff5cbe56bdae76157047d47051d44 arm64: dts: imx8mp-phyboard-pollux-peb-av-10: Fix SAI master assignment
+331e0c6aae27c5aeb2e5229bf20aaa122efeb3e2 Merge branches 'imx/dt', 'imx/dt-intend', 'imx/dt64' and 'imx/soc' into for-next
 
---===============5657676363812073231==--
+--===============6153222530840647876==--
