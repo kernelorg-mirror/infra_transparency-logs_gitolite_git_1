@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0822800429103428295=="
+Content-Type: multipart/mixed; boundary="===============7600566434766166999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 31 Aug 2026 08:50:12 -0000
-Message-Id: <178816621230.1433403.8385654156774334686@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 08:50:51 -0000
+Message-Id: <178816625101.1434129.403141923111599444@gitolite.kernel.org>
 
---===============0822800429103428295==
+--===============7600566434766166999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: d900723d78adec229996aefbab0dcaa66a177b77
+  - ref: refs/heads/kbuild-fixes
+    old: e5a259d98823a93459643b239b71fed7589ab669
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-d900723d78ad-cee9395acd80.txt
+    log: revlist-e5a259d98823-cee9395acd80.txt
+  - ref: refs/heads/kbuild-fixes-for-next
+    old: e5a259d98823a93459643b239b71fed7589ab669
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-e5a259d98823-cee9395acd80.txt
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: e5a259d98823a93459643b239b71fed7589ab669
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-e5a259d98823-cee9395acd80.txt
 
---===============0822800429103428295==
+--===============7600566434766166999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d900723d78ad-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-e5a259d98823-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1059,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============0822800429103428295==--
+--===============7600566434766166999==--
