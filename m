@@ -1,30 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============5024902335394607200=="
+Content-Type: multipart/mixed; boundary="===============1890870968711783046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 31 Aug 2026 04:30:43 -0000
-Message-Id: <178815064395.1175496.10681343644615455262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 31 Aug 2026 04:31:28 -0000
+Message-Id: <178815068892.1176258.163408114278511317@gitolite.kernel.org>
 
---===============5024902335394607200==
+--===============1890870968711783046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/fixes
-    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
+  - ref: refs/heads/sunxi/clk-for-7.3
+    old: 0a136efc0fc2d53b1b1389b3c3fb0f76edca38bf
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sunxi/config-for-7.3
+    old: b4158103c45386ab30ba7624bee17ebf33940baa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sunxi/dt-for-7.3
+    old: be145483f8eee440d335ed794a2294fd55ff2a35
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sunxi/for-next
+    old: 859c0e1925332d413ca8f9159c8ca5d04eea32a2
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-8d3ae59288f1-cee9395acd80.txt
+    log: revlist-859c0e192533-cee9395acd80.txt
 
---===============5024902335394607200==
+--===============1890870968711783046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d3ae59288f1-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-859c0e192533-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1060,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============5024902335394607200==--
+--===============1890870968711783046==--
