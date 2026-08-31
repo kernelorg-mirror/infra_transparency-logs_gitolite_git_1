@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0668694651331351809=="
+Content-Type: multipart/mixed; boundary="===============1904867698171222644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 31 Aug 2026 05:54:50 -0000
-Message-Id: <178815569041.1293269.14711514112715771968@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 05:57:14 -0000
+Message-Id: <178815583424.1296343.13996825645345863508@gitolite.kernel.org>
 
---===============0668694651331351809==
+--===============1904867698171222644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: 9453bc6a69ef43755f1c28d5688cacdd69fa16bd
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-9453bc6a69ef-cee9395acd80.txt
+    new: ae9464c65e9d1ad4df4fed516cee9bca3bc614cc
+    log: revlist-9453bc6a69ef-ae9464c65e9d.txt
 
---===============0668694651331351809==
+--===============1904867698171222644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9453bc6a69ef-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-9453bc6a69ef-ae9464c65e9d.txt
 
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
@@ -1050,5 +1049,6 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+ae9464c65e9d1ad4df4fed516cee9bca3bc614cc perf symbol: Do not use debug file as the binary type
 
---===============0668694651331351809==--
+--===============1904867698171222644==--
