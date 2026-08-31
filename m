@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4394471713608777915=="
+Content-Type: multipart/mixed; boundary="===============8419109557576665846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 31 Aug 2026 07:10:23 -0000
-Message-Id: <178816022377.1357762.15477229673303468830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 31 Aug 2026 07:10:37 -0000
+Message-Id: <178816023745.1357994.16360100499017039644@gitolite.kernel.org>
 
---===============4394471713608777915==
+--===============8419109557576665846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: acde40ba506aae78633e080b5704d33cf4bc13c6
+  - ref: refs/heads/fixes
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-acde40ba506a-cee9395acd80.txt
+    log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============4394471713608777915==
+--===============8419109557576665846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1788160221 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1788160220-4913aa59001de4e310cb45b68e7b3be881745bac
+pusher krzk@kernel.org 1788160235 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1788160234-d71f7dde651b3a8f2b2d499c9277d71a5f0a0acb
 
-acde40ba506aae78633e080b5704d33cf4bc13c6 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/for-next
+dc59e4fea9d83f03bad6bddf3fa2e52491777482 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqVKN0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18f7D/9LFxs0z/+Wu3b0X0pGVAOu5+aFxWeGeSQK
-U9WSgA8qiU/Il3kHzT+q3+O7A+gDJKqAguhoRCVpgjgscssSfLVwKrd/E3cpUTF7
-jHbB7IjM/CJNgbOwp01fCdZ0PejfiXewmdmhfwQH37PffdXqqJrsRvEsUEcrOVxL
-4AnRgYWS5MQuNSEf+PSKPrl8rKHwq4BuDkOhVXZo+/XT8fZ9Lu/AneJ8G2xpvDfa
-oL5r0QiML7TGPzkbz0KS5kKFH/U1J37kIhzKmZAX6I40OcZoHzofdZnSJ0z9FkQ6
-bqoj6xLBKPT/KCE9nj+1gXYas1Fi2NUpYnUAd3NQG/AeJaf0FWg46lkq6PfEFRcK
-e8BAlPGYLhaY35AWRKbxtfv36cswdwypxGz7mgosUVFJ2ahlILaA4MqLlzcIFVmz
-Jql5ra8rx0eP9itIvVB1YpXa9RzTqB/C+kiivHHSfr2Ue3nC/lyCdqlD9Qo3XST6
-T6u5KTS8/5tvo3c1vbdEo+Puoe/LjxkIoBVldAGs3mWp9SDhP70cjB+dbJu4nWXI
-txFxiId0tcwVB+g6MT76vWjNSJdxyEsXIYQuoLalwr6E8YD1Y0a5pxaOc5LZKyTA
-MJDy85BQrVA5JLK5hJ6LGck5CoXHXrkt7A6QqljYFFPsAK4pWF570RTz9iJaWrJc
-rGzKDnA+ZA==
-=MVAD
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqVKOsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19nlEACLMq78IMrhWaIo5DJ94fmZmz/GaixdeQta
+Nzl3RMfqrK79FYMn0TfuUE3Ce/7z2EiYWWs+xT/GVpcIIp+7Dp5BiK0KoiGniN2Z
+/mJSjtb/LK2SyR8yH/2MPE368/9fNzsGvqBNyGaNOe1G9Lll1tW5fBCxM3BAW3BT
+8bsldp+96YkCzpJDVOPdHWxZmAaHkKUqZYobVb70ytu0gZyhbMNus5/mcs3hYAjn
+FSyBXSRu6aqr6ZTptddX85WTqeL+4sFXTIuPPtvkLuBURCA/BoUMlTiRkoezpNA/
+WB9DhSBIOyxhtM233JHlpuix5eb6ygFGMOqBgyCD9heQr7bvv1OpJ8szSm9uMEnq
+A/9Cqii1IyhD8Fq6THZk7ZCrtgalpOsgVkBZJ56E0BmbWrODHih8bGQrVNAWwAB5
+TO1CXu+xMv2VhgCGaVaLtRojWqF1PLK/0IUqu/nGuyo5PzQs7oPtXSqi9ApbU6Z6
+vajw+OdhzWjXeE1aEJVSEjdeDOI+0Q4uhXGRzcMhjpzdiCzH+IeMvJaWdofx7bfj
+4WKnDDM8obcWa8jUKE1yl9oQ7N9IkKDx5I4z1ZLCY1/CIew2uqpQXc5OaLvRe+/y
+s5TaFYukDbQzVWKSMA2vMArs6g52cyzRLdQX6GxI3Cn0gkjslVsqdUAgpgUJAZnI
+alhk1pFwlg==
+=OWSg
 -----END PGP SIGNATURE-----
 
---===============4394471713608777915==
+--===============8419109557576665846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acde40ba506a-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1082,4 +1082,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============4394471713608777915==--
+--===============8419109557576665846==--
