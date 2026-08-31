@@ -1,95 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3106128694353135670=="
+Content-Type: multipart/mixed; boundary="===============1525334668318285082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 31 Aug 2026 15:11:01 -0000
-Message-Id: <178818906139.1752148.4617906563612839968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 31 Aug 2026 15:12:33 -0000
+Message-Id: <178818915340.1752862.4697484211202134235@gitolite.kernel.org>
 
---===============3106128694353135670==
+--===============1525334668318285082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 08dbfad3f5040f5bdb6c529da20d6d4e81fefd72
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-08dbfad3f504-cee9395acd80.txt
+    old: 76993a3c209d3fe36a7c9aed30b09ff002e8b272
+    new: 229c027cbb78e3625b6408e155a021233d880386
+    log: revlist-76993a3c209d-229c027cbb78.txt
 
---===============3106128694353135670==
+--===============1525334668318285082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08dbfad3f504-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-76993a3c209d-229c027cbb78.txt
 
-d5bbc9b3d20c3f90b31a64c62bb4a800b9a5941c ARM: 9473/1: kprobes: test: add MODULE_DESCRIPTION
-7e8ee82e69fde9d589272ec5e6f702358903be1f ARM: 9477/1: Disable broken eBPF JIT on the Risc PC
-8ed9bff906cf8036531d1559f10e82733a52b41f ARM: 9481/2: breakpoint: CFI breakpoints only on demand
-8a58a41100ea377e978d99600ec24a9bd0273662 ARM: 9483/1: select HAVE_POSIX_CPU_TIMERS_TASK_WORK
-e79ca91165d4fd18549c536abdb86101e889052f ARM: 9484/1: enable interrupts when unhandled user faults are triggered
-1039bffd6ae9c75b42b7d148d6c1106134107b66 ARM: 9485/1: mm: acquire mmap write lock around show_pte() for user faults
-055a410f7c9f7efa2b5524ad837d6cca78dd0b81 ARM: 9478/1: Remove references to removed CONFIG_CPU_ARM92x_CPU_IDLE options
-bb3b2cfeb206f5b10b859e134651b54120e3f530 ARM: 9480/1: entry: expand comment in __switch_to
-6620f5e8c11c4f7e41222a86f5c97150cc5f84a5 openrisc: drop unneeded semicolon
-a9a01be2834a529cbd490ccbab02643f0c1735f2 tracing: Fix logged instance name on creation failure
-a7318172aa332a161fb9618286e64454c827f8fd tracing: Fix use-after-free with same-name named triggers
-649bc7df3e5d7be6f7996a95084037dbf3cad1e5 tracing: Fix crash passing ERR_PTR to kthread_stop()
-372f8534244d632ad5118e8a87a11291b01712d3 tracing: Fix use-after-free in trace_pipe read on sub-buffer order change
-a5c7d35e2fd3e24c411816c91f8f6cc78e652e0c rust: kernel: list: fix incorrect pop_back example comment
-993f235c4af49d0e912cc28abe6d733531600237 objtool/rust: add one more `noreturn` Rust function
-dea1bf38143f8505747c19b953ef12fb809d5d77 rust: jump_label: skip arch-specific asm in `testlib` builds
-29b03d1de967a177176d12811d970cac7882afcf rust: cfi: disable function merging if CFI is enabled
-0bff7711c19ba05ff3b686554c5a2d503c3e9797 kbuild: rust: preserve unreachable traps with inline helpers
-5febf432df1cfa5b25d99b54c32103fafbdd0eb9 kbuild: rust: keep Rust objects out of Clang LTO with inline helpers
-bf2fe566a8cbd3671b816223eec8fadd18ec8d77 coccinelle: double_lock: improve performance when no double lock exists
-b32cf68d78a1f2a05797ec2a969b80a9472f45a7 coccinelle: misc: minmax: improve performance when no candidate exists
-fd0a63f086b3f2f45c49b1378f6c2ac7a542db19 coccinelle: misc: minmax: drop unneeded parentheses
-af8613c863a3160b7fb6fd09cbf5b56e37330d80 coccinelle: misc: minmax: check for the presence of if cases
-4fc2656db0c8026139f1634d557ef66e4b383765 coccinelle: misc: minmax: avoid unhelpful isomorphisms
-5adb3698bbe8f2053afbe046dee8eb184ac78478 coccinelle: update Coccinelle website URL
-b64acacd5429ff3fe7c38cb3cf959bbd3a9fb30f coccinelle: api: check for macro context
-a53cbd149844cbde80f6adfc7f4233b8f230f664 coccinelle: mini_lock: improve performance when searching loops
-707f8e0ddf3f730c15e5c18b346d4258ddb46868 coccinelle: misc: struct_size: drop unneeded parentheses
-8c59f5c467aff29d9d8088e07b6ca34926f6151d scripts: coccinelle: devm_free: reduce false positives
-cfeffda899903bfaf5244dab3596f585511af814 coccinelle: remove obsolete pci_free_consistent.cocci
-2bd30b8dc75b823dd7bbef9d7bc68e1fd7ecee5c coccinelle: alloc_cast: drop removed allocators
-0319b42e1e28b845a3092082fa1e1ff9043f833e coccinelle: zalloc-simple: drop the kmem_alloc rules
-46094a7708b7945cb7eba9eb887e3ea9757440a7 locking: Revert switching guards to _irq_{disable,enable}()
-7dd6343fc127935425a81a8f1989907996c2868d rust: num: restrict bool conversion to unsigned Bounded
-1704aaaf5d22bc765c168402350d191e24e245bc eventfs: Initialize ei->children and ei->list in init_ei()
-64f74d8f728877858372c52067e5c0c091f8db24 um: Use asm-generic/timex.h over the host architecture one
-1b0bab4a873f1034c27573cfc613394cff7e0a5b rust: kbuild: disambiguate `zerocopy_derive` for `rusttest`
-385c7af4e3b95d0769fd211831674e83b16a2ebf i2c: mux: Fix channel node leak on adapter add failure
-d79fb758e7e2e7a181eab630c0545a56041c473d samples/ftrace: Fix kthread_stop() on ERR_PTR in ftrace-direct-modify
-6727b7618f49401acf373fa3ec5712e2ec52e5cf samples/ftrace: Fix kthread_stop() on ERR_PTR in ftrace-direct-multi-modify
-a4f3fbccb65de757569686baaf2b72e329096aba i2c: qcom-geni: update frequency table to fix timing parameters
-77549d01edecc20da73c8599e14648877198ce9b i2c: designware: Enable interrupt mask workaround for HJMC3001
-f98d4986482151a835b521a734722fe8dc5ca37d i2c: qcom-cci: fix autosuspend cleanup
-27c9445be86b1313746c46d659d3f823a5f7a218 i2c: imx-lpi2c: avoid accessing target registers on master-only controllers
-b15b548d52b43ba8ac4652bc2c7244a8dd1e9622 i2c: core: fix debugfs UAF on adapter removal
-390f6bd8583d177029d9df4bea6667509e55a765 tracing/user_events: Clear copied tracing state before fork duplication
-e0d3aed7b12cf37b74c7cc5265073d0263b49cde tracing: Fix retry exhaustion in simple ring buffer reader swap
-5eab74874d11160725c42ab676ba97a797a362eb ring-buffer: Stop remote reader update when page swap fails
-78004e9a87f240df03e2f73120d291763c32e0a7 openrisc: fix arbitrary kernel memory access via or1k_atomic syscall
-729eb52aa17f480a14ec0e7df363deabd41e57a3 coccinelle: pool_zalloc-simple: drop the pci_pool_alloc rules
-3beb6e620fae118f1dc1092b08b2c82b4e762b8a coccinelle: kfree_mismatch: drop vmalloc_exec
-5264281879ef19b68f61846a7455a627f10b92e8 coccinelle: atomic_as_refcounter: drop atomic_long_dec_and_lock
-f83b8a58695cbf419beaa3f63b9d3e264792d8ea coccinelle: ifnulldev_put: update outdated helper names
-ef6a1dca8de41a408019310649e6d1b7b21ac4bc coccinelle: ifnulldev_put: update error message
-1a89abc009cb5035d0cb4e5ba48d32b94f30e8e4 Merge branches 'fixes' and 'misc' into for-linus
-034dd340b08be1f2f0477ad16131d609f9dbd53c Merge tag 'trace-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-fb5b59a6a678bab054a78d99eecfdb6f5558e82e Merge tag 'for-linus' of https://github.com/openrisc/linux
-0fe792fa9b616b790f03cbeed067b83eeaae7e7e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-f59c074e76a6a9ea55818373decdf56c6fddca30 Merge tag 'rust-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-637836563deb95f4338decf2d2d832c4deef022a Merge tag 'locking-urgent-2026-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a23cbb05744b22719efdc34f9e329a120e81e617 Merge tag 'timers-urgent-2026-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Darrick J. Wong
-eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
-78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+3818645785a5ece5151cf30db9b8b521fbcf936f todo-reported: update
+6080f3acb16f04e01bc5874fa281753a17023817 todo-reported: update
+50641ead39670f3fc8a2e9796cbbc52cbb68a27f patches/next: add invalid charge_target_from reset patch
+e873116f7fd6e982e5ec93128614157bbae92ea9 patches/next: add hugetlb ptep race fix
+0b651e2b351006224c3b68ad902b9af1f98c5958 patches/next: wordsmith unurgent fixes 1
+d968b42b6b90846d83200bd4d1550f079917d0a3 patches/posted: add unurgent fixes 1 rfc v1.2
+6ba2760dff3506db60245d27a790ae4db473d17d todo-reported: update
+0a7eb8591b39597be796901ecf71dc860850908f patches/next: gather individual patches into a series
+71a207c3b203ba1069f4cc3c12a6121b3bf51d3a patches/next: misc cleanups: add proactive changelog
+1647d639b0f3347af59ee4787476fe817675db7c patches/next: hugepage_mem_bp: wordsmith
+3d0ce9d31970f644f1db7824c8774bc8f73c67c0 patches/next: wordsmith hugepage_mem_bp cv
+b817c34b4459302386d26ac068cbe8057da931a5 patches/next: hugepage_mem_bp: wordsmith
+74b600252b4f8c9ca667b526b2aff0e420d34ce9 patches/next: hugepage mem bp: add proactive changelog
+347aaf099ea4bb369f60901577f7b60ef46b4908 patches/next: unused helper removal: wordsmith
+2c1e8ab61732e7aa2c31adbf6ac2926726d4b562 patches/next: unused helpers removal: add proactive changelog
+191d064132e40151b653b9278172163a2e2117b0 patches/next: snapshots doc clarification: wordsmith
+8e9da2f65c6c752485e9f76641ad1a6479ba609c patches/next: snapshots doc clarification: add proactive changelog
+cf748216b2f123f8b5a841cd9a09c0e9b31de684 patches/next: probe kunit: wordsmith
+229c027cbb78e3625b6408e155a021233d880386 patches/next: probe kunit: add praoctive changelog
 
---===============3106128694353135670==--
+--===============1525334668318285082==--
