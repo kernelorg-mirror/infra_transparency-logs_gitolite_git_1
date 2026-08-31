@@ -1,76 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0653338183100264100=="
+Content-Type: multipart/mixed; boundary="===============7527075065902184260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 31 Aug 2026 13:15:07 -0000
-Message-Id: <178818210786.1652120.18171273072707086813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 31 Aug 2026 13:15:55 -0000
+Message-Id: <178818215527.1652873.1941414559197309105@gitolite.kernel.org>
 
---===============0653338183100264100==
+--===============7527075065902184260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 9007b4d65452d8a54e06307d2fac61b733c657b2
-    log: revlist-cee9395acd80-9007b4d65452.txt
-  - ref: refs/heads/for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: e3234bdbb696636ebb0f5ef042551970d7b958f8
-    log: revlist-cee9395acd80-e3234bdbb696.txt
+  - ref: refs/heads/master
+    old: db247bd12f384e83e321e74af98bfdcc931e3e73
+    new: ffc2f26ffdd7fa7c74e2b1249ea75b78441717b3
+    log: |
+         ffc2f26ffdd7fa7c74e2b1249ea75b78441717b3 6.6-stable patches
+         
 
---===============0653338183100264100==
+--===============7527075065902184260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-9007b4d65452.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1661d004731d3f3c5c4aa7fdfd09977d2cb26cc7 s390/time: Use jiffies instead of jiffies_64
-efcc0d99b1d1e5a2cfef1f592b88b00b8a37a452 s390/cpacf: Unpoison instruction results
-6b8b0ab961fdd3f924b83e2f057ea232f20af9d5 s390/ap: Drop unused member from ap_device_id
-2dd53cef8ea21a3250fb8e4141346462cc6b18a7 s390/ipl: Fix NULL deref in kdump without re-IPL parm block
-90c31d0752b520c656a5a0da4641e489f530f391 s390/ipl: Fix NULL deref in dump_reipl without re-IPL parm block
-ee2c74afadebf136c395a323cba70065c07476cf s390/pci: Fix leak of uninitialized kernel data in SCLP report
-ea02b66dedd72122713778dd2011ba1937dffcd4 s390/zcrypt: Validate length in reply before using it
-b8a63aed506f714ce4f3cc0ef8ddf62be36649e8 s390/diag324: Preserve -EBUSY return code
-83385ba6cd6cde3e89fc0f3f57295c52d67d166c s390/pai: Handle multiple PMU stop callback invocations
-bf99b36b9ca51f2e74d950a66b1252576444cfbe s390/pai: Reduce excessive debug feature size
-02bb78543e81525aaeac4db565da1a4b4bbf6ce5 s390/topology: Switch to common cpu capacity code
-282539707933d68301bb3b86f24bd81d5f9ab229 s390/zcrypt: Improve zcrypt reply message verification checks
-596b0bc5af017f7db02cf89f7afb102ba46ce85c s390/boot: Fix physical memory search range
-8f61c5f60c35284025c3d0c55a9d80028adcc47e s390/boot: Avoid IPL parameter append past command line
-24af0e135726a861dd4065ec2c83ca632b96970a s390/boot: Bound command line facility ranges
-b4a31139129cc83ccc8008c86acee51c182b8a6b s390/mm: Simplify crst_table_upgrade()
-9007b4d65452d8a54e06307d2fac61b733c657b2 s390/zcrypt: Fix uninitialized padding in CRT key structure
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788182153 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1788182153-6c1441c6b69bbd71a37f677dc2b7b6df9959f7af
 
---===============0653338183100264100==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-e3234bdbb696.txt
+db247bd12f384e83e321e74af98bfdcc931e3e73 ffc2f26ffdd7fa7c74e2b1249ea75b78441717b3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-1661d004731d3f3c5c4aa7fdfd09977d2cb26cc7 s390/time: Use jiffies instead of jiffies_64
-efcc0d99b1d1e5a2cfef1f592b88b00b8a37a452 s390/cpacf: Unpoison instruction results
-6b8b0ab961fdd3f924b83e2f057ea232f20af9d5 s390/ap: Drop unused member from ap_device_id
-2dd53cef8ea21a3250fb8e4141346462cc6b18a7 s390/ipl: Fix NULL deref in kdump without re-IPL parm block
-90c31d0752b520c656a5a0da4641e489f530f391 s390/ipl: Fix NULL deref in dump_reipl without re-IPL parm block
-ee2c74afadebf136c395a323cba70065c07476cf s390/pci: Fix leak of uninitialized kernel data in SCLP report
-ea02b66dedd72122713778dd2011ba1937dffcd4 s390/zcrypt: Validate length in reply before using it
-b8a63aed506f714ce4f3cc0ef8ddf62be36649e8 s390/diag324: Preserve -EBUSY return code
-83385ba6cd6cde3e89fc0f3f57295c52d67d166c s390/pai: Handle multiple PMU stop callback invocations
-bf99b36b9ca51f2e74d950a66b1252576444cfbe s390/pai: Reduce excessive debug feature size
-02bb78543e81525aaeac4db565da1a4b4bbf6ce5 s390/topology: Switch to common cpu capacity code
-282539707933d68301bb3b86f24bd81d5f9ab229 s390/zcrypt: Improve zcrypt reply message verification checks
-596b0bc5af017f7db02cf89f7afb102ba46ce85c s390/boot: Fix physical memory search range
-8f61c5f60c35284025c3d0c55a9d80028adcc47e s390/boot: Avoid IPL parameter append past command line
-24af0e135726a861dd4065ec2c83ca632b96970a s390/boot: Bound command line facility ranges
-b4a31139129cc83ccc8008c86acee51c182b8a6b s390/mm: Simplify crst_table_upgrade()
-9007b4d65452d8a54e06307d2fac61b733c657b2 s390/zcrypt: Fix uninitialized padding in CRT key structure
-e3234bdbb696636ebb0f5ef042551970d7b958f8 Merge branch 'fixes' into for-next
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVfokbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dTgQAL82hDyBTUjBznYWXDSC
+1gpgONmVakF4zRKKv5sc72sFlOhD97//VrJWCd7VA5hErsq+1DhwWahuASIFNWkb
+uuSEwbM+ELxXh7tD5P9AidSFTrURnuPizON/OjUIFdEM+5xpGhVrvnpb1M8GeylC
+c3QLLAPWTihynqd4uIS9LUdpI2TGd/Y3RaSF9hVBCbA1NvcX4tfsHvDDmD6yAvl1
++LVUTJJTMpW4YMJpSjhscHe6qWuGDuL7s4hBLL90ZzxriN5fNX99VhA0/SXoOzS+
+z6FTCYIpPRiqLwdx4wkFiSnDle6jyRqxSyftneQQ2+FquT0cCN+mVlvZpJOUKk+f
+fZhvbcJ5ra7J6TzqA1cFXOCeq7YGAeqME5Ry7PDY3brdSQbDQjWgyYuvDXpJmVjQ
+sVJuvI1Lh8rCByApd6US2/V0dTs67QgD3rUkMYOCQH1Xe70KMKLmjME+3JIG5pe1
+MPlsQdaTk8EjWTxcQxcWUxdRNR1JBBHCbvSqW9i3f1Fa3CZEqIx/jENdtohJQirV
+YFdE3ZtyV5+vsVgV8PQOwJg21sJidGXeWO06R1N7YjIvoU2ZWANf/8IUIv0YGqZw
+MqlZeJ0xpyXgVbDfXRPBYDp4q8FtZSOVN6AuPKG1hkfzyCxk99yZCfvF5x7defak
+CcdbM5VZV1TSN1WaMeZY1Rm6
+=NQ97
+-----END PGP SIGNATURE-----
 
---===============0653338183100264100==--
+--===============7527075065902184260==--
