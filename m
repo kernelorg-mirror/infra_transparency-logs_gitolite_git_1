@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6231889421821145822=="
+Content-Type: multipart/mixed; boundary="===============2777511760607966163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 31 Aug 2026 06:07:15 -0000
-Message-Id: <178815643540.1306513.18104075970117414837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 31 Aug 2026 06:07:32 -0000
+Message-Id: <178815645213.1306749.12082278601026661501@gitolite.kernel.org>
 
---===============6231889421821145822==
+--===============2777511760607966163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============6231889421821145822==
+--===============2777511760607966163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6231889421821145822==--
+--===============2777511760607966163==--
