@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7022056029262017828=="
+Content-Type: multipart/mixed; boundary="===============5402137651720855452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 31 Aug 2026 09:06:45 -0000
-Message-Id: <178816720557.1447235.17125232104936575952@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 09:07:06 -0000
+Message-Id: <178816722644.1447515.9230324360669639880@gitolite.kernel.org>
 
---===============7022056029262017828==
+--===============5402137651720855452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 101782f8945a125044347312d74d488c05741c4a
+  - ref: refs/heads/for-next
+    old: 53158917ea1a0219f6886a0ae10f6f276ecfa2a6
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-101782f8945a-cee9395acd80.txt
+    log: revlist-53158917ea1a-cee9395acd80.txt
 
---===============7022056029262017828==
+--===============5402137651720855452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-101782f8945a-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-53158917ea1a-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============7022056029262017828==--
+--===============5402137651720855452==--
