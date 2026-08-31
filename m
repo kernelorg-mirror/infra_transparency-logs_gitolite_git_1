@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8628646050772428158=="
+Content-Type: multipart/mixed; boundary="===============2003925064563622477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 31 Aug 2026 04:31:29 -0000
-Message-Id: <178815068988.1176302.15451528383105031732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 31 Aug 2026 04:32:34 -0000
+Message-Id: <178815075463.1176847.9781890868452685638@gitolite.kernel.org>
 
---===============8628646050772428158==
+--===============2003925064563622477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
-    old: 86feaba911f2f1a540a7695c8f4a98fd0fd60ac4
+  - ref: refs/heads/master
+    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-86feaba911f2-cee9395acd80.txt
+    log: revlist-8d3ae59288f1-cee9395acd80.txt
 
---===============8628646050772428158==
+--===============2003925064563622477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86feaba911f2-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-8d3ae59288f1-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============8628646050772428158==--
+--===============2003925064563622477==--
