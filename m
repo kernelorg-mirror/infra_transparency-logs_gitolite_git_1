@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============3880420292511786404=="
+Content-Type: multipart/mixed; boundary="===============7810086863115650582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Mon, 31 Aug 2026 04:20:55 -0000
-Message-Id: <178815005590.1168554.154615084054156566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 31 Aug 2026 04:29:31 -0000
+Message-Id: <178815057168.1172740.16051321840478409554@gitolite.kernel.org>
 
---===============3880420292511786404==
+--===============7810086863115650582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/for-next
-    old: b58afc8d1cf85688601b8d7e271125fff666f661
-    new: 9c47af906bc655c8f45aaf1f156656239c2c5073
-    log: revlist-b58afc8d1cf8-9c47af906bc6.txt
+  - ref: refs/heads/master
+    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-8d3ae59288f1-cee9395acd80.txt
 
---===============3880420292511786404==
+--===============7810086863115650582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b58afc8d1cf8-9c47af906bc6.txt
+Content-Disposition: attachment; filename=revlist-8d3ae59288f1-cee9395acd80.txt
 
+a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
+7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
+bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
+12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
 da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
 abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
@@ -1043,12 +1050,5 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-30b3853ab3b54e22edf3372fd6aaf35d52d667e0 selftests/nolibc: stop treating skipped tests as warning
-836cecd18332a3152f09e79b02e613b3982c2e9c tools/nolibc: split the architecture list into multiple lines
-4b4f56583850ba13f576f1e34f1b9e217c003773 selftests/nolibc: prepare for clang-only architectures
-3842a1f486a05c12b2a8712546858e6872431292 tools/nolibc: add support for hexagon
-4c00540add56942d621a941481cf9d0fb7dcec0e selftests/nolibc: switch around the skip conditions in run-tests.sh
-c0da8b53603ad84f622b2c5f6c1a69f7d4b4b8bc tools/nolibc: Add sendfile()
-9c47af906bc655c8f45aaf1f156656239c2c5073 selftests/nolibc: Add basic test for sendfile()
 
---===============3880420292511786404==--
+--===============7810086863115650582==--
