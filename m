@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4599853466221660286=="
+Content-Type: multipart/mixed; boundary="===============5335966789913445124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 31 Aug 2026 21:46:59 -0000
-Message-Id: <178821281963.2127570.15716900423428831606@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:47:01 -0000
+Message-Id: <178821282173.2127703.5957137173445805510@gitolite.kernel.org>
 
---===============4599853466221660286==
+--===============5335966789913445124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 94509f50d696bff745fe26457ce421cea8525bee
     new: ab2704c2a884028fd12d455cf27a9585aefe2961
     log: revlist-94509f50d696-ab2704c2a884.txt
 
---===============4599853466221660286==
+--===============5335966789913445124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a5f506ada43fa009e3c425172f94ce2bc42d4f66 docs: debugobjects: Fix debug_object_in
 13d48be7a07249ea720a0f97b088411521db0013 docs: real-time: mention the hrtimer sleeper HARD path
 ab2704c2a884028fd12d455cf27a9585aefe2961 docs: sysctl: timer_migration is for hrtimer only
 
---===============4599853466221660286==--
+--===============5335966789913445124==--
