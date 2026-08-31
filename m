@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1337412967709208249=="
+Content-Type: multipart/mixed; boundary="===============9021502076415649090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 31 Aug 2026 05:50:14 -0000
-Message-Id: <178815541473.1291431.11101135498639781418@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 05:51:24 -0000
+Message-Id: <178815548481.1292322.582917160229430661@gitolite.kernel.org>
 
---===============1337412967709208249==
+--===============9021502076415649090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 8c3afcf27fa4582c1ab912503dc8a4ebb8dc0f82
-    new: 9fa5ba6c746af674fd938968e6f6307c60786ceb
-    log: revlist-8c3afcf27fa4-9fa5ba6c746a.txt
+  - ref: refs/heads/opp/linux-next
+    old: 84f05af0975c9f9c8ffee0361d6f7cbb1f289231
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-84f05af0975c-cee9395acd80.txt
 
---===============1337412967709208249==
+--===============9021502076415649090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c3afcf27fa4-9fa5ba6c746a.txt
+Content-Disposition: attachment; filename=revlist-84f05af0975c-cee9395acd80.txt
 
+a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
 bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
@@ -1047,8 +1050,5 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-801ade22c4fc078ea9b11e1f3fe3aae8b8bef886 cpufreq: airoha: fix probe failure with correct error check
-0ba1ee052b3f9917ae6ad0c29dc520827f2bbf55 rust: cpufreq: reject NULL from cpufreq_cpu_get()
-9fa5ba6c746af674fd938968e6f6307c60786ceb cpufreq: sparc-us2e: fix frequency table index copy-paste error
 
---===============1337412967709208249==--
+--===============9021502076415649090==--
