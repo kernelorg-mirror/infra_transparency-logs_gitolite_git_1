@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7597126727108249374=="
+Content-Type: multipart/mixed; boundary="===============3703351413879281103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 31 Aug 2026 20:28:30 -0000
-Message-Id: <178820811070.2001275.12931414188767837560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 31 Aug 2026 20:32:21 -0000
+Message-Id: <178820834166.2004844.4720085514369279041@gitolite.kernel.org>
 
---===============7597126727108249374==
+--===============3703351413879281103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-dc59e4fea9d8-cee9395acd80.txt
+  - ref: refs/heads/testme
+    old: c87969974d4c2033eeb6b1d326259d9c27e14c4c
+    new: 328181163620df7c4a5de441c84de9c3bf18496c
+    log: revlist-c87969974d4c-328181163620.txt
 
---===============7597126727108249374==
+--===============3703351413879281103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-c87969974d4c-328181163620.txt
 
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
-7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
-bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
 12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
 da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
 abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
@@ -1050,5 +1044,11 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+72bd92bd8190d7869ecb462649ca40f297822a33 x86/amd_node: Avoid divide by zero on virtualized systems
+9349b3dac8b91d0444c0bbf49e984f2b92c6b42e x86/mm/pat: Acquire init_mm write lock on collapse to avoid UAF
+891129e439f7525e9a30b3f3c8db0354edaf0ee0 x86/mm/pat: Acquire init_mm read lock on attribute change to avoid UAF
+7d741be1fe5cea618014aba3e6226f0a440ab77a x86/alternative: Exclude text poking against change_page_attr()
+fb90a63f8ef6ad3b7d0d3bfdcee6f0eccf257237 x86/mm/pat: Allocate split page tables as kernel page tables
+328181163620df7c4a5de441c84de9c3bf18496c x86/mm/pat: Fix effective RW computation in lookup_address_in_pgd_attr()
 
---===============7597126727108249374==--
+--===============3703351413879281103==--
