@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1067492599706537635=="
+Content-Type: multipart/mixed; boundary="===============9050630394021915817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 31 Aug 2026 14:23:28 -0000
-Message-Id: <178818620872.1711097.11066019735132785749@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 14:26:12 -0000
+Message-Id: <178818637265.1714281.2075091455094192989@gitolite.kernel.org>
 
---===============1067492599706537635==
+--===============9050630394021915817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,61 @@ repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
   - ref: refs/heads/fixes
-    old: 9007b4d65452d8a54e06307d2fac61b733c657b2
-    new: 76277bfac881f5be884bd1eaf3061143589c7250
-    log: revlist-9007b4d65452-76277bfac881.txt
+    old: 76277bfac881f5be884bd1eaf3061143589c7250
+    new: 59a75526cbed7518026b3304f9edd6b5998f4711
+    log: revlist-76277bfac881-59a75526cbed.txt
   - ref: refs/heads/for-next
-    old: e3234bdbb696636ebb0f5ef042551970d7b958f8
-    new: b1246e8d18242873dd041ed23eb5b083a3a8efff
-    log: revlist-e3234bdbb696-b1246e8d1824.txt
+    old: b1246e8d18242873dd041ed23eb5b083a3a8efff
+    new: ec2aa26d0add4a361cb2e732b3f91bb0949db4f7
+    log: revlist-b1246e8d1824-ec2aa26d0add.txt
 
---===============1067492599706537635==
+--===============9050630394021915817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9007b4d65452-76277bfac881.txt
+Content-Disposition: attachment; filename=revlist-76277bfac881-59a75526cbed.txt
 
-53af5e1b42dd76aa1bbe3d5b4af9a4f62482a73c s390/time: Use jiffies instead of jiffies_64
-69edc92569d5706397d8ec91e794fc8f17991eb9 s390/cpacf: Unpoison instruction results
-f4e34638bb00030097a0b3b4e37808300efc3861 s390/ap: Drop unused member from ap_device_id
-5fae60ff7f9d1143815ec3c67eaccfe184bd7823 s390/ipl: Fix NULL deref in kdump without re-IPL parm block
-9a871ce2357372c0d3a965eda397e2d7b0949428 s390/ipl: Fix NULL deref in dump_reipl without re-IPL parm block
-1e7a8655ec5944d963d8f7db40d359e210f3fcec s390/pci: Fix leak of uninitialized kernel data in SCLP report
-511bb8955d831f8f6337400d62150abc3fb9aeff s390/zcrypt: Validate length in reply before using it
-786ed7e5862a8e6a6549a4c3e8053c9c678fcb97 s390/diag324: Preserve -EBUSY return code
-0c180ce9df12a6c34639b87960ea7f4effed287a s390/pai: Handle multiple PMU stop callback invocations
-26bddec430c8da20d2e8dfc869b33cc0f7906b02 s390/pai: Reduce excessive debug feature size
-8490144152faff0815d5a4f4472114600f3ecb52 s390/topology: Switch to common cpu capacity code
-03c23c9297888ccf908774c30220206580030a8f s390/zcrypt: Improve zcrypt reply message verification checks
-55b2ccdf833752770dd856eaea37c98e9572c657 s390/boot: Fix physical memory search range
-159398a6c2ca9f3548eab493cdd65f96a71e5286 s390/boot: Avoid IPL parameter append past command line
-391f72bd928c4d31db560add1bc8ddf504cac3e3 s390/boot: Bound command line facility ranges
-5e20369c4fef63bd210031d75fded997b8b553f5 s390/mm: Simplify crst_table_upgrade()
-76277bfac881f5be884bd1eaf3061143589c7250 s390/zcrypt: Fix uninitialized padding in CRT key structure
+ca1f4a5ecab084af7f405baa902edbed171b57e6 s390/time: Use jiffies instead of jiffies_64
+b00c10948fa4c9b1f3e2814b97f299ad970f94c8 s390/cpacf: Unpoison instruction results
+f3c63b8cabbb121866347fe164c23635965b31d7 s390/ap: Drop unused member from ap_device_id
+7f918871112e8e7c581e99eb8e545af4e59c8367 s390/ipl: Fix NULL deref in kdump without re-IPL parm block
+37f61b71cbc0caefc01022a19ee56fc2510e2e6e s390/ipl: Fix NULL deref in dump_reipl without re-IPL parm block
+8ac60ae2a307a50b599bf5d300b448d638f3ba29 s390/pci: Fix leak of uninitialized kernel data in SCLP report
+a91a5c25a2c3f652178b591facc2395a7dbb59af s390/zcrypt: Validate length in reply before using it
+439077c39d8f7108aea4dd8d4d819b9b864fe84c s390/diag324: Preserve -EBUSY return code
+f3110e969ad226ffbb2d9b4bf5387e68d0d9ef40 s390/pai: Handle multiple PMU stop callback invocations
+8cff0ac21658fedd4598e9904dd0c518bdaf5856 s390/pai: Reduce excessive debug feature size
+bb06e5a2a031c89b1f1f60ff45ce80f8e4f6ee56 s390/topology: Switch to common cpu capacity code
+a102d865ac3a66478de95acecfc76180a8f9660d s390/zcrypt: Improve zcrypt reply message verification checks
+5ddadd9db0412c1210630efeeafacbaa367cde21 s390/boot: Fix physical memory search range
+1e8797a8cb180e3ec0d40a0a9580ba00208fdf69 s390/boot: Avoid IPL parameter append past command line
+52ce79282e562976587898db72169376be47e7bb s390/boot: Bound command line facility ranges
+f15201d00129e943cb6d169535ef128f617ea22e s390/mm: Simplify crst_table_upgrade()
+59a75526cbed7518026b3304f9edd6b5998f4711 s390/zcrypt: Fix uninitialized padding in CRT key structure
 
---===============1067492599706537635==
+--===============9050630394021915817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3234bdbb696-b1246e8d1824.txt
+Content-Disposition: attachment; filename=revlist-b1246e8d1824-ec2aa26d0add.txt
 
-53af5e1b42dd76aa1bbe3d5b4af9a4f62482a73c s390/time: Use jiffies instead of jiffies_64
-69edc92569d5706397d8ec91e794fc8f17991eb9 s390/cpacf: Unpoison instruction results
-f4e34638bb00030097a0b3b4e37808300efc3861 s390/ap: Drop unused member from ap_device_id
-5fae60ff7f9d1143815ec3c67eaccfe184bd7823 s390/ipl: Fix NULL deref in kdump without re-IPL parm block
-9a871ce2357372c0d3a965eda397e2d7b0949428 s390/ipl: Fix NULL deref in dump_reipl without re-IPL parm block
-1e7a8655ec5944d963d8f7db40d359e210f3fcec s390/pci: Fix leak of uninitialized kernel data in SCLP report
-511bb8955d831f8f6337400d62150abc3fb9aeff s390/zcrypt: Validate length in reply before using it
-786ed7e5862a8e6a6549a4c3e8053c9c678fcb97 s390/diag324: Preserve -EBUSY return code
-0c180ce9df12a6c34639b87960ea7f4effed287a s390/pai: Handle multiple PMU stop callback invocations
-26bddec430c8da20d2e8dfc869b33cc0f7906b02 s390/pai: Reduce excessive debug feature size
-8490144152faff0815d5a4f4472114600f3ecb52 s390/topology: Switch to common cpu capacity code
-03c23c9297888ccf908774c30220206580030a8f s390/zcrypt: Improve zcrypt reply message verification checks
-55b2ccdf833752770dd856eaea37c98e9572c657 s390/boot: Fix physical memory search range
-159398a6c2ca9f3548eab493cdd65f96a71e5286 s390/boot: Avoid IPL parameter append past command line
-391f72bd928c4d31db560add1bc8ddf504cac3e3 s390/boot: Bound command line facility ranges
-5e20369c4fef63bd210031d75fded997b8b553f5 s390/mm: Simplify crst_table_upgrade()
-76277bfac881f5be884bd1eaf3061143589c7250 s390/zcrypt: Fix uninitialized padding in CRT key structure
-b1246e8d18242873dd041ed23eb5b083a3a8efff Merge branch 'fixes' into for-next
+ca1f4a5ecab084af7f405baa902edbed171b57e6 s390/time: Use jiffies instead of jiffies_64
+b00c10948fa4c9b1f3e2814b97f299ad970f94c8 s390/cpacf: Unpoison instruction results
+f3c63b8cabbb121866347fe164c23635965b31d7 s390/ap: Drop unused member from ap_device_id
+7f918871112e8e7c581e99eb8e545af4e59c8367 s390/ipl: Fix NULL deref in kdump without re-IPL parm block
+37f61b71cbc0caefc01022a19ee56fc2510e2e6e s390/ipl: Fix NULL deref in dump_reipl without re-IPL parm block
+8ac60ae2a307a50b599bf5d300b448d638f3ba29 s390/pci: Fix leak of uninitialized kernel data in SCLP report
+a91a5c25a2c3f652178b591facc2395a7dbb59af s390/zcrypt: Validate length in reply before using it
+439077c39d8f7108aea4dd8d4d819b9b864fe84c s390/diag324: Preserve -EBUSY return code
+f3110e969ad226ffbb2d9b4bf5387e68d0d9ef40 s390/pai: Handle multiple PMU stop callback invocations
+8cff0ac21658fedd4598e9904dd0c518bdaf5856 s390/pai: Reduce excessive debug feature size
+bb06e5a2a031c89b1f1f60ff45ce80f8e4f6ee56 s390/topology: Switch to common cpu capacity code
+a102d865ac3a66478de95acecfc76180a8f9660d s390/zcrypt: Improve zcrypt reply message verification checks
+5ddadd9db0412c1210630efeeafacbaa367cde21 s390/boot: Fix physical memory search range
+1e8797a8cb180e3ec0d40a0a9580ba00208fdf69 s390/boot: Avoid IPL parameter append past command line
+52ce79282e562976587898db72169376be47e7bb s390/boot: Bound command line facility ranges
+f15201d00129e943cb6d169535ef128f617ea22e s390/mm: Simplify crst_table_upgrade()
+59a75526cbed7518026b3304f9edd6b5998f4711 s390/zcrypt: Fix uninitialized padding in CRT key structure
+ec2aa26d0add4a361cb2e732b3f91bb0949db4f7 Merge branch 'fixes' into for-next
 
---===============1067492599706537635==--
+--===============9050630394021915817==--
