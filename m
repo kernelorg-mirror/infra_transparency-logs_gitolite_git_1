@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 31 Aug 2026 21:09:13 -0000
-Message-Id: <178821055343.2038903.13075993485941991659@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:09:14 -0000
+Message-Id: <178821055481.2039056.8052047772885597280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/tags/kconfig-v5.13
-    old: 15e42f3e6ac29f4dc6893c42287c46ce1dac79a8
+  - ref: refs/tags/kconfig-v5.2
+    old: 69ab2ac1ecd5163431e8be6dc8c0f399d361d56b
     new: 0000000000000000000000000000000000000000
