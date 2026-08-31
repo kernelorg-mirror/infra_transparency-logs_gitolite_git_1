@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8706505632432140620=="
+Content-Type: multipart/mixed; boundary="===============0799948240272660430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 31 Aug 2026 10:35:30 -0000
-Message-Id: <178817253078.1517169.354207423896244611@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 10:35:45 -0000
+Message-Id: <178817254596.1517593.4911813061962847822@gitolite.kernel.org>
 
---===============8706505632432140620==
+--===============0799948240272660430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 0fb9083a6e56f688aeeccfc7ef7eeba586e57dc6
+  - ref: refs/heads/renesas-clk-for-v7.4
+    old: 163a2ad70d7b3e76183bb84f71a033ffaf13d14a
     new: f93dfd5fe16bff1d5d86e1906d728ed18c681164
-    log: revlist-0fb9083a6e56-f93dfd5fe16b.txt
-  - ref: refs/heads/renesas-pinctrl
-    old: 5a653cedec948423fc8a0180c90b8d05c2239d9d
+    log: revlist-163a2ad70d7b-f93dfd5fe16b.txt
+  - ref: refs/heads/renesas-pinctrl-for-v7.4
+    old: e318d77387b30c46c8a81dcc3310f754c46e9c24
     new: d48a308fabd6dc7676d570f0bc971817e39d824c
-    log: revlist-5a653cedec94-d48a308fabd6.txt
+    log: revlist-e318d77387b3-d48a308fabd6.txt
 
---===============8706505632432140620==
+--===============0799948240272660430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fb9083a6e56-f93dfd5fe16b.txt
+Content-Disposition: attachment; filename=revlist-163a2ad70d7b-f93dfd5fe16b.txt
 
 259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
@@ -1055,11 +1055,11 @@ cbba664c26d7f648eb388d1edd173e11a44deec7 clk: renesas: rzg2l: Add support for RZ
 2d355b6ecb435b461c153f42708627cbae47d6a3 clk: renesas: r9a08g046: Add MIPI DSI and LCDC clock/reset entries
 f93dfd5fe16bff1d5d86e1906d728ed18c681164 clk: renesas: r9a08g046: Add clock and reset entries for LVDS
 
---===============8706505632432140620==
+--===============0799948240272660430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a653cedec94-d48a308fabd6.txt
+Content-Disposition: attachment; filename=revlist-e318d77387b3-d48a308fabd6.txt
 
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -2086,4 +2086,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 d48a308fabd6dc7676d570f0bc971817e39d824c pinctrl: renesas: rzg2l: Add SD channel POC support for RZ/G3L
 
---===============8706505632432140620==--
+--===============0799948240272660430==--
