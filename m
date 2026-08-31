@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7826442556767122143=="
+Content-Type: multipart/mixed; boundary="===============4458127425587431516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 31 Aug 2026 06:19:56 -0000
-Message-Id: <178815719603.1315832.13189346018872660774@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 06:20:05 -0000
+Message-Id: <178815720519.1317789.12183073205734356728@gitolite.kernel.org>
 
---===============7826442556767122143==
+--===============4458127425587431516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
-    old: a13c140cc289c0b7b3770bce5b3ad42ab35074aa
+  - ref: refs/heads/usb-linus
+    old: d37186bd95a07e334447f47274a38a311dad2172
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-a13c140cc289-cee9395acd80.txt
+    log: revlist-d37186bd95a0-cee9395acd80.txt
 
---===============7826442556767122143==
+--===============4458127425587431516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a13c140cc289-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-d37186bd95a0-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============7826442556767122143==--
+--===============4458127425587431516==--
