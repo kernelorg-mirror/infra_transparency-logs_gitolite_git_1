@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5678953144421760836=="
+Content-Type: multipart/mixed; boundary="===============0106674940447501193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 31 Aug 2026 18:09:40 -0000
-Message-Id: <178819978009.1891958.15953110714613234522@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 18:09:44 -0000
+Message-Id: <178819978404.1892143.17007974078949987374@gitolite.kernel.org>
 
---===============5678953144421760836==
+--===============0106674940447501193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-current
-    old: d2f96bcb89d36d488a10e3bcf819b98536968286
+  - ref: refs/heads/for-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-d2f96bcb89d3-cee9395acd80.txt
+    log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============5678953144421760836==
+--===============0106674940447501193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2f96bcb89d3-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============5678953144421760836==--
+--===============0106674940447501193==--
