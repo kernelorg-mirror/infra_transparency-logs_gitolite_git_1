@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4953927247207193809=="
+Content-Type: multipart/mixed; boundary="===============6588897365614292191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 31 Aug 2026 06:05:54 -0000
-Message-Id: <178815635431.1305338.18423618278488177776@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 06:06:12 -0000
+Message-Id: <178815637210.1305648.14945621010400911447@gitolite.kernel.org>
 
---===============4953927247207193809==
+--===============6588897365614292191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: 738440b36f037d46967525a4e66ff25a028dea60
+    new: 096edb0907978c594df107a1c9a72bd376c8299a
+    log: |
+         096edb0907978c594df107a1c9a72bd376c8299a Merge branch into tip/master: 'locking/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: d76d5441b624b0ae2503e90855093395de268fb7
-    new: 738440b36f037d46967525a4e66ff25a028dea60
-    log: revlist-d76d5441b624-738440b36f03.txt
+    new: 096edb0907978c594df107a1c9a72bd376c8299a
+    log: revlist-d76d5441b624-096edb090797.txt
+  - ref: refs/tags/v7.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e5e04726cdd043e309677071ab1b65a4b18f422b
 
---===============4953927247207193809==
+--===============6588897365614292191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d76d5441b624-738440b36f03.txt
+Content-Disposition: attachment; filename=revlist-d76d5441b624-096edb090797.txt
 
 d5bbc9b3d20c3f90b31a64c62bb4a800b9a5941c ARM: 9473/1: kprobes: test: add MODULE_DESCRIPTION
 7e8ee82e69fde9d589272ec5e6f702358903be1f ARM: 9477/1: Disable broken eBPF JIT on the Risc PC
@@ -89,6 +98,6 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-738440b36f037d46967525a4e66ff25a028dea60 Merge branch 'linus'
+096edb0907978c594df107a1c9a72bd376c8299a Merge branch into tip/master: 'locking/urgent'
 
---===============4953927247207193809==--
+--===============6588897365614292191==--
