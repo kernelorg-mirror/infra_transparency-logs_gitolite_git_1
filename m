@@ -1,31 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8619972487978513821=="
+Content-Type: multipart/mixed; boundary="===============1352974677242849995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 31 Aug 2026 18:08:12 -0000
-Message-Id: <178819969232.1890442.11116372817388730306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 31 Aug 2026 18:09:06 -0000
+Message-Id: <178819974655.1890939.11305264423755177368@gitolite.kernel.org>
 
---===============8619972487978513821==
+--===============1352974677242849995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: ba251bb5ce2db9228a4c1ca9aef787c368121af7
-    new: e1743a4a9b0b1bb6249454263f65889936fe9d6f
-    log: revlist-ba251bb5ce2d-e1743a4a9b0b.txt
+  - ref: refs/heads/crc-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============8619972487978513821==
+--===============1352974677242849995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba251bb5ce2d-e1743a4a9b0b.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
 
+a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
+7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
+bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
+12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
+da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
+abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
+0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
 f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
 c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
@@ -1031,24 +1050,5 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-9d6dc4125c110e19026ae0bfaa891fd357163d41 ARM: omap2plus_defconfig: Enable SND_ALOOP
-2fabd2f406d0cf787be47b3bbeea99b30004033d ARM: dts: ti/omap: dra7: fix PCIe PHY clock divider definition
-fad89162c71bc2f81f99191d93edc63d5f6397a7 ARM: dts: ti: Add device tree nodes for PRU-ICSS1 instance on AM571x
-0fe80eafa36a20fec620ba16992016137bbf3d6a ARM: dts: ti: omap: Correct white-space style
-e74a8fe7c2d85e314ead77064ea671b71de44b14 ARM: dts: ti: omap3-n950: Replace clock-frequency in camera sensor node
-3da3c1f84d4f1d14d321ffbec742d4027b503827 ARM: dts: ti: omap3-n9: Replace clock-frequency in camera sensor node
-e59ab4d7eaed22ba714c57801262a09ac1c32100 ARM: dts: ti: omap3-n900: Replace clock-frequency in camera sensor node
-6980da9a69f59b3d061c317ed12d11fe4aa90386 dt-bindings: input: Convert TI Keypad Controller to DT schema
-8d36324171f982c8e1d7f2df428faa5b05e7b1d4 ARM: dts: ti: omap: Disable keypad and enable it on the boards that use it
-ff94c2d480faee28000d0a4c4f23147f15a9d1b1 ARM: dts: ti: am57xx-idk-common: Remove unused ext-clk-src property
-7b300285a4af35396df237ca6bb4ce24f721dcec ARM: dts: ti: am335x-shc: Remove unused ti,no-init property
-008e8fab68d8b33929686c2f71ff92675ec515b5 ARM: dts: omap: dra7: add da830 fallback to am3352 rtc compatible string
-eaeb86b1194ef162254059ba6a2c5145d1ed7ef1 ARM: dts: ti: omap: Fix Palmas RTC node names
-20e49e03ed714b6dd47d45eed9d6f8681d691e8f ARM: omap2plus_defconfig: Support for compressed firmware
-973ca75604c81c985224624f685f0365e1ba78bb ARM: dts: ti: omap: Replace spaces indentation with tabs
-9d458ad3ec1552cd99ca1316ea30c4901e4fd4dd ARM: OMAP2+: Replace __ASSEMBLY__ with __ASSEMBLER__
-db3cd60d7546dd188367381c4dcbf049e91f7016 Merge branch 'omap-for-v7.4/defconfig' into tmp/omap-next-20260831.110627
-6df4dce1d5a3964c2a488866695322eb1aef4425 Merge branch 'omap-for-v7.4/dt' into tmp/omap-next-20260831.110627
-e1743a4a9b0b1bb6249454263f65889936fe9d6f Merge branch 'omap-for-v7.4/soc' into tmp/omap-next-20260831.110627
 
---===============8619972487978513821==--
+--===============1352974677242849995==--
