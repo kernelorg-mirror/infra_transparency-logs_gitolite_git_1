@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4052737997329655480=="
+Content-Type: multipart/mixed; boundary="===============0283109876875463436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 31 Aug 2026 21:36:50 -0000
-Message-Id: <178821221078.2120001.17806755519200862290@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:37:42 -0000
+Message-Id: <178821226245.2120471.9343912058334503908@gitolite.kernel.org>
 
---===============4052737997329655480==
+--===============0283109876875463436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/heads/clk-renesas
-    old: 9ff218b1b07d1304a3e49c8112337f88c3a289a7
+  - ref: refs/heads/clk-microchip
+    old: fb96dea9cfd68f776391de503d7e1ffcb3b4dabe
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-9ff218b1b07d-cee9395acd80.txt
+    log: revlist-fb96dea9cfd6-cee9395acd80.txt
 
---===============4052737997329655480==
+--===============0283109876875463436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ff218b1b07d-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-fb96dea9cfd6-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============4052737997329655480==--
+--===============0283109876875463436==--
