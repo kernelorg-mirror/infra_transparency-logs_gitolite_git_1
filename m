@@ -1,38 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============6124529337225939483=="
+Content-Type: multipart/mixed; boundary="===============0130662510363954154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 31 Aug 2026 17:39:46 -0000
-Message-Id: <178819798695.1866322.14587195102893099330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 31 Aug 2026 17:39:48 -0000
+Message-Id: <178819798825.1866384.16021279199975651188@gitolite.kernel.org>
 
---===============6124529337225939483==
+--===============0130662510363954154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: fd6e2388a3ea55e58cbbbef840c1d8aa2067dbb3
+    old: 783f0f0974c156aca630f4ffff248671082a098d
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-fd6e2388a3ea-cee9395acd80.txt
+    log: revlist-783f0f0974c1-cee9395acd80.txt
   - ref: refs/heads/next
-    old: 3b93fe26412a422d92ef5c4ff3339112e61c24f8
+    old: 2b10b6de62d7b99d46300afeb1097642a9ab0711
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-3b93fe26412a-cee9395acd80.txt
+    log: revlist-2b10b6de62d7-cee9395acd80.txt
   - ref: refs/heads/stable-7.3
-    old: fd6e2388a3ea55e58cbbbef840c1d8aa2067dbb3
+    old: 783f0f0974c156aca630f4ffff248671082a098d
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-fd6e2388a3ea-cee9395acd80.txt
+    log: revlist-783f0f0974c1-cee9395acd80.txt
 
---===============6124529337225939483==
+--===============0130662510363954154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd6e2388a3ea-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-783f0f0974c1-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1059,11 +1059,11 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6124529337225939483==
+--===============0130662510363954154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b93fe26412a-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-2b10b6de62d7-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -2090,4 +2090,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6124529337225939483==--
+--===============0130662510363954154==--
