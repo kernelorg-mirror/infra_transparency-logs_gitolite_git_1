@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 31 Aug 2026 16:28:34 -0000
-Message-Id: <178819371447.1809910.550015757600791650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 31 Aug 2026 16:30:12 -0000
+Message-Id: <178819381261.1812562.17683171547852520276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 4d982bb472a9f3df7cf499e18416819768932b76
+  - ref: refs/heads/for-7.3-fixes
+    old: 87d347a8c8545a9234d1dd215023064413284c34
+    new: 3f4b7d1a49c5c826f3be9b684313eea5b83ac232
     log: |
-         f559ef6316971fe39dc5f5edd6a483429ba03768 remoteproc: qcom_q6v5_adsp: Fix double jiffies conversion in adsp_start()
-         34b8b2d78b6276dc2dc4ebc06625a39956f266e4 remoteproc: qcom: q6v5_pas: Don't enable handover IRQ on attach
-         4d982bb472a9f3df7cf499e18416819768932b76 Merge branches 'rproc-fixes' and 'rproc-next' into for-next
+         8e359920216689b3b79e0fe8961a77fe312a511f cgroup: fix spurious SIGKILL of CLONE_INTO_CGROUP children
+         3f4b7d1a49c5c826f3be9b684313eea5b83ac232 selftests/cgroup: test clone3() into a previously killed cgroup
+         
+  - ref: refs/heads/for-next
+    old: b57d03eb82b796a6451f834f3a9091908743060b
+    new: 75f8b845df69ad3502838dbaff680f968e261d14
+    log: |
+         8e359920216689b3b79e0fe8961a77fe312a511f cgroup: fix spurious SIGKILL of CLONE_INTO_CGROUP children
+         3f4b7d1a49c5c826f3be9b684313eea5b83ac232 selftests/cgroup: test clone3() into a previously killed cgroup
+         75f8b845df69ad3502838dbaff680f968e261d14 Merge branch 'for-7.3-fixes' into for-next
          
