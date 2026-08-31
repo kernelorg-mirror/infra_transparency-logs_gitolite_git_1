@@ -1,115 +1,111 @@
-Content-Type: multipart/mixed; boundary="===============4377722362464803415=="
+Content-Type: multipart/mixed; boundary="===============1902629448798921726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Mon, 31 Aug 2026 00:45:25 -0000
-Message-Id: <178813712573.1017002.11658176179036926323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 31 Aug 2026 00:49:39 -0000
+Message-Id: <178813737978.1018636.8263127444516205395@gitolite.kernel.org>
 
---===============4377722362464803415==
+--===============1902629448798921726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/renesas-lts/v6.1-dev
-    old: 4b9a08fd02e4b71bc606acb641e66dbd21f9a5f2
-    new: ce98cf98696acc8c9b85d197476928dfa5188c49
-    log: revlist-4b9a08fd02e4-ce98cf98696a.txt
-  - ref: refs/heads/renesas-lts/v6.1.185-2026-08-31-for-test
-    old: 0000000000000000000000000000000000000000
-    new: ea5691c7ae93510c8eae3a4bea4d50f26c337ab2
+  - ref: refs/heads/master
+    old: 0863972346e5b008b259b04ee781f54dbab8bbda
+    new: 416753b4ba90fe3b72952ace9954edb321657936
+    log: revlist-0863972346e5-416753b4ba90.txt
 
---===============4377722362464803415==
+--===============1902629448798921726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9a08fd02e4-ce98cf98696a.txt
+Content-Disposition: attachment; filename=revlist-0863972346e5-416753b4ba90.txt
 
-baf9b0383ff770fdff123d3a832f3a99641d96dd PCI: host-generic: Fix NULL pointer dereference on 32-bit CAM systems
-56f0aa75c7640e46397ef73bea251fcbef9150c0 Bluetooth: RFCOMM: take rfcomm_mutex for the deferred setup accept
-f8e6fde5db87f855e99b200e392467274f0eb9d7 rndis_host: add overflow check in rndis_rx_fixup()
-4d0892a90b57f0e89b274c3f3c51c2fa17937c88 ALSA: dummy: Check card index validity at probe
-b4663405ae29d36011cd712d243456f3f9ab700d ocfs2: fix missing metadata reservation for large xattrs
-41dd31117565b4654e206341bdbe1e3e206bbd5b null_blk: fix UBSAN shift-out-of-bounds when zone_size is 0 or overflows
-5dc59fc959b2b5742985d7ef24bccd1868217dc2 kcov: fix data corruption and race conditions on PREEMPT_RT
-8865cd664484517703df5c18a965dc3227572b87 ext4: stop retrying saturated xattr cache entries
-d1efdcb372879d986b08071f89a135ee8b7da97f ext4: clear error before retrying inode xattr space fallback
-03a12253dd2a036545bdb0110a4e0b8dc70f8e7c xfs: validate attr entry pointer before field access
-13327ed95222e70fa98805382b65636b872d87cb misc: fastrpc: Rework fastrpc_req_munmap
-99f8de36c84cb9b872157aa6c3578c2480cee4b8 misc: fastrpc: Remove buffer from list prior to unmap operation
-272df0fbe6f3e04e22bc67fbdd9ac24586b942f4 NTB: ntb_netdev: Preserve RX queue depth on allocation failure
-f70c9d4fba46463a5b1c7b3ee9ee3b40c90dac03 serial: amba-pl011: synchronize DMA teardown
-4fe9b3b9e4b84a8cbec69949baf812e30feb3941 perf/core: Fix child_total_time_enabled accounting bug at task exit
-6449c4223b53495bfb2ddde72a519734033a18e6 perf: Fix cgroup state vs ERROR
-3b1e5c44653fdbd26da9366193adc935245f2755 perf: Fix dangling cgroup pointer in cpuctx
-f8a07021679aadfb6d63b209207ccc41f26982d1 perf/core: Fix group leader use-after-free after sibling detach
-142e287b3a25cfe909215177c23243e7fc5ae2b1 packet: use consistent hard_header_len in non-ring send paths
-e79f59a8527a49078cfaf8fe8fb5fcefc20c76d2 packet: use consistent hard_header_len in TX_RING send path
-7a11226e02f56083c10de7d7fa6ba13c9b79ff30 serial: sc16is7xx: fix copy-paste errors in EFR_SWFLOWx_BIT constants
-739499f1da1a4ee2caba849d0288fa900e1b276b serial: sc16is7xx: convert bitmask definitions to use BIT() macro
-d11f15dbbf83a387e5b1c5e3ea5491e01226e2e6 serial: sc16is7xx: rename EFR mutex with generic name
-b0c3604f816cf344751436f7a2b5a294cf386f1e serial: sc16is7xx: use guards for simple mutex locks
-d40a28ab302e115d6ea1c64b081917e8c76d18af serial: sc16is7xx: enable THRI before filling TX FIFO
-88ecc4e120bcef398434d1e50c88ebcc4dd989cf net/packet: convert po->pressure to an atomic flag
-f015c9de92b731814059a343b765c60c0196225c packet: synchronize pressure clearing with ring reconfiguration
-08a04d7bfb9c103432561aff8a62b6872e694a6a inet: frags: publish queues before arming timer
-b94b28c1f0fae53b2f2d6180ae6442c9a1558f67 s390/vfio_ccw: Cancel existing workqueues
-7e9954e7212042ec808b06181b365b14f00c6f0a drm/amdgpu: disallow multiple FENCE chunks in one submit
-c9b85aa2cf73ea645e55e2c2670e0ddebfe1589b s390/vfio_ccw: Move cp cleanup out of not operational
-56d7488533ceac4e986e96e15c9e487a2245bc01 s390/vfio_ccw: Selectively expand io_mutex
-0edd222730a9d7ec98368aaf1d40ee2d8d862e61 s390/vfio_ccw: Implement a crw lock
-cacb1245edf4b0b2d30e3319ba545d7ec5631a1d xfs: don't use a xfs_log_iovec for ri_buf in log recovery
-f7b5fa83e2c192be922121b764415fa8c7549ea1 xfs: bounds-check buffer log item's dirty bitmap
-0514f3054738de60da8544586de27628ffcdcd3d drm/amdgpu: check ASPM on the dGPU host link
-63d2230e5076c12f93d2a1d1bff2fbbf6cf32f3c gpio: ml-ioh: use raw_spinlock_t for the register lock
-6509e270ae1b4366a95f8d75b0dafec7b6f9e7a8 tls: fix lockless read of strp->msg_ready in ->poll
-ef50eaab631f9bf519ddbdfa42ccb0528adc1fc8 tls: handle data disappearing from under the TLS ULP
-b8c9f25fd84328c5fcc4f70c6d1e8f1d4787eaac iomap: adjust read range correctly for non-block-aligned positions
-4e942da2869bcd646353eef706b7dd82efeb9db5 nfc: digital: clamp SENSF_RES length to the destination buffer
-8d2c243b79854628ff076c38748c020042f02f57 nfc: fdp: bound the device-reported read length and fix an skb leak
-cb298672282421159e53ab311fe49d204c8a52da nfc: microread: validate target discovery payload lengths
-65a0ec7783b06068dda6745dd689bf4a91ee64aa nfc: llcp: bound the connect_sn TLV walk to the skb
-9c47d667963542c3cf8e3007b7f10c0904d08238 nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
-a7b9b449f5a5132221fff6adc11a9431ab8cd914 nfc: llcp: reject PDUs shorter than the LLCP header
-d63e85c5d5555fe6aa65155d3a09452597e163c3 nfc: pn533: purge fragmented skbs during cleanup
-dd26d30f40c43ad9cfe2f25c6ea0ead1dd51d5aa nfc: st21nfca: validate ATR_REQ length against the received frame
-afd8605fb43becb892311102844955c3b127fc7e nfc: nci: fix out-of-bounds write in nci_target_auto_activated()
-fe69fed3495f676578d49414a069ad7d8468e2ce nfc: nci: fix uninit-value in the RF discover/activated NTF handlers
-be678c7a41eb3239f9dccc1dce406844fc8d6776 nfc: nci: free destination parameters when closing a connection
-2ff70a8edba13dc402d1b9173120dabdb7dff5a6 ndisc: ndisc_send_redirect() cleanup
-f161be39201eb5f9b1f58fb8f90b8a9cd3931eb6 libceph: fix OOB read in decode_watchers() via missing bounds check
-74ce7389f8f562d39015f59a00ef7ad6acd37803 ipv4: reject undersized MTUs in ip_do_fragment()
-d960881b9312e781a3429aabceb223ce6b7c882f ipv6: fix use-after-free in ip6_finish_output2()
-447b668faa14710f611e714031e3739ac3ec3a4f nvmet-auth: zero the AUTH_RECEIVE response buffer
-1a8f007faefe8c226ec65896589f8d59b0a8d5a5 nvmet-fc: fix invalid free in LS IOD error path
-e7077e6c45423dd2bb7de7b5fc4b018a8e6c4741 nvmet-tcp: Do not WARN on remotely-controlled oversized SGL allocations
-84b205297fa15f97510342221d8c9a0119711478 Input: byd - synchronize timer deletion before freeing private data
-f84f2c81d792cf1e65571108a3bdd2c29e09e995 ASoC: codecs: lpass-tx-macro: Fix enum kcontrol accesses
-81d8142148164176385c279c7c1e1d581867423d mptcp: pm: ADD_ADDR rtx: always decrease sk refcount
-5da972efed3dc7599da6e2b5e8d906d1b7b1a728 mptcp: pm: ADD_ADDR rtx: free sk if last
-e19f1e37f93d78d8a18c24e82b1eb4b1752d807f mptcp: pm: fix data race in add_addr timer callback
-403cc9bd6ccb9fbe68d501c3236e5a6dd5504e14 HID: magicmouse: do not keep a stale msc->input if no input is claimed
-da86a2bf716ff2bb1bced0a1bebd48d0765ff355 HID: magicmouse: Prevent out-of-bounds (OOB) read during DOUBLE_REPORT_ID
-313ead1abed945544703b100a12c5a10fdf78409 HID: core: fix OOB read of field->usage in hid_set_field()
-f833821e4b52ab6335d443ede5fb79c38e61d19a xfrm: fix sk_dst_cache double-free in xfrm_user_policy()
-17e01e342af74de12899c206dcc9ec90684703aa s390/vfio_ccw: Free all memory if cp_init() fails
-d7d4a8a75cd3f160c089e808433241c3c5bf75b9 Input: atkbd - skip deactivate for HONOR FMB-P's internal keyboard
-eb6b7753e8f75ffe14602ee2afd45ad6363abf57 Input: atkbd - skip deactivate for HONOR ZQC-P
-cadee54a8691e40bf04f2ac4a108b413b8c88ef8 can: use skb hash instead of private variable in headroom
-2753722612d8824d3910096f93059f669009b0f0 can: isotp: fix timer drain order, wakeup handling and tx_gen ordering
-4753cc37b6606ef9a7ec22861d380d45e2707f9a misc: fastrpc: Fix double free of 'buf' in error path
-33ea29f8b6141f2d265de807e110a6435b355cb0 HID: nintendo: fix out-of-bounds read in joycon_ctlr_read_handler()
-634f498ea5d5e8e01f8d9414d4f45eeaf9ee1996 HID: core: fix number/pointer type confusion on long items
-d37ff4e3635c18af907f25712596f8ccec323751 HID: sensor: custom: Fix use-after-free in enable_sensor
-8614c043b11cc35ffebd35542ab4da275f8f923d HID: hyperv: validate initial device info bounds
-8e68c380290b1dd64a0a512ce66d0264130c46ed Bluetooth: hci_event: fix LE list UAF on reset
-37a5dcd6837fc2afc44a7bc3ed8af4e983783d46 net: gro: properly validate BIG TCP aggregation criteria
-79a9660d699e69fa523d2c3d1d8af95d6b857c93 Linux 6.1.185
-d3db811e5f3449b9a16e0b9c8530ad09e95b21be Merge tag 'v6.1.185' into renesas-lts/v6.1-dev
-ce98cf98696acc8c9b85d197476928dfa5188c49 LTS: v6.1.185-2026-08-31
+e8a061ee3e50bcfac829e4331e370450229d5025 btfdiff: Remove leftover comment about --flat_arrays usage
+ae0e65e71943658a96b2bb9a69a7a897423905bd tests: Skip and find vmlinux tests when the running kernel vmlinux is not available
+420856902070ac79c037e7e40c22149104265efd tests: Add BTF_FUNCTIONS_QUICK mode for fast CI iteration
+10c247f670626c7c8c8ff044a2d90fc277680bfb build-and-test-cmd.sh: Add CI build+test script
+85a2f8756d0d443621bf30926326239e35b27af1 tests: Guard cleanup() against empty outdir to prevent rm /*
+d59bfc4bd1b2ab7825506bd24a9c25708638c4dc tests: Fix test_lib.sh and test scripts to run from any directory
+3b2d4b5a77399888200ddc26ccd26011afdf0002 tests: Run test scripts in parallel
+f98c48d609e4792baf25b81f3a767567d352b080 tests: Add --vmlinux option to specify vmlinux file for tests
+49fc532afe5aa1309fc04ee9491007e111fd3292 tests: Add dynamic test timing and reordering to avoid slow tests blocking results
+c351021aad6edd9433c25545759b4fa9980ff4c7 tests: Add test number filtering and waiting status line
+876d4e082af86578cd9b33a8579ca28780c152e7 tests: Add PERF_BIN support and preserve build logs on failure
+4b7582e6a911833b324cc33d5ddd73e1bf80f0e6 tests: Add --verbose/-v option for better failure diagnosis
+8a8b78ff335e3e9ef869032483d09535f7bb0cce tests: Show referenced log file contents in verbose mode
+cb85a3932d7b3bf9ce2551b8c84526c024f42064 tests: Add --jobs/-j option to limit parallel test execution
+9624bfa6411edf77df44bf698ed6a7b82b19f56a tests: Add --dump-artifacts to capture DWARF/BTF from binaries
+8456851af4486da6b2469da0c6eea92dc706cfef tests: Reduce reproducible_build thread count iterations
+9f72837fbd4cbe75030139f3aa853d278330da9b tests: Add emit_atomic.sh test and fix pfunct-btf-decl-tags.sh quoting
+14d216be8ae07bb87d2ed63de1389b2e2434ae24 tests: Fix mktemp suffix portability for Alpine Linux
+e9725c0b39324e63e988156953e6f5d4ae171f61 tests: Add type containment and pointer search test
+5ab0ecbafe5bd078a8cca7a3de9457dec85f0516 tests: Add enumerator search test
+751037435c1096908c2dae5d48d1ebc7db849d8d tests: Add sizes and holes display test
+daece68208a3c1170b4290aa422237807368600e tests: Add type expansion and anonymous struct test
+26056b1d8ebeb1b5ae516f6e596fec9794f6e861 tests: Add compilable output and type filtering test
+1cf880a5264abf496f861b8129bff80b5b3fb39e tests: Add class name filtering test
+c4b6ed77168cbd69428d1437487209dfe4d66c5e tests: Add display format options test
+d987f673ee029911d83cd338c0b5dda4535ba69e tests: Add sort output and separator test
+302a7cfe509dbfc32724101b011bfb519a5fea5d tests: Add bitfield layout and data member filtering test
+37a76d6f0c3816e1eeef8291069d96420e195da0 tests: Add codiff struct comparison test
+24dcd911e6a786fd535d5896248e867f2a83c8e1 tests: Add pdwtags DWARF tag display test
+2b61e783e40e9a21b03750b61f96404fdd409d83 tests: Add BTF arena type tag encoding test
+7728a45c97dc081f241a1eb49f49ce11f978b545 tests: Add expand_pointers, pfunct_stats and class_list_file tests
+af0ad24a50bdc8b7e74dbe27bceacc123bc8f734 tests: Add BTF VAR and DATASEC encoding test
+31fb88a1784b953bb7ad47e45cb39ce159cce8a9 tests: Add BTF FLOAT and ENUM64 type encoding tests
+842a8852f5314f995455190612ae3ebc0a65201f tests: Add BTF bitfield encoding/loading round-trip test
+c6b6e41c422d63aa3ef325f3ddc11eb44ae787dc tests: Add BTF_KIND_FWD encoding and loading round-trip test
+aa984e91f8f9b8937d7d00a73005b1d862b77370 tests: Add split BTF encoding test (vmlinux base + kernel module)
+685627ca43e2baba2ce6fe950f8857c1f033ace4 coverage: Add LLVM source-based code coverage support
+37fc7618fdbc4669c8b56bbd0af01fe960480409 cmake: Warn loudly when coverage instrumentation is enabled
+d3dab113c612cab4c3545c6e34f5b2a4cfaa1439 coverage: Add coverage-diff.sh workflow and coverage_table.py reporter
+ef61e7315247bb6efe1de78347cd3d0823d32f53 cmake: Add test, coverage and list-targets make targets
+3d7284cefb8d9ef91223f1bd73599a109ca2b8a9 tests: Add type containment and pointer search test
+9cc672607d067d86405e94a7793c05367c32f954 tests: Add enumerator search test
+1bd1506c66e87c7b9a8408b90cec3dc9276d4016 build: Add git SHA tracking via --devel_version option
+369df28ea190a888be0cba6c27490f947fb2d5bf build: Add tarball targets similar to kernel's perf-tar-src-pkg
+27d469fc1f0eceaa35bb203c430b8bc9b64df4e4 build-and-test-cmd.sh: Move build-dir detection to test_lib.sh, fix container PATH
+5cfe34c7ff085884e647cb040a9af3c211114fff tests: Add CLI display, BTF encoding options and auxiliary tools tests
+9862b93a4652982482e5fb729488acf278b6550b tests: Add medium-effort coverage tests for 5 uncovered code paths
+a75b8a11737779199352650681886c477f3f7758 tests: Add 5 btf_encoder.c targeted coverage tests
+c4386d994ddfb357a4382db120de8ce199beb83a tests: Add multi-file loading test
+a3ced55c5f71540432de5bfc849a856535a7df46 tests: Add pglobal variable and function listing test
+241e7ef5e391eba06e6642083f7b5269979a148f tests: Add pfunct CLI option coverage
+25e5fc470244c6b25b65e3e936a8d885a065f757 tests: Add codiff terse, verbose and multi-CU diff test
+146e9c1bfee19585489fb84a5b55b9544d0e82db tests: Add BTF encoder coverage test for vars, floats and multi-CU
+4fab4a3012bc83c5aa5d8a4a356ac58ba7921adc tests: Add bitfield, cross-boundary and mixed member type test
+2b0be2a43c44b964b733c1968165be94ae266fb1 tests: Add dwarves_emit and dwarves_reorganize coverage test
+0849c27f406d5a99fc69c7af04e001955bf4a580 tests: Add elf_symtab, gobuffer, dutil and pglobal coverage test
+02bec432dd11ced8ffd08a34be09f1dd4e7bbe6c tests: Add prefcnt type reference counting coverage test
+d74662507899b54fc136d45a8d3a219c85724b5e tests: Add dwarves.c core API coverage test
+f85c6985ff0e44d5cbbe0a55395d2331ccaca270 tests: Add dwarf_loader.c bitfield recode and inlining edge case test
+a5ad14d719812ec491e74b39856561dbe2dbf165 tests: Add codiff member type change and function prototype diff test
+ae4de4d9a1714264de8aed10f941f8f486d62be3 tests: Add pahole --header_type, --range and --seek_bytes prettify test
+b084bffd2946363fe9963828a062a73cda616611 tests: Add pahole scattered option paths coverage test
+79c355e348f22c221348e64569fcaf6f535c276a tests: Add _Atomic type compile emission test
+42be11216e3065d8bedbcf3c15dc2b3e7394c4ee tests: Add typedef chain display test
+e8d2d7db78db19dee5c5ffa8241eb04de47d6f3f tests: Add BTF vmlinux encoding test
+81d0cb172d76e7115e531c6bff5bd0930c6326a4 tests: Add codiff_multi_cu.sh to cover __cus__find_cu_by_name
+ef125be3f57b79032afb23d60234e1b27cd5e298 tests: Add prototype expression parsing and prettify test
+a417f5b54d2c004544d503f39a006173f33337e4 tests: Fix gcc_true_signatures.sh compiler detection and awk syntax
+1b02c35d171b3cffd913d42177c50a905583bc1d tests: Skip instead of fail when old toolchains lack feature support
+96e367638973b894a399144f95f61e9cd3ba63f3 tests: Skip tests gracefully on old bpftool versions
+4baed5629c7b44cb64cf666c3938a1dc21ea8390 tests: Force DWARF 5 in atomic_types test for _Atomic support
+38b902eb671963497dde936e2a7838d6d44ca6e2 tests: Fix perf tests for container environments
+8e15399ed28128f09fba6655328cd0fc4d546547 tests: Check minimum perf metadata records instead of exact counts
+3b57d39e1ca4a6492089ff53dfc8bcfe58760087 tests: Add automatic perf building for cross-distro compatibility
+cfbb25d4aa570e62081343f28ea29403362b11d4 tests: Fix coverage build by respecting build-coverage/ in PATH
+6bd26187fc38cd03265f484f763c04ccca4a196b tests: btf_type_tag_order.sh: Use gawk for capture-group match()
+8109c01071bef22d3cffb1da8ec0740df3744510 scripts: Add build-check-series.sh for bisectability verification
+4c12c2981744d278a3c9202855a6bac1e6a68a70 tests: Use POSIX [ instead of [[ in test_lib.sh
+092a1b2dabe4a1bbd2825fc91d793442b151c6fe tests: Build the test_bin fixture in the per-test tmpdir
+61b0b8745c6400185a478a19b2355ce3891645fa tests/tests: Use a portable high-resolution timestamp
+416753b4ba90fe3b72952ace9954edb321657936 tests: Verify the downloaded perf tarball checksum before extracting
 
---===============4377722362464803415==--
+--===============1902629448798921726==--
