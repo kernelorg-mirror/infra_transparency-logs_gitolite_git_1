@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 31 Aug 2026 21:18:12 -0000
-Message-Id: <178821109285.2085466.15705360710954097588@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:18:14 -0000
+Message-Id: <178821109420.2085655.8343208184416285235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/tags/samsung-dt-exynos3250-artik5-4.7
-    old: 5812a815cda09b48e8fe14474a8703ab1e61daa6
+  - ref: refs/tags/samsung-dt-fixes-6.3
+    old: 9c43e4ab2533e9d8f6bda6e7f30e88cf89f920b3
     new: 0000000000000000000000000000000000000000
