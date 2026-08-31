@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 31 Aug 2026 13:48:57 -0000
-Message-Id: <178818413739.1685072.2412568221124364946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 31 Aug 2026 13:51:55 -0000
+Message-Id: <178818431537.1688241.6475621403078694349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/mhi-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 83c29a55b89e0de6e15bcc6c21b16b4b75ec3e89
-    log: |
-         83c29a55b89e0de6e15bcc6c21b16b4b75ec3e89 bus: mhi: host: pci_generic: Add IP_CTRL channel for Sierra EM919x/EM929x
-         
+  - ref: refs/heads/regmap-irq-deallocate-domain
+    old: 0000000000000000000000000000000000000000
+    new: 17490f87f4f27ecef19d2fd6bd9d271ea04c1df7
