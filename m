@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5623755268263696564=="
+Content-Type: multipart/mixed; boundary="===============4692718568670360313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 31 Aug 2026 10:00:12 -0000
-Message-Id: <178817041212.1491511.5282046747493853271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Mon, 31 Aug 2026 10:01:13 -0000
+Message-Id: <178817047337.1492490.11007020639932436324@gitolite.kernel.org>
 
---===============5623755268263696564==
+--===============4692718568670360313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/heads/dt
-    old: 4a096d54f99e1bd6faa4fec49838789fd34e7c8d
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-4a096d54f99e-cee9395acd80.txt
+  - ref: refs/heads/for-next
+    old: 5acccc8f8d731a0a184ef10fa4b65ab202a38c99
+    new: 5df4320a30a87f9bb918ace7b389026917c8d896
+    log: revlist-5acccc8f8d73-5df4320a30a8.txt
 
---===============5623755268263696564==
+--===============4692718568670360313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a096d54f99e-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-5acccc8f8d73-5df4320a30a8.txt
 
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
-7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
-bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
-12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
 da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
 abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
@@ -1050,5 +1043,12 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+ef473a83c63e3173ac472e42727e990b923b99db ARM: dts: helios4: fix lm75 supply name
+337d10963f601d5a3dfb4b7aa273ca8c0b4d5172 ARM: dts: armada-385-clearfog-gtr: fix vmmc property name
+9a72f1cde47aac05ba9f81d4cdde2e71003800f2 ARM: dts: marvell: add missing SDHCI clock-names
+a56183c7f15215d804290808a2b5a1fa997aa9cd ARM: dts: armada-395-gp: drop unsupported SDHCI clock-frequency
+008e9faadef8c0aaa9b8a3ff05a2126e3c5b08b7 ARM: dts: armada-388-helios4: fix vmmc property name
+a132798a133e76a7bb575ba95b2b64eadd245438 ARM: dts: helios4: fix vbus-supply for USB2 PHY
+5df4320a30a87f9bb918ace7b389026917c8d896 ARM: dts: helios4: fix spi1 location
 
---===============5623755268263696564==--
+--===============4692718568670360313==--
