@@ -1,22 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Mon, 31 Aug 2026 10:05:30 -0000
-Message-Id: <178817073029.1496178.14426165873914133580@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8818592205255002105=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Mon, 31 Aug 2026 10:05:39 -0000
+Message-Id: <178817073970.1496406.1867080132639806369@gitolite.kernel.org>
+
+--===============8818592205255002105==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/f2fs-tools
-user: chao
+repo: pub/scm/linux/kernel/git/mm/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/wip
-    old: c6fc26fb0a294dcd3c92a8a2a347b31ed7984646
-    new: 85fa589bca53ee023356bc827ff6aa6b77874813
+  - ref: refs/heads/slab/for-7.4/misc
+    old: 901d3f0004c2ea14acad4ba491fa4ac7fb98e072
+    new: 22cb0b57a3e063a1febd0699e54c1123bd0ad311
     log: |
-         23ec59b67f30869894e5cf434e30ff98f6245411 fsck.f2fs: fix to avoid memory leak reported by LeakSanitizer
-         6b5d6a2b0a021b42f5c4eacb07b3715e1f65eea3 fsck.f2fs: sanity check i_extra_isize correctly
-         4d7a5480508b7ea98f0f6b055f982609d18ca936 fsck.f2fs: sanity check quota file size in v2_init_io
-         85fa589bca53ee023356bc827ff6aa6b77874813 fsck.f2fs: do not repair quota file in dry-run mode
+         22cb0b57a3e063a1febd0699e54c1123bd0ad311 mm/slab_common: reject zero object_size before calculate_alignment
          
+
+--===============8818592205255002105==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1788170735 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
+nonce 1788170735-506c6f973669aab05889993d8579f7dc3d12f2e5
+
+901d3f0004c2ea14acad4ba491fa4ac7fb98e072 22cb0b57a3e063a1febd0699e54c1123bd0ad311 refs/heads/slab/for-7.4/misc
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmqVUe8bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaP2YIAJYmUD3VtJPPxjUcyCD7
+JAXL9rzWBFoh75dCF7oprYR8SiqvDCQVoZkm/bvztRk4zZZ+ER4gFJr1Sfa/UI/J
+n06Xn4+YXvdVTxWQy59INrbf0fiuraPwwmmZnTu4OZJqimEncyvqbudOCRYK5jRf
+ilEaQF1sKoY22NCQsmwWeSX1yboDV68eUdFhuGoYslaOspMDrEl11BDs5EdHUtzB
+9jywv/QmzPgQRMhqJMYI+hoVERwSGoiOmgo2ZsKaMJScNWs4HjDII/w90PInwP3e
+7oi76pEltjnGrHMQc1VgpRurwbTHxOQiWZxREkhFAJQHCXqdotBRyWjcv6AosTu2
+JKo=
+=i84X
+-----END PGP SIGNATURE-----
+
+--===============8818592205255002105==--
