@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6090590410729739022=="
+Content-Type: multipart/mixed; boundary="===============7877133099283046446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 31 Aug 2026 02:23:01 -0000
-Message-Id: <178814298103.1083121.2571619900056813853@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 02:23:10 -0000
+Message-Id: <178814299067.1083448.2802829975794171669@gitolite.kernel.org>
 
---===============6090590410729739022==
+--===============7877133099283046446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 81c1c0cb68a13d14dd1bbffcf4c49e26f9a6478c
-    new: b57af7f8d194617e965d9713a767cc012774a2b9
-    log: revlist-81c1c0cb68a1-b57af7f8d194.txt
+  - ref: refs/heads/for-firmware-next
+    old: a58a57a1076f8c5dae0327e3710899478c3be901
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-a58a57a1076f-cee9395acd80.txt
 
---===============6090590410729739022==
+--===============7877133099283046446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81c1c0cb68a1-b57af7f8d194.txt
+Content-Disposition: attachment; filename=revlist-a58a57a1076f-cee9395acd80.txt
 
+a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
@@ -1049,6 +1050,5 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-b57af7f8d194617e965d9713a767cc012774a2b9 platform/chrome: cros_ec: Sync host command header with EC
 
---===============6090590410729739022==--
+--===============7877133099283046446==--
