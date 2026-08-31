@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 31 Aug 2026 08:01:02 -0000
-Message-Id: <178816326285.1396157.13663555585812564039@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3650894348198395556=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 31 Aug 2026 08:04:09 -0000
+Message-Id: <178816344906.1397132.9085758175415713921@gitolite.kernel.org>
+
+--===============3650894348198395556==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/gemini-usb-fotg2
-    old: e8ada35eb8fadf79fa7b7639e94973946e329376
-    new: 4845f571ba54cd38d7bd567de2203f4711babee3
-    log: |
-         403bce27cb458290a59a009805666e7883e95d4c Modernize the Faraday FOTG210 driver
-         3590fb20d85d6cc59d8fd1187dfc8e1e8e80c3ed usb: ehci: support controllers with non-standard registers
-         b9d2033f8230e4dcec9526b08b16d30b9beb4ad7 usb: fotg210: use the common EHCI core
-         4845f571ba54cd38d7bd567de2203f4711babee3 usb: fotg210-udc: fix endpoint and resource handling
-         
+  - ref: refs/heads/vfs-7.4.iomap
+    old: 0000000000000000000000000000000000000000
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+
+--===============3650894348198395556==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1788163446 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1788163445-72a4311c3e9435020222601cb1ffcb5a54fc35ed
+
+0000000000000000000000000000000000000000 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/vfs-7.4.iomap
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapU1dgAKCRCRxhvAZXjc
+osLUAQC/yyVfWr29l0Ydwy6XuRf1UXIICn9c0L/NOS7ox5/3cgD/bBXy3DtYLBDv
+8faxmkgWNGgW01G32yhy8mkqn9AVmAs=
+=wEb3
+-----END PGP SIGNATURE-----
+
+--===============3650894348198395556==--
