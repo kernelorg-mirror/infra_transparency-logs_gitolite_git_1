@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 31 Aug 2026 04:40:26 -0000
-Message-Id: <178815122623.1186730.3749346582492596725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 31 Aug 2026 04:40:53 -0000
+Message-Id: <178815125378.1187233.215554757346516870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: andy
 changes:
   - ref: refs/tags/v7.2
