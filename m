@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 31 Aug 2026 22:06:43 -0000
-Message-Id: <178821400332.2143029.17096415204591513821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 31 Aug 2026 22:09:39 -0000
+Message-Id: <178821417913.2144000.3824857484086299359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
   - ref: refs/heads/for-next
-    old: 209b1382027dd0844576e16c18cf0aaf366cebaf
-    new: a295aea65c6d1a20e5f1bca22a6812f62fd690bc
+    old: 93e257938aa67a6c957217db94091d9d9e5d403f
+    new: 2581b2b6d20abec5c9072b3cbaa9bdeaba131d7b
     log: |
-         3eda4fa73e30207eb7afedde6987f7f321f74fbc firmware: qcom_scm: Remove SCM PAS wrappers
-         a295aea65c6d1a20e5f1bca22a6812f62fd690bc Merge branches 'arm64-defconfig-for-7.4', 'arm64-fixes-for-7.3', 'arm64-for-7.4', 'clk-fixes-for-7.3', 'clk-for-7.4', 'drivers-fixes-for-7.3' and 'drivers-for-7.4' into for-next
+         8386ed68ae041b4d0919d851ec5300e41c1c2195 workqueue: move the unbound-only attrs check to apply_workqueue_attrs()
+         e92329ef60a8961a71028b7b9ca356c0b07bcc26 workqueue: resolve the backing pool in alloc_pwq()
+         2581b2b6d20abec5c9072b3cbaa9bdeaba131d7b workqueue: make the default pwq optional
          
+  - ref: refs/heads/for-7.4
+    old: 0000000000000000000000000000000000000000
+    new: 2581b2b6d20abec5c9072b3cbaa9bdeaba131d7b
