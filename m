@@ -1,42 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7600566434766166999=="
+Content-Type: multipart/mixed; boundary="===============3797680172743615545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 31 Aug 2026 08:50:51 -0000
-Message-Id: <178816625101.1434129.403141923111599444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 31 Aug 2026 08:57:11 -0000
+Message-Id: <178816663153.1438004.11340475368453559724@gitolite.kernel.org>
 
---===============7600566434766166999==
+--===============3797680172743615545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/kbuild-fixes
-    old: e5a259d98823a93459643b239b71fed7589ab669
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-e5a259d98823-cee9395acd80.txt
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: e5a259d98823a93459643b239b71fed7589ab669
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-e5a259d98823-cee9395acd80.txt
-  - ref: refs/heads/kbuild-fixes-unstable
-    old: e5a259d98823a93459643b239b71fed7589ab669
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-e5a259d98823-cee9395acd80.txt
+  - ref: refs/heads/sched/urgent
+    old: 333238da9a193ffc58792995f3e951e4cb87bfd2
+    new: cd2663217eec2a8924b955e824e5a9a3b85b1f72
+    log: revlist-333238da9a19-cd2663217eec.txt
 
---===============7600566434766166999==
+--===============3797680172743615545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5a259d98823-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-333238da9a19-cd2663217eec.txt
 
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
 bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
@@ -1058,5 +1047,8 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+1c928d238716c7b373d69498633f73c27ea1c8c7 sched/fair: Use update_curr_eevdf() for the remaining root cfs_rq callers
+4d08304e9c0ebbc522b6110b09c0e51890799da9 sched/rt,dl: Skip migrate-disabled tasks when picking a push candidate
+cd2663217eec2a8924b955e824e5a9a3b85b1f72 sched/core: Skip rq->avg_idle update without a valid idle_stamp
 
---===============7600566434766166999==--
+--===============3797680172743615545==--
