@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 31 Aug 2026 20:00:26 -0000
-Message-Id: <178820642697.1980358.15625613511868891938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 31 Aug 2026 20:08:02 -0000
+Message-Id: <178820688249.1985259.13898225904762533038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/sched_ext-for-7.3-rc1-fixes
-    old: 0000000000000000000000000000000000000000
-    new: e744b556c83bd5241c5500b0f35fd3b6ba71d51c
+  - ref: refs/heads/pending
+    old: 4cb7635b8abba6f359dc7f675501ffd59475e932
+    new: e1fd2d99ea59ef51074368b1a550fb490771950d
+    log: |
+         c9d2d0d1c4a0faaba5f57e3c3350707db9f4f3f3 wifi: ath12k: support calibration-variant from device tree
+         e1fd2d99ea59ef51074368b1a550fb490771950d dt-bindings: wireless: ath12k: drop qcom,ath12k-calibration-variant
+         
