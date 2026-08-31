@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 31 Aug 2026 21:12:09 -0000
-Message-Id: <178821072997.2055248.870199900368685456@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 21:12:11 -0000
+Message-Id: <178821073133.2055325.17003509427138743165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/tags/platform-drivers-x86-v5.18-4
-    old: 02cd368b7471e8ae6225c6324ec5cd81d5dc5f4b
+  - ref: refs/tags/platform-drivers-x86-v5.19-1
+    old: 7778afca1346a85eedb239fff7275b342e2b6f7a
     new: 0000000000000000000000000000000000000000
