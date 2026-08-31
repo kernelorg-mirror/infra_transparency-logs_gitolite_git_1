@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8944790356337310653=="
+Content-Type: multipart/mixed; boundary="===============6994816885794378380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 31 Aug 2026 13:45:50 -0000
-Message-Id: <178818395003.1683423.14619014441081264447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 31 Aug 2026 13:45:56 -0000
+Message-Id: <178818395676.1683594.1721062617168356914@gitolite.kernel.org>
 
---===============8944790356337310653==
+--===============6994816885794378380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/mhi-next
-    old: 9656bcd4c321a799148d00dd830ce7ebf20011da
+  - ref: refs/heads/master
+    old: 4cbfe4502e3d4bda48eb4b83dfad8d7da3b22e90
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-9656bcd4c321-cee9395acd80.txt
+    log: revlist-4cbfe4502e3d-cee9395acd80.txt
 
---===============8944790356337310653==
+--===============6994816885794378380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9656bcd4c321-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-4cbfe4502e3d-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============8944790356337310653==--
+--===============6994816885794378380==--
