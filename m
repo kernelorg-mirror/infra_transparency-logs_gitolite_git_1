@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8417685585181977536=="
+Content-Type: multipart/mixed; boundary="===============1737683177502709448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 31 Aug 2026 19:58:27 -0000
-Message-Id: <178820630775.1977473.12761286449379991164@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 19:59:14 -0000
+Message-Id: <178820635445.1978005.13351788529609219002@gitolite.kernel.org>
 
---===============8417685585181977536==
+--===============1737683177502709448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 39d4f32c5d534bd880ffdfe4f32499379a7ccd01
-    new: 5c22af4ef8c3015d3384b25f7dc2659dc8ea7098
-    log: revlist-39d4f32c5d53-5c22af4ef8c3.txt
+  - ref: refs/heads/export-net
+    old: 1db74a6e22390b0bc05dc9c57f8af7ef3edb4c63
+    new: c00daeb02e74233757a8766c53f9966c94fa4126
+    log: revlist-1db74a6e2239-c00daeb02e74.txt
 
---===============8417685585181977536==
+--===============1737683177502709448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39d4f32c5d53-5c22af4ef8c3.txt
+Content-Disposition: attachment; filename=revlist-1db74a6e2239-c00daeb02e74.txt
 
+a9d414b4a15c69b5389da3ec08f23e9f2926c52a nbd: remove queue freeze for newly created nbd from netlink path
+326d49039c10b65522ac7277b19b9b5c42ed1aeb nbd: add pre_defined_connections module parameter for pre-created devices
+f7b6d128dd49a6eec09066ecfd29095f12588786 sched_ext: Fix inverted ops.core_sched_before() invocation
+0ec5dd0669291c8ffbee096367e078c26cbcc332 sched_ext: Use runnable_at for the default core-sched task ordering
+006dd4d04b379f4d76c0439b3f4b15d1216dac18 sched_ext: Make core-sched task ordering hierarchy-aware
+d023aa69c3b5f22a442fb67a37f17b04602eb43f sched_ext: Drop the dead SCX_DEQ_CORE_SCHED_EXEC test in dequeue_task_scx()
+08745c62350126bc31b09548137be87e2866f628 selftests/mm: thuge-gen: fix test_shmget() for PAGE_SIZE check
+4ec11f14d1d6fdda787d991b142537be7841d395 apparmor: fix deadlock in complain-mode change_hat
+04cf68c9a76e3c6b67ad056a66a14923abf85925 parisc: Fix alignment of asm statements in head.S
+e4c90e39c941b1ecf52f01dc35a119293d1bd8ab Merge tag 'pinctrl-qcom-fixes-for-v7.2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
+d067f0f4c96cb5402a111cf649b7bf9c5771ec74 Merge tag 'pinctrl-qcom-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
+7019a11f79dc408f2b47b1027240e7f198784c9a ksmbd: reject SMB3.1.1 binding with mismatched cipher
+df35438ba9d5687335a405418772b6cd30383687 ksmbd: validate SMB2 write offsets
+cc2f133e80eb2c4a04bfa77a2f207749fe2f516a ksmbd: fix maximum allowed access checks
+e5f42cb7577221080e4db0498d71e6db7e67f1a5 ksmbd: support access-based directory enumeration
+5d47ebb2795d0dab7bf718ae6665ffdaa7bb880c ksmbd: honor owner rights ACEs in maximal access
+497dbc5999a52efd55e079589b166e5c18a20fe3 ksmbd: reject delete-on-close for read-only files
+4ea46ea602fc7055eee4b5b0e84f90f22da7f7e7 ksmbd: protect private extended attributes
+8184c425a19d44f138d42b44cc363917c08e5f1c ksmbd: allow I/O on directory named streams
+0ecd35fac4b4f2828490689b46039744d201dcb0 ksmbd: return buffer overflow for partial filesystem info
+d40c24634fe077a0dc91fd11fccf44ce12b454d5 ksmbd: Do not skip lock checks for single-byte ranges
+6b8b79226bc3e0ac3fdd4e91836241af712e8cd1 ksmbd: fix partial file information responses
+2103add92a02505bdd536ba6fce7f64a427222a2 ksmbd: return buffer too small for short security queries
+10aeff72ab82c264238dda270984cafb30175bad ksmbd: support normalized name information
+d112661f951c4b6d9eaca051c52c4828780da082 ksmbd: require read control for security information
+d4ef8821fd5a61a67981daf79185a40b8e853137 ksmbd: support empty snapshot enumeration
+c1c200924fd825b632ff8811c09c3d7a5dff3895 ksmbd: return complete resume key response
+fd309860ef24558963b3d6461041373a7af2e41d ksmbd: preserve data during overlapping copy chunk
+f7c0366e0a80bf8cd5eacc5479927abb50958b5e ksmbd: preserve access denied status for copychunk
+8482150a0743c47104a190ef507d5a0108668ffb ksmbd: support copychunk for alternate data streams
+f4ce7da9b33011d71d66b4eb3b979fa754e5e035 ksmbd: handle AAPL stream copy length mismatch
 d68d4b3293034f549d55f407a23b4c0a6c90e50a ksmbd: fix off-by-one rejecting minimal COPYCHUNK query-limits request
 495ade881b5c52e2a2b646d04b04a4429e5734e9 ksmbd: route stream FileDispositionInformation through stream delete flag
 a9417bb1889e3c869f4c059a67efa8899d8df3f5 ksmbd: report actual xattr value length for stream EndOfFile/AllocationSize
@@ -995,60 +1026,29 @@ ac8d6b28d48c5d951dcd923d33e461588e762a6d net: amd-xgbe: discard rx packets with 
 6cfc1b90cb86f4aabc69fb8e30128e07e2cdfa3a sctp: validate chunk length in the inqueue parser
 4aa61c88b4e292e10abdfd791334b8272108d68a vxlan: mdb: Fix use-after-free in vxlan_mdb_remote_src_del()
 a8455260b2e9c024d1872ac1c094793d55a7e537 ipvlan: unregister upper devices outside pnodes_lock
-b6d201d9714531df2b0194ec7f4a4bcee0a89238 net: phy: split phy_probe() error paths
-f558204abcb905adc492f74a9536c794b9371a23 net: phy: unregister SFP upstream before port cleanup
-52dd7eb1a33e51f781e882cfed01de6412613fbc net: phy: set PHY_READY after LED setup
-afd5aecd3c0721a04609992a37904b925e2097f6 net: phy: call driver remove when core initialization fails
-48378efebbe7bf7a2533bc59a7acb94fcf46021e net: phy: propagate errors from default port setup
-f7f619ecda5761bd48578764ef5ff9e8fd97b916 net: phy: avoid double-free after LED trigger registration failure
-1bb784eb6e38fd73143f021608e4ef3095d0c0d7 Merge branch 'net-phy-fix-cleanup-after-probe-failure'
 1376afc7660bad2a1a5ee0876898312a486cf8bd octeontx2-af: fix CN20K default MCAM rule removal on port cleanup
-05a3e615f94e5a39323d27f3206d04e50f03bd44 DO-NOT-MERGE: git markup: net
-4b0c8790b02347dc8f425e73fa69de213d9e0572 DO-NOT-MERGE: git markup: fixes other trees
-6690c7f03d535067ad1c151a4de0348be8f74778 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
-a7abf9d1dadd7da97becbf571442c337d49c3d02 mptcp: pm: userspace: fix address ID overflow
-ce55b2275e6692b3ee17d3adb0ef1d39b1186545 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
-f320e289d8dc9bc4858ea8637a848df5157ddfed mptcp: options: handle MPC data + csum reqd + no csum
-0749496ef7ec1c7be4b41160de5a372d1b945a7f selftests: mptcp: fix an UAF in mptcp_connect.c
-bed23611340efa7ca59f83e01c41a53d581c9804 mptcp: options: fix uninit-value in mptcp_write_data_fin
-038a28a577ba7f0a4bf61563552ef3f3054e4455 selftests: mptcp: lib: dump nstat for the right test
-a1ac6c08e791bd8215b78c15bbd130794bca59d3 selftests: mptcp: lib: get counters for the right test
-df3684df8d8afaca682283e1b04abde7cec54a98 mptcp: syncookies: remember the request backup flag
-3cb828ecae189e7fd88e8a68ab5982e252211eb1 mptcp: subflow: no need to copy thmac during ulp_clone
-cf39063334c5f07de2ceb1a66ec6aae7b639fda8 mptcp: being below memory limit is a likely() condition
-d821f8b34631139f7e8a51034ea7f6546894c8a5 mptcp: avoid pruning for OoW data
-4b12d9df601ea17b20ca45775c24ba4160d7e0d9 mptcp: remove unneeded READ_ONCE() annotation
-1eeae99b05d24d5a97a72b2a4b51b5078d89274a mptcp: do not reschedule the RTX timer for fallback sockets
-73b993f13a00e375d5dd9fb9cccf135f9e4af93d mptcp: prevent race between disconnect() and rtx
-404ba490abee2de1f3def68264e29f47b4073c39 DO-NOT-MERGE: git markup: fixes net
-e4bc721f2b17f62f8b7471b8ffe719aba491403e DO-NOT-MERGE: mptcp: add CI support
-685fbd3de18cfc26c92a6b7869d8aaf98e192e85 DO-NOT-MERGE: git markup: end common net net-next
-34152f7274380cc398b6fa9e27d00d2fbb2b46f0 TopGit-driven merge of branches:
-6557772b72d3cb1c21dc383d750ac1c0ba3c65a8 DO-NOT-MERGE: git markup: net-next
-ccda656e1174fa5ee2e19755f8f40fc723307a9c DO-NOT-MERGE: git markup: fixes net-next
-d2d446be0e7c21e608fed156653ef606acffefed mptcp: pm: init and release mptcp_pm_ops
-ab7ae35c2a751f0f7b70194326663763c0cd29da mptcp: pm: add get_local_id() interface
-24ad72d677208dbc1ab0cd479f531acc06a02a5e mptcp: pm: add get_priority() interface
-f2138392d68a4abb36f25175eedb0d37ac52f2e5 mptcp: support MSG_ERRQUEUE on the parent socket
-d0f71881da34ee961df74c6927247607160354a1 mptcp: sockopt: factor inet_flags propagation into a mask
-3f06cbfc243e44c74ca588ac748c24b6d4dc7edd mptcp: propagate RECVERR sockopts to subflows
-53b57afae4315b48a2f370627ee1d8152e6f3cba selftests: mptcp: cover IP_RECVERR sockopt propagation
-83c31e9431e852d6ad080a6670eeaef60f7f2c8d mptcp: remove thmac from subflow ctx
-28faa1fb0e02218bc76ebcfec10e0a5849d68d0d DO-NOT-MERGE: git markup: features net-next
-a10514ac06f9b64bb00e63ff85c3a15a5d0bd20d DO-NOT-MERGE: git markup: features net-next-next
-cbce04ec885a5c4031153ec19b3ccc4b1713e573 bpf: Add mptcp_subflow bpf_iter
-7eae0b68b2f66a59e551a922826d03a3599d6785 selftests/bpf: More endpoints for endpoint_init
-b855960f8df0d8876696e7df27f86b943f2c5815 selftests/bpf: Drop cgroup_fd of run_mptcpify
-d45c8dbf629dacbe2c4eaef7856441a63a8d3e27 bpf: Add mptcp packet scheduler struct_ops
-81b17488bab1a31eb1f7c8c8f6cf932204edb3d7 bpf: Export mptcp packet scheduler helpers
-7403f3597fb0c7d963a4fd96a1111a93fda5f87e selftests/bpf: Add bpf scheduler test
-6bcef5ad5d2b0f5f0c3f70f452d09149ed11b107 selftests/bpf: Add bpf_first scheduler & test
-960265a730cde57540ca1e88207b153adab520c6 selftests/bpf: Add bpf_bkup scheduler & test
-2293d4c66707502db0e9208ef8cf25a01a0340e3 selftests/bpf: Add bpf_rr scheduler & test
-f1e6e63b02fd92d97d681c716a2d092a949913bb selftests/bpf: Add bpf_red scheduler & test
-5cafdb1ea0139b1c3b60dbccf60fc80f0998b1b4 selftests/bpf: Add bpf_burst scheduler & test
-07db5789aa2db790554a91b4d3661600d0d9ecb3 DO-NOT-MERGE: git markup: features other trees
-0094d25be545e2e24317402ce890cca4701dac94 DO-NOT-MERGE: mptcp: improve code coverage for CI
-5c22af4ef8c3015d3384b25f7dc2659dc8ea7098 DO-NOT-MERGE: mptcp: enabled by default
+cdf0607c755fca49574b2fe56871052eafe2f591 DO-NOT-MERGE: git markup: net
+e94d49dd9f566c1be6479c142bf59872d4cb0443 DO-NOT-MERGE: git markup: fixes other trees
+93db9fc531ecf56a9a220abaa281769bfe817769 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+7e3c58db4425cc4c28bf3348b60093f59721686f mptcp: pm: userspace: fix address ID overflow
+0360e82d5d65be9b051a12f9a9f99614c99f4188 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
+3af8bdc078bed602441f5fcf97988bf68a2565c1 mptcp: options: handle MPC data + csum reqd + no csum
+54dfb248083178bbec5fe24f2a48c4df253b1ae1 selftests: mptcp: fix an UAF in mptcp_connect.c
+7911709b954dbf008bd4c3a4d7266ac82084dea0 mptcp: options: fix uninit-value in mptcp_write_data_fin
+30e7dd1623e75114963fec265758824c658a6c48 selftests: mptcp: lib: dump nstat for the right test
+adec8c990ca90e352b430e560ea7d0a2c4e1a6a2 selftests: mptcp: lib: get counters for the right test
+a049d01726b3e53e9717a0a419be7656c33be2ed mptcp: syncookies: remember the request backup flag
+718fb50fdf91de2916d4294017157e18bd816bb9 mptcp: subflow: no need to copy thmac during ulp_clone
+73f596f4fdd4c44b3aaa4b03ccda70c13083b91f mptcp: being below memory limit is a likely() condition
+52fb9d563903d8dd95a1c220af68ba218dd23faf mptcp: avoid pruning for OoW data
+ac7b648de7112b3dda4590d937752e52104dc071 mptcp: remove unneeded READ_ONCE() annotation
+11c5a9d210a53c447e5a30b4f2f7e65b5db621ee mptcp: do not reschedule the RTX timer for fallback sockets
+fd32fa48e0ddd8a1da48a34f8198c0dc6e14ef4a mptcp: prevent race between disconnect() and rtx
+d36a202ead4bc601f73ac2fcad063111f40bd618 DO-NOT-MERGE: git markup: fixes net
+1e739db9cee939f9b0d297d21949a368c7d7f0cb DO-NOT-MERGE: mptcp: add CI support
+8d15f3fc918aa53331424ca001f0385f65daf59d DO-NOT-MERGE: git markup: end common net net-next
+141ccb3b85769a5285e63a3761095a08dc67f218 DO-NOT-MERGE: git markup: fixes net only
+87e328a7cacdc322d2b27489c81aafbbe6d08b6f DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+c00daeb02e74233757a8766c53f9966c94fa4126 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============8417685585181977536==--
+--===============1737683177502709448==--
