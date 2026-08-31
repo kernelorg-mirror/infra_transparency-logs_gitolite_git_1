@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Mon, 31 Aug 2026 08:41:35 -0000
-Message-Id: <178816569528.1426477.8724872285362567766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Mon, 31 Aug 2026 08:48:22 -0000
+Message-Id: <178816610284.1430542.16356136638952667139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/tags/mm-next-fixes-2026-08-31
+  - ref: refs/tags/v7.3-rc1
     old: 0000000000000000000000000000000000000000
-    new: 6347dc3d6ce15a6ff969115b8d34c888a3974250
-  - ref: refs/tags/mm-next-2026-08-31
-    old: 0000000000000000000000000000000000000000
-    new: 6347dc3d6ce15a6ff969115b8d34c888a3974250
-  - ref: refs/tags/mm-test-2026-08-31
-    old: 0000000000000000000000000000000000000000
-    new: 5e77410aadaa9e8ab83344447dd85f059a83fb11
+    new: e5e04726cdd043e309677071ab1b65a4b18f422b
