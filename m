@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1040639527855107939=="
+Content-Type: multipart/mixed; boundary="===============1223560074545431415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 Aug 2026 09:31:16 -0000
-Message-Id: <178816867601.1466709.17287531457474451557@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 09:31:19 -0000
+Message-Id: <178816867969.1466846.14400228452181654645@gitolite.kernel.org>
 
---===============1040639527855107939==
+--===============1223560074545431415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/usb-linus
     old: 45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-45c13f3f9e3b-cee9395acd80.txt
 
---===============1040639527855107939==
+--===============1223560074545431415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788168670 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788168677 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1788168671-6306df5b51267a8f7646149011b84cdadb205575
+nonce 1788168677-a982285c55bdac221a23de6efd3adae632af721a
 
-45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/main
+45c13f3f9e3bb15fd89ff2864c6f627a3b4b4229 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVSd4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zm0QAKQcyT/eqmWOyVW7Tz9U
-/a75gkJtFoSBpt89NqwV7ePDwA/cUTGZkCIUSvsSfRdWfUm9ivItoapN+VAfGEja
-iytFWmeAUxjEbT6XEqQKTrUiOfXNZUUwD3DGaeDmQEJbRGhA/Y3b24e2Ju10KVWs
-GwwOiN33QaECNdz5CHcy5I7ZgHk1t6s1j5TSEOoHb1mDyOvR1thE5mP28cnTqTps
-aL3ELDvv80t3D1k0kkhHh8JULcVSKHyxZUIzJsiISc/pVCnwQNvZChdN/7qqS1AD
-p/k0xt1x+VGp4Q8BE3O7SDNQczeeIswJ8tVEmkqUaFAznsvhlBhjJfzRc19E1VZi
-LlURTAxKn4Romujm+WtnxiiiI4pTFw5/mH2NakeHaHiCcHfvplY0MHioVWDbJV6D
-YhNRnHg0x5C4do6oqbnjmSW6soJI/VLgAZZ5kGAtZCUOA5Oo3IxBF28QV1vNWkOF
-bgH5n4KX3uYwKPD+33GoKYjsxWcYVa9FQ774tOci/hGBKXtVlUK8GVfx9zv8wJnS
-inCIwkZdSZiEHkGOmBLZicxGZSi/egw7KihxJiZgk6zgoQAlKpDTndf31S0oFYys
-aYXz639ta3dI9/ys9Agyj63Dgm5TNqL1mm3E1AN+x/b8iQiKEAu2WKTeTyw+deQg
-VDJtbkkpi+tSOKBk+iWQO8tc
-=tQX2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqVSeUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vNoQAJIxiTpF251OCH3/VTBs
+NQ3UlZaFCu4MkU4xTvj7VjxvL2sBNpV/52JeMCIGRWKpCjABW+NVvu5mGhaC1cUa
+pDVoDTbZLA4AqQpKAlhMNAvJiwj5a9Tmj/OV1+Lk0yCOIfE3fXiHt6Q8wsSTvVCX
+u2lvp+/iOl+hfZchI1+lsuQvvRLylfHoBSh+hury21k7J3uZTZveuw9uQGjAMWy9
+Fj0oY69tTr1YTLqidyozIj9Do4BekuamuslS8tA9YWxW29/BdC3J/Mu/Xl93qcW9
+porYJ+hpwr5osVN7URQWW6KDABakqEk5okkN5swOn0EXDPfR9+DEOlC/GWwoKFII
+sW8PWws+xtUIwCU16QFUGu5mWDxMS1jKlyIhWMNvRTwbJKnXJmcUFPQ6d7RZAsW3
+M6UlGpswgLjXILD8sYQOmy/afsDSnLSxUR0m4ivqCTq/A0i+xe2NA7ShKFJrqURE
+/qJsgCpWJP/IZSfBYZ/5VkAg0GXe7w2++0Cp5oCuMku7lJiBeeD1rXEDZaL2PnEK
+eHeizY4vroVmOHqQHpOoqnyl1BSF0ZqwCd07rJstArOgws0YBC2p7csyQpvBJuYX
+X9BLbmUq6+2Uf+nY3Ohfx5P3R0zv1JAktKh6GgWkdSVRozUeN8sWkrGElMvBmgcZ
+oa088LqhAatkbmoovYI11YxX
+=b2mj
 -----END PGP SIGNATURE-----
 
---===============1040639527855107939==
+--===============1223560074545431415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============1040639527855107939==--
+--===============1223560074545431415==--
