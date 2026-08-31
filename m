@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 31 Aug 2026 21:56:09 -0000
-Message-Id: <178821336997.2134969.10324543510085251975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 31 Aug 2026 21:58:57 -0000
+Message-Id: <178821353708.2135844.9948438282445842892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: 068e5a0bc57e57d24cbf38def29cc5fb4db9a0df
-    new: 93d88ac4a448f200d18d1d71de0074b8e716bbee
+  - ref: refs/heads/asoc-7.4
+    old: 27bb680f95568c6e319fc35fe9ddc1a952e87e33
+    new: caae0e2d17185a2489365f3f97d8a5b09a9da638
     log: |
-         93d88ac4a448f200d18d1d71de0074b8e716bbee sched_ext: Pass the initial cpu.idle state in scx_cgroup_init_args
+         caae0e2d17185a2489365f3f97d8a5b09a9da638 ASoC: tegra: ADX: convert map to flexible array
          
-  - ref: refs/heads/for-next
-    old: 068e5a0bc57e57d24cbf38def29cc5fb4db9a0df
-    new: 14eba6d98cabe625218fae0bfed8959d97226bc3
-    log: |
-         93d88ac4a448f200d18d1d71de0074b8e716bbee sched_ext: Pass the initial cpu.idle state in scx_cgroup_init_args
-         14eba6d98cabe625218fae0bfed8959d97226bc3 sched_ext: Rename tg->scx.idle to tg->scx.sched_idle
-         
-  - ref: refs/heads/for-7.4
-    old: 0000000000000000000000000000000000000000
-    new: 14eba6d98cabe625218fae0bfed8959d97226bc3
