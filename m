@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8269026691234501595=="
+Content-Type: multipart/mixed; boundary="===============0822800429103428295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 31 Aug 2026 08:50:01 -0000
-Message-Id: <178816620161.1431253.7376487442905933756@gitolite.kernel.org>
+Date: Mon, 31 Aug 2026 08:50:12 -0000
+Message-Id: <178816621230.1433403.8385654156774334686@gitolite.kernel.org>
 
---===============8269026691234501595==
+--===============0822800429103428295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-for-next
+  - ref: refs/heads/kbuild-next-unstable
     old: d900723d78adec229996aefbab0dcaa66a177b77
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-d900723d78ad-cee9395acd80.txt
 
---===============8269026691234501595==
+--===============0822800429103428295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============8269026691234501595==--
+--===============0822800429103428295==--
