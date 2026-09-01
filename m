@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3948638141510140499=="
+Content-Type: multipart/mixed; boundary="===============7175457061810513728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 01 Sep 2026 20:24:28 -0000
-Message-Id: <178829426811.3237038.10304667782169675493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Tue, 01 Sep 2026 20:25:48 -0000
+Message-Id: <178829434877.3239931.16638973140783612774@gitolite.kernel.org>
 
---===============3948638141510140499==
+--===============7175457061810513728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 2812e64e1575e05500a35c405aaa6e99b7d7930b
+    old: ca800a9302764c445de0da0e84d2252400a770ee
     new: 1b78070aaef63512688aebfbc82365ef9d6660f1
-    log: revlist-2812e64e1575-1b78070aaef6.txt
+    log: revlist-ca800a930276-1b78070aaef6.txt
 
---===============3948638141510140499==
+--===============7175457061810513728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1788294222 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1788294222-7fc2c83a72fe9890e16d19b59e979a5c633dc26c
+pusher 7BF9099A 1788294305 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1788294305-d3a84db8368c5b5f07f01283b2480328a24b50b6
 
-2812e64e1575e05500a35c405aaa6e99b7d7930b 1b78070aaef63512688aebfbc82365ef9d6660f1 refs/heads/main
+ca800a9302764c445de0da0e84d2252400a770ee 1b78070aaef63512688aebfbc82365ef9d6660f1 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqXNE4ACgkQ10qiO8sP
-aAAdYA/+JeGQ+erkfmJq9y3dhpti8UK60hHyGVPsMfVgwkU8WNsH6NYda5pxHihP
-R/IuKXwrxn2H7OGIv3jqY3xJlx+o20gFDGX50rkcj0XsbhQ8dz/ef+GIlmt+HAPy
-qZ/c1DiR9c816HpYZpWxtJw9y7sB5TzlTM4kbnBFxW3DMCw3weHdlMegYvCdVgJ/
-4U1vMw9YJgJHyxN46IN7oX+qIR5+NjZ0hh/+OPKMdd+r6Cok93scZ/JajF3iKwUI
-uZgHAcS5j20OOqw3M0UBH0WF72VMd4Dg/K7BBboIIGrNiQfbWNOIR1H7kjaQ+8Gu
-6BCKOlxRsFKDpqOMIwDEN+n6EAo+JOZj7SIjzXqG+Y4E3+taEUIyUmwUBjWFsO6M
-SKPQCx1Tp5ik/5kmXo7iOJfVtqbGGKbfNgmVAhuTqQMvuBK9HNAH2ntMKrKe6PPX
-btMMZgfIWrGCBj63FqRl5cW9GeDtPowemfH+a5Mz/7UMAOVi7Y63qlErCyfGTXrM
-FyXI3OtTRw7zFq4U553nXzdGEJgMwTQOW/GG+r8a00Mj68GKfBJkNfeBZswFWHdB
-mDEzlR2e6V+zAxzwOziBxvSIoh2kn2GRII46FHj0XA+XNF+MPEmzSCFGAsCmpGD1
-+VdMvY2wpHKBkwy0X+vVBFLe144etYeJ7dvrbvxQAqJFuZg3BK8=
-=2LtD
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqXNKEACgkQ10qiO8sP
+aADJrA//SgZGBgbLkwFM1aKxd6VfhLgqCbzW0i3vkXM9oR7sued6d3WGGEcW7ZNp
+eTKa9jpvrjVPU0WNPBQqda1MW1DoAp9cw51U6Vj7GIoi3X0mR1bz7XwnGMBPSGN/
+8iKhBoLTslCPEwO3eBZUPJFwU5A1YNrCX2vfPuufjpDOuFHpKSfr6b1JTu6kbvE/
+kK7nzhZ7EEZb7ZnXiBd7ZrOJukkOyge7A31hkj8PgeL1Fdw9Rm28asStm9YwDxgm
+qBWUQkP/r0nwiPkmBwAYJhae24ed0ki5Zj/f8VkKLx8lF5VyKzaAjbppDYmN07Vf
+QOh/LcBqM5iQjuzJrSOYsvXoUXQeweS32QVig2YYNzCOxk0w9fSd5+328iJrPo5z
+A6PGTNtAhuA3yWJM6ycwQvYj08pS1iiP5rGtY7u3oACE8j/GKT/9sTqWTaOCBYPA
+QH1Mpm6m7wHvwkapGyTeSsUBBDU9HyxtlM4wolUn2eAqnphh+zYMaZHExUyy6AYj
+k0FocFUa8sbVK5G3efskOORGwxmD9Pvlvv2i/DhN0JukSQxY7NHD2KPW/qO+a4bL
+3+8o1P9uvY2mU3NvYIiO3fiQ+EtaPUcn+IX/mFS3y0fJtndObXU/m5ONYxzrd5Mz
+HAFML2cY8b4/DI3V7cgPY2Xlzl+H/lfyyrvqN5/gVV9f2YGED4o=
+=zkWt
 -----END PGP SIGNATURE-----
 
---===============3948638141510140499==
+--===============7175457061810513728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2812e64e1575-1b78070aaef6.txt
+Content-Disposition: attachment; filename=revlist-ca800a930276-1b78070aaef6.txt
 
 5ab078e3241da0beec2022254b5811a8a52cff84 platform/x86: dell-wmi-sysman: Fix instance ID bounds
 505b6d296c486ef7d1274f279d4c43a172f63224 ip6_gre: fix hardware header length for NBMA tunnels
@@ -1081,4 +1081,4 @@ d5dc1e69fd7258ea605c9952e5d5947539159ae3 inet: frags: strip GSO state from fragm
 4a9d62a8774f130a5b8de26ca9f415e6050a9d51 Merge tag 'nf-26-08-27' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 1b78070aaef63512688aebfbc82365ef9d6660f1 Merge tag 'net-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3948638141510140499==--
+--===============7175457061810513728==--
