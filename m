@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 01 Sep 2026 01:27:31 -0000
-Message-Id: <178822605103.2361124.7034788424293720181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 01 Sep 2026 01:29:31 -0000
+Message-Id: <178822617137.2362541.6194275472536662745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/renesas-bsp/v6.12.100-SDK-4.38.0_hil-for-test
-    old: 11a65252a19f3baf4ea565a7798ad3b2c176a0ec
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas-bsp/v6.12.100-SDK-4.38.0_hil
-    old: 0000000000000000000000000000000000000000
-    new: 11a65252a19f3baf4ea565a7798ad3b2c176a0ec
+  - ref: refs/heads/testing
+    old: bd7f5c3f25552b9813154e806d408fc5655f6c48
+    new: 1c03ac89d78954799438935ccc3382e83ed9d34c
+    log: |
+         4a85662af824b2aba867982a1931edeedb4d1ec1 iio: adc: ti-ads112c04: Add support for TI ADS112C04
+         1c03ac89d78954799438935ccc3382e83ed9d34c iio: adc: rockchip_saradc: Add support for RV1106
+         
