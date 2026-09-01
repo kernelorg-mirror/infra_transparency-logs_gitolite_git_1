@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2870894742660645921=="
+Content-Type: multipart/mixed; boundary="===============2381847592040341325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 01 Sep 2026 10:14:21 -0000
-Message-Id: <178825766100.2750587.7568631128772546468@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 10:15:31 -0000
+Message-Id: <178825773160.2753260.16392876846013678759@gitolite.kernel.org>
 
---===============2870894742660645921==
+--===============2381847592040341325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 3278529bb8ddbfaa4eeaea5602ff29d8499b4b2b
-    new: 17aead0e02891270c6c45cab9fbb7bded274c16a
+  - ref: refs/heads/staging-linus
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: 28a289beaf226b30b1e6e7d7b1a2946fe2d6e852
     log: |
-         754bbe68712f7eac5df54982fa4f5c09ea581f38 staging: rtl8723bs: use bool for PMKSA flags
-         427c477e8e557d155f6a58638b2edd881a9a7d83 staging: rtl8723bs: make rtw_free_xmitbuf_ext() return void
-         2d09104a22ae34ca70ec5fc5ab6409b71ef55ae9 staging: rtl8723bs: make rtw_free_xmitbuf() return void
-         d685d1dfaf0270e98011a0c5d2547c9988e587ea staging: rtl8723bs: remove unnecessary parentheses in ioctl_cfg80211.c
-         bb2b72ecf863484ea2242225e2e1b89795efa1ad staging: rtl8723bs: refactor traffic_stat access in collect_traffic_statistics
-         bb7638662f1c39bcfba9790d72ed23054c7b713a staging: rtl8723bs: remove dead beamforming code
-         17aead0e02891270c6c45cab9fbb7bded274c16a staging: rtl8723bs: remove unused chip-type enums and defines
+         f576944a59f31bcffff121117ebf452c5dd162b7 staging: fbtft: make dirty_lock IRQ-safe
+         99aa998dec83ba180822f70e6d48a514fc81c20d staging: rtl8723bs: fix OOB read / stack overflow in rtw_get_wps_attr()
+         ff917923f4fb9c83717ba135ee47d7e4c1567bb7 staging: rtl8723bs: fix OOB read in rtw_action_frame_parse()
+         28a289beaf226b30b1e6e7d7b1a2946fe2d6e852 staging: rtl8723bs: fix OOB read in rtw_restruct_wmm_ie()
          
 
---===============2870894742660645921==
+--===============2381847592040341325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788257657 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788257728 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1788257658-aa03eca5ea9533c17ed089bdb030333b5431b95d
+nonce 1788257729-e057a36a4fda8706d9ed9642d4e3ae347ec4c20d
 
-3278529bb8ddbfaa4eeaea5602ff29d8499b4b2b 17aead0e02891270c6c45cab9fbb7bded274c16a refs/heads/staging-testing
+cee9395acd8043be0644b25c34bfa86623f2b935 28a289beaf226b30b1e6e7d7b1a2946fe2d6e852 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqWpXkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+llcP/izzR1gqE65tWNSjVhWt
-PcAmh81qR7G3FhxeVRclJuU23Kaga5KmO+kkoGYAjsWpX9p8iR0JUt2ij29cjbmN
-IHcLN5AejbcNUaSuNM8qJqZhOmEZEQDAEaE1PCeCyz47vxQR+2f1myOLFE3X9lh9
-mkM50GVDP2Xx0e2T5VeS2vFZUTsxY2a1fZ9iGbdTTD/CkH5xSFlYFlhaPPQVo9Gg
-epqPCqOI9lJvGR9FjfLaq5JnR7zBq4YWt7JnFu3f6aw9bM9Nge0edeoi8qjFpzNH
-QBAR4KW0kRtcKKj6hIeHny141RjIWQu8TTtNlZB0w3+uUksN2ryuEp1Gf9pUc5QI
-ZwUaxJVEZjAK1uD3kQht///c48cxH81DVfjP+U20LsWdcR9y9zgCYGuOP2qv8TzD
-5K4kyxhZSJalXz9Tfz8kWOAeWelXFTwSkhST41qyBkdmnlu1ejBIDURlv/t45Lyx
-h4qDYvnApryqI7e423unhDtR8vAE5Fou8THErU4lT7LPgiTtBqSGJmOK+MuYPDtE
-hx0ofshO+wWBQ+g2PxeQh5ZoS3v48AszRuqRyetXoAAEIrIUsCcykP+9PeC57WT+
-qKqG44FSZPS2EAWL2LDzrDOoJH8BG2XiEDqWRlHhKYwA1DZAmjgdp6n1ml6qJVt2
-BL5G5A31BmMK4vbWOr5y4wqC
-=5VM4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqWpcAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z+cP/iSSkJlpJXtsEe16aXiZ
+2Ehw6eBst2GnMpNOrn9yHSr16Fe2hRXF/uDN2pl1b0jUaU5EGGZNpCRlmrEmAO+O
+1T7HSrG7kpoNxpn/psBxo+51/JidkPbC02ApH9+snJope7zO3C7F/cALOmhs1lYf
+idbY50xWU+LEJefRvz1+D7+b7jTE3IKb0iltPdp2XjdG637blvm1fxDCOS0ZXqsQ
+O2C/mFpZqcY133bFt5L3Kj1hXIe3nd1XgPJWo/aAGOa2DjKBJ58MLxJm9uvZADdV
+6PVu+FU9fkZbqdHaEK8M3KMqXgvvbcJSHSFLyJqbblbhmfIMAbCj1+e4ji9uXJoE
+3HlRpMeA5dCKujIcOfPAFZL2mDnJguC1d91lilKAMnhckwE97ahYX8MWaefmwP3u
+yLQkBh3WRuoNfZtkkT+bvZmXBJUVUFyOMnahb34+q9ZtEh+cbqGpg9QTT5GuTc5H
+TaEV7LlPm9B8gNcU0powcVDv6YqgqOY2hIIkV2VFOtPB1Qt54QjL8AFpwkfOYkE6
+LsA8s26hTpvJ98zfDUtYUpRD41lGoBaZt2SDooTEE95SbxVx0qfJ8WEAPmYDRfZf
+RpCIy3h+aLybdFRTpRg2lkUy1npb1JaVXRwMCmrfaTIpWl4yZKMOQfIptJ5ZoWML
+VapWQNrhTU/u/MeLKjrTKXI6
+=YqXt
 -----END PGP SIGNATURE-----
 
---===============2870894742660645921==--
+--===============2381847592040341325==--
