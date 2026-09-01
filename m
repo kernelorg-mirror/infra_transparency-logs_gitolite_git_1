@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1240242221493666194=="
+Content-Type: multipart/mixed; boundary="===============4512120421766283776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 01 Sep 2026 13:30:03 -0000
-Message-Id: <178826940351.2893396.12510614477998227721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 01 Sep 2026 13:33:34 -0000
+Message-Id: <178826961403.2895299.5306329811476053667@gitolite.kernel.org>
 
---===============1240242221493666194==
+--===============4512120421766283776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 9f7cd6a62aa754ed6b48cbd5d50de40add1bcc86
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-9f7cd6a62aa7-cee9395acd80.txt
+  - ref: refs/heads/dm-7.3
+    old: 39c5aa3bd8ec3912d2cd0b3fe092642b0d2b0713
+    new: 2ccb8878c149443c6acf628b438c9c942c20abb2
+    log: revlist-39c5aa3bd8ec-2ccb8878c149.txt
 
---===============1240242221493666194==
+--===============4512120421766283776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f7cd6a62aa7-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-39c5aa3bd8ec-2ccb8878c149.txt
 
-a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
-7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
-bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
 12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
 da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
 abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
@@ -1050,5 +1044,11 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+148845aa1921d95ef5dc851c76e6a284f6657df6 dm-crypt: fix a tiny race condition in crypt_dec_pending
+bc9781c0247de107876f32929f1637db93a42b34 dm cache: fix issue with background work locking
+b2fd92f016e9d692fd3c8c08d0ee014e9212279d dm-integrity: require stable writes for internal hash modes
+59e6f919d77d72ec79cbf171256f2f7819737580 dm-integrity: fix buffer overflow with keyed discard
+18d80c77b4c7dd20699e81cedfbbff4e9d198f28 dm-integrity: fix infinite loop on discard with large tag size
+2ccb8878c149443c6acf628b438c9c942c20abb2 dm cache: fix demotion stats in passthrough mode
 
---===============1240242221493666194==--
+--===============4512120421766283776==--
