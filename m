@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 01 Sep 2026 08:31:44 -0000
-Message-Id: <178825150464.2675376.280825017950256681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Tue, 01 Sep 2026 08:35:18 -0000
+Message-Id: <178825171835.2678232.4157032073707185989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/controller/dwc-qcom
+  - ref: refs/heads/ux500-dts-for-soc
     old: 0000000000000000000000000000000000000000
-    new: 1b3b0bc2b3672e928e06997444528f8797579eb2
+    new: 07f7a23377f1e6c74fba49c5ed7924e78517e666
