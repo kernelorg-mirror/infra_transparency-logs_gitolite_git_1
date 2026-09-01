@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 01 Sep 2026 18:18:19 -0000
-Message-Id: <178828669965.3143008.9389806305977822200@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 18:18:23 -0000
+Message-Id: <178828670302.3143117.4272756771135561358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 1d80a4792f1de236c157bcee2e5400fad4c66c65
-    new: 4cb4aead98380fc0b1b0500a1c49d35724854067
+  - ref: refs/heads/asoc-7.4
+    old: 6f83e540f9456a0ec63fde75c749f143f9cb8857
+    new: 2bba6ea93e48959a0af21bcc4f34ac2ff527e88a
     log: |
-         a20afec40ea1012659861e58374c1bcde2e18a43 ASoC: rt721-sdca: Adjust latency control to fix no-sound issue
-         00aef6b609bf231b4213704b602250ca53f95897 ASoC: amd: yc: Add DMI entry for HP 255R G10 laptop
-         4cb4aead98380fc0b1b0500a1c49d35724854067 ASoC: codecs: ES8326: issue about capture pop
+         951af101c73070dca5241e408decfb302e37a0fa ASoC: report component resume callback errors
+         2bba6ea93e48959a0af21bcc4f34ac2ff527e88a ASoC: soc-ops: Clarify kernel doc for snd_soc_info_volsw_xs()
          
