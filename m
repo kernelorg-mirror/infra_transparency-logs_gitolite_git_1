@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 01 Sep 2026 00:24:35 -0000
-Message-Id: <178822227518.2242861.1234179431109922872@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 00:24:40 -0000
+Message-Id: <178822228096.2243111.1638269223422282487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-6.1.y-cip-rc
+  - ref: refs/heads/linux-6.1.y-cip
     old: 82225169eea7521c41d1ee742a65387854ce4dd9
     new: 1459ba370832cf7dc2bcd7fb5749a89d417f604e
     log: |
