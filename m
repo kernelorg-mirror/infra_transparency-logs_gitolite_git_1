@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8039571648509652388=="
+Content-Type: multipart/mixed; boundary="===============4780683467248546524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 01 Sep 2026 20:07:05 -0000
-Message-Id: <178829322574.3224857.8791189549832419516@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 20:07:08 -0000
+Message-Id: <178829322840.3224946.2018383761582895660@gitolite.kernel.org>
 
---===============8039571648509652388==
+--===============4780683467248546524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1b78070aaef63512688aebfbc82365ef9d6660f1
     new: c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49
     log: revlist-1b78070aaef6-c8ea08ba34f2.txt
 
---===============8039571648509652388==
+--===============4780683467248546524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f7f619ecda5761bd48578764ef5ff9e8fd97b916 net: phy: avoid double-free after LED t
 f952040d7016d13a0b0f19dfa0001f4597cc47d1 netlink: specs: rt-link: add force-forwarding
 c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49 Merge branch 'netlink-specs-rt-link-ipv6-devconf-updates'
 
---===============8039571648509652388==--
+--===============4780683467248546524==--
