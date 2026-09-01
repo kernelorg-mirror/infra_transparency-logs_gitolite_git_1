@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7872032030293437905=="
+Content-Type: multipart/mixed; boundary="===============0794352248325282748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 01 Sep 2026 17:42:44 -0000
-Message-Id: <178828456494.3117769.17140501445599662126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 01 Sep 2026 17:45:02 -0000
+Message-Id: <178828470288.3119272.1574976765252383250@gitolite.kernel.org>
 
---===============7872032030293437905==
+--===============0794352248325282748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/arm64-sve-trap-mitigation
-    old: 4509d3a35d21ca60f8fc84267844949933037110
-    new: 2905ecb3020c59e040a820bb11708784a28e8482
-    log: revlist-4509d3a35d21-2905ecb3020c.txt
+  - ref: refs/heads/next
+    old: 7098e9cd98a05c0c5de2fae0c2465f9d966fdd07
+    new: 274b30592196c9918af700e5edcb8bce8923213e
+    log: revlist-7098e9cd98a0-274b30592196.txt
 
---===============7872032030293437905==
+--===============0794352248325282748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4509d3a35d21-2905ecb3020c.txt
+Content-Disposition: attachment; filename=revlist-7098e9cd98a0-274b30592196.txt
 
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
-7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
 bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
 12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
 da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
@@ -1047,8 +1045,10 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-5c0d367c60937bb072b2ddc3531c2695c40d8997 arm64/sve: Performance improvements with SVE state saving
-c8d8381387246da0123090e6a226a58f8638440b arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
-2905ecb3020c59e040a820bb11708784a28e8482 arm64/sve: Disable TIF_SVE on syscall once per second
+2c73cda8908f1275b0ecf81ae540a3bc2a90fc30 tools/testing/cxl: Don't wrap cxl_core's own exported symbols
+04a7b330c8b60dfff200d9a32dd6615f97b59d07 cxl/mce: Avoid alias page retirement for corrected errors
+b212e37113f82bfb018e045adfa28dadc3e1bd6d cxl/region: Guard against a missing peer mapping
+6f057dea152574dd044382fd0ba5ed19e3ecba25 cxl/test: Map mock device nodes to an online node
+274b30592196c9918af700e5edcb8bce8923213e Merge branch 'for-7.4/cxl-misc' into cxl-for-next
 
---===============7872032030293437905==--
+--===============0794352248325282748==--
