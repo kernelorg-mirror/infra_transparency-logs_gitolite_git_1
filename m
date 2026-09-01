@@ -1,47 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1630462860192487282=="
+Content-Type: multipart/mixed; boundary="===============8272496746286512258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 01 Sep 2026 22:02:25 -0000
-Message-Id: <178830014540.3309641.14340980738757628588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 01 Sep 2026 22:24:52 -0000
+Message-Id: <178830149244.3323710.3909638651045645291@gitolite.kernel.org>
 
---===============1630462860192487282==
+--===============8272496746286512258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/rust-reverse-randstruct-dep
-    old: 0661a1239a56313a363dd94cdb5b43177d56b445
-    new: 1a476155b2c0f19ae62cfd0abcdc26e04d9c9aa6
-    log: revlist-0661a1239a56-1a476155b2c0.txt
+  - ref: refs/heads/next-fixes
+    old: af5534fe2fbc006e83d75d6283dfc5ec75d5d780
+    new: a6cca7ae7519306341607232d3e5b1391e598df1
+    log: revlist-af5534fe2fbc-a6cca7ae7519.txt
 
---===============1630462860192487282==
+--===============8272496746286512258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0661a1239a56-1a476155b2c0.txt
+Content-Disposition: attachment; filename=revlist-af5534fe2fbc-a6cca7ae7519.txt
 
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
-7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
-bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
-12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
-da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
-abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
 0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
 f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
@@ -1048,7 +1032,23 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-69c75fe4a7ef1b036f0a90ec4c36fcd55da7c7ec EDITME: cover title for rust-reverse-randstruct-dep
-1a476155b2c0f19ae62cfd0abcdc26e04d9c9aa6 hardening: Default randstruct off with rust for better allmodconfig support
+40fe154ba049a33f063c0058cd185d7f682088f3 btrfs: clean up target device if block group marking fails
+c93b3c43df561cd9f592cee20ae058b563f9e5b6 btrfs: detach failed sprout device from transaction update list
+e0b54613aabeb8e9da597f23b90c6a03d0981986 btrfs: restore active device pointers after failed sprout
+e8a0095c7df170945b4740eda4e2738a50f97fc6 btrfs: preserve the compression property when other inode flags change
+590b9912748817fdbe9932e2b88fad08e77e0f97 btrfs: scrub: report the failing sector's address, not the stripe base
+890ef16be8cd03f8671bf7daf32c5bb6e6471a99 btrfs: fix transaction use-after-free in raid stripe insertion
+9b91e3537a07875bb62346fa202c4ab7b2d76008 btrfs: fix the possible bioc_list memory leak during error
+be73100b0cf1933841ce67a0e99d4b816a57f9c9 btrfs: return proper negative error code for update_raid_extent_item()
+ef7e686d3adda149ecd003a7fffe5228ffbebf2d btrfs: send: reject extents for non-regular inodes
+f9ab2339654d97b15e1f335f8a230683decb1650 btrfs: zoned: finish active block group cleanup if call_zone_finish() fails
+a520dc4ab25a4ffe104fcd9c3102ecd9bcbba2a7 btrfs: zoned: propagate do_zone_finish() error in btrfs_zone_finish_endio()
+6b2eb2320f676c0164bfa1ecf12ba3382e039895 btrfs: abort transaction before releasing tree_log_mutex on commit failure
+314a26c9dee2e75df65c6142693e14c4bed8029f btrfs: send: fix lost error return value in will_overwrite_ref()
+ef48a7e3d0cba5ec43a4008bc7a89f90d7c92e76 btrfs: do not force reloc root creation during qgroup_account_snapshot()
+90d53632cb5ceebe5237168db17c87f560544c2b btrfs: zstd: fix lost wakeup when waiting for a workspace
+5dc8eaf1f1c01cfe229246e60cf9607ccc5c212a btrfs: tests: do not touch page cache if root/inode allocation failed
+2e2801b5b6652ac153ce45f0c8374e0378499fd6 MAINTAINERS: update Chris Mason's email address
+a6cca7ae7519306341607232d3e5b1391e598df1 Merge branch 'misc-7.3' into next-fixes
 
---===============1630462860192487282==--
+--===============8272496746286512258==--
