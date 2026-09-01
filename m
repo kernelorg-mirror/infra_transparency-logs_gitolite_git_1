@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2087498960182329136=="
+Content-Type: multipart/mixed; boundary="===============4898301959800153115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Tue, 01 Sep 2026 08:56:22 -0000
-Message-Id: <178825298296.2694794.17605503393604500182@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 09:08:24 -0000
+Message-Id: <178825370422.2702080.4638182102138270338@gitolite.kernel.org>
 
---===============2087498960182329136==
+--===============4898301959800153115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,82 +15,64 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export-net
-    old: 0c164b6dd50adfb4bb924b9030ab3e529a1b48cc
-    new: 95e2e8409426bd0eae533bdf35779abc1388093c
-    log: revlist-0c164b6dd50a-95e2e8409426.txt
+  - ref: refs/heads/export
+    old: 4bb8742d45ac05b0acbb0d6cedff83aa8dca870a
+    new: a576f990d7e1b1ff9a0b81380e18ce0a282d81f6
+    log: revlist-4bb8742d45ac-a576f990d7e1.txt
 
---===============2087498960182329136==
+--===============4898301959800153115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c164b6dd50a-95e2e8409426.txt
+Content-Disposition: attachment; filename=revlist-4bb8742d45ac-a576f990d7e1.txt
 
-ea2ee8b222306208d2b094d1a11894da6c106d42 Bluetooth: btintel_pcie: Clear automask on spurious interrupts
-a086c0892969bf8a0151b0f12bd14a68827c88b2 Bluetooth: btintel: validate version TLV value lengths
-ac8aa9e0ec93a12a60230066f199f49c3b9aac3d Bluetooth: btintel: bound firmware ID by TLV length
-3a74624b5deae7f5e2b98e638687fbf9594a9781 Bluetooth: btintel: propagate version TLV parsing errors
-57938bbdb9bf7fd41cbd5cd509ec10c4b22bec18 Bluetooth: hci_core: Fix race condition during device registration
-4ef05db5b08b176a551b4a6287372045998806b0 Bluetooth: L2CAP: fix chan mode for LE_CONN_REQ + EXT_FLOWCTL pchan
-56c2b5831d39dc84aad2573dc3e197af1a872a05 Bluetooth: L2CAP: fix out-of-bounds write in l2cap_ecred_connect
-0d77683237270702fa93489ca759c89b4e970554 Bluetooth: L2CAP: clear FLAG_DEFER_SETUP only for same PID/PSM
-2deb76c21b81e42b3282224f7dd2046fe73fd1e0 Bluetooth: hci_mrvl: Fix wrong return value check of wait_on_bit_timeout()
-fa5acd038ea657ad5033713d6916214cbd349151 net/iucv: fix the recvmsg window update
-5443d9c4f55d46634b95432e1e8a40b824019bbb net: ethernet: oa_tc6: Protect skb pointer used by two different kernel instances
-172c974113bffe5723b80b1acac17593bb50513c net: ethernet: oa_tc6: Improve the error recovery
-349c366365876b7f67120827a0deb44899f59303 net: ethernet: oa_tc6: Disable tx queues on fatal error
-3cc2aa96b97184abd6fc106aac626ddf14389813 net: ethernet: oa_tc6: Fix for the wrong data type
-f05f0d85cd025aa87fede7577f69f23d2536f294 Merge branch 'fix-to-possible-skb-leak-due-to-race-condtion-in-tx-path'
-d7e7e98d23f42a92d9ab7e36302bd96bd9b33b5f net/sched: cls_u32: fix duplicate handle when node ID pool is exhausted
-7b120a771943ffc3cbce787daecdd23eccb0505f selftests: tc-testing: add u32 node ID pool exhaustion test
-dc0df5a0c62ccea1d0e08d39a4dc9064de81d411 page_pool: keep frag_offset aligned for odd-sized requests
-dee44f41f206becb41c492899c1996cfd7f82a1b vsock/virtio: validate packet source for connected sockets
-ad9a7da3fa39c2d616ec0dd3cf6e30531d032fe7 vsock/vmci: validate packet source for connected sockets
-9d0f206eb38dbf9e56f94285dcf5138146bde89c Merge branch 'vsock-validate-packet-sources-after-bound-lookup-fallback'
-fee10655709c5c597e8e9f722f3035d9ea31ff3a net/sched: cls_flower: validate mask pointer after nla_next()
-1ea9fff22bf6107b421d2978e097865f73714382 Merge tag 'for-net-2026-08-31' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-2987ee196c88dbde0463dc87d5fb209c684e34a2 igmp: convert struct ip_sf_list to RCU
-9feb069e5ed03582fbf6272539f1caa2a17dc6d5 ppp: ppp_async: simplify tty disc_data access
-d8d4d1cf40d541a5d7cc3b15d57e42d0815c7d53 ppp: ppp_synctty: simplify tty disc_data access
-93b49239840b91313adbd77b8b52993eff2d08c1 ipv6: mcast: fix RCU list diversion in ip6_mc_del1_src()
-c073d1b070f171d206b19c98d71739a97f15b3f1 ipv6: mcast: use copy-on-write RCU updates in ip6_mc_source()
-75fa9caeb8aaba19c2463dee0b0a1e09d39c04af ipv6: mcast: fix delay calculation in igmp6_join_group()
-0c8f56c583c3250408367880c98e4d6fbc929315 ipv6: mcast: use rcu_assign_pointer() for __rcu list updates
-b4cf4a092a7bdaa62acca39c28f386b6d1674968 ipv6: mcast: use jiffies_delta_to_clock_t() in igmp6_mc_seq_show()
-ec12bdd56861b305ba4fa9da50729bd32e5a927f Merge branch 'ipv6-mcast-rcu-and-timer-fixes'
-97cc84dad1d7f68a36b71b69b361d88482707673 ip6_gre: check tunnel info before xmit in ip6gre_tunnel_xmit
-cd51b74bdd0b75aedf255dc67306a16dd057f7ee ipv6: Fix redirect exception creation for UDP/RAW sockets
-4c3499f79f8c7e8561266bcc220a18538cec0458 ipv4: udp: Create exceptions before socket matching
-ac76cab50e899a7346408b8d3c3a4192c2eefb9f ipv6: udp: Create exceptions before socket matching
-c923c14942b164cfc2c1efa4e6324214f2fc248a selftests: net: Add exception cache tests
-f88bbbbe96d6d2ba4cca8af0c47907ed27de2863 Merge branch 'mitigate-a-side-channel-in-routing-exception-caches'
-b3b76e9f4f2476f1135b2ba7743a821db4a0df4b tipc: fix NULL deref in tipc_named_node_up() on empty publication list
-81c600c26302a27852ed8b19c5f2f647ea3555c9 tipc: Dont send random pad bytes in RESET/ACTIVATE messages
-975b5b067f525a1b1338c4a3bee1c46545801518 ipv6: sr: restore network header before routing and forwarding
-545b63503c696c4ce0663b3fcd37f41169aec1eb net: ntb_netdev: Fix statistics races
-8b294b68ca38ad175ff1e397bdafeec3017e9225 DO-NOT-MERGE: git markup: net
-d7bb6531d92c6a90cc26bf4f23eaa43e181e1c72 virtio_console: allocate the port_buffer with the caller's gfp
-f11ec9875884e866382678691df4c6521d114103 DO-NOT-MERGE: git markup: fixes other trees
-9c2728ab951e687a93f63c56eb3cfd3ea40efdf3 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
-04b8b859104e544ce4cc500ddb26568802d57d23 mptcp: pm: userspace: fix address ID overflow
-d28cd8705f59f589a3a4407b4dd47bb40ded85c6 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
-00c0c917b37768f2410410c494727bfc8857f87b mptcp: options: handle MPC data + csum reqd + no csum
-ab8aac06531bde6dba86727ff9878559f483f46e selftests: mptcp: fix an UAF in mptcp_connect.c
-e1d2ab35057c762bc2eb2fa7d11faa782289c56e mptcp: options: fix uninit-value in mptcp_write_data_fin
-c115ea91ed645cfffc47dbc6526951aaafe7aa00 selftests: mptcp: lib: dump nstat for the right test
-7948f9292114e9785e09a2ec78ae7bd433d54cd3 selftests: mptcp: lib: get counters for the right test
-432b9853d0b55c154129b01f6f6f51f3e4d99f6d mptcp: syncookies: remember the request backup flag
-565ad16b7f355957b2e9f17cb410169ee63eeb73 mptcp: subflow: no need to copy thmac during ulp_clone
-d557d8d3d0b4f05697399bdeb18015862fdc2425 mptcp: being below memory limit is a likely() condition
-78f3be27b7ea6708ef4f2f19a63a9f0dba6ecffa mptcp: avoid pruning for OoW data
-8948d965341a83d602e427fcb97447e82d79a84d mptcp: remove unneeded READ_ONCE() annotation
-bec70f0baa88a3fff492a0e6b829e3d672f65ffd mptcp: do not reschedule the RTX timer for fallback sockets
-57e383285ca7a6f81009b390c47d46de5178b5f1 mptcp: prevent race between disconnect() and rtx
-6219a778d47ad9b6da7a127dde2f7309501d5605 DO-NOT-MERGE: git markup: fixes net
-2e497b6a313764d2b2e276dba75563cf3fab6e4f DO-NOT-MERGE: mptcp: add CI support
-0f5aa2e223ca6885a621c1beeb3ceef139084521 DO-NOT-MERGE: git markup: end common net net-next
-f8da430ac7a1a3dbc9307fcde30880511a2508c8 DO-NOT-MERGE: git markup: fixes net only
-a1ce8ab31d5646159e4d1165cee7b0fc548fa162 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-95e2e8409426bd0eae533bdf35779abc1388093c DO-NOT-MERGE: mptcp: enabled by default (net)
+2eb5653048eb445414da39ebf416af0ffc27d982 DO-NOT-MERGE: git markup: net
+fa2ca49cb55de7acc4d3be6535c98e4b49a8d29f virtio_console: allocate the port_buffer with the caller's gfp
+df50adea57df93bcfe158ab4fcad196be6e6243f DO-NOT-MERGE: git markup: fixes other trees
+e45fc18045fd30c266b942c1200123bc5d6bbe4b mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+009a49dd76605e1adc9271ac2c464f910b25afd9 mptcp: pm: userspace: fix address ID overflow
+690d62b3015adb7a51b0e11c912786204e44be87 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
+e761750a8b1f9b2ac4954ade9683292ab05d40ec mptcp: options: handle MPC data + csum reqd + no csum
+dd7800dcc6f2886b1fa19597348a9fed1454a034 selftests: mptcp: fix an UAF in mptcp_connect.c
+28bffbd0e3202a97b02d6dc187e238dd2e312b14 mptcp: options: fix uninit-value in mptcp_write_data_fin
+ab0c5e815405b11a567b28545993163675cea7a2 selftests: mptcp: lib: dump nstat for the right test
+6db9156509d16ce1885af3b01564bdb50c757fe8 selftests: mptcp: lib: get counters for the right test
+5a36a5ce1538717048e01b89111d7b3eaba89f16 mptcp: syncookies: remember the request backup flag
+4102dde09dcb8300b08989a5781fa4d4b22b2d71 mptcp: subflow: no need to copy thmac during ulp_clone
+6308cc9a5f12f0175da561653bdde564660d9e70 mptcp: being below memory limit is a likely() condition
+71c95b277bb66a8f5074542cb6fc902cbb66856d mptcp: avoid pruning for OoW data
+118dc4fabf5fea12ce70e62b112687c67c36a2c4 mptcp: remove unneeded READ_ONCE() annotation
+1c8ede73cb77f97023c32eda75df41956dfdd4b9 mptcp: do not reschedule the RTX timer for fallback sockets
+5c5ac2034a0757dc84ad1328f8374b0419439f90 mptcp: prevent race between disconnect() and rtx
+f81d21c8a939d844aa67b13ddc13d64b9ed68244 DO-NOT-MERGE: git markup: fixes net
+7e37b95828841ecf4b965d44bc600f3fc051931d DO-NOT-MERGE: mptcp: add CI support
+2b50908e767fc1bc9602a94c6ab947883864a5cf DO-NOT-MERGE: git markup: end common net net-next
+20ad8bca6dbc0e6393cac365da81c795522a501e TopGit-driven merge of branches:
+bbdc44d9c48c4b706f5ac35a89383e134394caaf DO-NOT-MERGE: git markup: net-next
+a609480a76d4f689c8006952682b3bd8f9614814 DO-NOT-MERGE: git markup: fixes net-next
+f50ea268e1a132f18046c9a3cd84b1acb5e38177 mptcp: pm: init and release mptcp_pm_ops
+9428583088204f79dd3838762bf50ef3c467881d mptcp: pm: add get_local_id() interface
+9b9acd4d3e30eac55bfdb8c2a6369ff97b1b63dd mptcp: pm: add get_priority() interface
+937e1e9fb2294e65599da9c8f322979f1791e25c mptcp: support MSG_ERRQUEUE on the parent socket
+d9afdb2277272b6453fe2bcca4a9cc90279ac845 mptcp: sockopt: factor inet_flags propagation into a mask
+6a1815e0b80098c61054531703307195ade9e5d4 mptcp: propagate RECVERR sockopts to subflows
+c6daec6826a9e34b569d562c315614c457f42251 selftests: mptcp: cover IP_RECVERR sockopt propagation
+772b7bf6cb987bf6fe268545eb508017e3afe4ee mptcp: remove thmac from subflow ctx
+993be168e1597f4f17f85059b2daf633799e89d9 DO-NOT-MERGE: git markup: features net-next
+b7255155f85ddf2de27e6767c5de91fa7391afd6 DO-NOT-MERGE: git markup: features net-next-next
+fa26632e01aff68462ad9a5ef1875cead8d58447 bpf: Add mptcp_subflow bpf_iter
+f478cbdc10bb7fd81eb2890a117d5892ed80153e selftests/bpf: More endpoints for endpoint_init
+de0bc6d5186be2dbe7f89f05b79d4643661c94eb selftests/bpf: Drop cgroup_fd of run_mptcpify
+88ee6f25efefff655d7a85252b66bdbd507503bd bpf: Add mptcp packet scheduler struct_ops
+c6bb8bcad2976f9ff9ea9445b041e9c1b4169389 bpf: Export mptcp packet scheduler helpers
+e93fdc17e5083f5c65a81b7f8230e7bf358c09c4 selftests/bpf: Add bpf scheduler test
+87a6f3c20ca73fc7084d8c21705bbd1042c8e7f0 selftests/bpf: Add bpf_first scheduler & test
+e0a812f3161afad9227595a8e3943014f8aa02b6 selftests/bpf: Add bpf_bkup scheduler & test
+93737b8bab5d880b55b6b06bad3ed29f2a082f90 selftests/bpf: Add bpf_rr scheduler & test
+b176280b2b9d908a89013f54aa380f4233d784d4 selftests/bpf: Add bpf_red scheduler & test
+df3391fd0ec0685c924cc045ebd1f6273e9995e0 selftests/bpf: Add bpf_burst scheduler & test
+5edf39c7eabe2ef709a4c0506c9f531ed7f8a6bd DO-NOT-MERGE: git markup: features other trees
+aac0c90165ba4f47888d0d2158add6cba366246b DO-NOT-MERGE: mptcp: improve code coverage for CI
+a576f990d7e1b1ff9a0b81380e18ce0a282d81f6 DO-NOT-MERGE: mptcp: enabled by default
 
---===============2087498960182329136==--
+--===============4898301959800153115==--
