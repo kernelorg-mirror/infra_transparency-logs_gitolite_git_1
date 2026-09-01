@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 01 Sep 2026 23:32:01 -0000
-Message-Id: <178830552191.3378495.13123227516325612324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 01 Sep 2026 23:55:33 -0000
+Message-Id: <178830693399.3395198.2152097622827794354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/testme
-    old: 328181163620df7c4a5de441c84de9c3bf18496c
-    new: 453e7859443446b837d905d6f2983a76c867247d
+  - ref: refs/heads/main
+    old: 1d2929d0850fff683b8aff051275945e65f082c8
+    new: b264d8422779d69febce914efc47a92a85cc382c
     log: |
-         4cfad2657c7c87b1172a9c343b74cf59b3769873 x86/mm/pat: Acquire init_mm write lock on collapse to avoid UAF
-         884801a901bd340c44a202e2ef5c29b48e3a4d93 x86/mm/pat: Acquire init_mm read lock on attribute change to avoid UAF
-         e679ba0983757e9567aeda97cc35c99241d420ee x86/alternative: Exclude text poking against change_page_attr()
-         0e33126d5def407397deaf617559a1a2a7f4b1ae x86/mm/pat: Allocate split page tables as kernel page tables
-         453e7859443446b837d905d6f2983a76c867247d x86/mm/pat: Fix effective RW computation in lookup_address_in_pgd_attr()
+         b264d8422779d69febce914efc47a92a85cc382c s390/ctcm: Prevent XID null dereference
          
