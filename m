@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1593919420446252257=="
+Content-Type: multipart/mixed; boundary="===============2694162391793161977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Sep 2026 22:55:11 -0000
-Message-Id: <178830331167.3349259.6389725177417523363@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 22:55:18 -0000
+Message-Id: <178830331882.3349569.2171331050337991570@gitolite.kernel.org>
 
---===============1593919420446252257==
+--===============2694162391793161977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/100GbE
     old: 1b78070aaef63512688aebfbc82365ef9d6660f1
     new: 1d2929d0850fff683b8aff051275945e65f082c8
     log: revlist-1b78070aaef6-1d2929d0850f.txt
 
---===============1593919420446252257==
+--===============2694162391793161977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ c037915f80c4db47f7d061d68e703ffd551b1a34 mac802154: fix data race and NULL deref
 bc93419130bb70fabf6561e197054caae85c160c net: bonding: annotate lockless writes with WRITE_ONCE()
 1d2929d0850fff683b8aff051275945e65f082c8 net: psp: do not inherit the Rx association on clone
 
---===============1593919420446252257==--
+--===============2694162391793161977==--
