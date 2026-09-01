@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2500992869738250486=="
+Content-Type: multipart/mixed; boundary="===============3985304467749707324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 01 Sep 2026 05:24:37 -0000
-Message-Id: <178824027704.2543100.5865610639389960640@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 05:24:57 -0000
+Message-Id: <178824029723.2543382.13653241630269126370@gitolite.kernel.org>
 
---===============2500992869738250486==
+--===============3985304467749707324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: e67418a64875a237d4cbcce540ec8abfded4b3cc
+    new: 4a0e6473921a08add030ede8db5223b68e638126
+    log: |
+         7e63e1b16a54a753f300073116af3bb8748cdb73 Merge branch into tip/master: 'locking/urgent'
+         4a0e6473921a08add030ede8db5223b68e638126 Merge branch into tip/master: 'x86/urgent'
+         
+  - ref: refs/heads/tip/urgent
     old: 096edb0907978c594df107a1c9a72bd376c8299a
-    new: e67418a64875a237d4cbcce540ec8abfded4b3cc
-    log: revlist-096edb090797-e67418a64875.txt
+    new: 4a0e6473921a08add030ede8db5223b68e638126
+    log: revlist-096edb090797-4a0e6473921a.txt
 
---===============2500992869738250486==
+--===============3985304467749707324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-096edb090797-e67418a64875.txt
+Content-Disposition: attachment; filename=revlist-096edb090797-4a0e6473921a.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -100,7 +107,7 @@ be4f4ab413d15e2b44f6bcda3b607eb707a7712e x86/mm/pat: Acquire init_mm write lock 
 477cf5cd1f698053df7426b7b8d9339e85e00946 x86/mm/pat: Acquire init_mm read lock on attribute change to avoid UAF
 68c90773f40f91f48a557e9fa65e2a72cebc58df Merge remote-tracking branches 'ras/edac-misc', 'ras/edac-drivers' and 'ras/edac-amd-atl' into edac-updates
 786262be6048deab760f68c8acc2c85607165894 Merge tag 'edac_updates_for_v7.3_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-fcecf665723e248e92520e47901f88daf2349107 Merge branch into tip/master: 'x86/urgent'
-e67418a64875a237d4cbcce540ec8abfded4b3cc Merge branch 'linus'
+7e63e1b16a54a753f300073116af3bb8748cdb73 Merge branch into tip/master: 'locking/urgent'
+4a0e6473921a08add030ede8db5223b68e638126 Merge branch into tip/master: 'x86/urgent'
 
---===============2500992869738250486==--
+--===============3985304467749707324==--
