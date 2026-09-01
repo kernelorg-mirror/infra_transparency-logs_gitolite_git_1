@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8272496746286512258=="
+Content-Type: multipart/mixed; boundary="===============2167076629276327940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 01 Sep 2026 22:24:52 -0000
-Message-Id: <178830149244.3323710.3909638651045645291@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 22:30:08 -0000
+Message-Id: <178830180801.3329429.13623516454863350226@gitolite.kernel.org>
 
---===============8272496746286512258==
+--===============2167076629276327940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,56 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/next-fixes
-    old: af5534fe2fbc006e83d75d6283dfc5ec75d5d780
-    new: a6cca7ae7519306341607232d3e5b1391e598df1
-    log: revlist-af5534fe2fbc-a6cca7ae7519.txt
+  - ref: refs/heads/for-next
+    old: f037522c036c041858e59318df577c87e8200ac0
+    new: 1d22ad0e5f50e3fef4c28ecd08e0be36338ae871
+    log: revlist-f037522c036c-1d22ad0e5f50.txt
 
---===============8272496746286512258==
+--===============2167076629276327940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af5534fe2fbc-a6cca7ae7519.txt
+Content-Disposition: attachment; filename=revlist-f037522c036c-1d22ad0e5f50.txt
 
-0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
-f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
-c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-55aa45154fe48b7d8e96bc031ad27d5b0edfcdb8 PCI: vmd: Add Nova Lake (NVL) and Dunlow (DNL) Device IDs
-59e6295fac26b8e85c1ea859cdd89fa1e47519d7 Merge tag 'driver-core-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-028d8df0a1e376c6a87409302d9b6131ea4374f6 KVM: arm64: Avoid mismatched accesses to 'struct kvm_nvhe_init_params'
-d3a1b28ea25d4c1899a05833e1a9bc79d7c642c3 KVM: arm64: vgic: Free gic_kvm_info on initialization failure
-93cfad8da7164b095b2402ec9b2067fa15d6f250 KVM: arm64: vgic: Prevent speculative SPI array underflow
-2962174fdfa63e272082ea7ae989a8fdef29bd0e KVM: arm64: vgic: Reject out-of-range GICv5 PPI IDs
-302f94dc3f8c21c97d5e91a61a8987810803be6f KVM: arm64: Validate GICv5 timer PPIs before claiming ownership
-f18145128354f565f9f7518a2ed816e90099fc40 Merge branch 'kvm-arm64/pmu-7.3' into next
-5279b2f42286a610fb991a0ae45b0661c63a9799 Merge branch 'kvm-arm64/pkvm-7.3' into next
-5f44f603b0daeda535b6d307cd02ef9a24b3b8c5 Merge branch 'kvm-arm64/feat-nv3' into next
-c75d616c082e19d004b1ff9959adf53717b9f9f7 Merge branch 'kvm-arm64/vncr-fixes' into next
-faabe2db712e8310dbe38fb81d33e5313ff0f059 Merge tag 'ata-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-7fa7d4c6038bb4b394478ba1b31a6e8d89ed4f60 Merge tag 'for-7.3/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-4994ef0fe01e0c58a9af187f98a030c35dfb1a93 Merge tag 'iommu-updates-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-50b10bd0c2d721ad38abd1abe3acdefb6caa0944 irqchip/renesas-rzg2l: Fix loss of interrupt
-85e0d1de369cdf827dae8c759f40696de81b7ca7 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-b76eee9c2157223aa4aac42ceebb563288e078aa irqchip/ast2700-intc: Avoid allocating in the irq_domain activate() callback
-98f21c54f99519329c18e2625b0ea6db14524d09 Merge tag 'for-linus-fwctl' of git://git.kernel.org/pub/scm/linux/kernel/git/fwctl/fwctl
-d1f112e2fa9b7f60f5dfa51118a0dad57fd3df88 i2c: busses: drop redundant dev_err_probe() around irq helpers
-cbd043b00ee3f542c115c8809c4d9a67465c07d5 i2c: imx-lpi2c: properly unwind resources on probe failure
-a4c419356a33324bb14f88511b990e2eee6dce56 i2c: imx-lpi2c: reset controller in probe stage
-43eb13f13385a1e7251978a1977ac61b99edef01 i2c: ocores: Disable clock on failed resume
-62edb8ca0aa44517cc23cfa26cd8a51f15ea92fe i2c: mux: demux-pinctrl: fix OF node leak on kstrdup failure
-777979e627115734052b323d2721cdb500e81dcf i2c: mxs: fix DMA channel leak on probe error
-7a79b02dd1b09c235c3cf6075bccca2160d1b826 i2c: rcar: fix reset handling for Gen5
-55ee4b931a7ffedc886175d265dd6e6d08fd4151 Merge tag 'trace-rv-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-3793b558ff3b1cae64a3eddb497ab9e5636bf022 Merge tag 'trace-tools-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-00d66b29a66ce18e417a8436076c629d03186a27 Merge tag 'ftrace-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-2791de535400bc40fd837baa756117434df7895d Merge branch 'kvm-arm64/vtr-patch' into next
-081e5bf2a9d941da60cd70c97c5a704b29e47f7f Merge tag 'trace-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-aa8e5dc6a7a2a1141ab40706a51010adcd0e57d2 Merge branch 'kvm-arm64/misc-7.3' into next
-1484625c5968cad5e26b653d13b4b7a18c07834d Merge tag 'tracefs-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-315d11a89147724528d867268382812913bd2ead dt-bindings: rtc: ti,omap-rtc: Convert to DT schema
-cb8a75eec0877810b50aa1c5a833f929525cd2ee Merge tag 'trace-ringbuffer-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-1190db8edcd91309e64d8212c1ca8b90a4ed732d dt-bindings: rtc: microchip,pic32mzda-rtc: Convert to DT schema
 745ca1b959d9f08cbfd15891aa74ef4e3e847952 dt-bindings: rtc: Convert rtc-cmos binding to YAML
 4d31434fea516f10ccff35db4a21773780f08cee dt-bindings: rtc: Convert TI Palmas RTC to DT schema
 b1407862fb57c6455a04fa5d0d02b58496a38cc9 rtc: pcf2127: remove conditional return with no effect
@@ -1032,6 +993,40 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+a9498e13c18ae1eec2cc8c6771f9b5beb918669c btrfs: free unlinked replace target on initialization failure
+505ab5430f8d6d63d4ca1b11e909054886aa4c98 btrfs: clean up target device if block group marking fails
+7ce223d7c635791ff6a3c792de88bdaf7dc59c1e btrfs: detach failed sprout device from transaction update list
+a4fba7b47261b28e4c85667b9934d99dd3d27143 btrfs: restore active device pointers after failed sprout
+c41a2394a4b3585ab377803ad4235be1ed1c12d2 btrfs: roll back sprout setup after device add failure
+f9926f294e4e1be9b2fe1c236e0a26635a1b189d btrfs: preserve the compression property when other inode flags change
+d2371a77a9927c319d6f2fd4cd7d220e3f536735 btrfs: scrub: report the failing sector's address, not the stripe base
+9ea7e65461415f3f196643ac3450832e38254fb7 btrfs: fix transaction use-after-free in raid stripe insertion
+acebca102d565da8fe7019f25477742ff5840572 btrfs: fix the possible bioc_list memory leak during error
+97601f23c9e1773011f50dad5c3a21cf526065ef btrfs: return proper negative error code for update_raid_extent_item()
+5bc829d680318869748d3bb057e071fd5d01f671 btrfs: send: reject extents for non-regular inodes
+f329482524f0203c5b80734b9cfea00c892e2568 btrfs: zoned: finish active block group cleanup if call_zone_finish() fails
+9b691061ff50f40bc84d8a65fe4f8afdfe91774a btrfs: zoned: propagate do_zone_finish() error in btrfs_zone_finish_endio()
+74c1c2b077dcbafde920208fd7caa01ebb63de1c btrfs: refactor read_key_bytes() to remove the dest_folio parameter
+858225dabaaf156138c1d8844e6c7faf5a3343a9 btrfs: replace btrfs_repair_io_failure() to use bio for page iteration
+0383a8627be185c1b2196fb94c74e1f8d35da189 btrfs: enhance btrfs_data_csum_ok() to use bio for page iteration
+945ecf5d0b4e036962093e8e8b6446970ab8c850 btrfs: use a shared helper to calculate data checksum for a bio
+7e3181b22d5076202228e7ed40b20df865254b26 btrfs: remove on-stack paddrs[] array usage
+d4bc0aa8f91f3960c19107b0410b7383c16534ee btrfs: abort transaction before releasing tree_log_mutex on commit failure
+32dc8bdc9f671f1430e1a245d3850dfa8aa61918 btrfs: skip extent tree lock in the shrinker for inodes without extent maps
+19c4664eea9878103b04f3a815ec1601978644e9 btrfs: send: fix lost error return value in will_overwrite_ref()
+6b7be0cdd9005e384e96c069ac74370f71188aa4 btrfs: do not force reloc root creation during qgroup_account_snapshot()
+e9cedd53613ed1b3e2c7e4a7dd4cb8589fe107e8 btrfs: remove unused variable flags from btrfs_read_qgroup_config()
+550396fee9445a73058b6e16ec76403482cffc1d btrfs: qgroup: use atomic operations for btrfs_fs_info::qgroup_flags
+0a281175c5e872d40584ee967cd1cb4e95e7c056 btrfs: zstd: fix lost wakeup when waiting for a workspace
+6ab428926685fa7b7e8736bbcebf751cc5c87012 btrfs: reject new qgroup rescan during subvolume dropping
+1b6315cfd36511f63d90257d8a81284c3feaa130 btrfs: avoid long stall when dropping a non-shared large subvolume
+605e17087f7a956d2e5d6e15f4a5bd4c063d2dae btrfs: tests: do not touch page cache if root/inode allocation failed
+8cb8a35b93f033fb447cb35ee6280cb70c8e05f5 btrfs: remove runtime tweakable feature sysfs interface
+41ac360da36ffe67433b4fb9425a3b511ddd66d9 btrfs: use ordered extent to grab the logical address for submission
+9b656de457abd2e1a0118ad4dbf7599101b65294 btrfs: tree-checker: reject file extent items for special files
+eafac16f943a54575cebb8de2b528dd22d9b9c92 btrfs: zoned: handle RAID profiles in btrfs_can_activate_zone()
+9620963c1c7976ea93eec4f4eed8286a66ea047d btrfs: set space_info before adding new free space in btrfs_make_block_group()
+b02d4bb555e79505eba80c157d7675a3226c92c9 MAINTAINERS: update Chris Mason's email address
 40fe154ba049a33f063c0058cd185d7f682088f3 btrfs: clean up target device if block group marking fails
 c93b3c43df561cd9f592cee20ae058b563f9e5b6 btrfs: detach failed sprout device from transaction update list
 e0b54613aabeb8e9da597f23b90c6a03d0981986 btrfs: restore active device pointers after failed sprout
@@ -1049,6 +1044,11 @@ ef48a7e3d0cba5ec43a4008bc7a89f90d7c92e76 btrfs: do not force reloc root creation
 90d53632cb5ceebe5237168db17c87f560544c2b btrfs: zstd: fix lost wakeup when waiting for a workspace
 5dc8eaf1f1c01cfe229246e60cf9607ccc5c212a btrfs: tests: do not touch page cache if root/inode allocation failed
 2e2801b5b6652ac153ce45f0c8374e0378499fd6 MAINTAINERS: update Chris Mason's email address
-a6cca7ae7519306341607232d3e5b1391e598df1 Merge branch 'misc-7.3' into next-fixes
+8a6ea9a1d5233156f70fc3e5ed8a7212f6e868c2 btrfs: === misc-next on b-for-next ===
+43a57c3cb6c48d09e6386c0d32853e5d4f6fbf45 Merge branch 'misc-7.3' into for-next-current-v7.2-20260902
+f7a1f6e1c6d5f66aa2b7a41fe0ac9b4963fb5346 Merge branch 'misc-7.3' into for-next-next-v7.3-20260902
+37532ef58cfa4814e6b9781121068f3154a4ae29 Merge branch 'misc-next' into for-next-next-v7.3-20260902
+52c6469a23fb3cd4e9ac5244f2f88163e2ff3db4 Merge branch 'for-next-current-v7.2-20260902' into for-next-20260902
+1d22ad0e5f50e3fef4c28ecd08e0be36338ae871 Merge branch 'for-next-next-v7.3-20260902' into for-next-20260902
 
---===============8272496746286512258==--
+--===============2167076629276327940==--
