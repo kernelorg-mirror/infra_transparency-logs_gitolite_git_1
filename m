@@ -1,34 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Tue, 01 Sep 2026 12:03:53 -0000
-Message-Id: <178826423376.2828653.10703125496022345350@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5080860034453603362=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 01 Sep 2026 12:18:06 -0000
+Message-Id: <178826508675.2838531.16512525575317766034@gitolite.kernel.org>
+
+--===============5080860034453603362==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/v7.2
+  - ref: refs/heads/work.idmap.const
     old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
+    new: 76e6b69864c57b8b9af97c303c87473c2d21d925
+
+--===============5080860034453603362==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1788265084 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1788265083-bb9f9bee42dfe6b4ff16debd736350b9339be2a7
+
+0000000000000000000000000000000000000000 76e6b69864c57b8b9af97c303c87473c2d21d925 refs/heads/work.idmap.const
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapbCfAAKCRCRxhvAZXjc
+olX7AP94Tmb7P3lsYo/BeJ6qZDOiYQx5kq88vGx7yvL6Loo5gAD+JctNwXgvv0MB
+1ztzdn43fQW2pHfKK50mJDcMspL+cgo=
+=T81j
+-----END PGP SIGNATURE-----
+
+--===============5080860034453603362==--
