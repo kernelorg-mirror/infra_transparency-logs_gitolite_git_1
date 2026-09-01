@@ -1,24 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Tue, 01 Sep 2026 19:59:36 -0000
-Message-Id: <178829277632.3216968.17191855968005970287@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8688718847957810855=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 01 Sep 2026 20:04:21 -0000
+Message-Id: <178829306130.3220670.12439634893595288958@gitolite.kernel.org>
+
+--===============8688718847957810855==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/b4/ux500-dts-ab8500-regulators
-    old: 5f5424acbad428e57bd3b19e3a1847621d4e034b
-    new: fa0d6345486c682bc5914524e78320a54b63eacf
-    log: |
-         c6da5a27276b20d1c5e85a977aff19867f0e17ab dt-bindings: mfd: ab8500: Add regulators
-         d26c1dc0b6659e78420790464d6785f04647c2de regulator: ab8500: Add buck converter support
-         a9eb499b6e73fb69d38222430ba95e6959835939 regulator: ab8500: Preserve OTP-enabled buck regulators
-         261f2bffbdebbc85afc9442ce1e44201f4001b3a regulator: ab8500: Use scoped guard for shared mode mutex
-         86a05a2a35d71a8159509706db271dc9d69fa8f8 ARM: dts: ux500: Add new AB8500/AB8505 regulators
-         fa0d6345486c682bc5914524e78320a54b63eacf ARM: dts: ux500: Fix up regulator assignments
-         
+  - ref: refs/heads/main
+    old: 1b78070aaef63512688aebfbc82365ef9d6660f1
+    new: c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49
+    log: revlist-1b78070aaef6-c8ea08ba34f2.txt
+
+--===============8688718847957810855==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b78070aaef6-c8ea08ba34f2.txt
+
+b6d201d9714531df2b0194ec7f4a4bcee0a89238 net: phy: split phy_probe() error paths
+f558204abcb905adc492f74a9536c794b9371a23 net: phy: unregister SFP upstream before port cleanup
+52dd7eb1a33e51f781e882cfed01de6412613fbc net: phy: set PHY_READY after LED setup
+afd5aecd3c0721a04609992a37904b925e2097f6 net: phy: call driver remove when core initialization fails
+48378efebbe7bf7a2533bc59a7acb94fcf46021e net: phy: propagate errors from default port setup
+f7f619ecda5761bd48578764ef5ff9e8fd97b916 net: phy: avoid double-free after LED trigger registration failure
+1bb784eb6e38fd73143f021608e4ef3095d0c0d7 Merge branch 'net-phy-fix-cleanup-after-probe-failure'
+25c1f6111034aef7fc06cfbdcf1e4f0d6e5ee74b net: stmmac: stop DMA before freeing descriptors on open
+85ca3292d7a3e06a6cdc3d7aca7b498f5a4e0ec9 net: stmmac: Remove ARP offload code
+5e63ade190446c6d0ce60830ecf0553c7a1761b0 netlink: specs: rt-link: update ipv6 devconf doc
+2b0aecb7b2b1d8333a122d135c948f714cbc0fac netlink: specs: rt-link: add accept-ra-min-lft
+f952040d7016d13a0b0f19dfa0001f4597cc47d1 netlink: specs: rt-link: add force-forwarding
+c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49 Merge branch 'netlink-specs-rt-link-ipv6-devconf-updates'
+
+--===============8688718847957810855==--
