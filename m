@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 01 Sep 2026 05:29:53 -0000
-Message-Id: <178824059380.2547459.11366309201528940744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ksinyuk/release-harness
+Date: Tue, 01 Sep 2026 05:46:09 -0000
+Message-Id: <178824156940.2560201.10503123766689993178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/ksinyuk/release-harness
+user: ksinyuk
 changes:
-  - ref: refs/tags/mm-everything-2026-09-01-05-25
-    old: 0000000000000000000000000000000000000000
-    new: 887fd62bca477568d7ebb72d744e1b6806a24544
-  - ref: refs/tags/mm-everything-2026-09-01-05-28
-    old: 0000000000000000000000000000000000000000
-    new: 1453ed82b7befbd5d62cb6730942cd94b6184c19
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
+  - ref: refs/heads/main
+    old: e1abd70309b767b3ede0e7ffa00bf0523e449142
+    new: 8a32d13b9ec49ce2eba32ec5f70c0d93f8f8f60f
+    log: |
+         19f85fda985cd84c698f37119ab90a2b7872a639 docs: license, README, and design notes
+         0dc8e04c4304ef906dc92b1a5faf6f0e8d6e9929 container: pinned toolchain image for sparse, smatch, and friends
+         282657744f88dd46f9556ecc0eab8ca028b9ffee comment-audit: comment-quality analyser and its calibration corpus
+         6976c01eb338699db3a9927156cdb69c279bc5cd ref: reference configuration for the drm-fabric-next series
+         93032924ce3d4705c67e6753ca7f095035a2c55b gates: policy-driven check engine and tier driver
+         8a32d13b9ec49ce2eba32ec5f70c0d93f8f8f60f fixtures: acceptance tests for every gate
+         
