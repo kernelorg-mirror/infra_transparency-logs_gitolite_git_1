@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Tue, 01 Sep 2026 00:13:23 -0000
-Message-Id: <178822160344.2233232.3124838985018134535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ksinyuk/release-harness
+Date: Tue, 01 Sep 2026 00:17:22 -0000
+Message-Id: <178822184225.2236616.2245001027168322326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/ksinyuk/release-harness
+user: ksinyuk
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 7c1bcd3f127f3ba1a35faa15374222b6062c9712
-    log: |
-         f9f31f5f13b5e5459e2d3322fe6b5e19d511919a kconfig: error out for recursive range
-         72c442e5bad35552d902312402121682f05220ac scripts/mkcompile_h: Update LINUX_COMPILE_HOST command substitution syntax
-         ba0e6a6f0fe7a8ea2a35603cdf85e39d9239d492 setlocalversion: make tag local to try_tag()
-         7c1bcd3f127f3ba1a35faa15374222b6062c9712 kbuild: use prefix-map for host and user progs
-         
+  - ref: refs/heads/main
+    old: 0000000000000000000000000000000000000000
+    new: e1abd70309b767b3ede0e7ffa00bf0523e449142
