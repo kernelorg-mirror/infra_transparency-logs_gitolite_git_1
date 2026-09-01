@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7360797406901704824=="
+Content-Type: multipart/mixed; boundary="===============4798334930245723180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 01 Sep 2026 14:27:21 -0000
-Message-Id: <178827284179.2940505.17820101409264407949@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 14:27:52 -0000
+Message-Id: <178827287220.2940883.13115008188133514655@gitolite.kernel.org>
 
---===============7360797406901704824==
+--===============4798334930245723180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,58 +17,50 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 84b002612b900352eb90e71842c8e1e11f078b81
-    new: 20abb757631caed9b76e58b19cb37ecd999586c3
-    log: revlist-84b002612b90-20abb757631c.txt
+    old: 20abb757631caed9b76e58b19cb37ecd999586c3
+    new: 814b6ba12b8f8f8af0431f26971dd04b3fd16605
+    log: |
+         63dbfd46c96a6060675672913a951c1776780131 usb: cdns3: Remove redundant dev_err()
+         bdda54d76a6ec1d7ed1765f32b26ad356057574e usb: common: usb-conn-gpio: Remove redundant dev_err()
+         a5419bee83db523750beea78ca87d8a7d42bc4c8 usb: dwc2: gadget: Remove redundant dev_err()
+         fc113df71893eedede26bdcca147833cd34c5c56 usb: dwc3: Remove redundant dev_err()/dev_err_probe()
+         c936c57e74a1bd6870c4e57d4545ca1a989999d7 usb: gadget: Remove redundant dev_err()
+         fd5f88c85cfbc500ab48fb5c74777bfc178f4394 usb: host: xhci-tegra: Remove redundant dev_err()
+         a353d0e69f4b87cf86538f86d9e0110daf979f36 usb: misc: Remove redundant dev_err()/dev_err_probe()
+         de7cde2007e2a08ca5072ee0bbe9fd74dc1162fe usb: mtu3: Remove redundant dev_err()
+         e2f3a3936e5f9cf6173cdd717d676159893ef84c usb: phy: Remove redundant dev_err()/dev_err_probe()
+         bafbedf0ea2690cfdcd5973093cfccc044ee35e3 usb: renesas_usbhs: Remove redundant dev_err()
+         814b6ba12b8f8f8af0431f26971dd04b3fd16605 usb: typec: Remove redundant dev_err()/dev_err_probe()
+         
 
---===============7360797406901704824==
+--===============4798334930245723180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788272838 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788272868 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1788272839-8bdbf2832f8264be59cfb8ffed51fedf6ecfd64b
+nonce 1788272869-50b37649a973f6333a25c50f819309b5248f72a8
 
-84b002612b900352eb90e71842c8e1e11f078b81 20abb757631caed9b76e58b19cb37ecd999586c3 refs/heads/usb-testing
+20abb757631caed9b76e58b19cb37ecd999586c3 814b6ba12b8f8f8af0431f26971dd04b3fd16605 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqW4MYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k7gP/0eQagBEoelcF82xsbRj
-QGfWILt/JuKuBqe9g5wKfHAtzG0Htu05haCnQByNe5Mq0e4+9mPAvK36CrYIDF4s
-rzIWxdcahMuu7xARFLpnJYarsWXh5mxuFIrv584dhSrkkD0pWnjT8bk2UQRTjEFi
-h4PjjA717m/0Oce7LxTcQC0Bek0Df5sHUBdrQ2fdLmWYlVMyZnuTu9/dC68xFGNF
-xTiokqBKU60dORkDzTKh/aihAFmji6Sn91waAC3Xa/CXKdqkxyoFLvDbuQOrH+8K
-82rUPpOHNw2Fl2efLejlK0WW/kWp+oGTaCdqgFCprvJ1+6iiVOXuT8ib/kXFsuur
-7cO2VZHy/SisSnstiIJV6H1L3qOTlBz+vkO1t5Wv4kziK8dV2ShH1T77ZmesdJPY
-EpVQBrTNWaIhL9eNFcIw4rHAfdZzs/M0kGTPpXHnqqfjy3z9VGJvwmrIJwyc3fBD
-LI5yh2EkE0mSYlmRWpkttl76Oi6+FDg10eGXdYaAWY41K6OXDuBgXZSj4CLqhhOT
-JJ1iUO+P4/LwCMjnIE3j4xBKjl5g9J/fqSQT0UhHkjOHuarj9KKv4Y1fwkHpzyE6
-WZJs7MUqKQUXVijYbCKpgvryKnCG2MOg5bxfIQA+4B1gY7HdzRRxkNTr5rSF2B0J
-YnkQNxXfH8mCThdnQBvt7IXY
-=UkWT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqW4OQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yTsP/3q6/trv96PnhLCesoyR
+XSz/ADwwdmoeANdG3LAlyAWFgSBvzt2UOyBE7G7bg066UjlJMH87ajHH+janzcrb
+xkLj2w16fyn5egfwHKZDqM3tTfDpYjMMuwXl2cc5i1aztF4D7oxuRm1lAgD3DBba
+uDXeLcIrNw5SohH7gWLjZAAm32ydJ3b6NRxb+BaEZObq8wFlBYoFgvmjeRO0A8a6
+dhLOBLkNcJMm4Lg7VZtcGydLKtPSUFy7TgjVZ6RRAFLBIZMskRk4CqYidDlhkUj+
+fwh5qqCrHSyMEai5Q9XU0TiGSBgJexMp+pugi40KD6hU7S/29NExeTKWe0QW2MFd
+32sCHdC9ZCrpDPmP45KqNcHuDynrir+CusBKI3ruTD4ptWQBzDqfS3dxfsD6gCWU
+8/sb2kktkcwy0tq2LyXyDYJy1H9sJNl5ZP+VGOCfWgZgKJWeTFDIkdv8ld7SItVq
+aIERMdFJa0hzKksgTXCAwQOavQ16zKHDyZeL+RNSLAWbDLban62C6Bg1WrU/jHXZ
+xAwDYjmrcRGyHAsQVWXqFkdvHDP0zkXp1Uux09qiH5y0+uInT1Z+P/wa+c0mk3cq
+cAfCiuBI9Q8JMy1CBjzoDcxUtgJY4MqKU4xQz2i/MPn/mZQN1+uAozlB1IxGPq/E
+w4V1bYZ2c/gCdQD4xyVv3ovM
+=Yzi6
 -----END PGP SIGNATURE-----
 
---===============7360797406901704824==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84b002612b90-20abb757631c.txt
-
-be7b1c68cd3e4fc0f5a4e1b85696de1052f21f2f usb: dwc3: qcom: Add support to skip phy management by USB core
-5208e5c6819a61734a8c439cf964c9991e86fba0 usb: dwc3: simplify dwc3_lsp_write()
-4f87adc46ec384434304abc6b44ab628dc92896e dt-bindings: usb: qcom,snps-dwc3: document the MSM8974 controller
-335f9c105c4daf73050fea19ed74d7b9974ed869 dt-bindings: usb: generic-ehci: Document ST STM32MP1 SoC compatibles
-5174bfcdf7759b64cb39d30411f3709cc0134797 ARM: dts: stm32: Use STM32MP13xx compatible string for EHCI USB controller
-4d450e2a367bc744d4c0782baf19388b90b93398 ARM: dts: stm32: Use STM32MP15xx compatible string for EHCI USB controller
-851a5a4699851ee5f6902810c892ecedb63a767a dt-bindings: usb: generic-ohci: Document ST STM32MP1 SoC compatibles
-202b03757cca3d02843c62298ed5b442168cf682 ARM: dts: stm32: Use STM32MP13xx compatible string for OHCI USB controller
-4b211420c0416d53c924b51967cf655a33e5a91e ARM: dts: stm32: Use STM32MP15xx compatible string for OHCI USB controller
-930be0e71f6106a3ef170dd79b153936a2d8083c dt-bindings: usb: generic-ohci: Document ST STM32MP2 SoC compatibles
-d27192623fda5b76e707ec02fc6ac8214494e30b dt-bindings: usb: generic-ehci: Document ST STM32MP2 SoC compatibles
-e6c3dafe94138999f15a814d5d1978fc904a0619 arm64: dts: st: Add USB nodes on stm32mp231
-20abb757631caed9b76e58b19cb37ecd999586c3 arm64: dts: st: Add USB nodes on stm32mp251
-
---===============7360797406901704824==--
+--===============4798334930245723180==--
