@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 01 Sep 2026 06:41:29 -0000
-Message-Id: <178824488964.2600064.13289111174748976950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 01 Sep 2026 06:42:17 -0000
+Message-Id: <178824493717.2600829.3193924202715637238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: d492539fe7be6fc4a09b651921ae1a7e50117d2e
-    new: 8aa0a037e0e56e436abfcb0b4f6cb0f8eaff4e9f
+  - ref: refs/heads/master
+    old: c3a6c6693b7a1bf39623361275d7d9078b12edfd
+    new: c60fd44a01b61e78d946a881763e9c7c74949e24
     log: |
-         8aa0a037e0e56e436abfcb0b4f6cb0f8eaff4e9f Docs/mm/damon/design: clarify bp is basis point
+         c60fd44a01b61e78d946a881763e9c7c74949e24 patches/next: add bp clarification
          
