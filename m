@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 01 Sep 2026 10:24:20 -0000
-Message-Id: <178825826024.2759874.16479401245142071881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 01 Sep 2026 10:28:04 -0000
+Message-Id: <178825848453.2763287.17353083163358342514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 11d8ab74bb29dffe248978a6acc5b3e98091eef5
-    new: bf0d7882cd43d6b155d93e482893f685d6f08b89
+  - ref: refs/heads/main
+    old: c037915f80c4db47f7d061d68e703ffd551b1a34
+    new: bc93419130bb70fabf6561e197054caae85c160c
     log: |
-         c00a43cde446edd7c4efcea2278fa692ecbfa7a8 keys: fix lost wakeup when reaping a dead key type
-         bf0d7882cd43d6b155d93e482893f685d6f08b89 keys: translate request_key_auth pid for the reading procfs instance
+         bc93419130bb70fabf6561e197054caae85c160c net: bonding: annotate lockless writes with WRITE_ONCE()
          
