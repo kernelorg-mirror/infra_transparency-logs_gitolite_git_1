@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 01 Sep 2026 03:07:27 -0000
-Message-Id: <178823204781.2450085.15545766094337175556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 01 Sep 2026 03:08:39 -0000
+Message-Id: <178823211972.2450606.15506011414995394173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/edac_updates_for_v7.3_rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0bc4ede9c35bb0f359e242c55df72baafd121fe1
+  - ref: refs/heads/main
+    old: 81c600c26302a27852ed8b19c5f2f647ea3555c9
+    new: 975b5b067f525a1b1338c4a3bee1c46545801518
+    log: |
+         975b5b067f525a1b1338c4a3bee1c46545801518 ipv6: sr: restore network header before routing and forwarding
+         
