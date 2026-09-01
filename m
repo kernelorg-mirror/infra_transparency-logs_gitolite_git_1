@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3116292832695356908=="
+Content-Type: multipart/mixed; boundary="===============1560015965127987653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Tue, 01 Sep 2026 08:47:42 -0000
-Message-Id: <178825246256.2686891.6320637318135136741@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 08:48:05 -0000
+Message-Id: <178825248539.2687223.16730339449520268379@gitolite.kernel.org>
 
---===============3116292832695356908==
+--===============1560015965127987653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/spacemit/linux
 user: dlan
 changes:
-  - ref: refs/heads/fixes
-    old: eb525edd48907795c0d4e498ff57ad168070b289
+  - ref: refs/heads/for-next
+    old: 3fca3cbc0516b839733a92be712aa34132249a93
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-eb525edd4890-cee9395acd80.txt
+    log: revlist-3fca3cbc0516-cee9395acd80.txt
 
---===============3116292832695356908==
+--===============1560015965127987653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb525edd4890-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-3fca3cbc0516-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============3116292832695356908==--
+--===============1560015965127987653==--
