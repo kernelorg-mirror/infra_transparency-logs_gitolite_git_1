@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 01 Sep 2026 13:12:29 -0000
-Message-Id: <178826834902.2878838.2154559609248218543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 01 Sep 2026 13:14:03 -0000
+Message-Id: <178826844364.2879679.15530908709819292246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 769001ce838d907ecaa95f1d0a4e8fc86f761f9f
-    new: 1caceeb2d74bbe88223aea55eb8626b4c5f076fd
+  - ref: refs/heads/main
+    old: bc93419130bb70fabf6561e197054caae85c160c
+    new: 1d2929d0850fff683b8aff051275945e65f082c8
     log: |
-         1caceeb2d74bbe88223aea55eb8626b4c5f076fd RDMA/rxe: insert mcg into mcg_tree only after rxe_mcast_add() succeeds
+         1d2929d0850fff683b8aff051275945e65f082c8 net: psp: do not inherit the Rx association on clone
          
