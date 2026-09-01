@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7523985576287456567=="
+Content-Type: multipart/mixed; boundary="===============0135621416926963942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 01 Sep 2026 14:32:44 -0000
-Message-Id: <178827316419.2945785.4266371943490718427@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 14:35:18 -0000
+Message-Id: <178827331851.2948804.4023143423150350891@gitolite.kernel.org>
 
---===============7523985576287456567==
+--===============0135621416926963942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: cd3b9cea675bbfebc223f007dc2f4e79524fa54c
-    new: b58e6200450d350314db0ecda7d6d1bde3281e80
+    old: b58e6200450d350314db0ecda7d6d1bde3281e80
+    new: c9a48db776d7184981630ecc01a3ad30a8f7dc24
     log: |
-         2430eb81e44111b30eeb5273bbcf8b24ca517ef9 usb: image: mdc800: change kmalloc() to kzalloc()
-         dea99705bc8fcda12590cfeeae6d2ba47a7ef572 usb: typec: mux: Fix typec_switch_match()
-         d50b6442bef66abbe4694f918f8ad013f81d75cf usb: typec: mux: avoid duplicated mux switches
-         6b2a674fcc953378e5e750d47a888bbe51229de5 usb: dwc3: google: Initialise probe properties with DWC3_DEFAULT_PROPERTIES
-         b58e6200450d350314db0ecda7d6d1bde3281e80 usb: dwc3: clear forceRM when issuing EndTransfer
+         c9a48db776d7184981630ecc01a3ad30a8f7dc24 usb: typec: hd3ss3220: track VBUS enable state per consumer
          
 
---===============7523985576287456567==
+--===============0135621416926963942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788273160 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788273315 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1788273161-cb5ace0ee4ac50ec9577d8f99224d76c412d519d
+nonce 1788273316-d8ca49e91371ac624bb7191d0cdf0119385e9a41
 
-cd3b9cea675bbfebc223f007dc2f4e79524fa54c b58e6200450d350314db0ecda7d6d1bde3281e80 refs/heads/usb-linus
+b58e6200450d350314db0ecda7d6d1bde3281e80 c9a48db776d7184981630ecc01a3ad30a8f7dc24 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqW4ggbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WTIP/RIO/S4jYMh+Q7PSB8bd
-JTIAyLNuqOLeXZh/5D+Ah+/3/0GU242j0Bbr7nB0Tf1CATC8qhi0gyaBxK41W05B
-aEDeD6qsZWZ1b8U1hh9fnok3SeK8yapLIfacHhRiP8Unqcx8QqyfZ9jNKdT5Ga+/
-WKnV66HEf6B3Jcmbea1xA8eMR3HaRvqHP1HKvY4pkgLE0A2BNvtxw3oHA2sZpOcZ
-t80+iAxh4bnx6wNk6dmLukGCptn3nQErPruq6wwAr8AyCoyg5YKawbJztJsWUrsO
-K6AqJLPALWXpW9G12cLmM0pI+tIsFEqg8+9dfGQBb1wFsQxdPKq2wYty8gQgN6qP
-VKXQMcRggBwaA5d5CMr8VEjy+ZAwIvoYJYIe1dKAWdmcOjB5aDOxri0MAeOKZQGR
-CrhMFKZNMxjBkTjSlk+LPbTaAad01m3O+4J9x8/rDAk106ridNwBw6+OZoMhNDuu
-NcI3/Le8Pv2JjWTy8IbFxK0904xxM74luWJBN8MwFVXoT5XC0gv5RHy1RaQumbjU
-fOVujWTCycMKJ5zUkOn2UJjgbxABsEQl+lhQLBQROprfhgoc9eDWRbILiSP4kZJD
-Se1Gm4piMvRRGayUApPn43An4fNfoa6R5zwVwX85QTd0Vake9hVuIr2EaUBinJUv
-qGmLzA0QuyMrIC+CQDqsS/IM
-=zS21
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqW4qMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nGQP/09Op1G8X5HVQeUwOj4J
+1mXKPulFfKS7VtS/qI86PJpTVE44HS/OIhhM+XvtLpekGFhbjv7RZhOo7yokw4ha
++DK9QtbOicMbnJYzXtCTcUMOeQLAUiQBL5GTxmF++IeGbrvIXz3/XiIdx51xtKO8
+37y0I4pfqf340IdYFYiKLU0NYNywplsk2PT7hBdmv+rpVNpLKm/x0z/eam86Oto8
+NZNhhZtg+7yhuo6C6EVrqSA5VC/VCtx0U17R2v2an2ZGL8k0JnLufi1q5XmsLoTU
+j8UFz5RRnO5X+UqJAAvABsGGyvcI1bedzAnHKcBL/vAj4CeDzJB55uhmCkLnDfAR
+74uagd0HM935l1S0qWoB2X+1FWyOVofHTAV9WOeAwc6KFD5v25YbogBV1+nFsk3q
+ug++NnAS50VpE2c9TfCT7ZILpvbdGlETu4TEnFWhDh5VQMuDnHDnKLHfnGyMrQnt
+x4tlH/KOKtOLjCfzF2F6AWOUQUIS3Sjmn/llJCmXPeIEM25Vdf/pukVIr7OK86VL
+V+Mn76pThMXtqoa3LPn6Ku64Ccru7mW/AGyNYLAAju0RAHnk66k0hPQNFLaJbaW/
+mOTGSlHsyOygJynvzncp4I+vEqNy+OE7s0bV6HgxzwCdkEyy7u6I741ukJiUfVKQ
+JwRhxlAxTNoUrOSNrFSh8Qup
+=406M
 -----END PGP SIGNATURE-----
 
---===============7523985576287456567==--
+--===============0135621416926963942==--
