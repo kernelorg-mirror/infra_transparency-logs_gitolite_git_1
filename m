@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8732723568453257362=="
+Content-Type: multipart/mixed; boundary="===============6174886991830098127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 01 Sep 2026 09:36:46 -0000
-Message-Id: <178825540677.2722437.5298087234372799224@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 09:45:33 -0000
+Message-Id: <178825593382.2728726.10228922862315600733@gitolite.kernel.org>
 
---===============8732723568453257362==
+--===============6174886991830098127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: e8716b60532661709cc97db0518257bceb11ae94
+    old: e8716b60532661709cc97db0518257bceb11ae94
+    new: 2a371584385b97cb9772f76a3b18c663911b93b5
     log: |
-         9d8d6a3ac7d8ec8c4fb1fca0f22ef8016b0efd6b staging: sm750fb: fix kernel-doc comments in sm750_accel.h
-         50e29941dcced12bd4c832eb27e1e5cfec88fb6a staging: sm750fb/sm750.c: mark g_def_fbmode as const pointer
-         ac16d60fa171b583e5ab27fc95f43152c1cd798e staging: sm750: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
-         e8716b60532661709cc97db0518257bceb11ae94 staging: sm750fb: fix typo in comment
+         2a371584385b97cb9772f76a3b18c663911b93b5 staging: rtl8723bs: rename mBratesOS to avoid CamelCase
          
 
---===============8732723568453257362==
+--===============6174886991830098127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788255403 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788255930 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1788255404-b10ae640a34c5f16ab28975f9c85dfd8bea52950
+nonce 1788255931-ca8511a65bd4dbaba4a03fdb1d8c11cdf73d1ded
 
-cee9395acd8043be0644b25c34bfa86623f2b935 e8716b60532661709cc97db0518257bceb11ae94 refs/heads/staging-testing
+e8716b60532661709cc97db0518257bceb11ae94 2a371584385b97cb9772f76a3b18c663911b93b5 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqWnKsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n5gP/jw8UI+G64kQcPO06CeW
-vwC7ft06M7sUGlLqFoqmDLMytTCZyKUsZfDVzQ4Jb1oEnYUvFBkQCVPx1Gwewpgi
-7ZKpm2m5coFB/Z1AQ39btrOnbDvQ7rgs8WCHSN20mEmOJ0gYhwQpd/yxQm0CZn1M
-HQ4lQHWNfQJQjscU2ihrTSj7yeHznnDW3xYWdKoBj4fOCh9ktIwk4/+anSHLqJHe
-3Sq2bzuq+4s97u3nLMGIhUD6sIawGxGlTWGKmNE7ZKdIDuKG/IHfX3rbqmOFzFXe
-DqshrDyZnQlIn8o8aohgGoztZElM3OyA+ektcfbXwoa5eZ/Bfe7Y8nBRepiFhCHe
-+KFsEEF/kn0I0mToUnYfIpZfB5maYLvzwaLPM1TpLagNTV++hX9GcfSe0p5QQTOo
-uetBagLvGkJIP4OCMMHpRxH4hnBNRel7SrMjSMM6kxQVYvHDR93N3LcVDR0/mWjS
-f8EgTphFUJHCdS47Ss+SnGQsWbtZIOvG2ixCjdt9chu9vtPqSUNcGhmK5Ojx9RQm
-YGCJhksQEuwJrCBwyb+GxDXoxJpD/2k94T3J+bAwdVVQzAgmphb6otZmZsZMw5OJ
-aRxDcjSvSPWZ2gMAh7pZADrj//lZFALmqrPj3wm18Cao9dzjC+uy+Etorocq8H2h
-T1Q8lpqh/KSI+5GbVAHMG/Qc
-=H8AA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqWnrobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+npMQALFgtudT5Ugo/FC11x5M
+BWtU005ofczhTj83fVT6EuT+M2obzGhAulBr5NQkya3fi6Gv3VsJfJ8gpMI0Ecqt
+F0THExjo4VxgVqC6zlEzNkvU4qv3dPwlZrMLdbGGUzDjSIKB/8QBplupwzDhG5zC
+tGEB0dbvvINqI3hhLpJ61f9KtXecltIiueZG4fm2BdoD8fB7yxQp3cPsGKMUBmlW
+MymAtiX0L3wFL3btcoXOVhAlFBrvCWJ9P9KYTwy29h/e7rzVVNIjcUCk/4B8OGIb
+Ku0quddG/cLC1xeEH2lLpRvxn4cROjAyvtfS+jugCJQHz9ohQMUWPNDiwMP0n0fb
+ob08gDoKm8Ojx5yrK9M331BYa9g4nB1x0Wc8EiMOUX+u5FqeaFW3xIjkYTnyTSsv
+CuTO0TO1nA4sx1x8g6Q+48hvF1Xq+Z/xzQ/ePb9qPdGoDY3kmdx91uqoqSDyUFPW
+D90uxJdwv8wCpESU7CxsB41gsTGI9p+q8SLGAPAkv9DxphV9Ta+FASXdaQNQX+0B
+YlwEElUGz9x4BnkAdOrXJXdMnzZglz7khTVHOgpETJa/195G/279KKv/LzMYGZzl
+Ws4pQ5Dm/+YKQsIQEjdXXETtYkuFd00lRosq+ecCyfdtZFJkE1lnOVGc1icd7ryV
+o3uo/PhrrMvzpAS3dtvW9Tar
+=rZZI
 -----END PGP SIGNATURE-----
 
---===============8732723568453257362==--
+--===============6174886991830098127==--
