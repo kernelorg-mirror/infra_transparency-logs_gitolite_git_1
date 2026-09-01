@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1146685602882643689=="
+Content-Type: multipart/mixed; boundary="===============0702730691648361711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Tue, 01 Sep 2026 15:16:15 -0000
-Message-Id: <178827577529.2981961.14786840611295798147@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 15:17:05 -0000
+Message-Id: <178827582552.2982412.15670329105962641317@gitolite.kernel.org>
 
---===============1146685602882643689==
+--===============0702730691648361711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+  - ref: refs/heads/modules-fixes
+    old: 0e9f090a4e9bfae5a190ccf89eab3bf14f6b0f96
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-8cdeaa50eae8-cee9395acd80.txt
+    log: revlist-0e9f090a4e9b-cee9395acd80.txt
 
---===============1146685602882643689==
+--===============0702730691648361711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cdeaa50eae8-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-0e9f090a4e9b-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============1146685602882643689==--
+--===============0702730691648361711==--
