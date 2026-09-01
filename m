@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0135621416926963942=="
+Content-Type: multipart/mixed; boundary="===============3287863333907566709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 01 Sep 2026 14:35:18 -0000
-Message-Id: <178827331851.2948804.4023143423150350891@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 14:35:37 -0000
+Message-Id: <178827333784.2949318.4538524298679712194@gitolite.kernel.org>
 
---===============0135621416926963942==
+--===============3287863333907566709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: b58e6200450d350314db0ecda7d6d1bde3281e80
-    new: c9a48db776d7184981630ecc01a3ad30a8f7dc24
+  - ref: refs/heads/usb-testing
+    old: 814b6ba12b8f8f8af0431f26971dd04b3fd16605
+    new: edc1518454f6439e50a9220e9a3ba09044ea8d8b
     log: |
-         c9a48db776d7184981630ecc01a3ad30a8f7dc24 usb: typec: hd3ss3220: track VBUS enable state per consumer
+         e0de3d952dab7807de15c0b3a58af52edcd23ba0 dt-bindings: usb: ti,hd3ss3220: Add support for supply regulators
+         edc1518454f6439e50a9220e9a3ba09044ea8d8b usb: typec: hd3ss3220: Add support for supply regulators
          
 
---===============0135621416926963942==
+--===============3287863333907566709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788273315 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788273334 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1788273316-d8ca49e91371ac624bb7191d0cdf0119385e9a41
+nonce 1788273335-0ad5a63846557f7258829be1c1e5a3d88cacb047
 
-b58e6200450d350314db0ecda7d6d1bde3281e80 c9a48db776d7184981630ecc01a3ad30a8f7dc24 refs/heads/usb-linus
+814b6ba12b8f8f8af0431f26971dd04b3fd16605 edc1518454f6439e50a9220e9a3ba09044ea8d8b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqW4qMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nGQP/09Op1G8X5HVQeUwOj4J
-1mXKPulFfKS7VtS/qI86PJpTVE44HS/OIhhM+XvtLpekGFhbjv7RZhOo7yokw4ha
-+DK9QtbOicMbnJYzXtCTcUMOeQLAUiQBL5GTxmF++IeGbrvIXz3/XiIdx51xtKO8
-37y0I4pfqf340IdYFYiKLU0NYNywplsk2PT7hBdmv+rpVNpLKm/x0z/eam86Oto8
-NZNhhZtg+7yhuo6C6EVrqSA5VC/VCtx0U17R2v2an2ZGL8k0JnLufi1q5XmsLoTU
-j8UFz5RRnO5X+UqJAAvABsGGyvcI1bedzAnHKcBL/vAj4CeDzJB55uhmCkLnDfAR
-74uagd0HM935l1S0qWoB2X+1FWyOVofHTAV9WOeAwc6KFD5v25YbogBV1+nFsk3q
-ug++NnAS50VpE2c9TfCT7ZILpvbdGlETu4TEnFWhDh5VQMuDnHDnKLHfnGyMrQnt
-x4tlH/KOKtOLjCfzF2F6AWOUQUIS3Sjmn/llJCmXPeIEM25Vdf/pukVIr7OK86VL
-V+Mn76pThMXtqoa3LPn6Ku64Ccru7mW/AGyNYLAAju0RAHnk66k0hPQNFLaJbaW/
-mOTGSlHsyOygJynvzncp4I+vEqNy+OE7s0bV6HgxzwCdkEyy7u6I741ukJiUfVKQ
-JwRhxlAxTNoUrOSNrFSh8Qup
-=406M
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqW4rYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f+MQAMgnhVFu3WN8e+2v4kNJ
+IZWPzzBKspH389khMi1RnkRN+OlYuTvC0nNqHjrta9ekE9p+rdIkyp8QtJEnhsB/
+YER4TKkJOBWDmFzs4u6JbSFMUKRXNc91Vz1A7z2m/IVgy9MMQglphC5T4OP0r4dh
+FYhNzQVTVz3qGWuybfRXuFgVDWRoemXIFbAsLIx+T/1uHqKXHT/AUqUD8/B5xwXr
+RqkSKfPir4J4BE63sdH1d6OPo4YRZi92YpZWAxnALaR/HhevbhpK6XTcLQYoIwWL
+qagK08gctQQXNAWyQuQwohHXakRLJq6Wry90rhy9N1kXezrN/E7W/HjCVk1Qtjca
++9CLIXpeBZNtAH6rNld5q7UCmrswgV3S7TrxQzEyxEMCfuBbnM58kOBgeKrW2A9a
+IVOL60yl24opE0rOh6dZhvpGUbLL768YGqx9sY75RE4QsLJOO0gusNudP3AaCszG
+NVuGlPiLOhYV1OduO7LEX3VtX2dZ+etOefQgg3KCNIZt1VtFmQesdbfvCjSKUbdS
+fJIxtnGOCRjdY6/6A4h4d5XRqwKr5gbZUYp+lqRQ+gjteK/+OnbmVJqi7/8Vy0vj
+FIAhekvG6Q/r3s+Ufo9zhl/hM8Crx682m6pXnTv3ppPR44lG4EOKruMfSr9uRRPh
+89xpW6xLwAN4YmSfwPSvgqN7
+=V5SD
 -----END PGP SIGNATURE-----
 
---===============0135621416926963942==--
+--===============3287863333907566709==--
