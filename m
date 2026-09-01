@@ -1,30 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 01 Sep 2026 14:19:47 -0000
-Message-Id: <178827238788.2933630.4945964400827371855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 01 Sep 2026 14:21:54 -0000
+Message-Id: <178827251457.2936555.6674738768111514845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/for-linus
-    old: 9b110a9dcecc59516c77cb3c0caf1f492f75df2d
-    new: c53f5bfc370046e098fe04dc045e9e3cf19df609
+  - ref: refs/heads/for-7.3/upstream-fixes
+    old: a8e04f3f894ccb52cfcd7e60125a9f35da4a616d
+    new: ce58f5a1843235d800ad724e86a3cf5c9c6f08ab
     log: |
-         e4637ce34607f1733a34a57294966d26b263e626 ALSA: usb-audio: fix OOB write in snd_usbmidi_us122l_output()
-         32d7226e6105c257ef7b3d0ec819f11a81f53b6d ALSA: hda: restore MFG widget enumeration after core split
-         c53f5bfc370046e098fe04dc045e9e3cf19df609 ALSA: usb-audio: Add mixer map quirk for Audient iD24
-         
-  - ref: refs/heads/master
-    old: 249bfb5d8897889a3ca9ed7175669c5f1f381684
-    new: b3655b7a513d2db2884e1e0bd5bed1a37952c13a
-    log: |
-         e4637ce34607f1733a34a57294966d26b263e626 ALSA: usb-audio: fix OOB write in snd_usbmidi_us122l_output()
-         32d7226e6105c257ef7b3d0ec819f11a81f53b6d ALSA: hda: restore MFG widget enumeration after core split
-         c53f5bfc370046e098fe04dc045e9e3cf19df609 ALSA: usb-audio: Add mixer map quirk for Audient iD24
-         b3655b7a513d2db2884e1e0bd5bed1a37952c13a Merge branch 'for-linus'
+         67bfe48a29fbddfff77e13d4d327e49fca2c2be5 HID: bpf: mark struct hid_device as safe BPF pointer
+         1fb68c2e76386ac663819036c2c75cd476e433c1 selftests/hid: Add a test to ensure we can write fields in hid_device
+         ce58f5a1843235d800ad724e86a3cf5c9c6f08ab selftests/hid: prepare test_rdesc_fixup_get_data_overflow for the new verifier
          
