@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6683970835500624411=="
+Content-Type: multipart/mixed; boundary="===============1120752728020663259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 01 Sep 2026 06:31:54 -0000
-Message-Id: <178824431480.2591252.10740985468910738018@gitolite.kernel.org>
+Date: Tue, 01 Sep 2026 06:31:58 -0000
+Message-Id: <178824431830.2591372.12859250375715896836@gitolite.kernel.org>
 
---===============6683970835500624411==
+--===============1120752728020663259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,55 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: da6c37ed8beb273e3308e42d4bca3ce11b4432fa
-    new: ead700ca770c82167af32622cf8b68c9f87c3c7c
-    log: revlist-da6c37ed8beb-ead700ca770c.txt
+  - ref: refs/heads/mm-unstable
+    old: 42d64d4fef83a241c919c8693fdf0a21b2cb6061
+    new: 88297631d4d42f6004cb39c0ba3da7d2d10a616f
+    log: revlist-42d64d4fef83-88297631d4d4.txt
 
---===============6683970835500624411==
+--===============1120752728020663259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da6c37ed8beb-ead700ca770c.txt
+Content-Disposition: attachment; filename=revlist-42d64d4fef83-88297631d4d4.txt
 
+d32f8bdc2b417a3013e1316a54a0b314f973bbc1 leds: st1202: Fix pattern duration prescaler and pattern_clear skip marker
+d2ca0e2b6d6430f9c60bb2e0ee0b2b3dc4e5d86a leds: st1202: Set all pattern PWM slots to full after clearing pattern
+dcc31246aaf0d330a3ba9a725f56c33e6d634caa leds: st1202: Fix spurious pattern sequence start in setup
+7cbe470366bdd43c7e8114fb2c4d74fa69093121 leds: st1202: Fix brightness having no effect while pattern mode is active
+0767335233a8cbab00bbe260a4e4bd380c7677fd leds: st1202: Disable channel when brightness is set to zero
+cf197514bdfd3877f42b5dce1efd40b7b686547e leds: st1202: Validate LED reg property against channel count
+96fa4d69958cf90740d756d1e45cdb02cface41b leds: st1202: Correct and extend hw_pattern documentation
+4b3f5baf67dea91452b5b114dcb19139feba71dd MAINTAINERS: Update my email address for the AW99706 backlight driver
+d4486fc3098e176cb4a29fee037216484761f9ca EDAC/altera: Use ECC manager compatible to select A10/S10 IRQ layout
+11f5fd36076a2ef229ec5062c06954c955d90f9d EDAC/altera: Remove remaining CONFIG_64BIT ifdefs in the DB-error path
+e09afa69e3f5d5a304940cf4c6ea17642a1e3993 MAINTAINERS: Add Radhey Shyam Pandey as Xilinx EDAC reviewer
+b7088d58dccfba87fe8dd2ab7c493ee1d9d09277 drm/msm/dp: add missing drm_edid_connector_update() before add_modes on cached EDID
+6cd33b6f4155efc20485929fd0b56bb704641db9 drm/msm/dsi: round 6G byte clock rate to the PLL-achievable value
+14ea7c582879978a7ec0ddbd65d485f2a826053c drm/msm/dpu: fix parameter name in dpu_core_perf_adjusted_mode_clk kernel-doc
+44784327815b2a1ad8bb56b9236770cb538c7c27 Revert "drm/msm: dsi: fix PLL init in bonded mode"
+5d9e3bf34fec9a5d237e4b7cef4a707bc2e091bc xfrm6: fix out-of-bounds write in xfrm6_input_addr() when secpath is full
+21697720ff43b8dfa25b8e8d9ca7f56f4597fc80 esp: do not unref managed frag pages in esp_ssg_unref()
+4d8da7e3dc0d4512e5e6f29df3ca136d7a90d464 dt-bindings: leds: Document "gpio" trigger
+ce6fc04113241c82a698f362f8dc6e1cc2f65448 dt-bindings: backlight: 88pm860x: Add missing bracket
+627666f7c9cd89e7c4023ba790a44610ccfb9471 dt-bindings: leds: bcm6358: Convert to DT schema
+b8a9c9c5787bed1243e5364c89ca66c26b4e4d83 drm/msm/adreno: fix use after free on error path in a6xx_gpu_init()
+be0e82b8e0c96649b8bc77a99ab0d185243b7659 drm/msm/a3xx: Drain VBIF before GPU suspend
+d9108bfdb746edacdb05bd27959a4ae63c6c7f3f drm/msm/a6xx: Fix stale rpmh votes after suspend
+b303e1d52811de7d1bcf793560754d4df68d4a1c drm/msm: Recover HW before retire hung submit
+fc7ccbc6174b79ffab5be5dca5b6e253df22f030 drm/msm/a6xx: Fix A663 GPUCC register list for state capture
+d052d0358fb89b59718b9c24871d72006d4b89b0 drm/msm/a6xx: Fix A621 GPUCC register list for state capture
+bc024d325e98b6b2806e00455e030622fb8e1820 drm/msm/a6xx: Fix IRQ storm during msm_recovery test
+40b793714ad8f393ab3d469f9d00b20ebda46257 drm/msm: Fix task_struct reference leak in recover_worker
+e2332abed2a4d3caa59052095dc16e4ce44791ea drm/msm: Only fini scheduler after successful init
+b2128290c29902315e632ea59e0504d6bc9e9b42 Merge remote-tracking branch 'drm/drm-next' into msm-next-backmerge
+e44580b601d44238ac615f441ce1179bc88a47ad dt-bindings: display/msm: gpu: Document Adreno 840
+1f69339da06255a7f8560b4768fff83992c03deb drm/msm/adreno: Add support for A704 GPU
+9479a45e5f59c1fab40e0d43410ac7193d662624 dt-bindings: display/msm/gpu: Add support for A704 GPU
+504a65121cf15b07c9af9f04e0ec723db531c2fa dt-bindings: arm-smmu: Document GPU SMMU for Shikra SoC
+01bcc0398f43099acb407a6067481e635c3e1b84 drm/msm/a6xx: Fix RBBM_CLOCK_CNTL3_TP0 value in a730_hwcg
+352116dbc4fc61ae22eae748da36e46a3f45f65c drm/msm/a6xx: Rename GBIF_CX_CONFIG to a A6XX- variant register
+a25fd4227f59b9147ae6d23336878c28e5437a4d drm/msm/a6xx: Add Adreno 722 support
+cee19f08f460bc7a9b531472f25137aa8626cd51 dt-bindings: arm-smmu: Document GPU SMMU for Eliza SoC
 0b69e4f4ee325ee0b50396657fd19d4d7b0a6294 dt-bindings: display/msm: Document Adreno 722 GPU and GMU
 deb232e884877bf10b4ce2580909eedec986c284 xfrm: espintcp: fix UAF during close
 e1d7c5ac1c246ce5775f604515de0a59fbf2116e xfrm: drop ESP-in-TCP packets with no ingress device
@@ -1012,43 +1050,5 @@ ccc1075d8aaa3c51fe429d981479e4bd16e8effd selftests/damon: prevent remaining cros
 cf5187f1637574014d1c2ae3fd2e8d71b9f694ad string: introduce memcpy_nontemporal()
 62a093d77ca42588e3c060de5762435b68e440ca mm: use memcpy_nontemporal() in zone-device template copies
 88297631d4d42f6004cb39c0ba3da7d2d10a616f x86/string: extend memcpy_flushcache() fixed-size fastpaths
-c584a45b3d196df10cb51b7baf748a69d8874758 mm/rmap: remove stale hugetlb check in try_to_unmap_one
-2eff409e54d7c93cb553e095d8b399b3491c0cd9 memcg: don't call schedule_work when no spinning is allowed
-2a7d69eec949ad1b7a608505f0f9d206ff085b51 mm/gup_test: report actual pinned bytes
-ec0bddc19761c01a0c74640e61071b7ea40b7fa6 mm/huge_memory: do not touch frozen folios in deferred_split_isolate()
-ecee6cc2bac83e906923f8be1ad6fdb3542e928f mm/huge_memory: dequeue the deferred split after the split freeze
-f2b546d63c0724d1e91cdaaa798c834f643701a4 mm/hugetlb: preserve source surplus accounting during demotion
-0fe2bf1436d9a298ad7ad793225e470332e4b5b5 mm/hugetlb: cap demotion at currently available free pages
-3960aa1266c31fc1bb8e8439ec91a39f14991f53 mm: make ptval_to_str() generally available
-722f0b2b3f94717943ae096062ccf9487629f516 mm: stop using pxd_ERROR()
-8cbb08802609249460243c4468f07d4b519b14a0 loongarch/mm: stop using pte_ERROR()
-0583d5f75a1e84aacfcde4ed4639b11317a33f8e parisc/mm: directly use generic [pmd|pgd]_clear_bad()
-8ce6afaf1e9a9cd486b92c11ad2fd0fd78455c38 sh/mm: stop using pte_ERROR()
-751c19e84c6c2c14a4861ebd6ba2c16d76a9ad81 sh/mm: stop using [p4d|pud|pmd]_ERROR()
-5894388ce61056f82af56711938dbfef887519e3 sh/mm: stop using pgd_ERROR()
-8181c5bac8a5ca71007aafa9785b07bebe2c0f86 mm: drop pxd_ERROR()
-e20d79bfb9b4b27d5ba1eff66bf350c31fce606c mm: add page_counter_margin()
-3ae831e0337eadc8e7b9160513060f57f8453667 mm: distinguish large folio swap allocation failures
-8782d00468ed0ed7fbb2807f3c43b011be5a89f7 mm/vmscan: avoid pointless large folio splits without swap
-25437924e3980e26105150d791164ea6e8905a3a mm/shmem: split large folios only on -E2BIG
-6bf8890ff3702f7864bb5548e975d94f17df6a7d mm: gup: move pmd_protnone() into gup_fast_pmd_leaf()
-4506db67b83650e18a73652636f6ed4daf29c140 mm: gup: cleanup the gup_fast_*() call chain
-41408a46a8695d27498fdaa6115d35caf20c04f7 mm/page_table_check: add explicit pmd_none check in pte_clear_range
-eac2ff318087bd6fbb73488f8cd32116aa50695a mm/page_table_check: skip zero pages
-5fec54b927bddc3a0bd953912de1f1244cd51f27 selftests/mm: fix soft-dirty kselftest supported check
-b03352fa2f44bf9c41c8cf9f2f4ce7cf504da7b1 riscv: mm: fix concurrency in mark_new_valid_map()
-ebe46fe2dbecbc7b526cf430d34be9b78224cf33 riscv: mm: exclude invalid THP PMDs from page table check
-aa1a9de75ba194a20f240bb660e664a9aa04f995 sh: remove CONFIG_NUMA and related configuration options
-0a0a3be1758210002c61d424fa12d0a5670480a7 sh: mm: remove numa.c
-8ae0feb7d27a09e02f69ad234afac6fb9ff7c89a sh: mm: drop allocate_pgdat()
-422796db1dd040208f18646ffd1b300138e3cab6 sh: remove setup_bootmem_node() and plat_mem_setup()
-0ad47841c461053d2f6d0590b218e835c0efc788 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-5f0c1d413c31b94cfb460a63ce86302cd161f67f sh: drop include/asm/mmzone.h
-06b42217e77aa557a0192c355d8b26a0fe6b8d6d init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-856b271936f1d23e8d77ac3f655a469d61410f09 sh: init: remove call the memblock_set_node()
-8e5749713799e502176019d796ba43726d99e330 sh: remove SPARSEMEM related entries from Kconfig
-136a8364722aa58fae98d2ec1b77e823d2a65b69 sh: drop include/asm/sparsemem.h
-e076b4274ccbcad4ed7ad34b6e2dfc70d3831988 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-ead700ca770c82167af32622cf8b68c9f87c3c7c mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6683970835500624411==--
+--===============1120752728020663259==--
