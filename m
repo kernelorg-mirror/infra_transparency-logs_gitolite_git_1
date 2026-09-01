@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 01 Sep 2026 07:33:35 -0000
-Message-Id: <178824801503.2635465.11302714539258433916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 01 Sep 2026 07:34:57 -0000
+Message-Id: <178824809743.2635942.14112782274466321688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 32cd87f54dd1070020e664ccb0312a9f0fea79b4
-    log: |
-         32cd87f54dd1070020e664ccb0312a9f0fea79b4 RDMA/siw: Clear association under lock if siw_qp_modify fails in siw_accept
-         
+  - ref: refs/heads/gpio/devel
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 0000000000000000000000000000000000000000
