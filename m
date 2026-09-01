@@ -1,50 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Tue, 01 Sep 2026 19:00:34 -0000
-Message-Id: <178828923448.3175898.1433204238647247364@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0001666622921627205=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 01 Sep 2026 19:06:05 -0000
+Message-Id: <178828956592.3179778.16917798382518914104@gitolite.kernel.org>
+
+--===============0001666622921627205==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-7.4/arm64/dt
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 9263ab9369b26dd8b8f210e114084640bf9bf5b1
-    log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         9263ab9369b26dd8b8f210e114084640bf9bf5b1 arm64: tegra: Enable DMA Support on Tegra194 QSPI
-         
-  - ref: refs/heads/for-7.4/dt-bindings
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: ba6b15354f64f1344ca7a28cf433a842aa85aa4e
-    log: |
-         ba6b15354f64f1344ca7a28cf433a842aa85aa4e dt-bindings: memory: tegra: Fix Tegra132 compatible string
-         
-  - ref: refs/heads/for-7.4/soc
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: dc9c9c4fcb88a5660259dcef93c1ef5acd767189
-    log: |
-         dc9c9c4fcb88a5660259dcef93c1ef5acd767189 soc/tegra: pmc: Add PMC support for Tegra410
-         
-  - ref: refs/heads/for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: a53c665d36f6121368ed00ada05dd2b905baca57
-    log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         dc9c9c4fcb88a5660259dcef93c1ef5acd767189 soc/tegra: pmc: Add PMC support for Tegra410
-         9263ab9369b26dd8b8f210e114084640bf9bf5b1 arm64: tegra: Enable DMA Support on Tegra194 QSPI
-         ba6b15354f64f1344ca7a28cf433a842aa85aa4e dt-bindings: memory: tegra: Fix Tegra132 compatible string
-         db98398310851d38d295e45791a98af34aa73456 Merge branch for-7.4/dt-bindings into for-next
-         37857ab65031e01cc6843465ed3e9dbea7ee3e0a Merge branch for-7.4/soc into for-next
-         a53c665d36f6121368ed00ada05dd2b905baca57 Merge branch for-7.4/arm64/dt into for-next
-         
+  - ref: refs/heads/master
+    old: 870187be2362118ce51f6d583881d381f2ffde81
+    new: 2c127ee79a0b260fa4a4042c36542e772f7c20f5
+    log: revlist-870187be2362-2c127ee79a0b.txt
+
+--===============0001666622921627205==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-870187be2362-2c127ee79a0b.txt
+
+ca52f4764c8754d006e53cd7be3f2cb1a2b98fa4 Bluetooth: L2CAP: take chan->lock for l2cap_chan_add/ready/del
+368dc7fcaced7635f5c444240e24bd882963e8ad Bluetooth: L2CAP: add l2cap_chan_close_unlocked() and locking helpers
+86b3773598263417b00fd6563c01561a6cebaf64 Bluetooth: L2CAP: fix race condition in l2cap_sock_shutdown()
+4e64bd587b64561deb4ce014af521d8ba9db5898 Bluetooth: 6lowpan: use l2cap_chan_close_unlocked()
+c5123fddfef12f97a2a897fee339130944c95b38 Bluetooth: L2CAP: remove unused l2cap_chan_close()
+02122fd8002984b963c38a7c743934748d25214a Bluetooth: 6lowpan: avoid concurrent peer_del() in bt_6lowpan_disconnect
+62df59925278d0c09424ffa3ef7044922e40ddcc Bluetooth: L2CAP: hold conn->lock for __l2cap_ecred_conn_rsp_defer
+604e2f6d1e9588dc7b1d34409895fdb04b44b558 Bluetooth: L2CAP: hold l2cap_conn::lock in l2cap_connect_cfm()
+886931f0c7e6fb6b3f596fe2397eb3a309da2755 Bluetooth: L2CAP: add annotations for l2cap_chan list locking
+26836086682ac9017a53b6bd3be1bb7e37dcec2c Bluetooth: L2CAP: hold chan in l2cap_ecred_conn_rsp()
+761224d13f8a5d84a9c06b9948a37b1b1dbc7837 Bluetooth: L2CAP: make concurrent l2cap_set_timer() refcounting safe
+2c127ee79a0b260fa4a4042c36542e772f7c20f5 Bluetooth: L2CAP: remove conditional locking from l2cap_connect()
+
+--===============0001666622921627205==--
