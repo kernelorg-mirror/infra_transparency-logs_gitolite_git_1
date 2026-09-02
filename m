@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 02 Sep 2026 22:37:01 -0000
-Message-Id: <178838862162.362176.14939017571701157215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 02 Sep 2026 22:44:30 -0000
+Message-Id: <178838907064.366534.12762018485659683435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 5f9acc1c21dfb60e4d2f31cbbb431969a044f306
-    new: ba08432bda66a7889d8f3d1581dabf10f59b25eb
+  - ref: refs/heads/clk-pile
+    old: e831ea3564120f5eb21a90eb7a46249b5b4f2878
+    new: 48bec6fd8ec32ffdf65a5ccf268428a9f79ea210
     log: |
-         ced0b7d819ae0e6a9da2a1f39e1ec281aa9a6cb0 dt-bindings: trivial-devices: Add TI TPS53622 and TPS53659
-         ba08432bda66a7889d8f3d1581dabf10f59b25eb hwmon: (pmbus/tps53679) Add support for TPS53622 and TPS53659
+         48bec6fd8ec32ffdf65a5ccf268428a9f79ea210 drivers/clk: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
          
