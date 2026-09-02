@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 02 Sep 2026 22:14:18 -0000
-Message-Id: <178838725847.345173.8520898188753485228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 02 Sep 2026 22:16:51 -0000
+Message-Id: <178838741174.348279.16344796549896528991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/master
-    old: 83794c8332b6bca03d6fae1f27ff390029b338da
-    new: 4b64d7f1560ba6d5450cd07bafeee94f499a0994
+  - ref: refs/heads/clk-pile
+    old: 712b75152c00a8ab0c56dbfe34caf88e3870ddde
+    new: e831ea3564120f5eb21a90eb7a46249b5b4f2878
     log: |
-         4b64d7f1560ba6d5450cd07bafeee94f499a0994 Fixes for all trees
+         e831ea3564120f5eb21a90eb7a46249b5b4f2878 clk: actions: Drop unneeded forward declarations for clk_fixed_factor_ops
          
