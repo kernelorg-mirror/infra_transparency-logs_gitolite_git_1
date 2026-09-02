@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8735617524215310940=="
+Content-Type: multipart/mixed; boundary="===============4124512497996063531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 02 Sep 2026 15:28:05 -0000
-Message-Id: <178836288595.50001.1159317753523107623@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 15:28:23 -0000
+Message-Id: <178836290331.50292.14983630430842868443@gitolite.kernel.org>
 
---===============8735617524215310940==
+--===============4124512497996063531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 00179ed9fbe07799676e2cb63c4e7f0e7cd80a5c
+  - ref: refs/heads/next
+    old: 35e689fb79dcbaa8d69cc4a58a7ad4d0d7346e4a
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-00179ed9fbe0-cee9395acd80.txt
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
+    log: revlist-35e689fb79dc-cee9395acd80.txt
 
---===============8735617524215310940==
+--===============4124512497996063531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00179ed9fbe0-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-35e689fb79dc-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1054,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============8735617524215310940==--
+--===============4124512497996063531==--
