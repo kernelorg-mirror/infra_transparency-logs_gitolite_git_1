@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 02 Sep 2026 23:25:49 -0000
-Message-Id: <178839154950.399499.16416684556947988113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 02 Sep 2026 23:50:46 -0000
+Message-Id: <178839304633.416676.4199927839503156646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: d761934c9483ecde93fe99d8705282f716dfee50
-    new: 418814c9fb26db952dad973b07d1d21d5fd66b54
+    old: 0e9d5d5a16acbb942fecf110f81497223b44697e
+    new: e441bab8119af5f822345c44194516c73139cabb
     log: |
-         802a30c5db726639df7f93b3a1982ecc64202abe bpf: Fix queue/stack map u32 index overflow
-         33576bfee5b7f65e3df651ac33f83fdcf1f04233 selftests/bpf: Add regression test for queue/stack map size limit
-         418814c9fb26db952dad973b07d1d21d5fd66b54 Merge branch 'bpf-fix-queue-stack-map-u32-index-overflow'
+         854fac213d1f9228dd0e552b7359fe9be8ff8025 defer/rcu.tex: Wordsmith QQ.23 RCU as rwlock replacement
+         e441bab8119af5f822345c44194516c73139cabb defer/rcuintro.tex: Move core RCU API table to beginning of section
          
