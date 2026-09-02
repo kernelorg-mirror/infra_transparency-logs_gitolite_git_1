@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 02 Sep 2026 15:29:23 -0000
-Message-Id: <178836296337.50851.15286034741765439914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 02 Sep 2026 15:39:13 -0000
+Message-Id: <178836355381.57502.17818314483854854636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: 94420d27973f567e5c10b631115ea8b9abc0172e
-    new: 16929741a622eb345057e41c7b335d9b297890e1
+  - ref: refs/heads/master
+    old: 3a2d543c4c21d9c1dab246d46d76a11996a69bf2
+    new: a03665b6dd20e3b62501867c0dcc7ca6f74d7ae9
+    log: |
+         a909d5d303cb1c656c2e85150070796317f0cc8c shared/bap: Fix use-after-free in bt_bap_detach
+         a03665b6dd20e3b62501867c0dcc7ca6f74d7ae9 transport: Fix use-after-free when replacing a linked transport's owner
+         
