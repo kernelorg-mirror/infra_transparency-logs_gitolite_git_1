@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 02 Sep 2026 23:12:17 -0000
-Message-Id: <178839073731.389085.16830844713018091843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 02 Sep 2026 23:22:00 -0000
+Message-Id: <178839132077.396068.2976915790014161099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: d767281fab71d8d1f0af70d758e816fdd0827beb
-    new: 372d26e3c9be0f9cf7cc9ea5a100515929ff3321
+    old: 89a312991dc6e638a36adc43ccb91dbc25504c04
+    new: 940de590b839f71d6dc846160534bf202401b8b7
     log: |
-         372d26e3c9be0f9cf7cc9ea5a100515929ff3321 foo
+         2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
+         940de590b839f71d6dc846160534bf202401b8b7 Merge tag 'hardening-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
          
