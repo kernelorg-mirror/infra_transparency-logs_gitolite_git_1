@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6299247011379915374=="
+Content-Type: multipart/mixed; boundary="===============2990815714780896111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 02 Sep 2026 12:38:49 -0000
-Message-Id: <178835272971.4021080.18031567204252836355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 02 Sep 2026 12:39:24 -0000
+Message-Id: <178835276410.4021689.16228050025483548525@gitolite.kernel.org>
 
---===============6299247011379915374==
+--===============2990815714780896111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 0277c393823940d1b6d0a7183b3f3cf449f2e86c
-    new: 83794c8332b6bca03d6fae1f27ff390029b338da
+  - ref: refs/heads/review-ilpo-fixes
+    old: 9ffed84a24d60ec506d8961fe138f0baa92fdbd0
+    new: 312fd3f3a85b89aa0d4fb5417043d640daa3732c
     log: |
-         83794c8332b6bca03d6fae1f27ff390029b338da 7.1 is now end-of-life
+         355b6558dd7be049aff4f0d438b0128f91a982eb platform/x86: x86-android-tablets: fix Arizona GPIO swnode references
+         144113b0a70fa18033a747ee5db6803308f7688c platform/x86: x86-android-tablets: hold device reference for secondary fwnode teardown
+         aab060ec969c3859b81f80f3444fd5a2edfc3cf5 platform/x86: x86-android-tablets: pass node group to gpio_secondary_fwnode_init()
+         7872c625cd83a0247821cedd6c6f63938d4bddbc platform/x86: x86-android-tablets: add Crystal Cove GPIO swnode support
+         74884436a53df0bbaf6d92d2922f643a4581b247 platform/x86: x86-android-tablets: drop redundant swnode group on YT3
+         312fd3f3a85b89aa0d4fb5417043d640daa3732c platform/x86: x86-android-tablets: use shared battery swnode group on Yoga Tab 2
          
 
---===============6299247011379915374==
+--===============2990815714780896111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788352726 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1788352727-44c336a3bd9396847ad0b75a74e657ed7a71a5e1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1788352757 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1788352757-3028e11e156cf8fdb38ea5260d4bc6ea789c2161
 
-0277c393823940d1b6d0a7183b3f3cf449f2e86c 83794c8332b6bca03d6fae1f27ff390029b338da refs/heads/master
+9ffed84a24d60ec506d8961fe138f0baa92fdbd0 312fd3f3a85b89aa0d4fb5417043d640daa3732c refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqYGNYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+csQP/2MKuilxLr8nrZgzWtEa
-xX2ccRVSmWip2UMzXMlmnB6v3anuL6IK0YfouOtcUiqNF8u6BeRW7c2o9gqoIpqi
-WW04h/IxLkw/ckfdzLLFCEuYdlZKTJtt38QCbDYLLFSP93ljlTwiBYhY1hP42F3A
-lLJcwh+bufbThZYaprcAFLk9YqROLb9Lv1Hyr/lK06YuS1ztMzIBY9EUyoYCVG/h
-RA9FEkOhDY5yQMxLRh4JcS/2KHwlbtoNm3t7eL3TXuwdWvaIuS5SiyLFO1WGPQb1
-AaQ2qtcaawn98hk+LjdjQ4MQ9G+x9l4Gs23eEKRsxv0+tGWPWjI+oguSqFgtHG09
-x3MDO1aMpnDhP77m87PtSBonZrBhT6kJ2FY4xWzPpHXXVQqWvroSFIq6R2WWhxe/
-Fxn7xBAAR71ihFLa09dgn4vKB5LZLAyWgeZJiBB873ZmfLi4iO2RhPABBi+sxjdq
-ipHMuNJu4brnuIlX7XklrxDExpDiKBwj2Gt52w1JFxdRc1ERhT+3gWMpqyCRKd/o
-fZ96r94ilD+EqADwwaewcu+4p9b3qg1QmqTsZ3pf/sz1BtRoIwNZbN7F4mGdLe1C
-PMii5yzdi6ORcPcRJoedOwIJwSr9TT0OxEQizEQkiZroWqu1fOeX0c+LND2RTH2Y
-CQ1PnrHzcHpQ4y4iRqIaUYP/
-=X3kM
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCapgY+gAKCRBZrE9hU+XO
+McvRAP9LbzFU+Kz3NTM2uwYJkD9TvTANGrz/h/E5/MEfCUNDXQEA0bu8hf4anTc2
+oFzuXY3KkkGK5aNZOZzk86RAgnSBAgA=
+=/mrn
 -----END PGP SIGNATURE-----
 
---===============6299247011379915374==--
+--===============2990815714780896111==--
