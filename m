@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1231304336612193661=="
+Content-Type: multipart/mixed; boundary="===============6308486925133952419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Sep 2026 11:05:32 -0000
-Message-Id: <178834713246.3890751.1737425214166449732@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 11:05:50 -0000
+Message-Id: <178834715030.3891055.14330064134802520599@gitolite.kernel.org>
 
---===============1231304336612193661==
+--===============6308486925133952419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: cf2e3d4a00240d3a16a24bc12f1c3729f047717a
+    new: dca4d7cea1e48cad6b4966c9d805b7f69832da35
+    log: |
+         5b2549c7e01d3fdea88d29da88c0b4d4ca19ebb1 Merge branch into tip/master: 'locking/urgent'
+         0d09dd61990bdbdf68137961df386662f143e97f Merge branch into tip/master: 'perf/urgent'
+         7fececdb52b86823225d3f4e0a35efc8b1f05ba1 Merge branch into tip/master: 'sched/urgent'
+         969e810f5b4c02b4f8030aea893dc311bd9f1049 Merge branch into tip/master: 'x86/urgent'
+         8eca836c33a7dee6ff1715038f50581be832d636 Merge branch into tip/master: 'sched/core'
+         dca4d7cea1e48cad6b4966c9d805b7f69832da35 Merge branch into tip/master: 'x86/bugs'
+         
+  - ref: refs/heads/tip/urgent
     old: 5cf55c082e8c5471074089f2c955f80eec780aa8
-    new: cf2e3d4a00240d3a16a24bc12f1c3729f047717a
-    log: revlist-5cf55c082e8c-cf2e3d4a0024.txt
+    new: 969e810f5b4c02b4f8030aea893dc311bd9f1049
+    log: revlist-5cf55c082e8c-969e810f5b4c.txt
 
---===============1231304336612193661==
+--===============6308486925133952419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cf55c082e8c-cf2e3d4a0024.txt
+Content-Disposition: attachment; filename=revlist-5cf55c082e8c-969e810f5b4c.txt
 
 53676a5e28231186c9f56d87b7998b640699bc15 cifs: add revalidation on FSCTL failure in smb2_duplicate_extents()
 1519dc88c87f5346dae0464d7d6da1b6bf1f6e8e smb/client: validate new EOF for insert range
@@ -54,7 +65,6 @@ a8603b52b39f520ea8a34def74c23fba87396d3e smb: client: fix data corruption with c
 4aa2c106aef4bf3dfd97c30842db0767b26e8428 smb: client: reject SetEA requests that do not fit the request buffer
 9a58da80053f992b285b6b7bebc694b0f284c443 Merge tag 'ksmbd-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 89a312991dc6e638a36adc43ccb91dbc25504c04 Merge tag 'cifs-fixes-7.3-rc2' of https://git.manguebit.org/linux
-ae1d2082d93bc04604dc08e9b7f9cdba5e0c28e6 x86/bugs: Adapt SRSO mitigation to Zen6
 1719d035a6fa90b7467b6daf45a573f5180013b2 sched/fair: Use update_curr_eevdf() for the remaining root cfs_rq callers
 dae5c0292080dd7b9c7d784268dcf443f1f3d15e sched/rt,dl: Skip migrate-disabled tasks when picking a push candidate
 c6dcd97c8be75f052a1ca52cf79b03e7292962f1 sched/core: Skip rq->avg_idle update without a valid idle_stamp
@@ -65,28 +75,9 @@ f0d243a96f2684ad771d678767d17972cf840bd7 sched/fair: Avoid creating misfits duri
 8a7f5b5e860b5c113ca99acd5b1e9074f5c5af3c perf/core: Skip empty AUX records with only format flags
 58a8108bc73de0740d5b88150465d6690ea5f85f perf: Fix use-after-free when perf mmap() revival races with the last munmap()
 02c6be7d675b21d81f0ba3a524346850a8c0e3bf locking/lockdep: Invalidate stale class_cache entries for zapped classes
-3dd95f077371f5def65a91c4bb13bd574a62bc3a sched/core: Don't steal a proxy-exec donor
-9be817f991e2eba140669d350df2a07d81f26fc8 sched/core: Avoid migrating blocked_on tasks
-09351db90a28ee6a82dc873609edfde02da5415d sched/core: Don't proxy-exec unmatched cookie lock owners
-1f880513859336b1d4f9731d3a67d22d0b3b6aad sched: Switch rq->next_class in proxy_reset_donor()
-6b73a09e943fe84778672362bfbd1cbb3fca9a8a sched: Break out core of attach_tasks() helper into sched.h
-772d9ffbfd2627779ed9b73155585e63c940bcec sched: Migrate whole chain in proxy_migrate_task()
-d3d16750693b540299cd105968174556012aba09 sched: dynamic: Make PREEMPT_DYNAMIC depend on ARCH_HAS_PREEMPT_LAZY
-88e0b3bb9930605ad7e5d3ddac7d9875325bebf0 sched: dynamic: Simplify {cond,might}_resched()
-b9d267b9d632feec9ddd1ce12078b7113f429a51 sched: dynamic: Simplify preempt_schedule{,_notrace}()
-aa4178f63847f86e3b27b9e53ee8ccbd6ed6bf8c sched: dynamic: Simplify irqentry_exit_cond_resched()
-5b9a28eeed37513778ca6b636253aa8dcf39d55f sched: dynamic: Remove HAVE_PREEMPT_DYNAMIC_{CALL,KEY}
-9650ce11f2e377310332d87a902dc4df3f59b905 sched: dynamic: Simplify preempt model accessors
-a5576ebce9201e2abc820348a494e666de8efe64 sched: Convert paravirt_steal to new static key APIs
-2a672daa4b272d092e193eb40376b4a8063e25fa sched/feat: Use the new static key API for sched_feat
-f549101187c875c2016072cadcb909d228532ae8 sched/deadline: check start_dl_timer expiry with ktime_before()
-879eaa76e6086ab4aff77a669bfb50b7db03e0b4 sched: Remove unneeded function type cast in do_balance_callbacks()
-ef9293b3b797228fead10b55ed6bfb99bb7976b4 sched: dynamic: Fix preemption model strings
-b90f4985842dc1349f18eb29ec6ed9199a163d82 Merge branch into tip/master: 'locking/urgent'
-aca114ee24644c9cec6f794096174c7388ed6df8 Merge branch into tip/master: 'perf/urgent'
-977009f61c811f4349cb1d319ed4b2d98a8e4358 Merge branch into tip/master: 'sched/urgent'
-ba7c5d3a0d622e3206369f12ebb6d973b48b3a19 Merge branch into tip/master: 'sched/core'
-9161a5d58c56abb0fda9cfcbc20845b2e15145ed Merge branch into tip/master: 'x86/bugs'
-cf2e3d4a00240d3a16a24bc12f1c3729f047717a Merge branch 'linus'
+5b2549c7e01d3fdea88d29da88c0b4d4ca19ebb1 Merge branch into tip/master: 'locking/urgent'
+0d09dd61990bdbdf68137961df386662f143e97f Merge branch into tip/master: 'perf/urgent'
+7fececdb52b86823225d3f4e0a35efc8b1f05ba1 Merge branch into tip/master: 'sched/urgent'
+969e810f5b4c02b4f8030aea893dc311bd9f1049 Merge branch into tip/master: 'x86/urgent'
 
---===============1231304336612193661==--
+--===============6308486925133952419==--
