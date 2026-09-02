@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Sep 2026 00:32:23 -0000
-Message-Id: <178830914378.3421845.3041310321798487921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 02 Sep 2026 00:36:31 -0000
+Message-Id: <178830939119.3425385.6821010521638555239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/main
-    old: 0a1071aa322cb387084f15ea8ba076974ee98271
-    new: c29b37ed7a4d9856ed758a82282456d69cee2ed1
+  - ref: refs/heads/fixes
+    old: add28ed1bba308a495ad7c9c0de8c6c61c8f5a7f
+    new: 874674c51f3605f7bfaca7bf83f19b573bbab18c
     log: |
-         c29b37ed7a4d9856ed758a82282456d69cee2ed1 net: fbnic: validate mailbox TLV extents
+         874674c51f3605f7bfaca7bf83f19b573bbab18c kselftest/riscv: Replace __ASSEMBLY__ with __ASSEMBLER__
          
