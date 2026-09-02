@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6520842533265163393=="
+Content-Type: multipart/mixed; boundary="===============5616806427657464336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Wed, 02 Sep 2026 09:00:40 -0000
-Message-Id: <178833964022.3799903.268066803825577475@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 09:04:05 -0000
+Message-Id: <178833984595.3801382.12584977107421715342@gitolite.kernel.org>
 
---===============6520842533265163393==
+--===============5616806427657464336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/smb
 user: linkinjeon
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: f7e5381fe0e2956317075a6d24aad1f56d6ce382
-    new: da6066cf54a9c3f54b8f1d75a9352a6588326a17
-    log: revlist-f7e5381fe0e2-da6066cf54a9.txt
+  - ref: refs/heads/master
+    old: 0a0d1d55dad570724bf8c7ea83409639cfb4be9b
+    new: 89a312991dc6e638a36adc43ccb91dbc25504c04
+    log: revlist-0a0d1d55dad5-89a312991dc6.txt
 
---===============6520842533265163393==
+--===============5616806427657464336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7e5381fe0e2-da6066cf54a9.txt
+Content-Disposition: attachment; filename=revlist-0a0d1d55dad5-89a312991dc6.txt
 
 2b2ec354f905c14e3270e8ec3ab50f7d8ad73bab platform/x86: hp-bioscfg: fix heap OOB read on empty password write
 876bd34e24f24d65a4c0d3c5d1678990e3c1cd61 Merge tag 'thermal-v7.3-rc1-fixes' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux
@@ -1019,6 +1019,18 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+399aa12450a61a5c73dc77e73f069ece9687c95d ksmbd: zero the FS_OBJECT_ID_INFORMATION buffer before filling it in
+c0cd3fc6824122014da2b3b0cb7ddeaa2946ec8e ksmbd: initialize FileSystemControlFlags in FS_CONTROL_INFORMATION
+db2267b27c054a6c2151ff7fbb67927e784f31d6 ksmbd: fill in FileSysIdentifier in FS_POSIX_INFORMATION
+edcd92df5e1f94e89f8cd410ce41c5cb56e24453 MAINTAINERS: Add Paulo Alcantara as an SMBDIRECT co-maintainer
+5c944895a94d0317669f1b3409deb0161eaf916b MAINTAINERS: Update the KSMBD entry
+d12168084c8c1b6d883c8eca5853929ac5136a9e ksmbd: safely drain sessions during logoff
+73f860489e3be2245598d1819226304fc5b87291 ksmbd: zero pipe read compound padding
+c61dc7b1b4a3234b4aa3965502908a292238805c ksmbd: propagate DACL parsing errors
+feca5e70fc963b088377b20879e8cd8237c2fd7d ksmbd: rate limit unmapped SID errors
+f25e93768fcc5d8287e50b1ec52a42e4c276df34 ksmbd: prevent out-of-bounds reads in share config responses
+a506290f59e1c6ce9ac0a13158640bb8fee93471 ksmbd: fix listener task lifetime on netdev events
+ba9572bc43d04d71ba52ae7f20645f1eafe86875 ksmbd: validate normalized name response length
 a8603b52b39f520ea8a34def74c23fba87396d3e smb: client: fix data corruption with concurrent writes and O_TRUNC
 4aa2c106aef4bf3dfd97c30842db0767b26e8428 smb: client: reject SetEA requests that do not fit the request buffer
 8e359920216689b3b79e0fe8961a77fe312a511f cgroup: fix spurious SIGKILL of CLONE_INTO_CGROUP children
@@ -1038,17 +1050,5 @@ abdf623ddb75b24659018d3952d8f61937306ae5 Merge tag 'wq-for-7.3-rc1-fixes' of git
 786262be6048deab760f68c8acc2c85607165894 Merge tag 'edac_updates_for_v7.3_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 9a58da80053f992b285b6b7bebc694b0f284c443 Merge tag 'ksmbd-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 89a312991dc6e638a36adc43ccb91dbc25504c04 Merge tag 'cifs-fixes-7.3-rc2' of https://git.manguebit.org/linux
-636abbe7a66d80e179011a31754d55001cd44f63 ksmbd: fix sparc build with atomic work state
-0e753899627b5e28a9fea8bca98262a6f65a2452 ksmbd: fix use-after-free in oplock break notification
-0480cee8cc3cc906124d398a9779eda144de6b41 ksmbd: validate COPYCHUNK source and target ranges
-b5ec6c462aab1062cf5d1e667ba7c6442f737055 ksmbd: fix tree connection use-after-free in smb2_tree_connect()
-d53f7aff1880bf1514bbd1ae13d0c3ee5a96a937 smb/server: support compound fid in notify requests
-e6bd36a5e24b595f8abe92c3df071b801df0d0e7 ksmbd: refactor smb2_notify() to a blocking wait
-8e685c0a546db7c616f68c9467932c45c0da746a ksmbd: doc: update SMB3 multichannel support status
-274f189e497e1588c6beb47d126f725385c5eae3 ksmbd: doc: update RDMA feature support status
-9833f1fce6b6598ed355625b92bf99c9d346a0d9 ksmbd: add KUnit test for the DACL walk boundary
-99aa5bca61be1b0fc17e82dd3d52a7d0d274092c ksmbd: test smb_check_perm_dacl() DACL walk boundary
-eec7358b94b2d2b488f7ff34ad5a5a95f7ed5735 ksmbd: test maximal-access DACL walk boundary
-da6066cf54a9c3f54b8f1d75a9352a6588326a17 ksmbd: doc: update feature status
 
---===============6520842533265163393==--
+--===============5616806427657464336==--
