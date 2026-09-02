@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 02 Sep 2026 14:31:06 -0000
-Message-Id: <178835946690.4157752.11670265836475662887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 02 Sep 2026 14:39:08 -0000
+Message-Id: <178835994816.4176195.14970085469303606965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: 16929741a622eb345057e41c7b335d9b297890e1
-    new: 94420d27973f567e5c10b631115ea8b9abc0172e
+  - ref: refs/heads/dm-7.3
+    old: 2ccb8878c149443c6acf628b438c9c942c20abb2
+    new: 7d4d4f3b668d708d94f62ecdd33ac330a6fd8a84
     log: |
-         94420d27973f567e5c10b631115ea8b9abc0172e PCI: imx6: Enable ASPM L1 only if CLKREQ# is supported
+         7d4d4f3b668d708d94f62ecdd33ac330a6fd8a84 dm-integrity: fix NULL pointer dereference when the 'R' flag is used
          
