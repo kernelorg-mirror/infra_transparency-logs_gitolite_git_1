@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 02 Sep 2026 14:39:08 -0000
-Message-Id: <178835994816.4176195.14970085469303606965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 02 Sep 2026 14:50:22 -0000
+Message-Id: <178836062268.4185421.2728259192653988272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/dm-7.3
-    old: 2ccb8878c149443c6acf628b438c9c942c20abb2
-    new: 7d4d4f3b668d708d94f62ecdd33ac330a6fd8a84
+  - ref: refs/heads/clk-pile
+    old: a1c8d531c694e193dc48ef2428877d5ea2e35134
+    new: 712b75152c00a8ab0c56dbfe34caf88e3870ddde
     log: |
-         7d4d4f3b668d708d94f62ecdd33ac330a6fd8a84 dm-integrity: fix NULL pointer dereference when the 'R' flag is used
+         712b75152c00a8ab0c56dbfe34caf88e3870ddde clk: mstar: msc313-mpll: fix off-by-one in clock array allocation
          
