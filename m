@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 02 Sep 2026 00:07:02 -0000
-Message-Id: <178830762222.3403302.17724296061984799586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 02 Sep 2026 00:07:07 -0000
+Message-Id: <178830762727.3403567.12860549911236930264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: ca12149896ed040dafef92eacd2af3f903afb177
-    log: |
-         ca12149896ed040dafef92eacd2af3f903afb177 regulator: dt-bindings: fan53555: add tcs,tcs4526
-         
   - ref: refs/heads/for-next
-    old: 0c47038219a048b12c7e095d6f4b0cdd146e878a
-    new: f656e44fc0c84027f56541b64866dcf5297cf805
+    old: b34c325539ca9e473a754685b3ca866efe21bea1
+    new: 5f01cb141169fe422c42279f7d502479b1ff9fd2
     log: |
-         f7396c2dbbc1bed6c2c554d1ddf80d16e4780a7d regulator: fixed: reject incompatible platform devices
-         ca12149896ed040dafef92eacd2af3f903afb177 regulator: dt-bindings: fan53555: add tcs,tcs4526
-         f656e44fc0c84027f56541b64866dcf5297cf805 Merge remote-tracking branch 'regulator/for-7.4' into regulator-next
+         dd007297551f20874124f6a703aa2f98ffd72084 spi: Fix tab and space mixture in Kconfig
+         4895d7068723e6a2e575603a5764b4db07041cc2 spi: Drop redundant dependency on SPI_MASTER
+         d696b9109d2315fc5f664766628337489a2b828f spi: Fix the section ordering in accordance with the comment
+         4c1a00e92d66e7195cb4b45d0be8c7ae380fe44d spi: Kconfig cleanups
+         152867998da9f331d6235d76aae1c7e1650708a9 spi: sh-msiof: propagate setup runtime-PM errors
+         7fe2098d612b35fc0aaa7a550b0adca326fedcee spi: sunplus: handle signal interruption in transfer wait
+         ed07cdb2b386d53d1ba4abbb4154bcec7bd9488a spi: qcom-geni: rename setup_fifo_params() to setup_spi_params() and make it void
+         5f01cb141169fe422c42279f7d502479b1ff9fd2 spi: omap2-mcspi: Remove unbalanced pm_runtime_put_sync() calls
          
