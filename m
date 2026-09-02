@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 02 Sep 2026 21:22:04 -0000
-Message-Id: <178838412416.307698.7373056832989539172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 02 Sep 2026 21:25:24 -0000
+Message-Id: <178838432461.310962.1026697422454644903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/todo
-    old: 161f50fc0ecf2b7d0756861be22a45c59977935e
-    new: 15ca23dd4d5ceb3aa6d2c9c1b4f924f67be6e46c
+  - ref: refs/heads/x86/kdump
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: d949fa7b1ec54c626b656f873b95d76b8ab0d143
     log: |
-         496dee12c86de45a1a4cfc809907844f2a693e9f What's cooking (2026/09 #01)
-         15ca23dd4d5ceb3aa6d2c9c1b4f924f67be6e46c Reintegrate, cook: adopt 'Looking good'
+         6664ad1026b558563702f9a1ce637df33e7c001e x86/crash: Reserve elfcorehdr for CONFIG_NR_CPUS, not CONFIG_NR_CPUS_DEFAULT
+         d949fa7b1ec54c626b656f873b95d76b8ab0d143 crash: Update stale NR_CPUS_DEFAULT references in elfcorehdr sizing docs
          
