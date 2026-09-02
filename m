@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Wed, 02 Sep 2026 07:22:21 -0000
-Message-Id: <178833374157.3719535.18417784253031771856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 02 Sep 2026 07:28:06 -0000
+Message-Id: <178833408601.3723528.9402203863060395333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wpan/wpan
-user: sschmidt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/staging
-    old: 9012da455ab9a05d8205b90d0ad7c8b526f89062
-    new: ff5891b266a7fc6a062710836be84f1cc19338b5
+  - ref: refs/heads/locking/urgent
+    old: 2af470916a208b576ac9975d221d9a378cf8ace9
+    new: 02c6be7d675b21d81f0ba3a524346850a8c0e3bf
     log: |
-         ff5891b266a7fc6a062710836be84f1cc19338b5 ieee802154: cc2520: fix FIFOP work use-after-free
+         02c6be7d675b21d81f0ba3a524346850a8c0e3bf locking/lockdep: Invalidate stale class_cache entries for zapped classes
          
