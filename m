@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3040850941659649404=="
+Content-Type: multipart/mixed; boundary="===============4076105889967311444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 02 Sep 2026 06:42:37 -0000
-Message-Id: <178833135721.3689789.16030532437407676091@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 06:42:41 -0000
+Message-Id: <178833136138.3689970.7087830632263613813@gitolite.kernel.org>
 
---===============3040850941659649404==
+--===============4076105889967311444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ead700ca770c82167af32622cf8b68c9f87c3c7c
-    new: 178b3d97bf1f15f598ea7cc615a40c115e528e1c
-    log: revlist-ead700ca770c-178b3d97bf1f.txt
+  - ref: refs/heads/mm-unstable
+    old: 88297631d4d42f6004cb39c0ba3da7d2d10a616f
+    new: e3b5239afe1b8f0194db7436b17c33e94c1988c4
+    log: revlist-88297631d4d4-e3b5239afe1b.txt
 
---===============3040850941659649404==
+--===============4076105889967311444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ead700ca770c-178b3d97bf1f.txt
+Content-Disposition: attachment; filename=revlist-88297631d4d4-e3b5239afe1b.txt
 
 7b8a8ae4dd176a232e973017d2aa3c536a7275e2 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
 a3417097fb107cea3358b19bcbb4eb655fd67f8c memcg: make the v1 soft limit knob inert
@@ -216,68 +216,5 @@ e53721943ea5a7c49be2ec712de47c77f00ec7fe mm/vmscan: avoid pointless large folio 
 5aca5bef20be0136b620a20f615ebdabdc4bf492 mm/shmem: split large folios only on -E2BIG
 e5b55cfe9c8d41626cd6282734b12a7cba74b093 mm: gup: move pmd_protnone() into gup_fast_pmd_leaf()
 e3b5239afe1b8f0194db7436b17c33e94c1988c4 mm: gup: cleanup the gup_fast_*() call chain
-b7cc4ff575a825cd0839b8d2560561e74e4dbdfc mm/page_table_check: add explicit pmd_none check in pte_clear_range
-4b6558c65fdd5cd097e1ba494c0afc7fe59d3f96 mm/page_table_check: skip zero pages
-eeecd34cf0d7493be742bd8bf4dbf426ca07619e mm/damon/core: skip applying scheme if region split for quota fails
-5f13e27c8319b33f48a6f134fd675813c3226c1f mm/damon/paddr: respect folio end for DAMOS_STAT
-8520998c4dec7051f69ebd500d99f262bf60ac0d mm/damon/paddr: respect folio end for DAMOS actions except STAT
-e99d71008edbbadeee55a68bd7387a99247c4d99 mm/damon/vaddr: respect folio end for DAMOS_STAT
-dba00859e9a85c79413fd853d067646296938f2a mm/damon/vaddr: respect folio end for DAMOS_MIGRATE_{HOT,COLD}
-cfab495b8cadc0a5044e00fe78638dd8eab57ee4 mm/damon/core: handle extreme memory state in damon_get_node_mem_bp()
-0f234d9a384c5874d83fe1894ac11f4547209800 mm/damon/core: handle extreme memory state in get_node_memcg_used_bp()
-2934cbbed718f427d6995e0e6cab5e1ec926e127 mm/damon/core: handle extreme memory state in get_in_active_mem_bp()
-b78e2b83b80ea7f4881b158a8a733bc4f0707983 mm/damon/core: introduce DAMON_FILTER_TYPE_PGIDLE_UNSET
-de62dd4310da6d8dac8d1888ff020dfd88459dc6 mm/damon/paddr: support PGIDLE_UNSET probe filter type
-60f8d3602808e4326c1fc0385f2d602906e0f78f mm/damon/sysfs: support pgidle_unset probe filter type
-1d9f5124bdd8834f8c80ceb181961f59a226feb7 Docs/mm/damon/design: document pgidle_unset probe filter type
-41cf232304117753fa5d595433275ceae6bbf794 mm/damon/core: introduce damon_prep struct
-5b97273ffbfaf0a294bf9de0d5e46d080e743ba8 mm/damon/core: commit preps
-dc9e2963884373dbe0f3638bda1d73d429042d98 mm/damon/core: introduce damon_operations->prep_probes()
-bfaab317c2512e0730effddbd547ba90b737e584 mm/damon/paddr: support damon_prep
-a9219c92ea55dd9c4444fc2ad6e5a9f8cde2326b mm/damon/sysfs: implement preps directory
-5ad28b11a7577e5ab0b88e606af9bbcd607f6173 mm/damon/sysfs: implement preps/nr_preps file
-15be62232ef428998743c431ac6e159e40efee0b mm/damon/sysfs: create directories for nr_preps writes
-03aa14a536762d402fdce0bc1c83da88045d0e95 mm/damon/sysfs: implement prep_action file
-8c8daf11f0a273ea8761213f58b8657662d62b84 mm/damon/sysfs: pass preps to DAMON core
-54796a9efd1b73321cb3e8363ff44d86597f0f9f selftests/damon/sysfs.sh: test probe prep sysfs files
-24d0e85966e7fafd90d7c929e6d730ddbc2b0b08 Docs/mm/damon/design: document probe preps
-958143fcc80ed8c4a31fd892a37a96ced202d356 Docs/admin-guide/mm/damon/usage: document probe preps sysfs files
-5e8eeeda633de825e8c4062664bbc5a906a54dfe Docs/ABI/damon: document probe prep sysfs files
-804d319c967032835e897d93e1550e9d829cd70f mm/list_lru: don't copy stale shrinker id from non-memcg-aware shrinkers
-8b473c58cee7e05bc098fc0c418c300ed08546e0 mm: remove unused mark_page_reserved()
-1367eedad264741e2f9ee569b9915f36c7299ab8 mm: remove unused totalram_pages_inc() and totalram_pages_dec()
-3147c573b0046f93f1f5794b761242b0dd81dee6 percpu: remove redundant assignments to bits
-18f557388d505e158ea25eafdf09ead3daf4f3f9 percpu: remove unnecessary initialization in pcpu_build_alloc_info()
-cfe3daa88f6c0214c27fd0f6ea5840088a55dbfc percpu: remove unnecessary cpumask_clear() in pcpu_build_alloc_info()
-463e69ca04939c43b7632c7cb47702ce42d68180 percpu: remove unnecessary return in pcpu_populate_pte()
-e476204abe31746a8a21cb7093bdea0485a08349 mm/migrate_device: fix function name in kernel-doc
-97e595797bcc7df5cf611bf2e3b2c9b75bd7d894 zram: remove unreachable kernel_read_file_from_path() return check
-abf1a78f2b627fb01291052419eace9b6fb2f57d selftests/mm: restore hidden hugetlb reservation scenarios
-28e4b97a1267c0c10ba03f1e29c5593e3366e555 mm/damon/tests/core-kunit: test committing psi goal to psi goal
-afccce9775b9664affe25cb68aff60499462d3bd mm/damon/core: handle uninitialized damos_quota_goal->last_psi_total
-07f260622fbec923c70db53dc39c3650902104c0 mm/damon/core: copy nid for eligible_mem_bp damos quota goal commit
-1e39b46d26da6091d8f6af4ca6e66af73d949cb6 mm/damon/sysfs: set next refresh jiffies per sysfs context
-07811a9be263f2859c88cc3684de399f9b86ba90 mm/mglru: separate folio generation update from LRU accounting
-b9ff28b3a31bad7443b0aef3dd0197b395b1e4aa mm/mglru: batch update lrugen->nr_pages in inc_min_seq()
-a0c7add40fc0e428abb5fe723113514f7b6e5d84 mm/mglru: enhance cold/hot inversion handling in inc_min_seq()
-a98e3e63bf8256719ad60f3a7fc9dae1ce6cf126 mm/mglru: exclude folios promoted by aging from protected in inc_min_seq()
-45dbd274f3d874fde2999aadc80dcf4241f0318c mm/mglru: make LRU folio prefetch helper an inline function
-133c24254f8febde0bde12c1bea773f71a637ff9 mm/mglru: move folios from oldest gen to second-oldest gen from head to tail
-04df0f128a8bcc8446a74ed042b529a06d05b0ea mm/mglru: batch move folios to the second-oldest gen's LRU
-da835ee0815106eb947efe69e8c9fcee523f1bbb selftests/mm: fix soft-dirty kselftest supported check
-28d602480a749c7112b2ba91e3aff587ad4f70d7 riscv: mm: fix concurrency in mark_new_valid_map()
-26e415689785459fdcd796da5d77d207d0e9bb36 riscv: mm: exclude invalid THP PMDs from page table check
-54a62650af6c4eebc041e30a3cd03de6832d0451 sh: remove CONFIG_NUMA and related configuration options
-a4e98403dff0ee6d0dcb0d0063e43c19bd4e4869 sh: mm: remove numa.c
-42584f2c071b561702daf26da1eae6cd5bd68255 sh: mm: drop allocate_pgdat()
-b27df6166cab2790a22b9156cc978a8055ef5e60 sh: remove setup_bootmem_node() and plat_mem_setup()
-a1436b26ca147c1594365c8c6d6ea232fe104cf7 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-f74f3022327418395fe4ce3d172e2739db997868 sh: drop include/asm/mmzone.h
-3c6108b0f2d5c3e0516792478c5c8d5626328b6d init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-dfd0939f61b6dd00e011fa2026ac1b2f82572533 sh: init: remove call the memblock_set_node()
-bfadb3d3da471775260b13dba98478d618d087e6 sh: remove SPARSEMEM related entries from Kconfig
-d68ccab507bd774aed830cc7f9aaeaa9617bd4ba sh: drop include/asm/sparsemem.h
-2be961f8854f8fe7d1380f9121370bfc4ad2a4b4 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-178b3d97bf1f15f598ea7cc615a40c115e528e1c mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============3040850941659649404==--
+--===============4076105889967311444==--
