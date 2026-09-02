@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 02 Sep 2026 00:14:19 -0000
-Message-Id: <178830805914.3408228.14353277212943912014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 02 Sep 2026 00:17:23 -0000
+Message-Id: <178830824352.3411486.10466109621512776381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/main
-    old: c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49
-    new: 0a1071aa322cb387084f15ea8ba076974ee98271
+  - ref: refs/heads/fixes
+    old: e0c77115f917a10ed74aa1c62528a82bc653902a
+    new: add28ed1bba308a495ad7c9c0de8c6c61c8f5a7f
     log: |
-         d7470cba6dfaac917710ef77192a94d57cb69f00 net: Make skb_ext_put_sp() idempotent
-         dbe45b209edf9b43ec56a1e6858c055c1eb332c3 net: Make skb_ext_put_mctp() idempotent
-         0a1071aa322cb387084f15ea8ba076974ee98271 Merge branch 'net-prepare-skb-extensions-for-reuse-across-scrubs'
+         314526c5dbbf21f721ae55bd67cfa8593809c3f5 dt-bindings: riscv: cpus: Fix yamllint style issues
+         add28ed1bba308a495ad7c9c0de8c6c61c8f5a7f docs/zh_CN: Update arch/riscv/patch-acceptance.rst translation
          
