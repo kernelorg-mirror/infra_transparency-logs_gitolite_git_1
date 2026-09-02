@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1239468488015738249=="
+Content-Type: multipart/mixed; boundary="===============3923113412379537231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Sep 2026 02:10:57 -0000
-Message-Id: <178831505706.3496792.610614778507748362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
+Date: Wed, 02 Sep 2026 02:17:10 -0000
+Message-Id: <178831543026.3500854.13342722637834790263@gitolite.kernel.org>
 
---===============1239468488015738249==
+--===============3923113412379537231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/mdraid/linux
+user: yukuai
 changes:
-  - ref: refs/heads/x86/bugs
-    old: 4992ed7813c54f0a676b7707d1f8f16552fdb240
-    new: ae1d2082d93bc04604dc08e9b7f9cdba5e0c28e6
-    log: revlist-4992ed7813c5-ae1d2082d93b.txt
+  - ref: refs/heads/md-7.3
+    old: dc386aa0ac0a3ec06c9a3ea9b064b073fb72a916
+    new: 6e2b571b0a54755b06e092501913e1dfefe75d6c
+    log: revlist-dc386aa0ac0a-6e2b571b0a54.txt
 
---===============1239468488015738249==
+--===============3923113412379537231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4992ed7813c5-ae1d2082d93b.txt
+Content-Disposition: attachment; filename=revlist-dc386aa0ac0a-6e2b571b0a54.txt
 
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
 bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
 12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
@@ -1049,6 +1046,9 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-ae1d2082d93bc04604dc08e9b7f9cdba5e0c28e6 x86/bugs: Adapt SRSO mitigation to Zen6
+3f9c7a108c0e8f14425384912017071b71341e3b block: flag zoned disks with GENHD_FL_NO_PART
+96c8ea3c5add7920b3c43840d1ea76b3354c8d2d block: save page offset gaps in cloned bio
+e52349a5ea6a74d46dfb703fcb64e08b5af28e8c loop, zloop: fix dma_alignment for large or unreported limits
+6e2b571b0a54755b06e092501913e1dfefe75d6c ublk: clear VM_MAYWRITE on read-only ublk char device mmap
 
---===============1239468488015738249==--
+--===============3923113412379537231==--
