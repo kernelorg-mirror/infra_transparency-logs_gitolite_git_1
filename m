@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Wed, 02 Sep 2026 13:22:59 -0000
-Message-Id: <178835537956.4104517.6465376457648064604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 02 Sep 2026 13:23:10 -0000
+Message-Id: <178835539028.4104791.3930989409578555024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/v5.10.265-rt161
-    old: 0000000000000000000000000000000000000000
-    new: 36044a98b9e68dda2d97e89d2bf3c558da2316ca
-  - ref: refs/tags/v5.10.266-rt162
-    old: 0000000000000000000000000000000000000000
-    new: adf33b6815433e1acc95b584e04e5d4c58b0dbb9
-  - ref: refs/tags/v5.10.267-rt163
-    old: 0000000000000000000000000000000000000000
-    new: f6aac45b88b38bdeb7c78a2ce25b02154bee1e93
+  - ref: refs/heads/wip/leon-for-rc
+    old: a8fe3dfce8c0d8a76dc3d8486a5bff5feebe156f
+    new: 6c368f7baaea63c1c7c28c6df271511f2a1562c9
+    log: |
+         6c368f7baaea63c1c7c28c6df271511f2a1562c9 RDMA/bnxt_re: check create_singlethread_workqueue() in DCB setup
+         
