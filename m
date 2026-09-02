@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Wed, 02 Sep 2026 20:16:20 -0000
-Message-Id: <178838018039.258501.17855612053261613025@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 20:16:21 -0000
+Message-Id: <178838018191.258636.14105314327608094433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: f14f4dc8ea3810f8ed4f0f3ea13f8bba3e2b0f04
+  - ref: refs/heads/imx/soc
+    old: 9d183de1df061377bf5d29f33dc4814382187649
+    new: 8392af7be78d0cdc5f1ec6c9a53d424b32642403
     log: |
-         8188a59dd6782786556b18f515090b79cb701c45 arm64: dts: lx2160a: fix incorrect pinmux
-         6affdda171ca8f2e082e8c4fba56233a2f8c9910 arm64: dts: lx2160a: fix IIC1 pinmux submask rejected by pinctrl-single
-         f14f4dc8ea3810f8ed4f0f3ea13f8bba3e2b0f04 arm64: dts: lx2160a: fix the iic5 spi3 pinmux offset and value
+         242757d109bd5c9b8fb7194fb4d44625be0b859a ARM: imx: Fix suspend/resume crash with Clang CFI
+         8392af7be78d0cdc5f1ec6c9a53d424b32642403 ARM: imx6q: remove KSZ9021 PHY fixup
          
