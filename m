@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 02 Sep 2026 16:50:21 -0000
-Message-Id: <178836782163.111920.6282048120578989158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Wed, 02 Sep 2026 16:52:54 -0000
+Message-Id: <178836797432.112981.868270351096876659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/for-next
-    old: e2dfa503e8e0a9c28e107f7b0cae93d20be1c4ed
-    new: c0bdd460b8fd5c1d825c7ecc3ede2db409da461c
+  - ref: refs/heads/next
+    old: b4e6ae7ba711758c38d5eb7d5a7a0712273bdf6f
+    new: ed9b6a1296f10e4881d93dfe6d76013fbbaeee87
     log: |
-         317c693978670789ea163bcea030f551805cc80b rpmsg: qcom_smd: Fix uninitialized return variable in __qcom_smd_send()
-         c0bdd460b8fd5c1d825c7ecc3ede2db409da461c Merge branches 'rproc-next', 'rproc-fixes' and 'rpmsg-fixes' into for-next
+         ed9b6a1296f10e4881d93dfe6d76013fbbaeee87 dlm: wait for outstanding SRCU callbacks to complete in exit paths
          
