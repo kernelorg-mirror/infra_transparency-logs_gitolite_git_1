@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6028575654699476584=="
+Content-Type: multipart/mixed; boundary="===============6156193231174072162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Wed, 02 Sep 2026 07:12:57 -0000
-Message-Id: <178833317755.3711732.11421389494121576228@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 07:13:04 -0000
+Message-Id: <178833318427.3711902.3910524654491353614@gitolite.kernel.org>
 
---===============6028575654699476584==
+--===============6156193231174072162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: 8ce4f287524c74a118b0af1eebd4b24a8efca57a
     new: 9012da455ab9a05d8205b90d0ad7c8b526f89062
     log: revlist-8ce4f287524c-9012da455ab9.txt
 
---===============6028575654699476584==
+--===============6156193231174072162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b264d8422779d69febce914efc47a92a85cc382c s390/ctcm: Prevent XID null dereference
 70f3995830d3f1e79faa14eb0605914f778feca9 bonding: alb: fix uninitialized transport header access in alb_determine_nd()
 9012da455ab9a05d8205b90d0ad7c8b526f89062 net: 6lowpan: fix mismatched comments
 
---===============6028575654699476584==--
+--===============6156193231174072162==--
