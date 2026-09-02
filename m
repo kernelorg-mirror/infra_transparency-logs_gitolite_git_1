@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 02 Sep 2026 15:39:13 -0000
-Message-Id: <178836355381.57502.17818314483854854636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 02 Sep 2026 15:48:30 -0000
+Message-Id: <178836411033.64130.12890676685210458757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 3a2d543c4c21d9c1dab246d46d76a11996a69bf2
-    new: a03665b6dd20e3b62501867c0dcc7ca6f74d7ae9
+  - ref: refs/heads/dev
+    old: 3fb05e10f09d9be848d0f1bcff161c95dfcecf97
+    new: b96836c051cbdbc0e21f0f8e8396bd239b56c4a5
     log: |
-         a909d5d303cb1c656c2e85150070796317f0cc8c shared/bap: Fix use-after-free in bt_bap_detach
-         a03665b6dd20e3b62501867c0dcc7ca6f74d7ae9 transport: Fix use-after-free when replacing a linked transport's owner
+         c65a25fbf2a03e0c2ae411dc4d2fbadc9eda2aa4 erofs-utils: add missing device_id derivation for flattened devices
+         b96836c051cbdbc0e21f0f8e8396bd239b56c4a5 erofs-utils: lib: unexport "erofs/chunk.h"
          
