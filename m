@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 02 Sep 2026 14:15:07 -0000
-Message-Id: <178835850771.4145274.6722411269094570782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
+Date: Wed, 02 Sep 2026 14:19:12 -0000
+Message-Id: <178835875277.4146986.12220281849387335744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/iwlwifi/android-os
+user: egrumbach
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: 0031f76f73b86f711d0e4e95a967aea1821fb867
-    new: 16929741a622eb345057e41c7b335d9b297890e1
+  - ref: refs/heads/wonder-integ
+    old: 17a792765d6002a1f7f10f0e9712dfb6012090fa
+    new: e0274bdeacdac7f42a7618af51863ebce25a1649
     log: |
-         16929741a622eb345057e41c7b335d9b297890e1 PCI: imx6: Move clock enable after core reset assertion
+         c3fca05d9b993aa57a4e66cf4f37bfc12553244f wifi: iwlwifi: mld: wonder: bring up wondertap0 in init/deinit
+         e0274bdeacdac7f42a7618af51863ebce25a1649 allow older firmware
          
