@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6339976618389392238=="
+Content-Type: multipart/mixed; boundary="===============7631791822358577071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Wed, 02 Sep 2026 14:04:31 -0000
-Message-Id: <178835787166.4134759.8210084385880889386@gitolite.kernel.org>
+Date: Wed, 02 Sep 2026 14:04:51 -0000
+Message-Id: <178835789179.4135019.16169214662350058828@gitolite.kernel.org>
 
---===============6339976618389392238==
+--===============7631791822358577071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,37 @@ repo: pub/scm/linux/kernel/git/mm/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.4/misc
-    old: 22cb0b57a3e063a1febd0699e54c1123bd0ad311
+  - ref: refs/heads/slab/for-next
+    old: 901d3f0004c2ea14acad4ba491fa4ac7fb98e072
     new: 208854282dab2100a33c5eb8859407b5d36b7723
     log: |
          874d785e89a6925a08a59c65a93526d7a8c91403 mm/slab: reject unsupported kmalloc() sizes
          208854282dab2100a33c5eb8859407b5d36b7723 mm/slab_common: reject zero object_size before calculate_alignment
          
 
---===============6339976618389392238==
+--===============7631791822358577071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1788357868 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1788357888 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
-nonce 1788357867-91495257bf795bc9fabbc09d72df0f1181c45064
+nonce 1788357888-fb1670cca1d55386c919c536225d2895d2f2b977
 
-22cb0b57a3e063a1febd0699e54c1123bd0ad311 208854282dab2100a33c5eb8859407b5d36b7723 refs/heads/slab/for-7.4/misc
+901d3f0004c2ea14acad4ba491fa4ac7fb98e072 208854282dab2100a33c5eb8859407b5d36b7723 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmqYLOwbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYian9YH/jVv7LCjlQRdiWH7q86y
-H+34xVOMssk8RsahNUcIbQqCygq8gN+pC7LROMyESXVqCB7Jaa6CwmFrL93HDdji
-CHppiEd7+/yfgiUENosgn8gJoUZzbamvhbV0fCk3O9c+kEJ2HThdPAH4MrEivHVy
-KHsNfOKuPHB9f3D2YJ1xy2Am4+lWAoTKA52fm78YF6zTrV4X4zJxMv/VgqJW5R69
-p5RPNn/HNF3kLxAvhvayS2wQrHbpN31rfcTCG6IukniE+AqFss2KT+vNIchgwBk2
-DxMSt0tM0NwqQVr8qZseMTx3xJd7C9zWFH5Ecp3crLwe6qbkbE965tRt/Ohsuf9u
-7Ms=
-=T53G
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmqYLQAbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaWGcH/jr0N8K1ZQtca8UPrtmd
+Fs41O6bdBVpKjrwtEgpxq9nCB5lxYKrX4KWABqWsyDtPAYzOkbrXbeWQL6WwMWdH
+K1V5YNwPUs3nbPxpgLtz3lcMC+VQflOz/+O7slVJhpEG4/RTHCvowkec4IppjOtw
+qI1/p9Mw4y0n00u4L/DDmQFOgV1r4PXZI0dL8MKJZcJAith1eaGc+tJkhTCrG1Ox
+xCqA5Y9VBkXdCyovtyBDXqKq2IhQmNDcskHgIeW1jmXrw4tkXJlG0uQUBH80/E8p
+KXhi0fZCsRUTfhHn8p/Xv8FUaaoGVT3OvL4B8Zfd0t0ybeDE0SCOd4q5EwLA1n/R
+QLQ=
+=wrnd
 -----END PGP SIGNATURE-----
 
---===============6339976618389392238==--
+--===============7631791822358577071==--
