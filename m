@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Sep 2026 10:41:52 -0000
-Message-Id: <178843211283.903934.1833476390423898738@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 10:55:26 -0000
+Message-Id: <178843292653.913683.9206985573601684443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 8e2faf945a13fc73711a5227af8a1077523b590f
-    new: 60c1bcdeeb8ecacb35a430f516d11d805922d017
+    old: 60c1bcdeeb8ecacb35a430f516d11d805922d017
+    new: b35d3d2fae3058265ba937544a3895cedce18d08
     log: |
-         60c1bcdeeb8ecacb35a430f516d11d805922d017 octeontx2-pf: Add NIXLF error and poison interrupt handlers
+         b35d3d2fae3058265ba937544a3895cedce18d08 octeon_ep: remove redundant memset in octep_setup_pfvf_mbox()
          
