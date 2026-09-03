@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0248418252895295831=="
+Content-Type: multipart/mixed; boundary="===============3021299678520468184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 03 Sep 2026 00:37:36 -0000
-Message-Id: <178839585639.453633.12060651600860162318@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 00:37:39 -0000
+Message-Id: <178839585990.453793.14747167489734256802@gitolite.kernel.org>
 
---===============0248418252895295831==
+--===============3021299678520468184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 178b3d97bf1f15f598ea7cc615a40c115e528e1c
-    new: e539025ff1f7351a42788c5a88aab59c26f5131b
-    log: revlist-178b3d97bf1f-e539025ff1f7.txt
+  - ref: refs/heads/mm-unstable
+    old: e3b5239afe1b8f0194db7436b17c33e94c1988c4
+    new: 45c8b710db8f597121759d7995974a6a0faf347d
+    log: revlist-e3b5239afe1b-45c8b710db8f.txt
 
---===============0248418252895295831==
+--===============3021299678520468184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-178b3d97bf1f-e539025ff1f7.txt
+Content-Disposition: attachment; filename=revlist-e3b5239afe1b-45c8b710db8f.txt
 
 76041b0fd27cc793cdd6ef6e865985daaf068cfa module: fix lost error code from codetag_load_module()
 81cb6a7b0a63c3d94c5db4ac3491162c75d220ac MAINTAINERS: cover all of RAID
@@ -240,70 +240,5 @@ ff9bb4d569cfed1eca2919ec4629eb086592f482 mm: remove unused mark_page_reserved()
 a9c90f4f4844998831f4336166355690edf651cf percpu: remove unnecessary initialization in pcpu_build_alloc_info()
 7e73e7bdefd575a222887ecf749016852676a596 percpu: remove unnecessary cpumask_clear() in pcpu_build_alloc_info()
 45c8b710db8f597121759d7995974a6a0faf347d percpu: remove unnecessary return in pcpu_populate_pte()
-dd5be4aa85379eaa2bfb5d3a1e537beed18bc80f zram: remove unreachable kernel_read_file_from_path() return check
-eff9f328d739663117f6cc760d3f59efdda2a6f7 selftests/mm: restore hidden hugetlb reservation scenarios
-a20e38846efba57cd20fb973d1c5574ca7b3ea15 mm/damon/tests/core-kunit: test committing psi goal to psi goal
-eb36f7f20aefac38baca865fda03a1d20066a8df mm/damon/core: handle uninitialized damos_quota_goal->last_psi_total
-0bd2b9be3184a90a37bb2be1c9051129c2cc12fa mm/damon/core: copy nid for eligible_mem_bp damos quota goal commit
-72dc8fdaae62504a38ba30d4aca9d2473e88769f mm/damon/sysfs: set next refresh jiffies per sysfs context
-96865cda39b6037ef847c10cdedf10c04ba424b2 mm/mglru: separate folio generation update from LRU accounting
-3db2a4ec632cb9dea683df295dc3ade592407197 mm/mglru: batch update lrugen->nr_pages in inc_min_seq()
-9869a610513f26ca28c303fb8fee47a9d3f5f9e1 mm/mglru: enhance cold/hot inversion handling in inc_min_seq()
-26bd58eefa879c5238c4042654bfc08079ab25fb mm/mglru: exclude folios promoted by aging from protected in inc_min_seq()
-16981521f0ce20cb43f80a8c6c8003de526fcf73 mm/mglru: make LRU folio prefetch helper an inline function
-2a32669e4c0532df32bf20140b3641d2bd64442b mm/mglru: move folios from oldest gen to second-oldest gen from head to tail
-c10dd44085dc70cbe49a3c024ca5ae435167c9e8 mm/mglru: batch move folios to the second-oldest gen's LRU
-576fec8b9d4cbef3a2dfdb068ae9ad18f24ec328 mm: move drivers/char/mem.c to mm/char-mem.c
-5669d4d9ac8fe20494239d4426cf4936d33f71af mm: implement file_is_dev_zero() to uniquely identify /dev/zero
-2d0b7af120322037d7f4119ac593b2ea5d388081 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
-01c6d8a48a309ffcaa0eacb22b46a603eb60d527 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
-549fa783d787ab262379abc976adf35673efaa9b tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
-90e90a046626d1368e838331563b7285266ee8af tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
-f28bd28671cb5661250418f2435eaa85d4e0814f mm/damon/tests/core-kunit: test damon_commit_filter()
-a28851494d44955de5575fe2a02bc0de2b117f53 mm/damon/tests/core-kunit: add damon_commit_probes() test
-011893743b9aeae63f6865341ccedc214a038a71 selftests/damon/_damon_sysfs: implement DamonProbes
-13731544b5a200487a1a812140ae932501574fbe selftests/damon/drgn_dump_damon_status: dump probes
-a5fa76641d01ef86c3f1ef4b3cbbfe4ecff7fc43 selftests/damon/sysfs.py: extend commit assertion function for probes
-e8af98b9a077b1a62262cdf662bfff229b0a2c6b selftests/damon/sysfs.py: test damon probes
-8e598ad19debfb582ffa5d01622782e684187e63 xfs: remove dead kswapd flag inheritance from btree split worker
-051eef1d60ed9c2fea085e1d756eb061a78831a3 iomap: simplify writepages reclaim guard
-cc0770c8d4dab7fc308a7a92b912b7c2f65ef692 mm: replace PF_KSWAPD flag with kthread_func() check
-7d46a407690ef009e8870a0ca08c404b97cc62bb mm: replace PF_KCOMPACTD flag with kthread_func() check
-56180ee733c79fdff3703f27550c6c0fe018f6cd mm: hugetlb: return -ENOSPC on memcg charge failure
-b258757171944bcef84d2b140829470be71437f3 mm: hugetlb: drop refcount before freeing on memcg charge failure
-1b4377d67b3e91e0abe683f6d43db33a21e8f02b docs/core-api: memory-allocation: add k[mz]alloc_obj() and clarify kmalloc
-82aeb77ab48ccc1129658762914809cd263aee40 MAINTAINERS: add memory related docs in core-mm/ to MM - MISC section
-ccbe21c35171144ebc75c7e2452074dd02a43f66 mm: trace: decode arm64 and sparc64 VM_ARCH_1 flags
-01cb45cb094deab235054cc1c484820b98081725 mm: trace: decode MTE and shadow stack VMA flags
-87a4aa48bb2781163230cd728ab68923518dfda5 mm: trace: name protection key encoding bits
-ccb0f76eb99e6d0e4d524f3fa1c880c431e78422 mm/damon/core: use damon_nr_samples_per_aggr() for max merge threshold
-6b56370b4fdace0e55949a6c1f1dd6c6c3d17fb2 mm/damon/core: remove debug messages
-f539c68e33476470815061b65a3d16008a3bea80 mm/damon/core: remove string_choices.h include
-d76723466812c8f1701f83361e19f119b5f6f258 mm/damon/vaddr: remove a debug message
-4e7ec870ecfce05d2a9f8597440840f4d3f4fadf mm/damon/core: validate number of probes in valid_probe_params()
-b75aca942e2d8669eb70f87e399823f1457d9adb mm/damon/sysfs: remove probes number validation
-e538f8dc134c44ec119cd6f3879436f081fa9795 mm/damon/tests/core-kunit: extend set_regions() test for error case
-932c667f7984e92ab0c37ee330b3cafe2363e8a3 mm/damon/tests/core-kunit: test <=0 size damon_set_regions() inputs
-d5bdbe48da1f9fe09c536cc19ab081bd92847222 mm/damon/tests/core-kunit: test overlapping ranges for set_regions()
-b382988cb6c796688acbb0cc3ba627f1549b6336 mm/damon/tests/core-kunit: test damon_nr_samples_per_aggr()
-80764088ecf8a9006ff50cedc429c40f4597c4ee selftests/damon/sysfs.sh: test hugepage_mem_bp quota goal
-eb2adb2d9e578e1aafdccf6d6a58dffdfdc4a7ec Docs/mm/damon/maintainer-profile: update AI review for Sashiko replies
-d234f57c7a1eedc62d4415e5e589e3ad7874d646 Docs/ABI/damon: recommend subsystem doc instead of admin-guide
-df2c750fc259530dcd55eef0ca357a67753652b0 mm/migrate_device: fix function name in kernel-doc
-8edfc680b62af880e3693997f10d883545d28e68 selftests/mm: fix soft-dirty kselftest supported check
-103e41a793d6078fd717872dca0ec2a79978a154 riscv: mm: fix concurrency in mark_new_valid_map()
-45de186b075701461645b61feb68b2f5b767e3ac riscv: mm: exclude invalid THP PMDs from page table check
-bb96df5a553c1bf832fa85c15a74042066099cec sh: remove CONFIG_NUMA and related configuration options
-0a60e6ebf0fb9f733e7c313b550607309bdcfde3 sh: mm: remove numa.c
-bce2aa5efdaf546e5dd2d9618c880ab5b128ebef sh: mm: drop allocate_pgdat()
-668ec6f2f2238dc285443d074017722f3f8052a6 sh: remove setup_bootmem_node() and plat_mem_setup()
-ffb51fd7f972e8db06276e73ec0a135b53852d5e sh: drop dead code guarded by #ifdef CONFIG_NUMA
-e1b0a6a73eae37436ea82b3980a759fd6ab5402f sh: drop include/asm/mmzone.h
-030ac3e5f6d3030a2ad171ffc90a5bb22b1fe7c9 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-0941553463a78d910daba1413a5ffdd651776fb3 sh: init: remove call the memblock_set_node()
-7da6fe31906920171df34fa5f30c27645edc0c08 sh: remove SPARSEMEM related entries from Kconfig
-98d2b96f4aef5221b5d6bec272a076cfbfc7998f sh: drop include/asm/sparsemem.h
-f5bf3e50ef11afbd8f869fc59ae11eaab940319c mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-e539025ff1f7351a42788c5a88aab59c26f5131b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0248418252895295831==--
+--===============3021299678520468184==--
