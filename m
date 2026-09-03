@@ -1,24 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Sep 2026 03:28:37 -0000
-Message-Id: <178840611771.585626.12204934694275209530@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3213995869377018336=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 03 Sep 2026 03:38:52 -0000
+Message-Id: <178840673224.592688.2015153820696138723@gitolite.kernel.org>
+
+--===============3213995869377018336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 3498acda6b68139ec7b8037dbdf1ea720997ed04
-    new: e16acadb9a0f7a0f04318e4b3a8e89e8ddd0c905
+  - ref: refs/heads/for-next/hardening
+    old: b74dc82a3b289b872eb4ceaa2a3528e9d9b53931
+    new: 37eadcb919b02a742582de781097b455f7b16d76
     log: |
-         b1950d0426aabdda485c86b504106b1d7b11f325 net: dsa: yt921x: Check lock status with lockdep_assert_held_once()
-         9c472a0d7c3893e568e1b61728d443a9d10bb3a8 net: dsa: motorcomm: Move to subdirectory
-         e9423a64d382ba77a2906f365416714ede67328e net: dsa: motorcomm: Split SMI module
-         9af9a816821365e57736307bfdfcf06d89065556 net: dsa: motorcomm: Add LED support
-         5f28f63c5d1984f71685bc39ea62964c068b1a5d dt-bindings: net: dsa: yt921x: Add LEDs definition example
-         e16acadb9a0f7a0f04318e4b3a8e89e8ddd0c905 Merge branch 'net-dsa-motorcomm-add-led-support'
+         ff936b726c981e362f02755b6417654dc4ef297a KMSAN: fix memset() when using fortify-source, again
+         37eadcb919b02a742582de781097b455f7b16d76 signalfd: don't dequeue the forced fatal signals
          
+
+--===============3213995869377018336==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1788406731 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1788406717-6103fbf918fc984810b924ce7e54ce1a70cbcb16
+
+b74dc82a3b289b872eb4ceaa2a3528e9d9b53931 37eadcb919b02a742582de781097b455f7b16d76 refs/heads/for-next/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCapjrywAKCRA2KwveOeQk
+u2mdAQDzj+pJyQ3jAyPSdCUsiqWwGeLDccN9oMhj5kUPx5AO5QD/V/9rcWyF8U76
+0Os1W9Z2fz4qXL3rv1/Umf/9znGj8QQ=
+=4YFS
+-----END PGP SIGNATURE-----
+
+--===============3213995869377018336==--
