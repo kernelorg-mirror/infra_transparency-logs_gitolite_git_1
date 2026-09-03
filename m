@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6517511328801140358=="
+Content-Type: multipart/mixed; boundary="===============6501450188635902253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 03 Sep 2026 18:59:51 -0000
-Message-Id: <178846199141.1302994.16582022168304954637@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 19:00:24 -0000
+Message-Id: <178846202464.1305395.9244889495235673603@gitolite.kernel.org>
 
---===============6517511328801140358==
+--===============6501450188635902253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 461735aa6e8e357fb90d2cf827d2b15ce78a1bc7
-    new: 9fc73fdd193704be24252f4d30dff8bb6fda064c
-    log: revlist-461735aa6e8e-9fc73fdd1937.txt
+    old: 9fc73fdd193704be24252f4d30dff8bb6fda064c
+    new: 48270700b6dd3d067889e513e90997a81a6a4b1f
+    log: |
+         4cef679d2511b6f486f9632b663f25e18ed5afd9 Merge branch into tip/master: 'locking/urgent'
+         7fee44d60d41d0eb8652b40cceaa4b5e8147b777 Merge branch into tip/master: 'perf/urgent'
+         223f1750ff141a7e59b2724b645f348ffdab12e9 Merge branch into tip/master: 'sched/urgent'
+         586e57cb2f695099a15e72029804a0592e6ad566 Merge branch into tip/master: 'x86/urgent'
+         44489ffd62e490768c6251d93d6e3acc6f4fb4e0 Merge branch into tip/master: 'sched/core'
+         a32188d43b3f4d4bbd04c18dc398a1aadc7f7179 Merge branch into tip/master: 'x86/boot'
+         667828183dd021bfc3b525088bcfbcea704cda93 Merge branch into tip/master: 'x86/bugs'
+         1310e152b587d11ae3ae2b6c123218a3f45351e9 Merge branch into tip/master: 'x86/cpu'
+         091c07c8300ba31d0a721d2ce7387a1875bff0e1 Merge branch into tip/master: 'x86/kdump'
+         4b059d09ac96102c24a72644d23b71ac5321918a Merge branch into tip/master: 'x86/misc'
+         48270700b6dd3d067889e513e90997a81a6a4b1f Merge branch into tip/master: 'x86/sgx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 9cbd68d2653732ea4fb4f1831d541436cc6b864b
+    new: 586e57cb2f695099a15e72029804a0592e6ad566
+    log: revlist-9cbd68d26537-586e57cb2f69.txt
 
---===============6517511328801140358==
+--===============6501450188635902253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-461735aa6e8e-9fc73fdd1937.txt
+Content-Disposition: attachment; filename=revlist-9cbd68d26537-586e57cb2f69.txt
 
 3d3de2aee17d1431694aa085039479b5679e5ad4 ntfs: return DT_UNKNOWN on inode lookup failure in readdir
 9692b1b4fc00cf89628bc43f71729ab21f14f8d3 ntfs: propagate reparse index insertion failure
@@ -157,13 +173,7 @@ f695390ea63941a9e412bf1f3afe65ab245fc681 octeontx2-af: Fix limiting SRIOV VF cou
 7d4d4f3b668d708d94f62ecdd33ac330a6fd8a84 dm-integrity: fix NULL pointer dereference when the 'R' flag is used
 7ac81e2d2240f2c57bd073b0733e0b2abca38e82 dm-ebs: fix incorrect device offset check in ebs_ctr()
 60714fb1d494e11d1eb54b0aef45e250c51279a8 x86/amd_node: Prevent potential NULL pointer dereference
-993b65a2fc6f3b2d61428ed2f2d10f94e94e6f3c x86/sgx: Report RCU-Tasks quiescent state in EPC sanitization loop
-4a673a0026b95030ee727f1f8578c46a42107011 x86/itmt: Don't make ITMT enablement depend on debugfs
-f4cadf2d1ee3a24f259495309b76f98af467004b x86/shstk: Shadow stack enabling write return code change
-6744e454d877e51394ed15e48e25c97dd6c62099 x86/boot: Use BASE_BAUD and DEFAULT_SERIAL_PORT
 7755fae2ea370ee914797c5bcca922836a818c3d x86/MCE/AMD: Fix inverted interrupt enablement during storm handling
-6664ad1026b558563702f9a1ce637df33e7c001e x86/crash: Reserve elfcorehdr for CONFIG_NR_CPUS, not CONFIG_NR_CPUS_DEFAULT
-d949fa7b1ec54c626b656f873b95d76b8ab0d143 crash: Update stale NR_CPUS_DEFAULT references in elfcorehdr sizing docs
 940de590b839f71d6dc846160534bf202401b8b7 Merge tag 'hardening-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 af602c7aa5fedc9be3043244017aef4f26c96b70 bonding: do not clear curr_active_slave prematurely when releasing all slaves
 5a3f7a683aee56e1f15c9d53041f3236767eaae7 net: bridge: mcast: don't truncate the port group walk on teardown
@@ -185,12 +195,9 @@ e8e60d74fec49ccae2aea9b04a6eb162feb8d9af net/rds: tcp: don't force RDS_CONN_RESE
 8ab1afb2eb246ab15b301cd255b5943d208a93c1 Merge tag 'for-7.3/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 adf50c47a47f0f0f0b79dd58ffade9919cddebea Merge tag 'net-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 841e384b841a3d89c50b4b2d6c5bb6abab1a7e39 Merge tag 's390-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-0924adf3a5f0e333c1fc641d9b6e35181dd8acbe Merge branch into tip/master: 'x86/urgent'
-74b67d4e76f7b7bb5a38414a2b67ac9abdd2f91f Merge branch into tip/master: 'x86/boot'
-b0cf1ba59309edd58442b2a0af8f01e104c13d3d Merge branch into tip/master: 'x86/cpu'
-085ca13f2cb3246dabf7a60a103d3e5e3ec0bfd5 Merge branch into tip/master: 'x86/kdump'
-16f51886adcc4c243c37b5f99afd1f9dd40d2a52 Merge branch into tip/master: 'x86/misc'
-256e841d9bd27c0a931f0217d0da30db6320986d Merge branch into tip/master: 'x86/sgx'
-9fc73fdd193704be24252f4d30dff8bb6fda064c Merge branch 'linus'
+4cef679d2511b6f486f9632b663f25e18ed5afd9 Merge branch into tip/master: 'locking/urgent'
+7fee44d60d41d0eb8652b40cceaa4b5e8147b777 Merge branch into tip/master: 'perf/urgent'
+223f1750ff141a7e59b2724b645f348ffdab12e9 Merge branch into tip/master: 'sched/urgent'
+586e57cb2f695099a15e72029804a0592e6ad566 Merge branch into tip/master: 'x86/urgent'
 
---===============6517511328801140358==--
+--===============6501450188635902253==--
