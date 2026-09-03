@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6490077135118686641=="
+Content-Type: multipart/mixed; boundary="===============4987658827678987825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 03 Sep 2026 16:43:35 -0000
-Message-Id: <178845381585.1201599.17921549063486950434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 03 Sep 2026 16:43:52 -0000
+Message-Id: <178845383283.1201911.7042354810520678489@gitolite.kernel.org>
 
---===============6490077135118686641==
+--===============4987658827678987825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 32b6ef9a5d0eca44f9cd91f52f4faa89f145a0de
     new: 9d80aa4617b32f5054c5aa471d06b66704854935
     log: revlist-32b6ef9a5d0e-9d80aa4617b3.txt
-  - ref: refs/heads/stable
-    old: 89a312991dc6e638a36adc43ccb91dbc25504c04
-    new: 940de590b839f71d6dc846160534bf202401b8b7
-    log: |
-         2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
-         940de590b839f71d6dc846160534bf202401b8b7 Merge tag 'hardening-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-         
-  - ref: refs/tags/next-20260603
-    old: 3a342e57502f33a35ea72f8fb0f81c3f1d482c21
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260903
     old: 0000000000000000000000000000000000000000
     new: 0abd4c5dd02744f837ade691fb214ca7cb970e4b
 
---===============6490077135118686641==
+--===============4987658827678987825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ a573a29cf79f90c1a9c8cccf0f6fdf65a43e9f09 Merge branch 'for-next' of https://git.
 9f308e750b94959e79f2109cc7688537d37cb358 Merge branch 'headers' of git://git.infradead.org/users/willy/pagecache.git
 9d80aa4617b32f5054c5aa471d06b66704854935 Add linux-next specific files for 20260903
 
---===============6490077135118686641==--
+--===============4987658827678987825==--
