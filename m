@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 03 Sep 2026 14:43:35 -0000
-Message-Id: <178844661589.1110925.7814969129334539956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 03 Sep 2026 14:49:48 -0000
+Message-Id: <178844698816.1115017.978754802679245177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/for-7.3/dm-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 5ef6f9dca9c79d891a17b3c55d76b2f91472b7bc
+  - ref: refs/heads/dev-test
+    old: 617d0d8d199ba1790c94310fd75a22d01c97a8d6
+    new: 82e664cf1219c459c33aae931b222cf951af9cb7
+    log: |
+         82e664cf1219c459c33aae931b222cf951af9cb7 erofs: disable LZ4 rolling decompression for now
+         
