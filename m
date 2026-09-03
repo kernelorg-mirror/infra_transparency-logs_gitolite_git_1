@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 03 Sep 2026 18:04:09 -0000
-Message-Id: <178845864966.1263715.9708068531277235119@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 18:04:21 -0000
+Message-Id: <178845866136.1264027.10768609835684071471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/heads/clk-pile
+  - ref: refs/heads/clk-next
     old: 84964d0ce3faed815e1b8e048ce5ce1c93badb18
     new: 91b1b8d437abe0cd83210d8f257b785a63047aa9
     log: |
