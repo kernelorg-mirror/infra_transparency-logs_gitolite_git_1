@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
-Date: Thu, 03 Sep 2026 13:36:24 -0000
-Message-Id: <178844258492.1030811.1111398933413166725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Thu, 03 Sep 2026 13:36:31 -0000
+Message-Id: <178844259120.1031059.15595281501164223814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/memblock
+repo: pub/scm/linux/kernel/git/rppt/memblock
 user: rppt
 changes:
   - ref: refs/heads/fixes
