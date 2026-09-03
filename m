@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 03 Sep 2026 09:06:04 -0000
-Message-Id: <178842636413.830944.9770569673009687916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
+Date: Thu, 03 Sep 2026 09:07:54 -0000
+Message-Id: <178842647427.831674.3530836323088341127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/wpan/wpan
+user: sschmidt
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: cf176c115497bc6462391c3118bedfd212092c4d
-    new: a2cfc48fee416f0ea78e7dc38acbf2ce072574cc
+  - ref: refs/heads/master
+    old: 979d5b8de8ed4e1f997aef12da5694b99be7b871
+    new: 2f37fba846c9fdff5fc15b6d93656057ccd13031
     log: |
-         a2cfc48fee416f0ea78e7dc38acbf2ce072574cc gpio: altera: Fix build failure caused by undeclared 'irq'
+         2f37fba846c9fdff5fc15b6d93656057ccd13031 mac802154: fix use-after-free of sdata via queued RX frames
          
