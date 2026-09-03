@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Thu, 03 Sep 2026 20:33:54 -0000
-Message-Id: <178846763435.1395722.8072796386175118916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Thu, 03 Sep 2026 20:34:35 -0000
+Message-Id: <178846767569.1396240.1856732555514221047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/b4/drm-panels-sofef0
+  - ref: refs/tags/selinux-pr-20260903
     old: 0000000000000000000000000000000000000000
-    new: 098122173deef6ab085a94f6bb857bbeca73bdbf
+    new: 1beacb597ff1c4063d70b7f15aa638c2bd9adaa1
