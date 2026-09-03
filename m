@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 03 Sep 2026 21:33:02 -0000
-Message-Id: <178847118287.1440469.15944886599927885264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 03 Sep 2026 21:33:41 -0000
+Message-Id: <178847122196.1440884.128152071509355678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.4
-    old: f7396c2dbbc1bed6c2c554d1ddf80d16e4780a7d
-    new: f0c54cc56a9a21047b1afa209baea8ea931f2e92
+  - ref: refs/heads/for-7.4
+    old: a95505795efe9b18eb5a6baf6e2c41c6f8764340
+    new: ea495a3fb58fad347865105a0b5095a3aa08ab30
     log: |
-         f0c54cc56a9a21047b1afa209baea8ea931f2e92 regulator: pf1550: fix division by zero in the ramp rate selection
+         9e6ad2ba055f89df9f14930e50dc6a997b71e9ad ASoC: dt-bindings: imx-audmux: Replace tabs with spaces
+         ea495a3fb58fad347865105a0b5095a3aa08ab30 ASoC: soc-card: don't use card->dai_link[] in for_each_card_prelinks()
          
