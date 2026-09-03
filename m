@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7051415797329374267=="
+Content-Type: multipart/mixed; boundary="===============0202677616337128921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 03 Sep 2026 03:08:33 -0000
-Message-Id: <178840491360.570881.16708694019361508691@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 03:08:40 -0000
+Message-Id: <178840492078.571105.17764187043129109060@gitolite.kernel.org>
 
---===============7051415797329374267==
+--===============0202677616337128921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 12e67eb89eb2b9516685c744d3f7de0a2d1bd701
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-12e67eb89eb2-cee9395acd80.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 200d7349e06a4f329c961b0b271194fa93de0f6b
+    new: 620ce3597492e349536f3ada0dad30b39b5bce2c
+    log: revlist-200d7349e06a-620ce3597492.txt
 
---===============7051415797329374267==
+--===============0202677616337128921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1788404911 -0400
+pusher 75C5DE3D 1788404917 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1788404910-c9d5fae501fd2c9199390bebb089553e8aad3ba6
+nonce 1788404917-02e409bd8af18f8bac5801160397fc41c82b1f24
 
-12e67eb89eb2b9516685c744d3f7de0a2d1bd701 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/queue
+200d7349e06a4f329c961b0b271194fa93de0f6b 620ce3597492e349536f3ada0dad30b39b5bce2c refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqY5K8ACgkQ7ulgGnXF
-3j1kghAAoHT1mc/Mg6tz4C8LinMNfDhHWl2Jn7rArurjapAOkg0LguLCJfn0QFCB
-FeTBGEN+1ScVIh2BTEEbNOh0rnpGEZAki1NsHmcZUUPrzVc78viSgXAW0z1Q8QKB
-sGk038lCrAl7/IqXvfssxQF6VMIOFH7h5Zqwakiblxq1KZBv/wHrpKiHky0PTHnn
-YUheSYhdBbLF7NJwyRzWALGvOXSVVa5kZnJEwFo7WfC7nnIqsxnSoCGUX9TzpmHO
-6r25Spri5uXPHyFfdxGWjUp+ePNcS3G4jiJop/XurmXR6bCnWXaK+12o3Gtht+DS
-9px3Hsc5qVaGGUc7C7+gIPERrERBxw6+/fibNgBJbl9hUxlPQzKE0z84apR8NkP8
-Yk0db9dde7Q6sr/+3nRg3Aht315QDp11c36GIMM25Y08HL/eBnZTwGdkVrN2HvQy
-mMmOQrXuEJR6VrC6ZjquGThKjyx+RN7R7ra36Q2HX/mJd4qqbWU5JAXc3aue426J
-eEC7p2/0HHD2Afg9p798nixKoVcGf2idDpU/qFszVImDSauEbS9u3f8yNVnjOlPE
-BzFwPkbIr643a7B/t7OBofRQ/tW0Tl+7E7f4WZHdJbpdtl3Muhv2nj9nEGo3lktT
-0C2ucpocUmaHCJsnXFAGnrxWpiktLaAW4giWRSaA83I3O/ojaLA=
-=abVl
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqY5LUACgkQ7ulgGnXF
+3j0PtRAAm1JMSUrZ42TB2DRmkz0OCpDE0bDILZCl8RMxH8ySFmyeJwUN15ROayzh
+ER1AWezd/JEdF8jULItIGMeMnP9K5ZsQsMvcfcJr6Pwqyk2cwhwUau3uwF0Cni+H
+y47g7ikvmUsOdUNARVRmP8AbCs29jXFC8FU84v4wHy1LBAatsX3xj9QXzvoSsiGj
+B23bhtBROv78UfzodPl95uXdMEimpzq+g/Ix8GnV44MGcNv35T5yQ7DHrL1cgPbC
+WYCmnpsEv4Cvo6f1/k5KdA6R1aCkazcsu+1Vml3rCgV21aTDnnIMV2RaL3xbaX93
+oPDVw+EAILptph607rgWnMD/OOuHqg4BVd55JoiXuGuAaRxc0fpZ02L+8HiErDOc
+4Onx09FB0RVho6BHqAzKPdgjsJ3SPLHh7d91kCyvHMkRC+eK02g6KYQbhZLFmj2R
+2ZfU2gWhK1ZL/jJoBjnGrylMAgWbhHLzCdmcYK1iN3Fq5lDgISgngfZllgfXrxVB
+2AI0EgsHNBVcl9ewM5JtCJYc3TLWufO1PS0nYZiryMckwTFTJleI+gD9Xb8F8rbI
+fL66L33eKZWlpenrAx8eMVID+E2ZyWCMcPk3l78NsO4S6fa7lr9NRuONxK1GbT97
+9T4ermDlYLL8rFCOc6ltKCmcCKg4xoO1NSSm3YxWHuLtEpaB18A=
+=UeMd
 -----END PGP SIGNATURE-----
 
---===============7051415797329374267==
+--===============0202677616337128921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12e67eb89eb2-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-200d7349e06a-620ce3597492.txt
 
-b1b741cf8e7ce1b91d937e23decd3d3358748700 smb: client: clear ce->tgthint in free_tgts()
-364b183230586a62660a7280c1eb20138338eeb5 cifs: use cifs_invalidate_cache() in cifs_do_truncate() for O_TRUNC
-32a7af68df7361fe7cf153cf36124d04b94aec00 cifs: add cifs_resize_file_locked() to guard fscache_resize_cookie() under i_rwsem
-297d8026a570f2d5552d34e2aa143408da1d57c9 cifs: remove redundant size-update block in cifs_remap_file_range()
-60be95527bc8d1b33dca25d2a849268cca11d139 cifs: remove dead size-update blocks in cifs_setattr_unix/nounix
-77d852c76342ff4922f7fabef465cc5d012ab0a7 smb/client: fix nlink of an overwritten open file
 2943ec93ee6fb4683b73e66ac516b62df091e41b rtc: ds1343: replace symbolic permissions with octal
 5904c4109554582ce8ded6a4dcfede48b21dbe4d rtc: zynqmp: Return optional clock lookup errors
 e8bf40d154020dd323596933ffaebda7111828fa Merge tag 'chrome-platform-firmware-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
@@ -1080,5 +1074,11 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
+f07ed527235c44e0aae53100133bb547f5ee448f scsi: target: file: Use kmalloc() to allocate temporary protection buffer
+b4fe0d7d41eacf3c2ffa54eef3e5e93ac8777518 scsi: proc: Use kmalloc() in proc writers
+0abe3fb1c5056b7f2f99178b23db8aa95dd03f85 scsi: ipr: Use kmalloc() to allocate IPR dump buffer memory
+e64b8f3224add21f02c5d64e11371830e631cdba scsi: sym53c8xx_2: Replace __get_free_pages() with kmalloc()
+401b5781ab9182b28a1c6c4e262cc5e1e7716fbb Merge patch series "scsi: replace __get_free_pages() with kmalloc()"
+e83b47309f73313e75c3888d7839666aba5b2b2a scsi: core: Drop Scsi_Host.default_lock
 
---===============7051415797329374267==--
+--===============0202677616337128921==--
