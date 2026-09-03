@@ -1,51 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============6571444817192934558=="
+Content-Type: multipart/mixed; boundary="===============2114285980575843028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 03 Sep 2026 09:59:26 -0000
-Message-Id: <178842956677.869495.15543012588083543823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Thu, 03 Sep 2026 10:01:31 -0000
+Message-Id: <178842969163.872359.4521136982388985556@gitolite.kernel.org>
 
---===============6571444817192934558==
+--===============2114285980575843028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-rc
+  - ref: refs/heads/fixes-test
     old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 3fb905f07ea45b31c8f67ba6e4668de46f527e65
-    log: revlist-cee9395acd80-3fb905f07ea4.txt
+    new: d79db535546b9858f64f27fe968005024d39f828
+    log: revlist-cee9395acd80-d79db535546b.txt
 
---===============6571444817192934558==
+--===============2114285980575843028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-3fb905f07ea4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-32cd87f54dd1070020e664ccb0312a9f0fea79b4 RDMA/siw: Clear association under lock if siw_qp_modify fails in siw_accept
-ae36a5b609ae79f4de966328b78d2584be9719a4 RDMA/rxe: validate access flags before swapping the MR's PD
-d10e2a08799e858d3e71ea4169bcd018f216d444 RDMA/rxe: Fix integer overflow in mr_check_range() leading to OOB access
-769001ce838d907ecaa95f1d0a4e8fc86f761f9f RDMA/rxe: Restore HMM_PFN_WRITE check in ODP write paths
-1caceeb2d74bbe88223aea55eb8626b4c5f076fd RDMA/rxe: insert mcg into mcg_tree only after rxe_mcast_add() succeeds
-975396b9e5a4028e649f4b9a6a5ca5dfb76a824b IB/hfi1: Resolve the credit-return buffer through the send context's node
-62f0f34fbd2b2d5653d33d3b9d42fdcabb1c0101 IB/hfi1: Fix the PIO_CRED credit-return mmap
-2be77295316c2dff0a33c0dc3a65abdab4ccf796 RDMA/mlx5: Remove warn on missing representor in query_port_speed
-ef9fbe1b93f3b617b96e86d5cd76b3fa44514cb5 RDMA/core: Reject unregistering netdevs in ib_get_eth_speed
-a44a3f175eaee7e5aeb6a8fed381c4a0d5f49236 RDMA/uverbs: Fix mmap_lock/disassociation_lock circular dependency
-1af874e9f4ce22ccf8b10ab5462f32c70d3be21a IB/mlx4: Fix use-after-free on pkey sysfs registration failure
-9cdfad5dd5529e1700f51feaed5e8a90044d7e35 RDMA/srp: Fix srp_remove_target()
-d85f0f0a7c85756fc992c70d869706f19dac9259 IB/iser: reject a remote invalidation of an unregistered direction
-a8fe3dfce8c0d8a76dc3d8486a5bff5feebe156f IB/isert: wait for deferred control PDU completions before releasing the connection
-6c368f7baaea63c1c7c28c6df271511f2a1562c9 RDMA/bnxt_re: check create_singlethread_workqueue() in DCB setup
-99c24a8968ebef0573825b5cb89d5985d51635b9 RDMA/rtrs: guard against null kobj name
-23d7e03a52ece66b992620aa9b8fa5f164077c0f RDMA/bnxt_re: Avoid exposing umdbr to userspace
-08d4d9802d58bf032099091e6acf719f3298f28e RDMA/uverbs: Fix potential leak of resources->collection in flow_resources_alloc()
-3476c28c9addfa253f505e6bd87f1f5598b961d0 RDMA/mad: Fix receive buffer leak when PKey enforcement fails
-00baeade709fb66da647e8327e8398bb532e30f7 RDMA/erdma: Use IRQ-safe XArray helpers for QP and CQ tables
-3fb905f07ea45b31c8f67ba6e4668de46f527e65 RDMA/irdma: Enforce local fence for IB_WR_REG_MR
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1788429685 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1788429684-450bd3d3f6db8751cc76325d87a990257f2abe82
 
---===============6571444817192934558==--
+cee9395acd8043be0644b25c34bfa86623f2b935 d79db535546b9858f64f27fe968005024d39f828 refs/heads/fixes-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmqZRXUACgkQpnEsdPSH
+ZJQI/w//aokvhuNFb/KEo8ENZLsvlpp4RiTeg+9VjHqYAW8z8gBraZk+QSS+Ns/q
+WL+aEVQ1GTM5p/ecGeJWePqqhiokq7ldJID372qISlxI0kXD8XbCu1Q0ItXv+v6A
+5Yb1brW1PyZ5XWDW2ZdXpzQI1cGBBVRqNk2Ef5FoJLYysXHZYQELmrWQLHZsLRMl
+f5Ih8g9wzExYZxDxsDjNUHHJOkcNgAwqTc2kaRbyX8booKEC8RT3DmBskwmHt+1B
+PKgp/QJlhU9bZMTkfrm89W3fcdruQK5xjSx9CH4RC2A+p5Pw4bf8apuwJUCif3yV
+uDp3w24rkJtYvO45WiXATet4NQQvHKoYJtG5yUpvlIm3vXBFNqAb64tW4PwOSTF+
+eaSMvgtW3KTgaP936gtGaznuSIRFl3fw2Re+5JHOJVte3vpAytZjOCeCgA/cqudI
+55Gy80jSCQpDzr1tSMIZZrZcL1s1jA9XTEAV0kfHKcNacOsQFAsuz99qt3IOTCbS
+cfKAXJbmc7C6MC9M9AMqHZBmPdkxVv7TcgdDv7g6kPR74hzEBJCfNH283oOpkrJh
+SX9ZytdoS61SKLt0ELIhwE/OXPLZJSQAefdBqNmPLSR3Qdf31Lk9FtRgh1IzOYkJ
+g1xd5x65TpS7J8tfnNbRjMEERoa7+BgZ00svUnk6gWhpPAwp+Ug=
+=/0hd
+-----END PGP SIGNATURE-----
+
+--===============2114285980575843028==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cee9395acd80-d79db535546b.txt
+
+2c1dde8a69a3a7d64425a6de0add6e289a5a402f powerpc/entry: Clear TIF_SYSCALL_RET before syscall error return
+c7585b8e99ad97a0f5dd21e45c90a33aeab0d92b powerpc: Don't drop _TIF_RESTOREALL on syscall restart
+c2549d749539487239475fbc8c614a1f9244d655 powerpc: Do not restore KUAP in arch_exit_to_user_mode_prepare()
+11d09e46b796ac14f24ab63de2c0185a307b2054 powerpc/entry: Fix irq_soft_mask corruption on replayed interrupt exit
+8c5a15366bc7daeb669ba18775fde598956cbba1 powerpc: pci-ioda: Fix the stale irq chip reference
+856c8fc4bf102e4772c54548299b28ae78aa9bc8 powerpc/eeh: Fix recursive locking on devices without EEH sensitive driver
+1982d481a302d3503547b48ef3a0b58081a70e13 powerpc/rtas_pci: No hotplug on permanently removed device on pSeries
+d0892a1c90fc2986244c33977d34e89cf4890c7b powerpc/kexec_file: Use inclusive range checks in add_usable_mem()
+abbd9ffda3b0fced870c6d885a720002d2ff64e1 powerpc/kexec: Simplify kdump_extra_elfcorehdr_size()
+ea3af75a2e8643e9dc76f96dc7d8e75c60416d3f powerpc/kexec_file: Use inclusive range checks for excluded memory
+d79db535546b9858f64f27fe968005024d39f828 powerpc/pseries/pci: Fix misleading VF limit error message
+
+--===============2114285980575843028==--
