@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 03 Sep 2026 10:19:04 -0000
-Message-Id: <178843074429.884307.14060857280217615472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 03 Sep 2026 10:21:44 -0000
+Message-Id: <178843090488.887382.844150225976801455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 3fb905f07ea45b31c8f67ba6e4668de46f527e65
-    new: 2ae16aaa78b5edc6e6d0904c84fd9cdfb762bcda
+  - ref: refs/heads/main
+    old: 6b8fed2675fb75d23e6cf2b7e49c94926e884b34
+    new: 66817a9794263cd2a5dc4e99bf8e5fcc5ff7181e
     log: |
-         2ae16aaa78b5edc6e6d0904c84fd9cdfb762bcda RDMA/rtrs-clt: Fix CQ pool leak when connect is interrupted
+         66817a9794263cd2a5dc4e99bf8e5fcc5ff7181e net: gro: Fix nesting of TCP GSO SKBs in skb_gro_receive_list()
          
