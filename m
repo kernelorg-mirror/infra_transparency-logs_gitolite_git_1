@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 03 Sep 2026 15:45:22 -0000
-Message-Id: <178845032287.1159139.16059014735200254260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 03 Sep 2026 15:48:44 -0000
+Message-Id: <178845052403.1160229.6432701561901789788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-next
-    old: 6ea2157ce8c7497a2862bd3579a987afe6b129ed
-    new: 905dc5f0d98e3c081aa36d81989ec7a69df70d92
+  - ref: refs/heads/usb-linus
+    old: cd243401994880b8b6810c53177bce56eebaece5
+    new: 7f11480cda081de78a05d8c97073df66326b50b3
     log: |
-         0e7d08160f6127052ef8f2093f519a748772cf6e RDMA/mana_ib: Enable multi-port GSI QP support for mana_ib
-         15c4aa405a3dc4b874caea98b4f5db07236597ab RDMA/rtrs-clt: use find_next_zero_bit() for permit allocation
-         3547f46c31993d41748f0f7936f9d4dc5b5d4b12 RDMA/hns: Fix missing CQE when UD QP use different SL
-         905dc5f0d98e3c081aa36d81989ec7a69df70d92 RDMA/hns: Support setting GSI QP SL via debugfs
+         35c950c9ec2c4c4d45dc9b63cfe8fca774ce33a0 USB: serial: option: add support for SIMCom SIM8260C
+         7f11480cda081de78a05d8c97073df66326b50b3 USB: serial: option: add Compal EXM-G1x support
          
