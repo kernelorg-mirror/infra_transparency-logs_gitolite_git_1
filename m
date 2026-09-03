@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 03 Sep 2026 17:10:19 -0000
-Message-Id: <178845541936.1224600.11519166240146494107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 03 Sep 2026 17:17:37 -0000
+Message-Id: <178845585747.1229139.5675911032719737396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: paulmck
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
+  - ref: refs/heads/master
+    old: e7ca3273f7304977ecfb903d8a6816e043f938a6
+    new: fbf1544db18f3eb3d39955cad72b39ef55ed826c
+    log: |
+         fbf1544db18f3eb3d39955cad72b39ef55ed826c CVE-2026-80747: Add .vulnerable file
+         
