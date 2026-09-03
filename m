@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 03 Sep 2026 21:32:59 -0000
-Message-Id: <178847117944.1440250.16111858311026810848@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 21:33:02 -0000
+Message-Id: <178847118287.1440469.15944886599927885264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: ea495a3fb58fad347865105a0b5095a3aa08ab30
-    new: aa19a6de4a08347b55d0ba45c9aba5c35376d1fc
+  - ref: refs/heads/regulator-7.4
+    old: f7396c2dbbc1bed6c2c554d1ddf80d16e4780a7d
+    new: f0c54cc56a9a21047b1afa209baea8ea931f2e92
     log: |
-         3b05666859ba8eddfa146f6dd54ef760744951c7 ASoC: codecs: nau8360: Fix static declarations and endianness
-         aa19a6de4a08347b55d0ba45c9aba5c35376d1fc ASoC: codecs: nau8360: Fix kernel-doc issues
+         f0c54cc56a9a21047b1afa209baea8ea931f2e92 regulator: pf1550: fix division by zero in the ramp rate selection
          
