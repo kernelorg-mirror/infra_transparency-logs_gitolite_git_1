@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3678972332914435728=="
+Content-Type: multipart/mixed; boundary="===============2837343887195035047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 03 Sep 2026 19:01:47 -0000
-Message-Id: <178846210726.1306257.7607829911548807382@gitolite.kernel.org>
+Date: Thu, 03 Sep 2026 19:01:54 -0000
+Message-Id: <178846211466.1306495.13722087367191578125@gitolite.kernel.org>
 
---===============3678972332914435728==
+--===============2837343887195035047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 1b78070aaef63512688aebfbc82365ef9d6660f1
+  - ref: refs/heads/pending
+    old: d6741461fef84621f8f64e497275c1b229a15c6c
     new: 1d8e73163ef933624341075f576e2f36ef9133f7
-    log: revlist-1b78070aaef6-1d8e73163ef9.txt
+    log: revlist-d6741461fef8-1d8e73163ef9.txt
 
---===============3678972332914435728==
+--===============2837343887195035047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b78070aaef6-1d8e73163ef9.txt
+Content-Disposition: attachment; filename=revlist-d6741461fef8-1d8e73163ef9.txt
 
 bd3e260f496adb0123076a237e5e72598dee0404 wifi: ath12k: remove skb->data check in ath12k_wmi_process_tpc_stats()
 f2576dc0f894ef33045ba7ed057ec417988bba8a wifi: ath12k: signal regd update completion when reg event is dropped
@@ -46,4 +46,4 @@ e6c2d73f27b3948cabec1017c9443fba24f1dcc1 dt-bindings: wireless: ath12k: drop qco
 1a7bcf5324c8e2de6512eca5b028b6b283181d3f wifi: ath11k: fix NULL dereference in ahb remove when QMI init incomplete
 1d8e73163ef933624341075f576e2f36ef9133f7 wifi: ath11k: unregister PM notifier on QMI init failure path
 
---===============3678972332914435728==--
+--===============2837343887195035047==--
