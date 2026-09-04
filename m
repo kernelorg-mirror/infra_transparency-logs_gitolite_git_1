@@ -1,27 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 04 Sep 2026 14:58:52 -0000
-Message-Id: <178853393281.2317581.8592601507391096833@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4823701476227678865=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 04 Sep 2026 15:01:19 -0000
+Message-Id: <178853407978.2320749.10392288727290581856@gitolite.kernel.org>
+
+--===============4823701476227678865==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 6b31560c6bc1a8a7a70792c7b3ca4c1ea322063b
-    new: 41e6f03658adfa9df68642750b53a046f1abdea9
-    log: |
-         048029ba1c793f8cabc4ad5eea765da01903f8f1 bpf: Require MEM_PERCPU for percpu kptr stores
-         17487b31f479c85eda3685e8e44242358bd68f23 selftests/bpf: Reject non-percpu values in percpu kptr fields
-         dc36739e5cc9f60485418a910b42bc95339218d2 bpf: Keep refcount_acquire nullable for borrowed RCU kptrs
-         2edd8339468e4bf0feecb3398aaad25fd7b84286 selftests/bpf: Test borrowed refcount acquisition nullability
-         cd6f72d7f38e10aa82fcbc745a6a9e58e0d8e366 bpf: Clear NON_OWN_REF after RCU protection ends
-         6668ed271eaefaa63e686bdfbedaeb7b8e492722 selftests/bpf: Reject graph kptr use after RCU unlock
-         7441ee8276641bddaf1cba7bb75ef9c1458ceb3b bpf: Reject untrusted allocated-object pointers
-         9492baf8532ca285c58b82a269acd7a57e205ae9 selftests/bpf: Reject refcount acquisition after RCU unlock
-         41e6f03658adfa9df68642750b53a046f1abdea9 Merge branch 'misc-bug-fixes-part-3'
-         
+  - ref: refs/heads/bleeding-edge
+    old: 3f018d3ff2debf1470fbeae5472e7de533026862
+    new: 1280ec6a870ebf8f53aa3d4ccd532521265d9399
+    log: revlist-3f018d3ff2de-1280ec6a870e.txt
+
+--===============4823701476227678865==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3f018d3ff2de-1280ec6a870e.txt
+
+ef7bb09011a98a34c82442e80bff8f4c1e01a09d thermal: intel: powerclamp: Reject invalid window_size values
+55f1897b6ffc73a0bd1987b7e5d06920ad247e8a thermal: intel: int340x: Drop redundant else in proc_thermal_add()
+6ab6a6fee50128e49ada747c2cef28ccb6633ef3 thermal: intel: powerclamp: Drop redundant clamp() in duration_set()
+2c1f060477117903597d76359176fdfad03b080d Merge branch 'thermal-intel' into bleeding-edge
+f672600a629644c1c571d357d4366362b8b98e29 powercap: intel_rapl: Add rugged Panther Lake support
+3c409131e32598b9b5a8abb0b3fca474f3785237 Merge branch 'pm-powercap' into bleeding-edge
+2d33a36fb9dea42d3794779fc6308ccc21028246 thermal: intel: intel_tcc_cooling: Add rugged Panther Lake support
+59a9ce9c8bdcd6461cecb8d09f73b8cfd23d9455 thermal: intel: powerclamp: Simplify check_invalid()
+ab9e30970060ef104e17f0878bc81b81a08abf17 thermal: intel: int340x: Fix temperature selection around 0 C
+59d4717175ec67d65ab57894827551f54251d3d9 thermal: intel: powerclamp: Simplify idle_inject_update()
+1280ec6a870ebf8f53aa3d4ccd532521265d9399 Merge branch 'thermal-intel' into bleeding-edge
+
+--===============4823701476227678865==--
