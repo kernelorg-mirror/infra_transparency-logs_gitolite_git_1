@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6592147342314941212=="
+Content-Type: multipart/mixed; boundary="===============0708789827739472354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 04 Sep 2026 03:24:00 -0000
-Message-Id: <178849224037.1703092.14609689671232279913@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 03:24:14 -0000
+Message-Id: <178849225415.1703429.6977978060876522366@gitolite.kernel.org>
 
---===============6592147342314941212==
+--===============0708789827739472354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/feature/subpage_gcache
-    old: 2f40463b2c8cbef90539d995672338c0009fa344
-    new: 7f8ae45fe7832edf56ae7f32253b6a35fcc17fec
-    log: revlist-2f40463b2c8c-7f8ae45fe783.txt
+  - ref: refs/heads/feature/subpage_gcache_lfolio
+    old: e7eea38b387848d9eede1a3faa701e4f4f67c20c
+    new: 85e9b85e94464a410d9809d9743aea8f7c49ddc5
+    log: revlist-e7eea38b3878-85e9b85e9446.txt
 
---===============6592147342314941212==
+--===============0708789827739472354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f40463b2c8c-7f8ae45fe783.txt
+Content-Disposition: attachment; filename=revlist-e7eea38b3878-85e9b85e9446.txt
 
 56bcda97b38a54b18df380ca928120a05d2a269a f2fs: wait for inode record work before clearing ino bitmaps
 5ad9409a9533bd345d5c9c3d5e3be7619c31a761 f2fs: stop using PG_private
@@ -53,5 +53,21 @@ dbdcc0bd2dada7f010c51d42f94301156df73b1a f2fs: cache: support fault injection
 4caa9eb3fb661f84ddd5db0fcd8ae91e924e97f3 f2fs: cache: introduce tracepoints
 f1f7de12c8b254effc4c83f7847eef8636f472f4 f2fs: cache: show per-cache usage in debugfs
 7f8ae45fe7832edf56ae7f32253b6a35fcc17fec [gcache] fix
+958fc12f5d9e30f8d0e6ef575ce8543ce6554a11 f2fs: introduce metadata cache
+889fdfcf99e5c913e5ad3edc198ac26bb40bc24a f2fs: introduce metadata cache
+2c632ef1a1cbe38a793ceb67fbfcd45ddc0f9e70 f2fs: extend folio state for large folio write path
+dda9823b78e537a91365b1bfb17552798bfa5a98 f2fs: carry subpage offset and count in write IO
+50e25a7c680e552b66225637ff28795783c4f1c5 f2fs: support regular file buffered writes on large folios
+f8cc73f781e3eb4c53c9901fde3ac35aaa03bccc f2fs: support atomic file large folios buffered write
+90d9b6027b41505aeca73cd85cf697ef9b1e367e f2fs: support large folio writeback
+59570652fa5c2ef9c875832fd0394c8da13cd98a f2fs: prepare mmap write faults for large folios
+d22e0c2d4f1c2643d604c3ed7b7575099e9e5024 f2fs: make GC migration large-folio aware
+c747000fdde760ed7fe5b09c077751e66462a9f1 f2fs: optimize small block size large folio read
+70617e1081ab71f87ad377fb7947ed71d2faa457 f2fs: support partial uptodate large folio read
+2c7d5b37a3c2d2ef6bae4efdab2eea9da3fca90d f2fs: handle partial truncate of large folio dirty subpages
+d7956573411b20c9cedfa389e5310b1fdaeb4b02 f2fs: fix zeroing paths for large folios
+6f5c32dbcbd193334f10c634737738b9c31aea73 f2fs: handle block cloning within the same large folio
+6c84007d2f72f5075c3b58f2b8e6c116522b6d82 f2fs: allow large folio support to writeable files
+85e9b85e94464a410d9809d9743aea8f7c49ddc5 f2fs: make compressed files compatible with large folio
 
---===============6592147342314941212==--
+--===============0708789827739472354==--
