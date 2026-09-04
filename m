@@ -1,78 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1144829178967050354=="
+Content-Type: multipart/mixed; boundary="===============2847587263416050372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 04 Sep 2026 15:28:53 -0000
-Message-Id: <178853573370.2340676.8303050966430291030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 04 Sep 2026 15:30:33 -0000
+Message-Id: <178853583374.2343462.14261379500732998082@gitolite.kernel.org>
 
---===============1144829178967050354==
+--===============2847587263416050372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 9d33825126bd8908037be997a9b4cfde92b9c5a1
-    new: 5a467d5860e5a25cd6638dd1d1453e3302ad191c
+  - ref: refs/heads/master
+    old: f7b435bc356602cc9612a90950d660abedb857f9
+    new: 81aa7ddf3a3f8f888b04cb105a495d33062da71a
     log: |
-         3de7d6f8dd121d5d4b74182765be5ee8f3954d29 dt-bindings: hwinfo: samsung,exynos-chipid: Add Exynos5515 compatible
-         2f04ec82e51da9d5af5cb48c9f24c0318655b0f7 soc: samsung: exynos-chipid: Add Exynos5515 SoC support
-         27d305325d2f3929e61105d465ef968ea39502ec dt-bindings: input: samsung,s3c6410-keypad: introduce compact binding
-         e8812411863552ebb153d7c856e60ef6deecfba4 Input: samsung-keypad - handle compact binding
-         a01394e260d51b0b028735a9d71476c5c74280df ARM: s3c: register and attach software nodes for Samsung gpio_chips
-         78b8efc99aa61c99c77ad1bf6129ba182a27b52a ARM: s3c: crag6410: switch keypad device to software properties
-         235cb99d39db4c80e3120d59e4c572dbb408f524 Input: samsung-keypad - remove support for platform data
-         c67c110d141b4347b864aa08ca86a1a492bff776 ARM: s3c: crag6410: use software nodes/properties to set up GPIO keys
-         80c92d1f1a4e3000e6eb351ad8af16267b1d4e63 ARM: EXYNOS: Replace __ASSEMBLY__ with __ASSEMBLER__
-         5a467d5860e5a25cd6638dd1d1453e3302ad191c Merge branches 'next/drivers' and 'next/soc' into for-next
-         
-  - ref: refs/heads/next/soc
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 80c92d1f1a4e3000e6eb351ad8af16267b1d4e63
-    log: |
-         27d305325d2f3929e61105d465ef968ea39502ec dt-bindings: input: samsung,s3c6410-keypad: introduce compact binding
-         e8812411863552ebb153d7c856e60ef6deecfba4 Input: samsung-keypad - handle compact binding
-         a01394e260d51b0b028735a9d71476c5c74280df ARM: s3c: register and attach software nodes for Samsung gpio_chips
-         78b8efc99aa61c99c77ad1bf6129ba182a27b52a ARM: s3c: crag6410: switch keypad device to software properties
-         235cb99d39db4c80e3120d59e4c572dbb408f524 Input: samsung-keypad - remove support for platform data
-         c67c110d141b4347b864aa08ca86a1a492bff776 ARM: s3c: crag6410: use software nodes/properties to set up GPIO keys
-         80c92d1f1a4e3000e6eb351ad8af16267b1d4e63 ARM: EXYNOS: Replace __ASSEMBLY__ with __ASSEMBLER__
+         81aa7ddf3a3f8f888b04cb105a495d33062da71a assign some 7.2.1 cve ids
          
 
---===============1144829178967050354==
+--===============2847587263416050372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1788535731 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1788535731-d534b5767aeddfa5fa975246ced5b69b0ba8c256
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788535730 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1788535832-07b1a9534f83c757a38cafada505d64a86723b95
 
-9d33825126bd8908037be997a9b4cfde92b9c5a1 5a467d5860e5a25cd6638dd1d1453e3302ad191c refs/heads/for-next
-cee9395acd8043be0644b25c34bfa86623f2b935 80c92d1f1a4e3000e6eb351ad8af16267b1d4e63 refs/heads/next/soc
+f7b435bc356602cc9612a90950d660abedb857f9 81aa7ddf3a3f8f888b04cb105a495d33062da71a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqa47MQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15nWEACOle16gs5eE9LM30LXG/H8XrHgqH0XrPbK
-e50DbEhRtVVQFm+ZuiUnfYb8Op0g5Mh943gDpZiTyFXX98pPhrz7GTzIWnXTJD/2
-hiTmatFNXeyRBXQFudmYnaD4Qro47iJntvxiVgPN9nUIQSMOuB3PGl/k/QduQxMJ
-yMPuKhWDVLX0Jx/Rm9jvienhfhI1fqgfdrRSKtzwa7u3TbAh9Fw6jEGCzvSRbN4M
-dRwWzYiGgHXLDGCY57DEkzddEDMovaht/0pvqeupygQeryv8Ft9xHCOoSCvAfQJz
-Ze6HppegUeS861euZGVoewHhh1/3VZZUqmp231/BrqKtvLi7IOzF7Vc/qwyvr/Q8
-fXmG7yr1jm0Sje8JRwdFbsfPKh6EG07wHYifhLCP7HklNEJPus+sVkInA+fqKddC
-CIQmgUPPlPz1tgsM7Mdx/sj2D53QPGPmXtk9dx0fH01DoCotZ8pyYBgDuiOwW02o
-qd87FG1WY7I3+b0cgUPz2C8PLyZVjUzNixCZWh2fi5XZPvhvSIrhSZs08vjvzuHy
-VKKxW8HDuQ42OrzApDZOquXEdbRlsORxZYU5QOWKe3JY8VMl7Gb0f/dNkqvN33GA
-yZC7ok0ScIiu1RzGnDFgqbfmh/7zdAaD/J7YcqsTgXuG5APKK5a6i7zReY2dvg5t
-1WRcyn+h0w==
-=synH
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqa47IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QRUP/jPOc49Zc+Gv8L43iRhq
+BgbNPtfGGcqRxaP8ZZhDNpc3cRXZu7sEUSJCUSLMpWLxscjFRhYoercE9tviKAk1
+nXKx6pAyuI1isSdgUMrybH9+GoZooQ+9sTz/TH0+0GsIJkcp+GaTldAkME0ojFJU
+cqj9sYVFqJ2SeIsd1OIVU4/Mqype1rAKDoUf7JZx4wgb0vadHQ7cxwjPEBY4JbDT
+Bj6r+IB450TSubZgVe4T7LQWfmvfz1ldlzFGQZMqDmWAhP6Oce5uMdJ5+GCaBMkJ
+QkYNqqBM7A6N+gBvTzcdBAmlZpJA+bl5A5u8UrfG1b/I2W5Lgj+J5yaGZnoEB722
+3xeusAKEgxHdKPo1WkjlVTSt1q/evGTbGw/L4j1r+C9Gffw8qaknGW4tBvc3u88/
+LOFSVFNCZkAZNMnufc+jykJ94mcGHz46mMi89o2eZhkdJzm9H8l1lYnIqbDXHwOm
+Pu49WXQ9kBsRuEi6kt7+a7wVb4WYnhoyw4uijzODD6nmknp17lOPlxH7xAgZOmAc
+sIeNvtSsaQ9eeUhdXN4UpBgzDkxxggH1M/4xafGzelerdXaNIDidRSATRfWNAgnj
+eFodHwxESTLodrOgMt9ZfOcSKGDACVwymfdd4XpItTLWtIPQKwKaTsF08hOVkOsK
+9iSyTUAy8YWEc9mLKk24b/hP
+=f7+m
 -----END PGP SIGNATURE-----
 
---===============1144829178967050354==--
+--===============2847587263416050372==--
