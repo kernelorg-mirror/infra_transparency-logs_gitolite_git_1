@@ -1,58 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1487024941458065707=="
+Content-Type: multipart/mixed; boundary="===============7222252418267003374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 04 Sep 2026 05:13:05 -0000
-Message-Id: <178849878527.1843475.9700661763127148423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 04 Sep 2026 05:50:40 -0000
+Message-Id: <178850104091.1870445.1703379401474502081@gitolite.kernel.org>
 
---===============1487024941458065707==
+--===============7222252418267003374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/b4/bind_taint
-    old: b041c9e09d64eb05081d46335fbc7ccbd46dced9
-    new: 14adb8e1dee44437981f15d4e721b5f838c02e80
-    log: |
-         28270c2c15fd14065c15189655eb2e1d327a34dd driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
-         378955c69c89a1ba2f45d3fe237131aa17214808 module: pull out add_taint_module() to be public
-         14adb8e1dee44437981f15d4e721b5f838c02e80 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
-         
+  - ref: refs/heads/master
+    old: a500db7819c50db59e55f1b4fa1c3baa5a2616f3
+    new: bc35965f6940a9bf834d54187b6088b8eb09206d
+    log: revlist-a500db7819c5-bc35965f6940.txt
 
---===============1487024941458065707==
+--===============7222252418267003374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a500db7819c5-bc35965f6940.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788498666 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1788498767-f5b1261e2ac30e197c7faa7939d5d2d89873fe87
+7b8a8ae4dd176a232e973017d2aa3c536a7275e2 mm/hugetlb_cma: fix null nodemask dereference in hugetlb_cma_alloc_frozen_folio
+a3417097fb107cea3358b19bcbb4eb655fd67f8c memcg: make the v1 soft limit knob inert
+eedc8474d469a2e88f4dc61f8cfe05c147478b43 mm/hugetlb_cgroup: call page_counter_set_max() outside VM_BUG_ON()
+dc41e961a269f2ca4196e669d6d8e05480899cd4 mm/migrate_device: avoid out-of-bounds writes for compound folios
+267bede12d3b108ca29997ce280e927a570ec97f mm/hugetlb: keep max_huge_pages when dissolving surplus folios
+2fd4e7693674b17807a6d082feb01a3fbf86f5f8 mm: fix incorrect vm_flags usage when checking allowable orders for tmpfs
+f025ca73decda1f895a4b80b961d3bc88825298a userfaultfd: reset err to be 0 when move_pages_ptes succeeded
+6e0803a170552a6ab48538721df6467582fc940c MAINTAINERS: add Lance Yang as a hung task detector co-maintainer
+fe6cf984939d8e12cb33a99673c8d026c5135e68 mm/huge_memory: transfer the pmd dirty bit to the folio on zap
+540e583b66d6402bf556fde5e53c817a54c1afe5 mm/mempolicy: fix sleeping allocation in alloc_pages_bulk_weighted_interleave()
+8ee1ef0f2f8ce29338f4ab00a3d344c010208058 mm/hugetlb: fix missing migratable flag on same-node hugetlb migration
+0ba6912f7e974045dcdd170f022cba19247e00bc Revert "once: don't use a work queue to reset sleepable static key"
+627824f20f237902e696efe5b563c18422443370 MAINTAINERS: remove Lorenzo as THP co-maintainer
+341b9b4f8f540fc03e928e67351e4be9461bc56d MAINTAINERS: mailmap: update entries for Thorsten Blum
+70ded7a57443f41075625f29b9eb88dca154decb MAINTAINERS: cover all of RAID
+ed334880e5e6855820855d76f594d973747cbf8a MAINTAINERS: add Kiryl as a THP reviewer
+35b0fb391b0df57383bc15985bb769f4555c97ba mm/mremap: reset unfaulted VMA page offset for MREMAP_DONTUNMAP
+97d34aa65c29cca85e3e9050f4c936389b38a054 mm/secretmem: properly account locked pages
+bc35965f6940a9bf834d54187b6088b8eb09206d Merge tag 'mm-hotfixes-stable-2026-09-03-17-45' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
-b041c9e09d64eb05081d46335fbc7ccbd46dced9 14adb8e1dee44437981f15d4e721b5f838c02e80 refs/heads/b4/bind_taint
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqaUuobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u98P/2+jgeZby5G8O+vs8YMm
-E7KQQNwzL2o/5oQIkv+/dZAKQghxoM8NbKck/10KFkyazxeYiDbK+1Ufi5emFNNY
-Pu5kWUKjauBhxelFHVX1B1tBepFsWalbKrKvyoEbKq2B60t40+D/m1skQGakTT9m
-bEV82VyVZaowQYtb6UL2ZwQP2GUEmuH34UjaHuih+trIW1o/ZzxRBMm8TvY1yv/D
-5eEOkDyMN9VWeanq3phXyX8MJSs/OwX/KZfRGbrnfozHTRKOxnPc4mes7aEKeOt+
-yd3gSUZGhGv2Tz3zE54n59KOZyYftoFrLtAVJ+GfVLxc1izDZ6j7ly19CTceDOZB
-En6dmJtd7N6MIKHyXdg6F5Hr1oenGa/esGnmJI8UBQKAxYpL7G41eC8LTLIq3yOg
-bryZB20/D6NdFBqFV0oo3iXbbMRpZW90Yc1+EiZ10253ooErfTWUGErUEzqjkrRn
-P7BqxMRLTu8XZFy4LmU5fEHLaFXiqebGiNS2iOhHPIw11ZftMATDt4v1Ywma8Io+
-Pn1F7rn+qLoCTxggJCx0of6CnKrxqoFAMzlYTIwGGc/UqAxH79Arf1sObl+g1G8X
-4MzbyvrsWXfgly/SzcCtzZNHt4omcDfxdl+AE64Fe3XkNuXTLVlY3LMxiOyAWrVP
-zeeJdeL9W6owPLIDhoCO6qIR
-=jErT
------END PGP SIGNATURE-----
-
---===============1487024941458065707==--
+--===============7222252418267003374==--
