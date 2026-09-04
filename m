@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 04 Sep 2026 22:41:47 -0000
-Message-Id: <178856170746.2666352.13143337765491399096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 04 Sep 2026 22:42:13 -0000
+Message-Id: <178856173394.2666699.18198761680653811848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: 51794b107d54b3c9a8ebbe12a3b81d8495bd482c
-    new: 68b2e64129185d6de3495ec8c73b219938115045
+  - ref: refs/heads/main
+    old: 742b94967d55f5e9237dc7ac52761809b6d86b4c
+    new: 4b772869a1e5f9da5cef5b9c722ec0aa424ee0a0
     log: |
-         68b2e64129185d6de3495ec8c73b219938115045 kbuild: fix typo "funtions" in comment
+         4b772869a1e5f9da5cef5b9c722ec0aa424ee0a0 net: bridge: mcast: properly convert mglist to rcu
          
