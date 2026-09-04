@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1598008397090692495=="
+Content-Type: multipart/mixed; boundary="===============1723250199043418298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 04 Sep 2026 01:48:43 -0000
-Message-Id: <178848652370.1634490.17671991154353968390@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 01:48:59 -0000
+Message-Id: <178848653905.1634756.6896398525950785896@gitolite.kernel.org>
 
---===============1598008397090692495==
+--===============1723250199043418298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: c300d74d44c27064768a8dea90e67684b00681de
-    new: ba285edf3fd1a27f8ec739b5b396d45c98eabee0
-    log: revlist-c300d74d44c2-ba285edf3fd1.txt
+  - ref: refs/heads/block-7.3
+    old: 6e2b571b0a54755b06e092501913e1dfefe75d6c
+    new: 00ef2248c5dae08548f7ceb6951b022f89905330
+    log: revlist-6e2b571b0a54-00ef2248c5da.txt
 
---===============1598008397090692495==
+--===============1723250199043418298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c300d74d44c2-ba285edf3fd1.txt
+Content-Disposition: attachment; filename=revlist-6e2b571b0a54-00ef2248c5da.txt
 
 f83af377c148f6ad94b41c0e8313f12adf45e1c1 nvme-tcp: check the data direction of a C2HData PDU
 3838e80fcfb32e62baffb63c6dc0a60153665a4d nvme: skip the zoned limits update if the zone info query failed
@@ -48,6 +48,5 @@ eaa948c0e19b1bb2d93262207bca0c3d19cc3406 nvmet-auth: Synchronize timeout work du
 56e6279266f6962bb2d38a54397e3c605165b0c5 nvme-fc: fix double free of fabrics options when nvme_add_ctrl() fails
 fd9beb8870736e1c6a0b2351d88a161aaeb2b326 nvme-tcp.h: drop kernel-doc comments, fix a few descriptions
 00ef2248c5dae08548f7ceb6951b022f89905330 Merge tag 'nvme-7.3-2026-09-03' of git://git.infradead.org/nvme into block-7.3
-ba285edf3fd1a27f8ec739b5b396d45c98eabee0 Merge branch 'block-7.3' into for-next
 
---===============1598008397090692495==--
+--===============1723250199043418298==--
