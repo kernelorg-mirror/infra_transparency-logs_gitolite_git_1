@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3112259095737073853=="
+Content-Type: multipart/mixed; boundary="===============1723733971632031789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Fri, 04 Sep 2026 17:01:00 -0000
-Message-Id: <178854126031.2416204.9049643573518707005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 04 Sep 2026 17:07:56 -0000
+Message-Id: <178854167652.2420590.17005719871129579273@gitolite.kernel.org>
 
---===============3112259095737073853==
+--===============1723733971632031789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bcain/hexagon-qemu-virt
-    old: 34ce70d4a35ebf3ff8eebf27e0abfcdc6e45e1d3
-    new: dc370baa041d00f49fd8a12be888cacfc37c2d7d
-    log: revlist-34ce70d4a35e-dc370baa041d.txt
+  - ref: refs/heads/master
+    old: 785bb4c1e6f43cd71aac2fd59c7892113ecce8f1
+    new: b87ed8533a4ccbe8cbebcafc0bdc1f282998fb68
+    log: |
+         b87ed8533a4ccbe8cbebcafc0bdc1f282998fb68 update 7.1.8 review from greg
+         
 
---===============3112259095737073853==
+--===============1723733971632031789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34ce70d4a35e-dc370baa041d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ae1e7d9bbeab1c66039ff0bdb1d273b1de56dad3 hexagon: cache the VM interrupt-enable state
-52ec8269bbbf2f9e1b40657586d2c8378f320062 dt-bindings: timer: add Qualcomm Hexagon H2 hypervisor timer
-0c91b8f1074aae5fab7cb2466fecc07e9a2ae914 hexagon: add H2 hypervisor interface support
-6cc5ae3eb7773dbabf243f9ad9042c6447ecfe66 hexagon: boot from a bootloader-provided device tree
-422519d9b77fd3c1de504642c34d2d671cb66822 dt-bindings: interrupt-controller: add Qualcomm Hexagon H2 PIC
-c67571afd17624afba79738f0ec2cf6c63ad1d04 hexagon: add an irq domain for the H2 interrupt controller
-d9839ffa8d8060909ccc6a9ed9fd716ed9b78277 hexagon: handle the H2 TLB-miss exceptions
-9cb58e037b2e61764f6ee9ef8892439e54ccf151 hexagon: make SMP work under the VM
-02a6350a9abf563b87e2ffadb79ede29d6c223a4 hexagon: add QEMU virt machine support
-8618fbb89189159232cec8443333c051bff1c959 hexagon: probe DT clock providers before AMBA devices
-09df35bd9d9f41e1325086f686f802e154707b7a hexagon: constant-extend head.S calls to out-of-file symbols
-dc370baa041d00f49fd8a12be888cacfc37c2d7d hexagon: pin CONFIG_HEXAGON_ARCH_VERSION to V68 for qemu_defconfig
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788541571 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1788541673-5fda65dce935e10f8d46323d7f9f49ff2af86335
 
---===============3112259095737073853==--
+785bb4c1e6f43cd71aac2fd59c7892113ecce8f1 b87ed8533a4ccbe8cbebcafc0bdc1f282998fb68 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqa+oMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K9EP/3EPMizTBC+4pi10EAXZ
+pdNH9bAOj9vKgZ+Fp/xFRbVmE8ZAMbuDDnA+LDSexJyFkQeIg4yALfONj+Djko7+
+dt/vhq18jLk3qNOf0zw3MoNoJdtm0UGvAfrSZTYR8Xv5zcb+WDYFKlPKD+lO/G3I
+x9IX/3lWqoU7hCsJU3tG+vcYqesTTOxYbG9k+m+9MLT1OUisCOnvS5l8dX57Qrmt
+ZSpuLz1eJnsui8zLkLLpRQCJOxt0pZiRcJzyjBUKwt+fAMH7mLJxyDlD09lOPNNt
+96BGinbF+atq891YepNaAZfdar3Gki2T0KASCRKcrcXFAMiYpjKzh0MQZnUQn6VL
+lSn4FAKPwD8k2zVIe/yjocUyvthUec1y5jPFdMBKK86z494tIpaBNJcBYgmwGuwH
+FqWpRHy5/ECcK7vg5HPvhKFBOniqFirAeYT18p0hytDPNn77q85UEdvIBoC727eJ
+imvqmA+2eVRQTTifewwBjxSb9NRmZ+pejRfn/R7jSYqhGrtvpwTRBaqoDyTyoHKl
+fkXgJ7PhCUdo8g9Lss8ZaeoiT0SfojATi1vqPkz+7kV9Odyh3m+k9onqiaMLQtWY
+grXZ8u3dQddhAzcFUOy+a6F5M52MRWRI2IFrOvaARcLvJX5ayryrF2Uwwp/NJpP4
+mliyxbZmaaFUNvgE0O9bj9s0
+=JwY5
+-----END PGP SIGNATURE-----
+
+--===============1723733971632031789==--
