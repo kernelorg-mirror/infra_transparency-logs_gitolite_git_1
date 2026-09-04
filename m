@@ -1,31 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6319881957210960267=="
+Content-Type: multipart/mixed; boundary="===============8337582648956831932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 04 Sep 2026 09:52:50 -0000
-Message-Id: <178851557001.2066101.16418190371238570328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Fri, 04 Sep 2026 09:55:13 -0000
+Message-Id: <178851571312.2068799.9991934022078871451@gitolite.kernel.org>
 
---===============6319881957210960267==
+--===============8337582648956831932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/master
-    old: 7537036a2e6fe96f8ed82034f755c54714a0e417
-    new: 5358248961ae23f7253d010ddfde1cfd2556ce22
-    log: revlist-7537036a2e6f-5358248961ae.txt
+  - ref: refs/heads/loongarch-fixes
+    old: a50e06f0d60579afe96d8a76650a07761e04cd60
+    new: 9552c5392b7feeb23b34d2ecda6c052bbc63b2f1
+    log: revlist-a50e06f0d605-9552c5392b7f.txt
 
---===============6319881957210960267==
+--===============8337582648956831932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7537036a2e6f-5358248961ae.txt
+Content-Disposition: attachment; filename=revlist-a50e06f0d605-9552c5392b7f.txt
 
+4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
+0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
+f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
+c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+55aa45154fe48b7d8e96bc031ad27d5b0edfcdb8 PCI: vmd: Add Nova Lake (NVL) and Dunlow (DNL) Device IDs
+59e6295fac26b8e85c1ea859cdd89fa1e47519d7 Merge tag 'driver-core-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+028d8df0a1e376c6a87409302d9b6131ea4374f6 KVM: arm64: Avoid mismatched accesses to 'struct kvm_nvhe_init_params'
 d3a1b28ea25d4c1899a05833e1a9bc79d7c642c3 KVM: arm64: vgic: Free gic_kvm_info on initialization failure
 93cfad8da7164b095b2402ec9b2067fa15d6f250 KVM: arm64: vgic: Prevent speculative SPI array underflow
 2962174fdfa63e272082ea7ae989a8fdef29bd0e KVM: arm64: vgic: Reject out-of-range GICv5 PPI IDs
@@ -1025,30 +1037,18 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-ac53977611428db3bc0b4ac0225e19c3e08ae50b crypto: x86/aria - add missing vzeroupper in AVX2 code
-60892a384aa1e65d0e703e1c513417bdf0c80777 crypto: x86/aria - add missing vzeroupper in AVX-512 code
-8b74759f496599820264c6705cfa0b56536b52d7 crypto: Provide a wrapper function for zeroizing crypto_aes_ctx
-26b845b7e190a6a996f86c7b221cbcbd651a2f2b crypto: aspeed - clear the crypto_aes_ctx when done
-cafba3d6787a6ce847045edfd5a6fedd388943e4 crypto: padlock-aes - clear the crypto_aes_ctx when done
-846b7a178608165c606a58d5333d9d373e574787 crypto: sa2ul - clear the crypto_aes_ctx when done
-b77228e9463a19437b5be2049ba4ead922713c05 crypto: arm/aes-neonbs - clear the crypto_aes_ctx when done
-52a78e326369de366153f07e2304a6aec888f452 crypto: arm64/aes-neonbs - clear the crypto_aes_ctx when done
-8f2b1310ac4531f8c10e0c9b8c435ae7ac57a77a crypto: qat - zeroize crypto_aes_ctx with __cleanup(aes_zeroize_ctx)
-41d39d6f2b1b95c0887345a928b2a53f4f660db6 crypto: safexcel - Simplify the check for a valid AES key
-001c53ae358ba864b1ce5de85751cff3617b5f84 crypto: safexcel - zeroize crypto_aes_ctx with __cleanup(aes_zeroize_ctx)
-e1df9bb6dc67c8d846ce3559a8f65256835a35d5 crypto: eip93 - Simplify the check for a valid AES key
-93cc48a000831cc0cef4790af23db72ad63daee2 crypto: crypto4xx - get irq and ioremap resource first
-a97e714abb75c6c94c674468092356dcf805772b crypto: s5p-sss - pass s5p_aes_dev to irq handler
-7702659bc3a95fc153934f17d51b72fae510260e crypto: rockchip - pass crypto_info to irq handler
-3244eef8b5cf120ec5428b2b8172c7a87bc64862 crypto: crypto4xx - pass core_dev to request_irq
-58d27c41542be6c40edac4f91f35a1dd8bf0d2c2 hwrng: cctrng - Fix runtime PM usage counter leak
-4333ab90aaaea54f51af04025dc6f12f87e83f2d rhashtable: use private lockdep class for all locks.
-37d550172c2d3cdb3a5ace3e6cb0625967d86349 crypto: asymmetric_keys - fix OOB read in pefile_parse_binary
-aacc136b895c5d365eb02c488490d1fac9ee14ac crypto: asymmetric_keys - add KUnit tests for the PE parser
-844de214375b213cd20a38198594b9c5321ed2eb crypto: qce - simplify control flow in register functions
-aaab22844300556823474f57aa7622e87606afb0 crypto: octeontx2 - use crypto_memneq() to check HMAC for cipher_null authenc
-caad4d7cbca42f075be867490cfad8d204f40710 crypto: octeontx - use crypto_memneq() to check HMAC
-97e5869514bd4800593d5b13dc01c42f7d6a1ccc crypto: ccree - use crypto_memneq() to compare AEAD tag
-5358248961ae23f7253d010ddfde1cfd2556ce22 crypto: starfive - handle clock enable failures
+1a60728b9664ec8caaa0a5f127806d99ecf6acb6 LoongArch: Do not select HAVE_RUST when KASAN is enabled
+6d5f00efa63f1d8715d2bfd4f7c9d672422eca62 LoongArch: Remove unused setup_profiling_timer() function
+cfd5f949165eab85cabf88244bdcd2c3c918dffd LoongArch: Do not save/restore percpu base register in rethook trampoline
+95e900395c5537c928000fd3ab2518e45d05802d LoongArch: Avoid preempt count underflow without probe
+820e8514fc6dd0c826066dbd8e4ab5b28660709f LoongArch: BPF: Fix off-by-one error for insn_is_cast_user
+8650e2762778889474180d911804855cb8671abb LoongArch: KVM: Free init resources if kvm_init() fails
+688486d11ba95649d5b0c388129613e317c8d4b4 LoongArch: KVM: Add unregister helpers for the KVM interrupt devices
+f1a746c57f54a25598c14811d0a38bd99fd91c13 LoongArch: KVM: Fix resource leak in kvm_loongarch_env_init() error path
+4d3dee1ca8ab2523a63f68def783569bc13c33d0 LoongArch: KVM: Remove unused function kvm_arch_flush_remote_tlbs_memslot()
+96264d016431659b287096517ef39aff7a4189bc LoongArch: KVM: Preserve memslot arch flags on KVM_MR_FLAGS_ONLY
+d63596c9a044fde007c344fd95af779a6736329d LoongArch: KVM: Validate MSI data before routing it to EIOINTC
+9bc451a140e122c55be577adc436e38103fbce33 LoongArch: KVM: Fix TOCTOU race on pv_features
+9552c5392b7feeb23b34d2ecda6c052bbc63b2f1 perf build: Add clang and rust target flags for LoongArch
 
---===============6319881957210960267==--
+--===============8337582648956831932==--
