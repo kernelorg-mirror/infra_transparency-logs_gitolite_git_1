@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1462623704484123438=="
+Content-Type: multipart/mixed; boundary="===============6901011306789522960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 04 Sep 2026 13:46:37 -0000
-Message-Id: <178852959750.2235234.1889735607557516102@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 13:46:49 -0000
+Message-Id: <178852960989.2235543.2151132888018837005@gitolite.kernel.org>
 
---===============1462623704484123438==
+--===============6901011306789522960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: d15c6186c5d0e71e80f9159e1e4419ec66c68406
     new: a2628ce4ddb6873e35380a42396d17a66e704a1a
     log: revlist-d15c6186c5d0-a2628ce4ddb6.txt
 
---===============1462623704484123438==
+--===============6901011306789522960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ f7a1064cce3b100b54780c68529176232d8eb01e LoongArch: KVM: Free init resources if 
 9296375902579f9b0e456bbb76e5cf179e5a4e0b LoongArch: KVM: Fix TOCTOU race on pv_features
 a2628ce4ddb6873e35380a42396d17a66e704a1a perf build: Add clang and rust target flags for LoongArch
 
---===============1462623704484123438==--
+--===============6901011306789522960==--
