@@ -1,73 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6875331076722793694=="
+Content-Type: multipart/mixed; boundary="===============2703377164855670639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 04 Sep 2026 15:55:14 -0000
-Message-Id: <178853731429.2363315.15450472337930875052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 04 Sep 2026 15:55:36 -0000
+Message-Id: <178853733614.2363962.2953671349703664976@gitolite.kernel.org>
 
---===============6875331076722793694==
+--===============2703377164855670639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 1280ec6a870ebf8f53aa3d4ccd532521265d9399
-    new: 3c55ead4eb1b295dcb63b9d83a40d265dddba43e
-    log: revlist-1280ec6a870e-3c55ead4eb1b.txt
-  - ref: refs/heads/fixes
-    old: c7e3e348f6cf5c2b457d98dfd6164964e3ad4bc9
-    new: 2ee5b4937c4dac356997169f3b49566fad45491e
+  - ref: refs/heads/master
+    old: 7b14903270a0a3433c199754b5e4fcb842474e08
+    new: 96abcf8656c030d4e4aa040129e2bec0f66600f0
     log: |
-         3e5d1bf4bd687beb2cb4e32a07af695455925588 cpufreq: initialize policy rwsem before sysfs publication
-         54d37bcf2f497140b9207968557ddb484058e749 cpufreq: zero-initialize policy cpumask before sysfs publication
-         2ee5b4937c4dac356997169f3b49566fad45491e Merge branch 'pm-cpufreq' into fixes
-         
-  - ref: refs/heads/linux-next
-    old: af15cea410f63f7e05dd7911310c85317e66f562
-    new: d21f03a73206f8fc0c2a5901f94cd5c78dbafea8
-    log: |
-         3e5d1bf4bd687beb2cb4e32a07af695455925588 cpufreq: initialize policy rwsem before sysfs publication
-         54d37bcf2f497140b9207968557ddb484058e749 cpufreq: zero-initialize policy cpumask before sysfs publication
-         2ee5b4937c4dac356997169f3b49566fad45491e Merge branch 'pm-cpufreq' into fixes
-         d21f03a73206f8fc0c2a5901f94cd5c78dbafea8 Merge branch 'fixes' into linux-next
-         
-  - ref: refs/heads/testing
-    old: af15cea410f63f7e05dd7911310c85317e66f562
-    new: d21f03a73206f8fc0c2a5901f94cd5c78dbafea8
-    log: |
-         3e5d1bf4bd687beb2cb4e32a07af695455925588 cpufreq: initialize policy rwsem before sysfs publication
-         54d37bcf2f497140b9207968557ddb484058e749 cpufreq: zero-initialize policy cpumask before sysfs publication
-         2ee5b4937c4dac356997169f3b49566fad45491e Merge branch 'pm-cpufreq' into fixes
-         d21f03a73206f8fc0c2a5901f94cd5c78dbafea8 Merge branch 'fixes' into linux-next
+         96abcf8656c030d4e4aa040129e2bec0f66600f0 assign some 7.2.3 cve ids
          
 
---===============6875331076722793694==
+--===============2703377164855670639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1280ec6a870e-3c55ead4eb1b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3e5d1bf4bd687beb2cb4e32a07af695455925588 cpufreq: initialize policy rwsem before sysfs publication
-54d37bcf2f497140b9207968557ddb484058e749 cpufreq: zero-initialize policy cpumask before sysfs publication
-2ee5b4937c4dac356997169f3b49566fad45491e Merge branch 'pm-cpufreq' into fixes
-d21f03a73206f8fc0c2a5901f94cd5c78dbafea8 Merge branch 'fixes' into linux-next
-886c9e80a232393f3d852a78f8933b1d476006cc intel_idle: Replace min_t() with the better alternatives
-2094ae12eed8e83dd91a631ac0a582fee5934c36 intel_idle: Use 2-argument strscpy()
-6a2f31ff4a3caec34faa6500bc299a23194825d0 Merge branch 'pm-cpuidle' into bleeding-edge
-40989202104e498ff9adfb8c575d6cd159f13988 thermal: intel: powerclamp: Reject invalid window_size values
-d0a22f0e6464e12d7cdd62ff281d7d081b46b6fe thermal: intel: int340x: Drop redundant else in proc_thermal_add()
-de9424633757e2a0e4df6af713bb71a6efd8b854 thermal: intel: powerclamp: Drop redundant clamp() in duration_set()
-efa25d2a661e111d8dbaa924e39fdd7c4da8b581 thermal: intel: intel_tcc_cooling: Add rugged Panther Lake support
-3a6a73ea980190a091a822ae54bafabc0dac6a4d thermal: intel: powerclamp: Simplify check_invalid()
-e56e2b49c67d132728e52ce493079e83cc914657 thermal: intel: int340x: Fix temperature selection around 0 C
-bbc68b683da15e43ba4c2ae05429f2c6264107d9 thermal: intel: powerclamp: Simplify idle_inject_update()
-8321c32d30d213fcaf20d4ee0d9387e7366fc955 Merge branch 'thermal-intel' into bleeding-edge
-18f64d8ca6dfd93c05bfeeda6171a8493746de23 powercap: intel_rapl: Add rugged Panther Lake support
-3c55ead4eb1b295dcb63b9d83a40d265dddba43e Merge branch 'pm-powercap' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788537230 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1788537331-dc52254c1c72df2c53e998c8d20a97dd3e61d24e
 
---===============6875331076722793694==--
+7b14903270a0a3433c199754b5e4fcb842474e08 96abcf8656c030d4e4aa040129e2bec0f66600f0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqa6Y4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yawQAIE9y3v3dUhkZfY9Gjmk
+XVbuopuv3C3rZtLCu8V75s+aTzCPKEjGykdNUrvKa2ZUP9y4AfiY2VQ+6yYeuojT
+Z2ozn5Qaxgt9xli5WPIHsHux6hAftApTz40p+yZLgEn3i88vQAa6p1YipSHb6fo8
+fns0TXsD/Gq/UYIvj4bRKowDuM8nZZL4ViPmS+h5LYkaJmmm4BD40nh3DDKB0JAc
+NiCVBzj/iSER4AboHIAqRkof8sW8lrsGUL7LW1r1nw42M0N+QlM3fkB5wcEennGI
+spDyNR6DkKjLU9DCSCmHWXcINQU5AjDewzIYjU2P1fNpTxGDgRB+2DprIs/f5/2i
+c+Jn1HZkFUeqJAefyQxY09mDUug0wHWvaHHhxXZ0cBvLYgL851Fpme/EvR+iLI1O
+BkuJaWoYL2jRemazw9j5yKFAr+DilwoPAZgMzi1p7nvQZ6j/kztZ3WF7nHGRBj/Y
+UCNNPYbyTmo2O+pxPnrCd/Fxv05zIVKmzvrG1prcA+rUdo4lmwcGJoI4VTg6QlNX
+zq33dkvjyDiPbpCqbSm3IYfJTJ3TJfGxonfZuHXYnxr+qRj3WutqMMRPMfDIEP5D
+H6pIXwwaiPHx2EoYvHKI05zNX+sNv+oP7bm6d+NBrc71NH3e5X3hcell+5vnCHWo
+wdZvWnFU6+QWiNFSyxGQww1p
+=kqv8
+-----END PGP SIGNATURE-----
+
+--===============2703377164855670639==--
