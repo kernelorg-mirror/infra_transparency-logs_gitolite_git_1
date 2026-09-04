@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 04 Sep 2026 09:42:42 -0000
-Message-Id: <178851496211.2058761.5373399220339155682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 04 Sep 2026 09:49:50 -0000
+Message-Id: <178851539021.2062994.12125885473902989289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/posix-timers
+  - ref: refs/heads/efi-libstub-guid-conversion
     old: 0000000000000000000000000000000000000000
-    new: 8e4d753c2489f6ef244cbded19c365902afeb5d3
+    new: 5701341f80f05258b56124f47fdde4e10ca3e2aa
