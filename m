@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4823701476227678865=="
+Content-Type: multipart/mixed; boundary="===============6113286336192710395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 04 Sep 2026 15:01:19 -0000
-Message-Id: <178853407978.2320749.10392288727290581856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 04 Sep 2026 15:06:02 -0000
+Message-Id: <178853436255.2324443.1702130721812105671@gitolite.kernel.org>
 
---===============4823701476227678865==
+--===============6113286336192710395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3f018d3ff2debf1470fbeae5472e7de533026862
-    new: 1280ec6a870ebf8f53aa3d4ccd532521265d9399
-    log: revlist-3f018d3ff2de-1280ec6a870e.txt
+  - ref: refs/heads/master
+    old: a3e09d181a36e9d34acad5b12d6f2df43a79d35c
+    new: 5defc6cb70fdf66068abbcf12eef3d4baf5588ce
+    log: |
+         5defc6cb70fdf66068abbcf12eef3d4baf5588ce add 7.1.11 review from greg
+         
 
---===============4823701476227678865==
+--===============6113286336192710395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f018d3ff2de-1280ec6a870e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ef7bb09011a98a34c82442e80bff8f4c1e01a09d thermal: intel: powerclamp: Reject invalid window_size values
-55f1897b6ffc73a0bd1987b7e5d06920ad247e8a thermal: intel: int340x: Drop redundant else in proc_thermal_add()
-6ab6a6fee50128e49ada747c2cef28ccb6633ef3 thermal: intel: powerclamp: Drop redundant clamp() in duration_set()
-2c1f060477117903597d76359176fdfad03b080d Merge branch 'thermal-intel' into bleeding-edge
-f672600a629644c1c571d357d4366362b8b98e29 powercap: intel_rapl: Add rugged Panther Lake support
-3c409131e32598b9b5a8abb0b3fca474f3785237 Merge branch 'pm-powercap' into bleeding-edge
-2d33a36fb9dea42d3794779fc6308ccc21028246 thermal: intel: intel_tcc_cooling: Add rugged Panther Lake support
-59a9ce9c8bdcd6461cecb8d09f73b8cfd23d9455 thermal: intel: powerclamp: Simplify check_invalid()
-ab9e30970060ef104e17f0878bc81b81a08abf17 thermal: intel: int340x: Fix temperature selection around 0 C
-59d4717175ec67d65ab57894827551f54251d3d9 thermal: intel: powerclamp: Simplify idle_inject_update()
-1280ec6a870ebf8f53aa3d4ccd532521265d9399 Merge branch 'thermal-intel' into bleeding-edge
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788534257 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1788534359-5265ee8bb220ca4acafa46cd5c75163426499657
 
---===============4823701476227678865==--
+a3e09d181a36e9d34acad5b12d6f2df43a79d35c 5defc6cb70fdf66068abbcf12eef3d4baf5588ce refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqa3fEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TeQQAJkceJ1YvjWCHiLlWhPT
+7FAgktlktOonr2F3aT//ePUDpjtpXugUNjaV+197agMaHP8zjWIFuB69K41LgCg6
+4dCW8q7T0mLKGS6a8s7kkwdqOFfb99UfgpLHB8er8Pu/vs+maoiW8cHVSAhhxMs8
+bMjZkNxRzV8VT3tHrj9K/W9Jp1j0xN8TVH3wsIVAldzfYYB8bkru/O+DmrxFgxOk
+JwUFqWEoLwsUDooFxfOKxYzdkTJaxLLNES03FT1Xt+6pSoRiv2X9vQwzFtRn9JT7
+PErQLHF4V4Hn9gQS+PRwgdFCUpQPrVZpk1vn4+XMSTlV0HQdt8dhA43NUUkaCOok
+ZbBUyUEKPNj7B0l6R9DK5iK0JkmSxY5DgdQ1KPEmVFVw+LMXoID2LCxOFZnww4YB
+m0N71VFj0FZSLykC+Hn8yP0nRiQnvbJAn+n29PdqDfPF5aTgcuwUABXK7WkjmtxD
+xJgU0HNLfT/h/Xn+sBcqxMx2nFNXwaZLzeboSZ4b2l3z3IFZSuWeFoPkTkQbM4pB
+VCsXQP9usgy82mErdnyyLXvlQs47lyBWEblwgzLiQaBxd4mgq18dEjJ39s9jJRQE
+vfi7Foe0F2XPN1KcST37TH/tT6BESEwqOC1rmBjc+Ocfc8k6FKladgyIa9F/MDH+
+78aRx+5V0FfMy0Gs+PUdIqu2
+=1DtC
+-----END PGP SIGNATURE-----
+
+--===============6113286336192710395==--
