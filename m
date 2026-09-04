@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 04 Sep 2026 20:09:19 -0000
-Message-Id: <178855255974.2554837.11385672072571878143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 04 Sep 2026 20:10:06 -0000
+Message-Id: <178855260608.2557240.8977045682635175726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 8992169e7ac6b216f881cb373bb2c6bff0c6162a
-    new: 4cee1ed13e2687f1a9fec7dd50e31eb179506d75
+  - ref: refs/heads/for-7.3
+    old: 6b2f3ab85fc7b2bdde3f01735847c5d4fe9f2942
+    new: c1e01ea35093777d59c12128d549ff5016c38cec
     log: |
-         4cee1ed13e2687f1a9fec7dd50e31eb179506d75 spi: mtk-nor: fix runtime PM usage count leak in probe error path
+         4e3bd70facac5b7c412271d0e9cd6c18a3cef6c6 ASoC: rt766: fix uninitialized stream_config->type
+         0a9bce8a4ff8357f3b0022e9aeee5db3e9326de5 ASoC: rt712: fix uninitialized stream_config->type
+         2c68c4a0e57063a30a8139fa8bcb689323a45f16 ASoC: rt1320: fix uninitialized stream_config->type
+         c966210ed5f218d0297e94fb1002fba59e831c64 ASoC: rt1318: fix uninitialized stream_config->type
+         0e17e50b993043cf3e21512a43ca63d176b46459 ASoC: rt721: fix uninitialized stream_config->type
+         cff381508c1826ed93f7291372c81a50474d5565 ASoC: rt722: fix uninitialized stream_config->type
+         c1e01ea35093777d59c12128d549ff5016c38cec ASoC: codecs: ES8389: Prevent enable_count underflow in clk_core_disable
          
