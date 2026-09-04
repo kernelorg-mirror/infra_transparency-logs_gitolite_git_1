@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8337582648956831932=="
+Content-Type: multipart/mixed; boundary="===============4585216788703150431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 04 Sep 2026 09:55:13 -0000
-Message-Id: <178851571312.2068799.9991934022078871451@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 09:55:28 -0000
+Message-Id: <178851572820.2069224.11361912380924505897@gitolite.kernel.org>
 
---===============8337582648956831932==
+--===============4585216788703150431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: a50e06f0d60579afe96d8a76650a07761e04cd60
+  - ref: refs/heads/loongarch-next
+    old: e2a848868441874d416d47a5cba5452b34473504
     new: 9552c5392b7feeb23b34d2ecda6c052bbc63b2f1
-    log: revlist-a50e06f0d605-9552c5392b7f.txt
+    log: revlist-e2a848868441-9552c5392b7f.txt
 
---===============8337582648956831932==
+--===============4585216788703150431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a50e06f0d605-9552c5392b7f.txt
+Content-Disposition: attachment; filename=revlist-e2a848868441-9552c5392b7f.txt
 
 4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
@@ -1051,4 +1051,4 @@ d63596c9a044fde007c344fd95af779a6736329d LoongArch: KVM: Validate MSI data befor
 9bc451a140e122c55be577adc436e38103fbce33 LoongArch: KVM: Fix TOCTOU race on pv_features
 9552c5392b7feeb23b34d2ecda6c052bbc63b2f1 perf build: Add clang and rust target flags for LoongArch
 
---===============8337582648956831932==--
+--===============4585216788703150431==--
