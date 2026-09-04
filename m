@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5992985299898740660=="
+Content-Type: multipart/mixed; boundary="===============7848488894735734003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 04 Sep 2026 00:23:32 -0000
-Message-Id: <178848141287.1563219.449404858619289540@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 00:23:36 -0000
+Message-Id: <178848141644.1563403.10831431626322926075@gitolite.kernel.org>
 
---===============5992985299898740660==
+--===============7848488894735734003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e539025ff1f7351a42788c5a88aab59c26f5131b
-    new: 2aeb49124a2b3d0c9aa8c0a2124c8cae21ab4e0b
-    log: revlist-e539025ff1f7-2aeb49124a2b.txt
+  - ref: refs/heads/mm-unstable
+    old: 45c8b710db8f597121759d7995974a6a0faf347d
+    new: 918aa1dac57983c348a432e926ebdef96daa0c9c
+    log: revlist-45c8b710db8f-918aa1dac579.txt
 
---===============5992985299898740660==
+--===============7848488894735734003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e539025ff1f7-2aeb49124a2b.txt
+Content-Disposition: attachment; filename=revlist-45c8b710db8f-918aa1dac579.txt
 
 70ded7a57443f41075625f29b9eb88dca154decb MAINTAINERS: cover all of RAID
 ed334880e5e6855820855d76f594d973747cbf8a MAINTAINERS: add Kiryl as a THP reviewer
@@ -296,38 +296,5 @@ c0aa7e71f86b1bd9e4462495f83170cffdc851c8 mm/damon/tests/core-kunit: test <=0 siz
 0414fa068e19fb42c0727a441a4a75663d3ef5fa selftests/damon/sysfs.sh: test hugepage_mem_bp quota goal
 6f7e5c42447dba5f1fa74a6b9c49f73559a3fed1 Docs/mm/damon/maintainer-profile: update AI review for Sashiko replies
 918aa1dac57983c348a432e926ebdef96daa0c9c Docs/ABI/damon: recommend subsystem doc instead of admin-guide
-5fa3702e48719b55d7a52894206698b5491372c9 mm/migrate_device: fix function name in kernel-doc
-ea1cace7e1dd80f9f34de9c3ad5e8cced18fa28b mm/page_vma_mapped: guard check_pmd() with CONFIG_TRANSPARENT_HUGEPAGE
-8bb4b93fc4bd469c602c608a181ad0961535b43b selftests/mm: remove unreachable returns after ksft exit helpers
-d2ea7464b69db503b3961bc9a115084985eba274 mm/huge_memory: fix various coding style warnings
-eb629465475d499bb55cf17d29cd7f81ed295d3c mm/page_owner: preserve original free_pid/free_tgid during folio migration
-c29e8cd54f05dc28480cc2d6fb5d3eb43b19cf43 mm/hugetlb: charge folios to the target mm's memcg
-818d8742dbece3068dfda1dedbd782e3586fff2d mm/page-flags: define HWPoison test-and-change helpers unconditionally
-bd05e5398d6e93dd6e363680cdb0f9c8a85e28b8 nvdimm/pmem: remove test_and_clear_pmem_poison()
-3c95f00f5514b2c3a2ad33ad9b98f29163d17b4f mm/memfd: fix hugetlb reservation accounting in error paths
-13242b5939056e262bcd94fdd9d7e5efb8611578 mm/damon/core: error damos_commit_quota_goal() for zero target_value
-ab5075e8dbe41239e3e6e98d01a0c038c6f53f7d Revert "mm/damon/lru_sort: error out for >10000 active_mem_bp"
-c644ddca003cb4d48f8cba84d10936b486f18284 Revert "samples/damon/mtier: error out for zero quota goal target values"
-78d88d9956f293580ea45cbb5534942b2259c5c5 mm/damon/core: handle NULL ctx parameter in damon_call()
-96f0f43c54deec571e5685547b3792dcf29f2c96 mm/damon/core: set ctx->call_controls_obsolete in damon_new_ctx()
-b64dd0c48b6f405439be930d7d7e42d00b098fcc mm/damon/reclaim: remove unnecessary damon_call() param validation
-8eba281ca1c628a652f09e52190aebfe6311af24 mm/damon/lru_sort: remove unnecessary damon_call() param validation
-a6d453a02f4f81700ce14da836e8a44806b41d35 mm/memory_hotplug: factor out node_is_memoryless()
-f1fc44daf6183604b96243805877ee0b1626daaf mm/hugetlb: don't lock private resv_map during final unmap
-fbbc05db20c591ca75d302e89feef498ab9578a5 selftests/mm: fix soft-dirty kselftest supported check
-02b80d79a9c3ecfb32526922d60a0f6f2ab0a8fe riscv: mm: fix concurrency in mark_new_valid_map()
-2e46a48a7f57409af2291ab966c8a15fc97ac02a riscv: mm: exclude invalid THP PMDs from page table check
-ceb35e6efa7392e983f8dbe4fff4516276e5dda7 sh: remove CONFIG_NUMA and related configuration options
-a83bb1a14ba1409b19f7e34f91727c01c47b5fba sh: mm: remove numa.c
-316f87fbe249748fbe7aeadf739c81a26b8acb81 sh: mm: drop allocate_pgdat()
-16c4e5ac48ece8efe349810161e6ed6b400b7f9e sh: remove setup_bootmem_node() and plat_mem_setup()
-4e7bd32f30ae8b8070dec96b72a57d940d92ace6 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-ec0886801d2fa80df5ebfaf3cddb1b2d71b7ce00 sh: drop include/asm/mmzone.h
-8ce6507048281ed73c3ed9f9908f080dd9b49662 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-e9b3a52ad106006a4ac52c6266b3e0c2f1e8ac79 sh: init: remove call the memblock_set_node()
-b55d1871326b25d17857f66710d7a3ef03a4c888 sh: remove SPARSEMEM related entries from Kconfig
-fd7f81e8c9f14ed1842597f8a84b4b47f4f0c2e2 sh: drop include/asm/sparsemem.h
-7620553dcad448046057e0efea8f9f8e86119cfe mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-2aeb49124a2b3d0c9aa8c0a2124c8cae21ab4e0b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5992985299898740660==--
+--===============7848488894735734003==--
