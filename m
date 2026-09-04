@@ -1,60 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3446809585429966782=="
+Content-Type: multipart/mixed; boundary="===============1776497145557385923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Fri, 04 Sep 2026 07:35:20 -0000
-Message-Id: <178850732014.1944243.2517632839716550493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 04 Sep 2026 07:35:40 -0000
+Message-Id: <178850734043.1944753.3093690836067335910@gitolite.kernel.org>
 
---===============3446809585429966782==
+--===============1776497145557385923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
     old: 1b78070aaef63512688aebfbc82365ef9d6660f1
-    new: adf50c47a47f0f0f0b79dd58ffade9919cddebea
-    log: revlist-1b78070aaef6-adf50c47a47f.txt
+    new: a5249d1d9a618b31e15e191faa4122dc5d9912b1
+    log: revlist-1b78070aaef6-a5249d1d9a61.txt
 
---===============3446809585429966782==
+--===============1776497145557385923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1788507261 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1788507261-773f0a606306e5fb4a1e6b9bd7ae915536e2b48b
+pusher 7BF9099A 1788507288 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1788507288-a6d28d5212e343b65e5e0cb05a9c6b843d1f16b6
 
-1b78070aaef63512688aebfbc82365ef9d6660f1 adf50c47a47f0f0f0b79dd58ffade9919cddebea refs/heads/main
+1b78070aaef63512688aebfbc82365ef9d6660f1 a5249d1d9a618b31e15e191faa4122dc5d9912b1 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqadH0ACgkQ10qiO8sP
-aAAKuw/+Kbhh0nrp/n/O1tYbYGO57dZ2I0aDJ/wojV4ZbmoynxFaI94/lbFQPDAQ
-dltQHvWvfp7jf7TOjxbS6griIVhIBzlx5PGtZeQZhBxzZq6yfWP7Qj4wbHQJrZ05
-cAQov5IzdobpZeDe8WLMT/QQanKjAromwLjasajJr/RvzvJtzhFfkygs0hjxItVz
-SaE70nclPhWJYGQ6I4sAVvXBAdw4QGuziE1iORO7yNWKhh0FAaITs9RpI1nSVClj
-rEn8zPO6gL4r6CFiOntSZjp6kaERVoSqJxxpRiI8hwxAh8pn+ANJWlBnBEUnRnId
-duYvXfS1OeNGcP8SolBtdRZn64ld5gzEjlhhaLuWTJAlG87l58r3S3MPqNxFl1UZ
-DzxlA+AnyIPmCMHMG4doJs1PQ/gHVB+yz+6S7+L8YK+Qor1eyRkGT29BpFgCTDzr
-gDpQAiwbcvk6wfwGFbLBP8nBEk3R0MfI/C5OhNVaVV6T800GX4JwqDnprVtgde+T
-1KBTVbQY9v8Nr8ol7S8J12OdmB+ucsC1Ecs3b9voD1jwbhAbb+FjlComlMDxkvmH
-kqX6v96XMoatyjuCio5lMuwqkWseu8KLETQ51PvPQ7iesAHwX3Tawsyu4Nutp/6o
-+1yWhTd6I6ohevmPynxb6xbRFl7t7o8yDiRMeWcl9y2g6xqEwdY=
-=QFb9
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqadJgACgkQ10qiO8sP
+aAD0QxAAkDpO+Fti0za0RpjiuKdX6Sqp8dvsCYdK6XNV9TV4Y3j0aK/SDVMErNxA
+hur9Rco/cW69UYVXzzDdD/bNOx62R+DFKoEiMAROJx/4+tYszXVrz3XJmits2fnu
+AzqPOm3+h+nTajMFmayaQI5LAAOLsY62NyYHhk+pWG47jl70EXJ7JxI/qk1AqtSm
+On9jnm+WjFXzy0KwADsSuHL8oSBBWAXGjBwp5+W9CJCAcuqA6tDb2zbw/N8LQRWC
+x2FTIkYr9dCUJel92xf94UTX/UcfZchzwMgF8mMpU4Wj3FmNBFUPdu5hFC2bezfo
+xiqR+VykEjhMMu7hJliiwj3dvLHOsPXf7iaanAKOkc+f/5jEiCHVw2sphKw5NT5r
+AUfX91825untK2wRDZA90UzsImzwrFZZQSkaqknGRExuAKS7x1QB+G5eEFprEs3c
+I0R4vCR4y7EoqG1MoLN8yBkTfXNfUecXHlGE0jG3880e20+4+lWnsadQj+b29FEM
+URJPTXVmrZ0BlV3ZwJGq/WMPqpWXRStOpt95EilqfNUq4h1FRYEyk8KIJtnhV3qQ
+/a/5QBA+hbMZbBf5FNL4+KdpYDrHxE1R5OLWS525QOJ08Oz8d90qKL9G9bruVvrx
+aOd9QD548dGDoie6J3CQCttlfX4QLRj/IXvhv05lfBGcIbNQbd4=
+=DTm4
 -----END PGP SIGNATURE-----
 
---===============3446809585429966782==
+--===============1776497145557385923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b78070aaef6-adf50c47a47f.txt
+Content-Disposition: attachment; filename=revlist-1b78070aaef6-a5249d1d9a61.txt
 
 84477867e122251b8c47db240a8d699b0836aa6f tty: xtensa/iss: use strnlen to improve iss_console_write
 d5bbc9b3d20c3f90b31a64c62bb4a800b9a5941c ARM: 9473/1: kprobes: test: add MODULE_DESCRIPTION
@@ -643,6 +643,13 @@ ac8d6b28d48c5d951dcd923d33e461588e762a6d net: amd-xgbe: discard rx packets with 
 6cfc1b90cb86f4aabc69fb8e30128e07e2cdfa3a sctp: validate chunk length in the inqueue parser
 4aa61c88b4e292e10abdfd791334b8272108d68a vxlan: mdb: Fix use-after-free in vxlan_mdb_remote_src_del()
 a8455260b2e9c024d1872ac1c094793d55a7e537 ipvlan: unregister upper devices outside pnodes_lock
+b6d201d9714531df2b0194ec7f4a4bcee0a89238 net: phy: split phy_probe() error paths
+f558204abcb905adc492f74a9536c794b9371a23 net: phy: unregister SFP upstream before port cleanup
+52dd7eb1a33e51f781e882cfed01de6412613fbc net: phy: set PHY_READY after LED setup
+afd5aecd3c0721a04609992a37904b925e2097f6 net: phy: call driver remove when core initialization fails
+48378efebbe7bf7a2533bc59a7acb94fcf46021e net: phy: propagate errors from default port setup
+f7f619ecda5761bd48578764ef5ff9e8fd97b916 net: phy: avoid double-free after LED trigger registration failure
+1bb784eb6e38fd73143f021608e4ef3095d0c0d7 Merge branch 'net-phy-fix-cleanup-after-probe-failure'
 1376afc7660bad2a1a5ee0876898312a486cf8bd octeontx2-af: fix CN20K default MCAM rule removal on port cleanup
 399aa12450a61a5c73dc77e73f069ece9687c95d ksmbd: zero the FS_OBJECT_ID_INFORMATION buffer before filling it in
 c0cd3fc6824122014da2b3b0cb7ddeaa2946ec8e ksmbd: initialize FileSystemControlFlags in FS_CONTROL_INFORMATION
@@ -696,6 +703,7 @@ dee44f41f206becb41c492899c1996cfd7f82a1b vsock/virtio: validate packet source fo
 ad9a7da3fa39c2d616ec0dd3cf6e30531d032fe7 vsock/vmci: validate packet source for connected sockets
 9d0f206eb38dbf9e56f94285dcf5138146bde89c Merge branch 'vsock-validate-packet-sources-after-bound-lookup-fallback'
 fee10655709c5c597e8e9f722f3035d9ea31ff3a net/sched: cls_flower: validate mask pointer after nla_next()
+25c1f6111034aef7fc06cfbdcf1e4f0d6e5ee74b net: stmmac: stop DMA before freeing descriptors on open
 1ea9fff22bf6107b421d2978e097865f73714382 Merge tag 'for-net-2026-08-31' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 2987ee196c88dbde0463dc87d5fb209c684e34a2 igmp: convert struct ip_sf_list to RCU
 9feb069e5ed03582fbf6272539f1caa2a17dc6d5 ppp: ppp_async: simplify tty disc_data access
@@ -727,20 +735,76 @@ b2fd92f016e9d692fd3c8c08d0ee014e9212279d dm-integrity: require stable writes for
 59e6f919d77d72ec79cbf171256f2f7819737580 dm-integrity: fix buffer overflow with keyed discard
 18d80c77b4c7dd20699e81cedfbbff4e9d198f28 dm-integrity: fix infinite loop on discard with large tag size
 1d2929d0850fff683b8aff051275945e65f082c8 net: psp: do not inherit the Rx association on clone
+85ca3292d7a3e06a6cdc3d7aca7b498f5a4e0ec9 net: stmmac: Remove ARP offload code
+5e63ade190446c6d0ce60830ecf0553c7a1761b0 netlink: specs: rt-link: update ipv6 devconf doc
+2b0aecb7b2b1d8333a122d135c948f714cbc0fac netlink: specs: rt-link: add accept-ra-min-lft
+f952040d7016d13a0b0f19dfa0001f4597cc47d1 netlink: specs: rt-link: add force-forwarding
+c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49 Merge branch 'netlink-specs-rt-link-ipv6-devconf-updates'
 2ccb8878c149443c6acf628b438c9c942c20abb2 dm cache: fix demotion stats in passthrough mode
 9a58da80053f992b285b6b7bebc694b0f284c443 Merge tag 'ksmbd-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 89a312991dc6e638a36adc43ccb91dbc25504c04 Merge tag 'cifs-fixes-7.3-rc2' of https://git.manguebit.org/linux
 2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
 b264d8422779d69febce914efc47a92a85cc382c s390/ctcm: Prevent XID null dereference
 70f3995830d3f1e79faa14eb0605914f778feca9 bonding: alb: fix uninitialized transport header access in alb_determine_nd()
+d7470cba6dfaac917710ef77192a94d57cb69f00 net: Make skb_ext_put_sp() idempotent
+dbe45b209edf9b43ec56a1e6858c055c1eb332c3 net: Make skb_ext_put_mctp() idempotent
+0a1071aa322cb387084f15ea8ba076974ee98271 Merge branch 'net-prepare-skb-extensions-for-reuse-across-scrubs'
+c29b37ed7a4d9856ed758a82282456d69cee2ed1 net: fbnic: validate mailbox TLV extents
 f695390ea63941a9e412bf1f3afe65ab245fc681 octeontx2-af: Fix limiting SRIOV VF count logic
+d0ec95a8a4e79f2fd6063fc8932415db8c227689 hv_netvsc: Advertise the SR-IOV capability for CoCo VMs
 544d85de4dc22c01badfd8cefa59829ce35c4858 net: qrtr: Send HELLO message on endpoint register
 7d4d4f3b668d708d94f62ecdd33ac330a6fd8a84 dm-integrity: fix NULL pointer dereference when the 'R' flag is used
 7ac81e2d2240f2c57bd073b0733e0b2abca38e82 dm-ebs: fix incorrect device offset check in ebs_ctr()
 940de590b839f71d6dc846160534bf202401b8b7 Merge tag 'hardening-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+e14761563588281909beaef0a4b5d1b735c7404c bonding: convert unbalanced_load to per-cpu state
+4cef95f72bbd0d5edb232143751251717efb5928 bonding: fix u32 overflow in compute_gap()
+1c03d3ae5c9640b162c70492bf42b1b36fa3d7d6 Merge branch 'bonding-fix-tlb-load-tracking-overflow-on-high-speed-nics'
 af602c7aa5fedc9be3043244017aef4f26c96b70 bonding: do not clear curr_active_slave prematurely when releasing all slaves
+4187c29c2abdd2144f5bcf5936c7f997d1fdef66 net: optimize netif_is_l3_master() and netif_is_l3_slave()
 5a3f7a683aee56e1f15c9d53041f3236767eaae7 net: bridge: mcast: don't truncate the port group walk on teardown
+f4d02541872152b5248e84864e72e863902aa495 dt-bindings: net: dsa: realtek: add RTL8365MB power supplies
+f82364499682159e369e453922fd25d27c3a833f net: dsa: realtek: rtl83xx: add support for enabling supplies
+bd6b764f08deb2356f95d026c3143d5e19280496 net: dsa: realtek: rtl83xx: use dev_err_cast_probe() for reset GPIO
+8f051d2d0680ff8c8f07ed34317e22f84567380e Merge branch 'net-dsa-realtek-enable-rtl8365mb-power-supplies'
 debac3a20dec524a59625cf10fa2f18571127824 net: Remove conflicting altnames for dying netns in __dev_change_net_namespace().
+577b53589d420609e126fb710f23360d8ae96a3b dt-bindings: net: fsl,fman-dtsec: Drop redundant pcs-handle-names dependency
+889b0cca6b29df5bb92507745000e783cc46bf5d selftests: drv-net: hw: rename gro_hw.py to gro_stats.py
+f225a7317c18f2009fb4cdcc75337c726b6dda88 selftests: drv-net: split gro.py into one test per coalescing mode
+34d89dee719bb5509a50858756ed3d314ceb6af6 selftests: drv-net: bump the timeout to 15min
+25a477c8d9a390d3f1cde8fbe985157d4c89481e Merge branch 'selftests-drv-net-split-up-gro-py'
+5add7c8d59fa3a54ebf7b662ef68dce9d44ddbef netdevsim: fix panic when NETIF_F_LOOPBACK is set on a VF port
+7c0ec6288b497fc4dd190e243141a8d429488fd2 net: Replace %pK output with 0
+a3b4826138d453ce74cc7de4adaca08c622b6e07 USB: cxacru: replace __get_free_page() with kmalloc()
+534b188139745e0f31274fdb24e7abbeee2df204 USB: speedtch: replace __get_free_page() with kmalloc()
+1d91ec5b15a13093a676b99f1099a7580f32f5a4 Merge branch 'usb-replace-page-allocator-calls-with-kmalloc'
+c3a1b6763f4d76d69cb00e4e3a82ce7e18729507 dt-bindings: net: realtek,rtl9301-mdio: Add RTL83xx series
+1c86cd6937165b8ea702d8931d09f1df238c2a44 net: mdio: realtek-rtl9300: Add polling documentation
+3383b50c1695f7a7f0895b235706a3f2acf4ab11 net: mdio: realtek-rtl9300: deny C45 over C22 access
+2df76677c1c08f622cc577a49f0645a5976d7c91 net: phy: add phy_detach_internal() helper
+4b1d5d51528a2178aa9abeea4881e15f2344285d net: phy: add (*notify_phy_attach/detach)() hooks to struct mii_bus
+fe7a07ff5194e3b0168ca65c5e0ebde689eb73a9 net: mdio: realtek-rtl9300: suppress sysfs bind/unbind attributes
+ee18e22c63424ed9eddacaa3b4480413e29862bc net: mdio: realtek-rtl9300: Configure hardware polling during probing
+cc3cb8db1eef9fbe6f2c520312cf6384cf2c2ce7 net: mdio: realtek-rtl9300: Add page tracking
+6be4be074be82ea1196bec504bf1490b6fe6037f net: mdio: realtek-rtl9300: Increase MDIO timeout
+cc7a5bfaea142ebaa84bbcd8ddd14a3b21cc5bd5 net: mdio: realtek-rtl9300: Open up C22 and C45 space in parallel
+6ab6cb66b3b94239ae1007de4185c17756040279 net: mdio: realtek-rtl9300: Add support for RTL838x
+11b8be84ccafc946c5b3124ad41988e9243309a0 net: mdio: realtek-rtl9300: Add support for RTL839x
+d4ce2cef189ef4c267d5bcec922f5d390a85bc22 net: mdio: realtek-rtl9300: reword Kconfig and module description
+277c1de206e00843a8932df778bd81edd7048740 Merge branch 'net-mdio-realtek-rtl9300-add-rtl83xx-support'
+fbf5096f540dd9257a3eb372f8c9daac7e3a375b net: dsa: mt7530: move MDIO bus locking into regmap
+b62351d125adbfea3b292f41bba2a8f2e1922d33 net: dsa: mt7530: fold mt7530_mii_write/read into mt7530_write/read
+63ba2b758938d6f2028d2d5935ea7b5ec29443dd net: dsa: mt7530: replace mt7530_write with regmap_write
+f6692ee8def416c10c47cda97ee5b01e6c7260cf net: dsa: mt7530: replace mt7530_rmw/set/clear with regmap API
+10d9d8328e8ab4503ef44b7fc958bf57364a2e09 net: dsa: mt7530: replace mt7530_read with regmap_read
+d7110c1dab444c76048244f585532c276a58f93a net: dsa: mt7530: drop the dummy poll machinery
+3d8ca6f904750af5fb8a04d7f792e73fc24770ca net: dsa: mt7530: convert to use field accessor macros
+e1d532b6b056bc72c51523aeb2187e9f5142f75f net: dsa: mt7530: implement port_fast_age
+e5ed29f1560338c634ef8b68e7fc8501a715c251 net: dsa: mt7530: implement port_change_conduit op
+795eb0feb4012eddf8dad45cb358351125cf5f8a Merge branch 'net-dsa-mt7530-modernise-register-access-and-add-two-dsa-ops'
+e8965b0523f2fb0b6d42deeaaa94c0ede7ce4ebb net: pcs: lynx: add support for 25GBASE-R
+fcfb5ff9dfc3c77094159c4eb15d0539bfa3111d netdev: correct error code in netdev_nl_queue_fill_lease()
+17d7aa69540822d6ef1cd47bf069213941022806 netdev: don't use dev->flags for IFF_UP
+3498acda6b68139ec7b8037dbdf1ea720997ed04 net: phy: air_en8811h: restore AN8811HB LED GPIO after MCU restart
 d85f521a9afb786b1d95bbcb218d3afdf3fe73ab net: macb: exclude software FCS from TX byte statistics
 08710f033e3e35704e45adf8a95b5043ece34899 net: usb: qmi_wwan: add Compal EXM-G1x support
 6d0c8b7073913011459cf968cbbadd341e166bc3 net/rds: use wq_has_sleeper() in release_in_xmit()
@@ -751,11 +815,26 @@ e8e60d74fec49ccae2aea9b04a6eb162feb8d9af net/rds: tcp: don't force RDS_CONN_RESE
 813f3582ac7ae9f60f917937d54660e0952d5f2d net/rds: acquire the fastpath locks in rds_conn_shutdown()
 260c6308fe2e19ad519389d44d582e292aecc3af net/rds: don't let rds_conn_shutdown() consume a concurrent drop
 2f38e26a5741abdf152c1b56b22144a06d30fd66 Merge branch 'net-rds-own-the-fastpath-locks-across-connection-teardown'
+b1950d0426aabdda485c86b504106b1d7b11f325 net: dsa: yt921x: Check lock status with lockdep_assert_held_once()
+9c472a0d7c3893e568e1b61728d443a9d10bb3a8 net: dsa: motorcomm: Move to subdirectory
+e9423a64d382ba77a2906f365416714ede67328e net: dsa: motorcomm: Split SMI module
+9af9a816821365e57736307bfdfcf06d89065556 net: dsa: motorcomm: Add LED support
+5f28f63c5d1984f71685bc39ea62964c068b1a5d dt-bindings: net: dsa: yt921x: Add LEDs definition example
+e16acadb9a0f7a0f04318e4b3a8e89e8ddd0c905 Merge branch 'net-dsa-motorcomm-add-led-support'
+384ee2379a66a86903e1acccc30c2f87a3020809 net: stmmac: dwmac4: Read the UC filter size from hardware capabilities
+6815415d68b98bd34d22aa0631c71b0fb7cbc7f5 net: stmmac: dwmac4: Use the full perfect filter ability for UC filter
+1ab75e8bbfbff3e93e0ea06f33bd970c5324d31c Merge branch 'net-stmmac-dwmac4-auto-discover-uc-filter-size'
 7db28abbea0f7dc1ec4fdfdc149db5fbd9e4c994 net: airoha: enable RX_DONE interrupt for RX queue 31
 6b8fed2675fb75d23e6cf2b7e49c94926e884b34 net: stmmac: reconfigure RX packet parser table in stmmac_hw_setup() after reset
+e048669dccec93e8c91a9e88cc3937e3a03979ed octeontx2: use dev_err_probe() for deferred probe
+8e2faf945a13fc73711a5227af8a1077523b590f net: stmmac: drop the queue-0 pinning for GSO frames
 66817a9794263cd2a5dc4e99bf8e5fcc5ff7181e net: gro: Fix nesting of TCP GSO SKBs in skb_gro_receive_list()
+60c1bcdeeb8ecacb35a430f516d11d805922d017 octeontx2-pf: Add NIXLF error and poison interrupt handlers
+b35d3d2fae3058265ba937544a3895cedce18d08 octeon_ep: remove redundant memset in octep_setup_pfvf_mbox()
+7042c8c193e5d634198b7c766bb3a01c8e3ee0e2 net: libwx: rename wx_pf_flags to wx_flags
 97be98b94dc8e43a3e4dedccaf9683fb806e49aa Merge tag 'ntfs-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 8ab1afb2eb246ab15b301cd255b5943d208a93c1 Merge tag 'for-7.3/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 adf50c47a47f0f0f0b79dd58ffade9919cddebea Merge tag 'net-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a5249d1d9a618b31e15e191faa4122dc5d9912b1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3446809585429966782==--
+--===============1776497145557385923==--
