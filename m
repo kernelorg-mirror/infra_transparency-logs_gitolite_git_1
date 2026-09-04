@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5380578763197120795=="
+Content-Type: multipart/mixed; boundary="===============4321245960356991907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 04 Sep 2026 11:06:22 -0000
-Message-Id: <178851998216.2122461.15840216421548764470@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 11:06:30 -0000
+Message-Id: <178851999089.2122709.9442699882744850352@gitolite.kernel.org>
 
---===============5380578763197120795==
+--===============4321245960356991907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 9552c5392b7feeb23b34d2ecda6c052bbc63b2f1
     new: d15c6186c5d0e71e80f9159e1e4419ec66c68406
     log: revlist-9552c5392b7f-d15c6186c5d0.txt
 
---===============5380578763197120795==
+--===============4321245960356991907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b9fe85a424928ed47f3c47f2248e4a4a2378f183 LoongArch: KVM: Validate MSI data befor
 d67e8ca44ab89de247e16b0b5b33ce233bdb0dd0 LoongArch: KVM: Fix TOCTOU race on pv_features
 d15c6186c5d0e71e80f9159e1e4419ec66c68406 perf build: Add clang and rust target flags for LoongArch
 
---===============5380578763197120795==--
+--===============4321245960356991907==--
