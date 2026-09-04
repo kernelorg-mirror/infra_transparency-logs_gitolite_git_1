@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Fri, 04 Sep 2026 20:11:00 -0000
-Message-Id: <178855266042.2558202.7365243443523578376@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 04 Sep 2026 20:11:34 -0000
+Message-Id: <178855269430.2558548.10311293380114689157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-7.4
-    old: b26da6db3da90a2ad84f686c6635c45697c3fb06
-    new: 8e51dd6db0bc7fa888326c913edcb8fe8c1fdc16
+    old: f0c54cc56a9a21047b1afa209baea8ea931f2e92
+    new: ba3a9ad7b5add7ff7a1577e1f1c750ad5ecd8c0a
     log: |
-         8e51dd6db0bc7fa888326c913edcb8fe8c1fdc16 regmap: fix typo "asynchrnous" in comment
+         761f34e333ace119eacc3af70fec87fceeb76dc0 regulator: tps65185: Remove redundant dev_err_probe()
+         24fa0eadc2e3c7e9397924197dca7777ec08b8d7 regulator: mp886x: fix vsel_mask
+         c75d4f104f81197c1c405fba28025241b7419346 regulator: dt-bindings: mp886x: support mp8864
+         6c45fd3e18548ebb30a7a4bc5b2bfc1f875f4614 regulator: mp886x: add MP8864 support
+         ba3a9ad7b5add7ff7a1577e1f1c750ad5ecd8c0a regulator: mp886x: add MP8864 support
          
