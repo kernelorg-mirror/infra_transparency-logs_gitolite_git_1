@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Fri, 04 Sep 2026 14:38:18 -0000
-Message-Id: <178853269807.2301155.3497153177825308582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Fri, 04 Sep 2026 14:38:49 -0000
+Message-Id: <178853272950.2301470.13265980249051858381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/master
-    old: 1ef4272387f9b84b7fdac98032bb49f1f5c55fd9
-    new: 3829b0e0cc22f3f7a70d6fed721e1772513ea7f0
-    log: |
-         3829b0e0cc22f3f7a70d6fed721e1772513ea7f0 test-appliance: add a bash_history file with prepopulated command history
-         
+  - ref: refs/tags/ata-7.3-rc2
+    old: 67742d092e2270f35dd37f4555d43fbdbd38f51a
+    new: 0000000000000000000000000000000000000000
