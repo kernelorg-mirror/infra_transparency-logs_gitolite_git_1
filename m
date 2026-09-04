@@ -1,48 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0654740349468798023=="
+Content-Type: multipart/mixed; boundary="===============7142638697418296913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Sep 2026 16:56:33 -0000
-Message-Id: <178854099341.2411585.13568579830493090132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 04 Sep 2026 16:56:38 -0000
+Message-Id: <178854099868.2411711.16378150258728460909@gitolite.kernel.org>
 
---===============0654740349468798023==
+--===============7142638697418296913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: d761934c9483ecde93fe99d8705282f716dfee50
-    new: 3ccdb07813829ba9487273e75d1cb238cfa774c1
-    log: revlist-d761934c9483-3ccdb0781382.txt
+  - ref: refs/heads/master
+    old: 349be28a9c46ad21c881e5eba4f3b810e0d9c1ae
+    new: 2d5aafe51eba9a1c0bf1410f27ad2a16f0e266f4
+    log: |
+         2d5aafe51eba9a1c0bf1410f27ad2a16f0e266f4 mark the beast of 7.1.5 as finally done
+         
 
---===============0654740349468798023==
+--===============7142638697418296913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d761934c9483-3ccdb0781382.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-802a30c5db726639df7f93b3a1982ecc64202abe bpf: Fix queue/stack map u32 index overflow
-33576bfee5b7f65e3df651ac33f83fdcf1f04233 selftests/bpf: Add regression test for queue/stack map size limit
-418814c9fb26db952dad973b07d1d21d5fd66b54 Merge branch 'bpf-fix-queue-stack-map-u32-index-overflow'
-06d6f845c4bda857a6ae864690f35321b878e827 bpftool: Set BPF_F_XDP_DEV_BOUND_ONLY flag non-destructively
-d6746a246b362c3c83df170eda6d3c44cc0a4040 selftests/bpf: Set BPF program flags non-destructively
-d6b633b585f348053dd27044b1b39972c748c1fa libbpf: Move section-defined program flags to prog_flags
-99c71666dcb11b92bacedb7ddc5bf172aedc07c4 selftests/bpf: Check for flag presence in bpf_program__flags()
-d9a0f184dc174cd35a732a790e0dbae9ceb18543 Merge branch 'libbpf-move-section-defined-program-flags-to-prog_flags'
-7bf591f26545f5776a4e42d08c06fd94469766dd libbpf: Fix debian kernel version information parsing
-d02bfbc49c8ef978eac5f39a2de67281b8e00edb bpf: mark instructions accessing program stack
-90769ad233cac2ade07f8d2f91214e584842158d bpf: add BPF_JIT_KASAN for KASAN instrumentation of JITed programs
-b3b45e9d72dfdc3534b04747978c891b0b30fc31 bpf, x86: refactor BPF_ST management in do_jit
-92b73b708b1764b3f3a02652c1e8dd3965b6d1ab bpf, x86: emit KASAN checks in x86 JITed programs
-cfc821c029fd66237b9a1f66362d93d4a5cab48e bpf, x86: enable KASAN for JITed programs on x86
-040ef1f8b02e57b78081581d490ceec04ef5f7c0 selftests/bpf: make cmdline_contains stricter
-9123a4d4c4f3321efbb40569b81985d9654abe25 selftests/bpf: add helpers for KASAN in JIT testing
-2cbbb035977a79b78952404d3e2c3c6dfe318259 selftests/bpf: add tests to validate KASAN on JIT programs
-3ccdb07813829ba9487273e75d1cb238cfa774c1 Merge branch 'bpf-add-support-for-kasan-checks-in-jited-programs'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788540894 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1788540991-967a2ceb76f3fad148745ad495ae4237f6a56e0c
 
---===============0654740349468798023==--
+349be28a9c46ad21c881e5eba4f3b810e0d9c1ae 2d5aafe51eba9a1c0bf1410f27ad2a16f0e266f4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqa994bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kA8P/1Q0Ab85bg7hbrE6TGdE
+xDOw9683lrxbISGs1RifA5bdP/rU+aiLd798bvGY5hlex2RCAMPGlyZANRPjpRC2
+nQBHqCvg20xbd5Q1j5LcQTWJ5cuZZdhOj8YMH2oggOtEhYvNcn7Rke+57IFwfq9u
+6p6fk807Yq22Q9BNodOws+dzMwQoqW3i5Cwuo5eYxqDlW/2aMNU4BFPurh33p5xb
+uS01Kfbh+VhLY7n+5SFQKKZiIFH+C1FqoK6l/CR5I7GEuFvp/8UsBGOy8hWOQEJb
+KUZ08dSwP2oLXElWU9Tc+xw5ANAUGREII2nT7L40zOAfAaggvGQbRVF5IXYST8Kf
+ZyCjkxtfp903IyBWPqxhFdx/hLdszNSuC3JVy8ABxWFe0t2t4Ku6Xw1Zr6VXsd64
+/qSQpXpuoxOXXEGUZ0otIY/O4Ek15MOcXfz5nrt3jWVLUtyyfQ5fDzUsfTfSfWCT
+1rHa4AKIsdM9/RGT8u/fWOn903N3ZWNFfH7S1uUEABc0SM4Udl7xNsBaGQ9VVVTy
+Ir2pqEL3+bP/HxbqqqKUKukS5P9ZrSNqEfS/ODEgg1KlXVpK0pWqm85l9wKWjUUk
+tSfmLeFAxsJlVLdsCCVgxMK6hkGxp31nxewO203jglAYfHlvxtXUCuulWGqLRuWy
+GLsQkW+c+NtuxfWyXPKH8FSt
+=EB22
+-----END PGP SIGNATURE-----
+
+--===============7142638697418296913==--
