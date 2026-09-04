@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1445122260600409633=="
+Content-Type: multipart/mixed; boundary="===============3674272062964915222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 04 Sep 2026 15:34:44 -0000
-Message-Id: <178853608421.2345606.14391851786514367400@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 15:35:53 -0000
+Message-Id: <178853615317.2348339.13694221721280166642@gitolite.kernel.org>
 
---===============1445122260600409633==
+--===============3674272062964915222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,21 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/kvm
 user: bonzini
 changes:
-  - ref: refs/heads/master
-    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
-    new: d599822bdb66aeec5ec76297b0fc6efaaeefe07c
-    log: revlist-8d3ae59288f1-d599822bdb66.txt
+  - ref: refs/heads/next
+    old: 76671054f9a1ff6abb976583cd8da37650acdc97
+    new: d4b7fb647204f0c81dfeae2d1a708e4d858e0c94
+    log: revlist-76671054f9a1-d4b7fb647204.txt
+  - ref: refs/heads/queue
+    old: 76671054f9a1ff6abb976583cd8da37650acdc97
+    new: d4b7fb647204f0c81dfeae2d1a708e4d858e0c94
+    log: revlist-76671054f9a1-d4b7fb647204.txt
 
---===============1445122260600409633==
+--===============3674272062964915222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d3ae59288f1-d599822bdb66.txt
+Content-Disposition: attachment; filename=revlist-76671054f9a1-d4b7fb647204.txt
 
-315d11a89147724528d867268382812913bd2ead dt-bindings: rtc: ti,omap-rtc: Convert to DT schema
-cb8a75eec0877810b50aa1c5a833f929525cd2ee Merge tag 'trace-ringbuffer-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-1190db8edcd91309e64d8212c1ca8b90a4ed732d dt-bindings: rtc: microchip,pic32mzda-rtc: Convert to DT schema
-745ca1b959d9f08cbfd15891aa74ef4e3e847952 dt-bindings: rtc: Convert rtc-cmos binding to YAML
-4d31434fea516f10ccff35db4a21773780f08cee dt-bindings: rtc: Convert TI Palmas RTC to DT schema
-b1407862fb57c6455a04fa5d0d02b58496a38cc9 rtc: pcf2127: remove conditional return with no effect
-878d93aaa596a861dbc8d71f7c38e62a2e805f01 rtc: ds1307: fix RX8130 wakeup alarm WADA bit for day-of-month mode
-ca45cfa74370644d371b552bef57938c19e3c80c rtc: gamecube: check return value of devm_rtc_register_device()
-83453b6f5131a83af7b2a4df28bc776353ac56c5 Merge tag 'audit-pr-20260814' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-4253eb09d25bcfe44f6987b6f67c09f09d80a966 Merge tag 'selinux-pr-20260814' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-09005a63988521f74111fae344aecb3f63306168 Merge tag 'lsm-pr-20260814' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-cbad8981fa3b1fc726e6e5652e92fd76c01e543c Merge tag 'Smack-for-7.3' of https://github.com/cschaufler/smack-next
-a51ec5e8e5dae80824239f0344210060cb92a4b0 Merge tag 'integrity-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 a4ff2be345d0abc943da8dd8da98151843b750dc Merge tag 'v7.3-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 c44e278ce02efd0c4be79a8eda1ea6885c1ce5ec BackMerge tag 'v7.2' into drm-next
 d9c0fd5533fb23bc445bd581feb140e966195936 lib/interval_tree: fix allocation warning messages
@@ -478,7 +469,6 @@ b8f070ac3167595069feb1f794c127b805115645 arm64: process: Fix context switching M
 3b2c5d35cf4398edf47c4a3ad076838654a30015 f2fs: use adjusted write range after f2fs_write_checks()
 cf9610f9116d55c5a66ef9f1faecacabd93a9322 Merge tag 'pinctrl-v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 47096fc3d064a07c0842f748b99ebf01be120f2b Merge tag 'i2c-7.3-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-76671054f9a1ff6abb976583cd8da37650acdc97 Merge tag 'kvmarm-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 cb19774faa57c51efa189d8b8606aeabccebc53b Bluetooth: hci_sync: Clear HCI_CMD_PENDING when dropping the last request
 909a3f0e9d8b0d8001cf6e99808f88eca8e44328 docs: cgroup-v2: fix misc.events key format description
 bbc2de7fa5b42ee024ae82cd848252152d219a4e docs/ja_JP: translate submitting-patches.rst (tag usage)
@@ -1049,6 +1039,20 @@ f3a557067d57ce6ae98d485c8009b223e16f5f36 KVM: s390: Add missing srcu in kvm_s390
 65e05ec252a9b79e75930d3c4dd42d8877db04c5 s390/vfio-ap: fix KVM GISC and page leak when queue removed from host config
 d12ce6bce5ec5175c3581e01c71e7a5abb286d9b s390/uv: Fix loop condition in uv_find_secrets
 f47190b08b71e8482072978373ee88cb2dfbdaf4 s390/uv: Prevent potential out-of-bounds read
+f16044caeab6248a2b1a2e4de42f5de01c27cd5b KVM: x86/xen: Rename 'longmode' to 'is_64bit' in hypercall handling
+c152f0a08366107a4333b3260a60803c36120bfa KVM: x86/xen: Introduce kvm_xen_has_64bit_shinfo() macro
+a9c11e5f31461ad8870028670474288c12a4bf07 KVM: x86/xen: Rename max_evtchn_port() to kvm_max_evtchn_port()
+5831fb3e6b39c7ce875be0881131800405409572 KVM: x86/xen: Latch shinfo mode in kvm_xen_set_evtchn_fast()
+c72ed7c36d2a5b60e24148076db9c4bc932cb6c5 KVM: x86/xen: Latch shinfo mode in kvm_xen_schedop_poll()
+eacdb76c5f04956035c5d7f7e1973028f30684a2 KVM: x86/xen: Enforce 4-byte alignment of vcpu_info registration
+1835551d4304abb1edcbf5d1ba71945279051236 KVM: x86/xen: Use 32-bit locked bts for vcpu_info evtchn_pending_sel
+301a5ced32e08e96212b413e896ef4c32d1ce961 KVM: x86/xen: Use 32-bit atomics if vCPU's evtchn_pending_sel isn't aligned
+83efc5ae38c99bc261f1edecee8d29b23fa25c0e KVM: x86/xen: Use atomic*() APIs instead of open coded equivalents
+aa8ad943f242ef14d136c5440b1178de77466c9e KVM: x86/xen: Take kvm->srcu in __kvm_xen_has_interrupt()
+f7b8f2ca58c89fb363d62a119e3201ab807543f1 KVM: x86/xen: Mark poll_evtchn accesses with READ_ONCE()/WRITE_ONCE()
+da260bcb56feeb6489a83f310308453a0a7de25e KVM: pfncache: use a dedicated invalidation sequence for cache refresh
+c02e72c8daa6c63bfadf69a1a86a64f6330bcf5f KVM: x86/xen: Convert evtchn_ports from IDR to XArray
 d599822bdb66aeec5ec76297b0fc6efaaeefe07c Merge tag 'kvm-s390-master-7.3-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+d4b7fb647204f0c81dfeae2d1a708e4d858e0c94 Merge branch 'kvm-xen-longmode' into HEAD
 
---===============1445122260600409633==--
+--===============3674272062964915222==--
