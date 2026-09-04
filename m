@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 04 Sep 2026 23:01:36 -0000
-Message-Id: <178856289694.2682584.5969990261654275509@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 23:07:51 -0000
+Message-Id: <178856327153.2686457.5985434151945488327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1f29543126dde307e8b5fb6a740c54e59deaa2ff
-    new: c91b4d6e5cc30ceea3f23ebe29aec012709a065f
+    old: c91b4d6e5cc30ceea3f23ebe29aec012709a065f
+    new: 5d50e90add8b4a978395e893e81954d19d58a7c5
     log: |
-         c91b4d6e5cc30ceea3f23ebe29aec012709a065f ionic: use netif_txq_maybe_stop() in ionic_tx()
+         78a86d75a70e1e227711c72865c59b1422d0a5ae net: mpls: clear inner_protocol when the last label is popped
+         5d50e90add8b4a978395e893e81954d19d58a7c5 net: usb: cx82310_eth: drop URB after 0xffff reboot sentinel to prevent partial_data heap overflow
          
