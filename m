@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/da.gomez/linux
-Date: Fri, 04 Sep 2026 14:13:49 -0000
-Message-Id: <178853122977.2280905.4820751936532232001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 04 Sep 2026 14:19:15 -0000
+Message-Id: <178853155551.2284884.4085018082378582427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/da.gomez/linux
-user: da.gomez
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/rxarray-wip
-    old: 4cc88f0457c861677dad951f78c5c14ad36e1fad
-    new: e9093bf6ee3dc1f9a4e2b08695a8d492d96f4ffb
+  - ref: refs/heads/irq/urgent
+    old: e67091609cf85962f64391c1b0f93d4cbfcd4e22
+    new: d31fbbade43f880b7e59e2b3a72722fe2725d93f
     log: |
-         6507d89cf083939091abfa3f64af429e479b86cd rust: kernel: fix build configfs module
-         e60d5dc216650c91c538ccfa1162474485dac6a6 Rust XArray
-         e9093bf6ee3dc1f9a4e2b08695a8d492d96f4ffb rxarray: add rust xarray support
+         d31fbbade43f880b7e59e2b3a72722fe2725d93f irqchip/stm32mp-exti: Fix the unit of the hwspinlock timeout
          
