@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7176222094676103777=="
+Content-Type: multipart/mixed; boundary="===============4726886966733356279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Fri, 04 Sep 2026 21:06:46 -0000
-Message-Id: <178855600615.2598880.14899765117438578353@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 21:07:01 -0000
+Message-Id: <178855602176.2599181.7967027266688511162@gitolite.kernel.org>
 
---===============7176222094676103777==
+--===============4726886966733356279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/test
-    old: c7b215e22feffb36e462749c5a255d72a04bd29d
-    new: f49e6cf919425cc55f10fd7cda7e0fc895df4cc0
-    log: revlist-c7b215e22fef-f49e6cf91942.txt
-  - ref: refs/heads/vhost
+  - ref: refs/heads/linux-next
     old: c7b215e22feffb36e462749c5a255d72a04bd29d
     new: f49e6cf919425cc55f10fd7cda7e0fc895df4cc0
     log: revlist-c7b215e22fef-f49e6cf91942.txt
 
---===============7176222094676103777==
+--===============4726886966733356279==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -64,4 +60,4 @@ b7b6cc664df54cb7db31fa3316d2356b3484f723 virtio: add Eugenio Pérez as Maintaine
 1ff1bdfdf715df1137a7387a6f1b5ceba7890e09 virtio_pci: return IRQ_HANDLED for INTx interrupts
 f49e6cf919425cc55f10fd7cda7e0fc895df4cc0 virtio: synchronize callbacks after device reset
 
---===============7176222094676103777==--
+--===============4726886966733356279==--
