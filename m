@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4537954579629734283=="
+Content-Type: multipart/mixed; boundary="===============1418119025361031366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 04 Sep 2026 10:41:57 -0000
-Message-Id: <178851851782.2103748.5725338484085619481@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 10:42:11 -0000
+Message-Id: <178851853136.2104062.1718176561014690869@gitolite.kernel.org>
 
---===============4537954579629734283==
+--===============1418119025361031366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs-7.3.iomap.final
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kernel-7.4.signal
+    old: 3255fa551e2276a1bc0bbb33104be866b4b4a68b
     new: cee9395acd8043be0644b25c34bfa86623f2b935
 
---===============4537954579629734283==
+--===============1418119025361031366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1788518517 +0200
+pusher 0x91C61BC06578DCA2! 1788518530 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1788518516-584138e8e5cc86a4a288f90d9ff80c8017328ee2
+nonce 1788518529-68053e696aca6ccb07880a9ff170019429d5c082
 
-0000000000000000000000000000000000000000 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/vfs-7.3.iomap.final
+3255fa551e2276a1bc0bbb33104be866b4b4a68b cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/kernel-7.4.signal
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapqgdQAKCRCRxhvAZXjc
-okN4AQCUFU6jHdOMJLpaRTWwBsGF1aQlMue95OMLY3kLAJtMpwEAtTnIWiIppKO3
-3zHXVVtO4vhUhT2hfOjMf02UoZM6Tgo=
-=bD1O
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCapqgggAKCRCRxhvAZXjc
+osg+AP91eRjydSoYNomUyR/Z8sP40meo2cwc+NB8FMW6/60sygD+L89oUvdNGw9K
+olE86MnvBcqs/xeVBRCbfGvILOKOEgg=
+=R4O1
 -----END PGP SIGNATURE-----
 
---===============4537954579629734283==--
+--===============1418119025361031366==--
