@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 04 Sep 2026 19:24:36 -0000
-Message-Id: <178854987657.2522765.3667864209595279882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 04 Sep 2026 19:26:08 -0000
+Message-Id: <178854996834.2525756.13629377153242451390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 5e8c349bc8d790fe031a4332e502f5d4f9878644
-    new: 519f858317afc52e986817ad63fd68172dd38b6c
+    old: ed3d4c3f91b2a1a73ff8b8ffc6a1e83d34488dfd
+    new: 4b92dddc8e540649304db38c37a369117c99762b
     log: |
-         5df46ddcb7b36878c1b691e9057a0509042a2567 bpf: Preserve special fields in recycled rhtab elements
-         dbf6806dc81553edbab72fcec9a6d637dedff2f4 selftests/bpf: Test timer field on recycled rhtab element
-         65cc95eba9e8b46312cac38c227473605a4b996a bpf: Cancel special fields when recycling rhtab elements
-         2b97956af60810cd382b86b9ce9aea421b889861 selftests/bpf: Test rhtab kptr cancellation semantics
-         ecdc5043794c9184aa8e6c814603899479c46b35 bpf: Mark NULL kptr stores precise
-         9dcddf30ac1a14f18c3221db9292bcaa0735ee2f selftests/bpf: Test imprecise scalar kptr stores
-         b90c5d770dad910fb89e6c1b15052a8a1e8db752 bpf: Preserve inner map identity in callback frames
-         e615b9fd4d9df602030d9b57a5eca206abbb0aff selftests/bpf: Test inner map identities in callbacks
-         519f858317afc52e986817ad63fd68172dd38b6c Merge branch 'misc-bug-fixes-part-4'
+         5ef24e77a6427499dc8fecb2ebe5495c0141e3b5 test-runner: Add support for PCIe passthrough
+         24a46bbd3b78e287ac1d49a26859d7c5e1872d12 monitor: Add latency standard deviation
+         7bcf6c42721e91c387fdf15639f0a0185f563fc7 monitor: Add ISO packet loss counters
+         4b92dddc8e540649304db38c37a369117c99762b doc/btmon: Document the deviation and loss counters
          
