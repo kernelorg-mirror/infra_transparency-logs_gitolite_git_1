@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Fri, 04 Sep 2026 14:37:51 -0000
-Message-Id: <178853267125.2300818.13034568590649052519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Fri, 04 Sep 2026 14:38:18 -0000
+Message-Id: <178853269807.2301155.3497153177825308582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/dev/acpi-static-table-gsi-deferral
-    old: 804096d04e70cdfacbca1092135478d551baac61
-    new: a1fd476c196b78f6418301a711192bbea6996f2d
+  - ref: refs/heads/master
+    old: 1ef4272387f9b84b7fdac98032bb49f1f5c55fd9
+    new: 3829b0e0cc22f3f7a70d6fed721e1772513ea7f0
     log: |
-         2de75c92360c0c3e84dad8ca2eb2de51866cfcee acpi static fwnode irq_get/add_links
-         1c91ae0112a820769c7a5c3a364c27e5548e5f9e extend irq_get_byname to secondary fwnodes
-         a1fd476c196b78f6418301a711192bbea6996f2d clocksource: Implement arch mem timer deferred probe
+         3829b0e0cc22f3f7a70d6fed721e1772513ea7f0 test-appliance: add a bash_history file with prepopulated command history
          
