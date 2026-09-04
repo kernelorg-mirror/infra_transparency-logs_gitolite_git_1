@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 04 Sep 2026 18:41:03 -0000
-Message-Id: <178854726384.2494098.15125230429961193909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Fri, 04 Sep 2026 18:55:37 -0000
+Message-Id: <178854813749.2504451.1977462000520384568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 5f01cb141169fe422c42279f7d502479b1ff9fd2
-    new: 8992169e7ac6b216f881cb373bb2c6bff0c6162a
+  - ref: refs/heads/testing
+    old: c9f54ead57939ebe76b9b76a9ef17b4331766b97
+    new: e7c1d459e542bc4a9c57f558e8ca1b14df7a7eef
     log: |
-         3958b39fa5b76d692ed548ce6c7c563f465ff8fb spi: qcom-geni: Add shutdown callback to quiesce hardware on reboot
-         b7b192e58f353424aa26bef5da88b2a3cb20049e spi: qcom-geni: Add panic notifier to cancel and reset DMA during panic
-         4dd9f46eca2a9f8d0d6f40961df0042bb3fad569 spi: qcom-geni: Add shutdown and panic notifier support
-         29359ee126bdb8222eb1b74c32dc63ab1f921584 spi: dt-bindings: amlogic: spisg: Document A9-specific properties
-         754d2bbd92f5ecef0eb4f5b1ac7b1417320a56ca spi: amlogic: spisg: Fix transfer size limit and timeout handling
-         253dfb1839c6bc357aebe8aac4f1b4dcc20ee322 spi: amlogic: spisg: Fix the incorrect keep_ss of the last descriptor
-         b552119acd63658bbfd86ee55ac802df4c9ab3f1 spi: amlogic: spisg: Add support for A9 controller features
-         a580090300de2b5ea207a0703b4f59af3c06a55e spi: add support for Amlogic A9
-         bb308b27016c9df54433474cdae6eacc32429b4a spi: ingenic: release tx DMA channel when rx request fails
-         8992169e7ac6b216f881cb373bb2c6bff0c6162a spi: ma35d1-qspi: assert reset on probe error paths
+         5e647f33a52c77768d906daa87ed42d97f517fff dt-bindings: iio: update unreachable maintainer entries
+         046b8e50c9ac307fa593dde712391ce42e9fb7f7 dt-bindings: iio: accel: adi,adxl367: add interrupt-names
+         8f18fb487be208e0c8c6b5ac825e49fbe884a5a7 iio: accel: adxl367: use regmap_assign_bits()
+         e7c1d459e542bc4a9c57f558e8ca1b14df7a7eef iio: accel: adxl367: add support for INT2 interrupt pin
          
