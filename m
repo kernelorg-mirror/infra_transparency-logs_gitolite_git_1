@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9068712401315546106=="
+Content-Type: multipart/mixed; boundary="===============4771612253148234190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 04 Sep 2026 18:22:14 -0000
-Message-Id: <178854613417.2477485.12845637410177297304@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 18:22:45 -0000
+Message-Id: <178854616583.2477862.1350774388741213089@gitolite.kernel.org>
 
---===============9068712401315546106==
+--===============4771612253148234190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/will/linux
 user: will
 changes:
-  - ref: refs/heads/overflow-stack
-    old: 0fad03c113a51c761a725cfa32fee7960361ba8e
-    new: e4b955b103d99a3a3041672dd076127a43c8b032
-    log: revlist-0fad03c113a5-e4b955b103d9.txt
+  - ref: refs/heads/for-next/perf
+    old: 5936245125f78d896fdb1bbc2ae79213e28a6579
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    log: revlist-5936245125f7-cee9395acd80.txt
 
---===============9068712401315546106==
+--===============4771612253148234190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fad03c113a5-e4b955b103d9.txt
+Content-Disposition: attachment; filename=revlist-5936245125f7-cee9395acd80.txt
 
+a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
+7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
+bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
+12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
+da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
+abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
+0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
+f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
 c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 55aa45154fe48b7d8e96bc031ad27d5b0edfcdb8 PCI: vmd: Add Nova Lake (NVL) and Dunlow (DNL) Device IDs
 59e6295fac26b8e85c1ea859cdd89fa1e47519d7 Merge tag 'driver-core-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
@@ -1029,26 +1050,5 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-fdf4774076ae90e590f2468c7597cc4e2835e200 arm64: entry: Defer setting of TPIDRRO_EL0 until exit to userspace
-86e42ebd5ad8cacc16d8fe70973bda853ae5d984 arm64: entry: Only check for stack overflow on exceptions from EL1
-ecc25b87bee1f87384cfa5983d48de9b3ddab501 arm64: stackprotector: Temporarily disable per-task stackprotector
-08820155dfc85c7908f0dc758075562b7c672743 arm64: bpf: Add support for generating reads of TPIDRRO_EL0
-7f4412553663e2d53206d2741f2806684443fb0f KVM: arm64: Protect TPIDRRO_EL0 across guest entry/exit
-82b199368b6ff082d9f490cd12fce18a23620835 arm64: Store 'current' in TPIDRRO_EL0 instead of SP_EL0
-8e3597a5778b4369b103b8bd4a7ba516b8f07bb4 selftests/bpf: arm64: Use TPIDRRO_EL0 instead of SP_EL0 for 'current'
-3fa0a876966569cb15b15ebb115e3ac948907763 scripts/gdb: arm64: Use TPIDRRO_EL0 instead of SP_EL0 for 'current'
-f34fe7207968c62ef54b04ecc78821b26e29c613 arm64: stackprotector: Re-enable per-task stackprotector
-b241f7da3b50bc150209751446c21b9eb1278c43 arm64: percpu: Specialise set_my_cpu_offset() for the primary CPU
-d3b00287a5e3d66ddfc68f37e3039513e20a1352 arm64: percpu: Annotate __kern_my_cpu_offset() as '__always_inline'
-343f085d58fa4c74d5f92d16828f5db1d7fce8e8 KVM: arm64: Preserve handler/thread bit of EL1 mode in __finalise_el2()
-d4c383e89b97a2ee35d3dfd0faf1da9fb67049af arm64: sdei: Guard most of asm/sdei.h with CONFIG_ARM_SDE_INTERFACE
-4d2ac85e676005afa35b99ba26408b1efcccb0b9 arm64: sdei: Support SDEI events from kernel handler and thread modes
-b58b86b1172a2487bcd74a7faf4a6f42de64fc85 arm64: entry: Point SP_EL0 at the overflow stack
-95dd4e371777c65c4ae5fafd9792f05d2dd0e2b0 arm64: entry: Implement EL1t exception handlers for overflow stack
-233deca93aadbdac86dd14fca3dd8acded57c390 arm64: entry: Use SPSel to switch to overflow stack
-92ce4764e05c8fec40c3531196fdc3193ac7bfb1 arm64: entry: Split up kernel_ventry macro into separate helper macros
-7c9976c8a629bbf2a23579029067204bc446fb1d arm64: entry: The great stack switcheroo
-b0faf1be07e2153e320dfaf8b7b94cb74b8f52ac arm64: tracing: Advertise a mode of EL1t in synthetic kernel regs
-e4b955b103d99a3a3041672dd076127a43c8b032 arm64: Rename 'overflow_stack' and OVERFLOW_STACK_SIZE
 
---===============9068712401315546106==--
+--===============4771612253148234190==--
