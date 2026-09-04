@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3017145680899677770=="
+Content-Type: multipart/mixed; boundary="===============2435888206924617373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 04 Sep 2026 06:22:31 -0000
-Message-Id: <178850295157.1892129.5927987354164343974@gitolite.kernel.org>
+Date: Fri, 04 Sep 2026 06:23:08 -0000
+Message-Id: <178850298827.1892491.2413546547870095258@gitolite.kernel.org>
 
---===============3017145680899677770==
+--===============2435888206924617373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 298bb2b8903323f6ef2eab4819a2e477765f0ff1
     new: 6ebcf5074cff0402730c6981d2397139fee6322d
     log: revlist-298bb2b89033-6ebcf5074cff.txt
 
---===============3017145680899677770==
+--===============2435888206924617373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e84b89f17a12a7cfc526eb1c18ac02e8777e18c9 net: airoha: grow the small RX rings
 8c9190bfd18a2548dea677faed7d6ee11f3cb0c8 net: phy: dp83848: check phy_read() return value in config_init()
 6ebcf5074cff0402730c6981d2397139fee6322d net: openvswitch: don't schedule rebalancing if there are no datapaths
 
---===============3017145680899677770==--
+--===============2435888206924617373==--
