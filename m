@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1589775537984269278=="
+Content-Type: multipart/mixed; boundary="===============1512365303273831490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 05 Sep 2026 00:56:58 -0000
-Message-Id: <178856981868.2764652.3272612635471274063@gitolite.kernel.org>
+Date: Sat, 05 Sep 2026 00:57:05 -0000
+Message-Id: <178856982547.2764970.1613986242096486209@gitolite.kernel.org>
 
---===============1589775537984269278==
+--===============1512365303273831490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/tmp.perf-tools-next
     old: 92d50319b4f0c0bbee8a236a09063272cd22faab
     new: 02f6847e1822714a4201b87e42f92b0d43e8549d
     log: revlist-92d50319b4f0-02f6847e1822.txt
 
---===============1589775537984269278==
+--===============1512365303273831490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ a202e928b282495b4acf68764817dbdadc9ed14e perf pmu intel: Generalize SNC cpumask 
 2148e094671b0f6a44f033787b7da4ed14e96c27 perf evsel: Validate branch stack before byte swapping
 02f6847e1822714a4201b87e42f92b0d43e8549d perf evsel: Validate RAW sample before byte swapping
 
---===============1589775537984269278==--
+--===============1512365303273831490==--
