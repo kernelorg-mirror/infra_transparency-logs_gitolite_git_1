@@ -1,55 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1551477020275257572=="
+Content-Type: multipart/mixed; boundary="===============5967117016709861663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sat, 05 Sep 2026 12:11:26 -0000
-Message-Id: <178861028682.3245824.1704425082225038942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Sat, 05 Sep 2026 12:31:42 -0000
+Message-Id: <178861150232.3259626.1705912040841736954@gitolite.kernel.org>
 
---===============1551477020275257572==
+--===============5967117016709861663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/fixes-test
-    old: b1824233b19c1dffdb5e81283805a9e52e763caa
-    new: 63a7531ca31f9f097d9cc1cc3fe86ae683cdabdd
-    log: |
-         63a7531ca31f9f097d9cc1cc3fe86ae683cdabdd powerpc/entry: Fix irq_soft_mask corruption on replayed interrupt exit
-         
+  - ref: refs/heads/master
+    old: bc35965f6940a9bf834d54187b6088b8eb09206d
+    new: 421066905cbceca1f78cba5f7d92b4980317ab2b
+    log: revlist-bc35965f6940-421066905cbc.txt
 
---===============1551477020275257572==
+--===============5967117016709861663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bc35965f6940-421066905cbc.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1788610281 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1788610280-c039c664e69fac89801bd02e745758a4bf4101f4
+9fca7779ad18538188d640b1fdcfea924459542c Revert "pmdomain: qcom: rpmhpd: Add missing MXC and MMCX power domains for Eliza"
+0606f2114e2dc88fe293858fd991cda2688b8c3a cpuidle: psci: Fix support for probe deferral by dropping the faux device
+738ef4cd82818b13f492fd5ddec7e00f177ffe60 uprobes: guard trace cleanup against error pointers
+6d94c47a2e3a38170a0a141547e4c52fbe232cc3 pmdomain: airoha: fix unselectable AIROHA_CPU_PM_DOMAIN kconfig
+2b0ac85512b7f67479127b2713254490662eb13d cpuidle: dt_idle_genpd: kfree() the original name allocation
+f36d94a20ca185bcadef3a10b980cd2cfd72d53a tracing/probes: Fix anon_stack check for unnamed bitfields in btf_find_struct_member
+47e93045a2db80d24f5fef65adecc6b2b32efa23 tracing/probes: Fix BTF kflag check for anonymous struct member access
+871e07b6e3841cc9a258572c9ce8d1ea65f6ce7b tracing/probes: Fix code indent in get_bitoffset_of_field()
+86b7a239ec6b14a7544200ede85474c6f5526049 tracing/probes: Fix use-after-free on field name/type of events with multiple probes
+0c4256196b3a105307e2235fbfd85e768bbcdd0f kprobes: Protect kprobe_blacklist with RCU
+65119e86fe463cdc96455539020fa75b02f2cf91 Merge tag 'pmdomain-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+421066905cbceca1f78cba5f7d92b4980317ab2b Merge tag 'probes-fixes-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
-b1824233b19c1dffdb5e81283805a9e52e763caa 63a7531ca31f9f097d9cc1cc3fe86ae683cdabdd refs/heads/fixes-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmqcBukACgkQpnEsdPSH
-ZJQqoQ//dwzKsbCE/Mn+l794Qfe1wnbVQi4Kz0mT2c1uofjLRc84GMLUmFnsG51g
-fP8IYZuatVFg1mE75qljrMWvm3RCjyml1gIKQEWKov+Vw3UJx+RO0ehXEblkenUL
-OR+1UY6g3ZZKEEhIJqM75aX+Te6id0x9hsU1yAjgR8JmUPLAX6AKduJCI90IJLlu
-rYvQyTABDHv7AH0tjKMBq9JUYBsYi6owyHKfoceItzbQx5WmTeTS4iDeZJknkHtx
-K7GP3a1ok/XJNHtkE9RE6fKqrZCujrYGYt0KkqIbOeaopXHQyPqMMNLhJ6lhnEew
-SCen0aACnT+CiYdBKvzJZE3MmzmNgxellJkoSAF/bSBZCeQ4yNiyjc3sPkftFCBu
-y/MT8/DfyQyDcZAcPbhekZGrt/emk1mg3AzV6U/c14ekO43BrOs/JK70gp++Gz02
-2DqbqwfbMHWVWLX1rWK3syjwLFtq33FiEnKuNDWhtTC+iueeoaxHdUpcMVyV4+kt
-Fsig/Koa8AwwQ7InwOvo9E2rsxNTNnlxrdmku7Dnjp85LlWleF8sDzWoor/1OowH
-7LRuAuPCzNeMZvHZ3NvcUCDnTRAaKnDi6TWIEFaSYahi8QlYr6eaz4NxXcDF4hm9
-4gcRy90/2QG8L8xlVZgfM8L1pn70ScliMXJB+LTAz/qA07b5hsI=
-=325f
------END PGP SIGNATURE-----
-
---===============1551477020275257572==--
+--===============5967117016709861663==--
