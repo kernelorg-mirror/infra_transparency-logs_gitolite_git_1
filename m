@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3451297765581837085=="
+Content-Type: multipart/mixed; boundary="===============6975074484784583634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Sat, 05 Sep 2026 07:03:55 -0000
-Message-Id: <178859183559.3028415.2005710189415530926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Sat, 05 Sep 2026 07:03:58 -0000
+Message-Id: <178859183843.3028600.6568432876043453904@gitolite.kernel.org>
 
---===============3451297765581837085==
+--===============6975074484784583634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============3451297765581837085==
+--===============6975074484784583634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============3451297765581837085==--
+--===============6975074484784583634==--
