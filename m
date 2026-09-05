@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3176155939352790530=="
+Content-Type: multipart/mixed; boundary="===============1087471246281168428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Sat, 05 Sep 2026 11:33:34 -0000
-Message-Id: <178860801496.3215240.2599935472149497909@gitolite.kernel.org>
+Date: Sat, 05 Sep 2026 11:33:45 -0000
+Message-Id: <178860802572.3215470.14565362435521227006@gitolite.kernel.org>
 
---===============3176155939352790530==
+--===============1087471246281168428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 2f37fba846c9fdff5fc15b6d93656057ccd13031
     new: 2b4707a149a55e8fa75c9ef32b359d60f470a566
     log: revlist-2f37fba846c9-2b4707a149a5.txt
 
---===============3176155939352790530==
+--===============1087471246281168428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -691,4 +691,4 @@ db88216424a37e9209bb7834453c568e7f4604f5 Merge branch 'pds_core-fixes-for-the-pc
 80dd7e754b3aa9637a0758ad93fa209f9650ec48 net: mana: Reserve extra CQ slot for the fence completion CQE
 2b4707a149a55e8fa75c9ef32b359d60f470a566 net: mctp: i3c: serialize probe with bus removal
 
---===============3176155939352790530==--
+--===============1087471246281168428==--
