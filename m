@@ -1,44 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3090757191273127229=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 05 Sep 2026 22:11:17 -0000
-Message-Id: <178864627781.3670044.8039899269228105055@gitolite.kernel.org>
-
---===============3090757191273127229==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 05 Sep 2026 22:24:25 -0000
+Message-Id: <178864706543.3677741.82784233591337591@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 5152d61f001eb4d0bb8add324acbfeaca5c98331
-    new: 8f18e21c143564946e79621bf520cb2bb730079b
-    log: revlist-5152d61f001e-8f18e21c1435.txt
-
---===============3090757191273127229==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5152d61f001e-8f18e21c1435.txt
-
-64808ec21a1d417419102863b5b7c0f7ea01783d patches/next: move vaddr probe support to rfc section
-304c9b20e148ed4465553d785071066bc67ff599 patches/posted: add damon_call refactoring v1
-e4a25fbf75e0bfcded740fd30b4d0145492446f6 patches/posted: add damon_commit refactoring v1
-15cff12ccb6923beb51eea400086c103d21b59fd patches/next: vaddr probe: update hugetlb extension subject
-2b391a02c583d657945b9c459258080f7efc12ee patches/posted: add vaddr probe support rfc v1
-190b38f59a15098dc7b50e49eb42a3ffbaa15680 todo: update
-98819caef5df1027949a86c45d17cee6103cc0cc patches/next: vaddr probe: add proactive changelog
-5ba6bda1f5f256a203c2cd8b7ce0a2251fa0f447 patches/next: add pgidle_set documentation patch
-b894f5943b086f3ac1f47724d2f9b45b517134fb patches/next: add pgidle_set support to paddr
-3683d74e1c8ad3ce0728147c2d163e47e563986a patches/next: move pgidle_set patches to the series section
-632a76f780f8b16fcc80407736629b3880f79f0c patches/next: update docs for probe_hits_wsum DAMOS filter
-19d162d864160235b187a921348b9bfc34c80383 patches/next: probe_hits_wsum damos filter: move docs patches to the series
-a2985b33a20c327b9a34d697f769061456df8545 patches/next: probe_hits_wsum damos filter: squash typo fix and update sequence
-8f18e21c143564946e79621bf520cb2bb730079b patches/next: probe_hits_wsum damos filter: squash core implementations
-
---===============3090757191273127229==--
+  - ref: refs/heads/for-7.3-fixes
+    old: 0a85182723b65ad8bee8131bc38fcf0347d6679b
+    new: 63b4ff622244483e7c530e97d787a3d6c2c38a33
+    log: |
+         3265ef0b670180b0b946d73ee9825d6d91e98a08 sched_ext: Rename sch to root_sch in dispatch_one()
+         90f19b2816f5d243a8daf36ca83d9d9d04f00e4c sched_ext: Use @prev's scheduler for the keep decisions in dispatch_one()
+         a0d356696f87700c8c2934e3881277b0d37f0b71 sched_ext: scx_qmap: Do not add IMMED to rescue inserts
+         63b4ff622244483e7c530e97d787a3d6c2c38a33 sched_ext: scx_qmap: Place only on cids whose caps are in effect
+         
+  - ref: refs/heads/for-next
+    old: 8265371c4154d57523eb1386300bd7a66079557a
+    new: 2b9f8020c1fe3e93c00ac14ecbfafe31ebdab4db
+    log: |
+         3265ef0b670180b0b946d73ee9825d6d91e98a08 sched_ext: Rename sch to root_sch in dispatch_one()
+         90f19b2816f5d243a8daf36ca83d9d9d04f00e4c sched_ext: Use @prev's scheduler for the keep decisions in dispatch_one()
+         a0d356696f87700c8c2934e3881277b0d37f0b71 sched_ext: scx_qmap: Do not add IMMED to rescue inserts
+         63b4ff622244483e7c530e97d787a3d6c2c38a33 sched_ext: scx_qmap: Place only on cids whose caps are in effect
+         2b9f8020c1fe3e93c00ac14ecbfafe31ebdab4db Merge branch 'for-7.3-fixes' into for-next
+         
