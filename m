@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 05 Sep 2026 01:50:59 -0000
-Message-Id: <178857305977.2806218.14891957185044071534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 05 Sep 2026 02:02:31 -0000
+Message-Id: <178857375111.2813541.4199393314389090876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: db88216424a37e9209bb7834453c568e7f4604f5
-    new: 80dd7e754b3aa9637a0758ad93fa209f9650ec48
+    old: 4c5c71852c719c6cf65ba7f3f7ac51b5b042edde
+    new: 9eab111e765729e93087ff86a2ec9b2ae42d0fa5
     log: |
-         80dd7e754b3aa9637a0758ad93fa209f9650ec48 net: mana: Reserve extra CQ slot for the fence completion CQE
+         9eab111e765729e93087ff86a2ec9b2ae42d0fa5 Documentation: netvsc: Remove stale "not yet supported" XDP_REDIRECT note
          
