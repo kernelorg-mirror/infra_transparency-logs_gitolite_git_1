@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Sat, 05 Sep 2026 15:42:29 -0000
-Message-Id: <178862294950.3389589.5785838255572145700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 05 Sep 2026 16:02:24 -0000
+Message-Id: <178862414452.3403541.14822636784596141624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/tags/for-7.3-rc1-tag
+  - ref: refs/heads/sub-keep-last-rescue
     old: 0000000000000000000000000000000000000000
-    new: ea583c694adea6e4157bab976ff9d2fd05d92a32
+    new: 2277b5618af74ea8081a5930447e0e16b1fd89ed
