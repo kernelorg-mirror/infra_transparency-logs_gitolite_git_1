@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7809531319752331002=="
+Content-Type: multipart/mixed; boundary="===============0688637222134811021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 05 Sep 2026 01:19:19 -0000
-Message-Id: <178857115933.2780487.1026710786958808338@gitolite.kernel.org>
+Date: Sat, 05 Sep 2026 01:19:42 -0000
+Message-Id: <178857118281.2780853.428787838839438137@gitolite.kernel.org>
 
---===============7809531319752331002==
+--===============0688637222134811021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 48270700b6dd3d067889e513e90997a81a6a4b1f
-    new: 33a05864736b1879afad763a7a2ad552dfd62517
-    log: revlist-48270700b6dd-33a05864736b.txt
+    old: 33a05864736b1879afad763a7a2ad552dfd62517
+    new: ea789738cbf82b72f5495cd1e2b231a917e0e6d5
+    log: revlist-33a05864736b-ea789738cbf8.txt
+  - ref: refs/heads/tip/urgent
+    old: 586e57cb2f695099a15e72029804a0592e6ad566
+    new: a1bbdfa03e093fdd4403cddfb5bdd7136b52fb08
+    log: revlist-586e57cb2f69-a1bbdfa03e09.txt
 
---===============7809531319752331002==
+--===============0688637222134811021==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-33a05864736b-ea789738cbf8.txt
+
+e6f7437b0f43f14886bf76396cedaed6691dd3b2 Merge branch into tip/master: 'irq/urgent'
+f8697e8f07eef2ea90ff4f42d3097775f696d0e9 Merge branch into tip/master: 'locking/urgent'
+35690afc964cbd1ac0e82d9c65a804bd7c3dc8d4 Merge branch into tip/master: 'perf/urgent'
+6f5be728d297b11bbf05240eb8103e26a16ebbb2 Merge branch into tip/master: 'sched/urgent'
+a1bbdfa03e093fdd4403cddfb5bdd7136b52fb08 Merge branch into tip/master: 'x86/urgent'
+0ea684bfc6d14a2be71225e10b9c9a581055f8e4 Merge branch into tip/master: 'irq/core'
+924f0b7d3003f0a6664089c88e84ec02f3891814 Merge branch into tip/master: 'irq/drivers'
+8cb40e15e5a253aae17d957b718fb3cdc86320fa Merge branch into tip/master: 'sched/core'
+b53e24475136d3923892c32d06f987efc66e3d14 Merge branch into tip/master: 'x86/boot'
+6487d0886a7c762c2feaed44d70becbe3c0f18af Merge branch into tip/master: 'x86/bugs'
+d3df331d0574881eb61e22fb0c8863bab184732e Merge branch into tip/master: 'x86/cpu'
+cdd53370fe09f13b83216cfd3d74ed3497834f10 Merge branch into tip/master: 'x86/kdump'
+18a2b1df7c2b98ddd5a429fdec0af7fce7cff12f Merge branch into tip/master: 'x86/misc'
+181601c4c1aaa834a7243aa1a39763d7dd8aeab8 Merge branch into tip/master: 'x86/sgx'
+ea789738cbf82b72f5495cd1e2b231a917e0e6d5 Merge branch into tip/master: 'x86/tdx'
+
+--===============0688637222134811021==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-48270700b6dd-33a05864736b.txt
+Content-Disposition: attachment; filename=revlist-586e57cb2f69-a1bbdfa03e09.txt
 
 94579f24e2b526a04eb41050af0ba018c6f528e7 drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()
 d96504ea631874220d89c455d735da51a796ead0 drm/virtio: check return value of vgdev_output_init()
@@ -197,26 +223,10 @@ bc35965f6940a9bf834d54187b6088b8eb09206d Merge tag 'mm-hotfixes-stable-2026-09-0
 912edebe8501a36c6bedcef03bd238ab90a7e060 futex: Provide rt_mutex_.*_schedule() equivalents for futex scheduling
 a3b8d46fe401cba3a5c46dea610e6eb3dc15370e futex: Prevent rcuwait use-after-free during requeue PI
 797b13a7de957792c1b4773aa2cc3dab4621fd9c irqdomain: Delete irq_domain_add_linear()
-94235414a0568f260b60b89ec584ff4829d5e8c9 genirq: Discard cpumask of irqaffinity= boot parameter if parsing fails
-67f399a9ac7f3001cafc0cb1b645e3e5760779d2 softirq: Remove redundant h->action from preempt_count mismatch error
 7f78fe856eb64723c436c636a1479c27608aaced Merge tag 'amd-drm-fixes-7.3-2026-09-03' of https://gitlab.freedesktop.org/drm/amdgpu/kernel into drm-fixes
 c96294afbcb5737da18229e788ca45a5d534abc5 Merge tag 'drm-xe-fixes-2026-09-03' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-bd7d57a03c4b0fa3b0291ec64d688ebfed5edffc irqchip/riscv-imsic: Use GENMASK for base address masks
-b36bfa477b77901a247e7a192e7404b39e9f522d irqchip/gic: Simplify Maintenance Interrupt ACPI parsing
-1b852de05f74cfc96c58caad9df4cc1fa2dc7689 irqchip/qcom: Enable compile testing for QCOM_PDC and QCOM_MPM
-eeb693eb3f4c39e181a8a808f02732feb7b31022 irqchip/qcom: Add defaults for desired SoC drivers
-bd94bea7165be450903c6d64bbcb4862e36798f9 arm64: defconfig: Drop redundant Qualcomm irqchip entries
-1ae91dc397eb1dbc0f4fc6b96f2481cbc02fe0f9 riscv: smp: Move enum ipi_message_type to asm/smp.h
-2a0d49514f297baee259b19fb5553b538aa67d10 riscv: sbi: Use IPI_MAX for SBI IPI muxing
-f6326e26f60259f62ed2b172f7254d673e869cc1 clocksource: clint: Use IPI_MAX for IPI muxing
-a89546503a0ee87c20ba742a58000bbe4f87fd34 irqchip/aclint-sswi: Use IPI_MAX for IPI muxing
-5b104000160dec7f01c292da1082fbe4bdd5f715 irqchip/imsic: Use IPI_MAX instead of IMSIC_NR_IPI
-94713d60707bfe26c7cbc941abe26d1855448435 irqchip/gic-v5: Install root IRQ handler last in gicv5_init_common()
 e67091609cf85962f64391c1b0f93d4cbfcd4e22 Revert "irqchip/mbigen: Fix mbigen node address layout"
 d31fbbade43f880b7e59e2b3a72722fe2725d93f irqchip/stm32mp-exti: Fix the unit of the hwspinlock timeout
-9d6498c113b7132e21998b681748a10eb1c827fa dt-bindings: interrupt-controller: qcom,pdc: Document Purwa PDC
-086eac130a946610892d4219b04f8efa9ef28727 irqchip/qcom-pdc: Add purwa compatible for PDC secondary mode
-13ca1c0b7d8a3ab1e59cb3e780c1dd7441e22515 arm64: dts: qcom: purwa: Drop the Hamoa workaround for PDC
 65119e86fe463cdc96455539020fa75b02f2cf91 Merge tag 'pmdomain-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 421066905cbceca1f78cba5f7d92b4980317ab2b Merge tag 'probes-fixes-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 58f93a4b73a21d1c54457e4ff654d60029464c76 Merge tag 'ksmbd-for-7.3-rc2-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
@@ -226,22 +236,10 @@ d31fbbade43f880b7e59e2b3a72722fe2725d93f irqchip/stm32mp-exti: Fix the unit of t
 408802f1e61dad400ed5d2504165579189cc183f Merge tag 'ceph-for-7.3-rc2' of https://github.com/ceph/ceph-client
 3f17a52d47ed39c89cc8429307cf246e781ec979 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 654ae5d73c05bd2943d65636ce6cd0aa46e62f18 Merge tag 'drm-fixes-2026-09-05' of https://gitlab.freedesktop.org/drm/kernel
-01a43c55ae5f00601ef7877dd86b873770b9efe9 x86/virt/tdx: Simplify PAMT layout calculation
-eadde434aa9da1f43804c7097ba360dda8ccd9ef x86/virt/tdx: Allocate page bitmap for Dynamic PAMT
-ad52ce8389d9f3708bfaa301e194550f582eb2b5 x86/virt/tdx: Add __tdx_pamt_get/put() helpers
-5386c5288001f00e5f2019d5f7b50c97d62f3a7b x86/virt/tdx: Allocate refcounts for Dynamic PAMT memory
-eca9d4a3f1f820439453f07ce700d316c398520e x86/virt/tdx: Handle multiple callers in tdx_pamt_get/put()
-86305da521d1dcf44cb2a61140a3e78f390dd873 KVM/TDX: Allocate PAMT memory for TD and vCPU control structures
-2c8ca2ba9bb6aa277ec2af8e532f337ef12eb008 x86/virt/tdx: Add APIs to support Dynamic PAMT ops from KVM's fault path
-d7fe610e6a6638c3944b9e553b426efd527ec502 KVM/TDX: Get/put PAMT pages when (un)mapping private memory
-1e3d7913532723b3cb73cc70d04e7bf7f6430fed x86/virt/tdx: Enable Dynamic PAMT
-e61c837817acde1df7ebd977b798683a3d9b0dda Documentation/x86: Add documentation for TDX's Dynamic PAMT
-751b5c588efc29672ebfb9d62dca253063f3a9cc Merge branch 'linus'
-ee1db81c047cc0a31334c2264d3b952b3ad7cc0c Merge branch into tip/master: 'irq/urgent'
-db1483422ad5aad89e0373d38e6855427414c62a Merge branch into tip/master: 'locking/urgent'
-44c1e9482aa84a4e204ae8c83a679f9ba90a3119 Merge branch into tip/master: 'x86/urgent'
-5724da396e3dd7d78d06cbf6f00cb7027ebb3243 Merge branch into tip/master: 'irq/core'
-fcc8b4b08cf6b21651e4b0fc1873a76332d28168 Merge branch into tip/master: 'irq/drivers'
-33a05864736b1879afad763a7a2ad552dfd62517 Merge branch into tip/master: 'x86/tdx'
+e6f7437b0f43f14886bf76396cedaed6691dd3b2 Merge branch into tip/master: 'irq/urgent'
+f8697e8f07eef2ea90ff4f42d3097775f696d0e9 Merge branch into tip/master: 'locking/urgent'
+35690afc964cbd1ac0e82d9c65a804bd7c3dc8d4 Merge branch into tip/master: 'perf/urgent'
+6f5be728d297b11bbf05240eb8103e26a16ebbb2 Merge branch into tip/master: 'sched/urgent'
+a1bbdfa03e093fdd4403cddfb5bdd7136b52fb08 Merge branch into tip/master: 'x86/urgent'
 
---===============7809531319752331002==--
+--===============0688637222134811021==--
