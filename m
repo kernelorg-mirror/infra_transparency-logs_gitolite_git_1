@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Sat, 05 Sep 2026 07:11:31 -0000
-Message-Id: <178859229181.3035519.13505335161879587181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Sat, 05 Sep 2026 08:14:05 -0000
+Message-Id: <178859604532.3077058.14879067611804285215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 8f596c13b6b7fa9fa35091273c37f9b6e3fc2d0f
+  - ref: refs/heads/pwm/for-next
+    old: 6b0c6ff76795f62981352cc0be00163077d0961b
+    new: 960909d2c63e0914bbf95d595dbc8e17babedd4b
     log: |
-         8f596c13b6b7fa9fa35091273c37f9b6e3fc2d0f dt-bindings: nvmem: qfprom: Add compatible for Qualcomm Maili
+         960909d2c63e0914bbf95d595dbc8e17babedd4b docs: pwm: Fix bracket and punctuation
          
