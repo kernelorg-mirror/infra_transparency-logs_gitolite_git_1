@@ -1,23 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 05 Sep 2026 02:58:20 -0000
-Message-Id: <178857710042.2850634.836254072753353298@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3274239991931210839=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 05 Sep 2026 06:01:10 -0000
+Message-Id: <178858807082.2983316.15592920390428268000@gitolite.kernel.org>
+
+--===============3274239991931210839==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 654ae5d73c05bd2943d65636ce6cd0aa46e62f18
-    new: 4d7d9486c04d917265f64c55bd23b2cc4fe7749c
-    log: |
-         ab84c314417e4743f72f4d3d5e58cf96e07213cc configfs: move CONFIGFS_MAGIC definition to magic.h
-         8e22ce504f8a332c57ca9676ab804da5ac4a1325 ima: don't measure/appraise files on configfs
-         8861f6d5c0678a7c5089c7b272509fc5931b8437 ima: Check for ERR_PTR from dentry_path() in validate_hash_algo()
-         6903878d4654bdef4e08e38cdf1ae306ce7de5f9 ima: allow users to specify the pcr index with IMA_MEASURE_PCR_IDX
-         4d7d9486c04d917265f64c55bd23b2cc4fe7749c Merge tag 'integrity-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-         
+  - ref: refs/heads/treewide/kmalloc_obj
+    old: 0000000000000000000000000000000000000000
+    new: 3a2c4d55e32ad65efebdb6de44eef3bfa08bb49d
+
+--===============3274239991931210839==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1788588067 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1788588053-59484b6290f96489d0279f04ed19d6b3889355ce
+
+0000000000000000000000000000000000000000 3a2c4d55e32ad65efebdb6de44eef3bfa08bb49d refs/heads/treewide/kmalloc_obj
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCapuwIwAKCRA2KwveOeQk
+u19KAQDNI7U0t4AN1Rk6Th3mMhlY1KYEnE0tAn8NEdgoULjGVgD/ZSqFV9oXqF9S
+pA3bz7HA1122DZldXcTWD/bk1QU3Ggo=
+=i83P
+-----END PGP SIGNATURE-----
+
+--===============3274239991931210839==--
