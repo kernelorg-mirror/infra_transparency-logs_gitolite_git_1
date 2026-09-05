@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Sat, 05 Sep 2026 09:33:02 -0000
-Message-Id: <178860078259.3133079.11177198440137585298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Sat, 05 Sep 2026 10:08:30 -0000
+Message-Id: <178860291060.3157503.3360335301295438539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/dev
-    old: 0eb6348470336a36efe8bd4eb7d7078a0e2441ff
-    new: e15312d1a02724b753069ee55ace192c2039d4ef
-    log: |
-         dc3de65dd143a85463af5721b2bf458ced4597b0 exfat: fix used_clusters accounting during cluster allocation
-         e15312d1a02724b753069ee55ace192c2039d4ef exfat: take bitmap_lock at the start of exfat_alloc_cluster()
-         
+  - ref: refs/tags/loongarch-fixes-7.3-1
+    old: 0000000000000000000000000000000000000000
+    new: 01845b9aece0b337ed3722ffa7a69265fd6b53aa
