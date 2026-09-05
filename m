@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2854013091634979072=="
+Content-Type: multipart/mixed; boundary="===============3451297765581837085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Sat, 05 Sep 2026 07:03:52 -0000
-Message-Id: <178859183247.3028202.10060272545418492329@gitolite.kernel.org>
+Date: Sat, 05 Sep 2026 07:03:55 -0000
+Message-Id: <178859183559.3028415.2005710189415530926@gitolite.kernel.org>
 
---===============2854013091634979072==
+--===============3451297765581837085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-fixes
-    old: 7749044c03a3af8b0f777183710487deb426b651
+  - ref: refs/heads/for-next
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-7749044c03a3-cee9395acd80.txt
+    log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============2854013091634979072==
+--===============3451297765581837085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7749044c03a3-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============2854013091634979072==--
+--===============3451297765581837085==--
