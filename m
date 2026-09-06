@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9142521238495663212=="
+Content-Type: multipart/mixed; boundary="===============5172879371704266951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 06 Sep 2026 23:18:02 -0000
-Message-Id: <178873668253.530013.17740770492621427170@gitolite.kernel.org>
+Date: Sun, 06 Sep 2026 23:18:09 -0000
+Message-Id: <178873668910.530304.13739141461571817331@gitolite.kernel.org>
 
---===============9142521238495663212==
+--===============5172879371704266951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b0ca562e0d05cf7afedcfa71c9aed180b72bcc97
     new: 1b7415bf70be95b9a1e7e87d544867881065613f
     log: revlist-b0ca562e0d05-1b7415bf70be.txt
 
---===============9142521238495663212==
+--===============5172879371704266951==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 1b7415bf70be95b9a1e7e87d544867881065613f Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.3-rc2
 
---===============9142521238495663212==--
+--===============5172879371704266951==--
