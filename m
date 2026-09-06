@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6028406481309824477=="
+Content-Type: multipart/mixed; boundary="===============1882008074788836826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 06 Sep 2026 23:44:39 -0000
-Message-Id: <178873827911.548043.2467905977651929029@gitolite.kernel.org>
+Date: Sun, 06 Sep 2026 23:45:47 -0000
+Message-Id: <178873834781.551003.14412145939902295981@gitolite.kernel.org>
 
---===============6028406481309824477==
+--===============1882008074788836826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-cee9395acd80-df2908090cda.txt
+  - ref: refs/heads/nfsd-next
+    old: 327fd4297077478b7f64c5274d4f7a93567eea24
+    new: b0b082cdd1354a4aabdf0092d5d22bf4996ee413
+    log: revlist-327fd4297077-b0b082cdd135.txt
 
---===============6028406481309824477==
+--===============1882008074788836826==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-327fd4297077-b0b082cdd135.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -707,5 +707,68 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
+eeb495ce7150ec762d4978776fd0b86232973816 nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1
+98ebe0fbee7b2a7357c197cc0ef0142bea733350 nfsd: move check_nfsd_access() call into nfsd_cross_mnt()
+4b038f61fc497076a627df2ceacbe211932c5ef3 nfsd: correctly handle CREATE of mounted-on files
+9da23a3059a84bd5a4e3852d5dbf806292894252 nfsd: replace fh_fill_both_attrs() with fh_fill_post_noop()
+3c2905d09d07eacd04fd15f4546295b116a8a776 nfsd: move fh_want_write() after preamble in nfsd4_create_file()
+183c5681abbb115df3d028bc02505859f78ab4d3 nfsd: move more nfs-specific code into preamble of nfsd4_create_file()
+a160cc2291185fe9216afe541fbcb0345aefbee1 nfsd: remove subtlety from nfsd4_create_file()
+587f8bf13ddab16f783af332395df6581a747c2a nfsd: in nfsd4_create_file() let VFS report if file was created.
+5b4761ff6f0a6984244aa799502f4103bffb4ee8 nfsd: nfsd4_create_file(): Move NFSD_MAY_CREATE check earlier
+4016c0f5c3ae14682e4144f923105fba1c4b8a22 nfsd: fh_want_write) failure need not be immediately fatal for nfsd4_create_file()
+c2853b388e091b1882a9cc46636eee88f7988b83 nfsd: (almost) always open file in nfsd4_create_file()
+d3cdb3f4e74db203d5ea8e3c6a6b570d6c11e2b0 nfsd: reduce range of directory lock in nfsd4_create_file()
+707e17bc310a4c2a2a8e0cbac8f0db9de2f9c3eb nfsd: open-code nfsd4_vfs_create() into nfsd4_create_file()
+242ee84ac92de5798ef5751dbdf3b517eac7c32a nfsd: move some code out of the d_really_is_negative() branch in nfsd4_create_file()
+3ea3dbddac8eb0d73146be62d4a2da06d24f117f nfsd: reduce want-write range in nfsd4_create_file()
+b6c68f60889888305985a51294373f4d72305cc6 nfsd: move v0 checking out of nfsd_check_obj_isreg()
+c568bfba09e8bf92445cda8337088601d82a4e3e nfsd: separate out VFS-specific code from nfsd4_create_file()
+cc4d3d798053d41eac2c8057a66552835a0fb725 NFSD: Move XDR encoding helpers out of xdr4.h
+02d23007dab90ed95d08ea642f045554325762c6 NFSD: Move pre-xdr'ed status codes out of nfsd.h
+639ae7fb23d133c1648c0d5e66258d210d668212 NFSD: Remove two unused NFSv4 constants
+23c1bb7e31c3c50d14d79465ad71099f11b748a7 NFSD: Relocate NFSv4-internal constants to state.h
+ea909b7686fb767195f2e85a12c856d23b96f120 NFSD: Evacuate NFSv4 entry-point prototypes from nfsd.h
+58f5c4abba9af91d3be8cace08d328c97429044a NFSD: Move nfsd_v4client() out of nfsd.h
+20fd019aa4be182be81078bcdb530b12e8d36623 NFSD: Map flex file layout IDs through the request's user namespace
+ba7a3813d20bb3fba3789bdff497890c1649b55e NFS: Add linux/nfs_fh.h
+057ee7adba5176efe8d2f7fe5dfcf06c827958a5 lockd: Switch linux/nfs.h to linux/nfs_fh.h
+308a2e90787bc49c1e45df82e068ac7881055665 NFSD: Use struct knfsd_fh in struct pnfs_ff_layout
+61fb41ac9f72fa19791a39e167983bafa427633c nfs_common: Remove unused nfs_ssc_client_ops infrastructure
+2de8bf183a97bf6d15b4e79b3d31615fb10217cf NFSD: Hoist nfs42_ssc_open() into fs/nfs_common/nfs_ssc.c
+4422a8d0b1b762eb9a1bf474b166c658fb29cbd4 nfs_common: Synchronize access to the SSC client ops table
+0ed9245e30ca9e46ad4b3e432ef91054a0fac44d NFSD: Split linux/nfs_ssc.h
+241276e533c4d7e0e160d6f34339edf29f37c53d NFS: Move definition of enum nfs3_stable_how
+5607c9961b7b5bed357bfeb5ce8fb6e9ef4cf8ff NFSD: Replace nfsd_write()'s "stable" argument with "iocb_flags"
+66d9b6648f1f048bffd6fd1ea12973a2985c1b8e nfsd: fix race between client_info_show() and free_client()
+b5f5db8bc0dc6a5a18adfc9804fc2b17185b7f72 NFSD: Move the RPC program definition for LOCALIO
+27a096654e1c179edd670f7da3d5eb86b97ae0a8 nfs_common: Remove "#include <linux/nfs.h>" from linux/nfslocalio.h
+fcd2b2496ed3a88dfbc98ea24168bd3aa6ea464c NFSD: Tighten header includes in localio.c
+aac359ba501b09c5e5813afcbcbbf0a35d5f0f2f NFSD: Name the fh_maxsize value that carries no NFS version
+3e8417e671ea880599a0fc6800ee30be552e3871 NFSD: Don't apply NFS version-specific behavior to LOCALIO requests
+a11102d3bcf9acb608b833df7abc28998c2ca5d2 NFSD: Budget the CB_SEQUENCE opcode and referring call array count
+a6ca543ac8d24c6732693599263916b1874b8c6d NFSD: Budget the CB_RECALL truncate field
+111a25e8e2ef824bc79e322e38757f45e75b64c1 NFSD: Budget the CB_LAYOUTRECALL recall stateid
+24c6beeaabb38ad2f7102c5d87f4e3e3d8d91320 NFSD: Budget the CB_OFFLOAD opcode
+69053865a34395a939a9b26a172c718aff1d2556 NFSD: Budget the CB_NOTIFY_LOCK opcode
+c55f90d492991003997b41175983b67a766b5eff NFSD: Budget the CB_RECALL_ANY opcode
+2a99b62038497ee433b8a28d6262607b9483de06 NFSD: Correct locking documentation for delegation sc_status
+33db3aa386448b91f3a5993d4c263730313c90d9 NFSD: Destroy a recalled delegation the client does not hold
+e76c4ce3c6244922606fa5834888d8b8d25f0102 NFSD: Send referring calls with CB_RECALL
+5a6cc60a5948d5a8abba0dcd561b9d0a728a9105 NFSD: Point contributors and sashiko.dev to the nfsd-testing branch
+ed100cb37f8ddb7d27ca63ad761e0d774342409d SUNRPC: Do not credit control-record octets to the RPC stream
+6e136926d14cd17222cba69e92e99f32536a8713 SUNRPC: Reject a TLS alert record that is not two octets
+15b54c5a4a59a4e4c0d6544a5529a558b2812afe SUNRPC: Treat every TLS error alert as fatal
+2d93b2c07c39ef5851859a02e533d8f3bee3c17e SUNRPC: Resume receiving after a TLS control record
+136a31d0f6ee186869e73d935e2f1d20aa81c3ba SUNRPC: Reject a client-side TLS alert record that is not two octets
+2ef5cf349c8bbe8c3464bc222e7a2f9155020949 SUNRPC: Treat every client-side TLS error alert as fatal
+f2ca309b8a07d6daf0fe1dd644b31a55b6a2d5be SUNRPC: Fold xs_sock_process_cmsg() into its only caller
+3e09d92bd771bb991e8faea59b704b343e11c5ae NFSD: Replace NFS3_ACCESS_FULL in nfsd4_access()
+eb8c5475c763829cb9178dba3913f22185a2e451 NFSD: Move version-specific ACCESS maps into per-version code
+f37480fcbe7453bc658e3a92d303bfdf35ac1980 NFSD: Make the write verifier reset helper available outside vfs.c
+03721e8b344c19b577abbe3505c9469d56719383 NFSD: Move NFSv4-specific CLONE logic into nfsd4_clone()
+135638fe4145f2634815029ce9834617e39d3a93 NFSD: Remove xdr-related headers from fs/nfsd/vfs.c
+04e0a245f0502cfd677b6bb3926e60d93dd2606a nfsd: pass caller-provided attrmask storage into nfsd4_setup_notify_entry4()
+b0b082cdd1354a4aabdf0092d5d22bf4996ee413 nfsd: back CB_NOTIFY notify_mask words with per-delegation storage
 
---===============6028406481309824477==--
+--===============1882008074788836826==--
