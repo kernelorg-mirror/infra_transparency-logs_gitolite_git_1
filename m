@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Sun, 06 Sep 2026 06:40:40 -0000
-Message-Id: <178867684092.4024190.8476236491535256819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 06 Sep 2026 07:40:00 -0000
+Message-Id: <178868040079.4062421.17964712097545880337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/mm-next-fixes-2026-09-06
-    old: 0000000000000000000000000000000000000000
-    new: 04620e5c638647664c5826ad80fd02963ab97d52
-  - ref: refs/tags/mm-next-2026-09-06
-    old: 0000000000000000000000000000000000000000
-    new: 3437f1e6a6410ee4952a94b3d1eee3c5b488613a
-  - ref: refs/tags/mm-test-2026-09-06
-    old: 0000000000000000000000000000000000000000
-    new: 28179c71a8e742235170dc5c82c2b53927d6407f
+  - ref: refs/heads/wip/leon-for-next
+    old: 905dc5f0d98e3c081aa36d81989ec7a69df70d92
+    new: 0ff7fcd6aac16dd149ad322687a10c8ea7d806b2
+    log: |
+         89b48ad5671fa082645f1be7e933236ac21de974 RDMA/mana_ib: advertise pow2 RC SQ support to user space
+         0ff7fcd6aac16dd149ad322687a10c8ea7d806b2 RDMA/nldev: Put the device when dellink fails
+         
