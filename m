@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6539064090959640451=="
+Content-Type: multipart/mixed; boundary="===============2060730557996161376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 06 Sep 2026 22:11:15 -0000
-Message-Id: <178873267534.482778.13718948278222589843@gitolite.kernel.org>
+Date: Sun, 06 Sep 2026 22:11:19 -0000
+Message-Id: <178873267986.483011.3357769676880281324@gitolite.kernel.org>
 
---===============6539064090959640451==
+--===============2060730557996161376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b733fe31e781ed45c56d2ec561dbb61a903693c8
-    new: 9d3243fc689fef444f87e0a703b4c99653137e1b
-    log: revlist-b733fe31e781-9d3243fc689f.txt
+  - ref: refs/heads/mm-unstable
+    old: 84101441d8e32789a226bf6ec46c7f3eea61fe13
+    new: d118502628f8b673be9023db8bdf878f64a7ed45
+    log: revlist-84101441d8e3-d118502628f8.txt
 
---===============6539064090959640451==
+--===============2060730557996161376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b733fe31e781-9d3243fc689f.txt
+Content-Disposition: attachment; filename=revlist-84101441d8e3-d118502628f8.txt
 
 e384abeb559d10d6505aec053ede9368d81d4c71 mm/huge_memory: bypass THP tuneables for huge pfnmap mappings
 397432cab17bccb600fd6c16ed593f1149042268 mm/mremap: account mm->locked_vm correctly for MREMAP_DONTUNMAP
@@ -311,59 +311,5 @@ e1a8dbe8b1fbf24e4bfba866cecebbc29ee1de51 mm/damon/core: handle NULL ctx paramete
 2b6449312ffd769866b49bae480263f4451d9a2c mm/damon/core: set ctx->call_controls_obsolete in damon_new_ctx()
 0f5b2a7b98834e26868cd2b9d8945264251cc02b mm/damon/reclaim: remove unnecessary damon_call() param validation
 d118502628f8b673be9023db8bdf878f64a7ed45 mm/damon/lru_sort: remove unnecessary damon_call() param validation
-d1a4a0d51ee7db9f43ef0c3a474ab983a8702721 mm/memory_hotplug: factor out node_is_memoryless()
-4e1b4014532112df280540d958895383b791d6d5 mm-memory_hotplug-factor-out-node_is_memoryless-fix
-58ef1f0ea47b365b3f29ddc02b795f78e7471460 mm: remove PageWriteback
-180e97bd5d6329b8bf8878da3cf73e887368fc67 mm/memcontrol: move the lru_zone_size sanity check to the reader side
-e1da4fbbc2bd09b615b024fbc31ee51f9943b999 mm/mglru: introduce helpers for manipulating gen and refs flags
-9e26e968b4d61ab8edfe9106c2b08085e019b5b9 mm/migrate: copy all referenced state via folio_migrate_lru_refs
-be1d5f3a4b27b414d3ce35ecb294cee40723a092 mm/mglru: move max_seq read into walk_update_folio
-b68e6340c20e7c5e5558e7a8c25fb486daa25f31 mm/mglru: use explicit tier range in read_ctrl_pos()
-fb608d1a4d2fd84270301b03b9c9d68e74c798e0 mm/mglru: fix potential generation folio number leak
-08d02b8a9f7a0092285de55342a96ce4020c21d4 mm/memory: constrain generic_access_phys() to page boundary
-4fca7a2fdbe688b4c418e677f0aeb21bdb272821 mm/zswap: enable static key after runtime pool recovery
-76ba705bbc76bd1470a25c5cf78f33fe41091067 docs/mm: ksm: use the renamed ksm structure names
-8794b56c10b8bbbdaafb338f6731cfcc8bd81969 memcg: move per-node objcg to the read-mostly fields
-48c0256c1ff59f896da8f51761ce1b4f395f42af memcg: split mem_cgroup_private_id into two fields
-60cf38d86c86306dedea5583037a6c14330afe68 memcg: group the write-hot fields of struct mem_cgroup
-fbb6d9981a36990ede9b4fe53db613485e017607 memcg: group the cold fields of struct mem_cgroup
-e0dcb7549d707798b0b776ce63a2c3e66adbba26 memcg: group the read-mostly fields of struct mem_cgroup
-58046b57ce17228aeebc6023862e6deb908337f9 memcg: group the fields of struct mem_cgroup_per_node
-33ce0c49133485dcaa86264b456b725795745887 mm/zswap: convert zswap_store_page() and zswap_compress() to take a folio
-906d2cfaa5da633f70710e30cddc9576885c18e6 memcg: don't call schedule_work when no spinning is allowed
-d24dac8ac2681176a307f41b287d8bfcb3645ce5 mm/memcontrol: skip non-hierarchical memcg-wide stats when v1 is unavailable
-f44a22592f4132037f361f830e0b33c599199536 mm/madvise: swap in CoW'd MAP_PRIVATE-file mappings on MADV_WILLNEED
-b2b1c7defaeed460836c63e4a77c6f64eaa77c1c selftests/mm: make file helpers return errors
-d2e6e6de5df256a8023fa15c829e3b992b183b2a tools/lib/mm: add shared file helpers
-01fc83bf75e2fb3553c449ab95084476be9b9761 tools/lib/mm: move hugepage_settings out of selftests
-3a7ce475ef3e7b28a3866a322da325adb462e3cf tools/mm: move gup_test from selftests/mm to tools/mm
-d27e55dafb959bc5424bfd90518b609beb8c861f tools/mm: make gup_bench a benchmark only tool
-2a5614aa55e446f9095f5d541eb8aab209035133 selftests/mm: add a GUP selftest
-28935e4dce64fa9729b63e1a95d9d858d145dd52 mm: memcg: redirect stats updates of dying memcgs for all hierarchies
-c128b61ff4c18bf4bcf0256a4efcefe806ee2570 mm: workingset: use lruvec_page_state_local() to count lru pages
-39a1104c6f0078e15dd3ac6a82b1f34784c8f9b1 mm: memcg: skip the RCU lock when the memcg is not dying
-cb39e60c813e8fa434aed1073590d97a9419168d mm/execmem: free ROX cache chunks only when they span an entire vm area
-373d70321d05ec7c9b3208fa96e85986bdca67a6 mm/execmem: handle potential allocation errors in the maple tree
-abe6c1f773225ea6388f614c3cb410c09f6d4406 mm/execmem: make sure ROX cache always contains multiples of PMD_SIZE
-cbf113527919cd3a1538a8d12faad5ca5a8a1634 mm/vmalloc: add DEFINE_FREE() for vfree()
-a4803d8ba53a9243696a4e90246446d7f3982b6f mm/execmem: use cleanup infrastructure in ROX cache functions
-fabf606b7a7de1439ead0ca30cb837e659af0eb4 mm: thp: restore SHRINKER_NONSLAB on the deferred split shrinker
-d8a96c6321f4b89038d2bb0f17a440755a56ca51 mm: zswap: mark the zswap shrinker SHRINKER_NONSLAB
-3af6db64f80dd383e470bdf8c854e74bd29ccaff mm/hugetlb: don't lock private resv_map during final unmap
-5eec51a12e7ecb8dd88ae24947784bdc761056a0 selftests/mm: fix soft-dirty kselftest supported check
-76dfd576d8b0167bc38647c4f16960d717c7e3d1 riscv: mm: fix concurrency in mark_new_valid_map()
-f309a28ac161f5d93c690eee40386538ebef1c55 riscv: mm: exclude invalid THP PMDs from page table check
-db4ce3ad50265277032df8b900564fe429463916 sh: remove CONFIG_NUMA and related configuration options
-713bbb560aa0d34c59f26afea2058e400dd24384 sh: mm: remove numa.c
-2ea5c619036fe30a9e3eaf18679a7604644ed0c3 sh: mm: drop allocate_pgdat()
-d2706a5364a7336a3b94b030b68262e2e740ed1d sh: remove setup_bootmem_node() and plat_mem_setup()
-01452c8e5abaac6f07982ee0ef5e1cc702fe7ddd sh: drop dead code guarded by #ifdef CONFIG_NUMA
-f8ae952696e525845e6462c521f1e1446774a654 sh: drop include/asm/mmzone.h
-6c7374365831402d1b1426fc01184ffaab469c1d init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-965f6e0fa19769cc2bfc318d4675c079da279262 sh: init: remove call the memblock_set_node()
-4c06c6d45ae388cfd725e90f58418bfc664bf912 sh: remove SPARSEMEM related entries from Kconfig
-8538536ae186d8a42cb96b52540b8e55b76aa4ce sh: drop include/asm/sparsemem.h
-73b076a1e503fa818e9a6f86ed094701931a6fa6 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-9d3243fc689fef444f87e0a703b4c99653137e1b mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6539064090959640451==--
+--===============2060730557996161376==--
