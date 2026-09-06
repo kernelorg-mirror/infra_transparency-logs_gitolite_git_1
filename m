@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6155778301201204367=="
+Content-Type: multipart/mixed; boundary="===============2299189780060165231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 06 Sep 2026 12:36:04 -0000
-Message-Id: <178869816446.78471.2880092200243596576@gitolite.kernel.org>
+Date: Sun, 06 Sep 2026 12:36:10 -0000
+Message-Id: <178869817071.78741.7708185116736503416@gitolite.kernel.org>
 
---===============6155778301201204367==
+--===============2299189780060165231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 88b79bffa3779965b05e292e7c39a41fe6cd18fe
     log: revlist-cee9395acd80-88b79bffa377.txt
 
---===============6155778301201204367==
+--===============2299189780060165231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ a8ab43a1089e289b58d303a1c10d0f81284087e7 rust: io: register: remove `Register` t
 a12f711dc53c1ca1d7ff4184e1609182174de87b rust: io: register: unify handling of register with/without bitfields
 88b79bffa3779965b05e292e7c39a41fe6cd18fe Merge patch series "rust: io: support register projections and remove relative registers"
 
---===============6155778301201204367==--
+--===============2299189780060165231==--
