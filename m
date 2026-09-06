@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1882008074788836826=="
+Content-Type: multipart/mixed; boundary="===============0085742163974452414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 06 Sep 2026 23:45:47 -0000
-Message-Id: <178873834781.551003.14412145939902295981@gitolite.kernel.org>
+Date: Sun, 06 Sep 2026 23:46:54 -0000
+Message-Id: <178873841435.551524.16439730924831012703@gitolite.kernel.org>
 
---===============1882008074788836826==
+--===============0085742163974452414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 327fd4297077478b7f64c5274d4f7a93567eea24
-    new: b0b082cdd1354a4aabdf0092d5d22bf4996ee413
-    log: revlist-327fd4297077-b0b082cdd135.txt
+  - ref: refs/heads/nfsd-testing
+    old: 00e7778ab1f28da27aeb50f6702db3de36cc4482
+    new: 8ba9d2d760007b15f8b4e8a812c9c0dfd66a2763
+    log: revlist-00e7778ab1f2-8ba9d2d76000.txt
 
---===============1882008074788836826==
+--===============0085742163974452414==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-327fd4297077-b0b082cdd135.txt
+Content-Disposition: attachment; filename=revlist-00e7778ab1f2-8ba9d2d76000.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -770,5 +770,68 @@ f37480fcbe7453bc658e3a92d303bfdf35ac1980 NFSD: Make the write verifier reset hel
 135638fe4145f2634815029ce9834617e39d3a93 NFSD: Remove xdr-related headers from fs/nfsd/vfs.c
 04e0a245f0502cfd677b6bb3926e60d93dd2606a nfsd: pass caller-provided attrmask storage into nfsd4_setup_notify_entry4()
 b0b082cdd1354a4aabdf0092d5d22bf4996ee413 nfsd: back CB_NOTIFY notify_mask words with per-delegation storage
+3046a15fc136393306b2c57ab5da0428112a3509 sunrpc: treat empty auth.unix.gid replies as negative entries
+08ad7bd2c98681f822b096bcc3c06fa172539cc8 sunrpc: honor the netlink unix_gid NEGATIVE flag
+b1a7da3a73d1d77a10e33c30400ce298aa203d5e SUNRPC: Reject a socket that already has an svc_sock attached
+acd8e8fa154d72402aea6deb5d423432d8c750f1 NFSD: Fail a pool_threads read whose reply does not fit
+8769e6a716c8a5ce362a5e2e54741579bbbaa144 nfsd: preflight SEQUENCE replies before accepting a slot
+c090c19c9110cecbcb06b2dac18ab3be3eb44be7 nfsd: set op->status when an operation's header cannot be encoded
+161896e9a92975375c9949cbc970b057ba9a3018 NFSD: Do not send CB_RECALL_ANY to NFSv4.0 clients
+c7ed6515520c26e90c0919b76a53a6c2813a91eb NFSD: Count the delegations held by each client
+33e99737eea8591ade643260ec545ac6745f4181 NFSD: Name directory delegations in the CB_RECALL_ANY type mask
+1f9806b59f7adcbb0dc8a343fcfb8ee55983de80 NFSD: Send a meaningful CB_RECALL_ANY keep count
+261a13713d0d8c85e019171a3c6cd11210c1c2d7 NFSD: Count delegations per network namespace
+41252e77a1a1ce265cc2bad2cc95f7d23c1d0300 NFSD: Give delegations their own state shrinker
+807d7b4088b22ba26ad1b5bd924db9fbfd62935d NFSD: Pace the state shrinker's scan requests
+98391cb760e763e1626c1f8e10eb861da2dca9ab NFSD: Apportion CB_RECALL_ANY recalls among clients
+7b4d6f36ac243a01abee579f21a770d0d5721dce NFSD: Move the nfs3.h include out of nfsd.h
+fa274a4a4053ac1d02fe9d22e030d8f59b225829 NFSD: Include <linux/nfs_fh.h> where struct nfs_fh is used
+a7eee0d08f0bcb14b7f73ffec56787f95c3bd18f NFSD: Clean up header guards in fs/nfsd/xdr.h
+f14252de2b148d8da6726d014740aaff97b1955d NFSD: Resolve the recall-any mask names in the trace format
+3a67e48edc1f4746e514470a80ca063230eef1cc SUNRPC: Separate the TLS control-record receive from its policy
+85e3067be31c3f827cbb8e1019fe2b1abaa21e41 SUNRPC: Close the transport on an unhandled TLS record type
+ba2f199648333d3276b454610db20ab0da214ffa SUNRPC: Flush a received record's pages once it is complete
+eef995bc9d7ceaf04cde495c844766630fee6670 SUNRPC: Receive RPC records with ->read_sock
+bb87e0271e62c7fa47850f63b79e9f5c020cca38 SUNRPC: Bypass sock_recvmsg() for the TLS control-record receive
+1aa54bb8bcb9673c2c50fa554e2893ced06fe338 NFSD: docs: Fix pNFS SCSI Kconfig symbol
+3881e50b138b686a83988fc1f72f93e6d323bbce lockd: Fix use-after-free in nlmsvc_retry_blocked
+b8eb100123b14390088acb3887f020c614c05597 lockd: Serialize block retries against host teardown
+698a7570c134078e12f835faa2d2d4f0fed7fbbb NFSD: Fix out-of-bounds read in the rpc_status dump
+1e168c691b95f54e250a85a05824c429b3433491 NFSD: Fix POSIX ACL leak in unexecuted NFSv4 COMPOUND operations
+fe5d6a21462a51e4f2ede0a11e4c66147849e19b nfsd: don't modify a session slot when replaying its cached reply
+8eb627e124628c9adacd10c4417e11b9f6863e2d NFS: Import NFS3ERR definitions
+f5b9d9c76ca08b86c41aa47258397f4e756e4a82 NFSD: Rework be32 nfserr definitions
+057a9f4df0e06a259fa25b4d152dc32c8931e775 NFSD: Replace the use of include/trace/misc/nfs.h
+318b847be5a88bf9edaed6af2cdb0a66098517f3 nfsd: hold cl_lock in client_has_openowners()
+db95843a37df9c64a2400d655d155e11f164af1b svcrdma: Grant credits from the clamped sc_max_requests
+6c7dea5d7696440773c70873ed6aaed42ba5eaaf svcrdma: Clear XPT_DATA when the last receive context is consumed
+0c535829aa2dd846ad43cdff6721ed9c0bbc7db0 SUNRPC: Skip xpt_reserved accounting for non-UDP transports
+f1fb1d65fb831a244e48172329baac4658720b0a NFSD: Return NFSERR_ISDIR for NFSv2 READ and WRITE on a non-regular file
+8fe0c9dc02f3415f56ec95b61d98fc8b15e3e547 NFSD: cap the number of listeners accepted in listener_set
+9b1e8ad6f58b7d5e8197c89003ece6d2dcb90e1f NFSD: validate transport name in listener_set before serv creation
+226c7fafbe34a3657c80a83a87a7b69d525ce32f SUNRPC: keep the first error in svc_register()
+621dc6ca25096e1c8156ee7a126ec18714bfc1cf SUNRPC: bound the local rpcbind client timeout to 1s
+f6f744a359eb35c76565b02b4d63378254849d20 NFSD: report listener creation failures through extack
+b3c0894ca3689e9f8c592e1ae34433c9a3e7657a SUNRPC: report local rpcbind calls that get no answer
+53f7c3e5f5d9b18d79cad4c82f378b2ad355d0a0 SUNRPC: stop svc_register() once rpcbind stops answering
+00de46be212651bf5fe067ca3e940b408d6f73fe SUNRPC: stop the svc_unregister() sweep once rpcbind stops answering
+871af690902494b250f0c8060857ad379cb5b763 SUNRPC: stop unregistering listeners once rpcbind stops answering
+b5c7686997b07a2ea35729be70f46abffb77edfd NFSD: stop registering with rpcbind after a failure in listener_set
+e74e73148ec00d19d6b95d57f125f1e468342931 selftests/nfsd: exercise listener_set request validation
+3a50d0036d86a2248594387bbddfac7fd4046552 selftests/nfsd: add a per-netns rpcbind stub and the listener round-trips
+b83c173d6b167a4b0dad0e36666d3ffe4e26a9b8 selftests/nfsd: check that listener_set asks rpcbind once
+b63fa3d4c91c35c61000bde7c4f0bc3c362fb239 selftests/nfsd: check that listener removal asks rpcbind once
+f783bcf853887ecd999247b427133247330ca7c2 NFSD: Don't complete a cld upcall the daemon has not read
+8e5890ef02969410bc44ebc17fc91f1d6a2f77c5 NFSD: Move the cld upcall message out of the caller's stack frame
+88043175a86fcbdc0628cc4cdb087d32197ce5c0 NFSD: Complete a cld upcall when copying its reply fails
+8ecc3fcae6cc236c0e00a33a200091dab2c5803d NFSD: Reject an oversized principal hash from nfsdcld
+163d072497989f169488efef596303de9ca8cfb5 pnfs/blocklayout: Complete a device upcall only on its own reply
+cfc8dd75a90b85dce3461e4d80e9739593a40aea NFSD: Set nn->cld_net before registering the cld pipe
+44e7be3042a3d3726f4718777eb7ee6a9393960a NFSD: Complete a cld upcall when the daemon closes the pipe
+f16802f0fd707c62cdfdbbacc9f3a5fd37530d63 pnfs/blocklayout: Complete a device upcall when the pipe is closed
+67590337e566d0d095f3ef9c08db58220b16f82b SUNRPC: Copy the deferred RPC Call from the head buffer
+bec7b0393360772fb8977983786ae0fed2a7cab5 nfsd: don't offer flexfiles layouts when NFSv3 isn't being served
+41133d3c378135278a2552bd8de57f9b249719b1 nfsd: shorten extack string returned with dodgy listener
+8ba9d2d760007b15f8b4e8a812c9c0dfd66a2763 NFSD: return NFS4ERR_EXIST for a guarded OPEN of a non-regular object
 
---===============1882008074788836826==--
+--===============0085742163974452414==--
