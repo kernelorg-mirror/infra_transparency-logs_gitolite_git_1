@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 06 Sep 2026 16:46:13 -0000
-Message-Id: <178871317317.257492.8204202989708317694@gitolite.kernel.org>
+Date: Sun, 06 Sep 2026 16:46:17 -0000
+Message-Id: <178871317721.257678.12388916630614834975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/tags/refs/merge-window/d72f629726433dd34b82ee31359234a9e00e8c98
-    old: 7923dc7d03fb3c2741012d47a242197facf6c345
+  - ref: refs/tags/refs/merge-window/feb500dc97ab9fa92ee34b32e661d52d15b9b36a
+    old: a2339af1d66ff6d192d7b8dfce3eedd9f1c9b7b8
     new: 0000000000000000000000000000000000000000
