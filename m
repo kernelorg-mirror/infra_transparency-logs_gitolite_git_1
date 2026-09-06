@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 06 Sep 2026 14:22:58 -0000
-Message-Id: <178870457821.150942.2932657721853772632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sun, 06 Sep 2026 14:23:48 -0000
+Message-Id: <178870462830.151451.16850238163329899383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: kkd
 changes:
-  - ref: refs/tags/rust-dma-7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 943d1528ead992205b273052c37b859516b11414
+  - ref: refs/heads/master
+    old: fd5348b434c53c34de5a9b3c67a1516309b6a73c
+    new: 536b523b407397c8d3967c020ce7aad70a0ea030
+    log: |
+         536b523b407397c8d3967c020ce7aad70a0ea030 bpf, riscv: Make arena support depend on ZACAS
+         
