@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 06 Sep 2026 03:27:39 -0000
-Message-Id: <178866525993.3889769.12314364659804616012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 06 Sep 2026 03:51:20 -0000
+Message-Id: <178866668054.3906921.13642256187319518724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 6c2e81e835f994d286b0641d16329f4ac38338c1
-    new: 3387e61b7cb25f0000ab6f75b7223aca2bf6f2ff
+    old: 9f0346dcbea363787186c94ef94dd01aaa215afa
+    new: 1fc5a74b108fc90951890ec513ac81869f5eaff1
     log: |
-         3387e61b7cb25f0000ab6f75b7223aca2bf6f2ff foo
+         90feea391c64fc43bf44184fcf2b243ab991ce47 drm/amd/display: Fix harmless type mismatch in allocation
+         3a2c4d55e32ad65efebdb6de44eef3bfa08bb49d treewide: refresh kmalloc_obj() conversions
+         1fc5a74b108fc90951890ec513ac81869f5eaff1 Merge tag 'kmalloc_obj-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
          
