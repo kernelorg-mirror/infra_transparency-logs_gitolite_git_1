@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6193255770132802791=="
+Content-Type: multipart/mixed; boundary="===============7578753656873834614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 06 Sep 2026 18:12:00 -0000
-Message-Id: <178871832049.316635.15946532338179132554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sun, 06 Sep 2026 18:48:56 -0000
+Message-Id: <178872053617.341122.8029649246666130329@gitolite.kernel.org>
 
---===============6193255770132802791==
+--===============7578753656873834614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 1fc5a74b108fc90951890ec513ac81869f5eaff1
+    old: 9f0346dcbea363787186c94ef94dd01aaa215afa
     new: 88405f0ad1d5c680afe3ea0ce9345fa9e1deaac8
-    log: revlist-1fc5a74b108f-88405f0ad1d5.txt
+    log: revlist-9f0346dcbea3-88405f0ad1d5.txt
 
---===============6193255770132802791==
+--===============7578753656873834614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fc5a74b108f-88405f0ad1d5.txt
+Content-Disposition: attachment; filename=revlist-9f0346dcbea3-88405f0ad1d5.txt
 
 a155ac8f0c523bd53f412196dcbb104ad1f4595f interrupt: Disable interrupt before modifying hardirq_disable counter
 2af470916a208b576ac9975d221d9a378cf8ace9 preempt: Remove hardirq_disable_count()
@@ -73,7 +73,10 @@ a3b8d46fe401cba3a5c46dea610e6eb3dc15370e futex: Prevent rcuwait use-after-free d
 797b13a7de957792c1b4773aa2cc3dab4621fd9c irqdomain: Delete irq_domain_add_linear()
 e67091609cf85962f64391c1b0f93d4cbfcd4e22 Revert "irqchip/mbigen: Fix mbigen node address layout"
 d31fbbade43f880b7e59e2b3a72722fe2725d93f irqchip/stm32mp-exti: Fix the unit of the hwspinlock timeout
+90feea391c64fc43bf44184fcf2b243ab991ce47 drm/amd/display: Fix harmless type mismatch in allocation
+3a2c4d55e32ad65efebdb6de44eef3bfa08bb49d treewide: refresh kmalloc_obj() conversions
 b144dc5a24149ba9a0cb2197001973a74b8c93b2 virtio_console: allocate the port_buffer with the caller's gfp
+1fc5a74b108fc90951890ec513ac81869f5eaff1 Merge tag 'kmalloc_obj-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 65538a8f02fe6e4f07228a816529b039b544f051 Merge tag 'usb-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 bf979ab8f24657ebc6193183cfef1669029e84a5 Merge tag 'staging-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 d3cbb9af7242873aae6fc2b7e8a991101a322201 Merge tag 'tty-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
@@ -82,4 +85,4 @@ c8990f3179e5636832fc22e6a262de5d50c797e3 Merge tag 'locking-urgent-2026-09-06' o
 c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88405f0ad1d5c680afe3ea0ce9345fa9e1deaac8 Merge tag 'sched-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============6193255770132802791==--
+--===============7578753656873834614==--
