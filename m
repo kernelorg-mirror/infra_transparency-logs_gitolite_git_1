@@ -1,51 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 07 Sep 2026 10:10:50 -0000
-Message-Id: <178877585068.1004867.10502721549681758575@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6860374215010807391=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 07 Sep 2026 10:11:02 -0000
+Message-Id: <178877586287.1005127.6205823950089432201@gitolite.kernel.org>
+
+--===============6860374215010807391==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 26e80ec751c87f437650a2f9eed5ef3ec436bf0b
-    new: edabbfb616a89a0b783d9ef3936c964d2a1143ae
+  - ref: refs/heads/for-next
+    old: 5a467d5860e5a25cd6638dd1d1453e3302ad191c
+    new: 0d5119f276d7d94bd6af088a9b8536f82f894b3d
     log: |
-         35fdfcec52c21dd41e3181f9d1f814f7e72f62d0 clk: renesas: r9a08g046: Add PCIe clocks and reset
-         6924d5d4973cc755c4ff0b87eae49ae5045d0828 clk: renesas: rzv2h: Drop duplicated parent lookup in fixed_mod_status_clk_register()
-         edabbfb616a89a0b783d9ef3936c964d2a1143ae clk: renesas: rzv2h: Convert to clk_hw based provider API
+         3c120e1c651da5c13b803f4742cc5d929b78a772 dt-bindings: clock: Add Exynos5515 SoC
+         6fb3239a9a58399ea787887ad555b6f6cfadbddb clk: samsung: clk-pll: Add support for pll_309
+         0ae5dad7d9e6e4b8c8f3611f04fa929e634630e5 clk: samsung: Introduce Exynos5515 clock driver
+         48f344b3e83211025763ca9bc1c5f3dc544b9613 soc: samsung: exynos-pmu: fix use-after-free of interrupt generator node
+         0d5119f276d7d94bd6af088a9b8536f82f894b3d Merge branches 'fixes' and 'next/clk' into for-next
          
-  - ref: refs/heads/renesas-clk-for-v7.4
-    old: 26e80ec751c87f437650a2f9eed5ef3ec436bf0b
-    new: edabbfb616a89a0b783d9ef3936c964d2a1143ae
-    log: |
-         35fdfcec52c21dd41e3181f9d1f814f7e72f62d0 clk: renesas: r9a08g046: Add PCIe clocks and reset
-         6924d5d4973cc755c4ff0b87eae49ae5045d0828 clk: renesas: rzv2h: Drop duplicated parent lookup in fixed_mod_status_clk_register()
-         edabbfb616a89a0b783d9ef3936c964d2a1143ae clk: renesas: rzv2h: Convert to clk_hw based provider API
-         
-  - ref: refs/heads/renesas-pinctrl
-    old: d48a308fabd6dc7676d570f0bc971817e39d824c
-    new: ec5202ccfa24791acf64146d5bac6b63ce234f95
-    log: |
-         11e4c9251295b4513a244cb73bc902b5f6a34f8e dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Allow input/output-disable
-         342a7ce6d2f7b13037f0f993ca760779c53834d9 pinctrl: renesas: rzg2l: Generalize power source code
-         382ec4d1e27a95ef23080c9e3bca8b44d31736f9 pinctrl: renesas: rzg2l: Drop defines present in struct rzg2l_hwcfg
-         5e1e9d0cd8f366cedac88b7463126da989704e35 pinctrl: renesas: rzg2l: Unify power source handling
-         16a06509a9b7754e2ebd7a66c47abd00e5fbc5a6 dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Document missing I3C power source option
-         ec5202ccfa24791acf64146d5bac6b63ce234f95 pinctrl: renesas: rzg2l: Add RZ/G3S support for selecting I3C power source
-         
-  - ref: refs/heads/renesas-pinctrl-for-v7.4
-    old: d48a308fabd6dc7676d570f0bc971817e39d824c
-    new: ec5202ccfa24791acf64146d5bac6b63ce234f95
-    log: |
-         11e4c9251295b4513a244cb73bc902b5f6a34f8e dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Allow input/output-disable
-         342a7ce6d2f7b13037f0f993ca760779c53834d9 pinctrl: renesas: rzg2l: Generalize power source code
-         382ec4d1e27a95ef23080c9e3bca8b44d31736f9 pinctrl: renesas: rzg2l: Drop defines present in struct rzg2l_hwcfg
-         5e1e9d0cd8f366cedac88b7463126da989704e35 pinctrl: renesas: rzg2l: Unify power source handling
-         16a06509a9b7754e2ebd7a66c47abd00e5fbc5a6 dt-bindings: pinctrl: renesas,rzg2l-pinctrl: Document missing I3C power source option
-         ec5202ccfa24791acf64146d5bac6b63ce234f95 pinctrl: renesas: rzg2l: Add RZ/G3S support for selecting I3C power source
-         
+
+--===============6860374215010807391==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1788775861 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1788775860-7c44c609b30ef8d1761b46332f6767d11f08777e
+
+5a467d5860e5a25cd6638dd1d1453e3302ad191c 0d5119f276d7d94bd6af088a9b8536f82f894b3d refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqejbUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xdaEACQb9JBhwFBdMX6Hgpa7cOr/bQdu17AoE2b
+I1NlUNCT2bqt8CMqQc6zelkVQK436IxaMMJaMmuXX8v4xWigWiJCTddtIMb1u9Jl
+b0nA1EHwyeVEQuZebZ2mox/crJmnbJar5YU9rhQ+mF7a+OI94lIoncouX5JLr9/3
+gRgVI0mTbfCKtZWctIXEs7F52QHLFljZvj8UqjNg873ZUBPpoO4uncpQy33Etlat
+w44re6+13sy7ZCf7Q065/3fHwr/Nz7ECS+QmGMUfKZPgeMnPXBJTATuqC2gMlj9u
+6u++1rwhwGYxA9sLPEzWn6DC1rZc55hWtljEODkp/a0WpXXlnX2iyhd8MrwR1DFw
+NY7UjjqljTRHOQ0npThXZWanvhqXhkZ6h6Md+eDyZ3ZOLET6k0tw9fmOlFLJak3S
+pWNvHFiL4181SPjMdeRwS1IKB2nnev6K3xyjhRXhNdgwnFFR1c1+r/wERv90jx1/
+g/ZOCq5O6futFDDehtuMJrXpwb5R+vFowWO7Pzg81YhHWD8W/kvmAVAuzkvtX5Qs
+UdOn7Q72swc6L/VaOn2c++xSHKQoSr56l67CkC425xgyhvSWRQdjDN9wDc31QecI
+QSEcy+zBDL8L20K2WJqqtaQ0FzaHVKHOT09sLUOJE8v90/Nq41JntqNVDCM0UXEU
+6S6NSo7yxg==
+=pBWd
+-----END PGP SIGNATURE-----
+
+--===============6860374215010807391==--
