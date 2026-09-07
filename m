@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 07 Sep 2026 01:25:20 -0000
-Message-Id: <178874432073.628308.15400692682509285009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 07 Sep 2026 01:25:37 -0000
+Message-Id: <178874433787.628879.11123827898272127195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 2cdc7ef31827db4fbc6283750420639569e1f0e9
-    new: e24328974a88aa8541e94e8bb8dfa2ade1b3c45d
+  - ref: refs/heads/master
+    old: 47f089695da74a025223a851e8cb8837b0a9a20a
+    new: 646d225d783783eb91119dcaa685e59c546d38ea
     log: |
-         8065a6c02f629187131f3136bedb26f9080e3cca iio: light: rohm-bu27034: Fix infinite delay on error
-         e65e128b51a37dd1a9056ac3d1705d805a5c8bb0 iio: accel: kionix-kx022a: Prevent memory leak and fix state
-         ef7707c1b7c7bcd09298114fa64d1494727e20b1 iio: dac: mcp47a1: Allow full-scale output
-         e24328974a88aa8541e94e8bb8dfa2ade1b3c45d iio: proximity: vl53l0x-i2c: claim direct mode for raw reads
+         646d225d783783eb91119dcaa685e59c546d38ea Fixes for all trees
          
