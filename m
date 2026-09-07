@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 07 Sep 2026 18:04:15 -0000
-Message-Id: <178880425528.1644869.11254565565759549052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 07 Sep 2026 18:04:23 -0000
+Message-Id: <178880426337.1645088.5288696482036669648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/use-after-free-of-admin-queue-struct-v1
-    old: 0000000000000000000000000000000000000000
-    new: 0b082e45beeb2aa3e340c0dc770f4323594162fa
+  - ref: refs/heads/asoc-7.4
+    old: 54d2573c0b01b948a8d0acc92f18f5632890c710
+    new: 88be49b2f8482a438068243e36b50debc56c4d4a
+    log: |
+         88be49b2f8482a438068243e36b50debc56c4d4a ASoC: SOF: imx8: check imx_sc_pm_cpu_start() return value
+         
