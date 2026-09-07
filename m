@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 07 Sep 2026 19:50:12 -0000
-Message-Id: <178881061286.1725062.9265736365873714362@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 19:53:38 -0000
+Message-Id: <178881081800.1726354.1924591940686149261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
   - ref: refs/heads/irq/drivers
-    old: 726285316f8fd8965d360ea6546da9b2677e7c7c
-    new: c6d93e52d8c8f05898adf29d3b6edf6570da83af
+    old: c6d93e52d8c8f05898adf29d3b6edf6570da83af
+    new: 0c65a1331928d0207c385f03fb5eba0cfecce0e6
     log: |
-         0aa45dce2afe6960865de1f32fabd716efaa6fdb irqdomain: Set IRQ_DOMAIN_FLAG_DESTROY_GC in __irq_domain_instantiate()
-         404b7900e62b9d5f4ac25c3e2ce757f32e4cc004 irqchip/lan966x-oic: Drop redundant IRQ_DOMAIN_FLAG_DESTROY_GC
-         c6d93e52d8c8f05898adf29d3b6edf6570da83af soc/fsl/qe: qe_ports_ic: Drop redundant IRQ_DOMAIN_FLAG_DESTROY_GC
+         135d9e67f7ab4f261c2157ee2de1f93a4de39a41 irqchip/gic-v3-its: Don't WARN on LPI free allocation failure
+         0c65a1331928d0207c385f03fb5eba0cfecce0e6 irqchip/gic-v3: Add Altera SoCFPGA Agilex5 GIC600 DMA32 erratum workaround
          
