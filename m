@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
-Date: Mon, 07 Sep 2026 06:01:16 -0000
-Message-Id: <178876087646.823055.9731523324894049258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 07 Sep 2026 06:13:06 -0000
+Message-Id: <178876158628.830456.6192273444232746334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexs/linux
-user: alexs
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/docs-next
-    old: 2e39566857f11dc999409cb24fb9c1814244b34c
-    new: b0b415dcdd84732d24f16fb0758450897e30cd64
+  - ref: refs/heads/fixes
+    old: 617d0d8d199ba1790c94310fd75a22d01c97a8d6
+    new: 82e664cf1219c459c33aae931b222cf951af9cb7
     log: |
-         862ee3b06696db8b04850148551402f4392ea495 docs/zh_CN: Add Softnet Driver Issues Chinese translation
-         9efc5c7f545ad5ba583da438b464748b89650e50 docs/zh_CN: Add ipv6 Chinese translation
-         1c58436b8f13282523911e29103d197738e0160c docs/zh_CN: Add LSM/SELinux secid Chinese translation
-         f8688fe01bff2754f441d0f34329561b7552754e docs/zh_CN: add process/applying-patches Chinese translation
-         b0b415dcdd84732d24f16fb0758450897e30cd64 docs/zh_CN: link to Chinese applying-patches translation
+         82e664cf1219c459c33aae931b222cf951af9cb7 erofs: disable LZ4 rolling decompression for now
          
