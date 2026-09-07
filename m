@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8121570441112924801=="
+Content-Type: multipart/mixed; boundary="===============2816563282660902023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 07 Sep 2026 21:44:50 -0000
-Message-Id: <178881749031.1804847.16131010378581841771@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 21:45:07 -0000
+Message-Id: <178881750742.1807074.12862230365750014978@gitolite.kernel.org>
 
---===============8121570441112924801==
+--===============2816563282660902023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/test
-    old: d7ea793e93846ea94fa6f229a8685b5a87512921
+  - ref: refs/heads/linux-next
+    old: f49e6cf919425cc55f10fd7cda7e0fc895df4cc0
     new: 388742f0d6357acda7479efc7386ad96347ae3be
-    log: revlist-d7ea793e9384-388742f0d635.txt
-  - ref: refs/heads/vhost
-    old: d7ea793e93846ea94fa6f229a8685b5a87512921
-    new: 388742f0d6357acda7479efc7386ad96347ae3be
-    log: revlist-d7ea793e9384-388742f0d635.txt
+    log: revlist-f49e6cf91942-388742f0d635.txt
 
---===============8121570441112924801==
+--===============2816563282660902023==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d7ea793e9384-388742f0d635.txt
+Content-Disposition: attachment; filename=revlist-f49e6cf91942-388742f0d635.txt
 
 34329066f2dee9899c44377aa51391dc8da81004 virtio_console: do not free control-out buffers on remove
 b5d3ef650c63097ff1ecdefa17d4c0d3b617983c vhost/vdpa: reject VRING_NUM larger than device max
@@ -59,4 +55,4 @@ ae8c0a24e36498d7ec53b761a65b71fb748599ca vhost: invalidate vring access on IOTLB
 82c2105ee91782093ddaa5069b9de60ec78c429b virtio_input: reset device if input_register_device() fails
 388742f0d6357acda7479efc7386ad96347ae3be virtio_input: stop callbacks before unregistering input device
 
---===============8121570441112924801==--
+--===============2816563282660902023==--
