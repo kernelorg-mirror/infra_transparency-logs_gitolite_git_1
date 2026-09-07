@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4114008528277837803=="
+Content-Type: multipart/mixed; boundary="===============1306920673660269880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 07 Sep 2026 15:11:40 -0000
-Message-Id: <178879390036.1230386.673158506441569349@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 15:11:54 -0000
+Message-Id: <178879391497.1230658.17605093397972959469@gitolite.kernel.org>
 
---===============4114008528277837803==
+--===============1306920673660269880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 88b79bffa3779965b05e292e7c39a41fe6cd18fe
     new: 27f23702470b9f7c962ddae2526b3de9fc8f3744
     log: revlist-88b79bffa377-27f23702470b.txt
 
---===============4114008528277837803==
+--===============1306920673660269880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788793787 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788793810 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1788793890-f7675ebc8d5c6b8b0eca32cc3189d7cd03985815
+nonce 1788793912-e00d49c453c9ba9f6f5cfa50fe1c4075b31ec46f
 
-88b79bffa3779965b05e292e7c39a41fe6cd18fe 27f23702470b9f7c962ddae2526b3de9fc8f3744 refs/heads/driver-core-next
+88b79bffa3779965b05e292e7c39a41fe6cd18fe 27f23702470b9f7c962ddae2526b3de9fc8f3744 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqe07sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T/EP/3H9BqJw/4q35nQeb0TO
-q6spKEhZc040TbstucHZHL8WArtYlaXI0ciEaKQ6pWgS3MiID2Jg+pPWlnU3B9oJ
-NCx7Z6t0LuwrxbI69JHAD6Y3Z+M9kuaUhGhvVvmYiJEW57PpZKLbXrnNkhGEjytS
-u0VGgdTYadZD56XxUE4qLMkvX61f8qJVFbt/bXabfbfK8yqbLVQaTNMax+mmax7T
-t78YtWfeGinyep1iC+CKcxdMcPynyemKnUIBtX4uiVEWmWAwOmfM964c/s9ptFrA
-wmIhlTceDgmzRPF6j01S4/vQEjN4XxvqblWmFOwSa2wpWhnOv5e794+mtYfhuOQx
-sqfKfbtQLY9zR2x+nLMlbkRj09enHkdekGNdizKuf0Eq4OgSB7SEvQSSodkNF/U0
-UMEsZ77IhjcwcKvXrYzuy20fTBKnsrkVG8vYyZOtASumgDSJYncKiDPNbtxvim3z
-4HNjGU5J0eE55Q7WaHLEhqbV9q4z0eX0v1pGSMyOmdAZacoB/mlFwAyfLqBekMcF
-sGYff5TGvvWwXlWPN3ui3ZeNGXweW/YC0gDYQU3iDWso/vbgtFotIQhCfjQIe6Ob
-oi2qTtjCxTeQsJnksxbjYURdh6G2SrgjxMLUZw1ZJbM7I5S0ssFL60hy8Bwt3VxP
-hNHwANICfgFZ62ed6u1t2SDN
-=rwMT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqe09IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UgUP/1XhF7VrCDYWj1+aku6U
+tTVG5vo2Bm+2RP9e8epBIZwpgdQ6WacYA/Kvzv+IE8L9IliZhqcO7w8/cPtZOKZQ
+YWu2PI1+4GILVpWcP1gU8mrf5m6l/nv4RAEGd37GdB1fDhQdaeN6WUdQ4HhQygdY
+clRrPyn1TJTeEodF8XpCO/42nO/u3N8C9zQwfND4RLB0auN3P8nCww6z4PRA6037
+wxwsAjKRAQgdcibfdXVL+B9WVgLSiKnDE7VrAXp370Id1YlRdl+gmPf9P2z/STVm
+xq9n04JGlpRiQ/5JK0j8/b9H7Ygezun9qR82MAgHk2a5jfhEjAMimJvSmfknsH69
+GCacsGHT4QLytQ1A7ql3s1IyRDZai0ZLLkUvnY9jktkyFOxyaBl4oPNgul+kHYFp
+Id+kEtTB8OYyKF8mRKC0VcTiVdokV/adsqYE5dOUDk649s71zEHxQKYnLg9IaaB2
+2zROQ8A0WGeSmpwaHuC7JCZ8LZF/K/yFJkBgVMZDDLrYXUDhNuat+7Dd5G57d1mP
++IIQGysOcWHZYTB6/yd6krvzFky9Ss7bPxZjMcr2i/f1+34PLlxfF0nI6VQkWs0b
+U28s2urNq+tEmEtxfiWK9x7aG6RxIACCk0GqHyWlhrf6LcPUl0zfN7nBCjiJ5ue5
+EGpz9/+K3g+Fnf6Oeq0gyBtr
+=uPyK
 -----END PGP SIGNATURE-----
 
---===============4114008528277837803==
+--===============1306920673660269880==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -740,4 +740,4 @@ b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 27f23702470b9f7c962ddae2526b3de9fc8f3744 Merge 7.3-rc2 into driver-core-next
 
---===============4114008528277837803==--
+--===============1306920673660269880==--
