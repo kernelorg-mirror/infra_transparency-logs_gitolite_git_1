@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0695975926194199643=="
+Content-Type: multipart/mixed; boundary="===============7547481080525388364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Sep 2026 10:16:29 -0000
-Message-Id: <178877618986.1009140.5252950080683692795@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 10:16:42 -0000
+Message-Id: <178877620212.1009437.5707801306775670633@gitolite.kernel.org>
 
---===============0695975926194199643==
+--===============7547481080525388364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: c0f14f74b25ca107f9b532e38e2154febbe5621b
-    new: 6c90d7cb82736d1f511676517240d37bff65112b
-    log: revlist-c0f14f74b25c-6c90d7cb8273.txt
+  - ref: refs/heads/m68k-queue
+    old: 51762c2231ce99ff1bb8ecee6a3741d0a9025051
+    new: 880c097f3cc3835c11f9c531645c998767257fd5
+    log: revlist-51762c2231ce-880c097f3cc3.txt
 
---===============0695975926194199643==
+--===============7547481080525388364==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c0f14f74b25c-6c90d7cb8273.txt
+Content-Disposition: attachment; filename=revlist-51762c2231ce-880c097f3cc3.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -707,6 +707,8 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
-6c90d7cb82736d1f511676517240d37bff65112b Merge tag 'v7.3-rc2'
+eb6e2ef0b924156ec8592c688d6b9e46767df368 m68k: atari: usb: Add ISP1160 USB host controller support
+23216b78bc45e0ceb6c899a13132185975e26d36 m68k: atari: Update Kconfig.bus help text
+880c097f3cc3835c11f9c531645c998767257fd5 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0695975926194199643==--
+--===============7547481080525388364==--
