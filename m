@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7780979759309394884=="
+Content-Type: multipart/mixed; boundary="===============7542463191627001149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 07 Sep 2026 09:14:56 -0000
-Message-Id: <178877249670.961146.7171467197231311905@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 09:18:19 -0000
+Message-Id: <178877269933.964265.4903906974595069975@gitolite.kernel.org>
 
---===============7780979759309394884==
+--===============7542463191627001149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/timers/urgent
-    old: 64f74d8f728877858372c52067e5c0c091f8db24
-    new: 113a9796effe3376d2ec5aabcca1fef4fef4cd62
-    log: revlist-64f74d8f7288-113a9796effe.txt
+  - ref: refs/heads/core/urgent
+    old: c793bbfc4a0a9f5a66978fc91559e9681748dbeb
+    new: 954f7a48fa2ae7310c67729fb556caf726783436
+    log: revlist-c793bbfc4a0a-954f7a48fa2a.txt
 
---===============7780979759309394884==
+--===============7542463191627001149==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-64f74d8f7288-113a9796effe.txt
+Content-Disposition: attachment; filename=revlist-c793bbfc4a0a-954f7a48fa2a.txt
 
 0bd14001eb264247d565a5a44a71675df273640d mm/vma: introduce VMA anon page offset field and add helpers
 51943a18ad4bd6ff8baea2da7b8cce2f86f1a959 mm: provide vma_[flags_]is_cow_mapping() and remove is_cow_mapping()
@@ -1049,6 +1049,6 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
-113a9796effe3376d2ec5aabcca1fef4fef4cd62 tick/broadcast: Plug clockevents replacement race
+954f7a48fa2ae7310c67729fb556caf726783436 entry: Guard syscall_enter_audit() invocation with CONFIG_AUDITSYSCALL
 
---===============7780979759309394884==--
+--===============7542463191627001149==--
