@@ -1,25 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 07 Sep 2026 09:23:36 -0000
-Message-Id: <178877301675.968455.8755752255110743420@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2445510366205667851=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
+Date: Mon, 07 Sep 2026 09:24:13 -0000
+Message-Id: <178877305313.968998.8289483923043172894@gitolite.kernel.org>
+
+--===============2445510366205667851==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/pinchartl/linux
+user: pinchartl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: bdf16a4d74ae6b7fb6dc8953798ba0853ddc4705
-    new: bb06965e36adb1e606035b26f7b6e0b1c8e36497
-    log: |
-         bb06965e36adb1e606035b26f7b6e0b1c8e36497 pwm: loongson: Reload PWM configuration through counter reset
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: bdf16a4d74ae6b7fb6dc8953798ba0853ddc4705
-    new: bb06965e36adb1e606035b26f7b6e0b1c8e36497
-    log: |
-         bb06965e36adb1e606035b26f7b6e0b1c8e36497 pwm: loongson: Reload PWM configuration through counter reset
-         
+  - ref: refs/heads/rcar/x5h/vsp
+    old: 0000000000000000000000000000000000000000
+    new: 4f8f8756abde726edde151d787908339e424b7d4
+
+--===============2445510366205667851==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher laurent.pinchart@ideasonboard.com 1788773029 +0300
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
+nonce 1788773029-fa8e7ceea1033077ecb18fc0ca021f1fb1edb4e8
+
+0000000000000000000000000000000000000000 4f8f8756abde726edde151d787908339e424b7d4 refs/heads/rcar/x5h/vsp
+-----BEGIN PGP SIGNATURE-----
+
+iLQEABYKAFwWIQTx/LErbbbUsmD17oVbZOM5kDndBgUCap6CpRsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMiwyLDIiHGxhdXJlbnQucGluY2hhcnRAaWRlYXNvbmJvYXJk
+LmNvbQAKCRBbZOM5kDndBtyxAQD0o9LJRhwnFAUsh5IA8DjTAfRpBWUFzCaSfQz/
+3ZdmIgD+MYTo7HNzTNijxMoOR3FloWflGbcj2r/hedl7OX9gIQQ=
+=qywJ
+-----END PGP SIGNATURE-----
+
+--===============2445510366205667851==--
