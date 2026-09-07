@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6869956407355319054=="
+Content-Type: multipart/mixed; boundary="===============3774452075944365912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 07 Sep 2026 10:28:14 -0000
-Message-Id: <178877689416.1017602.8229226348005739260@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 10:28:30 -0000
+Message-Id: <178877691040.1017897.8466145387774530938@gitolite.kernel.org>
 
---===============6869956407355319054==
+--===============3774452075944365912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 685596d9996f2e660e9abab16ded16d54cc0fc99
-    new: 26b9ea4f00732908c4f87501483c20ecaaf4eca5
-    log: revlist-685596d9996f-26b9ea4f0073.txt
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
+  - ref: refs/heads/fixes
+    old: 2b0ac85512b7f67479127b2713254490662eb13d
+    new: df2908090cda368b01ff43709f51890076c56157
+    log: revlist-2b0ac85512b7-df2908090cda.txt
 
---===============6869956407355319054==
+--===============3774452075944365912==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-685596d9996f-26b9ea4f0073.txt
+Content-Disposition: attachment; filename=revlist-2b0ac85512b7-df2908090cda.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -706,10 +703,5 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
-9d9e6d885ccebdd471f6c7c90cb008f3a0c8532d pmdomain: Merge branch dt into next
-8c1a6a79b16a6c8b17d1e9db458d563fbbb613c1 pmdomain: renesas: rcar-sysc: Update description of chan_offs, chan_bit, isr_bit
-470ad751018342298134641d5ae0c244ff5603e0 pmdomain: qcom: rpmhpd: Add power domains for Kuno
-16d52b4e59deb2535dc6b8ac13792d9bbe693f8d pmdomain: qcom: rpmhpd: Add NMXC power domain for Nord
-26b9ea4f00732908c4f87501483c20ecaaf4eca5 pmdomain: qcom: rpmhpd: Add RPMh power domains for SM7250
 
---===============6869956407355319054==--
+--===============3774452075944365912==--
