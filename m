@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
-Date: Mon, 07 Sep 2026 04:38:21 -0000
-Message-Id: <178875590165.763549.694006670291301657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 07 Sep 2026 04:39:18 -0000
+Message-Id: <178875595868.763980.8730447768141377591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexs/linux
-user: alexs
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/docs-next
-    old: a7ebb31bf511a7e23db3738f7f6931b30f2659e3
-    new: 2e39566857f11dc999409cb24fb9c1814244b34c
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: a500a1b148a85ffb02ad1be7ec2603f6b311a446
+    new: d82d896f00e7bf697b61d5df0555941afa8d0657
     log: |
-         b8b9219ad4a6496bab49c6208ed0645149268461 docs/zh_CN: Add networking team documentation Chinese translation
-         b0fc69669752b5c36dd35afa64cd9e1256744554 docs/zh_CN: Add NIC SR-IOV APIs Chinese translation
-         746593619f130779f8647e7b9ae58a926bce7257 docs/zh_CN: Add Softnet Driver Issues Chinese translation
-         bda9f43bfbcfc4aa940c82920de030e66f3adfe7 docs/zh_CN: Add ipv6 Chinese translation
-         2e39566857f11dc999409cb24fb9c1814244b34c docs/zh_CN: Add LSM/SELinux secid Chinese translation
+         d82d896f00e7bf697b61d5df0555941afa8d0657 cpufreq: Use %pe to print error pointers symbolically
          
