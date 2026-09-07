@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9172105938881512555=="
+Content-Type: multipart/mixed; boundary="===============3763610948051048340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 07 Sep 2026 14:51:21 -0000
-Message-Id: <178879268119.1214645.12935946865747715099@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 14:51:27 -0000
+Message-Id: <178879268786.1214913.6763952625686276270@gitolite.kernel.org>
 
---===============9172105938881512555==
+--===============3763610948051048340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f6d752278c13839888425294c110174fb6c87e3d
+  - ref: refs/heads/main
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-f6d752278c13-df2908090cda.txt
+    log: revlist-cee9395acd80-df2908090cda.txt
 
---===============9172105938881512555==
+--===============3763610948051048340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792577 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792583 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1788792678-7c9fcdf09545ff0d852c9af61ebb34be2a247a6c
+nonce 1788792686-afecb946ad07883ed9db8d8e436c0d6a7cd77270
 
-f6d752278c13839888425294c110174fb6c87e3d df2908090cda368b01ff43709f51890076c56157 refs/heads/driver-core-linus
+cee9395acd8043be0644b25c34bfa86623f2b935 df2908090cda368b01ff43709f51890076c56157 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezwEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y7oP/iFo/Ou/KB6pfwbOrQGt
-pc/gCHlewCY68hsWXo/SBU/hRWC5yrLbQzkbPpRqVS6in5avYTAWuAu7ArubshXJ
-kiBNrXCrjGEqJl+DkvLNLSgNvx9T8qkCwDb+XWFe1w9Y5L9IbMI+gws/YOCM9U8B
-b6Uid/RQlKxQUsHIIu49h5v9i9YZN1NcQP3Vxf99XsGnL7HggfF4HjS66mUAgo5V
-HFRGCgFrKfVvZyZEYScn1dlVqM9N7ZwMTP4TIAAm2cbqy/dbZ82vls1q9vTVycaE
-0yacIZZohDmNcwG2UKO/sqPb6yp4YXK0BIqtp6ydVWfEeYTt32VOvtJyBCLuVouD
-MabGH6N2skMP143Jvsf2BMkPv35Uqs+K4g4xJFIbNSDnQRbZzb/jYdUK+CiRQWz2
-2tuGsSrUpJM51R4wntHaYJ5rDcbhbRNOjuFNRpYAFK8GatV/4QsXN4C1ZB0JvQxq
-WT15m+BzFNMVKvQRQrWdMaIKhSp0/E+v4zghZsqPJcnEjw9BhrmvJgLNyFGEJU0J
-VMKuaPeBQRFsge+lsiaGlYaYu43WGOrMBlw0YUSW7HL+DHveZe5j1JiRwLvtvCw+
-eylBP55MegUj4CSWQeiNIi5gt5qBg5Hw2BD4XdLeiRNFG4lJWj4fVSnDmeb6EMwO
-SXEWTy/hCJalfCE9WgEeQjs/
-=meK4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezwcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++mEQAKhMVgkpt4/z08IIb36e
+o/IhekEecDSxpFVDoE7wJra2RuqKOuYDoWk7hcZ0QKI4/QrsLh2hMkSgUprvSiJI
+tgjYFcerk6FUQlYGG34hEUEu6IWCKSopcElatnzATxGAizKCMVVWoNrjs77ENEgg
+mJYLqq9r6SQOOKzockMJpszvEhFIhZ4vldNcPsA18aL3w5nsIRxiO/XFr8ellvw1
+ZHvDa+nXQ2oFNUTs7OA39e5jYiFylKDJYwQLzC67QeWZqFPwoFpdZQOP1mtOOmwT
+dFIz5/TicBxbt5YHftdy+VEAuo5Kh0ofPVvjms216kedow0AsVnG9bvZSUJuBEgG
+Gannew2KmyL+qhDcO3mzh4AHER7jfjQna/k3K1YzSiPiqROW9VojSFsASw/joxzu
+Mn5T1M/HJ7YeffqwiYsrJ4qjU30ZSoHY82GEUI+f6gSd7HPl1ptB8Vw29d3r0s7n
+hv2nMeJC5yIIO5X48puO75LZlUKLk6t6LDCvveSm64wrQWH1OI/G9RW1DRHKcREU
+XugzGVgUapvXYnwalaT4y/Rcsp5kQO6nO2M30igQ0SD3A4rlPGBvu9x67xHDX2it
+petbDR9YIqukbCoDbITcrFxWAhOR6IxizxMXybdL315rIKGAhOdVDVxBBVcz/S9g
+AU92W2OwyLVlpELEypPlAHn6
+=UD0e
 -----END PGP SIGNATURE-----
 
---===============9172105938881512555==
+--===============3763610948051048340==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f6d752278c13-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-cee9395acd80-df2908090cda.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -423,12 +423,18 @@ eae6460f617382044c5afe5ef202f4d8b2c099b5 usb: cdnsp: fix wakeup from S3 after co
 6e74ac5c596fd246e37eadfc354567179ccbe9aa usb: gadget: fix null pointer dereference in usb_put_function_instance()
 263f7d61a4201cde16849b2d016251806e7418be usb: typec: qcom-pmic-typec: disable cc_debounce_dwork on stop
 c9273c83885835dbd1e8835d5665dfb8503d65e0 usb: typec: qcom-pmic-typec: drain cc_debounce_dwork if port_start() fails
+bb3a94a6828336dcc2dd891e51ebd92dcdd0b576 drivers: base: test: DRIVER_PE_KUNIT_TEST should not select OF
 6d94c47a2e3a38170a0a141547e4c52fbe232cc3 pmdomain: airoha: fix unselectable AIROHA_CPU_PM_DOMAIN kconfig
 4956993bb3befdf791d71a4952d8d13bcfd44c7b HID: rmi: fix OOB access with undersized RMI reports
+7b15d6cf25e6c2aea77129179b75c191b20d79a9 kernfs: preserve security xattrs without allocating iattrs
 9a58da80053f992b285b6b7bebc694b0f284c443 Merge tag 'ksmbd-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 2b0ac85512b7f67479127b2713254490662eb13d cpuidle: dt_idle_genpd: kfree() the original name allocation
 3663c8d1f31e65771bd73ee3259f35fd397f9933 drm/xe/oa: Remove sysfs entry on idr_alloc failure in xe_oa_add_config_ioctl()
+8d7b3e41ffecc69388a566ecc52093d292074c2a rust: pci: reject IRQ vector indices that do not fit in u32
 83162eeaf78c71ff6f6fa31dc95e3b6e90ee593f ALSA: dummy: Report a change when one capture switch channel moves
+6db237eb516774a76b0d6ab8b4090185f6f2f956 firmware_loader: Change contact for sysfs nodes
+0d3e690c112939d869931a5c8c0bb23718d58370 CREDITS: Add CREDITS entry for Firmware Upload
+f6d752278c13839888425294c110174fb6c87e3d MAINTAINERS: Remove Russ Weight from Firmware Loader
 9cdc7e6dc7a99ad7311ad5e7c145f2b9ce4e24b0 HID: bpf: serialize device reference release in struct_ops destroy path
 0ba8e0f90039da68342febf613019f4a68d86620 accel/amdxdna: refuse to flush an imported BO
 4a819ee5f2834330656d6ac168c4c8cf27fdeec2 ACPI: bus: Drop two fields from struct acpi_device_pnp
@@ -733,4 +739,4 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 
---===============9172105938881512555==--
+--===============3763610948051048340==--
