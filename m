@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3056015354801142000=="
+Content-Type: multipart/mixed; boundary="===============9165600730747426115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 07 Sep 2026 14:47:50 -0000
-Message-Id: <178879247052.1208731.17477124144701305506@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 14:47:54 -0000
+Message-Id: <178879247492.1208970.15892990683981698284@gitolite.kernel.org>
 
---===============3056015354801142000==
+--===============9165600730747426115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/tty-linus
+    old: b144dc5a24149ba9a0cb2197001973a74b8c93b2
     new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-cee9395acd80-df2908090cda.txt
+    log: revlist-b144dc5a2414-df2908090cda.txt
 
---===============3056015354801142000==
+--===============9165600730747426115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792366 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792370 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1788792468-867d53d14e4c426e4249638a3df8126e9206a501
+nonce 1788792473-b61be714c07324b94c4bf19f68fadcb8590627c5
 
-cee9395acd8043be0644b25c34bfa86623f2b935 df2908090cda368b01ff43709f51890076c56157 refs/heads/main
+b144dc5a24149ba9a0cb2197001973a74b8c93b2 df2908090cda368b01ff43709f51890076c56157 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezi4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OMoQAJQwhm7SJhpXKkVJ5z04
-fxL4eD5jWieste1yZHmYNud7c0ZgvSdg2TcLlxgkdBSAMWQlA8hAoLDzlCIGSMQ0
-R956GO3eKUhPhZPGUk/zOBIqX8AHnf9sXP0p4D6dk5QTUvoh7WoUYZcarm4LDBLq
-uX2yAzOyZ3WbAYWiENU2bCsFbeeUL9P+wlgMQwGD3nRVNkbyGCTvGtXbmFwN4Rjh
-HPOnNH3yDxq28ywmC9bVtyhDY6d9B02HWlhs+Zz8NU5ObyrJ8MM7TKS2H+T727f4
-coQap73bPZwmCOgRdI+O4NknZM+ehoxxBpUpyz68QUZRBD8Rg+GnkgGrkLn1qdO8
-s4bMhLTdY51ZqPAhpZQb2x+4mQAczDv1ywVsPCJUh/zuCG1cJ9MpZaNpaNXcIsuV
-a2sGETX+bXcjK96l+vazlWJnPUS63B0RDxrEv35VTLmnxdICvKkqKgsDB3hNaMoP
-vPZzZXhxdb9OG0gAxzL0DzWSMPJVfpd/RJgnRWnfkkAIct6VpvuIF+dHL26Iy4FN
-glRiazK2prQ7Z+16LbMbGtRiLZY6otFqCU6FziSrZvy0ssR4EwNgIT9SyKueQOHE
-0Twn9NWL6QEL7AHcRAKO9xOmyVkbbmyMg9P7aT1bFVcOVKv6SyP6HKnX2T9F0wu7
-9y7R0PELQa/ebwm+MFEoZGeY
-=CiAm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezjIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s00P/2aYDyHCbnpr9n7gmc6/
+Z3ea7i+u0nYOIPBHm+CcAJrj80/NqtROvIQL7GVh7+N2JV6SVNz04+SeHigeDH2z
+4hIGHjl3P4d3Uo2utEjXCT34PUO//e4Dk2wJDPzuXmrRBk52iSTdv96QXY42lvAv
+9ky8zRwA5wMXhT8QaGzHpn9AyVG5628z0hsv++ddmtKJfmGGEN289tS8C1vTngMe
+IKiRsPNj0ag2i8/cErHpIPbrOuP6B1scV4KtPgomBMrbOyHqzatIKL7ToWm1qaQe
+tYrhQr9CMzZsN4M36XeKcfGUW0U3Ef+fgvX4hXe4BQp6igxdXGrikFEMVm6vkXPS
+ky6zqKMWzIW86dC9hlTB0rTFCxdzvgtVoRwdf3UIdDYPHn0ANVGfs2cbCJes7HzL
+NIRJOwCEhrGwhr/clIxhTaU3exrlkf9M0ah6IGmD4LnN8L8jIlFcFDrjtaen9KPK
+GHtHIxghnzFsIPCSsLYV8SJEwsQFNDUN0pHaAwpnaKH4Eu3tjYZ6GaMDpKN2WMgv
+WOnsIGrDB7VykKBMf8pR5MOKmzCwtxYEZAV1++3ngGx+jLrbpj/T4WE4t9xsN3AK
+M44Ih5Cq6XoBKkin1DuxoitsHmbxeL89CdJgL1Zdk35w20yEFlDhXJ43Q1xeThne
+/yVOYj/38cQGlv28NbAS23hR
+=/Voc
 -----END PGP SIGNATURE-----
 
---===============3056015354801142000==
+--===============9165600730747426115==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-b144dc5a2414-df2908090cda.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -720,7 +720,6 @@ b75a000f2ac15f4778ddd6d9298d60b24ad776fa Merge branch 'bpf-add-missing-precision
 d0fc310b4dfd334023b90d2423818044190c0f68 Merge tag 'block-7.3-20260905' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 0d9ff90a5422cc7509258aaaba1e7481df4d332a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 d9d80a859bc45ca022abc13afdd11d1c812a1034 Merge tag 'for-7.3-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-b144dc5a24149ba9a0cb2197001973a74b8c93b2 virtio_console: allocate the port_buffer with the caller's gfp
 214f4aeb2255f2f9b5f5de1a15f650a429c43490 Merge tag 'loongarch-fixes-7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 9f0346dcbea363787186c94ef94dd01aaa215afa Merge tag 'driver-core-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 1fc5a74b108fc90951890ec513ac81869f5eaff1 Merge tag 'kmalloc_obj-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -739,4 +738,4 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 
---===============3056015354801142000==--
+--===============9165600730747426115==--
