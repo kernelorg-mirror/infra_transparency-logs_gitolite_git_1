@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0569633693250140313=="
+Content-Type: multipart/mixed; boundary="===============7630896656376702859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 07 Sep 2026 05:53:11 -0000
-Message-Id: <178876039174.815989.80319726281821209@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 05:53:28 -0000
+Message-Id: <178876040830.816310.3543245029249177876@gitolite.kernel.org>
 
---===============0569633693250140313==
+--===============7630896656376702859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.3-fixes
-    old: 3f34396db393c04f1a906d6829823a78c209b43f
-    new: 4d0624679ae29b469016f1ce4714be58582ed06a
-    log: revlist-3f34396db393-4d0624679ae2.txt
+  - ref: refs/heads/xfs-7.4-merge
+    old: c44f3db4f4c00c5250ddb290bb7cbd2a5ed40155
+    new: 0ca15a1a115132dfebeee5447fd6abe46f66d61d
+    log: revlist-c44f3db4f4c0-0ca15a1a1151.txt
 
---===============0569633693250140313==
+--===============7630896656376702859==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3f34396db393-4d0624679ae2.txt
+Content-Disposition: attachment; filename=revlist-c44f3db4f4c0-0ca15a1a1151.txt
 
 94579f24e2b526a04eb41050af0ba018c6f528e7 drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()
 d96504ea631874220d89c455d735da51a796ead0 drm/virtio: check return value of vgdev_output_init()
@@ -662,5 +662,21 @@ c3085f6c7cca7c162248519ce8d763047cdd8acd xfs: use the rtgroup extent count to fi
 3f9fd694fa429e89fe6de51b22b0ed5fb8b2daf4 xfs: fix rtrefcount btree block counting in scrub
 6b760b3232b3efc8bcc7c165e76300bc1c9140c5 xfs: make the rtsummary repair fix the file size too
 4d0624679ae29b469016f1ce4714be58582ed06a xfs: count escaped corruption errors in scrub stats
+23f5ea3d0d036d8110ae6de4039d2e23c181d0c0 xfs: remove an outdated comment above xfs_file_ioctl
+35bd2ae473869a2303198e4d0985881d2eaa1acf xfs: rename xfs_ioc_swapext to xfs_swapext
+b076be93abb3913e061827455dceb135c5cbe37b xfs: rename xfs_ioctl_fs_counts to xfs_ioc_fs_counts
+2e9b75546a69d6a56c40d30e8afd6c920c03ca03 xfs: rename xfs_ioctl_getset_resblocks to xfs_ioc_getset_resblocks
+22c47b7c7ec6b40d030629defc1e7a810344930c xfs: split out the handler for XFS_IOC_DIOINFO
+84ca1a3a8e18c5ebb56fa4b0295be74ed65fe94e xfs: split out the handlers for XFS_IOC_.*HANDLE
+d3beb063f24838a49b0cf553388eac2a7cc1c7ef xfs: split out the handler for XFS_IOC_SWAPEXT
+0a9eb67598d9d305280ed8d0df59318c4cc6e23d xfs: split out the handlers for XFS_IOC_FSGROWFS*
+aea4db0cf7732cc99e3bb958af809a889a45c96e xfs: split out the handler for XFS_IOC_GOINGDOWN
+9696940fd2e336979364e0ddf365a89455ca041c xfs: split out the handler for XFS_IOC_ERROR_INJECTION
+14a51eff8194c8a08ae8f7823d9af9e8747865b0 xfs: split out the handler for XFS_IOC_FREE_EOFBLOCKS
+af5e40c5cdc7ff098594242c2603df35cf93ab6b xfs: split out the handlers for XFS_IOC_FSGROWFS_*_32
+d99d2af5b5152c677f12088c7ab3919e2127731d xfs: cleanup XFS_IOC_GETVERSION_32 handling
+a9a1dc9eaf2a1992e46a8c2d98c63b1105c3b20a xfs: split out the handlers for XFS_IOC_SWAPEXT_32
+31256907674fbb667fd56b401e057866609f212c xfs: split out the handlers for XFS_IOC_*_BY_HANDLE_32
+0ca15a1a115132dfebeee5447fd6abe46f66d61d xfs: remove an extra cast in xfs_file_compat_ioctl
 
---===============0569633693250140313==--
+--===============7630896656376702859==--
