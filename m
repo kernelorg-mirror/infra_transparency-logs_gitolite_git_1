@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 07 Sep 2026 10:21:41 -0000
-Message-Id: <178877650123.1013406.12121682182618304684@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 10:27:06 -0000
+Message-Id: <178877682647.1017174.17905057722067443495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/fixes
-    old: 82e664cf1219c459c33aae931b222cf951af9cb7
-    new: 96bf9831fbf423b8104f7948cd8fe7007ecfb46c
-    log: |
-         96bf9831fbf423b8104f7948cd8fe7007ecfb46c erofs: delimit inode_share cache key components
-         
+  - ref: refs/tags/v7.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e5e04726cdd043e309677071ab1b65a4b18f422b
