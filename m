@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7655050805905024943=="
+Content-Type: multipart/mixed; boundary="===============1528589781640845712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 07 Sep 2026 22:54:20 -0000
-Message-Id: <178882166054.1856450.11047051303927512541@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 22:54:51 -0000
+Message-Id: <178882169118.1856798.1052196817882227183@gitolite.kernel.org>
 
---===============7655050805905024943==
+--===============1528589781640845712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/test
-    old: 388742f0d6357acda7479efc7386ad96347ae3be
-    new: d7808b37da0a619cf1fa541c2384e783fecc2480
-    log: revlist-388742f0d635-d7808b37da0a.txt
-  - ref: refs/heads/vhost
+  - ref: refs/heads/linux-next
     old: 388742f0d6357acda7479efc7386ad96347ae3be
     new: d7808b37da0a619cf1fa541c2384e783fecc2480
     log: revlist-388742f0d635-d7808b37da0a.txt
 
---===============7655050805905024943==
+--===============1528589781640845712==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1055,4 +1051,4 @@ e4f4761879a230aa59e569102a6ab9851847d833 vhost: invalidate vring access on IOTLB
 81489b32a21c9360f8750d1fb600155d27452e19 virtio_input: reset device if input_register_device() fails
 d7808b37da0a619cf1fa541c2384e783fecc2480 virtio_input: stop callbacks before unregistering input device
 
---===============7655050805905024943==--
+--===============1528589781640845712==--
