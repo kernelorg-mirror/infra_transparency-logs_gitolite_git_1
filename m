@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 07 Sep 2026 18:04:27 -0000
-Message-Id: <178880426778.1645398.4427491200000981019@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 18:04:32 -0000
+Message-Id: <178880427220.1645687.563333998375556487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.3
-    old: ca12149896ed040dafef92eacd2af3f903afb177
-    new: f3e6ef13e24c9f26dca0d35de57fcdf04f78e378
+  - ref: refs/heads/spi-7.4
+    old: ee8862b601e6393ca3afdcc3ea23a03befceecc0
+    new: 98477036fc35472834ccfee018fdc99d2d21b073
     log: |
-         f3e6ef13e24c9f26dca0d35de57fcdf04f78e378 regulator: pf1550: fix which regulator is notified
+         98477036fc35472834ccfee018fdc99d2d21b073 spi: fix typos in comments
          
