@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7019998750751314746=="
+Content-Type: multipart/mixed; boundary="===============6757515688868592679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 07 Sep 2026 14:44:49 -0000
-Message-Id: <178879228916.1203451.2264043190749738814@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 14:45:06 -0000
+Message-Id: <178879230655.1205755.8792568653748440856@gitolite.kernel.org>
 
---===============7019998750751314746==
+--===============6757515688868592679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: c9273c83885835dbd1e8835d5665dfb8503d65e0
-    new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-c9273c838858-df2908090cda.txt
+  - ref: refs/heads/usb-next
+    old: edc1518454f6439e50a9220e9a3ba09044ea8d8b
+    new: 34c9c5517033a74039a54dfab24e7bf767a4e0e4
+    log: revlist-edc1518454f6-34c9c5517033.txt
 
---===============7019998750751314746==
+--===============6757515688868592679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792184 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792197 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1788792285-cf831b495cc212e4508a812fa052d85e65b28579
+nonce 1788792299-9b2d7b5b0df487333acf811e026aee4e581aa53e
 
-c9273c83885835dbd1e8835d5665dfb8503d65e0 df2908090cda368b01ff43709f51890076c56157 refs/heads/usb-linus
+edc1518454f6439e50a9220e9a3ba09044ea8d8b 34c9c5517033a74039a54dfab24e7bf767a4e0e4 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezXgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H9EQALo6HEg5SR5nzoe2pWkI
-InmpS2IojmfBp9riAfFbtX3gPavolfHqP1VfxmgT1mTgQ+Ce8KVoc6TQhswEBx4R
-/LmJqHwCxmF0F6vg2no1Bon7sY0Ofww26Ngm2r3KSYT5uYlM0u7E0qC8fsgsfCD9
-+DK4UeyUVUhEK6xH3PsGlatg4xqSKthHf7GxbymxfiqSzU6HI51UXy1FKASD9b0T
-U6QhBIm2V3OrBh2+C0zqueTjbMRRe/ywW/Ex+2SEhfPE7oW3+lEIwl5jnvAb6WpU
-5va25zmtUDP2akmNoAXZVuW2sVN/9IRQ1UsxBpGJLj9HPAZ4fsLzonwuzraPiE0t
-yJvwy4L5Od7KzaFXoa4KLqYWRJOdCPN/NwGrvtQ+ZmK9OEJHKQgwpUR2KRGOIWhM
-GaH71Vb/4glh0MDJ/5VddWlx4OuKo9I4b7AtL/Fql2hs8pv+iOmruTSRMdIyJxHU
-3o2jqxSByHLYpfWyipyP+gYcvcxnqfKTEfw1qxkagX3JFrJDBDgo+/R5AxqhBNRK
-vtoYWaaNNpwznNo9Bv+YK6+QHzbvrmKIrDbYC82owm/aoejuhubfCz/q5awzYse2
-oQZiDTgfWN2BNEeTLa4vRxfHxfieL1Ubr8Oh0QROPwX6loh0MmjrT3HLMeYXeH8v
-D70n+TysNtW0+tJBG3DbV+dJ
-=YlGO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezYUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yDUP/0WkmMIDUrWT49N0ETmd
+SwKKHO4YJ5tl6SmIeJCHRFeUyaRCQs+p228WXz9LLWoiS6oY52MbLrn6HHUtkxer
+aB8bipJeXPZOow6LesImUfXswdYhgWD0H2Nggge8vt5BPeyiWPHfP5H9LnQpn48F
+HKhkEUBwyh0BozftQ6f6RDbRK2CVvTlNXDQtLVspMA79vkxm77XMfOTGnL+okd4J
+PmUWj1jOpK6g2LUt+y2UTlEqNPf0x7l/HswUp+vXflQXCzBbsAJqhUtDjLWuJWKJ
+tIMzmvn2Es/G2LkNMB3LZNp6UYF0xIqnjU7uIYQZ6I47LpQ92CvvOBO8ymkPQk9G
+xceoBUOjrwSxzGtjro7FEKNNAmFa9vzHGlW6GX9p5pvfcC9EzRsxRTWvUVZzP9fk
+tsdgtiutOmLAD2EBRSwvVwgKX8YrpFxjYx9Rv+b9Gp8N19yeJkEbsSVEqZsar8oN
+9QMqK/glTvtQnWUcwDgncMiM1ddBsV1bcmRt5UKk54XBZyr5R8UFE2SEuZnZiuCd
+Sp9QPeObXqhp+9VGfTI8lo6tK+rgAxX8knYx3s2TZqFSmJr/MS+woqIsThPuarxQ
+cdKx+/NabZ97Nq3baYNy5NAeQ8a3dbjVIFiMkhnEabLq5aWeWDrm89r9n325hvBY
+bqQYPWAL8ohAx9w1cF5UBjSy
+=VjPA
 -----END PGP SIGNATURE-----
 
---===============7019998750751314746==
+--===============6757515688868592679==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c9273c838858-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-edc1518454f6-34c9c5517033.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -261,6 +261,9 @@ a565d82392e2240e6b2b25e2118e8617efa9fe74 ALSA: hda/realtek: Add quirk for VAIO V
 c8329cb590df4a8b3a4e878d289d4b17824db8d1 dma-buf: fix some kernel-doc warnings
 1376afc7660bad2a1a5ee0876898312a486cf8bd octeontx2-af: fix CN20K default MCAM rule removal on port cleanup
 6463655ab2946d13d2ec5efe04a5c2bf9d675f01 drm/i915/dp_mst: Remove duplicate intel_pfit_compute_config() call
+045b5bef916d1cb1a52cb6aa68f78fd8b1235cef usb: xhci: Fix HCS_ERST_MAX conversion
+05506a76f13a279a204b6f9b89b8352b646e54d3 usb: xhci: Fix isochronous scheduling regression
+ff44dfb03a293bf30e31f98772a1dd316a6071d1 xhci: fix lost bounce buffers on TDs spanning several ring segments
 9fca7779ad18538188d640b1fdcfea924459542c Revert "pmdomain: qcom: rpmhpd: Add missing MXC and MMCX power domains for Eliza"
 900f48940abcb5294dac8f1b5335cdc562798734 drm/i915/ddi: add helper to compute DDI clock frequency
 0cd42b346d13486f8f31c0846f9f2a9241e191c2 drm/i915/cx0: program DDI_CLK_VALFREQ with DDI clock frequency
@@ -283,6 +286,7 @@ f25e93768fcc5d8287e50b1ec52a42e4c276df34 ksmbd: prevent out-of-bounds reads in s
 a506290f59e1c6ce9ac0a13158640bb8fee93471 ksmbd: fix listener task lifetime on netdev events
 ba9572bc43d04d71ba52ae7f20645f1eafe86875 ksmbd: validate normalized name response length
 4dc8f4ee2d46d5d1e749ddd1b94912c72e796162 ntfs: handle signal interruption in fallocate
+04cec690b1fd9d1c4c314b91a10d8c68a3acfe18 usb: typec: ucsi: displayport: Fix OOB altmode array index
 9cc5761b8f28f9cef72061094eb5e37e2cd44d97 ntfs: take invalidate_lock in ntfs_setattr_size()
 0fecc393f2060e6bc25138df32cb923ec7071c6b ntfs: take invalidate_lock in ntfs_filemap_page_mkwrite()
 be150d35864ccd8d1005a12953da145013219d35 Merge drm/drm-fixes into drm-misc-fixes
@@ -302,6 +306,7 @@ a8603b52b39f520ea8a34def74c23fba87396d3e smb: client: fix data corruption with c
 35131b1d29cbb30a4a3f32c541a0167bdfdbcbd1 Merge branch '7.3/scsi-queue' into 7.3/scsi-fixes
 8e359920216689b3b79e0fe8961a77fe312a511f cgroup: fix spurious SIGKILL of CLONE_INTO_CGROUP children
 3f4b7d1a49c5c826f3be9b684313eea5b83ac232 selftests/cgroup: test clone3() into a previously killed cgroup
+cd3b9cea675bbfebc223f007dc2f4e79524fa54c usb: typec: tcpm: constrain TCPM_SOURCING_VBUS event handling
 23761359861ca4bb087540937dfea8b0716914c2 sched_ext: Fix timer pinning and return value in scx_central
 b6ee92d7f7f0498d1f776d0b125a2f6bcedf0891 sched_ext: Fix vtime delta loss in scx_flatcg cgroup migration
 84590dbb9f3519e865ee8396494ac7186b625fef sched_ext: Check bpf_timer_start return values in scx_qmap
@@ -395,9 +400,29 @@ cc7cd2a9228175c975f62ad56ed7c767701cb4fa staging: sm750fb: fix mono image source
 67bfe48a29fbddfff77e13d4d327e49fca2c2be5 HID: bpf: mark struct hid_device as safe BPF pointer
 1fb68c2e76386ac663819036c2c75cd476e433c1 selftests/hid: Add a test to ensure we can write fields in hid_device
 ce58f5a1843235d800ad724e86a3cf5c9c6f08ab selftests/hid: prepare test_rdesc_fixup_get_data_overflow for the new verifier
+2430eb81e44111b30eeb5273bbcf8b24ca517ef9 usb: image: mdc800: change kmalloc() to kzalloc()
+dea99705bc8fcda12590cfeeae6d2ba47a7ef572 usb: typec: mux: Fix typec_switch_match()
+d50b6442bef66abbe4694f918f8ad013f81d75cf usb: typec: mux: avoid duplicated mux switches
+6b2a674fcc953378e5e750d47a888bbe51229de5 usb: dwc3: google: Initialise probe properties with DWC3_DEFAULT_PROPERTIES
+b58e6200450d350314db0ecda7d6d1bde3281e80 usb: dwc3: clear forceRM when issuing EndTransfer
+c9a48db776d7184981630ecc01a3ad30a8f7dc24 usb: typec: hd3ss3220: track VBUS enable state per consumer
+f0efaf1872949e96d213c8e910fd9517f7d7c406 usb: gadget: midi2: Fix null-pointer dereference in f_midi2_free_ep_reqs
+e24e3370356bddb65d667985a332b5f8aeeb5f97 usb: typec: tipd: Fix Thunderbolt altmode VDOs for cd321x
+fed0aa7c6eaedc6c0d4e362fc91724aa47be4a7b usb: gadget: f_midi2: fix use-after-free in string attribute show path
+7e07d3e4c389217d7d7171d80edf2e23ac70f1ea usb: gadget: f_midi: initialize work in f_midi_alloc()
+dd0eed9e165b1a6292f49e622e3dd0b7d99b106d USB: gadget: fix NULL pointer dereference in gadget_dev_ioctl()
 96c8ea3c5add7920b3c43840d1ea76b3354c8d2d block: save page offset gaps in cloned bio
 e52349a5ea6a74d46dfb703fcb64e08b5af28e8c loop, zloop: fix dma_alignment for large or unreported limits
+445fc368c6bc73eff0aeb3818cf5f355facfbb16 usb-storage: ene_ub6250: fix race between scan work and probe
+eae6460f617382044c5afe5ef202f4d8b2c099b5 usb: cdnsp: fix wakeup from S3 after controller context loss
 6e2b571b0a54755b06e092501913e1dfefe75d6c ublk: clear VM_MAYWRITE on read-only ublk char device mmap
+4ffee1aebb0c0ffcda9faffd17834ea9b00d42cc usb: storage: realtek_cr: fix use-after-free on disconnect
+9f6f095beec82a80daa666a3b2186a5b95841e9a usb: f_mass_storage: Bump local buffer size in fsg_common_create_luns()
+2c0f5ca48674a5b5f9fa4a9c3325aa48053af0bc usb: gadget: f_mass_storage: fix null pointer dereference in fsg_common_set_num_buffers()
+7b0df6efd143f8085bdb68778a013a46f1349913 usb: typec: qcom-pmic: cancel reset_work on stop
+6e74ac5c596fd246e37eadfc354567179ccbe9aa usb: gadget: fix null pointer dereference in usb_put_function_instance()
+263f7d61a4201cde16849b2d016251806e7418be usb: typec: qcom-pmic-typec: disable cc_debounce_dwork on stop
+c9273c83885835dbd1e8835d5665dfb8503d65e0 usb: typec: qcom-pmic-typec: drain cc_debounce_dwork if port_start() fails
 bb3a94a6828336dcc2dd891e51ebd92dcdd0b576 drivers: base: test: DRIVER_PE_KUNIT_TEST should not select OF
 6d94c47a2e3a38170a0a141547e4c52fbe232cc3 pmdomain: airoha: fix unselectable AIROHA_CPU_PM_DOMAIN kconfig
 4956993bb3befdf791d71a4952d8d13bcfd44c7b HID: rmi: fix OOB access with undersized RMI reports
@@ -713,5 +738,6 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
+34c9c5517033a74039a54dfab24e7bf767a4e0e4 Merge 7.3-rc2 into usb-next
 
---===============7019998750751314746==--
+--===============6757515688868592679==--
