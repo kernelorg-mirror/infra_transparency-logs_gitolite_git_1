@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0459317694788266224=="
+Content-Type: multipart/mixed; boundary="===============7686335420772871727=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 07 Sep 2026 14:46:53 -0000
-Message-Id: <178879241359.1207230.3616567278208798147@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 14:46:58 -0000
+Message-Id: <178879241889.1207446.4641386356990702031@gitolite.kernel.org>
 
---===============0459317694788266224==
+--===============7686335420772871727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/staging-linus
+    old: cc7cd2a9228175c975f62ad56ed7c767701cb4fa
     new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-cee9395acd80-df2908090cda.txt
+    log: revlist-cc7cd2a92281-df2908090cda.txt
 
---===============0459317694788266224==
+--===============7686335420772871727==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792309 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788792314 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1788792412-e931289f7cca284e269469ef27c561853d2de596
+nonce 1788792417-7c4bdc6c6e7213bda14a11f1f2c96b20580962ad
 
-cee9395acd8043be0644b25c34bfa86623f2b935 df2908090cda368b01ff43709f51890076c56157 refs/heads/main
+cc7cd2a9228175c975f62ad56ed7c767701cb4fa df2908090cda368b01ff43709f51890076c56157 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezfUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AcYQAMBPqW98PnL1R6w0JKQu
-exOlacjqN+A6CCSTclSeh4GC1Xn2R7aRfBtZZc/JmfCoJMf2eaa1cfMS0JuATsbw
-PscdTqeGAgkEoSFs4+vq5dduy2M1z4Z42k91WAQuRVh5505R4csxaDqnUWhi5kKw
-oIN23oYDeyYjgv+ylSTpYyCr/mLVB46obZKQuS5MjEFrhFoQYTRRtW5fA84OK5hh
-MW6AklxWRaXz+8vlw3MIGCC9Nyg5Quet/m2E93GeAEskx+4AlipDchNhKuyCQQg+
-8neCjO1jd4nZknmJGCnhOtXxrY9R4PmunRjQc3lYrxLL7tbVy8hx0uGZ+OQzvxG9
-e//f/LUpV1hrsaECOBMKg/DuFR9h6w1LL25AZxBkKnyOMtAlftO9SgLjpqKfpJB8
-Y2OSCS/x6kqIery9xSL/QwwsU3unqTNHdHk6OFnRG0AXEiqmaAOuqbeOHgN00DBO
-DLbgjypHHa2TxveXu43Ozpzn+NTli+SVmqiklmQ6BhkxXKdVWp/q3a5p2VrJZjMC
-F5oFaa8VT6J3FTUjjsZF+fOGNjUCAktMrWDdBKcnXrJwpeKJBS9ue6X+F8S/wwAo
-gVhrwJOND5kETmIlCPJ0zI8AdE8NP1m9Dh1Xf8km5k4LlgTe1dCj2vWHLRH6iAau
-yABnQrmqZ7r/UmWvrLnJJFUj
-=btGv
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqezfobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EwEQALC/ojLorCm4amUhlwwb
+tk9gld/UjUPzv3HkNxloTnzkOvq8iSkpOc/JcycZ9yainvyikDigSwS7pavc8FS0
+FQd70tBbJwXjlIX2LNC+2AbQ0Vo9HkhbzWQ0jl/6pdtCx2h5ISJdu/GyXf0aIvrm
+bN9Prc62Ox2glYogF74zpQrHWMdz8OA9Vsvs3Ciz8y3TEQiDz7sQR4YFKu5MYM3F
+UMT2FNib2TTdSNclbf77Ie5cS3laFEVOXocywo6L9YZkyhS+1MddThMqjMAGDPYR
+iwbnZq8Y4eChmLv2KYuFfU9EDN5HNI+dbcH/GKnJFdHk5Uk3Ct1QnN5XdIDpopYc
+xCsvS8QG8CDpj70ndGpuaD/5J4jPaABAwGlAFZ1KRyBEsFP0Kpi3Z94BxcvlJBOp
+/dmDt4plk41rh9LIe0fYIqbhP5mNwMDnrQl8onyh2+SAyFwLUysZ2nDO2iQVo+dF
+yyHeRAdmraMCMjSHbQGnL8fn3SzFVwls0fnDgaVxTofok2WWr4AEaYV5r4wTRTz3
+ktamU4xaUou2f1VY6807rdv8ELVnnp4hC3u2xIa/onxZSHRKp296miXR9Mp/rlYu
+L+7Mmf9AnOf2BtYEExsO45LWX15zkXSJry+HEPhV5/fYYJiayCkeSP82H6S4qk/W
+kSP0re6kgzqjpjTn5f/3WxWB
+=HKyX
 -----END PGP SIGNATURE-----
 
---===============0459317694788266224==
+--===============7686335420772871727==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-cc7cd2a92281-df2908090cda.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -376,10 +376,6 @@ deced5fa01c5e9813384b6c176379e5baaf5ec10 nouveau/instmem: handle iomapping alrea
 caa1bc2a0a6ca19dcb90bbf88208b0fe2decd66f drm/nouveau/dmem: fix mismatched DMA unmap size for large folios
 c2256c044a1df39c8aad4dd2d6f709b2533e2d7a drm/nouveau/dmem: fix callocated underflow on large folio split
 c037915f80c4db47f7d061d68e703ffd551b1a34 mac802154: fix data race and NULL deref on local->assoc_dev
-f576944a59f31bcffff121117ebf452c5dd162b7 staging: fbtft: make dirty_lock IRQ-safe
-99aa998dec83ba180822f70e6d48a514fc81c20d staging: rtl8723bs: fix OOB read / stack overflow in rtw_get_wps_attr()
-ff917923f4fb9c83717ba135ee47d7e4c1567bb7 staging: rtl8723bs: fix OOB read in rtw_action_frame_parse()
-28a289beaf226b30b1e6e7d7b1a2946fe2d6e852 staging: rtl8723bs: fix OOB read in rtw_restruct_wmm_ie()
 bc93419130bb70fabf6561e197054caae85c160c net: bonding: annotate lockless writes with WRITE_ONCE()
 e4637ce34607f1733a34a57294966d26b263e626 ALSA: usb-audio: fix OOB write in snd_usbmidi_us122l_output()
 32d7226e6105c257ef7b3d0ec819f11a81f53b6d ALSA: hda: restore MFG widget enumeration after core split
@@ -396,7 +392,6 @@ b2fd92f016e9d692fd3c8c08d0ee014e9212279d dm-integrity: require stable writes for
 18d80c77b4c7dd20699e81cedfbbff4e9d198f28 dm-integrity: fix infinite loop on discard with large tag size
 1d2929d0850fff683b8aff051275945e65f082c8 net: psp: do not inherit the Rx association on clone
 2ccb8878c149443c6acf628b438c9c942c20abb2 dm cache: fix demotion stats in passthrough mode
-cc7cd2a9228175c975f62ad56ed7c767701cb4fa staging: sm750fb: fix mono image source stride mismatch in lynxfb_ops_imageblit()
 67bfe48a29fbddfff77e13d4d327e49fca2c2be5 HID: bpf: mark struct hid_device as safe BPF pointer
 1fb68c2e76386ac663819036c2c75cd476e433c1 selftests/hid: Add a test to ensure we can write fields in hid_device
 ce58f5a1843235d800ad724e86a3cf5c9c6f08ab selftests/hid: prepare test_rdesc_fixup_get_data_overflow for the new verifier
@@ -739,4 +734,4 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 
---===============0459317694788266224==--
+--===============7686335420772871727==--
