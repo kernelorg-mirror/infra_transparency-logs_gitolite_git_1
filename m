@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 07 Sep 2026 18:04:32 -0000
-Message-Id: <178880427220.1645687.563333998375556487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 07 Sep 2026 18:05:05 -0000
+Message-Id: <178880430587.1648057.12899896549289054574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.4
-    old: ee8862b601e6393ca3afdcc3ea23a03befceecc0
-    new: 98477036fc35472834ccfee018fdc99d2d21b073
+  - ref: refs/heads/for-7.3
+    old: 32689f0fc54fd801f1cd11637666e534984cb04a
+    new: d112159df5c6cc5ee6ab91cc32bf6ed29939df38
     log: |
-         98477036fc35472834ccfee018fdc99d2d21b073 spi: fix typos in comments
+         d112159df5c6cc5ee6ab91cc32bf6ed29939df38 ASoC: Intel: SST: Publish the PCI module aliases
          
