@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1385090135628829819=="
+Content-Type: multipart/mixed; boundary="===============1314894902741815150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 07 Sep 2026 16:55:35 -0000
-Message-Id: <178880013509.1594217.2654119327313196905@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 16:55:36 -0000
+Message-Id: <178880013629.1594351.11593953531641426063@gitolite.kernel.org>
 
---===============1385090135628829819==
+--===============1314894902741815150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: ab2704c2a884028fd12d455cf27a9585aefe2961
     new: d793bcfca6bb493eb8e93900285f951a0c9dbf7c
     log: revlist-ab2704c2a884-d793bcfca6bb.txt
 
---===============1385090135628829819==
+--===============1314894902741815150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ c6cca5f384cd8d8c05471fd7a917844c5bc0e3f3 docs: translations: pt_BR: translate vo
 e9dfc0f0a671cb0611a89380f0026ec76391f498 docs: translations: pt_BR: update process translation files
 d793bcfca6bb493eb8e93900285f951a0c9dbf7c docs: translations: pt_BR: fix missing text and formatting in process docs
 
---===============1385090135628829819==--
+--===============1314894902741815150==--
