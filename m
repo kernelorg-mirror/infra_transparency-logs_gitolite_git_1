@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 07 Sep 2026 21:03:40 -0000
-Message-Id: <178881502083.1775894.12787917189636479246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Mon, 07 Sep 2026 21:10:49 -0000
+Message-Id: <178881544982.1782405.12691809184907440449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 27f23702470b9f7c962ddae2526b3de9fc8f3744
-    new: bde0149ce559c67d68cd077970c268c07a0aa139
+  - ref: refs/heads/master
+    old: 04d9f8e274154a973c815fe2d732df3259838e0d
+    new: 42f4a5ef9741ae37c7d1fe755e794e4e165e0903
     log: |
-         9dc6cedcd971d084a64a9bd11d9c822e1125b798 rust: debugfs: drop 'static bound from ScopedDir file creation methods
-         f6b56da8e1b8217e5516290ef9b09728a8f96a10 rust: dma: tie CoherentHandle to the device's bound lifetime
-         c3d4fd0e9d27651d2daf223fa72128633a082b05 samples: rust_dma: separate driver type from driver data
-         bed87375f90f44cd2f9fe804a469274127d38593 rust: dma: tie Coherent and CoherentBox to the device's bound lifetime
-         6d7e9bc51d8f2d73b3403c759c769f880082f9ae drivers/base/node: fix UAF on device_register() failure
-         bde0149ce559c67d68cd077970c268c07a0aa139 Merge patch series "rust: dma: tie DMA allocations to the device's bound lifetime"
+         e7df6e63139fc5de39c3d48e8556d423e38ca7c9 hkml_patch_format: support TODO line only paragraph
+         b00255fad9b1b55d51acfff41fd4461cfc460ea9 release_note: update
+         42f4a5ef9741ae37c7d1fe755e794e4e165e0903 pyproject: update version
          
+  - ref: refs/tags/v1.6.7
+    old: 0000000000000000000000000000000000000000
+    new: 44a1ea231b648c78eccf8d84c8972f2897cf0630
