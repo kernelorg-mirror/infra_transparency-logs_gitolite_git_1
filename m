@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 07 Sep 2026 18:49:48 -0000
-Message-Id: <178880698840.1678078.6051582997860602521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 07 Sep 2026 18:55:25 -0000
+Message-Id: <178880732586.1683895.3494114607570625311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 8ba9d2d760007b15f8b4e8a812c9c0dfd66a2763
-    new: 5965280c53faff01983ccf89de70a5d48318f035
+  - ref: refs/heads/asoc-7.3
+    old: d112159df5c6cc5ee6ab91cc32bf6ed29939df38
+    new: 9c3882ec10399c14c59b7e4599d33c4395367c37
     log: |
-         5965280c53faff01983ccf89de70a5d48318f035 SUNRPC: fix netns use-after-free in write_gssp()
+         9c3882ec10399c14c59b7e4599d33c4395367c37 ASoC: mt6351: Publish the OF module alias
          
