@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0066799927738111242=="
+Content-Type: multipart/mixed; boundary="===============1914231959719098077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Mon, 07 Sep 2026 03:32:04 -0000
-Message-Id: <178875192402.717574.3003582616941811894@gitolite.kernel.org>
+Date: Mon, 07 Sep 2026 03:45:28 -0000
+Message-Id: <178875272892.727294.2530597730542417937@gitolite.kernel.org>
 
---===============0066799927738111242==
+--===============1914231959719098077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,26 +16,27 @@ repo: pub/scm/linux/kernel/git/mhiramat/linux
 user: mhiramat
 changes:
   - ref: refs/heads/topic/wprobe-v2
-    old: 2cfebc7a6bb61e3d22a6bc76c9b2b2def42ce382
-    new: c407c3a4d2553d8b50c17c131a1199e6115bef07
-    log: revlist-2cfebc7a6bb6-c407c3a4d255.txt
+    old: c407c3a4d2553d8b50c17c131a1199e6115bef07
+    new: 188e75b9208bf2af18b9fa2f8d89a564546e7244
+    log: revlist-c407c3a4d255-188e75b9208b.txt
 
---===============0066799927738111242==
+--===============1914231959719098077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cfebc7a6bb6-c407c3a4d255.txt
+Content-Disposition: attachment; filename=revlist-c407c3a4d255-188e75b9208b.txt
 
-a0074537606a3d9f6735327ad236d3ac35c06e38 x86/hw_breakpoints: Make DR7 updates NMI safe
-ff5bcbe26aef14fa81b3b4709d0f94478e976e9d x86/hw_breakpoints: Add arch_modify_local_hw_breakpoint_addr() API
-d29cdafc599b89104b74d02bd9a050127d3aa682 HWBP: Add modify_local_hw_breakpoint_addr() API
-246c587756b91450352745639ce4d8e3dcb6f54b tracing/wprobe: Add wprobe (watchpoint probe) trace event support
-5876a76454a2b2f0a4a9ac60d0ff3b72eecfeb27 x86: hw_breakpoint: Add a kconfig to clarify when a breakpoint fires
-952eedbe97cea5c8f86d3454db27f1c04d379ea9 selftests: tracing: Add a basic testcase for wprobe
-77070a6c1d4e12b6a17c75466a8e40d63b7175f8 selftests: tracing: Add syntax testcase for wprobe
-beef3eaa29957b56979b628ba3e19e0528349cdc tracing/wprobe: Add set_wprobe and clear_wprobe event triggers
-7cc5b1195592013c6061b903a67e54edcfd9624b selftests: ftrace: Add wprobe trigger testcase
-d860ee8db3c49a93d5c485d8414e818898c188c3 tracing/wprobe: Support BTF typecast in fetchargs
-c407c3a4d2553d8b50c17c131a1199e6115bef07 tracing/wprobe: Support BTF struct offset resolution in set_wprobe trigger
+e79f53060131ed43284f1734a07b69d3d6744a6a x86/mce: Fix hardware debug register corruption on task migration
+ef1183ec5430578d41937ab48e646435b74820ec x86/hw_breakpoints: Make DR7 updates NMI safe
+e8248c8459dca7b4f909ed647157c5d9c72b3134 x86/hw_breakpoints: Add arch_modify_local_hw_breakpoint_addr() API
+9ca5b1a86be25580f09b8b03b0c57c3bcc5d5680 HWBP: Add modify_local_hw_breakpoint_addr() API
+14cdf2d50dec02a82300c415d379172cb8d00a47 tracing/wprobe: Add wprobe (watchpoint probe) trace event support
+c3fdd1f2902fe2fd6d980a0784c269bbff680cb9 x86: hw_breakpoint: Add a kconfig to clarify when a breakpoint fires
+2c8565b27da8ad3bd19830ea173f94dc58992b27 selftests: tracing: Add a basic testcase for wprobe
+2e408ab404c6b08a7aba07d1603d27f42d63b894 selftests: tracing: Add syntax testcase for wprobe
+8ccf19988e03ff230d974feef1b8f22661f1afef tracing/wprobe: Add set_wprobe and clear_wprobe event triggers
+53133df3fadf8015cfa6bd8bec62b5027dfc5097 selftests: tracing: Add wprobe trigger testcase
+ace45bed091caf052f04503919ed91dcd0fdd7c8 tracing/wprobe: Support BTF typecast in fetchargs
+188e75b9208bf2af18b9fa2f8d89a564546e7244 tracing/wprobe: Support BTF struct offset resolution in set_wprobe trigger
 
---===============0066799927738111242==--
+--===============1914231959719098077==--
