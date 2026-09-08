@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 08 Sep 2026 15:00:11 -0000
-Message-Id: <178887961166.2572900.941532291869261056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Sep 2026 15:01:59 -0000
+Message-Id: <178887971933.2574024.12446824679090990491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 98477036fc35472834ccfee018fdc99d2d21b073
-    new: 23ea08ca607c2be0d4445dce7942a5049efb1451
+  - ref: refs/heads/for-7.4
+    old: 20a812a1f664ca8ab224a257fdcf0e73e8c9e44e
+    new: aa7d985d85529049fc8c39c168b300f59de4fdf8
     log: |
-         23ea08ca607c2be0d4445dce7942a5049efb1451 spi: orion: yield to scheduler in transfer wait loop
+         349e94679968785803cc32c1d2e41e000e8afd5f ASoC: es8326: report resume restore errors
+         8f43acfd3addf10fbde8d21dd44b1a61e1936ba7 ASoC: es8375: report resume restore errors
+         8f7d23eb8ffb817ba69049577ab8ca55b93c77cf ASoC: es8389: report resume restore errors
+         aa7d985d85529049fc8c39c168b300f59de4fdf8 ASoC: fs210x: report register restore errors
          
