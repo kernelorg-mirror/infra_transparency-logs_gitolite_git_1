@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8394007751844805308=="
+Content-Type: multipart/mixed; boundary="===============0924929516171614307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 08 Sep 2026 19:36:13 -0000
-Message-Id: <178889617374.2781873.12078032759645235708@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 19:36:45 -0000
+Message-Id: <178889620597.2782247.11783431958902182359@gitolite.kernel.org>
 
---===============8394007751844805308==
+--===============0924929516171614307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-firmware-for-next
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
-    new: 525e00a1bbced112f5431448842b27fa7621725f
-    log: revlist-dc59e4fea9d8-525e00a1bbce.txt
+  - ref: refs/heads/riscv-soc-for-next
+    old: 8cdeaa50eae8dad34885515f62559ee83e7e8dda
+    new: 00bdd4d4daaae140ff747475ef475facee61a950
+    log: revlist-8cdeaa50eae8-00bdd4d4daaa.txt
 
---===============8394007751844805308==
+--===============0924929516171614307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-525e00a1bbce.txt
+Content-Disposition: attachment; filename=revlist-8cdeaa50eae8-00bdd4d4daaa.txt
 
-d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
 7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
@@ -1050,5 +1049,6 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 525e00a1bbced112f5431448842b27fa7621725f firmware: microchip: use kzalloc_objs() instead of kzalloc() with multiply
+00bdd4d4daaae140ff747475ef475facee61a950 Merge branch 'riscv-firmware-for-next' into riscv-soc-for-next
 
---===============8394007751844805308==--
+--===============0924929516171614307==--
