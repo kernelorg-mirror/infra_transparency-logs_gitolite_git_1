@@ -1,22 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 08 Sep 2026 10:20:04 -0000
-Message-Id: <178886280468.2358186.8272232458041522949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 08 Sep 2026 10:22:30 -0000
+Message-Id: <178886295053.2359576.1552871196242822175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 3ef961d01c2c082ec55c7c62a3eae3a8d5b97eb9
-    new: b585005609b8538e6810c922a1364254536e010f
+  - ref: refs/heads/master
+    old: c08bd2aa50aa306c6ad51e50f582acf686283deb
+    new: 20361d66df4d3f32d5e137fe61a55cdf156c91f0
     log: |
-         83e6bb28644ad6ca91feee6a0c93a2d0bf10c0e5 net: macb: Make sure clk_init_data is fully initialized
-         4bee840c7e4309a77043de7c1064ce88be9813d8 net: mdio: mux-meson-g12a: Make sure clk_init_data is fully initialized
-         64adb67e4568261e1eddc1fd4df47ad4a98758b3 net: phy: air_en8811h: Make sure clk_init_data is fully initialized
-         b585005609b8538e6810c922a1364254536e010f Merge branch 'net-make-sure-clk_init_data-is-fully-initialized'
+         4d6b7f6b9410f5e4568dd101ef1a7b1d471bd487 hexdump: add free_colorlist() to fix leak on color_fmt() error
+         20361d66df4d3f32d5e137fe61a55cdf156c91f0 lib/fileutils: fix RESOLVE_NO_SYMLINKS fallback value
+         
+  - ref: refs/heads/stable/v2.41
+    old: 6438dec3ef477bc0272336e89921b77ebd57cbea
+    new: ba905a1874959c70fd706aa7d49df61076864e0a
+    log: |
+         ba905a1874959c70fd706aa7d49df61076864e0a lib/fileutils: fix RESOLVE_NO_SYMLINKS fallback value
+         
+  - ref: refs/heads/stable/v2.42
+    old: c8d4919713be394015df356263e3fb44cee758ac
+    new: fde56542caf5cbca449fe583cecca37d6bab71c6
+    log: |
+         fde56542caf5cbca449fe583cecca37d6bab71c6 lib/fileutils: fix RESOLVE_NO_SYMLINKS fallback value
          
