@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3059804708355476798=="
+Content-Type: multipart/mixed; boundary="===============4561949572436858442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Tue, 08 Sep 2026 15:02:13 -0000
-Message-Id: <178887973323.2574315.478891088596439748@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 15:02:39 -0000
+Message-Id: <178887975919.2574746.7452025460394163117@gitolite.kernel.org>
 
---===============3059804708355476798==
+--===============4561949572436858442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: e9b3407fa4686e58a862f6889b18a4f422199261
-    new: baff4b3d06efac18ad9419363585778055ae27fd
-    log: revlist-e9b3407fa468-baff4b3d06ef.txt
+  - ref: refs/heads/export-net
+    old: ccc8930a0008f383b9c7dd603c69835c842e887b
+    new: e7dad0b5a58a5f814b3257c4de878798024b8a45
+    log: revlist-ccc8930a0008-e7dad0b5a58a.txt
 
---===============3059804708355476798==
+--===============4561949572436858442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9b3407fa468-baff4b3d06ef.txt
+Content-Disposition: attachment; filename=revlist-ccc8930a0008-e7dad0b5a58a.txt
 
 84477867e122251b8c47db240a8d699b0836aa6f tty: xtensa/iss: use strnlen to improve iss_console_write
 d5bbc9b3d20c3f90b31a64c62bb4a800b9a5941c ARM: 9473/1: kprobes: test: add MODULE_DESCRIPTION
@@ -585,22 +585,7 @@ fe39cd9d48f2346605f3746e0cc19e89d5f373eb cifs: don't update i_size in cifs_do_tr
 a23cbb05744b22719efdc34f9e329a120e81e617 Merge tag 'timers-urgent-2026-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Darrick J. Wong
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
-c6c8f1d693ac349d61aa9db7c420f682523555c7 batman-adv: dat: fix printing of unknown 4addr subtype
-b963ee1dc32ce5329818e167b679b843b340d6ae batman-adv: drop direction in _batadv_is_ap_isolated kernel-doc
-77f653e6f7223634111366a1f5b6b0340770105e batman-adv: bat_v: fix bonding candidate selection
-7356a9232d9c84e57a71b362370b2397ef58fb26 batman-adv: clarify cut-off in batadv_v_neigh_is_sob kernel-doc
-776c26254d2423e61a704af2d9ab28d39969dfdc batman-adv: use more descriptive var names for is_similar_or_better
-a5f7058bee1ec6d0df7a0dc20279775ee116f3fb batman-adv: ensure u16 aligned mac address arrays on stack
-d9304a90eca5703ae8301415b417ad63ddd44d7f batman-adv: ensure u16 aligned mac address in structs
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-bbfb0d2cf03538d3db0580849720bc5fe773d515 batman-adv: tt: remove only the entry which was looked up from the hash
-fd8d892c685ad08915e6cebf8ec125ccd01c8e6f batman-adv: tt: extract code handling a roam on add
-e103fbefa049d82cac3bec350059e872efecc331 batman-adv: tt: simplify NEW flag transition code
-52d8c713f464448a055025dab4ceff6afcc68e02 batman-adv: tt: drop unnecessary cleanup goto in helpers
-976b159b3c12be89459390bdf950534f639a5200 batman-adv: tt: use protected flag modifications
-f59c4c59df104baf473e20f885071a9d713c3861 batman-adv: tt: transition NEW local entries only under lock
-01ae63ecd1c098521f2544cb1018b8ec22d9bdb1 batman-adv: tt: don't uncount never committed clients on pending purge
-799152bcf6cbe4393eb03690925a382cefae303c batman-adv: tt: decrement count for committed client on local_remove
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 399aa12450a61a5c73dc77e73f069ece9687c95d ksmbd: zero the FS_OBJECT_ID_INFORMATION buffer before filling it in
 c0cd3fc6824122014da2b3b0cb7ddeaa2946ec8e ksmbd: initialize FileSystemControlFlags in FS_CONTROL_INFORMATION
@@ -641,10 +626,6 @@ b2fd92f016e9d692fd3c8c08d0ee014e9212279d dm-integrity: require stable writes for
 18d80c77b4c7dd20699e81cedfbbff4e9d198f28 dm-integrity: fix infinite loop on discard with large tag size
 2ccb8878c149443c6acf628b438c9c942c20abb2 dm cache: fix demotion stats in passthrough mode
 9a58da80053f992b285b6b7bebc694b0f284c443 Merge tag 'ksmbd-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
-8b1db02b771f0de1600766f94884817caccabfd0 i40e: prepare for XDP metadata ops support
-cff6f1378df7d7fcb408a8ca2259e98e7cdf7fca i40e: add support for bpf_xdp_metadata_rx_hash()
-bbcaa1fe8749e21e8936058be8c5b43ceced0a38 i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
-907bd786209ed8c735db94889386aa48d2409d6a i40e: Avoid repeating RX filter warning
 89a312991dc6e638a36adc43ccb91dbc25504c04 Merge tag 'cifs-fixes-7.3-rc2' of https://git.manguebit.org/linux
 2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
 9012da455ab9a05d8205b90d0ad7c8b526f89062 net: 6lowpan: fix mismatched comments
@@ -655,56 +636,22 @@ bf79662bc85e820ac3b846e2f347da29fbf6ac95 ieee802154: 6lowpan: fix NULL dereferen
 7ac81e2d2240f2c57bd073b0733e0b2abca38e82 dm-ebs: fix incorrect device offset check in ebs_ctr()
 940de590b839f71d6dc846160534bf202401b8b7 Merge tag 'hardening-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 2f37fba846c9fdff5fc15b6d93656057ccd13031 mac802154: fix use-after-free of sdata via queued RX frames
-8e2faf945a13fc73711a5227af8a1077523b590f net: stmmac: drop the queue-0 pinning for GSO frames
 66817a9794263cd2a5dc4e99bf8e5fcc5ff7181e net: gro: Fix nesting of TCP GSO SKBs in skb_gro_receive_list()
-60c1bcdeeb8ecacb35a430f516d11d805922d017 octeontx2-pf: Add NIXLF error and poison interrupt handlers
-b35d3d2fae3058265ba937544a3895cedce18d08 octeon_ep: remove redundant memset in octep_setup_pfvf_mbox()
-7042c8c193e5d634198b7c766bb3a01c8e3ee0e2 net: libwx: rename wx_pf_flags to wx_flags
 97be98b94dc8e43a3e4dedccaf9683fb806e49aa Merge tag 'ntfs-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 8ab1afb2eb246ab15b301cd255b5943d208a93c1 Merge tag 'for-7.3/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 adf50c47a47f0f0f0b79dd58ffade9919cddebea Merge tag 'net-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-a5249d1d9a618b31e15e191faa4122dc5d9912b1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 18e5e0ec0e9282c897e2aa81a3e43ccaee03b003 net: bcmasp: clear txcb->last before writing each descriptor
 0c5cf62e72d7a666ee4da757e122dc1600df1ecc net: bcmasp: fix tx_spb_ring_full() checking same slot cnt times
 b6dd676d320e6d3c57b84212b035336e03c55e7a Merge branch 'net-bcmasp-fix-tx-ring-accounting-bugs'
 efdfb1e27a3328085b79540dfe781d537b576ea1 ipv4: fib: bound automatic table ID allocation
-d5f5853f167fe2e584be013e111d03c1207969fe netdevsim: take bus device refcount before registering device
 2ac174dfcdde399fa95ba889541fb5e688d8bb35 mlxsw: spectrum_ptp: Fix napi_gro_receive() call from GC workqueue context
-94284e5442bac57a33da5dd48549eb5ec803fa97 devlink: use direct firmware requests for flash updates
 6a1094c34d176827b2b173e163dcc964a13af93f genetlink: pin family module during policy dump
-e84b89f17a12a7cfc526eb1c18ac02e8777e18c9 net: airoha: grow the small RX rings
 b58d749633203d92c265317b45fccee555090352 tunnels: Drop stale dst when building an ICMP error for PMTUD
-8c9190bfd18a2548dea677faed7d6ee11f3cb0c8 net: phy: dp83848: check phy_read() return value in config_init()
-6ebcf5074cff0402730c6981d2397139fee6322d net: openvswitch: don't schedule rebalancing if there are no datapaths
 a09ceadff95b0075a9b6a5d9dbeb6c1c5f311c60 mailmap: add entries for Lorenzo Bianconi
 39b23c1c40e1f73d2b94a09282cc476af647e438 bnxt_en: Prevent queue stop with deferred completions
 b752e041d5845d03f285cf7a1f30b38ca7ef92bf enic: preserve V2 VF carrier across netdev reopen
 8972d252f495d4be4bbfb32d4d9d6c2ff778fea4 enic: match mailbox replies to request numbers
 641d03105cc0d2437e32fdeec164f91a4ccef6c4 Merge branch 'enic-fix-v2-vf-mailbox-reply-matching-and-carrier-reopen'
-ddffc67d89c80608b26cc0c659d6fa18513ba8c3 r8169: add speed in private struct
-9f8cb9cbcdc815d7f7b625705924e9c64e54cac4 net: phy: phylink: add helper to modify pause
-8a3c76523e44978714818d91fa9f80ab5607fdb6 r8169: add support for phylink
-dab515216deff51b08c072850c4e21cc61a9471d r8169: add support for RTL8116af
-97dee72abc37c66de7647439f20f3147a63b409a r8169: add support for RTL8127atf
-6e445f3d9538f1e6c25f77a46dfbef08a4334422 r8169: add ltr support for RTL8117 series
-a306cbd79e07b4b345cd75c690d63fcca65613a5 r8169: fix RTL8116af can not enter s0idle and c10
-6797f12ea40e788c7da47a7cf9ea4a9341548de0 Merge branch 'r8169-add-support-for-phylink'
-cc9bccbad049ec9f1ffa377df60757243ceff2da selftest: net: Deflake Periodic GC test in test_neigh.sh.
-985f6522d856d70a4625fe07980fccf822ecbe4b neighbour: Remove __neigh_for_each_release().
-2f9ab22897bfd784cf9acd2a193256c3253fa84e neighbour: Remove lock dance for neigh_update_{gc,managed}_list().
-ffc5821e8ab891c434d8b991f8e87379c8e39355 neighbour: Remove unnecessary EXPORT_SYMBOL().
-cbc2fbb685f562d3f42a07787b5d8bc835d2bbb9 neighbour: Remove __rcu from neigh_tables[].
-b4f0115efd7fdb8b967c3a6315b000d7d682f219 neighbour: Store arp_tbl and nd_tbl in net->neigh_tables[].
-7bb5d7675cde4dba175ab8dc9dcfb29bc4e51a3d neighbour: Remove neigh_tables[].
-2430df635a59b2a06cc9b5e56da1372cfef7a1e9 ipv4: Replace &arp_tbl with arp_table(net).
-df5f4f372de55e3f0ba24cc2c435e536b297d397 ipv6: Replace &nd_tbl with nd_table(net).
-e265c2c432d9331baa06e8a0c2707ff1b8363c10 neighbour: Clean up neigh_table_init() and neigh_table_clear().
-1c2b20509463bf4ef4d18b7d1204a3bf051a1bea neighbour: Convert neigh_table.entries to refcount_t.
-cda2962b6e2b9fc914d6a9ed84c6ca623100ead2 neighbour: Namespacify neigh_tables.
-da5a7e7a90e625aa796f290451ccf0bab354ba77 neighbour: Don't store net in struct pneigh_entry.
-fae1c59810b86a00a31e017a7e787f51957b880b neighbour: Remove unnecessary net_eq().
-10aa85762861d3c9846ed6ba40e7b16efe60cf07 selftest: net: Specify netns for ip ntable in test_neigh.sh.
-a753848a327ef5ad358ee1231afb1f85c38c893e Merge branch 'neighbour-namespacify-arp_tbl-and-nd_tbl'
 fb3088dc5811a27dcc4775eaf44bd85ade265762 Merge tag 'ieee802154-for-net-2026-09-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
 5bd9e4e7cdaa03879e9b73b12ab52cceb1edd55b nexthop: Initialize extack in remove_nh_grp_entry()
 1746ef2e2df2ad71c66eca56364d56bde284523b bonding: use skb_cow_head() in bond_do_alb_xmit() and rlb_arp_xmit()
@@ -715,15 +662,10 @@ b1fffc273112e7284c5b705e186b43b5770cd3d5 net: dsa: mv88e6xxx: bound the policy r
 47a582b2b0e7bb5753e4803988e150a405b57f51 ethtool: document that GRXCLSRLALL rule_cnt is a caller-provided limit
 742b94967d55f5e9237dc7ac52761809b6d86b4c Merge branch 'eth-fix-bugs-in-ntuple-filter-reporting'
 4b772869a1e5f9da5cef5b9c722ec0aa424ee0a0 net: bridge: mcast: properly convert mglist to rcu
-f8ddbec9dfce958f1e72c22a9a8c657047bfca49 Merge tag 'batadv-next-pullrequest-20260831' of https://git.open-mesh.org/batadv
 1f29543126dde307e8b5fb6a740c54e59deaa2ff octeontx2-af: mcs: Clear stale X2P calibration state before calibration
 c91b4d6e5cc30ceea3f23ebe29aec012709a065f ionic: use netif_txq_maybe_stop() in ionic_tx()
-8d5f1bda7e8bbfff4f60b82a150219a72f37e7e5 net: mana: remove unreachable dead code in mana_bpf()
 78a86d75a70e1e227711c72865c59b1422d0a5ae net: mpls: clear inner_protocol when the last label is popped
 5d50e90add8b4a978395e893e81954d19d58a7c5 net: usb: cx82310_eth: drop URB after 0xffff reboot sentinel to prevent partial_data heap overflow
-7f1de03e31033590279e4f8fc01ddf2c5dcfab51 net: reduce XMIT_RECURSION_LIMIT under KASAN
-daf0972d38e999dcfd7a409daaeef69812c1f58d net: phy: air_en8811h: refuse a firmware blob that is not a multiple of 4
-761ae184f850f33d1bbf6c4530c7f237be780d21 netdev: avoid skipping objects on race with device disappearance
 1668a31e3b1ad358d981ddb6dbd3db1fe0533621 dibs: Unregister dibs_class after error
 907a56ab3eb8a58500a58daa76087f17bb2b6826 s390/ism: folio_put() after error
 98fc57d167446b95b4e719815fe79edef93f8e7a vxlan: reject dynamic fdb entries that reference a nexthop id
@@ -731,23 +673,12 @@ daf0972d38e999dcfd7a409daaeef69812c1f58d net: phy: air_en8811h: refuse a firmwar
 1aa9e143bf51405665a793d4cc925e1c4f0c5922 net: reject oversized tx_queue_len at netlink parse time
 0a7252d7f85478080385de4c1072085e30849fe3 selftests: tc-testing: add tx_queue_len cap regression tests
 6262acad9db197b5ed12e3b245d2e6d0c80fb960 Merge branch 'net-cap-tx_queue_len-at-s16_max-to-prevent-oversized-ring-allocations'
-5cce5d29273c817ba18b866671031ec3aa7564c6 octeontx2-af: Show DMAC filter drop count
 7980325b2f71e3f65c1323c39792e2455da6fab6 pds_core: fix cmd_regs access racing BAR unmap on reset
 73608de7e59246b4b533c1ffaee158a7048e186e pds_core: don't release PCI regions for VFs on reset
 db88216424a37e9209bb7834453c568e7f4604f5 Merge branch 'pds_core-fixes-for-the-pci-reset-path'
 80dd7e754b3aa9637a0758ad93fa209f9650ec48 net: mana: Reserve extra CQ slot for the fence completion CQE
-b910d4220d42ed8e67b79adec6349fc7020e118d selftests/net: Fix flaky bind_wildcard due to ephemeral port race
-4c5c71852c719c6cf65ba7f3f7ac51b5b042edde Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-9eab111e765729e93087ff86a2ec9b2ae42d0fa5 Documentation: netvsc: Remove stale "not yet supported" XDP_REDIRECT note
 2b4707a149a55e8fa75c9ef32b359d60f470a566 net: mctp: i3c: serialize probe with bus removal
-cb145191e9d3f29e14cb7386c57181c3dab1bb68 tcp: Replace min_tso_segs() with tso_segs() CC callback
-f69a0944415fdac663565482d56250c5350f130b bpf: make tcp_tso_autosize() available to BPF congestion controls
-d76beefca7e52ef2fd7a4a504e862d85be60072a Merge branch 'explicit-tso-segment-count'
 e6662f2100f8d33b0f4d0047c219efd6bba186ea net/sched: defer qdisc freeing after failed creation
-2e9ff7bb668b6f62f4789718f70fd1ec2eb87c12 8021q: Fix data race when publishing vlan net_device pointers
-d199b0d0bb01118f84ca8bccc5419097d67cd18b 8021q: publish vlan_devices_arrays entries with acquire/release
-1d1ac57cc9af54948fee2f7c71e7f6600b151cb4 Merge branch '8021q-publish-vlan_devices_arrays-entries-with-acquire-release'
-31f961de2f90fbf52eb2d4e15b3eeaa09f9b4fc2 net/mlx5: Use dma_wmb() for completion queue doorbell updates
 802eedcc0b25bb3e1b492f0600ab74325274d53b net/mlx5e: Fix missing FEC mode mapping for RS_544_514_INTERLEAVED_QUAD
 b9d755c5a37519fb1354034db1dfeb30e1ba6856 net/mlx5e: Fix setting RS FEC after remapping
 c84ce45a7a3f3f024502c7f53308db9c76e4ae71 net/mlx5e: Fix reporting support for all RS FEC variants
@@ -769,46 +700,7 @@ eb56a495f59baf6cad5ed80e3ffb9078098b1346 net/sched: hhf: clamp quantum in change
 8f0229bef3cba996bd40e40aafc512150016b696 selftests: tc-testing: update ETS test 41f5 for clamped quanta
 e7c93ad4bd51d2c38da48dcdd8ce27bfb2c3771b Merge branch 'net-sched-clamp-quantum-psched_mtu-in-change-paths'
 38b6be101006d3e7af972999f45d4f1e8250587a net: macb: fix NULL pointer dereference on unbind with fixed-link
-7b26ff20073901b4e7a0384464da784a5c94d56e psp: refactor psp_dev_tx_key_del()
-4d3a7d1104eb99c0f58d19c2e671d183be5d7f2f psp: move code from psp_sock_assoc_set_tx() into helper functions
-1e16b303109f085880a649842bc80b08214e90a3 psp: allow drivers to omit tx key add/del ops
-da630d1da2b19442c337bcbe3bb3fa66fda1f5bb netdevsim: psp: drop tx key ops
-d54ba079bb4f411d89ffe54ada1634cf3f896fe2 Merge branch 'psp-make-tx-key-ops-optional-for-drivers'
 74f27fc8642b7e8d139796f8c18ee46df393c2b2 s390/qeth: allow bridgeport queries despite OS_MISMATCH
-3fb94a277ff830a9840b4f53a8b3a94d6cbe033e can: bxcan: Remove comma after sentinel-entry in match-table
-fa7291a2527a1f61944d92e20c984b66bebf3e7d can: c_can: Remove comma after sentinel-entry in match-table
-4b7e7da65530371ea27e8d4d3639c6890b7b96a7 can: flexcan: Remove comma after sentinel-entry in match-table
-e6f3617decf3983a2c95679437b6c6496f7e49ab can: ifi_canfd: Remove comma after sentinel-entry in match-table
-6c507ab36a830f131d17ca74033282e89dec8a3f can: m_can: Remove comma after sentinel-entry in match-table
-44ef827c95a898dd89055184eac15631ed514bd9 can: sja1000: f81601: Remove comma after sentinel-entry in match-table
-5b01d57660439d08efa968d6b15f53f760dc1163 can: sja1000_platform: Remove comma after sentinel-entry in match-table
-9869b64b320d419768c651945d8372a3adccb0ee net: dsa: b53: mdio: Remove comma after sentinel-entry in match-table
-30fccb0c4e760d9790b9f8f2f4828fffda8f3eb7 net: dsa: b53: srab: Remove comma after sentinel-entry in match-table
-2d08ac30e2ed2a92dd9439e7615bb49d012376e9 net: dsa: bcm_sf2: Remove comma after sentinel-entry in match-table
-4ea4ec3653782faf7cf19a493e228632079c0d2a net: dsa: hellcreek: Remove comma after sentinel-entry in match-table
-a650dd1fc25448a69879f69a95718e17a21b46c5 net: dsa: lan9303: i2c: Remove comma after sentinel-entry in match-table
-4caa67d082f6118d5ff91d4dace539996d1ca4e1 net: dsa: lan9303: mdio: Remove comma after sentinel-entry in match-table
-9a580b3496c4588cc101165311180a2ab0c42e37 net: dsa: mxl-gsw1xx: Remove comma after sentinel-entry in match-table
-e86151633076053f6e5628dcf2f7a48510472647 net: dsa: mt7530: mdio: Remove comma after sentinel-entry in match-table
-f9bcf01a660836403facaadf1396578c836bca53 net: dsa: mt7530: mmio: Remove comma after sentinel-entry in match-table
-6011d062dc7db553d1ac223bcef849f2a1a4aeb9 net: dsa: mv88e6060: Remove comma after sentinel-entry in match-table
-ead5894715930b5177305c10e98f8fe06bee0d68 net: dsa: mv88e6xxx: Remove comma after sentinel-entry in match-table
-c45695468377196bd8a8932dbd776939ff289618 net: dsa: qca8k: Remove comma after sentinel-entry in match-table
-6233d1ee37717e81697a08aa7b61910f68be7b1f net: dsa: realtek: rtl8365mb: Remove comma after sentinel-entry in match-table
-068d6ebde398586ea8d568d0994fbe1868edf640 net: dsa: realtek: rtl8366rb: Remove comma after sentinel-entry in match-table
-39063420326f40c3e5f335541463ae9a3130b02c net: dsa: rzn1_a5psw: Remove comma after sentinel-entry in match-table
-2b46b5c9efc9fc6903f1c417564fb278ab22bca4 net: dsa: sja1105: Remove comma after sentinel-entry in match-table
-a450f7315155551e0a4764e64212849951600ac4 net: bcmasp: Remove comma after sentinel-entry in match-table
-435d4b4aa9c862d2a3bf9e7c95725a938d264a2b net: spacemit: k1_emac: Remove comma after sentinel-entry in match-table
-8b7eacd6219871e4e6b6221ebce4cfd806afd25f net: ti: am65-cpsw-nuss: Remove comma after sentinel-entry in match-table
-1cdf69f1e9a01345a079937147d5fc2fd9f224a5 net: ethernet: ti: cpsw: Remove comma after sentinel-entry in match-table
-6d1c7d7a0731ce32cbc99e419f77260536769cb9 net: ethernet: ti: cpsw_new: Remove comma after sentinel-entry in match-table
-93b9f4f1360830344d076eed72206c822701c583 net: mdio: bcm-iproc: Remove comma after sentinel-entry in match-table
-dd7a0a75587470e0820e48b4d3d13b237e31baaf net: mdio: bcm-unimac: Remove comma after sentinel-entry in match-table
-3fc32eb28f15be83ac2828d0f4d025b15b6dab5e net: pcs: xpcs-plat: Remove comma after sentinel-entry in match-table
-af86c0a5800715a525b6e8c6280a3b4a9660dece net: phy: nxp-c45-tja11xx: Remove comma after sentinel-entry in match-table
-8afd6adb071713fc25dbc2d1e3763fdb0fe0b660 net: wan: slic_ds26522: Remove comma after sentinel-entry in match-table
-6f157f39d1812ac5efd113a29bff3799dcb3150c Merge branch 'remove-comma-after-sentinel-entries-in-match-table'
 94fd4debd2e3a69cf93e766c8b328a810c228119 af_unix: Update last skb marker in manage_oob().
 6e5ee08eb5858d175da6768d75d163817b6a9d4a af_unix: Return immediately when manage_oob() returns NULL for 0-length buffer.
 ca0b0a86873e8ded39b7fb196dbdc615d9a9a0e4 selftest: af_unix: Add zero-buffer test for msg_oob.c
@@ -818,27 +710,7 @@ b83641e0ab8b20eefcc4cdc5a059f897375291a2 net: ipv4: Fix UDP length overflow with
 18a9a4342136c5ae954b37d961c374d369615de2 selftests: net: Test UDP length overflow with PMTU discover and big MTU
 199271ebc71c1e0913b2fad988a7bff330a8828a net: ipv6: Clamp to IP6_MAX_MTU in ip6_dst_mtu_maybe_forward
 7473a66d3af33a4f01ee8dba34e257da95361f04 Merge branch 'fix-udp-length-overflow-in-edge-cases'
-a4050ce7e46cecbc25eadfa89e4b907b1906a4f9 net: phy: microchip_t1: fix NULL pointer dereference in lan887x_phy_init()
-615bcbb822cbd7e0c2c0b4b85d0ffa9ee564c89c net: ethernet: ti: davinci_mdio: Drop commas after match table sentinels
-581850fa732a0be0bfe6ff13b8e35c0f4a893b5e net: bridge: vlan: drop legacy memory barriers
-bd1aeca09823f35c693e31b703b999f0ac7a5d81 net: bridge: vlan: annotate lockless pvid use
-e46efd49e05f9b99029cd94b6cec3c7858a10bb9 net: bridge: mst: use br_get_pvid helper
-2b1f8fd3118c125c08ea1c03663c8422113526c9 net: bridge: vlan: annotate lockless vlan flags use
-b0bb0a45ce7e3dd8dfd1ffd8bbe9480d123fa871 net: bridge: vlan: annotate lockless use of private flags
-5bec8f861114a221d774ceb1443078164710537b net: bridge: vlan: annotate lockless use of num_vlans
-120207a08fc093a281e83eb292426249ffcd7512 net: bridge: vlan: annotate lockless use of msti
-f20c44811531d94d3b5be080e50b8f08368e8165 net: bridge: vlan: add missing tinfo.tunnel_id annotations
-9ef138b168fd97da01ebd258283e0f78528b785f net: bridge: use br_vlan_get_state to get vlan state
-3604abae0f368262e8d30dc3480466cb520046c1 Merge branch 'net-bridge-vlan-minor-cleanups-and-annotations'
 4ff75f130d1b84f65a6f35a8a0cbca52130127ef net: usb: qmi_wwan: add Quectel RG660QB
-8cc3aef0cb198049805ecc061a2cc7b79b0ae43e tcp: Do not allow buggy transitions between ehash and lhash2.
-31c5ea8a3296e1486ac34bccea452bfe8c0bb1f9 ipv6: Remove IPV6_ADDRFORM.
-54ffade7149372cc71c20f75c414e8b8c770464e Merge branch 'net-disallow-buggy-tcp-transitions-and-ipv6_addrform'
-32ca12fbcf6bb001a7121112f113ac0380b4af0f mdio-mux: fix typo "framwork" in comment
-4e2554eab15a6ef6030008a411c3208e9cc54a1a mii: fix typo "asymetric" in comment
-fde5a8bc4cc72cc83ec8bca5ffd58dbb7eabe5d0 net: cortina: fix typo "trigged" in comment
-39fdc543a05b9805368e209387a91463c61f6cb3 net: ipv6: fix typos in comments
-bc6fe9d301d59fe5cb236d646abe792bffae5fa6 atm: fix typo "protcol" in comment
 8d6cd188508513503805c156165de38e4e4a8615 ipv6: flowlabel: cap duplicate leases per socket
 4e17b5007b6664559cdad2b2fe270526cf786b5b bnxt_en: Only restore LRO if the device supports TPA
 5ce7f36c334d723954855ac769ede2fe0e8f89c8 bnxt_en: Don't free the live ring's TPA state on queue restart failure
@@ -847,57 +719,32 @@ b814dfbfeb0a68c9a52073f2caa05a2d5247a329 bnxt_en: Propagate TPA buffer allocatio
 8e6a850c0746bb4be167aedf1ee57469fcda09a9 bnxt_en: Propagate RX ring init failures in bnxt_init_nic()
 c0aceaf65b70b3c000e70dd867f3a673015f24ca bnxt_en: Bound SW TPA IDs to prevent crashes
 ae20d47d2678b48905a4d6cfcf2228075327551e Merge branch 'fix-a-variety-of-tpa-bugs'
-3ef961d01c2c082ec55c7c62a3eae3a8d5b97eb9 net: marvell: mvmdio: Handle errors from optional IRQ lookup
 0523d5c52a450590bf5992bd6925394f3cc403e8 net: macb: zero the link settings taprio reads back
 2b6c0e25a3d713c4032e45f212bdd9e14c50f8a0 net: macb: reject an unknown link speed in the taprio setup
 c51fe228121ee32d3a81242119a4195bed027b95 Merge branch 'net-macb-fix-the-link-speed-the-taprio-setup-reads'
-fc785bb90adb29b5b68fb5b6e721352dae52219e DO-NOT-MERGE: git markup: net
-7667869d9bc56936957459b4a95475ca63b40a1a virtio_console: allocate the port_buffer with the caller's gfp
-d3babe3d2e8c7aa11ec466b8f04a6d9afaf8db25 DO-NOT-MERGE: git markup: fixes other trees
-3622fedb18f926fa0dc41dff7e45fb840f425978 mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
-bd7937c87a9e8475941d53dd14d607cfce8cbc5a mptcp: pm: userspace: fix address ID overflow
-39baec58557a53091c57542e0c902347fdf335a4 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
-766f10e1f7599e2734f0402037785f4db17a3a91 mptcp: options: handle MPC data + csum reqd + no csum
-70b80e65a003f981c5fe9042122396714a92fe1c selftests: mptcp: fix an UAF in mptcp_connect.c
-83d2f97e9788f3e3f16440e4076338d9755ededa mptcp: options: fix uninit-value in mptcp_write_data_fin
-291860a6ed5f061ce597c0fe9bf086ca8f0e1265 selftests: mptcp: lib: dump nstat for the right test
-a1eb60a512ec1b073755eb2d17a226d2d90da8ae selftests: mptcp: lib: get counters for the right test
-6a823e9f56189efe1faeb12bbb2b726741699725 mptcp: syncookies: remember the request backup flag
-f9e755f3f1c71ee1a97c1fa6fcc0555bca563af0 mptcp: subflow: no need to copy thmac during ulp_clone
-d1c9250f46599559a095f02fa0940dadd07d528c mptcp: being below memory limit is a likely() condition
-1726018e4f7b7639d5cdcf41b7118de05f954ba2 mptcp: avoid pruning for OoW data
-3479aec28e1fe573d57ab9331414ec37dfa282de mptcp: remove unneeded READ_ONCE() annotation
-4991a0be6c71b932b6b145c6c4ea268636afeea3 mptcp: do not reschedule the RTX timer for fallback sockets
-1a4f3aa102fd40b0d87f08eae48cf50039092a76 mptcp: prevent race between disconnect() and rtx
-e7be08ce8354090a67da3f8e40a868a7807b16b5 DO-NOT-MERGE: git markup: fixes net
-980e9f0f3917a6a7c142872ce045aa2ddf8975bc DO-NOT-MERGE: mptcp: add CI support
-53525c9af37c4bd86d161a5f806ea4228803798c DO-NOT-MERGE: git markup: end common net net-next
-14a79a46a123a493abb756eb9b0d67d90a7b9471 TopGit-driven merge of branches:
-151ab63e7081d5aa4b6d09421e6b1862945b8655 DO-NOT-MERGE: git markup: net-next
-cc3547c0550b89c48de9954b1367556eb8c8fbe2 DO-NOT-MERGE: git markup: fixes net-next
-b238d059c882a080dc002272525368f3a4339fa6 mptcp: pm: init and release mptcp_pm_ops
-950af1ab9fecc09d0d64a9ccb564601a57f4f50f mptcp: pm: add get_local_id() interface
-225dd6d6307c22b0c87164ce84c52239c058dadb mptcp: pm: add get_priority() interface
-724a31c1f8307878e56f58ac0ef7383c486fec87 mptcp: support MSG_ERRQUEUE on the parent socket
-39a93a26cda059ee474f1c8edb6a76bd413fd8f2 mptcp: sockopt: factor inet_flags propagation into a mask
-dac1696c995adf6a14307b24eb4623050fd22c1e mptcp: propagate RECVERR sockopts to subflows
-8a43b698843303c9054208a2e17a8aca6909529d selftests: mptcp: cover IP_RECVERR sockopt propagation
-be3ac7cc6440a4b0020859c8557e3e83f4124ebe mptcp: remove thmac from subflow ctx
-1c33f79ed137fd4ede0d9ce973ce786cd3575707 DO-NOT-MERGE: git markup: features net-next
-b5e68c93cddfe9582944e17f301091b59aaaca27 DO-NOT-MERGE: git markup: features net-next-next
-f69dd52a0ab57ab5a4bb89d1abeda8f29b534874 bpf: Add mptcp_subflow bpf_iter
-10378370fe9aab390b9df17dd4c98f42e727f70c selftests/bpf: More endpoints for endpoint_init
-ae614a6564487dc9a9467a148ba908caef507fc5 selftests/bpf: Drop cgroup_fd of run_mptcpify
-b75abc46f10ed8eb988cb635bf69bbf8aedea55b bpf: Add mptcp packet scheduler struct_ops
-32a07601f2ed2b25067e5a6382e444752e3b354f bpf: Export mptcp packet scheduler helpers
-a14e3d586d2123e6ab2c533aa323e3aa01ab006d selftests/bpf: Add bpf scheduler test
-2d293b9daf095ba2a60859d6affdd03ba36feb8b selftests/bpf: Add bpf_first scheduler & test
-b841ee3d1ebc61243d3afc05ea6352b4b1530163 selftests/bpf: Add bpf_bkup scheduler & test
-eec73ac524c6080366c9fa4eb6787606e985adee selftests/bpf: Add bpf_rr scheduler & test
-f4a5c8f48f89c5220d5e8468d59f8c3675aa994f selftests/bpf: Add bpf_red scheduler & test
-b4bfc4633820674330a11af4a603d5218c90fbb9 selftests/bpf: Add bpf_burst scheduler & test
-3f321e2dd1e0e14b567bb0e5a9767cb9d0438abd DO-NOT-MERGE: git markup: features other trees
-ad7c3c0825196ec5145c4b6a527b686247f60fe9 DO-NOT-MERGE: mptcp: improve code coverage for CI
-baff4b3d06efac18ad9419363585778055ae27fd DO-NOT-MERGE: mptcp: enabled by default
+621925e95f262ffbd12df53a2ad4f9b410bf3b86 DO-NOT-MERGE: git markup: net
+18ea44d464a994f082dde750cbe8b5218487c65e virtio_console: allocate the port_buffer with the caller's gfp
+d1e214e8aae45cfed95870321f63e146f7af3c66 DO-NOT-MERGE: git markup: fixes other trees
+d496c33aec7a5f23319cdd54bf3c1811cb8e9a1e mptcp: pm: kernel: drop pending ADD_ADDR when removing ID0
+4d2805d1c3c0a299403a69ee9366442c02f9e48e mptcp: pm: userspace: fix address ID overflow
+2d25b85253ad566076c47826c99a2293c91c2231 mptcp: pm: reset retrans_time when ADD_ADDR entry is reused
+5d6440d55ecb4b32d1d2e5a35e6d7566d3e066b8 mptcp: options: handle MPC data + csum reqd + no csum
+8959f9a92a03f0c8eaf84757ab9c797f64bf575e selftests: mptcp: fix an UAF in mptcp_connect.c
+82d3654e13c1caacc02ce8771ce65c4c3d4f6e55 mptcp: options: fix uninit-value in mptcp_write_data_fin
+ce4d6dfac7f955875322d8a748033e11350f53d1 selftests: mptcp: lib: dump nstat for the right test
+fd784e085265c05bfe5ce553895a263ada2888f3 selftests: mptcp: lib: get counters for the right test
+59c103d3b9c2dd821f7b3e0fecea6a4c00fa1159 mptcp: syncookies: remember the request backup flag
+761503955b3c2f1908d462d192243392554febb9 mptcp: subflow: no need to copy thmac during ulp_clone
+149b836f9260b0666c8f79ceb70527cec03a5094 mptcp: being below memory limit is a likely() condition
+10f0f5c5a10ca2a7092a45bfcb9e4229bc109eb0 mptcp: avoid pruning for OoW data
+b9590ccf7bbf5f128aaa1163921f9666750830c8 mptcp: remove unneeded READ_ONCE() annotation
+c9f247211c56a9cdef520b60b2bf3858b37d66f4 mptcp: do not reschedule the RTX timer for fallback sockets
+f4ea20b8700370055037ad99dd5dc6c94fc61899 mptcp: prevent race between disconnect() and rtx
+2ebd8f9ac63a6191907e002b1b53522ec58770f5 DO-NOT-MERGE: git markup: fixes net
+aeb5fcda0f62647041e244c51d241909f13c4ef2 DO-NOT-MERGE: mptcp: add CI support
+516aaf8758ad4417e069fb58ef582e942a29064d DO-NOT-MERGE: git markup: end common net net-next
+43c3a5c5b1bc2cfc87ee9dad3cbab4f1bac8a578 DO-NOT-MERGE: git markup: fixes net only
+423129d77602d86cb1c70009d8b22d46f443a76c DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+e7dad0b5a58a5f814b3257c4de878798024b8a45 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============3059804708355476798==--
+--===============4561949572436858442==--
