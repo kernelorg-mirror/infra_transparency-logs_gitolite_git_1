@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Tue, 08 Sep 2026 16:37:38 -0000
-Message-Id: <178888545861.2647702.2249752313071687497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 08 Sep 2026 16:46:25 -0000
+Message-Id: <178888598588.2654975.13378600491793390835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
+  - ref: refs/heads/pending
+    old: 1d8e73163ef933624341075f576e2f36ef9133f7
+    new: bceec294338f4aea2f6a036a3f2fea3bbcb6377b
+    log: |
+         bceec294338f4aea2f6a036a3f2fea3bbcb6377b ath11k: modify null check logic in ath11k_ce_rx_post_pipe()
+         
