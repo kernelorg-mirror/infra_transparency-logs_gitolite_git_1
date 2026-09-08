@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 08 Sep 2026 11:40:25 -0000
-Message-Id: <178886762505.2421398.768215951199959540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 08 Sep 2026 11:42:27 -0000
+Message-Id: <178886774719.2422135.16003256898379728228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 2ce5b29b140bbeab81af79992aa08e62e83a1a74
-    new: f091e60fc986eb12ff632f682848b88da824bccb
+  - ref: refs/heads/master
+    old: 20361d66df4d3f32d5e137fe61a55cdf156c91f0
+    new: 8240bd83788babb6a8a63d1e606dcf3fbfe9bcb3
     log: |
-         f091e60fc986eb12ff632f682848b88da824bccb ata: ahci_da850: switch to DEFINE_SIMPLE_DEV_PM_OPS
+         ec9b02be947f7d106026cee34fcfc0bb3e4a1b03 tests: hardlink use /dev/urandom for non-sparse test files
+         4343d7fb9fd3d7bd03acc77301b92463f583aa9c Merge branch 'PR/hardlink-test-urandom' of https://github.com/karelzak/util-linux-work
+         8240bd83788babb6a8a63d1e606dcf3fbfe9bcb3 fsfreeze: update list of supported filesystems
          
