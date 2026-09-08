@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8062319371436382933=="
+Content-Type: multipart/mixed; boundary="===============8424416084328837062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 08 Sep 2026 21:53:22 -0000
-Message-Id: <178890440245.2886474.11200282472424536970@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 21:53:26 -0000
+Message-Id: <178890440617.2886693.13751002546153963151@gitolite.kernel.org>
 
---===============8062319371436382933==
+--===============8424416084328837062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49
     new: ab217fbb9b2169ce677b09a66558d5c3adcfbb76
     log: revlist-c8ea08ba34f2-ab217fbb9b21.txt
 
---===============8062319371436382933==
+--===============8424416084328837062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -934,4 +934,4 @@ fc73b71c1bdbf293d3fca7158424d6117466d4f8 net: sysfs: factor out link settings re
 5d074ded6714fe44edd10b5f20cc43d74612579f net: sysfs: use ops lock for speed and duplex
 ab217fbb9b2169ce677b09a66558d5c3adcfbb76 Merge branch 'net-sysfs-use-ops-lock-for-speed-and-duplex'
 
---===============8062319371436382933==--
+--===============8424416084328837062==--
