@@ -1,47 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5522382501466598318=="
+Content-Type: multipart/mixed; boundary="===============7172422452542404431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 08 Sep 2026 16:48:44 -0000
-Message-Id: <178888612418.2656200.17004309786144112069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 08 Sep 2026 16:55:21 -0000
+Message-Id: <178888652197.2662336.1869676145498789057@gitolite.kernel.org>
 
---===============5522382501466598318==
+--===============7172422452542404431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 28924df2a08f440c73991b83028032c901de2ae4
-    new: 5acbae5f7eb3d5275120abfe698c394b7325dcec
-    log: revlist-28924df2a08f-5acbae5f7eb3.txt
+  - ref: refs/heads/fix-p2p-acs-v5
+    old: 9120d9be6266b269eb057b7e59938ad4d47f73c0
+    new: 1f798a6d4900da42f6dbe319b4f8c73492b58626
+    log: revlist-9120d9be6266-1f798a6d4900.txt
 
---===============5522382501466598318==
+--===============7172422452542404431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28924df2a08f-5acbae5f7eb3.txt
+Content-Disposition: attachment; filename=revlist-9120d9be6266-1f798a6d4900.txt
 
-2c1dde8a69a3a7d64425a6de0add6e289a5a402f powerpc/entry: Clear TIF_SYSCALL_RET before syscall error return
-c7585b8e99ad97a0f5dd21e45c90a33aeab0d92b powerpc: Don't drop _TIF_RESTOREALL on syscall restart
-c2549d749539487239475fbc8c614a1f9244d655 powerpc: Do not restore KUAP in arch_exit_to_user_mode_prepare()
-ac53977611428db3bc0b4ac0225e19c3e08ae50b crypto: x86/aria - add missing vzeroupper in AVX2 code
-60892a384aa1e65d0e703e1c513417bdf0c80777 crypto: x86/aria - add missing vzeroupper in AVX-512 code
-d96171d911e3b89ca2957c04264019cf2f96287b powerpc: pci-ioda: Fix the stale irq chip reference
-c5e68706527968282e49de205cc2b935823cb88a powerpc/eeh: Fix recursive locking on devices without EEH sensitive driver
-8a4978c17a144a6583478cce933bcb2dbb25298d powerpc/rtas_pci: No hotplug on permanently removed device on pSeries
-c6755be4838d6ccd641effbcdc3d917b82631ff9 powerpc/kexec_file: Use inclusive range checks in add_usable_mem()
-68832eb08751b4ce23e90bd90e9414a465a99da3 powerpc/kexec: Simplify kdump_extra_elfcorehdr_size()
-449f60f99f8f3cbe80a9bd2242945e827c5ed003 powerpc/kexec_file: Use inclusive range checks for excluded memory
-b1824233b19c1dffdb5e81283805a9e52e763caa powerpc/pseries/pci: Fix misleading VF limit error message
-63a7531ca31f9f097d9cc1cc3fe86ae683cdabdd powerpc/entry: Fix irq_soft_mask corruption on replayed interrupt exit
-5ba79d37403d86082ab4083b0f51ec3008a942cb powerpc/ps3: Fix repository.c build failure
-45a5f7285f835adb3b74c9344c09a7bd2c4fb664 MAINTAINERS: powerpc: Add Ritesh and Shrikanth
-7daadf5131ed488037cc4540797e53c7f2c5d3ec Merge tag 'v7.3-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-5acbae5f7eb3d5275120abfe698c394b7325dcec Merge tag 'powerpc-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+dc2b8ec45ec0df8083e8457468bfc37fe43d53d8 PCI/P2PDMA: Route peer-to-peer DMA by TLP class
+5a38e928d38c3f26614663bff735fa8a8447562b PCI/P2PDMA: Document pdev->p2pdma lifetime rules
+22a9bdbceb3bdd2bfb6cc1a3e15ccceb4f9d5fe6 PCI/P2PDMA: Document the TLP attribute assumptions
+67039967d607acf89d4bc43cb7f881165b042076 PCI/P2PDMA: Derive routing from directional ACS controls
+45919349b3b560a13a1b419e0916d7c8477c9b65 PCI: Reject unreadable ACS controls in isolation checks
+4c74aa8b7f09c6154bbb1aed48f1b95a66535508 PCI/P2PDMA: Evaluate ACS controls at the path divergence
+0d5dbdef0b3d73d50d2a8929949c283152850a34 PCI/P2PDMA: Document directional ACS routing
+831424d43d26f30425385c5070fa45ac2e13a477 PCI/P2PDMA: Collect the path's ACS controls before deciding
+b0614384d0c7729f8a872ab1f571ea5bcb7ab225 PCI/P2PDMA: Answer routing per TLP class
+90b41385504847cdd00018689bb87cb74c0cc8dc PCI/P2PDMA: Route Relaxed Ordering Completions directly
+1764dbaa31b3a0ad549ef7ebd2311d373e0b2ea7 PCI/P2PDMA: Reject Translated Requests blocked by Translation Blocking
+4fe24faca93aa245bcd72e7615a0705fec11a5b9 PCI/P2PDMA: Route Translated Requests under Direct Translated P2P
+b28eb9840255c2b294559d3d474485f56b28ce14 PCI/P2PDMA: Log detailed ACS routing diagnostics
+edec0251b2398257ee482f81dfa16ef5e33befaf PCI/P2PDMA: Add KUnit tests for the ACS routing decisions
+4f13a65ed3c18d89d5b2aee88b7e6a782ebbc0c5 PCI/P2PDMA: Test the ACS P2P routing walk
+b76561380862725fc9d993501389692830bb6431 PCI: Add KUnit coverage for ACS isolation checks
+247127077d923bca295f0acf96fcf83fc3e23a9b PCI/P2PDMA: Document TLP-class routing
+6d3c4f37bcb48c6626a416bf0f5cc116b873c670 dma-buf: Let importers ask how peer-to-peer traffic is routed
+1f798a6d4900da42f6dbe319b4f8c73492b58626 RDMA/mlx5: Ask P2PDMA whether ATS buys a direct peer-to-peer route
 
---===============5522382501466598318==--
+--===============7172422452542404431==--
