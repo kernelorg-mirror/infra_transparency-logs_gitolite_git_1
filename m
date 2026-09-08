@@ -1,189 +1,323 @@
-Content-Type: multipart/mixed; boundary="===============1497113918242081457=="
+Content-Type: multipart/mixed; boundary="===============4529593850978754105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Sep 2026 15:32:53 -0000
-Message-Id: <178888157338.2597511.6630310545450267295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Tue, 08 Sep 2026 15:39:58 -0000
+Message-Id: <178888199831.2601661.2134232675079651164@gitolite.kernel.org>
 
---===============1497113918242081457==
+--===============4529593850978754105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7561dab9b6b34c34dc4ed32e5e4e6be263a6e03b
-    new: 46cd38dd9ad34dcff3acf363a2a74942d480d7da
-    log: revlist-7561dab9b6b3-46cd38dd9ad3.txt
+  - ref: refs/heads/board-remove-7.3
+    old: 6a211068a0ac554bf4f3992be2842f054ac32f9a
+    new: aa33dc68184504f2705949b98ecae7ad3f3cd91f
+    log: revlist-6a211068a0ac-aa33dc681845.txt
 
---===============1497113918242081457==
+--===============4529593850978754105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7561dab9b6b3-46cd38dd9ad3.txt
+Content-Disposition: attachment; filename=revlist-6a211068a0ac-aa33dc681845.txt
 
-9012da455ab9a05d8205b90d0ad7c8b526f89062 net: 6lowpan: fix mismatched comments
-ff5891b266a7fc6a062710836be84f1cc19338b5 ieee802154: cc2520: fix FIFOP work use-after-free
-bf79662bc85e820ac3b846e2f347da29fbf6ac95 ieee802154: 6lowpan: fix NULL dereference in lowpan_newlink
-979d5b8de8ed4e1f997aef12da5694b99be7b871 ieee802154: hwsim: serialize pib updates to fix double-free
-2f37fba846c9fdff5fc15b6d93656057ccd13031 mac802154: fix use-after-free of sdata via queued RX frames
-fb3088dc5811a27dcc4775eaf44bd85ade265762 Merge tag 'ieee802154-for-net-2026-09-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
-5bd9e4e7cdaa03879e9b73b12ab52cceb1edd55b nexthop: Initialize extack in remove_nh_grp_entry()
-1746ef2e2df2ad71c66eca56364d56bde284523b bonding: use skb_cow_head() in bond_do_alb_xmit() and rlb_arp_xmit()
-cdb719f4b8596d9ccee2d56d204c2c4dce982f46 net: dsa: bcm_sf2: bound the CFP rule dump by the caller's buffer size
-f1986bf87b0709c95126fe196cf39e5b8c8453a1 eth: nfp: bound the ntuple rule dump by the caller's buffer size
-108bb2142e3a12c9ad625ad662973127a113ddc6 eth: nfp: drop the replaced rule from the list when reprogramming fails
-b1fffc273112e7284c5b705e186b43b5770cd3d5 net: dsa: mv88e6xxx: bound the policy rule dump by the caller's buffer size
-47a582b2b0e7bb5753e4803988e150a405b57f51 ethtool: document that GRXCLSRLALL rule_cnt is a caller-provided limit
-742b94967d55f5e9237dc7ac52761809b6d86b4c Merge branch 'eth-fix-bugs-in-ntuple-filter-reporting'
-4b772869a1e5f9da5cef5b9c722ec0aa424ee0a0 net: bridge: mcast: properly convert mglist to rcu
-1f29543126dde307e8b5fb6a740c54e59deaa2ff octeontx2-af: mcs: Clear stale X2P calibration state before calibration
-c91b4d6e5cc30ceea3f23ebe29aec012709a065f ionic: use netif_txq_maybe_stop() in ionic_tx()
-78a86d75a70e1e227711c72865c59b1422d0a5ae net: mpls: clear inner_protocol when the last label is popped
-5d50e90add8b4a978395e893e81954d19d58a7c5 net: usb: cx82310_eth: drop URB after 0xffff reboot sentinel to prevent partial_data heap overflow
-1668a31e3b1ad358d981ddb6dbd3db1fe0533621 dibs: Unregister dibs_class after error
-907a56ab3eb8a58500a58daa76087f17bb2b6826 s390/ism: folio_put() after error
-98fc57d167446b95b4e719815fe79edef93f8e7a vxlan: reject dynamic fdb entries that reference a nexthop id
-66ab4c59b74db7ab53a1c9083feaaede393a96a0 net: cap tx_queue_len at S16_MAX to prevent oversized ring allocations
-1aa9e143bf51405665a793d4cc925e1c4f0c5922 net: reject oversized tx_queue_len at netlink parse time
-0a7252d7f85478080385de4c1072085e30849fe3 selftests: tc-testing: add tx_queue_len cap regression tests
-6262acad9db197b5ed12e3b245d2e6d0c80fb960 Merge branch 'net-cap-tx_queue_len-at-s16_max-to-prevent-oversized-ring-allocations'
-7980325b2f71e3f65c1323c39792e2455da6fab6 pds_core: fix cmd_regs access racing BAR unmap on reset
-73608de7e59246b4b533c1ffaee158a7048e186e pds_core: don't release PCI regions for VFs on reset
-db88216424a37e9209bb7834453c568e7f4604f5 Merge branch 'pds_core-fixes-for-the-pci-reset-path'
-80dd7e754b3aa9637a0758ad93fa209f9650ec48 net: mana: Reserve extra CQ slot for the fence completion CQE
-2b4707a149a55e8fa75c9ef32b359d60f470a566 net: mctp: i3c: serialize probe with bus removal
-e6662f2100f8d33b0f4d0047c219efd6bba186ea net/sched: defer qdisc freeing after failed creation
-802eedcc0b25bb3e1b492f0600ab74325274d53b net/mlx5e: Fix missing FEC mode mapping for RS_544_514_INTERLEAVED_QUAD
-b9d755c5a37519fb1354034db1dfeb30e1ba6856 net/mlx5e: Fix setting RS FEC after remapping
-c84ce45a7a3f3f024502c7f53308db9c76e4ae71 net/mlx5e: Fix reporting support for all RS FEC variants
-502381cf7310a87275897a5a0a0a2e628179f00e Merge branch 'net-mlx5e-rs-fec-variant-fixes'
-b3c79dee5038c5e8460c59d7d01cb1450bdf5ecb net/mlx5: LAG, use local tracker to update active ports
-e7ee89740800a1cf253713e9249c3ee9203ebe91 net/mlx5e: Fix ETS zero BW reporting when one TC holds 100%
-af3aef0245abbab5e9f6302e7a7d6407187afb71 net/mlx5e: Fix use-after-free race in sample_restore_put()
-7ee07f601f8f507c9faf25c68a49396ab8950596 net/mlx5: E-Switch: fix use-after-free in mlx5_eswitch_termtbl_put
-c0c6f4ba8a37688f7b4d4044898d88f0450d44c2 net/mlx5: E-Switch, prevent mc_list repopulation during vport disable
-df99553f840e4c529c1ba4c29bd39396466ca11a net/mlx5e: Keep HW timestamp stats monotonic across reconfiguration
-094cc07f98dfe70a34e2a1923af17fd29b8cf622 net/sched: fq: clamp quantum and initial_quantum in change path
-4864f58c53eb47257d55e01f47d4a9f355f7f970 net/sched: fq_pie: clamp quantum in change path
-fb9f88a33c516ea5c0bcd9a22ca288b246b34567 net/sched: sfq: clamp quantum in change path
-eb56a495f59baf6cad5ed80e3ffb9078098b1346 net/sched: hhf: clamp quantum in change and init paths
-3c01f1ca5dfc6d6911b0e5b37f5062b1dc451b94 net/sched: dualpi2: clamp psched_mtu at all call sites
-54370e44c002770ae61fc889f28f699e91616ffc net/sched: pie: clamp psched_mtu in pie_drop_early
-8382abec0f1568d0a5590d75a3df92f23fcf5196 net/sched: drr: clamp quantum in change class
-1c38487f46b243bfeefec0c0c86023a3904f2214 net/sched: ets: clamp quantum in parse and fallback paths
-8f0229bef3cba996bd40e40aafc512150016b696 selftests: tc-testing: update ETS test 41f5 for clamped quanta
-e7c93ad4bd51d2c38da48dcdd8ce27bfb2c3771b Merge branch 'net-sched-clamp-quantum-psched_mtu-in-change-paths'
-38b6be101006d3e7af972999f45d4f1e8250587a net: macb: fix NULL pointer dereference on unbind with fixed-link
-74f27fc8642b7e8d139796f8c18ee46df393c2b2 s390/qeth: allow bridgeport queries despite OS_MISMATCH
-94fd4debd2e3a69cf93e766c8b328a810c228119 af_unix: Update last skb marker in manage_oob().
-6e5ee08eb5858d175da6768d75d163817b6a9d4a af_unix: Return immediately when manage_oob() returns NULL for 0-length buffer.
-ca0b0a86873e8ded39b7fb196dbdc615d9a9a0e4 selftest: af_unix: Add zero-buffer test for msg_oob.c
-dead0c41db3f2acd39cfdb469a83472af6f1fb6e Merge branch 'af_unix-minor-fixes-for-msg_oob-and-msg_peek'
-b83641e0ab8b20eefcc4cdc5a059f897375291a2 net: ipv4: Fix UDP length overflow with PMTU discover and big MTU
-0ae10b6be49b425827659b23bcce498f80eb7182 net: ipv6: Fix UDP length overflow with PMTU discover and big MTU
-18a9a4342136c5ae954b37d961c374d369615de2 selftests: net: Test UDP length overflow with PMTU discover and big MTU
-199271ebc71c1e0913b2fad988a7bff330a8828a net: ipv6: Clamp to IP6_MAX_MTU in ip6_dst_mtu_maybe_forward
-7473a66d3af33a4f01ee8dba34e257da95361f04 Merge branch 'fix-udp-length-overflow-in-edge-cases'
-4ff75f130d1b84f65a6f35a8a0cbca52130127ef net: usb: qmi_wwan: add Quectel RG660QB
-8d6cd188508513503805c156165de38e4e4a8615 ipv6: flowlabel: cap duplicate leases per socket
-4e17b5007b6664559cdad2b2fe270526cf786b5b bnxt_en: Only restore LRO if the device supports TPA
-5ce7f36c334d723954855ac769ede2fe0e8f89c8 bnxt_en: Don't free the live ring's TPA state on queue restart failure
-b814dfbfeb0a68c9a52073f2caa05a2d5247a329 bnxt_en: Propagate TPA buffer allocation failures in bnxt_queue_mem_alloc()
-961e2a17c5e3559b3f8654d2daabdd25a42e770a bnxt_en: Handle buffer allocation failure in bnxt_rx_ring_reset()
-8e6a850c0746bb4be167aedf1ee57469fcda09a9 bnxt_en: Propagate RX ring init failures in bnxt_init_nic()
-c0aceaf65b70b3c000e70dd867f3a673015f24ca bnxt_en: Bound SW TPA IDs to prevent crashes
-ae20d47d2678b48905a4d6cfcf2228075327551e Merge branch 'fix-a-variety-of-tpa-bugs'
-0523d5c52a450590bf5992bd6925394f3cc403e8 net: macb: zero the link settings taprio reads back
-2b6c0e25a3d713c4032e45f212bdd9e14c50f8a0 net: macb: reject an unknown link speed in the taprio setup
-c51fe228121ee32d3a81242119a4195bed027b95 Merge branch 'net-macb-fix-the-link-speed-the-taprio-setup-reads'
-a0de06d0da78a3db53de65dfd7452cc6d111f703 net: ethernet: cortina: Fix budget accounting
-baa26841cb9a2cdc7e0e99d6854a4e3359bf7393 net: ethernet: cortina: Finish RX updates before NAPI completion
-b856c552f556bc0341c1dbe0bf88e630fd1dc4b7 net: ethernet: cortina: Count dropped frames as NAPI work
-6520198c430c81bcc367f0dd5e32f2fb740b9d51 net: ethernet: cortina: Count RX drops once per frame
-e89e88ad41d9f31c829c2af39c48313e8e48d5b0 net: ethernet: cortina: Count RX descriptors for freeq refill
-e0554c6276da957b6e72849520c70a97404cd1ae Merge branch 'net-ethernet-cortina-fix-rx-budget-accounting'
-278cb20359a17f908ce42a411652ca7143f9fa46 ice: use reference counting and RCU for PTP port access
-fc30ba660813c1858076d154b85317ed2eb8df56 ice: fix removal of PTP timestamp tracker during reset
-afab18a082a244aa540e106ec618e5ade0dd33f5 ice: set in_use only after preparing Tx timestamp index
-cdb0ff1556f1fcc68712fa04b8f1e5f1a68e33d4 ice: E822: keep Tx timestamps disabled during offset calibration
-0acf3b2338767589b9b9eb62753926ace1241834 ice: E822: cancel offset verification work during reset preparation
-69be12771c41e1a6d2c63a93073381f5dc41ff7d ice: call PTP link change only from link events
-4bbef5889000350eb1f00458fd2eeb740ac401e2 ice: E825: stop clearing PHY_REG_TX_OFFSET_READY
-06f0ae59f4133c12bb2350440d65cc41af36734f ice: E825: clear PHY_REG_TX_MEMORY_STATUS prior to soft reset
-6371be722a3649537dd2bb19a00115e44a5404a3 ice: E825: perform a soft reset when starting the PHY timer
-99107f3bd8118ac9e41d40e1481ed06413a79f7b ice: wait for in-flight Tx timestamps before flushing the tracker
-dcdc121c762dead17238b98b0607a4ba8deb5ddc ice: keep Tx timestamp slots tracked until completion or timeout
-05b82535f294870d5f9c08d5442fe97e55a5fe3a ice: remove unnecessary discarding of timestamps after clock adjust
-4831a3abf3c6de45e98816d8c900e920203fae91 ice: skip reading Tx ready bitmap on ports with no timestamps
-46e5f0ca52bffd5fdda2ffc6d8f1981df84ddcab ice: don't clear in_use until HW clears ready bitmap
-237b08ced86a4a38c6317ab227b25f8027bcbb59 ice: Fix enable_cnt imbalance on resume
-9cc9ccceb6843ff313e89a1c36d13d0ac6ee0525 ice: Fix enable_cnt imbalance on PCIe error recovery
-8ee0368c9d70cfe15232aa5ab9cef50465fc7dfa i40e: Fix enable_cnt imbalance on PCIe error recovery
-8b51172f3a9ad06212372708429cba646a14fbb7 ice: fix FDB deletion
-0a5ad436ad322bdb26cec15ecb6b576e9e615628 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-5f8fc2ef0e9788c9ac3daf43442b228bfd18fbcf ice: fix asymmetric pause negotiation reporting in ethtool
-f19327dca5e2376499ee25b9af038716ba90a5c7 ice: fix autoneg disable when link partner doesn't support AN
-313aa8e576d964d016a6a01b25246751b67c1ce4 ice: support RDMA on 4+-port E830 devices
-722c2c3594d90d620f5a761882ed32ecfe6ae50f ice: report EIPE checksum errors to the OS on E830
-fc73b2f5556e26bb8bbb323139bc9fc4983e7008 ixgbe: fix SWFW semaphore timeout for X550 family
-abac78eeb682e5a9fd0f3d31e7cc8fd929a86360 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
-e39676cf50bdcaefccb85527497beef1474dbc2c ixgbe: fix ITR value overflow in adaptive interrupt throttling
-4aaca04c9d42802824c73584789c805595bdba8e ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
-88d6d546adad4c22410cb4b9a90dd6cef00fce09 ice: only free LL TS IRQ when the handler is present
-42b8387862607b13847101f87e122e7f96f5ff09 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
-2678af2c6bd4fe362391b109ce0063f13639a057 igb: Return state in pm_runtime_idle instead of power-down
-323b74ec0c0f7fba2e1d960747ada6c129a34792 iavf: cap advertised max_pkt_size at the single-buffer HW limit
-a022fd3c92f815ec92b02e5760eb5a20c07c569c igb: only strip Rx timestamp header on the first buffer of a frame
-edb82878e08c94835bda7daeea51bba8c5fe0420 e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
-e5576adc3b561dbdf10229f6f5a7c23d392be2c3 ice: use global queue index in TC to-queue offload
-74c09dfad1d89bfd2a30f1f6f87929ed94795035 igc: Fix RX HW timestamp reporting when NET_RX_BUSY_POLL is disabled
-ba517db685e1760459e2fa2f41817f68ac85d433 i40e: unregister netdev before clearing VSI on reinit failure
-ef198049b13fa2c56286fae791e845734275954a i40e: avoid null ptr dereference in i40e_ptp_stop()
-c6aa1178ff4246caf6947f678d371f6595287662 i40e: make ring pointers unreachable before freeing via rcu
-f8f4c518fa91917b36e78483856d85a4bb24f9ec i40e: avoid deadlock when calling unregister_netdev()
-b9b17317509d3712cebcd4a2c8c1e7eede123410 i40e: fix potential UAF in i40e_vsi_setup()'s error path
-5bb2367b880065e4ac6a230e16a770773e8b3a00 i40e: do not expose netdev too early
-ac4b459b523289f3e16080fa2839c86c46bdc3b4 i40e: keep q_vectors array in sync with channel count changes
-6bbb5f6bbef2db111dee54de01ab7b2ac185bfb2 ice: add missing xa_destroy for sched_node_ids
-8f0c9282abd062a5bd3284117922898fe4046e9e ice: skip per-VLAN promisc rules when default VSI Rx rule is set
-0aa4d1f6db081a4ad800c126cedeb7abad4bd916 ice: preserve uplink DFLT Rx rule on switchdev release
-3c1ce66d9a85d7abc3256db78a98686e2fe8ca38 i40e: fix set_ringparam error path freeing live Tx rings
-3dcea976459696673230c1c2bb3e210bb6f16c12 ice: fix use-after-free in dynamic port cleanup
-281f8d7df1c642e10ad2136b8f360d183c349bf8 iavf: fix ASQ command buffer leak on init failure
-7ae263a0b1504113d19323fb4e2c5ce5c1bec694 iavf: fix QoS capabilities memory leak
-b832779eca0775d653a69bc018521cbbb9a517f0 ice: fix empty PTYPE set for GTP RSS profiles
-6c119cdbe9a1804e5e20863e77cb6a2c8964d82b idpf: disable DIM work before freeing q_vectors
-c11953564b158033625384aec0c07d5f3f4b9d88 idpf: disable PTM on probe failure and on remove
-63d4c15d0af51738a1fc4277d26e2367cc598fd8 e1000e: Fix out-of-bounds MMIO access by validating BAR0 size
-098ae9dd1b32378daf3f9abcfe377ba073f18258 igb/igbvf: disable work items before device removal
-66c28b9ee7116c77bf2deaaee125d3611a1e617d i40e: xsk: fix multi-buffer XDP_PASS skb construction
-a4d5787cff49a16d27250d40a075ebfa9e40acad iavf: fix VF stats not updating due to PTP command preemption
-bfbdb4c3af7d4806917735e45f793015f99533d5 i40e: fix napi_disable hang in i40e_down() during firmware update
-f73ae4cec527dd4ef4c6c3ce25c4618ab70da95f idpf: account for VLAN header when parsing RSC packet header
-d248b0faa74d6542ca8c14dfd166eb4b03e52343 ice: Restore Ordered MMIO Writes for Tx Doorbells
-c84c0cc762868d927c0d245b2d79cfae912138e8 i40e: serialize Tx timestamp skb ownership
-eddf4916f291b15d2ab69ad1ec4ae225a52e217e i40e: serialize timestamp configuration with PTP teardown
-5cf15cbb30fd4405ba7e56f24cba54ef5d0ddedb i40e: synchronize reset recovery with device removal
-0fd0cf5cfa59aa97c741ea9c4a9ed7229e50040c i40e: replace reset polling with wait-bit synchronization
-de78cb144699a6d6897f53bf2e028f4b58d5ec0e i40e: fix races in PTP external timestamp work handling
-1ec95b69419153435f51d5fe966a3d193d479111 e1000e: fix incorrect modified flag check in e1000_read_nvm_spt()
-f33447663dc82cce2945693c2a474602b7603172 idpf: fix possible race on remove during a reset
-c2a40caecb2159bdcf57be900841f44945e09799 ice: Fix incorrect LLDP filter assumptions
-fc2f1c9129d56157091a0e3c5e98d38af8c84a77 ice: Recalibrate PHY after settime64 on E825-C
-6af06f885218e14b8c679d9d2f6761c378fe4c26 ice: propagate ETH56G deskew poll failures
-e6473c310389ca31bf0b076b455c489cbd357c5f ice: fix metadata_dst refcount handling on representor teardown
-aca5dcc989a09456eb9103274c69cce0800c08f1 ice: allow reading the last byte of the NVM and Shadow RAM regions
-553d095d6a825b2ecc0a3bc3a9fa099b0ff97d06 eth: ice: don't dereference pointers from TP_printk()
-755f3c2843e76da3451c50606999729cea189a04 i40e: fix set_ringparam error path freeing live Tx rings
-eae57089c58daf4b4d45abb2fc9ffd09028f2a6d i40e: avoid resetting BQL state when freeing temporary Tx rings in set_ringparam
-a4a71ce0f9cbc3cf70cf157441e6f09f5a4610fe ice: fix bound parser hash offset before reading packet data
-ea68c7983ab00b4f90c2195523bb3f3e44af1004 igc: only strip RX timestamp header from first buffer
-19e81874becb701fba8b09eb1b458caf39299360 ixgbevf: fix link speed reporting for Hyper-V E610 VFs
-46cd38dd9ad34dcff3acf363a2a74942d480d7da iavf: add missing PTP adjustment callbacks
+9d30e11b3c3b588bee627ca326495bac78e0b216 ARM: remove sa1100 platform
+f0f120b6146c14de927b2e335ba6f889ac1d5e31 ARM: remove footbridge
+7953054fadbf04b45b297b0cab6b1db08c852d0c ARM: remove riscpc
+416ee9481fd331c9ff19cce4422e0ba072eba438 ARM: remove legacy pxa board files
+6e9a41bd9a41f8db0f333c3f84e36f5d86beafb4 ARM: orion/dove/mv78xx0: remove all board files
+3df52fcbe769e0037e49aec076e646666c9ce2bc ARM: omap2: remove omap24xx support
+ae6b8ad57b5deda0daa6d2f662a6b5eebdf7ba32 ARM: imx: remove i.MX31 SoC support
+e15292e2354f1ac5319a7082a1af5c3fca15d0c0 ARM: imx: remove nommu support
+52bc8cc323a6940b7e787b3864b6ff52290f2730 ARM: lpc18xx: remove entire platform
+82393f1233110f7061ee8639d3ffe732606fd812 ARM: stm32: remove stm32f4/f7/h7 MCU support
+81a38b15b8cb559eb82015f90afacf34327fa910 ARM: versatile: remove mps2 support
+a4ba625b5fd75ecb4ffe60aecb3f59ea48c63fa9 ARM: at91: remove samv7 support
+ef658e07f8aa3b511120e3c0f06a882e3c985c37 ARM: axxia: remove entire platform
+cc7268e09ceeaa100d701c4401afacbd96aa342d ARM: remove ARM1136r0 support
+6e64bb7dc1e438cccf6d5d3c578029854adec263 ARM: remove StrongARM CPU support
+588354aaf1bc6a2e0e3cef0f63eb58f9981e4c7d ARM: remove classic NOMMU CPU support
+7b40d77b56b5cf4791c4a5a4aff0dfc18243b2a3 ARM: remove ARM10 CPU support
+9899d7f3ec1a504d55b6f14dbbf69c594d431846 ARM: remove CONFIG_CPU_V7M
+8179d0954d474dd0ab1762227aaf724837ba3e7b ARM: remove nommu support for classic MMU cores
+a86c20b1c16d8c82dce63872dbf1d7e1a06ad23f ARM: remove remaining nommu support
+640bd958bc578d35b3394bf34108eeef41f7e6db ARM: remove OABI support
+ff375183fe225b79de700f004181405ff6a739cc ARM: remove nwfpe floating point emulation
+087906c28dec80ad95b57d8444ec9956c3d1eda0 ARM: remove ISA bus support
+4fad69b11b3025f82d95c80fa44e02bbb30c347d ARM: remove CONFIG_TLS_REG_EMUL
+8a7599ad290a063a7867f1d40feee5247b6d1156 ARM: remove unnecessary CONFIG_USE_OF
+d51e28a3931f70f5696285d5b9c758dba1c2ddb6 ARM: remove deprecated params struct
+e077c1617d383ac9326e502a83a8cfaf119ec0fb ARM: remove iWMMXt support
+78386ca2b52470e4bd1bcd04e34a0cc95f3e40f0 mfd: tps65217: remove pdata based probing
+3774078657ca4fdbed50e49dc86a0c24375f1d44 mfd: tps6586x: remove pdata based probing
+b01bc7991fe6d657311a0063633a7c8ff996e4f6 mfd: tps65910: remove pdata based probing
+341cfeab06e7effbb185cbfcb9b921987721b8ae mfd: tps65090: remove pdata based probing
+9ab3a671ae2560133a2108f98d7e669fc6c17137 mfd: palmas: remove pdata based probing
+5fc84eacf089a7888af403f2e85e81bf2d1d1e29 mfd: da9055: remove pdata based probing
+17f25ad57a974870fcb07159ffd4cdf51354770e mfd: da9150: remove pdata based probing
+3f29d095894b3edb051274df70ec734245e5a1e6 mfd: da9052: remove platform data probing
+1e69fed140f8fcad28fd10b2a1e831f21571fc3f mfd: lp3943: remove pdata based probing
+5a43ca3e2c9f20e995954fb45a44ac1dcf738aa8 mfd: twl4030: remove pdata based probing
+cf15ce76a466b2b671dcd29244450bb6b5e72673 mfd: mc13xxx: remove platform data based probing
+90c476f61ddcb4b704076698a7ae9cab83a51bbc mfd: max8925: remove platform data probing
+be43a56b50f5e7f9a829fcf31c6061f13ff7fee4 mfd: 88pm860x: remove pdata based probing
+3ff170a91b21024e0f1b60f1e7f62007a02d81a3 mfd: as3711: remove pdata based probing
+f074a0cbd2ba6f7ebc207590def329488f495581 mfd: max8907: remove pdata based probing
+961566d9d904cf8dcf7956e608fad3ed07772e5c mfd: max8925: remove pdata probe support
+fb72a56367345a0b521d3f1643bb61cb2da6139a mfd: max8997: remove pdata based probing
+8bd7ff33cac36d814608a0f547237d4f97276d9e mfd: max8998: remove pdata based probing
+3d0b9ecd00e0602a85df91ad35903a82b9a8d9d2 mfd: max14577: remove pdata based probing
+9a1427441b68547bfb174beed8545f57988a2f20 mfd: sky81452: remove pdata based probing
+6b697af661718698ec2a2608ef26cda233584134 mfd: tc3589x: remove pdata based probing
+8dd68a0d616145a0a73471302f3fe4fac01f200c mfd: omap-usb: remove pdata based probing
+fb8b8629d5de6c81dd4709682436163b00005a0f mfd: remove unused 88pm80x driver
+45bf3ddeff6460fddc6a5029c187fd37d844e40f mfd: remove rdc321x southbridge support
+dfa5c641cc00087764b76181703302367777995b mfd: remove unused mcp-sa11x0/ucb1x00 driver
+84ca43e7d70807f49f3f70503d86c493563f01f1 mfd: remove si476x driver
+2ca86e71b7dd7930dee4b2ea6ef294c77994cbd2 mfd: remove obsolete wm8350 driver
+f89056c6d1f68cc98cd92be442b44fe35d85e533 mfd: remove unused wm8400 driver
+74da4d1494adc04ce5feb9ace355df2c86ca77a2 mfd: remove unused menelaus driver
+2c8abc9f2a9913d6e7675e2a1bd063e3a42f1e39 mfd: remove obsolete adp5520 driver
+338018f30c925e73d54d00604a921c932c7363a9 mfd: remove unused da903x driver
+eb230496cef6b94b41ab5a3e1bd20ed2a88568aa mfd: remove unused lp8788 driver
+0f501d8df69ada63684f7bea497f45e411830590 mfd: remove unused aat2870 driver
+3158049ecd52e4e73d9fe56b81a5f5742a9abac3 mfd: remove unused lm3533 driver
+2d35abb84ae7ad6ea6cf3ceecaa7bd0032afe9bf mfd: remove unused rc5t583 driver
+42d6e002a8f0fa4a370bd88e675fd3831db047f1 mfd: remove unused iPaq micro driver
+971290c54a3de1edab1534f349d7667379771ffd net: pxa168_eth: remove pdata based probing
+c644d9d7ce07eeb2da84de665cd1c8854c110e6f net: smsc: remove neponset workaround
+f7f438ee38cf2aa77348af03e15d058159bc130b net: smc91x: remove PXA workaround
+b65b1ff593747750f9d71f761e95b951d6cb68ad net: stmmac: remove lpc18xx front-end
+7d58a082d547b91955fd91c2c0c07ea2d1a0970c net: i825xx: remove ether1 support
+c52e0d8d474463db9d2bede9a220ffbaf3251e69 net: lantiq_etop: remove unused driver
+d38b56d673223ee47c177f47e67bb04fb01f4651 net: 8390: remove arm etherh support
+16b8aed73b4b65818901071973effff98586ac01 net: seeq: remove ether3 support
+de449d719f54418d63acc0f8e5e68bdda3feee68 net: sxgbe: remove unused driver
+d1f646df94413b5a5c531d4d63bb997ed6223829 net: xilinx-ll-temac: remove platform_data based probing
+59ab8f64a79a5564af99bee71d0c90c59606d078 net: wireless: brcmfmac: remove platform data based probe
+d7408b9378aa7f1807bfa71bda5f8f832284680b net: wireless: cw1200: remove platform data probing
+03c136e11700eec5e08bf9b300be85d43209209e net: wireless: remove orphaned cw1200 driver
+7652324633490880f6144d74e7d677693418e33d net: wireless: libertas: remove spi interface
+67417e8080efe26acde576163f922c4a327f5111 net: dsa: remove pdata based probing
+6686213054f98ee24933b1a9fabb98b0f44fd18c can: remove bxcan driver
+a494d22af78e7bbf3c8109033014d076dbbc08a4 can: cc770: remove platform_data based probing
+6e355155df9f75126e11152f33301b546a17f056 can: sja1000: remove platform data based probing
+90bafe3cbba8d997a5aa84b7c5ffec23f344623d scsi: remove unused arm/riscpc drivers
+6d7efff19b6bb5e46653ed7d0705f89c5273e3e2 fbdev: remove unused acornfb driver
+8dc377d621140a811ac31f538c3e4153446c9887 fbdev: remove sa1100 framebuffer driver
+ed40671137cef8dec8a4b7dbf9921613a8fb13b8 fbdev: remove broadsheetfb
+824aeb9ad77cab779eaac2909c491840f4451069 fbdev: remove unused mmp framebuffer driver
+5ea29da900f987d22884fed19e953665d73715fa fbdev: remove pxa168fb driver
+15ab7665e12c29a0206bc0669aa00d4ac190d323 fbdev: remove i2c support in cyber2000fb
+c37cfd0ccd26a9146282d09f1e783840cc04440f fbdev: remove unused drivers
+d87bcc8a4ac4f18e951768829937ef0b15ca07c0 fbdev: atmel: remove global header
+4936035779d642be8226677eaac9be0dd0b4eaff fbdev: pxa: remove pdata based probing
+a4df95941f9a8ed5afe958af03402755f1dcc790 fbdev: remove fb notifier support
+03aca7ecd0b8fdf748d297a030b12d1c0d744e9e serial: remove sa1100 uart driver
+0d579a2b18b530f33bed883fe355c595e783538b serial: remove 21285 uart driver
+72b68615f47463fcfa49276225fa7c8eefa22d72 serial: mps2: remove unused driver
+4d844dd0e9578a7be2db81180d5d901756534ed4 serial: 8250: remove acorn driver
+09902aac321f0192973790e13e135d1f7851d201 serial: 8250: remove lpc18xx
+041002855780abd864e4575f92668100da660bd0 serial: altera: remove pdata based probing
+f22cd1a310661e8a719c6c0695afb755d9feb6f9 serial: omap: remove pdata based probing
+2a4cd4d3ad093eb26ad614699546abe76dd5043d ata: remove pata_icside driver
+5d6ce0feb16bd4885ca5143b75025605bfa683df ata: remove obsolete pata-pxa driver
+0ede7ffd964107490425cf312ef0adebe8a8d92a ata: arasan: remove platform data based probing
+4594efb01eee7fe32dbf61126294c6e2b4f14abb ata: sata_mv: remove platform_data probe
+27f43c86ba132e5ed16ab6780bd63d3f02d35e03 hw_random: remove mxc-rnga driver
+a1af6581973460585aace7cf1b9f76d4a63b1c6a char: remove netwinder drivers
+a2f1fc6f8d4d365a23132d768be3d38035843013 pcmcia: remove sa1100/pxa host drivers
+bf0305e9fe75f604e706449902b1991736ec0314 cpufreq: remove sa1110 driver
+43287dba2b226e84067f6fa7d2f2f8a45b5322ef i2c: imx: remove pdata based probing
+f6707c4e7c7832316d1ce08867cbd0577e0e81a5 i2c: remove unused stm32f4/7 driver support
+5b3e610a6c077e34d3170c388a6a261cd9441c3b i2c: remove unused axxia driver
+75aa7c65a40d11f526803016ed3d5660cf2a3b83 i2c: remove lpc17xx driver
+bf6d2305a342a3fdd65da9e38858cc421b8c5922 i2c: remove unused acorn driver
+d2f8cc39bafc2a47a6b8ecc4aa4cc2673ca68389 i2c: pxa: remove platform data based probing
+08505bd5588f86ff68df48034ff12f093842cc8a i2c: mv64xxx: remove platform data based probing
+a2e08f5901284a2ee961fcd295eab62d69f02837 dmaengine: remove sa11x0 driver
+0fa9e02935e9d2bef2a5e54d2b1997203df470cc dmaengine: remove unused lpc18xx driver
+87b1fea1550be4ca581c3028b44a068d96db34bd clocksource: remove unused mps2 timer driver
+651b2f7a113d5b45bfc7636bcde6b1eca006d6ae clocksource: remove unused armv7m systick
+0820977fefecf2b225da6c736b44295d7453d838 clocksource: davinci: remove pdata based probing
+8e2453d8abb7de46a85c617b0837bd8755b96ca8 clk: ti: remove omap24xx SoC support
+5a78924d1f5af9e779d41eafc9ba11b2fc7a7c67 clk: remove obsolete stm32f/h drivers
+79073455fb87d74116fe6d38477290f66c364228 clk: nxp: remove lpc18xx clock support
+3f36d638e200331821c7c128aa5189aa11defbb5 clk: remove unused axxia axm5516 driver
+db8715a81290782a46fe61748c1a79da471d2c08 clk: remove unused imx31 driver
+d4febb145317fc60910056d04e3e90a4cc86a321 clk: remove unused imxrt driver
+1469a678697ad5c2265c94ff7aebe4b7955c6c0a clk: davinci: remove pdata based probing
+4bdad3235ef38f45362183540f8ee3ec1394a0e1 clk: si5351: remove pdata based probing
+8d397cefcec626b98660690167b267e39ddc1c01 gpio: remove unused lpc18xx driver
+d458ca24a72d0c7e02dc486e108ed44b05bbf287 gpio: remove htc-egpio driver
+91ebef7012e77c546881db4dcbb421d10c06861b gpio: remove gpio-reg abstraction
+b1ca339c3c0c041ddea6fa02a5eb996ec8d87087 gpio: remove unused rc5t583 driver
+85011a0805a9dd0ad62cab38ff529646b49092d6 gpio: remove unused sa1100 driver
+705888593b281c2dd5ac1994073b96c281a6228a gpio: max732x: remove pdata based probing
+97d151271576dc18dd99dc6108988a7cc56c1a67 gpio: pxa: remove pdata based probing
+116679edf968aa301050115a6b9d6d03d3e4141b pinctrl: remove unused stm32f/h drivers
+9582b34270fda4d048d7e6db8da4207289760152 pinctrl: remove unused lpc18xx driver
+10978fa9e59148c9bcceae9ba8e35122ac0f62ae pinctrl: remove unused imxrt drivers
+ba576d62fd2d882d15d00d82410c06af5516b3cd irqchip: remove unused stm32-exti driver
+70e6afe9d0b501666797ed8623718e4de08a7cc2 irqchip: remove unused sa11x0 driver
+dc91b16468ab3cdf70a6ab9419a1c151196590b8 irqchip: remove unused nvic
+fcb825602c38c1ab3956351a71b4dada558488c1 spi: oc-tiny: remove pdata based probing
+8d75a03a800ab7ecc941f7c776857995fc55ea9d spi: remove unsed tle62x0 driver
+f04dcc1a3edf0069330778b6de263cfdc55a941b spi: sc18is602: remove platform_data based probing
+acba78e0d501bb43ebb487254c734a4dc7a91892 spi: davinci: remove remnants of platform_data support
+bd12f7cc5ba8fb6df9f0890959381073cc808e8a spi: omap2-mcspi: remove platform_data based probing
+97f1e3559d285a8ff59af1d4fd8fde52b2be2e27 spi: mt65xx: remove platform data probing
+8453d1855d8ed6f7b0f598130184b141faee2089 regulator: tps6507x: remove pdata based probing
+537067b953db8f58f88d991d489c2c9428481112 regulator: isl9305: remove pdata based probing
+134f9765b7024c98b03fd1c940d69e9e6e3cf348 regulator: lp8755: remove platform data based probing
+fa93d632963be8042b039c0d860cba4b51c7ab20 regulator: remove obsolete platform_data probing
+002672b35fe04cd45756f0bd813a8d40d6baa40e memory: omap-gpmc: remove platform data based probing
+24154cc46e75009aaf48595a0ab069111c2be94c memory: emif: remove pdata based probing
+d1381d7cf1c65ca62c9c3267ca72e6609fe241c7 misc: atmel-ssc: remove legacy platform probe remnants
+00bba3394680e5e281947b88eef4039472de8d06 misc: lis3lv02d: remove pdata based probing
+e625876c578d5a779ce2f231ddaf7fa4eb1c79f7 misc: remove unused bh1770glc driver
+632c8ce2c9e43f09fec2eb22b87bfb3ab32d9aeb regulator: remove max8649 support
+7bda152c7a295b5ed3b881ac793185c854032765 regulator: remove unused lp3971/lp3972 drivers
+2ae017cfe7dbb05625541c25bca4339cf049056c dma: ti-edma: remove platform data based probing
+5f2c2e148f7045fe29051bb2ca472a79f8d0f711 dma: mv_xor: remove platform data probing
+38fdbf5f8138814ce4fde553d3b54ec57d3f6bb2 drm: shmobile: remove platform data based probing
+878346d26c69f173919a61f34171b66ae9ada1da extcon: max77693: remove pdata based probing
+7ba5099b8db139698e47762b8196b3f04fb62c68 ALSA: spi: remove at73c213 driver
+b41e92e1f9b7ab77c77e266b6bc9aa351a3bc794 ASoC: ab8500: remove pdata based probing
+cffbfba105748d50c59ccab64de600f541be67c3 ASoC: davinci-mcasp: remove pdata based probing
+60d03018fdc8089140fa96b7d44bf08e9d92f0b2 ASoC: ti: remove n810 driver
+493ef4be09672eaf5793906f85e0ee8083d099ed ASoC: pxa: remove spitz board support
+60a730d7fc02e4775006eb8bd82b898db3fee9be ASoC: kirkwood: remove platform data probing
+9f8294530a59df0fe1ee5739845c89a91ab81954 rtc: ds130x: remove pdata based probing
+f5c9f83d7956f67a19aabc89c2051b1f6e519836 rtc: stm32: remove mcu support
+c0adae56f7db3cc6d78b427e81b14892a3923827 rtc: remove unused lpc24xx/lpc18xx driver
+82b3ccf694c32e946cdc297f3bac93c0c48e3b55 reset: remove unused lpc18xx driver
+c73a93758bf97242af89e27c616d3ba8bb2c8019 nvmem: remove lpc18xx drivers
+64e74af8cb5f80cb3e6cf2ca31d31570949f67b0 pwm: xilinx: remove global header
+3c6aa058e514c43ce5c0b4d8b63c4d3cc4131a27 pwm: remove lpc18xx driver
+8181bd0c82ffc0b3bdf36eaf273aa7d3bc648f7d uapi: remove unused linux/pg.h header
+d6158342caa489b10ed48300c5b010d039bc4e04 uapi: remove unused cyclades headers (again)
+644b95d472613ccc83ec652c23fd731d7e00c3c7 uapi: remove unused cycx_cfm.h
+1e093bc65297ddfba9169ee358ebba94c920050a watchdog: remove unused lpc18x driver
+4ac72c4c877eaf02a9e69087bb3fc29977161a62 watchdog: remove footbridge/dc21285 driver
+b9f3a9012a75fbfb74bb2d657f640bb517765a41 watchdog: remove unused wdt977 driver
+982ecb96da2b897fd2d8d71f4e7a4e45c7555d11 hwmon: remove unused f75375s
+bfb18e0c608886473eae36b09cdda6628ba369f0 hwmon: remove unused ds620 driver
+a00ea08c1d020bbe8463f03928184b0fdb73997a hwmon: mcp3021: remove old platform_data probe support
+1eba669886fc844790507cccc422fabe38be42a4 hwmon: asd7828: remove pdata based probing
+fcd7851aca98d6f14324e0acc8989c0af160fed4 hwmon: gsc: remove pdata based probing
+31a97749870132a80fb9163ec7d70b5a3ea7e955 hwmon: g762: remove pdata based probing
+97eb82d4e780e793d1b2a6945eff69cb9b6aa846 hwmon: ltc4245: remove platform data probing
+c32f4f136901dde40cee9244ad0244b9f98c9b63 hwmon: remove unused max97 driver
+336f6b6b1507268bf0789a24d78e9e83d1153324 hwmon: remove unused max1111 driver
+eabf2bc0b968bbafa803c3c5443ef2d976552764 hwmon: emc2305: remove platform_data based probing
+3c16d8325d593e08fd9dac8b8fad68e972e437b0 hwmon: shtc1: remove platform_data based probing
+4999932d88132c03483e5b4d3553792d16a61a32 usb: remove unused sl811 driver
+be144ac36f34925bb8c84bc81b647ae02979f61d usb: max3421: remove pdata based probing
+16ee3cbc18c3c127a82b3567f0750ef0c0405fa3 usb: ohci: remove sa1111 driver
+7f93e6e4ccb3c155a33e21a28cc879c865718d65 usb: ohci-s3c2410: remove pdata based probing
+31094e4dab088c6f8633fdf2b97a13cbd1a857ae usb: chipidea make platform header local
+3692c73723e3bed3f4c1feb9df97158210fa7c14 usb: ohci: remove support for edge triggered interrupt
+702dddcbc104e15428741a917f283ca96e1d7fbe usb: musb: remove tusb6010 driver
+cddd4991c3350ee4e807d3acf5613e064373a88a usb: ehci-mv: remove platform_data based probing
+0c50fd662c4390a403e187a58bcbd31ac56aa95b usb: ehci-orion: remove platform_data based probing
+5e2bbcd8aea41dbbfeadcd881b1bd97515e54862 usb: musb-ux500: remove platform_data based probing
+0e4be15b1d00a6d69bb167f7f437ad97a4016360 usb: ohci-pxa27x: remove platform_data based probing
+1cd4ee22b60246319bd84dca997a8f25b7da0fca usb: usb3503: remove platform_data based probing
+8842bf8231e58f15b2a62ece3c4a8224535ad3ae usb: phy: remove unused phy-mv-usb.h
+b038253d3e3d31c50cefdee35efb74e8030dcaec phy: da8xx: remove pdata based probe
+70d3865baab5cdc529f7427d20084ef631a9e79e phy: remove unused lpc18xx-usb-otg driver
+5d0d97bfa27226e8ba12f81a35b413d349f1f236 phy: tegra-usb: remove global header file
+67efd37fdbf7b06402e852897d804d99e6bce6a2 media: samsung: remove unused s3c-camif driver
+5f296b7acfce63e9a70630cb403049015bf9aa78 media: i2c: remove unused ths7303 driver
+28b604294ba9db325122f3c8906488487bcabd27 media: i2c: adp1653: remove platform_data based probing
+1db26443eea9a59a921b16e663623fd5b4973af2 media: i2c: ov2659: remove pdata based probing
+a577b67480729d79fb1467083d7ad8663327fc1f media: i2c: tc358743: remove pdata based probing
+19092541cfef29581e57707f166877394c91654c media: i2c: lm3646: remove platform_data based probing
+78b563eabc9dc944b7a8e344aeb4342d2733d64b media: i2c: tda1997x: remove platform_data based probing
+3caa636384a08f6503c95e238fbb8c7c3bce8b1b media: i2c: ds90ub9xx: remove global platform_data definition
+a2859c27751aaacc91d1e190f6003996c5852198 media: pxa_camera: remove pdata based probing
+3f3fa445c2e946bf745d8fe94c2d48c3c7ebfb27 media: platform: remove unused stm32-dma2d driver
+9a32e7019fefacd3fcdf43b21a8aabc0eacaec27 media: mmp-camera.h: remove platform_data based probing
+37a8680791fd478b0cb16d02df74e44e2c909320 media: si4713: remove platform_data based probing
+c7058f88029269148fb1ff934b14f91be77ad1b3 mtd: nand: raw: omap2: remove platform data header
+f1a13123f4e63678488419fa2f1d61b7ffc5b8a6 mtd: nand: remove pxa2xx driver
+8f6901d95ef60d4dcfa10cb5bc791df72af1037f mtd: parsers: remove sharpsl support
+4b64029567e5b45b16e05233735dceb317d44357 mtd: spi-nor: remove unused nxp-spifi driver
+582ef2648f6cb0da067efc819b22d5c7bddc8e4c mtd: spi-nor: remove hisi-sfc controller driver
+5531f826b5710b3f0a2c98457843f5eab4e9de51 mtd: spi-nor: remove controller_ops support
+b98732d023bffc0a6dfc93454ec0883c526d2459 mtd: nand: raw: remove unused sharpsl code
+c97c4f7f2cb490e02230c0ee8e0488b222950fbf mtd: maps: remove unused dc21285/footbridge driver
+62d6fc1d463ec1dfc0355bf2b48149896346521b mtd: maps: remove unused sa1100 map driver
+f999ecd928f4fd2f5ecda4b42d40e1781dd8bd1d mtd: onenand: remove platform_data based probing
+143233213c875b946e1f0edc63753b6fbae63034 mtd: nand: pxa3xx.h: remove platform_data based probing
+669b81cdb61a8a5c4ca8f92fa8539eebb48b78a4 mtd: nand: orion: remove platform_data based probing
+2be184b59d354e536e4156d3169c4bbebc638f04 input: remove as5011 joystick driver
+a4c6aef000d933c4af490081e6c855d7cda78d25 input: keyboard: remove lm8323 and lm8333 drivers
+879828747df7c383b6c0bb4d833f4e8e6ff3322e input: remove unused tps6507x touchscreen driver
+9dea26b61c29684ef96e5ee60a1933b59fcbffdd Input: misc: bma150: remove platform data based probing
+673d0e45416d3bac7737c89fbbfbc1fefd0c6e6c Input: misc: max8997_haptic: remove platform data based probing
+6a048244547d9d19f60c25e7932605b5801d37cb input: misc: remove unused drivers
+215831fb27079a06db9740c36a4bb7f3002ce9c4 input: misc: remove unused mc13783-pwrbutton driver
+33b5584b27cfb305775ca4c4496445ab822f650c Input: misc: remove unused ad714x driver
+9c067a5ad493a8275a082c11e3f93ddbd468be63 Input: touchscreen: remove unused ad7877 driver
+6230e1f1377988fd6d7b465c4bc32df032269527 Input: keyboard: remove unused jornada720_kbd driver
+64e5cc60e34c479544616a536cf0af96bb7d984b Input: keyboard: remove unused locomo driver
+451795177ad33e6bed608e726bd142c0aeb5db22 Input: keyboard: remove unused ipaq-micro driver
+12649af8b805e852cc1a1f9d2028704e3027a252 Input: mouse: remove RiscPC mouse driver
+f12d52f6818f4264d6ac48473ec898167adda616 Input: serio: remove RiscPC keyboard driver
+1d00850388687ddafb378c5d51107233210aebaf Input: serio: remove sa1111 ps/2 driver
+247a9ccf282044bd9e483819418c7ee5e3fc3c5e input: touchscreen: remove unused mc13783 driver
+16207ba322f34c71988649eb7a3c8b10fe344d34 Input: touchscreen: remove HP jornada720 support
+908991bba473afb0d7b2920f1eecbf85b43d9864 Input: touchscreen: remove unused iPaq micro driver
+a70b061f6585c18ac5d653ce41de0b3f3b4c5b95 leds: remove platform data based probing
+a41130ac68f73247b4c2f96bf3f0cc76419ae421 leds: remove unused drivers
+caa067de0d78283f6b4ac001f5c0e72cf5ab5a55 leds: remove unused lm355x driver
+80a0fc289c229a8c74b29ff325bd1a88edd26a2b leds: remove unused locomo driver
+d27484cb4336360c204e3df69b686cf147558de8 leds: remove iPaq micro driver
+8ab876033ee3ae61a6f8dd0c7d60ffe05cacbd52 backlight: remove unused tdo24m driver
+dad97d575e67e6348c893dcfd42c24eca76c7d53 backlight: remove unused adp8860/8870 drivers
+86c29313034a274b4820c5d7c1197dc3749df697 backlight: remove unused bd6107 driver
+eae7c361a65b461a23cbd1e4e7b03d90ea71689a backlight: remove unused lm3639 driver
+a171b20209e5ecb81af784031c898cdf90b42702 backlight: remove unused ams369fg06 driver
+9d9800cf062addfe5625eb0bcc78136381337ce5 backlight: remove unused lms501kf03 driver
+60a53a1589672373cd472dfbabfa0379957c30a6 backlight: remove lcd_platform_data
+e4c639d2af34a664ed069b2f96c3382951e35e7f backlight: remove ep93xx driver
+743caef234d131270cc9d88d3f5829c614916122 backlight: remove unused corgi_lcd driver
+a02da87083228901257afd43323152f7c993607d backlight: remove jornada720 backlight/lcd support
+579aefd6c176f44a856a8a20c9b0df14fe91a9f0 backlight: remove unused iPaq micro support
+5d0202e9279a4582eee565801fc046fd9d46f985 backlight: remove unused locomo lcd driver
+a2d0b2c8509c22a749451892ea5b4fb1a807a74b backlight: lm3630a: remove platform_data based probing
+b465c891a41aed312eb4e93e00dfebfd6ba449c9 iio: remove lpc18xx adc/dac drivers
+716c204f045f6495974983020d6abcdee2d3a173 iio: remove unused ad9523 frequency driver
+65bc22b488bb6ff0226482656d4461075fc0b007 iio: dac: ad5504: remove legacy probe support
+e7b18b1fabf38796bb8682715dad952b98c48a84 iio: adc: remove unused ad7xxx drivers
+ad5a3e45f6c704c1f209afb227ea1324447ad1cc iio: inv_mpu6050: remove platform_data based probing
+d1d179461ab665d99e40b9d608ea56ade2a0cc97 iio: accel: kxcjk_1013: remove platform_data based probing
+490e8d139b660e4a6eedffd23ddf70f512051d52 iio: ad5421: remove platform_data based probing
+8d73649062eabbefd628ad4db89926e6e8955f48 iio: ad5791: remove platform_data based probing
+1a6f7a437b9f10ef921719a1d4c3f114f05bf07a iio: dac: max517: remove platform_data based probing
+5aa12e5100283cbdfcdd216a39941d2ce3041f89 iio: dac: mcp4725.: remove platform_data based probing
+cca0e14c5b2c49187a175ba0476ed6012646db3b iio: frequency: adf4350: remove platform_data based probing
+97d89511a9d85ef04a8814db59e10029fbb6792f iio: dac: ad5761: remove platform_data based probing
+06ffc0263d394a1c79f5bc8192bd834a991bb322 iio: light: tsl2772: remove platform_data based probing
+c1709eb96c7d60baf926c627c0e98ce6a4ab3327 mmc: davinci: remove platform_data based probing
+ec1525fb851a5c849f4b74e3546fdcbaafe602f1 mmc: mxcmmc: remove platform_data based probing
+108d8ec43b11420249e448b38f072cc3543f008e mmc: pxamci: remove platform_data based probing
+51e9ac11fb813f1adef4f2a4469b901cc279a2fd mmc: pxa_sdhci: remove platform_data based probing
+3e0d1d382aa1f96615a336a9a1cf5c2c3094252e power: reset: remove unused axxia driver
+7de6d0257cc15ab4baa1d30635c7946f55583964 power: supply: twl4030_madc: remove unusable driver
+c8e350897b579a2685c66f7e9dcc75bfc5e675ac power: supply: bq2415x: remove pdata based probing
+331f8c5983ea44287d7e4323270993044c29be7c power: supply: remove unused collie battery driver
+755ba02baa410ef6c15c7516ff0af41cd8af0719 power: supply: remove unused iPaq micro support
+a26506cbf57a4a638081d6e30d66d2379907d50b power: supply: ds2782_battery: remove platform data based probing
+94d9bfc7a82f4e3030ced8202226f4345d9850dc power: supply: lp8727: remove platform_data based probing
+ea8edaddadc2e436851561e0ab60f72f0577fdfa power: supply: gpio-charger: remove platform_data based probing
+aa33dc68184504f2705949b98ecae7ad3f3cd91f power: supply: sbs-battery: remove platform_data based probing
 
---===============1497113918242081457==--
+--===============4529593850978754105==--
