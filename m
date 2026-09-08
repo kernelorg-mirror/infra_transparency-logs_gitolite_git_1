@@ -1,24 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 08 Sep 2026 17:54:38 -0000
-Message-Id: <178889007803.2705228.14067995129936169787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 08 Sep 2026 18:03:49 -0000
+Message-Id: <178889062945.2712145.5276158623928632913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/kvm
-    old: ccd6eeba7b7e450f3991077cd22229f300687d18
-    new: 98626ab7826526c6e8b719a02e7e3160d468354c
+  - ref: refs/heads/for-7.4
+    old: 97c50e21e4ddfc91185d548c29c33ba631acbdc8
+    new: 570355c81dbf3bc88e45e3ce5b3f5938cfda11bb
     log: |
-         187769fde414761d95c428d359e008c00d2aa7f8 KVM: guest_memfd: Avoid conditional mmu_lock acquisition
-         b98f6fa04b675dd42e9c442c85b60365f38e97dd KVM: Refactor kvm_handle_hva_range() to avoid conditional mmu_lock
-         a1a445ae093a398bca668858053ea84a8c1b912f KVM: Refactor kvm_handle_gfn_range() to avoid conditional mmu_lock
-         404da5459195cd1d530fee476114b36685bdd31c KVM: Add basic lock context annotations
-         f74b9cf4b559ff2a48e33ac99aec15eb59a4d008 KVM: x86: Add basic lock context annotations
-         98626ab7826526c6e8b719a02e7e3160d468354c KVM: x86: Enable CONTEXT_ANALYSIS with opt-outs
+         7036264dcd46ab641768ef97ab74f91bce5701c8 selftests/sched_ext: Fail interrupted test runs
+         49c64ffb2fd996af4c82007196c61e17d74cb1ab selftests/sched_ext: Handle CPU hotplug write failures
+         570355c81dbf3bc88e45e3ce5b3f5938cfda11bb selftests/sched_ext: Cover duplicate DSQ creation and ID reuse
+         
+  - ref: refs/heads/for-next
+    old: 9b8058618c874b329d59902f8efa06e7087c20d2
+    new: 88158a65dae4639b37525c6d74d7cc6c528c3680
+    log: |
+         7036264dcd46ab641768ef97ab74f91bce5701c8 selftests/sched_ext: Fail interrupted test runs
+         49c64ffb2fd996af4c82007196c61e17d74cb1ab selftests/sched_ext: Handle CPU hotplug write failures
+         570355c81dbf3bc88e45e3ce5b3f5938cfda11bb selftests/sched_ext: Cover duplicate DSQ creation and ID reuse
+         88158a65dae4639b37525c6d74d7cc6c528c3680 Merge branch 'for-7.4' into for-next
          
