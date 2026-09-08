@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Tue, 08 Sep 2026 12:56:25 -0000
-Message-Id: <178887218544.2477167.15200179997076785159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Sep 2026 13:02:51 -0000
+Message-Id: <178887257107.2481036.13648056500630796209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
+  - ref: refs/heads/main
+    old: 4596be8a15db2e7f45cbb140f6644e2dd2b290db
+    new: 73db35350c5e1cadb47e9b65633539469e1c5c5a
+    log: |
+         73db35350c5e1cadb47e9b65633539469e1c5c5a dibs: Avoid inconsistent lockstate warning in dibs_lo_move_data()
+         
