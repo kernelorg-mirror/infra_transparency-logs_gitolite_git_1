@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0240357068617117757=="
+Content-Type: multipart/mixed; boundary="===============5379348411959643576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 08 Sep 2026 20:56:22 -0000
-Message-Id: <178890098244.2844347.7632753267218868394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 08 Sep 2026 20:56:36 -0000
+Message-Id: <178890099601.2844698.18138330885725402001@gitolite.kernel.org>
 
---===============0240357068617117757==
+--===============5379348411959643576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 944a035ecca915ae947905dcfb03f2b9dc6d032c
     new: a9d7ced84989ec05be09b4b8428759ef60450a0f
     log: revlist-944a035ecca9-a9d7ced84989.txt
-  - ref: refs/heads/stable
-    old: df2908090cda368b01ff43709f51890076c56157
-    new: 28924df2a08f440c73991b83028032c901de2ae4
-    log: |
-         ae9464c65e9d1ad4df4fed516cee9bca3bc614cc perf symbol: Do not use debug file as the binary type
-         aadea57f532882d8bab444646863c7ef8a778ff1 perf powerpc-vpadtl: Fix raw_size of DTL samples
-         a7c1290eef60711c10289c056ad32ed1f2b47b12 configfs: pin the symlink target's dirent instead of chasing ->ci_dentry
-         f06c2d26d1999d37e93299db0ecead04ca7d0b9f configfs: unhash the dentry before dropping the item in rmdir
-         c297ed90fbba72d32b7759aae362b36d15b2db1f Merge tag 'configfs-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/leitao/linux
-         28924df2a08f440c73991b83028032c901de2ae4 Merge tag 'perf-tools-fixes-for-v7.3-2026-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-         
-  - ref: refs/tags/next-20260608
-    old: ea8a803d3ef1bc668d777516e00c3bb478d17c23
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260908
     old: 0000000000000000000000000000000000000000
     new: 48fff903dc0a9a920185d43c07ce7ee63a8692e7
 
---===============0240357068617117757==
+--===============5379348411959643576==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1018,4 +1004,4 @@ a1b431202ccfc513ac51e8932666d24eafe6aa14 Merge branch 'headers' of git://git.inf
 f10b3bd5bc64538906f841a63bb8b576951900b3 media: ipu6: Fix up missing IWYU issue
 a9d7ced84989ec05be09b4b8428759ef60450a0f Add linux-next specific files for 20260908
 
---===============0240357068617117757==--
+--===============5379348411959643576==--
