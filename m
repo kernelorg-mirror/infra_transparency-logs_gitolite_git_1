@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7044314253285641004=="
+Content-Type: multipart/mixed; boundary="===============8278534867423078750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 08 Sep 2026 14:16:15 -0000
-Message-Id: <178887697530.2539327.8252721599563565965@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 14:16:20 -0000
+Message-Id: <178887698004.2539547.10049105517788534025@gitolite.kernel.org>
 
---===============7044314253285641004==
+--===============8278534867423078750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 98d23edcd41432286cf03672252507a841323c8c
-    new: dc2136341be9835e70ba7c6b36904cf3683fd029
-    log: revlist-98d23edcd414-dc2136341be9.txt
+  - ref: refs/heads/for-next
+    old: 11acf42968807b5f44d56cd12c225f114dc02c33
+    new: 378fa97eada763fefb5508be679df9aae2ad946a
+    log: revlist-11acf4296880-378fa97eada7.txt
 
---===============7044314253285641004==
+--===============8278534867423078750==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-98d23edcd414-dc2136341be9.txt
+Content-Disposition: attachment; filename=revlist-11acf4296880-378fa97eada7.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -709,5 +709,9 @@ d1c44a7d085473173bb360b7218a43699c3f56c7 s390/crypto: Fix use of mutex in atomic
 ac1481320110b803ab9b79ab4d2ca11a74fc05f2 s390/crypto: Fix wrong return code to engine in asynch callbacks
 7a08507ea5b4d06ad8d269287913573f34467565 s390/crypto: Map EBUSY to EIO when key conversion fails repeatedly
 dc2136341be9835e70ba7c6b36904cf3683fd029 s390/crypto: Enable CONTEXT_ANALYSIS
+2dfbc0f077fe0c88edf620627691a64d8d9d84ca s390/ebcdic: Add character classes for the ASCII subset of EBCDIC
+8410516674b52a51ce2c15c7e2ea7dee2a8b6489 s390: Warn if kernel command line contains non-printable EBCDIC characters
+1c1b347f254c492da6d757231ba3cced34510758 Merge branch 'fixes' into for-next
+378fa97eada763fefb5508be679df9aae2ad946a Merge branch 'features' into for-next
 
---===============7044314253285641004==--
+--===============8278534867423078750==--
