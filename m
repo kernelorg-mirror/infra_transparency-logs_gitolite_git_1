@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8424416084328837062=="
+Content-Type: multipart/mixed; boundary="===============9178908045182069920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 08 Sep 2026 21:53:26 -0000
-Message-Id: <178890440617.2886693.13751002546153963151@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 21:53:29 -0000
+Message-Id: <178890440988.2886885.16491734877081186731@gitolite.kernel.org>
 
---===============8424416084328837062==
+--===============9178908045182069920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: c8ea08ba34f2a2e9bfb18ff3d69eb2d69b324f49
+  - ref: refs/heads/40GbE
+    old: 907bd786209ed8c735db94889386aa48d2409d6a
     new: ab217fbb9b2169ce677b09a66558d5c3adcfbb76
-    log: revlist-c8ea08ba34f2-ab217fbb9b21.txt
+    log: revlist-907bd786209e-ab217fbb9b21.txt
 
---===============8424416084328837062==
+--===============9178908045182069920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8ea08ba34f2-ab217fbb9b21.txt
+Content-Disposition: attachment; filename=revlist-907bd786209e-ab217fbb9b21.txt
 
 84477867e122251b8c47db240a8d699b0836aa6f tty: xtensa/iss: use strnlen to improve iss_console_write
 d5bbc9b3d20c3f90b31a64c62bb4a800b9a5941c ARM: 9473/1: kprobes: test: add MODULE_DESCRIPTION
@@ -714,10 +714,6 @@ b2fd92f016e9d692fd3c8c08d0ee014e9212279d dm-integrity: require stable writes for
 1d2929d0850fff683b8aff051275945e65f082c8 net: psp: do not inherit the Rx association on clone
 2ccb8878c149443c6acf628b438c9c942c20abb2 dm cache: fix demotion stats in passthrough mode
 9a58da80053f992b285b6b7bebc694b0f284c443 Merge tag 'ksmbd-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
-8b1db02b771f0de1600766f94884817caccabfd0 i40e: prepare for XDP metadata ops support
-cff6f1378df7d7fcb408a8ca2259e98e7cdf7fca i40e: add support for bpf_xdp_metadata_rx_hash()
-bbcaa1fe8749e21e8936058be8c5b43ceced0a38 i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
-907bd786209ed8c735db94889386aa48d2409d6a i40e: Avoid repeating RX filter warning
 89a312991dc6e638a36adc43ccb91dbc25504c04 Merge tag 'cifs-fixes-7.3-rc2' of https://git.manguebit.org/linux
 2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
 b264d8422779d69febce914efc47a92a85cc382c s390/ctcm: Prevent XID null dereference
@@ -934,4 +930,4 @@ fc73b71c1bdbf293d3fca7158424d6117466d4f8 net: sysfs: factor out link settings re
 5d074ded6714fe44edd10b5f20cc43d74612579f net: sysfs: use ops lock for speed and duplex
 ab217fbb9b2169ce677b09a66558d5c3adcfbb76 Merge branch 'net-sysfs-use-ops-lock-for-speed-and-duplex'
 
---===============8424416084328837062==--
+--===============9178908045182069920==--
