@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4387631581795930703=="
+Content-Type: multipart/mixed; boundary="===============3009157087517020294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 08 Sep 2026 20:46:49 -0000
-Message-Id: <178890040915.2835999.3367827305013861386@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 20:46:59 -0000
+Message-Id: <178890041923.2836227.7284912086495873827@gitolite.kernel.org>
 
---===============4387631581795930703==
+--===============3009157087517020294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 9c12a082f3a70821de0c520a400e9c65c18a91db
-    new: 86adaf1e952b15394a753f90f46de0c69aab29fa
-    log: revlist-9c12a082f3a7-86adaf1e952b.txt
+  - ref: refs/heads/perf/urgent
+    old: 095f0a93d745207bb0c417df2a11c234909685af
+    new: 37e59f5ee9b9788e3888aa01dea9803acfd31fa9
+    log: revlist-095f0a93d745-37e59f5ee9b9.txt
 
---===============4387631581795930703==
+--===============3009157087517020294==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9c12a082f3a7-86adaf1e952b.txt
+Content-Disposition: attachment; filename=revlist-095f0a93d745-37e59f5ee9b9.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -707,7 +707,7 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
-9f0a828a3cc7131eeeee4f0caa13e6fca65b4588 sched/eevdf: Fix augmented max_slice
-86adaf1e952b15394a753f90f46de0c69aab29fa sched/eevdf: fix rb augmented with multi fields
+131dfd6f4a16b00ddf63f73bb294ff8d27effe1d perf/core: Allow list_del during perf_event_overflow()
+37e59f5ee9b9788e3888aa01dea9803acfd31fa9 perf/x86/intel: Correct pt_regs->flags update for PEBS path
 
---===============4387631581795930703==--
+--===============3009157087517020294==--
