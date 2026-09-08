@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 08 Sep 2026 17:08:54 -0000
-Message-Id: <178888733453.2670826.11893900750878633888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 08 Sep 2026 17:10:27 -0000
+Message-Id: <178888742776.2673808.1266646596328995830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-7.4
-    old: 8b9b3698796a6b99f43fd09de23bfa5431e0f07e
-    new: f6365b34c577756c941a716528864307d883d9dd
+  - ref: refs/heads/pwm/for-next
+    old: c5b29baad42b2b02389cc6a716697a8a63209930
+    new: 99b1b1d3d5badd3cd76b9245ff372000cdfb51de
     log: |
-         f6365b34c577756c941a716528864307d883d9dd tools/sched_ext: Drop the no-op -rdynamic from CFLAGS
+         99b1b1d3d5badd3cd76b9245ff372000cdfb51de pwm: lp3943: fix NULL pointer dereference for an unconfigured channel
          
-  - ref: refs/heads/for-next
-    old: 5d5b04dfa9b1fc034b4b86a9347fa83c8672d923
-    new: 925967422ee3e90fcdba723f6c0d1b2a67311b8a
+  - ref: refs/heads/pwm/for-nexxt
+    old: c5b29baad42b2b02389cc6a716697a8a63209930
+    new: 99b1b1d3d5badd3cd76b9245ff372000cdfb51de
     log: |
-         f6365b34c577756c941a716528864307d883d9dd tools/sched_ext: Drop the no-op -rdynamic from CFLAGS
-         925967422ee3e90fcdba723f6c0d1b2a67311b8a Merge branch 'for-7.4' into for-next
+         99b1b1d3d5badd3cd76b9245ff372000cdfb51de pwm: lp3943: fix NULL pointer dereference for an unconfigured channel
          
