@@ -1,36 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6793877854184035572=="
+Content-Type: multipart/mixed; boundary="===============4764616269689851381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 08 Sep 2026 18:25:13 -0000
-Message-Id: <178889191337.2730193.303914523467892041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 08 Sep 2026 18:25:34 -0000
+Message-Id: <178889193451.2730958.14430488451677460449@gitolite.kernel.org>
 
---===============6793877854184035572==
+--===============4764616269689851381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 883e78c9e6007c91be96e99a36c35baf41bc8ed5
-    new: 7e125889f1705fc6326679a3db3b4159f7a8c87e
-    log: |
-         7e125889f1705fc6326679a3db3b4159f7a8c87e ASoC: amd: acp-da7219-max98357a: don't bind on Raven/Picasso boards
-         
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: f77de4c33f0edbb33411f92a35d7196965597e6d
+    log: revlist-cee9395acd80-f77de4c33f0e.txt
   - ref: refs/heads/for-next
-    old: 0e2bf66c2f6326c0626c9db22530954ef5c64b08
-    new: 1668662ef2dd7a9d81d83b58fc9a2da28361449c
-    log: revlist-0e2bf66c2f63-1668662ef2dd.txt
+    old: 98477036fc35472834ccfee018fdc99d2d21b073
+    new: cb2ad3c020579bf51fb0d702db9cf64af9698377
+    log: |
+         23ea08ca607c2be0d4445dce7942a5049efb1451 spi: orion: yield to scheduler in transfer wait loop
+         e95dac34dd5763c125dc597a159d72922b4f8fbb spi: ar934x: Convert to devm_spi_register_controller()
+         f77de4c33f0edbb33411f92a35d7196965597e6d spi: dt-bindings: snps,dw-apb-ssi: Add compatible for UltraRISC DP1000 SoC
+         cb2ad3c020579bf51fb0d702db9cf64af9698377 Merge remote-tracking branch 'spi/for-7.4' into spi-next
+         
 
---===============6793877854184035572==
+--===============4764616269689851381==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0e2bf66c2f63-1668662ef2dd.txt
+Content-Disposition: attachment; filename=revlist-cee9395acd80-f77de4c33f0e.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -713,27 +716,6 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
-349e94679968785803cc32c1d2e41e000e8afd5f ASoC: es8326: report resume restore errors
-8f43acfd3addf10fbde8d21dd44b1a61e1936ba7 ASoC: es8375: report resume restore errors
-8f7d23eb8ffb817ba69049577ab8ca55b93c77cf ASoC: es8389: report resume restore errors
-aa7d985d85529049fc8c39c168b300f59de4fdf8 ASoC: fs210x: report register restore errors
-29863d75b9f0c9df012ae1fac18d72767ef20467 ASoC: SDCA: register SDCA_FUNCTION_TYPE_SIMPLE_JACK in class function driver
-1a6a763a6237161598ba69e1e24ff1f28f668cf4 ASoC: SDCA: make find_sdca_control_reset() return void
-ac3a7d60f23385b14540603f606a1f10f0ab1133 ASoC: SDCA: SimpleJack support and small cleanup
-5ee5987fadf6ae15678a654b4d909225c97f0299 ASoC: mediatek: mt8186: Fix APLL mux setting error handling
-d70109f5510b423e72894dadfbab27087a7b26b0 ASoC: mediatek: mt8186: Fix clock handling in mux disable path
-eb72060a1966baf9a6ed753186621ee6e39dc889 ASoC: mediatek: mt8186: Fix AFE clock error handling
-cb552c6b9abe02f254d44d8c29d0dce1ae21f69f ASoC: mediatek: mt8186: Fix APLL enable error handling
-996469c1092e8fa81fac98d819174ce56baff821 ASoC: mediatek: mt8186: Fix MCK error handling
-d87989ec1c2a65646bcf6c8aaea46836b93e12ea ASoC: mediatek: mt8186: Fix gpio rollback on adda dl/ul partial failure
-0830625cacf94ae66f68b4e9d2e926a152a90dca ASoC: mediatek: mt8186: Handle regcache sync failure
-5ca0b1c5e32a85ef3ab7fd2b9174a54f6678d405 ASoC: mediatek: mt8186: Drop redundant probe error messages
-ab52afd2f89dff1373d4f98be5787f0fc8f075ef ASoC: mediatek: mt8186: Fix clock error handling
-e967d479b65c778cd2394ab185e289beefcf996d ASoC: mediatek: mt6797: fix wrong unwind order and error code in enable_clock
-2e4b0d5f52dac992fa2bfc8a8ec5617527288769 ASoC: mediatek: mt6797: Use dev_err_probe() for error handling
-1e5e1344b36e1acc62bdbca192e6ae317909725f ASoC: mediatek: mt6797: Drop redundant probe error messages
-5bb30783e4e5782349b5bfafbaf982bf86285302 ASoC: mediatek: mt6797: Fix error handling
-7e125889f1705fc6326679a3db3b4159f7a8c87e ASoC: amd: acp-da7219-max98357a: don't bind on Raven/Picasso boards
-1668662ef2dd7a9d81d83b58fc9a2da28361449c Merge remote-tracking branch 'asoc/for-7.4' into asoc-next
+f77de4c33f0edbb33411f92a35d7196965597e6d spi: dt-bindings: snps,dw-apb-ssi: Add compatible for UltraRISC DP1000 SoC
 
---===============6793877854184035572==--
+--===============4764616269689851381==--
