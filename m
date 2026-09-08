@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 08 Sep 2026 22:45:04 -0000
-Message-Id: <178890750475.2927686.10262175760919951533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Tue, 08 Sep 2026 22:48:38 -0000
+Message-Id: <178890771872.2929251.9449267021598392289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/pending
-    old: 18bd15280dd14a704aa7afb3d6c71e8c81baf3e3
-    new: 27b3a93ecc296d560cd01ffa07bf4154cbc2a3a5
-    log: |
-         27b3a93ecc296d560cd01ffa07bf4154cbc2a3a5 wifi: ath12k: preserve PPDU state across monitor status buffers
-         
+  - ref: refs/tags/nf-26-09-07
+    old: 69d04898011aad9c04270aa6b64bb5a3218d13a7
+    new: 0000000000000000000000000000000000000000
