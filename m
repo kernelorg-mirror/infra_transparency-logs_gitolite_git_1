@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/patchwork/patchwork
-Date: Tue, 08 Sep 2026 18:04:28 -0000
-Message-Id: <178889066864.2712723.14015888820005865291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 08 Sep 2026 18:16:08 -0000
+Message-Id: <178889136816.2722432.4665811999593441196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/patchwork/patchwork
-user: mricon
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/korg-infra-devel
-    old: 6dc90d90bbcfd41cfce8893c469ade7dbfbd3a13
-    new: bc8b8601479f8d2d98d2a18da20fbc7fe7425233
-    log: |
-         bc8b8601479f8d2d98d2a18da20fbc7fe7425233 Move PATCHWORK_BUILD_VERSION from an env var to a setting, appended
-         
+  - ref: refs/heads/jh7110-waylaid
+    old: 0000000000000000000000000000000000000000
+    new: 42c57c049054dfaa0be83f6721f7c4ce4a880e56
