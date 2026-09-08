@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Tue, 08 Sep 2026 10:53:20 -0000
-Message-Id: <178886480054.2384213.7598551390634612445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Sep 2026 10:53:23 -0000
+Message-Id: <178886480328.2384433.6811872987789103448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/rev
-    old: aff93c226a20fb3cbbd319d303f938b8b127903f
-    new: a2bd087d4f1c3f9697e487b6117ed49ca144f9bd
+  - ref: refs/heads/for-linus
+    old: 22728415a9cc8da859c7b95b49eb405fb3debd6a
+    new: 883e78c9e6007c91be96e99a36c35baf41bc8ed5
     log: |
-         52402530355fc9ada8b24e86bd955ae5c7c309b7 drivers/base: Introduce revocable
-         24bd8b96596f839958babafc8d4a348010e6e7c5 revocable: Revocable resource management
-         ca554422b83b41e568ec24a37b3d51617531de40 revocable: Add KUnit test cases
-         a2bd087d4f1c3f9697e487b6117ed49ca144f9bd gpio: Leverage revocable for accessing struct gpio_chip
+         883e78c9e6007c91be96e99a36c35baf41bc8ed5 ASoC: cs35l56: Fix race between kexec and snd_soc_register_component()
+         
+  - ref: refs/heads/for-next
+    old: 90eee0742c18c122f359f3f08e125a9153cb00e2
+    new: 0e2bf66c2f6326c0626c9db22530954ef5c64b08
+    log: |
+         201af7ba51a1211fde591b19e260a342396ac5cc ASoC: codecs: fix typos in comments
+         20a812a1f664ca8ab224a257fdcf0e73e8c9e44e firmware: cirrus: fix typo "upto" in comment
+         883e78c9e6007c91be96e99a36c35baf41bc8ed5 ASoC: cs35l56: Fix race between kexec and snd_soc_register_component()
+         0e2bf66c2f6326c0626c9db22530954ef5c64b08 Merge remote-tracking branch 'asoc/for-7.4' into asoc-next
          
