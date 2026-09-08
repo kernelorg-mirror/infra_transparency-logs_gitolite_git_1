@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6441392044074847551=="
+Content-Type: multipart/mixed; boundary="===============1497113918242081457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 08 Sep 2026 15:32:20 -0000
-Message-Id: <178888154088.2597014.13153109732758820799@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 15:32:53 -0000
+Message-Id: <178888157338.2597511.6630310545450267295@gitolite.kernel.org>
 
---===============6441392044074847551==
+--===============1497113918242081457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 641d03105cc0d2437e32fdeec164f91a4ccef6c4
-    new: e0554c6276da957b6e72849520c70a97404cd1ae
-    log: revlist-641d03105cc0-e0554c6276da.txt
+  - ref: refs/heads/dev-queue
+    old: 7561dab9b6b34c34dc4ed32e5e4e6be263a6e03b
+    new: 46cd38dd9ad34dcff3acf363a2a74942d480d7da
+    log: revlist-7561dab9b6b3-46cd38dd9ad3.txt
 
---===============6441392044074847551==
+--===============1497113918242081457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-641d03105cc0-e0554c6276da.txt
+Content-Disposition: attachment; filename=revlist-7561dab9b6b3-46cd38dd9ad3.txt
 
 9012da455ab9a05d8205b90d0ad7c8b526f89062 net: 6lowpan: fix mismatched comments
 ff5891b266a7fc6a062710836be84f1cc19338b5 ieee802154: cc2520: fix FIFOP work use-after-free
@@ -107,5 +107,83 @@ b856c552f556bc0341c1dbe0bf88e630fd1dc4b7 net: ethernet: cortina: Count dropped f
 6520198c430c81bcc367f0dd5e32f2fb740b9d51 net: ethernet: cortina: Count RX drops once per frame
 e89e88ad41d9f31c829c2af39c48313e8e48d5b0 net: ethernet: cortina: Count RX descriptors for freeq refill
 e0554c6276da957b6e72849520c70a97404cd1ae Merge branch 'net-ethernet-cortina-fix-rx-budget-accounting'
+278cb20359a17f908ce42a411652ca7143f9fa46 ice: use reference counting and RCU for PTP port access
+fc30ba660813c1858076d154b85317ed2eb8df56 ice: fix removal of PTP timestamp tracker during reset
+afab18a082a244aa540e106ec618e5ade0dd33f5 ice: set in_use only after preparing Tx timestamp index
+cdb0ff1556f1fcc68712fa04b8f1e5f1a68e33d4 ice: E822: keep Tx timestamps disabled during offset calibration
+0acf3b2338767589b9b9eb62753926ace1241834 ice: E822: cancel offset verification work during reset preparation
+69be12771c41e1a6d2c63a93073381f5dc41ff7d ice: call PTP link change only from link events
+4bbef5889000350eb1f00458fd2eeb740ac401e2 ice: E825: stop clearing PHY_REG_TX_OFFSET_READY
+06f0ae59f4133c12bb2350440d65cc41af36734f ice: E825: clear PHY_REG_TX_MEMORY_STATUS prior to soft reset
+6371be722a3649537dd2bb19a00115e44a5404a3 ice: E825: perform a soft reset when starting the PHY timer
+99107f3bd8118ac9e41d40e1481ed06413a79f7b ice: wait for in-flight Tx timestamps before flushing the tracker
+dcdc121c762dead17238b98b0607a4ba8deb5ddc ice: keep Tx timestamp slots tracked until completion or timeout
+05b82535f294870d5f9c08d5442fe97e55a5fe3a ice: remove unnecessary discarding of timestamps after clock adjust
+4831a3abf3c6de45e98816d8c900e920203fae91 ice: skip reading Tx ready bitmap on ports with no timestamps
+46e5f0ca52bffd5fdda2ffc6d8f1981df84ddcab ice: don't clear in_use until HW clears ready bitmap
+237b08ced86a4a38c6317ab227b25f8027bcbb59 ice: Fix enable_cnt imbalance on resume
+9cc9ccceb6843ff313e89a1c36d13d0ac6ee0525 ice: Fix enable_cnt imbalance on PCIe error recovery
+8ee0368c9d70cfe15232aa5ab9cef50465fc7dfa i40e: Fix enable_cnt imbalance on PCIe error recovery
+8b51172f3a9ad06212372708429cba646a14fbb7 ice: fix FDB deletion
+0a5ad436ad322bdb26cec15ecb6b576e9e615628 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+5f8fc2ef0e9788c9ac3daf43442b228bfd18fbcf ice: fix asymmetric pause negotiation reporting in ethtool
+f19327dca5e2376499ee25b9af038716ba90a5c7 ice: fix autoneg disable when link partner doesn't support AN
+313aa8e576d964d016a6a01b25246751b67c1ce4 ice: support RDMA on 4+-port E830 devices
+722c2c3594d90d620f5a761882ed32ecfe6ae50f ice: report EIPE checksum errors to the OS on E830
+fc73b2f5556e26bb8bbb323139bc9fc4983e7008 ixgbe: fix SWFW semaphore timeout for X550 family
+abac78eeb682e5a9fd0f3d31e7cc8fd929a86360 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
+e39676cf50bdcaefccb85527497beef1474dbc2c ixgbe: fix ITR value overflow in adaptive interrupt throttling
+4aaca04c9d42802824c73584789c805595bdba8e ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
+88d6d546adad4c22410cb4b9a90dd6cef00fce09 ice: only free LL TS IRQ when the handler is present
+42b8387862607b13847101f87e122e7f96f5ff09 ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
+2678af2c6bd4fe362391b109ce0063f13639a057 igb: Return state in pm_runtime_idle instead of power-down
+323b74ec0c0f7fba2e1d960747ada6c129a34792 iavf: cap advertised max_pkt_size at the single-buffer HW limit
+a022fd3c92f815ec92b02e5760eb5a20c07c569c igb: only strip Rx timestamp header on the first buffer of a frame
+edb82878e08c94835bda7daeea51bba8c5fe0420 e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
+e5576adc3b561dbdf10229f6f5a7c23d392be2c3 ice: use global queue index in TC to-queue offload
+74c09dfad1d89bfd2a30f1f6f87929ed94795035 igc: Fix RX HW timestamp reporting when NET_RX_BUSY_POLL is disabled
+ba517db685e1760459e2fa2f41817f68ac85d433 i40e: unregister netdev before clearing VSI on reinit failure
+ef198049b13fa2c56286fae791e845734275954a i40e: avoid null ptr dereference in i40e_ptp_stop()
+c6aa1178ff4246caf6947f678d371f6595287662 i40e: make ring pointers unreachable before freeing via rcu
+f8f4c518fa91917b36e78483856d85a4bb24f9ec i40e: avoid deadlock when calling unregister_netdev()
+b9b17317509d3712cebcd4a2c8c1e7eede123410 i40e: fix potential UAF in i40e_vsi_setup()'s error path
+5bb2367b880065e4ac6a230e16a770773e8b3a00 i40e: do not expose netdev too early
+ac4b459b523289f3e16080fa2839c86c46bdc3b4 i40e: keep q_vectors array in sync with channel count changes
+6bbb5f6bbef2db111dee54de01ab7b2ac185bfb2 ice: add missing xa_destroy for sched_node_ids
+8f0c9282abd062a5bd3284117922898fe4046e9e ice: skip per-VLAN promisc rules when default VSI Rx rule is set
+0aa4d1f6db081a4ad800c126cedeb7abad4bd916 ice: preserve uplink DFLT Rx rule on switchdev release
+3c1ce66d9a85d7abc3256db78a98686e2fe8ca38 i40e: fix set_ringparam error path freeing live Tx rings
+3dcea976459696673230c1c2bb3e210bb6f16c12 ice: fix use-after-free in dynamic port cleanup
+281f8d7df1c642e10ad2136b8f360d183c349bf8 iavf: fix ASQ command buffer leak on init failure
+7ae263a0b1504113d19323fb4e2c5ce5c1bec694 iavf: fix QoS capabilities memory leak
+b832779eca0775d653a69bc018521cbbb9a517f0 ice: fix empty PTYPE set for GTP RSS profiles
+6c119cdbe9a1804e5e20863e77cb6a2c8964d82b idpf: disable DIM work before freeing q_vectors
+c11953564b158033625384aec0c07d5f3f4b9d88 idpf: disable PTM on probe failure and on remove
+63d4c15d0af51738a1fc4277d26e2367cc598fd8 e1000e: Fix out-of-bounds MMIO access by validating BAR0 size
+098ae9dd1b32378daf3f9abcfe377ba073f18258 igb/igbvf: disable work items before device removal
+66c28b9ee7116c77bf2deaaee125d3611a1e617d i40e: xsk: fix multi-buffer XDP_PASS skb construction
+a4d5787cff49a16d27250d40a075ebfa9e40acad iavf: fix VF stats not updating due to PTP command preemption
+bfbdb4c3af7d4806917735e45f793015f99533d5 i40e: fix napi_disable hang in i40e_down() during firmware update
+f73ae4cec527dd4ef4c6c3ce25c4618ab70da95f idpf: account for VLAN header when parsing RSC packet header
+d248b0faa74d6542ca8c14dfd166eb4b03e52343 ice: Restore Ordered MMIO Writes for Tx Doorbells
+c84c0cc762868d927c0d245b2d79cfae912138e8 i40e: serialize Tx timestamp skb ownership
+eddf4916f291b15d2ab69ad1ec4ae225a52e217e i40e: serialize timestamp configuration with PTP teardown
+5cf15cbb30fd4405ba7e56f24cba54ef5d0ddedb i40e: synchronize reset recovery with device removal
+0fd0cf5cfa59aa97c741ea9c4a9ed7229e50040c i40e: replace reset polling with wait-bit synchronization
+de78cb144699a6d6897f53bf2e028f4b58d5ec0e i40e: fix races in PTP external timestamp work handling
+1ec95b69419153435f51d5fe966a3d193d479111 e1000e: fix incorrect modified flag check in e1000_read_nvm_spt()
+f33447663dc82cce2945693c2a474602b7603172 idpf: fix possible race on remove during a reset
+c2a40caecb2159bdcf57be900841f44945e09799 ice: Fix incorrect LLDP filter assumptions
+fc2f1c9129d56157091a0e3c5e98d38af8c84a77 ice: Recalibrate PHY after settime64 on E825-C
+6af06f885218e14b8c679d9d2f6761c378fe4c26 ice: propagate ETH56G deskew poll failures
+e6473c310389ca31bf0b076b455c489cbd357c5f ice: fix metadata_dst refcount handling on representor teardown
+aca5dcc989a09456eb9103274c69cce0800c08f1 ice: allow reading the last byte of the NVM and Shadow RAM regions
+553d095d6a825b2ecc0a3bc3a9fa099b0ff97d06 eth: ice: don't dereference pointers from TP_printk()
+755f3c2843e76da3451c50606999729cea189a04 i40e: fix set_ringparam error path freeing live Tx rings
+eae57089c58daf4b4d45abb2fc9ffd09028f2a6d i40e: avoid resetting BQL state when freeing temporary Tx rings in set_ringparam
+a4a71ce0f9cbc3cf70cf157441e6f09f5a4610fe ice: fix bound parser hash offset before reading packet data
+ea68c7983ab00b4f90c2195523bb3f3e44af1004 igc: only strip RX timestamp header from first buffer
+19e81874becb701fba8b09eb1b458caf39299360 ixgbevf: fix link speed reporting for Hyper-V E610 VFs
+46cd38dd9ad34dcff3acf363a2a74942d480d7da iavf: add missing PTP adjustment callbacks
 
---===============6441392044074847551==--
+--===============1497113918242081457==--
