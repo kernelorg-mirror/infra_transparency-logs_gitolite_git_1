@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 08 Sep 2026 17:13:24 -0000
-Message-Id: <178888760408.2674797.8134682775316970045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 08 Sep 2026 17:20:36 -0000
+Message-Id: <178888803616.2681217.7939094135615193857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 99b1b1d3d5badd3cd76b9245ff372000cdfb51de
-    new: 17dbb6938d3ab444cd6be1c95506450595a8800d
+  - ref: refs/heads/for-7.4
+    old: 8bbd858c4710ff90491365c09209d9d6f70ced77
+    new: 1298c43b673274920b26e77d3df55c18c3b82f90
     log: |
-         17dbb6938d3ab444cd6be1c95506450595a8800d pwm: lp3943: fix NULL pointer dereference for an unconfigured channel
+         1298c43b673274920b26e77d3df55c18c3b82f90 workqueue: Fix typo "upto" in comment
          
-  - ref: refs/heads/pwm/for-nexxt
-    old: 99b1b1d3d5badd3cd76b9245ff372000cdfb51de
-    new: 17dbb6938d3ab444cd6be1c95506450595a8800d
+  - ref: refs/heads/for-next
+    old: 8bbd858c4710ff90491365c09209d9d6f70ced77
+    new: 1298c43b673274920b26e77d3df55c18c3b82f90
     log: |
-         17dbb6938d3ab444cd6be1c95506450595a8800d pwm: lp3943: fix NULL pointer dereference for an unconfigured channel
+         1298c43b673274920b26e77d3df55c18c3b82f90 workqueue: Fix typo "upto" in comment
          
