@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 08 Sep 2026 13:46:10 -0000
-Message-Id: <178887517025.2516174.4694312592874728382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leitao/linux
+Date: Tue, 08 Sep 2026 13:46:18 -0000
+Message-Id: <178887517885.2516400.4133562518768777882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/leitao/linux
+user: leitao
 changes:
-  - ref: refs/heads/kvm-arm64-nvhe-s1pie
-    old: 438f146f76f7f12e5fec50ed3d739e14e672a376
-    new: c725ec6f7fcab4ea19336db794e981d94ec7b45a
+  - ref: refs/heads/for-next
+    old: 28924df2a08f440c73991b83028032c901de2ae4
+    new: 2910643302c47ba7ed5e9f2a826ffe8762225344
     log: |
-         05f9299d59e9f45d8e8cbe81f9aa2d79f929be65 #KVM: arm64: Enable S1PIE for hVHE
-         c725ec6f7fcab4ea19336db794e981d94ec7b45a KVM: arm64: Enable S1PIE for hVHE
+         135304fbd26f27b44f640d0ca9bcc06338c397b9 selftests/configfs: add tests for the userspace interface
+         77492b356327f2b4192f9eade1e90cfb398015d8 samples/configfs: add a subsystem that accepts symlinks
+         aca8d9d02097db6275eb73600585e6489d60fb49 selftests/configfs: cover symlink and unlink
+         2910643302c47ba7ed5e9f2a826ffe8762225344 selftests/configfs: race symlink against rmdir of the target
          
