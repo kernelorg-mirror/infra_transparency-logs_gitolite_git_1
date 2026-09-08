@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 08 Sep 2026 22:37:50 -0000
-Message-Id: <178890707099.2920425.6163057100577159651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Sep 2026 22:39:14 -0000
+Message-Id: <178890715421.2921098.5471443084707174824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 0fd04e3f55e05ffdad05eaab5144a85ca23a6879
-    new: 5b88925c5ddfe09fc80644290defe7558279eb4d
+  - ref: refs/heads/master
+    old: 87bc9bbd67946b75e567462aaae5e42e0cc539d3
+    new: c3ddc50e722603f7e2a0797fb3053dc341e99d40
     log: |
-         5b88925c5ddfe09fc80644290defe7558279eb4d gfs2: fix NULL deref in gfs2_quota_lock() for meta inodes
+         c3ddc50e722603f7e2a0797fb3053dc341e99d40 Fixes for all trees
          
