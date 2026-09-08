@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6604956343393173194=="
+Content-Type: multipart/mixed; boundary="===============5869939419766766339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Tue, 08 Sep 2026 16:47:12 -0000
-Message-Id: <178888603233.2655342.3541679841952281093@gitolite.kernel.org>
+Date: Tue, 08 Sep 2026 16:47:16 -0000
+Message-Id: <178888603694.2655556.9660597287003976380@gitolite.kernel.org>
 
---===============6604956343393173194==
+--===============5869939419766766339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-7.3
-    old: 4299767d772d4e498998e32157e45841178ab192
-    new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-4299767d772d-df2908090cda.txt
+  - ref: refs/heads/next
+    old: d404805dc9898f9b1ced06a45d0a4f9a510e8594
+    new: d012a3001a042fa5958e46bc99d8a88e2529aa17
+    log: revlist-d404805dc989-d012a3001a04.txt
 
---===============6604956343393173194==
+--===============5869939419766766339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4299767d772d-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-d404805dc989-d012a3001a04.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -705,5 +705,6 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
+d012a3001a042fa5958e46bc99d8a88e2529aa17 Automated merge of 'dev' into 'next'
 
---===============6604956343393173194==--
+--===============5869939419766766339==--
