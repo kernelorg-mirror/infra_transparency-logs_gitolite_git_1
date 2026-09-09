@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2399750652481392328=="
+Content-Type: multipart/mixed; boundary="===============4645747204693462328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 09 Sep 2026 22:44:21 -0000
-Message-Id: <178899386123.4026466.8478078377845388848@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 22:51:13 -0000
+Message-Id: <178899427316.4033246.16616241379654136696@gitolite.kernel.org>
 
---===============2399750652481392328==
+--===============4645747204693462328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: 58a5bc61cb7065b52c5b3f537724b1991a88f3ea
-    new: 4fc88ba435dadbc05990951e3f3fbd8ccd2df140
-    log: revlist-58a5bc61cb70-4fc88ba435da.txt
+  - ref: refs/heads/fixes
+    old: 160a783aa65b74782bc17cb874af1a6d3f5fba3c
+    new: a58cbc8b36ec0cd00d2ba3de7d003de818a27523
+    log: revlist-160a783aa65b-a58cbc8b36ec.txt
 
---===============2399750652481392328==
+--===============4645747204693462328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58a5bc61cb70-4fc88ba435da.txt
+Content-Disposition: attachment; filename=revlist-160a783aa65b-a58cbc8b36ec.txt
 
+402c89d28fecd28652a4bfe997f08f6544836381 rtc: brcmstb-waketimer: add missing MODULE_DEVICE_TABLE()
+7490b8356e52e09c196645912f2c054f79aa5f3a rtc: ab-eoz9: add missing MODULE_DEVICE_TABLE()
+bcad3667a33750905fbb7470de5727bf8e37186d rtc: mv: fix potential race condition
+12b1843fee1fa7282b800a56faa360ee945630d1 rtc: mv: remove mv_rtc_remove
+da5e8713aee51dd73310bccf23d28446b39e7b0e rtc: st-lpc: get IRQ via platform_get_irq()
+abea5c349368a683e40fdc2e745099aaaacc89d7 Merge tag 'i2c-7.3-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+ee1b6365f07a14e987dd0f994fc7d46966037ea9 Merge tag 'pmdomain-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+259c4f8e775cf25069c30e806b037b154147720d Merge tag 'regmap-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+b3438e5ca785565a65ef231bc03cd5a05c3be5c7 Merge tag 'regulator-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+307b9ddbbcf987db77d52da6f9ff5b4096ac9599 Merge tag 'spi-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4e1b759c06721bc4e0fdfe5c179b58e7e20d3d13 Merge tag 'watchdog-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+7acf90feab8b009fde7def08ff2c622d0f10e99f Merge tag 'hwmon-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+a93f3bf4e1d60777b1659b812c9e818cfc53b449 Merge tag 'hid-for-linus-2026081901' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+e5c91aac491def6ab3f90c4cc246e3fcb0f8f058 Merge tag 'sound-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d86c91afe28b4666b6d8dd86c25d25235f88eebc dt-bindings: PCI: tegra264: Strictly distinguish C0 from C1-C5
+0771da4fb5ef57945fc9c929f60756023e120873 dt-bindings: PCI: tegra264: Switch to PCIe Root Port bindings
+f4cdf7ca9a1fdcca413157df19753f388a5a224e Merge tag 'media/v7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+01c3c27a0ef6a7f63559dba33c62377c21fc3ee9 PCI: tegra264: Add Tegra264 support
+c6cf4441a3a05bb7273ed022f3e56c4fc591da08 Merge tag 'devicetree-for-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+55aa45154fe48b7d8e96bc031ad27d5b0edfcdb8 PCI: vmd: Add Nova Lake (NVL) and Dunlow (DNL) Device IDs
+59e6295fac26b8e85c1ea859cdd89fa1e47519d7 Merge tag 'driver-core-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+028d8df0a1e376c6a87409302d9b6131ea4374f6 KVM: arm64: Avoid mismatched accesses to 'struct kvm_nvhe_init_params'
+d3a1b28ea25d4c1899a05833e1a9bc79d7c642c3 KVM: arm64: vgic: Free gic_kvm_info on initialization failure
+93cfad8da7164b095b2402ec9b2067fa15d6f250 KVM: arm64: vgic: Prevent speculative SPI array underflow
 2962174fdfa63e272082ea7ae989a8fdef29bd0e KVM: arm64: vgic: Reject out-of-range GICv5 PPI IDs
 302f94dc3f8c21c97d5e91a61a8987810803be6f KVM: arm64: Validate GICv5 timer PPIs before claiming ownership
 f18145128354f565f9f7518a2ed816e90099fc40 Merge branch 'kvm-arm64/pmu-7.3' into next
@@ -1023,32 +1047,8 @@ cbb4c6d9af7dde462f8c9261bdcd35c47a0b4054 CREDITS/mailmap: add some info about Da
 eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
-b3e6d01c33ebeb7734126acf4e80f7a1b67ad8d8 Documentation: sysfs-class-power: Update Long_Life description
-2f0dec12007891398e6e3041aca0b8656918973d power: supply: qcom_smbx: include base when petting watchdog
-68f645192f64e1037685dbdb0dffb41a5a012056 power: supply: qcom_smbx: test battery health status bits
-2a26d260e72a95e9f13b9e475f63aa404600fcb2 power: supply: qcom_smbx: fix float voltage selector
-a2d7dc538da2cb4a7426f0742197e762cb635f38 power: supply: qcom_smbx: validate battery float voltage
-2548e4fa576a87a3b0d1b15a9c3f909bc54887b5 power: supply: qcom_smbx: notify battery overvoltage recovery
-f0ff5673aa07ded2bb383ac526c1faee4fe9ca07 power: supply: bq27xxx: synchronize work cancellation on suspend
-38c8b37600b63db724c9c21d18d9989359353cc4 power: supply: s2mu005-battery: return errors from dev_err_probe() in probe
-1101833121a447999309a01f03d5b35bc1652e09 power: supply: mp2629: Use the full batt_impedance_compensation name in the ABI document
-f265940e54d749c77507da083a3c16a481f5f5c5 power: supply: mm8013: Publish the OF module alias
-db560f4b1c5253853f978385db066220e0c218dc power: supply: bq27xxx: Ensure poll work is cancelled on remove
-ece9baab2a6e79224d3f591893be23b540b1625f power: supply: bq24190_charger: use the wake irq API
-fbbfe77eb37ad1de7912c63a6adfe1b09a14670b power: reset: keystone: fix missing space in error message
-4798fbcd9148455a143b03985d89f956c78c53ba power: supply: fix typos in comments
-f170c05e3e08aa2068601db369078bb83dc5e7e7 power: supply: Pack power_supply_desc to eliminate holes
-4fe4d3dc5c20c62789c718946bdb4f72a7cf363d power: supply: Add sysfs entry for system load control
-7e051a18fc49959d9cac63c46f1bf34616a208af power: supply: ltc4162-l: Use POWER_SUPPLY_PROP_LOAD_SWITCH
-cb012fe405f0f487e9480472f3558e678556ed49 power: supply: rt9471: Use POWER_SUPPLY_PROP_LOAD_SWITCH
-3f21de6784a654503cc148169d1f59d89971da13 power: supply: rt9467: Use POWER_SUPPLY_PROP_LOAD_SWITCH
-a329f374fb2b98a4594c44169c7dc97775028676 power: supply: bq24257: Use POWER_SUPPLY_PROP_LOAD_SWITCH
-00d436f278929fb0db11ba5279dce21f82a177db power: supply: bq24190: Use POWER_SUPPLY_PROP_LOAD_SWITCH
-ac6656c56125ca0c7547789547b8c45c3b40f5e4 power: supply: bq25630: Add support for BATFET control
-c3a6ff174c98f2c7ea213765ff6969140c381e90 dt-bindings: power: bq27xxx: bq27z561: allow interrupts property
-122e0246f5bd573663203dd783161f27d790ce39 dt-bindings: power: bq27xxx: document bq27z746
-abe09806ef8b76f47e6248c82abc1d1623e9f985 power: supply: bq27xxx: add support for bq27z746
-4a35810a847411c466a15d1737d11e8e818dc197 power: supply: bq2515x: Propagate charge-enable read errors
-4fc88ba435dadbc05990951e3f3fbd8ccd2df140 power: supply: cros_charge-control: adopt EC charge state on probe
+f444a42dce5caf5856b5289c48e0d48e531649d3 power: supply: max17042_battery: Fix vmin assigned instead of vmax in DT parsing
+45d4af4e80a25881b6b75e8e34872c555c43a41d power: supply: Fix maintenance charge table kernel-doc
+a58cbc8b36ec0cd00d2ba3de7d003de818a27523 power: supply: ds2780: Fix ds2780_get_capacity() returning raw value
 
---===============2399750652481392328==--
+--===============4645747204693462328==--
