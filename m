@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0203325299334983157=="
+Content-Type: multipart/mixed; boundary="===============3626934502098771648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 09 Sep 2026 13:14:22 -0000
-Message-Id: <178895966264.3591344.5252566454021725121@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 13:17:55 -0000
+Message-Id: <178895987541.3594937.2062832089938688209@gitolite.kernel.org>
 
---===============0203325299334983157==
+--===============3626934502098771648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e86bee9f4f0ed5ec071af4ba8e26e1416b3e6ff8
-    new: cce07bc17cf9f385dfae51d005e456cf06b0b4fc
+    old: cce07bc17cf9f385dfae51d005e456cf06b0b4fc
+    new: 01325ae7527d3746af5a6962659b54f30ce04dab
     log: |
-         3b8ba4e763578e8c406c807ee3e3e9977599a85a drop 6.18 patch as the depends were too much, and the fixes for it didn't work out.
-         cce07bc17cf9f385dfae51d005e456cf06b0b4fc 6.18-stable patches
+         591dd0c507dfea47b15234fe543d6da3e4817027 5.10-stable patches
+         53b84baefd002144b947419c267ecb47cf6b039c 5.15-stable patches
+         5337fd7f01e516e1b27eb0181a1f0e938cf52b7c 6.1-stable patches
+         7672c7d8f8995fc3186bf3711fcfb9208ffc8127 6.6-stable patches
+         01325ae7527d3746af5a6962659b54f30ce04dab 6.12-stable patches
          
 
---===============0203325299334983157==
+--===============3626934502098771648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788959656 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788959869 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1788959660-d10fc412fa0f70ca5133c92fda92cc3a742d07ae
+nonce 1788959873-f2c6222f9cc00ef7a13cd0a68cfcc9315c8ca0b2
 
-e86bee9f4f0ed5ec071af4ba8e26e1416b3e6ff8 cce07bc17cf9f385dfae51d005e456cf06b0b4fc refs/heads/master
+cce07bc17cf9f385dfae51d005e456cf06b0b4fc 01325ae7527d3746af5a6962659b54f30ce04dab refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqhW6gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8HQP/3X7rlpb8uY85tkJrDMc
-fX05PZVkb7YMJdzPD4rJPu+8lSum5V5jlu3VIUeqHtrZRwxo0EFq2wALR7lNDCjL
-JsZMOnzxK7M8C9V3qrfoeGKW6TrXunSe5FwsVgw4/xku0bNWZVK6UkyCKyzpn2PA
-HGZgg7CLEyPhs6KK3wL5z1kTgSQ3ZkxTCh4zzoHThNOXLPu8VdpyDwV+yu5pt4Su
-uLoMicZ4U/COutq+hA++PIBCl5jGg80l+0w+CO18i60k/3MRUPLhJK5wBDoRQP0c
-EyvXU8Si45AWXXIEvn2Kc0VfO2mvLrWr8nxNPVnGtH/zZuUXfBz9uY9OBbmCzkLb
-OIk+9MWNgFlqpZZDzZhaNqXnFfeQgJNz4d8heHgkdI0Rv57Ml9LQuQz17oNcbbGn
-Xa1eocrcHBJG+g6WLWqMs57PEaY/1ua6tjWZmcOsFB6Eh7ZxbpsEkirJW2MOHrEi
-aayt2FvjNwXmXBt+k3skZdsFjTBqzWaqlWg5wUfoPM0H41EPvo21S9O4XSJUuFFF
-2PS28hKDq5VQTShN1FWuwKlZ7xC0uQ2uNbRQKEdKy7IyOGsNybkoWN/AxXDvqol0
-dw5ISl2kWjuVYnZEaJZHMM3+2bDXAFdItnLXidQzmaZ+7OLy8OEkc21YqSGtQ4gH
-x7sNO7mYKBLWBjliOKojEJz4
-=RsEY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqhXH0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6fIQAI2zbyLyVZRJlc1eXrJO
+KLAGp1DwN/lfaw46T5FoqG6iRcYgOoWt449TPAnuqObiacsDPrukSv/dpkW+Brb3
+WLnvBLzzpobzwhXo8sJJ9oHEhHgShxPmkNyT0UCP9FkYZe0gJtErQ6rBAc5E71Qs
++RXk+k/wpWvkp77A8NJSkoOVkr0qtOnEYanRx52GshOkrxkm98PcuA2N2JKZlOMo
+faO7e9Xvs45MfZiXXyRdJ8DYIVkA7E9EK2aRPRCr7WzCDP70l33CJGoVYB22PyGs
+CXEZZ9AZpAZIun2L98Q5TKubI+SMLoBg8bsQYocZpXH72WXAIVLJG6Rz9PELIJSx
+NDVqQPZ9FbwQscm0LPtD/qCCq+y5HMNVG4/TRCFaS6Ea9g6mNo9O3QRWEXJVh1D6
+KzyGLu07ESj3Uy9qphFnF37n2lycsGDuQjtcnfHNn4iumLDb/lAEvnJvWG1Sj3+Z
+YFKcaMByRkyZgf5SEFEykaM7qtFOFtGlEvA+uQeFj/NQ4CiQRk8tZGoSXN/ByUYs
+Pwzhbc5++NuMeyONGDVDn9gZgyGuWQXIXFux6a9X/MiEat7jpAIoHcomajUyWhG8
+ZMmSN4zVbFbWx+YjrklnrFhHx/bXbsjIWf5bzgLY2HvKy9P13ntwXvdTHDPiCvuJ
+Y76V+8Ydmpveszgz4Bj1GI2R
+=1L+t
 -----END PGP SIGNATURE-----
 
---===============0203325299334983157==--
+--===============3626934502098771648==--
