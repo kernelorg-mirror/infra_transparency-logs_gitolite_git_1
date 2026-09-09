@@ -1,30 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 09 Sep 2026 17:57:24 -0000
-Message-Id: <178897664401.3816062.14734936583816208093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/infra/patchwork/patchwork
+Date: Wed, 09 Sep 2026 18:00:17 -0000
+Message-Id: <178897681730.3818861.5775078471942357860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/infra/patchwork/patchwork
+user: mricon
 changes:
-  - ref: refs/heads/for-7.4
-    old: 570355c81dbf3bc88e45e3ce5b3f5938cfda11bb
-    new: 46eb991947d45f7e3bf4fc9d9e3b1c3454627400
+  - ref: refs/heads/korg-infra-devel
+    old: bc8b8601479f8d2d98d2a18da20fbc7fe7425233
+    new: 2cd6ca454a65c84e4b72669424fb05892036bd04
     log: |
-         60204f773b3851ab8320c83c84b0bd1f67189f76 selftests/sched_ext: Drop -rdynamic and stop clobbering LDFLAGS
-         dec231d15736a22d4500628d9993aed4f3502c15 sched_ext: Merge adjacent ifdefs in ext.h
-         46eb991947d45f7e3bf4fc9d9e3b1c3454627400 selftests/sched_ext: Validate select_cpu_and mask constraints
+         5c5ccaa9eaa44633dfa1412a30a1767b44c876e4 Guard toggle-patch-series listener against missing element
+         2cd6ca454a65c84e4b72669424fb05892036bd04 Add a user-selectable diff colour scheme (accessible/cgit/legacy)
          
-  - ref: refs/heads/for-next
-    old: 88158a65dae4639b37525c6d74d7cc6c528c3680
-    new: b90fdc155bedf05baeb28c3f8a51bb5639cbf9a5
+  - ref: refs/heads/korg-infra-test
+    old: bc8b8601479f8d2d98d2a18da20fbc7fe7425233
+    new: 2cd6ca454a65c84e4b72669424fb05892036bd04
     log: |
-         60204f773b3851ab8320c83c84b0bd1f67189f76 selftests/sched_ext: Drop -rdynamic and stop clobbering LDFLAGS
-         dec231d15736a22d4500628d9993aed4f3502c15 sched_ext: Merge adjacent ifdefs in ext.h
-         46eb991947d45f7e3bf4fc9d9e3b1c3454627400 selftests/sched_ext: Validate select_cpu_and mask constraints
-         b90fdc155bedf05baeb28c3f8a51bb5639cbf9a5 Merge branch 'for-7.4' into for-next
+         5c5ccaa9eaa44633dfa1412a30a1767b44c876e4 Guard toggle-patch-series listener against missing element
+         2cd6ca454a65c84e4b72669424fb05892036bd04 Add a user-selectable diff colour scheme (accessible/cgit/legacy)
          
