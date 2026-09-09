@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Wed, 09 Sep 2026 00:03:30 -0000
-Message-Id: <178891221017.2985622.2957126427463215310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 09 Sep 2026 00:05:05 -0000
+Message-Id: <178891230507.2986788.2474506779329274178@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: f24799d4071e82f2273c2f1687f5031f8975ed51
-    new: e74f079e8c1d09d9f335e45d332855223dc58e70
+    old: 489849aa847cdcc0b354072c87131fe216b61d01
+    new: 59ba1c34fb6538206e96597739f053183d1e6428
     log: |
-         e74f079e8c1d09d9f335e45d332855223dc58e70 tftpd.8: complete truncated sentence about exponential backoff
+         59ba1c34fb6538206e96597739f053183d1e6428 man/man5/proc.5: FILES: Use a traditional section heading
          
