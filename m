@@ -1,88 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============5730094318583681034=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 09 Sep 2026 06:41:53 -0000
-Message-Id: <178893611339.3282626.10791901031997904149@gitolite.kernel.org>
-
---===============5730094318583681034==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
+Date: Wed, 09 Sep 2026 06:42:58 -0000
+Message-Id: <178893617889.3283095.14556981435497772677@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/wens/linux
+user: wens
 changes:
-  - ref: refs/heads/master
-    old: 62d56f9cd7a5834a27ed58827e981b879005f1a1
-    new: 123f122bf1c8ee24cc967e53bfbc1c612551829c
-    log: revlist-62d56f9cd7a5-123f122bf1c8.txt
-  - ref: refs/heads/tip/urgent
-    old: abccc163af37abddf779d90efc8b0cc476621d6e
-    new: b4551ede6c21d071f01536d83822d7e04705f33b
-    log: revlist-abccc163af37-b4551ede6c21.txt
-
---===============5730094318583681034==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62d56f9cd7a5-123f122bf1c8.txt
-
-c89563c1d1b35fbbad097ba739156c27ef1235cf Merge branch into tip/master: 'core/urgent'
-df831c658fe3a6f6173332a696ec634327acc3ff Merge branch into tip/master: 'irq/urgent'
-2544e98f06615b1fef7bba93d184a9f15e27eebf Merge branch into tip/master: 'objtool/urgent'
-0255121da37db9cea190f90672080f68b37c5603 Merge branch into tip/master: 'timers/urgent'
-6a4a5a9a816a3c48fb528d86f21882e3148b5347 Merge branch into tip/master: 'x86/urgent'
-b4551ede6c21d071f01536d83822d7e04705f33b Merge branch into tip/master: 'x86/mm'
-5da378a2ff8ae716ed50cb2296a4efb264eac863 Merge branch into tip/master: 'irq/core'
-857e8fc79d1c1b266b0606a76de379fb8dc1939e Merge branch into tip/master: 'irq/drivers'
-f5a0bbf2c05a5c18d1d21d3249c65e61d078d436 Merge branch into tip/master: 'perf/core'
-3b5a34be67da482d4114ee168517548475d94f27 Merge branch into tip/master: 'sched/core'
-f92c4c6acda98ac82e0f499958998f27dbf9cdb8 Merge branch into tip/master: 'x86/boot'
-275ec2ca33b1de4ee59afa9d49f21a0a3d2fcd6b Merge branch into tip/master: 'x86/bugs'
-294c75fc7b7fd88b669d27047fbf7fa77ce702db Merge branch into tip/master: 'x86/cpu'
-84fa341d48dd10c208df49c860afa93e6df70e4c Merge branch into tip/master: 'x86/kdump'
-a3274482f93fda335521bc4f8de05da0d2ef34b4 Merge branch into tip/master: 'x86/misc'
-81550f70cc7a0c51bcb0fa1cf03df761a3d426f2 Merge branch into tip/master: 'x86/sgx'
-123f122bf1c8ee24cc967e53bfbc1c612551829c Merge branch into tip/master: 'x86/tdx'
-
---===============5730094318583681034==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abccc163af37-b4551ede6c21.txt
-
-2c1dde8a69a3a7d64425a6de0add6e289a5a402f powerpc/entry: Clear TIF_SYSCALL_RET before syscall error return
-c7585b8e99ad97a0f5dd21e45c90a33aeab0d92b powerpc: Don't drop _TIF_RESTOREALL on syscall restart
-c2549d749539487239475fbc8c614a1f9244d655 powerpc: Do not restore KUAP in arch_exit_to_user_mode_prepare()
-ac53977611428db3bc0b4ac0225e19c3e08ae50b crypto: x86/aria - add missing vzeroupper in AVX2 code
-60892a384aa1e65d0e703e1c513417bdf0c80777 crypto: x86/aria - add missing vzeroupper in AVX-512 code
-d96171d911e3b89ca2957c04264019cf2f96287b powerpc: pci-ioda: Fix the stale irq chip reference
-c5e68706527968282e49de205cc2b935823cb88a powerpc/eeh: Fix recursive locking on devices without EEH sensitive driver
-8a4978c17a144a6583478cce933bcb2dbb25298d powerpc/rtas_pci: No hotplug on permanently removed device on pSeries
-c6755be4838d6ccd641effbcdc3d917b82631ff9 powerpc/kexec_file: Use inclusive range checks in add_usable_mem()
-68832eb08751b4ce23e90bd90e9414a465a99da3 powerpc/kexec: Simplify kdump_extra_elfcorehdr_size()
-449f60f99f8f3cbe80a9bd2242945e827c5ed003 powerpc/kexec_file: Use inclusive range checks for excluded memory
-b1824233b19c1dffdb5e81283805a9e52e763caa powerpc/pseries/pci: Fix misleading VF limit error message
-63a7531ca31f9f097d9cc1cc3fe86ae683cdabdd powerpc/entry: Fix irq_soft_mask corruption on replayed interrupt exit
-5ba79d37403d86082ab4083b0f51ec3008a942cb powerpc/ps3: Fix repository.c build failure
-45a5f7285f835adb3b74c9344c09a7bd2c4fb664 MAINTAINERS: powerpc: Add Ritesh and Shrikanth
-7daadf5131ed488037cc4540797e53c7f2c5d3ec Merge tag 'v7.3-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-5acbae5f7eb3d5275120abfe698c394b7325dcec Merge tag 'powerpc-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-893e11787f78e43b534e252249ac3fff4d1333f8 Merge tag 'x86_urgent_for_7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ebaf7c9bbb1e16523d7036e7e1225ad2dfcc6482 x86/mm/pat: Fix effective RW computation in lookup_address_in_pgd_attr()
-a1c7570cedd03372812a5b693732880867babbca x86/mm/pat: Acquire init_mm write lock on collapse to avoid UAF
-d5d8b8662e6e5a565b47a0388640e88402f23274 x86/mm/pat: Acquire init_mm read lock on attribute changes to avoid UAF
-1587d3394e254639cc36516256031334095e6ef3 x86/alternatives: Exclude text poking against change_page_attr()
-9e4a3ec3411bb6bb59e3c1f29b75609f1e87aac4 x86/mm/pat: Allocate split page tables as kernel page tables
-f7491d7c81db0e7c304a7bd757a76d2fbeaff80e x86/mm: Fix user-space data loss with MADV_FREE and THP
-c89563c1d1b35fbbad097ba739156c27ef1235cf Merge branch into tip/master: 'core/urgent'
-df831c658fe3a6f6173332a696ec634327acc3ff Merge branch into tip/master: 'irq/urgent'
-2544e98f06615b1fef7bba93d184a9f15e27eebf Merge branch into tip/master: 'objtool/urgent'
-0255121da37db9cea190f90672080f68b37c5603 Merge branch into tip/master: 'timers/urgent'
-6a4a5a9a816a3c48fb528d86f21882e3148b5347 Merge branch into tip/master: 'x86/urgent'
-b4551ede6c21d071f01536d83822d7e04705f33b Merge branch into tip/master: 'x86/mm'
-
---===============5730094318583681034==--
+  - ref: refs/tags/refs/merge-window/10665a9025de5dc73a3599a48aa1eaa0134804fc
+    old: e6c8efc9bb5df0989fb16429a8f4315b58d2c5c5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/136e9300e5177580086bece9aaf1dabc9e267b44
+    old: 621dee2e323dae821fceca313e8df4a73ea02702
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/1f2df8a15dad238c66ff0b664ad65e635ef4d482
+    old: 4fafc90258916e76e54155554d239dc2afe09461
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/2f310bb0cd7d95b7f29ffbffa8e2846aea58a7e4
+    old: a8c6a26a6e5e3a04079dafdcedc80cce0ddfe4cb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/3e57ed20c0db4bc381e695c33b3235c6a948b4f8
+    old: 6dd790155331031b74204a0e5734b118b3d3e6f5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/434fad0bfd31704048031688b14196f088486f6a
+    old: 429e9007a164692cdb60491cef220bbe824bc1cd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/4f3ec96d69ffb78260cd04bd26a65ecfde9de6ff
+    old: a52f3422c49a2feb25edcece5e19d4773323ede4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/5d822687f8e7a9ed508bb5b73fd4fa90a6f526e9
+    old: 519f476c7e04f2209666ab7a1eff1ba216e513c9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/69e5cd1262043a6bfdd55693f1950119f50f0f77
+    old: e524b496f72536963ba9b156122b04b2c2c6b9dc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/78fcd640d0bb2c68b3ce6a3ad583b4428310122b
+    old: ce20e990a4155f904a5a8250a389a542c1317e93
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/87cffa2fc43294966d89248a021b5cb1fe318000
+    old: 3a2b16e87486fb80da42dec57b6de076e5d5f9dc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/8dabae51c611444836f2bdf517511a316e46d680
+    old: 313935e7712aae6bad896ff0f5b6a77e6aad243a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/90272c66977cd3593c735fe51cb0a52cc0e89077
+    old: 7851c050d359da51c8d5e0c5722256d10789ba8a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/9533eddc702700a11461d3da0a8f49e3d7d52dd2
+    old: bacbdc2add3188f3d49f696488367671790b010a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/a491e1430a4fbfab275a200b4acfa057f0aab44d
+    old: 2f7a88cd58ea60a7dd247bd0290b41761f55fb3d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/a7e15565268e294de1ce6b56f6eb3e3b6edc43ab
+    old: ff570ffb8eeb863de6ec6e8fc294c273a91e96bd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/b827c43e648e8fb7728896c0eaeb088d89b2cde9
+    old: d5a487a8becf33462461f35248aadad70a1406f9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/c259ae4b4ae025450466b9dc324e64daec2f75db
+    old: fbdc1d8b0a4582e3211cee46b1e18a231f34f1fe
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/c4231d23938e5c6e3efb8a84e45e9b41ce42c335
+    old: 7b936c817821e50b58fd3639a910c384a8a97d4c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/ce05216f68127d8642f5e042288f65a554f08fd2
+    old: 22cf6aa7fe6f92e947d217b09e76d9e3fc9f7406
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/d0426043cbc2fc676d6152b911adbeaf2a2cc1f1
+    old: 9a75f69e9549dcdc232cf095404098070e6acdf5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/d125f5c03e2ad0c25ecb026c6c504c1f4f1cbc9a
+    old: 6961a9a12e9ca188d5f605218af7365a6ae3b9a8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/d72f629726433dd34b82ee31359234a9e00e8c98
+    old: 7923dc7d03fb3c2741012d47a242197facf6c345
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/df7610115bad68761e38a34648dfd6f5cd161cd6
+    old: 6476a5b76c344a30eaf898aacd4cf60c349430b5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/e2d852f67fe5bf43458749b71ed8658a03563958
+    old: 60074660d9778f74abd4ed8cd3f4235293b5f728
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/feb500dc97ab9fa92ee34b32e661d52d15b9b36a
+    old: a2339af1d66ff6d192d7b8dfce3eedd9f1c9b7b8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/fef1ec39862add142fe2078106ab54ee8563a0a7
+    old: 13d279473d7d8557620373392e7b73599f04f696
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/refs/merge-window/ff01ee92fd1554bdb7e1df2b9532690e425f3b81
+    old: 5f5a7bc3c4a2ce71a00a1216d65beef676b6f3fe
+    new: 0000000000000000000000000000000000000000
