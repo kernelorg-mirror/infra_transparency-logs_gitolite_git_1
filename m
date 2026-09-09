@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Wed, 09 Sep 2026 00:36:05 -0000
-Message-Id: <178891416514.3014617.15356018325376953877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 09 Sep 2026 00:38:05 -0000
+Message-Id: <178891428513.3015195.17753487225294433475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 213d91fbbc01446f79c10b164274ff97e57c275e
-    new: 85b246c2bb3887ec19367841b342312f89090aaf
+  - ref: refs/heads/main
+    old: 789842b671a842f961b299842bd590d130cec07f
+    new: 548b86839f7fb819a4d6c83b71c73ec378d24275
     log: |
-         43a86cbcbfd38e992d6f5d5009eea60f436711e4 tftpd: close descriptors on access validation errors
-         ab93a245747ada8948f4594de54a4b2b30c4b462 tftpd: log failed and completed transfers
-         85b246c2bb3887ec19367841b342312f89090aaf tftp: return failures from command mode
+         548b86839f7fb819a4d6c83b71c73ec378d24275 net: ipa: Drop the monitor_rx endpoint_id ABI entry
          
