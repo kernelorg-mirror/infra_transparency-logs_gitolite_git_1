@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/patchwork/patchwork
-Date: Wed, 09 Sep 2026 18:04:49 -0000
-Message-Id: <178897708947.3821357.7623780607261561820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 09 Sep 2026 18:14:27 -0000
+Message-Id: <178897766751.3828255.15961312907529330494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/patchwork/patchwork
-user: mricon
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/korg-infra-devel
-    old: 2cd6ca454a65c84e4b72669424fb05892036bd04
-    new: 93c73f9c150286d2f40ea732307c2274d37617ce
+  - ref: refs/heads/master
+    old: 43c33b9a411f072550ed0c34e205933b273ebbc6
+    new: 19ebd6a2124de54fff5906d84e26cd5370937c54
     log: |
-         52362ddac9ca3340303aa1074ff202c871d1253c Guard toggle-patch-series listener against missing element
-         93c73f9c150286d2f40ea732307c2274d37617ce Add a user-selectable diff colour scheme (accessible/cgit/legacy)
-         
-  - ref: refs/heads/korg-infra-test
-    old: 2cd6ca454a65c84e4b72669424fb05892036bd04
-    new: 0e0122db0025a2d35d1ec5c2b8052584380c8693
-    log: |
-         31083891fe1826142e786b41e686e53fad4427d8 Guard toggle-patch-series listener against missing element
-         0e0122db0025a2d35d1ec5c2b8052584380c8693 Add a user-selectable diff colour scheme (accessible/cgit/legacy)
+         2ef7a4b547eb2eebff836cecf254cc4483709875 monitor: Show bit value when decoding LE supported states
+         19ebd6a2124de54fff5906d84e26cd5370937c54 monitor: Fix the supported commands decoding of Bluetooth 6.3
          
