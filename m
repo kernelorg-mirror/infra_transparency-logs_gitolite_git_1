@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Sep 2026 00:51:12 -0000
-Message-Id: <178891507211.3025838.12561645501355384829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 09 Sep 2026 01:02:27 -0000
+Message-Id: <178891574728.3038401.10091107720726162616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: ba4ba11ed6eb8972c69070417fc27b48deb002e8
-    new: 7a49e6b16f36b8e085521699adbca3e321b6dd0c
+  - ref: refs/heads/p2pdma
+    old: f7c2204047009dd488ef05288c8cc9a8d70c058a
+    new: 78a60dd7afb54ed9422247efb57c7a9a6011f2d7
     log: |
-         7a49e6b16f36b8e085521699adbca3e321b6dd0c net: bridge: use option bits for CFM/MRP frame handlers
+         78a60dd7afb54ed9422247efb57c7a9a6011f2d7 PCI/P2PDMA: Update DMABUF lifecycle docs after move_notify() rename
          
