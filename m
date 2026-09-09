@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8136436189803916305=="
+Content-Type: multipart/mixed; boundary="===============6684039919688413830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 09 Sep 2026 16:14:54 -0000
-Message-Id: <178897049400.3733284.12113554946757654750@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 16:14:56 -0000
+Message-Id: <178897049651.3733399.12969226741031510731@gitolite.kernel.org>
 
---===============8136436189803916305==
+--===============6684039919688413830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: b15b548d52b43ba8ac4652bc2c7244a8dd1e9622
-    new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-b15b548d52b4-df2908090cda.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 1f3e66348d2527c31b9bedb0b4d9e28bdad9bc83
+    new: 5b93d13f76879001c7a8861942e72a89180c8bd7
+    log: revlist-1f3e66348d25-5b93d13f7687.txt
 
---===============8136436189803916305==
+--===============6684039919688413830==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b15b548d52b4-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-1f3e66348d25-5b93d13f7687.txt
 
-4b47e81e5657ea0d9c157399b366776a042ac8d8 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up already-upstream changes to memcontrol.c, needed by "memcg: move mem_cgroup_swappiness and vm_swappiness to mm/swap.h".
-d230991493b521eeff39f32434fddcbcdb109eb0 mm: mempolicy: fix automatic numa balancing for shmem
-644ad84870ab503f5619d21cf3d37efb134e82de mm: nommu: point to the write iterator upon split_vma
-9b5e4809806cb300cc163b26fa70dfd36e3577b3 maple_tree: remove undocumented CONFIG_MAPLE_RCU_DISABLED macro
-1eba458a54d073aa8bd62627ad0e9264ef0f51e3 mm/kconfig: drop redundant memory hotplug dependencies
 092836fedd82cdafc6e2085c4b7a7878bfa3ca1d mm: standardize printing for pgtable entries
 0b4268ac77fa6e2c05fc8b90441b0832b211385d mm/kconfig: drop redundant dependency wrappers
 0bd14001eb264247d565a5a44a71675df273640d mm/vma: introduce VMA anon page offset field and add helpers
@@ -1050,5 +1045,10 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
+6bbac64095dfa606fac5fe87e9161913cae92294 i2c: acpi: Add DELL0A86 to i2c_acpi_force_100khz_device_ids
+7659ba45c535cb43c7a354aa8a43ca9ae57915fb i2c: busses: Use pm_runtime_resume_and_get()
+7159c712c182fc03c41cdfcab84fca88b3fc4900 dt-bindings: i2c: xlnx,xps-iic-2.00.a: Drop bouncing mocean-labs.com
+cba655492c205f3e65b5fe94ae5bb2a8ced3170b i2c: bcm2835: Make sure clk_init_data is fully initialized
+5b93d13f76879001c7a8861942e72a89180c8bd7 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============8136436189803916305==--
+--===============6684039919688413830==--
