@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 09 Sep 2026 15:56:14 -0000
-Message-Id: <178896937494.3719839.16470305994412679219@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 15:59:28 -0000
+Message-Id: <178896956870.3720663.15219630319837275216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,17 @@ repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
   - ref: refs/heads/for-next
-    old: 29023a6cf7f6696f63dbc10629bf03f009098331
-    new: e87e926faac4499c7f5eaf36bc2c35ae6a1449e1
+    old: e87e926faac4499c7f5eaf36bc2c35ae6a1449e1
+    new: 88bf9415c48d685a3146e8ffbd0e6f81d070c382
     log: |
-         bb4f38f65e4ee0e4952d72dfae793ec7099cab95 io_uring/uring_cmd: only cancel requests of the given task
-         c8733aa26a5e875ae7eb28860b6d438b6b78c89d io_uring/notif: count pending zerocopy notifications per ring
-         92c95037dd090d06acc1ba7a42da181b9cb5148d io_uring/cancel: cancel and wait for all requests on process exit
-         8ddf9db51d75ae7ae344892ef8d8cf2bcea3b1b1 io_uring: run cancelations synchronously on ring release
-         a356d4eda340f58bb2823f58be09333d347fae29 io_uring: drop registered files and buffers at release time
-         eaeeceef6d9f6933f9d689f00456176a4ed403b9 io_uring: wait for in-flight requests on ring release
-         db06d7713376eb9513a163c6202e07b855ce1563 io_uring/io-wq: put the request file before posting a completion
-         e87e926faac4499c7f5eaf36bc2c35ae6a1449e1 Merge branch 'io_uring-exit-cancel.4' into for-next
+         6028b543884f8735e057ec9eea4908cd61cab230 io_uring/net: don't overconsume buffers when using MSG_TRUNC
+         47ccc3f1c615a46c25cbf7f3ae60df30b40eb2e6 io_uring/rw: keep CQE flags on iopoll requests when adding kbuf flags
+         88bf9415c48d685a3146e8ffbd0e6f81d070c382 Merge branch 'io_uring-7.3' into for-next
+         
+  - ref: refs/heads/io_uring-7.3
+    old: cef06a8227f540c71f815d960d3e18d9290fd2a2
+    new: 47ccc3f1c615a46c25cbf7f3ae60df30b40eb2e6
+    log: |
+         6028b543884f8735e057ec9eea4908cd61cab230 io_uring/net: don't overconsume buffers when using MSG_TRUNC
+         47ccc3f1c615a46c25cbf7f3ae60df30b40eb2e6 io_uring/rw: keep CQE flags on iopoll requests when adding kbuf flags
          
