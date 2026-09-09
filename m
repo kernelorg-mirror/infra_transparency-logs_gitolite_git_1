@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3081131310896012822=="
+Content-Type: multipart/mixed; boundary="===============5470362046575824482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Wed, 09 Sep 2026 20:31:32 -0000
-Message-Id: <178898589299.3927899.13791553250929040798@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 20:31:46 -0000
+Message-Id: <178898590697.3928159.2740166937183303158@gitolite.kernel.org>
 
---===============3081131310896012822==
+--===============5470362046575824482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
+  - ref: refs/heads/linux-next
     old: d06c75c22d5c95ee27e01fedcaa07231c9bd5c88
     new: df2908090cda368b01ff43709f51890076c56157
     log: revlist-d06c75c22d5c-df2908090cda.txt
 
---===============3081131310896012822==
+--===============5470362046575824482==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 
---===============3081131310896012822==--
+--===============5470362046575824482==--
