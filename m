@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 09 Sep 2026 00:05:05 -0000
-Message-Id: <178891230507.2986788.2474506779329274178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
+Date: Wed, 09 Sep 2026 00:10:09 -0000
+Message-Id: <178891260991.2991566.11765040840870001234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/nathan/linux
+user: nathan
 changes:
-  - ref: refs/heads/master
-    old: 489849aa847cdcc0b354072c87131fe216b61d01
-    new: 59ba1c34fb6538206e96597739f053183d1e6428
+  - ref: refs/heads/clang-fixes-for-next
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: 0bb666d5f5a2339a5692afb312c2161df9620503
     log: |
-         59ba1c34fb6538206e96597739f053183d1e6428 man/man5/proc.5: FILES: Use a traditional section heading
+         0bb666d5f5a2339a5692afb312c2161df9620503 once_lite: Simplify condition handling and fix context analysis
          
