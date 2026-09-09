@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 09 Sep 2026 01:14:35 -0000
-Message-Id: <178891647509.3048780.4683981911308436146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Wed, 09 Sep 2026 01:21:50 -0000
+Message-Id: <178891691037.3055596.1218646545144210977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/for-next
-    old: ba285edf3fd1a27f8ec739b5b396d45c98eabee0
-    new: dd660a0e0fee1bc892e16fdb6abdf92676515175
-    log: |
-         796aa0547557e63338657ed1c487906f9fac4c73 io_uring/rw: end write accounting from ->ki_complete
-         dd660a0e0fee1bc892e16fdb6abdf92676515175 Merge branch 'io_uring-7.3' into for-next
-         
-  - ref: refs/heads/io_uring-7.3
-    old: 2cf20c4e0f72d523b8673053e7120d092ff1f074
-    new: 796aa0547557e63338657ed1c487906f9fac4c73
-    log: |
-         796aa0547557e63338657ed1c487906f9fac4c73 io_uring/rw: end write accounting from ->ki_complete
-         
+  - ref: refs/heads/renesas-lts/v6.1.175-2026-06-04
+    old: 2b1932f89de9d50c8757a88935c11fa112933765
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas-lts/v6.1.176-2026-06-22
+    old: 5d2b3ea64255b4d2feb46dd2339e5edd0d5687ef
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas-lts/v6.1.177-2026-07-21
+    old: 22c076b319ea5986bcf118bb935593248eb2bc34
+    new: 0000000000000000000000000000000000000000
