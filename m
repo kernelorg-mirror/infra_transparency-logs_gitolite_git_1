@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2028425319976158643=="
+Content-Type: multipart/mixed; boundary="===============1084130057685271373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 09 Sep 2026 08:35:49 -0000
-Message-Id: <178894294904.3368478.3736827334577337323@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 08:36:07 -0000
+Message-Id: <178894296744.3368767.14654176349877854373@gitolite.kernel.org>
 
---===============2028425319976158643==
+--===============1084130057685271373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/x5h/i2c-experimental
-    old: b3532e6bca64adc6bfe7647c4c8d7b5868af1f9b
-    new: a6364e50d23519af352e9a98a364d1f34b0a23cf
-    log: revlist-b3532e6bca64-a6364e50d235.txt
+  - ref: refs/heads/renesas/x5h/base-experimental
+    old: 0b3f424f019a1afae5ac4751183180925f82454d
+    new: b6baa87a93fb39a29c8f77b45c9c64b72d2e9bb6
+    log: revlist-0b3f424f019a-b6baa87a93fb.txt
 
---===============2028425319976158643==
+--===============1084130057685271373==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b3532e6bca64-a6364e50d235.txt
+Content-Disposition: attachment; filename=revlist-0b3f424f019a-b6baa87a93fb.txt
 
+e781e96b5e19c91958ed725c0d222d4345c5f56b resource: fix lost wakeup when waiting for a muxed region
+3cf22062b5c77475b9d4387a52350de10ec0ca8e fault-inject: fix dentry leak
+c7baeac94b1457e4ead242e419edb9caf5f3d97f mailmap: update email address for Bradley Morgan
+a73440b17e144eb6883d77111c09eeea41665485 fat: fix fat_ent_write() for reverting the value
+499acbb81224b5cb8cb072230f9a3e5ebc45e244 init: fix early boot crash with bare hostname parameter
+0d7ebc6b837c367d0fa6c6aee460cfaa11018382 ocfs2: fix deadlock in inline-data truncate transactions
+effd3290fd8f2a74ab909af36f10d361b4068e64 ocfs2: reject inconsistent local xattr entries
+c09502b615d93a8cf8967d7a5f490c46d5fb6777 raid/kunit: enable RAID6 PQ and XOR benchmarks if KUNIT_ALL_TESTS=m
+88f7529e017cefb147d44c94416d26eeea0c9c87 ipc/mqueue: release notification resources during inode eviction
 8db7ca5dcedc8b9877ea6795f2fdc0acd035522c klist: avoid accesses after waking klist_remove()
 fe5b8d0ee41ec64d4cadb154350e06bdfccdf027 lib/group_cpus: snapshot cluster masks to keep grouping hotplug invariant
 e6ce10abb57119b9897cba0470190757e9f5b1f2 selftests/membarrier: introduce helper to get membarrier command registrations
@@ -1041,14 +1050,5 @@ eaa9c519e27b42887bfe711669f602a0e4e225ce pinctrl: renesas: Add rcar5_pinconf_get
 ce12543addaafa092c68420b6ab0c3693404285c pinctrl: renesas: checker: Support drive_regs_rcar5
 a3ed975137f19435f47158e62b9f1ea36f918101 arm64: dts: renesas: r8a78000: Add pinctrl device node
 b6baa87a93fb39a29c8f77b45c9c64b72d2e9bb6 arm64: dts: renesas: ironhide: Add serial console pin control
-fdac045e5b1a6ee691bbdb981ab9333c02429a74 clk: renesas: r8a78000: add fixed 133M clk
-54cb731ad885b45edaee22f5630302beda0aa0e9 dt-bindings: i2c: renesas,rcar-i2c: allow 6 DMA channels
-fed3b9c58f2e16e88dfc220cfb671e1930073654 dmaengine: sh: rcar-dmac: fix style in struct initialization
-a3d0c65635269f5209069eedeb767368bb5803da dmaengine: sh: rcar-dmac: SMMU doesn't need IPMMU workaround
-96701815b4da6b11191f9417fc24c964c6119c84 dt-bindings: renesas,rcar-dmac: Add support for R-Car X5H SoC
-ff58981d58a2972ac0dd69b84a31140c2c5350b5 dmaengine: sh: rcar-dmac: Add support for R-Car Gen5 SoCs
-34c7758a949986a047bc812e2dcb84d604688f1d DTSI DMA-SYSC add
-fbe1ea88d4daec40a1cd18b0bad0726d341e7571 arm64: dts: renesas: r8a78000: I2C
-a6364e50d23519af352e9a98a364d1f34b0a23cf arm64: dts: renesas: ironhide: I2C
 
---===============2028425319976158643==--
+--===============1084130057685271373==--
