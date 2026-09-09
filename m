@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 09 Sep 2026 14:11:28 -0000
-Message-Id: <178896308802.3640711.6487402201802542758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 09 Sep 2026 14:11:56 -0000
+Message-Id: <178896311664.3641010.13352559059383646416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 9189e6a6f89e32d3a604b221ea64e67e1a35957c
-    new: abf2077ee32058e60d3f49ecab265d3c4bd953d9
+  - ref: refs/heads/master
+    old: 6d83d8b31dd96d240fe16994cd5392091efb5856
+    new: c995be4a357594d74df6c692c7ad8d2f9e0c595a
     log: |
-         abf2077ee32058e60d3f49ecab265d3c4bd953d9 nfsd: fetch direct I/O alignment for files handed to the filecache
+         9fce6c35b7e8d3052e10f990053e792616e9edb4 verhaal: propagate lookup errors from get_fixes() instead of panicking
+         434f3e5a28a78369a07e03b7574544505a8f8eba tools: enable clippy's pedantic and nursery lints
+         c995be4a357594d74df6c692c7ad8d2f9e0c595a bippy: add unit tests for the range extraction helpers
          
