@@ -1,41 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2371303272967425112=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 09 Sep 2026 17:57:07 -0000
-Message-Id: <178897662734.3815835.3556865766698178541@gitolite.kernel.org>
-
---===============2371303272967425112==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 09 Sep 2026 17:57:24 -0000
+Message-Id: <178897664401.3816062.14734936583816208093@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/pending
-    old: 27b3a93ecc296d560cd01ffa07bf4154cbc2a3a5
-    new: 69b2d06dafa4a61b718704d655dd370ba660052a
-    log: revlist-27b3a93ecc29-69b2d06dafa4.txt
-
---===============2371303272967425112==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27b3a93ecc29-69b2d06dafa4.txt
-
-52953d149ab4da0432d54b09f3c8add42b4d4a82 wifi: ath11k: modify null check logic in ath11k_ce_rx_post_pipe()
-c7555d47b1d051e0406474349deccf74b491ae01 wifi: ath11k: fix locking problem in ath11k_dp_rx_tid_del_func()
-6a0832c986f14518645714be87724f13e9d59a95 wifi: ath12k: advertise AP_VLAN interface mode for IPQ5332
-958287de1c1e373e634a5751d74e94bb0ad94ad1 wifi: ath12k: use kernel types instead of userspace stdint types
-507478f6f93864978a399173d4f54c8a987c8235 wifi: ath12k: clear dangling channel pointers on error paths
-4de5a8a0edddc453f1a4c93b6d9f09013a23b72e wifi: ath12k: fix DMA unwind for ext MSDU descriptor retry
-6c40719489c8d799798989b15bc07b0700c132f8 wifi: ath12k: fix stale skb pointers after aligned TX payload shift
-979ecb88ed3528e08dd7f87b90b029374226ca84 wifi: ath12k: fix truncated TX buffer DMA address in MSDU ext descriptor
-12ca935af2e68447e9218a615ebbb5ff7faf1554 wifi: ath12k: Free allocated CE IRQs on request_irq() failure
-9a78703ec4a895bd2e99bf43bd18d76683126c19 wifi: ath12k: Free allocated external IRQs on request_irq() failure
-69b2d06dafa4a61b718704d655dd370ba660052a wifi: ath12k: preserve PPDU state across monitor status buffers
-
---===============2371303272967425112==--
+  - ref: refs/heads/for-7.4
+    old: 570355c81dbf3bc88e45e3ce5b3f5938cfda11bb
+    new: 46eb991947d45f7e3bf4fc9d9e3b1c3454627400
+    log: |
+         60204f773b3851ab8320c83c84b0bd1f67189f76 selftests/sched_ext: Drop -rdynamic and stop clobbering LDFLAGS
+         dec231d15736a22d4500628d9993aed4f3502c15 sched_ext: Merge adjacent ifdefs in ext.h
+         46eb991947d45f7e3bf4fc9d9e3b1c3454627400 selftests/sched_ext: Validate select_cpu_and mask constraints
+         
+  - ref: refs/heads/for-next
+    old: 88158a65dae4639b37525c6d74d7cc6c528c3680
+    new: b90fdc155bedf05baeb28c3f8a51bb5639cbf9a5
+    log: |
+         60204f773b3851ab8320c83c84b0bd1f67189f76 selftests/sched_ext: Drop -rdynamic and stop clobbering LDFLAGS
+         dec231d15736a22d4500628d9993aed4f3502c15 sched_ext: Merge adjacent ifdefs in ext.h
+         46eb991947d45f7e3bf4fc9d9e3b1c3454627400 selftests/sched_ext: Validate select_cpu_and mask constraints
+         b90fdc155bedf05baeb28c3f8a51bb5639cbf9a5 Merge branch 'for-7.4' into for-next
+         
