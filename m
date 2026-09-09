@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Wed, 09 Sep 2026 16:08:23 -0000
-Message-Id: <178897010323.3728147.12481927946655238880@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7946288152682084892=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 09 Sep 2026 16:11:58 -0000
+Message-Id: <178897031897.3731737.10811878436934044424@gitolite.kernel.org>
+
+--===============7946288152682084892==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/ks8995-to-ksz8-v7.3
-    old: 6d2c3ef051d189c37795e8bca17739cc975bfe68
-    new: 216864557942c8f8ac5c3b684b1c9deb2c995ebf
+  - ref: refs/heads/master
+    old: 7c01ea837595d721f92bff2c77995f40654c8379
+    new: cc10eb503008ea2ea9b0ed9b0cde7166a694a7ea
     log: |
-         11d72728830c6e777a497c3653144d6afd1f7d1b net: dsa: microchip: Add support for KSZ8995XA/KS8995XA
-         17e437accae3b5c7100750e6c0056b72f26a8a5e dt-bindings: net: dsa: microchip: Add KSZ8995XA
-         28efda51cfc79928c5b281f088bf7a569805afa9 net: dsa: tag_ks8995: Add the KS8995 tag handling
-         cd2f710fbfe8970fae68b991e8d0114ce0e697ff net: dsa: microchip: Support Microchip KSZ8995XA / KS8995XA
-         216864557942c8f8ac5c3b684b1c9deb2c995ebf net: dsa: ks8995: Delete surplus driver
+         cc10eb503008ea2ea9b0ed9b0cde7166a694a7ea assign a CVE id on request
          
+
+--===============7946288152682084892==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788970309 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1788970314-d570dd714b362472a723dec36bba004a7b8bc37b
+
+7c01ea837595d721f92bff2c77995f40654c8379 cc10eb503008ea2ea9b0ed9b0cde7166a694a7ea refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqhhUUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/scP/AycZGVgXlvJdOcsVOkZ
+Uop29ZQnZQKmoTpEBxQTJ+oMO61Yp7PpFujWIW/4KwfHKMVofvtT7id15I8fidu/
+BLEAmxK0D/I/3E87jt5vir2ihPI99v2rw+eLkkQmZrQ95P1h2+HV8felO02+Tjd2
+A+brKlHkpinRzZax/0q0Cxy1WIjxVTdKwZ612+T9N/PMa3sxqMovahK9qzaG2aST
+v1yJNAcyb63cQAmDUi2WUMeLeKVaw1/fbHh5yZyjR8hzyw67Mmx1bRaHq/5yX3MG
+vEVNChM3115IZzI7vdCaLEAOoSEcvTgMPI9ayKxsksqCh8+7JEe6yWcUJ8HNABCF
+KUFLm4KqeO5CpZnyYVGaE+ojYCFWgGPte23qjT3B2vBg8QD1VTvlr/bssYvt4S2n
+MK0lxmC3b3kmyOACzzoEOCzLG/HAa5n22gkCgQ+C88TElLLEDgcPohsjxvoK6SaJ
+PoKeTN9zJKQ3+G2K6LgwYLcQ6nZ+lfWMu004bi5+f3Pn0IqqSBiMmFjqOgHk01SG
+X3fVYHFzqKYK0fKKBV0MepNF7Xpg2Db21yaBkE5ZtWH8DwtG9VfJOfyLS4Yy2vfQ
+Kzc+qYZXMwFVYD10vb4lunGnBPS2lM2QjBBpcGCuMPCg6mrQtLkjbcXJnbfJSVmv
+PzfT+yiQltr2z/fWZPRWeDvc
+=gN9m
+-----END PGP SIGNATURE-----
+
+--===============7946288152682084892==--
