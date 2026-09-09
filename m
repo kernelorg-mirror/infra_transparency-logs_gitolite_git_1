@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8513741886994026052=="
+Content-Type: multipart/mixed; boundary="===============6824973187166035882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 09 Sep 2026 06:53:01 -0000
-Message-Id: <178893678189.3291279.2280701572261175272@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 06:53:06 -0000
+Message-Id: <178893678600.3291524.14463467713660552685@gitolite.kernel.org>
 
---===============8513741886994026052==
+--===============6824973187166035882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9d3243fc689fef444f87e0a703b4c99653137e1b
-    new: c5ad3f7d5db04adb7f05767e0df203a1944dca74
-    log: revlist-9d3243fc689f-c5ad3f7d5db0.txt
+  - ref: refs/heads/mm-unstable
+    old: d118502628f8b673be9023db8bdf878f64a7ed45
+    new: ae19eeea5ddddab9fc8c076e768a16d5e697f1f8
+    log: revlist-d118502628f8-ae19eeea5ddd.txt
 
---===============8513741886994026052==
+--===============6824973187166035882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d3243fc689f-c5ad3f7d5db0.txt
+Content-Disposition: attachment; filename=revlist-d118502628f8-ae19eeea5ddd.txt
 
 e5761bc9bc5bb0771846fd438f65b59d693dab82 mm/vma: correctly unaccount on mmap_prepare() failure
 1b938f7480ee0c1e2b8e862c0cbf27953a800198 mm/shrinker: fix bogus set_shrinker_bit() with cgroup.memory=nokmem
@@ -316,107 +316,5 @@ c36d21312041627f4fe653192fb114cd133b58c9 mm/mglru: use explicit tier range in re
 aa5997993d296118627f8a8bc051c593c230eb0e mm/memory: constrain generic_access_phys() to page boundary
 00ebb111ded1f663392c43186fc4924f96d5df81 mm/zswap: enable static key after runtime pool recovery
 ae19eeea5ddddab9fc8c076e768a16d5e697f1f8 docs/mm: ksm: use the renamed ksm structure names
-13f13df58e0c728c31d9c828600ab439fa443e0b memcg: move per-node objcg to the read-mostly fields
-0a8b040a2b56c70d5b346d29c20fb6c12d04cc75 memcg: split mem_cgroup_private_id into two fields
-36a22caecbd84276a08a475e269f7fcc7cb06f41 memcg: group the write-hot fields of struct mem_cgroup
-739079632dd6928304f501cd924278d039aa28ef memcg: group the cold fields of struct mem_cgroup
-15b13e2a7c27e835a9368a39551ace2e5fd1bd84 memcg: group the read-mostly fields of struct mem_cgroup
-68f143ca9f59fea9537d5589d11d0773903acb16 memcg: group the fields of struct mem_cgroup_per_node
-c6d375a1aa1d750425cf585962e85634729d8047 mm/zswap: convert zswap_store_page() and zswap_compress() to take a folio
-fbd2883fd2e2699f60ee6b02a23595697216bbb5 memcg: don't call schedule_work when no spinning is allowed
-9cb68f98497d1853c5ac2785f1855a69020cf329 mm/memcontrol: skip non-hierarchical memcg-wide stats when v1 is unavailable
-5f58f3b031e9925ceca83081e4ed0e8786f68873 mm/madvise: swap in CoW'd MAP_PRIVATE-file mappings on MADV_WILLNEED
-e1e00843064210c8d859bef4259cfc6ffc402f8e selftests/mm: make file helpers return errors
-370b3fb4c43c21b1c2196653965926814aef225f tools/lib/mm: add shared file helpers
-36d9e9b8854d553a4f89b9450b34c6c33575dabd tools/lib/mm: move hugepage_settings out of selftests
-57cbc1a16746395c2bad1d4076fc24d10a7d9940 tools/mm: move gup_test from selftests/mm to tools/mm
-60c2077107b06c855c82614ee32e4e0d26123fb0 tools/mm: make gup_bench a benchmark only tool
-21155e443912749e8cb9b3e294ec876f791721df selftests/mm: add a GUP selftest
-df66665abbdda5c18741839921f922ce52046b3e mm: memcg: redirect stats updates of dying memcgs for all hierarchies
-633e5788020f6e47060125b14bab81d5f64e57d4 mm: workingset: use lruvec_page_state_local() to count lru pages
-571be6c7ab17f314fa7975a472571dca5c708df6 mm: memcg: skip the RCU lock when the memcg is not dying
-f7aaf5086296c582d602f14efeee6d96258145bb mm/execmem: free ROX cache chunks only when they span an entire vm area
-c22bcc3ac5f5c7b378c50368711ec6bcf51b3ce2 mm/execmem: handle potential allocation errors in the maple tree
-939938b3610d46f64cea35796bbd14b2d2796e85 mm/execmem: make sure ROX cache always contains multiples of PMD_SIZE
-840cd8c8355c52bc2e35ce38128a7c54fe079595 mm/vmalloc: add DEFINE_FREE() for vfree()
-bde5a1f392b6d66cf109b6c06cc4f4d9e772bccb mm/execmem: use cleanup infrastructure in ROX cache functions
-c749f326543e85d2d4e61b90298a282a8cb2fb57 mm: thp: restore SHRINKER_NONSLAB on the deferred split shrinker
-ce4b828e54311eaebf5d1ef44c260c9c1dfe6b24 mm: zswap: mark the zswap shrinker SHRINKER_NONSLAB
-fdb1f2ecc0edc22f85df530ae329081329cd1819 mm/swap: add folio_swap_entry() and folio_page_swap_entry()
-e09c3263c6e53873b56a150bfba3dc928fcf867f mm/huge_memory: add a comment to the open-coded swap entry
-2d61c6002e0f705a2dfdb515a92e2997400df37b mm/rmap: use folio_page_swap_entry() in ttu_anon_swapbacked_folio()
-77c999a77d18f68f24173125a6eb795a60e2f20d mm/zswap: use folio_swap_entry() in zswap_store_page()
-eed3d67bfff096f919508c56298f8f11e0e529b3 mm/swapfile: use folio_page_swap_entry()
-998203069bf1a571a8889df11ed24850108d18c3 arm64: mte: make mte_save_tags() and mte_restore_tags() static
-6de9647145abc630986da9a9d1673c6cbbc19ca0 arm64: mte: pass the swap entry to mte_save_tags()
-75545fa4fb0c31e3b1214c8fe72296c7a6c80ba0 mm/swap: remove page_swap_entry()
-be8e37b1a7c4741ca8e1490916da87e817f585fb Docs/mm/damon/design: fix broken :ref: usage and a typo
-6be448c1a25aaeced9364c1cc808af9cde63c074 mm/damon: move damon_hugetlb_mkold() from vaddr to ops-common
-0f1bcb2f8fc243ffe82673080013e9ff105905a9 mm/damon/ops-common: handle hugetlb folios in folio mkold/young rmap walkers
-e539caf741ea4ee8f45db885703346430f7966e5 mm/damon/paddr: support hugetlb folios in access monitoring
-813b5dfbac15a34694d40e315214beb96547687d selftests/mm: fix size truncation in pagemap_ioctl test
-94cad61834b200d817bc4eb06dcb9fd92e6af37b selftests/mm: mark file-local symbols of pagemap_ioctl.c static
-f218fc0e98a349ae04d23c9c2b7075d508fc5c9e selftests/mm: init page sizes early in pagemap_ioctl test
-0e2fcd28598c2ebbe8f8c439f8e8051c1c81c378 selftests/mm: raise the khugepaged test-case cap
-48ea4049610df9760725d318d629b12b18f43ba3 selftests/mm: skip collapse_compound_extreme() where the PMD is too large
-3d62e460f952feb7628044235bbf3f83c4a0c4b9 selftests/mm: scale khugepaged's collapse wait with the PMD size
-ed94bbd5ee189b71467bd3a6f33461eb59ee084b selftests/mm: skip khugepaged page cache cases without a PMD folio
-c4856e31b152d52d573e89bda733dc6fd483ca12 selftests/mm: make the swap cases' swapout reliable
-0d15951d03e48af539380e6b4940d83de2581735 selftests/mm: stop khugepaged during the MADV_COLLAPSE cases
-3ed95815571a7f235a10873045bbf8030c418661 selftests/mm: move is_backed_by_folio() into vm_util
-12f92d4de5989176ac6bd5e1d49b85ce982ada4b selftests/mm: add folio-order check for address ranges
-3594d6b52c39623ebe8f9a8d7a9702513c92b3f1 selftests/mm: add folio-order detection self-check
-08e7187c19d8a636bfed4ebb23458f0589209178 selftests/mm: add khugepaged completion barrier helper
-b69f03bbcab4464cd6c5cc2094332392281fa108 selftests/mm: add order-parameterized khugepaged collapse cases
-9fd01daaeacb1129b9f8da6f493ac199f576c2c0 selftests/mm: parameterize the mixed-source collapse case by source order
-2c28995673c4bb0c1128ff8573cb17f4d067a589 selftests/mm: cover a shared-source collapse write race
-4314d59fb8f186f7c1828fc141a8bf509fa1b708 selftests-mm-cover-a-shared-source-collapse-write-race-fix
-9a506e9990b33f27ffc19bc2f1365eed3648d250 selftests/mm: run every supported collapse order by default
-c562ae10db8901a0c3d593f62ac38d3b1bf616b8 selftests/mm: check that one khugepaged pass collapses one window
-078ac2529c437e859056258779847fe2532373d9 selftests/mm: add khugepaged race harness
-cac17645fab3cace98cc7a8d52f6f190df68383e selftests-mm-add-khugepaged-race-harness-fix
-838dd51d68c78d5d26e5a1061dd6b5e3062c5f89 selftests/mm: race the collapse of windows with holes
-128c8fe550f995ed425597145dc7eec6d8763455 selftests/mm: add memory-pressure threads to the khugepaged race harness
-7a1806b979834cbf0c2ea4f6c6e8b63a760afe7b selftests/mm: zap whole PTE tables in the khugepaged race harness
-8ea86f571a8aedb0819a3d2e0fed3b323cd10c20 mm/huge_memory: add folio_reset_partially_mapped()
-82889c78d81f497d3e39e8446bc3829fb6f5695c mm/huge_memory: zap deposited page tables after an RCU grace period
-981980b7230d68ce1ee35393020169da84046549 mm: enable MMU_GATHER_RCU_TABLE_FREE for most 2-level architectures
-feea7250693acfac54f52a9153ab63a38c9da691 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU riscv
-cf42e07d38585c5ca0cfec42c23da97e98a24699 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU arm
-bcd66d3d71edd79ba20c9dfd966082a9ac371e97 mm: enable MMU_GATHER_RCU_TABLE_FREE for arc, microblaze, xtensa
-defebcea7ce3d29e627b86be60a6b304ae0fd834 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc64
-26ee3891e8b1746f301c66280be6338246a3beff mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-coldfire
-6653cbd2fa7d30081d1f9410a768d2972680a92d mm: enable MMU_GATHER_RCU_TABLE_FREE for sh-X2
-ed0838fee49d6e7cc4dd0956e4436665a1df9291 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-motorola
-c785505e7fb1a3b0a89f7c4f34eb4b711cc9f907 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc32
-b37fdd0a3ac6df31b09b03cf1743468d78be2fd5 mm: make userland page table freeing RCU-safe
-d094156bbe498495cf436db1342c8500bfae61ce mm: change the contract for free_pgtables(), update docs
-98210bd95daf853e40cd7845bc79b31df0399f19 mm: vmscan: avoid anon scanning for GFP_NOIO with low swapcache
-6df462b490e01db3242726b6d2ffc087fca1f517 mm/sparse-vmemmap: introduce CONFIG_SPARSEMEM_VMEMMAP_OPTIMIZATION
-43608d0e9fc2648548366ca17d6b534a5a4810a5 mm/sparse-vmemmap: factor out shared vmemmap tail page allocation
-62bf56d09f2f165bdd52c6cd2f6ff75d2b905fcc mm/sparse-vmemmap: open-code init_compound_tail()
-e37d65cd90cf44398eb436ef8944572890174b70 mm/sparse-vmemmap: prepare DAX vmemmap population for section orders
-7ecfa2ab5c8754a4575d3e9c9274c0051ac62591 mm/sparse-vmemmap: set section order for device DAX
-da9f72aacb98fe58fdf9a6614b01dae023adde16 mm/sparse-vmemmap: switch device DAX to shared tail vmemmap pages
-a2a733263bc60d1117fa198c8138226bfd9438bd mm/sparse-vmemmap: move HVO helpers to a public header
-cf538925f7e51b47007c78c105eec4d69c668da9 powerpc/mm: switch device DAX to shared tail vmemmap pages
-9b5067a050c870014f18818a7bca9a8f5921761e mm/sparse-vmemmap: drop the extra tail page from device DAX reservation
-c664528be13539706b206e4d7e45a4d2d9d68594 mm/sparse-vmemmap: drop unused section_nr_vmemmap_pages() arguments
-02c5e9081d85554a779a5807ac1d662a3b37a207 Documentation/mm: update DAX vmemmap deduplication docs
-bab4b18860414f8246a181deee44426249e5f5a0 selftests/mm: fix soft-dirty kselftest supported check
-278f3b87ee6bf50e7fbe3b7b5157c0cb9e795126 riscv: mm: fix concurrency in mark_new_valid_map()
-13eddaaae568e5bbf448aef5d07b96b0eecd558c riscv: mm: exclude invalid THP PMDs from page table check
-d4444e7bf2723ca8f05dd2941d690e504c881a8f sh: remove CONFIG_NUMA and related configuration options
-2e6e56ac5e3ae75514a81fce6c9f7b3119107e3c sh: mm: remove numa.c
-de9388982560ed1ef302cde1415458af3fbc2764 sh: mm: drop allocate_pgdat()
-6efe1e9c0845ce87e561b29a0f4866ca1bc20f3f sh: remove setup_bootmem_node() and plat_mem_setup()
-0b4ee3cb82abb25f2f752873255b42338c9267ae sh: drop dead code guarded by #ifdef CONFIG_NUMA
-3e7906a655190fc426f280dcb4c4c990e4a50c6b sh: drop include/asm/mmzone.h
-73367f409d2de2fb9f830f3d18ccc3b65118caf7 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-dc95217c5dc789e0c4b369194fdb5d8a5b56bcc2 sh: init: remove call the memblock_set_node()
-4fcebec6314791ab1e430e2ba59283c04202aee1 sh: remove SPARSEMEM related entries from Kconfig
-c5bb20ede9712fff80d92c4ed9c6c3cf1e6f22c8 sh: drop include/asm/sparsemem.h
-200b59b19558020dc5dadb78b8046c50d0f924b2 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-c5ad3f7d5db04adb7f05767e0df203a1944dca74 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8513741886994026052==--
+--===============6824973187166035882==--
