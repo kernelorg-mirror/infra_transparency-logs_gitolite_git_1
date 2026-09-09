@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 09 Sep 2026 21:28:37 -0000
-Message-Id: <178898931792.3972485.5104717027129232225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Wed, 09 Sep 2026 21:51:47 -0000
+Message-Id: <178899070727.3989875.5392493321657442314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 2a2ec726613d044be5bf10f0cc47e7e2cf9a5c33
-    new: 349d3e270ff9f4f0946ff44d32343b7459b37b93
+  - ref: refs/heads/for-next
+    old: 35bb788549d45f82f82c88e569d42826e3005c65
+    new: 58a5bc61cb7065b52c5b3f537724b1991a88f3ea
     log: |
-         349d3e270ff9f4f0946ff44d32343b7459b37b93 watchdog: mediatek: Add wdt/toprgu resets for mt6589
+         58a5bc61cb7065b52c5b3f537724b1991a88f3ea power: supply: cros_charge-control: adopt EC charge state on probe
          
