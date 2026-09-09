@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Wed, 09 Sep 2026 14:03:29 -0000
-Message-Id: <178896260987.3634024.9376348279364006618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 09 Sep 2026 14:11:28 -0000
+Message-Id: <178896308802.3640711.6487402201802542758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 0d9b0cd19e08890c174fc0b0f79fab147b27f3fc
-    new: 803d742fe258b61e403a562656faf1814d28f93d
+  - ref: refs/heads/nfsd-testing
+    old: 9189e6a6f89e32d3a604b221ea64e67e1a35957c
+    new: abf2077ee32058e60d3f49ecab265d3c4bd953d9
     log: |
-         cafa23b48c53898862fdf11459c29cfe7972662e ksmbd: follow SMB2 session expiration semantics
-         49e5f59e7b8f3145fcd2ef8269556d7878d14799 ksmbd: fix partial normalized name responses
-         fbd20b1f281bfcdc0e5dbd1edd4e52eecbfe7181 ksmbd: keep compound responses on query info errors
-         803d742fe258b61e403a562656faf1814d28f93d ksmbd: fix invalid pointer dereference when get_inode_acl() fails
+         abf2077ee32058e60d3f49ecab265d3c4bd953d9 nfsd: fetch direct I/O alignment for files handed to the filecache
          
