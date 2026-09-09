@@ -1,27 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 09 Sep 2026 20:52:23 -0000
-Message-Id: <178898714356.3944403.2281598511465064283@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2367233734946999873=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 09 Sep 2026 20:53:17 -0000
+Message-Id: <178898719707.3944832.17749369882510731896@gitolite.kernel.org>
+
+--===============2367233734946999873==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: aa18964dd64511305de0711fed912054da6f5d18
-    new: 96276ee99f81195bae4d6d7559774cbf41362584
-    log: |
-         93fd7adf1a47c61ef81b33c8fdd9cb4e4ea0bdcb perf stat: Avoid uninitialized memory read on error
-         b245a18823027c372b4aebb866129368c2ecd3f5 tools: Port perf ui from GTK 2 to GTK 4
-         0b568c865fac195e90f4669bde5af0e236830af2 perf tools: make the GTK4 report browser actually loadable at runtime
-         116f95a0e299fd914787206bd2c22b13b276f9d3 perf tools gtk: Fix two hierarchy-view stack buffer overflows
-         89d001d48ec792b972ae2d09e59d8b8a5f2124db tools build: Add zstd to the binutils library feature tests
-         1572ba36fbca95835dc17b35a70c4524301205c6 perf tests: Improvements to build-test performance
-         26c137421fd59a0e7410d1148b42b2d4f4870daa perf tool: Align structs in arrays in .clang-format
-         591a97eb0c241db5646d308353620f9eaaf8500c perf python: New treport script
-         96276ee99f81195bae4d6d7559774cbf41362584 perf python: Add flamegraph support to treport
-         
+  - ref: refs/heads/main
+    old: 3677055a7969b0a6a3f47a6eecb1ecfc444b96bb
+    new: ce48a0fdc56464b1afb03471dbdf38a5e0d571ad
+    log: revlist-3677055a7969-ce48a0fdc564.txt
+
+--===============2367233734946999873==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3677055a7969-ce48a0fdc564.txt
+
+1c9c07d0ad69deaec73ca755ba5f3815fa493bf8 net: fix repeated word 'to' in comment
+5bb36cd12006500fe6b96c17c2fbe870ae89eb96 selftests: net: Skip so_incoming_cpu on single-CPU systems
+9a5d20a88afb5dbb27bbe9003216f06fbdfd1e38 selftests: netfilter: use KHDR_INCLUDES in CFLAGS
+f1f4394a8bb466f05acd143057fbe2c5f6ed67a4 selftests: forwarding: use KHDR_INCLUDES in CFLAGS
+ea8cc4480f3153c6466e2c910c84e67588c89af4 Merge branch 'selftests-net-use-khdr_includes-in-cflags'
+f5134d734770e657ba75d59645a54af362ef556f netlink: specs: handshake: type the remaining key serials s32
+fd0291fad9e763c42ea908e89589c94f1a06eea5 netlink: specs: handshake: do not accept the handler-class sentinel
+0274de8b9fdc0d880b041588c9f08eccaadd4ca9 netlink: specs: dpll: add clock-quality-level to the device-get reply
+28f363015aea55fcb323b97d97bdf2e4fff0cf4d netlink: specs: dpll: drop the pin-set attributes nothing implements
+f4ac7c7a846d0cea1cfa698ef41e7147e8d22bab netlink: specs: dpll: pin-get has no dump filter
+356635525f5e7c9c0c98551afb53ae7b3e93271f MAINTAINERS: dpll: add the netlink spec
+ce48a0fdc56464b1afb03471dbdf38a5e0d571ad Merge branch 'dpll-fix-lies-in-the-netlink-spec'
+
+--===============2367233734946999873==--
