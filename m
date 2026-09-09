@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2840906971268183507=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 09 Sep 2026 12:40:39 -0000
-Message-Id: <178895763910.3560723.15269153582847401812@gitolite.kernel.org>
-
---===============2840906971268183507==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Wed, 09 Sep 2026 12:41:34 -0000
+Message-Id: <178895769415.3561309.2370825856282872183@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 3f6d4df4e2e93ba645549ca989a5d3e733757a1d
-    new: 59ab89a657064c4855fc398db8928193ce6d7b63
+  - ref: refs/heads/fixes
+    old: a7df136ec529ee49a789c5029bc37b98b0d4bedd
+    new: dc750422170a563c7a81f6e49d36bb02c62ae37f
     log: |
-         59ab89a657064c4855fc398db8928193ce6d7b63 6.18-stable patches
+         424103642d009f5a7dc33300a49d5606d1bf4fb5 dmaengine: add dma_device_get() helper
+         44dab659064eb5c10adb0306510eebe848ed592d dmaengine: Fix device kref underflow in dma_chan_put()
+         e873c74132f0c5f1452816cd9bb26208f0bba1e1 dmaengine: fix use-after-free in dma_chan_put() and dma_release_channel()
+         dc750422170a563c7a81f6e49d36bb02c62ae37f dmaengine: wait for RCU readers before releasing dma_device
          
-
---===============2840906971268183507==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788957633 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1788957637-62c7c9af1b1e7c35d83d4733d2b8fac5b0fda026
-
-3f6d4df4e2e93ba645549ca989a5d3e733757a1d 59ab89a657064c4855fc398db8928193ce6d7b63 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqhU8EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F9MQAMJELy1Nk+n6ld8tPkoK
-0Sh0EbzewCPfk1TklVLZw0EHHy/5hX5KKV5ApNcfr0tWV+rPXOhfQPllM+dngVXh
-rKuP8IJKVpN3hLN0+C9F4e+t+iEdqxxrBZh3BaoExb8J4AYn2wzgdm3KwR5pTxST
-la/yG3ZD1zR2eoGOLGhT8bURTsYgplYv+Ci3REsNSQ3mazN7ndx/aGif0GtQxEsy
-F0Ve6ClDkQAtTwEAseJBgoUNXYfiulSkKDzqzBK+fHSf3LUoKo7iRFMV4KgLnUse
-ib/vkzKyWWcVOQpnXFrPJi8oCB2cSOqEMVej8kfiDV9xlPMyCdTBzyN4jcNF2ema
-0q4XEzpExgZ5xrUxQEZ8fYMvdDIZmp7cJrvkuzRhUh7/sMwUJzIzAJgeQBF9WAou
-FpCbegOvFRnk8duQWwg4oCqW+N3y+gUAgY9hT7WjFsbAj7niTxmIlTNse4T4xwwV
-3FaBkxvk0gmhe8/riqLkJXN3banQX/zI5Sys40iKyu8MgsDyE+cA7GgHGDdzQFCb
-9EvkZV/jdOFSRz1yw4FJDkfp0mlodKwylKy79WBMx2OdEJniHD+RY0FRTqor2BKe
-m6g8Ml9omjgFYwSNu9UNgPhd/uGvuQAQH09m+K0R332mzghesdd/Jjk8LPTcPXnT
-PBThQfufvF+9SN7Ggq0exwzX
-=1mqT
------END PGP SIGNATURE-----
-
---===============2840906971268183507==--
+  - ref: refs/heads/next
+    old: 22f293e054dfe8252cc02cf562d3e9e460f6e83f
+    new: 4cfa625b60d55b81bc6620113f213349bcc85a4e
+    log: |
+         09149a59a6aef7853a3750e4b303f20637cf7a8a dt-bindings: dma: snps,dw-axi-dmac: Add UltraRISC DP1000 compatible
+         2c7604696ca3f2cdf70bff17f2f905e03df8b8fe dt-bindings: dma: ti,dma-crossbar: Convert to DT schema
+         821625bd3e638ed058030f48178a0dc4a9dfda5e dt-bindings: dma: ti,cppi41: Convert to DT schema
+         4cfa625b60d55b81bc6620113f213349bcc85a4e dmaengine: altera-msgdma: initialize state before requesting IRQ
+         
