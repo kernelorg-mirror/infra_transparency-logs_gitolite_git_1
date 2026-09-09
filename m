@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5683012889243127022=="
+Content-Type: multipart/mixed; boundary="===============7529380167474485621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 09 Sep 2026 18:39:22 -0000
-Message-Id: <178897916231.3847815.10372494593168752606@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 18:39:24 -0000
+Message-Id: <178897916460.3848006.14793852802768153393@gitolite.kernel.org>
 
---===============5683012889243127022==
+--===============7529380167474485621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: ab217fbb9b2169ce677b09a66558d5c3adcfbb76
     new: 548b86839f7fb819a4d6c83b71c73ec378d24275
     log: revlist-ab217fbb9b21-548b86839f7f.txt
 
---===============5683012889243127022==
+--===============7529380167474485621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ ab30868b5476c50d4f0551576965978e736f3826 Merge branch 'selftests-drv-net-allow-c
 789842b671a842f961b299842bd590d130cec07f net: smc91x: Remove stale documentation reference
 548b86839f7fb819a4d6c83b71c73ec378d24275 net: ipa: Drop the monitor_rx endpoint_id ABI entry
 
---===============5683012889243127022==--
+--===============7529380167474485621==--
