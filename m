@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Sep 2026 00:28:09 -0000
-Message-Id: <178891368970.3007545.17220934370874410183@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 00:35:37 -0000
+Message-Id: <178891413707.3014311.40185911120774985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 58c3d01c664c163b44c18f78b05982215a909b92
-    new: ab30868b5476c50d4f0551576965978e736f3826
+    old: ab30868b5476c50d4f0551576965978e736f3826
+    new: 789842b671a842f961b299842bd590d130cec07f
     log: |
-         917f713b4ec4ffcc068993e8c7a1d93a8457d467 tools: ynl: Allow cross-compiling ynl and associated tools
-         0c5588740e2204b4005a807b6f5a06ae5a2d0b75 selftests: drv-net: Use cross-compilation environment for the io_uring check
-         ab30868b5476c50d4f0551576965978e736f3826 Merge branch 'selftests-drv-net-allow-cross-compiling-the-hardware-tests'
+         52176ca4e4d030bacc1232d3a31237c741ff7ccb selftests/drivers/net: include lib/sh/*.sh
+         789842b671a842f961b299842bd590d130cec07f net: smc91x: Remove stale documentation reference
          
