@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8959662497094144242=="
+Content-Type: multipart/mixed; boundary="===============6067047958522617035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Wed, 09 Sep 2026 14:45:13 -0000
-Message-Id: <178896511320.3666132.8950420040168204829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Wed, 09 Sep 2026 14:45:14 -0000
+Message-Id: <178896511486.3666352.4200946174315242423@gitolite.kernel.org>
 
---===============8959662497094144242==
+--===============6067047958522617035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 893e11787f78e43b534e252249ac3fff4d1333f8
     log: revlist-cee9395acd80-893e11787f78.txt
 
---===============8959662497094144242==
+--===============6067047958522617035==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -735,4 +735,4 @@ d2929113b15bfc06793b852aeba3d2db6d79fcc9 x86/MCE/AMD: Fix inverted interrupt ena
 5acbae5f7eb3d5275120abfe698c394b7325dcec Merge tag 'powerpc-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 893e11787f78e43b534e252249ac3fff4d1333f8 Merge tag 'x86_urgent_for_7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============8959662497094144242==--
+--===============6067047958522617035==--
