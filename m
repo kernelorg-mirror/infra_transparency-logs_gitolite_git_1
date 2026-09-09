@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Wed, 09 Sep 2026 00:15:20 -0000
-Message-Id: <178891292047.2998895.2789983970223851979@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 00:20:28 -0000
+Message-Id: <178891322816.3002530.5000140724940923754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/tftp/tftp-hpa
 user: hpa
 changes:
   - ref: refs/heads/master
-    old: e74f079e8c1d09d9f335e45d332855223dc58e70
-    new: c6e604bea2efdf5ae2b22f46d80363fcab8ae9f7
+    old: c6e604bea2efdf5ae2b22f46d80363fcab8ae9f7
+    new: 1578f7e8cda4f48cdf1dd2b83dc872bd97cfe6a2
     log: |
-         c6e604bea2efdf5ae2b22f46d80363fcab8ae9f7 tftpd: fix confusing between "refuse" and "reject"
+         1578f7e8cda4f48cdf1dd2b83dc872bd97cfe6a2 tftp: add "volatile" to quiet warning about setjmp clobber
          
