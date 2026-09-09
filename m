@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4783460573940370496=="
+Content-Type: multipart/mixed; boundary="===============2371303272967425112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 09 Sep 2026 17:56:53 -0000
-Message-Id: <178897661394.3815562.17975853599106564218@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 17:57:07 -0000
+Message-Id: <178897662734.3815835.3556865766698178541@gitolite.kernel.org>
 
---===============4783460573940370496==
+--===============2371303272967425112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 1d8e73163ef933624341075f576e2f36ef9133f7
+  - ref: refs/heads/pending
+    old: 27b3a93ecc296d560cd01ffa07bf4154cbc2a3a5
     new: 69b2d06dafa4a61b718704d655dd370ba660052a
-    log: revlist-1d8e73163ef9-69b2d06dafa4.txt
+    log: revlist-27b3a93ecc29-69b2d06dafa4.txt
 
---===============4783460573940370496==
+--===============2371303272967425112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d8e73163ef9-69b2d06dafa4.txt
+Content-Disposition: attachment; filename=revlist-27b3a93ecc29-69b2d06dafa4.txt
 
 52953d149ab4da0432d54b09f3c8add42b4d4a82 wifi: ath11k: modify null check logic in ath11k_ce_rx_post_pipe()
 c7555d47b1d051e0406474349deccf74b491ae01 wifi: ath11k: fix locking problem in ath11k_dp_rx_tid_del_func()
@@ -38,4 +38,4 @@ c7555d47b1d051e0406474349deccf74b491ae01 wifi: ath11k: fix locking problem in at
 9a78703ec4a895bd2e99bf43bd18d76683126c19 wifi: ath12k: Free allocated external IRQs on request_irq() failure
 69b2d06dafa4a61b718704d655dd370ba660052a wifi: ath12k: preserve PPDU state across monitor status buffers
 
---===============4783460573940370496==--
+--===============2371303272967425112==--
