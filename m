@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 09 Sep 2026 17:54:49 -0000
-Message-Id: <178897648906.3812088.463752236148831327@gitolite.kernel.org>
+Date: Wed, 09 Sep 2026 17:54:52 -0000
+Message-Id: <178897649273.3812331.10369783149707558501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 18d4051964614782fa46789a219e4eae12850c12
-    new: 04c3ee0f5d158f6e2027c7ef617044cb649ab4ab
+  - ref: refs/heads/spi-7.4
+    old: 34e32e9ade58e32daf933974c9b697d066fc5aaa
+    new: 44d39535cd4f7343284336c7288018db2a167bde
     log: |
-         04c3ee0f5d158f6e2027c7ef617044cb649ab4ab ASoC: rt1320: avoid re-initialize in advanced mode
+         44d39535cd4f7343284336c7288018db2a167bde spi: spi-qpic-snand: remove interim 'dev_data' variable from qcom_spi_probe()
          
