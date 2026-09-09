@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7968898154881686511=="
+Content-Type: multipart/mixed; boundary="===============0859707010515842948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Wed, 09 Sep 2026 17:28:53 -0000
-Message-Id: <178897493316.3792587.7630319151977593534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
+Date: Wed, 09 Sep 2026 17:29:01 -0000
+Message-Id: <178897494136.3792807.11237539014454162665@gitolite.kernel.org>
 
---===============7968898154881686511==
+--===============0859707010515842948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
+repo: pub/scm/linux/kernel/git/mm/memblock
 user: rppt
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 6e33dc90df108c76899dc544a42d17adcba61668
     log: revlist-6178b1276035-6e33dc90df10.txt
 
---===============7968898154881686511==
+--===============0859707010515842948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 e2d5b01f878d76bd1142e512a0b979a1d3cd0abf mm: memblock: show all region flags in debugfs
 6e33dc90df108c76899dc544a42d17adcba61668 MAINTAINERS: update memblock tree URLs
 
---===============7968898154881686511==--
+--===============0859707010515842948==--
