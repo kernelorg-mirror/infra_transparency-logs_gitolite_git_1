@@ -1,71 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1084130057685271373=="
+Content-Type: multipart/mixed; boundary="===============5542791764181901232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 09 Sep 2026 08:36:07 -0000
-Message-Id: <178894296744.3368767.14654176349877854373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/linux
+Date: Wed, 09 Sep 2026 08:39:05 -0000
+Message-Id: <178894314524.3369541.11781799954805828406@gitolite.kernel.org>
 
---===============1084130057685271373==
+--===============5542791764181901232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/wens/linux
+user: wens
 changes:
-  - ref: refs/heads/renesas/x5h/base-experimental
-    old: 0b3f424f019a1afae5ac4751183180925f82454d
-    new: b6baa87a93fb39a29c8f77b45c9c64b72d2e9bb6
-    log: revlist-0b3f424f019a-b6baa87a93fb.txt
+  - ref: refs/heads/mtk-wip
+    old: 6bb13b3f06e1186263e25a011225629d221dcf65
+    new: ac7b6280e922fd6f4053c6350fd5cd77ca1c73ef
+    log: revlist-6bb13b3f06e1-ac7b6280e922.txt
 
---===============1084130057685271373==
+--===============5542791764181901232==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0b3f424f019a-b6baa87a93fb.txt
+Content-Disposition: attachment; filename=revlist-6bb13b3f06e1-ac7b6280e922.txt
 
-e781e96b5e19c91958ed725c0d222d4345c5f56b resource: fix lost wakeup when waiting for a muxed region
-3cf22062b5c77475b9d4387a52350de10ec0ca8e fault-inject: fix dentry leak
-c7baeac94b1457e4ead242e419edb9caf5f3d97f mailmap: update email address for Bradley Morgan
-a73440b17e144eb6883d77111c09eeea41665485 fat: fix fat_ent_write() for reverting the value
-499acbb81224b5cb8cb072230f9a3e5ebc45e244 init: fix early boot crash with bare hostname parameter
-0d7ebc6b837c367d0fa6c6aee460cfaa11018382 ocfs2: fix deadlock in inline-data truncate transactions
-effd3290fd8f2a74ab909af36f10d361b4068e64 ocfs2: reject inconsistent local xattr entries
-c09502b615d93a8cf8967d7a5f490c46d5fb6777 raid/kunit: enable RAID6 PQ and XOR benchmarks if KUNIT_ALL_TESTS=m
-88f7529e017cefb147d44c94416d26eeea0c9c87 ipc/mqueue: release notification resources during inode eviction
-8db7ca5dcedc8b9877ea6795f2fdc0acd035522c klist: avoid accesses after waking klist_remove()
-fe5b8d0ee41ec64d4cadb154350e06bdfccdf027 lib/group_cpus: snapshot cluster masks to keep grouping hotplug invariant
-e6ce10abb57119b9897cba0470190757e9f5b1f2 selftests/membarrier: introduce helper to get membarrier command registrations
-5a5d6b51e59768c5d323dcc8e39eaa60338b4f79 selftests/membarrier: skip unpermitted membarrier command test if preregistered by libc
-3f2a0b0ae424a0eba537e5cdbb1296f6a5d3051e selftests/epoll: fix race condition in multi-waiter wakeup tests
-aa63d2fe497200d2c2138d4a4ed847532537f6a7 ocfs2: exit recovery thread on mount error path
-abcd7cebd533a4fb2d99452834e652389fa9d421 ocfs2: free replay slots in ocfs2_recovery_exit()
-a13d9b731cf61ffdf0c665ebd35ee2fa9a2c4c7d ocfs2: defer suballocator block group reclaim to workqueue
-20d0ee8d5548f6a2a027556cfee79ae7aa3f0df6 init: simplify early_hostname()
-0af482a32494d1824d633dcd81f235c49577d86f squashfs: fix fragment index table sizing overflow on 32-bit
-1adab7af840ee2a0395bbc8b76c7554a559ea183 squashfs: make the fragment index table bounds check overflow-safe
-e3071b54b5ee7c10dbf37d622f92973fb8e7d664 hung_task: reset warning budget when problem gets resolved
-768190cc0e7ce0dc452399de21632363e82ce031 hung_task: log summary line when warning budget is exhausted
-478faa85cc6c16e8c5914b798d241836fd0bbdac init, arch: make CONFIG_COMMAND_LINE_SIZE globally configurable
-6d8a6427ec4e3ecc908c194d2a43d886429f7ad4 init/Kconfig: make config INIT_ENV_ARG_LIMIT user-configurable
-9d083835614af09f92fbe6cd1b4a703bc162f2e7 minmax.h: update the stale 'x' versus 'ux' comment
-ae39d55f86bde75f8879cd05822496a854d83c5e lib: cleanup "fake" tristates in Kconfig
-5f6b05c5f141e972a391505029af75516d3ff643 init/main: fix off-by-one in argv_init cleanup
-b73d869d1f4d9687759687ab15fd008804831d5c init/main: fix false-positive kernel panic on environment variable overwrite
-24351b04d655a3e6854b0c461f0c817465897c50 proc: report SIGEV_NONE in /proc/pid/timers if target task has died
-0902d7d3fdab5faccf5cd9aa00502a51d3a3be07 selftests/core: fix unshare_test with large fs.nr_open
-0f10b110fb9d14d609c12dcbb9abd87ead2b73d2 lib/tests: add KUnit tests for errseq
-eb018cb07e3b511995e92d5c55510dcf3a62fe7f xor: add missing vzeroupper to AVX code
-dc58327ea120aa81806ffca0838e2ab80a470746 raid6: add missing vzeroupper to AVX2 code
-a161ce004e7270dc6ad3ff15975bdfbef38967e3 raid6: add missing vzeroupper to AVX-512 code
-e54747db5fbc0d22baa8456384037ce7df1db95e gcov: use strscpy() instead of strcpy() in init_node()
-853ff3707ec45dc66bbac8a188f85e1a6815fc05 panic: introduce arch_do_panic
-c2011345e4302a88f61ac10198447977161deac2 s390: implement arch_do_panic
-004f6c1e96d4aa0c9480543dd851f65a7e58fa74 sparc: implement arch_do_panic
-3b501e6bd9b544858765ab0cbc036bad34466590 lib: decompress_unxz: make it obvious that there is no memory leak
-aa422a873b82cd8a1c6c738af9178930e4ed2d2f arch/Kconfig: fix dead conditions by removing dead options
 44f02c72d6eda2372f83c250721b5cdd4028762b dyndbg: fix incorrect mod_ct value in dynamic_debug_init()
 c4af6b2f0a92afbfc80f0edc10268697bacbce85 dyndbg: clean up dynamic_debug_init() to improve readability
 451d2d549500c0072f82fd01918cc2f68f166c0b fork: honor task_struct's declared alignment
@@ -1024,31 +984,71 @@ cc302a0623365f28c4a165e4a9272a9e3fbc7cd5 Merge branch 'for-next' of https://gith
 a1b431202ccfc513ac51e8932666d24eafe6aa14 Merge branch 'headers' of git://git.infradead.org/users/willy/pagecache.git
 f10b3bd5bc64538906f841a63bb8b576951900b3 media: ipu6: Fix up missing IWYU issue
 a9d7ced84989ec05be09b4b8428759ef60450a0f Add linux-next specific files for 20260908
-4da28cb867386638c50b325a7559a921006b80d9 Merge remote-tracking branch 'rd/topic/rcar-x5h-ironhide-scmi-cpg-mdlc-remapping-v3' into renesas/x5h/base-experimental
-f2fee6a17a0f8ce13c0b2a61287b3a5a1dcec7f6 pinctrl: renesas: Allow drive strength configuration via SoC driver
-b4b3f631341ec78d5cf943b9e6505c1b58498da6 pinctrl: renesas: Initial R8A78000 (R-Car X5H) PFC support
-bf46c4a7c4170f681eda78fd16700b5f300aeac4 pinctrl: renesas: r8a78000: Add pins, groups, functions for modules
-cc509ad31a155e72c1f2b83be7964de6c29f659e pinctrl: renesas: r8a78000: Update QSPI, RPC to be used with RPC pins, groups, and functions
-60dd96b527a1b851941b226495a9b20fbf3e2de9 pinctrl: renesas: r8a779h0: Add MSIOF pins, groups, functions
-4a1870c0f3af1547febd8f9cc493dde59b029776 pinctrl: renesas: r8a78000: Add Audio pins, groups, functions
-73e14ce134fc9fb357e5be927a93a0dc46aad600 pinctrl: renesas: r8a78000: Add I3C pins, groups, functions
-a8f02534350078567173e62628749d4daac723c6 pinctrl: renesas: r8a78000: Add CANXL pins, groups, functions
-310765582a8fad62acce3f970fe82194f4ea5b8e pinctrl: renesas: r8a78000: fix typo CANFD define
-243b2a8218a3d65e5efe1239e25fe9932b4cb078 pinctrl: renesas: r8a78000: Add CANFD pins, groups, functions
-c1a6433e190329f9aecde87468085042803463e2 pinctrl: renesas: r8a78000: Add PWM/TPU pins, groups, functions
-69cb06dda434f0f45eca502d4e5607fe160b8062 pinctrl: renesas: r8a779h0: Add USB pins, groups, functions
-b34826a5df42236519ecc04767ea46d3916b83f3 pinctrl: renesas: r8a78000: Fix typo CANFD
-88f507d612334d293175a190f121ef5f6962b92f pinctrl: renesas: r8a78000: Add DP-TX pin control support
-a58bacf17ec91757e3a445b5e4aae61578e96629 pinctrl: renesas: r8a78000: Fix missing definition for DP-TX hotplug pins
-11529b27bfae96a9a9b3128000cf9dfedab822f0 pinctrl: renesas: r8a78000: Fix (H)SCIF3 TXD pins
-34b8eaa9afad5c45a080f9ae00941b76bd002604 pinctrl: renesas: r8a78000: Drop commas after sentinels
-a753e7c5cee04e6802ed3ebbeb2a0c0c0272174c pinctrl: renesas: Simplify rcar5_pinmux_drive_reg
-416adeb9ea3d9288d95aacbf3afd6595ac15e9ff pinctrl: renesas: Save/restore drive_regs_rcar5 regs
-39f5cfbf508ce5a21154c4763cd3461de4065689 pinctrl: renesas: Improve rcar5_pinconf_set_drive_strength()
-cb1f2b3435d3f0201ca6bcd8a3c3bf9376940fbc pinctrl: renesas: Kill sh_pfc_soc_operations.set_drive_strength()
-eaa9c519e27b42887bfe711669f602a0e4e225ce pinctrl: renesas: Add rcar5_pinconf_get_drive_strength()
-ce12543addaafa092c68420b6ab0c3693404285c pinctrl: renesas: checker: Support drive_regs_rcar5
-a3ed975137f19435f47158e62b9f1ea36f918101 arm64: dts: renesas: r8a78000: Add pinctrl device node
-b6baa87a93fb39a29c8f77b45c9c64b72d2e9bb6 arm64: dts: renesas: ironhide: Add serial console pin control
+958254f7721b567f5eac6df32a7a7146af1ca9f6 HACK: scripts/make_fit.py: disable FDT compression
+5be40180b3387e202c164766aa0533db80931d7f clk: mediatek: Check if clock ID is larger than clk_hw_onecell_data size
+006fedd58759da6c1f66a951312912617a065126 Add my MTK config for testing
+d697eb53c3df7042c6fd038a0cf14d03180eaf29 arm64: dts: mediatek: mt8173: Fix MFG_ASYNC power domain clock
+69471aa9fb656580fc8a7d38fbd8417da7797851 arm64: dts: mediatek: mt8173: Add GPU device nodes
+f0530ca4641597131f6c196fbcadc21be3cd076a arm64: dts: mediatek: mt8188-geralt: Add MT6319 PMIC
+42a16345d01e27b2d65f1fd2a0a5178a612cd827 device property: Add fwnode_graph_get_port_by_id()
+600eb9d626ba2d13831fa69018ff954039b3181a device property: Add fwnode_graph_get_next_port_endpoint()
+288203368816e0fb5563a0a649b4bb30f5f93ed3 power: sequencing: Add pwrseq_get_state()
+4a479e546619c6072c9951873bbf1c20c9bd9185 usb: hub: Use assign_bit() in usb_hub_set_port_power()
+c3f8c06be3884d9a5dd1dbe26b03f41518d3649d usb: hub: Return actual error from hub_configure() in hub_probe()
+a0f9bee156f1bc4ebc9da9f0c4d351ce468487bd usb: hub: Associate port@ fwnode with USB port device
+f45b47fa8439151c7168c8ed2d6b1348a0dadf02 usb: hub: Pass |struct usb_port*| to usb_port_is_power_on()
+85c04426acbb66e28af64dfb3ab1238601ff2d50 usb: hub: Use usb_hub_set_port_power() to control port power everywhere
+065d96c0ba6c953aaaafba5d69440f823ee9c470 usb: hub: Power on connected M.2 E-key connectors with power sequencing API
+40cc10c0898fa7dda55f553154812cb4af297737 dt-bindings: usb: mediatek,mtk-xhci: Switch to ports for USB connections
+0a2e4d48965fb8fa3ed4efa01a8fb6856b9fdb01 power: sequencing: pcie-m2: support matching on remote "port" node
+0785901caa06e0b80f9df368ce40e443e8df7ed1 power: sequencing: pcie-m2: Add usb and sdio targets for E-key connector
+19b793013be7d4c86e1e722742bd61a3f307f31c power: sequencing: pcie-m2: Split Bluetooth unit based on interface
+1730b0f0175e1bbb29f8990c79d0c122f23b82a4 arm64: dts: mediatek: mt8195-cherry: Add M.2 E-key slot
+ee3aede9d0d567a0e128095935202a14ac22685b arm64: dts: mediatek: mt8188-geralt: Add WiFi/BT as M.2 E-key slot
+63147e7e9c1b75d1ad747a82e86691e17b57a6f3 iio: adc: mt6577_auxadc: Expose raw value and scaling factor
+52d9bb36269ed921cfa2ca7c118d3f0465287608 device property: Add remote endpoint to devcon matcher
+33816afe10fdd2c74e13121fe0ba1bddb09ad054 platform/chrome: cros_ec_typec: Purge blocking switch devlinks
+d0453dc3548a730a622357e5e462bee749c59c64 drm/display: Add Type-C switch helpers
+153aea72fce52442f96477abaf899e69c1309ccd dt-bindings: display: bridge: anx7625: Add mode-switch support
+36652e01a9736f194d36938b62ba1d416f6ba162 drm/bridge: anx7625: Check for Type-C during panel registration
+68a389f040bf6f3ee6b89ee1e00d3ed15ec23f35 drm/bridge: anx7625: Register Type C mode switches
+9a4ef237ee0d3ad82dc568f363b39eea89ce0efa dt-bindings: display: bridge: it6505: Add mode-switch support
+1bc2667a872745ab959ddd2ec40930651ee58915 drm/bridge: it6505: Register Type C mode switches
+77199826d3871edc7c76dc1b901905dc82c99aa1 arm64: dts: mediatek: asurada: Enable external display pipeline
+8e25acaf978d76e92a980146dea74c7e7255f1a2 DO NOT MERGE:  arm64: dts: mediatek: mt8186-corsola: Add Type-C Mux for DP output
+44b8c36a829c619a9c7bff439ca250b289c06ee6 regulator: core: Add "enable and wait" functions
+f590763691dc1e610705ce9f630b9906e78dcda6 Input: elan_i2c - Wait for initialization after enabling regulator supply
+44f8a82570eba32e0aa3e29d10bc886920140977 HID: i2c-hid-of: skip post-power-on delay if powered on sufficiently long
+86f93244e07ae4d5bf01a6fb06ee42af5c11e8b8 i2c: of-prober: skip post-power-on delay if powered on sufficiently long
+aab02699c172a0259cdad411f8119a4d4911f059 i2c: of-prober: Let cleanup op know if a device was found
+81e0320a3a52154ce85e3ed92a13ffca483b7486 i2c: of-prober: Defer regulator_disable() on successful probe in simple helper
+9558c109878ed471903c254e61aa5ab13d40ee97 arm64: dts: mediatek: mt8173-elm-hana: Unmark trackpad supply as always-on
+8516fc5d12a47aa151ef7ea32938adcfc32b0733 arm64: dts: mediatek: mt8192-asurada-spherion: Add Synaptics trackpad's supply
+8dbb47bdc80cd3a8d65ddde4a9c5f6a09f7387d4 dt-bindings: input: elan,ekth3000: Add vddio supply
+602a46dd39c1758e41fbf47a87505184d5db4156 Input: elan_i2c: Support vddio regulator supply
+c4298c4465667e86f6a3a415143fcdbd44bf3312 dt-bindings: firmware: coreboot: Convert to YAML
+ae0a3aac06784373ee23061c88c30adae4732e43 dt-bindings: firmware: coreboot: Document optional device specific properties
+5dda6e7e438a34439a87f638d42c103e220e1370 ASoC: codecs: ES8326: Rework HP gain control
+0f5416ef00eba9110b59d67ef56bd09e845c8b85 ASoC: hdmi-codec: Add event handler for hdmi TX
+ddde4ed8efbf344f932c0c7bf4d0c4e801352dd7 drm/bridge: it6505: Add audio support
+92c4b76a79445577b94edf97af9b7cb940fcd1c3 it6505: store audio parameters even if no encoder
+ed6be99b97131d949bcf82f97a97cb8fae52e75e platform/chrome: of_hw_prober: Treat machine compatible as prefix
+4e00f4528fc89a139907f1e1600df9cb4b63c5e5 PM / devfreq: passive: scale and lookup updated cpufreq-based frequency
+378b3675e08e075345dd0112fdb8f0206a5830c2 arm64: dts: mediatek: mt8183-kukui: Enable external display
+9fdf1524d35762c8b01c54e6c9c339924f04be67 usb: hub: Set proper message when usb_hub_create_port_device() fails
+322746d2d3ddb84bf8fa2ee6d594cc0d3b64e9c9 dt-bindings: connector: pcie-m2-e: Spell out vendor defined pin mappings
+fa85e469f079ca88de7ff57d14a3de92eb73fa6b Bluetooth: hci_h5: support M.2 E-key slot with pwrseq consumer API
+1cc8fe3465c53336a2b846cbfbeb88a6c8b0df53 power: sequencing: pcie-m2: Add Realtek RTL8822CE BT serdev ID
+6f7769e26bc22ab6912ca90d95798dcf66f4eba8 power: sequencing: pcie-m2: Map GPIO vendor-porta to device-wake for Realtek
+d735b8d6404bd9cf339edeb80f56cd11ddb550d5 arm64: dts: mediatek: mt8192-asurada: Add M.2 E-key slot
+1142b1246ceca0ccb5b3dca650ac905c38099044 Revert "usb: misc: onboard_usb_dev: Add support for requesting VBUS for Type-A ports"
+5cc4bd00a72f2651278029456539e5f3f0fd310d power: sequencing: Add power sequencing provider for USB A connector
+ff6faf4be875d0baf1ec013004c9d19439f73efc usb: port: Extend power sequencing usage to USB Type-A connectors
+0bfe18dc8c3dbfb0c10477c08d235f23cb7b6b87 arm64: dts: mediatek: mt8192-asurada: Add USB type-A connector
+1a370cc364985d89bafc54b6041011f171e106ff arm64: dts: mediatek: mt8195-cherry: Add USB type-A connector
+d6c80ceac97c6f6da0e7245dd2c5b6f970e72663 arm64: dts: mediatek: mt8183-kukui-jacuzzi-*: Add supply for trackpad
+7246958744c2278c8842c0bc3aad7321f5ec1e2b arm64: dts: mediatek: mt8183-kukui: Switch to specific touchscreen compatibles
+e07dd0f7d7eccebb59a5c2586470e6622f2bb493 DONT MERGE: test trace for regulator and i2c
+ac7b6280e922fd6f4053c6350fd5cd77ca1c73ef dt-binding: usb: hcd: Add ports
 
---===============1084130057685271373==--
+--===============5542791764181901232==--
