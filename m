@@ -1,62 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============2820649699272790180=="
+Content-Type: multipart/mixed; boundary="===============3340053762013024687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 09 Sep 2026 11:44:41 -0000
-Message-Id: <178895428146.3512780.13333194370958648082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 09 Sep 2026 11:45:30 -0000
+Message-Id: <178895433064.3515274.11955135232873481842@gitolite.kernel.org>
 
---===============2820649699272790180==
+--===============3340053762013024687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 317be42834373c50173655e33f8c0c099d04963c
-    new: be077b75f7833591e799fa94de9c9c81ca745a28
+  - ref: refs/heads/io_uring-7.3
+    old: 796aa0547557e63338657ed1c487906f9fac4c73
+    new: d567b634aa9192d5fc9a1682b793c7bd14b4ee2b
     log: |
-         6ad57918071b9fbeda39106eb99167e23725911c 5.10-stable patches
-         a3df29248f6ffcb0ec5b39fd597775cea7041b36 5.15-stable patches
-         fa1bc4c440c26dc7439719838bf36c3a768366ff 6.1-stable patches
-         de7d9f58ef26940485875b76b1aa4683083ef2af 6.6-stable patches
-         5bc7eea9036781820f9534e03bd61fb51cb1a633 6.12-stable patches
-         8daf039d06ebf1ce076ac259af23c2a84d788fa0 6.18-stable patches
-         be077b75f7833591e799fa94de9c9c81ca745a28 7.2-stable patches
+         dcbd1c054848848a1937ca0768ce2bdbc31ae621 io_uring/net: let io_recv_buf_select return the length of the buffer region
+         2d955aeef8bae59ae15619d07b828e964276274e io_uring/net: don't overconsume buffers when using MSG_TRUNC
+         a27426403cd0a32d877fef22d7b1a532497cc615 io_uring/rw: keep CQE flags on iopoll requests when adding kbuf flags
+         d567b634aa9192d5fc9a1682b793c7bd14b4ee2b fixup! io_uring/net: don't overconsume buffers when using MSG_TRUNC
          
+  - ref: refs/heads/master
+    old: df2908090cda368b01ff43709f51890076c56157
+    new: 893e11787f78e43b534e252249ac3fff4d1333f8
+    log: revlist-df2908090cda-893e11787f78.txt
 
---===============2820649699272790180==
+--===============3340053762013024687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-df2908090cda-893e11787f78.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1788954272 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1788954276-ad6c9c2b60b8c3c77781ce677795bccc6a292410
+72bd92bd8190d7869ecb462649ca40f297822a33 x86/amd_node: Avoid divide by zero on virtualized systems
+ae9464c65e9d1ad4df4fed516cee9bca3bc614cc perf symbol: Do not use debug file as the binary type
+aadea57f532882d8bab444646863c7ef8a778ff1 perf powerpc-vpadtl: Fix raw_size of DTL samples
+2c1dde8a69a3a7d64425a6de0add6e289a5a402f powerpc/entry: Clear TIF_SYSCALL_RET before syscall error return
+c7585b8e99ad97a0f5dd21e45c90a33aeab0d92b powerpc: Don't drop _TIF_RESTOREALL on syscall restart
+c2549d749539487239475fbc8c614a1f9244d655 powerpc: Do not restore KUAP in arch_exit_to_user_mode_prepare()
+ac53977611428db3bc0b4ac0225e19c3e08ae50b crypto: x86/aria - add missing vzeroupper in AVX2 code
+60892a384aa1e65d0e703e1c513417bdf0c80777 crypto: x86/aria - add missing vzeroupper in AVX-512 code
+d96171d911e3b89ca2957c04264019cf2f96287b powerpc: pci-ioda: Fix the stale irq chip reference
+c5e68706527968282e49de205cc2b935823cb88a powerpc/eeh: Fix recursive locking on devices without EEH sensitive driver
+8a4978c17a144a6583478cce933bcb2dbb25298d powerpc/rtas_pci: No hotplug on permanently removed device on pSeries
+c6755be4838d6ccd641effbcdc3d917b82631ff9 powerpc/kexec_file: Use inclusive range checks in add_usable_mem()
+68832eb08751b4ce23e90bd90e9414a465a99da3 powerpc/kexec: Simplify kdump_extra_elfcorehdr_size()
+449f60f99f8f3cbe80a9bd2242945e827c5ed003 powerpc/kexec_file: Use inclusive range checks for excluded memory
+b1824233b19c1dffdb5e81283805a9e52e763caa powerpc/pseries/pci: Fix misleading VF limit error message
+63a7531ca31f9f097d9cc1cc3fe86ae683cdabdd powerpc/entry: Fix irq_soft_mask corruption on replayed interrupt exit
+5ba79d37403d86082ab4083b0f51ec3008a942cb powerpc/ps3: Fix repository.c build failure
+45a5f7285f835adb3b74c9344c09a7bd2c4fb664 MAINTAINERS: powerpc: Add Ritesh and Shrikanth
+a7c1290eef60711c10289c056ad32ed1f2b47b12 configfs: pin the symlink target's dirent instead of chasing ->ci_dentry
+f06c2d26d1999d37e93299db0ecead04ca7d0b9f configfs: unhash the dentry before dropping the item in rmdir
+c297ed90fbba72d32b7759aae362b36d15b2db1f Merge tag 'configfs-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/leitao/linux
+28924df2a08f440c73991b83028032c901de2ae4 Merge tag 'perf-tools-fixes-for-v7.3-2026-09-07' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+aefdbd574a362dcf7569bada6d72f64a006b9fb9 x86/amd_node: Fix potential NULL pointer dereference
+d2929113b15bfc06793b852aeba3d2db6d79fcc9 x86/MCE/AMD: Fix inverted interrupt enablement during storm handling
+7daadf5131ed488037cc4540797e53c7f2c5d3ec Merge tag 'v7.3-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+5acbae5f7eb3d5275120abfe698c394b7325dcec Merge tag 'powerpc-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+893e11787f78e43b534e252249ac3fff4d1333f8 Merge tag 'x86_urgent_for_7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
-317be42834373c50173655e33f8c0c099d04963c be077b75f7833591e799fa94de9c9c81ca745a28 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqhRqAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TYwP+wer7A++uyIPMn4wu+Ap
-9Cit6aodxywVQWlFGrB3IZRrofkj8UEdeNqYg3pjWbp+dTkOsLBK/lhrW3bnrbKv
-F/SwKdpXnoLOnSEeMgnswI/D7yLieHAq+e7/pk9Bzn6wxY90Gnr8uqsjS3YVkQR5
-6rL7fLwLG1lz5ykuX2Z73frlOk/jlfePT8x4DpcOkrQ2/mV/pPGrYt/eCp+IkHfZ
-7rGF3Nk+Gntnay520yfLwrcCylVDls7eH2RFIm6GvuEZWqXGWllLvBH7qldZg1gM
-/F/DgK4ys6d3gKy5v0SHzdsC7io2pCDxjTZ8xtUCUapG3kXKUkmzuRgLTrWo6DGl
-WGvhi1OrXxRPbfxJRFN/20zi6JDDHO0rZAIYQFIv1OmPn2NzWrjs+iEG91RtBLMD
-WK3ia1tGxEwWwJptx/bWL227zesIYQFnqSc40Kjf4gTPZOBAovH/cxhr2SvUzpvH
-sT/vhWkeLwL3JE6a3YT1u3ZTPUGGr4efWDFGufZsu1gI47+gHJ4Bj4k9bcUsvKE1
-Vhf40uCENHUikBxW60ERy8iVx0uYMp9vT8KmJIrwr4vij6kXaRxNaR5THt1HYCl/
-97/L8wjlbNgdqq8JiQ7J2v89C/WzJK54mBi8mDl/TxBeN/p3DYcReaRdMqrWoZxk
-Q+LHmVzom4VPEXN3jKiFzuHD
-=6esg
------END PGP SIGNATURE-----
-
---===============2820649699272790180==--
+--===============3340053762013024687==--
