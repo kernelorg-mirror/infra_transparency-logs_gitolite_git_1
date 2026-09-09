@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 09 Sep 2026 09:46:01 -0000
-Message-Id: <178894716193.3419150.13805110083828920441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 09 Sep 2026 09:48:18 -0000
+Message-Id: <178894729881.3419851.18148339069516758817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for_next
-    old: 5f7d97442dcec036e8511c3d13017f1195fa4c09
-    new: fdd4b109830d0458336ea99d119c8210f7da3a47
+  - ref: refs/heads/master
+    old: 8240bd83788babb6a8a63d1e606dcf3fbfe9bcb3
+    new: 427eb8ef0cf34bc8c6300000b814880807f410a7
     log: |
-         0bb666d5f5a2339a5692afb312c2161df9620503 once_lite: Simplify condition handling and fix context analysis
-         a4ed759939ed5b5b9803413111a54042f533f625 Merge tag 'clang-fixes-once_lite-for-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/nathan/linux
-         fdd4b109830d0458336ea99d119c8210f7da3a47 Pull clang context analysis fix
+         e02ad0affb48d775ff2d5ed87d7bb1c48b0a50d1 libfdisk: fix free() of uninitialized pointer in ask string API
+         7150270cce32fd0dcf367f97b9d5fa4647aa85cc tools: add checkcloexec.sh to detect missing close-on-exec flags
+         155950bfd2947916a05037b5b3274e2ee9521fbf tree-wide: add missing close-on-exec flags
+         e9faa74e6e7cfaa0b30cddc314439123ae1bea44 include: fix hardcoded stdout in fputsln()
+         ded593a442988866f7755d14c1acf8372e5fa859 Merge branch 'fix-fputsln' of https://github.com/yaaama/util-linux
+         427eb8ef0cf34bc8c6300000b814880807f410a7 Merge branch 'PR/libfdisk-ask-string' of https://github.com/karelzak/util-linux-work
          
