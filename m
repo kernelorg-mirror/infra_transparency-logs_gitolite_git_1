@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Wed, 09 Sep 2026 16:13:52 -0000
-Message-Id: <178897043251.3732409.8385965924046576377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 09 Sep 2026 16:14:13 -0000
+Message-Id: <178897045367.3732728.17366907845657445455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 8118272b14b306311e50430ba09b91ad1c2bbd3c
-    new: 4d0d58e3d3f0d1dfebcd3824021b661caa7d3ac0
+  - ref: refs/heads/for-next/fixes
+    old: 5445d64199626974269fcdf347769ad44b0bb53b
+    new: 955d86e5f3b95b731991fdb84966c50b16314629
     log: |
-         4d0d58e3d3f0d1dfebcd3824021b661caa7d3ac0 tftpd: make sure build_path() always null-terminates
+         955d86e5f3b95b731991fdb84966c50b16314629 arm64: hibernate: pass HVC_SET_VECTORS args to the resume hvc
          
