@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Sep 2026 13:17:26 -0000
-Message-Id: <178904624680.487933.18439187161170705072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Sep 2026 13:27:05 -0000
+Message-Id: <178904682529.494984.16629567096472418353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: ae768e41c03e865ec55a70ff1020a18a83976955
-    new: 10ca508878b6c0342639b85534ee914edfd0b2a0
+    old: ccbe7540e4aad0d1c3acc249697350b93ccb8025
+    new: 985a663bf00799c1daf1c5789efa6406958780c8
     log: |
-         10ca508878b6c0342639b85534ee914edfd0b2a0 net: phy: air_en8811h: select LED GPIO pins based on AN8811HB package variant
+         985a663bf00799c1daf1c5789efa6406958780c8 net: net_failover: Fix the deadlock in net_failover_slave_name_change()
          
