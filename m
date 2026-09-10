@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 10 Sep 2026 07:41:41 -0000
-Message-Id: <178902610176.231105.5106547366254018088@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3397373318984143882=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 10 Sep 2026 07:47:24 -0000
+Message-Id: <178902644469.234984.4890386212789093416@gitolite.kernel.org>
+
+--===============3397373318984143882==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 863d48714194bfcdb917b2ec35531e40df40cb87
-    new: f9920990c2135e2a16c74722ea2c96cbff776dd4
-    log: |
-         868297e3ebcc5c9b0e7cada19c82b11068faf4bf arm64: dts: mediatek: mt8188-geralt: Enlarge SCP core0 memory region
-         6c5388154299ee0b5ab2c654d5f3631bafd524a7 soc: mediatek: mtk-regulator-coupler: Add support for MT8189
-         f9920990c2135e2a16c74722ea2c96cbff776dd4 Merge branches 'v7.3-next/dts64' and 'v7.3-next/soc' into for-next
-         
+  - ref: refs/heads/vfs-7.4.shared.lsm.foll_force
+    old: 0000000000000000000000000000000000000000
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+
+--===============3397373318984143882==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1789026444 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1789026443-3c83230ad33bd483bf7678d97ab5b650fd89a99a
+
+0000000000000000000000000000000000000000 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/vfs-7.4.shared.lsm.foll_force
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaqJgjAAKCRCRxhvAZXjc
+opF7AP46IsjMtZeCaR5S37sv8KkHF2HyXvikJ+ggqBn6StTCvwD+JlsW6Kv54u8q
+637tes5D5NwuJMPbbn/biRivn4DztwE=
+=Mkn9
+-----END PGP SIGNATURE-----
+
+--===============3397373318984143882==--
