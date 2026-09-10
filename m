@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Sep 2026 09:11:56 -0000
-Message-Id: <178903151629.298258.2932602499840134077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Thu, 10 Sep 2026 09:16:00 -0000
+Message-Id: <178903176065.301719.9530484184502331254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/main
-    old: 7f26a5e8040b4957ef4dbdfcde6cc7ba2db53937
-    new: 00f9fbc12320253bfc576fb7539d860029c82d0f
-    log: |
-         00f9fbc12320253bfc576fb7539d860029c82d0f net: hso: fix TIOCMIWAIT race
-         
+  - ref: refs/heads/jag/sysctl-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 50d05c7c76c96b90462f24debacca971d2e86713
