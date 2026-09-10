@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7049207052112659129=="
+Content-Type: multipart/mixed; boundary="===============1081320645413133723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 10 Sep 2026 08:14:01 -0000
-Message-Id: <178902804161.253548.11369678527998978796@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 08:14:40 -0000
+Message-Id: <178902808075.253928.11401346905897486001@gitolite.kernel.org>
 
---===============7049207052112659129==
+--===============1081320645413133723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 123f122bf1c8ee24cc967e53bfbc1c612551829c
-    new: ff382a8295dce7362dfd55e85e938b5df03fe321
-    log: revlist-123f122bf1c8-ff382a8295dc.txt
+    old: ff382a8295dce7362dfd55e85e938b5df03fe321
+    new: fcbfc7b1e7288c2506d9a6dc32b5bc9a3db46473
+    log: |
+         518aa9948e4f2ba69b7066371d3ac8e4d31d604e x86/fpu: Check for missing AVX and AVX-512 xstate bits
+         19c5d90800a24096697dd6c66237218b7ea417ee um: Check for missing AVX and AVX-512 xstate bits
+         9256e0496c14d0c267f508400a2450371e265fca crypto: x86 - Stop using cpu_has_xfeatures()
+         ffe52429f87081d450d5a669bda9068ec7f36c8b lib/crypto: x86: Stop using cpu_has_xfeatures()
+         b93f05df9c660a3a11d1db608a859241d65ccb96 lib/crc: x86: Stop using cpu_has_xfeatures()
+         a5f7ae47667cc69738b2483e085cb0b2d819a9ce x86/fpu: Remove cpu_has_xfeatures()
+         2b1b0d6f4ea7be1c838c73988ac46c06ed0308ae xor: Remove redundant X86_FEATURE_OSXSAVE check
+         3385af7f674a74f871557755010dad045ca1d428 xor: Add AVX-512 optimized xor_gen()
+         fcbfc7b1e7288c2506d9a6dc32b5bc9a3db46473 Merge branch into tip/master: 'x86/fpu'
+         
+  - ref: refs/heads/tip/urgent
+    old: b4551ede6c21d071f01536d83822d7e04705f33b
+    new: a4438c99b1ab9a49642d4b2af4aab340adc1802e
+    log: revlist-b4551ede6c21-a4438c99b1ab.txt
 
---===============7049207052112659129==
+--===============1081320645413133723==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-123f122bf1c8-ff382a8295dc.txt
+Content-Disposition: attachment; filename=revlist-b4551ede6c21-a4438c99b1ab.txt
 
 0ecd56573c1f272c72298154a3854380876dbb7c ext4: Avoid entering writeback paths during fastcommit replay
 82e9343260dfc6dda6349f285d9a5eac3e0738d7 nsfs: keep namespace tree fields stable until after RCU grace period
@@ -98,6 +112,11 @@ a76f015d424e1956e7be9ead2224ab9816be5d79 Merge branch 'for-7.4-trivial' into for
 4f3989d75d33414389a57e78f4979931a0164df4 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 5e1287972b649aab54a894addeaf1fdd6bc23e6b Merge tag 'vfs-7.3-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 50d05c7c76c96b90462f24debacca971d2e86713 Merge tag 'landlock-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
-ff382a8295dce7362dfd55e85e938b5df03fe321 Merge branch 'linus'
+a8896771b4f7313bfc51f1df5cb39eaf7ebf3b03 Merge branch into tip/master: 'core/urgent'
+1ee6cb5415cc12ca74bd4bfad4269a351384a28f Merge branch into tip/master: 'irq/urgent'
+ab74e24138e60e1c7063a9b55681df92cc1f6772 Merge branch into tip/master: 'objtool/urgent'
+c8d8f7efc1c6ff16f1cbff03462cf310e5957bc7 Merge branch into tip/master: 'timers/urgent'
+05596c185e4daab8c0ab5bbd9e6677b197e8f29e Merge branch into tip/master: 'x86/urgent'
+a4438c99b1ab9a49642d4b2af4aab340adc1802e Merge branch into tip/master: 'x86/mm'
 
---===============7049207052112659129==--
+--===============1081320645413133723==--
