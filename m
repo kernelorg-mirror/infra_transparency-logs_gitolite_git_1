@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Thu, 10 Sep 2026 10:41:43 -0000
-Message-Id: <178903690330.364725.14564108296986784840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 10 Sep 2026 10:44:26 -0000
+Message-Id: <178903706671.365559.7860564568528660911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel.granados/linux
-user: joel.granados
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/jag/sysctl-fixes
-    old: 50d05c7c76c96b90462f24debacca971d2e86713
-    new: 3958f964c071508d262cec25a40ba7b09322a93e
+  - ref: refs/heads/controller/dwc-imx6
+    old: 50901546f3bf9e76cc13d8146d1b1604a392a477
+    new: e26f0268f0d4a8fa268c5255bffb96b3c3506517
     log: |
-         f61ae13e0e587adb9f67b064d0841f24a2d9a616 sysctl: Check range in  proc_dointvec_ms_jiffies_minmax()
-         4105d307c6e22e6c9653f363dbbc74a3756a5da4 sysctl: Check range in do_proc_ulong_conv_ms_jiffies
-         3958f964c071508d262cec25a40ba7b09322a93e sysctl: Fix type truncation in sysctl_msec_to_jiffies
+         e26f0268f0d4a8fa268c5255bffb96b3c3506517 PCI: imx6: Update MPLLB bandwidth to improve i.MX95 Gen3 PCIe stability
          
