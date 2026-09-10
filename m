@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Sep 2026 01:14:26 -0000
-Message-Id: <178900286670.4145351.12149658393910941553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 10 Sep 2026 01:16:01 -0000
+Message-Id: <178900296111.4148277.10337932171307593437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: 0b799884350f722208206bdecb3f405138e54d92
-    new: 07260479e33b89f71d51b9d1608be05d2262e559
+  - ref: refs/heads/hwmon
+    old: 9dfd29eca34ba8592c617bacb5a2e84eb0568d15
+    new: 4f33d820153af5d0a7a2ee892c97d7419d6c2c28
     log: |
-         f6e96d72f64a83b31655ce504a1029b155c16966 netconsole: add an address family to struct inet_addr
-         46b3f9e7e761d304986860804715af07381df4f1 netconsole: use the address family instead of the ipv6 flag
-         2e949954908bd5bcca2fe3cdaac9c42c88275c0b netconsole: reject enabling a target with no remote IP address
-         32535a1ea962e9123506463ac3e0d1473d492059 netconsole: reject a target mixing IPv4 and IPv6 addresses
-         56ddc8d48e75f48df938f5df80e2f99a0c3548d3 netconsole: show empty string for an unset IP address
-         7be9bfb7689e875fc94b711dcafe27c86413c966 netconsole: move struct inet_addr into netconsole.c
-         a4b9392ef046bd8a165fb5091adebc2c6ea46890 docs: netconsole: document local_ip auto-selection
-         07260479e33b89f71d51b9d1608be05d2262e559 Merge branch 'netconsole-validate-a-target-s-ip-address-configuration'
+         63e08326d2bf087223991c156e586d3f815ea9af hwmon: (asus_rog_ryujin) Validate HID report lengths
+         c852d1165be25a11fe7cf24d33b4a5525270359f hwmon: (asus_rog_ryujin) Synchronize HID command and report handling
+         4f33d820153af5d0a7a2ee892c97d7419d6c2c28 hwmon: (nct6694) do not expose enable on DTIN temperature channels
          
