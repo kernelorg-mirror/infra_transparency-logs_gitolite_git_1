@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Thu, 10 Sep 2026 09:22:19 -0000
-Message-Id: <178903213978.306633.17307841680576817205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Sep 2026 09:30:06 -0000
+Message-Id: <178903260677.312860.6490735079768228244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/mm-next-fixes-2026-09-10
-    old: 0000000000000000000000000000000000000000
-    new: 987e0c6358be6ddd5b40c595cb8b60b89cde8921
-  - ref: refs/tags/mm-next-2026-09-10
-    old: 0000000000000000000000000000000000000000
-    new: 839835cac2bcd1e8298c82f4f707e48d5f7d0dc3
-  - ref: refs/tags/mm-test-2026-09-10
-    old: 0000000000000000000000000000000000000000
-    new: fa2feaa12cbc27c63f0e68c8eb380514b855aee3
+  - ref: refs/heads/main
+    old: 00f9fbc12320253bfc576fb7539d860029c82d0f
+    new: 4770e9f851b782c0047d617a62897f957e441eca
+    log: |
+         1853f30cf5c84971f99788a76207c6f745380896 net/sched: cls_route: free emptied bucket on filter move
+         b74a8455a2f271f54695b6a8ec1f113824a46c0e net/sched: cls_route: Reject handle aliasing
+         41e85e54e5649a1617698438b0ce64c6f9d83d69 net/sched: cls_route: Fix in-place replace
+         e190a7aabbea4fbfec0e74de134144cb4d040738 selftests/tc-testing: Add cls_route bucket move and change tests
+         4770e9f851b782c0047d617a62897f957e441eca Merge branch 'net-sched-cls_route-fix-bucket-retention-and-handle-recomputation'
+         
