@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Thu, 10 Sep 2026 14:04:29 -0000
-Message-Id: <178904906975.523682.8466488827143606556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 10 Sep 2026 14:05:37 -0000
+Message-Id: <178904913733.526317.16233279354056674836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 416753b4ba90fe3b72952ace9954edb321657936
-    new: bbb4c8360c8607ac6e8f19647e129fabf7cae9a6
-    log: |
-         856c49afdfab0d05c81730576adfc9804ef9295d pahole: Fix --unions --packable segfault
-         170f23b0a229329d100c1238d0efddb46027526a pahole: Don't match unions with --with_flexible_array
-         6e85ae969bd3c5295106228f4daf60e72ecdb9d8 pahole: Apply the struct-only filters to unions
-         e19aefc4e66e0c12b1d800b7a13103fd8fb06f3b pfunct: Add support for split BTF
-         8e26b9efe32954eeb09b9a6bdab30596ab84dda0 tests: Add pfunct split BTF test to btf_split
-         8c7f597eb2303312b7950029af1c40b62df471f6 pfunct: Add man page
-         1cc33a125344caf8fcef8d664fee1d70f1bdcecf pahole: Fix option name in the -m/-C error message
-         bbb4c8360c8607ac6e8f19647e129fabf7cae9a6 pahole: Fix -C -T segfault
-         
+  - ref: refs/heads/io_uring-exit-cancel.6
+    old: 0000000000000000000000000000000000000000
+    new: 6e8c1b90a2a53ebf7f81dbc8d7703dd7ce71c41e
