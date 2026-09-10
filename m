@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Sep 2026 01:49:36 -0000
-Message-Id: <178900497674.4173396.5370928006030593717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 10 Sep 2026 02:18:43 -0000
+Message-Id: <178900672355.4193792.4627868761509038118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 3037c2f6a9de3af9775427059546e705237f6723
-    new: 3bfa48d011fbf41b50480a12efa0e26990c43b36
+  - ref: refs/heads/master
+    old: 4d409ddb01a021174c7741f3485ba83e9fc37a7f
+    new: a4ff6e621cdd7307228adef6335d47905151d684
     log: |
-         b5a252adbe4a7c611c8a131383f278852a2773d2 selftests: icmp_redirect: remove xfail support
-         3bfa48d011fbf41b50480a12efa0e26990c43b36 net: usb: qmi_wwan: add Compal EXC-T1 support
+         a4ff6e621cdd7307228adef6335d47905151d684 drop 5 patches based on RC review feedback
          
