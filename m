@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Sep 2026 01:23:54 -0000
-Message-Id: <178900343435.4153208.17510362791796979380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Sep 2026 01:32:41 -0000
+Message-Id: <178900396150.4160547.13065329080673333884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 07260479e33b89f71d51b9d1608be05d2262e559
-    new: bcf03907c5ec714f7b4fa0662b01be81f2919a17
+    old: 66ef5adb75446627f8b6c26cd04f2adc86d4de56
+    new: ef39fca8508597fa565cf2be72a884a712fb98af
     log: |
-         bcf03907c5ec714f7b4fa0662b01be81f2919a17 docs: networking: page_pool: Use page_pool_put_netmem_bulk() in the kernel-doc directive
+         ef39fca8508597fa565cf2be72a884a712fb98af octeontx2-pf: reset HTB scheduler topology before freeing queues
          
