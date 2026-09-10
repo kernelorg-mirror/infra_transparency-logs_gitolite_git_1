@@ -1,43 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============2735174623518373652=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 10 Sep 2026 07:30:12 -0000
-Message-Id: <178902541228.222247.5920324305577655889@gitolite.kernel.org>
-
---===============2735174623518373652==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 10 Sep 2026 07:38:17 -0000
+Message-Id: <178902589719.227017.11830997834870206130@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/vfs-7.4.file
-    old: 0000000000000000000000000000000000000000
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
-
---===============2735174623518373652==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1789025411 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1789025410-f6bccf18a7b0d75fc288fa9dc20f62b914cd45f4
-
-0000000000000000000000000000000000000000 cee9395acd8043be0644b25c34bfa86623f2b935 refs/heads/vfs-7.4.file
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaqJcgwAKCRCRxhvAZXjc
-ojpWAQCbMn4qP2hFvV8BIwPcaaiD0mMbiFypV4KwZ7j+cEBGPAD/QT24RdN0aqVP
-nnJP85i3cUIHSEGQr6kn+WbulQohLgg=
-=xXcF
------END PGP SIGNATURE-----
-
---===============2735174623518373652==--
+  - ref: refs/heads/next
+    old: c12a3a4b35e47fd511fbd550d3637318be41c4eb
+    new: 7a8d764ad2f7af1a45a43a2131c95e1c7301c169
+    log: |
+         f89563b30748bd439d86d729734d346c468b52a5 firmware: efi: fix typo "existance" in comment
+         7a8d764ad2f7af1a45a43a2131c95e1c7301c169 efi/capsule-loader: Replace kmap() with kmap_local_page()
+         
