@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Sep 2026 16:12:34 -0000
-Message-Id: <178905675409.628737.1439647068981837897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 10 Sep 2026 16:12:41 -0000
+Message-Id: <178905676130.628965.7753798106293118301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: fc266a5dd99c4584c985b8b687c750598500a7ae
-    new: 5096947508b750bd4a65a8e61bd2083a44d61bfd
+  - ref: refs/heads/regulator-7.4
+    old: 9442b4078ae0737152d5fd980d9108515b27c182
+    new: 6f69bafa8781aa533cfaed5c1eb7f3d38156bbb3
     log: |
-         478eb5abb51931a152abab068f8a717b7ff480fd net/sched: act_api: release all action references on NEWACTION failure
-         2a86bbed9f60702e97a8194e40f90f4db22d7795 selftests: tc-testing: test action batch failure cleanup
-         5096947508b750bd4a65a8e61bd2083a44d61bfd Merge branch 'net-sched-fix-action-batch-failure-cleanup'
+         e3c05a881fc9f0d47e373998bef5b4cb7426c565 regulator: dt-bindings: Add MPS MPQ4210
+         61879d561e91c71502fef9f28f26b31e9a5b9fa2 regulator: Add MPS MPQ4210 buck-boost regulator driver
+         6f69bafa8781aa533cfaed5c1eb7f3d38156bbb3 regulator: Add MPS MPQ4210 buck-boost regulator support
          
