@@ -1,28 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Thu, 10 Sep 2026 16:18:32 -0000
-Message-Id: <178905711261.633388.710789142804279565@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1601913158431890897=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 10 Sep 2026 16:24:19 -0000
+Message-Id: <178905745987.638065.7411447456574180061@gitolite.kernel.org>
+
+--===============1601913158431890897==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/kvm
-    old: 15671bb1ca12528f47b8da006ba4b9ea601e78b4
-    new: 70f34eb07caee87a98ff5a58b5e16d6b89335f19
-    log: |
-         5471240c68d399811ed35662d96bdc4659014afd KVM: x86/pmu: Acquire SRCU in pmc_is_event_allowed() to protect filter lookup
-         e98231cf015218aab56af8c16f7fbea53fdf5693 KVM: Allow reading memslots while holding slots_arch_lock
-         ea04c847f51c5911d7f98154222faff0d5dd2909 KVM: guest_memfd: Avoid conditional mmu_lock acquisition
-         eb031d461ce52b6208e74fe73fadeb286665761e KVM: Refactor kvm_handle_hva_range() to avoid conditional mmu_lock
-         ebf22ed567d582d5a54722bd011c736ef8c6dc6e KVM: Refactor kvm_handle_gfn_range() to avoid conditional mmu_lock
-         cae9debba6a5a7c61e5a8fbedaa68a8b9bc4a75b KVM: Add basic lock context annotations
-         e1f51ad6cbe805f943f790f41b0d8c40f18bab52 KVM: x86: Add basic lock context annotations
-         b2556ab881bd5a4f93cc64b42a16030c8e277d8e KVM: Add guarded_by to members in struct kvm
-         f84b31794b95fd0e5c3ae469d799601a922a87b3 KVM: x86: Add guarded_by annotations for kvm_arch, kvm_hv, and ioapic
-         70f34eb07caee87a98ff5a58b5e16d6b89335f19 KVM: x86: Enable CONTEXT_ANALYSIS with opt-outs
-         
+  - ref: refs/heads/master
+    old: 9d35770cb64777b3a44b9deccc3683231486af0c
+    new: 6cf877bf5a61bcb7cd851bc5a98e5a4361608970
+    log: revlist-9d35770cb647-6cf877bf5a61.txt
+
+--===============1601913158431890897==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9d35770cb647-6cf877bf5a61.txt
+
+51da643c8271468013804e57b24a55ea4207410b doc/hci-protocol: Fix missing & on mtu argument in BT_RCVMTU example
+4be273b132a72c5eaeeac9b9b9cf19c241b321d0 monitor: s/vendor_(evt|event)/\1_vendor/
+160395d93d14d6f0e2db30c217a5c5d2ea6e49a4 monitor: Support vendor packets
+06638a3983fd26f7ed141304b48f50ead2c6972e client/btpclient: Add BTP_EV_BAP_ASE_FOUND support
+6679d89c7c6d3dd4c6b25c808bd58e1cc69f10fb client/btpclient: Get Codec capabilities on ASE reply
+1f4dbf07531e95ee83ca24b3ece72f1551b8966b client/btpclient: Add ASCS BTP support
+0aa5118f4c8782c4604937e26ec063a262e34010 client/btpclient: Add BTP_OP_PACS_SET_LOCATION support
+a0d138b16027d8597d134dab4edb344588db0f0d client/btpclient: Add BTP_OP_BAP_SEND support
+2a0cee7a5af1072bf75239bc8c1fc65bb43033d3 client/btpclient: Add ASCS support for BAP/UCL/STR/* tests
+b2d1281907992e7d294f445fba0c03399f3ecc96 client/btpclient: CIG/CIS assignment based on Client/Server role
+6cf877bf5a61bcb7cd851bc5a98e5a4361608970 client/btpclient: Add stream auto acquire for BAP/USR/STR/* tests
+
+--===============1601913158431890897==--
