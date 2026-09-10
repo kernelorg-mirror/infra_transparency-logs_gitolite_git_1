@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 10 Sep 2026 11:52:59 -0000
-Message-Id: <178904117951.421795.5176922153077633738@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 11:55:33 -0000
+Message-Id: <178904133336.424935.5411187296804577557@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-rc
-    old: 2ae16aaa78b5edc6e6d0904c84fd9cdfb762bcda
-    new: 33fb59da49c4c3f5c2ec9f9d4447a56857a02c02
+  - ref: refs/heads/wip/leon-for-next
+    old: 63367df6e7255067ad6a83abe0d2799dfa491876
+    new: 95761b8736c938759032e8d4eb42074d39d13007
     log: |
-         662ade4de9ff5eceb0820a9f8e9fac70ba6a815b RDMA/ucma: Serialize join and leave on copy_to_user failure
-         9a141d3dc869d18b2eab35e999f4790a9b84e40f IB/IPoIB: Avoid restoring OPER_UP after multicast flush
-         33fb59da49c4c3f5c2ec9f9d4447a56857a02c02 RDMA/core: fix refcount bug in iwpm_get_nlmsg_request()
+         593fd6c48861364b445f1181a7818370b8280c13 RDMA/hns: Use u32 for gid_table_len
+         bb464eeadd301c3a53e9f92a2a472b73c42b74c4 RDMA/hns: Limit gmv_entry_num to avoid memory waste
+         95761b8736c938759032e8d4eb42074d39d13007 RDMA/hns: Fix GID capacity loss in 64K system
          
