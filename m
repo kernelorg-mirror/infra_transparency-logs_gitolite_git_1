@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Sep 2026 03:01:49 -0000
-Message-Id: <178900930936.33393.645162416230293837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 10 Sep 2026 03:05:38 -0000
+Message-Id: <178900953846.36255.5064168296065633217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 0338c68e22abd2ee509ec2e32508a50896618c32
-    new: 7f26a5e8040b4957ef4dbdfcde6cc7ba2db53937
+  - ref: refs/heads/master
+    old: a7162f3d9096af2ee407b6f0bfcc28e8d6c3fed3
+    new: 68a8f8fba13b44e7d54a3575201511612d7bfa9f
     log: |
-         7f26a5e8040b4957ef4dbdfcde6cc7ba2db53937 net/mlx5e: Move representor vnic reporter to eswitch devlink port
+         ec485e3e7c2630e42ea64d3ee82320d460eadf29 foo
+         cf7bd8cf86a1b9192806c762c8b07124f68ba2ed foo
+         68a8f8fba13b44e7d54a3575201511612d7bfa9f foo
          
