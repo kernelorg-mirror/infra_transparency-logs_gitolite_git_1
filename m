@@ -1,23 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Sep 2026 09:30:06 -0000
-Message-Id: <178903260677.312860.6490735079768228244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Thu, 10 Sep 2026 09:49:25 -0000
+Message-Id: <178903376514.324831.13334376470125400229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: rppt
 changes:
-  - ref: refs/heads/main
-    old: 00f9fbc12320253bfc576fb7539d860029c82d0f
-    new: 4770e9f851b782c0047d617a62897f957e441eca
+  - ref: refs/heads/kexec-next
+    old: c6ed7331aad89976a37469be7be6e2f110378720
+    new: c695e8b6f5f0ceaa7fd848b3d7e2ae8c2d8f6315
     log: |
-         1853f30cf5c84971f99788a76207c6f745380896 net/sched: cls_route: free emptied bucket on filter move
-         b74a8455a2f271f54695b6a8ec1f113824a46c0e net/sched: cls_route: Reject handle aliasing
-         41e85e54e5649a1617698438b0ce64c6f9d83d69 net/sched: cls_route: Fix in-place replace
-         e190a7aabbea4fbfec0e74de134144cb4d040738 selftests/tc-testing: Add cls_route bucket move and change tests
-         4770e9f851b782c0047d617a62897f957e441eca Merge branch 'net-sched-cls_route-fix-bucket-retention-and-handle-recomputation'
+         06ce2863e7d28bcee539b90c87960edda742fe18 kexec_file: remove unused arch_kexec_locate_mem_hole hook
+         702c7c4cf7999ee0e78f2b2f25b08deda5674ab0 Merge branch 'kexec-fixes' into kexec-next
+         c695e8b6f5f0ceaa7fd848b3d7e2ae8c2d8f6315 Merge branch 'kexec-7.4' into kexec-next
          
+  - ref: refs/heads/next
+    old: c65687600ed075d237a204755d99ad538db34b47
+    new: 945d61765894dda2f0344de50cb1ade2e51b66fd
+    log: |
+         06ce2863e7d28bcee539b90c87960edda742fe18 kexec_file: remove unused arch_kexec_locate_mem_hole hook
+         dc645f2db7539352404525dd1b80236520fb39eb kho: docs: fix scratch_phys debugfs cross-reference
+         702c7c4cf7999ee0e78f2b2f25b08deda5674ab0 Merge branch 'kexec-fixes' into kexec-next
+         c695e8b6f5f0ceaa7fd848b3d7e2ae8c2d8f6315 Merge branch 'kexec-7.4' into kexec-next
+         6810e8eb3d015dd56bf622d0cb8e011d057e00aa Merge branch 'kexec-next' into next
+         c730508d6b307f354ed8a3602b79e3f96e0afffc Merge branch 'liveupdate-7.4' into next
+         945d61765894dda2f0344de50cb1ade2e51b66fd Merge branch 'luo-internal-api' into next
+         
+  - ref: refs/heads/liveupdate-7.4
+    old: 0000000000000000000000000000000000000000
+    new: dc645f2db7539352404525dd1b80236520fb39eb
+  - ref: refs/heads/kexec-7.4
+    old: 0000000000000000000000000000000000000000
+    new: 06ce2863e7d28bcee539b90c87960edda742fe18
