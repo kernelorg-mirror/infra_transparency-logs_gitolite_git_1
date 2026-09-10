@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Sep 2026 11:33:40 -0000
-Message-Id: <178904002095.407205.6511027468307549843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 10 Sep 2026 11:44:18 -0000
+Message-Id: <178904065865.414562.6411950577245132522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 5d4d985957434867bbe85e4fa5e638f3e48ad522
-    new: 7addb4e5ef1702704914b47bca3f706ef96c1589
+  - ref: refs/heads/master
+    old: c24b3989a82b8c2d797f23b0c70de0186662c325
+    new: f6168af0669c0edcf4dd6cdf0379f3744761cd53
     log: |
-         3c18e3c9a54e1239b72849502ca4737604bfbb46 net: dsa: mt7530: populate lpi_interfaces to fix EEE support
-         d876c9cb2d16ed259449fe9da08c37a5cb81d724 net: ethernet: mtk_eth_soc: populate lpi_interfaces to fix EEE support
-         7addb4e5ef1702704914b47bca3f706ef96c1589 Merge branch 'net-restore-eee-on-mediatek-switches-and-soc-macs'
+         f6168af0669c0edcf4dd6cdf0379f3744761cd53 CVE-2026-17523: Add .vulnerable file
          
