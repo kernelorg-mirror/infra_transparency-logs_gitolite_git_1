@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 10 Sep 2026 23:58:51 -0000
-Message-Id: <178908473118.981105.335261587966513488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 10 Sep 2026 23:59:27 -0000
+Message-Id: <178908476745.981465.1079293178838022925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: f77d21245710690f3fb02d19d8dd4dc17ee58c2c
-    new: 15071f2a1263e82150c77eeb1e94dbfc31950a8e
+  - ref: refs/heads/pending
+    old: e84e576a8850ea8fb140c081983471ed199fc267
+    new: 6b6cdb336d5a5db551c89d4419372776f2c45ebc
     log: |
-         01b245ba016d44861690594e10f67e026ce8552f bpf: Fix out-of-bounds read of sk_protocol in bpf_sock_destroy()
-         eaab8cab451b9502ce224cd202550375b894a467 tcp: Skip cond_resched() in inet_csk_listen_stop() under BPF context
-         8036d3a5a6589ef0721d15e7c03976bc3996f7a8 selftests/bpf: Test bpf_sock_destroy() on TIME_WAIT and listener socks
-         15071f2a1263e82150c77eeb1e94dbfc31950a8e Merge branch 'bpf-tcp-fix-bpf_sock_destroy-on-time_wait-and-listener-socks'
+         6b6cdb336d5a5db551c89d4419372776f2c45ebc wifi: ath11k: cleanup arsta in ath11k_mac_peer_cleanup_all()
          
