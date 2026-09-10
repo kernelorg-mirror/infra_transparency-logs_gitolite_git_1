@@ -1,180 +1,114 @@
-Content-Type: multipart/mixed; boundary="===============0039064197112067783=="
+Content-Type: multipart/mixed; boundary="===============1821507801201762740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 10 Sep 2026 20:29:58 -0000
-Message-Id: <178907219814.821309.4650466278067704540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 10 Sep 2026 20:30:22 -0000
+Message-Id: <178907222260.823749.6045041474007142843@gitolite.kernel.org>
 
---===============0039064197112067783==
+--===============1821507801201762740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/jch
-    old: 95209831084a15e0fd64678bf07e20f9d1f9f3cc
-    new: 4527cbcf9f28a9ba7e64b31ed67aedcea73205a2
-    log: revlist-95209831084a-4527cbcf9f28.txt
-  - ref: refs/heads/seen
-    old: a6f2bea1acc73fcf34154756f043594ace6e3ec8
-    new: e28a4b296f388f2de941868203fe64cf153341ed
-    log: revlist-a6f2bea1acc7-e28a4b296f38.txt
-  - ref: refs/notes/amlog
-    old: 489ab238b331eef12e41d7108a9785672b03cf98
-    new: 46b03dea751b96d617c60cb4495c4591e35681e7
-    log: |
-         9a9ab72ab8ff9fc2fd81bd8ccd5fb7a1a8af64e8 Notes added by 'git notes add'
-         981a0c16d7d926734fab1817185e74f41328a450 Notes added by 'git notes add'
-         e394f4511671ee9fdf61f9f3409b2174dac278a3 Notes added by 'git notes add'
-         e125ba1c69df0977c4ae6f8058ebd08c932ca30d Notes added by 'git notes add'
-         e6e7b0b404bc187034f25d58d4a8e777bc8f3038 Notes added by 'git notes add'
-         ef898d59a5a80f1eba9ea3e7378b0e80901fb2d1 Notes added by 'git notes add'
-         cc12e794c2e3f27c6843df0d734396f78465029d Notes added by 'git notes add'
-         efa90560c43e38005743afac0d32aec641b04679 Notes added by 'git notes add'
-         ed2215a197123e3557bae8cafc0628145bf03262 Notes added by 'git notes add'
-         788641c773dc8581dac5cdfb1990cf8dc58bb785 Notes added by 'git notes add'
-         7e1262f04bcc30379946e81a96baddb673807036 Notes added by 'git notes add'
-         c5d30cc86aa51823ed478807b75eb1cb6371141c Notes added by 'git notes add'
-         46b03dea751b96d617c60cb4495c4591e35681e7 Notes added by 'git notes add'
-         
+  - ref: refs/heads/for-next
+    old: 9dcbf66ba49ad25e4c9bf240e65d0db80ead42db
+    new: 5ec449d9e3980e5b1617ab70f269c88f5f93f679
+    log: revlist-9dcbf66ba49a-5ec449d9e398.txt
 
---===============0039064197112067783==
-Content-Type: text/plain; charset="us-ascii"
+--===============1821507801201762740==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95209831084a-4527cbcf9f28.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-9dcbf66ba49a-5ec449d9e398.txt
 
-dc788496a6ab1a66e35e46ead84758af30c4b607 Merge branch 'kh/doc-datamodel' into ta/command-list-guides-sync-lint
-31ab70944f03cc08f5be8b083d0f4bfda9b36cb8 command-list.txt: add gitformat-loose(5) and gitpacking(7)
-4ce144a152830ab4ad6598129cfed21b8cf4a3a4 lint-docs: check the guide list in command-list.txt
-20e38cba3926a5b42ae1a83c7d4776285bc5c841 setup: split up concerns of `init_db()`
-dc33728d9d6249892c68060e2c21a211560e960c builtin/clone: defer setup of the object database
-f7aeeae6682881263adabc3d176ef1ce83205e79 builtin/clone: move around `setup_reference()`
-501548160c6bd13a622e78ad393baf49f9a6eed8 builtin/clone: refactor handling of "--reference{,-if-able}"
-87e10a91e2396507451387d3cf9f351d2cf7d7e5 builtin/clone: move setup of alternates for shared local clones
-002a7cfc731b9a4b77b580e82cba9aeea5b692cf builtin/clone: move setup of alternates for non-shared local clones
-d13e56771dd8ff8002c9ec31f17789df00d9199b odb/source: support writing alternates when creating the database
-a9c1a15debaf5dfc6e84bf86d24cc18a1333dfb1 builtin/clone: write alternates via `odb_create_on_disk()`
-d1019ac8941cd0d50e71c6b03e171faf80843c8d odb/source: remove the ability to write alternates
-233fc7873ed817c812923ad6f668eb8c6d6c46e9 Merge branch 'jk/ci-bump-debian-to-12' into jch
-26ae76efded1a199a278dc2ad15aecf836e1cfe0 Merge branch 'ps/ci-depends-on-ruby' into jch
-1815a504b012fc381ba53bf6f01e9e4acc602226 Merge branch 'jk/ci-use-system-asciidoctor' into jch
-6416e0a99322461ab697a9a3192dcb8e449cc3b2 ###
-7cb33377e38560f7305b08ccdc5c8280a725e1da Merge branch 'mm/lib-httpd-cgi-safe' into jch
-52a3b6b929602dd14a6f30e5df9b0d79e76d0c18 Merge branch 'en/no-amend-during-conflicts' into jch
-dbf7efa9eae09a4231e3e439937554be701de282 Merge branch 'wf/imap-send-draft' into jch
-b0ece4319a02c0682c6733033a91c92856719a37 Merge branch 'jk/submodule-error-leak' into jch
-c0f0cc6b49edee5d10b623d51bce1fec48101936 Merge branch 'hn/checkout-m-autostash-refine' into jch
-8b195158b5d72d0e8c281940e97f1b3ab6ff7bdc Merge branch 'jc/pathspec-match-const' into jch
-47813f9d73f96960c82ab78a22a95d5784be3f00 Merge branch 'ps/tune-rerere-gc' into jch
-5fbbd842adf321c1329574453ef42bcf1d6553e1 Merge branch 'sa/rev-list-missing-only' into jch
-24394672ed830110e7de5566a22d2f83e400c615 Merge branch 'tn/fetch-pack-trace-packfile-uri' into jch
-e10edb3580a2d7e8b66c17ee86c06f5f2488745e Merge branch 'kh/doc-datamodel' into jch
-b75771d0accd7c93f1599e2ce04522374c757573 Merge branch 'as/cherry-pick-no-commit-doc' into jch
-975da7ff330ae40ca64fdf011279881f3a7bca13 Merge branch 'jc/history-missing-tree-errorfix' into jch
-b06cada2733302ab75ee7a4e150b32063fad1a34 Merge branch 'ta/lint-gitlink-older-perl-fix' into jch
-067f7987d2628821df8992991d59cf8564c82f4a Merge branch 'js/mingw-build-updates' into jch
-3acf1814173b47e2046c64b80ac3db0167be360f ### match next
-9d56795acf3f3f4c09138013a09f3ba2e42cdf19 Merge branch 'ps/odb-stop-registering-in-memory-sources' into jch
-5d3526856367e8b62b30d822fe6d5166296ff006 Merge branch 'kn/receive-report-hook' into jch
-cae1de9dea4c15d3c3bcea574e783b72473184a9 Merge branch 'yt/pathspec-negative-prefix' into jch
-523b00cf04bd7cd24df9db8a161e24975187440d Merge branch 'dk/use-nsec-runtime' into jch
-e9551a13ac33d44293db1600ee032633481887a7 Merge branch 'ij/subtree-reject-v2-config' into jch
-6e486f04902dc4688caf30935dd21ea92f0e0768 Merge branch 'cl/regexec-macos-leak' into jch
-78768eecc85a04563a8d17ca7adbc19b9f08e573 Merge branch 'ap/http-preserve-wwwauth-redirect' into jch
-f1212b3611e43eae3013984eb3a5c644ccdd6419 Merge branch 'as/utimensat-utimes' into jch
-40d3fe51e44bc2829347a369e0b1e27231ac4071 Merge branch 'vv/branch-recurse-no-start-ref' into jch
-d8a4a7adfe8473dda0be4da20379e29ae68a6e9b Merge branch 'dw/config-read-both-global' into jch
-22a6ea64dcf3b79df371c381bf7a672f9b6a70c2 Merge branch 'ps/odb-alternates-at-creation' into jch
-a440e5b64db4fb29588647227061e773df314e6e Merge branch 'ps/odb-pluggable-fsck' into jch
-4527cbcf9f28a9ba7e64b31ed67aedcea73205a2 Merge branch 'ta/command-list-guides-sync-lint' into jch
+0ecd56573c1f272c72298154a3854380876dbb7c ext4: Avoid entering writeback paths during fastcommit replay
+82e9343260dfc6dda6349f285d9a5eac3e0738d7 nsfs: keep namespace tree fields stable until after RCU grace period
+72dd0ec09e7cc98ed58ddeac26575e5d1ab8a93d printk: Don't WARN on kthread_run failure.
+ffe0486b139e45cd9c9ca2584f04a1910fe4f8a6 console: fix /dev/kmsg reference in flags kernel doc
+55a4c98abb9694b067c6a031d11501f06b6b523c ufs: create the root dentry after loading cylinder metadata
+c9d263be26806d388129fab8c6904bed197fc6af ufs: validate cylinder group metadata before caching it
+31c7755e4f379159429e038e508507f573f45eb8 Merge patch series "ufs: harden the mount path against malformed images"
+08edfb34ee9ca54383970c65ed3a6013e84f5e16 ufs: do not treat unreadable directory blocks as empty
+fe967191e5851ea79818c5fe4e781c3882139218 fs: don't return -EINVAL for successful nested thaw
+b12e20c6ac156a307acdf0545432eb3b6cb41f8f adfs: fix memory leak in sb->s_fs_info
+f18e8774f4d3137fa0a5fb8ffa83d59a719666d8 netfs: Fix uninitialized return value in netfs_unbuffered_write()
+c753a33664e4e86246f7491a93d9a77c1a673b5d netfs: Fix unbuffered/DIO write partial transfer error return
+0bfe2571a6af653611860d0e24c4e4c83bae7a54 netfs: Fix error vs transferred passed to ->ki_complete()
+741416a8003b77e636dafade408f808d96ac3f47 netfs: Fix i_size update for partial transfer
+3c30087e27598d9d359763e8be9bd3017fe08348 netfs: Fix subreq ref leak
+8fb45a934661419c04a44d4cfea1e0df7dcf2805 netfs: break unbuffered write when netfs_alloc_subrequest() fails
+fed0b33e6c584986ba70018ec9f9787a98216e64 netfs: Fix readahead synchronisation issues by loading all folios upfront
+533203c4183123dad8ffecd694e7573a0ccd0da0 netfs: Mark folios with COPY_TO_CACHE whilst issuing subreqs
+e00827a4d0cfebf8d78dfd0a9a024237f57c9273 netfs: Fix read progress reporting
+a67632c8c2688d6e0091529bcefe54bc5ee80e9b cachefiles: Fix potential UAF/KASAN warning
+3884c9b120e26dad7f92317dea404a1843a17d83 Merge patch series "netfs, cachefiles: Miscellaneous fixes"
+5a88f78df753993469dab4d1831f8fb4256a9468 reboot: fix cad_pid use-after-free race
+a518e63c377574784f49653ef5314c70e2463b0c ovl: return EINVAL instead of EIO in case of mismatched user_ns
+0433632bbe8d279e978f3f85212f36281a89946c printk/nbcon: Flush nbcon_irq_work in nbcon_free()
+560f4deda32785e260056200f8bb911c475c5b88 printk/nbcon: Change nbcon_irq_work to IRQ_WORK_LAZY
+950ae84b5cc944fbe27d81806d0b76af765f779c afs: Fix missing kunmap in afs_dir_search_bucket()
+e3cfd3eb7d5be7787cc69530b423f788f14d084f afs: Fix double-unmap of directory block
+044d596094af4b769fb8e1173dff0d08bd68db6c afs: Fix incorrect free in candidate cleanup in afs_lookup_server()
+ba0623fc19a424f4745394c499f9f28a8d88d397 afs: Clear stale peer app data after address list changes
+e14d4302cbd0de773960bec33c2281508c8d8855 Merge patch series "afs: Miscellaneous fixes"
+115bf3e51538e74159e9fa46199468b69fd5df70 exec: Drop bprm loader before closing bprm->file
+5ab54837fce04a1c9923d0bfd3d5de51fdc768b3 fs: autofs: fix memory leak in autofs_fill_super()
+cdd812d0683dee14ead02c9eded568685e61b23f exit: hold a reference to thread_pid across proc_flush_pid
+2c6dc792538260a8087ac5b22c31b3b8e47c85d6 landlock: Fix use-after-free of the source's parent directory
+e7557b9ef7a87570cbd0873a163de05bde80c39b selftests/landlock: Test abstract socket trace name limits
+75d276e5bb68778b2916f98a2bc30f142ebadc64 virtio_ring: fix stale descriptor flags after a failed packed add
+3f9a0fceb730f5107d52421ead5568eae25a0049 virtio: fix use-after-free in unregister_virtio_device()
+894f98e73983f37354214a89a3a7fd35bf9e3072 virtio_console: do not free control-out buffers on remove
+ccb1dc7c527f8c925925cf92afc76ae590dac311 vhost/vdpa: reject VRING_NUM larger than device max
+e74a9fa50749b9940b4fb13199652325e08d3c4a vhost-vdpa: don't install the eventfd_ctx_fdget() error in config_ctx
+62be4e3e5f5f947fbf765b914cebdc478f715d12 vhost-vdpa: protect config_ctx from being freed under the config callback
+d14d693adb055e98ca705822ba6daebc18602d9a virtio_mmio: disable IRQ wake before free_irq
+6601d5a00899e7fa7e6b2d18113cee385ed3801b vdpa/pds: check virtqueue notify mapping
+9ab9b4f4eb4288588707ec359ac3d5b7ccf07fa6 vdpa: alibaba: Keep DRIVER_OK clear if IRQ setup fails
+e847542ab0545c73354849126150206c29d83929 vdpa: solidrun: Free IRQs after request failure
+4d470be71196ca0ce302e6623454533dc31b465b vdpa: ifcvf: Put device on unsupported feature error
+6519ca235131c3281a83cc9e8b05af709ab98a89 vdpa: octeon_ep: Check dev_set_name() in dev add
+ca2c2165a02e499b591a367224346a7e52664d9c virtio-vdpa: Use queue id when setting vq affinity
+0a8693f00c408d85f086ad85d29e7030bf1e2055 vdpa_sim_blk: reject out-of-range sector starts
+0d195797a80b77f2ec56718cd26d3ee65d0093e8 vdpa_sim_net: check TX pull result before RX copy
+7034e6c8dadaf4a2c95669890095ebafa8d9cee7 MAINTAINERS: Add a section for virtio-rng
+84cd1f879968ae75da15c25de4cb390428e89e6d vhost: limit outstanding IOTLB misses per virtqueue
+8dd505a45de0e63829d8bb4116b1d66db64813be virtio: add Eugenio Pérez as Maintainer
+93fa09455fb1a9624b73d42ac1f83771f4818e80 virtio-pci: return IRQ_HANDLED after non-zero ISR
+c952e607cb4aa3640e5ae07243d3f609dac94424 vhost-scsi: use kvzalloc for vq array allocation
+4e3ec5b1b427e02082e8b3491731f8c3bcf85c53 vhost-scsi: clamp max_io_vqs module parameter
+7474f3a61043934e9c351febc56f4d85cd5ddc96 vduse: do not take dev->rwsem in the virtqueue kick path
+fa2c25b4add57888acfa89e398389e267bff3dcf vduse: validate virtqueue alignment
+e4f4761879a230aa59e569102a6ab9851847d833 vhost: invalidate vring access on IOTLB transitions
+81489b32a21c9360f8750d1fb600155d27452e19 virtio_input: reset device if input_register_device() fails
+d7808b37da0a619cf1fa541c2384e783fecc2480 virtio_input: stop callbacks before unregistering input device
+48a4ee65e677559776349128e6a81a6041986c99 vduse: return compat ioctl results directly
+d3df7ed4683f8c1b35672a40bf20af6a08ef8ca9 landlock: Clean up ruleset validation checks
+3125751cd1de76a01b18daef399d6b88d159bd17 landlock: Bound escaped trace path output
+d41d0021a6ea3e9fcd14126a00fead47f981c46e landlock: Test trace path output boundaries
+e780259b54e618ceb4763fbc21314acf3565e813 exec: do_close_on_exec() before taking exec_update_lock
+a76f015d424e1956e7be9ead2224ab9816be5d79 Merge branch 'for-7.4-trivial' into for-linus
+56ea4e86832d8abe8930394473566c194d189f85 nstree: check listing permission before taking a namespace reference
+3f8b8c94a723ab6c0a62005e69a0872717f01709 Merge tag 'printk-for-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+4f3989d75d33414389a57e78f4979931a0164df4 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+5e1287972b649aab54a894addeaf1fdd6bc23e6b Merge tag 'vfs-7.3-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+50d05c7c76c96b90462f24debacca971d2e86713 Merge tag 'landlock-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+3546e196a05b70a5dde5f84ce17b2a11442d71f9 io_uring/io-wq: put the request file before posting a completion
+9a1fdaf986954af2e7a2b20c40b4fc38dee9411a io_uring: post io-wq completions from the last request reference
+334743375a046ff8ba4e2a32d12b7d7aa4f05efb io_uring/rw: don't reap io-wq IOPOLL completions while io-wq has a reference
+0f5c7dcfc599d3e9f3d32c73fa9284f6c3e87322 io_uring: put request files before posting the completions
+fbf012b9bef8dcf3ce193aefd9bc66db9f13fcbf io_uring/uring_cmd: only cancel requests of the given task
+1e8e18aad0162acbb8cb48bb7e8d72711fba8507 io_uring/notif: count pending zerocopy notifications per ring
+967482be9a3dcdde0cc062ed905f71fa79b16c80 io_uring/cancel: cancel and wait for all requests on process exit
+61a348548215f2d96e46590c30184a3d27e31205 io_uring: run cancelations synchronously on ring release
+8d239169e63f046367af14f9da12adda2c41e52b io_uring: drop registered files and buffers at release time
+acef4864bcfa8b2333bd526aa046b20b0da7b98f io_uring: wait for in-flight requests on ring release
+4b603fc995c5caa4e9f7cffa50524e83b1594432 Merge branch 'io_uring-7.3' into for-next
+5ec449d9e3980e5b1617ab70f269c88f5f93f679 Merge branch 'io_uring-exit-cancel.7' into for-next
 
---===============0039064197112067783==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6f2bea1acc7-e28a4b296f38.txt
-
-33e2bb4b086e4bab06652c69559fb93b985190c9 Move rust gitcore crate to a different subdirectory
-dc788496a6ab1a66e35e46ead84758af30c4b607 Merge branch 'kh/doc-datamodel' into ta/command-list-guides-sync-lint
-31ab70944f03cc08f5be8b083d0f4bfda9b36cb8 command-list.txt: add gitformat-loose(5) and gitpacking(7)
-4ce144a152830ab4ad6598129cfed21b8cf4a3a4 lint-docs: check the guide list in command-list.txt
-20e38cba3926a5b42ae1a83c7d4776285bc5c841 setup: split up concerns of `init_db()`
-dc33728d9d6249892c68060e2c21a211560e960c builtin/clone: defer setup of the object database
-f7aeeae6682881263adabc3d176ef1ce83205e79 builtin/clone: move around `setup_reference()`
-501548160c6bd13a622e78ad393baf49f9a6eed8 builtin/clone: refactor handling of "--reference{,-if-able}"
-87e10a91e2396507451387d3cf9f351d2cf7d7e5 builtin/clone: move setup of alternates for shared local clones
-002a7cfc731b9a4b77b580e82cba9aeea5b692cf builtin/clone: move setup of alternates for non-shared local clones
-d13e56771dd8ff8002c9ec31f17789df00d9199b odb/source: support writing alternates when creating the database
-a9c1a15debaf5dfc6e84bf86d24cc18a1333dfb1 builtin/clone: write alternates via `odb_create_on_disk()`
-d1019ac8941cd0d50e71c6b03e171faf80843c8d odb/source: remove the ability to write alternates
-233fc7873ed817c812923ad6f668eb8c6d6c46e9 Merge branch 'jk/ci-bump-debian-to-12' into jch
-26ae76efded1a199a278dc2ad15aecf836e1cfe0 Merge branch 'ps/ci-depends-on-ruby' into jch
-1815a504b012fc381ba53bf6f01e9e4acc602226 Merge branch 'jk/ci-use-system-asciidoctor' into jch
-6416e0a99322461ab697a9a3192dcb8e449cc3b2 ###
-7cb33377e38560f7305b08ccdc5c8280a725e1da Merge branch 'mm/lib-httpd-cgi-safe' into jch
-52a3b6b929602dd14a6f30e5df9b0d79e76d0c18 Merge branch 'en/no-amend-during-conflicts' into jch
-dbf7efa9eae09a4231e3e439937554be701de282 Merge branch 'wf/imap-send-draft' into jch
-b0ece4319a02c0682c6733033a91c92856719a37 Merge branch 'jk/submodule-error-leak' into jch
-c0f0cc6b49edee5d10b623d51bce1fec48101936 Merge branch 'hn/checkout-m-autostash-refine' into jch
-8b195158b5d72d0e8c281940e97f1b3ab6ff7bdc Merge branch 'jc/pathspec-match-const' into jch
-47813f9d73f96960c82ab78a22a95d5784be3f00 Merge branch 'ps/tune-rerere-gc' into jch
-5fbbd842adf321c1329574453ef42bcf1d6553e1 Merge branch 'sa/rev-list-missing-only' into jch
-24394672ed830110e7de5566a22d2f83e400c615 Merge branch 'tn/fetch-pack-trace-packfile-uri' into jch
-e10edb3580a2d7e8b66c17ee86c06f5f2488745e Merge branch 'kh/doc-datamodel' into jch
-b75771d0accd7c93f1599e2ce04522374c757573 Merge branch 'as/cherry-pick-no-commit-doc' into jch
-975da7ff330ae40ca64fdf011279881f3a7bca13 Merge branch 'jc/history-missing-tree-errorfix' into jch
-b06cada2733302ab75ee7a4e150b32063fad1a34 Merge branch 'ta/lint-gitlink-older-perl-fix' into jch
-067f7987d2628821df8992991d59cf8564c82f4a Merge branch 'js/mingw-build-updates' into jch
-3acf1814173b47e2046c64b80ac3db0167be360f ### match next
-9d56795acf3f3f4c09138013a09f3ba2e42cdf19 Merge branch 'ps/odb-stop-registering-in-memory-sources' into jch
-5d3526856367e8b62b30d822fe6d5166296ff006 Merge branch 'kn/receive-report-hook' into jch
-cae1de9dea4c15d3c3bcea574e783b72473184a9 Merge branch 'yt/pathspec-negative-prefix' into jch
-523b00cf04bd7cd24df9db8a161e24975187440d Merge branch 'dk/use-nsec-runtime' into jch
-e9551a13ac33d44293db1600ee032633481887a7 Merge branch 'ij/subtree-reject-v2-config' into jch
-6e486f04902dc4688caf30935dd21ea92f0e0768 Merge branch 'cl/regexec-macos-leak' into jch
-78768eecc85a04563a8d17ca7adbc19b9f08e573 Merge branch 'ap/http-preserve-wwwauth-redirect' into jch
-f1212b3611e43eae3013984eb3a5c644ccdd6419 Merge branch 'as/utimensat-utimes' into jch
-40d3fe51e44bc2829347a369e0b1e27231ac4071 Merge branch 'vv/branch-recurse-no-start-ref' into jch
-d8a4a7adfe8473dda0be4da20379e29ae68a6e9b Merge branch 'dw/config-read-both-global' into jch
-22a6ea64dcf3b79df371c381bf7a672f9b6a70c2 Merge branch 'ps/odb-alternates-at-creation' into jch
-a440e5b64db4fb29588647227061e773df314e6e Merge branch 'ps/odb-pluggable-fsck' into jch
-4527cbcf9f28a9ba7e64b31ed67aedcea73205a2 Merge branch 'ta/command-list-guides-sync-lint' into jch
-54dbae165e8744f9ce7a84d45fcba2fa8b078ffd Merge branch 'bc/maintenance-doc-markup-fix-for-asciidoc' into seen
-9d142d50829eebc96b19855fab65047b8bb2b14d Merge branch 'ec/commit-fixup-options' into seen
-7e8f5dabfcb11f1f7a253b1fa28b4b8a904ea452 Merge branch 'sn/rebase-update-refs-symrefs' into seen
-8bb5634a32991baa4c0d975a2f1c07c4c8ff5380 Merge branch 'tb/midx-incremental-custom-base' into seen
-fe84781ef8b2fa362dceb80c40e75a1d26b7f05e Merge branch 'mm/line-log-limited-ops' into seen
-e4d11d9d0f66164737c91ea30dedb2b0e2a925d7 Merge branch 'ds/trace2-tolerate-failed-timestamp' into seen
-35641fffff77c80a25fe7f19b5102b90f0a272ff Merge branch 'kj/repo-info-more-path-keys' into seen
-72c299804a98f7a706010526674551f8213fe391 Merge branch 'hs/rebase-continue-edit' into seen
-4df70a5c05952aa70c162147ed4576ef1b6a0ca9 Merge branch 'pz/fetch-submodule-errors-config' into seen
-e4472f64c93d2bc0148446cf98a1df83c1c115fd Merge branch 'tb/pack-with-duplicates' into seen
-873906311348821c6654b5bb9efe3597ba8a47e1 Merge branch 'bc/restrict-hex-to-lowercase' into seen
-a622672c8885e8a0af69a89ba9929c85fa2a216a Merge branch 'ty/repo-config-cleanups' into seen
-8db95be9cf1eae8759cfc0b483fea623b1c818a7 Merge branch 'cc/lazy-fetch-trusted-bit' into seen
-16a6bf01b22a25542e157b5a50b850dab764711a Merge branch 'gg/http-ssl-verify-status' into seen
-1ff91afb1ad241b98b426202a5de9b6bc392c43f Merge branch 'kh/format-rev-more-options' into seen
-2e0f9eb2d34d0c34a24b936063c4d3c86174fd26 Merge branch 'hn/history-squash' into seen
-eee2ec3e3caa9067ad0a0847ad650a605d8e0901 Merge branch 'ws/squelch-svn-migrate' into seen
-4e7a7efedb1ff3750e52730db78130121132fd09 Merge branch 'fz/rebase-autosquash-empty' into seen
-053922aba0cffe7e60180b7fca4b4931f17a8b9a Merge branch 'jc/checkout-refactor' into seen
-74cb1173a783c17fe9981e0dd9e1363beaefc607 Merge branch 'll/doc-pushcert-if-asked' into seen
-06554583f5cb92c5ae4db294ce51547b16812d63 Merge branch 'tc/last-modified-bloom' into seen
-1672f3492595eda35ec85965003889c9a6ea941f Merge branch 'cc/early-scan-options' into seen
-eb069e12e3eb57607b58af006c93b5f204ff2dcc Merge branch 'mm/diff-process-hunks' into seen
-c70882aeed10411fd75bfbfa1854c826db9b8354 Merge branch 'as/push-force-if-includes-no-reflog' into seen
-7bf28942ae538fd88d24ba1333179f93813e8a81 Merge branch 'tb/rerere-lock-grace' into seen
-8c1758f766327a103cb7487e38c7c6c0e5a80626 Merge branch 'tc/push-force-if-includes-fixes' into seen
-3ede4a6191e773ade1ad9cf6858c29500fedcc23 Merge branch 'vm/advice-config-global-hint' into seen
-a2e54b494fd2509076a4585bcac81652c948fac2 Merge branch 'jc/rust-cargo-build-target' into seen
-0b3e0fdee70620f4feda91e28d7ce36c510e665a Merge branch 'ps/ref-storage-format' into seen
-ce313ceef9f04a5cdf97d9673ed1bd340bada487 Merge branch 'ks/history-commit-leakfix' into seen
-28ea200d3a9f182515d7cb3652f9bee816a91da6 Merge branch 'ap/var-broken-down-idents' into seen
-e28a4b296f388f2de941868203fe64cf153341ed Merge branch 'mh/rust-crate-subdir' into seen
-
---===============0039064197112067783==--
+--===============1821507801201762740==--
