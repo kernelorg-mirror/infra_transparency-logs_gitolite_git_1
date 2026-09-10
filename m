@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 10 Sep 2026 20:48:03 -0000
-Message-Id: <178907328354.836030.14407224369504958763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 10 Sep 2026 20:51:20 -0000
+Message-Id: <178907348002.839416.6147063250069536139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: ca10117e55dff28a2da9a95b8e8e798c99a01cf9
-    new: e40edfa049b967f0b9379bf549c59431302ad181
+  - ref: refs/heads/i2c/i2c
+    old: b1218b8e5fe5202c6b6bc3d9ce7b0c390f195274
+    new: 309520d97b41466712335c227c150c17fd8f1ecb
     log: |
-         6691666bb4b22157cb3b9ad4e7ebdd1a7e8c19a3 Bluetooth: hci_qca: Do not write to the serial port after it is closed
-         ee0662ba1e0a58eba90cab4c7871823bc119c342 Bluetooth: hci_sync: Serialize local codec list cleanup
-         e40edfa049b967f0b9379bf549c59431302ad181 Bluetooth: SMP: Zeroize raw key data on the stack in smp_e()
+         309520d97b41466712335c227c150c17fd8f1ecb i2c: qcom-geni: Simplify PM resume error handling
          
