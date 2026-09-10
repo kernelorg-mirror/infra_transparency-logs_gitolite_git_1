@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0199673539124287852=="
+Content-Type: multipart/mixed; boundary="===============4277258816028137317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 10 Sep 2026 02:47:56 -0000
-Message-Id: <178900847645.22551.17289004107766936363@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 02:48:00 -0000
+Message-Id: <178900848065.22776.12137690481006856182@gitolite.kernel.org>
 
---===============0199673539124287852==
+--===============4277258816028137317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 620ce3597492e349536f3ada0dad30b39b5bce2c
-    new: 5247e2637097ef7bc7fed74bf25a73accce7c14e
-    log: revlist-620ce3597492-5247e2637097.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: e83b47309f73313e75c3888d7839666aba5b2b2a
+    new: f07317a8d57f382ec505597816271dd72ffa20c7
+    log: revlist-e83b47309f73-f07317a8d57f.txt
 
---===============0199673539124287852==
+--===============4277258816028137317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789008474 -0400
+pusher 75C5DE3D 1789008479 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789008474-a209b4bb9147d02b5a561b1222f6fc085a8112f7
+nonce 1789008478-8ee321428b880023dfc6e45d96476f4c91cbf0ec
 
-620ce3597492e349536f3ada0dad30b39b5bce2c 5247e2637097ef7bc7fed74bf25a73accce7c14e refs/tags/mkp-scsi-staging
+e83b47309f73313e75c3888d7839666aba5b2b2a f07317a8d57f382ec505597816271dd72ffa20c7 refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGloACgkQ7ulgGnXF
-3j3l3BAAkGQZ9nF9CyOdPmb2FjcGyGvA1XL/wXADVCRPKtSqu9QOvI7br0RgWa83
-mNsuiz4XgVvA1QdOPatyDw8tBifk24vWo967ihXXJ3grE7fYHMPyFDLpj9+9nQ3T
-I5bQUx7UpbwuvZbOIh9cnNyCiz35ZjzDGq26SMocqQ5Eaaqz1sUXMiv3LJoscem6
-wfTgThxSB1GkjrMoJ7TCohAceWofr59/82zZVijGZ1XK/YvYJ0S6reGtNzt3oHPh
-QW6SW1RooXJH9N81x4HZYr4ee4F/S+fcS7IPqvKhvcm5xbHDyrteEvGiZXnNDY7q
-aGQl3aWfIVigntRyWrS/dArExlfvC3rahtzE5XlRhNKTOnq54gV7uwD13o6R6QMk
-Am3x/Undb/Q9kvxWXHVFqXxe2IxdPzca9wVu+Q6uLEZ+o1P0pSpymterVLJt7vga
-jnpv6QtEaetzYVULHKlIHvzqxZo6PdyQzAix0GBmxYxaped/occNShPPwv7vabRQ
-7PaSz+yq4g6+DaBAuXTc+v+MngJE/9UpC/8RYZNS/6PN5MFGfN3zEfkbUSjYkUVg
-IBEN4jBcljQQIF3uVuKN9jqxc2pCt5Oc+mv/PsmTEr7Vq8eLDzjwZC+Ktnru1PZ+
-kDg+eqTCz78ChroLHjHZfcC9WvKBbyqnriG12wkERlLcgfte1IM=
-=Z54O
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGl8ACgkQ7ulgGnXF
+3j0QQQ//YXhC+jS1aSA20ELV2WEbaK0G/AL2J87tEJzO2XiZ70aiDpbqnEe+cypE
+99gEQlNww1iGqjo5uxe2M5NO0jzGhOMxJE594Awd2NFlvWVOMNhbpeKIJS/UhuZm
+/FyXbjCjY703TT8UjBjFHvF/lUXSFRxL9VCxApBYVh5pf6Xf31y/voq7pFoGqvKL
+ueKoTSMcFHoms7ieW/flhsbqaV6aL5qZiuSrnSRJ/hT47wU6FteEsguPD0IgEGc0
++LY6YT7VChX1a9RWmkxyCjyDsef6vSktwhvSLUa8V5YeXwP9A9N77hNJ7xpFMpDF
+BCjgvIvzin5U0nbrDyHXyFDb53uL+qqP8+CuHXdJ95HsW0KK1XmR2R9utDw3AeCh
+jRJAbEjhtvyKJyEWF8uykDzp88S9UqgBm1gmxf/KvsFglvsqLGkgnts1LtmwAObe
+huZtCCk3ytNbKX4UCAaCTlBwA00UbNiV09EugQ6kv6ov0m5KtNJ8giG4LKQYXBEm
+fyUcVxl1Rja9qAMs/8Ti+sZtstcLVEElmEUUJPbnbHn/Pd/zRrmvoyPmN9oaCarl
+UKcBcNch1cR0/dEfQVAT4KcA7WbY+ksS8hdFmlerCDUwsgYUUJukTBsfR4cgjHLM
+87ZOA7Txi46ifmoWNCjgIulmE8aH4fPRPlzXZvB6cGnnXePqkdU=
+=Cd/k
 -----END PGP SIGNATURE-----
 
---===============0199673539124287852==
+--===============4277258816028137317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-620ce3597492-5247e2637097.txt
+Content-Disposition: attachment; filename=revlist-e83b47309f73-f07317a8d57f.txt
 
 6b0f8a689ef3e84a9b2fc1a5753466dfbd566306 scsi: zorro7xx: Use individual zorro_driver_data structures
 a8a34238e5e65609a434fc13aa1d64fcf2df1d23 scsi: ufs: rpmb: Retry power-on UNIT ATTENTION on the RPMB WLUN
@@ -85,4 +85,4 @@ a09d77bcbe22db1a0b89f18d0a70074bb2453bc4 scsi: scsi_debug: Add support to corrup
 1b800ac9e21c2dbeda3dcb923060017e42612c4b Merge patch series "devfreq: check the get_cur_freq() return value and use it in ufshcd"
 f07317a8d57f382ec505597816271dd72ffa20c7 scsi: ufs: ufs-qcom: Enable only lane clocks in lane clock APIs
 
---===============0199673539124287852==--
+--===============4277258816028137317==--
