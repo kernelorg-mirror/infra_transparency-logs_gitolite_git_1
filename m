@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Thu, 10 Sep 2026 14:24:53 -0000
-Message-Id: <178905029373.539412.4321036224376002575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 10 Sep 2026 14:30:07 -0000
+Message-Id: <178905060768.545257.8488530341006067295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/kvm
-    old: 936891926aa71149404c1a0b1eda31d1ef559af5
-    new: 96cf1ccfe98e5f224f41a2c78fcb586c58ad113f
+  - ref: refs/heads/xfs-7.3-fixes
+    old: 763490d70e9b6b26e551b91847814c959468a80c
+    new: 50ba24ccb9a94f61c707209442ca23d98c815052
     log: |
-         1e08458bc0bf59bbd409610264c0313cd45ea5ca KVM: Add guarded_by to members in struct kvm
-         95a99179675b13de3432376bb9e4566a10d6b8cf KVM: x86: Add guarded_by annotations for kvm_arch, kvm_hv, and ioapic
-         96cf1ccfe98e5f224f41a2c78fcb586c58ad113f KVM: x86: Enable CONTEXT_ANALYSIS with opt-outs
+         568a1588b906780dc3e9be56a61217afb4f7800e xfs: snapshot scrub stats when rendering them
+         0ae61c331ec552ad0c278c5c48a1c4ccb90b4bab xfs: report healthy filesystem events in scrub stats
+         d3dc979a49df6d48f8e137034d19d9b35afd07d8 xfs: report runtime failures in scrub
+         341f03865d0793e7df22c4661e04047c092e5ac2 xfs: remove redundant function declaration
+         3466dfef0a20f842363958deea55be9f1d26818a xfs: snapshot old AGFL before rewriting it
+         eaf580538eb1be3d162400d04c4b7dc4c627296b xfs: bail out on bitmap errors in xrep_agfl_fill
+         ad0033e2dbd3ecc063dfe613060da5cbab9a4970 xfs: also flush the RT device cache in xlog_write_iclog
+         c84455c683eb0b0397b0f5c5f5ce5cd82572a23f xfs: don't continue on error in xfs_fsync
+         761e015e5a54851043c3b5bb7cfb6f539b01a35e xfs: avoid extra cache flushes for multi-device file systems in xfs_fsync
+         50ba24ccb9a94f61c707209442ca23d98c815052 xfs: set IOMAP_F_INTEGRITY for zoned writes on integrity devices
          
