@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Sep 2026 07:50:54 -0000
-Message-Id: <178902665400.238229.536699525821768427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Thu, 10 Sep 2026 07:51:34 -0000
+Message-Id: <178902669479.238672.5768197333382602945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: f217004a40c49e787372e798785aecb983828d35
-    new: 5a81c72ef9ad6477e03d9d9b0abd794e9e4e639c
+  - ref: refs/heads/next
+    old: 7a8d764ad2f7af1a45a43a2131c95e1c7301c169
+    new: bb6cbbb42c3a4b1d949dbe0efdd5f7c952a9d7b0
     log: |
-         5a81c72ef9ad6477e03d9d9b0abd794e9e4e639c net: run netdev work under the ops-compat lock
+         2a2b1e23c448ca405495dae162746c330e0ce15b efistub/x86: Use struct boot_e820_entry for size calculations
+         d6c852af44d7df4ecf3b30ba082ca8a52bc9645a efi/libstub: Simplify check_image_region()
+         bb6cbbb42c3a4b1d949dbe0efdd5f7c952a9d7b0 efi/libstub: Fix grammar in efi_kaslr_relocate_kernel() comment
          
