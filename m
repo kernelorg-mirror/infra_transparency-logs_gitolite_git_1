@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4150371139507532558=="
+Content-Type: multipart/mixed; boundary="===============0320008665948344292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 10 Sep 2026 02:47:28 -0000
-Message-Id: <178900844819.21161.8836262849799293559@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 02:47:32 -0000
+Message-Id: <178900845246.21385.14469120919103249491@gitolite.kernel.org>
 
---===============4150371139507532558==
+--===============0320008665948344292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 692db0429b709eb318921f6534ea32a958fbc1e1
-    new: cbdb3df6c396263461aafa8d26894d92fd722bc9
+  - ref: refs/heads/7.3/scsi-fixes
+    old: af8c27375733fb6a6df9fa484cda77cc3dd0cb80
+    new: 3d676e458fe0c566f5a62753dc696b6a862fc412
     log: |
          264bf9655c3d067d775a46f05eb8c871c488a864 scsi: pm80xx: Fix the use_msix, use_tasklet and read_wwn parameter descriptions
          779f202a92ef10a426efc07d0f4267918cb07ca3 scsi: qla2xxx: Fix the ql2xfc2target parameter description
@@ -27,33 +27,33 @@ changes:
          3d676e458fe0c566f5a62753dc696b6a862fc412 scsi: core: Validate MODE SENSE lengths in scsi_cdl_enable()
          
 
---===============4150371139507532558==
+--===============0320008665948344292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789008446 -0400
+pusher 75C5DE3D 1789008450 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789008445-80eef669bd12b5609a95e4fe22731267f0fc030e
+nonce 1789008450-9c2bc0ff6ae248e54a18a31273e91bc9adc30da6
 
-692db0429b709eb318921f6534ea32a958fbc1e1 cbdb3df6c396263461aafa8d26894d92fd722bc9 refs/tags/mkp-scsi-fixes
+af8c27375733fb6a6df9fa484cda77cc3dd0cb80 3d676e458fe0c566f5a62753dc696b6a862fc412 refs/heads/7.3/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGj4ACgkQ7ulgGnXF
-3j2T+xAAuWjk9aKkMzfFDBeB+In1Jls+DBeH0+kJJ/vy/24r00FLfddv+PB3ac/f
-WHO0EJ6Xg7hn1En7kTrzPHKYtCJAvGk2ujf3nvkQoeykGy5Dnz7u3pNiCZ/uoww3
-bUiSJxOJE9ZUA2cuF2oD+9uPWR9JP71xJUHomkdCvzrUjK6WnRMwpBYM36Lg8lBJ
-9ll3rXK+WgRS0sKjrD+GeH9IAiXIa4YqZ3+BGOyBqq3ZZoI7QYG+vkpdfBZbcBSB
-SktBo5w/LNj8z8dB17Y7BBYctFebG+pl9KukEchiTcVvSSYKrJcKcGjSnsMdqSpJ
-L20oPfTzGZz5f6wALkDUOYWP6Y46ZQ6TvS1yHgFXo5DnV2UfIhHQuZWi6KYPPd7b
-8q8AuE9VArCFNu4gDhuzNHqzzhLD3jV92+gJMdt6+x9slbsOMtVshj7jjEOo8Dq2
-TCrrphFzd7CkSH9KsaG0qFIROKzGwn+Vnkz6RJsen3b1t4nPfX1sqtvWGgPe4y3B
-BAAV4XoFrvTAgvArjzFgpxtTIbs0JfXxBQzOB948qRi+9oUH7dJn72EAAyRBG5DV
-ciubECGhznmN6GxNFwJhbHu5e6z+utKs/JAfWGgrJaIWFTTb0JqZfDBS66uZtvRi
-h0l3B6IZvzMJgExfr4DhbgJ2WWVd9ATqOCngti5x1uh0v0iTtw0=
-=NLQi
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGkIACgkQ7ulgGnXF
+3j2uthAAmJxiGwl8BzUJqIa0IEqkp+8aWhRNB4u2L73jCf1J803OOhCV/2mKyn3/
+JW387cPiMRB3sF4uvul8PMwBkjXKAQmTgp/0EBPq/cXC6diTXd57i7qGrRu4wCM5
+6BjkkVOXGlUlmMFSKNJLl5CYFVCeQR2bGbOsbKKan8fGsQIirJX4bIGaSmg2GD6p
+84KTHGlzNO3M29hmrg2qNnMwk+MtzZr2HdoO6+l9eTzMG8FHBBu2/FkoP1+5DImr
+2n3Aj5uIQdYgfLoyo+bAMgkfJnm6VmZ9d9gIYgDkTRZ3CUz+1SfD0qzCgxEO2hIV
+cuhHeVGf9eM7DrYK5o4wWjz/Nb6LsSpZeecqkXJmQvXtUkpHcJDs0J9uFJvU/7Wz
+rprw57hwX37wGR3SxwJLnf+N/tWFv8bhB+Tu+iiRQM2daukOoYU3bza0+CiQ6U/k
+49xZ5AeALVJ89tVj/Q7Ujfq5Hj/j/eAs4Ib6ZkHdKLt1jkiBW2K0wnhTppXuLjDp
+u6wanA4/+LXbChh4E3N1if/1+F8Xi+3HMBH/dHfmcnx/PjjainRClQGMLjgIsILz
+mvyl3H3MGafFhZTo9Za3/x6p5sleX0pdHLa2k0Ej0QGZotqfJ+dm9F/RYzaQXJeI
+bTwQzTfLGR6d/xu/9GuhJ8rm7wF4mit4rQe3uYy5p4Y/qgPBpY8=
+=kEfm
 -----END PGP SIGNATURE-----
 
---===============4150371139507532558==--
+--===============0320008665948344292==--
