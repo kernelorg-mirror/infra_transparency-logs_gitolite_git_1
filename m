@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2772832604944638564=="
+Content-Type: multipart/mixed; boundary="===============0199673539124287852=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 10 Sep 2026 02:47:50 -0000
-Message-Id: <178900847060.22316.7841696937467961147@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 02:47:56 -0000
+Message-Id: <178900847645.22551.17289004107766936363@gitolite.kernel.org>
 
---===============2772832604944638564==
+--===============0199673539124287852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,73 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: e83b47309f73313e75c3888d7839666aba5b2b2a
-    log: |
-         f07ed527235c44e0aae53100133bb547f5ee448f scsi: target: file: Use kmalloc() to allocate temporary protection buffer
-         b4fe0d7d41eacf3c2ffa54eef3e5e93ac8777518 scsi: proc: Use kmalloc() in proc writers
-         0abe3fb1c5056b7f2f99178b23db8aa95dd03f85 scsi: ipr: Use kmalloc() to allocate IPR dump buffer memory
-         e64b8f3224add21f02c5d64e11371830e631cdba scsi: sym53c8xx_2: Replace __get_free_pages() with kmalloc()
-         401b5781ab9182b28a1c6c4e262cc5e1e7716fbb Merge patch series "scsi: replace __get_free_pages() with kmalloc()"
-         e83b47309f73313e75c3888d7839666aba5b2b2a scsi: core: Drop Scsi_Host.default_lock
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: 620ce3597492e349536f3ada0dad30b39b5bce2c
+    new: 5247e2637097ef7bc7fed74bf25a73accce7c14e
+    log: revlist-620ce3597492-5247e2637097.txt
 
---===============2772832604944638564==
+--===============0199673539124287852==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789008469 -0400
+pusher 75C5DE3D 1789008474 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789008468-70eae580216cb1d9a4638e2624d2ab54492f29bd
+nonce 1789008474-a209b4bb9147d02b5a561b1222f6fc085a8112f7
 
-cee9395acd8043be0644b25c34bfa86623f2b935 e83b47309f73313e75c3888d7839666aba5b2b2a refs/heads/queue
+620ce3597492e349536f3ada0dad30b39b5bce2c 5247e2637097ef7bc7fed74bf25a73accce7c14e refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGlUACgkQ7ulgGnXF
-3j0okw//ZRmj1w1HevomPswN2scOxqL/9ohUmLJFSwUpFyKTDwhZePkeHfZilNkj
-bBlnvLB4ghcl0/ngXpIgPFDTrJu9OKSZ/otPKRH4HdbUkx/278zpFBsg74p9l5rp
-oSkQHaGziJVUSZeVT53cfNa4Y3TBgzdS2DJxP8JfOdLuwdUPmKIbVHOcuLlcleNy
-uIjfU75v5eTcCBqOrNsXZAC3aWVKCZ6PUHFmnBoLaLbeGc/hK2IUQmvjXmXQjEvy
-RpIkRcoLaZCoKi47ChrdrET9gaso50UahXS3qSkNDTinWhix/i5Ip/BdLDDdCWe3
-oQkw0X2Q0IWVAKcCoXACJo7jbcnCbpG/F+sYME0SBacbe3wemkO/Rk88cIj+t46v
-kRKMLeeMNVF6UFSpOJPAmgQ4uikFlQ2o4jYlIrZYXf2vz4ELpI39nZH5F+XvH7Os
-en+/a4xo1SBrhdpu7VZcDx/Br02HnENZ6vFyKpE6gO//TO32V0+6/cY02y3+cTJO
-ZCROrj36cMIp5QaEQ6wC2/5cXuUXl1Z3qnureF/N57k6XK8uKhha2/1uc9UGfh6/
-dfQfhScN0rR0UBA3/m7rBL8QDsxODYOTXMjP32l795G3jqU+nRDomh4Pg9t9uNzN
-qxpFQO8n44NUMC707ANQlaPjum3NjF6+xAofK57ipPtwW/Waahw=
-=r2yV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGloACgkQ7ulgGnXF
+3j3l3BAAkGQZ9nF9CyOdPmb2FjcGyGvA1XL/wXADVCRPKtSqu9QOvI7br0RgWa83
+mNsuiz4XgVvA1QdOPatyDw8tBifk24vWo967ihXXJ3grE7fYHMPyFDLpj9+9nQ3T
+I5bQUx7UpbwuvZbOIh9cnNyCiz35ZjzDGq26SMocqQ5Eaaqz1sUXMiv3LJoscem6
+wfTgThxSB1GkjrMoJ7TCohAceWofr59/82zZVijGZ1XK/YvYJ0S6reGtNzt3oHPh
+QW6SW1RooXJH9N81x4HZYr4ee4F/S+fcS7IPqvKhvcm5xbHDyrteEvGiZXnNDY7q
+aGQl3aWfIVigntRyWrS/dArExlfvC3rahtzE5XlRhNKTOnq54gV7uwD13o6R6QMk
+Am3x/Undb/Q9kvxWXHVFqXxe2IxdPzca9wVu+Q6uLEZ+o1P0pSpymterVLJt7vga
+jnpv6QtEaetzYVULHKlIHvzqxZo6PdyQzAix0GBmxYxaped/occNShPPwv7vabRQ
+7PaSz+yq4g6+DaBAuXTc+v+MngJE/9UpC/8RYZNS/6PN5MFGfN3zEfkbUSjYkUVg
+IBEN4jBcljQQIF3uVuKN9jqxc2pCt5Oc+mv/PsmTEr7Vq8eLDzjwZC+Ktnru1PZ+
+kDg+eqTCz78ChroLHjHZfcC9WvKBbyqnriG12wkERlLcgfte1IM=
+=Z54O
 -----END PGP SIGNATURE-----
 
---===============2772832604944638564==--
+--===============0199673539124287852==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-620ce3597492-5247e2637097.txt
+
+6b0f8a689ef3e84a9b2fc1a5753466dfbd566306 scsi: zorro7xx: Use individual zorro_driver_data structures
+a8a34238e5e65609a434fc13aa1d64fcf2df1d23 scsi: ufs: rpmb: Retry power-on UNIT ATTENTION on the RPMB WLUN
+657eff806d38abd73e0002cda070c4cf14eb9882 scsi: ufs: rpmb: Use a fixed-length RPMB dev_id
+06cc447b65beacb6912b675675de49abe24dc02f Merge patch series "ufs: rpmb: make RPMB usable with OP-TEE key derivation"
+2cf34575b6498e909193222c3c2c940a2e3fbd8f scsi: scsi_debug: Default to a higher throughput config
+896abdd4d81f40575b05d593f7fe004935a6cf97 scsi: mpi3mr: Fix buffer overflow in BSG passthrough request copy
+9fac4cbd66d852958e8a8d0952eb57f8554ce83b scsi: mpi3mr: Fix out-of-bounds read when copying BSG MPI requests
+37e7d274272bc5e545e2d5f9261afa7f33f1cf49 scsi: mpi3mr: Fix I/O block counter leak on admin request post failure
+f0ec04bdf6156ed2ae7d86a8819dafdd9383b705 scsi: mpi3mr: Fix target device reference leak in BSG task management
+9ff1af19c488efad66f2b803eefa0abd5fdac8f4 scsi: mpi3mr: Fix buffer overflow when caching log data
+bcf0a5bed59acd5ae19d80e1f617c1a5b355af0b scsi: mpi3mr: Fix out-of-bounds reply frame access
+7fea128f6b829ad834f21834d2605d28a45b903d scsi: mpi3mr: Fix out-of-bounds sense buffer access
+5dade59551d344d0308256edfef6bc3fb4202eb3 scsi: mpi3mr: Fix out-of-bounds bitmap access during device removal
+a04b0f3a17e32aa449fd896163a7b40efc29c4f5 scsi: mpi3mr: Fix target device reference leak in device removal handshake
+9e220ce4bd0468e47cc9eea07e40799ebae6eda8 scsi: mpi3mr: Fix out-of-bounds read in SAS topology change events
+77554f01187d91c20f04d2a8e28270943ed64cca scsi: mpi3mr: Fix out-of-bounds read of event data
+f67caaa2521a3c8f931d1e679d831ba5ca654794 scsi: mpi3mr: Fix out-of-bounds phy array access on link change
+203b3072e7aa10d98b3f2b766693ea925cfc571d scsi: mpi3mr: Fix buffer overflow in the BSG target device map
+7d572b4dc4ed0494e67097d4b7368666655f5c99 scsi: mpi3mr: Fix out-of-bounds read in PCIe topology change events
+052aea807cfbcefaf5b6ed8202f65da1fc65f4a0 scsi: mpi3mr: zero out diagnostic buffer status memory
+c94c746e6c80439a4a9a0e1e20f2dae62a4d57ef scsi: mpi3mr: Fix use-after-free of the firmware event workqueue
+2ba1d12b2629827fdb1116eb3c9f8566911f2034 scsi: mpi3mr: Fix NULL pointer dereference on PCI error recovery
+9bf8a2050693fc052642052c3991079d44e65643 Merge patch series "scsi: mpi3mr: Fix out-of-bounds accesses and reference leaks"
+a09d77bcbe22db1a0b89f18d0a70074bb2453bc4 scsi: scsi_debug: Add support to corrupt data and/or reftag
+20ae446921e78e4e0182cea7559d34d839550e66 scsi: ufs: core: Record the frequency the controller starts at
+55ad5deeea922ea854086b70e41415f50e2987ea scsi: ufs: core: Report the current clock frequency to devfreq
+1b800ac9e21c2dbeda3dcb923060017e42612c4b Merge patch series "devfreq: check the get_cur_freq() return value and use it in ufshcd"
+f07317a8d57f382ec505597816271dd72ffa20c7 scsi: ufs: ufs-qcom: Enable only lane clocks in lane clock APIs
+
+--===============0199673539124287852==--
