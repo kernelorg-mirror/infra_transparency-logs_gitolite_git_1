@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1362912021635862210=="
+Content-Type: multipart/mixed; boundary="===============6059461358666270957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 10 Sep 2026 02:47:42 -0000
-Message-Id: <178900846221.21843.13487717918036118182@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 02:47:46 -0000
+Message-Id: <178900846640.22094.17177024115369598837@gitolite.kernel.org>
 
---===============1362912021635862210==
+--===============6059461358666270957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0c1e57fc323822cd5ba3cc0b1d164fde8d3efe0b
-    new: fc69bccf797756f184ffab25ba8d2f0f6cf6fad0
+  - ref: refs/heads/7.4/scsi-queue
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: e83b47309f73313e75c3888d7839666aba5b2b2a
     log: |
          f07ed527235c44e0aae53100133bb547f5ee448f scsi: target: file: Use kmalloc() to allocate temporary protection buffer
          b4fe0d7d41eacf3c2ffa54eef3e5e93ac8777518 scsi: proc: Use kmalloc() in proc writers
@@ -28,33 +28,33 @@ changes:
          e83b47309f73313e75c3888d7839666aba5b2b2a scsi: core: Drop Scsi_Host.default_lock
          
 
---===============1362912021635862210==
+--===============6059461358666270957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789008460 -0400
+pusher 75C5DE3D 1789008464 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789008460-1cf8eda7608b20396ef7001df454973b8d6c3302
+nonce 1789008464-03014ce7da13b8e66fd1c172910d4dffae5404e1
 
-0c1e57fc323822cd5ba3cc0b1d164fde8d3efe0b fc69bccf797756f184ffab25ba8d2f0f6cf6fad0 refs/tags/mkp-scsi-queue
+cee9395acd8043be0644b25c34bfa86623f2b935 e83b47309f73313e75c3888d7839666aba5b2b2a refs/heads/7.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGkwACgkQ7ulgGnXF
-3j3bSBAAjLSlOgPCEii+o2tBiPfZ3jLNMqGbn5zzv6nZ+exm1QiTbLC0RuoDt0bD
-djUD06Wk+6NNomORsVQQM5Me4hvMwbQjji1G+10iFTshJfpmwpi2wBx1XHZ6ALNV
-Ax95qRqsSqBJzPekOe+oL8RNxZoEUCdWb+jA3RCzUfkP3oOwarCYaahzThLoU5lr
-5nrQSLK3wxe/W5ZCnbcU/ix+DbWE+lzcdHzxP+hbH8sXVpnVa0zAWL9nA1CwcRD4
-eJK6Hfan11OmsFjGMFHs/OFL4FPQ/8RHtg3lXbsDHpeHTMOMrsFmPw5Wo+WSFMwY
-USPtlfRRMoMcQidNH9KbAkKJQvFIHYCO3xWi+9EkL0m78oLjDOMKyGkunrpk5ecE
-sclTK2NAY3nTJ8gbLhjYmNziwADyZs83Zq/kxiyKnsJKoKxmNE/KgWY0LmtoqsWL
-J+6g5UCm0NeV77VAC30gBItbQvqQtYuSeQxUb+6AysTU5RykSlSzk6s0c6YgEx3N
-+MlEcFhxqgbd2HxSKeuO7rwHJwNvg0Dt6mX9ZU1DFkr1RoA0zi19HhvJ3Nt3zUn9
-RjFg13q4EqEc65TX2w05XJX08DawieCrBIEUMzn2uo4L4adYPxBl26zc2EOUgTDn
-EHRkzJ80Bg0h0I60ly2Iqj6ESgzbzUfhZyz6Hp4NwEJFViFmqGI=
-=PSf5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqiGlAACgkQ7ulgGnXF
+3j1FAxAAlrDQ/n9FV/vcK+6kGxo5NLJ2SumIJ7RKPc/X447CMzFodJVWc3+S4YzI
+Y7kQYnlf7Eb26QxTKblr7FbkW9Z2XqSxPkm52l5uLpr4qi/nxrmRTR5PaT9xqUvj
+IZ8p8ZnE3OCD6yzfNmfoUkcNUH7EvDnXFTuecbVabxMu9QtRiFxZocrtcbeFLD2I
+xRy/ltmt2pRwrf3AV224cLMQxr1EoFmcUDcxukGwVQ5cvTHTnex/9gJXyQc77Xg2
+iSl8TCfGeXnf4QwNPn6mHQ07xy9Y9woFNNZcrufVR/oYDOGbcYP7BC9mSXhB04uw
+NIrUCbElGpMJCg8BzBxJphwou/bMkKfOZ2JCwoGRs+IBajRoUcO55pDNPoCokrne
+OcIyLcZoIw2Py5nfb5tomExVMYHN2qqgmXVLipUOCqnGqynT5h74FbrsC6u3Ucgy
+DOzJsfIWtRyto6493luUvgGysNvL1hpKJ8g7zEZLPAXH3UBhbO5Cfuah6xD/GIIV
+O1J/uRHwNFfKmn68qTCkMAjsNQ0mGBgg+mX99kVF8lPDCZXvNtPjfds3eOuEvmIR
+5zKQZ90SAXmHnxxPrK/eieiNowjg/h3gKHqJdf1M5bS7ErEGt3dV/qX0HwGLpPl2
+PaZMcqnty6d3WtDkpQmuZFNiZ3T4Qqp0o/mdwFYGkwkNunZIjbY=
+=gxYN
 -----END PGP SIGNATURE-----
 
---===============1362912021635862210==--
+--===============6059461358666270957==--
