@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Thu, 10 Sep 2026 19:52:51 -0000
-Message-Id: <178906997172.795426.16466127924859380739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 10 Sep 2026 20:00:23 -0000
+Message-Id: <178907042300.801739.8404050250655969008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/b4/arm-generic-irq-entry-v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 06c30c6158b0df94276b2b065247a9921ed8fdaa
+  - ref: refs/heads/for-next
+    old: 94e6a058b16820e02f25e1221a4c4e713ba23550
+    new: 3fb13d29cf8eb4502837bff06b2873c5435f6ffd
+    log: |
+         3fb13d29cf8eb4502837bff06b2873c5435f6ffd fbdev: ssd1307fb: fix NULL pointer dereference on missing match data
+         
