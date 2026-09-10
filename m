@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 10 Sep 2026 11:44:18 -0000
-Message-Id: <178904065865.414562.6411950577245132522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 10 Sep 2026 11:51:54 -0000
+Message-Id: <178904111450.421057.5135361731671264841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: c24b3989a82b8c2d797f23b0c70de0186662c325
-    new: f6168af0669c0edcf4dd6cdf0379f3744761cd53
+  - ref: refs/heads/for-7.4
+    old: 18d4051964614782fa46789a219e4eae12850c12
+    new: 04c3ee0f5d158f6e2027c7ef617044cb649ab4ab
     log: |
-         f6168af0669c0edcf4dd6cdf0379f3744761cd53 CVE-2026-17523: Add .vulnerable file
+         04c3ee0f5d158f6e2027c7ef617044cb649ab4ab ASoC: rt1320: avoid re-initialize in advanced mode
          
