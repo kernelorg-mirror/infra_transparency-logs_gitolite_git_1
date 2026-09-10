@@ -1,47 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============2784280524064027516=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 10 Sep 2026 11:59:22 -0000
-Message-Id: <178904156299.426948.18389267802463785312@gitolite.kernel.org>
-
---===============2784280524064027516==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 10 Sep 2026 12:12:55 -0000
+Message-Id: <178904237533.437132.9909342384275479137@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/fixes
-    old: 312fd3f3a85b89aa0d4fb5417043d640daa3732c
-    new: d144a494d81fcf2d1c5cf58b01c655bb8bafc701
+  - ref: refs/heads/experimental
+    old: a3e041bd7d10a7a154cb712c89e1e5c6ae5be556
+    new: 5ba8fc7d5ae4a718f893f62458b3abd5085f1456
     log: |
-         dd519eb8f66eaa205bbbdcb753588138a1d18414 platform/x86: x86-android-tablets: fix gpio_secondary_fwnode_init() not working
-         d144a494d81fcf2d1c5cf58b01c655bb8bafc701 MAINTAINERS: fix sysfs-platform-ayaneo-ec documentation path
+         31ffc1296100c66a46391c883843f04c6217ddbb erofs-utils: mkfs: defer compressed metadata generation
+         5ba8fc7d5ae4a718f893f62458b3abd5085f1456 erofs-utils: mkfs: enable `--blobdev` for compressed inode layouts
          
-
---===============2784280524064027516==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1789041554 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1789041554-ae0b70c1af7ce1cc390196d55f56b9e1690a23f4
-
-312fd3f3a85b89aa0d4fb5417043d640daa3732c d144a494d81fcf2d1c5cf58b01c655bb8bafc701 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaqKbmQAKCRBZrE9hU+XO
-MelGAQDLPr3BNlI02weAWHsBwFIys1a00wXBhBLkbPh6cSpnwAD/SmULCluXZmjT
-zACtJDnxDaPx5rvPdw3Igm2s8Mk4AgA=
-=3W8m
------END PGP SIGNATURE-----
-
---===============2784280524064027516==--
