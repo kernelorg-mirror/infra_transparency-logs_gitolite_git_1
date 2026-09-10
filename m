@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 10 Sep 2026 14:43:15 -0000
-Message-Id: <178905139586.555739.18427781427475199900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 10 Sep 2026 14:44:52 -0000
+Message-Id: <178905149278.556310.13114474427099417452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/for-rc
-    old: 33fb59da49c4c3f5c2ec9f9d4447a56857a02c02
-    new: e22a3627b7151754f07f90ea3d1ab6e85f5d93f4
+  - ref: refs/heads/xfs-7.3-fixes
+    old: 50ba24ccb9a94f61c707209442ca23d98c815052
+    new: e240919ca727776f16a468d3d90686dc82cfe9cb
     log: |
-         e08aca85c02ff290f785f07acae758f0daf5f49e RDMA/efa: Keep admin queues alive while IRQ is registered
-         e22a3627b7151754f07f90ea3d1ab6e85f5d93f4 RDMA/efa: Keep EQ resources alive while IRQ is registered
+         e240919ca727776f16a468d3d90686dc82cfe9cb xfs: take hm->lock in xfs_ioc_health_monitor() before insert
          
