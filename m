@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Thu, 10 Sep 2026 13:00:46 -0000
-Message-Id: <178904524613.475082.5845422481007121572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 10 Sep 2026 13:02:35 -0000
+Message-Id: <178904535594.476245.10158238337313990082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/sysctl-next
-    old: 262353fae334fc6d3030eed610b00883ea5dcce9
-    new: 4ee89e50659e8e59b7e72423c0756fab160227ab
+  - ref: refs/heads/fixes
+    old: 8b0cc8707f65e0f51912e764e1b309b2559db1ec
+    new: 08b54e16d547d5c1aa61bf7a3595bb1620975eeb
     log: |
-         bf4839787b28b44800dbceee1d126df79dbfa6db sysctl: Split data conversion and file position handling
-         6cf1dc2d616c06bccd49e13e48de0e68498e50ad sysctl: Reject uint arrays before calling the general proc_vec
-         f52fc239319414aa4c20c1a50787622b1e9064ee sysctl: Disallow partial updates for erroneous sysctl vectors
-         4ee89e50659e8e59b7e72423c0756fab160227ab sysctl: Add 0013 to test partially updated vectors
+         53823e25793a97d07e6e98e0904bbf74cac8bc76 mmc: sdio_uart: fix xmit_fifo leak when the port table is full
+         9c182bc5d7817437a7d04ab96133f9191846d93d mmc: rtsx_pci_sdmmc: ignore broken write-protect on ThinkPad X260
+         08b54e16d547d5c1aa61bf7a3595bb1620975eeb mmc: core: Fix OF node reference leak on card add failure
          
