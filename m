@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liam/linux
-Date: Thu, 10 Sep 2026 21:25:10 -0000
-Message-Id: <178907551060.866332.14093368122487890476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Thu, 10 Sep 2026 21:29:09 -0000
+Message-Id: <178907574913.867859.8503072917707150770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liam/linux
-user: liam
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/maple_marks_v4
-    old: 0000000000000000000000000000000000000000
-    new: de1ab7ba20a1402fb09d82f56c37732e65e1b0f7
+  - ref: refs/heads/dev-test
+    old: f4513aa889cdac840c50612c885566c95151495a
+    new: b70540e5730910d5359c4060158b7a7ca64d4a4a
+    log: |
+         c00cc3c7b177571cbb9fe457d11bbeefe9cf2dd5 fsck.f2fs: fix to maintain ckpt_valid_blocks correctly
+         b70540e5730910d5359c4060158b7a7ca64d4a4a fsck.f2fs: fix to avoid selecting current section in find_next_free_block
+         
