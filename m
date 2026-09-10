@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6382922434036680898=="
+Content-Type: multipart/mixed; boundary="===============8368343903317953070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 10 Sep 2026 03:54:34 -0000
-Message-Id: <178901247427.70330.5989558696712995643@gitolite.kernel.org>
+Date: Thu, 10 Sep 2026 03:54:38 -0000
+Message-Id: <178901247855.70517.11968952848704267413@gitolite.kernel.org>
 
---===============6382922434036680898==
+--===============8368343903317953070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c5ad3f7d5db04adb7f05767e0df203a1944dca74
-    new: cf558a250cf4475a8936902b8978fbb6c61016f8
-    log: revlist-c5ad3f7d5db0-cf558a250cf4.txt
+  - ref: refs/heads/mm-unstable
+    old: ae19eeea5ddddab9fc8c076e768a16d5e697f1f8
+    new: 3628c3df6cd2797b34714d23113cd44cb30801e7
+    log: revlist-ae19eeea5ddd-3628c3df6cd2.txt
 
---===============6382922434036680898==
+--===============8368343903317953070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5ad3f7d5db0-cf558a250cf4.txt
+Content-Disposition: attachment; filename=revlist-ae19eeea5ddd-3628c3df6cd2.txt
 
 6cc27d82196385fe06853319f74312a7d8019726 mm/vma: correctly unaccount on mmap_prepare() failure
 932cfb25e7ce98d1f93895671ec186a3087e4f80 mm/shrinker: fix bogus set_shrinker_bit() with cgroup.memory=nokmem
@@ -353,55 +353,5 @@ c4668ab683847694a09e74dd3ae8402e9062f682 mm/damon/paddr: support hugetlb folios 
 4f94ef83e906f13afd03ee9a37fbf4153a92cad7 selftests/mm: mark file-local symbols of pagemap_ioctl.c static
 7a0eaeaf22c0e8ec95d7280eb37a3d0a77b2780a selftests/mm: init page sizes early in pagemap_ioctl test
 3628c3df6cd2797b34714d23113cd44cb30801e7 mm/huge_memory: add folio_reset_partially_mapped()
-b3139f069140d333e173ed6ae91c672413b4d787 mm/huge_memory: zap deposited page tables after an RCU grace period
-c75a2e75618d73ac7983b09199c5bf6a3ac39eb7 mm: enable MMU_GATHER_RCU_TABLE_FREE for most 2-level architectures
-6ca4d9f455a42af6fe3736b3c0d54a990758f903 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU riscv
-4c5d50aad172bdc02cc5d26c9126c1957911dda4 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU arm
-74543218ad3a5cac8d0b5a63cb3199a5247180e2 mm: enable MMU_GATHER_RCU_TABLE_FREE for arc, microblaze, xtensa
-9fc9ad44e29b175b3fe63e3ae3ec586e747f0367 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc64
-932bd8d264765470274853d050409f843fcc563b mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-coldfire
-030db729a763139ccc24e350ca2e699190603b1c mm: enable MMU_GATHER_RCU_TABLE_FREE for sh-X2
-071324e05bb797dcc95c0c2231286919a29ed5ea mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-motorola
-2d9017c568f55411f9f13b9c8a3526f033b661e9 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc32
-67adc23dc1741fa6c5b1bc77d6c29a96f198c326 mm: make userland page table freeing RCU-safe
-54c1dcd1176a16afe5acc5cd8eec185d4ca3f826 mm: change the contract for free_pgtables(), update docs
-acb254645be24da965442ed2e6271588d6c42c67 mm: vmscan: avoid anon scanning for GFP_NOIO with low swapcache
-268ba1e1ac4f67526675aa9e3e9de221e88529bc mm/sparse-vmemmap: introduce CONFIG_SPARSEMEM_VMEMMAP_OPTIMIZATION
-70b0106943e60e7b527358e8b1b56f1ad142e4d8 mm/sparse-vmemmap: factor out shared vmemmap tail page allocation
-d91fa9b78d9a180c91cba147e7effb3bf89acbc7 mm/sparse-vmemmap: open-code init_compound_tail()
-d1d11861d8a018d35bd768165cdc740ce10d2083 mm/sparse-vmemmap: prepare DAX vmemmap population for section orders
-7dcce985691a34590f374bcb03b4dffac48f900d mm/sparse-vmemmap: set section order for device DAX
-8fbaacc4a64bd1bfbfb11bfb48b5db3f4943cbd7 mm/sparse-vmemmap: switch device DAX to shared tail vmemmap pages
-dd35ca2f2cac9d6439a2ba2f523b98b5a9a9f8f5 mm-sparse-vmemmap-switch-device-dax-to-shared-tail-vmemmap-pages-fix
-f1a84d178fc68903bbb2d4e118520975616b7591 mm/sparse-vmemmap: move HVO helpers to a public header
-88ef4ca76f70778f2f51c9e749dc9bcc607a2424 powerpc/mm: switch device DAX to shared tail vmemmap pages
-c85f2c001ffc12ac2663bc805ff9f7dab69718cc mm/sparse-vmemmap: drop the extra tail page from device DAX reservation
-b125424529aa83b6b50268eeee4f26451ed9af66 mm/sparse-vmemmap: drop unused section_nr_vmemmap_pages() arguments
-7def28f2c8aa8e865c98cf779882987273cf8cb5 Documentation/mm: update DAX vmemmap deduplication docs
-90d79571541eb85e6ea6da5ddce7e80f5db13864 mm: mglru: clear the reference counter for rejected folios
-798f8bcdc430823bc9788d5961848de396ba2d37 mm/nommu: reject wrapping ranges in access_remote_vm()
-23b113ae330dfd59f9461263ec9dd78f787a4621 mm/swap: fix stale comment on swap_info_struct::cluster_info
-ba0a15a07b2c52b64a1680239d5de6ada9a860e1 mm/swap: scan by cluster in find_next_to_unuse()
-0b4a1d4d16d8ced70fa582b43577fe498ae5f88c mm/damon/vaddr: support prep_probes
-509c562b518c518eaa5d9fc6dbb655c45da4d363 mm/damon/paddr: move probe filter handling to ops-common
-1c69a8e2732755cf9d18eda8c06c6a45eb8f25c2 mm/damon/vaddr: support apply_probe
-76838427c98f0f518f46025d6f7c1469fb985b40 mm/damon/vaddr: extend apply_probes() for hugetlb
-92fa3fd287523dce5a1915f86226b8d1f4a59dbb mm/damon/vaddr: support pgidle_unset probe filter type
-1a904e0d3c4307946f905c9bd0459490005fb7ff mm: zswap: don't fail a large-folio swapin whose range is not in zswap
-d6f145fa63df9996f31a9257e755f80130b88f6a selftests/mm: fix soft-dirty kselftest supported check
-5925d8d10a102a9b0378b9d5f790c9bc23d37e5d riscv: mm: fix concurrency in mark_new_valid_map()
-27bf4ff201428a7ed86bcb9213f9338b67fe2fb2 riscv: mm: exclude invalid THP PMDs from page table check
-fe8473f48c262c3cf7794fa556ce71f883d13329 sh: remove CONFIG_NUMA and related configuration options
-d50abdfd10d8550707ed54c370f03843344adb8b sh: mm: remove numa.c
-b11194de30fb71b1c8db1f1d4040af3db6ac3fa0 sh: mm: drop allocate_pgdat()
-bc2de2dbe7555828dfe7d323d372a55817ec8b3e sh: remove setup_bootmem_node() and plat_mem_setup()
-fd30776f8688cb7d2e852432e29059b6a021fef3 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-3e46b9f300601516d6a5c36eb398ef28e5127113 sh: drop include/asm/mmzone.h
-a2915abbc17e467c8146676335a20cc3ae82c187 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-a12b04107e218f492593295507df08eb2caa6733 sh: init: remove call the memblock_set_node()
-fcad32a74934fe9f98b72fc5fb945524398eea0d sh: remove SPARSEMEM related entries from Kconfig
-e0167324dbc57f0b0eafb958c040906adce83032 sh: drop include/asm/sparsemem.h
-72e1e9f9013dca1adc671f7692157aab0dc070b1 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-cf558a250cf4475a8936902b8978fbb6c61016f8 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6382922434036680898==--
+--===============8368343903317953070==--
