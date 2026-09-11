@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
-Date: Fri, 11 Sep 2026 05:16:17 -0000
-Message-Id: <178910377745.1222855.5464017943384977763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Fri, 11 Sep 2026 05:17:17 -0000
+Message-Id: <178910383777.1223400.37105056041017790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chleroy/linux
-user: chleroy
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/soc_fsl
-    old: f85e5ec18eb104574433caec67f452dd6e02d5de
-    new: 31d42d67c6eb66efc058069f426d69abb48ec0dd
-    log: |
-         7e9023a18eec88b716d8d46a29c4207186fbd828 bus: fsl-mc: register the object drivers after misc_class exists
-         31d42d67c6eb66efc058069f426d69abb48ec0dd soc: fsl: qe: drop GPIOD_FLAGS_BIT_NONEXCLUSIVE
-         
+  - ref: refs/heads/renesas-lts/v6.18.49-2026-09-11-x5h-ironhide
+    old: 0000000000000000000000000000000000000000
+    new: 64c3e99fe69284ed43c00c62432fd139f0e4c3b6
