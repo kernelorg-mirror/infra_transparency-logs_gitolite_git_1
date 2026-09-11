@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 11 Sep 2026 09:31:24 -0000
-Message-Id: <178911908423.1433938.17267539518186141298@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 09:36:56 -0000
+Message-Id: <178911941628.1437867.11119595774174065570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
   - ref: refs/tags/usb-serial-7.3-rc3
-    old: 4542c0735ded9fc55bb549e960d69cf2c20ac017
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: dd3132b0e01d2fab2e3a28e88d12e8b746851596
