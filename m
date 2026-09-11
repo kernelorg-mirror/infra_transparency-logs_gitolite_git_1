@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Fri, 11 Sep 2026 08:32:30 -0000
-Message-Id: <178911555021.1386831.8261587446619943882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Fri, 11 Sep 2026 08:32:50 -0000
+Message-Id: <178911557002.1387161.2125907424925184449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/dma-mapping-fixes
-    old: 92c6a8d6470f7e7aa86c1f144818d8fa4fcbd5aa
-    new: 55a8e1451869233db837a97e8f3cbf9983bc8678
+  - ref: refs/heads/main
+    old: 348ea4642f56ab3dc93621c8e3ab0ccd0e5f1782
+    new: 17d3afadf539c93def8106bbb83c88274bdc7ab1
     log: |
-         55a8e1451869233db837a97e8f3cbf9983bc8678 x86/mm: Don't force unencrypted DMA for IOMMU-backed devices
+         17d3afadf539c93def8106bbb83c88274bdc7ab1 octeontx2: collapse consecutive blank lines in source files
          
