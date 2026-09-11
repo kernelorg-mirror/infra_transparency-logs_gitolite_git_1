@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 11 Sep 2026 02:57:25 -0000
-Message-Id: <178909544542.1120651.14281970205814927416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 11 Sep 2026 03:14:03 -0000
+Message-Id: <178909644314.1131442.14086592446026026027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: e6c5963dcfa066ddf44dcfa03d31c11ab440cc2f
-    new: 1bb0011de2ca85560bcfa3b2f90c0d8f27629b4d
+  - ref: refs/heads/arm64-for-7.4
+    old: 1c34e5dd83217f8952c8d96f9851981999acc8b7
+    new: a741ecde89496506e0c8decca4e622b5d2ac3dc6
     log: |
-         1bb0011de2ca85560bcfa3b2f90c0d8f27629b4d foo
+         966975fd7b0d3e3bb85bae584f8053f13aabc288 dt-bindings: arm: qcom: Add Lenovo Yoga Slim 7x Gen11
+         a741ecde89496506e0c8decca4e622b5d2ac3dc6 arm64: dts: qcom: glymur: Add Lenovo Yoga Slim 7x Gen11
          
