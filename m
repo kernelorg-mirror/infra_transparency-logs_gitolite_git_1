@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 11 Sep 2026 16:56:28 -0000
-Message-Id: <178914578833.1921698.13322613606107855863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 11 Sep 2026 16:58:43 -0000
+Message-Id: <178914592329.1922479.14137477767017546914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: bac40796389f0b558f0d7bf45243a3092f09098b
-    new: 8e072cb0e756db804b2c549821d1d5c295e7b4c0
+  - ref: refs/heads/dev-queue
+    old: 95eb2a2afdedd143d84636a158e44cc6ca49fb13
+    new: 761cb57d2e7eac293ee7cb3abdd814b5dab0865d
     log: |
-         8099f9da59f1c338bf88e25b7aa2a7fdf840879c HID: asus: do not send keyboard init reports to touchpads
-         8e072cb0e756db804b2c549821d1d5c295e7b4c0 Merge branch 'for-7.4/asus' into for-next
+         7176909e74d311bd7e1869331e3e1fbff4c5bb7e ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
+         519eee42fe8892e5bc1c6e319a041c986fafe825 ice: Cache struct ice_hw pointer for split register reads
+         3f2a6307ea20cdb913e103400bcd4b7d7656d8ea ice: Zero out the PTP control PF pointer at ice_adapter cleanup
+         725435bf91b90742c8dd42514cf2a1575a60bd7b ice: restore DDP state during PFR recovery
+         761cb57d2e7eac293ee7cb3abdd814b5dab0865d ice: clear Flow Director entries before reset cleanup
          
-  - ref: refs/heads/for-7.4/asus
-    old: 0000000000000000000000000000000000000000
-    new: 8099f9da59f1c338bf88e25b7aa2a7fdf840879c
