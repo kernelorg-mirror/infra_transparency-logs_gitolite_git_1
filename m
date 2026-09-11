@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 11 Sep 2026 15:32:59 -0000
-Message-Id: <178914077982.1851565.4015570357186391177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 11 Sep 2026 15:33:52 -0000
+Message-Id: <178914083214.1852369.10533440817798769913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/for-7.3/upstream-fixes
-    old: 7e749a7972829a53fd1e41568cf2018c180627d1
-    new: d76994443eed0af297cb82bd038ae9d76327ef90
+  - ref: refs/heads/stm32-next
+    old: 956b8c37151a40dd39cffbaf287eebe850d3bf22
+    new: 3572825773791f4258b553391f4e2187df321731
     log: |
-         d76994443eed0af297cb82bd038ae9d76327ef90 HID: roccat: fix locking in roccat_connect() and roccat_disconnect()
-         
-  - ref: refs/heads/for-next
-    old: 6b256d906023ad86d5e278b811e1a9975b0474be
-    new: 24611ac5fcb864f645ee03de612f8ea5ccf9b9a8
-    log: |
-         d76994443eed0af297cb82bd038ae9d76327ef90 HID: roccat: fix locking in roccat_connect() and roccat_disconnect()
-         24611ac5fcb864f645ee03de612f8ea5ccf9b9a8 Merge branch 'for-7.3/upstream-fixes' into for-next
+         3572825773791f4258b553391f4e2187df321731 ARM: dts: stm32: Drop bias-disable from STM32MP15xx DHCOM SoM sdmmc1_b4_pins_a
          
