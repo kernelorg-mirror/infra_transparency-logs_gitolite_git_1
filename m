@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Sep 2026 16:58:43 -0000
-Message-Id: <178914592329.1922479.14137477767017546914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 11 Sep 2026 17:18:53 -0000
+Message-Id: <178914713323.1936455.2134137591714553314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/dev-queue
-    old: 95eb2a2afdedd143d84636a158e44cc6ca49fb13
-    new: 761cb57d2e7eac293ee7cb3abdd814b5dab0865d
+  - ref: refs/heads/for-next
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: fe85c40e992be9578b8cdfa992d9e23005e25e77
     log: |
-         7176909e74d311bd7e1869331e3e1fbff4c5bb7e ice: Convert ctrl_pf pointer in struct ice_adapter to RCU
-         519eee42fe8892e5bc1c6e319a041c986fafe825 ice: Cache struct ice_hw pointer for split register reads
-         3f2a6307ea20cdb913e103400bcd4b7d7656d8ea ice: Zero out the PTP control PF pointer at ice_adapter cleanup
-         725435bf91b90742c8dd42514cf2a1575a60bd7b ice: restore DDP state during PFR recovery
-         761cb57d2e7eac293ee7cb3abdd814b5dab0865d ice: clear Flow Director entries before reset cleanup
+         1d56f4d6db3d2b2c93017a80c4f9c4cfffa9d193 iommufd/selftest: Return dmabuf fd from IOMMU_TEST_OP_DMABUF_GET again
+         b1cf7f04c28ff3389559965dc95addbbd02f9138 iommufd/selftest: Skip when the mock device is not there
+         26564d25cd814dfd72a21a2c52b81e678cf02bae iommu/arm-smmu-v3-iommufd: Reject unsupported bits in invalidation commands
+         61e2f25a49bc4d274e71856b2bcac0753f38bafb iommufd: Iterate the cache invalidation array in the core
+         5519695903a4b443903dd6d9207ad340bc3c984b iommufd/selftest: Convert cache invalidation mocks to the core array loop
+         2d4f03f6610d569070a86d8d2c583ddfcd390f75 iommu/arm-smmu-v3-iommufd: Convert cache invalidation to the core array loop
+         fe85c40e992be9578b8cdfa992d9e23005e25e77 iommu/vt-d: Convert nested cache invalidation to the core array loop
          
