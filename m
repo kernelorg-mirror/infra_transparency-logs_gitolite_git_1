@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8881828672773894725=="
+Content-Type: multipart/mixed; boundary="===============3526262212167797765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 11 Sep 2026 21:36:59 -0000
-Message-Id: <178916261994.2134245.14111276978603369743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 11 Sep 2026 21:37:18 -0000
+Message-Id: <178916263894.2134609.7841701604588154752@gitolite.kernel.org>
 
---===============8881828672773894725==
+--===============3526262212167797765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 827751b699b79a6e569983359c02dce67f81b94c
     log: revlist-893e11787f78-827751b699b7.txt
 
---===============8881828672773894725==
+--===============3526262212167797765==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -479,4 +479,4 @@ d5d6c9d244c6d447c356df70d5c754b145dccd5c Merge tag 'media/v7.3-2' of git://git.k
 1235ff329981ecde9ccbf49b83bd4d71e827d541 Merge tag 'platform-drivers-x86-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 827751b699b79a6e569983359c02dce67f81b94c Merge tag 'riscv-for-linus-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============8881828672773894725==--
+--===============3526262212167797765==--
