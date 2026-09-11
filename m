@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 11 Sep 2026 15:29:52 -0000
-Message-Id: <178914059246.1848300.9807460818000004256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Fri, 11 Sep 2026 15:30:16 -0000
+Message-Id: <178914061639.1850533.17176751268781423354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/stm32-next
-    old: aec6899e95db584ca67160f35103133e62a56142
-    new: 956b8c37151a40dd39cffbaf287eebe850d3bf22
+  - ref: refs/heads/fixes
+    old: adbd8a08208dc64bb1381f51b4f11ffdce1343fa
+    new: b63c3c26726576e2a87baeee80bc202a5a43c9e5
     log: |
-         09c16888a044ef7a57a21bb053eb5ba49a8cc29b dt-bindings: arm: stm32: Sort the document
-         956b8c37151a40dd39cffbaf287eebe850d3bf22 ARM: dts: stm32: Remove User-PA13 button on stm32mp135f-dk
+         798514a25544d6978d0bd7fe7071c9bdb5503076 iommu/amd: Make iommu_sva_set_dev_pasid as static
+         5e1afd4ea1d6a9bbaecf3e28707dac9c8b56bd45 iommu/amd: Remove redundant check in irq_remapping_select()
+         80a4e3ad8daba66915a9bdf0fcae5831cc8dbd5f iommu/amd: Remove redundant checks from interrupt handler path
+         b63c3c26726576e2a87baeee80bc202a5a43c9e5 iommu/amd: Remove unused macro
          
