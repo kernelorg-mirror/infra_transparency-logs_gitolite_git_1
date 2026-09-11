@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 11 Sep 2026 02:01:48 -0000
-Message-Id: <178909210880.1081732.125664794126400807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 11 Sep 2026 02:19:31 -0000
+Message-Id: <178909317125.1092581.2286887438514357070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: ea50214ad23980d81c1e863dae3082f9c551f3d0
-    new: e6c5963dcfa066ddf44dcfa03d31c11ab440cc2f
+  - ref: refs/heads/block-7.3
+    old: 5067d4ba713961d8ccea1e06cd4c453793f3121e
+    new: 94b1a3ca9b8db3151f1416263704c159a9470da5
     log: |
-         14c86e4f911fecdb1c053935ab0706b7092096c0 foo
-         8916f90b3a3a89d5b653b8550d7c1c20eabe15cc foo
-         e6c5963dcfa066ddf44dcfa03d31c11ab440cc2f foo
+         8a14be55bdc6d5a25cd7b0ac5d4d884fcc727b49 ublk: clear force_abort in ublk_queue_reset_io_flags()
+         94b1a3ca9b8db3151f1416263704c159a9470da5 selftests: ublk: add batch IO cases to recover_03
+         
+  - ref: refs/heads/for-next
+    old: f95dd9a1506d45f80485a6b518963d84cad9d533
+    new: 2c732919fed329a747e673ff0009fd688cc6cb2d
+    log: |
+         8a14be55bdc6d5a25cd7b0ac5d4d884fcc727b49 ublk: clear force_abort in ublk_queue_reset_io_flags()
+         94b1a3ca9b8db3151f1416263704c159a9470da5 selftests: ublk: add batch IO cases to recover_03
+         2c732919fed329a747e673ff0009fd688cc6cb2d Merge branch 'block-7.3' into for-next
          
