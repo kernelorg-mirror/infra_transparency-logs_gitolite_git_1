@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 11 Sep 2026 03:26:15 -0000
-Message-Id: <178909717580.1142351.9191774253649323342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 11 Sep 2026 03:40:21 -0000
+Message-Id: <178909802148.1152744.17690369258118713108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/mm-everything-2026-09-11-03-22
-    old: 0000000000000000000000000000000000000000
-    new: ec2b74e94c01743c5970acb57f13407b06c39366
+  - ref: refs/heads/watchdog-next
+    old: 349d3e270ff9f4f0946ff44d32343b7459b37b93
+    new: c88a2036a4b69087b765f48d68b8230d675f6eec
+    log: |
+         01072ef4db1f62dc68271d493f25f847b6d99f13 watchdog: PM: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr for dev_pm_ops
+         c88a2036a4b69087b765f48d68b8230d675f6eec watchdog: sp805_wdt: fix suspend/resume handling of HW_RUNNING watchdog
+         
