@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 11 Sep 2026 14:31:18 -0000
-Message-Id: <178913707844.1801523.10996760339446929521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 11 Sep 2026 14:33:34 -0000
+Message-Id: <178913721400.1802415.1162317220562905473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/bootconfig/for-next
-    old: 13e8b7707efcea3a401d242958ba0a392f227847
-    new: 6dc993d4520fdaa083c8871e5fee443117d87057
+  - ref: refs/heads/bleeding-edge
+    old: 40bc8f612bbee51538953d21b5e793abfa035128
+    new: bc0ff341935eeb1dac0d3290f695c79a35a1fa53
     log: |
-         462d0b066b613103f579793031429db2ca23abc0 tools/bootconfig: Fix integer overflow and truncation in size checks
-         7812d6dab0698001e50e8c2f901e17da3eb6f429 bootconfig: Fix integer overflow in initrd size check
-         2878d76d865e26a6728298c9449f56938c8c0515 bootconfig: merge _xbc_exit() into xbc_exit()
-         a57b5001e3cb4aeaf2afcca09ab731c829cb2077 bootconfig: remove redundant assignment in xbc_parse_array()
-         6dc993d4520fdaa083c8871e5fee443117d87057 tools/bootconfig: remove unused PAGE_SIZE macro
+         3b8650f2e8810f0baa48608c8dfe4f44120de123 PM: hibernate: docs: update swsusp.txt references to swsusp.rst
+         bc0ff341935eeb1dac0d3290f695c79a35a1fa53 Merge branch 'pm-sleep' into bleeding-edge
          
