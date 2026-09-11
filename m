@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0066358348613740853=="
+Content-Type: multipart/mixed; boundary="===============3799884240393139524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 11 Sep 2026 07:23:30 -0000
-Message-Id: <178911141039.1333620.3149656916336557455@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 07:26:49 -0000
+Message-Id: <178911160979.1337001.11168363670985892402@gitolite.kernel.org>
 
---===============0066358348613740853==
+--===============3799884240393139524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.4-merge
-    old: 0ca15a1a115132dfebeee5447fd6abe46f66d61d
+  - ref: refs/heads/for-next
+    old: 780591932c55c3b95973fd55e775855264370061
     new: 4266ffdfd7cb8d45b0bf1df999a70b9795feaa75
-    log: revlist-0ca15a1a1151-4266ffdfd7cb.txt
+    log: revlist-780591932c55-4266ffdfd7cb.txt
 
---===============0066358348613740853==
+--===============3799884240393139524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ca15a1a1151-4266ffdfd7cb.txt
+Content-Disposition: attachment; filename=revlist-780591932c55-4266ffdfd7cb.txt
 
-157dcb8230a4e882e099ec4d1cb1957b0b2c9b26 xfs: remove several unused and never-implemented declarations
-568a1588b906780dc3e9be56a61217afb4f7800e xfs: snapshot scrub stats when rendering them
-0ae61c331ec552ad0c278c5c48a1c4ccb90b4bab xfs: report healthy filesystem events in scrub stats
-d3dc979a49df6d48f8e137034d19d9b35afd07d8 xfs: report runtime failures in scrub
-341f03865d0793e7df22c4661e04047c092e5ac2 xfs: remove redundant function declaration
-3466dfef0a20f842363958deea55be9f1d26818a xfs: snapshot old AGFL before rewriting it
-eaf580538eb1be3d162400d04c4b7dc4c627296b xfs: bail out on bitmap errors in xrep_agfl_fill
-ad0033e2dbd3ecc063dfe613060da5cbab9a4970 xfs: also flush the RT device cache in xlog_write_iclog
-c84455c683eb0b0397b0f5c5f5ce5cd82572a23f xfs: don't continue on error in xfs_fsync
-761e015e5a54851043c3b5bb7cfb6f539b01a35e xfs: avoid extra cache flushes for multi-device file systems in xfs_fsync
-50ba24ccb9a94f61c707209442ca23d98c815052 xfs: set IOMAP_F_INTEGRITY for zoned writes on integrity devices
-e240919ca727776f16a468d3d90686dc82cfe9cb xfs: take hm->lock in xfs_ioc_health_monitor() before insert
 4d3c07591534517c633945c8d8e6526f10e3fabc xfs: fix under-reservation of blocks when repairing sf directories
 1ee2ce797c360785a3813fef62c90f427f3aed34 xfs: actually check internal-rtdev fields in the superblock
 3bdbf472a608aeb7e8e4dc70ee86738ad5256356 xfs: fix rtrmap cross-referencing elision logic
@@ -63,4 +51,4 @@ b6e5528433b39880f58971254318cbb3a88eabb4 xfs: split out the handlers for XFS_IOC
 f2602bd55824bd301fe39858b6c2663116e51ab1 xfs: split out the handlers for XFS_IOC_*_BY_HANDLE_32
 4266ffdfd7cb8d45b0bf1df999a70b9795feaa75 xfs: remove an extra cast in xfs_file_compat_ioctl
 
---===============0066358348613740853==--
+--===============3799884240393139524==--
