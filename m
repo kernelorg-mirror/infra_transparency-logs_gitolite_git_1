@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5233549708567178395=="
+Content-Type: multipart/mixed; boundary="===============3668035207089725127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 11 Sep 2026 21:38:01 -0000
-Message-Id: <178916268114.2135093.2978757705826308919@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 21:38:52 -0000
+Message-Id: <178916273276.2135517.14436277367146760092@gitolite.kernel.org>
 
---===============5233549708567178395==
+--===============3668035207089725127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 50d05c7c76c96b90462f24debacca971d2e86713
-    new: 827751b699b79a6e569983359c02dce67f81b94c
-    log: revlist-50d05c7c76c9-827751b699b7.txt
+  - ref: refs/heads/tty-nowait
+    old: e4d04207b795d6361ff5cfc82145a2fbd82c3544
+    new: 1d49005e657d7a7da34f2f23560af9178d9878ed
+    log: revlist-e4d04207b795-1d49005e657d.txt
 
---===============5233549708567178395==
+--===============3668035207089725127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50d05c7c76c9-827751b699b7.txt
+Content-Disposition: attachment; filename=revlist-e4d04207b795-1d49005e657d.txt
 
 aab55360fa11a2c054798a484ac67ad606f563e4 watchdog: sunxi_wdt: preserve boot-enabled watchdog
 e3eceb76515910746e6268c4e4ac1c07516ebd7b watchdog: msc313e: Fix NULL pointer dereference in PM callbacks
@@ -406,5 +406,25 @@ d5d6c9d244c6d447c356df70d5c754b145dccd5c Merge tag 'media/v7.3-2' of git://git.k
 707662b40a82c96e416fe17f3c116a4d648f1fdb Merge tag 'ata-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 1235ff329981ecde9ccbf49b83bd4d71e827d541 Merge tag 'platform-drivers-x86-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 827751b699b79a6e569983359c02dce67f81b94c Merge tag 'riscv-for-linus-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+fc6b88bdaab49f68d8cd243143622c48909a6da6 tty: pass the kiocb to the line discipline read and write ops
+9adafa6e53be9396fc7d5065a949a36b25bb9fc3 tty: turn the line discipline read op into a read_iter
+7f439bb296453c619866c5ff121c98b577e4d080 tty: honor IOCB_NOWAIT like O_NONBLOCK on read and write
+f86432da35d4863e5f9cfdf4cb90a141a280d07e tty: set FMODE_NOWAIT on tty files
+2ae316fced61cd1ad9edfe59e7a06c0157b44ffd io_uring/rw: hand IO on files without iter ops straight to io-wq
+c0d8434d138bc5ebe1002efe8005636c3d90550c eventfd: convert write to write_iter
+64c85a5bf0dcaf5ace9166ad16d189cd4f9e6033 thunderbolt: stream: Set FMODE_NOWAIT on opened streams
+2cb182dc5d0200bc2e98a0a1b99ccf5ca0f53c7d fuse: honor IOCB_NOWAIT when reading requests
+b79a907ebdb8b02aad1f345648f40186ee93f01d vhost-net: honor IOCB_NOWAIT for IOTLB message reads
+02cfdcba030ce7b06b47e2defca2e6d830c2eeff vhost/vsock: honor IOCB_NOWAIT for IOTLB message reads
+ff6a1b3ab08f55068ad64302a3c7ab6688733b69 rpmsg: char: Honor IOCB_NOWAIT on endpoint devices
+fe21c339fa5174c28a06de33a8bfb6ce9c3c901d vduse: honor IOCB_NOWAIT when reading requests
+2f39f51eef832eb3fc13df14da5e04765bc6f8eb net: qrtr: tun: honor IOCB_NOWAIT on read
+1f822b33270cbeb8084fd92ba2526177f170eb90 inotify: convert read to read_iter
+5882ecce6d6be15044d7c2145f79e41e139610e3 fanotify: convert read and write to iter based ops
+69e63ed0bec83b39682e539521cc30d5068c4f06 printk: Convert /dev/kmsg read to read_iter
+94fff0daf7669999ed0bb1174cf185e0c9e8c97c Input: evdev - convert read and write to iter based ops
+0da9fd05bc890a327e6b195c6e75e3f279d452df Input: uinput - convert read and write to iter based ops
+82d26ada4915c356614f9e9d4afd24133f18aee5 HID: uhid: convert read and write to iter based ops
+1d49005e657d7a7da34f2f23560af9178d9878ed HID: hidraw: convert read to read_iter
 
---===============5233549708567178395==--
+--===============3668035207089725127==--
