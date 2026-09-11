@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 11 Sep 2026 20:27:31 -0000
-Message-Id: <178915845124.2082439.5951102179081659063@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 20:27:45 -0000
+Message-Id: <178915846520.2082667.196779576437886553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20260911-kunit-drm-9cce0032e098-v1
+  - ref: refs/heads/kunit-drm
     old: 0000000000000000000000000000000000000000
-    new: 3125690d66ac9afbd552946c46948fd5289ab5ae
+    new: 9dabe831f21dd843e5629070830f0d93f9aab373
