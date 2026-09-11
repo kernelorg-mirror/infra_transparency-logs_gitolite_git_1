@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Fri, 11 Sep 2026 01:50:48 -0000
-Message-Id: <178909144826.1074183.10234695150905135970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 11 Sep 2026 02:01:48 -0000
+Message-Id: <178909210880.1081732.125664794126400807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: e435fc5d5d4d246c60c23650b923d594aa17bfeb
-    new: 8811ea8a38f13cea1810a21ceb880983a89751c3
+    old: ea50214ad23980d81c1e863dae3082f9c551f3d0
+    new: e6c5963dcfa066ddf44dcfa03d31c11ab440cc2f
     log: |
-         8811ea8a38f13cea1810a21ceb880983a89751c3 capsh: reject malformed numeric --groups values
+         14c86e4f911fecdb1c053935ab0706b7092096c0 foo
+         8916f90b3a3a89d5b653b8550d7c1c20eabe15cc foo
+         e6c5963dcfa066ddf44dcfa03d31c11ab440cc2f foo
          
