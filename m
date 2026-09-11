@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Fri, 11 Sep 2026 00:26:54 -0000
-Message-Id: <178908641495.1003575.15795547032465509428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 11 Sep 2026 00:32:14 -0000
+Message-Id: <178908673428.1007461.455997127930065198@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/renesas-bsp/v6.12.109-SDK-4.38.0_hil
-    old: 0000000000000000000000000000000000000000
-    new: 738c4959027361a9ca47465cda83f750113fe4f6
+  - ref: refs/heads/main
+    old: 99d76b4da88f21edd14b169f65de33e8df1b7804
+    new: f5f0fcfcb30c677c1069c131f8e00e728e0a4fc5
+    log: |
+         f5f0fcfcb30c677c1069c131f8e00e728e0a4fc5 net: starfire: fix ioaddr sign-extension causing ioremap() failure
+         
