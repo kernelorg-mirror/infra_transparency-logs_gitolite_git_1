@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0286331633058347984=="
+Content-Type: multipart/mixed; boundary="===============5871246566038678003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 11 Sep 2026 21:44:25 -0000
-Message-Id: <178916306526.2139961.6193290554099841601@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 21:45:14 -0000
+Message-Id: <178916311411.2142347.8635930159862314970@gitolite.kernel.org>
 
---===============0286331633058347984==
+--===============5871246566038678003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: bf0d7882cd43d6b155d93e482893f685d6f08b89
-    new: 8697c431e297eb0d0ab13dda6bc172b48a34f05c
-    log: revlist-bf0d7882cd43-8697c431e297.txt
+  - ref: refs/heads/for-next-tpm
+    old: 22a50c3745c5ca2927300a26ca2d09dd6ce71b0e
+    new: b5f1b25b21f56c9fff87ad0235791883d1bf01a9
+    log: revlist-22a50c3745c5-b5f1b25b21f5.txt
 
---===============0286331633058347984==
+--===============5871246566038678003==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bf0d7882cd43-8697c431e297.txt
+Content-Disposition: attachment; filename=revlist-22a50c3745c5-b5f1b25b21f5.txt
 
-5f2a22b36fe34c98f6d5e35ddb759ee53d684145 ntfs: skip free cluster decrement when rollback fails
-0e4c839905418d55bafe571a92533a1d1ac7b0a8 ntfs: do not mark the volume clean in sync_fs when errors were recorded
-8d139e3635c86e2c97c78d55538ce0b00b6d9986 ntfs: fix incorrect MFT record pointer passed to ntfs_attr_record_resize
-607a9478833db656e7ceac8e9e382fa4acfde545 ntfs: treat any nonzero dio zero-range return as an error
-a79899ca38af4ce5518a59a22f0eb1f59f7e6089 ntfs: fix undefined behavior in mft/index record size calculation
-c8504fc1245f5322af5fa5c325ab05f9cf792b87 ntfs: bound $AttrDef table walk to the loaded table size
 323751a604e7533fa473874d999371592a614207 ntfs: reject invalid sectors_per_cluster in the boot sector
 53676a5e28231186c9f56d87b7998b640699bc15 cifs: add revalidation on FSCTL failure in smb2_duplicate_extents()
 2d2a3adc91950f9a18829dadc7317fb5180a15c5 accel/ethosu: fix job completion fence cleanup
@@ -1050,5 +1044,11 @@ d5d6c9d244c6d447c356df70d5c754b145dccd5c Merge tag 'media/v7.3-2' of git://git.k
 0d6a4268b06084baafd8ee5d66955c7e1c2e053b keys: translate request_key_auth pid for the reading procfs instance
 114f00d738f15dd8c7318369edcdc53dd6d08763 KEYS: trusted: Fix tpm2_load_cmd() boundary check
 8697c431e297eb0d0ab13dda6bc172b48a34f05c KEYS: encrypted: fix integer overflow of datablob_len
+48da741b408e3ec05449fc6600fb1529421c84af tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+1063063695ba32afd85821efd5878063f95cde26 tpm: Call cmd_ready/go_idle for each command transmission
+e412d133c4057b963714ed67918764b8e11be60a tpm: Fix auth session leak in tpm2_get_random() error path
+2249200ee4202c7596b612360e0e201a5fef0064 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
+15226965441a8cc94826303f81539a21a5b48415 tpm: fix off-by-four bounds check in tpm2_get_random()
+b5f1b25b21f56c9fff87ad0235791883d1bf01a9 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
 
---===============0286331633058347984==--
+--===============5871246566038678003==--
