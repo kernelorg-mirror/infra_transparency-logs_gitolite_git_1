@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 11 Sep 2026 08:20:16 -0000
-Message-Id: <178911481630.1378501.12165031452728323362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Fri, 11 Sep 2026 08:32:30 -0000
+Message-Id: <178911555021.1386831.8261587446619943882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/tags/nf-next-26-09-11
-    old: 0000000000000000000000000000000000000000
-    new: baa51b997be0d01e52614e48a0498d30ea99deaf
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
+  - ref: refs/heads/dma-mapping-fixes
+    old: 92c6a8d6470f7e7aa86c1f144818d8fa4fcbd5aa
+    new: 55a8e1451869233db837a97e8f3cbf9983bc8678
+    log: |
+         55a8e1451869233db837a97e8f3cbf9983bc8678 x86/mm: Don't force unencrypted DMA for IOMMU-backed devices
+         
