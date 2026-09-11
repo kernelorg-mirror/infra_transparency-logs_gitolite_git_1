@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0475036217467352033=="
+Content-Type: multipart/mixed; boundary="===============7535328075523658409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 11 Sep 2026 04:05:53 -0000
-Message-Id: <178909955375.1172352.13143683982021904887@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 04:05:59 -0000
+Message-Id: <178909955903.1172541.12261028156826707806@gitolite.kernel.org>
 
---===============0475036217467352033==
+--===============7535328075523658409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1f78f28a2945f9e856b4ea8428ac41a6788e4b67
-    new: 9958290885035431e2494159f555e332c3c14906
-    log: revlist-1f78f28a2945-995829088503.txt
+  - ref: refs/heads/mm-unstable
+    old: f8e99cccb0361999925bd1937bc8b45eba11be63
+    new: 32c05737b1600fe30da795aea3a3bd9efe47dec4
+    log: revlist-f8e99cccb036-32c05737b160.txt
 
---===============0475036217467352033==
+--===============7535328075523658409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f78f28a2945-995829088503.txt
+Content-Disposition: attachment; filename=revlist-f8e99cccb036-32c05737b160.txt
 
 743b1ecf58b6fc2c481bf900ccedd8ab07f72d2e selftests/filesystems: fix missing and stale TARGETS entries
 3448125232ae25f8934a64a1cdd873771157c357 module: fix lost error code from codetag_load_module()
@@ -363,74 +363,5 @@ dee4807d773cc0296e39317a0233361252e9edfe mm: enable MMU_GATHER_RCU_TABLE_FREE fo
 831a4e1ea486b05872e63f7a8961d848b7704d60 mm: make userland page table freeing RCU-safe
 68dc53ebf2744eae95eb82d1cae0f45485f2f086 mm: change the contract for free_pgtables(), update docs
 32c05737b1600fe30da795aea3a3bd9efe47dec4 mm: vmscan: avoid anon scanning for GFP_NOIO with low swapcache
-bdc1afc93778c05a597265b335d417e1f523a443 mm: mglru: clear the reference counter for rejected folios
-39fd9b4c305687de51fefb7baaa8189d3b9c9cdd mm/nommu: reject wrapping ranges in access_remote_vm()
-5bbfdc3c53fdcbdda6c7f54d50e82af86dc766ec mm/swap: fix stale comment on swap_info_struct::cluster_info
-749f9fa72391a2de14a6324c2c038b728ef3fb8a mm/swap: scan by cluster in find_next_to_unuse()
-3e98cb0f18dbfaf0a073f6df0626a5c9f69f75cf mm/damon/vaddr: support prep_probes
-bc6ab31972db94ce52261d05113bf37029418acc mm/damon/paddr: move probe filter handling to ops-common
-183d4b3ae25be316ccd5a99e52ed7782bd2b8220 mm/damon/vaddr: support apply_probe
-b2645511eed9258617905207279d5d6a23742550 mm/damon/vaddr: extend apply_probes() for hugetlb
-c1926528633550568c4bd68eb9273fd5ae95a435 mm/damon/vaddr: support pgidle_unset probe filter type
-ee7d3f7079040150ac099e6fce261cadb1c0561f mm: zswap: don't fail a large-folio swapin whose range is not in zswap
-f7615caad1602f52112641aa15b0b41363715aa5 mm/hugetlb: fix subpool minimum reservation rollback
-48076297a0f100098e0b0aa1d1d5f1b259be5db1 mm/zswap: publish the initial pool with list_add_rcu()
-f845d017bda452bae773e66e6f466d24850ebee9 mm/memcg: clear folio memcg after changing per memcg stats
-389ab2488c503b9b5878280c1460d0e7bf788f8b selftests/mm: reject invalid test selections before running tests
-eebbbe396d7a799d73c8e269bc5456222ea2c475 selftests/mm: only prepare ptrace_scope when memfd_secret is selected
-9cc062ea306b38fb093666f9246443c766650800 mm: zswap: convert zswap_invalidate() to take a range
-5cfb904bd13b977fd2ac89bac456929fb24e9406 mm: zswap: skip xarray walk in zswap_invalidate() when zswap is unused
-9375bbf0e08f73e0b6054dcce46b1ab4c879a9f7 mm: zswap: reuse zswap_invalidate() in zswap_store()
-e60a4aa57ec6d36765f716778c7050efdd236994 mm/khugepaged: drop redundant mm_struct pin in madvise_collapse()
-808fcd435d8e8d2af269a0daf1b4dfce57f0aa3c mm/khugepaged: count collapses where khugepaged makes them
-866aeb76f737da40e02e7aa64a67c26076eafb35 mm/khugepaged: rename mthp_present_ptes bitmap to eligible_ptes
-a6d3c84d69e1f78b01167f7f2b2cf275fc6641e9 mm/collapse: add collapse.h for the collapse interface
-63bee9826b7bc28fac41b9734db01d77eb1855b1 mm/collapse: state what a collapse may do in the policy
-3e3c2636195ab1e2e29ced6e71e3709e1132c68b mm/collapse: drop the collapse_possible() wrapper
-4e04ea6dd147dae4aa2553d8b0bb7dfd5be30a13 mm/collapse: name the per-table scan reset for what it resets
-b93e95ce6d6f0d8d2a17366911a7612a0a165d01 mm/collapse: separate scanning a PTE table from collapsing it
-a910a07667fa4de222f260ae7d4f8be83b338018 mm/collapse: open-code collapse_single_pmd() in its two callers
-00e2fe46f055d681bd48292a51e2cb51416fe307 mm/collapse: work out the orders a VMA allows once per VMA
-6c7468adec7eb03e960a193fc184b6e9c53545b3 mm/collapse: declare the collapse interface in collapse.h
-ae1a226bbe11478079b4803eabd34dfacae66a7a mm/collapse: implement MADV_COLLAPSE in madvise.c
-61fe25be54cc02b5d7527c0976855fdfeb0f003c mm/hugetlb: account for allowed nodes when gathering surplus pages
-cdb0952fbd184805a2cb477475dc1eb94261f45a selftests/mm: fix ptrace PEEKDATA check in memfd_secret test
-dbc76884631bebbbe635a599048841931abee771 mm/khugepaged: never install PMDs in uffd-minor-registered VMAs
-bd3e2a68d4df5f43252435a470679a0d1768cbb1 mm: selftests: adjust the MADV_COLLAPSE uffd-minor selftests
-2b8d68568d3ca6ae19fdefa5ad89e4dc8c338f2a mm: page_alloc: add missing hooks to bulk allocation path
-32c444e47df27ffc30318e57b44a590cee9d0bc6 zram: convert to SG-list zsmalloc object read API
-aae2ce985b2d4ee62cb5825d54f17e2dc3d5ebca zsmalloc: remove old object read API
-d7f01ff369e3809ff4d56c9613ff12ff4706dff4 mm, swap: fix potential NULL dereference when trying a sleep table allocation
-bfba2f827cd8b604a03b45cb2f9b040173f97419 mm, swap: Move setup_swap_clusters_info() after SWP_SOLIDSTATE initialization
-d2baac1c6461c6e75a54604d7d68a1a60354c4d9 mm, swap: return early from swap_extend_table_try_free() on first non-zero entry
-a39abd6857694e099a059ca4176534dae2bd7609 mm, swap: remove unneeded swap_extend_table_try_free() in swap_dup_entries_cluster()
-ff6debd1c143ab5afb80f2d9d37bd59349d518da docs/core-api: memory-allocation: clarify when to use kzalloc_obj and kzalloc
-9f926378d214195c3dbdc05d3e3b826ad2e3fe31 mm/page_counter: avoid integer overflow in effective_protection()
-acc3fede24c8f1a54ffe9f786079f9f131955504 mm/mglru: fix ineffective memory protection for non-kswapd reclaim
-25b153ae2de30bf82c9273aab8bcd843cfc39fbb tools/testing/vma: cover hole filling through __mmap_region()
-0f343b3ebf721c15976e4dcaf6b31b63fc9b63a3 mm/zswap: enable zswap_ever_enabled in zswap_pool_create()
-e607299b3214ee7b4cd38ca90116492bac96e500 mm/zswap: release retired pools via queue_rcu_work() instead of synchronize_rcu()
-78e1b9cfc50b12dbfd2aa511a099f12b068838a2 mm/zswap: replace the zswap_pools list with an allocating xarray
-d063fad4c1703fbd23b4e6cfd4b0b4f0f5126748 mm/zswap: reference the pool by id to shrink struct zswap_entry
-852c304951ab2e86909f2b2340cd840b73c39d9b mm/damon/api: introduce DAMON_FILTER_TYPE_PGIDLE_SET
-ddd319c9a4e12005f45587b135630eafc03c2e47 mm/damon/paddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-b17304489980764a83c29665c54d972e149478e6 mm/damon/vaddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-213591c9128d1aab1a1c09ea1ecfef868496bf9d mm/damon/sysfs: support DAMON_FILTER_TYPE_PGIDLE_SET
-8053c9a12f04de89cce7a2471c92dbb4fdc24b26 Docs/mm/damon/design: update for pgidle_set probe filter
-4147446e95da02e7e4d06a4560c9dbdf0203cdba selftests/mm: fix soft-dirty kselftest supported check
-bc66d773861213d63337a05d1a95e14a286539fd riscv: mm: fix concurrency in mark_new_valid_map()
-a5c554f48236b3c2a5169efbd125b799085b1ca0 riscv: mm: exclude invalid THP PMDs from page table check
-ec9ed646f09956f208ead401f1409dfb48a49d20 sh: remove CONFIG_NUMA and related configuration options
-0ce4fbaf9256be1e51609230bf8aa8080ff0b0fe sh: mm: remove numa.c
-1e43051281e30a616c0a5a4c648ad5ae301f7bc5 sh: mm: drop allocate_pgdat()
-53b1481574126dcf05853a8f36158a598090b3d6 sh: remove setup_bootmem_node() and plat_mem_setup()
-57706ee0b5fdfb329c786daeca82ed9222d91fa5 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-eb89930123cce26b61bb2ff93b64a8d71cd1849b sh: drop include/asm/mmzone.h
-96d08d0178b7bf9a8819000b02833a75947bda10 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-55dec81b1f065d070deb8420812a83155b4d9ff1 sh: init: remove call the memblock_set_node()
-4953231c412c445323e14d0cab32a6656949c23d sh: remove SPARSEMEM related entries from Kconfig
-2e375d0dc1e2f0d9845eca9faf8acf0e00ad7fe4 sh: drop include/asm/sparsemem.h
-6dc173b339317ad09eee7b04947ca1a7ae94aff2 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-9958290885035431e2494159f555e332c3c14906 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0475036217467352033==--
+--===============7535328075523658409==--
