@@ -1,44 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2975969913457453932=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/grokmirror/grokmirror
-Date: Fri, 11 Sep 2026 18:59:10 -0000
-Message-Id: <178915315060.2011503.7443176076144777548@gitolite.kernel.org>
-
---===============2975969913457453932==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 11 Sep 2026 19:01:16 -0000
+Message-Id: <178915327688.2015044.10508692389560542215@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/grokmirror/grokmirror
-user: mricon
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 44decfbe528ec690d2b07dea30310c7b07780279
-    new: a757d50a5fc016bb5094035345ca8595b62f39d5
-    log: revlist-44decfbe528e-a757d50a5fc0.txt
-
---===============2975969913457453932==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44decfbe528e-a757d50a5fc0.txt
-
-d4cec048f2d979efc1a7f2f080e6931b6b6ed21e Read the log file location from [core]log in grok-manifest
-5e8471f36a421a66c8a354c22859a777464cf648 Read every spelling of a boolean the same way in grok-fsck
-25c23edbf2d1a6919d65d0966e7d50b9115b3541 Check every boolean config option when the file is loaded
-94e30c94744b3178c2b8e8ba36297e0e0a227958 Document the objstore merge strategy setting
-0859503093113bae1da27ca4408e1c0dc7eaa860 Describe every config option in one place
-4d147b253c56a574079d83598216e05e09239580 Add a config checker that reports every problem at once
-a22b017db1c7bc1c5bfaf3144b0de6296c8ecc32 Check the parts of a config only the origin can answer for
-ee4e46412c238b7a5e676cfd078ff0f7b038b266 Let each command check the config file it reads
-720c2a916d0292dcebbc10621f98b5af842d921c Document --config-check in the man pages and the sample config
-d6c378d3e8d6c1a884b7bf5eed834ac7391e9f45 Re-render the man pages from a pinned docutils
-d0e56370a3dba1b7cbd2b09129ecd45ab4760ac7 Let [remote] site be any URL git can clone from
-1a33cb80486b1afbddd1bbea5d5961b2c21f8139 Narrow [remote] preload_bundle_url to http and https
-71f1f41676632e795b905af35fa333299f14c299 Report an option that is set to nothing at all
-a757d50a5fc016bb5094035345ca8595b62f39d5 Read whole numbers through get_int(), the way booleans go through get_bool()
-
---===============2975969913457453932==--
+    old: 4cf73437863c2e492d2a1d0f24330f391c0f075b
+    new: 78dce99b660fd1caaf70ef6573a88bae9bbf6476
+    log: |
+         8ec38e3feae0a0b9764522bab889bb4b910030a8 src/sanitize: check the statx output buffer too
+         86e9fbce98db20bdc1777a5782bd700d63a665bf src/sanitize: check the timespec of a timeout update
+         b041e95a7c0beaac03f117b0f313c52ddbe9ec34 src/register: check the tags array in the buffers registration helpers
+         3cd017e37bd9d57914bd34caadad55dccf69b1c1 liburing.h: add missing LIBURING_NOEXCEPT to inline helpers
+         e9e4ac2147dba2dda70575f2f09f0d2eac5e0ae4 Merge branch 'liburing-noexcept-inline-helpers' of github.com:businessarshgoyal/liburing
+         78dce99b660fd1caaf70ef6573a88bae9bbf6476 Merge branch 'harden/sanitize-second-pointers' of github.com:StressTestor/liburing
+         
