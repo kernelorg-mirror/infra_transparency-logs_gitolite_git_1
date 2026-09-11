@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 11 Sep 2026 14:51:48 -0000
-Message-Id: <178913830823.1817287.1937573180426547396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Fri, 11 Sep 2026 14:52:38 -0000
+Message-Id: <178913835815.1817782.6931189996173152319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/for-7.4
-    old: c367ce5b31ffd4d958f3f6c5fe1c9e820dc9f526
-    new: de99a40c54a6fe009e526657cf49790f7e8fcea0
+    old: d8c2ce77cd09077ec57c4bed5678f76425157ccd
+    new: 9d4815c14f7faf789aeaa63515024168daf0390c
     log: |
-         de99a40c54a6fe009e526657cf49790f7e8fcea0 cgroup: Move cgrp_dead_ task+iwork into its own struct
+         9d4815c14f7faf789aeaa63515024168daf0390c workqueue: BUG_ON() a pwq release before workqueue_init()
          
   - ref: refs/heads/for-next
-    old: c367ce5b31ffd4d958f3f6c5fe1c9e820dc9f526
-    new: de99a40c54a6fe009e526657cf49790f7e8fcea0
+    old: d8c2ce77cd09077ec57c4bed5678f76425157ccd
+    new: 9d4815c14f7faf789aeaa63515024168daf0390c
     log: |
-         de99a40c54a6fe009e526657cf49790f7e8fcea0 cgroup: Move cgrp_dead_ task+iwork into its own struct
+         9d4815c14f7faf789aeaa63515024168daf0390c workqueue: BUG_ON() a pwq release before workqueue_init()
          
