@@ -1,89 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============4162521252756201892=="
+Content-Type: multipart/mixed; boundary="===============2794368037735907916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 11 Sep 2026 20:13:08 -0000
-Message-Id: <178915758806.2071609.17515425155615393213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 11 Sep 2026 20:25:13 -0000
+Message-Id: <178915831320.2081215.389616545542689999@gitolite.kernel.org>
 
---===============4162521252756201892==
+--===============2794368037735907916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 04c3ee0f5d158f6e2027c7ef617044cb649ab4ab
-    new: 604ac544390f420332b10738cc10b29a2e91bac8
-    log: revlist-04c3ee0f5d15-604ac544390f.txt
+  - ref: refs/heads/master
+    old: 3026c6e4f223bdded6448fefe53ff85d9cbe51bd
+    new: 827751b699b79a6e569983359c02dce67f81b94c
+    log: revlist-3026c6e4f223-827751b699b7.txt
 
---===============4162521252756201892==
+--===============2794368037735907916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-04c3ee0f5d15-604ac544390f.txt
+Content-Disposition: attachment; filename=revlist-3026c6e4f223-827751b699b7.txt
 
-527d09d74d903eb995c25f4377d371130b4c1b58 ASoC: codecs: 88pm860x: use .auto_selectable_formats
-d39367addf93f334000d4eabe88684a8fbf909a9 ASoC: codecs: ab8500: use .auto_selectable_formats
-efc0eb0908df6334bdf9861ce9412d453526ba8f ASoC: codecs: adau*: use .auto_selectable_formats
-9e99d539694b9b0974ce4769a985577d6e8305d2 ASoC: codecs: ak4*: use .auto_selectable_formats
-dab547442de4a0a680245d00643f051690966154 ASoC: codecs: ak5*: use .auto_selectable_formats
-ccb78092f0c9bedb18fce35e411decf86e36fe60 ASoC: codecs: alc56*: use .auto_selectable_formats
-1a33b369a9ba6332bb5a86aa905c332e5f0fbe42 ASoC: codecs: arizona: use .auto_selectable_formats
-feb853ce519086207298fa0bef456f2257736583 ASoC: codecs: cpcap: use .auto_selectable_formats
-d4d1619ebd551535eb5c9a76c141d0c0716afbfe ASoC: codecs: cs35l*: use .auto_selectable_formats
-27192e1876bafa6f166f92d05879bf809c13ef37 ASoC: codecs: cs42*: use .auto_selectable_formats
-b1d8fda689d34219da04af04a2b5f9fe0457ef44 ASoC: codecs: cs5*: use .auto_selectable_formats
-956fe07e17822de78b2aae167fc38e63820a72c8 ASoC: codecs: cx2072x: use .auto_selectable_formats
-1e3cc1d36a1c703c6886f6652f95c88e0e84ff96 ASoC: codecs: da*: use .auto_selectable_formats
-1427806905e4e3adbd7b3a21b386176787c196a1 ASoC: codecs: es*: use .auto_selectable_formats
-f7ee5cdfbd08708985325ec37e215b3b8941ed22 ASoC: codecs: inno_rk3036: use .auto_selectable_formats
-43a8fe22f7dec5dcdf6d3554a70ca4419fd60a1f ASoC: codecs: isabelle: use .auto_selectable_formats
-4f3d20ac26eb04323ddc28c23b980c5e5bb4cdbe ASoC: codecs: lm49453: use .auto_selectable_formats
-2e4e627eda15d34c0263a503992b52918a17cf8a ASoC: codecs: max*: use .auto_selectable_formats
-0363504f2a1b26cbba625cb382699ce7687c2ee3 ASoC: codecs: mc13783: use .auto_selectable_formats
-c9cea75cf3b3ba45d8083af57e38b680a695a2ad ASoC: codecs: ml26124: use .auto_selectable_formats
-9ed1ee45e1005bfd52cae09e0ff07ef38752e763 ASoC: codecs: nau*: use .auto_selectable_formats
-b66dcb7112d05d5a20e6ce9c2144eef92bafbf40 ASoC: codecs: ntp8*: use .auto_selectable_formats
-0c55552b5f5efc48679247a826a4f73eb3d6f5b0 ASoC: codecs: rk33*: use .auto_selectable_formats
-b1b8e119c486abeada7feb3ae304913d772b1506 ASoC: codecs: rtq912*: use .auto_selectable_formats
-84bf0c2e5e7a6098e52299c71f7ba070afa17b34 ASoC: codecs: rt*: use .auto_selectable_formats
-f710416f4d8b9502dc28befadacc148d541fe718 ASoC: codecs: sgtl5000: use .auto_selectable_formats
-9d6aa5e50a8b477a1f387d47ce9e1cb2f42d78f7 ASoC: codecs: si476x: use .auto_selectable_formats
-793b720dbf4fe70b7078ea6a93dc6792c510612f ASoC: codecs: sma130*: use .auto_selectable_formats
-dd711abc375025ed9f77d780f65845a25cb3bbff ASoC: codecs: src4xxx: use .auto_selectable_formats
-dec1b4abfbd3a1f8d505dacc257589530e7be9fa ASoC: codecs: ssm*: use .auto_selectable_formats
-9f349fafa7693ae0d2b13a39886f894b3cec7cb5 ASoC: codecs: sta*: use .auto_selectable_formats
-122b339a5a0b017996dce1dd907f7541cdbae27e ASoC: codecs: tas*: use .auto_selectable_formats
-5759273b853c3d248a03d952eba5d30e08da114b ASoC: codecs: tfa9879: use .auto_selectable_formats
-cb125dde4b5d4bd2395565c09611b39b2de89f5b ASoC: codecs: tlv320*: use .auto_selectable_formats
-41058e1bddb3b33e5c222c2dba784130ee7640c1 ASoC: codecs: tscs454: use .auto_selectable_formats
-688b914d278903222f0794924991236e3df805e9 ASoC: codecs: twl4030: use .auto_selectable_formats
-7673fc2091760cf462a422db165bb63edf34ae0e ASoC: codecs: uda13*: use .auto_selectable_formats
-fe72aace0a5a13241cfc1d411019dee9b783a8e1 ASoC: codecs: wm*: use .auto_selectable_formats
-93a0091f9745d0ba3043ae3d1f7365e347906c55 ASoC: codecs: zl38060: use .auto_selectable_formats
-1d7a22ed0d375cff97fc766423a72238b457de4d ASoC: codec: use .auto_selectable_formats
-04d17816c81ef7929600ca0c2214395728bcde5c ASoC: dwc: use .auto_selectable_formats
-732bac6bd644df65dda5cd71af842ac23a50e7d8 ASoC: hisilicon: use .auto_selectable_formats
-b18ce5ae42ac4c224afa507ce40fd0f14ddcf92e ASoC: img: use .auto_selectable_formats
-2bc2523c253d4491f1897fbcd489d893dd2bc3cd ASoC: jz4740: use .auto_selectable_formats
-0dab4c4fe6c857da73d6b1d7104bcac92d04d05c ASoC: kirkwood: use .auto_selectable_formats
-47afd963102b27d28f9d1ac172437651df9259c1 ASoC: loongson: use .auto_selectable_formats
-d83c510123724e898282d6327924f37e80e6ae67 ASoC: mxs: use .auto_selectable_formats
-1eae5ea3637d09c073e5294ddc24712b4370054e ASoC: pxa: use .auto_selectable_formats
-0d0f03f34a4df1f9e0cbedd63bf0c424bb84e55d ASoC: renesas: use .auto_selectable_formats
-d39bf59dbb6aa074418296791ebc65fb6a5057c1 ASoC: rockchip: use .auto_selectable_formats
-da4d9d64d6cbc1b973875cb9d431236915f01257 ASoC: sti: use .auto_selectable_formats
-419884c9f124d974103c9fde09205767ec15055e ASoC: stm: use .auto_selectable_formats
-e64e684cf2063f7ef3cb4d240d81eacb9e40f73d ASoC: sunxi: use .auto_selectable_formats
-17e25fe32974975a24bd6cd5286bc73dba098120 ASoC: tegra: use .auto_selectable_formats
-768d917175b28586ff268ff105a6eb39f9cef3c8 ASoC: ti: use .auto_selectable_formats
-ebf365cf26231f2a47e65d6d6801609d8e55325b ASoC: uniphier: use .auto_selectable_formats
-7bbcb8bac2737cf3f23c3954818a0969c6bf9915 ASoC: ux500: use .auto_selectable_formats
-514d0b41854cb0d0b1f87d0cd86f1e97687eaba9 ASoC: xtensa: use .auto_selectable_formats
-604ac544390f420332b10738cc10b29a2e91bac8 ASoC: use .auto_selectable_formats
+ee02ed6308fbbd851c4e5c1f642d029617049a12 platform/x86: hp-wmi: Fix board_params typo for 8DD6 board
+6bb4fb72c00dc2a9cb663e2d16adce15e4170cdf platform/x86: asus-laptop: Fix ACPI event handling
+9ffed84a24d60ec506d8961fe138f0baa92fdbd0 platform/x86/amd/pmf: fix build on !CONFIG_AMD_PMF_DEBUG
+bdc46e507b59ac44c8e1dab505121f18c2add1ab riscv: mm: make EXECMEM_KPROBES writable without CONFIG_STRICT_MODULE_RWX
+8718e5a3090bbfd759801d088b700aab21e8e989 riscv: patch: skip fixmap mapping when kernel text is already writable
+2d2184ac90365a4af3274e23c98d469f09f91749 Revert "riscv: Reset pmm when PR_TAGGED_ADDR_ENABLE is not set"
+12381af01024f4a59cd3f673fb3644bbe2ca3aad riscv: use string helper in setup_global_riscv_enable()
+d0fc6fab20460add1f27402cd8b945d094a56b21 riscv: hwprobe: initialize pair->value in hwprobe_one_pair()
+ddeaa39406c4cf680643412cd1f75bb98a641f6c riscv: bug: Make RV32 use GENERIC_BUG_RELATIVE_POINTERS
+6693171c8c540b3a54e671992f0561613076fc3b perf: RISC-V: use BIT_ULL for u64 overflow masks
+6809da6e9c08ccc9a09cb0a48c61471679274aaa perf: RISC-V: store available counter mask as bitmap
+248dbaf7770c0843702355a9fb724a882c669062 riscv: report Zfhmin/Zvfhmin when Zfh/Zvfh are present
+f643f520c4c6998fa27dce90dd3b3ff6414e0bae perf: RISC-V: check cpu_hw_evt before dereference in overflow IRQ
+93a27367bacdc32e2cdb478597102175db3fb80c riscv: hwprobe: simplify has_fpu() to check D extension only
+817ecd588fa5820527ee3affa43b5116276d2520 dt-bindings: riscv: cpus: Fix yamllint style issues
+74e26c692c40565448b8a1d1398c69e221a299cf docs/zh_CN: Update arch/riscv/patch-acceptance.rst translation
+2464ac8a6ff8d8a18b50088eb1d1d638f9cee2f1 kselftest/riscv: Replace __ASSEMBLY__ with __ASSEMBLER__
+355b6558dd7be049aff4f0d438b0128f91a982eb platform/x86: x86-android-tablets: fix Arizona GPIO swnode references
+144113b0a70fa18033a747ee5db6803308f7688c platform/x86: x86-android-tablets: hold device reference for secondary fwnode teardown
+aab060ec969c3859b81f80f3444fd5a2edfc3cf5 platform/x86: x86-android-tablets: pass node group to gpio_secondary_fwnode_init()
+7872c625cd83a0247821cedd6c6f63938d4bddbc platform/x86: x86-android-tablets: add Crystal Cove GPIO swnode support
+74884436a53df0bbaf6d92d2922f643a4581b247 platform/x86: x86-android-tablets: drop redundant swnode group on YT3
+312fd3f3a85b89aa0d4fb5417043d640daa3732c platform/x86: x86-android-tablets: use shared battery swnode group on Yoga Tab 2
+b94cec5761d22624d109d859467d7d4ce0a1b88b riscv: skip software algning code for HAVE_EFFICIENT_UNALIGNED_ACCESS
+dd519eb8f66eaa205bbbdcb753588138a1d18414 platform/x86: x86-android-tablets: fix gpio_secondary_fwnode_init() not working
+796aa0547557e63338657ed1c487906f9fac4c73 io_uring/rw: end write accounting from ->ki_complete
+dcbd1c054848848a1937ca0768ce2bdbc31ae621 io_uring/net: let io_recv_buf_select return the length of the buffer region
+d144a494d81fcf2d1c5cf58b01c655bb8bafc701 MAINTAINERS: fix sysfs-platform-ayaneo-ec documentation path
+6028b543884f8735e057ec9eea4908cd61cab230 io_uring/net: don't overconsume buffers when using MSG_TRUNC
+47ccc3f1c615a46c25cbf7f3ae60df30b40eb2e6 io_uring/rw: keep CQE flags on iopoll requests when adding kbuf flags
+a19d4f9b8befdcfcd5a87bab91312fe64af3bbb8 ata: pata_legacy: remove documentation for removed module parameters
+c4fa55f85c47cd5d54d717fb8170746edb10292e selftests: ublk: install test_common.sh and trace/ scripts
+b0d8d56b7c93ed767eb4f2be9988e7b9dc023566 block: Fix start and length check added to iov_iter_extract_bvecs()
+0c6da21fa35e03fc74f09895433ccd6d4a9c3530 sunvdc: unmap LDC cookies when the descriptor send fails
+5067d4ba713961d8ccea1e06cd4c453793f3121e sunvdc: fix -EIO issue due to lack of retries
+8a14be55bdc6d5a25cd7b0ac5d4d884fcc727b49 ublk: clear force_abort in ublk_queue_reset_io_flags()
+94b1a3ca9b8db3151f1416263704c159a9470da5 selftests: ublk: add batch IO cases to recover_03
+42f961c42b6b29532c7c75e028b4192ed333fbcb Merge tag 'io_uring-7.3-20260911' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+35ef102063fd6f39e045e6d4e92ac04d3d29c0bf Merge tag 'block-7.3-20260911' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+707662b40a82c96e416fe17f3c116a4d648f1fdb Merge tag 'ata-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+1235ff329981ecde9ccbf49b83bd4d71e827d541 Merge tag 'platform-drivers-x86-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+827751b699b79a6e569983359c02dce67f81b94c Merge tag 'riscv-for-linus-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============4162521252756201892==--
+--===============2794368037735907916==--
