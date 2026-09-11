@@ -1,57 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8937301029174570616=="
+Content-Type: multipart/mixed; boundary="===============7188661389739924529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 11 Sep 2026 07:58:20 -0000
-Message-Id: <178911350037.1359669.8034264868726135074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 11 Sep 2026 08:05:04 -0000
+Message-Id: <178911390435.1365601.190044216677979115@gitolite.kernel.org>
 
---===============8937301029174570616==
+--===============7188661389739924529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/bugfix/last
-    old: 01f6737259dc1f29f5002ed1225e60560f0c43de
-    new: 1555a8776c6afce9b22b346f50643f8f9de91146
-    log: revlist-01f6737259dc-1555a8776c6a.txt
+  - ref: refs/heads/master
+    old: 3220117bd5ee13dd5da9a8022ac466809144e20e
+    new: 1a36f88ce792b22aab9acd7ca4c623dd569c83d7
+    log: revlist-3220117bd5ee-1a36f88ce792.txt
 
---===============8937301029174570616==
+--===============7188661389739924529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01f6737259dc-1555a8776c6a.txt
+Content-Disposition: attachment; filename=revlist-3220117bd5ee-1a36f88ce792.txt
 
-ecfbd079a78ba39dcae8df2bc8054108d5c32fb0 f2fs: quota: fix stale lock holder on remount failure
-49093054586282b865db59b4f9fe5982fb3dc15e f2fs: skip node_change lock for inline data writes
-e5d2862942dace49e3ba4bf9c55301867d4456b1 f2fs: fix livelock in syncing dirty inodes
-ab6689edb1e4df886fb6a6ff9acf2c04150e59a7 f2fs: fix to record both APPEND and UPDATE ino entries
-4d0e8a3c4d135ea1770fa6bda9aa43646eb2d80e f2fs: force out-place update for all writes on compressed file
-7c538930551f6d46c291e9fb112278e627cb0208 f2fs: parameterize node helpers and macros
-5728ec48778b7eaa1dbc3b3df50e693ee108a7de f2fs: fix to avoid folio->mapping dereference in is_{meta, node}_folio()
-f74e3d2d5f8da92427e453c8046292c6245110c9 f2fs: introduce metadata cache
-622eac81d119d1ad820fd8ab4e4bbc8aaa753dc0 f2fs: cache: implement metadata cache
-0d3d4e792eeb1165e163903f5d19ba9703f240b9 f2fs: cache: initialize meta cache
-e05d2d7dfcb35e671d27ac0470fb9b1f14e7097e f2fs: cache: introduce shrinker
-f7f19d3aee3d9f7752d9fcacbc6d7151da6faf35 f2fs: cache: introduce writeback thread
-f70e0d5df5f6e60b163fb1888043424322aa25e3 f2fs: cache: use meta cache
-2b13ea16427307e7d57190f8eab3be122c315d83 f2fs: cache: initialize node cache
-171ad6a89486d19d863379ae4d30963f27d36209 f2fs: cache: use node cache
-70d4615574279072b25c10d5c9bb637fbd63c204 f2fs: cache: initialize compress cache
-9367352bbb0b90fc11a0a28f3eadb4c80c85416f f2fs: cache: use compress cache
-d312de36844cfdb45542df3a5a92b5c3e9f30b29 f2fs: cache: support fault injection
-a7c5ccfa99b17b2d0dbe54fa9202e7f802765c21 f2fs: cache: introduce tracepoints
-d8df42999f17864d9489b36b10f7c67ce35f0171 f2fs: cache: show per-cache usage in debugfs
-36ef763f2aa7c3d55b46ba02414613699a9958fa f2fs: rename page_count with cache_count
-2604406b59cdeed3898fdb983aebb8c8c907ae4e f2fs: rename nr_pages_to_skip with nr_caches_to_skip
-a8180a393432bdd24828c309bfabbd50869d0ef1 f2fs: compress: fix to handle race between truncate and writeback
-c7e00daa55c1cb8122094e75ce12a13c5c7bba32 f2fs: introduce metadata cache
-88898c965d52656cb6315219d06506c98354c4fb f2fs: fix to check continuousness in f2fs_sync_meta_pages() correctly
-b438f48d8ef8a248e667bfd9351b6f7012c46754 f2fs: remove invalid error path in __write_node_folio()
-1555a8776c6afce9b22b346f50643f8f9de91146 f2fs: fix to assign sbi->umount_lock_holder correctly
+a8265b7ca6a2db0557d5a22688738e3e2d5ee86f Merge branch into tip/master: 'core/urgent'
+ef7473f44f63d79fb633c47a0cf398dd8daf2598 Merge branch into tip/master: 'irq/urgent'
+c0d40eb9427d66b30a30dfddf9087c6ab5f2c481 Merge branch into tip/master: 'objtool/urgent'
+964214a0c1d41d6b6882cbe1c66d7416609d64d2 Merge branch into tip/master: 'perf/urgent'
+65e7366e9bead6c23fe4912f7aadd7fff3568f06 Merge branch into tip/master: 'sched/urgent'
+3b045c8b23a0f7bf233b734367d2d8a9651d7302 Merge branch into tip/master: 'timers/urgent'
+4943d7741c123af2a04b66ac77d33269710eeefc Merge branch into tip/master: 'x86/urgent'
+38a4e57dbb306130eb37e1eb42833ee22c1ac878 Merge branch into tip/master: 'x86/mm'
+0cca34b08cdc2e324a5052a9f8b57bbe805e3f3f Merge branch into tip/master: 'irq/core'
+9134a4e706e46449d3e419fcef8357f1018c51fd Merge branch into tip/master: 'irq/drivers'
+8d9b3d648e8eba7f773d6d99b41e5eec8889d10e Merge branch into tip/master: 'perf/core'
+5c27e9864c502fde9423d9a868bfed615e85647e Merge branch into tip/master: 'sched/core'
+dfb93c57d1dbbd2a2d32ca2b523e696a561ebe4d Merge branch into tip/master: 'x86/boot'
+51cd1060e881daa02dca596a4db16958d872191f Merge branch into tip/master: 'x86/bugs'
+701aff667ec9f5cd8273048b80100af638583cc0 Merge branch into tip/master: 'x86/cpu'
+69b3588214ae808a3788031b940f33629af864e0 Merge branch into tip/master: 'x86/kdump'
+fe5854700b9ae7297fdc19c6ef31d1f7ba16c1c8 Merge branch into tip/master: 'x86/misc'
+a2026265e3d5a974c4df573d818acbf93cfd672b Merge branch into tip/master: 'x86/sgx'
+be4c0d78b01f92de5e09325ffce909d787cf96eb Merge branch into tip/master: 'x86/tdx'
+f65d38155aef069c897a64643a03db237dd1e0c8 x86/div64: Fix addition of large constants in mul_u64_add_u64_div_u64()
+27600805e62f800bacf990354632eae4e487d34c x86/amd_node: Fix PCI device reference counting in amd_smn_init()
+1a36f88ce792b22aab9acd7ca4c623dd569c83d7 Merge branch into tip/master: 'x86/urgent'
 
---===============8937301029174570616==--
+--===============7188661389739924529==--
