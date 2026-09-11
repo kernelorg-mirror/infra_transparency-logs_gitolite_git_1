@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 11 Sep 2026 10:30:59 -0000
-Message-Id: <178912265965.1614385.13227039174745375048@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 10:31:02 -0000
+Message-Id: <178912266267.1614700.328244576675343049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,32 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tegra/linux
 user: thierry.reding
 changes:
-  - ref: refs/heads/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: ed3e0ee8a9ec966809774cdca84c4433ad088a85
-    log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         2f4a0fb66d313f03832f061bc3ec25b33c8198c9 soc/tegra: fuse: Add missing newline to APBMISC error message
-         c5c95dbdc9011a56359df4dc00be829bbcc0b036 soc/tegra: pmc: Fix uninitialised clock rate
-         d1fa7f5343635a786e472f9eb64329643d769088 Merge branch for-7.3/soc into fixes
-         ed3e0ee8a9ec966809774cdca84c4433ad088a85 Merge branch for-7.3/arm64/dt into fixes
-         
-  - ref: refs/heads/for-7.3/arm64/dt
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: b86eaddf467a9ddb69dbaa46eea9dda7f93347a3
-    log: |
-         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
-         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
-         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
-         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
-         
-  - ref: refs/heads/for-7.3/soc
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: c5c95dbdc9011a56359df4dc00be829bbcc0b036
-    log: |
-         2f4a0fb66d313f03832f061bc3ec25b33c8198c9 soc/tegra: fuse: Add missing newline to APBMISC error message
-         c5c95dbdc9011a56359df4dc00be829bbcc0b036 soc/tegra: pmc: Fix uninitialised clock rate
-         
+  - ref: refs/heads/for-7.4/arm/dt
+    old: 5602e3202b1c3e39e33d1400555433719e04c2c2
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-7.4/arm64/dt
+    old: 1a4541cb8471164e3992dc4b08814409d6cdc582
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-7.4/dt-bindings
+    old: ba6b15354f64f1344ca7a28cf433a842aa85aa4e
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-7.4/soc
+    old: dc9c9c4fcb88a5660259dcef93c1ef5acd767189
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-next
+    old: 3eec0cd4c9a8caab67a4a0090e5a7ac342f04636
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
