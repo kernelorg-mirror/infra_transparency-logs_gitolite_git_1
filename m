@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Fri, 11 Sep 2026 23:45:09 -0000
-Message-Id: <178917030935.2227077.12296091751250797539@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 23:50:31 -0000
+Message-Id: <178917063108.2231096.11451863066787475754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/ieee1394/linux1394
 user: takaswie
 changes:
   - ref: refs/heads/for-next
-    old: 4cb9978b4c66b6fcf529a39ec6869671735fdd2a
-    new: e25791d2f64a000d1397d596019006c4e10cdf67
+    old: e25791d2f64a000d1397d596019006c4e10cdf67
+    new: 5cd70119ea77f631e0ceb4aa97f608f2983cbeba
     log: |
-         e25791d2f64a000d1397d596019006c4e10cdf67 firewire: cdev: Fix FW_CDEV_IOC_CREATE_ISO_CONTEXT references in kernel-doc
+         5cd70119ea77f631e0ceb4aa97f608f2983cbeba firewire: core: remove unused link field in fw_packet structure
          
