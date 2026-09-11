@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0298914801344152295=="
+Content-Type: multipart/mixed; boundary="===============3376834000934104118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 11 Sep 2026 18:46:57 -0000
-Message-Id: <178915241791.2002631.6613220274690415210@gitolite.kernel.org>
+Date: Fri, 11 Sep 2026 18:47:01 -0000
+Message-Id: <178915242113.2002844.3466286599582242565@gitolite.kernel.org>
 
---===============0298914801344152295==
+--===============3376834000934104118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 548b86839f7fb819a4d6c83b71c73ec378d24275
     new: 17d3afadf539c93def8106bbb83c88274bdc7ab1
     log: revlist-548b86839f7f-17d3afadf539.txt
 
---===============0298914801344152295==
+--===============3376834000934104118==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -890,4 +890,4 @@ c48f4d49b43aa923112a3c0a1c45bd3a76370ab2 Merge branch 'sit-convert-configuration
 348ea4642f56ab3dc93621c8e3ab0ccd0e5f1782 selftests: net: add ctl_file_write() helper
 17d3afadf539c93def8106bbb83c88274bdc7ab1 octeontx2: collapse consecutive blank lines in source files
 
---===============0298914801344152295==--
+--===============3376834000934104118==--
