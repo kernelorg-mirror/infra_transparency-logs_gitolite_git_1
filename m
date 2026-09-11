@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Sep 2026 01:48:20 -0000
-Message-Id: <178909130051.1071382.6915091253339998555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Fri, 11 Sep 2026 01:50:48 -0000
+Message-Id: <178909144826.1074183.10234695150905135970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/main
-    old: c48f4d49b43aa923112a3c0a1c45bd3a76370ab2
-    new: 348ea4642f56ab3dc93621c8e3ab0ccd0e5f1782
+  - ref: refs/heads/master
+    old: e435fc5d5d4d246c60c23650b923d594aa17bfeb
+    new: 8811ea8a38f13cea1810a21ceb880983a89751c3
     log: |
-         348ea4642f56ab3dc93621c8e3ab0ccd0e5f1782 selftests: net: add ctl_file_write() helper
+         8811ea8a38f13cea1810a21ceb880983a89751c3 capsh: reject malformed numeric --groups values
          
