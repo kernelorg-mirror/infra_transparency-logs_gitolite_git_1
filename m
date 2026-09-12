@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Sat, 12 Sep 2026 12:21:39 -0000
-Message-Id: <178921569913.2834361.17297652598599591400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sat, 12 Sep 2026 12:29:08 -0000
+Message-Id: <178921614846.2838666.13706745918646889806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/rev
-    old: 609496189a6ccf76148d6d130f8163cd1f6f36fa
-    new: 60b6aa515299ec24f6e994298cfe2191145aff8a
-    log: |
-         aca4976ffcb6ffd64964145bdea98469bfb1348d revocable: Revocable resource management
-         f5b1a79a150d63b38ecaddc62a9ca65d37b7185d revocable: Add KUnit test cases
-         60b6aa515299ec24f6e994298cfe2191145aff8a gpio: Leverage revocable for accessing struct gpio_chip
-         
+  - ref: refs/tags/erofs-for-7.3-rc3-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 46b9a0c56ae0d29704f2d2b636dd4fd61045f114
