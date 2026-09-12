@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 12 Sep 2026 12:29:08 -0000
-Message-Id: <178921614846.2838666.13706745918646889806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Sat, 12 Sep 2026 12:30:23 -0000
+Message-Id: <178921622312.2841108.365108647214147069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/tags/erofs-for-7.3-rc3-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 46b9a0c56ae0d29704f2d2b636dd4fd61045f114
+  - ref: refs/heads/rev
+    old: 60b6aa515299ec24f6e994298cfe2191145aff8a
+    new: 1e3cc8a665d0a82240567ea733b08fd9508c731f
+    log: |
+         6462dbd95ec357445c63ec62b633b12d59975cf1 revocable: Revocable resource management
+         3f486bb3dc169d5513d243e2ba0ee893c03d9b49 revocable: Add KUnit test cases
+         1e3cc8a665d0a82240567ea733b08fd9508c731f gpio: Leverage revocable for accessing struct gpio_chip
+         
