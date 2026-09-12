@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6890728705959248924=="
+Content-Type: multipart/mixed; boundary="===============0249788375163341651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 12 Sep 2026 09:46:13 -0000
-Message-Id: <178920637399.2721219.4159799874711548504@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 09:46:16 -0000
+Message-Id: <178920637677.2721433.11832601688324844407@gitolite.kernel.org>
 
---===============6890728705959248924==
+--===============0249788375163341651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/microchip-defconfig
+  - ref: refs/heads/microchip-dt64-fixes
     old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
     log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============6890728705959248924==
+--===============0249788375163341651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6890728705959248924==--
+--===============0249788375163341651==--
