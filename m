@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7173360411408736645=="
+Content-Type: multipart/mixed; boundary="===============2460492893277044351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Sep 2026 06:10:11 -0000
-Message-Id: <178919341169.2555528.6969584892704110834@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 06:10:39 -0000
+Message-Id: <178919343958.2556229.470565266391906381@gitolite.kernel.org>
 
---===============7173360411408736645==
+--===============2460492893277044351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3d4279fce2cfb39dfa3477dd4fa5d484e98bfcd2
-    new: e6182f9c3446ab72603235458728a7a0eb894f6a
-    log: revlist-3d4279fce2cf-e6182f9c3446.txt
+    old: e6182f9c3446ab72603235458728a7a0eb894f6a
+    new: e295e8fe1883146a400aedf7861cee05632246a6
+    log: revlist-e6182f9c3446-e295e8fe1883.txt
+  - ref: refs/heads/tip/urgent
+    old: dafa99e678822d2ce214fdf0d9973b23efd7b35a
+    new: 9476cfa390d6fb3e3284433ddfe2f507ac5a7d54
+    log: revlist-dafa99e67882-9476cfa390d6.txt
 
---===============7173360411408736645==
+--===============2460492893277044351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d4279fce2cf-e6182f9c3446.txt
+Content-Disposition: attachment; filename=revlist-e6182f9c3446-e295e8fe1883.txt
+
+87131c5aca1bb9ec1bb243a667a815b38fdcd4d1 Merge branch into tip/master: 'core/urgent'
+0c9fb5a8ab01a0533bf969120c04cf81e40163e2 Merge branch into tip/master: 'irq/urgent'
+c0a9b283109761d2620e41759bcfd0da831f0c08 Merge branch into tip/master: 'objtool/urgent'
+ba2553f0b31af5fe37010a0cda30a61d1ffe4e33 Merge branch into tip/master: 'perf/urgent'
+8a1cd84de0f7e72dc8bedcf9c4150676d8e9e2c2 Merge branch into tip/master: 'sched/urgent'
+3c154e78feaafce4b5967b9994d0095ed58a9f17 Merge branch into tip/master: 'timers/urgent'
+624a04a5d95cf3356631f4043804a853f6abaa2e Merge branch into tip/master: 'x86/urgent'
+9476cfa390d6fb3e3284433ddfe2f507ac5a7d54 Merge branch into tip/master: 'x86/mm'
+ed88f9f189a6af250ab89db36ada1ca5ac237c0d Merge branch into tip/master: 'irq/core'
+f3e339eaa179a9536bc6826cadc726fc4592dae3 Merge branch into tip/master: 'irq/drivers'
+41722b08c7788af95e7b0d509226c6fbbb564716 Merge branch into tip/master: 'perf/core'
+6cee72fe87902bdabe8025828ca70df7e105d08c Merge branch into tip/master: 'sched/core'
+089a0e8d645f108dfa436f999729c13a98691ba7 Merge branch into tip/master: 'x86/boot'
+e69187ec94b7b81a095d9670ffb69ab2e10e6f38 Merge branch into tip/master: 'x86/bugs'
+08bce4a86eaacf96a8819febb7dd0e61c551dbc4 Merge branch into tip/master: 'x86/cpu'
+645ee789e2ff9c95224cbec9d326ed0c0a2f292f Merge branch into tip/master: 'x86/kdump'
+4c1a75286ebacf817a52d9b5ed7af4713e322940 Merge branch into tip/master: 'x86/misc'
+f58c2928ceca60bc2d50ff1b278a56a217b818f1 Merge branch into tip/master: 'x86/sgx'
+e295e8fe1883146a400aedf7861cee05632246a6 Merge branch into tip/master: 'x86/tdx'
+
+--===============2460492893277044351==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dafa99e67882-9476cfa390d6.txt
 
 173cb3147ba26449e6023df56f9bcd34ce6d1c3b ASoC: tas2783-sdw: split a stereo stream across the two mono amps
 a1530ef451f53b63dcf4a2805a5524b590a146ad media: rppx1: describe the MAIN_POST white balance gains block
@@ -204,7 +234,13 @@ d5d6c9d244c6d447c356df70d5c754b145dccd5c Merge tag 'media/v7.3-2' of git://git.k
 0fb234ce373a331a21c1d33cffef28e53cee4ddb Merge tag 'spi-fix-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 114f73092b5d1bbea2554a6a784f5ebb53d47bdb Merge tag 'regulator-fix-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 5225b8eec4c9bb21aecff6295fab6346a3c3738e mailmap: update entry for Jens Axboe
-eb7f5879fd3f0ff90f78f2f15f23b99826a5fa3d Merge branch into tip/master: 'timers/urgent'
-e6182f9c3446ab72603235458728a7a0eb894f6a Merge branch 'linus'
+87131c5aca1bb9ec1bb243a667a815b38fdcd4d1 Merge branch into tip/master: 'core/urgent'
+0c9fb5a8ab01a0533bf969120c04cf81e40163e2 Merge branch into tip/master: 'irq/urgent'
+c0a9b283109761d2620e41759bcfd0da831f0c08 Merge branch into tip/master: 'objtool/urgent'
+ba2553f0b31af5fe37010a0cda30a61d1ffe4e33 Merge branch into tip/master: 'perf/urgent'
+8a1cd84de0f7e72dc8bedcf9c4150676d8e9e2c2 Merge branch into tip/master: 'sched/urgent'
+3c154e78feaafce4b5967b9994d0095ed58a9f17 Merge branch into tip/master: 'timers/urgent'
+624a04a5d95cf3356631f4043804a853f6abaa2e Merge branch into tip/master: 'x86/urgent'
+9476cfa390d6fb3e3284433ddfe2f507ac5a7d54 Merge branch into tip/master: 'x86/mm'
 
---===============7173360411408736645==--
+--===============2460492893277044351==--
