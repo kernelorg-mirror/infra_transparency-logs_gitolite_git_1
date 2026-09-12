@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5536145586544764281=="
+Content-Type: multipart/mixed; boundary="===============7835896219737561227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 12 Sep 2026 03:15:57 -0000
-Message-Id: <178918295713.2380193.10513872308897291807@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 03:16:00 -0000
+Message-Id: <178918296006.2380392.15864503096628084800@gitolite.kernel.org>
 
---===============5536145586544764281==
+--===============7835896219737561227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.2-fixes
-    old: 1fbe862b9bd1672e2d89e6fdce048d64bbe4c324
-    new: 7198a1ee2deff96869704e109656ccbb6072a532
-    log: revlist-1fbe862b9bd1-7198a1ee2def.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-testing-canary
+    old: f954250b37e54bc9bcec796b85a8862c565fa048
+    new: 1f51b113878d2df16f5cb3550831775cf8c2b110
+    log: revlist-f954250b37e5-1f51b113878d.txt
 
---===============5536145586544764281==
+--===============7835896219737561227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fbe862b9bd1-7198a1ee2def.txt
+Content-Disposition: attachment; filename=revlist-f954250b37e5-1f51b113878d.txt
 
 9fe3353ca5215f78fb112b8b2e2def468e208f89 NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 e56b516ebf2f7e6bc7d31770ed5860f867aedc76 nfs: use nfsi->rwsem to protect traversal of the file lock list
@@ -42,5 +42,10 @@ d875345be68bb0edceb479838b0306bedaebf2ae NFSv4/pNFS: reject zero-length r_addr i
 3f0da7b72b562e1b00f83307d873d4aa53197a9e SUNRPC: pin upper rpc_clnt across the TLS connect_worker
 143b1cfe111e531335bfee3cbb13e632087ab2c0 NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
 7198a1ee2deff96869704e109656ccbb6072a532 NFS: Charge unstable writes by request size, not folio size
+7f8848f4719ddda0a360c03fadcbd70accdce315 NFS/localio: issue IO inline when not in a memory-reclaim context
+d9d8281eb10c739d6704fabcbff484eb739937a8 NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
+0cde9f4b52aa05a3570e5d864db15800ebadd14d NFS/localio: issue commit inline when not in a memory-reclaim context
+75e211c34f8f6f2a19cec0b57c29f722ca2da6f1 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+1f51b113878d2df16f5cb3550831775cf8c2b110 NFS: defer the final superblock deactivation
 
---===============5536145586544764281==--
+--===============7835896219737561227==--
