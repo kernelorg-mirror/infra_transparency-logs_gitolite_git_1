@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1255893854937223154=="
+Content-Type: multipart/mixed; boundary="===============2625635766783597690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 12 Sep 2026 06:01:14 -0000
-Message-Id: <178919287404.2547861.15365986016271805243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Sat, 12 Sep 2026 06:05:00 -0000
+Message-Id: <178919310075.2549397.2282868529058062048@gitolite.kernel.org>
 
---===============1255893854937223154==
+--===============2625635766783597690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 5dee5e1da90ed9a7a7950203f75516e346446382
-    new: 0ac002a7f630f37c0dbe9a423348b224e2c77c35
-    log: |
-         0ac002a7f630f37c0dbe9a423348b224e2c77c35 6.18-stable patches
-         
+  - ref: refs/tags/powerpc-7.3-3
+    old: 0000000000000000000000000000000000000000
+    new: ef51dd832ab1238ca34b3e04d615e6b147900db1
 
---===============1255893854937223154==
+--===============2625635766783597690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789192866 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1789192871-cbd0e53f07fe5b474f4293102824d838f8fee016
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1789193166 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1789193097-51dc29ab3bedaf95aef13902dbfcd74182d1db0c
 
-5dee5e1da90ed9a7a7950203f75516e346446382 0ac002a7f630f37c0dbe9a423348b224e2c77c35 refs/heads/master
+0000000000000000000000000000000000000000 ef51dd832ab1238ca34b3e04d615e6b147900db1 refs/tags/powerpc-7.3-3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqk6qIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GYEQAIiuY77K3ucol7Q/EU84
-piNZC8gFE+uOu2pqZVuvdI56AU3/xL6PB/5U3OIBmAJtSWyj5NKEU/qtXGuFf5Lo
-Y2ncvsOXaW+qUa+aa1/5ZvrtHynXPLIJ3zfgKMEt5/MtsjHhNZjaNVx/v92Qk2Z+
-61xuOsTUl0lquo1oi1PLFRIU3ti+gJh+si2O+HjWs2ZyHGOKlPg+8sMrFlEDTFef
-gacdC22hObeAcjWdPLrfLZk7IqDBw8Gel9gKavQX1KPoT2zWKFnYTT7m5mkOqFS8
-kF2YQ7fDvU9CwmCFwUru/klNWQrmtiw3z3YGJlwMR7cb0KBwtkczIYRvqsnsFBKd
-Alfogw/n64ofZwDy3arrz75sUdB2XlGVSbFSbNaGq0ofzbYKnbJurzDT+Aynhp+3
-ArJlH/2idzdZWb1GoduV0HgdvXaFHviVx0tFVlOy3AAVRgv297LWawFcOPTRUyCj
-fkCOz99wVstdvkDxa0FBzzPGgaCfOSWnp7GOOlcq7Hq8ykhhQEEGBdJ8ymk3Nkrr
-MZU/0oXhtoL+1jZKCutiJf38hdeVAtB5f/EEBOuHGZvCTiUxVfF8XZHzBpxBypuO
-l6vxumr6/n6OsUcWdLazrzmEIiimw/LSPqJrf7N8Phaewo+prrc+RJB2hh8vHjHV
-XAeKWtPaYLhVUZNMuTxt87ba
-=WDKM
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmqk684ACgkQpnEsdPSH
+ZJQGoBAAntjpy/mFAy9Em0z3b9Dp9B4fr0AAvSb8BOVrw9PnAGk8y+kRDUbBeL5C
+0DfT9W4VUxaof+6Rvva4Wyv5KJwsi0gZ011a9l3Imq+mqKHpwIpm+L9m8kFSKE4Q
+KeZeXvlOPMc/tebVMLpHhKc6yDA7oC1wowiJcqz4J79tPSxXYCAIVmUr9IZIFD8/
+pTJ9+dUB5WEh3LjIFHv/4Z7s6N7lHRD+ckrvPUtjts5RAfCYTl6s/Q9axFisuKVZ
+4YG03kKRyE7iHGrlmv+sN7zKHB79hDZR4OewH9LHLJ8xkR3umbiC2lyOIsMBAf9b
+fIL+5yEx/w5qOmymVLQPdSHeFLNDz72tX8LLB7WXhbCu0Bufxpr13UWx6ZyxopFT
+pJLeQzzoNdLdc/IDSgzGVdauOFbH1/i4Af5Wks0ls+H+kcHiLkZvvIGZ5/88O22V
+E/8a3j7zDtElZC8Q2jnpACnUauqfzXkzfg0ZmLGs2V+h73/w5dytepG6Mp3amCW7
+SGTbSIdaIURCLTm4kQ+oOB0nPLNSOa4VOopUyJHcgFihFEKOFbLsb+fTVywqpGvN
+nD31zcBcqYkKPiYaQCKuwoswiXz9KNElR06NTr/vs5qR/X9tIqZkWoqOn+YpRwUg
+/iHqEvZkxItH5/rqvOmR4egiiNBVsC0/H4S3N8i70+rGPhOBN8o=
+=QwVG
 -----END PGP SIGNATURE-----
 
---===============1255893854937223154==--
+--===============2625635766783597690==--
