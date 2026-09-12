@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4821628109099169089=="
+Content-Type: multipart/mixed; boundary="===============7303437611109336742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 12 Sep 2026 03:19:21 -0000
-Message-Id: <178918316144.2382335.647871264227839359@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 03:19:26 -0000
+Message-Id: <178918316683.2382600.15457599782662924902@gitolite.kernel.org>
 
---===============4821628109099169089==
+--===============7303437611109336742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: c1ff425d625eb2a4d2967e9889b85f202f24eb5d
+  - ref: refs/heads/for-next
+    old: 1b7415bf70be95b9a1e7e87d544867881065613f
     new: 3672c60cd1633dbed7a2ea5fd0ebc27cb947b773
-    log: revlist-c1ff425d625e-3672c60cd163.txt
+    log: revlist-1b7415bf70be-3672c60cd163.txt
 
---===============4821628109099169089==
+--===============7303437611109336742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1ff425d625e-3672c60cd163.txt
+Content-Disposition: attachment; filename=revlist-1b7415bf70be-3672c60cd163.txt
 
+e62c5b97d6c4c657d6fad7dd3523fda33a936979 libbpf: Fix array comparison in BTF dedup
+208637af0dc2ddad0e0d96dbd02b961a2cb6fd8a selftests/bpf: Test array element comparison in BTF dedup
+af0b84a9215d951d16f26b7ee34353b970cf5d4e Merge branch 'libbpf-fix-array-comparison-in-btf-dedup'
+a4c6292256f1172aaed795af9e0dbd2aab6de6ec libbpf: Defer arena map size check to load time
+88c9c6d0a766dd146545990053e8a04422ccb367 bpf: Fix program BTF use-after-free in sleepable programs
+34b9bde8eea76c7b28cb64cd1bc06b06f3dd18fb selftests/bpf: test_xsk: Fix spelling mistake "conigure" -> "configure"
+cf95f22a06b22fc5ecf02bd60faece12e6f2d62b bpf, docs: Fix two struct names in btf.rst and kfuncs.rst
+c1ff425d625eb2a4d2967e9889b85f202f24eb5d bpf: btf: Make alloc_obj_fields array const
 6523af719a2156e1827083c3af4ba718ef862366 bpf: Pass call metadata through shared argument checks
 47f4215b8b5486fd85dd7993ae12a989a7ac8db6 bpf: Address check_func_arg() arguments by argno
 d18bcf4537e028c532a5d6838605df070cc1c6fb bpf: Only compare func_id against BPF_FUNC_* for helper calls
@@ -51,4 +59,4 @@ b472f03e3141319f44c59b047f5667b29fc5f66e bpf: Consolidate helper and kfunc PTR_T
 ab7fff217fd14ec1b3e1a25665ba282f8c91ed6a bpf: Check helper and kfunc arguments in one path
 3672c60cd1633dbed7a2ea5fd0ebc27cb947b773 Merge branch 'unify-helper-and-kfunc-argument-checks'
 
---===============4821628109099169089==--
+--===============7303437611109336742==--
