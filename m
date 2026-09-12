@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 12 Sep 2026 17:32:27 -0000
-Message-Id: <178923434708.3057177.12153652297215932082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 12 Sep 2026 17:59:51 -0000
+Message-Id: <178923599186.3075097.1610610427563727446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nsc
 changes:
-  - ref: refs/heads/master
-    old: ac781acaef4904b9be64a7b5755c778e5d76ede6
-    new: 85136bf22404474a815fc0ed26ec0d1cbc1bc3f9
+  - ref: refs/heads/kbuild-fixes-for-next
+    old: b99d1f5036d83fe58164e154f91656caf5d32d60
+    new: 7cdffe4393d1d32d8cfdf95614d3543c8fbf722a
     log: |
-         85136bf22404474a815fc0ed26ec0d1cbc1bc3f9 bpf: Avoid soft lockup in __htab_map_lookup_and_delete_batch()
+         830331afeb6a9997eb0b2eac2f863f6525398133 scripts/mksysmap: drop the MODULE_INFO() symbols from kallsyms
+         7cdffe4393d1d32d8cfdf95614d3543c8fbf722a scripts/mksysmap: fix escape of '$' in the __pi_ pattern
          
