@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 12 Sep 2026 19:53:24 -0000
-Message-Id: <178924280478.3157920.5906121217967137413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 12 Sep 2026 20:34:07 -0000
+Message-Id: <178924524752.3185270.12504855259861514143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: df2908090cda368b01ff43709f51890076c56157
-    new: ac84978bfd0f23f1cc519f4c62e3f5d0d7002073
+  - ref: refs/heads/master
+    old: e51430ad02732c140f41e470084cb4a71c67ccbe
+    new: d128ec6362ffc7e0dfa512fa651ef0429757aeaa
     log: |
-         4a7f89c8e7973558c13c3e5fde752824c6649f8d parisc: fix typos in comments in pdcpat.h
-         f031cacf0e2fbc5d3c5b7fa0d0fc5408b12cbf9e parisc: fix typos in comments in special_insns.h
-         21dbdf59a10c6952615b895c69ed09e260454e68 parisc: fix typos in comments in mman.h
-         a3e4e2f737987e54e5aad21ce581b5969c91e8d4 parisc: fix typos in comments in memcpy.c
-         b1b2cae001512cc4e4b80b47b3b20895babbcef6 parisc: fix typos in comments in ccio-dma.c
-         07937aae4ef7f99f65bc7f38dec23d8302946af3 parisc: fix typos in comments in dino.c
-         bd10d6a8cfb4f02cc1827aa56c76adb202989225 parisc: fix typos in comments in pdc_stable.c
-         250f7c9abf7ac76bbf94c3a683f39be3b1832290 parisc: fix typos in comments in sba_iommu.c
-         ac84978bfd0f23f1cc519f4c62e3f5d0d7002073 parisc: fix typos in comments in parport.c
+         d128ec6362ffc7e0dfa512fa651ef0429757aeaa foo
          
