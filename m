@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8049815614661600454=="
+Content-Type: multipart/mixed; boundary="===============1585817680768732509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 12 Sep 2026 16:49:41 -0000
-Message-Id: <178923178170.3025089.2956844417496717762@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 16:49:45 -0000
+Message-Id: <178923178586.3025192.17110337518313656263@gitolite.kernel.org>
 
---===============8049815614661600454==
+--===============1585817680768732509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9958290885035431e2494159f555e332c3c14906
-    new: 383fc05d4650b021f3c17e36a145106dcc61a294
-    log: revlist-995829088503-383fc05d4650.txt
+  - ref: refs/heads/mm-unstable
+    old: 32c05737b1600fe30da795aea3a3bd9efe47dec4
+    new: e2e54005e20fb42d4a5e140d70a65be4a2363045
+    log: revlist-32c05737b160-e2e54005e20f.txt
 
---===============8049815614661600454==
+--===============1585817680768732509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-995829088503-383fc05d4650.txt
+Content-Disposition: attachment; filename=revlist-32c05737b160-e2e54005e20f.txt
 
 278c157821fe7352330da22fbf651d236d20be9d selftests/filesystems: fix missing and stale TARGETS entries
 16cc5c70054c6f76454234a0276ebfeb44772ff0 module: fix lost error code from codetag_load_module()
@@ -412,64 +412,5 @@ da67e295b27745ca129120bef6f856801af6e2ab mm/zswap: enable zswap_ever_enabled in 
 4e6213e2367d864d50b2e47d689c265e56cbc913 mm/zswap: release retired pools via queue_rcu_work() instead of synchronize_rcu()
 513d78185ac20e394d385c812153d470ab5c1716 mm/zswap: replace the zswap_pools list with an allocating xarray
 e2e54005e20fb42d4a5e140d70a65be4a2363045 mm/zswap: reference the pool by id to shrink struct zswap_entry
-46dee418eff62cddd6beef27cfa6559ed888bb11 mm/damon/api: introduce DAMON_FILTER_TYPE_PGIDLE_SET
-65d976c07ed29fc87b269783596da95269a6c502 mm/damon/paddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-e9c7d63a10be306ef601424be04095ba1119f430 mm/damon/vaddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-3b46aa42a0cbf733a2141e10e8adf60d1f10f2c0 mm/damon/sysfs: support DAMON_FILTER_TYPE_PGIDLE_SET
-8fedc773cc6202e860a938c5043a0bc8afff1a6c Docs/mm/damon/design: update for pgidle_set probe filter
-65917bceea0ff678b3cca6acf2dabfde029f6d53 mm/sparse-vmemmap: introduce CONFIG_SPARSEMEM_VMEMMAP_OPTIMIZATION
-9c67a676d52a90a7f47deffd72599349897e841d mm/sparse-vmemmap: factor out shared vmemmap tail page allocation
-03a3deb7b435119f420fd91e5de98145cc51f9b7 mm/sparse-vmemmap: open-code init_compound_tail()
-b2c7e2daf592452961c62b90386cb8f121bc7d4a mm/sparse-vmemmap: prepare DAX vmemmap population for compound page orders
-5bef7eea1e114f6a91742b1356a5b43cc66476f0 mm/sparse-vmemmap: set compound page order for device DAX
-05615a35bc992d7bfe9ba8e5f53d0c0635328164 mm/sparse-vmemmap: switch device DAX to shared tail vmemmap pages
-2f5665b4325a5ec0b74d06e48f117d3911b3aa20 mm/sparse-vmemmap: move vmemmap optimization helpers to a public header
-1ce659c0f9be8872605d33906c1b1d9e9eb262df powerpc/mm: switch device DAX to shared tail vmemmap pages
-426120645937b841a535c018768897517a6d0fa2 mm/sparse-vmemmap: drop the extra tail page from device DAX reservation
-ae03a337941d065f9def8728629024c2d10fd0f3 mm/sparse-vmemmap: drop unused section_nr_vmemmap_pages() arguments
-0979898b33ed83325e55038851dc1530d0fbb5d5 Documentation/mm: update DAX vmemmap deduplication docs
-41b2db999c15eb0dac5b2ce54fe68c8afeb90edd writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
-415b92d1b732b0eed8e17ba3c3b5e23259f5d9a9 mm/hugetlb: preserve mremap address delta when skipping page tables
-93ce6443fb624736bd126fee0ded2d8072096e43 lib: fix lock initialization in region allocation benchmark
-d2dd3073fb663093d64dcd4120d7b1bb9314b0d6 kselftest: mm: fix potential failure for merged VMA in guard-regions
-b66db304e2e57f0cc60bcfdb3780a1a35089407f mm/damon/api: introduce DAMOS_FILTER_TYPE_PROBE_HITS_WSUM
-7123d2a90e6d9b728cfddc18bf9ccd84f57f2d94 mm/damon/api: clarify DAMOS_FILTER_TYPE_PROBE_HITS_WSUM behavior
-a5b8f304ff758230852394961e40b2d434fa4e68 mm/damon/core: extend probe_hits_wsum() for moving sum based calculation
-5319aee07a0db5db5e6bd655121cdeecd7f3d428 mm/damon/core: support probe_hits_wsum damos core filter
-1b3506e2688eb21c6de8a4c37f2676d75bd2be60 mm/damon/sysfs-schemes: rename sysfs_filter->sz_range to range_{min,max}
-62d111aa8d3acc98ba1f8b4d1a2b4413682a544f mm/damon/sysfs-schemes: support probe_hits_wsum damos core filter
-2ab780b212b30e92899b60ebf6efeed446c1ee31 Docs/mm/damon/design: update for probe_hits_wsum DAMOS core filter
-4a594eee5ab6a50a1a4918c24925ecb964f73e35 Docs/admin-guide/mm/damon/usage: update for probe_hits_wsum DAMOS filter
-2010ecbf0d69a4c93d5cf6534ad51069695440de selftests/mm: skip khugepaged file tests if mkfs.xfs is unavailable
-7ed26dd0629d9c8dbb170bd4529200ccdabd82c9 mm/mempolicy: use vm_normal_folio_pmd() in queue_folios_pmd()
-0ac2d28bbdfc9a8759153cf5e1bf9ee08e1b19c4 mm/madvise: use vm_normal_folio_pmd() in cold/pageout PMD range
-c5d1f7d6ae4d5af801a3ff2c1add50f0a6eb36e6 mm: refactor find_next_best_node to find_next_best_node_in
-1ef2323f68520a5c7350a1774f7d9f8c08d66102 mm/page_alloc: refactor build_node_zonelist() out of build_zonelists()
-b6b915aeb086daf89e518b00e260fcc284f078af compiler.h: add ASSERT_STATIC_STORAGE()
-f64e46661851e609b153d0edc5bf4c39ff44a3de idr: assert static storage for DEFINE_IDA()
-13226ea62ac1fd57c206cd05a14070ec92ff5bdb maple_tree: assert static storage for DEFINE_MTREE()
-4095802c657d17ace09ced04dfa98bbeba7a33d6 kselftest: mm: remove exclusion of building soft-dirty test in arm64
-d1f10378e7fa143fd758e8e3e421428e9598d711 proc/task_mmu: remove unnecessary helpers
-2a61a4b80dc01581dc9f6935eedefbd596e77409 proc/task_mmu: remove unnecessary inlines in function definitions
-c254af1c80675f6a52e6c98b924932af1e01eef9 proc/task_mmu: clarify shmem mapping walk conditions in smap_gather_stats()
-143ffc016ffd1875032193be078d243d8fb3dcb2 proc/task_mmu: remove special-casing of smap_gather_stats() start parameter
-925f8857dfe57400ac6cfa4128df7131679a7e67 proc/task_mmu: change proc_get_vma() to stop returning gate VMA at the end
-69a7a3a45cf34c8bcc7552221d1ee62b001ec2a1 proc/task_mmu: read proc/pid/smaps_rollup under per-vma lock
-314a09383524adccdfc47d8f4969fa9368df58ae selftests/proc: add /proc/pid/smaps_rollup tearing tests
-865d539f9e096ac62b4efa1c9d7659d1dda61027 selftests/mm: fix soft-dirty kselftest supported check
-1a7ff8406162d3dc967471ff237057682bf71b83 riscv: mm: fix concurrency in mark_new_valid_map()
-09d6616e9bcc58b214e84426a82bc44c08aad6da riscv: mm: exclude invalid THP PMDs from page table check
-bb8f17180a721d3f27e53b6bfc0317e0c109c6ea sh: remove CONFIG_NUMA and related configuration options
-482412fd244ac929dd077520b169b88e55a8f17a sh: mm: remove numa.c
-e68ea36a68ec3b204cc4a2e179cdf94951a100b1 sh: mm: drop allocate_pgdat()
-2e9fa213497d8d6e45ff4635c95b6a9d7e103d5d sh: remove setup_bootmem_node() and plat_mem_setup()
-f45332dc95626b49f9763c265f9a5b7af63e85e0 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-153f71b4288a292857ba365970d1a1e4d9d7bf76 sh: drop include/asm/mmzone.h
-c79a68fbb1dfe5db0e1eced921b8a2801c04271e init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-0c48c6051e3cfd56bd5573f8931f26e5f38a667a sh: init: remove call the memblock_set_node()
-2d752c4ac31bca609bf5ec8d5518cac1baceebe0 sh: remove SPARSEMEM related entries from Kconfig
-6b0321448416d7c4f5133383e454be33403ed3b8 sh: drop include/asm/sparsemem.h
-490ca650dfa53937b628cd3a9f819b1279046d66 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-383fc05d4650b021f3c17e36a145106dcc61a294 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8049815614661600454==--
+--===============1585817680768732509==--
