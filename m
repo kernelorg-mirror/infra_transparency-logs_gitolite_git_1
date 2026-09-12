@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Sat, 12 Sep 2026 07:07:42 -0000
-Message-Id: <178919686278.2605055.17270156325246106466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/xfstests-dev
+Date: Sat, 12 Sep 2026 07:09:04 -0000
+Message-Id: <178919694473.2605689.2830989474426517900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+repo: pub/scm/linux/kernel/git/chao/xfstests-dev
 user: chao
 changes:
   - ref: refs/heads/wip
-    old: a1f6ff39138e967f0c005daa40b57e0bf9d1d032
-    new: 774687fcd614c335b3e9302c0a02a8090d031b27
+    old: 2354214786e5242935c6b0b0e2fc6eb82dae211c
+    new: 8d04ed34a6842cd901d240950456c0df5b5a2fe4
     log: |
-         a248940b23585f1835548f4155de52bfc4c3dbc7 fsck.f2fs: do not repair quota file in dry-run mode
-         f4513aa889cdac840c50612c885566c95151495a mkfs.f2fs: enforce alias_filename to match device name
-         c00cc3c7b177571cbb9fe457d11bbeefe9cf2dd5 fsck.f2fs: fix to maintain ckpt_valid_blocks correctly
-         b70540e5730910d5359c4060158b7a7ca64d4a4a fsck.f2fs: fix to avoid selecting current section in find_next_free_block
-         774687fcd614c335b3e9302c0a02a8090d031b27 fsck.f2fs: fix heap-buffer-overflow in get_dnode_of_data
+         5e260114f3e61187a33d516c340c7bf4761b31ad f2fs/009: fix race condition in orphan inode test
+         975ef14d797affecdefe02fc584af85d22c1a0ab fsx: check pwritev2(,RWF_DONTCACHE)in test_dontcache_io as well
+         bc3710174873d8997b34edf42346ff408e22ea1b f2fs: add testcase for GC and atomic file eviction race
+         8d04ed34a6842cd901d240950456c0df5b5a2fe4 f2fs/030: test recovery w/ sqlite transaction
          
