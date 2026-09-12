@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0249788375163341651=="
+Content-Type: multipart/mixed; boundary="===============2800032448435202512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 12 Sep 2026 09:46:16 -0000
-Message-Id: <178920637677.2721433.11832601688324844407@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 09:46:20 -0000
+Message-Id: <178920638019.2721651.10665703964299851104@gitolite.kernel.org>
 
---===============0249788375163341651==
+--===============2800032448435202512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/microchip-dt64-fixes
-    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+  - ref: refs/heads/microchip-dt64
+    old: 8258a4bcfaa9ded9b19b3c230ed85df44d580935
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-dc59e4fea9d8-cee9395acd80.txt
+    log: revlist-8258a4bcfaa9-cee9395acd80.txt
 
---===============0249788375163341651==
+--===============2800032448435202512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-8258a4bcfaa9-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============0249788375163341651==--
+--===============2800032448435202512==--
