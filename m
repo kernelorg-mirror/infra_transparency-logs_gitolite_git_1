@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 12 Sep 2026 08:43:51 -0000
-Message-Id: <178920263133.2674747.2697621081047620410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/baohua/linux
+Date: Sat, 12 Sep 2026 08:43:58 -0000
+Message-Id: <178920263801.2675027.6155043241603593128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/baohua/linux
+user: baohua
 changes:
-  - ref: refs/heads/master
-    old: d3a93bcc35095c4c3e2c4439d636877d4a07cc3b
-    new: e51430ad02732c140f41e470084cb4a71c67ccbe
+  - ref: refs/heads/kairui_scanbalance_0.2
+    old: 02e69c02e091cdbf8cff71a73d5eff7509322130
+    new: d46e4e3b0c9ace3f640f30c8d70ff64ef07dc988
     log: |
-         e51430ad02732c140f41e470084cb4a71c67ccbe foo
+         d46e4e3b0c9ace3f640f30c8d70ff64ef07dc988 mm/mglru: Avoid getting stuck with swappiness=200 for a long time
          
