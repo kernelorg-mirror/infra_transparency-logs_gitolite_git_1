@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8229830828781930738=="
+Content-Type: multipart/mixed; boundary="===============0575643308227148667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Sat, 12 Sep 2026 16:04:23 -0000
-Message-Id: <178922906399.2990248.17815957570935918620@gitolite.kernel.org>
+Date: Sat, 12 Sep 2026 16:04:54 -0000
+Message-Id: <178922909487.2990606.6987664505371186280@gitolite.kernel.org>
 
---===============8229830828781930738==
+--===============0575643308227148667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: f8e7fa7a51b3f288f6cb6e5a87de7e4a18c613da
-    new: 31f10cf6851d13eca3c2631750e3eed1160491d8
-    log: revlist-f8e7fa7a51b3-31f10cf6851d.txt
+  - ref: refs/heads/export-net
+    old: 49a6291009f8637003e43fb320da710d13f5e0d3
+    new: 396732d03b8d962276cc5320c6997b9939343937
+    log: revlist-49a6291009f8-396732d03b8d.txt
 
---===============8229830828781930738==
+--===============0575643308227148667==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f8e7fa7a51b3-31f10cf6851d.txt
+Content-Disposition: attachment; filename=revlist-49a6291009f8-396732d03b8d.txt
 
 94579f24e2b526a04eb41050af0ba018c6f528e7 drm/virtio: Fix a NULL vs ERR_PTR() bug in virtio_gpu_user_framebuffer_create()
 d96504ea631874220d89c455d735da51a796ead0 drm/virtio: check return value of vgdev_output_init()
@@ -108,18 +108,6 @@ c46cc9cee39bd6f395ab9ac98b1794705df13d7c scsi: ufs: ufs-pci: Add MCQ support for
 d5869dae5080e976d4b03cc33eb7ceb527f242bf scsi: target: iscsi: Fix hang for aborted WRITE_PENDING commands
 28d75dd3eb60812b3a87cbdf0d52c42f51b28a78 selftests/bpf: Bound the offset accumulator in __tld_fetch_key()
 a155ac8f0c523bd53f412196dcbb104ad1f4595f interrupt: Disable interrupt before modifying hardirq_disable counter
-3273a5cd2d7445e90bcb0851fbb5b7f1f72192be batman-adv: tt: look up wifi state of incoming interface in helper
-defa87f5ce75fee9d8d1f401b95f5ece7418de7e batman-adv: tt: extract allocation of new local entries
-a5e5d2709d1001279093fd298101eb9d875a8ba0 batman-adv: tt: replace forward gotos in batadv_tt_local_add()
-ec6edeb755ece64abf9645aaf7b7058190d35ae6 batman-adv: tt: extract refresh of existing local entries
-d72e16b1c5d527220fb21530d1728de9beb741ef batman-adv: tt: extract update of dynamic client flags
-d9017aeb40c1386920248781d24aa8823e6894ba batman-adv: tt: extract allocation of new global entries
-b535e61347ba4a5e4558d4bb1c12eebe0a60f712 batman-adv: tt: extract merging of flags into existing global entries
-3f8e8b42f639a0f5c5b699d532f616128f5e2260 batman-adv: tt: replace add_orig_entry goto in batadv_tt_global_add()
-228c70d51b10e1ee1ddc4313218b9c7f8567d5cd batman-adv: tt: extract removal of the superseded local entry
-5e02403a4c2eb66ecd1db3e6c4ea4792cf72ad57 batman-adv: tt: extract marking of a removed local entry
-931de98d3960d220027bdc82ebbea3ea55f7ad66 batman-adv: tt: extract immediate purge of a local entry
-926013fd40f6822ada063df8f82025d3a4a47e5a batman-adv: tt: drop the cleanup label from batadv_tt_local_remove()
 2af470916a208b576ac9975d221d9a378cf8ace9 preempt: Remove hardirq_disable_count()
 aab55360fa11a2c054798a484ac67ad606f563e4 watchdog: sunxi_wdt: preserve boot-enabled watchdog
 e3eceb76515910746e6268c4e4ac1c07516ebd7b watchdog: msc313e: Fix NULL pointer dereference in PM callbacks
@@ -546,9 +534,6 @@ bf979ab8f24657ebc6193183cfef1669029e84a5 Merge tag 'staging-7.3-rc2' of git://gi
 d3cbb9af7242873aae6fc2b7e8a991101a322201 Merge tag 'tty-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 b485131995544741ba6dcc313d7eb573bca7bebc Merge tag 'irq-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c8990f3179e5636832fc22e6a262de5d50c797e3 Merge tag 'locking-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-857fbd765c65bb7de018f7bf44f565e6125d785e batman-adv: tt: clarify kernel doc for batadv_tt_local_set_pending_event()
-271f3730fc8756037b51ff1a16950cd8797766a2 batman-adv: bat_iv: fix ogm_neigh_is_sob parameters references
-6d7f71ae4cdcbb22f541638057299fe26c451e65 batman-adv: correct batadv_hash_remove kdoc return type
 c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 88405f0ad1d5c680afe3ea0ce9345fa9e1deaac8 Merge tag 'sched-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
@@ -635,25 +620,12 @@ d876c9cb2d16ed259449fe9da08c37a5cb81d724 net: ethernet: mtk_eth_soc: populate lp
 7addb4e5ef1702704914b47bca3f706ef96c1589 Merge branch 'net-restore-eee-on-mediatek-switches-and-soc-macs'
 125755776bc6d4dd53eaf551c87e3d460625d638 tcp: reject non zerocopy devmem tx
 ccbe7540e4aad0d1c3acc249697350b93ccb8025 net: phy: mediatek-ge: disable EEE on the MT7530 PHY
-ae768e41c03e865ec55a70ff1020a18a83976955 Octeontx2-af: Add WQ_PERCPU to alloc_workqueue users
-10ca508878b6c0342639b85534ee914edfd0b2a0 net: phy: air_en8811h: select LED GPIO pins based on AN8811HB package variant
 985a663bf00799c1daf1c5789efa6406958780c8 net: net_failover: Fix the deadlock in net_failover_slave_name_change()
 4f4b743c2d2bbc336cb164d9d3d2ed6956ad8437 octeontx2-af: fix PF/CGX debugfs PCI bus lookup
 36a45facedd5c8e73bfb2403f8b0dbff05124c9c net: phy: dp83867: handle the active-high LED polarity mode
 4c46beb807efcc93f5899ebe1f5958248eb296c6 net: mana: restore the XDP program pointer when pre-allocation fails
 2ac09b5353fe6858411fdc8c6efa60d832e20f13 net/rds: fix tcp stream corruption with large pages
 5e38d732ec67a5b1f9a56e6c73add480c4b6030a net: stmmac: fix TX descriptor availability check for TSO traffic
-2d2c2ea6650e423b83f89f919900124a625fd452 net: llc: fix repeated word 'all' in comment
-a2c9decb21b25f9d667fbeb72117be5a312aaf7d selftests: net: fix repeated word 'use' in comment
-a08b0a9e5e5fb0b05796dcbbc022bd7a16e24e4c net: broadcom: fix typos in comments
-405829119fdc8df5fe894ba21834a0968110d0f0 net: cavium: fix typos in comments
-12ae2a2b298a124874492d48a4052ffd75ccb5e9 net: qlogic: fix typos in comments
-ef7ed063b48ff3de9df36098d78b9f23e6876a26 net: fddi: fix typos in comments
-36ca708b7cc7dd224c2e2ef257f68e06fbc15837 net: marvell: fix typos in comments
-1b4109e4a024eb51b5b81fcaed511256e0ce502e net: hisilicon: fix typos in comments
-eeea715379b27a27350b2f77ed36213177229671 net: atheros: fix typos in comments
-f36cb539fd9718d48f88d6e8c6afe25e2178c4c6 net: dec: fix typos in comments
-0abe8777490ebc008635ecb20297761d1b317697 Merge branch 'net-fix-typos-and-repeated-words-in-comments'
 19b4ed644d68098cc62ab612727f40d30f43476c ipv6: fix fib6 walker UAF on seq stop
 a2dc179481d18f6df7274522571b64dd50f31e81 net: hsr: enable promiscuous mode on interlink port with fwd offload
 e1406330d70e56dd44fa6fbafc86e77e5c80c122 net: macb: initialize PTP state before registering clock
@@ -668,57 +640,13 @@ c9a8c0e393d6043fc29b0b527e654110ba523c36 Merge tag 'watchdog-for-v7.3-rc3' of gi
 ad724d319c81475488794eccc11eb5e27242e1eb Merge tag 'sysctl-7.03-fixes-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 0a96d0d726cd380423ac38e2c28f538db2940a1d Merge tag 'cifs-fixes-7.3-rc3' of https://git.manguebit.org/linux
 78445023439506ebd83b86d40b1e428a3b309d4a Merge tag 'net-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-99d76b4da88f21edd14b169f65de33e8df1b7804 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f5f0fcfcb30c677c1069c131f8e00e728e0a4fc5 net: starfire: fix ioaddr sign-extension causing ioremap() failure
-318e5ae0fe40f4cf73735e5016c4a2aa60a31294 Merge tag 'batadv-next-pullrequest-20260907' of https://git.open-mesh.org/batadv
-75a73afd0b32d19512f50db197e8794456e4f738 net: davicom: Propagate wakeup IRQ errors
-5145bb6a2c2683d541828f86d5321e0565f2e30c sit: fix UAF in ipip6_tunnel_del_prl()
-40a2b90f5190fcc7b083809fa93f2799abefeeb1 sit: charge ip_tunnel_prl_entry allocations to memcg
-88b84cae6b94087d3a9679845fe28ad19c7bef8b ip_tunnel: use WRITE_ONCE in ip_tunnel_encap_setup
-b5e8eadb1c8a800b1fe7bec42b5e0c696f69e1aa sit: annotate data-races around tunnel->fwmark
-eaa2098a94cdd726c8c96764de19ecbc95719d37 sit: convert 6RD configuration to RCU protection
-e3434672b7ad38cfd58006d4361966e61b508f5e sit: implement ipip6_get_iflink()
-3cd52b7c0bbfbcd90f5a0fb9284e722852e04899 sit: dynamically allocate struct ip_tunnel_parm_kern
-0301127e4d984d06300b539127f5922d97482bd9 sit: convert configuration to RCU protection
-f712bf6f17d881763547d6c33ccdcf3e62d4ae84 sit: no longer rely on RTNL in ipip6_fill_info()
-c48f4d49b43aa923112a3c0a1c45bd3a76370ab2 Merge branch 'sit-convert-configuration-to-rcu-and-lockless-fill_info'
-348ea4642f56ab3dc93621c8e3ab0ccd0e5f1782 selftests: net: add ctl_file_write() helper
-17d3afadf539c93def8106bbb83c88274bdc7ab1 octeontx2: collapse consecutive blank lines in source files
-58b4911272d0ed62fc33fa1c0151afa8260e7411 DO-NOT-MERGE: git markup: net
-86e2048e40c6ec4847463db5a5331aa2a486421b DO-NOT-MERGE: git markup: fixes other trees
-c153053fa5f0d217c36b23f1bc626e813c9a1e86 DO-NOT-MERGE: git markup: fixes net
-330a4fbe9ff471285e0dcee6d5e2408b7897d824 DO-NOT-MERGE: mptcp: add CI support
-2fe78b0c1ea7804c434c08cb191d2c1710651884 DO-NOT-MERGE: git markup: end common net net-next
-8e148c9e3fcf7395615b2507df4b3f97eedf24f6 TopGit-driven merge of branches:
-ac16f144f5f235b5f10aa63bbee42404571a2b7f DO-NOT-MERGE: git markup: net-next
-a665b26dff410ede17c9e4acb6eb44852d2db73e DO-NOT-MERGE: git markup: fixes net-next
-afa78d4c99082345fef7060f14f7e2911027efa9 mptcp: pm: init and release mptcp_pm_ops
-0378b17fb250a4ee0d8152c2e5f8d0e6180bed08 mptcp: pm: add get_local_id() interface
-91c6bfe58fc338359499ccc9ce0f6f4084634640 mptcp: pm: add get_priority() interface
-99ef428646d6e6f56712c60fb7cea26cf4e42631 mptcp: support MSG_ERRQUEUE on the parent socket
-dfe1da7db1c36f6669093eaeecea098fef5ea7a5 mptcp: sockopt: factor inet_flags propagation into a mask
-d5f1ba1ffef24cc41ccd38776a07810ff575062f mptcp: propagate RECVERR sockopts to subflows
-cbbe915cffa674e90de5b2c311146d765c2b811a selftests: mptcp: cover IP_RECVERR sockopt propagation
-4b923e8efabd95eb6697f951a8dd2abf0f121906 mptcp: remove thmac from subflow ctx
-82e1243170bdf4f8a2c6124413e33c72394a2e14 mptcp: split FASTCLOSE key from rcvr_key
-6c7b7192b512abd3ace02c51fa7896e0cbbc3806 mptcp: shrink struct mptcp_options_received
-e5293d5e8d3297137d877174aa8841018329e8c9 selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh
-1f5086d2279f10df060d10e103ea5e883665c225 selftests: mptcp: convert iptables to nftables for mptcp_join.sh
-1c49ca74bd3c09d0c276e8135b1c18542d8723fd DO-NOT-MERGE: git markup: features net-next
-c63252769473926321836cd2afcf77ad5b96a2d8 DO-NOT-MERGE: git markup: features net-next-next
-0bcf8985e728efc623358a3de4a792c4f4073792 bpf: Add mptcp_subflow bpf_iter
-f4de232d4a67a467d1e1da6a61ac32af228599f9 selftests/bpf: More endpoints for endpoint_init
-d83d65f964fba8bfe7dbf53ffb23da76f37a3aa4 selftests/bpf: Drop cgroup_fd of run_mptcpify
-56f5811414a066bcd58c50dc3d5a58a4acaea4ca bpf: Add mptcp packet scheduler struct_ops
-4923adb1799ca5030f06b56890aea413e2756f77 bpf: Export mptcp packet scheduler helpers
-b2765916893ecd54606946825bda3b005cd0bb6f selftests/bpf: Add bpf scheduler test
-89b372cd8b988c3bb24b842a3fd3f9ac67433efe selftests/bpf: Add bpf_first scheduler & test
-b6c2afb621e8a4d66cbc45eedb58cbbd4117272c selftests/bpf: Add bpf_bkup scheduler & test
-aaebf24e03605d725c2b55f8f6a92ebfc57c735b selftests/bpf: Add bpf_rr scheduler & test
-155167a0588c3eb6b2971022a92f3c1ad83909ad selftests/bpf: Add bpf_red scheduler & test
-b886146c687766dd13c20e00c50775e259c3c504 selftests/bpf: Add bpf_burst scheduler & test
-788b6248a1c874a2458731f4080625ed965122f3 DO-NOT-MERGE: git markup: features other trees
-c068543a0dd28f020201feeb51912918885015af DO-NOT-MERGE: mptcp: improve code coverage for CI
-31f10cf6851d13eca3c2631750e3eed1160491d8 DO-NOT-MERGE: mptcp: enabled by default
+5685dbd2ce0bc73679aac67707321c04e4f800b9 DO-NOT-MERGE: git markup: net
+d8b295209efda16161a697b44a0221e51db9aeba DO-NOT-MERGE: git markup: fixes other trees
+1109502eb9f7cc85086b41e42d49391421722aa8 DO-NOT-MERGE: git markup: fixes net
+687fcc42f8b6216227e2ffedb7b49fdf5fafe1d8 DO-NOT-MERGE: mptcp: add CI support
+8c4caf02a9b754ef8979f4d2b8bf2ed14fe6a225 DO-NOT-MERGE: git markup: end common net net-next
+eb3fbe760d7caa70304bf6ef447fb0203b4fbe47 DO-NOT-MERGE: git markup: fixes net only
+791a66923a84d50bcd7129243a373cb866ab2a46 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+396732d03b8d962276cc5320c6997b9939343937 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============8229830828781930738==--
+--===============0575643308227148667==--
