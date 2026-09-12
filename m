@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 12 Sep 2026 20:34:07 -0000
-Message-Id: <178924524752.3185270.12504855259861514143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 12 Sep 2026 21:00:52 -0000
+Message-Id: <178924685240.3204026.6976875270038044898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: e51430ad02732c140f41e470084cb4a71c67ccbe
-    new: d128ec6362ffc7e0dfa512fa651ef0429757aeaa
+    old: 577b9918e7f8b1b98e2734412a0acaaff9fc845a
+    new: 0c81299fd5fd97f381565e29affab62d1b5d8520
     log: |
-         d128ec6362ffc7e0dfa512fa651ef0429757aeaa foo
+         0c81299fd5fd97f381565e29affab62d1b5d8520 drop 4 patches based on RC review feedback
          
