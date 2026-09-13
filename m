@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Sun, 13 Sep 2026 06:36:22 -0000
-Message-Id: <178928138261.3659099.8426378618519235423@gitolite.kernel.org>
+Date: Sun, 13 Sep 2026 06:44:01 -0000
+Message-Id: <178928184142.3663610.11538723667275916654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,13 @@ repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
   - ref: refs/heads/wdt
-    old: 3dae392d3b45bd2cf6cb7b41e1650aa18f57f161
-    new: c24a4fddabf69669f077ca4662209f57836334e2
+    old: c24a4fddabf69669f077ca4662209f57836334e2
+    new: a86289cc455a60b7c5d8fc943ce77614ccc1ce48
     log: |
-         c818f825477b3def34512232bafc04d56b5785da watchdog: digicolor: Avoid division by zero
-         b687718d0028caf0137cd9c5aaadb401e35301f0 watchdog: rtd119x: Avoid division by zero
-         4428b1fe6a29576609a53a3ba9ada5b588975589 watchdog: rzv2h: Avoid division by zero
-         e48daecaa36249830cb859d63ba2b0935aa6ca3f watchdog: msc313e: Propagate error code in resume()
-         c24a4fddabf69669f077ca4662209f57836334e2 watchdog: msc313e: Fix premature reset during timeout update
+         38e627603a0f139ed27abb2abcbe153dc5047864 watchdog: Avoid division by zero from clk_get_rate()
+         e7c5230a989afe402138d077831ab54874bd592a watchdog: digicolor: Avoid division by zero
+         45d08b8e199e88eaa4c8f75cd4f6cd3a3b27cfa8 watchdog: rtd119x: Avoid division by zero
+         04b979766e32d8f296c6a5d323b5a2713a933666 watchdog: rzv2h: Avoid division by zero
+         f1513c4c44a0aace18cd7c63c4f679ad8bba00d3 watchdog: msc313e: Propagate error code in resume()
+         a86289cc455a60b7c5d8fc943ce77614ccc1ce48 watchdog: msc313e: Fix premature reset during timeout update
          
