@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7834044636045908485=="
+Content-Type: multipart/mixed; boundary="===============4170389001314996614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 13 Sep 2026 01:22:03 -0000
-Message-Id: <178926252368.3381336.2565480246157675766@gitolite.kernel.org>
+Date: Sun, 13 Sep 2026 01:25:03 -0000
+Message-Id: <178926270368.3383592.15408485454824564638@gitolite.kernel.org>
 
---===============7834044636045908485==
+--===============4170389001314996614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,32 @@ repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
   - ref: refs/tags/v7.1.8-5
-    old: 895084476f975b69fd545a64e3c7faf0baabeaae
-    new: a1b26bb33f702679438a04d12afc596ccc05eb80
-    log: revlist-895084476f97-a1b26bb33f70.txt
+    old: a1b26bb33f702679438a04d12afc596ccc05eb80
+    new: 895084476f975b69fd545a64e3c7faf0baabeaae
+    log: revlist-a1b26bb33f70-895084476f97.txt
 
---===============7834044636045908485==
+--===============4170389001314996614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-895084476f97-a1b26bb33f70.txt
+Content-Disposition: attachment; filename=revlist-a1b26bb33f70-895084476f97.txt
 
-70e9d5623bf5493317235f0800b738f08eeeced9 redhat: move .gitlab-ci.yml to redhat/upstream-ci.yml.disabled
-1ec34cda61ae9eeda62b0d4fe0ac5494aee23987 Merge branch 'kernel-7.1.8/block-DIO-alignment-fixes' into kernel-7.1.8/main
-911607b8b592c0b6167db72d66e2cfa6a7bf23dd Merge branch 'kernel-7.1.8/vfs-7.3-rc1.iomap' into kernel-7.1.8/main
-254171333ec4de75a8942b213adfc82a2f07b241 Merge branch 'kernel-7.1.8/vfs-7.2-merge' into kernel-7.1.8/main
-c8d2bae3b9167134f78514e91e7959d18c4959b4 Merge branch 'kernel-7.1.8/nfsd-7.2' into kernel-7.1.8/main
-3f8e1a50ab4c841d32c0367735e4e299180b1dbd Merge branch 'kernel-7.1.8/nfsd-7.2-1' into kernel-7.1.8/main
-cf14bab944c6644d0f59839ed90346a388040249 Merge branch 'kernel-7.1.8/nfsd-7.2-2' into kernel-7.1.8/main
-7a29d8e410eb729f4b4fa2500b27480921068a01 Merge branch 'kernel-7.1.8/nfsd-7.3' into kernel-7.1.8/main
-11754cde2bc2a3c3c0bc469fd6ba15bb2c0f7d86 Merge branch 'kernel-7.1.8/nfs-for-7.2-1' into kernel-7.1.8/main
-3e65dd1d1f2c1e1183683e519d5c854800bb430e Merge branch 'kernel-7.1.8/nfs-for-7.2-3' into kernel-7.1.8/main
-034517884647167ef18a08f2a3164b6e1b88b8d6 Merge branch 'kernel-7.1.8/nfs-for-7.3-1' into kernel-7.1.8/main
-56ede6db6ac93a9b7ba0e86cabb0ff150fbcd1c0 Merge branch 'kernel-7.1.8/nfs-testing-canary' into kernel-7.1.8/main
-63436f6b8a16d6e3e25e058c7fc521b16e7416ac Merge branch 'kernel-7.1.8/nfs-testing-canary-flexfiles-device-notifications' into kernel-7.1.8/main
-447b47e57550791ca927cfdbde7c23f61c4d03fc Merge branch 'kernel-7.1.8/nfsd-testing' into kernel-7.1.8/main
-9633efd350da13ddf1cd91f3ec496f51a317fc43 Merge branch 'kernel-7.1.8/nfsd-testing-canary' into kernel-7.1.8/main
-8e1ea53183cdd41f81e46be254a46a2fe2d3beaa Merge branch 'kernel-7.1.8/nfsd-testing-canary-dontcache' into kernel-7.1.8/main
-153e2bac52f3ebd9612c798c4a02082f476022cc Merge branch 'kernel-7.1.8/nfs4_acl-passthru' into kernel-7.1.8/main
-a1b26bb33f702679438a04d12afc596ccc05eb80 Merge branch 'kernel-7.1.8/changelog' into kernel-7.1.8/main
+ff41710bad85e803f07531f0c46587618b41070c Merge branch 'kernel-7.1.8/block-DIO-alignment-fixes' into kernel-7.1.8/main
+b9c7def1229f11b12c4a8481d3f8b7fb09a3bc2f Merge branch 'kernel-7.1.8/vfs-7.3-rc1.iomap' into kernel-7.1.8/main
+e4fd8983261f15e4dcf487b4cd34009b38b70198 Merge branch 'kernel-7.1.8/vfs-7.2-merge' into kernel-7.1.8/main
+b7c1310de4e9b3cf1753dd23f4f91f386f410288 Merge branch 'kernel-7.1.8/nfsd-7.2' into kernel-7.1.8/main
+ecb9a4a038f32c645fb028ac002507dfe832ab26 Merge branch 'kernel-7.1.8/nfsd-7.2-1' into kernel-7.1.8/main
+fd7d4212bc8307bc16027290f013bb61e43018f6 Merge branch 'kernel-7.1.8/nfsd-7.2-2' into kernel-7.1.8/main
+1894f888d00cd52eb44736e9726160622ca8ec96 Merge branch 'kernel-7.1.8/nfsd-7.3' into kernel-7.1.8/main
+1f5aa4a05682d27f29a8461a38297f20c6042841 Merge branch 'kernel-7.1.8/nfs-for-7.2-1' into kernel-7.1.8/main
+c6efe8d98f06908806408c028dfe1174bdc0fb30 Merge branch 'kernel-7.1.8/nfs-for-7.2-3' into kernel-7.1.8/main
+b59dced79e911f06ba88e9e7979736ceea672e79 Merge branch 'kernel-7.1.8/nfs-for-7.3-1' into kernel-7.1.8/main
+1514f6ad849f0e9c6e7b7aa47a8bf167d88fe5d7 Merge branch 'kernel-7.1.8/nfs-testing-canary' into kernel-7.1.8/main
+5873d0eba16b0e9039438ee7fa7a10e74fdd61cf Merge branch 'kernel-7.1.8/nfs-testing-canary-flexfiles-device-notifications' into kernel-7.1.8/main
+8271425304307c1c0b8b59943613bbd9eddaf6d9 Merge branch 'kernel-7.1.8/nfsd-testing' into kernel-7.1.8/main
+380a0130d12a94313413dd08357622ac9f789432 Merge branch 'kernel-7.1.8/nfsd-testing-canary' into kernel-7.1.8/main
+e19a3f4aaa56da02e2c19dd0e68ad77844711279 Merge branch 'kernel-7.1.8/nfsd-testing-canary-dontcache' into kernel-7.1.8/main
+78f59a1995a68325b180812b1548633e00440064 Merge branch 'kernel-7.1.8/nfs4_acl-passthru' into kernel-7.1.8/main
+895084476f975b69fd545a64e3c7faf0baabeaae Merge branch 'kernel-7.1.8/changelog' into kernel-7.1.8/main
 
---===============7834044636045908485==--
+--===============4170389001314996614==--
