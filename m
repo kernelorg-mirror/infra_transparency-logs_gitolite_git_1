@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1838601506635762525=="
+Content-Type: multipart/mixed; boundary="===============0558155297274517765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 13 Sep 2026 07:38:28 -0000
-Message-Id: <178928510881.3702884.12248716219295096931@gitolite.kernel.org>
+Date: Sun, 13 Sep 2026 07:38:54 -0000
+Message-Id: <178928513449.3703300.4471421959984828946@gitolite.kernel.org>
 
---===============1838601506635762525==
+--===============0558155297274517765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e295e8fe1883146a400aedf7861cee05632246a6
-    new: d5f410d842cf1427bcd02d406d2c25e5688b7bc6
-    log: revlist-e295e8fe1883-d5f410d842cf.txt
+    old: d5f410d842cf1427bcd02d406d2c25e5688b7bc6
+    new: 1b1e2b3b9dbbb75b9c340f0fcdaae8175e9192c2
+    log: revlist-d5f410d842cf-1b1e2b3b9dbb.txt
+  - ref: refs/heads/tip/urgent
+    old: 9476cfa390d6fb3e3284433ddfe2f507ac5a7d54
+    new: df4b8e262eb264eb40e04430f413a961a0f369e6
+    log: revlist-9476cfa390d6-df4b8e262eb2.txt
 
---===============1838601506635762525==
+--===============0558155297274517765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e295e8fe1883-d5f410d842cf.txt
+Content-Disposition: attachment; filename=revlist-d5f410d842cf-1b1e2b3b9dbb.txt
+
+942ec388cde0750c423c563c3a315175d2e83af4 Merge branch into tip/master: 'core/urgent'
+182ce2265e174a8cb308e1136186159951bcd8cb Merge branch into tip/master: 'irq/urgent'
+6ef5f25bba12a45f3f2aff23ca4aceece93b9a58 Merge branch into tip/master: 'objtool/urgent'
+1525ee172ec375f36e3846e9c662a402e01f8841 Merge branch into tip/master: 'perf/urgent'
+f92d755663ba3cf951d7e1ac1e8de0fa18d007f6 Merge branch into tip/master: 'sched/urgent'
+6625af0f39465da8835148184221cfc0bf37ecf2 Merge branch into tip/master: 'timers/urgent'
+5a3dca888dbc2b5c1f63071c95b38744fa48d310 Merge branch into tip/master: 'x86/urgent'
+df4b8e262eb264eb40e04430f413a961a0f369e6 Merge branch into tip/master: 'x86/mm'
+256d3448c498507477adb988576d4fe241a76f01 Merge branch into tip/master: 'irq/core'
+4990a4a5bf0184c0af9fada1cd30b9197760392f Merge branch into tip/master: 'irq/drivers'
+c7e82e4af17e1508713fb4b15390262e9adf69e3 Merge branch into tip/master: 'perf/core'
+1e0688f28cd07ee5304f0c5c4bfe2285d93841fe Merge branch into tip/master: 'sched/core'
+fe686f207689cd69263e079d4c7b684e5fc287c8 Merge branch into tip/master: 'x86/boot'
+c5ff2d77613112fe979b31e6abbfd4af90db3e2e Merge branch into tip/master: 'x86/bugs'
+5f52613c42818c6784c8c8077bfecc289b3d99b3 Merge branch into tip/master: 'x86/cpu'
+998b861b27faa5f0f326bdb3f20763e6cfa6716a Merge branch into tip/master: 'x86/kdump'
+335b1fbc2963844618658b6bfd94a2e540de6bf0 Merge branch into tip/master: 'x86/misc'
+9f6c58482bedf2af89dd8848b6791b67f218b60e Merge branch into tip/master: 'x86/sgx'
+1b1e2b3b9dbbb75b9c340f0fcdaae8175e9192c2 Merge branch into tip/master: 'x86/tdx'
+
+--===============0558155297274517765==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9476cfa390d6-df4b8e262eb2.txt
 
 3c0ebc4c07ff1147724d8f370203e62390ae7ee7 vt: hide cursor prior to font changes to avoid out-of-bound reads
 72e91bba1190c91c76ef2f81476399eb66b87ed2 fbdev: omapfb: Fix __be32 sparse warning in panel_enabled()
@@ -168,6 +198,13 @@ cba2348ab114391f5b1a00fa65c5b739f13f0563 Merge tag 'xfs-fixes-7.3-rc3' of git://
 59351365ac271b5e0eb180f211c531476a36221f scripts/mksysmap: fix escape of '$' in the __pi_ pattern
 3ce99a68f7d5b878a7746d479591a18651a8238f Merge tag 'kbuild-fixes-7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 2f0c1cf72f4682178506f513bbf015e591b1aa4a Merge tag 's390-7.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-d5f410d842cf1427bcd02d406d2c25e5688b7bc6 Merge branch 'linus'
+942ec388cde0750c423c563c3a315175d2e83af4 Merge branch into tip/master: 'core/urgent'
+182ce2265e174a8cb308e1136186159951bcd8cb Merge branch into tip/master: 'irq/urgent'
+6ef5f25bba12a45f3f2aff23ca4aceece93b9a58 Merge branch into tip/master: 'objtool/urgent'
+1525ee172ec375f36e3846e9c662a402e01f8841 Merge branch into tip/master: 'perf/urgent'
+f92d755663ba3cf951d7e1ac1e8de0fa18d007f6 Merge branch into tip/master: 'sched/urgent'
+6625af0f39465da8835148184221cfc0bf37ecf2 Merge branch into tip/master: 'timers/urgent'
+5a3dca888dbc2b5c1f63071c95b38744fa48d310 Merge branch into tip/master: 'x86/urgent'
+df4b8e262eb264eb40e04430f413a961a0f369e6 Merge branch into tip/master: 'x86/mm'
 
---===============1838601506635762525==--
+--===============0558155297274517765==--
