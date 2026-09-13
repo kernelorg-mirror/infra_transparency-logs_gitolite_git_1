@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 13 Sep 2026 21:43:21 -0000
-Message-Id: <178933580165.113292.6043944146085292705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sun, 13 Sep 2026 22:21:15 -0000
+Message-Id: <178933807582.140708.2258660266985605056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 22098763a10d9c1340827fcf6edab66f153b27f0
-    new: fd73f4a6659897191fa0d40695fe370925dd3780
+  - ref: refs/heads/for-next
+    old: 6ef847683e7d294a4187a7253924b8f0d8911416
+    new: b8d9d2966cde80ec3de37d830ea855c1a58d23dc
     log: |
-         fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
+         f19ae28f1f050b7d6551412a04281955cc4103e5 tools/nolibc: validate directory with O_DIRECTORY in opendir()
+         f90242f39f32c6d708c33af504bdc80a683f0da4 tools/nolibc: verify that a directory is opened
+         b8d9d2966cde80ec3de37d830ea855c1a58d23dc selftests/nolibc: validate ENOTDIR return values from opendir()/fdopendir()
          
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
