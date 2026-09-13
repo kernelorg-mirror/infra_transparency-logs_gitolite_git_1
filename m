@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Sun, 13 Sep 2026 11:17:52 -0000
-Message-Id: <178929827239.3858421.10082773231380746760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Sun, 13 Sep 2026 11:22:19 -0000
+Message-Id: <178929853965.3861982.7461423267233615986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/for-next
-    old: 4407825b2f96b0e48a4bd08ab196b50a30eb3aef
-    new: 8687c0e4c87a5a653a40d35ce931a5a4d7ee7446
-    log: |
-         78607652e8332ff7dc8e99493fc2126a57a5ea3f xz: add arch-specific tuning for alpha
-         d464454a7b8844edaab0c1277e406d0a7d8cfdc9 alpha: add self-extracting compressed kernel boot stub
-         8687c0e4c87a5a653a40d35ce931a5a4d7ee7446 alpha: support the remaining kernel compression formats
-         
+  - ref: refs/heads/collapse/rfc-wip
+    old: 0000000000000000000000000000000000000000
+    new: 36226b1e4970c52a3c0d491dcf17800eb800958a
+  - ref: refs/heads/collapse/rfc-wip-7.1
+    old: 0000000000000000000000000000000000000000
+    new: c63f210df9a35818ec3fb7056a3d5b0d1de056e0
