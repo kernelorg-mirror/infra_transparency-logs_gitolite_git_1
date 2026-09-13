@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3872446627585937940=="
+Content-Type: multipart/mixed; boundary="===============1158684497846500245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 13 Sep 2026 03:54:34 -0000
-Message-Id: <178927167498.3489989.4843222019569821555@gitolite.kernel.org>
+Date: Sun, 13 Sep 2026 03:54:40 -0000
+Message-Id: <178927168093.3490207.2632184082729857229@gitolite.kernel.org>
 
---===============3872446627585937940==
+--===============1158684497846500245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 3672c60cd1633dbed7a2ea5fd0ebc27cb947b773
     new: a41c69c6ea14596cfd95978483166d4eff52435e
     log: revlist-3672c60cd163-a41c69c6ea14.txt
 
---===============3872446627585937940==
+--===============1158684497846500245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ a7a97c37c58fea0b0329b808d44dc7b0403db187 selftests/bpf: Add inline-asm tests for
 4006c4b06c2cb3c00c67688bd0da2cd3c95be210 selftests/bpf: Add tests for by-value kfunc arguments
 a41c69c6ea14596cfd95978483166d4eff52435e Merge branch 'bpf-support-by-value-struct-and-__int128-arguments'
 
---===============3872446627585937940==--
+--===============1158684497846500245==--
