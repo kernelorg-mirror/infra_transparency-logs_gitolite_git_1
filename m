@@ -1,59 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7670888834836395231=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 14 Sep 2026 13:46:58 -0000
-Message-Id: <178939361897.1186792.14778360894231527790@gitolite.kernel.org>
-
---===============7670888834836395231==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 14 Sep 2026 13:50:30 -0000
+Message-Id: <178939383042.1189996.11543503859493080307@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/main
-    old: eb0a9f21deb3632d9285bbc80a3adb6e87c4c0ab
-    new: 8ea81827d3537db7cfcc82c008f052bb1bbe7567
+  - ref: refs/heads/for-next
+    old: fd73f4a6659897191fa0d40695fe370925dd3780
+    new: 7fe56d825ae0cf2cc82033785db1351eb79b166b
     log: |
-         00f2f21c1474ff5b7fa5085204694231cd388519 wifi: radiotap: add S1G TLVs and channel frequency
-         bca17bff4e9d530ecd6f395025231854993d2b9e wifi: mac80211: report 900MHz channel for S1G band radiotap header
-         aaf06d7cb648665bdff53a450809234326cbcfe7 wifi: mac80211: fix stats/preemption in ieee80211_tx_control_port()
-         5c7b043cb1ef4bca9aa2e793dab862c0989d59c3 wifi: mac80211: Fix the return value in mesh_path_add() kernel-doc
-         8ea81827d3537db7cfcc82c008f052bb1bbe7567 wifi: mac80211: don't reset the TXQ scheduling round number
+         936293c9f3f4f2a0d1b80df9332e96c552ac3b37 dm vdo indexer: prevent delta list overflow on load
+         e3683a76a313a81f3f7bc7f65e4fc1e61232838b dm vdo indexer: validate record page numbers better
+         f9e2d107ae0184266484d4a8d83b2976b4bb51e0 dm-delay: advertise flush support
+         228c435c00dbd0b66e0a37fbe64bbd31c45563d3 dm-crypt: Use memzero_explicit() to wipe key material
+         71daf42f5f647e5140a40a822918cb90aba9b050 dm persistent-data: add btree traversal depth limit to detect metadata corruption
+         37b02869f0996c882ce4da9ddccc34cbe14c741a dm persistent-data: record space-map errors in transaction manager
+         7fe56d825ae0cf2cc82033785db1351eb79b166b dm-clone: remove unused memset
          
-
---===============7670888834836395231==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1789393567 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1789393567-c5a7df90affee77fd47f0151f86e564f8897e2fe
-
-eb0a9f21deb3632d9285bbc80a3adb6e87c4c0ab 8ea81827d3537db7cfcc82c008f052bb1bbe7567 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqn+qAACgkQ10qiO8sP
-aAAJxBAAjrPWPP0Esbbnc42Ay9p0I/LclOJw4uzxDdtG0IBkvhgDfYuR+gKKPs8L
-UQ9wVk7tqx7AHwMdYCdx6mvLYZEFrTc0pK2HAjnO8+sIXARylWOUFZrbbNmT2Kxa
-s/yyMrqWVeE6dhClgkjJadsVh/dGCQbn1C44vcq2q9jwI+CoqPSNK6tM/HyaUPHh
-u3gmcSp7l7+O7tAbuJMin4GVuC+6iB4gkvWBPMefeLY6R4nAQb4112h39TvHWFgs
-FD2NFc9GsegBORFYagEu41GtYQxas286mywGpqnASAYRCesaWmN/PEVzI04FgT82
-RPEakT6TNx0Uawxo+Imwstze/so1TQSNi3LU5pSXDtdRQxBMsSTZhI9c//Frhalx
-DuGc7DIyQCZy/vNH4PpmO3W4dWeLoUUZ3gPJXpOCMdVJ+xyhX1swUGAVWQtSsn17
-/ozvpJqK8KjZdgNcIm88N703rgeSVK2OtdQLGXsekGfmHsZuxcD4y8Rwp3BGJMUE
-tYux2N8soO8xxOpDCYm+RnCtEJFbiadtPAFKYMBOEyZFiHgagWi5Dq25ANshBP6s
-sOGnwgSWhWSJEcqoJg6nrl+qR28G+AKoHbkpOePD6pBMCOipQPt5ARBqjmqH0rjv
-G6BuDJKKKEs0sukxcK3Dp09a/uFWsPnHFhgn5FSdmt3Ul6fCF6Q=
-=hter
------END PGP SIGNATURE-----
-
---===============7670888834836395231==--
