@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 14 Sep 2026 14:07:36 -0000
-Message-Id: <178939485687.1204350.9251161331106091354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 14 Sep 2026 14:10:09 -0000
+Message-Id: <178939500962.1207326.1669244347041706042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dm-7.4
-    old: fd73f4a6659897191fa0d40695fe370925dd3780
-    new: 7fe56d825ae0cf2cc82033785db1351eb79b166b
+  - ref: refs/heads/main
+    old: fcfce28eec4593d9eb469416733f1927c2adaf4e
+    new: 03b8bb2adac4320b0f55ce1e7df03409891fe9ef
     log: |
-         936293c9f3f4f2a0d1b80df9332e96c552ac3b37 dm vdo indexer: prevent delta list overflow on load
-         e3683a76a313a81f3f7bc7f65e4fc1e61232838b dm vdo indexer: validate record page numbers better
-         f9e2d107ae0184266484d4a8d83b2976b4bb51e0 dm-delay: advertise flush support
-         228c435c00dbd0b66e0a37fbe64bbd31c45563d3 dm-crypt: Use memzero_explicit() to wipe key material
-         71daf42f5f647e5140a40a822918cb90aba9b050 dm persistent-data: add btree traversal depth limit to detect metadata corruption
-         37b02869f0996c882ce4da9ddccc34cbe14c741a dm persistent-data: record space-map errors in transaction manager
-         7fe56d825ae0cf2cc82033785db1351eb79b166b dm-clone: remove unused memset
+         1e223f7ecf65681d6d501566049e700de06331b1 WHENCE: add missing symlink for TaiqiCat (TQC) A01
+         03b8bb2adac4320b0f55ce1e7df03409891fe9ef Merge branch 'feat/add_tqc_a01' into 'main'
          
