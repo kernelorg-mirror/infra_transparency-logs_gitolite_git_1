@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 14 Sep 2026 04:50:31 -0000
-Message-Id: <178936143175.472522.16043695347489767653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Mon, 14 Sep 2026 04:51:22 -0000
+Message-Id: <178936148221.473012.5306874186411482456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 1c21452d02eec2f008e2c5535820f85adbd7587a
-    new: 490a83d6386eec1d29f470c8d7331677fb46c3b7
-    log: |
-         490a83d6386eec1d29f470c8d7331677fb46c3b7 bpf, sockmap: Fix self-redirect copied_seq double-counting
-         
+  - ref: refs/tags/mm-hotfixes-stable-2026-09-13-21-50
+    old: 0000000000000000000000000000000000000000
+    new: cde6019dc3f352200003b95648a03b6834fe75ff
+  - ref: refs/tags/v7.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
