@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 14 Sep 2026 16:49:07 -0000
-Message-Id: <178940454784.1334820.12910017782522782189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Mon, 14 Sep 2026 17:05:24 -0000
+Message-Id: <178940552481.1347980.10731464651432330019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: aegl
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/edac-for-next
-    old: f5330fe67d578d34d85720e043d93a8c02ae6eea
-    new: c1a48df79583b0bbed77cca4d25c331829318a28
+  - ref: refs/heads/for_next
+    old: fdd4b109830d0458336ea99d119c8210f7da3a47
+    new: 36384189919e923902c2350d2f592924cf921c0d
     log: |
-         cf8e30ec6f96ac1620e82bb05d8e9f4159ae592c EDAC/ie31200: Disable PCI device when probing fails
-         c1a48df79583b0bbed77cca4d25c331829318a28 Merge branch 'edac-drivers' into edac-for-next
+         839801780d930e85c12d975c35abc36e54efe651 fanotify: Re-add Matt Bobrowski as a reviewer
+         36384189919e923902c2350d2f592924cf921c0d Pull reviewer addition.
          
