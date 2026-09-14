@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2660385440476245967=="
+Content-Type: multipart/mixed; boundary="===============7539959845882823038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 14 Sep 2026 15:25:03 -0000
-Message-Id: <178939950312.1270794.2077019596101506948@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 15:25:30 -0000
+Message-Id: <178939953049.1272591.23032367056395504@gitolite.kernel.org>
 
---===============2660385440476245967==
+--===============7539959845882823038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 6a0dda6838b65609590890bdfe4ffb9c2ab031a1
-    new: 60105162524e9c839e0fe3cc9d57ffe91c997d9e
-    log: revlist-6a0dda6838b6-60105162524e.txt
+  - ref: refs/heads/dev-test
+    old: 5728ec48778b7eaa1dbc3b3df50e693ee108a7de
+    new: e546757e0091660925cfda130388b27351758723
+    log: revlist-5728ec48778b-e546757e0091.txt
 
---===============2660385440476245967==
+--===============7539959845882823038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a0dda6838b6-60105162524e.txt
+Content-Disposition: attachment; filename=revlist-5728ec48778b-e546757e0091.txt
 
 5d37f99e4d25eaf42efe2dda8b947585478168f6 f2fs: drop pending discard commands before reserving device alias
 70d41e696112c7a6e8e32431fbba58ceaa039af1 f2fs: initialize sb_info early in f2fs_fill_super
@@ -47,5 +47,20 @@ ea3eea801c5c54932818ac528e169012a7418825 f2fs: parameterize node helpers and mac
 b5a71253c5c7e1139eab2f3e1e13e0bf2cbcaac7 f2fs: fix to avoid folio->mapping dereference in is_{meta, node}_folio()
 c0337e331b065074ce20e4258a578e07dd7e4083 f2fs: compress: fix to handle race between truncate and writeback
 60105162524e9c839e0fe3cc9d57ffe91c997d9e f2fs: stop using PG_private
+a5eb3df4ae8a762304da48c1b0bd02e36a89db13 f2fs: cache: implement metadata cache
+94bc1c7f7f5481fea57e844aa0702aec0bf377cb f2fs: cache: initialize meta cache
+f73cbed8fb9b513666d626b2528d4f9a3aeb9957 f2fs: cache: introduce shrinker
+9d394746c8ea9cc3463e3b54766c77910268f442 f2fs: cache: introduce writeback thread
+fd3f1218dddf305b06ef309972e970bb7182ae88 f2fs: cache: use meta cache
+a5977e42a023d6cfce8637f3a639434c30d8ece1 f2fs: cache: initialize node cache
+aea5e4b9f24ae6a8ee5ab90d3021e10918ef5041 f2fs: cache: use node cache
+40084eb4199d3d4fda3be63b462131af1e7893ef f2fs: cache: initialize compress cache
+ac08f4f3a63af7acf1f333a0f3431c32d661a9a1 f2fs: cache: use compress cache
+7751f19d4a7e355f0fcdc35e51abd6e7101df201 f2fs: cache: support fault injection
+25e1143a95c30632e7a76b6c7c1abbe237c89115 f2fs: cache: introduce tracepoints
+cb76c2899a9ba187e58d7ca9175dd981ee39fcb6 f2fs: cache: show per-cache usage in debugfs
+3f6a47eae7b7e15d3c7cc795f3d05c47d415bf9d f2fs: rename page_count with cache_count
+52ae5864a075a7c89b25932a43a2fe3273df9614 f2fs: rename nr_pages_to_skip with nr_caches_to_skip
+e546757e0091660925cfda130388b27351758723 f2fs: fix stale comments regarding page
 
---===============2660385440476245967==--
+--===============7539959845882823038==--
