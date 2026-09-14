@@ -1,58 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8981309875320702576=="
+Content-Type: multipart/mixed; boundary="===============1971512253869382990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 14 Sep 2026 08:00:55 -0000
-Message-Id: <178937285526.691559.11494542157003088519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Mon, 14 Sep 2026 08:09:27 -0000
+Message-Id: <178937336731.696336.28894649593662285@gitolite.kernel.org>
 
---===============8981309875320702576==
+--===============1971512253869382990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
   - ref: refs/heads/master
-    old: 79ba5fb9e9ce4df84809079c82c4f18b046172c4
-    new: ef9fc3f71d64aa621a732f86d1e77bf0a80abe68
-    log: |
-         419c042c451d64beb565bd5c940faf5dc73a8034 Merge branch into tip/master: 'x86/mm'
-         d5732681c56376dd8efaa5d7ee5fd241b26a8066 Merge branch into tip/master: 'irq/core'
-         90c4f879b057a31779dda645d73f69d420c1c14d Merge branch into tip/master: 'irq/drivers'
-         2b28a9d81ea3d5fb469da494327b5ee7612fad18 Merge branch into tip/master: 'perf/core'
-         50bba79a10f2b68478e0062ebf9648f9f77083d9 Merge branch into tip/master: 'sched/core'
-         2caf27480c59d73aa2ed63026511054fd1faef71 Merge branch into tip/master: 'x86/boot'
-         b487ad452321ef11f78c54763edd7272f3432f38 Merge branch into tip/master: 'x86/bugs'
-         e98650536ba13111ccfea33bf3baf1faf130de0e Merge branch into tip/master: 'x86/cpu'
-         9becc93076456da9e12343b4596b1c0867c2d894 Merge branch into tip/master: 'x86/kdump'
-         140128b413a86de8a59d4e4e95d4fbac09c82790 Merge branch into tip/master: 'x86/misc'
-         f2cee0fe7a07437e7e7b3efe8a407e07791ac2d3 Merge branch into tip/master: 'x86/sgx'
-         ef9fc3f71d64aa621a732f86d1e77bf0a80abe68 Merge branch into tip/master: 'x86/tdx'
-         
-  - ref: refs/heads/tip/urgent
-    old: df4b8e262eb264eb40e04430f413a961a0f369e6
-    new: 419c042c451d64beb565bd5c940faf5dc73a8034
-    log: revlist-df4b8e262eb2-419c042c451d.txt
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
+    old: 2f0c1cf72f4682178506f513bbf015e591b1aa4a
+    new: 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf
+    log: revlist-2f0c1cf72f46-704340f1cd0d.txt
 
---===============8981309875320702576==
+--===============1971512253869382990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df4b8e262eb2-419c042c451d.txt
+Content-Disposition: attachment; filename=revlist-2f0c1cf72f46-704340f1cd0d.txt
 
 b6b9e6d4abe87b16ab55990b887c6fad8e7a01af rust: pin-init: use irrefutable pattern for `stack_pin_init`
 e510334fbaeaa016ac76d80b4c5f47611c5f7860 rust: samples: add missing newlines in rust_print_main
+4825ef699cda4c6f2f0586b17a5e225560481da6 klp-build: Fix wrong index in funcs cleanup error path
+ac323c9467092479dc1e5bc138c9abbe015b0069 objtool/klp: Fix checksums for constant pool references
 97f8cb91a8c5658fe2ae6f5c2ff6e95474a5eb2f drm/panic: clean new `clippy::needless_range_loop` lint for Rust 1.100.0
 c6709d5e14072d0e3d02f291daee46a199e5dad3 rust: num: seal Integer
 2ac74c6db40adaa29c50cbb281ae9a6f63de18e1 rust: allow `clippy::as_underscore` in the generated bindings
+113a9796effe3376d2ec5aabcca1fef4fef4cd62 tick/broadcast: Plug clockevents replacement race
+954f7a48fa2ae7310c67729fb556caf726783436 entry: Guard syscall_enter_audit() invocation with CONFIG_AUDITSYSCALL
+1017911fcc03584b6854b1b8f0aafeb25f5a8d25 irqchip/gic-v5: Preserve ICC_CR0_EL1 state
 9868f5c077dfe0b606331f2e782484f91a5789a5 EDAC/altera: Use parent device for devres in altr_portb_setup()
 f4c3e38111fd84c2c7ae5785755f4a4d476e1cba rust: allow `unknown_lints` in generated bindings for Rust < 1.88
+a1c7570cedd03372812a5b693732880867babbca x86/mm/pat: Acquire init_mm write lock on collapse to avoid UAF
+d5d8b8662e6e5a565b47a0388640e88402f23274 x86/mm/pat: Acquire init_mm read lock on attribute changes to avoid UAF
+1587d3394e254639cc36516256031334095e6ef3 x86/alternatives: Exclude text poking against change_page_attr()
+9e4a3ec3411bb6bb59e3c1f29b75609f1e87aac4 x86/mm/pat: Allocate split page tables as kernel page tables
+f7491d7c81db0e7c304a7bd757a76d2fbeaff80e x86/mm: Fix user-space data loss with MADV_FREE and THP
+59e63416f5153e7d58652c616fbdcb7d5e01fff7 perf/core: Allow list_del during perf_event_overflow()
+88aa1223bfffb1a0a98c639e9e1f71058f0d9178 perf/x86/intel: Correct pt_regs->flags update for PEBS path
+a56c03a397e2cd0c4cf8da96dcd6214f7d0e7d8c perf/x86/intel: Prevent drain_pebs() reentry
+9a8bc9bb4c3fb3218b4f151f98a722fbeb5b5c34 sched/eevdf: Fix augmented max_slice
+51b0e68cfa0ac69e3c3ea9d6753af7e15dfaab22 sched/eevdf: Fix rb augmented with multi fields
+c23810313bdf6b02f39a1f2a1464c4b18bd39e31 sched: Account cgroup CPU time to the execution context
+f5741d2b34519d387edf6e9798fc7030c20a35f3 sched/core: Call wq_worker_tick() for the execution context
+5a5d26f2cfe13467166219f6bf58099326912ddb x86/cfi: Fix FineIBT hash offset in cfi_get_func_hash()
+f65d38155aef069c897a64643a03db237dd1e0c8 x86/div64: Fix addition of large constants in mul_u64_add_u64_div_u64()
+27600805e62f800bacf990354632eae4e487d34c x86/amd_node: Fix PCI device reference counting in amd_smn_init()
+c5dcb3aadc18d7b82ba64790721b005d18193d35 hrtimer: Use hard expiry when updating timers on the same base
 462d0b066b613103f579793031429db2ca23abc0 tools/bootconfig: Fix integer overflow and truncation in size checks
 7812d6dab0698001e50e8c2f901e17da3eb6f429 bootconfig: Fix integer overflow in initrd size check
 2deb753127d7b7035e893955c5e91875e767d1f8 tracing/user_events: Don't destroy fields when event removal fails
@@ -96,6 +97,5 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf Merge tag 'x86_urgent_for_7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-419c042c451d64beb565bd5c940faf5dc73a8034 Merge branch into tip/master: 'x86/mm'
 
---===============8981309875320702576==--
+--===============1971512253869382990==--
