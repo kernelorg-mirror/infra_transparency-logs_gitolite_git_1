@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9208521970992553562=="
+Content-Type: multipart/mixed; boundary="===============4168047558411928581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 14 Sep 2026 09:46:10 -0000
-Message-Id: <178937917019.777989.1184692796558494112@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 09:46:15 -0000
+Message-Id: <178937917595.778147.8647892722557915993@gitolite.kernel.org>
 
---===============9208521970992553562==
+--===============4168047558411928581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/b4/acpi_scmi_pcc
-    old: 81a67e55493aec514643ec5ca63517783f46e4db
-    new: c3e315f633a7472c0ab143e382c942a2f2885da9
-    log: revlist-81a67e55493a-c3e315f633a7.txt
+  - ref: refs/heads/b4/ffa_ns_sgi_gicv3
+    old: b10881c49e9f2f1ca6271102704fccaa8676b121
+    new: 1320be42e7c15b4ae7760b25e3c825485dd7b3a4
+    log: revlist-b10881c49e9f-1320be42e7c1.txt
 
---===============9208521970992553562==
+--===============4168047558411928581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81a67e55493a-c3e315f633a7.txt
+Content-Disposition: attachment; filename=revlist-b10881c49e9f-1320be42e7c1.txt
 
 2deb753127d7b7035e893955c5e91875e767d1f8 tracing/user_events: Don't destroy fields when event removal fails
 08cacffeef8f64f1a222c93467ca84f24a46c953 ftrace: fork: Initialize function graph state before copy_exec_state()
@@ -53,15 +53,11 @@ d059d8bf2c9b5d563d15e7552d73e17d7535013a tracing/remotes: Catch nr_page_va overf
 d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled before publishing the new subbuf order
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
-dd17baee86b80a1e3eb3ba86282aa1ddeed8ea69 firmware: arm_scmi: Refactoring and enablement of ACPI PCC transport
-09f929a6d4a9c0821f4138cd2a7c0d639be1cca5 firmware: arm_scmi: Set generated device fwnode with platform helpers
-f8caf2e61164338b870c2a32adff75148ddeef32 firmware: arm_scmi: Extend transport driver macro to support ACPI
-85e9792d15673097cff6003bede31723aeeef779 firmware: arm_scmi: Convert OF-only paths to generic fwnode in SCMI core
-755e9e28684feb14843124ac938c5c9918d4fbcf firmware: arm_scmi: Fall back to ACPI HID when "compatible" is absent
-ab6e3ebfb92240ee8fe205403046fc34e03ff575 firmware: arm_scmi: Pass protocol ID to transport chan_available()
-4b5ef19db34963fd7618c398fb21e516b0d3912f firmware: arm_scmi: Refactor protocol device creation logic
-b6a8994bc9a4fc414b1bd2aa5b7157fef50ec430 firmware: arm_scmi: Add ACPI PCC transport
-a2406a4a97aa627b5c5ddeaef2a165fa72cab76b firmware: arm_scmi: Initialise known ACPI protocol devices and channels
-c3e315f633a7472c0ab143e382c942a2f2885da9 firmware: arm_scmi: Validate PCC shared memory signature
+b60a9394b252e91c99384ce638e65efe45bd1fc6 firmware/irqchip: Add FF-A DT interrupt support for donated NS SGIs
+ec6745622481fbe933fceb6d9f83b6902012226e dt-bindings: interrupt-controller: Add support for secure donated SGIs
+c0819bb898080a263f35047ff427b80b2de65afe irqchip/gic-v3: Support secure-donated non-secure SGIs
+67d5d124ad32bbbcce9f4dd1b843332b60b0b8ee dt-bindings: firmware: Add Arm FF-A binding
+ae39ec13f30668f9dd05ef6739ab96542cc298f7 firmware: arm_ffa: Use device node interrupts property for IRQ lookup
+1320be42e7c15b4ae7760b25e3c825485dd7b3a4 arm64: dts: arm: fvp-base-revc: Add FF-A notification interrupt
 
---===============9208521970992553562==--
+--===============4168047558411928581==--
