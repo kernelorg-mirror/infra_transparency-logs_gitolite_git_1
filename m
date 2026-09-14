@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1747361671609564264=="
+Content-Type: multipart/mixed; boundary="===============9208521970992553562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 14 Sep 2026 09:46:03 -0000
-Message-Id: <178937916368.777759.14549060786201157804@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 09:46:10 -0000
+Message-Id: <178937917019.777989.1184692796558494112@gitolite.kernel.org>
 
---===============1747361671609564264==
+--===============9208521970992553562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 1084107422ba8ec192d86da4000d0e22855f8ff0
-    new: da3f4c5770401f70cb8f3f98cbfffd4a9e832219
-    log: revlist-1084107422ba-da3f4c577040.txt
+  - ref: refs/heads/b4/acpi_scmi_pcc
+    old: 81a67e55493aec514643ec5ca63517783f46e4db
+    new: c3e315f633a7472c0ab143e382c942a2f2885da9
+    log: revlist-81a67e55493a-c3e315f633a7.txt
 
---===============1747361671609564264==
+--===============9208521970992553562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1084107422ba-da3f4c577040.txt
+Content-Disposition: attachment; filename=revlist-81a67e55493a-c3e315f633a7.txt
 
-a1c7570cedd03372812a5b693732880867babbca x86/mm/pat: Acquire init_mm write lock on collapse to avoid UAF
-d5d8b8662e6e5a565b47a0388640e88402f23274 x86/mm/pat: Acquire init_mm read lock on attribute changes to avoid UAF
-1587d3394e254639cc36516256031334095e6ef3 x86/alternatives: Exclude text poking against change_page_attr()
-9e4a3ec3411bb6bb59e3c1f29b75609f1e87aac4 x86/mm/pat: Allocate split page tables as kernel page tables
-f7491d7c81db0e7c304a7bd757a76d2fbeaff80e x86/mm: Fix user-space data loss with MADV_FREE and THP
-5a5d26f2cfe13467166219f6bf58099326912ddb x86/cfi: Fix FineIBT hash offset in cfi_get_func_hash()
-f65d38155aef069c897a64643a03db237dd1e0c8 x86/div64: Fix addition of large constants in mul_u64_add_u64_div_u64()
-27600805e62f800bacf990354632eae4e487d34c x86/amd_node: Fix PCI device reference counting in amd_smn_init()
 2deb753127d7b7035e893955c5e91875e767d1f8 tracing/user_events: Don't destroy fields when event removal fails
 08cacffeef8f64f1a222c93467ca84f24a46c953 ftrace: fork: Initialize function graph state before copy_exec_state()
 b22845487096247f5370c412376a472304627847 fgraph: Remove unused FGRAPH_MAX_INDEX
@@ -61,7 +53,15 @@ d059d8bf2c9b5d563d15e7552d73e17d7535013a tracing/remotes: Catch nr_page_va overf
 d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled before publishing the new subbuf order
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
-704340f1cd0dcef829eb62f5b48ae95a2ce17bdf Merge tag 'x86_urgent_for_7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-da3f4c5770401f70cb8f3f98cbfffd4a9e832219 Merge branch 'for-next/scmi/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
+dd17baee86b80a1e3eb3ba86282aa1ddeed8ea69 firmware: arm_scmi: Refactoring and enablement of ACPI PCC transport
+09f929a6d4a9c0821f4138cd2a7c0d639be1cca5 firmware: arm_scmi: Set generated device fwnode with platform helpers
+f8caf2e61164338b870c2a32adff75148ddeef32 firmware: arm_scmi: Extend transport driver macro to support ACPI
+85e9792d15673097cff6003bede31723aeeef779 firmware: arm_scmi: Convert OF-only paths to generic fwnode in SCMI core
+755e9e28684feb14843124ac938c5c9918d4fbcf firmware: arm_scmi: Fall back to ACPI HID when "compatible" is absent
+ab6e3ebfb92240ee8fe205403046fc34e03ff575 firmware: arm_scmi: Pass protocol ID to transport chan_available()
+4b5ef19db34963fd7618c398fb21e516b0d3912f firmware: arm_scmi: Refactor protocol device creation logic
+b6a8994bc9a4fc414b1bd2aa5b7157fef50ec430 firmware: arm_scmi: Add ACPI PCC transport
+a2406a4a97aa627b5c5ddeaef2a165fa72cab76b firmware: arm_scmi: Initialise known ACPI protocol devices and channels
+c3e315f633a7472c0ab143e382c942a2f2885da9 firmware: arm_scmi: Validate PCC shared memory signature
 
---===============1747361671609564264==--
+--===============9208521970992553562==--
