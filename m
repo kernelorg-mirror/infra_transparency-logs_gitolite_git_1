@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============9112973649188353438=="
+Content-Type: multipart/mixed; boundary="===============4682559962957933537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 14 Sep 2026 14:31:09 -0000
-Message-Id: <178939626980.1227302.9561466260293437646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Mon, 14 Sep 2026 14:32:10 -0000
+Message-Id: <178939633097.1227981.5899561286378145998@gitolite.kernel.org>
 
---===============9112973649188353438==
+--===============4682559962957933537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: fd73f4a6659897191fa0d40695fe370925dd3780
-    new: de7f683ff9e070ca19565373c546d736663e5512
+  - ref: refs/heads/b4/bind_taint
+    old: 40c20dbc3fc7bc0800fc11793bb6b4a7e954c49c
+    new: 259f7ab9968b5d272a0ceecc7aecdd6d113a030e
     log: |
-         de7f683ff9e070ca19565373c546d736663e5512 tty: moxa: remove driver.
+         3ec7a1d9ce12cd949dd9e01aa6a0bddec6648395 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
+         263a9bc69b2f7bd3b1a80492e4aad70276344a4a module: pull out add_taint_module() to be public
+         4eae70adaa0c00d2cfd5bc294b481efe2d01ffe2 module: fix up documentation for add_taint() and add_taint_module()
+         259f7ab9968b5d272a0ceecc7aecdd6d113a030e driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
          
 
---===============9112973649188353438==
+--===============4682559962957933537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789396260 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1789396266-a3f5844a193799489fec52064b826e113c092d5f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789396306 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1789396312-777e098bc8288354e7cfdbade7c9029630fbefa9
 
-fd73f4a6659897191fa0d40695fe370925dd3780 de7f683ff9e070ca19565373c546d736663e5512 refs/heads/tty-testing
+40c20dbc3fc7bc0800fc11793bb6b4a7e954c49c 259f7ab9968b5d272a0ceecc7aecdd6d113a030e refs/heads/b4/bind_taint
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqoBSQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZokP/1m7/y1HXpJ14qmN4lLq
-BKhp+WJJdLdf6Yn0ffvB8T1A37fwFmwM/4nPPkR9Iid1S79qEOI6IvH7DEkcyZ+p
-+AvjeuMC1xM43bu+DZJNQj4QwbvlaTEJFxiOFAu/s9ehKGAnIJAfNjuUU5oIXoT4
-sQLI912bsHcKe6+zKMv+b5SjBH6myjHlqH7MEGFU3Gm3UhEgL2/yCsDPOslqbtq2
-qG5xGUCICOm5QzQ0mddx6zOcLNEMpTS5rzOyD3wutGaUuiGEZQwPkqsd1Q/F39AB
-eJzq7JC41RJwHslXM5uk+yY03RK13lK6IZiSlvEWNM2dDa2p4woljH0o4Se+SVfc
-4eK7DW01XeG1rTyoHRYaLnG1g+aX7XLtrnaVSmhtZXbqwSTPHEsNdN3g9Z5954Xf
-tLzasWPzZ3o4LfDnfwqsZGglKujvOTfe7h4rlzmKBluneTCxcjdRgCBjII5FhVvB
-E3hjE0yhu0nVwVrR+z14l4l5jDpKlQTiZjL5dPVaQU00vXke/nYt6vnWXAdAzq7x
-8clQEQy++Val/+2iRpNWuLS8nJRHZKlDuR1Mm3gUNJjUtYhOsEkBGv2hem8cBdg2
-sgizrzKWngd2xUzS3kehicAOvd4xMwgbJmX6CBhJdVo7+Gh6493Y35vOVRcWKneK
-UZIW6EjghUhVqmMyhXDGyAS9
-=EQFY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqoBVIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1aoP/0OyDBE82shTocGBtF2L
+g4V/AIcv938F/TnETJyJKeDBXbOZDRnhUdO1cHAhoOjbMS7amQpasMp32OlMYCqi
+PfK5R77XaxBYFcjk9HbQZ4cLVALI1VJ/Zc8Ux8CLkd95NxQYC0fEJLX5Bfr+MnHJ
+2WxW4WAdBV3yWfY5LX6FOuHZB6sLK+/KK5x9aJ56X2CyxKbMoqFY7hFARf/sg+b7
+k1SNBO+2UcTh/4S5wZYGryEsiY5Kw7yawKkbwJbLvk0Jg33oz+iIxJB6nF2001WS
+6miaYVJw3HSJiaahe5AaJP8YPbFtWQmYP3lZMPl97OAYimxui0aynKuuw0ZWrri8
+OWwEaHSyJ4iug6sDo0Oa3lL3j5VTpRLSKNMz4YBXIRqRvltoED1OeEa2knrobsGr
+hI5cEnunTiKdnesO/jy4YwrqOqav4bnjR4TBYnBX44mDs0sNCHa/t6Bftk/KXbN2
+kxFy292Ej6ReTeaJQ5MBbtlO0Sy0dzTlsQxiHKvNg3HWm77ICZrI7JZK/ji4/rOw
+CEF4SUW9OutF32KBE2cPnd/mLSoEbeRQswOPuNlZC4kbITvYHb1w+b3neR4l5gNc
+yFofFvPaC6+f7z1GO4W3m4DZA4BCveL/Wb+6vw7RIDKp6WW3X6VD5kjZ+Dqc5thO
+TMvVvIdqMWqBkCthqR28Ysm+
+=BFEu
 -----END PGP SIGNATURE-----
 
---===============9112973649188353438==--
+--===============4682559962957933537==--
