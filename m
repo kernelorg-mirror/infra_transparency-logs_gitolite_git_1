@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Sep 2026 09:23:23 -0000
-Message-Id: <178937780382.755417.16753428360436589460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 14 Sep 2026 09:23:58 -0000
+Message-Id: <178937783856.755751.10958300056039410626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-7.4
-    old: 604ac544390f420332b10738cc10b29a2e91bac8
-    new: 81d2ec6f924e08efde646b60473997de0f568fd3
+    old: a655daad54efa1e3959cd642706eb81c9ebafc66
+    new: 51d6888b51e0c962250311b2cbfe5666da31dc0e
     log: |
-         81d2ec6f924e08efde646b60473997de0f568fd3 ASoC: pcm5102a: Add support for optional reset gpio
+         b89f8972f7547afa74a9ced5a68862892c22121a regulator: dt-bindings: Use consistent indentation in the example
+         51d6888b51e0c962250311b2cbfe5666da31dc0e regulator: qcom-rpmh: Fix the return value in rpmh_regulator_vrm_get_optimum_mode() kernel-doc
          
