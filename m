@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Mon, 14 Sep 2026 14:18:07 -0000
-Message-Id: <178939548759.1214079.4946513647628203156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Mon, 14 Sep 2026 14:19:13 -0000
+Message-Id: <178939555331.1214540.10109171829981620605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel.granados/linux
-user: joel.granados
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mwalle
 changes:
-  - ref: refs/heads/jag/sysctl-next
-    old: 1da0344016a7094ced23dce104a93af535e8ba83
-    new: 1068f1c5f71a829cfde89536b358644a694ccfe8
+  - ref: refs/heads/spi-nor/next
+    old: 700bf34058ca7cd792236b1ba5caad3770d66208
+    new: a96edc3f0b4f036a5b6ebc9b1eca4273ef5ce2d0
     log: |
-         acd19f2c56f20725fde8bc60067d165634dda932 sysctl: collapse redundant CONFIG_SYSCTL nesting in kernel/sysctl.c
-         443bea2f71c534ff482c4383cd0d7004d128c9bd sysctl: consolidate CONFIG_SYSCTL into a single block in kernel/sysctl.c
-         1068f1c5f71a829cfde89536b358644a694ccfe8 sysctl: remove redundant CONFIG_PROC_FS checks
+         90f242c92d3ab241f0d22e2368b57750b8755667 mtd: spi-nor: Fix quad-enable for flashes with QER bit in SR1
+         f917d9edf54c3dd578efc231b8fbcd35744f99cd mtd: spi-nor: spansion: Remove s25fs256s0
+         a96edc3f0b4f036a5b6ebc9b1eca4273ef5ce2d0 mtd: spi-nor: spansion: Assign .fixups to s25fs256s1
          
