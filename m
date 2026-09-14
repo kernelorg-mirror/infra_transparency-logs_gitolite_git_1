@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Mon, 14 Sep 2026 04:51:22 -0000
-Message-Id: <178936148221.473012.5306874186411482456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 14 Sep 2026 04:52:35 -0000
+Message-Id: <178936155536.473731.13763368969742109383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2026-09-13-21-50
-    old: 0000000000000000000000000000000000000000
-    new: cde6019dc3f352200003b95648a03b6834fe75ff
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
+  - ref: refs/heads/master
+    old: 698181b2d5fda2192eeab4029e4e02646201d471
+    new: 29fcf9ce4bbdf4cc339def776860e1c0095bca98
+    log: |
+         29fcf9ce4bbdf4cc339def776860e1c0095bca98 bpf, x86: Use global buffer for trampoline size generation
+         
