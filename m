@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 14 Sep 2026 14:00:52 -0000
-Message-Id: <178939445292.1198487.969879797134439391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 14 Sep 2026 14:07:36 -0000
+Message-Id: <178939485687.1204350.9251161331106091354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 91506ac2c6cc670fa23c636c3dd4bc66b5635d2a
-    new: 4d46e877c21d07ddcad03da7f3b05ad2cc22b5b3
+  - ref: refs/heads/dm-7.4
+    old: fd73f4a6659897191fa0d40695fe370925dd3780
+    new: 7fe56d825ae0cf2cc82033785db1351eb79b166b
     log: |
-         4d46e877c21d07ddcad03da7f3b05ad2cc22b5b3 sunrpc: pin gss module across auth_domain RCU free
+         936293c9f3f4f2a0d1b80df9332e96c552ac3b37 dm vdo indexer: prevent delta list overflow on load
+         e3683a76a313a81f3f7bc7f65e4fc1e61232838b dm vdo indexer: validate record page numbers better
+         f9e2d107ae0184266484d4a8d83b2976b4bb51e0 dm-delay: advertise flush support
+         228c435c00dbd0b66e0a37fbe64bbd31c45563d3 dm-crypt: Use memzero_explicit() to wipe key material
+         71daf42f5f647e5140a40a822918cb90aba9b050 dm persistent-data: add btree traversal depth limit to detect metadata corruption
+         37b02869f0996c882ce4da9ddccc34cbe14c741a dm persistent-data: record space-map errors in transaction manager
+         7fe56d825ae0cf2cc82033785db1351eb79b166b dm-clone: remove unused memset
          
