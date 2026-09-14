@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6183112537833246156=="
+Content-Type: multipart/mixed; boundary="===============5635024109317307134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Sep 2026 08:49:58 -0000
-Message-Id: <178937579898.726574.10706613392497137380@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 08:50:10 -0000
+Message-Id: <178937581049.728758.621852078623171009@gitolite.kernel.org>
 
---===============6183112537833246156==
+--===============5635024109317307134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6c90d7cb82736d1f511676517240d37bff65112b
-    new: af603e3278d558258b21125822229de0625182b1
-    log: revlist-6c90d7cb8273-af603e3278d5.txt
+  - ref: refs/heads/m68k-queue
+    old: 880c097f3cc3835c11f9c531645c998767257fd5
+    new: 91895a15dd0dc36a54d40d67ae631af21b4da416
+    log: revlist-880c097f3cc3-91895a15dd0d.txt
 
---===============6183112537833246156==
+--===============5635024109317307134==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6c90d7cb8273-af603e3278d5.txt
+Content-Disposition: attachment; filename=revlist-880c097f3cc3-91895a15dd0d.txt
 
 0ecd56573c1f272c72298154a3854380876dbb7c ext4: Avoid entering writeback paths during fastcommit replay
 82e9343260dfc6dda6349f285d9a5eac3e0738d7 nsfs: keep namespace tree fields stable until after RCU grace period
@@ -759,6 +759,8 @@ d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled befo
 d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem to have fallen through the cracks
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
-af603e3278d558258b21125822229de0625182b1 Merge tag 'v7.3-rc3'
+0cff248d4f10778e9e729df9eef6aea01c43b5f7 m68k: atari: usb: Add ISP1160 USB host controller support
+96f719d811eeaa62fa9122c6a884e3e7d5595d2c m68k: atari: Update Kconfig.bus help text
+91895a15dd0dc36a54d40d67ae631af21b4da416 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6183112537833246156==--
+--===============5635024109317307134==--
