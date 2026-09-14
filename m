@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2726067401838059464=="
+Content-Type: multipart/mixed; boundary="===============8981309875320702576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 14 Sep 2026 08:00:33 -0000
-Message-Id: <178937283337.691152.15807671363241357335@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 08:00:55 -0000
+Message-Id: <178937285526.691559.11494542157003088519@gitolite.kernel.org>
 
---===============2726067401838059464==
+--===============8981309875320702576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,35 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1b1e2b3b9dbbb75b9c340f0fcdaae8175e9192c2
-    new: 79ba5fb9e9ce4df84809079c82c4f18b046172c4
-    log: revlist-1b1e2b3b9dbb-79ba5fb9e9ce.txt
+    old: 79ba5fb9e9ce4df84809079c82c4f18b046172c4
+    new: ef9fc3f71d64aa621a732f86d1e77bf0a80abe68
+    log: |
+         419c042c451d64beb565bd5c940faf5dc73a8034 Merge branch into tip/master: 'x86/mm'
+         d5732681c56376dd8efaa5d7ee5fd241b26a8066 Merge branch into tip/master: 'irq/core'
+         90c4f879b057a31779dda645d73f69d420c1c14d Merge branch into tip/master: 'irq/drivers'
+         2b28a9d81ea3d5fb469da494327b5ee7612fad18 Merge branch into tip/master: 'perf/core'
+         50bba79a10f2b68478e0062ebf9648f9f77083d9 Merge branch into tip/master: 'sched/core'
+         2caf27480c59d73aa2ed63026511054fd1faef71 Merge branch into tip/master: 'x86/boot'
+         b487ad452321ef11f78c54763edd7272f3432f38 Merge branch into tip/master: 'x86/bugs'
+         e98650536ba13111ccfea33bf3baf1faf130de0e Merge branch into tip/master: 'x86/cpu'
+         9becc93076456da9e12343b4596b1c0867c2d894 Merge branch into tip/master: 'x86/kdump'
+         140128b413a86de8a59d4e4e95d4fbac09c82790 Merge branch into tip/master: 'x86/misc'
+         f2cee0fe7a07437e7e7b3efe8a407e07791ac2d3 Merge branch into tip/master: 'x86/sgx'
+         ef9fc3f71d64aa621a732f86d1e77bf0a80abe68 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: df4b8e262eb264eb40e04430f413a961a0f369e6
+    new: 419c042c451d64beb565bd5c940faf5dc73a8034
+    log: revlist-df4b8e262eb2-419c042c451d.txt
+  - ref: refs/tags/v7.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
 
---===============2726067401838059464==
+--===============8981309875320702576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b1e2b3b9dbb-79ba5fb9e9ce.txt
+Content-Disposition: attachment; filename=revlist-df4b8e262eb2-419c042c451d.txt
 
 b6b9e6d4abe87b16ab55990b887c6fad8e7a01af rust: pin-init: use irrefutable pattern for `stack_pin_init`
 e510334fbaeaa016ac76d80b4c5f47611c5f7860 rust: samples: add missing newlines in rust_print_main
@@ -76,6 +96,6 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf Merge tag 'x86_urgent_for_7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-79ba5fb9e9ce4df84809079c82c4f18b046172c4 Merge branch 'linus'
+419c042c451d64beb565bd5c940faf5dc73a8034 Merge branch into tip/master: 'x86/mm'
 
---===============2726067401838059464==--
+--===============8981309875320702576==--
