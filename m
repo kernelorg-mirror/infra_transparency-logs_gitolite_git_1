@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Mon, 14 Sep 2026 09:34:57 -0000
-Message-Id: <178937849743.764805.16696504205416013338@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8546534706046084667=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 14 Sep 2026 09:35:59 -0000
+Message-Id: <178937855949.767622.5199014405260926276@gitolite.kernel.org>
+
+--===============8546534706046084667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 3e1ee800e52a0f53d7d9a7809be1ffc80ec1788f
-    new: cde58dc40cd118855abc674b40260c24f2076c3c
+  - ref: refs/heads/master
+    old: 9f13e7e8bb3491f0d3ff10679475adb29d76a0cc
+    new: 6f1aa55cd2f6761caefc190769de890dd7d6dc44
     log: |
-         a6b4ebfc16fbd1aa271cf08c35abbe71942b82ca f2fs/024: add missing execute permission
-         650bb021929cb7a480555c176f8688c266f510c1 common: fix spelling of SCRATCH_DEV_POOL
-         dfdd743084dfc12f8755512e32443d161aa4752b common/rc: remove trailing space from _mread() default map_len
-         128ec7a21f60a7b76044c22185b11c7f0df1f64e f2fs/009: fix race condition in orphan inode test
-         a90ba59dca447d29b6e1cb308a91ba4d3c671d7f common/scsi_debug: don't slow down I/O
-         78f86c0dc9ec7be0ef635561e46d00cb27fbe6a2 common: factor out a _bdev_disk_name helper
-         76f16d87f1567ba173dc129fdf0b18f3320feba5 common: add a _sysfs_block_integrity_path helper
-         1b04c87913d836f9b985989b3c126dad68c24136 add a "pi" group
-         44da803a375a5012e7d76e224121a4545a0c2a02 generic: test I/O on devices with T10 protection information
-         cde58dc40cd118855abc674b40260c24f2076c3c generic: test corruption detection using T10 protection information
+         6f1aa55cd2f6761caefc190769de890dd7d6dc44 drop a 6.18 timens patch
          
+
+--===============8546534706046084667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789378551 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1789378557-12486de335720bbd6420f2bf9d9d99f00a75052d
+
+9f13e7e8bb3491f0d3ff10679475adb29d76a0cc 6f1aa55cd2f6761caefc190769de890dd7d6dc44 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqnv/cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zf4P/A0gkytZc88JlAYN2lFc
+uCvFu6PkgnYNqgt7DuZTh7VqyNZSw78jRby0oPmNH3iBjPtSkinQVWztp5NYbVXD
+zZcjqpMKdDedtNJsW/Gz7s/yqI05m4aS7VhMzoMNP2o5GPag0OuNI/5wALyziq6k
+1vj1qcxLoZlzG3P6bK8IkBR9s8GppKH2bwr4A0BUrM9dn3BCbSw1vWidNEgoenFO
+wjvDd4kRVi0X+7Tn9ceqK2ueRPWEIMW6jXG2/hpiJd/WEitwRjLPHETH5YbxzuSw
+5iepsaMw/E5HJqK+iBgHzWkS91ZD/HIifUK2AmUMAYO//8fkAh/CdZaK6JWwX+l8
+BTvjhNVc11fRus3mDCcANlP0QTebx5NxTFj2oRcvUz6XrotjGOw6+b8AC0P6ffFL
+f57t5K/4OzBZEvl+i/6Ju4p5YndlXbZSRBuDVf8pkCbNLvX9gqwixBDdQPxn2a4m
+drNzUR+CrXOJ75PVtIqBoHClpVZeTKhSopmQZq5GUvvOG97IRV9n/01jNdfyuE35
+RuNMBix+Ud7ynBQK93iGU4xCTB+2txpafn7ueOvzFOYbap7NubvNwl+8Fg7nwC3X
+5xz2HUiS9cd99diL/BVZYt2voMNQAymNOzq4b96DbHet7gmExnOk8XXsm522DuV3
+/6Ze2a3vLyLbIYzoyZsmyZFW
+=z2KB
+-----END PGP SIGNATURE-----
+
+--===============8546534706046084667==--
