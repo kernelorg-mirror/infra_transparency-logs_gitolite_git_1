@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 14 Sep 2026 08:51:30 -0000
-Message-Id: <178937589057.729951.3106088484104738060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 14 Sep 2026 08:54:14 -0000
+Message-Id: <178937605451.731132.15060458278931933600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 1f1d0812f6a8ab8e6f709c599f137c99646512cc
-    new: 50fd0ada8d37587223001600933270b59cb30e19
+  - ref: refs/heads/next
+    old: 20bea8ceeb6ab6ab918ee8fdf5855541214907c4
+    new: 5da91c3694b8060b651aab5d95b2e4729c6e2b56
     log: |
-         50fd0ada8d37587223001600933270b59cb30e19 gpio: virtuser: skip free_irq when no IRQ is installed
-         
-  - ref: refs/heads/gpio/for-next
-    old: 4d305c2273123119c27d6e4c822215e650c451e3
-    new: 7257c35db0fdb4fb02d857a8197a16afa84d92c0
-    log: |
-         3f860d25f7be981d78c1b85a8d4fafcd914d4df9 dt-bindings: gpio: otto-gpio: Add gpio-ranges
-         7257c35db0fdb4fb02d857a8197a16afa84d92c0 gpio: realtek-otto: add pinctrl support
+         4d84caebab18c7c5bc84a3ed7cfef439449f7ae3 thunderbolt: Write descriptors in tb_ring_poll()
+         de9d89b4086129cd575640ed111b18d43c01a5d4 thunderbolt: Add tb_ring_poll_pending()
+         7049eb52c81645df81b1867e48bda89f11e585b8 thunderbolt: stream: Do not hold the lock while busy polling
+         5da91c3694b8060b651aab5d95b2e4729c6e2b56 thunderbolt: stream: Check the Rx ring before task starts sleeping
          
