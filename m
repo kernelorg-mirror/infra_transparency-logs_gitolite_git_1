@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 14 Sep 2026 20:26:28 -0000
-Message-Id: <178941758857.1495303.12533803648545121214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Mon, 14 Sep 2026 20:33:39 -0000
+Message-Id: <178941801979.1499647.1512475065282451032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/renesas/x5h/rtc-experimental
-    old: 4e5a961b33a748b8a72dcd9e7b2bcbe2ebbba33e
-    new: 47782ad66f09dce1a69d0553815eba905cc4b75b
+  - ref: refs/heads/b4/ks8995-to-ksz8-v7.3
+    old: 4e9acb6a77921a91eb6d20355c349889cae808bc
+    new: 697d559bb5118e7db142d8057a3b563d3f03d661
     log: |
-         edeea1ca3e5af37fb9209f5221574826e12d3b98 dt-bindings: rtc: rzn1: drop unneeded 'start-year' from example
-         d16d650fad1c5cda25d1c71a1f02254997cfe410 dt-bindings: rtc: rzn1: add SoC names next to their IDs
-         b4cf85dc234f8d3faf53d3152ff64f95a6ef56cb dt-bindings: rtc: rzn1: interrupts are not required
-         6665cfd4ab1b4b685179f319d417be2a48a25c3c rtc: rzn1: make interrupts optional
-         56ba8f93d46e5f4f8a624161cb43cbb8853319d4 dt-bindings: rtc: rzn1: add R-Car X5H support
-         ad6cc878afa3734b346fefd546b506a75e054580 rtc: rzn1: add R-Car X5H support
-         47782ad66f09dce1a69d0553815eba905cc4b75b X5H DTS{I}
+         73ec60a02f6c0f7a0f70bf6479aeacd8c4968912 net: dsa: microchip: Add support for KSZ8995XA/KS8995XA
+         0ef18fc2388c48a5d73addebed338a346e0fb1a8 dt-bindings: net: dsa: microchip: Add KSZ8995XA
+         43d9b04297d310fc6a5a4c37af2fc7567371a6e4 net: dsa: tag_ks8995: Add the KS8995 tag handling
+         4c92050d0913aeda4c0fc72e7773f052555291cd net: dsa: microchip: Support Microchip KSZ8995XA / KS8995XA
+         697d559bb5118e7db142d8057a3b563d3f03d661 net: dsa: ks8995: Delete surplus driver
          
