@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4388518473375724049=="
+Content-Type: multipart/mixed; boundary="===============2511992459841237255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 14 Sep 2026 14:27:46 -0000
-Message-Id: <178939606633.1222718.18187250145876798787@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 14:27:49 -0000
+Message-Id: <178939606986.1222930.8373975979537199529@gitolite.kernel.org>
 
---===============4388518473375724049==
+--===============2511992459841237255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/tty-linus
     old: df2908090cda368b01ff43709f51890076c56157
     new: fd73f4a6659897191fa0d40695fe370925dd3780
     log: revlist-df2908090cda-fd73f4a66598.txt
 
---===============4388518473375724049==
+--===============2511992459841237255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789396055 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789396062 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1789396062-ed5413cb555e4afa8d243522bfa28143a852a3d4
+nonce 1789396068-eef4129186df20093edd8405538cb27a66976b18
 
-df2908090cda368b01ff43709f51890076c56157 fd73f4a6659897191fa0d40695fe370925dd3780 refs/heads/main
+df2908090cda368b01ff43709f51890076c56157 fd73f4a6659897191fa0d40695fe370925dd3780 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqoBFcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fy8QALs8uKS0OfCFkt1ASuTn
-fQ1viS6SEuvY+3P9S67HQ04WjzWv7X4nCJWFRboNxLcmbdukAEVDmvd0aGhijTBU
-vzevoMFmd9D7InGYdEXVQX6LrZrQYU7sVK8SCU6k6LthngnTGcyx4uy1OV8wvQM0
-0MzdvYFbL6JXP6u8i3+iW5KyBGi4ak7dJ8GBGkz4vrIuWQ9/TdG3DRV8Y531kZvc
-XmidW5p/hgB5Rzso+q8xIoflCFcnfwBGQrd+0piAGqU9XQWtnfKrrfE59v5mioGd
-tZKVFdEVdpbIUteH5WCg43pwypv929ZmL1xJBjJysqX9GPQUNDAKyzuf2RIgjEDb
-Z1sW6Uw6Qx1jLHvYLZAHv3NXwDmDneExZeJqWtq5YuHsIJl8LMrxW8d4PoN+6v7z
-kyzaUN0fbEv1QtR9gc2CFgeFyOKu51Lniru/RuGYGRuobdFOXMbJJspCcXZCJbF4
-dK2Cm3W6jFY8J7gdEz9lw15JPvGJzB5DR2/pSCrmeQv00pYR5eGaWIAfLHFkQQdU
-VcbQzcZUGR4/7Toqn3TxeWuRg9xFoNsCwEJkNGLHBmEJ0zqBMJD1Uowy7F3qFTPE
-p3Wyjc+86+NACmyclbInreUDgotx8nZT3PBg2Jw3+zuYmTIYEdrnKyxbZ8Uqq6er
-pPzSjf5kgcsAzP5bVSVLbySF
-=Aw8e
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqoBF4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6XIQAIDDYy6I/rPNKfDm5dH+
+nYu9dK60Ho+YlKW6nuB1j+nIhxY8VlP8ok0+WGCE83GNX4xirpB05zPxZxdGLzx2
+mUIDuvq0VTI46D109WMpyuaPS/vybyy8k1dXvvzwxBLiA2MEWQP2JOh9gnxc7Ikc
+bORN44m2wvgXQpSI5kwxjJMz9HSYtMU8NpbSMrqPXQiImjJSnszukRxhKjUhVas/
+8wivse6xQpH77BgZFg1r4E1XXxg6t6aZ7FP2pQDpakCKbQMQDY+uOjD5B+v18myj
+qvEFuD5hrYhMUhhCrv4NOK9fFOAQhIYqFnfrcQX6NEcrzILoqdOt7Ws7nt4ui1EH
+QXM72ell2AzmNMp0NM/KaJqGCs8fMKAfQcszD1/lnkNh4nqNJJaTvqZXyKJnhUIK
+8LCyl0bv69xAkwie7GBCfw5POde+sBBtx7A0SkaVYRYPJgQBJqgJ/aJbe1RffBNG
+cgtcnfvO2+MvvPl97AiYZIQAa7wTK/tZ8F0D/UUgqrvx1gJ8e7iCBNUlnTJM01DW
+4JpJfQPYLZuATnm6OFbJPLTaiykU+6v5ijMYHybdXh8oakGgmjaNk49AAD6+DGM9
+dqGW4d5/7w/hpR08gIcV7+lnbQ1sCWAbhfFUYVwKrcXXaoSlPIEU90U8ZLCHALpz
+dnqc4aXxHfgK9sSKKMTw65HK
+=psQB
 -----END PGP SIGNATURE-----
 
---===============4388518473375724049==
+--===============2511992459841237255==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -791,4 +791,4 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 
---===============4388518473375724049==--
+--===============2511992459841237255==--
