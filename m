@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5926412360940732143=="
+Content-Type: multipart/mixed; boundary="===============0298493525991638308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 14 Sep 2026 11:40:34 -0000
-Message-Id: <178938603446.1037277.7017381913259071830@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 11:41:09 -0000
+Message-Id: <178938606994.1038005.12930546369285934990@gitolite.kernel.org>
 
---===============5926412360940732143==
+--===============0298493525991638308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf
-    log: revlist-cee9395acd80-704340f1cd0d.txt
+  - ref: refs/heads/b4/bind_taint
+    old: 14adb8e1dee44437981f15d4e721b5f838c02e80
+    new: d0649bb60ab5738f376b71372ae9a90a68e6d785
+    log: revlist-14adb8e1dee4-d0649bb60ab5.txt
 
---===============5926412360940732143==
+--===============0298493525991638308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789386025 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789386044 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1789386031-4932a62ac747c2267ac037789bfa9468d8c3e5ec
+nonce 1789386051-8a239e98bc322cbc3d6a2663c1abd7b233fd8967
 
-cee9395acd8043be0644b25c34bfa86623f2b935 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf refs/heads/main
+14adb8e1dee44437981f15d4e721b5f838c02e80 d0649bb60ab5738f376b71372ae9a90a68e6d785 refs/heads/b4/bind_taint
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqn3SkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+67sP/jCxedH4aUT2Eu/Ok6T7
-Ai5aZCvIwsg6DkaZ8C4hyMFmg0rPASv6kX3RnOesveXKjV2OrnPWCGcrME6x3agc
-cN4ZC65sAPlQ1A/5k4LZ5twdpTE2ZJtYeV+4ZGiwE8iIOTKw6Q769AQcC2mQTo6Z
-XXPUZ+jmGPMBTfOdJa0Z7k7TMXwSqMx7NKPeanLW25P8Gi0owxeOU9W0VLusf7VV
-GQbgSOnM4taID8tr8Ome3CFmcMEeasG8HhKCBUWeALINhUv2dZ4toTw0ULLU4Bgi
-TFyR0kG+0BLNe9LEYAVA2fwvlKvNaeHz1b4xy6L6xmCmYN9j0KwF6jR4TLu1L9ng
-Exz0WyDk00Gm+NjdXSgOQkZ01q9sU6ZxKsAkVZ16e+8h7nMz1GhVoN8EjS+ec6ic
-ePltches5cAjHN6r8VNSkB0nOPfpC3/wXcg/XZJA15ckreyD2R85rw4att4jXJOe
-pA2j4xrco3lVNIFENv7CkEpYmTc4m3/Zipx31tyows0UEgjNm/e9pMnp39vpz9BA
-HHVvhg9JE9FfSP7YmAx+loMn1duQkQNBz19EXttKJt9XwYev9kol16NORBr9f8DR
-o0VTGD3HaBeEniPdMNh9/OMOO+Uw23yEIn5+t7w+fWdzyGVTZFVWlmGgU17jOI48
-IvX3BTt3aLTE+qpuMfnJCVUU
-=XJvP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqn3T0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8CwQALbPjjn02l4aIHsUBxQX
+cYkVV8KuyWsI8hZrWy3zj31EeBGuAasCgqDAjtjkuhXFZ0DAKa0/5Rx/pLnBEaao
+8a598pk66BMI/q/YilDE0VUgokT05e0B9JWd515PHDj6l3Tqy+BSvIvKL5hxPiV9
+q/waMp7lbqJADd1ztikfgMUzx0vxE+Xd33SoOHz6LkTNiFT56/Ic3OSbO0SzQQwl
+psJzrqH4aBBIpf4hydMhfT3fOvPsJLG5FtLUZ2U/MdXpx98NUwmqxALZUydeiVeM
+ZPypDHjmFdm6fh3OipYWv8Hfj0eD91aGluSeA2b46GN2fs9ghAcRPFzVeDokm+k+
+juQAV7sDYSVK6C30YLMWm7YeMfEnvxFLHtuwiUa0ljIdkbyOStDp/DsOSfW9aQJR
+6K1kloJznjkNaAvb6BMA4hhuhkUmPKihYG4kSrfgQxhNcUETFltz8KHTB9bxxtUS
+zdoSNQwRdoEdHatsMBJWKm6ZeWxzRscjzBWj7MQr6NTDPXrZbu3GsaTpWeLAfMU4
+23v/X+oF9SoeTdTF9HeyZJo/NhVl8Ey+L4W0SmEfeyKKZ8K8BwXFoZmkZhBKLuso
+ErR+rLFkGBmDlUA0v09YGy51zL9QBtyZQVV6kPKemUzGDN/8Or843nwaM7ZvjA87
+zCWsB3dfF5x4GsIlitc+GKIL
+=IdPR
 -----END PGP SIGNATURE-----
 
---===============5926412360940732143==
+--===============0298493525991638308==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-704340f1cd0d.txt
+Content-Disposition: attachment; filename=revlist-14adb8e1dee4-d0649bb60ab5.txt
 
-d3dbccfe6afa7b9a6a7ed65cfaa76a47fa050a56 ASoC: fsl_micfil: balance mclk enable/disable
-4ed5bfc41071a48d609a6eaf41d68b2fd09e69d6 ASoC: Intel: sof_rt5682: Add support for nvl_max98360a_rt5682
-1d2929d0850fff683b8aff051275945e65f082c8 net: psp: do not inherit the Rx association on clone
 2ccb8878c149443c6acf628b438c9c942c20abb2 dm cache: fix demotion stats in passthrough mode
 0c06c4ce0206290c9a934a1e7196aaa86adfe018 ASoC: amd: renoir: fix disable_pdm_interrupts() to clear mask bits
 1b67e0d3b9691d7b6b74e18960ddd2be24f9dc9d ASoC: amd: yc: fix memory leak in acp6x_pdm_dma_close()
@@ -1081,5 +1078,8 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf Merge tag 'x86_urgent_for_7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b136dfb2ef7609875af4c137dc20feca09432723 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
+33c01271792ee1b35e1921edc48375f59b59df30 module: pull out add_taint_module() to be public
+d0649bb60ab5738f376b71372ae9a90a68e6d785 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
 
---===============5926412360940732143==--
+--===============0298493525991638308==--
