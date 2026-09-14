@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3163226737822200998=="
+Content-Type: multipart/mixed; boundary="===============3162836771276025181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 14 Sep 2026 00:38:08 -0000
-Message-Id: <178934628802.238547.1351971252453523953@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 00:39:21 -0000
+Message-Id: <178934636122.239105.13507414673578206867@gitolite.kernel.org>
 
---===============3163226737822200998==
+--===============3162836771276025181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: b0b082cdd1354a4aabdf0092d5d22bf4996ee413
-    new: 47e2b4a93936a3037a41cf2103a03a08a37483be
-    log: revlist-b0b082cdd135-47e2b4a93936.txt
+  - ref: refs/heads/nfsd-testing
+    old: 5fe97e4d0a041521dc4aef417ff250c902fad928
+    new: 91506ac2c6cc670fa23c636c3dd4bc66b5635d2a
+    log: revlist-5fe97e4d0a04-91506ac2c6cc.txt
 
---===============3163226737822200998==
+--===============3162836771276025181==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b0b082cdd135-47e2b4a93936.txt
+Content-Disposition: attachment; filename=revlist-5fe97e4d0a04-91506ac2c6cc.txt
 
 0ecd56573c1f272c72298154a3854380876dbb7c ext4: Avoid entering writeback paths during fastcommit replay
 82e9343260dfc6dda6349f285d9a5eac3e0738d7 nsfs: keep namespace tree fields stable until after RCU grace period
@@ -848,5 +848,61 @@ a2bd20dce53263b08fb58ddfc3f648be5eb22f91 SUNRPC: Receive RPC records with ->read
 b066d7d303001354ca7c6cb09af8f6da6aa1dbfb NFSD: docs: Fix pNFS SCSI Kconfig symbol
 c627ba2c5d91d78c854cf012c5260c1dc9c310b0 lockd: Fix use-after-free in nlmsvc_retry_blocked
 47e2b4a93936a3037a41cf2103a03a08a37483be lockd: Serialize block retries against host teardown
+f7fbba6953a2919dfa2d0d566f919986c9d4d7ac NFSD: Fix out-of-bounds read in the rpc_status dump
+340d1137a812a73a2d9f380bd071abbfcb254df6 NFSD: Fix POSIX ACL leak in unexecuted NFSv4 COMPOUND operations
+7a46125993f61710ff8595b8bdfa966fc8eed303 nfsd: don't modify a session slot when replaying its cached reply
+2be73688b5494f0ec5d3571e83c9900e2c81715c NFS: Import NFS3ERR definitions
+14525f92634c4863aa1872785ca6396d2e595f44 NFSD: Rework be32 nfserr definitions
+dae9330990f31ffc17cc0c3a545e5b35c06652c7 NFSD: Replace the use of include/trace/misc/nfs.h
+95ff67777dfaef49b4160c3a376b4c3224236ed5 nfsd: hold cl_lock in client_has_openowners()
+210ab6229d5dc6be2bf2c76a9744f2dfce9ecb01 svcrdma: Grant credits from the clamped sc_max_requests
+256905aa332c540e13a5c4599e7ab927beda5f4f svcrdma: Clear XPT_DATA when the last receive context is consumed
+9ea03a055eba001f7069a78fb7d9f989262270dd SUNRPC: Skip xpt_reserved accounting for non-UDP transports
+5a2008aa912b1902635d72d53710d2b8d9eb206c NFSD: Return NFSERR_ISDIR for NFSv2 READ and WRITE on a non-regular file
+a6d8e3b8c083079f6115cdfd765e64e62096c24d NFSD: cap the number of listeners accepted in listener_set
+ba08ab9b602cc77fed34a7f5682beae3f6aa948c NFSD: validate transport name in listener_set before serv creation
+f83af64a5c31767749d7dc1d92341fa279d58d3f SUNRPC: keep the first error in svc_register()
+2361de6aa5a2af41bebce121e14a74eb43c26602 SUNRPC: bound the local rpcbind client timeout to 1s
+ba520d5d0e8474308700a8070c0f474c7059b7d6 NFSD: report listener creation failures through extack
+2c0bc6596fc6fd610dcd0da74461f720bcaa25e7 SUNRPC: report local rpcbind calls that get no answer
+9876a95491c60241cf74dbba0f01957b254fb6ae SUNRPC: stop svc_register() once rpcbind stops answering
+44c467df8ee82ff4ce4a49d458faa51bfacdb9a8 SUNRPC: stop the svc_unregister() sweep once rpcbind stops answering
+fe4ed820a5aba8c00e72255ac8c5aef1a20cea26 SUNRPC: stop unregistering listeners once rpcbind stops answering
+fc830f9086e26ce8bb294b8eefe4f805f50ad111 NFSD: stop registering with rpcbind after a failure in listener_set
+cf0511991465ed939d4ef73e667b9467670e0bb7 selftests/nfsd: exercise listener_set request validation
+54a5401347a2b60ac90e2a7df8c2cdc6c41519f6 selftests/nfsd: add a per-netns rpcbind stub and the listener round-trips
+31c2c7960cc7155fa6eb3afbe3813972fce8eeb6 selftests/nfsd: check that listener_set asks rpcbind once
+dae0594aec17599bb24c3acb7837ebb0ef3a18aa selftests/nfsd: check that listener removal asks rpcbind once
+a537494a840eb39becb2bd0bc386e65eb541f91c NFSD: Don't complete a cld upcall the daemon has not read
+78ebb9bc4c8506f5a097b7ee580e28367a6c5ade NFSD: Move the cld upcall message out of the caller's stack frame
+023fc27e4d8bac176b77b1d9c6d2193930983496 NFSD: Complete a cld upcall when copying its reply fails
+1b0ef52c9493ce4c09b02ebd8688f0fd3b222168 NFSD: Reject an oversized principal hash from nfsdcld
+5187b19dbf8ef4736ba83694db5698a27fdc2288 pnfs/blocklayout: Complete a device upcall only on its own reply
+d42d9ab1020a3e37335e462cf6d926f197deb8f6 NFSD: Set nn->cld_net before registering the cld pipe
+cefb9d8ef6a2dafd90eb7f3c7f0eca0050b1bfc5 NFSD: Complete a cld upcall when the daemon closes the pipe
+18e99d65c8d7ed08f631a9ce646a7cdb7e381f0d pnfs/blocklayout: Complete a device upcall when the pipe is closed
+d3eb76b73f354bad0ea5dde2473e04c37ef5cb47 SUNRPC: Copy the deferred RPC Call from the head buffer
+f3b8eb8b2e1e763b3bcaee59abd94c3e0a5f4087 nfsd: don't offer flexfiles layouts when NFSv3 isn't being served
+ee137ebaa06afb233dcfd55df313e6ba4deb80d8 nfsd: shorten extack string returned with dodgy listener
+e7ddfaa42c2c50507d0401fcf5e389a63fa9e323 NFSD: return NFS4ERR_EXIST for a guarded OPEN of a non-regular object
+ae00c324bbedbeca3a1fd653d3d1aaf30a49ddb3 SUNRPC: fix netns use-after-free in write_gssp()
+8874cbfbd3f04acee17e2150b32acd7a52e2496b SUNRPC: Carry a generated-codec context pointer in struct xdr_stream
+9ce2e59e077a728cb849cfd6514f2d91016dd3b9 SUNRPC: Bind the svc_rqst to its XDR streams
+7b29aecb5225aeb626cfac2c9d8a93e5f219e395 SUNRPC: Add svcxdr_encode_opaque_payload()
+0ffdc03fee52aa098424055933582c512a97b4b7 xdrgen: Pass the containing struct name to member codec emitters
+f12dbc1a22b00d2db34f5fe280ef6f5ecf6bc147 xdrgen: Add a "pragma pages" directive
+abcdca0db457dfe8491fdfa774aa58c4adb23b16 SUNRPC: Add svcxdr_decode_opaque_payload()
+c8fb485c9ce1eafbc5d4629246adf470ecec0d1d xdrgen: Extend the pages directive to page-resident arguments
+b87790af4cb6270ab2bc224c7cad13ef23706477 xdrgen: Add hook-driven aggregate codec for variable-length arrays
+8fcd1b70022da063f8a23ac193d9f62756e1cc84 xdrgen: Extend the aggregate codec to optional-data list members
+e66bc1a534216923812c494bfb84516a0d79b60b xdrgen: Stream optional-data aggregate lists during encode
+6099e05e90e74c3929bf422bd797f590893257cb xdrgen: Reject a "pragma pages" union arm declared as an opaque
+c9c97821d5670866f4ea55316a49e45feb0ae8f8 xdrgen: Report unsupported client-side directives without a traceback
+f7c977cbfe9037b292d704a59105ffe7ebd3ce89 xdrgen: Document that aggregate members of a struct share an element type
+c1d76c21795bedc14eb10ae380a87309270363d7 xdrgen: Update the aggregate_members comment for optional-data lists
+445382d0e6713123a02a351f49296d4d840cfa65 nfsd: fetch direct I/O alignment for files handed to the filecache
+f89760950b8c5083a43933aaf531e0f1a1b51818 svcrdma: Fix svc_rdma_recv_cid_init() kernel-doc
+b1e2e348a22bf7566abbaf369909ab351018f3ba SUNRPC: fix oversized GSS proxy token copy
+91506ac2c6cc670fa23c636c3dd4bc66b5635d2a SUNRPC: trace an accepted transport before publishing it
 
---===============3163226737822200998==--
+--===============3162836771276025181==--
