@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8950607725485361927=="
+Content-Type: multipart/mixed; boundary="===============6183112537833246156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 14 Sep 2026 08:49:52 -0000
-Message-Id: <178937579261.726357.3346571512378283919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 14 Sep 2026 08:49:58 -0000
+Message-Id: <178937579898.726574.10706613392497137380@gitolite.kernel.org>
 
---===============8950607725485361927==
+--===============6183112537833246156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
   - ref: refs/heads/master
-    old: df2908090cda368b01ff43709f51890076c56157
-    new: fd73f4a6659897191fa0d40695fe370925dd3780
-    log: revlist-df2908090cda-fd73f4a66598.txt
+    old: 6c90d7cb82736d1f511676517240d37bff65112b
+    new: af603e3278d558258b21125822229de0625182b1
+    log: revlist-6c90d7cb8273-af603e3278d5.txt
 
---===============8950607725485361927==
+--===============6183112537833246156==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-df2908090cda-fd73f4a66598.txt
+Content-Disposition: attachment; filename=revlist-6c90d7cb8273-af603e3278d5.txt
 
 0ecd56573c1f272c72298154a3854380876dbb7c ext4: Avoid entering writeback paths during fastcommit replay
 82e9343260dfc6dda6349f285d9a5eac3e0738d7 nsfs: keep namespace tree fields stable until after RCU grace period
@@ -759,5 +759,6 @@ d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled befo
 d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem to have fallen through the cracks
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
+af603e3278d558258b21125822229de0625182b1 Merge tag 'v7.3-rc3'
 
---===============8950607725485361927==--
+--===============6183112537833246156==--
