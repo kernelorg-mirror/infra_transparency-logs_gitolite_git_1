@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0737749755448961451=="
+Content-Type: multipart/mixed; boundary="===============3481921085713252885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 14 Sep 2026 13:19:04 -0000
-Message-Id: <178939194472.1164441.1157653578495531681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 14 Sep 2026 13:21:01 -0000
+Message-Id: <178939206183.1167481.12591987176728382633@gitolite.kernel.org>
 
---===============0737749755448961451==
+--===============3481921085713252885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 50d3d79dc0743b616afb00d01a626c76758721f7
-    new: 2b04d6556964ae9f89819b86a0a7801e39c3aae5
+    old: 13e51269b6656768dc595ed6025e4974f2026543
+    new: eb0a9f21deb3632d9285bbc80a3adb6e87c4c0ab
     log: |
-         ba7a79b9bc87776c8c1808407a7508a8be3a789e wifi: cfg80211: verify if AP_VLAN belongs to the correct AP
-         4ae3128c230372b43d0c417e0fcf816e8290e9fa wifi: cfg80211: do not support direct add of station to AP_VLAN interfaces
-         e3d1acb0276742f288094cd7a497745364876bb8 wifi: cfg80211: move link_id validation earlier in nl80211_new_station()
-         a842cfc1d6d85b34ad73959460def4d4641e82e8 wifi: cfg80211: check if AP has been started or joined a mesh before adding new station
-         e5c8d7acd31b27057ea42cd405d0b3ece097bc89 wifi: virt_wifi: don't transfer operstate before register
-         06f42accaf3c6aecab1dcc57f68dde6c06c8b380 wifi: libipw: reject TKIP frames without a full MIC
-         2b04d6556964ae9f89819b86a0a7801e39c3aae5 wifi: mac80211: refuse to make a monitor active when it has no queue
+         feb3a036d1cd7b708969dfc58feed16c51a496dc wifi: mac80211: fix monitor filter refcount leak
+         eb0a9f21deb3632d9285bbc80a3adb6e87c4c0ab wifi: mac80211_hwsim: send config events to the radio's net namespace
          
 
---===============0737749755448961451==
+--===============3481921085713252885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1789391890 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1789391890-bc3583a185ab4fd0c9b739199221375c7ed14190
+pusher 7BF9099A 1789392012 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1789392012-5c1c822442f702187b872fd4900220ee6162492c
 
-50d3d79dc0743b616afb00d01a626c76758721f7 2b04d6556964ae9f89819b86a0a7801e39c3aae5 refs/heads/main
+13e51269b6656768dc595ed6025e4974f2026543 eb0a9f21deb3632d9285bbc80a3adb6e87c4c0ab refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqn9BIACgkQ10qiO8sP
-aABgfBAAmA1gQTr8ne/Zbzkn266IQmPR95hKFca9L28/XVjHjWnwUnE3D/yMXfoy
-4wJhP6TiL3wzkpc+E5tAHRr8O+0w+zWnUuUjj+jh7AYgHjVFdFT5ev366UkbGgwt
-wP1uihfFXD2e98P0/P9VFWr3DdED6EF5GJemIjQkQBUXtff1R9qJ3LdQh+wcG7Di
-3xM2uopa6zrq+0/jFTOiYbqg/iiAcOdc8n/AdFsh9mzTiDL07GT+KN4J9+GbnAWT
-VGy1Mdz39SRhyNK6vmA4+OuXJd/0XjXsN4ks+AfnD3PXepAQjIdouaGvka0bhC8v
-xfEnlTffZOtJvXfiuwogcRIkhipRQyJlW46C12Tz1OWbampH5ucbszvqHG8OJPTh
-Q0f/Tyf+5ksT+kK5GvOaXGT0M9+6gQXztY0WUVV2cTgE6duqVStph2MrfKaqi/4J
-6kWsYraLKRQJAFN6e5JFHOIjhspPmGcwphsicKXv6ggINVviHro5ZHKl+2w0yEOh
-2hylweJxfCE1UGkH+pKm0wMBzeBXwljBarLcxAot301cy7WklFcNma1KPuPb25hH
-hiTPGiJ7DLgTW32GifDCAVPcb2l8lIdST1iAh73dpe7zZQY/ojv9hLv2ZX/2f0KK
-24okuM0bIyfoDo9FFuLQAPN+XL01J5tzyw6SbKK0M5SWx3WKN4s=
-=mCXD
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqn9IwACgkQ10qiO8sP
+aAC2oQ//cyo8sx9AgIgJOYBd6ljB1BYXnagyw5nZza/phHTykM4HOLMAXUM2XRto
+cMLaJIuB/Q3ndAjCVH8MirL9TE4sQic5MrhKDyrsyh7jm4Wx7A3EwsCsVxstDq/E
+EL7Pn/c8ciTgwJQYcrH2tz0yGTRvcz5ltuHdXKWwUXIt7KOjoYlClg5S0OdhYy4V
+2LmQrFZxLJYeu85PrWyL4bYcX+pMtGTtJfbvhzMnjRgLDp7HSHWgZITrNyjTH1e1
+SKAz5H+fkKtVkApFkl+E1YNtQy/tswZOsTY5TI+b+JDUtyRHgc0yUUQAZOqZaHbb
+2Krl97BaXtZzMd91QihC3HIX5X0TfB+FgDtk6FxlzGZBdD+CqdNuQGx8SMXHoWkg
+ljvjNKPFGepMrcr5ylj9TqcTGHZ9Kw9bBKBRqJxuLnEKh20zG1bT/AAr9ezcw505
+ZrbDX1gbB7S1H/ilc9bzTBa0uxiJxDfufXZeMadIDC0EMXShxmMkPC7rcSxp6jhk
+GD1MbWd1XJg4fwkq65rRrImQ6PwEYhcrvRaLJOcsRhm6hQ+zk6AizAxPVGdX4oTW
+8Vu+mr+SFqpL27hyc0hb2vjBsmEEG8+ftsUBGpalzzNMeC422oyLXfHZzX2W+s7c
+BdSmuuUmABQzN6TwyHXn1QaIjmIQwLDvtAVemQIVEVIm2zqmO/k=
+=JZD0
 -----END PGP SIGNATURE-----
 
---===============0737749755448961451==--
+--===============3481921085713252885==--
