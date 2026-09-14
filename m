@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0536715631489649740=="
+Content-Type: multipart/mixed; boundary="===============7939797313191710992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 14 Sep 2026 09:42:07 -0000
-Message-Id: <178937892765.773578.12972684015700151113@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 09:43:25 -0000
+Message-Id: <178937900515.774152.16133425962295991614@gitolite.kernel.org>
 
---===============0536715631489649740==
+--===============7939797313191710992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6f1aa55cd2f6761caefc190769de890dd7d6dc44
-    new: 77b335dd3d7be5042683a7d92fc13b2b7f46f913
+    old: 77b335dd3d7be5042683a7d92fc13b2b7f46f913
+    new: 25bc4d3bc4120f3dad3aee1dd9b253abb71fbf19
     log: |
-         77b335dd3d7be5042683a7d92fc13b2b7f46f913 drop a scsi patch from 6.12 and 6.18
+         25bc4d3bc4120f3dad3aee1dd9b253abb71fbf19 drop queue-6.18/gpiolib-move-legacy-interface-into-linux-gpio-legacy.patch
          
 
---===============0536715631489649740==
+--===============7939797313191710992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789378919 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789378997 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1789378925-1e72f6a6c489c0099d8f4a6da7c30c8cc6dbf18a
+nonce 1789379003-b1c71337398f12addea1a84e5a2d98b4c08419af
 
-6f1aa55cd2f6761caefc190769de890dd7d6dc44 77b335dd3d7be5042683a7d92fc13b2b7f46f913 refs/heads/master
+77b335dd3d7be5042683a7d92fc13b2b7f46f913 25bc4d3bc4120f3dad3aee1dd9b253abb71fbf19 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqnwWcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BlwQAKNt6X8KOEuQItX8aqPl
-TE6POydSW1iGSNbry/E2guZctH0nQlQ+NmeSxa28yXpUPOoJjCvmeLqDcqS6voOG
-nT0svrPOjZH6wtBmNOdKZCP8zMEBkXo7W+jXvsyes6Lmr9UiOIbmWAcQJv53C2MG
-o9gtDUzp596JUPQJREGYOajl1IA8EpNM8XMCQ1sG5VuXVcJGA2DOQ6Pzmc5Lj7cZ
-GEsC1NJllb2H1pqtg8LetvLfIQN7aykUVUM2H0YNAK5/y9MdwgUq+wk6RuMKqaz2
-nBVg5ve5drWVncaN0rf+8kYm37nV9gYrnWylwz+rgxW8+Mk4DQ2l/QGsWsdXcI/E
-DSFKkbe7kb0Y6AfAA3hJ1xHldnvmG3/i5HC9OU/l9mOGbbeD3XFMfpZKMnO/kg0E
-fzddaih6qIvJGY/OHtk0gEk47V3SZmCYahdJfQ588VmmHzT6HhDm7YqG3inp/+8C
-WQSuAk07vZJYm+hMA4Ti7wXlIDz88WZZEIS/RRJfFcxHf+8AUr5ZJVZNEeRabWZC
-wsOa36zHiqVfl4BQmcuz+1ABY/tAg1uE6S2tTUOxfCwaGuJK81nYK2Bafhf8lXrq
-VqGl+Gjqbyah/cnsOp/enOZYo8L21ajdeR7kyWc6lOJitcTAFmKE9YUp23eB+4gY
-Yi9zP0y5R7EYqZcGJF2NiCJK
-=MsW8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqnwbUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lHgQALxkFpSvNKO6Prfj/YNC
+d54dXPVGakEuYzvtVrv6AGHtm9h4Czfjn2uoyIaD9yD4MfeIKx/eflMNpThEljjM
+wIclm8l56+Jh2nGHnFrJJVF1wYP29BjUj/zSJ53TowdVCPu+TUfJHzpfuXcH/IaE
+Ik4V8tq94TZi0HEAMutpr/jtO0hXynIpRpsyy+rAdoZJI+F4PozN0k1HULGNt5Zj
+CvMLjIj5+QwkfmwAGCKJK5bfnG9nlnLS+KM4nss7v6hg0EMjNKWUhGyHSadYFD7B
+2ZfZLWge8Hr1d1fxsIFLfOmOuhcWq1fbmpI/kUuREq2uz6ZuO8TdnLE6owj+a4TT
++YDq8MS+C4AnqpvGE++DDl5Se3+eRZ1FLZk9rAkpPB0icepBDe1/hKx7RaHGqV4b
+mnkus3gP6HY+KCLwsrldAKOKd1O3MqtemNLIPem2yw/ChYvy9JE15w18WoLy8Dhr
+4ZJxkNs9gWcR/grhehaB4UPQ8cUsx/0usFEPoyhNDN2f2JkS8OiF2eFbH0e0fnNr
+n8RmG8plVdWzs/0PHTNvfhokhGi4QfDQ43D02oDYUpz3xf8gFVr2Si4/D0LMYl2h
+z7nSG4PYj8Clm13Sug5+RkdesgPJFsCo7/MXK0RogXdkZRn14CQIgGTz6kv5+/0G
+evtV3xYL9P4/uOc2k2/DPm3Y
+=pooG
 -----END PGP SIGNATURE-----
 
---===============0536715631489649740==--
+--===============7939797313191710992==--
