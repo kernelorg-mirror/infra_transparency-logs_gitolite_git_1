@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1540151177161821318=="
+Content-Type: multipart/mixed; boundary="===============3043723668784751822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 14 Sep 2026 19:37:06 -0000
-Message-Id: <178941462631.1458837.3694035600615135244@gitolite.kernel.org>
+Date: Mon, 14 Sep 2026 19:39:23 -0000
+Message-Id: <178941476356.1459845.268641987378597070@gitolite.kernel.org>
 
---===============1540151177161821318==
+--===============3043723668784751822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/network/ethtool/ethtool
 user: mkubecek
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 10d9788c2f537319f073dc07a6b178229db081c0
-    new: 6b7b16e90fbbf2570c140103693e549cead4dcd4
-    log: revlist-10d9788c2f53-6b7b16e90fbb.txt
+    new: ec1ef702cb5e8bda6bd5fe3b2213419c8427bb7c
+    log: revlist-10d9788c2f53-ec1ef702cb5e.txt
 
---===============1540151177161821318==
+--===============3043723668784751822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10d9788c2f53-6b7b16e90fbb.txt
+Content-Disposition: attachment; filename=revlist-10d9788c2f53-ec1ef702cb5e.txt
 
+969f7b2620832fa69d98bd90c3c223e1ec792982 netlink: rss: Add set support
 d45937bd83f67051bd27c4654bf42bd77535df6a cmis: Fix printing of Tx bias current
 e17a5ae2a675244dd133c07b97fc0459c576083c cmis: Fix printing of channel-level flags
 22bae46ed0f21eaa03e46e4c0131c3cb3c5b0ad5 cmis: Fix printing of CDB EPL pages
@@ -44,5 +45,7 @@ dba4e0e9c5d9d132bb1af9dcf48559af972a86fc rss: drop duplicate attribute parsing i
 fb8062c3a35a47f51d796ec88e0d2595c06e7b48 ethtool: fbnic: fix off-by-one shift in reg dump parser
 db38bb13b1520c7b5f6d8c98ab19391427900e57 ethtool: fbnic: Fix various TX and RX CSR fields decoding
 6b7b16e90fbbf2570c140103693e549cead4dcd4 ethtool: fbnic: Fix register dump names and bit labels
+6215eb98975738e6482c8d5a4fe20f61a43ac7b1 Merge branch 'master' into next
+ec1ef702cb5e8bda6bd5fe3b2213419c8427bb7c update UAPI header copies
 
---===============1540151177161821318==--
+--===============3043723668784751822==--
