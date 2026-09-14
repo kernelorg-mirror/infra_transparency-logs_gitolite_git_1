@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8971625691348099434=="
+Content-Type: multipart/mixed; boundary="===============2724351332459282906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 14 Sep 2026 12:00:27 -0000
-Message-Id: <178938722752.1106823.945757719169127338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 14 Sep 2026 12:00:29 -0000
+Message-Id: <178938722952.1107007.9354887752673051826@gitolite.kernel.org>
 
---===============8971625691348099434==
+--===============2724351332459282906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf
     log: revlist-827751b699b7-704340f1cd0d.txt
 
---===============8971625691348099434==
+--===============2724351332459282906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -290,4 +290,4 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf Merge tag 'x86_urgent_for_7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============8971625691348099434==--
+--===============2724351332459282906==--
