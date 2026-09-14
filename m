@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 14 Sep 2026 17:26:58 -0000
-Message-Id: <178940681872.1363069.2323475854338976645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 14 Sep 2026 18:01:27 -0000
+Message-Id: <178940888728.1387281.15812239767021437416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 29fcf9ce4bbdf4cc339def776860e1c0095bca98
-    new: 5ef40d69b38a93bc9951dadb1a15c85c597e1a40
+  - ref: refs/heads/bleeding-edge
+    old: 587a86223f28e1a55b56f0dc5a6b58f1b82215ef
+    new: 26070a786f667ce73d9971d8bcbf6ddded8fb27d
     log: |
-         3041e498f961faf734fe4a71525afb0f095cdff0 libbpf: Add bpf_program__add_flags() and bpf_program__clear_flags()
-         13eee57365636d98e131b5177f4b023896a57bb6 selftests/bpf: Add assertions for bpf_program__{add,clear}_flags()
-         5f65b7160634be602390eb0cb942925e45a7f63c selftests/bpf: Adopt bpf_program__add_flags() helper
-         5ef40d69b38a93bc9951dadb1a15c85c597e1a40 bpftool: Adopt bpf_program__add_flags() helper
+         d54229a6b6d68296a4d9c5067c3bc061da639a66 PNP: Detach device after resource transition failure
+         26070a786f667ce73d9971d8bcbf6ddded8fb27d Merge branch 'pnp' into bleeding-edge
          
