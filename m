@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 15 Sep 2026 14:18:54 -0000
-Message-Id: <178948193496.2317210.16419674920182137612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 15 Sep 2026 14:19:53 -0000
+Message-Id: <178948199348.2317967.17865649501643565095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/v7.3-next/dts64
-    old: 5b748eb481caf88e7f0b3c763dbc6247a59f6e21
-    new: 3a766bf2a39ea0e69e1030db719c4136f20bb608
+  - ref: refs/heads/for-next
+    old: b205f32e38f763ee2f3eac353c0d74ea8e7a582e
+    new: db0e36567224b207d532ef752367f5b5dbb00b7d
     log: |
-         3a766bf2a39ea0e69e1030db719c4136f20bb608 arm64: dts: mediatek: mt7988a-bananapi-bpi-r4: add ramoops region
+         39218baf93bc04d39d054cb782a866f65556bfd8 dm-clone: remove unused memset
+         db0e36567224b207d532ef752367f5b5dbb00b7d dm-crypt: Reject malformed raw keys in crypt_set_key()
          
