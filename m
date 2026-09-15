@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 15 Sep 2026 02:03:33 -0000
-Message-Id: <178943781358.1762159.12180041145760720873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 15 Sep 2026 02:04:56 -0000
+Message-Id: <178943789632.1762898.16854670897364865194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 3767c10d94a7b3d6503f1a07186e0c9337e67a86
-    new: 92ef8b1a2cdc15c5116b38c7a23bc3e8d9ab1c5e
+  - ref: refs/heads/main
+    old: bde5212360bd44506edec073ebbd6d0c72f75820
+    new: 7616242a2b37883f7322aaa1d2bd6cd0fed28315
     log: |
-         92ef8b1a2cdc15c5116b38c7a23bc3e8d9ab1c5e Fixes for all trees
+         7616242a2b37883f7322aaa1d2bd6cd0fed28315 seg6: set IPSKB_L3SLAVE from IP6SKB_L3SLAVE on IPIP decapsulation
          
