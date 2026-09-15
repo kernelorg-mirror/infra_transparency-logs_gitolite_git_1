@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Tue, 15 Sep 2026 09:13:35 -0000
-Message-Id: <178946361529.2085153.8737296806334209402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 15 Sep 2026 09:13:40 -0000
+Message-Id: <178946362078.2085373.13793067200929801939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/spacemit/linux
-user: dlan
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/dt-for-next
-    old: ac436e6879f5bf25e971d80f96f9392b61ff54c6
-    new: c37ee906b45bc06782fa1b69f3a53bace67ace66
+  - ref: refs/heads/for-7.3-fixes
+    old: a19d4f9b8befdcfcd5a87bab91312fe64af3bbb8
+    new: 82e47533221d4746947b74d2e79a478c36c6433a
     log: |
-         97bd8165a3f734fe97664e186406686bfa34f42f riscv: dts: spacemit: Add K3 I2C6 pinctrl state
-         ad17d98848df3907d6732673a139e9ed832b547d riscv: dts: spacemit: Add CTF2301 on K3 CoM260
-         c37ee906b45bc06782fa1b69f3a53bace67ace66 riscv: dts: spacemit: k3: add i2s0-i2s5 nodes
+         82e47533221d4746947b74d2e79a478c36c6433a ata: libahci: clear PxCLBU and PxFBU for AHCI_HFLAG_32BIT_ONLY
          
