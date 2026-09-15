@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 15 Sep 2026 13:22:07 -0000
-Message-Id: <178947852791.2271945.8429075010839921883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 15 Sep 2026 13:24:24 -0000
+Message-Id: <178947866470.2272744.10760000107984266057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/clk/linux
+user: jbrunet
 changes:
-  - ref: refs/heads/main
-    old: 8e759cd1f6444a946bd1fd2b2b29eea582eea1d5
-    new: 83a945a529d6e002dd7339c532288a931f463dba
+  - ref: refs/heads/clk-pile
+    old: 6b838130d2759008f8e8a80093c9eb6fcd435707
+    new: 4539402e0b34c8c239208d5f5b90248c040fee89
     log: |
-         83a945a529d6e002dd7339c532288a931f463dba tcp: do not let tcp_rmem be set below 4096
+         4539402e0b34c8c239208d5f5b90248c040fee89 clk: ti: clean-up simple provider misuse of the consumer API
          
