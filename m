@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7985357807465085163=="
+Content-Type: multipart/mixed; boundary="===============3879085611412331433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:04 -0000
-Message-Id: <178943928497.1787494.7087713977816746700@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:07 -0000
+Message-Id: <178943928762.1787635.3763743255134109726@gitolite.kernel.org>
 
---===============7985357807465085163==
+--===============3879085611412331433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-1
-    old: 79bd36fe7c6055abaca56a57531c8a26c1324258
-    new: 38d031be81b2af0ac30989e7f03199ab7f4e9e30
-    log: revlist-79bd36fe7c60-38d031be81b2.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-2
+    old: b1d01dee8cbed31ff791e3d6fb546ca4b2abb5c9
+    new: a276aa430dbba461963fefcc0e1e0a8368764eb9
+    log: revlist-b1d01dee8cbe-a276aa430dbb.txt
 
---===============7985357807465085163==
+--===============3879085611412331433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79bd36fe7c60-38d031be81b2.txt
+Content-Disposition: attachment; filename=revlist-b1d01dee8cbe-a276aa430dbb.txt
 
-82d3acee88593e3d9e71cad4b7d6b3cf70de9d07 lsm: hold cred_guard_mutex for lsm_set_self_attr()
 8201bf45cc7c1c1a09290c4db8ab1e19801f8fec octeontx2-af: CGX: add bounds check to cgx_speed_mbps index
 f3c21a62be39d48e6337137cd52906b8ad6722df ice: fix setting promisc mode while adding VID filter
 77ad1b13dce2acffa07861bc7e8a662ba7e956f7 ice: restore PTP Rx timestamp config after ethtool set-channels
@@ -1050,5 +1049,6 @@ db8683b776c50987d878d8439a84f29340afbca1 NFS: fix delayed delegation return hand
 804851b547d13e877195308608339f3d428b4bc5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
 20df1082e7efe8f6603e23ceb03f0b659c42073d SUNRPC: Change list definition method
 38d031be81b2af0ac30989e7f03199ab7f4e9e30 nfs: nfs4proc: Convert comma to semicolon
+a276aa430dbba461963fefcc0e1e0a8368764eb9 NFS: Fix NFS KConfig typos
 
---===============7985357807465085163==--
+--===============3879085611412331433==--
