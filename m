@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 15 Sep 2026 17:01:38 -0000
-Message-Id: <178949169863.2445213.4872568342889010316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 15 Sep 2026 17:10:02 -0000
+Message-Id: <178949220250.2450331.8646104677530308221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: c7a1c6e8004ab12a9c9bfdcb603f60f9bf4a3cee
-    new: a9e3760b0838299649c0d57cca44daaf40ba3c33
+  - ref: refs/heads/asoc-7.3
+    old: 7226c5c21f486aee3f1dad0e5bef20db6006a662
+    new: fc2fa5d89970cbb345deb449ca344d1ec6fb7ee4
     log: |
-         9a0b159ff18c8f6fcf982bb81e15a9ceb14db43a sched_ext: scx_qmap: Restore unused idle claims from ops.dispatch()
-         a9e3760b0838299649c0d57cca44daaf40ba3c33 sched_ext: Maintain an online cid mask in the scheduler arena
-         
-  - ref: refs/heads/for-next
-    old: 88ffb47d07f57460b0689f2a50e9ca0e14535e4c
-    new: 55019197345f60a3712e7701828c2c973bd11d43
-    log: |
-         9a0b159ff18c8f6fcf982bb81e15a9ceb14db43a sched_ext: scx_qmap: Restore unused idle claims from ops.dispatch()
-         a9e3760b0838299649c0d57cca44daaf40ba3c33 sched_ext: Maintain an online cid mask in the scheduler arena
-         55019197345f60a3712e7701828c2c973bd11d43 Merge branch 'for-7.3-fixes' into for-next
+         2faa0ae56fa51f4353f00451b958a1ecd58f6fdc ASoC: amd: acp: bounds-check SoundWire link ID in machine drivers
+         efd76c8d615310f504a010da975d7d5da991703c ASoC: amd: acp: refactor codec config count in SOF SoundWire machine driver
+         5b28d773ed3a6342848443eec19e02e67f815e45 ASoC: amd: acp: fix ffs() operator precedence for SoundWire link ID
+         2444f73fe47684146a402ed5ee0d254f6775402d ASoC: amd: acp: fix card name length warning in SOF SoundWire machine driver
+         fc2fa5d89970cbb345deb449ca344d1ec6fb7ee4 ASoC: amd: acp: SoundWire machine driver fixes
          
