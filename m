@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 15 Sep 2026 18:05:40 -0000
-Message-Id: <178949554030.2502096.12202502562085735782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 15 Sep 2026 18:06:08 -0000
+Message-Id: <178949556843.2502440.11328935540126638348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: d1a73ad21f963d43592704702c32cb935f5ed7dc
-    new: 323637a0aa19e59490a4449f2ab149d97fc5272d
+  - ref: refs/heads/for-7.3
+    old: 7226c5c21f486aee3f1dad0e5bef20db6006a662
+    new: fc2fa5d89970cbb345deb449ca344d1ec6fb7ee4
     log: |
-         b75981e29a5ce42f2938cd66e61612d3a4978ec8 ASoC: codecs: ES8326: Add private members about HPF
-         7502e1fca73162a016025c5d9b5225adea70833f ASoC: codecs: ES8326: Adjust the standby configuration
-         323637a0aa19e59490a4449f2ab149d97fc5272d ASoC: codecs: ES8326: Modify the configuration and add kcontrol
+         2faa0ae56fa51f4353f00451b958a1ecd58f6fdc ASoC: amd: acp: bounds-check SoundWire link ID in machine drivers
+         efd76c8d615310f504a010da975d7d5da991703c ASoC: amd: acp: refactor codec config count in SOF SoundWire machine driver
+         5b28d773ed3a6342848443eec19e02e67f815e45 ASoC: amd: acp: fix ffs() operator precedence for SoundWire link ID
+         2444f73fe47684146a402ed5ee0d254f6775402d ASoC: amd: acp: fix card name length warning in SOF SoundWire machine driver
+         fc2fa5d89970cbb345deb449ca344d1ec6fb7ee4 ASoC: amd: acp: SoundWire machine driver fixes
          
