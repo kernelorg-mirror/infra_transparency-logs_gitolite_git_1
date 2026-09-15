@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4028818627305504274=="
+Content-Type: multipart/mixed; boundary="===============8909443917805462775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:35 -0000
-Message-Id: <178943931548.1788424.2281833040882341310@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:39 -0000
+Message-Id: <178943931953.1788512.17021951992573157665@gitolite.kernel.org>
 
---===============4028818627305504274==
+--===============8909443917805462775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19
-    old: 2d45f7d7bb6543289058a54c2be785a3692fda2c
-    new: 6bdecf02a1b8257a26734c9463c5c4a2f44e3c1d
-    log: revlist-2d45f7d7bb65-6bdecf02a1b8.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-1
+    old: f85a504432cde1d184a6852862c6b3f8be7403e2
+    new: 1f84981a375b5540c961de12869491bd9908266c
+    log: revlist-f85a504432cd-1f84981a375b.txt
 
---===============4028818627305504274==
+--===============8909443917805462775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d45f7d7bb65-6bdecf02a1b8.txt
+Content-Disposition: attachment; filename=revlist-f85a504432cd-1f84981a375b.txt
 
-8201bf45cc7c1c1a09290c4db8ab1e19801f8fec octeontx2-af: CGX: add bounds check to cgx_speed_mbps index
-f3c21a62be39d48e6337137cd52906b8ad6722df ice: fix setting promisc mode while adding VID filter
-77ad1b13dce2acffa07861bc7e8a662ba7e956f7 ice: restore PTP Rx timestamp config after ethtool set-channels
-67915715fd3874057457363c87c63e18829527df wifi: cfg80211: advance loop vars in cfg80211_merge_profile()
 38bccb927d83d7d52e5b20015a172a0b6101d11e af_unix: Fix UAF read of tail->len in unix_stream_data_wait()
 f7d395dc5008168ac5b9c1ac2791e59a6078cca1 wifi: mac80211: consume only present negotiated TTLM maps
 f2deaa2f409a4598eaa10f2a93a676c0632af248 cifs: Fix busy dentry used after unmounting
@@ -1050,5 +1046,9 @@ c46286820b586c27afd7ea35dff61c74d66403eb NFSD: Implement NFSD_IO_DIRECT for NFS 
 40aa5a72bc48cf6dfb345a9d127d8adb09af4b68 NFSD: Add toctree entry for NFSD IO modes docs
 d19eed5b312d276c2b7b703e6084fdd924d26f45 NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
 6bdecf02a1b8257a26734c9463c5c4a2f44e3c1d NFSD: nfsd-io-modes: Separate lists
+9b37db95556492b87ca944f9d6ef0e30e9b0a932 nfsd: fix memory leak in nfsd_create_serv error paths
+46a17979afdba796350f0641634903a5bf0d5820 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+3bb7fc595cc42d098e15eaa10bc56731c20dfb64 Revert "svcrdma: bound check rq_pages index in inline path"
+1f84981a375b5540c961de12869491bd9908266c svcrdma: bound check rq_pages index in inline path
 
---===============4028818627305504274==--
+--===============8909443917805462775==--
