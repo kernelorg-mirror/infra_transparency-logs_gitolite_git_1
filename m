@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3460082613882177522=="
+Content-Type: multipart/mixed; boundary="===============8024371078776864517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:50 -0000
-Message-Id: <178943933030.1788813.14663954337951840712@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:53 -0000
+Message-Id: <178943933367.1788924.1592205123193480303@gitolite.kernel.org>
 
---===============3460082613882177522==
+--===============8024371078776864517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-7.0-2
-    old: 4fe740b90f1b4ed5058388bf25dd8a37d6c8ddac
-    new: 74348c0603e9500537bb3acdf860875b2c32425a
-    log: revlist-4fe740b90f1b-74348c0603e9.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-vfs-7.0-rc1.atomic_open
+    old: b4c38c0a74118d93faf0b7c01124b8fb991a38ff
+    new: 86d8190f380b8a420864aa41c63d13652ee89481
+    log: revlist-b4c38c0a7411-86d8190f380b.txt
 
---===============3460082613882177522==
+--===============8024371078776864517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fe740b90f1b-74348c0603e9.txt
+Content-Disposition: attachment; filename=revlist-b4c38c0a7411-86d8190f380b.txt
 
-b96c7f0bc0713dc6403912f6527d4ff9168d6fe6 hwmon: (pmbus/adm1266) cap PDIO scan in get_multiple at ADM1266_PDIO_NR
-39c197f3c9be9a1fa91552e79d4cdb384c0d0f44 hwmon: (pmbus/adm1266) don't clobber GPIO bits before PDIO read in get_multiple
-4cce881a0b96f8b491f6626ed9c6fade58ea8e7a hwmon: (pmbus/adm1266) register the gpio_chip after pmbus_do_probe()
-b75d17559dcd89e73ae2a2bb6c6589ff643fbb2b hwmon: (pmbus/adm1266) register the nvmem device after pmbus_do_probe()
 ae25cf2ea9ebd06d7ad416647dbdc7b5d0172946 hwmon: (pmbus/adm1266) reject short block-read responses in the GPIO accessors
 3fdbd6d48a1a159fdebd6d1c8619a6f05aa1d3b2 ARM: dts: renesas: genmai: Drop superfluous cells
 b6b765d34810c1f9b27f4fb7e71655fe863c232d ARM: dts: renesas: rskrza1: Drop superfluous cells
@@ -1050,5 +1046,9 @@ f4bac66caeab4453acc9527e0832bcb49b9d79ea NFSD: Add support for POSIX draft ACLs 
 94017e4d9d2a6ccea0969c3d1b0f1ea7a89a82e2 NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
 b4a2b76e139c1d7b4e7a5e3125515e0f7b9736eb nfsd: report the requested maximum number of threads instead of number running
 74348c0603e9500537bb3acdf860875b2c32425a NFSD: Defer sub-object cleanup in export put callbacks
+9ef253c1f724a9b07504aad5e30c1f4f50cf878e VFS: move dentry_create() from fs/open.c to fs/namei.c
+980f25ae42b1f1045f769e461d6fed7a04be3b4a VFS: Prepare atomic_open() for dentry_create()
+cb9a6c49edf79bbf5352096d9e0b726f57996af5 VFS/knfsd: Teach dentry_create() to use atomic_open()
+86d8190f380b8a420864aa41c63d13652ee89481 fs/namei: fix kernel-doc markup for dentry_create
 
---===============3460082613882177522==--
+--===============8024371078776864517==--
