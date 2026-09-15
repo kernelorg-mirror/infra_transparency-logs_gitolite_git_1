@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0463460538842082447=="
+Content-Type: multipart/mixed; boundary="===============5301681311556072471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:57 -0000
-Message-Id: <178943933704.1789016.2704463689117956750@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:29:00 -0000
+Message-Id: <178943934029.1789143.8813457425918303461@gitolite.kernel.org>
 
---===============0463460538842082447==
+--===============5301681311556072471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,39 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-7.1-2
-    old: 1b2e61ad0cb50c19f7fc3425b3204fa5961bfa82
-    new: 90e8a7ad89c62c96aec82e658f405903cb256e9b
-    log: revlist-1b2e61ad0cb5-90e8a7ad89c6.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-7.2
+    old: 00adb45d1913bb10694f3f82b0a2140ad5ac2dce
+    new: 246f524aae28cc3a8b018e19d140556607c1a193
+    log: revlist-00adb45d1913-246f524aae28.txt
 
---===============0463460538842082447==
+--===============5301681311556072471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b2e61ad0cb5-90e8a7ad89c6.txt
+Content-Disposition: attachment; filename=revlist-00adb45d1913-246f524aae28.txt
 
-9bd631212a55b4bba1987c944b02b55a93d46c4b powerpc: fix dead default for GUEST_STATE_BUFFER_TEST
-51ffb788f074c0a61953086f49008028c1e7b645 netfs: fix VM_BUG_ON_FOLIO() issue in netfs_write_begin() call
-96cc3beb2390ba9f9c128c5733c0ccfe450dd4f9 netfs: Fix overrun check in netfs_extract_user_iter()
-31ba145faceb378fa01afcb8349e15ea7d95e542 netfs: Fix netfs_invalidate_folio() to clear dirty bit if all changes gone
-cfbfc25609bd7a34c45da93db452e438e49af292 netfs: Defer the emission of trace_netfs_folio()
-20195925c768626dc901a4781a51e508702c88ad netfs: Fix streaming write being overwritten
-1468f39243ccb155b6d97f9a9932f610d1205d75 netfs: Fix potential deadlock in write-through mode
-9adf8e47d73d5e3c2fe77dea649dcde350ccd65c netfs: Fix write streaming disablement if fd open O_RDWR
-2a39d49c8d97df8cb8fa80c10859bc1ba7358c6b netfs: Fix early put of sink folio in netfs_read_gaps()
-f6b2569ae29b666fd15ff2848684c445ba442a39 netfs: Fix partial invalidation of streaming-write folio
-a9a0414baaa4eb410930b8a77d346cfb12b39c41 netfs: Fix a few minor bugs in netfs_page_mkwrite()
-bf6c3e36159807282058fd5143b6ac91b9c58e5f netfs: Remove unnecessary references to pages
-7f040243c74d72b45b22246c7d9e621fbeab44ac netfs: Fix folio->private handling in netfs_perform_write()
-72158ea185b27afae163949b0e86164cb6b64e55 net: ethernet: cortina: Make RX SKB per-port
-aecf7d3d1763b7654a8b69aa9d20fa1fc19c1dc2 net: ethernet: cortina: Drop half-assembled SKB
-7123cf481e21b54eb6adc4cb0d8dc2876aeaee41 net: ethernet: cortina: Carry over frag counter
-3ea81ce591edd7f6eea5fbe440c283a0971a46c5 net: ethernet: cs89x0: remove stale CONFIG_MACH_MX31ADS reference
-008955b1348452de25bc19d6e0f0f673d4cb9a3c wifi: ath11k: fix error path leaks in some WMI WOW calls
-03ac1d6780d0c7f6c93ff076f00f173575bd9a34 wifi: ath11k: fix error path leak in ath11k_tm_cmd_wmi_ftm()
-4c6a72aae687e7350093ddfdc5bb7c5612983864 wifi: ath10k: skip WMI and beacon transmission when device is wedged
-b99cf2b6c39380ffe18800b0802877ed2dab8c82 blk-integrity: remove seed for user mapped buffers
-d18160c9525c63c203656fefd847e94b538cd4a4 block: don't overwrite bip_vcnt in bio_integrity_copy_user()
 53a01bcc0242590eda4c452a5bd996f62457113b block: recompute nr_integrity_segments in blk_insert_cloned_request
 d5496ddefe699a3b61ecad2a8f75330279291154 HID: quirks: really enable the intended work around for appledisplay
 abc5bb800336261fe27541f09a8a3861e2cf9235 block: modify bio_integrity_map_user to accept iov_iter as argument
@@ -1050,5 +1028,27 @@ fc38d1e0c9e25b0dea01e35bd587a55e5c0c37a8 nfsd: update mtime/ctime on COPY in pre
 afd7dbf8a97066ace6d8ca570666632dcf334120 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 53d3b51bc99b822498a6a4715619ac89a98a3340 sunrpc: prevent out-of-bounds read in __cache_seq_start()
 90e8a7ad89c62c96aec82e658f405903cb256e9b NFSD: Report whether fh_key was actually updated
+50d676976b226d1aa69bcaff66ca05a764968583 sunrpc: skip svc_xprt_enqueue when no work is pending
+8797b4fc97ff942fe91c4f791221953d8b38b744 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+f9538c5e8643ff9cbc66509008d332d33dc17b30 sunrpc: skip svc_xprt_enqueue when transport is busy
+bf8c3e6dabb2e90b30f5dd90f7c436fdfee14e5d NFSD: Fix delegation reference leak in nfsd4_revoke_states
+f917e910f390bb79913f5551f23b8c6cf36be775 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+88ced32001a89ff484aeeda38ecc1d8a091069ae NFSD: Handle layout stid in nfsd4_drop_revoked_stid()
+4e67688ff00b934e5a041f74cafad6e22c745e1b NFSD: Increase the default max_block_size to 4MB
+7b1585d332b815413d6450752fc40036564997c7 svcrdma: Release write chunk resources without re-queuing
+46e339c7be3a7e05639b292b211e3e3f89934c49 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+81a9909dbd1404f27017f02d1cc5df4bf1996dfb SUNRPC: Bound-check xdr_buf_to_bvec() stores before writing
+12d82852e00008c7f7991114d3e7850496bdb6a4 SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
+f00f58d50a80aef5de531e83c8db0d090d31b70b sunrpc: harden rq_procinfo lifecycle to prevent double-free
+8ac14bcea11b34016920132bdd6e18654b40e9f1 NFSD: Fix SECINFO_NO_NAME decode error cleanup
+2e5f3a186e4d9cfd26c7ea88ec7d78e0e3e856e2 nfsd: fix dead ACL conflict guard in nfsd4_create
+b813df0e4e1db6204541fe87243fba7251085cf4 nfsd: fix inverted cp_ttl check in async copy reaper
+bc50a615a87907633a442286d6d24b6f05bdf1d0 nfsd: check get_user() return when reading princhashlen
+33e43ae9eb2232b49f39327da81ba0d2d5c96b1e nfsd: fix posix_acl leak on SETACL decode failure
+ae5b84db52c7787f33726d15256cc595174b9017 sunrpc: pin svc_xprt across the asynchronous TLS handshake callback
+080f283799c46fdad061be296949220c11299bc5 sunrpc: wait for in-flight TLS handshake callback when cancel loses race
+6bab91b21fa3140294d4170d8a43491498b71d86 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
+fd7de2a5543205b824362f2937ae0b91250cedf1 nfsd: reset write verifier on deferred writeback errors
+246f524aae28cc3a8b018e19d140556607c1a193 svcrdma: wake sq waiters when the transport closes
 
---===============0463460538842082447==--
+--===============5301681311556072471==--
