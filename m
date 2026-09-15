@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3170693723535894402=="
+Content-Type: multipart/mixed; boundary="===============3460082613882177522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:46 -0000
-Message-Id: <178943932666.1788715.1759138290492628659@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:50 -0000
+Message-Id: <178943933030.1788813.14663954337951840712@gitolite.kernel.org>
 
---===============3170693723535894402==
+--===============3460082613882177522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-3
-    old: 73ec5e7e5d559177479aad85940a07099963d990
-    new: dc82fd502d2939f45869c0d124c8f2aa7f39bc46
-    log: revlist-73ec5e7e5d55-dc82fd502d29.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-7.0-2
+    old: 4fe740b90f1b4ed5058388bf25dd8a37d6c8ddac
+    new: 74348c0603e9500537bb3acdf860875b2c32425a
+    log: revlist-4fe740b90f1b-74348c0603e9.txt
 
---===============3170693723535894402==
+--===============3460082613882177522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73ec5e7e5d55-dc82fd502d29.txt
+Content-Disposition: attachment; filename=revlist-4fe740b90f1b-74348c0603e9.txt
 
-f7d395dc5008168ac5b9c1ac2791e59a6078cca1 wifi: mac80211: consume only present negotiated TTLM maps
-f2deaa2f409a4598eaa10f2a93a676c0632af248 cifs: Fix busy dentry used after unmounting
-1a150947f8480262a46c860f1acb9c6597ca7097 tracing: Do not call map->ops->elt_free() if elt_alloc() fails
-129ae7628f273e8825ba41057cb864eba53afacb arm64: probes: Handle probes on hinted conditional branch instructions
-b94538186a3eae3763b8f96dacd610920a865aa7 KVM: arm64: vgic-its: Reject restored DTE with out-of-range num_eventid_bits
-173fb86e5519dbe7aabed1f5fa7456152a4a2e38 KVM: arm64: vgic: Free private_irqs when init fails after allocation
-0d1989c9b70b657c416ba4acd3840896b2dc2fde riscv: kvm: return SBI_ERR_FAILURE for pmu_snapshot_set_shmem() when OOM
-681f3cd45f2244fa29d30d8d106259ba46feb683 drm/bridge: chipone-icn6211: use devm_drm_bridge_add in i2c probe
-8f9b61d255b1e989b8913b06c8ebe0aba5e1b238 spi: qup: fix error pointer deref after DMA setup failure
-09e5d2f2b12944d6a1d3400c98949f49487ac374 phy: tegra: xusb: Fix per-pad high-speed termination calibration
-cb9e72c50e6c81a5903f27e0b397ce8525d7539b scsi: isci: Fix use-after-free in device removal path
-b6c0dabea07e25bd7db19a77ebfd0d02b9e2671a spi: ep93xx: fix error pointer deref after DMA setup failure
-b6f1acf4e57ccf708cdc0cb70f5bb5b65162963b spi: sprd: fix error pointer deref after DMA setup failure
-1cd927002120678bd5d23c760246639caa53040e spi: ti-qspi: fix use-after-free after DMA setup failure
-c7c0c0f4379dedec12d24dbb9dded5d2db7fd9f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
-0d1f6520c50e1d016bc0620aef8b47e39fdc7bfd LoongArch: Remove unused code to avoid build warning
-34bf74b1fd2e4a44e27821a329204caf09df2976 device property: set fwnode->secondary to NULL in fwnode_init()
-7930eee22cd3df61e85be8aa512032ab303b7167 drm/virtio: use uninterruptible resv lock for plane updates
-f31edc6ee8d035209846c1019f22982e2260e47a drm/amdgpu/vpe: Force collaborate sync after TRAP
-9cc969b3317ce0ea1ede035f4a14f68e4727b1bb drm/bridge: it66121: acquire reset GPIO in probe
-f8a17e6dbfc7036e6a774b850d0b3506ed0d96f7 drm/bridge: megachips: remove bridge when irq request fails
-c6e717e86dcc996382789fa28a81b9f732d909ff drm/amd/display: Fix integer overflow in bios_get_image()
-67461e0c15335894cc5d3b84cda823bf8cbdc886 drm/amd/display: Validate GPIO pin LUT table size before iterating
-3265f3ed373fb8048be713aadcdf702579a0e53d drm/amd/display: Validate payload length and link_index in dc_process_dmub_aux_transfer_async
-aef897c9d2dd0d9339167fb82b62beff68d076cb batman-adv: mcast: fix use-after-free in orig_node RCU release
-30bda3ef4b0cac777f1a7c314cd08b8ff6437365 batman-adv: clear current gateway during teardown
-4d420d9ee70a220a2cd95aa0dd2e15acad66a505 batman-adv: dat: handle forward allocation error
-e910dbf509125fe51ad68e4fa74dc8ab0a8e787a batman-adv: fix fragment reassembly length accounting
-01cefc5923889e29dbb5f281c3d457714ceb9c00 batman-adv: fix tp_meter counter underflow during shutdown
-5418be6c2e117bf8a316582795a8e3ff90f45e5d batman-adv: frag: disallow unicast fragment in fragment
-eeddd7bab3d59c1e98642a204141f8c5d6194707 batman-adv: bla: fix report_work leak on backbone_gw purge
-ecdaa3e4d91040206afe21bc8a0d1198a0971ff3 batman-adv: tp_meter: avoid use of uninit sender vars
-a9f0bfd624ee8a286d6fd2bf0f796e730efb49b0 batman-adv: tp_meter: fix tp_vars reference leak in receiver shutdown
-c197d2601639b4920c19a5a226bafe0fd2a65016 batman-adv: tp_meter: fix race condition in send error reporting
-eb235472b52ef36981c5aad330485eaf2382c53b batman-adv: tt: fix negative last_changeset_len
-4dab98961426d0cf6a1599cda6950b7596ca2fcd batman-adv: tt: fix negative tt_buff_len
-311f10de70dc3c0e240c61d7671ba4c5e3a3bd5f hwmon: (pmbus/adm1266) seed timestamp from the real-time clock
-0e791cd0140fb136083565aadfbe0f705aa260d0 hwmon: (pmbus/adm1266) reject implausible blackbox record_count
-bd5be3fa5de6dbf61f1b3cec6b79c2c2f8065694 hwmon: (pmbus/adm1266) include PEC byte in pmbus_block_xfer read buffer
-83e039f0a43e0708515b0479cb7690fb93faaaa0 hwmon: (pmbus/adm1266) bounce blackbox records through a protocol-sized buffer
 b96c7f0bc0713dc6403912f6527d4ff9168d6fe6 hwmon: (pmbus/adm1266) cap PDIO scan in get_multiple at ADM1266_PDIO_NR
 39c197f3c9be9a1fa91552e79d4cdb384c0d0f44 hwmon: (pmbus/adm1266) don't clobber GPIO bits before PDIO read in get_multiple
 4cce881a0b96f8b491f6626ed9c6fade58ea8e7a hwmon: (pmbus/adm1266) register the gpio_chip after pmbus_do_probe()
@@ -1050,5 +1010,45 @@ d19eed5b312d276c2b7b703e6084fdd924d26f45 NFSD: nfsd-io-modes: Wrap shell snippet
 4d3bb4944fcdec6ddaf6a082b1b352219cbe1e26 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
 6efb266536d6b994b7e21e58dc92dbb048de0879 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
 dc82fd502d2939f45869c0d124c8f2aa7f39bc46 NFSD: net ref data still needs to be freed even if net hasn't startup
+e1afeca221af41e9a894ddd70112a6211acc8487 NFSD: Clean up nfsd4_check_open_attributes()
+507783f8d0272d780537dd587fe0b78ec76af026 xdrgen: improve error reporting for invalid void declarations
+176a2c3495448fe46c8643da8b11ca77841f9683 NFSD: Add instructions on how to deal with xdrgen files
+f292dcd4de3a2100fdd5a005490fa084f8d2f186 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
+e015f71142d3785e0d192619ee541a84305fd88e xdrgen: Address some checkpatch whitespace complaints
+05f023a738a5f592ec2e36a68f97950515ad7269 locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
+5a074480da78bf7a6fe582cd70ac3333c9336996 nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
+e68e6528f7879e2d9c265ede2459eb23f18bff64 xdrgen: Emit the program number definition
+3c0586e921f6d7205114ee617ce39dec32131b0f nfsd: use workqueue enable/disable APIs for v4_end_grace sync
+da177fe91582e05d9df60bb9be8bf834976cddee xdrgen: Implement short (16-bit) integer types
+604f7996844bc3eec744ee8bed11a91a18b3a5fa NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+3c105b73197dc23a25d5693c68ccb8c4921601a0 xdrgen: Remove inclusion of nlm4.h header
+ac9524284cbed2d82b2fb950bf48f8b982cbbd74 xdrgen: Improve parse error reporting
+88db23d6edf14f033515c09044739e53b2dcd42b xdrgen: Extend error reporting to AST transformation phase
+8099af1c022b0afe22fa95d65c564589f39c6d54 xdrgen: Emit a max_arg_sz macro
+e29a0a510e150c3266ff48f61b1895ad72b57e2e xdrgen: Add enum value validation to generated decoders
+3be21240e1773ed0cd39ad57206388c788363960 sunrpc: split svc_set_num_threads() into two functions
+af17aeaf3eaa85058af8140fcfb5e4d196ca97cb sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+9c455acb8ac390afc69527f6b7e59b5bd5da42d6 sunrpc: track the max number of requested threads in a pool
+4f0a23d7be56726f9d02a738faca651a5515c466 sunrpc: introduce the concept of a minimum number of threads per pool
+cce5b92035307e10f7b77d36a10dbbf7ecccf75e sunrpc: split new thread creation into a separate function
+a23c20de1b189bc332dff7c92b921036d467d4e6 sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+95490a7d131d85c8bd0901b4b56801eb864cd336 nfsd: adjust number of running nfsd threads based on activity
+fd2f3f11d1df7427794204bc17530d3641b3cb17 nfsd: add controls to set the minimum number of threads per pool
+96697854e9a3819f4d0e23923846471d2fddadef nfsd: cancel async COPY operations when admin revokes filesystem state
+5df3c7fe6c6098b804cd1b25a37198a13bf3a65b xdrgen: Implement pass-through lines in specifications
+b62513ef37fc61796ef0763973a3a7464a84db34 NFSD: Add a Kconfig setting to enable support for NFSv4 POSIX ACLs
+f2de621ef4c077f056a22b2dc060cf4df46a9372 Add RPC language definition of NFSv4 POSIX ACL extension
+d365f0ff19a52a7c38bc4170c6e612576bf7df02 NFSD: Add nfsd4_encode_fattr4_acl_trueform
+216c46980dbfe4fff39bb287793daff76865be32 NFSD: Add nfsd4_encode_fattr4_acl_trueform_scope
+db9cee7e6da47b70b8943a3ab4cc781cb40758cf NFSD: Add nfsd4_encode_fattr4_posix_default_acl
+e683a4fc5a8aa049ad5e250a07c397fb3d1e6f19 NFSD: Add nfsd4_encode_fattr4_posix_access_acl
+c76ab03a8f0fbfe470c3eeaa4c6e659c0ca76001 NFSD: Do not allow NFSv4 (N)VERIFY to check POSIX ACL attributes
+0aa9d26d83573adf561ca9a6d7168af2ffb0b97a NFSD: Refactor nfsd_setattr()'s ACL error reporting
+766e35bd9d9438caa6b8db4a25031b83f8809d92 NFSD: Add support for XDR decoding POSIX draft ACLs
+f4bac66caeab4453acc9527e0832bcb49b9d79ea NFSD: Add support for POSIX draft ACLs for file creation
+54ff48f097bbb11c2659d5748da8fd895972ce34 NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
+94017e4d9d2a6ccea0969c3d1b0f1ea7a89a82e2 NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
+b4a2b76e139c1d7b4e7a5e3125515e0f7b9736eb nfsd: report the requested maximum number of threads instead of number running
+74348c0603e9500537bb3acdf860875b2c32425a NFSD: Defer sub-object cleanup in export put callbacks
 
---===============3170693723535894402==--
+--===============3460082613882177522==--
