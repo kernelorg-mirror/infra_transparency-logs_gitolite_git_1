@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1187798867451883011=="
+Content-Type: multipart/mixed; boundary="===============2056500976056554226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Tue, 15 Sep 2026 20:01:49 -0000
-Message-Id: <178950250919.2589126.18285531286783912495@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 20:01:50 -0000
+Message-Id: <178950251038.2589259.13882332477724339613@gitolite.kernel.org>
 
---===============1187798867451883011==
+--===============2056500976056554226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: d793bcfca6bb493eb8e93900285f951a0c9dbf7c
     new: 322695d64f868da8d1091ea93c7c8f47bcc41220
     log: revlist-d793bcfca6bb-322695d64f86.txt
 
---===============1187798867451883011==
+--===============2056500976056554226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ a3d89b0eaae5ec25981776e3e4a90efc059b3c48 docs: dma-buf-heaps: fix CMA heap name 
 61b8aea52f539ca5e6a9e20c226c5bdfa53df4b1 docs: vduse: align documentation with current uapi and driver
 322695d64f868da8d1091ea93c7c8f47bcc41220 docs: ioctl: fix stale NVMe registry entry and note N conflict
 
---===============1187798867451883011==--
+--===============2056500976056554226==--
