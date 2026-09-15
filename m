@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1922274581008774326=="
+Content-Type: multipart/mixed; boundary="===============7284175512089218585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:29:03 -0000
-Message-Id: <178943934341.1789275.3668723819836302338@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:29:06 -0000
+Message-Id: <178943934646.1789400.10082500319000010111@gitolite.kernel.org>
 
---===============1922274581008774326==
+--===============7284175512089218585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next
-    old: 42fbcbaf585c263f8cc1307fb33b1991f48dec49
-    new: 2223dcf589e25e211fc3384b088a33aebacf1b71
-    log: revlist-42fbcbaf585c-2223dcf589e2.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary
+    old: ee5469851ff5c6b64de5a151e113ff83b1286bc2
+    new: b66059468c9a99c1d4a1e65d6dd6509bf7f8c941
+    log: revlist-ee5469851ff5-b66059468c9a.txt
 
---===============1922274581008774326==
+--===============7284175512089218585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42fbcbaf585c-2223dcf589e2.txt
+Content-Disposition: attachment; filename=revlist-ee5469851ff5-b66059468c9a.txt
 
+ae6c884fc03ca2adc0f6fb4205b8638691159c9f ethtool: fix ethnl_bitmap32_not_zero() bit interval semantics
+9f8274749d9010a1a72f97e547b7eb9ebb82345b drm/msm/dsi: don't dump registers past the mapped region
+3457807aeb88077712f0a7cb65c3ca5120773d75 drm/msm: Fix iommu_map_sgtable() return value check and avoid WARN
+72d8d1c36452a4d3ee134b1da48de7518c1329f9 powerpc/time: Remove redundant preempt_disable|enable() calls from arch_irq_work_raise()
 53eb7bd09aace72fa17510d80e0caf5ca058c231 net/smc: reject CHID-0 ACCEPT that matches an empty ism_dev slot
 66339b71f105e6f83e0da3b9583d95077534fe1d net: tls: fix off-by-one in sg_chain entry count for wrapped sk_msg ring
 929b1548e63ac72e104c07d8ee8cbbeeba2fa89a net: tls: prevent chain-after-chain in plain text SG
@@ -1037,18 +1041,14 @@ ae5b84db52c7787f33726d15256cc595174b9017 sunrpc: pin svc_xprt across the asynchr
 6bab91b21fa3140294d4170d8a43491498b71d86 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 fd7de2a5543205b824362f2937ae0b91250cedf1 nfsd: reset write verifier on deferred writeback errors
 246f524aae28cc3a8b018e19d140556607c1a193 svcrdma: wake sq waiters when the transport closes
-0694268e1d1a2b34b71979d6f95657b71c4b6627 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
-0cc85c6bf9a8f27a07a9c12a4e966f744a2613eb nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
-af6e78cdd52700cf7b779bdd9f0583f186c55254 NFSD: check truncate permission under inode lock
-2000b405ee5f4c1750952fae388dbadc1eb9ad18 nfsd: fix partial-write detection in nfsd_direct_write
-8b90e6f37d2fcf2c8d739c7fbba7c02338427320 nfsd: hold rcu across localio cmpxchg retry
-0dec632937e6e9a7e32c2a28ef7ca2ce7f047846 NFS/localio: fix ref leak on nfs_uuid_add_file failure
-22b6b724c4020f3cdc92dcb6b65f4ceeb1d1744c nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
-df2fb1377c6f87d14e275d0b59ae11b89981f8f8 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
-e6a1e8cfc3fe4c2d37cb9f06a1e6128c9dd3d3e4 nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
-646e82edd527ec61af5a4106476f2b72bf25dc38 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
-635081fa738cdb2019fe08caab19390c324950da NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
-c89d52be48d567a13bad9d63e8370ceef1ee1337 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
-2223dcf589e25e211fc3384b088a33aebacf1b71 nfsd: initialize DRC hash table before registering shrinker
+0ae465774efe8b78ff589b358e204806a5fcf338 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+551627cad709baaa1ac07a8f78a3d0be71109964 NFSD: add nfsd_direct_misaligned_num_pages modparam
+7ffbac903c769d91ae2924eff9ea8f5700dbf548 NFSD: Enable return of an updated stable_how to NFS clients
+1cdeb46b882f4959115e8b22b44184b9253dd4b9 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+832eb320ecc2402b7b9d2164c3829a35bd51af76 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+48a095b289a3e7d67e776a7d121f84bc526712ee svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+32ac09253457e7eca597f305d40802dc4ac2c5e3 svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+748bc38b6651ba6370c3b756ca4080fa404011ee svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+b66059468c9a99c1d4a1e65d6dd6509bf7f8c941 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 
---===============1922274581008774326==--
+--===============7284175512089218585==--
