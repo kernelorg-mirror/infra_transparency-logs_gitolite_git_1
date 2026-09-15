@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5884447347328587553=="
+Content-Type: multipart/mixed; boundary="===============3270128786681320753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:22:57 -0000
-Message-Id: <178943897783.1781293.12537868755108808632@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:23:00 -0000
+Message-Id: <178943898036.1781465.11171839303588845312@gitolite.kernel.org>
 
---===============5884447347328587553==
+--===============3270128786681320753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.8/nfsd-testing
-    old: e4ab6295b704446ee8c02f555b69730cad5ea331
-    new: 8b79e989c8ea99f0d27e9045c4366dcac219f494
-    log: revlist-e4ab6295b704-8b79e989c8ea.txt
+  - ref: refs/heads/kernel-7.1.8/nfsd-testing-canary
+    old: ed68c8c709624544b7ff12fdd6e368a44a804b6c
+    new: fffcf4ca56c112c314df0e693454f8bb9ad23576
+    log: revlist-ed68c8c70962-fffcf4ca56c1.txt
 
---===============5884447347328587553==
+--===============3270128786681320753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4ab6295b704-8b79e989c8ea.txt
+Content-Disposition: attachment; filename=revlist-ed68c8c70962-fffcf4ca56c1.txt
 
 da3a3beb647eff4f204e6dfa0298cc7231ec8d1a sunrpc: skip svc_xprt_enqueue when no work is pending
 12f6305fcbe44e8f73910a70d566300dffa26097 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
@@ -105,6 +105,11 @@ c8cc682f6e85c1149e8bdec1d132689fc5ab023a lockd: Use xdrgen XDR functions for the
 44de6f969de426736731018581bc95dc386bb935 lockd: Remove C macros that are no longer used
 23f494c33b13d01e987709f212501ad5a1a5186d lockd: Remove dead code from fs/lockd/xdr.c
 a84ec7b5668d92c4b825b7e7f6edb3d0e98d53fd lockd: Unify cast_status
-8b79e989c8ea99f0d27e9045c4366dcac219f494 nfsd: fetch direct I/O alignment for files handed to the filecache
+129e13159d12fb46c6aec6f4bd3079ba1b7bc6bc NFSD: add NFSD_IO_DIRECT heuristic for small IO
+fa5cb8f35ee21cacb726b8c7e4dfc14bbca4aa79 NFSD: add nfsd_direct_misaligned_num_pages modparam
+df483ed2afd9cd9b130a329a3378c8fb6dd249fa nfsd: fallback to DONTCACHE if read IO less than nf_dio_read_offset_align
+69d5078775a2f0bcdef59efbabdf8f921914f98e NFSD: Enable return of an updated stable_how to NFS clients
+2ba513453f85881e6549b792f0a45ed0902584e7 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+fffcf4ca56c112c314df0e693454f8bb9ad23576 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
 
---===============5884447347328587553==--
+--===============3270128786681320753==--
