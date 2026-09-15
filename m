@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Tue, 15 Sep 2026 11:24:00 -0000
-Message-Id: <178947144086.2177453.6145921241249574066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Sep 2026 11:26:27 -0000
+Message-Id: <178947158779.2180750.14856779986903486107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/rv_hybrid_automata_enq
-    old: 9b8ee73a54fc7a7db44a62d01181e0e1a4a8328e
-    new: 3c3c2b01d75e0d7a5a3d7666c46f140ef39b5147
+  - ref: refs/heads/main
+    old: 1142eb185b05db61a78130890fc4ed268f4cb4e6
+    new: 7bbb398689fe56196c321f4106bf7f570bfa3eaa
     log: |
-         a6aa11e6cb4fd3d483596e5b9093a17730b9347c rv: Cache timer budget when starting HA timers
-         c91c4cb3e726ea3335a29d3d95fe0f2e2cafd438 tools/rvgen: Default to HA_TIMER_WHEEL for jiffy clocks
-         9bf8882015d3c0ca3e14e0981cb1580d45a3215d sched: Add task enqueue/dequeue trace points
-         0b3d266db12d558dfdc6703ed398afc1bcf408ca rv: Add enqueue/dequeue to snroc monitor
-         8d5450606126ffb8b139dc191d090e08ad492c3b rv: Add throttle deadline monitor
-         1c821d3315ed8bf4739e523c69e324bff9e868d4 rv: Add dl_server specific monitors
-         5a5d5b8e2407d8a5ddf9d39ad7c1cae495304e93 rv: Add KUnit test for throttle monitor
-         3c3c2b01d75e0d7a5a3d7666c46f140ef39b5147 selftests/verification: Lower stressor priority in rv_deadline
+         578fefdbbdaf3d02949ad9bb94736c81de4a02a8 ipmr: Call ->dellink() to remove DVMRP tunnel device.
+         0239bd767b3ae5d361f348a88babd33a15d498a6 ip_tunnel: Set itn->fb_tunnel_dev to NULL in ip_tunnel_delete_net().
+         7ba090b04ab87b90e714e5fb3ba8748f6f04d2a0 ip_tunnel: Don't pass rtnl_link_ops to ip_tunnel_delete_net().
+         e53013fe10c22fc4e2cc1b45180790a5429c7aa9 ip_tunnel: Centralise ip_tunnel_del() to ip_tunnel_dellink().
+         6faf19060bd0123b69d7e9b04244fd577223ac3c ip_tunnel: Unify error paths in ip_tunnel_newlink() and ip_tunnel_changelink().
+         6724a7baf149ee883eb0b694e8818eacb899f5d8 ip_tunnel: Protect ip_tunnel_net.tunnels[] with mutex.
+         8f3c724202578644145506486dc1cede108c0a2c ip_tunnel: Support per-netns device unregistration.
+         7bbb398689fe56196c321f4106bf7f570bfa3eaa Merge branch 'ip_tunnel-support-per-netns-device-unregistration'
          
