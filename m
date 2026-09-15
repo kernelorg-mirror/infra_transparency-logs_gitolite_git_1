@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5812268629717733413=="
+Content-Type: multipart/mixed; boundary="===============5884447347328587553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:22:51 -0000
-Message-Id: <178943897137.1781007.15894047043589671480@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:22:57 -0000
+Message-Id: <178943897783.1781293.12537868755108808632@gitolite.kernel.org>
 
---===============5812268629717733413==
+--===============5884447347328587553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.8/nfsd-7.3
-    old: c476a9d73a864897cabc4b0d5d1a225635b3cbab
-    new: 81947883fee45b18b70d3ae64dcb0bdfc9613144
-    log: revlist-c476a9d73a86-81947883fee4.txt
+  - ref: refs/heads/kernel-7.1.8/nfsd-testing
+    old: e4ab6295b704446ee8c02f555b69730cad5ea331
+    new: 8b79e989c8ea99f0d27e9045c4366dcac219f494
+    log: revlist-e4ab6295b704-8b79e989c8ea.txt
 
---===============5812268629717733413==
+--===============5884447347328587553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c476a9d73a86-81947883fee4.txt
+Content-Disposition: attachment; filename=revlist-e4ab6295b704-8b79e989c8ea.txt
 
 da3a3beb647eff4f204e6dfa0298cc7231ec8d1a sunrpc: skip svc_xprt_enqueue when no work is pending
 12f6305fcbe44e8f73910a70d566300dffa26097 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
@@ -105,189 +105,6 @@ c8cc682f6e85c1149e8bdec1d132689fc5ab023a lockd: Use xdrgen XDR functions for the
 44de6f969de426736731018581bc95dc386bb935 lockd: Remove C macros that are no longer used
 23f494c33b13d01e987709f212501ad5a1a5186d lockd: Remove dead code from fs/lockd/xdr.c
 a84ec7b5668d92c4b825b7e7f6edb3d0e98d53fd lockd: Unify cast_status
-57509190ba5dfc2b3368f9f999a450a1ddb150ef NFSD: Prevent post-shutdown use-after-free in NFSD_CMD_UNLOCK_FILESYSTEM
-d5de1a3dc8b6f45fd6d7b09e93626b2c422e636f lockd: fix NLMv3 GRANTED_MSG handling
-0dfbd208754c31a655b851a9e75b33111e916137 nfsd: Reset write verifier when async COPY writeback fails
-5d8f8bed1642d756a46164481f3091189c1b58aa nfsd: sample writeback error cursor before async COPY loop
-76013d9ad0f1e4346edba0cbe8cd5654de34b31d SUNRPC: Reject short RFC 4121 MIC tokens in gss_krb5_verify_mic_v2
-d658074fd41846a7e9da9a298294e31a5155f3cb SUNRPC: svcauth_gss: enforce krb5 token minimum length
-dfc156bd8f91373d724b60f74774c414f1815f33 SUNRPC: harden gss_unwrap_resp_priv length checks
-23e49d42bf2f334b6762999a6f7bb3a647b0b9f4 SUNRPC: xdr_buf_trim: clamp buf->len to avoid underflow
-079918378dc484943e50c386fc8475fdd1f44b70 SUNRPC: harden gss_krb5_unwrap_v2 against short tokens
-24923e6f1aa3f807bda2af4e2c2bbdea9b85fa5b lockd: pin next file across nlm_inspect_file lock-drop
-72bbee28575dead5aa63587f504d0447ec7676df NFSD: restart ssc_expire_umount walk after dropping nfsd_ssc_lock
-ca197a890e90b56dcce0e7df2e59b8ef5201965c nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
-5ea2087aceba1927239396b4a565f7e2f23bdb4a nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
-8c9df8518df34ce65e6f296972f40e6d18ed798b nfsd: set SC_STATUS_FREED in nfsd4_drop_revoked_stid for delegations
-da27a30065228f582ef8c365934d3a653541536f svcrdma: Validate Read chunk positions before reconstruction
-408eb8f0ec4963053a3f87875f2e42a77aec79a4 svcrdma: Fix offset arithmetic in read_chunk_range
-cd419b0c3afc016d5625cf2fc0255197b07e5131 svcrdma: Reject oversized Read segments at decode time
-088eaa35cc55c23aed26b73b137316c0060c2fe8 svcrdma: Fix pcl_for_each_segment for empty chunks
-3cec9375f005975699845d0a196e1b4ee1f29b0b svcrdma: Reject Write/Reply chunks with segcount 0
-b88f4471d8c5d135235c5f127921efd532d3faaa svcrdma: Validate Read chunk positions at decode time
-f2122e1bca0492c094db4d296b0bdd878643ef98 nfsd: don't free session slots that are still in use
-f965f86ad75d4e80276ba72a06611f59884e27ce nfsd: defer setting NFSD4_CALLBACK_RUNNING in deleg_reaper
-29f959c03efd53b094928494fb92fd64e1697f5a nfsd: clear CALLBACK_RUNNING on failed delegation recall queue
-fe88cc33062f12e1b5e2b173837fadd131a3fca5 svcrdma: Reject Read lists that exceed the page budget
-5a905e6d06606e8e38405383c64f0f1f6bd8b440 SUNRPC: always drain cache_cleaner before destroying a cache_detail
-18b7bf93ff487b1dd18894140e20ed85c0896e1c nfsd: block non-SAVEFH ops after FOREIGN PUTFH to prevent NULL deref
-ef8c919716776d64a76b40584643cf3ec6f66d4b svcrdma: Fix unmatched rn_unregister on failed accept
-5336709241e0b818cda14bef84e8491634ff3d88 svcrdma: Reorder rpcrdma_rn_unregister before rdma_destroy_id
-3b6e157a96c41ecf7356e41b731982f1cc045bf9 svcrdma: Use svc_xprt_put to free listener on create failure
-0aaadc962032f048509553fb3332b57c5ea75c6c svcrdma: Reject connection when transport allocation fails
-aee13e14c3ec582ddfd69ce5704026bd4067ab0b svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
-d9fc917ffb9290251a885f9c31d61b7c620e9702 nfsd: fix XDR padding calculation in ff_encode_getdeviceinfo
-b1ce65eff83b7b4fb775d1e480ea335be57b3d52 nfsd: fix XDR length calculation in nfsd4_ff_encode_layoutget
-60d4f14cd286a1762cd96dc661aa9eed75a0429e SUNRPC: Reject krb5 v2 wrap tokens with oversized ec field
-c5d26865206cacaa91942ed9341fbeefe5ef9451 SUNRPC: fix gssx_dec_option_array error path bugs
-88f52bd2fa01aebb98481616c276bfb540985bfa SUNRPC: reject duplicate CREDS_VALUE options
-077f7cb8b8776fb8a73b6933555a23ed38eefb64 SUNRPC: Guard svcauth_gss_release() dispatch on rq_auth_stat
-d555b25a2f07aa397db8dea3d49f4e768adf5875 SUNRPC: Zero rpc_gss_wire_cred at svcauth_gss_decode_credbody() entry
-69943be806625c8393c09b0226743524f97cca95 SUNRPC: close backchannel before destroying callback service
-3f34b6ac56771139eaa7cff7967f1e48b60205f0 nfsd: fix BUG_ON in nfsd4_alloc_layout_stateid on racing delegation revoke
-dd8752bf325d1fcffc45d566fbd126396fabad18 nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
-ec56f1b4ed37d783bc90472bca5b97fbb71aad43 nfsd: convert nfsd_net boolean flags to unsigned long flags word
-c2ff015ca7ebb49a3cec6d26961de5d0c8aef249 nfsd: dedup nfs4_client_to_reclaim inserts
-730de65e4bb6675ec82ec020039823603f157756 nfsd: gate nfs3 setacl by argp->mask
-5da9364eb627e57846c20fdeda7c62329e7ef8ca NFSD: check truncate permission under inode lock
-4bfa58089a000256646fd2b12bb650db5fc04789 nfsd: fix partial-write detection in nfsd_direct_write
-2c9c9c2a4f87b0fe7944f1318ff8a2e97e58ef95 nfsd: cap decoded POSIX ACL count to bound sort cost
-a5edd82da30f1f4b05d3d465b4ec809f8ca84a60 nfsd: validate symlink target length in NFSv4 CREATE
-c97634f14e09a03351cdf0bb0beaba47592246e6 nfsd: gate nfs2 setacl by argp->mask
-d02fb8b91244a31b9a85755beb3bc3f70665ef33 sunrpc: init gssp_lock before publishing proc entry
-a642d25336ffa52141b25548bdd2597b9b3a3162 SUNRPC: Check svc pool percpu counter allocation
-87181d3300c4f7e4d1acbf4a80405072b8c4041f nfsd: size fh_verify server sockaddr slot by xpt_locallen
-f285ea2652def079c0bf9d08afb6184c8acb076c nfsd: release path refs on follow_down() error
-f1b47c67296be0d122b9506387bbb959ff1974c3 nfsd: fix nfsd_file leak on inter-server COPY setup failure
-0e0d275ec9fc2ce31c7abc27cf2dc59a63ff742b nfsd: fix dentry ref leak on V4ROOT export filehandle lookup
-fd135c4fa873f552d497f062d196ca0fd002ce4b nfsd: fix layout fence worker double-reference race
-50413475de115ca91bc06dff0652fd8e8ce85cbf nfsd: release OPEN-decoded posix ACLs via op_release
-99de07956749a0a8e02715fece5a63ab04445761 rpcrdma: arm rn_done before publishing the notification
-53177f0d219008398c32e7bf2c5350a834570d03 nfsd: defer vfree of compound ops to fix rpc_status UAF
-0b4a160f9dde7fc2312c3de3656896e5b5cdbf0f nfsd: hold rcu across localio cmpxchg retry
-53ae56e198c5cf5f4333ef3c33e0b6167b13f159 NFS/localio: fix ref leak on nfs_uuid_add_file failure
-9b9670d3de3e81d48ea1d749a6f480345a5ceff4 nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
-631712503e8bd14a873c65ad9bd4ba8e3f9fcc22 nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage
-bc9a972e8f9278e02fe62d22796f379c411f24dd nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
-1597cbe4916729fd2ced3c059e709c4b0eab46b0 nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
-d676596cd2d783d9b1dbf86deac491fd08f526c8 nfsd: unify cleanups in nfsd_cross_mnt() exits
-42be1b233347707d1521ab8b2bdde617a6e96edc nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
-c53ca33697d192740dd858620531d8c9ac0aa5ff net/sunrpc/svcauth_unix: Use strscpy() to copy strings into arrays
-f3b5db961a5a45c24fe5dcc6315d2051fc52a15a NFSD: fix up error returned by write_threads()
-d6fc8edb584f7e46aabbbf9d239bf64b706eba44 lockd: Use "%*phN" to dprintk() a cookie
-1b48b3b6713b75f94a1a0fc332320e7fffff8a7a SUNRPC: Add svc_serv_maxthreads() to report the thread ceiling
-a0163a235d3c664418abdb9cb913884ed9d07cb8 NFSD: Count slot 0 in nfsd_total_target_slots
-0021bef1b7c00cfe43a79a419e45a16bc763d72b NFSD: Clean up documenting comment for reduce_session_slots()
-ef6081fbf23ba971f68a6af57447462606ef1fe4 NFSD: Document and rename the NFSv4.1 session slot shrinker callbacks
-247c006bb4fd6d7f199e80a98c9aa81a9d3bea9f NFSD: Bound on-demand DRC slot growth by the thread ceiling
-0498adde03f00f70a09a7cf7e1b3bbd13e09840d NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
-3796c2bae67c6b6b48fdaf749e421f604b9ebf9c nfsd: fix null dereference in nfsd4_setattr for deleg timestamp attrs
-4123d8642372925dc87760523540907d2d69e4c1 nfsd: clear opcnt on compound arg release to prevent OOB read
-28df6751c5989eb8bbff32d28c24cf9fa3e40a6b nfsd: add missing read barrier to rpc_status_get dumpit seqcount retry
-2baf0bae32d9111e84135658323f16ca4d246982 nfsd: fix netlink dumpit error handling for rpc_status_get
-c8b87adcb3577a8713416167e5809b30188dec14 sunrpc: defer rq_argp and rq_resp free until after RCU grace period
-597a1a3b7026383fdc455b476812b638e4b69dfa nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
-be74c0c5c47c05af78e26dbb28004b06a51eb8c8 nfsd: add filehandle match check to nfsd4_delegreturn()
-699d05cba2a75e670d6960c151b782fff3091dcf nfsd: validate nseconds in TIME_DELEG decode paths
-e3baa4744407433cdff0e7ef73907909e9805e10 nfsd: fix version mismatch loops in nfsd_acl_init_request()
-1ba3cd8d80361e2825daca47f69aedb95762f925 nfsd: fix FL_SLEEP being set unconditionally for all LOCK types
-18c669cfe840d2568f3508e34f3961146e4951dd nfsd: add fh_want_write() for early-verified SETATTR in nfsd_proc_setattr()
-0988c9dc0e2951353d70284cbbf488eecc611fcf nfsd: fix clock domain mismatch in clients_still_reclaiming()
-748b8c0d85ca571e2354d5cbcabc3dafaef19fad nfsd: use test_and_clear_bit for somebody_reclaimed to prevent lost update
-79cadeb68f6db2bfb2a28f0b52ad3eefbfa57b07 nfsd: reject reclaim LOCK after RECLAIM_COMPLETE
-0f8a830fef2e0cab35f9ac3568186ba7e3453f90 lockd, nfsd: RCU-protect nlmsvc_ops dispatch
-0b242135de8085c3c13a0a723aff361a8e09593f nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
-95934dc22eb66dbac7c3cfc66a639503336a5347 nfsd: initialize DRC hash table before registering shrinker
-26d0520da976a738613f3ff5bb75ddb9100009ca nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
-b9c4b5ae935c5aeab25ade1af7d43c6591d65eb2 nfsd: drop the stateid, not the stateowner, on seqid_op replay retry
-fea175d6ed1789888e421864613efd01012a7cc0 NFSD: Prevent post-shutdown use-after-free in unlock_filesystem
-37038682aab91a69e62ab07572127fc4686841f8 NFSD: Annotate caller preconditions for the state-table walkers
-783633c21b2ba3ffa8529abc6df416ef34f2a641 nfsd: validate sockaddr length per family in listener_set
-14865f0f9dbceb32d401faedf446d37d0057e5cc nfsd: reject out-of-range useconds in NFSv2 SETATTR/CREATE
-e1c20b5d756e0f987b111de3e4d9b31e842cd997 nfsd: reject out-of-range nseconds in NFSv3 SETATTR and create ops
-bbccabbd19badc3dd5e996414e24a29de66a96cb nfsd: use NSEC_PER_SEC in nfsd4_decode_nfstime4()
-fc374e3b5951b83cf33e5b4996d265f749309557 lockd: fix swapped arguments in nlmsvc_match_ip()
-62b19c169eeef54c716d1379bd4a0ff30c69a0a5 nfsd: check fl_lmops in nfsd_breaker_owns_lease()
-aa399eb8fc9a4f196954861fa7f903d0212fa5cc nfsd: add protocol support for CB_NOTIFY
-af5e69a6db0eaf8fe8d7708eb16b856ffba6c0ec nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
-e1abaf1fbfcd39b7859e24ba23ef12daf70153e9 nfsd: allow nfsd to get a dir lease with an ignore mask
-356eda7f6daa07832b6344382f781390bff8e628 nfsd: update the fsnotify mark when setting or removing a dir delegation
-10536449773a5c6d9faa1afb8b102017c2042255 nfsd: make nfsd4_callback_ops->prepare operation bool return
-2d2b13e2f06059de42c8b73eda548b11c3187c2b nfsd: add callback encoding and decoding linkages for CB_NOTIFY
-9a52c100e5c475831aa8a34d7a7d0eb9d4000a2a nfsd: use RCU to protect fi_deleg_file
-e49cf330d160e1a3cc60137b0a9053dccbef6fd9 nfsd: add data structures for handling CB_NOTIFY
-e73faafcfc99e7072cadbb8f4bbb4f197783199e nfsd: add notification handlers for dir events
-82ded955a1a1933bfc9c667b04baa8a318f2e56c nfsd: apply the notify mask to the delegation when requested
-618900b54d55e6b33c1f7bcd4792065d435e9850 nfsd: add helper to marshal a fattr4 from completed args
-8fc1f21393eb174cca9877d69aed4619f5fbd13c nfsd: allow nfsd4_encode_fattr4_change() to work with no export
-c69c6d0e4e10a58e1d033b6f8f73b8d207c7ae6a nfsd: send basic file attributes in CB_NOTIFY
-546ab5e710ec0a85bc83ce8191098ccd5a9906f1 nfsd: allow encoding a filehandle into fattr4 without a svc_fh
-a160671035b995cd1f0a57b2675b4db7c732e0c0 nfsd: add the filehandle to returned attributes in CB_NOTIFY
-b8b4ca8eec7efb78d5a48160a31a4a93b88a80bb nfsd: fix reply size estimate for GET_DIR_DELEGATION
-9e0671c8accd1a836305da12096599f43ef4606e nfsd: properly track requested child attributes
-35ea5c6912f17841a0bddb31739f1ed7a348f20a nfsd: track requested dir attributes
-09272e80972282b7fce3a60e64af8d8e49f28390 nfsd: add support to CB_NOTIFY for dir attribute changes
-6b67c2292da6066e2e14da4636d8410bcc8c4ba5 NFSD: Guard admin state-revocation walks with NFSD_NET_UP
-06a6780b20d7fa53658514a91cbef15423761e42 NFSD: Replace isdotent() macro
-2e60c48ac8b26b8fe82a4705bbf3b1dbebbd418b svcrdma: Reject inline replies that overflow the pull-up buffer
-483b4918d80ae5be535d98a69fc5143a9f02c3e8 lockd: fix NLMv4 GRANTED_MSG handling
-5f161a0520e9055d6dbfcaba3207d663d7884524 lockd: Regenerate NLMv4 XDR code
-68e52fea466070c9c0d2e980444e203ddbeb6834 lockd: preserve multiple NLM_SHARE grants from the same owner
-29391355d23c69459b4b817586a15421b440d1a2 SUNRPC: Restore NUMA_NO_NODE for svc thread allocations in global mode
-2385f6ff23023804a8cef6100217ee165177f2c7 sunrpc: route to a populated pool in svc_pool_for_cpu()
-8b9fc1368c7d14be9c78a4da4f267a18113058a1 sunrpc: hardcode pool_mode to pernode, remove other modes
-62a072c605dbf8ea970d9097a44a555f769c047a sunrpc: guarantee a thread per pool when auto-distributing
-b57798931a0452ea33ac6acbbc7247924afcea0a sunrpc: tear down pool counters before dropping the pool map reference
-c7c50120059fe62b7f98abcff8db846384b3e612 sunrpc: derive the pool count instead of caching it in sv_nrpools
-0420fcb135e6913d2791e9f4dda0b6e31cd39e2d NFSD: Prevent lock owner use-after-free during client teardown
-4e16eff346d812c9d5284605581c116948b75bc7 NFSD: Prevent client use-after-free during delegation revoke
-2386825c1a595781a190d28f03a78cdf0ef21bd7 NFSD: Prevent client use-after-free during admin state revocation
-000c9d2190065b65494aa35c8c8ecf0a64dd79c6 NFSD: Prevent client use-after-free during export state revocation
-f9b493557d95ee30de617cf9ffa6d5c7bf962be6 NFSD: Prevent client use-after-free during NFSv4.0 revoked-state cleanup
-8aa15e3469f9299ed862a678879ee1150bdc3d65 NFSD: Consolidate the revocation-path client unpin
-0e8e20c7c96d4f5af0e2223779ac5f58b231774c NFSD: Prevent client use-after-free during blocked-lock reaping
-562955c85340bf72e3860b2bafd53228ba5c1e38 NFSD: Prevent client use-after-free during close_lru reaping
-d597d167d1424ad93d6f6bf066f7441379102b23 NFSD: Release the export reference when reaping open stateids
-b936491aefb84e80a578845f96bc16012c06579f nfsd: fix cpntf publish race in nfs4_init_cp_state
-053eac2d03ed108dc383a9781855b2166ee01afd nfsd: fix UAF in async copy cancel and shutdown
-06e718160baaefa5d3d9fe615510af89752e11e4 nfsd: fix stale s2s_cp_stateids IDR entry for async COPY
-8032f6d951127a3fc6f7b7b62987a154f9e4295a nfsd: initialize copy-notify stateid before publishing it
-c7ea8d3efad1c31ed78e7fedf084129b8a34f31b nfsd: check client ownership when cancelling a copy-notify stateid
-40318ad1180c317f6785b63d797e971de95215c3 nfsd: revoke copy-notify stateids before dropping their reference
-c8543c48e3624c2612ce49091cec887b3d32edaf nfsd: return NFS4ERR_NOTSUPP for unsupported netloc4 types
-e300a767cbeaec31e645707812579cbb29f924d2 nfsd: split nfsd4_copy into transient and durable async copy objects
-ccb82a11b4651eefaedd030e7f5fc1e56aa8eba6 nfsd: make the copy offload stateid a first-class nfs4_stid
-d4647b39d40d0f01dc4d4119c44034ddc5d07aca nfsd: drop dead COPY-vs-COPYNOTIFY type handling from s2s stateid IDR
-21205fd071014e146a0cc572999a89e44c73a58b NFSD: Encode only the status in NFS-ACL v2 GETACL error replies
-a1bf03258a6010a0fd2fb798fdb406a7377e7468 xdrgen: Emit a blank line ahead of enum declarations
-45ade3d3bb27476fd8157216011566acb0e9272a xdrgen: Share void RPC procedure handlers across programs
-89572a95c77556722ef2f059c65b23a16bd4535b xdrgen: Do not declare union XDR functions in the definitions header
-7e2ea3d7c0466da1a399b1802cd2560fcfef2769 xdrgen: Add XDR width macros for short integer types
-8763071c5d7dcb647d3ddc90d916244c3e219342 xdrgen: Fix opaque and string encoders for unbounded members
-e69300eac8bc1cd86bfe1d5cb3cb32b3f50fe8f4 xdrgen: Align the error caret under tab-indented source
-a00038655a7aa0333b82f488d9d36950331e5422 xdrgen: Record the source position of each declared identifier
-f333782fefa60514bf25e53db1bb1036e53d0eed xdrgen: Reject specifications that define a name twice
-c38e7e4aa9a2f79379cda7d4f14ac40ac07483c4 xdrgen: Enforce RFC 5531 name and number scoping for RPC programs
-b32526a1644c6d45b5da90b7dbdbe3c1194b2804 xdrgen: Reject out-of-range program, version, and procedure numbers
-2a787e4e7058e2899568d6bfea22724e9546054c NFSD: Make "stats.h" self-contained
-24b7b149f19ea0be80989d81881bfba520b3949e NFSD: Explicitly include "stats.h"
-df1145eeab775f8600ded41b4122611a70bda98f NFSD: include "netns.h"
-eb810d5de6a53e29289c217ac1662e37ae83ac48 NFSD: Remove '#include "nfsd.h"' from fs/nfsd/cache.h
-91c7b970097e90a4aaf2d641a707555392a88d6d NFSD: Move the export.h include from nfsd.h to auth.c
-7f3d6e656252da3c9453fa6fd651c27d71a8c5ac NFSD: Move struct readdir_cd
-75ceed1f7e786190e4dd97309e48ede9b29ccb3b NFSD: Relocate nfsd_user_namespace()
-bf6753d92a750d1a77f3f53006d01fe8fc2e4137 NFSD: Relocate nfsd4_set_netaddr()
-4a3a072a7604a406142150c4f5ccfa71212e27be NFSD: Relocate NFSv4 "supported attributes" to new header
-402b6b71dee9681fcbe8911163021411edd5d09c NFSD: Fix off-by-one in DRC bucket pruning limit
-0bd5bdc197242af172082c66ceafa52322178c7f NFSD: Eliminate percpu counter contention in DRC memory accounting
-b17922217c178db9703b561d9439b32860e09f4f NFSD: Eliminate percpu counter contention in reply cache statistics
-1f7feb49dd425d6745bf6fde0a99aebe714fcc89 NFSD: Eliminate percpu counter contention in IO byte accounting
-d582cdf2ca1217cda8f9bb8caf47d4224d3c0d32 NFSD: Document reply_cache_stats ABI
-953f1be4631618cbf90ee3ea3517db7570ef9f5b sunrpc: add per-netns per-procedure call counts to svc_stat
-34fe8b150e17fd522d7140e73650c7d7e1e2859d sunrpc: use per-net counts in svc_seq_show()
-334eee6e48bb23d459e1b97672602e032e127910 nfsd: implement server-stats-get netlink handler
-6b9abceda78d812ff870c9ac9a4ed3c4af8e3e7f sunrpc: remove unused svc_version vs_count field
-7541f820f5905db30a93dafb8ede91d1e329d750 nfsd: count NFSv4 callback operations per netns
-81947883fee45b18b70d3ae64dcb0bdfc9613144 nfsd: export NFSv4 callback op stats via netlink
+8b79e989c8ea99f0d27e9045c4366dcac219f494 nfsd: fetch direct I/O alignment for files handed to the filecache
 
---===============5812268629717733413==--
+--===============5884447347328587553==--
