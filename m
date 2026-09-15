@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8117711678937658597=="
+Content-Type: multipart/mixed; boundary="===============4513193817527727405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:14 -0000
-Message-Id: <178943929431.1787887.15190141978035159697@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:18 -0000
+Message-Id: <178943929860.1787980.16259760988932804879@gitolite.kernel.org>
 
---===============8117711678937658597==
+--===============4513193817527727405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-2
-    old: c5280bbb7bf9be12d4c47fc20060c8cb53802fe9
-    new: 176a76e66448198477febd3f4a7f146e69ed3b6d
-    log: revlist-c5280bbb7bf9-176a76e66448.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-for-7.2-fixes
+    old: 7198a1ee2deff96869704e109656ccbb6072a532
+    new: 44e49d545b4c0ebadc408319cb68cf798c362536
+    log: revlist-7198a1ee2def-44e49d545b4c.txt
 
---===============8117711678937658597==
+--===============4513193817527727405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5280bbb7bf9-176a76e66448.txt
+Content-Disposition: attachment; filename=revlist-7198a1ee2def-44e49d545b4c.txt
 
-0d1f6520c50e1d016bc0620aef8b47e39fdc7bfd LoongArch: Remove unused code to avoid build warning
-34bf74b1fd2e4a44e27821a329204caf09df2976 device property: set fwnode->secondary to NULL in fwnode_init()
-7930eee22cd3df61e85be8aa512032ab303b7167 drm/virtio: use uninterruptible resv lock for plane updates
-f31edc6ee8d035209846c1019f22982e2260e47a drm/amdgpu/vpe: Force collaborate sync after TRAP
-9cc969b3317ce0ea1ede035f4a14f68e4727b1bb drm/bridge: it66121: acquire reset GPIO in probe
-f8a17e6dbfc7036e6a774b850d0b3506ed0d96f7 drm/bridge: megachips: remove bridge when irq request fails
-c6e717e86dcc996382789fa28a81b9f732d909ff drm/amd/display: Fix integer overflow in bios_get_image()
-67461e0c15335894cc5d3b84cda823bf8cbdc886 drm/amd/display: Validate GPIO pin LUT table size before iterating
-3265f3ed373fb8048be713aadcdf702579a0e53d drm/amd/display: Validate payload length and link_index in dc_process_dmub_aux_transfer_async
-aef897c9d2dd0d9339167fb82b62beff68d076cb batman-adv: mcast: fix use-after-free in orig_node RCU release
-30bda3ef4b0cac777f1a7c314cd08b8ff6437365 batman-adv: clear current gateway during teardown
-4d420d9ee70a220a2cd95aa0dd2e15acad66a505 batman-adv: dat: handle forward allocation error
-e910dbf509125fe51ad68e4fa74dc8ab0a8e787a batman-adv: fix fragment reassembly length accounting
-01cefc5923889e29dbb5f281c3d457714ceb9c00 batman-adv: fix tp_meter counter underflow during shutdown
-5418be6c2e117bf8a316582795a8e3ff90f45e5d batman-adv: frag: disallow unicast fragment in fragment
-eeddd7bab3d59c1e98642a204141f8c5d6194707 batman-adv: bla: fix report_work leak on backbone_gw purge
-ecdaa3e4d91040206afe21bc8a0d1198a0971ff3 batman-adv: tp_meter: avoid use of uninit sender vars
-a9f0bfd624ee8a286d6fd2bf0f796e730efb49b0 batman-adv: tp_meter: fix tp_vars reference leak in receiver shutdown
-c197d2601639b4920c19a5a226bafe0fd2a65016 batman-adv: tp_meter: fix race condition in send error reporting
-eb235472b52ef36981c5aad330485eaf2382c53b batman-adv: tt: fix negative last_changeset_len
-4dab98961426d0cf6a1599cda6950b7596ca2fcd batman-adv: tt: fix negative tt_buff_len
-311f10de70dc3c0e240c61d7671ba4c5e3a3bd5f hwmon: (pmbus/adm1266) seed timestamp from the real-time clock
-0e791cd0140fb136083565aadfbe0f705aa260d0 hwmon: (pmbus/adm1266) reject implausible blackbox record_count
-bd5be3fa5de6dbf61f1b3cec6b79c2c2f8065694 hwmon: (pmbus/adm1266) include PEC byte in pmbus_block_xfer read buffer
-83e039f0a43e0708515b0479cb7690fb93faaaa0 hwmon: (pmbus/adm1266) bounce blackbox records through a protocol-sized buffer
-b96c7f0bc0713dc6403912f6527d4ff9168d6fe6 hwmon: (pmbus/adm1266) cap PDIO scan in get_multiple at ADM1266_PDIO_NR
 39c197f3c9be9a1fa91552e79d4cdb384c0d0f44 hwmon: (pmbus/adm1266) don't clobber GPIO bits before PDIO read in get_multiple
 4cce881a0b96f8b491f6626ed9c6fade58ea8e7a hwmon: (pmbus/adm1266) register the gpio_chip after pmbus_do_probe()
 b75d17559dcd89e73ae2a2bb6c6589ff643fbb2b hwmon: (pmbus/adm1266) register the nvmem device after pmbus_do_probe()
@@ -1050,5 +1024,31 @@ ede8564f2ae6f4ac65760df6424e2fac20b7a50c NFSv4.2: fix CLONE/COPY attrs in presen
 49eb11a726f63e0cb19218271694d9aec65e99a7 NFS: remove redundant __private attribute from nfs_page_class
 a24932222a7a7b49f819d38aee13dea7754821dc NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 176a76e66448198477febd3f4a7f146e69ed3b6d NFS: write_completion: dereference loop-local req, not hdr->req
+fa25b7de3fe5194b91674efcae1dd916bbd47268 sunrpc: Fix error handling in rpc_sysfs_xprt_switch_add_xprt_store()
+bb4a47c7fe0b8a55f535ed0f1a1c53cb1fc533dd NFSv4/flexfiles: reject zero filehandle version count
+a1ed667378cd7c4e8092b40af10722e3237af098 pNFS/filelayout: fix cheking if a layout is striped
+e592b175d65bbea7731194fed8aa4a2d7a9fc50d NFS: show redacted cert_serial and privkey_serial in mount options
+132cfbe99bff2f1c41bad797a4391f3fa0591e3f NFS: fix eof updates after NFSv4.2 fallocate/zero-range
+0994fd4aa386f637580398c82c15af99fa3f95e4 pNFS: Fix use-after-free in pnfs_update_layout()
+9b469e3669c237baecd5026ffde03230b7b59c90 nfs: keep PG_UPTODATE clear after read errors in page groups
+b3742bb8562dd13ee6f4edc09fe7761a4ebd5324 sunrpc: fix uninitialized xprt_create_args structure
+501a7b281ed12826f383d07e9378cef1cb4992c6 NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS on fatal DS connect errors
+6116ef65b63d73fd4b11a8cd52c7697e037d0ead NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS in pg_get_mirror_count_write
+9d2140879d522723236641e7e2d570061de26948 NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
+b83a175cfcc8b5e8cfc7f79b307c6898e0242a0f nfs: use nfsi->rwsem to protect traversal of the file lock list
+4420aab4f80887fbe16b1d152c9d0086a85614eb NFS: correct CONFIG_NFS_V4 macro name in #endif comment
+d2c712dec95e29eaa30bd83bcc202560309ba1af xprtrdma: Fix ep kref imbalance on ADDR_CHANGE
+0ade9db071f24d99de63f769e7d8a29defa6ac39 xprtrdma: Initialize re_id before removal registration
+3f1453f0dc4f4ebf67fb476297a81be345d36421 xprtrdma: Check frwr_wp_create() during connect
+e7a404ff628005d94da8e072587b148a119edc99 xprtrdma: Fix bcall rep leak and unbounded peek
+fdff0fa9da1b789582ed6fefdd0835d1b0a81547 xprtrdma: Sanitize the reply credit grant after parsing
+e4db56eca88a8ed256667a183c428e5650db72da xprtrdma: Repost Receive buffers for malformed replies
+95de8d8b77aec00f56e66b83b9bebde4d30f9d69 NFSv4/pNFS: reject zero-length r_addr in nfs4_decode_mp_ds_addr
+3f769a5af09482b32444a1fecccd5bf6680de3b6 NFS: Prevent resource leak in nfs_alloc_server()
+7afcb09337cb71d476ba1a9a1d7374b6f4d341aa NFS: Use common error handling code in nfs_alloc_server()
+801e37d1d0b1daabf6245c4e444e255f5ef2ed0f SUNRPC: release lower rpc_clnt if killed waiting for XPRT_LOCKED
+e475b2ffeeb99d94a8df68134303bc1fd369e39e SUNRPC: pin upper rpc_clnt across the TLS connect_worker
+b0083428038ad0d82145bad99ca8beee7ff60057 NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
+44e49d545b4c0ebadc408319cb68cf798c362536 NFS: Charge unstable writes by request size, not folio size
 
---===============8117711678937658597==--
+--===============4513193817527727405==--
