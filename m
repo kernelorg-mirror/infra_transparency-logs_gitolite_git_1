@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Sep 2026 08:17:48 -0000
-Message-Id: <178946026859.2044665.8730421133415763945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 15 Sep 2026 08:19:49 -0000
+Message-Id: <178946038954.2045420.2783346761570399025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: 272a65db243bfa34b9277632830e0e06d7e3518e
-    new: 20d1b74a32d0044bb797da599069b382cb58f1d2
+  - ref: refs/heads/wip/leon-for-next
+    old: c55b7e155dd1f2f195f98c94c30df7bba0e07839
+    new: f7d28791433d373ecdab7b00f60ddb504e858e0a
     log: |
-         2343cff0b382c9e9c965c75cebfe83d2150a96c7 net: fec: Propagate PTP initialization errors
-         20d1b74a32d0044bb797da599069b382cb58f1d2 net: fec: Handle optional IRQ lookup errors correctly
+         f7d28791433d373ecdab7b00f60ddb504e858e0a RDMA/uverbs: Make CQ handle mandatory for WQ creation
          
