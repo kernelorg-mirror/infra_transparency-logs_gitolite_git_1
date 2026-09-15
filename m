@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7051943173533729340=="
+Content-Type: multipart/mixed; boundary="===============3170693723535894402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:43 -0000
-Message-Id: <178943932328.1788597.7437776022870712607@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:46 -0000
+Message-Id: <178943932666.1788715.1759138290492628659@gitolite.kernel.org>
 
---===============7051943173533729340==
+--===============3170693723535894402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-2
-    old: 4be0e7d1b47ad20b693fd651a38ecdae00e1039d
-    new: 6efb266536d6b994b7e21e58dc92dbb048de0879
-    log: revlist-4be0e7d1b47a-6efb266536d6.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-3
+    old: 73ec5e7e5d559177479aad85940a07099963d990
+    new: dc82fd502d2939f45869c0d124c8f2aa7f39bc46
+    log: revlist-73ec5e7e5d55-dc82fd502d29.txt
 
---===============7051943173533729340==
+--===============3170693723535894402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4be0e7d1b47a-6efb266536d6.txt
+Content-Disposition: attachment; filename=revlist-73ec5e7e5d55-dc82fd502d29.txt
 
-38bccb927d83d7d52e5b20015a172a0b6101d11e af_unix: Fix UAF read of tail->len in unix_stream_data_wait()
 f7d395dc5008168ac5b9c1ac2791e59a6078cca1 wifi: mac80211: consume only present negotiated TTLM maps
 f2deaa2f409a4598eaa10f2a93a676c0632af248 cifs: Fix busy dentry used after unmounting
 1a150947f8480262a46c860f1acb9c6597ca7097 tracing: Do not call map->ops->elt_free() if elt_alloc() fails
@@ -1050,5 +1049,6 @@ d19eed5b312d276c2b7b703e6084fdd924d26f45 NFSD: nfsd-io-modes: Wrap shell snippet
 46a17979afdba796350f0641634903a5bf0d5820 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
 4d3bb4944fcdec6ddaf6a082b1b352219cbe1e26 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
 6efb266536d6b994b7e21e58dc92dbb048de0879 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+dc82fd502d2939f45869c0d124c8f2aa7f39bc46 NFSD: net ref data still needs to be freed even if net hasn't startup
 
---===============7051943173533729340==--
+--===============3170693723535894402==--
