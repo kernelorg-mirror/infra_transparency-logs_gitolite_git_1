@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3978422540671381681=="
+Content-Type: multipart/mixed; boundary="===============2591912694924029189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:59 -0000
-Message-Id: <178943927907.1787222.11288921843937284987@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:01 -0000
+Message-Id: <178943928188.1787307.18344351301221885742@gitolite.kernel.org>
 
---===============3978422540671381681==
+--===============2591912694924029189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-1
-    old: 5d4f2e6977fa30b4c8cf2abb49fe347d7cab0b13
-    new: 009dc99abc357af6fae9a59805bafa0c3162e4a1
-    log: revlist-5d4f2e6977fa-009dc99abc35.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-2
+    old: c634b0f2ffa0904d526119b3b484d6e490f8ae47
+    new: 4c8e6bc741dd62ca5ea92d7dd507254df747d776
+    log: revlist-c634b0f2ffa0-4c8e6bc741dd.txt
 
---===============3978422540671381681==
+--===============2591912694924029189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d4f2e6977fa-009dc99abc35.txt
+Content-Disposition: attachment; filename=revlist-c634b0f2ffa0-4c8e6bc741dd.txt
 
-9454e60067ec3711a2d2a0bcf56867d59f7d3975 Revert "ice: fix double-free of tx_buf skb"
-a4cb26be376466335d9d94b8d7c4ec5fcbb55811 Revert "ice: Remove jumbo_remove step from TX path"
-d4e78c6119d7085d86021e80fb48c660837ba71f tracing: Fix the bug where bpf_get_stackid returns -EFAULT on the ARM64
 21a8aa77c2ff439b631ffd1856017aa1d5d32ed4 net/mlx5e: Trigger neighbor resolution for unresolved destinations
 8c7d9f3ca1f3d7bb62d3ccb5c4447ed66321bf57 net/mlx5e: Use ip6_dst_lookup instead of ipv6_dst_lookup_flow for MAC init
 77cc16f889938f3f72989e01f8cd5ae1c645ee4f x86/fgraph: Fix return_to_handler regs.rsp value
@@ -1050,5 +1047,8 @@ c580f61c40a8d0b3717a2d51e21bfc45d27c38d8 SUNRPC: cleanup common code in backchan
 465fd6a61e8c076a338e981d632399d3d3773f06 nfs/localio: fix regression due to out-of-order __put_cred
 2dff2e0efc4254cf24d337cdfe83bbf9f6a17d47 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
 009dc99abc357af6fae9a59805bafa0c3162e4a1 nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
+b1aa1269d8b2113afef29a67d2f1dd32423f0594 NFS/localio: Stop further I/O upon hitting an error
+f33953aa25d0f93c5d6bb617c799351c4638fb99 NFS/localio: Deal with page bases that are > PAGE_SIZE
+4c8e6bc741dd62ca5ea92d7dd507254df747d776 NFS: Fix size read races in truncate, fallocate and copy offload
 
---===============3978422540671381681==--
+--===============2591912694924029189==--
