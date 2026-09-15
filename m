@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 15 Sep 2026 01:58:20 -0000
-Message-Id: <178943750085.1757917.17946738491966491543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 15 Sep 2026 02:01:45 -0000
+Message-Id: <178943770596.1761329.2695604913554330084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/ath-current-20260914
-    old: 0000000000000000000000000000000000000000
-    new: cb7f4d2a4d3f5dcc4ef6faab2d14fa72e4264f76
+  - ref: refs/heads/main
+    old: f97d8c7bab7843631206a114986c9059da03efeb
+    new: 6fb0a9d9071f1ff0cc5cfc0782302d9c90d642cb
+    log: |
+         6fb0a9d9071f1ff0cc5cfc0782302d9c90d642cb rust: net: phy: fix off-by-one bit positions in device status accessors
+         
