@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5301681311556072471=="
+Content-Type: multipart/mixed; boundary="===============1922274581008774326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:29:00 -0000
-Message-Id: <178943934029.1789143.8813457425918303461@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:29:03 -0000
+Message-Id: <178943934341.1789275.3668723819836302338@gitolite.kernel.org>
 
---===============5301681311556072471==
+--===============1922274581008774326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-7.2
-    old: 00adb45d1913bb10694f3f82b0a2140ad5ac2dce
-    new: 246f524aae28cc3a8b018e19d140556607c1a193
-    log: revlist-00adb45d1913-246f524aae28.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next
+    old: 42fbcbaf585c263f8cc1307fb33b1991f48dec49
+    new: 2223dcf589e25e211fc3384b088a33aebacf1b71
+    log: revlist-42fbcbaf585c-2223dcf589e2.txt
 
---===============5301681311556072471==
+--===============1922274581008774326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00adb45d1913-246f524aae28.txt
+Content-Disposition: attachment; filename=revlist-42fbcbaf585c-2223dcf589e2.txt
 
-53a01bcc0242590eda4c452a5bd996f62457113b block: recompute nr_integrity_segments in blk_insert_cloned_request
-d5496ddefe699a3b61ecad2a8f75330279291154 HID: quirks: really enable the intended work around for appledisplay
-abc5bb800336261fe27541f09a8a3861e2cf9235 block: modify bio_integrity_map_user to accept iov_iter as argument
-5cb13531de0ecef3600855ef8bf788be8cb3b90b block: drop direction param from bio_integrity_copy_user()
-9264162d1a86725f6e9da6d27c331e27a4949b27 blk-integrity: use simpler alignment check
-539a1261d2280c601f3bacbf3c6efdf31d4e0adc blk-integrity: enable p2p source and destination
-77c059f41e9395793917d067476f549a911d77d3 block: bio-integrity: Fix null-ptr-deref in bio_integrity_map_user()
-8dd6edbe26770df147136c3f2ac976c873b82650 accel/qaic: Add overflow check to remap_pfn_range during mmap
-b706d6d76a2a2793fe5ad0fbc2a75b6a460094ef net/smc: avoid NULL deref of conn->lnk in smc_msg_event tracepoint
-ae6c884fc03ca2adc0f6fb4205b8638691159c9f ethtool: fix ethnl_bitmap32_not_zero() bit interval semantics
-9f8274749d9010a1a72f97e547b7eb9ebb82345b drm/msm/dsi: don't dump registers past the mapped region
-3457807aeb88077712f0a7cb65c3ca5120773d75 drm/msm: Fix iommu_map_sgtable() return value check and avoid WARN
-72d8d1c36452a4d3ee134b1da48de7518c1329f9 powerpc/time: Remove redundant preempt_disable|enable() calls from arch_irq_work_raise()
 53eb7bd09aace72fa17510d80e0caf5ca058c231 net/smc: reject CHID-0 ACCEPT that matches an empty ism_dev slot
 66339b71f105e6f83e0da3b9583d95077534fe1d net: tls: fix off-by-one in sg_chain entry count for wrapped sk_msg ring
 929b1548e63ac72e104c07d8ee8cbbeeba2fa89a net: tls: prevent chain-after-chain in plain text SG
@@ -1050,5 +1037,18 @@ ae5b84db52c7787f33726d15256cc595174b9017 sunrpc: pin svc_xprt across the asynchr
 6bab91b21fa3140294d4170d8a43491498b71d86 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 fd7de2a5543205b824362f2937ae0b91250cedf1 nfsd: reset write verifier on deferred writeback errors
 246f524aae28cc3a8b018e19d140556607c1a193 svcrdma: wake sq waiters when the transport closes
+0694268e1d1a2b34b71979d6f95657b71c4b6627 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+0cc85c6bf9a8f27a07a9c12a4e966f744a2613eb nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+af6e78cdd52700cf7b779bdd9f0583f186c55254 NFSD: check truncate permission under inode lock
+2000b405ee5f4c1750952fae388dbadc1eb9ad18 nfsd: fix partial-write detection in nfsd_direct_write
+8b90e6f37d2fcf2c8d739c7fbba7c02338427320 nfsd: hold rcu across localio cmpxchg retry
+0dec632937e6e9a7e32c2a28ef7ca2ce7f047846 NFS/localio: fix ref leak on nfs_uuid_add_file failure
+22b6b724c4020f3cdc92dcb6b65f4ceeb1d1744c nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
+df2fb1377c6f87d14e275d0b59ae11b89981f8f8 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
+e6a1e8cfc3fe4c2d37cb9f06a1e6128c9dd3d3e4 nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
+646e82edd527ec61af5a4106476f2b72bf25dc38 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+635081fa738cdb2019fe08caab19390c324950da NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
+c89d52be48d567a13bad9d63e8370ceef1ee1337 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
+2223dcf589e25e211fc3384b088a33aebacf1b71 nfsd: initialize DRC hash table before registering shrinker
 
---===============5301681311556072471==--
+--===============1922274581008774326==--
