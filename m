@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7856484581087581668=="
+Content-Type: multipart/mixed; boundary="===============3942508254957276564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:22:44 -0000
-Message-Id: <178943896452.1780774.14963569751509630255@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:22:47 -0000
+Message-Id: <178943896738.1780904.6886844859712463202@gitolite.kernel.org>
 
---===============7856484581087581668==
+--===============3942508254957276564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.8/nfsd-7.2-1
-    old: ef58865d09fccc5ec9d403f313bb045e46fd7c98
-    new: 57509190ba5dfc2b3368f9f999a450a1ddb150ef
-    log: revlist-ef58865d09fc-57509190ba5d.txt
+  - ref: refs/heads/kernel-7.1.8/nfsd-7.2-2
+    old: 2e8a21e0258cc5416b4ae805585c8889e886482d
+    new: d5de1a3dc8b6f45fd6d7b09e93626b2c422e636f
+    log: revlist-2e8a21e0258c-d5de1a3dc8b6.txt
 
---===============7856484581087581668==
+--===============3942508254957276564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef58865d09fc-57509190ba5d.txt
+Content-Disposition: attachment; filename=revlist-2e8a21e0258c-d5de1a3dc8b6.txt
 
 da3a3beb647eff4f204e6dfa0298cc7231ec8d1a sunrpc: skip svc_xprt_enqueue when no work is pending
 12f6305fcbe44e8f73910a70d566300dffa26097 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
@@ -106,5 +106,6 @@ c8cc682f6e85c1149e8bdec1d132689fc5ab023a lockd: Use xdrgen XDR functions for the
 23f494c33b13d01e987709f212501ad5a1a5186d lockd: Remove dead code from fs/lockd/xdr.c
 a84ec7b5668d92c4b825b7e7f6edb3d0e98d53fd lockd: Unify cast_status
 57509190ba5dfc2b3368f9f999a450a1ddb150ef NFSD: Prevent post-shutdown use-after-free in NFSD_CMD_UNLOCK_FILESYSTEM
+d5de1a3dc8b6f45fd6d7b09e93626b2c422e636f lockd: fix NLMv3 GRANTED_MSG handling
 
---===============7856484581087581668==--
+--===============3942508254957276564==--
