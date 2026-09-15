@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8024371078776864517=="
+Content-Type: multipart/mixed; boundary="===============0463460538842082447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:53 -0000
-Message-Id: <178943933367.1788924.1592205123193480303@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:57 -0000
+Message-Id: <178943933704.1789016.2704463689117956750@gitolite.kernel.org>
 
---===============8024371078776864517==
+--===============0463460538842082447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,55 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-vfs-7.0-rc1.atomic_open
-    old: b4c38c0a74118d93faf0b7c01124b8fb991a38ff
-    new: 86d8190f380b8a420864aa41c63d13652ee89481
-    log: revlist-b4c38c0a7411-86d8190f380b.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-7.1-2
+    old: 1b2e61ad0cb50c19f7fc3425b3204fa5961bfa82
+    new: 90e8a7ad89c62c96aec82e658f405903cb256e9b
+    log: revlist-1b2e61ad0cb5-90e8a7ad89c6.txt
 
---===============8024371078776864517==
+--===============0463460538842082447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4c38c0a7411-86d8190f380b.txt
+Content-Disposition: attachment; filename=revlist-1b2e61ad0cb5-90e8a7ad89c6.txt
 
-ae25cf2ea9ebd06d7ad416647dbdc7b5d0172946 hwmon: (pmbus/adm1266) reject short block-read responses in the GPIO accessors
-3fdbd6d48a1a159fdebd6d1c8619a6f05aa1d3b2 ARM: dts: renesas: genmai: Drop superfluous cells
-b6b765d34810c1f9b27f4fb7e71655fe863c232d ARM: dts: renesas: rskrza1: Drop superfluous cells
-39e0bd08654e33f4e900311649e07e7aeb4abdd5 pinctrl: renesas: rzg2l: Fix incorrect PUPD register offset for high pins during suspend/resume
-265a8f0e2c6e1105f0eb440424306cd88befefc0 HID: uclogic: Fix regression of input name assignment
-34f59211984f66788390e7469f3e99d3796db4a8 firmware: arm_ffa: Check for NULL FF-A ID table while driver registration
-0e976891617b9fcbf8816d05effdbd92e062f3b8 firmware: arm_ffa: Skip free_pages on RX buffer alloc failure
-26a654e55021c0b52ee05c766f0c326b25821b93 firmware: arm_ffa: Fix per-vcpu self notifications handling in workqueue
-82222521467129958ce2a93cc18ae29c001ed1a9 firmware: arm_ffa: Refactor addition of partition information into XArray
-59296431d231bdd923636dec22b90f513143cb4a firmware: arm_ffa: Unregister the FF-A devices when cleaning up the partitions
-afa2840c4517d7c6fc1aa867e1c35b6af361239d firmware: arm_ffa: Remove unnecessary declaration of ffa_partitions_cleanup()
-c4dff746d2f27e3fdddd3214211e51422fe1163f firmware: arm_ffa: Allow multiple UUIDs per partition to register SRI callback
-2a211f401c9e47ad92049567e5471b068abdabcd firmware: arm_ffa: Unregister bus notifier on teardown for FF-A v1.0
-4f17d73e21c2e369de093089239366e2916b953a riscv: mm: Fixup no5lvl failure when vaddr is invalid
-405223d08f6060cd07595f7d014d320b283cd762 kunit: config: Enable KUNIT_DEBUGFS by default
-71b62d98f00f24f66ef3f6fd1a22b38571fa0568 kunit: config: KUNIT_DEBUGFS should depend on DEBUG_FS
-b4b6ee2dbb67100ab73d4556c61fde2a68b9caeb pinctrl: qcom: Fix wakeirq map by removing disconnected irqs for sm8150
-39084bd89421fdf32a0b4ce26891b0087758cf77 firmware: arm_ffa: Align RxTx buffer size before mapping
-11438e9071174b60623840f63036bbe94ce00e99 firmware: arm_ffa: Fix sched-recv callback partition lookup
-58a112b0973f6cd6bcb8c503d1ff88be411ed0f0 ARM: integrator: Fix early initialization
-0ddc7bb7b3672f3c737138c35ce0414f8c5c4deb ALSA: hda: cs35l56: Put ACPI device after setting companion
-1968d13a2d3497057767a3b9da7a9744f275727a ALSA: hda: cs35l41: Put ACPI device on missing physical node
-12a0487945c09760a5968d9333383014ea294117 btrfs: tracepoints: fix sleep while in atomic context in btrfs_sync_file()
-c816dd5c34bb4f5821bf3ee4201279912814b621 netfilter: x_tables: unregister the templates first
-4c8e58cc95dcea381524aac70767b1d59c93aa25 kprobes: skip non-symbol addresses in kprobe_add_ksym_blacklist()
-accc0004c501a9918313142282b094d408af06fb test_kprobes: clear kprobes between test runs
-df8060ca14ac6061f6659927b8fd7d6ce07e99cf tcp: Fix imbalanced icsk_accept_queue count.
-0c3629da9ee3a9aa6a40cf6d678d8b95972cd37b ice: fix setting RSS VSI hash for E830
-6e14d45580ebce232cd0078762a9875e87c5222c ice: fix locking in ice_dcb_rebuild()
-a18f7df7b62817f0bb54979a288159d98073ccab net: lan966x: avoid unregistering netdev on register failure
-add14aba95a6fb940079eebb31bd64f771646cbe phy: marvell: mvebu-a3700-utmi: fix incorrect USB2_PHY_CTRL register access
-d1fc00ec02e9deb3f8d2bd59caf938c554fbc576 NFSD: Fix infinite loop in layout state revocation
-c6211c8832d542d93f4e030e6e6f79c45b219e13 irqchip/ath79-cpu: Remove unused function
-43eb8965a4f3cca8fc33b38cc4f2d1ca0259adc0 ublk: reject max_sectors smaller than PAGE_SECTORS in parameter validation
-f450d8e8458c2fc26771faaaa497d3aa156937c9 nsfs: fix wrong error code returned for pidns ioctls
-684a78183c54c23e70d1cba320f7fc184604210b irq_work: Fix use-after-free in irq_work_single() on PREEMPT_RT
-ef78e5e14727a1d34e33af0690deced4e21e04ee zonefs: handle integer overflow in zonefs_fname_to_fno
-87bb3e719042f0030a6dad39118c6a6b2a491ad9 tcp: Fix out-of-bounds access for twsk in tcp_ao_established_key().
 9bd631212a55b4bba1987c944b02b55a93d46c4b powerpc: fix dead default for GUEST_STATE_BUFFER_TEST
 51ffb788f074c0a61953086f49008028c1e7b645 netfs: fix VM_BUG_ON_FOLIO() issue in netfs_write_begin() call
 96cc3beb2390ba9f9c128c5733c0ccfe450dd4f9 netfs: Fix overrun check in netfs_extract_user_iter()
@@ -1050,5 +1012,43 @@ b4a2b76e139c1d7b4e7a5e3125515e0f7b9736eb nfsd: report the requested maximum numb
 980f25ae42b1f1045f769e461d6fed7a04be3b4a VFS: Prepare atomic_open() for dentry_create()
 cb9a6c49edf79bbf5352096d9e0b726f57996af5 VFS/knfsd: Teach dentry_create() to use atomic_open()
 86d8190f380b8a420864aa41c63d13652ee89481 fs/namei: fix kernel-doc markup for dentry_create
+81dc55a1f5a09c2059879bda70fd8ee08f485df4 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+78eff8b8702fa50cfc38b38f17e99f38a776e5c7 nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+ed343774d471fca9246f125bbeb3abab5c4d1544 sunrpc/cache: improve RCU safety in cache_list walking.
+766da675598e8f7ef9a36b8fdbe8a7a30dc72003 sunrpc: Kill RPC_IFDEBUG()
+b81768005c9090832a44cbfa0b02667d9a4ea202 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+ff6e63bd4c37ef9a596e69c351fb4c09b4166002 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+f419beac88b9eb8dfec9cbc808fda792c40ded1d sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
+27a99b9572f8ae58fb0201703d7a7cd4996a967c sunrpc: convert queue_lock from global spinlock to per-cache-detail lock
+c66a67a632b0a300c06751d542a76cf12fa587a6 sunrpc: convert queue_wait from global to per-cache-detail waitqueue
+08f6f33fed070152285e3e4132604cb8cc9b66bc sunrpc: split cache_detail queue into request and reader lists
+c420723f9038af6c8cb1eee8834e35805330cfb7 nfsd: convert global state_lock to per-net deleg_lock
+7824ac765c43e1f6bfcdcc28fea6326efae414ac nfsd: use dynamic allocation for oversized NFSv4.0 replay cache
+1114ea71cf9506d688626131cbda8da2986417e6 NFSD: Add a key for signing filehandles
+5367fbb4e74d0e870d026f432aa1a17bc53b7a84 NFSD/export: Add sign_fh export option
+6176f88c7147523dfc68322babb5463a4eaceeff NFSD: Sign filehandles
+30d2fb017df0b84da9c21c9eb13acd23b05dab37 SUNRPC: Tighten bounds checking in svc_rqst_replace_page
+281812107889fe193dab014a1b41acb3baea275e SUNRPC: Allocate a separate Reply page array
+9baa8972f4e6489cd281d85b3913375d9f5cca3c SUNRPC: Handle NULL entries in svc_rqst_release_pages
+d9811d68a412039619cb6daf41cf5b7c9091f5ee svcrdma: preserve rq_next_page in svc_rdma_save_io_pages
+8621f4e38424112980339b8d8bdd98b1cd6ee7c3 SUNRPC: Track consumed rq_pages entries
+b479d0d3049318411c39c3e5a227ff6ea2af6647 SUNRPC: Optimize rq_respages allocation in svc_alloc_arg
+72faed9a8c6fd77d730c31f4f7290201ed395c95 svcrdma: Add fair queuing for Send Queue access
+aa76c13c15a0c2f813b2970e7e5577cd94e2d2da svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
+3a677fa1f423aa3497ae8cb02961ebffe272ae37 svcrdma: Clean up use of rdma->sc_pd->device
+4baf9f75a68f17a8e6c3190055254934fd6154d2 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
+e6a813fb9138667cfd939d83f1506718bb983726 svcrdma: Factor out WR chain linking into helper
+0da31b55611770304e5ccf8f54c8bea15a4e7938 SUNRPC: xdr.h: fix all kernel-doc warnings
+a03215ec3b7f3db1aac376cebf4924362c39386d SUNRPC: Add svc_rqst_page_release() helper
+aa09e2c6dd4e0aba0837d12f0ec74b8b59147850 NFSD: use per-operation statidx for callback procedures
+915f8213d3a389c760f86bc105c0ba3930d99710 NFSD: convert callback RPC program to per-net namespace
+25b9dc3b5e6fee0ef9f6e492014be56f328c730b nfsd: fix comment typo in nfs3xdr
+78b411dce941dffa34c9dbd129266d4703bf4795 nfsd: fix comment typo in nfsxdr
+579261b99c623bdfc61898bf5e10d08c3583b4e8 nfsd: fix file change detection in CB_GETATTR
+541a88a0d86c0be1490f7107b9ad23db7290051c nfsd: update mtime/ctime on CLONE in presense of delegated attributes
+fc38d1e0c9e25b0dea01e35bd587a55e5c0c37a8 nfsd: update mtime/ctime on COPY in presence of delegated attributes
+afd7dbf8a97066ace6d8ca570666632dcf334120 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
+53d3b51bc99b822498a6a4715619ac89a98a3340 sunrpc: prevent out-of-bounds read in __cache_seq_start()
+90e8a7ad89c62c96aec82e658f405903cb256e9b NFSD: Report whether fh_key was actually updated
 
---===============8024371078776864517==--
+--===============0463460538842082447==--
