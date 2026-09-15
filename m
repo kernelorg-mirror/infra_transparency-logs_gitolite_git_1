@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 15 Sep 2026 00:55:43 -0000
-Message-Id: <178943374324.1702771.15130595743652806904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Tue, 15 Sep 2026 00:56:37 -0000
+Message-Id: <178943379711.1703352.275101862866962222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/edac-drivers
-    old: cf8e30ec6f96ac1620e82bb05d8e9f4159ae592c
-    new: 68a3e57814dea71157450ed5fb96c5cf62da8435
+  - ref: refs/heads/for-next
+    old: 69f95409f0053f787ad60175944080621a8b7d95
+    new: ac436e6879f5bf25e971d80f96f9392b61ff54c6
     log: |
-         68a3e57814dea71157450ed5fb96c5cf62da8435 EDAC/ie31200: Disable PCI device when probing fails
+         d4871c29f21dda76990cd3138c72ceb71c856b93 riscv: dts: spacemit: sort nodes on OrangePi RV2
+         ac436e6879f5bf25e971d80f96f9392b61ff54c6 riscv: dts: spacemit: enable onboard eeprom for OrangePi
          
