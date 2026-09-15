@@ -1,51 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2436234935597116633=="
+Content-Type: multipart/mixed; boundary="===============6365883764017671425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 15 Sep 2026 17:30:49 -0000
-Message-Id: <178949344954.2473787.7172909208580644445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 15 Sep 2026 17:31:29 -0000
+Message-Id: <178949348999.2474277.13372762445828679247@gitolite.kernel.org>
 
---===============2436234935597116633==
+--===============6365883764017671425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/arm64/percpu-fixup
-    old: b4717819e96e3f8e183b7fc6c2617bd087f75233
-    new: b83891ac2ae0fa1f843a978b5d63123c6fbe54d5
-    log: revlist-b4717819e96e-b83891ac2ae0.txt
+  - ref: refs/heads/b4/acpi_scmi_pcc
+    old: c3e315f633a7472c0ab143e382c942a2f2885da9
+    new: dd6ddc90d963efc8ebe46ac331a45f51ea856ff0
+    log: revlist-c3e315f633a7-dd6ddc90d963.txt
 
---===============2436234935597116633==
+--===============6365883764017671425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4717819e96e-b83891ac2ae0.txt
+Content-Disposition: attachment; filename=revlist-c3e315f633a7-dd6ddc90d963.txt
 
-663d6a8b02d9453d31c7239580a20cc8ac8eb352 arm64: percpu: Fix this_cpu_write() casting
-a4f8ba276234ca7be493f0539919657d79ff170f arm64: percpu: Fix this_cpu_and() mask generation
-b4e2bc787936514b5b04d93d2d45b650592fefc0 arm64: percpu: Fix LSE operations on {8,16}-bit types
-7a64aa2f0248df2885375abb6165ee8821b38739 arm64: cmpxchg: LL/SC: Avoid redundant extension
-91edd66893d0373ef048571faee4c4e5c424b418 arm64: cmpxchg128: LSE: Remove redundant operands
-c1d1fac3039410f938b0fafbee551f672949d847 arm64: preempt: Simplify and optimize __preempt_count_dec_and_test()
-c8243e33400fc62e4d111add42aac728fe3b4d17 arm64: preempt: Treat should_resched() as unlikely
-9588cad8aa58d4326fe647d4610ab909a4676736 arm64: ptrace: Always inline pt_regs_[read,write}_reg()
-24b95b78ae7f55e425f89e0af1ebe143fdaec687 arm64: percpu: Factor out percpu offset asm
-e789b2273ac684e3936a4120c0c077e908c93795 arm64: gpr-num: Add wxN aliases for wN registers
-15b89bce4ffb1a9016c25995153f51281333c823 arm64: gpr-num: add __GPR_NUM() helper
-57b760b15c2d8a6be575963caccaa9093092fe0a arm64: entry: sdei: Restore all clobberable GPRs
-c39574758771c3126d9e020f7241055303aa3832 arm64: entry: sdei: Make 'tsk' available
-260fa7eac3e0a804f1282956163ec7a9bae8a17c arm64: percpu: Add infrastructure for preemptible this_cpu_*() ops
-fea629334f71981a4d77662f4930b515a17b4d64 arm64: percpu: Implement preemptible read/write ops
-9418b87de88e7df002a2990f30362764b226d62e arm64: percpu: Implement preemptible void RMW ops
-f4fcdbbef6b135f78539636ebc6f7e99ddef6906 arm64: percpu: Implement preemptible return RMW ops
-ff81a6d5e664803c5f7e1b6e3c4ee13a5e9a37a5 arm64: percpu: Implement preemptible XCHG ops
-76768a8ed06681ba12674d2b28a4d616333a5be3 arm64: percpu: Implement preemptible CMPXCHG ops
-8d6babc10018339f913b16281134206167e21992 arm64: percpu: Implement preemptible CMPXCHG128 ops
-b83891ac2ae0fa1f843a978b5d63123c6fbe54d5 arm64: percpu: Remove _pcp_protect*() wrappers
+e534aa27fc141d25e78f940aca25fa88de061e44 firmware: arm_scmi: Refactoring and enablement of ACPI PCC transport
+9e079cb6c2c9e999e3938a1ccc9d07f4df57bc4a firmware: arm_scmi: Set generated device fwnode with platform helpers
+3f79bd85131c3fe9a0d37db04cd4e5ded404b1e3 firmware: arm_scmi: Extend transport driver macro to support ACPI
+1719063604fb53af7f8ffed6ee809d7e6bfb2071 firmware: arm_scmi: Convert OF-only paths to generic fwnode in SCMI core
+cd054a74734b62e23a1c8072e309d74a69550867 firmware: arm_scmi: Fall back to ACPI HID when "compatible" is absent
+ac9cabf480a9960f0799283a09948e1b4dafe4a1 firmware: arm_scmi: Pass protocol ID to transport chan_available()
+9748af8335880e73de5d77c32429bbca0c5a27b8 firmware: arm_scmi: Refactor protocol device creation logic
+ece018c78da7897a26a43afcc1fe644b64b00def firmware: arm_scmi: Add ACPI PCC transport
+6de873e537bb86d7d318385e6173b3686b8de853 firmware: arm_scmi: Initialise known ACPI protocol devices and channels
+dd6ddc90d963efc8ebe46ac331a45f51ea856ff0 firmware: arm_scmi: Validate PCC shared memory signature
 
---===============2436234935597116633==--
+--===============6365883764017671425==--
