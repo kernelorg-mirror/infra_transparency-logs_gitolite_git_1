@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6728005882101962204=="
+Content-Type: multipart/mixed; boundary="===============7597351069393037885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 15 Sep 2026 14:16:50 -0000
-Message-Id: <178948181085.2316018.3874787123093018183@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 14:16:54 -0000
+Message-Id: <178948181447.2316189.16817128522878535715@gitolite.kernel.org>
 
---===============6728005882101962204==
+--===============7597351069393037885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 383fc05d4650b021f3c17e36a145106dcc61a294
-    new: b08a65b93426d86e3f354d655d6225397b591877
-    log: revlist-383fc05d4650-b08a65b93426.txt
+  - ref: refs/heads/mm-unstable
+    old: e2e54005e20fb42d4a5e140d70a65be4a2363045
+    new: 700115e44912995a6a2230660cc13d1356297db5
+    log: revlist-e2e54005e20f-700115e44912.txt
 
---===============6728005882101962204==
+--===============7597351069393037885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-383fc05d4650-b08a65b93426.txt
+Content-Disposition: attachment; filename=revlist-e2e54005e20f-700115e44912.txt
 
 1a205dbf317b3182ac79f1c0dd0c127b608f9f4b selftests/filesystems: fix missing and stale TARGETS entries
 c7c6a963da705216c71050f53a57f63415487696 module: fix lost error code from codetag_load_module()
@@ -454,123 +454,5 @@ e6b6f144a02732454a80453137263e8e75832008 idr: assert static storage for DEFINE_I
 db36c524ddb0acee51f8d2767cef3c91b7105311 kselftest: mm: remove exclusion of building soft-dirty test in arm64
 4ba82e80e9045f767d1357c784032173b81d09da mm: zswap: return -ENOENT when the swap device is gone
 700115e44912995a6a2230660cc13d1356297db5 mm/page_alloc: apply per-task GFP context in bulk allocator
-959553b9df2c879691b66a01a330b69a13af992f mm/zsmalloc: replace PG_private with pointer comparison
-f291375b7666f8d63f1598bf88a5c07c72346565 perf/ring_buffer: stop using PG_private as AUX page high-order marker
-3ae028d67307683ca86b68336fef9dca9016f49e xen/grant-table: stop setting PG_private on pages for grant mapping
-b136881de5b94a7097865ecc0b844dfda55fd389 fscrypt: stop setting PG_private on bounce page
-a59e487d1f84424facbf4651712ecdddb418cd98 mm/hugetlb: use direct assignment instead of folio_change_private()
-c444354f6f40c4dd59ca38f26b978272985c1a48 f2fs: stop using PG_private
-cb8c40b4a734072978b7c9d326572ca70c2643de f2fs: convert the ->private flag helpers to folio-only
-3bc0d821437c26bd1af5a324b7fd179c3777d8d0 erofs: mm/pagemap: add readahead_folio_last() to avoid folio->private
-b7de26908e1e3a78b5aaa9ab7765ed5b5bd39c83 erofs: use folio_attach/detach_private() instead of direct assignment
-0485d0253b2861a323e1187b24aeb9454fae9724 mm/page-flags: check page/folio->private instead of PG_private
-6e106b354c3a277e6a3d964fe43110ca87560f1e treewide: remove folio_set/clear_private() usage
-a9ab4c9a4e54896d9cd4e74b90713519f1121bd6 ceph: replace PagePrivate() with page_private()
-6fa1a2fb656a7dcf766c4e534204df7898a9258d md/md-bitmap: replace PagePrivate() with page_private()
-0337216e6a3309206269f2e46d0237392aa58c35 buffer: replace page_buffer() with page_private() and delete it
-45c86ba2607d2bb5f428617d0d222b91ee3308ab treewide: remove PagePrivate() and PG_private from comments and docs
-852f2d9a74870f0dc5e5f367d7edec32d6a1d4f6 mm/page-flags: remove PG_private
-61b5e7a71007553592ec23673eef204ae0da1047 mm/swap: fix off-by-one in swap cache replace sanity check
-0fa2030046643ff9fe7952f2b517d3e9365f4905 mm/huge_memory: fix rejection of swap cache folios with a mapping
-a3561df89cd866e1d2901dfd02da009a39767410 mm/huge_memory: invert folio_ref_freeze() check to reduce indentation
-9f6240928fab12ff5c9adf0373dab3b92391698a mm/huge_memory: split the routine for splitting anon and file folio
-1484702303fbcb23378e6567d72d280b4002b54d mm/huge_memory: rename __split_unmapped_folio() to __split_frozen_folio()
-d28526ea827e5254fe64190fc3aac648afc9409f mm/huge_memory: consolidate irq and locking for folio split
-1b0b718e8245a746a0f08df028223b30d9aa1c16 mm/huge_memory: move EOF trimming into the file split helper
-76d24c75e0c61f68ea08480c104bce2834c4d53c mm/huge_memory: move unmap and remap into the split helpers
-5350c8e0af93c02e5225e5983f571763c016142c mm/huge_memory: rename remap_page() to remap_anon_folio()
-d47a013a960129f4bf9be9443fa2c0cdaab77b74 mm/huge_memory: move the racy refcount check into unmap_folio()
-43815333240f6f8e63231a471088af27b8ae7d76 mm/huge_memory: move filemap management into the file split helper
-a36b74f398c1f6081aad3a0ea075a1e51c58abca mm/huge_memory: move anon_vma handling into the anon split helper
-d5769ef7a5645af674cdf41d38b3a5bc5939f1e7 mm/huge_memory: move memcg switch into the file split helper
-b08b930ec790abba94456d310be90a87bd50abed mm/huge_memory: drop the unused do_lru argument of the file split helper
-306660633115c3dd68b40e6c40c1d90295068803 mm/huge_memory: clean up after-split folio freeing in __folio_split
-ec801afda22c462affe78335406008fc600fbf36 mm/huge_memory: count only swap cache refs in anon folio split
-8479666bad161409aeb503021bdefc1e74d08169 mm/huge_memory: drop the redundant mapping argument of __split_frozen_folio
-116b6167315619722f1b0898c32d398eef4e1204 proc/task_mmu: remove unnecessary helpers
-c1a03849495d6d276b3c0135857aec97ff34b7a8 proc/task_mmu: remove unnecessary inlines in function definitions
-35ba620bfe7feb76c85e06b9ea72c188e1e6e318 proc-task_mmu-remove-unnecessary-inlines-in-function-definitions-fix
-ae394a5088b0c5325379e3583f6b92084c3e997a proc/task_mmu: clarify shmem mapping walk conditions in smap_gather_stats()
-de69b7f1656d072d31c58fc1696613747b55d0e8 proc/task_mmu: remove special-casing of smap_gather_stats() start parameter
-8d8485342388d783f3c4dade44ef7192c8bbb081 proc/task_mmu: change proc_get_vma() to stop returning gate VMA at the end
-00ae9435ed52a333d083834f68ba1983a5449e32 proc/task_mmu: read proc/pid/smaps_rollup under per-vma lock
-ac01dd8afdfc9cc0264e609f25d5c392e0937c04 selftests/proc: add /proc/pid/smaps_rollup tearing tests
-1a6c4386e6c7833631554b96a7966fcf6b06e476 selftests/mm: hugetlb_madv_vs_map: add underflow test
-c77f45cd3692ad087ffac76d892c5c251113da20 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-1d6cbe964b66584b5e29c141538e70fc028d7d63 mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-62de377f2483e327a331da51657581c9666cc034 mm/vma: introduce and use vma_[flags_]can_merge()
-7027cbcca16aa37787c9838181424d9a1aa75b75 mm: consistently validate VMA state after mmap[_prepare] hooks
-2b1a0c87169789eccc6279f9f38bea112208cb39 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-43b5117fda0b946046003df2b5dc8d848107e57c mm: make map_kernel_pages_[prepare,complete] internal and unexported
-f6459da1ba19c72b35e81794d9ca5070ce24d17d mm/vma: tidy up map kernel pages enum values
-bc08f4ac361858dc1b814f6c77810fce0e6e8358 mm: add mmap action for discontiguous kernel page mapping
-9e552a0f5866259c4b4834ab55b5fdbe640f39fc docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-b5919ba7141bc31ac559365cd4a0aff74b9e2df8 drivers/usb/mon: update to use mmap_prepare + map kernel pages
-d9d76f79f18bbf10965e125db24b3dc1fcd27b53 infiniband: update hfi1 to use remap_vmalloc_range()
-6042b75aee759bae936bed890fa04a7255ee6714 selinux: reject writable opens of policy file, drop mmap shared/write check
-9abc5b4814bba6fa5653e978afdbdda508061087 ALSA: pcm: use vm_insert_page() to map PCM status page
-381e7ac8874f6722f45c2f019ca877596b3f7954 bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-07f8afa29f119cd1641bfdb68fc838915a7d5a92 mm/vma: add vma[_flags]_is_kernel_owned() predicates
-a4e5ea227af492c0e7b5dc1f0af855a6c58e89e5 mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if kernel-owned
-8039a228dbe66dc689e9906f0724e8b920434955 mm/vma: add and use vma_[flags]_is_fixed_mapping
-e5b708382008997a5d8652c78d32c4ac43bdc07e scsi: sg: convert mmap hook to mmap_prepare and rework
-71d1c12c2f2378f544cc3bb6c1ff05f634571c73 fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-8a6f8ac2db9a98c8c944e721358965b4db67f6b2 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-b75c4a39d2243fd269e581f93f8d7257b73c86d2 mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-5a159a6c92441f7b3c763bc0dfb7f0dc2bde58c1 uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-982b7a111440197f8e2d1869e58bb5e7ea268af6 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-153dc40a2d62514c8443f58e8e33804d58bd0861 mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-6d09b398c098a75e555e1973b476bffb677165fb mm/vma: enforce that only kernel-owned mappings may set VMA_IO_BIT
-91812829fb088f933deada1b28da296be808144b mm: remove VMA_IO_BIT check in vma[_flags]_is_kernel_owned()
-ada9440a1c3da86f413cf93f6e874463af5a25f5 mm: remove hugetlb_inline.h
-6787d6316a8f63954d77eee76a22e46704f7091e mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-874ca6bf806175ac37a97fa173f1e48862865ee6 mm: drop some redundant checks around hugetlb VMAs
-f6afff501547586a5c793fe4757f5cfff2457ee7 mm/madvise: update is_valid_guard_vma() to use vma_can_merge()
-460454bd84a755cfff05e01311a30cfa2f3d0405 mm/vma: introduce vma[_flags]_is_persistent()
-4a43ffae6e750cf9b326318e9616e407180b57cd mm/uffd: use predicates for userfaultfd checks
-58759f99514376ad00762afdad7922d3b604cc0f mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-e0ac986194ee48f5b234bf3fd8f321a148f845a1 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-58d2fff8cfd7651a4b60e9430d357b482f43575e mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-33ccdcca7c6632aa93b38f2fa663c4fd3efe8377 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-da71f0d2ab3afeb8e3db71f68ff780a32c5afcff mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-ea880fc19760bff6766181f9540049eeebd19fc6 fuse: dax: do not set VM_MIXEDMAP
-b7cce4bce4686d3625dd952f9d4b355dd1f6763c mm/huge_memory: remove vma_is_special_huge()
-052753eacc8c318736b82f656ab6914e5af301e3 mm/vma: introduce and use vma[_flags]_can_gup()
-2f88c8440a2bbd59f27484d9fbcc5a649f32e031 mm/damon/sysfs-schemes: read sysfs_filter->addr_range only once
-47e5c17567c1c2c6cde3b902f455a8828a3d26e9 mm/damon/sysfs-schemes: read sysfs_filter->sz_range only once
-009349acf67c5281198cafa4ef8c68a3b7e47e5f mm/damon/core: return an error from damos_commit_filter_arg()
-7e6b24d33ae021b48965967b9e316590e6c0329d mm/damon/core: disallow max < min damos filter range arguments commit
-b533d7a336cf37f21cee553adcd3002c8be30615 mm/damon/sysfs-schemes: drop centralized filter range arg validations
-ce9c04870065f2e4d4aa22afe72a6bc82562b58f mm/damon/sysfs-schemes: use switch-case in add_scheme_filters()
-51090bc229b69d36f57f6117d32424a7df1a50dd mm/damon/core-kunit: extend damos_commit_filter_for() for wrong input
-fc9efcff40584ce769a2066c73753c61ddc72f87 mm/damon/core-kunit: test invalid damos filter commits
-732ae61e78aea38742ff1a69f8c9feecbf452eb5 selftests/damon: stop kdamond on error exits of no-op commit test
-72ad9df7ba1252730e659de5e44d6a72710af9f3 selftests/damon: ignore test-generated damon_dump_output
-04b8f66422a6bbdcbe554e1980d9c7df4b6e9ae4 selftests/damon: add script dir to sys.path for PYTHONSAFEPATH compatibility
-9122132af5276dbb53ba8f2dc81e81b150813eae mm/damon/tests/core-kunit: improve nr_samples_per_aggr test isolation
-44f7188dcdffa564114509202452b3d3d2edc72a Docs/mm/damon/design: clarify when qt_exceeds increases
-056803fa68fbb5d2f210f180b8ecd1a5580a6c05 Docs/mm/damon/design: fix typos in temporal auto-tuning algorithm section
-8b2392b822b287295c619fdbd2a09cb332438313 mm: remove unused exact_nid parameter from memmap_alloc()
-989f3ec90eb6bf5b2356feda8e226ceb8e11857c proc/task_mmu: handle special PMDs in clear_refs and pagemap
-4175efae33e9ae64510b040eb92a2fda9a28c900 mm/vmalloc: group xa_init with vbq field initializations
-d44fcc4e07fdc1e206eb595fd138c091e8001933 mm/vmalloc: extract vmap_insert_free_area helper
-f474eae7f15788fbca48ab446caa07988d2531ee mm/vmalloc: extract show_busy_info from vmalloc_info_show
-23197ccaddd0defcef8207f382e1d3b001612e54 mm/secretmem: fix the enable parameter description
-07559089c0ad86aa9528ee6b0139de0786890a9f mm/madvise: reclaim isolated folios if PTE restart fails
-dcbc444a513ca9434b1c7ca0191016853cc4a314 selftests/mm: fix soft-dirty kselftest supported check
-5d0c69fc7cbff71e94bbfcff74796cf4356b432c riscv: mm: fix concurrency in mark_new_valid_map()
-1978339afd1cab307db90041b00fdd0f97e5320a riscv: mm: exclude invalid THP PMDs from page table check
-f38d126a44048c1eecd2e5b4b9fdf45f9861cd70 sh: remove CONFIG_NUMA and related configuration options
-1378b45723857b89797e7ed8086010fc4c0e54a9 sh: mm: remove numa.c
-3772cf11bd0b368a1b2b615ab12d408574f9f7ab sh: mm: drop allocate_pgdat()
-01a27293c43f10ce549ed516cc37cd8e7933c6b4 sh: remove setup_bootmem_node() and plat_mem_setup()
-f73a663665115c5929c09bab1f67d6a45b54fcae sh: drop dead code guarded by #ifdef CONFIG_NUMA
-2437464b7f6a48aa557902f5ccbccfd0f9e08d96 sh: drop include/asm/mmzone.h
-0d633af1af975ca3a4051ad0995d2839fa363dbc init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-3e006a9410dc0072bc453192e494b045a23bc855 sh: init: remove call the memblock_set_node()
-e2b794b19699add6a208b867478b08d6d84269f1 sh: remove SPARSEMEM related entries from Kconfig
-82dbb825102438d7a49cf2e73b69a6693f1f8c47 sh: drop include/asm/sparsemem.h
-dbc5a6661dae27a2bcf6ed3e98810e6dcc259da2 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-b08a65b93426d86e3f354d655d6225397b591877 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6728005882101962204==--
+--===============7597351069393037885==--
