@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 15 Sep 2026 21:52:05 -0000
-Message-Id: <178950912558.2670190.7550929773677539737@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 21:52:43 -0000
+Message-Id: <178950916340.2670567.3302102267946509943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,47 @@ service: git-receive-pack
 repo: pub/scm/utils/b4/b4
 user: mricon
 changes:
-  - ref: refs/heads/master
-    old: 165704a3e4095954c0dcdac2c26a5b7c30a03488
-    new: 86eae400c018690fe53a3f198743fd03398e9313
+  - ref: refs/bugs/07b6e47de06895fcf48e72e2512b527c590c3d8381fe6bf52710f58f69dc82ca
+    old: 0000000000000000000000000000000000000000
+    new: 453909facdf8b73bebf66a979cc3fcc6424b7c87
+  - ref: refs/bugs/082b140c24527e39786e88eeacd27768d8e478863a09e4893019ff8761064514
+    old: 0000000000000000000000000000000000000000
+    new: 5f223ed9198976e70b5ba21e0b0d303b2c83c77d
+  - ref: refs/bugs/4890575fe248fa87dc1a1f404fcfc18d0f23f40143409f481b46838481134746
+    old: df80e9f79cfaad19378043b3de062d55998fc19a
+    new: c026fd9b8087e0ffe11bf48d0bf5f9b953371a36
     log: |
-         86eae400c018690fe53a3f198743fd03398e9313 review-tui: preview the followup reply body that actually gets sent
+         c026fd9b8087e0ffe11bf48d0bf5f9b953371a36 
+         
+  - ref: refs/bugs/49d56c71580028ebe36891b8b3d57905037b13dbf8a4775375139c6d881693e1
+    old: 0000000000000000000000000000000000000000
+    new: 71d4fcd9b53c3a49c4647753d9ecfb158a7b1962
+  - ref: refs/bugs/5d74b87d44babdd100c11bf5342949e35345c6d1a117b0f32632875a59f87246
+    old: 0000000000000000000000000000000000000000
+    new: bd4d74075356401bb06bb410c925481b164fc52e
+  - ref: refs/bugs/904882b908f0859c2a668ea6188715ba70134b7bee4f6e67cda58984f9a60ecb
+    old: 407ce1e936eb432ad7088927966625bf83b357d0
+    new: 37bcdbc8a59d0ada367322660cdc6cfae3a02387
+    log: |
+         3cadfb0ed72b890df538b6bbd98c3c4d6494b509 
+         2c6e7f8a6390204b1c14dc0abf0e3675980084e6 
+         37bcdbc8a59d0ada367322660cdc6cfae3a02387 
+         
+  - ref: refs/bugs/9950781147ca2d4d3034dc55ea4fd0833bcd807ec12797834bd4767ac0af1409
+    old: 0000000000000000000000000000000000000000
+    new: 1a03ba403de7c080e1805661b5ae11c21a65b0af
+  - ref: refs/bugs/adc3d7add982e465cb0ecf1e6bec85b00801181f812d516d3c4670934b8fd1b1
+    old: 0000000000000000000000000000000000000000
+    new: 1b371ed361cb7de5479ff1c02cf623a35f75938a
+  - ref: refs/bugs/bdb9c9b1fbb2bf8d1e3809a19624cf3f01ac72dca7d43a095c044d83617f4fcc
+    old: 22e10dd4c28de6a14463a0d26081bde68fd7a4af
+    new: a310ce53198a577a860e8d45ad732f114caa3174
+    log: |
+         a310ce53198a577a860e8d45ad732f114caa3174 
+         
+  - ref: refs/bugs/f5ae0b05f827df9b5f49dae068f425bc0a6832881a6d78349fca38d7c4990db7
+    old: b118a09ffe2fa5cd7b21e232af6460b1c24de51d
+    new: e2bec55589897e8d6df11c7fe23fae5b2dcd79b5
+    log: |
+         e2bec55589897e8d6df11c7fe23fae5b2dcd79b5 
          
