@@ -1,33 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 15 Sep 2026 08:57:18 -0000
-Message-Id: <178946263837.2074613.6429477632786712316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Tue, 15 Sep 2026 09:13:35 -0000
+Message-Id: <178946361529.2085153.8737296806334209402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/renesas-pinctrl
-    old: 3f3fe195e7d908dc15ad7ab99f38e9225225b538
-    new: 0cd4a7b3a4883970df3ae8814d9aabdecf65a81e
+  - ref: refs/heads/dt-for-next
+    old: ac436e6879f5bf25e971d80f96f9392b61ff54c6
+    new: c37ee906b45bc06782fa1b69f3a53bace67ace66
     log: |
-         7df755632142e59a5aec5f85f2654add49220102 pinctrl: renesas: rzt2h: Restore correct pin mode on IRQ free
-         d9980f93cef0f90a11f26296c68ed16b61a95ced pinctrl: renesas: rzt2h: Setup IRQ in .irq_{request,release}_resources()
-         55297a587c3748f320485a3b37fcccfe6f0440bb pinctrl: renesas: rzt2h: Fix reading pin value in IRQ function
-         20253c44c72785ad6d90d6fdc78c96e56a69f4b1 pinctrl: renesas: rzt2h: Reuse helpers
-         0cd4a7b3a4883970df3ae8814d9aabdecf65a81e pinctrl: renesas: rzt2h: Add a helper for reading PFC
-         
-  - ref: refs/heads/renesas-pinctrl-for-v7.4
-    old: 3f3fe195e7d908dc15ad7ab99f38e9225225b538
-    new: 0cd4a7b3a4883970df3ae8814d9aabdecf65a81e
-    log: |
-         7df755632142e59a5aec5f85f2654add49220102 pinctrl: renesas: rzt2h: Restore correct pin mode on IRQ free
-         d9980f93cef0f90a11f26296c68ed16b61a95ced pinctrl: renesas: rzt2h: Setup IRQ in .irq_{request,release}_resources()
-         55297a587c3748f320485a3b37fcccfe6f0440bb pinctrl: renesas: rzt2h: Fix reading pin value in IRQ function
-         20253c44c72785ad6d90d6fdc78c96e56a69f4b1 pinctrl: renesas: rzt2h: Reuse helpers
-         0cd4a7b3a4883970df3ae8814d9aabdecf65a81e pinctrl: renesas: rzt2h: Add a helper for reading PFC
+         97bd8165a3f734fe97664e186406686bfa34f42f riscv: dts: spacemit: Add K3 I2C6 pinctrl state
+         ad17d98848df3907d6732673a139e9ed832b547d riscv: dts: spacemit: Add CTF2301 on K3 CoM260
+         c37ee906b45bc06782fa1b69f3a53bace67ace66 riscv: dts: spacemit: k3: add i2s0-i2s5 nodes
          
