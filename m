@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5808573353831292379=="
+Content-Type: multipart/mixed; boundary="===============8734746665294337009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:39 -0000
-Message-Id: <178943925989.1786565.17840750399331014524@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:27:43 -0000
+Message-Id: <178943926311.1786654.16081761005903344999@gitolite.kernel.org>
 
---===============5808573353831292379==
+--===============8734746665294337009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-thru-nfs-for-6.17-1
-    old: c59dd92204cc5dcce89cb81573ae3012a09bb4d7
-    new: 1a676869f2bb81de89901f09ce6c4bbed6c2ef15
-    log: revlist-c59dd92204cc-1a676869f2bb.txt
+  - ref: refs/heads/kernel-6.12.93/dontcache
+    old: 049e7a2d6f7173789c7373aeedf98174f69f28de
+    new: 72a8643352b931c743c80cdea4306790893fc4dc
+    log: revlist-049e7a2d6f71-72a8643352b9.txt
 
---===============5808573353831292379==
+--===============8734746665294337009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c59dd92204cc-1a676869f2bb.txt
+Content-Disposition: attachment; filename=revlist-049e7a2d6f71-72a8643352b9.txt
 
-021283d02c3b6a04596854317db4f44eebc9f00c drm/amdgpu: fix spelling typos
-1e5e40c88ef69954d90530ea10c0b3efac012020 drm/amdgpu/uvd3.1: Don't validate the firmware when already validated
-b2a2125d51c9730f93ed454e6dd175b6c51ac4b9 drm/amdgpu/gfx6: Support harvested SI chips with disabled TCCs (v2)
-b130a6eefa02bd4d475f2f059da8bcfb3e7d18d9 netfilter: xt_policy: fix strict mode inbound policy matching
-9f69c323ae0ab517e595c2cc74e0ae0d9d085611 netfilter: nf_conntrack_sip: don't use simple_strtoul
-c4632c6d492c08ffea2ee75991594bec148af3a6 ASoC: amd: acp: Add DMI quirk for Valve Steam Deck OLED
-7bf0784e48043b364088b8a2c7f0b09df51f777b spi: rockchip: Read ISR, not IMR, to detect cs-inactive IRQ
-215ae6123f40a3db105f47d6d630417ce2654254 drm/sysfb: ofdrm: fix PCI device reference leaks
-6b9c9f99c4f8f9d3eeaf189306d94b2ce3187233 arm64/scs: Fix potential sign extension issue of advance_loc4
-d7ccc5e3bb511f200d2b5b1740dae76756d0bb20 cdrom, scsi: sr: propagate read-only status to block layer via set_disk_ro()
-978ca6ff789f1f19c03288ac20cc1f4774e88490 netdevsim: zero initialize struct iphdr in dummy sk_buff
-e85d7f973343994e073ea87978e4d34a92886e84 net/sched: netem: fix probability gaps in 4-state loss model
-54b5dbacd00dedffd5e2eed76de1c3839996b5e6 net/sched: netem: fix queue limit check to include reordered packets
-b2d4c903d81ae4679eeb10c57d9833ae00c6e35e net/sched: netem: only reseed PRNG when seed is explicitly provided
-94c900a2010b1606f0b48e9eb05c6f9010ce30d5 net/sched: netem: validate slot configuration
-ffb40e6e6c0befe264232196ed0cbb230f70881a net/sched: netem: fix slot delay calculation overflow
-8dafd32994c01ead4f4acd8f134ae5372a02c2ca net/sched: netem: check for negative latency and jitter
-be08d4671a4039fe76a7cb5435c01dd88901c02a net/sched: sch_choke: annotate data-races in choke_dump_stats()
-dfcc93061414a0dcda4e0efd422b7eac2f33c389 net/sched: sch_fq_pie: annotate data-races in fq_pie_dump_stats()
-8c2b792f04a3db97c9d8d2a45817e93f8884baf5 vrf: Fix a potential NPD when removing a port from a VRF
-30cf9829d09ca958279c937af8e35495cd2f1e09 net: usb: rtl8150: fix use-after-free in rtl8150_start_xmit()
-b22170ac7e7e9da8dd4481f0474331708106fb38 net: usb: rtl8150: free skb on usb_submit_urb() failure in xmit
-91cbe246ba4854afe379ba7f0e8e00676409385f NFC: trf7970a: Ignore antenna noise when checking for RF field
-d02e2fbf60de46678e2ea698a6a904fd21e1cc31 net/sched: taprio: fix NULL pointer dereference in class dump
-0084712e0bee204b284510cdb63182fd5a30c2b7 neigh: let neigh_xmit take skb ownership
-0c699035b7baafa7402d59b071688e14f0c26f90 tcp: make probe0 timer handle expired user timeout
-a5bc748e071d0744a479d97c799429dfa99c6e77 net, treewide: define and use MAC_ADDR_STR_LEN
 d7074aa95b6bbac7ac6ba72a2807ee8d77040cf8 netconsole: allow selection of egress interface via MAC address
 ea977503f0607c6447f50aa2b6301c98b571c273 netpoll: Extract carrier wait function
 ebeb8414aff9312e3aceefec37142305a3cd16ee netpoll: extract IPv4 address retrieval into helper function
@@ -1050,5 +1023,32 @@ c530a7cbc9bd2fcf13fd167f3361c7446b92f9ed nfs_localio: change nfsd_file_put_local
 6678be8bd0c91776465ffa416c80bc13a18a074c NFSD: Avoid corruption of a referring call list
 eeba8e3d05a16247e33edc8644f6b1831b44a7bf SUNRPC: Cleanup/fix initial rq_pages allocation
 1a676869f2bb81de89901f09ce6c4bbed6c2ef15 sunrpc: fix loop in gss seqno cache
+c3de9891e19c550e14943f7e850c824074b066c6 mm/filemap: change filemap_create_folio() to take a struct kiocb
+443da054a94780656f07f0e0a297c7b9fde44289 mm/filemap: use page_cache_sync_ra() to kick off read-ahead
+99d35c2ac2f1a36bd76891a9a77a95614d2622f7 mm/readahead: add folio allocation helper
+5307ccec47ed02bee160677e6cbdf3be2f38b25f mm: add PG_dropbehind folio flag
+155752bc6a83e392d3ceae2c3878e81a03dc4512 mm/readahead: add readahead_control->dropbehind member
+acd42d64109a7d90336ee10ffd5795fa7917ccdc mm/truncate: add folio_unmap_invalidate() helper
+2a22d02f2f2153bd92c448cd241ebdb503c342ae fs: add RWF_DONTCACHE iocb and FOP_DONTCACHE file_operations flag
+a3d488e3a2f2410dbac4bd0dfc1d4cf9bdde20ae mm/filemap: add read support for RWF_DONTCACHE
+fc168afb6fb0a6f0593930130cfa6a7afeaec800 mm/filemap: drop streaming/uncached pages when writeback completes
+d877e2b9ab7ee01be36c362420c4992a7983474e mm/filemap: add filemap_fdatawrite_range_kick() helper
+7cdb1809f70c2c3f9c0b0cf77da19b6c52d22389 mm: call filemap_fdatawrite_range_kick() after IOCB_DONTCACHE issue
+ae9f43a4fc854bd0351cc64760117ee5479ddf51 mm: add FGP_DONTCACHE folio creation flag
+6e7a4731a5ab2b4827a6122e620e802ceb974255 iomap: make buffered writes work with RWF_DONTCACHE
+c6028f37df22769129d1740a13acb291ce61b4e1 xfs: flag as supporting FOP_DONTCACHE
+700117de4c3b37709dbd72d61923bf0210653d45 Disable FOP_DONTCACHE for now due to bugs
+7b0c91e8e865a9fefe48a656c5a9559232359dec mm/filemap: gate dropbehind invalidate on folio !dirty && !writeback
+db5263f284324325080b818e5534437ee5549eac mm/filemap: use filemap_end_dropbehind() for read invalidation
+31b4ad308a0ccbb9620d85b9f55cfdb6bf3770f2 Revert "Disable FOP_DONTCACHE for now due to bugs"
+3849a0bb4104041ad5b2389251119e7243de7278 mm/filemap: unify read/write dropbehind naming
+218c40fec25de461c6c2af9eec2197298936a563 mm/filemap: unify dropbehind flag testing and clearing
+c9d96b6b5083b9a3845503a55177bb8bca33d9ac iomap: don't lose folio dropbehind state for overwrites
+c8b0c11e0f5aba7f5961234a7792ea587a80142e fs: reformat the statx definition
+3748d578275c5fc657856f05984b7ce7e88c2d3a fs: add STATX_DIO_READ_ALIGN
+9c14ef258d290e66cd643a3844736aca98774c56 xfs: cleanup xfs_vn_getattr
+73986d8b337989e5b691fc24716488c442b20ea7 xfs: report the correct read/write dio alignment for reflinked inodes
+7b146754141eac2514e6e2291ff2dba189f08ceb xfs: report larger dio alignment for COW inodes
+72a8643352b931c743c80cdea4306790893fc4dc mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
 
---===============5808573353831292379==--
+--===============8734746665294337009==--
