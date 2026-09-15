@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3879085611412331433=="
+Content-Type: multipart/mixed; boundary="===============3780099203044048246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:07 -0000
-Message-Id: <178943928762.1787635.3763743255134109726@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:10 -0000
+Message-Id: <178943929075.1787758.15373194240902233459@gitolite.kernel.org>
 
---===============3879085611412331433==
+--===============3780099203044048246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-2
-    old: b1d01dee8cbed31ff791e3d6fb546ca4b2abb5c9
-    new: a276aa430dbba461963fefcc0e1e0a8368764eb9
-    log: revlist-b1d01dee8cbe-a276aa430dbb.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-1
+    old: efb14cf6d1d385e5758d2b98cf9610e8ecd8d6f2
+    new: a24932222a7a7b49f819d38aee13dea7754821dc
+    log: revlist-efb14cf6d1d3-a24932222a7a.txt
 
---===============3879085611412331433==
+--===============3780099203044048246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1d01dee8cbe-a276aa430dbb.txt
+Content-Disposition: attachment; filename=revlist-efb14cf6d1d3-a24932222a7a.txt
 
-8201bf45cc7c1c1a09290c4db8ab1e19801f8fec octeontx2-af: CGX: add bounds check to cgx_speed_mbps index
-f3c21a62be39d48e6337137cd52906b8ad6722df ice: fix setting promisc mode while adding VID filter
-77ad1b13dce2acffa07861bc7e8a662ba7e956f7 ice: restore PTP Rx timestamp config after ethtool set-channels
-67915715fd3874057457363c87c63e18829527df wifi: cfg80211: advance loop vars in cfg80211_merge_profile()
-38bccb927d83d7d52e5b20015a172a0b6101d11e af_unix: Fix UAF read of tail->len in unix_stream_data_wait()
-f7d395dc5008168ac5b9c1ac2791e59a6078cca1 wifi: mac80211: consume only present negotiated TTLM maps
-f2deaa2f409a4598eaa10f2a93a676c0632af248 cifs: Fix busy dentry used after unmounting
-1a150947f8480262a46c860f1acb9c6597ca7097 tracing: Do not call map->ops->elt_free() if elt_alloc() fails
-129ae7628f273e8825ba41057cb864eba53afacb arm64: probes: Handle probes on hinted conditional branch instructions
-b94538186a3eae3763b8f96dacd610920a865aa7 KVM: arm64: vgic-its: Reject restored DTE with out-of-range num_eventid_bits
-173fb86e5519dbe7aabed1f5fa7456152a4a2e38 KVM: arm64: vgic: Free private_irqs when init fails after allocation
-0d1989c9b70b657c416ba4acd3840896b2dc2fde riscv: kvm: return SBI_ERR_FAILURE for pmu_snapshot_set_shmem() when OOM
-681f3cd45f2244fa29d30d8d106259ba46feb683 drm/bridge: chipone-icn6211: use devm_drm_bridge_add in i2c probe
-8f9b61d255b1e989b8913b06c8ebe0aba5e1b238 spi: qup: fix error pointer deref after DMA setup failure
-09e5d2f2b12944d6a1d3400c98949f49487ac374 phy: tegra: xusb: Fix per-pad high-speed termination calibration
-cb9e72c50e6c81a5903f27e0b397ce8525d7539b scsi: isci: Fix use-after-free in device removal path
-b6c0dabea07e25bd7db19a77ebfd0d02b9e2671a spi: ep93xx: fix error pointer deref after DMA setup failure
-b6f1acf4e57ccf708cdc0cb70f5bb5b65162963b spi: sprd: fix error pointer deref after DMA setup failure
-1cd927002120678bd5d23c760246639caa53040e spi: ti-qspi: fix use-after-free after DMA setup failure
 c7c0c0f4379dedec12d24dbb9dded5d2db7fd9f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
 0d1f6520c50e1d016bc0620aef8b47e39fdc7bfd LoongArch: Remove unused code to avoid build warning
 34bf74b1fd2e4a44e27821a329204caf09df2976 device property: set fwnode->secondary to NULL in fwnode_init()
@@ -1050,5 +1031,24 @@ db8683b776c50987d878d8439a84f29340afbca1 NFS: fix delayed delegation return hand
 20df1082e7efe8f6603e23ceb03f0b659c42073d SUNRPC: Change list definition method
 38d031be81b2af0ac30989e7f03199ab7f4e9e30 nfs: nfs4proc: Convert comma to semicolon
 a276aa430dbba461963fefcc0e1e0a8368764eb9 NFS: Fix NFS KConfig typos
+98d09da6fd69e31657d426e58dd91cc23a5eb827 NFSv4/pnfs: If the server is down, retry the layout returns on reboot
+21c8c19e9287c7259f42f43acb5cc8d3ccd1c16f NFS: improve "Server wrote zero bytes" error
+b60d1861f076c9ba8c364850b42d211e1807ab0b nfs: fix utimensat() for atime with delegated timestamps
+4324f30e89feb862f9f594c78df0e63e19799101 nfs: update inode ctime after removexattr operation
+ff58a9298adb394d2e1ee82ab3357885d7f85947 xprtrdma: Close sendctx get/put race that can block a transport
+a115426bcd900e915231d151e03a5fcd7a9a2413 xprtrdma: Avoid 250 ms delay on backlog wakeup
+108e45bb17f9a4b0e6341a3b8cc9369aaca79dad xprtrdma: Close lost-wakeup race in xprt_rdma_alloc_slot
+580853e048ff5f7f7ca0d018d1789c9e98216e88 xprtrdma: Decouple frwr_wp_create from frwr_map
+a4ea06c5ae92c4dede91c3f3b1871ae8ca1e53b5 xprtrdma: Replace rpcrdma_mr_seg with xdr_buf cursor
+6503b381ef28d7af92904191132c15d75342af18 xprtrdma: Scale receive batch size with credit window
+084a69a9c17feddca42ee1f228b046fefc779cd6 xprtrdma: Post receive buffers after RPC completion
+a05af6e65d7ac9c5f8bfd980835ca7f51087e828 NFS/blocklayout: print each device used for SCSI layouts
+88d59ae80108b1f54457c574c21da6f008fa0196 pnfs/flexfiles: validate ds_versions_cnt is non-zero
+bac160220d5a2ba0cf7a5cc57f76a10f695b5e6b NFSv4.1: Apply session size limits on clone path
+b97ee8d862ddf206cac4802103adddb87bf50cad nfs: use memcpy_and_pad in decode_fh
+ff00695ba4f897356785ea81aa80e9e3bec0f8a3 NFS: fix writeback in presence of errors
+ede8564f2ae6f4ac65760df6424e2fac20b7a50c NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
+49eb11a726f63e0cb19218271694d9aec65e99a7 NFS: remove redundant __private attribute from nfs_page_class
+a24932222a7a7b49f819d38aee13dea7754821dc NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 
---===============3879085611412331433==--
+--===============3780099203044048246==--
