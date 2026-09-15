@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Tue, 15 Sep 2026 01:01:46 -0000
-Message-Id: <178943410634.1712862.13213188663146721041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Sep 2026 01:01:56 -0000
+Message-Id: <178943411677.1713218.2376775318288248111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/spacemit/linux
-user: dlan
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/clk-fixes-for-7.3
-    old: 0000000000000000000000000000000000000000
-    new: d558af8ee0bb1b2e88e696be84adb93cf2b7be6f
+  - ref: refs/heads/main
+    old: ad6ff1a67b1012bcab56c3c4b6e5d132d577c504
+    new: 0019aa65bbc6223b3c29f519c0c8e040b26ef97e
+    log: |
+         0019aa65bbc6223b3c29f519c0c8e040b26ef97e ipmr, ip6mr: annotate data-races in vif_seq_show()
+         
