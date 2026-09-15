@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8607159542288234647=="
+Content-Type: multipart/mixed; boundary="===============4986651429283370389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:49 -0000
-Message-Id: <178943926914.1786882.15235599238763858960@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:27:52 -0000
+Message-Id: <178943927226.1786970.16829319037530846287@gitolite.kernel.org>
 
---===============8607159542288234647==
+--===============4986651429283370389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,55 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.17-1
-    old: 39316257782f40cd4a3913c8d4695b7a16b9229b
-    new: 009345c59c7b58ea939be62196d7c4fcb7126e23
-    log: revlist-39316257782f-009345c59c7b.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.17-3
+    old: debc0d140c2cb6c0a0ea77e611e866d036a66812
+    new: b502a8ad5c48f80f6e498f59ba2fd57f1aa45382
+    log: revlist-debc0d140c2c-b502a8ad5c48.txt
 
---===============8607159542288234647==
+--===============4986651429283370389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39316257782f-009345c59c7b.txt
+Content-Disposition: attachment; filename=revlist-debc0d140c2c-b502a8ad5c48.txt
 
-0aacb6d18f76552e3e0ee25d9f40d21b3486f4cf futex: Prevent lockup in requeue-PI during signal/ timeout wakeup
-e95c0244e27b16268f342d5cc234868e43a7e1e5 drm/amd/display: Allow DCE link encoder without AUX registers
-80e33e32edff8b0440e206971b1ac16871162365 drm/amd/display: Read EDID from VBIOS embedded panel info
-5da77b830a0b9eb59d62bf536beb20801ec4fdec drm/xe/debugfs: Correct printing of register whitelist ranges
-f93b00161213a0fe9f7ff1d8498ee5ca9e0a5c43 drm/xe: Fix error cleanup in xe_exec_queue_create_ioctl()
-72f211f88236e0e6a1f98171e32d21367c268c4e drm/xe/gsc: Fix BO leak on error in query_compatibility_version()
-ab964dd74421d8bd39fa24cd1d805cf31a685914 page_pool: Set `dma_sync` to false for devmem memory provider
-a41ce5c172c357fd373ed43681e763ed86a2483b net: page_pool: create hooks for custom memory providers
-fbe4adfe0834b84dc12b8eeb32c38e47b38d2ed5 page_pool: fix memory-provider leak in page_pool_create_percpu() error path
-611d5007ddb6dd7334226eb081d82865a3cce9a8 iavf: rename IAVF_VLAN_IS_NEW to IAVF_VLAN_ADDING
-d9dc4440316fc0274478718480b9bdd8c8766ac6 iavf: stop removing VLAN filters from PF on interface down
-01d7e58876fcd48473e3e563569b99600b00a917 iavf: wait for PF confirmation before removing VLAN filters
-d639dcd42f993ae4563e4f288b1bd5020fa504d5 iavf: add VIRTCHNL_OP_ADD_VLAN to success completion handler
-4c2ac52eeeb672624b06c7a135301d7b8a21d52e ice: fix NULL pointer dereference in ice_reset_all_vfs()
-3c405dfa9619e506e75b8e41f8b29a5b99731877 net: tls: fix strparser anchor skb leak on offload RX setup failure
-dcc665996c7ab15202ab4825cb65803647286362 sfc: fix error code in efx_devlink_info_running_versions()
-eeda2c03f6d5125341d83f187a2056f50ecc8425 net/sched: cls_flower: revert unintended changes
-a4ff33053da0a34b14abb5c96dc5a48379e26fce arm64: Reserve an extra page for early kernel mapping
-e837f36ddd20cb009a440c054080e95adf8231a1 smb: client: correctly handle ErrorContextData as a flexible array
-20ac98f0eb6047edb73c9a27af782bdde08b3757 smb: client: fix OOB reads parsing symlink error response
-d8d8db8ca1cb12f8b92bd7db8934682b2d5eb5e0 LoongArch: KVM: Compile switch.S directly into the kernel
-1be7ca86ce1794d966fda5d82181bc978b150fbc ntfs: ->d_compare() must not block
-80d7d9b4d74b032562a31a9852acbe3982d8f0be PCI: Initialize temporary device in new_id_store()
-e8cc795927fd77bf0926d515f2668773da6e4461 net: bcmgenet: Initialize u64 stats seq counter
-3c3abbcfa05bad17965498ff7cc94c2418fa94b3 net: bcmgenet: fix leaking free_bds
-3a044465a3678f370abc803189ad876352c4430d iommu/amd: Reorder attach device code
-cc25522a56172f3dbfe90b01f0459688f5c9db1e iommu/amd: Put list_add/del(dev_data) back under the domain->lock
-310be445ab1028315627b326516f193511cb1c97 perf tool_pmu: Fix aggregation on duration_time
-a93a5800cf4b22d45b1e01d703bf02ea3adfd03b net/sched: sch_pie: annotate more data-races in pie_dump_stats()
-3eaf609fcb30e24f1219544887695e917203d49b netpoll: Extract IPv6 address retrieval function
-d6539ee405ad49721ba2b3df7e7fde07462ac4a3 netpoll: pass buffer size to egress_dev() to avoid MAC truncation
-e23a328a6d1a82c2b7a9439d8263bd59215d33c8 page_pool: fix incorrect mp_ops error handling
-265ac26d1c5e17b34d497cbda1f754a1ec8552bc crypto: af_alg - Cap AEAD AD length to 0x80000000
-a2754324e8478414a22d427ea7437bed5a00cca4 i40e: Cleanup PTP pins on probe failure
-2d8a50d28639791e7ecd5ab04b8e91be7b787fd9 workqueue: Fix wq->cpu_pwq leak in alloc_and_link_pwqs() WQ_UNBOUND path
-8aff0b9bb09686bc89336dd8ab6cac56e3a8d948 netfilter: nf_conntrack_sip: get helper before allocating expectation
-0a065c51a225854768b772a0b733a44d77162582 audit: fix incorrect inheritable capability in CAPSET records
-81aec88baf162281a54baec6fd4ba17e78f9ecd4 Revert "ACPI: CPPC: Adjust debug messages in amd_set_max_freq_ratio() to warn"
 2aef1b13d5c0285f340512c6c07eb858fd018fd8 netfilter: nft_ct: fix missing expect put in obj eval
 d7b916b578b9b369c7b7dde6b5a372861d94327d net: atlantic: preserve PCI wake-from-D3 on shutdown when WOL enabled
 d8505a318769e611ab9254ad602a83036d9e4eb0 audit: enforce AUDIT_LOCKED for AUDIT_TRIM and AUDIT_MAKE_EQUIV
@@ -1050,5 +1012,43 @@ c8ccc465eb02ec4cc8e8627534e9938e032408f8 sunrpc: rearrange struct svc_rqst for f
 50074f3b93e69db9c8c5755d0e2f07de7b5f5e1c sunrpc: make svc_tcp_sendmsg() take a signed sentp pointer
 9343e6462c296053df0cfa0a69f435a330b3fbde nfsd: don't set the ctime on delegated atime updates
 009345c59c7b58ea939be62196d7c4fcb7126e23 nfsd: avoid ref leak in nfsd_open_local_fh()
+8c1900cdcf4ecdbc20908f6a1520af77cf2bc5d3 nfs: Add timecreate to nfs inode
+eb23a13a415020256875aaebbee8a86a6078955a NFS: Return the file btime in the statx results when appropriate
+47b1c765d67b58454ca14ff6a17b664394734a1f nfs: use lock_two_nondirectories()
+f2631f34487fbbc7bc00587e81044f6f5efda085 pnfs: add pnfs_ds_connect trace point
+03ff817cdb47be5f2e3ae2aee522458250a0cac0 NFS: remove unused wpages field from struct nfs_server
+48ec6f8fa88f23c700b798d2768406a98167268c NFS: remove unused time_delta field from struct nfs_server
+c2d69d9fa801725ec4ee1f31fc7d238cba2063c4 NFS: remove unused pnfs_ld_data field from struct nfs_server
+b3a06fc72440f877d279f2d6682177e0dcbde70b nfs: add cache_validity to the nfs_inode_event tracepoints
+b36dbb8f8929332ebd01d0ae91e5acb9b695c1bf nfs: add a tracepoint to nfs_inode_detach_delegation_locked
+e539054299e9a0efd9ea5d37f5b12f986a58c90d nfs: new tracepoint in nfs_delegation_need_return
+7471cc587af4071b9d16547bc2e6fe649d6fa5db nfs: new tracepoint in match_stateid operation
+faaff518ad8b733f0a8baf1dbb11c3c26361b2f3 NFS: Allow folio migration for the case of mode == MIGRATE_SYNC
+d0969709dfcb87967ba1b82bd5b8b54706d05fe1 NFS: support the kernel keyring for TLS
+bcf3ca86e87afdb7280410774816978774ff80d2 nfs: create a kernel keyring
+b8d22406c625417dd80dd3866d9cb7839e5c3b8a SUNRPC: Remove unused xdr functions
+eccd52c5e4b304921eebaa7f9b5fecfe060b4c7d NFS: Remove unused function nfs_umount
+d63465b07af1b744f25dc7929591d94f1e49d63a pNFS: Fix extent encoding in block/scsi layout
+d6ba87985f788518cc15317ac81cabeee78082e8 pNFS: Add prepare commit trace to block/scsi layout
+d64326927fc3d35dded15b6c300702f8b5a72326 NFS: pass struct nfs_client_initdata to nfs4_set_client
+dc257a22c7f096f1995ba9868375fc535c42664e NFS: drop __exit from nfs_exit_keyring
+698852d724213d6a15f6b9529933894354788ef2 NFS: cleanup error handling in nfs4_server_common_setup
+4175ed7fd42179b872e39ae6514d9c66b70f31d2 NFS: cleanup nfs_inode_reclaim_delegation
+5cec8176a35527b1fc1253f88a4ab768e9eb1811 NFS: move the delegation_watermark module parameter
+43f23f722172e5bc3836ca7c0b78f9eeeb1adc5d NFS: track active delegations per-server
+ba6da7fa39e360b8f0c77103e2ad03e8f00f507c NFS: use a hash table for delegation lookup
+2d40ebe37f2745ae9e5d5fe685a365b0b5685ad5 NFS: Clean up pnfs_put_layout_hdr()/pnfs_destroy_layout_final()
+dd805d98f939a4ef2a5a2e99b760e3c55c066653 SUNRPC: Silence warnings about parameters not being described
+53ce17861108c1d1f5914ca0b47802fbcabed719 nfs/localio: use read_seqbegin() rather than read_seqbegin_or_lock()
+607138426294c188c17b9ac037b3f7b5ce5ee5e3 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
+20d9bdb0469a1b457c474092fd0f779faec54992 NFS/localio: nfs_close_local_fh() fix check for file closed
+99814fc425be031e28011bcc1e1c2b7a3d9412c5 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
+6591ee606e393624f35227c5db45ba378bba0684 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+0afb527c7555439416ebd8fac1c274cd22c27e3d nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+a19fd136c92a5d564c5e5b9d7840d2e3556874f7 NFS: Protect against 'eof page pollution'
+adc3eba3be93e0e38bc9f6f0844be4cdc20c63fc NFSv4.2: Protect copy offload and clone against 'eof page pollution'
+f57f2a7f10580593b5e42eaa0684434e03d27524 NFS: Fix the marking of the folio as up to date
+f3c309e7b0a20989673d78a8a2b6a1bc77480964 Revert "SUNRPC: Don't allow waiting for exiting tasks"
+b502a8ad5c48f80f6e498f59ba2fd57f1aa45382 nfs/localio: restore creds before releasing pageio data
 
---===============8607159542288234647==--
+--===============4986651429283370389==--
