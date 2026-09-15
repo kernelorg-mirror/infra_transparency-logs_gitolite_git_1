@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3270128786681320753=="
+Content-Type: multipart/mixed; boundary="===============2863292264042421673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:23:00 -0000
-Message-Id: <178943898036.1781465.11171839303588845312@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:23:03 -0000
+Message-Id: <178943898303.1781600.1149881377985142577@gitolite.kernel.org>
 
---===============3270128786681320753==
+--===============2863292264042421673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.8/nfsd-testing-canary
-    old: ed68c8c709624544b7ff12fdd6e368a44a804b6c
-    new: fffcf4ca56c112c314df0e693454f8bb9ad23576
-    log: revlist-ed68c8c70962-fffcf4ca56c1.txt
+  - ref: refs/heads/kernel-7.1.8/nfsd-testing-canary-dontcache
+    old: 5bb8a9f5de086e1756fdf833aa4d21d78549635e
+    new: 1dc570c9b4cdd4f964adfadaa6b84917676e6a8d
+    log: revlist-5bb8a9f5de08-1dc570c9b4cd.txt
 
---===============3270128786681320753==
+--===============2863292264042421673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed68c8c70962-fffcf4ca56c1.txt
+Content-Disposition: attachment; filename=revlist-5bb8a9f5de08-1dc570c9b4cd.txt
 
 da3a3beb647eff4f204e6dfa0298cc7231ec8d1a sunrpc: skip svc_xprt_enqueue when no work is pending
 12f6305fcbe44e8f73910a70d566300dffa26097 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
@@ -111,5 +111,7 @@ df483ed2afd9cd9b130a329a3378c8fb6dd249fa nfsd: fallback to DONTCACHE if read IO 
 69d5078775a2f0bcdef59efbabdf8f921914f98e NFSD: Enable return of an updated stable_how to NFS clients
 2ba513453f85881e6549b792f0a45ed0902584e7 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 fffcf4ca56c112c314df0e693454f8bb9ad23576 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+9a85b93d75d8569214270af188cde1b97d96cdaa mm: track DONTCACHE dirty pages per bdi_writeback
+1dc570c9b4cdd4f964adfadaa6b84917676e6a8d mm: kick writeback flusher for IOCB_DONTCACHE with targeted dirty tracking
 
---===============3270128786681320753==--
+--===============2863292264042421673==--
