@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8734746665294337009=="
+Content-Type: multipart/mixed; boundary="===============6116796700914492606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:43 -0000
-Message-Id: <178943926311.1786654.16081761005903344999@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:27:46 -0000
+Message-Id: <178943926606.1786746.14407786192347135360@gitolite.kernel.org>
 
---===============8734746665294337009==
+--===============6116796700914492606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/dontcache
-    old: 049e7a2d6f7173789c7373aeedf98174f69f28de
-    new: 72a8643352b931c743c80cdea4306790893fc4dc
-    log: revlist-049e7a2d6f71-72a8643352b9.txt
+  - ref: refs/heads/kernel-6.12.93/xfs
+    old: c2671baf2335c0527efa16a9e8a0635b4edb7de8
+    new: 587107ed74e36d852ff42bc34b9a40f015cf1288
+    log: revlist-c2671baf2335-587107ed74e3.txt
 
---===============8734746665294337009==
+--===============6116796700914492606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-049e7a2d6f71-72a8643352b9.txt
+Content-Disposition: attachment; filename=revlist-c2671baf2335-587107ed74e3.txt
 
-d7074aa95b6bbac7ac6ba72a2807ee8d77040cf8 netconsole: allow selection of egress interface via MAC address
-ea977503f0607c6447f50aa2b6301c98b571c273 netpoll: Extract carrier wait function
-ebeb8414aff9312e3aceefec37142305a3cd16ee netpoll: extract IPv4 address retrieval into helper function
-484996b55913a0cc9ee5094c7ff0ce98ed97e93b netpoll: fix IPv6 local-address corruption
 53d5f0a2e4b6fea1810b7e10d456f71537373a1c ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
 c71bf35caba12bfd9bc23e32b0bcd9e02d1cf1ac sched/fair: Clear rel_deadline when initializing forked entities
 4b0ce980b5d0c33f64691aeea75277c4cb1a8cac net: mctp i2c: check length before marking flow active
@@ -1050,5 +1046,9 @@ c8b0c11e0f5aba7f5961234a7792ea587a80142e fs: reformat the statx definition
 73986d8b337989e5b691fc24716488c442b20ea7 xfs: report the correct read/write dio alignment for reflinked inodes
 7b146754141eac2514e6e2291ff2dba189f08ceb xfs: report larger dio alignment for COW inodes
 72a8643352b931c743c80cdea4306790893fc4dc mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
+0169f0d3e9b0500ef6dd5004fa0cf7e1dd70e445 xfs: apply rt extent alignment constraints to CoW extsize hint
+8586af6ff4400bbfe227da5cc0f67e368be2f8ee xfs: rearrange code in xfs_inode_item_precommit
+6e61b4c4099e218df8afae94197144523b76ef1b xfs: rework datasync tracking and execution
+587107ed74e36d852ff42bc34b9a40f015cf1288 xfs: eliminate lockdep false positives in xfs_attr_shortform_list
 
---===============8734746665294337009==--
+--===============6116796700914492606==--
