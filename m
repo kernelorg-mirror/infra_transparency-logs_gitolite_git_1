@@ -1,40 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 15 Sep 2026 08:56:56 -0000
-Message-Id: <178946261673.2074201.3477368104197949592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 15 Sep 2026 08:57:18 -0000
+Message-Id: <178946263837.2074613.6429477632786712316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: b27a62a843fa77de63a27a09f75583240b102a27
-    new: 4d17ede0716e39744a737b3b24814099a557b1ac
+  - ref: refs/heads/renesas-pinctrl
+    old: 3f3fe195e7d908dc15ad7ab99f38e9225225b538
+    new: 0cd4a7b3a4883970df3ae8814d9aabdecf65a81e
     log: |
-         b43aa6a6ebe8ca8bdd75ee688e1eb2d0d16a888e arm64: dts: renesas: r8a779f0: Add GICv3 ITS and update PCIe nodes
-         f94066544077effd53e468e527756ecd756d358a Merge branch 'renesas-dts-for-v7.4' into renesas-next
-         4d17ede0716e39744a737b3b24814099a557b1ac Merge branch 'renesas-next' into renesas-devel
+         7df755632142e59a5aec5f85f2654add49220102 pinctrl: renesas: rzt2h: Restore correct pin mode on IRQ free
+         d9980f93cef0f90a11f26296c68ed16b61a95ced pinctrl: renesas: rzt2h: Setup IRQ in .irq_{request,release}_resources()
+         55297a587c3748f320485a3b37fcccfe6f0440bb pinctrl: renesas: rzt2h: Fix reading pin value in IRQ function
+         20253c44c72785ad6d90d6fdc78c96e56a69f4b1 pinctrl: renesas: rzt2h: Reuse helpers
+         0cd4a7b3a4883970df3ae8814d9aabdecf65a81e pinctrl: renesas: rzt2h: Add a helper for reading PFC
          
-  - ref: refs/heads/next
-    old: aa9996e26256072922280e89d5221c8974ac206e
-    new: f94066544077effd53e468e527756ecd756d358a
+  - ref: refs/heads/renesas-pinctrl-for-v7.4
+    old: 3f3fe195e7d908dc15ad7ab99f38e9225225b538
+    new: 0cd4a7b3a4883970df3ae8814d9aabdecf65a81e
     log: |
-         b43aa6a6ebe8ca8bdd75ee688e1eb2d0d16a888e arm64: dts: renesas: r8a779f0: Add GICv3 ITS and update PCIe nodes
-         f94066544077effd53e468e527756ecd756d358a Merge branch 'renesas-dts-for-v7.4' into renesas-next
+         7df755632142e59a5aec5f85f2654add49220102 pinctrl: renesas: rzt2h: Restore correct pin mode on IRQ free
+         d9980f93cef0f90a11f26296c68ed16b61a95ced pinctrl: renesas: rzt2h: Setup IRQ in .irq_{request,release}_resources()
+         55297a587c3748f320485a3b37fcccfe6f0440bb pinctrl: renesas: rzt2h: Fix reading pin value in IRQ function
+         20253c44c72785ad6d90d6fdc78c96e56a69f4b1 pinctrl: renesas: rzt2h: Reuse helpers
+         0cd4a7b3a4883970df3ae8814d9aabdecf65a81e pinctrl: renesas: rzt2h: Add a helper for reading PFC
          
-  - ref: refs/heads/renesas-dts-for-v7.4
-    old: bf0a6853f441afb811682254634c5c914b092b16
-    new: b43aa6a6ebe8ca8bdd75ee688e1eb2d0d16a888e
-    log: |
-         b43aa6a6ebe8ca8bdd75ee688e1eb2d0d16a888e arm64: dts: renesas: r8a779f0: Add GICv3 ITS and update PCIe nodes
-         
-  - ref: refs/tags/renesas-devel-2026-09-15-v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 549e8dbc473c0236ac09afb1f05db79053aa0d23
-  - ref: refs/tags/renesas-next-2026-09-15-v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 00c085c4a9d942c80615d38244abe5579b0fed1f
