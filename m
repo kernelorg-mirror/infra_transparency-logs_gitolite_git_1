@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4513193817527727405=="
+Content-Type: multipart/mixed; boundary="===============9186278139104303541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:18 -0000
-Message-Id: <178943929860.1787980.16259760988932804879@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:22 -0000
+Message-Id: <178943930231.1788097.10486007043270451259@gitolite.kernel.org>
 
---===============4513193817527727405==
+--===============9186278139104303541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.2-fixes
-    old: 7198a1ee2deff96869704e109656ccbb6072a532
-    new: 44e49d545b4c0ebadc408319cb68cf798c362536
-    log: revlist-7198a1ee2def-44e49d545b4c.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-testing-canary
+    old: 1f51b113878d2df16f5cb3550831775cf8c2b110
+    new: 09c2cda51c7e4e479d1247af451b2d6fb0b94d1f
+    log: revlist-1f51b113878d-09c2cda51c7e.txt
 
---===============4513193817527727405==
+--===============9186278139104303541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7198a1ee2def-44e49d545b4c.txt
+Content-Disposition: attachment; filename=revlist-1f51b113878d-09c2cda51c7e.txt
 
-39c197f3c9be9a1fa91552e79d4cdb384c0d0f44 hwmon: (pmbus/adm1266) don't clobber GPIO bits before PDIO read in get_multiple
-4cce881a0b96f8b491f6626ed9c6fade58ea8e7a hwmon: (pmbus/adm1266) register the gpio_chip after pmbus_do_probe()
-b75d17559dcd89e73ae2a2bb6c6589ff643fbb2b hwmon: (pmbus/adm1266) register the nvmem device after pmbus_do_probe()
-ae25cf2ea9ebd06d7ad416647dbdc7b5d0172946 hwmon: (pmbus/adm1266) reject short block-read responses in the GPIO accessors
-3fdbd6d48a1a159fdebd6d1c8619a6f05aa1d3b2 ARM: dts: renesas: genmai: Drop superfluous cells
 b6b765d34810c1f9b27f4fb7e71655fe863c232d ARM: dts: renesas: rskrza1: Drop superfluous cells
 39e0bd08654e33f4e900311649e07e7aeb4abdd5 pinctrl: renesas: rzg2l: Fix incorrect PUPD register offset for high pins during suspend/resume
 265a8f0e2c6e1105f0eb440424306cd88befefc0 HID: uclogic: Fix regression of input name assignment
@@ -1050,5 +1045,10 @@ e4db56eca88a8ed256667a183c428e5650db72da xprtrdma: Repost Receive buffers for ma
 e475b2ffeeb99d94a8df68134303bc1fd369e39e SUNRPC: pin upper rpc_clnt across the TLS connect_worker
 b0083428038ad0d82145bad99ca8beee7ff60057 NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
 44e49d545b4c0ebadc408319cb68cf798c362536 NFS: Charge unstable writes by request size, not folio size
+c78adc71e8b07c6a77615008dbccf8b4116dceb6 NFS/localio: issue IO inline when not in a memory-reclaim context
+3a149fdea56ca1ade5ca993f87d09fcd7b7197ad NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
+03d5306ba2cf3ba28c13119a6c51576d07c209d0 NFS/localio: issue commit inline when not in a memory-reclaim context
+3d1285d0c4e62fa8f4d3509e191e481d202195c0 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+09c2cda51c7e4e479d1247af451b2d6fb0b94d1f NFS: defer the final superblock deactivation
 
---===============4513193817527727405==--
+--===============9186278139104303541==--
