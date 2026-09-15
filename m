@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7284175512089218585=="
+Content-Type: multipart/mixed; boundary="===============0800710227277330508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:29:06 -0000
-Message-Id: <178943934646.1789400.10082500319000010111@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:29:09 -0000
+Message-Id: <178943934959.1789513.14003333073739558841@gitolite.kernel.org>
 
---===============7284175512089218585==
+--===============0800710227277330508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary
-    old: ee5469851ff5c6b64de5a151e113ff83b1286bc2
-    new: b66059468c9a99c1d4a1e65d6dd6509bf7f8c941
-    log: revlist-ee5469851ff5-b66059468c9a.txt
+  - ref: refs/heads/kernel-6.12.93/nfs4_acl-passthru
+    old: 966dc9d00278c71814369443020563c7c02203c4
+    new: 6f08c133197958b6490848712f33f5dd89d4b35b
+    log: revlist-966dc9d00278-6f08c1331979.txt
 
---===============7284175512089218585==
+--===============0800710227277330508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee5469851ff5-b66059468c9a.txt
+Content-Disposition: attachment; filename=revlist-966dc9d00278-6f08c1331979.txt
 
-ae6c884fc03ca2adc0f6fb4205b8638691159c9f ethtool: fix ethnl_bitmap32_not_zero() bit interval semantics
-9f8274749d9010a1a72f97e547b7eb9ebb82345b drm/msm/dsi: don't dump registers past the mapped region
 3457807aeb88077712f0a7cb65c3ca5120773d75 drm/msm: Fix iommu_map_sgtable() return value check and avoid WARN
 72d8d1c36452a4d3ee134b1da48de7518c1329f9 powerpc/time: Remove redundant preempt_disable|enable() calls from arch_irq_work_raise()
 53eb7bd09aace72fa17510d80e0caf5ca058c231 net/smc: reject CHID-0 ACCEPT that matches an empty ism_dev slot
@@ -1041,14 +1039,16 @@ ae5b84db52c7787f33726d15256cc595174b9017 sunrpc: pin svc_xprt across the asynchr
 6bab91b21fa3140294d4170d8a43491498b71d86 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 fd7de2a5543205b824362f2937ae0b91250cedf1 nfsd: reset write verifier on deferred writeback errors
 246f524aae28cc3a8b018e19d140556607c1a193 svcrdma: wake sq waiters when the transport closes
-0ae465774efe8b78ff589b358e204806a5fcf338 NFSD: add NFSD_IO_DIRECT heuristic for small IO
-551627cad709baaa1ac07a8f78a3d0be71109964 NFSD: add nfsd_direct_misaligned_num_pages modparam
-7ffbac903c769d91ae2924eff9ea8f5700dbf548 NFSD: Enable return of an updated stable_how to NFS clients
-1cdeb46b882f4959115e8b22b44184b9253dd4b9 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
-832eb320ecc2402b7b9d2164c3829a35bd51af76 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
-48a095b289a3e7d67e776a7d121f84bc526712ee svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
-32ac09253457e7eca597f305d40802dc4ac2c5e3 svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
-748bc38b6651ba6370c3b756ca4080fa404011ee svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
-b66059468c9a99c1d4a1e65d6dd6509bf7f8c941 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
+feaff6fb2938536b3757189c20496606c946723f exportfs: add ability to advertise NFSv4 ACL passthru support
+9d1b216fd8ac43d0ec9786f839155d8044d08d07 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
+21f69b5522f2d2d7e58f9934f45c13e0aa3662ad NFS/NFSD: data structure enablement for nfs4_acl passthru support
+ea148480e84f0ff1a9ffbe4c09446bed17faa586 NFSD: prepare to support SETACL nfs4_acl passthru
+eccda17bfd9ce2345ff6cab93cab9e2c9e0da2d2 NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
+911e55d49eefc0a9f0593fa6ad57e71d4fce9e15 NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
+eee52b329be7b7c4941e7ddf3252949aca36f1e2 NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
+4552b5c1e3722fc92c3d314f93b6af138a8eb634 NFSD: avoid extra nfs4_acl passthru work unless needed
+bd2bbe2df525a9dd2e40946d5b51b72e4230ea0e NFSv4: add reexport support for SETACL nfs4_acl passthru
+e12bbb5ee885719371265170f056e0e07b146998 NFSv4: add reexport support for GETACL nfs4_acl passthru
+6f08c133197958b6490848712f33f5dd89d4b35b NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
 
---===============7284175512089218585==--
+--===============0800710227277330508==--
