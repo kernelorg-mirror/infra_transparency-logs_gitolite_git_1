@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6116796700914492606=="
+Content-Type: multipart/mixed; boundary="===============8607159542288234647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:46 -0000
-Message-Id: <178943926606.1786746.14407786192347135360@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:27:49 -0000
+Message-Id: <178943926914.1786882.15235599238763858960@gitolite.kernel.org>
 
---===============6116796700914492606==
+--===============8607159542288234647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/xfs
-    old: c2671baf2335c0527efa16a9e8a0635b4edb7de8
-    new: 587107ed74e36d852ff42bc34b9a40f015cf1288
-    log: revlist-c2671baf2335-587107ed74e3.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.17-1
+    old: 39316257782f40cd4a3913c8d4695b7a16b9229b
+    new: 009345c59c7b58ea939be62196d7c4fcb7126e23
+    log: revlist-39316257782f-009345c59c7b.txt
 
---===============6116796700914492606==
+--===============8607159542288234647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2671baf2335-587107ed74e3.txt
+Content-Disposition: attachment; filename=revlist-39316257782f-009345c59c7b.txt
 
-53d5f0a2e4b6fea1810b7e10d456f71537373a1c ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
-c71bf35caba12bfd9bc23e32b0bcd9e02d1cf1ac sched/fair: Clear rel_deadline when initializing forked entities
-4b0ce980b5d0c33f64691aeea75277c4cb1a8cac net: mctp i2c: check length before marking flow active
-305cfb9812181e6cf2ef5171038ddf9d277d2a52 net: phy: dp83869: fix setting CLK_O_SEL field.
-5e777bc4cbe928ac0fd95e368fee1540f2ce4db2 drm/amdgpu/vcn: set no_user_fence for VCN v2.0 enc/dec rings
-8f0ea4524dc71c6c9ec97f2711f46e12f624140f drm/amdgpu/vcn: set no_user_fence for VCN v2.5 enc/dec rings
-26c4f38529ac78930c9c4713e16ebc5b689bb0a3 drm/amdgpu/vcn: set no_user_fence for VCN v3.0 enc/dec rings
-387b7c7667bd5c53549350ddad866d2fcf75a529 drm/amdgpu/vcn: set no_user_fence for VCN v4.0.3 enc ring
-75091030f07b7957cc0646cd52e2d9d15f611483 drm/amdgpu/vcn: set no_user_fence for VCN v4.0.5 enc ring
-9f5a1459ecc3195282be617639d710b54779c9dc drm/amdgpu/vcn: set no_user_fence for VCN v5.0.0 enc ring
-2e216c2ff159b2eb1da6e9c716d727efc73c64b5 drm/amdgpu/jpeg: set no_user_fence for JPEG v2.0 ring
-4d96e3cbfc66e4d66ea0096bde858e28ab62da00 drm/amdgpu/jpeg: set no_user_fence for JPEG v2.5 ring
-303da8279f195cc741adc52c1b44d6b64de63bb0 drm/amdgpu/jpeg: set no_user_fence for JPEG v3.0 ring
-a676f16ea9a7df96d69f405afb6eb349571b3382 drm/amdgpu/jpeg: set no_user_fence for JPEG v4.0 ring
-d6bd2a5fd611ec9c8a2411f084cff2435c709608 drm/amdgpu/jpeg: set no_user_fence for JPEG v4.0.3 ring
-424510b60d4698a75a6ff71acdd88b528f0f39af drm/amdgpu/jpeg: set no_user_fence for JPEG v4.0.5 ring
-3a55ff19a6ff5e046d6a4a18e36deec5d95d9a2e drm/amdgpu/jpeg: set no_user_fence for JPEG v5.0.0 ring
-f68db04edb847961e5ea82f588ab07aa7ec9fa2f ASoC: codecs: ab8500: Fix casting of private data
-8f7573f81132380c84261d88324d79dec182935a netfilter: skip recording stale or retransmitted INIT
-33dae81b818b04396bdaaa865e97564edc8e2fb9 sctp: discard stale INIT after handshake completion
-35a115a204be08f97450b0389413e218268ef4a2 bareudp: fix NULL pointer dereference in bareudp_fill_metadata_dst()
-7b5442611c775a39b04d1baa5954439a39339379 net/sched: sch_cake: annotate data-races in cake_dump_stats() (V)
-5dab7c77b1334553781e2c0c450e11538032888b netconsole: propagate device name truncation in dev_name_store()
-1836efa218ab3e16a54c888a930b358ea19bce30 ALSA: hda/conexant: Renaming the codec with device ID 0x1f86 and 0x1f87
-dd110cc00cf854a8ecd8d003127a4178c28574ea ALSA: hda/conexant: Fix missing error check for jack detection
-0ad54706fd854c948cc37f65127cf551ae4871d1 ALSA: hda: cs35l56: Fix uninitialized value in cs35l56_hda_read_acpi()
 0aacb6d18f76552e3e0ee25d9f40d21b3486f4cf futex: Prevent lockup in requeue-PI during signal/ timeout wakeup
 e95c0244e27b16268f342d5cc234868e43a7e1e5 drm/amd/display: Allow DCE link encoder without AUX registers
 80e33e32edff8b0440e206971b1ac16871162365 drm/amd/display: Read EDID from VBIOS embedded panel info
@@ -1046,9 +1020,35 @@ c8b0c11e0f5aba7f5961234a7792ea587a80142e fs: reformat the statx definition
 73986d8b337989e5b691fc24716488c442b20ea7 xfs: report the correct read/write dio alignment for reflinked inodes
 7b146754141eac2514e6e2291ff2dba189f08ceb xfs: report larger dio alignment for COW inodes
 72a8643352b931c743c80cdea4306790893fc4dc mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
-0169f0d3e9b0500ef6dd5004fa0cf7e1dd70e445 xfs: apply rt extent alignment constraints to CoW extsize hint
-8586af6ff4400bbfe227da5cc0f67e368be2f8ee xfs: rearrange code in xfs_inode_item_precommit
-6e61b4c4099e218df8afae94197144523b76ef1b xfs: rework datasync tracking and execution
-587107ed74e36d852ff42bc34b9a40f015cf1288 xfs: eliminate lockdep false positives in xfs_attr_shortform_list
+2f33c2bda7bbddbd84392ffe88b4dde39657f4e5 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+33e8573c0eaaf88979d977f2c1a33137829067bb NFSD: release read access of nfs4_file when a write delegation is returned
+657c71a3b375986dcf8fe85afe60063da46b9ef3 sunrpc: simplify xdr_init_encode_pages
+9398acc79a119b827c6d642ec0b6b5018eedf6cc sunrpc: simplify xdr_partial_copy_from_skb
+0d6dd3047d6940238c2dfd7aeb711b8b0aa8401d sunrpc: unexport csum_partial_copy_to_xdr
+59b7a83c297ba1bebf46c0d359ecfa1b4c176304 sunrpc: new tracepoints around svc thread wakeups
+83c18ec0ba43538ad6805aab06b5da81dbee7b74 nfsd: Change the type of ek_fsidtype from int to u8 and use kstrtou8
+84d4084e1e193b158afa326c2b7b7fcc18f6fc24 NFSD: Rename a function parameter
+57f9873b2cc9fe7c53358ce29e80b6f54cb12a72 NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort
+75be12deb92ce030c09f486e789d119eae0659f4 NFSD: Remove the cap on number of operations per NFSv4 COMPOUND
+7a7bba274a1fe2292a02e0f681496bad6b599aec NFSD: Remove definition for trace_nfsd_file_unhash_and_queue
+37f9ca98c6352141dad3375c1a811288d6253693 NFSD: Remove definitions for unused trace_nfsd_file_lru trace points
+3781d94f0535f167fb6b37cef7984c2317b0e9e6 NFSD: Remove definition for trace_nfsd_file_gc_recent
+7c54a9eb663083281dc0d3c1c756ad8888a2e204 NFSD: Remove definition for trace_nfsd_ctl_maxconn
+d2c25eba259b7a1ac96e38fa67c66ddb9d108868 NFSD: Clean up kdoc for nfsd_file_put_local()
+52f591c5a863f20b2c8ea0757ccab294f270464a NFSD: Clean up kdoc for nfsd_open_local_fh()
+c678b4f1888892f1af79e64a81fcc90dcc6dd7a0 NFSD: Use vfs_iocb_iter_read()
+047919d577cfc8f87f58ec7cc4c309d7b9715a48 NFSD: Use vfs_iocb_iter_write()
+9014b699dba50ede5fc4b095f207eb10760ab491 NFSD: Avoid multiple -Wflex-array-member-not-at-end warnings
+e7d56b386f88e63554ac4a16b734d9b23c74f15d Revert "NFSD: Force all NFSv4.2 COPY requests to be synchronous"
+c3aa8494bef1342d80103593b48a826c4b420f06 NFSD: Access a knfsd_fh's fsid by pointer
+d3da246dabc8f7100a7d26818d163269be45527e NFSD: Simplify struct knfsd_fh
+e529c08835502a842c05b634e84accf0891dae49 sunrpc: fix handling of unknown auth status codes
+9432edfcb54586f716a2f4ae4e2575c9d13bf764 sunrpc: remove SVC_SYSERR
+ec5c93b95680f62f35eee6e9979b4e434411b34e sunrpc: reset rq_accept_statp when starting a new RPC
+de5ba3b0be057d309e2b72e71a7e34df577733c5 sunrpc: return better error in svcauth_gss_accept() on alloc failure
+c8ccc465eb02ec4cc8e8627534e9938e032408f8 sunrpc: rearrange struct svc_rqst for fewer cachelines
+50074f3b93e69db9c8c5755d0e2f07de7b5f5e1c sunrpc: make svc_tcp_sendmsg() take a signed sentp pointer
+9343e6462c296053df0cfa0a69f435a330b3fbde nfsd: don't set the ctime on delegated atime updates
+009345c59c7b58ea939be62196d7c4fcb7126e23 nfsd: avoid ref leak in nfsd_open_local_fh()
 
---===============6116796700914492606==--
+--===============8607159542288234647==--
