@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6182649012856998218=="
+Content-Type: multipart/mixed; boundary="===============2533976926593035001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 15 Sep 2026 18:19:20 -0000
-Message-Id: <178949636065.2510381.3508053756201177581@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 18:19:23 -0000
+Message-Id: <178949636320.2510593.10983131356220623827@gitolite.kernel.org>
 
---===============6182649012856998218==
+--===============2533976926593035001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 17d3afadf539c93def8106bbb83c88274bdc7ab1
     new: b8e9e7d82e7eefd5d2d528469d94ec20e96b38c3
     log: revlist-17d3afadf539-b8e9e7d82e7e.txt
 
---===============6182649012856998218==
+--===============2533976926593035001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -113,4 +113,4 @@ e8c06b895281ad68b2818c3f0c99b0d7fb79539f tcp: make smp_rmb() conditional in tcp_
 1a523f29fe4f663594926005714a3c10b9c04539 netlink: specs: tcp_metrics: drop the RTT shift instructions
 b8e9e7d82e7eefd5d2d528469d94ec20e96b38c3 selftests: drv-net: devmem: set reuseaddr on the sender's source port
 
---===============6182649012856998218==--
+--===============2533976926593035001==--
