@@ -1,44 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6181891245898243303=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
-Date: Tue, 15 Sep 2026 22:54:10 -0000
-Message-Id: <178951285096.2714405.2609337718179739508@gitolite.kernel.org>
-
---===============6181891245898243303==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Tue, 15 Sep 2026 23:04:15 -0000
+Message-Id: <178951345560.2721593.6096351861170956163@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gerg/m68knommu
-user: gerg
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/dt
-    old: b5ed8ca50661263352c1e60587539803de9bde6a
-    new: 61acdb7bfe2be5241b36a607f7748c818e1cdd3c
-    log: revlist-b5ed8ca50661-61acdb7bfe2b.txt
-
---===============6181891245898243303==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5ed8ca50661-61acdb7bfe2b.txt
-
-dc0d2d7fad4a848bc8fb4f9935d8e165394468a3 m68k: coldfire: support devicetree binding for intc-simr
-547811c452008bd894b7df8afbbcb006b29d25bd m68k: coldfire: support devicetree binding for intc controller
-0e4b7d53f7d3cd4938e34bf2c44981ecba694c44 m68k: coldfire: support devicetree binding for intc-2 controller
-e6a4bd5d98b52ba9236997c65e3d5b1d45c7bc4f m68k: coldfire: add devicetree for mcf5208-evb platform
-18b0be5a6345e53bc5a9c98f8f89cc8685b13b85 m68k: coldfire: add devicetree for mcf5271-evb platform
-9cbbed25fe37a891ad40ec58b939f71b85d18dd1 m68k: coldfire: add devicetree for mcf5475-evb platform
-4e8871f1d07d325c21891afc58d113f64866e974 m68k: coldfire: add devicetree for mcf5275-evb platform
-10827f33f2e7195526294bf87c5b861d23b42907 m68k: coldfire: add devicetree for mcf5307-c3 platform
-194cde59dce056c0a5df19b66524dec7e7f11388 m68k: coldfire: add devicetree for mcf5407-c3 platform
-bc3d3d751b61509a0fb613bc79436f7333b2d919 m68k: coldfire: add devicetree for mcf5272-c3 platform
-4711908025d4c4f8d32d56e5e17a860aee93165d m68k: implement a builtin devicetree for nonmmu
-38e65bf44136f1ccd4aa1a5557ec5d05047b4fb3 m68k: implement a builtin devicetree for mm targets
-84cd5ce18920ea932c202d1d4841fd538962d15e m68k: coldfire: disable platform device tree entries
-61acdb7bfe2be5241b36a607f7748c818e1cdd3c m68k: coldfire: enable devicetree use
-
---===============6181891245898243303==--
+  - ref: refs/heads/b4/ab8500-charging
+    old: dba38b44e1b0d3dcaa8c24a9f0115fb4a91002b3
+    new: f92b868a72444b5b9fd37b0ab811f5adc05f4c53
+    log: |
+         01ab5adacfc4aa82605caf24e6e30ce4e32100d0 power: supply: ab8500_fg: Accept status from supplied power
+         f383d6caeeac448bfaa3fbf6c617349bc5854458 power: supply: ab8500_fg: Report sub-percent charge changes
+         2917a3837bbcb6573cc13f9eaeb95e67852ff4e4 dt-bindings: power: supply: ab8500: Allow AB8505 interrupts
+         f92b868a72444b5b9fd37b0ab811f5adc05f4c53 ARM: dts: ux500: Drop AB8505 main charger interrupts
+         
