@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Sep 2026 03:14:37 -0000
-Message-Id: <178944207759.1823940.1527418800596069887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Tue, 15 Sep 2026 03:23:31 -0000
+Message-Id: <178944261167.1830624.2112093645292498190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 9025f3bf73f0565eaa271ecc15f468b1d1e4cbaa
-    new: 228200f695c0f92c5fd06ff0bdcf94bb0d2ca7f5
+  - ref: refs/heads/master
+    old: 67a911e59eead6d0b375773aa5a0817b9fabe3dc
+    new: c295c24e67a7bd11bb234be99206db2cc8f0ca0f
     log: |
-         228200f695c0f92c5fd06ff0bdcf94bb0d2ca7f5 x86/CPU/AMD: Fix Zen5 TLB sizes reporting
+         c295c24e67a7bd11bb234be99206db2cc8f0ca0f Unbreak compilation without remap support
          
