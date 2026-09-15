@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4084834037667463308=="
+Content-Type: multipart/mixed; boundary="===============4028818627305504274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:30 -0000
-Message-Id: <178943931088.1788312.10243511200450512604@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:35 -0000
+Message-Id: <178943931548.1788424.2281833040882341310@gitolite.kernel.org>
 
---===============4084834037667463308==
+--===============4028818627305504274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,51 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.18-3
-    old: b7e94fc3b6ca7879883d1e03dd7c36e47808b252
-    new: 81eefd495de52a5ca03c7572c089e6c8dcb87540
-    log: revlist-b7e94fc3b6ca-81eefd495de5.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19
+    old: 2d45f7d7bb6543289058a54c2be785a3692fda2c
+    new: 6bdecf02a1b8257a26734c9463c5c4a2f44e3c1d
+    log: revlist-2d45f7d7bb65-6bdecf02a1b8.txt
 
---===============4084834037667463308==
+--===============4028818627305504274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7e94fc3b6ca-81eefd495de5.txt
+Content-Disposition: attachment; filename=revlist-2d45f7d7bb65-6bdecf02a1b8.txt
 
-769723124b7c3b2bfea4cf68ad292698b87c8d01 ipv6: ioam: refresh hdr pointer before ioam6_event()
-b8ab30c79fc00147125b9c39f928561d9dd13d06 mm/memory_hotplug: fix memory block reference leak on remove
-898ea8abfa10d4f69c68ac57703d8240cd9b531d selftests/mm: run_vmtests.sh: fix destructive tests invocation
-583fd5a8fc797c8ecf2e1a7b923740c5e5734e85 net: wwan: iosm: fix potential memory leaks in ipc_imem_init()
-87c543e2f78d0871f271df92dab98901bbd5b6f5 Bluetooth: fix UAF in l2cap_sock_cleanup_listen() vs l2cap_conn_del()
-39f4a82e80c8f5ed2d6952d73fbafc895721a728 Bluetooth: ISO: drop ISO_END frames received without prior ISO_START
-b21805258d7e926adfd455fc820a447b90da3b82 Bluetooth: bnep: Fix UAF read of dev->name
-81c7a3c22a0f2808cf4ae0b4908f59763b23606d Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths
-ed5fcd2a26f0c16fc289c8cd6b03328a0582a687 Bluetooth: L2CAP: ecred_reconfigure: send packed pdu, not stack pointer
-a6c75a3fad226ccbd8ef9110dee87c92c299f2ab Bluetooth: MGMT: validate Add Extended Advertising Data length
-85f8674cae82053f1e6bab295f6a8422cca14db5 Bluetooth: serialize accept_q access
-bd795f106b3889fb0706c6e4831c4b27e2b5666b phonet/pep: disable BH around forwarded sk_receive_skb()
-a212fc08f5c48a16a94092bf0a9a8b7cf4483b11 net: bcmgenet: keep RBUF EEE/PM disabled
-301a554e458e2f5ec47f2c336a7cb03b877f9fd6 net: ifb: report ethtool stats over num_tx_queues
-11de9b935377c6dc73c58ec60208dfd185967dc9 net: pse-pd: fix sign on -ENOENT check in of_load_pse_pis()
-db0250470f023f159094052c0bd5ab026a88ae93 netfilter: ip6t_hbh: reject oversized option lists
-3823c27099cfe2482299065814adbaa771be9644 netfilter: nf_queue: hold bridge skb->dev while queued
-02f75f041a93ea045834da89cd3234f4c1d749b4 netfilter: ipset: stop hash:* range iteration at end
-870d59e2cf218e7418491e26bad768cb16654582 netfilter: nft_inner: Fix IPv6 inner_thoff desync
-ccf6754887b42c98b2cb4bb45072f11603f598f6 sched_ext: Fix missing warning in scx_set_task_state() default case
-cf396941901858b0de426cdcd3974eea6a02c98c sched_ext: Avoid UAF in scx_root_enable_workfn() init failure path
-5d1bfb716421d7bf2f9a5dfd6950555e46b738d7 cgroup/cpuset: Reset DL migration state on can_attach() failure
-3a718675d6af4992e34ffe86b8f36d471a5afe0e fs/ntfs3: handle attr_set_size() errors when truncating files
-5e40919a40cb3e590ed45c2a54a4a2518aa88a99 l2tp: use list_del_rcu in l2tp_session_unhash
-bdf678a273cadbccc347f331ae2e93ff4d14834c qed: fix double free in qed_cxt_tables_alloc()
-e513591bce4c39f056d30faff7c5ed4247c9d0c0 ring-buffer: Fix reporting of missed events in iterator
-902daac307eb7e1955ce05b071950f3cba88c963 ipv6: ioam: add NULL check for idev in ipv6_hop_ioam()
-47e63077605c6c2aa45b3df9847a8cdc1f1f6ef9 vsock/vmci: fix UAF when peer resets connection during handshake
-06fa755325df9f2b0a8701bf0a56586d0e84f7c6 vsock/virtio: reset connection on receiving queue overflow
-5a999541a29067e4c3a5c4c18fec2d199ddde74b wifi: ath11k: clear shared SRNG pointer state on restart
-145e9afa5b905229b4788bb72c3255f5a5f77508 ipv4: raw: reject IP_HDRINCL packets with ihl < 5
-a244395d8c563ed1bb26c3ef708db6aeeaa08084 ixgbevf: fix use-after-free in VEPA multicast source pruning
-3427d7ae38337066ce88b68302e285d344ab756b rbd: eliminate a race in lock_dwork draining on unmap
-82d3acee88593e3d9e71cad4b7d6b3cf70de9d07 lsm: hold cred_guard_mutex for lsm_set_self_attr()
 8201bf45cc7c1c1a09290c4db8ab1e19801f8fec octeontx2-af: CGX: add bounds check to cgx_speed_mbps index
 f3c21a62be39d48e6337137cd52906b8ad6722df ice: fix setting promisc mode while adding VID filter
 77ad1b13dce2acffa07861bc7e8a662ba7e956f7 ice: restore PTP Rx timestamp config after ethtool set-channels
@@ -1050,5 +1016,39 @@ ae96c19880b56ec23727d9779d7d62c76f2ee720 NFSD: Define actions for the new time_d
 5428544b760bd3b74542add790236a73567af287 NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
 545907d252e9e6fe7d7bc3a688e855a7345c115b nfsd: ensure SEQUENCE replay sends a valid reply.
 81eefd495de52a5ca03c7572c089e6c8dcb87540 Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
+b16158524ed1968022c13b700a6cbd2b55c70fca svcrdma: Release transport resources synchronously
+39e658c04f48253b42038b70e1f942ea23e520d2 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+854b561699b11b45ce5a002b3a9675f6b3784c64 NFSD: Add array bounds-checking in nfsd_iter_read()
+72b72c4f6116c2ee82204c643a69e0ce0a0fdf05 nfsd: delete unreachable confusing code in nfs4_open_delegation()
+8e61a749bf03ad34877acb13043437c99c5fd847 NFSD: Update comment documenting unsupported fattr4 attributes
+1a5582b07338c0c45096af3a9c2a98772b2c1b17 svcrdma: Increase the server's default RPC/RDMA credit grant
+663a41670c14e48dc09600f528c054fcfc966cdb NFSD/blocklayout: Extract extent mapping from proc_layoutget
+177f0427dbd0c567aca7e1a1811c256384df3598 NFSD/blocklayout: Introduce layout content structure
+10e4d95ed7693af7875671f9f7d7febdbe077c2d NFSD/blocklayout: Support multiple extents per LAYOUTGET
+05e8cf1ae385dab349e0f50d91be78308557e9a5 NFSD: pass nfsd_file to nfsd_iter_read()
+7bd6ea60013ee38b3810e775ebbb31ac5a1c66c1 NFSD: Relocate the xdr_reserve_space_vec() call site
+c5ee82698a7c592d28105e8ce5f30d5c3f85aa8c NFSD: Implement NFSD_IO_DIRECT for NFS READ
+2b9b92701ff2d57342ddfcf783aa254ee2538e8d SUNRPC: Improve "fragment too large" warning
+71dfd6fe2276158cf8ec230aad3ae42624b9a005 sunrpc: allocate a separate bvec array for socket sends
+aec08ab1a50f5a45707b3befca00b9d0ce7783b7 NFSD: Add a subsystem policy document
+10a248d73ce039a88a1318c28891070226381a56 NFS: nfsd-maintainer-entry-profile: Inline function name prefixes
+304f5ae5a2b2ed90344bde88b97362c30701f369 nfsd: stop pretending that we cache the SEQUENCE reply.
+466a7102663a73acc99c59bd55dd0a6abc00daf8 nfsd: Use MD5 library instead of crypto_shash
+87033151a45c11480f957227622350fd6e31c306 MAINTAINERS: add a nfsd blocklayout reviewer
+7bc893c9d251826ac2071ded4f64a8a691b5a14b lockd: don't allow locking on reexported NFSv2/3
+8b80dc161c4c4c25f77076e2dbbedb1987f9cdd2 xdrgen: Generalize/harden pathname construction
+161ccaa791162c18d541ff6435db3b8f049bfabe xdrgen: Make the xdrgen script location-independent
+590a9901e6fdc9c5fed0fb0f7fd35aad6637f85e xdrgen: Fix the variable-length opaque field decoder template
+207d45bf859dfa79a597d2924c04d45550752d9c xdrgen: handle _XdrString in union encoder/decoder
+6575ba043a8a66c5dc1cc87892edf393e8f19d03 NFSD: don't start nfsd if sv_permsocks is empty
+1f6825009318df0051d212560b4410106f882196 xdrgen: Fix union declarations
+8a98b5fbeba172bc081d66ea88014ccceceac298 xdrgen: Don't generate unnecessary semicolon
+fad4dd9d69d3775068d426e9252fa7f1f62b5941 NFSD: Add trace point for SCSI fencing operation.
+ff84ad7e50452a5b63315c05c4617bfb2a09a90f NFSD: Make FILE_SYNC WRITEs comply with spec
+c46286820b586c27afd7ea35dff61c74d66403eb NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+7c4c4e204c913c6084ed3056abaa4f9f17570b93 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+40aa5a72bc48cf6dfb345a9d127d8adb09af4b68 NFSD: Add toctree entry for NFSD IO modes docs
+d19eed5b312d276c2b7b703e6084fdd924d26f45 NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
+6bdecf02a1b8257a26734c9463c5c4a2f44e3c1d NFSD: nfsd-io-modes: Separate lists
 
---===============4084834037667463308==--
+--===============4028818627305504274==--
