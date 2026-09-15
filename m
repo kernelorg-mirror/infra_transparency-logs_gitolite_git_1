@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 15 Sep 2026 18:04:08 -0000
-Message-Id: <178949544818.2498953.3482447761304944513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 15 Sep 2026 18:05:40 -0000
+Message-Id: <178949554030.2502096.12202502562085735782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-7.3
-    old: 930a7312c946bf4731721cadd82bb9a2ada496ca
-    new: 095858324f063dba830041f067872f0a08765d2f
+  - ref: refs/heads/asoc-7.4
+    old: d1a73ad21f963d43592704702c32cb935f5ed7dc
+    new: 323637a0aa19e59490a4449f2ab149d97fc5272d
     log: |
-         095858324f063dba830041f067872f0a08765d2f spi: virtio: Use the per-transfer bits per word
+         b75981e29a5ce42f2938cd66e61612d3a4978ec8 ASoC: codecs: ES8326: Add private members about HPF
+         7502e1fca73162a016025c5d9b5225adea70833f ASoC: codecs: ES8326: Adjust the standby configuration
+         323637a0aa19e59490a4449f2ab149d97fc5272d ASoC: codecs: ES8326: Modify the configuration and add kcontrol
          
