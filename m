@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3780099203044048246=="
+Content-Type: multipart/mixed; boundary="===============8117711678937658597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:10 -0000
-Message-Id: <178943929075.1787758.15373194240902233459@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:14 -0000
+Message-Id: <178943929431.1787887.15190141978035159697@gitolite.kernel.org>
 
---===============3780099203044048246==
+--===============8117711678937658597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-1
-    old: efb14cf6d1d385e5758d2b98cf9610e8ecd8d6f2
-    new: a24932222a7a7b49f819d38aee13dea7754821dc
-    log: revlist-efb14cf6d1d3-a24932222a7a.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-2
+    old: c5280bbb7bf9be12d4c47fc20060c8cb53802fe9
+    new: 176a76e66448198477febd3f4a7f146e69ed3b6d
+    log: revlist-c5280bbb7bf9-176a76e66448.txt
 
---===============3780099203044048246==
+--===============8117711678937658597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efb14cf6d1d3-a24932222a7a.txt
+Content-Disposition: attachment; filename=revlist-c5280bbb7bf9-176a76e66448.txt
 
-c7c0c0f4379dedec12d24dbb9dded5d2db7fd9f2 RDMA/siw: Reject MPA FPDU length underflow before signed receive math
 0d1f6520c50e1d016bc0620aef8b47e39fdc7bfd LoongArch: Remove unused code to avoid build warning
 34bf74b1fd2e4a44e27821a329204caf09df2976 device property: set fwnode->secondary to NULL in fwnode_init()
 7930eee22cd3df61e85be8aa512032ab303b7167 drm/virtio: use uninterruptible resv lock for plane updates
@@ -1050,5 +1049,6 @@ ff00695ba4f897356785ea81aa80e9e3bec0f8a3 NFS: fix writeback in presence of error
 ede8564f2ae6f4ac65760df6424e2fac20b7a50c NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 49eb11a726f63e0cb19218271694d9aec65e99a7 NFS: remove redundant __private attribute from nfs_page_class
 a24932222a7a7b49f819d38aee13dea7754821dc NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
+176a76e66448198477febd3f4a7f146e69ed3b6d NFS: write_completion: dereference loop-local req, not hdr->req
 
---===============3780099203044048246==--
+--===============8117711678937658597==--
