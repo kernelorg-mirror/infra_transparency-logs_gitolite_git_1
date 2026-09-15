@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6622794837380796888=="
+Content-Type: multipart/mixed; boundary="===============1372275659975604444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Sep 2026 07:23:41 -0000
-Message-Id: <178945702160.2003357.1496289654364405692@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 07:24:04 -0000
+Message-Id: <178945704406.2003721.13963148264250385804@gitolite.kernel.org>
 
---===============6622794837380796888==
+--===============1372275659975604444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9c7a931490f5c46385ade25560983e12e5acbac8
-    new: 7d887a0cf5cdd6defc863a62387b3be17ee96730
-    log: revlist-9c7a931490f5-7d887a0cf5cd.txt
+    old: 7d887a0cf5cdd6defc863a62387b3be17ee96730
+    new: aaa5c4c8b55bae80380af16fee39bb28ce9644b8
+    log: revlist-7d887a0cf5cd-aaa5c4c8b55b.txt
+  - ref: refs/heads/tip/urgent
+    old: 19440e4ad0391d0418e27b430b5265f0541e3c1b
+    new: 2c6524347e47b471d144a8e65572acdddb3ec26c
+    log: revlist-19440e4ad039-2c6524347e47.txt
 
---===============6622794837380796888==
+--===============1372275659975604444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c7a931490f5-7d887a0cf5cd.txt
+Content-Disposition: attachment; filename=revlist-7d887a0cf5cd-aaa5c4c8b55b.txt
+
+2c6524347e47b471d144a8e65572acdddb3ec26c Merge branch into tip/master: 'x86/mm'
+249cafce555f57f8572ab4af70bfa96a97718e5b Merge branch into tip/master: 'irq/core'
+f886e7b1fe102ec3e8bc51a1509f4d114c141d58 Merge branch into tip/master: 'irq/drivers'
+db9f80015c49ad3b8723167c445f49c7f7a7b157 Merge branch into tip/master: 'perf/core'
+c2f0b5ef50c10feb70e020720a09b8d9ddbb128e Merge branch into tip/master: 'sched/core'
+cf958f2a618eaeba0f55e76fff0ca1cc2a2d2af1 Merge branch into tip/master: 'x86/boot'
+c2ffccef5f7b999d3dbd0db4fe3e105c1bed2d5b Merge branch into tip/master: 'x86/bugs'
+8c8fd06ceb3e1e28bae8fc396adac41fde3258c2 Merge branch into tip/master: 'x86/cache'
+e1ae1baae16c6c6dbdef57db4c1c9e36cb36b7c5 Merge branch into tip/master: 'x86/cpu'
+b367def0154fab6f227def17cfc84199e0ccc0db Merge branch into tip/master: 'x86/kdump'
+6b68e9fda6520207edec24809e5885afac19ee63 Merge branch into tip/master: 'x86/misc'
+a89f1e4731b3757942f450b49fcadd216eb5cc21 Merge branch into tip/master: 'x86/sgx'
+aaa5c4c8b55bae80380af16fee39bb28ce9644b8 Merge branch into tip/master: 'x86/tdx'
+
+--===============1372275659975604444==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-19440e4ad039-2c6524347e47.txt
 
 32cd87f54dd1070020e664ccb0312a9f0fea79b4 RDMA/siw: Clear association under lock if siw_qp_modify fails in siw_accept
 ae36a5b609ae79f4de966328b78d2584be9719a4 RDMA/rxe: validate access flags before swapping the MR's PD
@@ -77,6 +101,6 @@ ebb58ec7f8539450804741d974acbb985da0f071 Merge tag 'fixes-2026-09-14' of git://g
 01414b70cb6f7a5911b65de0cc97225061f60a59 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 59826bc5a42a5e85dc21d4cdf3892f22dcda65f8 Merge tag '9p-for-7.3-rc4' of https://github.com/martinetd/linux
 587858367581b9c55c3690f4e63382ad622719d4 Merge tag 'nfsd-7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-7d887a0cf5cdd6defc863a62387b3be17ee96730 Merge branch 'linus'
+2c6524347e47b471d144a8e65572acdddb3ec26c Merge branch into tip/master: 'x86/mm'
 
---===============6622794837380796888==--
+--===============1372275659975604444==--
