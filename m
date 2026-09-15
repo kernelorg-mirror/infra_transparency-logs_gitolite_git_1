@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5808406767637459106=="
+Content-Type: multipart/mixed; boundary="===============7615358118502481385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:24 -0000
-Message-Id: <178943924470.1786138.2658052724304967628@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:27:27 -0000
+Message-Id: <178943924765.1786252.13181783622079924771@gitolite.kernel.org>
 
---===============5808406767637459106==
+--===============7615358118502481385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/improvements
-    old: 3cc51d84aac457733eb2639564afd1d82630d4bd
-    new: 58710d3a9e21b66ffcded314b7c28abed7f688b3
-    log: revlist-3cc51d84aac4-58710d3a9e21.txt
+  - ref: refs/heads/kernel-6.12.93/nvme
+    old: 355f176ba3cc2e034a567925e8f99627aee3b77e
+    new: f9ac85e324908d6e26460910ef0fc9d5fc3faf09
+    log: revlist-355f176ba3cc-f9ac85e32490.txt
 
---===============5808406767637459106==
+--===============7615358118502481385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cc51d84aac4-58710d3a9e21.txt
+Content-Disposition: attachment; filename=revlist-355f176ba3cc-f9ac85e32490.txt
 
+36cd4288bd711df71b08a82f5449ce2b85fa9ac0 crypto: qat - fix type mismatch in RAS sysfs show functions
+39b313e32a62b3a3ec80b8352039961da59ba6e5 crypto: qat - use swab32 macro
+15e7b2ac2455995a6af02b9d3da7a432837aaf72 ASoC: rsnd: Fix potential out-of-bounds access of component_dais[]
+f2e27c87d18358fd67898398cac37ba224a90cf1 PCI: Enable AtomicOps only if Root Port supports them
+946b31b5a699a2760ee52af0055e5ebf29c5f4cb PCI: mediatek-gen3: Prevent leaking IRQ domains when IRQ not found
+d0e8fde29012cb9b7e72a835a0094764992bd3a8 selftests/mm: skip migration tests if NUMA is unavailable
+be4c0d53cdd12c03e27158cf964c2fc1bd35f451 Documentation: fix a hugetlbfs reservation statement
+a52f3a289fdee070d4c6e2be82f32a5026547e10 selftest: memcg: skip memcg_sock test if address family not supported
+26ded8384cfa1a6f122d8d1ebc86a657feab7c46 ALSA: scarlett2: Add missing sentinel initializer field
+c1f0f2995e9789f8611cd6cd25ea92cbef588538 ASoC: SOF: compress: return the configured codec from get_params
+8e33470f2dc95b572079adb3120858d5766e6c7d PCI/NPEM: Set LED_HW_PLUGGABLE for hotplug-capable ports
+684a04c3ce423aa84521e8a20de0063a44627fac PCI: tegra194: Fix polling delay for L2 state
+d53deaac384a4f364a148477fbc870fdfecf785c PCI: tegra194: Increase LTSSM poll time on surprise link down
+0d089ac27b861ba1a78dcf69a41f06f391bd2e34 PCI: tegra194: Disable LTSSM after transition to Detect on surprise link down
+a826440462f0c23ab3f51106d285b2c9a3dc0210 PCI: tegra194: Rename 'root_bus' to 'root_port_bus' in tegra_pcie_downstream_dev_to_D0()
+904da4cbf9bfebe0ca8f3438c480f4d946c99d2c PCI: tegra194: Don't force the device into the D0 state before L2
+8c9d5557c8e64992024b8242050928e9ab0fa271 PCI: tegra194: Disable PERST# IRQ only in Endpoint mode
+1e2f7603c3784b1359e8bdbbb6b606b0a1c6d355 PCI: tegra194: Use devm_gpiod_get_optional() to parse "nvidia,refclk-select"
+f832f1633623c746b7c9ded41971f0a7e746324c PCI: tegra194: Disable direct speed change for Endpoint mode
 2e1d6aa514c7e3317e24d452ed0670577d44bc57 PCI: tegra194: Set LTR message request before PCIe link up in Endpoint mode
 03a4034476f2d38d82695f64bd4b987c70460c73 PCI: tegra194: Allow system suspend when the Endpoint link is not up
 de3ccab61eefebf56b716976a535aa1d2880744f PCI: tegra194: Free up Endpoint resources during remove()
@@ -1027,28 +1046,9 @@ b7b72e88046328c9fdc638fe887d4240257dd5dc KVM: arm64: vgic-its: Drop the translat
 1d3a00d3bacff25652c96e1527610c69e91f7c38 Linux 6.12.93
 e4809f35ba82ac087f6583bd7ee0664c6ede1a25 Merge tag 'v6.12.93' into kernel-6.12.93/baseline
 d6aa355b2401ccf57aca83bed3d785cb3c02a9cd kernel-6.12.93-0
-e4ab9ee355b20acf70cdb4211dfb9518d5689e4f redhat/kernel.spec: fix kernel_meta_package
-bc98292900b7effd73ce129b6488caf74ed24bd8 redhat/kernel.spec: for .el8 verify that gettid() is missing
-4e58183d268144bc32753de46aa5ed779e5bea47 PCI: Batch BAR sizing operations
-5cf26fd13653d4fefb0987dedcb01469961971ed PCI: Fix BUILD_BUG_ON usage for old gcc
-ebd6541763bd6fdf7c4e2d35c8c25fafb8d5e654 arm/bL_switcher: Use kthread_run_on_cpu()
-dbdc4ffd66628f03d80056a13547abdc6e546f24 soc/qman: test: Use kthread_run_on_cpu()
-837febf61e88ad1fd8c5a0e6c77dee1235da7bfd kallsyms: Use kthread_run_on_cpu()
-2289669aad365fa4ca3794a4b6cc2b28627627c0 lib: test_objpool: Use kthread_run_on_cpu()
-ccfb7eaf06e5ce3e7e29ea8206a1d77740914902 arm64: Exclude nohz_full CPUs from 32bits el0 support
-93e1450e5303f9b6b5db2aa0470319e2394d2f36 sched,arm64: Handle CPU isolation on last resort fallback rq selection
-d8723cafcca729115e83d8f695db1ca503ee49a9 kthread: Make sure kthread hasn't started while binding it
-8bfcfe62bd6b3783bdea4beb4eeee6308b726182 kthread: Default affine kthread to its preferred NUMA node
-66e29a3feff06ee2c6cef8dfe3bc39532c613489 mm: Create/affine kcompactd to its preferred node
-1225d406b235ef15f8a7e9b8cffe6687ba223f53 mm: Create/affine kswapd to its preferred node
-52424d76e12babf2bba2b72a9f6bb0259ddbf491 kthread: Implement preferred affinity
-da537635d5f6311ed2de945d769ea1b0617d07ed rcu: Use kthread preferred affinity for RCU boost
-ecfdb14f66450f23f80bba853f0aefaf2c730a99 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
-23cbbdc0c5e70a00974a8f6c63c17c0e1abd70b3 treewide: Introduce kthread_run_worker[_on_cpu]()
-1ae47d5de93be98ff428522907324b826a5e1975 rcu: Use kthread preferred affinity for RCU exp kworkers
-7d0dd3c75bbcc2673b85630170f37db2ba9bb7f5 kthread: modify kernel-doc function name to match code
-57990070c7d61fe15a5f8e32c9c39c3129c04072 crypto: x86/crc32c - simplify code for handling fewer than 200 bytes
-21a1023ecbaec50cee7e8eabd2dfdfe48edb813a crypto: x86/crc32c - access 32-bit arguments as 32-bit
-58710d3a9e21b66ffcded314b7c28abed7f688b3 crypto: x86/crc32c - eliminate jump table and excessive unrolling
+2f9504809938dbdc228146aaf099b67ff2568257 redhat/kernel.spec: fix kernel_meta_package
+18b032bd5b08f8baca9dea82aebe97662b438f57 redhat/kernel.spec: for .el8 verify that gettid() is missing
+6d5afc7993645d9f5cff1704de2c2e69e7b23a67 Reapply "nvme: make keep-alive synchronous operation"
+f9ac85e324908d6e26460910ef0fc9d5fc3faf09 Revert "nvme-fabrics: fix kernel crash while shutting down controller"
 
---===============5808406767637459106==--
+--===============7615358118502481385==--
