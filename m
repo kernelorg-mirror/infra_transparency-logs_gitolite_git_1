@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7615358118502481385=="
+Content-Type: multipart/mixed; boundary="===============1796011995345602999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:27:27 -0000
-Message-Id: <178943924765.1786252.13181783622079924771@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:27:31 -0000
+Message-Id: <178943925118.1786362.6198079597253918649@gitolite.kernel.org>
 
---===============7615358118502481385==
+--===============1796011995345602999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nvme
-    old: 355f176ba3cc2e034a567925e8f99627aee3b77e
-    new: f9ac85e324908d6e26460910ef0fc9d5fc3faf09
-    log: revlist-355f176ba3cc-f9ac85e32490.txt
+  - ref: refs/heads/kernel-6.12.93/mm
+    old: adce37b65d68c449fa1111f3f103ae88e8e187f0
+    new: 594eb13a82a909b2d53357f4adecb231d78001b1
+    log: revlist-adce37b65d68-594eb13a82a9.txt
 
---===============7615358118502481385==
+--===============1796011995345602999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-355f176ba3cc-f9ac85e32490.txt
+Content-Disposition: attachment; filename=revlist-adce37b65d68-594eb13a82a9.txt
 
-36cd4288bd711df71b08a82f5449ce2b85fa9ac0 crypto: qat - fix type mismatch in RAS sysfs show functions
 39b313e32a62b3a3ec80b8352039961da59ba6e5 crypto: qat - use swab32 macro
 15e7b2ac2455995a6af02b9d3da7a432837aaf72 ASoC: rsnd: Fix potential out-of-bounds access of component_dais[]
 f2e27c87d18358fd67898398cac37ba224a90cf1 PCI: Enable AtomicOps only if Root Port supports them
@@ -1046,9 +1045,10 @@ b7b72e88046328c9fdc638fe887d4240257dd5dc KVM: arm64: vgic-its: Drop the translat
 1d3a00d3bacff25652c96e1527610c69e91f7c38 Linux 6.12.93
 e4809f35ba82ac087f6583bd7ee0664c6ede1a25 Merge tag 'v6.12.93' into kernel-6.12.93/baseline
 d6aa355b2401ccf57aca83bed3d785cb3c02a9cd kernel-6.12.93-0
-2f9504809938dbdc228146aaf099b67ff2568257 redhat/kernel.spec: fix kernel_meta_package
-18b032bd5b08f8baca9dea82aebe97662b438f57 redhat/kernel.spec: for .el8 verify that gettid() is missing
-6d5afc7993645d9f5cff1704de2c2e69e7b23a67 Reapply "nvme: make keep-alive synchronous operation"
-f9ac85e324908d6e26460910ef0fc9d5fc3faf09 Revert "nvme-fabrics: fix kernel crash while shutting down controller"
+f8af8426d612c5e11ce365df6196d58fc070d38b redhat/kernel.spec: fix kernel_meta_package
+f6d7a4f9ea6967ed6aa2b8a82102f3cca0811d52 redhat/kernel.spec: for .el8 verify that gettid() is missing
+582b002fc50242b08ec34837ac0e4214a59d168f filemap: filemap_read() should check that the offset is positive or zero
+eea9575073ceafa036dae93e60878f6b1c1f7c0d mm/filemap: don't call folio_test_locked() without a reference in next_uptodate_folio()
+594eb13a82a909b2d53357f4adecb231d78001b1 filemap: move prefaulting out of hot write path
 
---===============7615358118502481385==--
+--===============1796011995345602999==--
