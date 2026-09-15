@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Tue, 15 Sep 2026 05:41:02 -0000
-Message-Id: <178945086268.1927275.10276620943065805732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
+Date: Tue, 15 Sep 2026 05:44:49 -0000
+Message-Id: <178945108965.1928375.11620337237630722645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/mm/memblock
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: 4d86ce4a880b99803f1f8ff00fc7b9ec9a8f9368
-    new: d1f26fce5902999fc914af1f51a64ebfa4463725
+  - ref: refs/heads/for-next
+    old: 07ae2801241e1324e6ad2cc0102ad125d36712a9
+    new: 5728d3523f12826a2b180c1c5738f74e33197e14
     log: |
-         d1f26fce5902999fc914af1f51a64ebfa4463725 Update README.security with current changes
+         5728d3523f12826a2b180c1c5738f74e33197e14 memblock: reject non-page-aligned reserve_mem regions
          
