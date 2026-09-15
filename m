@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2591912694924029189=="
+Content-Type: multipart/mixed; boundary="===============7985357807465085163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 15 Sep 2026 02:28:01 -0000
-Message-Id: <178943928188.1787307.18344351301221885742@gitolite.kernel.org>
+Date: Tue, 15 Sep 2026 02:28:04 -0000
+Message-Id: <178943928497.1787494.7087713977816746700@gitolite.kernel.org>
 
---===============2591912694924029189==
+--===============7985357807465085163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,74 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-2
-    old: c634b0f2ffa0904d526119b3b484d6e490f8ae47
-    new: 4c8e6bc741dd62ca5ea92d7dd507254df747d776
-    log: revlist-c634b0f2ffa0-4c8e6bc741dd.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-1
+    old: 79bd36fe7c6055abaca56a57531c8a26c1324258
+    new: 38d031be81b2af0ac30989e7f03199ab7f4e9e30
+    log: revlist-79bd36fe7c60-38d031be81b2.txt
 
---===============2591912694924029189==
+--===============7985357807465085163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c634b0f2ffa0-4c8e6bc741dd.txt
+Content-Disposition: attachment; filename=revlist-79bd36fe7c60-38d031be81b2.txt
 
-21a8aa77c2ff439b631ffd1856017aa1d5d32ed4 net/mlx5e: Trigger neighbor resolution for unresolved destinations
-8c7d9f3ca1f3d7bb62d3ccb5c4447ed66321bf57 net/mlx5e: Use ip6_dst_lookup instead of ipv6_dst_lookup_flow for MAC init
-77cc16f889938f3f72989e01f8cd5ae1c645ee4f x86/fgraph: Fix return_to_handler regs.rsp value
-5869f7eb3428ea3449311089d5b0039056a4d5a0 iommu/vt-d: Draining PRQ in sva unbind path when FPD bit set
-eda3d0d1b56bf2d6311ac3ebdd8efb6e3696cafb riscv: fgraph: Select HAVE_FUNCTION_GRAPH_TRACER depends on HAVE_DYNAMIC_FTRACE_WITH_ARGS
-7ed384db061a264bd806898f7ccab9b98b591488 riscv: fgraph: Fix stack layout to match __arch_ftrace_regs argument of ftrace_return_to_handler
-acf04e2863132f6d9222f71f3a76fb9782cbe061 hwmon: (pmbus/core) Protect regulator operations with mutex
-9d651c29530b1944970f8eced30b2637d5c9ce7e arm64: Kconfig: Remove selecting replaced HAVE_FUNCTION_GRAPH_RETVAL
-57b285e0368290aa55f79ba11419b96d0ebdb418 sysfs: don't remove existing directory on update failure
-30a361be33f3793b9ecbd10ab7be6d0564819b79 mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
-0836081b394ca074d1b910f2b990ff7b4b4404c7 ksmbd: fix null pointer dereference in compare_guid_key()
-519fb0a42ce5d7e46935577309fb282a5f2c6ea3 ksmbd: fix SID memory leak in set_posix_acl_entries_dacl() on overflow
-f0e5c9c663badc9982e6941322eef1cb17de0f11 ksmbd: validate SID in parent security descriptor during ACL inheritance
-a3238b09c58f323e40743ce174cd0ab81b5c09ed smb: client: require net admin for CIFS SWN netlink
-13fb413ae22a37c69341918a6d651d19a9b0b9b7 smb: client: protect tc_count increment in smb2_find_smb_sess_tcon_unlocked()
-6f10c47b159705acdb6e8a3e15d3df42931cca51 smb: client: use data_len for SMB2 READ encrypted folioq copy
-7a5d2fadee710219ec89e5ad775f25264d300c74 smb/server: promote S_DEL_ON_CLS to S_DEL_PENDING when close
-2b7a698d5093b548c464828d984f05ced5f3fd2a hwmon: (pmbus/adm1266) widen blackbox-info buffer to I2C_SMBUS_BLOCK_MAX
-be81fc4e8f9af734e39bd2cbf67327b769043f98 ALSA: ua101: Reject too-short USB descriptors
-ce836587e594af39ff048d9b29dee0f5f10692c9 ALSA: pcm: Don't setup bogus iov_iter for silencing
-8778386e4387b28f2bf8425d7ffc667c6294457f ALSA: asihpi: Fix potential OOB array access at reading cache
-6996e954ae830f5b793ba6cf449885ca519dbdd2 efi: Allocate runtime workqueue before ACPI init
-954518e5a4a5efc5033253f6e36fc7b9f98363a3 io_uring/waitid: clear waitid info before copying it to userspace
-ce60d9452a0f2effa72fd20ea270c59ca691d455 drivers/base/memory: fix memory block reference leak in poison accounting
-769723124b7c3b2bfea4cf68ad292698b87c8d01 ipv6: ioam: refresh hdr pointer before ioam6_event()
-b8ab30c79fc00147125b9c39f928561d9dd13d06 mm/memory_hotplug: fix memory block reference leak on remove
-898ea8abfa10d4f69c68ac57703d8240cd9b531d selftests/mm: run_vmtests.sh: fix destructive tests invocation
-583fd5a8fc797c8ecf2e1a7b923740c5e5734e85 net: wwan: iosm: fix potential memory leaks in ipc_imem_init()
-87c543e2f78d0871f271df92dab98901bbd5b6f5 Bluetooth: fix UAF in l2cap_sock_cleanup_listen() vs l2cap_conn_del()
-39f4a82e80c8f5ed2d6952d73fbafc895721a728 Bluetooth: ISO: drop ISO_END frames received without prior ISO_START
-b21805258d7e926adfd455fc820a447b90da3b82 Bluetooth: bnep: Fix UAF read of dev->name
-81c7a3c22a0f2808cf4ae0b4908f59763b23606d Bluetooth: hci_uart: fix UAFs and race conditions in close and init paths
-ed5fcd2a26f0c16fc289c8cd6b03328a0582a687 Bluetooth: L2CAP: ecred_reconfigure: send packed pdu, not stack pointer
-a6c75a3fad226ccbd8ef9110dee87c92c299f2ab Bluetooth: MGMT: validate Add Extended Advertising Data length
-85f8674cae82053f1e6bab295f6a8422cca14db5 Bluetooth: serialize accept_q access
-bd795f106b3889fb0706c6e4831c4b27e2b5666b phonet/pep: disable BH around forwarded sk_receive_skb()
-a212fc08f5c48a16a94092bf0a9a8b7cf4483b11 net: bcmgenet: keep RBUF EEE/PM disabled
-301a554e458e2f5ec47f2c336a7cb03b877f9fd6 net: ifb: report ethtool stats over num_tx_queues
-11de9b935377c6dc73c58ec60208dfd185967dc9 net: pse-pd: fix sign on -ENOENT check in of_load_pse_pis()
-db0250470f023f159094052c0bd5ab026a88ae93 netfilter: ip6t_hbh: reject oversized option lists
-3823c27099cfe2482299065814adbaa771be9644 netfilter: nf_queue: hold bridge skb->dev while queued
-02f75f041a93ea045834da89cd3234f4c1d749b4 netfilter: ipset: stop hash:* range iteration at end
-870d59e2cf218e7418491e26bad768cb16654582 netfilter: nft_inner: Fix IPv6 inner_thoff desync
-ccf6754887b42c98b2cb4bb45072f11603f598f6 sched_ext: Fix missing warning in scx_set_task_state() default case
-cf396941901858b0de426cdcd3974eea6a02c98c sched_ext: Avoid UAF in scx_root_enable_workfn() init failure path
-5d1bfb716421d7bf2f9a5dfd6950555e46b738d7 cgroup/cpuset: Reset DL migration state on can_attach() failure
-3a718675d6af4992e34ffe86b8f36d471a5afe0e fs/ntfs3: handle attr_set_size() errors when truncating files
-5e40919a40cb3e590ed45c2a54a4a2518aa88a99 l2tp: use list_del_rcu in l2tp_session_unhash
-bdf678a273cadbccc347f331ae2e93ff4d14834c qed: fix double free in qed_cxt_tables_alloc()
-e513591bce4c39f056d30faff7c5ed4247c9d0c0 ring-buffer: Fix reporting of missed events in iterator
-902daac307eb7e1955ce05b071950f3cba88c963 ipv6: ioam: add NULL check for idev in ipv6_hop_ioam()
-47e63077605c6c2aa45b3df9847a8cdc1f1f6ef9 vsock/vmci: fix UAF when peer resets connection during handshake
-06fa755325df9f2b0a8701bf0a56586d0e84f7c6 vsock/virtio: reset connection on receiving queue overflow
-5a999541a29067e4c3a5c4c18fec2d199ddde74b wifi: ath11k: clear shared SRNG pointer state on restart
-145e9afa5b905229b4788bb72c3255f5a5f77508 ipv4: raw: reject IP_HDRINCL packets with ihl < 5
-a244395d8c563ed1bb26c3ef708db6aeeaa08084 ixgbevf: fix use-after-free in VEPA multicast source pruning
-3427d7ae38337066ce88b68302e285d344ab756b rbd: eliminate a race in lock_dwork draining on unmap
 82d3acee88593e3d9e71cad4b7d6b3cf70de9d07 lsm: hold cred_guard_mutex for lsm_set_self_attr()
 8201bf45cc7c1c1a09290c4db8ab1e19801f8fec octeontx2-af: CGX: add bounds check to cgx_speed_mbps index
 f3c21a62be39d48e6337137cd52906b8ad6722df ice: fix setting promisc mode while adding VID filter
@@ -1050,5 +993,62 @@ c580f61c40a8d0b3717a2d51e21bfc45d27c38d8 SUNRPC: cleanup common code in backchan
 b1aa1269d8b2113afef29a67d2f1dd32423f0594 NFS/localio: Stop further I/O upon hitting an error
 f33953aa25d0f93c5d6bb617c799351c4638fb99 NFS/localio: Deal with page bases that are > PAGE_SIZE
 4c8e6bc741dd62ca5ea92d7dd507254df747d776 NFS: Fix size read races in truncate, fallocate and copy offload
+59c0634ca378354723b8c8160cb87c0f256ffb6b NFS: remove __nfs_client_for_each_server
+beac03f7f74e24e9b79e00454cfdabc3e5f20348 NFS: remove nfs_client_mark_return_unused_delegation_types
+dfb8129c38916011bf4f5e252d4b23c37a7cb78c NFS: remove nfs_client_mark_return_all_delegations
+ec6b72cf60580d40bc1239af83b092c5835f6d79 NFS: remove the NULL inode check in nfs4_inode_return_delegation_on_close
+f0e79787c0a9b9612e8fa65920d5e72c26df39fc NFS: remove nfs_inode_detach_delegation
+7fa0ed638c7815c5a44b57772cbb04c4d833ae67 NFS: remove nfs_start_delegation_return
+c46e9da7e3990f8b1cfec31a3f4068f604b06df8 NFS: assert rcu_read_lock is held in nfs_start_delegation_return_locked
+7f2e5b0d7a5c7959ae6e1eab7628a5db91bc4d93 NFS: drop the _locked postfix from nfs_start_delegation_return
+7242ecc97f8823261fe1e493ec7cc850afc80ecd NFS: remove NFS_DELEGATION_INODE_FREEING
+fb75031152b649a2a788062a74cce2a4abe7cbb5 NFS: open code nfs_delegation_need_return
+71e1f6f2a1893257b160f4e20d30feb089b86be9 NFS: remove nfs_free_delegation
+9f9907bf15ba97775d5207c07a117c3c7ef0ae11 NFS: rewrite nfs_delegations_present in terms of nr_active_delegations
+ca6c3f632fde049450970c7212c7846f7b843b78 NFS: move delegation lookup into can_open_delegated
+4afd88bfbe7985a331ac2b85f1086c52e7673673 NFS: return bool from nfs_detach_delegation{,_locked}
+14279c9d6405a93ff100dfc18e88dfdca1e0ad93 NFS: move the deleg_cur check out of nfs_detach_delegation_locked
+af3a71dbdfd63b4f2679f354e4202785302c8a06 NFS: simplify the detached delegation check in update_open_stateid
+5ea4efb89626bbcf68b8c34aebc91075cff0d315 NFS: take a delegation reference in nfs4_get_valid_delegation
+257f334e1c4983ce63d8d1cbcaa2f203af8347d5 NFS: don't consume a delegation reference in nfs_end_delegation_return
+95f496576c0917128a68732ec26698fbbf61973c NFS: use refcount_inc_not_zero nfs_start_delegation_return
+714ddda6b1cdaaa04652ddae7e7fb5b9cc8f5ef1 NFS: use a local RCU critical section in nfs_start_delegation_return
+986931e098b511ca75880d6cfe5e2b4b051fa8e1 NFS: reformat nfs_mark_delegation_revoked
+6e7a92c467ab33cdaa43fddb3381bcdca2f3f527 NFS: add a separate delegation return list
+4e1966f7852bd6df95629c51ff7cc7756960b5bd NFS: return delegations from the end of a LRU when over the watermark
+a9240ef2c0a70c0c780cf25be9accae79889fd58 NFS: make nfs_mark_return_unreferenced_delegations less aggressive
+95e46ffaf0e0d069758ded5691559be1c3870c2b NFS/localio: Handle short writes by retrying
+c9640d9a7c7fd9ddfd70232d1332c1063f2944d4 NFS/localio: Cleanup the nfs_local_pgio_done() parameters
+d799b87846a47904cae7ee358b798634ba80dd46 NFS/localio: prevent direct reclaim recursion into NFS via nfs_writepages
+85b80cdf28175dc8cf16efe1e3390ef7b6f00ae2 NFS/localio: use GFP_NOIO and non-memreclaim workqueue in nfs_local_commit
+4982c3808d288f1bd0afd1364bea4989c50e6b16 NFS/localio: remove -EAGAIN handling in nfs_local_doio()
+83ea9e7986e2e24716405e692f4989738e6ff908 NFS/localio: switch nfs_local_do_read and nfs_local_do_write to return void
+91b6292787c7efde3e06d2058eb53fd78604ba46 NFS: Move nfs40_call_sync_ops into nfs40proc.c
+7b47bd6b8d6ee65467b91ddfc2f512f741116958 NFS: Split out the nfs40_reboot_recovery_ops into nfs40client.c
+1e7ed042e13131fc8fe206c90013d214264d8fcc NFS: Split out the nfs40_nograce_recovery_ops into nfs40proc.c
+da7b47b6af0dd963a86bd66df7608a6a0cf336aa NFS: Split out the nfs40_state_renewal_ops into nfs40proc.c
+d1ab9cd3faf65df0183a47066b7c0aac3ae23076 NFS: Split out the nfs40_mig_recovery_ops to nfs40proc.c
+bb503162bba0648b99f112747d7d19f8ea932571 NFS: Move the NFS v4.0 minor version ops into nfs40proc.c
+d853a602a646bda49769e66cb5b1892a8e059b3f NFS: Make the various NFS v4.0 operations static again
+20aa48b7739133809b5cabbc2bd59df4e68af278 NFS: Move nfs40_shutdown_client into nfs40client.c
+1d053078cd32212d358114ddfbb59fc1605626b4 NFS: Move nfs40_init_client into nfs40client.c
+86640dd4fcc8ab28a344603244b6d2796ce67b5c NFS: Move NFS v4.0 pathdown recovery into nfs40client.c
+33857089761a6098315a510f2dd57db17d8bf766 NFS: Pass a struct nfs_client to nfs4_init_sequence()
+63c9c0b51ab9eb07d724e32e73a7255ef0858cd3 NFS: Move sequence slot operations into minorversion operations
+35d309501676b928312038683e0ce0b4ba54779b NFS: Add a way to disable NFS v4.0 via KConfig
+42ddd56b05ff1b2d9cf2b92fb04f9f9af463822f NFS: Merge CONFIG_NFS_V4_1 with CONFIG_NFS_V4
+d3b625e0748d0be0ad8e05a11a3d77248df688b7 NFS: return void from nfs4_inode_make_writeable
+78cfff8c98ae55f79d17beec1ad1d5d293664f60 NFS: return void from ->return_delegation
+eeb8e5decb857f0491d08b433bfc419614d2c56b NFS: use bool for the issync argument to nfs_end_delegation_return
+21bb44744bb1027241ada5766d91b09265ea29f0 NFS: remove the delegation == NULL check in nfs_end_delegation_return
+0cbece0184e7eb6c470f95511d4c7f9b78047c23 NFS: fold nfs_abort_delegation_return into nfs_end_delegation_return
+57ed31a093cd10fad79bbe56bf793e1e01528f27 NFS: simplify error handling in nfs_end_delegation_return
+db8683b776c50987d878d8439a84f29340afbca1 NFS: fix delayed delegation return handling
+789cc11244d2040bde9058f0d380b9a9bfa0607c nfs: unify security_inode_listsecurity() calls
+626c18f51fe6d7f1993ea6100d989c3d1c61c81f NFSv4: pass lease period in seconds to nfs4_set_lease_period()
+3b1a5a9b748032c4e8aad1c48f3634fe59b9580f NFSv4: limit lease period in nfs4_set_lease_period()
+804851b547d13e877195308608339f3d428b4bc5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
+20df1082e7efe8f6603e23ceb03f0b659c42073d SUNRPC: Change list definition method
+38d031be81b2af0ac30989e7f03199ab7f4e9e30 nfs: nfs4proc: Convert comma to semicolon
 
---===============2591912694924029189==--
+--===============7985357807465085163==--
