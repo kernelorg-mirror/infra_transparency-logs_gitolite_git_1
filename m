@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 16 Sep 2026 15:08:03 -0000
-Message-Id: <178957128338.3529330.13595526450017436127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 16 Sep 2026 15:10:46 -0000
+Message-Id: <178957144651.3532751.10772906378281300434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/notes/signatures/tar
-    old: fbdfd1b8a7eaedbba8ea85f761f11fd1f46b97b7
-    new: 991d0e6171f651bceeee65ca64cbb3a35b4bfb5c
+  - ref: refs/heads/asoc-7.3
+    old: 7abfc3b5d51326858426d78a48ab06c8421dbad7
+    new: 53cab9a3fc896d78b0ba51089a55d85bdf186649
     log: |
-         991d0e6171f651bceeee65ca64cbb3a35b4bfb5c Notes added by 'git notes add'
+         53cab9a3fc896d78b0ba51089a55d85bdf186649 ASoC: ux500: Parenthesize MSP_{RX,TX}_CLKPOL_BIT() arguments
          
