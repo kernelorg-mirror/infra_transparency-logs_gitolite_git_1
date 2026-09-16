@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0107068362983963043=="
+Content-Type: multipart/mixed; boundary="===============4484928355271228862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 16 Sep 2026 08:43:43 -0000
-Message-Id: <178954822355.3155045.14209347643458435454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Wed, 16 Sep 2026 08:44:00 -0000
+Message-Id: <178954824026.3155295.6480285928836643487@gitolite.kernel.org>
 
---===============0107068362983963043==
+--===============4484928355271228862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/master
-    old: d5700e442a51d21df8f36c36683668797ce691b1
-    new: b549fa4b0c7c8438384aa81bb65f1692db371a0c
-    log: |
-         b549fa4b0c7c8438384aa81bb65f1692db371a0c update mbox files after sending the records.
-         
+  - ref: refs/heads/main
+    old: b8e9e7d82e7eefd5d2d528469d94ec20e96b38c3
+    new: 87b80c2f6b05cad9f0ff9136709c62a0f59923e3
+    log: revlist-b8e9e7d82e7e-87b80c2f6b05.txt
 
---===============0107068362983963043==
+--===============4484928355271228862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b8e9e7d82e7e-87b80c2f6b05.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789548112 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1789548223-6f3f1aa45238241bb35af14aa3c233d2198ab825
+47dbcfdf942a35dbf842ea05bb2248fcda411da7 page_pool: Fix page_pool_alloc_va() reference in kernel-doc
+3661253d2253b92d30e3734aa46e5ad41df7043d selftests: drv-net: remove duplicate functions in hds.py
+032ef43b9dab22f1e2fe9923b4d8b23d3ea9943d dt-bindings: net: Use consistent indentation in the example
+b785f5c56fb3dbe70635592b11547a2c828e95b3 netlink: policy: report the big endian attributes
+3d989d1f40a0b286342fab34ed791854c918d06b net: phy: realtek: improve firmware write speed
+30da1c2a41507ec9265440c1f223d1d6c1bc5244 net: 8390: pcnet_cs: release PCMCIA window on setup_shmem_window() error
+d328b5ad4a521807edee1920a3c0ca04020d6230 net/qla3xxx: disable the PCI device on remove
+4e8b65ecb64ca94963057df764c12c4aeddb6bca net: mana: Use the HWC destination queues reported by the hardware
+fbcd35eb1871fb7df3a5dbb0ffa05f15b83207a0 selftests: drv-net: psp: fix linter issues
+cf3302111b1a5c2b56127579ca51bdd20c70c0fe psp: don't report the main netdevice's ifindex to associated namespaces
+4d5d9f3a19682450858ff93ba3beaae65784ee3d selftests: drv-net: psp: check the ifindex an associated netns sees
+fb3ddbe2b5774f97a428bfb26711d68b966fcd0a psp: notify about a disassociation once it has happened
+b711865f68ce1cd5e832f7859260e9db73d2ed7c selftests: drv-net: psp: factor out creating a netkit in the test netns
+4d3c1d963c6fd104bf408ea66c52a939d93697bd selftests: drv-net: psp: check the PSP disassociation notifications
+0570dced4304cda532e5862fe3f8677a8e703b2e Merge branch 'psp-correct-notifications-and-device-info-around-device-assoc'
+87b80c2f6b05cad9f0ff9136709c62a0f59923e3 net: txgbe: free the fixed-rate clock on cleanup
 
-d5700e442a51d21df8f36c36683668797ce691b1 b549fa4b0c7c8438384aa81bb65f1692db371a0c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqqVlAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/gP/09fVAxV9ezkZrCleZ27
-AaNCc1oWWinuQlyN25S8TqTccORt5ghVXNptRnsxK5AtQs0bXKg709AispVzmJVJ
-H4boT5m2bDSSWOZloH4JSwTPUjCC2cXwHkHF6rnmPMlTl7Yo0U/e7UkJLPxUzxRN
-VQsqQ+6z+g9hWPoKk7zR0tjLZkVhfWEyDu9zOEQvaPdjEDVct9iMvBMaod8oqFQZ
-F37zAN1j5GeUvnH7sQOzX78ExrszzzTq8giOS9lYoIm4da8oDtJfjR533nrBM9M/
-qS34BrO2KKiw2nAGf+lFQZ9UQECdQv7WYS/ZM0uNSIOEJ1ov7rdPhfaW7u9hUrof
-C5v9CQ8j/KZaUd2WRY0BKXiocrI+LVHWAcxHTn1uTpMUaeEw40lPKOe4RS27CcUd
-HqiToagPjuFHG1OgjVytwO13Zrb4V2s3UnNZ2DYG5w2rk2yTmqBcZ2/2CuFSHB5z
-2hyCiOFud8WeBpE98XucW+PMv0QQzbPjbpBcJ3dmJRf98s3MmfIAz8izsgraPp1R
-cssJBQjhYmbw6QIY/GALYU/MSw++ABYVgh2jwQnjKAAcCCxVa3I9WfuPTQprJrO3
-wvjsoC4U7MllvNX1vurarj5O+CV2Dnrz6QXrmqn1KOvH1lhI0poIT3fnjW6wCtHb
-/4y2tXRMKaVYXXH3TCUDpLFP
-=cr7p
------END PGP SIGNATURE-----
-
---===============0107068362983963043==--
+--===============4484928355271228862==--
