@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 16 Sep 2026 16:49:06 -0000
-Message-Id: <178957734693.3613516.13829089959244801167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Wed, 16 Sep 2026 16:49:17 -0000
+Message-Id: <178957735751.3613862.5278894417549243951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 6bebbbf48f013c878e8ac10320a56408cfcf57b5
-    new: 7d81fd7f1644e8172350caa5b32aa00e57050ec0
+  - ref: refs/heads/next
+    old: d7ed7d0fd69c40c25cfabca043574ca85410fcf5
+    new: f63fae2960cf0f27dd8775747821e89a3e377e77
     log: |
-         dbdd18404e33ed44436bb9294fe8f2609b93af03 tools: power: pm-graph: fix typo "hierachy" in comment
-         7d81fd7f1644e8172350caa5b32aa00e57050ec0 Merge branch 'pm-tools' into bleeding-edge
+         3696326ca14cf018788d64232a068fdf26b1ff31 cxl/hdm: Reject switch decoder interleave ways that overflow targets
+         3f846646b3d3b5699139e686e1107d231a725860 cxl/hdm: Make switch decoder target parsing endian-safe
+         7dae18c39e99813461db6ef3fc13f077452109ce cxl/hdm: Restore commit_end when decoder enumeration fails
+         4e42c398af136d62fac8c19c9f410ec83a8dd34a cxl/port: Bound switch decoder target array access by nr_targets
+         f63fae2960cf0f27dd8775747821e89a3e377e77 Merge branch 'for-7.4/decoder_hardening' into cxl-for-next
          
