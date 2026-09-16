@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Sep 2026 17:56:30 -0000
-Message-Id: <178958139012.3680318.13792748917721135872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 16 Sep 2026 17:56:50 -0000
+Message-Id: <178958141061.3680575.10922485852996952524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-7.4
-    old: 0000000000000000000000000000000000000000
-    new: 323637a0aa19e59490a4449f2ab149d97fc5272d
+  - ref: refs/heads/master
+    old: d2e67cfb90d2bce1b44a5cfb5e5d3f38b7f78b49
+    new: 967788508ba263e22d856f971c9118dc1a73f6ff
+    log: |
+         e06d549fcd4a0ba381ed67ddf1ab3c7a6ca4314c Bluetooth: hci_conn: fix CIS hold ownership on reuse
+         0fcd4dad555c96e0bd3a1b8c569f989be85c7341 Bluetooth: ISO: release unused CIS holds after channel attach
+         e93fad891c72deb84cae49430163b384ebcc92b1 Bluetooth: hci_sock: reject out-of-range OCF values
+         b0a6cf99afd57a39598b1beca0e86ef5004980de Bluetooth: hci_sock: validate event length before filtering
+         4c94557dd02569efa6c1072a0439addaef9a5224 Bluetooth: ISO: balance the parent hold in hci_bind_bis()
+         6c78a213d9070b610c7f418af2c25b66180b7e37 Bluetooth: L2CAP: validate frame length before control and FCS access
+         b5dbb41b212c50c095a4dbee3017a84fe94f033b Bluetooth: mgmt: fix race in read_unconf_index_list()
+         967788508ba263e22d856f971c9118dc1a73f6ff Merge branch 'bluetooth' into bluetooth-next
+         
