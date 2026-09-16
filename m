@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0360972795319407129=="
+Content-Type: multipart/mixed; boundary="===============1405103932767909216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 16 Sep 2026 11:48:27 -0000
-Message-Id: <178955930735.3361415.722706822590580632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 16 Sep 2026 11:50:25 -0000
+Message-Id: <178955942560.3364352.5473697354748928305@gitolite.kernel.org>
 
---===============0360972795319407129==
+--===============1405103932767909216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/for-7.4
-    old: 82ecb042d5f4efc01298fbf7575e22fadfd8dfd3
-    new: 323637a0aa19e59490a4449f2ab149d97fc5272d
-    log: revlist-82ecb042d5f4-323637a0aa19.txt
+  - ref: refs/heads/xfs-7.3-fixes
+    old: ad4497a92caba4630f75c80d49cb947026213280
+    new: 407b04dca6614a77d3c867d5cc71c1ab31768444
+    log: revlist-ad4497a92cab-407b04dca661.txt
 
---===============0360972795319407129==
+--===============1405103932767909216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82ecb042d5f4-323637a0aa19.txt
+Content-Disposition: attachment; filename=revlist-ad4497a92cab-407b04dca661.txt
 
-affb75ebf9ae597213ba22ce964b1672a63bdaac ASoC: adau1372: Unwind failed power restoration
-6194ceba5dac5661fe58733f04ab53080872f764 ASoC: adau1701: Propagate register cache replay errors
-adf7e9a1f508563eedfa878c807806ade0e199f4 ASoC: cs35l56: Propagate register restore errors from runtime resume
-68cbe8933835ae6332be8648db03adcb901bf66d ASoC: cs42l42: Propagate system resume restore errors
-31a7178425356d459bf7397941a3fbeff1782122 ASoC: es9356: Publish IRQ readiness after cache replay
-c826c897a3302a0cdf41d46d798566b1869fd617 ASoC: jz4740: Propagate codec wake-up errors
-11e145401b68b73768343dbcc4d287ff883e9a56 ASoC: max98088: Propagate cache replay errors from bias restore
-6b4330d590a20be283cfb51e81f1af86b2afb1cf ASoC: ssm2518: Unwind failed power restoration
-4406319f7f521e6e9a7cf41e7aa58acacff206c0 ASoC: ssm4567: Unwind failed power restoration
-1621a23dd1647ad6e7adcee3660291784e016d57 ASoC: tlv320aic3x: Propagate power restoration errors
-f7c28c42085becb5b30e946031fd27ca913f717f ASoC: wm8731: Unwind supplies on cache replay failure
-fcfcb17039d94464c38319dcca90e36f937c9503 ASoC: wm8770: Unwind supplies on cache replay failure
-a4de439e78dcd1b444a0417a9a588ab538100679 ASoC: wm8804: Propagate cache replay errors from runtime resume
-4da4cb28883dd64ea9d13bf8ca7a5f756925f1ea ASoC: wm8904: Unwind resources on cache replay failure
-76f9631fa81b20f86bb939ee14c2e71f7f4ecf99 ASoC: wm8985: Unwind supplies on cache replay failure
-745f64b9335bd5209994239d41056ac13ead9b06 ASoC: wm8991: Propagate cache replay errors from bias restore
-7784ba385367ff86719f1d77e53a6ed89ef69b16 ASoC: wm8993: Unwind supplies on cache replay failure
-8fe60034e16343869073c0944bd1eefb94a53ea0 ASoC: wm8996: Unwind supplies on cache replay failure
-50a0a41c67978e9d89646038eb08c587635cb9be ASoC: propagate register restore failures
-d1a73ad21f963d43592704702c32cb935f5ed7dc ASoC: tas2781: Add TAS2573 calibration support
-b75981e29a5ce42f2938cd66e61612d3a4978ec8 ASoC: codecs: ES8326: Add private members about HPF
-7502e1fca73162a016025c5d9b5225adea70833f ASoC: codecs: ES8326: Adjust the standby configuration
-323637a0aa19e59490a4449f2ab149d97fc5272d ASoC: codecs: ES8326: Modify the configuration and add kcontrol
+5b644229bd677d52c4efa5973c1fab842c57f896 xfs: guard against igrab failure in xrep_findparent_from_dcache
+afbccf99f7f82117cba9ad4b0b006692030f49e8 xfs: don't assert when XFS_SCRUB_TYPE_HEALTHY scans return corruption
+bb991b7f79dd34cc5f24db0f736bf75630c970e7 xfs: fix attr fork block count checks in xrep_inode_blockcounts
+1c32cdc986467eaffeedb6c5334852809555b82d xfs: release orphanage dir inode if chown fails
+8b4ad2814274d43ed8bdfcf857efb8c79815d9c6 xfs: release AGFL after walking it during rmapbt repair
+984aab2d905a8557fafb27cd9e8713d6d12b3437 xfs: use correct jiffies comparison function in xchk_maybe_relax
+3083ba8dde765a9ab2337f3db68d00724a6b1202 xfs: check padding field in xfs_ioc_commit_range
+8fc18580ec17f90beac4c933fbe4c74dcd3b7f36 xfs: don't call xfs_exchange_range_finish for a dry run
+471e0b6e2ddac9e16b8dc2153d6e5575fefb8a2f xfs: use the correct reservations for rtrmap/refcount recovery
+46c1b6674a7b3a8385e7fa27f4efc6f45eddf967 xfs: fix integer overflows in xbitmap set functions
+c54110d814c3e8ed6bbbb5e02874994ed9f668ac xfs: only flag zero padding for dir3 data blocks, not dir3 block blocks
+e9193f2f1ce32d02b9230094ffdbfab715ab6137 xfs: check di_forkoff correctly in scrub
+14e379600d3e57ab0872b049c28cfe5ef519d439 xfs: don't try to get a reference to a NULL oz in xfs_get_cached_zone
+ce2b91bebc7bc0495fe3ad5ee47e4977fbb77fc5 xfs: remove duplicate INO1_WRITTEN check
+c16b885ad6b589b233534ee99ade82110d2bc381 xfs: remove unused xfs_reflink_remap_range declaration
+2f3c2a6f963e57cf4f0f34cbf24ab11abb64d118 xfs: fix typos and repeated words in comments
+6fdfe8606f99d86bdd109c94ef0821b8529fe44b xfs: prevent close() from hanging on frozen filesystems
+cb2194c0d7b2b913e171df9601f3b7aba6337525 xfs: call xfs_dquot_set_prealloc_limits if we installed default rtb limits
+bfcb66fe0df3588614662d5e2172586e068ae812 xfs: fix rtgroup repair estimations
+77b4ee1509046e772192d3955142c542aad023ce xfs: don't cross reference rmapbt with bitmaps if they're incomplete
+06f5d4c2be3b18b6a3eb5f0e1ff4c4a5b420171f xfs: don't let memory failures leak blocks and kill repairs
+509688570a42dd42a4eb656d55cf56c285621528 xfs: don't merge different file IO error types
+4e07c52ca4bd9191e3718bee30f1000333446217 xfs: fix blockgc group quota scanning when usrquota isn't enforced
+d3bb71b6c6c249139215f2ee33120e2c8005f104 xfs: fix cursor and pointer handling when recovering iunlink buckets
+979dbd93efd51c12e386869e6db5df497656a60e xfs: drop dquot flush lock when we can't find a buffer to flush
+d2d0237773deda949c6cc02e001d5c7301214b86 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
+407b04dca6614a77d3c867d5cc71c1ab31768444 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
 
---===============0360972795319407129==--
+--===============1405103932767909216==--
