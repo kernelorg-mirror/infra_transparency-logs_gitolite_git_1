@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1173972880469708526=="
+Content-Type: multipart/mixed; boundary="===============2573443101606786676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 16 Sep 2026 18:35:52 -0000
-Message-Id: <178958375228.3714045.7034761090675832347@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 18:36:48 -0000
+Message-Id: <178958380860.3714785.13334365321068920753@gitolite.kernel.org>
 
---===============1173972880469708526==
+--===============2573443101606786676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 049094c8878062cebd93c8c22d2c13b1d6804e99
-    new: 137d6ccf0ec8c48ecf0facc47cc46926df5fd0f3
+  - ref: refs/heads/char-misc-testing
+    old: df2908090cda368b01ff43709f51890076c56157
+    new: cb995a168d4258014023a5305ba6ba018e201777
     log: |
-         c4c02084d6687d5cd5edccaf52cc45e5160f1184 binder: fix leaked fd fixups on TF_UPDATE_TXN supersede
-         22c135635fdd9816c0ef140d6de7b2e4fdf73e89 binder: fix is_failure flag for superseded transaction cleanup
-         30d15f44a9e513ec2f257fdf192d9d1fa5af0799 binderfs: fix UAF write in binder_add_device
-         62479b6e5df82cbdf3c4145130928f233fae78fb rust_binder: cancel deferred work items in thread exit
-         2a74ccd1bcc170e66525f34e9de8652b57e2cf3d rust_binder: reschedule node refcount update on thread exit
-         137d6ccf0ec8c48ecf0facc47cc46926df5fd0f3 rust_binderfs: add transaction_report feature entry
+         cb995a168d4258014023a5305ba6ba018e201777 binder: rm -f binder.c
          
 
---===============1173972880469708526==
+--===============2573443101606786676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789583636 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789583692 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1789583747-97976269f1ff63e8309b8663cdb204045a6856d9
+nonce 1789583804-2c96d3b142ed15adc2c8127e2526b4dc9f3a59d8
 
-049094c8878062cebd93c8c22d2c13b1d6804e99 137d6ccf0ec8c48ecf0facc47cc46926df5fd0f3 refs/heads/char-misc-linus
+df2908090cda368b01ff43709f51890076c56157 cb995a168d4258014023a5305ba6ba018e201777 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqq4RQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+13gQAJfTTBWjZ2IZ7f9RdH8/
-3cH7w1kyYYCeGWo3OkSinBDAd/0ASlNnL+S9aZxA1UwNzuG+CuAq0ZSBgGGcvHOI
-2cfjeIidus46EwlnLzR1kPu7iW3rgWl/T0DMFHlp1XObw1RXu12a6sOarODICS8g
-UUfFfGJ1I1Bc6URCQ5Hrrehtev9v5xyWsn6r3JlhCSfdLGTHc0nuOAAqXPmRmV1l
-/YwiAg1M4Zbqb4tJ5KBNadTWiPpf9Q+svboJ0LsjRqkgHIE7ZZifXH+iaFCG1Lyc
-3jI2dqx7utEMjVJ/fAKWz+USkELJqxwjsUSJtnMxgZxeA3vz6o6DynYdh9VDigmD
-qs5tKImX79zHWIgDxp9AiSVA/NbB0sq1ReG+H6guWvh3b2ezz67QHKUZQ1RVMnSB
-O8+Hiwlj4yr6MuCV8fE9l5Vj4wOLiTvoarZEk9ugRi7Jg3kEn6pOZwq1lOtvYxc0
-QToRpSAuzpzbxXagLIpAq4kpcvC9Nlbo1r//8aO0ns6ZimZdKFNi2oHJf4eQSlcU
-Op7cF8RO08XP68rfeugBwCaxihROt1PFxhsljw+xyNxEeIGyIiiGP+yOYOofoXBJ
-CU9SswIJ4aqADBTlHMJ4bmVI12PwkZ2e2c7ELMfJAmblxy/qgqmaIXHUSmhRRqJp
-1WpS4q6WNYP4Pnc9j1k0aoan
-=BmuZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqq4UwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PUAP/iPnkbl/RbUiTwutHfRU
+KiFKIltHvX/W40EesJ8CneBeEInSEkMD3tUbiY72LMtmscnG2o1EuZjOa+uvWo3a
+mx9MTm3hvwzD+d8TB9Ndm6sJiQ+cFIDZoxIAxic3pRAwLfuI9ZWYn5UU6oAFrvrz
+B99E8cAWmebIijwv/cK+TqkwzV4jQoxWBmzkRB5WrNYLTu5wsRadX67BFLskxY0V
+XXuRPaJM673TRzVJoUDOu8VXHPgcHzpkgX2syR9VXM3eR+7Q5aOsS9k/gb6CmpBI
+adZg2lok1/ZUyk/FiaNB/pRzN2fjmGCJm4bkJRGk1MwMiC1U/OQiQWbBfbR8KwFI
+tGOcjjPfof412wygZolD+E28HPyCcXx6pJLVCUflMI5iuB62zGLV1ItgdUPD0Gvg
+2pEMfgARvwnjk9cXxx+cG1eHIP7YVPoF9ypRY8Q5ZzkRcjpNidTD+JMxidc5n8B5
+6uuS8WE/hlf5JHsmP43YnhDCRTXlYf4nGLVAhWxT/BzLoZFdn9o/S4pXaxJ1Mlz+
+mfU8I/KNYzWdMVEgCVCey/A604q+9y8d5M/BlwFjkg5F/K831RaPDJY0zidaQnik
+AYp7Pn9ibNDp62I+UDXPlPq/f/OkI8Jxo+4L5qTXfKF7NY6U3j1AO1qc5Q3JbdDP
+iDLS/n8e5aK87BOMvPEEQV29
+=9Cdx
 -----END PGP SIGNATURE-----
 
---===============1173972880469708526==--
+--===============2573443101606786676==--
