@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1376068579201285159=="
+Content-Type: multipart/mixed; boundary="===============3898913347973401598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:10:54 -0000
-Message-Id: <178957865479.3634801.12976970018494573601@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:10:58 -0000
+Message-Id: <178957865804.3634929.13032539391294475869@gitolite.kernel.org>
 
---===============1376068579201285159==
+--===============3898913347973401598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-vfs-7.0-rc1.atomic_open
-    old: 86d8190f380b8a420864aa41c63d13652ee89481
-    new: 7d825f2e6c220c1fa242920f2508230069ee2de9
-    log: revlist-86d8190f380b-7d825f2e6c22.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-7.1-2
+    old: 90e8a7ad89c62c96aec82e658f405903cb256e9b
+    new: 72dbac7b60d58a4dec7471954dfcef4bbc33f754
+    log: revlist-90e8a7ad89c6-72dbac7b60d5.txt
 
---===============1376068579201285159==
+--===============3898913347973401598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86d8190f380b-7d825f2e6c22.txt
+Content-Disposition: attachment; filename=revlist-90e8a7ad89c6-72dbac7b60d5.txt
 
 60779c1e9b24dc9f43cd53842b35947e264fdf32 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 1be762b03b90cff9ef03acbebab1136622481959 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -94,5 +94,43 @@ a768a7340ca28f5297bb2f1ea81b808165cba34d NFSD: Add support for POSIX draft ACLs 
 7058612ef13cb108988e876d713fe239a8ab7c2e VFS: Prepare atomic_open() for dentry_create()
 823ce73866026a3644a883c0b42fe943f757cb80 VFS/knfsd: Teach dentry_create() to use atomic_open()
 7d825f2e6c220c1fa242920f2508230069ee2de9 fs/namei: fix kernel-doc markup for dentry_create
+66b223ed02635d9b99225893cc12370383837d23 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+21ad7634fdfd379cc2907098796f74319bf5de1b nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+abe066202ea814579c85e0f85911777d28465cfd sunrpc/cache: improve RCU safety in cache_list walking.
+8b5c79edb5a88eae3811127afd7f35afc55b0203 sunrpc: Kill RPC_IFDEBUG()
+92885b8bf70d9d7c59311eb2d233b764e45aa2ce sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+c331064737361bc98e5c8db694abc99b438d7621 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+c909237ccd60e7e45a0b2964193ab09659d1453d sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
+ee3a45412e62e22d3461ba019c324f48b2be5ca6 sunrpc: convert queue_lock from global spinlock to per-cache-detail lock
+ce4bfef51b95e499c7ce2c2fd89d0a88eeaadede sunrpc: convert queue_wait from global to per-cache-detail waitqueue
+99f903d1b2a6bdd7e42bef8c173123c8a6da18d9 sunrpc: split cache_detail queue into request and reader lists
+418e97b9fab9450bdf451038b13c24cd81ed481b nfsd: convert global state_lock to per-net deleg_lock
+32c8c4b876b1c4452ab57421773bbc83f735bfa0 nfsd: use dynamic allocation for oversized NFSv4.0 replay cache
+a3af621beb0f64e3a473e7ee3acc3c08b9fb466b NFSD: Add a key for signing filehandles
+6392b3a66608f55422b28cf0d42f3007cc18c993 NFSD/export: Add sign_fh export option
+64172fa9d4a57bd4ef5719516525a4548a5e1b95 NFSD: Sign filehandles
+e2d8d8a28e15e773a056ad2af29207f94dd609de SUNRPC: Tighten bounds checking in svc_rqst_replace_page
+0fad5703169edfc8077508b07850411dc3ba205b SUNRPC: Allocate a separate Reply page array
+9f782fabbcaae0621a33c88a475a1d21a7a507dc SUNRPC: Handle NULL entries in svc_rqst_release_pages
+d6c6c33cba44a53cbdb45df332daa3e46547974c svcrdma: preserve rq_next_page in svc_rdma_save_io_pages
+38a7fad08314ccdc7d27327c3e60b93db5803fc4 SUNRPC: Track consumed rq_pages entries
+bdd1c02b8a3f5878ab0876dcf6d2061dcfc8c7cc SUNRPC: Optimize rq_respages allocation in svc_alloc_arg
+ea25963f608683ace171fdae5fe703bd1fe7b3a5 svcrdma: Add fair queuing for Send Queue access
+4166f68dc13a962e26f25ed815cde52c74b085a6 svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
+e77c4e93892b12c14a019f774bedc99507aab49a svcrdma: Clean up use of rdma->sc_pd->device
+012dab595b08569dbe0ea245b1edf3b14b373eeb svcrdma: Add Write chunk WRs to the RPC's Send WR chain
+527466d00f79c62abefb5b79fcc7754624d8c6d3 svcrdma: Factor out WR chain linking into helper
+6093e3faa9308853dc2a6102510a06ce1b9d0e37 SUNRPC: xdr.h: fix all kernel-doc warnings
+9c8b3c303dfde8ec0c573b23b1eab5b4ccecfe17 SUNRPC: Add svc_rqst_page_release() helper
+e21c8bb82d0cf9f9d09d0d32019dbf647ecd6c71 NFSD: use per-operation statidx for callback procedures
+283a9f5f3238c40cdd186b1ad85f65b1dd06c90d NFSD: convert callback RPC program to per-net namespace
+e4999d835ca38d0f061fcc9d1000e992f259e00a nfsd: fix comment typo in nfs3xdr
+51304d27d05c5bd712d9c448895859420fac988b nfsd: fix comment typo in nfsxdr
+8cae1649ea9e5c80dfef07b266d13c482e0392fd nfsd: fix file change detection in CB_GETATTR
+74387be618626d445921aec837253066a89e9d47 nfsd: update mtime/ctime on CLONE in presense of delegated attributes
+23ed3453a189f877ff4d6fe5ae68b28a3df52160 nfsd: update mtime/ctime on COPY in presence of delegated attributes
+bd218944c6134093ea8b9f4953925481bcf5b0ee sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
+22b6f97ffd4638328b09a830fd275e871df16f2d sunrpc: prevent out-of-bounds read in __cache_seq_start()
+72dbac7b60d58a4dec7471954dfcef4bbc33f754 NFSD: Report whether fh_key was actually updated
 
---===============1376068579201285159==--
+--===============3898913347973401598==--
