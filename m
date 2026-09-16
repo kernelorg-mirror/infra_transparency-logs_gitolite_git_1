@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 16 Sep 2026 13:21:23 -0000
-Message-Id: <178956488367.3437255.6178438130518826571@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 13:25:10 -0000
+Message-Id: <178956511032.3440187.6522822377616934098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
   - ref: refs/heads/usb-linus
-    old: ae0e61d95677efa778379853e495d748e6efbf95
-    new: d84e27d87738634b92001500435ae4dadba10a13
+    old: d84e27d87738634b92001500435ae4dadba10a13
+    new: ec06546b43b612cefc851558981b4955c0ef9e46
     log: |
-         d84e27d87738634b92001500435ae4dadba10a13 USB: serial: cp210x: add Corsair AX1500i Power Supply
+         afc235a217360c6859068d2e37a4df305c4d1be2 USB: serial: ssu100: fix baud rate overflow
+         ec06546b43b612cefc851558981b4955c0ef9e46 USB: serial: quatech2: fix baud rate overflow
          
