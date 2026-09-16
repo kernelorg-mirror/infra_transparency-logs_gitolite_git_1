@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2573443101606786676=="
+Content-Type: multipart/mixed; boundary="===============1127669667186358175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 16 Sep 2026 18:36:48 -0000
-Message-Id: <178958380860.3714785.13334365321068920753@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 18:38:29 -0000
+Message-Id: <178958390942.3715494.13899295862358265001@gitolite.kernel.org>
 
---===============2573443101606786676==
+--===============1127669667186358175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: df2908090cda368b01ff43709f51890076c56157
-    new: cb995a168d4258014023a5305ba6ba018e201777
+    old: cb995a168d4258014023a5305ba6ba018e201777
+    new: b5d8bdcd34301dc45aa638b15eab15523b09c8d9
     log: |
-         cb995a168d4258014023a5305ba6ba018e201777 binder: rm -f binder.c
+         25664b50e7f12e3d63ed6e0e2339171b318f67ec rust_binder: add TF_DEFER_COMPLETE flag for avoiding userspace roundtrip
+         b5d8bdcd34301dc45aa638b15eab15523b09c8d9 rust_binder: use KVVec for files_to_translate
          
 
---===============2573443101606786676==
+--===============1127669667186358175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789583692 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789583793 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1789583804-2c96d3b142ed15adc2c8127e2526b4dc9f3a59d8
+nonce 1789583904-9699c671f7e6c175914955b75f60735ba14e5208
 
-df2908090cda368b01ff43709f51890076c56157 cb995a168d4258014023a5305ba6ba018e201777 refs/heads/char-misc-testing
+cb995a168d4258014023a5305ba6ba018e201777 b5d8bdcd34301dc45aa638b15eab15523b09c8d9 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqq4UwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PUAP/iPnkbl/RbUiTwutHfRU
-KiFKIltHvX/W40EesJ8CneBeEInSEkMD3tUbiY72LMtmscnG2o1EuZjOa+uvWo3a
-mx9MTm3hvwzD+d8TB9Ndm6sJiQ+cFIDZoxIAxic3pRAwLfuI9ZWYn5UU6oAFrvrz
-B99E8cAWmebIijwv/cK+TqkwzV4jQoxWBmzkRB5WrNYLTu5wsRadX67BFLskxY0V
-XXuRPaJM673TRzVJoUDOu8VXHPgcHzpkgX2syR9VXM3eR+7Q5aOsS9k/gb6CmpBI
-adZg2lok1/ZUyk/FiaNB/pRzN2fjmGCJm4bkJRGk1MwMiC1U/OQiQWbBfbR8KwFI
-tGOcjjPfof412wygZolD+E28HPyCcXx6pJLVCUflMI5iuB62zGLV1ItgdUPD0Gvg
-2pEMfgARvwnjk9cXxx+cG1eHIP7YVPoF9ypRY8Q5ZzkRcjpNidTD+JMxidc5n8B5
-6uuS8WE/hlf5JHsmP43YnhDCRTXlYf4nGLVAhWxT/BzLoZFdn9o/S4pXaxJ1Mlz+
-mfU8I/KNYzWdMVEgCVCey/A604q+9y8d5M/BlwFjkg5F/K831RaPDJY0zidaQnik
-AYp7Pn9ibNDp62I+UDXPlPq/f/OkI8Jxo+4L5qTXfKF7NY6U3j1AO1qc5Q3JbdDP
-iDLS/n8e5aK87BOMvPEEQV29
-=9Cdx
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqq4bEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E34QAIZzA1BZ0/a1SK+eslMy
+PrlQJh0N4aTnd28A1hgjs+6t4GtG5lgEgK6jhnFTKdhBisYz4FIAHz75G/dK20eS
+Csj5Xv7zlWwWmi1n3BI7/vkZFqK7SqrYtACxCD6jSHbNL4BHyPwYwUxKhN3e4oYm
+9ofqhzAoeLCEVVNdVKV8UkcDiIAqMwcYND9MBYtczdIat/C2sHkonNd3xF6bX64X
+q1P5swStuCgabsLzBTZIOXMgd9QYSOgNPKhG3Rk0EyykzKrAbQt7u7g8E2rIfC4a
+gWYfGmRZL5XwrmSlh/dcsPVpOpCFkoIdEYLLCxpol8fYty10OtGPF+Nht+Lrq9z5
+1T/SjxQryRRb3th4gapfsJV0kw7vBqhIPYW99wHR9toWXk4j+E7EAAnFmmYraVhW
+MCgfmj9r7yVD6NjKTWNbPYN1TfNSZ44hYteBds3BPTvk4nB1I3niumqqLVO1xvOd
+Il6dd0shCp/dW+58K8Xy6vuzhD2D/HUt2Goyx1ybNV7akkM8T/gtAL9fnELbZKzN
+v0xR6BtAfz14LUT0v3oEnVtASiZtgw+sxZTQC7JdJMPABcOLZYWhM2NKmrfdjLh2
+3BP2+W4rKS+mtvyDFCldhCuYJwFR0LXMEN67BhY6IKBM7xj9oyQUY+DigPAAXiIC
+RnAA4p7ZlXG6YS501Vh4Ff6D
+=lfZu
 -----END PGP SIGNATURE-----
 
---===============2573443101606786676==--
+--===============1127669667186358175==--
