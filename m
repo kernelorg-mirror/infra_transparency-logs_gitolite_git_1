@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2969456698516775301=="
+Content-Type: multipart/mixed; boundary="===============2319503855425447559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 16 Sep 2026 06:08:49 -0000
-Message-Id: <178953892919.3036116.9556900675917293964@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 06:08:53 -0000
+Message-Id: <178953893355.3036269.12916240462346990742@gitolite.kernel.org>
 
---===============2969456698516775301==
+--===============2319503855425447559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b08a65b93426d86e3f354d655d6225397b591877
-    new: 892f5b3b07e5b07f2f29c87750ff94fa58dcab73
-    log: revlist-b08a65b93426-892f5b3b07e5.txt
+  - ref: refs/heads/mm-unstable
+    old: 700115e44912995a6a2230660cc13d1356297db5
+    new: 0820e2e85e8aafde66256c567ad37a5b15708d4d
+    log: revlist-700115e44912-0820e2e85e8a.txt
 
---===============2969456698516775301==
+--===============2319503855425447559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b08a65b93426-892f5b3b07e5.txt
+Content-Disposition: attachment; filename=revlist-700115e44912-0820e2e85e8a.txt
 
 3663c66bd44fd92e22d8229bab324207e56c214e selftests/filesystems: fix missing and stale TARGETS entries
 41817f4774a9db2d958a1e33ade1163bf9794513 module: fix lost error code from codetag_load_module()
@@ -488,104 +488,5 @@ c074a98c1b1f0dd144224cb84ddeef003a07b4a1 mm/huge_memory: clean up after-split fo
 e4f4e7120982717533514b97402027c482221249 mm/huge_memory: count only swap cache refs in anon folio split
 0985245b65f9626fd9c0a8661a2a4b3b69385f5b mm/huge_memory: drop the redundant mapping argument of __split_frozen_folio
 0820e2e85e8aafde66256c567ad37a5b15708d4d selftests/mm: hugetlb_madv_vs_map: add underflow test
-8de8e6102e47cd6e772d2abb48279a49e1df58bd proc/task_mmu: remove unnecessary helpers
-76b5a26ed7bf9801ea105e0d270a9865e307b069 proc/task_mmu: remove unnecessary inlines in function definitions
-ba1552b2bcbd7adc40512846abeabb02659e6f92 proc-task_mmu-remove-unnecessary-inlines-in-function-definitions-fix
-91a8bb37403cb5984bdf65482cf33b8f44bfe6ef proc/task_mmu: clarify shmem mapping walk conditions in smap_gather_stats()
-8d85fac19f92546e664e633b4203fec86e5be7af proc/task_mmu: remove special-casing of smap_gather_stats() start parameter
-5a25a762f938fca2578d765a876e98dd42680e21 proc/task_mmu: change proc_get_vma() to stop returning gate VMA at the end
-23698ab7fee9fdeca36bf14bf6c90d9b8577b5e2 proc/task_mmu: read proc/pid/smaps_rollup under per-vma lock
-0af6adcd0e6e3609363387adbccdfb3a8883596b selftests/proc: add /proc/pid/smaps_rollup tearing tests
-7936fbfec29bbca5483542d0e0cc0bd48abffca3 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-3dbd55acc1986a509d42b1984fa511f4709b16d4 mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-3404ac8a62e276605785682e0cae5c3075e31878 mm/vma: introduce and use vma_[flags_]can_merge()
-29dd1026346d4fe573209978d9dd932c60642ebe mm: consistently validate VMA state after mmap[_prepare] hooks
-ae0f79c0a1fed9b892db752b59348fe94454e4b1 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-9b3f1ea535f518b26fe252d9490de3f5a11c776b mm: make map_kernel_pages_[prepare,complete] internal and unexported
-2c9ec7098ac2092592ed90051ceeb73b75d31d94 mm/vma: tidy up map kernel pages enum values
-db8362d640a6c3bf252695d3b9f79ede03fe8f55 mm: add mmap action for discontiguous kernel page mapping
-3920169d737149aeca2deca45ee0591f9305948d docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-5eb7be08586cb71567a313c401c228254f42ceca drivers/usb/mon: update to use mmap_prepare + map kernel pages
-bd5e7ba72bf675644896e4bc7b158eca4ca6d0b8 infiniband: update hfi1 to use remap_vmalloc_range()
-6193e73b499308175a9e2a37ac1054b431fca1c2 selinux: reject writable opens of policy file, drop mmap shared/write check
-73dc2bd2c6868a4cc9efaf0a4866e69955065927 ALSA: pcm: use vm_insert_page() to map PCM status page
-e63162b283b1a3e5138a18201c8ab576e3c53b98 bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-301c1502dd5f0f3d7ee5c4b6146342142fb4c47f mm/vma: add vma[_flags]_is_kernel_owned() predicates
-fa40b68dc0008793a408f905181dae8fe785f7d8 mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if kernel-owned
-52468be25b64854839acf9d560fd7ef0ba9ae9d4 mm/vma: add and use vma_[flags]_is_fixed_mapping
-75cd4e5e73bb2af30510b4d7d6b12e9d7a6d2de4 scsi: sg: convert mmap hook to mmap_prepare and rework
-adf4d92342abca211799ed919696e4b52900cdf1 fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-d181209afee32db31ab846ed2f92078973945bb3 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-38774c03b2172de1cc2d82c50c3a450ee5894876 mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-c87152b7b8d06660afb4d9ff1d51370ada117a67 uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-e9fb226c0a2a007664b1315455eb56ac631d974f mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-f088fcb8b769e6233aa42f6313dd15cf4fd1360c mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-b5002a28344fc80da49e113dcad49ec4a36cdd2e mm/vma: enforce that only kernel-owned mappings may set VMA_IO_BIT
-36d39f45203a1c3310b2aa3f2ef1d28da6d17b11 mm: remove VMA_IO_BIT check in vma[_flags]_is_kernel_owned()
-5371b03c09ef012c782d388949b66e80fc9f0de4 mm: remove hugetlb_inline.h
-407a24cfcad471cdf00e1b33cf9001289ea1cf48 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-ee0471c3c07dbb533596442a8c6256b877af985b mm: drop some redundant checks around hugetlb VMAs
-0ce8f3af9e5a171540abb9da8eb939bf3f8e9a19 mm/madvise: update is_valid_guard_vma() to use vma_can_merge()
-245f0c0f2814e569b1c7134ebf4b66f3ee3cfca0 mm/vma: introduce vma[_flags]_is_persistent()
-b427d15d2ce2eff2b99921a9d21c96d385849a4f mm/uffd: use predicates for userfaultfd checks
-1861e649670faed8d3abcba437396ecd2a936ebc mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-4da7d6a80e4ea456941db69a16ce1b2d3ad54669 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-ee10506ab6b19d6dfbfcf195767be538bd6a779c mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-3d21820aa7651cc37b21a0e99eaaea27e06e4511 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-b26087f15a28d91fa34e5a3e14f174cfd3a84c9c mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-468430e620d72f94820221948c53cc0652d46fc3 fuse: dax: do not set VM_MIXEDMAP
-51dc0f90425c9a9739bac8846f223042fd961296 mm/huge_memory: remove vma_is_special_huge()
-4e8e38f00ddc6dbcc4723526b4799220b6099281 mm/vma: introduce and use vma[_flags]_can_gup()
-2edde4150bd3d7a2c6f078955ae7e15fa9c3c266 mm/damon/sysfs-schemes: read sysfs_filter->addr_range only once
-e6aeae62be55aab460283c3fd9319c879976c486 mm/damon/sysfs-schemes: read sysfs_filter->sz_range only once
-70a8426d9dbd9ec77f5a908dd6ec399d566404f7 mm/damon/core: return an error from damos_commit_filter_arg()
-00ae9824133c756500d9b83f7061c408cb0b2a07 mm/damon/core: disallow max < min damos filter range arguments commit
-7f3157f137d46b38be350d78bb775dca0560ac24 mm/damon/sysfs-schemes: drop centralized filter range arg validations
-da0cc6aa5fc76bdb14ae0b56db1565eb7dc934d2 mm/damon/sysfs-schemes: use switch-case in add_scheme_filters()
-71a0c2045b1e31161c1f5b2214f06435fe52df0f mm/damon/core-kunit: extend damos_commit_filter_for() for wrong input
-fd9f94d7d517f240d5572748fafc8f2f39e793bd mm/damon/core-kunit: test invalid damos filter commits
-56f01e7f1f236972356284cf20080c9584f96a98 selftests/damon: stop kdamond on error exits of no-op commit test
-c2a34c502d80ab9c82bcee194889873c5286dc78 selftests/damon: ignore test-generated damon_dump_output
-f3a95c9d5a95055551051a64376266a6f1e4de17 selftests/damon: add script dir to sys.path for PYTHONSAFEPATH compatibility
-a6e8f13eec549aedcec1e379d6f5a8979a78e130 mm/damon/tests/core-kunit: improve nr_samples_per_aggr test isolation
-f46503c3398b3be7ebc0da9ed5d96fea99fa8777 Docs/mm/damon/design: clarify when qt_exceeds increases
-45b824260547c5855703252751dd84c7d487bb86 Docs/mm/damon/design: fix typos in temporal auto-tuning algorithm section
-3d43d00aef3528f203d16824088b00674efeba21 proc/task_mmu: handle special PMDs in clear_refs and pagemap
-c142cac6b108805afd6ebff2bad71f9785e7b0ca mm/vmalloc: group xa_init with vbq field initializations
-81b23ecc4b3dac7607b26be2aad4307ef6f55cbc mm/vmalloc: extract vmap_insert_free_area helper
-0ef530a1521463ab04c270cc95de653a08d7157e mm/vmalloc: extract show_busy_info from vmalloc_info_show
-949e0a15597ab50a92ce971a6313297b4d070e61 mm/secretmem: fix the enable parameter description
-3310e4b7a5be80295fb1dbed3703a430d0b83edd mm/madvise: reclaim isolated folios if PTE restart fails
-1c723bf182c5131adcd1d949392c51e6f1cd8c52 selftests/cgroup: ignore memory.reclaim -EAGAIN for zswap writeback test
-0fa3ad9a63d3fb1bffe5f33ae7e9fba1b231d6e1 mm/hmm/test: reject overflowing page counts
-a19c3766753ed0c78f567f9fe26831f3a5d35ac2 mm/damon/api: introduce DAMON_FILTER_TYPE_HUGEPAGE_SIZE
-43fdd11cfa15149cf6571783f14b39a56a5ee3cf mm/damon/core: commit hugepage_size type damon filter
-71b3acb816b8d537af3673ad07b5a1d96500ab03 mm/damon/ops-common: support hugepage_size damon filter matching
-eed405080a8727482b1aaf357071d659e1183108 mm/damon/sysfs: add min,max files under probe filter directory
-84849bbed44b2f4ca2253e70155f441612fbabad mm/damon/sysfs: support hugepage_size probe filter
-992657281e204ad62c8b1e0ee535953f9fcd92fe Docs/mm/damon/design: update for hugepage_size probe filter
-3a0921f53062bb2ddc708a564e3d4fd20e5df3b9 Docs/admin-guide/mm/damon/usage: update for hugepage_size
-81c69fbb4128cec74208b2ded7305f4fc5321fe4 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix
-0a39a8da1ed2c3da828b5c8525b3ca09de916016 Docs/ABI/damon: update for hugepage_size probe filter
-4371fe6ac2e6d91bcc7304b0b8e2caf0745f5874 mm/gup_test: safely calculate GUP batch size
-83c3e9b49e2efec406f8257257ca52b2b9482808 mm/mglru: restore accidentally removed seq < max_seq check
-fdcf3e85df7adde644e40760286336311ff14ec4 mm/hugetlb: fix misspelled parameter names in comment
-9108b5662dfe0a5ccb242ce1294cddaaf5ec91ee mm/page_alloc: apply per-task GFP context in bulk allocator
-be06d526277b1515d6cbf437e81d3442823d5976 mm/madvise: use folio_trylock() in the cold/pageout PMD split
-48b7f32dfab69c436f9d4ede492499849adcac1e selftests/mm: fix soft-dirty kselftest supported check
-509646f1253e6ed956eb8b9c391c7d9572ac0577 riscv: mm: fix concurrency in mark_new_valid_map()
-ef760508d5abdfd3d43915e69b45f188f7c0d3cb riscv: mm: exclude invalid THP PMDs from page table check
-cab787ca63159c787e5285f5beb6e59b641bee76 sh: remove CONFIG_NUMA and related configuration options
-f5b78267d549e0ab8c422170e7c80b3184e5fd73 sh: mm: remove numa.c
-fe98d3005edafec987c5a644dabd7d59db816da4 sh: mm: drop allocate_pgdat()
-f1064e54a422f5165780a71238ab9cd6cb5aac4a sh: remove setup_bootmem_node() and plat_mem_setup()
-32ac19ea5253356a51197788d0e60adc97525e51 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-e8f78b7bb9d174c20877ba14ffe3bf9f76015622 sh: drop include/asm/mmzone.h
-8a1849fd20382f853846a7f3a57e2ee7511dde58 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-c8ea54ad7e64f82a1923471e8e94a83abc1644ae sh: init: remove call the memblock_set_node()
-2046710e3a3ebd41dab13f92ed483b9402228d1f sh: remove SPARSEMEM related entries from Kconfig
-705c247ead7d2380015adf0c3894f0f62551918c sh: drop include/asm/sparsemem.h
-e7b10cd68a1275241ec24a17841baecd8cf91ad8 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-892f5b3b07e5b07f2f29c87750ff94fa58dcab73 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============2969456698516775301==--
+--===============2319503855425447559==--
