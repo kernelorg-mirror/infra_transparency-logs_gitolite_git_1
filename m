@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3016837315611787686=="
+Content-Type: multipart/mixed; boundary="===============8267921663375803661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 16 Sep 2026 23:46:29 -0000
-Message-Id: <178960238912.3982983.14810396181886855199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 16 Sep 2026 23:46:47 -0000
+Message-Id: <178960240703.3983209.12020309794945946239@gitolite.kernel.org>
 
---===============3016837315611787686==
+--===============8267921663375803661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 238650ef6c7c7cca08e032527329424c9fbd70e5
     log: revlist-704340f1cd0d-238650ef6c7c.txt
 
---===============3016837315611787686==
+--===============8267921663375803661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ a9e3760b0838299649c0d57cca44daaf40ba3c33 sched_ext: Maintain an online cid mask 
 0b271f7d7f5ed45bc498a03ce0aa9cfd8402fc71 powerpc/iommu: Fix the overflow validation in iommu_tce_check_ioba
 238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============3016837315611787686==--
+--===============8267921663375803661==--
