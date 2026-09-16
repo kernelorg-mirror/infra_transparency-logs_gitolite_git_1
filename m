@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6728812064418796295=="
+Content-Type: multipart/mixed; boundary="===============2889260139305437137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:11:01 -0000
-Message-Id: <178957866103.3635105.5431872357815413595@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:11:03 -0000
+Message-Id: <178957866379.3635375.15116822806055227213@gitolite.kernel.org>
 
---===============6728812064418796295==
+--===============2889260139305437137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-7.2
-    old: 246f524aae28cc3a8b018e19d140556607c1a193
-    new: bdab09f9751e2aaa187fe846897e6a0458997535
-    log: revlist-246f524aae28-bdab09f9751e.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next
+    old: 2223dcf589e25e211fc3384b088a33aebacf1b71
+    new: e151adc76c16357d3f9751252c342f9a86ead0f1
+    log: revlist-2223dcf589e2-e151adc76c16.txt
 
---===============6728812064418796295==
+--===============2889260139305437137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-246f524aae28-bdab09f9751e.txt
+Content-Disposition: attachment; filename=revlist-2223dcf589e2-e151adc76c16.txt
 
 60779c1e9b24dc9f43cd53842b35947e264fdf32 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 1be762b03b90cff9ef03acbebab1136622481959 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -154,5 +154,18 @@ b522135cdd968c676d345111358544edd5fe0189 sunrpc: wait for in-flight TLS handshak
 837076d868ee9c8ce8c590e7e495180b633c42eb nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 2d523fead500af865466826f6e0b4f92fa3a5930 nfsd: reset write verifier on deferred writeback errors
 bdab09f9751e2aaa187fe846897e6a0458997535 svcrdma: wake sq waiters when the transport closes
+318782330f7fa149f984d9a3b05b213b616db080 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+55dd7fd56cd56ea9299b930ce724e893b1edc158 nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+61c488ccc9bb57a36c730fb6ad68f0c18cb1cbe8 NFSD: check truncate permission under inode lock
+4c74dd9cfb44066721adf3e3ae2ea8e01d101269 nfsd: fix partial-write detection in nfsd_direct_write
+5c89a675d6dd618d05cd795261288ff1fc44ed7d nfsd: hold rcu across localio cmpxchg retry
+ed9d01dbe210396ec5904f09c27994e084eab1b9 NFS/localio: fix ref leak on nfs_uuid_add_file failure
+7829412dbc3cff45830f5fc9004c814866e6e7eb nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
+644b41b7d068f62dd317d0f13d54516d4555c811 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
+976f53a2d72090e769339b1d5a2fc02e49b43a4f nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
+ab0055636cb3c43239106f4253eb15df922b343c nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+8f2cd9033489ae7ca24b6b91b78476d728fd1972 NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
+76f19a21e20e44c636876fb3c90b8afdd124f57a nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
+e151adc76c16357d3f9751252c342f9a86ead0f1 nfsd: initialize DRC hash table before registering shrinker
 
---===============6728812064418796295==--
+--===============2889260139305437137==--
