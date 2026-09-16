@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 16 Sep 2026 13:10:04 -0000
-Message-Id: <178956420493.3428048.6850275113089554725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 16 Sep 2026 13:11:57 -0000
+Message-Id: <178956431710.3429176.7569764514725151556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 4ea7d7681e0bf23f3f1d5399fece948c21646bf8
-    new: 47688233f7ab9e2c0915b2a70e1a87ad87e5ba1f
+  - ref: refs/heads/master
+    old: 76c479c03daac3af7ee322827143cc1bb9cf60a7
+    new: ea50b70d7d1414cf43687f56815d8e41d55b672e
     log: |
-         047c834d939df75386cfc0603c7ddeaa23a349a4 ACPI: tables: handle failed initrd override mappings
-         33ad5c036747fab84caeb7a425a736e240875602 Merge branch 'acpi-tables' into bleeding-edge
-         47688233f7ab9e2c0915b2a70e1a87ad87e5ba1f Merge branch 'acpi-pri-dev' into bleeding-edge
+         c34f8c97f99686b476ee29754903defe37ab3385 tests: verify restricted mounts use pinned targets
+         ee4648a47027c191806a43ce132c71a070dd7c02 tools: improve static build
+         ea50b70d7d1414cf43687f56815d8e41d55b672e Merge branch 'PR/mount-restricted-fd-test' of https://github.com/karelzak/util-linux-work
          
