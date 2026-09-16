@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6562487429802079286=="
+Content-Type: multipart/mixed; boundary="===============5224329222914568593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 16 Sep 2026 17:47:45 -0000
-Message-Id: <178958086532.3671525.7309452673795214231@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:48:00 -0000
+Message-Id: <178958088010.3671746.14383768817836591886@gitolite.kernel.org>
 
---===============6562487429802079286==
+--===============5224329222914568593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
+  - ref: refs/heads/counter-current
     old: f1a3a9946aab611dd2200c01ff122f64b033dad2
     new: fd73f4a6659897191fa0d40695fe370925dd3780
     log: revlist-f1a3a9946aab-fd73f4a66598.txt
 
---===============6562487429802079286==
+--===============5224329222914568593==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 
---===============6562487429802079286==--
+--===============5224329222914568593==--
