@@ -1,66 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5185436709424926286=="
+Content-Type: multipart/mixed; boundary="===============2313798106343804024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 16 Sep 2026 06:58:14 -0000
-Message-Id: <178954189412.3071753.17813734390603844168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 16 Sep 2026 06:58:25 -0000
+Message-Id: <178954190545.3072023.13298193444076907262@gitolite.kernel.org>
 
---===============5185436709424926286==
+--===============2313798106343804024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/feature/large_folio
-    old: af99aabad088079b18d46289462ea6331689b95d
-    new: 8ccb75baf7eba68e70c805e1ee471b249ae824af
-    log: revlist-af99aabad088-8ccb75baf7eb.txt
+  - ref: refs/heads/master
+    old: aaa5c4c8b55bae80380af16fee39bb28ce9644b8
+    new: 919d20d95a6dadf9c0dbe7395a4de53d1cf2a0c3
+    log: revlist-aaa5c4c8b55b-919d20d95a6d.txt
 
---===============5185436709424926286==
+--===============2313798106343804024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af99aabad088-8ccb75baf7eb.txt
+Content-Disposition: attachment; filename=revlist-aaa5c4c8b55b-919d20d95a6d.txt
 
-56bcda97b38a54b18df380ca928120a05d2a269a f2fs: wait for inode record work before clearing ino bitmaps
-5d37f99e4d25eaf42efe2dda8b947585478168f6 f2fs: drop pending discard commands before reserving device alias
-70d41e696112c7a6e8e32431fbba58ceaa039af1 f2fs: initialize sb_info early in f2fs_fill_super
-b13241d96b16648c0e2f110efb59df9c8e573df3 f2fs: describe SIT block layout dynamically
-d8ee1a56fe732a4a380a84c793370edc47bb501c f2fs: describe NAT block layout dynamically
-b33f1a74483af02195cd44e1e83eb6bd28d5d283 f2fs: describe orphan block layout dynamically
-b387d0b8ffd5b98bdbdfe069d3a5773c8936ce67 f2fs: describe dentry block layout dynamically
-87f9a4888f9e81dfc589af25b1ecdb8e99b18934 f2fs: describe {i,d,id}node block layout dynamically
-48747bfe30c6a67dc9f8df87042154f204611f5f f2fs: describe xattr block layout dynamically
-b32d4bdbae616dec768252b86845d9358c770a15 f2fs: parameterize sector conversion macros
-0d83f165142ff431b36f39ccd6a50ac3a7621292 f2fs: parameterize byte and block conversion macros
-8eec501bef967b0cd2da6186dcda27af51a2a0b6 f2fs: describe node tree geometry dynamically
-3f72f38444551f99aedac2fd0a9b05167b131a13 f2fs: parameterize block size and mask macros
-3f140a60c92a5e2e9885adac70cd3686ba4ee19a f2fs: quota: fix stale lock holder on remount failure
-66eec36c2421383e5b32e9c1740f656474c80df8 f2fs: skip node_change lock for inline data writes
-e398da0b9131583e0f52bca733eaefc3b3aeae95 f2fs: fix livelock in syncing dirty inodes
-06768d77ed956b4bf0b588fcff2fae8cfcb67269 f2fs: fix to record both APPEND and UPDATE ino entries
-a64a3fec11e77a3a0dc0009bdc58b925e45a1bb4 f2fs: force out-place update for all writes on compressed file
-ea3eea801c5c54932818ac528e169012a7418825 f2fs: parameterize node helpers and macros
-b5a71253c5c7e1139eab2f3e1e13e0bf2cbcaac7 f2fs: fix to avoid folio->mapping dereference in is_{meta, node}_folio()
-c0337e331b065074ce20e4258a578e07dd7e4083 f2fs: compress: fix to handle race between truncate and writeback
-60105162524e9c839e0fe3cc9d57ffe91c997d9e f2fs: stop using PG_private
-1a9c7887879b9b2be4a14e589085c7ba3614cf5f f2fs: extend folio state for large folio write path
-5cba4dea6a511e9200b5d084098b42dca5ae67ee f2fs: carry subpage offset and count in write IO
-3786b31715483e63ed45508f29d49162ced21ef7 f2fs: support regular file buffered writes on large folios
-962a7a1184b9a1b6be225cdbce33d92db0831a1e f2fs: support atomic file large folios buffered write
-5ccbda195a1df7f72c5a81df624d9c0f1f160019 f2fs: support large folio writeback
-c70fd4b2b95654d0d78b6a1f4de61eed6ae1f3bb f2fs: prepare mmap write faults for large folios
-0de822b284b2d8ca0d8727c424f95aafd619efb8 f2fs: make GC migration large-folio aware
-697786b3300b68c7715676371e27bbfb06ee8791 f2fs: optimize small block size large folio read
-f9b8386a6bcccb9d22f83554094f374ba8001d42 f2fs: support partial uptodate large folio read
-c86a2d38e7745f4bd4c13a13d3b7df22e59fad91 f2fs: handle partial truncate of large folio dirty subpages
-7bf6881d79c213f9df4390a2abe285431f37537b f2fs: fix zeroing paths for large folios
-98c68907f476c30de8dd18156391bc8ddcad3af8 f2fs: handle block cloning within the same large folio
-6099ae96a716e397e87ae0c7a7b494ca0c2f3657 f2fs: allow large folio support to writeable files
-8ccb75baf7eba68e70c805e1ee471b249ae824af f2fs: make compressed files compatible with large folio
+93d88ac4a448f200d18d1d71de0074b8e716bbee sched_ext: Pass the initial cpu.idle state in scx_cgroup_init_args
+29871903f3a38e75e896f9a644713859490cb85f sched_ext: Don't deliver duplicate ops.cgroup_set_idle() for same value
+0a85182723b65ad8bee8131bc38fcf0347d6679b sched_ext: Fix NULL sched deref in kfunc sub-sched error paths
+3265ef0b670180b0b946d73ee9825d6d91e98a08 sched_ext: Rename sch to root_sch in dispatch_one()
+90f19b2816f5d243a8daf36ca83d9d9d04f00e4c sched_ext: Use @prev's scheduler for the keep decisions in dispatch_one()
+a0d356696f87700c8c2934e3881277b0d37f0b71 sched_ext: scx_qmap: Do not add IMMED to rescue inserts
+63b4ff622244483e7c530e97d787a3d6c2c38a33 sched_ext: scx_qmap: Place only on cids whose caps are in effect
+89ff16f0713917303210c560eec5cd0c13bd651f sched_ext: scx_qmap: Fix pending partition work handoff
+c7a1c6e8004ab12a9c9bfdcb603f60f9bf4a3cee sched_ext: Close the pre-enable ops error claim window
+057dac23d329d5c5ed62352f2659a39fd46c6d4a cgroup: Avoid iteration of dying tasks with zero refcount
+82431877d837a6c2593efd8e66ba28b35a220ca4 sysctl: Check range in  proc_dointvec_ms_jiffies_minmax
+318012c56576e09806747f64f89f8f3cde1f999f sysctl: Check range in do_proc_ulong_conv_ms_jiffies
+afdf35cfae0d039a4a6c907fa5d8391f1ef0a0aa sysctl: Fix type truncation in sysctl_msec_to_jiffies
+f6e7b42bf05b2427fb8a7a1d1c387a86638bb413 Merge tag 'sysctl-7.03-fixes-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+9a0b159ff18c8f6fcf982bb81e15a9ceb14db43a sched_ext: scx_qmap: Restore unused idle claims from ops.dispatch()
+a9e3760b0838299649c0d57cca44daaf40ba3c33 sched_ext: Maintain an online cid mask in the scheduler arena
+6fb20c02710dabc2f63aa21cb23a154d76ef9921 Merge tag 'cgroup-for-7.3-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+9b87fdc9af2fbfcdb5c24a64139685ef80f6573f Merge tag 'sched_ext-for-7.3-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+c8beda268a6b21910d1325584ce1d45bce4f22f0 x86/mtrr: Fix kernel-doc notation of amd_set_mtrr()
+68519dcded8b378874a2e7ce9509aa1b78cbf703 Merge branch 'linus'
+919d20d95a6dadf9c0dbe7395a4de53d1cf2a0c3 Merge branch into tip/master: 'x86/cleanups'
 
---===============5185436709424926286==--
+--===============2313798106343804024==--
