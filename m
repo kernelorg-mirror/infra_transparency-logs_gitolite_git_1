@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6999242623621767344=="
+Content-Type: multipart/mixed; boundary="===============7673342769452601461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:13:16 -0000
-Message-Id: <178957879692.3638762.14885847175480112222@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:13:19 -0000
+Message-Id: <178957879964.3638904.96324051707897194@gitolite.kernel.org>
 
---===============6999242623621767344==
+--===============7673342769452601461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfsd-testing-canary
-    old: 2b14b309c510763aaad5982fc99a769c8cd8f370
-    new: 54ef7481f9b0dd02673a443ff1db415e14636f0c
-    log: revlist-2b14b309c510-54ef7481f9b0.txt
+  - ref: refs/heads/kernel-6.12.110/nfs4_acl-passthru
+    old: 28670c678b00a0fb7ca2e8113c0fcc27f21d61c0
+    new: af0bb714ca7390f3b298bfbf71c7baea3a46572c
+    log: revlist-28670c678b00-af0bb714ca73.txt
 
---===============6999242623621767344==
+--===============7673342769452601461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b14b309c510-54ef7481f9b0.txt
+Content-Disposition: attachment; filename=revlist-28670c678b00-af0bb714ca73.txt
 
 dd4b9f8aa736f29247db35fb64f3a9f723dafd8a lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 0b6c6b07747e16f5228c046016aa03d424924f23 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -141,15 +141,16 @@ b5e73f4cabf885b4af71c0beac8fa4e2f5c3fd8c Revert "NFSD: Defer sub-object cleanup 
 22c2d5a5fee7f4801212b62c309c8b42e700453c nfsd: fix dead ACL conflict guard in nfsd4_create
 1bbbdea5c3f2e6a2f0bc5927bb9dc1342df858d8 nfsd: fix inverted cp_ttl check in async copy reaper
 fb58ce1e85b6e48e2783851c00fd858826db42ab svcrdma: wake sq waiters when the transport closes
-26f2a33031b2ade5c4d6efc0988c91d1d7eb45d7 NFSD: add NFSD_IO_DIRECT heuristic for small IO
-be29cc9f470160e72956e0aaa33098d094466d8d NFSD: add nfsd_direct_misaligned_num_pages modparam
-5df9e24f77f164a7e031937cc4bd2073137afadb nfsd: fallback to DONTCACHE if read IO less than nf_dio_read_offset_align
-c708bdb09e3c7a2b1d33c32dcf651d2a326287de NFSD: Enable return of an updated stable_how to NFS clients
-26326a1c04037a463fcdce0a0b7a2663be398463 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
-429500bcd4b120af7daa349c836b88af98c6b33c NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
-019fcac0bbe94f4b5b0d90a63c4f89157aaa998f svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
-726444279a3aea09e038c13eddb292d1e775c07e svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
-eb4126aca926fd556716abe81250a9f0bd4920d6 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
-54ef7481f9b0dd02673a443ff1db415e14636f0c svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
+768312be8583dba2e7ed5d690f86cd8d3e12cc5e exportfs: add ability to advertise NFSv4 ACL passthru support
+c341710d11eaf3e2e9a769034a7d7bab0968e93b NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
+cfcd9ecb0f30e08e895950b8061748701e52cbbb NFS/NFSD: data structure enablement for nfs4_acl passthru support
+177e2aa59e2d47f937b118f672c14e49a80c79a4 NFSD: prepare to support SETACL nfs4_acl passthru
+7e521335e224872c55d9b16a914bb031179a4f6e NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
+ab732653b0c026a9fc5ce0426eea990fd747831a NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
+636ed4f989f11fb70adb9479742a48b677496edd NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
+87600617175a64bfd92834f751302f5be732ba62 NFSD: avoid extra nfs4_acl passthru work unless needed
+280eab481a4a740b61acf18799b5ff80e867d394 NFSv4: add reexport support for SETACL nfs4_acl passthru
+60ac040880131784f14b5d50bff52b585542a238 NFSv4: add reexport support for GETACL nfs4_acl passthru
+af0bb714ca7390f3b298bfbf71c7baea3a46572c NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
 
---===============6999242623621767344==--
+--===============7673342769452601461==--
