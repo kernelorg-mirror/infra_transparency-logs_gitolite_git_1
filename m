@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5077732623268080738=="
+Content-Type: multipart/mixed; boundary="===============1013990845222933325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 16 Sep 2026 09:04:37 -0000
-Message-Id: <178954947709.3170659.9324157849987637689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 16 Sep 2026 09:04:44 -0000
+Message-Id: <178954948489.3170941.17734045546580186594@gitolite.kernel.org>
 
---===============5077732623268080738==
+--===============1013990845222933325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 24c21f0e97a4cae0f42a420e0e286e2eea051004
-    new: 3b35f726c20d138fafa154182ee926a419306269
+  - ref: refs/heads/master
+    old: 8ba80da41435ef56d0e78159b1f073f82c9ebf9d
+    new: c86575c03ffd2969ed72cd9dc7bc1db370ba7a68
     log: |
-         4e1b57b6895945e7f8282dafcc4db93e57a47134 wifi: iwlwifi: use link_sta internally to the driver
-         a8188bb7644f6416c7c16f4964b45ea1b40afcfc wifi: mac80211: change public RX API to use link stations
-         4db13371e217c360cda76578f9eb5e1bcd10a17a wifi: mac80211: refactor RX link_id and station handling
-         6d531b9af16ea84aab72db573384fa94bfa0f2f7 wifi: mac80211: rework RX packet handling
-         de5f5ca3d3bfcdcc38c10eb9246eca3687cd2261 wifi: cfg80211: add attribute for TX/RX denoting there is no station
-         fc60152ad26d085e12d3dfd33e3d5640e8cbbb72 wifi: mac80211: report to cfg80211 when no STA is known for a frame
-         ec27695b0e5ca5360c7ed6d677fbc8e3cb13057b wifi: mac80211: pass station to ieee80211_tx_skb_tid
-         3b35f726c20d138fafa154182ee926a419306269 wifi: mac80211: pass error station if non-STA transmit was requested
+         c86575c03ffd2969ed72cd9dc7bc1db370ba7a68 add hwmon and watchdog to the "ignore list" for AUTOSEL and Fixes:
          
 
---===============5077732623268080738==
+--===============1013990845222933325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1789549414 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1789549414-22241e1edb6a2c979ceffc33b274316a9602b728
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789549370 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1789549480-d4c74df5b20162267d9499465ec17feff7cc77d9
 
-24c21f0e97a4cae0f42a420e0e286e2eea051004 3b35f726c20d138fafa154182ee926a419306269 refs/heads/main
+8ba80da41435ef56d0e78159b1f073f82c9ebf9d c86575c03ffd2969ed72cd9dc7bc1db370ba7a68 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqqW2YACgkQ10qiO8sP
-aABOLg//Xhye9S7g0qLbUrLoE2Zjty1fmbCU5Ny2lSrQRTxOzt6wQKuYLIj19n7V
-++4pTaOQ3AxLPwL1DE45xscvqMjc6AZmdFgFTWTYzD9HNzyz2FRmNEMmWRbh/c5q
-9nlRyOArlWQH2Jxe+p4PKMgLVhbi6qw1tZwkgF7jxzXQLIGJrLWQC3UTiLYjLk0k
-lLoCkLE97NtNgXPfYJtOFMS6OvU4JxyKCi01E78kCqv6MPP9lRNNTB4QqoBzGU9u
-9hW18fzmqXSp5Y6xowT6iZUTBzSwGZB/f7Q2oUFYY1dcuM4tkAOf4gsXEEjzXxfC
-y5cq89Z9HylTqZ+RxOvA5VLPJM/G/Wd8VlYuGzs2TlPyRR8whROw+7RAVa+p1d5c
-Yee6ZEzN4WepiGovDJQIkEYwD9o+Tx7TskI3RBZWbStQWlkLkBG4t6FDqa4lX9P3
-y0Ad9K/qVG9Um4G2DiY+PUGjnR75D1d7mxa9V97UALr6oMXVjed1YnPQ7V2sLu77
-dpvvKbTKJkTy2sdNd2wIQNoSDlyVgqnypygnEJ/bb8vcbOfAwToehg7fRIV5vfDX
-jmBECmetbZicwOZ936+2xz/3N/9YlQrigpsZ5l3uKz+Mt4KQgbnl3ZmTVexzvedY
-h0NtKhksWd63ZBzAw4wBOzlZg8zhI8mWw/q47RrFOb0iN8ETx2E=
-=KY/O
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqqWzobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3OkQALzRNo0kVbv55O5bY/bc
+fmthAG0XaUWz1lPu0rd8GMyFWCWw+tZLwwZDTqvOx7q2jgkoPXB39sLhMXaSUAZl
+TYFguKqSIMJq6IyHRR2duisXKw8MPSHabNZc/bGLleLN2n+qKFL+CS6MRDZA139w
+uuTDykgKcze/SpUo57BMVq8FqBuaS2UD0K03TwrrandnNVHwHi2BoLWT0w+X0OSp
+Lv/kzhJZWIbqI2OkE+yYFuOxPZl03cCiXYQwFMRkvPZ9982PtfC4HqiPp2gXCS2D
+C5Aty5oFtl2vI82hUcSgxxAErP37xoQfCd6Fu2RaCfJAlH6M6hYY/qyTZ2oS01S8
+nSj+ID2P/owWS3NzVX0DkpJ9TrBhtjIDB8NF9otdOgdQzUWiLz4pw3NL2Kt+pijK
+ckw4pr9OuKA5EA2QNWPaVKyV6pMLMnlx4ym4GyKBL8es7NCk+2zJwFIF9XZSX1Rq
+QTw/Io8zBdIsDG+IHaSS36W1t9SJ3aY/GbYbJavSAASld3CAtmkim8dB6g1K4WvX
+sXKYks+YW6G+F09IQOSAwZBtkVts5vyHj6jFJDgIUC4W+UMAXTsn8gNRtOMSc2Iu
+eye4sPHVj21TV5u3Rbg1eRT4y1pup/bOCOhXuNECOnD5/qTVFWN/SwKOvanQ6zrq
+52R3VwcIYl4DW/SA34mZdceR
+=k7+B
 -----END PGP SIGNATURE-----
 
---===============5077732623268080738==--
+--===============1013990845222933325==--
