@@ -1,34 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============8419086273173014906=="
+Content-Type: multipart/mixed; boundary="===============8306670572595935451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 16 Sep 2026 12:09:40 -0000
-Message-Id: <178956058045.3378021.3012937161039099697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 16 Sep 2026 12:21:24 -0000
+Message-Id: <178956128418.3388653.12830167744425028747@gitolite.kernel.org>
 
---===============8419086273173014906==
+--===============8306670572595935451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/next
-    old: e26307d83048803274837abf33f65396a88e21ac
-    new: 8327be0b8a28c7e751a9de32e2bf3ec61d44c60c
-    log: revlist-e26307d83048-8327be0b8a28.txt
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
+  - ref: refs/heads/locking/urgent
+    old: a3b8d46fe401cba3a5c46dea610e6eb3dc15370e
+    new: b61b6f95d6722ddbbbd09e689fa41b55fd36f9a5
+    log: revlist-a3b8d46fe401-b61b6f95d672.txt
 
---===============8419086273173014906==
+--===============8306670572595935451==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e26307d83048-8327be0b8a28.txt
+Content-Disposition: attachment; filename=revlist-a3b8d46fe401-b61b6f95d672.txt
 
+c53f5bfc370046e098fe04dc045e9e3cf19df609 ALSA: usb-audio: Add mixer map quirk for Audient iD24
+a0c798ed4103316c23938bdf625af364fbd38016 s390/boot: Fix physical memory search range
+d76181dfabdaa720703167393704efacba343442 s390/boot: Avoid IPL parameter append past command line
+12373ea918a0e72483662095686556eea21d67bc s390/boot: Bound command line facility ranges
+33123ff9cbcb35640f56efb8ede1d6f0d97376fd s390/mm: Simplify crst_table_upgrade()
 98d23edcd41432286cf03672252507a841323c8c s390/zcrypt: Fix uninitialized padding in CRT key structure
 148845aa1921d95ef5dc851c76e6a284f6657df6 dm-crypt: fix a tiny race condition in crypt_dec_pending
 bc9781c0247de107876f32929f1637db93a42b34 dm cache: fix issue with background work locking
@@ -140,7 +142,6 @@ eaece4849991d62fcd6f46637c55dcce00e25d70 x86/itmt: Don't make ITMT enablement de
 f0d243a96f2684ad771d678767d17972cf840bd7 sched/fair: Avoid creating misfits during cache-aware balancing
 8a7f5b5e860b5c113ca99acd5b1e9074f5c5af3c perf/core: Skip empty AUX records with only format flags
 58a8108bc73de0740d5b88150465d6690ea5f85f perf: Fix use-after-free when perf mmap() revival races with the last munmap()
-02c6be7d675b21d81f0ba3a524346850a8c0e3bf locking/lockdep: Invalidate stale class_cache entries for zapped classes
 ff5891b266a7fc6a062710836be84f1cc19338b5 ieee802154: cc2520: fix FIFOP work use-after-free
 bf79662bc85e820ac3b846e2f347da29fbf6ac95 ieee802154: 6lowpan: fix NULL dereference in lowpan_newlink
 979d5b8de8ed4e1f997aef12da5694b99be7b871 ieee802154: hwsim: serialize pib updates to fix double-free
@@ -374,8 +375,6 @@ e7d28823c662128caae63f14e16bd394916c139b bpf: Reject legacy packet loads from ca
 42bc1b92c9b98674ab4f368e1bd6fa9be479e969 Merge tag 'drm-misc-fixes-2026-09-03' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 254c881fe0554c5efb16d355c273702a27a32a20 selftests/bpf: Add tests to assert that netfilter progs cannot write to skb
 5ff6e2f8a779f72306bd93bde40c1b10436dbf58 Merge tag 'drm-intel-fixes-2026-09-03' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-912edebe8501a36c6bedcef03bd238ab90a7e060 futex: Provide rt_mutex_.*_schedule() equivalents for futex scheduling
-a3b8d46fe401cba3a5c46dea610e6eb3dc15370e futex: Prevent rcuwait use-after-free during requeue PI
 797b13a7de957792c1b4773aa2cc3dab4621fd9c irqdomain: Delete irq_domain_add_linear()
 5ab54837fce04a1c9923d0bfd3d5de51fdc768b3 fs: autofs: fix memory leak in autofs_fill_super()
 ac53977611428db3bc0b4ac0225e19c3e08ae50b crypto: x86/aria - add missing vzeroupper in AVX2 code
@@ -1050,8 +1049,6 @@ d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled befo
 d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem to have fallen through the cracks
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
-c5c5d85015756133c6acfc0081ede5c6abe7438b Merge branch 'lsm/dev' into master
-bf4d45678acf8daff619e4599fa03a02a5cfb691 selftests/landlock: Fix trace variant formatting
-8327be0b8a28c7e751a9de32e2bf3ec61d44c60c selftests/landlock: Fix disconnected variant formatting
+b61b6f95d6722ddbbbd09e689fa41b55fd36f9a5 futex: Also allocate private hash on vfork()
 
---===============8419086273173014906==--
+--===============8306670572595935451==--
