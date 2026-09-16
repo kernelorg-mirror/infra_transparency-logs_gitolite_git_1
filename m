@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 16 Sep 2026 13:11:57 -0000
-Message-Id: <178956431710.3429176.7569764514725151556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 16 Sep 2026 13:15:05 -0000
+Message-Id: <178956450552.3431984.7042131478432456781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/master
-    old: 76c479c03daac3af7ee322827143cc1bb9cf60a7
-    new: ea50b70d7d1414cf43687f56815d8e41d55b672e
+  - ref: refs/heads/next
+    old: ac48e1a5d0469d717dfaf5ff957f24778a52afe1
+    new: a755e9bed438898777e7837e7bbb94895365647c
     log: |
-         c34f8c97f99686b476ee29754903defe37ab3385 tests: verify restricted mounts use pinned targets
-         ee4648a47027c191806a43ce132c71a070dd7c02 tools: improve static build
-         ea50b70d7d1414cf43687f56815d8e41d55b672e Merge branch 'PR/mount-restricted-fd-test' of https://github.com/karelzak/util-linux-work
+         a755e9bed438898777e7837e7bbb94895365647c landlock: work around gcc-16 -Wuninitialized warning
          
