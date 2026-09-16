@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8119754579341424958=="
+Content-Type: multipart/mixed; boundary="===============1376068579201285159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:10:52 -0000
-Message-Id: <178957865211.3634641.17983882725661843286@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:10:54 -0000
+Message-Id: <178957865479.3634801.12976970018494573601@gitolite.kernel.org>
 
---===============8119754579341424958==
+--===============1376068579201285159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-7.0-2
-    old: 74348c0603e9500537bb3acdf860875b2c32425a
-    new: 306b7c87cecada3e7cb67cf93e171c51244685bd
-    log: revlist-74348c0603e9-306b7c87ceca.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-vfs-7.0-rc1.atomic_open
+    old: 86d8190f380b8a420864aa41c63d13652ee89481
+    new: 7d825f2e6c220c1fa242920f2508230069ee2de9
+    log: revlist-86d8190f380b-7d825f2e6c22.txt
 
---===============8119754579341424958==
+--===============1376068579201285159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74348c0603e9-306b7c87ceca.txt
+Content-Disposition: attachment; filename=revlist-86d8190f380b-7d825f2e6c22.txt
 
 60779c1e9b24dc9f43cd53842b35947e264fdf32 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 1be762b03b90cff9ef03acbebab1136622481959 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -90,5 +90,9 @@ a768a7340ca28f5297bb2f1ea81b808165cba34d NFSD: Add support for POSIX draft ACLs 
 320b07cc39240ec1301dafa41c5f9850d41c506e NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
 35ed70e495bd359d2408aa19e23968e8f234ff20 nfsd: report the requested maximum number of threads instead of number running
 306b7c87cecada3e7cb67cf93e171c51244685bd NFSD: Defer sub-object cleanup in export put callbacks
+58cb9f81d304210804ae7e55b5b37ca942238b9e VFS: move dentry_create() from fs/open.c to fs/namei.c
+7058612ef13cb108988e876d713fe239a8ab7c2e VFS: Prepare atomic_open() for dentry_create()
+823ce73866026a3644a883c0b42fe943f757cb80 VFS/knfsd: Teach dentry_create() to use atomic_open()
+7d825f2e6c220c1fa242920f2508230069ee2de9 fs/namei: fix kernel-doc markup for dentry_create
 
---===============8119754579341424958==--
+--===============1376068579201285159==--
