@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2889260139305437137=="
+Content-Type: multipart/mixed; boundary="===============8703298484920521376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:11:03 -0000
-Message-Id: <178957866379.3635375.15116822806055227213@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:11:06 -0000
+Message-Id: <178957866640.3635560.8381704055714867299@gitolite.kernel.org>
 
---===============2889260139305437137==
+--===============8703298484920521376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next
-    old: 2223dcf589e25e211fc3384b088a33aebacf1b71
-    new: e151adc76c16357d3f9751252c342f9a86ead0f1
-    log: revlist-2223dcf589e2-e151adc76c16.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary
+    old: 1eb3a1c116b1a0290f1d2166fc2650e692181fc8
+    new: 0f0cf9526f6379628eeedce5ece5da1a4d18a5b5
+    log: revlist-1eb3a1c116b1-0f0cf9526f63.txt
 
---===============2889260139305437137==
+--===============8703298484920521376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2223dcf589e2-e151adc76c16.txt
+Content-Disposition: attachment; filename=revlist-1eb3a1c116b1-0f0cf9526f63.txt
 
 60779c1e9b24dc9f43cd53842b35947e264fdf32 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 1be762b03b90cff9ef03acbebab1136622481959 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -154,18 +154,15 @@ b522135cdd968c676d345111358544edd5fe0189 sunrpc: wait for in-flight TLS handshak
 837076d868ee9c8ce8c590e7e495180b633c42eb nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 2d523fead500af865466826f6e0b4f92fa3a5930 nfsd: reset write verifier on deferred writeback errors
 bdab09f9751e2aaa187fe846897e6a0458997535 svcrdma: wake sq waiters when the transport closes
-318782330f7fa149f984d9a3b05b213b616db080 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
-55dd7fd56cd56ea9299b930ce724e893b1edc158 nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
-61c488ccc9bb57a36c730fb6ad68f0c18cb1cbe8 NFSD: check truncate permission under inode lock
-4c74dd9cfb44066721adf3e3ae2ea8e01d101269 nfsd: fix partial-write detection in nfsd_direct_write
-5c89a675d6dd618d05cd795261288ff1fc44ed7d nfsd: hold rcu across localio cmpxchg retry
-ed9d01dbe210396ec5904f09c27994e084eab1b9 NFS/localio: fix ref leak on nfs_uuid_add_file failure
-7829412dbc3cff45830f5fc9004c814866e6e7eb nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
-644b41b7d068f62dd317d0f13d54516d4555c811 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
-976f53a2d72090e769339b1d5a2fc02e49b43a4f nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
-ab0055636cb3c43239106f4253eb15df922b343c nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
-8f2cd9033489ae7ca24b6b91b78476d728fd1972 NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
-76f19a21e20e44c636876fb3c90b8afdd124f57a nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
-e151adc76c16357d3f9751252c342f9a86ead0f1 nfsd: initialize DRC hash table before registering shrinker
+c02f14bac8c40a1a9adfb2f6a71825779bb3729f NFSD: add NFSD_IO_DIRECT heuristic for small IO
+b887b0ec711d9bb1a78eb643ca2fcdabc678dac8 NFSD: add nfsd_direct_misaligned_num_pages modparam
+510bf14992bfa55be2ad9a5825bbb0fbd0091e04 nfsd: fallback to DONTCACHE if read IO less than nf_dio_read_offset_align
+82ba5177a9d5346cf8e80c0057b8cba87f6a26ef NFSD: Enable return of an updated stable_how to NFS clients
+5657b554ed5f0167acbd985fdad0f3d8046c1bb2 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+1c601518900810347343148983ee20b8afb67763 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+9a3efa893337527082b3fd029015f04a04dcedc9 svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+35f67c30810347af87770195a2cc5621fe197fdd svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+a8782b3836c291e1e04aba2701c960fae3d71907 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+0f0cf9526f6379628eeedce5ece5da1a4d18a5b5 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 
---===============2889260139305437137==--
+--===============8703298484920521376==--
