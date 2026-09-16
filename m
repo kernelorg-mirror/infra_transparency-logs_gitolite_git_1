@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8677138712102893723=="
+Content-Type: multipart/mixed; boundary="===============0716718522236497960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Wed, 16 Sep 2026 10:10:26 -0000
-Message-Id: <178955342635.3284017.2200312110951147163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 16 Sep 2026 10:15:12 -0000
+Message-Id: <178955371297.3287653.3276987412946694709@gitolite.kernel.org>
 
---===============8677138712102893723==
+--===============0716718522236497960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: d1ad770c8e7e6cebc477f3e8555b1601b771ca13
     log: revlist-643a5d8ffd76-d1ad770c8e7e.txt
 
---===============8677138712102893723==
+--===============0716718522236497960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ bf356708c73b68358ebe9df1006774c1b9215309 libfrog: clean up xfsquotactl a little 
 3dc24f302503b82948de42face870a8b544d4cd3 xfs_quota: open the filesystem mountpoint for quota operations
 d1ad770c8e7e6cebc477f3e8555b1601b771ca13 xfs_spaceman: port makecfg to use xfsquotactl
 
---===============8677138712102893723==--
+--===============0716718522236497960==--
