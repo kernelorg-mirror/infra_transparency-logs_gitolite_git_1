@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7152794417061758877=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 16 Sep 2026 14:51:40 -0000
-Message-Id: <178957030011.3513579.17353727425453344973@gitolite.kernel.org>
-
---===============7152794417061758877==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 16 Sep 2026 14:59:50 -0000
+Message-Id: <178957079080.3518851.3617647361089828536@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 01d95623717226dcc6e143d76cd0a60434476b60
-    new: 3b2903f88a24ff4ae1f71da4ec0b7a1697d86ee0
+  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary
+    old: b66059468c9a99c1d4a1e65d6dd6509bf7f8c941
+    new: 1eb3a1c116b1a0290f1d2166fc2650e692181fc8
     log: |
-         3b2903f88a24ff4ae1f71da4ec0b7a1697d86ee0 add some 2026 "not_reverts" as they have been researched.
+         a279e04a910ac6dc6e7fe3950b1d1b0f4ad3bd61 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+         46e9aa375899834e2a4807a72d97d89a3d317042 NFSD: add nfsd_direct_misaligned_num_pages modparam
+         15de2b7369591cb3184a195b2ecbd5fe12b72b1c nfsd: fallback to DONTCACHE if read IO less than nf_dio_read_offset_align
+         d04cdc88524779bdba0b4e9e955e575532103c1d NFSD: Enable return of an updated stable_how to NFS clients
+         8d55674c5937fc2e515318498e1b3f3fe799f6de NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+         cc39fadc07b1808bd7a46b6568c39c56120a5e8f NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+         4d8753c87e426ba34a092cd759ecee07f8c569a2 svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+         3a6997c53afe155654df5167c2e58a072b08bec5 svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+         412db64f4aade710e108b3556e9aaff11996be5f svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+         1eb3a1c116b1a0290f1d2166fc2650e692181fc8 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
          
-
---===============7152794417061758877==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789570187 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1789570299-6b81d64b88d6b8c8d7f8d55c2cc8117b433c15a4
-
-01d95623717226dcc6e143d76cd0a60434476b60 3b2903f88a24ff4ae1f71da4ec0b7a1697d86ee0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqqrIwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9zQP/jX8OIajYxuA6thX/iZH
-Dcv5ip/N4ZN+V7sw6w8Qzjyuk9xbM4d5GHEqv4bML3ptrZkCkQlmHX3kLRoq2yFH
-qTWn/6J3PcggXmFNUP5v3TJC4k6UOlRT3o7i/b33IqLSNUtJ1wx6NuMOLlWHd1Ee
-gFX+LCkOipBK4g1M1YWsY4i5TY5kylDNBcIMAa2PckEzahUnwe2Mxg9EBewUi0sc
-xlDuBsulrmtDmPYnNddFb7BjLllR+nzHekXXFgu6AOprrbfzDA/dYDsPyZdAq33v
-qZ5VJdUmjwhfryW/6J4YMRvo9CmKe38SU05mt+DmaU5/3U7LTFfBLSyiIJsVMb5Z
-XH5cwVuhd73xHTOzjywXXNf3egwAxILoZfD7NBx27PdY5NwKE+U1fLE1GmMaRRlE
-4H2Ad7Ql3BW1FZn+7TCFEri8rJ3ORGOBUiGsBgjExeXsS++vNQ1PLDOiJpHNC/Kp
-ULqf8skRup/MPVTYPnEFHjYW2Rctgj6evA6p2lEj0GlaCXDrXCAKeaSqztHYQusU
-XqYIcMkc1iu7QcHh88iVRdZcLWTBpr+LynjuHVYgqI4ko/m6+5Tao4/Evt4T2V/k
-7Szbu/NRiSNt4Qbp8sBI/XzTcZgzoysIUEeLEQi5czDxmDS7UtF+ODKMwtEgUrn7
-GQQRsuO5YVV8fABDDh+q/Lho
-=TH4O
------END PGP SIGNATURE-----
-
---===============7152794417061758877==--
