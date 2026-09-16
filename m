@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 16 Sep 2026 13:04:58 -0000
-Message-Id: <178956389823.3422005.11068999493426372095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 16 Sep 2026 13:06:41 -0000
+Message-Id: <178956400171.3425110.6766915735581941443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: cebd824d439e8acea65a8cfdd7fe7e7a14adf8dc
-    new: 23a68d23ab27a5dec89ca8bab81636d404b84c73
+  - ref: refs/heads/bleeding-edge
+    old: a1ec16274245af6bb9620c605b049c70a217cfa3
+    new: 4ea7d7681e0bf23f3f1d5399fece948c21646bf8
     log: |
-         c9b3c82c9f1f86cdb2449d47e4ca66a19159ee12 arm64: dts: mediatek: mt8173: Fix MFG_ASYNC power domain clock
-         f0d8c2b05e2d384c0162b41d3728433c1bb23972 arm64: dts: mediatek: mt8173: Add GPU device nodes
-         23a68d23ab27a5dec89ca8bab81636d404b84c73 Merge branch 'v7.3-next/dts64' into for-next
+         7c8f4356bbc7c7fd8fd2023546dc6f4d8206258d ACPI: tables: handle failed initrd override mappings
+         7eadbc5f4988ba8f7beb1b7a3b17eab38a29f89b Merge branch 'acpi-tables' into bleeding-edge
+         4ea7d7681e0bf23f3f1d5399fece948c21646bf8 Merge branch 'acpi-pri-dev' into bleeding-edge
          
