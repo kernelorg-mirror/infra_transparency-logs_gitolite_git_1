@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3110769329008313043=="
+Content-Type: multipart/mixed; boundary="===============8254540716043973980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:13:08 -0000
-Message-Id: <178957878892.3638318.11474634516755160615@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:13:11 -0000
+Message-Id: <178957879166.3638454.10453488072631300462@gitolite.kernel.org>
 
---===============3110769329008313043==
+--===============8254540716043973980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfsd-7.1-2
-    old: 198d1d6186c5f6efe965e795283f42d4b345e024
-    new: 609d754fe9afb53545e7e53558b5f2c4fe4c9629
-    log: revlist-198d1d6186c5-609d754fe9af.txt
+  - ref: refs/heads/kernel-6.12.110/nfsd-7.2
+    old: 7e0381631b7d8a6697f0bbd3fc7b9fed1fb572d9
+    new: fb58ce1e85b6e48e2783851c00fd858826db42ab
+    log: revlist-7e0381631b7d-fb58ce1e85b6.txt
 
---===============3110769329008313043==
+--===============8254540716043973980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-198d1d6186c5-609d754fe9af.txt
+Content-Disposition: attachment; filename=revlist-7e0381631b7d-fb58ce1e85b6.txt
 
 dd4b9f8aa736f29247db35fb64f3a9f723dafd8a lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 0b6c6b07747e16f5228c046016aa03d424924f23 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -130,5 +130,16 @@ c7622b0eba41e6df9303287de8d933a3ad846244 nfsd: update mtime/ctime on COPY in pre
 28353003d13056e6879b3b29f388144bfdc3f8f0 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 914b536b260d41dac0a7c5fbec958488629f0569 sunrpc: prevent out-of-bounds read in __cache_seq_start()
 609d754fe9afb53545e7e53558b5f2c4fe4c9629 NFSD: Report whether fh_key was actually updated
+cdafa9b4a6afbeb66750a485e4486621840fd287 sunrpc: skip svc_xprt_enqueue when no work is pending
+fffd2d31dc1e11f9841fc2422c0b2310be7504e9 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+65fa61d42ff489f71aa8c9275baaddef1f4cfcee sunrpc: skip svc_xprt_enqueue when transport is busy
+0ecf41dab3574d732a977a1a1244deb7f9eae039 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+eeac9c9813c977c3b0484296aa1edddf1fb6d2e6 NFSD: Increase the default max_block_size to 4MB
+bb95b86bf247d18e7a8a5760cbbf0f1a70bbdabf svcrdma: Release write chunk resources without re-queuing
+b5e73f4cabf885b4af71c0beac8fa4e2f5c3fd8c Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+4e15740bde4289e45f870c4dc2de16a8b3aba7bb sunrpc: harden rq_procinfo lifecycle to prevent double-free
+22c2d5a5fee7f4801212b62c309c8b42e700453c nfsd: fix dead ACL conflict guard in nfsd4_create
+1bbbdea5c3f2e6a2f0bc5927bb9dc1342df858d8 nfsd: fix inverted cp_ttl check in async copy reaper
+fb58ce1e85b6e48e2783851c00fd858826db42ab svcrdma: wake sq waiters when the transport closes
 
---===============3110769329008313043==--
+--===============8254540716043973980==--
