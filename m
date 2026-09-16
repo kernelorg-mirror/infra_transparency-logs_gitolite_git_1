@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 16 Sep 2026 21:30:14 -0000
-Message-Id: <178959421485.3871638.7550706020768878175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 16 Sep 2026 21:30:36 -0000
+Message-Id: <178959423692.3886722.2591201332611846614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: 057dac23d329d5c5ed62352f2659a39fd46c6d4a
-    new: c774ec8f0a5d02a06d34c27f5a7de7e333b91265
+  - ref: refs/heads/renesas/x5h/rtc-experimental
+    old: 0ab276cc990d01e71404656b0acc0a992d10a98d
+    new: b0e213899b1cc73199fbb4bb874e63f958218949
     log: |
-         c774ec8f0a5d02a06d34c27f5a7de7e333b91265 selftests: cgroup: give the O_TMPFILE open in get_temp_fd() a mode
-         
-  - ref: refs/heads/for-next
-    old: 02f890299bd9a8de7d4a83aecb4a882ea98fc70e
-    new: 66a9653519268f996c7d678f763303143e91444f
-    log: |
-         c774ec8f0a5d02a06d34c27f5a7de7e333b91265 selftests: cgroup: give the O_TMPFILE open in get_temp_fd() a mode
-         66a9653519268f996c7d678f763303143e91444f Merge branch 'for-7.3-fixes' into for-next
+         e928d7beeb6cee0ac90baa6bc0de05ae5c95a107 selftest: rtc: rtctest: don't mention skipping twice
+         bf6588e003af481bb7df08964fd94dc8fae13276 selftest: rtc: rtctest: make missing UIEs really skip
+         4d86e2d560a64df270ba6d78e49a3db19da9d3ea selftest: rtc: rtctest: skip properly if setting alarm fails
+         b0e213899b1cc73199fbb4bb874e63f958218949 WIP
          
