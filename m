@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7673342769452601461=="
+Content-Type: multipart/mixed; boundary="===============2424337313009592154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:13:19 -0000
-Message-Id: <178957879964.3638904.96324051707897194@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:13:24 -0000
+Message-Id: <178957880412.3639134.6251257444971227846@gitolite.kernel.org>
 
---===============7673342769452601461==
+--===============2424337313009592154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfs4_acl-passthru
-    old: 28670c678b00a0fb7ca2e8113c0fcc27f21d61c0
-    new: af0bb714ca7390f3b298bfbf71c7baea3a46572c
-    log: revlist-28670c678b00-af0bb714ca73.txt
+  - ref: refs/heads/kernel-6.12.110/main
+    old: dfef1f0b7e599f01d609693b299c9c7876b018be
+    new: cbf4f4dca8fd183cb9ac4a66a7ca9e3ccd01d176
+    log: revlist-dfef1f0b7e59-cbf4f4dca8fd.txt
 
---===============7673342769452601461==
+--===============2424337313009592154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28670c678b00-af0bb714ca73.txt
+Content-Disposition: attachment; filename=revlist-dfef1f0b7e59-cbf4f4dca8fd.txt
 
 dd4b9f8aa736f29247db35fb64f3a9f723dafd8a lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 0b6c6b07747e16f5228c046016aa03d424924f23 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -47,14 +47,16 @@ eb53e8cd8be87edfee131ea448d6fd0d7f304676 NFSD: nfsd-io-modes: Wrap shell snippet
 1053a62f504b8184d8afa3e6d6cac3471815d21f NFSD: nfsd-io-modes: Separate lists
 ba9c9cf4ce075694a64930aaa3cf47a4929f0d37 nfsd: fix memory leak in nfsd_create_serv error paths
 3b263cf8126f88701aafa88e536326a1dae7b87b NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+3023f58d6b8110f5a8aeda50355c52e4e3aef919 Revert "svcrdma: bound check rq_pages index in inline path"
 cb1ecf40e7282992aca7a05f9caa3e8164a82ce4 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
-9ccfa97451bef3d78604054d97cce60317bf2cd0 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
-5256cf293b45312b4baf4c7974ba4cb446cba711 NFSD: net ref data still needs to be freed even if net hasn't startup
+82e56b60576e014c9815e4b8b6ba7761eb6d3817 svcrdma: bound check rq_pages index in inline path
 acff5a9e87b6529a6311c8c75ea18f2235b7de58 NFSD: Clean up nfsd4_check_open_attributes()
 39069daf3f9544406e0409029c7f5606103afc62 xdrgen: improve error reporting for invalid void declarations
 8096a1fca10e56b167bc822b00caa36515173aad NFSD: Add instructions on how to deal with xdrgen files
 25afbcec59a6742a440a7e3fff9ffc8113f9bfd7 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
 7d3e1bdf791d539c59365aed898981e6371428da locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
+9ccfa97451bef3d78604054d97cce60317bf2cd0 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+5256cf293b45312b4baf4c7974ba4cb446cba711 NFSD: net ref data still needs to be freed even if net hasn't startup
 0d2a0f02f3ea8361f01ab75c33a9a180cd3f0da5 nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
 dbe5407b54f6d81e700b34c7a13bf547ee90215f xdrgen: Emit the program number definition
 5116d2d9cd17041b5bb6073d5ecfdc3632d64124 nfsd: use workqueue enable/disable APIs for v4_end_grace sync
@@ -87,11 +89,11 @@ d8c1f5f9a32ac07a77af5ae9de3f0f47fec7cdf1 NFSD: Refactor nfsd_setattr()'s ACL err
 5f5fa7e13a20e1d6fa4b304c8d96dadde67654e2 NFSD: Add support for POSIX draft ACLs for file creation
 2144ba78585ec8047f2f3532181011ae50461dfe NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
 4fcfaa4cc0c26774de81ac5002341b9a56251a9a NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
-e959ea8f1c55cb4674dbbd2e270b45a606081820 nfsd: report the requested maximum number of threads instead of number running
-2e71225c796a374f24575c4e63a92ecc5ca428cd NFSD: Defer sub-object cleanup in export put callbacks
 dc85f0daa6206d4ec3874aaa54a9583a239e5106 VFS: move dentry_create() from fs/open.c to fs/namei.c
 632dc4920e5a4c9c55add4d782f6deab2219ac41 VFS: Prepare atomic_open() for dentry_create()
+e959ea8f1c55cb4674dbbd2e270b45a606081820 nfsd: report the requested maximum number of threads instead of number running
 e04d84ba308a5288693b4405b4b05063f8b9d350 VFS/knfsd: Teach dentry_create() to use atomic_open()
+2e71225c796a374f24575c4e63a92ecc5ca428cd NFSD: Defer sub-object cleanup in export put callbacks
 fc413c03770e5471ec3c4b653d3fcc121138644f fs/namei: fix kernel-doc markup for dentry_create
 3655ef30c361825bf755006ed9676584c27cd60a nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
 3235603090de84b72b043c5cc50b86ea10a90093 nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
@@ -126,21 +128,39 @@ d3b5a30caa952b07e9696eba124f48b78226f2b2 SUNRPC: Add svc_rqst_page_release() hel
 dc89bca1a231b2fb49f4ee82cfe168b13fa89c2b nfsd: fix comment typo in nfs3xdr
 ad4b4be150c5d1205859091641d15b310a245723 nfsd: fix comment typo in nfsxdr
 f978017b3e74f81c5fcab3dfd707f2d961f6b116 nfsd: update mtime/ctime on CLONE in presense of delegated attributes
-c7622b0eba41e6df9303287de8d933a3ad846244 nfsd: update mtime/ctime on COPY in presence of delegated attributes
-28353003d13056e6879b3b29f388144bfdc3f8f0 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
-914b536b260d41dac0a7c5fbec958488629f0569 sunrpc: prevent out-of-bounds read in __cache_seq_start()
-609d754fe9afb53545e7e53558b5f2c4fe4c9629 NFSD: Report whether fh_key was actually updated
 cdafa9b4a6afbeb66750a485e4486621840fd287 sunrpc: skip svc_xprt_enqueue when no work is pending
 fffd2d31dc1e11f9841fc2422c0b2310be7504e9 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
 65fa61d42ff489f71aa8c9275baaddef1f4cfcee sunrpc: skip svc_xprt_enqueue when transport is busy
 0ecf41dab3574d732a977a1a1244deb7f9eae039 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+c7622b0eba41e6df9303287de8d933a3ad846244 nfsd: update mtime/ctime on COPY in presence of delegated attributes
 eeac9c9813c977c3b0484296aa1edddf1fb6d2e6 NFSD: Increase the default max_block_size to 4MB
+28353003d13056e6879b3b29f388144bfdc3f8f0 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 bb95b86bf247d18e7a8a5760cbbf0f1a70bbdabf svcrdma: Release write chunk resources without re-queuing
+914b536b260d41dac0a7c5fbec958488629f0569 sunrpc: prevent out-of-bounds read in __cache_seq_start()
 b5e73f4cabf885b4af71c0beac8fa4e2f5c3fd8c Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+609d754fe9afb53545e7e53558b5f2c4fe4c9629 NFSD: Report whether fh_key was actually updated
+96b35fac13aa474b4174f948f07be147d1f12343 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+820bb5d3b49da8938b274c37087cfbaf09d3a9a0 nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+640b4fafc1a0e3732480f0a247afcf0e518d6b90 nfsd: fix partial-write detection in nfsd_direct_write
+670777769f5c02aee7d56494e5b95248a3279437 nfsd: hold rcu across localio cmpxchg retry
 4e15740bde4289e45f870c4dc2de16a8b3aba7bb sunrpc: harden rq_procinfo lifecycle to prevent double-free
+2914d8e9070188fc98dab1fad457118818a5dd1e NFS/localio: fix ref leak on nfs_uuid_add_file failure
 22c2d5a5fee7f4801212b62c309c8b42e700453c nfsd: fix dead ACL conflict guard in nfsd4_create
+d2159e7d3e14be21bc203d552c0e67a71323a1a2 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
 1bbbdea5c3f2e6a2f0bc5927bb9dc1342df858d8 nfsd: fix inverted cp_ttl check in async copy reaper
+1f29f6f8914b3ffa142431c25a64ba1aaf2d2ff1 nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
 fb58ce1e85b6e48e2783851c00fd858826db42ab svcrdma: wake sq waiters when the transport closes
+26f2a33031b2ade5c4d6efc0988c91d1d7eb45d7 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+be29cc9f470160e72956e0aaa33098d094466d8d NFSD: add nfsd_direct_misaligned_num_pages modparam
+5df9e24f77f164a7e031937cc4bd2073137afadb nfsd: fallback to DONTCACHE if read IO less than nf_dio_read_offset_align
+c708bdb09e3c7a2b1d33c32dcf651d2a326287de NFSD: Enable return of an updated stable_how to NFS clients
+26326a1c04037a463fcdce0a0b7a2663be398463 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+429500bcd4b120af7daa349c836b88af98c6b33c NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+019fcac0bbe94f4b5b0d90a63c4f89157aaa998f svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+726444279a3aea09e038c13eddb292d1e775c07e svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+d2c9a0882bcd790356c320276b6758b81ab44491 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+eb4126aca926fd556716abe81250a9f0bd4920d6 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+4939994d8a97932d8334938f6156bc001581d575 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
 768312be8583dba2e7ed5d690f86cd8d3e12cc5e exportfs: add ability to advertise NFSv4 ACL passthru support
 c341710d11eaf3e2e9a769034a7d7bab0968e93b NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
 cfcd9ecb0f30e08e895950b8061748701e52cbbb NFS/NFSD: data structure enablement for nfs4_acl passthru support
@@ -151,6 +171,39 @@ ab732653b0c026a9fc5ce0426eea990fd747831a NFSD: add NFS4 reexport support for GET
 87600617175a64bfd92834f751302f5be732ba62 NFSD: avoid extra nfs4_acl passthru work unless needed
 280eab481a4a740b61acf18799b5ff80e867d394 NFSv4: add reexport support for SETACL nfs4_acl passthru
 60ac040880131784f14b5d50bff52b585542a238 NFSv4: add reexport support for GETACL nfs4_acl passthru
+54ef7481f9b0dd02673a443ff1db415e14636f0c svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 af0bb714ca7390f3b298bfbf71c7baea3a46572c NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
+2ebb36d6297aa4f48d631cef50906ff44e3a94e1 Merge branch 'kernel-6.12.110/improvements' into kernel-6.12.110/main
+ee54e51a767192a30cb6f44541357277c41ec8c8 Merge branch 'kernel-6.12.110/nvme' into kernel-6.12.110/main
+3c8c48a4930431c8357dc4d2d33e40b1f9a1f99c Merge branch 'kernel-6.12.110/mm' into kernel-6.12.110/main
+5ec159480ecc45740cb30aa6967663770a20d67f Merge branch 'kernel-6.12.110/localio-thru-nfs-for-6.14-1' into kernel-6.12.110/main
+0ab64bf605b0675ac2dd3e4f91cb5fbdaeecb891 Merge branch 'kernel-6.12.110/nfs-thru-nfs-for-6.17-1' into kernel-6.12.110/main
+d0ed7afe4657bb551b42eb91fc69293f51984e7e Merge branch 'kernel-6.12.110/dontcache' into kernel-6.12.110/main
+eff935c3148ed943a467a7c53498c383f4ed5815 Merge branch 'kernel-6.12.110/xfs' into kernel-6.12.110/main
+0cd282cb0cf7dcb9ece65aca36c11596e9574185 Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.110/main
+4cb95998d4d54e104c23a118db9dad1b6a5b2578 Merge branch 'kernel-6.12.110/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.110/main
+4f5cce05a47e88159d80db4be625033bc5ea48ce Merge branch 'kernel-6.12.110/nfs-next-thru-nfs-for-6.18-3' into kernel-6.12.110/main
+404380be4d1d8cbd8c468816c38461d72d0e0587 Merge branch 'kernel-6.12.110/nfs-next-thru-nfs-for-6.19-1' into kernel-6.12.110/main
+3742a8ba31c3c65e386e0925396ba466751ad898 Merge branch 'kernel-6.12.110/nfs-next-thru-nfs-for-6.19-2' into kernel-6.12.110/main
+3ed7ef8ded3ea28685a79ee0f12b18d883767cc4 Merge branch 'kernel-6.12.110/nfs-next-thru-nfs-for-7.0-1' into kernel-6.12.110/main
+318dd15422e67c3a7ab386e8b87a9f68bd6843a4 Merge branch 'kernel-6.12.110/nfs-next-thru-nfs-for-7.0-2' into kernel-6.12.110/main
+eb1265ce279be239830da05d3e1cdb49df3bd6da Merge branch 'kernel-6.12.110/nfs-for-7.1-1' into kernel-6.12.110/main
+61dc66a06f4d9d843de00267838c106c17be477d Merge branch 'kernel-6.12.110/nfs-for-7.1-2' into kernel-6.12.110/main
+f075ee04f2100790a7d0b1bbc10d73169d29dca1 Merge branch 'kernel-6.12.110/nfs-for-7.2-fixes' into kernel-6.12.110/main
+469e8e409c13b7377cd7748b49e80f13c3058928 Merge branch 'kernel-6.12.110/nfs-testing-canary' into kernel-6.12.110/main
+a83761570b3561319474a5888e3c3db32a0f0052 Merge branch 'kernel-6.12.110/block-DIO-alignment-fixes' into kernel-6.12.110/main
+2fda835c85d47768171e44bb691eb19e1d4a71dd Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-6.18-3' into kernel-6.12.110/main
+2f16244576a2a9ec7d17950ec341d24f0cdf3a19 Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-6.19' into kernel-6.12.110/main
+3449b0fd1083d33b3d620c95c2ae5cd2257e6ab4 Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-6.19-1' into kernel-6.12.110/main
+6d79493d858f06f45d19d9b872917a4357c030ae Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-6.19-2' into kernel-6.12.110/main
+cf60f23d54652cd51b68d4afe37bf2926ef700bf Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-6.19-3' into kernel-6.12.110/main
+e80b8d3e03bdc265a9bfcf38e75aed00db5ce10d Merge branch 'kernel-6.12.110/nfsd-next-thru-nfsd-7.0-2' into kernel-6.12.110/main
+58a411670bcb0b13dd9c9a1fcb79e91afc4feb6d Merge branch 'kernel-6.12.110/nfsd-vfs-7.0-rc1.atomic_open' into kernel-6.12.110/main
+adb9e9c719a2fac8f9fdf8de7c23643992fe97f5 Merge branch 'kernel-6.12.110/nfsd-7.1-2' into kernel-6.12.110/main
+8afe3623f7c3341c83fe7b6794e440f37fd3110b Merge branch 'kernel-6.12.110/nfsd-7.2' into kernel-6.12.110/main
+1e6e5b510ae11b6ce1ba27678562ed15ad54e8da Merge branch 'kernel-6.12.110/nfsd-next' into kernel-6.12.110/main
+542c37bdc8bb660ad4a56e4d87c4f24313aa8b80 Merge branch 'kernel-6.12.110/nfsd-testing-canary' into kernel-6.12.110/main
+05b30a350891764f64239d9ba7d49d51619c7236 Merge branch 'kernel-6.12.110/nfs4_acl-passthru' into kernel-6.12.110/main
+cbf4f4dca8fd183cb9ac4a66a7ca9e3ccd01d176 Merge branch 'kernel-6.12.110/changelog' into kernel-6.12.110/main
 
---===============7673342769452601461==--
+--===============2424337313009592154==--
