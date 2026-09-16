@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Sep 2026 16:40:17 -0000
-Message-Id: <178957681739.3605398.17791203027529866654@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 16:40:22 -0000
+Message-Id: <178957682208.3605676.3297820109484867741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.3
-    old: 53cab9a3fc896d78b0ba51089a55d85bdf186649
-    new: d6ba10fe462d37d5405d52b9d25db4eee090f5fe
+  - ref: refs/heads/asoc-7.4
+    old: 2c9273ff2a0222dc3e691227cab9d4e8eb81c25d
+    new: 62288f02a21b200a002f3185c032ea8837a1b99f
     log: |
-         d6ba10fe462d37d5405d52b9d25db4eee090f5fe ASoC: rt721: Reset codec to fix abnormal sound
+         62288f02a21b200a002f3185c032ea8837a1b99f ASoC: wm8994: Fix runtime PM imbalance in wm8994_component_probe()
          
