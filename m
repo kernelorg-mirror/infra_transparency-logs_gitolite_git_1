@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 16 Sep 2026 20:02:46 -0000
-Message-Id: <178958896608.3778111.9825823799433704600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 16 Sep 2026 20:08:12 -0000
+Message-Id: <178958929213.3782290.10921682797434378955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 9b87fdc9af2fbfcdb5c24a64139685ef80f6573f
-    new: 238650ef6c7c7cca08e032527329424c9fbd70e5
+  - ref: refs/heads/for-7.3-fixes
+    old: a9e3760b0838299649c0d57cca44daaf40ba3c33
+    new: 7de9a6fb44eae4f05e68c805d58b9c618815adfa
     log: |
-         51938dfa8a51a4f85328413fca9b6e21f9d2d088 KVM: PPC: Book3S HV: fix use-after-free in kvmhv_emulate_tlbie_all_lpid()
-         0a416ee20bcccddf91ca5b63696a23b9d11d73aa KVM: PPC: Book3S HV: fix secure device page leak on uv_page_in() failure
-         0b271f7d7f5ed45bc498a03ce0aa9cfd8402fc71 powerpc/iommu: Fix the overflow validation in iommu_tce_check_ioba
-         238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         7de9a6fb44eae4f05e68c805d58b9c618815adfa sched_ext: Wait for SCX_OPSS_DISPATCHING before reenqueueing a task
+         
+  - ref: refs/heads/for-next
+    old: 55019197345f60a3712e7701828c2c973bd11d43
+    new: 4afc96b56678f1002d796183f4a5fbed5dcedf7c
+    log: |
+         7de9a6fb44eae4f05e68c805d58b9c618815adfa sched_ext: Wait for SCX_OPSS_DISPATCHING before reenqueueing a task
+         4afc96b56678f1002d796183f4a5fbed5dcedf7c Merge branch 'for-7.3-fixes' into for-next
          
