@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8254540716043973980=="
+Content-Type: multipart/mixed; boundary="===============0874342958615936920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:13:11 -0000
-Message-Id: <178957879166.3638454.10453488072631300462@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:13:14 -0000
+Message-Id: <178957879432.3638618.12138260799486826941@gitolite.kernel.org>
 
---===============8254540716043973980==
+--===============0874342958615936920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfsd-7.2
-    old: 7e0381631b7d8a6697f0bbd3fc7b9fed1fb572d9
-    new: fb58ce1e85b6e48e2783851c00fd858826db42ab
-    log: revlist-7e0381631b7d-fb58ce1e85b6.txt
+  - ref: refs/heads/kernel-6.12.110/nfsd-next
+    old: b27dedb4bdb028efccc9933ebb2a1178c32ddd51
+    new: 4939994d8a97932d8334938f6156bc001581d575
+    log: revlist-b27dedb4bdb0-4939994d8a97.txt
 
---===============8254540716043973980==
+--===============0874342958615936920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e0381631b7d-fb58ce1e85b6.txt
+Content-Disposition: attachment; filename=revlist-b27dedb4bdb0-4939994d8a97.txt
 
 dd4b9f8aa736f29247db35fb64f3a9f723dafd8a lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 0b6c6b07747e16f5228c046016aa03d424924f23 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -141,5 +141,14 @@ b5e73f4cabf885b4af71c0beac8fa4e2f5c3fd8c Revert "NFSD: Defer sub-object cleanup 
 22c2d5a5fee7f4801212b62c309c8b42e700453c nfsd: fix dead ACL conflict guard in nfsd4_create
 1bbbdea5c3f2e6a2f0bc5927bb9dc1342df858d8 nfsd: fix inverted cp_ttl check in async copy reaper
 fb58ce1e85b6e48e2783851c00fd858826db42ab svcrdma: wake sq waiters when the transport closes
+96b35fac13aa474b4174f948f07be147d1f12343 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+820bb5d3b49da8938b274c37087cfbaf09d3a9a0 nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+640b4fafc1a0e3732480f0a247afcf0e518d6b90 nfsd: fix partial-write detection in nfsd_direct_write
+670777769f5c02aee7d56494e5b95248a3279437 nfsd: hold rcu across localio cmpxchg retry
+2914d8e9070188fc98dab1fad457118818a5dd1e NFS/localio: fix ref leak on nfs_uuid_add_file failure
+d2159e7d3e14be21bc203d552c0e67a71323a1a2 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
+1f29f6f8914b3ffa142431c25a64ba1aaf2d2ff1 nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
+d2c9a0882bcd790356c320276b6758b81ab44491 nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+4939994d8a97932d8334938f6156bc001581d575 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
 
---===============8254540716043973980==--
+--===============0874342958615936920==--
