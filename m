@@ -1,82 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7136881007780166448=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 16 Sep 2026 22:14:25 -0000
-Message-Id: <178959686527.3916903.18153987214333668936@gitolite.kernel.org>
-
---===============7136881007780166448==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Wed, 16 Sep 2026 22:27:36 -0000
+Message-Id: <178959765606.3926765.1757690161672221453@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/vfs-7.4.coredump
-    old: b813a7ec026ca59a444ba0a36c2e17ac823eeed0
-    new: c7b1fa3db4a19fd832b15faf08a080787b00e830
+  - ref: refs/heads/ntfs-next
+    old: f869b9ce4e02295d0861132b7c25312774fdc048
+    new: 27d5cd2d940b53718f66fb682475587aa993d760
     log: |
-         c7b1fa3db4a19fd832b15faf08a080787b00e830 Merge patch series "files: make closing files synchronous for close_range(), exec, exit"
+         971ccbae3fc9ee64766a2e1d16f5fa7614a516e3 ntfs: fix volume flag update races
+         886bba5a6d0ecc1a15014339360c06e570e047c8 ntfs: set the volume dirty bit unconditionally on metadata changes
+         3e24c55e225f871559b74b28bd2ccbe4db9151bd ntfs: sync the volume dirty bit with the recorded error state
+         f2696d78883790cefcf5693ad392fb99da430136 ntfs: persist the dirty state after the final put_super() commits
+         3244df85ad6fa5ab9b52d159c147ebe5d0eb806b ntfs: do not clear the volume dirty bit during sync
+         0c64bbc0aabc623e3deb0980c23ec0608f0becba ntfs: check the dirty-state commit on remount and unmount
+         a127658bf982237843b014e44002fbe208ed9b66 ntfs: fail remount on sync errors and keep the dirty bit on SB_FORCE
+         27d5cd2d940b53718f66fb682475587aa993d760 ntfs: fix directory lookup on large-page systems
          
-  - ref: refs/heads/vfs.all
-    old: 731d51b121c7de34711d2fa4df871bbfdd28223a
-    new: 46db8f9980aba473d13e8aa609e85fb8f893ee4b
-    log: revlist-731d51b121c7-46db8f9980ab.txt
-  - ref: refs/heads/vfs.fixes
-    old: 1abd643f3783ea8f8e273c18697ff0413aa92dc7
-    new: 1f7745fb3580152ca902ef181b605f33cabfb1d0
-    log: |
-         1f7745fb3580152ca902ef181b605f33cabfb1d0 squashfs: Add dictionary size range check to prevent shift-out-of-bounds
-         
-
---===============7136881007780166448==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1789596863 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1789596863-e8c833db77043832f2de39d21f48aa1040a9fd85
-
-b813a7ec026ca59a444ba0a36c2e17ac823eeed0 c7b1fa3db4a19fd832b15faf08a080787b00e830 refs/heads/vfs-7.4.coredump
-731d51b121c7de34711d2fa4df871bbfdd28223a 46db8f9980aba473d13e8aa609e85fb8f893ee4b refs/heads/vfs.all
-1abd643f3783ea8f8e273c18697ff0413aa92dc7 1f7745fb3580152ca902ef181b605f33cabfb1d0 refs/heads/vfs.fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaqsUvwAKCRCRxhvAZXjc
-onHzAP9tmEwmQfL2XWqzEbGMJTmQ6iNek8TcdooeQ47by0TJnwD/RFMjCuARg4qE
-pqCTNUW5QexY6Ns9f8RcklYGc9VdUgc=
-=tI+d
------END PGP SIGNATURE-----
-
---===============7136881007780166448==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-731d51b121c7-46db8f9980ab.txt
-
-1f7745fb3580152ca902ef181b605f33cabfb1d0 squashfs: Add dictionary size range check to prevent shift-out-of-bounds
-c7b1fa3db4a19fd832b15faf08a080787b00e830 Merge patch series "files: make closing files synchronous for close_range(), exec, exit"
-47c97d46a3e40a10b8ca8bd989549d8a6177c274 Merge branch 'vfs.fixes' into vfs.all
-4b3200e67fd8fd035d9793a4d7764252378d4499 Merge branch 'ipc-7.4.misc' into vfs.all
-8bc509cffadb360fb727369f94691e381aae39b6 Merge branch 'kernel-7.4.signal' into vfs.all
-f443c3753ac1ef91dbd7fecdf89d9da47c7a3522 Merge branch 'namespace-7.4.misc' into vfs.all
-5776eb4a90131023b9d74b5396ff0a091095089b Merge branch 'vfs-7.4.bfs' into vfs.all
-afab6217ed9c5433c73f03e5f1ca49c1baf5fe23 Merge branch 'vfs-7.4.bh' into vfs.all
-ac1460da2ffac677e4e5fa0e962e627efd509af5 Merge branch 'vfs-7.4.binfmt' into vfs.all
-a40dc6182f7317786750980e0e0ac4192e486ef7 Merge branch 'vfs-7.4.coredump' into vfs.all
-ecbb2509bb5a9250e009832f3889bd3727c13c29 Merge branch 'vfs-7.4.file' into vfs.all
-30d1eb1ae379ab75ced59e9e3272c31503493669 Merge branch 'vfs-7.4.iomap' into vfs.all
-4e93fd70c5a4257a057879adb06b3486c6addee7 Merge branch 'vfs-7.4.kernfs' into vfs.all
-77f212f17a9c18014876a0e1697310bd652acc77 Merge branch 'vfs-7.4.lookup' into vfs.all
-e0cee169489e53d30a00f5009d5a15162940f010 Merge branch 'vfs-7.4.misc' into vfs.all
-ac152157ba5ca488694b0788d3420690b5439600 Merge branch 'vfs-7.4.netfs' into vfs.all
-46db8f9980aba473d13e8aa609e85fb8f893ee4b Merge branch 'vfs-7.4.shared.lsm.foll_force' into vfs.all
-
---===============7136881007780166448==--
