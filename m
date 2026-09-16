@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5253471239730478616=="
+Content-Type: multipart/mixed; boundary="===============6890773580086469373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 16 Sep 2026 17:29:39 -0000
-Message-Id: <178957977975.3652011.6228407898872254531@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:33:07 -0000
+Message-Id: <178957998723.3655398.10530124004953459148@gitolite.kernel.org>
 
---===============5253471239730478616==
+--===============6890773580086469373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a967a1f5b4d497e11ede77f1ebc0b89a28619947
-    new: 2d2f436bf0e34adf9bdf5fee2a062ca7e4926b5e
+    old: 2d2f436bf0e34adf9bdf5fee2a062ca7e4926b5e
+    new: 9fa0cd1d6dc0fa1e51e313bd5aaf6661c1ab9e03
     log: |
-         9154668019ee1edb638460fb40a449da20cebc83 6.12-stable patches
-         a429a6f72c26176f51e31d94fe95de549f52e6e7 6.18-stable patches
-         2d2f436bf0e34adf9bdf5fee2a062ca7e4926b5e 7.2-stable patches
+         213433b787a451a4cf8b80559cea78fa5a96b14b 6.6-stable patches
+         6e7725d167e442882fdb44761b722ba749542cd3 6.12-stable patches
+         f481d12ce39392c98311cdf6abc698abaf2e370b 6.18-stable patches
+         9fa0cd1d6dc0fa1e51e313bd5aaf6661c1ab9e03 7.2-stable patches
          
 
---===============5253471239730478616==
+--===============6890773580086469373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789579666 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789579874 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1789579777-f62a961eb43653c58bfe930a3ced08a1964c2ddf
+nonce 1789579985-b2ed3647e94be6efdbcdfc654bdb08c133a1ba5a
 
-a967a1f5b4d497e11ede77f1ebc0b89a28619947 2d2f436bf0e34adf9bdf5fee2a062ca7e4926b5e refs/heads/master
+2d2f436bf0e34adf9bdf5fee2a062ca7e4926b5e 9fa0cd1d6dc0fa1e51e313bd5aaf6661c1ab9e03 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqq0ZIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EagQAIyIXMGuy62vKd3ee+3R
-kTihAPpZ9XgRm1Ol1k7vc7Omw2rXutWn0cTW+M5S9zScc9sk7DwqV8Lx591q5jri
-ZBq6/9UV2BkAiLUU14AeVzU5pLbyyxfvN2gFZx/8f6z94dDOeZ+wSWw99EpzRKAh
-7s7GWLP47npslZqbS8yXvQochzPuOfhyD8TYABjLRgEaNYuprOYWvMUxdBLXCVDd
-Vt47GjQBhqXP6cAecKhoNqncxbE71ZQs+hGquTvOUCs8wqWwJgZTvb1+2yo/I5Yi
-8rp8mClE1yzxVpNTd6p84P5ToDbYzUjImeeSyMhLKzHZnICsWHrp+4/ID2HoH5Uk
-N/qlq027CBysge5FpsI4ic3NLT02C4YvdcpJw4ISYt6wi6JWtKtT8j8KDoXaGYn3
-r1N65aVTfzIzIAFsQKkxm5E6g5ZmoEC5n5JSPvPRzWWmrbYrku7MaIEd0nl8VsXZ
-pQI3CZK06x/3QTXie1ybzU88meMMx52LUHGMsJVl7zIuIXgB54EbvGFA162g1r1I
-UMUdvdTvd6lMsKnurtyC1QqZpeBJZ19YfgUEWQr3t4b4DPbdYkMkMCIMf9tWhbs7
-JrRkXfW8/eZvP9W3nRhQjQ3opctYh7r/3iN3H1jE2uVb6QFJofHifCH848fIu5wb
-5AeHrBh5ZFiA59sd2D7yIity
-=om11
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqq0mIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X8UP/RogrMU+9D4gnVBdTaiA
+A8QfXbUc3lvyaUdXbcgISeI5ikz1DxuMsCxzrZI7g1ED8Sy071349292U1/covE+
+sgTHDoq7MeftmLnFizt8kFAO4dqEcRzCLJQMESzuwMskQnphodnIaWJMZ1VNI8ap
+okTuFoLV0k2HL4zGfskde83ori+bgpBal/ITiOypiXQvT4Ply/rteJ0lJ9KB0HM4
+Swdne6Awdz6VWHI7g4EkvSXrnnUmwNmamzgRlOCACL3rfnWbXYhcMer0u3ZWMIUX
+lAvdIxFvSYA91lCMbDEmLcrM5tqJDe3SvzloGQ9D/2Zf64SasPFxEUdKUnYso2N3
+gVkzBDRsvK1vPwI8dCFuicq0E5XBFDGW1Rtu6CrjP9GhdF7t+yxSerLnG+GrJnyZ
+Gywzv8YoGOkScstaIhRzRMSBSuBkSwwdNOka+dMoZTMxpKeS/gToNnnRKTM8n/iZ
++g+tT721giq99HgXTVfKkoMHgjyPBQehGSe2XhN1uO6wuXfOrqBE3MgTDvNp7THb
+sWFjFXVb7hXAnVZwk1lRxqd/CXA7i+96iMm9PHAFknLo58K6W5DXhFdCFrmqaut+
+rxBADQqumymC71q4AM5X6oJ4qGSO48rx2VTx1u7V0rm69REAmYZ3+dNhLSg92ZiE
+9/L40NhIbTKOXAGyOBgqf0p0
+=Dljd
 -----END PGP SIGNATURE-----
 
---===============5253471239730478616==--
+--===============6890773580086469373==--
