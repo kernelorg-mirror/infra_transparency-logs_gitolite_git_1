@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Sep 2026 00:05:08 -0000
-Message-Id: <178951710842.2766721.13467269730372532189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Sep 2026 00:05:10 -0000
+Message-Id: <178951711052.2766909.13261906532337413848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 433cfc302561bc7e23b1305e1779e0d83156cb61
-    new: 562219874cba1be6b708fb29a89fe8f54544b022
+    old: 3661253d2253b92d30e3734aa46e5ad41df7043d
+    new: 30da1c2a41507ec9265440c1f223d1d6c1bc5244
     log: |
-         15989abd74f16f44bf953d056b95f1d2fda9b0cd net: stmmac: fix TSO header length truncation
-         6e05e46fa821a5c1b281355f1f622ac76cb6080a net/sched: act_api: release tail references on DELACTION failure
-         14c5eb685cdefbd32e73d2723071ecbd8effbce9 selftests: tc-testing: test action batch deletion failure cleanup
-         562219874cba1be6b708fb29a89fe8f54544b022 Merge branch 'net-sched-fix-action-batch-deletion-cleanup'
+         032ef43b9dab22f1e2fe9923b4d8b23d3ea9943d dt-bindings: net: Use consistent indentation in the example
+         b785f5c56fb3dbe70635592b11547a2c828e95b3 netlink: policy: report the big endian attributes
+         3d989d1f40a0b286342fab34ed791854c918d06b net: phy: realtek: improve firmware write speed
+         30da1c2a41507ec9265440c1f223d1d6c1bc5244 net: 8390: pcnet_cs: release PCMCIA window on setup_shmem_window() error
          
