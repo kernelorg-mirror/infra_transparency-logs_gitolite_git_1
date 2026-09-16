@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 15 Sep 2026 23:46:16 -0000
-Message-Id: <178951597610.2753497.9319445453190927391@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 00:05:08 -0000
+Message-Id: <178951710842.2766721.13467269730372532189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c5e367a8a3f939e9935369a38ea7e0f872f594b5
-    new: 433cfc302561bc7e23b1305e1779e0d83156cb61
+    old: 433cfc302561bc7e23b1305e1779e0d83156cb61
+    new: 562219874cba1be6b708fb29a89fe8f54544b022
     log: |
-         4a4263dfeabad72f95e8ab6e15146861fa4144dd af_unix: Unify scc_index when finalising SCC in __unix_walk_scc().
-         b645ccd410547d0e0e4a9543f828119e24dc7635 selftest: af_unix: Add test case with mixed lowpoint in scm_rights.c.
-         433cfc302561bc7e23b1305e1779e0d83156cb61 Merge branch 'af_unix-fix-inconsistent-scc_index'
+         15989abd74f16f44bf953d056b95f1d2fda9b0cd net: stmmac: fix TSO header length truncation
+         6e05e46fa821a5c1b281355f1f622ac76cb6080a net/sched: act_api: release tail references on DELACTION failure
+         14c5eb685cdefbd32e73d2723071ecbd8effbce9 selftests: tc-testing: test action batch deletion failure cleanup
+         562219874cba1be6b708fb29a89fe8f54544b022 Merge branch 'net-sched-fix-action-batch-deletion-cleanup'
          
