@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2540543300798503441=="
+Content-Type: multipart/mixed; boundary="===============4648055092655532843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 16 Sep 2026 10:36:14 -0000
-Message-Id: <178955497498.3305091.2086457961528201823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 16 Sep 2026 10:38:52 -0000
+Message-Id: <178955513245.3305875.168447016188839120@gitolite.kernel.org>
 
---===============2540543300798503441==
+--===============4648055092655532843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: a7b2b80edf890b515a46cac67f36fb66989b1a56
-    new: 974014bb4087fea3b481c0ac358873587f628663
+  - ref: refs/heads/master
+    old: 357da5d87480dd974325c5d89e975bd4362e0438
+    new: 5676679823d335dd2b298f4e5e9e0d3339099b4d
     log: |
-         3bf79c45d88b54c9a76f8bfb6733249acfc3c8b7 platform/x86: asus-laptop: Fix typo in infos_show() comment
-         b6cf8c621b85648b82a6704b1a68106eb193616f platform/x86: asus-nb-wmi: Fix typo in asus_nb_wmi_quirks() comment
-         ad483da2140339400bc50c69b017f6fd0cc9774b platform/x86: hp_accel: Fix typo in lis3lv02d_acpi_write() comment
-         65d3f988c5fae277a3ff732115697d252d5b3913 platform/x86/intel/tpmi: Fix typo in TPMI_FEATURE_NAME_LEN comment
-         d11503cd82f48242ccaf7b3d481a103d1a75105d platform/x86: msi-laptop: Fix typo in struct quirk_entry comment
-         d766ef2dab2d718ca760e4f1771e883736ccb861 platform/x86: panasonic-laptop: Fix typo in the file history comment
-         0934b4b77a462240d591f90472b690788b3988b8 platform/x86: samsung-laptop: Fix typo in sabi_configs comment
-         974014bb4087fea3b481c0ac358873587f628663 platform/x86: uniwill-laptop: Fix typo in the kbd LED brightness comment
+         5676679823d335dd2b298f4e5e9e0d3339099b4d strip the new mbox files
          
 
---===============2540543300798503441==
+--===============4648055092655532843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1789554971 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1789554971-40eb92b47d4adcfb2b04dd02592a40cbed5349f1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789555020 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1789555131-dd268091e129099d5aef806c7caa593db0cefb3a
 
-a7b2b80edf890b515a46cac67f36fb66989b1a56 974014bb4087fea3b481c0ac358873587f628663 refs/heads/review-ilpo-next
+357da5d87480dd974325c5d89e975bd4362e0438 5676679823d335dd2b298f4e5e9e0d3339099b4d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaqpxHQAKCRBZrE9hU+XO
-MQRaAQCPkLxWdTJyq3QauaajHyVEIpIpeHL9Vbb1yQ6pRnoUHgD8D1vH6NuZWMWN
-LeOiKssqgfhnRtfidkg5bfQjx1dp3wk=
-=o9LM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqqcUwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UnEP/R/6X8sUuJifJD5t1CSg
++WFfc+35x1xKFQ3TaHARxsbRzGslVmmr28lG3//TwIIJBN5dXH+UQdF2yl5mr9WC
+S75ZfJ6rl6Jh3Afki/2uwLDG36fZLyTlg54C7FJZWfNigSAbcN+v6gpJSUvAt+R7
+LPNDlY9NB8sJRi5oC+9nk+G5yAsEBhbgsS3qZ0LiHBNBcXh6DTTm7JQsCAKbTm8j
+qooD3F4G2nOxE494WtqkJfORoQJU4BI4wGRMWHVbMylC00036Av0oPVQ3+DAZj9E
+ezOMUQGJhxrMDMODyz3bZeBeZudyzU8Je7vbZIhhCmo6sHhGdgs2DgJkJngNQb3s
+7O9+hPzrI6D2vQXoAvOYTx1oAW0GyLdG4SYz9uWBLRh+P7yk6stBItP9xdJooxzm
+VWr11Cf1r8c2HskQrBCf3fOzrLiW6F12aD//525jjVUCun5K3SflOW4mCEOutBfa
+fT2D99RvOpS4gqr5hAlIxT3lqfKg0vj3iAaCIeuhg0ffim181IZJfWrLTbw1dlVb
+AY8L9LX7yDPMqfBYGK17mdb/JlICzlSfp1DELiKCVMxZ55yorc1CE1UFHP8XTw80
+rx3qocoSXk8MNefPPp9iFxnKhg7oINt9Z3RLjOmDsSMxMawoYRXC7ifFxWwdWNkZ
+5KX7ibGrv8xI5WXYc1QRrcA2
+=Klqw
 -----END PGP SIGNATURE-----
 
---===============2540543300798503441==--
+--===============4648055092655532843==--
