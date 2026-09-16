@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Wed, 16 Sep 2026 10:21:46 -0000
-Message-Id: <178955410675.3293733.2441304802731941024@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1657927003483947815=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 16 Sep 2026 10:30:42 -0000
+Message-Id: <178955464265.3300825.5573067191123773715@gitolite.kernel.org>
+
+--===============1657927003483947815==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/ks8995-to-ksz8-v7.3
-    old: a9f50ccac278e2e96ae0e340a5969e4e4db5b549
-    new: a8dc1babde2a80dfc424cda065a0c1804182b82e
+  - ref: refs/heads/review-ilpo-next
+    old: b36ee17b40037845eb2f29c151a65c698f273d4e
+    new: a7b2b80edf890b515a46cac67f36fb66989b1a56
     log: |
-         328cf8850ca37806751d9d70efe05add3de883e5 net: dsa: microchip: Add support for KSZ8995XA/KS8995XA
-         23f1ba60a17f469d905d754df78111b492040ff9 dt-bindings: net: dsa: microchip: Add KSZ8995XA
-         b47a1018ecc7a7cc93c7ee1ad820669998de94c4 net: dsa: tag_ks8995: Add the KS8995 tag handling
-         dcd3567d27863ae2866c1a413cc6b5ae8cd2edc6 net: dsa: microchip: Support Microchip KSZ8995XA / KS8995XA
-         a8dc1babde2a80dfc424cda065a0c1804182b82e net: dsa: ks8995: Delete surplus driver
+         a7b2b80edf890b515a46cac67f36fb66989b1a56 platform/x86: hp-bioscfg: zero the hex-string decode buffer in hp_convert_hexstr_to_str()
          
+
+--===============1657927003483947815==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1789554638 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1789554637-3fcc40b01be30673ad042c662ae9509263db5bf0
+
+b36ee17b40037845eb2f29c151a65c698f273d4e a7b2b80edf890b515a46cac67f36fb66989b1a56 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaqpv0QAKCRBZrE9hU+XO
+MUfiAQCg4s/GlArdNQd5uBVmhWB7zDhJYNJ8KPsRpPUM22HJVQD7BwWdPtQPQ54Q
+tbIwW5FzjnmTcsxgZQK8kTBWQ23VygE=
+=VBDg
+-----END PGP SIGNATURE-----
+
+--===============1657927003483947815==--
