@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7678148792798626285=="
+Content-Type: multipart/mixed; boundary="===============4380121785849622783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:10:46 -0000
-Message-Id: <178957864666.3634384.645968872536896100@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:10:49 -0000
+Message-Id: <178957864928.3634501.11205980650236655970@gitolite.kernel.org>
 
---===============7678148792798626285==
+--===============4380121785849622783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-2
-    old: 6efb266536d6b994b7e21e58dc92dbb048de0879
-    new: 9c996f193f0a98e562d78ce15410d104ae7e959d
-    log: revlist-6efb266536d6-9c996f193f0a.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-3
+    old: dc82fd502d2939f45869c0d124c8f2aa7f39bc46
+    new: 31e3937fea42b8dde2c1d86443813a046920b760
+    log: revlist-dc82fd502d29-31e3937fea42.txt
 
---===============7678148792798626285==
+--===============4380121785849622783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6efb266536d6-9c996f193f0a.txt
+Content-Disposition: attachment; filename=revlist-dc82fd502d29-31e3937fea42.txt
 
 60779c1e9b24dc9f43cd53842b35947e264fdf32 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 1be762b03b90cff9ef03acbebab1136622481959 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -49,5 +49,6 @@ a6e3e17a9182597986dac13876b5ce44cff4b20d NFSD: nfsd-io-modes: Wrap shell snippet
 7bfe291376039560490a073c60dab44333513b77 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
 c38e97c31f5a41eec3766f79c4a979328d64a22f nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
 9c996f193f0a98e562d78ce15410d104ae7e959d nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+31e3937fea42b8dde2c1d86443813a046920b760 NFSD: net ref data still needs to be freed even if net hasn't startup
 
---===============7678148792798626285==--
+--===============4380121785849622783==--
