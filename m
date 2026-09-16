@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1484724036499055868=="
+Content-Type: multipart/mixed; boundary="===============2661603388360551422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 16 Sep 2026 18:42:56 -0000
-Message-Id: <178958417607.3719317.16212827738345806170@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 19:12:24 -0000
+Message-Id: <178958594494.3739978.3650989926002111725@gitolite.kernel.org>
 
---===============1484724036499055868==
+--===============2661603388360551422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 7068765b1449c96c5c427b3bd63acbe828dea3ed
-    new: ecdc26faddac7b69c3624bc98366a2739fb11528
-    log: revlist-7068765b1449-ecdc26faddac.txt
+  - ref: refs/heads/asoc-7.3
+    old: d6ba10fe462d37d5405d52b9d25db4eee090f5fe
+    new: 940e8fe8535d22ce67dd2fb9588e6c55a31d7d03
+    log: revlist-d6ba10fe462d-940e8fe8535d.txt
 
---===============1484724036499055868==
+--===============2661603388360551422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7068765b1449-ecdc26faddac.txt
+Content-Disposition: attachment; filename=revlist-d6ba10fe462d-940e8fe8535d.txt
 
-23ba1bede6b1dd845efa7e3f1c348617e9a7d1a9 ASoC: SOF: imx: Prevent stack OOB read in DSP panic dump
-9d598f3111323a4328cf56a5221d1e5a3da73e7f ASoC: SOF: amd: return -EINVAL for unknown PCI revision in acp7x suspend
-6d90a9affd58d9789e8ecb718b5553d29bf0ab1b ASoC: SOF: amd: fix amd_sof_acp_remove() teardown ordering
-0a64a051f474234a6087d959acc346b295c01913 ASoC: SOF: amd: fix amd_sof_acp_probe() error unwind ordering
-d9d0466c25c5fbaa6660f01c806701ee1d3880be ASoC: SOF: amd: add ACP7.B/7.F PDM controller scan and pdata propagation
-6b2fdd6556d9b2b8fef2ff309b2399fbca3a8917 ASoC: SOF: amd: update SoundWire specific acp descriptor fields for ACP7.B/7.F
-48446fe7a0ad3899d82e2f5059d29f62c315571e ASoC: SOF: amd: enable SoundWire build for ACP7.B/7.F
-af5f31da569eec7ef9740a7c05a594132ce1ad68 ASoC: SOF: amd: wire SoundWire probe and remove into ACP7.B/7.F paths
-26c9ca85588e69f9fb37f1c8b1c35f4524c5a88a ASoC: SOF: amd: add ACP7.B/7.F clock-stop detection in check_acp_sdw_enable_status
-47c9753649ea2668ea799051fe57a032f8eea4ae ASoC: SOF: amd: add ACP7.B/7.F SoundWire IO IRQ handling
-c4500a58804f6faed46b5b13a081457f7ba999e4 ASoC: SOF: amd: enable SoundWire host wake interrupt in acp_init
-885cb1211968cb06a6b9b170fe949178051ab61c ASoC: SOF: amd: add SoundWire PM ops for ACP7.B/7.F
-da08737e6f07a2c11d8242879b7b7c33fc92a55b ASoC: SOF: amd: SoundWire and PDM support and fixes for ACP7.B/7.F
-ecdc26faddac7b69c3624bc98366a2739fb11528 ASoC: tas2783-sdw: stop describing the Latency and XU ID/Version Controls
+a5e22cba3549b3b9ca592a6bc62329c9b85ce285 ASoC: rt721: Reset codec to fix abnormal sound
+11fc0048a6930f4fca44fe3bd16a0023e78846a2 ASoC: ux500: Parenthesize MSP_{RX,TX}_CLKPOL_BIT() arguments
+c17ae8c26eac16ad244daef44044d714f68a2ddc ASoC: hdmi-codec: Report a change when the channel status moves
+03a5699a0a04309c597683967aaaf25d1e555ea2 ASoC: codecs: rt712-sdca-dmic: fix uninitialized stream_config->type
+3482062c786ce4233f8ed3224d824184f53ec154 ASoC: cs-amp-lib: Prevent NULL pointer if efi variable is zero length
+29218a4d11a31a8157389bc2b9e62dd768d7ea42 ASoC: amd: acp: bounds-check SoundWire link ID in machine drivers
+0b7d55d3a91200f2b1ed710f525a944b0a7d6369 ASoC: amd: acp: refactor codec config count in SOF SoundWire machine driver
+27098aaf28b96ab4e6891709062c343566d4882b ASoC: amd: acp: fix ffs() operator precedence for SoundWire link ID
+d57616f8be5601d210bbb0f677b9cb88a5186c3c ASoC: amd: acp: fix card name length warning in SOF SoundWire machine driver
+fa899ba9b1bfa0481a477c7a05a1a5d484285e7f ASoC: amd: acp: SoundWire machine driver fixes
+0030f62683d5061d43b80577b7ab27196f1adb4c ASoC: adau1977: make the Kconfig symbols user selectable
+528a0da3e55b24d1113b3658e94cf432e0020913 ASoC: adau1977-spi: drop __maybe_unused and of_match_ptr()
+76a8fe25b97881223976363044924d5cf0511749 ASoC: adau1977-i2c: add OF match table for I2C
+940e8fe8535d22ce67dd2fb9588e6c55a31d7d03 ASoC: adau1977: small fixes to make the driver more usable
 
---===============1484724036499055868==--
+--===============2661603388360551422==--
