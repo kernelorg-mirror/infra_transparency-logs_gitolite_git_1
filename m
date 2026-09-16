@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4585845277829496318=="
+Content-Type: multipart/mixed; boundary="===============8475392571859338243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 16 Sep 2026 20:36:16 -0000
-Message-Id: <178959097667.3804561.3768709263828199653@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 20:36:19 -0000
+Message-Id: <178959097900.3804751.11444337393685108212@gitolite.kernel.org>
 
---===============4585845277829496318==
+--===============8475392571859338243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b8e9e7d82e7eefd5d2d528469d94ec20e96b38c3
     new: 87b80c2f6b05cad9f0ff9136709c62a0f59923e3
     log: revlist-b8e9e7d82e7e-87b80c2f6b05.txt
 
---===============4585845277829496318==
+--===============8475392571859338243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ b711865f68ce1cd5e832f7859260e9db73d2ed7c selftests: drv-net: psp: factor out cre
 0570dced4304cda532e5862fe3f8677a8e703b2e Merge branch 'psp-correct-notifications-and-device-info-around-device-assoc'
 87b80c2f6b05cad9f0ff9136709c62a0f59923e3 net: txgbe: free the fixed-rate clock on cleanup
 
---===============4585845277829496318==--
+--===============8475392571859338243==--
