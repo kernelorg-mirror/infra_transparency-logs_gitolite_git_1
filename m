@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6763634485642230843=="
+Content-Type: multipart/mixed; boundary="===============1991538698562365844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 16 Sep 2026 17:10:41 -0000
-Message-Id: <178957864131.3634054.10309523954323348742@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 17:10:44 -0000
+Message-Id: <178957864401.3634242.774719004316720725@gitolite.kernel.org>
 
---===============6763634485642230843==
+--===============1991538698562365844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19
-    old: 6bdecf02a1b8257a26734c9463c5c4a2f44e3c1d
-    new: 5eea6a19638401ff9f16414fe99e154249cd29d7
-    log: revlist-6bdecf02a1b8-5eea6a196384.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-1
+    old: 1f84981a375b5540c961de12869491bd9908266c
+    new: d45515c93406e4beb46afc7bf8c70b7adb4c72df
+    log: revlist-1f84981a375b-d45515c93406.txt
 
---===============6763634485642230843==
+--===============1991538698562365844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bdecf02a1b8-5eea6a196384.txt
+Content-Disposition: attachment; filename=revlist-1f84981a375b-d45515c93406.txt
 
 60779c1e9b24dc9f43cd53842b35947e264fdf32 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
 1be762b03b90cff9ef03acbebab1136622481959 crypto: md5 - rename the shash ops to crypto_md5_*
@@ -45,5 +45,9 @@ c7b5f297b204d9d0550b1f9e9384d7cdc772e5f4 NFSD: Make FILE_SYNC WRITEs comply with
 e47325cc4be1c4ae152c930aabb450ebfc3a3183 NFSD: Add toctree entry for NFSD IO modes docs
 a6e3e17a9182597986dac13876b5ce44cff4b20d NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
 5eea6a19638401ff9f16414fe99e154249cd29d7 NFSD: nfsd-io-modes: Separate lists
+6aa99f0cacb8d5c1636aef2643eb4496e96ed6e5 nfsd: fix memory leak in nfsd_create_serv error paths
+7bfe291376039560490a073c60dab44333513b77 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+7fe97b6b1916121483ff12f9c8bea74c91aa9244 Revert "svcrdma: bound check rq_pages index in inline path"
+d45515c93406e4beb46afc7bf8c70b7adb4c72df svcrdma: bound check rq_pages index in inline path
 
---===============6763634485642230843==--
+--===============1991538698562365844==--
