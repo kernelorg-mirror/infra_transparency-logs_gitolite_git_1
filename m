@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5150612040498546065=="
+Content-Type: multipart/mixed; boundary="===============1447645185700357944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 16 Sep 2026 05:30:05 -0000
-Message-Id: <178953660563.3010181.9317706767013088655@gitolite.kernel.org>
+Date: Wed, 16 Sep 2026 05:30:08 -0000
+Message-Id: <178953660814.3010396.583746711041794984@gitolite.kernel.org>
 
---===============5150612040498546065==
+--===============1447645185700357944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: df2908090cda368b01ff43709f51890076c56157
-    new: e0c3e9d76adbe522dd420a766ce42d03ce887c29
-    log: revlist-df2908090cda-e0c3e9d76adb.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: eca080575444d2d1c6a9daed224bab29024dd973
+    new: 2ef03b08ef437c46b360aa707163d33799001b0d
+    log: revlist-eca080575444-2ef03b08ef43.txt
 
---===============5150612040498546065==
+--===============1447645185700357944==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-df2908090cda-e0c3e9d76adb.txt
+Content-Disposition: attachment; filename=revlist-eca080575444-2ef03b08ef43.txt
 
 0ecd56573c1f272c72298154a3854380876dbb7c ext4: Avoid entering writeback paths during fastcommit replay
 82e9343260dfc6dda6349f285d9a5eac3e0738d7 nsfs: keep namespace tree fields stable until after RCU grace period
@@ -760,5 +760,6 @@ d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem t
 22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 e0c3e9d76adbe522dd420a766ce42d03ce887c29 i2c: imx: disable autosuspend on remove
+2ef03b08ef437c46b360aa707163d33799001b0d Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============5150612040498546065==--
+--===============1447645185700357944==--
