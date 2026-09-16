@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Sep 2026 01:45:41 -0000
-Message-Id: <178952314190.2846680.1792495648311554666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 16 Sep 2026 01:52:17 -0000
+Message-Id: <178952353785.2850761.6206891856112407038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 2842ce397dd09882530b42f7fdb0c855767eb24e
-    new: ceac0de741bfb47ca255eee075257b3bb31f0651
+  - ref: refs/heads/master
+    old: b113aeb49f3db748e16b45ed8cc03e7b3052932d
+    new: 510afae0152dbafde35e906e3f21333e8e4e41db
     log: |
-         ceac0de741bfb47ca255eee075257b3bb31f0651 netlink: do not free nlk->groups while lockless readers can use it
+         510afae0152dbafde35e906e3f21333e8e4e41db Fixes for all trees
          
