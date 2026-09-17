@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 17 Sep 2026 09:53:25 -0000
-Message-Id: <178963880553.259916.14219109713820161983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 17 Sep 2026 09:54:04 -0000
+Message-Id: <178963884499.260309.1885703820867934237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 50fd0ada8d37587223001600933270b59cb30e19
-    new: 02af7eac17bc62a72335c1fc8c4af4471654f6cc
+  - ref: refs/heads/renesas/hwspinlock/xarray
+    old: 8a4050989670946711dec333ce3de7780b6151a0
+    new: 65cf940e321199c7c34a80340758975f776a2bd6
     log: |
-         e9d810279f84b30738f7790c0ed15f8dd5b9024a gpio: arizona: Fix runtime PM leak in arizona_gpio_direction_out()
-         02af7eac17bc62a72335c1fc8c4af4471654f6cc gpio: mvebu: keep resume masks within the irqchip cache
+         0adf476bac66622ef42e30e300414f89c427369f hwspinlock: add low level debug capabilities
+         65cf940e321199c7c34a80340758975f776a2bd6 sparrowhawk/ironhide: hwspinlock testing
          
