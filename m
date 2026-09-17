@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Thu, 17 Sep 2026 18:35:33 -0000
-Message-Id: <178967013362.764894.8850404680382226864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 17 Sep 2026 18:53:52 -0000
+Message-Id: <178967123210.776216.16866973039153014927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/slab
-user: harry
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: 4c51f0b648cbf190d15d4ff60826c769f7e81df6
-    new: f4feefcf46b9a63e4ab096c3f2cb260ef8e3902a
+  - ref: refs/heads/spi-7.3
+    old: e922bad8b2d5028c51a096d083fea41cd0987154
+    new: 3d743adf090cd4c9a2120c1e02b0482e88aa0d2d
     log: |
-         f4feefcf46b9a63e4ab096c3f2cb260ef8e3902a MAINTAINERS: update slab.git URL
+         3d743adf090cd4c9a2120c1e02b0482e88aa0d2d spi: fsl-qspi: Reprogram the clock rate when the operation frequency changes
          
