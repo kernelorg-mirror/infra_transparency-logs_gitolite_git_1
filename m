@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3134306330732690583=="
+Content-Type: multipart/mixed; boundary="===============0667822106639800511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 17 Sep 2026 01:15:31 -0000
-Message-Id: <178960773180.4055464.849471214562641902@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 01:15:39 -0000
+Message-Id: <178960773928.4055850.16185449093890711818@gitolite.kernel.org>
 
---===============3134306330732690583==
+--===============0667822106639800511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary
-    old: bd550202a93866f3079bf695920101cd1d8919aa
-    new: 8e8ad9449ac496e07953f1e686971ff567396d5e
-    log: revlist-bd550202a938-8e8ad9449ac4.txt
+  - ref: refs/heads/kernel-7.1.13/main
+    old: be19de6d24f87adbe910dfaa8f978e15587f0e36
+    new: bde47f511646c78645a29572f1fed639161ed6ab
+    log: revlist-be19de6d24f8-bde47f511646.txt
 
---===============3134306330732690583==
+--===============0667822106639800511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd550202a938-8e8ad9449ac4.txt
+Content-Disposition: attachment; filename=revlist-be19de6d24f8-bde47f511646.txt
 
 2edeafcf7955ed14f09091da4558d330ece8b532 NFSv4/pnfs: Free the netid when draining a data-server address list
 a2872a3629d7ba74ffe75daae41ddda956a1cbf3 NFSv4/flexfiles: Use the full 64-bit stripe_unit
@@ -54,5 +54,20 @@ d22c62c9a6616181da8e70f46739a9a8fbd4dc2b NFSv4/flexfiles: Add a dataserver_nconn
 86caad29be7239524d1cced9018b79184c17fb68 pNFS: allow layout drivers to cancel I/O to a single device
 59ded186205c16ca24cd4368c9ba000e03ac6b14 NFSv4/flexfiles: only cancel I/O to a failed mirror instance
 8e8ad9449ac496e07953f1e686971ff567396d5e NFS: defer the final superblock deactivation
+733f93a6af0011b84c78fc7fcb1ff706dd8bff8e Merge branch 'kernel-7.1.13/block-DIO-alignment-fixes' into kernel-7.1.13/main
+7035c415a8878630476162ec7a4d6edaeb502dd9 Merge branch 'kernel-7.1.13/vfs-7.3-rc1.iomap' into kernel-7.1.13/main
+9b8e66cc8bdaac2c9a2d621ba1e8aee3dd01bd6b Merge branch 'kernel-7.1.13/vfs-7.2-merge' into kernel-7.1.13/main
+5a267d36b487efd4e209ed2cdb472dfd84245ab5 Merge branch 'kernel-7.1.13/nfsd-7.2' into kernel-7.1.13/main
+9eec5643b288ebaacdfa3d14d59fe5c73ce99eb5 Merge branch 'kernel-7.1.13/nfsd-7.2-1' into kernel-7.1.13/main
+7bc85af0bcee0391fccc05cf4cc8812fece979e0 Merge branch 'kernel-7.1.13/nfsd-7.2-2' into kernel-7.1.13/main
+75802f55eaa1a99ec03067b9a6fdec57a400fe08 Merge branch 'kernel-7.1.13/nfsd-7.3' into kernel-7.1.13/main
+d241a16259d7f0a7d168c2ddbff5696a30089133 Merge branch 'kernel-7.1.13/nfs-for-7.2-3' into kernel-7.1.13/main
+c51c4482b9aff6087d8291c1bbb615edd49a5c8a Merge branch 'kernel-7.1.13/nfs-for-7.3-1' into kernel-7.1.13/main
+0c909cf9f0c2a99e96bd31e4ffd730b543db0cd4 Merge branch 'kernel-7.1.13/nfs-testing-canary' into kernel-7.1.13/main
+0c7206dd77a9cb43cc2846d1dea962fb45b1f884 Merge branch 'kernel-7.1.13/nfsd-testing' into kernel-7.1.13/main
+dfc792ea80de7cc5b04ac1a95862e40b1cf2ee31 Merge branch 'kernel-7.1.13/nfsd-testing-canary' into kernel-7.1.13/main
+3efeba4bec91c36afc54fa935033ab9c1d63b3d9 Merge branch 'kernel-7.1.13/nfsd-testing-canary-dontcache' into kernel-7.1.13/main
+f876a4ebbc52f7d5364776ffe44fc4fe42691b13 Merge branch 'kernel-7.1.13/nfs4_acl-passthru' into kernel-7.1.13/main
+bde47f511646c78645a29572f1fed639161ed6ab Merge branch 'kernel-7.1.13/changelog' into kernel-7.1.13/main
 
---===============3134306330732690583==--
+--===============0667822106639800511==--
