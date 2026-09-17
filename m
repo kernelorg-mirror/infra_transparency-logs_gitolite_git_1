@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0037900562329893552=="
+Content-Type: multipart/mixed; boundary="===============2291465172366016316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Sep 2026 18:02:04 -0000
-Message-Id: <178966812467.738225.18227757121660148601@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 18:02:07 -0000
+Message-Id: <178966812738.738415.2743517200968082985@gitolite.kernel.org>
 
---===============0037900562329893552==
+--===============2291465172366016316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 87b80c2f6b05cad9f0ff9136709c62a0f59923e3
     new: 26ee8cd69d46a14b37ba5e512084fe80d730127a
     log: revlist-87b80c2f6b05-26ee8cd69d46.txt
 
---===============0037900562329893552==
+--===============2291465172366016316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ b8a6f2340999bedd3b83ded2e909d855b6db1f41 selftests: net: add IPv4 and IPv6 addre
 5ccdfb2c3203207deb17e7c5b0db8c7f475639a7 netlink: specs: fix duplicate if/then keys in netlink-raw schema
 26ee8cd69d46a14b37ba5e512084fe80d730127a net: qualcomm: rmnet: require CAP_NET_ADMIN in the real device netns for config ops
 
---===============0037900562329893552==--
+--===============2291465172366016316==--
