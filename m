@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Thu, 17 Sep 2026 22:28:45 -0000
-Message-Id: <178968412583.939897.8858792188427130975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 17 Sep 2026 22:36:30 -0000
+Message-Id: <178968459054.946673.13184942646625463361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-user: andrea
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: 590eed9041a1dff182dd354bac04a1829bac17e9
-    new: 67dc0088ff421b3db3be9bdfe449670633f59403
+  - ref: refs/heads/master
+    old: 9b87fdc9af2fbfcdb5c24a64139685ef80f6573f
+    new: 238650ef6c7c7cca08e032527329424c9fbd70e5
     log: |
-         f6ea2eaac0625d2ced897e90050b50453bbba8b0 Update clap_mangen from 0.2 to 0.3; still allow 0.2
-         c8d34be4ac54ceaa4991e963a83334ba2026e90f Merge branch 'clap_mangen0.3' into 'main'
-         a1aa5ef8953115e362e31224e7ddaccfd837a5d3 rg-edit: support ebnf capability for vllm
-         67dc0088ff421b3db3be9bdfe449670633f59403 version
+         51938dfa8a51a4f85328413fca9b6e21f9d2d088 KVM: PPC: Book3S HV: fix use-after-free in kvmhv_emulate_tlbie_all_lpid()
+         0a416ee20bcccddf91ca5b63696a23b9d11d73aa KVM: PPC: Book3S HV: fix secure device page leak on uv_page_in() failure
+         0b271f7d7f5ed45bc498a03ce0aa9cfd8402fc71 powerpc/iommu: Fix the overflow validation in iommu_tce_check_ioba
+         238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
          
