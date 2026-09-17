@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7742928626042109052=="
+Content-Type: multipart/mixed; boundary="===============1613043626393424862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 17 Sep 2026 12:02:24 -0000
-Message-Id: <178964654499.391239.4147899898467932543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 17 Sep 2026 12:06:16 -0000
+Message-Id: <178964677695.394645.7616947429197624535@gitolite.kernel.org>
 
---===============7742928626042109052==
+--===============1613043626393424862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/device-trust-core-v1
-    old: 0184fadea32255bd9ed63363f15df622ab79347e
-    new: 6b6f6edea05c02a50f5deaf3854f2ad162710068
-    log: revlist-0184fadea322-6b6f6edea05c.txt
+  - ref: refs/heads/master
+    old: ba5b25e10446381863c84dc348cd7e61c942227c
+    new: 95083d3e400308623ab6176cfa933ab648f6e760
+    log: |
+         95083d3e400308623ab6176cfa933ab648f6e760 6.12-stable patches
+         
 
---===============7742928626042109052==
+--===============1613043626393424862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0184fadea322-6b6f6edea05c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-59601513f05a1a02720b0c3c00e4d80d328fafde driver core: Introduce generic device trust policy
-f85471576d614402b408fff3b8ccc20b124fd04a driver core: Add requested policy and active trust level
-0bac952b001a90f43f4ca22d8683281161ec9752 driver core: Resolve device trust policy through the bus
-13a13296dcf8ee9df10434e482504b26a2cbee2b driver core: Hold active trust level across driver binding
-70e45b24e0edb2dc4202738954c62499cc61b2a0 Input: gameport - lock device for manual driver binding
-fa3073ee9bf9cc3ee3f0ca9237151ff05405700d Input: serio - lock device for manual driver binding
-9404a936fde2e956afb4705af9e73b0fb8af6b98 net: phy: lock device for manual driver binding
-6455a4f839b41f808f337016fb1456d94408b387 wifi: mac80211_hwsim: lock device for manual driver binding
-b9bddca34f3e771ae67df65620118298ae7529b2 PNP: Lock device for manual driver binding
-544972a19f2506d12dcf6c55b31c5e078292a28f driver core: Expose active trust level to bound drivers
-7db5f50924c659f8ce954d60414f608c5495b0d1 driver core: Document device trust policy
-a2278e4af192bbb2402abd43382dc07ee5a342a1 driver core: Test device trust binding
-5204c53ebcf9b239c8eb792dbe8057006cf199d7 PCI: Add device trust policy helpers
-b2a335d859fbcaae27539bb7c45c074b21ace352 PCI/IOMMU: Convert untrusted checks to device trust
-6b6f6edea05c02a50f5deaf3854f2ad162710068 PCI: Remove the untrusted flag
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789646655 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1789646765-fb251a3f687ae75d79a82335ee5f4530c9b04349
 
---===============7742928626042109052==--
+ba5b25e10446381863c84dc348cd7e61c942227c 95083d3e400308623ab6176cfa933ab648f6e760 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqr1z8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5QQQAJpSJdawyUmNBfGtXC9v
+KK8t0V06Tr4pPswCIwk/motysxeeqVrTUzs8mZ+3Y0r+gjPl6QiDUwc+0JyEvXxg
+RcNmxaFnHqRJRkyGg+4G2a3v37LhjmMI1jCPk0xICJo5Q+R8n26JRyFBXjNIkHn4
+Terri+Si11b9amWy4HRABMRKR0HBlCgq5jxqkxeTCVhh2+4JIfr/T2W7GaHGoNPh
+evKJzTRS7MIxCtYP8i51mzzK/UC0UmvB7u+mw9/CBK3GRZVjAeIEtw09daa/22/a
+JJshWbfhH+Ykp1NvkkD1oT1btfSLIpRdEaxlJ+uSErdWgWrH2lqhN5uiWskEZ9DN
+HfJx9IjvSEDd8i8FWYjzWpST9/zco4BISiRLLKQGWtZbNo1svzAyDrItDfJeMa4j
+kaXRonSi5sTl4HDdG9Vv+WbwfTVOUPEzFXf4YuJ9iY3US7lpP8xhf0XwtWUDWcY2
+i8ZZjNjj0GrrhNRaD8VBRwyTARjea4yGcWH+v/ThQqQk3mCIBs7MukW4Y/oRq1AS
+T3pgK+OKVp4/0vB79qANdOhfuGXMlwJROigX2ne7q8DJGwdR891JpYnjA4/eieXz
+k35VOiG2DPpI6d9tVYP1lB6fpy6ZhrV0A2rh1g0SVHm1+Xt9mN3yZockqs0Mzbqc
+JA6Go1vxyhzUXrYm/jlG0Y7y
+=NiTs
+-----END PGP SIGNATURE-----
+
+--===============1613043626393424862==--
