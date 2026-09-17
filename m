@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3836540631867948925=="
+Content-Type: multipart/mixed; boundary="===============1855895624379212896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 17 Sep 2026 05:28:18 -0000
-Message-Id: <178962289801.43695.5761501443184466648@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 05:29:03 -0000
+Message-Id: <178962294344.44165.9682120432619453367@gitolite.kernel.org>
 
---===============3836540631867948925==
+--===============1855895624379212896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 96f01b53c2d05e003b040892256de54a586e8529
     new: c9151088f1674fd29ff26a20f5fc687acf53a2f0
     log: revlist-96f01b53c2d0-c9151088f167.txt
 
---===============3836540631867948925==
+--===============1855895624379212896==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a41f24c612c3f5139a3143307eb85bbcf1bd4d07 net: psp: avoid conflicts with skb->dec
 b4288c59bda883b0e5cd95099dc3b0b7b7fc50f6 selftests: drv-net: psp: test PSP and TCP ULP mutual exclusion
 c9151088f1674fd29ff26a20f5fc687acf53a2f0 Merge branch 'net-psp-avoid-conflicts-with-skb-decrypted-and-sk_validate_xmit_skb'
 
---===============3836540631867948925==--
+--===============1855895624379212896==--
