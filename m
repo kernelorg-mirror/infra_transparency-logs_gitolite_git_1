@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============5472895819352691378=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 17 Sep 2026 15:05:25 -0000
-Message-Id: <178965752587.541895.13384144482296749456@gitolite.kernel.org>
-
---===============5472895819352691378==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Thu, 17 Sep 2026 15:07:14 -0000
+Message-Id: <178965763402.542734.10419463757218919436@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/master
-    old: aba3ddb58862e104bf8201c8619759dd18c3e4ac
-    new: d8cfc84f9d4214d7193442a65de60e0bf4b660ed
+  - ref: refs/heads/for-next
+    old: 46d8fa682d263271f3ef7bf95166b124c19d6c62
+    new: 49dcf40cf1843c615332c7123508f0bef3ee86ba
     log: |
-         d8cfc84f9d4214d7193442a65de60e0bf4b660ed first chunk of 7.2.6 review from greg added
+         478f68c644732750f8386e4de7c909c5ffb26ab2 arm64: dts: imx95: Drop unsupported opp-hz-real in OPP tables
+         0a6cdfdf712fd47fbde1da93d7ed6f923f6ad941 firmware: imx: adds miscdev
+         b3ee5830c8a38524dcbda87f79ca971a8914734e arm64: dts: imx8ulp: add secure enclave node
+         9e2427e8b17c549e0a06d2e6791a24e145d3917d arm64: dts: imx8ulp: add reserved memory for EdgeLock Enclave
+         49dcf40cf1843c615332c7123508f0bef3ee86ba Merge branches 'imx/drivers', 'imx/dt', 'imx/dt64', 'imx/ele', 'imx/fixes' and 'imx/soc' into for-next
          
-
---===============5472895819352691378==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789657410 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1789657522-8c80ce09a86699df0ba508f35aaa8606f32aeb07
-
-aba3ddb58862e104bf8201c8619759dd18c3e4ac d8cfc84f9d4214d7193442a65de60e0bf4b660ed refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqsAUIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6DwP/3ai/mMUrIRDxUfDuNAU
-B1PFIqBXzbrSQMExs/+wg2C0AWUx4wIcHWdonYpjdoP4bvabBlCuwlcGrOhMI2hD
-4R+DbyUR8rk9fTSkZfw7BG+f7PJvr37wUUpBXHqUXu+JA9Z3EfSIlPsjvkBs+DnV
-yClYDAQbKkdQHP+C0MUthWIEexNfbp41ZZdwnSR0glqSRNm+VpFFcDbGUaHVmi9e
-+c836ook9cnO04Uq+GTemrJF8kNV08oNh3RnHIKweTbe+J49l+G8EPyQ54d1iYqQ
-qyGoHGm8gJ9AHrNPYhYAIDogoOz15I3eiGSv/urvihLu/c/QugPkC6X7LNoxcUOe
-uqmFo+7bB+JNRtPtznjJQDrcR0s9xqPf96ARw471HdTbGafna1lP2wC8mU6VmIjR
-2FMIfGxVWZ/BsRm48dH520ejyO3xQ1rviYccnC0ZXUMlRpNMoVUlk53AOY3EBg21
-oUurGxgsqlw63PhsfslbSe5uKZ/xgZKvMLTphJoAn/6zKzqfHX0HPesHVbkx1U7+
-ULdm99WV+uL76UK4o4mTCbQDtdo1bP60X65ja5A/pztJ9J7IWadzHCIolTGZvqLe
-gl/svzA4mxhUGIM1FS05MmmaKWq4rp9EBrYiftQxwuU8EnKT6Dh5wSxIyBOs910N
-qN0QXJeB9wt451l6L6NR3XYw
-=rVAS
------END PGP SIGNATURE-----
-
---===============5472895819352691378==--
