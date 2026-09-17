@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Thu, 17 Sep 2026 19:34:26 -0000
-Message-Id: <178967366605.806615.13642611295120570846@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 19:43:01 -0000
+Message-Id: <178967418179.813171.4988504145006856018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
 user: vdubeyko
 changes:
   - ref: refs/heads/for-next
-    old: c59ddba036a4bc3c0f5705dd6b37c7889b191bcc
-    new: c298301279bd233363de3aca5a32c055bf2f3239
+    old: c298301279bd233363de3aca5a32c055bf2f3239
+    new: cb6702e63e0a16afd83875294e5ce53becdd1b1f
     log: |
-         c298301279bd233363de3aca5a32c055bf2f3239 nilfs2: validate segment number in nilfs_sufile_get_suinfo()
+         cb6702e63e0a16afd83875294e5ce53becdd1b1f nilfs2: force clear dirty state when restoring from the shadow map
          
