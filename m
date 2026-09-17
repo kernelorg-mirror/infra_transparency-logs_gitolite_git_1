@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1099846090232372115=="
+Content-Type: multipart/mixed; boundary="===============2479550872530495822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 17 Sep 2026 13:07:30 -0000
-Message-Id: <178965045035.446829.9316465779682694231@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 13:07:51 -0000
+Message-Id: <178965047150.447096.13778819332165161029@gitolite.kernel.org>
 
---===============1099846090232372115==
+--===============2479550872530495822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 15b896394d6e38bf9d8d16658ed43bfc5808b8ef
-    new: 5e0b38d964ebc846f3a2deed39a594368768a4b4
-    log: revlist-15b896394d6e-5e0b38d964eb.txt
+  - ref: refs/heads/export-net
+    old: ce81942ee59a26ad1d0b51e2844b482f491716f3
+    new: 9d98562ae208a3407f169bd0410a13a3da0a2aa0
+    log: revlist-ce81942ee59a-9d98562ae208.txt
 
---===============1099846090232372115==
+--===============2479550872530495822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15b896394d6e-5e0b38d964eb.txt
+Content-Disposition: attachment; filename=revlist-ce81942ee59a-9d98562ae208.txt
 
 d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
 89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
@@ -107,21 +107,9 @@ d9be5e75530772fc31637070d51e5717d6aeaa2a wifi: wcn36xx: Fix potential use-after-
 621d90169cef6c8da5b6134db5c0c4e23cdd09ce wifi: brcmfmac: fix lost 802.1x TX completion wakeup
 1eeca1d5e0920fbdad6449768fd2d4364e714180 wifi: brcmsmac: fix UAF in brcms_free_timer()
 18a6fe05fb6e18de29fa90d388bb34044114b3d8 net: bridge: mst: move switchdev call outside rcu
-578fefdbbdaf3d02949ad9bb94736c81de4a02a8 ipmr: Call ->dellink() to remove DVMRP tunnel device.
-0239bd767b3ae5d361f348a88babd33a15d498a6 ip_tunnel: Set itn->fb_tunnel_dev to NULL in ip_tunnel_delete_net().
-7ba090b04ab87b90e714e5fb3ba8748f6f04d2a0 ip_tunnel: Don't pass rtnl_link_ops to ip_tunnel_delete_net().
-e53013fe10c22fc4e2cc1b45180790a5429c7aa9 ip_tunnel: Centralise ip_tunnel_del() to ip_tunnel_dellink().
-6faf19060bd0123b69d7e9b04244fd577223ac3c ip_tunnel: Unify error paths in ip_tunnel_newlink() and ip_tunnel_changelink().
-6724a7baf149ee883eb0b694e8818eacb899f5d8 ip_tunnel: Protect ip_tunnel_net.tunnels[] with mutex.
-8f3c724202578644145506486dc1cede108c0a2c ip_tunnel: Support per-netns device unregistration.
-7bbb398689fe56196c321f4106bf7f570bfa3eaa Merge branch 'ip_tunnel-support-per-netns-device-unregistration'
 2cef2588c995722a901368def30befeef9ae55c6 net/sched: hhf: cap hh_flows_limit at change time
 0654f4dba1fbc697f2653aba30cd68587fcbf10e selftests/tc-testing: add hhf hh_limit cap tests
-e8c06b895281ad68b2818c3f0c99b0d7fb79539f tcp: make smp_rmb() conditional in tcp_poll()
-4358a3e8e7cc986f3a589bc0251b7d6d73090faf netlink: specs: tcp_metrics: fix the attribute length checks
-1a523f29fe4f663594926005714a3c10b9c04539 netlink: specs: tcp_metrics: drop the RTT shift instructions
 8e759cd1f6444a946bd1fd2b2b29eea582eea1d5 tcp: Don't call skb_clone_and_charge_r() for close()d listener in tcp_v6_do_rcv().
-b8e9e7d82e7eefd5d2d528469d94ec20e96b38c3 selftests: drv-net: devmem: set reuseaddr on the sender's source port
 83a945a529d6e002dd7339c532288a931f463dba tcp: do not let tcp_rmem be set below 4096
 2b50adefed9808a56d84d1de803cad882cc787fa Bluetooth: btusb: fix NXP IW610 composite device handling
 e8241766794cf551d787fa3a77c0d54bbea6f6aa Bluetooth: eir: validate service data length before reading UUID
@@ -140,38 +128,22 @@ ca18ee413a7cb6f09885778039225e58bae0d607 Bluetooth: ISO: Fix parent socket leak 
 2ea5a87a5a7ae58cb2662b8a7d06f209383e1765 Bluetooth: btintel_pcie: fix off-by-one bounds check in RX submit
 555cd2bd860e7c4bdc3f4e4405b05515b0d9bc87 Bluetooth: keep dst_type with dst when reusing an LE connection
 801fb950cae7048eb7d83b18857d1ca37b8cd5a4 Bluetooth: RFCOMM: avoid socket lock inversion in listener cleanup
-47dbcfdf942a35dbf842ea05bb2248fcda411da7 page_pool: Fix page_pool_alloc_va() reference in kernel-doc
-3661253d2253b92d30e3734aa46e5ad41df7043d selftests: drv-net: remove duplicate functions in hds.py
 c5e367a8a3f939e9935369a38ea7e0f872f594b5 Merge tag 'for-net-2026-09-15' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 4a4263dfeabad72f95e8ab6e15146861fa4144dd af_unix: Unify scc_index when finalising SCC in __unix_walk_scc().
 b645ccd410547d0e0e4a9543f828119e24dc7635 selftest: af_unix: Add test case with mixed lowpoint in scm_rights.c.
 433cfc302561bc7e23b1305e1779e0d83156cb61 Merge branch 'af_unix-fix-inconsistent-scc_index'
-032ef43b9dab22f1e2fe9923b4d8b23d3ea9943d dt-bindings: net: Use consistent indentation in the example
-b785f5c56fb3dbe70635592b11547a2c828e95b3 netlink: policy: report the big endian attributes
-3d989d1f40a0b286342fab34ed791854c918d06b net: phy: realtek: improve firmware write speed
 15989abd74f16f44bf953d056b95f1d2fda9b0cd net: stmmac: fix TSO header length truncation
-30da1c2a41507ec9265440c1f223d1d6c1bc5244 net: 8390: pcnet_cs: release PCMCIA window on setup_shmem_window() error
 6e05e46fa821a5c1b281355f1f622ac76cb6080a net/sched: act_api: release tail references on DELACTION failure
 14c5eb685cdefbd32e73d2723071ecbd8effbce9 selftests: tc-testing: test action batch deletion failure cleanup
 562219874cba1be6b708fb29a89fe8f54544b022 Merge branch 'net-sched-fix-action-batch-deletion-cleanup'
 ecc7253683a3c55caa868ce0ee530fcb0044bd3c pppoatm: ensure a writable skb header and linear data
 455ebeadf714f51e1dbbd6a022c74c9215b1cd76 net: ip_tunnel: initialize `options_len` before referencing options
-d328b5ad4a521807edee1920a3c0ca04020d6230 net/qla3xxx: disable the PCI device on remove
-4e8b65ecb64ca94963057df764c12c4aeddb6bca net: mana: Use the HWC destination queues reported by the hardware
 6a038ef2b57922b6d9ca98ddac0df0681849b704 drop_monitor: synchronize tracepoint unregistration on error path
 c391a40f71886b28c082b47270f0e856fa3e1150 drop_monitor: use timer_shutdown_sync() to prevent timer rearming during teardown
 c19b7d35086b7d240f1ca3088b0079d2bd39ffb9 drop_monitor: use raw_cpu_ptr() in tracepoint probes
 439f392084f8f7f59ab9d47a9579185accefe1d8 drop_monitor: fix out-of-bounds write in reset_per_cpu_data()
 ad77dba64dc1a522014b2cd7376a67004140375b Merge branch 'net-drop_monitor-fix-concurrency-issues-preemption-warning-and-buffer-overrun'
 3f118c8217c109fd13ca61caa301d72c483897ef openvswitch: avoid reallocating confirmed conntrack labels
-fbcd35eb1871fb7df3a5dbb0ffa05f15b83207a0 selftests: drv-net: psp: fix linter issues
-cf3302111b1a5c2b56127579ca51bdd20c70c0fe psp: don't report the main netdevice's ifindex to associated namespaces
-4d5d9f3a19682450858ff93ba3beaae65784ee3d selftests: drv-net: psp: check the ifindex an associated netns sees
-fb3ddbe2b5774f97a428bfb26711d68b966fcd0a psp: notify about a disassociation once it has happened
-b711865f68ce1cd5e832f7859260e9db73d2ed7c selftests: drv-net: psp: factor out creating a netkit in the test netns
-4d3c1d963c6fd104bf408ea66c52a939d93697bd selftests: drv-net: psp: check the PSP disassociation notifications
-0570dced4304cda532e5862fe3f8677a8e703b2e Merge branch 'psp-correct-notifications-and-device-info-around-device-assoc'
-87b80c2f6b05cad9f0ff9136709c62a0f59923e3 net: txgbe: free the fixed-rate clock on cleanup
 f0ef4b1eaed000a304726a43091588e8426ba08a net: stmmac: do not overwrite phc_index when no PTP clock is registered
 2842ce397dd09882530b42f7fdb0c855767eb24e net: bridge: vlan: fix bugs caused by switchdev deletion errors
 ceac0de741bfb47ca255eee075257b3bb31f0651 netlink: do not free nlk->groups while lockless readers can use it
@@ -179,8 +151,6 @@ ceac0de741bfb47ca255eee075257b3bb31f0651 netlink: do not free nlk->groups while 
 fefaac1176bf3cf002a8dc83339d6ed6a369941a Merge tag 'wireless-2026-09-16' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 7f4a5ec6258fd7c92633ec4b0493fc51166d9398 net/sched: codel: bound the dropping loop per dequeue call
 f6fb2ac5e19ae4b66112a698050db80e51f841c3 selftests/tc-testing: add codel/fq_codel interval boundary cases
-3c8abdbe345be37aedadddf931df214d706bb973 net: phy: broadcom: enable jumbo frames on BCM54xx
-ed502e4856856358b304d0c04f8e33364547d1d2 macsec: require CAP_NET_ADMIN in the device netns for changelink
 a9ce4053dc945c5372dedba5017ee675b30dc0c5 net: lan743x: fix RX checksum use-after-free
 33ff111d7ba3beb86e28938d6382bb5beabd865a net/packet: clear RX owner on VNET header error
 60404266ef3e0a1cd8f7a164060e0c83efb72f4b mptcp: return sk_wait_data() errors from recvmsg()
@@ -190,57 +160,24 @@ a9ce4053dc945c5372dedba5017ee675b30dc0c5 net: lan743x: fix RX checksum use-after
 490599ab23134962a6d18a024e84541d77bdb999 eth: fbnic: ring the doorbell if a burst ends in a drop
 9ed55f3dbef4f4adfe65eb03b0c35c53229a8490 net: lock the socket in sock_gettstamp()
 1dd85662fee6e2ac580b1c4f9a0c0a7ae6e31f0e net: ethernet: cortina: Ack RX overrun interrupt correctly
-c5faf1d4df8f5be608267dfa87cc819dde0bef97 net: ethernet: cortina: Bound RX descriptor processing
 5d063822ac5184939c1ed377a339a01d8ae814e8 net: wwan: mhi_wwan_mbim: guard against a cyclic NDP chain
 31550d585589fde1ae95bf7f7a8188b2d2fdf1c7 net: wwan: mhi_wwan_mbim: check skb_copy_bits() return value
 c7ead9704249d57d4693a04697e3bbd285138fa9 net: wwan: t7xx: validate the netif index in t7xx_ccmni_recv_skb()
-65734bbe4a9fb78fca55b27c969656bfad1c7dc3 net: preserve socketpair output on setup failure
 90e4b849dfa6fc8e6c050bcfe1b331b69c015d28 net: stmmac: propagate FPE preemption-class mapping errors
 02fffd1939f6b45892f61822459953ce95e42948 net: stmmac: preserve real_num_tx_queues on mqprio setup failure
 dd56c0bc4836fa705acb2f6a8a44af669d30fa3a Merge branch 'net-stmmac-restore-previous-state-if-tc_setup_dwmac510_mqprio-fails'
-9a483b60a0ad67fbd55c23a0ebb96754e984f585 selftests: drv-net: add BIG TCP test cases
-7bc21b740291c06b6437fd7ed7fab2d707b35cff selftests: net: gro: fix OOB access when under-coalescing
 a41f24c612c3f5139a3143307eb85bbcf1bd4d07 net: psp: avoid conflicts with skb->decrypted and sk_validate_xmit_skb()
 b4288c59bda883b0e5cd95099dc3b0b7b7fc50f6 selftests: drv-net: psp: test PSP and TCP ULP mutual exclusion
 c9151088f1674fd29ff26a20f5fc687acf53a2f0 Merge branch 'net-psp-avoid-conflicts-with-skb-decrypted-and-sk_validate_xmit_skb'
-063510768490d85454a99b27be303aad5efdf624 ppp_synctty: Use common error handling code in ppp_sync_txmunge()
-c3b5c0b0afdeffe88c9242521b7830c5cfe63ac9 DO-NOT-MERGE: git markup: net
-ec90846b968409a0d6349831a40387d9f7714bc7 DO-NOT-MERGE: git markup: fixes other trees
-58745d1908d6e3f61a6a75de38817a3e79a3ef58 mptcp: avoid unneeded actions on subflow reset
-946e2239aad1f34bc094f43ed2d53cf57a37587f mptcp: close race between scheduler and state change
-16a07bf53580c434cf3c7546080d183edb288ffa DO-NOT-MERGE: git markup: fixes net
-3f98474d92fc8d540a1c619d207f3b8e395a8529 DO-NOT-MERGE: mptcp: add CI support
-4a74adafd29d1e72d8279da80c4923dac6c1a9c5 DO-NOT-MERGE: git markup: end common net net-next
-7cf4ef47e6ab67119919652bd519478099f55417 TopGit-driven merge of branches:
-d9b380f2bed3c2b91fee27a5462a4d53b3c219cf DO-NOT-MERGE: git markup: net-next
-423cdf4aaa549d63233752f7839e1616571c7706 DO-NOT-MERGE: git markup: fixes net-next
-0dd0a59dc3503ccc3871f9987dac2faf790070ae mptcp: pm: init and release mptcp_pm_ops
-47ecbb8e90c63a9d699896ca0e1e65293b22d3ff mptcp: pm: add get_local_id() interface
-c6fafc09e2aab7b6c709d6564556889cdc1321a1 mptcp: pm: add get_priority() interface
-18ea2404a84f624e59b88f0cb6177b2313344de9 mptcp: support MSG_ERRQUEUE on the parent socket
-1727f32a974d8ddf3dadc62a886d1fd88f50074e mptcp: sockopt: factor inet_flags propagation into a mask
-f868a67a914d820f4b09f75f8b0bcb7eaa802836 mptcp: propagate RECVERR sockopts to subflows
-3d60e9a6aba68148037e39fc4ad0b9ef705a2f49 selftests: mptcp: cover IP_RECVERR sockopt propagation
-c3a7c786f2aeaf24def64c9199c44da9e39c7da2 mptcp: remove thmac from subflow ctx
-7aeb54d9ca3584ab9805620410952aa9ffe11b80 mptcp: split FASTCLOSE key from rcvr_key
-d5d6351e44b5e17e42f8ff6bb7e08ac7be3b4685 mptcp: shrink struct mptcp_options_received
-1f0e5641ccd08d3d7b1149f839fe0be84aee77f9 selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh
-fcac1a4feaad914e07fb59bbb7ed208a12835313 selftests: mptcp: convert iptables to nftables for mptcp_join.sh
-955f1f7a131d48594038a9bbe6072927ab02aa38 DO-NOT-MERGE: git markup: features net-next
-e80d47d439fa6d864de5033b44492a07c07c6d42 DO-NOT-MERGE: git markup: features net-next-next
-1e857a2c296738eba7845395eccaa8a5c24bdd7d bpf: Add mptcp_subflow bpf_iter
-791b632f455d9b41834257ecc90c732cc611d8c5 selftests/bpf: More endpoints for endpoint_init
-499e8db74c05600df0973de7ff9f1b92ae702eff selftests/bpf: Drop cgroup_fd of run_mptcpify
-74716eb898ed3d2ff2cd8467626920263f82d3b1 bpf: Add mptcp packet scheduler struct_ops
-26e459c02f075c6109329bacd0564179dc753751 bpf: Export mptcp packet scheduler helpers
-d29792837a2289a8769555cd1cdfd8fef55834f1 selftests/bpf: Add bpf scheduler test
-11fa6d63d6f56b624d0b6a3482e1d6d78fc5ab66 selftests/bpf: Add bpf_first scheduler & test
-6ec31517698992d3a72f3161103ce3750638cd6f selftests/bpf: Add bpf_bkup scheduler & test
-aba4f1b8f20f83d4b72c41b286e0946de7f35e7a selftests/bpf: Add bpf_rr scheduler & test
-e6943e88afd6c60c92e17a84abaf7acfe4ba5d4d selftests/bpf: Add bpf_red scheduler & test
-72f29481f8b3e9e11d68e026155df8d759e3c053 selftests/bpf: Add bpf_burst scheduler & test
-084fb14d37046f377a0180c7228d574d62445ca0 DO-NOT-MERGE: git markup: features other trees
-af6722f06e9167cd683ac5066c1b13748d7e2e79 DO-NOT-MERGE: mptcp: improve code coverage for CI
-5e0b38d964ebc846f3a2deed39a594368768a4b4 DO-NOT-MERGE: mptcp: enabled by default
+75778e3157317b8966b20d4484a977abaaad1cfc DO-NOT-MERGE: git markup: net
+5ce7a4aa703302a19bcd5c0b61341199e0022568 DO-NOT-MERGE: git markup: fixes other trees
+a2b27607def9742ec90688be271b83586c261b40 mptcp: avoid unneeded actions on subflow reset
+73b55388cea24823f3cc6d70ed5a66de2a5c2714 mptcp: close race between scheduler and state change
+0145ddc69d83749ace3b80d0c41d5dbc93bfb100 DO-NOT-MERGE: git markup: fixes net
+9f9ed74426bb0bcf9e3e3706deb9e05ee8620012 DO-NOT-MERGE: mptcp: add CI support
+3afe2dadfc3c12fdc612d80c03febea3c1d7764a DO-NOT-MERGE: git markup: end common net net-next
+127da3403a13848aacc794a75c72a85886ccc7a7 DO-NOT-MERGE: git markup: fixes net only
+e9892539f933e6c19866d706ee47c02f332915af DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+9d98562ae208a3407f169bd0410a13a3da0a2aa0 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============1099846090232372115==--
+--===============2479550872530495822==--
