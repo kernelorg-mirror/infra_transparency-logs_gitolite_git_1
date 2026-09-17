@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Sep 2026 15:15:08 -0000
-Message-Id: <178965810896.550599.16534455956549945317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Thu, 17 Sep 2026 15:15:16 -0000
+Message-Id: <178965811659.550891.10268692932679899921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/mm/slab
+user: harry
 changes:
-  - ref: refs/heads/main
-    old: a5117e1eccac6ee3bd4aed7cacf8ebcb6b3eb309
-    new: 3b95a04eb5f95bf6a016a1bb9ff37d3eee48de63
+  - ref: refs/heads/slab/for-next-fixes
+    old: 4a724bcf5d703e18957397914d79156fa2cf1174
+    new: 9b9daa338915e2fbac09bf2ade8c6bfbe315b339
     log: |
-         2b0f561f21b27c40c91ea4975268a06092bd7e9c mptcp: avoid unneeded actions on subflow reset
-         42064de57fb83231fcc89663a94885f228a1ee53 mptcp: close race between scheduler and state change
-         f3ef03357396d4b147d8e76c75fb612c2f264ffc mptcp: fix bad accounting in __mptcp_subflow_push_pending()
-         3b95a04eb5f95bf6a016a1bb9ff37d3eee48de63 Merge branch 'mptcp-misc-fixes-for-v7-3-rc4'
+         9b9daa338915e2fbac09bf2ade8c6bfbe315b339 MAINTAINERS: update slab.git URL
          
