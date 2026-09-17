@@ -1,29 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 17 Sep 2026 15:02:16 -0000
-Message-Id: <178965733626.536974.2404690545482711142@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4681992283795030220=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 17 Sep 2026 15:03:41 -0000
+Message-Id: <178965742137.537577.18196633710119347171@gitolite.kernel.org>
+
+--===============4681992283795030220==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/export-net
-    old: 9d98562ae208a3407f169bd0410a13a3da0a2aa0
-    new: d33d66bbbbdfb7e5520cb8ea77287455878c1f5a
+  - ref: refs/heads/review-ilpo-next
+    old: ae310de672342308fd4f160ca7a18c97dd6b174c
+    new: 6dd5dfdc96dd33a94f3bf2135d2dcb14f3661d1e
     log: |
-         f3bfeb31d517e5d79d3e9e8c9bf3750b3fad447d DO-NOT-MERGE: git markup: net
-         bce65fccd31400e06ce1d4b17d285b8a07e9c89f DO-NOT-MERGE: git markup: fixes other trees
-         6fe5e52288f91f88533d93ff86e5fcb262b6aa21 mptcp: avoid unneeded actions on subflow reset
-         658725d3a667ddd203371d2487dae5fb5100630e mptcp: close race between scheduler and state change
-         0d2a593b3acea39d183dc1f22b1cc140965226b7 mptcp: fix bad accounting in __mptcp_subflow_push_pending()
-         2de94ae77f1384921435da330ccccf89358303cc DO-NOT-MERGE: git markup: fixes net
-         c6c63c35330875530a5aeed484a2a84214d56924 DO-NOT-MERGE: mptcp: add CI support
-         d48677b7dcb913b0bff9042068ecf12f45ace575 DO-NOT-MERGE: git markup: end common net net-next
-         3bd24a9c447d80a71ce242fb36b39e9ab4ac371f DO-NOT-MERGE: git markup: fixes net only
-         1a47a9f439f2b1f720dd5cb78879ad3d7ee52a5a DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-         d33d66bbbbdfb7e5520cb8ea77287455878c1f5a DO-NOT-MERGE: mptcp: enabled by default (net)
+         1ce2e8ee4ca47c0d4b788fbc791cdf82fcc98ef5 platform/x86/intel/vsec: Use bool for run_once
+         2ba3e60e4e073b48abde8e787fe6fffaacdc4007 platform/x86: think-lmi: Use ARRAY_SIZE() in tlmi_errstr_to_err()
+         5714a846afa8d7b8363aa134d4acbd129f68d049 platform/x86: hp-bioscfg: fix 16-byte heap overflow for empty auth token
+         153de724f47af43f0e0a1acc3b1dada18322cd18 platform/x86: ISST: Avoid model check for recent servers
+         4b960cc3c9e7f26d2efbbb40828ae1b28f085b60 platform/x86: acer-wmi: use bool for boolean quirk fields
+         09e0cadc540c56f7d7836cdbed915a04a10e18d2 platform/x86: acer-wmi: split hwmon from platform profile quirk
+         8adc32a9553d4b61fdc41fb3a7ccce64e118c935 platform/x86: acer-wmi: enable hwmon on Aspire A315-58G
+         15961651876bbb63547785454e49c8a2e30ae2eb platform/x86/intel/pmc: Add rugged Panther Lake support to intel_pmc_core
+         6dd5dfdc96dd33a94f3bf2135d2dcb14f3661d1e platform/x86: intel-uncore-freq: Add support for rugged Panther Lake
          
+
+--===============4681992283795030220==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1789657417 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1789657416-86bdf5e490b5fa79eddeb72e93fd600f5799ec79
+
+ae310de672342308fd4f160ca7a18c97dd6b174c 6dd5dfdc96dd33a94f3bf2135d2dcb14f3661d1e refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaqwBTAAKCRBZrE9hU+XO
+MSSxAP9vKBtTNDVoOcC8sKT/NZRQO6hv0NOem3nMHcsCCP8NhwEA7Yokk4x+0L0k
+Sm0J46Hg9IR+htXX0mHJyfVl+zT6VgI=
+=oDVF
+-----END PGP SIGNATURE-----
+
+--===============4681992283795030220==--
